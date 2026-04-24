@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class CallbackEventHandler : Object
     {
+        public bool isIMGUIContainer; // 0x10
+        public UnityEngine.UIElements.EventCallbackRegistry m_CallbackRegistry; // 0x18
+        public string ExecuteDefaultActionName;
+        public string ExecuteDefaultActionAtTargetName;
+
         // ── Methods ──
         public void RegisterCallback(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
         public void AddEventCategories(){} // RVA: 0x7FFD4E090980
@@ -28,8 +33,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ChangeEvent`1 : EventBase`1
     {
-        public T1717595504 previousValue;
-        public T1717595504 newValue;
+        public T previousValue;
+        public T newValue;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -45,10 +50,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ClampedDragger`1 : Clickable
     {
-        public object dragDirection;
-        public object slider;
-        public object startMousePosition;
-        public object delta;
+        public System.Action dragDirection;
+        public System.Action slider;
+        public 0x664744D8<T> startMousePosition;
+        public UnityEngine.UIElements.BaseSlider`1<T> delta;
+        public UnityEngine.Vector2 <startMousePosition>k__BackingField;
 
         // ── Methods ──
         public void add_dragging(){} // RVA: 0x7FFD4E090A40
@@ -69,10 +75,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Clickable : PointerManipulator
     {
-        public object active;
-        public object lastMousePosition;
-        public object acceptClicksIfDisabled;
-        public object invokePolicy;
+        public System.Action`1<UnityEngine.UIElements.EventBase> active; // 0x38
+        public System.Action lastMousePosition; // 0x40
+        public long acceptClicksIfDisabled; // 0x48
+        public long invokePolicy; // 0x50
+        public bool <active>k__BackingField; // 0x58
+        public UnityEngine.Vector2 <lastMousePosition>k__BackingField; // 0x5C
+        public int m_ActivePointerId; // 0x64
+        public bool m_AcceptClicksIfDisabled; // 0x68
+        public 0x66486E30 m_Repeater; // 0x70
 
         // ── Methods ──
         public void add_clickedWithEventInfo(){} // RVA: 0x7FFD54E9FF00
@@ -113,8 +124,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CollectionViewController : Object
     {
-        public object itemsSource;
-        public object view;
+        public UnityEngine.UIElements.BaseVerticalCollectionView itemsSource; // 0x10
+        public System.Collections.IList view; // 0x18
+        public System.Action itemsSourceChanged; // 0x20
+        public System.Action`2<int,int> itemIndexChanged; // 0x28
 
         // ── Methods ──
         public void add_itemsSourceChanged(){} // RVA: 0x7FFD54EA9BB0
@@ -148,7 +161,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CollectionVirtualizationController : Object
     {
-        public ÎÏÌÎÎÎÌÌÌ.ÎÏÌÌÍÌÎÎÎÏÍÍ>k__BackingField firstVisibleIndex; // 0x10
+        public 0x664794F0 firstVisibleIndex; // 0x10
 
         // ── Methods ──
         public void get_firstVisibleIndex(){} // RVA: 0x7FFD4E079960
@@ -172,7 +185,30 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Column : Object
     {
-        public ÎÏÌÎÎÎÌÌÌ.nt name;
+        public string name;
+        public string title; // 0x10
+        public string icon; // 0x18
+        public UnityEngine.UIElements.Background index; // 0x20
+        public bool displayIndex; // 0x40
+        public UnityEngine.UIElements.Length visibleIndex; // 0x44
+        public UnityEngine.UIElements.Length visible; // 0x4C
+        public UnityEngine.UIElements.Length width; // 0x54
+        public float minWidth; // 0x5C
+        public bool maxWidth; // 0x60
+        public bool desiredWidth; // 0x61
+        public bool sortable; // 0x62
+        public bool stretchable; // 0x63
+        public System.Func`1<UnityEngine.UIElements.VisualElement> optional; // 0x68
+        public System.Action`1<UnityEngine.UIElements.VisualElement> resizable; // 0x70
+        public System.Action`1<UnityEngine.UIElements.VisualElement> makeHeader; // 0x78
+        public System.Action`1<UnityEngine.UIElements.VisualElement> bindHeader; // 0x80
+        public System.Func`1<UnityEngine.UIElements.VisualElement> unbindHeader; // 0x88
+        public System.Action`2<UnityEngine.UIElements.VisualElement,int> destroyHeader; // 0x90
+        public System.Action`2<UnityEngine.UIElements.VisualElement,int> makeCell; // 0x98
+        public System.Action`1<UnityEngine.UIElements.VisualElement> bindCell; // 0xA0
+        public UnityEngine.UIElements.Columns unbindCell; // 0xA8
+        public System.Action`2<UnityEngine.UIElements.Column,0x66477FF8> destroyCell; // 0xB0
+        public System.Action`1<UnityEngine.UIElements.Column> collection; // 0xB8
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E35C380
@@ -224,17 +260,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Columns : Object
     {
-        public object primaryColumnName;
-        public object reorderable;
-        public object resizable;
-        public object resizePreview;
-        public object displayList;
-        public object visibleList;
-        public object stretchMode;
-        public object Count;
-        public object IsReadOnly;
-        public object Item;
-        public object Item;
+        public System.Collections.Generic.IList`1<UnityEngine.UIElements.Column> primaryColumnName; // 0x10
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.Column> reorderable; // 0x18
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.Column> resizable; // 0x20
+        public bool resizePreview; // 0x28
+        public 0x66478470 displayList; // 0x2C
+        public bool visibleList; // 0x30
+        public bool stretchMode; // 0x31
+        public bool Count; // 0x32
+        public string IsReadOnly; // 0x38
+        public System.Action`1<0x66478418> Item; // 0x40
+        public System.Action`2<UnityEngine.UIElements.Column,int> Item; // 0x48
+        public System.Action`1<UnityEngine.UIElements.Column> columnRemoved; // 0x50
+        public System.Action`2<UnityEngine.UIElements.Column,0x66477FF8> columnChanged; // 0x58
+        public System.Action`1<UnityEngine.UIElements.Column> columnResized; // 0x60
+        public System.Action`3<UnityEngine.UIElements.Column,int,int> columnReordered; // 0x68
 
         // ── Methods ──
         public void get_primaryColumnName(){} // RVA: 0x7FFD4E5F0140
@@ -286,7 +326,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CommandEventBase`1 : EventBase`1
     {
-        public object commandName;
+        public string commandName;
 
         // ── Methods ──
         public void get_commandName(){} // RVA: 0x7FFD4E078E90
@@ -299,89 +339,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ComputedStyle : ValueType
     {
-        public object customPropertiesCount;
-        public object hasTransition;
-        public object alignContent;
-        public object alignItems;
-        public object alignSelf;
-        public object backgroundColor;
-        public object backgroundImage;
-        public object backgroundPositionX;
-        public object backgroundPositionY;
-        public object backgroundRepeat;
-        public object backgroundSize;
-        public object borderBottomColor;
-        public object borderBottomLeftRadius;
-        public object borderBottomRightRadius;
-        public object borderBottomWidth;
-        public object borderLeftColor;
-        public object borderLeftWidth;
-        public object borderRightColor;
-        public object borderRightWidth;
-        public object borderTopColor;
-        public object borderTopLeftRadius;
-        public object borderTopRightRadius;
-        public object borderTopWidth;
-        public object bottom;
-        public object color;
-        public object cursor;
-        public object display;
-        public object flexBasis;
-        public object flexDirection;
-        public object flexGrow;
-        public object flexShrink;
-        public object flexWrap;
-        public object fontSize;
-        public object height;
-        public object justifyContent;
-        public object left;
-        public object letterSpacing;
-        public object marginBottom;
-        public object marginLeft;
-        public object marginRight;
-        public object marginTop;
-        public object maxHeight;
-        public object maxWidth;
-        public object minHeight;
-        public object minWidth;
-        public object opacity;
-        public object overflow;
-        public object paddingBottom;
-        public object paddingLeft;
-        public object paddingRight;
-        public object paddingTop;
-        public object position;
-        public object right;
-        public object rotate;
-        public object scale;
-        public object textOverflow;
-        public object textShadow;
-        public object top;
-        public object transformOrigin;
-        public object transitionDelay;
-        public object transitionDuration;
-        public object transitionProperty;
-        public object transitionTimingFunction;
-        public object translate;
-        public object unityBackgroundImageTintColor;
-        public object unityFont;
-        public object unityFontDefinition;
-        public object unityFontStyleAndWeight;
-        public object unityOverflowClipBox;
-        public object unityParagraphSpacing;
-        public object unitySliceBottom;
-        public object unitySliceLeft;
-        public object unitySliceRight;
-        public object unitySliceScale;
-        public object unitySliceTop;
-        public object unityTextAlign;
-        public object unityTextOutlineColor;
-        public object unityTextOutlineWidth;
-        public object unityTextOverflowPosition;
-        public object visibility;
-        public object whiteSpace;
-        public object width;
-        public object wordSpacing;
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.InheritedData> customPropertiesCount; // 0x10
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.LayoutData> hasTransition; // 0x18
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.RareData> alignContent; // 0x20
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransformData> alignItems; // 0x28
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransitionData> alignSelf; // 0x30
+        public UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.VisualData> backgroundColor; // 0x38
+        public 0x66473D48 backgroundImage; // 0x40
+        public System.Collections.Generic.Dictionary`2<string,0x66489928> backgroundPositionX; // 0x48
+        public long backgroundPositionY; // 0x50
+        public float backgroundRepeat; // 0x58
+        public 0x66481160[] backgroundSize; // 0x60
 
         // ── Methods ──
         public void get_customPropertiesCount(){} // RVA: 0x7FFD54FCEEF0
@@ -502,6 +470,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ComputedTransitionUtils : Object
     {
+        public System.Collections.Generic.List`1<0x66481160> s_ComputedTransitionsBuffer;
+
         // ── Methods ──
         public void UpdateComputedTransitions(){} // RVA: 0x7FFD54FF5320
         public void HasTransitionProperty(){} // RVA: 0x7FFD54FF53D0
@@ -518,10 +488,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CreationContext : ValueType
     {
-        public object target;
-        public object visualTreeAsset;
-        public object slotInsertionPoints;
-        public object attributeOverrides;
+        public UnityEngine.UIElements.CreationContext target;
+        public UnityEngine.UIElements.VisualElement visualTreeAsset; // 0x10
+        public UnityEngine.UIElements.VisualTreeAsset slotInsertionPoints; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.UIElements.VisualElement> attributeOverrides; // 0x20
+        public System.Collections.Generic.List`1<0x664850A0> <attributeOverrides>k__BackingField; // 0x28
 
         // ── Methods ──
         public void get_target(){} // RVA: 0x7FFD4EEF9F60
@@ -540,9 +511,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Cursor : ValueType
     {
-        public object texture;
-        public object hotspot;
-        public object defaultCursorId;
+        public UnityEngine.Texture2D texture; // 0x10
+        public UnityEngine.Vector2 hotspot; // 0x18
+        public int defaultCursorId; // 0x20
 
         // ── Methods ──
         public void get_texture(){} // RVA: 0x7FFD4EEF9F60
@@ -559,7 +530,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CustomStyleProperty`1 : ValueType
     {
-        public object name;
+        public string name;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E078E90

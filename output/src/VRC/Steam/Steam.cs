@@ -7,11 +7,10 @@ namespace VRC.Steam
 {
     public class SteamManager : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_9EB;
-        public object f_AB7;
-        public object f_54A;
+        public uint _name;
+        public uint _hideFlags;
+        public 0x665ECB00 f_9EB; // 0x8
+        public bool f_AB7; // 0x10
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FB8C010

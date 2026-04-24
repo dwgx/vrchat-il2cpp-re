@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System
 {
     public class WeakReference`1 : Object
     {
+        public System.Runtime.InteropServices.GCHandle handle; // 0x10
+        public bool trackResurrection; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
         public void GetObjectData(){}

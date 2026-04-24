@@ -66,6 +66,20 @@ namespace VRC.SDK3.Components
 
     public class VRCCameraDollyAnimation : MonoBehaviour
     {
+        public int RESOLUTION;
+        public System.Action`1<VRC.SDK3.Components.VRCCameraDollyAnimation> ImportCameraDollyAnimation;
+        public bool IsRelativeToPlayer; // 0x20
+        public bool IsSpeedBased; // 0x21
+        public bool IsUsingLookAtMe; // 0x22
+        public bool IsUsingGreenscreen; // 0x23
+        public bool IsUsingMultiStream; // 0x24
+        public 0x665C33E8 PathType; // 0x28
+        public 0x665C3440 LoopType; // 0x2C
+        public 0x665C3498 CaptureType; // 0x30
+        public 0x665C34F0 FocusMode; // 0x34
+        public 0x665C3548 AnchorMode; // 0x38
+        public VRC.SDK3.Components.VRCCameraDollyPath[] Paths; // 0x40
+
         // ── Methods ──
         public void Import(){} // RVA: 0x7FFD5744FB90
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -73,12 +87,26 @@ namespace VRC.SDK3.Components
 
     public class VRCCameraDollyPath : MonoBehaviour
     {
+        public VRC.SDK3.Components.VRCCameraDollyPathPoint[] Points; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class VRCCameraDollyPathPoint : MonoBehaviour
     {
+        public float Zoom; // 0x20
+        public float Exposure; // 0x24
+        public float Duration; // 0x28
+        public float Speed; // 0x2C
+        public float FocalDistance; // 0x30
+        public float Aperture; // 0x34
+        public float Hue; // 0x38
+        public float Saturation; // 0x3C
+        public float Lightness; // 0x40
+        public float LookAtMeXOffset; // 0x44
+        public float LookAtMeYOffset; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5744FBF0
     }
@@ -92,7 +120,7 @@ namespace VRC.SDK3.Components
 
     public class VRCInputFieldKeyboardOverride : MonoBehaviour
     {
-        public object OverrideBehavior;
+        public 0x665C3C28 OverrideBehavior; // 0x20
 
         // ── Methods ──
         public void get_OverrideBehavior(){} // RVA: 0x7FFD4E4FBBE0
@@ -107,6 +135,10 @@ namespace VRC.SDK3.Components
 
     public class VRCMirrorReflection : VRC_MirrorReflection
     {
+        public 0x665C3A18 cameraClearFlags; // 0xC0
+        public UnityEngine.Material customSkybox; // 0xC8
+        public UnityEngine.Color customClearColor; // 0xD0
+
         // ── Methods ──
         public void UpdateCameraClearing(){} // RVA: 0x7FFD57451AB0
         public void .ctor(){} // RVA: 0x7FFD57451FC0
@@ -114,6 +146,17 @@ namespace VRC.SDK3.Components
 
     public class VRCObjectPool : VRCNetworkBehaviour
     {
+        public UnityEngine.GameObject[] Pool; // 0x20
+        public System.Action`1<VRC.SDK3.Components.VRCObjectPool> OnInit;
+        public System.Action`2<VRC.SDK3.Components.VRCObjectPool,int> OnSpawn; // 0x8
+        public System.Action`2<VRC.SDK3.Components.VRCObjectPool,int> OnReturn; // 0x10
+        public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,int> _indices; // 0x28
+        public int _lastSpawnIndex; // 0x30
+        public int[] _spawnOrder; // 0x38
+        public bool didInit; // 0x40
+        public UnityEngine.Vector3[] StartPositions; // 0x48
+        public UnityEngine.Quaternion[] StartRotations; // 0x50
+
         // ── Methods ──
         public void NetworkConfigure(){} // RVA: 0x7FFD5744FC70
         public void Shuffle(){} // RVA: 0x7FFD57450230
@@ -124,9 +167,15 @@ namespace VRC.SDK3.Components
 
     public class VRCObjectSync : VRCNetworkBehaviour
     {
-        public object SetKinematicHook;
-        public object SetGravityHook;
-        public object FlagDiscontinuityHook;
+        public bool SetKinematicHook; // 0x20
+        public bool SetGravityHook; // 0x21
+        public System.Action`2<VRC.SDK3.Components.VRCObjectSync,bool> FlagDiscontinuityHook;
+        public System.Action`2<VRC.SDK3.Components.VRCObjectSync,bool> <SetGravityHook>k__BackingField; // 0x8
+        public System.Action`1<VRC.SDK3.Components.VRCObjectSync> <FlagDiscontinuityHook>k__BackingField; // 0x10
+        public System.Action`3<VRC.SDK3.Components.VRCObjectSync,UnityEngine.Vector3,UnityEngine.Quaternion> TeleportHandler; // 0x18
+        public System.Action`1<VRC.SDK3.Components.VRCObjectSync> RespawnHandler; // 0x20
+        public AwakeDelegate OnAwake; // 0x28
+        public bool didInit; // 0x22
 
         // ── Methods ──
         public void get_SetKinematicHook(){} // RVA: 0x7FFD57450D30
@@ -149,12 +198,16 @@ namespace VRC.SDK3.Components
 
     public class VRCOpenMenu : Object
     {
+        public System.Action`1<string> _OpenAvatarListingDelegate;
+
         // ── Methods ──
         public void OpenAvatarListing(){} // RVA: 0x7FFD57452E60
     }
 
     public class VRCPickup : VRC_Pickup
     {
+        public 0x665C38B8 version; // 0xA8
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD57451AA0
         public void .ctor(){} // RVA: 0x7FFD574054A0
@@ -162,6 +215,8 @@ namespace VRC.SDK3.Components
 
     public class VRCPlayerObject : VRCNetworkBehaviour
     {
+        public System.Func`2<VRC.SDK3.Components.VRCPlayerObject,VRC.SDKBase.VRCPlayerApi> _GetPlayer;
+
         // ── Methods ──
         public void GetPlayer(){} // RVA: 0x7FFD5744FB30
         public void NetworkConfigure(){} // RVA: 0x7FFD4E341310
@@ -176,6 +231,9 @@ namespace VRC.SDK3.Components
 
     public class VRCSceneDescriptor : VRC_SceneDescriptor
     {
+        public VRC.SDK3.Components.VRCPlayerObject[] PlayerPersistence; // 0x218
+        public float[] NavigationAreas; // 0x220
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57452020
         public void .ctor(){} // RVA: 0x7FFD574522A0
@@ -189,6 +247,11 @@ namespace VRC.SDK3.Components
 
     public class VRCStation : VRCStation
     {
+        public string OnRemotePlayerEnterStation; // 0x50
+        public string OnLocalPlayerEnterStation; // 0x58
+        public string OnRemotePlayerExitStation; // 0x60
+        public string OnLocalPlayerExitStation; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57452520
     }
@@ -201,50 +264,64 @@ namespace VRC.SDK3.Components
 
     public class VRCUrlInputField : Selectable
     {
-        public object input;
-        public object compositionString;
-        public object mesh;
-        public object cachedInputTextGenerator;
-        public object shouldHideMobileInput;
-        public object shouldActivateOnSelect;
-        public object text;
-        public object isFocused;
-        public object caretBlinkRate;
-        public object caretWidth;
-        public object textComponent;
-        public object placeholder;
-        public object caretColor;
-        public object customCaretColor;
-        public object selectionColor;
-        public object onEndEdit;
-        public object onValueChange;
-        public object onValueChanged;
-        public object onValidateInput;
-        public object characterLimit;
-        public object contentType;
-        public object lineType;
-        public object inputType;
-        public object touchScreenKeyboard;
-        public object keyboardType;
-        public object characterValidation;
-        public object readOnly;
-        public object multiLine;
-        public object asteriskChar;
-        public object wasCanceled;
-        public object caretPositionInternal;
-        public object caretSelectPositionInternal;
-        public object hasSelection;
-        public object caretPosition;
-        public object selectionAnchorPosition;
-        public object selectionFocusPosition;
-        public object clipboard;
-        public object minWidth;
-        public object preferredWidth;
-        public object flexibleWidth;
-        public object minHeight;
-        public object preferredHeight;
-        public object flexibleHeight;
-        public object layoutPriority;
+        public System.Action input; // 0x100
+        public 0x664E03D8 compositionString; // 0x108
+        public char[] mesh;
+        public bool cachedInputTextGenerator; // 0x8
+        public bool shouldHideMobileInput; // 0x9
+        public bool shouldActivateOnSelect; // 0xA
+        public UnityEngine.UI.Text text; // 0x110
+        public UnityEngine.UI.Graphic isFocused; // 0x118
+        public 0x665C3DE0 caretBlinkRate; // 0x120
+        public 0x665C3E38 caretWidth; // 0x124
+        public char textComponent; // 0x128
+        public 0x664E0430 placeholder; // 0x12C
+        public 0x665C3EE8 caretColor; // 0x130
+        public bool customCaretColor; // 0x134
+        public 0x665C3E90 selectionColor; // 0x138
+        public int onEndEdit; // 0x13C
+        public 0x665C3F98 onValueChange; // 0x140
+        public 0x665C3FF0 onValueChanged; // 0x148
+        public 0x665C3F40 onValidateInput; // 0x150
+        public UnityEngine.Color characterLimit; // 0x158
+        public bool contentType; // 0x168
+        public UnityEngine.Color lineType; // 0x16C
+        public string inputType; // 0x180
+        public float touchScreenKeyboard; // 0x188
+        public int keyboardType; // 0x18C
+        public bool characterValidation; // 0x190
+        public bool readOnly; // 0x191
+        public int multiLine; // 0x194
+        public int asteriskChar; // 0x198
+        public UnityEngine.RectTransform wasCanceled; // 0x1A0
+        public UnityEngine.UIVertex[] caretPositionInternal; // 0x1A8
+        public UnityEngine.TextGenerator caretSelectPositionInternal; // 0x1B0
+        public UnityEngine.CanvasRenderer hasSelection; // 0x1B8
+        public bool caretPosition; // 0x1C0
+        public UnityEngine.Mesh selectionAnchorPosition; // 0x1C8
+        public bool selectionFocusPosition; // 0x1D0
+        public bool clipboard; // 0x1D1
+        public bool minWidth; // 0x1D2
+        public bool preferredWidth; // 0x1D3
+        public float flexibleWidth;
+        public float minHeight;
+        public bool preferredHeight; // 0x1D4
+        public UnityEngine.Coroutine flexibleHeight; // 0x1D8
+        public float layoutPriority; // 0x1E0
+        public int m_DrawStart; // 0x1E4
+        public int m_DrawEnd; // 0x1E8
+        public UnityEngine.Coroutine m_DragCoroutine; // 0x1F0
+        public string m_OriginalText; // 0x1F8
+        public bool m_WasCanceled; // 0x200
+        public bool m_HasDoneFocusTransition; // 0x201
+        public 0x664DFC48 m_WaitForSecondsRealtime; // 0x208
+        public bool m_TouchKeyboardAllowsInPlaceEditing; // 0x210
+        public string kEmailSpecialCharacters;
+        public string kOculusQuestDeviceModel;
+        public string kPicoDeviceModel;
+        public bool AllowSendingOnEndEdit; // 0x211
+        public UnityEngine.Event m_ProcessingEvent; // 0x218
+        public int k_MaxTextLength;
 
         // ── Methods ──
         public void GetUrl(){} // RVA: 0x7FFD57452EC0

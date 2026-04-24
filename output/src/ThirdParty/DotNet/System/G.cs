@@ -33,7 +33,7 @@ namespace ThirdParty.DotNet.System
 
     public class Guid : ValueType
     {
-        public ce Empty;
+        public System.Guid Empty;
         public int _a; // 0x10
         public short _b; // 0x14
         public short _c; // 0x16

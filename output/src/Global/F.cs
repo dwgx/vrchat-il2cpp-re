@@ -5,6 +5,9 @@
 
 public class FILE_TIME : ValueType
 {
+    public uint dwLowDateTime; // 0x10
+    public uint dwHighDateTime; // 0x14
+
     // ── Methods ──
     public void ToTicks(){} // RVA: 0x7FFD537AA340
     public void ToDateTimeOffset(){} // RVA: 0x7FFD537AA350
@@ -12,7 +15,7 @@ public class FILE_TIME : ValueType
 
 public class FakeDelegate : Object
 {
-    public object Method;
+    public System.Reflection.MethodInfo Method; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -37,8 +40,8 @@ public class FallbackKeyComparer`1 : Object
 
 public class FallbackWrapper`1 : Object
 {
-    public object Count;
-    public object Item;
+    public System.Collections.Generic.IEnumerable`1<T> Count;
+    public System.Collections.Generic.IList`1<T> Item;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -57,22 +60,33 @@ public class Fallback`1 : MulticastDelegate
 
 public class FeatureFidelityGroup : Object
 {
+    public 0x66504FA8 targetFeatureEnabled; // 0x10
+    public 0x66504F50 targetFeatureFidelity; // 0x14
+    public 0x66504FA8 currentFeatureEnabled; // 0x18
+    public 0x66504F50 currentFeatureFidelity; // 0x1C
+    public System.Nullable`1<0x66504FA8> lastSetTargetFeatureEnabled; // 0x20
+    public System.Nullable`1<0x66504F50> lastSetTargetFeatureFidelity; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53CF3B50
 }
 
 public class FieldDescription : ValueType
 {
+    public string name;
+    public string ussName;
+    public System.Func`2<V,T> read;
+    public WriteDelegate<V,V,T> write;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E09B8C0
 }
 
 public class FillCollection`1 : Object
 {
-    public int Count;
-    public URA.mes<string,object> IsReadOnly;
-    public rawBeforeTransparent<T1717737920,T1717737936,T1717737952,T1717737968> <>4__this;
-    public int <i>5__2;
+    public int Count; // 0x10
+    public FillCollection`1<System.Collections.Generic.KeyValuePair`2<string,int>> IsReadOnly; // 0xFFFF
+    public int <Count>k__BackingField; // 0x14
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -99,6 +113,9 @@ public class FilterBlockCallback : MulticastDelegate
 
 public class FinalizationHelper : Object
 {
+    public LinkedSlotVolatile<int>[] SlotArray; // 0x10
+    public bool m_trackAllValues; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E096500
     public void Finalize(){} // RVA: 0x7FFD4E090980
@@ -120,6 +137,9 @@ public class FindTransform : MulticastDelegate
 
 public class FingerData : ValueType
 {
+    public 0x66360878 Finger; // 0x10
+    public JointData[] Joints; // 0x18
+    public UnityEngine.Vector3 TipPosition; // 0x20
 }
 
 public class FinishFrameRendering : ValueType
@@ -128,6 +148,13 @@ public class FinishFrameRendering : ValueType
 
 public class FirstValueToUniTaskObserver`1 : Object
 {
+    public System.Action`1<object> callback;
+    public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<T> promise;
+    public 0x665483F0 disposable;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Threading.CancellationTokenRegistration registration;
+    public bool hasValue;
+
     // ── Methods ──
     public void .ctor(){}
     public void OnCanceled(){} // RVA: 0x7FFD4E090A10
@@ -139,8 +166,9 @@ public class FirstValueToUniTaskObserver`1 : Object
 
 public class FoldoutList : Object
 {
-    public object Item;
-    public object Count;
+    public System.Collections.Generic.List`1<bool> Item; // 0x10
+    public bool Count; // 0x18
+    public UnityEngine.Vector2 scrollPos; // 0x1C
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4E4D4BF0
@@ -170,15 +198,7 @@ public class FontTextureRebuildCallback : MulticastDelegate
 
 public class ForceOverLifetimeModule : ValueType
 {
-    public object enabled;
-    public object x;
-    public object y;
-    public object z;
-    public object xMultiplier;
-    public object yMultiplier;
-    public object zMultiplier;
-    public object space;
-    public object randomized;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -222,6 +242,15 @@ public class ForceOverLifetimeModule : ValueType
 
 public class FovCache : ValueType
 {
+    public UnityEngine.Rect mFovSoftGuideRect; // 0x10
+    public UnityEngine.Rect mFovHardGuideRect; // 0x20
+    public float mFovH; // 0x30
+    public float mFov; // 0x34
+    public float mOrthoSizeOverDistance; // 0x38
+    public float mAspect; // 0x3C
+    public UnityEngine.Rect mSoftGuideRect; // 0x40
+    public UnityEngine.Rect mHardGuideRect; // 0x50
+
     // ── Methods ──
     public void UpdateCache(){} // RVA: 0x7FFD4FC44D60
     public void ScreenToFOV(){} // RVA: 0x7FFD4FC45120
@@ -229,6 +258,11 @@ public class FovCache : ValueType
 
 public class Frame : Object
 {
+    public int frameNumber; // 0x10
+    public int frameDelay; // 0x14
+    public float[] Visemes; // 0x18
+    public float laughterScore; // 0x20
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4EE93BF0
     public void Equals(){} // RVA: 0x7FFD4EE93C40
@@ -250,6 +284,10 @@ public class FrameReadyEventHandler : MulticastDelegate
 
 public class FromAsyncTrimPromise`1 : Task`1
 {
+    public 0x6641E4D0 s_completeFromAsyncResult;
+    public T m_thisRef;
+    public System.Func`3<T,System.IAsyncResult,T> m_endMethod;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     public void CompleteFromAsyncResult(){} // RVA: 0x7FFD4E090A10

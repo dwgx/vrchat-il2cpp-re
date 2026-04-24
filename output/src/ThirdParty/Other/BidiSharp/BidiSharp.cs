@@ -7,6 +7,9 @@ namespace ThirdParty.Other.BidiSharp
 {
     public class Bidi : Object
     {
+        public int MAX_DEPTH;
+        public System.Collections.Generic.Dictionary`2<char,char> _bracketPairs;
+
         // ── Methods ──
         public void LogicalToVisual(){} // RVA: 0x7FFD53654570
         public void ClassifyCharacters(){} // RVA: 0x7FFD53654E90
@@ -40,6 +43,8 @@ namespace ThirdParty.Other.BidiSharp
 
     public class Bidi_Types : Object
     {
+        public byte[] BidiCharTypes;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53657ED0
     }

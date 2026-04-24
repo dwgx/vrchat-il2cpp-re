@@ -8,8 +8,18 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÏÏÍÎÌÎÏÎÏÍÍÎÏÎÏÌÌÌÏÎÌ</summary>
     public class ObjectInstantiator : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public System.Action`2<UnityEngine.GameObject,int> _destroyCancellationToken;
+        public string[] _useGUILayout; // 0x8
+        public string[] ÎÎÍÌÍÍÌÍÍÌÍÏÌÍÎÍÏÌÌÏÏÏÍ; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,string> ÏÏÎÍÎÌÍÏÍÏÏÎÍÌÌÎÎÏÍÎÌÍÍ; // 0x18
+        public string[] ÎÌÏÎÌÏÍÎÌÌÎÌÍÎÏÍÏÍÌÎÏÍÌ; // 0x20
+        public bool ÍÍÎÎÏÍÌÏÎÎÍÌÍÏÏÎÎÏÏÏÍÎÍ; // 0x28
+        public System.Collections.Generic.Dictionary`2<long,System.Collections.Generic.Dictionary`2<string,float>> ÍÎÌÏÎÌÏÎÏÌÎÎÎÎÌÏÏÎÎÎÍÎÌ; // 0x30
+        public System.Collections.Generic.Dictionary`2<string,ÌÌÎÌÏÍÎÏÍÌÍÎÌÎÏÍÎÌÌÎÌÎÍ> ÏÍÏÎÏÎÌÎÎÌÏÏÍÍÏÏÎÌÏÍÎÎÏ; // 0x20
+        public System.Collections.Generic.Dictionary`2<int,ÌÎÌÏÏÎÏÌÎÍÌÌÎÏÎÎÍÌÏÏÏÌÍ> ÍÌÌÌÎÍÎÎÏÌÏÏÏÌÌÎÌÎÌÍÎÌÌ; // 0x28
+        public System.Collections.Generic.List`1<int> ÍÏÏÏÏÎÌÎÎÍÎÍÏÍÏÌÍÌÌÏÎÍÍ; // 0x30
+        public ÏÍÌÎÏÎÌÌÍÍÌÏÏÌÎÌÍÏÌÌÏÍÍ[] ÍÌÌÏÏÏÎÎÍÍÍÏÍÎÎÎÎÌÎÎÏÍÎ; // 0x38
+        public int ÎÍÌÌÏÏÎÏÍÏÌÎÎÎÌÏÍÍÍÍÌÍÍ; // 0x40
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F5EE2D0
@@ -55,6 +65,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÏÌÌÍÎÌÎÏÏÌÍÎÌÍÍÎÍÏÍÏ</summary>
     public class OpusCodecRelated_6A9C : Object
     {
+        public Newtonsoft.Json.JsonSerializerSettings ÌÏÎÎÍÏÏÌÍÏÍÌÍÍÎÏÍÍÌÍÏÍÌ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EE010B0
         public void Equals(){} // RVA: 0x7FFD4EE01810

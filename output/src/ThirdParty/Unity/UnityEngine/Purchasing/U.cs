@@ -15,6 +15,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UDPBindings : Object
     {
+        public object m_Bridge; // 0x10
+        public System.Action`2<bool,string> m_RetrieveProductsCallbackCache; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DEA570
         public void Initialize(){} // RVA: 0x7FFD54DEA690
@@ -27,6 +30,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UDPImpl : JSONStore
     {
+        public UnityEngine.Purchasing.INativeUDPStore m_Bindings; // 0x48
+        public object m_UserInfo; // 0x50
+        public string m_LastInitError; // 0x58
+        public bool m_Initialized; // 0x60
+        public System.Action`1<UnityEngine.Purchasing.Product> m_DeferredCallback; // 0x68
+
         // ── Methods ──
         public void SetNativeStore(){} // RVA: 0x7FFD4E3BC740
         public void Initialize(){} // RVA: 0x7FFD4E342E30
@@ -40,6 +49,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UDPReflectionUtils : Object
     {
+        public System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> s_assemblyTypeCache;
+        public System.Collections.Generic.Dictionary`2<string,System.Type> s_typeCache; // 0x8
+        public string[] k_whiteListedAssemblies; // 0x10
+
         // ── Methods ──
         public void GetTypeByName(){} // RVA: 0x7FFD54DEE000
         public void GetAllAssemblies(){} // RVA: 0x7FFD54DEE6F0
@@ -49,6 +62,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UIFakeStore : FakeStore
     {
+        public UnityEngine.Purchasing.DialogRequest m_CurrentDialog; // 0x70
+        public int m_LastSelectedDropdownIndex; // 0x78
+        public UnityEngine.GameObject m_UIFakeStoreWindowObject; // 0x80
+        public UnityEngine.GameObject m_EventSystem; // 0x88
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DF78D0
         public void StartUI(){} // RVA: 0x7FFD54DF78E0 | overloaded x2
@@ -71,6 +89,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UIFakeStoreDropdown : Object
     {
+        public System.Collections.Generic.List`1<string> m_Options; // 0x10
+        public System.Action`2<int,string> m_OnDropdown; // 0x18
+        public UnityEngine.Vector2 scrollPosition; // 0x20
+
         // ── Methods ──
         public void DoPopup(){} // RVA: 0x7FFD54DF9120
         public void OnOptionSelected(){} // RVA: 0x7FFD54DF93C0
@@ -81,6 +103,20 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UIFakeStoreWindow : MonoBehaviour
     {
+        public string m_QueryText; // 0x20
+        public string m_OkText; // 0x28
+        public string m_CancelText; // 0x30
+        public string m_LastSelectedOptionText; // 0x38
+        public System.Action m_OnOk; // 0x40
+        public System.Action m_OnCancel; // 0x48
+        public System.Action`1<int> m_OnDropdown; // 0x50
+        public bool m_CancelEnabled; // 0x58
+        public bool m_DropdownEnabled; // 0x59
+        public bool m_DoDropdown; // 0x5A
+        public UnityEngine.Purchasing.UIFakeStoreDropdown m_Dropdown; // 0x60
+        public UnityEngine.Vector2 scrollPosition; // 0x68
+        public float k_MenuScreenRatio;
+
         // ── Methods ──
         public void OnGUI(){} // RVA: 0x7FFD54DF9520
         public void CreateCenteredWindowRect(){} // RVA: 0x7FFD54DF9810
@@ -97,6 +133,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UnifiedReceipt : Object
     {
+        public string Payload; // 0x10
+        public string Store; // 0x18
+        public string TransactionID; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -109,6 +149,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UnityActivity : Object
     {
+        public 0x66619290 s_UnityPlayerClass;
+
         // ── Methods ──
         public void GetUnityPlayerClass(){} // RVA: 0x7FFD54DD5CA0
         public void GetCurrentActivity(){} // RVA: 0x7FFD54DD5DB0
@@ -125,6 +167,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UnityServicesInitializationChecker : Object
     {
+        public UnityEngine.ILogger m_Logger; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void CheckAndLogWarning(){} // RVA: 0x7FFD54DCC020

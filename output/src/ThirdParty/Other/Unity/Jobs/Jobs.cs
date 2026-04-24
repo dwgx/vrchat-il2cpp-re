@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Unity.Jobs
 {
     public class EarlyInitHelpers : Object
     {
+        public System.Collections.Generic.List`1<0x66606570> s_PendingDelegates;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5492E3A0
         public void FlushEarlyInits(){} // RVA: 0x7FFD5492E3B0
@@ -43,7 +45,8 @@ namespace ThirdParty.Other.Unity.Jobs
 
     public class JobHandle : ValueType
     {
-        public object IsCompleted;
+        public ulong IsCompleted; // 0x10
+        public int version; // 0x18
 
         // ── Methods ──
         public void Complete(){} // RVA: 0x7FFD54C6E5D0

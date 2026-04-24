@@ -7,11 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.SceneManagement
 {
     public class Scene : ValueType
     {
-        public object handle;
-        public object name;
-        public object isLoaded;
-        public object buildIndex;
-        public object rootCount;
+        public int handle; // 0x10
 
         // ── Methods ──
         public void IsValidInternal(){} // RVA: 0x7FFD54D01490
@@ -35,8 +31,10 @@ namespace ThirdParty.Unity.UnityEngine.SceneManagement
 
     public class SceneManager : Object
     {
-        public object sceneCount;
-        public object sceneCountInBuildSettings;
+        public bool sceneCount;
+        public UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,0x664E2848> sceneCountInBuildSettings; // 0x8
+        public UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene> sceneUnloaded; // 0x10
+        public UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> activeSceneChanged; // 0x18
 
         // ── Methods ──
         public void get_sceneCount(){} // RVA: 0x7FFD54D02160

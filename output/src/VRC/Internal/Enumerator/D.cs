@@ -8,8 +8,14 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÏÎÎÎÍÌÎÍÍÏÏÎÎÌÎÍÎÎÎÍÍÏÍ</summary>
     public class DataTypeBoundTypeEnumerator_DC17 : Object
     {
-        public object System.Collections.Generic.IEnumerator<(DataType,BoundType)>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<(DataType,BoundType)>.Current;
+        public System.ValueTuple`2<V,U> System.Collections.IEnumerator.Current;
+        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ;
+        public ÏÎÍÎÌÎÎÍÌÌÏÍÏÌÎÏÏÏÍÌÏÎÌ<U> ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ;
+        public string ÏÍÌÎÌÍÌÏÏÎÏÍÎÌÌÎÎÏÎÌÎÏÍ;
+        public string ÌÏÏÍÌÍÌÍÍÎÏÎÏÍÍÌÎÏÌÍÏÏÎ;
+        public System.Collections.Generic.Dictionary`2<V,U> ÍÏÏÌÏÏÌÌÎÏÍÏÌÌÎÍÏÍÏÎÎÌÍ;
+        public Enumerator<V> ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E078E90

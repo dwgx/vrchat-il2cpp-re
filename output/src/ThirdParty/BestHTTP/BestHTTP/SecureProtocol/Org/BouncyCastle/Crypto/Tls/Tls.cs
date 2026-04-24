@@ -7,11 +7,15 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 {
     public class AbstractTlsClient : AbstractTlsPeer
     {
-        public object HostNames;
-        public object ClientHelloRecordLayerVersion;
-        public object ClientVersion;
-        public object IsFallback;
-        public object MinimumVersion;
+        public 0x663F2268 HostNames; // 0x10
+        public 0x663F2318 ClientHelloRecordLayerVersion; // 0x18
+        public System.Collections.IList ClientVersion; // 0x20
+        public int[] IsFallback; // 0x28
+        public byte[] MinimumVersion; // 0x30
+        public byte[] mServerECPointFormats; // 0x38
+        public int mSelectedCipherSuite; // 0x40
+        public short mSelectedCompressionMethod; // 0x44
+        public System.Collections.Generic.List`1<string> <HostNames>k__BackingField; // 0x48
 
         // ── Methods ──
         public void get_HostNames(){} // RVA: 0x7FFD4E3BC730
@@ -44,6 +48,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 
     public class DefaultTlsClient : AbstractTlsClient
     {
+        public i mDHVerifier; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD56F46390 | overloaded x3
         public void GetCipherSuites(){} // RVA: 0x7FFD56F46440

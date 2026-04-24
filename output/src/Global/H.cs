@@ -5,10 +5,26 @@
 
 public class HIDCollectionDescriptor : ValueType
 {
+    public 0x664AB848 type; // 0x10
+    public int usage; // 0x14
+    public 0x664ABA58 usagePage; // 0x18
+    public int parent; // 0x1C
+    public int childCount; // 0x20
+    public int firstChild; // 0x24
 }
 
 public class HIDDeviceDescriptor : ValueType
 {
+    public int vendorId; // 0x10
+    public int productId; // 0x14
+    public int usage; // 0x18
+    public 0x664ABA58 usagePage; // 0x1C
+    public int inputReportSize; // 0x20
+    public int outputReportSize; // 0x24
+    public int featureReportSize; // 0x28
+    public HIDElementDescriptor[] elements; // 0x30
+    public HIDCollectionDescriptor[] collections; // 0x38
+
     // ── Methods ──
     public void ToJson(){} // RVA: 0x7FFD54A826A0
     public void FromJson(){} // RVA: 0x7FFD54A82710
@@ -16,6 +32,17 @@ public class HIDDeviceDescriptor : ValueType
 
 public class HIDDeviceDescriptorBuilder : ValueType
 {
+    public 0x664ABA58 usagePage; // 0x10
+    public int usage; // 0x14
+    public int m_CurrentReportId; // 0x18
+    public 0x664AB7F0 m_CurrentReportType; // 0x1C
+    public int m_CurrentReportOffsetInBits; // 0x20
+    public System.Collections.Generic.List`1<HIDElementDescriptor> m_Elements; // 0x28
+    public System.Collections.Generic.List`1<HIDCollectionDescriptor> m_Collections; // 0x30
+    public int m_InputReportSize; // 0x38
+    public int m_OutputReportSize; // 0x3C
+    public int m_FeatureReportSize; // 0x40
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54A84AD0 | overloaded x2
     public void StartReport(){} // RVA: 0x7FFD54A84B00
@@ -27,16 +54,22 @@ public class HIDDeviceDescriptorBuilder : ValueType
 
 public class HIDElementDescriptor : ValueType
 {
-    public object hasNullState;
-    public object hasPreferredState;
-    public object isArray;
-    public object isNonLinear;
-    public object isRelative;
-    public object isConstant;
-    public object isWrapping;
-    public object isSigned;
-    public object minFloatValue;
-    public object maxFloatValue;
+    public int hasNullState; // 0x10
+    public 0x664ABA58 hasPreferredState; // 0x14
+    public int isArray; // 0x18
+    public int isNonLinear; // 0x1C
+    public int isRelative; // 0x20
+    public int isConstant; // 0x24
+    public int isWrapping; // 0x28
+    public int isSigned; // 0x2C
+    public 0x664AB7F0 minFloatValue; // 0x30
+    public int maxFloatValue; // 0x34
+    public int reportId; // 0x38
+    public int reportSizeInBits; // 0x3C
+    public int reportOffsetInBits; // 0x40
+    public 0x664AB8A0 flags; // 0x44
+    public System.Nullable`1<int> usageMin; // 0x48
+    public System.Nullable`1<int> usageMax; // 0x50
 
     // ── Methods ──
     public void get_hasNullState(){} // RVA: 0x7FFD54A80CE0
@@ -65,6 +98,11 @@ public class HIDElementDescriptor : ValueType
 
 public class HIDLayoutBuilder : Object
 {
+    public string displayName; // 0x10
+    public HIDDeviceDescriptor hidDescriptor; // 0x18
+    public string parentLayout; // 0x48
+    public System.Type deviceType; // 0x50
+
     // ── Methods ──
     public void Build(){} // RVA: 0x7FFD54A7ED60
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -72,12 +110,24 @@ public class HIDLayoutBuilder : Object
 
 public class HIDPageUsage : ValueType
 {
+    public 0x664ABA58 page; // 0x10
+    public int usage; // 0x14
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54A87310 | overloaded x2
 }
 
 public class HandInputData : ValueType
 {
+    public float TrackedDuration; // 0x10
+    public PinchData[] Pinches; // 0x18
+    public bool[] FingerExtended; // 0x20
+    public float[] FingerCurls; // 0x28
+    public float[] FingerCurlVelocities; // 0x30
+    public UnityEngine.Vector3 PreviousWristPositionPlayspace; // 0x38
+    public UnityEngine.Vector3 WristVelocity; // 0x44
+    public UnityEngine.Vector3 WristVelocityPlayspace; // 0x50
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x7FFD4F410AD0
     public void InternalEquals(){} // RVA: 0x7FFD4F410FB0
@@ -91,19 +141,30 @@ public class HandInputData : ValueType
 
 public class HandTrackingData : ValueType
 {
+    public bool IsLeft; // 0x10
+    public bool IsTracking; // 0x11
+    public bool IsPersisting; // 0x12
+    public 0x66360820 FidelityLevel; // 0x14
+    public FingerData[] Fingers; // 0x18
+    public TrackedPose WristPose; // 0x20
+    public TrackedPose PalmPose; // 0x3C
 }
 
 public class Handlers : Object
 {
+    public UIntPtr Utf8JsonWriter; // 0x10
+    public UIntPtr StringHandler; // 0x18
+    public UIntPtr Utf8StringWriter; // 0x20
+    public UIntPtr ReadBoxed; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E389A50
 }
 
 public class HashBucket : ValueType
 {
-    public object IsEmpty;
-    public object FirstValue;
-    public object AdditionalElements;
+    public string IsEmpty; // 0x10
+    public Node<string> FirstValue; // 0x18
 
     // ── Methods ──
     public void get_IsEmpty(){} // RVA: 0x7FFD4E079D00
@@ -120,7 +181,7 @@ public class HashBucket : ValueType
 
 public class HashBucketByRefEqualityComparer : Object
 {
-    public object DefaultInstance;
+    public System.Collections.Generic.IEqualityComparer`1<HashBucket<string>> DefaultInstance;
 
     // ── Methods ──
     public void get_DefaultInstance(){} // RVA: 0x7FFD4E078A90
@@ -132,7 +193,8 @@ public class HashBucketByRefEqualityComparer : Object
 
 public class HashBucketByValueEqualityComparer : Object
 {
-    public object DefaultInstance;
+    public System.Collections.Generic.IEqualityComparer`1<HashBucket<string>> DefaultInstance;
+    public System.Collections.Generic.IEqualityComparer`1<string> _valueComparer; // 0x10
 
     // ── Methods ──
     public void get_DefaultInstance(){} // RVA: 0x7FFD4E078A90
@@ -144,6 +206,8 @@ public class HashBucketByValueEqualityComparer : Object
 
 public class HashCode : ValueType
 {
+    public int _hashCode; // 0x10
+
     // ── Methods ──
     public void Add(){} // RVA: 0x7FFD4E2ADC40
     public void ToHashCode(){} // RVA: 0x7FFD4F840210
@@ -151,17 +215,21 @@ public class HashCode : ValueType
 
 public class HashCode64`1 : ValueType
 {
+    public long Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
 }
 
 public class HashPair : ValueType
 {
+    public int parentHash; // 0x10
+    public int hash; // 0x14
 }
 
 public class HashSetPoolImpl`1 : Object
 {
-    public onfigSettings.gContentId<URA.onsDepth<T1717581728>> Pool;
+    public VRC.Core.Pool.ObjectPool`1<System.Collections.Generic.HashSet`1<int>> Pool;
 
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -169,7 +237,9 @@ public class HashSetPoolImpl`1 : Object
 
 public class HashsetIterator`1 : ValueType
 {
-    public object Current;
+    public bool Current;
+    public System.Collections.Generic.HashSet`1<T> hashset;
+    public Enumerator<T> enumerator;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -185,10 +255,13 @@ public class HashtableDebugView : Object
 
 public class HashtableEnumerator : Object
 {
-    public object Key;
-    public object Entry;
-    public object Current;
-    public object Value;
+    public System.Collections.Hashtable Key; // 0x10
+    public int Entry; // 0x18
+    public int Current; // 0x1C
+    public bool Value; // 0x20
+    public int _getObjectRetType; // 0x24
+    public object _currentKey; // 0x28
+    public object _currentValue; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539C58D0
@@ -203,6 +276,8 @@ public class HashtableEnumerator : Object
 
 public class HeaderTypeInfo`2 : HeaderInfo
 {
+    public System.Net.Http.Headers.TryParseDelegate`1<T> parser;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5126A7D0
     public void AddToCollection(){} // RVA: 0x7FFD5126A890
@@ -213,6 +288,10 @@ public class HeaderTypeInfo`2 : HeaderInfo
 
 public class Heading : ValueType
 {
+    public 0x66589B00 m_Definition; // 0x10
+    public int m_VelocityFilterStrength; // 0x14
+    public float m_Bias; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC4EE60
 }
@@ -226,10 +305,8 @@ public class HeightmapChangedCallback : MulticastDelegate
 
 public class Hierarchy : ValueType
 {
-    public object parent;
-    public object children;
-    public object childCount;
-    public object Item;
+    public string parent;
+    public UnityEngine.UIElements.VisualElement children; // 0x10
 
     // ── Methods ──
     public void get_parent(){} // RVA: 0x7FFD550122F0
@@ -260,6 +337,9 @@ public class Hierarchy : ValueType
 
 public class HitInfo : ValueType
 {
+    public UnityEngine.GameObject target; // 0x10
+    public UnityEngine.Camera camera; // 0x18
+
     // ── Methods ──
     public void SendMessage(){} // RVA: 0x7FFD54D625B0
     public void op_Implicit(){} // RVA: 0x7FFD54D625E0
@@ -268,6 +348,9 @@ public class HitInfo : ValueType
 
 public class HudLayout : Object
 {
+    public UnityEngine.RectTransform PopupTransform; // 0x10
+    public UnityEngine.RectTransform UserEventTransform; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }

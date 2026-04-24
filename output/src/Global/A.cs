@@ -33,14 +33,8 @@ public class Action : Object
 
 public class ActionEventPtr : ValueType
 {
-    public object action;
-    public object phase;
-    public object control;
-    public object interaction;
-    public object time;
-    public object startTime;
-    public object duration;
-    public object valueSizeInBytes;
+    public UnityEngine.InputSystem.InputActionState action; // 0x10
+    public UnityEngine.InputSystem.LowLevel.ActionEvent* phase; // 0x18
 
     // ── Methods ──
     public void get_action(){} // RVA: 0x7FFD54982A60
@@ -58,7 +52,7 @@ public class ActionEventPtr : ValueType
 
 public class ActionQueryMatcher : UQueryMatcher
 {
-    public object callBack;
+    public System.Action`1<T> callBack;
 
     // ── Methods ──
     public void get_callBack(){} // RVA: 0x7FFD4E078E90
@@ -68,6 +62,13 @@ public class ActionQueryMatcher : UQueryMatcher
 
 public class ActionSettings : ValueType
 {
+    public 0x6658B940 m_Action; // 0x10
+    public UnityEngine.Object m_Target; // 0x18
+    public int m_BoostAmount; // 0x20
+    public float m_StartTime; // 0x24
+    public 0x6658B9F0 m_Mode; // 0x28
+    public TriggerEvent m_Event; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC738D0
     public void Invoke(){} // RVA: 0x7FFD4FC73A40
@@ -75,6 +76,9 @@ public class ActionSettings : ValueType
 
 public class Action`1 : Action
 {
+    public Event`1<Valve.VR.TrackedDevicePose_t[]> _event; // 0x10
+    public UnityEngine.Events.UnityAction`1<Valve.VR.TrackedDevicePose_t[]> action; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void Enable(){} // RVA: 0x7FFD4E091060
@@ -82,6 +86,9 @@ public class Action`1 : Action
 
 public class Action`2 : Action
 {
+    public Event`2<int,bool> _event; // 0x10
+    public UnityEngine.Events.UnityAction`2<int,bool> action; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void Enable(){} // RVA: 0x7FFD4E091060
@@ -89,6 +96,9 @@ public class Action`2 : Action
 
 public class Action`3 : Action
 {
+    public Event`3<U,V,T> _event;
+    public UnityEngine.Events.UnityAction`3<U,V,T> action;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void Enable(){} // RVA: 0x7FFD4E091060
@@ -130,6 +140,8 @@ public class ActivateObjectLabelDelegate : MulticastDelegate
 
 public class Activity : ValueType
 {
+    public UIntPtr Handle; // 0x10
+
     // ── Methods ──
     public void Init(){} // RVA: 0x7FFD4FD95A90
     public void Drop(){} // RVA: 0x7FFD4FD95B10
@@ -146,6 +158,9 @@ public class Activity : ValueType
 
 public class ActivityBaggageLogScopeWrapper : Object
 {
+    public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<string,string>> _items; // 0x10
+    public System.Text.StringBuilder _stringBuilder; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
     public void GetEnumerator(){} // RVA: 0x7FFD5376AE70
@@ -155,8 +170,9 @@ public class ActivityBaggageLogScopeWrapper : Object
 
 public class ActivityLogScope : Object
 {
-    public object Count;
-    public object Item;
+    public string Count; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,object>[] Item; // 0x18
+    public int <Count>k__BackingField; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5376A210
@@ -176,14 +192,13 @@ public class AddEventAdapter : MulticastDelegate
 
 public class AdjustmentRule : Object
 {
-    public object DateStart;
-    public object DateEnd;
-    public object DaylightDelta;
-    public object DaylightTransitionStart;
-    public object DaylightTransitionEnd;
-    public object BaseUtcOffsetDelta;
-    public object NoDaylightTransitions;
-    public object HasDaylightSaving;
+    public System.DateTime DateStart; // 0x10
+    public System.DateTime DateEnd; // 0x18
+    public System.TimeSpan DaylightDelta; // 0x20
+    public TransitionTime DaylightTransitionStart; // 0x28
+    public TransitionTime DaylightTransitionEnd; // 0x40
+    public System.TimeSpan BaseUtcOffsetDelta; // 0x58
+    public bool NoDaylightTransitions; // 0x60
 
     // ── Methods ──
     public void get_DateStart(){} // RVA: 0x7FFD4E35C380
@@ -211,11 +226,8 @@ public class AlignOfHelper`1 : ValueType
 
 public class AllocatorHandle : ValueType
 {
-    public object TableEntry;
-    public object Value;
-    public object Handle;
-    public object ToAllocator;
-    public object IsAutoDispose;
+    public ushort TableEntry; // 0x10
+    public ushort Value; // 0x12
 
     // ── Methods ──
     public void get_TableEntry(){} // RVA: 0x7FFD5492F030
@@ -234,12 +246,16 @@ public class AllocatorHandle : ValueType
 
 public class AllowedAsciiCodePoints : ValueType
 {
+    public <AsBytes>e__FixedBuffer AsBytes; // 0x10
+
     // ── Methods ──
     public void PopulateAllowedCodePoints(){} // RVA: 0x7FFD53EA5D40
 }
 
 public class AlphaButtonClickMask : MonoBehaviour
 {
+    public UnityEngine.UI.Image _image; // 0x20
+
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD4E341330
     public void IsRaycastLocationValid(){} // RVA: 0x7FFD4E341780
@@ -252,17 +268,32 @@ public class AnalyticsCoreStatsUpdate : ValueType
 
 public class Anchors : ValueType
 {
+    public UnityEngine.Transform friendIcon; // 0x10
+    public UnityEngine.Transform friendCapsule; // 0x18
+    public UnityEngine.Transform friendStats; // 0x20
 }
 
 public class AnimatedButton : Object
 {
+    public ÏÎÎÍÎÏÍÏÍÌÏÍÎÌÌÏÏÎÍÏÍÌÍ Button; // 0x10
+    public float InAnimationDuration; // 0x18
+    public float OutAnimationDuration; // 0x1C
+    public float ScaleAnimationDuration; // 0x20
+    public UnityEngine.RectTransform OutPosition; // 0x28
+    public UnityEngine.RectTransform InPosition; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class AnimationDataSet`2 : ValueType
 {
-    public object capacity;
+    public UnityEngine.UIElements.VisualElement[] capacity;
+    public 0x66489770[] properties;
+    public U[] timing;
+    public T[] style;
+    public int count;
+    public System.Collections.Generic.Dictionary`2<ElementPropertyPair,int> indices;
 
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x7FFD4E079960
@@ -279,6 +310,8 @@ public class AnimationDataSet`2 : ValueType
 
 public class AnonymousProgress`1 : Object
 {
+    public System.Action`1<T> action;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void Report(){} // RVA: 0x7FFD4E2ADC40
@@ -293,9 +326,9 @@ public class AnyKeyObj : Object
 
 public class ApiBundleDropNotificationDetails : ApiModel
 {
-    public object title;
-    public object body;
-    public object imageUrl;
+    public string title; // 0x68
+    public string body; // 0x70
+    public string imageUrl; // 0x78
 
     // ── Methods ──
     public void get_title(){} // RVA: 0x7FFD4E3BCD50
@@ -309,6 +342,10 @@ public class ApiBundleDropNotificationDetails : ApiModel
 
 public class ApiRequestData : ValueType
 {
+    public string RawJson; // 0x10
+    public System.Collections.Generic.IReadOnlyDictionary`2<string,Token> RequestParams; // 0x18
+    public 0x66409B80 FormData; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5727FFC0 | overloaded x3
     public void op_Implicit(){} // RVA: 0x7FFD57280130 | overloaded x3
@@ -316,7 +353,7 @@ public class ApiRequestData : ValueType
 
 public class ApiVRChatProductStore : ApiModel
 {
-    public object planId;
+    public string planId; // 0x68
 
     // ── Methods ──
     public void get_planId(){} // RVA: 0x7FFD4E3BCD50
@@ -326,6 +363,10 @@ public class ApiVRChatProductStore : ApiModel
 
 public class Appearance : Object
 {
+    public UnityEngine.Color pathColor; // 0x10
+    public UnityEngine.Color inactivePathColor; // 0x20
+    public float width; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC659F0
 }
@@ -349,15 +390,54 @@ public class Array : ValueType
 
 public class Array16`1 : ValueType
 {
+    public T f0;
+    public T f1;
+    public T f2;
+    public T f3;
+    public T f4;
+    public T f5;
+    public T f6;
+    public T f7;
+    public T f8;
+    public T f9;
+    public T f10;
+    public T f11;
+    public T f12;
+    public T f13;
+    public T f14;
+    public T f15;
 }
 
 public class Array256`1 : ValueType
 {
+    public Array16`1<T> f0;
+    public Array16`1<T> f1;
+    public Array16`1<T> f2;
+    public Array16`1<T> f3;
+    public Array16`1<T> f4;
+    public Array16`1<T> f5;
+    public Array16`1<T> f6;
+    public Array16`1<T> f7;
+    public Array16`1<T> f8;
+    public Array16`1<T> f9;
+    public Array16`1<T> f10;
+    public Array16`1<T> f11;
+    public Array16`1<T> f12;
+    public Array16`1<T> f13;
+    public Array16`1<T> f14;
+    public Array16`1<T> f15;
 }
 
 public class Array32768`1 : ValueType
 {
-    public object Length;
+    public Array4096`1<T> Length;
+    public Array4096`1<T> f1;
+    public Array4096`1<T> f2;
+    public Array4096`1<T> f3;
+    public Array4096`1<T> f4;
+    public Array4096`1<T> f5;
+    public Array4096`1<T> f6;
+    public Array4096`1<T> f7;
 
     // ── Methods ──
     public void get_Length(){} // RVA: 0x7FFD4E079960
@@ -366,11 +446,27 @@ public class Array32768`1 : ValueType
 
 public class Array4096`1 : ValueType
 {
+    public Array256`1<T> f0;
+    public Array256`1<T> f1;
+    public Array256`1<T> f2;
+    public Array256`1<T> f3;
+    public Array256`1<T> f4;
+    public Array256`1<T> f5;
+    public Array256`1<T> f6;
+    public Array256`1<T> f7;
+    public Array256`1<T> f8;
+    public Array256`1<T> f9;
+    public Array256`1<T> f10;
+    public Array256`1<T> f11;
+    public Array256`1<T> f12;
+    public Array256`1<T> f13;
+    public Array256`1<T> f14;
+    public Array256`1<T> f15;
 }
 
 public class ArrayEnumerator : Object
 {
-    public ÌÎÍÏÍÎ Current; // 0x10
+    public System.Array Current; // 0x10
     public int _index; // 0x18
     public int _endIndex; // 0x1C
 
@@ -384,8 +480,9 @@ public class ArrayEnumerator : Object
 
 public class ArrayPoolImpl`1 : Object
 {
-    public object ObjectType;
-    public object CountInactive;
+    public object ObjectType; // 0x10
+    public System.Collections.Generic.Dictionary`2<int,SizeGroup<int>> CountInactive; // 0x18
+    public ArrayPoolImpl`1<int> Instance;
 
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x7FFD4E078E90
@@ -408,6 +505,8 @@ public class ArraySurrogate : Object
 
 public class AsciiPreescapedData : ValueType
 {
+    public <Data>e__FixedBuffer Data; // 0x10
+
     // ── Methods ──
     public void PopulatePreescapedData(){} // RVA: 0x7FFD543ED960
     public void TryGetPreescapedData(){} // RVA: 0x7FFD53EA60A0
@@ -415,7 +514,9 @@ public class AsciiPreescapedData : ValueType
 
 public class AspectStretcher : ValueType
 {
-    public object Aspect;
+    public float Aspect; // 0x10
+    public float m_InverseAspect; // 0x14
+    public float m_CenterX; // 0x18
 
     // ── Methods ──
     public void get_Aspect(){} // RVA: 0x7FFD4FC6C150
@@ -426,7 +527,8 @@ public class AspectStretcher : ValueType
 
 public class AssetBundleRequestAwaiter : ValueType
 {
-    public object IsCompleted;
+    public UnityEngine.AssetBundleRequest IsCompleted; // 0x10
+    public System.Action`1<UnityEngine.AsyncOperation> continuationAction; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFD0830
@@ -438,9 +540,18 @@ public class AssetBundleRequestAwaiter : ValueType
 
 public class AssetPreloader : Object
 {
-    public object _name;
-    public object _hideFlags;
-    public object f_4F2;
+    public 0x66594B00 _name; // 0x10
+    public System.Collections.Generic.List`1<string> _hideFlags; // 0x18
+    public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiWorld> f_4F2; // 0x20
+    public bool <ÏÏÎÎÎÎÍÎÎÌÏÎÌÍÍÌÏÏÌÍÍÎÏ>k__BackingField; // 0x28
+    public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> <ÏÌÎÌÍÎÍÏÎÌÏÍÍÎÏÍÍÍÌÍÍÌÌ>k__BackingField; // 0x30
+    public System.Collections.Generic.List`1<VRC.Core.ApiWorld> ÍÍÏÌÍÌÍÎÏÎÏÏÏÌÏÎÏÍÎÏÍÎÎ; // 0x38
+    public string ÎÍÏÎÌÏÎÎÌÏÌÎÏÌÌÍÎÏÌÏÌÏÍ;
+    public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.IReadOnlyList`1<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ>> <ÌÍÍÍÌÍÏÍÎÌÏÍÏÎÌÏÏÎÎÍÌÍÌ>k__BackingField; // 0x40
+    public System.Collections.Generic.List`1<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ> ÎÌÌÎÍÎÍÏÌÌÎÎÎÏÍÍÌÏÌÍÎÍÏ; // 0x48
+    public System.Collections.Generic.HashSet`1<string> ÍÏÏÍÏÏÏÌÏÍÏÏÌÌÌÌÎÏÎÌÏÎÌ; // 0x50
+    public System.Collections.Generic.Dictionary`2<string,System.Threading.CancellationTokenSource> ÍÏÍÌÍÏÌÏÌÌÏÌÎÌÏÏÎÍÌÌÎÎÏ; // 0x58
+    public int ÏÎÌÏÌÍÏÏÍÏÎÍÎÎÏÎÌÌÌÏÍÎÏ;
 
     // ── Methods ──
     public void Finalize(){} // RVA: 0x7FFD4F043300
@@ -482,7 +593,16 @@ public class AssetPreloader : Object
 
 public class AsyncInstantiateOperationConfiguredSource`1 : Object
 {
-    public object NextNode;
+    public Cysharp.Threading.Tasks.TaskPool`1<AsyncInstantiateOperationConfiguredSource`1<T>> NextNode;
+    public AsyncInstantiateOperationConfiguredSource`1<T> nextNode;
+    public UnityEngine.AsyncInstantiateOperation`1<T> asyncOperation;
+    public System.IProgress`1<float> progress;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration;
+    public bool cancelImmediately;
+    public bool completed;
+    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<T[]> core;
+    public System.Action`1<UnityEngine.AsyncOperation> continuationAction;
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD4E078E90
@@ -501,7 +621,8 @@ public class AsyncInstantiateOperationConfiguredSource`1 : Object
 
 public class AsyncOperationAwaiter : ValueType
 {
-    public object IsCompleted;
+    public UnityEngine.AsyncOperation IsCompleted; // 0x10
+    public System.Action`1<UnityEngine.AsyncOperation> continuationAction; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFD0830
@@ -513,9 +634,15 @@ public class AsyncOperationAwaiter : ValueType
 
 public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public object Current;
-    public object Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
-    public object Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
+    public System.Action`1<object> Current;
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<T> Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
+    public System.Threading.CancellationToken Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
+    public System.Threading.CancellationTokenRegistration registration;
+    public bool called;
+    public bool isDisposed;
+    public T <Current>k__BackingField;
+    public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev>k__BackingField;
+    public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Next>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -537,7 +664,7 @@ public class AsyncTriggerEnumerator : MoveNextSource
 
 public class AsyncUnitSource : Object
 {
-    public eObjectDelegate.opertyObjectCreationHandling<mePatterns.rsedMonthName> ÏÌÎÌÏÍÍÌÍÍÏÎÎÎÍÎÏÎÌÏÌÍÌ; // 0x10
+    public Cysharp.Threading.Tasks.IUniTaskSource source; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -554,6 +681,9 @@ public class AsyncUploadTimeSlicedUpdate : ValueType
 
 public class AsyncWriter : Object
 {
+    public _Create<T> enumerator;
+    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<Cysharp.Threading.Tasks.AsyncUnit> core;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -567,13 +697,10 @@ public class AsyncWriter : Object
 
 public class AttachExternalCancellationSource`1 : Object
 {
-    public bool completed;
-    public ileFullDirectoryInformation<T1717670192> resultHandler;
-    public ileFullDirectoryInformation<ÏÏÍÍÎÎ> exceptionHandler;
-    public bool isStarted;
-    public eObjectDelegate.kingField<T1717670192> task;
-    public object current;
-    public .Messaging.IInternalMessage.TargetIdentity.eDictionary exception;
+    public System.Action`1<object> cancellationCallbackDelegate;
+    public System.Threading.CancellationToken cancellationToken; // 0x10
+    public System.Threading.CancellationTokenRegistration tokenRegistration; // 0x18
+    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<int> core; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -589,8 +716,8 @@ public class AttachExternalCancellationSource`1 : Object
 
 public class AttributeInfo : Object
 {
-    public object Usage;
-    public object InheritanceLevel;
+    public System.AttributeUsageAttribute Usage; // 0x10
+    public int InheritanceLevel; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FCAC310
@@ -611,12 +738,19 @@ public class AudioFixedUpdate : ValueType
 
 public class AutoDolly : ValueType
 {
+    public bool m_Enabled; // 0x10
+    public float m_PositionOffset; // 0x14
+    public int m_SearchRadius; // 0x18
+    public int m_SearchResolution; // 0x1C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC53600
 }
 
 public class AutoScope : ValueType
 {
+    public UIntPtr m_Ptr; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54C6F2D0
     public void Dispose(){} // RVA: 0x7FFD4E510DB0
@@ -624,13 +758,24 @@ public class AutoScope : ValueType
 
 public class AvailableDevice : ValueType
 {
+    public UnityEngine.InputSystem.Layouts.InputDeviceDescription description; // 0x10
+    public int deviceId; // 0x48
+    public bool isNative; // 0x4C
+    public bool isRemoved; // 0x4D
 }
 
 public class AvatarCullingMonitor : Object
 {
-    public object AvatarScreenSizeAboveTriggerThreshold;
-    public object AvatarKindValidForExecution;
-    public object AvatarCullableShouldRun;
+    public float AvatarScreenSizeAboveTriggerThreshold; // 0x10
+    public float AvatarKindValidForExecution; // 0x14
+    public 0x66362030[] AvatarCullableShouldRun; // 0x18
+    public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ _owningPlayer; // 0x20
+    public bool _hasOwningPlayer; // 0x28
+    public bool _isBoundToAvatarKind; // 0x29
+    public System.Nullable`1<bool> _hasValidAvatarKind; // 0x2A
+    public bool _isBoundToAvatarScreenSize; // 0x2C
+    public bool _aboveTriggerThreshold; // 0x2D
+    public System.Action _cullingChangedCallback; // 0x30
 
     // ── Methods ──
     public void get_AvatarCullableShouldRun(){} // RVA: 0x7FFD4EF76C40
@@ -654,6 +799,12 @@ public class AvatarCullingMonitor : Object
 
 public class AvatarOscConfig : Object
 {
+    public string id; // 0x10
+    public string name; // 0x18
+    public int hash; // 0x20
+    public System.Collections.Generic.List`1<ParameterConfig> parameters; // 0x28
+    public System.Collections.Generic.HashSet`1<N> _supportedTypes; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFDF1A0 | overloaded x2
     public void GetByName(){} // RVA: 0x7FFD4EFDF080
@@ -685,7 +836,7 @@ public class Avx2 : Object
 
 public class Awaiter : ValueType
 {
-    public object IsCompleted;
+    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ>> IsCompleted; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -707,6 +858,8 @@ public class AwakeDelegate : MulticastDelegate
 
 public class AwakeMonitor : Object
 {
+    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<T> trigger;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void MoveNext(){} // RVA: 0x7FFD4E079D00

@@ -7,6 +7,8 @@ namespace ThirdParty.Sentry.Sentry.PlatformAbstractions
 {
     public class RuntimeInfo : Object
     {
+        public System.Text.RegularExpressions.Regex RuntimeParseRegex;
+
         // ── Methods ──
         public void GetRuntime(){} // RVA: 0x7FFD53FADF90
         public void WithAdditionalProperties(){} // RVA: 0x7FFD53FAE040
@@ -21,11 +23,11 @@ namespace ThirdParty.Sentry.Sentry.PlatformAbstractions
 
     public class SentryRuntime : Object
     {
-        public object Current;
-        public object Name;
-        public object Version;
-        public object Raw;
-        public object Identifier;
+        public System.Lazy`1<Sentry.PlatformAbstractions.SentryRuntime> Current;
+        public string Name; // 0x10
+        public string Version; // 0x18
+        public string Raw; // 0x20
+        public string Identifier; // 0x28
 
         // ── Methods ──
         public void get_Current(){} // RVA: 0x7FFD53FAEE70

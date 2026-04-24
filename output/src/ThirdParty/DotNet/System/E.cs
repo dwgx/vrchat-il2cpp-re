@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System
 {
     public class Empty : Object
     {
+        public System.Empty Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void ToString(){} // RVA: 0x7FFD53A956B0
@@ -16,6 +18,8 @@ namespace ThirdParty.DotNet.System
 
     public class EmptyArray`1 : Object
     {
+        public System.Collections.IEnumerator[] Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
     }
@@ -78,24 +82,9 @@ namespace ThirdParty.DotNet.System
 
     public class Environment : Object
     {
-        public object CurrentDirectory;
-        public object CurrentManagedThreadId;
-        public object HasShutdownStarted;
-        public object MachineName;
-        public object NewLine;
-        public object Platform;
-        public object OSVersion;
-        public object StackTrace;
-        public object SystemDirectory;
-        public object TickCount;
-        public object UserDomainName;
-        public object UserName;
-        public object Version;
-        public object Is64BitOperatingSystem;
-        public object Is64BitProcess;
-        public object ProcessorCount;
-        public object IsRunningOnWindows;
-        public object IsUnix;
+        public string CurrentDirectory;
+        public string CurrentManagedThreadId;
+        public 0x66422468 HasShutdownStarted; // 0x8
 
         // ── Methods ──
         public void GetResourceString(){} // RVA: 0x7FFD53AB5060 | overloaded x2
@@ -146,6 +135,8 @@ namespace ThirdParty.DotNet.System
 
     public class EventArgs : Object
     {
+        public System.EventArgs Empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void .cctor(){} // RVA: 0x7FFD53A34A20
@@ -163,8 +154,8 @@ namespace ThirdParty.DotNet.System
         public object Message;
         public string Data; // 0x10
         public string InnerException; // 0x18
-        public mePatterns.ears TargetSite; // 0x20
-        public ÏÏÍÍÎÎ StackTrace; // 0x28
+        public System.Collections.IDictionary TargetSite; // 0x20
+        public System.Exception StackTrace; // 0x28
         public string HelpLink; // 0x30
         public object Source; // 0x38
         public string RemoteStackTrace; // 0x40
@@ -173,8 +164,8 @@ namespace ThirdParty.DotNet.System
         public object _dynamicMethods; // 0x58
         public int _HResult; // 0x60
         public string _source; // 0x68
-        public externalClaims.? _safeSerializationManager; // 0x70
-        public ernal_index_icall.parable`1[] captured_traces; // 0x78
+        public 0x664331E8 _safeSerializationManager; // 0x70
+        public System.Diagnostics.StackTrace[] captured_traces; // 0x78
         public UIntPtr[] native_trace_ips; // 0x80
         public int caught_in_unmanaged; // 0x88
         public int _COMPlusExceptionCode;

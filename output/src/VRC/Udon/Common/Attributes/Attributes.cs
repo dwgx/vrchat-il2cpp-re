@@ -7,7 +7,7 @@ namespace VRC.Udon.Common.Attributes
 {
     public class UdonWrapperModuleAttribute : Attribute
     {
-        public object Type;
+        public System.Type Type; // 0x10
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E35C380

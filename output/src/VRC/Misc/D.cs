@@ -53,6 +53,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÌÏÏÎÍÍÌÏÍÌÎÌÌÌÏÎÍÎÎÍÍ</summary>
     public class DisconnectReceive_C593 : PhotonSocket
     {
+        public ÎÎÏÌÏÌÌÍÏÏÌÍÏÎÍÎÌÎÌÌÏÎÎ ÍÎÎÌÌÏÎÍÎÌÍÏÏÌÏÍÏÏÎÌÎÏÎ; // 0x60
+        public object ÍÎÍÍÌÎÏÌÌÎÎÎÌÎÍÌÏÌÎÍÍÎÎ; // 0x68
+        public UnityEngine.GameObject ÎÌÏÏÎÌÌÎÎÏÍÏÌÍÌÎÏÎÌÌÎÏÏ; // 0x70
+        public int ÎÍÎÏÍÌÎÎÌÍÎÌÎÎÏÏÏÎÌÏÏÍÌ;
+        public int ÎÌÎÎÏÌÏÎÌÌÏÍÌÌÍÍÍÍÌÍÏÌÌ;
+        public int ÍÌÎÎÌÌÏÌÎÎÎÎÌÌÌÌÎÏÌÏÌÎÌ;
+
         // ── Methods ──
         public void get_Listener(){} // RVA: 0x7FFD4F9C8490
         public void Dispose(){} // RVA: 0x7FFD4F9C8590
@@ -74,18 +81,36 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÏÌÍÌÎÎÍÎÎÎÎÎÏÏÎÍÍÍÏÌ</summary>
     public class DispatchIncomingCommandsSendOutgoingComm_8BCB : PhotonPeer
     {
-        public object _clientSdkIdShifted;
-        public object _version;
-        public object _useAck2;
-        public object _serializationProtocolType;
-        public object _socketImplementation;
-        public object _socketErrorCode;
-        public object _listener;
-        public object _peerState;
-        public object _reuseEventInstance;
-        public object _useByteArraySlicePoolForEvents;
-        public object _wrapIncomingStructs;
-        public object _quickResendAttempts;
+        public ÌÌÌÏÍÎÌÍÌÏÎÍÍÏÍÍÌÌÌÎÍÎÎ _clientSdkIdShifted; // 0xE0
+        public int _version;
+        public int _useAck2; // 0xE8
+        public System.Collections.Concurrent.ConcurrentDictionary`2<byte,int> _serializationProtocolType; // 0xF0
+        public ÏÏÎÏÌÍÌÎÎÍÎÎÎÎÎÏÏÎÍÍÍÏÌ _socketImplementation;
+        public int _socketErrorCode; // 0x8
+        public int _listener; // 0xC
+        public System.Collections.Concurrent.ConcurrentDictionary`2<byte,int> _peerState; // 0xF8
+        public System.Collections.Concurrent.ConcurrentDictionary`2<uint,int> _reuseEventInstance; // 0x100
+        public System.Collections.Concurrent.ConcurrentDictionary`2<byte,int> _useByteArraySlicePoolForEvents; // 0x108
+        public System.Collections.Concurrent.ConcurrentDictionary`2<byte,int> _wrapIncomingStructs; // 0x110
+        public System.Collections.Concurrent.ConcurrentDictionary`2<uint,int> _quickResendAttempts; // 0x118
+        public System.Collections.Concurrent.ConcurrentDictionary`2<byte,int> ÌÏÏÍÎÌÏÎÏÍÌÎÌÌÍÏÌÌÍÎÌÎÏ; // 0x120
+        public VRC.Profiling.ProfilerMarker ÏÎÍÍÎÎÎÍÌÍÏÌÍÌÍÎÎÎÍÏÏÏÌ; // 0x10
+        public VRC.Profiling.ProfilerMarker ÏÍÌÏÍÌÎÍÌÎÍÌÍÌÏÍÍÍÎÍÏÏÎ; // 0x20
+        public VRC.Profiling.ProfilerMarker ÌÎÎÍÍÌÏÏÎÎÌÌÍÌÍÍÏÍÌÎÎÌÎ; // 0x30
+        public VRC.Profiling.ProfilerMarker ÎÎÌÎÎÏÌÌÎÏÍÌÏÎÌÌÍÌÎÍÌÏÍ; // 0x40
+        public VRC.Profiling.ProfilerMarker ÌÍÍÏÎÍÌÏÎÍÏÎÍÍÍÌÎÌÎÏÌÎÏ; // 0x50
+        public float ÌÎÏÌÍÌÍÎÎÌÍÏÌÎÌÎÏÎÍÏÎÎÏ; // 0x128
+        public bool ÏÌÎÌÍÍÏÎÎÌÌÏÌÌÍÌÍÍÎÍÌÏÍ; // 0x12C
+        public System.Collections.Generic.Dictionary`2<byte,int> ÌÏÏÍÌÍÏÍÏÌÎÌÎÌÏÍÍÎÎÏÌÍÌ; // 0x130
+        public 0x665CA768 ÏÍÏÌÌÎÍÏÌÏÌÎÎÌÍÏÎÎÌÍÏÌÍ; // 0x138
+        public VRC.Core.PriorityQueue`1<ÌÏÎÎÎÌÍÎÌÍÍÎÎÍÍÌÎÍÎÏÏÌÎ> ÍÌÏÌÏÌÍÎÌÎÌÍÌÍÍÍÌÍÎÍÍÎÏ; // 0x140
+        public VRC.Core.PriorityQueue`1<ÌÏÎÎÎÌÍÎÌÍÍÎÎÍÍÌÎÍÎÏÏÌÎ> ÍÍÍÎÌÍÍÍÌÍÏÌÍÍÏÌÍÍÏÍÌÍÍ; // 0x148
+        public long ÎÌÍÌÍÍÏÎÏÎÎÏÌÍÏÏÎÎÎÏÍÎÏ; // 0x150
+        public ÍÍÎÎÌÏÌÌÏÏÏÌÍÏÎÎÍÎÏÌÍÎÏ ÍÍÌÎÌÎÍÎÎÎÎÌÌÏÌÍÎÎÌÏÎÏÌ; // 0x158
+        public long ÌÎÍÍÌÏÎÍÎÏÍÏÍÎÎÍÏÍÏÏÌÌÏ; // 0x160
+        public ÍÍÎÎÌÏÌÌÏÏÏÌÍÏÎÎÍÎÏÌÍÎÏ ÏÏÎÎÎÍÎÌÍÎÏÎÎÏÎÍÌÏÏÌÌÌÏ; // 0x168
+        public long ÎÎÍÎÌÌÌÌÌÍÌÎÌÍÏÌÍÌÍÎÌÌÌ; // 0x170
+        public long ÎÌÍÌÏÌÏÎÌÎÌÍÍÏÎÌÎÎÎÌÎÎÏ; // 0x178
 
         // ── Methods ──
         public void get_ClientSdkIdShifted(){} // RVA: 0x7FFD4EE08460

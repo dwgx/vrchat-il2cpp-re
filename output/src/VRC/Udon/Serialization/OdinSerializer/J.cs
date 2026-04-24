@@ -7,11 +7,27 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class JsonConfig : Object
     {
+        public string ID_SIG;
+        public string TYPE_SIG;
+        public string REGULAR_ARRAY_LENGTH_SIG;
+        public string PRIMITIVE_ARRAY_LENGTH_SIG;
+        public string REGULAR_ARRAY_CONTENT_SIG;
+        public string PRIMITIVE_ARRAY_CONTENT_SIG;
+        public string INTERNAL_REF_SIG;
+        public string EXTERNAL_INDEX_REF_SIG;
+        public string EXTERNAL_GUID_REF_SIG;
+        public string EXTERNAL_STRING_REF_SIG_OLD;
+        public string EXTERNAL_STRING_REF_SIG_FIXED;
     }
 
     public class JsonDataReader : BaseDataReader
     {
-        public object Stream;
+        public VRC.Udon.Serialization.OdinSerializer.JsonTextReader Stream; // 0x30
+        public System.Nullable`1<0x66583DD8> peekedEntryType; // 0x38
+        public string peekedEntryName; // 0x40
+        public string peekedEntryContent; // 0x48
+        public System.Collections.Generic.Dictionary`2<int,System.Type> seenTypes; // 0x50
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Delegate> primitiveArrayReaders; // 0x58
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553ED720 | overloaded x2
@@ -65,6 +81,17 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class JsonDataWriter : BaseDataWriter
     {
+        public uint[] ByteToHexCharLookup;
+        public string NEW_LINE; // 0x8
+        public bool justStarted; // 0x30
+        public bool forceNoSeparatorNextLine; // 0x31
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Delegate> primitiveTypeWriters; // 0x38
+        public System.Collections.Generic.Dictionary`2<System.Type,int> seenTypes; // 0x40
+        public byte[] buffer; // 0x48
+        public int bufferIndex; // 0x50
+        public bool FormatAsReadable; // 0x54
+        public bool EnableTypeOptimization; // 0x55
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553F1E60 | overloaded x2
         public void MarkJustStarted(){} // RVA: 0x7FFD4F689BA0
@@ -107,7 +134,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class JsonTextReader : Object
     {
-        public object Context;
+        public System.Collections.Generic.Dictionary`2<char,System.Nullable`1<0x66583DD8>> Context;
+        public System.Collections.Generic.Dictionary`2<char,char> UnescapeDictionary; // 0x8
+        public System.IO.StreamReader reader; // 0x10
+        public int bufferIndex; // 0x18
+        public char[] buffer; // 0x20
+        public System.Nullable`1<char> lastReadChar; // 0x28
+        public System.Nullable`1<char> peekedChar; // 0x2C
+        public System.Collections.Generic.Queue`1<char> emergencyPlayback; // 0x30
+        public VRC.Udon.Serialization.OdinSerializer.DeserializationContext <Context>k__BackingField; // 0x38
 
         // ── Methods ──
         public void get_Context(){} // RVA: 0x7FFD4E5F0140

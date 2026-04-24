@@ -8,6 +8,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÌÏÏÎÏÏÎÏÌÌÌÍÌÌÎÏÎÏÎÎ</summary>
     public class Accept_8D22 : Close_02D4
     {
+        public System.Action ÌÍÍÏÏÎÍÏÍÌÎÌÍÏÌÌÍÍÏÌÍÎÍ; // 0xA8
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4EB28EB0
         public void OnDisable(){} // RVA: 0x7FFD4EB28F20
@@ -25,6 +27,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÍÍÌÏÎÍÏÌÌÌÎÍÌÌÍÎÏÌÍÍ</summary>
     public class AddHealthAddDamage_0A14 : MonoBehaviour
     {
+        public VRCSDK2.VRC_AddDamage ÎÍÏÏÌÎÌÎÍÌÏÏÌÏÍÍÍÎÌÌÎÎÍ; // 0x20
+        public VRCSDK2.VRC_AddHealth ÌÍÌÍÌÍÌÍÎÍÍÍÏÍÎÎÍÌÎÌÏÍÍ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F622130
         public void AddHealth(){} // RVA: 0x7FFD4F622220
@@ -41,7 +46,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÌÌÎÎÎÍÌÎÎÏÏÎÍÏÏÌÍÏÍÎ</summary>
     public class AlphaComponent_BF7C : MonoBehaviour
     {
-        public object _alpha;
+        public ÎÌÍÌÌÎÎÎÍÌÎÎÏÏÎÍÏÏÌÍÏÍÎ _alpha;
+        public 0x6634AF00 ÎÍÍÍÌÏÌÏÎÎÍÍÌÎÍÏÎÏÌÍÍÍÎ; // 0x20
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F455050
@@ -100,6 +106,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÌÏÏÍÍÎÍÏÏÍÎÌÏÎÎÏÎÍÌÎÍ</summary>
     public class AttributeDerived_0228 : Attribute
     {
+        public byte[] ÌÌÍÎÏÎÎÍÏÎÌÎÍÏÍÎÎÎÎÌÎÏÏ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E4C6020 | overloaded x2
     }
@@ -114,6 +122,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÏÍÍÎÍÍÎÌÍÍÍÏÌÌÏÎÍÎÍÍ</summary>
     public class AttributeDerived_EBA1 : Attribute
     {
+        public byte ÏÎÏÏÍÌÌÏÎÎÏÌÎÍÎÏÏÏÍÍÌÌÌ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E40B5F0
     }

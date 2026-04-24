@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Assertions
 {
     public class Assert : Object
     {
+        public bool raiseExceptions;
+
         // ── Methods ──
         public void Fail(){} // RVA: 0x7FFD54D20E80
         public void IsTrue(){} // RVA: 0x7FFD54D21050 | overloaded x2

@@ -7,36 +7,66 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 {
     public class FontAsset : TextAsset
     {
-        public object fontAssetCreationEditorSettings;
-        public object sourceFontFile;
-        public object atlasPopulationMode;
-        public object faceInfo;
-        public object familyNameHashCode;
-        public object styleNameHashCode;
-        public object glyphTable;
-        public object glyphLookupTable;
-        public object characterTable;
-        public object characterLookupTable;
-        public object atlasTexture;
-        public object atlasTextures;
-        public object atlasTextureCount;
-        public object isMultiAtlasTexturesEnabled;
-        public object clearDynamicDataOnBuild;
-        public object atlasWidth;
-        public object atlasHeight;
-        public object atlasPadding;
-        public object atlasRenderMode;
-        public object usedGlyphRects;
-        public object freeGlyphRects;
-        public object fontFeatureTable;
-        public object fallbackFontAssetTable;
-        public object fontWeightTable;
-        public object regularStyleWeight;
-        public object regularStyleSpacing;
-        public object boldStyleWeight;
-        public object boldStyleSpacing;
-        public object italicStyleSlant;
-        public object tabMultiple;
+        public string fontAssetCreationEditorSettings; // 0x38
+        public 0x665BBA38 sourceFontFile; // 0x40
+        public UnityEngine.Font atlasPopulationMode; // 0x98
+        public string faceInfo; // 0xA0
+        public 0x665BBA90 familyNameHashCode; // 0xA8
+        public bool styleNameHashCode; // 0xAC
+        public UnityEngine.TextCore.FaceInfo glyphTable; // 0xB0
+        public int glyphLookupTable; // 0x110
+        public int characterTable; // 0x114
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> characterLookupTable; // 0x118
+        public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Glyph> atlasTexture; // 0x120
+        public System.Collections.Generic.List`1<0x665BB8D8> atlasTextures; // 0x128
+        public System.Collections.Generic.Dictionary`2<uint,0x665BB8D8> atlasTextureCount; // 0x130
+        public UnityEngine.Texture2D isMultiAtlasTexturesEnabled; // 0x138
+        public UnityEngine.Texture2D[] clearDynamicDataOnBuild; // 0x140
+        public int atlasWidth; // 0x148
+        public bool atlasHeight; // 0x14C
+        public bool atlasPadding; // 0x14D
+        public int atlasRenderMode; // 0x150
+        public int usedGlyphRects; // 0x154
+        public int freeGlyphRects; // 0x158
+        public ÍÎÏÎÎÌÎÎÍÌÎÌÍÏÏÌÎÏÏÍ fontFeatureTable; // 0x15C
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> fallbackFontAssetTable; // 0x160
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> fontWeightTable; // 0x168
+        public 0x665BBC48 regularStyleWeight; // 0x170
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset> regularStyleSpacing; // 0x178
+        public 0x665BB9E0[] boldStyleWeight; // 0x180
+        public float boldStyleSpacing; // 0x188
+        public float italicStyleSlant; // 0x18C
+        public float tabMultiple; // 0x190
+        public float m_BoldStyleSpacing; // 0x194
+        public byte m_ItalicStyleSlant; // 0x198
+        public byte m_TabMultiple; // 0x199
+        public bool IsFontAssetLookupTablesDirty; // 0x19A
+        public Unity.Profiling.ProfilerMarker k_ReadFontAssetDefinitionMarker;
+        public Unity.Profiling.ProfilerMarker k_AddSynthesizedCharactersMarker; // 0x8
+        public Unity.Profiling.ProfilerMarker k_TryAddCharacterMarker; // 0x10
+        public Unity.Profiling.ProfilerMarker k_TryAddCharactersMarker; // 0x18
+        public Unity.Profiling.ProfilerMarker k_UpdateGlyphAdjustmentRecordsMarker; // 0x20
+        public Unity.Profiling.ProfilerMarker k_UpdateDiacriticalMarkAdjustmentRecordsMarker; // 0x28
+        public Unity.Profiling.ProfilerMarker k_ClearFontAssetDataMarker; // 0x30
+        public Unity.Profiling.ProfilerMarker k_UpdateFontAssetDataMarker; // 0x38
+        public Unity.Profiling.ProfilerMarker k_TryAddGlyphMarker; // 0x40
+        public string s_DefaultMaterialSuffix; // 0x48
+        public System.Collections.Generic.HashSet`1<int> k_SearchedFontAssetLookup; // 0x50
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset> k_FontAssets_FontFeaturesUpdateQueue; // 0x58
+        public System.Collections.Generic.HashSet`1<int> k_FontAssets_FontFeaturesUpdateQueueLookup; // 0x60
+        public System.Collections.Generic.List`1<UnityEngine.Texture2D> k_FontAssets_AtlasTexturesUpdateQueue; // 0x68
+        public System.Collections.Generic.HashSet`1<int> k_FontAssets_AtlasTexturesUpdateQueueLookup; // 0x70
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsToRender; // 0x1A0
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsRendered; // 0x1A8
+        public System.Collections.Generic.List`1<uint> m_GlyphIndexList; // 0x1B0
+        public System.Collections.Generic.List`1<uint> m_GlyphIndexListNewlyAdded; // 0x1B8
+        public System.Collections.Generic.List`1<uint> m_GlyphsToAdd; // 0x1C0
+        public System.Collections.Generic.HashSet`1<uint> m_GlyphsToAddLookup; // 0x1C8
+        public System.Collections.Generic.List`1<0x665BB8D8> m_CharactersToAdd; // 0x1D0
+        public System.Collections.Generic.HashSet`1<uint> m_CharactersToAddLookup; // 0x1D8
+        public System.Collections.Generic.List`1<uint> s_MissingCharacterList; // 0x1E0
+        public System.Collections.Generic.HashSet`1<uint> m_MissingUnicodesFromFontFile; // 0x1E8
+        public uint[] k_GlyphIndexArray; // 0x78
 
         // ── Methods ──
         public void get_fontAssetCreationEditorSettings(){} // RVA: 0x7FFD54E1D820
@@ -148,11 +178,17 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class SpriteAsset : TextAsset
     {
-        public object faceInfo;
-        public object spriteSheet;
-        public object spriteCharacterTable;
-        public object spriteCharacterLookupTable;
-        public object spriteGlyphTable;
+        public System.Collections.Generic.Dictionary`2<int,int> faceInfo; // 0x38
+        public System.Collections.Generic.Dictionary`2<uint,int> spriteSheet; // 0x40
+        public UnityEngine.TextCore.FaceInfo spriteCharacterTable; // 0x48
+        public UnityEngine.Texture spriteCharacterLookupTable; // 0xA8
+        public System.Collections.Generic.List`1<0x665BC010> spriteGlyphTable; // 0xB0
+        public System.Collections.Generic.Dictionary`2<uint,0x665BC010> m_SpriteCharacterLookup; // 0xB8
+        public System.Collections.Generic.List`1<0x665BC068> m_SpriteGlyphTable; // 0xC0
+        public System.Collections.Generic.Dictionary`2<uint,0x665BC068> m_SpriteGlyphLookup; // 0xC8
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteAsset> fallbackSpriteAssets; // 0xD0
+        public bool m_IsSpriteAssetLookupTablesDirty; // 0xD8
+        public System.Collections.Generic.HashSet`1<int> k_searchedSpriteAssets;
 
         // ── Methods ──
         public void get_faceInfo(){} // RVA: 0x7FFD54E2FC10
@@ -182,11 +218,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextAsset : ScriptableObject
     {
-        public object version;
-        public object instanceID;
-        public object hashCode;
-        public object material;
-        public object materialHashCode;
+        public string version; // 0x18
+        public int instanceID; // 0x20
+        public int hashCode; // 0x24
+        public UnityEngine.Material material; // 0x28
+        public int materialHashCode; // 0x30
 
         // ── Methods ──
         public void get_version(){} // RVA: 0x7FFD50CC1130
@@ -203,6 +239,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextColorGradient : ScriptableObject
     {
+        public 0x665BC118 colorMode; // 0x18
+        public UnityEngine.Color topLeft; // 0x1C
+        public UnityEngine.Color topRight; // 0x2C
+        public UnityEngine.Color bottomLeft; // 0x3C
+        public UnityEngine.Color bottomRight; // 0x4C
+        public 0x665BC118 k_DefaultColorMode;
+        public UnityEngine.Color k_DefaultColor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B5A5B0 | overloaded x3
         public void .cctor(){} // RVA: 0x7FFD54E31E50
@@ -210,6 +254,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextGeneratorUtilities : Object
     {
+        public UnityEngine.Vector2 largePositiveVector2;
+        public UnityEngine.Vector2 largeNegativeVector2; // 0x8
+
         // ── Methods ──
         public void Approximately(){} // RVA: 0x7FFD54E5A440
         public void HexCharsToColor(){} // RVA: 0x7FFD54E5AB00 | overloaded x2
@@ -252,6 +299,25 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextInfo : Object
     {
+        public UnityEngine.Vector2 s_InfinityVectorPositive;
+        public UnityEngine.Vector2 s_InfinityVectorNegative; // 0x8
+        public int characterCount; // 0x10
+        public int spriteCount; // 0x14
+        public int spaceCount; // 0x18
+        public int wordCount; // 0x1C
+        public int linkCount; // 0x20
+        public int lineCount; // 0x24
+        public int pageCount; // 0x28
+        public int materialCount; // 0x2C
+        public 0x665BC2D0[] textElementInfo; // 0x30
+        public 0x665BCA08[] wordInfo; // 0x38
+        public 0x665BBD50[] linkInfo; // 0x40
+        public 0x665BBCF8[] lineInfo; // 0x48
+        public 0x665BC9B0[] pageInfo; // 0x50
+        public 0x665BBF08[] meshInfo; // 0x58
+        public bool isDirty; // 0x60
+        public bool hasMultipleColors; // 0x61
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54E624D0
         public void Clear(){} // RVA: 0x7FFD54E627B0
@@ -264,8 +330,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
-        public object Count;
-        public object current;
+        public T[] Count;
+        public int current;
+        public T m_DefaultItem;
+        public int m_Capacity;
+        public int m_RolloverSize;
+        public int m_Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092E60 | overloaded x3
@@ -283,23 +353,25 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextSettings : ScriptableObject
     {
-        public object version;
-        public object defaultFontAsset;
-        public object defaultFontAssetPath;
-        public object fallbackFontAssets;
-        public object matchMaterialPreset;
-        public object missingCharacterUnicode;
-        public object clearDynamicDataOnBuild;
-        public object defaultSpriteAsset;
-        public object defaultSpriteAssetPath;
-        public object fallbackSpriteAssets;
-        public object missingSpriteCharacterUnicode;
-        public object defaultStyleSheet;
-        public object styleSheetsResourcePath;
-        public object defaultColorGradientPresetsPath;
-        public object lineBreakingRules;
-        public object useModernHangulLineBreakingRules;
-        public object displayWarnings;
+        public string version; // 0x18
+        public UnityEngine.TextCore.Text.FontAsset defaultFontAsset; // 0x20
+        public string defaultFontAssetPath; // 0x28
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset> fallbackFontAssets; // 0x30
+        public bool matchMaterialPreset; // 0x38
+        public int missingCharacterUnicode; // 0x3C
+        public bool clearDynamicDataOnBuild; // 0x40
+        public UnityEngine.TextCore.Text.SpriteAsset defaultSpriteAsset; // 0x48
+        public string defaultSpriteAssetPath; // 0x50
+        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteAsset> fallbackSpriteAssets; // 0x58
+        public uint missingSpriteCharacterUnicode; // 0x60
+        public UnityEngine.TextCore.Text.TextStyleSheet defaultStyleSheet; // 0x68
+        public string styleSheetsResourcePath; // 0x70
+        public string defaultColorGradientPresetsPath; // 0x78
+        public 0x665BCF88 lineBreakingRules; // 0x80
+        public bool useModernHangulLineBreakingRules; // 0x88
+        public bool displayWarnings; // 0x89
+        public System.Collections.Generic.Dictionary`2<int,UnityEngine.TextCore.Text.FontAsset> m_FontLookup; // 0x90
+        public System.Collections.Generic.List`1<0x665BCD78> m_FontReferences; // 0x98
 
         // ── Methods ──
         public void get_version(){} // RVA: 0x7FFD4E3447C0
@@ -344,7 +416,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextStyleSheet : ScriptableObject
     {
-        public object styles;
+        public System.Collections.Generic.List`1<0x665BCE80> styles; // 0x18
+        public System.Collections.Generic.Dictionary`2<int,0x665BCE80> m_StyleLookupDictionary; // 0x20
 
         // ── Methods ──
         public void get_styles(){} // RVA: 0x7FFD50CC1130

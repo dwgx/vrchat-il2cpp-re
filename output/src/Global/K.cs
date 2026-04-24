@@ -5,6 +5,8 @@
 
 public class Kernel32 : Object
 {
+    public bool useUWPFallback;
+
     // ── Methods ──
     public void CopyFileUWP(){} // RVA: 0x7FFD537A77D0
     public void CopyFile(){} // RVA: 0x7FFD537A79F0
@@ -48,10 +50,14 @@ public class Kernel32 : Object
 
 public class KeyCollection : Object
 {
+    public System.Collections.Generic.Dictionary`2<0x664DC180,float> _dictionary; // 0x10
 }
 
 public class KeyComparer`1 : Object
 {
+    public KeyComparer`1<T> Default;
+    public System.Collections.Generic.IComparer`1<T> actualComparer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
     public void Compare(){} // RVA: 0x7FFD4E2ADC40
@@ -60,7 +66,7 @@ public class KeyComparer`1 : Object
 
 public class KeyEnumerator : ValueType
 {
-    public object Current;
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<T,byte>> Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -71,8 +77,8 @@ public class KeyEnumerator : ValueType
 
 public class KeyIterator : ValueType
 {
-    public object System.Collections.IEnumerator.Current;
-    public object Current;
+    public int System.Collections.IEnumerator.Current; // 0x10
+    public Photon.Client.NonAllocDictionary`2<byte,object> Current; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -86,11 +92,7 @@ public class KeyIterator : ValueType
 
 public class KeyList : Object
 {
-    public object Count;
-    public object IsReadOnly;
-    public object System.Collections.ICollection.IsSynchronized;
-    public object System.Collections.ICollection.SyncRoot;
-    public object Item;
+    public System.Collections.Generic.SortedList`2<U,T> Count;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -115,6 +117,8 @@ public class KeyList : Object
 
 public class KeyValuePairComparer : Comparer`1
 {
+    public System.Collections.Generic.IComparer`1<0x664CA170> keyComparer; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void Compare(){} // RVA: 0x7FFD4E2ADC40
@@ -122,8 +126,7 @@ public class KeyValuePairComparer : Comparer`1
 
 public class KeyValuePairProperty : Property`2
 {
-    public object Name;
-    public object Key;
+    public V Name;
 
     // ── Methods ──
     public void get_Name(){} // RVA: 0x7FFD4E078E90
@@ -133,4 +136,5 @@ public class KeyValuePairProperty : Property`2
 
 public class Keywords : Object
 {
+    public 0x6643CDF8 ServiceProviderInitialized;
 }

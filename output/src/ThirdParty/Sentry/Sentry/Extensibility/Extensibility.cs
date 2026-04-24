@@ -19,9 +19,8 @@ namespace ThirdParty.Sentry.Sentry.Extensibility
 
     public class DisabledHub : Object
     {
-        public object IsEnabled;
-        public object Metrics;
-        public object LastEventId;
+        public Sentry.Extensibility.DisabledHub IsEnabled;
+        public 0x664F74B0 Metrics; // 0x10
 
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0x7FFD4E341320
@@ -55,9 +54,7 @@ namespace ThirdParty.Sentry.Sentry.Extensibility
 
     public class HubAdapter : Object
     {
-        public object IsEnabled;
-        public object LastEventId;
-        public object Metrics;
+        public Sentry.Extensibility.HubAdapter IsEnabled;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310

@@ -64,7 +64,7 @@ namespace ThirdParty.DotNet.System
 
     public class ByReference`1 : ValueType
     {
-        public object Value;
+        public UIntPtr Value; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

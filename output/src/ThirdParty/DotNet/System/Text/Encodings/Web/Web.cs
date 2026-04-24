@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
 {
     public class AllowedBmpCodePointsBitmap : ValueType
     {
+        public <Bitmap>e__FixedBuffer Bitmap; // 0x10
+
         // ── Methods ──
         public void AllowChar(){} // RVA: 0x7FFD53EA44E0
         public void ForbidChar(){} // RVA: 0x7FFD53EA4500
@@ -19,6 +21,8 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
 
     public class AsciiByteMap : ValueType
     {
+        public <Buffer>e__FixedBuffer Buffer; // 0x10
+
         // ── Methods ──
         public void InsertAsciiChar(){} // RVA: 0x7FFD53EA44A0
         public void TryLookup(){} // RVA: 0x7FFD53EA44C0
@@ -26,6 +30,10 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
 
     public class DefaultJavaScriptEncoder : JavaScriptEncoder
     {
+        public System.Text.Encodings.Web.DefaultJavaScriptEncoder BasicLatinSingleton;
+        public System.Text.Encodings.Web.DefaultJavaScriptEncoder UnsafeRelaxedEscapingSingleton; // 0x8
+        public System.Text.Encodings.Web.OptimizedInboxTextEncoder _innerEncoder; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD543EDBA0 | overloaded x2
         public void EncodeCore(){} // RVA: 0x7FFD543EDDD0
@@ -48,6 +56,11 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
 
     public class OptimizedInboxTextEncoder : Object
     {
+        public AllowedAsciiCodePoints _allowedAsciiCodePoints; // 0x10
+        public AsciiPreescapedData _asciiPreescapedData; // 0x20
+        public System.Text.Encodings.Web.AllowedBmpCodePointsBitmap _allowedBmpCodePoints; // 0x420
+        public System.Text.Encodings.Web.ScalarEscaperBase _scalarEscaper; // 0x2420
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD543EC770
         public void FindFirstCharacterToEncode(){} // RVA: 0x7FFD543EC980
@@ -94,6 +107,8 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
 
     public class TextEncoderSettings : Object
     {
+        public System.Text.Encodings.Web.AllowedBmpCodePointsBitmap _allowedCodePointsBitmap; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD543F04A0
         public void AllowRange(){} // RVA: 0x7FFD543F04D0

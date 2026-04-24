@@ -7,13 +7,15 @@ namespace ThirdParty.DotNet.System.Diagnostics
 {
     public class DebuggableAttribute : Attribute
     {
+        public 0x6643C928 m_debuggingModes; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
     }
 
     public class Debugger : Object
     {
-        public object IsAttached;
+        public string IsAttached;
 
         // ── Methods ──
         public void get_IsAttached(){} // RVA: 0x7FFD539AD780
@@ -27,8 +29,9 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class DiagEnumerator`1 : ValueType
     {
-        public object Current;
-        public object System.Collections.IEnumerator.Current;
+        public System.Diagnostics.DiagNode`1<T> Current;
+        public System.Diagnostics.DiagNode`1<T> System.Collections.IEnumerator.Current;
+        public System.Diagnostics.DiagNode`1<T> _currentNode;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -42,12 +45,17 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class DiagNode`1 : Object
     {
+        public T Value;
+        public System.Diagnostics.DiagNode`1<T> Next;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     }
 
     public class ExceptionExtensions : Object
     {
+        public System.Reflection.FieldInfo stackTraceString;
+
         // ── Methods ──
         public void SetStackTracesString(){} // RVA: 0x7FFD5400A650
         public void Demystify(){} // RVA: 0x7FFD4E2ADC40
@@ -62,7 +70,7 @@ namespace ThirdParty.DotNet.System.Diagnostics
         public int nativeOffset; // 0x14
         public long methodAddress; // 0x18
         public uint methodIndex; // 0x20
-        public m.countEnterpriseAdminsSid methodBase; // 0x28
+        public System.Reflection.MethodBase methodBase; // 0x28
         public string fileName; // 0x30
         public int lineNumber; // 0x38
         public int columnNumber; // 0x3C
@@ -88,8 +96,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
     {
         public int FrameCount;
         public string prefix;
-        public ernal_index_icall.Name[] frames; // 0x10
-        public ernal_index_icall.parable`1[] captured_traces; // 0x18
+        public System.Diagnostics.StackFrame[] frames; // 0x10
+        public System.Diagnostics.StackTrace[] captured_traces; // 0x18
         public bool debug_info; // 0x20
         public bool isAotidSet;
         public string aotid; // 0x8
@@ -110,10 +118,11 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class Stopwatch : Object
     {
-        public object Elapsed;
-        public object ElapsedMilliseconds;
-        public object ElapsedTicks;
-        public object IsRunning;
+        public long Elapsed;
+        public bool ElapsedMilliseconds; // 0x8
+        public long ElapsedTicks; // 0x10
+        public long IsRunning; // 0x18
+        public bool is_running; // 0x20
 
         // ── Methods ──
         public void GetTimestamp(){} // RVA: 0x7FFD53AF7DC0
@@ -132,7 +141,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class SynchronizedList`1 : Object
     {
-        public object Count;
+        public System.Collections.Generic.List`1<T> Count;
+        public uint _version;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980

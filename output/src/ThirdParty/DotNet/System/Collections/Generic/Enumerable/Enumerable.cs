@@ -13,9 +13,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic.Enumerable
 
     public class EnumerableIList`1 : ValueType
     {
-        public object Item;
-        public object Count;
-        public object IsReadOnly;
+        public System.Collections.Generic.IList`1<T> Item;
+        public System.Collections.Generic.Enumerable.EnumerableIList`1<T> Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -40,8 +39,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic.Enumerable
 
     public class EnumeratorIList`1 : ValueType
     {
-        public object Current;
-        public object System.Collections.IEnumerator.Current;
+        public System.Collections.Generic.IList`1<T> Current;
+        public int System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

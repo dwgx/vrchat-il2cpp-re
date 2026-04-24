@@ -7,7 +7,7 @@ namespace ThirdParty.Sentry.Sentry.Protocol.Envelopes
 {
     public class AsyncJsonSerializable : Object
     {
-        public object Source;
+        public System.Threading.Tasks.Task`1<0x664F76C0> Source; // 0x10
 
         // ── Methods ──
         public void get_Source(){} // RVA: 0x7FFD4E35C380

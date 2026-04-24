@@ -8,6 +8,17 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÌÏÎÌÌÏÍÏÌÍÏÎÌÎÍÍÎÌÍÍÌ</summary>
     public class LateUpdateComponent_5F77 : MonoBehaviour
     {
+        public ÎÏÌÏÎÌÌÏÍÏÌÍÏÎÌÎÍÍÎÌÍÍÌ ÍÎÍÏÍÎÍÏÍÌÌÎÏÍÍÌÎÌÏÌÍÌÏ;
+        public UnityEngine.Canvas reticleCanvas; // 0x20
+        public UnityEngine.UI.CanvasScaler _canvasScaler; // 0x28
+        public UnityEngine.Sprite _mobileReticle; // 0x30
+        public UnityEngine.RectTransform _rectTransform; // 0x38
+        public UnityEngine.CanvasGroup ÏÎÏÌÍÌÎÏÍÎÏÏÎÍÌÍÌÎÍÏÎÎÎ; // 0x40
+        public UnityEngine.UI.Image ÌÌÍÌÌÌÎÎÏÎÎÌÍÌÎÏÌÏÏÌÏÏÍ; // 0x48
+        public UnityEngine.Sprite ÎÏÏÎÏÍÎÍÌÎÌÍÍÎÎÌÏÏÌÍÌÍÏ; // 0x50
+        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÎÏÏÎÍÍÏÍÍÍÌÌÎÍÍÌÎÌÌÎÏÌÍ; // 0x58
+        public bool ÎÏÎÏÏÎÍÍÌÌÍÏÏÌÎÍÏÌÌÏÌÌÎ; // 0x60
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F6E5330
         public void RaiseCancellation(){} // RVA: 0x7FFD4F6E5500
@@ -28,10 +39,15 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÎÎÎÏÍÎÎÌÏÌÍÏÌÎÌÏÏÏÍÌ</summary>
     public class LateUpdateComponent_B843 : MonoBehaviour
     {
-        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ _destroyCancellationToken; // 0x20
-        public ePathName117.? _useGUILayout; // 0x28
-        public object tooltip; // 0x30
-        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ buttonText; // 0x38
+        public ÏÏÏÎÍÍÌÌÏÌÎÏÍÏÌÎÍÏÏÍÏÏÏ _destroyCancellationToken; // 0x20
+        public ÏÏÏÎÍÍÌÌÏÌÎÏÍÏÌÎÍÏÏÍÏÏÏ _useGUILayout; // 0x28
+        public ÎÏÏÎÌÏÌÎÍÎÎÌÎÏÌÏÎÏÌÏÏÌÍ ÏÌÏÎÏÍÍÍÏÍÌÎÌÌÌÍÌÏÎÌÌÌÍ; // 0x30
+        public ÏÌÍÎÎÎÏÍÎÎÌÏÌÍÏÌÎÌÏÏÏÍÌ ÍÏÍÎÍÎÍÍÏÏÏÏÌÎÍÏÌÌÏÎÍÍÎ;
+        public bool ÏÎÎÎÎÌÏÎÍÍÎÏÏÌÎÏÍÍÏÎÍÎÍ; // 0x38
+        public bool ÌÎÌÎÍÌÎÍÎÍÌÎÍÎÌÌÎÌÏÎÎÎÍ; // 0x39
+        public bool ÎÏÎÎÏÏÌÍÌÍÎÌÎÌÌÌÍÍÍÏÎÏÌ; // 0x3A
+        public UnityEngine.Vector3 ÍÍÎÍÎÏÌÎÍÍÏÌÎÏÌÍÏÎÏÏÎÌÏ; // 0x3C
+        public UnityEngine.Vector3 ÍÎÎÍÏÍÎÎÏÌÎÎÎÌÍÍÎÎÎÌÍÏÎ; // 0x48
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F76BC70
@@ -59,13 +75,35 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÏÍÎÌÎÏÏÍÍÏÏÏÎÎÏÏÌÍÏÎ</summary>
     public class LateUpdateComponent_C601 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_748;
-        public object f_DD3;
-        public object f_3F5;
-        public object f_A08;
-        public object f_5A2;
+        public UnityEngine.GameObject _destroyCancellationToken; // 0x20
+        public UnityEngine.GameObject _useGUILayout; // 0x28
+        public UnityEngine.GameObject f_748; // 0x30
+        public UnityEngine.GameObject f_DD3; // 0x38
+        public UnityEngine.GameObject f_3F5; // 0x40
+        public TMPro.TMP_Text f_A08; // 0x48
+        public UnityEngine.GameObject f_5A2; // 0x50
+        public TMPro.TMP_Text ÌÌÏÎÏÎÎÎÍÌÎÌÌÌÎÎÏÎÍÏÎÍÏ; // 0x58
+        public UnityEngine.Vector3 ÍÍÍÍÍÍÍÎÌÍÏÏÎÌÍÏÌÌÎÍÏÎÌ;
+        public float ÎÌÍÏÎÏÍÏÎÌÍÌÎÏÎÍÌÌÍÌÎÏÏ; // 0xC
+        public float ÍÏÍÍÌÍÎÍÎÍÏÌÌÏÍÎÏÎÌÏÏÎÍ; // 0x10
+        public float ÏÏÌÎÌÎÎÎÎÌÌÏÌÍÏÌÏÎÏÎÏÏÏ; // 0x14
+        public float ÌÌÌÍÏÎÍÍÎÏÏÍÍÍÍÍÏÏÍÍÍÎÌ; // 0x18
+        public float ÏÏÌÍÍÍÏÌÏÍÌÍÌÍÎÌÎÌÌÍÍÍÎ; // 0x1C
+        public float ÌÏÏÍÎÌÌÏÏÎÏÍÎÏÎÏÌÌÎÎÍÌÏ; // 0x20
+        public float ÍÍÍÍÏÎÍÌÍÎÌÌÌÌÌÎÏÌÌÍÎÌÎ; // 0x24
+        public bool <ÏÍÎÎÏÎÌÏÍÌÏÌÏÎÎÍÎÏÌÍÎÎÌ>k__BackingField; // 0x60
+        public bool <ÎÍÍÏÌÎÌÎÍÏÎÎÎÌÍÌÌÌÌÍÏÍÌ>k__BackingField; // 0x61
+        public bool <ÍÎÍÌÍÎÏÏÌÏÍÏÎÌÏÎÍÌÏÎÏÏÌ>k__BackingField; // 0x62
+        public bool ÎÍÏÎÏÍÏÏÏÎÎÌÎÏÍÍÏÏÏÎÌÍÌ; // 0x63
+        public float ÎÎÎÎÍÌÌÏÏÎÏÏÌÏÍÌÌÏÎÎÌÌÍ; // 0x64
+        public float ÌÍÌÍÌÎÏÌÏÌÏÌÍÏÍÍÌÍÏÎÏÌÍ; // 0x68
+        public float ÍÍÍÍÏÎÍÏÍÏÍÏÍÏÍÏÎÌÍÎÏÍÏ; // 0x6C
+        public float ÎÍÎÌÍÎÏÏÏÏÏÍÌÏÎÎÎÏÏÎÌÏÏ; // 0x70
+        public float ÍÎÏÌÏÏÍÏÎÍÏÍÏÌÌÎÏÏÎÍÍÍÎ; // 0x74
+        public System.Collections.Generic.Dictionary`2<int,UnityEngine.Material> ÌÏÎÍÌÎÎÍÌÍÎÍÍÌÏÌÍÍÎÎÍÌÍ; // 0x78
+        public System.Collections.Generic.List`1<TMPro.TMP_Text> ÌÎÎÏÏÎÏÍÎÎÏÌÏÌÎÏÍÎÌÍÏÏÌ; // 0x80
+        public string ÎÌÌÍÍÎÏÍÍÏÎÎÍÍÌÏÏÏÎÎÏÏÍ;
+        public float ÍÌÍÎÌÌÎÏÏÎÌÍÍÍÍÌÏÍÌÏÏÌÏ;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F33C7E0
@@ -112,12 +150,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÏÎÍÌÍÏÍÍÏÌÎÎÌÌÍÍÍÍÍÌ</summary>
     public class LifecycleComponentImplImpl_3709 : LifecycleComponentImpl_2BA1
     {
-        public object f_49E;
-        public object f_9A5;
-        public object f_FCE;
-        public object f_00D;
-        public object f_CF4;
-        public object f_36B;
+        public UnityEngine.RectTransform f_49E; // 0x60
+        public Mediapipe.Unity.DetectionAnnotationController f_9A5; // 0x68
+        public Mediapipe.Unity.PoseLandmarkListAnnotationController f_FCE; // 0x70
+        public Mediapipe.Unity.PoseWorldLandmarkListAnnotationController f_00D; // 0x78
+        public Mediapipe.Unity.MaskAnnotationController f_CF4; // 0x80
+        public Mediapipe.Unity.NormalizedRectAnnotationController f_36B; // 0x88
 
         // ── Methods ──
         public void ReadUInt16(){} // RVA: 0x7FFD4F87FF10
@@ -154,6 +192,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÌÌÏÎÏÎÎÍÎÍÌÎÎÌÏÎÌÎÎÎ</summary>
     public class LifecycleComponentImplImpl_4E5B : LifecycleComponentImpl_EAA4
     {
+        public Mediapipe.Unity.DetectionResultAnnotationController _detectionResultAnnotationController; // 0x60
+        public Mediapipe.Unity.Experimental.TextureFramePool ÎÍÌÌÌÌÍÌÍÎÍÌÏÍÎÏÎÏÏÏÏÏÎ; // 0x68
+        public ÍÌÍÎÍÌÎÎÎÏÍÎÌÍÏÎÌÌÎÏÍÍÌ ÌÍÎÎÍÌÍÌÍÌÎÌÍÏÌÎÍÏÌÎÎÏÏ; // 0x70
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4F8C0640
         public void Initialize_91068622AEB6(){} // RVA: 0x7FFD4F8C0640
@@ -170,6 +212,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÌÏÌÍÌÍÍÍÍÌÎÌÌÏÎÍÌÏÎÍ</summary>
     public class LifecycleComponentImplImpl_D58C : LifecycleComponentImpl_2BA1
     {
+        public Mediapipe.Unity.DetectionListAnnotationController _outputDetectionsAnnotationController; // 0x60
+
         // ── Methods ──
         public void InitializeLifecycleImpl(){} // RVA: 0x7FFD4F887460
         public void Equals(){} // RVA: 0x7FFD4F887500
@@ -187,6 +231,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÎÌÏÌÌÍÏÏÍÌÏÏÏÍÎÍÎÍÍÎ</summary>
     public class LifecycleComponentImplSiblingSibling_1863 : MonoBehaviour
     {
+        public ÍÎÏÏÌÏÌÎÏÏÍÌÍÌÌÍÎÍÍÏÏÌÍ[] buttons; // 0x20
+        public ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ ÎÌÏÍÎÏÌÎÎÎÏÌÏÍÍÎÌÎÏÏÌÏÎ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56AD6A00
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -203,6 +250,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÍÌÏÌÍÌÍÌÌÌÏÍÎÏÌÎÍÍÍÏ</summary>
     public class LifecycleComponentImpl_05B8 : LifecycleComponent_B016
     {
+        public string _url; // 0x20
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD56B2C3B0
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -211,7 +260,7 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÏÌÌÌÍÎÎÎÍÎÎÎÎÍÌÍÏÍÍÏ</summary>
     public class LifecycleComponentImpl_2721 : LifecycleComponent_B016
     {
-        public object _2721;
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _2721; // 0x20
 
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0x7FFD566C7970
@@ -243,7 +292,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÍÍÎÎÎÏÌÌÍÌÏÍÎÏÍÎÎÏÍÎ</summary>
     public class LifecycleComponentImpl_2FC1 : LifecycleComponent_38FD
     {
-        public object _2FC1;
+        public UnityEngine.Transform _2FC1; // 0x48
+        public float ÏÏÎÏÏÍÌÏÎÏÏÍÎÌÌÌÏÎÍÍÏÏÌ; // 0x50
+        public bool ÍÏÏÌÎÌÍÍÌÎÌÏÎÍÌÍÌÌÎÍÌÏÏ; // 0x54
+        public bool ÍÌÏÌÎÌÍÏÎÎÍÏÏÍÎÍÌÎÎÎÌÌÍ; // 0x55
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ vrcPlayer; // 0x58
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F6CCA30
@@ -263,6 +316,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÌÍÌÌÎÍÌÍÌÎÍÌÍÏÏÏÍÍÌÌ</summary>
     public class LifecycleComponentImpl_AD29 : LifecycleComponent_4959
     {
+        public string ÏÏÎÏÏÌÍÌÏÌÌÎÏÏÍÎÌÎÌÎÏÎÍ;
+        public string ÏÌÌÍÎÎÌÏÎÍÍÎÏÍÎÎÌÏÏÎÏÎÎ;
+        public Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<Mediapipe.Detection>> ÍÍÏÏÍÏÎÏÌÍÍÎÍÍÌÌÏÌÎÏÌÌÎ; // 0x68
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F884BB0
         public void .ctor(){} // RVA: 0x7FFD4F884C10
@@ -292,6 +349,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÎÎÎÌÎÏÎÌÌÎÌÏÏÍÍÎÎÍÍÎÌ</summary>
     public class LifecycleComponentSiblingSibling_3D49 : Mono9m_DB37
     {
+        public IntChildrenSection[] _sections; // 0x48
+        public ÌÌÎÌÏÌÌÎÏÌÌÎÌÏÏÎÏÏÎÎÏÏÎ ÎÍÌÎÌÍÏÏÎÏÏÌÎÍÏÍÏÏÍÎÏÎÍ; // 0x50
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD56CF19B0
         public void FixedUpdate(){} // RVA: 0x7FFD56CF1AA0
@@ -324,6 +384,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÍÍÌÌÌÎÎÏÏÏÎÎÌÏÏÍÍÎÍÌ</summary>
     public class LifecycleComponentSiblingSibling_7F8D : floatVal_29F7
     {
+        public bool ÎÎÌÎÏÍÎÏÎÍÍÍÎÌÎÍÎÌÏÍÌÏÍ; // 0x50
+        public UnityEngine.Animator ÎÎÍÌÌÎÎÌÍÌÎÏÍÎÌÎÏÌÍÌÍÎÏ; // 0x58
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4E6E2F40
         public void Initialize_D2F99D03C539(){} // RVA: 0x7FFD4E6E2F40
@@ -359,6 +422,14 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÌÎÍÎÍÍÏÍÏÌÏÍÌÏÎÏÎÍÌÏÍ</summary>
     public class LifecycleComponentSiblingSibling_A8AB : Object
     {
+        public ÏÎÌÏÌÍÌÎÌÌÍÌÍÍÎÍÌÌÏÌÍÍÏ ÌÎÌÏÍÍÎÎÌÌÍÍÎÌÍÍÏÏÌÏÌÌÏ; // 0x10
+        public ÏÎÌÏÌÍÌÎÌÌÍÌÍÍÎÍÌÌÏÌÍÍÏ ÍÎÏÎÎÏÎÌÏÌÍÎÏÏÌÏÍÌÍÌÌÎÎ; // 0x18
+        public ÏÎÌÏÌÍÌÎÌÌÍÌÍÍÎÍÌÌÏÌÍÍÏ ÌÌÍÏÍÌÍÏÎÌÍÏÍÌÍÏÏÍÍÎÎÌÏ; // 0x20
+        public UnityEngine.GameObject ÍÎÏÌÍÍÍÎÏÌÌÌÍÌÎÌÍÍÍÎÏÏÏ; // 0x28
+        public UnityEngine.GameObject ÏÏÎÍÌÍÎÎÍÎÎÏÎÎÍÎÎÌÌÍÏÌÍ; // 0x30
+        public int ÌÌÎÍÌÎÏÌÏÍÎÏÌÍÏÏÌÎÍÌÎÍÏ;
+        public System.Collections.Generic.List`1<ÌÌÌÏÌÏÏÏÍÍÌÎÎÏÌÎÌÌÏÏÌÌÍ> ÏÏÌÍÍÌÍÎÏÏÎÍÍÏÍÌÏÏÏÌÏÌÎ; // 0x38
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EB379A0
         public void Equals(){} // RVA: 0x7FFD4EB37A70
@@ -377,6 +448,19 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÍÎÍÎÎÏÍÍÎÎÍÍÎÌÍÍÏÎÎÍ</summary>
     public class LifecycleComponentSibling_1440 : MonoBehaviour
     {
+        public UnityEngine.UI.Image _icon; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _label; // 0x28
+        public UnityEngine.Sprite _roleSprite; // 0x30
+        public UnityEngine.Sprite _udonSprite; // 0x38
+        public UnityEngine.Sprite _avatarSprite; // 0x40
+        public UnityEngine.Sprite _itemSprite; // 0x48
+        public UnityEngine.Sprite _stickerSprite; // 0x50
+        public UnityEngine.Sprite _emojiSprite; // 0x58
+        public UnityEngine.Sprite _cosmeticSprite; // 0x60
+        public UnityEngine.Sprite _creditsSprite; // 0x68
+        public UnityEngine.Sprite _accessorySprite; // 0x70
+        public UnityEngine.RectTransform _background; // 0x78
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A91F20
         public void RaiseCancellation(){} // RVA: 0x7FFD56A922C0
@@ -408,6 +492,15 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÎÌÏÎÏÍÍÌÏÌÌÎÎÏÏÎÍÌÍÏ</summary>
     public class LifecycleComponentSibling_6CEE : Object
     {
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÎÌÏÎÌÍÎÏÍÌÎÏÍÎÏÍÏÎÏÍÎÌÎ;
+        public System.Collections.Generic.List`1<object> ÌÍÏÍÍÏÌÎÍÌÎÏÏÏÎÍÌÍÏÍÌÌÎ;
+        public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<System.Collections.IList> ÌÍÍÎÌÍÎÏÏÏÌÌÏÎÍÏÏÍÎÍÍÌÎ;
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ ÏÎÏÏÎÍÏÎÍÌÍÍÎÌÌÍÏÍÍÍÏÎÍ;
+        public int ÏÏÍÏÌÌÍÌÌÎÎÎÏÍÍÌÎÍÍÌÏÍÏ;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> ÍÏÌÎÏÎÏÏÎÌÌÌÍÍÎÌÌÍÎÎÏÎÏ;
+        public UnityEngine.GameObject ÍÎÌÎÍÎÏÏÏÌÍÎÎÏÎÎÌÏÌÎÌÎÍ;
+        public ÌÍÎÏÌÍÏÌÏÌÌÏÏÌÍÏÍÎÍÍÌÏÌ ÏÏÏÌÏÍÏÏÌÌÌÌÌÍÌÌÍÌÌÎÏÏÏ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
         public void Equals(){} // RVA: 0x7FFD4E090980
@@ -422,6 +515,19 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÏÍÍÏÍÏÌÏÏÌÎÏÌÎÏÌÌÏÏÎ</summary>
     public class LifecycleComponentSibling_8F3A : MonoBehaviour
     {
+        public ÎÌÍÍÏÏÌÎÏÎÎÌÌÏÌÌÍÏÍÏÍÍÌ foldoutToggleTemplate; // 0x20
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ listBindingTemplate_Articles; // 0x28
+        public ÏÏÎÎÍÎÎÌÏÍÏÍÍÎÎÍÍÍÎÌÍÍÍ listBindingTemplate; // 0x30
+        public UnityEngine.GameObject articleCellPrefab; // 0x38
+        public UnityEngine.GameObject worldCellPrefab; // 0x40
+        public UnityEngine.GameObject groupCellPrefab; // 0x48
+        public UnityEngine.GameObject avatarCellPrefab; // 0x50
+        public UnityEngine.GameObject viewMorePrefab; // 0x58
+        public ÌÍÌÎÏÎÏÍÌÌÎÍÏÏÌÏÍÎÍÍÎÌÌ ÍÌÏÍÍÎÌÌÏÍÏÏÎÎÍÍÌÌÌÌÏÍÌ; // 0x60
+        public System.Collections.Generic.IEnumerable`1<ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ> ÏÍÏÍÎÏÍÎÎÏÎÍÎÎÍÍÎÎÏÎÏÏÎ; // 0x68
+        public float ÌÎÎÎÍÌÍÏÏÍÌÌÏÏÏÌÏÏÍÎÍÌÏ; // 0x70
+        public int ÌÍÎÏÎÍÎÏÍÍÎÏÏÎÍÏÎÎÌÏÍÌÌ;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD568E6AF0
         public void .ctor(){} // RVA: 0x7FFD568E6E30
@@ -475,6 +581,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÎÌÏÏÌÏÏÎÏÌÏÍÎÌÏÌÎÍÎÎ</summary>
     public class LifecycleComponentSibling_FD32 : PointerEnterHandler_D2EE
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ instanceTypeText; // 0xF0
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ groupNameText; // 0xF8
+        public string ÎÍÏÎÌÌÎÌÏÍÏÍÏÎÏÎÍÏÍÏÍÎÎ; // 0x100
+
         // ── Methods ──
         public void GetColliderComponents(){} // RVA: 0x7FFD56AB49E0
         public void UpdateLifecycle(){} // RVA: 0x7FFD56AB4CD0
@@ -492,6 +602,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÍÍÌÏÏÍÍÎÎÌÎÌÏÏÏÍÎÍÍÍ</summary>
     public class LifecycleComponent_01B8 : MonoBehaviour
     {
+        public ÏÎÎÍÍÎÍÎÎÌÎÏÌÎÍÎÏÍÏÎÎÎÍ ÏÍÏÎÍÏÌÏÌÎÌÌÏÍÍÏÎÎÌÏÎÏÎ; // 0x20
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x28
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÎÎÏÏÍÌÌÌÍÍÏÌÎÌÏÏÏÎÍÌÌÏÌ; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B22F40
         public void RaiseCancellation(){} // RVA: 0x7FFD56B23000
@@ -508,6 +622,18 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÏÏÌÏÍÎÎÌÌÎÏÏÌÌÎÏÏÍÏÏ</summary>
     public class LifecycleComponent_01BE : MonoBehaviour
     {
+        public UnityEngine.GameObject preloadWorldGroup; // 0x20
+        public UnityEngine.GameObject downloadingWorldGroup; // 0x28
+        public UnityEngine.GameObject clearPreloadGroup; // 0x30
+        public ÎÍÏÎÎÍÎÌÌÏÏÍÌÎÌÎÍÎÍÎÏÎÏ button; // 0x38
+        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ tooltip; // 0x40
+        public ÎÏÎÍÍÌÏÏÌÌÌÏÎÏÍÌÏÌÏÏÎÏÌ downloadingProgressBar; // 0x48
+        public TMPro.TMP_Text downloadingProgressText; // 0x50
+        public ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ ÎÎÌÌÍÌÎÏÏÏÏÎÍÌÎÌÎÌÌÍÌÏÎ; // 0x58
+        public bool ÍÎÌÎÍÎÏÍÌÎÍÎÍÍÎÍÌÌÏÎÌÌÍ; // 0x60
+        public ÎÍÎÍÎÏÎÌÌÏÎÏÍÏÍÌÎÍÎÍÍÌÎ ÎÍÏÌÍÎÌÌÏÌÏÌÏÌÍÌÍÏÌÍÌÏÎ; // 0x68
+        public float ÎÏÍÏÍÍÌÎÌÏÌÌÌÌÍÍÍÍÍÎÏÍÎ;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56C01DE0
         public void RaiseCancellation(){} // RVA: 0x7FFD56C01EE0
@@ -526,6 +652,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÎÏÏÏÌÎÎÎÏÌÏÎÍÎÍÌÍÏÌÍÎ</summary>
     public class LifecycleComponent_02AC : MonoBehaviour
     {
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ iconBinding; // 0x20
+        public TMPro.TMP_Text friendNameLabel; // 0x28
+        public ÏÌÍÎÏÌÌÏÏÌÏÏÌÎÌÏÍÌÎÏÍÌÎ ÌÌÎÎÎÍÌÏÏÍÌÍÏÍÎÏÍÍÌÏÍÌÎ; // 0x30
+        public ÎÌÌÍÍÎÏÏÌÏÎÍÌÎÌÌÍÍÏÌÎÏÌ ÌÏÍÌÎÏÎÌÎÏÏÎÍÌÎÍÍÎÍÏÍÏÌ; // 0x38
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56AF56E0
         public void RaiseCancellation(){} // RVA: 0x7FFD56AF5860
@@ -545,6 +677,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÍÌÍÍÏÏÍÎÎÎÏÌÍÏÌÎÎÌÌÌ</summary>
     public class LifecycleComponent_0338 : MonoBehaviour
     {
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x20
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÎÎÏÏÍÌÌÌÍÍÏÌÎÌÏÏÏÎÍÌÌÏÌ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD567966D0
         public void RaiseCancellation(){} // RVA: 0x7FFD56796870
@@ -565,6 +700,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÏÍÏÏÌÏÌÎÍÎÏÍÌÌÎÌÍÍÍÏ</summary>
     public class LifecycleComponent_035A : MonoBehaviour
     {
+        public ÏÌÌÏÍÏÏÌÏÌÎÍÎÏÍÌÌÎÌÍÍÍÏ ÍÎÍÏÍÎÍÏÍÌÌÎÏÍÍÌÎÌÏÌÍÌÏ;
+        public UnityEngine.GameObject ÏÍÌÎÌÏÎÏÍÎÎÎÍÎÍÏÎÌÍÌÌÏÎ; // 0x20
+        public UnityEngine.GameObject ÌÌÎÏÍÏÏÎÏÍÍÌÌÎÏÏÏÏÎÎÎÌÌ; // 0x28
+        public bool ÌÌÍÏÌÌÏÌÍÍÌÎÎÍÏÍÏÏÏÏÍÏÏ; // 0x30
+        public bool ÎÍÍÏÏÏÍÌÌÏÍÍÍÌÍÍÌÌÏÎÍÏÏ; // 0x31
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4FA0FE60
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -585,7 +726,18 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÍÌÌÍÎÎÎÍÍÌÎÌÎÎÍÏÏÌÌÌ</summary>
     public class LifecycleComponent_03AA : MonoBehaviour
     {
-        public object _03AA;
+        public System.Collections.Generic.List`1<ÎÏÎÎÎÎÏÏÍÍÏÎÌÍÎÎÎÍÍÏÏÏÏ> _03AA; // 0x20
+        public UnityEngine.UI.Button selectAllButton; // 0x28
+        public UnityEngine.UI.Image selectAllSelected; // 0x30
+        public UnityEngine.GameObject managementRolesHeader; // 0x38
+        public UnityEngine.GameObject vanityRolesHeader; // 0x40
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ roleListBinding; // 0x48
+        public UnityEngine.GameObject roleButtonPrefab; // 0x50
+        public UnityEngine.UI.Button selectRolesButton; // 0x58
+        public ÎÌÎÎÌÍÍÎÏÎÌÏÏÍÏÌÎÎÎÎÌÌÏ createWorldInstanceFlowHandler; // 0x60
+        public ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ ÎÌÏÍÎÏÌÎÎÎÏÌÏÍÍÎÌÎÏÏÌÏÎ; // 0x68
+        public System.Collections.Generic.List`1<ÎÏÎÎÎÎÏÏÍÍÏÎÌÍÎÎÎÍÍÏÏÏÏ> ÍÌÍÍÌÎÍÌÍÍÍÎÎÍÎÏÏÎÍÏÏÏÌ; // 0x70
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÏÎÎÎÎÏÏÍÍÏÎÌÍÎÎÎÍÍÏÏÏÏ>> ÏÏÍÏÎÏÎÌÌÍÌÌÏÎÏÌÍÏÍÍÎÎÏ; // 0x78
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56AE4440
@@ -615,6 +767,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÍÍÍÎÍÌÍÌÍÍÎÏÍÌÌÎÎÍÌÍ</summary>
     public class LifecycleComponent_0597 : MonoBehaviour
     {
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x20
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÎÎÏÏÍÌÌÌÍÍÏÌÎÌÏÏÏÎÍÌÌÏÌ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B2FDA0
         public void AddSubtraction(){} // RVA: 0x7FFD4E342E90
@@ -635,6 +790,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÍÍÏÍÌÏÍÍÎÌÎÏÍÍÌÏÏÍÍÏ</summary>
     public class LifecycleComponent_0748 : MonoBehaviour
     {
+        public VRC.Localization.LocalizableString ÍÍÏÌÌÍÏÍÍÏÍÌÌÍÍÏÏÍÎÎÎÍÏ;
+        public VRC.Localization.LocalizableString ÎÏÎÍÌÎÌÌÎÌÍÍÎÍÎÏÏÎÏÍÎÏÍ; // 0x28
+        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ ÍÌÎÎÍÏÍÌÌÏÌÏÎÏÎÍÎÍÌÍÎÎÏ; // 0x20
+        public UnityEngine.UI.Toggle ÏÍÏÍÌÎÍÏÎÍÍÍÍÌÌÏÌÎÏÏÎÌÌ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56D1C5B0
         public void OnDestroy(){} // RVA: 0x7FFD56D1CD20
@@ -653,7 +813,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÌÎÎÌÏÍÎÌÎÍÎÍÎÏÌÏÍÎÍÎ</summary>
     public class LifecycleComponent_0931 : MonoBehaviour
     {
-        public object _0931;
+        public 0x664D2678 _0931; // 0x20
+        public ÌÍÌÏÏÏÎÌÌÍÍÏÎÌÎÌÏÌÎÌÏÏÍ ÍÌÍÌÍÏÍÎÏÏÌÌÎÏÌÌÎÌÌÏÌÌÎ; // 0x28
+        public bool ÏÏÏÎÎÍÍÎÎÏÎÏÍÎÎÌÌÎÏÎÏÎÎ; // 0x30
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A484D0
@@ -673,7 +835,18 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÏÍÎÏÏÍÎÍÎÎÎÍÎÌÌÎÎÌÌÎ</summary>
     public class LifecycleComponent_0C6B : MonoBehaviour
     {
-        public object _0C6B;
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _0C6B; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _descriptionText; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _priceText; // 0x30
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _discountText; // 0x38
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _typeText; // 0x40
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _quantityText; // 0x48
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _expireText; // 0x50
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ Image; // 0x58
+        public VRC.UI.Core.Styles.StyleElement _styleElement; // 0x60
+        public ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ ÎÌÌÏÌÎÎÏÍÎÍÎÎÍÌÎÍÎÎÌÎÌÏ; // 0x68
+        public bool ÌÌÌÏÌÌÌÎÎÎÍÏÍÍÏÏÏÍÎÌÎÌÏ; // 0x70
+        public ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ ÎÏÏÎÌÍÍÎÏÏÎÎÌÎÍÎÌÏÌÌÌÌÌ; // 0x78
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A4B470
@@ -695,6 +868,32 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÎÌÎÍÍÏÌÏÌÎÏÌÎÎÏÏÍÏÎÌ</summary>
     public class LifecycleComponent_1081 : MonoBehaviour
     {
+        public Icons icons; // 0x20
+        public UnityEngine.GameObject addItemPrefab; // 0x40
+        public ÎÏÌÍÌÏÏÍÍÍÌÌÏÎÎÍÌÎÌÌÎÎÎ builder; // 0x48
+        public UnityEngine.GameObject content; // 0x50
+        public ÎÍÍÍÌÎÏÌÌÍÏÎÌÎÎÎÏÎÌÎÏÎÏ inventoryInfoPanel; // 0x58
+        public UnityEngine.GameObject upsellPanel; // 0x60
+        public UnityEngine.GameObject storeButton; // 0x68
+        public ÎÌÎÍÌÌÍÍÎÏÏÌÏÎÏÌÍÏÌÏÎÌÍ buttonFooter; // 0x70
+        public ÎÏÏÎÌÏÍÌÏÍÌÎÌÍÎÎÌÎÏÎÏÌÌ ÍÍÎÌÎÏÍÎÍÎÎÏÌÌÌÏÍÎÏÌÎÌÍ; // 0x78
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ ÏÌÎÌÌÏÏÎÎÏÍÌÍÏÎÌÌÌÌÌÏÎÎ; // 0x80
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ ÍÍÌÍÍÏÎÍÏÍÎÌÎÏÎÏÏÎÎÏÌÎÏ; // 0x88
+        public UnityEngine.CanvasGroup ÎÌÍÎÏÎÏÏÎÏÍÌÏÏÎÎÍÌÏÌÎÌÏ; // 0x90
+        public UnityEngine.GameObject ÌÏÏÍÌÎÎÏÏÎÌÎÍÎÍÍÌÌÍÌÎÌÌ; // 0x98
+        public UnityEngine.GameObject ÏÏÍÌÎÏÏÍÎÌÎÎÍÎÍÏÍÎÍÎÌÏÍ; // 0xA0
+        public UnityEngine.GameObject ÌÎÌÌÍÏÍÏÏÎÍÏÏÍÏÎÌÎÍÍÎÌÍ; // 0xA8
+        public UnityEngine.GameObject ÎÍÏÌÍÍÍÎÌÏÌÎÎÌÎÌÍÏÍÍÌÍÏ; // 0xB0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ>> ÍÏÎÎÎÏÏÌÎÌÏÏÏÌÎÏÌÎÍÍÎÎÏ; // 0xB8
+        public System.Collections.Generic.List`1<UnityEngine.GameObject> ÏÍÌÏÎÎÎÌÏÏÎÍÏÏÏÍÎÍÎÏÌÏÍ; // 0xC0
+        public UnityEngine.GameObject ÏÎÏÍÌÍÌÌÏÏÎÎÌÍÌÎÍÌÏÎÎÍÌ; // 0xC8
+        public bool ÎÌÎÎÍÍÍÏÎÎÌÎÌÏÌÎÎÌÎÌÍÍÎ; // 0xD0
+        public bool ÏÏÌÌÎÎÎÍÌÎÏÎÌÎÍÎÍÏÎÎÎÍÏ; // 0xD1
+        public ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ ÏÏÍÎÍÌÎÍÌÍÎÏÏÌÌÏÍÏÌÍÏÏÍ; // 0xD8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ>> ÎÏÌÏÍÏÏÍÎÎÌÌÌÎÌÏÏÎÍÌÎÌÌ; // 0xE0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ>> ÌÌÍÏÍÏÍÌÏÎÌÌÍÌÎÌÏÏÏÏÍÎÍ; // 0xE8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ>> ÌÍÏÎÌÏÌÎÎÎÏÏÍÎÍÏÏÎÏÏÌÌÌ; // 0xF0
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD568D6780
         public void RaiseCancellation(){} // RVA: 0x7FFD568D6970
@@ -726,6 +925,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÍÎÎÎÌÍÌÍÍÌÏÍÏÌÌÎÌÌÏÎ</summary>
     public class LifecycleComponent_11F1 : MonoBehaviour
     {
+        public ÍÍÌÌÌÍÌÌÎÎÌÎÏÎÍÏÎÎÍÍÌÍÏ ÏÍÏÏÍÏÏÌÍÍÌÌÏÎÍÎÎÏÏÌÌÏÌ; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÏÎÌÍÌÏÌÏÏÌÍÍÏÏÎÌÍÎÌÏÎÏÌ; // 0x28
+        public ÍÎÏÌÏÏÌÏÍÌÌÌÏÏÎÏÏÏÎÎÏÎÎ ÍÎÏÍÎÍÍÌÏÏÍÏÏÍÏÏÍÎÎÍÏÏÎ; // 0x30
+        public ÎÎÍÍÌÎÍÏÌÌÏÌÏÎÍÎÏÌÏÍÏÎÌ ÎÎÎÎÎÌÍÎÎÍÍÍÎÌÏÌÌÏÌÍÎÎÏ; // 0x38
+        public ÎÎÍÏÍÌÎÏÎÎÏÎÍÍÌÍÏÌÎÎÌÌÏ ÍÏÍÏÌÍÍÏÌÌÎÎÌÌÌÎÏÏÎÌÍÎÎ; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B54920
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -742,8 +947,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÎÌÌÏÎÌÌÍÌÎÍÏÏÌÎÏÏÍÏÏ</summary>
     public class LifecycleComponent_1594 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public ÏÌÌÎÌÌÏÎÌÌÍÌÎÍÏÏÌÎÏÏÍÏÏ _destroyCancellationToken;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> _useGUILayout; // 0x20
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EB6AA90
@@ -775,8 +980,18 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÎÏÍÍÎÏÎÎÏÏÏÌÌÍÏÌÎÎÍÍ</summary>
     public class LifecycleComponent_163B : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public UnityEngine.GameObject _destroyCancellationToken; // 0x20
+        public UnityEngine.GameObject _useGUILayout; // 0x28
+        public UnityEngine.GameObject ÎÍÌÎÌÍÌÏÍÎÌÌÍÏÌÎÍÍÏÏÏÍÌ; // 0x30
+        public UnityEngine.GameObject ÌÍÎÍÍÎÏÏÌÎÏÌÌÏÏÎÌÌÌÌÏÎÎ; // 0x38
+        public UnityEngine.GameObject ÎÏÌÎÌÏÎÌÌÌÌÏÌÌÎÍÌÎÏÍÏÍÌ; // 0x40
+        public UnityEngine.GameObject ÍÏÏÏÎÎÎÎÌÌÍÍÎÌÎÍÍÌÏÌÏÌÎ; // 0x48
+        public UnityEngine.GameObject ÎÍÏÍÎÌÍÍÌÌÎÏÍÏÎÌÍÎÍÏÏÌÌ; // 0x50
+        public UnityEngine.GameObject ÏÌÎÎÌÍÍÏÏÍÍÌÏÎÏÎÏÎÏÍÏÏÍ; // 0x58
+        public UnityEngine.GameObject ÏÏÍÎÏÍÎÎÍÌÎÏÌÏÍÌÏÏÌÌÎÎÌ; // 0x60
+        public UnityEngine.GameObject ÎÌÏÍÍÌÌÌÍÏÍÌÍÍÍÍÎÎÍÌÌÍÎ; // 0x68
+        public UnityEngine.GameObject ÏÏÍÍÌÎÎÏÎÎÎÍÍÏÍÏÎÌÍÌÍÎÎ; // 0x70
+        public UnityEngine.GameObject ÏÌÌÌÏÎÌÌÎÍÎÌÍÍÎÏÍÎÍÍÎÏÍ; // 0x78
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E426850
@@ -797,6 +1012,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÏÎÍÎÍÌÎÌÎÎÍÏÌÌÌÌÏÎÍÎ</summary>
     public class LifecycleComponent_1862 : MonoBehaviour
     {
+        public ÍÍÏÏÏÌÎÎÌÌÍÌÎÍÍÌÎÍÏÍÎÌÌ ÎÌÏÍÌÏÏÏÏÌÎÎÌÏÎÌÌÎÌÍÏÌÏ; // 0x20
+        public ÏÏÌÏÍÎÍÍÌÍÍÍÎÎÍÎÍÏÍÎÎÏÏ groupsPage; // 0x28
+        public ÍÍÏÏÏÌÎÎÌÌÍÌÎÍÍÌÎÍÏÍÎÌÌ connected; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56AB4460
         public void RaiseCancellation(){} // RVA: 0x7FFD56AB4520
@@ -812,6 +1031,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÏÎÎÌÌÎÍÍÌÍÍÏÎÏÎÎÏÍÏÎ</summary>
     public class LifecycleComponent_18F1 : MonoBehaviour
     {
+        public VRC.Localization.LocalizableString ÏÌÌÏÎÌÍÏÍÏÌÌÌÏÍÍÏÎÎÎÏÏÎ;
+        public VRC.Localization.LocalizableString ÏÌÌÎÍÌÌÎÏÌÍÌÎÍÎÍÏÍÍÌÌÎÌ; // 0x28
+        public VRC.Localization.LocalizableString ÏÍÍÌÍÏÎÏÏÏÎÎÍÍÎÎÏÏÍÍÍÍÏ; // 0x50
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B8E4E0
         public void RaiseCancellation(){} // RVA: 0x7FFD56B8E830
@@ -831,8 +1054,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÍÎÍÌÌÏÏÎÍÏÏÏÏÌÏÍÌÌÏÎ</summary>
     public class LifecycleComponent_1A48 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public ÎÌÎÎÍÌÏÍÌÍÎÌÎÏÌÏÏÍÎÏÎÌÎ _destroyCancellationToken; // 0x20
+        public float _useGUILayout; // 0x28
+        public string ÎÌÍÎÌÏÏÍÏÎÌÎÌÎÏÎÍÌÍÍÍÏÌ; // 0x30
+        public string ÍÎÎÏÌÌÌÌÎÏÏÏÌÎÍÏÍÏÏÏÏÎÏ; // 0x38
 
         // ── Methods ──
         public void AddUnitNode(){} // RVA: 0x7FFD4E36F890
@@ -858,6 +1083,13 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÎÍÏÍÎÎÍÏÏÎÏÌÍÌÏÏÏÎÌÍÏ</summary>
     public class LifecycleComponent_1BDB : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÌÏÏÎÍÍÎÌÏÍÏÍÎÎÌÎÏÌÎÌÏÌÎ; // 0x20
+        public UnityEngine.UI.Button ÍÍÏÏÌÏÍÌÏÌÎÍÎÌÍÎÎÍÎÍÌÍÌ; // 0x28
+        public 0x664CA170 ÌÌÍÌÍÎÌÎÎÌÏÏÎÍÎÏÏÏÍÎÎÏÍ; // 0x30
+        public ÏÏÎÍÍÍÍÍÌÍÎÍÏÌÍÏÏÎÎÍÌÎÎ ÎÌÌÎÍÏÌÌÏÎÍÍÏÏÌÎÌÏÎÍÎÎÍ; // 0x38
+        public bool ÎÍÍÎÌÌÍÌÍÎÏÍÌÌÍÌÏÍÏÌÌÏÏ; // 0x40
+        public VRC.UI.Core.Styles.StyleElement ÎÏÏÌÍÍÏÎÎÍÌÎÎÏÏÎÍÏÌÏÏÏÎ; // 0x48
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EAB2FB0
         public void RaiseCancellation(){} // RVA: 0x7FFD4EAB3200
@@ -874,6 +1106,32 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÌÍÏÍÎÏÏÌÏÏÌÍÎÍÌÍÌÏÎÏ</summary>
     public class LifecycleComponent_21CD : MonoBehaviour
     {
+        public Icons icons; // 0x20
+        public UnityEngine.GameObject addItemPrefab; // 0x40
+        public ÎÏÌÍÌÏÏÍÍÍÌÌÏÎÎÍÌÎÌÌÎÎÎ builder; // 0x48
+        public UnityEngine.GameObject content; // 0x50
+        public ÎÍÍÍÌÎÏÌÌÍÏÎÌÎÎÎÏÎÌÎÏÎÏ inventoryInfoPanel; // 0x58
+        public UnityEngine.GameObject upsellPanel; // 0x60
+        public UnityEngine.GameObject storeButton; // 0x68
+        public ÎÌÎÍÌÌÍÍÎÏÏÌÏÎÏÌÍÏÌÏÎÌÍ buttonFooter; // 0x70
+        public ÎÏÏÎÌÏÍÌÏÍÌÎÌÍÎÎÌÎÏÎÏÌÌ ÍÍÎÌÎÏÍÎÍÎÎÏÌÌÌÏÍÎÏÌÎÌÍ; // 0x78
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ ÏÌÎÌÌÏÏÎÎÏÍÌÍÏÎÌÌÌÌÌÏÎÎ; // 0x80
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ ÍÍÌÍÍÏÎÍÏÍÎÌÎÏÎÏÏÎÎÏÌÎÏ; // 0x88
+        public UnityEngine.CanvasGroup ÎÌÍÎÏÎÏÏÎÏÍÌÏÏÎÎÍÌÏÌÎÌÏ; // 0x90
+        public UnityEngine.GameObject ÌÏÏÍÌÎÎÏÏÎÌÎÍÎÍÍÌÌÍÌÎÌÌ; // 0x98
+        public UnityEngine.GameObject ÏÏÍÌÎÏÏÍÎÌÎÎÍÎÍÏÍÎÍÎÌÏÍ; // 0xA0
+        public UnityEngine.GameObject ÌÎÌÌÍÏÍÏÏÎÍÏÏÍÏÎÌÎÍÍÎÌÍ; // 0xA8
+        public UnityEngine.GameObject ÎÍÏÌÍÍÍÎÌÏÌÎÎÌÎÌÍÏÍÍÌÍÏ; // 0xB0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÌÌÍÎÏÌÍÌÍÏÏÎÏÏÎÌÏÏÍÍÏÍÌ>> ÍÏÎÎÎÏÏÌÎÌÏÏÏÌÎÏÌÎÍÍÎÎÏ; // 0xB8
+        public System.Collections.Generic.List`1<UnityEngine.GameObject> ÏÍÌÏÎÎÎÌÏÏÎÍÏÏÏÍÎÍÎÏÌÏÍ; // 0xC0
+        public UnityEngine.GameObject ÏÎÏÍÌÍÌÌÏÏÎÎÌÍÌÎÍÌÏÎÎÍÌ; // 0xC8
+        public bool ÎÌÎÎÍÍÍÏÎÎÌÎÌÏÌÎÎÌÎÌÍÍÎ; // 0xD0
+        public bool ÏÏÌÌÎÎÎÍÌÎÏÎÌÎÍÎÍÏÎÎÎÍÏ; // 0xD1
+        public ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ ÏÏÍÎÍÌÎÍÌÍÎÏÏÌÌÏÍÏÌÍÏÏÍ; // 0xD8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ>> ÎÏÌÏÍÏÏÍÎÎÌÌÌÎÌÏÏÎÍÌÎÌÌ; // 0xE0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ>> ÌÌÍÏÍÏÍÌÏÎÌÌÍÌÎÌÏÏÏÏÍÎÍ; // 0xE8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ>> ÌÍÏÎÌÏÌÎÎÎÏÏÍÎÍÏÏÎÏÏÌÌÌ; // 0xF0
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD568E0050
         public void OnEnable(){} // RVA: 0x7FFD568E0240
@@ -904,7 +1162,25 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÌÌÍÍÌÏÏÌÏÎÌÎÌÌÍÏÍÎÏÏ</summary>
     public class LifecycleComponent_2459 : MonoBehaviour
     {
-        public object _2459;
+        public ÎÏÎÌÌÍÍÌÏÏÌÏÎÌÎÌÌÍÏÍÎÏÏ _2459;
+        public VRC.IMDraw ÌÌÍÍÌÍÎÍÌÏÍÎÏÌÌÍÌÍÏÏÎÍÌ; // 0x8
+        public float viewRadius; // 0x20
+        public float viewFalloff; // 0x24
+        public float alpha; // 0x28
+        public UnityEngine.Color ÎÏÌÎÌÏÎÏÏÍÍÎÎÍÎÏÏÎÍÍÏÎÌ; // 0x10
+        public UnityEngine.Color ÏÎÌÍÌÏÍÏÏÌÎÎÍÎÏÏÏÍÏÌÏÏÌ; // 0x20
+        public UnityEngine.Color ÌÎÏÌÌÍÌÏÎÏÌÏÏÏÍÏÎÎÍÌÍÎÌ; // 0x30
+        public float ÌÍÏÌÌÎÎÎÎÍÍÌÎÍÌÎÎÍÍÍÎÏÎ; // 0x40
+        public UnityEngine.Color ÍÏÎÍÎÏÌÎÌÎÎÍÎÌÌÎÌÌÎÍÎÏÎ; // 0x44
+        public UnityEngine.Color ÏÌÌÎÍÌÎÏÏÌÌÎÏÏÎÏÌÎÎÎÍÎÎ; // 0x54
+        public UnityEngine.Color ÌÍÎÎÎÍÌÎÌÏÍÌÌÏÎÎÌÍÎÏÍÌÌ; // 0x64
+        public UnityEngine.Color ÌÌÎÌÎÏÍÏÏÍÎÎÌÏÍÍÌÌÏÌÏÏÌ; // 0x74
+        public UnityEngine.Color ÌÏÌÌÍÎÎÍÎÎÍÍÏÌÍÎÎÏÎÌÍÏÏ; // 0x84
+        public UnityEngine.Color ÌÍÏÍÌÌÌÍÌÏÎÌÍÍÌÏÍÏÏÎÎÏÍ; // 0x94
+        public UnityEngine.Color ÍÏÍÌÍÏÌÌÏÏÍÌÏÏÎÍÎÎÌÌÏÌÌ; // 0xA4
+        public ÏÌÍÏÍÏÌÎÍÌÎÏÍÍÎÏÍÏÍÏÏÎÍ ÍÍÏÏÎÎÌÎÎÌÍÏÍÍÏÍÏÍÏÏÎÌÌ; // 0x30
+        public System.Collections.Generic.List`1<Shape> ÌÌÌÏÍÌÌÏÍÌÎÏÌÌÍÏÏÎÌÌÎÎÎ; // 0x38
+        public System.Collections.Generic.HashSet`1<VRC.Dynamics.VRCPhysBoneBase> ÎÎÏÏÏÎÎÎÎÏÌÎÌÏÍÌÍÎÏÎÍÌÌ; // 0x40
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F4621F0
@@ -929,6 +1205,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÎÏÌÎÏÏÏÍÍÎÌÎÍÍÏÍÌÍÏÏÌ</summary>
     public class LifecycleComponent_2943 : MonoBehaviour
     {
+        public UnityEngine.UI.Button ÍÍÌÍÎÍÌÍÌÎÏÎÏÍÌÎÏÍÌÍÌÍÏ; // 0x20
+        public UnityEngine.UI.Button ÌÍÏÍÌÌÏÍÎÏÏÍÍÏÏÎÍÌÏÎÎÎÍ; // 0x28
+        public UnityEngine.UI.Button ÏÍÏÎÎÎÌÏÏÏÍÌÎÎÏÍÏÎÎÍÍÍÏ; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56BF3B60
         public void RaiseCancellation(){} // RVA: 0x7FFD56BF3C10
@@ -953,7 +1233,17 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÍÏÍÍÎÎÌÏÌÎÏÍÍÎÍÏÎÎÏÌ</summary>
     public class LifecycleComponent_2C73 : MonoBehaviour
     {
-        public object _2C73;
+        public UnityEngine.UI.Button _2C73; // 0x20
+        public UnityEngine.UI.Button stopButton; // 0x28
+        public UnityEngine.UI.RawImage fullPreview; // 0x30
+        public UnityEngine.GameObject superBadge; // 0x38
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ imagePreview; // 0x40
+        public ÍÌÎÎÍÎÌÏÎÍÏÌÍÍÌÌÎÏÎÍÌÍÎ textureSheetPlayer; // 0x48
+        public ÍÍÎÍÌÍÍÌÍÏÏÎÎÌÏÎÌÌÌÌÌÌÏ rotator; // 0x50
+        public ÏÍÌÏÏÌÎÏÍÍÍÍÍÎÌÍÌÏÌÎÍÍÌ ÎÍÍÍÎÏÍÎÎÎÏÏÎÍÏÌÏÌÏÍÌÎÌ; // 0x58
+        public ÏÌÎÍÌÎÌÎÎÎÏÏÏÍÍÎÌÌÎÎÍÌÍ ÍÎÏÎÌÎÎÎÌÌÎÎÍÏÌÌÏÍÎÎÎÌÌ; // 0x60
+        public ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ ÌÍÏÌÌÏÏÌÌÎÎÍÌÍÎÏÎÎÏÎÏÍÍ; // 0x68
+        public ÎÎÏÍÌÏÌÌÍÌÏÎÎÍÍÍÏÏÌÌÍÏÌ ÎÏÌÏÍÌÏÍÏÌÎÎÌÌÍÏÌÍÎÌÎÏÍ; // 0x70
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56D70230
@@ -990,6 +1280,19 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÍÌÌÏÌÌÎÌÍÏÍÏÌÎÍÏÍÎÌÏ</summary>
     public class LifecycleComponent_2EDC : MonoBehaviour
     {
+        public 0x664C9720 _platform; // 0x20
+        public UnityEngine.Sprite[] _platformSprites; // 0x28
+        public UnityEngine.UI.Image _platformSprite; // 0x30
+        public UnityEngine.UI.Image _performanceRankSprite; // 0x38
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _platformText; // 0x40
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _performanceRankText; // 0x48
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _notAvailableText; // 0x50
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _currentPlatformText; // 0x58
+        public UnityEngine.GameObject _performanceRankBackground; // 0x60
+        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ _tooltip; // 0x68
+        public ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ ÏÏÎÏÍÍÏÏÌÍÎÍÎÎÍÌÌÍÍÏÏÌÎ; // 0x70
+        public 0x665B2B90 ÎÌÍÏÏÏÎÍÏÌÏÎÍÏÏÎÌÍÍÌÏÌÏ; // 0x78
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A468D0
         public void RaiseCancellation(){} // RVA: 0x7FFD56A46B30
@@ -1010,6 +1313,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÏÍÏÍÍÏÎÏÍÎÍÍÍÍÍÏÏÍÎÏ</summary>
     public class LifecycleComponent_3383 : MonoBehaviour
     {
+        public ÎÎÏÏÍÏÍÍÏÎÏÍÎÍÍÍÍÍÏÏÍÎÏ ÍÏÍÎÍÎÍÍÏÏÏÏÌÎÍÏÌÌÏÎÍÍÎ;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4F542A70
         public void RaiseCancellation(){} // RVA: 0x7FFD4F542EF0
@@ -1030,6 +1335,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÏÌÎÍÎÎÌÍÍÍÎÍÎÍÎÍÏÍÌÍ</summary>
     public class LifecycleComponent_340A : MonoBehaviour
     {
+        public ÏÎÎÍÍÎÍÎÎÌÎÏÌÎÍÎÏÍÏÎÎÎÍ ÏÍÏÎÍÏÌÏÌÎÌÌÏÍÍÏÎÎÌÏÎÏÎ; // 0x20
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÎÌÏÌÎÎÎÍÏÏÎÌÏÎÏÎÏÌÍÏÍÍÌ; // 0x30
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÎÎÏÏÍÌÌÌÍÍÏÌÎÌÏÏÏÎÍÌÌÏÌ; // 0x38
+        public ÍÍÎÍÍÍÍÎÏÎÏÏÏÍÎÍÏÌÎÍÌÍÍ ÌÌÏÏÏÌÍÌÌÍÌÎÍÍÎÌÍÌÎÌÏÎÎ; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B16090
         public void RaiseCancellation(){} // RVA: 0x7FFD56B16310
@@ -1057,6 +1368,16 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÌÍÏÌÏÎÏÍÏÍÏÎÌÏÎÏÏÏÏÍ</summary>
     public class LifecycleComponent_3420 : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÍÍÏÌÍÌÎÎÍÍÌÌÌÍÏÌÌÌÍÎÏÏÎ; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÍÎÎÏÎÍÍÏÌÍÎÌÏÎÍÏÍÌÍÎÌÍÎ; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÎÎÌÏÌÎÎÍÍÍÌÎÍÍÏÏÎÍÌÍÍÏÎ; // 0x30
+        public UnityEngine.UI.Slider ÌÌÎÎÍÏÏÏÏÌÌÏÎÏÍÍÌÏÌÍÏÍÌ; // 0x38
+        public UnityEngine.GameObject[] ÏÏÌÍÏÌÏÏÏÌÍÏÌÎÏÍÏÌÎÏÍÍÌ; // 0x40
+        public UnityEngine.GameObject[] ÍÍÍÍÍÍÌÌÍÍÍÍÏÏÍÎÍÍÏÏÌÏÍ; // 0x48
+        public UnityEngine.RectTransform ÏÌÎÌÎÎÏÏÌÎÎÏÌÌÏÎÎÌÏÏÎÏÏ; // 0x50
+        public float ÎÎÌÎÎÍÍÏÏÌÎÌÎÎÏÌÏÎÌÎÌÌÍ; // 0x58
+        public float ÌÎÍÌÌÌÌÍÍÍÍÌÎÍÎÎÏÍÍÌÎÎÎ; // 0x5C
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56895240
         public void RaiseCancellation(){} // RVA: 0x7FFD568954C0
@@ -1072,6 +1393,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÏÌÌÍÍÏÌÏÍÎÍÍÎÌÌÎÎÌÌÌ</summary>
     public class LifecycleComponent_362A : MonoBehaviour
     {
+        public 0x66354DD0 audioGroup; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F05E750
         public void RaiseCancellation(){} // RVA: 0x7FFD4F05E760
@@ -1088,6 +1411,18 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÎÌÏÍÌÏÍÌÎÌÍÎÎÌÎÏÎÏÌÌ</summary>
     public class LifecycleComponent_36B6 : MonoBehaviour
     {
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ>> ÎÍÍÌÏÍÎÍÌÌÎÌÎÏÍÌÍÎÎÎÍÎÏ; // 0x20
+        public ÌÎÌÌÍÍÎÎÏÍÏÎÍÏÍÏÌÏÎÏÌÎÏ ÍÏÏÍÍÏÌÏÌÎÍÍÏÌÌÌÏÏÏÌÍÎÏ; // 0x28
+        public System.Action ÌÏÍÌÎÏÌÌÏÎÌÏÎÏÍÌÍÏÎÎÎÏÌ; // 0x30
+        public System.Action ÍÎÎÎÎÌÌÍÌÎÍÍÍÏÌÎÍÏÌÎÌÎÎ; // 0x38
+        public System.Collections.Generic.List`1<ÍÌÏÎÌÍÍÍÏÏÎÌÎÌÍÏÎÏÎÏÍÏÏ> ÏÌÌÍÌÌÏÌÌÌÎÍÏÎÏÏÏÎÏÌÍÍÍ; // 0x40
+        public System.Collections.Generic.List`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ> ÏÎÌÎÎÎÌÌÏÏÌÌÍÎÎÎÏÎÍÏÏÍÌ; // 0x48
+        public System.Collections.Generic.HashSet`1<string> ÎÎÏÎÏÍÍÎÍÏÍÎÎÏÌÎÌÏÏÌÍÎÍ; // 0x50
+        public System.Collections.Generic.List`1<string> ÍÎÏÏÍÎÎÍÌÎÍÏÌÌÎÌÍÎÍÍÍÎÎ; // 0x58
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> ÍÍÍÌÏÏÏÍÍÎÏÏÍÍÌÎÏÌÏÏÌÌÎ; // 0x60
+        public 0x663C4CC0 ÏÍÍÌÍÍÎÍÏÎÏÍÎÍÍÏÎÏÏÏÏÏÌ; // 0x68
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> ÌÍÌÏÍÌÍÏÏÏÎÍÌÍÍÎÌÏÎÎÎÎÌ; // 0x70
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD566DD1A0
         public void RaiseCancellation(){} // RVA: 0x7FFD566DD4F0
@@ -1124,6 +1459,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÎÍÎÎÏÌÏÍÎÏÌÌÍÎÏÏÍÌÏÍ</summary>
     public class LifecycleComponent_3A8C : MonoBehaviour
     {
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x20
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÎÎÏÏÍÌÌÌÍÍÏÌÎÌÏÏÏÎÍÌÌÏÌ; // 0x28
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD56B2EB10
         public void AddSubtraction(){} // RVA: 0x7FFD4E342E90
@@ -1142,6 +1480,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÏÎÎÍÌÏÌÎÌÎÍÎÍÎÌÍÌÌÏÏ</summary>
     public class LifecycleComponent_40A6 : MonoBehaviour
     {
+        public System.Collections.Generic.List`1<ÎÌÏÎÌÌÍÍÍÎÍÌÍÍÌÏÍÏÎÌÌ> ÌÎÌÎÎÍÍÎÎÎÏÏÏÍÌÍÎÍÏÏÌÍÏ; // 0x20
+        public System.Collections.Generic.List`1<ÎÌÏÎÌÌÍÍÍÎÍÌÍÍÌÏÍÏÎÌÌ> ÍÏÍÎÌÌÌÌÍÍÌÌÍÏÎÍÌÍÏÎÍÍÏ; // 0x28
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4F2F3C20
         public void RaiseCancellation(){} // RVA: 0x7FFD4F2F3DC0
@@ -1166,6 +1507,18 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÌÌÍÍÎÌÏÍÍÏÌÏÎÌÏÍÎÏÎÎÍ</summary>
     public class LifecycleComponent_428D : MonoBehaviour
     {
+        public UnityEngine.UI.Graphic[] highlights; // 0x20
+        public UnityEngine.UI.Graphic[] icons; // 0x28
+        public UnityEngine.UI.Graphic[] backgrounds; // 0x30
+        public TMPro.TMP_Text[] text; // 0x38
+        public TMPro.TMP_Text[] subtext; // 0x40
+        public UnityEngine.SpriteRenderer[] spriteHighlights; // 0x48
+        public UnityEngine.SpriteRenderer[] spriteIcons; // 0x50
+        public UnityEngine.SpriteRenderer[] spriteBackgrounds; // 0x58
+        public UnityEngine.UI.Button[] hoverButtons; // 0x60
+        public ÌÎÌÎÏÌÏÏÍÏÎÍÏÍÌÍÏÏÍÏÎÎÍ ÎÌÎÌÌÍÎÏÍÌÎÏÍÎÍÎÎÍÏÏÎÍÎ; // 0x68
+        public ÏÌÌÍÍÎÌÏÍÍÏÏÍÏÌÎÌÌÎÍÏÍÍ ÎÏÎÍÌÎÍÏÍÌÎÍÎÌÏÍÌÏÏÎÌÌÎ; // 0x70
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EBA4050
         public void RaiseCancellation(){} // RVA: 0x7FFD4EBA41A0
@@ -1185,6 +1538,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÎÏÍÏÍÌÏÎÌÏÌÍÍÌÏÌÎÍÍÏÏ</summary>
     public class LifecycleComponent_452C : MonoBehaviour
     {
+        public 0x66398A00 _inputActionType; // 0x20
+        public VRC.Localization.LocalizableString _fallback; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÏÎÌÍÎÎÏÍÌÌÌÎÏÏÍÎÍÌÎÎÏÌÌ; // 0x50
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EB32920
         public void RaiseCancellation(){} // RVA: 0x7FFD4EB32BF0
@@ -1202,6 +1559,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÎÏÏÎÌÌÎÏÌÌÌÏÌÍÌÎÎÏÏÌ</summary>
     public class LifecycleComponent_471A : MonoBehaviour
     {
+        public xi ÌÌÍÌÌÍÌÏÌÌÏÏÏÎÏÏÏÏÌÍÏÎÍ; // 0x20
+        public UnityEngine.RectTransform ÏÍÍÌÎÍÌÎÎÍÏÍÎÌÌÌÏÍÏÍÌÏÍ; // 0x28
+        public bool ÍÎÎÍÌÌÏÌÌÌÍÌÌÎÌÍÎÎÎÌÍÏÍ; // 0x30
+        public UnityEngine.Vector2 ÏÏÌÌÍÎÌÎÎÌÌÍÌÎÌÌÌÏÍÏÎÏÌ; // 0x34
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD5673CC20
         public void RaiseCancellation(){} // RVA: 0x7FFD5673CF90
@@ -1219,6 +1581,23 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÎÏÍÌÌÎÏÍÎÍÍÌÎÌÍÎÌÏÌÎ</summary>
     public class LifecycleComponent_51F0 : MonoBehaviour
     {
+        public float _maximumDistance; // 0x20
+        public float _heightLimitAngle; // 0x24
+        public 0x66600218 _triggerInteraction; // 0x28
+        public UnityEngine.LayerMask ÎÍÎÍÏÌÍÍÌÍÏÍÎÍÎÌÎÎÍÏÌÎÍ; // 0x2C
+        public UnityEngine.Vector3 ÎÌÏÎÏÍÏÎÎÍÌÏÍÎÎÍÏÎÌÏÎÏÍ; // 0x30
+        public UnityEngine.RaycastHit ÌÌÎÏÌÎÍÎÏÌÏÎÏÌÍÏÍÍÏÎÎÎÍ; // 0x3C
+        public bool ÎÍÎÎÌÏÌÍÍÎÏÎÎÍÍÏÌÎÍÎÍÌÎ; // 0x68
+        public float ÎÌÎÎÌÎÎÍÍÎÌÍÏÍÏÎÍÏÎÎÍÏÍ;
+        public UnityEngine.LineRenderer _curveRenderer; // 0x70
+        public float _curveOffset; // 0x78
+        public int _curveFrequency; // 0x7C
+        public UnityEngine.Color _hitColor; // 0x80
+        public UnityEngine.Color _missColor; // 0x90
+        public UnityEngine.Vector3[] ÏÍÍÌÏÍÏÌÎÍÎÍÌÏÎÌÎÌÌÎÍÍÏ; // 0xA0
+        public System.Action`1<UnityEngine.RaycastHit> ÏÎÎÏÎÍÏÌÏÌÏÌÌÏÎÏÍÌÍÏÍÌÌ; // 0xA8
+        public System.Action`1<UnityEngine.RaycastHit> ÏÎÍÍÏÏÏÍÎÎÌÍÎÍÎÍÏÌÍÎÍÏÎ; // 0xB0
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F2E3070
         public void RaiseCancellation(){} // RVA: 0x7FFD4F2E3200
@@ -1248,6 +1627,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÌÏÌÏÍÌÍÎÎÌÎÏÏÎÌÍÌÌÏÏ</summary>
     public class LifecycleComponent_5353 : MonoBehaviour
     {
+        public System.Collections.Generic.List`1<0x664D56F0> ÌÍÏÏÍÌÌÌÏÍÏÎÎÌÏÏÏÌÌÏÏÎÎ; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4FD58BE0
         public void RaiseCancellation(){} // RVA: 0x7FFD4FD58E00
@@ -1272,6 +1653,22 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÎÍÍÏÎÌÍÎÏÎÍÎÌÍÎÍÌÍÍÌ</summary>
     public class LifecycleComponent_535B : MonoBehaviour
     {
+        public UnityEngine.UI.Button ÏÌÌÎÌÍÍÏÍÎÌÎÎÏÎÏÏÏÍÍÎÍÏ; // 0x20
+        public UnityEngine.UI.Button ÍÏÎÍÏÎÎÎÎÌÏÎÏÏÍÍÍÌÌÌÏÏÍ; // 0x28
+        public UnityEngine.UI.Button ÌÌÌÎÍÎÎÍÍÎÎÌÍÌÎÎÎÎÌÏÎÍÏ; // 0x30
+        public TMPro.TextMeshProUGUI ÌÎÏÍÏÎÎÍÏÍÍÎÍÌÎÏÎÍÎÍÌÍÎ; // 0x38
+        public UnityEngine.UI.Button ÍÏÌÌÍÎÍÍÎÌÌÎÏÎÌÍÏÍÌÎÏÌÌ; // 0x40
+        public TMPro.TextMeshProUGUI ÍÌÎÌÏÌÏÎÏÎÌÌÌÏÏÌÌÌÌÌÍÏÏ; // 0x48
+        public UnityEngine.UI.Button ÎÍÏÌÍÍÏÍÏÏÏÏÌÏÍÍÌÌÍÍÌÏÎ; // 0x50
+        public TMPro.TextMeshProUGUI ÎÏÏÌÌÍÏÌÏÏÍÌÎÍÏÎÎÏÍÌÏÏÌ; // 0x58
+        public TMPro.TextMeshProUGUI ÍÎÍÎÌÏÏÌÏÌÌÎÌÎÎÎÌÍÌÌÎÍÍ; // 0x60
+        public UnityEngine.UI.Button ÏÏÏÏÌÎÌÌÎÌÏÍÍÏÏÍÍÌÏÌÍÍÍ; // 0x68
+        public UnityEngine.UI.Button ÍÎÎÏÎÍÏÌÏÏÍÍÌÎÏÏÌÏÏÏÌÌÍ; // 0x70
+        public TMPro.TextMeshProUGUI ÎÌÏÎÎÌÏÏÌÎÎÍÎÏÍÍÏÎÌÍÎÍÎ; // 0x78
+        public UnityEngine.UI.Button ÍÏÏÌÌÏÍÍÌÎÌÍÌÌÌÏÎÍÏÎÌÌÍ; // 0x80
+        public TMPro.TextMeshProUGUI ÎÌÍÌÌÏÍÎÎÍÎÎÍÌÌÌÍÏÌÏÎÏÎ; // 0x88
+        public UnityEngine.UI.Button ÏÌÌÏÎÎÎÏÎÌÏÎÌÍÌÎÍÎÌÏÍÎÏ; // 0x90
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F5D0400
         public void RaiseCancellation(){} // RVA: 0x7FFD4F5D0470
@@ -1296,6 +1693,26 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÍÍÏÍÎÍÍÍÍÌÍÏÌÎÌÍÌÏÍÎ</summary>
     public class LifecycleComponent_5D52 : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÌÌÍÏÍÍÎÌÏÌÏÍÎÏÌÍÏÌÎÌÏÍÌ; // 0x20
+        public ÏÌÍÏÍÎÏÏÍÎÍÎÎÎÍÎÌÌÎÎÌÌÎ ÌÌÏÏÎÍÏÎÌÎÏÌÎÌÌÍÍÎÏÏÍÌÍ; // 0x28
+        public int ÏÌÎÌÎÍÏÏÏÌÌÍÍÌÍÍÌÍÏÍÌÍÍ; // 0x30
+        public int ÍÍÍÏÏÍÍÏÎÌÏÌÎÌÍÏÎÎÍÍÌÏÍ; // 0x34
+        public UnityEngine.GameObject _remoteBackgroundContainer; // 0x38
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ _remoteBackgroundImage; // 0x40
+        public float ÎÍÏÍÌÏÏÍÌÍÌÎÏÌÏÏÏÌÍÍÍÌÍ; // 0x48
+        public UnityEngine.Vector4 ÏÏÎÏÏÎÍÌÎÎÏÏÌÌÍÍÎÏÏÌÍÌÌ; // 0x4C
+        public float ÎÎÏÌÏÏÌÏÍÎÎÌÏÌÌÌÎÍÌÍÏÏÎ; // 0x5C
+        public UnityEngine.Vector2Int ÏÎÍÌÍÏÌÌÌÏÌÎÎÎÍÌÍÎÍÏÍÎÌ; // 0x60
+        public UnityEngine.Vector2Int ÎÍÍÎÎÎÎÎÏÏÏÌÌÍÍÍÏÌÍÏÎÎÎ; // 0x68
+        public string ÌÎÎÍÌÏÌÍÏÎÏÍÍÎÏÍÌÍÍÌÌÌÎ; // 0x70
+        public UnityEngine.Vector2 ÍÏÍÏÍÍÎÍÌÌÎÎÌÌÎÌÏÌÎÎÎÎÎ; // 0x78
+        public UnityEngine.Vector2 ÎÎÍÍÎÎÎÎÏÏÎÏÎÍÎÍÍÍÎÏÎÎÏ; // 0x80
+        public System.Collections.Generic.List`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ> ÏÎÌÍÌÍÎÌÎÌÌÍÎÏÌÍÌÍÎÎÎÍÍ; // 0x88
+        public System.Collections.Generic.HashSet`1<UnityEngine.Vector2Int> ÏÍÍÌÌÍÍÏÍÏÏÌÍÍÌÏÎÎÍÎÎÎÏ; // 0x90
+        public ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ ÌÌÏÍÏÏÏÎÍÏÏÍÍÍÎÎÌÍÌÎÎÎÏ; // 0x98
+        public System.Collections.Generic.List`1<ÏÌÍÏÍÎÏÏÍÎÍÎÎÎÍÎÌÌÎÎÌÌÎ> ÌÍÎÏÏÏÍÎÏÌÎÏÎÌÍÍÍÌÎÌÍÍÏ; // 0xA0
+        public System.Collections.Generic.List`1<ÏÌÍÏÍÎÏÏÍÎÍÎÎÎÍÎÌÌÎÎÌÌÎ> ÌÌÌÏÍÍÌÎÍÏÏÏÌÏÌÏÍÎÍÌÍÎÎ; // 0xA8
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A4EE60
         public void IsInvoking_B47E14F49C59(){} // RVA: 0x7FFD56A4F160 | overloaded x2
@@ -1322,8 +1739,16 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÍÌÏÌÍÌÍÎÎÍÎÌÍÏÏÎÌÏÎÍ</summary>
     public class LifecycleComponent_62D5 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public UnityEngine.CanvasGroup _destroyCancellationToken; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _useGUILayout; // 0x28
+        public UnityEngine.UI.Image _buttonImage; // 0x30
+        public bool <ÍÏÏÏÎÏÌÌÍÎÍÎÏÍÌÏÍÎÍÌÏÏÍ>k__BackingField; // 0x38
+        public bool <ÎÎÌÏÎÍÍÍÍÍÌÏÍÎÌÏÏÍÏÍÍÌÎ>k__BackingField; // 0x39
+        public ÏÌÌÍÌÏÌÍÌÍÎÎÍÎÌÍÏÏÎÌÏÎÍ ÍÎÍÏÍÎÍÏÍÌÌÎÏÍÍÌÎÌÏÌÍÌÏ;
+        public UnityEngine.Material ÏÌÌÌÍÎÍÍÏÎÌÏÎÍÏÍÎÎÌÏÎÎÎ; // 0x40
+        public string ÎÍÍÎÎÍÎÎÍÌÎÏÌÌÎÏÍÏÎÏÏÎÍ; // 0x48
+        public string ÌÏÍÌÍÍÎÌÏÎÌÏÍÎÌÏÏÌÎÎÎÎÍ; // 0x50
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÍÎÏÎÏÏÏÏÏÌÍÎÏÎÍÌÌÌÏÌÏÌÍ; // 0x58
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4F8E6190
@@ -1349,7 +1774,14 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÏÌÏÌÌÌÌÏÏÎÏÏÌÍÍÍÏÏÌÎ</summary>
     public class LifecycleComponent_65F5 : MonoBehaviour
     {
-        public object _65F5;
+        public ÎÎÏÏÌÏÌÌÌÌÏÏÎÏÏÌÍÍÍÏÏÌÎ _65F5;
+        public string ÍÍÌÍÏÏÍÌÌÍÎÏÎÍÌÌÍÌÎÎÍÏÏ;
+        public float ÏÌÏÎÎÍÎÏÌÌÏÎÌÍÏÌÍÎÌÌÎÌÍ;
+        public int ÎÏÎÎÍÎÍÌÎÎÍÌÍÍÍÎÍÌÍÎÏÌÌ;
+        public ÍÏÍÎÎÌÏÎÍÏÎÍÍÍÎÎÏÎÍÎÎÏÌ ÏÏÌÌÎÏÎÎÍÎÎÏÌÌÏÎÍÍÎÍÌÏÎ; // 0x20
+        public bool ÏÍÎÍÌÍÏÏÎÌÍÌÎÍÌÍÌÏÍÍÎÍÍ; // 0x28
+        public System.Threading.CancellationTokenSource ÎÌÎÏÍÏÌÌÏÍÏÌÌÌÏÎÎÌÌÌÏÏÎ; // 0x30
+        public System.Collections.Generic.HashSet`1<VRC.InventoryEffects.WarpEffect> ÍÎÎÏÍÌÌÍÍÍÌÎÏÌÍÍÏÌÍÍÏÎÏ; // 0x38
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E6E57D0
@@ -1382,6 +1814,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÍÌÏÏÌÏÏÏÍÌÍÌÏÎÌÍÌÏÎÎ</summary>
     public class LifecycleComponent_68DF : MonoBehaviour
     {
+        public bool ÏÍÍÍÏÎÏÍÍÌÏÎÎÏÍÏÌÏÎÌÎÎÏ; // 0x20
+        public string _loadingMusicClipAssetName; // 0x28
+        public UnityEngine.AudioSource _audioSource; // 0x30
+        public UnityEngine.Coroutine ÎÏÏÍÏÏÎÏÌÏÎÎÎÍÏÌÎÎÏÍÍÍÎ; // 0x38
+        public UnityEngine.AudioClip ÏÌÎÏÏÍÏÎÍÌÍÌÍÎÍÍÍÌÌÎÏÎÌ; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F793280
         public void RaiseCancellation(){} // RVA: 0x7FFD4F793290
@@ -1403,12 +1841,24 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÌÌÍÏÌÏÏÏÎÌÍÍÏÏÎÏÎÏÎÏÎ</summary>
     public class LifecycleComponent_692E : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_505;
-        public object f_FA8;
-        public object f_38B;
-        public object f_596;
+        public float _destroyCancellationToken;
+        public VRC.Localization.LocalizableString _useGUILayout;
+        public VRC.Localization.LocalizableString f_505; // 0x28
+        public VRC.Localization.LocalizableString f_FA8; // 0x50
+        public VRC.Localization.LocalizableString f_38B; // 0x78
+        public ÎÍÏÏÏÍÍÌÎÍÎÍÏÏÏÎÎÌÍÍÎÍÏ f_596; // 0xA0
+        public ÎÍÏÏÏÍÍÌÎÍÎÍÏÏÏÎÎÌÍÍÎÍÏ ÎÎÏÍÍÌÍÎÎÏÎÏÎÍÏÌÎÌÏÎÎÍÎ; // 0xA8
+        public ÍÏÌÎÏÎÎÎÎÎÌÌÏÌÍÍÏÌÎÏÏÌÌ ÌÌÍÌÏÍÏÌÌÌÏÌÍÍÏÌÌÏÏÎÌÍÌ; // 0xB0
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<UnityEngine.Texture2D> <ÍÎÌÌÏÎÌÏÌÌÎÍÎÏÍÍÍÏÏÎÍÏÎ>k__BackingField; // 0x20
+        public string <ÌÍÍÎÏÏÎÏÎÎÍÏÎÎÍÏÍÎÍÏÎÍÎ>k__BackingField; // 0x28
+        public UnityEngine.Sprite <ÍÎÏÌÏÏÎÍÍÎÌÎÍÎÍÏÎÎÏÏÌÌÏ>k__BackingField; // 0x30
+        public UnityEngine.Sprite <ÍÍÌÎÍÌÍÍÍÍÏÍÎÏÏÍÍÍÌÏÌÏÏ>k__BackingField; // 0x38
+        public bool <ÌÌÏÍÎÎÌÏÍÏÏÌÍÎÎÎÏÍÎÎÌÍÍ>k__BackingField; // 0x40
+        public UnityEngine.Color ÎÍÍÎÍÍÍÎÍÎÎÌÏÏÍÌÌÎÍÎÍÎÎ; // 0xB8
+        public UnityEngine.Color ÌÏÍÍÎÍÍÍÏÌÏÌÏÌÏÏÏÍÎÍÌÎÎ; // 0xC8
+        public UnityEngine.Color ÌÌÎÌÍÌÍÎÎÏÍÎÍÌÍÌÏÎÍÌÌÍÍ; // 0xD8
+        public UnityEngine.Color ÎÍÍÌÌÏÌÎÌÍÎÌÏÎÌÎÍÌÏÍÌÌÎ; // 0xE8
+        public UnityEngine.Color ÏÎÏÌÎÏÏÏÍÏÍÍÍÎÏÏÌÍÏÌÌÌÌ; // 0xF8
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F7D5240
@@ -1449,7 +1899,13 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÌÏÌÍÌÌÎÎÌÍÎÌÏÌÍÌÏÌÎÏÌ</summary>
     public class LifecycleComponent_6C6A : MonoBehaviour
     {
-        public object _6C6A;
+        public 0x664CD2F0 _6C6A; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÌÏÏÎÍÍÎÌÏÍÏÍÎÎÌÎÏÌÎÌÏÌÎ; // 0x28
+        public UnityEngine.GameObject ÎÎÍÌÌÍÌÏÎÍÏÏÎÍÍÎÍÌÏÎÎÌÏ; // 0x30
+        public ÏÍÍÎÌÎÌÏÏÍÌÍÌÎÌÏÎÏÍÏÍÎÎ <ÏÌÎÏÏÌÍÌÎÌÌÎÌÎÍÎÌÎÌÎÎÌÎ>k__BackingField; // 0x38
+        public bool ÌÌÎÎÎÌÏÍÏÌÍÎÎÍÍÍÍÎÍÎÍÎÏ; // 0x40
+        public UnityEngine.UI.Button ÌÎÏÌÏÌÌÎÎÎÏÌÏÍÏÍÌÎÌÏÏÌÎ; // 0x48
+        public 0x664D5A60 ÏÍÏÌÎÎÎÌÍÎÏÌÏÍÌÍÍÌÏÍÌÌÎ; // 0x50
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56840280
@@ -1474,6 +1930,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÏÎÏÏÍÌÏÎÎÍÌÌÏÍÎÌÏÏÎÍ</summary>
     public class LifecycleComponent_763F : MonoBehaviour
     {
+        public ÍÌÎÏÍÏÍÏÏÌÍÎÍÌÌÍÎÎÌÌÏÌÎ ÍÌÎÎÌÎÍÏÏÏÌÏÌÍÎÏÍÌÍÌÍÌÏ; // 0x20
+        public ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ ÌÍÏÌÌÏÏÌÌÎÎÍÌÍÎÏÎÎÏÎÏÍÍ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD566E5290
         public void RaiseCancellation(){} // RVA: 0x7FFD566E5330
@@ -1508,6 +1967,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÏÌÎÎÏÍÌÍÏÎÏÏÏÍÎÌÍÌÍÍ</summary>
     public class LifecycleComponent_7E8E : MonoBehaviour
     {
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ _imageBinding; // 0x20
+        public UnityEngine.UI.Button _button; // 0x28
+        public TMPro.TextMeshProUGUI _groupName; // 0x30
+        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ _tooltip; // 0x38
+        public ÎÏÌÎÍÏÌÏÎÏÌÍÏÌÍÌÏÌÍÌÏÏÏ ÎÌÎÎÍÌÎÌÌÍÏÏÍÎÍÏÍÍÍÌÍÌÍ; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B20CB0
         public void RaiseCancellation(){} // RVA: 0x7FFD56B20D90
@@ -1525,6 +1990,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÎÌÎÏÌÍÍÍÌÍÏÎÎÍÍÍÏÎÎÎ</summary>
     public class LifecycleComponent_7EF0 : MonoBehaviour
     {
+        public ÍÌÎÏÍÏÍÏÏÌÍÎÍÌÌÍÎÎÌÌÏÌÎ ÍÌÎÎÌÎÍÏÏÏÌÏÌÍÎÏÍÌÍÌÍÌÏ; // 0x20
+        public ÌÌÍÎÏÌÍÌÍÏÏÎÏÏÎÌÏÏÍÍÏÍÌ ÌÍÏÌÌÏÏÌÌÎÎÍÌÍÎÏÎÎÏÎÏÍÍ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD566E9610
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -1547,6 +2015,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÌÍÌÌÎÎÏÌÌÍÍÏÌÏÌÏÌÌÏÏ</summary>
     public class LifecycleComponent_8718 : MonoBehaviour
     {
+        public ÎÏÏÍÎÏÍÍÎÏÏÍÍÏÎÎÌÎÎÍÏÎÏ cursorHandler; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EBA7060
         public void RaiseCancellation(){} // RVA: 0x7FFD4EBA7160
@@ -1565,6 +2035,13 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÌÌÎÏÌÏÎÏÍÏÍÌÎÎÏÍÏÌÎÌ</summary>
     public class LifecycleComponent_87FE : MonoBehaviour
     {
+        public UnityEngine.UI.Toggle _comfortTurningToggle; // 0x20
+        public UnityEngine.UI.Toggle _personalSpaceToggle; // 0x28
+        public UnityEngine.UI.Toggle _afkDetectionToggle; // 0x30
+        public UnityEngine.UI.Toggle _advancedViveControlsToggle; // 0x38
+        public UnityEngine.UI.Toggle _thirdPersonRotationToggle; // 0x40
+        public UnityEngine.GameObject _tunnellingOptions; // 0x48
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56821780
         public void Start(){} // RVA: 0x7FFD56821CA0
@@ -1578,6 +2055,14 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÎÎÍÍÏÍÎÍÎÎÏÏÏÎÎÎÌÍÌÎÏ</summary>
     public class LifecycleComponent_9047 : MonoBehaviour
     {
+        public UnityEngine.GameObject ÌÏÏÎÌÌÍÌÏÎÌÌÏÌÏÏÍÍÌÎÌÏÎ; // 0x20
+        public UnityEngine.GameObject ÏÎÎÍÌÌÍÏÏÎÏÌÏÎÍÎÌÍÌÏÏÎÌ; // 0x28
+        public UnityEngine.RectTransform ÌÍÌÏÏÏÏÎÏÌÌÍÌÍÎÏÌÍÌÌÍÍÎ; // 0x30
+        public UnityEngine.RectTransform ÍÏÎÍÌÏÍÍÎÍÏÎÌÎÎÍÌÎÎÎÏÌÌ; // 0x38
+        public UnityEngine.GameObject ÍÍÏÍÍÎÏÍÍÌÍÏÎÌÌÍÎÎÌÏÍÎÌ; // 0x40
+        public ÍÎÍÍÌÎÏÏÌÍÏÏÏÎÍÍÍÎÍÍÏÎÌ ÎÌÍÍÏÍÌÍÍÏÌÌÍÎÍÎÎÎÏÍÎÌÎ; // 0x48
+        public System.Collections.Generic.List`1<ÏÏÌÏÏÌÏÍÏÍÌÎÌÏÎÌÎÌÎÍÍÍÌ> ÍÌÏÏÍÎÌÌÎÎÎÏÏÌÌÎÎÍÌÍÌÏÎ; // 0x50
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B3C140
         public void RaiseCancellation(){} // RVA: 0x7FFD56B3C340
@@ -1596,6 +2081,16 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÍÌÏÎÎÏÌÍÍÍÎÎÎÍÍÍÍÍÎÌ</summary>
     public class LifecycleComponent_9472 : MonoBehaviour
     {
+        public UnityEngine.GameObject ÍÌÌÌÏÌÏÌÎÏÍÏÍÎÌÍÍÍÎÍÎÏÌ; // 0x20
+        public UnityEngine.Transform ÌÏÌÍÏÍÌÌÍÍÏÎÍÌÎÌÌÍÍÌÎÍÍ; // 0x28
+        public ÏÎÏÍÎÌÌÌÍÏÍÌÍÏÍÎÏÍÌÏÍÏÏ ÌÍÏÍÌÎÏÎÌÎÏÍÍÏÍÏÍÎÎÏÏÌÎ; // 0x30
+        public ÏÎÏÍÎÌÌÌÍÏÍÌÍÏÍÎÏÍÌÏÍÏÏ ÏÌÌÏÎÎÍÏÍÏÍÏÏÌÌÍÏÍÍÎÏÌÌ; // 0x38
+        public ÍÌÏÎÎÏÌÌÍÎÎÍÌÎÌÌÎÏÎÍÍÏÌ ÏÌÍÏÌÍÎÏÌÏÌÎÎÍÏÎÌÏÍÏÍÍÏ; // 0x40
+        public VRC.SDK3.Avatars.Components.VRCAvatarDescriptor ÍÌÍÏÏÎÏÏÍÌÏÏÎÌÏÍÍÌÍÍÏÍÌ; // 0x48
+        public System.Collections.Generic.List`1<ÌÏÍÏÍÏÎÌÌÎÌÌÌÎÍÌÏÌÎÎÌÎÎ> ÎÍÍÍÍÌÍÌÎÌÍÏÍÍÍÏÎÏÎÎÍÏÎ; // 0x50
+        public ÏÎÏÍÎÌÌÌÍÏÍÌÍÏÍÎÏÍÌÏÍÏÏ ÎÎÎÎÏÍÌÎÎÍÌÏÌÌÏÎÍÌÍÏÍÍÎ; // 0x58
+        public System.Action ÌÏÏÎÏÏÎÌÍÍÍÌÏÍÎÎÎÍÏÍÎÍÌ; // 0x60
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F7C5250
         public void RaiseCancellation(){} // RVA: 0x7FFD4F7C5310
@@ -1629,6 +2124,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÎÍÍÍÎÏÍÎÎÎÌÏÏÌÎÏÎÎÏÎ</summary>
     public class LifecycleComponent_95CD : MonoBehaviour
     {
+        public UnityEngine.UI.RawImage image; // 0x20
+        public TMPro.TMP_Text text; // 0x28
+        public UnityEngine.UI.Button button; // 0x30
+        public 0x664CAAB8 ÍÌÏÍÍÎÌÌÏÍÏÏÎÎÍÍÌÌÌÌÏÍÌ; // 0x38
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD566B1DA0
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -1645,6 +2145,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÎÍÌÍÌÎÏÌÌÌÏÌÌÍÏÎÍÏÏÏ</summary>
     public class LifecycleComponent_95DB : MonoBehaviour
     {
+        public UnityEngine.UI.Button ÍÍÎÍÎÏÌÌÌÎÏÍÍÎÎÎÌÏÏÌÎÌÌ; // 0x20
+        public UnityEngine.UI.Button ÎÎÏÍÌÍÎÌÎÍÍÏÏÏÍÏÎÌÍÍÌÌÎ; // 0x28
+        public UnityEngine.UI.Button ÌÍÌÏÍÌÌÌÎÎÌÏÍÏÎÌÏÎÏÌÏÏÌ; // 0x30
+        public UnityEngine.UI.Button ÍÏÌÌÍÌÏÏÏÎÏÎÌÏÎÏÎÍÌÏÌÎÎ; // 0x38
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÎÎÏÏÍÌÌÌÍÍÏÌÎÌÏÏÏÎÍÌÌÏÌ; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56CA26D0
         public void RaiseCancellation(){} // RVA: 0x7FFD56CA2930
@@ -1673,6 +2179,14 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÌÏÎÌÍÍÌÏÍÎÌÍÏÎÎÎÍÍÌÏÌ</summary>
     public class LifecycleComponent_97A9 : MonoBehaviour
     {
+        public UnityEngine.GameObject ÏÍÍÌÎÍÌÎÎÍÏÍÎÌÌÌÏÍÏÍÌÏÍ; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÏÍÏÍÎÏÌÏÍÏÏÏÍÏÎÎÌÍÏÍÎÏÍ; // 0x28
+        public UnityEngine.UI.HorizontalLayoutGroup _layoutGroup; // 0x30
+        public float _mobileYPosition; // 0x38
+        public float ÍÏÍÍÏÏÎÍÎÎÏÍÌÏÎÍÏÍÌÎÍÎÌ; // 0x3C
+        public float ÎÏÎÏÏÎÌÎÏÏÎÎÌÎÌÌÍÎÍÎÏÏÎ; // 0x40
+        public UnityEngine.CanvasGroup ÍÍÏÌÍÏÌÎÎÍÌÏÏÏÏÎÏÎÍÍÍÏÏ; // 0x48
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x7FFD56DA0A80
         public void .ctor(){} // RVA: 0x7FFD56DA0B80
@@ -1692,6 +2206,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÏÏÏÍÎÎÎÌÎÌÏÌÎÏÎÎÏÏÎÏ</summary>
     public class LifecycleComponent_9CF6 : MonoBehaviour
     {
+        public UnityEngine.GameObject ÏÌÏÎÌÍÎÌÎÌÏÌÏÎÎÏÍÍÌÎÍÌÌ; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F6D24F0
         public void RaiseCancellation(){} // RVA: 0x7FFD4F6D2500
@@ -1706,7 +2222,28 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÌÏÍÏÍÏÏÍÍÌÏÍÌÎÍÍÏÏÏÏ</summary>
     public class LifecycleComponent_A1D0 : MonoBehaviour
     {
-        public object _a1D0;
+        public VRC.Localization.LocalizableString _a1D0; // 0x20
+        public VRC.Localization.LocalizableString ÍÏÌÎÍÏÏÍÏÍÎÎÍÏÎÌÎÌÏÎÎÌÍ; // 0x48
+        public VRC.Localization.LocalizableString ÌÎÌÍÏÍÎÍÍÌÍÍÎÍÍÎÎÏÌÌÎÌÍ; // 0x70
+        public VRC.Localization.LocalizableString ÏÍÏÎÍÌÌÌÎÌÌÎÏÏÎÎÎÎÎÏÍÍÎ; // 0x98
+        public VRC.Localization.LocalizableString ÍÏÎÍÏÎÏÏÏÍÌÏÍÎÎÌÎÍÏÏÏÌÎ; // 0xC0
+        public VRC.Localization.LocalizableString ÏÌÌÍÏÏÍÍÍÌÎÎÌÏÎÍÌÏÎÎÏÍÎ; // 0xE8
+        public VRC.Localization.LocalizableString ÌÌÏÎÎÏÌÍÎÏÏÏÎÏÍÌÏÍÌÌÎÎÍ; // 0x110
+        public VRC.Localization.LocalizableString ÎÌÎÌÏÎÍÎÎÌÌÍÎÏÎÍÍÌÍÎÌÍÏ; // 0x138
+        public VRC.Localization.LocalizableString ÌÌÎÌÏÌÎÏÍÌÌÍÍÏÌÎÏÎÎÌÌÏÌ; // 0x160
+        public ÏÌÎÌÍÍÍÏÍÌÍÌÍÎÏÍÏÍÍÍÍÍÌ _recentlyVisited; // 0x188
+        public ÏÌÎÌÍÍÍÏÍÌÍÌÍÎÏÍÏÍÍÍÍÍÌ _recentlyUpdatedFavorites; // 0x190
+        public ÏÌÎÌÍÍÍÏÍÌÍÌÍÎÏÍÏÍÍÍÍÍÌ _authoredSidebarItem; // 0x198
+        public ÏÌÎÌÍÍÍÏÍÌÍÌÍÎÏÍÏÍÍÍÍÍÌ[] _savedSearchSidebarItems; // 0x1A0
+        public UnityEngine.Sprite _settingsOptionSprite; // 0x1A8
+        public UnityEngine.Sprite _deleteOptionSprite; // 0x1B0
+        public ÎÌÏÏÍÎÏÍÎÎÏÌÎÌÌÌÎÍÍÍÏÍÌ ÎÎÏÏÍÌÌÌÍÍÏÌÎÌÏÏÏÎÍÌÌÏÌ; // 0x1B8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> <ÌÌÎÏÍÎÎÍÍÎÌÎÏÎÏÏÎÌÎÎÌÍÍ>k__BackingField; // 0x1C0
+        public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<System.Collections.IList> ÍÎÏÌÍÍÎÌÏÏÎÎÍÎÎÏÍÎÍÍÎÌÎ; // 0x1C8
+        public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<VRC.Localization.LocalizableString> ÎÏÌÍÎÎÎÎÏÍÏÌÏÎÌÌÍÏÍÌÏÏÍ; // 0x1D0
+        public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<VRC.Localization.LocalizableString> ÌÏÎÍÏÍÌÌÌÌÎÎÏÌÍÏÌÎÌÏÌÍÏ; // 0x1D8
+        public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<VRC.Localization.LocalizableString> ÍÍÎÏÎÌÍÌÍÎÏÎÌÌÎÌÍÍÎÏÎÎÌ; // 0x1E0
+        public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<VRC.Localization.LocalizableString>[] ÍÎÌÌÏÍÏÎÎÏÎÌÍÏÏÏÏÍÎÍÎÏÎ; // 0x1E8
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD567C4FF0
@@ -1747,6 +2284,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÍÏÌÏÏÎÌÏÎÏÎÎÌÍÌÍÍÎÏÍ</summary>
     public class LifecycleComponent_A1EB : MonoBehaviour
     {
+        public ÏÎÎÍÍÎÍÎÎÌÎÏÌÎÍÎÏÍÏÎÎÎÍ ÏÍÏÎÍÏÌÏÌÎÌÌÏÍÍÏÎÎÌÏÎÏÎ; // 0x20
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x28
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÎÎÏÏÍÌÌÌÍÍÏÌÎÌÏÏÏÎÍÌÌÏÌ; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B2A210
         public void RaiseCancellation(){} // RVA: 0x7FFD56B2A300
@@ -1764,6 +2305,15 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÍÌÎÍÌÎÏÎÏÎÏÏÍÎÏÎÌÌÏÍ</summary>
     public class LifecycleComponent_ACD9 : MonoBehaviour
     {
+        public string ÍÌÎÌÏÌÏÎÏÍÏÌÌÎÍÎÍÎÏÏÎÎÏ;
+        public 0x6636D138 ÌÍÎÏÌÏÎÏÏÍÏÍÏÌÏÏÏÍÍÍÍÎÍ; // 0x20
+        public bool ÌÎÏÎÍÎÏÎÏÏÍÍÌÍÍÌÌÌÌÌÍÍÏ; // 0x24
+        public string ÎÎÌÍÎÏÏÌÏÍÍÍÏÎÏÎÏÏÎÌÏÎÏ;
+        public string ÌÌÏÏÍÏÎÎÌÌÏÌÏÍÌÍÍÌÍÌÌÌÏ;
+        public string ÎÍÎÍÏÍÌÎÍÌÍÏÍÎÎÌÍÌÏÍÎÎÎ;
+        public int ÍÏÎÍÍÌÍÏÍÏÍÍÌÍÎÌÍÎÏÌÍÍÏ;
+        public System.Threading.CancellationTokenSource ÌÎÎÍÏÌÎÏÍÌÌÏÍÌÍÏÏÍÏÏÏÏÏ; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
         public void Initialize(){} // RVA: 0x7FFD4F7DB0A0
@@ -1792,6 +2342,18 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÍÏÌÏÌÏÍÌÎÏÍÏÌÌÍÎÏÏÏÍ</summary>
     public class LifecycleComponent_BC05 : MonoBehaviour
     {
+        public UnityEngine.Texture2D regularCatFront; // 0x20
+        public UnityEngine.Texture2D earmuffCatFront; // 0x28
+        public UnityEngine.Texture2D regularCatBack; // 0x30
+        public UnityEngine.Texture2D earmuffCatBack; // 0x38
+        public UnityEngine.Texture2D regularRatFront; // 0x40
+        public UnityEngine.Texture2D earmuffRatFront; // 0x48
+        public UnityEngine.Texture2D regularRatBack; // 0x50
+        public UnityEngine.Texture2D earmuffRatBack; // 0x58
+        public UnityEngine.UI.RawImage imageBack; // 0x60
+        public UnityEngine.UI.RawImage imageFront; // 0x68
+        public bool ÌÌÎÎÍÎÏÏÎÏÏÌÌÍÎÏÌÎÍÎÎÌÏ; // 0x70
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4ECF4C20
         public void Awake(){} // RVA: 0x7FFD4ECF4E90
@@ -1807,6 +2369,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÍÎÍÏÏÌÏÌÏÌÎÌÏÌÎÌÌÏÏÍ</summary>
     public class LifecycleComponent_BDDE : MonoBehaviour
     {
+        public UnityEngine.UI.Button _infoButton; // 0x20
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD56B14B40
         public void RaiseCancellation(){} // RVA: 0x7FFD56B14DD0
@@ -1836,7 +2400,44 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÍÏÎÌÏÏÌÌÍÍÌÏÏÎÏÏÎÍÎÍ</summary>
     public class LifecycleComponent_C5C0 : MonoBehaviour
     {
-        public object _c5C0;
+        public ÏÌÌÍÏÎÌÏÏÌÌÍÍÌÏÏÎÏÏÎÍÎÍ _c5C0;
+        public UnityEngine.UI.Text text_skybox; // 0x20
+        public UnityEngine.UI.Text text_canvases; // 0x28
+        public UnityEngine.UI.Text text_animations; // 0x30
+        public UnityEngine.UI.Text text_particleSystems; // 0x38
+        public UnityEngine.UI.Text text_allRenderers; // 0x40
+        public UnityEngine.UI.Text text_vsync; // 0x48
+        public UnityEngine.UI.Button[] buttons_AA; // 0x50
+        public UnityEngine.UI.Text text_lights; // 0x58
+        public UnityEngine.UI.Button[] buttons_maxPixelLights; // 0x60
+        public UnityEngine.UI.Text text_shadersOpaque; // 0x68
+        public UnityEngine.UI.Text text_shadersCutout; // 0x70
+        public UnityEngine.UI.Text text_shadersFade; // 0x78
+        public UnityEngine.UI.Text text_shadersTransparent; // 0x80
+        public UnityEngine.UI.Text text_shadersOther; // 0x88
+        public UnityEngine.UI.Text text_targetFps; // 0x90
+        public UnityEngine.UI.Text text_colliders; // 0x98
+        public UnityEngine.UI.Text text_physicsTimeStep; // 0xA0
+        public UnityEngine.UI.Text text_cpuLevel; // 0xA8
+        public UnityEngine.UI.Text text_gpuLevel; // 0xB0
+        public System.Collections.Generic.List`1<UnityEngine.Renderer> ÍÌÏÌÍÌÎÏÏÌÏÏÎÎÍÏÌÎÌÏÍÌÌ; // 0xB8
+        public System.Collections.Generic.List`1<UnityEngine.Renderer>[] ÍÌÏÌÎÎÍÌÎÎÏÌÌÍÍÎÏÏÎÏÍÎÌ; // 0xC0
+        public System.Collections.Generic.List`1<UnityEngine.Canvas> ÍÌÍÍÏÍÎÍÌÌÏÎÌÎÏÎÌÏÏÎÌÍÏ; // 0xC8
+        public System.Collections.Generic.List`1<UnityEngine.ParticleSystem> ÎÌÌÌÎÍÌÏÌÌÎÎÎÌÌÎÏÎÍÎÎÍÎ; // 0xD0
+        public System.Collections.Generic.List`1<UnityEngine.Animator> ÎÎÍÏÎÍÌÍÌÌÌÍÏÌÎÍÍÍÏÎÏÎÏ; // 0xD8
+        public System.Collections.Generic.List`1<UnityEngine.GameObject> ÎÏÏÍÌÎÏÍÌÍÌÏÍÌÍÌÍÎÏÌÌÌÏ; // 0xE0
+        public System.Collections.Generic.List`1<UnityEngine.Collider> ÍÎÏÌÎÏÌÌÏÍÍÍÍÌÍÏÏÍÌÏÍÏÌ; // 0xE8
+        public System.Collections.Generic.List`1<UnityEngine.Light> ÏÏÌÎÍÍÌÍÏÎÏÌÍÏÎÎÌÌÍÌÌÌÍ; // 0xF0
+        public UnityEngine.Material ÌÍÍÍÌÎÏÎÏÌÏÏÏÎÌÍÍÏÎÎÌÏÍ; // 0xF8
+        public int ÌÌÏÌÏÌÍÍÎÏÏÎÏÌÎÎÏÏÎÌÎÎÎ;
+        public int ÌÌÌÏÎÎÎÍÏÏÌÌÏÏÏÌÌÏÏÎÏÌÌ;
+        public int ÌÌÏÎÍÌÌÍÍÏÍÎÌÎÎÍÏÏÎÍÎÌÎ;
+        public int ÌÌÎÌÌÌÏÏÏÎÍÏÌÍÎÏÎÌÍÌÌÌÏ;
+        public int ÍÍÌÌÏÎÏÌÍÌÎÌÏÌÏÍÌÏÌÍÍÎÌ;
+        public UnityEngine.UI.Text text_players; // 0x100
+        public System.Collections.Generic.List`1<ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ> ÌÌÏÏÍÍÏÎÎÏÏÌÏÍÌÎÏÍÎÍÌÍÎ; // 0x108
+        public UnityEngine.UI.Text text_playerRenderers; // 0x110
+        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Renderer,bool>> ÏÌÏÍÌÍÏÎÍÌÌÌÍÍÌÏÏÍÌÎÌÎÍ; // 0x118
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E341310
@@ -1886,6 +2487,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÌÏÎÎÏÏÏÍÏÎÌÍÍÎÏÏÌÏÌÏÍ</summary>
     public class LifecycleComponent_CCEE : MonoBehaviour
     {
+        public ÍÌÎÏÍÏÍÏÏÌÍÎÍÌÌÍÎÎÌÌÏÌÎ ÏÍÌÍÍÌÎÌÍÎÌÍÏÍÎÌÌÎÍÍÌÎÌ; // 0x20
+        public ÍÏÏÌÍÏÎÏÏÎÏÌÍÎÌÍÏÏÎÏÎÏÍ ÌÍÎÍÌÌÏÎÍÎÏÌÌÍÌÏÎÏÏÎÎÌÏ; // 0x28
+        public ÎÌÌÎÏÍÎÎÏÌÍÍÌÏÏÎÎÎÎÍÍÌÍ ÌÏÌÏÍÏÏÏÏÏÍÍÍÌÏÌÌÌÌÍÏÌÌ; // 0x30
+        public ÍÏÏÍÏÌÎÏÎÏÏÌÍÏÎÏÎÍÌÍÌÌÌ ÌÌÏÏÏÌÍÌÌÍÌÎÍÍÎÌÍÌÎÌÏÎÎ; // 0x38
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56D8B3B0
         public void RaiseCancellation(){} // RVA: 0x7FFD56D8BA90
@@ -1908,14 +2514,35 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÌÎÏÎÏÍÌÏÍÏÏÌÎÍÍÌÍÍÏÌ</summary>
     public class LifecycleComponent_D33C : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_EA5;
-        public object f_F04;
-        public object f_4F2;
-        public object f_5E4;
-        public object f_0CC;
-        public object f_AE1;
+        public string _destroyCancellationToken; // 0x20
+        public ÎÏÏÌÎÏÎÏÍÌÏÍÏÏÌÎÍÍÌÍÍÏÌ _useGUILayout;
+        public System.Nullable`1<float> f_EA5; // 0x28
+        public System.Nullable`1<int> f_F04; // 0x30
+        public 0x66357818 f_4F2; // 0x38
+        public string f_5E4; // 0x40
+        public string f_0CC; // 0x48
+        public string f_AE1; // 0x50
+        public string <ÎÍÏÏÎÎÎÌÏÎÍÎÎÌÏÍÏÍÌÎÌÏÎ>k__BackingField; // 0x58
+        public string <ÏÎÏÍÏÍÍÏÏÏÌÎÎÏÍÍÏÌÍÏÎÍÏ>k__BackingField; // 0x60
+        public VRC.Core.ApiWorld ÌÍÌÌÏÍÎÏÌÎÌÌÎÍÍÌÏÎÎÏÍÌÎ; // 0x68
+        public bool ÎÌÌÍÏÎÏÍÌÎÍÌÍÌÍÏÍÎÎÏÎÏÎ; // 0x70
+        public bool ÍÎÍÌÎÌÌÎÎÏÏÎÎÏÏÎÏÌÎÌÌÏÎ; // 0x71
+        public bool ÏÏÌÎÌÌÎÎÏÍÍÎÏÏÍÍÎÌÍÍÍÍÏ; // 0x72
+        public bool ÍÌÎÎÌÎÎÏÏÍÏÌÍÎÏÎÍÍÏÏÏÍÏ; // 0x73
+        public bool ÌÍÎÏÍÏÍÏÍÎÏÍÏÌÍÌÎÏÌÏÎÍÏ; // 0x74
+        public bool ÌÍÏÏÏÏÌÎÌÏÎÌÎÌÏÎÌÎÎÎÌÌÌ; // 0x75
+        public bool ÎÌÎÎÌÎÍÎÍÍÍÎÏÍÎÎÎÍÍÌÌÍÍ; // 0x76
+        public bool ÎÍÏÏÍÏÏÍÍÌÌÌÎÎÍÏÌÍÏÌÎÏÍ; // 0x77
+        public bool <EnableVerboseLogging>k__BackingField; // 0x78
+        public bool ÌÎÏÍÎÏÍÍÍÏÍÎÎÏÍÌÍÍÍÏÎÍÎ; // 0x79
+        public bool ÎÍÎÎÍÎÍÍÍÎÎÏÎÏÌÍÏÏÍÎÎÏÏ; // 0x7A
+        public bool ÏÏÎÌÌÎÍÏÍÍÍÎÍÎÎÎÏÏÎÎÏÎÎ; // 0x7B
+        public bool ÎÎÍÏÏÍÌÌÌÎÍÎÏÎÍÏÏÌÎÏÎÍÍ; // 0x7C
+        public bool ÌÌÎÌÌÍÏÍÏÌÎÍÎÌÎÎÏÌÏÏÍÌÎ; // 0x7D
+        public bool <ÎÌÍÎÎÌÎÌÌÍÍÍÎÌÎÌÏÍÎÌÌÎÌ>k__BackingField; // 0x7E
+        public System.Collections.Generic.List`1<0x664CC588> <ÏÌÌÏÌÌÏÎÎÍÌÏÍÍÎÍÍÌÌÍÏÏÏ>k__BackingField; // 0x80
+        public string[] <ÎÎÌÌÌÏÍÌÌÌÎÌÎÏÍÎÍÏÍÌÍÍÌ>k__BackingField; // 0x88
+        public bool ÌÏÍÍÌÏÏÏÎÌÌÏÍÏÍÎÏÏÌÍÌÏÏ; // 0x90
 
         // ── Methods ──
         public void set_imageUrl(){} // RVA: 0x7FFD4E96E300
@@ -1953,9 +2580,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÏÎÎÌÏÏÏÎÎÌÍÏÌÏÌÎÏÏÎÍ</summary>
     public class LifecycleComponent_D398 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_636;
+        public int _destroyCancellationToken;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664D9370> _useGUILayout; // 0x20
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_636; // 0x28
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> <ÎÌÍÏÏÌÎÍÎÌÏÌÍÎÌÎÍÏÍÏÍÎÌ>k__BackingField; // 0x30
+        public System.Collections.Generic.List`1<ÌÍÎÎÌÎÌÌÏÎÎÏÎÍÌÌÍÎÍÌÌÎÌ> ÎÏÏÎÎÌÍÌÍÏÏÍÎÏÌÍÎÎÏÏÏÎÍ; // 0x38
+        public bool ÍÏÍÎÌÏÌÎÌÎÏÎÍÌÌÏÍÍÏÍÍÏÌ; // 0x40
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4EB68E90
@@ -1982,6 +2612,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÎÎÍÌÏÍÌÍÎÎÍÍÏÌÍÍÎÌÌÎ</summary>
     public class LifecycleComponent_D412 : MonoBehaviour
     {
+        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ _applyButton; // 0x20
+        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ _editButton; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _nameText; // 0x30
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _subText; // 0x38
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4EAB7F10
         public void OnHandFocusAcquired(){} // RVA: 0x7FFD4EF62350
@@ -1995,7 +2630,21 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÌÌÍÌÌÍÏÌÌÍÎÌÎÌÌÌÏÌÍÌÍ</summary>
     public class LifecycleComponent_D5AA : MonoBehaviour
     {
-        public object _d5AA;
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ _d5AA; // 0x20
+        public UnityEngine.Vector3 ÍÌÏÍÌÏÏÏÍÌÌÏÌÍÏÎÏÏÎÌÍÍÏ; // 0x28
+        public ÌÏÍÍÏÌÌÎÎÍÏÍÎÍÍÎÌÌÎÍÏÎÍ matManager; // 0x38
+        public ÏÍÏÌÎÍÎÌÎÎÌÌÎÎÌÎÍÍÎÎÍÏÍ cullDisableBox; // 0x40
+        public UnityEngine.Canvas rootCanvas; // 0x48
+        public float ÌÏÎÌÍÏÌÎÍÌÍÌÎÏÌÌÎÌÏÎÏÏÏ; // 0x50
+        public bool ÎÏÍÏÎÍÍÎÍÎÎÍÌÌÎÎÏÏÍÎÌÌÏ; // 0x54
+        public int ÏÎÏÌÍÏÎÏÍÌÍÌÍÍÌÍÎÎÌÌÎÏÌ; // 0x58
+        public bool ÌÏÏÏÍÎÎÍÎÏÎÏÍÍÌÎÎÌÍÎÎÏÏ; // 0x5C
+        public int ÏÏÎÌÎÎÌÏÍÎÏÏÌÍÌÍÎÏÌÎÍÍÌ;
+        public int ÎÎÎÏÎÏÍÌÏÍÍÌÎÌÍÎÎÎÏÎÍÍÎ; // 0x4
+        public int ÎÌÌÎÌÍÎÏÍÏÌÎÌÎÍÏÎÎÎÌÎÏÌ; // 0x8
+        public VRC.Profiling.ProfilerMarker ÎÎÏÎÎÌÌÎÎÏÏÎÌÎÌÏÏÌÍÍÏÏÎ; // 0x10
+        public VRC.Profiling.ProfilerMarker ÎÍÍÍÍÏÏÏÍÏÎÌÍÌÏÌÎÏÏÌÌÎÏ; // 0x20
+        public VRC.Profiling.ProfilerMarker ÌÌÏÏÌÏÏÌÏÍÏÏÎÏÍÏÌÍÎÎÍÏÍ; // 0x30
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E51E7B0
@@ -2020,6 +2669,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÎÌÌÍÎÌÌÍÎÎÎÍÏÎÎÍÍÍÍÏ</summary>
     public class LifecycleComponent_DB51 : MonoBehaviour
     {
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ ÌÌÌÌÎÏÏÍÍÌÌÌÌÌÏÎÌÏÎÏÍÌÍ; // 0x20
+        public UnityEngine.GameObject ÍÏÎÍÌÍÌÏÎÍÎÍÏÌÎÏÎÌÏÏÍÌÍ; // 0x28
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<0x664CFDE8>> ÎÎÏÍÌÏÍÌÏÏÍÏÍÌÍÎÏÎÌÎÌÏÌ; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
         public void Initialize(){} // RVA: 0x7FFD5671FDC0
@@ -2037,8 +2690,16 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÏÌÌÌÌÏÏÏÏÍÌÏÍÌÏÏÌÎÍÎÎ</summary>
     public class LifecycleComponent_DED6 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public UnityEngine.GameObject _destroyCancellationToken; // 0x20
+        public ÍÏÎÎÍÏÎÏÍÏÍÏÌÌÌÎÍÌÎÍÌÎÎ _useGUILayout; // 0x28
+        public ÌÎÍÎÍÍÏÍÍÍÏÌÌÎÏÍÎÎÌÌÏÎÍ _worldsPanel; // 0x30
+        public ÏÎÏÎÌÏÏÌÍÌÌÍÌÌÎÎÌÌÏÌÏÍÍ _worldLandingMM; // 0x38
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ _sidePanelButtonsBinding; // 0x40
+        public ÎÌÏÍÎÏÏÎÏÍÌÌÎÌÍÏÌÌÌÎÌÏÎ _varietyButton; // 0x48
+        public float ÏÍÏÏÎÌÏÍÌÏÌÎÏÎÍÍÍÏÏÌÍÌÍ;
+        public System.Collections.Generic.List`1<ÎÌÏÍÎÏÏÎÏÍÌÌÎÌÍÏÌÌÌÎÌÏÎ> ÌÍÌÏÏÌÏÍÍÎÎÍÎÏÌÎÍÍÎÎÌÌÏ; // 0x50
+        public float ÏÌÏÌÎÏÍÎÍÏÎÏÍÍÏÍÏÎÍÍÍÍÍ; // 0x58
+        public bool ÏÌÌÎÍÌÌÏÌÌÏÎÍÎÍÌÍÏÍÎÌÌÎ; // 0x5C
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56C820D0
@@ -2069,6 +2730,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÏÌÌÍÍÌÍÌÏÌÎÏÍÎÌÎÏÌÎÎ</summary>
     public class LifecycleComponent_E666 : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _title; // 0x20
+        public ÎÌÍÍÏÏÌÎÏÎÎÌÌÏÌÌÍÏÍÏÍÍÌ _foldout; // 0x28
+        public ÍÍÎÎÍÏÏÍÏÏÏÎÌÏÏÍÎÏÌÍÎÎÎ ÍÎÍÌÎÍÍÍÌÍÌÏÏÍÌÏÎÌÌÏÍÎÍ; // 0x30
+        public ÎÎÏÌÍÌÌÍÍÌÏÎÍÍÏÍÌÎÌÍÎÍÏ ÎÌÏÎÏÏÍÌÏÌÌÌÍÎÍÎÍÌÌÏÍÏÎ; // 0x38
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÎÏÎÍÌÌÍÏÎÍÌÏÏÎÍÎÍÎÍÎÍÏÎ; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A1D140
         public void RaiseCancellation(){} // RVA: 0x7FFD56A1D340
@@ -2087,6 +2754,15 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÏÌÎÍÌÌÍÎÌÍÎÍÍÌÌÎÌÏÎÍ</summary>
     public class LifecycleComponent_EC33 : MonoBehaviour
     {
+        public UnityEngine.UI.Toggle ÏÍÏÍÌÎÍÏÎÍÍÍÍÌÌÏÌÎÏÏÎÌÌ; // 0x20
+        public UnityEngine.GameObject ÏÌÌÎÎÎÎÎÌÏÍÎÍÌÎÎÍÌÏÌÏÍÎ; // 0x28
+        public ÎÎÍÍÌÎÍÏÌÌÏÌÏÎÍÎÏÌÏÍÏÎÌ ÍÍÎÏÍÌÎÌÍÏÏÏÏÍÎÌÍÌÎÍÏÎÎ; // 0x30
+        public ÌÌÍÍÏÌÏÏÏÌÏÍÍÏÎÌÌÌÎÍÎÏÏ ÌÏÎÎÏÍÌÌÌÎÌÎÌÍÍÎÏÍÏÍÎÏÏ; // 0x38
+        public UnityEngine.UI.Toggle ÍÏÍÏÌÍÏÏÍÎÌÎÌÎÌÎÏÎÌÌÌÎÏ; // 0x40
+        public 0x664C9A38 ÎÌÎÎÏÏÎÎÎÏÏÏÍÎÏÏÍÏÌÏÍÌÏ; // 0x48
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÏÎÏÍÏÌÏÎÎÌÌÌÌÌÎÏÌÍÎÏÎÍÌ; // 0x50
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> ÌÌÏÏÏÎÎÏÎÏÏÍÌÍÎÌÌÏÎÎÏÍÎ; // 0x58
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD566BCE70
         public void RaiseCancellation(){} // RVA: 0x7FFD566BCEA0
@@ -2112,6 +2788,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÏÍÎÍÌÍÍÍÎÍÌÍÎÏÍÏÌÎÏÍÌ</summary>
     public class LifecycleComponent_ED3C : MonoBehaviour
     {
+        public bool _alwaysFetchResults; // 0x20
+        public 0x664CF130 ÎÍÎÏÎÌÎÎÎÎÌÍÏÌÎÏÎÏÍÏÏÏÍ; // 0x28
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x30
+        public ÍÍÏÏÏÌÎÎÌÌÍÌÎÍÍÌÎÍÏÍÎÌÌ ÍÏÍÎÏÍÌÌÎÌÏÍÌÎÍÎÏÎÍÎÎÍÎ; // 0x38
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56832190
         public void OnDisable(){} // RVA: 0x7FFD568322A0
@@ -2142,6 +2823,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÌÍÍÍÍÌÏÌÌÍÏÌÎÍÎÏÎÌÏÌÌ</summary>
     public class LifecycleComponent_ED73 : MonoBehaviour
     {
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x20
+        public bool ÎÎÍÎÌÍÎÎÎÌÏÍÌÌÎÌÌÍÍÍÏÏÍ; // 0x28
+        public System.Action ÍÏÌÎÏÎÍÎÏÌÎÍÌÌÍÌÎÎÍÌÎÌÌ; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56BEC670
         public void RaiseCancellation(){} // RVA: 0x7FFD56BEC760
@@ -2163,6 +2848,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÎÍÍÍÏÍÏÎÎÎÎÎÌÏÎÍÌÌÌÍ</summary>
     public class LifecycleComponent_F99B : MonoBehaviour
     {
+        public UnityEngine.GameObject _CentralMarketplaceQMQuickLinkButton; // 0x20
+        public UnityEngine.UI.GridLayoutGroup ÍÌÍÎÏÏÎÎÎÍÎÏÌÌÍÏÌÎÍÍÍÍÍ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B5F8E0
         public void Start(){} // RVA: 0x7FFD56B5FA40
@@ -2176,10 +2864,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÌÏÌÍÍÏÏÏÎÏÏÍÌÍÌÏÌÌÏÍ</summary>
     public class LifecycleComponent_FA8C : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_527;
-        public object f_57F;
+        public ÎÏÍÌÏÌÍÍÏÏÏÎÏÏÍÌÍÌÏÌÌÏÍ _destroyCancellationToken;
+        public System.Collections.Generic.List`1<VRC.Core.ApiMessage> _useGUILayout; // 0x20
+        public System.Collections.Generic.IEnumerable`1<string> f_527; // 0x28
+        public int f_57F; // 0x8
+        public 0x66412500 ÏÎÎÏÌÌÏÌÌÍÌÎÍÏÍÎÍÌÍÎÌÎÍ; // 0xC
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<string>> ÎÍÌÍÎÌÏÎÌÏÌÎÌÎÏÍÎÏÍÎÍÍÌ; // 0x30
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4F32B2D0
@@ -2215,6 +2905,12 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÍÏÏÍÏÌÌÍÌÎÏÌÎÏÌÏÌÎÎÏÌ</summary>
     public class LifecycleComponent_FF30 : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _title; // 0x20
+        public ÎÌÍÍÏÏÌÎÏÎÎÌÌÏÌÌÍÏÍÏÍÍÌ _foldout; // 0x28
+        public ÍÍÎÎÍÏÏÍÏÏÏÎÌÏÏÍÎÏÌÍÎÎÎ ÍÎÍÌÎÍÍÍÌÍÌÏÏÍÌÏÎÌÌÏÍÎÍ; // 0x30
+        public ÎÍÍÏÏÌÏÏÏÎÏÌÏÎÌÌÏÏÌÎÏÍÍ ÏÌÎÎÏÌÌÍÌÏÏÎÏÎÎÍÍÍÍÌÏÍÏ; // 0x38
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÎÏÎÍÌÌÍÏÎÍÌÏÏÎÍÎÍÎÍÎÍÏÎ; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A1C110
         public void Start(){} // RVA: 0x7FFD56A1C250
@@ -2234,6 +2930,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÏÎÎÏÎÎÎÎÏÎÎÎÍÌÍÌÏÎÍÍÍÎ</summary>
     public class LifecycleComponent_FFB0 : MonoBehaviour
     {
+        public TMPro.TMP_Dropdown _sortByDropdown; // 0x20
+        public string ÏÍÌÎÌÍÌÏÏÎÏÍÎÌÌÎÎÏÎÌÎÏÍ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56D4AB10
         public void RaiseCancellation(){} // RVA: 0x7FFD56D4AB20

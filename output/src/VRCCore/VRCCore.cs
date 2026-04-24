@@ -7,8 +7,8 @@ namespace VRCCore
 {
     public class ApiAdminFile : ApiModel
     {
-        public object fileName;
-        public object url;
+        public string fileName; // 0x68
+        public string url; // 0x70
 
         // ── Methods ──
         public void get_fileName(){} // RVA: 0x7FFD4E3BCD50
@@ -22,6 +22,9 @@ namespace VRCCore
 
     public class AssetBundleFooter : Object
     {
+        public string AssetBundleFooterMagicValue;
+        public byte[] AssetBundleFooterMagicValueBytes; // 0x8
+
         // ── Methods ──
         public void AppendToStream(){} // RVA: 0x7FFD56E50EA0
         public void GetFooterSections(){} // RVA: 0x7FFD56E51100 | overloaded x2
@@ -32,6 +35,8 @@ namespace VRCCore
 
     public class FooterSection : ValueType
     {
+        public string sectionType; // 0x10
+        public byte[] data; // 0x18
     }
 
 }

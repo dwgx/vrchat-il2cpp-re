@@ -7,18 +7,27 @@ namespace VRC.UI
 {
     public class AvatarProxySettings : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_B9B;
-        public object f_42C;
-        public object f_FD0;
-        public object f_AB0;
-        public object f_C00;
-        public object f_975;
-        public object f_31B;
-        public object f_13E;
-        public object f_954;
-        public object f_56A;
+        public bool _name;
+        public bool _hideFlags;
+        public float f_B9B;
+        public float f_42C;
+        public float f_FD0;
+        public float f_AB0;
+        public float f_C00;
+        public int f_975;
+        public int f_31B;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_13E; // 0x10
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_954; // 0x18
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_56A; // 0x20
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÏÏÌÍÍÎÎÍÏÌÌÎÎÎÎÍÌÌÏÏÌÏ>k__BackingField; // 0x28
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÍÏÏÎÏÏÎÏÎÎÍÍÌÎÎÌÎÍÌÌÏÏ>k__BackingField; // 0x30
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÌÎÌÎÌÏÍÏÏÎÍÎÍÌÎÏÎÏÍÌÌÎ>k__BackingField; // 0x38
+        public bool ÎÍÍÍÍÏÌÏÍÍÎÏÌÌÌÌÍÌÎÏÎÎÏ;
+        public bool ÏÌÏÍÍÏÏÏÏÏÏÏÏÏÎÍÎÍÏÏÌÎÎ; // 0x1
+        public float ÏÌÍÌÌÍÏÍÍÍÌÏÎÍÎÎÎÌÍÏÍÌÌ; // 0x4
+        public bool ÎÍÍÏÍÌÏÌÎÏÌÌÏÍÎÍÍÌÎÏÏÎÍ; // 0x8
+        public int ÏÍÌÍÎÏÌÌÍÍÍÍÌÌÎÏÍÎÎÍÌÎÍ; // 0xC
+        public bool ÌÎÎÎÌÌÍÌÎÏÎÍÍÍÎÎÍÌÌÏÏÎÌ; // 0x10
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EB62850

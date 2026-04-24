@@ -7,14 +7,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class <OrderBy>F20F22F0783C758479CC59FC23C7FEAF81F289B10B31CBE866E87C24F818E06F4__DescendingDefaultComparer`1 : Object
     {
-        public int <>1__state;
-        public T1717678032 <>2__current;
-        public int <>l__initialThreadId;
-        public T1717678032 element;
-        public T1717678032 <>3__element;
-        public URA.bbrevEraNames<T1717678032> source;
-        public URA.bbrevEraNames<T1717678032> <>3__source;
-        public URA.saAbbrevEnglishEraNames<T1717678032> <>7__wrap1;
+        public System.Collections.Generic.IComparer`1<Transmtn.DTO.Notifications.Notification> Default;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -34,12 +27,22 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class <OrderBy>F20F22F0783C758479CC59FC23C7FEAF81F289B10B31CBE866E87C24F818E06F4__UnsafeFunctions`2 : Object
     {
+        public System.Func`2<Transmtn.DTO.Notifications.Notification,long> Identity;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
     }
 
     public class AggregateBy2`4 : ValueType
     {
+        public System.Func`2<V,W> <keySelector>P;
+        public System.Func`2<W,U> <seedSelector>P;
+        public System.Func`3<U,V,U> <func>P;
+        public System.Collections.Generic.IEqualityComparer`1<W> <keyComparer>P;
+        public U source;
+        public ZLinq.Internal.DictionarySlim`2<W,U> dictionary;
+        public Enumerator<W,U> enumerator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -52,6 +55,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class AggregateBy`4 : ValueType
     {
+        public System.Func`2<V,W> <keySelector>P;
+        public U <seed>P;
+        public System.Func`3<U,V,U> <func>P;
+        public System.Collections.Generic.IEqualityComparer`1<W> <keyComparer>P;
+        public U source;
+        public ZLinq.Internal.DictionarySlim`2<W,U> dictionary;
+        public Enumerator<W,U> enumerator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -64,6 +75,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Append`2 : ValueType
     {
+        public int <element>P; // 0x10
+        public ZLinq.Linq.FromEnumerable`1<int> source; // 0x18
+        public byte state; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -75,6 +90,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayIterator`1 : CollectionIterator`1
     {
+        public ZLinq.Linq.ArrayIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E07D200
@@ -86,6 +103,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArraySelect`2 : ValueType
     {
+        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ[] source; // 0x10
+        public System.Func`2<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ,int> selector; // 0x18
+        public int index; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -97,8 +118,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhereSelect`2 : ValueType
     {
-        public object Predicate;
-        public object Selector;
+        public System.Func`2<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ,bool> Predicate; // 0x10
+        public System.Func`2<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ,int> Selector; // 0x18
+        public int index; // 0x20
+        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ[] source; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -114,7 +137,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhere`1 : ValueType
     {
-        public object Predicate;
+        public System.Func`2<ÎÎÌÏÏÏÎÌÏÌÌÏÍÍÏÌÌÍÏÎÍÏÍ,bool> Predicate; // 0x10
+        public ÎÎÌÏÏÏÎÌÏÌÌÏÍÍÏÌÌÍÏÎÍÏÍ[] source; // 0x18
+        public int index; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -130,6 +155,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Cast`3 : ValueType
     {
+        public ZLinq.Linq.FromEnumerable`1<object> source; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -141,6 +168,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Chunk`2 : ValueType
     {
+        public int <size>P;
+        public U source;
+        public int index;
+        public bool isInitialized;
+        public bool isCompleted;
+        public bool isCanGetSpan;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -162,6 +196,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Concat`3 : ValueType
     {
+        public V first;
+        public V second;
+        public bool firstCompleted;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -173,6 +211,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class CountBy`3 : ValueType
     {
+        public System.Func`2<V,U> <keySelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<U> <keyComparer>P;
+        public U source;
+        public ZLinq.Internal.DictionarySlim`2<U,int> dictionary;
+        public Enumerator<U,int> enumerator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -185,6 +229,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class DefaultIfEmpty`2 : ValueType
     {
+        public U <defaultValue>P;
+        public U source;
+        public bool iterateDefault;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -196,6 +244,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class DistinctBy`3 : ValueType
     {
+        public System.Func`2<ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ,string> <keySelector>P; // 0x10
+        public System.Collections.Generic.IEqualityComparer`1<string> <comparer>P; // 0x18
+        public ZLinq.Linq.Reverse`2<ZLinq.Linq.ListWhere`1<ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ>,ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ> source; // 0x20
+        public ZLinq.Internal.HashSetSlim`1<string> set; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -207,6 +260,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Distinct`2 : ValueType
     {
+        public System.Collections.Generic.IEqualityComparer`1<U> <comparer>P;
+        public U source;
+        public ZLinq.Internal.HashSetSlim`1<U> set;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -218,6 +275,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class EnumerableIterator`1 : CollectionIterator`1
     {
+        public ZLinq.Linq.EnumerableIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E07D200
@@ -228,6 +287,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ExceptBy`4 : ValueType
     {
+        public System.Func`2<W,U> <keySelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<U> <comparer>P;
+        public V source;
+        public ZLinq.ValueEnumerable`2<V,U> second;
+        public ZLinq.Internal.HashSetSlim`1<U> set;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -239,6 +304,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Except`3 : ValueType
     {
+        public System.Collections.Generic.IEqualityComparer`1<Transmtn.DTO.Notifications.Notification> <comparer>P; // 0x10
+        public ZLinq.Linq.FromList`1<Transmtn.DTO.Notifications.Notification> source; // 0x18
+        public ZLinq.ValueEnumerable`2<ZLinq.Linq.ListWhere`1<Transmtn.DTO.Notifications.Notification>,Transmtn.DTO.Notifications.Notification> second; // 0x28
+        public ZLinq.Internal.HashSetSlim`1<Transmtn.DTO.Notifications.Notification> set; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -250,6 +320,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromArray`1 : ValueType
     {
+        public int[] <source>P; // 0x10
+        public int index; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void GetSource(){} // RVA: 0x7FFD4E078E90
@@ -262,6 +335,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerableContent : ValueType
     {
+        public object Source; // 0x10
+        public int Index; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5501E610
         public void ThrowIfNoEnumerable(){} // RVA: 0x7FFD575012D0
@@ -270,6 +346,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public ZLinq.Linq.CollectionIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> iterator; // 0x10
+        public ZLinq.Linq.FromEnumerableContent content; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void GetSource(){} // RVA: 0x7FFD4E078E90
@@ -282,6 +361,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
+        public System.Collections.Generic.List`1<ÌÌÏÌÏÏÍÏÍÌÎÎÌÌÏÌÌÍÍÌÍÏÌ> <source>P; // 0x10
+        public int index; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void GetSource(){} // RVA: 0x7FFD4E078E90
@@ -294,6 +376,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromMemory`1 : ValueType
     {
+        public System.ReadOnlyMemory`1<Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`3<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ,ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ,int>>> <source>P; // 0x10
+        public int index; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -305,6 +390,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromRange : ValueType
     {
+        public int count; // 0x10
+        public int start; // 0x14
+        public int to; // 0x18
+        public int value; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57501BC0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD51B7A420
@@ -317,6 +407,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupBy2`4 : ValueType
     {
+        public System.Func`2<V,W> <keySelector>P;
+        public System.Func`2<V,U> <elementSelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<W> <comparer>P;
+        public U source;
+        public bool init;
+        public ZLinq.Linq.Grouping`2<W,U> rootGrouping;
+        public ZLinq.Linq.Grouping`2<W,U> currentGrouping;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -329,6 +427,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupBy3`4 : ValueType
     {
+        public System.Func`2<V,W> <keySelector>P;
+        public System.Func`3<W,System.Collections.Generic.IEnumerable`1<V>,U> <resultSelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<W> <comparer>P;
+        public U source;
+        public bool init;
+        public ZLinq.Linq.Grouping`2<W,V> rootGrouping;
+        public ZLinq.Linq.Grouping`2<W,V> currentGrouping;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -341,6 +447,15 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupBy4`5 : ValueType
     {
+        public System.Func`2<V,W> <keySelector>P;
+        public System.Func`2<V,T4> <elementSelector>P;
+        public System.Func`3<W,System.Collections.Generic.IEnumerable`1<T4>,T> <resultSelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<W> <comparer>P;
+        public U source;
+        public bool init;
+        public ZLinq.Linq.Grouping`2<W,T4> rootGrouping;
+        public ZLinq.Linq.Grouping`2<W,T4> currentGrouping;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -353,6 +468,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupBy`3 : ValueType
     {
+        public System.Func`2<V,U> <keySelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<U> <comparer>P;
+        public U source;
+        public bool init;
+        public ZLinq.Linq.Grouping`2<U,V> rootGrouping;
+        public ZLinq.Linq.Grouping`2<U,V> currentGrouping;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -365,6 +487,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupJoin`6 : ValueType
     {
+        public System.Func`2<W,T5> <outerKeySelector>P;
+        public System.Func`2<T4,T5> <innerKeySelector>P;
+        public System.Func`3<W,System.Collections.Generic.IEnumerable`1<T4>,U> <resultSelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<T5> <comparer>P;
+        public V source;
+        public V inner;
+        public ZLinq.Linq.Lookup`2<T5,T4> innerLookup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -376,11 +506,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Grouping`2 : Object
     {
-        public object Key;
-        public object HashCode;
-        public object Count;
-        public object IsReadOnly;
-        public object Item;
+        public U Key;
+        public uint HashCode;
+        public T[] Count;
+        public int IsReadOnly;
+        public ZLinq.Linq.Grouping`2<U,T> Item;
+        public ZLinq.Linq.Grouping`2<U,T> NextGroupInSameHashCode;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -405,6 +536,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class IListIterator`1 : CollectionIterator`1
     {
+        public ZLinq.Linq.IListIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E07D200
@@ -420,6 +553,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class IReadOnlyListIterator`1 : CollectionIterator`1
     {
+        public ZLinq.Linq.IReadOnlyListIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E07D200
@@ -429,6 +564,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Index`2 : ValueType
     {
+        public ZLinq.Linq.FromEnumerable`1<ÎÎÏÌÍÌÌÍÍÌÏÎÍÍÏÍÌÎÌÍÎÍÏ> source; // 0x10
+        public int index; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -440,6 +578,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class IntersectBy`4 : ValueType
     {
+        public System.Func`2<W,T> <keySelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<T> <comparer>P;
+        public V source;
+        public ZLinq.ValueEnumerable`2<V,T> second;
+        public ZLinq.Internal.HashSetSlim`1<T> set;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -451,6 +595,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Intersect`3 : ValueType
     {
+        public System.Collections.Generic.IEqualityComparer`1<T> <comparer>P;
+        public V source;
+        public ZLinq.ValueEnumerable`2<V,T> second;
+        public ZLinq.Internal.HashSetSlim`1<T> set;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -462,6 +611,17 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Join`6 : ValueType
     {
+        public System.Func`2<W,T5> <outerKeySelector>P;
+        public System.Func`2<T4,T5> <innerKeySelector>P;
+        public System.Func`3<W,T4,T> <resultSelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<T5> <comparer>P;
+        public V source;
+        public V inner;
+        public ZLinq.Linq.Lookup`2<T5,T4> innerLookup;
+        public ZLinq.Linq.Grouping`2<T5,T4> currentGroup;
+        public int currentGroupIndex;
+        public W currentOuter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -473,6 +633,17 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class LeftJoin`6 : ValueType
     {
+        public System.Func`2<W,T5> <outerKeySelector>P;
+        public System.Func`2<T4,T5> <innerKeySelector>P;
+        public System.Func`3<W,T4,U> <resultSelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<T5> <comparer>P;
+        public V source;
+        public V inner;
+        public ZLinq.Linq.Lookup`2<T5,T4> innerLookup;
+        public ZLinq.Linq.Grouping`2<T5,T4> currentGroup;
+        public int currentGroupIndex;
+        public W currentOuter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -484,6 +655,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
+        public ZLinq.Linq.ListIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E07D200
@@ -495,6 +668,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListSelect`2 : ValueType
     {
+        public System.Collections.Generic.List`1<Transmtn.DTO.Notifications.Notification> source; // 0x10
+        public System.Func`2<Transmtn.DTO.Notifications.Notification,ÍÎÎÍÏÌÎÏÏÌÌÏÌÌÏÎÏÌÌÌÌÍÏ> selector; // 0x18
+        public int index; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -506,6 +683,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhereSelect`2 : ValueType
     {
+        public System.Func`2<U,bool> <predicate>P;
+        public System.Func`2<U,T> <selector>P;
+        public int index;
+        public System.Collections.Generic.List`1<U> source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -517,7 +699,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
-        public object Predicate;
+        public System.Func`2<Transmtn.DTO.Notifications.Notification,bool> Predicate; // 0x10
+        public System.Collections.Generic.List`1<Transmtn.DTO.Notifications.Notification> source; // 0x18
+        public int index; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -539,6 +723,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class LookupBuilder`2 : ValueType
     {
+        public System.Collections.Generic.IEqualityComparer`1<U> comparer;
+        public ZLinq.Linq.Grouping`2<U,T>[] buckets;
+        public int bucketsLength;
+        public ZLinq.Linq.Grouping`2<U,T> last;
+        public int groupCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void GetBucketIndex(){} // RVA: 0x7FFD4E0800D0
@@ -551,9 +741,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Lookup`2 : Object
     {
-        public object Item;
-        public object Count;
-        public object System.Collections.Generic.ICollection<System.Linq.IGrouping<TKey,TElement>>.IsReadOnly;
+        public ZLinq.Linq.Lookup`2<U,T> Item;
+        public ZLinq.Linq.Grouping`2<U,T>[] Count;
+        public ZLinq.Linq.Grouping`2<U,T> System.Collections.Generic.ICollection<System.Linq.IGrouping<TKey,TElement>>.IsReadOnly;
+        public int count;
+        public System.Collections.Generic.IEqualityComparer`1<U> comparer;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980 | overloaded x2
@@ -575,6 +767,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OfType`3 : ValueType
     {
+        public U source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -586,6 +780,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparable`2 : Object
     {
+        public System.Func`2<Transmtn.DTO.Notifications.Notification,long> <keySelector>P; // 0x10
+        public ZLinq.Linq.IOrderByComparable`1<Transmtn.DTO.Notifications.Notification> <parent>P; // 0x18
+        public bool <descending>P; // 0x20
+        public System.Collections.Generic.IComparer`1<long> comparer; // 0x28
+
         // ── Methods ──
         public void .ctor(){}
         public void GetComparer(){} // RVA: 0x7FFD4E2ADC40
@@ -593,6 +792,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparer`2 : Object
     {
+        public long[] keys; // 0x10
+        public System.Collections.Generic.IComparer`1<long> comparer; // 0x18
+        public 0x665C5B70 childComparer; // 0x20
+        public bool descending; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void Compare(){} // RVA: 0x7FFD4E080290
@@ -601,6 +805,15 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderBySkipTake`3 : ValueType
     {
+        public U source;
+        public ZLinq.Linq.OrderByComparable`2<V,T> comparable;
+        public int minIndexInclusive;
+        public int maxIndexInclusive;
+        public ZLinq.Internal.RentedArrayBox`1<V> buffer;
+        public ZLinq.Internal.RentedArrayBox`1<int> indexMap;
+        public int maxIndex;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -614,6 +827,15 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderBy`3 : ValueType
     {
+        public System.Func`2<Transmtn.DTO.Notifications.Notification,long> <keySelector>P; // 0x10
+        public System.Collections.Generic.IComparer`1<long> <comparer>P; // 0x18
+        public ZLinq.Linq.IOrderByComparable`1<Transmtn.DTO.Notifications.Notification> <parent>P; // 0x20
+        public bool <descending>P; // 0x28
+        public ZLinq.Linq.FromList`1<Transmtn.DTO.Notifications.Notification> source; // 0x30
+        public ZLinq.Linq.OrderByComparable`2<Transmtn.DTO.Notifications.Notification,long> comparable; // 0x40
+        public ZLinq.Internal.RentedArrayBox`1<Transmtn.DTO.Notifications.Notification> buffer; // 0x48
+        public int index; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -629,6 +851,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Prepend`2 : ValueType
     {
+        public U <element>P;
+        public U source;
+        public byte state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -640,6 +866,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class RangeSelect`1 : ValueType
     {
+        public int count;
+        public int start;
+        public int to;
+        public int value;
+        public System.Func`2<int,U> selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -651,6 +883,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Reverse`2 : ValueType
     {
+        public ZLinq.Linq.ListWhere`1<ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ> source; // 0x10
+        public ZLinq.Internal.RentedArrayBox`1<ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ> buffer; // 0x28
+        public int index; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -663,6 +899,17 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class RightJoin`6 : ValueType
     {
+        public System.Func`2<W,T5> <outerKeySelector>P;
+        public System.Func`2<T4,T5> <innerKeySelector>P;
+        public System.Func`3<W,T4,U> <resultSelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<T5> <comparer>P;
+        public V source;
+        public V inner;
+        public ZLinq.Linq.Lookup`2<T5,W> outerLookup;
+        public ZLinq.Linq.Grouping`2<T5,W> currentGroup;
+        public int currentGroupIndex;
+        public T4 currentInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -674,6 +921,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Select2`3 : ValueType
     {
+        public System.Func`3<V,int,T> <selector>P;
+        public U source;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -685,6 +936,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany2`3 : ValueType
     {
+        public System.Func`3<V,int,System.Collections.Generic.IEnumerable`1<U>> <selector>P;
+        public U source;
+        public ZLinq.Linq.FromEnumerable`1<U> innerEnumerator;
+        public bool hasInner;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -696,6 +953,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany2`4 : ValueType
     {
+        public System.Func`3<W,int,ZLinq.ValueEnumerable`2<V,T>> <selector>P;
+        public V source;
+        public V innerEnumerator;
+        public bool hasInner;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -707,6 +970,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany3`4 : ValueType
     {
+        public System.Func`2<V,System.Collections.Generic.IEnumerable`1<W>> <collectionSelector>P;
+        public System.Func`3<V,W,U> <resultSelector>P;
+        public U source;
+        public ZLinq.Linq.FromEnumerable`1<W> innerEnumerator;
+        public V currentSource;
+        public bool hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -718,6 +988,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany3`5 : ValueType
     {
+        public System.Func`2<W,ZLinq.ValueEnumerable`2<V,T4>> <collectionSelector>P;
+        public System.Func`3<W,T4,T> <resultSelector>P;
+        public V source;
+        public V innerEnumerator;
+        public W currentSource;
+        public bool hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -729,6 +1006,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany4`4 : ValueType
     {
+        public System.Func`3<V,int,System.Collections.Generic.IEnumerable`1<W>> <collectionSelector>P;
+        public System.Func`3<V,W,U> <resultSelector>P;
+        public U source;
+        public ZLinq.Linq.FromEnumerable`1<W> innerEnumerator;
+        public V currentSource;
+        public int index;
+        public bool hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -740,6 +1025,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany4`5 : ValueType
     {
+        public System.Func`3<W,int,ZLinq.ValueEnumerable`2<V,T4>> <collectionSelector>P;
+        public System.Func`3<W,T4,T> <resultSelector>P;
+        public V source;
+        public V innerEnumerator;
+        public W currentSource;
+        public int index;
+        public bool hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -751,6 +1044,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany`3 : ValueType
     {
+        public System.Func`2<System.Collections.Generic.SortedSet`1<Transmtn.DTO.Notifications.Notification>,System.Collections.Generic.IEnumerable`1<Transmtn.DTO.Notifications.Notification>> <selector>P; // 0x10
+        public ZLinq.Linq.FromEnumerable`1<System.Collections.Generic.SortedSet`1<Transmtn.DTO.Notifications.Notification>> source; // 0x18
+        public ZLinq.Linq.FromEnumerable`1<Transmtn.DTO.Notifications.Notification> innerEnumerator; // 0x30
+        public bool hasInner; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -762,6 +1060,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany`4 : ValueType
     {
+        public System.Func`2<W,ZLinq.ValueEnumerable`2<V,U>> <selector>P;
+        public V source;
+        public V innerEnumerator;
+        public bool hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -773,6 +1076,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectWhere`3 : ValueType
     {
+        public System.Func`2<LoadingInfoData,float> <selector>P; // 0x10
+        public System.Func`2<float,bool> <predicate>P; // 0x18
+        public ZLinq.Linq.FromList`1<LoadingInfoData> source; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -784,6 +1091,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Select`3 : ValueType
     {
+        public ZLinq.Linq.FromList`1<LoadingInfoData> source; // 0x10
+        public System.Func`2<LoadingInfoData,float> selector; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -796,6 +1106,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Shuffle`2 : ValueType
     {
+        public U source;
+        public ZLinq.Internal.RentedArrayBox`1<U> buffer;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -808,6 +1122,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipLast`2 : ValueType
     {
+        public U source;
+        public int skipCount;
+        public ZLinq.Internal.RefBox`1<ZLinq.Internal.ValueQueue`1<U>> buffer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -819,6 +1137,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipWhile2`2 : ValueType
     {
+        public System.Func`3<U,int,bool> <predicate>P;
+        public U source;
+        public bool skippingDone;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -830,6 +1153,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipWhile`2 : ValueType
     {
+        public System.Func`2<U,bool> <predicate>P;
+        public U source;
+        public bool skippingDone;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -841,6 +1168,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Skip`2 : ValueType
     {
+        public ZLinq.Linq.ListWhere`1<ÌÌÍÏÏÎÎÏÎÍÍÌÍÌÍÏÌÎÏÏÍÏÏ> source; // 0x10
+        public int skipCount; // 0x28
+        public int skipped; // 0x2C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -852,6 +1183,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeLast`2 : ValueType
     {
+        public U source;
+        public int takeCount;
+        public ZLinq.Internal.RefBox`1<ZLinq.Internal.ValueQueue`1<U>> q;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -863,6 +1198,15 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeRange`2 : ValueType
     {
+        public U source;
+        public System.Range range;
+        public int index;
+        public int remains;
+        public int skipIndex;
+        public int fromEndQueueCount;
+        public ZLinq.Internal.RefBox`1<ZLinq.Internal.ValueQueue`1<U>> q;
+        public bool isInitialized;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void Init(){} // RVA: 0x7FFD4E090980
@@ -875,6 +1219,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeWhile2`2 : ValueType
     {
+        public System.Func`3<U,int,bool> <predicate>P;
+        public U source;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -886,6 +1234,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeWhile`2 : ValueType
     {
+        public System.Func`2<U,bool> <predicate>P;
+        public U source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -897,6 +1248,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Take`2 : ValueType
     {
+        public U source;
+        public int takeCount;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -908,6 +1263,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class UnionBy`4 : ValueType
     {
+        public System.Func`2<W,T> <keySelector>P;
+        public System.Collections.Generic.IEqualityComparer`1<T> <comparer>P;
+        public V source;
+        public V second;
+        public ZLinq.Internal.HashSetSlim`1<T> set;
+        public byte state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -919,6 +1281,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Union`3 : ValueType
     {
+        public System.Collections.Generic.IEqualityComparer`1<T> <comparer>P;
+        public V source;
+        public V second;
+        public ZLinq.Internal.HashSetSlim`1<T> set;
+        public byte state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -930,6 +1298,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Where2`2 : ValueType
     {
+        public System.Func`3<U,int,bool> <predicate>P;
+        public U source;
+        public int index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -941,8 +1313,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class WhereSelect`3 : ValueType
     {
-        public object Predicate;
-        public object Selector;
+        public System.Func`2<ÍÍÎÎÍÍÍÍÏÍÍÏÎÏÍÏÏÏÏÏÏÏÎ,bool> Predicate; // 0x10
+        public System.Func`2<ÍÍÎÎÍÍÍÍÏÍÍÏÎÏÍÏÏÏÏÏÏÏÎ,string> Selector; // 0x18
+        public ZLinq.Linq.FromEnumerable`1<ÍÍÎÎÍÍÍÍÏÍÍÏÎÏÍÏÏÏÏÏÏÏÎ> source; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -958,7 +1331,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Where`2 : ValueType
     {
-        public object Predicate;
+        public System.Func`2<Transmtn.DTO.Notifications.Notification,bool> Predicate; // 0x10
+        public ZLinq.Linq.SelectMany`3<ZLinq.Linq.FromEnumerable`1<System.Collections.Generic.SortedSet`1<Transmtn.DTO.Notifications.Notification>>,System.Collections.Generic.SortedSet`1<Transmtn.DTO.Notifications.Notification>,Transmtn.DTO.Notifications.Notification> source; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -974,6 +1348,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Zip`4 : ValueType
     {
+        public V source;
+        public V second;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -985,6 +1362,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Zip`5 : ValueType
     {
+        public System.Func`3<W,T4,T> <resultSelector>P;
+        public V source;
+        public V second;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -996,6 +1377,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Zip`6 : ValueType
     {
+        public T source;
+        public W second;
+        public W third;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60

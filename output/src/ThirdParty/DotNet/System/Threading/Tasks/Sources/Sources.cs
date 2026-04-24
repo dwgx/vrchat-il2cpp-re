@@ -23,8 +23,15 @@ namespace ThirdParty.DotNet.System.Threading.Tasks.Sources
 
     public class ManualResetValueTaskSourceCore`1 : ValueType
     {
-        public object RunContinuationsAsynchronously;
+        public System.Action`1<object> RunContinuationsAsynchronously;
         public object Version;
+        public System.Threading.ExecutionContext _executionContext;
+        public object _capturedContext;
+        public bool _completed;
+        public T _result;
+        public 0x66435CE0 _error;
+        public short _version;
+        public bool <RunContinuationsAsynchronously>k__BackingField;
 
         // ── Methods ──
         public void get_RunContinuationsAsynchronously(){} // RVA: 0x7FFD4E079D00

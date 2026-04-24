@@ -16,8 +16,11 @@ namespace ThirdParty.Unity.UnityEngine.Networking.PlayerConnection
 
     public class PlayerConnection : ScriptableObject
     {
-        public object instance;
-        public object isConnected;
+        public 0x664DDA98 instance;
+        public 0x664E6158 isConnected; // 0x18
+        public System.Collections.Generic.List`1<int> m_connectedPlayers; // 0x20
+        public bool m_IsInitilized; // 0x28
+        public UnityEngine.Networking.PlayerConnection.PlayerConnection s_Instance; // 0x8
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54D04080

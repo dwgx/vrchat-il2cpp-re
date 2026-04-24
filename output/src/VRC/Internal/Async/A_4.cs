@@ -8,6 +8,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÎÎÌÍÌÍÏÏÌÎÍÍÎÍÏÌÏÍÍÎ</summary>
     public class AsyncStateMachine_0334 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F1DF900
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -24,6 +28,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÍÍÏÎÎÏÎÌÍÎÍÌÎÌÏÏÍÌÍÏÍ</summary>
     public class AsyncStateMachine_08F5 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ;
+        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ;
+        public System.Action`1<T> ÏÏÏÎÎÎÏÏÌÏÏÏÎÌÌÎÍÏÎÍÏÏÍ;
+        public ÎÎÍÏÎÍÌÍÎÌÏÏÏÎÍÍÍÍÌÍÎÎÏ<T> ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ;
+        public System.Action`1<string> ÌÌÍÏÍÍÏÌÌÏÎÌÎÌÍÌÏÏÌÍÎÎÍ;
+        public System.Action`1<T> ÍÍÎÏÎÍÍÌÌÍÍÌÍÎÎÍÌÎÌÏÎÌÏ;
+        public Awaiter<T> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E090980
         public void InternalEquals(){} // RVA: 0x7FFD4E090A40
@@ -37,6 +49,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÍÌÌÏÌÎÏÌÍÏÍÎÎÌÌÎÎÌÎÎ</summary>
     public class AsyncStateMachine_094C : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÏÍÍÍÎÎÎÍÎÍÎÎÎÌÎÍÍÏÏÎÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD5690F050
         public void InternalEquals(){} // RVA: 0x7FFD4EA2C270
@@ -53,6 +70,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÍÍÍÎÏÏÏÎÌÌÎÎÎÌÍÏÏÎÏÎ</summary>
     public class AsyncStateMachine_0981 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÍÌÏÌÏÍÏÏÏÍÌÌÏÏÌÏÎÏÍÎÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -69,6 +91,28 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÎÍÏÏÏÏÌÎÏÏÎÍÌÎÍÏÍÏÌÏ</summary>
     public class AsyncStateMachine_0A7F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public int ÎÌÌÍÏÌÏÍÏÌÎÌÏÌÏÌÌÏÍÎÏÌÍ; // 0x28
+        public int ÌÍÍÍÌÎÌÍÏÍÌÎÎÎÍÎÍÏÎÎÌÍÏ; // 0x2C
+        public string ÏÍÎÏÎÏÍÎÎÎÍÏÏÌÍÍÌÏÏÎÍÏÍ; // 0x30
+        public 0x664CD558 ÏÍÌÏÏÏÏÏÍÏÌÎÍÍÏÏÎÌÍÍÎÌÏ; // 0x38
+        public System.Action`2<string,UnityEngine.Texture2D> ÌÌÏÎÍÌÌÍÎÏÌÏÎÎÍÏÏÏÍÏÎÏÌ; // 0x40
+        public int ÏÍÌÏÌÍÌÍÎÌÍÍÏÏÌÍÎÌÎÍÎÍÏ; // 0x48
+        public bool ÏÎÎÎÌÍÍÎÎÌÍÍÍÏÏÌÎÎÍÌÌÌÍ; // 0x4C
+        public 0x6638B430 ÌÎÎÏÍÍÏÎÎÌÎÌÌÎÎÎÍÎÍÏÏÏÍ; // 0x50
+        public UnityEngine.Camera ÏÎÎÌÌÎÎÌÏÎÏÍÍÏÏÏÎÍÌÏÍÏÌ; // 0x58
+        public ÎÍÏÍÍÏÌÏÎÎÍÏÌÌÎÌÍÍÍÌÍÍÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x60
+        public System.Nullable`1<float> ÌÍÏÏÌÍÎÍÍÍÏÏÎÏÌÌÏÌÍÍÌÎÎ; // 0x68
+        public bool ÍÏÍÍÎÏÏÏÌÍÍÏÍÏÍÍÍÍÍÎÍÍÏ; // 0x70
+        public bool ÍÏÌÍÌÌÎÎÎÏÌÍÌÏÍÍÌÍÍÌÎÏÍ; // 0x71
+        public ÏÏÎÍÏÍÏÎÍÌÌÌÏÎÏÍÎÌÎÍÎÍÏ ÏÎÎÎÏÍÎÌÎÍÍÏÍÍÏÎÎÏÏÌÏÎÏ; // 0x78
+        public bool ÏÍÎÌÎÏÎÌÍÍÏÎÌÎÏÎÍÎÏÎÎÎÏ; // 0x80
+        public UnityEngine.RenderTexture ÏÏÍÏÍÏÍÍÌÌÍÍÌÍÍÏÎÌÌÍÎÏÎ; // 0x88
+        public UnityEngine.RenderTexture ÍÎÌÍÌÌÍÍÎÎÍÏÌÌÏÍÌÎÏÍÍÌÏ; // 0x90
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x98
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0xA8
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -84,6 +128,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÌÏÎÌÎÏÏÏÌÏÍÍÏÏÍÎÏÌÎÍ</summary>
     public class AsyncStateMachine_0B3C : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public 0x664C7938 ÌÌÍÎÌÌÏÏÎÎÏÌÎÌÎÏÍÍÎÏÏÍÌ; // 0x30
+        public string ÎÏÌÎÎÌÍÍÎÎÌÏÎÏÎÎÏÌÏÌÏÍÌ; // 0x38
+        public System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`2<VRC.Core.ApiWorld,VRC.Core.ApiContainer>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F16E9F0
         public void InternalEquals(){} // RVA: 0x7FFD4F16F260
@@ -99,6 +151,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÍÍÍÍÏÍÎÎÍÌÍÍÏÍÎÍÎÏÌÎ</summary>
     public class AsyncStateMachine_125C : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÌÎÎÍÏÌÏÎÌÎÌÌÍÌÎÌÍÍÌÎÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD56A15050
@@ -115,6 +172,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÌÌÎÏÍÌÎÏÏÌÏÎÏÍÌÍÎÏÌÏ</summary>
     public class AsyncStateMachine_1470 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÌÌÏÎÍÏÏÍÏÌÍÏÎÎÍÏÍÍÎÏÍÌÎ; // 0x20
+        public ÏÌÌÍÌÏÌÍÌÍÎÎÍÎÌÍÏÏÎÌÏÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public string ÎÏÍÍÎÎÏÍÎÏÎÌÍÎÎÍÏÏÍÏÎÎÎ; // 0x30
+        public UnityEngine.GameObject ÎÏÍÎÏÍÎÏÎÏÏÍÍÏÏÍÎÎÎÍÏÌÌ; // 0x38
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -131,6 +196,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÎÍÏÌÎÏÌÏÎÍÏÏÎÏÏÍÌÎÍÍ</summary>
     public class AsyncStateMachine_179E : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÏÏÎÍÏÍÎÌÌÎÎÏÍÏÏÏÎÍÏÍÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public System.Action ÏÏÏÌÍÍÌÍÌÏÍÎÏÏÍÍÎÏÏÏÌÎÏ; // 0x30
+        public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x38
+        public System.ValueTuple`2<bool,string> ÍÍÎÎÎÎÏÍÎÌÍÎÎÎÌÎÏÏÎÎÎÍÍ; // 0x40
+        public Awaiter<System.ValueTuple`2<bool,string>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EBF7070
         public void InternalEquals(){} // RVA: 0x7FFD4EBF7640
@@ -145,6 +218,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÏÏÍÌÏÏÏÍÏÍÌÌÍÌÌÎÌÌÌÍ</summary>
     public class AsyncStateMachine_19D9 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÎÌÏÍÍÏÍÌÏÏÎÏÌÎÏÎÎÎÎÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4F10E500
@@ -158,6 +236,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÌÍÎÏÌÌÌÍÍÍÏÌÍÌÍÍÍÌÎÏ</summary>
     public class AsyncStateMachine_1AD3 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÎÏÌÏÍÏÍÏÏÍÍÌÏÍÌÎÍÍÏÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x48
+        public Awaiter<System.Collections.Generic.List`1<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ>> ÍÏÏÍÏÎÎÌÏÎÎÏÍÍÏÍÎÍÎÌÌÌÍ; // 0x58
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD567CA990
@@ -174,6 +259,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÏÏÏÍÍÏÏÎÌÌÍÎÌÏÍÍÏÌÌÎ</summary>
     public class AsyncStateMachine_1B6F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÌÎÎÏÍÌÌÍÎÎÎÎÏÍÌÏÎÍÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public bool ÌÍÌÌÏÎÎÏÌÏÎÌÌÏÌÍÍÌÏÍÏÍÌ; // 0x30
+        public string ÌÎÍÎÍÎÌÌÏÍÎÌÏÍÌÍÍÏÎÍÎÌÌ; // 0x38
+        public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F1B7810
         public void MoveNext(){} // RVA: 0x7FFD4F1B7CC0
@@ -190,6 +282,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÏÏÏÏÎÏÍÍÏÏÍÏÌÌÏÍÍÏÎÍ</summary>
     public class AsyncStateMachine_1DA8 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<VRC.Localization.LocalizableString> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public Awaiter<long> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EE1E9D0
         public void SetStateMachine(){} // RVA: 0x7FFD4EE1EDD0
@@ -205,6 +301,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÎÏÏÏÏÍÍÎÍÏÍÏÏÏÍÌÏÍÍÌ</summary>
     public class AsyncStateMachine_2053 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÏÏÎÏÏÏÍÏÏÎÍÌÎÌÍÌÎÍÌÎÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA8B6E0
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -218,6 +319,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÌÏÎÎÎÍÍÌÎÎÍÌÍÌÍÏÍÏÏÌ</summary>
     public class AsyncStateMachine_256E : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ ÌÍÌÌÏÍÎÏÌÎÌÌÎÍÍÌÏÎÎÏÍÌÎ; // 0x20
+        public ÏÌÏÌÎÏÏÌÎÎÍÎÌÎÌÍÍÎÏÎÏÏÏ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
+        public Awaiter<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EBE6180
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -234,6 +341,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÍÏÎÌÌÏÌÎÌÏÎÍÏÍÍÎÎÎÎÏ</summary>
     public class AsyncStateMachine_2CF0 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÎÌÎÎÍÍÎÍÏÎÍÍÎÌÍÏÍÌÏÌÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56A258B0
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -248,6 +360,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÏÏÏÎÌÍÎÌÌÎÌÏÌÏÍÎÎÌÍÍ</summary>
     public class AsyncStateMachine_2D7E : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÎÌÌÍÎÌÏÌÍÍÏÎÍÍÎÍÎÎÎÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter<System.ValueTuple`2<string,string>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x50
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F5ADAF0
         public void InternalEquals(){} // RVA: 0x7FFD4F5AE270
@@ -262,6 +380,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÌÎÏÎÌÌÎÌÌÏÍÌÍÎÏÎÌÍÏÏ</summary>
     public class AsyncStateMachine_3145 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÎÍÏÍÍÏÍÍÌÌÎÍÏÌÍÍÎÌÏÎÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public UnityEngine.Pool.PooledObject`1<System.Collections.Generic.List`1<Cysharp.Threading.Tasks.UniTask>> ÎÎÍÌÎÍÏÍÎÌÎÏÏÌÏÎÏÍÍÎÎÏÍ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA07B50
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -277,6 +401,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÌÎÎÏÌÌÍÎÍÌÍÎÌÎÏÎÌÍÏÍ</summary>
     public class AsyncStateMachine_3222 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public uint ÎÌÏÌÏÌÏÍÎÍÎÎÍÏÎÏÏÍÌÍÍÎÎ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E6A1800
         public void InternalEquals(){} // RVA: 0x7FFD4E6A1D10
@@ -293,6 +423,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÏÌÎÏÏÌÎÌÌÏÍÍÎÏÏÏÏÌÍÍ</summary>
     public class AsyncStateMachine_32DB : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÎÏÏÌÏÌÌÌÌÏÏÎÏÏÌÍÍÍÏÏÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -309,6 +444,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÌÎÍÌÌÍÌÍÏÌÍÎÏÍÍÍÎÎÌÍ</summary>
     public class AsyncStateMachine_330F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<bool,ÏÍÍÎÏÎÌÍÍÍÎÍÏÌÏÍÌÎÎÌÎÍÍ>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÎÌÏÍÍÎÎÍÏÌÍÍÌÎÎÎÏÍÌÏÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public 0x66445B98 ÌÍÍÏÎÏÍÏÍÌÍÏÍÎÌÌÏÏÌÍÍÏÌ; // 0x40
+        public Awaiter<ÎÏÌÎÏÌÌÌÌÌÍÎÌÌÎÍÍÏÍÍÎÎÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F08ACD0
         public void InternalEquals(){} // RVA: 0x7FFD4F08AD00
@@ -325,6 +466,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÌÍÍÎÏÌÌÌÌÌÏÏÎÍÎÍÏÏÎÍ</summary>
     public class AsyncStateMachine_33EA : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÌÌÍÌÎÏÏÌÍÌÍÏÏÎÍÌÌÎÏÎÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F6B86F0
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -338,6 +484,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÌÌÏÌÍÌÍÍÏÌÍÌÍÏÍÍÏÏÍÍÌ</summary>
     public class AsyncStateMachine_35A8 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ;
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ;
+        public ÎÎÏÎÌÍÎÍÌÍÏÍÎÏÎÎÌÏÏÎÎÍÌ<U,V,U> ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ;
+        public V ÏÍÏÌÏÍÏÍÎÏÎÍÍÎÍÎÍÌÎÏÍÏÌ;
+        public int ÏÏÎÍÌÍÏÍÎÎÌÍÏÏÍÌÎÍÏÍÌÌÏ;
+        public int ÍÏÍÌÌÍÌÎÌÏÌÎÎÏÌÎÎÌÏÌÍÎÍ;
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E090980
         public void InternalEquals(){} // RVA: 0x7FFD4E090980
@@ -354,7 +508,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÏÍÏÌÎÎÎÎÏÎÏÌÌÌÍÎÌÌÍÍ</summary>
     public class AsyncStateMachine_3AE7 : ValueType
     {
-        public ÌÍÍÍÏÍÌ ÏÏÎÍÎÍÍÏÎÎÎÏÍÏÏÌÍÍÌÎÏÌÌ; // 0x10
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public VRC.Core.ApiContainer ÍÌÏÍÏÏÎÏÌÍÍÌÍÌÏÎÎÏÍÌÌÍÍ; // 0x38
+        public ÍÍÏÌÏÌÏÏÏÍÍÏÍÍÍÍÍÍÎÎÍÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x40
+        public ÏÏÎÎÎÏÌÍÏÎÏÍÍÌÎÏÍÎÏÌÌÎÏ ÌÌÏÏÏÌÍÎÏÏÍÏÌÍÎÏÏÏÎÎÎÌÏ; // 0x48
+        public Awaiter<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA2B460
@@ -370,6 +529,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÌÌÌÎÍÍÎÏÍÍÎÌÍÎÎÍÍÎÎÌÌ</summary>
     public class AsyncStateMachine_3FAA : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<string> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÎÎÍÏÌÎÏÏÌÌÏÌÌÏÎÏÌÌÌÌÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public Awaiter<string> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E9339D0
         public void InternalEquals(){} // RVA: 0x7FFD4E933CD0
@@ -386,6 +550,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÎÎÏÌÎÍÏÌÏÏÍÎÌÌÏÏÏÏÎÎ</summary>
     public class AsyncStateMachine_4174 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÍÎÎÎÏÌÏÌÎÌÍÏÍÌÎÍÏÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4FD37470
@@ -401,6 +570,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÏÍÌÎÎÍÍÎÎÍÌÌÌÏÍÌÍÌÏÎ</summary>
     public class AsyncStateMachine_422E : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public VRC.DataModel.Purchasing.ValidationParams ÏÌÏÎÌÍÌÏÏÍÌÌÌÎÏÎÎÍÌÏÎÎÌ; // 0x30
+        public 0x664D49E0 ÌÎÌÍÎÎÍÌÌÍÍÏÏÌÏÌÍÎÌÎÏÌÍ; // 0x38
+        public ÍÏÌÏÎÎÏÍÎÌÌÍÍÌÏÎÏÍÎÍÍÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x40
+        public System.Runtime.CompilerServices.TaskAwaiter`1<VRC.Core.ApiContainer> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4FBB9CB0
         public void InternalEquals(){} // RVA: 0x7FFD4FBB9D20
@@ -417,6 +593,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÌÎÎÌÌÏÎÎÎÎÏÏÏÌÏÎÎÏÌÎ</summary>
     public class AsyncStateMachine_4562 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÏÍÏÎÏÏÎÏÌÌÍÍÎÏÌÏÏÍÍÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public bool ÏÍÏÌÏÍÏÍÎÏÎÍÍÎÍÎÍÌÎÏÍÏÌ; // 0x40
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA2C270
         public void InternalEquals(){} // RVA: 0x7FFD4EA2C270
@@ -433,6 +615,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÌÎÍÏÏÏÎÎÌÏÍÏÍÍÎÍÎÌÎÌ</summary>
     public class AsyncStateMachine_4941 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<ÍÎÎÎÍÎÍÍÍÌÏÎÍÎÏÎÍÍÏÏÌÏÏ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÌÎÎÍÍÎÎÎÏÌÏÍÎÌÏÌÎÎÏÍÌÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4FA768B0
         public void SetStateMachine(){} // RVA: 0x7FFD4FA768E0
@@ -447,6 +634,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÍÎÏÎÎÏÍÍÎÌÍÌÎÍÏÌÌÌÏÌ</summary>
     public class AsyncStateMachine_4C08 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public string ÎÌÎÌÏÎÍÌÏÎÍÏÌÌÌÎÍÌÍÎÎÏÏ; // 0x38
+        public System.Action`1<bool> ÍÏÍÌÎÍÌÏÏÏÏÏÌÌÏÌÏÍÌÏÌÌÏ; // 0x40
+        public System.Action`1<string> ÌÍÎÎÌÏÌÎÎÍÍÌÌÌÍÌÌÌÏÎÍÎÌ; // 0x48
+        public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA2C270
         public void InternalEquals(){} // RVA: 0x7FFD4EA2C270
@@ -462,6 +656,25 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÌÌÏÏÍÌÏÍÎÏÏÌÎÌÏÏÎÎÌÌ</summary>
     public class AsyncStateMachine_4D89 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Collections.Generic.IList`1<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ> ÎÎÏÏÍÍÍÏÏÏÌÍÏÍÎÎÎÎÎÏÌÏÍ; // 0x28
+        public VRC.SDK3.Internal.VRCEventPortalManagerInternal ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x38
+        public ÌÌÌÍÎÍÍÌÎÏÍÏÎÎÌÎÍÌÏÎÎÎÎ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x40
+        public VRC.Core.Pool.PooledObject`1<System.Collections.Generic.List`1<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ>> ÎÎÍÌÎÍÏÍÎÌÎÏÏÌÏÎÏÍÍÎÎÏÍ; // 0x48
+        public System.Collections.Generic.List`1<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ> ÍÏÎÍÌÎÍÍÍÏÎÌÎÏÍÎÏÌÏÌÏÌÍ; // 0x58
+        public ZLinq.PooledArray`1<Cysharp.Threading.Tasks.UniTask`1<ÍÍÎÌÏÍÍÌÌÍÎÍÌÎÏÎÎÌÌÎÍÎÌ>> ÏÏÎÍÏÌÏÎÍÍÏÍÏÍÏÍÎÍÏÏÎÏÌ; // 0x60
+        public ZLinq.PooledArray`1<System.ValueTuple`3<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ,ÎÎÏÌÍÌÌÍÍÌÏÎÍÍÏÍÌÎÌÍÎÍÏ,int>> ÍÏÌÏÌÍÎÎÌÏÎÌÌÏÏÎÎÏÏÎÍÌÏ; // 0x70
+        public ZLinq.PooledArray`1<Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`3<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ,ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ,int>>> ÌÌÍÍÎÌÏÍÍÎÌÏÏÎÌÍÎÏÎÏÎÌÍ; // 0x80
+        public System.Collections.Generic.List`1<System.ValueTuple`3<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ,ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ,int>> ÍÌÌÎÎÏÎÎÏÎÍÎÍÍÌÎÎÎÌÌÎÏÌ; // 0x90
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<Cysharp.Threading.Tasks.WhenEachResult`1<ÍÍÎÌÏÍÍÌÌÍÎÍÌÎÏÎÎÌÌÎÍÎÌ>> ÏÎÍÏÏÍÏÎÌÎÏÍÏÎÎÏÍÎÎÏÍÍÌ; // 0x98
+        public object ÎÏÍÍÏÎÍÎÎÌÌÍÌÍÌÏÌÎÎÌÏÍÍ; // 0xA0
+        public int ÏÌÎÌÎÍÍÎÍÏÏÌÎÏÌÌÌÌÎÍÌÎÏ; // 0xA8
+        public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0xB0
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0xC0
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<Cysharp.Threading.Tasks.WhenEachResult`1<System.ValueTuple`3<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ,ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ,int>>> ÏÌÍÏÌÍÏÎÍÎÍÌÌÎÌÏÍÏÎÏÏÍÎ; // 0xD0
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4FB0A610
         public void InternalEquals(){} // RVA: 0x7FFD4FB0D810
@@ -477,6 +690,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÌÍÏÎÌÎÏÍÌÏÎÍÎÍÏÎÎÎÌÏÌ</summary>
     public class AsyncStateMachine_4F51 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÏÌÏÍÎÍÍÌÍÍÍÎÎÍÎÍÏÍÎÎÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56AEADE0
         public void InternalEquals(){} // RVA: 0x7FFD56AEB170
@@ -492,6 +710,18 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÌÍÌÍÎÍÌÍÎÍÌÏÏÏÍÌÎÎÌÌ</summary>
     public class AsyncStateMachine_50ED : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<string,byte[]>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public 0x664CD558 ÏÍÌÏÏÏÏÏÍÏÌÎÍÍÏÏÎÌÍÍÎÌÏ; // 0x38
+        public byte[] ÏÍÎÎÎÌÍÌÍÏÏÌÍÎÏÌÎÌÍÌÎÎÌ; // 0x40
+        public PictureManager ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x48
+        public string ÌÏÎÍÏÎÍÍÎÌÌÏÏÎÌÏÎÏÍÎÏÎÏ; // 0x50
+        public int ÎÌÍÎÌÌÎÎÏÍÎÌÏÍÌÌÏÍÎÍÎÏÌ; // 0x58
+        public int ÎÏÎÎÎÏÎÏÍÍÌÏÏÍÏÎÏÎÌÏÌÏÏ; // 0x5C
+        public 0x664CD500 ÍÎÌÎÏÌÏÎÏÏÎÌÎÏÎÏÌÍÍÌÎÍÏ; // 0x60
+        public Awaiter<System.ValueTuple`2<System.ValueTuple`2<VRC.Core.ApiWorld,VRC.Core.ApiContainer>,System.ValueTuple`2<VRC.Core.APIUser,VRC.Core.ApiContainer>>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x68
+        public Awaiter<string> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x98
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F6C19C0
         public void SetStateMachine(){} // RVA: 0x7FFD4F6C19F0
@@ -506,6 +736,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÍÍÏÌÍÍÍÎÍÏÏÌÎÏÍÏÏÎÍÍ</summary>
     public class AsyncStateMachine_50F0 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÎÎÏÍÌÍÏÌÍÏÎÌÏÌÌÎÍÍÍÍÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÎÍÍÎÎÍÌÎÌÍÏÎÎÌÍÎÏÌÌÍÍÏÌ ÏÎÏÏÎÏÍÌÏÎÏÌÌÎÏÍÌÍÍÎÎÍÍ; // 0x28
+        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x30
+        public Awaiter<ÏÌÌÌÎÍÌÏÎÌÌÏÎÍÌÏÎÎÍÎÌÍÌ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public Awaiter<UnityEngine.GameObject> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x50
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EEDE140
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -520,6 +758,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÍÍÎÍÎÌÌÎÏÏÎÌÍÍÌÍÏÏÎÌ</summary>
     public class AsyncStateMachine_57ED : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÎÏÍÍÏÍÌÎÎÍÏÏÍÏÏÍÌÌÌÍÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -533,6 +776,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÌÍÏÏÍÎÎÏÏÍÍÎÍÌÏÍÎÏÌÏ</summary>
     public class AsyncStateMachine_68BA : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÍÏÎÎÌÎÍÎÎÍÌÏÌÎÎÏÎÏÍÍÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter<int> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4ED7DDF0
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -548,6 +796,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÍÎÍÌÎÍÌÌÍÌÏÎÎÎÎÏÎÌÏÎ</summary>
     public class AsyncStateMachine_6AD7 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56C59990
         public void MoveNext(){} // RVA: 0x7FFD56C59C70
@@ -562,6 +814,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÌÎÌÍÎÌÍÎÌÍÎÏÌÎÎÏÌÍÍÎ</summary>
     public class AsyncStateMachine_6C8B : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F080910
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -576,6 +832,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÍÍÏÌÍÎÍÍÏÌÏÍÎÎÏÎÏÌÏÍÌ</summary>
     public class AsyncStateMachine_6E1D : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÏÍÍÎÍÏÎÍÏÏÎÌÍÍÍÌÍÌÎÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4EB2EF60
@@ -591,6 +852,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÍÎÍÌÎÌÌÎÎÍÏÌÌÎÍÎÏÏÌÎÌ</summary>
     public class AsyncStateMachine_6F4F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÌÎÌÌÌÎÌÎÍÌÎÍÌÌÎÌÏÌÎÍÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+        public Awaiter<System.ValueTuple`2<0x66351308,uint>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EE9A110
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -605,6 +872,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÏÌÎÍÏÌÍÎÍÏÍÌÌÍÌÎÍÍÌÎ</summary>
     public class AsyncStateMachine_6F7F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<bool,ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public AssetPreloader ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public string ÍÏÌÍÏÎÎÍÌÏÌÏÌÎÎÏÍÎÍÏÍÎÍ; // 0x40
+        public Awaiter<VRC.Core.ApiWorld> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F04B610
         public void InternalEquals(){} // RVA: 0x7FFD4F04B640
@@ -621,6 +894,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÌÌÏÍÍÎÍÌÌÎÏÍÏÍÏÌÍÌÌÍ</summary>
     public class AsyncStateMachine_6FFC : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Collections.Generic.List`1<ÎÏÌÏÎÌÏÏÌÌÏÌÎÍÍÍÏÎÏÍÍÍÎ> ÏÏÌÎÏÎÏÏÍÌÍÏÏÍÎÌÏÌÍÎÍÏÍ; // 0x28
+        public ÍÎÏÏÌÏÍÍÏÍÌÏÏÍÎÎÌÍÍÍÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4FA49660
         public void MoveNext(){} // RVA: 0x7FFD4FA4A1C0
@@ -636,6 +915,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÌÍÎÏÎÍÍÎÍÏÍÌÌÏÌÎÏÎÎÍ</summary>
     public class AsyncStateMachine_7146 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<LoadingInfoData> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Collections.Generic.List`1<ÍÌÌÍÌÎÌÌÍÎÌÎÏÌÎÍÌÌÎÏÏÎÌ> ÎÍÌÎÍÍÌÌÎÍÎÌÎÎÌÏÍÍÏÌÏÍÌ; // 0x30
+        public LoadingInfoSet ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public Awaiter<UnityEngine.Texture> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F6AAB80
         public void InternalEquals(){} // RVA: 0x7FFD4F6AABB0
@@ -650,6 +935,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÎÏÎÍÏÍÏÎÏÎÌÍÎÏÏÎÏÎÎÎ</summary>
     public class AsyncStateMachine_769A : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÍÏÏÏÍÌÏÎÎÍÏÍÍÍÌÍÍÍÏÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public string ÏÏÏÎÍÎÏÏÎÎÌÎÎÍÏÌÌÍÏÍÍÍÏ; // 0x28
+        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x30
+        public bool ÍÏÏÌÎÏÌÎÎÏÌÌÏÏÎÎÌÎÌÌÍÎÎ; // 0x38
+        public int ÌÎÍÌÏÌÎÎÎÎÍÎÌÌÌÎÍÏÍÎÍÍÏ; // 0x3C
+        public ÎÍÍÎÎÍÌÎÌÍÏÎÎÌÍÎÏÌÌÍÍÏÌ ÍÌÍÍÍÏÍÌÍÍÍÍÍÌÍÏÏÏÍÎÏÏÏ; // 0x40
+        public Awaiter<ÏÌÌÌÎÍÌÏÎÌÌÏÎÍÌÏÎÎÍÎÌÍÌ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -666,6 +961,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÍÍÎÌÍÍÌÎÍÌÍÏÍÎÏÍÌÌÎÌ</summary>
     public class AsyncStateMachine_7AAE : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public int ÌÏÌÌÏÏÌÌÎÌÍÌÏÏÍÌÌÎÏÌÌÌÎ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD567CD3C0
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -679,6 +979,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÎÎÌÏÍÍÎÎÌÍÌÌÍÌÌÎÎÍÎÏ</summary>
     public class AsyncStateMachine_7D53 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Mediapipe.ImageFrame> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÏÌÍÍÏÍÎÎÏÏÎÏÎÏÌÏÌÎÌÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Runtime.CompilerServices.TaskAwaiter`1<NextResult<Mediapipe.ImageFrame>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F88BBC0
         public void InternalEquals(){} // RVA: 0x7FFD4F88BC30
@@ -692,6 +997,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÏÍÌÏÌÌÍÍÏÏÎÎÌÎÎÎÍÌÌÏ</summary>
     public class AsyncStateMachine_7EB2 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÏÏÌÍÎÍÎÏÎÎÌÏÏÍÍÎÎÎÏÍÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void MoveNext(){} // RVA: 0x7FFD4F72B910
@@ -723,6 +1033,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÎÍÎÎÍÌÍÌÍÏÍÏÎÏÎÍÌÎÌÍ</summary>
     public class AsyncStateMachine_83A6 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÏÌÎÌÍÎÍÎÎÍÌÏÌÌÌÏÍÍÍÍÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56C381C0
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -738,6 +1055,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÎÎÎÍÍÎÎÌÎÍÌÏÎÌÌÍÍÌÌÍ</summary>
     public class AsyncStateMachine_84A5 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÌÌÎÏÌÌÎÏÍÎÍÌÍÍÏÏÎÌÍÎÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x38
+        public ÍÎÍÎÎÎÏÎÍÏÌÎÎÍÍÍÎÏÌÍÎÎÏ[] ÎÌÏÍÎÎÌÏÍÍÏÍÎÏÎÌÌÌÏÎÌÌÍ; // 0x40
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD569BD710
         public void InternalEquals(){} // RVA: 0x7FFD569BE1A0
@@ -754,6 +1078,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÏÎÏÍÎÌÏÏÌÎÍÏÍÎÌÎÍÍÌÍ</summary>
     public class AsyncStateMachine_884F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÍÍÎÎÎÎÍÏÌÍÏÍÍÎÌÌÍÍÏÍÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4ECECB60
         public void InternalEquals(){} // RVA: 0x7FFD4ECED0B0
@@ -769,6 +1098,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÏÎÍÌÎÎÍÌÌÏÌÎÌÍÏÎÏÏÍÌ</summary>
     public class AsyncStateMachine_8894 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F8D7470
         public void InternalEquals(){} // RVA: 0x7FFD4F8D7850
@@ -782,6 +1116,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÍÏÍÌÌÌÌÍÌÎÏÏÌÌÌÌÎÍÎÌÏ</summary>
     public class AsyncStateMachine_89BD : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÎÎÏÍÍÌÎÍÍÎÍÎÎÌÍÎÍÎÏÍÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<string,ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ>> ÎÎÏÌÍÏÎÌÌÏÍÍÌÎÎÌÎÏÎÏÌÌÎ; // 0x30
+        public AsyncOperationAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4FA3C890
@@ -797,6 +1138,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÎÌÍÏÍÌÏÎÍÏÍÎÎÏÍÏÏÏÎÏ</summary>
     public class AsyncStateMachine_8D8B : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public string ÍÎÏÌÍÎÍÌÍÎÌÏÌÌÍÍÏÌÌÎÍÏÌ; // 0x38
+        public ÌÍÎÏÏÌÎÎÌÎÎÌÍÏÌÌÌÏÎÏÎÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x40
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA2C270
         public void InternalEquals(){} // RVA: 0x7FFD4EA2C270
@@ -813,6 +1160,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÎÎÏÏÌÏÍÍÎÏÎÌÎÎÏÎÌÎÍÎ</summary>
     public class AsyncStateMachine_9114 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÏÍÎÏÎÎÍÍÏÌÍÏÌÍÌÌÏÏÌÍÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EE20B60
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -829,6 +1181,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÌÍÏÌÎÏÌÌÎÎÏÎÏÎÌÏÍÍÏÏ</summary>
     public class AsyncStateMachine_9539 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÍÌÎÎÏÌÏÌÎÍÍÌÎÎÌÎÎÌÏÎÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter<int> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E8D8620
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -843,6 +1200,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÏÎÌÍÌÌÍÎÎÎÌÌÏÌÌÌÎÍÍÎ</summary>
     public class AsyncStateMachine_95DD : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x20
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -858,6 +1219,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÍÏÏÏÍÎÍÌÎÎÌÎÏÌÏÍÍÍÍÌ</summary>
     public class AsyncStateMachine_970F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÌÍÏÌÎÎÏÎÎÍÌÏÌÌÏÎÍÎÌÍÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public ÍÍÎÍÏÌÌÍÌÎÌÏÌÍÌÎÌÌÏÎÌÍÍ ÏÍÌÍÌÍÎÎÍÎÌÎÍÏÍÍÍÎÍÎÏÎÌ; // 0x30
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4EB87160
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -873,6 +1240,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÌÍÏÌÍÍÏÌÏÎÌÌÎÏÍÎÍÍÏÌÏ</summary>
     public class AsyncStateMachine_9C53 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÎÏÎÌÎÏÌÎÌÌÏÏÎÏÍÌÌÏÎÏÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4EA2DEA0
@@ -889,6 +1261,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÏÌÍÏÏÌÌÌÎÏÍÍÏÏÎÍÏÍÎÏ</summary>
     public class AsyncStateMachine_9E61 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÍÌÎÏÌÏÍÏÌÍÏÍÏÌÌÍÌÍÏÏÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Threading.CancellationToken ÌÍÎÍÍÌÌÏÎÍÏÌÍÍÍÎÍÌÌÍÌÌÎ; // 0x28
+        public System.Collections.Generic.List`1<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> ÍÌÍÎÍÍÌÍÎÌÍÏÍÌÍÏÎÎÍÍÌÏÍ; // 0x30
+        public Awaiter<System.Collections.Generic.List`1<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD567B4BD0
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -905,6 +1284,20 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÌÎÏÌÍÏÍÎÎÏÍÏÏÍÍÌÎÎÌÌ</summary>
     public class AsyncStateMachine_9FC1 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public VRC.Core.ApiAvatar ÏÍÎÍÏÎÏÎÍÍÍÍÎÌÌÎÍÍÎÎÎÌÌ; // 0x28
+        public ÏÎÎÌÎÏÎÏÎÌÌÍÍÍÍÏÍÍÌÍÌÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public bool ÌÍÍÎÍÌÍÍÍÏÎÍÌÌÎÎÎÌÌÏÌÎÎ; // 0x38
+        public string ÍÌÌÌÌÍÌÌÌÏÎÎÏÏÎÎÎÌÎÍÌÏÎ; // 0x40
+        public ÏÍÎÎÏÏÍÏÌÌÎÌÌÏÏÎÎÏÏÎÎÏÌ ÍÌÍÍÍÍÏÌÏÌÌÏÎÌÍÎÌÎÎÌÏÍÏ; // 0x48
+        public Awaiter<ÏÍÎÎÏÏÍÏÌÌÎÌÌÏÏÎÎÏÏÎÎÏÌ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+        public ÏÍÎÎÏÏÍÏÌÌÎÌÌÏÏÎÎÏÏÎÎÏÌ ÍÎÌÍÌÍÍÎÎÏÍÎÌÌÎÌÌÎÍÎÍÎÎ; // 0x68
+        public object ÌÌÎÏÎÎÏÏÎÎÌÏÎÎÍÍÍÍÎÌÎÌÏ; // 0x70
+        public int ÍÍÍÍÏÍÎÏÌÎÏÌÌÎÏÏÍÎÌÏÏÌÎ; // 0x78
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x80
+        public System.Runtime.CompilerServices.ValueTaskAwaiter ÍÏÏÍÏÎÎÌÏÎÎÏÍÍÏÍÎÍÎÌÌÌÍ; // 0x90
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -918,6 +1311,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÎÍÍÌÎÎÍÍÎÍÌÍÏÍÏÍÎÏÎÌ</summary>
     public class AsyncStateMachine_A20D : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÎÍÍÍÏÍÎÎÍÍÌÍÍÌÏÏÎÍÎÏÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public bool ÌÌÎÏÌÍÌÌÎÎÌÏÍÍÍÏÎÎÎÌÌÍÎ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F2D0B00
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -933,6 +1332,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÎÏÏÏÎÏÏÎÏÏÏÎÏÍÎÎÌÎÎÏ</summary>
     public class AsyncStateMachine_A45D : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Collections.Generic.List`1<ÌÌÏÌÏÏÍÏÍÌÎÎÌÌÏÌÌÍÍÌÍÏÌ>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÏÏÎÍÏÍÎÌÌÎÎÏÍÏÏÏÎÍÏÍÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Collections.Generic.IEnumerable`1<string> ÏÏÍÎÎÌÍÍÎÎÎÎÌÏÌÎÍÎÎÌÎÌÍ; // 0x38
+        public System.Collections.Generic.IEnumerable`1<string> ÍÎÍÏÍÌÎÌÏÌÍÌÍÌÍÏÎÎÏÏÌÌÎ; // 0x40
+        public ÍÍÎÎÌÌÎÏÎÎÌÍÌÎÏÎÌÏÌÍÌÍÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x48
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EBFDB90
         public void InternalEquals(){} // RVA: 0x7FFD4EBFDBC0
@@ -948,6 +1355,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÎÍÍÌÌÎÎÏÎÌÎÏÍÍÎÎÏÎÍÌ</summary>
     public class AsyncStateMachine_A5D7 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÏÌÏÌÌÌÏÌÍÌÎÎÎÌÎÌÏÍÍÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x38
+        public ÏÌÎÌÎÎÍÍÌÏÍÎÌÎÌÏÌÏÌÌÌÏÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x40
+        public ÍÍÏÍÏÌÏÎÍÍÍÎÍÍÎÍÎÍÎÍÎÏÎ ÏÏÎÏÌÌÍÍÌÎÍÏÏÎÎÎÎÏÏÎÍÌÏ; // 0x48
+        public ÍÎÍÎÎÎÏÎÍÏÌÎÎÍÍÍÎÏÌÍÎÎÏ[] ÍÎÏÌÎÎÍÍÎÎÎÎÌÎÍÏÍÏÎÍÌÌÍ; // 0x78
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x80
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD569CB2D0
         public void InternalEquals(){} // RVA: 0x7FFD569CB330
@@ -962,6 +1378,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÍÌÏÌÌÍÎÏÍÎÏÌÌÎÌÍÏÍÍÌ</summary>
     public class AsyncStateMachine_AD63 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Action ÌÍÌÌÍÏÍÎÏÌÎÍÌÏÏÍÏÎÍÌÌÎÏ; // 0x28
+        public ÍÌÌÏÌÌÏÌÌÌÏÌÍÍÌÌÎÎÌÌÍÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Runtime.CompilerServices.TaskAwaiter`1<object> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F09F3F0
         public void InternalEquals(){} // RVA: 0x7FFD4F09F9C0
@@ -978,6 +1401,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÌÏÌÌÌÏÏÏÎÍÏÎÏÍÍÏÌÍÏÌ</summary>
     public class AsyncStateMachine_B013 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÌÌÏÍÎÍÌÍÍÎÌÌÌÎÎÎÌÍÏÌÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4EB1DCD0
@@ -991,6 +1419,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÌÌÍÏÏÍÏÏÎÎÏÎÌÏÏÎÍÏÎÍ</summary>
     public class AsyncStateMachine_B2FA : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÍÎÌÌÌÌÎÎÏÏÌÏÏÍÏÎÏÎÍÌÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void MoveNext(){} // RVA: 0x7FFD4EA24170
@@ -1004,6 +1437,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÏÎÌÍÏÏÍÎÎÏÏÏÍÏÏÍÏÎÌÍ</summary>
     public class AsyncStateMachine_B491 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÌÍÏÌÎÎÏÎÎÍÌÏÌÌÏÎÍÎÌÍÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -1017,6 +1455,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÌÌÌÎÎÎÍÎÍÍÎÏÌÎÌÎÏÌÏÌ</summary>
     public class AsyncStateMachine_B4B5 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÎÏÎÏÎÏÌÌÎÏÌÍÌÎÌÏÌÌÍÏÏÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public Enumerator<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ> ÍÍÎÏÎÍÍÌÌÍÍÌÍÎÎÍÌÎÌÏÎÌÏ; // 0x38
+        public Awaiter<ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA13170
         public void SetStateMachine(){} // RVA: 0x7FFD4EA131A0
@@ -1031,6 +1475,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÍÌÎÍÏÍÌÌÎÌÎÏÍÌÌÎÏÎÍÏ</summary>
     public class AsyncStateMachine_B56F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public bool ÍÍÍÏÌÎÌÍÏÌÏÎÏÍÌÌÎÎÎÎÍÌÌ; // 0x20
+        public ÌÏÌÎÍÌÏÏÍÏÎÍÎÍÏÌÎÏÏÍÏÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -1044,6 +1494,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÏÍÏÍÎÎÏÍÏÍÍÎÍÏÏÌÎÌÏÌ</summary>
     public class AsyncStateMachine_B663 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÏÍÏÏÎÏÌÎÏÌÌÌÍÌÌÎÍÏÍÎÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ ÎÌÎÍÎÌÎÌÌÎÌÎÎÎÏÌÏÌÏÌÏÍÎ; // 0x28
+        public Awaiter<UnityEngine.GameObject> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -1060,6 +1516,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÌÌÎÌÏÌÍÎÍÎÏÎÍÏÍÎÍÏÎÎÍ</summary>
     public class AsyncStateMachine_B872 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÌÍÎÏÌÎÍÏÎÏÌÎÎÎÍÏÎÌÏÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56CD4830
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -1074,6 +1535,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÍÏÍÍÌÎÏÏÍÎÎÌÏÍÎÌÍÌÍÍÏ</summary>
     public class AsyncStateMachine_BB95 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -1090,6 +1555,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÍÌÎÏÎÍÌÏÏÎÎÎÍÎÌÌÍÎÎÍ</summary>
     public class AsyncStateMachine_BEF3 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Collections.Generic.IList`1<ÎÏÌÎÍÏÌÏÎÏÌÍÏÌÍÌÏÌÍÌÏÏÏ>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÍÏÎÏÍÏÍÌÍÍÏÏÎÎÎÌÌÌÏÌÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public int ÏÏÎÍÌÎÌÍÏÍÍÎÍÍÏÎÍÏÍÏÏÌÌ; // 0x38
+        public Awaiter<System.Collections.Generic.IList`1<ÎÏÌÎÍÏÌÏÎÏÌÍÏÌÍÌÏÌÍÌÏÏÏ>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4F7D34C0
         public void InternalEquals(){} // RVA: 0x7FFD4F7D34F0
@@ -1104,6 +1575,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÌÌÎÏÍÌÏÍÏÌÎÌÍÍÏÏÏÎÏÏ</summary>
     public class AsyncStateMachine_C01E : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÏÎÍÍÏÌÍÏÌÎÏÍÍÎÍÎÎÌÎÏÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA2C270
         public void InternalEquals(){} // RVA: 0x7FFD56D863B0
@@ -1120,7 +1596,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÏÎÏÏÏÍÌÎÎÏÎÎÏÏÎÏÎÍÍÎ</summary>
     public class AsyncStateMachine_C1AB : ValueType
     {
-        public URA.woDigitYearMax<?> ÍÏÍÍÏÎÍÍÍÌÎÌÏÍÏÌÍÌÏÌÌÍÍ; // 0x10
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÎÍÍÍÍÌÎÌÌÍÌÏÎÏÍÎÌÎÎÏÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
@@ -1138,6 +1617,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÌÎÎÍÎÏÏÏÎÏÏÎÎÎÍÍÏÏÎÎ</summary>
     public class AsyncStateMachine_C249 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<ÎÎÏÎÍÎÎÌÍÏÍÍÍÍÏÎÎÌÍÎÏÏÏ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÎÌÎÎÍÍÎÍÏÎÍÍÎÌÍÏÍÌÏÌÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Threading.CancellationTokenSource ÌÍÎÍÍÌÌÏÎÍÏÌÍÍÍÎÍÌÌÍÌÌÎ; // 0x38
+        public ÎÎÏÎÍÎÎÌÍÏÍÍÍÍÏÎÎÌÍÎÏÏÏ ÌÍÍÎÍÍÌÏÌÎÍÌÏÏÍÎÏÏÏÌÎÏÌ; // 0x40
+        public ÎÎÏÎÍÎÎÌÍÏÍÍÍÍÏÎÎÌÍÎÏÏÏ ÍÏÌÎÌÎÏÍÎÌÎÌÍÌÍÏÎÍÎÎÍÏÏ; // 0x48
+        public Awaiter<ÎÎÏÎÍÎÎÌÍÏÍÍÍÍÏÎÎÌÍÎÏÏÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x68
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD56A2FDA0
         public void InternalEquals(){} // RVA: 0x7FFD56A2FDD0
@@ -1153,6 +1641,19 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÏÎÎÌÏÌÌÏÎÎÍÌÌÏÌÍÏÎÌÌ</summary>
     public class AsyncStateMachine_C426 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÌÍÎÏÌÎÌÎÎÎÎÍÏÍÎÎÏÎÌÍÌÍ ÎÌÎÍÏÌÌÍÎÎÎÎÌÏÏÎÌÌÏÍÎÎÏ; // 0x20
+        public ÌÍÏÏÏÍÌÏÎÎÍÏÍÍÍÌÍÍÍÏÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x78
+        public ÏÎÍÏÍÌÌÍÍÏÎÌÍÎÏÎÌÏÌÍÎÌÍ ÍÎÏÏÍÍÌÏÌÏÍÎÌÌÎÌÎÏÌÌÌÏÎ; // 0x80
+        public ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ ÏÏÏÍÏÍÏÎÏÍÎÌÌÌÍÍÎÏÎÏÍÏÏ; // 0x88
+        public UnityEngine.GameObject ÌÏÌÎÍÏÎÍÌÌÎÏÌÍÎÍÌÎÎÎÌÌÌ; // 0x90
+        public Awaiter<ÏÎÍÏÍÌÌÍÍÏÎÌÍÎÏÎÌÏÌÍÎÌÍ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x98
+        public object ÌÌÎÏÎÎÏÏÎÎÌÏÎÎÍÍÍÍÎÌÎÌÏ; // 0xB0
+        public int ÍÍÍÍÏÍÎÏÌÎÏÌÌÎÏÏÍÎÌÏÏÌÎ; // 0xB8
+        public Awaiter<bool> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0xC0
+        public System.Runtime.CompilerServices.ValueTaskAwaiter ÍÏÏÍÏÎÎÌÏÎÎÏÍÍÏÍÎÍÎÌÌÌÍ; // 0xD0
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void MoveNext(){} // RVA: 0x7FFD4E739ED0
@@ -1168,6 +1669,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÏÌÍÎÌÎÏÎÎÏÌÌÏÏÎÍÍÍÍÌ</summary>
     public class AsyncStateMachine_C4AB : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public string ÏÍÍÏÌÍÏÌÌÎÎÎÌÍÎÍÌÌÍÎÌÎÏ; // 0x30
+        public ÎÏÍÎÏÎÏÌÏÏÌÎÍÌÎÏÏÌÍÌÎÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public ÌÌÎÌÏÌÎÌÍÎÎÍÏÍÍÏÍÏÏÍÎÍÏ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x40
+        public System.Threading.CancellationToken ÏÍÍÏÍÌÎÎÍÏÍÎÌÏÎÍÍÏÍÏÏÏÏ; // 0x48
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E6768B0
         public void MoveNext(){} // RVA: 0x7FFD4E6768E0
@@ -1181,6 +1690,23 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÌÏÎÌÌÌÌÏÎÍÎÎÏÎÎÌÍÌÌÌ</summary>
     public class AsyncStateMachine_C4E5 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public float ÏÏÍÌÎÍÌÎÎÌÎÎÍÏÏÏÍÏÏÏÍÎÏ; // 0x20
+        public bool ÎÏÏÍÎÏÎÏÎÎÎÌÌÍÎÏÍÌÍÍÌÎÏ; // 0x24
+        public bool ÌÌÏÎÏÎÌÍÏÎÏÍÏÏÎÍÏÏÏÍÌÏÏ; // 0x25
+        public int ÎÌÌÍÏÌÏÍÏÌÎÌÏÌÏÌÌÏÍÎÏÌÍ; // 0x28
+        public int ÌÍÍÍÌÎÌÍÏÍÌÎÎÎÍÎÍÏÎÎÌÍÏ; // 0x2C
+        public System.Action`2<string,UnityEngine.Texture2D> ÌÌÏÎÍÌÌÍÎÏÌÏÎÎÍÏÏÏÍÏÎÏÌ; // 0x30
+        public UnityEngine.Camera ÏÍÌÍÍÍÌÎÎÍÏÌÎÏÌÏÎÏÏÏÎÍÏ; // 0x38
+        public UnityEngine.Transform ÌÏÏÌÍÌÏÏÏÌÌÏÏÌÌÌÏÍÎÎÏÌÌ; // 0x40
+        public int ÏÏÌÎÏÍÌÏÎÎÍÌÏÌÎÍÏÍÏÎÍÏÌ; // 0x48
+        public ÏÏÎÎÍÏÎÍÍÌÏÏÍÏÍÎÏÏÌÌÎÏÎ ÎÌÎÏÍÌÌÍÎÌÎÏÏÎÍÏÎÌÎÎÏÎÌ; // 0x50
+        public bool ÌÍÏÏÏÎÏÎÏÍÌÏÏÍÏÏÎÍÌÏÍÌÎ; // 0x58
+        public UnityEngine.Quaternion ÎÎÎÏÍÍÏÎÎÎÎÎÏÏÎÏÌÎÏÌÍÏÎ; // 0x5C
+        public UnityEngine.Vector3 ÎÎÌÏÎÏÎÍÍÎÎÎÍÌÎÍÏÎÎÎÌÏÎ; // 0x6C
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x78
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -1194,6 +1720,18 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÎÏÏÎÍÏÍÌÏÍÌÏÎÌÍÎÏÏÌÍ</summary>
     public class AsyncStateMachine_C5C4 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<ÏÎÌÎÏÎÍÎÍÌÍÌÏÏÎÏÌÍÍÍÎÍÏ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public UnityEngine.Vector3 ÏÎÍÏÌÌÍÏÍÎÍÌÎÌÏÌÌÍÌÌÍÎÌ; // 0x30
+        public UnityEngine.Quaternion ÌÎÎÏÍÍÏÎÎÌÎÌÌÎÎÎÍÎÍÏÏÏÍ; // 0x3C
+        public 0x6638B0C0 ÎÍÌÌÍÍÏÎÌÎÏÍÏÍÍÏÎÏÌÌÍÎÏ; // 0x4C
+        public int ÏÏÎÍÎÎÍÌÍÍÎÍÌÎÎÎÍÍÎÏÌÏÎ; // 0x50
+        public 0x6638BED8 ÎÏÎÏÎÍÌÌÍÎÏÌÍÎÌÏÌÎÏÍÏÍÏ; // 0x54
+        public ÌÌÍÍÌÏÍÏÍÏÌÎÍÏÍÎÏÏÍÍÏÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x58
+        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x60
+        public int ÍÌÌÍÎÌÏÌÏÌÌÎÏÎÍÎÌÏÎÎÎÎÍ; // 0x68
+        public Awaiter<System.ValueTuple`2<bool,ÏÎÌÎÏÎÍÎÍÌÍÌÏÏÎÏÌÍÍÍÎÍÏ>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x70
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E7E5330
         public void InternalEquals(){} // RVA: 0x7FFD4E7E63B0
@@ -1210,6 +1748,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÏÏÌÎÌÏÌÏÏÌÍÌÍÎÏÏÍÌÏÎ</summary>
     public class AsyncStateMachine_CE2C : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ ÌÎÍÎÍÍÍÎÌÎÍÍÍÏÌÌÏÏÍÌÎÌÍ; // 0x20
+        public ÌÍÏÏÏÍÌÏÎÎÍÏÍÍÍÌÍÍÍÏÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public System.Nullable`1<int> ÎÎÏÏÌÎÌÎÏÍÍÏÍÌÎÍÌÌÏÍÏÌÎ; // 0x30
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E72F300
         public void InternalEquals(){} // RVA: 0x7FFD4E72F640
@@ -1224,6 +1769,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÌÍÍÏÎÌÎÏÌÍÍÌÍÎÎÌÏÎÌÍ</summary>
     public class AsyncStateMachine_CEDF : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÏÍÍÌÎÏÎÍÍÌÏÍÍÎÌÎÎÌÎÎÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4FA736A0
@@ -1240,6 +1791,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÍÏÌÍÎÎÏÏÍÏÏÏÎÍÎÌÌÎÏÏ</summary>
     public class AsyncStateMachine_D1D1 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÍÌÎÌÏÌÎÎÏÏÌÌÍÏÎÎÍÍÍÌÏÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public bool ÌÍÌÌÏÍÍÍÍÎÌÍÍÎÎÍÌÍÌÌÏÌÍ; // 0x30
+        public ÍÎÏÍÏÏÏÏÏÏÏÍÏÍÍÏÏÎÎÌÌÍÌ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x38
+        public 0x66594DC0 ÍÌÍÏÌÌÍÎÍÍÍÌÍÍÌÍÏÎÌÎÌÎÍ; // 0x40
+        public UnityEngine.GameObject ÌÏÍÎÌÌÏÎÍÍÌÏÏÌÍÌÎÎÍÍÌÌÌ; // 0x48
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+        public Awaiter<ÌÌÎÍÍÌÌÍÏÍÍÍÏÌÍÍÎÍÍÎÌÌÎ> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x60
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void MoveNext(){} // RVA: 0x7FFD566F8720
@@ -1254,6 +1815,17 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÎÏÌÌÌÎÏÌÏÍÏÏÌÎÏÏÎÍÍÍ</summary>
     public class AsyncStateMachine_D5E9 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<ÎÎÏÎÍÎÎÌÍÏÍÍÍÍÏÎÎÌÍÎÏÏÏ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÍÎÏÌÏÍÍÏÎÌÌÏÌÎÏÍÎÍÍÎÌÎ ÏÏÌÎÌÌÏÍÎÏÍÎÎÍÍÏÎÎÏÍÎÎÎ; // 0x30
+        public ÏÏÌÏÎÏÏÎÏÌÌÌÌÍÍÌÏÏÍÌÎÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public System.Threading.CancellationTokenSource ÌÍÎÍÍÌÌÏÎÍÏÌÍÍÍÎÍÌÌÍÌÌÎ; // 0x40
+        public UnityEngine.Transform ÎÎÎÌÎÍÏÍÏÌÍÌÌÍÌÎÎÍÍÌÍÌÌ; // 0x48
+        public string ÎÍÏÏÍÎÎÌÌÎÏÏÌÍÎÏÌÏÍÌÌÌÌ; // 0x50
+        public UnityEngine.Object ÏÍÍÎÏÎÏÍÌÎÎÏÌÍÌÏÌÎÎÌÍÏÍ; // 0x58
+        public ResourceRequestAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x60
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x70
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD56BA7F60
         public void InternalEquals(){} // RVA: 0x7FFD56BA7F90
@@ -1267,6 +1839,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÍÌÏÍÎÎÏÏÌÌÏÌÏÍÍÍÍÎÌÏ</summary>
     public class AsyncStateMachine_D6E7 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÏÎÍÌÌÍÎÌÍÍÏÏÎÌÍÎÏÍÌÍÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Action`2<0x66410820,VRC.Core.ApiContainer> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x28
+        public System.Action`1<ÍÏÏÌÌÏÌÏÌÍÏÏÎÏÎÌÍÏÌÌÍÏÏ> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x30
+        public UnityEngine.Texture2D ÎÎÏÌÏÏÌÎÎÌÏÎÏÏÍÏÍÎÍÍÌÎÎ; // 0x38
+        public Awaiter<UnityEngine.Texture2D> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+        public ÌÏÌÎÍÎÌÌÍÎÎÎÎÌÏÍÏÌÎÌÌÎÌ ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ; // 0x58
+        public Awaiter<System.ValueTuple`2<string,byte[]>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x60
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4E85BAC0
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -1282,6 +1864,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÎÌÎÍÌÎÎÏÍÏÌÏÌÏÏÏÏÏÏÎ</summary>
     public class AsyncStateMachine_DBF0 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÎÎÌÎÍÌÍÏÎÏÌÌÌÎÎÍÎÌÍÍÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public string ÏÏÍÍÌÍÎÏÏÍÏÏÍÍÎÏÌÏÎÌÌÏÎ; // 0x30
+        public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -1298,6 +1887,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÎÌÌÍÎÏÏÏÍÎÌÌÍÌÏÍÏÌÌÎ</summary>
     public class AsyncStateMachine_DC85 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<int,ÍÌÏÏÌÍÏÍÌÍÎÍÌÌÏÍÏÌÏÏÏÎÌ>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public string ÎÎÏÍÎÏÏÍÏÏÏÍÎÍÍÍÍÎÏÍÌÎÍ; // 0x38
+        public int ÎÎÏÍÏÎÌÌÍÍÌÌÏÏÏÌÍÌÎÌÌÍÍ; // 0x40
+        public string ÍÌÏÎÍÎÍÎÌÍÌÎÏÏÏÍÎÍÏÎÍÌÏ; // 0x48
+        public bool ÌÌÏÎÍÎÏÏÌÎÎÏÌÎÌÍÎÎÌÏÎÌÌ; // 0x50
+        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x58
+        public Awaiter<System.ValueTuple`2<int,ÍÌÏÏÌÍÏÍÌÍÎÍÌÌÏÍÏÌÏÏÏÎÌ>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x60
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F0DD300
         public void InternalEquals(){} // RVA: 0x7FFD4F0DD330
@@ -1311,6 +1909,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÎÎÍÌÏÏÍÏÍÏÏÏÏÎÍÍÍÌÏÎ</summary>
     public class AsyncStateMachine_E125 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÌÏÎÏÎÎÌÍÍÌÏÍÏÎÌÍÌÏÎÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4F6BCDA0
@@ -1326,6 +1929,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÌÍÎÏÎÎÎÌÏÏÎÌÌÍÍÏÌÌÌÍ</summary>
     public class AsyncStateMachine_E343 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x28
+        public ÏÎÍÎÍÌÌÌÎÌÏÏÏÌÏÏÏÎÎÎÏÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4EB4F7B0
@@ -1342,6 +1951,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÎÏÍÌÌÎÏÎÌÎÍÎÍÍÎÎÏÍÏÌ</summary>
     public class AsyncStateMachine_E7A2 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<0x66415260> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÌÎÎÏÍÌÌÍÎÎÎÎÏÍÌÏÎÍÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F1BB6F0
         public void InternalEquals(){} // RVA: 0x7FFD4F1BBBA0
@@ -1358,6 +1972,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÍÏÍÏÍÏÏÎÌÏÌÏÎÍÌÏÍÎÌÍ</summary>
     public class AsyncStateMachine_E7AA : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÏÏÎÍÏÎÏÍÎÎÌÏÍÎÍÍÍÎÍÎÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public 0x66362088 ÌÏÏÌÌÍÎÍÌÍÌÍÌÌÌÏÏÍÎÌÏÍÌ; // 0x38
+        public float ÍÍÍÌÍÌÌÍÍÎÍÏÌÎÎÎÎÍÎÌÍÎÌ; // 0x3C
+        public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+        public Awaiter<System.ValueTuple`2<bool,UnityEngine.GameObject>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x50
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F50F060
         public void SetStateMachine(){} // RVA: 0x7FFD4F50F090
@@ -1371,6 +1993,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÏÏÍÏÌÌÍÏÏÎÏÎÏÏÌÏÍÎÏÍ</summary>
     public class AsyncStateMachine_E8C7 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public string ÏÌÎÎÏÏÌÎÌÏÎÎÌÍÍÎÎÎÎÎÎÎÏ; // 0x30
+        public string ÏÍÍÏÌÍÏÌÌÎÎÎÌÍÎÍÌÌÍÎÌÎÏ; // 0x38
+        public string ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x40
+        public ÎÏÍÎÏÎÏÌÏÏÌÎÍÌÎÏÏÌÍÌÎÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x48
+        public ÎÎÍÌÎÏÏÏÍÍÏÌÍÌÎÌÏÍÏÍÌÎÏ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x50
+        public System.Threading.CancellationToken ÏÍÍÏÍÌÎÎÍÏÍÎÌÏÎÍÍÏÍÏÏÏÏ; // 0x58
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x60
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E672840
         public void InternalEquals(){} // RVA: 0x7FFD4E6732F0
@@ -1385,6 +2017,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÍÍÏÎÏÍÏÍÏÍÌÏÏÎÏÏÌÏÌÌ</summary>
     public class AsyncStateMachine_EADB : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÍÏÌÌÍÎÍÏÎÌÍÏÌÏÌÎÏÎÌÎÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.IList> ÍÎÌÎÏÌÌÍÏÍÍÏÎÌÎÍÍÍÏÍÌÏÎ; // 0x40
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.IList> ÍÌÏÎÏÍÍÏÎÎÏÍÏÍÌÏÍÍÌÏÎÏÎ; // 0x48
+        public Awaiter<System.Collections.IList> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA2C270
         public void InternalEquals(){} // RVA: 0x7FFD4F83C650
@@ -1398,6 +2037,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÍÍÎÎÎÌÌÌÍÌÏÎÍÎÍÌÎÍÏÌ</summary>
     public class AsyncStateMachine_F0D1 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ValueTuple`2<bool,UnityEngine.Purchasing.Extension.PurchaseFailureDescription>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÍÎÎÍÌÍÏÎÎÎÎÎÍÍÏÎÌÍÌÎÏÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x30
+        public UnityEngine.Purchasing.Product ÌÎÌÍÎÎÍÌÌÍÍÏÏÌÏÌÍÎÌÎÏÌÍ; // 0x38
+        public System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E535B60
         public void InternalEquals(){} // RVA: 0x7FFD4E536C80
@@ -1411,6 +2056,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÌÎÏÎÍÍÏÍÍÌÌÏÍÌÍÌÍÎÎÍÌ</summary>
     public class AsyncStateMachine_F23F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÌÌÏÏÏÏÍÏÎÏÌÌÏÌÍÌÍÍÎÌÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Threading.CancellationTokenSource ÏÏÍÏÍÏÍÍÏÍÌÏÌÏÏÏÎÏÎÎÌÏÍ; // 0x38
+        public System.Threading.CancellationToken ÌÎÍÌÍÌÍÎÎÍÎÏÎÌÎÎÏÎÌÎÍÍÍ; // 0x40
+        public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+        public System.Runtime.CompilerServices.TaskAwaiter`1<short> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x50
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4F970F60
         public void InternalEquals(){} // RVA: 0x7FFD4F970FC0
@@ -1424,6 +2077,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÎÎÌÏÍÍÏÎÌÎÎÌÌÌÌÏÍÎÌÍ</summary>
     public class AsyncStateMachine_F586 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÍÏÎÎÌÏÏÎÏÍÌÌÍÎÌÍÍÍÎÌÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
@@ -1440,6 +2098,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÍÏÎÌÌÎÎÌÍÎÍÍÏÌÏÎÏÎÌÏ</summary>
     public class AsyncStateMachine_F61F : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÍÎÎÍÎÍÏÏÍÏÍÏÌÌÎÍÎÌÌÎÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void MoveNext(){} // RVA: 0x7FFD4F30DCC0
@@ -1454,6 +2117,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÍÎÌÌÏÍÏÌÏÏÌÏÌÎÍÏÍÎÌÏ</summary>
     public class AsyncStateMachine_F6D2 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÏÎÍÌÍÌÌÎÍÎÍÏÎÌÎÌÏÍÌÏÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Threading.CancellationToken ÏÍÍÎÎÌÏÎÏÌÌÍÎÍÏÏÍÌÎÍÌÍÎ; // 0x28
+        public string ÏÍÏÌÌÎÌÎÍÏÏÌÏÌÏÎÎÌÎÏÍÎÎ; // 0x30
+        public System.Collections.Generic.IList`1<ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ> ÏÎÎÏÌÌÏÏÌÍÎÎÏÌÍÎÍÏÌÌÍÎÏ; // 0x38
+        public int ÍÏÌÏÍÏÍÎÍÌÏÌÎÎÏÏÎÎÍÌÏÏÍ; // 0x40
+        public Awaiter<ÍÌÌÏÎÍÏÍÏÍÎÎÎÌÏÍÍÌÎÌÏÍÌ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+        public Awaiter<ÎÏÌÎÍÏÌÏÎÏÌÍÏÌÍÌÏÌÍÌÏÏÏ> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x60
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310
@@ -1469,6 +2142,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÎÌÏÏÌÍÌÍÎÍÏÌÌÎÏÎÍÍÏÎ</summary>
     public class AsyncStateMachine_FEEE : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x28
+        public ÍÍÌÎÍÎÎÌÎÌÍÎÍÍÌÍÎÏÍÍÌÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Action`1<System.Collections.Generic.List`1<ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ>> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x38
+        public System.Collections.Generic.List`1<ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ> ÎÌÍÏÎÌÎÌÍÏÎÍÍÏÏÌÎÏÎÎÌÏÏ; // 0x40
+        public Awaiter<System.Collections.Generic.List`1<ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310

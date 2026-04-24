@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 {
     public class ConfigureNamedOptions`1 : Object
     {
-        public object Name;
-        public object Action;
+        public string Name; // 0x10
+        public System.Action`1<Microsoft.Extensions.Logging.LoggerFilterOptions> Action; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -19,7 +19,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class ConfigureOptions`1 : Object
     {
-        public object Action;
+        public System.Action`1<Microsoft.Extensions.Logging.LoggerFilterOptions> Action; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -96,12 +96,16 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class Options : Object
     {
+        public string DefaultName;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5376D960
     }
 
     public class OptionsCache`1 : Object
     {
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,System.Lazy`1<Microsoft.Extensions.Logging.LoggerFilterOptions>> _cache; // 0x10
+
         // ── Methods ──
         public void GetOrAdd(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
         public void TryGetValue(){} // RVA: 0x7FFD4E07D200
@@ -111,6 +115,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class OptionsFactory`1 : Object
     {
+        public Microsoft.Extensions.Options.IConfigureOptions`1<Microsoft.Extensions.Logging.LoggerFactoryOptions>[] _setups; // 0x10
+        public Microsoft.Extensions.Options.IPostConfigureOptions`1<Microsoft.Extensions.Logging.LoggerFactoryOptions>[] _postConfigures; // 0x18
+        public Microsoft.Extensions.Options.IValidateOptions`1<Microsoft.Extensions.Logging.LoggerFactoryOptions>[] _validations; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60 | overloaded x2
         public void Create(){} // RVA: 0x7FFD4E2ADC40
@@ -119,7 +127,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class OptionsManager`1 : Object
     {
-        public object Value;
+        public Microsoft.Extensions.Options.IOptionsFactory`1<T> Value;
+        public Microsoft.Extensions.Options.OptionsCache`1<T> _cache;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -135,7 +144,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class OptionsMonitor`1 : Object
     {
-        public object CurrentValue;
+        public Microsoft.Extensions.Options.IOptionsMonitorCache`1<Microsoft.Extensions.Logging.LoggerFilterOptions> CurrentValue; // 0x10
+        public Microsoft.Extensions.Options.IOptionsFactory`1<Microsoft.Extensions.Logging.LoggerFilterOptions> _factory; // 0x18
+        public System.Collections.Generic.List`1<System.IDisposable> _registrations; // 0x20
+        public System.Action`2<Microsoft.Extensions.Logging.LoggerFilterOptions,string> _onChange; // 0x28
 
         // ── Methods ──
         public void add__onChange(){} // RVA: 0x7FFD4E090A40
@@ -151,7 +163,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class UnnamedOptionsManager`1 : Object
     {
-        public object Value;
+        public Microsoft.Extensions.Options.IOptionsFactory`1<Microsoft.Extensions.Logging.LoggerFactoryOptions> Value; // 0x10
+        public object _syncObj; // 0x18
+        public Microsoft.Extensions.Logging.LoggerFactoryOptions _value; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

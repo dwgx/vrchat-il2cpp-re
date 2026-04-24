@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class ArrayBuilder`1 : ValueType
     {
+        public System.IO.FileInfo[][] _array; // 0x10
+        public int _count; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
         public void ToArray(){} // RVA: 0x7FFD4E078E90
@@ -15,11 +18,12 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class ArraySortHelper`1 : Object
     {
+        public System.Collections.Generic.ArraySortHelper`1<IJobSortable> s_defaultArraySortHelper;
     }
 
     public class ArraySortHelper`2 : Object
     {
-        public object Default;
+        public System.Collections.Generic.ArraySortHelper`2<string,Token> Default;
 
         // ── Methods ──
         public void Sort(){}
@@ -55,7 +59,7 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
-        public object Default;
+        public System.Collections.Generic.Comparer`1<SortingData> Default;
 
         // ── Methods ──
         public void get_Default(){} // RVA: 0x7FFD4E078A90
@@ -67,8 +71,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Deque`1 : Object
     {
-        public object Count;
-        public object IsEmpty;
+        public T[] Count;
+        public int IsEmpty;
+        public int _tail;
+        public int _size;
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -82,23 +88,20 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
-        public object Comparer;
-        public object Count;
-        public object Keys;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys;
-        public object Values;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Values;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values;
-        public object Item;
-        public object System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.IDictionary.IsFixedSize;
-        public object System.Collections.IDictionary.IsReadOnly;
-        public object System.Collections.IDictionary.Keys;
-        public object System.Collections.IDictionary.Values;
-        public object System.Collections.IDictionary.Item;
+        public int[] Comparer; // 0x10
+        public Entry<0x664DC180,float>[] Count; // 0x18
+        public int Keys; // 0x20
+        public int System.Collections.Generic.IDictionary<TKey,TValue>.Keys; // 0x24
+        public int System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys; // 0x28
+        public int Values; // 0x2C
+        public System.Collections.Generic.IEqualityComparer`1<0x664DC180> System.Collections.Generic.IDictionary<TKey,TValue>.Values; // 0x30
+        public KeyCollection<0x664DC180,float> System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values; // 0x38
+        public ValueCollection<0x664DC180,float> Item; // 0x40
+        public object System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly; // 0x48
+        public string System.Collections.ICollection.IsSynchronized;
+        public string System.Collections.ICollection.SyncRoot;
+        public string System.Collections.IDictionary.IsFixedSize;
+        public string System.Collections.IDictionary.IsReadOnly;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD50AEB820 | overloaded x9
@@ -161,16 +164,13 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EnumerableHelpers : Object
     {
-        public em.MarkAborted.izeDefaultCase _out; // 0x10
-        public URA.DateTime<object,int> _ids; // 0x18
-
         // ── Methods ──
         public void ToArray(){} // RVA: 0x7FFD4E078FF0 | overloaded x2
     }
 
     public class EqualityComparer`1 : Object
     {
-        public object Default;
+        public System.Collections.Generic.EqualityComparer`1<VRC.Dynamics.PhysBoneRootDefinition> Default;
 
         // ── Methods ──
         public void get_Default(){} // RVA: 0x7FFD50517970
@@ -205,9 +205,21 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class HashSet`1 : Object
     {
-        public object Count;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
-        public object Comparer;
+        public int Count;
+        public int System.Collections.Generic.ICollection<T>.IsReadOnly;
+        public int Comparer;
+        public string CapacityName;
+        public string ElementsName;
+        public string ComparerName;
+        public string VersionName;
+        public int[] _buckets; // 0x10
+        public Slot<UnityEngine.Texture>[] _slots; // 0x18
+        public int _count; // 0x20
+        public int _lastIndex; // 0x24
+        public int _freeList; // 0x28
+        public System.Collections.Generic.IEqualityComparer`1<UnityEngine.Texture> _comparer; // 0x30
+        public int _version; // 0x38
+        public System.Runtime.Serialization.SerializationInfo _siInfo; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x7
@@ -320,10 +332,19 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public 0x664DC180 key; // 0x10
+        public float value; // 0x14
     }
 
     public class LargeArrayBuilder`1 : ValueType
     {
+        public int _maxCapacity; // 0x10
+        public System.IO.FileInfo[] _first; // 0x18
+        public System.Collections.Generic.ArrayBuilder`1<System.IO.FileInfo[]> _buffers; // 0x20
+        public System.IO.FileInfo[] _current; // 0x30
+        public int _index; // 0x38
+        public int _count; // 0x3C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0 | overloaded x2
         public void AddRange(){} // RVA: 0x7FFD4E090A40
@@ -337,15 +358,22 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class LinkedListNode`1 : Object
     {
+        public System.Collections.Generic.LinkedList`1<System.Action> list; // 0x10
+        public System.Collections.Generic.LinkedListNode`1<System.Action> next; // 0x18
+        public System.Collections.Generic.LinkedListNode`1<System.Action> prev; // 0x20
+        public System.Action item; // 0x28
     }
 
     public class LinkedList`1 : Object
     {
-        public object Count;
-        public object First;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
+        public System.Collections.Generic.LinkedListNode`1<System.Action> Count; // 0x10
+        public int First; // 0x18
+        public int System.Collections.Generic.ICollection<T>.IsReadOnly; // 0x1C
+        public object System.Collections.ICollection.IsSynchronized; // 0x20
+        public System.Runtime.Serialization.SerializationInfo System.Collections.ICollection.SyncRoot; // 0x28
+        public string VersionName;
+        public string CountName;
+        public string ValuesName;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E90 | overloaded x2
@@ -378,6 +406,12 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class List`1 : Object
     {
+        public int DefaultCapacity;
+        public IJobSortable[] _items; // 0x10
+        public int _size; // 0x18
+        public int _version; // 0x1C
+        public object _syncRoot; // 0x20
+        public IJobSortable[] s_emptyArray;
     }
 
     public class LongEnumEqualityComparer`1 : EqualityComparer`1
@@ -391,7 +425,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class LowLevelDictionary`2 : Object
     {
-        public object Item;
+        public Entry<int,System.Threading.Tasks.Task>[] Item; // 0x10
+        public int _numEntries; // 0x18
+        public int _version; // 0x1C
+        public System.Collections.Generic.IEqualityComparer`1<int> _comparer; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x2
@@ -417,9 +454,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class LowLevelList`1 : Object
     {
-        public object Capacity;
-        public object Count;
-        public object Item;
+        public int Capacity;
+        public object[] Count; // 0x10
+        public int Item; // 0x18
+        public int _version; // 0x1C
+        public object[] s_emptyArray;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51908C10 | overloaded x2
@@ -483,9 +522,14 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Queue`1 : Object
     {
-        public object Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
+        public ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ[] Count; // 0x10
+        public int System.Collections.ICollection.IsSynchronized; // 0x18
+        public int System.Collections.ICollection.SyncRoot; // 0x1C
+        public int _size; // 0x20
+        public int _version; // 0x24
+        public object _syncRoot; // 0x28
+        public int MinimumGrow;
+        public int GrowFactor;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51B5ED70 | overloaded x3
@@ -524,22 +568,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedDictionary`2 : Object
     {
-        public object System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
-        public object Item;
-        public object Count;
-        public object Keys;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys;
-        public object Values;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Values;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values;
-        public object System.Collections.IDictionary.IsFixedSize;
-        public object System.Collections.IDictionary.IsReadOnly;
-        public object System.Collections.IDictionary.Keys;
-        public object System.Collections.IDictionary.Values;
-        public object System.Collections.IDictionary.Item;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
+        public KeyCollection<0x664CA170,ÏÌÎÍÎÌÎÍÎÎÏÌÎÍÎÌÌÍÏÎÎÎÏ> System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly; // 0x10
+        public ValueCollection<0x664CA170,ÏÌÎÍÎÌÎÍÎÎÏÌÎÍÎÌÌÍÏÎÎÎÏ> Item; // 0x18
+        public System.Collections.Generic.TreeSet`1<System.Collections.Generic.KeyValuePair`2<0x664CA170,ÏÌÎÍÎÌÎÍÎÎÏÌÎÍÎÌÌÍÏÎÎÎÏ>> Count; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x3
@@ -584,24 +615,16 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedList`2 : Object
     {
-        public object Capacity;
-        public object Comparer;
-        public object Count;
-        public object Keys;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
-        public object System.Collections.IDictionary.Keys;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys;
+        public U[] Capacity;
+        public T[] Comparer;
+        public int Count;
+        public int Keys;
+        public System.Collections.Generic.IComparer`1<U> System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
+        public KeyList<U,T> System.Collections.IDictionary.Keys;
+        public ValueList<U,T> System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys;
         public object Values;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Values;
-        public object System.Collections.IDictionary.Values;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values;
-        public object System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
-        public object System.Collections.IDictionary.IsReadOnly;
-        public object System.Collections.IDictionary.IsFixedSize;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object Item;
-        public object System.Collections.IDictionary.Item;
+        public int System.Collections.Generic.IDictionary<TKey,TValue>.Values;
+        public int System.Collections.IDictionary.Values;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -657,12 +680,26 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
-        public object Count;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object Min;
-        public object MinInternal;
+        public Node<Transmtn.DTO.Notifications.Notification> Count; // 0x10
+        public System.Collections.Generic.IComparer`1<Transmtn.DTO.Notifications.Notification> System.Collections.Generic.ICollection<T>.IsReadOnly; // 0x18
+        public int System.Collections.ICollection.IsSynchronized; // 0x20
+        public int System.Collections.ICollection.SyncRoot; // 0x24
+        public object Min; // 0x28
+        public System.Runtime.Serialization.SerializationInfo MinInternal; // 0x30
+        public string ComparerName;
+        public string CountName;
+        public string ItemsName;
+        public string VersionName;
+        public string TreeName;
+        public string NodeValueName;
+        public string EnumStartName;
+        public string ReverseName;
+        public string EnumVersionName;
+        public string MinName;
+        public string MaxName;
+        public string LowerBoundActiveName;
+        public string UpperBoundActiveName;
+        public int StackAllocThreshold;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x3
@@ -710,9 +747,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
-        public object Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
+        public System.Collections.Generic.List`1<VRC.SDKBase.INetworkID>[] Count; // 0x10
+        public int System.Collections.ICollection.IsSynchronized; // 0x18
+        public int System.Collections.ICollection.SyncRoot; // 0x1C
+        public object _syncRoot; // 0x20
+        public int DefaultCapacity;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0 | overloaded x2
@@ -749,8 +788,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class ValueListBuilder`1 : ValueType
     {
-        public object Length;
-        public object Item;
+        public System.Span`1<int> Length; // 0x10
+        public int[] Item; // 0x20
+        public int _pos; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

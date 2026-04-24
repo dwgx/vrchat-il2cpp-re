@@ -7,6 +7,23 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.GlobalIllumination
 {
     public class LightDataGI : ValueType
     {
+        public int instanceID; // 0x10
+        public int cookieID; // 0x14
+        public float cookieScale; // 0x18
+        public UnityEngine.Experimental.GlobalIllumination.LinearColor color; // 0x1C
+        public UnityEngine.Experimental.GlobalIllumination.LinearColor indirectColor; // 0x2C
+        public UnityEngine.Quaternion orientation; // 0x3C
+        public UnityEngine.Vector3 position; // 0x4C
+        public float range; // 0x58
+        public float coneAngle; // 0x5C
+        public float innerConeAngle; // 0x60
+        public float shape0; // 0x64
+        public float shape1; // 0x68
+        public 0x664E8D00 type; // 0x6C
+        public 0x664E8D58 mode; // 0x6D
+        public byte shadow; // 0x6E
+        public 0x664E8DB0 falloff; // 0x6F
+
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD54D1D230 | overloaded x5
         public void InitNoBake(){} // RVA: 0x7FFD54D1D2A0
@@ -14,6 +31,9 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.GlobalIllumination
 
     public class Lightmapping : Object
     {
+        public RequestLightsDelegate s_DefaultDelegate;
+        public RequestLightsDelegate s_RequestLightsDelegate; // 0x8
+
         // ── Methods ──
         public void SetDelegate(){} // RVA: 0x7FFD54D1EC30
         public void GetDelegate(){} // RVA: 0x7FFD54D1ED10
@@ -24,9 +44,10 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.GlobalIllumination
 
     public class LinearColor : ValueType
     {
-        public object red;
-        public object green;
-        public object blue;
+        public float red; // 0x10
+        public float green; // 0x14
+        public float blue; // 0x18
+        public float m_intensity; // 0x1C
 
         // ── Methods ──
         public void get_red(){} // RVA: 0x7FFD4E364D20

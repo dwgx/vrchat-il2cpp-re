@@ -7,12 +7,17 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class AmazonAppStoreStoreExtensions : Object
     {
+        public UnityEngine.AndroidJavaObject android; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AnalyticsClient : Object
     {
+        public UnityEngine.Purchasing.IAnalyticsAdapter m_Analytics; // 0x10
+        public UnityEngine.Purchasing.IAnalyticsAdapter m_LegacyAnalytics; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
         public void OnPurchaseSucceeded(){} // RVA: 0x7FFD54DCA5F0
@@ -21,6 +26,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class AndroidJavaStore : Object
     {
+        public UnityEngine.AndroidJavaObject m_Store; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void RetrieveProducts(){} // RVA: 0x7FFD54DD59B0
@@ -37,14 +44,32 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class AppleProductMetadata : ProductMetadata
     {
+        public bool <isFamilyShareable>k__BackingField; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DEFFF0
     }
 
     public class AppleStoreImpl : JSONStore
     {
-        public object appReceipt;
-        public object appReceiptModificationDate;
+        public System.Action`1<UnityEngine.Purchasing.Product> appReceipt; // 0x48
+        public System.Action`1<System.Collections.Generic.List`1<UnityEngine.Purchasing.Product>> appReceiptModificationDate; // 0x50
+        public System.Action`1<string> m_RefreshReceiptError; // 0x58
+        public System.Action`1<string> m_RefreshReceiptSuccess; // 0x60
+        public System.Action`1<bool> m_ObsoleteRestoreCallback; // 0x68
+        public System.Action`2<bool,string> m_RestoreCallback; // 0x70
+        public System.Action m_FetchStorePromotionOrderError; // 0x78
+        public System.Action`1<System.Collections.Generic.List`1<UnityEngine.Purchasing.Product>> m_FetchStorePromotionOrderSuccess; // 0x80
+        public System.Action`1<UnityEngine.Purchasing.Product> m_PromotionalPurchaseCallback; // 0x88
+        public System.Action m_FetchStorePromotionVisibilityError; // 0x90
+        public System.Action`2<string,0x665DCDA8> m_FetchStorePromotionVisibilitySuccess; // 0x98
+        public UnityEngine.Purchasing.INativeAppleStore m_Native; // 0xA0
+        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0xA8
+        public Uniject.IUtil s_Util;
+        public UnityEngine.Purchasing.AppleStoreImpl s_Instance; // 0x8
+        public string m_CachedAppReceipt; // 0xB0
+        public System.Nullable`1<double> m_CachedAppReceiptModificationDate; // 0xB8
+        public string m_ProductsJson; // 0xC8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DF0200

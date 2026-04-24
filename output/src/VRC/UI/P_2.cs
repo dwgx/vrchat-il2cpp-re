@@ -57,8 +57,11 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÏÎÌÎÌÏÌÍÎÏÍÎÎÍÌÌÎÍÏÎÌ</summary>
     public class PointerBackPressedSibling_2351 : PointerBackPressed_5C11
     {
-        public object f_A5C;
-        public object f_455;
+        public string f_A5C;
+        public UnityEngine.UI.Toggle f_455; // 0x98
+        public UnityEngine.UI.Toggle _secondCheckBox; // 0xA0
+        public UnityEngine.UI.Button _privacyPolicyLinkButton; // 0xA8
+        public bool ÌÌÎÍÍÍÍÍÎÏÏÏÏÏÎÌÏÍÍÍÍÌÏ; // 0xB0
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F788570
@@ -82,6 +85,10 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÏÌÎÎÍÎÏÏÍÌÏÏÍÍÏÍÎÌÌÏÍ</summary>
     public class PointerClickHandlerSibling_8F70 : Object
     {
+        public MessengerHelper ÍÎÍÌÍÍÍÍÍÏÏÍÎÎÎÍÎÎÌÌÏÎÌ;
+        public System.Collections.Generic.Dictionary`2<string,System.Delegate> ÏÌÍÏÎÍÌÏÍÌÏÌÌÏÎÏÍÍÍÏÏÍÍ; // 0x8
+        public System.Collections.Generic.List`1<string> ÏÏÍÍÏÍÎÏÌÎÎÌÏÎÎÍÏÎÎÌÎÏÎ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EE8E830
         public void Equals(){} // RVA: 0x7FFD4EE8E8F0
@@ -100,6 +107,12 @@ namespace VRC.UI
     /// <summary>Originally: ÏÌÏÏÎÌÍÍÏÌÍÌÏÎÎÍÎÏÏÌÍÍÍ</summary>
     public class PointerClickHandler_1A66 : MonoBehaviour
     {
+        public bool _isOn; // 0x20
+        public UnityEngine.Sprite _offSprite; // 0x28
+        public UnityEngine.Sprite _onSprite; // 0x30
+        public UnityEngine.UI.Image ÍÎÍÍÎÍÍÎÍÏÏÎÏÍÍÍÍÎÎÏÌÎÏ; // 0x38
+        public System.Action`1<bool> ÌÍÍÌÌÌÍÍÎÌÏÍÎÏÏÍÎÏÌÏÍÌÎ; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
         public void Awake(){} // RVA: 0x7FFD56C48D20
@@ -119,6 +132,9 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÍÎÍÍÎÍÌÎÍÎÍÌÌÎÍÍÏÎÍÌÍ</summary>
     public class PointerClickHandler_526D : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÎÌÏÌÎÎÎÍÏÏÎÌÏÎÏÎÏÌÍÏÍÍÌ; // 0x20
+        public System.Action`1<string> ÍÍÌÏÌÌÎÎÎÍÎÍÏÎÌÎÌÌÏÎÌÎÍ; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
         public void Initialize(){} // RVA: 0x7FFD56B60900
@@ -155,6 +171,14 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÍÎÍÍÎÎÍÌÍÍÍÎÏÌÎÏÏÍÍÎÏ</summary>
     public class PointerContinuePressed_7664 : UpdateComponent_B6B3
     {
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÌÍÍÏÍÍÎÎÍÌÍÍÍÎÎÏÍÍÏÎÎÌ; // 0x60
+        public UnityEngine.UI.Button ÌÍÏÌÍÍÍÏÍÏÌÌÍÏÍÌÍÍÍÍÌÍÎ; // 0x68
+        public UnityEngine.GameObject ÌÌÏÎÏÎÏÌÎÍÍÌÏÌÎÍÌÏÍÏÎÏÎ; // 0x70
+        public UnityEngine.GameObject ÌÎÍÎÎÎÍÎÌÌÍÎÏÌÌÏÌÎÎÏÏÏÍ; // 0x78
+        public bool ÌÎÏÍÎÎÎÎÎÌÏÎÍÍÏÏÏÎÎÎÏÎÍ; // 0x80
+        public System.Collections.Generic.List`1<UnityEngine.GameObject> ÌÏÌÎÎÎÏÌÍÌÍÌÍÎÏÏÌÍÍÎÏÍÌ; // 0x88
+        public string ÍÌÎÌÍÏÏÍÎÏÍÍÍÍÌÎÍÏÎÏÍÎÏ; // 0x90
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x7FFD4F778D80
         public void InvokeUIManagerProperty20(){} // RVA: 0x7FFD4F778DE0
@@ -180,7 +204,9 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÎÎÎÏÌÏÍÏÏÌÌÎÏÍÏÏÏÍÌÌÍ</summary>
     public class PointerDownBeginDrag_5957 : Set_CC3F
     {
-        public object _5957;
+        public UnityEngine.Events.UnityEvent _5957; // 0x1A0
+        public float ÍÍÎÍÎÌÏÎÌÌÌÌÌÎÎÍÌÏÎÏÏÌÍ; // 0x1A8
+        public bool ÍÍÎÍÏÍÎÌÌÌÎÌÌÎÏÎÎÌÍÏÍÌÍ; // 0x1AC
 
         // ── Methods ──
         public void OnPointerDown(){} // RVA: 0x7FFD567FF190
@@ -201,6 +227,26 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÌÌÌÏÎÍÎÌÌÌÍÎÎÍÌÎÌÏÍÎÎ</summary>
     public class PointerDownBeginDrag_AD98 : UIRectTransformDimensionsChBeforeTransform_C3EE
     {
+        public System.Action`1<UnityEngine.GameObject> ÏÌÌÎÏÍÌÎÏÍÍÏÍÍÎÎÏÌÍÎÏÏÌ; // 0xD0
+        public UnityEngine.Transform _pedestalHook; // 0xD8
+        public UnityEngine.BoxCollider _avatarBounds; // 0xE0
+        public UnityEngine.BoxCollider _avatarPartBounds; // 0xE8
+        public float _startYawOffset; // 0xF0
+        public ÍÌÌÎ _spinDirection; // 0xF4
+        public ÌÌÏÏÏÌÌÍÏÏÎÎÎÍÎÎÏÌÎÎÌÏÌ ÌÎÎÌÏÎÏÏÍÏÍÎÎÍÎÎÎÍÏÍÌÍÍ; // 0xF8
+        public float ÏÎÎÎÍÌÏÎÌÏÍÍÎÎÎÍÏÏÎÏÍÌÏ; // 0x100
+        public bool ÍÌÎÍÏÌÎÍÍÏÎÍÌÍÎÍÏÏÍÍÌÎÎ; // 0x104
+        public bool ÌÎÎÎÍÎÍÏÌÏÌÌÍÏÍÏÎÏÏÏÏÌÎ; // 0x105
+        public float ÍÌÏÎÌÎÍÏÏÍÍÌÎÌÌÏÍÌÌÎÏÌÏ; // 0x108
+        public bool ÍÌÍÎÏÌÍÌÌÍÎÎÎÎÏÌÎÏÏÎÍÍÏ; // 0x10C
+        public float ÍÏÏÏÎÎÍÎÎÏÍÎÎÌÍÏÎÌÍÏÌÎÎ;
+        public float ÍÎÌÍÎÌÎÍÍÏÍÍÏÎÌÏÌÏÌÏÌÌÏ;
+        public float ÌÌÌÎÏÎÍÏÏÎÎÍÍÌÏÍÍÎÏÎÌÍÌ;
+        public float ÍÏÍÍÌÌÌÌÍÌÏÌÍÍÍÏÍÎÍÍÏÎÌ;
+        public float ÍÌÎÍÏÏÎÏÌÎÌÌÎÏÏÏÍÎÍÎÏÏÍ;
+        public float ÎÌÏÌÎÌÏÎÏÌÎÍÎÎÎÏÌÏÍÏÎÎÏ;
+        public UnityEngine.GameObject ÎÎÏÎÍÏÏÍÏÌÎÌÎÎÌÏÌÌÍÍÌÏÏ; // 0x110
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD56DF5A00
         public void Initialize(){} // RVA: 0x7FFD56DF5A50
@@ -230,7 +276,7 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÏÍÏÏÏÏÏÌÍÏÏÍÌÏÏÌÍÎÎÏÏ</summary>
     public class PointerDownHandlerSibling_DDC2 : MonoBehaviour
     {
-        public object _dDC2;
+        public 0x664CC2C8 _dDC2; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -247,8 +293,12 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÍÌÏÎÏÌÌÎÏÏÍÌÍÍÌÍÎÎÏÌÎ</summary>
     public class PointerDown_E181 : Slider
     {
-        public object _fillRect;
-        public object _handleRect;
+        public string _fillRect; // 0x168
+        public bool _handleRect; // 0x170
+        public ÌÍÏÏÌÎÌÌÌÌÍÎÌÌÌÎÎÍÎÏÍÎÏ ÌÌÏÏÏÌÍÌÌÍÌÎÍÍÎÌÍÌÎÌÏÎÎ; // 0x178
+        public bool ÎÍÏÎÏÍÏÏÏÎÎÌÎÏÍÍÏÏÏÎÌÍÌ; // 0x180
+        public ÌÏÍÌÎÏÌÍÏÍÎÌÎÎÌÏÍÎÌÌÏÍÍ ÍÏÏÍÍÎÎÌÌÍÍÎÏÎÎÎÌÏÍÏÏÌÎ; // 0x188
+        public float ÏÎÌÏÍÌÏÌÍÍÌÏÏÍÏÌÌÍÍÎÌÎÍ; // 0x190
 
         // ── Methods ──
         public void OnPointerDown(){} // RVA: 0x7FFD56C7DE40
@@ -278,8 +328,38 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÎÍÍÍÍÍÌÍÎÍÏÌÍÏÏÎÎÍÌÎÎ</summary>
     public class PointerEnterComponent_8F6C : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public bool _destroyCancellationToken;
+        public ÏÌÎÍÎÌÎÍÎÎÏÌÎÍÎÌÌÍÏÎÎÎÏ _useGUILayout; // 0x20
+        public 0x664CA170 <ÍÏÏÎÍÌÍÍÎÏÍÏÌÏÍÍÍÍÌÏÏÍÎ>k__BackingField; // 0x28
+        public System.Collections.Generic.List`1<ÎÎÎÍÏÍÎÎÍÏÏÎÏÌÍÌÏÏÏÎÌÍÏ> ÍÎÎÌÏÌÍÏÎÏÌÏÏÌÎÍÎÌÏÎÌÎÌ; // 0x30
+        public UnityEngine.GameObject SidebarTabPrefab; // 0x38
+        public UnityEngine.Transform SidebarTabParent; // 0x40
+        public UnityEngine.UI.VerticalLayoutGroup SidebarTabLayoutGroup; // 0x48
+        public UnityEngine.UI.ContentSizeFitter SidebarTabContentSizeFitter; // 0x50
+        public ÏÏÏÎÎÍÌÌÌÌÏÏÌÎÌÏÏÌÎÏÍÍÏ ContentView; // 0x58
+        public UnityEngine.Canvas RootCanvas; // 0x60
+        public UnityEngine.CanvasGroup RootCanvasGroup; // 0x68
+        public UnityEngine.BoxCollider UICollider; // 0x70
+        public UnityEngine.UI.Button CloseButton; // 0x78
+        public UnityEngine.UI.ScrollRect SidebarScrollRect; // 0x80
+        public UnityEngine.UI.ScrollRect ContentScrollRect; // 0x88
+        public VRC.UI.ImageEx Background; // 0x90
+        public UnityEngine.UI.Slider BackgroundOpacitySlider; // 0x98
+        public UnityEngine.UI.Toggle LocalMovementToggle; // 0xA0
+        public UnityEngine.GameObject LocalMovementDesktopWarning; // 0xA8
+        public TMPro.TextMeshProUGUI FPSDisplay; // 0xB0
+        public TMPro.TextMeshProUGUI PingDisplay; // 0xB8
+        public TMPro.TextMeshProUGUI BuildDisplay; // 0xC0
+        public TMPro.TextMeshProUGUI DebugDisplay; // 0xC8
+        public ÏÎÍÏÌÏÎÌÎÌÍÌÍÏÎÏÌÏÏÎÎÌÌ<float> ÍÏÎÏÎÏÏÌÎÌÌÍÎÍÌÌÏÏÎÌÎÎÎ; // 0xD0
+        public ÏÎÍÏÌÏÎÌÎÌÍÌÍÏÎÏÌÏÏÎÎÌÌ<bool> ÌÏÌÌÌÎÍÍÏÎÌÎÎÌÏÏÎÎÌÌÍÏÏ; // 0xD8
+        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÌÍÎÌÌÍÍÎÏÍÏÎÎÎÍÏÎÌÏÎÍÎÌ; // 0xE0
+        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÍÏÍÏÏÎÌÍÏÌÍÏÍÌÎÍÎÏÎÌÏÌÏ; // 0xE8
+        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÎÏÍÍÎÎÏÍÌÍÏÎÍÏÌÍÏÍÏÏÏÌÍ; // 0xF0
+        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÎÌÏÎÍÌÍÍÌÌÍÎÎÏÏÌÍÍÏÌÎÏÌ; // 0xF8
+        public ÏÎÏÏÍÌÌÏÏÏÎÏÏÏÏÍÏÍÎÏÌÍÍ ÏÎÌÏÏÍÍÌÎÎÍÍÍÌÏÏÍÍÌÍÎÌÌ; // 0x100
+        public UnityEngine.Matrix4x4 ÌÍÍÍÎÍÍÌÎÏÌÎÎÏÍÏÌÍÍÎÌÌÌ; // 0x108
+        public UnityEngine.Vector2 ÏÌÍÍÌÍÍÏÌÏÍÍÏÏÏÎÍÎÍÏÎÍÏ; // 0x148
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EAB7E10
@@ -314,6 +394,33 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÎÍÍÎÎÌÎÏÍÌÎÏÎÍÏÍÏÎÎÍÍ</summary>
     public class PointerEnterHandler_D2EE : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ InstanceName; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ InstanceType; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ UserCount; // 0x30
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ FriendCount; // 0x38
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ WorldName; // 0x40
+        public UnityEngine.GameObject FriendCountIcon; // 0x48
+        public UnityEngine.GameObject YouAreHere; // 0x50
+        public ÎÌÎÍÍÏÏÌÍÍÍÏÍÏÏÏÎÏÏÏÍÎÌ RegionIcon; // 0x58
+        public UnityEngine.GameObject LabsIcon; // 0x60
+        public UnityEngine.GameObject FavoriteIcon; // 0x68
+        public ÏÏÌÎÏÏÌÏÌÌÏÏÍÏÍÎÍÌÌÎÍÌÍ AgeGateIcon; // 0x70
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ ThumbnailImage; // 0x78
+        public UnityEngine.UI.Graphic ToggleGraphic; // 0x80
+        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ _toolTip; // 0x88
+        public UnityEngine.GameObject _contentWarningBanner; // 0x90
+        public ÍÏÍÏÌÍÏÍÌÏÎÌÎÎÎÍÎÎÌÌÌÎÍ preloadInfo; // 0x98
+        public UnityEngine.GameObject _platformPrefab; // 0xA0
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ _supportedPlatformsListBinding; // 0xA8
+        public System.Collections.Generic.List`1<VRC.DataModel.SupportedPlatformData> _supportedPlatformTags; // 0xB0
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0xB8
+        public ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ ÍÏÍÎÍÎÍÍÏÏÏÏÌÎÍÏÌÌÏÎÍÍÎ; // 0xC0
+        public ÌÎÏÌÍÌÏÎÏÎÏÎÎÍÌÎÏÎÍÏÍÎÍ ÌÌÏÏÏÌÍÌÌÍÌÎÍÍÎÌÍÌÎÌÏÎÎ; // 0xC8
+        public ÎÏÎÍÍÎÍÏÏÌÍÍÏÍÍÌÌÎÌÍÌÎÏ ÌÍÏÏÏÍÎÍÏÎÍÌÌÌÏÍÎÌÍÏÏÍÌ; // 0xD0
+        public DG.Tweening.Tween ÌÎÌÌÍÎÎÎÎÏÍÏÌÏÌÏÎÏÍÌÌÍÎ; // 0xD8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<VRC.DataModel.SupportedPlatformData>> ÌÍÎÎÏÎÏÍÏÍÍÍÎÍÎÏÏÌÌÌÌÌÍ; // 0xE0
+        public System.Action`1<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> ÏÎÏÏÌÌÍÍÌÏÏÍÎÏÎÌÍÏÌÎÎÌÍ; // 0xE8
+
         // ── Methods ──
         public void GetColliderComponents(){} // RVA: 0x7FFD4E963900
         public void .ctor(){} // RVA: 0x7FFD56AB63F0
@@ -341,6 +448,30 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÎÏÎÎÏÍÏÎÎÍÏÏÎÍÍÎÏÍÍÍÏ</summary>
     public class PointerEnterPointerDownHandler_42F7 : MonoBehaviour
     {
+        public UnityEngine.RectTransform ÎÌÏÍÎÎÎÍÌÍÍÌÌÍÍÌÍÌÍÍÌÏÍ; // 0x20
+        public 0x66368EE0 ÌÏÏÎÎÍÎÏÌÍÍÍÏÏÍÏÏÏÎÏÌÌÎ; // 0x28
+        public 0x66368F38 ÏÍÏÌÍÌÏÎÍÏÍÏÎÍÍÍÍÍÏÏÍÍÌ; // 0x2C
+        public bool ÏÌÎÎÌÌÎÌÎÏÏÌÎÍÍÏÎÏÏÏÎÎÎ; // 0x30
+        public bool ÌÏÏÎÏÍÎÏÌÏÏÎÎÌÌÎÌÏÏÍÍÍÍ; // 0x31
+        public bool ÎÌÏÌÌÍÏÏÌÍÍÌÍÏÌÌÏÏÎÎÌÌÏ;
+        public bool ÍÍÍÎÍÏÏÌÏÍÏÌÍÏÍÎÏÏÎÍÎÎÎ; // 0x1
+        public float ÏÎÎÎÍÍÍÎÌÌÍÌÌÍÏÎÏÍÎÌÌÌÌ; // 0x4
+        public float ÎÎÌÌÌÌÎÌÎÏÌÏÎÎÎÏÍÏÌÎÏÌÌ; // 0x8
+        public float ÏÌÎÏÏÍÏÌÏÎÍÌÍÎÎÍÏÎÍÍÏÌÏ; // 0xC
+        public ButtonState ÎÏÏÏÎÌÏÏÌÏÏÏÌÎÌÎÏÍÏÎÌÏÌ; // 0x38
+        public ButtonState ÎÎÌÎÌÌÏÌÏÍÎÏÌÏÌÎÎÌÍÍÌÍÌ; // 0x40
+        public ButtonState ÌÍÏÏÏÎÎÍÏÌÎÍÌÏÍÏÍÍÏÍÍÎÍ; // 0x48
+        public ButtonState ÍÍÍÏÌÎÌÏÍÏÍÎÏÍÏÏÎÏÍÌÍÍÌ; // 0x50
+        public bool ÌÌÎÎÎÌÏÍÏÌÍÎÎÍÍÍÍÎÍÎÍÎÏ; // 0x58
+        public bool ÍÌÍÍÎÍÍÌÎÏÌÏÎÌÍÍÍÍÎÏÌÌÍ; // 0x59
+        public bool ÏÏÌÎÏÍÏÎÎÍÎÌÏÎÌÍÏÎÎÏÍÌÍ; // 0x5A
+        public UnityEngine.Vector3 ÍÏÏÏÍÌÎÎÏÍÎÌÌÌÌÌÍÎÏÌÎÍÌ; // 0x5C
+        public UnityEngine.Vector2 ÌÍÌÎÎÎÍÍÏÌÎÍÍÍÎÎÏÎÍÏÍÍÏ; // 0x68
+        public UnityEngine.Vector3 ÍÎÍÏÎÍÍÎÍÍÏÍÍÍÏÌÎÌÌÏÍÍÍ; // 0x70
+        public bool ÏÏÏÏÍÌÌÎÍÎÏÎÍÎÎÌÍÍÌÍÏÏÌ; // 0x7C
+        public 0x665CC810 ÌÌÏÍÏÏÍÎÎÏÌÍÎÏÍÍÍÏÎÎÍÌÍ; // 0x80
+        public ButtonState ÎÌÏÏÎÏÎÍÎÍÌÏÍÏÎÍÏÌÏÏÏÌÏ; // 0x88
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F6F47F0
         public void OnPointerUp(){} // RVA: 0x7FFD4F6F4910
@@ -372,7 +503,18 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÎÌÌÍÎÎÍÎÎÎÏÏÌÏÏÏÏÏÎÍÎ</summary>
     public class PointerEnterPointerExitHandlerImpl_F801 : PointerEnterPointerExitHandler_AE24
     {
-        public object _f801;
+        public System.Action`2<0x6638A618,float> _f801;
+        public ÌÎÎÌÌÏÌÎÌÏÍÏÏÏÎÍÌÎÌÎÌÌÏ cam; // 0x48
+        public ÍÏÌÌÏÍÌÌÌÍÏÌÍÍÍÏÏÏÏÎÎÏÏ dofManager; // 0x50
+        public 0x6638A618 type; // 0x58
+        public UnityEngine.UI.Slider slider; // 0x60
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ sliderValue; // 0x68
+        public string formatString; // 0x70
+        public bool useLogScaling; // 0x78
+        public float logMidPointOffset; // 0x7C
+        public float ÍÍÎÏÍÌÍÏÍÍÍÌÍÏÍÌÍÍÎÌÍÍÏ; // 0x80
+        public float ÏÏÏÍÏÌÌÎÏÍÏÎÍÍÌÎÏÍÍÎÎÏÍ; // 0x84
+        public float ÌÎÏÎÎÏÎÍÎÍÎÎÍÍÏÎÍÏÏÍÎÎÌ; // 0x88
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E796AA0
@@ -405,6 +547,14 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÏÍÍÏÍÍÍÎÏÏÍÏÌÏÍÎÎÏÏÍÍ</summary>
     public class PointerEnterPointerExitHandler_109A : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _titleText; // 0x20
+        public UnityEngine.UI.Button _termButton; // 0x28
+        public UnityEngine.UI.Button _removeSavedSearchButton; // 0x30
+        public UnityEngine.GameObject _savedSearchIcon; // 0x38
+        public ÌÎÎÏÍÏÎÏÍÏÏÎÏÏÎÏÍÍÎÎÎÌÏ ÌÍÎÌÍÌÌÎÏÎÏÎÍÏÌÌÌÍÍÏÏÏÏ; // 0x40
+        public ÌÎÏÌÍÌÏÎÏÎÏÎÎÍÌÎÏÎÍÏÍÎÍ ÎÏÏÏÌÎÎÍÏÌÎÎÎÌÎÏÍÍÎÎÍÌÎ; // 0x48
+        public bool ÎÏÍÍÌÌÎÎÍÎÍÌÎÍÏÎÎÌÌÌÏÌÎ; // 0x50
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD5682CC40
         public void RaiseCancellation(){} // RVA: 0x7FFD5682CEB0
@@ -429,7 +579,32 @@ namespace VRC.UI
     /// <summary>Originally: ÏÌÎÏÍÎÍÌÌÌÎÍÎÌÌÏÎÎÌÌÎÍÌ</summary>
     public class PointerEnterPointerExitHandler_1283 : MonoBehaviour
     {
-        public object _1283;
+        public UnityEngine.Material _1283; // 0x20
+        public UnityEngine.Material _disabledThumbnailMaterial; // 0x28
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ ThumbnailImage; // 0x30
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ Name; // 0x38
+        public ÏÏÍÍÌÎÏÏÍÏÍÍÍÏÏÌÏÌÏÌÎÏÎ UserCount; // 0x40
+        public ÏÏÍÍÌÎÏÏÍÏÍÍÍÏÏÌÏÌÏÌÎÏÎ FriendCount; // 0x48
+        public UnityEngine.GameObject IconFriendCount; // 0x50
+        public UnityEngine.GameObject _contentWarningBanner; // 0x58
+        public UnityEngine.GameObject _platformPrefab; // 0x60
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ _supportedPlatformsListBinding; // 0x68
+        public System.Collections.Generic.List`1<VRC.DataModel.SupportedPlatformData> _supportedPlatformTags; // 0x70
+        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ _toolTip; // 0x78
+        public VRC.UI.Core.Styles.StyleElement _styleElement; // 0x80
+        public UnityEngine.UI.Button _button; // 0x88
+        public 0x664D1F98 _worldTabToOpenTo; // 0x90
+        public UnityEngine.GameObject attributeIconFavorite; // 0x98
+        public UnityEngine.GameObject attributeIconCommunityLabs; // 0xA0
+        public UnityEngine.GameObject _hoverContainer; // 0xA8
+        public UnityEngine.UI.Button _joinButton; // 0xB0
+        public UnityEngine.UI.Button _favoriteButton; // 0xB8
+        public System.Collections.Generic.List`1<UnityEngine.GameObject> _infoObjects; // 0xC0
+        public ÍÏÍÏÌÍÏÍÌÏÎÌÎÎÎÍÎÎÌÌÌÎÍ preloadInfo; // 0xC8
+        public ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ ÎÎÌÌÍÌÎÏÏÏÏÎÍÌÎÌÎÌÌÍÌÏÎ; // 0xD0
+        public bool ÎÎÏÍÏÏÌÌÌÎÎÌÌÎÎÌÎÏÏÌÍÌÏ; // 0xD8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<VRC.DataModel.SupportedPlatformData>> ÌÍÎÎÏÎÏÍÏÍÍÍÎÍÎÏÏÌÌÌÌÌÍ; // 0xE0
+        public bool ÌÏÎÍÌÌÌÌÍÍÎÎÏÏÌÎÌÌÍÎÏÍÌ; // 0xE8
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56C874C0
@@ -467,10 +642,10 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÍÎÌÎÌÍÍÌÎÎÍÏÏÎÏÍÎÏÏÎÎ</summary>
     public class PointerEnterPointerExitHandler_340E : MonoBehaviour
     {
-        public string sofaName; // 0x18
-        public byte[] data; // 0x20
-        public float volume; // 0x28
-        public sedMetadataStream.lable normType; // 0x2C
+        public TMPro.TextMeshProUGUI ÎÌÎÍÌÏÏÎÏÏÌÍÏÎÎÍÍÎÌÏÏÏÌ; // 0x20
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x28
+        public string ÍÍÍÍÍÌÌÏÌÌÏÌÌÍÌÍÎÌÏÍÍÏÏ; // 0x30
+        public ÎÏÎÍÎÎÌÏÌÌÍÌÌÍÍÌÏÌÌÏÏÍÏ ÎÏÏÍÎÎÏÌÎÌÏÏÌÌÏÎÌÎÍÌÌÍÎ; // 0x38
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56CAFE20
@@ -492,6 +667,23 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÏÎÍÏÎÏÏÍÌÍÍÏÍÎÏÎÎÏÎÍÎ</summary>
     public class PointerEnterPointerExitHandler_6A92 : MonoBehaviour
     {
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ _groupBannerImageBinding; // 0x20
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ _groupIconImageBinding; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _groupNameText; // 0x30
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _groupDescriptionText; // 0x38
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _onlineMembersText; // 0x40
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _totalMembersText; // 0x48
+        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ _button; // 0x50
+        public UnityEngine.GameObject _hoverContainer; // 0x58
+        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ _actionButton; // 0x60
+        public UnityEngine.Sprite _joinSprite; // 0x68
+        public UnityEngine.Sprite _viewSprite; // 0x70
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _hoverGroupNameText; // 0x78
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _hoverGroupDescriptionText; // 0x80
+        public System.Action`1<ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ> ÎÏÎÍÎÍÏÎÍÌÎÍÌÍÎÍÎÍÎÏÎÏÏ; // 0x88
+        public System.Action`1<ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ> ÍÌÍÏÌÌÍÏÎÍÏÌÌÏÎÎÍÍÏÎÌÍÎ; // 0x90
+        public ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ ÎÌÏÍÎÏÌÎÎÎÏÌÏÍÍÎÌÎÏÏÌÏÎ; // 0x98
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A771F0
         public void RaiseCancellation(){} // RVA: 0x7FFD56A772F0
@@ -517,6 +709,9 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÎÌÌÏÎÍÎÏÎÌÏÍÏÌÎÌÌÏÍÎÎ</summary>
     public class PointerEnterPointerExitHandler_8100 : MonoBehaviour
     {
+        public UnityEngine.GameObject[] ÌÏÌÎÏÍÌÍÏÏÏÌÎÎÎÎÏÍÎÌÍÌÏ; // 0x20
+        public System.Action`1<bool> ÎÏÍÏÎÎÎÏÏÎÍÌÌÎÍÍÍÌÎÎÏÏÏ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56B9CD80
         public void RaiseCancellation(){} // RVA: 0x7FFD56B9CD90
@@ -536,6 +731,9 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÎÍÍÏÎÌÏÎÌÎÌÏÏÎÎÎÎÎÎÍÎ</summary>
     public class PointerEnterPointerExitHandler_8837 : MonoBehaviour
     {
+        public System.Action ÌÌÌÏÎÎÎÎÎÌÌÏÍÏÏÎÍÌÏÏÏÍÌ; // 0x20
+        public System.Action ÌÌÍÏÍÌÏÍÌÏÌÏÍÎÏÍÍÌÏÌÍÌÏ; // 0x28
+
         // ── Methods ──
         public void OnPointerClick(){} // RVA: 0x7FFD4E6232C0
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -587,6 +785,11 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÏÏÎÏÍÏÎÌÌÏÌÏÍÍÌÏÎÌÍÎÏ</summary>
     public class PointerEnterPointerExit_2031 : Selectable
     {
+        public UnityEngine.CanvasGroup _canvasGroup; // 0x100
+        public UnityEngine.GameObject _dragInstructions; // 0x108
+        public string ÍÎÍÎÌÏÌÌÏÎÍÎÍÍÌÎÍÎÌÏÎÌÍ; // 0x110
+        public bool ÍÌÎÍÏÍÍÏÌÎÎÏÏÏÍÍÎÏÎÍÏÍÎ; // 0x118
+
         // ── Methods ──
         public void get_allSelectablesArray(){} // RVA: 0x7FFD4F73FB40
         public void get_allSelectableCount(){} // RVA: 0x7FFD4F73FC40
@@ -604,7 +807,13 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÌÏÍÌÍÌÏÎÌÏÍÎÏÍÏÎÍÏÎÎÎ</summary>
     public class PointerEnterPointerExit_2752 : PointerClickPointerEnterHandler_743C
     {
-        public object _2752;
+        public UnityEngine.GameObject _2752; // 0x60
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ image; // 0x68
+        public ÏÎÌÎÍÌÏÏÎÏÍÎÎÌÎÏÍÍÎÏÎÍÍ quantityBadge; // 0x70
+        public ÍÌÎÎÍÎÌÏÎÍÏÌÍÍÌÌÎÏÎÍÌÍÎ animationPlayer; // 0x78
+        public ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ ÌÍÏÌÌÏÏÌÌÎÎÍÌÍÎÏÎÎÏÎÏÍÍ; // 0x80
+        public bool ÍÎÏÍÍÌÎÏÍÎÎÍÍÍÏÍÎÏÍÎÍÌÍ; // 0x88
+        public float ÎÏÌÌÏÌÎÎÏÍÌÌÏÌÏÍÌÌÏÎÎÌÏ; // 0x8C
 
         // ── Methods ──
         public void PointerEnterPointerExit(){} // RVA: 0x7FFD56B7B280
@@ -633,7 +842,9 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÎÍÎÎÎÏÍÌÌÌÎÍÏÏÎÍÌÎÍÎÍ</summary>
     public class PointerEnterPointerExit_5D10 : PointerClickPointerEnterHandler_743C
     {
-        public object _5D10;
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ _5D10; // 0x60
+        public ÍÌÎÎÍÎÌÏÎÍÏÌÍÍÌÌÎÏÎÍÌÍÎ animationPlayer; // 0x68
+        public bool ÍÎÏÍÍÌÎÏÍÎÎÍÍÍÏÍÎÏÍÎÍÌÍ; // 0x70
 
         // ── Methods ──
         public void CreateExitOperation(){} // RVA: 0x7FFD56C7F490
@@ -659,13 +870,14 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÍÏÎÍÌÌÌÍÎÌÍÎÌÏÏÏÌÏÍÍÏ</summary>
     public class PointerEnterPointerExit_D99E : UILifecycleComponent_01AC
     {
-        public object f_E95;
-        public object f_E0A;
-        public object f_6A1;
-        public object f_6FA;
-        public object f_593;
-        public object f_BF8;
-        public object f_B04;
+        public System.Action`1<VRC.Localization.LocalizableString> f_E95; // 0x50
+        public VRC.UI.Core.Styles.StyleElement f_E0A; // 0x58
+        public string f_6A1; // 0x60
+        public bool f_6FA; // 0x68
+        public bool f_593; // 0x69
+        public UnityEngine.Color f_BF8; // 0x6C
+        public VRC.Localization.LocalizableString f_B04; // 0x80
+        public bool ÏÌÏÍÏÍÌÎÏÎÎÏÎÍÍÏÍÎÍÌÌÍÌ; // 0xA8
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD56E28450
@@ -700,6 +912,10 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÏÌÌÏÎÌÎÍÌÏÌÌÏÌÌÍÎÍÏÏÏ</summary>
     public class PointerInitializePotentialDragBeginDragHandler_A809 : MonoBehaviour
     {
+        public UnityEngine.RectTransform ÏÍÏÌÏÏÎÎÍÎÎÌÌÎÌÌÌÏÌÎÏÌÏ; // 0x20
+        public UnityEngine.RectTransform ÏÎÍÌÏÎÌÏÍÏÌÎÌÎÍÎÎÍÎÌÍÎÏ; // 0x28
+        public UnityEngine.Vector2 ÎÌÌÌÎÌÎÎÍÎÌÏÍÎÍÏÎÏÎÎÎÍÎ; // 0x30
+
         // ── Methods ──
         public void OnInitializePotentialDrag(){} // RVA: 0x7FFD4EB3D9D0
         public void OnEndDrag(){} // RVA: 0x7FFD4E341310
@@ -720,6 +936,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÌÍÏÎÏÍÏÎÎÏÏÌÍÎÎÌÎÌÎÌÌÏ</summary>
     public class PointerPreCullHandlerImpl_2FDD : PointerPreCullHandler_2B6A
     {
+        public UnityEngine.Transform ÍÌÏÏÎÍÏÍÎÎÎÌÏÏÏÌÌÍÏÏÏÎÍ; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F35B7A0
     }
@@ -727,6 +945,21 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÎÏÎÎÍÍÍÌÏÏÍÍÎÏÎÌÎÌÏÍÌ</summary>
     public class PointerPreCullHandlerImpl_BFE5 : PointerPreCullHandler_2B6A
     {
+        public UnityEngine.Transform ÍÌÏÏÎÍÏÍÎÎÎÌÏÏÏÌÌÍÏÏÏÎÍ; // 0x48
+        public UnityEngine.GameObject ÏÌÏÍÎÌÎÍÏÍÎÏÌÍÏÌÌÎÍÏÏÎÏ; // 0x50
+        public UnityEngine.Transform ÎÌÍÎÍÏÍÍÍÏÌÎÎÍÏÎÎÌÍÎÎÍÎ; // 0x58
+        public UnityEngine.Transform ÍÍÎÌÌÍÎÍÏÌÍÎÌÍÎÏÎÏÎÎÎÌÎ; // 0x60
+        public UnityEngine.Camera ÎÌÌÍÏÍÍÍÏÍÌÍÎÌÌÍÎÍÎÎÌÏÍ; // 0x68
+        public ÎÌÏÍÎÎÏÌÍÏÍÏÍÍÎÏÍÌÍÏÎÎÏ ÌÌÌÌÍÏÍÎÏÏÍÎÌÏÌÏÏÎÌÏÎÍÏ; // 0x70
+        public UnityEngine.Vector3 ÌÏÍÎÏÎÍÏÍÌÏÌÎÍÎÌÌÌÏÎÍÏÏ; // 0x78
+        public Valve.VR.SteamVR_Render ÍÌÌÌÎÌÏÍÍÎÏÍÌÏÏÎÌÏÎÎÍÌÎ; // 0x88
+        public bool ÎÍÍÍÎÌÏÍÌÌÎÍÍÎÍÎÌÏÎÌÏÍÏ; // 0x90
+        public bool ÍÏÏÌÏÏÏÌÌÏÍÍÎÍÌÏÏÍÏÏÎÍÍ; // 0x91
+        public bool ÍÌÍÏÎÏÏÌÍÎÌÌÍÎÍÍÎÏÎÌÌÎÏ; // 0x92
+        public bool ÍÌÏÏÎÌÏÍÌÎÎÏÌÍÍÌÏÎÌÌÍÎÍ; // 0x93
+        public UnityEngine.Coroutine ÍÍÍÌÎÌÎÏÏÎÎÍÏÌÍÍÍÏÎÎÌÍÏ; // 0x98
+        public float ÎÍÍÍÎÎÍÎÌÍÍÌÏÍÍÏÍÍÎÏÍÌÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F35B7A0
         public void Initialize(){} // RVA: 0x7FFD4F35E610
@@ -766,7 +999,16 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÍÍÌÍÍÎÍÌÏÏÏÎÌÎÏÍÌÍÍÍÌ</summary>
     public class PointerPreCullHandler_2B6A : MonoBehaviour
     {
-        public object _2B6A;
+        public ÏÎÍÍÌÍÍÎÍÌÏÏÏÎÌÎÏÍÌÍÍÍÌ _2B6A;
+        public bool ÍÍÌÍÌÌÎÏÌÏÍÏÌÎÏÏÌÍÎÏÏÏÍ; // 0x8
+        public UnityEngine.Camera ÍÏÍÎÏÏÎÏÍÏÍÏÌÌÎÎÎÏÍÎÏÏÌ; // 0x20
+        public UnityEngine.Camera ÏÏÌÌÍÍÌÍÍÌÎÎÍÍÏÏÏÏÏÌÏÌÌ; // 0x28
+        public ÏÏÎÎÍÏÎÍÍÌÏÏÍÏÍÎÏÏÌÌÎÏÎ <ÍÏÍÏÏÌÍÍÎÌÌÎÌÍÎÍÍÌÎÏÍÎÌ>k__BackingField; // 0x30
+        public UnityEngine.Light[] ÎÏÌÏÌÏÌÎÏÌÌÍÏÍÏÌÌÌÍÎÌÍÏ; // 0x38
+        public float ÏÏÎÎÎÍÌÍÌÌÎÍÌÎÎÌÍÍÌÎÌÍÏ; // 0x40
+        public float ÍÍÍÏÍÎÏÌÍÎÌÏÍÏÏÍÌÎÏÌÎÍÍ;
+        public float ÏÏÏÌÏÌÎÌÌÏÎÎÏÍÍÌÌÍÎÌÏÏÍ;
+        public bool ÍÎÌÎÎÎÍÏÎÎÍÌÍÏÎÍÍÏÏÌÎÏÏ; // 0x44
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F3580A0
@@ -826,6 +1068,12 @@ namespace VRC.UI
     /// <summary>Originally: ÏÏÎÏÎÎÏÏÍÌÏÍÌÎÎÍÌÏÏÌÌÎÎ</summary>
     public class PointerUpdatePressedBackPressed_68C7 : UpdateComponent_B6B3
     {
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÌÍÍÏÍÍÎÎÍÌÍÍÍÎÎÏÍÍÏÎÎÌ; // 0x60
+        public UiInputField ÏÏÌÌÎÍÎÍÏÌÌÍÌÎÎÏÍÌÏÏÍÌÏ; // 0x68
+        public UiInputField ÌÏÍÌÏÍÎÌÏÌÌÍÏÎÏÎÎÍÎÎÎÏÌ; // 0x70
+        public bool ÌÌÌÍÍÏÏÍÎÌÍÌÎÎÍÎÏÌÍÌÌÎÏ;
+        public bool ÌÌÎÍÎÍÎÎÏÍÍÍÏÏÌÍÌÌÍÌÎÍÎ; // 0x1
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4F7544E0
         public void UpdatePressed(){} // RVA: 0x7FFD4F754530

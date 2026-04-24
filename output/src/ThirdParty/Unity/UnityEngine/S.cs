@@ -7,8 +7,6 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class ScriptableObject : Object
     {
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 formatter;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CE32A0
         public void CreateInstance(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -24,6 +22,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ScrollViewState : Object
     {
+        public UnityEngine.Rect position; // 0x10
+        public UnityEngine.Rect visibleRect; // 0x20
+        public UnityEngine.Rect viewRect; // 0x30
+        public UnityEngine.Vector2 scrollPosition; // 0x40
+        public bool apply; // 0x48
+        public bool isDuringTouchScroll; // 0x49
+        public UnityEngine.Vector2 touchScrollStartMousePosition; // 0x4C
+        public UnityEngine.Vector2 touchScrollStartPosition; // 0x54
+        public UnityEngine.Vector2 velocity; // 0x5C
+        public float previousTimeSinceStartup; // 0x64
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -36,6 +45,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SendMouseEvents : Object
     {
+        public bool s_MouseUsed;
+        public HitInfo[] m_LastHit; // 0x8
+        public HitInfo[] m_MouseDownHit; // 0x10
+        public HitInfo[] m_CurrentHit; // 0x18
+        public UnityEngine.Camera[] m_Cameras; // 0x20
+        public System.Func`1<System.Collections.Generic.KeyValuePair`2<int,UnityEngine.Vector2>> s_GetMouseState; // 0x28
+        public UnityEngine.Vector2 s_MousePosition; // 0x30
+        public bool s_MouseButtonPressedThisFrame; // 0x38
+        public bool s_MouseButtonIsPressed; // 0x39
+
         // ── Methods ──
         public void UpdateMouse(){} // RVA: 0x7FFD54D60C50
         public void SetMouseMoved(){} // RVA: 0x7FFD54D60F50
@@ -109,6 +128,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SkeletonBone : ValueType
     {
+        public string name; // 0x10
+        public string parentName; // 0x18
+        public UnityEngine.Vector3 position; // 0x20
+        public UnityEngine.Quaternion rotation; // 0x2C
+        public UnityEngine.Vector3 scale; // 0x3C
     }
 
     public class SkinnedMeshRenderer : Renderer
@@ -199,6 +223,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SliderState : Object
     {
+        public float dragStartPos; // 0x10
+        public float dragStartValue; // 0x14
+        public bool isDragging; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -344,17 +372,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SpriteRenderer : Renderer
     {
-        public object shouldSupportTiling;
-        public object sprite;
-        public object drawMode;
-        public object size;
-        public object adaptiveModeThreshold;
-        public object tileMode;
-        public object color;
-        public object maskInteraction;
-        public object flipX;
-        public object flipY;
-        public object spriteSortPoint;
+        public UnityEngine.Events.UnityEvent`1<UnityEngine.SpriteRenderer> shouldSupportTiling; // 0x18
 
         // ── Methods ──
         public void RegisterSpriteChangeCallback(){} // RVA: 0x7FFD54CF7460
@@ -396,6 +414,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class StackTraceUtility : Object
     {
+        public string projectFolder;
+
         // ── Methods ──
         public void SetProjectFolder(){} // RVA: 0x7FFD54CE3490
         public void ExtractStackTrace(){} // RVA: 0x7FFD54CE3650
@@ -419,6 +439,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SubsystemManager : Object
     {
+        public System.Action beforeReloadSubsystems;
+        public System.Action afterReloadSubsystems; // 0x8
+        public System.Collections.Generic.List`1<UnityEngine.IntegratedSubsystem> s_IntegratedSubsystems; // 0x10
+        public System.Collections.Generic.List`1<0x6663BC58> s_StandaloneSubsystems; // 0x18
+        public System.Collections.Generic.List`1<0x6663B9F0> s_DeprecatedSubsystems; // 0x20
+        public System.Action reloadSubsytemsStarted; // 0x28
+        public System.Action reloadSubsytemsCompleted; // 0x30
+
         // ── Methods ──
         public void ReloadSubsystemsStarted(){} // RVA: 0x7FFD54E11860
         public void ReloadSubsystemsCompleted(){} // RVA: 0x7FFD54E11950

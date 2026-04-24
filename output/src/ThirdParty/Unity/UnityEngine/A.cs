@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class AddComponentMenu : Attribute
     {
+        public string m_AddComponentMenu; // 0x10
+        public int m_Ordering; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FCAC310 | overloaded x2
     }
@@ -47,6 +50,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AndroidJavaObject : Object
     {
+        public bool enableDebugPrints;
+        public ÎÎÎÎÌÎÏÏÏÎÏÎÏÌÍÎÍÏÎÍÍÏÎ m_jobject; // 0x10
+        public ÎÎÎÎÌÎÏÏÏÎÏÎÏÌÍÎÍÏÎÍÍÏÎ m_jclass; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310 | overloaded x3
         public void Dispose(){} // RVA: 0x7FFD54C373A0 | overloaded x2
@@ -73,6 +80,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AndroidJavaProxy : Object
     {
+        public 0x66619290 javaInterface; // 0x10
+        public UIntPtr proxyObject; // 0x18
+        public ÎÎÎÎÌÎÏÏÏÎÏÎÏÌÍÎÍÏÎÍÍÏÎ s_JavaLangSystemClass;
+        public UIntPtr s_HashCodeMethodID; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C354B0 | overloaded x2
         public void Finalize(){} // RVA: 0x7FFD54C35510
@@ -190,11 +202,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimationCurve : Object
     {
-        public object keys;
-        public object Item;
-        public object length;
-        public object preWrapMode;
-        public object postWrapMode;
+        public UIntPtr keys; // 0x10
 
         // ── Methods ──
         public void Internal_Destroy(){} // RVA: 0x7FFD54C71CF0
@@ -234,8 +242,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimationEvent : Object
     {
-        public object stringParameter;
-        public object functionName;
+        public float stringParameter; // 0x10
+        public string functionName; // 0x18
+        public string m_StringParameter; // 0x20
+        public UnityEngine.Object m_ObjectReferenceParameter; // 0x28
+        public float m_FloatParameter; // 0x30
+        public int m_IntParameter; // 0x34
+        public int m_MessageOptions; // 0x38
+        public ÌÎÎÏÍÏÌÌÍÏÎÍÎÌÎÍÎÏÍ m_Source; // 0x3C
+        public UnityEngine.AnimationState m_StateSender; // 0x40
+        public UnityEngine.AnimatorStateInfo m_AnimatorStateInfo; // 0x48
+        public UnityEngine.AnimatorClipInfo m_AnimatorClipInfo; // 0x6C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C47E30
@@ -576,8 +593,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorClipInfo : ValueType
     {
-        public object clip;
-        public object weight;
+        public int clip; // 0x10
+        public float weight; // 0x14
 
         // ── Methods ──
         public void get_clip(){} // RVA: 0x7FFD54C48AA0
@@ -587,12 +604,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorControllerParameter : Object
     {
-        public object name;
-        public object nameHash;
-        public object type;
-        public object defaultFloat;
-        public object defaultInt;
-        public object defaultBool;
+        public string name; // 0x10
+        public lay nameHash; // 0x18
+        public float type; // 0x1C
+        public int defaultFloat; // 0x20
+        public bool defaultInt; // 0x24
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD510E4750
@@ -612,10 +628,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorOverrideController : RuntimeAnimatorController
     {
-        public object runtimeAnimatorController;
-        public object Item;
-        public object Item;
-        public object overridesCount;
+        public OnOverrideControllerDirtyCallback runtimeAnimatorController; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C4FBB0 | overloaded x2
@@ -639,14 +652,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorStateInfo : ValueType
     {
-        public object fullPathHash;
-        public object shortNameHash;
-        public object normalizedTime;
-        public object length;
-        public object speed;
-        public object speedMultiplier;
-        public object tagHash;
-        public object loop;
+        public int fullPathHash; // 0x10
+        public int shortNameHash; // 0x14
+        public int normalizedTime; // 0x18
+        public float length; // 0x1C
+        public float speed; // 0x20
+        public float speedMultiplier; // 0x24
+        public float tagHash; // 0x28
+        public int loop; // 0x2C
+        public int m_Loop; // 0x30
 
         // ── Methods ──
         public void IsName(){} // RVA: 0x7FFD54C48B50
@@ -663,13 +677,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorTransitionInfo : ValueType
     {
-        public object fullPathHash;
-        public object nameHash;
-        public object userNameHash;
-        public object durationUnit;
-        public object duration;
-        public object normalizedTime;
-        public object anyState;
+        public int fullPathHash; // 0x10
+        public int nameHash; // 0x14
+        public int userNameHash; // 0x18
+        public bool durationUnit; // 0x1C
+        public float duration; // 0x20
+        public float normalizedTime; // 0x24
+        public bool anyState; // 0x28
+        public int m_TransitionType; // 0x2C
 
         // ── Methods ──
         public void IsName(){} // RVA: 0x7FFD54C48C40
@@ -685,28 +700,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Application : Object
     {
-        public object isPlaying;
-        public object isFocused;
-        public object buildGUID;
-        public object runInBackground;
-        public object isBatchMode;
-        public object dataPath;
-        public object streamingAssetsPath;
-        public object persistentDataPath;
-        public object temporaryCachePath;
-        public object unityVersion;
-        public object version;
-        public object installMode;
-        public object productName;
-        public object companyName;
-        public object cloudProjectId;
-        public object targetFrameRate;
-        public object backgroundLoadingPriority;
-        public object platform;
-        public object isMobilePlatform;
-        public object systemLanguage;
-        public object internetReachability;
-        public object isEditor;
+        public LowMemoryCallback isPlaying;
+        public MemoryUsageChangedCallback isFocused; // 0x8
+        public LogCallback buildGUID; // 0x10
+        public LogCallback runInBackground; // 0x18
+        public System.Action`1<bool> isBatchMode; // 0x20
+        public System.Action`1<string> dataPath; // 0x28
+        public System.Func`1<bool> streamingAssetsPath; // 0x30
+        public System.Action persistentDataPath; // 0x38
+        public System.Action temporaryCachePath; // 0x40
+        public System.Threading.CancellationTokenSource unityVersion; // 0x48
 
         // ── Methods ──
         public void Quit(){} // RVA: 0x7FFD54C72EF0 | overloaded x2
@@ -799,6 +802,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AssemblyFullName : ValueType
     {
+        public string Name; // 0x10
+        public UnityEngine.AssemblyVersion Version; // 0x18
+        public string PublicKeyToken; // 0x20
+        public string Culture; // 0x28
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD54CDB8F0
         public void GetHashCode(){} // RVA: 0x7FFD54CDBAA0
@@ -811,6 +819,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AssemblyVersion : ValueType
     {
+        public ushort major; // 0x10
+        public ushort minor; // 0x12
+        public ushort build; // 0x14
+        public ushort revision; // 0x16
+
         // ── Methods ──
         public void op_Equality(){} // RVA: 0x7FFD54CDB410
         public void ToString(){} // RVA: 0x7FFD54CDB450
@@ -820,9 +833,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AssetBundle : Object
     {
-        public ArgCount.safeTypeForwarders isStreamedSceneAssetBundle; // 0x10
-        public bool _haveResult; // 0x28
-        public bool _useBuilder; // 0x29
+        public object isStreamedSceneAssetBundle;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C62B80
@@ -872,13 +883,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AssetFileNameExtensionAttribute : Attribute
     {
+        public string <preferredExtension>k__BackingField; // 0x10
+        public System.Collections.Generic.IEnumerable`1<string> <otherExtensions>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
     }
 
     public class AsyncInstantiateOperation : AsyncOperation
     {
-        public object Result;
+        public UnityEngine.Object[] Result; // 0x20
 
         // ── Methods ──
         public void get_Result(){} // RVA: 0x7FFD545DAEE0
@@ -892,10 +906,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AsyncInstantiateOperation`1 : CustomYieldInstruction
     {
-        public object keepWaiting;
-        public object isDone;
-        public object progress;
-        public object Result;
+        public UnityEngine.AsyncInstantiateOperation keepWaiting;
 
         // ── Methods ──
         public void get_keepWaiting(){} // RVA: 0x7FFD4E079D00
@@ -908,9 +919,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AsyncOperation : YieldInstruction
     {
-        public object isDone;
-        public object progress;
-        public object allowSceneActivation;
+        public UIntPtr isDone; // 0x10
+        public System.Action`1<UnityEngine.AsyncOperation> progress; // 0x18
 
         // ── Methods ──
         public void InternalDestroy(){} // RVA: 0x7FFD54CD9420
@@ -926,6 +936,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AttributeHelperEngine : Object
     {
+        public UnityEngine.DisallowMultipleComponent[] _disallowMultipleComponentArray;
+        public UnityEngine.ExecuteInEditMode[] _executeInEditModeArray; // 0x8
+        public UnityEngine.RequireComponent[] _requireComponentArray; // 0x10
+
         // ── Methods ──
         public void GetParentTypeDisallowingMultipleInclusion(){} // RVA: 0x7FFD54CD98F0
         public void GetRequiredComponents(){} // RVA: 0x7FFD54CD9AB0
@@ -975,15 +989,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AudioClip : Object
     {
-        public object length;
-        public object samples;
-        public object channels;
-        public object frequency;
-        public object loadType;
-        public object preloadAudioData;
-        public object ambisonic;
-        public object loadInBackground;
-        public object loadState;
+        public PCMReaderCallback length; // 0x18
+        public PCMSetPositionCallback samples; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C63ED0
@@ -1199,10 +1206,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AudioSettings : Object
     {
-        public object driverCapabilities;
-        public object speakerMode;
-        public object dspTime;
-        public object outputSampleRate;
+        public AudioConfigurationChangeHandler driverCapabilities;
+        public System.Action speakerMode; // 0x8
+        public System.Action dspTime; // 0x10
 
         // ── Methods ──
         public void GetSpeakerMode(){} // RVA: 0x7FFD54C63890

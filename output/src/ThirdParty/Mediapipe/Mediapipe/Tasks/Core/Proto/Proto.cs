@@ -7,14 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 {
     public class Acceleration : Object
     {
-        public object Parser;
-        public object Descriptor;
-        public object pb::Google.Protobuf.IMessage.Descriptor;
-        public object Xnnpack;
-        public object Gpu;
-        public object Tflite;
-        public object Nnapi;
-        public object DelegateCase;
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Core.Proto.Acceleration> Parser;
+        public 0x6658E800 Descriptor; // 0x10
+        public object pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public 0x66577CA8 Xnnpack; // 0x20
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53734220
@@ -45,15 +41,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class BaseOptions : Object
     {
-        public object Parser;
-        public object Descriptor;
-        public object pb::Google.Protobuf.IMessage.Descriptor;
-        public object ModelAsset;
-        public object UseStreamMode;
-        public object HasUseStreamMode;
-        public object Acceleration;
-        public object GpuOrigin;
-        public object HasGpuOrigin;
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Core.Proto.BaseOptions> Parser;
+        public 0x6658E800 Descriptor; // 0x10
+        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public Mediapipe.Tasks.Core.Proto.ExternalFile ModelAsset; // 0x20
+        public bool UseStreamMode; // 0x8
+        public bool HasUseStreamMode; // 0x28
+        public Mediapipe.Tasks.Core.Proto.Acceleration Acceleration; // 0x30
+        public 0x66573898 GpuOrigin; // 0xC
+        public 0x66573898 HasGpuOrigin; // 0x38
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53736530
@@ -86,15 +82,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class ExternalFile : Object
     {
-        public object Parser;
-        public object Descriptor;
-        public object pb::Google.Protobuf.IMessage.Descriptor;
-        public object FileContent;
-        public object HasFileContent;
-        public object FileName;
-        public object HasFileName;
-        public object FileDescriptorMeta;
-        public object FilePointerMeta;
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Core.Proto.ExternalFile> Parser;
+        public 0x6658E800 Descriptor; // 0x10
+        public 0x6658D5C8 pb::Google.Protobuf.IMessage.Descriptor; // 0x8
+        public 0x6658D5C8 FileContent; // 0x18
+        public string HasFileContent; // 0x10
+        public string FileName; // 0x20
+        public 0x66578018 HasFileName; // 0x28
+        public 0x665780C8 FileDescriptorMeta; // 0x30
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53738100

@@ -7,10 +7,13 @@ namespace VRC.Dynamics.ManagedTypes
 {
     public class VRCAimConstraintBase : VRCWorldUpConstraintBase
     {
-        public object PositionMode;
-        public object RotationMode;
-        public object ScaleMode;
-        public object UsesWorldUpTransform;
+        public bool PositionMode; // 0x3A0
+        public bool RotationMode; // 0x3A1
+        public bool ScaleMode; // 0x3A2
+        public UnityEngine.Vector3 UsesWorldUpTransform; // 0x3A4
+        public UnityEngine.Vector3 UpAxis; // 0x3B0
+        public 0x665BE428 WorldUp; // 0x3BC
+        public UnityEngine.Vector3 WorldUpVector; // 0x3C0
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180
@@ -30,10 +33,8 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCLookAtConstraintBase : VRCWorldUpConstraintBase
     {
-        public object PositionMode;
-        public object RotationMode;
-        public object ScaleMode;
-        public object UsesWorldUpTransform;
+        public float PositionMode; // 0x3A0
+        public bool RotationMode; // 0x3A4
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180
@@ -51,9 +52,14 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCParentConstraintBase : VRCConstraintBase
     {
-        public object PositionMode;
-        public object RotationMode;
-        public object ScaleMode;
+        public UnityEngine.Vector3 PositionMode; // 0x380
+        public bool RotationMode; // 0x38C
+        public bool ScaleMode; // 0x38D
+        public bool AffectsPositionZ; // 0x38E
+        public UnityEngine.Vector3 RotationAtRest; // 0x390
+        public bool AffectsRotationX; // 0x39C
+        public bool AffectsRotationY; // 0x39D
+        public bool AffectsRotationZ; // 0x39E
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E446CB0
@@ -69,9 +75,11 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCPositionConstraintBase : VRCConstraintBase
     {
-        public object PositionMode;
-        public object RotationMode;
-        public object ScaleMode;
+        public UnityEngine.Vector3 PositionMode; // 0x380
+        public UnityEngine.Vector3 RotationMode; // 0x38C
+        public bool ScaleMode; // 0x398
+        public bool AffectsPositionY; // 0x399
+        public bool AffectsPositionZ; // 0x39A
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E433AF0
@@ -86,9 +94,11 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCRotationConstraintBase : VRCConstraintBase
     {
-        public object PositionMode;
-        public object RotationMode;
-        public object ScaleMode;
+        public UnityEngine.Vector3 PositionMode; // 0x380
+        public UnityEngine.Vector3 RotationMode; // 0x38C
+        public bool ScaleMode; // 0x398
+        public bool AffectsRotationY; // 0x399
+        public bool AffectsRotationZ; // 0x39A
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180
@@ -103,9 +113,11 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCScaleConstraintBase : VRCConstraintBase
     {
-        public object PositionMode;
-        public object RotationMode;
-        public object ScaleMode;
+        public UnityEngine.Vector3 PositionMode; // 0x380
+        public UnityEngine.Vector3 RotationMode; // 0x38C
+        public bool ScaleMode; // 0x398
+        public bool AffectsScaleY; // 0x399
+        public bool AffectsScaleZ; // 0x39A
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180
@@ -120,9 +132,9 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCWorldUpConstraintBase : VRCConstraintBase
     {
-        public object PositionMode;
-        public object ScaleMode;
-        public object UsesWorldUpTransform;
+        public UnityEngine.Vector3 PositionMode; // 0x380
+        public UnityEngine.Vector3 ScaleMode; // 0x38C
+        public UnityEngine.Transform UsesWorldUpTransform; // 0x398
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180

@@ -7,9 +7,7 @@ namespace ThirdParty.Google.Google.Protobuf
 {
     public class Extension : Object
     {
-        public object TargetType;
-        public object FieldNumber;
-        public object IsRepeated;
+        public int TargetType; // 0x10
 
         // ── Methods ──
         public void get_TargetType(){} // RVA: 0x7FFD4E078E90
@@ -35,7 +33,7 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ExtensionSet`1 : Object
     {
-        public object ValuesByNumber;
+        public System.Collections.Generic.Dictionary`2<int,0x6658D9E8> ValuesByNumber;
 
         // ── Methods ──
         public void get_ValuesByNumber(){} // RVA: 0x7FFD4E078E90
@@ -48,6 +46,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ExtensionValue`1 : Object
     {
+        public T field;
+        public Google.Protobuf.FieldCodec`1<T> codec;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void CalculateSize(){} // RVA: 0x7FFD4E079960
@@ -62,9 +63,7 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class Extension`2 : Extension
     {
-        public object DefaultValue;
-        public object TargetType;
-        public object IsRepeated;
+        public Google.Protobuf.FieldCodec`1<T> DefaultValue;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0
@@ -86,19 +85,19 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FieldCodec`1 : Object
     {
-        public URA.t_CurrencyDecimalDigits<T1717700128> PackedRepeatedField;
-        public T1717700128 ValueWriter;
+        public System.Collections.Generic.EqualityComparer`1<T> PackedRepeatedField;
+        public T ValueWriter;
         public bool ValueSizeCalculator;
         public bool ValueReader;
-        public gBox.?<T1717700128> ValueMerger;
-        public n<T1717700128,int> FieldMerger;
-        public gBox.AngularDamping<T1717700128> FixedSize;
-        public arget<T1717700128> Tag;
-        public FollowWithWorldUp<T1717700128> EndTag;
+        public Google.Protobuf.ValueWriter`1<T> ValueMerger;
+        public System.Func`2<T,int> FieldMerger;
+        public Google.Protobuf.ValueReader`1<T> FixedSize;
+        public InputMerger<T> Tag;
+        public ValuesMerger<T> EndTag;
         public int DefaultValue;
         public uint <Tag>k__BackingField;
         public uint <EndTag>k__BackingField;
-        public T1717700128 <DefaultValue>k__BackingField;
+        public T <DefaultValue>k__BackingField;
         public int tagSize;
 
         // ── Methods ──
@@ -164,8 +163,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class MessageParser : Object
     {
-        public object DiscardUnknownFields;
-        public object Extensions;
+        public System.Func`1<Google.Protobuf.IMessage> DiscardUnknownFields; // 0x10
+        public bool Extensions; // 0x18
+        public 0x6658D8E0 <Extensions>k__BackingField; // 0x20
 
         // ── Methods ──
         public void get_DiscardUnknownFields(){} // RVA: 0x7FFD4E35C4E0
@@ -177,6 +177,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class MessageParser`1 : MessageParser
     {
+        public System.Func`1<T> factory;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E096BD0 | overloaded x2
         public void CreateTemplate(){} // RVA: 0x7FFD4E2ADC40
@@ -186,6 +188,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ObjectIntPair`1 : ValueType
     {
+        public int number;
+        public T obj;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x2
@@ -194,6 +199,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ParsingPrimitivesMessages : Object
     {
+        public byte[] ZeroLengthMessageStreamData;
+
         // ── Methods ──
         public void SkipLastField(){} // RVA: 0x7FFD535E7880
         public void SkipGroup(){} // RVA: 0x7FFD535E7A40
@@ -215,6 +222,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class RepeatedExtensionValue`1 : Object
     {
+        public Google.Protobuf.Collections.RepeatedField`1<T> field;
+        public Google.Protobuf.FieldCodec`1<T> codec;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void CalculateSize(){} // RVA: 0x7FFD4E079960
@@ -228,8 +238,7 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class RepeatedExtension`2 : Extension
     {
-        public object TargetType;
-        public object IsRepeated;
+        public Google.Protobuf.FieldCodec`1<T> TargetType;
 
         // ── Methods ──
         public void get_TargetType(){} // RVA: 0x7FFD4E078E90
@@ -239,6 +248,12 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class UnknownField : Object
     {
+        public System.Collections.Generic.List`1<ulong> varintList; // 0x10
+        public System.Collections.Generic.List`1<uint> fixed32List; // 0x18
+        public System.Collections.Generic.List`1<ulong> fixed64List; // 0x20
+        public System.Collections.Generic.List`1<0x6658D5C8> lengthDelimitedList; // 0x28
+        public System.Collections.Generic.List`1<0x6658E800> groupList; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Equals(){} // RVA: 0x7FFD535E8BD0

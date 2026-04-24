@@ -7,7 +7,9 @@ namespace ThirdParty.DotNet.System.Threading
 {
     public class AsyncLocalValueChangedArgs`1 : ValueType
     {
-        public object CurrentValue;
+        public Scope CurrentValue; // 0x10
+        public Scope <CurrentValue>k__BackingField; // 0x18
+        public bool <ThreadContextChanged>k__BackingField; // 0x20
 
         // ── Methods ──
         public void get_CurrentValue(){} // RVA: 0x7FFD4E2ADC40
@@ -16,7 +18,7 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class AsyncLocal`1 : Object
     {
-        public ileFullDirectoryInformation<sageKind.hreshold<T1717586592>> Value;
+        public System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<Scope>> Value; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -27,8 +29,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class CancellationToken : ValueType
     {
-        public sageKind._internal None; // 0x10
-        public ileFullDirectoryInformation<object> IsCancellationRequested;
+        public System.Threading.CancellationTokenSource None; // 0x10
+        public System.Action`1<object> IsCancellationRequested;
 
         // ── Methods ──
         public void get_None(){} // RVA: 0x7FFD4E919180
@@ -48,7 +50,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class CancellationTokenRegistration : ValueType
     {
-        public object Token;
+        public z Token; // 0x10
+        public System.Threading.SparselyPopulatedArrayAddInfo`1<z> m_registrationInfo; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD515148A0
@@ -62,12 +65,21 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class CancellationTokenSource : Object
     {
-        public object IsCancellationRequested;
-        public object IsCancellationCompleted;
-        public object IsDisposed;
-        public object ThreadIDExecutingCallbacks;
-        public object Token;
-        public object ExecutingCallback;
+        public System.Threading.CancellationTokenSource IsCancellationRequested;
+        public System.Threading.CancellationTokenSource IsCancellationCompleted; // 0x8
+        public int IsDisposed; // 0x10
+        public System.Threading.ManualResetEvent ThreadIDExecutingCallbacks; // 0x10
+        public System.Threading.SparselyPopulatedArray`1<z>[] Token; // 0x18
+        public int ExecutingCallback;
+        public int NotCanceledState;
+        public int NotifyingState;
+        public int NotifyingCompleteState;
+        public int _state; // 0x20
+        public int _threadIDExecutingCallbacks; // 0x24
+        public bool _disposed; // 0x28
+        public z _executingCallback; // 0x30
+        public System.Threading.Timer _timer; // 0x38
+        public System.Threading.TimerCallback s_timerCallback; // 0x18
 
         // ── Methods ──
         public void get_IsCancellationRequested(){} // RVA: 0x7FFD53ADCE20
@@ -111,6 +123,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class DeferredDisposableLifetime`1 : ValueType
     {
+        public int _count; // 0x10
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void AddRef(){} // RVA: 0x7FFD4E2ADC40
@@ -128,13 +142,15 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ExecutionContext : Object
     {
-        public object isNewCapture;
-        public object isFlowSuppressed;
-        public object IsPreAllocatedDefault;
-        public object LogicalCallContext;
-        public object IllogicalCallContext;
-        public object SynchronizationContext;
-        public object SynchronizationContextNoFlow;
+        public System.Threading.SynchronizationContext isNewCapture; // 0x10
+        public System.Threading.SynchronizationContext isFlowSuppressed; // 0x18
+        public System.Runtime.Remoting.Messaging.LogicalCallContext IsPreAllocatedDefault; // 0x20
+        public 0x66431508 LogicalCallContext; // 0x28
+        public 0x664269D8 IllogicalCallContext; // 0x30
+        public System.Collections.Generic.Dictionary`2<System.Threading.IAsyncLocal,object> SynchronizationContext; // 0x38
+        public System.Collections.Generic.List`1<System.Threading.IAsyncLocal> SynchronizationContextNoFlow; // 0x40
+        public System.Threading.ExecutionContext s_dummyDefaultEC;
+        public System.Threading.ExecutionContext Default; // 0x8
 
         // ── Methods ──
         public void get_isNewCapture(){} // RVA: 0x7FFD53AE6F00
@@ -210,7 +226,7 @@ namespace ThirdParty.DotNet.System.Threading
         public UIntPtr name_chars; // 0x28
         public int name_free; // 0x30
         public int name_length; // 0x34
-        public sageKind.meKind state; // 0x38
+        public 0x66425900 state; // 0x38
         public object abort_exc; // 0x40
         public int abort_state_handle; // 0x48
         public long thread_id; // 0x50
@@ -261,6 +277,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class Lock : Object
     {
+        public object _lock; // 0x10
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0x7FFD53AE2430
         public void Release(){} // RVA: 0x7FFD53AE2470
@@ -275,10 +293,20 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ManualResetEventSlim : Object
     {
-        public object WaitHandle;
-        public object IsSet;
-        public object SpinCount;
-        public object Waiters;
+        public int WaitHandle;
+        public object IsSet; // 0x10
+        public System.Threading.ManualResetEvent SpinCount; // 0x18
+        public int Waiters; // 0x20
+        public int SignalledState_BitMask;
+        public int SignalledState_ShiftCount;
+        public int Dispose_BitMask;
+        public int SpinCountState_BitMask;
+        public int SpinCountState_ShiftCount;
+        public int SpinCountState_MaxValue;
+        public int NumWaitersState_BitMask;
+        public int NumWaitersState_ShiftCount;
+        public int NumWaitersState_MaxValue;
+        public System.Action`1<object> s_cancellationTokenCallback;
 
         // ── Methods ──
         public void get_WaitHandle(){} // RVA: 0x7FFD53ADA730
@@ -305,6 +333,9 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class OSSpecificSynchronizationContext : SynchronizationContext
     {
+        public object m_OSSynchronizationContext; // 0x18
+        public System.Runtime.CompilerServices.ConditionalWeakTable`2<object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3A7E80
         public void Get(){} // RVA: 0x7FFD53AEAEF0
@@ -326,7 +357,9 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class PlatformHelper : Object
     {
-        public object ProcessorCount;
+        public int ProcessorCount;
+        public int s_lastProcessorCountRefreshTicks; // 0x4
+        public bool IsSingleProcessor; // 0x8
 
         // ── Methods ──
         public void get_ProcessorCount(){} // RVA: 0x7FFD53ADC750
@@ -335,6 +368,11 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class QueueUserWorkItemCallback : Object
     {
+        public System.Threading.WaitCallback callback; // 0x10
+        public System.Threading.ExecutionContext context; // 0x18
+        public object state; // 0x20
+        public System.Threading.ContextCallback ccb;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53AF1590
         public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x7FFD53AF1730
@@ -345,7 +383,17 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SemaphoreSlim : Object
     {
-        public object CurrentCount;
+        public int CurrentCount; // 0x10
+        public int m_maxCount; // 0x14
+        public int m_waitCount; // 0x18
+        public object m_lockObj; // 0x20
+        public System.Threading.ManualResetEvent m_waitHandle; // 0x28
+        public TaskNode m_asyncHead; // 0x30
+        public TaskNode m_asyncTail; // 0x38
+        public System.Threading.Tasks.Task`1<bool> s_trueTask;
+        public System.Threading.Tasks.Task`1<bool> s_falseTask; // 0x8
+        public int NO_MAXIMUM;
+        public System.Action`1<object> s_cancellationTokenCanceledEventHandler; // 0x10
 
         // ── Methods ──
         public void get_CurrentCount(){} // RVA: 0x7FFD53AE2530
@@ -374,8 +422,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SparselyPopulatedArrayAddInfo`1 : ValueType
     {
-        public object Source;
-        public object Index;
+        public System.Threading.SparselyPopulatedArrayFragment`1<z> Source; // 0x10
+        public int Index; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970
@@ -385,9 +433,10 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SparselyPopulatedArrayFragment`1 : Object
     {
-        public object Item;
-        public object Length;
-        public object Prev;
+        public z[] Item; // 0x10
+        public int Length; // 0x18
+        public System.Threading.SparselyPopulatedArrayFragment`1<z> Prev; // 0x20
+        public System.Threading.SparselyPopulatedArrayFragment`1<z> _prev; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x2
@@ -399,7 +448,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SparselyPopulatedArray`1 : Object
     {
-        public object Tail;
+        public System.Threading.SparselyPopulatedArrayFragment`1<T> Tail;
+        public System.Threading.SparselyPopulatedArrayFragment`1<T> _tail;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -409,8 +459,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SpinLock : ValueType
     {
-        public object IsHeldByCurrentThread;
-        public object IsThreadOwnerTrackingEnabled;
+        public int IsHeldByCurrentThread; // 0x10
+        public int IsThreadOwnerTrackingEnabled;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53AE5550
@@ -428,8 +478,8 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SpinWait : ValueType
     {
-        public object Count;
-        public object NextSpinWillYield;
+        public int Count;
+        public int NextSpinWillYield; // 0x10
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD4F840210
@@ -442,9 +492,12 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class SynchronizationContext : Object
     {
-        public object Current;
-        public object CurrentNoFlow;
-        public object CurrentExplicit;
+        public 0x66426B90 Current; // 0x10
+        public System.Type CurrentNoFlow;
+        public System.Type CurrentExplicit; // 0x8
+        public System.Type s_cachedPreparedType3; // 0x10
+        public System.Type s_cachedPreparedType4; // 0x18
+        public System.Type s_cachedPreparedType5; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -466,20 +519,20 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class Thread : CriticalFinalizerObject
     {
-        public D_MNd ExecutionContextBelongsToCurrentScope;
-        public ce Priority; // 0xFFFFFFFF
-        public 0.T_I8 CurrentUICulture; // 0xFFFFFFFF
-        public 0.T_I8 CurrentCulture; // 0xFFFFFFFF
-        public sageKind.GCCollectionMode<0.T_I8> Internal; // 0x8
-        public sageKind.GCCollectionMode<0.T_I8> CurrentContext; // 0x10
-        public sageKind.ffer CurrentThread; // 0x10
+        public System.LocalDataStoreMgr ExecutionContextBelongsToCurrentScope;
+        public 0x66422A40 Priority; // 0xFFFF
+        public System.Globalization.CultureInfo CurrentUICulture; // 0xFFFF
+        public System.Globalization.CultureInfo CurrentCulture; // 0xFFFF
+        public System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> Internal; // 0x8
+        public System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> CurrentContext; // 0x10
+        public System.Threading.InternalThread CurrentThread; // 0x10
         public object CurrentThreadId; // 0x18
         public object IsThreadPoolThread; // 0x20
-        public sageKind.nVideos IsThreadPoolThreadInternal; // 0xFFFFFFFF
-        public xedBufferExtensions IsAlive; // 0x28
-        public sageKind.d IsBackground; // 0x30
+        public System.Threading.Thread IsThreadPoolThreadInternal; // 0xFFFF
+        public System.MulticastDelegate IsAlive; // 0x28
+        public System.Threading.ExecutionContext IsBackground; // 0x30
         public bool Name; // 0x38
-        public Context.chronously ThreadState; // 0x40
+        public 0x6642E070 ThreadState; // 0x40
         public int ManagedThreadId; // 0x48
 
         // ── Methods ──
@@ -550,6 +603,11 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ThreadHelper : Object
     {
+        public System.Delegate _start; // 0x10
+        public object _startArg; // 0x18
+        public System.Threading.ExecutionContext _executionContext; // 0x20
+        public System.Threading.ContextCallback _ccb;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void SetExecutionContextHelper(){} // RVA: 0x7FFD4E36F0D0
@@ -560,8 +618,14 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ThreadLocal`1 : Object
     {
-        public object Value;
-        public object IsValueCreated;
+        public System.Func`1<T> Value;
+        public LinkedSlotVolatile<T>[] IsValueCreated; // 0xFFFF
+        public FinalizationHelper<T> ts_finalizationHelper; // 0xFFFF
+        public int m_idComplement;
+        public bool m_initialized;
+        public IdManager<T> s_idManager;
+        public LinkedSlot<T> m_linkedSlot;
+        public bool m_trackAllValues;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -582,7 +646,7 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ThreadPool : Object
     {
-        public ileFullDirectoryInformation<T1717587024> IsThreadPoolThread;
+        public object IsThreadPoolThread;
 
         // ── Methods ──
         public void GetMaxThreads(){} // RVA: 0x7FFD53AF19D0
@@ -610,12 +674,22 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ThreadPoolGlobals : Object
     {
+        public int processorCount;
+        public bool vmTpInitialized; // 0x4
+        public bool enableWorkerTracking; // 0x5
+        public System.Threading.ThreadPoolWorkQueue workQueue; // 0x8
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53AEE590
     }
 
     public class ThreadPoolWorkQueue : Object
     {
+        public QueueSegment queueHead; // 0x10
+        public QueueSegment queueTail; // 0x18
+        public SparseArray`1<WorkStealingQueue> allThreadQueues;
+        public int numOutstandingThreadRequests; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53AEE760
         public void EnsureCurrentThreadHasQueue(){} // RVA: 0x7FFD53AEE870
@@ -630,6 +704,11 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class ThreadPoolWorkQueueThreadLocals : Object
     {
+        public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals; // 0xFFFF
+        public System.Threading.ThreadPoolWorkQueue workQueue; // 0x10
+        public WorkStealingQueue workStealingQueue; // 0x18
+        public System.Random random; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53AF1030
         public void CleanUp(){} // RVA: 0x7FFD53AF1320
@@ -645,13 +724,23 @@ namespace ThirdParty.DotNet.System.Threading
 
     public class Timeout : Object
     {
+        public System.TimeSpan InfiniteTimeSpan;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53AD9AE0
     }
 
     public class Timer : MarshalByRefObject
     {
-        public object scheduler;
+        public System.Threading.TimerCallback scheduler; // 0x18
+        public object state; // 0x20
+        public long due_time_ms; // 0x28
+        public long period_ms; // 0x30
+        public long next_run; // 0x38
+        public bool disposed; // 0x40
+        public bool is_dead; // 0x41
+        public bool is_added; // 0x42
+        public long MaxValue;
 
         // ── Methods ──
         public void get_scheduler(){} // RVA: 0x7FFD53AF75C0
@@ -690,7 +779,7 @@ namespace ThirdParty.DotNet.System.Threading
         public int Handle;
         public int SafeWaitHandle;
         public UIntPtr waitHandle; // 0x18
-        public 01B30335EAF483F59E5EDCB41DF7C4807E1B.272491DFC646754F4A9D safeWaitHandle; // 0x20
+        public Microsoft.Win32.SafeHandles.SafeWaitHandle safeWaitHandle; // 0x20
         public bool hasThreadAffinity; // 0x28
         public int WAIT_OBJECT_0;
         public int WAIT_ABANDONED;

@@ -7,12 +7,12 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 {
     public class LogEntry`1 : ValueType
     {
-        public object LogLevel;
-        public object Category;
-        public object EventId;
-        public object State;
-        public object Exception;
-        public object Formatter;
+        public 0x66618CB8 LogLevel;
+        public string Category;
+        public Microsoft.Extensions.Logging.EventId EventId;
+        public T State;
+        public System.Exception Exception;
+        public System.Func`3<T,System.Exception,string> Formatter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -26,7 +26,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 
     public class NullLogger : Object
     {
-        public object Instance;
+        public Microsoft.Extensions.Logging.Abstractions.NullLogger Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD53765490
@@ -39,6 +39,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 
     public class NullLogger`1 : Object
     {
+        public Microsoft.Extensions.Logging.Abstractions.NullLogger`1<T> Instance;
+
         // ── Methods ──
         public void BeginScope(){} // RVA: 0x7FFD4E2ADC40
         public void Log(){} // RVA: 0x7FFD4E2ADC40

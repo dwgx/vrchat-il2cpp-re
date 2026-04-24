@@ -14,7 +14,7 @@ namespace ThirdParty.DotNet.System
     public class Nullable`1 : ValueType
     {
         public bool HasValue;
-        public T1717584320 Value;
+        public T Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -31,6 +31,17 @@ namespace ThirdParty.DotNet.System
 
     public class Number : Object
     {
+        public string[] s_posCurrencyFormats;
+        public string[] s_negCurrencyFormats; // 0x8
+        public string[] s_posPercentFormats; // 0x10
+        public string[] s_negPercentFormats; // 0x18
+        public string[] s_negNumberFormats; // 0x20
+        public int[] s_charToHexLookup; // 0x28
+        public ulong[] s_rgval64Power10; // 0x30
+        public sbyte[] s_rgexp64Power10; // 0x38
+        public ulong[] s_rgval64Power10By16; // 0x40
+        public short[] s_rgexp64Power10By16; // 0x48
+
         // ── Methods ──
         public void FormatDecimal(){} // RVA: 0x7FFD53A57070
         public void TryFormatDecimal(){} // RVA: 0x7FFD53A57250

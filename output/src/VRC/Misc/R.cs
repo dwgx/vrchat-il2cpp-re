@@ -8,7 +8,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÎÎÏÏÎÍÍÌÍÎÎÍÎÍÌÌÎÍÎÍ</summary>
     public class ReapObjectComponent_4385 : MonoBehaviour
     {
-        public object _4385;
+        public int _4385; // 0x20
+        public ÏÌÏÏÍÎÌÎÏÎÏÍÍÎÏÎÏÌÌÌÏÎÌ ÍÏÍÏÌÏÏÍÍÎÌÍÍÌÏÏÏÍÌÏÌÌÎ; // 0x28
+        public double ÌÍÍÍÍÍÌÏÌÍÌÏÌÏÎÎÍÍÏÏÏÎÌ; // 0x30
+        public System.Nullable`1<int> ÎÎÏÎÍÏÏÌÏÎÍÎÌÏÏÍÌÍÌÎÏÍÎ; // 0x38
 
         // ── Methods ──
         public void ReapObject(){} // RVA: 0x7FFD4F5FCA70

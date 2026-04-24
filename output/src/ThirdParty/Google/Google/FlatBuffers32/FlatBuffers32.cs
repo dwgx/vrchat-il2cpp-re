@@ -7,8 +7,9 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 {
     public class ByteBuffer : Object
     {
-        public object Position;
-        public object Length;
+        public 0x66559A60 Position; // 0x10
+        public int Length; // 0x18
+        public System.Collections.Generic.Dictionary`2<System.Type,int> genericSizes;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD551726F0 | overloaded x4
@@ -68,10 +69,18 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class FlatBufferBuilder : Object
     {
-        public object ForceDefaults;
-        public object Offset;
-        public object Waste;
-        public object DataBuffer;
+        public int ForceDefaults; // 0x10
+        public Google.FlatBuffers32.ByteBuffer Offset; // 0x18
+        public int Waste; // 0x20
+        public int[] DataBuffer; // 0x28
+        public int _vtableSize; // 0x30
+        public int _objectStart; // 0x34
+        public int[] _vtables; // 0x38
+        public int _numVtables; // 0x40
+        public int _vectorNumElems; // 0x44
+        public int _waste; // 0x48
+        public System.Collections.Generic.Dictionary`2<string,0x66559ED8> _sharedStringMap; // 0x50
+        public bool <ForceDefaults>k__BackingField; // 0x58
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55174EC0 | overloaded x2
@@ -129,6 +138,9 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class FlatBufferConstants : Object
     {
+        public int FileIdentifierLength;
+        public int SizePrefixLength;
+
         // ── Methods ──
         public void FLATBUFFERS_24_3_7(){} // RVA: 0x7FFD4E341310
     }
@@ -144,16 +156,20 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Offset`1 : ValueType
     {
+        public int Value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
     }
 
     public class Options : Object
     {
-        public object maxDepth;
-        public object maxTables;
-        public object stringEndCheck;
-        public object alignmentCheck;
+        public int maxDepth;
+        public int maxTables;
+        public int stringEndCheck; // 0x10
+        public int alignmentCheck; // 0x14
+        public bool string_end_check; // 0x18
+        public bool alignment_check; // 0x19
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5516F7F0 | overloaded x2
@@ -169,8 +185,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Struct : ValueType
     {
-        public object bb_pos;
-        public object bb;
+        public int bb_pos; // 0x10
+        public Google.FlatBuffers32.ByteBuffer bb; // 0x18
 
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x7FFD4F840210
@@ -182,9 +198,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Table : ValueType
     {
-        public object bb_pos;
-        public object bb;
-        public object ByteBuffer;
+        public int bb_pos; // 0x10
+        public Google.FlatBuffers32.ByteBuffer bb; // 0x18
 
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x7FFD4F840210
@@ -207,6 +222,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class VectorOffset : ValueType
     {
+        public int Value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E78D8B0
     }

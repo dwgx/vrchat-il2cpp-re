@@ -7,15 +7,7 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 {
     public class Collection`1 : Object
     {
-        public object Count;
-        public object Items;
-        public object Item;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.IList.Item;
-        public object System.Collections.IList.IsReadOnly;
-        public object System.Collections.IList.IsFixedSize;
+        public System.Collections.Generic.IList`1<T> Count; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -55,9 +47,10 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 
     public class KeyedCollection`2 : Collection`1
     {
-        public object Items;
-        public object Item;
-        public object Dictionary;
+        public System.Collections.Generic.IEqualityComparer`1<U> Items;
+        public System.Collections.Generic.Dictionary`2<U,T> Item;
+        public int Dictionary;
+        public int threshold;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970 | overloaded x3
@@ -78,6 +71,8 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 
     public class ReadOnlyCollection`1 : Object
     {
+        public System.Collections.Generic.IList`1<IJobSortable> list; // 0x10
+        public object _syncRoot; // 0x18
     }
 
     public class ReadOnlyDictionaryHelpers : Object
@@ -88,23 +83,10 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 
     public class ReadOnlyDictionary`2 : Object
     {
-        public object Keys;
+        public System.Collections.Generic.IDictionary`2<U,T> Keys;
         public object Values;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Values;
-        public object Item;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Item;
-        public object Count;
-        public object System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
-        public object System.Collections.IDictionary.IsFixedSize;
-        public object System.Collections.IDictionary.IsReadOnly;
-        public object System.Collections.IDictionary.Keys;
-        public object System.Collections.IDictionary.Values;
-        public object System.Collections.IDictionary.Item;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values;
+        public KeyCollection<U,T> System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
+        public ValueCollection<U,T> System.Collections.Generic.IDictionary<TKey,TValue>.Values;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

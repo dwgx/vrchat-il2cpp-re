@@ -13,18 +13,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class ValueAnimation`1 : Object
     {
-        public object durationMs;
-        public object easingCurve;
-        public object isRunning;
-        public object onAnimationCompleted;
-        public object autoRecycle;
-        public object recycled;
-        public object owner;
-        public object valueUpdated;
-        public object initialValue;
-        public object interpolator;
-        public object from;
-        public object to;
+        public long durationMs;
+        public int easingCurve;
+        public System.Func`2<float,float> isRunning;
+        public bool onAnimationCompleted;
+        public System.Action autoRecycle;
+        public bool recycled;
+        public bool owner;
+        public UnityEngine.UIElements.ObjectPool`1<UnityEngine.UIElements.Experimental.ValueAnimation`1<T>> valueUpdated;
+        public UnityEngine.UIElements.VisualElement initialValue;
+        public System.Action`2<UnityEngine.UIElements.VisualElement,T> interpolator;
+        public System.Func`2<UnityEngine.UIElements.VisualElement,T> from;
+        public System.Func`4<T,T,float,T> to;
+        public T _from;
+        public bool fromValueSet;
+        public T <to>k__BackingField;
 
         // ── Methods ──
         public void get_durationMs(){} // RVA: 0x7FFD4E079960

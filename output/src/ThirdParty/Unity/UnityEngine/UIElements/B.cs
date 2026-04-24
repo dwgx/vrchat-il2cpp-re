@@ -7,10 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Background : ValueType
     {
-        public object texture;
-        public object sprite;
-        public object renderTexture;
-        public object vectorImage;
+        public UnityEngine.Texture2D texture; // 0x10
+        public UnityEngine.Sprite sprite; // 0x18
+        public UnityEngine.RenderTexture renderTexture; // 0x20
+        public UnityEngine.UIElements.VectorImage vectorImage; // 0x28
 
         // ── Methods ──
         public void get_texture(){} // RVA: 0x7FFD505F9A30
@@ -35,6 +35,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BackgroundPosition : ValueType
     {
+        public 0x66482B28 keyword; // 0x10
+        public UnityEngine.UIElements.Length offset; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD515116B0 | overloaded x2
         public void Initial(){} // RVA: 0x7FFD54E9CD40
@@ -47,6 +50,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BackgroundRepeat : ValueType
     {
+        public 0x66482B80 x; // 0x10
+        public 0x66482B80 y; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E7F6D50
         public void Initial(){} // RVA: 0x7FFD54E9D650
@@ -59,9 +65,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BackgroundSize : ValueType
     {
-        public object sizeType;
-        public object x;
-        public object y;
+        public 0x66482BD8 sizeType; // 0x10
+        public UnityEngine.UIElements.Length x; // 0x14
+        public UnityEngine.UIElements.Length y; // 0x1C
 
         // ── Methods ──
         public void get_sizeType(){} // RVA: 0x7FFD543B3F90
@@ -81,6 +87,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
+        public System.Collections.Generic.List`1<V> m_Fields;
+        public bool m_ShouldUpdateDisplay;
+        public bool m_ForceUpdateDisplay;
+        public int m_PropertyIndex;
+        public string ussClassName;
+        public string labelUssClassName;
+        public string inputUssClassName;
+        public string spacerUssClassName;
+        public string multilineVariantUssClassName;
+        public string fieldGroupUssClassName;
+        public string fieldUssClassName;
+        public string firstFieldVariantUssClassName;
+        public string twoLinesVariantUssClassName;
+
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x7FFD4E078E90
         public void DescribeFields(){} // RVA: 0x7FFD4E078E90
@@ -101,6 +121,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public 0x664852B0 m_Value; // 0x80
+
         // ── Methods ──
         public void Init(){}
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -108,15 +130,35 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
-        public object visualInput;
-        public object rawValue;
-        public object value;
-        public object labelElement;
-        public object label;
-        public object showMixedValue;
-        public object mixedValueLabel;
-        public object UnityEngine.UIElements.IEditableElement.editingStarted;
-        public object UnityEngine.UIElements.IEditableElement.editingEnded;
+        public string visualInput;
+        public string rawValue; // 0x8
+        public string value; // 0x10
+        public string labelElement; // 0x18
+        public string label; // 0x20
+        public string showMixedValue; // 0x28
+        public string mixedValueLabel; // 0x30
+        public string UnityEngine.UIElements.IEditableElement.editingStarted; // 0x38
+        public string UnityEngine.UIElements.IEditableElement.editingEnded; // 0x40
+        public UnityEngine.PropertyName serializedPropertyCopyName; // 0x48
+        public UnityEngine.UIElements.CustomStyleProperty`1<float> s_LabelWidthRatioProperty; // 0x50
+        public UnityEngine.UIElements.CustomStyleProperty`1<float> s_LabelExtraPaddingProperty; // 0x58
+        public UnityEngine.UIElements.CustomStyleProperty`1<float> s_LabelBaseMinWidthProperty; // 0x60
+        public UnityEngine.UIElements.CustomStyleProperty`1<float> s_LabelExtraContextWidthProperty; // 0x68
+        public float m_LabelWidthRatio; // 0x3D8
+        public float m_LabelExtraPadding; // 0x3DC
+        public float m_LabelBaseMinWidth; // 0x3E0
+        public float m_LabelExtraContextWidth; // 0x3E4
+        public UnityEngine.UIElements.VisualElement m_VisualInput; // 0x3E8
+        public System.Enum m_Value; // 0x3F0
+        public System.Func`2<System.Enum,System.Enum> onValidateValue; // 0x3F8
+        public 0x66477BD8 <labelElement>k__BackingField; // 0x400
+        public bool m_ShowMixedValue; // 0x408
+        public 0x66477BD8 m_MixedValueLabel; // 0x410
+        public bool m_SkipValidation; // 0x418
+        public UnityEngine.UIElements.VisualElement m_CachedContextWidthElement; // 0x420
+        public UnityEngine.UIElements.VisualElement m_CachedInspectorElement; // 0x428
+        public System.Action <UnityEngine.UIElements.IEditableElement.editingStarted>k__BackingField; // 0x430
+        public System.Action <UnityEngine.UIElements.IEditableElement.editingEnded>k__BackingField; // 0x438
 
         // ── Methods ──
         public void get_visualInput(){} // RVA: 0x7FFD530A2120
@@ -156,8 +198,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BasePopupField`2 : BaseField`1
     {
-        public object textElement;
-        public object choices;
+        public System.Collections.Generic.List`1<T> textElement;
+        public UnityEngine.UIElements.TextElement choices;
+        public UnityEngine.UIElements.VisualElement m_ArrowElement;
+        public System.Func`2<T,string> m_FormatSelectedValueCallback;
+        public System.Func`2<T,string> m_FormatListItemCallback;
+        public System.Func`1<0x66476E18> createMenuCallback;
+        public string ussClassName;
+        public string textUssClassName;
+        public string arrowUssClassName;
+        public string labelUssClassName;
+        public string inputUssClassName;
 
         // ── Methods ──
         public void get_textElement(){} // RVA: 0x7FFD531BC460
@@ -179,20 +230,31 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseSlider`1 : BaseField`1
     {
-        public object dragContainer;
-        public object dragElement;
-        public object trackElement;
-        public object dragBorderElement;
-        public object inputTextField;
-        public object lowValue;
-        public object highValue;
-        public object pageSize;
-        public object showInputField;
-        public object clamped;
-        public object clampedDragger;
-        public object value;
-        public object direction;
-        public object inverted;
+        public UnityEngine.UIElements.VisualElement dragContainer;
+        public UnityEngine.UIElements.VisualElement dragElement;
+        public UnityEngine.UIElements.VisualElement trackElement;
+        public UnityEngine.UIElements.VisualElement dragBorderElement;
+        public ` inputTextField;
+        public bool lowValue;
+        public T highValue;
+        public T pageSize;
+        public float showInputField;
+        public bool clamped;
+        public bool clampedDragger;
+        public UnityEngine.UIElements.ClampedDragger`1<T> value;
+        public UnityEngine.Rect direction;
+        public 0x664753F8 inverted;
+        public bool m_Inverted;
+        public string ussClassName;
+        public string labelUssClassName;
+        public string inputUssClassName;
+        public string horizontalVariantUssClassName;
+        public string verticalVariantUssClassName;
+        public string dragContainerUssClassName;
+        public string trackerUssClassName;
+        public string draggerUssClassName;
+        public string draggerBorderUssClassName;
+        public string textFieldClassName;
 
         // ── Methods ──
         public void get_dragContainer(){} // RVA: 0x7FFD4E078E90
@@ -264,8 +326,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseTreeViewController : CollectionViewController
     {
-        public object baseTreeView;
-        public object itemsSource;
+        public System.Collections.Generic.Dictionary`2<int,0x66479B78> baseTreeView; // 0x30
+        public System.Collections.Generic.List`1<int> itemsSource; // 0x38
+        public System.Collections.Generic.List`1<0x66479BD0> m_ItemWrappers; // 0x40
+        public System.Collections.Generic.HashSet`1<int> m_TreeItemIdsWithItemWrappers; // 0x48
+        public System.Collections.Generic.List`1<0x66479BD0> m_WrapperInsertionList; // 0x50
+        public Unity.Profiling.ProfilerMarker K_ExpandItemByIndex;
+        public Unity.Profiling.ProfilerMarker k_CreateWrappers; // 0x8
 
         // ── Methods ──
         public void get_baseTreeView(){} // RVA: 0x7FFD54EA6040
@@ -309,10 +376,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
-        public object uxmlName;
-        public object uxmlNamespace;
-        public object uxmlQualifiedName;
-        public object uxmlType;
+        public UxmlTraits uxmlName; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -325,7 +389,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlTraits : Object
     {
-        public object canHaveAnyAttribute;
+        public bool canHaveAnyAttribute; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E64C870
@@ -334,24 +398,51 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseVerticalCollectionView : BindableElement
     {
-        public object itemsSource;
-        public object contentContainer;
-        public object selectionType;
-        public object selectedIndex;
-        public object selectedIndices;
-        public object selectedIds;
-        public object activeItems;
-        public object scrollView;
-        public object dragger;
-        public object virtualizationController;
-        public object viewController;
-        public object showBorder;
-        public object reorderable;
-        public object horizontalScrollingEnabled;
-        public object showAlternatingRowBackgrounds;
-        public object virtualizationMethod;
-        public object fixedItemHeight;
-        public object lastHeight;
+        public Unity.Profiling.ProfilerMarker itemsSource;
+        public Unity.Profiling.ProfilerMarker contentContainer; // 0x8
+        public System.Action`1<System.Collections.Generic.IEnumerable`1<object>> selectionType; // 0x3D8
+        public System.Action`1<System.Collections.Generic.IEnumerable`1<object>> selectedIndex; // 0x3E0
+        public System.Action`1<System.Collections.Generic.IEnumerable`1<int>> selectedIndices; // 0x3E8
+        public System.Action`2<int,int> selectedIds; // 0x3F0
+        public System.Action activeItems; // 0x3F8
+        public System.Action scrollView; // 0x400
+        public System.Func`2<0x6647AA40,bool> dragger; // 0x408
+        public System.Func`2<0x6647AA98,UnityEngine.UIElements.StartDragArgs> virtualizationController; // 0x410
+        public System.Func`2<0x6647AAF0,0x6647A9E8> viewController; // 0x418
+        public System.Func`2<0x6647AAF0,0x6647A9E8> showBorder; // 0x420
+        public g/s reorderable; // 0x428
+        public System.Collections.Generic.List`1<0x66474D18> horizontalScrollingEnabled; // 0x10
+        public bool showAlternatingRowBackgrounds; // 0x42C
+        public 0x66475608 virtualizationMethod; // 0x430
+        public int fixedItemHeight; // 0x18
+        public float lastHeight; // 0x434
+        public bool m_ItemHeightIsInline; // 0x438
+        public 0x66475660 m_VirtualizationMethod; // 0x43C
+        public 0x664794F0 m_ScrollView; // 0x440
+        public UnityEngine.UIElements.CollectionViewController m_ViewController; // 0x448
+        public UnityEngine.UIElements.CollectionVirtualizationController m_VirtualizationController; // 0x450
+        public 0x6647F950 m_NavigationManipulator; // 0x458
+        public 0x664756B8 serializedVirtualizationData; // 0x460
+        public System.Collections.Generic.List`1<int> m_SelectedIds; // 0x468
+        public System.Collections.Generic.List`1<int> m_SelectedIndices; // 0x470
+        public System.Collections.Generic.List`1<object> m_SelectedItems; // 0x478
+        public float m_LastHeight; // 0x480
+        public bool m_IsRangeSelectionDirectionUp; // 0x484
+        public 0x6647AC50 m_Dragger; // 0x488
+        public UnityEngine.UIElements.CustomStyleProperty`1<int> s_ItemHeightProperty; // 0x20
+        public System.Action`2<int,int> m_ItemIndexChangedCallback; // 0x490
+        public System.Action m_ItemsSourceChangedCallback; // 0x498
+        public string ussClassName; // 0x28
+        public string borderUssClassName; // 0x30
+        public string itemUssClassName; // 0x38
+        public string dragHoverBarUssClassName; // 0x40
+        public string dragHoverMarkerUssClassName; // 0x48
+        public string itemDragHoverUssClassName; // 0x50
+        public string itemSelectedVariantUssClassName; // 0x58
+        public string itemAlternativeBackgroundUssClassName; // 0x60
+        public string listScrollViewUssClassName; // 0x68
+        public string backgroundFillUssClassName; // 0x70
+        public UnityEngine.Vector3 m_TouchDownPosition; // 0x4A0
 
         // ── Methods ──
         public void HasCanStartDrag(){} // RVA: 0x7FFD54EB6850
@@ -444,34 +535,25 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseVisualElementPanel : Object
     {
-        public object IMGUIEventInterests;
-        public object ownerObject;
-        public object saveViewData;
-        public object getViewDataDictionary;
-        public object IMGUIContainersCount;
-        public object focusController;
-        public object rootIMGUIContainer;
-        public object uiElementsBridge;
-        public object scale;
-        public object pixelsPerPoint;
-        public object scaledPixelsPerPoint;
-        public object referenceSpritePixelsPerUnit;
-        public object clearSettings;
-        public object duringLayoutPhase;
-        public object version;
-        public object hierarchyVersion;
-        public object repaintData;
-        public object cursorManager;
-        public object contextualMenuManager;
-        public object visualTree;
-        public object dispatcher;
-        public object scheduler;
-        public object styleAnimationSystem;
-        public object contextType;
-        public object disposed;
-        public object standardShader;
-        public object standardWorldSpaceShader;
-        public object atlas;
+        public System.Action`1<UnityEngine.UIElements.BaseVisualElementPanel> IMGUIEventInterests; // 0x10
+        public 0x66484548 ownerObject; // 0x18
+        public float saveViewData; // 0x20
+        public 0x664739D8 getViewDataDictionary; // 0x28
+        public float IMGUIContainersCount; // 0x30
+        public float focusController; // 0x34
+        public UnityEngine.UIElements.PanelClearSettings rootIMGUIContainer; // 0x38
+        public bool uiElementsBridge; // 0x4C
+        public 0x66480088 scale; // 0x50
+        public 0x6647A258 pixelsPerPoint; // 0x58
+        public 0x66474F80 scaledPixelsPerPoint; // 0x60
+        public bool referenceSpritePixelsPerUnit; // 0x68
+        public 0x6647BA68 clearSettings; // 0x70
+        public System.Action duringLayoutPhase; // 0x78
+        public System.Action version; // 0x80
+        public System.Action hierarchyVersion; // 0x88
+        public System.Action`1<UnityEngine.Material> repaintData; // 0x90
+        public 0x664800E0 cursorManager; // 0x98
+        public System.Action`1<UnityEngine.UIElements.IPanel> contextualMenuManager; // 0xA0
 
         // ── Methods ──
         public void get_IMGUIEventInterests(){}
@@ -557,8 +639,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindableElement : VisualElement
     {
-        public object binding;
-        public object bindingPath;
+        public 0x664758C8 binding; // 0x3C8
+        public string bindingPath; // 0x3D0
 
         // ── Methods ──
         public void get_binding(){} // RVA: 0x7FFD4EDE0A20

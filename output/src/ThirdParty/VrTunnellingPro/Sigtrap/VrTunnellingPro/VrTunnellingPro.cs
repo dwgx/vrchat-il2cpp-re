@@ -7,44 +7,44 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
 {
     public class TunnellingPreset : TunnellingPresetBase
     {
-        public object effectOverlay;
-        public object overrideEffectOverlay;
-        public object backgroundMode;
-        public object overrideBackgroundMode;
-        public object cageDownsample;
-        public object overrideCageDownsample;
-        public object cageAntiAliasing;
-        public object overrideCageAntiAliasing;
-        public object cageUpdateEveryFrame;
-        public object overrideCageUpdateEveryFrame;
-        public object cageFogDensity;
-        public object overrideCageFogDensity;
-        public object cageFogPower;
-        public object overrideCageFogPower;
-        public object cageFogBlend;
-        public object overrideCageFogBlend;
-        public object maskMode;
-        public object overrideMaskMode;
-        public object blurDownsample;
-        public object overrideBlurDownsample;
-        public object blurDistance;
-        public object overrideBlurDistance;
-        public object blurPasses;
-        public object overrideBlurPasses;
-        public object blurSamples;
-        public object overrideBlurSamples;
-        public object counterVelocityMode;
-        public object overrideCounterVelocityMode;
-        public object counterVelocityResetDistance;
-        public object overrideCounterVelocityResetDistance;
-        public object counterVelocityResetTime;
-        public object overrideCounterVelocityResetTime;
-        public object counterVelocityStrength;
-        public object overrideCounterVelocityStrength;
-        public object counterVelocityPerAxis;
-        public object overrideCounterVelocityPerAxis;
-        public object irisZRejection;
-        public object overrideIrisZRejection;
+        public float effectOverlay; // 0xB0
+        public bool overrideEffectOverlay; // 0xB4
+        public ÎÌ backgroundMode; // 0xB8
+        public bool overrideBackgroundMode; // 0xBC
+        public int cageDownsample; // 0xC0
+        public bool overrideCageDownsample; // 0xC4
+        public 0x66614380 cageAntiAliasing; // 0xC8
+        public bool overrideCageAntiAliasing; // 0xCC
+        public bool cageUpdateEveryFrame; // 0xCD
+        public bool overrideCageUpdateEveryFrame; // 0xCE
+        public float cageFogDensity; // 0xD0
+        public bool overrideCageFogDensity; // 0xD4
+        public float cageFogPower; // 0xD8
+        public bool overrideCageFogPower; // 0xDC
+        public float cageFogBlend; // 0xE0
+        public bool overrideCageFogBlend; // 0xE4
+        public ÍÏÎ maskMode; // 0xE8
+        public bool overrideMaskMode; // 0xEC
+        public int blurDownsample; // 0xF0
+        public bool overrideBlurDownsample; // 0xF4
+        public float blurDistance; // 0xF8
+        public bool overrideBlurDistance; // 0xFC
+        public int blurPasses; // 0x100
+        public bool overrideBlurPasses; // 0x104
+        public 0x66614590 blurSamples; // 0x108
+        public bool overrideBlurSamples; // 0x10C
+        public 0x666145E8 counterVelocityMode; // 0x110
+        public bool overrideCounterVelocityMode; // 0x114
+        public float counterVelocityResetDistance; // 0x118
+        public bool overrideCounterVelocityResetDistance; // 0x11C
+        public float counterVelocityResetTime; // 0x120
+        public bool overrideCounterVelocityResetTime; // 0x124
+        public float counterVelocityStrength; // 0x128
+        public bool overrideCounterVelocityStrength; // 0x12C
+        public UnityEngine.Vector3 counterVelocityPerAxis; // 0x130
+        public bool overrideCounterVelocityPerAxis; // 0x13C
+        public bool irisZRejection; // 0x13D
+        public bool overrideIrisZRejection; // 0x13E
 
         // ── Methods ──
         public void get_overrideCageDownsample(){} // RVA: 0x7FFD54026690
@@ -96,41 +96,41 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
 
     public class TunnellingPresetBase : ScriptableObject
     {
-        public object overrideAll;
-        public object effectCoverage;
-        public object overrideEffectCoverage;
-        public object effectColor;
-        public object overrideEffectColor;
-        public object effectFeather;
-        public object overrideEffectFeather;
-        public object applyColorToBackground;
-        public object overrideApplyColorToBackground;
-        public object skybox;
-        public object overrideSkybox;
-        public object angularVelocity;
-        public object overrideAngularVelocity;
-        public object acceleration;
-        public object overrideAcceleration;
-        public object velocity;
-        public object overrideVelocity;
-        public object useCounterMotion;
-        public object overrideUseCounterMotion;
-        public object counterRotationStrength;
-        public object overrideCounterRotationStrength;
-        public object counterRotationPerAxis;
-        public object overrideCounterRotationPerAxis;
-        public object useArtificialTilt;
-        public object overrideUseArtificialTilt;
-        public object framerateDivision;
-        public object overrideFramerateDivision;
-        public object divideTranslation;
-        public object overrideDivideTranslation;
-        public object divideRotation;
-        public object overrideDividerotation;
-        public object forceVignetteMode;
-        public object overrideForceVignetteMode;
-        public object forceVignetteValue;
-        public object overrideForceVignetteValue;
+        public bool overrideAll; // 0x18
+        public float effectCoverage; // 0x1C
+        public bool overrideEffectCoverage; // 0x20
+        public UnityEngine.Color effectColor; // 0x24
+        public bool overrideEffectColor; // 0x34
+        public float effectFeather; // 0x38
+        public bool overrideEffectFeather; // 0x3C
+        public bool applyColorToBackground; // 0x3D
+        public bool overrideApplyColorToBackground; // 0x3E
+        public UnityEngine.Cubemap skybox; // 0x40
+        public bool overrideSkybox; // 0x48
+        public 0x66614850 angularVelocity; // 0x50
+        public bool overrideAngularVelocity; // 0x58
+        public 0x66614850 acceleration; // 0x60
+        public bool overrideAcceleration; // 0x68
+        public 0x66614850 velocity; // 0x70
+        public bool overrideVelocity; // 0x78
+        public bool useCounterMotion; // 0x79
+        public bool overrideUseCounterMotion; // 0x7A
+        public float counterRotationStrength; // 0x7C
+        public bool overrideCounterRotationStrength; // 0x80
+        public UnityEngine.Vector3 counterRotationPerAxis; // 0x84
+        public bool overrideCounterRotationPerAxis; // 0x90
+        public bool useArtificialTilt; // 0x91
+        public bool overrideUseArtificialTilt; // 0x92
+        public int framerateDivision; // 0x94
+        public bool overrideFramerateDivision; // 0x98
+        public bool divideTranslation; // 0x99
+        public bool overrideDivideTranslation; // 0x9A
+        public bool divideRotation; // 0x9B
+        public bool overrideDividerotation; // 0x9C
+        public ÎÍÎÍÎÌÌÎÏÏÌÏÏÌÍÏÍ forceVignetteMode; // 0xA0
+        public bool overrideForceVignetteMode; // 0xA4
+        public float forceVignetteValue; // 0xA8
+        public bool overrideForceVignetteValue; // 0xAC
 
         // ── Methods ──
         public void get_overrideAll(){} // RVA: 0x7FFD4E35C4E0
@@ -173,18 +173,18 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
 
     public class TunnellingPresetMobile : TunnellingPresetBase
     {
-        public object drawSkybox;
-        public object overrideDrawSkybox;
-        public object drawBeforeTransparent;
-        public object overrideDrawBeforeTransparent;
-        public object useMask;
-        public object overrideUseMask;
-        public object stencilReference;
-        public object overrideStencilReference;
-        public object stencilMask;
-        public object overrideStencilMask;
-        public object stencilBias;
-        public object overrideStencilBias;
+        public bool drawSkybox; // 0xB0
+        public bool overrideDrawSkybox; // 0xB1
+        public bool drawBeforeTransparent; // 0xB2
+        public bool overrideDrawBeforeTransparent; // 0xB3
+        public bool useMask; // 0xB4
+        public bool overrideUseMask; // 0xB5
+        public int stencilReference; // 0xB8
+        public bool overrideStencilReference; // 0xBC
+        public int stencilMask; // 0xC0
+        public bool overrideStencilMask; // 0xC4
+        public int stencilBias; // 0xC8
+        public bool overrideStencilBias; // 0xCC
 
         // ── Methods ──
         public void get_overrideUseMask(){} // RVA: 0x7FFD53F30340

@@ -8,8 +8,11 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÍÌÌÎÍÎÌÍÏÎÌÎÍÌÌÏÎÎÏÎ</summary>
     public class Enumerator_01C4 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public float ÍÎÏÍÎÏÎÌÎÌÏÍÍÎÍÏÌÏÌÏÏÍÎ; // 0x20
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public string ÏÍÌÎÌÍÌÏÏÎÏÍÎÌÌÎÎÏÎÌÎÏÍ; // 0x30
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -31,8 +34,11 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÌÍÎÌÏÌÎÏÏÎÌÍÍÎÌÎÌÏÍÍÏ</summary>
     public class Enumerator_04C5 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public UnityEngine.Vector3 ÏÎÍÏÌÌÍÏÍÎÍÌÎÌÏÌÌÍÌÌÍÎÌ; // 0x20
+        public UnityEngine.Quaternion ÌÎÎÏÍÍÏÎÎÌÎÌÌÎÎÎÍÎÍÏÏÏÍ; // 0x2C
+        public 0x665B04B8 ÍÌÎÍÌÍÌÎÎÌÌÌÌÍÌÍÍÌÎÏÎÎÏ; // 0x3C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -51,8 +57,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÏÌÎÏÍÌÎÍÎÌÎÏÎÏÏÏÎÎÌÎ</summary>
     public class Enumerator_088C : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Action ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x28
+        public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x30
+        public ÎÍÏÎÏÍÌÍÏÍÏÌÌÎÍÌÎÍÌÍÏÌÎ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x38
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F56FF40
@@ -72,8 +82,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÏÍÏÏÌÍÌÎÏÎÍÎÌÎÍÏÍÏÎÍÍ</summary>
     public class Enumerator_0E49 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÎÏÎÏÏÏÏÌÍÎÍÎÍÎÏÍÍÏÍÌÌÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4E341310
@@ -95,8 +106,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÎÍÌÎÎÌÍÎÍÌÌÍÍÏÎÍÍÍÏÍÏ</summary>
     public class Enumerator_1031 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÎÍÍÎÌÏÏÌÍÎÌÎÎÏÌÍÎÌÎÌÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4F5D7ED0
@@ -116,8 +128,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÎÍÏÎÌÏÌÏÌÌÍÌÍÌÎÏÏÍÎÌ</summary>
     public class Enumerator_12D9 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÎÏÌÏÍÏÍÏÏÍÍÌÏÍÌÎÍÍÏÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÎÌÏÏÍÎÏÍÎÎÏÌÎÌÌÌÎÍÍÍÏÍÌ ÌÎÎÌÌÌÍÌÍÍÏÎÎÏÏÎÎÏÍÌÎÎÎ; // 0x28
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD567D3340
@@ -138,8 +152,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÌÏÏÎÏÍÌÍÏÏÌÌÏÎÍÌÌÌÏÍÌÏ</summary>
     public class Enumerator_13BF : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -160,8 +174,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÍÍÏÌÏÌÏÏÍÎÏÏÎÎÎÍÎÍÏÍÏ</summary>
     public class Enumerator_1415 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÏÎÏÏÍÍÎÍÍÌÏÌÍÍÎÏÎÏÎÍÎÌÌ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
+        public bool ÌÌÏÌÏÎÎÍÏÌÌÏÌÏÍÏÍÎÌÍÌÎÎ; // 0x30
+        public System.Action`1<bool> ÌÏÌÎÎÎÌÌÍÌÎÌÌÎÌÏÌÏÍÍÌÌÍ; // 0x38
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -183,8 +201,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÏÌÏÍÏÍÏÌÍÎÎÍÌÌÎÎÌÌÎÏ</summary>
     public class Enumerator_1547 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÌÌÍÎÏÎÍÌÏÍÌÍÏÎÎÎÎÍÌÎÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -205,8 +224,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÎÌÏÌÏÏÏÌÌÍÍÎÍÍÍÍÏÏÌÎÎ</summary>
     public class Enumerator_15A1 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -228,8 +247,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÍÍÎÎÏÌÍÏÍÌÎÌÏÎÌÌÎÏÍÏÎ</summary>
     public class Enumerator_16F5 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4F1659F0
@@ -251,8 +271,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÍÌÌÌÍÌÌÍÌÍÎÍÏÍÍÌÌÎÍÍÍÍ</summary>
     public class Enumerator_178C : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4FA92E10
@@ -272,8 +293,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÏÏÏÎÍÍÍÎÏÏÎÎÏÏÏÍÎÍÎÌÍ</summary>
     public class Enumerator_1C37 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÍÌÎÌÎÌÍÍÎÏÎÏÍÎÎÏÏÏÏÎÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F60DDF0
@@ -295,8 +317,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÏÍÎÏÏÌÍÍÌÏÏÌÌÌÎÎÌÏÏÍÌ</summary>
     public class Enumerator_1DAC : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÎÍÍÎÌÏÏÌÍÎÌÎÎÏÌÍÎÌÎÌÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public float ÎÏÍÍÎÎÏÍÌÍÏÎÍÏÌÍÏÍÏÏÏÌÍ; // 0x28
+        public bool ÏÌÏÏÎÎÎÏÏÏÏÍÌÌÍÎÌÌÏÎÏÌÏ; // 0x2C
+        public 0x665BF240 ÍÎÍÍÏÌÍÏÍÎÏÏÎÌÏÍÏÌÏÌÏÌÎ; // 0x30
 
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4F5D5C20
@@ -315,8 +341,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÎÍÏÌÏÍÎÏÍÌÍÍÎÍÍÏÌÎÎÌÎ</summary>
     public class Enumerator_1EE1 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÎÏÎÏÎÌÏÌÎÏÏÌÎÌÎÍÍÍÎÍÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -336,8 +363,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÍÎÎÌÎÍÏÍÏÏÌÏÎÌÍÏÌÌÍÍÏ</summary>
     public class Enumerator_1FDA : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÏÎÎÍÏÌÌÎÍÏÍÏÌÍÌÏÏÎÎÍÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -359,8 +387,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÌÌÌÍÎÌÏÍÍÏÌÍÍÏÍÍÎÏÎÎÌ</summary>
     public class Enumerator_2771 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÌÎÎÏÍÌÌÍÎÎÎÎÏÍÌÏÎÍÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4F1C2A70
@@ -381,8 +410,13 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÏÌÍÎÎÍÌÏÌÏÎÌÎÍÌÏÎÍÏÏ</summary>
     public class Enumerator_27E7 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÌÌÏÎÎÌÏÌÏÎÏÏÍÍÍÏÏÎÌÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public float ÎÎÏÏÍÌÏÎÏÍÏÎÍÎÍÌÍÌÏÍÍÌÍ; // 0x28
+        public float ÎÌÌÌÌÎÍÍÌÎÎÎÍÍÌÍÍÏÌÌÌÎÌ; // 0x2C
+        public float ÍÍÍÍÎÏÍÏÎÌÏÏÌÍÎÍÍÍÍÎÍÎÍ; // 0x30
+        public UnityEngine.Vector3 ÏÎÍÏÏÎÎÎÌÏÏÎÌÏÏÍÏÏÎÏÌÌÍ; // 0x34
 
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -403,8 +437,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÎÍÎÏÎÎÍÏÌÎÎÍÏÍÌÍÏÏÌÍÌ</summary>
     public class Enumerator_2EA9 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÌÏÌÍÎÌÏÍÍÍÍÎÍÌÌÎÎÌÎÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4E341310
@@ -426,8 +461,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÍÏÎÏÍÏÍÎÏÎÏÎÏÍÌÏÎÌÏÌ</summary>
     public class Enumerator_3088 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÏÏÍÍÌÍÎÎÍÎÌÌÎÏÏÎÌÍÍÏÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -448,8 +484,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÍÎÌÎÍÏÍÎÎÏÌÍÌÌÏÍÍÍÍÍ</summary>
     public class Enumerator_3904 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public bool ÏÌÎÌÍÏÏÎÎÎÌÎÍÌÍÏÍÎÏÎÍÎÏ; // 0x20
+        public 0x665B2B90 ÍÌÏÎÍÌÍÍÌÌÌÏÍÏÍÎÍÌÍÍÏÍÏ; // 0x24
+        public 0x665B2E50 ÌÌÎÎÎÍÎÎÍÏÍÎÏÎÏÏÎÎÎÏÎÍÍ; // 0x28
+        public UnityEngine.GameObject ÍÎÎÎÏÍÏÎÌÍÏÌÎÏÎÏÎÎÎÏÎÍÏ; // 0x30
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4E551F10
@@ -470,8 +510,11 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÌÏÎÌÍÌÎÎÎÍÌÍÌÌÍÎÍÍÌÏ</summary>
     public class Enumerator_3942 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public RealisticEyeMovements.EyeAndHeadAnimator ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public bool ÏÎÏÍÏÍÎÌÏÏÌÏÎÎÎÏÌÍÏÏÍÍÌ; // 0x28
+        public UnityEngine.Transform ÎÏÍÍÎÌÍÍÎÌÏÌÌÍÎÏÌÏÎÌÎÍÏ; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -490,8 +533,14 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÌÏÍÏÍÎÎÍÎÏÍÍÌÌÌÍÍÌÎÏÏÏ</summary>
     public class Enumerator_398A : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public bool ÏÍÏÌÍÎÏÎÌÌÍÏÏÌÌÍÍÎÍÏÏÎÌ; // 0x20
+        public bool ÎÌÌÍÍÍÍÏÌÎÌÏÎÎÌÏÎÌÏÍÌÏÏ; // 0x21
+        public float ÌÎÎÏÎÎÏÏÍÎÌÍÎÏÏÎÎÏÎÎÏÌÏ; // 0x24
+        public bool ÍÎÌÌÎÍÌÎÍÌÍÍÌÎÍÌÍÌÌÍÍÌÏ; // 0x28
+        public float ÎÌÍÌÌÎÎÌÏÏÌÎÏÎÌÍÌÍÏÍÎÎÎ; // 0x2C
+        public float ÍÌÌÏÎÌÏÎÎÏÎÏÌÏÏÎÌÎÎÍÌÌÌ; // 0x30
 
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4F420B60
@@ -513,8 +562,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÎÎÍÌÌÎÍÍÌÌÎÎÎÎÎÌÌÌÌÍÍ</summary>
     public class Enumerator_3B84 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÏÎÎÍÏÌÌÎÍÏÍÏÌÍÌÏÏÎÎÍÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -535,8 +585,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÍÎÍÍÏÎÍÎÏÌÌÏÎÏÎÌÎÌÍÎ</summary>
     public class Enumerator_3CF2 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÎÌÍÍÎÎÎÏÏÎÏÍÍÏÎÏÌÍÏÎÏÍÎ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4E3447C0
@@ -555,8 +607,14 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÌÌÏÎÏÎÏÏÎÌÎÎÌÍÎÏÍÌÏÌÍ</summary>
     public class Enumerator_3E07 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÏÏÌÌÍÎÌÍÏÏÎÎÍÌÌÍÏÎÌÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÍÎÌÌÍÎÎÏÎÍÌÏÌÍÍÎÎÍÎÌÌÏÍ ÎÎÍÌÎÏÌÌÌÌÎÍÍÎÎÎÍÍÍÎÎÍÎ; // 0x28
+        public System.Collections.Generic.List`1<ÎÏÎÏÌÌÍÎÍÍÎÍÍÌÍÍÍÌÌÍÏÍÌ> ÍÏÏÌÌÎÎÍÏÌÍÌÏÎÏÍÍÍÍÍÌÍÍ; // 0x30
+        public UnityEngine.GameObject ÎÏÌÌÍÎÎÎÎÎÌÌÌÍÍÏÍÍÏÎÏÏÏ; // 0x38
+        public float ÌÍÏÌÌÏÌÏÌÍÍÏÎÌÏÏÍÌÍÍÍÏÌ; // 0x40
+        public float ÍÌÌÍÌÍÍÎÍÌÌÎÎÎÎÌÍÏÍÏÏÍÍ; // 0x44
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -577,8 +635,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÎÍÏÎÏÎÎÏÍÍÎÏÍÍÌÏÍÎÌÎÌ</summary>
     public class Enumerator_3F73 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÍÌÎÍÍÍÏÍÏÏÌÎÍÌÌÍÎÌÏÍÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÎÎÎÎÎÏÎÍÏÎÏÎÌÌÌÎÌÌÌÌÍÍÌ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -599,46 +659,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÌÎÏÏÍÌÏÍÌÌÎÍÎÎÏÌÎÍÏÌÏ</summary>
     public class Enumerator_402A : Object
     {
-        public string _name; // 0x10
-        public itTypeSize=876 _hideFlags; // 0x18
-        public itTypeSize=876 System.Collections.IEnumerator.Current; // 0x40
-        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ector> <ÍÍÌÌÌÏÌÌÏÎÍÍÏÍÏÏÍÍÍÏÎÌÏ>k__BackingField; // 0x68
-        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField> <ÍÎÍÍÎÌÌÏÌÍÌÍÎÎÎÏÍÎÌÍÍÌÌ>k__BackingField; // 0x70
-        public string <ÏÏÍÏÍÍÎÎÍÎÏÌÏÍÎÍÎÍÍÏÎÎÍ>k__BackingField; // 0x78
-        public string <ÍÎÏÌÍÏÌÌÍÌÏÌÏÌÌÎÍÏÍÍÌÎÎ>k__BackingField; // 0x80
-        public string <ÎÎÌÌÎÎÎÏÌÌÍÌÏÌÍÍÎÏÎÌÎÌÍ>k__BackingField; // 0x88
-        public ÍÎÎÎÎÌÏÏÎÌ<?> <ÏÌÍÎÍÌÎÏÍÍÍÏÍÍÍÏÍÍÌÏÍÏÏ>k__BackingField; // 0x90
-        public ÍÎÎÎÎÌÏÏÎÌ<?> <ÌÍÌÍÎÎÌÎÎÏÌÌÏÍÎÍÍÌÎÎÍÍÎ>k__BackingField; // 0x98
-        public bool <ÌÏÍÌÌÏÌÍÎÎÌÏÎÌÌÌÌÍÏÌÌÎÍ>k__BackingField; // 0xA0
-        public DependencyInjector <ÎÏÏÏÌÎÎÍÍÌÏÏÍÌÍÌÎÎÎÍÍÍÌ>k__BackingField; // 0xA8
-        public DependencyInjector <ÌÏÎÏÏÌÎÍÌÍÎÏÍÎÎÎÎÍÎÎÎÍÍ>k__BackingField; // 0xB0
-        public DependencyInjector <ÍÎÏÎÌÌÍÏÏÏÌÍÍÎÎÍÍÍÎÎÍÎÍ>k__BackingField; // 0xB8
-        public DependencyInjector <ÎÎÎÍÎÌÏÌÌÏÍÎÏÌÌÏÏÌÍÌÏÌÎ>k__BackingField; // 0xC0
-        public string <ÍÌÌÍÌÎÍÏÌÏÌÌÎÏÏÎÏÌÎÌÍÌÍ>k__BackingField; // 0xC8
-        public bool <ÎÌÌÌÌÌÎÌÏÏÍÎÏÍÏÎÏÍÏÏÌÏÍ>k__BackingField; // 0xD0
-        public string <ÍÏÌÎÎÍÎÏÏÎÍÎÍÏÍÎÍÌÏÏÌÌÎ>k__BackingField; // 0xD8
-        public string <ÍÍÏÎÌÎÍÏÌÌÌÎÎÌÎÍÌÍÏÏÎÍÎ>k__BackingField; // 0xE0
-        public string <ÎÎÎÎÎÎÌÏÍÏÏÍÎÌÌÎÏÌÎÏÏÌÏ>k__BackingField; // 0xE8
-        public string <ÏÏÎÎÌÍÌÍÌÏÍÌÎÎÌÌÍÌÌÎÍÎÌ>k__BackingField; // 0xF0
-        public string <ÌÏÎÌÌÏÌÍÍÌÍÏÍÍÍÎÏÍÌÎÏÍÌ>k__BackingField; // 0xF8
-        public bool <ÎÏÎÍÎÍÌÌÎÌÍÍÏÎÎÎÌÎÍÏÍÍÍ>k__BackingField; // 0x100
-        public bool <ÎÏÎÌÏÍÍÏÍÍÍÏÏÏÍÍÎÏÌÏÌÍÌ>k__BackingField; // 0x101
-        public bool <ÌÍÍÌÌÎÎÏÍÎÎÌÎÏÍÎÍÌÎÎÍÍÎ>k__BackingField; // 0x102
-        public bool <ÎÍÎÎÎÍÏÌÏÏÏÌÎÍÌÍÎÍÍÍÌÎÍ>k__BackingField; // 0x103
-        public bool <ÏÌÍÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField; // 0x104
-        public bool <ÎÎÍÎÏÏÍÍÏÎÌÌÎÌÍÏÏÍÏÎÏÏÏ>k__BackingField; // 0x105
-        public bool <ÌÍÍÏÎÍÎÏÍÎÍÎÌÍÏÍÏÎÌÍÍÍÎ>k__BackingField; // 0x106
-        public bool <ÎÌÏÍÎÎÏÏÎÏÎÎÏÍÍÍÌÌÏÏÎÍÌ>k__BackingField; // 0x107
-        public bool <ÏÎÎÌÏÍÌÍÌÌÎÏÏÌÌÏÌÌÍÍÍÏÏ>k__BackingField; // 0x108
-        public bool <ÏÏÌÍÏÏÍÍÍÏÎÎÎÍÌÎÏÎÍÏÌÏÎ>k__BackingField; // 0x109
-        public bool <ÎÌÍÍÍÌÌÌÎÎÎÌÎÌÌÌÌÏÌÏÌÌÌ>k__BackingField; // 0x10A
-        public bool <ÏÎÌÍÏÍÌÏÌÎÎÍÎÎÎÎÎÎÏÌÌÌÏ>k__BackingField; // 0x10B
-        public ?<bool> <ÍÎÎÏÍÏÏÎÍÏÎÏÌÍÌÏÍÍÌÍÎÍÏ>k__BackingField; // 0x110
-        public ?<int> <ÍÍÎÍÎÎÏÏÏÌÏÍÎÍÏÏÎÍÍÍÍÎÍ>k__BackingField; // 0x118
-        public URA.woDigitYearMax<string> <ÌÏÏÏÏÎÍÌÏÎÎÌÏÍÎÏÎÎÌÎÎÌÍ>k__BackingField; // 0x120
-        public URA.woDigitYearMax<string> <ÌÌÍÍÏÎÏÌÏÏÏÏÏÍÏÌÏÏÍÍÌÎÎ>k__BackingField; // 0x128
-        public URA.woDigitYearMax<string> <ÏÌÏÌÍÍÎÏÌÏÌÍÏÍÍÍÌÌÏÏÌÏÎ>k__BackingField; // 0x130
-        public ÎÌÍÏÏÌÍÏ ÎÍÎÌÏÏÌÏÍÎÍÍÌÏÌÏÏÎÏÍÎÎÏ; // 0x138
+        public System.Delegate _name;
+        public System.Collections.Generic.List`1<T> _hideFlags;
+        public ÌÍÎÌÍÍÏÏÍÌÍÎÌÍÍÌÍÏÏÏÌÍÍ System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
@@ -663,8 +686,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÌÍÏÌÏÍÎÌÏÏÎÍÍÍÌÌÎÍÎÌÍ</summary>
     public class Enumerator_4258 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -684,8 +707,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÏÏÏÍÍÏÎÏÍÍÌÍÍÎÍÌÌÌÎÎÏ</summary>
     public class Enumerator_4384 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÎÍÍÌÍÍÎÍÌÏÏÏÎÌÎÏÍÌÍÍÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -707,8 +731,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÏÏÌÎÌÌÍÌÎÍÍÍÏÏÏÏÏÏÍÌÎ</summary>
     public class Enumerator_4526 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÌÌÎÍÏÎÏÏÌÎÌÏÍÎÏÍÌÌÎÏÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -729,8 +754,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÌÌÏÏÎÌÌÎÌÏÏÏÎÏÏÏÏÎÍÌ</summary>
     public class Enumerator_460F : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÍÎÏÎÏÍÍÌÏÏÌÎÌÍÎÏÍÍÍÌÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÍÏÌÌÌÏÏÎÌÏÎÎÏÍÍÌÏÌÏÌÍÌÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4F88D1E0
@@ -750,8 +777,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÌÌÍÏÏÎÏÍÏÌÏÌÎÌÎÍÏÏÌÍÎ</summary>
     public class Enumerator_4740 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public bool ÏÌÎÌÍÏÏÎÎÎÌÎÍÌÍÏÍÎÏÎÍÎÏ; // 0x20
+        public 0x665B2E50 ÌÌÎÎÎÍÎÎÍÏÍÎÏÎÏÏÎÎÎÏÎÍÍ; // 0x28
+        public 0x665B2B90 ÍÌÏÎÍÌÍÍÌÌÌÏÍÏÍÎÍÌÍÍÏÍÏ; // 0x30
+        public UnityEngine.GameObject ÍÎÎÎÏÍÏÎÌÍÏÌÎÏÎÏÎÎÎÏÎÍÏ; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -771,8 +802,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÏÌÎÏÎÏÏÌÌÏÏÌÏÍÍÌÏÍÍÍ</summary>
     public class Enumerator_478A : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÍÎÍÍÏÍÍÍÏÌÌÎÏÍÎÎÌÌÏÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -794,8 +826,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÏÏÎÌÏÍÎÍÎÎÌÌÍÎÌÍÏÎÏÌ</summary>
     public class Enumerator_4B96 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -815,8 +848,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÏÌÌÍÎÏÌÌÍÏÍÍÍÍÍÌÎÍÎÏÏ</summary>
     public class Enumerator_4C5B : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÌÏÏÍÌÎÌÍÎÌÏÍÏÎÎÏÏÏÍÌÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E8076A0
@@ -836,8 +870,11 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÍÏÌÏÍÏÎÎÌÏÍÌÎÎÏÌÍÏÍÏÍ</summary>
     public class Enumerator_5157 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public string ÏÌÍÌÎÏÏÍÏÌÏÍÍÏÍÎÍÎÍÎÎÎÏ; // 0x20
+        public System.Action`1<string> ÎÎÎÎÌÌÏÏÏÏÍÍÎÌÍÏÎÌÎÌÏÎÏ; // 0x28
+        public UnityEngine.Networking.UnityWebRequest ÎÏÎÎÌÎÏÌÏÍÌÏÎÎÏÌÍÍÎÏÌÌÏ; // 0x30
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FA80620
@@ -857,8 +894,15 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÌÍÍÏÌÌÎÏÍÎÌÏÎÌÍÌÌÍÏÏ</summary>
     public class Enumerator_52B8 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÍÏÏÏÍÌÏÎÎÍÏÍÍÍÌÍÍÍÏÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public VRC.Core.Pool.PooledArray`1<System.Collections.Generic.List`1<ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ>> ÍÍÎÏÎÍÍÌÌÍÍÌÍÎÎÍÌÎÌÏÎÌÏ; // 0x28
+        public System.Collections.Generic.List`1<ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ>[] ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ; // 0x30
+        public int ÍÎÌÍÌÍÍÎÎÏÍÎÌÌÎÌÌÎÍÎÍÎÎ; // 0x38
+        public VRC.Core.Pool.PooledArray`1<ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ> ÌÌÎÏÎÎÏÏÎÎÌÏÎÎÍÍÍÍÎÌÎÌÏ; // 0x40
+        public ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ[] ÍÍÍÍÏÍÎÏÌÎÏÌÌÎÏÏÍÎÌÏÏÌÎ; // 0x48
+        public int ÏÎÍÍÎÌÍÌÏÍÌÏÏÏÏÏÍÏÌÌÍÍÌ; // 0x50
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -881,8 +925,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÏÎÍÎÌÏÏÏÏÏÎÎÌÌÍÏÌÌÎÏÌ</summary>
     public class Enumerator_585B : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÍÍÌÎÏÌÍÏÎÍÍÌÎÌÏÏÎÏÍÍÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F032A00
@@ -902,8 +947,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÏÏÌÎÏÏÎÌÏÎÏÌÏÎÌÏÎÌÌÌ</summary>
     public class Enumerator_5C4E : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÌÌÍÎÌÎÍÌÎÌÍÎÎÌÌÌÏÎÌÍÌÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4F22D9F0
@@ -923,8 +969,11 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÌÌÍÎÍÏÌÌÍÌÌÌÍÍÍÏÌÍÍÌ</summary>
     public class Enumerator_5D59 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÏÏÌÌÍÎÌÍÏÏÎÎÍÌÌÍÏÎÌÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public int[] ÍÍÏÎÏÌÌÎÏÍÌÍÎÏÌÎÌÍÌÌÍÌÌ; // 0x28
+        public int ÌÏÌÌÏÏÌÌÎÌÍÌÏÏÍÌÌÎÏÌÌÌÎ; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -943,8 +992,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÌÌÎÎÌÌÍÍÎÎÍÏÌÍÌÌÏÏÍÏ</summary>
     public class Enumerator_5E5B : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÌÎÎÏÌÏÌÎÍÎÏÎÏÏÎÏÌÎÎÏÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4E341310
@@ -966,8 +1016,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÌÎÌÏÍÌÏÍÎÏÏÍÌÏÌÎÎÏÌÌÎ</summary>
     public class Enumerator_5FD3 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÏÌÌÌÌÍÏÏÍÏÎÍÍÏÎÍÌÌÍÍÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F5B4AC0
@@ -989,8 +1040,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÏÌÎÏÍÏÏÎÏÌÏÍÍÌÏÍÍÎÌÍÌ</summary>
     public class Enumerator_6089 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÎÏÌÍÏÍÌÏÎÍÏÎÍÌÎÌÍÏÏÏÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -1011,8 +1063,11 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÍÌÏÌÌÏÌÏÏÍÌÍÏÌÌÍÍÎÎÌÍÏ</summary>
     public class Enumerator_6242 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public long ÎÏÎÍÏÌÌÎÎÎÏÌÌÌÍÏÏÏÎÍÏÍÌ; // 0x20
+        public ÌÎÎÍÌÌÎÍÌÏÎÎÍÌÏÎÏÏÌÌÍÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public System.Diagnostics.Stopwatch ÎÏÍÍÌÎÍÎÎÍÏÍÏÎÌÍÍÎÍÏÎÌÎ; // 0x30
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -1032,8 +1087,14 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÍÌÎÍÎÍÍÍÍÎÍÌÍÌÏÌÌÎÌÎÌ</summary>
     public class Enumerator_64FD : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÏÍÎÎÎÏÍÌÍÌÍÏÏÌÌÎÍÌÎÌÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public UnityEngine.Animator ÏÎÎÎÏÌÍÌÎÎÌÎÌÌÎÌÏÏÏÌÍÏÌ; // 0x28
+        public VRC.SDKBase.VRC_AvatarDescriptor ÍÌÌÌÍÍÌÎÏÌÍÏÌÏÌÎÏÍÍÍÍÍÌ; // 0x30
+        public System.Action ÎÎÎÎÌÌÏÏÏÏÍÍÎÌÍÏÎÌÎÌÏÎÏ; // 0x38
+        public ÏÌÎÍÏÎÌÌÎÍÍÎÌÏÌÏÌÎÍÌÎÌÎ ÌÌÌÍÏÎÏÌÎÍÌÎÏÏÏÎÏÏÏÍÍÍÍ; // 0x40
+        public int ÏÌÍÏÏÍÍÌÏÌÏÌÎÏÎÎÌÏÍÌÎÍÍ; // 0x48
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -1055,8 +1116,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÏÎÌÍÏÌÎÎÌÏÏÍÌÎÍÎÍÌÏÌÎ</summary>
     public class Enumerator_6A33 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÌÏÌÍÎÌÏÍÍÍÍÎÍÌÌÎÎÌÎÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4F18F940
@@ -1078,8 +1140,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÌÎÍÍÌÌÌÍÏÏÍÏÏÏÌÍÎÎÍÎÏ</summary>
     public class Enumerator_6CD9 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÌÏÌÍÎÌÏÍÍÍÍÎÍÌÌÎÎÌÎÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÎÎÎÌÎÍÌÍÏÎÏÌÌÌÎÎÍÎÌÍÍÍÌ ÌÍÎÍÍÌÌÎÍÍÍÍÎÏÎÍÎÌÍÏÌÌÌ; // 0x28
+        public ÍÍÎÌÌÍÎÌÎÌÏÍÍÌÍÍÍÏÌÎÌÌÏ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x30
+        public float ÎÍÌÏÍÏÏÎÌÎÍÌÌÎÌÎÌÍÌÏÎÎÌ; // 0x38
 
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4E341310
@@ -1098,8 +1164,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÌÏÏÏÌÏÌÏÌÍÎÎÍÌÏÏÌÍÌÍÌ</summary>
     public class Enumerator_6D7A : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÍÍÏÌÍÎÍÍÍÌÍÌÍÍÎÎÍÏÏÍÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F7C19B0
@@ -1120,8 +1187,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÎÍÍÏÌÍÍÏÏÏÍÏÌÌÍÍÍÍÌÏ</summary>
     public class Enumerator_7457 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÏÎÎÎÎÌÎÎÏÍÏÍÏÌÎÍÎÌÌÌÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -1143,8 +1211,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÏÎÎÌÎÍÏÍÎÍÎÌÎÍÏÎÌÍÏÎÍ</summary>
     public class Enumerator_7926 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÎÎÍÌÍÏÍÏÌÌÏÌÎÍÏÍÎÌÌÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -1165,8 +1234,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÍÌÌÍÎÌÌÎÏÏÌÎÍÌÎÏÎÍÍÏÌÎ</summary>
     public class Enumerator_7A0F : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÎÏÎÎÎÎÎÌÏÎÏÎÍÎÍÍÌÏÌÎÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÍÍÏÏÏÌÌÍÎÎÌÍÏÌÌÏÏÌÌÏÍÏÏ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F8B1B40
@@ -1186,8 +1257,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÍÌÎÏÎÌÏÍÏÎÎÎÏÎÍÏÏÎÎÎ</summary>
     public class Enumerator_7CF6 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÍÌÌÏÏÎÎÎÏÌÎÌÏÏÌÏÎÍÎÌÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4ED6B250
@@ -1206,8 +1278,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÎÍÌÍÌÍÎÌÏÏÎÎÌÍÏÍÍÍÍÌÍ</summary>
     public class Enumerator_807D : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÍÌÎÌÎÌÍÍÎÏÎÏÍÎÎÏÏÏÏÎÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public string ÏÌÍÌÎÏÏÍÏÌÏÍÍÏÍÎÍÎÍÎÎÎÏ; // 0x28
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -1227,8 +1301,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÍÎÎÍÌÍÍÏÍÌÏÏÌÏÍÌÎÏÍÏ</summary>
     public class Enumerator_830B : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public bool ÎÎÍÌÍÏÎÍÍÌÎÌÍÏÍÌÏÌÌÌÎÎÎ; // 0x20
+        public bool ÌÎÌÏÌÎÏÌÍÌÏÌÌÏÍÎÎÏÎÌÍÏÎ; // 0x21
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4E341310
@@ -1247,8 +1323,11 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÎÌÏÍÏÎÍÌÏÎÎÏÍÌÎÎÏÌÎÎ</summary>
     public class Enumerator_85FD : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public PlayerModComponentHealth ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÍÏÎÍÍÌÎÍÌÌÎÏÌÎÌÏÏÌÌÌÎÏÏ ÍÍÏÏÍÌÏÍÌÎÍÌÎÏÎÍÍÎÍÍÏÎÌ; // 0x28
+        public ÎÌÎÌÏÎÏÍÎÏÌÍÏÏÌÏÌÌÎÎÌÏÍ ÎÌÌÍÏÌÍÍÏÎÌÎÍÌÏÍÏÏÌÍÎÏÌ; // 0x30
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4F2EDEA0
@@ -1267,8 +1346,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÌÍÏÏÏÍÎÎÏÍÌÌÎÍÍÌÍÏÌÏÌ</summary>
     public class Enumerator_8960 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÍÏÌÌÌÎÎÌÌÍÏÎÌÌÍÌÏÏÌÎÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4F85CEA0
@@ -1288,8 +1368,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÎÏÏÎÍÏÌÏÍÍÎÎÏÍÌÏÍÍÏÏÌ</summary>
     public class Enumerator_8DAC : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public string ÍÌÌÏÍÏÍÏÍÍÍÏÏÌÎÍÍÍÌÌÍÎÎ; // 0x28
+        public string ÌÌÏÌÎÍÎÌÍÌÎÍÏÏÍÎÎÌÍÌÍÌÎ; // 0x30
+        public ÎÌÏÏÎÍÌÏÌÍÎÎÎÍÎÌÌÌÎÎÍÏÏ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x38
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -1311,8 +1395,14 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÎÌÏÏÎÏÏÏÌÍÌÌÏÍÏÍÌÌÎÏÌ</summary>
     public class Enumerator_8E6C : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÎÌÌÏÌÎÌÏÍÏÏÏÎÍÌÎÌÎÌÌÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public int ÌÎÍÏÍÏÎÎÍÌÌÌÍÏÌÌÍÏÎÍÍÏÍ; // 0x28
+        public ÌÌÏÏÌÍÎÏÏÌÌÏÍÍÌÏÏÏÎÎÎÏÎ ÎÏÍÎÏÍÎÏÎÏÏÍÍÏÏÍÎÎÎÍÏÌÌ; // 0x30
+        public int ÍÎÏÌÍÏÏÎÌÍÎÍÌÎÌÎÏÍÍÍÌÎÌ; // 0x38
+        public int ÍÏÌÎÍÍÎÌÍÎÎÌÌÎÍÎÎÎÎÌÎÌÍ; // 0x3C
+        public int ÎÍÎÎÎÎÎÌÏÏÌÏÌÎÌÍÏÌÌÍÎÍÍ; // 0x40
 
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -1333,8 +1423,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÏÏÌÍÌÎÍÌÎÍÎÏÌÏÌÏÌÎÏÎ</summary>
     public class Enumerator_8E77 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÍÎÎÍÍÏÏÍÏÍÎÎÌÍÏÌÎÏÍÎÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E5E84D0
@@ -1356,8 +1447,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÎÌÍÍÏÎÌÌÍÍÌÏÏÎÍÎÍÏÌÎ</summary>
     public class Enumerator_8FB3 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Action`1<string> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x28
+        public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x30
+        public ÏÍÎÎÍÏÎÏÎÏÎÍÏÌÏÎÎÌÍÎÍÌÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x38
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -1379,8 +1474,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÌÏÏÎÎÏÍÎÏÏÍÏÍÌÎÍÏÍÌÎÍÏ</summary>
     public class Enumerator_9020 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4F169C30
@@ -1399,8 +1495,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÎÌÍÎÏÍÏÏÎÍÌÍÍÏÌÎÌÌÎÌ</summary>
     public class Enumerator_980E : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÌÎÎÏÍÌÌÍÎÎÎÎÏÍÌÏÎÍÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÌÏÎÏÎÏÌÍÏÍÍÌÍÎÎÍÏÏÌÍÍÎÌ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F1C2290
@@ -1421,8 +1519,13 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÏÌÏÍÏÏÏÍÍÌÍÌÍÌÏÍÍÎÍÌÎ</summary>
     public class Enumerator_9BB3 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x20
+        public ÌÎÌÎÎÏÍÌÌÍÎÎÎÎÏÍÌÏÎÍÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public float ÌÍÏÌÌÏÌÏÌÍÍÏÎÌÏÏÍÌÍÍÍÏÌ; // 0x30
+        public float ÎÌÌÍÎÎÌÌÌÌÎÌÏÌÍÏÌÏÌÎÌÎÎ; // 0x34
+        public bool ÏÎÏÌÍÌÌÍÎÌÏÌÌÍÍÍÍÍÍÏÎÎÏ; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -1442,8 +1545,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÏÎÏÏÎÏÎÍÍÎÏÏÏÍÌÎÍÎÍÌ</summary>
     public class Enumerator_A39E : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÎÎÍÎÌÍÎÍÍÌÎÏÌÍÎÌÏÎÏÌÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÌÌÏÍÎÏÎÌÌÍÎÏÎÏÌÏÍÏÌÏÌÎÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F878C90
@@ -1464,8 +1569,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÎÎÍÏÍÎÎÏÎÏÏÌÍÌÎÎÏÏÎÍÍ</summary>
     public class Enumerator_A3A0 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public string ÏÎÍÎÏÎÍÍÌÌÌÌÎÍÍÏÍÎÏÌÏÌÏ; // 0x20
+        public System.Action`2<string,UnityEngine.Texture2D> ÏÏÍÌÏÌÏÍÌÌÌÎÏÌÎÍÌÏÎÍÏÌÏ; // 0x28
+        public ÍÌÍÍÏÏÌÎÌÏÌÌÌÎÌÌÍÎÌÍÍÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public UnityEngine.Networking.UnityWebRequest ÍÍÎÍÍÍÌÌÍÏÍÎÍÏÎÏÏÌÎÏÏÏÎ; // 0x38
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -1487,8 +1596,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÍÎÍÎÌÌÏÎÏÌÍÍÎÏÌÌÎÎÍÌ</summary>
     public class Enumerator_A52A : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÎÏÏÍÏÎÌÌÌÍÎÍÌÌÏÌÎÍÎÍÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4F84CC50
@@ -1510,8 +1620,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÌÏÍÏÏÌÏÏÏÎÌÍÏÌÌÏÏÏÍÎÌ</summary>
     public class Enumerator_A9D2 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÌÌÎÍÏÎÏÏÌÎÌÏÍÎÏÍÌÌÎÏÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4F629EB0
@@ -1531,8 +1642,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÍÎÎÏÍÌÌÍÌÌÏÌÌÎÍÍÎÏÍÏÌ</summary>
     public class Enumerator_AA6A : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public bool ÌÌÏÍÌÎÌÍÍÏÎÍÌÏÎÎÏÍÍÌÎÍÌ; // 0x20
+        public VRC.Core.Pool.PooledArray`1<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ> ÏÍÏÌÌÍÍÍÎÍÌÎÎÎÏÌÏÌÎÎÌÎÎ; // 0x28
+        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ[] ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ; // 0x30
+        public int ÍÎÌÍÌÍÍÎÎÏÍÎÌÌÎÌÌÎÍÎÍÎÎ; // 0x38
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -1554,8 +1669,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÍÌÍÎÏÍÏÍÎÌÎÌÏÎÎÏÎÏÎÏ</summary>
     public class Enumerator_AA84 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÎÏÏÍÏÎÌÌÌÍÎÍÌÌÏÌÎÍÎÍÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4F84C370
@@ -1574,8 +1690,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÏÎÍÍÎÎÎÍÌÏÌÎÏÍÏÌÍÏÎÎ</summary>
     public class Enumerator_AE21 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÎÍÏÌÌÍÎÏÌÍÏÎÍÏÎÎÏÌÌÎÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public string ÏÌÍÌÎÏÏÍÏÌÏÍÍÏÍÎÍÎÍÎÎÎÏ; // 0x28
+        public ÍÌÍÍÏÎÎÎÏÌÍÎÎÎÎÏÌÍÌÏÍÎÎ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x30
+        public System.Action ÎÎÎÎÌÌÏÏÏÏÍÍÎÌÍÏÎÌÎÌÏÎÏ; // 0x38
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -1596,8 +1716,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÎÏÍÎÏÎÎÍÎÌÌÍÏÌÏÌÍÏÌÏ</summary>
     public class Enumerator_AEC8 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÌÏÌÍÎÌÏÍÍÍÍÎÍÌÌÎÎÌÎÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public float ÌÏÌÎÎÏÏÎÎÏÌÏÌÎÏÌÏÏÎÌÏÏÎ; // 0x28
 
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -1618,8 +1740,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÏÍÌÌÍÌÎÎÏÍÌÍÎÌÍÍÎÎÏÌÎ</summary>
     public class Enumerator_B05B : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÍÌÎÌÎÌÍÍÎÏÎÏÍÎÎÏÏÏÏÎÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public string ÏÌÍÌÎÏÏÍÏÌÏÍÍÏÍÎÍÎÍÎÎÎÏ; // 0x28
+        public ÍÌÌÍÍÏÏÌÌÎÌÌÌÎÎÍÏÎÌÌÍÎÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x30
+        public System.Action ÎÎÎÎÌÌÏÏÏÏÍÍÎÌÍÏÎÌÎÌÏÎÏ; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -1639,8 +1765,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÌÍÏÎÏÎÏÍÎÌÌÏÍÏÍÌÎÍÎÏÏ</summary>
     public class Enumerator_B2EB : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4E3447C0
@@ -1659,8 +1785,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÎÍÎÎÍÎÎÎÌÏÎÎÏÎÎÍÌÏÌÏÌ</summary>
     public class Enumerator_B5A1 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÍÎÌÍÌÎÌÌÎÍÌÌÏÍÏÌÏÌÌÎÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -1680,8 +1807,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÏÎÎÎÍÎÏÍÎÍÍÍÎÎÎÍÏÌÏÏ</summary>
     public class Enumerator_B638 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -1700,8 +1828,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÏÌÏÎÎÏÌÍÌÎÌÍÌÏÏÌÎÍÏÎ</summary>
     public class Enumerator_B8A1 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÎÏÎÍÌÌÏÏÌÌÌÏÌÏÏÎÎÎÍÍÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -1722,8 +1851,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÍÌÌÍÎÎÏÏÏÌÍÎÏÎÎÍÏÎÌÌ</summary>
     public class Enumerator_B9A2 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÍÌÎÏÏÍÎÎÌÌÌÌÏÎÍÏÏÌÍÎÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4F187A00
@@ -1742,8 +1872,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÍÏÎÍÌÌÏÏÎÎÎÏÎÎÏÏÏÏÍÏ</summary>
     public class Enumerator_BAEA : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÍÏÎÎÌÏÏÎÏÍÌÌÍÎÌÍÍÍÎÌÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public int ÌÏÍÏÌÌÏÍÎÏÏÌÎÍÌÎÌÌÍÎÏÍÏ; // 0x28
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4E567BB0
@@ -1762,8 +1894,13 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÌÌÍÏÏÌÎÌÏÎÏÌÏÌÎÍÌÍÏÍ</summary>
     public class Enumerator_C870 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public System.Nullable`1<0x6639DEE8> ÍÌÍÍÎÏÎÏÏÏÎÍÍÌÌÍÌÌÎÏÍÍÏ; // 0x20
+        public ÌÍÎÏÏÌÎÎÌÎÎÌÍÏÌÌÌÏÎÏÎÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public ÍÎÍÏÎÎÌÏÍÌÍÏÍÏÌÎÌÍÏÏÌÎÌ ÌÍÏÏÍÍÏÎÍÎÏÍÍÏÍÌÌÏÌÏÏÌÍ; // 0x30
+        public ÍÎÍÏÎÎÌÏÍÌÍÏÍÏÌÎÌÍÏÏÌÎÌ ÍÌÎÍÎÎÎÍÎÌÌÏÌÌÎÏÌÌÍÏÎÎÍ; // 0x38
+        public System.Nullable`1<float> ÍÏÎÏÎÏÏÎÏÍÏÎÏÍÌÏÏÏÌÍÌÏÌ; // 0x40
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -1784,8 +1921,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÍÎÍÏÏÏÌÍÌÌÌÏÎÎÍÎÎÎÏÎ</summary>
     public class Enumerator_CBE7 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÍÌÍÏÎÌÌÍÍÎÍÌÌÎÎÍÍÍÎÍÏÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public VRC.Core.ApiWorld ÌÌÏÍÏÌÌÌÍÍÏÎÌÏÍÏÎÌÏÍÎÏÍ; // 0x28
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4F7BF4E0
@@ -1804,8 +1943,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÏÍÌÏÎÏÌÌÍÏÎÌÍÎÍÌÏÍÏÍ</summary>
     public class Enumerator_CD3C : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -1827,8 +1967,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÏÎÌÍÍÏÍÎÍÏÎÍÍÌÍÏÌÎÎÌ</summary>
     public class Enumerator_CDCF : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÌÏÌÍÎÌÏÍÍÍÍÎÍÌÌÎÎÌÎÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public float ÌÍÏÌÌÏÌÏÌÍÍÏÎÌÏÏÍÌÍÍÍÏÌ; // 0x28
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4F1A8CF0
@@ -1847,8 +1989,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÌÏÌÍÌÏÍÌÌÎÍÍÎÏÎÏÎÎÌÏÍÍ</summary>
     public class Enumerator_CF95 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÏÏÏÎÎÌÍÏÍÌÌÏÎÍÌÎÌÍÍÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -1870,8 +2013,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÍÏÎÏÍÏÍÏÌÏÍÎÏÍÍÌÎÏÎÎÏ</summary>
     public class Enumerator_D171 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÌÌÌÏÌÍÌÍÍÍÍÌÎÌÌÏÎÍÌÏÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÏÌÎÌÌÏÏÏÎÍÎÎÏÎÌÍÏÎÏÏÏÏÎ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4F887D20
@@ -1892,8 +2037,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÏÎÌÎÎÍÍÎÌÎÌÍÎÍÍÏÏÌÎÎÎ</summary>
     public class Enumerator_D2F2 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÏÏÎÏÏÎÍÍÎÌÌÏÏÏÌÌÌÌÌÍÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ ÎÌÍÌÌÎÎÏÎÍÎÍÎÍÏÎÍÌÏÌÌÍÏ; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -1913,8 +2060,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÏÏÌÏÌÍÎÌÎÍÌÌÌÏÍÏÍÏÌÏÍ</summary>
     public class Enumerator_D43D : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÍÌÎÏÏÍÎÎÌÌÌÌÏÎÍÏÏÌÍÎÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Func`1<System.Collections.IEnumerator> ÏÎÏÎÏÌÎÎÌÏÎÌÌÎÍÌÌÏÎÍÍÎÌ; // 0x28
+        public string ÍÏÌÎÏÍÌÌÎÌÎÎÍÍÎÎÏÎÎÌÏÎÌ; // 0x30
+        public long ÌÍÏÌÌÏÌÏÌÍÍÏÎÌÏÏÍÌÍÍÍÏÌ; // 0x38
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -1936,8 +2087,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÎÍÏÍÍÌÏÌÌÍÎÍÏÌÍÌÍÏÎÍ</summary>
     public class Enumerator_D52F : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public int ÍÏÎÍÌÏÍÎÎÏÏÎÍÏÍÌÌÍÎÌÍÌÏ; // 0x20
 
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4F866BE0
@@ -1959,8 +2111,13 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÎÎÏÏÍÌÏÏÍÌÌÏÎÎÏÍÌÏÍÌÍ</summary>
     public class Enumerator_D533 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÎÌÌÍÎÎÏÎÍÌÏÌÍÍÎÎÍÎÌÌÏÍ ÎÎÍÌÎÏÌÌÌÌÎÍÍÎÎÎÍÍÍÎÎÍÎ; // 0x20
+        public ÏÏÏÌÌÍÎÌÍÏÏÎÎÍÌÌÍÏÎÌÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public int ÍÍÏÍÎÌÎÏÍÍÍÏÍÏÏÌÌÏÍÎÎÌÎ; // 0x30
+        public System.Collections.Generic.List`1<ÎÏÎÏÌÌÍÎÍÍÎÍÍÌÍÍÍÌÌÍÏÍÌ> ÎÍÍÎÏÌÏÏÌÏÍÏÍÏÎÍÌÏÌÏÍÍÍ; // 0x38
+        public int ÎÍÎÎÎÎÎÌÏÏÌÏÌÎÌÍÏÌÌÍÎÍÍ; // 0x40
 
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4E341310
@@ -1979,8 +2136,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÎÍÎÎÏÎÌÌÎÎÌÌÌÏÍÍÎÌÍÌ</summary>
     public class Enumerator_D81A : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÌÎÏÎÍÌÌÏÏÌÍÍÎÏÏÎÍÏÎÎÌÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public VRC.Localization.LocalizableString ÏÏÏÌÏÍÌÎÏÎÎÏÍÍÍÍÎÎÌÎÍÎÎ; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -2000,8 +2159,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÏÎÍÎÏÏÏÎÌÍÌÍÍÌÏÍÏÎÎÎÌ</summary>
     public class Enumerator_E107 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÍÍÎÌÌÌÌÏÏÎÏÎÌÍÌÏÏÏÎÌÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD56B9AEF0
@@ -2023,8 +2183,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÍÎÎÌÎÌÏÍÏÎÍÍÌÎÏÌÏÌÏÍÍ</summary>
     public class Enumerator_E8E4 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public float ÏÏÍÌÎÍÌÎÎÌÎÎÍÏÏÏÍÏÏÏÍÎÏ; // 0x20
+        public ÌÎÏÎÍÌÌÏÏÌÍÍÎÏÏÎÍÏÎÎÌÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public VRC.Core.ApiFile ÏÏÌÌÌÍÍÏÏÌÍÏÍÏÍÏÍÌÍÎÎÍÏ; // 0x30
+        public 0x664DFC48 ÍÏÌÍÎÍÎÏÏÌÍÎÌÏÏÎÏÍÎÌÏÏÏ; // 0x38
 
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4E341310
@@ -2043,8 +2207,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÍÍÏÏÍÏÏÎÎÎÍÎÎÏÎÎÍÏÏÍÏ</summary>
     public class Enumerator_EBFF : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÍÏÎÍÌÏÌÍÎÍÏÍÎÏÌÍÌÌÌÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -2065,8 +2230,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÍÌÍÏÏÍÌÌÎÏÏÍÏÍÍÍÏÍÍÎ</summary>
     public class Enumerator_EDE2 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÏÌÏÎÏÎÎÌÌÌÏÍÏÌÌÎÏÍÎÍÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -2087,8 +2253,12 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÍÎÍÌÎÎÎÏÎÎÏÎÎÌÏÎÍÍÌÎ</summary>
     public class Enumerator_F8FA : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public bool ÏÌÎÌÍÏÏÎÎÎÌÎÍÌÍÏÍÎÏÎÍÎÏ; // 0x20
+        public 0x665B2E50 ÌÌÎÎÎÍÎÎÍÏÍÎÏÎÏÏÎÎÎÏÎÍÍ; // 0x28
+        public 0x665B2B90 ÍÌÏÎÍÌÍÍÌÌÌÏÍÏÍÎÍÌÍÍÏÍÏ; // 0x30
+        public UnityEngine.GameObject ÍÎÎÎÏÍÏÎÌÍÏÌÎÏÎÏÎÎÎÏÎÍÏ; // 0x38
 
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -2107,8 +2277,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÌÎÏÏÏÍÏÎÏÌÍÎÌÌÎÏÍÌÏÎÍÎ</summary>
     public class Enumerator_F97A : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÍÌÍÌÎÍÍÌÍÎÍÍÍÌÌÌÎÏÌÍÎÍÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4E341310
@@ -2128,8 +2299,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÏÍÎÌÎÍÎÌÎÌÏÏÏÌÏÏÌÍÏÏÌÍ</summary>
     public class Enumerator_FA6A : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÌÏÍÎÏÎÏÎÍÎÎÏÎÎÍÏÎÏÏÌÏÎ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x20
 
         // ── Methods ──
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -2151,8 +2323,16 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÎÏÏÎÍÍÌÎÏÍÏÏÌÍÌÎÍÏÎÏ</summary>
     public class Enumerator_FA84 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÌÏÌÍÎÌÏÍÍÍÍÎÍÌÌÎÎÌÎÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÎÎÎÌÎÍÌÍÏÎÏÌÌÌÎÎÍÎÌÍÍÍÌ ÌÍÎÍÍÌÌÎÍÍÍÍÎÏÎÍÎÌÍÏÌÌÌ; // 0x28
+        public string ÍÏÌÍÏÎÎÍÌÏÌÏÌÎÎÏÍÎÍÏÍÎÍ; // 0x30
+        public bool ÌÍÎÌÍÍÏÏÍÎÍÏÌÍÌÌÌÎÌÏÌÏÍ; // 0x38
+        public ÏÌÍÌÎÍÏÌÎÎÍÌÌÍÎÌÎÎÍÌÌÎÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x40
+        public Cysharp.Threading.Tasks.UniTask ÏÎÍÏÏÏÍÏÏÍÌÏÎÏÏÍÍÌÌÌÍÍÍ; // 0x48
+        public float ÎÏÌÎÌÎÏÎÍÍÎÎÌÎÏÏÎÍÏÎÌÍÏ; // 0x58
+        public float ÌÍÍÏÏÎÎÍÎÏÌÍÍÌÌÌÏÍÍÎÌÏÏ; // 0x5C
 
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E3447C0
@@ -2173,8 +2353,11 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÎÎÏÌÌÏÌÍÍÏÏÌÏÍÏÏÍÎÌÏÌ</summary>
     public class Enumerator_FC61 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÏÏÏÌÌÍÎÌÍÏÏÎÎÍÌÌÍÏÎÌÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public float ÎÏÌÏÌÏÌÎÎÌÍÎÌÌÎÏÏÌÏÍÌÍÌ; // 0x28
+        public float ÍÌÍÎÏÌÎÍÎÌÌÍÏÎÍÍÌÏÎÎÏÍÍ; // 0x2C
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E847AB0
@@ -2195,8 +2378,9 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÎÍÍÏÎÎÍÍÌÌÍÌÏÌÌÎÌÏÌÏÌÌ</summary>
     public class Enumerator_FFA4 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public object System.Collections.IEnumerator.Current; // 0x18
+        public ÎÌÌÍÎÍÍÏÍÍÍÍÍÌÌÌÎÎÎÌÎÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0

@@ -7,12 +7,24 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class FormatterEmitter : Object
     {
+        public int helperFormatterNameId;
+        public string PRE_EMITTED_ASSEMBLY_NAME;
+        public string RUNTIME_EMITTED_ASSEMBLY_NAME;
+
         // ── Methods ──
         public void GetEmittedFormatter(){} // RVA: 0x7FFD55408D20
     }
 
     public class FormatterLocator : Object
     {
+        public object StrongFormatters_LOCK;
+        public object WeakFormatters_LOCK; // 0x8
+        public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.IFormatter> FormatterInstances; // 0x10
+        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<System.Type,VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter> StrongTypeFormatterMap; // 0x18
+        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<System.Type,VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter> WeakTypeFormatterMap; // 0x20
+        public System.Collections.Generic.List`1<0x66582728> FormatterLocators; // 0x28
+        public System.Collections.Generic.List`1<0x665826D0> FormatterInfos; // 0x30
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55402710
         public void add_FormatterResolve(){} // RVA: 0x7FFD55403BF0
@@ -27,6 +39,13 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class FormatterUtilities : Object
     {
+        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Type,System.Reflection.MemberInfo[]> MemberArrayCache;
+        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Type,System.Collections.Generic.Dictionary`2<string,System.Reflection.MemberInfo>> MemberMapCache; // 0x8
+        public object LOCK; // 0x10
+        public System.Collections.Generic.HashSet`1<System.Type> PrimitiveArrayTypes; // 0x18
+        public System.Reflection.FieldInfo UnityObjectRuntimeErrorStringField; // 0x20
+        public string UnityObjectRuntimeErrorString;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55410130
         public void GetSerializableMembersMap(){} // RVA: 0x7FFD55410CD0

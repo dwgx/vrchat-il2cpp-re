@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class DataCommonEventSource : EventSource
     {
+        public System.Data.DataCommonEventSource Log;
+        public long s_nextScopeId; // 0x8
+
         // ── Methods ──
         public void Trace(){} // RVA: 0x7FFD4E2ADC40 | overloaded x7
         public void EnterScope(){} // RVA: 0x7FFD4E2ADC40 | overloaded x5
@@ -279,15 +282,20 @@ namespace ThirdParty.DotNet.System.Data
 
     public class Index : Object
     {
-        public object HasRemoteAggregate;
-        public object ObjectID;
-        public object RecordStates;
-        public object RowFilter;
-        public object HasDuplicates;
-        public object RecordCount;
-        public object RefCount;
-        public object DoListChanged;
-        public object Table;
+        public 0x6652DF30 HasRemoteAggregate; // 0x10
+        public 0x665304A8[] ObjectID; // 0x18
+        public System.Comparison`1<0x6652EA30> RecordStates; // 0x20
+        public 0x6652F320 RowFilter; // 0x28
+        public 0x66424DA8 HasDuplicates; // 0x30
+        public 0x66530500 RecordCount; // 0x38
+        public int RefCount; // 0x40
+        public int DoListChanged; // 0x44
+        public System.Data.Listeners`1<0x6652F218> Table; // 0x48
+        public bool _suspendEvents; // 0x50
+        public bool _isSharable; // 0x51
+        public bool _hasRemoteAggregate; // 0x52
+        public int s_objectTypeCount;
+        public int _objectID; // 0x54
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD542E6640 | overloaded x3
@@ -344,7 +352,10 @@ namespace ThirdParty.DotNet.System.Data
 
     public class Listeners`1 : Object
     {
-        public object HasListeners;
+        public System.Collections.Generic.List`1<T> HasListeners;
+        public Func`2<T,T,bool> _filter;
+        public int _objectID;
+        public int _listenerReaderCount;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0
@@ -358,9 +369,15 @@ namespace ThirdParty.DotNet.System.Data
 
     public class RBTree`1 : Object
     {
-        public object Count;
-        public object HasDuplicates;
-        public object Item;
+        public TreePage<T>[] Count;
+        public int[] HasDuplicates;
+        public int Item;
+        public int _nextFreePageLine;
+        public int root;
+        public int _version;
+        public int _inUseNodeCount;
+        public int _inUseSatelliteTreeCount;
+        public 0x66530088 _accessMethod;
 
         // ── Methods ──
         public void CompareNode(){} // RVA: 0x7FFD4E2ADC40

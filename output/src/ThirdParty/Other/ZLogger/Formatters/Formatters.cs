@@ -14,7 +14,12 @@ namespace ThirdParty.Other.ZLogger.Formatters
 
     public class PlainTextZLoggerFormatter : Object
     {
-        public object WithLineBreak;
+        public byte[] WithLineBreak;
+        public System.Action`2<System.Buffers.IBufferWriter`1<byte>,System.Exception> exceptionFormatter; // 0x10
+        public ZLogger.MessageTemplateHolder prefixTemplate; // 0x18
+        public ZLogger.Formatters.MessageTemplateFormatter prefixFormatter; // 0x20
+        public ZLogger.MessageTemplateHolder suffixTemplate; // 0x28
+        public ZLogger.Formatters.MessageTemplateFormatter suffixFormatter; // 0x30
 
         // ── Methods ──
         public void get_WithLineBreak(){} // RVA: 0x7FFD4E426850

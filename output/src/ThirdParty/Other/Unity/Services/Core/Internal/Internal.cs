@@ -23,7 +23,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class ComponentRegistry : Object
     {
-        public object ComponentTypeHashToInstance;
+        public System.Collections.Generic.Dictionary`2<int,Unity.Services.Core.Internal.IServiceComponent> ComponentTypeHashToInstance; // 0x10
 
         // ── Methods ──
         public void get_ComponentTypeHashToInstance(){} // RVA: 0x7FFD4E35C380
@@ -36,8 +36,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreDiagnostics : Object
     {
-        public object Instance;
-        public object DiagnosticsComponentProvider;
+        public Unity.Services.Core.Internal.CoreDiagnostics Instance;
+        public System.Collections.Generic.IDictionary`2<string,string> DiagnosticsComponentProvider; // 0x10
+        public Unity.Services.Core.Telemetry.Internal.IDiagnosticsComponentProvider <DiagnosticsComponentProvider>k__BackingField; // 0x18
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD54B17180
@@ -56,7 +57,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreMetrics : Object
     {
-        public object Instance;
+        public Unity.Services.Core.Internal.CoreMetrics Instance;
+        public System.Collections.Generic.IDictionary`2<System.Type,Unity.Services.Core.Telemetry.Internal.IMetrics> <AllPackageMetrics>k__BackingField; // 0x10
 
         // ── Methods ──
         public void set_Instance(){} // RVA: 0x7FFD54B17320
@@ -65,8 +67,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CorePackageRegistry : Object
     {
-        public object Instance;
-        public object Registry;
+        public Unity.Services.Core.Internal.CorePackageRegistry Instance;
+        public Unity.Services.Core.Internal.IPackageRegistry Registry; // 0x10
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD54B11C80
@@ -80,6 +82,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistration : ValueType
     {
+        public Unity.Services.Core.Internal.IPackageRegistry m_Registry; // 0x10
+        public int m_PackageHash; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E77C3C0
         public void DependsOn(){} // RVA: 0x7FFD4E2ADC40
@@ -89,12 +94,13 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistry : Object
     {
-        public object Instance;
-        public object Type;
-        public object Options;
-        public object PackageRegistry;
-        public object ComponentRegistry;
-        public object ServiceRegistry;
+        public Unity.Services.Core.Internal.CoreRegistry Instance;
+        public string Type; // 0x10
+        public Í.ÌÏÍÏÏÎÌÌ Options; // 0x18
+        public Unity.Services.Core.InitializationOptions PackageRegistry; // 0x20
+        public Unity.Services.Core.Internal.IPackageRegistry ComponentRegistry; // 0x28
+        public Unity.Services.Core.Internal.IComponentRegistry ServiceRegistry; // 0x30
+        public Unity.Services.Core.Internal.IServiceRegistry <ServiceRegistry>k__BackingField; // 0x38
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD54B11FA0
@@ -116,6 +122,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistryInitializer : Object
     {
+        public Unity.Services.Core.Internal.CoreRegistry m_Registry; // 0x10
+        public System.Collections.Generic.List`1<int> m_SortedPackageTypeHashes; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
         public void InitializeRegistryAsync(){} // RVA: 0x7FFD54B124B0
@@ -123,6 +132,11 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class DependencyTree : Object
     {
+        public System.Collections.Generic.Dictionary`2<int,Unity.Services.Core.Internal.IInitializablePackage> PackageTypeHashToInstance; // 0x10
+        public System.Collections.Generic.Dictionary`2<int,int> ComponentTypeHashToPackageTypeHash; // 0x18
+        public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<int>> PackageTypeHashToComponentTypeHashDependencies; // 0x20
+        public System.Collections.Generic.Dictionary`2<int,Unity.Services.Core.Internal.IServiceComponent> ComponentTypeHashToInstance; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E389A50 | overloaded x2
     }
@@ -140,6 +154,10 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class DependencyTreeInitializeOrderSorter : ValueType
     {
+        public Unity.Services.Core.Internal.DependencyTree Tree; // 0x10
+        public System.Collections.Generic.ICollection`1<int> Target; // 0x18
+        public System.Collections.Generic.Dictionary`2<int,0x6662D500> m_PackageTypeHashExplorationHistory; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B15DB0
         public void SortRegisteredPackagesIntoTarget(){} // RVA: 0x7FFD54B15EB0
@@ -168,7 +186,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class HashException : Exception
     {
-        public object Hash;
+        public int Hash; // 0x90
 
         // ── Methods ──
         public void get_Hash(){} // RVA: 0x7FFD4E640660
@@ -217,7 +235,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class LockedComponentRegistry : Object
     {
-        public object Registry;
+        public Unity.Services.Core.Internal.IComponentRegistry Registry; // 0x10
 
         // ── Methods ──
         public void get_Registry(){} // RVA: 0x7FFD4E35C380
@@ -229,8 +247,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class LockedPackageRegistry : Object
     {
-        public object Registry;
-        public object Tree;
+        public Unity.Services.Core.Internal.IPackageRegistry Registry; // 0x10
 
         // ── Methods ──
         public void get_Registry(){} // RVA: 0x7FFD4E35C380
@@ -244,7 +261,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class MissingComponent : Object
     {
-        public object IntendedType;
+        public System.Type IntendedType; // 0x10
 
         // ── Methods ──
         public void get_IntendedType(){} // RVA: 0x7FFD4E35C380
@@ -253,13 +270,16 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class PackageInitializationInfo : Object
     {
+        public System.Type PackageType; // 0x10
+        public double InitializationTimeInSeconds; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class PackageRegistry : Object
     {
-        public object Tree;
+        public Unity.Services.Core.Internal.DependencyTree Tree; // 0x10
 
         // ── Methods ──
         public void get_Tree(){} // RVA: 0x7FFD4E35C380
@@ -274,13 +294,16 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class ServiceRegistry : Object
     {
+        public System.Collections.Generic.Dictionary`2<int,object> <ServiceTypeHashToInstance>k__BackingField; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B170C0
     }
 
     public class TaskAsyncOperation : AsyncOperationBase
     {
-        public object IsCompleted;
+        public System.Threading.Tasks.TaskScheduler IsCompleted;
+        public System.Threading.Tasks.Task m_Task; // 0x10
 
         // ── Methods ──
         public void get_IsCompleted(){} // RVA: 0x7FFD4F878C20
@@ -296,8 +319,12 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class UnityServicesInternal : Object
     {
-        public object State;
-        public object Registry;
+        public 0x66644CB8 State; // 0x10
+        public bool Registry; // 0x14
+        public System.Threading.Tasks.TaskCompletionSource`1<object> m_Initialization; // 0x18
+        public Unity.Services.Core.Internal.CoreRegistry <Registry>k__BackingField; // 0x20
+        public Unity.Services.Core.Internal.CoreMetrics <Metrics>k__BackingField; // 0x28
+        public Unity.Services.Core.Internal.CoreDiagnostics <Diagnostics>k__BackingField; // 0x30
 
         // ── Methods ──
         public void get_State(){} // RVA: 0x7FFD4E38E5C0

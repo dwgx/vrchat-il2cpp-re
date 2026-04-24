@@ -7,10 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class NavigationEventBase`1 : EventBase`1
     {
-        public object modifiers;
-        public object shiftKey;
-        public object altKey;
-        public object deviceType;
+        public 0x665DF588 modifiers;
+        public 0x6647D698 shiftKey;
 
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x7FFD4E079960

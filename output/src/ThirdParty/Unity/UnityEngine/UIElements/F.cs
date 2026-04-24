@@ -7,8 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class FieldMouseDragger`1 : BaseFieldMouseDragger
     {
-        public object dragging;
-        public object startValue;
+        public UnityEngine.UIElements.IValueField`1<T> dragging;
+        public UnityEngine.UIElements.VisualElement startValue;
+        public UnityEngine.Rect m_DragHotZone;
+        public bool <dragging>k__BackingField;
+        public T <startValue>k__BackingField;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -47,10 +50,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusEventBase`1 : EventBase`1
     {
-        public object relatedTarget;
-        public object direction;
-        public object focusController;
-        public object IsFocusDelegated;
+        public UnityEngine.UIElements.Focusable relatedTarget;
+        public 0x6647EDA0 direction;
+        public 0x6647EEA8 focusController;
+        public bool IsFocusDelegated;
 
         // ── Methods ──
         public void get_relatedTarget(){} // RVA: 0x7FFD4E078E90
@@ -69,12 +72,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Focusable : CallbackEventHandler
     {
-        public object focusController;
-        public object focusable;
-        public object tabIndex;
-        public object delegatesFocus;
-        public object excludeFromFocusRing;
-        public object canGrabFocus;
+        public bool focusController; // 0x20
+        public int focusable; // 0x24
+        public bool tabIndex; // 0x28
+        public bool delegatesFocus; // 0x29
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54FB3010
@@ -100,8 +101,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FontDefinition : ValueType
     {
-        public object font;
-        public object fontAsset;
+        public UnityEngine.Font font; // 0x10
+        public UnityEngine.TextCore.Text.FontAsset fontAsset; // 0x18
 
         // ── Methods ──
         public void get_font(){} // RVA: 0x7FFD505F9A30

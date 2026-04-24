@@ -8,6 +8,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÏÍÏÍÏÍÍÏÍÌÌÏÏÍÎÏÌÏÌÍ</summary>
     public class GalleryPhotosViewSibling_8B99 : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ cost; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ bundleSize; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ discount; // 0x30
+        public UnityEngine.GameObject discountPanel; // 0x38
+        public UnityEngine.UI.Button button; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD566CA070
         public void RaiseCancellation(){} // RVA: 0x7FFD566CA330

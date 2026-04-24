@@ -7,7 +7,31 @@ namespace VRC.Impostors
 {
     public class Impostor : MonoBehaviour
     {
-        public object _impostor;
+        public System.Collections.Generic.List`1<UnityEngine.Mesh> _impostor; // 0x20
+        public UnityEngine.MeshFilter meshFilter; // 0x28
+        public UnityEngine.Material material; // 0x30
+        public UnityEngine.MeshRenderer meshRenderer; // 0x38
+        public UnityEngine.Quaternion initialRotation; // 0x40
+        public UnityEngine.Transform childTransform; // 0x50
+        public UnityEngine.Vector3 projectedChildPoint; // 0x58
+        public VRC.Impostors.ImpostorAvatar impostorAvatar; // 0x68
+        public ImposterData Data; // 0x70
+        public UnityEngine.MaterialPropertyBlock ÌÎÌÎÍÌÌÍÌÎÍÎÏÏÌÎÌÏÍÍÏÎÍ; // 0x78
+        public UnityEngine.Bounds <ÌÌÍÎÎÌÌÍÎÍÎÎÏÏÌÏÍÍÏÏÌÍÌ>k__BackingField; // 0x80
+        public int ÌÏÎÏÌÍÎÍÍÎÍÍÏÍÍÏÍÍÏÌÌÍÏ; // 0x98
+        public int ÌÏÎÍÌÏÌÏÍÍÎÎÏÏÏÏÍÍÏÌÍÎÌ; // 0x9C
+        public System.Collections.Generic.List`1<System.ValueTuple`2<float,System.Collections.Generic.List`1<int>>> ÌÎÏÎÏÎÍÎÍÌÏÌÎÏÍÌÌÌÏÎÌÎÏ; // 0xA0
+        public int ÎÎÌÏÏÌÌÌÎÏÍÍÍÎÏÍÍÍÏÎÎÏÌ; // 0xA8
+        public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<System.ValueTuple`2<float,System.Collections.Generic.List`1<int>>>> ÏÎÍÏÌÌÌÎÍÎÍÍÏÌÎÎÎÍÌÌÍÏÏ;
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<System.Collections.Generic.List`1<int>>>> ÏÎÌÍÌÏÍÏÎÌÎÏÍÎÎÍÎÎÍÌÌÌÍ; // 0x8
+        public int[] ÏÎÏÌÏÏÌÏÎÍÎÌÌÎÎÍÍÎÏÏÎÏÌ; // 0x10
+        public VRC.Profiling.ProfilerMarker ÏÎÏÏÏÌÎÎÏÌÎÍÍÎÎÌÎÌÌÏÎÏÎ; // 0x18
+        public int ÏÎÍÍÌÎÎÍÏÎÍÌÍÎÌÍÌÍÌÏÌÍÍ; // 0xAC
+        public int ÍÏÏÏÏÌÍÏÌÌÎÏÎÌÌÌÍÎÏÏÍÌÍ; // 0xB0
+        public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,System.ValueTuple`3<int,UnityEngine.Vector3,float>> ÎÌÎÏÎÎÏÍÌÏÎÏÏÎÍÍÌÎÏÌÍÏÏ; // 0xB8
+        public System.Collections.Generic.Dictionary`2<int,string> ÌÌÌÏÎÌÍÎÍÍÎÌÎÌÎÌÌÌÍÌÌÍÎ; // 0x28
+        public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<int,UnityEngine.Vector3>>> ÏÌÏÍÍÎÏÎÌÍÏÎÍÏÍÍÌÍÌÌÌÎÌ; // 0x30
+        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<int,UnityEngine.Vector3>> ÏÌÎÏÌÌÌÍÌÌÎÎÍÏÍÌÌÌÌÍÌÌÏ; // 0xC0
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EEADB80
@@ -40,7 +64,13 @@ namespace VRC.Impostors
 
     public class ImpostorAvatar : MonoBehaviour
     {
-        public object _impostorAvatar;
+        public UnityEngine.Animator _impostorAvatar; // 0x20
+        public UnityEngine.Bounds ÎÏÍÎÎÌÎÏÍÎÏÍÌÍÌÌÏÍÌÌÌÍÍ; // 0x28
+        public System.Action`2<VRC.Impostors.ImpostorAvatar,int> ÏÌÏÎÏÏÌÍÌÎÍÍÌÍÎÍÏÏÌÎÏÎÎ; // 0x40
+        public int ÍÏÏÏÌÍÏÏÎÍÏÌÍÍÌÎÏÏÌÎÏÏÎ;
+        public int ÏÎÏÏÏÍÏÎÎÍÏÎÍÎÌÎÎÍÎÎÎÎÍ; // 0x48
+        public int ÍÌÏÏÎÎÏÏÏÎÍÎÏÍÎÏÍÏÎÎÎÏÍ; // 0x4C
+        public VRC.Impostors.Impostor[] ÏÌÌÎÍÏÍÎÎÍÍÏÍÏÍÍÍÏÌÏÏÏÎ; // 0x50
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EEB3C80

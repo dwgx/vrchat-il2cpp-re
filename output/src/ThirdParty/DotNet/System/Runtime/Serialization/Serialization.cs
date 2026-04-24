@@ -47,12 +47,21 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class SerializationInfo : Object
     {
-        public object FullTypeName;
-        public object AssemblyName;
-        public object MemberCount;
-        public object ObjectType;
-        public object IsFullTypeNameSetExplicit;
-        public object IsAssemblyNameSetExplicit;
+        public int FullTypeName;
+        public string AssemblyName;
+        public string MemberCount;
+        public string[] ObjectType; // 0x10
+        public object[] IsFullTypeNameSetExplicit; // 0x18
+        public System.Type[] IsAssemblyNameSetExplicit; // 0x20
+        public System.Collections.Generic.Dictionary`2<string,int> m_nameToIndex; // 0x28
+        public int m_currMember; // 0x30
+        public System.Runtime.Serialization.IFormatterConverter m_converter; // 0x38
+        public string m_fullTypeName; // 0x40
+        public string m_assemName; // 0x48
+        public System.Type objectType; // 0x50
+        public bool isFullTypeNameSetExplicit; // 0x58
+        public bool isAssemblyNameSetExplicit; // 0x59
+        public bool requireSameTokenInPartialTrust; // 0x5A
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538CA7C0 | overloaded x2
@@ -88,7 +97,8 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class StreamingContext : ValueType
     {
-        public m.WmiGuidObject Context;
+        public object Context; // 0x10
+        public 0x66433500 State; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538CE640 | overloaded x2

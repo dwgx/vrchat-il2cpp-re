@@ -7,8 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class TemplateAsset : VisualElementAsset
     {
-        public object attributeOverrides;
-        public object slotUsages;
+        public string attributeOverrides; // 0x70
+        public System.Collections.Generic.List`1<0x664850A0> slotUsages; // 0x78
+        public System.Collections.Generic.List`1<0x66486178> m_SlotUsages; // 0x80
 
         // ── Methods ──
         public void get_attributeOverrides(){} // RVA: 0x7FFD55046E80
@@ -17,6 +18,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextEditorEventHandler : Object
     {
+        public UnityEngine.UIElements.TextElement textElement; // 0x10
+        public 0x665E0298 editingUtilities; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
         public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7FFD4E341310
@@ -24,46 +28,43 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextElement : BindableElement
     {
-        public object uitkTextHandle;
-        public object text;
-        public object enableRichText;
-        public object parseEscapeSequences;
-        public object displayTooltipWhenElided;
-        public object isElided;
-        public object hasFocus;
-        public object UnityEngine.UIElements.INotifyValueChanged<System.String>.value;
-        public object edition;
-        public object UnityEngine.UIElements.ITextEdition.multiline;
-        public object UnityEngine.UIElements.ITextEdition.keyboardType;
-        public object UnityEngine.UIElements.ITextEdition.hideMobileInput;
-        public object UnityEngine.UIElements.ITextEdition.isReadOnly;
-        public object UnityEngine.UIElements.ITextEdition.maxLength;
-        public object UnityEngine.UIElements.ITextEdition.isDelayed;
-        public object UnityEngine.UIElements.ITextEdition.AcceptCharacter;
-        public object UnityEngine.UIElements.ITextEdition.UpdateScrollOffset;
-        public object UnityEngine.UIElements.ITextEdition.UpdateValueFromText;
-        public object UnityEngine.UIElements.ITextEdition.UpdateTextFromValue;
-        public object UnityEngine.UIElements.ITextEdition.MoveFocusToCompositeRoot;
-        public object UnityEngine.UIElements.ITextEdition.maskChar;
-        public object effectiveMaskChar;
-        public object UnityEngine.UIElements.ITextEdition.isPassword;
-        public object UnityEngine.UIElements.ITextEdition.autoCorrection;
-        public object renderedText;
-        public object originalText;
-        public object selection;
-        public object UnityEngine.UIElements.ITextSelection.isSelectable;
-        public object UnityEngine.UIElements.ITextSelection.cursorIndex;
-        public object UnityEngine.UIElements.ITextSelection.selectIndex;
-        public object UnityEngine.UIElements.ITextSelection.doubleClickSelectsWord;
-        public object UnityEngine.UIElements.ITextSelection.tripleClickSelectsLine;
-        public object UnityEngine.UIElements.ITextSelection.selectAllOnFocus;
-        public object UnityEngine.UIElements.ITextSelection.selectAllOnMouseUp;
-        public object UnityEngine.UIElements.ITextSelection.cursorPosition;
-        public object UnityEngine.UIElements.ITextSelection.lineHeightAtCursorPosition;
-        public object UnityEngine.UIElements.ITextSelection.selectionColor;
-        public object UnityEngine.UIElements.ITextSelection.cursorColor;
-        public object UnityEngine.UIElements.ITextSelection.cursorWidth;
-        public object selectingManipulator;
+        public string uitkTextHandle;
+        public 0x66484288 text; // 0x3D8
+        public string enableRichText; // 0x3E0
+        public bool parseEscapeSequences; // 0x3E8
+        public bool displayTooltipWhenElided; // 0x3E9
+        public bool isElided; // 0x3EA
+        public bool hasFocus; // 0x3EB
+        public string UnityEngine.UIElements.INotifyValueChanged<System.String>.value; // 0x8
+        public string edition; // 0x3F0
+        public bool UnityEngine.UIElements.ITextEdition.multiline; // 0x3F8
+        public 0x664841D8 UnityEngine.UIElements.ITextEdition.keyboardType; // 0x400
+        public bool UnityEngine.UIElements.ITextEdition.hideMobileInput; // 0x408
+        public 0x664E03D8 UnityEngine.UIElements.ITextEdition.isReadOnly; // 0x410
+        public 0x664E0430 UnityEngine.UIElements.ITextEdition.maxLength; // 0x418
+        public bool UnityEngine.UIElements.ITextEdition.isDelayed; // 0x41C
+        public bool UnityEngine.UIElements.ITextEdition.AcceptCharacter; // 0x41D
+        public int UnityEngine.UIElements.ITextEdition.UpdateScrollOffset; // 0x420
+        public bool UnityEngine.UIElements.ITextEdition.UpdateValueFromText; // 0x424
+        public System.Func`2<char,bool> UnityEngine.UIElements.ITextEdition.UpdateTextFromValue; // 0x428
+        public System.Action`1<bool> UnityEngine.UIElements.ITextEdition.MoveFocusToCompositeRoot; // 0x430
+        public System.Action UnityEngine.UIElements.ITextEdition.maskChar; // 0x438
+        public System.Action effectiveMaskChar; // 0x440
+        public System.Action UnityEngine.UIElements.ITextEdition.isPassword; // 0x448
+        public string UnityEngine.UIElements.ITextEdition.autoCorrection; // 0x450
+        public string renderedText; // 0x458
+        public char originalText; // 0x460
+        public bool selection; // 0x462
+        public bool UnityEngine.UIElements.ITextSelection.isSelectable; // 0x463
+        public 0x66484230 UnityEngine.UIElements.ITextSelection.cursorIndex; // 0x468
+        public bool UnityEngine.UIElements.ITextSelection.selectIndex; // 0x470
+        public bool UnityEngine.UIElements.ITextSelection.doubleClickSelectsWord; // 0x471
+        public bool UnityEngine.UIElements.ITextSelection.tripleClickSelectsLine; // 0x472
+        public bool UnityEngine.UIElements.ITextSelection.selectAllOnFocus; // 0x473
+        public bool UnityEngine.UIElements.ITextSelection.selectAllOnMouseUp; // 0x474
+        public UnityEngine.Color UnityEngine.UIElements.ITextSelection.cursorPosition; // 0x478
+        public UnityEngine.Color UnityEngine.UIElements.ITextSelection.lineHeightAtCursorPosition; // 0x488
+        public float UnityEngine.UIElements.ITextSelection.selectionColor; // 0x498
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55036830
@@ -168,17 +169,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
-        public object textInputBase;
-        public object text;
-        public object isReadOnly;
-        public object isPasswordField;
-        public object autoCorrection;
-        public object hideMobileInput;
-        public object keyboardType;
-        public object textEdition;
-        public object maxLength;
-        public object isDelayed;
-        public object maskChar;
+        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> textInputBase;
+        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> text; // 0x8
+        public int isReadOnly; // 0x440
+        public TextInputBase<T> isPasswordField; // 0x448
+        public string autoCorrection; // 0x10
+        public string hideMobileInput; // 0x18
+        public string keyboardType; // 0x20
+        public string textEdition; // 0x28
+        public string maxLength; // 0x30
+        public string isDelayed; // 0x38
+        public string maskChar; // 0x40
+        public string textInputUssName; // 0x48
+        public System.Action`1<bool> onIsReadOnlyChanged; // 0x450
 
         // ── Methods ──
         public void get_textInputBase(){} // RVA: 0x7FFD4E078E90
@@ -210,6 +213,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextShadow : ValueType
     {
+        public UnityEngine.Vector2 offset; // 0x10
+        public float blurRadius; // 0x18
+        public UnityEngine.Color color; // 0x1C
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD5503BA00 | overloaded x2
         public void GetHashCode(){} // RVA: 0x7FFD5503BAD0
@@ -221,6 +228,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueFieldTraits`2 : BaseFieldTraits`2
     {
+        public 0x66485780 m_IsReadOnly;
+        public 0x66485780 m_IsDelayed;
+
         // ── Methods ──
         public void Init(){}
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -228,9 +238,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueField`1 : TextInputBaseField`1
     {
-        public object textValueInput;
-        public object formatString;
-        public object value;
+        public UnityEngine.UIElements.BaseFieldMouseDragger textValueInput;
+        public bool formatString;
+        public bool value;
 
         // ── Methods ──
         public void get_textValueInput(){} // RVA: 0x7FFD4E078E90
@@ -263,6 +273,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransformData : ValueType
     {
+        public UnityEngine.UIElements.Rotate rotate; // 0x10
+        public UnityEngine.UIElements.Scale scale; // 0x28
+        public UnityEngine.UIElements.TransformOrigin transformOrigin; // 0x38
+        public UnityEngine.UIElements.Translate translate; // 0x4C
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x7FFD55019AC0
         public void CopyFrom(){} // RVA: 0x7FFD55019AF0
@@ -273,9 +288,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransformOrigin : ValueType
     {
-        public object x;
-        public object y;
-        public object z;
+        public UnityEngine.UIElements.Length x; // 0x10
+        public UnityEngine.UIElements.Length y; // 0x18
+        public float z; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55020FF0
@@ -294,6 +309,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransitionData : ValueType
     {
+        public System.Collections.Generic.List`1<0x66482550> transitionDelay; // 0x10
+        public System.Collections.Generic.List`1<0x66482550> transitionDuration; // 0x18
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StylePropertyName> transitionProperty; // 0x20
+        public System.Collections.Generic.List`1<0x66481370> transitionTimingFunction; // 0x28
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x7FFD5501A230
         public void CopyFrom(){} // RVA: 0x7FFD5501A500
@@ -304,8 +324,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransitionEventBase`1 : EventBase`1
     {
-        public object stylePropertyNames;
-        public object elapsedTime;
+        public UnityEngine.UIElements.StylePropertyNameCollection stylePropertyNames;
+        public double elapsedTime;
 
         // ── Methods ──
         public void get_stylePropertyNames(){} // RVA: 0x7FFD4E2ADC40
@@ -318,9 +338,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Translate : ValueType
     {
-        public object x;
-        public object y;
-        public object z;
+        public UnityEngine.UIElements.Length x; // 0x10
+        public UnityEngine.UIElements.Length y; // 0x18
+        public float z; // 0x20
+        public bool m_isNone; // 0x24
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55021510
@@ -339,6 +360,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TreeDataController`1 : Object
     {
+        public UnityEngine.UIElements.TreeData`1<T> m_TreeData;
+        public System.Collections.Generic.Stack`1<System.Collections.Generic.IEnumerator`1<int>> m_IteratorStack;
+
         // ── Methods ──
         public void SetRootItems(){} // RVA: 0x7FFD4E090A40
         public void GetDataForId(){} // RVA: 0x7FFD4E2ADC40
@@ -354,7 +378,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TreeData`1 : ValueType
     {
-        public object rootItemIds;
+        public System.Collections.Generic.IList`1<int> rootItemIds;
+        public System.Collections.Generic.Dictionary`2<int,UnityEngine.UIElements.TreeViewItemData`1<T>> m_Tree;
+        public System.Collections.Generic.Dictionary`2<int,int> m_ParentIds;
+        public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<int>> m_ChildrenIds;
 
         // ── Methods ──
         public void get_rootItemIds(){} // RVA: 0x7FFD4E078E90
@@ -385,10 +412,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TreeViewItemData`1 : ValueType
     {
-        public object id;
-        public object data;
-        public object children;
-        public object hasChildren;
+        public int id;
+        public T data;
+        public System.Collections.Generic.IList`1<UnityEngine.UIElements.TreeViewItemData`1<T>> children;
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD4E079960
@@ -403,7 +429,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
-        public object defaultValue;
+        public System.Type defaultValue; // 0x40
 
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x7FFD4E27B230

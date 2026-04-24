@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 {
     public class AbstractPurchasingModule : Object
     {
+        public UnityEngine.Purchasing.Extension.IPurchasingBinder m_Binder; // 0x10
+
         // ── Methods ──
         public void Configure(){} // RVA: 0x7FFD4E090980 | overloaded x2
         public void RegisterStore(){} // RVA: 0x7FFD54DD4F80
@@ -73,10 +75,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class ProductDescription : Object
     {
-        public object storeSpecificId;
-        public object metadata;
-        public object receipt;
-        public object transactionId;
+        public string storeSpecificId; // 0x10
+        public 0x66622450 metadata; // 0x18
+        public UnityEngine.Purchasing.ProductMetadata receipt; // 0x20
+        public string transactionId; // 0x28
+        public string <transactionId>k__BackingField; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DD5170 | overloaded x3
@@ -92,9 +95,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class PurchaseFailureDescription : Object
     {
-        public object productId;
-        public object reason;
-        public object message;
+        public string productId; // 0x10
+        public 0x66622500 reason; // 0x18
+        public string message; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53B09F50
@@ -108,24 +111,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class UnityUtil : MonoBehaviour
     {
-        public object currentTime;
-        public object persistentDataPath;
-        public object deviceUniqueIdentifier;
-        public object unityVersion;
-        public object cloudProjectId;
-        public object userId;
-        public object gameVersion;
-        public object sessionId;
-        public object platform;
-        public object isEditor;
-        public object deviceModel;
-        public object deviceName;
-        public object deviceType;
-        public object operatingSystem;
-        public object screenWidth;
-        public object screenHeight;
-        public object screenDpi;
-        public object screenOrientation;
+        public System.Collections.Generic.List`1<System.Action> currentTime;
+        public bool persistentDataPath; // 0x8
+        public System.Collections.Generic.List`1<0x664D9580> deviceUniqueIdentifier; // 0x10
+        public System.Collections.Generic.List`1<System.Action`1<bool>> unityVersion; // 0x20
 
         // ── Methods ──
         public void GetAnyComponentsOfType(){} // RVA: 0x7FFD4E078E90

@@ -7,6 +7,11 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 {
     public class BidirectionalDictionary`2 : Object
     {
+        public System.Collections.Generic.IDictionary`2<U,T> _firstToSecond;
+        public System.Collections.Generic.IDictionary`2<T,U> _secondToFirst;
+        public string _duplicateFirstErrorMessage;
+        public string _duplicateSecondErrorMessage;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09B8C0 | overloaded x2
         public void Set(){} // RVA: 0x7FFD4E2ADC40
@@ -32,13 +37,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class CollectionWrapper`1 : Object
     {
-        public object Count;
-        public object IsReadOnly;
+        public System.Collections.IList Count;
+        public System.Collections.Generic.ICollection`1<T> IsReadOnly;
         public object System.Collections.IList.IsFixedSize;
-        public object System.Collections.IList.Item;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object UnderlyingCollection;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E2ADC40
@@ -69,18 +70,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class DictionaryWrapper`2 : Object
     {
-        public object Keys;
-        public object Values;
+        public System.Collections.IDictionary Keys;
+        public System.Collections.Generic.IDictionary`2<U,T> Values;
         public object Item;
-        public object Count;
-        public object IsReadOnly;
-        public object System.Collections.IDictionary.Item;
-        public object System.Collections.IDictionary.IsFixedSize;
-        public object System.Collections.IDictionary.Keys;
-        public object System.Collections.IDictionary.Values;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object UnderlyingDictionary;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -114,7 +106,7 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
     {
-        public object Instance;
+        public Valve.Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD550F0660
@@ -147,6 +139,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class ReflectionUtils : Object
     {
+        public System.Type[] EmptyTypes;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD550F2640
         public void IsVirtual(){} // RVA: 0x7FFD550F2710
@@ -189,9 +183,6 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class StringUtils : Object
     {
-        public n<T1717646080,string> valueSelector;
-        public string testValue;
-
         // ── Methods ──
         public void FormatWith(){} // RVA: 0x7FFD550F8780 | overloaded x5
         public void CreateStringWriter(){} // RVA: 0x7FFD550F88C0
@@ -205,6 +196,10 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _lock;
+        public System.Collections.Generic.Dictionary`2<U,T> _store;
+        public System.Func`2<U,T> _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Get(){} // RVA: 0x7FFD4E2ADC40

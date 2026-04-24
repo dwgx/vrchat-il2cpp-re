@@ -36,8 +36,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BlendShape : ValueType
     {
-        public object firstVertex;
-        public object vertexCount;
+        public uint firstVertex; // 0x10
+        public uint vertexCount; // 0x14
+        public bool m_HasNormals; // 0x18
+        public bool m_HasTangents; // 0x19
 
         // ── Methods ──
         public void get_firstVertex(){} // RVA: 0x7FFD543B3F90
@@ -46,14 +48,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoneWeight : ValueType
     {
-        public object weight0;
-        public object weight1;
-        public object weight2;
-        public object weight3;
-        public object boneIndex0;
-        public object boneIndex1;
-        public object boneIndex2;
-        public object boneIndex3;
+        public float weight0; // 0x10
+        public float weight1; // 0x14
+        public float weight2; // 0x18
+        public float weight3; // 0x1C
+        public int boneIndex0; // 0x20
+        public int boneIndex1; // 0x24
+        public int boneIndex2; // 0x28
+        public int boneIndex3; // 0x2C
 
         // ── Methods ──
         public void get_weight0(){} // RVA: 0x7FFD4E364D20
@@ -78,6 +80,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BootConfigData : Object
     {
+        public UIntPtr m_Ptr; // 0x10
+
         // ── Methods ──
         public void WrapBootConfigData(){} // RVA: 0x7FFD54C750E0
         public void .ctor(){} // RVA: 0x7FFD54C75170
@@ -85,17 +89,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoundingSphere : ValueType
     {
+        public UnityEngine.Vector3 position; // 0x10
+        public float radius; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C48D90
     }
 
     public class Bounds : ValueType
     {
-        public object center;
-        public object size;
-        public object extents;
-        public object min;
-        public object max;
+        public UnityEngine.Vector3 center; // 0x10
+        public UnityEngine.Vector3 size; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C83E50
@@ -131,12 +135,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoundsInt : ValueType
     {
-        public object min;
-        public object xMin;
-        public object yMin;
-        public object zMin;
-        public object position;
-        public object size;
+        public UnityEngine.Vector3Int min; // 0x10
+        public UnityEngine.Vector3Int xMin; // 0x1C
 
         // ── Methods ──
         public void get_min(){} // RVA: 0x7FFD54C84B20

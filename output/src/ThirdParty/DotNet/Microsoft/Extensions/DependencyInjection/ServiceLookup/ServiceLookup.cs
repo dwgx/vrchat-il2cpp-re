@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 {
     public class CallSiteChain : Object
     {
+        public System.Collections.Generic.Dictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ChainItemInfo> _callSiteChain; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537499A0
         public void CheckCircularDependency(){} // RVA: 0x7FFD53749AE0
@@ -18,7 +20,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteFactory : Object
     {
-        public object Descriptors;
+        public Microsoft.Extensions.DependencyInjection.ServiceDescriptor[] Descriptors; // 0x10
+        public System.Collections.Concurrent.ConcurrentDictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCacheKey,Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite> _callSiteCache; // 0x18
+        public System.Collections.Generic.Dictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceDescriptorCacheItem> _descriptorLookup; // 0x20
+        public System.Collections.Concurrent.ConcurrentDictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,object> _callSiteLocks; // 0x28
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.StackGuard _stackGuard; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5374A600
@@ -43,7 +49,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteRuntimeResolver : CallSiteVisitor`2
     {
-        public object Instance;
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD5374F720
@@ -64,6 +70,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteValidator : CallSiteVisitor`2
     {
+        public System.Collections.Concurrent.ConcurrentDictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCacheKey,System.Type> _scopedServices; // 0x18
+
         // ── Methods ──
         public void ValidateCallSite(){} // RVA: 0x7FFD53750530
         public void ValidateResolution(){} // RVA: 0x7FFD53750610
@@ -79,6 +87,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteVisitor`2 : Object
     {
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.StackGuard _stackGuard; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void VisitCallSite(){} // RVA: 0x7FFD4E2ADC40
@@ -96,10 +106,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ConstantCallSite : ServiceCallSite
     {
-        public object DefaultValue;
-        public object ServiceType;
-        public object ImplementationType;
-        public object Kind;
+        public System.Type DefaultValue; // 0x40
+        public ÎÌÌÎÌÌÌÏÌÏ ServiceType; // 0x48
 
         // ── Methods ──
         public void get_DefaultValue(){} // RVA: 0x7FFD4E5F95E0
@@ -111,11 +119,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ConstructorCallSite : ServiceCallSite
     {
-        public object ConstructorInfo;
-        public object ParameterCallSites;
-        public object ServiceType;
-        public object ImplementationType;
-        public object Kind;
+        public System.Reflection.ConstructorInfo ConstructorInfo; // 0x40
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite[] ParameterCallSites; // 0x48
+        public System.Type ServiceType; // 0x50
+        public ÎÌÌÎÌÌÌÏÌÏ ImplementationType; // 0x58
 
         // ── Methods ──
         public void get_ConstructorInfo(){} // RVA: 0x7FFD4E3BE740
@@ -128,10 +135,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class FactoryCallSite : ServiceCallSite
     {
-        public object Factory;
-        public object ServiceType;
-        public object ImplementationType;
-        public object Kind;
+        public System.Func`2<System.IServiceProvider,object> Factory; // 0x40
+        public System.Type ServiceType; // 0x48
+        public ÎÌÌÎÌÌÌÏÌÏ ImplementationType; // 0x50
 
         // ── Methods ──
         public void get_Factory(){} // RVA: 0x7FFD4E3BE740
@@ -143,11 +149,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class IEnumerableCallSite : ServiceCallSite
     {
-        public object ItemType;
-        public object ServiceCallSites;
-        public object ServiceType;
-        public object ImplementationType;
-        public object Kind;
+        public System.Type ItemType; // 0x40
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite[] ServiceCallSites; // 0x48
+        public ÎÌÌÎÌÌÌÏÌÏ ServiceType; // 0x50
 
         // ── Methods ──
         public void get_ItemType(){} // RVA: 0x7FFD4E3BE740
@@ -160,8 +164,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ResultCache : ValueType
     {
-        public object Location;
-        public object Key;
+        public 0x666104F0 Location; // 0x10
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCacheKey Key; // 0x18
 
         // ── Methods ──
         public void None(){} // RVA: 0x7FFD53752070
@@ -174,8 +178,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class RuntimeResolverContext : ValueType
     {
-        public object Scope;
-        public object AcquiredLocks;
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope Scope; // 0x10
+        public Í AcquiredLocks; // 0x18
 
         // ── Methods ──
         public void get_Scope(){} // RVA: 0x7FFD4EEF9F60
@@ -186,7 +190,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class RuntimeServiceProviderEngine : ServiceProviderEngine
     {
-        public object Instance;
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.RuntimeServiceProviderEngine Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD537523B0
@@ -197,8 +201,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceCacheKey : ValueType
     {
-        public object ServiceIdentifier;
-        public object Slot;
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier ServiceIdentifier; // 0x10
+        public int Slot; // 0x20
 
         // ── Methods ──
         public void get_ServiceIdentifier(){} // RVA: 0x7FFD4E6E0590
@@ -210,13 +214,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceCallSite : Object
     {
-        public object ServiceType;
-        public object ImplementationType;
-        public object Kind;
-        public object Cache;
-        public object Value;
-        public object Key;
-        public object CaptureDisposable;
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ResultCache ServiceType; // 0x10
+        public object ImplementationType; // 0x30
+        public object Kind; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51DE1C80
@@ -233,9 +233,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceIdentifier : ValueType
     {
-        public object ServiceKey;
-        public object ServiceType;
-        public object IsConstructedGenericType;
+        public object ServiceKey; // 0x10
+        public System.Type ServiceType; // 0x18
 
         // ── Methods ──
         public void get_ServiceKey(){} // RVA: 0x7FFD4EEF9F60
@@ -252,9 +251,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceProviderCallSite : ServiceCallSite
     {
-        public object ServiceType;
-        public object ImplementationType;
-        public object Kind;
+        public System.Type ServiceType; // 0x40
+        public System.Type ImplementationType; // 0x48
+        public ÎÌÌÎÌÌÌÏÌÏ Kind; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53753FE0
@@ -272,10 +271,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceProviderEngineScope : Object
     {
-        public object ResolvedServices;
-        public object Sync;
-        public object IsRootScope;
-        public object RootProvider;
+        public bool ResolvedServices; // 0x10
+        public System.Collections.Generic.List`1<object> Sync; // 0x18
+        public System.Collections.Generic.Dictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCacheKey,object> IsRootScope; // 0x20
+        public bool RootProvider; // 0x28
+        public Microsoft.Extensions.DependencyInjection.ServiceProvider <RootProvider>k__BackingField; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537542A0
@@ -293,6 +293,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class StackGuard : Object
     {
+        public int _executionStackCount; // 0x10
+
         // ── Methods ──
         public void TryEnterOnCurrentStack(){} // RVA: 0x7FFD4E426850
         public void RunOnEmptyStack(){} // RVA: 0x7FFD4E2ADC40
