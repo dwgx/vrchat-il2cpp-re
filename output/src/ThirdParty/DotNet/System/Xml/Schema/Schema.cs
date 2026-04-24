@@ -7,38 +7,7 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class XmlBaseConverter : XmlValueConverter
     {
-        public dDelegate.mpileGroup SchemaType; // 0x10
-        public dDelegate.Defs TypeCode; // 0x18
-        public object XmlTypeName; // 0x20
-        public object DefaultClrType;
-        public object IEnumerableType; // 0x8
-        public object IListType; // 0x10
-        public object ObjectArrayType; // 0x18
-        public object StringArrayType; // 0x20
-        public object XmlAtomicValueArrayType; // 0x28
-        public object DecimalType; // 0x30
-        public object Int32Type; // 0x38
-        public object Int64Type; // 0x40
-        public object StringType; // 0x48
-        public object XmlAtomicValueType; // 0x50
-        public object ObjectType; // 0x58
-        public object ByteType; // 0x60
-        public object Int16Type; // 0x68
-        public object SByteType; // 0x70
-        public object UInt16Type; // 0x78
-        public object UInt32Type; // 0x80
-        public object UInt64Type; // 0x88
-        public object XPathItemType; // 0x90
-        public object DoubleType; // 0x98
-        public object SingleType; // 0xA0
-        public object DateTimeType; // 0xA8
-        public object DateTimeOffsetType; // 0xB0
-        public object BooleanType; // 0xB8
-        public object ByteArrayType; // 0xC0
-        public object XmlQualifiedNameType; // 0xC8
-        public object UriType; // 0xD0
-        public object TimeSpanType; // 0xD8
-        public object XPathNavigatorType; // 0xE0
+        public ÌÍÌÎÎÌÎÌÏÌÎÍ SchemaType; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5457E520 | overloaded x4
@@ -120,8 +89,6 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlListConverter : XmlBaseConverter
     {
-        public dDelegate.onCDataAttribute atomicConverter; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5459EB20 | overloaded x3
         public void Create(){} // RVA: 0x7FFD5459EB80

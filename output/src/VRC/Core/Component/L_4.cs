@@ -308,6 +308,62 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÎÌÌÎÏÌÍÏÌÌÌÌÌÏÌÍÎÎÌÏÍÍ</summary>
     public class LifecycleComponentSibling_46FD
     {
+        public aypointList masterProps; // 0x100
+        public object groundLayers; // 0x108
+        public object collisionLayers; // 0x10C
+        public float collisionThreshold; // 0x110
+        public ce.peed collisionResistance; // 0x118
+        public r[] collisionResistanceMultipliers; // 0x120
+        public int maxCollisions; // 0x128
+        public float regainPinSpeed; // 0x12C
+        public float boostFalloff; // 0x130
+        public object defaults; // 0x138
+        public headForSpeedFactor[] groupOverrides; // 0x170
+        public float knockOutDistance; // 0x178
+        public float unpinnedMuscleWeightMlp; // 0x17C
+        public float maxRigidbodyVelocity; // 0x180
+        public float pinWeightThreshold; // 0x184
+        public bool unpinnedMuscleKnockout; // 0x188
+        public bool dropProps; // 0x189
+        public bool canGetUp; // 0x18A
+        public float getUpDelay; // 0x18C
+        public float blendToAnimationTime; // 0x190
+        public float maxGetUpVelocity; // 0x194
+        public float minGetUpDuration; // 0x198
+        public float getUpCollisionResistanceMlp; // 0x19C
+        public float getUpRegainPinSpeedMlp; // 0x1A0
+        public float getUpKnockOutDistanceMlp; // 0x1A4
+        public amut getUpOffsetProne; // 0x1A8
+        public amut getUpOffsetSupine; // 0x1B4
+        public ntalRatio onGetUpProne; // 0x1C0
+        public ntalRatio onGetUpSupine; // 0x1D8
+        public ntalRatio onLoseBalance; // 0x1F0
+        public ntalRatio onLoseBalanceFromPuppet; // 0x208
+        public ntalRatio onLoseBalanceFromGetUp; // 0x220
+        public ntalRatio onRegainBalance; // 0x238
+        public e OnCollision; // 0x250
+        public reshold OnCollisionImpulse; // 0x258
+        public object <state>k__BackingField; // 0x260
+        public bool canMoveTarget; // 0x264
+        public float unpinnedTimer; // 0x268
+        public float getUpTimer; // 0x26C
+        public amut hipsForward; // 0x270
+        public amut hipsUp; // 0x27C
+        public float getupAnimationBlendWeight; // 0x288
+        public float getupAnimationBlendWeightV; // 0x28C
+        public bool getUpTargetFixed; // 0x290
+        public p0n lastNormalMode; // 0x294
+        public int collisions; // 0x298
+        public bool eventsEnabled; // 0x29C
+        public float lastKnockOutDistance; // 0x2A0
+        public float knockOutDistanceSqr; // 0x2A4
+        public bool getupDisabled; // 0x2A8
+        public bool hasCollidedSinceGetUp; // 0x2A9
+        public bool hasBoosted; // 0x2AA
+        public ce.get_BrakeInput broadcaster; // 0x2B0
+        public amut getUpPosition; // 0x2B8
+        public bool dropPropFlag; // 0x2C4
+
         // ── Methods ──
         public void ContainsChild(){} // RVA: 0x7FFD4E090A40
         public void ContainsChild_B3AE775ACA0B(){} // RVA: 0x7FFD4E090A40
@@ -527,6 +583,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÎÏÌÏÍÏÎÎÌÏÎÏÎÏÎÌÎÌÎÎÍÌ</summary>
     public class LifecycleComponent_0F02 : MonoBehaviour
     {
+        public string ÍÍÌÍÎÌÍÏÌÍÌÎÏÎÎÎÏÍÍÎÏÌÏ;
+        public int ÌÎÏÏÌÍÍÎÌÏÏÍÏÏÌÏÎÍÏÍÏÎÍ;
+        public object ÎÌÎÎÌÌÎÏÎÏÌÏÎÌÍÌÏÏÌÍÌÌÎ; // 0x18
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4EEC21F0
         public void OnDisable(){} // RVA: 0x7FFD4EEC2270
@@ -1380,6 +1440,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÎÌÍÏÏÍÎÎÍÏÎÌÎÌÌÏÌÌÏÌÍÌ</summary>
     public class LifecycleComponent_8CE0 : MonoBehaviour
     {
+        public ed worldSpaceRay; // 0x180
+        public tionX swipeStart; // 0x198
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56D48240
         public void RaiseCancellation(){} // RVA: 0x7FFD56D482D0
@@ -1399,6 +1462,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÍÏÎÍÌÏÌÍÎÍÏÍÎÏÌÍÌÌÌÌÍÍ</summary>
     public class LifecycleComponent_8EA3 : MonoBehaviour
     {
+        public UIntPtr mEmbreeDevice; // 0x10
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4F545AE0
         public void RaiseCancellation(){} // RVA: 0x7FFD4F545B80

@@ -7,8 +7,6 @@ namespace ThirdParty.DotNet.System
 {
     public class Empty : Object
     {
-        public ÏÌÌÏÎÌÌÍÏÎÏÌÎÏÏÏÍÍÍÌ Value;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void ToString(){} // RVA: 0x7FFD53A956B0
@@ -18,8 +16,6 @@ namespace ThirdParty.DotNet.System
 
     public class EmptyArray`1 : Object
     {
-        public numeratorObject.NullAttribute[] Value;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
     }
@@ -82,9 +78,24 @@ namespace ThirdParty.DotNet.System
 
     public class Environment : Object
     {
-        public string CurrentDirectory;
-        public string CurrentManagedThreadId;
-        public engthLimit HasShutdownStarted; // 0x8
+        public object CurrentDirectory;
+        public object CurrentManagedThreadId;
+        public object HasShutdownStarted;
+        public object MachineName;
+        public object NewLine;
+        public object Platform;
+        public object OSVersion;
+        public object StackTrace;
+        public object SystemDirectory;
+        public object TickCount;
+        public object UserDomainName;
+        public object UserName;
+        public object Version;
+        public object Is64BitOperatingSystem;
+        public object Is64BitProcess;
+        public object ProcessorCount;
+        public object IsRunningOnWindows;
+        public object IsUnix;
 
         // ── Methods ──
         public void GetResourceString(){} // RVA: 0x7FFD53AB5060 | overloaded x2
@@ -135,8 +146,6 @@ namespace ThirdParty.DotNet.System
 
     public class EventArgs : Object
     {
-        public ingTables Empty;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void .cctor(){} // RVA: 0x7FFD53A34A20

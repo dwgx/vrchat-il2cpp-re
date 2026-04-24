@@ -467,6 +467,11 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÍÎÌÎÌÍÍÌÎÎÍÏÏÎÏÍÎÏÏÎÎ</summary>
     public class PointerEnterPointerExitHandler_340E : MonoBehaviour
     {
+        public string sofaName; // 0x18
+        public byte[] data; // 0x20
+        public float volume; // 0x28
+        public sedMetadataStream.lable normType; // 0x2C
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56CAFE20
         public void RaiseCancellation(){} // RVA: 0x7FFD56CAFFF0

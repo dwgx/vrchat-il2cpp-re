@@ -7,8 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class AnimatorParameterUnion : Object
     {
-        public dexes.rsiveWriteCount Type; // 0x10
-        public object Value; // 0x18
+        public object Type;
+        public object Value;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -28,7 +28,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class DataStorage : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object EntriesTypeLength;
+        public object EntriesLength;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -63,8 +65,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class DataStorageEntryUnion : Object
     {
-        public dexes.IsDeletedMember Type; // 0x10
-        public object Value; // 0x18
+        public object Type;
+        public object Value;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -88,7 +90,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class DestructiblePlayer : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object Health;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -112,7 +115,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ObjectPool : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object DataLength;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -142,7 +146,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PlayerDrone : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object Throttle;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -166,8 +171,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PosePositionDataUnion : Object
     {
-        public dexes.onNullableType Type; // 0x10
-        public object Value; // 0x18
+        public object Type;
+        public object Value;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -183,7 +188,20 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseRecorder : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object Contents;
+        public object MotionFlags;
+        public object ExtraFlags;
+        public object StandingHeight;
+        public object AngVelocity;
+        public object Gestures;
+        public object Fingers;
+        public object PoseType;
+        public object Puppet;
+        public object EyeLookTargetPosition;
+        public object EyeClosedAmount;
+        public object SpineLengthFactor;
+        public object FaceTrackedVisemes;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -239,10 +257,13 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class QuaternionT : Object
     {
-        public float identity; // 0x10
-        public float magnitude; // 0x14
-        public float sqrMagnitude; // 0x18
-        public float X; // 0x1C
+        public object identity;
+        public object magnitude;
+        public object sqrMagnitude;
+        public object X;
+        public object Y;
+        public object Z;
+        public object W;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55192C50 | overloaded x2
@@ -269,7 +290,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SerializedObjects : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object ObjectsTypeLength;
+        public object ObjectsLength;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -304,8 +327,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SerializedTypeUnion : Object
     {
-        public dexes.serOnly Type; // 0x10
-        public object Value; // 0x18
+        public object Type;
+        public object Value;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -337,7 +360,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SparseSerializedObjects : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object Objects;
+        public object BitmapLength;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -369,7 +394,12 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncAnim : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object AnimationIsPlaying;
+        public object AnimationStatesLength;
+        public object AnimatorLayersLength;
+        public object AnimatorParametersTypeLength;
+        public object AnimatorParametersLength;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -419,7 +449,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncPhysicsData : ValueType
     {
-        public dingValue.ectoryInformation ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object Flags;
+        public object Position;
+        public object Rotation;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -437,7 +470,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoPlayer : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object IsPlaying;
+        public object Time;
+        public object PlaybackSpeed;
+        public object CurrentPlaylistIndex;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -467,7 +504,13 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoStream : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object IsPlaying;
+        public object Time;
+        public object PlaybackRate;
+        public object CurrentPlaylistIndex;
+        public object SyncType;
+        public object SyncMinutes;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -503,7 +546,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Udon : ValueType
     {
-        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object DataTypeLength;
+        public object DataLength;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -538,8 +583,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonValueUnion : Object
     {
-        public dexes.s Type; // 0x10
-        public object Value; // 0x18
+        public object Type;
+        public object Value;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -627,7 +672,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector2 : ValueType
     {
-        public dingValue.ectoryInformation ByteBuffer; // 0x10
+        public object ByteBuffer;
+        public object X;
+        public object Y;
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -645,8 +692,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector2T : Object
     {
-        public float zero; // 0x10
-        public float magnitude; // 0x14
+        public object zero;
+        public object magnitude;
+        public object sqrMagnitude;
+        public object X;
+        public object Y;
 
         // ── Methods ──
         public void ToNumerics(){} // RVA: 0x7FFD50C943D0
@@ -671,9 +721,12 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3T : Object
     {
-        public float zero; // 0x10
-        public float magnitude; // 0x14
-        public float sqrMagnitude; // 0x18
+        public h8.eteValue zero;
+        public object magnitude;
+        public object sqrMagnitude;
+        public object X;
+        public object Y;
+        public object Z;
 
         // ── Methods ──
         public void ToNumerics(){} // RVA: 0x7FFD4EB56D20

@@ -19,7 +19,7 @@ namespace VRC.Udon
 
     public class AbstractUdonBehaviourEventProxy : MonoBehaviour
     {
-        public er.Order EventReceiver; // 0x20
+        public object EventReceiver;
 
         // ── Methods ──
         public void get_EventReceiver(){} // RVA: 0x7FFD4E36F0C0
@@ -93,46 +93,23 @@ namespace VRC.Udon
 
     public class UdonBehaviour : AbstractUdonBehaviour
     {
-        public a SyncMethod; // 0x40
-        public bool HasDoneStart; // 0x48
-        public bool HasError; // 0x49
-        public bool SyncIsContinuous; // 0x4A
-        public bool SyncIsManual; // 0x4B
-        public ZE_V_OFFSET OnInit; // 0x4C
-        public er.terialCombine RequestSerializationHook; // 0x50
-        public rectoryInformation<er.Order,ted> DisableInteractive;
-        public ileFullDirectoryInformation<er.Order> IsNetworkingSupported; // 0x8
-        public bool IsInteractive; // 0x58
-        public string UpdateOrder;
-        public bool DisableEventProcessing; // 0x59
-        public int ProgramId; // 0x5C
-        public er.therRotation ProgramSize; // 0x60
-        public ted IsInitialized; // 0x68
-        public BillboardDistance InteractionText; // 0x70
-        public bool SyncMetadataTable; // 0x78
-        public string _categoryName; // 0x80
-        public bool _hasError; // 0x88
-        public bool _hasDoneStart; // 0x89
-        public bool _initialized; // 0x8A
-        public bool _isNetworkingSupported; // 0x8B
-        public bool _hasInteractiveEvents; // 0x8C
-        public bool _hasUpdateEvent; // 0x8D
-        public bool _hasLateUpdateEvent; // 0x8E
-        public bool _hasFixedUpdateEvent; // 0x8F
-        public bool _hasPostLateUpdateEvent; // 0x90
-        public URA.DateTime<string,URA.woDigitYearMax<uint>> _eventTable; // 0x98
-        public URA.DateTime<8BCA7B5CC287C51E0E3E<string,string>,string> _symbolNameCache; // 0xA0
-        public object _managedUpdateProfilerMarker; // 0x10
-        public object _managedLateUpdateProfilerMarker; // 0x18
-        public object _managedFixedUpdateProfilerMarker; // 0x20
-        public object _postLateUpdateProfilerMarker; // 0x28
-        public URA.ap<uint,8BCA7B5CC287C51E0E3E<uint,uint>> _variableToChangeEvent; // 0xA8
-        public URA.woDigitYearMax<er.pin> _eventProxies; // 0xB0
-        public string serializedPublicVariablesBytesString; // 0xB8
-        public URA.woDigitYearMax<?> publicVariablesUnityEngineObjects; // 0xC0
-        public object publicVariablesSerializationDataFormat; // 0xC8
-        public object _preloadUdonProgramProfilerMarker; // 0xD0
-        public object _initializeUdonContentProfilerMarker; // 0xD8
+        public object SyncMethod;
+        public object HasDoneStart;
+        public object HasError;
+        public object SyncIsContinuous;
+        public object SyncIsManual;
+        public object OnInit;
+        public object RequestSerializationHook;
+        public object DisableInteractive;
+        public object IsNetworkingSupported;
+        public object IsInteractive;
+        public object UpdateOrder;
+        public object DisableEventProcessing;
+        public object ProgramId;
+        public object ProgramSize;
+        public object IsInitialized;
+        public object InteractionText;
+        public object SyncMetadataTable;
 
         // ── Methods ──
         public void get_SyncMethod(){} // RVA: 0x7FFD552A96D0
@@ -354,71 +331,15 @@ namespace VRC.Udon
 
     public class UdonManager : MonoBehaviour
     {
-        public ileFullDirectoryInformation<ted> HasLoaded;
-        public ÎÌÍÏÏÌÍÏ Instance; // 0x8
-        public er.Order SignatureVerificationFailed; // 0x20
-        public bool SignatureVerificationSuccess; // 0x28
-        public er.therRotation SignatureVerificationSkipped; // 0x10
-        public y WorldSignatureVerificationEnabled; // 0x18
-        public bool IsSceneLoading; // 0x29
-        public bool DebugLogging; // 0x2A
-        public URA.DateTime<Type.ntWithType,URA.DateTime<BuffersImpl,URA.onsDepth<er.Order>>> LightReservedLayerMask; // 0x30
-        public URA.onsDepth<er.Order> _udonBehavioursToRegister; // 0x38
-        public sageKind._id<int> _udonRunProgramDepth; // 0x40
-        public URA.llable>k__BackingField<er.Order> _updateUdonBehaviours; // 0x48
-        public URA.llable>k__BackingField<er.Order> _lateUpdateUdonBehaviours; // 0x50
-        public URA.llable>k__BackingField<er.Order> _fixedUpdateUdonBehaviours; // 0x58
-        public URA.llable>k__BackingField<er.Order> _postLateUpdateUdonBehaviours; // 0x60
-        public URA.ge<8BCA7B5CC287C51E0E3E<er.Order,bool>> _updateUdonBehavioursRegistrationQueue; // 0x68
-        public URA.ge<8BCA7B5CC287C51E0E3E<er.Order,bool>> _lateUpdateUdonBehavioursRegistrationQueue; // 0x70
-        public URA.ge<8BCA7B5CC287C51E0E3E<er.Order,bool>> _fixedUpdateUdonBehavioursRegistrationQueue; // 0x78
-        public URA.ge<8BCA7B5CC287C51E0E3E<er.Order,bool>> _postLateUpdateUdonBehavioursRegistrationQueue; // 0x80
-        public ration _postLateUpdater; // 0x88
-        public URA.DateTime<string,URA.onsDepth<er.Order>> _inputUdonBehaviours; // 0x90
-        public URA.ge<E<er.Order,string,bool>> _inputUpdateUdonBehavioursRegistrationQueue; // 0x98
-        public string UDON_EVENT_ONPLAYERRESPAWN;
-        public string UDON_EVENT_ONPLAYERDATAUPDATED;
-        public string UDON_EVENT_ONPLAYERRESTORED;
-        public string UDON_EVENT_ONINSTANCERESTORED;
-        public string UDON_EVENT_ONDESERIALIZATION;
-        public string UDON_EVENT_ONSCREENUPDATE;
-        public int UDON_MAX_RUNPROGRAM_DEPTH;
-        public string UDON_EVENT_ONPOSTSERIALIZATION;
-        public string UDON_EVENT_ONPRESERIALIZATION;
-        public string UDON_EVENT_ONPERSISTENCEUSAGEUPDATED;
-        public string UDON_EVENT_ONPLAYERDATASTORAGEEXCEEDED;
-        public string UDON_EVENT_ONPLAYERDATASTORAGEWARNING;
-        public string UDON_EVENT_ONPLAYEROBJECTSTORAGEEXCEEDED;
-        public string UDON_EVENT_ONPLAYEROBJECTSTORAGEWARNING;
-        public string UDON_EVENT_ONINSTANCESTORAGEEXCEEDED;
-        public string UDON_EVENT_ONINSTANCESTORAGEWARNING;
-        public URA.onsDepth<string> _inputActionNames; // 0xA0
-        public string UDON_INPUT_JUMP;
-        public string UDON_INPUT_USE;
-        public string UDON_INPUT_GRAB;
-        public string UDON_INPUT_DROP;
-        public string UDON_MOVE_VERTICAL;
-        public string UDON_MOVE_HORIZONTAL;
-        public string UDON_LOOK_VERTICAL;
-        public string UDON_LOOK_HORIZONTAL;
-        public string UDON_EVENT_ONINPUTMETHODCHANGED;
-        public string UDON_EVENT_ONLANGUAGECHANGED;
-        public string UDON_EVENT_ONVRCPLUSMASSGIFT;
-        public ulationBody _udonTimeSource; // 0xA8
-        public ystems.Ptr<?> _blacklist; // 0xB0
-        public nc.Writer _udonClientInterface; // 0xB8
-        public mNeighbor _udonEventScheduler; // 0xC0
-        public int _signatureVerificationFailed; // 0xC8
-        public int _signatureVerificationSuccess; // 0xCC
-        public int _signatureVerificationSkipped; // 0xD0
-        public bool <WorldSignatureVerificationEnabled>k__BackingField; // 0xD4
-        public tem.Collections.Generic.IList<BestHTTP.JSON.Json.Token>.get_Item _signatureVerificationKey; // 0xD8
-        public JapaneseLangName.erns<rix.xisZero,byte> _verificationCache; // 0xE0
-        public URA.woDigitYearMax<er.MoveLength> _triggerEventConsumers; // 0xE8
-        public object _preloadProfilerMarker; // 0xF0
-        public object _initializeProfilerMarker; // 0xF8
-        public bool <IsSceneLoading>k__BackingField; // 0x100
-        public URA.woDigitYearMax<er.Order> UdonBehavioursInScene; // 0x108
+        public object HasLoaded;
+        public object Instance;
+        public object SignatureVerificationFailed;
+        public object SignatureVerificationSuccess;
+        public object SignatureVerificationSkipped;
+        public object WorldSignatureVerificationEnabled;
+        public object IsSceneLoading;
+        public object DebugLogging;
+        public object LightReservedLayerMask;
 
         // ── Methods ──
         public void add_OnUdonProgramLoaded(){} // RVA: 0x7FFD552B52E0

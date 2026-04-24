@@ -7,9 +7,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class CachedMemoryStream : Object
     {
-        public int MemoryStream;
-        public int MaxCapacity; // 0x4
-        public Inherited._culture memoryStream; // 0x10
+        public object MemoryStream;
 
         // ── Methods ──
         public void get_MemoryStream(){} // RVA: 0x7FFD55409FC0
@@ -30,8 +28,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Color32Formatter : MinimalBaseFormatter`1
     {
-        public tSupportedException_ConstructorMaxOf64Parameters<byte> ByteSerializer;
-
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD55437DC0
         public void Write(){} // RVA: 0x7FFD55437EE0
@@ -48,15 +44,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ColorBlockFormatter`1 : MinimalBaseFormatter`1
     {
-        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
-        public tSupportedException_ConstructorMaxOf64Parameters<?> ColorSerializer;
-        public m.ber normalColor;
-        public m.ber highlightedColor;
-        public m.ber pressedColor;
-        public m.ber disabledColor;
-        public m.ber colorMultiplier;
-        public m.ber fadeDuration;
-
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD4E099B30
         public void Write(){} // RVA: 0x7FFD4E099B30
@@ -66,8 +53,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ColorFormatter : MinimalBaseFormatter`1
     {
-        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
-
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD55438440
         public void Write(){} // RVA: 0x7FFD55438570
@@ -77,21 +62,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ComplexTypeSerializer`1 : Serializer`1
     {
-        public bool ComplexTypeMayBeBoxedValueType;
-        public bool ComplexTypeIsAbstract;
-        public bool ComplexTypeIsNullable;
-        public bool ComplexTypeIsValueType;
-        public object TypeOf_T;
-        public bool AllowDeserializeInvalidDataForT;
-        public URA.DateTime<CullingUpdateMarker,m_ItalicAngleStack<T1717697536>> FormattersByPolicy;
-        public object FormattersByPolicy_LOCK;
-        public CullingUpdateMarker UnityPolicy;
-        public CullingUpdateMarker StrictPolicy;
-        public CullingUpdateMarker EverythingPolicy;
-        public m_ItalicAngleStack<T1717697536> UnityPolicyFormatter;
-        public m_ItalicAngleStack<T1717697536> StrictPolicyFormatter;
-        public m_ItalicAngleStack<T1717697536> EverythingPolicyFormatter;
-
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x7FFD4E2ADC40
         public void GetBaseFormatter(){} // RVA: 0x7FFD4E078F80
@@ -114,26 +84,18 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class CustomFormatterAttribute : Attribute
     {
-        public int Priority; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0 | overloaded x2
     }
 
     public class CustomGenericFormatterAttribute : CustomFormatterAttribute
     {
-        public object SerializedGenericTypeDefinition; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5540A580
     }
 
     public class CustomLogger : Object
     {
-        public ileFullDirectoryInformation<string> logWarningDelegate; // 0x10
-        public ileFullDirectoryInformation<string> logErrorDelegate; // 0x18
-        public ileFullDirectoryInformation<ÏÏÍÍÎÎ> logExceptionDelegate; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5540A710
         public void LogWarning(){} // RVA: 0x7FFD52BB3490
@@ -143,9 +105,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class CustomSerializationPolicy : Object
     {
-        public string ID; // 0x10
-        public bool AllowNonSerializableTypes; // 0x18
-        public n<m.Int64,bool> shouldSerializeFunc; // 0x20
+        public object ID;
+        public object AllowNonSerializableTypes;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5540A840

@@ -2031,16 +2031,12 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÌÍÌÍÏÏÌÌÌÏÍÌÏÍÏÌÎÍÍÏÍÎ</summary>
     public class Service42m_DE2F : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_6BD;
-        public object f_F15;
-        public object f_770;
-        public object f_697;
-        public object f_FE8;
-        public object f_AD7;
-        public object f_BFC;
-        public object f_860;
+        public int _name; // 0x10
+        public object _hideFlags; // 0x18
+        public bool f_6BD; // 0x20
+        public e.? f_F15; // 0x28
+        public torDelegate.Meters f_770; // 0x30
+        public BuffersImpl f_697; // 0x38
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E8CEA90

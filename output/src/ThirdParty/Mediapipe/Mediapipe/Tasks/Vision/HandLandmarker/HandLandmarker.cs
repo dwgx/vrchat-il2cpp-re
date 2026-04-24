@@ -7,22 +7,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker
 {
     public class HandLandmarker : BaseVisionTaskApi
     {
-        public string _IMAGE_IN_STREAM_NAME;
-        public string _IMAGE_OUT_STREAM_NAME;
-        public string _IMAGE_TAG;
-        public string _NORM_RECT_STREAM_NAME;
-        public string _NORM_RECT_TAG;
-        public string _HANDEDNESS_STREAM_NAME;
-        public string _HANDEDNESS_TAG;
-        public string _HAND_LANDMARKS_STREAM_NAME;
-        public string _HAND_LANDMARKS_TAG;
-        public string _HAND_WORLD_LANDMARKS_STREAM_NAME;
-        public string _HAND_WORLD_LANDMARKS_TAG;
-        public string _TASK_GRAPH_NAME;
-        public int _MICRO_SECONDS_PER_MILLISECOND;
-        public dFieldNumber _packetCallback; // 0x20
-        public etBestGrabbingType.Name _normalizedRect; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537184D0
         public void CreateFromOptions(){} // RVA: 0x7FFD53718600
@@ -37,13 +21,13 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker
 
     public class HandLandmarkerOptions : Object
     {
-        public lIdFieldNumber.rdio baseOptions; // 0x10
-        public e.ÍÍÏÏÎÎÍÍÍÏÎÏÍÎÍÏÌÏÌÏÌÍÌ runningMode; // 0x18
-        public int numHands; // 0x1C
-        public float minHandDetectionConfidence; // 0x20
-        public float minHandPresenceConfidence; // 0x24
-        public float minTrackingConfidence; // 0x28
-        public maxDefaultValue resultCallback; // 0x30
+        public object baseOptions;
+        public object runningMode;
+        public object numHands;
+        public object minHandDetectionConfidence;
+        public object minHandPresenceConfidence;
+        public object minTrackingConfidence;
+        public object resultCallback;
 
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x7FFD4E35C380
@@ -60,10 +44,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker
 
     public class HandLandmarkerResult : ValueType
     {
-        public URA.woDigitYearMax<gBox.set_Mask> handedness; // 0x10
-        public URA.woDigitYearMax<gBox.ypoints> handLandmarks; // 0x18
-        public URA.woDigitYearMax<gBox.RelativeKeypoints> handWorldLandmarks; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F88FCC0
         public void Alloc(){} // RVA: 0x7FFD5371A540

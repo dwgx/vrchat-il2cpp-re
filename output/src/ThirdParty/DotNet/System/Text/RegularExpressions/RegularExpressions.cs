@@ -7,9 +7,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 {
     public class Capture : Object
     {
-        public int Index; // 0x10
-        public int Length; // 0x14
-        public string Text; // 0x18
+        public object Index;
+        public object Length;
+        public object Text;
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547B4B70
@@ -71,10 +72,6 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class ExclusiveReference : Object
     {
-        public tor.p _ref; // 0x10
-        public tor.p _obj; // 0x18
-        public int _locked; // 0x20
-
         // ── Methods ──
         public void Get(){} // RVA: 0x7FFD547B98D0
         public void Release(){} // RVA: 0x7FFD547B9950
@@ -83,11 +80,9 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class Group : Capture
     {
-        public tor.? Success;
-        public int[] Name; // 0x20
-        public int Captures; // 0x28
-        public tor.<EnabledProtocols>k__BackingField _capcoll; // 0x30
-        public string <Name>k__BackingField; // 0x38
+        public object Success;
+        public object Name;
+        public object Captures;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547B6150 | overloaded x2
@@ -100,9 +95,15 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class GroupCollection : Object
     {
-        public tor.Instance IsReadOnly; // 0x10
-        public mePatterns.MES_SIZE Count; // 0x18
-        public tor.?[] Item; // 0x20
+        public object IsReadOnly;
+        public object Count;
+        public object Item;
+        public object Item;
+        public object IsSynchronized;
+        public object SyncRoot;
+        public object System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.Item;
+        public object System.Collections.IList.IsFixedSize;
+        public object System.Collections.IList.Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547B7490 | overloaded x2
@@ -139,16 +140,8 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class Match : Group
     {
-        public tor.Id Empty; // 0x40
-        public tor.neStore Groups; // 0x48
-        public int _textbeg; // 0x50
-        public int _textpos; // 0x54
-        public int _textend; // 0x58
-        public int _textstart; // 0x5C
-        public int[][] _matches; // 0x60
-        public int[] _matchcount; // 0x68
-        public bool _balancing; // 0x70
-        public tor.Instance <Empty>k__BackingField;
+        public object Empty;
+        public object Groups;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547B86B0 | overloaded x2
@@ -172,7 +165,7 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class MatchSparse : Match
     {
-        public mePatterns.MES_SIZE Groups; // 0x78
+        public object Groups;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547B86E0
@@ -181,29 +174,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class Regex : Object
     {
-        public int CacheSize;
-        public int MatchTimeout;
-        public URA.DateTime<_btls_ssl_set_renegotiate_mode,tiate_pending> Options; // 0x8
-        public int RightToLeft; // 0x10
-        public tiate_pending s_cacheFirst; // 0x18
-        public tiate_pending s_cacheLast; // 0x20
-        public ializable.GetObjectData s_maximumMatchTimeout; // 0x28
-        public string DefaultMatchTimeout_ConfigKeyName;
-        public ializable.GetObjectData s_defaultMatchTimeout; // 0x30
-        public ializable.GetObjectData InfiniteMatchTimeout; // 0x38
-        public ializable.GetObjectData internalMatchTimeout; // 0x10
-        public int MaxOptionShift;
-        public string pattern; // 0x18
-        public tor.F_SIGNED_CERT_IN_CHAIN roptions; // 0x20
-        public tor.509_name_get_entry_count factory; // 0x28
-        public mePatterns.MES_SIZE caps; // 0x30
-        public mePatterns.MES_SIZE capnames; // 0x38
-        public string[] capslist; // 0x40
-        public int capsize; // 0x48
-        public tor.re _runnerref; // 0x50
-        public numValuesAndNames<tor.btls_x509_lookup_add_dir> _replref; // 0x58
-        public tor.ck _code; // 0x60
-        public bool _refsInitialized; // 0x68
+        public object CacheSize;
+        public object MatchTimeout;
+        public object Options;
+        public object RightToLeft;
 
         // ── Methods ──
         public void get_CacheSize(){} // RVA: 0x7FFD547B9A60
@@ -242,16 +216,6 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexBoyerMoore : Object
     {
-        public int[] Positive; // 0x10
-        public int[] NegativeASCII; // 0x18
-        public int[][] NegativeUnicode; // 0x20
-        public string Pattern; // 0x28
-        public int LowASCII; // 0x30
-        public int HighASCII; // 0x34
-        public bool RightToLeft; // 0x38
-        public bool CaseInsensitive; // 0x39
-        public 0.T_I8 _culture; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547BFC50
         public void MatchPattern(){} // RVA: 0x7FFD547C03C0
@@ -261,25 +225,8 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexCharClass : Object
     {
-        public string CanMerge;
-        public string Negate; // 0x8
-        public string s_notSpace; // 0x10
-        public string s_word; // 0x18
-        public string s_notWord; // 0x20
-        public string SpaceClass; // 0x28
-        public string NotSpaceClass; // 0x30
-        public string WordClass; // 0x38
-        public string NotWordClass; // 0x40
-        public string DigitClass; // 0x48
-        public string NotDigitClass; // 0x50
-        public URA.DateTime<string,string> s_definedCategories; // 0x58
-        public string[][] s_propTable; // 0x60
-        public etClientCertificateIssuers[] s_lcTable; // 0x68
-        public URA.woDigitYearMax<erNameCallback> _rangelist; // 0x10
-        public em.MarkAborted.izeDefaultCase _categories; // 0x18
-        public bool _canonical; // 0x20
-        public bool _negate; // 0x21
-        public tor.etRenegotiateMode _subtractor; // 0x28
+        public object CanMerge;
+        public object Negate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547C0B10 | overloaded x2
@@ -324,64 +271,6 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexCode : Object
     {
-        public int Onerep;
-        public int Notonerep;
-        public int Setrep;
-        public int Oneloop;
-        public int Notoneloop;
-        public int Setloop;
-        public int Onelazy;
-        public int Notonelazy;
-        public int Setlazy;
-        public int One;
-        public int Notone;
-        public int Set;
-        public int Multi;
-        public int Ref;
-        public int Bol;
-        public int Eol;
-        public int Boundary;
-        public int Nonboundary;
-        public int Beginning;
-        public int Start;
-        public int EndZ;
-        public int End;
-        public int Nothing;
-        public int Lazybranch;
-        public int Branchmark;
-        public int Lazybranchmark;
-        public int Nullcount;
-        public int Setcount;
-        public int Branchcount;
-        public int Lazybranchcount;
-        public int Nullmark;
-        public int Setmark;
-        public int Capturemark;
-        public int Getmark;
-        public int Setjump;
-        public int Backjump;
-        public int Forejump;
-        public int Testref;
-        public int Goto;
-        public int Prune;
-        public int Stop;
-        public int ECMABoundary;
-        public int NonECMABoundary;
-        public int Mask;
-        public int Rtl;
-        public int Back;
-        public int Back2;
-        public int Ci;
-        public int[] Codes; // 0x10
-        public string[] Strings; // 0x18
-        public int TrackCount; // 0x20
-        public mePatterns.MES_SIZE Caps; // 0x28
-        public int CapSize; // 0x30
-        public aphy<tor.oBtlsX509Lookup> FCPrefix; // 0x38
-        public tor.iateCertificate BMPrefix; // 0x50
-        public int Anchors; // 0x58
-        public bool RightToLeft; // 0x5C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547C8AF0
         public void OpcodeBacktracks(){} // RVA: 0x7FFD547C8D50
@@ -389,9 +278,7 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexFC : Object
     {
-        public tor.etRenegotiateMode CaseInsensitive; // 0x10
-        public bool _nullable; // 0x18
-        public bool <CaseInsensitive>k__BackingField; // 0x19
+        public object CaseInsensitive;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547CA6A0 | overloaded x3
@@ -403,13 +290,6 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexInterpreter : RegexRunner
     {
-        public tor.ck _code; // 0x80
-        public 0.T_I8 _culture; // 0x88
-        public int _operator; // 0x90
-        public int _codepos; // 0x94
-        public bool _rightToLeft; // 0x98
-        public bool _caseInsensitive; // 0x99
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547CA870
         public void InitTrackCount(){} // RVA: 0x7FFD547CA930
@@ -446,15 +326,6 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexNode : Object
     {
-        public int NType; // 0x10
-        public URA.woDigitYearMax<tor.RROR_IN_CERT_NOT_BEFORE_FIELD> Children; // 0x18
-        public string Str; // 0x20
-        public char Ch; // 0x28
-        public int M; // 0x2C
-        public int N; // 0x30
-        public tor.F_SIGNED_CERT_IN_CHAIN Options; // 0x34
-        public tor.RROR_IN_CERT_NOT_BEFORE_FIELD Next; // 0x38
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547CE9B0 | overloaded x5
         public void UseOptionR(){} // RVA: 0x7FFD547CE9D0
@@ -476,27 +347,6 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexParser : Object
     {
-        public tor.RROR_IN_CERT_NOT_BEFORE_FIELD _stack; // 0x10
-        public tor.RROR_IN_CERT_NOT_BEFORE_FIELD _group; // 0x18
-        public tor.RROR_IN_CERT_NOT_BEFORE_FIELD _alternation; // 0x20
-        public tor.RROR_IN_CERT_NOT_BEFORE_FIELD _concatenation; // 0x28
-        public tor.RROR_IN_CERT_NOT_BEFORE_FIELD _unit; // 0x30
-        public string _pattern; // 0x38
-        public int _currentPos; // 0x40
-        public 0.T_I8 _culture; // 0x48
-        public int _autocap; // 0x50
-        public int _capcount; // 0x54
-        public int _captop; // 0x58
-        public int _capsize; // 0x5C
-        public mePatterns.MES_SIZE _caps; // 0x60
-        public mePatterns.MES_SIZE _capnames; // 0x68
-        public int[] _capnumlist; // 0x70
-        public URA.woDigitYearMax<string> _capnamelist; // 0x78
-        public tor.F_SIGNED_CERT_IN_CHAIN _options; // 0x80
-        public URA.woDigitYearMax<tor.F_SIGNED_CERT_IN_CHAIN> _optionsStack; // 0x88
-        public bool _ignoreNextParen; // 0x90
-        public byte[] s_category;
-
         // ── Methods ──
         public void Parse(){} // RVA: 0x7FFD547D0010
         public void ParseReplacement(){} // RVA: 0x7FFD547D0300
@@ -576,9 +426,9 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexPrefix : ValueType
     {
-        public bool CaseInsensitive; // 0x10
-        public tor.oBtlsX509Lookup Empty;
-        public string Prefix; // 0x18
+        public object CaseInsensitive;
+        public object Empty;
+        public object Prefix;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547D79F0
@@ -590,14 +440,7 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexReplacement : Object
     {
-        public int Pattern;
-        public int LeftPortion;
-        public int RightPortion;
-        public int LastGroup;
-        public int WholeString;
-        public URA.woDigitYearMax<string> _strings; // 0x10
-        public URA.woDigitYearMax<int> _rules; // 0x18
-        public string <Pattern>k__BackingField; // 0x20
+        public object Pattern;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547D7BD0
@@ -611,26 +454,6 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexRunner : Object
     {
-        public int runtextbeg; // 0x10
-        public int runtextend; // 0x14
-        public int runtextstart; // 0x18
-        public string runtext; // 0x20
-        public int runtextpos; // 0x28
-        public int[] runtrack; // 0x30
-        public int runtrackpos; // 0x38
-        public int[] runstack; // 0x40
-        public int runstackpos; // 0x48
-        public int[] runcrawl; // 0x50
-        public int runcrawlpos; // 0x58
-        public int runtrackcount; // 0x5C
-        public tor.Instance runmatch; // 0x60
-        public tor.neStore runregex; // 0x68
-        public int _timeout; // 0x70
-        public bool _ignoreTimeout; // 0x74
-        public int _timeoutOccursAt; // 0x78
-        public int TimeoutCheckFrequency;
-        public int _timeoutChecksToSkip; // 0x7C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Scan(){} // RVA: 0x7FFD547D91B0
@@ -667,14 +490,6 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexTree : Object
     {
-        public tor.RROR_IN_CERT_NOT_BEFORE_FIELD Root; // 0x10
-        public mePatterns.MES_SIZE Caps; // 0x18
-        public int[] CapNumList; // 0x20
-        public int CapTop; // 0x28
-        public mePatterns.MES_SIZE CapNames; // 0x30
-        public string[] CapsList; // 0x38
-        public tor.F_SIGNED_CERT_IN_CHAIN Options; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547DA7B0
     }

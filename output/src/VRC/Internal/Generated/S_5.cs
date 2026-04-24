@@ -1299,6 +1299,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÌÎÎÍÌÍÏÍÌÍÌÏÏÏÎÌÍÎÍÎÎÌ</summary>
     public class Static9m_BA79 : Object
     {
+        public short ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4E8FCDD0

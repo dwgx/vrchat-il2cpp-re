@@ -32,7 +32,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
     public class DefaultLoggers : Object
     {
         public object DefaultLogger;
-        public Identifiers UnityLogger; // 0x8
+        public object UnityLogger;
 
         // ── Methods ──
         public void get_DefaultLogger(){} // RVA: 0x7FFD5540A9B0
@@ -42,17 +42,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DefaultSerializationBinder : TwoWaySerializationBinder
     {
-        public object ASSEMBLY_LOOKUP_LOCK;
-        public URA.DateTime<string,m.ormation> assemblyNameLookUp; // 0x8
-        public URA.DateTime<string,?> customTypeNameToTypeBindings; // 0x10
-        public object TYPETONAME_LOCK; // 0x18
-        public URA.DateTime<?,string> nameMap; // 0x20
-        public object NAMETOTYPE_LOCK; // 0x28
-        public URA.DateTime<string,?> typeMap; // 0x30
-        public object ASSEMBLY_REGISTER_QUEUE_LOCK; // 0x38
-        public URA.woDigitYearMax<m.ormation> assembliesQueuedForRegister; // 0x40
-        public URA.woDigitYearMax<ndardLinkInformation> assemblyLoadEventsQueuedForRegister; // 0x48
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5540AF60
         public void RegisterAllQueuedAssembliesRepeating(){} // RVA: 0x7FFD5540BC30
@@ -80,8 +69,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DelegateFormatter`1 : BaseFormatter`1
     {
-        public object DelegateType;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void DeserializeImplementation(){} // RVA: 0x7FFD4E099B30
@@ -91,12 +78,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DerivedDictionaryFormatter`3 : BaseFormatter`1
     {
-        public bool KeyIsValueType;
-        public tSupportedException_ConstructorMaxOf64Parameters<URA.hEraNames<T1717696736>> EqualityComparerSerializer;
-        public tSupportedException_ConstructorMaxOf64Parameters<T1717696736> KeyReaderWriter;
-        public tSupportedException_ConstructorMaxOf64Parameters<T1717696752> ValueReaderWriter;
-        public m.nformation ComparerConstructor;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -107,14 +88,13 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DeserializationContext : Object
     {
-        public ataPreservedArrayInvalidProperty Binder; // 0x10
-        public URA.DateTime<int,object> StringReferenceResolver; // 0x18
-        public externalClaims.nvoySinks GuidReferenceResolver; // 0x20
-        public externalClaims.m_actor IndexReferenceResolver; // 0x30
-        public ontextOptionsImmutable StreamingContext; // 0x38
-        public ForGraphicRebuildMarker FormatterConverter; // 0x40
-        public InternalUpdateLookup Config; // 0x48
-        public dateMarker <IndexReferenceResolver>k__BackingField; // 0x50
+        public object Binder;
+        public object StringReferenceResolver;
+        public object GuidReferenceResolver;
+        public object IndexReferenceResolver;
+        public object StreamingContext;
+        public object FormatterConverter;
+        public object Config;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5540F410 | overloaded x4
@@ -140,11 +120,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DictionaryFormatter`2 : BaseFormatter`1
     {
-        public bool KeyIsValueType;
-        public tSupportedException_ConstructorMaxOf64Parameters<URA.hEraNames<T1717696768>> EqualityComparerSerializer;
-        public tSupportedException_ConstructorMaxOf64Parameters<T1717696768> KeyReaderWriter;
-        public tSupportedException_ConstructorMaxOf64Parameters<T1717696784> ValueReaderWriter;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -155,16 +130,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DictionaryKeyUtility : Object
     {
-        public URA.DateTime<?,bool> GetSupportedDictionaryKeyTypesResults;
-        public URA.onsDepth<?> BaseSupportedDictionaryKeyTypes; // 0x8
-        public URA.onsDepth<char> AllowedSpecialKeyStrChars; // 0x10
-        public URA.DateTime<?,eadAheadMetadataAndSetState> TypeToKeyPathProviders; // 0x18
-        public URA.DateTime<string,eadAheadMetadataAndSetState> IDToKeyPathProviders; // 0x20
-        public URA.DateTime<eadAheadMetadataAndSetState,string> ProviderToID; // 0x28
-        public URA.DateTime<object,string> ObjectsToTempKeys; // 0x30
-        public URA.DateTime<string,object> TempKeysToObjects; // 0x38
-        public long tempKeyCounter; // 0x40
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55430D20
         public void LogInvalidKeyPathProvider(){} // RVA: 0x7FFD55432D50
@@ -178,9 +143,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DoubleLookupDictionaryFormatter`3 : BaseFormatter`1
     {
-        public tSupportedException_ConstructorMaxOf64Parameters<T1717696800> PrimaryReaderWriter;
-        public tSupportedException_ConstructorMaxOf64Parameters<URA.DateTime<T1717696816,T1717696832>> InnerReaderWriter;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void .ctor(){} // RVA: 0x7FFD4E090980

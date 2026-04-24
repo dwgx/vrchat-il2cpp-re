@@ -980,6 +980,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÏÌÍÎÎÌÌÎÏÍÌÏÏÌÏÎÎÍÍÎÌÏ</summary>
     public class Static8m_54D9 : Object
     {
+        public byte[] ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E8F9B00
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1374,6 +1376,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÏÎÌÏÎÏÎÏÍÏÌÎÏÎÍÎÌÍÍÍÏÍ</summary>
     public class Static9m_F094 : Object
     {
+        public uint ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E9006E0
         public void Equals(){} // RVA: 0x7FFD4E9007E0

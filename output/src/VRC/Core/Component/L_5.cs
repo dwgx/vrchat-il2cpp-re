@@ -1703,6 +1703,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÌÍÌÍÎÍÍÌÍÏÍÏÏÌÍÍÌÍÌÌÎÌ</summary>
     public class LifecycleComponent_B6FD : MonoBehaviour
     {
+        public es quality; // 0x10
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56817150
         public void .ctor(){} // RVA: 0x7FFD4E341D50

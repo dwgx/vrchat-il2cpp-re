@@ -7,11 +7,6 @@ namespace VRC.SDK.Experimental
 {
     public class VRCImageSaver : VRCCustomAction
     {
-        public Offset[] textures; // 0x20
-        public bool useAlpha; // 0x28
-        public string ÎÎÏÍÍÎÎÌÏÏÍÎÌÏÌÌÏÏÍÎÍÌÏ; // 0x30
-        public tor.neStore ÎÎÏÏÏÏÏÎÏÎÏÌÍÏÏÎÏÍÏÎÏÎÌ; // 0x38
-
         // ── Methods ──
         public void DispatchSaveNetworkEvent(){} // RVA: 0x7FFD4FAD8BE0
         public void Execute_A59774D99987(){} // RVA: 0x7FFD4FAD8DD0
@@ -28,8 +23,6 @@ namespace VRC.SDK.Experimental
 
     public class VRCUdonMovieCapture : VRCCustomAction
     {
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ[] Cameras; // 0x20
-
         // ── Methods ──
         public void CanStartMovieCapture(){} // RVA: 0x7FFD4FADF720
         public void ProcessComplexUpdateState(){} // RVA: 0x7FFD4FADF920

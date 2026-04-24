@@ -816,6 +816,13 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÍÍÌÏÎÍÍÌÍÎÏÏÍÏÏÏÍÌÎÏÌÎ</summary>
     public class Static7m_B8DF : Object
     {
+        public int ÏÎÎÌÌÏÍÎÌÏÏÎÌÍÍÏÍÌÌÌÌÌÎ; // 0x10
+        public ArgCount.ypes ÌÍÍÎÌÌÎÍÎÏÍÍÎÍÌÍÏÎÏÌÎÍÏ; // 0x18
+        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.InSlot>b__0 ÍÌÎÎÌÎÏÍÏÏÌÌÌÌÏÏÌÏÍÍÎÎÎ; // 0x38
+        public ÍÏÍÍÏ ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x40
+        public ÌÏÏÎÌÏÎÏÎÌÏÎÍÏÏÍÎÍÎÌÎÏ ÏÍÏÏÌÎÏÎÎÏÍÍÍÎÌÏÌÌÎÌÏÌÏ; // 0x48
+        public peInfoResolverChain<ÌÌÌÏÎÌÌÏÎÍÌÌÍÏÌÍÎÎÌÏÍ> ÏÌÍÎÍÎÎÌÏÍÌÏÎÍÍÍÌÍÎÌÍÌÍ; // 0x50
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4ECC2840
         public void Equals(){} // RVA: 0x7FFD4ECC2910
@@ -842,6 +849,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÍÍÍÍÍÏÍÎÎÍÍÏÌÏÏÎÍÏÍÎÌÎ</summary>
     public class Static7m_D51C : Object
     {
+        public float ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E904FF0
         public void Equals(){} // RVA: 0x7FFD4E9050D0
@@ -1272,6 +1281,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÍÎÎÌÌÎÌÏÌÏÎÏÎÏÏÏÍÌÏÍÎÎ</summary>
     public class Static9m_A015 : Object
     {
+        public object ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x10
+        public ileFullDirectoryInformation<ector> ÌÌÎÏÎÏÌÌÌÎÍÌÎÌÎÎÍÏÏÏÎÎÏ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EAADC20
         public void .ctor(){} // RVA: 0x7FFD4E341310

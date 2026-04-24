@@ -7,11 +7,8 @@ namespace VRC.Dynamics
 {
     public class AbstractVRCConstraintBinding`2 : Object
     {
-        public T1717704240 ApplicationUnityConstraint;
-        public T1717704256 ApplicationVrcConstraint;
-        public bool _unityConstraintPendingReEnable;
-        public bool _hasEverFullySynced;
-        public bool _isDisposed;
+        public object ApplicationUnityConstraint;
+        public object ApplicationVrcConstraint;
 
         // ── Methods ──
         public void get_ApplicationUnityConstraint(){} // RVA: 0x7FFD4E078E90
@@ -27,10 +24,9 @@ namespace VRC.Dynamics
 
     public class AnimParameterAccessAvatarSDK : Object
     {
-        public stfix boolVal; // 0x10
-        public int intVal; // 0x18
-        public lution floatVal; // 0x1C
-        public bool valid; // 0x20
+        public object boolVal;
+        public object intVal;
+        public object floatVal;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552404D0
@@ -44,9 +40,8 @@ namespace VRC.Dynamics
 
     public class ChainId : ValueType
     {
-        public ÍÏÎÎÌÍÍ.arker A;
-        public ulong B; // 0x10
-        public ulong b; // 0x18
+        public object A;
+        public object B;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC7CA00
@@ -62,17 +57,7 @@ namespace VRC.Dynamics
 
     public class CollisionBroadphase_HashGrid : Object
     {
-        public int scene;
-        public float GRID_SIZE;
-        public float GRID_MULTI;
-        public int MAX_COLLISIONS_PER_SHAPE;
-        public int MAX_COLLISIONS;
-        public int MAX_SHAPE_UPDATE;
-        public int MAP_START_CAPACITY;
-        public ÍÏÎÎÌÍÍ.tails <scene>k__BackingField; // 0x10
-        public ÍÎÏÎÎ.ateUpdateEvent<lutionZ,int> shapeMap; // 0x18
-        public ÍÎÏÎÎ.ateUpdateProfilerMarker<int> shapesToUpdate; // 0x28
-        public ÍÎÏÎÎ.ÌÌ<int> collisions; // 0x30
+        public object scene;
 
         // ── Methods ──
         public void get_scene(){} // RVA: 0x7FFD4E35C380
@@ -90,23 +75,7 @@ namespace VRC.Dynamics
 
     public class CollisionBroadphase_HybridSAP : Object
     {
-        public int scene;
-        public int CELL_BATCH_COUNT; // 0x4
-        public float GRID_SIZE;
-        public float GRID_MULTI;
-        public int GRID_MAP_START_CAPACITY;
-        public int GRID_CELL_MAX_CACHE;
-        public int GRID_CELL_MAX_ACTIVE_LIST;
-        public int MAX_COLLISION_PAIRS;
-        public int INITIAL_COLLISIONS_PER_CELL;
-        public int MAX_COLLISIONS_PER_CELL;
-        public ÍÏÎÎÌÍÍ.tails <scene>k__BackingField; // 0x10
-        public ÍÎÏÎÎ.ateUpdateProfilerMarker<ushort> shapesToUpdate; // 0x18
-        public ÍÎÏÎÎ.<OnInit>k__BackingField<?,bool> collisionPairs; // 0x20
-        public ÍÎÏÎÎ.AssignProgramAndVariables<?> prevCollisionPairs; // 0x30
-        public ÍÎÏÎÎ.les<lutionZ,int> gridMap; // 0x38
-        public ÍÎÏÎÎ.AssignProgramAndVariables<onfigOptions> gridCells; // 0x40
-        public ÍÎÏÎÎ.AssignProgramAndVariables<int> cellCache; // 0x48
+        public object scene;
 
         // ── Methods ──
         public void get_scene(){} // RVA: 0x7FFD4E35C380
@@ -124,27 +93,6 @@ namespace VRC.Dynamics
 
     public class CollisionScene : Object
     {
-        public ÍÏÎÎÌÍÍ.etric broadphase; // 0x10
-        public URA.onsDepth<ushort> CastBuffer;
-        public URA.woDigitYearMax<gSmoothFactor> deadShapes; // 0x18
-        public int MAX_SHAPES_NONWORLD;
-        public int MAX_SHAPES_WORLD;
-        public int MAX_SHAPES;
-        public int MAX_TRANSFORMS;
-        public int MAX_COLLISION_EVENTS;
-        public gSmoothFactor[] shapes; // 0x20
-        public URA.onsDepth<gSmoothFactor> shapesToAdd; // 0x28
-        public URA.onsDepth<gSmoothFactor> shapesToRemove; // 0x30
-        public ÍÎÏÎÎ.AssignProgramAndVariables<ushort> activeShapes; // 0x38
-        public ÍÎÏÎÎ.ÌÌ<?> shapeData; // 0x40
-        public ushort totalActiveNonWorldShapes; // 0x50
-        public ushort totalActiveWorldShapes; // 0x52
-        public ÍÎÏÎÎ.ateUpdateProfilerMarker<oom> collisionEvents; // 0x58
-        public ÍÏÎÎÌÍÍ.ntAssetCreationEditorSettings transforms; // 0x60
-        public ÍÎÏÎÎ.ÌÌ<rdLeastSignificantDecimal> transformData; // 0x68
-        public gAxis.andleSelfFittingAlongAxis jobHandle; // 0x78
-        public bool jobHandlePendingCompletion; // 0x88
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552180B0 | overloaded x2
         public void SetBroadphase(){} // RVA: 0x7FFD55218750
@@ -171,27 +119,9 @@ namespace VRC.Dynamics
 
     public class ContactBase : DynamicsComponent
     {
-        public float axis;
-        public int IsLocalOnly;
-        public n<ÍÏÎÎÌÍÍ.ation,bool> AffectedByAllowFlags;
-        public object rootTransform; // 0x28
-        public cationCallback shapeType; // 0x30
-        public float radius; // 0x34
-        public float height; // 0x38
-        public amut position; // 0x3C
-        public R_12x12 rotation; // 0x48
-        public bool localOnly; // 0x58
-        public ÍÏÎÎÌÍÍ.oipStateChangeCallback contentTypes; // 0x5C
-        public URA.woDigitYearMax<string> collisionTags; // 0x60
-        public ÍÏÎÎÌÍÍ.AC1449C527105 manager; // 0x68
-        public bool allowInit; // 0x70
-        public bool hasInitParams; // 0x71
-        public bool hasInit; // 0x72
-        public gSmoothFactor shape; // 0x78
-        public n<led,int> getPlayerIdCallback; // 0x80
-        public int playerId; // 0x88
-        public bool pendingShapeUpdate; // 0x8C
-        public nalInformation<int,int,bool> OnValidatePlayers; // 0x8
+        public object axis;
+        public object IsLocalOnly;
+        public object AffectedByAllowFlags;
 
         // ── Methods ──
         public void GetRootTransform(){} // RVA: 0x7FFD55240D80
@@ -218,8 +148,13 @@ namespace VRC.Dynamics
 
     public class ContactBaseProxy`2 : Object
     {
-        public T1717704400 isValid;
-        public ellSize.artCorner contactShapeId;
+        public object isValid;
+        public object contactShapeId;
+        public object player;
+        public object usage;
+        public object position;
+        public object rotation;
+        public object scale;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -235,11 +170,11 @@ namespace VRC.Dynamics
 
     public class ContactEnterInfo : ValueType
     {
-        public ÍÏÎÎÌÍÍ.9287EE6327F8A74D0617C5 contactSender; // 0x10
-        public ÍÏÎÎÌÍÍ.5DD51EECC0A8037DAFB1A52F12E04CC696BF57AAC1449C527105 contactReceiver; // 0x18
-        public amut enterVelocity; // 0x20
-        public amut contactPoint; // 0x2C
-        public string[] matchingTags; // 0x38
+        public object contactSender;
+        public object contactReceiver;
+        public object enterVelocity;
+        public object contactPoint;
+        public object matchingTags;
 
         // ── Methods ──
         public void get_contactSender(){} // RVA: 0x7FFD4EEF9F60
@@ -256,25 +191,6 @@ namespace VRC.Dynamics
 
     public class ContactManager : MonoBehaviour
     {
-        public ÍÏÎÎÌÍÍ.AC1449C527105 Inst;
-        public ÍÏÎÎÌÍÍ.tails collision; // 0x20
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.ation> contacts; // 0x28
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.ation> updateList; // 0x30
-        public object Marker_CollisionScene; // 0x8
-        public object Marker_CopyShapeIds; // 0x10
-        public object Marker_Trigger; // 0x18
-        public float _timer; // 0x38
-        public float FRAME_TIME;
-        public float performanceTimeMs; // 0x3C
-        public ernal_index_icall.mUri _stopwatch; // 0x40
-        public ameHashCode _jobState; // 0x48
-        public bool drawGizmos; // 0x4C
-        public int MAX_COLLISION_RECORDS; // 0x20
-        public int THREAD_BATCH_SIZE; // 0x24
-        public ÍÎÏÎÎ.AssignProgramAndVariables<int> receivesToUpdate; // 0x50
-        public ÍÎÏÎÎ.ÌÌ<ularStyleWeight> receiverData; // 0x58
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.set_tabMultiple> needsShapeID; // 0x68
-
         // ── Methods ──
         public void AddContact(){} // RVA: 0x7FFD55242560
         public void RemoveContact(){} // RVA: 0x7FFD55242AE0
@@ -295,22 +211,7 @@ namespace VRC.Dynamics
 
     public class ContactReceiver : ContactBase
     {
-        public bool EffectiveReceiverType; // 0x90
-        public bool allowOthers; // 0x91
-        public popts receiverType; // 0x94
-        public string parameter; // 0x98
-        public float minVelocity; // 0xA0
-        public int receiverId; // 0xA4
-        public ÍÏÎÎÌÍÍ.ultiple _udonEmitter; // 0xA8
-        public URA.woDigitYearMax<dStyleWeight> collisionRecords; // 0xB0
-        public URA.woDigitYearMax<dStyleWeight> unvalidatedCollisionRecords; // 0xB8
-        public float collisionValue; // 0xC0
-        public URA.onsDepth<string> TagIntersectionSet;
-        public bool hasTriggered; // 0xC4
-        public float paramValue; // 0xC8
-        public float restoreParamValue; // 0xCC
-        public ellSize.te paramAccess; // 0xD0
-        public URA.onsDepth<int> collisionTagsHash; // 0xD8
+        public object EffectiveReceiverType;
 
         // ── Methods ──
         public void get_EffectiveReceiverType(){} // RVA: 0x7FFD55246980
@@ -345,10 +246,6 @@ namespace VRC.Dynamics
 
     public class ContactReceiverUdonEmitter : Object
     {
-        public platMaterialPropertyBlock[] _udonBehaviours; // 0x10
-        public string EventOnContactEnter;
-        public string EventOnContactExit;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552C2930
         public void OnContactEnter(){} // RVA: 0x7FFD552C29E0
@@ -373,8 +270,9 @@ namespace VRC.Dynamics
 
     public class DynamicsComponent : MonoBehaviour
     {
-        public ÍÏÎÎÌÍÍ.nCallback DefaultUsage;
-        public ÍÏÎÎÌÍÍ.nCallback Usage; // 0x20
+        public object DefaultUsage;
+        public object Usage;
+        public object RawUsage;
 
         // ── Methods ──
         public void get_DefaultUsage(){} // RVA: 0x7FFD5521EE10
@@ -404,12 +302,6 @@ namespace VRC.Dynamics
 
     public class FixedTransformAccessArray : Object
     {
-        public ÏÍÎÎÎÍÎÌÌÍÌÍÎÍÌÎÏÌÎÎÌ transformArray; // 0x10
-        public ÍÎÏÎÎ.ÌÌ<int> lookupToId; // 0x18
-        public ÍÎÏÎÎ.ÌÌ<int> lookupFromId; // 0x28
-        public URA.woDigitYearMax<int> emptyQueue; // 0x38
-        public int length; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5524A020
         public void Add(){} // RVA: 0x7FFD5524A230
@@ -527,12 +419,6 @@ namespace VRC.Dynamics
 
     public class MemoryBuffer : Object
     {
-        public int usedSpace; // 0x10
-        public ÍÎÏÎÎ.les<ÍÏÎÎÌÍÍ.arker,int> spanMap; // 0x18
-        public ÍÎÏÎÎ.AssignProgramAndVariables<MarkAdjustmentRecords>b__27_0> spans; // 0x20
-        public ÍÏÎÎÌÍÍ.rds>b__25_0 spanList; // 0x28
-        public ÍÏÎÎÌÍÍ.entRecords>b__25_1 dataList; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5524B6D0
         public void Dispose(){} // RVA: 0x7FFD5524B870
@@ -548,8 +434,6 @@ namespace VRC.Dynamics
 
     public class ParentChangeDetector : MonoBehaviour
     {
-        public ÎÌÍÏÏÌÍÏ OnParentChanged; // 0x20
-
         // ── Methods ──
         public void add_OnParentChanged(){} // RVA: 0x7FFD5521EF50
         public void remove_OnParentChanged(){} // RVA: 0x7FFD5521F040
@@ -560,23 +444,12 @@ namespace VRC.Dynamics
 
     public class PhysBoneGrabbedInfo : ValueType
     {
-        public ellSize.artCorner player; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4ECFFE40
     }
 
     public class PhysBoneGroup : Object
     {
-        public int MIN_CHAINS_CAPACITY;
-        public ÍÏÎÎÌÍÍ.lyphTable>b__37_0 manager; // 0x10
-        public int groupIndex; // 0x18
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.arker> chainIds; // 0x20
-        public ÍÎÏÎÎ.AssignProgramAndVariables<int> indexList; // 0x28
-        public bool isListDirty; // 0x30
-        public int MIN_SHAPES_CAPACITY;
-        public ÍÎÏÎÎ.AssignProgramAndVariables<ushort> shapes; // 0x38
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5524ED50
         public void Dispose(){} // RVA: 0x7FFD5524EF40
@@ -591,70 +464,6 @@ namespace VRC.Dynamics
 
     public class PhysBoneManager : MonoBehaviour
     {
-        public ÍÏÎÎÌÍÍ.lyphTable>b__37_0 Inst;
-        public amut distanceCullOrigin; // 0x20
-        public bool IsSDK; // 0x2C
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.VRC.Dynamics.dll> rootsToUpdate; // 0x30
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.T_CAPACITY> compsToAdd; // 0x38
-        public URA.woDigitYearMax<DING> compsToRemove; // 0x40
-        public float MAX_BOUNDS_SIZE;
-        public float MIN_BONE_LENGTH;
-        public float MIN_SIMULATE_BONE;
-        public es.ap DebugLineAxis; // 0x8
-        public bool DisableTiming; // 0x14
-        public float DebugTimeElapsed; // 0x18
-        public ÍÏÎÎÌÍÍ.teAtlasTexture DebugDraw; // 0x20
-        public ÍÏÎÎÌÍÍ.eChunkExtension buffer; // 0x48
-        public ÍÏÎÎÌÍÍ.tString chainBuffer; // 0x50
-        public ÍÏÎÎÌÍÍ.rialManager boneBuffer; // 0x58
-        public ÍÏÎÎÌÍÍ.entRecords>b__27_0 rootBuffer; // 0x60
-        public ghtFromCharacterIndex editorInfo; // 0x68
-        public ÍÎÏÎÎ.ÌÌ<Size> errorBuffer; // 0x90
-        public int THREAD_BATCH_SIZE; // 0x28
-        public int MAX_TRANSFORMS_PER_CHAIN;
-        public float MAX_DELTA_TIME;
-        public int INITIAL_CAPACITY_ROOTS;
-        public int INITIAL_CAPACITY_CHAINS;
-        public int INITIAL_CAPACITY_BONES;
-        public float COLLISION_FRICTION;
-        public int EXTRA_TRANSFORM_COUNT;
-        public int EXTRA_TRANSFORM_ROOT_PARENT;
-        public int EXTRA_TRANSFORM_SCENE_ROOT;
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.ns> colliderComponents; // 0xA0
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.ns> collidersToAdd; // 0xA8
-        public URA.woDigitYearMax<J> collidersToRemove; // 0xB0
-        public float CUSTOM_EPSILON;
-        public float QUATERNION_EPSILON;
-        public float MATRIX_EPSILON;
-        public bool hasInit; // 0xB8
-        public object Marker_UpdateRoots; // 0x30
-        public object Marker_AddRemoveChains; // 0x38
-        public object Marker_AddRemoveColliders; // 0x40
-        public object Marker_UpdateStaleGroups; // 0x48
-        public object Marker_UpdateChains; // 0x50
-        public object Marker_JobsTotal; // 0xC0
-        public float FRAME_TIME;
-        public float fixedTimeElapsed; // 0xC8
-        public float realTimeElapsed; // 0xCC
-        public bool hasReportedCriticalError; // 0x58
-        public float fullFrameTimeElapsed; // 0xD0
-        public bool executeShapeUpdates; // 0xD4
-        public bool drawGizmos; // 0xD5
-        public int MAX_EXECUTION_GROUPS;
-        public int MAX_EXECUTION_GROUPS_NONWORLD;
-        public ÍÏÎÎÌÍÍ.ials[] executionGroups; // 0xD8
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.T_CAPACITY> _staleGroupPhysBones; // 0xE0
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.ns> _staleGroupPhysBoneColliders; // 0xE8
-        public URA.onsDepth<?> _staleGroupRoots; // 0xF0
-        public URA.DateTime<ÍÏÎÎÌÍÍ.ions,int> _formerExecutionGroupBuffer; // 0xF8
-        public URA.woDigitYearMax<gSpriteCharacterUnicode> sortingData; // 0x60
-        public ÍÏÎÎÌÍÍ.tails collision; // 0x100
-        public int MAX_COLLIDERS_PER_CHAIN;
-        public URA.woDigitYearMax<?> grabs; // 0x108
-        public float GRAB_RAY_LENGTH;
-        public URA.woDigitYearMax<gSmoothFactor> GrabBuffer; // 0x110
-        public URA.woDigitYearMax<?> poses; // 0x118
-
         // ── Methods ──
         public void AddPhysBone(){} // RVA: 0x7FFD5524F900
         public void RemovePhysBone(){} // RVA: 0x7FFD5524FBA0
@@ -736,8 +545,9 @@ namespace VRC.Dynamics
 
     public class PhysBoneRoot : MonoBehaviour
     {
-        public gCharactersLookup RootDefinition; // 0x20
-        public ÍÏÎÎÌÍÍ.VRC.Dynamics.dll Timing; // 0x28
+        public object RootDefinition;
+        public object Timing;
+        public object RequiredHideFlags;
 
         // ── Methods ──
         public void get_RootDefinition(){} // RVA: 0x7FFD4E36F130
@@ -751,13 +561,9 @@ namespace VRC.Dynamics
 
     public class PhysBoneRootDefinition : Object
     {
-        public int Transform;
-        public int AutoEvaluateFixedTime; // 0x10
-        public int UseFixedTime; // 0x14
-        public string avatarId; // 0x18
-        public object <Transform>k__BackingField; // 0x20
-        public bool _autoEvaluateFixedTime; // 0x28
-        public bool _useFixedTime; // 0x29
+        public object Transform;
+        public object AutoEvaluateFixedTime;
+        public object UseFixedTime;
 
         // ── Methods ──
         public void get_Transform(){} // RVA: 0x7FFD4E36F0C0
@@ -770,12 +576,6 @@ namespace VRC.Dynamics
 
     public class PhysBoneUdonEmitter : Object
     {
-        public platMaterialPropertyBlock[] _udonBehaviours; // 0x10
-        public string EventOnPhysBoneGrabbed;
-        public string EventOnPhysBoneReleased;
-        public string EventOnPhysBonePosed;
-        public string EventOnPhysBoneUnPosed;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552C3010
         public void OnPhysBoneGrabbed(){} // RVA: 0x7FFD552C30C0
@@ -786,19 +586,12 @@ namespace VRC.Dynamics
 
     public class ReadTransformJob : ValueType
     {
-        public egister<rdLeastSignificantDecimal> transformDataBuffer; // 0x10
-
         // ── Methods ──
         public void Execute(){} // RVA: 0x7FFD55222990
     }
 
     public class RootsBuffer : Object
     {
-        public ÍÎÏÎÎ.AssignProgramAndVariables<tCursorPositionFromStringIndexUsingCharacterHeight> roots; // 0x10
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.VRC.Dynamics.dll> comps; // 0x18
-        public ÏÍÎÎÎÍÎÌÌÍÌÍÎÍÌÎÏÌÎÎÌ rootTransformsArray; // 0x20
-        public URA.woDigitYearMax<int> available; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5524C8A0
         public void Dispose(){} // RVA: 0x7FFD5524CAA0
@@ -811,51 +604,18 @@ namespace VRC.Dynamics
 
     public class VRCConstraintBase : DynamicsComponent
     {
-        public bool PositionMode; // 0x28
-        public float RotationMode; // 0x2C
-        public object ScaleMode; // 0x30
-        public bool AffectsPosition; // 0x38
-        public bool AffectsRotation; // 0x39
-        public bool AffectsScale; // 0x3A
-        public bool NativeIndex; // 0x3B
-        public ÍÏÎÎÌÍÍ.e CachedExecutionGroupIndex; // 0x40
-        public int LatestValidExecutionGroupIndex; // 0x2D8
-        public int DependencyRoot; // 0x2DC
-        public int DependsOnLocalAvatarProcessing; // 0x2E0
-        public object IsPendingUnprocessed; // 0x2E8
-        public bool _isRuntimeTargetTransformAssigned; // 0x2F0
-        public object _cachedTargetTransform; // 0x2F8
-        public bool _hasCachedTargetParentTransform; // 0x300
-        public object _cachedTargetParentTransform; // 0x308
-        public object _assignedDependencyRoot; // 0x310
-        public bool _initialRegistrationComplete; // 0x318
-        public int _cachedTransformCount; // 0x31C
-        public ÍÏÎÎÌÍÍ.e _constraintBinding; // 0x320
-        public bool _fullNativeUpdatePending; // 0x328
-        public IsUnlocked _pendingReallocation; // 0x32C
-        public stfix _containingAnimator; // 0x330
-        public bool _hasContainingAnimator; // 0x338
-        public bool _containingAnimatorLatestActiveState; // 0x339
-        public bool _isAttachedToClone; // 0x33A
-        public ÍÏÎÎÌÍÍ.T_CAPACITY[] _monitoredPhysBones; // 0x340
-        public ÍÏÎÎÌÍÍ.stHash _playerLoopStage; // 0x348
-        public ssList _physBoneDependency; // 0x34C
-        public bool _dependsOnLocalAvatarProcessing; // 0x350
-        public URA.onsDepth<ileFullDirectoryInformation<ÍÏÎÎÌÍÍ.therInApplication>> _registeredBakeListeners; // 0x358
-        public URA.DateTime<BuffersImpl,URA.woDigitYearMax<ÍÏÎÎÌÍÍ.therInApplication>> OrderInfoPerGameObject;
-        public int _localGameObjectOrder; // 0x360
-        public bool _isInLocalGameObjectOrder; // 0x364
-        public bool <IsPendingUnprocessed>k__BackingField; // 0x365
-        public URA.onsDepth<ÍÏÎÎÌÍÍ.therInApplication> _dependents; // 0x368
-        public URA.onsDepth<ÍÏÎÎÌÍÍ.therInApplication> _rootNodes; // 0x8
-        public mePatterns.mes _dependencyTraversalMarks; // 0x10
-        public int _dependencyTraversalMarksCounter; // 0x18
-        public int _dependencyTraversalMarkIndex; // 0x370
-        public bool _dependencyActiveMark; // 0x374
-        public int MAX_TRAVERSAL_STEPS;
-        public int _dependencyTraversalTotalSteps; // 0x1C
-        public int _dependencyTraversalHighestDepth; // 0x378
-        public int MAX_DEPENDENCY_DEPTH;
+        public object PositionMode;
+        public object RotationMode;
+        public object ScaleMode;
+        public object AffectsPosition;
+        public object AffectsRotation;
+        public object AffectsScale;
+        public object NativeIndex;
+        public object CachedExecutionGroupIndex;
+        public object LatestValidExecutionGroupIndex;
+        public object DependencyRoot;
+        public object DependsOnLocalAvatarProcessing;
+        public object IsPendingUnprocessed;
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E079960
@@ -935,8 +695,7 @@ namespace VRC.Dynamics
 
     public class VRCConstraintGroup : Object
     {
-        public int MemberCount;
-        public egister<int> MemberConstraintIndices; // 0x10
+        public object MemberCount;
 
         // ── Methods ──
         public void get_MemberCount(){} // RVA: 0x7FFD552202A0
@@ -951,12 +710,8 @@ namespace VRC.Dynamics
 
     public class VRCConstraintGrouper : Object
     {
-        public URA.ap<int,ÍÏÎÎÌÍÍ.efinitions> GroupsAreStale; // 0x10
-        public URA.onsDepth<?> ExecutionGroups; // 0x18
-        public bool _objectDisposed; // 0x20
-        public URA.DateTime<int,URA.woDigitYearMax<ÍÏÎÎÌÍÍ.therInApplication>> _unprocessedConstraints; // 0x28
-        public URA.onsDepth<int> RemovedGroupIndicesBuffer;
-        public object _reorganizeGroupsProfilerMarker; // 0x8
+        public object GroupsAreStale;
+        public object ExecutionGroups;
 
         // ── Methods ──
         public void get_GroupsAreStale(){} // RVA: 0x7FFD552209F0
@@ -974,16 +729,6 @@ namespace VRC.Dynamics
 
     public class VRCConstraintJob : ValueType
     {
-        public ÍÏÎÎÌÍÍ.stHash playerLoopStage; // 0x10
-        public egister<int> targetConstraintIndices; // 0x18
-        public egister<ÍÏÎÎÌÍÍ.TP_Get> constraints; // 0x30
-        public egister<rdLeastSignificantDecimal> transformDataBuffer; // 0x48
-        public es.ap Float3Right;
-        public es.ap Float3Up; // 0xC
-        public es.ap Float3Forward; // 0x18
-        public es.ap Float3One; // 0x24
-        public es.eout QuaternionZero; // 0x30
-
         // ── Methods ──
         public void Execute(){} // RVA: 0x7FFD552229F0
         public void ProcessSource(){} // RVA: 0x7FFD55224770
@@ -1010,58 +755,12 @@ namespace VRC.Dynamics
 
     public class VRCConstraintJobData : ValueType
     {
-        public int TransformStartIndex; // 0x10
-        public ÍÏÎÎÌÍÍ.eamingStartResult PositionConstraintMode; // 0x14
-        public ÍÏÎÎÌÍÍ.CommentsVisible RotationConstraintMode; // 0x18
-        public ÍÏÎÎÌÍÍ.abled ScaleConstraintMode; // 0x1C
-        public bool HasParentTransform; // 0x20
-        public bool IsActive; // 0x21
-        public float GlobalWeight; // 0x24
-        public bool SolveInLocalSpace; // 0x28
-        public bool FreezeToWorld; // 0x29
-        public bool FreezeToWorldHasTrs; // 0x2A
-        public es.ap FrozenWorldPosition; // 0x2C
-        public es.eout FrozenWorldRotation; // 0x38
-        public es.ap FrozenWorldScale; // 0x48
-        public ÍÏÎÎÌÍÍ.stHash PlayerLoopStage; // 0x54
-        public bool AttachedToAvatarClone; // 0x58
-        public bool Locked; // 0x59
-        public _SetVoipStreamMode PositionConfig; // 0x5C
-        public _SetVoipStreamMode RotationConfig; // 0x78
-        public _SetVoipStreamMode ScaleConfig; // 0x94
-        public es.ap AimAxis; // 0xB0
-        public es.ap UpAxis; // 0xBC
-        public bool UseUpTransform; // 0xC8
-        public float Roll; // 0xCC
-        public VoipAttenuation WorldUpType; // 0xD0
-        public es.ap WorldUpVector; // 0xD4
-        public int WorldUpTransformIndex; // 0xE0
-        public float TotalValidSourceWeight; // 0xE4
-        public es.ap OriginalLocalEulersHint; // 0xE8
-        public bool HasOriginalLocalEulersHint; // 0xF4
-        public egister<Sync_SetVoipMicSource> Sources; // 0xF8
     }
 
     public class VRCConstraintManager : Object
     {
-        public int IsInitialized;
-        public int CanExecuteConstraintJobsInEditMode;
-        public bool _instanceInitialized;
-        public bool _canExecuteConstraintJobsInEditMode; // 0x1
-        public bool _isEditor; // 0x2
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.therInApplication> _constraintsManaged; // 0x8
-        public URA.onsDepth<ÍÏÎÎÌÍÍ.therInApplication> _constraintsManagedSet; // 0x10
-        public egister<ÍÏÎÎÌÍÍ.TP_Get> _constraintsNative; // 0x18
-        public ÏÍÎÎÎÍÎÌÌÍÌÍÎÍÌÎÏÌÎÎÌ _transformBuffer; // 0x30
-        public ÏÍÎÎÎÍÎÌÌÍÌÍÎÍÌÎÏÌÎÎÌ _transformBufferOnlyTargets; // 0x38
-        public egister<rdLeastSignificantDecimal> _transformDataBuffer; // 0x40
-        public URA.woDigitYearMax<nt> _emptyTransformRanges; // 0x58
-        public URA.woDigitYearMax<8BCA7B5CC287C51E0E3E<?,bool>> _constraintTransformsBuffer; // 0x60
-        public object _updateConstraintsProfilerMarkerSync; // 0x68
-        public object _updateConstraintsProfilerMarkerReAlloc; // 0x70
-        public object _updateConstraintsProfilerMarkerJobData; // 0x78
-        public ÍÏÎÎÌÍÍ.eById _constraintGrouper; // 0x80
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.therInApplication> UpdatedConstraintsBuffer; // 0x88
+        public object IsInitialized;
+        public object CanExecuteConstraintJobsInEditMode;
 
         // ── Methods ──
         public void get_IsInitialized(){} // RVA: 0x7FFD55235460
@@ -1087,9 +786,8 @@ namespace VRC.Dynamics
 
     public class VRCConstraintOffsetBaker : Object
     {
-        public object ShouldBakeAtRest; // 0x10
-        public float ShouldBakeOffsets; // 0x18
-        public onId _bakeOptions; // 0x1C
+        public object ShouldBakeAtRest;
+        public object ShouldBakeOffsets;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55239D30
@@ -1105,11 +803,6 @@ namespace VRC.Dynamics
 
     public class VRCConstraintSource : ValueType
     {
-        public object SourceTransform; // 0x10
-        public float Weight; // 0x18
-        public amut ParentPositionOffset; // 0x1C
-        public amut ParentRotationOffset; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5523C7E0 | overloaded x2
         public void CreateDefault(){} // RVA: 0x7FFD5523C860
@@ -1117,26 +810,15 @@ namespace VRC.Dynamics
 
     public class VRCConstraintSourceKeyableList : ValueType
     {
-        public int Count;
-        public ÍÏÎÎÌÍÍ.killLevel OverflowList; // 0x10
-        public ÍÏÎÎÌÍÍ.killLevel ValueEnumerator; // 0x38
-        public ÍÏÎÎÌÍÍ.killLevel IsReadOnly; // 0x60
-        public ÍÏÎÎÌÍÍ.killLevel IsFixedSize; // 0x88
-        public ÍÏÎÎÌÍÍ.killLevel System.Collections.ICollection.IsSynchronized; // 0xB0
-        public ÍÏÎÎÌÍÍ.killLevel System.Collections.ICollection.SyncRoot; // 0xD8
-        public ÍÏÎÎÌÍÍ.killLevel System.Collections.IList.Item; // 0x100
-        public ÍÏÎÎÌÍÍ.killLevel Item; // 0x128
-        public ÍÏÎÎÌÍÍ.killLevel source8; // 0x150
-        public ÍÏÎÎÌÍÍ.killLevel source9; // 0x178
-        public ÍÏÎÎÌÍÍ.killLevel source10; // 0x1A0
-        public ÍÏÎÎÌÍÍ.killLevel source11; // 0x1C8
-        public ÍÏÎÎÌÍÍ.killLevel source12; // 0x1F0
-        public ÍÏÎÎÌÍÍ.killLevel source13; // 0x218
-        public ÍÏÎÎÌÍÍ.killLevel source14; // 0x240
-        public ÍÏÎÎÌÍÍ.killLevel source15; // 0x268
-        public int totalLength; // 0x290
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.killLevel> overflowList; // 0x298
-        public URA.saAbbrevEnglishEraNames<ÍÏÎÎÌÍÍ.killLevel> _valueEnumerator; // 0x2A0
+        public object Count;
+        public object OverflowList;
+        public object ValueEnumerator;
+        public object IsReadOnly;
+        public object IsFixedSize;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object System.Collections.IList.Item;
+        public object Item;
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD5523C970
@@ -1174,8 +856,6 @@ namespace VRC.Dynamics
 
     public class VRCDynamicsLoop : Object
     {
-        public URA.woDigitYearMax<eObjectDelegate.ingField> ÌÌÌÌÎÌÌÍÌÏÍÎÏÏÍÍÍÎÏÍÍÍÌ;
-
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4EEC9630
         public void Equals(){} // RVA: 0x7FFD4EEC9780
@@ -1184,11 +864,6 @@ namespace VRC.Dynamics
 
     public class VRCDynamicsScheduler : Object
     {
-        public gAxis.andleSelfFittingAlongAxis _currentDynamicsJobHandle;
-        public ÎÌÍÏÏÌÍÏ OnFrameComplete; // 0x10
-        public ÎÌÍÏÏÌÍÏ OnFrameCompleteLate; // 0x18
-        public int _latestCompletedFrameNumber; // 0x20
-
         // ── Methods ──
         public void add_OnFrameComplete(){} // RVA: 0x7FFD5521F190
         public void remove_OnFrameComplete(){} // RVA: 0x7FFD5521F2E0
@@ -1208,107 +883,15 @@ namespace VRC.Dynamics
 
     public class VRCPhysBoneBase : DynamicsComponent
     {
-        public bool SortingBaseTransform; // 0x28
-        public bool MaximumExecutionGroups; // 0x29
-        public bool ExecutionGroup; // 0x2A
-        public bool HasUdonEmitter; // 0x2B
-        public bool IsGrabbed; // 0x2C
-        public bool IsPosed; // 0x2D
-        public bool Angle; // 0x2E
-        public bool Stretch; // 0x2F
-        public string Squish;
-        public string PARAM_ISPOSED;
-        public string PARAM_ANGLE;
-        public string PARAM_STRETCH;
-        public string PARAM_SQUISH;
-        public object version; // 0x30
-        public object LatestVersion;
-        public object integrationType; // 0x34
-        public object rootTransform; // 0x38
-        public URA.woDigitYearMax<?> ignoreTransforms; // 0x40
-        public bool ignoreOtherPhysBones; // 0x48
-        public amut endpointPosition; // 0x4C
-        public object multiChildType; // 0x58
-        public float pull; // 0x5C
-        public ÍÎÌÍÍÌÌÎÏÏ pullCurve; // 0x60
-        public float spring; // 0x68
-        public ÍÎÌÍÍÌÌÎÏÏ springCurve; // 0x70
-        public float stiffness; // 0x78
-        public ÍÎÌÍÍÌÌÎÏÏ stiffnessCurve; // 0x80
-        public float gravity; // 0x88
-        public ÍÎÌÍÍÌÌÎÏÏ gravityCurve; // 0x90
-        public float gravityFalloff; // 0x98
-        public ÍÎÌÍÍÌÌÎÏÏ gravityFalloffCurve; // 0xA0
-        public omponent immobileType; // 0xA8
-        public float immobile; // 0xAC
-        public ÍÎÌÍÍÌÌÎÏÏ immobileCurve; // 0xB0
-        public Sphere_Capsule allowCollision; // 0xB8
-        public e collisionFilter; // 0xBC
-        public float radius; // 0xC4
-        public ÍÎÌÍÍÌÌÎÏÏ radiusCurve; // 0xC8
-        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.ns> colliders; // 0xD0
-        public _ElementInitializerMethodStatic limitType; // 0xD8
-        public float maxAngleX; // 0xDC
-        public ÍÎÌÍÍÌÌÎÏÏ maxAngleXCurve; // 0xE0
-        public float maxAngleZ; // 0xE8
-        public ÍÎÌÍÍÌÌÎÏÏ maxAngleZCurve; // 0xF0
-        public amut limitRotation; // 0xF8
-        public ÍÎÌÍÍÌÌÎÏÏ limitRotationXCurve; // 0x108
-        public ÍÎÌÍÍÌÌÎÏÏ limitRotationYCurve; // 0x110
-        public ÍÎÌÍÍÌÌÎÏÏ limitRotationZCurve; // 0x118
-        public amut staticFreezeAxis; // 0x120
-        public Sphere_Capsule allowGrabbing; // 0x12C
-        public e grabFilter; // 0x130
-        public Sphere_Capsule allowPosing; // 0x138
-        public e poseFilter; // 0x13C
-        public bool snapToHand; // 0x144
-        public float grabMovement; // 0x148
-        public float maxStretch; // 0x14C
-        public ÍÎÌÍÍÌÌÎÏÏ maxStretchCurve; // 0x150
-        public float maxSquish; // 0x158
-        public ÍÎÌÍÍÌÌÎÏÏ maxSquishCurve; // 0x160
-        public float stretchMotion; // 0x168
-        public ÍÎÌÍÍÌÌÎÏÏ stretchMotionCurve; // 0x170
-        public bool isAnimated; // 0x178
-        public bool resetWhenDisabled; // 0x179
-        public string parameter; // 0x180
-        public bool showGizmos; // 0x188
-        public float boneOpacity; // 0x18C
-        public float limitOpacity; // 0x190
-        public bool configHasUpdated; // 0x194
-        public URA.woDigitYearMax<radius> bones; // 0x198
-        public int maxBoneChainIndex; // 0x1A0
-        public ÍÏÎÎÌÍÍ.arker chainId; // 0x1A8
-        public ÎÌÍÏÏÌÍÏ OnNeedsNetworkSync; // 0x1B8
-        public n<led,int> getPlayerIdCallback; // 0x1C0
-        public int playerId; // 0x1C8
-        public int netId; // 0x1CC
-        public int netSubId; // 0x1D0
-        public bool collidersHaveUpdated; // 0x1D4
-        public object worldImmobileTransform; // 0x1D8
-        public object grab; // 0x1E0
-        public ÍÏÎÎÌÍÍ.VRC.Dynamics.dll root; // 0x1E8
-        public ÍÏÎÎÌÍÍ.ck _parentChangeDetector; // 0x1F0
-        public int <ExecutionGroup>k__BackingField; // 0x1F8
-        public ÎÌÍÏÏÌÍÏ OnPoseUpdated; // 0x200
-        public ileFullDirectoryInformation<ÍÏÎÎÌÍÍ.T_CAPACITY> OnInitialize; // 0x8
-        public bool hasInitParams; // 0x208
-        public bool hasInitTransform; // 0x209
-        public nalInformation<int,int,bool> OnVerifyCollision; // 0x10
-        public gSmoothFactor shape; // 0x210
-        public URA.woDigitYearMax<dStyleWeight> collisionRecords; // 0x218
-        public bool param_IsGrabbedValue; // 0x220
-        public bool param_IsPosedValue; // 0x221
-        public float param_AngleValue; // 0x224
-        public float param_StretchValue; // 0x228
-        public float param_SquishValue; // 0x22C
-        public ellSize.te param_IsGrabbed; // 0x230
-        public ellSize.te param_IsPosed; // 0x238
-        public ellSize.te param_Angle; // 0x240
-        public ellSize.te param_Stretch; // 0x248
-        public ellSize.te param_Squish; // 0x250
-        public ÍÏÎÎÌÍÍ.es _udonEmitter; // 0x258
-        public float MAX_STRETCH;
+        public object SortingBaseTransform;
+        public object MaximumExecutionGroups;
+        public object ExecutionGroup;
+        public object HasUdonEmitter;
+        public object IsGrabbed;
+        public object IsPosed;
+        public object Angle;
+        public object Stretch;
+        public object Squish;
 
         // ── Methods ──
         public void GetRootTransform(){} // RVA: 0x7FFD5526FA00
@@ -1377,22 +960,12 @@ namespace VRC.Dynamics
 
     public class VRCPhysBoneColliderBase : DynamicsComponent
     {
-        public object axis; // 0x28
-        public cationCallback isGlobalCollider; // 0x30
-        public bool MaximumExecutionGroups; // 0x34
-        public float ExecutionGroup; // 0x38
-        public float SortingBaseTransform; // 0x3C
-        public amut GlobalColliderFlags; // 0x40
-        public R_12x12 rotation; // 0x4C
-        public bool bonesAsSpheres; // 0x5C
-        public ÍÏÎÎÌÍÍ.oipStateChangeCallback globalCollisionFlags; // 0x60
-        public bool _hasClientDefinedGlobalCollisionState; // 0x64
-        public n<led,int> getPlayerIdCallback; // 0x68
-        public int playerId; // 0x70
-        public gSmoothFactor shape; // 0x78
-        public ÍÏÎÎÌÍÍ.ck _parentChangeDetector; // 0x80
-        public int <ExecutionGroup>k__BackingField; // 0x88
-        public ileFullDirectoryInformation<ÍÏÎÎÌÍÍ.ns> OnPreShapeInitialize;
+        public object axis;
+        public object isGlobalCollider;
+        public object MaximumExecutionGroups;
+        public object ExecutionGroup;
+        public object SortingBaseTransform;
+        public object GlobalColliderFlags;
 
         // ── Methods ──
         public void GetRootTransform(){} // RVA: 0x7FFD552743D0

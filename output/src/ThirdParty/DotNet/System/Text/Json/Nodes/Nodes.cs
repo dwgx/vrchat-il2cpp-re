@@ -7,8 +7,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 {
     public class JsonArray : JsonNode
     {
-        public aphy<inDataView.ase64> List; // 0x20
-        public URA.woDigitYearMax<tNegative> Count; // 0x38
+        public object List;
+        public object Count;
+        public object System.Collections.Generic.ICollection<System.Text.Json.Nodes.JsonNode>.IsReadOnly;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5446E680 | overloaded x4
@@ -43,8 +44,11 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonNode : Object
     {
-        public tNegative Options; // 0x10
-        public aphy<4_0> Parent; // 0x18
+        public object Options;
+        public object Parent;
+        public object Root;
+        public object Item;
+        public object Item;
 
         // ── Methods ──
         public void get_Options(){} // RVA: 0x7FFD544701F0
@@ -82,7 +86,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonNodeOptions : ValueType
     {
-        public bool PropertyNameCaseInsensitive; // 0x10
+        public object PropertyNameCaseInsensitive;
 
         // ── Methods ──
         public void get_PropertyNameCaseInsensitive(){} // RVA: 0x7FFD4FD7DDF0
@@ -101,8 +105,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValueCustomized`1 : JsonValue`1
     {
-        public ndlingValue.tions.Generic.IAsyncEnumerator<T>.MoveNextAsync<T1717649312> _jsonTypeInfo;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void WriteTo(){} // RVA: 0x7FFD4E099B30
@@ -111,9 +113,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValuePrimitive`1 : JsonValue`1
     {
-        public inDataView.CannotBeObjectOrArray s_defaultOptions;
-        public ngCommas.get_transformPoleAxis<T1717649424> _converter;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void WriteTo(){} // RVA: 0x7FFD4E099B30
@@ -123,9 +122,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValueTrimmable`1 : JsonValue`1
     {
-        public ndlingValue.tions.Generic.IAsyncEnumerator<T>.MoveNextAsync<T1717693488> _jsonTypeInfo;
-        public ngCommas.get_transformPoleAxis<T1717693488> _converter;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void WriteTo(){} // RVA: 0x7FFD4E099B30
@@ -133,8 +129,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValue`1 : JsonValue
     {
-        public T1717693472 _value;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void GetValue(){} // RVA: 0x7FFD4E2ADC40

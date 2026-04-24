@@ -7,18 +7,6 @@ namespace ThirdParty.Other.Transmtn
 {
     public class Api : Object
     {
-        public nInSuperStream.dBytes16Align8 _websocketPipeline; // 0x10
-        public nInSuperStream.zes PhoneBook; // 0x18
-        public nInSuperStream.aseStream PostOffice; // 0x20
-        public nInSuperStream.checksum GroupsWebSocketEventHandler; // 0x28
-        public nInSuperStream.initialPosition QueueWebSocketEventHandler; // 0x30
-        public nInSuperStream.aveCrcAndSizes ContentWebSocketEventHandler; // 0x38
-        public nInSuperStream.crcTable_5 EconomyWebSocketEventHandler; // 0x40
-        public nInSuperStream.? InstanceWebSocketEventHandler; // 0x48
-        public nInSuperStream.Find ChallengesWebsocketEventHandler; // 0x50
-        public nInSuperStream.vanceToPosition InventoryWebSocketEventHandler; // 0x58
-        public nInSuperStream.eekBackwardsAndRead TextureWebSocketEventHandler; // 0x60
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574E4F90
         public void Dispose(){} // RVA: 0x7FFD574E5E90
@@ -26,8 +14,6 @@ namespace ThirdParty.Other.Transmtn
 
     public class ChallengesWebsocketEventHandler : Object
     {
-        public tTable<ÎÌÎÌÏÏÌÌÌÍÏÌÌ.?> OnUpdateReceived; // 0x10
-
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0x7FFD574E5F60
         public void remove_OnUpdateReceived(){} // RVA: 0x7FFD574E6060
@@ -37,16 +23,12 @@ namespace ThirdParty.Other.Transmtn
 
     public class ContentEvent : EventArgs
     {
-        public string ContentType; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574E7CC0
     }
 
     public class ContentWebSocketEventHandler : Object
     {
-        public tTable<nInSuperStream.able_0> OnUpdateReceived; // 0x10
-
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0x7FFD574E6A00
         public void remove_OnUpdateReceived(){} // RVA: 0x7FFD574E6B00
@@ -56,22 +38,12 @@ namespace ThirdParty.Other.Transmtn
 
     public class EconomyEvent : EventArgs
     {
-        public bool UpdateWallet; // 0x10
-        public int WalletBalance; // 0x14
-        public string DirtyPurchases; // 0x18
-        public URA.DateTime<string,object> PurchaseToken; // 0x20
-        public string IsGift; // 0x28
-        public string GiftBuyerId; // 0x30
-        public string GiftListingId; // 0x38
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574E9330
     }
 
     public class EconomyWebsocketEventHandler : Object
     {
-        public tTable<nInSuperStream.Table_7> OnUpdateReceived; // 0x10
-
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0x7FFD574E7D10
         public void remove_OnUpdateReceived(){} // RVA: 0x7FFD574E7E10
@@ -81,18 +53,12 @@ namespace ThirdParty.Other.Transmtn
 
     public class GroupEvent : EventArgs
     {
-        public string groupId; // 0x10
-        public nInSuperStream.834C8FADF0CB30FBCA395ADB8381D8FF eventType; // 0x18
-        public string data; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574EA850
     }
 
     public class GroupsWebSocketEventHandler : Object
     {
-        public tTable<nInSuperStream.772A5A98D00834C8FADF0CB30FBCA395ADB8381D8FF> OnUpdateReceived; // 0x10
-
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0x7FFD574E9380
         public void remove_OnUpdateReceived(){} // RVA: 0x7FFD574E9480
@@ -135,17 +101,12 @@ namespace ThirdParty.Other.Transmtn
 
     public class InstanceEvent : EventArgs
     {
-        public string EventType; // 0x10
-        public string InstanceLocation; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574EBFE0
     }
 
     public class InstanceWebSocketEventHandler : Object
     {
-        public tTable<nInSuperStream.95647FEBC9C983D5B4190B36B> OnUpdateReceived; // 0x10
-
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0x7FFD574EB290
         public void remove_OnUpdateReceived(){} // RVA: 0x7FFD574EB390
@@ -156,7 +117,7 @@ namespace ThirdParty.Other.Transmtn
 
     public class InventoryEvent : Object
     {
-        public nInSuperStream.A7033D7BD35C3C4A0B79A4BDE6673F6700D4F1F8D85072F87907C4FDADF Type; // 0x10
+        public object Type;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E38E5C0
@@ -166,8 +127,6 @@ namespace ThirdParty.Other.Transmtn
 
     public class InventoryWebSocketEventHandler : Object
     {
-        public tTable<nInSuperStream.9A4BDE6673F6700D4F1F8D85072F87907C4FDADF> OnUpdateReceived; // 0x10
-
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0x7FFD574EC030
         public void remove_OnUpdateReceived(){} // RVA: 0x7FFD574EC130
@@ -177,8 +136,6 @@ namespace ThirdParty.Other.Transmtn
 
     public class PhoneBook : Object
     {
-        public tTable<nInSuperStream.0B36BC326ACD36FEEC967E86D016F3E> OnUpdateReceived; // 0x10
-
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0x7FFD574ECF40
         public void remove_OnUpdateReceived(){} // RVA: 0x7FFD574ED040
@@ -189,18 +146,19 @@ namespace ThirdParty.Other.Transmtn
 
     public class PostOffice : Object
     {
-        public nInSuperStream.nContinuation HttpClient; // 0x10
-        public string Messages; // 0x18
-        public string FriendRequests; // 0x20
-        public tTable<nInSuperStream.618F71C0581E682B63B80024BCCF54FD38C7349749BCE1291188BD1> Invites; // 0x28
-        public int Broadcasts;
-        public nInSuperStream.? Alerts; // 0x30
-        public ializable.GetObjectData TopFourNotifications;
-        public URA.yKey<DependencyInjector,?> RecentNotifications; // 0x38
-        public URA.DateTime<string,?> Notifications; // 0x40
-        public URA.woDigitYearMax<string> SortedNotifications; // 0x48
-        public URA.woDigitYearMax<string> NotificationDictionary; // 0x50
-        public int NotificationsToDelete;
+        public object HttpClient;
+        public object Messages;
+        public object FriendRequests;
+        public object Invites;
+        public object Broadcasts;
+        public object Alerts;
+        public object TopFourNotifications;
+        public object RecentNotifications;
+        public object Notifications;
+        public object SortedNotifications;
+        public object NotificationDictionary;
+        public object NotificationsToDelete;
+        public object NotificationsToUpdate;
 
         // ── Methods ──
         public void get_HttpClient(){} // RVA: 0x7FFD4E35C380
@@ -245,20 +203,12 @@ namespace ThirdParty.Other.Transmtn
 
     public class QueueEvent : EventArgs
     {
-        public string EventType; // 0x10
-        public string InstanceLocation; // 0x18
-        public DependencyInjector Expiry; // 0x20
-        public int Position; // 0x28
-        public int QueueSize; // 0x2C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574F9190
     }
 
     public class QueueWebSocketEventHandler : Object
     {
-        public tTable<nInSuperStream.ne.UIElements.IStyle.set_position> OnUpdateReceived; // 0x10
-
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0x7FFD574F7D70
         public void remove_OnUpdateReceived(){} // RVA: 0x7FFD574F7E70
@@ -270,8 +220,6 @@ namespace ThirdParty.Other.Transmtn
 
     public class Router : Object
     {
-        public JapaneseLangName.erns<string,nInSuperStream.gView`1> _routes; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574FA320
         public void AddRoute(){} // RVA: 0x7FFD574FA3E0
@@ -280,8 +228,8 @@ namespace ThirdParty.Other.Transmtn
 
     public class SocketEnvelope : Object
     {
-        public string type; // 0x10
-        public string content; // 0x18
+        public object type;
+        public object content;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574FAD20
@@ -293,7 +241,7 @@ namespace ThirdParty.Other.Transmtn
 
     public class TextureEvent : Object
     {
-        public nInSuperStream.ectCall Type; // 0x10
+        public object Type;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E38E5C0
@@ -303,8 +251,6 @@ namespace ThirdParty.Other.Transmtn
 
     public class TextureWebSocketEventHandler : Object
     {
-        public tTable<nInSuperStream.erOfTwo> OnUpdateReceived; // 0x10
-
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0x7FFD574F91E0
         public void remove_OnUpdateReceived(){} // RVA: 0x7FFD574F92E0
@@ -314,8 +260,8 @@ namespace ThirdParty.Other.Transmtn
 
     public class UpdateEvent : EventArgs
     {
-        public 384.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ user; // 0x10
-        public object messageType; // 0x18
+        public object user;
+        public object messageType;
 
         // ── Methods ──
         public void get_user(){} // RVA: 0x7FFD4E35C380
@@ -327,17 +273,6 @@ namespace ThirdParty.Other.Transmtn
 
     public class WebsocketPipeline : Object
     {
-        public ÎÌÍÏÏÌÍÏ OnConnectionEstablished; // 0x10
-        public ileFullDirectoryInformation<string> OnLostConnection; // 0x18
-        public nInSuperStream.dList512BytesDebugView`1 _router; // 0x20
-        public string _endpoint; // 0x28
-        public string _authToken; // 0x30
-        public string _macAddress; // 0x38
-        public string _clientVersion; // 0x40
-        public string _platform; // 0x48
-        public ce _connectionId; // 0x50
-        public sageKind._internal _pipeCancellationSource; // 0x60
-
         // ── Methods ──
         public void add_OnConnectionEstablished(){} // RVA: 0x7FFD574FAE80
         public void remove_OnConnectionEstablished(){} // RVA: 0x7FFD574FAF70

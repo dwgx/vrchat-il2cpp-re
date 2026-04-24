@@ -21,8 +21,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ConfigurationEntry : Object
     {
-        public string Value; // 0x10
-        public bool IsReadOnly; // 0x18
+        public object Value;
+        public object IsReadOnly;
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x7FFD4E35C380
@@ -34,7 +34,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ConfigurationUtils : Object
     {
-        public dll.r ConfigurationLoader;
+        public object ConfigurationLoader;
 
         // ── Methods ──
         public void get_ConfigurationLoader(){} // RVA: 0x7FFD54B0F8E0
@@ -55,9 +55,6 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ProjectConfiguration : Object
     {
-        public URA.DayNames<string,dll.em> m_ConfigValues; // 0x10
-        public Middleware.middleware <Serializer>k__BackingField; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
         public void GetString(){} // RVA: 0x7FFD54B0FA80
@@ -65,8 +62,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class SerializableProjectConfiguration : ValueType
     {
-        public string[] Empty; // 0x10
-        public dll.em[] Values; // 0x18
+        public object Empty;
 
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x7FFD54B0FB90
@@ -74,8 +70,6 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class StreamingAssetsConfigurationLoader : Object
     {
-        public Middleware.middleware m_Serializer; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void GetConfigAsync(){} // RVA: 0x7FFD54B0FCB0

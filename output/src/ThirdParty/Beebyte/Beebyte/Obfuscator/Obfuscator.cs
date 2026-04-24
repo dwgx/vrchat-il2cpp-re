@@ -19,8 +19,6 @@ namespace ThirdParty.Beebyte.Beebyte.Obfuscator
 
     public class RenameAttribute : Attribute
     {
-        public string target; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
         public void GetTarget(){} // RVA: 0x7FFD4E35C380
@@ -46,8 +44,6 @@ namespace ThirdParty.Beebyte.Beebyte.Obfuscator
 
     public class SuppressLogAttribute : Attribute
     {
-        public eBuffer.ctiveIndex _messageCode; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0 | overloaded x2
     }

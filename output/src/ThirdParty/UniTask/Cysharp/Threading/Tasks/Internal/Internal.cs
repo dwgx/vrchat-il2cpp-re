@@ -15,12 +15,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ArrayPool`1 : Object
     {
-        public int DefaultMaxNumberOfArraysPerBucket;
-        public T1717671248[] EmptyArray;
-        public n.?<T1717671248> Shared;
-        public n.le<T1717671248[]>[] buckets;
-        public sageKind.ceJapaneseEraYearRanges[] locks;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD517A1650
         public void Rent(){} // RVA: 0x7FFD517A18D0
@@ -32,6 +26,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ArrayUtil : Object
     {
+        public er<T>.OnTextSelectionAsync.ectEventHandler<T>.OnSelectAsync runner; // 0x10
+
         // ── Methods ──
         public void EnsureCapacity(){} // RVA: 0x7FFD4E096370
         public void EnsureCore(){} // RVA: 0x7FFD4E096370
@@ -41,12 +37,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
     public class AsyncSubject`1 : Object
     {
         public object Value;
-        public T1717671904 HasObservers;
-        public bool IsCompleted;
-        public bool isStopped;
-        public bool isDisposed;
-        public ÏÏÍÍÎÎ lastError;
-        public yPermissionCheck<T1717671904> outObserver;
+        public object HasObservers;
+        public object IsCompleted;
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x7FFD4E2ADC40
@@ -63,16 +55,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ContinuationQueue : Object
     {
-        public int MaxArrayLength;
-        public int InitialSize;
-        public eObjectDelegate.sonElementConverter timing; // 0x10
-        public sageKind.ceJapaneseEraYearRanges gate; // 0x14
-        public bool dequing; // 0x18
-        public int actionListCount; // 0x1C
-        public ÎÌÍÏÏÌÍÏ[] actionList; // 0x20
-        public int waitingListCount; // 0x28
-        public ÎÌÍÏÏÌÍÏ[] waitingList; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54916A30
         public void Enqueue(){} // RVA: 0x7FFD54916B60
@@ -99,10 +81,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class DiagnosticsExtensions : Object
     {
-        public bool displayFilenames;
-        public tor.neStore typeBeautifyRegex; // 0x8
-        public URA.DateTime<?,string> builtInTypeNames; // 0x10
-
         // ── Methods ──
         public void CleanupAsyncStackTrace(){} // RVA: 0x7FFD54917610
         public void IsAsync(){} // RVA: 0x7FFD54917E00
@@ -115,8 +93,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class DisposedObserver`1 : Object
     {
-        public n.onAsync<T1717671968> Instance;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void OnCompleted(){} // RVA: 0x7FFD4E090980
@@ -127,8 +103,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class EmptyObserver`1 : Object
     {
-        public n.EventHandler<T>.OnEndTextSelectionAsync<T1717671936> Instance;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void OnCompleted(){} // RVA: 0x7FFD4E090980
@@ -154,8 +128,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ImmutableList`1 : Object
     {
-        public n.eading.Tasks.IAsyncTextSelectionEventHandler<T>.OnTextSelectionAsync<T1717671984> Data;
-        public T1717671984[] data;
+        public object Data;
 
         // ── Methods ──
         public void get_Data(){} // RVA: 0x7FFD4E078E90
@@ -168,8 +141,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ListObserver`1 : Object
     {
-        public n.eading.Tasks.IAsyncTextSelectionEventHandler<T>.OnTextSelectionAsync<yPermissionCheck<T1717671920>> _observers;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void OnCompleted(){} // RVA: 0x7FFD4E090980
@@ -181,12 +152,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class MinimumQueue`1 : Object
     {
-        public int Count;
-        public int GrowFactor;
-        public T1717671424[] array;
-        public int head;
-        public int tail;
-        public int size;
+        public object Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51958920
@@ -202,16 +168,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class PlayerLoopRunner : Object
     {
-        public int InitialSize;
-        public eObjectDelegate.sonElementConverter timing; // 0x10
-        public object runningAndQueueLock; // 0x18
-        public object arrayLock; // 0x20
-        public ileFullDirectoryInformation<ÏÏÍÍÎÎ> unhandledExceptionCallback; // 0x28
-        public int tail; // 0x30
-        public bool running; // 0x34
-        public eObjectDelegate.rter[] loopItems; // 0x38
-        public n.le<eObjectDelegate.rter> waitQueue; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5491A260
         public void AddAction(){} // RVA: 0x7FFD5491A5E0
@@ -260,8 +216,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`1 : Object
     {
-        public JapaneseLangName.me<n.ce<T1717671616>> queue;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E2ADC40
         public void Return(){} // RVA: 0x7FFD4E090A10
@@ -270,8 +224,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`2 : Object
     {
-        public JapaneseLangName.me<n.ter<T1717671664,T1717671680>> queue;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E2ADC40
         public void Return(){} // RVA: 0x7FFD4E090A10
@@ -280,8 +232,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`3 : Object
     {
-        public JapaneseLangName.me<n.estConfiguredSource<T1717671744,T1717671760,T1717671776>> queue;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD50653AD0
         public void Return(){} // RVA: 0x7FFD51DBF5F0
@@ -296,8 +246,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`1 : Object
     {
-        public T1717671600 Item1;
-
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x7FFD4E090A40
         public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -306,9 +254,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`2 : Object
     {
-        public T1717671632 Item1;
-        public T1717671648 Item2;
-
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x7FFD4E099B30
         public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -317,10 +262,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`3 : Object
     {
-        public T1717671696 Item1;
-        public T1717671712 Item2;
-        public T1717671728 Item3;
-
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x7FFD51DC12B0
         public void Dispose(){} // RVA: 0x7FFD51DC1390
@@ -329,8 +270,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ThrowObserver`1 : Object
     {
-        public n.OnEndTextSelectionAsync<T1717671952> Instance;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void OnCompleted(){} // RVA: 0x7FFD4E090980
@@ -341,33 +280,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class UnityEqualityComparer : Object
     {
-        public URA.hEraNames<tionX> Vector2;
-        public URA.hEraNames<amut> Vector3; // 0x8
-        public URA.hEraNames<get_boundingBoxMode> Vector4; // 0x10
-        public URA.hEraNames<?> Color; // 0x18
-        public URA.hEraNames<?> Color32; // 0x20
-        public URA.hEraNames<dRecorder> Rect; // 0x28
-        public URA.hEraNames<stments> Bounds; // 0x30
-        public URA.hEraNames<R_12x12> Quaternion; // 0x38
-        public d vector2Type; // 0x40
-        public d vector3Type; // 0x48
-        public d vector4Type; // 0x50
-        public d colorType; // 0x58
-        public d color32Type; // 0x60
-        public d rectType; // 0x68
-        public d boundsType; // 0x70
-        public d quaternionType; // 0x78
-        public URA.hEraNames<onY> Vector2Int; // 0x80
-        public URA.hEraNames<lutionZ> Vector3Int; // 0x88
-        public URA.hEraNames<nt> RangeInt; // 0x90
-        public URA.hEraNames<_BackingField> RectInt; // 0x98
-        public URA.hEraNames<ioUpdateJob> BoundsInt; // 0xA0
-        public d vector2IntType; // 0xA8
-        public d vector3IntType; // 0xB0
-        public d rangeIntType; // 0xB8
-        public d rectIntType; // 0xC0
-        public d boundsIntType; // 0xC8
-
         // ── Methods ──
         public void GetDefault(){} // RVA: 0x7FFD4E078A90
         public void GetDefaultHelper(){} // RVA: 0x7FFD5491B950
@@ -382,8 +294,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ValueStopwatch : ValueType
     {
-        public double Elapsed;
-        public long IsInvalid; // 0x10
+        public object Elapsed;
+        public object IsInvalid;
+        public object ElapsedTicks;
 
         // ── Methods ──
         public void StartNew(){} // RVA: 0x7FFD5491D780
@@ -396,12 +309,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class WeakDictionary`2 : Object
     {
-        public ?<T1717671856,T1717671872>[] buckets;
-        public int size;
-        public sageKind.ceJapaneseEraYearRanges gate;
-        public float loadFactor;
-        public URA.hEraNames<T1717671856> keyEqualityComparer;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E094550
         public void TryAdd(){} // RVA: 0x7FFD4E2ADC40

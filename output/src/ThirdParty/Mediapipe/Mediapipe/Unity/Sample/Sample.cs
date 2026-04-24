@@ -7,18 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Sample
 {
     public class AppSettings : ScriptableObject
     {
-        public ÎÌÏÍÏÎÍÏÏÎÏÏ defaultImageSource; // 0x18
-        public object preferableInferenceMode; // 0x1C
-        public object assetLoaderType; // 0x20
-        public MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject logLevel; // 0x24
-        public int _glogMinloglevel; // 0x28
-        public int _glogStderrthreshold; // 0x2C
-        public int _glogV; // 0x30
-        public int _preferredDefaultWebCamWidth; // 0x34
-        public ?[] _defaultAvailableWebCamResolutions; // 0x38
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField[] _availableStaticImageSources; // 0x40
-        public ?[] _defaultAvailableStaticImageResolutions; // 0x48
-        public ositionAdjustment.ffects[] _availableVideoSources; // 0x50
+        public object defaultImageSource;
+        public object preferableInferenceMode;
+        public object assetLoaderType;
+        public object logLevel;
 
         // ── Methods ──
         public void get_preferableInferenceMode(){} // RVA: 0x7FFD4F8557F0

@@ -19,9 +19,6 @@ namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 
     public class TweenRunner`1 : Object
     {
-        public glesLength m_CoroutineContainer;
-        public mePatterns.e m_Tween;
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E2ADC40
         public void Init(){} // RVA: 0x7FFD4E090A40

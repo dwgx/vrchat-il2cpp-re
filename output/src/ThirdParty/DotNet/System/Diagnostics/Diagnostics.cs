@@ -13,7 +13,7 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class Debugger : Object
     {
-        public string IsAttached;
+        public object IsAttached;
 
         // ── Methods ──
         public void get_IsAttached(){} // RVA: 0x7FFD539AD780
@@ -27,9 +27,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class DiagEnumerator`1 : ValueType
     {
-        public ernal_index_icall.nentTypeHashToInstance<T1717743664> Current;
-        public ernal_index_icall.nentTypeHashToInstance<T1717743664> System.Collections.IEnumerator.Current;
-        public ernal_index_icall.nentTypeHashToInstance<T1717743664> _currentNode;
+        public object Current;
+        public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -43,17 +42,12 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class DiagNode`1 : Object
     {
-        public T1717743648 Value;
-        public ernal_index_icall.nentTypeHashToInstance<T1717743648> Next;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     }
 
     public class ExceptionExtensions : Object
     {
-        public m.WmiGuidObject stackTraceString;
-
         // ── Methods ──
         public void SetStackTracesString(){} // RVA: 0x7FFD5400A650
         public void Demystify(){} // RVA: 0x7FFD4E2ADC40
@@ -138,8 +132,7 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class SynchronizedList`1 : Object
     {
-        public URA.woDigitYearMax<T1717743632> Count;
-        public uint _version;
+        public object Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980

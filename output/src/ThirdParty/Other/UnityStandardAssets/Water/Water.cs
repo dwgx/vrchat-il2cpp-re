@@ -22,10 +22,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
 
     public class MeshContainer : Object
     {
-        public object mesh; // 0x10
-        public amut[] vertices; // 0x18
-        public amut[] normals; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E351C20
         public void Update(){} // RVA: 0x7FFD4E351D60
@@ -33,16 +29,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
 
     public class PlanarReflection : MonoBehaviour
     {
-        public object reflectionMask; // 0x20
-        public bool reflectSkybox; // 0x24
-        public object clearColor; // 0x28
-        public string reflectionSampler; // 0x38
-        public float clipPlaneOffset; // 0x40
-        public amut m_Oldpos; // 0x44
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ m_ReflectionCamera; // 0x50
-        public atrix_Injected m_SharedMaterial; // 0x58
-        public URA.DateTime<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ,bool> m_HelperCameras; // 0x60
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E351E80
         public void CreateReflectionCameraFor(){} // RVA: 0x7FFD4E352090
@@ -64,9 +50,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
 
     public class SpecularLighting : MonoBehaviour
     {
-        public object specularLight; // 0x20
-        public nput.PacketNum m_WaterBase; // 0x28
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E355060
         public void Update(){} // RVA: 0x7FFD4E3552B0
@@ -75,21 +58,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
 
     public class Water : MonoBehaviour
     {
-        public unt waterMode; // 0x20
-        public bool disablePixelLights; // 0x24
-        public int textureSize; // 0x28
-        public float clipPlaneOffset; // 0x2C
-        public object reflectLayers; // 0x30
-        public object refractLayers; // 0x34
-        public URA.DateTime<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ,ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> m_ReflectionCameras; // 0x38
-        public URA.DateTime<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ,ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> m_RefractionCameras; // 0x40
-        public Offset m_ReflectionTexture; // 0x48
-        public Offset m_RefractionTexture; // 0x50
-        public unt m_HardwareWaterSupport; // 0x58
-        public int m_OldReflectionTextureSize; // 0x5C
-        public int m_OldRefractionTextureSize; // 0x60
-        public bool s_InsideWater;
-
         // ── Methods ──
         public void OnWillRenderObject(){} // RVA: 0x7FFD4E355770
         public void OnDisable(){} // RVA: 0x7FFD4E3565E0
@@ -105,10 +73,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
 
     public class WaterBase : MonoBehaviour
     {
-        public atrix_Injected sharedMaterial; // 0x20
-        public nput.lerState_t waterQuality; // 0x28
-        public bool edgeBlend; // 0x2C
-
         // ── Methods ──
         public void UpdateShader(){} // RVA: 0x7FFD4E3593B0
         public void WaterTileBeingRendered(){} // RVA: 0x7FFD4E359860
@@ -125,9 +89,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
 
     public class WaterTile : MonoBehaviour
     {
-        public nput.se reflection; // 0x20
-        public nput.PacketNum waterBase; // 0x28
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E359AB0
         public void AcquireComponents(){} // RVA: 0x7FFD4E359AC0

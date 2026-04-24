@@ -1037,6 +1037,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÎÌÏÏÌÎÎÏÌÏÍÏÏÎÌÏÌÍÎÎÌ</summary>
     public class Static9m_1192 : Object
     {
+        public string ÍÌÌÍÌÎÍÌÍÏÏÍÏÍÏÌÌÍÎÌÌÎÌ;
+        public object ÎÌÎÏÏÏÌÌÏÍÌÎÍÌÌÍÏÎÏÎÎÎÍ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E8F69A0
         public void OnPointerDown(){} // RVA: 0x7FFD4E8F6BC0
@@ -1187,6 +1190,14 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÎÌÏÍÎÏÍÏÏÍÏÎÏÏÍÍÎÌÌÏÎ</summary>
     public class Static9m_8497 : Object
     {
+        public URA.DateTime<?,itTypeSize=876> ÏÍÎÍÏÎÎÌÎÏÎÌÏÎÎÌÏÏÍÍÌÎÎ;
+        public URA.DateTime<?,itTypeSize=876> ÍÏÏÍÍÍÌÌÌÏÌÌÍÎÎÎÎÌÎÎÌÍÌ; // 0x8
+        public URA.DateTime<?,itTypeSize=876> ÍÌÌÎÏÌÌÌÎÌÌÏÏÎÎÍÍÌÏÏÍÍÏ; // 0x10
+        public URA.DateTime<ÍÍÎÌÍÌÌÎÌÌÎÌÎÎÌÌ,itTypeSize=876> ÎÌÏÌÎÌÍÌÏÍÏÏÍÏÍÍÎÎÍÏÍÏÎ; // 0x18
+        public URA.DateTime<?,itTypeSize=876> ÍÎÌÍÏÏÌÏÌÍÌÏÏÍÌÌÍÎÌÍÏÏÎ; // 0x20
+        public URA.DateTime<ÎÎÌÏÎÌÎÎÏÌÎÏÏÏÍÌÌ,itTypeSize=876> ÍÍÍÏÏÍÏÏÏÏÏÎÌÌÎÏÏÎÍÌÌÎÎ; // 0x28
+        public URA.DateTime<?,itTypeSize=876> ÏÎÌÏÏÌÎÏÎÏÎÏÏÍÏÏÎÍÏÍÎÍÎ; // 0x30
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E9A6FB0
         public void .ctor(){} // RVA: 0x7FFD4E341310

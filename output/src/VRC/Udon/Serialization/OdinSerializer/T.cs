@@ -15,8 +15,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class TwoWaySerializationBinder : Object
     {
-        public ontextOptionsImmutable Default;
-
         // ── Methods ──
         public void BindToName(){} // RVA: 0x7FFD4E08A6F0
         public void BindToType(){} // RVA: 0x7FFD4E08A6F0

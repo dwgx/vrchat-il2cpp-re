@@ -13,11 +13,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XInput
 
     public class XInputController : Gamepad
     {
-        public _1.ceControlChangedValue menu; // 0x210
-        public _1.ceControlChangedValue view; // 0x218
-        public bool subType; // 0x220
-        public alize_ctrlTouchscreentouch9startPositiony flags; // 0x224
-        public nState m_Flags; // 0x228
+        public object menu;
+        public object view;
+        public object subType;
+        public object flags;
 
         // ── Methods ──
         public void get_menu(){} // RVA: 0x7FFD4E96BCB0

@@ -7,32 +7,10 @@ namespace ThirdParty.Valve.Valve.VR
 {
     public class COpenVRContext : ValueType
     {
-        public UIntPtr m_pVRSystem; // 0x10
-        public UIntPtr m_pVRChaperone; // 0x18
-        public UIntPtr m_pVRChaperoneSetup; // 0x20
-        public UIntPtr m_pVRCompositor; // 0x28
-        public UIntPtr m_pVRHeadsetView; // 0x30
-        public UIntPtr m_pVROverlay; // 0x38
-        public UIntPtr m_pVROverlayView; // 0x40
-        public UIntPtr m_pVRResources; // 0x48
-        public UIntPtr m_pVRRenderModels; // 0x50
-        public UIntPtr m_pVRExtendedDisplay; // 0x58
-        public UIntPtr m_pVRSettings; // 0x60
-        public UIntPtr m_pVRApplications; // 0x68
-        public UIntPtr m_pVRTrackedCamera; // 0x70
-        public UIntPtr m_pVRScreenshots; // 0x78
-        public UIntPtr m_pVRDriverManager; // 0x80
-        public UIntPtr m_pVRInput; // 0x88
-        public UIntPtr m_pVRIOBuffer; // 0x90
-        public UIntPtr m_pVRSpatialAnchors; // 0x98
-        public UIntPtr m_pVRDebug; // 0xA0
-        public UIntPtr m_pVRNotifications; // 0xA8
     }
 
     public class CVRApplications : Object
     {
-        public LeftController FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C178D0
         public void AddApplicationManifest(){} // RVA: 0x7FFD54C17AE0
@@ -69,8 +47,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRBlockQueue : Object
     {
-        public ÌÌÍÎÏÍÎÌÍÏÌÌÌÍÍÍÍÏÏÌÍÏÎ FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1F640
         public void Create(){} // RVA: 0x7FFD54C1F800
@@ -86,8 +62,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRChaperone : Object
     {
-        public splayRefreshRateChangedData FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C18DC0
         public void GetCalibrationState(){} // RVA: 0x7FFD4F15B830
@@ -103,8 +77,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRChaperoneSetup : Object
     {
-        public uestShow FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C18FB0
         public void CommitWorkingCopy(){} // RVA: 0x7FFD52BB3490
@@ -131,8 +103,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRCompositor : Object
     {
-        public hColor FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C194E0
         public void SetTrackingSpace(){} // RVA: 0x7FFD52BB3490
@@ -191,8 +161,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRDebug : Object
     {
-        public object FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1ED30
         public void EmitVrProfilerEvent(){} // RVA: 0x7FFD54C1EEC0
@@ -203,8 +171,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRDriverManager : Object
     {
-        public yInMHz_IsValid FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1DB60
         public void GetDriverCount(){} // RVA: 0x7FFD4F15B830
@@ -215,8 +181,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRExtendedDisplay : Object
     {
-        public ueryComplete FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C17460
         public void GetWindowBounds(){} // RVA: 0x7FFD53DA0960
@@ -226,8 +190,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRHeadsetView : Object
     {
-        public object FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1B340
         public void SetHeadsetViewSize(){} // RVA: 0x7FFD52D17300
@@ -243,8 +205,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRIOBuffer : Object
     {
-        public dVector2 FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1E840
         public void Open(){} // RVA: 0x7FFD54C1E9E0
@@ -257,8 +217,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRInput : Object
     {
-        public ckLevel FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1DDB0
         public void SetActionManifestPath(){} // RVA: 0x7FFD54C1DFA0
@@ -297,8 +255,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRNotifications : Object
     {
-        public nRendererDataProvider FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1C470
         public void CreateNotification(){} // RVA: 0x7FFD54C1C600
@@ -307,8 +263,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVROverlay : Object
     {
-        public _enableMixedReality FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C19BB0
         public void FindOverlay(){} // RVA: 0x7FFD54C19DA0
@@ -395,8 +349,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVROverlayView : Object
     {
-        public ÏÏÌÎ FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1B1B0
         public void AcquireOverlayView(){} // RVA: 0x7FFD5424C980
@@ -407,8 +359,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRPaths : Object
     {
-        public ÏÏÌÍÌÍÍÍÎÌ FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1F3A0
         public void ReadPathBatch(){} // RVA: 0x7FFD53DA4E50
@@ -419,8 +369,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRProperties : Object
     {
-        public object FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1F160
         public void ReadPropertyBatch(){} // RVA: 0x7FFD53DA4E50
@@ -431,13 +379,10 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRPropertyHelpers : ValueType
     {
-        public UIntPtr m_pProperties; // 0x10
     }
 
     public class CVRRenderModels : Object
     {
-        public object FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1B590
         public void LoadRenderModel_Async(){} // RVA: 0x7FFD54C1B780
@@ -463,8 +408,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRResources : Object
     {
-        public eragePercentage FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1D7F0
         public void LoadSharedResource(){} // RVA: 0x7FFD54C1D980
@@ -473,8 +416,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRScreenshots : Object
     {
-        public ctatorAnchor FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1D330
         public void RequestScreenshot(){} // RVA: 0x7FFD54C1D4E0
@@ -488,13 +429,10 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRSettingHelper : ValueType
     {
-        public UIntPtr m_pSettings; // 0x10
     }
 
     public class CVRSettings : Object
     {
-        public emGestureMaterial FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1C720
         public void GetSettingsErrorNameFromEnum(){} // RVA: 0x7FFD54C1C8E0
@@ -512,8 +450,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRSpatialAnchors : Object
     {
-        public ReadRectOffset FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1EAD0
         public void CreateSpatialAnchorFromDescriptor(){} // RVA: 0x7FFD54C1EC60
@@ -524,8 +460,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRSystem : Object
     {
-        public ovrp_GetCurrentInteractionProfile FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C16170
         public void GetRecommendedRenderTargetSize(){} // RVA: 0x7FFD53D9F1C0
@@ -578,8 +512,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRTrackedCamera : Object
     {
-        public nDelegates FnTable; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C17600
         public void GetCameraErrorNameFromEnum(){} // RVA: 0x7FFD54C177C0
@@ -600,88 +532,22 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CameraVideoStreamFrameHeader_t : ValueType
     {
-        public tState eFrameType; // 0x10
-        public uint nWidth; // 0x14
-        public uint nHeight; // 0x18
-        public uint nBytesPerPixel; // 0x1C
-        public uint nFrameSequence; // 0x20
-        public fications trackedDevicePose; // 0x24
-        public ulong ulFrameExposureTime; // 0x78
     }
 
     public class Compositor_BenchmarkResults : ValueType
     {
-        public float m_flMegaPixelsPerSecond; // 0x10
-        public float m_flHmdRecommendedMegaPixelsPerSecond; // 0x14
     }
 
     public class Compositor_CumulativeStats : ValueType
     {
-        public uint m_nPid; // 0x10
-        public uint m_nNumFramePresents; // 0x14
-        public uint m_nNumDroppedFrames; // 0x18
-        public uint m_nNumReprojectedFrames; // 0x1C
-        public uint m_nNumFramePresentsOnStartup; // 0x20
-        public uint m_nNumDroppedFramesOnStartup; // 0x24
-        public uint m_nNumReprojectedFramesOnStartup; // 0x28
-        public uint m_nNumLoading; // 0x2C
-        public uint m_nNumFramePresentsLoading; // 0x30
-        public uint m_nNumDroppedFramesLoading; // 0x34
-        public uint m_nNumReprojectedFramesLoading; // 0x38
-        public uint m_nNumTimedOut; // 0x3C
-        public uint m_nNumFramePresentsTimedOut; // 0x40
-        public uint m_nNumDroppedFramesTimedOut; // 0x44
-        public uint m_nNumReprojectedFramesTimedOut; // 0x48
-        public uint m_nNumFrameSubmits; // 0x4C
-        public double m_flSumCompositorCPUTimeMS; // 0x50
-        public double m_flSumCompositorGPUTimeMS; // 0x58
-        public double m_flSumTargetFrameTimes; // 0x60
-        public double m_flSumApplicationCPUTimeMS; // 0x68
-        public double m_flSumApplicationGPUTimeMS; // 0x70
-        public uint m_nNumFramesWithDepth; // 0x78
     }
 
     public class Compositor_FrameTiming : ValueType
     {
-        public uint m_nSize; // 0x10
-        public uint m_nFrameIndex; // 0x14
-        public uint m_nNumFramePresents; // 0x18
-        public uint m_nNumMisPresented; // 0x1C
-        public uint m_nNumDroppedFrames; // 0x20
-        public uint m_nReprojectionFlags; // 0x24
-        public double m_flSystemTimeInSeconds; // 0x28
-        public float m_flPreSubmitGpuMs; // 0x30
-        public float m_flPostSubmitGpuMs; // 0x34
-        public float m_flTotalRenderGpuMs; // 0x38
-        public float m_flCompositorRenderGpuMs; // 0x3C
-        public float m_flCompositorRenderCpuMs; // 0x40
-        public float m_flCompositorIdleCpuMs; // 0x44
-        public float m_flClientFrameIntervalMs; // 0x48
-        public float m_flPresentCallCpuMs; // 0x4C
-        public float m_flWaitForPresentCpuMs; // 0x50
-        public float m_flSubmitFrameMs; // 0x54
-        public float m_flWaitGetPosesCalledMs; // 0x58
-        public float m_flNewPosesReadyMs; // 0x5C
-        public float m_flNewFrameReadyMs; // 0x60
-        public float m_flCompositorUpdateStartMs; // 0x64
-        public float m_flCompositorUpdateEndMs; // 0x68
-        public float m_flCompositorRenderStartMs; // 0x6C
-        public fications m_HmdPose; // 0x70
-        public uint m_nNumVSyncsReadyForUse; // 0xC0
-        public uint m_nNumVSyncsToFirstView; // 0xC4
-        public float m_flTransferLatencyMs; // 0xC8
     }
 
     public class Compositor_StageRenderSettings : ValueType
     {
-        public lNextOverlayEventUnion m_PrimaryColor; // 0x10
-        public lNextOverlayEventUnion m_SecondaryColor; // 0x20
-        public float m_flVignetteInnerRadius; // 0x30
-        public float m_flVignetteOuterRadius; // 0x34
-        public float m_flFresnelStrength; // 0x38
-        public bool m_bBackfaceCulling; // 0x3C
-        public bool m_bGreyscale; // 0x3D
-        public bool m_bWireframe; // 0x3E
     }
 
 }

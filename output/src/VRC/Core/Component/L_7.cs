@@ -28,8 +28,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÌÍÎÎÎÏÍÎÎÌÏÌÍÏÌÎÌÏÏÏÍÌ</summary>
     public class LateUpdateComponent_B843 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ _destroyCancellationToken; // 0x20
+        public ePathName117.? _useGUILayout; // 0x28
+        public object tooltip; // 0x30
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ buttonText; // 0x38
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F76BC70

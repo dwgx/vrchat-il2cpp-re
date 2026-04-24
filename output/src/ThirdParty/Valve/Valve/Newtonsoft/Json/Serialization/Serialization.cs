@@ -7,8 +7,6 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Serialization
 {
     public class CachedAttributeGetter`1 : Object
     {
-        public _FTheta.ltFloatParseHandling<object,T1717703312> TypeAttributeCache;
-
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0x7FFD4E2ADC40
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -16,17 +14,12 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Serialization
 
     public class DefaultContractResolver : Object
     {
-        public eControlBarClose.iteEndAsync Instance;
-        public l.IKSolverAim[] DefaultMembersSearchFlags; // 0x8
-        public object SerializeCompilerGeneratedMembers; // 0x10
-        public eControlBarClose.eyboardFlag_ShowArrowKeys IgnoreSerializableInterface; // 0x18
-        public eControlBarClose.eyboardFlag_ShowArrowKeys IgnoreSerializableAttribute; // 0x10
-        public bool NamingStrategy; // 0x18
-        public m.unt <DefaultMembersSearchFlags>k__BackingField; // 0x1C
-        public bool <SerializeCompilerGeneratedMembers>k__BackingField; // 0x20
-        public bool <IgnoreSerializableInterface>k__BackingField; // 0x21
-        public bool <IgnoreSerializableAttribute>k__BackingField; // 0x22
-        public eControlBarClose.eference <NamingStrategy>k__BackingField; // 0x28
+        public object Instance;
+        public object DefaultMembersSearchFlags;
+        public object SerializeCompilerGeneratedMembers;
+        public object IgnoreSerializableInterface;
+        public object IgnoreSerializableAttribute;
+        public object NamingStrategy;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD550F9110
@@ -83,10 +76,6 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Serialization
 
     public class JsonFormatterConverter : Object
     {
-        public eControlBarClose.DecimalZero _reader; // 0x10
-        public eControlBarClose.>b__27_0 _contract; // 0x18
-        public eControlBarClose.tibleValue _member; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD551073D0
         public void GetTokenValue(){} // RVA: 0x7FFD4E2ADC40
@@ -103,10 +92,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Serialization
 
     public class JsonTypeReflector : Object
     {
-        public aphy<bool> FullyTrusted;
-        public _FTheta.ltFloatParseHandling<?,n<object[],object>> ReflectionDelegateFactory; // 0x8
-        public _FTheta.ltFloatParseHandling<?,?> AssociatedMetadataTypesCache; // 0x10
-        public _FTheta.tructorHandling _metadataTypeAttributeReflectionObject; // 0x18
+        public object FullyTrusted;
+        public object ReflectionDelegateFactory;
 
         // ── Methods ──
         public void GetCachedAttribute(){} // RVA: 0x7FFD4E2ADC40

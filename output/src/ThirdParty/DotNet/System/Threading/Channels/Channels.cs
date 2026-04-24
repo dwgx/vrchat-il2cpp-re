@@ -22,19 +22,11 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class AsyncOperation`1 : AsyncOperation
     {
-        public sageKind.sition Next; // 0x10
-        public bool CancellationToken; // 0x28
-        public bool ValueTask; // 0x29
-        public int ValueTaskOfT; // 0x2C
-        public bool IsCompleted; // 0x30
-        public .Messaging.IInternalMessage.TargetIdentity.eDictionary _error; // 0x38
-        public ileFullDirectoryInformation<object> _continuation; // 0x40
-        public object _continuationState; // 0x48
-        public object _schedulingContext; // 0x50
-        public sageKind.d _executionContext; // 0x58
-        public short _currentId; // 0x60
-        public bstacleAvoidance.al<bool> <Next>k__BackingField; // 0x68
-        public sageKind.TICMAP_SIZE <CancellationToken>k__BackingField; // 0x70
+        public object Next;
+        public object CancellationToken;
+        public object ValueTask;
+        public object ValueTaskOfT;
+        public object IsCompleted;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -64,8 +56,8 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class BoundedChannelOptions : ChannelOptions
     {
-        public int Capacity; // 0x18
-        public bstacleAvoidance.entTypeID FullMode; // 0x1C
+        public object Capacity;
+        public object FullMode;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5449E5A0
@@ -76,17 +68,7 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class BoundedChannel`1 : Channel`1
     {
-        public bstacleAvoidance.entTypeID SyncObj;
-        public ileFullDirectoryInformation<T1717742016> _itemDropped;
-        public bstacleAvoidance.? _completion;
-        public int _bufferedCapacity;
-        public URA.path<T1717742016> _items;
-        public URA.path<bstacleAvoidance.al<T1717742016>> _blockedReaders;
-        public URA.path<bstacleAvoidance.ernal_Injected<T1717742016>> _blockedWriters;
-        public bstacleAvoidance.al<bool> _waitingReadersTail;
-        public bstacleAvoidance.al<bool> _waitingWritersTail;
-        public bool _runContinuationsAsynchronously;
-        public ÏÏÍÍÎÎ _doneWriting;
+        public object SyncObj;
 
         // ── Methods ──
         public void get_SyncObj(){} // RVA: 0x7FFD4E078E90
@@ -102,9 +84,9 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class ChannelOptions : Object
     {
-        public bool SingleWriter; // 0x10
-        public bool SingleReader; // 0x11
-        public bool AllowSynchronousContinuations; // 0x12
+        public object SingleWriter;
+        public object SingleReader;
+        public object AllowSynchronousContinuations;
 
         // ── Methods ──
         public void set_SingleWriter(){} // RVA: 0x7FFD4E40B5F0
@@ -125,11 +107,6 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class ChannelUtilities : Object
     {
-        public ÏÏÍÍÎÎ s_doneWritingSentinel;
-        public utes.?<bool> s_trueTask; // 0x8
-        public utes.?<bool> s_falseTask; // 0x10
-        public utes.Line s_neverCompletingTask; // 0x18
-
         // ── Methods ──
         public void Complete(){} // RVA: 0x7FFD5449E680
         public void QueueWaiter(){} // RVA: 0x7FFD5449E850
@@ -159,8 +136,8 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class Channel`2 : Object
     {
-        public bstacleAvoidance.ateFSharpSetConstructor<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> Reader; // 0x10
-        public bstacleAvoidance.harpCompilationMappingAttribute<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> Writer; // 0x18
+        public object Reader;
+        public object Writer;
 
         // ── Methods ──
         public void get_Reader(){} // RVA: 0x7FFD4E35C380
@@ -172,12 +149,7 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
-        public bstacleAvoidance.? SyncObj; // 0x20
-        public JapaneseLangName.tale<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> _items; // 0x28
-        public bool _runContinuationsAsynchronously; // 0x30
-        public ÏÏÍÍÎÎ _doneWriting; // 0x38
-        public bstacleAvoidance.al<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> _blockedReader; // 0x40
-        public bstacleAvoidance.al<bool> _waitingReader; // 0x48
+        public object SyncObj;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E091060
@@ -199,12 +171,7 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class UnboundedChannel`1 : Channel`1
     {
-        public bstacleAvoidance.? SyncObj; // 0x20
-        public JapaneseLangName.me<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> _items; // 0x28
-        public URA.path<bstacleAvoidance.al<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ>> _blockedReaders; // 0x30
-        public bool _runContinuationsAsynchronously; // 0x38
-        public bstacleAvoidance.al<bool> _waitingReadersTail; // 0x40
-        public ÏÏÍÍÎÎ _doneWriting; // 0x48
+        public object SyncObj;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E091060
@@ -213,7 +180,7 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class VoidAsyncOperationWithData`1 : AsyncOperation`1
     {
-        public T1717741968 Item;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

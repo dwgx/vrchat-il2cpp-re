@@ -47,13 +47,6 @@ public class IJobSortable
 
 public class IKBone : ValueType
 {
-    public bool isSimulated; // 0x10
-    public int boneIndex; // 0x14
-    public es.ap position; // 0x18
-    public es.ap endPosition; // 0x24
-    public float length; // 0x30
-    public es.ap localAxis; // 0x34
-    public R_12x12 rotationOffset; // 0x40
 }
 
 public class IListWrapper : ArrayList
@@ -96,20 +89,6 @@ public class IListWrapper : ArrayList
 
 public class IMDrawBuffer`1 : Object
 {
-    public object mesh; // 0x10
-    public atrix_Injected material; // 0x18
-    public int subMeshIndex; // 0x20
-    public ÍÎÏÎÎ.ÌÌ<To64> meshProps; // 0x28
-    public m_ResultRT meshPropsBuffer; // 0x38
-    public int instanceCount; // 0x40
-    public int maxCapacity; // 0x44
-    public stments bounds; // 0x48
-    public int layer; // 0x60
-    public nstructorSignature _renderParams; // 0x68
-    public m_ResultRT bufferWithArgs; // 0xC8
-    public ?[] bufferWithArgsData; // 0xD0
-    public int propertiesId;
-
     // ── Methods ──
     public void Init(){} // RVA: 0x7FFD4E092E60
     public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -132,6 +111,11 @@ public class IMDrawLine : IMDrawBuffer`1
 
 public class IMDrawShape : IMDrawBuffer`1
 {
+    public int TcpListeningPort;
+    public int PayloadTypeMetrics;
+    public int MaxBufferLength;
+    public int MaxMessageLength;
+
     // ── Methods ──
     public void Add(){} // RVA: 0x7FFD5527A0F0
     public void .ctor(){} // RVA: 0x7FFD5527A2A0
@@ -202,17 +186,10 @@ public class IWebSocketReceiveResultGetter`1
 
 public class Icons : ValueType
 {
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField sticker; // 0x10
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField takePhoto; // 0x18
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField gallery; // 0x20
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField upload; // 0x28
 }
 
 public class IdManager : Object
 {
-    public int m_nextIdToTry;
-    public URA.woDigitYearMax<bool> m_freeIds;
-
     // ── Methods ──
     public void GetId(){} // RVA: 0x7FFD4E079960
     public void ReturnId(){} // RVA: 0x7FFD4E090ED0
@@ -237,23 +214,16 @@ public class IgnoreDelegate : MulticastDelegate
 
 public class ImageDownloader : Object
 {
-    public string State;
-    public float Error;
-    public int ErrorMessage;
-    public int Result;
-    public int SizeInMemoryBytes;
-    public float Progress;
-    public sageKind._internal Url; // 0x10
-    public int Material; // 0x18
-    public backScreenDPI.idReceiveChangesNoReallocation UdonBehaviour; // 0x1C
-    public backScreenDPI.leList TextureInfo; // 0x20
-    public string <ErrorMessage>k__BackingField; // 0x28
-    public ector <Result>k__BackingField; // 0x30
-    public float <Progress>k__BackingField; // 0x38
-    public ellSize.t <Url>k__BackingField; // 0x40
-    public atrix_Injected <Material>k__BackingField; // 0x48
-    public pNeighbor <UdonBehaviour>k__BackingField; // 0x50
-    public backScreenDPI.ÍÍÌÎÌÎÏÏÏÏÏ <TextureInfo>k__BackingField; // 0x58
+    public object State;
+    public object Error;
+    public object ErrorMessage;
+    public object Result;
+    public object SizeInMemoryBytes;
+    public object Progress;
+    public object Url;
+    public object Material;
+    public object UdonBehaviour;
+    public object TextureInfo;
 
     // ── Methods ──
     public void get_State(){} // RVA: 0x7FFD4F8557F0
@@ -290,20 +260,10 @@ public class ImageDownloader : Object
 
 public class ImageInfo : ValueType
 {
-    public uint width; // 0x10
-    public uint height; // 0x14
-    public ÌÏÏÌÌÎÎÍÎÎÎÍÍÏ format; // 0x18
 }
 
 public class ImageLoadSettings : ValueType
 {
-    public hildPosition _flags; // 0x10
-    public uint _allocationLimit; // 0x14
-    public uint _resolutionLimit; // 0x18
-    public uint _targetWidth; // 0x1C
-    public uint _targetHeight; // 0x20
-    public ÌÏÏÌÌÎÎÍÎÎÎÍÍÏ _outputFormatOverride; // 0x24
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FD09520
     public void GetAllocationLimit(){} // RVA: 0x7FFD57424B30
@@ -325,45 +285,17 @@ public class ImageLoadSettings : ValueType
 
 public class ImageResult : ValueType
 {
-    public byte success; // 0x10
-    public object info; // 0x14
-    public hPosition error; // 0x20
 }
 
 public class ImposterData : ScriptableObject
 {
-    public int CapturedAngleCount; // 0x18
-    public int DataChunkStart; // 0x1C
-    public ector ColorAtlas; // 0x20
-    public amut PositionOffset; // 0x28
-    public get_boundingBoxMode BindPoseRotation; // 0x34
-    public URA.woDigitYearMax<get_boundingBoxMode> CameraOffsets; // 0x48
-    public int CameraOffsetsHash; // 0x50
-    public string CameraOffsetsAdjacencyMapJson; // 0x58
-    public URA.woDigitYearMax<get_boundingBoxMode> CameraRotations; // 0x60
-    public URA.woDigitYearMax<get_boundingBoxMode> AtlasPosition; // 0x68
-    public URA.woDigitYearMax<get_boundingBoxMode> DepthAtlasPositions; // 0x70
-    public URA.woDigitYearMax<get_boundingBoxMode> BoundsCenter; // 0x78
-    public URA.woDigitYearMax<get_boundingBoxMode> BoundsSize; // 0x80
-    public URA.woDigitYearMax<stments> BoundingVolume; // 0x88
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4F5E1290
 }
 
 public class ImpulseEvent : Object
 {
-    public float Expired; // 0x10
-    public nOccluded m_Envelope; // 0x18
-    public EXTERNAL_INDEX_REF_SIG.okAt m_SignalSource; // 0x38
-    public amut m_Position; // 0x40
-    public float m_Radius; // 0x4C
-    public teDistanceSmoothing m_DirectionMode; // 0x50
-    public int m_Channel; // 0x54
-    public Smoothing m_DissipationMode; // 0x58
-    public float m_DissipationDistance; // 0x5C
-    public float m_CustomDissipation; // 0x60
-    public float m_PropagationSpeed; // 0x64
+    public object Expired;
 
     // ── Methods ──
     public void get_Expired(){} // RVA: 0x7FFD4FC79CE0
@@ -376,16 +308,6 @@ public class ImpulseEvent : Object
 
 public class ImpulseReaction : ValueType
 {
-    public EXTERNAL_INDEX_REF_SIG.iewPlay m_SecondaryNoise; // 0x10
-    public float m_AmplitudeGain; // 0x18
-    public float m_FrequencyGain; // 0x1C
-    public float m_Duration; // 0x20
-    public float m_CurrentAmount; // 0x24
-    public float m_CurrentTime; // 0x28
-    public float m_CurrentDamping; // 0x2C
-    public bool m_Initialized; // 0x30
-    public amut m_NoiseOffsets; // 0x34
-
     // ── Methods ──
     public void ReSeed(){} // RVA: 0x7FFD4FC787D0
     public void GetReaction(){} // RVA: 0x7FFD4FC78900
@@ -400,12 +322,11 @@ public class IndexedConverter`2 : MulticastDelegate
 
 public class IndirectDrawIndexedArgs : ValueType
 {
-    public int indexCountPerInstance;
-    public uint instanceCount; // 0x10
-    public uint startIndex; // 0x14
-    public uint baseVertexIndex; // 0x18
-    public uint startInstance; // 0x1C
-    public uint <startInstance>k__BackingField; // 0x20
+    public object indexCountPerInstance;
+    public object instanceCount;
+    public object startIndex;
+    public object baseVertexIndex;
+    public object startInstance;
 
     // ── Methods ──
     public void set_indexCountPerInstance(){} // RVA: 0x7FFD4E78D8B0
@@ -417,7 +338,10 @@ public class IndirectDrawIndexedArgs : ValueType
 
 public class InheritVelocityModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object mode;
+    public object curve;
+    public object curveMultiplier;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -459,8 +383,6 @@ public class InitializeDelegate : MulticastDelegate
 
 public class InputActionReferenceState : ValueType
 {
-    public int refCount; // 0x10
-    public bool enabledByInputModule; // 0x14
 }
 
 public class InputEndFrame : ValueType
@@ -483,9 +405,6 @@ public class InputPairing : Object
 
 public class InputParameter : Object
 {
-    public string address; // 0x10
-    public string type; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFE01C0
 }
@@ -528,17 +447,10 @@ public class InstantiationDelegate : MulticastDelegate
 
 public class Instruction : ValueType
 {
-    public int m_FullHash; // 0x10
-    public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter m_VirtualCamera; // 0x18
-    public float m_ActivateAfter; // 0x20
-    public float m_MinDuration; // 0x24
 }
 
 public class Int128 : ValueType
 {
-    public long hi; // 0x10
-    public ulong lo; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC7BDA0 | overloaded x3
     public void IsNegative(){} // RVA: 0x7FFD4FC7C530
@@ -563,9 +475,6 @@ public class IntChildrenSection : ChildrenSection`1
 
 public class IntPoint : ValueType
 {
-    public long X; // 0x10
-    public long Y; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC7BDA0 | overloaded x3
     public void op_Equality(){} // RVA: 0x7FFD4FC7CA30
@@ -576,18 +485,12 @@ public class IntPoint : ValueType
 
 public class IntRect : ValueType
 {
-    public long left; // 0x10
-    public long top; // 0x18
-    public long right; // 0x20
-    public long bottom; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC7CB80 | overloaded x2
 }
 
 public class Internal : Object
 {
-    public int hash_code_of_ptr_seed;
 }
 
 public class InternalEnumerator`1 : ValueType
@@ -606,19 +509,6 @@ public class InternalEnumerator`1 : ValueType
 
 public class InternalPartitionEnumerable : Object
 {
-    public URA.saAbbrevEnglishEraNames<T1717590832> _sharedReader;
-    public anStyles _sharedIndex;
-    public URA.mes<long,T1717590832>[] _fillBuffer;
-    public int _fillBufferSize;
-    public int _fillBufferCurrentPosition;
-    public int _activeCopiers;
-    public _len _hasNoElementsLeft;
-    public _len _sourceDepleted;
-    public object _sharedLock;
-    public bool _disposed;
-    public lanks _activePartitionCount;
-    public bool _useSingleChunking;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E096590
     public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
@@ -632,10 +522,12 @@ public class InternalPartitionEnumerable : Object
 
 public class InternalPartitionEnumerator : DynamicPartitionEnumerator_Abstract`2
 {
-    public URA.mes<long,T1717590848>[] HasNoElementsLeft;
-    public _len Current;
-    public lanks _activePartitionCount;
-    public ount<T1717590848> _enumerable;
+    public int HasNoElementsLeft;
+    public int Current;
+    public long kCenterUnknown;
+    public URA.woDigitYearMax<?<T1717724352>> m_Entries;
+    public URA.woDigitYearMax<?> m_Nodes;
+    public bool <dirty>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -654,10 +546,6 @@ public class Interop : Object
 
 public class IntersectNode : Object
 {
-    public m_OriginalPath Edge1; // 0x10
-    public m_OriginalPath Edge2; // 0x18
-    public lfFrustumHeight Pt; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -694,9 +582,6 @@ public class IsBurstEnabledDelegate : MulticastDelegate
 
 public class IsBurstEnabled_00000145$BurstDirectCall : Object
 {
-    public UIntPtr Pointer;
-    public UIntPtr DeferredCompilation; // 0x8
-
     // ── Methods ──
     public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD54926840
     public void GetFunctionPointer(){} // RVA: 0x7FFD54926980
@@ -715,8 +600,6 @@ public class IsBurstEnabled_00000145$PostfixBurstDelegate : MulticastDelegate
 
 public class IsCanceledSource : Object
 {
-    public eObjectDelegate.32Converter<8BCA7B5CC287C51E0E3E<URA.woDigitYearMax<?>,URA.woDigitYearMax<?>>> source; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void GetResult(){} // RVA: 0x7FFD4E2ADC40
@@ -737,8 +620,6 @@ public class IsLocalDelegate : MulticastDelegate
 
 public class IsOfType`1 : Object
 {
-    public Left<T1717596608> s_Instance;
-
     // ── Methods ──
     public void Predicate(){} // RVA: 0x7FFD4E079F60
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -760,9 +641,8 @@ public class Item : ValueType
 
 public class Iterator`1 : Object
 {
-    public int Current; // 0x10
-    public int System.Collections.IEnumerator.Current; // 0x14
-    public T1717677760 current; // 0x18
+    public object Current;
+    public object System.Collections.IEnumerator.Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD51359810
@@ -780,11 +660,8 @@ public class Iterator`1 : Object
 
 public class iOSInfo : Object
 {
-    public bool CacheDir;
-    public long FreeDiskSpaceBytes;
-    public sageKind.nVideos _pollMemoryStatusThread; // 0x8
-    public long _cachedMemoryAvailable; // 0x10
-    public string _cacheDir; // 0x18
+    public object CacheDir;
+    public object FreeDiskSpaceBytes;
 
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD53648480
@@ -800,8 +677,6 @@ public class iOSInfo : Object
 
 public class iOSVibration : Object
 {
-    public dle<bool> SupportsVibration;
-
     // ── Methods ──
     public void Vibrate(){} // RVA: 0x7FFD4E341000
     public void VibrateSimple(){} // RVA: 0x7FFD4E341080

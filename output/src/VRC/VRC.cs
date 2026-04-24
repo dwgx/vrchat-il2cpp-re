@@ -7,8 +7,7 @@ namespace VRC
 {
     public class AssetCache : Object
     {
-        public URA.woDigitYearMax<ÏÎÎÏÎÍÏÏÎÌÏÍÍÎÌÏÍÏÏÌÌ> _assetCache; // 0x10
-        public ?<mePatterns.eseCalendarDTFI> <ÌÏÎÍÎÏÍÍÎÍÎÎÌÍÌÍÌÎÎÌÌÌÏ>k__BackingField; // 0x18
+        public object _assetCache;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -31,11 +30,10 @@ namespace VRC
 
     public class BackgroundOption : Object
     {
-        public itTypeSize=876 IsLoaded; // 0x10
-        public string BackgroundName; // 0x38
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField Preview; // 0x40
-        public bool IsVRCPlus; // 0x48
-        public atrix_Injected _loadedMaterial; // 0x50
+        public object IsLoaded;
+        public object BackgroundName;
+        public object Preview;
+        public object IsVRCPlus;
 
         // ── Methods ──
         public void set_IsLoaded(){} // RVA: 0x7FFD4F9DEBF0
@@ -55,7 +53,7 @@ namespace VRC
 
     public class BackgroundOptions : ScriptableObject
     {
-        public ?[] Options; // 0x18
+        public object Options;
 
         // ── Methods ──
         public void set_Options(){} // RVA: 0x7FFD4E3447C0
@@ -72,8 +70,6 @@ namespace VRC
 
     public class ClientPlayerLoop : Object
     {
-        public ÎÌÍÏÏÌÍÏ ÏÏÎÏÌÍÍÏÎÌÌÎÎÍÌÎÌÍÏÎÌÌÍ;
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FA177E0
         public void Equals(){} // RVA: 0x7FFD4FA178F0
@@ -84,8 +80,6 @@ namespace VRC
 
     public class GiftDisplayReferences : ScriptableObject
     {
-        public ÎÌÏÎÌÌÌÍÌÍÎÌÌÍÏÎ[] giftDisplayReferences; // 0x18
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F9F82F0
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
@@ -100,19 +94,6 @@ namespace VRC
 
     public class IMDraw : MonoBehaviour
     {
-        public object line2D; // 0x20
-        public object line3D; // 0x28
-        public ply64To128 sphere; // 0x30
-        public ply64To128 cone; // 0x38
-        public int MaxBuffer; // 0x40
-        public object Color; // 0x44
-        public float Alpha; // 0x54
-        public float LineWidth; // 0x58
-        public float DEFAULT_LINE_WIDTH;
-        public int Layer; // 0x5C
-        public bool ClearEachFrame; // 0x60
-        public bool DrawToMainCamera; // 0x61
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5527A470
         public void OnDestroy(){} // RVA: 0x7FFD5527A690
@@ -135,10 +116,7 @@ namespace VRC
 
     public class InputLatencyTracker : Object
     {
-        public ernal_index_icall.mUri _inputLatencyTracker;
-        public bool ÏÍÎÌÌÌÌÏÍÍÌÎÏÎÌÎÍÌÌÏÌÎÌ; // 0x8
-        public float ÎÏÌÎÎÌÍÏÌÏÍÌÍÏÌÎÏÎÍÏÎÎÌ; // 0xC
-        public object ÏÏÍÏÌÍÎÎÎÌÏÍÌÎÍÍÎÍÎÌÌÍÍ; // 0x10
+        public object _inputLatencyTracker;
 
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4FA17EE0
@@ -161,24 +139,27 @@ namespace VRC
 
     public class StickerCollectionPrefab : ScriptableObject
     {
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField icon; // 0x18
-        public ingField[] stickers; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
     }
 
     public class StickerPrefab : ScriptableObject
     {
-        public ector ID; // 0x18
-        public bool FileId; // 0x20
-        public int IsBuiltIn; // 0x24
-        public int Sprite; // 0x28
-        public string CollectionID; // 0x30
-        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField> DisplayTexture; // 0x38
-        public string FullResolutionTexture; // 0x40
-        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ector> MaskTag; // 0x48
-        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ector> IsAnimated; // 0x50
+        public object ID;
+        public object FileId;
+        public object IsBuiltIn;
+        public object Sprite;
+        public object CollectionID;
+        public object DisplayTexture;
+        public object FullResolutionTexture;
+        public object MaskTag;
+        public object IsAnimated;
+        public object Frames;
+        public object FPS;
+        public object LoopStyle;
+        public object LinearLoop;
+        public object EffectBundleID;
+        public object IsSpecialFX;
 
         // ── Methods ──
         public void get_IsAnimated(){} // RVA: 0x7FFD4E42F9D0
@@ -231,13 +212,12 @@ namespace VRC
 
     public class Tools : Object
     {
-        public dle<bool> isClient;
-        public string GameServerVersion; // 0x8
-        public string ClientVersion; // 0x10
-        public string SdkVersion; // 0x18
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ystem.Object>.RemoveAt UnityVersion; // 0x20
-        public string Platform; // 0x38
-        public object random; // 0x40
+        public object isClient;
+        public object GameServerVersion;
+        public object ClientVersion;
+        public object SdkVersion;
+        public object UnityVersion;
+        public object Platform;
 
         // ── Methods ──
         public void get_isClient(){} // RVA: 0x7FFD57272530
@@ -289,11 +269,6 @@ namespace VRC
 
     public class VRCFastCrypto_Client : Object
     {
-        public string NATIVE_LIB;
-        public ulong publicKeyLength;
-        public ulong secretKeyLength; // 0x8
-        public ulong signatureLength; // 0x10
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD552A8960
         public void GetSizes(){} // RVA: 0x7FFD552A89E0

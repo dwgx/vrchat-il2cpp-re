@@ -7,8 +7,7 @@ namespace VRC.UI.Client.Promotions
 {
     public class PromotionDataManager : Object
     {
-        public URA.onsDepth<?> Key; // 0x10
-        public object Instance;
+        public object Key;
 
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7FFD4EC74C90

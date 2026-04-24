@@ -298,7 +298,7 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class DefaultMemberAttribute : Attribute
     {
-        public string MemberName; // 0x10
+        public object MemberName;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -542,20 +542,11 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class MonoPropertyInfo : ValueType
     {
-        public object parent; // 0x10
-        public object declaring_type; // 0x18
-        public string name; // 0x20
-        public m.jectMapInfo get_method; // 0x28
-        public m.jectMapInfo set_method; // 0x30
-        public m.? attrs; // 0x38
     }
 
     public class ObfuscationAttribute : Attribute
     {
-        public bool Exclude; // 0x10
-        public bool <Exclude>k__BackingField; // 0x11
-        public bool <ApplyToMembers>k__BackingField; // 0x12
-        public string <Feature>k__BackingField; // 0x18
+        public object Exclude;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53941D80

@@ -7,30 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class DefaultEventSystem : Object
     {
-        public ormation<bool> isAppFocused;
-        public Field input; // 0x10
-        public string focusedPanel; // 0x18
-        public string m_VerticalAxis; // 0x20
-        public string m_SubmitButton; // 0x28
-        public string m_CancelButton; // 0x30
-        public float m_InputActionsPerSecond; // 0x38
-        public float m_RepeatDelay; // 0x3C
-        public bool m_SendingTouchEvents; // 0x40
-        public bool m_SendingPenEvent; // 0x41
-        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE m_Event; // 0x48
-        public ÎÏÌÎÎÎÌÌÌ.ent m_FocusedPanel; // 0x50
-        public ÎÏÌÎÎÎÌÌÌ.ent m_PreviousFocusedPanel; // 0x58
-        public ÎÏÌÎÎÎÌÌÌ.ragLineAnchorHorizontalClassName m_PreviousFocusedElement; // 0x60
-        public illingServiceDisconnected m_CurrentModifiers; // 0x68
-        public int m_LastMousePressButton; // 0x6C
-        public float m_NextMousePressTime; // 0x70
-        public int m_LastMouseClickCount; // 0x74
-        public tionX m_LastMousePosition; // 0x78
-        public bool m_MouseProcessedAtLeastOnce; // 0x80
-        public int m_ConsecutiveMoveCount; // 0x84
-        public tionX m_LastMoveVector; // 0x88
-        public float m_PrevActionTime; // 0x90
-        public bool m_IsMoveFromKeyboard; // 0x94
+        public object isAppFocused;
+        public object input;
+        public object focusedPanel;
 
         // ── Methods ──
         public void get_isAppFocused(){} // RVA: 0x7FFD54F8ACC0
@@ -61,7 +40,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultMultiColumnTreeViewController`1 : MultiColumnTreeViewController
     {
-        public ÎÏÌÎÎÎÌÌÌ.ÎÌÏÍÏÌÏÍÎÍÍÍ<T1717594240> treeDataController;
+        public object treeDataController;
+        public object itemsSource;
 
         // ── Methods ──
         public void get_treeDataController(){} // RVA: 0x7FFD4E078E90
@@ -80,7 +60,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultTreeViewController`1 : TreeViewController
     {
-        public ÎÏÌÎÎÎÌÌÌ.ÎÌÏÍÏÌÏÍÎÍÍÍ<T1717594256> treeDataController;
+        public object treeDataController;
+        public object itemsSource;
 
         // ── Methods ──
         public void get_treeDataController(){} // RVA: 0x7FFD4E078E90
@@ -99,26 +80,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DynamicHeightVirtualizationController`1 : VerticalVirtualizationController`1
     {
-        public int defaultExpectedHeight;
-        public URA.DateTime<int,float> contentPadding;
-        public URA.DateTime<int,ÎÎÍÍÍÍ<T1717594368>> contentHeight;
-        public URA.onsDepth<int> anchoredIndex;
-        public int anchorOffset;
-        public int viewportMaxOffset;
-        public bool alwaysRebindOnRefresh;
-        public ÌÏÍÏÌÍÎÌÌÍÌÎÍÏÎÎ<T1717594368> m_LastChange;
-        public ÌÍÌÌÎÍÍÌÎÎÏÏÏÎÎÌÌÎ<T1717594368> m_ScrollDirection;
-        public tionX m_DelayedScrollOffset;
-        public float m_AccumulatedHeight;
-        public float m_MinimumItemHeight;
-        public ÎÌÍÏÏÌÍÏ m_FillCallback;
-        public ÎÌÍÏÏÌÍÏ m_ScrollCallback;
-        public ÎÌÍÏÏÌÍÏ m_ScrollResetCallback;
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.ÎÍÏÌÏÎÏÏÍÏÎÎÍÏÌÍÍÍÎ> m_GeometryChangedCallback;
-        public ÎÏÌÎÎÎÌÌÌ.dFloat m_ScheduledItem;
-        public ÎÏÌÎÎÎÌÌÌ.dFloat m_ScrollScheduledItem;
-        public ÎÏÌÎÎÎÌÌÌ.dFloat m_ScrollResetScheduledItem;
-        public rmation<int> m_IndexOutOfBoundsPredicate;
+        public object defaultExpectedHeight;
+        public object contentPadding;
+        public object contentHeight;
+        public object anchoredIndex;
+        public object anchorOffset;
+        public object viewportMaxOffset;
+        public object alwaysRebindOnRefresh;
 
         // ── Methods ──
         public void get_defaultExpectedHeight(){} // RVA: 0x7FFD4E08D880

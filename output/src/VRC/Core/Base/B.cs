@@ -59,6 +59,9 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÌÌÌÎÎÍÍÍÌÏÌÏÍÍÌÏÌÌÍÏÏÌÌ</summary>
     public class BaseClass136ImplImpl_8F99 : BaseClass136Impl_17E8
     {
+        public object ÍÎÎÎÏÌÍÎÏÏÌÌÌÍÌÌÏÏÎÎÎÎÌ; // 0x10
+        public ÎÌÏÍÎÏÍÍÎÏÌÏÏÎÌÏÍ ÎÎÍÌÌÌÏÏÏÎÍÌÏÍÏÍÍÌÎÍÍÎÎ; // 0x18
+
         // ── Methods ──
         public void SetEnabled(){} // RVA: 0x7FFD4ED5AD10
         public void Update(){} // RVA: 0x7FFD4ED5AF90
@@ -1690,6 +1693,20 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÌÏÏÏÏÍÌÌÎÎÎÎÏÍÌÌÏÏÎÍÎÎÎ</summary>
     public class BaseClass7Impl_14BC : BaseClass7_6138
     {
+        public bool m_hasChanged; // 0x20
+        public tionX m_pivot; // 0x24
+        public ypointLabel.faultValue m_anchorPosition; // 0x2C
+        public dRecorder m_rect; // 0x30
+        public bool m_isDefaultWidth; // 0x40
+        public bool m_isDefaultHeight; // 0x41
+        public bool m_isAutoFitting; // 0x42
+        public amut[] m_corners; // 0x48
+        public amut[] m_worldCorners; // 0x50
+        public get_boundingBoxMode m_margins; // 0x58
+        public 16 m_rectTransform; // 0x68
+        public tionX k_defaultSize;
+        public ypointLabel.faultValue m_textMeshPro; // 0x70
+
         // ── Methods ──
         public void Update(){} // RVA: 0x7FFD4F2AB3C0
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -1891,6 +1908,13 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÍÌÏÌÎÌÍÏÏÍÌÎÍÏÌÌÍÌÎÍÌÍÍ</summary>
     public class BaseClass7Impl_F6E3 : BaseClass7_DD79
     {
+        public object ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x10
+        public ileFullDirectoryInformation<URA.woDigitYearMax<?>> ÎÏÍÌÏÍÏÍÌÍÌÎÎÎÏÍÏÏÏÏÏÏÌ; // 0x18
+        public string ÎÎÍÏÍÌÎÏÌÎÌÍÌÍÎÎÌÌÍÌÎÍÌ; // 0x20
+        public string ÎÏÏÍÎÌÌÎÍÎÌÍÏÎÌÍÏÌÎÏÍÎÏ; // 0x28
+        public ileFullDirectoryInformation<string> ÍÌÌÍÍÎÏÎÎÎÏÌÍÎÌÌÏÌÎÌÏÌÏ; // 0x30
+        public ileFullDirectoryInformation<string> ÌÍÌÌÌÌÌÏÎÎÏÌÍÍÎÎÏÍÏÌÍÎÍ; // 0x38
+
         // ── Methods ──
         public void ParticleSystemStateController(){} // RVA: 0x7FFD4EEE3A90
         public void GetParticleLight(){} // RVA: 0x7FFD4EEE3DE0
@@ -2005,6 +2029,12 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÌÏÎÌÌÎÍÎÌÏÍÏÍÍÎÍÏÎÌÍÌÏÍ</summary>
     public class BaseClass9ImplImpl_7D57 : BaseClass9Impl_032B
     {
+        public int kMaxNameLength;
+        public int kSize;
+        public Device.formUserAccount baseCommand; // 0x10
+        public int scanOrKeyCode; // 0x18
+        public platformUserAccountId nameBuffer; // 0x1C
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F489230
         public void RaiseCancellation(){} // RVA: 0x7FFD4F489440

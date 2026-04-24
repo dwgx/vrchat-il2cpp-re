@@ -7,8 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 {
     public class CertificateHandler : Object
     {
-        public UIntPtr m_Ptr; // 0x10
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD550B28A0
         public void Release(){} // RVA: 0x7FFD550B28F0
@@ -21,7 +19,17 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class DownloadHandler : Object
     {
-        public UIntPtr isDone; // 0x10
+        public object isDone; // 0x440
+        public bool error; // 0x448
+        public ÎÏÌÎÎÎÌÌÌ.yle.get_minWidth nativeData; // 0x450
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius data; // 0x458
+        public oseCount text; // 0x460
+        public ormation<ÎÏÌÎÎÎÌÌÌ.op> createMenuCallback; // 0x4A0
+        public string ussClassName;
+        public string textUssClassName; // 0x8
+        public string arrowUssClassName; // 0x10
+        public string labelUssClassName; // 0x18
+        public string inputUssClassName; // 0x20
 
         // ── Methods ──
         public void Release(){} // RVA: 0x7FFD550B2A90
@@ -54,10 +62,6 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class EncryptionKey : ValueType
     {
-        public ulong A; // 0x10
-        public ulong B; // 0x18
-        public ulong C; // 0x20
-        public ulong D; // 0x28
     }
 
     public class UnityWebRequest : Object
@@ -145,7 +149,7 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UnityWebRequestAsyncOperation : AsyncOperation
     {
-        public Discovery.r`1 webRequest; // 0x20
+        public object webRequest;
 
         // ── Methods ──
         public void get_webRequest(){} // RVA: 0x7FFD4E36F0C0

@@ -19,7 +19,7 @@ namespace ThirdParty.DotNet.System
 
     public class Marvin : Object
     {
-        public ulong DefaultSeed;
+        public object DefaultSeed;
 
         // ── Methods ──
         public void ComputeHash32(){} // RVA: 0x7FFD53A53130 | overloaded x2
@@ -32,9 +32,6 @@ namespace ThirdParty.DotNet.System
 
     public class Math : Object
     {
-        public double doubleRoundLimit;
-        public double[] roundPower10Double; // 0x8
-
         // ── Methods ──
         public void Abs(){} // RVA: 0x7FFD53A54F10 | overloaded x7
         public void ThrowAbsOverflow(){} // RVA: 0x7FFD53A53950
@@ -95,10 +92,8 @@ namespace ThirdParty.DotNet.System
 
     public class Memory`1 : ValueType
     {
-        public object Length; // 0x10
-        public int Span; // 0x18
-        public int _length; // 0x1C
-        public int RemoveFlagsBitMask;
+        public object Length;
+        public object Span;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970 | overloaded x4
@@ -128,10 +123,6 @@ namespace ThirdParty.DotNet.System
 
     public class MonoCustomAttrs : Object
     {
-        public m.ormation corlib;
-        public URA.DateTime<?,n> usage_cache; // 0xFFFFFFFF
-        public n DefaultAttributeUsage; // 0x8
-
         // ── Methods ──
         public void IsUserCattrProvider(){} // RVA: 0x7FFD53ABDA70
         public void GetCustomAttributesInternal(){} // RVA: 0x7FFD53ABDD10
@@ -158,9 +149,6 @@ namespace ThirdParty.DotNet.System
 
     public class MonoTypeInfo : Object
     {
-        public string full_name; // 0x10
-        public m.FreeBSTR default_ctor; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }

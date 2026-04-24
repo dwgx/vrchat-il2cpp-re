@@ -7,9 +7,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 {
     public class PoseLandmarker : BaseVisionTaskApi
     {
-        public dFieldNumber _packetCallback; // 0x20
-        public etBestGrabbingType.Name _normalizedRect; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53710170
         public void CreateFromOptions(){} // RVA: 0x7FFD537102A0
@@ -24,14 +21,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 
     public class PoseLandmarkerOptions : Object
     {
-        public lIdFieldNumber.rdio baseOptions; // 0x10
-        public e.ÍÍÏÏÎÎÍÍÍÏÎÏÍÎÍÏÌÏÌÏÌÍÌ runningMode; // 0x18
-        public int numPoses; // 0x1C
-        public float minPoseDetectionConfidence; // 0x20
-        public float minPosePresenceConfidence; // 0x24
-        public float minTrackingConfidence; // 0x28
-        public bool outputSegmentationMasks; // 0x2C
-        public maxDefaultValue resultCallback; // 0x30
+        public object baseOptions;
+        public object runningMode;
+        public object numPoses;
+        public object minPoseDetectionConfidence;
+        public object minPosePresenceConfidence;
+        public object minTrackingConfidence;
+        public object outputSegmentationMasks;
+        public object resultCallback;
 
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x7FFD4E35C380
@@ -49,10 +46,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 
     public class PoseLandmarkerResult : ValueType
     {
-        public URA.woDigitYearMax<gBox.ypoints> poseLandmarks; // 0x10
-        public URA.woDigitYearMax<gBox.RelativeKeypoints> poseWorldLandmarks; // 0x18
-        public URA.woDigitYearMax<etBestGrabbingType.ÎÌÍÍÎÏÌ> segmentationMasks; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F88FCC0
         public void Alloc(){} // RVA: 0x7FFD53712310

@@ -7,8 +7,6 @@ namespace VRC.RemoteLogging
 {
     public class VRCSentryBuildTimeConfiguration : SentryBuildTimeOptionsConfiguration
     {
-        public string _htmlTagsRegex; // 0x18
-
         // ── Methods ──
         public void ProcessCollider(){} // RVA: 0x7FFD4FB92320
         public void ConfigureSentryOptions(){} // RVA: 0x7FFD4FB92400

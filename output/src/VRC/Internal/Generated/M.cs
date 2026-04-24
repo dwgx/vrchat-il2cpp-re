@@ -495,6 +495,49 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÏÎÎÍÍÎÍÎÌÍÏÌÍÌÌÏÍÎÎÎÍÌ</summary>
     public class Mono1m_EB15 : MonoBehaviour
     {
+        public bool ÌÌÌÍÌÏÏÌÎÎÍÍÎÏÍÌÎÌÎÎÎÍÎ; // 0x138
+        public ePathName117.ÌÎÌÎÏÏÌÎÏÍÍÌÌÌÏÌÍÎÍÎÌÏ ÍÌÏÏÏÎÏÌÎÏÏÎÏÌÌÍÎÌÍÎÎÌÏ; // 0x140
+        public BuffersImpl ÎÏÎÍÎÌÍÎÍÍÌÎÌÎÎÎÍÎÎÎÏÍÎ; // 0x148
+        public BuffersImpl ÍÍÏÎÌÏÍÎÍÎÌÍÏÍÌÏÍÍÎÌÍÍÍ; // 0x150
+        public BuffersImpl ÌÍÏÏÍÌÏÏÌÍÌÏÏÍÏÏÍÌÌÎÎÌÍ; // 0x158
+        public BuffersImpl ÎÍÎÎÍÍÎÌÌÎÏÍÌÎÌÍÍÌÏÏÍÎÏ; // 0x160
+        public BuffersImpl ÌÎÏÏÎÏÏÌÌÎÍÍÎÏÎÎÌÎÌÏÎÌÌ; // 0x168
+        public ePathName117.? ÏÍÎÏÍÏÏÎÌÏÏÎÎÌÌÏÏÍÏÏÎÏÎ; // 0x170
+        public BuffersImpl[] ÎÎÍÎÏÍÎÌÏÎÍÍÏÎÏÏÎÌÍÏÎÍÏ; // 0x178
+        public BuffersImpl[] ÍÍÌÍÎÌÎÏÏÏÏÍÌÍÍÏÏÌÎÌÎÎÏ; // 0x180
+        public BuffersImpl ÌÌÏÎÎÎÌÎÏÏÍÍÌÌÎÌÎÏÎÌÌÎÍ; // 0x188
+        public BuffersImpl ÌÌÏÏÌÎÍÌÎÌÍÎÏÌÍÌÎÏÌÌÏÌÏ; // 0x190
+        public BuffersImpl ÎÎÎÍÏÎÌÎÌÏÍÎÌÌÏÌÏÎÏÎÎÏÍ; // 0x198
+        public BuffersImpl ÎÏÍÎÍÎÍÏÎÎÍÍÌÌÌÏÌÏÏÍÏÎÌ; // 0x1A0
+        public BuffersImpl ÍÍÎÎÎÌÌÍÍÎÏÏÍÎÌÌÏÏÎÏÌÎÍ; // 0x1A8
+        public BuffersImpl ÍÎÎÎÏÌÏÎÌÍÏÌÌÌÌÍÌÏÎÏÏÍÌ; // 0x1B0
+        public ePathName117.? ÏÍÍÏÌÍÎÏÏÍÏÍÍÎÏÌÍÏÍÎÍÍÏ; // 0x1B8
+        public ePathName117.? ÎÌÏÌÎÌÎÏÏÌÌÏÌÎÍÌÎÏÍÎÌÎÏ; // 0x1C0
+        public ePathName117.? ÌÍÍÎÌÍÏÎÍÍÎÍÏÎÎÌÍÌÏÏÌÎÎ; // 0x1C8
+        public ePathName117.? ÍÍÎÏÎÍÏÏÍÎÎÌÏÍÍÌÏÏÌÎÎÍÍ; // 0x1D0
+        public ePathName117.ÍÏÎÍÏÌÏÎÏÎÎÏÎÏÎÏÏÏÏÏ ÎÍÎÍÏÎÏÌÎÏÌÌÏÍÍÎÌÏÍÎÏÌÌ; // 0x1D8
+        public ePathName117.? ÏÌÌÍÏÌÏÌÏÌÏÍÎÏÍÌÍÎÎÍÏÎÍ; // 0x1E0
+        public ePathName117.? ÏÌÌÌÍÏÏÍÏÏÏÎÎÍÎÍÏÍÌÎÌÌÎ; // 0x1E8
+        public ePathName117.? ÌÏÏÌÏÏÌÌÎÎÌÎÍÎÎÌÌÎÌÍÌÎÎ; // 0x1F0
+        public rm ÌÌÏÌÍÍÌÍÍÎÌÎÌÍÍÏÏÎÏÌÏÏÍ; // 0x1F8
+        public object ÎÌÏÌÍÎÏÎÍÏÍÌÌÏÌÏÎÌÏÎÌÎÎ; // 0x200
+        public ÌÌÏÎÏÏÎÏÍÏÏÌÎÌÌÍÏÌÍÌ ÎÎÍÍÌÏÏÍÌÏÌÏÌÏÍÎÏÎÍÏÍÌÌ; // 0x208
+        public BuffersImpl ÎÍÌÌÌÏÌÌÍÏÎÌÏÍÍÏÎÍÍÏÍÏÌ; // 0x210
+        public ePathName117.? ÍÏÎÍÌÍÏÎÏÌÎÎÏÌÏÍÎÍÎÍÏÍÏ; // 0x218
+        public ePathName117.ds ÏÎÌÍÏÌÎÌÍÎÌÌÏÏÌÍÌÍÍÍÌÎÎ; // 0x220
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ ÌÌÍÌÍÍÏÍÏÎÌÍÎÎÎÎÎÍÎÏÏÎÎ; // 0x228
+        public string ÌÎÌÎÏÌÍÍÎÍÍÍÍÎÌÍÎÏÍÏÍÌÌ;
+        public string ÎÍÎÌÌÎÍÍÍÎÎÍÏÍÍÏÍÏÎÏÍÍÏ;
+        public string ÌÏÌÎÌÏÌÌÏÏÍÎÍÍÎÍÌÏÌÍÍÌÌ;
+        public string ÌÎÍÌÌÎÎÏÏÌÎÎÎÍÍÌÌÍÎÎÏÍÎ;
+        public object ÎÌÌÍÍÏÌÎÌÍÌÍÏÏÌÌÍÍÎÏÏÏÌ; // 0x230
+        public object ÏÍÍÌÎÍÍÏÎÌÎÎÌÎÏÎÎÎÎÏÏÌÏ; // 0x238
+        public object ÍÎÌÌÎÎÌÏÍÏÎÎÎÍÏÌÌÎÎÎÎÌÌ; // 0x240
+        public ÏÏÏÏÏÎ<ckNodeSet> ÏÏÏÌÌÌÍÍÏÎÍÎÌÍÌÏÎÌÍÍÌÌÍ; // 0x248
+        public gField.ldKeyboardOverride ÌÍÏÍÍÌÏÍÍÍÌÏÎÍÎÌÌÏÍÎÎÏÎ; // 0x250
+        public object ÏÍÎÏÎÌÎÎÏÍÏÏÍÌÏÏÍÍÌÌÍÍÎ; // 0x258
+        public bool ÎÏÌÎÎÌÏÏÌÍÏÌÌÏÏÌÌÎÍÎÌÍÍ; // 0x260
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
@@ -821,6 +864,14 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÎÌÏÍÏÍÌÏÏÌÌÌÍÌÌÍÍÌÎÌÌ</summary>
     public class Mono8m_FA3A : MonoBehaviour
     {
+        public dius.sions ik; // 0x48
+        public float spineBend; // 0x50
+        public float spineSpeed; // 0x54
+        public s[] spine; // 0x58
+        public ?[] feet; // 0x60
+        public amut spineOffset; // 0x68
+        public bool firstSolve; // 0x74
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E341310
         public void RaiseCancellation(){} // RVA: 0x7FFD4E341310

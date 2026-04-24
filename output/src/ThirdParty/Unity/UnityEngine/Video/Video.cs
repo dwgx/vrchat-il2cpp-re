@@ -24,14 +24,52 @@ namespace ThirdParty.Unity.UnityEngine.Video
 
     public class VideoPlayer : Behaviour
     {
-        public cjkIndexer source; // 0x18
-        public cjkIndexer timeUpdateMode; // 0x20
-        public cjkIndexer url; // 0x28
-        public cjkIndexer clip; // 0x30
-        public t renderMode; // 0x38
-        public cjkIndexer canSetTimeUpdateMode; // 0x40
-        public er>b__29_4 targetCamera; // 0x48
-        public __29_2 targetTexture; // 0x50
+        public object source;
+        public object timeUpdateMode;
+        public object url;
+        public object clip;
+        public object renderMode;
+        public object canSetTimeUpdateMode;
+        public object targetCamera;
+        public object targetTexture;
+        public object targetMaterialRenderer;
+        public object targetMaterialProperty;
+        public object aspectRatio;
+        public object targetCameraAlpha;
+        public object targetCamera3DLayout;
+        public object texture;
+        public object isPrepared;
+        public object waitForFirstFrame;
+        public object playOnAwake;
+        public object isPlaying;
+        public object isPaused;
+        public object canSetTime;
+        public object time;
+        public object frame;
+        public object clockTime;
+        public object canStep;
+        public object canSetPlaybackSpeed;
+        public object playbackSpeed;
+        public object isLooping;
+        public object canSetTimeSource;
+        public object timeSource;
+        public object timeReference;
+        public object externalReferenceTime;
+        public object canSetSkipOnDrop;
+        public object skipOnDrop;
+        public object frameCount;
+        public object frameRate;
+        public object length;
+        public object width;
+        public object height;
+        public object pixelAspectRatioNumerator;
+        public object pixelAspectRatioDenominator;
+        public object audioTrackCount;
+        public object controlledAudioTrackMaxCount;
+        public object controlledAudioTrackCount;
+        public object audioOutputMode;
+        public object canSetDirectAudioVolume;
+        public object sendFrameReadyEvents;
 
         // ── Methods ──
         public void get_source(){} // RVA: 0x7FFD550B9340

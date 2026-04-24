@@ -50,14 +50,8 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
     public class LogicalCallContext : Object
     {
         public object HasInfo;
-        public string HasUserData;
-        public mePatterns.MES_SIZE Datastore; // 0x10
-        public _HasPrivateKey.ricPrincipal m_RemotingData; // 0x18
-        public _HasPrivateKey.ation m_SecurityData; // 0x20
-        public object m_HostContext; // 0x28
-        public bool m_IsCorrelationMgr; // 0x30
-        public _HasPrivateKey.tributes[] _sendHeaders; // 0x38
-        public _HasPrivateKey.tributes[] _recvHeaders; // 0x40
+        public object HasUserData;
+        public object Datastore;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538A9C70 | overloaded x2

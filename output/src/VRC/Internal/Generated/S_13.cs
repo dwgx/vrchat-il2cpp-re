@@ -295,6 +295,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÏÏÎÎÌÏÍÌÌÍÎÌÌÍÏÍÎÍÌÎÍ</summary>
     public class Static10m_C636 : Object
     {
+        public ulong ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E901570
         public void Equals(){} // RVA: 0x7FFD4E901BF0
@@ -442,6 +444,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÍÌÍÍÏÎÍÏÌÍÍÍÌÎÍÌÏÎÏÍÍ</summary>
     public class Static11m_CD05 : Object
     {
+        public sbyte ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E8F9A10
         public void Equals(){} // RVA: 0x7FFD4E8F9AB0
@@ -1260,6 +1264,13 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÎÏÏÍÍÎÎÍÌÏÌÌÍÍÏÍÌÌÌÏÏ</summary>
     public class Static9m_9294 : Object
     {
+        public int ÏÎÎÌÌÏÍÎÌÏÏÎÌÍÍÏÍÌÌÌÌÌÎ; // 0x10
+        public er<T>.OnTextSelectionAsync.yncTextSelectionEventHandler<T>.OnTextSelectionAsync ÌÍÍÎÌÌÎÍÎÏÍÍÎÍÌÍÏÎÏÌÎÍÏ; // 0x18
+        public ÌÎÌÎÏÌÎÍÍÏÌ ÍÏÎÌÍÍÍÎÌÎÍÏÍÏÌÍÍÍÍÏÌÍÍ; // 0x28
+        public ÌÍÎÎÌÌÍÍÎÎÎÍÏÍÍ ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x30
+        public string ÌÎÍÎÎÌÏÏÎÍÏÍÍÎÌÎÌÏÎÌÏÌÍ; // 0x38
+        public ArgCount.ntField<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.InSlot>b__0> ÏÌÍÎÍÎÎÌÏÍÌÏÎÍÍÍÌÍÎÌÍÌÍ; // 0x40
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E89D970
         public void .ctor(){} // RVA: 0x7FFD4E341310

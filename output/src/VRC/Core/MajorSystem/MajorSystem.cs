@@ -1041,21 +1041,9 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÌÍÎÎÍÎÌÌÍÎÌÌÍÏÎÎÍÍÍÏÎÍÍ</summary>
     public class ComplexComponent_7316 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_514;
-        public object f_F4C;
-        public object f_292;
-        public object f_53E;
-        public object f_320;
-        public object f_87C;
-        public object f_C34;
-        public object f_643;
-        public object f_32E;
-        public object f_6F0;
-        public object f_2C6;
-        public object f_6AF;
-        public object f_CC8;
+        public int _destroyCancellationToken; // 0x10
+        public object _useGUILayout; // 0x18
+        public ÍÍÌÍÏÏÍÎÌÌÍÎÏ f_514; // 0x20
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E4FD010

@@ -7,41 +7,20 @@ namespace VRC.SDK3.Components.Video.VRCDepthkit
 {
     public class VRCDepthkitMetadata : Object
     {
-        public string videoUrl; // 0x10
-        public iptor studioMeshData; // 0x18
-        public izeAnimationLayers studioLiteMeshData; // 0x20
-        public lider_footL studioLookData; // 0x28
-        public lider_handR studioLiteLookData; // 0x30
-        public string clipMetadataString; // 0x38
-        public object FormatVersion;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55291E70
     }
 
     public class VRCDepthkitVideo : BaseVRCVideoPlayer
     {
-        public ellSize.t url; // 0x38
-        public bool Player; // 0x40
-        public bool IsPlaying; // 0x41
-        public st.? IsReady; // 0x48
-        public st.tyEngine.SharedInternalsModule Loop; // 0x50
-        public st.ÏÎÌÍÏÍÍ DebugCategoryName; // 0x58
-        public st.? VideoWidth; // 0x60
-        public st.le.set_bottom VideoHeight; // 0x68
-        public string LOG_CATEGORY;
-        public st.er _player; // 0x70
-        public ositionAdjustment.WorldConstraint _unityPlayer; // 0x78
-        public bool _pauseOnStart; // 0x80
-        public ts _playDelayedCoroutine; // 0x88
-        public ts _onVideoReadyDelayedCoroutine; // 0x90
-        public URA.onsDepth<string> _allowedSchemes;
-        public float MinimumDelayBetweenResolveRequests;
-        public float _lastResolveRequest; // 0x8
-        public URA.onsDepth<string> _schemesToHandleDirectly; // 0x10
-        public dle<string> _debugCategoryName; // 0x18
-        public tor.neStore GetUrlExtension; // 0x20
-        public eHeaderAsync>d__29.nContinuation _httpClient; // 0x28
+        public object url;
+        public object Player;
+        public object IsPlaying;
+        public object IsReady;
+        public object Loop;
+        public object DebugCategoryName;
+        public object VideoWidth;
+        public object VideoHeight;
 
         // ── Methods ──
         public void get_url(){} // RVA: 0x7FFD54D53730

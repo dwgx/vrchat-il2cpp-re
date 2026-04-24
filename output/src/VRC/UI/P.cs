@@ -901,6 +901,9 @@ namespace VRC.UI
     /// <summary>Originally: ÎÌÌÌÏÌÌÌÍÍÎÎÏÎÎÏÏÍÏÎÍÎÏ</summary>
     public class PointerEnterPointerExitHandlerImpl_3128 : PointerEnterPointerExitHandler_AE24
     {
+        public ypointLabel.esourceProvider ÌÏÍÍÌÎÌÌÎÏÍÏÎÎÎÎÍÎÏÍÏÏÍ; // 0x20
+        public object ÎÌÌÍÍÏÌÎÌÍÌÍÏÏÌÌÍÍÎÏÏÏÌ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E78EDD0
         public void RaiseCancellation(){} // RVA: 0x7FFD4E78F040
@@ -1173,10 +1176,10 @@ namespace VRC.UI
     /// <summary>Originally: ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ</summary>
     public class PointerEnterPointerExitHandler_9C10 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_5F8;
-        public object f_1E7;
+        public ÍÎÍÎÏÍÌ _destroyCancellationToken; // 0x48
+        public Limit _useGUILayout; // 0x50
+        public Limit f_5F8; // 0x58
+        public Limit f_1E7; // 0x60
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56DC2ED0
@@ -1374,6 +1377,9 @@ namespace VRC.UI
     /// <summary>Originally: ÌÍÌÍÎÌÎÍÏÌÎÍÌÌÍÌÌÍÎÎÎÏÏ</summary>
     public class PointerEnterPointerExitHandler_E95D : MonoBehaviour
     {
+        public aphy<int> s_Purchased;
+        public aphy<int> s_Pending; // 0x8
+
         // ── Methods ──
         public void OnPointerEnter(){} // RVA: 0x7FFD4F7148A0
         public void RaiseCancellation(){} // RVA: 0x7FFD4F7148D0
@@ -1967,9 +1973,7 @@ namespace VRC.UI
     /// <summary>Originally: ÍÍÍÍÏÍÌÌÏÍÌÌÏÏÌÍÎÍÏÌÎÍÌ</summary>
     public class PointerInitializePotentialDragnormalizedValue_75CF
     {
-        public object _value;
-        public object _normalizedValue;
-        public object f_FBA;
+        public dle<bool> _value;
 
         // ── Methods ──
         public void Select(){} // RVA: 0x7FFD4E090980

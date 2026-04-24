@@ -7,48 +7,6 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 {
     public class ControlData : Object
     {
-        public Ì eyeControl; // 0x10
-        public object leftEye; // 0x18
-        public object rightEye; // 0x20
-        public float maxEyeUpBoneAngle; // 0x28
-        public float maxEyeDownBoneAngle; // 0x2C
-        public float maxEyeUpEyeballAngle; // 0x30
-        public float maxEyeDownEyeballAngle; // 0x34
-        public bool isEyeBallDefaultSet; // 0x38
-        public bool isEyeBoneDefaultSet; // 0x39
-        public bool isEyeBallLookUpSet; // 0x3A
-        public bool isEyeBoneLookUpSet; // 0x3B
-        public bool isEyeBallLookDownSet; // 0x3C
-        public bool isEyeBoneLookDownSet; // 0x3D
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÏÍÏÍÍÍ leftBoneEyeRotationLimiter; // 0x40
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÏÍÏÍÍÍ rightBoneEyeRotationLimiter; // 0x48
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÏÍÏÍÍÍ leftEyeballEyeRotationLimiter; // 0x50
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÏÍÏÍÍÍ rightEyeballEyeRotationLimiter; // 0x58
-        public ÍÏÏ eyelidControl; // 0x60
-        public object eyelidBoneMode; // 0x64
-        public bool eyelidsFollowEyesVertically; // 0x68
-        public object upperEyeLidLeft; // 0x70
-        public object upperEyeLidRight; // 0x78
-        public object lowerEyeLidLeft; // 0x80
-        public object lowerEyeLidRight; // 0x88
-        public bool isEyelidBonesDefaultSet; // 0x90
-        public bool isEyelidBonesClosedSet; // 0x91
-        public bool isEyelidBonesLookUpSet; // 0x92
-        public bool isEyelidBonesLookDownSet; // 0x93
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÏÎÏÏÍÏÎÌÎÏÌ upperLeftLimiter; // 0x98
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÏÎÏÏÍÏÎÌÎÏÌ upperRightLimiter; // 0xA0
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÏÎÏÏÍÏÎÌÎÏÌ lowerLeftLimiter; // 0xA8
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÏÎÏÏÍÏÎÌÎÏÌ lowerRightLimiter; // 0xB0
-        public float eyeWidenOrSquint; // 0xB8
-        public ?[] blendshapesForBlinking; // 0xC0
-        public ?[] blendshapesForLookingUp; // 0xC8
-        public ?[] blendshapesForLookingDown; // 0xD0
-        public ?[] blendshapesConfigs; // 0xD8
-        public bool isEyelidBlendshapeDefaultSet; // 0xE0
-        public bool isEyelidBlendshapeClosedSet; // 0xE1
-        public bool isEyelidBlendshapeLookUpSet; // 0xE2
-        public bool isEyelidBlendshapeLookDownSet; // 0xE3
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F91F0A0
         public void Equals(){} // RVA: 0x7FFD4F91F3D0
@@ -82,126 +40,14 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class EyeAndHeadAnimator : MonoBehaviour
     {
-        public float _destroyCancellationToken;
-        public float _useGUILayout;
-        public float f_D5E;
-        public float f_387;
-        public ÎÌÍÏÏÌÍÏ f_8EF; // 0x20
-        public float f_9AE; // 0x28
-        public float f_374; // 0x2C
-        public object f_3A5; // 0x30
-        public R_12x12 ÏÍÍÍÏÌÍÎÌÏÏÏÏÍÎÎÌÍÏÍÏÎÏ; // 0x38
-        public object ÏÎÌÍÍÌÍÍÍÍÏÎÏÎÍÏÍÍÎÎÌÌÏ; // 0x48
-        public bool useMicroSaccades; // 0x4C
-        public bool useMacroSaccades; // 0x4D
-        public bool kDrawSightlinesInEditor; // 0x4E
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.? controlData; // 0x50
-        public float kMinNextBlinkTime; // 0x58
-        public float kMaxNextBlinkTime; // 0x5C
-        public bool eyelidsFollowEyesVertically; // 0x60
-        public float <ÍÍÍÎÍÍÌÎÌÏÌÌÌÌÍÌÎÎÌÍÎÎÎ>k__BackingField; // 0x64
-        public float <ÏÎÎÍÌÍÌÏÏÎÌÍÌÌÍÏÎÌÌÎÌÍÌ>k__BackingField; // 0x68
-        public float ÌÎÏÎÏÎÍÍÎÍÏÍÎÌÌÏÌÍÏÏÏÎÏ; // 0x6C
-        public bool ÎÏÌÏÌÏÍÎÏÍÎÏÌÍÎÏÏÍÎÌÎÏÏ; // 0x70
-        public bool ÍÎÌÎÏÍÎÎÏÌÌÎÍÌÏÌÏÍÏÎÍÌÎ; // 0x71
-        public bool ÏÎÌÍÍÌÍÍÎÏÎÌÍÎÍÍÏÎÍÏÍÎÎ; // 0x72
-        public float ÍÍÍÎÏÌÍÏÎÎÌÍÌÏÌÏÌÍÌÍÏÏÌ; // 0x74
-        public object ÏÏÌÌÏÎÍÍÌÏÏÍÌÍÎÏÏÍÌÎÏÌÏ; // 0x78
-        public float ÎÌÌÍÌÏÎÎÍÍÍÌÏÌÏÎÏÌÍÎÌÏÎ; // 0x7C
-        public float ÍÎÎÎÌÍÎÏÍÏÏÎÎÍÍÏÏÌÏÏÌÎÏ; // 0x80
-        public bool ÌÏÌÏÍÌÎÍÍÌÍÏÏÍÌÌÌÌÌÏÏÏÏ; // 0x84
-        public float ÌÍÍÎÎÍÌÌÎÌÏÏÏÌÍÍÏÏÌÌÌÎÍ;
-        public float ÍÏÏÍÍÍÍÌÍÍÎÌÍÌÎÎÏÌÍÌÎÍÏ;
-        public float ÌÏÌÍÎÏÌÎÍÍÍÌÏÎÍÏÏÍÏÍÌÌÏ;
-        public float ÌÌÏÌÍÍÎÎÍÌÍÍÎÌÍÌÏÌÏÌÎÏÌ;
-        public float ÍÌÍÏÍÌÌÌÎÏÌÌÎÎÎÌÎÌÎÎÏÏÎ;
-        public float maxEyeHorizAngle; // 0x88
-        public float maxEyeHorizAngleTowardsNose; // 0x8C
-        public float crossEyeCorrection; // 0x90
-        public float nervousness; // 0x94
-        public float limitHeadAngle; // 0x98
-        public float <ÎÏÏÍÎÏÍÏÎÏÍÏÍÏÏÎÎÎÎÏÍÌÏ>k__BackingField; // 0x9C
-        public float <ÏÎÎÎÎÎÏÏÎÍÎÌÎÌÌÍÍÎÎÍÎÍÏ>k__BackingField; // 0xA0
-        public object ÍÍÏÍÌÍÍÏÌÎÍÍÍÌÍÍÎÌÌÍÌÎÌ; // 0xA8
-        public object ÍÏÎÏÎÎÌÏÎÌÌÎÎÍÌÎÏÌÏÌÍÌÍ; // 0xB0
-        public float ÏÏÌÍÍÏÎÏÍÌÍÌÍÍÏÎÏÏÎÌÍÍÌ; // 0xB8
-        public float ÌÍÎÍÌÎÌÌÏÍÎÏÎÎÏÍÏÌÏÍÏÏÌ; // 0xBC
-        public float ÎÎÍÎÏÎÌÍÍÍÎÍÌÍÌÌÍÌÌÌÎÏÎ; // 0xC0
-        public float ÏÎÍÌÎÎÍÏÍÏÎÍÎÌÌÌÎÎÏÏÌÎÎ; // 0xC4
-        public float ÎÏÏÏÍÎÌÍÍÌÌÌÌÍÏÍÎÍÎÍÌÌÍ; // 0xC8
-        public float ÌÌÏÏÏÌÎÏÏÎÍÎÍÌÎÎÌÎÍÏÏÌÎ; // 0xCC
-        public float ÍÎÍÎÎÎÌÎÎÌÍÏÌÎÍÎÏÌÍÍÎÏÍ; // 0xD0
-        public float ÏÎÎÌÍÎÏÏÌÍÏÍÌÎÎÎÍÎÌÍÍÌÌ; // 0xD4
-        public float ÍÏÏÍÏÌÎÍÍÍÎÎÎÎÍÎÎÍÏÏÎÌÎ; // 0xD8
-        public float ÎÎÌÏÍÏÏÎÎÎÎÏÌÍÎÍÏÍÏÌÍÌÏ; // 0xDC
-        public float ÍÏÍÍÎÌÏÌÍÍÏÌÎÌÏÎÌÍÍÎÍÎÎ; // 0xE0
-        public float ÎÏÎÎÏÎÌÍÌÏÎÏÌÍÎÌÌÏÍÎÌÏÏ; // 0xE4
-        public float ÎÍÍÏÏÎÍÍÏÎÍÎÎÎÍÌÏÍÌÎÍÏÎ; // 0xE8
-        public float ÎÌÌÏÍÏÌÌÎÌÎÌÏÍÎÎÍÏÎÍÌÌÍ; // 0xEC
-        public float ÏÏÎÌÎÌÍÍÏÎÏÏÏÌÎÏÍÌÎÏÏÍÏ; // 0xF0
-        public float ÍÌÍÍÎÏÎÍÌÏÎÎÌÌÎÌÌÌÍÏÎÌÌ; // 0xF4
-        public float ÌÍÌÌÏÏÏÍÍÏÍÎÏÏÎÍÏÌÎÏÌÍÏ; // 0xF8
-        public float ÏÍÍÍÎÍÎÏÍÌÎÏÎÎÏÏÏÏÌÌÌÌÍ; // 0xFC
-        public float ÍÌÎÏÎÌÎÎÏÏÏÍÏÍÏÍÌÏÌÏÌÌÌ; // 0x100
-        public float ÎÌÍÍÍÌÏÍÎÍÌÎÎÌÎÌÏÌÌÌÌÏÏ; // 0x104
-        public float ÏÌÍÍÎÏÎÏÍÏÎÎÏÍÌÎÌÏÏÏÎÏÎ; // 0x108
-        public float ÍÏÌÎÎÎÍÏÍÌÎÏÌÎÎÏÎÏÏÍÏÏÏ;
-        public float ÏÎÎÎÌÏÌÎÎÍÌÏÌÏÎÎÌÎÌÍÎÏÏ;
-        public ÎÎÎÏÏÍÍÏÏÍÏÎÎÎÌÍÍ ÏÎÍÍÏÌÏÎÎÎÌÏÌÍÎÎÍÎÎÍÎÎÍ; // 0x10C
-        public amut ÏÎÌÎÏÎÎÎÎÏÍÍÎÍÍÌÎÌÎÌÎÏÎ; // 0x134
-        public amut ÍÎÍÎÍÎÌÏÎÌÏÌÎÎÎÌÏÌÌÍÌÏÎ; // 0x140
-        public float ÍÎÍÍÌÍÌÏÏÎÏÌÌÏÍÎÍÎÏÌÍÍÌ; // 0x14C
-        public float ÏÍÍÏÎÎÍÍÍÌÍÍÍÌÍÌÎÍÏÌÏÌÌ; // 0x150
-        public bool ÏÌÏÎÍÍÌÏÌÌÎÌÏÌÌÌÍÍÎÌÎÌÏ; // 0x154
-        public float ÎÌÏÌÌÎÎÍÍÌÌÎÍÍÌÏÌÍÏÏÎÌÎ; // 0x158
-        public float ÏÎÌÍÎÌÎÎÏÍÌÏÎÌÍÍÏÏÍÌÏÎÌ; // 0x15C
-        public float ÌÏÌÏÌÌÎÏÍÏÍÌÍÎÌÎÌÍÎÎÎÌÎ; // 0x160
-        public stfix ÏÌÎÎÏÎÌÍÌÌÏÎÍÏÌÌÍÏÏÎÎÏÌ; // 0x168
-        public bool useFinalIK; // 0x170
-        public dius.ionToLocalSpace ÌÎÍÍÎÌÍÌÍÌÍÍÌÌÎÍÏÏÎÌÌÍÎ; // 0x178
-        public dius.ht ÎÎÎÍÍÍÌÎÎÏÏÍÌÎÏÍÏÏÌÍÍÍÌ; // 0x180
-        public dius.sions ÏÌÎÎÌÏÌÍÎÏÍÍÍÍÏÌÏÍÏÍÏÎÏ; // 0x188
-        public object ÎÌÍÍÌÎÍÍÎÍÌÎÌÍÎÌÏÏÍÎÍÏÏ; // 0x190
-        public object ÌÏÍÏÎÎÍÏÍÎÎÏÏÎÌÏÌÎÍÎÌÌÏ; // 0x198
-        public object ÎÎÎÎÍÍÏÌÎÎÏÍÍÍÏÌÏÎÌÌÎÏÌ; // 0x1A0
-        public object ÏÌÎÍÎÍÏÍÍÌÏÌÎÏÍÌÏÍÎÍÌÏÏ; // 0x1A8
-        public object ÌÎÎÎÍÏÎÌÎÍÌÍÍÏÌÏÎÏÏÍÎÍÌ; // 0x1B0
-        public object ÎÍÏÏÎÎÌÎÌÏÏÍÏÍÌÎÏÌÍÍÌÏÌ; // 0x1B8
-        public object ÎÌÎÏÏÎÌÌÏÏÌÏÏÎÎÏÎÌÏÌÍÎÏ; // 0x1C0
-        public object ÌÌÍÍÏÌÌÏÏÍÏÏÏÎÍÎÏÌÌÍÎÎÏ; // 0x1C8
-        public ?[] ÌÏÍÎÌÍÍÎÌÎÎÍÏÍÌÏÍÍÎÎÎÎÎ; // 0x1D0
-        public int ÍÎÏÎÎÏÌÍÌÍÏÏÎÍÏÎÍÎÎÌÌÌÎ; // 0x1D8
-        public object ÏÏÌÏÍÌÌÏÌÏÍÎÍÎÏÌÍÎÌÏÌÍÍ; // 0x1E0
-        public object <ÌÏÍÍÌÌÌÍÎÌÎÍÎÌÏÎÎÍÌÎÍÏÏ>k__BackingField; // 0x1E8
-        public object ÎÌÏÍÎÏÎÎÎÏÌÏÍÏÎÌÍÏÏÌÎÎÏ; // 0x1F0
-        public bool ÎÍÎÌÍÍÏÍÌÌÏÎÌÌÎÎÏÏÌÎÎÏÍ; // 0x1F8
-        public R_12x12 ÍÍÏÍÌÌÍÌÍÍÌÎÏÏÍÎÌÌÎÎÍÎÏ; // 0x1FC
-        public R_12x12 ÎÎÍÌÌÍÏÏÎÎÎÍÏÎÏÍÍÍÍÍÎÎÌ; // 0x20C
-        public R_12x12 ÍÌÏÎÌÍÌÍÌÍÌÌÍÍÍÌÎÍÏÌÏÏÍ; // 0x21C
-        public R_12x12 ÎÌÎÎÍÌÌÌÌÍÏÌÏÍÏÎÍÍÍÏÏÍÍ; // 0x22C
-        public amut ÍÏÏÍÏÏÍÌÎÏÍÍÎÌÍÍÏÌÍÏÏÎÎ; // 0x23C
-        public amut ÌÏÍÎÍÎÏÎÍÌÎÍÌÎÍÌÎÍÌÌÌÎÎ; // 0x248
-        public R_12x12 ÎÍÍÌÍÏÏÌÏÎÏÏÎÍÎÎÎÏÍÍÏÍÎ; // 0x254
-        public R_12x12 ÏÎÌÏÎÏÏÎÍÏÎÍÏÎÌÎÎÌÏÍÌÏÎ; // 0x264
-        public R_12x12 ÏÎÌÏÏÎÏÎÎÌÎÌÏÏÏÎÍÍÎÎÏÎÍ; // 0x274
-        public R_12x12 ÌÎÌÍÎÍÍÏÍÎÌÏÍÎÏÎÎÍÍÎÌÏÏ; // 0x284
-        public amut <ÎÍÎÌÏÎÎÌÌÏÌÏÏÎÍÍÎÎÌÎÍÌÍ>k__BackingField; // 0x294
-        public amut ÍÎÏÎÏÌÎÎÌÌÍÍÍÏÏÏÏÌÍÎÌÌÎ; // 0x2A0
-        public amut ÏÎÏÎÎÍÌÍÏÍÎÌÌÏÎÍÍÏÌÏÏÎÏ; // 0x2AC
-        public float ÌÏÍÌÍÏÎÏÌÏÍÏÍÏÍÌÌÏÍÌÌÍÌ; // 0x2B8
-        public float ÏÌÏÏÌÏÌÏÏÌÌÌÌÍÏÏÍÎÌÍÍÏÏ; // 0x2BC
-        public float ÎÍÎÏÍÍÍÎÌÌÍÌÍÌÍÌÏÍÎÏÏÎÏ; // 0x2C0
-        public float ÌÌÎÌÌÌÌÌÏÍÌÌÍÌÌÍÍÍÏÍÏÏÍ; // 0x2C4
-        public bool <ÍÍÎÏÏÍÎÏÌÎÌÎÍÎÏÎÏÏÍÎÍÎÏ>k__BackingField; // 0x2C8
-        public bool <ÌÍÏÌÏÌÎÍÎÌÎÎÏÌÍÎÌÍÍÌÌÎÎ>k__BackingField; // 0x2C9
-        public bool ÍÌÏÍÏÌÌÍÍÎÏÎÌÎÎÎÏÍÍÌÌÍÌ; // 0x2CA
-        public bool ÍÎÍÍÏÍÌÍÌÍÏÎÏÏÌÏÌÏÏÌÏÎÎ; // 0x2CB
-        public object ÏÎÍÌÌÌÍÏÎÌÎÍÌÌÌÎÏÍÎÎÌÏÍ; // 0x2CC
-        public object ÎÌÏÍÍÎÏÌÎÍÌÏÎÎÎÌÏÍÌÎÌÏÏ; // 0x2D0
-        public object ÏÍÍÍÏÏÏÏÌÏÎÌÎÏÌÏÍÎÏÌÌÏÏ; // 0x2D4
-        public URA.DateTime<string,ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÏÎÌÏÌÏÌÎÌÍÍÎÌÍÍÎÍ> ÍÍÏÏÌÌÌÏÌÌÎÏÏÎÏÏÌÌÏÎÍÍÏ;
-        public bool ÏÌÎÍÌÏÌÏÍÎÏÍÍÌÌÎÎÎÎÍÍÍÎ; // 0x2D8
-        public object ÍÍÌÍÎÍÍÏÌÎÏÌÍÍÌÎÎÎÍÍÏÏÎ; // 0x8
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_D5E;
+        public object f_387;
+        public object f_8EF;
+        public object f_9AE;
+        public object f_374;
+        public object f_3A5;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F92C8F0
@@ -290,37 +136,12 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class EyeAndHeadAnimatorForExport : Object
     {
-        public string headBonePath; // 0x10
-        public float headSpeedModifier; // 0x18
-        public float headWeight; // 0x1C
-        public bool useMicroSaccades; // 0x20
-        public bool useMacroSaccades; // 0x21
-        public bool kDrawSightlinesInEditor; // 0x22
-        public ÎÎÏÍÏÏÌÏÏÍÏÏÌÌÏÎÍÍ controlData; // 0x28
-        public float kMinNextBlinkTime; // 0x30
-        public float kMaxNextBlinkTime; // 0x34
-        public bool eyelidsFollowEyesVertically; // 0x38
-        public float maxEyeHorizAngle; // 0x3C
-        public float maxEyeHorizAngleTowardsNose; // 0x40
-        public float crossEyeCorrection; // 0x44
-        public float nervousness; // 0x48
-        public float limitHeadAngle; // 0x4C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class EyeRotationLimiter : Object
     {
-        public object transform; // 0x10
-        public R_12x12 defaultQ; // 0x18
-        public R_12x12 lookUpQ; // 0x28
-        public R_12x12 lookDownQ; // 0x38
-        public float maxUpAngle; // 0x48
-        public float maxDownAngle; // 0x4C
-        public bool isLookUpSet; // 0x50
-        public bool isLookDownSet; // 0x51
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F91BBC0
         public void Equals(){} // RVA: 0x7FFD4F91C170
@@ -346,24 +167,6 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class EyelidRotationLimiter : Object
     {
-        public object transform; // 0x10
-        public R_12x12 defaultQ; // 0x18
-        public R_12x12 closedQ; // 0x28
-        public R_12x12 lookUpQ; // 0x38
-        public R_12x12 lookDownQ; // 0x48
-        public float eyeMaxDownAngle; // 0x58
-        public float eyeMaxUpAngle; // 0x5C
-        public amut defaultPos; // 0x60
-        public amut closedPos; // 0x6C
-        public amut lookUpPos; // 0x78
-        public amut lookDownPos; // 0x84
-        public bool isLookUpSet; // 0x90
-        public bool isLookDownSet; // 0x91
-        public bool isDefaultPosSet; // 0x92
-        public bool isClosedPosSet; // 0x93
-        public bool isLookUpPosSet; // 0x94
-        public bool isLookDownPosSet; // 0x95
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F91D030
         public void Equals(){} // RVA: 0x7FFD4F91D140
@@ -388,53 +191,6 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class LookTargetController : MonoBehaviour
     {
-        public ?[] pointsOfInterest; // 0x20
-        public float lookAtPlayerRatio; // 0x28
-        public float stareBackFactor; // 0x2C
-        public float noticePlayerDistance; // 0x30
-        public float personalSpaceDistance; // 0x34
-        public float minLookTime; // 0x38
-        public float maxLookTime; // 0x3C
-        public object playerEyeCenter; // 0x40
-        public bool keepTargetEvenWhenLost; // 0x48
-        public rScript.<GetCachedEnumData>b__2_5 OnStartLookingAtPlayer; // 0x50
-        public rScript.<GetCachedEnumData>b__2_5 OnStopLookingAtPlayer; // 0x58
-        public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.Í ÍÏÍÌÎÍÎÏÎÍÏÎÌÌÍÌÎÏÎÏÍÍÏ; // 0x60
-        public float ÌÍÏÍÌÌÍÏÏÌÌÏÏÍÍÌÌÏÎÏÎÍÌ;
-        public object ÌÏÎÌÏÎÍÏÎÌÎÌÎÍÎÍÌÎÎÍÌÏÎ; // 0x68
-        public object ÌÌÎÌÏÎÌÎÌÎÎÎÌÌÏÌÎÎÏÏÌÏÏ; // 0x70
-        public object ÍÏÎÏÎÏÏÍÌÍÏÌÏÏÏÏÏÎÍÎÍÏÍ; // 0x78
-        public object ÌÌÏÌÏÍÍÍÍÌÎÎÌÏÍÏÌÎÌÎÍÌÌ; // 0x80
-        public object ÏÌÎÎÌÍÌÏÌÏÍÌÎÍÍÎÎÏÏÎÎÎÍ; // 0x88
-        public BuffersImpl ÏÏÎÏÏÍÌÍÍÌÎÎÍÌÏÏÎÌÏÌÌÍÏ; // 0x90
-        public BuffersImpl ÏÎÎÌÍÌÎÏÎÍÎÌÎÏÎÍÌÌÎÌÍÌÎ; // 0x98
-        public BuffersImpl ÏÍÎÏÎÌÏÍÏÎÍÏÎÏÏÎÌÏÌÏÌÏÌ; // 0xA0
-        public BuffersImpl ÌÏÏÍÎÌÌÏÌÎÏÌÌÏÎÏÏÌÌÌÌÌÏ; // 0xA8
-        public float ÏÌÌÍÌÎÎÎÎÍÏÌÌÏÌÎÏÏÍÌÌÌÏ; // 0xB0
-        public float ÎÌÎÎÌÎÏÍÌÏÏÏÌÎÎÏÌÍÌÌÌÏÏ; // 0xB4
-        public float ÍÏÏÍÍÎÌÎÎÍÌÌÏÌÌÍÍÏÏÌÎÍÏ; // 0xB8
-        public float ÌÏÏÌÌÎÎÏÍÎÎÍÌÌÏÏÎÏÍÏÌÍÎ; // 0xBC
-        public float ÍÌÎÌÌÎÏÌÍÌÏÏÏÌÍÍÎÌÏÎÏÏÏ; // 0xC0
-        public float ÌÌÌÎÏÍÌÍÍÍÌÎÏÏÏÌÏÌÏÍÏÍÌ; // 0xC4
-        public float ÎÌÍÌÎÎÍÏÍÎÎÌÎÏÏÎÏÎÌÍÍÍÌ; // 0xC8
-        public float ÏÍÌÎÍÌÏÍÍÍÌÍÏÏÌÌÌÏÎÎÍÍÎ; // 0xCC
-        public bool ÍÎÎÍÍÍÎÌÎÌÌÍÎÎÍÍÌÍÎÏÏÍÌ; // 0xD0
-        public bool ÌÍÍÎÏÎÏÌÎÎÍÍÎÏÌÌÎÎÌÍÍÍÍ; // 0xD1
-        public bool ÎÍÌÍÎÎÏÌÎÍÎÍÍÎÍÏÎÍÎÎÏÌÏ; // 0xD2
-        public bool ÌÍÌÍÍÏÍÏÍÍÌÍÌÌÍÍÌÍÍÍÏÌÏ; // 0xD3
-        public bool ÎÎÍÎÎÎÍÍÎÍÍÍÏÏÎÏÎÍÏÌÍÎÌ; // 0xD4
-        public bool isLocal; // 0xD5
-        public object ÏÍÏÏÎÎÌÏÌÌÎÎÎÌÏÏÎÍÎÎÍÍÎ; // 0xD8
-        public object ÍÎÌÌÌÎÌÎÌÍÏÎÍÍÍÍÏÏÏÎÎÍÍ; // 0xE0
-        public object ÏÍÌÎÎÌÏÍÌÍÎÌÌÎÍÌÎÍÍÏÍÍÌ; // 0xE8
-        public object ÌÌÍÌÏÎÌÎÏÏÌÎÏÌÏÌÍÌÍÏÏÎÏ; // 0xF0
-        public stfix ÍÌÌÍÎÎÌÍÎÌÏÏÍÏÌÌÌÌÎÍÎÍÌ; // 0xF8
-        public bool ÎÌÌÌÎÎÏÏÎÍÌÍÏÎÏÎÏÎÏÏÏÍÎ; // 0x100
-        public object ÍÎÌÌÍÌÎÌÎÎÎÏÎÌÏÎÍÏÍÌÎÍÎ; // 0x104
-        public int ÌÏÍÍÍÍÏÍÏÎÎÍÎÏÌÏÎÍÌÏÍÍÌ;
-        public int ÌÌÏÍÌÏÌÌÎÌÌÌÎÎÎÍÏÍÎÍÎÍÏ;
-        public int ÍÍÍÏÏÍÎÍÌÌÎÏÍÏÏÌÌÌÍÍÌÏÎ; // 0x108
-
         // ── Methods ──
         public void set_ScaleMode(){} // RVA: 0x7FFD4F93E020
         public void RaiseCancellation(){} // RVA: 0x7FFD4F93E030
@@ -472,11 +228,6 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class SerializableQuaternion : ValueType
     {
-        public float x; // 0x10
-        public float y; // 0x14
-        public float z; // 0x18
-        public float w; // 0x1C
-
         // ── Methods ──
         public void FromColorf(){} // RVA: 0x7FFD4F92BA70
         public void InternalEquals_D45A011958AB(){} // RVA: 0x7FFD4F92BA70 | overloaded x2
@@ -492,10 +243,6 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class SerializableVector3 : ValueType
     {
-        public float x; // 0x10
-        public float y; // 0x14
-        public float z; // 0x18
-
         // ── Methods ──
         public void FromVector3f(){} // RVA: 0x7FFD4F9473D0
         public void InternalEquals(){} // RVA: 0x7FFD4F9473D0

@@ -24,8 +24,6 @@ namespace ThirdParty.Discord.Discord.Sdk
 
     public class NativeMethods : Object
     {
-        public ileFullDirectoryInformation<ÏÏÍÍÎÎ> UnhandledException;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4FD94500
         public void __Init(){} // RVA: 0x7FFD4E341310

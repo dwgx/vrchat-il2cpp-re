@@ -77,7 +77,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÌÍÍÏÏÍÌÎÎÏÍÏÎÏÏÏÏÍÏÏÏÌÍ</summary>
     public class LateUpdateComponent_E5A4 : MonoBehaviour
     {
-        public object _e5A4;
+        public ePathName117.? _e5A4; // 0x138
+        public ePathName117.? ÍÏÏÌÏÌÎÌÎÎÍÌÎÍÍÍÌÍÍÌÍÏÍ; // 0x140
+        public ePathName117.ÍÏÎÍÏÌÏÎÏÎÎÏÎÏÎÏÏÏÏÏ ÌÌÏÍÏÌÌÏÏÍÏÌÌÏÎÏÌÎÌÏÍÍÎ; // 0x148
+        public ePathName117.ÍÏÎÍÏÌÏÎÏÎÎÏÎÏÎÏÏÏÏÏ ÌÍÌÍÏÏÎÏÏÏÍÍÏÏÏÏÎÍÎÌÎÎÌ; // 0x150
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4FB61970

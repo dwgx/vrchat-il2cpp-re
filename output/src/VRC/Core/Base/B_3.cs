@@ -1713,7 +1713,16 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÏÎÍÎÌÍÍÍÍÍÍÏÍÏÎÍÏÎÌÌÏÌÌ</summary>
     public class BaseClass7Impl_051B : BaseClass7_64F4
     {
-        public object _051B;
+        public int _051B; // 0x10
+        public er<T>.OnTextSelectionAsync.harp.Threading.Tasks.IAsyncSelectEventHandler<T>.OnSelectAsync ÌÍÍÎÌÌÎÍÎÏÍÍÎÍÌÍÏÎÏÌÎÍÏ; // 0x18
+        public object ÍÌÌÌÏÍÌÍÏÎÏÍÍÎÎÌÌÎÍÍÍÎÌ; // 0x20
+        public sageKind._internal ÎÎÎÎÌÍÏÎÏÎÎÌÌÏÍÌÍÍÎÌÏÏÎ; // 0x28
+        public object ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x30
+        public object ÎÌÍÍÏÍÍÏÍÍÎÍÌÍÏÎÎÍÌÎÍÌÏ; // 0x38
+        public bool ÎÎÎÌÎÏÌÍÏÍÌÎÏÌÌÎÌÏÏÍÏÍÍ; // 0x40
+        public bool ÌÍÌÏÍÌÍÌÌÎÎÎÍÎÍÌÍÍÎÍÌÌÏ; // 0x41
+        public peInfoResolverChain<bool> ÏÌÍÎÍÎÎÌÏÍÌÏÎÍÍÍÌÍÎÌÍÌÍ; // 0x48
+        public peInfoResolverChain ÏÍÎÌÏÌÌÏÎÏÎÏÎÎÌÏÌÍÌÏÏÏÎ; // 0x58
 
         // ── Methods ──
         public void TriggerLifecycleStageEvent(){} // RVA: 0x7FFD4EBA00A0

@@ -7,9 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 {
     public class HoldInteraction : Object
     {
-        public float durationOrDefault; // 0x10
-        public float pressPointOrDefault; // 0x14
-        public double m_TimePressed; // 0x18
+        public object durationOrDefault;
+        public object pressPointOrDefault;
 
         // ── Methods ──
         public void get_durationOrDefault(){} // RVA: 0x7FFD5497FCF0
@@ -21,14 +20,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 
     public class MultiTapInteraction : Object
     {
-        public float tapTimeOrDefault; // 0x10
-        public float tapDelayOrDefault; // 0x14
-        public int pressPointOrDefault; // 0x18
-        public float releasePointOrDefault; // 0x1C
-        public equencyMotorSpeed m_CurrentTapPhase; // 0x20
-        public int m_CurrentTapCount; // 0x24
-        public double m_CurrentTapStartTime; // 0x28
-        public double m_LastTapReleaseTime; // 0x30
+        public hpClassPrefix tapTimeOrDefault; // 0x138
+        public BuffersImpl tapDelayOrDefault; // 0x140
+        public ePathName117.? pressPointOrDefault; // 0x148
+        public ePathName117.? releasePointOrDefault; // 0x150
+        public ePathName117.? selectAllButton; // 0x158
+        public ePathName117.? deselectAllButton; // 0x160
+        public ePathName117.? closeButton; // 0x168
+        public ?[] instanceTypeSelectionToggles; // 0x170
+        public ePathName117.? applyButton; // 0x178
+        public ePathName117.? cancelButton; // 0x180
+        public URA.woDigitYearMax<ÎÍÎÏÍÎÏÍ> ÎÎÏÏÏÍÌÌÍÏÍÎÍÎÍÏÌÏÍÏÍÌÍ; // 0x188
+        public URA.onsDepth<?> ÎÍÎÏÌÎÍÎÎÏÏÍÎÏÍÌÏÏÏÎÏÍÎ; // 0x190
+        public bool[] ÌÏÏÎÌÎÌÌÍÌÎÎÏÎÌÌÏÏÌÏÌÎÌ; // 0x198
 
         // ── Methods ──
         public void get_tapTimeOrDefault(){} // RVA: 0x7FFD5497FF60
@@ -42,9 +46,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 
     public class PressInteraction : Object
     {
-        public float pressPointOrDefault; // 0x10
-        public nputReport.BluetoothOutputReport releasePointOrDefault; // 0x14
-        public bool m_WaitingForRelease; // 0x18
+        public object pressPointOrDefault;
+        public object releasePointOrDefault;
 
         // ── Methods ──
         public void get_pressPointOrDefault(){} // RVA: 0x7FFD54980420
@@ -56,9 +59,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 
     public class SlowTapInteraction : Object
     {
-        public float durationOrDefault; // 0x10
-        public float pressPointOrDefault; // 0x14
-        public double m_SlowTapStartTime; // 0x18
+        public object durationOrDefault;
+        public object pressPointOrDefault;
 
         // ── Methods ──
         public void get_durationOrDefault(){} // RVA: 0x7FFD54980760
@@ -70,9 +72,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 
     public class TapInteraction : Object
     {
-        public float durationOrDefault; // 0x10
-        public float pressPointOrDefault; // 0x14
-        public double releasePointOrDefault; // 0x18
+        public object durationOrDefault;
+        public object pressPointOrDefault;
+        public object releasePointOrDefault;
 
         // ── Methods ──
         public void get_durationOrDefault(){} // RVA: 0x7FFD54980A10

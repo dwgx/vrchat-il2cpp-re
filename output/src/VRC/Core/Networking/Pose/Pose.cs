@@ -7,31 +7,12 @@ namespace VRC.Core.Networking.Pose
 {
     public class Configuration : Object
     {
-        public fset2096.ctions.KVPair<TKey,TValue>>.GetEnumerator<bool> MuscleUsed;
-        public int[] MuscleUsedIndices; // 0x8
-        public int MuscleUsedCount; // 0x10
-        public int MuscleCount; // 0x14
-        public int MUSCLE_FLAGS;
-        public int FRAME_BUFFER_BONES;
-        public int FIRST_FINGER_MUSCLE;
-        public int VISEME_COUNT;
-        public int PUPPET_FLAGS;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD551FBA30
     }
 
     public class DirectQuantizedPose : PoseCodec`1
     {
-        public byte[] lastEncodedMuscles; // 0x18
-        public float[] muscleCache; // 0x20
-        public byte[] puppetValues; // 0x28
-        public byte[] spineLengthFactorEncoded; // 0x30
-        public byte[] stretchBytes; // 0x38
-        public byte[] spreadBytes; // 0x40
-        public int VISEME_COUNT;
-        public byte[] legacyFaceBytes; // 0x48
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD551FC1A0
         public void Encode(){} // RVA: 0x7FFD551FC550
@@ -57,8 +38,6 @@ namespace VRC.Core.Networking.Pose
 
     public class PoseCodec`1 : Object
     {
-        public izedObjectsVerify.ht poseRecorder; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Encode(){} // RVA: 0x7FFD4E0837A0
@@ -67,40 +46,17 @@ namespace VRC.Core.Networking.Pose
 
     public class PoseEvent : TweenableValue`1
     {
-        public ushort poseContents; // 0x40
-        public float[] IsImmobilized; // 0x48
-        public dexes.lArg IsLocomoting; // 0x50
-        public byte IsSeated; // 0x58
-        public byte InVehicle; // 0x59
-        public byte IsGrounded; // 0x5A
-        public byte IsAFK; // 0x5B
-        public byte InStation; // 0x5C
-        public int IsOwnerIKDisabled; // 0x60
-        public int IsMutingSelf; // 0x64
-        public float Contents; // 0x68
-        public float handGestureWeightRight; // 0x6C
-        public dexes.eteValue leftHandPosition; // 0x70
-        public dexes.eteValue rightHandPosition; // 0x78
-        public dexes.eteValue headPosition; // 0x80
-        public dexes.lArg leftHandRotation; // 0x88
-        public dexes.lArg rightHandRotation; // 0x90
-        public dexes.lArg headRotation; // 0x98
-        public dexes.eteValue leftFootPosition; // 0xA0
-        public dexes.eteValue rightFootPosition; // 0xA8
-        public dexes.eteValue hipPosition; // 0xB0
-        public dexes.lArg leftFootRotation; // 0xB8
-        public dexes.lArg rightFootRotation; // 0xC0
-        public dexes.lArg hipRotation; // 0xC8
-        public float angVelocityY; // 0xD0
-        public float spineLengthFactor; // 0xD4
-        public float[] fingerStretch; // 0xD8
-        public float[] fingerSpread; // 0xE0
-        public dexes.eteValue eyeTargetRelativePosition01; // 0xE8
-        public byte eyeClosedAmount; // 0xF0
-        public float[] faceTrackedVisemes; // 0xF8
-        public float[] puppetValues; // 0x100
-        public bool[] puppetIsFloat; // 0x108
-        public rpreter.ToUnderlying PositionEvent; // 0x110
+        public object poseContents;
+        public object IsImmobilized;
+        public object IsLocomoting;
+        public object IsSeated;
+        public object InVehicle;
+        public object IsGrounded;
+        public object IsAFK;
+        public object InStation;
+        public object IsOwnerIKDisabled;
+        public object IsMutingSelf;
+        public object Contents;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD551FE730 | overloaded x2
@@ -133,15 +89,6 @@ namespace VRC.Core.Networking.Pose
 
     public class QuantizedPose : PoseCodec`1
     {
-        public byte[] lastEncodedMuscles; // 0x18
-        public float[] muscleCache; // 0x20
-        public byte[] puppetValues; // 0x28
-        public byte[] spineLengthFactorEncoded; // 0x30
-        public byte[] stretchBytes; // 0x38
-        public byte[] spreadBytes; // 0x40
-        public int VISEME_COUNT;
-        public byte[] legacyFaceBytes; // 0x48
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552006F0
         public void Encode(){} // RVA: 0x7FFD55200AA0

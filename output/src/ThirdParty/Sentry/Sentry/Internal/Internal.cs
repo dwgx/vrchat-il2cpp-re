@@ -7,8 +7,9 @@ namespace ThirdParty.Sentry.Sentry.Internal
 {
     public class AutoClearingList`1 : Object
     {
-        public URA.?<RGBA_ETC2_SRGB.ts> Count; // 0x10
-        public bool IsReadOnly; // 0x18
+        public object Count;
+        public object IsReadOnly;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E096500
@@ -30,7 +31,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ConcurrentQueueLite`1 : Object
     {
-        public URA.woDigitYearMax<T1717641808> Count;
+        public object Count;
+        public object IsEmpty;
 
         // ── Methods ──
         public void Enqueue(){} // RVA: 0x7FFD4E2ADC40
@@ -45,9 +47,6 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class DuplicateEventDetectionEventProcessor : Object
     {
-        public RGBA_ETC2_SRGB.ionAsync>d__5`3 _options; // 0x10
-        public ArgCount.ent<object,object> _capturedObjects; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53FBEC00
         public void Process(){} // RVA: 0x7FFD53FBED20
@@ -56,8 +55,6 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ExceptionTypeFilter`1 : Object
     {
-        public object _filteredType;
-
         // ── Methods ──
         public void Filter(){} // RVA: 0x7FFD4E079F60
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -65,8 +62,11 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class GrowableArray`1 : ValueType
     {
-        public T1717641904[] Item;
-        public int Count;
+        public object Item;
+        public object Count;
+        public object Empty;
+        public object EmptyCapacity;
+        public object UnderlyingArray;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -93,9 +93,8 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class HashableGrowableArray`1 : ValueType
     {
-        public IsPerformanceMonitoringEnabled.cesSampler<T1717641840> Item;
-        public int Count;
-        public bool _sealed;
+        public object Item;
+        public object Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -113,16 +112,14 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class Hub : Object
     {
-        public object ExceptionToSpanMap; // 0x10
-        public tingSystem>.UpdateFrom.gMeta ScopeManager; // 0x18
-        public RGBA_ETC2_SRGB.d__3`1 Metrics; // 0x20
-        public RGBA_ETC2_SRGB.ionAsync>d__5`3 IsEnabled; // 0x28
-        public IsPerformanceMonitoringEnabled.d Options; // 0x30
-        public int CurrentScope; // 0x38
-        public ArgCount.ent<ÏÏÍÍÎÎ,RGBA_ETC2_SRGB.waitWithCancellationAsync>d__4`1> CurrentClient; // 0x40
-        public IsPerformanceMonitoringEnabled.er>b__0 LastEventId; // 0x48
-        public RGBA_ETC2_SRGB.Action <Metrics>k__BackingField; // 0x50
-        public int _isEnabled; // 0x58
+        public object ExceptionToSpanMap;
+        public object ScopeManager;
+        public object Metrics;
+        public object IsEnabled;
+        public object Options;
+        public object CurrentScope;
+        public object CurrentClient;
+        public object LastEventId;
 
         // ── Methods ──
         public void get_ExceptionToSpanMap(){} // RVA: 0x7FFD4E3BE740
@@ -194,11 +191,7 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class MainExceptionProcessor : Object
     {
-        public string SentryStackTraceFactoryAccessor;
-        public string ExceptionDataTagKey;
-        public string ExceptionDataContextKey;
-        public RGBA_ETC2_SRGB.ionAsync>d__5`3 _options; // 0x10
-        public ormation<?> <SentryStackTraceFactoryAccessor>k__BackingField; // 0x18
+        public object SentryStackTraceFactoryAccessor;
 
         // ── Methods ──
         public void get_SentryStackTraceFactoryAccessor(){} // RVA: 0x7FFD4E3447C0
@@ -213,16 +206,9 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class MainSentryEventProcessor : Object
     {
-        public string SentryStackTraceFactoryAccessor;
-        public string Release;
-        public string Distribution;
-        public string ThreadPoolInfoKey;
-        public string IsDynamicCodeKey;
-        public string IsDynamicCodeCompiledKey;
-        public string IsDynamicCodeSupportedKey;
-        public IsPerformanceMonitoringEnabled.AppInclude _enricher; // 0x10
-        public RGBA_ETC2_SRGB.ionAsync>d__5`3 _options; // 0x18
-        public ormation<?> <SentryStackTraceFactoryAccessor>k__BackingField; // 0x20
+        public object SentryStackTraceFactoryAccessor;
+        public object Release;
+        public object Distribution;
 
         // ── Methods ──
         public void get_SentryStackTraceFactoryAccessor(){} // RVA: 0x7FFD4E36F0C0
@@ -237,7 +223,7 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ObjectExtensions : Object
     {
-        public ArgCount.ent<object,URA.DateTime<string,object>> Map;
+        public object Map;
 
         // ── Methods ──
         public void get_Map(){} // RVA: 0x7FFD53FCBBE0
@@ -249,12 +235,9 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class PollingNetworkStatusListener : Object
     {
-        public RGBA_ETC2_SRGB.ionAsync>d__5`3 LazyPing; // 0x10
-        public IsPerformanceMonitoringEnabled.Crashed>k__BackingField Ping; // 0x18
-        public int Online; // 0x20
-        public int _maxDelayInMilliseconds; // 0x24
-        public n<int,int> _backoffFunction; // 0x28
-        public bool _online; // 0x30
+        public object LazyPing;
+        public object Ping;
+        public object Online;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53FCDC30 | overloaded x2
@@ -268,7 +251,7 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class PooledBuffer`1 : ValueType
     {
-        public T1717642064[] Array;
+        public object Array;
 
         // ── Methods ──
         public void get_Array(){} // RVA: 0x7FFD4E078E90
@@ -278,9 +261,10 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class SentryScopeManager : Object
     {
-        public ield.ssionDenied ScopeStackContainer; // 0x10
-        public RGBA_ETC2_SRGB.ionAsync>d__5`3 ScopeAndClientStack; // 0x18
-        public ormation<URA.mes<RGBA_ETC2_SRGB.ult,RGBA_ETC2_SRGB.ation`2>[]> NewStack; // 0x20
+        public object ScopeStackContainer;
+        public object ScopeAndClientStack;
+        public object NewStack;
+        public object IsGlobalMode;
 
         // ── Methods ──
         public void get_ScopeStackContainer(){} // RVA: 0x7FFD4E35C380
@@ -300,8 +284,7 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class SettingLocator : Object
     {
-        public RGBA_ETC2_SRGB.ionAsync>d__5`3 AssemblyForAttributes; // 0x10
-        public m.ormation <AssemblyForAttributes>k__BackingField; // 0x18
+        public object AssemblyForAttributes;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53FD4570
@@ -315,9 +298,6 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class StringOrRegex : Object
     {
-        public tor.neStore _regex; // 0x10
-        public string _prefix; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
         public void op_Implicit(){} // RVA: 0x7FFD53FD4E90 | overloaded x2
@@ -328,7 +308,10 @@ namespace ThirdParty.Sentry.Sentry.Internal
 
     public class ThreadsafeCounterDictionary`1 : Object
     {
-        public JapaneseLangName.erns<T1717642128,dStatus<T1717642128>> Count;
+        public object Count;
+        public object Item;
+        public object Keys;
+        public object Values;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E2ADC40

@@ -7,16 +7,12 @@ namespace VRC.UI.Elements.Menus
 {
     public class Binding : ValueType
     {
-        public object fingerBindings; // 0x10
-        public object fingerBindingCell_Left; // 0x18
-        public object fingerBindingCell_Right; // 0x20
     }
 
     public class GalleryIconsView : HeaderElementContentView`1
     {
-        public utton.? MaxContentCount; // 0x68
-        public utton.rtIcon ObservableList; // 0x90
-        public BuffersImpl subNowInfo; // 0xE0
+        public object MaxContentCount;
+        public object ObservableList;
 
         // ── Methods ──
         public void UpdateActive(){} // RVA: 0x7FFD568C1260
@@ -42,8 +38,8 @@ namespace VRC.UI.Elements.Menus
 
     public class GalleryPhotosView : HeaderElementContentView`1
     {
-        public object MaxContentCount; // 0x68
-        public BuffersImpl ObservableList; // 0x70
+        public object MaxContentCount;
+        public object ObservableList;
 
         // ── Methods ──
         public void get_MaxContentCount(){} // RVA: 0x7FFD568C2B00
@@ -67,8 +63,6 @@ namespace VRC.UI.Elements.Menus
 
     public class HeaderElementContentView`1 : ListContentView`1
     {
-        public BuffersImpl _headerPrefab; // 0x60
-
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x7FFD4E090980
         public void get_MaxContentCount(){} // RVA: 0x7FFD4E090980
@@ -80,23 +74,22 @@ namespace VRC.UI.Elements.Menus
 
     public class KeyboardInputModalComponents : Object
     {
-        public BuffersImpl Keyboard; // 0x10
-        public ePathName117.? Cancel; // 0x18
-        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ CancelText; // 0x20
-        public ePathName117.? Submit; // 0x28
-        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ SubmitText; // 0x30
-        public ePathName117.? CloseButton; // 0x38
-        public ePathName117.? ClearButton; // 0x40
-        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ Title; // 0x48
-        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ Placeholder; // 0x50
-        public artBounds CharactersRemaining; // 0x58
-        public ypointLabel.ands InputField; // 0x60
-        public ÏÍ MaskInputToggle; // 0x68
-        public ystemSingle MinimizedKeyboard; // 0x70
-        public BuffersImpl[] ModalBackgrounds; // 0x78
-        public BuffersImpl WorldBackground; // 0x80
-        public ?[] KeyboardToggleGroups; // 0x88
-        public object _keyboard; // 0x90
+        public object Keyboard;
+        public object Cancel;
+        public object CancelText;
+        public object Submit;
+        public object SubmitText;
+        public object CloseButton;
+        public object ClearButton;
+        public object Title;
+        public object Placeholder;
+        public object CharactersRemaining;
+        public object InputField;
+        public object MaskInputToggle;
+        public object MinimizedKeyboard;
+        public object ModalBackgrounds;
+        public object WorldBackground;
+        public object KeyboardToggleGroups;
 
         // ── Methods ──
         public void get_SubmitText(){} // RVA: 0x7FFD4E5F95E0
@@ -128,10 +121,9 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
-        public BuffersImpl CountFormat; // 0x20
-        public hpClassPrefix MaxContentCount; // 0x28
-        public ÎÌ ObservableList; // 0x30
-        public itTypeSize=876 _header; // 0x38
+        public object CountFormat;
+        public object MaxContentCount;
+        public object ObservableList;
 
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x7FFD5153B210

@@ -7,17 +7,12 @@ namespace ThirdParty.Other.Unity.Jobs.LowLevel.Unsafe
 {
     public class BatchQueryJobStruct`1 : ValueType
     {
-        public UIntPtr jobReflectionData;
-
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4E078A90
     }
 
     public class BatchQueryJob`2 : ValueType
     {
-        public ÍÎÏÎÎ.ÌÌ<T1717604032> commands;
-        public ÍÎÏÎÎ.ÌÌ<T1717604048> results;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     }
@@ -25,6 +20,8 @@ namespace ThirdParty.Other.Unity.Jobs.LowLevel.Unsafe
     public class JobsUtility : Object
     {
         public object IsExecutingJob;
+        public object JobCompilerEnabled;
+        public object ThreadIndexCount;
 
         // ── Methods ──
         public void GetJobRange(){} // RVA: 0x7FFD54C6EAF0

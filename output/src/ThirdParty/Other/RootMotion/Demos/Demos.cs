@@ -7,20 +7,8 @@ namespace ThirdParty.Other.RootMotion.Demos
 {
     public class Navigator : Object
     {
-        public bool normalizedDeltaPosition; // 0x10
-        public float state; // 0x14
-        public float recalculateOnPathDistance; // 0x18
-        public float maxSampleDistance; // 0x1C
-        public float nextPathInterval; // 0x20
-        public amut <normalizedDeltaPosition>k__BackingField; // 0x24
-        public object <state>k__BackingField; // 0x30
-        public object transform; // 0x38
-        public int cornerIndex; // 0x40
-        public amut[] corners; // 0x48
-        public delay.lues path; // 0x50
-        public amut lastTargetPosition; // 0x58
-        public bool initiated; // 0x64
-        public float nextPathTime; // 0x68
+        public object normalizedDeltaPosition;
+        public object state;
 
         // ── Methods ──
         public void get_normalizedDeltaPosition(){} // RVA: 0x7FFD4E39CCA0

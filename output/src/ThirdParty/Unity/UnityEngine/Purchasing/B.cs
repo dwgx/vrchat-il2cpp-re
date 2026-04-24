@@ -7,9 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class BillingClientStateListener : AndroidJavaProxy
     {
-        public ÎÌÍÏÏÌÍÏ m_OnConnected; // 0x20
-        public ileFullDirectoryInformation<oductDetails>b__5_0.tService> m_Disconnect; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DDC2A0
         public void RegisterOnConnected(){} // RVA: 0x7FFD4E36F0D0

@@ -16,11 +16,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking.PlayerConnection
 
     public class PlayerConnection : ScriptableObject
     {
-        public X instance;
-        public e.TargetCount isConnected; // 0x18
-        public URA.woDigitYearMax<int> m_connectedPlayers; // 0x20
-        public bool m_IsInitilized; // 0x28
-        public e.phicsUVStartsAtTop s_Instance; // 0x8
+        public object instance;
+        public object isConnected;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54D04080

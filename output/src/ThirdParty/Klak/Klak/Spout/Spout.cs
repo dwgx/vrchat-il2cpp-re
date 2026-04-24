@@ -7,9 +7,6 @@ namespace ThirdParty.Klak.Klak.Spout
 {
     public class EventData : ValueType
     {
-        public UIntPtr instancePointer; // 0x10
-        public UIntPtr texturePointer; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53648FB0 | overloaded x2
     }
@@ -24,8 +21,6 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class MemoryPool : Object
     {
-        public URA.leEastFrench<annelDataStore.essage> _toBeFreed;
-
         // ── Methods ──
         public void FreeOnEndOfFrame(){} // RVA: 0x7FFD536494A0
         public void OnEndOfFrame(){} // RVA: 0x7FFD53649560
@@ -45,9 +40,7 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class Receiver : Object
     {
-        public UIntPtr Texture; // 0x10
-        public ureRebuilt_Internal.ck _event; // 0x18
-        public ector _texture; // 0x20
+        public object Texture;
 
         // ── Methods ──
         public void get_Texture(){} // RVA: 0x7FFD4E36F0C0
@@ -58,9 +51,6 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class Sender : Object
     {
-        public UIntPtr _plugin; // 0x10
-        public ureRebuilt_Internal.ck _event; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5364A650
         public void Dispose(){} // RVA: 0x7FFD5364A8C0
@@ -75,13 +65,11 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class SpoutReceiver : MonoBehaviour
     {
-        public ureRebuilt_Internal.r sourceName; // 0x20
-        public Offset targetTexture; // 0x28
-        public string targetRenderer; // 0x30
-        public Offset targetMaterialProperty; // 0x38
-        public rical receivedTexture; // 0x40
-        public string _targetMaterialProperty; // 0x48
-        public ureRebuilt_Internal.yDownInt _resources; // 0x50
+        public object sourceName;
+        public object targetTexture;
+        public object targetRenderer;
+        public object targetMaterialProperty;
+        public object receivedTexture;
 
         // ── Methods ──
         public void ReleaseReceiver(){} // RVA: 0x7FFD5364B3D0
@@ -105,23 +93,17 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class SpoutResources : ScriptableObject
     {
-        public ojectionMatrix_Injected blitShader; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
     }
 
     public class SpoutSender : MonoBehaviour
     {
-        public ureRebuilt_Internal.ignatureWithRipeMD160 spoutName; // 0x20
-        public Offset keepAlpha; // 0x28
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ captureMethod; // 0x30
-        public string sourceCamera; // 0x38
-        public bool sourceTexture; // 0x40
-        public ureRebuilt_Internal.t _captureMethod; // 0x44
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _sourceCamera; // 0x48
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField _sourceTexture; // 0x50
-        public ureRebuilt_Internal.yDownInt _resources; // 0x58
+        public object spoutName;
+        public object keepAlpha;
+        public object captureMethod;
+        public object sourceCamera;
+        public object sourceTexture;
 
         // ── Methods ──
         public void ReleaseSender(){} // RVA: 0x7FFD5364C150

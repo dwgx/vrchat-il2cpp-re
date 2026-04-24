@@ -847,8 +847,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÌÍÍÌÍÎÎÍÏÏÍÍÎÌÏÏÎÍÍÎÌ</summary>
     public class AnimatedTextureBaseImplSibling_197E : PhotonConnectionHandlerSiblingSibling_B6DC
     {
-        public object f_E90;
-        public object f_5F1;
+        public int f_E90; // 0x10
+        public er<T>.OnTextSelectionAsync.harp.Threading.Tasks.IAsyncSelectEventHandler<T>.OnSelectAsync f_5F1; // 0x18
+        public object ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x20
+        public peInfoResolverChain ÏÌÍÎÍÎÎÌÏÍÌÏÎÍÍÍÌÍÎÌÍÌÍ; // 0x28
 
         // ── Methods ──
         public void GetPlatform(){} // RVA: 0x7FFD4E5F95E0
@@ -3188,9 +3190,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÎÌÌÏÏÎÌÌÏÍÌÌÎÏÏÌÏÍÌÎÍ</summary>
     public class AnimatedTextureBaseImpl_2750 : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_C13;
-        public object f_3E7;
+        public int f_E70; // 0x10
+        public lution f_C13; // 0x14
 
         // ── Methods ──
         public void get_FileId(){} // RVA: 0x7FFD4E8CE880
@@ -3446,46 +3447,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÏÍÎÍÎÎÍÎÍÏÍÍÏÎÍÎÎÌÍÍÏ</summary>
     public class AnimatedTextureBaseImpl_8F61 : AnimatedTextureBase_F53F
     {
-        public object f_3A0;
-        public object f_7DA;
-        public object f_E70;
-        public object f_C13;
-        public object f_24E;
-        public object f_193;
-        public object f_840;
-        public object f_F83;
-        public object f_6A3;
-        public object f_16B;
-        public object f_739;
-        public object f_A27;
-        public object f_8FE;
-        public object f_6F1;
-        public object f_DD5;
-        public object f_FA4;
-        public object f_C7A;
-        public object f_D29;
-        public object f_A36;
-        public object f_287;
-        public object f_A96;
-        public object f_8B4;
-        public object f_612;
-        public object f_416;
-        public object f_2FB;
-        public object f_136;
-        public object f_71D;
-        public object f_A7D;
-        public object f_B05;
-        public object f_CA3;
-        public object f_5F6;
-        public object f_234;
-        public object f_AC0;
-        public object f_4F8;
-        public object f_F48;
-        public object f_12A;
-        public object f_DE2;
-        public object f_A36;
-        public object f_FFD;
-        public object f_1F3;
+        public <ÏÎÍÎÍÌÏÎÏÌÍÍÏÌÏÎÍÍÏÎÎÏÌ>k__BackingField f_3A0; // 0x10
 
         // ── Methods ──
         public void MarkTargetReady(){} // RVA: 0x7FFD4E8F2690
@@ -4418,18 +4380,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÏÍÍÎÌÍÍÌÍÌÍÏÏÍÏÏÍÏÏÍÎ</summary>
     public class AnimatedTextureBaseImpl_ED23 : AnimatedTextureBase_F53F
     {
-        public object f_0DA;
-        public object f_438;
-        public object f_389;
-        public object f_8DF;
-        public object f_2CA;
-        public object f_7DD;
-        public object f_59E;
-        public object f_EBF;
-        public object f_379;
-        public object f_B73;
-        public object f_B34;
-        public object f_C0D;
+        public tionX f_0DA; // 0x10
 
         // ── Methods ──
         public void GetPlatform(){} // RVA: 0x7FFD4E5F95E0

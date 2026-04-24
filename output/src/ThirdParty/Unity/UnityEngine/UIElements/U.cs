@@ -7,20 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class UIDocument : MonoBehaviour
     {
-        public string panelSettings;
-        public string parentUI;
-        public int visualTreeAsset;
-        public int rootVisualElement;
-        public int firstChildInserIndex; // 0x20
-        public ÎÏÌÎÎÎÌÌÌ.ent sortingOrder; // 0x28
-        public ÎÏÌÎÎÎÌÌÌ.ent m_PreviousPanelSettings; // 0x30
-        public ÎÏÌÎÎÎÌÌÌ.opData m_ParentUI; // 0x38
-        public ÎÏÌÎÎÎÌÌÌ.ler m_ChildrenContent; // 0x40
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.opData> m_ChildrenContentCopy; // 0x48
-        public ÎÏÌÎÎÎÌÌÌ.nt sourceAsset; // 0x50
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_RootVisualElement; // 0x58
-        public int m_FirstChildInsertIndex; // 0x60
-        public float m_SortingOrder; // 0x64
+        public object panelSettings;
+        public object parentUI;
+        public object visualTreeAsset;
+        public object rootVisualElement;
+        public object firstChildInserIndex;
+        public object sortingOrder;
 
         // ── Methods ──
         public void get_panelSettings(){} // RVA: 0x7FFD54CFDAD0
@@ -94,10 +86,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIElementsRuntimeUtilityNative : Object
     {
-        public ÎÌÍÏÏÌÍÏ RepaintOverlayPanelsCallback;
-        public ÎÌÍÏÏÌÍÏ UpdateRuntimePanelsCallback; // 0x8
-        public ÎÌÍÏÏÌÍÏ RepaintOffscreenPanelsCallback; // 0x10
-
         // ── Methods ──
         public void RepaintOverlayPanels(){} // RVA: 0x7FFD54FC6550
         public void UpdateRuntimePanels(){} // RVA: 0x7FFD54FC65B0
@@ -126,13 +114,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UQueryBuilder`1 : ValueType
     {
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.tyle.borderLeftColor> styleSelectors;
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.UIElements.IStyle.borderTopColor> parts;
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_Element;
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.paddingBottom> m_Matchers;
-        public ÎÏÌÎÎÎÌÌÌ.orderTopLeftRadius m_Relationship;
-        public int pseudoStatesMask;
-        public int negatedPseudoStatesMask;
+        public object styleSelectors;
+        public object parts;
 
         // ── Methods ──
         public void get_styleSelectors(){} // RVA: 0x7FFD4E078E90
@@ -154,15 +137,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UQueryExtensions : Object
     {
-        public ÎÏÌÎÎÎÌÌÌ.ents.IResolvedStyle.top<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> SingleElementEmptyQuery;
-        public ÎÏÌÎÎÎÌÌÌ.ents.IResolvedStyle.top<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> SingleElementNameQuery; // 0x10
-        public ÎÏÌÎÎÎÌÌÌ.ents.IResolvedStyle.top<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> SingleElementClassQuery; // 0x20
-        public ÎÏÌÎÎÎÌÌÌ.ents.IResolvedStyle.top<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> SingleElementNameAndClassQuery; // 0x30
-        public ÎÏÌÎÎÎÌÌÌ.ents.IResolvedStyle.top<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> SingleElementTypeQuery; // 0x40
-        public ÎÏÌÎÎÎÌÌÌ.ents.IResolvedStyle.top<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> SingleElementTypeAndNameQuery; // 0x50
-        public ÎÏÌÎÎÎÌÌÌ.ents.IResolvedStyle.top<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> SingleElementTypeAndClassQuery; // 0x60
-        public ÎÏÌÎÎÎÌÌÌ.ents.IResolvedStyle.top<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> SingleElementTypeAndNameAndClassQuery; // 0x70
-
         // ── Methods ──
         public void Q(){} // RVA: 0x7FFD55044790 | overloaded x2
         public void .cctor(){} // RVA: 0x7FFD55044E60
@@ -170,12 +144,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UQueryState`1 : ValueType
     {
-        public e.UIElements.IResolvedStyle.unityBackgroundImageTintColor<T1717596688> s_Action;
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_Element;
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.paddingBottom> m_Matchers;
-        public ormOrigin<T1717596688,T1717596688> s_List;
-        public ormOrigin<T1717596688,ÎÏÌÎÎÎÌÌÌ.omLeftRadius> s_EnumerationList;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
         public void RebuildOn(){} // RVA: 0x7FFD4E2ADC40
@@ -191,11 +159,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlAsset : Object
     {
-        public string fullTypeName; // 0x10
-        public int id; // 0x18
-        public int orderInDocument; // 0x1C
-        public int parentId; // 0x20
-        public URA.woDigitYearMax<string> m_Properties; // 0x28
+        public object fullTypeName;
+        public object id;
+        public object orderInDocument;
+        public object parentId;
 
         // ── Methods ──
         public void get_fullTypeName(){} // RVA: 0x7FFD4E35C380
@@ -256,7 +223,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlObjectAttributeDescription`1 : Object
     {
-        public T1717596848 defaultValue;
+        public object defaultValue;
 
         // ── Methods ──
         public void get_defaultValue(){} // RVA: 0x7FFD4E35C380

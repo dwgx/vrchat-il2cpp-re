@@ -7,19 +7,15 @@ namespace ThirdParty.DotNet.System.Text.Json
 {
     public class Arguments`4 : Object
     {
-        public T1717648144 Arg0;
-        public T1717648160 Arg1;
-        public T1717648176 Arg2;
-        public T1717648192 Arg3;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
     }
 
     public class JsonElement : ValueType
     {
-        public inDataView.ties TokenType; // 0x10
-        public int ValueKind; // 0x18
+        public object TokenType;
+        public object ValueKind;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E77C3C0
@@ -57,8 +53,7 @@ namespace ThirdParty.DotNet.System.Text.Json
 
     public class JsonEncodedText : ValueType
     {
-        public byte[] EncodedUtf8Bytes; // 0x10
-        public string _value; // 0x18
+        public object EncodedUtf8Bytes;
 
         // ── Methods ──
         public void get_EncodedUtf8Bytes(){} // RVA: 0x7FFD53EC55E0
@@ -99,13 +94,12 @@ namespace ThirdParty.DotNet.System.Text.Json
 
     public class JsonPropertyDictionary`1 : Object
     {
-        public int List;
-        public URA.DateTime<string,T1717648128> Count;
-        public URA.woDigitYearMax<URA.mes<string,T1717648128>> Keys;
-        public x Values;
-        public bool IsReadOnly;
-        public ySuff<T1717648128> Item;
-        public ff<T1717648128> _valueCollection;
+        public object List;
+        public object Count;
+        public object Keys;
+        public object Values;
+        public object IsReadOnly;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E091610 | overloaded x2
@@ -170,12 +164,7 @@ namespace ThirdParty.DotNet.System.Text.Json
 
     public class JsonSerializer : Object
     {
-        public byte[] IsReflectionEnabledByDefault;
-        public byte[] s_refPropertyName; // 0x8
-        public byte[] s_valuesPropertyName; // 0x10
-        public inDataView.inString s_metadataId; // 0x18
-        public inDataView.inString s_metadataRef; // 0x28
-        public inDataView.inString s_metadataValues; // 0x38
+        public object IsReflectionEnabledByDefault;
 
         // ── Methods ──
         public void Deserialize(){} // RVA: 0x7FFD5445D120 | overloaded x40
@@ -236,40 +225,35 @@ namespace ThirdParty.DotNet.System.Text.Json
 
     public class JsonSerializerOptions : Object
     {
-        public AndExtensionData CacheContext; // 0x10
-        public ndlingValue.lidOperationException_NodeJsonObjectCustomConverterNotAllowedOnExtensionProperty ObjectTypeInfo; // 0x18
-        public ndlingValue.lidOperationException_NodeJsonObjectCustomConverterNotAllowedOnExtensionProperty Converters; // 0x20
-        public int Default;
-        public int TypeInfoResolver;
-        public inDataView.CannotBeObjectOrArray TypeInfoResolverChain;
-        public ndlingValue.efPropertyName AllowTrailingCommas; // 0x28
-        public inDataView.gCommaNotAllowedBeforeObjectEnd DefaultBufferSize; // 0x30
-        public inDataView.gCommaNotAllowedBeforeObjectEnd Encoder; // 0x38
-        public inDataView.ensionDataConflictsWithUnmappedMemberHandling DictionaryKeyPolicy; // 0x40
-        public ngCommas.hrowInvalidOperationException_JsonPropertyRequiredAndExtensionData IgnoreNullValues; // 0x48
-        public tKnown.calizedPriceString>k__BackingField DefaultIgnoreCondition; // 0x50
-        public eteBinding NumberHandling; // 0x58
-        public ngCommas.s PreferredObjectCreationHandling; // 0x60
-        public ngCommas.sonElement IgnoreReadOnlyProperties; // 0x64
-        public ngCommas.tSByte IgnoreReadOnlyFields; // 0x68
-        public ngCommas.ormation IncludeFields; // 0x6C
-        public ngCommas.TryGetInt16 MaxDepth; // 0x70
-        public int EffectiveMaxDepth; // 0x74
-        public int PropertyNamingPolicy; // 0x78
-        public bool PropertyNameCaseInsensitive; // 0x7C
-        public bool ReadCommentHandling; // 0x7D
-        public bool UnknownTypeHandling; // 0x7E
-        public bool UnmappedMemberHandling; // 0x7F
-        public bool WriteIndented; // 0x80
-        public bool ReferenceHandler; // 0x81
-        public bool CanUseFastPathSerializationLogic; // 0x82
-        public ption_ExtensionDataCannotBindToCtorParam IsReadOnly; // 0x88
-        public int DebuggerDisplay; // 0x90
-        public aphy<bool> _canUseFastPathSerializationLogic; // 0x94
-        public ngCommas._SerializerOptionsReadOnly ReferenceHandlingStrategy; // 0x98
-        public bool _isReadOnly; // 0x9C
-        public bool _isConfiguredForJsonSerializer; // 0x9D
-        public ndlingValue.efPropertyName _effectiveJsonTypeInfoResolver; // 0xA0
+        public object CacheContext;
+        public object ObjectTypeInfo;
+        public object Converters;
+        public object Default;
+        public object TypeInfoResolver;
+        public object TypeInfoResolverChain;
+        public object AllowTrailingCommas;
+        public object DefaultBufferSize;
+        public object Encoder;
+        public object DictionaryKeyPolicy;
+        public object IgnoreNullValues;
+        public object DefaultIgnoreCondition;
+        public object NumberHandling;
+        public object PreferredObjectCreationHandling;
+        public object IgnoreReadOnlyProperties;
+        public object IgnoreReadOnlyFields;
+        public object IncludeFields;
+        public object MaxDepth;
+        public object EffectiveMaxDepth;
+        public object PropertyNamingPolicy;
+        public object PropertyNameCaseInsensitive;
+        public object ReadCommentHandling;
+        public object UnknownTypeHandling;
+        public object UnmappedMemberHandling;
+        public object WriteIndented;
+        public object ReferenceHandler;
+        public object CanUseFastPathSerializationLogic;
+        public object IsReadOnly;
+        public object DebuggerDisplay;
 
         // ── Methods ──
         public void get_CacheContext(){} // RVA: 0x7FFD54460A20
@@ -380,8 +364,6 @@ namespace ThirdParty.DotNet.System.Text.Json
 
     public class ThrowHelper : Object
     {
-        public string ExceptionSourceValueToRethrowAsJsonException;
-
         // ── Methods ──
         public void ThrowOutOfMemoryException_BufferMaximumSizeExceeded(){} // RVA: 0x7FFD53EAE740
         public void GetArgumentOutOfRangeException_MaxDepthMustBePositive(){} // RVA: 0x7FFD53EAE7E0

@@ -927,6 +927,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÎÌÏÌÎÍÎÏÏÎÌÏÎÌÏÌÎÏÍÏÎÍ</summary>
     public class Static7m_26C8 : Object
     {
+        public sageKind.TICMAP_SIZE ÏÏÎÍÏÎÎÏÍÍÍÌÍÎÌÏÍÌÌÏÎÌÌ; // 0x10
+        public object ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4ED26560

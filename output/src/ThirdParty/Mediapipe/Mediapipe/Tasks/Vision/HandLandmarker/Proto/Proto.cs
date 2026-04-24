@@ -7,14 +7,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker.Proto
 {
     public class HandLandmarkerGraphOptions : Object
     {
-        public gBox.itionBlend<th.ogMarginUsec> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public nceFieldNumber.rdio BaseOptions; // 0x20
-        public StreamHandler.sHandler HandDetectorGraphOptions; // 0x28
-        public th.ket HandLandmarksDetectorGraphOptions; // 0x30
-        public float MinTrackingConfidence; // 0x8
-        public float HasMinTrackingConfidence; // 0x38
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object BaseOptions;
+        public object HandDetectorGraphOptions;
+        public object HandLandmarksDetectorGraphOptions;
+        public object MinTrackingConfidence;
+        public object HasMinTrackingConfidence;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD5371B7A0
@@ -45,12 +45,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker.Proto
 
     public class HandLandmarksDetectorGraphOptions : Object
     {
-        public gBox.itionBlend<th.ket> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public nceFieldNumber.rdio BaseOptions; // 0x20
-        public float MinDetectionConfidence; // 0x8
-        public float HasMinDetectionConfidence; // 0x28
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object BaseOptions;
+        public object MinDetectionConfidence;
+        public object HasMinDetectionConfidence;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD5371D5B0

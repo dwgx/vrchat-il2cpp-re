@@ -7,8 +7,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 {
     public class CallSiteChain : Object
     {
-        public URA.DateTime<numeratorObject.posed,rs> _callSiteChain; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537499A0
         public void CheckCircularDependency(){} // RVA: 0x7FFD53749AE0
@@ -20,11 +18,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteFactory : Object
     {
-        public ute.portsPacking[] Descriptors; // 0x10
-        public JapaneseLangName.erns<numeratorObject.NullPassthrough,numeratorObject.NullAttribute> _callSiteCache; // 0x18
-        public URA.DateTime<numeratorObject.posed,ions.Generic.IEnumerator<TKey>.get_Current> _descriptorLookup; // 0x20
-        public JapaneseLangName.erns<numeratorObject.posed,object> _callSiteLocks; // 0x28
-        public numeratorObject.ocessor _stackGuard; // 0x30
+        public object Descriptors;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5374A600
@@ -49,7 +43,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteRuntimeResolver : CallSiteVisitor`2
     {
-        public numeratorObject.eDebuggerProxy`1 Instance;
+        public object Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD5374F720
@@ -70,8 +64,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteValidator : CallSiteVisitor`2
     {
-        public JapaneseLangName.erns<numeratorObject.NullPassthrough,?> _scopedServices; // 0x18
-
         // ── Methods ──
         public void ValidateCallSite(){} // RVA: 0x7FFD53750530
         public void ValidateResolution(){} // RVA: 0x7FFD53750610
@@ -87,8 +79,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class CallSiteVisitor`2 : Object
     {
-        public numeratorObject.ocessor _stackGuard; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void VisitCallSite(){} // RVA: 0x7FFD4E2ADC40
@@ -106,8 +96,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ConstantCallSite : ServiceCallSite
     {
-        public object DefaultValue; // 0x40
-        public numeratorObject.tionaryDebuggerProxy`2 ServiceType; // 0x48
+        public object DefaultValue;
+        public object ServiceType;
+        public object ImplementationType;
+        public object Kind;
 
         // ── Methods ──
         public void get_DefaultValue(){} // RVA: 0x7FFD4E5F95E0
@@ -119,10 +111,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ConstructorCallSite : ServiceCallSite
     {
-        public m.nformation ConstructorInfo; // 0x40
-        public numeratorObject.NullAttribute[] ParameterCallSites; // 0x48
-        public object ServiceType; // 0x50
-        public numeratorObject.tionaryDebuggerProxy`2 ImplementationType; // 0x58
+        public object ConstructorInfo;
+        public object ParameterCallSites;
+        public object ServiceType;
+        public object ImplementationType;
+        public object Kind;
 
         // ── Methods ──
         public void get_ConstructorInfo(){} // RVA: 0x7FFD4E3BE740
@@ -135,9 +128,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class FactoryCallSite : ServiceCallSite
     {
-        public n<ForLatin1,object> Factory; // 0x40
-        public object ServiceType; // 0x48
-        public numeratorObject.tionaryDebuggerProxy`2 ImplementationType; // 0x50
+        public object Factory;
+        public object ServiceType;
+        public object ImplementationType;
+        public object Kind;
 
         // ── Methods ──
         public void get_Factory(){} // RVA: 0x7FFD4E3BE740
@@ -149,9 +143,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class IEnumerableCallSite : ServiceCallSite
     {
-        public object ItemType; // 0x40
-        public numeratorObject.NullAttribute[] ServiceCallSites; // 0x48
-        public numeratorObject.tionaryDebuggerProxy`2 ServiceType; // 0x50
+        public object ItemType;
+        public object ServiceCallSites;
+        public object ServiceType;
+        public object ImplementationType;
+        public object Kind;
 
         // ── Methods ──
         public void get_ItemType(){} // RVA: 0x7FFD4E3BE740
@@ -164,8 +160,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ResultCache : ValueType
     {
-        public numeratorObject.erProxy`2 Location; // 0x10
-        public numeratorObject.NullPassthrough Key; // 0x18
+        public object Location;
+        public object Key;
 
         // ── Methods ──
         public void None(){} // RVA: 0x7FFD53752070
@@ -178,8 +174,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class RuntimeResolverContext : ValueType
     {
-        public numeratorObject.? Scope; // 0x10
-        public numeratorObject.rsed AcquiredLocks; // 0x18
+        public object Scope;
+        public object AcquiredLocks;
 
         // ── Methods ──
         public void get_Scope(){} // RVA: 0x7FFD4EEF9F60
@@ -190,7 +186,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class RuntimeServiceProviderEngine : ServiceProviderEngine
     {
-        public numeratorObject.tingValue Instance;
+        public object Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD537523B0
@@ -201,8 +197,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceCacheKey : ValueType
     {
-        public numeratorObject.posed ServiceIdentifier; // 0x10
-        public int Slot; // 0x20
+        public object ServiceIdentifier;
+        public object Slot;
 
         // ── Methods ──
         public void get_ServiceIdentifier(){} // RVA: 0x7FFD4E6E0590
@@ -214,9 +210,13 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceCallSite : Object
     {
-        public numeratorObject.verwriteExistingValue ServiceType; // 0x10
-        public object ImplementationType; // 0x30
-        public object Kind; // 0x38
+        public object ServiceType;
+        public object ImplementationType;
+        public object Kind;
+        public object Cache;
+        public object Value;
+        public object Key;
+        public object CaptureDisposable;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51DE1C80
@@ -233,8 +233,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceIdentifier : ValueType
     {
-        public object ServiceKey; // 0x10
-        public object ServiceType; // 0x18
+        public object ServiceKey;
+        public object ServiceType;
+        public object IsConstructedGenericType;
 
         // ── Methods ──
         public void get_ServiceKey(){} // RVA: 0x7FFD4EEF9F60
@@ -251,9 +252,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceProviderCallSite : ServiceCallSite
     {
-        public object ServiceType; // 0x40
-        public object ImplementationType; // 0x48
-        public numeratorObject.tionaryDebuggerProxy`2 Kind; // 0x50
+        public object ServiceType;
+        public object ImplementationType;
+        public object Kind;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53753FE0
@@ -271,11 +272,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class ServiceProviderEngineScope : Object
     {
-        public bool ResolvedServices; // 0x10
-        public URA.woDigitYearMax<object> Sync; // 0x18
-        public URA.DateTime<numeratorObject.NullPassthrough,object> IsRootScope; // 0x20
-        public bool RootProvider; // 0x28
-        public ute.SetTimeWindow <RootProvider>k__BackingField; // 0x30
+        public object ResolvedServices;
+        public object Sync;
+        public object IsRootScope;
+        public object RootProvider;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537542A0
@@ -293,8 +293,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.ServiceLook
 
     public class StackGuard : Object
     {
-        public int _executionStackCount; // 0x10
-
         // ── Methods ──
         public void TryEnterOnCurrentStack(){} // RVA: 0x7FFD4E426850
         public void RunOnEmptyStack(){} // RVA: 0x7FFD4E2ADC40

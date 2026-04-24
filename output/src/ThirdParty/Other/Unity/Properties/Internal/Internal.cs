@@ -7,11 +7,6 @@ namespace ThirdParty.Other.Unity.Properties.Internal
 {
     public class PropertyBagStore : Object
     {
-        public JapaneseLangName.erns<?,ÍÏÏÍÌÍÏ> s_PropertyBags;
-        public URA.woDigitYearMax<?> s_RegisteredTypes; // 0x8
-        public rectoryInformation<?,ÍÏÏÍÌÍÏ> NewTypeRegistered; // 0x10
-        public ÍÏÏÏÎÍÏÎÎÎÌ.? s_PropertyBagProvider; // 0x18
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54DC76F0
         public void AddPropertyBag(){} // RVA: 0x7FFD4E090A10
@@ -20,17 +15,6 @@ namespace ThirdParty.Other.Unity.Properties.Internal
 
     public class ReflectedPropertyBagProvider : Object
     {
-        public m.jectMapInfo m_CreatePropertyMethod; // 0x10
-        public m.jectMapInfo m_CreatePropertyBagMethod; // 0x18
-        public m.jectMapInfo m_CreateIndexedCollectionPropertyBagMethod; // 0x20
-        public m.jectMapInfo m_CreateSetPropertyBagMethod; // 0x28
-        public m.jectMapInfo m_CreateKeyValueCollectionPropertyBagMethod; // 0x30
-        public m.jectMapInfo m_CreateKeyValuePairPropertyBagMethod; // 0x38
-        public m.jectMapInfo m_CreateArrayPropertyBagMethod; // 0x40
-        public m.jectMapInfo m_CreateListPropertyBagMethod; // 0x48
-        public m.jectMapInfo m_CreateHashSetPropertyBagMethod; // 0x50
-        public m.jectMapInfo m_CreateDictionaryPropertyBagMethod; // 0x58
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DC7DE0
         public void CreatePropertyBag(){} // RVA: 0x7FFD4E078E90 | overloaded x2

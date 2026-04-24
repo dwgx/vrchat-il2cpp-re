@@ -36,10 +36,8 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class HeaderInfo : Object
     {
-        public bool CustomToString; // 0x10
-        public CheckingState.ync>b__9 Separator; // 0x14
-        public string Name; // 0x18
-        public n<object,string> <CustomToString>k__BackingField; // 0x20
+        public object CustomToString;
+        public object Separator;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD543C5990
@@ -56,10 +54,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class HttpHeaderValueCollection`1 : Object
     {
-        public URA.woDigitYearMax<T1717726192> Count;
-        public CheckingState.tBlueIn InvalidValues;
-        public CheckingState..ComponentModel.ICustomTypeDescriptor.GetAttributes IsReadOnly;
-        public URA.woDigitYearMax<string> invalidValues;
+        public object Count;
+        public object InvalidValues;
+        public object IsReadOnly;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -81,12 +78,6 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class HttpHeaders : Object
     {
-        public URA.DateTime<string,CheckingState..ComponentModel.ICustomTypeDescriptor.GetAttributes> known_headers;
-        public URA.DateTime<string,nceValue> headers; // 0x10
-        public CheckingState.ync>b__9 HeaderKind; // 0x18
-        public aphy<bool> connectionclose; // 0x1C
-        public aphy<bool> transferEncodingChunked; // 0x1E
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD543C6020
         public void .ctor(){} // RVA: 0x7FFD543C8CC0 | overloaded x2

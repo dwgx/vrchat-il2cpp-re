@@ -33,6 +33,9 @@ public class __StaticArrayInitTypeSize=288 : ValueType
 
 public class __StaticArrayInitTypeSize=29 : ValueType
 {
+    public string ÏÍÍÍÎÌÎÎÏÎÎÎÌÍÍÎÏÏÎÎÌÍÌ; // 0x10
+    public object ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x18
+    public n<?,bool> ÍÏÌÎÏÌÌÏÍÎÏÎÍÍÌÎÏÏÌÌÌÏÌ; // 0x20
 }
 
 public class __StaticArrayInitTypeSize=291 : ValueType

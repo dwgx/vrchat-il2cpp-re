@@ -7,14 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class QueryProductDetailsService : Object
     {
-        public B3ABA9D7C54CD812756C7C5CE8848E6A882B240EB.2B240EB m_BillingClient; // 0x10
-        public ing.set_MouseCursor m_GoogleCachedQueryProductDetailsService; // 0x18
-        public B3ABA9D7C54CD812756C7C5CE8848E6A882B240EB.hedQueriedProducts m_ProductDetailsConverter; // 0x20
-        public ampleFormat.0 m_RetryPolicy; // 0x28
-        public B3ABA9D7C54CD812756C7C5CE8848E6A882B240EB.mazonAppStoreStoreExtensions m_GoogleProductCallback; // 0x30
-        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ m_Util; // 0x38
-        public ÌÍÏÏÏ.ÌÎÍÍÏÍÏÎÏÎÏÌÍÏÏÏ m_TelemetryDiagnostics; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53230260
         public void QueryAsyncProduct(){} // RVA: 0x7FFD54DE1920 | overloaded x3

@@ -82,9 +82,6 @@ namespace VRC.Core.Services
 
     public class IGroupsService
     {
-        public float LIST_CACHE_TIME;
-        public float SINGLE_RECORD_CACHE_TIME;
-
         // ── Methods ──
         public void ExecuteSearch(){} // overloaded x2
         public void DiscoverGroups(){}

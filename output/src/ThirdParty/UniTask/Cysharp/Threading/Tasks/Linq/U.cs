@@ -7,6 +7,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class UniTaskAsyncEnumerable : Object
     {
+        public Input<T1717729856> <>9;
+        public rmation<Names> <>9__12_0;
+
         // ── Methods ──
         public void AggregateAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
         public void AggregateAwaitAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3

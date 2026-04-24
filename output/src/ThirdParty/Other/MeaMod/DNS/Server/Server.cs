@@ -7,9 +7,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Server
 {
     public class ConcurrentSet`1 : Object
     {
-        public int Count;
-        public int IsEmpty;
-        public JapaneseLangName.erns<T1717724512,byte> IsReadOnly;
+        public object Count;
+        public object IsEmpty;
+        public object IsReadOnly;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x3

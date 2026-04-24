@@ -7,17 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class AmazonAppStoreStoreExtensions : Object
     {
-        public object android; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AnalyticsClient : Object
     {
-        public ing.? m_Analytics; // 0x10
-        public ing.? m_LegacyAnalytics; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
         public void OnPurchaseSucceeded(){} // RVA: 0x7FFD54DCA5F0
@@ -26,8 +21,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class AndroidJavaStore : Object
     {
-        public object m_Store; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void RetrieveProducts(){} // RVA: 0x7FFD54DD59B0
@@ -44,32 +37,14 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class AppleProductMetadata : ProductMetadata
     {
-        public bool <isFamilyShareable>k__BackingField; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DEFFF0
     }
 
     public class AppleStoreImpl : JSONStore
     {
-        public ileFullDirectoryInformation<ing.urrable> appReceipt; // 0x48
-        public ileFullDirectoryInformation<URA.woDigitYearMax<ing.urrable>> appReceiptModificationDate; // 0x50
-        public ileFullDirectoryInformation<string> m_RefreshReceiptError; // 0x58
-        public ileFullDirectoryInformation<string> m_RefreshReceiptSuccess; // 0x60
-        public ileFullDirectoryInformation<bool> m_ObsoleteRestoreCallback; // 0x68
-        public rectoryInformation<bool,string> m_RestoreCallback; // 0x70
-        public ÎÌÍÏÏÌÍÏ m_FetchStorePromotionOrderError; // 0x78
-        public ileFullDirectoryInformation<URA.woDigitYearMax<ing.urrable>> m_FetchStorePromotionOrderSuccess; // 0x80
-        public ileFullDirectoryInformation<ing.urrable> m_PromotionalPurchaseCallback; // 0x88
-        public ÎÌÍÏÏÌÍÏ m_FetchStorePromotionVisibilityError; // 0x90
-        public rectoryInformation<string,ing.ditionsURL> m_FetchStorePromotionVisibilitySuccess; // 0x98
-        public ing.peSize=179 m_Native; // 0xA0
-        public ÌÍÏÏÏ.ÌÎÍÍÏÍÏÎÏÎÏÌÍÏÏÏ m_TelemetryDiagnostics; // 0xA8
-        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ s_Util;
-        public ing.at s_Instance; // 0x8
-        public string m_CachedAppReceipt; // 0xB0
-        public aphy<double> m_CachedAppReceiptModificationDate; // 0xB8
-        public string m_ProductsJson; // 0xC8
+        public object appReceipt;
+        public object appReceiptModificationDate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DF0200

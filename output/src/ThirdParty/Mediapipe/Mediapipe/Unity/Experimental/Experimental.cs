@@ -7,21 +7,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Experimental
 {
     public class TextureFrame : Object
     {
-        public string imageFormat;
-        public int MaxTotalCount;
-        public etBestGrabbingType.__PI<ce,Value> _InstanceTable;
-        public URA.DateTime<uint,ce> _NameTable; // 0x8
-        public ector _texture; // 0x10
-        public UIntPtr _nativeTexturePtr; // 0x18
-        public etBestGrabbingType.learanceRadius _glSyncToken; // 0x20
-        public ce _instanceId; // 0x28
-        public int width; // 0x38
-        public int height; // 0x3C
-        public x format; // 0x40
-        public nScoreThreshDefaultValue OnRelease; // 0x48
-        public Offset _tmpRenderTexture; // 0x50
-        public Offset _internalRenderTexture; // 0x58
-        public ileFullDirectoryInformation<ons.ze> _onReadBackRenderTexture; // 0x60
+        public object imageFormat;
 
         // ── Methods ──
         public void get_imageFormat(){} // RVA: 0x7FFD5370A590
@@ -44,14 +30,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Experimental
 
     public class TextureFramePool : Object
     {
-        public string poolSize;
-        public int frameCount; // 0x10
-        public int textureHeight; // 0x14
-        public x textureFormat; // 0x18
-        public int <poolSize>k__BackingField; // 0x1C
-        public sageKind.ce _textureFramesLock; // 0x20
-        public URA.ge<Value> _availableTextureFrames; // 0x28
-        public URA.DateTime<ce,Value> _textureFramesInUse; // 0x30
+        public object poolSize;
+        public object frameCount;
 
         // ── Methods ──
         public void get_poolSize(){} // RVA: 0x7FFD4F8557F0

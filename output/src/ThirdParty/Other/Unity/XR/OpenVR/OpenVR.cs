@@ -7,11 +7,11 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 {
     public class HandedViveTracker : ViveTracker
     {
-        public _1.Index grip; // 0x1C0
-        public _1.ceControlChangedValue gripPressed; // 0x1C8
-        public _1.ceControlChangedValue primary; // 0x1D0
-        public _1.ceControlChangedValue trackpadPressed; // 0x1D8
-        public _1.ceControlChangedValue triggerPressed; // 0x1E0
+        public object grip;
+        public object gripPressed;
+        public object primary;
+        public object trackpadPressed;
+        public object triggerPressed;
 
         // ── Methods ──
         public void get_grip(){} // RVA: 0x7FFD4E9622B0
@@ -37,17 +37,17 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRControllerWMR : XRController
     {
-        public _1.utReport deviceVelocity; // 0x1B0
-        public _1.utReport deviceAngularVelocity; // 0x1B8
-        public _1.ceControlChangedValue touchpadClick; // 0x1C0
-        public _1.ceControlChangedValue touchpadTouch; // 0x1C8
-        public _1.ceControlChangedValue gripPressed; // 0x1D0
-        public _1.ceControlChangedValue triggerPressed; // 0x1D8
-        public _1.ceControlChangedValue menu; // 0x1E0
-        public _1.Index trigger; // 0x1E8
-        public _1.Index grip; // 0x1F0
-        public _1.lSenseHIDUSBInputReport touchpad; // 0x1F8
-        public _1.lSenseHIDUSBInputReport joystick; // 0x200
+        public object deviceVelocity;
+        public object deviceAngularVelocity;
+        public object touchpadClick;
+        public object touchpadTouch;
+        public object gripPressed;
+        public object triggerPressed;
+        public object menu;
+        public object trigger;
+        public object grip;
+        public object touchpad;
+        public object joystick;
 
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x7FFD4E969F30
@@ -84,17 +84,6 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVREvents : Object
     {
-        public ueuing.reateDepthStencilStateNoWrite instance;
-        public ueuing.Compositor_CreateDepthStencilStateNoWrite[] events; // 0x10
-        public int[] eventIndicies; // 0x18
-        public object vrEvent; // 0x20
-        public uint vrEventSize; // 0x60
-        public bool preloadedEvents; // 0x64
-        public int maxEventsPerUpdate;
-        public bool debugLogAllEvents; // 0x8
-        public bool enabled; // 0x9
-        public bool exiting; // 0x65
-
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD54C27E50
         public void IsInitialized(){} // RVA: 0x7FFD54C27F20
@@ -112,14 +101,14 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRHMD : XRHMD
     {
-        public _1.utReport deviceVelocity; // 0x1E0
-        public _1.utReport deviceAngularVelocity; // 0x1E8
-        public _1.utReport leftEyeVelocity; // 0x1F0
-        public _1.utReport leftEyeAngularVelocity; // 0x1F8
-        public _1.utReport rightEyeVelocity; // 0x200
-        public _1.utReport rightEyeAngularVelocity; // 0x208
-        public _1.utReport centerEyeVelocity; // 0x210
-        public _1.utReport centerEyeAngularVelocity; // 0x218
+        public object deviceVelocity;
+        public object deviceAngularVelocity;
+        public object leftEyeVelocity;
+        public object leftEyeAngularVelocity;
+        public object rightEyeVelocity;
+        public object rightEyeAngularVelocity;
+        public object centerEyeVelocity;
+        public object centerEyeAngularVelocity;
 
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x7FFD4E818150
@@ -156,14 +145,8 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRLoader : XRLoaderHelper
     {
-        public URA.woDigitYearMax<oducts.ty.Burst.dll> displaySubsystem;
-        public URA.woDigitYearMax<oducts.Handle> inputSubsystem; // 0x8
-        public bool running; // 0x20
-        public Inherited.ttribute watcherFile; // 0x28
-        public sageKind.nVideos watcherThread; // 0x30
-        public string mirrorViewPath;
-        public ueuing.reateOverlayVertexBuffer settings; // 0x38
-        public rScript.<GetCachedEnumData>b__2_5[] events; // 0x40
+        public object displaySubsystem;
+        public object inputSubsystem;
 
         // ── Methods ──
         public void get_displaySubsystem(){} // RVA: 0x7FFD54C2B370
@@ -192,17 +175,17 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVROculusTouchController : XRControllerWithRumble
     {
-        public _1.lSenseHIDUSBInputReport thumbstick; // 0x1B0
-        public _1.Index trigger; // 0x1B8
-        public _1.Index grip; // 0x1C0
-        public _1.ceControlChangedValue primaryButton; // 0x1C8
-        public _1.ceControlChangedValue secondaryButton; // 0x1D0
-        public _1.ceControlChangedValue gripPressed; // 0x1D8
-        public _1.ceControlChangedValue triggerPressed; // 0x1E0
-        public _1.ceControlChangedValue thumbstickClicked; // 0x1E8
-        public _1.ceControlChangedValue thumbstickTouched; // 0x1F0
-        public _1.utReport deviceVelocity; // 0x1F8
-        public _1.utReport deviceAngularVelocity; // 0x200
+        public object thumbstick;
+        public object trigger;
+        public object grip;
+        public object primaryButton;
+        public object secondaryButton;
+        public object gripPressed;
+        public object triggerPressed;
+        public object thumbstickClicked;
+        public object thumbstickTouched;
+        public object deviceVelocity;
+        public object deviceAngularVelocity;
 
         // ── Methods ──
         public void get_thumbstick(){} // RVA: 0x7FFD4E969F30
@@ -233,21 +216,6 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRSettings : ScriptableObject
     {
-        public bool PromptToUpgradePackage; // 0x18
-        public bool PromptToUpgradePreviewPackages; // 0x19
-        public string SkipPromptForVersion; // 0x20
-        public erCreateSession StereoRenderingMode; // 0x28
-        public bufferDepth InitializationType; // 0x2C
-        public string EditorAppKey; // 0x30
-        public string ActionManifestFileRelativeFilePath; // 0x38
-        public or_CannotDRMLeaseDisplay MirrorView; // 0x40
-        public bool DisableOpenVREvents; // 0x44
-        public bool PreInit; // 0x45
-        public string StreamingAssetsFolderName;
-        public string ActionManifestFileName;
-        public bool HasCopiedDefaults; // 0x46
-        public ueuing.reateOverlayVertexBuffer s_Settings;
-
         // ── Methods ──
         public void GetStreamingSteamVRPath(){} // RVA: 0x7FFD54C2CE40
         public void CreateDirectory(){} // RVA: 0x7FFD54C2CFE0
@@ -271,8 +239,8 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class ViveTracker : TrackedDevice
     {
-        public _1.utReport deviceVelocity; // 0x1B0
-        public _1.utReport deviceAngularVelocity; // 0x1B8
+        public object deviceVelocity;
+        public object deviceAngularVelocity;
 
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x7FFD4E969F30
@@ -285,16 +253,16 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class ViveWand : XRControllerWithRumble
     {
-        public _1.Index grip; // 0x1B0
-        public _1.ceControlChangedValue gripPressed; // 0x1B8
-        public _1.ceControlChangedValue primary; // 0x1C0
-        public _1.ceControlChangedValue trackpadPressed; // 0x1C8
-        public _1.ceControlChangedValue trackpadTouched; // 0x1D0
-        public _1.lSenseHIDUSBInputReport trackpad; // 0x1D8
-        public _1.Index trigger; // 0x1E0
-        public _1.ceControlChangedValue triggerPressed; // 0x1E8
-        public _1.utReport deviceVelocity; // 0x1F0
-        public _1.utReport deviceAngularVelocity; // 0x1F8
+        public object grip;
+        public object gripPressed;
+        public object primary;
+        public object trackpadPressed;
+        public object trackpadTouched;
+        public object trackpad;
+        public object trigger;
+        public object triggerPressed;
+        public object deviceVelocity;
+        public object deviceAngularVelocity;
 
         // ── Methods ──
         public void get_grip(){} // RVA: 0x7FFD4E969F30

@@ -73,8 +73,6 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationClipPlayable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54C54670
         public void CreateHandle(){} // RVA: 0x7FFD54C54810
@@ -96,7 +94,8 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationHumanStream : ValueType
     {
-        public UIntPtr isValid; // 0x10
+        public object isValid;
+        public object bodyLocalRotation;
 
         // ── Methods ──
         public void get_isValid(){} // RVA: 0x7FFD54C54DB0
@@ -111,9 +110,6 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationLayerMixerPlayable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
-        public verlapped.yScale m_NullPlayable;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54C55230 | overloaded x2
         public void CreateHandle(){} // RVA: 0x7FFD54C55300
@@ -133,9 +129,6 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationMixerPlayable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
-        public verlapped.ts m_NullPlayable;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54C55F90
         public void CreateHandle(){} // RVA: 0x7FFD54C56040
@@ -150,9 +143,6 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationMotionXToDeltaPlayable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
-        public verlapped.eeping m_NullPlayable;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54C566B0
         public void CreateHandle(){} // RVA: 0x7FFD54C56750
@@ -169,9 +159,6 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationOffsetPlayable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
-        public verlapped.et_sleepMode m_NullPlayable;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54C56ED0
         public void CreateHandle(){} // RVA: 0x7FFD54C56FC0
@@ -193,7 +180,7 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationPlayableOutput : ValueType
     {
-        public oUpdateAPI.gerUpdate Null; // 0x10
+        public object Null;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54C57740
@@ -210,9 +197,6 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationPosePlayable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
-        public verlapped.liderWithFilter_Internal m_NullPlayable;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C57BF0
         public void GetHandle(){} // RVA: 0x7FFD51CFD430
@@ -222,9 +206,6 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationRemoveScalePlayable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
-        public verlapped.al m_NullPlayable;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54C57E60
         public void CreateHandle(){} // RVA: 0x7FFD54C57F10
@@ -239,9 +220,6 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationScriptPlayable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
-        public verlapped.Filter_Internal m_NullPlayable;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E2ADC40
         public void CreateHandle(){} // RVA: 0x7FFD4E2ADC40
@@ -258,13 +236,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationStream : ValueType
     {
-        public uint animatorBindingsVersion; // 0x10
-        public UIntPtr isValid; // 0x18
-        public UIntPtr isHumanStream; // 0x20
-        public UIntPtr output; // 0x28
-        public UIntPtr workspace; // 0x30
-        public UIntPtr inputStreamAccessor; // 0x38
-        public UIntPtr animationHandleBinder; // 0x40
+        public object animatorBindingsVersion;
+        public object isValid;
+        public object isHumanStream;
 
         // ── Methods ──
         public void get_animatorBindingsVersion(){} // RVA: 0x7FFD543B3F90
@@ -280,8 +254,7 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimatorControllerPlayable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents Null; // 0x10
-        public verlapped.s_Injected m_NullPlayable;
+        public object Null;
 
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7FFD54C590D0
@@ -374,8 +347,8 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class ConstraintSource : ValueType
     {
-        public object sourceTransform; // 0x10
-        public float weight; // 0x18
+        public object sourceTransform;
+        public object weight;
 
         // ── Methods ──
         public void get_sourceTransform(){} // RVA: 0x7FFD505F9A30
@@ -463,8 +436,7 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class MuscleHandle : ValueType
     {
-        public reLayerCollision_Internal muscleHandleCount; // 0x10
-        public int <dof>k__BackingField; // 0x14
+        public object muscleHandleCount;
 
         // ── Methods ──
         public void get_muscleHandleCount(){} // RVA: 0x7FFD54C614D0
@@ -591,8 +563,6 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class ProcessAnimationJobStruct`1 : ValueType
     {
-        public UIntPtr jobReflectionData;
-
         // ── Methods ──
         public void GetJobReflectionData(){} // RVA: 0x7FFD4E078A90
         public void Execute(){} // RVA: 0x7FFD4E099720
@@ -690,9 +660,10 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class TransformStreamHandle : ValueType
     {
-        public uint createdByNative; // 0x10
-        public int hasHandleIndex; // 0x14
-        public int hasSkeletonIndex; // 0x18
+        public object createdByNative;
+        public object hasHandleIndex;
+        public object hasSkeletonIndex;
+        public object animatorBindingsVersion;
 
         // ── Methods ──
         public void IsValidInternal(){} // RVA: 0x7FFD54C58C00

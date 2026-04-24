@@ -1231,6 +1231,8 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÌÍÎÏÍÎÌÎÌÎÏÎÍÎÎÏÎÎÏÎÎÎ</summary>
     public class LifecycleComponent_75D6 : MonoBehaviour
     {
+        public object ÏÎÎÏÎÍÏÌÏÎÎÏÍÎÎÏÌÎÎÏÎÎÎ; // 0x28
+
         // ── Methods ──
         public void GetLanguage(){} // RVA: 0x7FFD4E36F130
         public void RaiseCancellation(){} // RVA: 0x7FFD5671F940
@@ -1965,6 +1967,16 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÍÌÍÏÍÏÍÎÏÏÎÏÍÍÎÍÌÏÍÌÌÍ</summary>
     public class LifecycleComponent_DE1D : MonoBehaviour
     {
+        public bool UseCache;
+        public float CacheStepSize;
+        public object m_CacheMode; // 0x4
+        public float CurrentTime; // 0x8
+        public int CurrentFrame; // 0xC
+        public bool IsCameraCut; // 0x10
+        public URA.DateTime<?,sToGet> m_Cache; // 0x18
+        public Camera m_CacheTimeRange; // 0x20
+        public float kWraparoundSlush;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD567DE5B0
         public void RaiseCancellation(){} // RVA: 0x7FFD567DE6E0

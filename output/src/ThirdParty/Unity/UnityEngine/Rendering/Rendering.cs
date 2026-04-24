@@ -7,8 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 {
     public class AsyncGPUReadbackRequest : ValueType
     {
-        public UIntPtr done; // 0x10
-        public int hasError; // 0x18
+        public sageKind.ironmentVariable_native done; // 0x10
+        public ArgCount.tClrAssemblyName hasError; // 0x18
+        public utes.Line layerCount; // 0x28
 
         // ── Methods ──
         public void GetData(){} // RVA: 0x7FFD4E2ADC40
@@ -41,35 +42,16 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class AsyncRequestNativeArrayData : ValueType
     {
-        public IntPtr nativeArrayBuffer; // 0x10
-        public long lengthInBytes; // 0x18
     }
 
     public class BatchCullingContext : ValueType
     {
-        public ÍÎÏÎÎ.ÌÌ<?> cullingPlanes; // 0x10
-        public ÍÎÏÎÎ.ÌÌ<ons.jected> cullingSplits; // 0x20
-        public ons.ine.Sprites lodParameters; // 0x30
-        public tSizeBias localToWorldMatrix; // 0x4C
-        public ons.et_position_Injected viewType; // 0x8C
-        public ons._Injected projectionType; // 0x90
-        public ons.nstrainProportionsScale cullingFlags; // 0x94
-        public ons._Injected viewID; // 0x98
-        public uint cullingLayerMask; // 0xA0
-        public ulong sceneCullingMask; // 0xA8
-        public byte isOrthographic; // 0xB0
-        public int receiverPlaneOffset; // 0xB4
-        public int receiverPlaneCount; // 0xB8
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54D0FE20
     }
 
     public class BatchID : ValueType
     {
-        public ons.onUniformScaleTransform Null;
-        public uint value; // 0x10
-
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD543B3F90
         public void Equals(){} // RVA: 0x7FFD54C75270 | overloaded x2
@@ -78,9 +60,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class BatchMaterialID : ValueType
     {
-        public ons.mScaleTransform Null;
-        public uint value; // 0x10
-
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD543B3F90
         public void Equals(){} // RVA: 0x7FFD54C75270 | overloaded x2
@@ -89,9 +68,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class BatchMeshID : ValueType
     {
-        public ons.get_constrainProportionsScale Null;
-        public uint value; // 0x10
-
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD543B3F90
         public void Equals(){} // RVA: 0x7FFD54C75270 | overloaded x2
@@ -100,8 +76,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class BatchPackedCullingViewID : ValueType
     {
-        public ulong handle; // 0x10
-
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD54D0FD80
         public void Equals(){} // RVA: 0x7FFD54D0FD90 | overloaded x2
@@ -109,67 +83,16 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class BatchRendererCullingOutput : ValueType
     {
-        public ÍÏÌÏÌÏÌÏÍÎÌÎÌÏÏÏÎ.ÎÎ cullingJobsFence; // 0x10
-        public tSizeBias localToWorldMatrix; // 0x20
-        public IntPtr cullingPlanes; // 0x60
-        public int cullingPlaneCount; // 0x68
-        public int receiverPlaneOffset; // 0x6C
-        public int receiverPlaneCount; // 0x70
-        public IntPtr cullingSplits; // 0x78
-        public int cullingSplitCount; // 0x80
-        public ons.et_position_Injected viewType; // 0x84
-        public ons._Injected projectionType; // 0x88
-        public ons.nstrainProportionsScale cullingFlags; // 0x8C
-        public ulong viewID; // 0x90
-        public uint cullingLayerMask; // 0x98
-        public ulong sceneCullingMask; // 0xA0
-        public IntPtr drawCommands; // 0xA8
     }
 
     public class BatchRendererGroup : Object
     {
-        public UIntPtr m_GroupHandle; // 0x10
-        public tCurrentMeshData m_PerformCulling; // 0x18
-
         // ── Methods ──
         public void InvokeOnPerformCulling(){} // RVA: 0x7FFD54D0FED0
     }
 
     public class CameraProperties : ValueType
     {
-        public dRecorder screenRect; // 0x10
-        public amut viewDir; // 0x20
-        public float projectionNear; // 0x2C
-        public float projectionFar; // 0x30
-        public float cameraNear; // 0x34
-        public float cameraFar; // 0x38
-        public float cameraAspect; // 0x3C
-        public tSizeBias cameraToWorld; // 0x40
-        public tSizeBias actualWorldToClip; // 0x80
-        public tSizeBias cameraClipToWorld; // 0xC0
-        public tSizeBias cameraWorldToClip; // 0x100
-        public tSizeBias implicitProjection; // 0x140
-        public tSizeBias stereoWorldToClipLeft; // 0x180
-        public tSizeBias stereoWorldToClipRight; // 0x1C0
-        public tSizeBias worldToCamera; // 0x200
-        public amut up; // 0x240
-        public amut right; // 0x24C
-        public amut transformDirection; // 0x258
-        public amut cameraEuler; // 0x264
-        public amut velocity; // 0x270
-        public float farPlaneWorldSpaceLength; // 0x27C
-        public uint rendererCount; // 0x280
-        public daryTextures m_ShadowCullPlanes; // 0x284
-        public r m_CameraCullPlanes; // 0x2E4
-        public float baseFarDistance; // 0x344
-        public amut shadowCullCenter; // 0x348
-        public ndaryTexture layerCullDistances; // 0x354
-        public int layerCullSpherical; // 0x3D4
-        public ons.xtureProperties coreCameraValues; // 0x3D8
-        public uint cameraType; // 0x3E4
-        public int projectionIsOblique; // 0x3E8
-        public int isImplicitProjectionMatrix; // 0x3EC
-
         // ── Methods ──
         public void GetShadowCullingPlane(){} // RVA: 0x7FFD54D105C0
         public void GetCameraCullingPlane(){} // RVA: 0x7FFD54D106D0
@@ -179,7 +102,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class CommandBuffer : Object
     {
-        public UIntPtr name; // 0x10
+        public object name;
 
         // ── Methods ──
         public void WaitAllAsyncReadbackRequests(){} // RVA: 0x7FFD54D09110
@@ -261,10 +184,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class CoreCameraValues : ValueType
     {
-        public int filterMode; // 0x10
-        public uint cullingMask; // 0x14
-        public int instanceID; // 0x18
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD54D104E0 | overloaded x2
         public void GetHashCode(){} // RVA: 0x7FFD54D105A0
@@ -272,13 +191,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class CullingSplit : ValueType
     {
-        public amut sphereCenter; // 0x10
-        public float sphereRadius; // 0x1C
-        public int cullingPlaneOffset; // 0x20
-        public int cullingPlaneCount; // 0x24
-        public float cascadeBlendCullingFactor; // 0x28
-        public float nearPlane; // 0x2C
-        public tSizeBias cullingMatrix; // 0x30
     }
 
     public class GraphicsSettings : Object
@@ -302,12 +214,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class LODParameters : ValueType
     {
-        public int m_IsOrthographic; // 0x10
-        public amut m_CameraPosition; // 0x14
-        public float m_FieldOfView; // 0x20
-        public float m_OrthoSize; // 0x24
-        public int m_CameraPixelHeight; // 0x28
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD54D137F0 | overloaded x2
         public void GetHashCode(){} // RVA: 0x7FFD54D138A0
@@ -315,10 +221,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class LocalKeyword : ValueType
     {
-        public ons.nt`1 m_SpaceInfo; // 0x10
-        public string m_Name; // 0x18
-        public uint m_Index; // 0x20
-
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD53AD4B80
         public void Equals(){} // RVA: 0x7FFD54D16C00 | overloaded x2
@@ -327,8 +229,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class LocalKeywordSpace : ValueType
     {
-        public UIntPtr m_KeywordSpace; // 0x10
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD51DE9070 | overloaded x2
         public void op_Equality(){} // RVA: 0x7FFD54D16CE0
@@ -337,7 +237,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class OnDemandRendering : Object
     {
-        public int renderFrameInterval;
+        public object renderFrameInterval;
 
         // ── Methods ──
         public void get_renderFrameInterval(){} // RVA: 0x7FFD54D08FE0
@@ -347,13 +247,11 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class ReflectionProbeBlendInfo : ValueType
     {
-        public ÍÌÍÏÏÍÎÌÍÌÌÏÍÎÏÏ probe; // 0x10
-        public float weight; // 0x18
     }
 
     public class RenderPipeline : Object
     {
-        public bool disposed; // 0x10
+        public object disposed;
 
         // ── Methods ──
         public void Render(){} // RVA: 0x7FFD54D13960 | overloaded x2
@@ -368,16 +266,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class RenderPipelineManager : Object
     {
-        public ons.sedSizeLong currentPipeline;
-        public URA.woDigitYearMax<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> s_Cameras; // 0x8
-        public string s_CurrentPipelineType; // 0x10
-        public ons.Requested s_CurrentPipeline; // 0x18
-        public rectoryInformation<ons.raseRecognizedEventArgs,ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> beginCameraRendering; // 0x20
-        public rectoryInformation<ons.raseRecognizedEventArgs,ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> endCameraRendering; // 0x28
-        public ÎÌÍÏÏÌÍÏ activeRenderPipelineTypeChanged; // 0x30
-        public rectoryInformation<ons.sedSizeLong,ons.sedSizeLong> activeRenderPipelineAssetChanged; // 0x38
-        public ÎÌÍÏÏÌÍÏ activeRenderPipelineCreated; // 0x40
-        public ÎÌÍÏÏÌÍÏ activeRenderPipelineDisposed; // 0x48
+        public object currentPipeline;
 
         // ── Methods ──
         public void get_currentPipeline(){} // RVA: 0x7FFD54D13EC0
@@ -399,32 +288,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class ScriptableCullingParameters : ValueType
     {
-        public int cullingPlaneCount; // 0x10
-        public ons.ine.Sprites m_LODParameters; // 0x14
-        public int maximumCullingPlaneCount;
-        public FromAttributeDataForType m_CullingPlanes; // 0x30
-        public int m_CullingPlaneCount; // 0xD0
-        public uint m_CullingMask; // 0xD4
-        public ulong m_SceneMask; // 0xD8
-        public ulong m_ViewID; // 0xE0
-        public int layerCount; // 0x4
-        public leteTypeRedirection m_LayerFarCullDistances; // 0xE8
-        public int m_LayerCull; // 0x168
-        public tSizeBias m_CullingMatrix; // 0x16C
-        public amut m_Origin; // 0x1AC
-        public float m_ShadowDistance; // 0x1B8
-        public float m_ShadowNearPlaneOffset; // 0x1BC
-        public ons.spriteAtlasTextureScale m_CullingOptions; // 0x1C0
-        public ons.? m_ReflectionProbeSortingCriteria; // 0x1C4
-        public ons.etSpriteBounds m_CameraProperties; // 0x1C8
-        public float m_AccurateOcclusionThreshold; // 0x5A8
-        public int m_MaximumPortalCullingJobs; // 0x5AC
-        public tSizeBias m_StereoViewMatrix; // 0x5B0
-        public tSizeBias m_StereoProjectionMatrix; // 0x5F0
-        public float m_StereoSeparationDistance; // 0x630
-        public int m_maximumVisibleLights; // 0x634
-        public bool m_ConservativeEnclosingSphere; // 0x638
-        public int m_NumIterationsEnclosingSphere; // 0x63C
+        public object cullingPlaneCount;
 
         // ── Methods ──
         public void get_cullingPlaneCount(){} // RVA: 0x7FFD54D12A30
@@ -437,9 +301,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class ScriptableRenderContext : ValueType
     {
-        public ons.CaptureResult kRenderTypeTag;
-        public UIntPtr m_Ptr; // 0x10
-
         // ── Methods ──
         public void GetCameras_Internal(){} // RVA: 0x7FFD54D15660
         public void .ctor(){} // RVA: 0x7FFD4F9DB120
@@ -483,33 +344,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class SphericalHarmonicsL2 : ValueType
     {
-        public float Item; // 0x10
-        public float shr1; // 0x14
-        public float shr2; // 0x18
-        public float shr3; // 0x1C
-        public float shr4; // 0x20
-        public float shr5; // 0x24
-        public float shr6; // 0x28
-        public float shr7; // 0x2C
-        public float shr8; // 0x30
-        public float shg0; // 0x34
-        public float shg1; // 0x38
-        public float shg2; // 0x3C
-        public float shg3; // 0x40
-        public float shg4; // 0x44
-        public float shg5; // 0x48
-        public float shg6; // 0x4C
-        public float shg7; // 0x50
-        public float shg8; // 0x54
-        public float shb0; // 0x58
-        public float shb1; // 0x5C
-        public float shb2; // 0x60
-        public float shb3; // 0x64
-        public float shb4; // 0x68
-        public float shb5; // 0x6C
-        public float shb6; // 0x70
-        public float shb7; // 0x74
-        public float shb8; // 0x78
+        public object Item;
 
         // ── Methods ──
         public void Clear(){} // RVA: 0x7FFD54D0E0D0
@@ -534,37 +369,17 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class SupportedRenderingFeatures : Object
     {
-        public ons.? active;
-        public allsDirty defaultMixedLightingModes; // 0x10
-        public object mixedLightingModes; // 0x14
-        public object lightmapBakeTypes; // 0x18
-        public al lightmapsModes; // 0x1C
-        public idth enlightenLightmapper; // 0x20
-        public bool enlighten; // 0x24
-        public bool rendersUIOverlay; // 0x25
-        public bool autoAmbientProbeBaking; // 0x26
-        public bool autoDefaultReflectionProbeBaking; // 0x27
-        public bool overridesLightProbeSystem; // 0x28
-        public bool <reflectionProbes>k__BackingField; // 0x29
-        public bool <reflectionProbesBlendDistance>k__BackingField; // 0x2A
-        public bool <rendererPriority>k__BackingField; // 0x2B
-        public bool <rendersUIOverlay>k__BackingField; // 0x2C
-        public bool <overridesEnvironmentLighting>k__BackingField; // 0x2D
-        public bool <overridesFog>k__BackingField; // 0x2E
-        public bool <overridesRealtimeReflectionProbes>k__BackingField; // 0x2F
-        public bool <overridesOtherLightingSettings>k__BackingField; // 0x30
-        public bool <editableMaterialRenderQueue>k__BackingField; // 0x31
-        public bool <overridesLODBias>k__BackingField; // 0x32
-        public bool <overridesMaximumLODLevel>k__BackingField; // 0x33
-        public bool <overridesEnableLODCrossFade>k__BackingField; // 0x34
-        public bool <rendererProbes>k__BackingField; // 0x35
-        public bool <particleSystemInstancing>k__BackingField; // 0x36
-        public bool <autoAmbientProbeBaking>k__BackingField; // 0x37
-        public bool <autoDefaultReflectionProbeBaking>k__BackingField; // 0x38
-        public bool <overridesShadowmask>k__BackingField; // 0x39
-        public bool <overridesLightProbeSystem>k__BackingField; // 0x3A
-        public bool <supportsHDR>k__BackingField; // 0x3B
-        public string <overridesLightProbeSystemWarningMessage>k__BackingField; // 0x40
+        public object active;
+        public object defaultMixedLightingModes;
+        public object mixedLightingModes;
+        public object lightmapBakeTypes;
+        public object lightmapsModes;
+        public object enlightenLightmapper;
+        public object enlighten;
+        public object rendersUIOverlay;
+        public object autoAmbientProbeBaking;
+        public object autoDefaultReflectionProbeBaking;
+        public object overridesLightProbeSystem;
 
         // ── Methods ──
         public void get_active(){} // RVA: 0x7FFD54D15E60
@@ -597,10 +412,10 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class VertexAttributeDescriptor : ValueType
     {
-        public ons.GroupSize attribute; // 0x10
-        public ons.xTextureSize format; // 0x14
-        public int dimension; // 0x18
-        public int stream; // 0x1C
+        public object attribute;
+        public object format;
+        public object dimension;
+        public object stream;
 
         // ── Methods ──
         public void get_attribute(){} // RVA: 0x7FFD4F840210

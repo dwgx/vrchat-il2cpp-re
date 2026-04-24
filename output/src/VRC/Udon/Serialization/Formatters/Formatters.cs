@@ -7,8 +7,6 @@ namespace VRC.Udon.Serialization.Formatters
 {
     public class UdonGameObjectComponentReferenceFormatter : BaseFormatter`1
     {
-        public tSupportedException_ConstructorMaxOf64Parameters<?> _typeSerializer;
-
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0x7FFD4E919180
         public void DeserializeImplementation(){} // RVA: 0x7FFD552BFA40
@@ -19,11 +17,6 @@ namespace VRC.Udon.Serialization.Formatters
 
     public class UdonProgramFormatter : BaseFormatter`1
     {
-        public tSupportedException_ConstructorMaxOf64Parameters<byte[]> _byteArrayReaderWriter;
-        public tSupportedException_ConstructorMaxOf64Parameters<tmapScaleOffset_Injected> _udonHeapReaderWriter; // 0x8
-        public tSupportedException_ConstructorMaxOf64Parameters<sMultiplier_Injected> _udonSymbolTableReaderWriter; // 0x10
-        public tSupportedException_ConstructorMaxOf64Parameters<TreeInstance_Injected> _udonSyncMetadataTableReaderWriter; // 0x18
-
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0x7FFD4E919180
         public void DeserializeImplementation(){} // RVA: 0x7FFD552BFE10

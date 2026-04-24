@@ -7,15 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock
 {
     public class DualSenseGamepadHID : DualShockGamepad
     {
-        public _1.ceControlChangedValue leftTriggerButton; // 0x288
-        public _1.ceControlChangedValue rightTriggerButton; // 0x290
-        public _1.ceControlChangedValue playStationButton; // 0x298
-        public aphy<float> m_LowFrequencyMotorSpeed; // 0x2A0
-        public aphy<float> m_HighFrequenceyMotorSpeed; // 0x2A8
-        public aphy<?> m_LightBarColor; // 0x2B0
-        public byte outputSequenceId; // 0x2C4
-        public byte JitterMaskLow;
-        public byte JitterMaskHigh;
+        public object leftTriggerButton;
+        public object rightTriggerButton;
+        public object playStationButton;
 
         // ── Methods ──
         public void get_leftTriggerButton(){} // RVA: 0x7FFD4EDD71D0
@@ -42,9 +36,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock
 
     public class DualShock3GamepadHID : DualShockGamepad
     {
-        public _1.ceControlChangedValue leftTriggerButton; // 0x288
-        public _1.ceControlChangedValue rightTriggerButton; // 0x290
-        public _1.ceControlChangedValue playStationButton; // 0x298
+        public object leftTriggerButton;
+        public object rightTriggerButton;
+        public object playStationButton;
 
         // ── Methods ──
         public void get_leftTriggerButton(){} // RVA: 0x7FFD4EDD71D0
@@ -59,14 +53,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock
 
     public class DualShock4GamepadHID : DualShockGamepad
     {
-        public _1.ceControlChangedValue leftTriggerButton; // 0x288
-        public _1.ceControlChangedValue rightTriggerButton; // 0x290
-        public _1.ceControlChangedValue playStationButton; // 0x298
-        public aphy<float> m_LowFrequencyMotorSpeed; // 0x2A0
-        public aphy<float> m_HighFrequenceyMotorSpeed; // 0x2A8
-        public aphy<?> m_LightBarColor; // 0x2B0
-        public byte JitterMaskLow;
-        public byte JitterMaskHigh;
+        public object leftTriggerButton;
+        public object rightTriggerButton;
+        public object playStationButton;
 
         // ── Methods ──
         public void get_leftTriggerButton(){} // RVA: 0x7FFD4EDD71D0
@@ -91,17 +80,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock
 
     public class DualShockGamepad : Gamepad
     {
-        public _1.ceControlChangedValue touchpadButton; // 0x210
-        public _1.ceControlChangedValue optionsButton; // 0x218
-        public _1.ceControlChangedValue shareButton; // 0x220
-        public _1.ceControlChangedValue L1; // 0x228
-        public _1.ceControlChangedValue R1; // 0x230
-        public _1.ceControlChangedValue L2; // 0x238
-        public _1.ceControlChangedValue R2; // 0x240
-        public _1.ceControlChangedValue L3; // 0x248
-        public _1.ceControlChangedValue R3; // 0x250
-        public eOpenAmount>k__BackingField.ingField current;
-        public ager hidDescriptor; // 0x258
+        public object touchpadButton;
+        public object optionsButton;
+        public object shareButton;
+        public object L1;
+        public object R1;
+        public object L2;
+        public object R2;
+        public object L3;
+        public object R3;
+        public object current;
+        public object hidDescriptor;
 
         // ── Methods ──
         public void get_touchpadButton(){} // RVA: 0x7FFD4E96BCB0

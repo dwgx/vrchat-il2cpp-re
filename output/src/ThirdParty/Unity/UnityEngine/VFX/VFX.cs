@@ -7,36 +7,18 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 {
     public class VFXBatchInfo : ValueType
     {
-        public uint capacity; // 0x10
-        public uint activeInstanceCount; // 0x14
     }
 
     public class VFXBatchedEffectInfo : ValueType
     {
-        public torMisuse vfxAsset; // 0x10
-        public uint activeBatchCount; // 0x18
-        public uint inactiveBatchCount; // 0x1C
-        public uint activeInstanceCount; // 0x20
-        public uint unbatchedInstanceCount; // 0x24
-        public uint totalInstanceCapacity; // 0x28
-        public uint maxInstancePerBatchCapacity; // 0x2C
-        public ulong totalGPUSizeInBytes; // 0x30
-        public ulong totalCPUSizeInBytes; // 0x38
     }
 
     public class VFXCameraXRSettings : ValueType
     {
-        public uint viewTotal; // 0x10
-        public uint viewCount; // 0x14
-        public uint viewOffset; // 0x18
     }
 
     public class VFXEventAttribute : Object
     {
-        public UIntPtr m_Ptr; // 0x10
-        public bool m_Owner; // 0x18
-        public torMisuse m_VfxAsset; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD550B7F10
         public void CreateEventAttributeWrapper(){} // RVA: 0x7FFD550B7F70
@@ -52,8 +34,6 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXExpressionValues : Object
     {
-        public UIntPtr m_Ptr; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void CreateExpressionValuesWrapper(){} // RVA: 0x7FFD550B8420
@@ -61,8 +41,6 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXManager : Object
     {
-        public t.Extensions.DependencyInjection.Abstractions kDefaultCameraXRSettings;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD550B8470
     }
@@ -78,10 +56,6 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXSpawnerState : Object
     {
-        public UIntPtr m_Ptr; // 0x10
-        public bool m_Owner; // 0x18
-        public object m_WrapEventAttribute; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD550B84D0
         public void CreateSpawnerStateWrapper(){} // RVA: 0x7FFD550B84E0
@@ -95,8 +69,7 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VisualEffect : Behaviour
     {
-        public object visualEffectAsset; // 0x18
-        public ileFullDirectoryInformation<erviceRegistered> outputEventReceived; // 0x20
+        public object visualEffectAsset;
 
         // ── Methods ──
         public void get_visualEffectAsset(){} // RVA: 0x7FFD550B8C80
@@ -107,9 +80,6 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VisualEffectAsset : VisualEffectObject
     {
-        public int PlayEventID;
-        public int StopEventID; // 0x4
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD550B8B30
         public void .cctor(){} // RVA: 0x7FFD550B8B80

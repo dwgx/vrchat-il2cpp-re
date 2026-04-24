@@ -7,10 +7,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class MethodInfoFormatter`1 : BaseFormatter`1
     {
-        public tSupportedException_ConstructorMaxOf64Parameters<string> StringSerializer;
-        public tSupportedException_ConstructorMaxOf64Parameters<?> TypeSerializer;
-        public tSupportedException_ConstructorMaxOf64Parameters<?[]> TypeArraySerializer;
-
         // ── Methods ──
         public void DeserializeImplementation(){} // RVA: 0x7FFD4E099B30
         public void SerializeImplementation(){} // RVA: 0x7FFD4E099B30
@@ -21,7 +17,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
-        public bool SerializedType;
+        public object SerializedType;
 
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x7FFD51953D60
@@ -39,11 +35,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MultiDimensionalArrayFormatter`2 : BaseFormatter`1
     {
-        public string RANKS_NAME;
-        public char RANKS_SEPARATOR;
-        public int ArrayRank;
-        public tSupportedException_ConstructorMaxOf64Parameters<T1717697136> ValueReaderWriter;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void GetUninitializedObject(){} // RVA: 0x7FFD4E2ADC40

@@ -7,8 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 {
     public class AbstractPurchasingModule : Object
     {
-        public ra.0 m_Binder; // 0x10
-
         // ── Methods ──
         public void Configure(){} // RVA: 0x7FFD4E090980 | overloaded x2
         public void RegisterStore(){} // RVA: 0x7FFD54DD4F80
@@ -75,11 +73,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class ProductDescription : Object
     {
-        public string storeSpecificId; // 0x10
-        public ing.t_verification_uri metadata; // 0x18
-        public ing.ÎÎÏÏÏÎÏÎÏÎÎÌÍÍÌ receipt; // 0x20
-        public string transactionId; // 0x28
-        public string <transactionId>k__BackingField; // 0x30
+        public object storeSpecificId;
+        public object metadata;
+        public object receipt;
+        public object transactionId;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DD5170 | overloaded x3
@@ -95,9 +92,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class PurchaseFailureDescription : Object
     {
-        public string productId; // 0x10
-        public ing.Factor reason; // 0x18
-        public string message; // 0x20
+        public object productId;
+        public object reason;
+        public object message;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53B09F50
@@ -111,10 +108,24 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class UnityUtil : MonoBehaviour
     {
-        public URA.woDigitYearMax<ÎÌÍÏÏÌÍÏ> currentTime;
-        public bool persistentDataPath; // 0x8
-        public URA.woDigitYearMax<?> deviceUniqueIdentifier; // 0x10
-        public URA.woDigitYearMax<ileFullDirectoryInformation<bool>> unityVersion; // 0x20
+        public object currentTime;
+        public object persistentDataPath;
+        public object deviceUniqueIdentifier;
+        public object unityVersion;
+        public object cloudProjectId;
+        public object userId;
+        public object gameVersion;
+        public object sessionId;
+        public object platform;
+        public object isEditor;
+        public object deviceModel;
+        public object deviceName;
+        public object deviceType;
+        public object operatingSystem;
+        public object screenWidth;
+        public object screenHeight;
+        public object screenDpi;
+        public object screenOrientation;
 
         // ── Methods ──
         public void GetAnyComponentsOfType(){} // RVA: 0x7FFD4E078E90

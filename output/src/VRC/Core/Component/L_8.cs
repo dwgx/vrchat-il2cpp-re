@@ -193,6 +193,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÍÎÏÎÌÍÌÎÎÎÍÎÎÌÏÍÎÌÌÏÌÏ</summary>
     public class LifecycleComponentImpl_0AD2 : LifecycleComponent_F091
     {
+        public Source_Map.ÌÎ hand; // 0x20
+        public BuffersImpl itemPrefab; // 0x28
+
         // ── Methods ──
         public void InitializeLifecycleComponent(){} // RVA: 0x7FFD567E75A0
         public void DoAdd(){} // RVA: 0x7FFD567E7680
@@ -552,10 +555,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÍÎÌÌÍÎÌÌÏÎÌÌÌÎÎÎÍÌÌÌÎÏ</summary>
     public class LifecycleComponentSibling_3279 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_0CC;
-        public object f_AE1;
+        public bool _name; // 0x20
+        public ?<bool> _hideFlags; // 0x28
+        public ?<bool> f_0CC; // 0x30
+        public ÏÏÏÏÏÎ<?> f_AE1; // 0x38
+        public ÌÏÍÌÏÍÍÏÌ ÏÎÎÏÌÌÏÌÎÎÏÏÏÌÍÏÎÏÏÎÍÌÎ; // 0x40
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E35C380
@@ -1270,6 +1274,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÎÌÌÌÍÎÌÌÎÏÏÌÍÎÎÌÏÌÎÎÌÏ</summary>
     public class LifecycleComponent_5B91 : MonoBehaviour
     {
+        public hr4<T1717619936,T1717619952> <>9;
+        public n<T1717619936,T1717619936> <>9__128_0;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4FD5B820
         public void OnEnable(){} // RVA: 0x7FFD4FD5B890

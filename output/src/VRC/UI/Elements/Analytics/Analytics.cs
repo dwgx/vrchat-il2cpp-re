@@ -7,9 +7,6 @@ namespace VRC.UI.Elements.Analytics
 {
     public class AnalyticsControllerSavedData : ScriptableObject
     {
-        public string AssetPath; // 0x18
-        public URA.woDigitYearMax<?> Entries; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD56CD5290
     }

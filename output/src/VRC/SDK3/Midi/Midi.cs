@@ -7,10 +7,6 @@ namespace VRC.SDK3.Midi
 {
     public class MidiFile : ScriptableObject
     {
-        public pecificJobData.ainingAnimator rawData; // 0x18
-        public pecificJobData.dateTypeSpecificJobData data; // 0x20
-        public ies audioClip; // 0x28
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD574193E0
         public void PrintRawData(){} // RVA: 0x7FFD574197B0
@@ -20,16 +16,10 @@ namespace VRC.SDK3.Midi
 
     public class VRCMidiHandler : MonoBehaviour
     {
-        public int MidiIn;
-        public int Initialize;
-        public int OnLog;
-        public cEvent.? Instance; // 0x20
-        public cEvent.ped OnNoteOn; // 0x28
-        public cEvent.ped OnNoteOff; // 0x30
-        public cEvent.ped OnControlChange; // 0x38
-        public pecificJobData.AffectsPosition _instance;
-        public ormation<cEvent.?> <Initialize>k__BackingField; // 0x8
-        public ileFullDirectoryInformation<string> <OnLog>k__BackingField; // 0x10
+        public object MidiIn;
+        public object Initialize;
+        public object OnLog;
+        public object Instance;
 
         // ── Methods ──
         public void get_MidiIn(){} // RVA: 0x7FFD5741DB90
@@ -55,11 +45,6 @@ namespace VRC.SDK3.Midi
 
     public class VRCMidiListener : MonoBehaviour
     {
-        public pecificJobData.AffectsPosition _plugin; // 0x20
-        public 8BCA7B5CC287C51E0E3E<string,object>[] argsArray; // 0x28
-        public rentDependency|126_1.cutionGroups>g__FindParentDependency|126_1 behaviour; // 0x30
-        public gAnimatorLatestActiveState activeEvents; // 0x38
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD5741EC50
         public void NoteOn(){} // RVA: 0x7FFD5741F050
@@ -71,13 +56,13 @@ namespace VRC.SDK3.Midi
 
     public class VRCMidiPlayer : MonoBehaviour
     {
-        public pecificJobData.ionOffsets MidiData; // 0x20
-        public t Time; // 0x28
-        public rentDependency|126_1.cutionGroups>g__FindParentDependency|126_1[] Coroutine; // 0x30
-        public URA.woDigitYearMax<arentTransform> OnBlockStarted; // 0x38
-        public float OnBlockCompleted; // 0x40
-        public ts OnPlayingStarted; // 0x48
-        public 8BCA7B5CC287C51E0E3E<string,object>[] OnPlayingStopped; // 0x50
+        public object MidiData;
+        public object Time;
+        public object Coroutine;
+        public object OnBlockStarted;
+        public object OnBlockCompleted;
+        public object OnPlayingStarted;
+        public object OnPlayingStopped;
 
         // ── Methods ──
         public void get_MidiData(){} // RVA: 0x7FFD5741A100

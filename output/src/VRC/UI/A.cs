@@ -7,27 +7,18 @@ namespace VRC.UI
 {
     public class AvatarProxySettings : Object
     {
-        public bool _name;
-        public bool _hideFlags;
-        public float f_B9B;
-        public float f_42C;
-        public float f_FD0;
-        public float f_AB0;
-        public float f_C00;
-        public int f_975;
-        public int f_31B;
-        public ?<float> f_13E; // 0x10
-        public ?<float> f_954; // 0x18
-        public ?<bool> f_56A; // 0x20
-        public ?<bool> <ÍÏÏÌÍÍÎÎÍÏÌÌÎÎÎÎÍÌÌÏÏÌÏ>k__BackingField; // 0x28
-        public ?<bool> <ÍÍÏÏÎÏÏÎÏÎÎÍÍÌÎÎÌÎÍÌÌÏÏ>k__BackingField; // 0x30
-        public ?<bool> <ÌÌÎÌÎÌÏÍÏÏÎÍÎÍÌÎÏÎÏÍÌÌÎ>k__BackingField; // 0x38
-        public bool ÌÍÏÎÍÍÏÌÎÍÏÏÍÌÎÎÌÏÏÏÎÏÎ;
-        public bool ÌÏÌÎÌÎÍÍÌÎÍÎÏÎÎÌÏÏÍÏÏÌÌ; // 0x1
-        public float ÎÌÏÎÎÌÍÏÏÎÍÏÌÍÌÏÌÎÌÌÌÍÌ; // 0x4
-        public bool ÍÌÏÌÏÏÎÏÎÌÏÏÎÎÍÍÌÍÎÍÏÍÌ; // 0x8
-        public int ÍÌÏÍÎÎÏÌÍÏÌÏÏÎÎÏÏÌÍÎÌÎÍ; // 0xC
-        public bool ÏÌÎÍÎÏÌÌÌÏÌÍÌÎÏÏÌÎÎÌÎÍÌ; // 0x10
+        public object _name;
+        public object _hideFlags;
+        public object f_B9B;
+        public object f_42C;
+        public object f_FD0;
+        public object f_AB0;
+        public object f_C00;
+        public object f_975;
+        public object f_31B;
+        public object f_13E;
+        public object f_954;
+        public object f_56A;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EB62850

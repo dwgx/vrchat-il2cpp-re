@@ -7,8 +7,7 @@ namespace VRC.Core.Burst
 {
     public class DisposableJobHandle : ValueType
     {
-        public ÍÏÌÏÌÏÌÏÍÎÌÎÌÏÏÏÎ.ÎÎ IsCompleted; // 0x10
-        public URA.woDigitYearMax<gAxis.andleSelfFittingAlongAxis> _knownDisposableJobHandles;
+        public object IsCompleted;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57467600

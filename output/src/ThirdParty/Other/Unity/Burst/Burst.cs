@@ -7,10 +7,10 @@ namespace ThirdParty.Other.Unity.Burst
 {
     public class BurstCompileAttribute : Attribute
     {
-        public ÌÏÏÌÌÏÏÎÌÎÍÏÍÏÏÍÍÍÌÍÎÍ.lizedPos>b__0 FloatMode; // 0x10
-        public ÌÏÏÌÌÏÏÎÌÎÍÏÍÏÏÍÍÍÌÍÎÍ.zedPos>b__1 FloatPrecision; // 0x14
-        public aphy<bool> CompileSynchronously; // 0x18
-        public string[] Options; // 0x20
+        public object FloatMode;
+        public object FloatPrecision;
+        public object CompileSynchronously;
+        public object Options;
 
         // ── Methods ──
         public void set_FloatMode(){} // RVA: 0x7FFD4E3440C0
@@ -22,10 +22,7 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompiler : Object
     {
-        public bool IsEnabled;
-        public ÌÏÏÌÌÏÏÎÌÎÍÏÍÏÏÍÍÍÌÍÎÍ.701B9FEFE6E40553614DE65E Options; // 0x8
-        public ÎÌÍÏÏÌÍÏ OnCompileILPPMethod2; // 0x10
-        public m.jectMapInfo DummyMethodInfo; // 0x18
+        public object IsEnabled;
 
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0x7FFD54924D60
@@ -40,13 +37,10 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompilerOptions : Object
     {
-        public bool IsGlobal;
-        public bool EnableBurstCompilation; // 0x1
-        public bool EnableBurstSafetyChecks; // 0x2
-        public bool OptionsChanged; // 0x10
-        public bool _enableBurstSafetyChecks; // 0x11
-        public bool <IsGlobal>k__BackingField; // 0x12
-        public ÎÌÍÏÏÌÍÏ <OptionsChanged>k__BackingField; // 0x18
+        public object IsGlobal;
+        public object EnableBurstCompilation;
+        public object EnableBurstSafetyChecks;
+        public object OptionsChanged;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54926F40
@@ -74,12 +68,6 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstString : Object
     {
-        public char[] SplitByColon;
-        public byte[] logTable; // 0x8
-        public uint[] g_PowerOf10_U32; // 0x10
-        public byte[] InfinityString; // 0x18
-        public byte[] NanString; // 0x20
-
         // ── Methods ──
         public void CopyFixedString(){} // RVA: 0x7FFD54927C70
         public void Format(){} // RVA: 0x7FFD549286E0 | overloaded x13
@@ -118,7 +106,7 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class FunctionPointer`1 : ValueType
     {
-        public UIntPtr Invoke;
+        public object Invoke;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090BF0
@@ -133,7 +121,7 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class SharedStatic`1 : ValueType
     {
-        public IntPtr Data;
+        public object Data;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

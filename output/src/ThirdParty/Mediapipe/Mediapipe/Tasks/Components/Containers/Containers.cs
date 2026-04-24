@@ -7,11 +7,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 {
     public class Category : ValueType
     {
-        public int index; // 0x10
-        public float score; // 0x14
-        public string categoryName; // 0x18
-        public string displayName; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5373B880 | overloaded x2
         public void ToString(){} // RVA: 0x7FFD5373B8E0
@@ -19,9 +14,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class ClassificationResult : ValueType
     {
-        public URA.woDigitYearMax<gBox.set_Mask> classifications; // 0x10
-        public aphy<long> timestampMs; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51515420
         public void Copy(){} // RVA: 0x7FFD5373C160
@@ -30,8 +22,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class DetectionResult : ValueType
     {
-        public URA.woDigitYearMax<gBox.d_GazeOn> detections; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4ECFFE40
         public void Alloc(){} // RVA: 0x7FFD5373D150
@@ -41,14 +31,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class Landmark : ValueType
     {
-        public float _LandmarkTolerance;
-        public float x; // 0x10
-        public float y; // 0x14
-        public float z; // 0x18
-        public aphy<float> visibility; // 0x1C
-        public aphy<float> presence; // 0x24
-        public string name; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5373DA20 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD5373DB80
@@ -59,11 +41,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class NormalizedKeypoint : ValueType
     {
-        public float x; // 0x10
-        public float y; // 0x14
-        public string label; // 0x18
-        public aphy<float> score; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5373D670 | overloaded x2
         public void ToString(){} // RVA: 0x7FFD5373D770
@@ -77,11 +54,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class Rect : ValueType
     {
-        public int left; // 0x10
-        public int top; // 0x14
-        public int right; // 0x18
-        public int bottom; // 0x1C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5373F6A0 | overloaded x2
         public void ToString(){} // RVA: 0x7FFD5373F6C0
@@ -89,11 +61,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class RectF : ValueType
     {
-        public float left; // 0x10
-        public float top; // 0x14
-        public float right; // 0x18
-        public float bottom; // 0x1C
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD5373F900
         public void System.IEquatable<Mediapipe.Tasks.Components.Containers.RectF>.Equals(){} // RVA: 0x7FFD5373F9A0

@@ -19,9 +19,9 @@ namespace ThirdParty.Unity.UnityEngine.Scripting
 
     public class RequiredByNativeCodeAttribute : Attribute
     {
-        public string Name; // 0x10
-        public bool Optional; // 0x18
-        public bool GenerateProxy; // 0x19
+        public object Name;
+        public object Optional;
+        public object GenerateProxy;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
@@ -32,7 +32,7 @@ namespace ThirdParty.Unity.UnityEngine.Scripting
 
     public class UsedByNativeCodeAttribute : Attribute
     {
-        public string Name; // 0x10
+        public object Name;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2

@@ -7,17 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class EnumField : BaseField`1
     {
-        public object includeObsoleteValues; // 0x440
-        public bool m_IncludeObsoleteValues; // 0x448
-        public ÎÏÌÎÎÎÌÌÌ.yle.get_minWidth m_TextElement; // 0x450
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_ArrowElement; // 0x458
-        public oseCount m_EnumData; // 0x460
-        public ormation<ÎÏÌÎÎÎÌÌÌ.op> createMenuCallback; // 0x4A0
-        public string ussClassName;
-        public string textUssClassName; // 0x8
-        public string arrowUssClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
+        public object includeObsoleteValues;
 
         // ── Methods ──
         public void get_includeObsoleteValues(){} // RVA: 0x7FFD54ECDB00
@@ -132,10 +122,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
-        public long eventTypeId;
-        public ÎÏÌÎÎÎÌÌÌ.gContentId<T1717595984> s_Pool; // 0x8
-        public int m_RefCount; // 0x80
-        public ÎÏÌÎÎÎÌÌÌ.onal EventCategory; // 0x10
+        public object eventTypeId;
 
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x7FFD5106BB80
@@ -152,8 +139,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctorBase : Object
     {
-        public ÎÏÌÎÎÎÌÌÌ.StretchableColumns phase; // 0x10
-        public ÎÏÌÎÎÎÌÌÌ.equested invokePolicy; // 0x14
+        public object phase;
+        public object invokePolicy;
 
         // ── Methods ──
         public void get_phase(){} // RVA: 0x7FFD4E38E5C0
@@ -166,9 +153,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctor`1 : EventCallbackFunctorBase
     {
-        public ÎÏÌÎÎÎÌÌÌ.Header<T1717595616> m_Callback;
-        public long m_EventTypeId;
-
         // ── Methods ──
         public void .ctor(){}
         public void Invoke(){} // RVA: 0x7FFD4E097970
@@ -177,9 +161,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctor`2 : EventCallbackFunctorBase
     {
-        public ÎÏÌÎÎÎÌÌÌ.der<T1717595632,T1717595648> userArgs;
-        public long m_EventTypeId;
-        public T1717595648 <userArgs>k__BackingField;
+        public object userArgs;
 
         // ── Methods ──
         public void get_userArgs(){} // RVA: 0x7FFD4E2ADC40
@@ -191,11 +173,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackRegistry : Object
     {
-        public ÎÏÌÎÎÎÌÌÌ.mnRemoved s_ListPool;
-        public ÎÏÌÎÎÎÌÌÌ.quiresLayoutUpdate m_Callbacks; // 0x10
-        public ÎÏÌÎÎÎÌÌÌ.quiresLayoutUpdate m_TemporaryCallbacks; // 0x18
-        public int m_IsInvoking; // 0x20
-
         // ── Methods ──
         public void GetCallbackList(){} // RVA: 0x7FFD54FA1270
         public void ReleaseCallbackList(){} // RVA: 0x7FFD54FA12E0
