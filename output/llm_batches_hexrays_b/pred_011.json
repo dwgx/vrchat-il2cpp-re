@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_985": "InitializeCoroutineStateA",
+ "VRC_Main::m_51B": "InitializeCoroutineStateB",
+ "VRC_Main::m_77B": "InitializeCoroutineStateC",
+ "VRC_Main::m_A24": "InitializeCoroutineStateD",
+ "VRC_Main::m_4C1": "ProcessExceptionStateA",
+ "VRC_Main::m_166": "ProcessExceptionStateB",
+ "VRC_Main::m_1D9": "ProcessExceptionStateC",
+ "VRC_Main::m_7C9": "ProcessExceptionStateD",
+ "VRC_Main::m_A19": "ProcessExceptionStateE",
+ "VRC_Main::m_17C": "ProcessExceptionStateF"
+}

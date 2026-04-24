@@ -1,0 +1,381 @@
+[
+ {
+  "class": "NetworkItemSiblingSibling_5241",
+  "parent": "ValueType",
+  "known_methods": [
+   "InternalEquals",
+   "GetHashCodeOfPtr",
+   "GetSecondPointerOffsetInt",
+   "GetNetworkValueAtOffset44",
+   ".ctor"
+  ],
+  "hash_keys": [
+   "NetworkItemSiblingSibling_5241::m_474",
+   "NetworkItemSiblingSibling_5241::m_265"
+  ],
+  "total": 12,
+  "named_pct": "71%"
+ },
+ {
+  "class": "PlayerCalculateLayoutInputHorizCalculateLayout_5653",
+  "parent": "LayoutGroup",
+  "known_methods": [
+   "get_padding",
+   "get_childAlignment",
+   "set_childAlignment",
+   "get_rectTransform",
+   "get_preferredWidth",
+   "get_flexibleWidth",
+   "get_minHeight",
+   "get_preferredHeight",
+   "get_flexibleHeight",
+   "OnEnable",
+   "ReadComponentState",
+   "get_DefaultBufferSize",
+   "GetTotalMinSize",
+   "GetTotalPreferredSize",
+   "GetTotalFlexibleSize",
+   "GetStartOffset"
+  ],
+  "hash_keys": [
+   "PlayerCalculateLayoutInputHorizCalculateLayout_5653::m_399"
+  ],
+  "total": 25,
+  "named_pct": "94%"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_B024",
+  "parent": "ÏÌÏÌÍÍÍÍÍÏÍÏÌÌÍÌÌÍÎÏÌÍÏ",
+  "known_methods": [
+   "CompareBaseObjects",
+   "Initialize",
+   "AddSubtraction",
+   "GetInstanceID",
+   "get_FileId",
+   "get_IsSpecialFX",
+   "Equals",
+   "UpdateGameObjectActiveState",
+   "get_MaskTag",
+   "Initialize_ctrlKeyboardf15",
+   "GetSessionId",
+   "get_AnimationStyle",
+   "get_EffectBundleID",
+   "set_element",
+   "FindObjectOfType",
+   "Start",
+   "GetLanguage"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImpl_B024::m_8EC",
+   "AnimatedTextureBaseImpl_B024::m_9F3",
+   "AnimatedTextureBaseImpl_B024::m_8AD",
+   "AnimatedTextureBaseImpl_B024::m_697",
+   "AnimatedTextureBaseImpl_B024::m_8B7",
+   "AnimatedTextureBaseImpl_B024::m_494",
+   "AnimatedTextureBaseImpl_B024::m_A91",
+   "AnimatedTextureBaseImpl_B024::m_43E"
+  ],
+  "total": 35,
+  "named_pct": "68%"
+ },
+ {
+  "class": "BaseClass3Impl_65CA",
+  "parent": "ÏÌÏÍÌÏÎÌÍÎÏÎÌÍÏÍÍÌÌÎÎÍÍ",
+  "known_methods": [
+   "VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T",
+   "__GetType__SystemType",
+   "SetCurrentSocket",
+   "Initialize",
+   "GetCachedPtr",
+   "GetMaxDampTime",
+   "GetSessionId",
+   "GetBufferedTimes",
+   "GetPlatform"
+  ],
+  "hash_keys": [
+   "BaseClass3Impl_65CA::m_CFF"
+  ],
+  "total": 11,
+  "named_pct": "90%"
+ },
+ {
+  "class": "PointerEnterPointerExit_5D10",
+  "parent": "ÏÏÏÍÏÎÍÌÏÍÍÎÏÏÍÏÍÌÍÌÎÎÌ",
+  "known_methods": [
+   "CreateExitOperation",
+   "StopPointerHoverRoutine",
+   "LayoutComplete",
+   "get_direction",
+   "MarkCompletedAndSchedule",
+   "Initialize",
+   "Sequence",
+   "StartPointerHoverRoutine"
+  ],
+  "hash_keys": [
+   "PointerEnterPointerExit_5D10::m_7B7",
+   "PointerEnterPointerExit_5D10::m_24F",
+   "PointerEnterPointerExit_5D10::m_429",
+   "PointerEnterPointerExit_5D10::m_1B5"
+  ],
+  "total": 18,
+  "named_pct": "66%"
+ },
+ {
+  "class": "BaseClass6Impl_6533",
+  "parent": "ÏÌÎÌÏÍÍÍÏÍÍÌÎÍÎÌÎÌÌÌÌÎÏ",
+  "known_methods": [
+   "GetGameObject_348",
+   "get_ValidExpressions",
+   "get_snapOrientation",
+   "OnDestroy",
+   "GetSessionId",
+   "GetPlatform",
+   "CancelInvoke",
+   "StartCoroutine_Auto",
+   "get_gameObject",
+   "GetLanguage",
+   "set_ForceFileFormat",
+   "set_element",
+   "get_ForceFileFormat",
+   "StartCoroutine",
+   "Initialize"
+  ],
+  "hash_keys": [
+   "BaseClass6Impl_6533::m_83B",
+   "BaseClass6Impl_6533::m_751"
+  ],
+  "total": 21,
+  "named_pct": "88%"
+ },
+ {
+  "class": "PlayerLeftHandler_4F25",
+  "parent": "MonoBehaviour",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "RaiseCancellation",
+   "LogError",
+   "CancelInvoke",
+   "Invoke",
+   "InvokeRepeating",
+   "StartCoroutine",
+   "Initialize",
+   "OnDestroy",
+   "StopCoroutine",
+   "FixedUpdate",
+   "StopAllCoroutines",
+   "get_useGUILayout",
+   "set_useGUILayout",
+   "print",
+   "Internal_CancelInvokeAll",
+   "Internal_IsInvokingAll",
+   "InvokeDelayed",
+   "OnBecameInvisible",
+   "IsInvoking",
+   "IsObjectMonoBehaviour",
+   "StartCoroutineManaged",
+   "StartCoroutineManaged2",
+   "GetScriptClassName",
+   "GetScriptClassName",
+   "OnCancellationTokenCreated",
+   "IsInvoking",
+   "OnApplicationPause",
+   "OnApplicationQuit",
+   "OnBecameVisible"
+  ],
+  "hash_keys": [
+   "PlayerLeftHandler_4F25::m_633",
+   "PlayerLeftHandler_4F25::m_4BE",
+   "PlayerLeftHandler_4F25::m_D75"
+  ],
+  "total": 49,
+  "named_pct": "92%"
+ },
+ {
+  "class": "BaseClass3Impl_C362",
+  "parent": "ÍÌÎÍÌÌÎÌÏÍÏÍÍÏÍÎÎÏÌÌÎÌÏ",
+  "known_methods": [
+   "IsStartDelayComplete",
+   "RaiseCancellation",
+   "StartCoroutine_Auto",
+   "DoGetIntegerString_7BC",
+   "Awake",
+   "Update",
+   "FindCloseFile",
+   "StartCoroutine",
+   "get_name",
+   "get_EnableTimoutForStreaming"
+  ],
+  "hash_keys": [
+   "BaseClass3Impl_C362::m_579",
+   "BaseClass3Impl_C362::m_32A"
+  ],
+  "total": 17,
+  "named_pct": "83%"
+ },
+ {
+  "class": "LifecycleComponentSiblingSibling_BDD6",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "Initialize",
+   "get_main",
+   "MoveNext",
+   "ReadTransformState",
+   "ConfigureChars",
+   "Destroy",
+   "DestroyImmediate",
+   "FindObjectsOfType",
+   "DoRemoveAll",
+   "FindObjectsByType"
+  ],
+  "hash_keys": [
+   "LifecycleComponentSiblingSibling_BDD6::m_BBF",
+   "LifecycleComponentSiblingSibling_BDD6::m_ECA",
+   "LifecycleComponentSiblingSibling_BDD6::m_1F8"
+  ],
+  "total": 26,
+  "named_pct": "87%"
+ },
+ {
+  "class": "SetLayoutHorizontalSetLayoutVertical_07A6",
+  "parent": "ContentSizeFitter",
+  "known_methods": [
+   "get_horizontalFit",
+   "set_horizontalFit",
+   "get_defaultDeadzoneMax",
+   "set_leftEyeOpenAmount",
+   "get_preferredPeakBitRate",
+   "OnEnable",
+   "set_ElapsedTimeSinceBase",
+   "HandleSelfFittingAlongAxis",
+   "IsInvoking",
+   "SetDirty",
+   "ToString"
+  ],
+  "hash_keys": [
+   "SetLayoutHorizontalSetLayoutVertical_07A6::m_40A"
+  ],
+  "total": 15,
+  "named_pct": "91%"
+ },
+ {
+  "class": "LifecycleComponentImplImpl_3D10",
+  "parent": "ÍÍÌÏÌÌÎÎÎÍÌÍÌÍÎÍÏÍÏÏÏÌÍ",
+  "known_methods": [
+   "AssignConnectedBody",
+   "GetLocalRotation",
+   "SetConnectedBody",
+   "ApplyLocalTransform"
+  ],
+  "hash_keys": [
+   "LifecycleComponentImplImpl_3D10::m_576",
+   "LifecycleComponentImplImpl_3D10::m_0F3",
+   "LifecycleComponentImplImpl_3D10::m_E10",
+   "LifecycleComponentImplImpl_3D10::m_7E9",
+   "LifecycleComponentImplImpl_3D10::m_1CB",
+   "LifecycleComponentImplImpl_3D10::m_50D",
+   "LifecycleComponentImplImpl_3D10::m_696",
+   "LifecycleComponentImplImpl_3D10::m_665"
+  ],
+  "total": 13,
+  "named_pct": "33%"
+ },
+ {
+  "class": "BaseClass6Impl_6524",
+  "parent": "ÏÌÎÌÏÍÍÍÏÍÍÌÎÍÎÌÎÌÌÌÌÎÏ",
+  "known_methods": [
+   "get_EyeFollowingBlendshapesValid",
+   "get_ValidExpressions",
+   "get_snapOrientation",
+   "AddUnitNode",
+   "GetNetworkCallingMetadata",
+   "GetPlatform",
+   "LogRectTransformRect",
+   "get_gameObject",
+   "GetLanguage",
+   "AddSubtraction",
+   "StartCoroutine_Auto",
+   "OnDestroy",
+   "StopAllCoroutines",
+   "Initialize",
+   "StartCoroutineManaged2",
+   "RetrieveComponentData",
+   "DoInternal_FromEulerRad_Injected_093"
+  ],
+  "hash_keys": [
+   "BaseClass6Impl_6524::m_935",
+   "BaseClass6Impl_6524::m_3EB"
+  ],
+  "total": 25,
+  "named_pct": "89%"
+ },
+ {
+  "class": "ComplexComponentImplSiblingSibling_499D",
+  "parent": "ÍÍÎÌÍÌÍÎÍÎÍÏÎÌÎÎÍÏÌÎÏÌÌ",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "Instantiate",
+   "Initialize",
+   "Update"
+  ],
+  "hash_keys": [
+   "ComplexComponentImplSiblingSibling_499D::m_A7D"
+  ],
+  "total": 8,
+  "named_pct": "80%"
+ },
+ {
+  "class": "Type20m1f_8514",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "Initialize",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "Destroy"
+  ],
+  "hash_keys": [
+   "Type20m1f_8514::m_686"
+  ],
+  "total": 20,
+  "named_pct": "91%"
+ },
+ {
+  "class": "LifecycleComponentSibling_A03F",
+  "parent": "",
+  "known_methods": [
+   "ResolveLastServiceDescriptor",
+   "ReadLastServiceDescriptor",
+   "AccessLastServiceDescriptor",
+   "FetchLastServiceDescriptor",
+   "TryInvokeTypedReceiver",
+   "GetLastServiceDescriptor",
+   "ContainsChild",
+   "WriteValue",
+   "ElementAt"
+  ],
+  "hash_keys": [
+   "LifecycleComponentSibling_A03F::m_1B8",
+   "LifecycleComponentSibling_A03F::m_8EB",
+   "LifecycleComponentSibling_A03F::m_BC9"
+  ],
+  "total": 12,
+  "named_pct": "75%"
+ }
+]

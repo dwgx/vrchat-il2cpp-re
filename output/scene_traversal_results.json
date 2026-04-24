@@ -1,0 +1,748 @@
+{
+  "generated_by": "scene_traversal_v2",
+  "timestamp": "2026-04-08",
+  "method": "Full BFS scene traversal (30,285 GOs) + component enumeration",
+  "identifications": [
+    {
+      "va": "0x333A8CD0",
+      "current_name": "ComplexComponent_833B",
+      "suggested_name": "_Application",
+      "gameObjects": [
+        "_Application"
+      ],
+      "confidence": "low"
+    },
+    {
+      "va": "0x33A34C20",
+      "current_name": "ComplexComponent_A759",
+      "suggested_name": "_Application",
+      "gameObjects": [
+        "_Application"
+      ],
+      "confidence": "low"
+    },
+    {
+      "va": "0x33C4F170",
+      "current_name": "ComplexComponent_A32A",
+      "suggested_name": "_Application",
+      "gameObjects": [
+        "_Application"
+      ],
+      "confidence": "low"
+    },
+    {
+      "va": "0x3343E520",
+      "current_name": "ComplexComponent_150F",
+      "suggested_name": "PropsManager",
+      "gameObjects": [
+        "PropsManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33A6EFD0",
+      "current_name": "ComplexComponent_4A6B",
+      "suggested_name": "PrintManager",
+      "gameObjects": [
+        "PrintManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33A16E40",
+      "current_name": "ComplexComponent_8D2F",
+      "suggested_name": "InfoPushSystemManager",
+      "gameObjects": [
+        "InfoPushSystemManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x338D5B40",
+      "current_name": "ComplexComponent_8437",
+      "suggested_name": "StickerManager",
+      "gameObjects": [
+        "StickerManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x339B5C50",
+      "current_name": "PrintManager",
+      "suggested_name": "EmojiManager",
+      "gameObjects": [
+        "EmojiManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3389C030",
+      "current_name": "ComplexComponent_29DA",
+      "suggested_name": "AvatarsManager",
+      "gameObjects": [
+        "AvatarsManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33BE72B0",
+      "current_name": "ComplexComponentImpl_01ED",
+      "suggested_name": "Modal_MM_Keyboard",
+      "gameObjects": [
+        "Modal_MM_Keyboard"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x334C4030",
+      "current_name": "ComplexComponentImpl_ED9E",
+      "suggested_name": "Menu_Settings",
+      "gameObjects": [
+        "Menu_Settings"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3341DAE0",
+      "current_name": "ComplexComponentImplSiblingSibSibling_5C43",
+      "suggested_name": "Cell_MM_SettingStat",
+      "gameObjects": [
+        "Cell_MM_SettingStat"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x31A12A20",
+      "current_name": "ComplexComponentImpl_D812",
+      "suggested_name": "Options",
+      "gameObjects": [
+        "Options",
+        "Badges",
+        "Credits",
+        "Avatars Container",
+        "Tags_Container",
+        "Profile",
+        "Collections",
+        "ItemCounter",
+        "Banners"
+      ],
+      "confidence": "low"
+    },
+    {
+      "va": "0x33A1E9F0",
+      "current_name": "ComplexComponentImpl_B3A8",
+      "suggested_name": "Menu_MM_Profile",
+      "gameObjects": [
+        "Menu_MM_Profile"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3376F1F0",
+      "current_name": "ComplexComponent_9844",
+      "suggested_name": "Menu_MM_Profile",
+      "gameObjects": [
+        "Menu_MM_Profile"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x31A12C30",
+      "current_name": "ComplexComponent_72BD",
+      "suggested_name": "Playlists",
+      "gameObjects": [
+        "Playlists",
+        "AttributeRow",
+        "Cell_Avatar_Attribute_Row"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "va": "0x334E85D0",
+      "current_name": "ComplexComponentImpl_A5C0",
+      "suggested_name": "Worlds",
+      "gameObjects": [
+        "Worlds",
+        "Avatars",
+        "SubscriptionGroup_Expired",
+        "Panel"
+      ],
+      "confidence": "low"
+    },
+    {
+      "va": "0x333B3080",
+      "current_name": "ComplexComponentImplSiblingSibSibling_84EA",
+      "suggested_name": "Gradient",
+      "gameObjects": [
+        "Gradient",
+        "Icon_AgeVerification",
+        "Icon_Status"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "va": "0x31A13100",
+      "current_name": "ComplexComponentImpl_186A",
+      "suggested_name": "InventoryContents",
+      "gameObjects": [
+        "InventoryContents",
+        "Page_MM_UserIcons",
+        "Page_MM_Prints",
+        "Page_MM_Photos"
+      ],
+      "confidence": "low"
+    },
+    {
+      "va": "0x319BD950",
+      "current_name": "ComplexComponentImplSiblingSibSibling_16A2",
+      "suggested_name": "Category_WarpEffects",
+      "gameObjects": [
+        "Category_WarpEffects",
+        "Category_LoadingScreens",
+        "Category_PortalSkins",
+        "Category_DroneSkins"
+      ],
+      "confidence": "low"
+    },
+    {
+      "va": "0x3385CC10",
+      "current_name": "ComplexComponentImpl_7804",
+      "suggested_name": "Menu_MM_LiveNow",
+      "gameObjects": [
+        "Menu_MM_LiveNow"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33CC5540",
+      "current_name": "ComplexComponentImpl_B5AE",
+      "suggested_name": "Menu_MM_Avatars",
+      "gameObjects": [
+        "Menu_MM_Avatars"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x30B88030",
+      "current_name": "ComplexComponent_D3AD",
+      "suggested_name": "Items_Filter",
+      "gameObjects": [
+        "Items_Filter",
+        "Items",
+        "Stickers_Filter",
+        "Stickers",
+        "Groups",
+        "Wing_Menu_Worlds_Filter"
+      ],
+      "confidence": "low"
+    },
+    {
+      "va": "0x33C04720",
+      "current_name": "ComplexComponentImpl_627D",
+      "suggested_name": "Wing_FriendsFilter",
+      "gameObjects": [
+        "Wing_FriendsFilter"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3399DE80",
+      "current_name": "ComplexComponentImpl_7C19",
+      "suggested_name": "Menu_QM_Launchpad",
+      "gameObjects": [
+        "Menu_QM_Launchpad"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33AA6410",
+      "current_name": "ComplexComponentImpl_4D7D",
+      "suggested_name": "Modal_QM_SharedConnectionsLists",
+      "gameObjects": [
+        "Modal_QM_SharedConnectionsLists"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33434030",
+      "current_name": "ComplexComponentImplImpl_03E9",
+      "suggested_name": "Modal_QM_ChangeShieldLevel",
+      "gameObjects": [
+        "Modal_QM_ChangeShieldLevel"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33AAD4D0",
+      "current_name": "ComplexComponentImplImpl_0A7E",
+      "suggested_name": "Modal_QM_ConfirmURLDialog",
+      "gameObjects": [
+        "Modal_QM_ConfirmURLDialog"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x338EC030",
+      "current_name": "ComplexComponentImpl_44BC",
+      "suggested_name": "Modal_ConfirmListDialog",
+      "gameObjects": [
+        "Modal_ConfirmListDialog"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x333DEB50",
+      "current_name": "ComplexComponentImpl_7D6A",
+      "suggested_name": "Modal_ConfirmDialog",
+      "gameObjects": [
+        "Modal_ConfirmDialog",
+        "Modal_NotificationFullMessage",
+        "Modal_LongText"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "va": "0x339D4ED0",
+      "current_name": "ComplexComponentImpl_EBB6",
+      "suggested_name": "Modal_QM_HoveredDrone",
+      "gameObjects": [
+        "Modal_QM_HoveredDrone"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33CFA960",
+      "current_name": "TutorialManager",
+      "suggested_name": "Modal_QM_ViewPhoto",
+      "gameObjects": [
+        "Modal_QM_ViewPhoto"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33CA98B0",
+      "current_name": "UserCamera",
+      "suggested_name": "Modal_QM_MoreActions",
+      "gameObjects": [
+        "Modal_QM_MoreActions"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x334D2F00",
+      "current_name": "ComplexComponentImpl_024A",
+      "suggested_name": "Modal_QM_GroupInviteUser",
+      "gameObjects": [
+        "Modal_QM_GroupInviteUser"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33CC4CA0",
+      "current_name": "ComplexComponentImplImpl_A24C",
+      "suggested_name": "Modal_QM_AddAvatarToFavorites",
+      "gameObjects": [
+        "Modal_QM_AddAvatarToFavorites"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x333DE430",
+      "current_name": "ComplexComponentImplImpl_A37D",
+      "suggested_name": "Modal_QM_AddWorldToPlaylist",
+      "gameObjects": [
+        "Modal_QM_AddWorldToPlaylist"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x337873C0",
+      "current_name": "ComplexComponentImpl_0C68",
+      "suggested_name": "Modal_AddMessage",
+      "gameObjects": [
+        "Modal_AddMessage"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33976B00",
+      "current_name": "ComplexComponentImpl_CA94",
+      "suggested_name": "Modal_QM_PopupBuilder",
+      "gameObjects": [
+        "Modal_QM_PopupBuilder"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x338F4030",
+      "current_name": "ComplexComponentImplImpl_83F0",
+      "suggested_name": "Modal_QM_MassGiftingMethod",
+      "gameObjects": [
+        "Modal_QM_MassGiftingMethod"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3387C6E0",
+      "current_name": "StickerManager",
+      "suggested_name": "Menu_QM_Report",
+      "gameObjects": [
+        "Menu_QM_Report"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33CC4030",
+      "current_name": "ComplexComponentImpl_EE5A",
+      "suggested_name": "Menu_QM_AvatarDetails",
+      "gameObjects": [
+        "Menu_QM_AvatarDetails"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x337C6710",
+      "current_name": "ComplexComponentImpl_ECD6",
+      "suggested_name": "Menu_QM_Gallery",
+      "gameObjects": [
+        "Menu_QM_Gallery"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33ACC030",
+      "current_name": "ComplexComponentImpl_3054",
+      "suggested_name": "Menu_InviteResponse",
+      "gameObjects": [
+        "Menu_InviteResponse"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33414030",
+      "current_name": "ComplexComponentImpl_BB45",
+      "suggested_name": "Menu_QM_SelectedProp",
+      "gameObjects": [
+        "Menu_QM_SelectedProp"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33A373E0",
+      "current_name": "ComplexComponentImpl_B5C6",
+      "suggested_name": "Menu_QM_SelectedPrint",
+      "gameObjects": [
+        "Menu_QM_SelectedPrint"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x336ECA70",
+      "current_name": "ComplexComponentImpl_1231",
+      "suggested_name": "Menu_QM_SelectedDrone",
+      "gameObjects": [
+        "Menu_QM_SelectedDrone"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3383EA50",
+      "current_name": "ComplexComponentImpl_1B9E",
+      "suggested_name": "Menu_QM_SelectedSticker",
+      "gameObjects": [
+        "Menu_QM_SelectedSticker"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33659600",
+      "current_name": "ComplexComponentImplSibling_B7AE",
+      "suggested_name": "Modal_QM_BoopDialog",
+      "gameObjects": [
+        "Modal_QM_BoopDialog"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33588030",
+      "current_name": "ComplexComponentImpl_7D75",
+      "suggested_name": "Menu_SelectedUser_Remote",
+      "gameObjects": [
+        "Menu_SelectedUser_Remote",
+        "Menu_SelectedUser_Local"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "va": "0x3387C030",
+      "current_name": "ComplexComponentImpl_40CC",
+      "suggested_name": "Menu_DevTools",
+      "gameObjects": [
+        "Menu_DevTools"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x336A4A30",
+      "current_name": "ComplexComponentImpl_1447",
+      "suggested_name": "Menu_MassGifting",
+      "gameObjects": [
+        "Menu_MassGifting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3379DFB0",
+      "current_name": "ComplexComponentImpl_B87A",
+      "suggested_name": "Menu_QM_ReportHere",
+      "gameObjects": [
+        "Menu_QM_ReportHere"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3341EE90",
+      "current_name": "ComplexComponentImpl_FAF0",
+      "suggested_name": "Menu_QM_GeneralSettings",
+      "gameObjects": [
+        "Menu_QM_GeneralSettings"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33756DF0",
+      "current_name": "ComplexComponentImpl_865E",
+      "suggested_name": "Menu_QM_VRChatPlus",
+      "gameObjects": [
+        "Menu_QM_VRChatPlus"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33C26A60",
+      "current_name": "ComplexComponentImpl_7490",
+      "suggested_name": "Menu_QM_AudioSettings",
+      "gameObjects": [
+        "Menu_QM_AudioSettings"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33AE6000",
+      "current_name": "ComplexComponentImpl_725E",
+      "suggested_name": "Menu_Camera",
+      "gameObjects": [
+        "Menu_Camera"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3390C030",
+      "current_name": "ComplexComponentImpl_5985",
+      "suggested_name": "Menu_Here",
+      "gameObjects": [
+        "Menu_Here"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x335E1820",
+      "current_name": "ComplexComponentImpl_4B5F",
+      "suggested_name": "Menu_Notifications",
+      "gameObjects": [
+        "Menu_Notifications"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x336A41C0",
+      "current_name": "ComplexComponent_7BB9",
+      "suggested_name": "ActionMenu",
+      "gameObjects": [
+        "ActionMenu"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x339BEAC0",
+      "current_name": "ComplexComponentImplSibling_520E",
+      "suggested_name": "InputPopup",
+      "gameObjects": [
+        "InputPopup",
+        "InputKeypadPopup"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "va": "0x334D2330",
+      "current_name": "ComplexComponentImplSiblingSibling_3EBD",
+      "suggested_name": "DatePopup",
+      "gameObjects": [
+        "DatePopup"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x334EA260",
+      "current_name": "ComplexComponent_6109",
+      "suggested_name": "ThirdPersonViewController",
+      "gameObjects": [
+        "ThirdPersonViewController"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33CABBD0",
+      "current_name": "ComplexComponent_0E6C",
+      "suggested_name": "InventoryBundlesManager",
+      "gameObjects": [
+        "InventoryBundlesManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x333FFBF0",
+      "current_name": "ComplexComponent_62E8",
+      "suggested_name": "Nameplate",
+      "gameObjects": [
+        "Nameplate"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33AB4670",
+      "current_name": "ComplexComponent_E3CB",
+      "suggested_name": "NotificationManager",
+      "gameObjects": [
+        "NotificationManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3397EF30",
+      "current_name": "ComplexComponent_58E5",
+      "suggested_name": "CursorManager",
+      "gameObjects": [
+        "CursorManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x336CF070",
+      "current_name": "ComplexComponent_3634",
+      "suggested_name": "PersonalMirror",
+      "gameObjects": [
+        "PersonalMirror"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3336AE50",
+      "current_name": "ComplexComponent_C566",
+      "suggested_name": "UserCamera",
+      "gameObjects": [
+        "UserCamera"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x333812D0",
+      "current_name": "ComplexComponent_C4E0",
+      "suggested_name": "UserCamera",
+      "gameObjects": [
+        "UserCamera"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33380AD0",
+      "current_name": "ComplexComponent_4AB1",
+      "suggested_name": "UserCamera",
+      "gameObjects": [
+        "UserCamera"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3336B9E0",
+      "current_name": "ComplexComponent_8270",
+      "suggested_name": "UserCamera",
+      "gameObjects": [
+        "UserCamera"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x31A29950",
+      "current_name": "ComplexComponent_D19C",
+      "suggested_name": "UserCamera",
+      "gameObjects": [
+        "UserCamera"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x30B91390",
+      "current_name": "ComplexComponent_9004",
+      "suggested_name": "AnalyticsManager",
+      "gameObjects": [
+        "AnalyticsManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3372CED0",
+      "current_name": "ComplexComponentSiblingSiblingSibling_8B20",
+      "suggested_name": "NetworkManager",
+      "gameObjects": [
+        "NetworkManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x3387DFA0",
+      "current_name": "ComplexComponent_FB64",
+      "suggested_name": "ControllerBindingsManager",
+      "gameObjects": [
+        "ControllerBindingsManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x339D64C0",
+      "current_name": "ComplexComponent_3ADB",
+      "suggested_name": "InputManager",
+      "gameObjects": [
+        "InputManager"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x31641BB0",
+      "current_name": "ComplexComponent_6B80",
+      "suggested_name": "AssetManagement",
+      "gameObjects": [
+        "AssetManagement"
+      ],
+      "confidence": "high"
+    },
+    {
+      "va": "0x33757620",
+      "current_name": "ComplexComponentSibling_6646",
+      "suggested_name": "FlowManager",
+      "gameObjects": [
+        "FlowManager"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "stats": {
+    "total": 78,
+    "high": 65,
+    "medium": 5,
+    "low": 8,
+    "new_high": 61,
+    "new_med": 5,
+    "gos_visited": 30285
+  }
+}

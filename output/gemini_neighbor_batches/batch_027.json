@@ -1,0 +1,453 @@
+[
+ {
+  "class": "Static9m_6501",
+  "parent": "",
+  "known_methods": [
+   "WriteValue",
+   "Getter",
+   "GetLastServiceDescriptor",
+   "GetHashCode",
+   "ElementAt"
+  ],
+  "hash_keys": [
+   "Static9m_6501::m_C4A",
+   "Static9m_6501::m_018"
+  ],
+  "total": 9,
+  "named_pct": "71%"
+ },
+ {
+  "class": "AnimatedTextureBaseImplSibling_BDF9",
+  "parent": "",
+  "known_methods": [
+   "InitializeAnimatedTexture",
+   "ThrowValueMarshalErrorBDF9",
+   "SetValue",
+   "ResolveTextureTarget",
+   "Getter",
+   "GetLast",
+   "LoadAnimationFrame",
+   "SyncAnimatedTextureState",
+   "CacheTextureFrame",
+   "GetAnimatedTextureDebugString",
+   "ApplyCurrentFrame",
+   "SetEnabled",
+   "UpdateAnimatedTexture",
+   "GetAnimatedTextureValue",
+   "GetLastServiceDescriptor",
+   "ContainsChild",
+   "RefreshTextureFrame",
+   "Return",
+   "WriteValue"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImplSibling_BDF9::m_F88",
+   "AnimatedTextureBaseImplSibling_BDF9::m_1DA"
+  ],
+  "total": 49,
+  "named_pct": "90%"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_F5DC",
+  "parent": "ÏÌÏÌÍÍÍÍÍÏÍÏÌÌÍÌÌÍÎÏÌÍÏ",
+  "known_methods": [
+   "Contains",
+   "GetLanguage",
+   "IndexOf",
+   "Add",
+   "op_Implicit",
+   "Remove",
+   "GetPlatform",
+   "GetInstanceID",
+   "AddUnitNode",
+   "System.Collections.IList.IndexOf",
+   "SetCachedTextureReference",
+   "CompositionMethod",
+   "Initialize",
+   "Instantiate",
+   "set_element",
+   "CompareBaseObjects",
+   "SetConnectedBody",
+   "AcquireSharedHandle",
+   "StopCoroutine",
+   "AssignConnectedBody",
+   "GetSessionId"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImpl_F5DC::m_148"
+  ],
+  "total": 28,
+  "named_pct": "95%"
+ },
+ {
+  "class": "NetworkSyncable_4FAA",
+  "parent": "ÎÎÍÏÏÎÌÎÎÌÎÌÎÌÍÏÍÌÍÌÎÏÍ",
+  "known_methods": [
+   "get_ValidExpressions",
+   "set_ValidExpressions",
+   "set_TypeId",
+   "InvokeRepeating",
+   "StartCoroutine",
+   "CheckUIElementVisibilityCondition",
+   "OnNetworkReady",
+   "StopCoroutine",
+   "OnApplicationQuit",
+   "GetBufferedTimes",
+   "SetOverlay",
+   "Initialize",
+   "InvokeDelayed",
+   "get_hidden",
+   "set_hidden",
+   "IsInvoking",
+   "StartCoroutineManaged2",
+   "Update",
+   "SetModelAlphaBlendShader",
+   "DoSetValue",
+   "DoInternal_FromEulerRad_Injected_BD9",
+   "Getter",
+   "TryResolveValue",
+   "SetSyncTarget",
+   "GetUShortProperty14",
+   "FindObjectsByType",
+   "GetLongProperty17",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "TryGetValue"
+  ],
+  "hash_keys": [
+   "NetworkSyncable_4FAA::m_772",
+   "NetworkSyncable_4FAA::m_9D6",
+   "NetworkSyncable_4FAA::m_61A",
+   "NetworkSyncable_4FAA::m_531",
+   "NetworkSyncable_4FAA::m_B54",
+   "NetworkSyncable_4FAA::m_CF7",
+   "NetworkSyncable_4FAA::m_5E3",
+   "NetworkSyncable_4FAA::m_31C",
+   "NetworkSyncable_4FAA::m_1F4",
+   "NetworkSyncable_4FAA::m_609",
+   "NetworkSyncable_4FAA::m_9EC",
+   "NetworkSyncable_4FAA::m_EFA",
+   "NetworkSyncable_4FAA::m_189",
+   "NetworkSyncable_4FAA::m_FE2",
+   "NetworkSyncable_4FAA::m_8CF",
+   "NetworkSyncable_4FAA::m_807",
+   "NetworkSyncable_4FAA::m_27F",
+   "NetworkSyncable_4FAA::m_203",
+   "NetworkSyncable_4FAA::m_D1A"
+  ],
+  "total": 72,
+  "named_pct": "64%"
+ },
+ {
+  "class": "ComplexComponentImplSibling_9D8D",
+  "parent": "ÍÍÎÌÍÌÍÎÍÎÍÏÎÌÎÎÍÏÌÎÏÌÌ",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "ReadRectTransformRect",
+   "Initialize",
+   "Awake",
+   "Update",
+   "LogComponentState",
+   "LateUpdate"
+  ],
+  "hash_keys": [
+   "ComplexComponentImplSibling_9D8D::m_5D5",
+   "ComplexComponentImplSibling_9D8D::m_E33"
+  ],
+  "total": 11,
+  "named_pct": "77%"
+ },
+ {
+  "class": "BaseClass16Impl_55A6",
+  "parent": "ÏÍÎÍÌÍÍÏÍÌÏÏÏÎÍÎÌÍÎÏÌÏÏ",
+  "known_methods": [
+   "GetComponentTransform",
+   "Initialize",
+   "IsInvoking",
+   "ApplyTransform",
+   "InvokeRepeating",
+   "ReadTransformState",
+   "StartCoroutine",
+   "SyncTransform",
+   "ApplyEulerRotation",
+   "remove_onUpdate"
+  ],
+  "hash_keys": [
+   "BaseClass16Impl_55A6::m_703",
+   "BaseClass16Impl_55A6::m_A9A"
+  ],
+  "total": 14,
+  "named_pct": "83%"
+ },
+ {
+  "class": "Static41m_809B",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "DoFindRelativeTransformWithPath_28D",
+   "OvrAudioMaterialSetFrequencyWwise",
+   "FindObjectsWithSpecificFilter",
+   "OvrAudioGetPluginContextWwise",
+   "OvrAudioGeometrySetTransformWwise",
+   "OvrAudioMaterialGetFrequencyWwise",
+   "FindObjectByParameter",
+   "FindObjectsByMultipleCriteria",
+   "Destroy",
+   "DestroyImmediate",
+   "FindObjectsOfType",
+   "WriteOculusWwiseAudioGeometryMeshFile",
+   "FindObjectsByType",
+   "ReadOculusWwiseAudioGeometryMeshFile",
+   "DontDestroyOnLoad",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindObjectOfType",
+   "FindFirstObjectByType"
+  ],
+  "hash_keys": [
+   "Static41m_809B::m_99F",
+   "Static41m_809B::m_1DF",
+   "Static41m_809B::m_298"
+  ],
+  "total": 41,
+  "named_pct": "92%"
+ },
+ {
+  "class": "ComplexComponentSiblingSibling_D534",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "set_element",
+   "GetIKSolver",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "SetModelShader",
+   "GetCachedPtr",
+   "get_name",
+   "Initialize",
+   "Instantiate",
+   "Equals",
+   "GetBufferedTimes",
+   "GetHashCode",
+   "ToString",
+   "SetMethodOrObjectPointer",
+   "CreateTrackedHandle",
+   "Destroy",
+   "GetStatus",
+   "DestroyImmediate",
+   "InitializeOrProcessConfiguration",
+   "FindObjectsOfType",
+   "FindObjectsByType",
+   "Init",
+   "DontDestroyOnLoad",
+   "get_hideFlags",
+   "set_hideFlags",
+   "AddSubtraction",
+   "GetSessionId",
+   "FindFirstObjectByType",
+   "CheckNullArgument"
+  ],
+  "hash_keys": [
+   "ComplexComponentSiblingSibling_D534::m_BAD",
+   "ComplexComponentSiblingSibling_D534::m_F0E",
+   "ComplexComponentSiblingSibling_D534::m_DB0",
+   "ComplexComponentSiblingSibling_D534::m_0CC",
+   "ComplexComponentSiblingSibling_D534::m_570",
+   "ComplexComponentSiblingSibling_D534::m_A11"
+  ],
+  "total": 59,
+  "named_pct": "88%"
+ },
+ {
+  "class": "AnimatedTextureBaseImplSiblingSibling_5B53",
+  "parent": "",
+  "known_methods": [
+   "InitializeAnimatedTexture",
+   "ResetAnimatedTextureState",
+   "InvokeAnimatedTextureCallback",
+   "StartAnimatedTexturePlayback",
+   "UpdateAnimatedTexture",
+   "ApplyAnimatedFrame",
+   "AdvanceAnimatedFrame",
+   "RefreshAnimatedTexture",
+   "PauseAnimatedTexturePlayback",
+   "StopAnimatedTexturePlayback",
+   "Enable"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImplSiblingSibling_5B53::m_4C9"
+  ],
+  "total": 13,
+  "named_pct": "91%"
+ },
+ {
+  "class": "LifecycleComponentImplImpl_3709",
+  "parent": "ÍÍÌÏÌÌÎÎÎÍÌÍÌÍÎÍÏÍÏÏÏÌÍ",
+  "known_methods": [
+   "Start",
+   "Initialize",
+   "ReadThreeBits",
+   "ConsumeThreeBits",
+   "get_Default",
+   "ReadByte",
+   "ReadByteSequence",
+   "WriteAsync",
+   "ReadThreeBitsChecked"
+  ],
+  "hash_keys": [
+   "LifecycleComponentImplImpl_3709::m_0AC",
+   "LifecycleComponentImplImpl_3709::m_2E1",
+   "LifecycleComponentImplImpl_3709::m_E8F",
+   "LifecycleComponentImplImpl_3709::m_576",
+   "LifecycleComponentImplImpl_3709::m_93A",
+   "LifecycleComponentImplImpl_3709::m_ECE",
+   "LifecycleComponentImplImpl_3709::m_626",
+   "LifecycleComponentImplImpl_3709::m_874",
+   "LifecycleComponentImplImpl_3709::m_AC4",
+   "LifecycleComponentImplImpl_3709::m_ED2",
+   "LifecycleComponentImplImpl_3709::m_556",
+   "LifecycleComponentImplImpl_3709::m_8A9",
+   "LifecycleComponentImplImpl_3709::m_2BF",
+   "LifecycleComponentImplImpl_3709::m_566"
+  ],
+  "total": 29,
+  "named_pct": "39%"
+ },
+ {
+  "class": "Service21m_935A",
+  "parent": "Object",
+  "known_methods": [
+   "GetSessionId",
+   "SetOverlay",
+   "set_element",
+   "GetBufferedTimes",
+   "AddUnitNode",
+   "SetCurrentSocket",
+   "Initialize",
+   "set_name",
+   "Instantiate",
+   "GetLanguage",
+   "Equals",
+   "AddSubtraction",
+   "GetHashCode",
+   "ToString",
+   "Init",
+   "GetPlatform",
+   "Destroy"
+  ],
+  "hash_keys": [
+   "Service21m_935A::m_3D9"
+  ],
+  "total": 21,
+  "named_pct": "94%"
+ },
+ {
+  "class": "NetworkSyncable_8A3D",
+  "parent": "ÎÎÍÏÏÎÌÎÎÌÎÌÎÌÍÏÍÌÍÌÎÏÍ",
+  "known_methods": [
+   "get_ValidExpressions",
+   "set_UniqueHash",
+   "StopCoroutine",
+   "Initialize",
+   "set_TypeId",
+   "StopAllCoroutines",
+   "GetBufferedTimes",
+   "Internal_IsInvokingAll",
+   "Update",
+   "get_alreadySelecting",
+   "set_AllowAutoRedirect",
+   "GetIKSolver"
+  ],
+  "hash_keys": [
+   "NetworkSyncable_8A3D::m_A72"
+  ],
+  "total": 29,
+  "named_pct": "92%"
+ },
+ {
+  "class": "ComplexComponentSibling_2B39",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "Initialize",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "ReadTransformState",
+   "SetGameObjectActive",
+   "GetRendererMaterial",
+   "InitializeAndProcessComplexComponent"
+  ],
+  "hash_keys": [
+   "ComplexComponentSibling_2B39::m_0F3",
+   "ComplexComponentSibling_2B39::m_605"
+  ],
+  "total": 18,
+  "named_pct": "86%"
+ },
+ {
+  "class": "Mono14mImpl_C872",
+  "parent": "ÍÌÍÎÎÌÏÎÌÌÎÌÍÏÏÎÎÏÎÎÍÌÏ",
+  "known_methods": [
+   "GetNetworkCallingMetadata",
+   "Evaluate",
+   "IsInvoking",
+   "GetIKSolver",
+   "Initialize",
+   "CancelInvoke",
+   "Awake",
+   "StartCoroutine",
+   "ConfigurePoseRoiAnnotationController",
+   "StopCoroutine",
+   "Invoke"
+  ],
+  "hash_keys": [
+   "Mono14mImpl_C872::m_667",
+   "Mono14mImpl_C872::m_E4E"
+  ],
+  "total": 16,
+  "named_pct": "84%"
+ },
+ {
+  "class": "UIRectTransformDimensionsChBeforeTransformImpl_2B6D",
+  "parent": "ÏÎÍÎÌÎÎÍÌÌÏÍÏÌÎÏÏÏÍÌÏÎÌ",
+  "known_methods": [
+   "StoreInitialProductLimbs",
+   "Initialize",
+   "ReadUInt32BigEndian",
+   "GetBox",
+   "StoreProductWindow",
+   "StoreMulResultLimbs",
+   "MultiplyLimbArrays",
+   "LoadUpperProductOperands",
+   "AccumulateExtendedProductTerms",
+   "AccumulateProductTerms",
+   "AccumulateCrossProductBlock",
+   "AccumulateReducedProductTerms"
+  ],
+  "hash_keys": [
+   "UIRectTransformDimensionsChBeforeTransformImpl_2B6D::m_28C",
+   "UIRectTransformDimensionsChBeforeTransformImpl_2B6D::m_340",
+   "UIRectTransformDimensionsChBeforeTransformImpl_2B6D::m_795",
+   "UIRectTransformDimensionsChBeforeTransformImpl_2B6D::m_9B8",
+   "UIRectTransformDimensionsChBeforeTransformImpl_2B6D::m_2BB",
+   "UIRectTransformDimensionsChBeforeTransformImpl_2B6D::m_DB0"
+  ],
+  "total": 21,
+  "named_pct": "66%"
+ }
+]

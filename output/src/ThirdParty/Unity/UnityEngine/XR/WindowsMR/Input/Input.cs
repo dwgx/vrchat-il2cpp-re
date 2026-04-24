@@ -1,0 +1,98 @@
+// VRChat IL2CPP Deobfuscated Source
+// Namespace: ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
+// Classes: 3
+// Methods: 50
+
+namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
+{
+    public class HololensHand : XRController
+    {
+        public _1.utReport deviceVelocity; // 0x1B0
+        public _1.ceControlChangedValue airTap; // 0x1B8
+        public _1.Index sourceLossRisk; // 0x1C0
+        public _1.utReport sourceLossMitigationDirection; // 0x1C8
+
+        // ── Methods ──
+        public void get_deviceVelocity(){} // RVA: 0x7FFD4E969F30
+        public void set_deviceVelocity(){} // RVA: 0x7FFD4EDC7790
+        public void get_airTap(){} // RVA: 0x7FFD4E964330
+        public void set_airTap(){} // RVA: 0x7FFD4EDCC050
+        public void get_sourceLossRisk(){} // RVA: 0x7FFD4E9622B0
+        public void set_sourceLossRisk(){} // RVA: 0x7FFD4EDCD110
+        public void get_sourceLossMitigationDirection(){} // RVA: 0x7FFD4EDECB10
+        public void set_sourceLossMitigationDirection(){} // RVA: 0x7FFD4EDEF3F0
+        public void FinishSetup(){} // RVA: 0x7FFD54939BE0
+        public void .ctor(){} // RVA: 0x7FFD54936440
+    }
+
+    public class WMRHMD : XRHMD
+    {
+        public _1.ceControlChangedValue userPresence; // 0x1E0
+
+        // ── Methods ──
+        public void get_userPresence(){} // RVA: 0x7FFD4E818150
+        public void set_userPresence(){} // RVA: 0x7FFD4EDD1270
+        public void FinishSetup(){} // RVA: 0x7FFD54939B20
+        public void .ctor(){} // RVA: 0x7FFD54936440
+    }
+
+    public class WMRSpatialController : XRControllerWithRumble
+    {
+        public _1.lSenseHIDUSBInputReport joystick; // 0x1B0
+        public _1.lSenseHIDUSBInputReport touchpad; // 0x1B8
+        public _1.Index grip; // 0x1C0
+        public _1.ceControlChangedValue gripPressed; // 0x1C8
+        public _1.ceControlChangedValue menu; // 0x1D0
+        public _1.Index trigger; // 0x1D8
+        public _1.ceControlChangedValue triggerPressed; // 0x1E0
+        public _1.ceControlChangedValue joystickClicked; // 0x1E8
+        public _1.ceControlChangedValue touchpadClicked; // 0x1F0
+        public _1.ceControlChangedValue touchpadTouched; // 0x1F8
+        public _1.utReport deviceVelocity; // 0x200
+        public _1.utReport deviceAngularVelocity; // 0x208
+        public _1.Index batteryLevel; // 0x210
+        public _1.Index sourceLossRisk; // 0x218
+        public _1.utReport sourceLossMitigationDirection; // 0x220
+        public _1.utReport pointerPosition; // 0x228
+        public _1.? pointerRotation; // 0x230
+
+        // ── Methods ──
+        public void get_joystick(){} // RVA: 0x7FFD4E969F30
+        public void set_joystick(){} // RVA: 0x7FFD4EDC7790
+        public void get_touchpad(){} // RVA: 0x7FFD4E964330
+        public void set_touchpad(){} // RVA: 0x7FFD4EDCC050
+        public void get_grip(){} // RVA: 0x7FFD4E9622B0
+        public void set_grip(){} // RVA: 0x7FFD4EDCD110
+        public void get_gripPressed(){} // RVA: 0x7FFD4EDECB10
+        public void set_gripPressed(){} // RVA: 0x7FFD4EDEF3F0
+        public void get_menu(){} // RVA: 0x7FFD4EDE1920
+        public void set_menu(){} // RVA: 0x7FFD4EDC8050
+        public void get_trigger(){} // RVA: 0x7FFD4EDE0A30
+        public void set_trigger(){} // RVA: 0x7FFD4EDEF5C0
+        public void get_triggerPressed(){} // RVA: 0x7FFD4E818150
+        public void set_triggerPressed(){} // RVA: 0x7FFD4EDD1270
+        public void get_joystickClicked(){} // RVA: 0x7FFD4EDD1060
+        public void set_joystickClicked(){} // RVA: 0x7FFD4EDCC5A0
+        public void get_touchpadClicked(){} // RVA: 0x7FFD4E964EF0
+        public void set_touchpadClicked(){} // RVA: 0x7FFD4E961400
+        public void get_touchpadTouched(){} // RVA: 0x7FFD4E961460
+        public void set_touchpadTouched(){} // RVA: 0x7FFD4E964450
+        public void get_deviceVelocity(){} // RVA: 0x7FFD4E964790
+        public void set_deviceVelocity(){} // RVA: 0x7FFD4E96D230
+        public void get_deviceAngularVelocity(){} // RVA: 0x7FFD4E964780
+        public void set_deviceAngularVelocity(){} // RVA: 0x7FFD4E96D290
+        public void get_batteryLevel(){} // RVA: 0x7FFD4E96BCB0
+        public void set_batteryLevel(){} // RVA: 0x7FFD4E963140
+        public void get_sourceLossRisk(){} // RVA: 0x7FFD4E961470
+        public void set_sourceLossRisk(){} // RVA: 0x7FFD4E962420
+        public void get_sourceLossMitigationDirection(){} // RVA: 0x7FFD4E9693F0
+        public void set_sourceLossMitigationDirection(){} // RVA: 0x7FFD4E96AC80
+        public void get_pointerPosition(){} // RVA: 0x7FFD4E960FB0
+        public void set_pointerPosition(){} // RVA: 0x7FFD4EDCE720
+        public void get_pointerRotation(){} // RVA: 0x7FFD4E962820
+        public void set_pointerRotation(){} // RVA: 0x7FFD4EDE7D40
+        public void FinishSetup(){} // RVA: 0x7FFD54939E60
+        public void .ctor(){} // RVA: 0x7FFD54936440
+    }
+
+}

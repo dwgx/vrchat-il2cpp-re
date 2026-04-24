@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_FDB": "InitializeCoroutines",
+ "VRC_Main::m_205": "ProcessNetworkEvents",
+ "VRC_Main::m_574": "UpdatePlayerState",
+ "VRC_Main::m_19C": "HandleJoinRequest",
+ "VRC_Main::m_E6F": "HandleLeaveRequest",
+ "VRC_Main::m_C06": "InitAntiCheat",
+ "VRC_Main::m_B04": "SetupNetworkManager",
+ "VRC_Main::m_47D": "LoadLocalProfile",
+ "VRC_Main::m_1C4": "SyncRemoteProfile",
+ "VRC_Main::m_240": "CleanupResources"
+}

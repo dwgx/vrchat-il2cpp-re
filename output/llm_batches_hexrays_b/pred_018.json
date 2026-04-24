@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_B14": "UpdateMainState",
+ "VRC_Main::m_F56": "InitializeMain",
+ "VRC_Main::m_D32": "ProcessMainData",
+ "VRC_Main::m_98B": "CheckMainStatus",
+ "VRC_Main::m_E60": "CalculateMainValue",
+ "VRC_Main::m_47C": "ValidateMainState",
+ "VRC_Main::m_566": "RefreshMainData",
+ "VRC_Main::m_C2F": "VerifyMainState",
+ "VRC_Main::m_5F6": "DisableComponent",
+ "VRC_Main::m_08D": "SetComponentDisabled"
+}

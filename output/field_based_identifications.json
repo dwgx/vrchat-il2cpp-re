@@ -1,0 +1,727 @@
+{
+  "generated_by": "identify_by_fields.py",
+  "method": "Field name keyword matching from runtime MethodInfo scan",
+  "identifications": [
+    {
+      "va": "0x336BD380",
+      "current_name": "ComplexComponentImpl_530A",
+      "suggested_name": "AvatarPreviewPanel",
+      "confidence": "high",
+      "key_fields": [
+        "_layout",
+        "_avatarPanel",
+        "_avatarUnavailableBanner",
+        "_favoriteButton"
+      ],
+      "field_count": 5
+    },
+    {
+      "va": "0x334A4510",
+      "current_name": "ComplexComponentImplImpl_77BA",
+      "suggested_name": "ReportsPanel",
+      "confidence": "high",
+      "key_fields": [
+        "NoReportsMessage",
+        "HeaderText",
+        "TotalReportsText",
+        "_scrollRect",
+        "_radioButtonSelectorGroup"
+      ],
+      "field_count": 9
+    },
+    {
+      "va": "0x33AE6A30",
+      "current_name": "ComplexComponentImplImpl_CDF3",
+      "suggested_name": "CreditPurchasePanel",
+      "confidence": "high",
+      "key_fields": [
+        "_creditsNeededForPurchaseText",
+        "_currentCreditBalanceText",
+        "_allCreditBundleOptionsPanel",
+        "_otherCreditBundleOptionsPanel",
+        "_bestCreditBundle"
+      ],
+      "field_count": 23
+    },
+    {
+      "va": "0x33639BE0",
+      "current_name": "ComplexComponentImpl_E30E",
+      "suggested_name": "SectionListPanel",
+      "confidence": "high",
+      "key_fields": [
+        "_title",
+        "_closeButton",
+        "_contentList",
+        "_scrollRect",
+        "_sortDropdown"
+      ],
+      "field_count": 8
+    },
+    {
+      "va": "0x338F5B40",
+      "current_name": "ComplexComponentImpl_B2F0",
+      "suggested_name": "WorldsBrowser",
+      "confidence": "high",
+      "key_fields": [
+        "_myStuffFoldout",
+        "_myStuffOptions",
+        "_foldoutTooltip",
+        "_worldsMyStuff",
+        "_headerText"
+      ],
+      "field_count": 26
+    },
+    {
+      "va": "0x3395C030",
+      "current_name": "ComplexComponentImplImpl_20D6",
+      "suggested_name": "SearchSortFilter",
+      "confidence": "medium",
+      "key_fields": [
+        "_searchTypeRelevance",
+        "_searchTypeCustom",
+        "_sortByLastUpdated",
+        "_sortByPopular",
+        "_sortByTrust"
+      ],
+      "field_count": 30
+    },
+    {
+      "va": "0x315D3760",
+      "current_name": "ComplexComponentImpl_D439",
+      "suggested_name": "ItemCell",
+      "confidence": "high",
+      "key_fields": [
+        "_visibilityButton",
+        "_viewUserProfileButton",
+        "_removeItemButton",
+        "_detailsPanel"
+      ],
+      "field_count": 7
+    },
+    {
+      "va": "0x3362A130",
+      "current_name": "ComplexComponentImpl_D439",
+      "suggested_name": "ItemCell",
+      "confidence": "high",
+      "key_fields": [
+        "_visibilityButton",
+        "_viewUserProfileButton",
+        "_removeItemButton",
+        "_detailsPanel"
+      ],
+      "field_count": 7
+    },
+    {
+      "va": "0x33466FB0",
+      "current_name": "ComplexComponentImplSiblingSibSibling_A3F9",
+      "suggested_name": "IconComponent",
+      "confidence": "medium",
+      "key_fields": [
+        "icon"
+      ],
+      "field_count": 2
+    },
+    {
+      "va": "0x33AADBF0",
+      "current_name": "ComplexComponentImpl_D3E7",
+      "suggested_name": "WorldDetailsPanel",
+      "confidence": "high",
+      "key_fields": [
+        "_worldInformationPanel",
+        "_addToPlaylistHeaderButton",
+        "_reportWorldButton",
+        "_goToAuthorButton"
+      ],
+      "field_count": 8
+    },
+    {
+      "va": "0x33633470",
+      "current_name": "ComplexComponentImplImpl_AC46",
+      "suggested_name": "RadioButtonList",
+      "confidence": "medium",
+      "key_fields": [
+        "_scrollRect",
+        "_radioButtonSelectorGroup"
+      ],
+      "field_count": 24
+    },
+    {
+      "va": "0x319BEE90",
+      "current_name": "ComplexComponentImplSiblingSibSibling_BE19",
+      "suggested_name": "SelectionBinding",
+      "confidence": "medium",
+      "key_fields": [
+        "_selectionBinding"
+      ],
+      "field_count": 7
+    },
+    {
+      "va": "0x3374E6B0",
+      "current_name": "ComplexComponentImplSiblingSibSibling_C1DA",
+      "suggested_name": "AvatarPreviewRotator",
+      "confidence": "high",
+      "key_fields": [
+        "previewStyle",
+        "dragHandler",
+        "rotator"
+      ],
+      "field_count": 8
+    },
+    {
+      "va": "0x33454670",
+      "current_name": "ComplexComponentImpl_C07B",
+      "suggested_name": "CalendarMenu",
+      "confidence": "high",
+      "key_fields": [
+        "_monthToView",
+        "_calendarMonthPanel",
+        "_calendarSideList",
+        "_searchButton",
+        "_calendarEventsFilterButton"
+      ],
+      "field_count": 7
+    },
+    {
+      "va": "0x3366E860",
+      "current_name": "ComplexComponentImplSiblingSibSibling_170B",
+      "suggested_name": "SelectionBinding",
+      "confidence": "medium",
+      "key_fields": [
+        "selectionBinding"
+      ],
+      "field_count": 5
+    },
+    {
+      "va": "0x335E2460",
+      "current_name": "ComplexComponentImpl_ADBF",
+      "suggested_name": "ListOptionSelector",
+      "confidence": "medium",
+      "key_fields": [
+        "_listBinding",
+        "_optionPrefab"
+      ],
+      "field_count": 11
+    },
+    {
+      "va": "0x339D6AB0",
+      "current_name": "ComplexComponentImplImpl_73B5",
+      "suggested_name": "ProductDetailsModal",
+      "confidence": "high",
+      "key_fields": [
+        "_modalPanel",
+        "_nameText",
+        "Image",
+        "_thumbnailQuantityText",
+        "_bundleBanner"
+      ],
+      "field_count": 55
+    },
+    {
+      "va": "0x338178E0",
+      "current_name": "ComplexComponentImpl_5229",
+      "suggested_name": "AvatarSelectionMenu",
+      "confidence": "high",
+      "key_fields": [
+        "_scrollRect",
+        "_avatarSidePanel",
+        "_avatarListView",
+        "_optionalViews",
+        "_optionalAvatarsHeader"
+      ],
+      "field_count": 37
+    },
+    {
+      "va": "0x33C9D5D0",
+      "current_name": "ComplexComponentImpl_E917",
+      "suggested_name": "MarketplaceMenu",
+      "confidence": "high",
+      "key_fields": [
+        "_vrchatStoreTab",
+        "_avatarsSpotlightTab",
+        "_accessoriesTab",
+        "_worldStoresTab",
+        "_groupStoresTab"
+      ],
+      "field_count": 23
+    },
+    {
+      "va": "0x31A10520",
+      "current_name": "ComplexComponentImpl_DC26",
+      "suggested_name": "ItemCustomizer",
+      "confidence": "high",
+      "key_fields": [
+        "colorPickerCanvasGroup",
+        "inspectorCanvasGroup",
+        "sidebarCanvasGroup",
+        "colorPicker",
+        "prevButton"
+      ],
+      "field_count": 25
+    },
+    {
+      "va": "0x33997480",
+      "current_name": "ComplexComponentImplImpl_BE2D",
+      "suggested_name": "ProfileEditor",
+      "confidence": "high",
+      "key_fields": [
+        "_profileAvatarImage",
+        "_profileIconImage",
+        "_defaultUserIcon",
+        "_defaultUserIconText",
+        "_editProfileImageButtons"
+      ],
+      "field_count": 15
+    },
+    {
+      "va": "0x33BE4D60",
+      "current_name": "ComplexComponentImplImpl_F89B",
+      "suggested_name": "ProductListingPanel",
+      "confidence": "medium",
+      "key_fields": [
+        "_standaloneScrimSize",
+        "_listBinding",
+        "_productListingPrefab"
+      ],
+      "field_count": 8
+    },
+    {
+      "va": "0x335FA520",
+      "current_name": "ComplexComponentImpl_442E",
+      "suggested_name": "ListOptionSelector",
+      "confidence": "high",
+      "key_fields": [
+        "_listBinding",
+        "_optionPrefab",
+        "_grid"
+      ],
+      "field_count": 10
+    },
+    {
+      "va": "0x339FF100",
+      "current_name": "ComplexComponentImpl_C916",
+      "suggested_name": "TextureEditor",
+      "confidence": "high",
+      "key_fields": [
+        "headerText",
+        "zoomSlider",
+        "mirrorButton",
+        "acceptTextureButton",
+        "cancelButton"
+      ],
+      "field_count": 34
+    },
+    {
+      "va": "0x33638EF0",
+      "current_name": "ComplexComponentImplImpl_69C4",
+      "suggested_name": "WarningDisplay",
+      "confidence": "medium",
+      "key_fields": [
+        "_warningText"
+      ],
+      "field_count": 1
+    },
+    {
+      "va": "0x333D07B0",
+      "current_name": "ComplexComponentImplImpl_564E",
+      "suggested_name": "PlaylistPrivacySettings",
+      "confidence": "high",
+      "key_fields": [
+        "_public",
+        "_friendsOnly",
+        "_private",
+        "_clearPlaylist",
+        "_editPlaylistInputField"
+      ],
+      "field_count": 9
+    },
+    {
+      "va": "0x337BD740",
+      "current_name": "ComplexComponentImplImpl_E4BB",
+      "suggested_name": "StoreListingDetails",
+      "confidence": "high",
+      "key_fields": [
+        "_listingTitleText",
+        "_listingAuthorText",
+        "_limitedAvailabilityPanel",
+        "_limitedTimeContainer",
+        "_limitedTimeText"
+      ],
+      "field_count": 66
+    },
+    {
+      "va": "0x33CEC1B0",
+      "current_name": "ComplexComponentImpl_E9BC",
+      "suggested_name": "VideoPlayer",
+      "confidence": "high",
+      "key_fields": [
+        "videoPlayerControls",
+        "titleText",
+        "target"
+      ],
+      "field_count": 3
+    },
+    {
+      "va": "0x33BE5860",
+      "current_name": "ComplexComponentImpl_00AD",
+      "suggested_name": "PurchaseTypeSelector",
+      "confidence": "medium",
+      "key_fields": [
+        "closeButton",
+        "purchaseTypeSelectionToggles",
+        "applyButton",
+        "cancelButton"
+      ],
+      "field_count": 5
+    },
+    {
+      "va": "0x33A6C1B0",
+      "current_name": "ComplexComponentImpl_A4F0",
+      "suggested_name": "GroupInstanceFilter",
+      "confidence": "high",
+      "key_fields": [
+        "groupListBinding",
+        "groupTogglePrefab",
+        "instanceTypeSelectAllButton",
+        "instanceTypeDeselectAllButton",
+        "selectAllButton"
+      ],
+      "field_count": 13
+    },
+    {
+      "va": "0x33A6F910",
+      "current_name": "ComplexComponentImpl_1A13",
+      "suggested_name": "SectionListPanel",
+      "confidence": "high",
+      "key_fields": [
+        "_title",
+        "_closeButton",
+        "_scrollRect",
+        "_sectionElements",
+        "_dropdownPersistence"
+      ],
+      "field_count": 11
+    },
+    {
+      "va": "0x33638350",
+      "current_name": "ComplexComponentImplImpl_91E9",
+      "suggested_name": "SubscriptionPeriodSelector",
+      "confidence": "high",
+      "key_fields": [
+        "_productTitle",
+        "_enterPeriodText",
+        "_periodText",
+        "_costText",
+        "_discountText"
+      ],
+      "field_count": 17
+    },
+    {
+      "va": "0x339B6800",
+      "current_name": "ComplexComponentImpl_4156",
+      "suggested_name": "ArticleViewer",
+      "confidence": "high",
+      "key_fields": [
+        "_title",
+        "_content",
+        "_contentBlockPrefab",
+        "_scrollRect",
+        "_backToTheTopButton"
+      ],
+      "field_count": 10
+    },
+    {
+      "va": "0x339F57E0",
+      "current_name": "ComplexComponentImpl_39CA",
+      "suggested_name": "GroupsMenu",
+      "confidence": "high",
+      "key_fields": [
+        "searchFieldButton",
+        "searchGroupEventsFieldButton",
+        "groupLandingPageButton",
+        "groupActivityButton",
+        "groupEventsButton"
+      ],
+      "field_count": 24
+    },
+    {
+      "va": "0x33C0EB50",
+      "current_name": "ComplexComponentImpl_49B2",
+      "suggested_name": "SocialMenu",
+      "confidence": "high",
+      "key_fields": [
+        "headerText",
+        "friendsButton",
+        "invitesButton",
+        "friendRequestsButton",
+        "reportsMenu"
+      ],
+      "field_count": 40
+    },
+    {
+      "va": "0x33A14F20",
+      "current_name": "ComplexComponentImpl_0343",
+      "suggested_name": "AvatarMenu",
+      "confidence": "high",
+      "key_fields": [
+        "_selectedAvatarPanel",
+        "_avatarName",
+        "_exploreAvatarsPanel",
+        "_avatarCollectionsPanel",
+        "_currentAvatarPanel"
+      ],
+      "field_count": 19
+    },
+    {
+      "va": "0x3370C710",
+      "current_name": "ComplexComponentImpl_7AA1",
+      "suggested_name": "AvatarFavoritesMenu",
+      "confidence": "high",
+      "key_fields": [
+        "_selectedAvatarPanel",
+        "_selectedAvatarName",
+        "_title",
+        "_closeButton",
+        "_scrollRect"
+      ],
+      "field_count": 23
+    },
+    {
+      "va": "0x33CA8030",
+      "current_name": "ComplexComponentImpl_E2C8",
+      "suggested_name": "StyleFilterPanel",
+      "confidence": "high",
+      "key_fields": [
+        "applyButton",
+        "closeButton",
+        "cancelButton",
+        "searchButton",
+        "_filterTitle"
+      ],
+      "field_count": 19
+    },
+    {
+      "va": "0x33C272E0",
+      "current_name": "ComplexComponentImplImpl_CE36",
+      "suggested_name": "PlaylistSettingsPanel",
+      "confidence": "high",
+      "key_fields": [
+        "_namePlaylistInputField",
+        "_renamePlaylistButton",
+        "_clearPlaylistButton",
+        "_privacyHeader",
+        "_setPrivacyPrivateButton"
+      ],
+      "field_count": 14
+    },
+    {
+      "va": "0x33836F60",
+      "current_name": "ComplexComponentImplSibling_7B0F",
+      "suggested_name": "GroupBrowser",
+      "confidence": "high",
+      "key_fields": [
+        "_scrollRect",
+        "_status",
+        "_statusIcon",
+        "search",
+        "_buttonGroup"
+      ],
+      "field_count": 31
+    },
+    {
+      "va": "0x33A1D9E0",
+      "current_name": "ComplexComponentImpl_6796",
+      "suggested_name": "UserInvitePanel",
+      "confidence": "high",
+      "key_fields": [
+        "loadingOverlay",
+        "closeButton",
+        "cancelButton",
+        "confirmButton",
+        "friendsTab"
+      ],
+      "field_count": 18
+    },
+    {
+      "va": "0x3370C030",
+      "current_name": "ComplexComponentImpl_F8A0",
+      "suggested_name": "ShowcaseTogglePanel",
+      "confidence": "high",
+      "key_fields": [
+        "_subtitle",
+        "_closeButton",
+        "_showcaseToggle",
+        "_hideToggle",
+        "_showcaseToggleButton"
+      ],
+      "field_count": 7
+    },
+    {
+      "va": "0x33CEEC20",
+      "current_name": "ComplexComponentImpl_EEF8",
+      "suggested_name": "ColorPickerEditor",
+      "confidence": "high",
+      "key_fields": [
+        "title",
+        "editTitleButton",
+        "colorPicker",
+        "colorPickerHSV",
+        "save"
+      ],
+      "field_count": 26
+    },
+    {
+      "va": "0x336322A0",
+      "current_name": "ComplexComponentImpl_E0D5",
+      "suggested_name": "EventDetailsPanel",
+      "confidence": "high",
+      "key_fields": [
+        "_backButton",
+        "_reportButton",
+        "_eventTitleText",
+        "_eventDateText",
+        "_eventImageBinding"
+      ],
+      "field_count": 39
+    },
+    {
+      "va": "0x3374D540",
+      "current_name": "ComplexComponentImpl_D297",
+      "suggested_name": "SearchableListPanel",
+      "confidence": "medium",
+      "key_fields": [
+        "_listPanel",
+        "_searchButton"
+      ],
+      "field_count": 2
+    },
+    {
+      "va": "0x33C2E0B0",
+      "current_name": "ComplexComponentImpl_4E66",
+      "suggested_name": "CloseablePanel",
+      "confidence": "medium",
+      "key_fields": [
+        "closeButtons"
+      ],
+      "field_count": 2
+    },
+    {
+      "va": "0x333A99E0",
+      "current_name": "ComplexComponentImplSiblingSibSibling_8F65",
+      "suggested_name": "BooleanToggle",
+      "confidence": "medium",
+      "key_fields": [
+        "_buttonFalse",
+        "_buttonTrue"
+      ],
+      "field_count": 3
+    },
+    {
+      "va": "0x3374F840",
+      "current_name": "ComplexComponentImplImpl_96FC",
+      "suggested_name": "BundleOpeningPanel",
+      "confidence": "high",
+      "key_fields": [
+        "_bundleOpeningPanel",
+        "_bundleOpeningImage",
+        "_bundleTransform",
+        "_bundleClaimedClip",
+        "_confettiPanel"
+      ],
+      "field_count": 35
+    },
+    {
+      "va": "0x337A4030",
+      "current_name": "ComplexComponentImpl_D6E3",
+      "suggested_name": "StatusFilterPanel",
+      "confidence": "high",
+      "key_fields": [
+        "statusListBinding",
+        "statusTogglePrefab",
+        "statusSelectAllButton",
+        "statusDeselectAllButton",
+        "availabilitySelectAllButton"
+      ],
+      "field_count": 13
+    },
+    {
+      "va": "0x33519C50",
+      "current_name": "ComplexComponentImpl_6AA9",
+      "suggested_name": "GroupOptionsPanel",
+      "confidence": "high",
+      "key_fields": [
+        "closeButton",
+        "moveUpButton",
+        "moveDownButton",
+        "nameplateToggle",
+        "subscribeToNotificationsForGroupButton"
+      ],
+      "field_count": 26
+    },
+    {
+      "va": "0x336F5930",
+      "current_name": "ComplexComponentImplImpl_58F8",
+      "suggested_name": "RefundPanel",
+      "confidence": "high",
+      "key_fields": [
+        "_noRefundAvailable",
+        "_detailsInformation",
+        "_detailsPanel",
+        "_toggleCancelImmediately"
+      ],
+      "field_count": 5
+    },
+    {
+      "va": "0x335A0930",
+      "current_name": "ComplexComponentImpl_0261",
+      "suggested_name": "BackgroundComponent",
+      "confidence": "medium",
+      "key_fields": [
+        "_background"
+      ],
+      "field_count": 2
+    },
+    {
+      "va": "0x33BEE740",
+      "current_name": "ComplexComponentImpl_FFD1",
+      "suggested_name": "DialogFooter",
+      "confidence": "high",
+      "key_fields": [
+        "_bottomRow",
+        "_label",
+        "_buttonsGroup",
+        "closeButtons"
+      ],
+      "field_count": 4
+    },
+    {
+      "va": "0x3376E320",
+      "current_name": "ComplexComponentImpl_CDAC",
+      "suggested_name": "SharePrintPanel",
+      "confidence": "high",
+      "key_fields": [
+        "shareDirect",
+        "dropPrintCanvasGroup",
+        "dropPrint",
+        "printAsPrint",
+        "copyUrlButton"
+      ],
+      "field_count": 49
+    },
+    {
+      "va": "0x33560E10",
+      "current_name": "ComplexComponent_F583",
+      "suggested_name": "PlayerInteraction",
+      "confidence": "medium",
+      "key_fields": [
+        "_vrcplayer",
+        "_laserSelectRegion"
+      ],
+      "field_count": 26
+    }
+  ],
+  "stats": {
+    "total": 55,
+    "high": 41,
+    "medium": 14
+  }
+}

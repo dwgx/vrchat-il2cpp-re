@@ -1,0 +1,155 @@
+# === Secrets ===
+.env
+
+# === Huge binary files (17GB+) ===
+dumps/
+ida/*.i64
+ida/*.asm
+ida/*.id0
+ida/*.id1
+ida/*.id2
+ida/*.nam
+ida/*.til
+ida/__pycache__/
+metadata/
+
+# === External repos (4.9GB, can reclone) ===
+external/
+
+# === Archive (historical, 130MB) ===
+archive/
+
+# === Large generated outputs (Hex-Rays export can be 100MB+) ===
+output/hexrays_export.json
+output/hexrays_export_stats.json
+output/deobfuscated_dump.json
+output/deobfuscated_dump.cs
+output/name_mapping.json
+output/ida_apply_names.py
+output/ida_apply_names_v2.py
+output/field_types.json
+output/all_community_mappings.json
+output/ida_string_refs.json
+output/deep_analysis.json
+
+# === Large intermediate data ===
+data/precise_dump.json
+data/precise_dump.cs
+data/full_dump_with_methods.json
+data/full_dump_with_methods.cs
+data/metadata_strings.json
+data/ida_analysis.json
+data/field_extract_vas.json
+
+# === Python cache ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === Node ===
+node_modules/
+
+# === OS ===
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# === Binaries (keep launch_bypass for reference) ===
+tools/launch_bypass_console.exe
+
+# === Claude Code / temp ===
+.claude/
+condensed.json
+sqlite_mcp_server.db
+
+# === Temp scripts (ad-hoc, not pipeline) ===
+find_callers_*.py
+generate_networkmanager_names.py
+generate_predictions.py
+process_vrcplayer.py
+summarize_vrcplayer.py
+temp_*.py
+temp_*.txt
+vrcplayer_summary.txt
+
+# === Local debug outputs ===
+output/trace_auth_capture.txt
+output/world_scan_results.json
+output/llm_batches/
+
+# === Data backups ===
+data/*.bak
+
+# === Memory dumps (multi-GB) ===
+tools/VRChat_*_full.dmp
+*.dmp
+
+# === Pipeline logs ===
+output/*.log
+output/llm_bulk_run*.log
+
+# === Partial/intermediate hash outputs ===
+output/method_body_hash_lifts_v2_w*.json
+
+# === Version baselines (large, regenerable) ===
+output/v_new_*/
+output/v_old_*/
+
+# === New-version backup data ===
+data/precise_dump.v_*.json
+data/precise_dump_OLD_*.json
+data/v_new_*/
+data/reverse_struct_report.json
+data/struct_layout_verification.json
+
+# === Session-generated intermediate files ===
+data/all_ctx_chunks/
+data/all_ctx_round2/
+data/all_ctx_round3/
+data/body_ctx_chunks/
+data/claude_context/
+data/claude_manual_targets.json
+data/final_ctx_chunks/
+data/hash_ctx_chunk_*.json
+data/hash_method_contexts.json
+data/hexrays_target_vas.json
+data/strong_ctx_chunks/
+ida_new/
+ida_new_surgical/
+output/v_new_ida/
+output/llm_names_chunk_*.json
+output/llm_all_chunk_*.json
+output/llm_round2_chunk_*.json
+output/llm_round3_chunk_*.json
+output/llm_final_chunk_*.json
+output/llm_body_chunk_*.json
+output/llm_classctx_*.json
+output/llm_batches_hexrays/
+output/gemini_names_round2_000.json
+output/gemini_chunk3.json
+output/merge_stats.json
+output/new_internal_body_propagation.json
+output/cross_version_body_fuzzy.json
+output/signature_pattern_predictions.json
+output/cross_class_propagation.json
+output/property_pairs.json
+output/vrc_main_deep_names.json
+output/vrc_main_deep_report.json
+output/vtable_propagation.json
+output/weak_class_renames.json
+output/field_based_names.json
+output/claude_index_propagation.json
+output/claude_rule_names.json
+output/claude_string_id_names.json
+output/claude_oldname_in_strings.json
+output/claude_manual_names.json
+output/vrc_main_position_match.json
+output/old_new_index_match.json
+output/old_new_vtable_names.json
+output/old_new_bigram_match.json
+output/old_new_window_match.json
+output/ida_string_based_names.json
+output/ida_strings_v2_names.json
+output/callgraph_method_names_native.json
+output/ida_method_string_names_native.json
+output/llm_strong_class_names.json

@@ -1,0 +1,30 @@
+MCP issues detected. Run /mcp list for status.```json
+{
+  "LateUpdateComponentSibling_F0B1::m_129": "ForwardCall",
+  "LateUpdateComponentSibling_F0B1::m_4A2": "ForwardCall2",
+  "LateUpdateComponentSibling_F0B1::m_0AA": "InvokeDelegate",
+  "LateUpdateComponentSibling_F0B1::m_FF8": "InvokeDelegate2",
+  "PointerPreCullHandler_2B6A::m_111": "GetStructData",
+  "Static26m_8809::m_DDB": "ExecuteForward",
+  "ComplexComponentSiblingSiblingSibling_09DB::m_D57": "DelegateAction",
+  "ComplexComponentSiblingSiblingSibling_09DB::m_A34": "DelegateAction2",
+  "ComplexComponentSiblingSiblingSibling_09DB::m_85F": "ForwardExecution",
+  "BaseClass5Impl_DB3F::m_161": "ProcessSpan",
+  "BaseClass5Impl_DB3F::m_F78": "ExtractSpanData",
+  "BaseClass5Impl_DB3F::m_3B2": "InvokeForward1",
+  "BaseClass5Impl_DB3F::m_45E": "InvokeForward2",
+  "BaseClass5Impl_DB3F::m_69E": "InvokeForward3",
+  "BaseClass5Impl_DB3F::m_4D8": "InvokeForward4",
+  "BaseClass5Impl_DB3F::m_454": "InvokeForward5",
+  "BaseClass5Impl_DB3F::m_022": "InvokeForward6",
+  "BaseClass5Impl_DB3F::m_5F6": "ComputeSpan",
+  "BaseClass5Impl_DB3F::m_565": "InvokeForward7",
+  "BaseClass5Impl_DB3F::m_ADA": "InvokeForward8",
+  "Static1m_CFBE::m_44D": "StaticForward",
+  "LifecycleComponentSibling_233A::m_81E": "LifecycleForward1",
+  "LifecycleComponentSibling_233A::m_CFD": "LifecycleForward2",
+  "BaseClass136Impl_6CFA::m_B24": "ProcessSubSpan",
+  "BaseClass136Impl_6CFA::m_F76": "BaseForward",
+  "BaseClass136Impl_6CFA::m_BC2": "BaseInvoke"
+}
+```

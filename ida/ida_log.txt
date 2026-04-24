@@ -1,0 +1,67 @@
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+134217728 16384 8192 allocating memory for b-tree...
+268435456 32768 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+402915328            total memory allocated
+
+Loading processor module D:\Software\IDA Professional 9.2\procs\pc.dll for metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'GameAssembly.dll' has been loaded.
+Hex-Rays Decompiler plugin has been loaded (v9.2.0.250814)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.2.0.250814 has been detected, gooMBA plugin ready to use
+[MCP] Plugin loaded, server will start automatically
+[*] IDA Extract: Starting analysis...
+[*] Auto-analysis complete
+[*] Processed 10000 functions, 2209 with strings
+[*] Processed 20000 functions, 3326 with strings
+[*] Processed 30000 functions, 5230 with strings
+[*] Processed 40000 functions, 6300 with strings
+[*] Processed 50000 functions, 6982 with strings
+[*] Processed 60000 functions, 7038 with strings
+[*] Processed 70000 functions, 9271 with strings
+[*] Processed 80000 functions, 12305 with strings
+[*] Processed 90000 functions, 18680 with strings
+[*] Processed 100000 functions, 24923 with strings
+[*] Processed 110000 functions, 31767 with strings
+[*] Processed 120000 functions, 38601 with strings
+[*] Processed 130000 functions, 44169 with strings
+[*] Processed 140000 functions, 48012 with strings
+[*] Processed 150000 functions, 52131 with strings
+[*] Processed 160000 functions, 55327 with strings
+[*] Processed 170000 functions, 58510 with strings
+[*] Processed 180000 functions, 63044 with strings
+[*] Processed 190000 functions, 64721 with strings
+[*] Processed 200000 functions, 67257 with strings
+[*] Processed 210000 functions, 70521 with strings
+[*] Processed 220000 functions, 73321 with strings
+[*] Processed 230000 functions, 75655 with strings
+[*] Processed 240000 functions, 80355 with strings
+[*] Processed 250000 functions, 84592 with strings
+[*] Processed 260000 functions, 89729 with strings
+[*] Processed 270000 functions, 94549 with strings
+[*] Processed 280000 functions, 101038 with strings
+[*] Processed 290000 functions, 106729 with strings
+[*] Processed 300000 functions, 111546 with strings
+[*] Processed 310000 functions, 117016 with strings
+[*] Processed 320000 functions, 123740 with strings
+[*] Processed 330000 functions, 131074 with strings
+[*] Processed 340000 functions, 136254 with strings
+[*] Processed 350000 functions, 143765 with strings
+[*] Processed 360000 functions, 151817 with strings
+[*] Processed 370000 functions, 160222 with strings
+[*] Processed 380000 functions, 168609 with strings
+[*] Processed 390000 functions, 175276 with strings
+[*] Processed 400000 functions, 182017 with strings
+[*] Processed 410000 functions, 187706 with strings
+[*] Processed 420000 functions, 191888 with strings
+[*] Total: 420874 functions, 192186 with strings
+[*] Saved to D:\WorkSpace\VRChat\VRChat_Data\il2cpp_dump_tools\il2cpp_dump_tools\il2cpp_full_dump\ida_analysis.json
+Flushing buffers, please wait...ok
+Unloading IDP module D:\Software\IDA Professional 9.2\procs\pc.dll...

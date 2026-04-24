@@ -1,0 +1,19 @@
+```json
+{
+  "AnimatedTextureBaseImplImpl_9422": "AnimatedTextureController",
+  "ComplexComponentImpl_DC2C": "CoroutineLerpComponent",
+  "PointerContinuePressed_7664": "UIPointerEventHandler",
+  "BaseClass15Impl_D150": "CancellableArrayTask",
+  "LifecycleComponentImplImpl_835F": "DeltaTimeProvider",
+  "ComplexComponentImpl_1102": "FeaturedAvatarManager",
+  "BaseClass136ImplImpl_DA49": "ItemDescriptorFormatter",
+  "AnimatedTextureBaseImpl_0B31": "TexturePlaybackManager",
+  "LifecycleComponent_8AE2": "LifecycleDescriptorManager",
+  "BaseClass15Impl_6B65": "EyeBlendshapeController",
+  "AnimatedTextureBaseImpl_FCE0": "UITextureResourceManager",
+  "ComplexComponent_0B13": "GoalHealthTracker",
+  "UpdateComponent_6836": "StandardUpdateComponent",
+  "NetworkItemSibling_8AC1": "NativeObjectManager",
+  "MajorSystemSibling_675F": "CollectionBoundsUtils"
+}
+```

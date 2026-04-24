@@ -1,0 +1,500 @@
+AnimatedTextureBaseImplSibling_BF9C::m_028
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_BF9C::m_0A2
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_BF9C::m_2D9
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= []
+ body= add dword ptr cs:[rax], eax | add byte ptr [rsi + 0x41], ah | cmp eax, edx | jae 0x7ffd4e099b56 | mov r9, qword ptr [r11 + 0xb0] | movzx ecx, ax | add rcx, rcx | cmp qword ptr [r9 + rcx*8], rdx | je 0x7ffd4e099b8c | inc ax | cmp ax, r10w | jb 0x7ffd4e099b41 | xor r8d, r8d | mov rcx, rbx | call 0x7ffd4e2563e0 | movaps xmm0, xmmword ptr [rdi] | lea rdx, [rsp + 0x20] | mov r10, qword ptr [rax] | mov rcx, rbx | mov r9, qword ptr [rax + 8]
+
+AnimatedTextureBaseImplSibling_BF9C::m_3B3
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= []
+ body= mov esp, 0x9024 | add al, ch | add eax, 0x480635dc | mov ecx, dword ptr [rbx + 0x30] | mov rsi, rax | test rcx, rcx | je 0x7ffd4e078e02 | mov rcx, qword ptr [rcx + 0xe8] | test rcx, rcx | je 0x7ffd4e078ec6 | movzx ecx, byte ptr [rcx + 0x10] | mov byte ptr [rsp + 0x81], cl | mov byte ptr [rsp + 0x80], 1 | movzx ecx, word ptr [rsp + 0x80] | mov rdi, qword ptr [rip + 0xb732a77] | mov word ptr [rsp + 0x80], cx | lea rdx, [rsp + 0x80] | mov rcx, qword ptr [rip + 0xb732a70] | call 0x7ffd4e26ee30 | mov rcx, qword ptr [rbx + 0x30]
+
+AnimatedTextureBaseImplSibling_BF9C::m_3C7
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | push rdi | sub rsp, 0x20 | cmp byte ptr [rip + 0xbd39f30], 0 | mov rdi, rdx | mov rbx, rcx | jne 0x7ffd4e0799a2 | lea rcx, [rip + 0xb730a20] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb730b87] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd39eff], 1 | mov rcx, qword ptr [rip + 0xb730b6f] | cmp dword ptr [rcx + 0xe0], 0 | jne 0x7ffd4e0799b7 | call 0x7ffd4e247030 | xor r8d, r8d | lea rcx, [rbx + 0x18]
+
+AnimatedTextureBaseImplSibling_BF9C::m_428
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= []
+ body= add dword ptr cs:[rax], eax | add byte ptr [rsi + 0x41], ah | cmp eax, edx | jae 0x7ffd4e099b56 | mov r9, qword ptr [r11 + 0xb0] | movzx ecx, ax | add rcx, rcx | cmp qword ptr [r9 + rcx*8], rdx | je 0x7ffd4e099b8c | inc ax | cmp ax, r10w | jb 0x7ffd4e099b41 | xor r8d, r8d | mov rcx, rbx | call 0x7ffd4e2563e0 | movaps xmm0, xmmword ptr [rdi] | lea rdx, [rsp + 0x20] | mov r10, qword ptr [rax] | mov rcx, rbx | mov r9, qword ptr [rax + 8]
+
+AnimatedTextureBaseImplSibling_BF9C::m_663
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= []
+ body= add dword ptr cs:[rax], eax | add byte ptr [rsi + 0x41], ah | cmp eax, edx | jae 0x7ffd4e099b56 | mov r9, qword ptr [r11 + 0xb0] | movzx ecx, ax | add rcx, rcx | cmp qword ptr [r9 + rcx*8], rdx | je 0x7ffd4e099b8c | inc ax | cmp ax, r10w | jb 0x7ffd4e099b41 | xor r8d, r8d | mov rcx, rbx | call 0x7ffd4e2563e0 | movaps xmm0, xmmword ptr [rdi] | lea rdx, [rsp + 0x20] | mov r10, qword ptr [rax] | mov rcx, rbx | mov r9, qword ptr [rax + 8]
+
+AnimatedTextureBaseImplSibling_BF9C::m_84A
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_BF9C::m_8FB
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= []
+ body= jl 0x7ffd4e090b7d | call 0x7ffd4e1e1c80 | mov rcx, rax | call 0x7ffd4e1f99b0 | lea rcx, [rip + 0xb7681a2] | mov rbx, rax | call 0x7ffd4e1e1c80 | mov rdx, rax | xor r8d, r8d | mov rcx, rbx | call 0x7ffd539c2820 | lea rcx, [rip + 0xb7ff81d] | call 0x7ffd4e1e1c80 | mov rdx, rax | mov rcx, rbx | call 0x7ffd4e1f99c0 | int3
+
+AnimatedTextureBaseImplSibling_BF9C::m_931
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_BF9C::m_9BE
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_BF9C::m_A79
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_BF9C::m_AF5
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= []
+ body= add dword ptr cs:[rax], eax | add byte ptr [rsi + 0x41], ah | cmp eax, edx | jae 0x7ffd4e099b56 | mov r9, qword ptr [r11 + 0xb0] | movzx ecx, ax | add rcx, rcx | cmp qword ptr [r9 + rcx*8], rdx | je 0x7ffd4e099b8c | inc ax | cmp ax, r10w | jb 0x7ffd4e099b41 | xor r8d, r8d | mov rcx, rbx | call 0x7ffd4e2563e0 | movaps xmm0, xmmword ptr [rdi] | lea rdx, [rsp + 0x20] | mov r10, qword ptr [rax] | mov rcx, rbx | mov r9, qword ptr [rax + 8]
+
+AnimatedTextureBaseImplSibling_BF9C::m_CF4
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_BF9C::m_D2C
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_BF9C::m_DF1
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_BF9C::m_E16
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= []
+ body= add dword ptr cs:[rax], eax | add byte ptr [rsi + 0x41], ah | cmp eax, edx | jae 0x7ffd4e099b56 | mov r9, qword ptr [r11 + 0xb0] | movzx ecx, ax | add rcx, rcx | cmp qword ptr [r9 + rcx*8], rdx | je 0x7ffd4e099b8c | inc ax | cmp ax, r10w | jb 0x7ffd4e099b41 | xor r8d, r8d | mov rcx, rbx | call 0x7ffd4e2563e0 | movaps xmm0, xmmword ptr [rdi] | lea rdx, [rsp + 0x20] | mov r10, qword ptr [rax] | mov rcx, rbx | mov r9, qword ptr [rax + 8]
+
+AnimatedTextureBaseImplSibling_BF9C::m_EFE
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_BF9C::m_F0B
+ class= AnimatedTextureBaseImplSibling_BF9C
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_D354::m_93F
+ class= AnimatedTextureBaseImplSibling_D354
+ callees= []
+ body= mov rax, qword ptr [rdi + r8*8 + 0x462e0] | mov rcx, rax | bts rcx, r9 | lock cmpxchg qword ptr [rdi + r8*8 + 0x462e0], rcx | jne 0x7ffd4e36f0c0 | mov rcx, qword ptr [rip + 0xb4e0f1e] | mov edx, 2 | call 0x7ffd4e26e710 | cmp dword ptr [rip + 0xba20439], 0 | mov qword ptr [rbx + 0x60], rax | je 0x7ffd4e36f13b | lea r8, [rbx + 0x60] | shr r8, 0xc | and r8d, 0x1fffff | mov edx, r8d | shr rdx, 6 | and r8d, 0x3f | prefetchw byte ptr [rdi + rdx*8 + 0x462e0] | nop dword ptr [rax + rax] | mov rax, qword ptr [rdi + rdx*8 + 0x462e0]
+
+AnimatedTextureBaseImplSibling_DACB::m_3B4
+ class= AnimatedTextureBaseImplSibling_DACB
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | push rdi | sub rsp, 0x20 | cmp byte ptr [rip + 0xbd39f30], 0 | mov rdi, rdx | mov rbx, rcx | jne 0x7ffd4e0799a2 | lea rcx, [rip + 0xb730a20] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb730b87] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd39eff], 1 | mov rcx, qword ptr [rip + 0xb730b6f] | cmp dword ptr [rcx + 0xe0], 0 | jne 0x7ffd4e0799b7 | call 0x7ffd4e247030 | xor r8d, r8d | lea rcx, [rbx + 0x18]
+
+AnimatedTextureBaseImplSibling_DACB::m_488
+ class= AnimatedTextureBaseImplSibling_DACB
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | mov qword ptr [rsp + 0x10], rbp | mov qword ptr [rsp + 0x20], rsi | mov qword ptr [rsp + 0x18], r8 | push rdi | sub rsp, 0x20 | mov rdi, qword ptr [rip + 0xb732b78] | movzx esi, dl | mov rbp, rcx | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | lea rcx, [rip + 0xb782974] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb7d8dc3] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | mov rcx, rdi
+
+AnimatedTextureBaseImplSibling_DACB::m_D2F
+ class= AnimatedTextureBaseImplSibling_DACB
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | push rdi | sub rsp, 0x20 | cmp byte ptr [rip + 0xbd39f30], 0 | mov rdi, rdx | mov rbx, rcx | jne 0x7ffd4e0799a2 | lea rcx, [rip + 0xb730a20] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb730b87] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd39eff], 1 | mov rcx, qword ptr [rip + 0xb730b6f] | cmp dword ptr [rcx + 0xe0], 0 | jne 0x7ffd4e0799b7 | call 0x7ffd4e247030 | xor r8d, r8d | lea rcx, [rbx + 0x18]
+
+AnimatedTextureBaseImplSibling_DACB::m_FF6
+ class= AnimatedTextureBaseImplSibling_DACB
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | push rdi | sub rsp, 0x20 | cmp byte ptr [rip + 0xbd39f30], 0 | mov rdi, rdx | mov rbx, rcx | jne 0x7ffd4e0799a2 | lea rcx, [rip + 0xb730a20] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb730b87] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd39eff], 1 | mov rcx, qword ptr [rip + 0xb730b6f] | cmp dword ptr [rcx + 0xe0], 0 | jne 0x7ffd4e0799b7 | call 0x7ffd4e247030 | xor r8d, r8d | lea rcx, [rbx + 0x18]
+
+AnimatedTextureBaseImplSibling_E155::m_123
+ class= AnimatedTextureBaseImplSibling_E155
+ callees= []
+ body= shr eax, 0xc | and r8d, 0x1fffff | mov eax, r8d | shr rax, 6 | and r8d, 0x3f | lea rdx, [rcx + rax*8] | prefetchw byte ptr [rdx + 0x462e0] | mov rax, qword ptr [rdx + 0x462e0] | mov rcx, rax | bts rcx, r8 | lock cmpxchg qword ptr [rdx + 0x462e0], rcx | jne 0x7ffd4e079d20 | mov rax, qword ptr [rbx] | mov rcx, qword ptr [rax] | test byte ptr [rcx + 0x136], 0x10 | je 0x7ffd4e079dc9 | mov rdi, qword ptr [rdi] | lea rdx, [rip + 0xaa9f63a] | mov r8, rdi | mov rcx, rax
+
+AnimatedTextureBaseImplSibling_E155::m_49D
+ class= AnimatedTextureBaseImplSibling_E155
+ callees= []
+ body= shr eax, 0xc | and r8d, 0x1fffff | mov eax, r8d | shr rax, 6 | and r8d, 0x3f | lea rdx, [rcx + rax*8] | prefetchw byte ptr [rdx + 0x462e0] | mov rax, qword ptr [rdx + 0x462e0] | mov rcx, rax | bts rcx, r8 | lock cmpxchg qword ptr [rdx + 0x462e0], rcx | jne 0x7ffd4e079d20 | mov rax, qword ptr [rbx] | mov rcx, qword ptr [rax] | test byte ptr [rcx + 0x136], 0x10 | je 0x7ffd4e079dc9 | mov rdi, qword ptr [rdi] | lea rdx, [rip + 0xaa9f63a] | mov r8, rdi | mov rcx, rax
+
+AnimatedTextureBaseImplSibling_E155::m_AA2
+ class= AnimatedTextureBaseImplSibling_E155
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | push rdi | sub rsp, 0x20 | cmp byte ptr [rip + 0xbd39f30], 0 | mov rdi, rdx | mov rbx, rcx | jne 0x7ffd4e0799a2 | lea rcx, [rip + 0xb730a20] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb730b87] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd39eff], 1 | mov rcx, qword ptr [rip + 0xb730b6f] | cmp dword ptr [rcx + 0xe0], 0 | jne 0x7ffd4e0799b7 | call 0x7ffd4e247030 | xor r8d, r8d | lea rcx, [rbx + 0x18]
+
+AnimatedTextureBaseImplSibling_E270::m_1A6
+ class= AnimatedTextureBaseImplSibling_E270
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E270::m_430
+ class= AnimatedTextureBaseImplSibling_E270
+ callees= []
+ body= shr eax, 0xc | and r8d, 0x1fffff | mov eax, r8d | shr rax, 6 | and r8d, 0x3f | lea rdx, [rcx + rax*8] | prefetchw byte ptr [rdx + 0x462e0] | mov rax, qword ptr [rdx + 0x462e0] | mov rcx, rax | bts rcx, r8 | lock cmpxchg qword ptr [rdx + 0x462e0], rcx | jne 0x7ffd4e079d20 | mov rax, qword ptr [rbx] | mov rcx, qword ptr [rax] | test byte ptr [rcx + 0x136], 0x10 | je 0x7ffd4e079dc9 | mov rdi, qword ptr [rdi] | lea rdx, [rip + 0xaa9f63a] | mov r8, rdi | mov rcx, rax
+
+AnimatedTextureBaseImplSibling_E270::m_FAF
+ class= AnimatedTextureBaseImplSibling_E270
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_1E9
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_312
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= []
+ body= shr eax, 0xc | and r8d, 0x1fffff | mov eax, r8d | shr rax, 6 | and r8d, 0x3f | lea rdx, [rcx + rax*8] | prefetchw byte ptr [rdx + 0x462e0] | mov rax, qword ptr [rdx + 0x462e0] | mov rcx, rax | bts rcx, r8 | lock cmpxchg qword ptr [rdx + 0x462e0], rcx | jne 0x7ffd4e079d20 | mov rax, qword ptr [rbx] | mov rcx, qword ptr [rax] | test byte ptr [rcx + 0x136], 0x10 | je 0x7ffd4e079dc9 | mov rdi, qword ptr [rdi] | lea rdx, [rip + 0xaa9f63a] | mov r8, rdi | mov rcx, rax
+
+AnimatedTextureBaseImplSibling_E792::m_3C9
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_45A
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_562
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | push rdi | sub rsp, 0x20 | cmp byte ptr [rip + 0xbd39f30], 0 | mov rdi, rdx | mov rbx, rcx | jne 0x7ffd4e0799a2 | lea rcx, [rip + 0xb730a20] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb730b87] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd39eff], 1 | mov rcx, qword ptr [rip + 0xb730b6f] | cmp dword ptr [rcx + 0xe0], 0 | jne 0x7ffd4e0799b7 | call 0x7ffd4e247030 | xor r8d, r8d | lea rcx, [rbx + 0x18]
+
+AnimatedTextureBaseImplSibling_E792::m_5DD
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_67C
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_76F
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_7D6
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_9F7
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_B31
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_E792::m_B5B
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_C21
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['<RunOnThreadPool>d__101::MoveNext']
+ body= mov esi, ecx | jne 0x7ffd4e090a5c | lea rcx, [rip + 0xb7fadc5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xbd2533b], 1 | cmp qword ptr [rbx + 0x10], 0 | je 0x7ffd4e090b6b | cmp dword ptr [rbx + 0x20], 0 | jl 0x7ffd4e090b6b | mov rax, qword ptr [rbx + 0x10] | mov edx, dword ptr [rbx + 0x20] | mov rcx, qword ptr [rax + 0x30] | test rcx, rcx | je 0x7ffd4e090b6b | cmp edx, dword ptr [rcx + 0x18] | jge 0x7ffd4e090b6b | movups xmm0, xmmword ptr [rdi] | movsxd rdx, edx | lea r8, [rsp + 0x20]
+
+AnimatedTextureBaseImplSibling_E792::m_F04
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_E792::m_F6B
+ class= AnimatedTextureBaseImplSibling_E792
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_EC8E::m_DA1
+ class= AnimatedTextureBaseImplSibling_EC8E
+ callees= []
+ body= mov rax, qword ptr [rdi + r8*8 + 0x462e0] | mov rcx, rax | bts rcx, r9 | lock cmpxchg qword ptr [rdi + r8*8 + 0x462e0], rcx | jne 0x7ffd4e36f0c0 | mov rcx, qword ptr [rip + 0xb4e0f1e] | mov edx, 2 | call 0x7ffd4e26e710 | cmp dword ptr [rip + 0xba20439], 0 | mov qword ptr [rbx + 0x60], rax | je 0x7ffd4e36f13b | lea r8, [rbx + 0x60] | shr r8, 0xc | and r8d, 0x1fffff | mov edx, r8d | shr rdx, 6 | and r8d, 0x3f | prefetchw byte ptr [rdi + rdx*8 + 0x462e0] | nop dword ptr [rax + rax] | mov rax, qword ptr [rdi + rdx*8 + 0x462e0]
+
+AnimatedTextureBaseImplSibling_EFE7::m_0C1
+ class= AnimatedTextureBaseImplSibling_EFE7
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_EFE7::m_0E3
+ class= AnimatedTextureBaseImplSibling_EFE7
+ callees= []
+ body= shr eax, 0xc | and r8d, 0x1fffff | mov eax, r8d | shr rax, 6 | and r8d, 0x3f | lea rdx, [rcx + rax*8] | prefetchw byte ptr [rdx + 0x462e0] | mov rax, qword ptr [rdx + 0x462e0] | mov rcx, rax | bts rcx, r8 | lock cmpxchg qword ptr [rdx + 0x462e0], rcx | jne 0x7ffd4e079d20 | mov rax, qword ptr [rbx] | mov rcx, qword ptr [rax] | test byte ptr [rcx + 0x136], 0x10 | je 0x7ffd4e079dc9 | mov rdi, qword ptr [rdi] | lea rdx, [rip + 0xaa9f63a] | mov r8, rdi | mov rcx, rax
+
+AnimatedTextureBaseImplSibling_EFE7::m_1A6
+ class= AnimatedTextureBaseImplSibling_EFE7
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_EFE7::m_23A
+ class= AnimatedTextureBaseImplSibling_EFE7
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_EFE7::m_259
+ class= AnimatedTextureBaseImplSibling_EFE7
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_EFE7::m_5BF
+ class= AnimatedTextureBaseImplSibling_EFE7
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_EFE7::m_676
+ class= AnimatedTextureBaseImplSibling_EFE7
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_EFE7::m_797
+ class= AnimatedTextureBaseImplSibling_EFE7
+ callees= []
+ body= shr eax, 0xc | and r8d, 0x1fffff | mov eax, r8d | shr rax, 6 | and r8d, 0x3f | lea rdx, [rcx + rax*8] | prefetchw byte ptr [rdx + 0x462e0] | mov rax, qword ptr [rdx + 0x462e0] | mov rcx, rax | bts rcx, r8 | lock cmpxchg qword ptr [rdx + 0x462e0], rcx | jne 0x7ffd4e079d20 | mov rax, qword ptr [rbx] | mov rcx, qword ptr [rax] | test byte ptr [rcx + 0x136], 0x10 | je 0x7ffd4e079dc9 | mov rdi, qword ptr [rdi] | lea rdx, [rip + 0xaa9f63a] | mov r8, rdi | mov rcx, rax
+
+AnimatedTextureBaseImplSibling_EFE7::m_FAF
+ class= AnimatedTextureBaseImplSibling_EFE7
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_F815::m_948
+ class= AnimatedTextureBaseImplSibling_F815
+ callees= []
+ body= leave | je 0x7ffd4ecb895c | mov r8, qword ptr [rip + 0xaad517a] | mov edx, 2 | mov qword ptr [rbp + 0x67], 0 | call 0x7ffd509d8fb0 | mov dword ptr [rbp + 0x6b], eax | mov byte ptr [rbp + 0x67], 1 | mov rax, qword ptr [rbp + 0x67] | mov qword ptr [r15 + 0x38], rax | mov rax, qword ptr [rip + 0xaad518a] | mov rcx, qword ptr [rax + 0xb8] | mov rcx, qword ptr [rcx + 0x10] | test rcx, rcx | je 0x7ffd4ecb895c | mov r8, qword ptr [rip + 0xaad5137] | mov edx, 2 | call 0x7ffd509d8fb0 | cmp r12d, eax | jl 0x7ffd4ecb7466
+
+AnimatedTextureBaseImplSibling_FF2B::m_0E7
+ class= AnimatedTextureBaseImplSibling_FF2B
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | mov qword ptr [rsp + 0x10], rbp | mov qword ptr [rsp + 0x20], rsi | mov qword ptr [rsp + 0x18], r8 | push rdi | sub rsp, 0x20 | mov rdi, qword ptr [rip + 0xb732b78] | movzx esi, dl | mov rbp, rcx | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | lea rcx, [rip + 0xb782974] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb7d8dc3] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | mov rcx, rdi
+
+AnimatedTextureBaseImplSibling_FF2B::m_5BF
+ class= AnimatedTextureBaseImplSibling_FF2B
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | mov qword ptr [rsp + 0x10], rbp | mov qword ptr [rsp + 0x20], rsi | mov qword ptr [rsp + 0x18], r8 | push rdi | sub rsp, 0x20 | mov rdi, qword ptr [rip + 0xb732b78] | movzx esi, dl | mov rbp, rcx | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | lea rcx, [rip + 0xb782974] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb7d8dc3] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | mov rcx, rdi
+
+AnimatedTextureBaseImplSibling_FF2B::m_676
+ class= AnimatedTextureBaseImplSibling_FF2B
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | mov qword ptr [rsp + 0x10], rbp | mov qword ptr [rsp + 0x20], rsi | mov qword ptr [rsp + 0x18], r8 | push rdi | sub rsp, 0x20 | mov rdi, qword ptr [rip + 0xb732b78] | movzx esi, dl | mov rbp, rcx | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | lea rcx, [rip + 0xb782974] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb7d8dc3] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | mov rcx, rdi
+
+AnimatedTextureBaseImplSibling_FF2B::m_698
+ class= AnimatedTextureBaseImplSibling_FF2B
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_FF2B::m_CAF
+ class= AnimatedTextureBaseImplSibling_FF2B
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_FF2B::m_D4F
+ class= AnimatedTextureBaseImplSibling_FF2B
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | mov qword ptr [rsp + 0x10], rbp | mov qword ptr [rsp + 0x20], rsi | mov qword ptr [rsp + 0x18], r8 | push rdi | sub rsp, 0x20 | mov rdi, qword ptr [rip + 0xb732b78] | movzx esi, dl | mov rbp, rcx | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | lea rcx, [rip + 0xb782974] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb7d8dc3] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | mov rcx, rdi
+
+AnimatedTextureBaseImplSibling_FF2B::m_D88
+ class= AnimatedTextureBaseImplSibling_FF2B
+ callees= []
+ body= mov qword ptr [rsp + 8], rbx | mov qword ptr [rsp + 0x10], rbp | mov qword ptr [rsp + 0x20], rsi | mov qword ptr [rsp + 0x18], r8 | push rdi | sub rsp, 0x20 | mov rdi, qword ptr [rip + 0xb732b78] | movzx esi, dl | mov rbp, rcx | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | lea rcx, [rip + 0xb782974] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xb7d8dc3] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | cmp qword ptr [rdi + 0x38], 0 | jne 0x7ffd4e0788fe | mov rcx, rdi
+
+AnimatedTextureBaseImplSibling_FF2B::m_EF6
+ class= AnimatedTextureBaseImplSibling_FF2B
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImplSibling_FF2B::m_FAF
+ class= AnimatedTextureBaseImplSibling_FF2B
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rsp + 0x40], cl | mov rdx, rdi | xor ecx, ecx | movaps xmmword ptr [rsp + 0x50], xmm0 | movaps xmmword ptr [rsp + 0x60], xmm1 | call ServiceDescriptorCacheItem::get_Last | mov rdi, qword ptr [rsp + 0x90] | mov rbp, qword ptr [rsp + 0x88] | mov rbx, qword ptr [rsp + 0x98] | add rsp, 0x70 | pop rsi | ret
+
+AnimatedTextureBaseImpl_007D::m_010
+ class= AnimatedTextureBaseImpl_007D
+ callees= []
+ body= call 0x7ffd4d82c470 | mov rcx, qword ptr [rip + 0xb152964] | mov rsi, rax | call 0x7ffd4e26f200 | cmp dword ptr [rip + 0xb666c31], 0 | mov rdx, rax | mov r10, qword ptr [rip + 0xb0ee7ab] | mov rcx, qword ptr [r10 + 8] | mov qword ptr [rax + 0x10], rcx | mov qword ptr [rax + 0x28], r10 | mov qword ptr [rax + 0x20], rdi | je 0x7ffd4e72895b | lea r9, [rax + 0x20] | shr r9, 0xc | and r9d, 0x1fffff | mov r8d, r9d | shr r8, 6 | and r9d, 0x3f | prefetchw byte ptr [r12 + r8*8 + 0x462e0] | nop word ptr [rax + rax]
+
+AnimatedTextureBaseImpl_007D::m_208
+ class= AnimatedTextureBaseImpl_007D
+ callees= []
+ body= mov rax, qword ptr [rdi + r8*8 + 0x462e0] | mov rcx, rax | bts rcx, r9 | lock cmpxchg qword ptr [rdi + r8*8 + 0x462e0], rcx | jne 0x7ffd4e36f0c0 | mov rcx, qword ptr [rip + 0xb4e0f1e] | mov edx, 2 | call 0x7ffd4e26e710 | cmp dword ptr [rip + 0xba20439], 0 | mov qword ptr [rbx + 0x60], rax | je 0x7ffd4e36f13b | lea r8, [rbx + 0x60] | shr r8, 0xc | and r8d, 0x1fffff | mov edx, r8d | shr rdx, 6 | and r8d, 0x3f | prefetchw byte ptr [rdi + rdx*8 + 0x462e0] | nop dword ptr [rax + rax] | mov rax, qword ptr [rdi + rdx*8 + 0x462e0]
+
+AnimatedTextureBaseImpl_007D::m_385
+ class= AnimatedTextureBaseImpl_007D
+ callees= []
+ body= mov eax, dword ptr [rcx + 0xc8] | cmp qword ptr [rax + rcx*8 - 8], r8 | jne 0x7ffd4e8df0a1 | mov al, 1 | jmp AnimatedTextureBaseImpl_007D::m_A6B | xor al, al | xor ebx, ebx | test al, al | mov edi, ebx | cmovne rdi, rdx | mov rdx, qword ptr [rsi + 0x10] | test rdx, rdx | je 0x7ffd4e8df172 | mov r8, qword ptr [rip + 0xafdddd7] | mov r9, qword ptr [rdx] | movzx eax, byte ptr [r8 + 0x130] | cmp byte ptr [r9 + 0x130], al | jb 0x7ffd4e8df0ea | movzx ecx, al | mov rax, qword ptr [r9 + 0xc8]
+
+AnimatedTextureBaseImpl_007D::m_9D4
+ class= AnimatedTextureBaseImpl_007D
+ callees= []
+ body= adc byte ptr [rax - 0x7b], cl | ror byte ptr [rdi], cl | test byte ptr [rax + 0x4c000000], bh | mov eax, dword ptr [rip + 0xafdd487] | mov r9, qword ptr [rdx] | movzx eax, byte ptr [r8 + 0x130] | cmp byte ptr [r9 + 0x130], al | jb 0x7ffd4e8dfa3a | movzx ecx, al | mov rax, qword ptr [r9 + 0xc8] | cmp qword ptr [rax + rcx*8 - 8], r8 | jne 0x7ffd4e8dfa3a | mov al, 1 | jmp 0x7ffd4e8dfa3c | xor al, al | test al, al | cmovne rbx, rdx | test rbx, rbx | je 0x7ffd4e8dfac2 | cmp byte ptr [rip + 0xb4aeef3], 0
+
+AnimatedTextureBaseImpl_007D::m_A6B
+ class= AnimatedTextureBaseImpl_007D
+ callees= []
+ body= add dh, byte ptr [rdx] | sal byte ptr [rbx], 0xdb | test al, al | mov edi, ebx | cmovne rdi, rdx | mov rdx, qword ptr [rsi + 0x10] | test rdx, rdx | je 0x7ffd4e8df172 | mov r8, qword ptr [rip + 0xafdddd7] | mov r9, qword ptr [rdx] | movzx eax, byte ptr [r8 + 0x130] | cmp byte ptr [r9 + 0x130], al | jb 0x7ffd4e8df0ea | movzx ecx, al | mov rax, qword ptr [r9 + 0xc8] | cmp qword ptr [rax + rcx*8 - 8], r8 | jne 0x7ffd4e8df0ea | mov al, 1 | jmp 0x7ffd4e8df0ec | xor al, al
+
+AnimatedTextureBaseImpl_007D::m_BA8
+ class= AnimatedTextureBaseImpl_007D
+ callees= []
+ body= sbb byte ptr [rax - 0x73], cl | or eax, 0xaf9be10 | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xb4b0255], 1 | cmp qword ptr [rbx], 0 | jne 0x7ffd4e8de8ae | cmp qword ptr [rbx + 8], 0 | mov rcx, qword ptr [rip + 0xaf9bde9] | jne 0x7ffd4e8de84b | movaps xmmword ptr [rsp + 0x40], xmm6 | cmp dword ptr [rcx + 0xe0], 0 | movups xmm6, xmmword ptr [rbx + 0x10] | jne 0x7ffd4e8de74c | call 0x7ffd4e247030 | mov rax, qword ptr [rsi + 0x18] | test byte ptr [rax + 0x135], 1 | jne 0x7ffd4e8de761 | mov rcx, rax | call 0x7ffd4e255f20
+
+AnimatedTextureBaseImpl_007D::m_D49
+ class= AnimatedTextureBaseImpl_007D
+ callees= []
+ body= xchg edi, eax | dec dword ptr [rbx + 0x4b100405] | or ecx, dword ptr [rbp + rcx*4 + 0x15] | shr dword ptr [rbp + 0x4f], 1 | or eax, dword ptr [rbp + 0x33] | leave | xorps xmm0, xmm0 | mov qword ptr [rsp + 0x20], r9 | xorps xmm1, xmm1 | movdqu xmmword ptr [rsp + 0x28], xmm0 | movdqu xmmword ptr [rsp + 0x38], xmm1 | test eax, eax | je 0x7ffd4e8de59f | lea r8, [rsp + 0x20] | shr r8, 0xc | and r8d, 0x1fffff | mov eax, r8d | shr rax, 6 | and r8d, 0x3f | lea rdx, [r10 + rax*8]
+
+AnimatedTextureBaseImpl_007D::m_EBE
+ class= AnimatedTextureBaseImpl_007D
+ callees= []
+ body= call 0x7ffd4d82c470 | mov rcx, qword ptr [rip + 0xb152964] | mov rsi, rax | call 0x7ffd4e26f200 | cmp dword ptr [rip + 0xb666c31], 0 | mov rdx, rax | mov r10, qword ptr [rip + 0xb0ee7ab] | mov rcx, qword ptr [r10 + 8] | mov qword ptr [rax + 0x10], rcx | mov qword ptr [rax + 0x28], r10 | mov qword ptr [rax + 0x20], rdi | je 0x7ffd4e72895b | lea r9, [rax + 0x20] | shr r9, 0xc | and r9d, 0x1fffff | mov r8d, r9d | shr r8, 6 | and r9d, 0x3f | prefetchw byte ptr [r12 + r8*8 + 0x462e0] | nop word ptr [rax + rax]
+
+AnimatedTextureBaseImpl_0161::m_009
+ class= AnimatedTextureBaseImpl_0161
+ callees= []
+ body= add byte ptr [rax - 0x73], cl | or eax, 0xae9d160 | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae9d147] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xb4ac76d], 1 | mov eax, dword ptr [rbx] | mov rcx, qword ptr [rbx + 0x20] | test eax, eax | jne 0x7ffd4e8e5f6b | movups xmm2, xmmword ptr [rbx + 0x30] | movsd xmm0, qword ptr [rbx + 0x40] | movsd qword ptr [rsp + 0x78], xmm0 | xorps xmm1, xmm1 | xor eax, eax | movups xmmword ptr [rbx + 0x30], xmm1 | mov qword ptr [rbx + 0x40], rax | mov dword ptr [rbx], 0xffffffff
+
+AnimatedTextureBaseImpl_0161::m_686
+ class= AnimatedTextureBaseImpl_0161
+ callees= []
+ body= adc al, 0xf3 | lahf | or ecx, dword ptr [rax - 0x73] | push rsp | and al, 0x60 | lea rcx, [rsp + 0x30] | call rax | movss xmm9, dword ptr [rsp + 0x60] | movaps xmm7, xmm12 | movss xmm10, dword ptr [rsp + 0x6c] | movaps xmm11, xmm9 | movss xmm8, dword ptr [rsp + 0x68] | movaps xmm0, xmm10 | movss xmm4, dword ptr [rsp + 0x64] | movaps xmm1, xmm8 | mulss xmm0, xmm12 | movaps xmm3, xmm4 | shufps xmm7, xmm12, 0xff | movaps xmm6, xmm12 | shufps xmm6, xmm12, 0x55
+
+AnimatedTextureBaseImpl_0161::m_C67
+ class= AnimatedTextureBaseImpl_0161
+ callees= []
+ body= add eax, dword ptr [rsi] | inc ebx | jmp 0x7ffd4eca7984 | mov rax, qword ptr [rip + 0xb117250] | test rax, rax | jne 0x7ffd4eca7a81 | lea rcx, [rip + 0x8ae21a4] ; "UnityEngine.ParticleSystem/TextureSheetAnimat..." | call 0x7ffd4e2087b0 | test rax, rax | je 0x7ffd4eca84ca | mov qword ptr [rip + 0xb11722f], rax | lea rcx, [rsp + 0x298] | call rax | lea ebx, [rax - 1] | nop | mov rax, qword ptr [rip + 0xb117219] | test rax, rax | jne 0x7ffd4eca7ab8 | lea rcx, [rip + 0x8ae216d] ; "UnityEngine.ParticleSystem/TextureSheetAnimat..." | call 0x7ffd4e2087b0
+
+AnimatedTextureBaseImpl_0161::m_CFD
+ class= AnimatedTextureBaseImpl_0161
+ callees= []
+ body= mov dword ptr [rip + 0xb1172fa], eax | mov edx, ebx | lea rcx, [rsp + 0x290] | call rax | mov rdi, rax | mov rax, qword ptr [rip + 0xb1172b4] | test rax, rax | jne 0x7ffd4eca7a1d | lea rcx, [rip + 0x8ae2208] ; "UnityEngine.ParticleSystem/TextureSheetAnimat..." | call 0x7ffd4e2087b0 | test rax, rax | je 0x7ffd4eca84b4 | mov qword ptr [rip + 0xb117293], rax | lea rcx, [rsp + 0x298] | call rax | lea rcx, [rsp + 0x298] | cmp ebx, eax | jl 0x7ffd4eca7a45 | xor r8d, r8d | mov rdx, rdi
+
+AnimatedTextureBaseImpl_0161::m_FAB
+ class= AnimatedTextureBaseImpl_0161
+ callees= []
+ body= mov dword ptr [rip + 0xb1172fa], eax | mov edx, ebx | lea rcx, [rsp + 0x290] | call rax | mov rdi, rax | mov rax, qword ptr [rip + 0xb1172b4] | test rax, rax | jne 0x7ffd4eca7a1d | lea rcx, [rip + 0x8ae2208] ; "UnityEngine.ParticleSystem/TextureSheetAnimat..." | call 0x7ffd4e2087b0 | test rax, rax | je 0x7ffd4eca84b4 | mov qword ptr [rip + 0xb117293], rax | lea rcx, [rsp + 0x298] | call rax | lea rcx, [rsp + 0x298] | cmp ebx, eax | jl 0x7ffd4eca7a45 | xor r8d, r8d | mov rdx, rdi
+
+AnimatedTextureBaseImpl_0682::m_010
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= mov rcx, rax | mov r14, rax | call 0x7ffd4e331190 | mov rcx, qword ptr [rip + 0xae3556e] | cmp dword ptr [rcx + 0xe0], 0 | jne 0x7ffd4e963ce7 | call 0x7ffd4e247030 | mov rcx, qword ptr [rip + 0xae35559] | mov rax, qword ptr [rcx + 0xb8] | mov rsi, qword ptr [rax + 0x10] | test rsi, rsi | jne 0x7ffd4e963db9 | mov qword ptr [rsp + 0x58], rbx | cmp dword ptr [rcx + 0xe0], esi | jne 0x7ffd4e963d14 | call 0x7ffd4e247030 | mov rcx, qword ptr [rip + 0xae3552c] | mov rax, qword ptr [rcx + 0xb8] | mov rcx, qword ptr [rip + 0xaf1c5ee] | mov rbx, qword ptr [rax]
+
+AnimatedTextureBaseImpl_0682::m_043
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= cmpxchg dword ptr [rdx + 0x462e0], ecx | jne 0x7ffd4e969a70 | lea rcx, [rdi + 8] | mov r9, qword ptr [rip + 0xae2f49c] | mov r8, rdi | lea rdx, [rsp + 0x50] | call 0x7ffd4d835760 | nop | jmp 0x7ffd4e969b91 | mov rcx, qword ptr [rsp + 0x100] | test rcx, rcx | je 0x7ffd4e969bfa | mov rdx, qword ptr [rcx] | mov rax, qword ptr [rdx + 0x188] | mov rdx, qword ptr [rdx + 0x190] | call rax | mov rbx, rax | lea rcx, [rip + 0xae2f3d3] | call 0x7ffd4e21b740 | xor r8d, r8d
+
+AnimatedTextureBaseImpl_0682::m_087
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= mov rax, qword ptr [rdx + 0x462e0] | mov rcx, rax | bts rcx, r8 | lock cmpxchg qword ptr [rdx + 0x462e0], rcx | jne 0x7ffd4e964350 | mov rbx, qword ptr [rip + 0xae34e10] | mov dword ptr [rsp + 0x20], 0xffffffff | cmp qword ptr [rbx + 0x38], 0 | jne 0x7ffd4e964387 | mov rcx, rbx | call 0x7ffd4e255fa0 | mov rdx, qword ptr [rbx + 0x38] | lea rcx, [rsp + 0x20] | mov rdx, qword ptr [rdx + 0x10] | call 0x7ffd4e9654b0 | xor al, al | add rsp, 0x50 | pop rbx | ret
+
+AnimatedTextureBaseImpl_0682::m_0D5
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= sal byte ptr [rsp + riz*2 + 0x48], 0x8b | and byte ptr [r8 - 0x7b], r9b | leave | je 0x7ffd4e960fda | mov eax, ebx | inc rax | cmp eax, dword ptr [rcx + 0x18] | jae 0x7ffd4e960fd4 | movss xmm0, dword ptr [rip + 0xa1f3b56] | comiss xmm0, dword ptr [rcx + rax*4 + 0x20] | jbe 0x7ffd4e960fc7 | mov eax, ebx | add rax, 2 | cmp eax, dword ptr [rcx + 0x18] | jae 0x7ffd4e960fd4 | comiss xmm0, dword ptr [rcx + rax*4 + 0x20] | jbe 0x7ffd4e960fc7 | lea edx, [rbx + 3] | xor r8d, r8d | mov rcx, rdi
+
+AnimatedTextureBaseImpl_0682::m_0F9
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= lea ecx, [rip + 0xae2beca] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xaf13599] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xaecb100] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xaedc6ef] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xaec3296] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2be6d] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xaec33ac] | call 0x7ffd4e21b740
+
+AnimatedTextureBaseImpl_0682::m_10E
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= push rsp | movss xmm0, dword ptr [rcx + rax*4 + 0x20] | comiss xmm0, xmm6 | jbe 0x7ffd4e962584 | lea edx, [rdi + 3] | xor r8d, r8d | mov rcx, rbx | call 0x7ffd4e961f30 | test al, al | je 0x7ffd4e962584 | lea edx, [rdi + 4] | xor r8d, r8d | mov rcx, rbx | call 0x7ffd4e961f30 | test al, al | je 0x7ffd4e962584 | mov eax, ebp | jmp 0x7ffd4e962586 | xor eax, eax | mov rbx, qword ptr [rsp + 0x50]
+
+AnimatedTextureBaseImpl_0682::m_1E8
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= add byte ptr [rax - 0x75], cl | stc | jne 0x7ffd4e9649c2 | lea rcx, [rip + 0xae347a3] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae34782] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xaf1c889] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xaf1c868] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xaf15b67] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xb42dfbb], 1 | mov rcx, qword ptr [rip + 0xaf1c83f]
+
+AnimatedTextureBaseImpl_0682::m_1FA
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= push qword ptr [rbx] | leave | call 0x7ffd53911ee0 | mov rcx, qword ptr [rip + 0xaf2b4b9] | mov rsi, rax | cmp dword ptr [rcx + 0xe0], 0 | jne 0x7ffd4e964870 | call 0x7ffd4e247030 | lea r9, [rsp + 0x60] | mov qword ptr [rsp + 0x20], 0 | mov r8d, 0xa2 | mov rdx, rsi | mov rcx, rbx | call 0x7ffd5399afe0 | mov rsi, qword ptr [rsp + 0x58] | test al, al | je 0x7ffd4e9648b8 | mov rax, qword ptr [rsp + 0x60] | xorps xmm0, xmm0 | movups xmmword ptr [rsp + 0x30], xmm0
+
+AnimatedTextureBaseImpl_0682::m_235
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= lea rcx, [rip + 0xae2dc99] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2dc78] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2dc37] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2dc1e] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2dc25] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xaf10144] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xb427774], 1 | xor r12d, r12d
+
+AnimatedTextureBaseImpl_0682::m_272
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= or eax, dword ptr [rcx] | xor r13d, r13d | mov dword ptr [rsp + 0x48], r13d | mov eax, dword ptr [r15] | test eax, eax | jne 0x7ffd4e96a820 | movups xmm2, xmmword ptr [r15 + 0x30] | movsd xmm0, qword ptr [r15 + 0x40] | movsd qword ptr [rsp + 0x88], xmm0 | xorps xmm1, xmm1 | xor eax, eax | movups xmmword ptr [r15 + 0x30], xmm1 | mov qword ptr [r15 + 0x40], rax | mov dword ptr [r15], 0xffffffff | jmp 0x7ffd4e96a975 | mov ebx, r13d | mov eax, 3 | cmp byte ptr [r15 + 0x20], bl | cmove ebx, eax | mov rax, qword ptr [rip + 0xaf10b2a]
+
+AnimatedTextureBaseImpl_0682::m_2D4
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= mov eax, dword ptr [r11 + r9*4 + 0x20] | mov dword ptr [rdx + r9*4 + 0x20], eax | mov rax, qword ptr [rip + 0xaf44f77] | mov rcx, qword ptr [rax + 0xb8] | mov rcx, qword ptr [rcx + 8] | test rcx, rcx | je 0x7ffd4e961e83 | cmp ebx, dword ptr [rcx + 0x18] | jae 0x7ffd4e961e89 | movsxd rax, ebx | movsxd rcx, dword ptr [rcx + rax*4 + 0x20] | test r11, r11 | je 0x7ffd4e961e83 | cmp ecx, dword ptr [r11 + 0x18] | jae 0x7ffd4e961e89 | test rdx, rdx | je 0x7ffd4e961e83 | cmp ecx, dword ptr [rdx + 0x18] | jae 0x7ffd4e961e89 | mov eax, dword ptr [r11 + rcx*4 + 0x20]
+
+AnimatedTextureBaseImpl_0682::m_2EB
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= mov rbx, qword ptr [rbx + 0x10] | cmp dword ptr [rcx + 0xe0], 0 | mov rbx, qword ptr [rbx + 0x170] | jne 0x7ffd4e96da79 | call 0x7ffd4e247030 | xor ecx, ecx | call 0x7ffd539992f0 | xor r8d, r8d | mov rdx, rax | mov rcx, rbx | add rsp, 0x20 | pop rbx | jmp 0x7ffd5399bae0 | int3
+
+AnimatedTextureBaseImpl_0682::m_2F2
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= sbb eax, 0x854d0005 | dec dword ptr [rdi] | test byte ptr [rcx + rax], dl | add byte ptr [rax], al | mov rdx, rbx | mov rcx, r15 | call 0x7ffd4d835830 | jmp 0x7ffd4e96af39 | movzx ecx, cx | add rcx, rcx | movsxd r8, dword ptr [r8 + rcx*8 + 8] | shl r8, 4 | add r8, 0x138 | add r8, r10 | jmp 0x7ffd4e96afa5 | mov dword ptr [r14], 0x7f | lea rcx, [r14 + 8] | mov r8, qword ptr [rip + 0xae2de47] | mov rdx, r15 | call 0x7ffd4e6b3c40
+
+AnimatedTextureBaseImpl_0682::m_326
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= addps xmm1, xmm15 | subss xmm15, xmm6 | addss xmm5, xmm3 | mulss xmm10, xmm12 | mulss xmm0, dword ptr [rbp + 0x40] | mulss xmm1, dword ptr [rbp + 0x48] | addss xmm10, xmm0 | mulss xmm15, xmm12 | movaps xmm0, xmm4 | mulss xmm5, xmm12 | subss xmm0, xmm9 | addss xmm10, xmm1 | movaps xmm1, xmm11 | subss xmm1, xmm2 | addss xmm9, xmm4 | mulss xmm0, dword ptr [rbp + 0x48] | mulss xmm1, dword ptr [rbp + 0x40] | mulss xmm9, dword ptr [rbp + 0x40] | addss xmm1, xmm5 | addss xmm15, xmm9
+
+AnimatedTextureBaseImpl_0682::m_35D
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= and al, 0 | lea rcx, [rip + 0xae2e757] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e736] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e6e5] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e6cc] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e6e3] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e6c2] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e681]
+
+AnimatedTextureBaseImpl_0682::m_38C
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= push rax | or dword ptr [rsp], 0 | lea rcx, [rip + 0xae358d3] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xb42f045], 1 | cmp byte ptr [rdi + 0x18], 0 | mov qword ptr [rsp + 0x50], rbx | mov qword ptr [rsp + 0x58], rbp | je 0x7ffd4e9639a0 | test rsi, rsi | je 0x7ffd4e963b54 | mov rdx, qword ptr [rip + 0xae35952] | mov ecx, 5 | mov r8, rsi | call 0x7ffd4d812be0 | movups xmm0, xmmword ptr [rdi + 0x18] | mov rbx, rax | movd eax, xmm0 | movups xmmword ptr [rsp + 0x30], xmm0
+
+AnimatedTextureBaseImpl_0682::m_3A1
+ class= AnimatedTextureBaseImpl_0682
+ callees= ['ServiceDescriptorCacheItem::get_Last']
+ body= adc byte ptr [rdi + 0x38], al | mov rcx, qword ptr [rip + 0xaf14dae] | lea rdx, [rsp + 0x40] | movups xmm1, xmmword ptr [rdi + 0x48] | movups xmmword ptr [rsp + 0x40], xmm0 | movsd xmm0, qword ptr [rdi + 0x58] | movsd qword ptr [rsp + 0x60], xmm0 | movups xmmword ptr [rsp + 0x50], xmm1 | call 0x7ffd4e26ee30 | mov r8, qword ptr [rdi + 0x10] | lea rcx, [rsp + 0x20] | mov rbx, qword ptr [rip + 0xae2d6d3] | xorps xmm0, xmm0 | xor r9d, r9d | mov rdx, rax | movups xmmword ptr [rsp + 0x20], xmm0 | movups xmmword ptr [rsp + 0x30], xmm0 | call 0x7ffd539d5350 | movups xmm0, xmmword ptr [rsp + 0x20] | xor r9d, r9d
+
+AnimatedTextureBaseImpl_0682::m_447
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= or al, 0xe2 | loop 0x7ffd4e96ac7e | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e1bb] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e1a2] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e1b9] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e198] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e157] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | lea rcx, [rip + 0xae2e13e]
+
+AnimatedTextureBaseImpl_0682::m_455
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= and dword ptr [rax], 0xc38b4276 | add rax, 2 | cmp eax, dword ptr [rcx + 0x18] | jae 0x7ffd4e960fd4 | comiss xmm0, dword ptr [rcx + rax*4 + 0x20] | jbe 0x7ffd4e960fc7 | lea edx, [rbx + 3] | xor r8d, r8d | mov rcx, rdi | call 0x7ffd4e961f30 | test al, al | je 0x7ffd4e960fc7 | lea edx, [rbx + 4] | xor r8d, r8d | mov rcx, rdi | call 0x7ffd4e961f30 | test al, al | setne al | mov rbx, qword ptr [rsp + 0x30] | add rsp, 0x20
+
+AnimatedTextureBaseImpl_0682::m_495
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= jne 0x7ffd4e91ee4a | lea rcx, [rip + 0xae6ce47] | call 0x7ffd4e21b740 | lock or dword ptr [rsp], 0 | mov byte ptr [rip + 0xb4739f3], 1 | mov rcx, qword ptr [rbx + 0x10] | test rcx, rcx | je 0x7ffd4e91ee9d | mov r8, qword ptr [rcx] | mov rdx, qword ptr [rcx + 0x10] | mov rax, qword ptr [r8 + 0x1b8] | mov r8, qword ptr [r8 + 0x1c0] | call rax | mov rcx, qword ptr [rbx + 0x18] | test rcx, rcx | je 0x7ffd4e91ee97 | mov rdx, qword ptr [rbx + 0x20] | test rdx, rdx | je 0x7ffd4e91ee9d | mov rax, qword ptr [rcx + 0x18]
+
+AnimatedTextureBaseImpl_0682::m_49D
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= hlt | or cl, byte ptr [rbp - 0x75] | ja 0x7ffd4e960887 | mov rsi, qword ptr [rbp + 0x20] | cmp dword ptr [rcx + 0xe0], 0 | jne 0x7ffd4e960880 | call 0x7ffd4e247030 | mov rcx, qword ptr [rip + 0xaf46518] | mov rax, qword ptr [rip + 0xaf504b9] | cmp dword ptr [rax + 0xe0], 0 | jne 0x7ffd4e96089f | mov rcx, rax | call 0x7ffd4e247030 | mov rcx, qword ptr [rip + 0xaf464f9] | mov rax, qword ptr [rcx + 0xb8] | mov rdx, qword ptr [rax] | test rdx, rdx | je 0x7ffd4e9609f8 | cmp edi, dword ptr [rdx + 0x18] | jae 0x7ffd4e9609fe
+
+AnimatedTextureBaseImpl_0682::m_4C5
+ class= AnimatedTextureBaseImpl_0682
+ callees= []
+ body= sub rsp, 0x28 | cmp byte ptr [rcx + 0x30], 0 | je 0x7ffd4e960f16 | cmp edx, 9 | ja 0x7ffd4e960f16 | mov rcx, qword ptr [rcx + 0x20] | test rcx, rcx | je 0x7ffd4e960f1b | cmp edx, dword ptr [rcx + 0x18] | jae 0x7ffd4e960f21 | movsxd rax, edx | movss dword ptr [rcx + rax*4 + 0x20], xmm2 | add rsp, 0x28 | ret
+

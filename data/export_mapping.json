@@ -1,0 +1,3453 @@
+{
+  "known": {
+    "xbdxfIjXGZA": "il2cpp_domain_get",
+    "HVnVGWHvEoF": "il2cpp_thread_attach",
+    "il2cpp_free": "il2cpp_free",
+    "il2cpp_gchandle_get_target": "il2cpp_gchandle_get_target",
+    "il2cpp_native_stack_trace": "il2cpp_native_stack_trace"
+  },
+  "analysis": {
+    "ATNhdipXNvS": {
+      "rva": "0xa2c6c0",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "AVGwhXo_SGs": {
+      "rva": "0xa257e0",
+      "size": 676,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "AYIkgJtVCnc": {
+      "rva": "0xa260c0",
+      "size": 758,
+      "params": 4,
+      "calls": 3,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 758B, 3 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 758B, 3 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 758B, 3 calls"
+      }
+    },
+    "AjAdelsLtXh": {
+      "rva": "0xa32ee0",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "AyuVAoFK_uF": {
+      "rva": "0xa2e6c0",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "BLTQAWXRkTZ": {
+      "rva": "0xa24680",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "BNTLSHZewDw": {
+      "rva": "0xa13e70",
+      "size": 724,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "BPBnHdkDHnu": {
+      "rva": "0xa2b2e0",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "B_ajaUtXAfx": {
+      "rva": "0xa33dc0",
+      "size": 20,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "BaPHIyJxEeB": {
+      "rva": "0xa2daa0",
+      "size": 719,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 719B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 719B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 719B, 2 calls"
+      }
+    },
+    "BiD_uimTETe": {
+      "rva": "0x9a5a70",
+      "size": 66,
+      "params": 1,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "BjqoMxBHatc": {
+      "rva": "0xa15e90",
+      "size": 761,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "CADwXNJTxWF": {
+      "rva": "0xa2d7c0",
+      "size": 716,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "COYxkAWZdKi": {
+      "rva": "0xa146f0",
+      "size": 844,
+      "params": 4,
+      "calls": 4,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 844B, 4 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 844B, 4 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 844B, 4 calls"
+      }
+    },
+    "CTUuVhFLcXF": {
+      "rva": "0xa23160",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "CrrxhuJzbNI": {
+      "rva": "0xa257e0",
+      "size": 676,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "DAcluCTEbSX": {
+      "rva": "0xa257e0",
+      "size": 676,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "DSpjYEGkJKr": {
+      "rva": "0xa334b0",
+      "size": 870,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "DonlUOntngP": {
+      "rva": "0xa2c0f0",
+      "size": 746,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 746B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 746B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 746B, 2 calls"
+      }
+    },
+    "DsypexIocHA": {
+      "rva": "0xa16d10",
+      "size": 693,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "DxfDCxavZRG": {
+      "rva": "0xa191e0",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "ECYpNGZNzMg": {
+      "rva": "0xa16fe0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "EIysXRUhSeP": {
+      "rva": "0xa295c0",
+      "size": 743,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "EYJPzGQCLYN": {
+      "rva": "0xa24050",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "EdsMOoTbhKK": {
+      "rva": "0xa23cd0",
+      "size": 11,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "EfteC_Mhzkj": {
+      "rva": "0xa1f0a0",
+      "size": 725,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 725B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 725B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 725B, 2 calls"
+      }
+    },
+    "EhYljgXuWGw": {
+      "rva": "0xa2cf60",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "EnLJFwNhigy": {
+      "rva": "0xa2f890",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "EorOjfWBrbS": {
+      "rva": "0x9a5ac0",
+      "size": 66,
+      "params": 1,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "FXApEUTiXZR": {
+      "rva": "0xa1afd0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "FX_kBuSEMZp": {
+      "rva": "0xa28bc0",
+      "size": 768,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "FiSSgcKFElD": {
+      "rva": "0xa26690",
+      "size": 851,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "GHABw_hsjxy": {
+      "rva": "0xa1ad10",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "GiA_vqfUFYR": {
+      "rva": "0xa2b020",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "GinczqCvUEP": {
+      "rva": "0xa24c20",
+      "size": 716,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "GjPvnMcniJx": {
+      "rva": "0xa14150",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "HVKcCCeyJGo": {
+      "rva": "0xa34f90",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "HqQGLWiDaVu": {
+      "rva": "0xa172a0",
+      "size": 705,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "HtrVDUGqGlj": {
+      "rva": "0xa34970",
+      "size": 706,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "IJNHDwgyUsY": {
+      "rva": "0xa1c0a0",
+      "size": 699,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "INcZJBlKwXH": {
+      "rva": "0xa23430",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "IRvnzYNxn_g": {
+      "rva": "0xa257e0",
+      "size": 676,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "IojfHFPRVoA": {
+      "rva": "0xa18c40",
+      "size": 720,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "IoyjgoNWjwf": {
+      "rva": "0xa35260",
+      "size": 830,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 830B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 830B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 830B, 2 calls"
+      }
+    },
+    "JACYAffSZLQ": {
+      "rva": "0xa30560",
+      "size": 27,
+      "params": 1,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_thread_attach",
+          "confidence": 0.3,
+          "notes": "1 param, 27B, 1 calls"
+        },
+        {
+          "api": "il2cpp_string_new",
+          "confidence": 0.25,
+          "notes": "1 param, 27B, 1 calls"
+        },
+        {
+          "api": "il2cpp_type_get_name",
+          "confidence": 0.2,
+          "notes": "1 param, 27B, calls type name resolver"
+        },
+        {
+          "api": "il2cpp_object_new",
+          "confidence": 0.2,
+          "notes": "1 param, 27B, 1 calls (alloc pattern)"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_thread_attach",
+        "confidence": 0.3,
+        "notes": "1 param, 27B, 1 calls"
+      }
+    },
+    "JioklKCGDm_": {
+      "rva": "0xa34100",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "JyyNnjzvJDo": {
+      "rva": "0xa138b0",
+      "size": 724,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "KKjoOjfMohY": {
+      "rva": "0xa23ca0",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": true,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "KVWdMFwYKSw": {
+      "rva": "0xa343d0",
+      "size": 706,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "KhnszlFLxHz": {
+      "rva": "0xa1c640",
+      "size": 693,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "KqTWhxuYYrp": {
+      "rva": "0xa18970",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "KtMbArYEvxF": {
+      "rva": "0x19ef20",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "LSnHgEigi_N": {
+      "rva": "0xa21e30",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "MDkBAneEpbN": {
+      "rva": "0xa1bb00",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "MFEECFsLt_e": {
+      "rva": "0xa29ba0",
+      "size": 743,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "MQXiHrfXWfw": {
+      "rva": "0xa25d60",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "MTOHFYVKyDH": {
+      "rva": "0xa15090",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "McICOgyNAMK": {
+      "rva": "0xa2a180",
+      "size": 743,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "MnNnIpNRXAv": {
+      "rva": "0xa17850",
+      "size": 698,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "NGiHfbYXAnt": {
+      "rva": "0xa1f390",
+      "size": 937,
+      "params": 4,
+      "calls": 17,
+      "string_refs": [
+        "New object count: ",
+        "Method count: ",
+        "Class static data size: ",
+        "Inflated method count: "
+      ],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 937B, 17 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 937B, 17 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 937B, 17 calls"
+      }
+    },
+    "NbZKCc_qMKb": {
+      "rva": "0xa1b290",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "NeyMhtfVaPA": {
+      "rva": "0xa35890",
+      "size": 695,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "OEDytnPdeFn": {
+      "rva": "0xa18970",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "OOREBWkvwgR": {
+      "rva": "0xa194b0",
+      "size": 780,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "ORWSoHdMgYo": {
+      "rva": "0xa263c0",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "OeVMlQPleEX": {
+      "rva": "0xa34c40",
+      "size": 832,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 832B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 832B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 832B, 2 calls"
+      }
+    },
+    "PFrDzRiXGhK": {
+      "rva": "0xa2e990",
+      "size": 705,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 705B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 705B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 705B, 2 calls"
+      }
+    },
+    "PJAzzCDdgSZ": {
+      "rva": "0xa24620",
+      "size": 36,
+      "params": 1,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "PioCYjEXKxv": {
+      "rva": "0xa24320",
+      "size": 15,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": true,
+      "getter_offset": "0xbbd5bb9",
+      "matches": [
+        {
+          "api": "il2cpp_domain_get",
+          "confidence": 0.9,
+          "notes": "Small func (15B), loads global via RIP-relative"
+        },
+        {
+          "api": "il2cpp_method_get_param_count",
+          "confidence": 0.3,
+          "notes": "Small getter at +0xbbd5bb9"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_domain_get",
+        "confidence": 0.9,
+        "notes": "Small func (15B), loads global via RIP-relative"
+      }
+    },
+    "PoXgOgEfOAj": {
+      "rva": "0xa2cc90",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "QFkMHNmhhMb": {
+      "rva": "0xa1aa30",
+      "size": 723,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "QJkAlhLprIE": {
+      "rva": "0xa1d190",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "QJqaINaCLmV": {
+      "rva": "0xa31e00",
+      "size": 695,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "QKnxHpYefhG": {
+      "rva": "0xa25d70",
+      "size": 824,
+      "params": 4,
+      "calls": 6,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 824B, 6 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 824B, 6 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 824B, 6 calls"
+      }
+    },
+    "QWgSHcGPtyB": {
+      "rva": "0xa17df0",
+      "size": 695,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "RSBjFpGNueJ": {
+      "rva": "0xa28340",
+      "size": 737,
+      "params": 4,
+      "calls": 3,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 737B, 3 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 737B, 3 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 737B, 3 calls"
+      }
+    },
+    "RhvWxdHCJut": {
+      "rva": "0xa1edd0",
+      "size": 705,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "RilQvxRtQ_Q": {
+      "rva": "0xa1dfd0",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "SWHEsTscYPt": {
+      "rva": "0xa32390",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "SfSGxIANfTX": {
+      "rva": "0xa2c990",
+      "size": 734,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "SttGFyTzGds": {
+      "rva": "0xa1e560",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "TgwxQxGhz_V": {
+      "rva": "0xa15900",
+      "size": 705,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "TzlhAiLIPTe": {
+      "rva": "0xa21e30",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "UMPHKVKNtiK": {
+      "rva": "0xa1eb00",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "UWALmApWHRt": {
+      "rva": "0xa15360",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "UaHJTaKqMkC": {
+      "rva": "0xa346a0",
+      "size": 707,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "UffqWdTNGYf": {
+      "rva": "0xa28ed0",
+      "size": 908,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 908B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 908B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 908B, 2 calls"
+      }
+    },
+    "UnFngdJqcho": {
+      "rva": "0xa2bb50",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "VPdiJqBVLdz": {
+      "rva": "0xa202c0",
+      "size": 73,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "VUWfKydHPya": {
+      "rva": "0xa2ad30",
+      "size": 733,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "VaEgjKnkwDM": {
+      "rva": "0xa14a50",
+      "size": 811,
+      "params": 4,
+      "calls": 3,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 811B, 3 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 811B, 3 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 811B, 3 calls"
+      }
+    },
+    "VfRDkaTZrrj": {
+      "rva": "0xa2cc80",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": true,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "VpEPGNpMkqk": {
+      "rva": "0xa32660",
+      "size": 695,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "WDpVrLhGRhc": {
+      "rva": "0xa180c0",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "WGtXHhGjngx": {
+      "rva": "0xa1fd00",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": true,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "WHOYIfRGxIM": {
+      "rva": "0xa24650",
+      "size": 41,
+      "params": 1,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_thread_attach",
+          "confidence": 0.3,
+          "notes": "1 param, 41B, 1 calls"
+        },
+        {
+          "api": "il2cpp_string_new",
+          "confidence": 0.25,
+          "notes": "1 param, 41B, 1 calls"
+        },
+        {
+          "api": "il2cpp_type_get_name",
+          "confidence": 0.2,
+          "notes": "1 param, 41B, calls type name resolver"
+        },
+        {
+          "api": "il2cpp_object_new",
+          "confidence": 0.2,
+          "notes": "1 param, 41B, 1 calls (alloc pattern)"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_thread_attach",
+        "confidence": 0.3,
+        "notes": "1 param, 41B, 1 calls"
+      }
+    },
+    "WQOPucvKEmK": {
+      "rva": "0xa26cf0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "WXoOpWeitFX": {
+      "rva": "0xa14420",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "WePgpcltqzv": {
+      "rva": "0xa2fb60",
+      "size": 862,
+      "params": 4,
+      "calls": 7,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 862B, 7 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 862B, 7 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 862B, 7 calls"
+      }
+    },
+    "XhTQAyskQVM": {
+      "rva": "0xa257e0",
+      "size": 676,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "XiBOpqMDdfS": {
+      "rva": "0xa2d230",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "Xpl_zWkQgyz": {
+      "rva": "0xa2be20",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "XwjPLklAEJb": {
+      "rva": "0xa2a480",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "XxDELIeeYwh": {
+      "rva": "0xa15bd0",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "YBfoZSSFRhf": {
+      "rva": "0xa2fef0",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "YSkRBOyxA_e": {
+      "rva": "0xa161a0",
+      "size": 720,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 720B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 720B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 720B, 2 calls"
+      }
+    },
+    "YqfGA_npgoC": {
+      "rva": "0xa27af0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "ZbcaUaUosxK": {
+      "rva": "0xa1cec0",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "ZnjwAaJLsIn": {
+      "rva": "0x126d00",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "_HjWtQ_wWHP": {
+      "rva": "0xa2e690",
+      "size": 44,
+      "params": 1,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "aAhwtOToyHF": {
+      "rva": "0xa32c00",
+      "size": 714,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "aAzIdqnglIU": {
+      "rva": "0xa16480",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "aCtkkfZdEYT": {
+      "rva": "0xa30580",
+      "size": 866,
+      "params": 4,
+      "calls": 7,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 866B, 7 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 866B, 7 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 866B, 7 calls"
+      }
+    },
+    "amrHvGVqAWg": {
+      "rva": "0xa334a0",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": true,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "bBRunuJKcVe": {
+      "rva": "0xa1a440",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "bDYPIGPZdKs": {
+      "rva": "0xa24040",
+      "size": 8,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": true,
+      "getter_offset": "0xbb8c7d1",
+      "matches": [
+        {
+          "api": "il2cpp_domain_get",
+          "confidence": 0.9,
+          "notes": "Small func (8B), loads global via RIP-relative"
+        },
+        {
+          "api": "il2cpp_method_get_param_count",
+          "confidence": 0.3,
+          "notes": "Small getter at +0xbb8c7d1"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_domain_get",
+        "confidence": 0.9,
+        "notes": "Small func (8B), loads global via RIP-relative"
+      }
+    },
+    "bIFGxftQHLn": {
+      "rva": "0xa2f500",
+      "size": 855,
+      "params": 4,
+      "calls": 6,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 855B, 6 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 855B, 6 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 855B, 6 calls"
+      }
+    },
+    "bZgXrEfpuUK": {
+      "rva": "0xa2a740",
+      "size": 780,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "bgnr_GqksXg": {
+      "rva": "0xa28080",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "bwKGliWXVQw": {
+      "rva": "0xa23ce0",
+      "size": 832,
+      "params": 4,
+      "calls": 5,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 832B, 5 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 832B, 5 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 832B, 5 calls"
+      }
+    },
+    "bxERpHCDqzY": {
+      "rva": "0xa1d720",
+      "size": 736,
+      "params": 4,
+      "calls": 3,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 736B, 3 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 736B, 3 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 736B, 3 calls"
+      }
+    },
+    "cBAbhLtAzJE": {
+      "rva": "0xa30900",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "cVHnaxUQZmU": {
+      "rva": "0xa197d0",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "cVTKWDcYDzs": {
+      "rva": "0xa31440",
+      "size": 811,
+      "params": 4,
+      "calls": 4,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 811B, 4 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 811B, 4 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 811B, 4 calls"
+      }
+    },
+    "cbQdpBhHSWo": {
+      "rva": "0xa2ef40",
+      "size": 697,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "cdwqmKeoiHx": {
+      "rva": "0xa13250",
+      "size": 712,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 712B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 712B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 712B, 2 calls"
+      }
+    },
+    "ckghputtKFy": {
+      "rva": "0xa30ea0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "crPZaPDYqNv": {
+      "rva": "0xa2a480",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "dQaAttohknp": {
+      "rva": "0xa1f9b0",
+      "size": 797,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "dTzwOzZBhry": {
+      "rva": "0xa18390",
+      "size": 722,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "dWSPVSZdcAt": {
+      "rva": "0xa298c0",
+      "size": 715,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "deYfugcXyKX": {
+      "rva": "0xa223d0",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "dfDeUSJLFLf": {
+      "rva": "0xa31780",
+      "size": 814,
+      "params": 4,
+      "calls": 4,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 814B, 4 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 814B, 4 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 814B, 4 calls"
+      }
+    },
+    "drcUQmSMBpr": {
+      "rva": "0xa25d50",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "dtfZaClWnM_": {
+      "rva": "0xa24950",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "dukQGLykVHb": {
+      "rva": "0xa28080",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "eJdnmuboZDA": {
+      "rva": "0xa1bdd0",
+      "size": 693,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "efNIfQlgide": {
+      "rva": "0xa1ffe0",
+      "size": 715,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "eubBToAmlx_": {
+      "rva": "0xa19aa0",
+      "size": 774,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "fJLGjQPaIPs": {
+      "rva": "0xa1fd10",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "fgTYDbMiVQj": {
+      "rva": "0xa21220",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "glqKM_zATuw": {
+      "rva": "0xa1dd00",
+      "size": 699,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "hCmExyFRF_y": {
+      "rva": "0xa2e320",
+      "size": 862,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "hNnYHRMcCrv": {
+      "rva": "0xa2f210",
+      "size": 725,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "hRwIDaxIqiX": {
+      "rva": "0xa26fb0",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "iHZZeLVidBJ": {
+      "rva": "0xa28630",
+      "size": 703,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "iMuwtvUkOkT": {
+      "rva": "0xa301c0",
+      "size": 856,
+      "params": 4,
+      "calls": 6,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 856B, 6 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 856B, 6 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 856B, 6 calls"
+      }
+    },
+    "iUhEYrgNReA": {
+      "rva": "0xa251f0",
+      "size": 712,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "iZoWURG_VKv": {
+      "rva": "0xa13b90",
+      "size": 724,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "ijHupgfoKmP": {
+      "rva": "0xa1b830",
+      "size": 693,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "iuyIGkdzihT": {
+      "rva": "0xa20e60",
+      "size": 867,
+      "params": 4,
+      "calls": 3,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 867B, 3 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 867B, 3 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 867B, 3 calls"
+      }
+    },
+    "jBvPalWXtqM": {
+      "rva": "0xa21b70",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "jFreDTJnUpt": {
+      "rva": "0xa2ec60",
+      "size": 711,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "jeorAZPgJNn": {
+      "rva": "0xa320d0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "jnBIbnlgypD": {
+      "rva": "0xa23700",
+      "size": 699,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "jvkfQmpFydW": {
+      "rva": "0xa20560",
+      "size": 734,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "kMgdLjbUEBJ": {
+      "rva": "0xa1a090",
+      "size": 851,
+      "params": 4,
+      "calls": 3,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 851B, 3 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 851B, 3 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 851B, 3 calls"
+      }
+    },
+    "kdHULGwnKDg": {
+      "rva": "0x1c4f00",
+      "size": 3,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "kuAf_KrTmBY": {
+      "rva": "0xa218a0",
+      "size": 695,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "kvAxoZtuyoL": {
+      "rva": "0xa23cb0",
+      "size": 25,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "kvqlFZHlnZP": {
+      "rva": "0xa35b60",
+      "size": 853,
+      "params": 4,
+      "calls": 4,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 853B, 4 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 853B, 4 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 853B, 4 calls"
+      }
+    },
+    "kzoRbAtfBNA": {
+      "rva": "0xa33820",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "lHtg__KrtLw": {
+      "rva": "0xa1c370",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "lfVKTocoNDe": {
+      "rva": "0xa1b560",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "lsALUOnikLl": {
+      "rva": "0xa15630",
+      "size": 705,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "lwaKKJUkNjw": {
+      "rva": "0xa257e0",
+      "size": 676,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "mAfWnuywcbY": {
+      "rva": "0xa1cbe0",
+      "size": 714,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "mQEcpsjUgqv": {
+      "rva": "0xa27550",
+      "size": 695,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "mVLAZlpwZt_": {
+      "rva": "0xa1c910",
+      "size": 698,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "nolzMcjBBto": {
+      "rva": "0xa20850",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "npqAdUhbyaG": {
+      "rva": "0xa17b20",
+      "size": 699,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "nqJRoOqITMY": {
+      "rva": "0xa1dfd0",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "nqRMzqVjTDv": {
+      "rva": "0xa26a00",
+      "size": 733,
+      "params": 4,
+      "calls": 3,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 733B, 3 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 733B, 3 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 733B, 3 calls"
+      }
+    },
+    "nwnTyGbPweq": {
+      "rva": "0xa29ea0",
+      "size": 715,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "nytWJmqlIe_": {
+      "rva": "0xa254d0",
+      "size": 757,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "oJXxGbrSmfo": {
+      "rva": "0xa355b0",
+      "size": 722,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "oQcDNfJURnv": {
+      "rva": "0xa292a0",
+      "size": 776,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "ooUptWzDDvV": {
+      "rva": "0xa24030",
+      "size": 11,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "oyJ_xLVXFtZ": {
+      "rva": "0xa2e050",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "pEVMEVEzEel": {
+      "rva": "0xa2b880",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "pGXnFqJPeoB": {
+      "rva": "0xa13530",
+      "size": 856,
+      "params": 4,
+      "calls": 4,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 856B, 4 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 856B, 4 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 856B, 4 calls"
+      }
+    },
+    "pJoglyxgqza": {
+      "rva": "0xa1a710",
+      "size": 774,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "pfeqgyppPbc": {
+      "rva": "0xa215e0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "phXJMjARPwy": {
+      "rva": "0xa26cf0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "pnlTVoUKFXR": {
+      "rva": "0xa22990",
+      "size": 854,
+      "params": 4,
+      "calls": 5,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 854B, 5 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 854B, 5 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 854B, 5 calls"
+      }
+    },
+    "polDidKYtor": {
+      "rva": "0xa24340",
+      "size": 712,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "ptMWbGfzUMD": {
+      "rva": "0xa215e0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "qkqilPmJauQ": {
+      "rva": "0xa27820",
+      "size": 698,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "qspLSmiZqBy": {
+      "rva": "0xa2dd80",
+      "size": 702,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "rW_KW_jZhXG": {
+      "rva": "0xa2c3f0",
+      "size": 705,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "rucKspzxJoE": {
+      "rva": "0xa18f20",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "sCaLNAggrg_": {
+      "rva": "0xa239d0",
+      "size": 695,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 695B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 695B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 695B, 2 calls"
+      }
+    },
+    "sHEydyJjQKs": {
+      "rva": "0x19ef20",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "sVtHXQrGkoy": {
+      "rva": "0xa1e290",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "sszrmZznswK": {
+      "rva": "0xa215e0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "swKPvZXcR_b": {
+      "rva": "0xa16750",
+      "size": 720,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "tFxAVtBBqyd": {
+      "rva": "0x19ef20",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "tHmNbuNymVc": {
+      "rva": "0xa17570",
+      "size": 712,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 712B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 712B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 712B, 2 calls"
+      }
+    },
+    "tLKrbizvMJg": {
+      "rva": "0xa220f0",
+      "size": 720,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "tpYAdUUXfPz": {
+      "rva": "0xa31ac0",
+      "size": 814,
+      "params": 4,
+      "calls": 4,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 814B, 4 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 814B, 4 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 814B, 4 calls"
+      }
+    },
+    "tsoJjimDsIM": {
+      "rva": "0xa2aa60",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "uGzKop_gLGw": {
+      "rva": "0xa1dfd0",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "uLKfITCmBJd": {
+      "rva": "0xa25a90",
+      "size": 698,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "uNrYZTPuayI": {
+      "rva": "0xa138a0",
+      "size": 6,
+      "params": 0,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": true,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "uVYYpePjHjL": {
+      "rva": "0xa28900",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "u_HfJEgLPyZ": {
+      "rva": "0xa20b20",
+      "size": 799,
+      "params": 4,
+      "calls": 3,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 799B, 3 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 799B, 3 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 799B, 3 calls"
+      }
+    },
+    "ulDIzDyrhxM": {
+      "rva": "0xa226a0",
+      "size": 736,
+      "params": 4,
+      "calls": 3,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 736B, 3 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 736B, 3 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 736B, 3 calls"
+      }
+    },
+    "utRQrxOnXyj": {
+      "rva": "0xa1afd0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "vKssueLTYLf": {
+      "rva": "0xa31160",
+      "size": 725,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "vWskEiYaaoc": {
+      "rva": "0xa14d90",
+      "size": 736,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "v_dEkHsdEBU": {
+      "rva": "0xa1dfd0",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "vmBUSNyGpxp": {
+      "rva": "0xa16a30",
+      "size": 720,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "vqHJXBXgLfd": {
+      "rva": "0xa27db0",
+      "size": 707,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "vwQWyzBurwU": {
+      "rva": "0xa1d450",
+      "size": 693,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "wBQxxkxM_GX": {
+      "rva": "0xa1afd0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "wKGgYZbPwEA": {
+      "rva": "0xa257e0",
+      "size": 676,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "wLKGaaebBSf": {
+      "rva": "0xa331a0",
+      "size": 753,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "wQyEIQnRSrW": {
+      "rva": "0xa19dc0",
+      "size": 704,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "wTIzMMUxWQE": {
+      "rva": "0xa32930",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "wkVOePWdoDg": {
+      "rva": "0xa1dfd0",
+      "size": 690,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "wzuSGzlxhxZ": {
+      "rva": "0xa18670",
+      "size": 746,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 746B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 746B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 746B, 2 calls"
+      }
+    },
+    "xGU_ykypuaX": {
+      "rva": "0xa1da10",
+      "size": 729,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "xHiTIJfChhw": {
+      "rva": "0xa2d500",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "xJjFNfqLioo": {
+      "rva": "0xa33de0",
+      "size": 782,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "xX_lgEDPbHo": {
+      "rva": "0xa27280",
+      "size": 693,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "xzMNjeTbhta": {
+      "rva": "0xa22e40",
+      "size": 776,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "yFEgemfoyfF": {
+      "rva": "0xa257e0",
+      "size": 676,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "yFrutmZLrwJ": {
+      "rva": "0xa30bd0",
+      "size": 700,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "yQDqNPcrtrm": {
+      "rva": "0xa2b5b0",
+      "size": 705,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "yyozdhRsMNX": {
+      "rva": "0xa33af0",
+      "size": 694,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "zBszRYKfywg": {
+      "rva": "0xa1afd0",
+      "size": 691,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "zeNleCruTDd": {
+      "rva": "0xa1e830",
+      "size": 693,
+      "params": 4,
+      "calls": 0,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    },
+    "zrRbqtzWuqP": {
+      "rva": "0xa24f00",
+      "size": 717,
+      "params": 4,
+      "calls": 2,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [
+        {
+          "api": "il2cpp_class_from_name",
+          "confidence": 0.4,
+          "notes": "3+ params, 717B, 2 calls"
+        },
+        {
+          "api": "il2cpp_runtime_invoke",
+          "confidence": 0.3,
+          "notes": "4 params, 717B, 2 calls"
+        }
+      ],
+      "best_match": {
+        "api": "il2cpp_class_from_name",
+        "confidence": 0.4,
+        "notes": "3+ params, 717B, 2 calls"
+      }
+    },
+    "zyDFGFkIDab": {
+      "rva": "0xa2d7c0",
+      "size": 716,
+      "params": 4,
+      "calls": 1,
+      "string_refs": [],
+      "is_thunk": false,
+      "is_getter": false,
+      "getter_offset": null,
+      "matches": [],
+      "best_match": null
+    }
+  },
+  "final_mapping": {
+    "xbdxfIjXGZA": "il2cpp_domain_get",
+    "HVnVGWHvEoF": "il2cpp_thread_attach",
+    "il2cpp_free": "il2cpp_free",
+    "il2cpp_gchandle_get_target": "il2cpp_gchandle_get_target",
+    "il2cpp_native_stack_trace": "il2cpp_native_stack_trace",
+    "PioCYjEXKxv": "il2cpp_domain_get",
+    "bDYPIGPZdKs": "il2cpp_domain_get"
+  }
+}
