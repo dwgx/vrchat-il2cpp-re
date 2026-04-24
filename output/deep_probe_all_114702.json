@@ -1,0 +1,2397 @@
+{
+  "mode": "all",
+  "duration_s": 90.009,
+  "total_events": 3404,
+  "hooks_installed": 155,
+  "hooks_requested": 155,
+  "call_counts": {
+    "RoomManager.OnPlayerJoined": 0,
+    "RoomManager.OnPlayerLeft": 0,
+    "RoomManager.OnDestroy": 0,
+    "RoomManager.Start": 0,
+    "RoomManager.Awake": 0,
+    "PhotonRoomHandler_01D0.OnCreatedRoom": 0,
+    "PhotonRoomHandler_E1A7.OnCreatedRoom": 0,
+    "PhotonRoomHandler_E1A7.OnCustomAuthenticationFailed": 0,
+    "PhotonRoomHandler_252B.OnLeftRoom": 0,
+    "PhotonConnectionHandler_34AB.OnDisable": 0,
+    "PhotonConnectionHandler_34AB.OnEnable": 0,
+    "PhotonConnectionHandler_C364.OnCustomAuthenticationResponse": 0,
+    "PhotonConnectionHandler_92CA.m_F02": 0,
+    "PhotonConnectionHandler_92CA.m_FE4": 3,
+    "PhotonConnectionHandler_92CA.m_8D1": 3,
+    "PhotonConnectionHandler_92CA.m_2B6": 0,
+    "PhotonConnectionHandler_92CA.m_203": 0,
+    "PhotonConnectionHandler_92CA.m_B1F": 0,
+    "PhotonConnectionHandler_92CA.m_04A": 0,
+    "PhotonConnectionHandler_92CA.m_0A7": 0,
+    "PhotonConnectionHandler_92CA.m_6CE": 0,
+    "PhotonConnectionHandler_92CA.m_137": 0,
+    "PhotonConnectionHandler_92CA..cctor": 0,
+    "PhotonConnectionHandler_92CA.m_C44": 0,
+    "PhotonConnectionHandler_92CA.m_6E5": 0,
+    "PhotonConnectionHandler_92CA.m_08F": 0,
+    "PhotonConnectionHandler_92CA.m_5F1": 0,
+    "PhotonConnectionHandler_92CA.m_1BF": 0,
+    "PhotonConnectionHandler_92CA.m_37D": 0,
+    "PhotonConnectionHandler_92CA.m_270": 0,
+    "PhotonConnectionHandler_92CA.m_DEE": 18000,
+    "PhotonConnectionHandler_92CA.m_332": 0,
+    "PhotonConnectionHandler_92CA.m_ACA": 36901,
+    "PhotonConnectionHandler_92CA.m_E5A": 0,
+    "PhotonConnectionHandler_92CA.m_169": 0,
+    "PhotonConnectionHandler_92CA.m_8B3": 0,
+    "PhotonConnectionHandler_92CA.OnConnectedToMaster": 0,
+    "PhotonConnectionHandler_92CA.m_296": 0,
+    "PhotonConnectionHandler_92CA.m_AB5": 0,
+    "PhotonConnectionHandler_92CA.m_1B0": 0,
+    "PhotonConnectionHandler_92CA.m_7DC": 0,
+    "PhotonConnectionHandler_92CA.OnDestroy": 0,
+    "PhotonConnectionHandler_92CA.m_B0A": 0,
+    "PhotonConnectionHandler_92CA.m_EE9": 0,
+    "PhotonConnectionHandler_92CA.m_092": 0,
+    "PhotonConnectionHandler_92CA.m_87D": 0,
+    "PhotonConnectionHandler_92CA.m_3D2": 0,
+    "PhotonConnectionHandler_92CA.m_503": 0,
+    "PhotonConnectionHandler_92CA.m_BF0": 0,
+    "PhotonConnectionHandler_92CA.Start": 0,
+    "PhotonConnectionHandler_92CA.m_C1F": 0,
+    "PhotonConnectionHandler_92CA.m_797": 0,
+    "PhotonConnectionHandler_92CA.m_768": 875,
+    "PhotonConnectionHandler_92CA.m_126": 0,
+    "PhotonConnectionHandler_92CA.m_185": 0,
+    "PhotonConnectionHandler_92CA.m_432": 0,
+    "PhotonConnectionHandler_92CA.m_4A2": 0,
+    "PhotonConnectionHandler_92CA.m_339": 0,
+    "PhotonConnectionHandler_92CA.m_466": 0,
+    "PhotonConnectionHandler_92CA.m_6C6": 0,
+    "PhotonConnectionHandler_92CA.m_068": 0,
+    "PhotonConnectionHandler_92CA.m_F7B": 0,
+    "PhotonConnectionHandler_92CA.m_84B": 0,
+    "PhotonConnectionHandler_92CA.m_738": 0,
+    "PhotonConnectionHandler_92CA.m_BB5": 0,
+    "PhotonConnectionHandler_92CA.m_54F": 0,
+    "PhotonConnectionHandler_92CA.m_209": 0,
+    "PhotonConnectionHandler_92CA..ctor": 0,
+    "PhotonConnectionHandler_92CA.m_9A0": 0,
+    "PhotonConnectionHandler_92CA.m_3F6": 0,
+    "PhotonConnectionHandler_92CA.m_5D4": 0,
+    "PhotonConnectionHandler_92CA.m_B22": 0,
+    "PhotonConnectionHandler_92CA.Awake": 0,
+    "PhotonConnectionHandler_92CA.m_6AE": 0,
+    "PhotonConnectionHandler_92CA.m_357": 0,
+    "PhotonConnectionHandler_92CA.m_D1F": 0,
+    "PhotonConnectionHandler_92CA.m_8B9": 0,
+    "PhotonConnectionHandler_92CA.m_A59": 0,
+    "PhotonConnectionHandler_92CA.m_FC8": 127866,
+    "PhotonConnectionHandler_92CA.m_D3F": 0,
+    "PhotonConnectionHandler_92CA.m_50D": 0,
+    "PhotonConnectionHandler_92CA.m_8E7": 0,
+    "UdonBehaviour.SendCustomEvent": 0,
+    "UdonBehaviour.SendCustomNetworkEvent": 0,
+    "UdonBehaviour.get_HasError": 0,
+    "UdonBehaviour.get_SyncMethod": 0,
+    "UdonBehaviour.RunProgram": 0,
+    "UdonBehaviour.RunEvent": 0,
+    "UdonBehaviour.InitializeUdonContent": 0,
+    "UdonBehaviour.OnPreSerialization": 0,
+    "UdonBehaviour.OnPostSerialization": 0,
+    "UdonBehaviour.OnDeserialization": 0,
+    "AbstractUdonBehaviour.SendCustomNetworkEvent": 0,
+    "AbstractUdonBehaviour.GetProgramVariable": 0,
+    "AbstractUdonBehaviour.SetProgramVariable": 0,
+    "UdonHeap.CheckHeapBounds": 0,
+    "UdonHeap.SetHeapVariable": 0,
+    "UdonHeap.GetHeapVariable": 0,
+    "UdonHeap.CopyHeapVariable": 0,
+    "UdonHeap.InitializeHeapVariable": 0,
+    "UdonVMFactory.ConstructUdonVM": 0,
+    "FlatBufferSerializerCodec.Encode8": 0,
+    "FlatBufferSerializerCodec.Decode8": 0,
+    "FlatBufferSerializerCodec.Encode32": 0,
+    "FlatBufferSerializerCodec.Decode32": 0,
+    "FlatBufferSerializerCodec.DecodePlayer8": 0,
+    "FlatBufferSerializerCodec.EncodePlayer8": 0,
+    "QuantizedSerialization.Serialize": 0,
+    "QuantizedSerialization.Deserialize": 0,
+    "SerializationRecoveryHandler.m_F12": 0,
+    "SerializationRecoveryHandler.m_F83": 0,
+    "SerializationRecoveryHandler.m_F61": 0,
+    "SerializationRecoveryHandler.m_382": 0,
+    "SerializationRecoveryHandler.m_250": 0,
+    "SerializationRecoveryHandler..ctor": 0,
+    "SerializationRecoveryHandler.m_98F": 0,
+    "SerializationRecoveryHandler.m_A18": 0,
+    "SerializationRecoveryHandler.m_243": 0,
+    "SerializationRecoveryHandler.Init": 0,
+    "SerializationRecoveryHandler.m_04A": 0,
+    "PersistenceObjectStateManager.WriteInstance": 0,
+    "PersistenceObjectStateManager.ReadInstance": 0,
+    "PersistenceObjectStateManager.WritePlayer": 0,
+    "PersistenceObjectStateManager.ReadPlayer": 0,
+    "AbstractObjectStateManager.FlattenPlayerViewId": 0,
+    "FlatBufferNetworkSerializer.Decode": 0,
+    "FlatBufferNetworkSerializer.Awake": 0,
+    "FlatBufferNetworkSerializer.OnDestroy": 0,
+    "Impostor.m_502": 0,
+    "Impostor.m_8A2": 0,
+    "Impostor.m_B96": 0,
+    "Impostor.m_D96": 0,
+    "Impostor.m_27F": 0,
+    "Impostor.OnDrawGizmosSelected": 0,
+    "Impostor.m_966": 0,
+    "Impostor..ctor": 0,
+    "Impostor.m_77A": 0,
+    "Impostor.m_E64": 0,
+    "Impostor.m_370": 0,
+    "Impostor.m_1DE": 0,
+    "Impostor.m_BD1": 0,
+    "Impostor..cctor": 0,
+    "Impostor.OnDestroy": 0,
+    "Impostor.m_32D": 0,
+    "Impostor.Awake": 0,
+    "Impostor.m_2E1": 0,
+    "Impostor.m_87A": 0,
+    "Impostor.m_982": 0,
+    "Impostor.m_529": 0,
+    "Impostor.m_CEE": 0,
+    "Impostor.m_C66": 0,
+    "ImpostorAvatar.Awake": 0,
+    "ImpostorAvatar.Start": 0,
+    "ImpostorAvatar.OnEnable": 0,
+    "ImpostorAvatar.OnDisable": 0
+  },
+  "timeline_sample": [
+    {
+      "t": 83418,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 34200,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 83418,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 118500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83468,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 812,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83488,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 118600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83503,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 16700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83558,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 118700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83568,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 813,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83629,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 118800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83663,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 34300,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 83668,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 814,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83699,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 118900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83768,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83773,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 815,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83838,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83874,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 816,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83908,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 34400,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 83908,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83978,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 817,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 83978,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84004,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 16800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84049,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84078,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 818,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84119,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84153,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 34500,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 84183,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 819,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84189,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84264,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84284,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 820,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84333,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84388,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 821,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84394,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 34600,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 84403,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 119900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84474,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84494,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 822,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84503,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 16900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84544,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84593,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 823,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84614,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84639,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 34700,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 84683,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84698,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 824,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84753,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84803,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 825,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84823,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84884,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 34800,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 84894,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84908,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 826,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 84964,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85004,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85008,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 827,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85034,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85103,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 120900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85113,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 828,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85129,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 34900,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 85178,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85213,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 829,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85248,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85318,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 830,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85318,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85367,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35000,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 85388,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85423,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 831,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85457,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85504,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85529,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 832,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85529,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85599,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85613,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35100,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 85632,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 833,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85669,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85732,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 834,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85738,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85809,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 121900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85833,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 835,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85857,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35200,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 85878,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85938,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 836,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 85948,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86004,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86019,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86038,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 837,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86089,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86103,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35300,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 86143,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 838,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86164,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86233,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86244,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 839,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86304,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86344,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 840,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86344,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35400,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x431e3d9ba0"
+        }
+      }
+    },
+    {
+      "t": 86373,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86443,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 841,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86443,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86504,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86514,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 122900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86548,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 842,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86584,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86589,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35500,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 86648,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 843,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86655,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86724,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86748,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 844,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86795,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86834,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35600,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 86853,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 845,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86864,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86934,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 86958,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 846,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87004,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87004,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87064,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 847,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87078,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35700,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 87078,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87148,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87168,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 848,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87218,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 123900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87274,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 849,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87289,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87323,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35800,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 87358,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87378,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 850,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87429,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87478,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 851,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87499,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87504,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87569,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 35900,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 87569,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87584,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 852,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87640,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87684,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 853,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87710,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87779,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87784,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 854,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87809,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36000,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 87853,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87889,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 855,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87919,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 124900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87989,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 856,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 87994,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88004,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88053,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36100,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 88064,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88094,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 857,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88134,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88193,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 858,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88204,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88273,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88293,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 859,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88298,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36200,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 88344,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88398,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 860,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88413,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88484,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88504,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 861,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88504,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88543,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36300,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 88554,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88603,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 862,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88624,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 125900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88698,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88703,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 863,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88769,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88788,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36400,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 88803,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 864,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88839,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88908,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 865,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88908,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 88978,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89004,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89013,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 866,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89029,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36500,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 89049,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89118,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 867,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89119,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89188,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89223,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 868,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89259,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89273,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36600,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 89324,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 869,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89329,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 126900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89400,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 127000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89428,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 870,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89469,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 127100,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89503,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 17900,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89519,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36700,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+          "ptr": "0x433d244d20"
+        }
+      }
+    },
+    {
+      "t": 89529,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 871,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89539,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 127200,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89614,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 127300,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89634,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 872,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89683,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 127400,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89739,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 873,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89754,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 127500,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89763,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36800,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    },
+    {
+      "t": 89823,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 127600,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89843,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 874,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89894,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 127700,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89948,
+      "hook": "PhotonConnectionHandler_92CA.m_768",
+      "count": 875,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 89963,
+      "hook": "PhotonConnectionHandler_92CA.m_FC8",
+      "count": 127800,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 90003,
+      "hook": "PhotonConnectionHandler_92CA.m_DEE",
+      "count": 18000,
+      "args": {
+        "arg0": {
+          "type": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "t": 90007,
+      "hook": "PhotonConnectionHandler_92CA.m_ACA",
+      "count": 36900,
+      "args": {
+        "arg0": {
+          "type": "object",
+          "value": "AsyncUniTaskVoid`1",
+          "ptr": "0x4324febc60"
+        }
+      }
+    }
+  ],
+  "ga_base_dump": "0x7FFAA7E70000",
+  "ga_base_live": "0x7ffaa7e70000",
+  "generated": "2026-04-09 11:47:02"
+}

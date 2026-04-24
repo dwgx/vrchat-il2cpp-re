@@ -1,0 +1,357 @@
+[
+ {
+  "class": "Unknown13m_5F41",
+  "parent": "ÎÏÌÎÍÌÎÍÌÎÍÍÍÌÏÎÏÏÍÎÏÎÎ",
+  "known_methods": [
+   "ContainsChild",
+   "Initialize",
+   "GetHashCode",
+   "DeserializeOperationRequest"
+  ],
+  "hash_keys": [
+   "Unknown13m_5F41::m_BBA",
+   "Unknown13m_5F41::m_C80",
+   "Unknown13m_5F41::m_A36",
+   "Unknown13m_5F41::m_301"
+  ],
+  "total": 13,
+  "named_pct": "50%"
+ },
+ {
+  "class": "Type17m2f_5DA9",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "Cleanup",
+   "Instantiate",
+   "ToString",
+   "System.Collections.IEnumerator.MoveNext",
+   "MoveNext",
+   "get_Current",
+   "Initialize"
+  ],
+  "hash_keys": [
+   "Type17m2f_5DA9::m_32E"
+  ],
+  "total": 17,
+  "named_pct": "93%"
+ },
+ {
+  "class": "BaseClass20ImplImplImpl_3445",
+  "parent": "ÌÎÍÎÏÍÌÏÎÌÏÌÌÏÌÏÎÏÍÌÌÎÏ",
+  "known_methods": [
+   "GetGameObject_39F",
+   "Initialize",
+   "InitializeStatics",
+   "SetPrimaryHandler"
+  ],
+  "hash_keys": [
+   "BaseClass20ImplImplImpl_3445::m_4A1",
+   "BaseClass20ImplImplImpl_3445::m_367",
+   "BaseClass20ImplImplImpl_3445::m_EAA",
+   "BaseClass20ImplImplImpl_3445::m_9DD",
+   "BaseClass20ImplImplImpl_3445::m_BC4"
+  ],
+  "total": 13,
+  "named_pct": "44%"
+ },
+ {
+  "class": "BaseClass7Impl_F6E3",
+  "parent": "ÏÏÏÍÏÍÌÍÍÎÍÌÍÍÏÎÍÍÌÍÍÌÏ",
+  "known_methods": [
+   "GetParticleLight",
+   "ReadParticleCollisionModuleState",
+   "SyncParticleCollisionMask",
+   "GetPlaybackStateParticle",
+   "ReadParticleSubEmittersModuleState",
+   "Initialize",
+   "GetParticles"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_F6E3::m_7EC",
+   "BaseClass7Impl_F6E3::m_49B"
+  ],
+  "total": 10,
+  "named_pct": "77%"
+ },
+ {
+  "class": "VRC_MainSiblingSibling_F035",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "Initialize",
+   "Instantiate",
+   "ToString",
+   "SetStaticReference",
+   "InitializeAndSetProperty"
+  ],
+  "hash_keys": [
+   "VRC_MainSiblingSibling_F035::m_93B"
+  ],
+  "total": 15,
+  "named_pct": "92%"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_ED23",
+  "parent": "ÏÌÏÌÍÍÍÍÍÏÍÏÌÌÍÌÌÍÎÏÌÍÏ",
+  "known_methods": [
+   "GetPlatform",
+   "Equals",
+   "get_MaskTag",
+   "Initialize",
+   "CompareBaseObjects",
+   "get_FileId",
+   "get_AnimationStyle",
+   "Initialize_ctrlKeyboardf15",
+   "GetLanguage",
+   "RunAsyncStateMachine",
+   "AcquireSharedHandle",
+   "SetCurrentSocket",
+   "set_name",
+   "InvokeDelegateMethod",
+   "get_EffectBundleID",
+   "GetInstanceID"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImpl_ED23::m_B98",
+   "AnimatedTextureBaseImpl_ED23::m_3D1"
+  ],
+  "total": 28,
+  "named_pct": "88%"
+ },
+ {
+  "class": "BaseClass5SiblingSibling_A43C",
+  "parent": "",
+  "known_methods": [
+   "ContainsChild",
+   "GetLast",
+   "GetChild",
+   "SetChild"
+  ],
+  "hash_keys": [
+   "BaseClass5SiblingSibling_A43C::m_E69"
+  ],
+  "total": 7,
+  "named_pct": "80%"
+ },
+ {
+  "class": "ComplexComponentSibling_F028",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "InternalGetTextureStereoPacking",
+   "Equals",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "GetHashCode",
+   "ToString",
+   "DoesRetrievePurchasesExcludeDeferred",
+   "set_disposeDownloadHandlerOnDispose",
+   "GetPlaybackQualityStats",
+   "Destroy",
+   "DestroyImmediate",
+   "GetBufferedTimes",
+   "FindObjectsOfType",
+   "FindObjectsByType",
+   "set_iconImageUrl",
+   "get_hideFlags",
+   "get_hideFlags",
+   "set_hideFlags",
+   "set_hideFlags",
+   "FindObjectOfType",
+   "FindFirstObjectByType",
+   "SyncTransform",
+   "CheckNullArgument",
+   "DoSetParticles_8B8"
+  ],
+  "hash_keys": [
+   "ComplexComponentSibling_F028::m_69A",
+   "ComplexComponentSibling_F028::m_69A",
+   "ComplexComponentSibling_F028::m_FFC",
+   "ComplexComponentSibling_F028::m_CFE",
+   "ComplexComponentSibling_F028::m_84E",
+   "ComplexComponentSibling_F028::m_3B8",
+   "ComplexComponentSibling_F028::m_690",
+   "ComplexComponentSibling_F028::m_AEB",
+   "ComplexComponentSibling_F028::m_270",
+   "ComplexComponentSibling_F028::m_0E3",
+   "ComplexComponentSibling_F028::m_48C",
+   "ComplexComponentSibling_F028::m_5E8"
+  ],
+  "total": 70,
+  "named_pct": "81%"
+ },
+ {
+  "class": "AudioPerformClipping_2B7E",
+  "parent": "RectMask2D",
+  "known_methods": [
+   "get_padding",
+   "set_softness",
+   "get_Canvas",
+   "get_canvasRect",
+   "get_rectTransform",
+   "IsPlaying",
+   "OnDisable",
+   "IsRaycastLocationValid",
+   "get_rootCanvasRect",
+   "Initialize",
+   "RemoveClippable",
+   "OnCanvasHierarchyChanged"
+  ],
+  "hash_keys": [
+   "AudioPerformClipping_2B7E::m_650"
+  ],
+  "total": 19,
+  "named_pct": "92%"
+ },
+ {
+  "class": "Unknown9m_EE3E",
+  "parent": "ÏÎÏÎÎÍÌÎÏÌÌÎÏÌÍÏÏÍÍÏÌÌÍ",
+  "known_methods": [
+   "InitializeHashtable",
+   "Configurepayload",
+   "EvaluateAndRetrieveUIManagerProperty",
+   "CompareBaseObjects",
+   "StartCoroutine",
+   "GetCachedPtr",
+   "Initialize"
+  ],
+  "hash_keys": [
+   "Unknown9m_EE3E::m_060"
+  ],
+  "total": 9,
+  "named_pct": "87%"
+ },
+ {
+  "class": "BaseClass7Impl_781A",
+  "parent": "ÎÎÍÎÌÏÎÌÏÎÎÎÏÍÍÌÏÍÏÏÍÏÍ",
+  "known_methods": [
+   "get_colorMapEditorType",
+   "set_Sender",
+   "get_DisconnectTimeout",
+   "set_StopMode",
+   "get_NoDaylightTransitions",
+   "Enable",
+   "CopyTo",
+   "GetComponent",
+   "GetEnumerator"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_781A::m_6BE"
+  ],
+  "total": 11,
+  "named_pct": "90%"
+ },
+ {
+  "class": "BaseClass7Impl_781A",
+  "parent": "ÎÎÍÎÌÏÎÌÏÎÎÎÏÍÍÌÏÍÏÏÍÏÍ",
+  "known_methods": [
+   "get_colorMapEditorType",
+   "set_Sender",
+   "get_DisconnectTimeout",
+   "set_StopMode",
+   "get_NoDaylightTransitions",
+   "Enable",
+   "CopyTo",
+   "GetComponent",
+   "GetEnumerator"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_781A::m_6BE"
+  ],
+  "total": 11,
+  "named_pct": "90%"
+ },
+ {
+  "class": "BaseClass7Impl_781A",
+  "parent": "ÎÎÍÎÌÏÎÌÏÎÎÎÏÍÍÌÏÍÏÏÍÏÍ",
+  "known_methods": [
+   "get_colorMapEditorType",
+   "set_Sender",
+   "get_DisconnectTimeout",
+   "set_StopMode",
+   "get_NoDaylightTransitions",
+   "Enable",
+   "CopyTo",
+   "GetComponent",
+   "GetEnumerator"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_781A::m_6BE"
+  ],
+  "total": 11,
+  "named_pct": "90%"
+ },
+ {
+  "class": "BaseClass7Impl_781A",
+  "parent": "ÎÎÍÎÌÏÎÌÏÎÎÎÏÍÍÌÏÍÏÏÍÏÍ",
+  "known_methods": [
+   "get_colorMapEditorType",
+   "set_Sender",
+   "get_DisconnectTimeout",
+   "set_StopMode",
+   "get_NoDaylightTransitions",
+   "Enable",
+   "CopyTo",
+   "GetComponent",
+   "GetEnumerator"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_781A::m_6BE"
+  ],
+  "total": 11,
+  "named_pct": "90%"
+ },
+ {
+  "class": "LifecycleComponentSiblingSibling_66AC",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "Initialize",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "UpdateConditionalField",
+   "GetIndexedField",
+   "RetrieveAndProcessInternalData",
+   "InitializeStaticContext",
+   "GetInitializedValue",
+   "Destroy",
+   "DestroyImmediate",
+   "SetIndexedBytesConditional",
+   "FindObjectsOfType",
+   "GetIndexedBooleanConditional",
+   "FindObjectsByType",
+   "SetIndexedByteConditional",
+   "DontDestroyOnLoad",
+   "get_hideFlags"
+  ],
+  "hash_keys": [
+   "LifecycleComponentSiblingSibling_66AC::m_07E"
+  ],
+  "total": 29,
+  "named_pct": "96%"
+ }
+]

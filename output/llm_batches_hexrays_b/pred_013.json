@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_E82": "GetCameraBackground",
+ "VRC_Main::m_3F9": "InitializeStateA",
+ "VRC_Main::m_00C": "InitializeStateB",
+ "VRC_Main::m_F69": "InitializeStateC",
+ "VRC_Main::m_0E8": "InitializeStateD",
+ "VRC_Main::m_8AF": "InitializeStateE",
+ "VRC_Main::m_EAA": "InitializeStateF",
+ "VRC_Main::m_422": "InitializeStateG",
+ "VRC_Main::m_BC5": "InitializeStateH",
+ "VRC_Main::m_182": "InitializeStateI"
+}

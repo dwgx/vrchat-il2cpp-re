@@ -1,0 +1,468 @@
+[
+ {
+  "class": "NetworkItemSiblingSiblingSibling_3955",
+  "parent": "ÌÍÏÎÎÌÍÌÍÍÌÌÏÌÏÍÍÍÏÎÍÎÌ",
+  "known_methods": [
+   "GetNetworkCallingMetadata",
+   "IsInvoking",
+   "GetMaterial",
+   "InvokeRepeating",
+   "ProcessInputAndCallMethod",
+   "Initialize",
+   "StartCoroutine",
+   "StartCoroutine_Auto",
+   "OnSerializing",
+   "OnPointerClick",
+   "UpdateLabelFilterActiveState",
+   "OnUpdate",
+   "get_useGUILayout",
+   "SetBehaviourEnabledState",
+   "SetBehaviourEnabledStateDuplicate"
+  ],
+  "hash_keys": [
+   "NetworkItemSiblingSiblingSibling_3955::m_6A5",
+   "NetworkItemSiblingSiblingSibling_3955::m_CE1"
+  ],
+  "total": 25,
+  "named_pct": "88%"
+ },
+ {
+  "class": "Static14m_4EB9",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "Initialize",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString"
+  ],
+  "hash_keys": [
+   "Static14m_4EB9::m_A1E"
+  ],
+  "total": 14,
+  "named_pct": "90%"
+ },
+ {
+  "class": "UpdateComponentSibling_954E",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "GetHashCode",
+   "IsNativeObjectAlive",
+   "Equals",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "Equals",
+   "ToString",
+   "OpenComponentUpdateUrl",
+   "GetIKSolver",
+   "ResetCacheAndDispatch",
+   "InvokeOptionalHandler",
+   "Destroy",
+   "RefreshEnabledState",
+   "DestroyImmediate",
+   "Initialize",
+   "FindObjectsOfType",
+   "FindObjectsByType",
+   "Internal_InstantiateSingleWithParent",
+   "DontDestroyOnLoad",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindObjectOfType",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "get_enabled"
+  ],
+  "hash_keys": [
+   "UpdateComponentSibling_954E::m_97A",
+   "UpdateComponentSibling_954E::m_4CC",
+   "UpdateComponentSibling_954E::m_3D4",
+   "UpdateComponentSibling_954E::m_00C",
+   "UpdateComponentSibling_954E::m_EF9",
+   "UpdateComponentSibling_954E::m_C86"
+  ],
+  "total": 59,
+  "named_pct": "88%"
+ },
+ {
+  "class": "LifecycleComponentSibling_1638",
+  "parent": "",
+  "known_methods": [
+   "FetchLastServiceDescriptor",
+   "ContainsChild",
+   "InvokeOptionalHandler",
+   "WriteValue",
+   "Enable",
+   "ForwardCallArgs",
+   "Deconstruct",
+   "GetLastServiceDescriptor"
+  ],
+  "hash_keys": [
+   "LifecycleComponentSibling_1638::m_76F",
+   "LifecycleComponentSibling_1638::m_348"
+  ],
+  "total": 17,
+  "named_pct": "80%"
+ },
+ {
+  "class": "AnimatedTextureBaseImplSiblingSibling_A6ED",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "Initialize",
+   "set_name",
+   "Init",
+   "Instantiate",
+   "ToString",
+   "Initialize_ctrlKeyboardf15"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImplSiblingSibling_A6ED::m_805",
+   "AnimatedTextureBaseImplSiblingSibling_A6ED::m_C95",
+   "AnimatedTextureBaseImplSiblingSibling_A6ED::m_EE3"
+  ],
+  "total": 18,
+  "named_pct": "81%"
+ },
+ {
+  "class": "ComplexComponentSiblingSibling_8882",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "SetCurrentSocket",
+   "GetCachedPtr",
+   "GetLanguage",
+   "AddSubtraction",
+   "GetPlatform",
+   "AddUnitNode",
+   "IsResource",
+   "SetCompletedSynchronously",
+   "Instantiate",
+   "DoesRetrievePurchasesExcludeDeferred",
+   "set_disposeDownloadHandlerOnDispose",
+   "ToString",
+   "SetConnectedBody",
+   "GetPlaybackQualityStats",
+   "set_imageUrl",
+   "Destroy",
+   "DestroyImmediate",
+   "GetBufferedTimes",
+   "FindObjectsOfType",
+   "GetAudioTracks",
+   "set_iconImageUrl",
+   "DontDestroyOnLoad",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindObjectsByType"
+  ],
+  "hash_keys": [
+   "ComplexComponentSiblingSibling_8882::m_3C6",
+   "ComplexComponentSiblingSibling_8882::m_326",
+   "ComplexComponentSiblingSibling_8882::m_D2A",
+   "ComplexComponentSiblingSibling_8882::m_43B",
+   "ComplexComponentSiblingSibling_8882::m_A0A",
+   "ComplexComponentSiblingSibling_8882::m_213",
+   "ComplexComponentSiblingSibling_8882::m_343"
+  ],
+  "total": 65,
+  "named_pct": "88%"
+ },
+ {
+  "class": "Static15m_1AA8",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "Initialize",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "GetStaticQwordByIndex",
+   "InvokeCallbackIfValid",
+   "ProcessInternalDataAndReturnResult"
+  ],
+  "hash_keys": [
+   "Static15m_1AA8::m_EB3"
+  ],
+  "total": 15,
+  "named_pct": "92%"
+ },
+ {
+  "class": "ComplexComponentImplImpl_2D41",
+  "parent": "ÌÎÎÏÎÌÍÏÌÌÍÌÏÏÎÍÏÏÌÏÍÏÍ",
+  "known_methods": [
+   "LateUpdate",
+   "Update",
+   "OnBecameVisible",
+   "OnBecameInvisible",
+   "OnCollisionEnter",
+   "OnCollisionStay",
+   "OnCollisionExit",
+   "OnTriggerEnter",
+   "OnTriggerStay",
+   "OnTriggerExit",
+   "OnApplicationQuit",
+   "Initialize",
+   "set_useGUILayout",
+   "GetGameObject_38A",
+   "DoGetNameInternal_665",
+   "Internal_IsInvokingAll",
+   "StopCoroutine",
+   "getGooglePlayStoreSubInfo",
+   "SetEnabled",
+   "FixedUpdate",
+   "ResolveGameObjectReference",
+   "OnApplicationPause"
+  ],
+  "hash_keys": [
+   "ComplexComponentImplImpl_2D41::m_3FC",
+   "ComplexComponentImplImpl_2D41::m_6EE"
+  ],
+  "total": 33,
+  "named_pct": "91%"
+ },
+ {
+  "class": "Static13m_EBE5",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "Initialize",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "IsNativeObjectNotAlive"
+  ],
+  "hash_keys": [
+   "Static13m_EBE5::m_5B9"
+  ],
+  "total": 13,
+  "named_pct": "91%"
+ },
+ {
+  "class": "PIDControllerSiblingSibling_0922",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "GetStatus",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "Initialize",
+   "DoInverse_Injected_C09",
+   "Destroy",
+   "DoRemoveSprite_Injected_05C",
+   "DestroyImmediate",
+   "FindObjectsOfType",
+   "GetComponentsInChildren",
+   "CompositionMethod",
+   "FindObjectsByType"
+  ],
+  "hash_keys": [
+   "PIDControllerSiblingSibling_0922::m_B88",
+   "PIDControllerSiblingSibling_0922::m_549"
+  ],
+  "total": 27,
+  "named_pct": "90%"
+ },
+ {
+  "class": "UIRectTransformDimensionsChBeforeTransformImpl_0D8F",
+  "parent": "ÏÎÍÎÌÎÎÍÌÌÏÍÏÌÎÏÏÏÍÌÏÎÌ",
+  "known_methods": [
+   "Initialize",
+   "AttachRectTransformDimensionsBody",
+   "OnDestroy"
+  ],
+  "hash_keys": [
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_046",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_BCF",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_5ED",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_53C",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_24B",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_B55",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_EE0",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_6AA",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_745",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_5DB",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_A1C",
+   "UIRectTransformDimensionsChBeforeTransformImpl_0D8F::m_19E"
+  ],
+  "total": 19,
+  "named_pct": "20%"
+ },
+ {
+  "class": "BaseClass4Impl_0189",
+  "parent": "ÎÎÎÎÏÌÍÏÏÌÌÎÍÎÍÌÏÏÍÎÍÌÌ",
+  "known_methods": [
+   "ReleaseTemporaryRenderTexture",
+   "DrawHorizontalScrollbar",
+   "EnsureReferenceStatics",
+   "ResolveOptionalReference",
+   "LoadOptionalReference",
+   "ClearOptions",
+   "Initialize",
+   "DefaultEquals",
+   "RefreshCachedNode",
+   "InitializeTraversalStatics",
+   "SequenceEquals",
+   "InitializeTraversalState",
+   "InitializeTraversalCaches",
+   "Internal_CancelInvokeAll",
+   "GetHashCodeOfPtr",
+   "PopulatePlayerDetailPanel",
+   "ApplyColor"
+  ],
+  "hash_keys": [
+   "BaseClass4Impl_0189::m_88E",
+   "BaseClass4Impl_0189::m_909",
+   "BaseClass4Impl_0189::m_428",
+   "BaseClass4Impl_0189::m_AF5",
+   "BaseClass4Impl_0189::m_9E8"
+  ],
+  "total": 24,
+  "named_pct": "77%"
+ },
+ {
+  "class": "ComplexComponent_7679",
+  "parent": "MonoBehaviour",
+  "known_methods": [
+   "RaiseCancellation",
+   "IsInvoking",
+   "CancelInvoke",
+   "Invoke",
+   "InvokeRepeating",
+   "OnDisable",
+   "StartCoroutine",
+   "OnApplicationQuit",
+   "OnBecameVisible",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "OnCollisionStay",
+   "GetGameObjectReference3",
+   "StopAllCoroutines",
+   "get_useGUILayout",
+   "set_useGUILayout",
+   "print",
+   "Internal_CancelInvokeAll",
+   "Internal_IsInvokingAll",
+   "InvokeDelayed",
+   "GetComponentTransform",
+   "IsObjectMonoBehaviour",
+   "StartCoroutineManaged",
+   "StartCoroutineManaged2",
+   "StopCoroutineFromEnumeratorManaged",
+   "GetScriptClassName",
+   "OnCancellationTokenCreated",
+   "OnApplicationPause",
+   "SetGameObjectActive4",
+   "OnTriggerExit"
+  ],
+  "hash_keys": [
+   "ComplexComponent_7679::m_F05",
+   "ComplexComponent_7679::m_E63",
+   "ComplexComponent_7679::m_092",
+   "ComplexComponent_7679::m_410",
+   "ComplexComponent_7679::m_6F2",
+   "ComplexComponent_7679::m_D9A",
+   "ComplexComponent_7679::m_033",
+   "ComplexComponent_7679::m_A04",
+   "ComplexComponent_7679::m_A90",
+   "ComplexComponent_7679::m_900",
+   "ComplexComponent_7679::m_99F",
+   "ComplexComponent_7679::m_57C",
+   "ComplexComponent_7679::m_F4F",
+   "ComplexComponent_7679::m_41C",
+   "ComplexComponent_7679::m_8D6",
+   "ComplexComponent_7679::m_AE0"
+  ],
+  "total": 122,
+  "named_pct": "82%"
+ },
+ {
+  "class": "UIGoButtonPressedExitButton_F30F",
+  "parent": "ÌÍÌÍÎÍÏÍÍÍÏÏÌÎÏÏÌÌÎÍÎÌÌ",
+  "known_methods": [
+   "OnPointerEnter",
+   "OnPointerExit",
+   "OnPointerDown",
+   "OnPointerUp",
+   "OnPointerClick",
+   "OnSelect",
+   "OnDeselect",
+   "OnSubmit",
+   "OnCancel",
+   "OnMove",
+   "OnScroll",
+   "OnValueChanged",
+   "OnEndEdit",
+   "Destroy",
+   "RestoreNamePlateVisibility"
+  ],
+  "hash_keys": [
+   "UIGoButtonPressedExitButton_F30F::m_E15",
+   "UIGoButtonPressedExitButton_F30F::m_338",
+   "UIGoButtonPressedExitButton_F30F::m_D09",
+   "UIGoButtonPressedExitButton_F30F::m_E81",
+   "UIGoButtonPressedExitButton_F30F::m_86B",
+   "UIGoButtonPressedExitButton_F30F::m_40B"
+  ],
+  "total": 30,
+  "named_pct": "71%"
+ },
+ {
+  "class": "BaseClass16Impl_44C5",
+  "parent": "ÏÍÎÍÌÍÍÏÍÌÏÏÏÎÍÎÌÍÎÏÌÏÏ",
+  "known_methods": [
+   "Initialize_ctrlKeyboardsemicolon",
+   "Initialize",
+   "IsInvoking",
+   "CancelInvoke",
+   "InvokeRepeating",
+   "ReadTransformState",
+   "StartCoroutine",
+   "InternalGetHashCode",
+   "DoFindRelativeTran",
+   "StartNewProfilerRecorder"
+  ],
+  "hash_keys": [
+   "BaseClass16Impl_44C5::m_50F",
+   "BaseClass16Impl_44C5::m_5EA",
+   "BaseClass16Impl_44C5::m_703"
+  ],
+  "total": 17,
+  "named_pct": "76%"
+ }
+]

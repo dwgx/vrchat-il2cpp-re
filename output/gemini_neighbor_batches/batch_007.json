@@ -1,0 +1,461 @@
+[
+ {
+  "class": "LifecycleComponentImpl_7BE6",
+  "parent": "ÏÏÎÎÍÌÍÍÏÌÍÎÎÏÏÏÏÎÏÎÌÌÏ",
+  "known_methods": [
+   "Initialize",
+   "Invoke",
+   "StartCoroutine_Auto",
+   "get_name",
+   "SetComponentProperty"
+  ],
+  "hash_keys": [
+   "LifecycleComponentImpl_7BE6::m_182",
+   "LifecycleComponentImpl_7BE6::m_207",
+   "LifecycleComponentImpl_7BE6::m_598",
+   "LifecycleComponentImpl_7BE6::m_87C",
+   "LifecycleComponentImpl_7BE6::m_B65",
+   "LifecycleComponentImpl_7BE6::m_776"
+  ],
+  "total": 12,
+  "named_pct": "45%"
+ },
+ {
+  "class": "AssetPreloaderSibling_A599",
+  "parent": "",
+  "known_methods": [
+   "Getter",
+   "GetLast",
+   "CompareBaseObjects",
+   "GetBufferedTimes",
+   "GetCachedPtr",
+   "get_name"
+  ],
+  "hash_keys": [
+   "AssetPreloaderSibling_A599::m_676"
+  ],
+  "total": 8,
+  "named_pct": "85%"
+ },
+ {
+  "class": "BaseClass7Impl_25C6",
+  "parent": "ÌÌÏÌÎÍÍÏÏÍÎÎÌÌÍÏÏÏÍÎÏÏÌ",
+  "known_methods": [
+   "GetTexture",
+   "set_autoSizeTextContainer",
+   "GetPlaybackQualityStats",
+   "Initialize",
+   "GetLanguage",
+   "OnApplicationPause",
+   "Awake",
+   "StopCoroutine",
+   "CancelInvoke",
+   "set_ValidExpressions",
+   "StartCoroutineManaged"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_25C6::m_86B",
+   "BaseClass7Impl_25C6::m_E5B"
+  ],
+  "total": 18,
+  "named_pct": "84%"
+ },
+ {
+  "class": "CloneSibling_59C7",
+  "parent": "Object",
+  "known_methods": [
+   "Initialize",
+   "Equals",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "GetHashCode",
+   "ToString"
+  ],
+  "hash_keys": [
+   "CloneSibling_59C7::m_AD7"
+  ],
+  "total": 13,
+  "named_pct": "91%"
+ },
+ {
+  "class": "ComplexComponent_0B8F",
+  "parent": "MonoBehaviour",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "RaiseCancellation",
+   "IsInvoking",
+   "CancelInvoke",
+   "Invoke",
+   "InvokeRepeating",
+   "OnCollisionExit",
+   "StopCoroutineFromEnumeratorManaged",
+   "StartCoroutine",
+   "OnEnable",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "FixedUpdate",
+   "StopAllCoroutines",
+   "set_useGUILayout",
+   "print",
+   "OnCollisionExit",
+   "OnCollisionExit",
+   "OnBecameInvisible",
+   "OnCollisionEnter",
+   "IsObjectMonoBehaviour",
+   "StartCoroutineManaged2",
+   "StopCoroutineManaged",
+   "StopCoroutineFromEnumeratorManaged",
+   "GetScriptClassName",
+   "OnCancellationTokenCreated",
+   "OnTriggerStay",
+   "OnTriggerExit",
+   "OnApplicationPause",
+   "OnApplicationQuit"
+  ],
+  "hash_keys": [
+   "ComplexComponent_0B8F::m_3AD",
+   "ComplexComponent_0B8F::m_58B",
+   "ComplexComponent_0B8F::m_768",
+   "ComplexComponent_0B8F::m_19F",
+   "ComplexComponent_0B8F::m_6E3",
+   "ComplexComponent_0B8F::m_A37",
+   "ComplexComponent_0B8F::m_533"
+  ],
+  "total": 62,
+  "named_pct": "86%"
+ },
+ {
+  "class": "BaseClass3Impl_B963",
+  "parent": "ÍÍÎÍÍÍÍÎÏÎÏÏÏÍÎÍÏÌÎÍÌÍÍ",
+  "known_methods": [
+   "ConfigureAndApplyUIElementSettings",
+   "MoveNext",
+   "Initialize",
+   "IsActive",
+   "Awake",
+   "get_Current",
+   "OnPointerClick",
+   "InternalGetHashCode",
+   "System.Collections.IEnumerator.Reset",
+   "GetActiveBindingTarget",
+   "ProcessEventDataWithParameters",
+   "ValidateAndConfigureLayout",
+   "__Clone__SystemObject",
+   "get_ValueRangeLocked",
+   "GetUnityEngine",
+   "CaptureTransformState",
+   "FetchGameObject",
+   "AccessGameObject",
+   "GetEnabled",
+   "GetAttachedGameObject",
+   "ComputeTypeId",
+   "InvokeStoredDelegate",
+   "BuildDefaultBindingSet",
+   "WritePrimaryBindings",
+   "get_IsDominantHand",
+   "GetGameObject_8D0",
+   "FindOrAddTertiaryEntry",
+   "get_gameObject",
+   "WriteIndexedBinding",
+   "get_MemberSerialization"
+  ],
+  "hash_keys": [
+   "BaseClass3Impl_B963::m_101",
+   "BaseClass3Impl_B963::m_47A",
+   "BaseClass3Impl_B963::m_37B",
+   "BaseClass3Impl_B963::m_47A",
+   "BaseClass3Impl_B963::m_03A",
+   "BaseClass3Impl_B963::m_8A1",
+   "BaseClass3Impl_B963::m_EF0",
+   "BaseClass3Impl_B963::m_850",
+   "BaseClass3Impl_B963::m_6B0",
+   "BaseClass3Impl_B963::m_B4E",
+   "BaseClass3Impl_B963::m_83E",
+   "BaseClass3Impl_B963::m_B4E"
+  ],
+  "total": 91,
+  "named_pct": "83%"
+ },
+ {
+  "class": "ComplexComponentImplImpl_A47B",
+  "parent": "ÌÎÎÏÎÌÍÏÌÌÍÌÏÏÎÍÏÏÌÏÍÏÍ",
+  "known_methods": [
+   "LateUpdate",
+   "OnDisable",
+   "OnApplicationPause",
+   "OnApplicationQuit",
+   "OnBecameVisible",
+   "Initialize",
+   "UpdateFontAsset",
+   "Start",
+   "OnTriggerExit",
+   "OnDestroy",
+   "Update",
+   "print",
+   "Internal_CancelInvokeAll",
+   "Internal_IsInvokingAll",
+   "InvokeDelayed",
+   "OnCollisionEnter",
+   "FindRelatedTransform",
+   "OnBecameInvisible",
+   "ThrowInvalidOperationException_SerializationConverterNotCompatible",
+   "OnCollisionStay"
+  ],
+  "hash_keys": [
+   "ComplexComponentImplImpl_A47B::m_BC3",
+   "ComplexComponentImplImpl_A47B::m_BC3",
+   "ComplexComponentImplImpl_A47B::m_8C4"
+  ],
+  "total": 27,
+  "named_pct": "86%"
+ },
+ {
+  "class": "AnimatedTextureBaseImplSibling_0D84",
+  "parent": "",
+  "known_methods": [
+   "GetLast",
+   "SetValue",
+   "Getter",
+   "Equals",
+   "WriteValue",
+   "Enable",
+   "Deconstruct",
+   "Return",
+   "ContainsChild",
+   "CreateCollection",
+   "GetHashCode"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImplSibling_0D84::m_33C",
+   "AnimatedTextureBaseImplSibling_0D84::m_000",
+   "AnimatedTextureBaseImplSibling_0D84::m_8E5"
+  ],
+  "total": 60,
+  "named_pct": "78%"
+ },
+ {
+  "class": "OVRLipSyncContextCannedSibling_7B88",
+  "parent": "ÍÎÌÏÌÍÌÎÏÌÏÎÌÌÎÏÎÏÌÍÍÌÏ",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "RaiseCancellation",
+   "Initialize",
+   "GetTransform_F24"
+  ],
+  "hash_keys": [
+   "OVRLipSyncContextCannedSibling_7B88::m_F14"
+  ],
+  "total": 9,
+  "named_pct": "80%"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_8F61",
+  "parent": "ÏÌÏÌÍÍÍÍÍÏÍÏÌÌÍÌÌÍÎÏÌÍÏ",
+  "known_methods": [
+   "MarkTargetReady",
+   "set_sizeInBits",
+   "get_MaskTag",
+   "RaiseCancellation",
+   "EnsureGlobalRuntime",
+   "FinalizeOperation",
+   "IsInitialized",
+   "GetPlatform",
+   "get_version",
+   "StartWithHighestBandwidth",
+   "GetLanguage",
+   "GetIKSolver",
+   "GetInstanceID",
+   "GetVideoTracks",
+   "GetBufferedTimes",
+   "GetTargets",
+   "OnBecameVisible",
+   "SetPrimaryFrameData",
+   "Initialize",
+   "CompleteWithCallback",
+   "CreateTrackedHandle",
+   "DoSetSRGBReadWrite_E81",
+   "InitializeOperationContext",
+   "GetMaterial",
+   "SetCurrentSocket",
+   "Operator",
+   "GetCachedPtr",
+   "OnDestroy",
+   "BeginContainerFromOwner",
+   "GetSpineMapping"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImpl_8F61::m_D98",
+   "AnimatedTextureBaseImpl_8F61::m_1E5",
+   "AnimatedTextureBaseImpl_8F61::m_A30",
+   "AnimatedTextureBaseImpl_8F61::m_7DE",
+   "AnimatedTextureBaseImpl_8F61::m_5FD"
+  ],
+  "total": 80,
+  "named_pct": "91%"
+ },
+ {
+  "class": "PlayerManuallyRecordInteractionGetIsPlayingCon_5B6A",
+  "parent": "VRCPropApi",
+  "known_methods": [
+   "TryGetPropFromGameObject",
+   "ReadComponentState",
+   "SetGameObjectActive"
+  ],
+  "hash_keys": [
+   "PlayerManuallyRecordInteractionGetIsPlayingCon_5B6A::m_BD0"
+  ],
+  "total": 29,
+  "named_pct": "75%"
+ },
+ {
+  "class": "BaseClass7Impl_BAA3",
+  "parent": "ÏÏÏÍÏÍÌÍÍÎÍÌÍÍÏÎÍÍÌÍÍÌÏ",
+  "known_methods": [
+   "GetGlyphPairAdjustmentTable",
+   "ReleaseCachedHandler",
+   "ThrowInvalidOperationException",
+   "set_TrackId",
+   "GetNetworkItemResource",
+   "Initialize",
+   "ToString",
+   "SetCompletionState"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_BAA3::m_097",
+   "BaseClass7Impl_BAA3::m_E2B"
+  ],
+  "total": 11,
+  "named_pct": "80%"
+ },
+ {
+  "class": "ComplexComponent_8C61",
+  "parent": "MonoBehaviour",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "RaiseCancellation",
+   "get_infiniteClipApplyFootIK",
+   "Invoke",
+   "InvokeRepeating",
+   "CancelInvoke",
+   "IsInvoking",
+   "StartCoroutine",
+   "LateUpdate",
+   "StopCoroutineFromEnumeratorManaged",
+   "get_SendClientReports",
+   "ApplyTransformRotation",
+   "StopCoroutine",
+   "StopAllCoroutines",
+   "get_ipsQuery",
+   "print",
+   "Internal_CancelInvokeAll",
+   "Internal_IsInvokingAll",
+   "InvokeDelayed",
+   "OnEnable",
+   "IsObjectMonoBehaviour",
+   "StartCoroutineManaged",
+   "StartCoroutineManaged2",
+   "SetHaltUpdateMovement",
+   "OnCancellationTokenCreated",
+   "OnBecameVisible",
+   "OnBecameInvisible",
+   "OnCollisionEnter",
+   "set_search",
+   "OnCollisionExit"
+  ],
+  "hash_keys": [
+   "ComplexComponent_8C61::m_C67",
+   "ComplexComponent_8C61::m_F6B",
+   "ComplexComponent_8C61::m_D2C",
+   "ComplexComponent_8C61::m_6AD",
+   "ComplexComponent_8C61::m_85D",
+   "ComplexComponent_8C61::m_527",
+   "ComplexComponent_8C61::m_058",
+   "ComplexComponent_8C61::m_802",
+   "ComplexComponent_8C61::m_195",
+   "ComplexComponent_8C61::m_F04",
+   "ComplexComponent_8C61::m_4D9",
+   "ComplexComponent_8C61::m_BE7",
+   "ComplexComponent_8C61::m_663",
+   "ComplexComponent_8C61::m_1ED",
+   "ComplexComponent_8C61::m_660",
+   "ComplexComponent_8C61::m_7CF",
+   "ComplexComponent_8C61::m_687",
+   "ComplexComponent_8C61::m_0AB",
+   "ComplexComponent_8C61::m_7F3",
+   "ComplexComponent_8C61::m_247"
+  ],
+  "total": 143,
+  "named_pct": "79%"
+ },
+ {
+  "class": "LifecycleComponentSibling_4228",
+  "parent": "",
+  "known_methods": [
+   "GetLastServiceDescriptor",
+   "ContainsChild",
+   "FetchLastServiceDescriptor"
+  ],
+  "hash_keys": [
+   "LifecycleComponentSibling_4228::m_CDB"
+  ],
+  "total": 6,
+  "named_pct": "75%"
+ },
+ {
+  "class": "ComplexComponent_CF71",
+  "parent": "MonoBehaviour",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "RaiseCancellation",
+   "IsInvoking",
+   "CancelInvoke",
+   "Invoke",
+   "StartCoroutine",
+   "GetCurrentTextCue",
+   "set_categories",
+   "OnApplicationQuit",
+   "GetTargets",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "FixedUpdate",
+   "StopAllCoroutines",
+   "get_useGUILayout",
+   "set_useGUILayout",
+   "print",
+   "Internal_CancelInvokeAll",
+   "InvokeDelayed",
+   "Update",
+   "IsObjectMonoBehaviour",
+   "GetPlaybackQualityStats",
+   "StopCoroutineManaged",
+   "CreateEmpty",
+   "GetScriptClassName",
+   "OnCancellationTokenCreated",
+   "OnCollisionEnter",
+   "OnCollisionStay",
+   "OnCollisionExit",
+   "OnTriggerEnter"
+  ],
+  "hash_keys": [
+   "ComplexComponent_CF71::m_926",
+   "ComplexComponent_CF71::m_C78",
+   "ComplexComponent_CF71::m_99E",
+   "ComplexComponent_CF71::m_76F",
+   "ComplexComponent_CF71::m_A08",
+   "ComplexComponent_CF71::m_9C6",
+   "ComplexComponent_CF71::m_FCB",
+   "ComplexComponent_CF71::m_A86",
+   "ComplexComponent_CF71::m_7CC",
+   "ComplexComponent_CF71::m_C54",
+   "ComplexComponent_CF71::m_B04",
+   "ComplexComponent_CF71::m_ECB"
+  ],
+  "total": 93,
+  "named_pct": "84%"
+ }
+]

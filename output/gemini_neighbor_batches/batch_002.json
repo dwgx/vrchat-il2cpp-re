@@ -1,0 +1,473 @@
+[
+ {
+  "class": "BaseClass7_1720",
+  "parent": "ÎÍÏÍÏÏÌÏÎÎÎÏÍÏÍÍÏÍÍÍÍÌÎ",
+  "known_methods": [
+   "GetHandlerAtIndex",
+   "set_body",
+   "GetPlaybackQualityStats",
+   "SetInternalComponentValue",
+   "Initialize",
+   "GetLanguage",
+   "StartCoroutine",
+   "GetProcessedValue",
+   "Invoke",
+   "ApplyCachedResult",
+   "StopCoroutine",
+   "UpdateActive",
+   "CancelInvoke",
+   "set_ValidExpressions",
+   "StartCoroutineManaged",
+   "print",
+   "UpdateblocksRayc",
+   "InvokeDelayed",
+   "GetSpineMapping",
+   "UpdateConfigurationObject",
+   "IsObjectMonoBehaviour",
+   "set_imageUrl",
+   "StartCoroutineManaged2",
+   "StopCoroutineManaged",
+   "StopCoroutineFromEnumeratorManaged",
+   "GetScriptClassName"
+  ],
+  "hash_keys": [
+   "BaseClass7_1720::m_D95"
+  ],
+  "total": 33,
+  "named_pct": "96%"
+ },
+ {
+  "class": "BaseClass20ImplImpl_EA36",
+  "parent": "ÏÏÎÏÍÎÏÏÎÏÍÎÎÎÌÍÌÎÍÍÎÏÎ",
+  "known_methods": [
+   "set_rendererPriority",
+   "set_enabled",
+   "SetEnabled",
+   "GetTransformIndex",
+   "GetIndex",
+   "Initialize",
+   "GetOrCreateBinding",
+   "GetSpineMapping",
+   "ComputeoffsetMin",
+   "DoGetGroup",
+   "get_global_SkeletonLeftHand"
+  ],
+  "hash_keys": [
+   "BaseClass20ImplImpl_EA36::m_C51",
+   "BaseClass20ImplImpl_EA36::m_ADB",
+   "BaseClass20ImplImpl_EA36::m_742",
+   "BaseClass20ImplImpl_EA36::m_CDB",
+   "BaseClass20ImplImpl_EA36::m_21F",
+   "BaseClass20ImplImpl_EA36::m_B4B",
+   "BaseClass20ImplImpl_EA36::m_C12"
+  ],
+  "total": 21,
+  "named_pct": "61%"
+ },
+ {
+  "class": "NetworkSyncableSibling_5A19",
+  "parent": "Object",
+  "known_methods": [
+   "set_hidden",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "SetOverlay",
+   "get_hidden",
+   "GetBufferedTimes",
+   "ReadDeltaTime",
+   "Initialize",
+   "Cleanup"
+  ],
+  "hash_keys": [
+   "NetworkSyncableSibling_5A19::m_E48",
+   "NetworkSyncableSibling_5A19::m_FDE"
+  ],
+  "total": 22,
+  "named_pct": "89%"
+ },
+ {
+  "class": "LifecycleComponentImplImpl_162A",
+  "parent": "ÍÍÌÏÌÌÎÎÎÍÌÍÌÍÎÍÏÍÏÏÏÌÍ",
+  "known_methods": [
+   "ProcessSecondComponentText",
+   "ReadThreeBits",
+   "GetVelocity",
+   "Initialize"
+  ],
+  "hash_keys": [
+   "LifecycleComponentImplImpl_162A::m_B77",
+   "LifecycleComponentImplImpl_162A::m_317",
+   "LifecycleComponentImplImpl_162A::m_566",
+   "LifecycleComponentImplImpl_162A::m_0F3",
+   "LifecycleComponentImplImpl_162A::m_876"
+  ],
+  "total": 15,
+  "named_pct": "44%"
+ },
+ {
+  "class": "PointerEnterPointerExitHandlerImpl_8BC4",
+  "parent": "ÌÎÍÏÏÏÎÌÎÍÏÍÏÌÎÎÏÏÎÍÌÍÏ",
+  "known_methods": [
+   "DontDestroyOnLoad",
+   "RaiseCancellation",
+   "IsInvoking",
+   "Initialize",
+   "StartCoroutine"
+  ],
+  "hash_keys": [
+   "PointerEnterPointerExitHandlerImpl_8BC4::m_A9B",
+   "PointerEnterPointerExitHandlerImpl_8BC4::m_2D0",
+   "PointerEnterPointerExitHandlerImpl_8BC4::m_492",
+   "PointerEnterPointerExitHandlerImpl_8BC4::m_A58"
+  ],
+  "total": 15,
+  "named_pct": "55%"
+ },
+ {
+  "class": "BaseClass7Impl_8141",
+  "parent": "ÏÏÏÍÏÍÌÍÍÎÍÌÍÍÏÎÍÍÌÍÍÌÏ",
+  "known_methods": [
+   "Initialize",
+   "OnDestroy",
+   "GetMaterial",
+   "SetNameAndInvokeUpdate",
+   "BeginProfilerSample",
+   "GetIndexedUINumericValue",
+   "SetActive_7D8",
+   "CheckAnimatorCurveControlledParameter",
+   "StartPickedUp"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_8141::m_6A2",
+   "BaseClass7Impl_8141::m_FD5",
+   "BaseClass7Impl_8141::m_A67",
+   "BaseClass7Impl_8141::m_4CA",
+   "BaseClass7Impl_8141::m_E4E",
+   "BaseClass7Impl_8141::m_58C",
+   "BaseClass7Impl_8141::m_351",
+   "BaseClass7Impl_8141::m_A09",
+   "BaseClass7Impl_8141::m_58C",
+   "BaseClass7Impl_8141::m_53A",
+   "BaseClass7Impl_8141::m_A67"
+  ],
+  "total": 22,
+  "named_pct": "45%"
+ },
+ {
+  "class": "BaseClass20ImplImplImpl_B03A",
+  "parent": "ÌÎÍÎÏÍÌÏÎÌÏÌÌÏÌÏÎÏÍÌÌÎÏ",
+  "known_methods": [
+   "ResolveComponentGameObject",
+   "GetGameObjectActiveSelf",
+   "ProcessAndInvokeFunction",
+   "GetGameObject",
+   "__GetComponents__ListT__SystemVoid",
+   "Initialize",
+   "ResetCachedHandle",
+   "RaiseCancellation",
+   "get_alpha"
+  ],
+  "hash_keys": [
+   "BaseClass20ImplImplImpl_B03A::m_627",
+   "BaseClass20ImplImplImpl_B03A::m_FBE"
+  ],
+  "total": 14,
+  "named_pct": "81%"
+ },
+ {
+  "class": "LifecycleComponentImplImpl_81CE",
+  "parent": "ÍÍÌÏÌÌÎÎÎÍÌÍÌÍÎÍÏÍÏÏÏÌÍ",
+  "known_methods": [
+   "GetUnityEngine",
+   "UpdateCulling",
+   "GetParentTransform",
+   "Initialize",
+   "GetRandomRange",
+   "Start"
+  ],
+  "hash_keys": [
+   "LifecycleComponentImplImpl_81CE::m_B99",
+   "LifecycleComponentImplImpl_81CE::m_F49",
+   "LifecycleComponentImplImpl_81CE::m_A9C",
+   "LifecycleComponentImplImpl_81CE::m_556",
+   "LifecycleComponentImplImpl_81CE::m_317",
+   "LifecycleComponentImplImpl_81CE::m_A16",
+   "LifecycleComponentImplImpl_81CE::m_671",
+   "LifecycleComponentImplImpl_81CE::m_3D0",
+   "LifecycleComponentImplImpl_81CE::m_566",
+   "LifecycleComponentImplImpl_81CE::m_6B5",
+   "LifecycleComponentImplImpl_81CE::m_73E",
+   "LifecycleComponentImplImpl_81CE::m_93A",
+   "LifecycleComponentImplImpl_81CE::m_BCF",
+   "LifecycleComponentImplImpl_81CE::m_578",
+   "LifecycleComponentImplImpl_81CE::m_FA2"
+  ],
+  "total": 23,
+  "named_pct": "28%"
+ },
+ {
+  "class": "AnimatedTextureBaseImplSibling_70A6",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "GetHashCode",
+   "GetHashCode",
+   "op_Implicit",
+   "IsNativeObjectAlive",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "Equals",
+   "OvrAudioMaterialSetFrequencyWwise",
+   "FindObjectsWithSpecificFilter",
+   "OnEnable",
+   "OnEnable",
+   "OvrAudioMaterialGetFrequencyWwise",
+   "FindObjectByParameter",
+   "FindObjectsByMultipleCriteria",
+   "Destroy",
+   "DestroyImmediate",
+   "DestroyImmediate",
+   "FindObjectsOfType",
+   "WriteOculusWwiseAudioGeometryMeshFile",
+   "FindObjectsByType",
+   "ReadOculusWwiseAudioGeometryMeshFile",
+   "DontDestroyOnLoad",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImplSibling_70A6::m_426"
+  ],
+  "total": 41,
+  "named_pct": "97%"
+ },
+ {
+  "class": "PlayerNet",
+  "parent": "ÎÎÍÏÏÎÌÎÎÌÎÌÎÌÍÏÍÌÍÌÎÏÍ",
+  "known_methods": [
+   "SetPlayerNetworkState",
+   "AddSubtraction",
+   "set_rebuildConnectedBody",
+   "InvokeRepeating",
+   "OnEnable",
+   "ProcessNetworkData",
+   "ExecuteNetworkHandlerMethod",
+   "GetNetworkStatusZero",
+   "LateUpdate",
+   "StartCoroutine_Auto",
+   "OnNetworkReady",
+   "StopCoroutine",
+   "OnApplicationQuit",
+   "StopAllCoroutines",
+   "GetBufferedTimes",
+   "SetOverlay",
+   "print",
+   "Internal_CancelInvokeAll",
+   "SetNetworkPlayerReference",
+   "DoCopyTexture_Region_957",
+   "get_MotionBlurCameras",
+   "__set_hasTranslationDoF__SystemBoolean__SystemVoid",
+   "get_alreadySelecting",
+   "ConfigureisTrigger",
+   "Updatevelocity_Inj",
+   "SetNetworkPropertyIntO",
+   "SetNetworkPropertyIntY",
+   "IsNetworkPropertyFlagSetR",
+   "ProcessNetworkSynchronizationParameter",
+   "get_rootIMGUIContainer"
+  ],
+  "hash_keys": [
+   "PlayerNet::m_063",
+   "PlayerNet::m_D55",
+   "PlayerNet::m_091"
+  ],
+  "total": 146,
+  "named_pct": "96%"
+ },
+ {
+  "class": "UICompareDispose_241D",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Cleanup",
+   "op_Implicit",
+   "IsNativeObjectAlive",
+   "Internal_InstantiateSingleWithParent",
+   "Internal_InstantiateSingleWithParent",
+   "get_isMirrored",
+   "GetCurrentPlatformOptions",
+   "IsValid",
+   "Internal_InstantiateSingleWithParent",
+   "set_twist",
+   "GetSource",
+   "Equals",
+   "set_featuredAvatarCategoryId",
+   "GetHashCode",
+   "ToString",
+   "Destroy",
+   "get_listingIds",
+   "get_stateSizeInBytes",
+   "FindObjectsOfType",
+   "DontDestroyOnLoad",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindObjectsByType",
+   "Internal_InstantiateSingleWithParent",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "FindObjectOfType",
+   "Start",
+   "ReadInstantiateElement"
+  ],
+  "hash_keys": [
+   "UICompareDispose_241D::m_F6E"
+  ],
+  "total": 109,
+  "named_pct": "98%"
+ },
+ {
+  "class": "BaseClass7Impl_A008",
+  "parent": "ÎÎÍÍÏÏÎÌÏÏÍÌÍÌÎÌÏÎÎÌÏÎÎ",
+  "known_methods": [
+   "Initialize",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "ReadComponentState",
+   "ApplyAngleAxisLocalRotation"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_A008::m_D6B"
+  ],
+  "total": 9,
+  "named_pct": "83%"
+ },
+ {
+  "class": "PIDControllerSibling_F369",
+  "parent": "ÏÍÏÍÏÎÎÌÎÏÏÍÏÏÍÍÍÎÎÏÎÏÏ",
+  "known_methods": [
+   "GetInstanceID",
+   "SetPidControlActive",
+   "OnDisable",
+   "get_name",
+   "Initialize",
+   "GetCachedPtr",
+   "DoGetSharedMaterial_489",
+   "DoRemoveSprite_Injected_444",
+   "DoSetBurst_Injected_AA4",
+   "CachePidAnimationHash",
+   "GetGameObject_DFC",
+   "GetTypeCode",
+   "SetValue",
+   "ContainsChild",
+   "ContainsChild",
+   "Destroy"
+  ],
+  "hash_keys": [
+   "PIDControllerSibling_F369::m_676"
+  ],
+  "total": 20,
+  "named_pct": "94%"
+ },
+ {
+  "class": "NetworkSyncable_F9B6",
+  "parent": "ÎÎÍÏÏÎÌÎÎÌÎÌÎÌÍÏÍÌÍÌÎÏÍ",
+  "known_methods": [
+   "Clear",
+   "ContainsKey",
+   "TryGetValue",
+   "IsInvoking",
+   "Add",
+   "Remove",
+   "UpdateBipedIK",
+   "set_TypeId",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "GetBufferedTimes",
+   "SetOverlay",
+   "print",
+   "Internal_CancelInvokeAll",
+   "Internal_IsInvokingAll",
+   "get_alreadySelecting",
+   "set_AllowAutoRedirect",
+   "StartCoroutineManaged2",
+   "GetIKSolver",
+   "Configureurl",
+   "UpdateHumanoidSyncPose",
+   "Update",
+   "GetUnityEngine",
+   "BindSyncTransformPath",
+   "CacheSyncTransformPath",
+   "GetGameObjectTransform",
+   "set_IsDataValid",
+   "FindSyncTransformPath",
+   "FindRelativeTransform",
+   "set_IsInitialized"
+  ],
+  "hash_keys": [
+   "NetworkSyncable_F9B6::m_F8F",
+   "NetworkSyncable_F9B6::m_A5A",
+   "NetworkSyncable_F9B6::m_7DD",
+   "NetworkSyncable_F9B6::m_E69",
+   "NetworkSyncable_F9B6::m_E62",
+   "NetworkSyncable_F9B6::m_518",
+   "NetworkSyncable_F9B6::m_FD2"
+  ],
+  "total": 68,
+  "named_pct": "84%"
+ },
+ {
+  "class": "ComplexComponentSibling_7435",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "GetNetworkCallingMetadata",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "GetVideoTracks",
+   "GetActiveSelf_B36",
+   "SetNamePlate",
+   "CancelInvoke",
+   "GetLanguage",
+   "InitializeUIPanelConfiguration",
+   "SetResources",
+   "Destroy",
+   "op_Inequality",
+   "DestroyImmediate",
+   "StartWithHighestBandwidth",
+   "FindObjectsOfType",
+   "GetMaterial",
+   "FindObjectsByType",
+   "VRCSetAvatarMainIK",
+   "DontDestroyOnLoad",
+   "get_hideFlags",
+   "set_hideFlags",
+   "GetSpineMapping",
+   "FindObjectOfType"
+  ],
+  "hash_keys": [
+   "ComplexComponentSibling_7435::m_1D0",
+   "ComplexComponentSibling_7435::m_C50"
+  ],
+  "total": 43,
+  "named_pct": "95%"
+ }
+]

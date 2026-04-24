@@ -1,0 +1,127 @@
+MCP issues detected. Run /mcp list for status.侧94>thought
+CRITICAL INSTRUCTION 1: Always prioritize using the most specific tool for the task at hand. Avoid `cat`, `grep`, `ls`, etc. in shell commands if custom tools are available.
+CRITICAL INSTRUCTION 2: Before making tool calls T, explicitly list related tools for the task at hand. You can only execute a set of tools T if all other tools are either more generic or cannot be used.
+
+The task requires reading `output/gemini_neighbor_batches/batch_034.json`, analyzing the JSON contents to predict PascalCase names for obfuscated classes based on their themes (methods, class name context, parent), and outputting a pure JSON object mapping `{ "class": "PredictedName" }`. I have successfully read the file using `run_shell_command("cat ...")` in the previous step (oops, I should have used `read_file`, but I already have the contents now).
+
+I need to output ONLY the JSON, formatted as `{ "NetworkItemSiblingSibling_5241": "...", ... }`.
+
+Let's predict names for each class based on the data:
+1. `NetworkItemSiblingSibling_5241`
+   parent: `ValueType`
+   known_methods: `InternalEquals`, `GetHashCodeOfPtr`, `GetSecondPointerOffsetInt`, `GetNetworkValueAtOffset44`, `.ctor`
+   Prediction: `NetworkPointerData` or `NetworkItem`
+
+2. `PlayerCalculateLayoutInputHorizCalculateLayout_5653`
+   parent: `LayoutGroup`
+   known_methods: UI layout properties (padding, childAlignment, flexibleWidth, etc.), `ReadComponentState`, `GetTotalMinSize`, `GetTotalPreferredSize`
+   Prediction: `PlayerLayoutGroup`
+
+3. `AnimatedTextureBaseImpl_B024`
+   parent: some obfuscated
+   known_methods: `get_IsSpecialFX`, `get_MaskTag`, `get_AnimationStyle`, `get_EffectBundleID`, `Initialize_ctrlKeyboardf15`
+   Prediction: `AnimatedTextureBase` or `SpecialFXComponent` or `EffectBundleController` or `AnimatedTexture`
+
+4. `BaseClass3Impl_65CA`
+   parent: some obfuscated
+   known_methods: `VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T`, `SetCurrentSocket`, `GetMaxDampTime`, `GetBufferedTimes`, `GetPlatform`
+   Prediction: `UdonComponentGetter` or `UdonNetworkSocket` or `NetworkSocketComponent`
+
+5. `PointerEnterPointerExit_5D10`
+   parent: obfuscated
+   known_methods: `CreateExitOperation`, `StopPointerHoverRoutine`, `LayoutComplete`, `MarkCompletedAndSchedule`, `StartPointerHoverRoutine`
+   Prediction: `PointerHoverController` or `PointerHoverRoutine`
+
+6. `BaseClass6Impl_6533`
+   parent: obfuscated
+   known_methods: `get_ValidExpressions`, `get_snapOrientation`, `set_ForceFileFormat`, `GetGameObject_348`
+   Prediction: `AvatarExpressionsController` or `AvatarFileController` or `FileFormatComponent`
+
+7. `PlayerLeftHandler_4F25`
+   parent: `MonoBehaviour`
+   known_methods: `RaiseCancellation`, `Invoke`, `StartCoroutine`, `OnCancellationTokenCreated`, `Internal_CancelInvokeAll`
+   Prediction: `PlayerLeftHandler` or `CancellationHandler` or `CoroutineMonoBehaviour`
+
+8. `BaseClass3Impl_C362`
+   parent: obfuscated
+   known_methods: `IsStartDelayComplete`, `FindCloseFile`, `get_EnableTimoutForStreaming`, `DoGetIntegerString_7BC`
+   Prediction: `StreamingTimeoutController` or `FileStreamHandler`
+
+9. `LifecycleComponentSiblingSibling_BDD6`
+   parent: `Object`
+   known_methods: `ReadTransformState`, `ConfigureChars`, `IsNativeObjectAlive`, `FindObjectsByType`
+   Prediction: `TransformStateObject` or `NativeObjectHandler` or `ObjectLifecycleComponent`
+
+10. `SetLayoutHorizontalSetLayoutVertical_07A6`
+    parent: `ContentSizeFitter`
+    known_methods: `get_horizontalFit`, `set_horizontalFit`, `get_defaultDeadzoneMax`, `set_leftEyeOpenAmount`, `get_preferredPeakBitRate`, `HandleSelfFittingAlongAxis`
+    Prediction: `HorizontalContentSizeFitter` or `VRContentSizeFitter` or `EyeTrackingSizeFitter`
+
+11. `LifecycleComponentImplImpl_3D10`
+    parent: obfuscated
+    known_methods: `AssignConnectedBody`, `GetLocalRotation`, `SetConnectedBody`, `ApplyLocalTransform`
+    Prediction: `JointConnectedBody` or `TransformConnectedBody` or `PhysicsConnectedBody`
+
+12. `BaseClass6Impl_6524`
+    parent: obfuscated
+    known_methods: `get_EyeFollowingBlendshapesValid`, `get_ValidExpressions`, `get_snapOrientation`, `GetNetworkCallingMetadata`, `DoInternal_FromEulerRad_Injected_093`
+    Prediction: `AvatarExpressions` or `EyeFollowingBlendshapes` or `AvatarNetworkMetadata`
+
+13. `ComplexComponentImplSiblingSibling_499D`
+    parent: obfuscated
+    known_methods: `get_destroyCancellationToken`, `Instantiate`, `Initialize`, `Update`
+    Prediction: `ComplexComponentImpl` or `CancellationTokenComponent`
+
+14. `Type20m1f_8514`
+    parent: `Object`
+    known_methods: standard Object methods (`GetInstanceID`, `IsNativeObjectAlive`, etc.)
+    Prediction: `Type20m1f` or `NativeObject`
+
+15. `LifecycleComponentSibling_A03F`
+    parent: ""
+    known_methods: `ResolveLastServiceDescriptor`, `ReadLastServiceDescriptor`, `AccessLastServiceDescriptor`, `FetchLastServiceDescriptor`, `TryInvokeTypedReceiver`, `GetLastServiceDescriptor`
+    Prediction: `ServiceDescriptorResolver` or `TypedReceiverService`
+
+Let's refine the names and create the JSON:
+```json
+{
+  "NetworkItemSiblingSibling_5241": "NetworkItemData",
+  "PlayerCalculateLayoutInputHorizCalculateLayout_5653": "PlayerLayoutGroup",
+  "AnimatedTextureBaseImpl_B024": "AnimatedTextureEffect",
+  "BaseClass3Impl_65CA": "UdonSocketComponent",
+  "PointerEnterPointerExit_5D10": "PointerHoverRoutine",
+  "BaseClass6Impl_6533": "AvatarFileComponent",
+  "PlayerLeftHandler_4F25": "PlayerLeftHandler",
+  "BaseClass3Impl_C362": "StreamingTimeoutController",
+  "LifecycleComponentSiblingSibling_BDD6": "TransformStateObject",
+  "SetLayoutHorizontalSetLayoutVertical_07A6": "VRContentSizeFitter",
+  "LifecycleComponentImplImpl_3D10": "PhysicsConnectedBody",
+  "BaseClass6Impl_6524": "EyeFollowingExpressions",
+  "ComplexComponentImplSiblingSibling_499D": "CancellationTokenComponent",
+  "Type20m1f_8514": "NativeObjectHandler",
+  "LifecycleComponentSibling_A03F": "ServiceDescriptorResolver"
+}
+```
+
+Wait, `Type20m1f_8514` could just be `Type20Object` or `NativeObject`.
+Let's review the prompt: "Predict PascalCase names by class theme. Output ONLY JSON {key: name}. 50-70%."
+I will output only the JSON object.
+```json
+{
+  "NetworkItemSiblingSibling_5241": "NetworkItemData",
+  "PlayerCalculateLayoutInputHorizCalculateLayout_5653": "PlayerLayoutGroup",
+  "AnimatedTextureBaseImpl_B024": "AnimatedTextureEffect",
+  "BaseClass3Impl_65CA": "UdonSocketComponent",
+  "PointerEnterPointerExit_5D10": "PointerHoverRoutine",
+  "BaseClass6Impl_6533": "AvatarFileComponent",
+  "PlayerLeftHandler_4F25": "PlayerLeftHandler",
+  "BaseClass3Impl_C362": "StreamingTimeoutController",
+  "LifecycleComponentSiblingSibling_BDD6": "TransformStateObject",
+  "SetLayoutHorizontalSetLayoutVertical_07A6": "VRContentSizeFitter",
+  "LifecycleComponentImplImpl_3D10": "PhysicsConnectedBody",
+  "BaseClass6Impl_6524": "EyeFollowingExpressions",
+  "ComplexComponentImplSiblingSibling_499D": "CancellationTokenComponent",
+  "Type20m1f_8514": "NativeObject",
+  "LifecycleComponentSibling_A03F": "ServiceDescriptorResolver"
+}
+```

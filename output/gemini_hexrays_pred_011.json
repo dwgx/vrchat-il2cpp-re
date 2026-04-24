@@ -1,0 +1,5 @@
+MCP issues detected. Run /mcp list for status.{
+  "Static62m_88DC::m_396": "ThrowException",
+  "BaseClass136Impl_9A67::m_9FC": "ProcessArrayRange",
+  "BaseClass136Impl_9A67::m_5F7": "CopyAndProcessStruct"
+}
