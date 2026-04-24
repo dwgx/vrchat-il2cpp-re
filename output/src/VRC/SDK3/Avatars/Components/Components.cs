@@ -38,32 +38,32 @@ namespace VRC.SDK3.Avatars.Components
     public class VRCAvatarDescriptor : VRC_AvatarDescriptor
     {
         public bool customExpressions; // 0xB8
-        public VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionsMenu expressionsMenu; // 0xC0
-        public VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionParameters expressionParameters; // 0xC8
+        public terfaces.IUdonVariable.Value.VariableType expressionsMenu; // 0xC0
+        public terfaces.IUdonVariable.Value.lName expressionParameters; // 0xC8
         public bool enableEyeLook; // 0xD0
-        public 0x66634098 customEyeLookSettings; // 0xD8
+        public eLoggers customEyeLookSettings; // 0xD8
         public bool customizeAnimationLayers; // 0x170
-        public 0x66633F38[] baseAnimationLayers; // 0x178
-        public 0x66633F38[] specialAnimationLayers; // 0x180
-        public UnityEngine.ScriptableObject AnimationPreset; // 0x188
-        public System.Collections.Generic.List`1<Î> animationHashSet; // 0x190
+        public Loggers[] baseAnimationLayers; // 0x178
+        public Loggers[] specialAnimationLayers; // 0x180
+        public ge AnimationPreset; // 0x188
+        public URA.woDigitYearMax<ion> animationHashSet; // 0x190
         public bool autoFootsteps; // 0x198
         public bool autoLocomotion; // 0x199
         public float COLLIDER_MAX_SIZE;
-        public 0x666341A0 collider_head; // 0x1A0
-        public 0x666341A0 collider_torso; // 0x1D8
-        public 0x666341A0 collider_footR; // 0x210
-        public 0x666341A0 collider_footL; // 0x248
-        public 0x666341A0 collider_handR; // 0x280
-        public 0x666341A0 collider_handL; // 0x2B8
-        public 0x666341A0 collider_fingerIndexL; // 0x2F0
-        public 0x666341A0 collider_fingerMiddleL; // 0x328
-        public 0x666341A0 collider_fingerRingL; // 0x360
-        public 0x666341A0 collider_fingerLittleL; // 0x398
-        public 0x666341A0 collider_fingerIndexR; // 0x3D0
-        public 0x666341A0 collider_fingerMiddleR; // 0x408
-        public 0x666341A0 collider_fingerRingR; // 0x440
-        public 0x666341A0 collider_fingerLittleR; // 0x478
+        public Loggers collider_head; // 0x1A0
+        public Loggers collider_torso; // 0x1D8
+        public Loggers collider_footR; // 0x210
+        public Loggers collider_footL; // 0x248
+        public Loggers collider_handR; // 0x280
+        public Loggers collider_handL; // 0x2B8
+        public Loggers collider_fingerIndexL; // 0x2F0
+        public Loggers collider_fingerMiddleL; // 0x328
+        public Loggers collider_fingerRingL; // 0x360
+        public Loggers collider_fingerLittleL; // 0x398
+        public Loggers collider_fingerIndexR; // 0x3D0
+        public Loggers collider_fingerMiddleR; // 0x408
+        public Loggers collider_fingerRingR; // 0x440
+        public Loggers collider_fingerLittleR; // 0x478
 
         // ── Methods ──
         public void GetExpressionParameterCount(){} // RVA: 0x7FFD57437970
@@ -87,7 +87,7 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCHeadChop : MonoBehaviour
     {
-        public ÍÍÍÏÏÎÌÍÎÎÍÎÎÎÍÏÏÎÍÌÍÍÍ[] targetBones; // 0x20
+        public ?[] targetBones; // 0x20
         public float globalScaleFactor; // 0x28
         public int MaxBoneCount;
         public int MaxComponentCount;
@@ -101,9 +101,9 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCImpostorEnvironment : MonoBehaviour
     {
-        public UnityEngine.Color SkyColor; // 0x20
-        public UnityEngine.Color EquatorColor; // 0x30
-        public UnityEngine.Color GroundColor; // 0x40
+        public object SkyColor; // 0x20
+        public object EquatorColor; // 0x30
+        public object GroundColor; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5743CAE0
@@ -111,11 +111,6 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCImpostorSettings : MonoBehaviour
     {
-        public float resolutionScale; // 0x20
-        public UnityEngine.Transform[] transformsToIgnore; // 0x28
-        public UnityEngine.Transform[] extraChildTransforms; // 0x30
-        public UnityEngine.Transform[] reparentHere; // 0x38
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E349920
     }
@@ -128,37 +123,20 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCRaycast : MonoBehaviour
     {
-        public UnityEngine.Vector3 RaycastDirection; // 0x20
-        public float Distance; // 0x2C
-        public bool ApplyTransformScale; // 0x30
-        public 0x66633B70 RaycastCollisionMode; // 0x34
-        public UnityEngine.LayerMask CustomCollisionLayers; // 0x38
-        public UnityEngine.LayerMask ResultTransform; // 0x3C
-        public UnityEngine.LayerMask ApplyRotation; // 0x40
-        public UnityEngine.Transform AlignmentAxis; // 0x48
-        public UnityEngine.Transform DisableOnMiss; // 0x50
-        public bool BehaviorOnMiss; // 0x58
-        public UnityEngine.Vector3 Parameter; // 0x5C
-        public bool CommandIndex; // 0x68
-        public 0x66633BC8 InitExternallyBlocked; // 0x6C
-        public string EffectiveDistance; // 0x70
-        public bool _hasInitializedAnimatorParameters; // 0x78
-        public UnityEngine.Vector3 _submittedWorldSpaceDirection; // 0x7C
-        public float MaximumAllowedDistance;
-        public UnityEngine.PhysicsScene _defaultPhysicsScene;
-        public int <CommandIndex>k__BackingField; // 0x88
-        public bool _startCompleted; // 0x8C
-        public bool <InitExternallyBlocked>k__BackingField; // 0x8D
-        public System.Action`1<VRC.SDK3.Avatars.Components.VRCRaycast> OnInitializeParameters; // 0x8
-        public string PARAM_HIT;
-        public string PARAM_RATIO;
-        public string PARAM_DISTANCE;
-        public bool param_HitValue; // 0x8E
-        public VRC.SDKBase.IAnimParameterAccess param_Hit; // 0x90
-        public float param_RatioValue; // 0x98
-        public VRC.SDKBase.IAnimParameterAccess param_Ratio; // 0xA0
-        public float param_DistanceValue; // 0xA8
-        public VRC.SDKBase.IAnimParameterAccess param_Distance; // 0xB0
+        public object RaycastDirection;
+        public object Distance;
+        public object ApplyTransformScale;
+        public object RaycastCollisionMode;
+        public object CustomCollisionLayers;
+        public object ResultTransform;
+        public object ApplyRotation;
+        public object AlignmentAxis;
+        public object DisableOnMiss;
+        public object BehaviorOnMiss;
+        public object Parameter;
+        public object CommandIndex;
+        public object InitExternallyBlocked;
+        public object EffectiveDistance;
 
         // ── Methods ──
         public void get_RaycastDirection(){} // RVA: 0x7FFD4E3A7EE0
@@ -209,15 +187,7 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCRaycastHandler : Object
     {
-        public System.Collections.Generic.List`1<VRC.SDK3.Avatars.Components.VRCRaycast> ProcessingRaycasts;
-        public System.Collections.Generic.HashSet`1<VRC.SDK3.Avatars.Components.VRCRaycast> _pendingAddSet; // 0x8
-        public System.Collections.Generic.HashSet`1<VRC.SDK3.Avatars.Components.VRCRaycast> _pendingRemoveSet; // 0x10
-        public Unity.Jobs.JobHandle _batchHandle; // 0x18
-        public Unity.Collections.NativeArray`1<ÏÎÌÏÌÎÏÍ> _commandBuffer; // 0x28
-        public Unity.Collections.NativeArray`1<UnityEngine.RaycastHit> _resultBuffer; // 0x38
-        public int _currentBatchSize; // 0x48
-        public int _bufferCapacity; // 0x4C
-        public bool _isDisposed; // 0x50
+        public object ProcessingRaycasts;
 
         // ── Methods ──
         public void get_ProcessingRaycasts(){} // RVA: 0x7FFD574365E0

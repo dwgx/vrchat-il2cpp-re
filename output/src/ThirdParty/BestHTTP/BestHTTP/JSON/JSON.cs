@@ -20,8 +20,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.JSON
         public int TOKEN_TRUE;
         public int TOKEN_FALSE;
         public int TOKEN_NULL;
-        public Unity.Profiling.ProfilerMarker _encodeProfilerMarker; // 0x8
-        public Unity.Profiling.ProfilerMarker _decodeProfilerMarker; // 0x10
+        public object _encodeProfilerMarker; // 0x8
+        public object _decodeProfilerMarker; // 0x10
 
         // ── Methods ──
         public void Decode(){} // RVA: 0x7FFD57228020 | overloaded x4

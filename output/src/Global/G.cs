@@ -23,13 +23,6 @@ public class GUIClearEvents : ValueType
 
 public class GUIGlobals : ValueType
 {
-    public UnityEngine.Matrix4x4 matrix; // 0x10
-    public UnityEngine.Color color; // 0x50
-    public UnityEngine.Color contentColor; // 0x60
-    public UnityEngine.Color backgroundColor; // 0x70
-    public bool enabled; // 0x80
-    public bool changed; // 0x81
-    public int displayIndex; // 0x84
 }
 
 public class GalleryObject : ApiModel
@@ -37,12 +30,12 @@ public class GalleryObject : ApiModel
     public string name; // 0x68
     public string description; // 0x70
     public bool membersOnly; // 0x78
-    public System.Collections.Generic.List`1<string> roleIdsToView; // 0x80
-    public System.Collections.Generic.List`1<string> roleIdsToSubmit; // 0x88
-    public System.Collections.Generic.List`1<string> roleIdsToAutoApprove; // 0x90
-    public System.Collections.Generic.List`1<string> roleIdsToManage; // 0x98
-    public System.DateTime createdAt; // 0xA0
-    public System.DateTime updatedAt; // 0xA8
+    public URA.woDigitYearMax<string> roleIdsToView; // 0x80
+    public URA.woDigitYearMax<string> roleIdsToSubmit; // 0x88
+    public URA.woDigitYearMax<string> roleIdsToAutoApprove; // 0x90
+    public URA.woDigitYearMax<string> roleIdsToManage; // 0x98
+    public DependencyInjector createdAt; // 0xA0
+    public DependencyInjector updatedAt; // 0xA8
 
     // ── Methods ──
     public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -76,7 +69,7 @@ public class GameObjectSurrogate : Object
 
 public class GateFitParameters : ValueType
 {
-    public 0x664D98F0 mode; // 0x10
+    public ÏÏÎÌÍÍÍÍÍÌÎÌÏÍÍÍÏ mode; // 0x10
     public float aspect; // 0x14
 
     // ── Methods ──
@@ -89,7 +82,7 @@ public class GateFitParameters : ValueType
 
 public class GenericPoolImpl`1 : Object
 {
-    public VRC.Core.Pool.ObjectPool`1<ObjectEnumerator> Pool;
+    public onfigSettings.gContentId<T1717581296> Pool;
 
     // ── Methods ──
     public void Get(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -107,14 +100,14 @@ public class GenericSurrogate : Object
 
 public class GestureIcon : ValueType
 {
-    public 0x6635F900 Type; // 0x10
-    public UnityEngine.Sprite Icon; // 0x18
+    public object Type; // 0x10
+    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField Icon; // 0x18
 }
 
 public class GestureIndicator : Object
 {
-    public UnityEngine.Sprite Right; // 0x10
-    public UnityEngine.Sprite Left; // 0x18
+    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField Right; // 0x10
+    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField Left; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -122,22 +115,22 @@ public class GestureIndicator : Object
 
 public class GestureInputState : Object
 {
-    public 0x6635F900 Type; // 0x10
-    public 0x66360878 Finger; // 0x14
+    public object Type; // 0x10
+    public ÏÍÍÏÎ Finger; // 0x14
     public bool IsLeftHand; // 0x18
     public bool IsHold; // 0x19
     public bool IsImmuneToGestureLock; // 0x1A
-    public System.Func`2<GestureInputState,bool> IsAvailable; // 0x20
-    public System.Func`2<GestureInputState,bool> StartAction; // 0x28
-    public System.Action`1<GestureInputState> UpdateAction; // 0x30
-    public System.Action`1<GestureInputState> EndAction; // 0x38
-    public 0x6635F8A8 PreviousActivationState; // 0x40
-    public 0x6635F8A8 ActivationState; // 0x44
+    public n<ÎÍ,bool> IsAvailable; // 0x20
+    public n<ÎÍ,bool> StartAction; // 0x28
+    public ileFullDirectoryInformation<ÎÍ> UpdateAction; // 0x30
+    public ileFullDirectoryInformation<ÎÍ> EndAction; // 0x38
+    public object PreviousActivationState; // 0x40
+    public object ActivationState; // 0x44
     public float HoldTimer; // 0x48
     public float HoldDuration; // 0x4C
-    public UnityEngine.AudioClip startSound; // 0x50
-    public UnityEngine.AudioClip deactivateSound; // 0x58
-    public UnityEngine.Sprite Icon; // 0x60
+    public ies startSound; // 0x50
+    public ies deactivateSound; // 0x58
+    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField Icon; // 0x60
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -154,7 +147,7 @@ public class GetAllQueuedEventsDelegate : MulticastDelegate
 
 public class GetAvatarsResult : Object
 {
-    public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiAvatar> Avatars; // 0x10
+    public URA.saAbbrevMonthNames<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.Data> Avatars; // 0x10
     public int Total; // 0x18
     public bool PassedValidation; // 0x1C
 
@@ -187,20 +180,20 @@ public class GetClassValueAction : MulticastDelegate
 
 public class GetComponentStateUnion : ValueType
 {
-    public _GetComponentState pGetComponentState; // 0x10
-    public _GetComponentStatePacked pGetComponentStatePacked; // 0x10
+    public faultMaterial pGetComponentState; // 0x10
+    public RecommendedRenderTargetSize pGetComponentStatePacked; // 0x10
 }
 
 public class GetControllerStateUnion : ValueType
 {
-    public _GetControllerState pGetControllerState; // 0x10
-    public _GetControllerStatePacked pGetControllerStatePacked; // 0x10
+    public rySpaces pGetControllerState; // 0x10
+    public ONNode>.get_Current pGetControllerStatePacked; // 0x10
 }
 
 public class GetControllerStateWithPoseUnion : ValueType
 {
-    public _GetControllerStateWithPose pGetControllerStateWithPose; // 0x10
-    public _GetControllerStateWithPosePacked pGetControllerStateWithPosePacked; // 0x10
+    public ingField pGetControllerStateWithPose; // 0x10
+    public object pGetControllerStateWithPosePacked; // 0x10
 }
 
 public class GetDroneDelegate : MulticastDelegate
@@ -297,8 +290,8 @@ public class Getter`2 : MulticastDelegate
 public class GiftDisplayReference : Object
 {
     public string name; // 0x10
-    public UnityEngine.GameObject hologram; // 0x18
-    public UnityEngine.GameObject display; // 0x20
+    public BuffersImpl hologram; // 0x18
+    public BuffersImpl display; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -311,11 +304,11 @@ public class GpuTimestamp : ValueType
 public class Grab : Object
 {
     public int GlobalPosition; // 0x10
-    public VRC.Dynamics.ChainId LocalOffset; // 0x18
+    public ÍÏÎÎÌÍÍ.arker LocalOffset; // 0x18
     public int bone; // 0x28
-    public Unity.Mathematics.float3 globalPosition; // 0x2C
-    public Unity.Mathematics.float3 localOffset; // 0x38
-    public Pose pose; // 0x48
+    public es.ap globalPosition; // 0x2C
+    public es.ap localOffset; // 0x38
+    public object pose; // 0x48
 
     // ── Methods ──
     public void get_GlobalPosition(){} // RVA: 0x7FFD5526E920
@@ -332,10 +325,10 @@ public class GraphicsWarmupPreloadedShaders : ValueType
 public class GridCell : ValueType
 {
     public bool isValid; // 0x10
-    public UnityEngine.Vector3Int position; // 0x14
-    public Unity.Collections.LowLevel.Unsafe.UnsafeList`1<CellRecord> activeList; // 0x20
-    public Unity.Collections.LowLevel.Unsafe.UnsafeList`1<CellRecord> records; // 0x38
-    public Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Pair> collisions; // 0x50
+    public lutionZ position; // 0x14
+    public egister<iteExternalStorage> activeList; // 0x20
+    public egister<iteExternalStorage> records; // 0x38
+    public egister<?> collisions; // 0x50
 
     // ── Methods ──
     public void IsValid(){} // RVA: 0x7FFD4FD7DDF0
@@ -347,12 +340,12 @@ public class GridCell : ValueType
 
 public class Grouping : Object
 {
-    public string Key; // 0x10
-    public int System.Collections.Generic.ICollection<TElement>.Count; // 0x18
-    public 0x66414C30[] System.Collections.Generic.ICollection<TElement>.IsReadOnly; // 0x20
-    public int System.Collections.Generic.IList<TElement>.Item; // 0x28
-    public Grouping<string,0x66414C30> hashNext; // 0x30
-    public Grouping<string,0x66414C30> next; // 0x38
+    public T1717678416 Key;
+    public int System.Collections.Generic.ICollection<TElement>.Count;
+    public T1717678432[] System.Collections.Generic.ICollection<TElement>.IsReadOnly;
+    public int System.Collections.Generic.IList<TElement>.Item;
+    public Async<T1717678416,T1717678432> hashNext;
+    public Async<T1717678416,T1717678432> next;
 
     // ── Methods ──
     public void Add(){} // RVA: 0x7FFD4E2ADC40
@@ -376,8 +369,8 @@ public class Grouping : Object
 
 public class Grouping`2 : Object
 {
-    public System.Collections.Generic.List`1<T> Key;
-    public U <Key>k__BackingField;
+    public URA.woDigitYearMax<T1717639808> Key;
+    public T1717639792 <Key>k__BackingField;
 
     // ── Methods ──
     public void get_Key(){} // RVA: 0x7FFD4E2ADC40
@@ -394,7 +387,7 @@ public class GrowableArrayEnumerator : ValueType
 {
     public int System.Collections.IEnumerator.Current;
     public int Current;
-    public T[] array;
+    public T1717641888[] array;
 
     // ── Methods ──
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E078E90
@@ -407,13 +400,13 @@ public class GrowableArrayEnumerator : ValueType
 
 public class GuidResult : ValueType
 {
-    public System.Guid _parsedGuid; // 0x10
-    public 0x6641F600 _throwStyle; // 0x20
-    public 0x6641F658 _failure; // 0x24
+    public ce _parsedGuid; // 0x10
+    public e _throwStyle; // 0x20
+    public ed _failure; // 0x24
     public string _failureMessageID; // 0x28
     public object _failureMessageFormatArgument; // 0x30
     public string _failureArgumentName; // 0x38
-    public System.Exception _innerException; // 0x40
+    public ÏÏÍÍÎÎ _innerException; // 0x40
 
     // ── Methods ──
     public void Init(){} // RVA: 0x7FFD4E3440C0

@@ -17,25 +17,25 @@ namespace ThirdParty.Other.Transmtn.DTO.Notifications
         public string senderUsername; // 0x48
         public string receiverUserId; // 0x50
         public string relatedNotificationsId; // 0x58
-        public VRC.Localization.LocalizableString title; // 0x60
-        public VRC.Localization.LocalizableString message; // 0x88
+        public itTypeSize=876 title; // 0x60
+        public itTypeSize=876 message; // 0x88
         public string imageUrl; // 0xB0
         public string link; // 0xB8
-        public VRC.Localization.LocalizableString linkText; // 0xC0
-        public System.Collections.Generic.Dictionary`2<string,string> data; // 0xE8
-        public System.Collections.Generic.Dictionary`2<string,object>[] responses; // 0xF0
-        public System.DateTime expiresAt; // 0xF8
-        public System.Nullable`1<int> expiryAfterSeen; // 0x100
+        public itTypeSize=876 linkText; // 0xC0
+        public URA.DateTime<string,string> data; // 0xE8
+        public URA.DateTime<string,object>[] responses; // 0xF0
+        public DependencyInjector expiresAt; // 0xF8
+        public aphy<int> expiryAfterSeen; // 0x100
         public bool requireSeen; // 0x108
         public bool seen; // 0x109
         public bool ignoreDND; // 0x10A
         public bool canDelete; // 0x10B
-        public System.DateTime createdAt; // 0x110
-        public System.DateTime updatedAt; // 0x118
-        public System.DateTime notificationType; // 0x120
-        public Transmtn.DTO.Notifications.NotificationDetails created_at; // 0x128
+        public DependencyInjector createdAt; // 0x110
+        public DependencyInjector updatedAt; // 0x118
+        public DependencyInjector notificationType; // 0x120
+        public set1744 created_at; // 0x128
         public object payload; // 0x130
-        public System.Tuple`2<string,object>[] _notificationDataTuples;
+        public t<string,object>[] _notificationDataTuples;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574FEA40 | overloaded x2

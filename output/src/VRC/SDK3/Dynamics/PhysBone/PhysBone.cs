@@ -7,8 +7,8 @@ namespace VRC.SDK3.Dynamics.PhysBone
 {
     public class PhysBoneMigration : Object
     {
-        public System.Collections.Generic.List`1<UnityEngine.Transform> HumanoidBoneCache;
-        public UnityEngine.AnimationCurve StiffToMaxAngle; // 0x8
+        public URA.woDigitYearMax<?> HumanoidBoneCache;
+        public ÍÎÌÍÍÌÌÎÏÏ StiffToMaxAngle; // 0x8
         public bool HasInitDBConversionTables; // 0x10
 
         // ── Methods ──

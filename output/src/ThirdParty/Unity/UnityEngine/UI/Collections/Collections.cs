@@ -7,9 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.UI.Collections
 {
     public class IndexedSet`1 : Object
     {
-        public System.Collections.Generic.List`1<UnityEngine.UI.Graphic> Count; // 0x10
-        public System.Collections.Generic.Dictionary`2<UnityEngine.UI.Graphic,int> Capacity; // 0x18
-        public int IsReadOnly; // 0x20
+        public URA.woDigitYearMax<T1717703584> Count;
+        public URA.DateTime<T1717703584,int> Capacity;
+        public int IsReadOnly;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2

@@ -10,9 +10,9 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.U2D
         public int SpriteID; // 0x10
         public int TextureID; // 0x14
         public int MaterialID; // 0x18
-        public UnityEngine.Color Color; // 0x1C
-        public UnityEngine.Matrix4x4 Transform; // 0x2C
-        public UnityEngine.Bounds Bounds; // 0x6C
+        public object Color; // 0x1C
+        public tSizeBias Transform; // 0x2C
+        public stments Bounds; // 0x6C
         public int Layer; // 0x84
         public int SortingLayer; // 0x88
         public int SortingOrder; // 0x8C

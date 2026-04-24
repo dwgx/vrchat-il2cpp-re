@@ -29,7 +29,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Reflection
         public string ImmutableDictionaryTypeName;
         public string ImmutableSortedDictionaryTypeName;
         public string CreateRangeMethodName;
-        public System.Type s_nullableType;
+        public object s_nullableType;
 
         // ── Methods ──
         public void GetCompatibleGenericBaseClass(){} // RVA: 0x7FFD544784F0

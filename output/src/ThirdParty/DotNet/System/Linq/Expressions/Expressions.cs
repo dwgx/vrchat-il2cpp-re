@@ -15,15 +15,15 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
     {
         public int Base;
         public int Delta;
-        public System.IO.TextWriter Depth; // 0x10
+        public Inherited.endency Depth; // 0x10
         public int _column; // 0x18
-        public System.Collections.Generic.Stack`1<int> _stack; // 0x20
+        public URA.leEastFrench<int> _stack; // 0x20
         public int _delta; // 0x28
-        public 0x6654BE08 _flow; // 0x2C
-        public System.Collections.Generic.Queue`1<System.Linq.Expressions.LambdaExpression> _lambdas; // 0x30
-        public System.Collections.Generic.Dictionary`2<System.Linq.Expressions.LambdaExpression,int> _lambdaIds; // 0x38
-        public System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,int> _paramIds; // 0x40
-        public System.Collections.Generic.Dictionary`2<0x6654CA68,int> _labelIds; // 0x48
+        public cHandler _flow; // 0x2C
+        public URA.ge<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.>.Current> _lambdas; // 0x30
+        public URA.DateTime<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.>.Current,int> _lambdaIds; // 0x38
+        public URA.DateTime<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current,int> _paramIds; // 0x40
+        public URA.DateTime<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.ator<TResult>.Current,int> _labelIds; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54197140
@@ -99,9 +99,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Expression : Object
     {
-        public System.Dynamic.Utils.CacheDict`2<System.Type,System.Reflection.MethodInfo> NodeType;
-        public System.Dynamic.Utils.CacheDict`2<System.Type,System.Func`5<System.Linq.Expressions.Expression,string,bool,System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression>,System.Linq.Expressions.LambdaExpression>> Type; // 0x8
-        public System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Linq.Expressions.Expression,0x6654B468> CanReduce; // 0x10
+        public instructions.untimeLabel<?,m.jectMapInfo> NodeType;
+        public instructions.untimeLabel<?,?<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.Update,string,bool,UnicodeCategory.pacingCombiningMark<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current>,iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.>.Current>> Type; // 0x8
+        public ArgCount.ent<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.Update,r> CanReduce; // 0x10
 
         // ── Methods ──
         public void Assign(){} // RVA: 0x7FFD54167C10
@@ -338,7 +338,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
     public class Expression2`1 : Expression`1
     {
         public object ParameterCount;
-        public System.Linq.Expressions.ParameterExpression _par1;
+        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current _par1;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -352,8 +352,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
     public class Expression3`1 : Expression`1
     {
         public object ParameterCount;
-        public System.Linq.Expressions.ParameterExpression _par1;
-        public System.Linq.Expressions.ParameterExpression _par2;
+        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current _par1;
+        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current _par2;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09B8C0
@@ -372,7 +372,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ExpressionN`1 : Expression`1
     {
-        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.ParameterExpression> ParameterCount; // 0x18
+        public URA.saAbbrevMonthNames<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current> ParameterCount; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -385,8 +385,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ExpressionStringBuilder : ExpressionVisitor
     {
-        public System.Text.StringBuilder _out; // 0x10
-        public System.Collections.Generic.Dictionary`2<object,int> _ids; // 0x18
+        public em.MarkAborted.izeDefaultCase _out; // 0x10
+        public URA.DateTime<object,int> _ids; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541A9360
@@ -514,7 +514,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class LambdaExpression : Expression
     {
-        public System.Linq.Expressions.Expression Type; // 0x10
+        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.Update Type; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541B2720 | overloaded x2

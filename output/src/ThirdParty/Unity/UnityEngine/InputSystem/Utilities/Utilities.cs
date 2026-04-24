@@ -57,9 +57,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     public class CallbackArray`1 : ValueType
     {
         public bool length; // 0x10
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<object>> Item; // 0x18
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<object>> m_CallbacksToAdd; // 0x30
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<object>> m_CallbacksToRemove; // 0x48
+        public 2.and<ÎÌÍÏÏÌÍÏ> Item; // 0x18
+        public 2.and<ÎÌÍÏÏÌÍÏ> m_CallbacksToAdd; // 0x30
+        public 2.and<ÎÌÍÏÏÌÍÏ> m_CallbacksToRemove; // 0x48
 
         // ── Methods ──
         public void get_length(){} // RVA: 0x7FFD4E079960
@@ -98,9 +98,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ForDeviceEventObservable : Object
     {
-        public System.IObservable`1<UnityEngine.InputSystem.LowLevel.InputEventPtr> m_Source; // 0x10
-        public UnityEngine.InputSystem.InputDevice m_Device; // 0x18
-        public System.Type m_DeviceType; // 0x20
+        public subkeyWritable<Device.ckingField> m_Source; // 0x10
+        public ilAddress.ActionProperty m_Device; // 0x18
+        public object m_DeviceType; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5498C5B0
@@ -133,8 +133,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     public class InlinedArray`1 : ValueType
     {
         public int Capacity; // 0x10
-        public ulong Item; // 0x18
-        public ulong[] additionalValues; // 0x20
+        public ilAddress.hBindingMask<deltaleft.?> Item; // 0x18
+        public ilAddress.hBindingMask<deltaleft.?>[] additionalValues; // 0x20
 
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x7FFD4E079960
@@ -165,13 +165,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     {
         public bool buffer; // 0x10
         public bool count; // 0x11
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputAction> m_SubscribedActions; // 0x18
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputActionMap> m_SubscribedActionMaps; // 0x30
-        public UnityEngine.InputSystem.LowLevel.InputEventBuffer m_EventBuffer; // 0x48
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputActionState> m_ActionMapStates; // 0x68
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputActionState> m_ActionMapStateClones; // 0x80
-        public System.Action`1<CallbackContext> m_CallbackDelegate; // 0x98
-        public System.Action`2<object,0x664A57B0> m_ActionChangeDelegate; // 0xA0
+        public 2.and<ilAddress.s> m_SubscribedActions; // 0x18
+        public 2.and<ilAddress.epAliveInterval> m_SubscribedActionMaps; // 0x30
+        public Device.__BackingField m_EventBuffer; // 0x48
+        public 2.and<ilAddress.icate> m_ActionMapStates; // 0x68
+        public 2.and<ilAddress.icate> m_ActionMapStateClones; // 0x80
+        public ileFullDirectoryInformation<et> m_CallbackDelegate; // 0x98
+        public rectoryInformation<object,ilAddress.get_RequestedSubProtocols> m_ActionChangeDelegate; // 0xA0
 
         // ── Methods ──
         public void get_buffer(){} // RVA: 0x7FFD54980D60
@@ -287,7 +287,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     public class NameAndParameters : ValueType
     {
         public string name; // 0x10
-        public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue> parameters; // 0x18
+        public 2.ntReadPos<2.sOrphanedPrimaryTouch> parameters; // 0x18
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4EEF9F60
@@ -305,7 +305,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     {
         public string name;
         public string value; // 0x10
-        public UnityEngine.InputSystem.Utilities.PrimitiveValue type; // 0x18
+        public 2.me type; // 0x18
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4EEF9F60
@@ -353,8 +353,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class Observer`1 : Object
     {
-        public System.Action`1<T> m_OnNext;
-        public System.Action m_OnCompleted;
+        public ileFullDirectoryInformation<T1717602096> m_OnNext;
+        public ÎÌÍÏÏÌÍÏ m_OnCompleted;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -365,9 +365,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class OneOrMore`2 : ValueType
     {
-        public bool Count; // 0x10
-        public UnityEngine.InputSystem.InputActionMap Item; // 0x18
-        public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputActionMap> m_Multiple; // 0x20
+        public bool Count;
+        public T1717602272 Item;
+        public T1717602288 m_Multiple;
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -393,7 +393,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class PrimitiveValue : ValueType
     {
-        public 0x66421808 valuePtr; // 0x10
+        public t_AllowMultiple valuePtr; // 0x10
         public bool type; // 0x14
         public char isEmpty; // 0x14
         public byte m_ByteValue; // 0x14
@@ -464,9 +464,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
-        public UnityEngine.InputSystem.InputAction[] Count; // 0x10
-        public int Item; // 0x18
-        public int m_Length; // 0x1C
+        public object Count;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -482,9 +481,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class SavedStructState`1 : Object
     {
-        public T m_State;
-        public TypedRestore<T> m_RestoreAction;
-        public System.Action m_StaticDisposeCurrentState;
+        public T1717602432 m_State;
+        public servers<T1717602432> m_RestoreAction;
+        public ÎÌÍÏÏÌÍÏ m_StaticDisposeCurrentState;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -494,8 +493,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class SelectManyObservable`2 : Object
     {
-        public System.IObservable`1<U> m_Source;
-        public System.Func`2<U,System.Collections.Generic.IEnumerable`1<T>> m_Filter;
+        public subkeyWritable<T1717602144> m_Source;
+        public n<T1717602144,URA.bbrevEraNames<T1717602160>> m_Filter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -558,7 +557,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class TakeNObservable`1 : Object
     {
-        public System.IObservable`1<T> m_Source;
+        public subkeyWritable<T1717602192> m_Source;
         public int m_Count;
 
         // ── Methods ──
@@ -578,7 +577,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class TypeTable : ValueType
     {
-        public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,System.Type> names; // 0x10
+        public URA.DateTime<2.uestResetCommand,?> names; // 0x10
 
         // ── Methods ──
         public void get_names(){} // RVA: 0x7FFD54993780
@@ -597,8 +596,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class WhereObservable`1 : Object
     {
-        public System.IObservable`1<T> m_Source;
-        public System.Func`2<T,bool> m_Predicate;
+        public subkeyWritable<T1717602224> m_Source;
+        public n<T1717602224,bool> m_Predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30

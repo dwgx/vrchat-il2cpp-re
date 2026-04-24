@@ -8,7 +8,7 @@ namespace VRC.SDKBase.Validation.Performance.Stats
     public class AvatarPerformanceStatsLevel : ScriptableObject
     {
         public int polyCount; // 0x18
-        public UnityEngine.Bounds aabb; // 0x1C
+        public stments aabb; // 0x1C
         public int skinnedMeshCount; // 0x34
         public int meshCount; // 0x38
         public int materialCount; // 0x3C
@@ -28,7 +28,7 @@ namespace VRC.SDKBase.Validation.Performance.Stats
         public int physicsRigidbodyCount; // 0x70
         public int audioSourceCount; // 0x74
         public float textureMegabytes; // 0x78
-        public 0x665B2D48 physBone; // 0x7C
+        public vatar physBone; // 0x7C
         public int contactCount; // 0x8C
         public int constraintsCount; // 0x90
         public int constraintDepth; // 0x94
@@ -40,11 +40,6 @@ namespace VRC.SDKBase.Validation.Performance.Stats
 
     public class AvatarPerformanceStatsLevelSet : ScriptableObject
     {
-        public VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevel excellent; // 0x18
-        public VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevel good; // 0x20
-        public VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevel medium; // 0x28
-        public VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevel poor; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
     }

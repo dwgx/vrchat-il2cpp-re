@@ -7,9 +7,9 @@ namespace ThirdParty.Other.Unity.Burst
 {
     public class BurstCompileAttribute : Attribute
     {
-        public ÌÎÎÍÌÍÍÍ FloatMode; // 0x10
-        public 0x666234D0 FloatPrecision; // 0x14
-        public System.Nullable`1<bool> CompileSynchronously; // 0x18
+        public ÌÏÏÌÌÏÏÎÌÎÍÏÍÏÏÍÍÍÌÍÎÍ.lizedPos>b__0 FloatMode; // 0x10
+        public ÌÏÏÌÌÏÏÎÌÎÍÏÍÏÏÍÍÍÌÍÎÍ.zedPos>b__1 FloatPrecision; // 0x14
+        public aphy<bool> CompileSynchronously; // 0x18
         public string[] Options; // 0x20
 
         // ── Methods ──
@@ -23,9 +23,9 @@ namespace ThirdParty.Other.Unity.Burst
     public class BurstCompiler : Object
     {
         public bool IsEnabled;
-        public Unity.Burst.BurstCompilerOptions Options; // 0x8
-        public System.Action OnCompileILPPMethod2; // 0x10
-        public System.Reflection.MethodInfo DummyMethodInfo; // 0x18
+        public ÌÏÏÌÌÏÏÎÌÎÍÏÍÏÏÍÍÍÌÍÎÍ.701B9FEFE6E40553614DE65E Options; // 0x8
+        public ÎÌÍÏÏÌÍÏ OnCompileILPPMethod2; // 0x10
+        public m.jectMapInfo DummyMethodInfo; // 0x18
 
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0x7FFD54924D60
@@ -46,7 +46,7 @@ namespace ThirdParty.Other.Unity.Burst
         public bool OptionsChanged; // 0x10
         public bool _enableBurstSafetyChecks; // 0x11
         public bool <IsGlobal>k__BackingField; // 0x12
-        public System.Action <OptionsChanged>k__BackingField; // 0x18
+        public ÎÌÍÏÏÌÍÏ <OptionsChanged>k__BackingField; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54926F40
@@ -133,7 +133,7 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class SharedStatic`1 : ValueType
     {
-        public void* Data;
+        public IntPtr Data;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

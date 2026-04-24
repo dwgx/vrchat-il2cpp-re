@@ -9,7 +9,7 @@ namespace ThirdParty.Other.WebSocketSharp
     {
         public byte[] _last;
         public int _retry; // 0x8
-        public System.Func`2<string,bool> CS$<>9__CachedAnonymousMethodDelegate1; // 0x10
+        public n<string,bool> CS$<>9__CachedAnonymousMethodDelegate1; // 0x10
 
         // ── Methods ──
         public void decompress(){} // RVA: 0x7FFD574BF730 | overloaded x2
@@ -66,8 +66,8 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class HttpBase : Object
     {
-        public 0x664979F8 EntityBody; // 0x10
-        public System.Version Headers; // 0x18
+        public ist.Find.tem.ComponentModel.IBindingList.RemoveIndex EntityBody; // 0x10
+        public object Headers; // 0x18
         public byte[] ProtocolVersion; // 0x20
 
         // ── Methods ──

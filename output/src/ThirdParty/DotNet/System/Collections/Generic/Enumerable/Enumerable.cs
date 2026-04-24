@@ -13,8 +13,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic.Enumerable
 
     public class EnumerableIList`1 : ValueType
     {
-        public System.Collections.Generic.IList`1<T> Item;
-        public System.Collections.Generic.Enumerable.EnumerableIList`1<T> Count;
+        public URA.?<T1717644336> Item;
+        public 5__3.serializePayloadAsync>d__46<T1717644336> Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -39,7 +39,7 @@ namespace ThirdParty.DotNet.System.Collections.Generic.Enumerable
 
     public class EnumeratorIList`1 : ValueType
     {
-        public System.Collections.Generic.IList`1<T> Current;
+        public URA.?<T1717644352> Current;
         public int System.Collections.IEnumerator.Current;
 
         // ── Methods ──

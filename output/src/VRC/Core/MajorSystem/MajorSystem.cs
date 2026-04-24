@@ -8,98 +8,13 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÏÏÏÌÌÍÎÌÍÏÏÎÎÍÌÌÍÏÎÌÌÍÍ</summary>
     public class ComplexComponent_0B13 : MonoBehaviour
     {
-        public float _destroyCancellationToken;
-        public float _useGUILayout;
-        public float f_807;
-        public float f_B0B;
-        public float f_049;
-        public float f_F61;
-        public float f_524;
-        public float ÍÎÏÎÌÏÎÍÎÍÏÍÏÏÌÎÌÎÏÌÎÍÌ;
-        public float ÎÏÎÏÍÎÌÎÌÎÌÌÏÌÎÏÌÍÎÍÏÎÍ;
-        public int ÍÍÏÌÏÌÏÎÏÌÍÍÍÌÎÍÍÌÎÎÏÍÍ;
-        public int ÍÏÌÍÎÍÌÏÍÍÌÎÎÍÏÌÎÎÍÍÎÎÌ;
-        public bool ÌÏÏÏÍÍÍÎÍÎÌÏÍÌÏÏÍÌÏÏÎÎÌ; // 0x20
-        public float <ÏÌÎÏÏÍÏÍÎÏÏÏÌÌÎÍÎÌÏÌÍÌÍ>k__BackingField; // 0x24
-        public float <ÏÌÏÎÏÎÍÎÌÎÎÍÍÏÍÏÌÎÏÏÌÍÌ>k__BackingField; // 0x28
-        public float <ÎÏÌÍÎÏÎÍÏÌÎÎÏÍÎÎÌÍÎÎÌÌÏ>k__BackingField; // 0x2C
-        public UnityEngine.GameObject controlPointPrefab; // 0x30
-        public UnityEngine.GameObject curvePointPrefab; // 0x38
-        public UnityEngine.GameObject pathSegmentPrefab; // 0x40
-        public UnityEngine.GameObject streamCamPrefab; // 0x48
-        public ÎÌÌÌÏÌÌÌÍÍÎÎÏÎÎÏÏÍÏÎÍÎÏ playPathButton; // 0x50
-        public ÎÌÌÌÏÌÌÌÍÍÎÎÏÎÎÏÏÍÏÎÍÎÏ stopPathButton; // 0x58
-        public ÎÌÌÌÏÌÌÌÍÍÎÎÏÎÎÏÏÍÏÎÍÎÏ clearLastButton; // 0x60
-        public ÎÌÌÌÏÌÌÌÍÍÎÎÏÎÎÏÏÍÏÎÍÎÏ clearAllButton; // 0x68
-        public ÎÌÌÌÏÌÌÌÍÍÎÎÏÎÎÏÏÍÏÎÍÎÏ clearAllConfirmButton; // 0x70
-        public ÎÌÌÌÏÌÌÌÍÍÎÎÏÎÎÏÏÍÏÎÍÎÏ addPointButton; // 0x78
-        public ÌÎÏÌÌÌÏÏÏÏÎÎÌÎÏÏÌÍÍÍÎÌÏ pathsStayVisibleToggle; // 0x80
-        public UnityEngine.GameObject importModal; // 0x88
-        public UnityEngine.UI.Button importPaste; // 0x90
-        public UnityEngine.UI.Button importSubmit; // 0x98
-        public UnityEngine.UI.Button importClose; // 0xA0
-        public UnityEngine.GameObject exportModal; // 0xA8
-        public UnityEngine.UI.Button exportSubmit; // 0xB0
-        public UnityEngine.UI.Button exportClose; // 0xB8
-        public X ÏÍÌÍÌÌÎÎÍÎÏÎÍÍÌÎÍÌÎÍÍÌÍ; // 0xC0
-        public ÌÎÍÏÏÏÎÌÎÍÏÍÏÌÎÎÏÏÎÍÌÍÏ MotionTooltip; // 0xC8
-        public ÌÎÍÏÏÏÎÌÎÍÏÍÏÌÎÎÏÏÎÍÌÍÏ EasingTooltip; // 0xD0
-        public ÌÎÍÏÏÏÎÌÎÍÏÍÏÌÎÎÏÏÎÍÌÍÏ InterpolationTooltip; // 0xD8
-        public ÌÎÍÏÏÏÎÌÎÍÏÍÏÌÎÎÏÏÎÍÌÍÏ LoopingTooltip; // 0xE0
-        public ÌÎÍÏÏÏÎÌÎÍÏÍÏÌÎÎÏÏÎÍÌÍÏ CaptureTooltip; // 0xE8
-        public ÌÎÍÏÏÏÎÌÎÍÏÍÏÌÎÎÏÏÎÍÌÍÏ AudioSourceTooltip; // 0xF0
-        public ÌÎÍÏÏÏÎÌÎÍÏÍÏÌÎÎÏÏÎÍÌÍÏ StreamingTooltip; // 0xF8
-        public UnityEngine.GameObject cineCameraModel; // 0x100
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ PointCountText; // 0x108
-        public bool ÌÌÍÏÎÌÏÌÍÌÌÏÌÏÎÌÍÍÎÏÍÎÏ; // 0x110
-        public bool ÎÎÏÌÌÎÏÌÌÏÎÏÏÌÌÍÌÌÎÌÏÎÏ; // 0x111
-        public bool <ÏÏÍÏÎÎÎÎÍÏÍÏÌÌÎÏÌÏÍÍÌÍÍ>k__BackingField; // 0x112
-        public bool ÎÎÍÎÌÌÏÍÎÍÍÍÌÌÎÌÌÌÍÌÏÎÎ; // 0x113
-        public bool ÌÎÏÎÎÌÏÌÏÎÎÌÍÎÎÍÍÏÌÌÏÍÌ; // 0x114
-        public bool ÏÎÎÌÎÍÍÍÏÍÏÏÎÍÍÌÍÎÎÌÍÌÍ; // 0x115
-        public bool ÌÍÏÎÎÎÏÍÌÌÎÍÍÍÏÏÏÌÍÏÍÏÍ; // 0x116
-        public bool ÌÏÎÍÌÏÌÏÏÌÏÎÌÌÎÍÌÍÏÌÌÏÍ; // 0x117
-        public bool ÌÎÎÍÎÌÍÍÏÎÏÏÌÎÎÏÎÎÍÏÍÍÏ; // 0x118
-        public bool ÍÌÏÌÍÎÍÎÍÎÎÌÏÏÎÌÎÍÏÍÌÎÏ; // 0x119
-        public bool ÏÍÍÌÏÌÌÍÏÎÎÎÏÌÎÏÎÏÎÎÎÌÍ; // 0x11A
-        public ÌÎÎÌÌÏÌÎÌÏÍÏÏÏÎÍÌÎÌÎÌÌÏ ÎÌÎÎÍÏÎÏÎÌÍÏÍÌÎÏÍÏÌÎÌÎÎ; // 0x120
-        public ÏÎÎÌÎÍÍÌÍÌÏÎÍÍÍÏÎÎÏÌÎÍÎ ÌÎÍÌÏÏÌÍÏÏÎÍÍÎÎÌÍÍÎÍÌÌÎ; // 0x128
-        public UnityEngine.Transform ÎÏÎÎÍÍÎÏÎÏÎÌÏÎÎÌÎÍÍÏÌÏÌ; // 0x130
-        public UnityEngine.Coroutine ÌÍÍÍÎÎÏÌÍÎÏÌÌÏÏÌÌÍÌÍÏÌÏ; // 0x138
-        public UnityEngine.Coroutine ÍÎÏÌÎÌÌÌÏÍÌÌÎÏÏÌÏÌÌÏÎÌÎ; // 0x140
-        public UnityEngine.Coroutine ÍÏÎÎÍÍÍÌÌÏÎÍÌÌÎÍÍÍÌÍÌÏÍ; // 0x148
-        public ÍÎÌÌÍÎÎÏÎÍÌÏÌÍÍÎÎÍÎÌÌÏÍ ÍÌÍÏÏÍÍÍÎÌÎÏÎÍÍÌÌÎÏÍÍÎÎ; // 0x150
-        public ÎÏÎÏÌÌÍÎÍÍÎÍÍÌÍÍÍÌÌÍÏÍÌ ÍÌÍÌÍÎÏÍÍÌÏÌÏÎÌÏÏÌÎÌÎÍÏ; // 0x158
-        public System.Collections.Generic.List`1<ÍÎÌÌÍÎÎÏÎÍÌÏÌÍÍÎÎÍÎÌÌÏÍ> ÎÎÍÍÎÏÌÍÌÌÎÎÏÍÌÍÏÍÏÎÌÏÍ; // 0x160
-        public int ÌÍÎÌÌÎÏÌÌÎÍÌÌÏÏÍÎÍÌÌÍÍÍ; // 0x168
-        public 0x6638B958 ÌÌÏÎÎÍÎÎÎÎÌÎÍÌÏÎÍÏÎÎÍÌÏ; // 0x16C
-        public 0x6638B9B0 ÌÍÌÏÌÌÌÌÌÏÏÏÍÎÏÎÍÎÎÎÌÌÍ; // 0x170
-        public 0x6638BA60 ÌÌÌÌÎÏÍÎÍÎÏÏÍÍÏÌÌÌÎÌÌÍÏ; // 0x174
-        public 0x6638BA08 ÎÏÏÎÎÌÍÍÏÌÏÏÎÏÏÌÎÏÏÍÍÏÏ; // 0x178
-        public X ÍÌÎÏÎÏÌÎÍÎÎÎÏÌÎÎÍÌÌÏÌÍÏ; // 0x17C
-        public 0x6638BAB8 ÍÍÍÍÏÍÌÎÎÌÏÌÍÌÍÎÍÍÍÌÍÍÏ; // 0x180
-        public 0x6638BB68 ÍÌÏÎÌÎÍÏÍÎÏÏÎÏÏÏÏÌÏÌÌÏÌ; // 0x184
-        public !P ÎÌÌÏÌÏÌÍÌÏÏÌÏÎÏÎÌÍÌÍÎÌÌ; // 0x188
-        public 0x6638B748 ÏÏÎÍÎÍÎÍÌÍÏÌÍÍÏÌÌÌÍÏÌÍÌ; // 0x18C
-        public 0x6638B7A0 ÎÏÌÍÍÏÏÌÎÍÍÍÎÌÎÏÎÌÏÎÏÏÎ; // 0x190
-        public UnityEngine.Vector3 ÍÍÎÌÍÌÍÌÌÌÏÎÍÌÌÎÏÌÏÏÌÏÌ; // 0x194
-        public UnityEngine.Quaternion ÌÎÍÎÎÏÏÌÏÌÎÌÌÌÏÍÍÎÍÌÍÌÎ; // 0x1A0
-        public float ÎÎÎÌÏÌÎÌÌÌÌÍÌÏÍÏÏÌÌÌÏÏÎ; // 0x1B0
-        public float ÏÌÍÌÌÎÏÍÎÏÌÏÏÏÎÏÎÏÏÍÌÌÌ; // 0x1B4
-        public float ÏÏÏÎÍÏÌÎÏÏÌÍÏÏÌÏÍÍÍÎÍÍÎ; // 0x1B8
-        public float ÎÏÌÎÍÎÏÎÎÏÌÏÎÏÌÏÍÍÎÍÌÎÌ; // 0x1BC
-        public float ÌÏÌÎÌÏÎÎÍÏÏÎÏÌÍÎÏÏÎÌÎÏÎ; // 0x1C0
-        public float ÍÏÎÌÎÍÎÍÍÏÏÌÎÎÌÌÌÏÏÍÏÍÌ; // 0x1C4
-        public float ÍÍÏÌÌÍÏÏÌÌÏÎÍÌÍÏÌÎÍÏÍÍÏ; // 0x1C8
-        public float ÌÎÏÌÌÏÏÏÌÏÌÎÎÏÎÎÌÏÌÏÌÍÍ; // 0x1CC
-        public float ÏÍÍÏÏÌÏÎÍÌÍÍÌÍÏÌÍÍÌÏÌÌÍ; // 0x1D0
-        public float ÍÍÌÍÏÏÎÎÌÌÎÎÎÌÍÎÌÎÎÌÏÍÍ; // 0x1D4
-        public bool ÏÏÏÏÌÎÌÌÏÍÎÌÎÏÌÏÌÌÍÌÏÍÎ; // 0x1D8
-        public int ÌÌÎÍÌÎÏÌÏÍÎÏÌÍÏÏÌÎÍÌÎÍÏ;
-        public System.Collections.Generic.List`1<UnityEngine.Camera> ÎÌÎÍÎÍÌÏÌÌÏÏÎÍÌÌÍÏÌÎÍÎÏ; // 0x1E0
-        public System.Collections.Generic.List`1<UnityEngine.RenderTexture> ÎÍÌÏÏÏÏÎÌÎÍÍÍÏÌÌÌÎÏÌÌÎÌ; // 0x1E8
-        public System.Collections.Generic.List`1<UnityEngine.Coroutine> ÏÎÏÎÎÎÎÎÌÎÌÌÍÎÍÌÌÏÎÏÏÏÎ; // 0x1F0
-        public 0x6638BCC8 ÍÍÌÎÌÏÌÏÎÌÎÍÎÌÎÏÎÎÎÏÏÏÏ; // 0x1F8
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_807;
+        public object f_B0B;
+        public object f_049;
+        public object f_F61;
+        public object f_524;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E808FA0
@@ -218,43 +133,17 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÎÏÏÎÍÏÍÎÌÌÎÎÏÍÏÏÏÎÍÏÍÏÍ</summary>
     public class ComplexComponent_0BF8 : MonoBehaviour
     {
-        public ÎÏÏÎÍÏÍÎÌÌÎÎÏÍÏÏÏÎÍÏÍÏÍ _destroyCancellationToken;
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.Generic.List`1<ÏÎÍÎÍÌÎÎÏÏÍÏÌÌÎÏÎÌÌÏÌÍÌ>> _useGUILayout; // 0x20
-        public System.Collections.Generic.List`1<ÏÎÍÎÍÌÎÎÏÏÍÏÌÌÎÏÎÌÌÏÌÍÌ> f_81F; // 0x28
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.Generic.List`1<ÏÎÍÎÍÌÎÎÏÏÍÏÌÌÎÏÎÌÌÏÌÍÌ>> f_306; // 0x30
-        public System.Collections.Generic.List`1<ÏÎÍÎÍÌÎÎÏÏÍÏÌÌÎÏÎÌÌÏÌÍÌ> f_F3B; // 0x38
-        public float f_4EB; // 0x40
-        public string f_911; // 0x48
-        public string f_AE5; // 0x50
-        public System.Collections.Generic.List`1<string> f_350; // 0x58
-        public ÍÏÌÌÏÍÎÌÍÌÍÌÎÎÌÍÏÏÍÍÎÏÌ f_BBF; // 0x60
-        public bool f_412; // 0x68
-        public System.IO.DirectoryInfo ÌÏÎÌÏÎÏÌÍÎÌÏÍÏÏÌÏÎÎÌÏÎÌ; // 0x70
-        public System.Collections.Generic.List`1<VRC.Core.ApiInfoPushSystem> ÎÎÏÏÎÎÏÍÎÎÏÏÏÌÍÏÎÏÏÏÎÎÌ; // 0x78
-        public string ÌÎÏÍÍÍÌÎÎÍÏÌÏÎÏÏÌÍÌÎÍÎÏ;
-        public string ÏÌÏÏÎÍÍÌÍÍÏÏÎÍÌÌÏÍÌÌÌÎÌ;
-        public System.Collections.Generic.Dictionary`2<string,System.Func`1<string>> ÌÏÏÌÌÍÌÎÍÍÎÏÍÎÏÎÍÌÎÌÌÍÌ; // 0x8
-        public string[] ÍÍÍÍÌÌÌÎÎÎÍÏÍÍÎÏÌÌÌÍÎÎÌ; // 0x10
-        public string[] ÏÌÏÏÌÍÌÏÎÏÎÍÏÎÍÎÍÏÌÍÌÍÎ; // 0x18
-        public string[] ÌÍÎÍÌÎÏÍÌÏÍÏÍÌÏÎÌÍÌÏÍÌÍ; // 0x20
-        public string[] ÏÍÎÏÏÏÌÎÏÌÏÍÏÌÌÌÎÍÍÌÏÏÍ; // 0x28
-        public string[] ÏÍÏÏÌÎÍÏÍÌÌÍÏÌÏÌÌÍÏÏÎÌÌ; // 0x30
-        public string[] ÎÌÍÍÍÌÌÎÏÎÏÏÎÍÎÌÍÍÎÏÍÎÌ; // 0x38
-        public string[] ÎÏÌÌÎÎÌÏÍÎÎÌÍÏÍÏÍÍÍÌÎÏÍ; // 0x40
-        public string[] ÏÎÌÏÎÎÍÍÏÌÌÍÍÌÍÍÌÍÏÏÌÌÏ; // 0x48
-        public string[] ÎÏÌÍÎÍÍÍÍÍÌÍÌÌÍÎÍÌÍÏÎÎÍ; // 0x50
-        public string[] ÎÎÎÎÏÏÍÏÏÏÍÏÎÌÍÍÍÍÏÌÏÌÍ; // 0x58
-        public string[] ÏÌÌÍÏÍÍÌÌÎÏÍÍÍÍÎÏÍÍÍÍÌÏ; // 0x60
-        public string[] ÏÎÍÍÏÎÍÌÍÎÌÍÏÍÏÏÍÌÍÍÍÌÌ; // 0x68
-        public string[] ÎÍÎÌÌÎÌÌÌÍÍÎÌÏÏÍÏÎÏÎÍÎÍ; // 0x70
-        public ÍÌÍÏÍÍÍÏÍÌÎÏÍÌÎÎÌÌÍÌÏÌÎ <ÏÏÎÌÏÏÍÍÎÏÌÎÍÍÍÌÍÎÎÌÏÌÌ>k__BackingField; // 0x80
-        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÌÌÏÌÏÏÍÏÍÌÎÎÌÌÏÌÌÍÍÌÍÏÌ>> <ÎÏÍÌÎÍÎÏÎÎÌÌÏÌÍÌÎÎÎÌÍÍÏ>k__BackingField; // 0x88
-        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÌÏÌÏÏÏÏÍÍÏÏÍÎÍÎÍÎÎÏÎÌÌÍ>> <ÌÏÎÌÍÏÍÎÏÏÌÎÌÌÌÎÌÍÏÍÍÏÌ>k__BackingField; // 0x90
-        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÎÎÌÏÎÍÏÍÎÌÍÎÏÌÍÎÎÏÌÏÏÏÍ>> <ÍÏÎÌÎÌÍÎÍÎÌÍÌÏÏÌÌÎÎÏÌÏÍ>k__BackingField; // 0x98
-        public System.Collections.Generic.List`1<ÎÎÌÏÎÍÏÍÎÌÍÎÏÌÍÎÎÏÌÏÏÏÍ> ÏÌÏÏÏÎÌÎÎÏÏÌÍÍÌÎÎÎÎÎÌÏÍ; // 0xA0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> <ÏÎÏÎÏÎÏÏÌÌÌÍÍÏÍÏÍÏÍÎÎÌÏ>k__BackingField; // 0xA8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> <ÌÌÌÏÌÎÍÎÍÌÍÍÎÎÌÎÌÏÏÏÏÏÌ>k__BackingField; // 0xB0
-        public ÍÌÍÏÍÍÍÏÍÌÎÏÍÌÎÎÌÌÍÌÏÌÎ <ÎÍÌÍÍÏÏÎÌÎÎÏÎÎÌÍÍÍÌÌÎÎÌ>k__BackingField; // 0xB8
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_81F;
+        public object f_306;
+        public object f_F3B;
+        public object f_4EB;
+        public object f_911;
+        public object f_AE5;
+        public object f_350;
+        public object f_BBF;
+        public object f_412;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EBD6DD0
@@ -364,75 +253,32 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÌÎÎÌÌÏÌÎÌÏÍÏÏÏÎÍÌÎÌÎÌÌÏ</summary>
     public class ComplexComponent_12D5 : MonoBehaviour
     {
-        public ÌÎÎÌÌÏÌÎÌÏÍÏÏÏÎÍÌÎÌÎÌÌÏ _destroyCancellationToken;
-        public ÎÌÏÏÍÌÎÌÍÎÌÏÍÏÎÎÏÏÏÍÌÍÏ _useGUILayout; // 0x20
-        public ÏÌÎÏÎÌÍÍÌÌÍÍÏÏÍÏÎÎÌÌÍÏÎ f_396; // 0x28
-        public ÌÎÏÎÍÌÌÏÏÌÍÍÎÏÏÎÍÏÎÎÌÏÎ f_13E; // 0x30
-        public ÎÌÎÎÏÏÏÍÎÏÍÎÎÌÍÍÌÍÌÍÎÌÍ f_6FA; // 0x38
-        public ÌÍÎÎÏÎÌÌÌÎÍÏÏÏÌÌÏÌÏÍÏÌÌ f_46C; // 0x40
-        public ÏÏÏÌÌÍÎÌÍÏÏÎÎÍÌÌÍÏÎÌÌÍÍ f_61E; // 0x48
-        public ÌÏÎÍÌÌÍÎÌÍÍÏÏÎÌÍÎÏÍÌÍÎÎ f_97A; // 0x50
-        public ÏÏÏÎÎÍÎÎÏÌÍÌÌÏÍÌÏÍÎÌÏÏÌ f_E15; // 0x58
-        public UnityEngine.Transform f_E90; // 0x60
-        public VRC.SDKBase.VRC_Pickup f_020; // 0x68
-        public VRC.SDKBase.VRC_Pickup f_085; // 0x70
-        public UnityEngine.GameObject f_893; // 0x78
-        public float f_9B8; // 0x80
-        public UnityEngine.Material f_073; // 0x88
-        public UnityEngine.Material f_F98; // 0x90
-        public UnityEngine.Transform f_36A; // 0x98
-        public UnityEngine.MeshRenderer f_208; // 0xA0
-        public UnityEngine.MeshRenderer f_554; // 0xA8
-        public UnityEngine.Material[] f_5CE; // 0xB0
-        public UnityEngine.Material[] f_602; // 0xB8
-        public UnityEngine.GameObject f_AA9; // 0xC0
-        public UnityEngine.Material f_829; // 0xC8
-        public UnityEngine.AudioSource f_B76; // 0xD0
-        public UnityEngine.AudioSource f_739; // 0xD8
-        public UnityEngine.AudioClip f_686; // 0xE0
-        public UnityEngine.AudioClip ÌÍÎÎÎÌÍÎÏÎÌÎÍÌÏÎÎÌÎÎÏÌÏ; // 0xE8
-        public UnityEngine.AudioClip ÏÏÍÎÎÎÌÌÌÏÏÍÎÌÍÍÌÌÌÏÏÌÌ; // 0xF0
-        public ÌÌÏÏÌÍÎÏÏÌÌÏÍÍÌÏÏÏÎÎÎÏÎ TimerButton; // 0xF8
-        public VRC.UserCamera.CameraPreset ÍÏÍÎÍÎÎÌÌÏÎÌÏÎÌÍÌÌÏÏÏÍÏ; // 0x100
-        public VRC.UserCamera.CameraPin[] ÍÌÍÏÎÏÏÍÎÎÌÍÌÏÏÏÌÏÍÍÌÌÍ; // 0x108
-        public float ÎÌÏÌÍÌÏÏÎÏÎÎÎÏÎÏÏÏÎÍÏÎÏ; // 0x110
-        public float ÌÍÌÏÏÌÌÌÎÎÏÎÍÌÍÏÏÍÌÌÎÍÍ; // 0x114
-        public float ÍÍÍÎÌÍÌÍÌÎÏÏÌÍÌÏÎÎÎÍÏÌÌ; // 0x118
-        public bool ÌÌÌÏÍÌÍÌÎÌÏÍÌÏÍÌÎÎÏÌÌÌÌ; // 0x11C
-        public bool ÏÏÌÍÌÌÍÎÌÍÌÎÍÍÎÌÏÎÌÏÎÏÍ; // 0x11D
-        public bool ÎÏÌÍÎÏÌÏÎÍÏÍÌÎÍÌÎÎÏÏÏÌÍ; // 0x11E
-        public ÏÌÎÍÍÌÍÏÌÎÏÏÌÌÌÍÏÌÎÏÏÎÌ ÎÎÏÎÎÏÎÎÌÌÏÌÌÎÎÌÎÍÍÌÏÍÌ; // 0x120
-        public UnityEngine.Material ÌÏÏÎÎÌÎÍÎÍÌÎÌÎÎÌÌÌÏÌÎÌÏ; // 0x128
-        public UnityEngine.Material ÏÍÎÎÍÌÎÎÎÎÏÎÎÌÏÌÎÍÌÏÌÍÎ; // 0x130
-        public UnityEngine.RectTransform ÍÍÎÎÌÌÎÍÌÎÏÌÎÌÏÏÏÌÎÏÎÍÏ; // 0x138
-        public UnityEngine.GameObject ÌÏÏÎÎÎÎÎÎÌÏÎÍÎÏÍÏÎÌÍÌÍÏ; // 0x140
-        public UnityEngine.Material[] ÎÎÍÌÎÏÌÎÍÎÎÍÌÎÏÎÎÍÎÍÍÍÍ; // 0x148
-        public VRC.Localization.LocalizableString[] ÍÌÌÌÌÍÎÌÏÍÎÎÏÎÌÏÍÌÎÏÌÎÍ; // 0x150
-        public VRC.UserCamera.CameraPreset[] ÍÍÍÎÏÍÌÎÎÎÎÏÏÍÎÌÎÏÏÍÌÌÌ; // 0x158
-        public UnityEngine.Camera <ÍÍÎÌÏÌÏÎÎÏÍÎÎÎÎÏÌÌÍÌÍÎÍ>k__BackingField; // 0x160
-        public !P ÌÍÌÍÎÏÎÌÍÏÌÌÎÍÏÍÏÎÎÍÍÏÎ; // 0x168
-        public bool ÎÍÏÍÍÌÍÎÍÌÏÌÏÍÌÍÎÎÏÎÍÎÎ; // 0x16C
-        public bool <ÌÌÌÌÍÍÎÎÍÏÌÍÌÎÏÏÏÍÎÏÌÎÏ>k__BackingField; // 0x16D
-        public 0x6638B748 ÌÏÍÌÌÎÎÏÍÌÍÌÏÏÌÏÌÎÎÌÏÎÏ; // 0x170
-        public bool ÎÏÍÍÏÎÌÍÍÍÏÍÌÍÏÌÌÎÎÎÍÍÏ; // 0x174
-        public 0x6638B7A0 ÌÍÍÌÍÍÏÏÏÏÏÍÎÎÏÍÏÍÌÏÏÏÌ; // 0x178
-        public int ÎÏÌÌÏÏÎÏÌÌÌÍÍÌÍÎÎÌÏÍÏÌÎ; // 0x17C
-        public int ÎÏÎÌÎÍÌÎÍÏÌÎÌÌÌÏÏÍÌÏÏÍÌ; // 0x180
-        public int ÏÍÌÏÌÏÍÍÍÍÍÌÌÌÌÌÏÍÏÎÎÍÌ; // 0x184
-        public 0x6638B850 ÎÎÎÍÌÌÏÏÎÏÎÎÎÍÎÍÏÌÎÍÌÎÎ; // 0x188
-        public System.Nullable`1<0x664C9358> ÏÏÌÏÌÎÍÏÎÌÎÍÌÎÌÏÌÏÍÏÌÎÏ; // 0x18C
-        public System.Nullable`1<0x664C9358> ÏÌÏÌÍÎÍÍÎÍÎÎÍÏÌÏÎÌÌÌÌÏÏ; // 0x194
-        public 0x6638B900 <ÏÏÍÎÍÎÍÏÏÍÎÍÍÎÏÎÍÍÌÌÌÌÎ>k__BackingField; // 0x19C
-        public float <ÏÏÌÎÌÍÌÌÌÍÎÏÍÍÏÌÏÏÎÎÌÌÎ>k__BackingField; // 0x1A0
-        public UnityEngine.Transform ÌÏÍÎÍÏÎÎÍÌÌÎÎÏÏÍÍÌÎÎÍÏÌ; // 0x1A8
-        public bool ÌÎÎÏÎÎÏÌÍÎÍÎÌÎÌÎÏÎÍÏÎÍÌ; // 0x1B0
-        public int ÏÌÌÏÎÏÍÎÎÌÌÍÌÎÌÍÌÌÏÌÌÌÍ; // 0x1B4
-        public bool ÍÏÏÍÏÏÌÌÌÍÎÍÎÎÍÍÎÎÌÎÌÍÏ; // 0x1B8
-        public UnityEngine.Coroutine ÏÏÎÎÍÍÌÎÎÏÍÍÏÍÏÎÍÍÌÎÎÍÌ; // 0x1C0
-        public UnityEngine.Vector2Int ÍÏÏÍÌÌÎÌÌÎÎÎÏÎÌÍÎÌÌÍÍÌÍ; // 0x8
-        public UnityEngine.Vector2Int ÎÏÌÍÏÎÌÏÎÍÍÌÏÍÏÍÍÎÍÌÏÍÎ; // 0x10
-        public bool <ÎÎÌÌÌÍÍÏÏÍÌÍÍÎÍÎÏÍÏÎÏÌÎ>k__BackingField; // 0x1C8
-        public bool <ÎÏÌÌÎÏÏÍÏÍÍÍÍÍÍÎÏÏÎÍÎÎÏ>k__BackingField; // 0x1C9
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_396;
+        public object f_13E;
+        public object f_6FA;
+        public object f_46C;
+        public object f_61E;
+        public object f_97A;
+        public object f_E15;
+        public object f_E90;
+        public object f_020;
+        public object f_085;
+        public object f_893;
+        public object f_9B8;
+        public object f_073;
+        public object f_F98;
+        public object f_36A;
+        public object f_208;
+        public object f_554;
+        public object f_5CE;
+        public object f_602;
+        public object f_AA9;
+        public object f_829;
+        public object f_B76;
+        public object f_739;
+        public object f_686;
 
         // ── Methods ──
         public void get_HttpProxy(){} // RVA: 0x7FFD4E7C98A0
@@ -547,84 +393,10 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÌÏÎÏÌÌÎÌÏÎÍÍÏÌÏÍÍÏÍÏÏÍÌ</summary>
     public class ComplexComponent_29A6 : MonoBehaviour
     {
-        public UnityEngine.GameObject _destroyCancellationToken; // 0x20
-        public UnityEngine.UI.Button _useGUILayout; // 0x28
-        public UnityEngine.GameObject f_06F; // 0x30
-        public UnityEngine.GameObject f_889; // 0x38
-        public UnityEngine.GameObject ÍÏÏÎÌÎÎÏÎÌÏÎÍÎÏÌÎÏÏÌÏÎÌ; // 0x40
-        public UnityEngine.GameObject ÏÏÎÎÎÌÏÍÎÎÏÎÏÎÏÏÌÏÌÌÌÏÌ; // 0x48
-        public UnityEngine.GameObject ÌÏÌÍÏÍÌÌÍÍÏÎÍÌÎÌÌÍÍÌÎÍÍ; // 0x50
-        public UnityEngine.GameObject ÌÌÍÍÍÏÍÎÏÌÏÏÎÍÏÌÍÏÌÎÎÌÌ; // 0x58
-        public UnityEngine.GameObject ÎÌÌÍÎÎÌÌÍÎÍÎÌÏÏÎÌÌÌÍÍÎÏ; // 0x60
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÏÍÏÍÎÏÌÏÍÏÏÏÍÏÎÎÌÍÏÍÎÏÍ; // 0x68
-        public UnityEngine.CanvasGroup ÍÎÌÎÎÏÍÌÎÌÎÍÏÎÍÏÍÏÌÏÌÎÎ; // 0x70
-        public UnityEngine.CanvasGroup ÍÏÎÏÌÎÎÍÎÏÌÍÍÌÍÌÏÎÏÌÌÍÎ; // 0x78
-        public ÎÌÌÏÍÍÏÏÏÌÍÏÎÎÏÏÌÌÍÎÏÏÎ ÎÎÍÍÌÌÎÏÎÏÍÎÌÏÌÏÍÏÎÎÍÍÏ; // 0x80
-        public ÎÍÏÏÎÌÏÎÌÌÎÎÏÍÍÎÍÍÏÌÎÏÍ ÌÎÎÎÏÎÏÏÍÌÌÎÌÎÍÍÎÏÎÏÎÌÎ; // 0x88
-        public System.Collections.Generic.List`1<ÏÍÏÏÎÌÏÏÍÌÍÌÌÎÏÌÍÎÌÌÍÍÍ> ÎÏÍÌÎÌÎÌÎÏÍÌÏÍÏÍÌÍÌÏÍÎÏ; // 0x90
-        public bool ÌÏÌÍÌÏÎÏÌÍÏÌÌÏÌÏÎÎÎÏÍÌÌ; // 0x98
-        public bool ÍÏÍÍÏÎÍÏÏÍÌÏÌÏÎÌÍÍÌÏÍÏÏ; // 0x99
-        public bool ÏÎÍÌÍÌÍÏÎÎÌÌÍÌÎÌÍÌÏÎÍÌÏ; // 0x9A
-        public ÎÌÍÍÎÎÎÍÌÌÍÌÍÌÎÏÏÍÍÍÍÌÌ ÎÍÏÏÏÏÏÏÏÌÏÎÍÏÌÍÌÎÌÍÌÍÍ; // 0xA0
-        public System.Collections.Generic.List`1<UnityEngine.GameObject> ÏÍÎÍÎÌÍÍÍÎÍÌÎÎÌÌÌÌÌÍÏÏÌ; // 0xA8
-        public System.Action`2<Control,bool> ÍÌÏÌÌÎÎÍÍÌÏÎÍÌÌÍÌÌÌÎÍÍÍ; // 0xB0
-        public System.Action ÍÌÌÌÎÌÏÏÎÏÍÏÏÏÏÏÎÍÎÌÏÎÌ; // 0xB8
-        public System.Action ÌÎÎÍÎÏÍÏÍÌÏÎÏÎÍÌÎÌÌÌÌÍÌ; // 0xC0
-        public VRC.Localization.LocalizableString ÍÏÏÏÍÌÏÎÍÌÌÌÏÏÌÏÎÍÎÌÎÌÏ;
-        public ÎÌÍÎÎÌÌÌÎÌÌÏÍÌÎÍÍÎÍÏÎÎÏ ÏÌÎÌÍÌÍÌÏÏÍÍÏÍÍÍÎÌÎÌÏÏÌ; // 0xC8
-        public VRC.Localization.LocalizableString[] ÌÏÎÌÎÌÏÍÍÍÌÌÏÍÎÌÌÎÏÍÌÎÌ; // 0xD0
-        public VRC.Localization.LocalizableString[] ÍÌÏÎÌÌÌÏÌÌÏÌÎÎÌÌÎÏÏÎÌÌÌ; // 0xD8
-        public ÎÎÌÍÎÏÌÍÎÎÏÎÎÌÌÌÌÍÎÍÎÏÍ ÎÎÎÎÏÍÌÎÎÍÌÏÌÌÏÎÍÌÍÏÍÍÎ; // 0xE0
-        public System.Action ÌÏÏÎÏÏÎÌÍÍÍÌÏÍÎÎÎÍÏÍÎÍÌ; // 0xE8
-        public VRC.SDK3.Components.VRCUiShape _uiShape; // 0xF0
-        public UnityEngine.BoxCollider _raycastCollider; // 0xF8
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÏÍÏÏÌÏÌÍÏÏÌÍÌÎÎÏÎÏÌÌÏÎÍ; // 0x100
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÏÎÌÌÏÎÍÍÎÏÏÏÍÌÍÍÏÏÌÌÍÏÏ; // 0x108
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÍÎÏÎÌÏÏÏÌÌÍÏÏÎÍÍÌÌÍÌÏÌÌ; // 0x110
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÏÌÏÎÌÎÌÍÎÍÎÎÎÌÍÍÏÌÎÎÌÎÌ; // 0x118
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÍÏÌÌÏÎÍÎÏÌÏÌÎÌÍÌÌÌÍÎÎÌÏ; // 0x120
-        public float ÎÌÏÌÎÌÎÏÌÏÎÏÎÌÍÌÍÌÌÌÌÌÎ;
-        public float ÎÏÏÏÌÎÎÌÌÎÍÍÌÎÍÏÍÏÍÏÌÏÏ;
-        public float ÌÎÎÎÏÏÌÏÏÍÍÍÍÍÏÎÏÎÎÎÎÎÏ;
-        public ÏÍÏÏÎÌÏÏÍÌÍÌÌÎÏÌÍÎÌÌÍÍÍ ÎÌÌÏÏÎÍÌÍÏÌÏÍÌÍÎÌÎÌÍÏÎÌ; // 0x128
-        public ÏÍÏÏÎÌÏÏÍÌÍÌÌÎÏÌÍÎÌÌÍÍÍ ÏÍÎÍÌÏÎÏÍÍÍÌÌÌÌÌÏÍÍÍÏÎÍ; // 0x130
-        public 0x66349278 ÎÌÍÎÍÎÌÍÏÎÎÎÍÎÍÏÍÌÍÌÏÌÎ; // 0x138
-        public bool ÏÌÌÌÎÎÍÌÏÌÌÏÍÍÎÏÍÌÌÏÍÍÍ; // 0x13C
-        public bool ÌÌÎÎÎÍÏÎÍÍÌÎÍÎÏÌÏÏÍÏÎÌÍ; // 0x13D
-        public bool ÎÌÍÍÎÏÍÎÌÍÍÏÏÍÏÍÏÍÏÎÏÌÍ; // 0x13E
-        public UnityEngine.Vector2 ÌÏÏÏÍÍÌÍÎÌÌÌÎÎÎÌÏÎÎÏÍÏÏ; // 0x140
-        public UnityEngine.Vector3 ÏÏÍÎÌÎÏÍÌÏÎÏÍÍÏÌÌÏÏÏÏÍÏ; // 0x148
-        public float ÏÍÍÍÎÎÌÍÌÎÌÍÎÌÌÏÌÏÌÏÎÌÌ;
-        public float ÎÎÌÍÌÌÏÌÌÍÌÌÎÍÌÌÏÏÎÍÎÎÎ;
-        public float ÍÌÌÎÍÍÎÎÎÎÏÌÌÍÏÏÌÎÌÌÍÍÏ;
-        public float ÍÏÍÏÍÏÍÍÎÏÍÍÏÏÏÏÍÏÎÍÌÏÏ;
-        public ÍÎÌÍÏÏÌÍÍÍÍÍÍÏÏÎÏÎÌÏÍÎÎ ÎÌÌÌÌÎÎÏÏÍÍÍÌÏÌÌÏÌÎÌÏÎÏ; // 0x158
-        public ÏÎÍÍÍÏÎÏÍÌÌÍÌÏÎÏÎÎÏÌÌÌÎ ÍÎÌÎÌÌÎÌÏÎÌÌÍÎÍÎÏÎÍÍÎÏÌ; // 0x160
-        public UnityEngine.GameObject ÏÌÎÏÎÌÎÎÌÌÍÏÌÎÌÎÎÏÍÎÌÍÌ; // 0x168
-        public System.Collections.Generic.List`1<UnityEngine.GameObject> ÎÌÌÍÎÎÍÎÍÏÌÎÎÍÍÎÎÏÎÍÏÌÌ; // 0x170
-        public System.Collections.Generic.List`1<ÌÏÍÏÍÏÎÌÌÎÌÌÌÎÍÌÏÌÎÎÌÎÎ> ÎÍÍÍÍÌÍÌÎÌÍÏÍÍÍÏÎÏÎÎÍÏÎ; // 0x178
-        public VRC.Localization.LocalizableString ÌÌÍÏÍÎÎÌÌÎÎÍÌÍÎÏÌÎÍÌÌÌÏ; // 0x180
-        public VRC.Localization.LocalizableString ÏÏÎÌÏÏÍÌÎÏÏÍÏÍÎÍÌÎÍÏÏÏÎ; // 0x1A8
-        public VRC.Localization.LocalizableString ÎÏÍÏÏÏÏÏÍÏÎÌÎÍÌÎÎÌÎÌÍÍÎ; // 0x1D0
-        public ÏÎÌÍÏÎÎÎÍÏÏÌÌÎÌÎÎÌÍÎÍÌÎ ÍÏÏÎÌÏÏÌÌÏÏÏÌÍÍÏÏÎÎÏÍÍÍ; // 0x1F8
-        public ÍÏÍÍÌÍÏÌÏÏÍÍÌÎÏÏÍÌÏÎÎÏÍ ÌÏÍÎÌÍÍÎÍÏÏÍÏÍÍÌÏÏÏÌÍÌÍ; // 0x200
-        public ÏÍÍÍÍÏÏÏÍÍÌÍÎÌÎÌÌÎÏÌÏÌÎ ÎÏÌÎÌÎÎÎÎÏÌÍÎÎÏÏÍÏÎÍÍÏÌ; // 0x208
-        public string ÎÍÏÍÍÌÌÌÍÏÎÏÍÏÏÌÍÍÎÏÌÌÍ;
-        public string ÏÏÎÍÌÎÌÎÌÍÍÌÌÎÌÎÌÍÏÏÏÏÌ;
-        public string ÏÍÌÎÌÍÍÍÍÏÏÏÌÎÍÍÍÍÏÌÎÌÍ;
-        public bool ÌÏÎÏÌÍÏÏÌÌÎÏÌÌÏÍÏÍÎÍÍÍÏ; // 0x210
-        public UnityEngine.Vector2 ÏÍÏÎÎÍÍÌÍÎÌÏÏÎÏÌÏÎÍÎÍÌÍ; // 0x214
-        public System.Action ÎÏÏÎÏÏÎÍÏÍÎÍÏÌÎÎÎÏÌÌÏÍÍ; // 0x220
-        public float ÎÏÍÍÎÎÍÍÌÌÌÍÏÏÌÎÏÏÍÎÌÍÌ;
-        public string ÎÍÎÎÎÍÏÌÍÏÍÏÏÌÌÎÎÎÏÏÍÌÌ;
-        public ÏÎÍÍÍÏÎÏÍÌÌÍÌÏÎÏÎÎÏÌÌÌÎ ÍÍÍÍÎÍÎÍÍÍÎÎÍÍÍÏÎÌÎÎÍÏÌ; // 0x228
-        public ÏÎÍÍÍÏÎÏÍÌÌÍÌÏÎÏÎÎÏÌÌÌÎ ÌÎÌÎÎÏÎÌÏÎÎÎÎÏÎÎÎÎÍÍÍÏÏ; // 0x230
-        public string ÏÏÏÍÎÎÌÍÏÏÎÌÍÍÌÏÏÌÎÏÏÌÏ;
-        public VRC.Localization.LocalizableString ÏÎÌÍÎÏÏÌÍÎÎÍÎÎÍÌÌÍÏÌÍÌÎ; // 0x28
-        public VRC.Localization.LocalizableString ÍÌÎÍÎÍÏÌÏÎÍÍÎÏÎÌÌÏÏÌÍÏÌ; // 0x50
-        public VRC.Localization.LocalizableString ÏÎÌÍÍÌÏÌÍÎÌÏÏÌÏÏÍÎÌÌÏÌÎ; // 0x78
-        public VRC.Localization.LocalizableString ÎÎÍÍÍÍÌÎÏÌÏÍÎÍÍÌÎÎÍÌÌÏÎ; // 0xA0
-        public ÌÏÌÍÏÍÍÎÍÎÎÏÌÎÍÏÍÍÍÎÌÎÌ ÏÏÎÎÎÍÎÌÏÏÌÎÏÌÍÏÎÏÎÎÍÏÍ; // 0x238
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_06F;
+        public object f_889;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F110B10
@@ -809,164 +581,8 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÌÏÎÍÌÍÌÌÎÍÎÍÏÎÌÎÌÏÍÌÏÏÍ</summary>
     public class ComplexComponent_49D1 : MonoBehaviour
     {
-        public int _destroyCancellationToken;
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _useGUILayout; // 0x20
-        public UnityEngine.UI.LayoutElement _usernameLayoutElement; // 0x28
-        public int ÌÏÍÌÍÎÎÍÏÌÍÏÎÎÌÎÏÎÏÍÏÎÍ;
-        public int ÍÌÍÏÏÌÌÌÏÌÌÎÌÍÍÌÏÍÏÌÏÌÎ;
-        public ÍÏÌÎÌÍÎÍÎÎÍÌÏÌÌÌÏÍÍÍÍÌÍ _scrollRect; // 0x30
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _status; // 0x38
-        public ÎÌÏÎÌÌÏÍÍÍÏÍÏÌÏÍÏÍÏÏÏÏÎ _statusIcon; // 0x40
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ _statusTooltip; // 0x48
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _pronouns; // 0x50
-        public UnityEngine.UI.Button _pronounsButton; // 0x58
-        public UnityEngine.GameObject _pronounsHeaderGameObject; // 0x60
-        public UnityEngine.GameObject _walletContentsButton; // 0x68
-        public ÌÍÌÌÎÌÍÌÎÍÎÍÍÏÍÏÍÏÍÏÌÎÏ _profileAvatarImage; // 0x70
-        public UnityEngine.GameObject _streamerModeUserImage; // 0x78
-        public ÌÏÎÎÎÍÌÌÏÌÌÏÍÏÏÎÌÌÏÎÎÏÌ _profileIconImage; // 0x80
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _defaultUserIconText; // 0x88
-        public ÍÏÍÏÍÏÌÍÍÍÏÏÍÏÌÎÎÎÍÌÎÏÍ _editProfileImageButton; // 0x90
-        public ÍÏÍÏÍÏÌÍÍÍÏÏÍÏÌÎÎÎÍÌÎÏÍ _editProfileIconButton; // 0x98
-        public UnityEngine.GameObject _editIconModalPrefab; // 0xA0
-        public UnityEngine.GameObject _editPictureModalPrefab; // 0xA8
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ _editPictureTooltip; // 0xB0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _worldName; // 0xB8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _worldInstance; // 0xC0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _playerCount; // 0xC8
-        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ _worldInstanceThumbnailImage; // 0xD0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _socialRank; // 0xD8
-        public ÍÍÎÍÌÌÍÍÏÏÌÎÌÌÎÍÏÌÏÏÏÏÍ _editStatusButton; // 0xE0
-        public UnityEngine.RectTransform _socialRankLayoutContainer; // 0xE8
-        public UnityEngine.UI.Toggle _toggleDisplaySocialRank; // 0xF0
-        public ÍÎÎÍÍÍÏÏÍÌÏÎÎÏÍÌÌÍÎÌÏÌÏ _socialRankIcon; // 0xF8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _socialRankDisplayedText; // 0x100
-        public ÎÌÏÎÍÎÏÌÍÌÍÌÎÌÎÎÍÌÏÎÏÏÏ _socialRankToggleTooltip; // 0x108
-        public ÎÌÌÏÎÎÌÏÌÍÍÏÎÍÎÍÍÎÌÍÍÌÌ _editAgeVerificationStatusButton; // 0x110
-        public UnityEngine.GameObject _locationContainer; // 0x118
-        public UnityEngine.GameObject _publicLocation; // 0x120
-        public UnityEngine.GameObject _privateLocation; // 0x128
-        public UnityEngine.GameObject _unavailableLocation; // 0x130
-        public UnityEngine.GameObject _offlineLocation; // 0x138
-        public UnityEngine.GameObject _streamerModeLocation; // 0x140
-        public ÎÌÎÍÍÏÏÌÍÍÍÏÍÏÏÏÎÏÏÏÍÎÌ _regionIcon; // 0x148
-        public ÏÏÌÎÏÏÌÏÌÌÏÏÍÏÍÎÍÌÌÎÍÌÍ _ageGateIcon; // 0x150
-        public UnityEngine.GameObject _unknownRegionIcon; // 0x158
-        public UnityEngine.UI.Image _privateLocationImage; // 0x160
-        public UnityEngine.UI.Image _offlineLocationImage; // 0x168
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _privateLocationText; // 0x170
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _offlineLocationText; // 0x178
-        public UnityEngine.UI.Button _backButton; // 0x180
-        public UnityEngine.UI.Button _joinButton; // 0x188
-        public UnityEngine.UI.Button _inviteButton; // 0x190
-        public UnityEngine.UI.Button _requestInviteButton; // 0x198
-        public UnityEngine.UI.Button _favoriteButton; // 0x1A0
-        public UnityEngine.UI.Button _unfavoriteButton; // 0x1A8
-        public ÏÍÏÍÎÌÌÏÏÍÍÍÏÌÍÍÎÍÏÍÌÍÍ _friendButton; // 0x1B0
-        public UnityEngine.UI.Button _unfriendButton; // 0x1B8
-        public UnityEngine.UI.Button _unblockButton; // 0x1C0
-        public UnityEngine.UI.Button _boopButton; // 0x1C8
-        public UnityEngine.UI.Button _modButton; // 0x1D0
-        public UnityEngine.UI.Button _reportButton; // 0x1D8
-        public UnityEngine.UI.Button _viewWorldDetails; // 0x1E0
-        public UnityEngine.UI.Button _giftVRChatPlus; // 0x1E8
-        public UnityEngine.UI.Button _viewOnWebsite; // 0x1F0
-        public UnityEngine.UI.Button _addNoteButton; // 0x1F8
-        public UnityEngine.UI.Button _inviteToGroupButton; // 0x200
-        public UnityEngine.UI.Button _viewAvatarDetails; // 0x208
-        public UnityEngine.UI.Button _editProfileButton; // 0x210
-        public ÎÍÏÎÎÍÎÌÌÏÏÍÌÎÌÎÍÎÍÎÏÎÏ _viewSharedConnectionsButton; // 0x218
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _viewSharedConnectionsText; // 0x220
-        public ÍÍÏÏÏÌÎÎÌÌÍÌÎÍÍÌÎÍÏÍÎÌÌ _bioField; // 0x228
-        public UnityEngine.UI.Button _bioFieldButton; // 0x230
-        public UnityEngine.GameObject _addABioPanel; // 0x238
-        public UnityEngine.UI.ScrollRect _bioScrollView; // 0x240
-        public ÍÍÏÏÏÌÎÎÌÌÍÌÎÍÍÌÎÍÏÍÎÌÌ _notes; // 0x248
-        public UnityEngine.UI.Button _notesButton; // 0x250
-        public UnityEngine.GameObject _noteTextGameObject; // 0x258
-        public UnityEngine.GameObject _noteHeaderGameObject; // 0x260
-        public ÌÌÍÍÏÌÏÏÏÌÏÍÍÏÎÌÌÌÎÍÎÏÏ _badgesListBinding; // 0x268
-        public UnityEngine.GameObject _viewAllBadgesButton; // 0x270
-        public ÎÎÏÏÌÎÎÏÍÌÍÏÎÏÏÏÍÎÌÍÌÍÍ _groupProfileButton; // 0x278
-        public UnityEngine.GameObject _groupsPanel; // 0x280
-        public UnityEngine.GameObject _emptyGroupsPanel; // 0x288
-        public UnityEngine.GameObject _showAllGroupsButton; // 0x290
-        public UnityEngine.GameObject _GroupsPrefab; // 0x298
-        public ÎÍÎÎÎÌÏÎÍÏÌÍÎÎÍÌÏÎÎÏÌÍÍ[] _languages; // 0x2A0
-        public UnityEngine.GameObject _emptyLanguagesPanel; // 0x2A8
-        public ÍÎÏÏÌÏÌÎÏÏÍÌÍÌÌÍÎÍÍÏÏÌÍ[] _links; // 0x2B0
-        public UnityEngine.GameObject _emptyLinksPanel; // 0x2B8
-        public UnityEngine.GameObject _friendRequestPanel; // 0x2C0
-        public UnityEngine.UI.Button _acceptFriendRequestButton; // 0x2C8
-        public UnityEngine.UI.Button _declineFriendRequestButton; // 0x2D0
-        public UnityEngine.Texture _kickIcon; // 0x2D8
-        public UnityEngine.Texture _muteIcon; // 0x2E0
-        public UnityEngine.Texture _muteChatboxIcon; // 0x2E8
-        public UnityEngine.Texture _blockIcon; // 0x2F0
-        public UnityEngine.Texture _reportIcon; // 0x2F8
-        public UnityEngine.Texture _warnIcon; // 0x300
-        public UnityEngine.Texture _groupIcon; // 0x308
-        public UnityEngine.Sprite _offlineIcon; // 0x310
-        public UnityEngine.Sprite _activeOnWebIcon; // 0x318
-        public UnityEngine.Sprite _mobileIcon; // 0x320
-        public UnityEngine.GameObject _actionsContainer; // 0x328
-        public ÌÌÎÍÍÌÌÍÏÍÍÍÏÌÍÍÎÍÍÎÌÌÎ ÏÏÎÏÎÎÏÌÌÎÏÍÌÏÌÌÍÎÏÍÏÎÎ; // 0x330
-        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÎÎÏÏÍÌÌÌÍÍÏÌÎÌÏÏÏÎÍÌÌÏÌ; // 0x338
-        public ÍÍÎÍÍÍÍÎÏÎÏÏÏÍÎÍÏÌÎÍÌÍÍ ÌÌÏÏÏÌÍÌÌÍÌÎÍÍÎÌÍÌÎÌÏÎÎ; // 0x340
-        public UnityEngine.GameObject _avatarsRow; // 0x348
-        public UnityEngine.GameObject _worldsRow; // 0x350
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _worldLabel; // 0x358
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _avatarLabel; // 0x360
-        public ÏÏÎÎÍÎÎÌÏÍÏÍÍÎÎÍÍÍÎÌÍÍÍ _avatarsListBinding; // 0x368
-        public ÏÏÎÎÍÎÎÌÏÍÏÍÍÎÎÍÍÍÎÌÍÍÍ _worldsListBinding; // 0x370
-        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ _playlistsListBinding; // 0x378
-        public ÌÎÍÌÏÏÌÍÌÌÍÏÎÏÎÏÍÏÏÍÍÏÌ _avatarsSortByDropdown; // 0x380
-        public ÌÎÍÌÏÏÌÍÌÌÍÏÎÏÎÏÍÏÏÍÍÏÌ _worldsSortByDropdown; // 0x388
-        public UnityEngine.GameObject _avatarPrefab; // 0x390
-        public UnityEngine.GameObject _worldPrefab; // 0x398
-        public UnityEngine.GameObject _viewMorePrefab; // 0x3A0
-        public UnityEngine.GameObject _playlistPrefab; // 0x3A8
-        public UnityEngine.CanvasGroup ÌÌÎÎÏÍÌÍÏÏÍÎÌÎÌÍÌÎÏÎÎÍÎ; // 0x3B0
-        public UnityEngine.CanvasGroup ÏÏÏÏÏÌÌÍÍÏÌÌÏÎÍÌÌÍÎÏÎÍÏ; // 0x3B8
-        public UnityEngine.UI.LayoutElement ÍÏÏÌÎÍÌÎÎÏÍÍÎÌÌÏÍÏÏÏÌÏÍ; // 0x3C0
-        public UnityEngine.UI.LayoutElement ÎÎÌÍÍÌÏÏÍÍÌÏÍÌÌÍÏÌÌÏÏÌÍ; // 0x3C8
-        public VRC.UI.Core.Styles.StyleElement ÌÎÎÍÍÍÌÌÎÏÎÎÏÏÏÍÌÍÎÏÎÌÍ; // 0x3D0
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ ÌÌÏÌÌÌÎÏÎÌÍÎÏÌÌÏÏÌÎÍÎÌÏ; // 0x3D8
-        public VRC.UI.Core.Styles.StyleElement ÏÎÌÎÏÍÏÎÍÎÎÎÏÏÍÏÍÏÍÍÌÎÎ; // 0x3E0
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ ÏÌÌÌÌÏÏÌÍÌÏÏÍÌÎÌÌÌÍÏÌÏÌ; // 0x3E8
-        public ÎÍÌÏÍÎÍÏÌÌÎÏÌÏÌÏÎÏÌÎÍÏÎ<0x664C8908> ÌÎÎÎÍÍÍÏÏÍÎÌÎÎÍÌÏÎÍÏÎÌÎ; // 0x3F0
-        public ÎÍÌÏÍÎÍÏÌÌÎÏÌÏÌÏÎÏÌÎÍÏÎ<0x664D2258> ÎÏÎÎÎÎÏÎÏÏÏÏÏÍÎÎÎÏÌÏÏÌÌ; // 0x3F8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÍÌÌÏÍÏÏÎÌÎÌÏÎÌÏÍÍÎÏÏÍÍÍ; // 0x400
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÌÏÏÍÌÍÎÌÍÍÌÍÏÍÍÏÎÏÏÏÌÏÎ; // 0x408
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> ÎÏÎÌÍÍÍÍÏÍÌÍÌÏÌÏÍÏÌÍÏÎÎ; // 0x410
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> ÏÌÌÌÎÏÍÌÍÍÍÎÏÎÍÏÏÍÍÏÌÏÌ; // 0x418
-        public ÎÏÎÏÎÍÍÌÌÏÏÍÎÌÍÎÍÏÌÎÌÎÍ ÎÏÏÍÏÎÍÏÏÎÎÏÏÎÌÎÍÏÌÍÍÌÍ; // 0x420
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÍÎÏÍÎÍÌÎÎÌÍÏÍÎÏÏÍÏÏÌÎÍÍ>> ÍÌÎÌÏÎÏÍÏÌÏÍÎÏÎÍÎÌÍÍÍÌÍ; // 0x478
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÌÏÌÍÍÎÌÏÍÏÏÌÌÍÏÌÍÍÍÎÌÍÏ; // 0x480
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÌÍÌÏÏÌÏÍÌÏÏÎÌÎÎÌÎÎÏÏÎÍÌ>> ÏÏÎÎÌÏÏÎÌÏÏÎÍÌÏÏÌÍÎÎÍÎÌ; // 0x488
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ ÏÏÌÍÌÏÏÌÎÏÎÎÌÌÍÎÍÌÏÎÌÍÍ; // 0x490
-        public VRC.UI.Core.Styles.StyleElement[] ÎÌÌÏÌÌÌÏÏÍÌÎÍÍÎÎÏÌÍÌÏÌÏ; // 0x498
-        public string ÏÏÏÏÎÌÍÏÍÏÏÌÌÎÍÌÎÍÏÍÌÎÌ;
-        public ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ ÎÎÌÌÍÌÎÏÏÏÏÎÍÌÎÌÎÌÌÍÌÏÎ; // 0x4A0
-        public int _maxCells; // 0x4A8
-        public UnityEngine.GameObject _loadingOverlay; // 0x4B0
-        public UnityEngine.GameObject _userDetailsContainer; // 0x4B8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> ÌÌÍÍÏÍÌÏÎÍÏÎÌÎÏÎÍÏÍÏÏÍÍ; // 0x4C0
-        public UnityEngine.GameObject _selectableBadgePrefab; // 0x4C8
-        public bool <ÌÏÌÏÌÏÎÌÏÍÍÌÎÏÍÎÌÍÏÏÎÎÌ>k__BackingField; // 0x4D0
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÎÏÌÎÍÏÌÏÎÏÌÍÏÌÍÌÏÌÍÌÏÏÏ> ÍÌÏÌÍÎÎÌÌÏÏÍÏÍÏÍÏÌÌÍÎÌÌ; // 0x4D8
-        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÏÎÍÎÌÏÌÎÍÌÍÍÏÎÏÎÌÍÌÎÌÎÎ; // 0x4E0
-        public ÍÍÌÍÏÎÍÍÎÌÏÌÌÏÎÍÏÍÏÌÍÍÌ ÎÌÏÏÌÍÍÌÏÏÍÏÌÏÌÍÎÎÎÏÏÏÍ; // 0x4E8
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÍÌÌÏÎÍÏÍÏÍÎÎÎÌÏÍÍÌÎÌÏÍÌ> ÌÏÎÌÍÍÍÎÏÏÎÎÍÌÎÏÍÏÎÎÏÎÎ; // 0x4F0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÍÏÍÏÍÍÌÌÏÌÎÏÍÏÍÌÌÍÎÎÏÏÌ; // 0x4F8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÏÌÎÎÎÍÎÍÏÎÌÏÍÏÍÌÌÏÎÍÎÌÍ; // 0x500
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÌÎÌÎÌÌÌÍÏÌÎÏÌÌÌÍÍÎÌÎÍÏÍ; // 0x508
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> ÎÏÍÌÌÎÌÍÍÍÎÌÏÍÌÌÍÌÎÌÌÎÌ; // 0x510
-        public ÎÏÎÏÎÍÍÌÌÏÏÍÎÌÍÎÍÏÌÎÌÎÍ ÌÍÌÌÎÏÎÏÌÎÎÏÏÏÏÎÏÍÌÏÍÍÎ; // 0x518
-        public bool ÎÍÍÍÍÌÎÏÏÎÎÏÍÎÍÏÌÏÏÌÍÏÏ; // 0x570
-        public string ÍÍÌÍÏÌÏÏÌÏÍÎÏÍÎÍÏÎÌÌÎÏÎ; // 0x578
-        public System.Threading.CancellationTokenSource ÏÏÏÍÌÍÍÏÍÍÍÌÎÍÎÍÎÎÌÍÌÌÏ; // 0x580
-        public System.Collections.Generic.HashSet`1<ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ> ÍÍÏÍÌÏÍÎÏÏÍÍÏÎÏÏÍÏÎÌÌÍÌ; // 0x588
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD569FE1A0
@@ -1083,45 +699,35 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÌÌÎÍÍÌÌÍÏÍÍÍÏÌÍÍÎÍÍÎÌÌÎ</summary>
     public class ComplexComponent_5D5C : MonoBehaviour
     {
-        public string _destroyCancellationToken; // 0x20
-        public bool _useGUILayout; // 0x28
-        public bool f_639; // 0x29
-        public bool f_0C3; // 0x2A
-        public bool f_B19; // 0x2B
-        public ÍÎÎÌÎÌÌÍÎÌÍÏÏÌÏÎÎÎÍÏÍÎÎ f_ABE; // 0x30
-        public bool f_6A9; // 0x38
-        public ÏÏÏÏÌÍÏÌÎÎÏÏÏÌÌÍÏÌÍÌÌÍÍ f_A19; // 0x40
-        public bool f_067; // 0x48
-        public ÎÎÍÍÏÏÎÌÏÏÍÌÍÌÎÌÏÎÎÌÏÎÎ f_5EA; // 0x50
-        public UnityEngine.RectTransform f_A6B; // 0x58
-        public UnityEngine.CanvasGroup f_208; // 0x60
-        public float f_C30;
-        public System.Action`1<VRC.Localization.LocalizableString> f_6B8; // 0x68
-        public System.Action`2<bool,0x66594E18> f_80C; // 0x70
-        public System.Action`1<ÎÎÏÎÍÎÎÌÍÏÍÍÍÍÏÎÎÌÍÎÏÏÏ> f_748; // 0x78
-        public System.Action f_A09; // 0x80
-        public System.Action f_637; // 0x88
-        public System.Action`1<bool> f_94A; // 0x90
-        public System.Action f_840; // 0x98
-        public ÍÌÏÎÍÏÍÍÎÌÎÏÏÏÎÎÏÏÏÌÌ f_3AD; // 0xA0
-        public System.Collections.Generic.Dictionary`2<UnityEngine.Behaviour,bool> f_26A; // 0xA8
-        public System.Collections.Generic.List`1<ÎÌÌÎÎÌÍÏÎÌÍÍÏÎÎÎÏÌÍÌÏÍÏ> f_D94; // 0xB0
-        public System.Collections.Generic.List`1<ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ> f_E06; // 0xB8
-        public bool f_0A0; // 0xC0
-        public System.Collections.Generic.List`1<ÌÏÍÌÎÏÌÍÏÍÎÌÎÎÌÏÍÎÌÌÏÍÍ> f_7CA; // 0xC8
-        public System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> f_201; // 0xD0
-        public System.Collections.Generic.List`1<ÍÏÌÎÌÍÎÍÎÎÍÌÏÌÌÌÏÍÍÍÍÌÍ> f_B13; // 0xD8
-        public System.Collections.Generic.List`1<UnityEngine.Canvas> f_5C4; // 0xE0
-        public System.Collections.Generic.List`1<UnityEngine.UI.GraphicRaycaster> ÌÌÎÎÎÏÎÎÏÍÎÌÍÍÍÏÌÏÌÍÍÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<UnityEngine.Behaviour> ÍÎÌÎÌÍÏÏÏÎÎÌÎÌÍÎÌÍÍÎÍÌÎ; // 0xF0
-        public ÍÌÎÍÏÎÎÌÌÎÎÌÏÏÎÏÌÍÌÌÍÏÎ ÎÎÏÎÎÏÏÌÎÍÌÏÏÎÌÎÏÏÏÏÍÍÎ; // 0xF8
-        public int <TransitionSortOrder>k__BackingField; // 0x100
-        public ÍÌÌÍÎÏÍÏÏÏÏÏÌÎÍÏÍÎÏÏÌÏÍ ÍÍÎÎÌÏÎÌÎÏÎÍÎÎÌÎÎÎÏÎÍÏÍ; // 0x108
-        public bool <ÌÍÍÎÎÍÏÎÍÏÌÏÍÎÍÎÎÌÌÎÌÏÌ>k__BackingField; // 0x110
-        public ÏÌÎÍÏÎÍÎÏÏÍÌÎÌÏÍÏÍÍÍÍÎÌ ÌÏÌÎÏÎÌÏÎÌÏÌÍÏÏÍÏÌÏÌÎÏÎ; // 0x118
-        public 0x665953F0 ÍÍÏÍÌÌÏÏÎÏÌÌÏÍÌÍÍÍÏÎÎÌÎ; // 0x120
-        public System.Threading.CancellationTokenSource ÎÎÌÏÎÏÌÍÍÏÎÌÌÏÍÌÍÌÎÏÏÌÍ; // 0x128
-        public System.Collections.Generic.List`1<ÍÍÌÍÎÍÎÎÏÎÏÎÌÌÏÎÍÌÍÍÏÍÎ> ÏÌÏÍÍÌÎÌÏÎÏÍÎÏÎÌÌÎÎÍÏÍÏ; // 0x130
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_639;
+        public object f_0C3;
+        public object f_B19;
+        public object f_ABE;
+        public object f_6A9;
+        public object f_A19;
+        public object f_067;
+        public object f_5EA;
+        public object f_A6B;
+        public object f_208;
+        public object f_C30;
+        public object f_6B8;
+        public object f_80C;
+        public object f_748;
+        public object f_A09;
+        public object f_637;
+        public object f_94A;
+        public object f_840;
+        public object f_3AD;
+        public object f_26A;
+        public object f_D94;
+        public object f_E06;
+        public object f_0A0;
+        public object f_7CA;
+        public object f_201;
+        public object f_B13;
+        public object f_5C4;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD5678D010
@@ -1241,75 +847,45 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÏÍÍÎÏÏÌÎÌÍÏÏÍÌÌÏÌÏÌÍÍÏÎ</summary>
     public class ComplexComponent_6FD4 : MonoBehaviour
     {
-        public ÏÍÍÎÏÏÌÎÌÍÏÏÍÌÌÏÌÏÌÍÍÏÎ _destroyCancellationToken;
-        public System.Collections.Generic.Dictionary`2<0x6635C2B0,System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.SortedSet`1<Transmtn.DTO.Notifications.Notification>>> _useGUILayout; // 0x20
-        public float f_440;
-        public float f_F2E; // 0x28
-        public int f_374;
-        public int f_E42;
-        public int f_30D;
-        public string f_C7D;
-        public float f_2B0; // 0x2C
-        public float f_E02; // 0x30
-        public bool f_C56; // 0x34
-        public bool f_F5A; // 0x35
-        public bool f_E72; // 0x36
-        public System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> f_2BC; // 0x38
-        public System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> f_C95; // 0x40
-        public System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> f_149; // 0x48
-        public System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> f_52B; // 0x50
-        public System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> f_8F6; // 0x58
-        public System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> f_908; // 0x60
-        public System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> f_FE1; // 0x68
-        public System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> f_B26; // 0x70
-        public System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> f_00A; // 0x78
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_75C; // 0x80
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_A10; // 0x88
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_6BD; // 0x90
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_49B; // 0x98
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_A82; // 0xA0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_DFC; // 0xA8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_E10; // 0xB0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_426; // 0xB8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_9DD; // 0xC0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_B00; // 0xC8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_A84; // 0xD0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_BCE; // 0xD8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_67A; // 0xE0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_A7F; // 0xE8
-        public bool f_39D; // 0xF0
-        public bool f_D1E; // 0xF1
-        public bool f_561; // 0xF2
-        public bool <ÏÎÌÌÍÌÍÍÎÏÏÏÍÌÍÏÏÏÎÎÌÏÎ>k__BackingField; // 0xF3
-        public bool <ÎÍÌÎÎÍÏÍÏÍÎÎÍÌÏÏÍÎÍÎÏÌÍ>k__BackingField; // 0xF4
-        public bool <ÏÌÌÍÍÎÎÍÎÌÏÍÍÏÌÎÎÏÏÌÍÎÏ>k__BackingField; // 0xF5
-        public bool <ÏÍÌÎÌÎÏÎÍÏÎÍÍÏÍÌÏÏÍÎÍÌÍ>k__BackingField; // 0xF6
-        public 0x664CD2F0 ÌÏÏÏÍÍÍÏÍÎÌÍÏÌÎÎÌÎÎÎÏÍÍ; // 0xF8
-        public string ÌÏÎÎÎÎÌÎÏÍÎÌÌÌÏÎÌÌÍÍÏÎÏ;
-        public string ÌÌÌÌÎÎÌÎÎÌÎÌÍÎÍÍÍÌÏÏÏÏÏ;
-        public string ÌÏÍÌÍÌÏÌÍÏÎÏÌÍÏÏÌÏÏÏÎÍÍ;
-        public string ÍÎÏÍÍÎÍÏÌÏÍÍÍÎÏÍÏÍÍÌÍÎÌ;
-        public string ÌÌÌÍÎÏÍÏÍÏÍÎÌÍÏÏÍÌÏÌÎÎÌ;
-        public string ÏÍÍÍÎÌÎÍÌÌÎÍÍÍÏÏÌÎÌÍÏÍÎ;
-        public string ÍÌÍÌÎÌÎÍÎÏÍÎÍÌÎÌÌÎÌÏÍÍÎ;
-        public string ÎÏÍÎÍÍÌÎÎÏÌÏÎÍÎÏÏÌÌÍÏÏÎ;
-        public string ÍÎÍÎÍÏÏÎÏÌÍÍÌÎÍÎÏÏÎÍÍÌÏ;
-        public string ÍÏÏÎÏÎÌÍÍÏÍÌÎÌÎÏÍÌÏÎÏÌÍ;
-        public string ÌÌÏÏÍÌÍÎÌÌÌÎÌÏÍÍÏÌÌÍÌÏÍ;
-        public System.Action`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ> <ÍÍÌÍÌÎÏÌÎÏÍÍÍÏÌÏÍÏÏÏÏÎÍ>k__BackingField; // 0x100
-        public System.Collections.Generic.List`1<string> ÏÎÏÍÌÏÎÍÎÌÌÍÎÍÎÍÎÍÏÏÏÌÍ; // 0x108
-        public System.Collections.Generic.Dictionary`2<string,float> ÏÎÌÎÏÎÏÌÏÍÎÏÏÍÎÌÎÏÏÌÎÌÍ; // 0x110
-        public float ÍÍÏÎÏÏÌÎÎÍÎÌÎÎÏÍÎÎÍÌÍÌÌ;
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ>> <ÌÍÌÎÎÌÌÌÌÌÏÏÍÍÌÏÎÎÎÎÏÎÌ>k__BackingField; // 0x118
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ>> <ÏÏÌÍÎÎÍÍÍÏÍÍÏÎÌÌÏÌÏÏÎÌÍ>k__BackingField; // 0x120
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ>> <ÎÎÏÌÎÍÎÎÍÏÌÌÍÏÌÌÍÍÌÎÍÍÎ>k__BackingField; // 0x128
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ>> <ÍÍÍÍÏÍÏÌÎÏÏÎÏÏÎÎÎÏÌÌÎÏÍ>k__BackingField; // 0x130
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ>> <ÌÍÍÏÎÎÌÎÎÏÍÌÌÍÌÍÍÌÎÎÎÌÎ>k__BackingField; // 0x138
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÎÏÌÏÏÎÍÏÌÏÌÌÍÍÌÎÏÍÎÍÏÎ>k__BackingField; // 0x140
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ>> <ÏÌÍÏÌÏÎÌÌÌÎÎÏÌÌÏÏÎÏÍÎÍÎ>k__BackingField; // 0x148
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ>> <ÌÏÏÍÍÍÌÏÎÎÏÌÌÍÌÍÌÎÌÏÎÎÎ>k__BackingField; // 0x150
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ>> <ÎÏÍÍÏÍÏÏÌÏÍÏÎÏÌÌÏÏÎÌÍÎÌ>k__BackingField; // 0x158
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÎÎÏÏÌÎÎÎÎÏÎÏÍÎÎÎÎÍÎÏÌÏ>> <ÍÍÌÌÏÎÌÌÍÎÎÏÌÍÍÌÎÎÎÍÏÌÎ>k__BackingField; // 0x160
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_440;
+        public object f_F2E;
+        public object f_374;
+        public object f_E42;
+        public object f_30D;
+        public object f_C7D;
+        public object f_2B0;
+        public object f_E02;
+        public object f_C56;
+        public object f_F5A;
+        public object f_E72;
+        public object f_2BC;
+        public object f_C95;
+        public object f_149;
+        public object f_52B;
+        public object f_8F6;
+        public object f_908;
+        public object f_FE1;
+        public object f_B26;
+        public object f_00A;
+        public object f_75C;
+        public object f_A10;
+        public object f_6BD;
+        public object f_49B;
+        public object f_A82;
+        public object f_DFC;
+        public object f_E10;
+        public object f_426;
+        public object f_9DD;
+        public object f_B00;
+        public object f_A84;
+        public object f_BCE;
+        public object f_67A;
+        public object f_A7F;
+        public object f_39D;
+        public object f_D1E;
+        public object f_561;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F279140
@@ -1465,164 +1041,21 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÌÍÎÎÍÎÌÌÍÎÌÌÍÏÎÎÍÍÍÏÎÍÍ</summary>
     public class ComplexComponent_7316 : MonoBehaviour
     {
-        public bool _destroyCancellationToken;
-        public bool _useGUILayout; // 0x1
-        public float f_514; // 0x4
-        public float f_F4C; // 0x8
-        public float f_292; // 0xC
-        public bool f_53E; // 0x10
-        public System.Collections.Generic.List`1<ÌÍÎÎÍÎÌÌÍÎÌÌÍÏÎÎÍÍÍÏÎÍÍ> f_320; // 0x18
-        public int f_87C; // 0x20
-        public string f_C34; // 0x28
-        public System.Action f_643; // 0x30
-        public float f_32E;
-        public System.Collections.Generic.List`1<System.ValueTuple`2<float,0x663484B8>> f_6F0; // 0x38
-        public 0x66348568 f_2C6; // 0x20
-        public 0x66348460 f_6AF; // 0x24
-        public 0x663484B8 f_CC8; // 0x28
-        public 0 ÎÍÌÌÍÌÌÍÎÍÌÌÍÍÌÌÎÌÎÌÌÏÌ; // 0x2C
-        public float ÏÍÎÎÍÍÏÍÍÍÏÌÍÌÎÍÌÍÍÎÍÎÎ;
-        public 0x663485C0 ÎÍÏÏÎÌÏÎÎÏÍÏÌÎÌÍÎÍÌÏÌÍÏ; // 0x30
-        public bool ÎÎÎÎÎÌÏÎÌÌÌÏÍÎÍÎÏÍÌÏÏÌÎ; // 0x34
-        public 0x66348618 ÍÎÎÍÏÏÏÍÌÌÍÌÍÍÍÍÏÏÍÌÌÌÍ; // 0x38
-        public bool ÎÌÏÏÍÎÌÎÏÎÌÌÌÌÏÍÎÏÏÍÎÏÎ; // 0x3C
-        public bool ÍÏÍÌÏÍÌÌÎÏÎÍÌÌÎÍÏÍÏÍÎÍÎ; // 0x3D
-        public float <ÌÌÌÏÎÍÏÍÌÏÏÏÏÌÏÍÌÌÎÎÍÏÌ>k__BackingField; // 0x40
-        public ÎÍÌÎÏÌÍÍÎÎÌÏÎÍÏÎÌÏÍÎÎÏÎ <ÎÏÌÏÍÌÏÏÎÏÏÍÏÎÌÎÏÎÍÌÎÎÎ>k__BackingField; // 0x48
-        public long ÎÍÌÍÌÍÏÍÎÎÍÍÍÍÍÍÏÌÌÍÎÌÍ; // 0x50
-        public float ÍÍÌÏÎÌÌÎÍÎÍÎÌÌÎÌÌÍÌÎÍÎÌ; // 0x58
-        public int ÍÎÏÍÌÎÍÍÌÏÌÍÍÍÏÌÌÍÏÎÎÎÏ;
-        public int ÎÌÍÎÏÎÏÌÌÌÌÍÎÍÍÌÎÍÌÎÎÏÌ;
-        public System.Action ÎÌÏÍÍÎÏÎÎÏÌÌÎÍÏÎÏÎÍÎÍÏÌ; // 0x60
-        public System.Action ÎÎÍÎÌÍÎÏÏÏÎÌÎÏÏÎÌÏÍÌÍÍÍ; // 0x68
-        public System.Action ÍÏÍÌÌÌÏÌÍÎÎÏÏÌÏÎÍÎÎÎÎÌÍ; // 0x70
-        public 0x664CCF28 <ÌÎÎÍÎÌÌÍÏÏÎÏÏÌÏÌÌÎÌÍÎÍÌ>k__BackingField; // 0x78
-        public bool ÏÏÏÏÍÌÌÎÍÎÏÎÍÎÎÌÍÍÌÍÏÏÌ; // 0x80
-        public string[] ÏÏÎÌÎÎÍÏÍÏÌÌÎÌÏÌÌÌÎÏÏÏÎ; // 0x40
-        public string ÌÏÌÍÏÍÎÌÎÎÎÌÍÍÍÎÏÍÏÌÍÍÏ;
-        public string ÍÏÎÌÍÌÍÏÏÍÍÏÎÌÏÌÎÏÌÍÍÍÌ;
-        public int ÎÎÌÏÍÎÎÎÎÌÏÍÎÍÍÌÎÏÎÎÌÏÌ;
-        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ ÎÎÏÍÍÎÎÏÌÎÍÌÎÎÎÌÍÏÏÎÌÌÎ; // 0x88
-        public UnityEngine.AudioSource ÏÌÎÌÎÌÌÎÌÌÎÏÎÍÍÌÍÌÎÏÌÎÏ; // 0x90
-        public ONSPAudioSource ÏÌÌÏÏÌÌÏÌÌÍÏÌÏÍÌÎÍÍÏÍÌÏ; // 0x98
-        public OVRLipSyncContext ÍÍÎÏÎÌÍÌÌÏÍÍÌÍÌÌÍÎÎÎÏÏÎ; // 0xA0
-        public OVRLipSyncContextMorphTarget ÌÍÏÎÌÍÍÏÍÎÌÍÍÎÏÍÎÌÌÏÎÏÏ; // 0xA8
-        public ÏÌÏÎÏÏÎÍÎÏÏÎÏÍÍÍÍÍÍÍÌÏÏ ÏÏÎÎÌÎÍÏÎÎÎÏÍÍÍÏÎÎÏÏÌÏÌ; // 0xB0
-        public ÌÌÍÎÍÏÏÌÎÏÍÏÌÏÏÏÏÌÎÌÍÍÌ ÍÎÍÍÍÌÌÎÎÎÏÍÍÎÌÏÍÎÌÏÌÎÍ; // 0xB8
-        public UnityEngine.AudioClip ÏÎÏÏÍÍÎÏÌÍÌÎÌÏÌÎÌÏÏÌÍÎÍ; // 0xC0
-        public ÎÏÎÏÏÏÍÏÏÍÍÌÏÍÏÌÌÍÍÎÍÌÍ ÍÏÏÌÌÏÍÍÏÍÎÌÏÍÏÏÍÌÌÏÎÍÍ; // 0xC8
-        public int ÎÌÏÌÌÏÏÎÌÌÎÏÌÌÍÍÎÌÎÎÏÍÏ; // 0xD0
-        public bool ÏÎÌÌÌÏÎÍÌÌÎÌÍÏÍÎÍÍÍÌÌÌÌ; // 0xD4
-        public ÏÎÎÌÎÏÏÌÎÌÎÎÌÎÌÍÍÍÌÎÌÎÌ ÌÎÏÎÍÏÌÎÌÌÍÏÌÏÌÌÏÌÎÏÎÍÏ; // 0xD8
-        public int ÍÍÍÌÌÍÎÍÍÌÌÎÏÏÎÎÌÏÏÎÍÍÏ; // 0xE0
-        public int ÍÏÌÏÌÎÍÏÍÎÏÍÌÍÍÏÌÏÍÎÎÍÌ; // 0xE4
-        public float ÎÍÍÎÏÌÍÌÏÍÏÍÏÌÌÍÍÏÍÌÌÏÌ; // 0xE8
-        public float ÏÍÍÏÌÎÍÍÌÏÌÏÌÌÍÌÍÍÌÎÍÍÏ; // 0xEC
-        public System.Collections.Generic.List`1<ÏÏÍÎÌÍÍÎÏÏÏÎÏÎÍÌÌÍÌÍÍÏÏ> ÎÏÎÍÏÎÌÏÍÌÏÍÏÌÏÏÎÍÌÎÎÍÎ; // 0xF0
-        public System.Collections.Generic.List`1<ÏÏÍÎÌÍÍÎÏÏÏÎÏÎÍÌÌÍÌÍÍÏÏ> ÎÌÏÌÌÏÌÍÍÌÍÏÍÌÏÏÍÏÏÏÎÏÍ; // 0xF8
-        public byte[] ÍÍÏÎÎÎÍÎÌÏÌÏÏÎÏÍÍÍÏÏÍÍÏ; // 0x100
-        public int ÍÍÎÏÎÍÍÍÎÏÌÎÏÎÎÏÏÎÍÍÌÎÎ; // 0x108
-        public ÎÍÍÏÌÍÎÎÏÎÌÎÍÍÏÏÌÍÏÎÎÌÍ ÍÌÏÍÌÎÏÏÌÏÌÏÍÍÏÏÍÏÏÏÎÎÎ; // 0x110
-        public string ÎÍÎÏÌÏÎÎÌÍÌÌÍÎÌÎÍÎÎÍÎÎÍ; // 0x118
-        public float ÍÍÎÎÏÌÌÎÍÌÍÎÏÏÌÍÍÍÍÏÍÍÎ; // 0x120
-        public float ÍÏÌÍÌÌÍÌÏÎÎÌÏÏÏÎÌÎÏÌÌÍÍ; // 0x124
-        public float ÌÌÎÌÍÎÌÌÎÎÌÍÎÎÎÌÏÎÌÍÌÎÎ; // 0x128
-        public ÎÌÏÌÍÍÏÎÍÌÎÌÍÌÍÌÎÍÍÏÎÍÍ ÍÏÏÌÌÏÎÍÌÎÌÍÎÏÏÏÌÏÏÎÍÌÏ; // 0x130
-        public ÎÌÏÌÍÍÏÎÍÌÎÌÍÌÍÌÎÍÍÏÎÍÍ ÍÌÌÍÎÍÏÌÏÎÏÌÍÏÍÏÍÌÌÍÏÎÌ; // 0x138
-        public int ÍÏÍÌÎÍÌÌÎÌÌÌÌÍÌÏÎÍÌÎÎÏÌ; // 0x140
-        public int ÌÎÎÎÍÍÍÍÌÏÌÏÍÌÏÎÌÍÎÌÍÌÎ; // 0x144
-        public int ÎÌÎÌÎÌÏÌÏÍÌÎÌÌÏÍÌÏÎÍÍÌÍ; // 0x148
-        public int ÌÏÏÌÍÏÏÌÏÎÏÏÎÌÎÏÎÌÏÏÏÏÎ; // 0x14C
-        public bool ÍÏÌÎÍÌÌÎÎÏÏÏÏÏÏÎÏÏÏÌÎÏÏ; // 0x150
-        public int ÌÎÏÍÌÏÌÍÌÍÏÍÌÎÍÏÍÎÎÍÏÎÍ; // 0x154
-        public int ÏÌÎÍÌÏÎÌÌÎÏÏÎÍÌÏÎÏÏÏÌÍÏ; // 0x158
-        public 0x66348460 ÎÏÍÌÎÌÍÏÍÎÏÎÍÍÍÌÏÏÎÎÎÌÎ; // 0x15C
-        public 0x663484B8 ÍÌÏÎÍÎÍÍÌÍÏÍÏÎÌÏÎÎÏÍÏÍÍ; // 0x160
-        public 0x66348618 ÎÍÌÍÎÌÌÎÎÏÌÏÍÎÍÎÏÌÎÏÏÌÏ; // 0x164
-        public int ÎÍÍÏÎÎÎÎÍÎÎÌÎÎÍÎÏÍÎÎÏÎÎ; // 0x168
-        public float ÎÏÌÏÎÎÍÍÎÏÍÌÌÏÍÍÌÍÌÍÏÍÌ; // 0x16C
-        public uint ÌÎÏÎÌÌÏÏÎÌÏÏÍÍÌÌÏÎÍÎÎÌÏ; // 0x170
-        public float ÍÏÌÍÏÍÎÏÍÍÍÍÌÌÏÌÏÏÌÌÎÍÎ; // 0x174
-        public uint ÌÎÍÏÎÍÍÎÍÎÏÏÍÎÎÌÍÏÍÌÏÏÌ; // 0x178
-        public float ÎÎÎÍÏÍÍÎÍÎÎÎÍÍÏÌÏÏÌÎÍÏÌ;
-        public float ÌÌÌÍÎÍÏÏÏÎÌÎÌÍÎÍÍÏÌÌÏÎÍ; // 0x48
-        public int ÍÌÏÌÏÍÍÎÌÎÌÌÌÎÏÏÌÍÌÍÏÏÏ;
-        public long ÎÍÌÌÎÌÏÏÌÍÌÏÌÍÌÌÌÍÎÍÌÍÎ;
-        public long ÌÍÎÎÎÏÎÍÏÍÍÏÌÏÍÍÍÍÏÍÍÏÍ; // 0x180
-        public float[] ÏÎÏÍÏÎÏÍÌÍÎÏÍÏÍÌÎÌÍÌÌÎÍ; // 0x188
-        public float ÍÏÎÍÏÌÍÌÏÎÏÍÍÎÏÌÏÌÏÏÏÌÎ; // 0x190
-        public float ÌÌÍÎÍÌÌÎÎÌÏÎÍÎÎÎÍÍÎÌÎÎÏ; // 0x194
-        public float ÎÎÏÏÍÌÌÎÍÌÌÎÍÍÍÌÎÍÎÌÏÏÌ; // 0x198
-        public System.Nullable`1<int> ÍÎÏÌÏÌÍÍÎÎÌÌÍÎÎÍÌÍÎÎÎÎÍ; // 0x4C
-        public int ÎÍÌÌÎÌÌÌÏÎÍÌÍÍÎÏÍÏÎÍÍÍÍ; // 0x19C
-        public float ÍÏÏÏÏÏÍÎÌÌÍÏÎÎÌÎÏÎÎÍÍÎÏ; // 0x1A0
-        public float ÎÏÏÍÌÎÏÏÎÌÏÎÍÌÏÌÏÎÌÎÏÎÍ; // 0x1A4
-        public float ÏÌÍÎÌÏÍÍÍÍÎÏÌÍÌÎÍÌÍÍÌÎÎ; // 0x1A8
-        public double ÍÏÏÎÏÎÍÍÍÏÎÌÏÎÏÍÍÏÌÏÎÏÌ; // 0x1B0
-        public float ÏÍÏÌÏÎÏÏÍÎÌÍÌÌÏÎÏÎÎÏÍÌÍ;
-        public float ÌÎÎÌÌÎÌÍÎÍÍÌÍÍÎÍÌÎÏÎÎÎÌ;
-        public float ÌÌÌÌÍÍÌÎÎÏÍÌÎÍÎÌÍÌÌÍÎÌÍ; // 0x1B8
-        public float ÌÏÍÌÍÎÏÏÌÌÍÎÏÌÎÍÎÎÌÍÍÏÌ; // 0x1BC
-        public float ÏÍÎÏÏÌÎÍÏÎÎÏÍÎÏÌÎÍÎÎÌÌÏ; // 0x1C0
-        public 0x66348670 ÌÏÏÌÏÌÎÌÎÌÍÏÍÌÎÍÌÌÌÍÎÍÏ; // 0x1C4
-        public int ÌÌÎÍÏÍÎÎÏÎÌÍÍÏÎÎÎÍÎÎÌÍÎ; // 0x1C8
-        public ÎÎÌÏÏÏÎÌÏÌÌÏÍÍÏÌÌÍÏÎÍÏÍ ÎÏÌÍÍÎÍÍÎÌÌÌÌÎÎÎÎÍÎÎÌÍÌ; // 0x1D0
-        public float ÍÎÎÎÌÌÎÍÌÍÎÍÍÎÎÌÌÎÌÌÍÏÎ; // 0x1D8
-        public int ÍÏÏÏÌÎÍÏÌÎÍÏÌÎÍÎÍÏÍÎÍÎÌ; // 0x1DC
-        public Photon.Client.SendOptions ÌÏÏÏÎÏÏÎÏÎÎÌÎÎÍÍÍÍÌÎÏÎÍ; // 0x54
-        public int ÌÏÎÎÍÏÌÏÌÏÏÏÍÌÌÎÏÎÎÍÍÎÏ;
-        public ÎÎÏÏÍÏÌÍÍÎÎÍÌÍÌÏÎÍÏÏÏÎÌ[] ÏÎÌÏÌÌÎÎÎÎÏÎÏÎÏÍÌÍÍÏÎÎÍ; // 0x1E0
-        public int ÏÏÎÍÌÎÌÌÌÍÏÎÏÏÏÍÎÌÏÏÌÏÎ; // 0x1E8
-        public int ÌÌÍÍÏÍÌÌÌÎÏÏÍÌÏÎÍÏÌÎÍÍÍ;
-        public VRC.Profiling.ProfilerMarker ÎÎÌÎÌÏÌÌÌÎÍÎÍÍÏÍÍÎÌÌÌÌÏ; // 0x60
-        public VRC.Profiling.ProfilerMarker ÍÍÎÏÏÍÏÎÍÌÎÎÌÏÎÍÏÏÌÌÎÎÏ; // 0x70
-        public VRC.Profiling.ProfilerMarker ÏÎÏÍÎÎÍÎÍÎÏÏÌÎÎÏÎÍÏÍÌÌÍ; // 0x80
-        public VRC.Profiling.ProfilerMarker ÎÍÌÏÌÍÌÌÎÌÏÎÍÌÍÎÏÎÍÍÌÏÏ; // 0x90
-        public VRC.Profiling.ProfilerMarker ÍÏÏÎÍÌÎÏÎÎÏÎÌÎÌÍÌÏÎÌÏÍÎ; // 0xA0
-        public VRC.Profiling.ProfilerMarker ÎÎÏÎÎÏÏÎÎÍÍÏÍÍÏÏÌÏÌÏÏÏÌ; // 0xB0
-        public int ÎÎÏÍÎÎÍÌÎÌÍÌÏÎÌÌÍÌÏÌÎÍÎ; // 0x1EC
-        public int ÎÍÍÏÎÎÌÌÌÎÎÌÌÏÏÌÍÎÍÌÏÏÌ; // 0x1F0
-        public VRC.Profiling.ProfilerMarker ÌÏÌÍÍÌÏÏÍÎÎÌÎÏÍÏÍÏÍÌÎÍÌ; // 0xC0
-        public VRC.Profiling.ProfilerMarker ÌÍÏÌÌÍÏÎÎÍÌÏÏÏÌÎÎÎÏÌÏÍÍ; // 0xD0
-        public VRC.Profiling.ProfilerMarker ÌÍÌÎÌÎÍÏÌÌÏÏÎÍÍÍÌÌÍÍÌÏÎ; // 0xE0
-        public VRC.Profiling.ProfilerMarker ÎÌÏÌÎÍÎÌÎÎÎÌÌÎÌÎÏÎÍÏÌÏÌ; // 0xF0
-        public VRC.Profiling.ProfilerMarker ÎÌÌÎÎÌÎÎÍÏÎÍÍÎÏÌÌÌÌÏÌÏÍ; // 0x100
-        public VRC.Profiling.ProfilerMarker ÍÍÎÍÌÎÍÍÌÎÎÍÎÌÏÌÎÌÏÌÎÏÍ; // 0x110
-        public VRC.Profiling.ProfilerMarker ÏÌÌÌÏÍÏÍÏÎÏÍÏÌÍÌÎÎÏÌÍÎÎ; // 0x120
-        public VRC.Profiling.ProfilerMarker ÌÌÎÌÎÍÍÍÌÏÎÌÌÎÌÍÍÌÍÌÍÌÌ; // 0x130
-        public VRC.Profiling.ProfilerMarker ÏÎÌÍÍÎÎÎÎÍÎÎÍÌÌÍÍÎÏÌÌÍÌ; // 0x140
-        public VRC.Profiling.ProfilerMarker ÎÎÍÌÍÌÏÏÎÍÌÏÏÎÎÌÌÌÎÎÎÎÏ; // 0x150
-        public VRC.Profiling.ProfilerMarker ÍÌÍÏÌÌÎÏÍÎÎÎÎÎÍÍÎÎÌÍÏÏÍ; // 0x160
-        public VRC.Profiling.ProfilerMarker ÌÏÎÎÏÌÍÏÍÌÍÎÌÎÌÎÏÏÏÎÏÌÌ; // 0x170
-        public VRC.Profiling.ProfilerMarker ÍÎÎÍÌÌÎÎÍÎÌÍÏÎÏÎÍÌÎÏÍÌÏ; // 0x180
-        public VRC.Profiling.ProfilerMarker ÎÍÌÍÏÎÍÎÎÏÍÍÏÌÌÎÎÍÏÍÌÎÍ; // 0x190
-        public System.Nullable`1<float> ÏÎÍÎÎÍÎÌÍÌÏÌÍÍÏÎÌÌÌÌÏÍÌ; // 0x1F4
-        public float ÍÎÏÌÌÎÍÌÎÌÎÎÌÏÍÍÏÏÍÎÏÌÎ;
-        public float ÌÌÏÍÌÍÏÍÏÏÍÌÎÎÎÌÍÍÏÌÏÌÍ; // 0x1FC
-        public int ÌÌÍÎÌÌÏÌÍÏÏÌÏÎÌÏÎÍÏÌÎÍÍ; // 0x200
-        public int ÌÏÏÍÍÌÍÌÌÎÎÍÎÌÎÌÎÍÎÍÎÏÏ; // 0x204
-        public int ÍÏÏÏÍÏÍÍÎÎÏÎÌÍÍÌÏÎÏÌÌÌÎ; // 0x208
-        public int ÍÍÌÌÍÎÍÏÏÌÌÍÎÎÍÎÏÏÎÌÎÎÌ; // 0x20C
-        public int ÎÌÍÌÏÌÌÍÏÌÏÎÎÍÍÏÎÌÌÏÌÏÌ; // 0x210
-        public bool ÎÎÌÍÍÎÌÍÌÏÍÎÍÍÌÍÏÎÏÌÍÌÎ; // 0x1A0
-        public float ÍÎÎÎÌÏÎÏÌÌÍÏÏÌÍÏÏÌÏÍÏÎÌ;
-        public float ÌÌÎÍÎÏÌÌÍÌÎÎÌÍÍÎÌÏÏÌÍÌÎ; // 0x214
-        public float ÍÌÏÏÎÎÍÍÎÏÏÏÌÏÍÎÎÎÍÌÎÌÎ; // 0x218
-        public VRC.Profiling.ProfilerMarker ÍÏÍÍÏÍÏÌÍÏÌÎÌÌÏÎÎÍÎÌÍÍÌ; // 0x1A8
-        public VRC.Profiling.ProfilerMarker ÌÎÍÏÍÎÎÍÍÍÏÏÎÎÎÏÏÎÌÍÏÍÏ; // 0x1B8
-        public bool ÎÎÎÎÎÏÍÍÎÎÎÍÏÍÏÏÌÎÏÍÎÍÎ; // 0x1C8
-        public System.Threading.CancellationTokenSource ÏÏÍÍÍÌÏÍÌÌÏÌÍÌÏÏÌÌÏÍÏÌÌ; // 0x220
-        public Unity.Profiling.ProfilerMarker ÎÍÏÌÏÌÏÏÏÏÎÌÎÏÏÏÎÎÌÌÍÎÎ; // 0x228
-        public Cysharp.Threading.Tasks.Channel`1<float[]> ÏÍÍÎÌÍÏÌÍÏÍÌÌÎÍÎÍÌÎÌÏÏÌ; // 0x230
-        public Cysharp.Threading.Tasks.Channel`1<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> ÏÎÎÎÌÎÌÏÌÎÎÏÏÍÌÍÌÍÍÎÏÍÎ; // 0x238
-        public Cysharp.Threading.Tasks.Channel`1<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> ÎÎÎÌÍÍÌÏÏÎÏÌÍÍÍÎÌÍÎÎÍÏÌ; // 0x240
-        public Unity.Profiling.ProfilerMarker ÌÏÍÎÎÏÌÍÎÎÏÎÎÍÌÌÏÌÎÌÎÌÎ; // 0x248
-        public Unity.Profiling.ProfilerMarker ÎÏÌÌÏÎÌÍÍÍÎÌÌÌÎÌÌÎÌÏÏÏÏ; // 0x250
-        public Unity.Profiling.ProfilerMarker ÌÌÎÎÏÌÍÏÌÌÌÍÍÌÌÍÏÌÌÎÎÎÍ; // 0x258
-        public Cysharp.Threading.Tasks.Channel`1<ÍÌÍÌÏÍÍÏÏÌÍÏÎÏÎÏÌÎÌÏÌÌÌ> ÏÎÎÌÎÍÌÍÏÍÌÏÏÏÌÎÎÍÎÌÏÏÏ; // 0x260
-        public Cysharp.Threading.Tasks.Channel`1<ÍÌÍÌÏÍÍÏÏÌÍÏÎÏÎÏÌÎÌÏÌÌÌ> ÍÍÏÎÎÌÍÏÍÌÍÌÎÍÏÌÍÎÌÏÍÌÎ; // 0x268
-        public Unity.Profiling.ProfilerMarker ÍÎÎÍÌÎÏÍÌÎÍÌÌÏÌÎÍÎÎÍÎÎÍ; // 0x270
-        public Unity.Profiling.ProfilerMarker ÏÌÏÍÍÎÍÎÍÎÎÍÎÍÍÍÍÏÍÍÏÌÌ; // 0x278
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_514;
+        public object f_F4C;
+        public object f_292;
+        public object f_53E;
+        public object f_320;
+        public object f_87C;
+        public object f_C34;
+        public object f_643;
+        public object f_32E;
+        public object f_6F0;
+        public object f_2C6;
+        public object f_6AF;
+        public object f_CC8;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E4FD010
@@ -1758,18 +1191,6 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÍÎÍÌÏÏÌÌÌÍÌÍÏÎÍÌÎÍÍÌÍÌÎ</summary>
     public class ComplexComponent_7679 : MonoBehaviour
     {
-        public ÍÎÍÌÏÏÌÌÌÍÌÍÏÎÍÌÎÍÍÌÍÌÎ ÍÎÍÏÍÎÍÏÍÌÌÎÏÍÍÌÎÌÏÌÍÌÏ;
-        public bool ÏÏÏÌÍÍÌÏÍÍÍÌÏÍÏÎÎÏÎÏÎÎÏ; // 0x8
-        public System.Collections.Generic.Queue`1<ÍÏÏÎÍÍÏÌÎÍÏÌÏÎÎÎÎÍÌÌÎÍÌ> ÎÍÌÌÍÏÏÎÎÎÏÏÏÍÍÍÍÌÌÎÌÍÌ; // 0x20
-        public System.Collections.Generic.Queue`1<ÍÏÏÎÍÍÏÌÎÍÏÌÏÎÎÎÎÍÌÌÎÍÌ> ÌÍÍÌÎÍÏÌÎÍÍÍÏÏÏÏÎÌÌÏÏÍÎ; // 0x28
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÍÏÌÏÏÎÏÏÌÎÍÍÌÍÌÎÎÍÎÌÍÏÍ; // 0x10
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÌÌÍÏÌÌÏÏÌÍÏÍÎÎÎÏÎÏÏÏÏÎÌ; // 0x18
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÏÍÎÌÍÌÏÍÏÍÌÌÏÍÎÏÍÌÌÎÏÍÍ; // 0x20
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÌÍÏÌÌÏÏÌÌÍÌÍÏÌÌÏÌÏÍÌÏÌÍ; // 0x28
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÎÎÍÌÎÏÌÏÏÎÎÎÏÍÍÏÍÎÌÌÎÌÎ; // 0x30
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÎÏÏÌÏÎÎÍÎÍÌÍÏÎÎÍÌÍÏÍÏÏÏ; // 0x38
-        public System.Collections.Generic.Dictionary`2<string,object> ÏÌÎÏÍÍÍÌÎÍÌÎÏÍÍÏÌÏÌÌÏÌÎ; // 0x30
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4F638FA0
         public void RaiseCancellation(){} // RVA: 0x7FFD4F63D800
@@ -1898,55 +1319,25 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ</summary>
     public class ComplexComponent_8C61 : MonoBehaviour
     {
-        public string _destroyCancellationToken;
-        public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ _useGUILayout;
-        public ÎÏÏÌÎÏÎÏÍÌÏÍÏÏÌÎÍÍÌÍÍÏÌ f_88A; // 0x20
-        public ÌÎÌÎÎÏÍÌÌÍÎÎÎÎÏÍÌÏÎÍÌÏÍ f_D1D; // 0x28
-        public bool f_388; // 0x30
-        public VRC.Localization.LocalizableString f_CCA; // 0x38
-        public VRC.Localization.LocalizableString f_350; // 0x60
-        public int f_396; // 0x88
-        public System.Action f_ECE; // 0x90
-        public System.Action f_72F; // 0x98
-        public System.Action f_FD3; // 0xA0
-        public System.Action f_C43; // 0x8
-        public ÎÏÎÏÏÏÌÎÏÌÌÏÍÏÌÏÌÌÌÌÍÌÍ f_147; // 0x10
-        public UnityEngine.GameObject f_518; // 0xA8
-        public float f_F8E; // 0xB0
-        public UnityEngine.GameObject f_8AF; // 0xB8
-        public 0x66357978 f_564; // 0xC0
-        public bool f_BD9; // 0xC4
-        public bool f_292; // 0xC5
-        public float ÎÎÌÎÍÍÏÍÌÎÎÌÌÏÍÌÏÌÍÏÏÍÍ;
-        public bool ÏÏÌÏÍÎÌÎÌÌÏÏÌÌÌÎÌÎÏÌÍÏÎ; // 0xC6
-        public bool ÍÎÍÍÍÍÌÌÌÌÌÍÌÌÌÍÎÏÌÏÏÍÍ; // 0xC7
-        public bool <ÍÏÌÎÏÎÌÎÎÏÍÎÎÏÎÎÍÏÎÍÎÏÏ>k__BackingField; // 0xC8
-        public bool <ÏÎÌÌÌÍÎÎÌÎÌÌÏÍÎÍÏÏÏÏÍÍÏ>k__BackingField; // 0xC9
-        public System.Collections.Generic.Dictionary`2<string,System.Action> ÍÍÎÍÎÌÌÍÏÌÎÍÍÍÌÏÏÏÌÍÌÍÍ; // 0xD0
-        public System.Collections.Generic.Dictionary`2<string,object> ÍÌÍÍÍÍÏÎÏÎÌÏÏÎÍÏÍÏÎÏÏÏÍ; // 0xD8
-        public System.Collections.Generic.HashSet`1<UnityEngine.GameObject> ÎÎÌÍÏÏÎÏÏÏÎÎÌÍÌÏÏÎÍÌÏÌÌ; // 0xE0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÎÍÎÎÍÏÏÏÎÎÏÍÏÌÏÏÍÎÌÌÌÏÌ>k__BackingField; // 0xE8
-        public System.Collections.Generic.List`1<Cysharp.Threading.Tasks.UniTask> <ÏÎÍÌÏÏÏÎÎÍÍÎÌÍÌÎÍÍÍÌÍÎÎ>k__BackingField; // 0xF0
-        public bool ÍÏÍÎÌÎÍÎÎÌÏÏÌÎÎÎÎÌÌÎÌÎÏ; // 0xF8
-        public bool ÍÍÍÍÎÏÏÎÏÍÎÍÌÏÍÍÎÏÌÍÏÍÎ; // 0xF9
-        public bool ÏÎÎÌÏÎÌÎÏÎÏÏÏÍÍÏÌÌÎÎÏÏÍ; // 0xFA
-        public VRC.Profiling.ProfilerMarker ÎÏÌÍÏÌÎÏÌÌÎÏÍÏÏÏÏÏÎÍÎÎÌ; // 0x100
-        public VRC.Profiling.ProfilerMarker ÏÏÏÍÍÎÍÌÎÏÌÎÎÍÏÍÎÌÌÌÎÌÍ; // 0x110
-        public System.Threading.CancellationTokenSource ÎÎÎÍÎÌÏÎÌÍÎÍÌÌÍÌÍÏÍÍÎÏÎ; // 0x120
-        public float[] ÌÏÌÌÍÎÏÏÎÏÍÎÌÍÏÌÏÌÏÏÎÌÏ; // 0x18
-        public System.Collections.Generic.Dictionary`2<string,VRC.Localization.LocalizableString> ÍÌÍÏÎÍÎÌÎÌÏÌÌÏÌÌÍÌÏÏÏÌÏ; // 0x128
-        public VRC.Core.ApiWorldInstance <ÎÌÌÌÌÏÏÍÌÍÍÌÎÌÏÏÌÍÏÌÍÎÎ>k__BackingField; // 0x130
-        public string <ÌÍÎÍÍÍÏÏÎÏÏÎÎÍÏÎÍÎÏÌÏÌÏ>k__BackingField; // 0x138
-        public string ÍÎÌÍÏÏÏÏÏÌÎÎÏÏÎÌÍÏÌÌÏÍÌ; // 0x140
-        public int ÎÌÍÍÎÍÏÌÍÍÍÍÏÌÏÏÏÎÎÍÏÎÍ;
-        public int ÏÏÌÏÌÌÎÏÌÌÍÏÎÌÎÏÌÍÌÌÌÏÏ; // 0x148
-        public bool ÌÌÍÎÍÍÌÏÏÌÎÍÏÌÎÎÌÏÎÍÍÎÏ; // 0x14C
-        public 0x664C7938 ÎÍÍÏÍÌÎÎÏÍÎÎÌÏÍÌÎÌÎÎÎÍÏ; // 0x150
-        public bool ÍÎÌÌÎÏÎÍÎÏÌÌÎÎÌÌÏÌÌÎÎÏÎ; // 0x158
-        public bool <ÎÍÍÎÌÌÍÏÍÎÏÎÍÍÏÏÌÎÎÍÍÏÍ>k__BackingField; // 0x159
-        public string ÍÏÏÍÏÏÌÌÏÌÏÍÌÎÌÏÏÏÍÍÍÍÏ; // 0x160
-        public bool ÎÎÎÏÎÏÌÍÌÎÏÌÏÍÌÍÍÏÎÎÏÍÍ; // 0x168
-        public System.Action`1<VRC.Core.ApiWorldInstance> ÍÍÌÏÎÏÍÌÍÍÏÏÎÍÎÏÌÍÏÌÏÏÍ; // 0x20
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_88A;
+        public object f_D1D;
+        public object f_388;
+        public object f_CCA;
+        public object f_350;
+        public object f_396;
+        public object f_ECE;
+        public object f_72F;
+        public object f_FD3;
+        public object f_C43;
+        public object f_147;
+        public object f_518;
+        public object f_F8E;
+        public object f_8AF;
+        public object f_564;
+        public object f_BD9;
+        public object f_292;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F1431F0
@@ -2097,80 +1488,36 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÌÍÍÌÎÌÍÍÏÏÎÌÍÌÍÎÏÌÏÎÏÎÏ</summary>
     public class ComplexComponent_AFA2 : MonoBehaviour
     {
-        public ÌÍÍÌÎÌÍÍÏÏÎÌÍÌÍÎÏÌÏÎÏÎÏ _destroyCancellationToken;
-        public ÍÏÏÌÏÍÍÍÌÌÌÏÏÌÎÍÏÎÍÎÌÍÍ _useGUILayout; // 0x20
-        public ÎÎÎÌÌÏÏÎÏÎÍÏÏÏÌÍÌÍÎÍÏÌÎ f_09C; // 0x28
-        public ÍÏÌÏÎÎÏÍÎÌÌÍÍÌÏÎÏÍÎÍÍÍÌ f_8FB; // 0x30
-        public ÎÌÎÏÍÍÌÎÍÎÍÏÏÌÌÏÎÌÎÌÌÍÏ f_96C; // 0x38
-        public ÏÍÌÍÌÍÌÌÏÏÏÌÎÌÍÏÍÏÏÎÏÍÎ f_B04; // 0x40
-        public ÎÏÍÎÏÎÏÌÏÏÌÎÍÌÎÏÏÌÍÌÎÎÏ f_981; // 0x48
-        public ÍÍÌÌÎÏÏÌÏÏÎÌÏÍÎÏÎÌÍÍÍÍÌ f_5DE; // 0x50
-        public N|K.x f_EC2; // 0x58
-        public ÌÎÎÌÏÍÍÎÎÍÏÌÍÍÌÎÎÎÏÍÌÏÌ f_A60; // 0x60
-        public ÍÌÏÏÌÏÏÍÌÎÏÎÏÍÏÍÎÏÌÌÎÎÌ f_AF8; // 0x68
-        public ÌÏÍÌÏÏÎÏÏÌÎÎÎÍÍÍÎÏÏÍÎÏÌ f_5D5; // 0x70
-        public ÎÎÏÎÌÍÍÏÍÏÍÍÏÍÎÏÏÌÎÌÌÎÎ f_AF1; // 0x78
-        public ÌÏÍÎÌÎÏÍÍÏÍÍÌÍÌÍÏÌÌÎÎÏÏ f_2F2; // 0x80
-        public ÎÎÎÏÍÍÌÎÍÍÎÍÎÎÌÍÎÍÎÏÍÎÏ f_2D4; // 0x88
-        public ÍÏÍÌÍÏÎÌÌÌÏÏÍÏÍÍÏÍÌÎÎÎÏ f_8EA; // 0x90
-        public ÍÏÎÎÌÎÍÌÏÌÌÍÍÏÌÏÍÍÎÏÎÎÌ f_B72; // 0x98
-        public ÌÏÎÎÌÌÌÏÍÍÌÍÎÍÎÏÎÎÎÎÌÌÏ f_D51; // 0xA0
-        public ÌÍÏÏÌÏÎÏÎÍÌÏÍÌÏÌÌÎÏÌÎÏÍ f_AAB; // 0xA8
-        public ÌÍÎÎÎÏÌÏÌÎÌÍÏÍÌÎÍÏÌÎÏÏÏ f_50F; // 0xB0
-        public ÏÍÎÍÍÎÎÏÎÏÎÎÎÌÍÎÎÍÍÎÍÍÍ f_545; // 0xB8
-        public ÎÏÌÎÍÎÍÍÏÍÏÌÏÍÌÏÎÏÎÍÌÏÍ f_509; // 0xC0
-        public ÎÍÍÍÏÎÏÍÍÏÎÏÌÏÍÎÎÎÏÌÍÏÍ f_38F; // 0xC8
-        public ÌÌÍÌÌÎÍÎÏÌÏÎÎÍÎÏÎÎÌÏÌÌÎ f_5AA; // 0xD0
-        public ÍÎÍÌÎÌÍÎÎÍÌÎÍÍÎÎÌÏÍÌÏÏÌ f_F06; // 0xD8
-        public ÏÎÏÎÏÏÏÍÌÎÎÏÍÏÌÎÏÎÌÍÌÎÎ f_A1B; // 0xE0
-        public string f_A5E; // 0x8
-        public string f_A0E; // 0x10
-        public float f_456; // 0x18
-        public string f_2B1;
-        public string ÏÌÏÌÍÎÏÎÏÍÏÍÍÏÌÌÌÏÏÌÎÎÍ;
-        public string ÎÎÍÎÍÏÍÍÍÎÎÍÏÍÏÎÎÎÌÏÏÍÎ;
-        public string ÌÎÌÏÌÏÏÎÎÎÍÎÎÏÍÍÌÎÌÎÎÏÍ;
-        public System.Action ÏÏÏÍÍÎÍÍÎÏÏÍÍÍÎÍÏÌÎÏÎÌÎ; // 0x20
-        public System.Action ÌÏÏÍÏÏÎÌÎÌÌÌÍÌÎÍÏÏÏÎÍÌÏ; // 0x28
-        public System.Action ÍÎÏÎÍÏÌÎÌÌÏÎÍÎÌÌÎÌÏÏÍÎÎ; // 0x30
-        public System.Action ÌÍÏÎÍÌÏÍÎÎÏÍÎÎÌÍÏÏÏÍÏÌÎ; // 0x38
-        public System.Action`1<float> ÍÍÍÌÍÏÏÎÌÎÎÏÏÌÏÎÏÏÌÍÎÏÍ; // 0x40
-        public System.Action ÌÍÍÍÏÌÎÏÎÏÎÌÌÏÏÏÎÌÌÍÏÌÎ; // 0x48
-        public System.Action ÎÌÎÏÎÏÎÍÎÏÏÎÎÏÌÏÎÍÌÍÍÏÏ; // 0x50
-        public System.Action ÍÌÏÏÌÌÍÌÏÍÏÏÌÏÍÎÍÍÎÎÎÎÍ; // 0x58
-        public System.Action ÍÏÌÎÍÍÍÎÎÏÍÏÌÏÎÍÍÏÎÌÎÌÍ; // 0x60
-        public System.Action ÍÍÍÍÎÎÍÌÏÏÍÍÎÏÍÏÌÎÏÌÏÍÎ; // 0x68
-        public System.Action ÎÌÍÍÎÏÌÍÏÎÎÏÎÎÌÌÌÏÍÌÏÏÍ; // 0x70
-        public System.Action ÌÏÎÌÎÏÎÏÌÏÎÍÌÎÌÍÌÍÍÎÌÌÎ; // 0x78
-        public System.Action ÎÎÍÍÌÌÏÏÍÍÏÍÌÌÎÌÏÌÏÌÍÎÎ; // 0x80
-        public bool ÎÍÎÎÌÍÏÌÎÌÎÌÎÍÎÎÎÏÍÏÌÎÌ; // 0xE8
-        public bool ÌÎÍÏÍÍÌÎÍÌÍÍÌÌÍÏÌÌÌÎÌÏÏ; // 0xE9
-        public bool ÌÏÌÏÎÍÍÎÌÏÌÍÍÏÎÏÏÌÎÏÍÏÌ; // 0xEA
-        public bool ÏÌÌÏÍÎÏÌÍÏÌÌÎÍÌÌÏÌÍÌÎÌÌ; // 0xEB
-        public bool ÍÎÏÏÍÏÏÏÍÍÌÏÎÏÎÎÏÌÎÏÍÍÍ; // 0xEC
-        public bool ÏÌÍÏÍÏÏÍÍÍÍÏÍÎÍÍÏÏÍÌÌÌÍ; // 0xED
-        public bool ÎÍÌÍÍÎÏÏÎÎÏÎÎÌÍÎÎÌÌÏÍÍÎ; // 0xEE
-        public bool ÍÍÎÏÏÌÌÎÏÏÌÌÎÎÍÌÌÏÍÎÍÎÎ; // 0xEF
-        public bool ÏÏÌÎÍÏÌÏÌÎÏÍÌÏÌÌÏÌÏÍÍÎÍ; // 0xF0
-        public bool ÏÎÍÌÎÌÎÏÎÍÌÍÎÌÏÎÍÏÌÌÏÏÎ; // 0xF1
-        public bool ÎÌÌÏÎÌÍÏÍÎÎÌÌÏÏÏÌÎÌÎÎÎÏ; // 0xF2
-        public System.ValueTuple`2<bool,System.DateTime> ÌÍÎÍÏÏÎÏÌÏÎÍÏÍÎÎÍÎÏÎÏÌÎ; // 0xF8
-        public System.Threading.CancellationTokenSource ÍÏÏÏÍÌÎÎÌÌÎÍÍÎÎÎÌÏÏÎÎÎÌ; // 0x108
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÌÌÎÏÎÍÎÌÎÎÌÎÏÌÌÌÏÍÏÏÏÏÏ; // 0x110
-        public System.ValueTuple`2<bool,System.DateTime> <ÎÍÍÍÌÏÎÏÎÌÏÎÍÏÌÍÌÍÌÍÍÏÏ>k__BackingField; // 0x88
-        public int ÌÎÎÌÏÌÍÎÎÌÍÏÌÏÍÍÎÌÌÌÏÌÎ;
-        public long ÍÍÏÌÌÏÏÏÏÏÏÏÍÎÌÍÏÌÌÏÎÎÍ;
-        public int ÏÎÌÎÌÍÎÍÍÏÏÍÌÏÍÍÏÏÍÍÎÌÏ; // 0x118
-        public int ÌÎÌÏÏÍÌÏÍÎÌÌÎÎÌÎÌÌÌÏÌÏÌ;
-        public ÌÌÌÏÍÎÌÍÌÏÎÍÍÏÍÍÌÌÌÎÍÎÎ ÍÌÏÌÌÍÌÍÏÍÏÍÎÍÌÍÎÎÏÌÏÏÎ; // 0x120
-        public float ÏÌÌÍÏÎÍÍÏÎÏÎÌÌÎÏÍÎÌÌÌÏÍ; // 0x128
-        public float ÎÎÎÌÏÏÏÎÍÎÏÌÎÌÏÏÎÍÎÏÍÏÍ; // 0x12C
-        public System.Action ÌÎÌÏÍÍÌÏÌÎÏÍÎÌÍÏÍÎÎÎÌÏÏ; // 0x130
-        public float ÎÎÎÌÌÍÎÌÍÏÏÌÍÍÌÍÎÍÌÎÎÎÏ;
-        public float ÍÏÎÏÎÏÍÍÏÏÍÌÍÎÏÌÎÍÍÏÍÎÏ;
-        public float ÍÏÍÏÌÍÎÌÎÎÎÎÍÍÏÌÌÎÏÌÌÌÌ; // 0x138
-        public float ÎÎÌÏÍÎÍÌÎÍÏÏÎÎÌÏÏÎÏÎÌÏÌ; // 0x98
-        public float ÏÌÏÌÏÍÏÌÎÌÏÎÍÏÍÍÍÍÌÌÎÍÎ;
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_09C;
+        public object f_8FB;
+        public object f_96C;
+        public object f_B04;
+        public object f_981;
+        public object f_5DE;
+        public object f_EC2;
+        public object f_A60;
+        public object f_AF8;
+        public object f_5D5;
+        public object f_AF1;
+        public object f_2F2;
+        public object f_2D4;
+        public object f_8EA;
+        public object f_B72;
+        public object f_D51;
+        public object f_AAB;
+        public object f_50F;
+        public object f_545;
+        public object f_509;
+        public object f_38F;
+        public object f_5AA;
+        public object f_F06;
+        public object f_A1B;
+        public object f_A5E;
+        public object f_A0E;
+        public object f_456;
+        public object f_2B1;
 
         // ── Methods ──
         public void SetModelAlphaBlendShader(){} // RVA: 0x7FFD4E4994D0
@@ -2307,50 +1654,31 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÌÏÍÍÎÎÏÍÎÌÏÍÍÎÌÎÏÏÏÎÍÏÍ</summary>
     public class ComplexComponent_E737 : MonoBehaviour
     {
-        public ÌÏÍÍÎÎÏÍÎÌÏÍÍÎÌÎÏÏÏÎÍÏÍ _destroyCancellationToken;
-        public UnityEngine.LayerMask _useGUILayout; // 0x20
-        public UnityEngine.LayerMask f_D9E; // 0x24
-        public UnityEngine.GameObject f_768; // 0x28
-        public VRC.StickerCollectionPrefab f_2BC; // 0x30
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.Generic.List`1<ÌÌÍÎÏÌÍÌÍÏÏÎÏÏÎÌÏÏÍÍÏÍÌ>> f_FC3; // 0x38
-        public string f_004; // 0x8
-        public int f_473; // 0x40
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_BCF; // 0x48
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_185; // 0x50
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÌÌÍÎÏÌÍÌÍÏÏÎÏÏÎÌÏÏÍÍÏÍÌ>> f_4E6; // 0x58
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÌÌÍÎÏÌÍÌÍÏÏÎÏÏÎÌÏÏÍÍÏÍÌ>> f_D41; // 0x60
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÌÌÍÎÏÌÍÌÍÏÏÎÏÏÎÌÏÏÍÍÏÍÌ>> f_8F6; // 0x68
-        public System.Collections.Generic.List`1<ÎÎÍÌÌÎÌÍÏÎÍÏÎÌÏÎÍÍÍÎÌÌÌ> f_BD1; // 0x70
-        public ÌÏÌÍÏÍÍÎÍÎÎÏÌÎÍÏÍÍÍÎÌÎÌ f_C7C; // 0x78
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_53A; // 0x80
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_D2B; // 0x88
-        public System.Collections.Generic.HashSet`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ> f_F92; // 0x90
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÌÏÌÍÏÍÍÎÍÎÎÏÌÎÍÏÍÍÍÎÌÎÌ>> f_D03; // 0x98
-        public ÌÏÌÍÏÍÍÎÍÎÎÏÌÎÍÏÍÍÍÎÌÎÌ f_1AA; // 0xA0
-        public ÌÏÌÍÏÍÍÎÍÎÎÏÌÎÍÏÍÍÍÎÌÎÌ f_576; // 0xA8
-        public ÌÏÌÍÏÍÍÎÍÎÎÏÌÎÍÏÍÍÍÎÌÎÌ f_550; // 0xB0
-        public ÌÏÌÍÏÍÍÎÍÎÎÏÌÎÍÏÍÍÍÎÌÎÌ f_60D; // 0xB8
-        public ÌÏÌÍÏÍÍÎÍÎÎÏÌÎÍÏÍÍÍÎÌÎÌ f_D8C; // 0xC0
-        public ÏÌÍÌÏÎÏÌÏÎÍÎÌÌÌÎÌÌÍÍÌÏÌ f_653; // 0xC8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<ÌÌÎÎÏÏÍÌÌÏÏÌÌÎÌÏÏÏÎÍÏÍÎ> <ÌÌÏÏÏÍÌÌÏÏÍÍÌÏÏÎÍÏÍÍÌÍÌ>k__BackingField; // 0xD0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<ÌÌÎÎÏÏÍÌÌÏÏÌÌÎÌÏÏÏÎÍÏÍÎ> <ÎÎÏÍÍÎÌÌÎÏÌÍÏÎÎÎÏÍÏÎÍÍÌ>k__BackingField; // 0xD8
-        public bool ÍÌÏÌÎÍÎÍÏÎÌÍÏÍÎÌÍÏÎÍÌÌÌ; // 0xE0
-        public System.Collections.Generic.List`1<ÏÏÌÍÍÌÍÍÍÏÎÍÍÎÎÌÎÎÍÌÌÌÎ> ÍÍÎÏÍÏÍÍÎÎÎÏÏÏÌÌÍÏÎÍÎÏÌ; // 0xE8
-        public System.Collections.Generic.List`1<ÏÏÌÍÍÌÍÍÍÏÎÍÍÎÎÌÎÎÍÌÌÌÎ> ÌÌÏÏÏÌÏÏÎÍÏÍÍÍÎÍÍÍÏÎÏÏÍ; // 0xF0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÌÌÍÎÏÌÍÌÍÏÏÎÏÏÎÌÏÏÍÍÏÍÌ>> ÌÌÌÎÍÌÏÍÏÍÌÎÎÌÎÎÍÍÍÍÎÍÍ; // 0xF8
-        public float ÌÌÏÏÎÏÏÌÏÍÎÌÍÎÎÎÎÌÎÏÏÍÏ;
-        public float ÍÍÌÌÌÌÎÍÎÏÎÏÏÏÌÎÍÎÏÍÌÏÍ; // 0x10
-        public System.Collections.Generic.List`1<ÍÍÍÏÎÍÌÎÏÌÌÏÍÎÍÏÍÌÏÌÌÎÍ> ÍÌÎÏÎÏÏÍÎÍÎÌÌÏÏÌÍÌÌÌÏÍÎ; // 0x100
-        public UnityEngine.Coroutine ÎÎÎÌÏÎÎÌÌÌÏÎÌÏÎÌÌÎÏÏÎÍÎ; // 0x108
-        public UnityEngine.Coroutine ÎÍÎÌÎÌÏÍÌÏÌÌÍÌÍÎÍÏÎÌÎÍÏ; // 0x110
-        public UnityEngine.Camera ÌÌÏÍÌÏÌÎÌÌÎÏÏÎÎÏÎÌÍÎÌÏÎ; // 0x118
-        public ÏÌÎÎÍÎÌÍÍÌÍÌÏÏÌÏÌÎÌÍÎÎÏ ÌÎÏÌÌÌÍÌÍÌÏÏÏÌÍÍÏÍÌÏÌÎÌ; // 0x120
-        public System.Collections.Generic.Dictionary`2<0x6634F940,byte[]> ÎÌÏÏÍÍÌÌÏÌÌÎÍÌÏÌÌÏÏÎÏÍÎ; // 0x18
-        public System.Collections.Generic.Dictionary`2<byte,System.Type> ÌÎÏÍÏÏÍÎÎÍÏÍÏÎÎÏÏÌÍÍÏÍÌ; // 0x20
-        public int ÌÍÌÏÍÌÎÏÎÎÏÍÏÏÍÏÍÏÌÌÏÌÍ;
-        public int ÍÌÏÌÍÎÎÏÏÌÍÏÎÎÏÏÎÎÌÍÌÍÏ;
-        public int ÌÍÎÍÍÌÏÌÏÍÏÎÎÌÎÎÍÌÎÏÍÌÍ;
-        public bool <ÏÌÎÍÍÍÌÎÍÌÌÏÍÌÏÍÏÎÎÍÌÍÏ>k__BackingField; // 0x128
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_D9E;
+        public object f_768;
+        public object f_2BC;
+        public object f_FC3;
+        public object f_004;
+        public object f_473;
+        public object f_BCF;
+        public object f_185;
+        public object f_4E6;
+        public object f_D41;
+        public object f_8F6;
+        public object f_BD1;
+        public object f_C7C;
+        public object f_53A;
+        public object f_D2B;
+        public object f_F92;
+        public object f_D03;
+        public object f_1AA;
+        public object f_576;
+        public object f_550;
+        public object f_60D;
+        public object f_D8C;
+        public object f_653;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E9C5F60
@@ -2462,92 +1790,62 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÎÎÎÌÌÏÏÎÏÎÍÏÏÏÌÍÌÍÎÍÏÌÎ</summary>
     public class Major148m_82E5 : Object
     {
-        public string _name;
-        public string _hideFlags;
-        public string f_B80;
-        public string f_721;
-        public string f_A40;
-        public bool f_AA8; // 0x10
-        public bool f_5F6;
-        public bool f_291; // 0x1
-        public bool f_294; // 0x2
-        public bool f_5B4; // 0x3
-        public bool f_162; // 0x4
-        public System.DateTime f_F9C; // 0x8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_252; // 0x10
-        public bool f_F1A; // 0x18
-        public string f_4D8; // 0x20
-        public string f_91A; // 0x28
-        public string f_148; // 0x30
-        public string f_386; // 0x38
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_FFD; // 0x40
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_24F; // 0x48
-        public string f_A3D; // 0x50
-        public System.Collections.Generic.List`1<0x66413C60> f_C26; // 0x58
-        public bool f_268; // 0x60
-        public bool f_0F1; // 0x61
-        public string f_253; // 0x68
-        public bool f_F3A; // 0x70
-        public System.DateTime f_A07; // 0x78
-        public string f_B94; // 0x80
-        public string f_E06; // 0x88
-        public string f_7E3; // 0x90
-        public string f_0CC; // 0x98
-        public string f_0AB; // 0xA0
-        public string f_99A; // 0xA8
-        public string f_3DD; // 0xB0
-        public bool f_1BC; // 0xB8
-        public bool f_377; // 0xB9
-        public bool f_80D; // 0xBA
-        public 0x664D6400 f_E49; // 0xC0
-        public 0x664D6400 f_DD4; // 0xC8
-        public 0x664D6400 f_EC5; // 0xD0
-        public 0x664D6400 f_90A; // 0xD8
-        public string f_9F0;
-        public string f_735;
-        public string f_B3E;
-        public string f_B4C;
-        public string f_554;
-        public string f_BB2;
-        public string f_742;
-        public string f_5C1;
-        public string f_ED5;
-        public string f_8B7;
-        public float f_40C;
-        public float f_DFA; // 0xE0
-        public string f_FB6;
-        public string f_A5B;
-        public string f_AAD;
-        public string ÌÎÏÍÏÎÎÏÍÏÏÎÏÎÍÏÎÎÏÎÍÍÌ;
-        public string ÎÎÌÎÌÌÎÌÍÍÌÏÏÎÏÏÌÍÍÍÌÍÏ;
-        public float ÍÎÍÎÏÌÌÍÍÏÏÎÎÎÍÍÎÎÏÍÍÍÏ;
-        public float ÏÍÎÌÏÏÏÎÌÌÏÎÌÎÎÏÍÌÍÍÍÎÏ;
-        public float ÏÍÎÏÏÎÎÏÎÎÌÎÎÌÎÌÎÎÏÎÌÏÌ; // 0xE4
-        public float ÌÌÏÌÍÍÎÍÌÎÏÌÎÎÍÌÍÎÌÌÌÌÍ; // 0xE8
-        public bool ÌÏÎÌÎÎÏÏÌÏÏÏÍÍÏÌÌÏÏÏÎÌÏ; // 0xEC
-        public bool ÎÎÏÌÏÏÌÏÏÍÌÌÌÍÎÎÌÍÎÍÌÏÍ; // 0xED
-        public bool ÍÍÌÏÏÏÍÌÍÍÌÍÎÏÌÏÍÎÎÏÌÍÍ; // 0xEE
-        public ulong ÏÏÏÌÎÏÍÏÌÌÏÏÏÌÏÏÏÎÏÎÍÎÌ; // 0xF0
-        public bool ÏÎÎÏÌÌÍÏÏÍÍÏÌÎÌÎÏÍÏÌÎÎÏ; // 0x11
-        public bool ÎÏÎÎÏÍÎÌÍÍÏÍÏÌÏÎÎÌÍÌÍÌÍ; // 0x12
-        public System.Action ÏÌÌÏÎÌÏÏÌÌÍÍÌÍÌÏÏÏÍÌÏÌÏ; // 0xF8
-        public bool ÏÏÌÏÌÌÏÎÎÎÍÏÍÎÌÍÌÏÌÏÎÌÏ; // 0x100
-        public bool ÎÌÏÎÌÌÍÌÏÏÍÎÌÎÍÎÎÎÏÎÏÏÏ; // 0x101
-        public System.Action`1<bool> ÎÌÌÎÍÏÌÏÌÎÏÌÍÌÎÍÏÌÌÏÎÏÍ; // 0x108
-        public VRC.Localization.LocalizableString <ÌÍÍÎÌÏÎÍÌÏÍÍÍÎÍÍÍÏÎÌÌÏÍ>k__BackingField; // 0x110
-        public VRC.Localization.LocalizableString <ÌÍÍÌÏÏÌÌÏÎÍÍÍÍÌÍÏÌÌÏÏÏÌ>k__BackingField; // 0x138
-        public VRC.Localization.LocalizableString <ÌÍÎÍÎÌÍÍÎÎÌÏÏÌÍÎÏÏÏÎÌÏÏ>k__BackingField; // 0x160
-        public VRC.Localization.LocalizableString <ÎÏÍÌÌÍÎÎÍÎÍÌÏÍÏÌÍÏÍÎÍÍÍ>k__BackingField; // 0x188
-        public VRC.Localization.LocalizableString <ÌÍÌÌÍÍÌÏÌÍÌÌÎÌÎÏÌÎÌÍÌÌÌ>k__BackingField; // 0x1B0
-        public VRC.Localization.LocalizableString <ÎÎÎÎÍÏÍÏÍÍÌÍÎÎÏÏÍÌÌÌÌÌÍ>k__BackingField; // 0x1D8
-        public string ÎÏÎÏÌÌÍÎÏÎÏÍÎÍÌÌÎÏÏÎÎÎÏ; // 0x200
-        public string ÍÌÍÍÍÍÌÌÍÍÍÌÎÏÌÌÏÏÌÍÍÍÏ; // 0x208
-        public System.Action ÍÎÌÎÍÌÍÍÏÌÎÍÌÌÎÎÏÌÌÌÌÍÎ; // 0x210
-        public VRC.Core.ApiUserPermissions ÌÍÏÌÎÍÎÌÌÏÌÎÎÏÍÌÌÌÏÍÍÌÏ; // 0x218
-        public System.Action ÏÍÍÎÎÎÍÎÎÍÌÌÎÏÍÎÌÍÌÌÎÏÎ; // 0x18
-        public 0x664D07E0 <ÌÌÏÏÌÌÎÏÎÍÏÌÎÏÍÏÌÏÎÏÎÏÌ>k__BackingField; // 0x20
-        public 0x664D0838 <ÎÎÍÎÎÌÏÍÎÍÌÌÍÌÎÍÏÏÏÌÏÏÏ>k__BackingField; // 0x28
-        public System.Action`1<0x664D0890> ÍÍÎÌÏÌÍÌÎÍÎÎÎÍÏÏÎÎÍÎÍÌÍ; // 0x30
+        public object _name;
+        public object _hideFlags;
+        public object f_B80;
+        public object f_721;
+        public object f_A40;
+        public object f_AA8;
+        public object f_5F6;
+        public object f_291;
+        public object f_294;
+        public object f_5B4;
+        public object f_162;
+        public object f_F9C;
+        public object f_252;
+        public object f_F1A;
+        public object f_4D8;
+        public object f_91A;
+        public object f_148;
+        public object f_386;
+        public object f_FFD;
+        public object f_24F;
+        public object f_A3D;
+        public object f_C26;
+        public object f_268;
+        public object f_0F1;
+        public object f_253;
+        public object f_F3A;
+        public object f_A07;
+        public object f_B94;
+        public object f_E06;
+        public object f_7E3;
+        public object f_0CC;
+        public object f_0AB;
+        public object f_99A;
+        public object f_3DD;
+        public object f_1BC;
+        public object f_377;
+        public object f_80D;
+        public object f_E49;
+        public object f_DD4;
+        public object f_EC5;
+        public object f_90A;
+        public object f_9F0;
+        public object f_735;
+        public object f_B3E;
+        public object f_B4C;
+        public object f_554;
+        public object f_BB2;
+        public object f_742;
+        public object f_5C1;
+        public object f_ED5;
+        public object f_8B7;
+        public object f_40C;
+        public object f_DFA;
+        public object f_FB6;
+        public object f_A5B;
+        public object f_AAD;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EE3D120
@@ -2701,140 +1999,17 @@ namespace VRC.Core.MajorSystem
     /// <summary>Originally: ÎÎÌÎÍÏÍÌÍÌÌÍÌÍÏÎÎÌÍÎÌÎÎ</summary>
     public class MajorSystem_13C5 : MonoBehaviour
     {
-        public string _destroyCancellationToken;
-        public string _useGUILayout;
-        public string f_66C;
-        public string f_A68;
-        public string f_61C;
-        public string f_630;
-        public string f_AD1;
-        public string f_798;
-        public string f_4BC;
-        public string f_E72;
-        public string f_122;
-        public string ÏÍÍÎÌÎÍÏÍÍÍÌÎÏÌÎÎÏÎÏÍÍÍ;
-        public string ÎÏÌÏÌÎÎÍÌÍÏÎÎÏÍÏÌÍÎÌÎÍÌ;
-        public float ÏÍÏÌÌÎÎÏÏÎÏÎÎÌÌÏÏÎÍÎÎÍÎ;
-        public bool ÍÌÏÍÌÎÍÎÎÏÏÏÎÎÎÍÏÌÎÍÌÍÌ;
-        public bool ÌÏÌÏÎÎÌÍÏÍÏÌÎÎÎÍÌÎÍÏÎÌÎ;
-        public System.Action ÍÏÏÍÏÎÎÍÎÏÌÍÎÍÌÏÌÌÌÎÏÌÌ;
-        public ÍÍÎÌÏÎÎÌÍÎÏÏÎÏÏÎÍÎÎÌÌÏÎ ÏÌÎÌÍÍÏÍÍÏÏÍÌÏÏÍÍÏÌÎÎÍÍ; // 0x20
-        public bool ÍÎÎÍÌÍÏÎÌÍÍÌÎÎÎÍÌÌÍÌÍÍÏ; // 0x28
-        public string ÍÎÍÍÏÎÎÎÏÎÎÎÌÌÍÌÌÌÎÍÏÌÌ; // 0x8
-        public int ÏÍÎÎÌÌÏÎÏÍÎÏÌÏÌÏÎÌÌÎÌÍÎ; // 0x2C
-        public int ÏÌÌÍÍÍÏÍÌÏÍÌÏÍÏÍÏÌÏÎÍÍÎ; // 0x30
-        public int ÏÎÌÍÌÎÎÍÎÌÏÎÏÏÏÌÌÎÍÏÎÏÌ; // 0x34
-        public int ÎÌÌÍÌÏÎÌÍÍÏÌÎÍÎÏÎÌÍÏÏÏÏ; // 0x38
-        public int ÌÌÍÏÌÌÌÍÍÎÌÏÎÏÏÏÍÍÌÏÍÏÎ; // 0x3C
-        public int ÎÎÎÌÎÍÏÎÎÏÍÎÏÏÍÍÌÍÏÍÎÍÍ; // 0x40
-        public System.Collections.Generic.HashSet`1<string> ÏÍÌÍÏÍÍÏÌÌÏÍÏÏÏÎÌÏÍÌÏÌÌ; // 0x10
-        public System.Collections.Generic.Dictionary`2<9,string> ÏÍÏÍÌÎÎÏÍÌÏÏÎÌÎÍÌÍÏÌÌÌÍ; // 0x18
-        public ulong ÎÎÏÏÌÎÏÌÎÍÏÍÏÏÎÎÍÌÎÍÎÎÌ; // 0x48
-        public float ÍÏÌÍÎÎÎÎÍÍÍÏÍÎÏÍÎÍÌÎÏÍÌ; // 0x50
-        public float ÌÌÎÍÏÎÏÎÌÏÏÎÌÎÌÍÍÌÏÎÏÎÍ;
-        public int ÎÎÏÍÏÎÌÏÎÎÌÎÍÏÌÎÌÏÌÌÎÌÏ; // 0x54
-        public string ÏÏÎÌÎÏÍÏÍÎÍÎÌÍÎÎÍÏÍÏÎÏÍ; // 0x20
-        public string ÎÎÍÏÏÎÎÍÎÍÏÌÎÍÏÏÏÌÎÍÍÍÌ; // 0x28
-        public VRC.Core.ApiWorld ÏÍÍÎÏÌÍÍÍÌÌÍÌÏÍÍÎÌÌÍÌÌÌ; // 0x30
-        public VRC.Core.ApiWorldInstance ÌÏÌÏÍÍÏÍÏÏÏÏÌÌÎÌÎÎÎÎÏÎÎ; // 0x38
-        public System.Collections.Generic.Dictionary`2<string,object> ÏÎÏÏÍÌÌÎÎÍÎÍÏÌÌÏÏÍÎÎÎÎÌ; // 0x40
-        public System.Collections.Generic.Dictionary`2<string,object> ÌÏÌÎÌÏÌÍÍÍÎÏÏÌÎÌÏÏÌÌÏÌÌ; // 0x48
-        public System.Collections.Generic.HashSet`1<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ> ÏÏÏÏÎÌÌÌÌÍÎÏÍÏÌÌÏÎÍÍÌÎÍ; // 0x50
-        public System.Collections.Generic.HashSet`1<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ> ÌÌÌÍÌÍÏÎÍÏÎÎÎÍÌÍÌÍÏÌÏÏÏ; // 0x58
-        public System.Collections.Generic.HashSet`1<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ> ÌÎÍÏÍÍÍÏÏÌÌÎÍÏÍÏÎÍÏÎÍÍÏ; // 0x60
-        public System.Collections.Generic.HashSet`1<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ> ÌÎÌÌÏÏÎÎÌÌÎÏÎÎÎÏÌÍÌÎÎÌÏ; // 0x68
-        public System.Collections.Generic.List`1<string> ÎÍÌÏÌÌÎÍÏÌÎÏÏÎÎÏÎÏÎÎÎÌÏ; // 0x58
-        public VRC.Core.ApiWorld ÏÏÎÏÏÎÎÏÍÎÏÎÏÎÌÏÍÎÎÎÏÎÏ; // 0x70
-        public VRC.Core.ApiWorldInstance ÌÎÌÎÏÎÌÌÏÏÎÎÌÏÎÎÎÍÏÏÏÎÍ; // 0x78
-        public bool ÏÍÌÎÎÎÌÍÌÍÍÏÏÍÍÌÌÏÏÏÌÎÎ; // 0x80
-        public int ÎÌÏÎÏÍÌÌÌÍÏÌÌÌÌÎÎÍÏÎÍÍÎ; // 0x84
-        public int ÍÍÍÎÏÍÌÌÏÎÏÍÍÎÍÍÍÌÏÍÎÎÌ; // 0x88
-        public int ÍÎÏÏÍÎÌÏÏÎÌÌÏÍÏÎÍÍÌÏÍÎÏ; // 0x8C
-        public int ÌÏÌÌÌÌÌÌÌÎÎÍÏÍÎÍÍÎÍÏÌÌÎ; // 0x90
-        public int ÎÍÌÎÎÍÎÎÍÎÏÍÍÍÏÏÏÏÍÏÎÏÎ; // 0x94
-        public int ÍÌÏÏÌÍÎÎÏÏÍÎÌÎÌÍÎÏÎÍÍÏÌ; // 0x98
-        public int ÎÍÎÌÎÍÍÏÏÎÎÍÏÌÍÍÏÎÍÎÍÎÍ; // 0x9C
-        public int ÌÌÎÌÌÌÎÌÍÌÌÍÍÌÎÌÎÏÍÎÏÍÏ; // 0xA0
-        public int ÍÍÏÎÍÎÏÏÌÌÎÏÎÌÎÍÏÏÌÎÎÏÏ; // 0xA4
-        public int ÍÎÎÌÌÍÍÌÏÍÍÌÍÍÎÍÏÏÌÏÏÌÏ; // 0xA8
-        public int ÏÍÎÎÏÎÌÎÍÌÌÍÍÌÍÎÎÎÎÍÎÎÍ; // 0xAC
-        public int ÌÌÍÍÏÍÏÎÎÍÏÌÎÎÎÍÍÍÎÍÌÌÎ; // 0xB0
-        public int ÎÌÌÌÏÌÌÍÍÏÍÏÍÎÏÌÏÍÍÏÌÍÎ; // 0xB4
-        public int ÎÏÎÏÏÎÍÌÌÌÎÍÍÎÎÎÍÌÍÏÏÏÎ; // 0xB8
-        public int ÏÎÎÏÌÌÍÌÍÌÌÍÌÎÍÏÍÏÍÌÌÎÎ; // 0xBC
-        public int ÍÌÎÌÎÎÌÌÎÏÎÌÍÏÌÏÏÎÌÍÍÏÎ; // 0xC0
-        public int ÎÍÏÎÏÏÌÍÏÏÎÌÍÏÏÌÍÍÌÌÌÌÍ; // 0xC4
-        public int ÏÏÎÏÏÌÍÌÌÏÌÏÍÍÍÍÍÏÏÌÏÍÎ; // 0xC8
-        public int ÎÏÏÌÍÏÎÍÍÏÏÌÌÎÌÌÌÌÎÌÏÍÌ; // 0xCC
-        public int ÎÎÎÎÌÌÍÏÎÌÍÎÌÏÍÌÎÏÎÍÍÌÌ; // 0xD0
-        public int ÌÎÍÍÌÍÏÍÌÎÌÌÎÏÍÏÏÌÎÎÏÍÌ; // 0xD4
-        public int ÌÏÏÏÏÎÎÍÎÎÌÏÌÍÌÍÎÏÎÍÏÌÏ; // 0xD8
-        public System.Collections.Generic.List`1<string> ÌÍÎÌÌÍÏÏÍÌÏÍÍÍÍÍÏÍÏÍÏÌÎ; // 0xE0
-        public int ÏÍÏÎÎÍÍÍÌÍÌÏÎÌÍÎÎÏÍÎÍÎÏ; // 0xE8
-        public int ÎÏÏÍÌÏÎÏÌÏÏÌÌÎÎÏÍÌÌÎÎÎÎ; // 0xEC
-        public int ÌÏÍÌÌÍÍÏÌÍÎÏÍÌÏÍÏÎÍÎÏÍÏ; // 0xF0
-        public int ÍÌÍÌÎÎÎÎÍÎÎÏÍÏÎÏÎÌÎÌÏÎÏ; // 0xF4
-        public int ÏÌÎÌÌÏÎÏÌÌÍÎÏÍÎÎÍÎÎÍÌÎÎ; // 0xF8
-        public int ÏÏÎÎÍÏÌÌÎÌÌÏÏÌÍÌÌÍÏÏÍÎÎ; // 0xFC
-        public bool ÍÎÏÏÏÏÌÌÎÍÎÌÎÏÏÌÎÏÎÌÍÎÌ; // 0x100
-        public bool ÌÏÎÎÍÏÎÏÏÍÍÍÎÍÌÏÏÎÍÌÏÍÍ; // 0x101
-        public System.Collections.Generic.List`1<System.Collections.Generic.Dictionary`2<string,object>> ÏÌÎÏÏÍÎÍÌÍÍÍÍÏÌÏÎÎÎÌÎÎÌ; // 0x108
-        public System.Collections.Generic.List`1<System.Collections.Generic.Dictionary`2<string,object>> ÍÎÎÍÏÍÌÎÌÏÏÏÏÌÎÍÎÌÍÍÍÍÌ; // 0x110
-        public System.Collections.Generic.List`1<string> ÌÍÌÎÌÍÍÍÎÍÏÍÍÌÎÎÎÎÏÍÏÌÍ; // 0x118
-        public System.Collections.Generic.List`1<string> ÏÎÏÌÌÌÍÌÏÌÏÌÏÌÍÍÎÎÍÏÎÏÎ; // 0x120
-        public System.Collections.Generic.Dictionary`2<string,0x665B2DA0> ÎÍÎÏÎÎÌÏÍÍÍÍÎÍÍÌÏÌÍÏÌÎÎ; // 0x128
-        public float ÍÏÏÏÎÌÌÎÌÏÎÏÏÍÌÍÎÌÎÎÍÍÍ; // 0x130
-        public int ÍÎÏÍÍÌÏÎÍÌÌÍÎÏÏÌÌÎÏÏÏÌÏ; // 0x134
-        public int ÌÍÍÎÎÎÎÌÌÎÎÌÎÎÍÏÏÌÏÌÍÏÎ; // 0x138
-        public int ÌÍÏÎÌÌÍÎÎÌÏÎÎÌÌÍÏÏÎÏÍÎÍ; // 0x13C
-        public int ÍÍÍÌÌÏÏÍÎÌÎÎÏÌÍÌÍÌÍÏÏÌÍ; // 0x140
-        public int ÏÍÎÎÏÏÎÍÍÏÌÎÏÍÍÏÎÍÍÍÌÍÌ; // 0x144
-        public int ÎÎÍÍÏÍÌÍÍÎÏÌÍÌÎÍÎÍÎÏÍÎÍ; // 0x148
-        public int ÏÌÍÎÎÎÏÌÎÏÍÎÏÍÎÍÏÏÎÏÏÎÌ; // 0x14C
-        public int ÏÎÌÌÏÎÌÌÍÌÎÏÌÌÍÎÎÍÎÎÍÎÏ; // 0x150
-        public int ÏÍÍÌÌÏÍÍÌÏÍÏÏÌÍÏÏÏÎÌÍÌÍ; // 0x154
-        public int ÎÎÍÏÎÌÏÌÌÎÎÏÏÌÌÎÌÌÍÏÎÌÌ; // 0x158
-        public int ÎÍÎÌÏÏÍÌÎÍÎÏÍÍÍÏÍÍÏÏÎÏÎ; // 0x15C
-        public int ÍÎÎÎÌÏÌÏÎÏÎÎÍÍÏÍÎÌÏÍÎÍÎ; // 0x160
-        public int ÎÍÌÏÍÍÍÌÌÌÎÏÏÍÌÎÌÎÎÏÏÍÍ; // 0x164
-        public int ÌÏÌÎÎÌÍÍÎÌÎÏÍÎÌÏÍÎÍÍÌÍÍ; // 0x168
-        public int ÍÍÎÌÎÏÍÍÏÌÌÌÌÎÏÎÎÍÍÏÍÌÎ; // 0x16C
-        public int ÌÌÍÏÍÏÌÎÏÎÌÎÎÍÏÌÌÌÌÍÌÎÍ; // 0x170
-        public System.Collections.Generic.HashSet`1<string> ÏÎÍÎÏÍÍÍÎÎÌÍÌÎÏÍÍÎÍÎÌÏÍ; // 0x178
-        public System.Collections.Generic.HashSet`1<string> ÏÍÎÌÌÏÌÌÍÏÎÌÍÌÏÌÌÌÌÌÌÏÌ; // 0x180
-        public int ÌÍÎÏÏÌÌÏÎÎÏÌÍÏÍÏÍÏÌÏÏÏÏ; // 0x188
-        public int ÌÍÎÎÏÎÌÍÏÏÏÎÏÎÌÌÏÏÍÎÏÎÏ; // 0x18C
-        public System.Collections.Generic.HashSet`1<string> ÍÏÍÎÎÍÌÌÎÍÏÏÏÍÎÏÎÌÎÎÍÍÌ; // 0x190
-        public System.Collections.Generic.HashSet`1<string> ÎÏÎÌÏÍÍÎÌÎÎÏÏÎÎÌÌÏÍÎÎÍÏ; // 0x198
-        public System.Collections.Generic.HashSet`1<string> ÎÍÌÎÎÍÎÎÍÎÌÌÎÌÌÍÍÌÌÎÍÎÎ; // 0x1A0
-        public System.Collections.Generic.Dictionary`2<string,ÌÌÌÏÎÍÌÌÎÏÍÍÎÎÎÏÏÍÎÌÌÎÌ> ÍÍÍÌÏÏÏÎÏÍÎÍÍÏÎÍÎÎÍÏÌÎÍ; // 0x1A8
-        public int ÎÌÍÌÌÎÌÍÍÎÍÌÏÌÌÍÌÌÌÏÏÍÌ; // 0x1B0
-        public System.Collections.Generic.Dictionary`2<string,int> ÍÌÌÍÍÏÎÌÏÎÎÎÍÎÌÎÌÍÌÎÎÎÎ; // 0x1B8
-        public bool ÌÌÍÍÏÏÌÎÌÍÏÏÏÏÎÌÎÍÌÌÍÌÌ; // 0x60
-        public ÎÎÌÎÍÏÍÌÍÌÌÍÌÍÏÎÎÌÍÎÌÎÎ <ÌÍÍÌÌÍÏÏÍÌÎÌÌÍÏÏÌÌÎÍÌÌÏ>k__BackingField; // 0x1C0
-        public string ÍÍÏÍÌÌÌÍÌÎÎÎÍÎÎÏÍÎÎÏÏÍÏ; // 0x1C8
-        public string ÏÎÌÌÎÌÌÌÍÏÌÍÍÍÌÍÍÎÏÏÏÍÏ; // 0x1D0
-        public bool ÍÏÌÏÎÏÌÏÌÎÏÎÏÌÌÏÏÏÎÏÎÏÏ; // 0x1D8
-        public bool ÍÌÎÏÎÌÌÌÌÎÌÎÎÏÎÍÎÌÍÍÍÏÏ; // 0x1D9
-        public System.Collections.Generic.Dictionary`2<string,int> ÏÏÎÎÎÌÏÍÍÎÎÌÍÎÌÏÏÏÍÌÌÏÎ; // 0x68
-        public int ÌÍÍÍÌÍÌÏÏÍÎÍÍÍÏÌÎÍÍÌÍÍÏ; // 0x70
-        public int ÌÍÏÏÍÍÍÎÎÍÏÍÎÎÏÌÏÎÌÌÌÌÏ; // 0x74
-        public int ÌÏÍÍÎÏÌÏÍÍÍÏÍÏÌÌÏÌÏÌÍÏÎ; // 0x78
-        public int ÎÏÎÍÏÎÍÎÍÏÎÌÍÌÎÏÍÌÌÍÏÌÍ; // 0x7C
-        public string ÏÍÏÎÌÍÎÏÌÎÌÎÏÌÎÎÏÏÌÍÌÌÍ;
-        public float ÍÏÍÏÌÏÎÎÎÏÎÎÌÌÎÎÌÏÌÌÌÏÌ; // 0x1DC
-        public float ÌÍÍÍÎÍÌÌÌÎÍÍÍÏÎÌÌÍÎÍÎÎÍ; // 0x1E0
-        public float ÏÏÏÌÎÏÌÎÏÏÍÍÍÌÎÌÍÌÌÎÎÍÏ; // 0x1E4
-        public int ÏÏÍÌÎÏÌÌÍÍÍÏÍÏÎÍÏÎÍÌÍÍÌ; // 0x1E8
-        public int ÎÏÌÏÌÌÌÍÎÌÎÌÌÌÏÎÎÏÍÍÍÌÏ; // 0x1EC
-        public int ÍÏÌÌÏÏÎÎÍÌÏÏÎÍÌÏÏÏÌÏÏÍÌ; // 0x1F0
-        public int ÎÎÎÏÎÎÍÏÎÌÎÏÍÍÌÍÍÎÏÏÎÍÍ; // 0x1F4
-        public string ÌÌÏÌÎÍÍÎÌÎÏÌÎÍÍÌÌÍÍÍÍÌÍ; // 0x1F8
-        public string ÏÎÍÌÍÌÌÌÍÍÎÍÏÎÌÍÍÏÏÌÌÎÎ; // 0x200
-        public string ÏÏÍÍÏÏÍÏÎÎÌÍÏÍÍÎÌÍÏÎÏÍÍ; // 0x208
-        public string ÍÏÎÌÎÌÏÎÍÌÍÍÌÌÌÏÏÏÎÍÏÏÏ;
-        public string ÏÍÎÍÏÏÍÍÌÌÎÎÎÍÍÎÎÍÍÎÍÌÌ;
-        public string ÎÍÎÎÏÍÍÏÏÎÏÍÏÌÍÎÍÍÏÍÌÍÏ;
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_66C;
+        public object f_A68;
+        public object f_61C;
+        public object f_630;
+        public object f_AD1;
+        public object f_798;
+        public object f_4BC;
+        public object f_E72;
+        public object f_122;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EF03FD0

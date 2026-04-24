@@ -7,7 +7,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class DataStorage : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -42,7 +42,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageEntryUnion : Object
     {
-        public 0x6655F890 Type; // 0x10
+        public h8.IsDeletedMember Type; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -67,7 +67,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadata : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void ComputeHash(){} // RVA: 0x7FFD551BC0A0
@@ -115,8 +115,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
         public bool Is8Bit; // 0x10
         public bool DoNotPersist; // 0x11
         public byte Code; // 0x12
-        public System.Collections.Generic.List`1<0x66560128> ComponentInfo; // 0x18
-        public System.Collections.Generic.List`1<0x66560230> Payload; // 0x20
+        public URA.woDigitYearMax<h8.<.cctor>b__7_10> ComponentInfo; // 0x18
+        public URA.woDigitYearMax<h8.?> Payload; // 0x20
         public string InitialPath; // 0x28
 
         // ── Methods ──
@@ -139,7 +139,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectPool : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -169,7 +169,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneGrab : ValueType
     {
-        public Google.FlatBuffers32.Struct ByteBuffer; // 0x10
+        public AssignBinaryExpression.ectoryInformation ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -190,7 +190,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataPair : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -235,7 +235,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataTypeUnion : Object
     {
-        public 0x66560AC8 Type; // 0x10
+        public h8.rDroneBuffer Type; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -288,7 +288,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerStationStateData : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -343,7 +343,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SerializedObjects : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -378,7 +378,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SerializedTypeUnion : Object
     {
-        public 0x66560EE8 Type; // 0x10
+        public h8.serOnly Type; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -407,7 +407,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SparseSerializedObjects : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -439,7 +439,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SyncPlayable : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -468,7 +468,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Udon : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -503,7 +503,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class UdonInfo : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -533,7 +533,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class UdonValueUnion : Object
     {
-        public 0x665625F0 Type; // 0x10
+        public h8.s Type; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -648,7 +648,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3T : Object
     {
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.Vector3T magnitude;
+        public h8.eteValue magnitude;
         public float sqrMagnitude; // 0x10
         public float X; // 0x14
         public float Y; // 0x18
@@ -678,7 +678,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WorldMetadata : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void CompareHash(){} // RVA: 0x7FFD551C0D70
@@ -734,15 +734,15 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WorldMetadataT : Object
     {
-        public 0x66562388 Hash; // 0x10
-        public 0x665622D8 PlayerPersistenceGuid; // 0x18
-        public System.Collections.Generic.List`1<0x66560390> PlayerPersistenceMetadatas; // 0x20
-        public System.Collections.Generic.List`1<0x66560390> ObjectMetadatas; // 0x28
+        public h8.omObjectPool Hash; // 0x10
+        public h8.er PlayerPersistenceGuid; // 0x18
+        public URA.woDigitYearMax<h8.ay8> PlayerPersistenceMetadatas; // 0x20
+        public URA.woDigitYearMax<h8.ay8> ObjectMetadatas; // 0x28
         public int MaximumViewIDs; // 0x30
         public int MinimumViewID; // 0x34
         public int FirstPlayerPersistenceID; // 0x38
         public int MaxPlayerPersistenceID; // 0x3C
-        public System.Collections.Generic.List`1<0x665606A8> NetworkCallingViews; // 0x40
+        public URA.woDigitYearMax<h8.otAsDataStorage> NetworkCallingViews; // 0x40
 
         // ── Methods ──
         public void CompareHash(){} // RVA: 0x7FFD551C3E10
@@ -773,7 +773,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedLong : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public AssignBinaryExpression.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220

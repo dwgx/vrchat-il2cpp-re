@@ -7,9 +7,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 {
     public class FaceLandmarker : BaseVisionTaskApi
     {
-        public 0x66577BA0 _packetCallback; // 0x20
-        public 0x66573000 _normalizedRect; // 0x28
-        public System.Collections.Generic.List`1<Mediapipe.Tasks.Vision.FaceGeometry.Proto.FaceGeometry> _faceGeometriesForRead; // 0x30
+        public dFieldNumber _packetCallback; // 0x20
+        public etBestGrabbingType.Name _normalizedRect; // 0x28
+        public URA.woDigitYearMax<_HasRightX.ltValue> _faceGeometriesForRead; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537203D0
@@ -22,15 +22,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 
     public class FaceLandmarkerOptions : Object
     {
-        public Mediapipe.Tasks.Core.BaseOptions baseOptions; // 0x10
-        public 0x66575EC0 runningMode; // 0x18
+        public lIdFieldNumber.rdio baseOptions; // 0x10
+        public e.ÍÍÏÏÎÎÍÍÍÏÎÏÍÎÍÏÌÏÌÏÌÍÌ runningMode; // 0x18
         public int numFaces; // 0x1C
         public float minFaceDetectionConfidence; // 0x20
         public float minFacePresenceConfidence; // 0x24
         public float minTrackingConfidence; // 0x28
         public bool outputFaceBlendshapes; // 0x2C
         public bool outputFaceTransformationMatrixes; // 0x2D
-        public 0x66576B78 resultCallback; // 0x30
+        public maxDefaultValue resultCallback; // 0x30
 
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x7FFD4E35C380
@@ -49,9 +49,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 
     public class FaceLandmarkerResult : ValueType
     {
-        public System.Collections.Generic.List`1<0x66578438> faceLandmarks; // 0x10
-        public System.Collections.Generic.List`1<0x66578178> faceBlendshapes; // 0x18
-        public System.Collections.Generic.List`1<UnityEngine.Matrix4x4> facialTransformationMatrixes; // 0x20
+        public URA.woDigitYearMax<gBox.ypoints> faceLandmarks; // 0x10
+        public URA.woDigitYearMax<gBox.set_Mask> faceBlendshapes; // 0x18
+        public URA.woDigitYearMax<tSizeBias> facialTransformationMatrixes; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F88FCC0

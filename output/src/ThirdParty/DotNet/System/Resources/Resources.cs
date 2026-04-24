@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.System.Resources
 {
     public class NeutralResourcesLanguageAttribute : Attribute
     {
-        public string CultureName; // 0x10
-        public 0x66437D88 Location; // 0x18
+        public object CultureName;
+        public object Location;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53900500
@@ -18,7 +18,7 @@ namespace ThirdParty.DotNet.System.Resources
 
     public class SatelliteContractVersionAttribute : Attribute
     {
-        public string Version; // 0x10
+        public object Version;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539025D0

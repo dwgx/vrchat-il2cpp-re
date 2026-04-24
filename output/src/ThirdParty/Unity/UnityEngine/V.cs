@@ -9,14 +9,14 @@ namespace ThirdParty.Unity.UnityEngine
     {
         public float Item; // 0x10
         public float normalized; // 0x14
-        public UnityEngine.Vector2 magnitude;
-        public UnityEngine.Vector2 sqrMagnitude; // 0x8
-        public UnityEngine.Vector2 zero; // 0x10
-        public UnityEngine.Vector2 one; // 0x18
-        public UnityEngine.Vector2 up; // 0x20
-        public UnityEngine.Vector2 down; // 0x28
-        public UnityEngine.Vector2 left; // 0x30
-        public UnityEngine.Vector2 right; // 0x38
+        public tionX magnitude;
+        public tionX sqrMagnitude; // 0x8
+        public tionX zero; // 0x10
+        public tionX one; // 0x18
+        public tionX up; // 0x20
+        public tionX down; // 0x28
+        public tionX left; // 0x30
+        public tionX right; // 0x38
         public float positiveInfinity;
         public float negativeInfinity;
 
@@ -70,12 +70,12 @@ namespace ThirdParty.Unity.UnityEngine
     {
         public int x; // 0x10
         public int y; // 0x14
-        public UnityEngine.Vector2Int Item;
-        public UnityEngine.Vector2Int magnitude; // 0x8
-        public UnityEngine.Vector2Int sqrMagnitude; // 0x10
-        public UnityEngine.Vector2Int zero; // 0x18
-        public UnityEngine.Vector2Int one; // 0x20
-        public UnityEngine.Vector2Int up; // 0x28
+        public onY Item;
+        public onY magnitude; // 0x8
+        public onY sqrMagnitude; // 0x10
+        public onY zero; // 0x18
+        public onY one; // 0x20
+        public onY up; // 0x28
 
         // ── Methods ──
         public void get_x(){} // RVA: 0x7FFD543B3F90
@@ -124,16 +124,16 @@ namespace ThirdParty.Unity.UnityEngine
         public float magnitude; // 0x10
         public float sqrMagnitude; // 0x14
         public float zero; // 0x18
-        public UnityEngine.Vector3 one;
-        public UnityEngine.Vector3 forward; // 0xC
-        public UnityEngine.Vector3 back; // 0x18
-        public UnityEngine.Vector3 up; // 0x24
-        public UnityEngine.Vector3 down; // 0x30
-        public UnityEngine.Vector3 left; // 0x3C
-        public UnityEngine.Vector3 right; // 0x48
-        public UnityEngine.Vector3 positiveInfinity; // 0x54
-        public UnityEngine.Vector3 negativeInfinity; // 0x60
-        public UnityEngine.Vector3 negativeInfinityVector; // 0x6C
+        public amut one;
+        public amut forward; // 0xC
+        public amut back; // 0x18
+        public amut up; // 0x24
+        public amut down; // 0x30
+        public amut left; // 0x3C
+        public amut right; // 0x48
+        public amut positiveInfinity; // 0x54
+        public amut negativeInfinity; // 0x60
+        public amut negativeInfinityVector; // 0x6C
 
         // ── Methods ──
         public void Slerp(){} // RVA: 0x7FFD54CCD7D0
@@ -199,14 +199,14 @@ namespace ThirdParty.Unity.UnityEngine
         public int x; // 0x10
         public int y; // 0x14
         public int z; // 0x18
-        public UnityEngine.Vector3Int Item;
-        public UnityEngine.Vector3Int magnitude; // 0xC
-        public UnityEngine.Vector3Int sqrMagnitude; // 0x18
-        public UnityEngine.Vector3Int zero; // 0x24
-        public UnityEngine.Vector3Int one; // 0x30
-        public UnityEngine.Vector3Int up; // 0x3C
-        public UnityEngine.Vector3Int down; // 0x48
-        public UnityEngine.Vector3Int left; // 0x54
+        public lutionZ Item;
+        public lutionZ magnitude; // 0xC
+        public lutionZ sqrMagnitude; // 0x18
+        public lutionZ zero; // 0x24
+        public lutionZ one; // 0x30
+        public lutionZ up; // 0x3C
+        public lutionZ down; // 0x48
+        public lutionZ left; // 0x54
 
         // ── Methods ──
         public void get_x(){} // RVA: 0x7FFD543B3F90
@@ -259,10 +259,10 @@ namespace ThirdParty.Unity.UnityEngine
         public float magnitude; // 0x14
         public float sqrMagnitude; // 0x18
         public float zero; // 0x1C
-        public UnityEngine.Vector4 one;
-        public UnityEngine.Vector4 positiveInfinity; // 0x10
-        public UnityEngine.Vector4 negativeInfinity; // 0x20
-        public UnityEngine.Vector4 negativeInfinityVector; // 0x30
+        public get_boundingBoxMode one;
+        public get_boundingBoxMode positiveInfinity; // 0x10
+        public get_boundingBoxMode negativeInfinity; // 0x20
+        public get_boundingBoxMode negativeInfinityVector; // 0x30
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD4E3659C0

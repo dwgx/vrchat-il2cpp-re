@@ -7,7 +7,7 @@ namespace VRC.OSCQuery
 {
     public class Attributes : Object
     {
-        public System.Collections.Generic.Dictionary`2<System.Type,string> _oscTypeLookup;
+        public URA.DateTime<?,string> _oscTypeLookup;
         public string CONTENTS;
         public string HOST_INFO;
         public string FULL_PATH;
@@ -34,8 +34,8 @@ namespace VRC.OSCQuery
 
     public class Extensions : Object
     {
-        public 0x66602840 _client;
-        public 0x66499F70 DefaultLoopbackEndpoint; // 0x8
+        public eHeaderAsync>d__29.nContinuation _client;
+        public ialized.ndex DefaultLoopbackEndpoint; // 0x8
 
         // ── Methods ──
         public void SkipLast(){} // RVA: 0x7FFD4E088090
@@ -50,7 +50,7 @@ namespace VRC.OSCQuery
     public class HostInfo : Object
     {
         public string name; // 0x10
-        public System.Collections.Generic.Dictionary`2<string,bool> extensions; // 0x18
+        public URA.DateTime<string,bool> extensions; // 0x18
         public string oscIP; // 0x20
         public int oscPort; // 0x28
         public string oscTransport; // 0x30
@@ -78,11 +78,11 @@ namespace VRC.OSCQuery
     {
         public string ParentPath; // 0x10
         public string Name; // 0x18
-        public 0x66629930 Access; // 0x20
-        public System.Collections.Generic.Dictionary`2<string,VRC.OSCQuery.OSCQueryNode> Contents; // 0x28
+        public et_EnableBurstSafetyChecks Access; // 0x20
+        public URA.DateTime<string,gate.MultiplyPow10> Contents; // 0x28
         public string OscType; // 0x30
         public object[] Value; // 0x38
-        public Newtonsoft.Json.JsonSerializerSettings WriteSettings;
+        public ex.siteShoulder WriteSettings;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3A7E80 | overloaded x2
@@ -95,7 +95,7 @@ namespace VRC.OSCQuery
 
     public class OSCQueryRootNode : OSCQueryNode
     {
-        public System.Collections.Generic.Dictionary`2<string,VRC.OSCQuery.OSCQueryNode> _pathLookup; // 0x40
+        public URA.DateTime<string,gate.MultiplyPow10> _pathLookup; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55145870
@@ -110,22 +110,22 @@ namespace VRC.OSCQuery
     public class OSCQueryService : Object
     {
         public int TcpPort; // 0x10
-        public 0x66499EC0 OscPort; // 0x18
-        public 0x66499EC0 ServerName; // 0x20
-        public Microsoft.Extensions.Logging.ILogger`1<VRC.OSCQuery.OSCQueryService> HostIP;
-        public 0x66499EC0 OscIP; // 0x28
+        public ialized.lsProvider OscPort; // 0x18
+        public ialized.lsProvider ServerName; // 0x20
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.et_stencilReference<gate.9> HostIP;
+        public ialized.lsProvider OscIP; // 0x28
         public int Logger;
         public int LocalIp;
         public string Discovery;
         public string HostInfo; // 0x8
         public string RootNode; // 0x10
-        public System.Collections.Generic.HashSet`1<string> MatchedNames; // 0x18
-        public VRC.OSCQuery.IDiscovery _discovery; // 0x30
-        public System.Action`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> OnOscServiceAdded; // 0x38
-        public System.Action`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> OnOscQueryServiceAdded; // 0x40
-        public ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÍÍÏÌÌÎÌÍÍÍÍ _http; // 0x48
-        public VRC.OSCQuery.HostInfo _hostInfo; // 0x50
-        public VRC.OSCQuery.OSCQueryRootNode _rootNode; // 0x58
+        public URA.onsDepth<string> MatchedNames; // 0x18
+        public gate.4 _discovery; // 0x30
+        public ileFullDirectoryInformation<gate.4> OnOscServiceAdded; // 0x38
+        public ileFullDirectoryInformation<gate.4> OnOscQueryServiceAdded; // 0x40
+        public gate.tyChecks _http; // 0x48
+        public gate.eBurstCompilationSynchronously _hostInfo; // 0x50
+        public gate.nternal _rootNode; // 0x58
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55148980 | overloaded x2

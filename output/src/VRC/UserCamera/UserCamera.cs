@@ -7,12 +7,12 @@ namespace VRC.UserCamera
 {
     public class CameraPin : ScriptableObject
     {
-        public UnityEngine.Vector3 Position; // 0x18
-        public UnityEngine.Quaternion Rotation; // 0x24
-        public 0x6638B7A0 Space; // 0x34
+        public amut Position; // 0x18
+        public R_12x12 Rotation; // 0x24
+        public object Space; // 0x34
         public int Filter; // 0x38
         public int DofMode; // 0x3C
-        public UnityEngine.Vector2 DofUV; // 0x40
+        public tionX DofUV; // 0x40
         public float FocalDistance; // 0x48
         public float FocalLength; // 0x4C
         public float Aperture; // 0x50
@@ -26,7 +26,7 @@ namespace VRC.UserCamera
         public bool ShowRemotePlayerInCamera; // 0x5B
         public bool ShowEnvironmentInCamera; // 0x5C
         public bool ShowGreenscreen; // 0x5D
-        public 0x665B3CC0 Orientation; // 0x60
+        public sHeld.entPlayer Orientation; // 0x60
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E7796A0
@@ -34,19 +34,19 @@ namespace VRC.UserCamera
 
     public class CameraPreset : ScriptableObject
     {
-        public 0x6638A828 properties; // 0x18
+        public ÏÍÎÏÍÌÎÎÏÏÍÌÏÍÎÏÏÍÎÎÍÎ properties; // 0x18
         public float nearClipPlane; // 0x1C
         public float farClipPlane; // 0x20
-        public UnityEngine.Color backgroundColor; // 0x24
-        public O renderingPath; // 0x34
-        public 0x664DBCB0 clearFlags; // 0x38
-        public UnityEngine.LayerMask cullingMask; // 0x3C
+        public object backgroundColor; // 0x24
+        public object renderingPath; // 0x34
+        public MaxRect clearFlags; // 0x38
+        public object cullingMask; // 0x3C
         public int fieldOfView; // 0x40
         public bool allowHDR; // 0x44
-        public UnityEngine.Shader replacementShader; // 0x48
+        public ojectionMatrix_Injected replacementShader; // 0x48
         public string replacementShaderTag; // 0x50
-        public UnityEngine.Material filterMaterial; // 0x58
-        public UnityEngine.GameObject postEffects; // 0x60
+        public atrix_Injected filterMaterial; // 0x58
+        public BuffersImpl postEffects; // 0x60
         public bool disablePostEffects; // 0x68
 
         // ── Methods ──
@@ -56,8 +56,8 @@ namespace VRC.UserCamera
     public class VRCOscDollyPointMessage : ValueType
     {
         public bool IsLocal; // 0x10
-        public SerializableVector3 Position; // 0x18
-        public SerializableVector3 Rotation; // 0x20
+        public ÍÍÎÎÎÌÏÌÌÎÌÏÎÌÏÎ Position; // 0x18
+        public ÍÍÎÎÎÌÏÌÌÎÌÏÎÌÏÎ Rotation; // 0x20
         public float FocalDistance; // 0x28
         public float Aperture; // 0x2C
         public float Hue; // 0x30

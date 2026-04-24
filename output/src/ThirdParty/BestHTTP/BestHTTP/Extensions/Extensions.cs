@@ -9,7 +9,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
     {
         public int Capacity;
         public int Count;
-        public T[] Item;
+        public T1717580064[] Item;
         public int startIdx;
         public int endIdx;
 

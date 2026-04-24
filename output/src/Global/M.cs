@@ -5,7 +5,7 @@
 
 public class MainModule : ValueType
 {
-    public UnityEngine.ParticleSystem emitterVelocity; // 0x10
+    public InDuration emitterVelocity; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -193,7 +193,7 @@ public class MainModule : ValueType
 
 public class Managed : Object
 {
-    public TryFunction[] TryFunctionDelegates;
+    public aders[] TryFunctionDelegates;
 
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD54930560
@@ -201,8 +201,8 @@ public class Managed : Object
 
 public class ManagedUserData : Object
 {
-    public System.Delegate managedCallback; // 0x10
-    public void* Free;
+    public formation managedCallback; // 0x10
+    public IntPtr Free;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -214,9 +214,9 @@ public class ManagedUserData : Object
 
 public class MapView`1 : Object
 {
-    public Google.Protobuf.Collections.MapField`2<U,V> Count;
-    public System.Func`2<System.Collections.Generic.KeyValuePair`2<U,V>,T> IsReadOnly;
-    public System.Func`2<T,bool> IsSynchronized;
+    public r>k__BackingField.>k__BackingField<T1717702032,T1717702048> Count;
+    public n<URA.mes<T1717702032,T1717702048>,T1717702064> IsReadOnly;
+    public n<T1717702064,bool> IsSynchronized;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -235,12 +235,12 @@ public class MapView`1 : Object
 
 public class MarketplaceCategoryData : ApiModel
 {
-    public 0x6640F9B0 name; // 0x68
+    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ce_code name; // 0x68
     public string type; // 0x70
     public int maxCells; // 0x78
-    public System.Collections.Generic.List`1<string> ids; // 0x80
+    public URA.woDigitYearMax<string> ids; // 0x80
     public bool shuffle; // 0x88
-    public 0x6640E720 contentList; // 0x90
+    public object contentList; // 0x90
 
     // ── Methods ──
     public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -277,28 +277,17 @@ public class MasterDirectorDelegate : MulticastDelegate
 
 public class MatEntry : Object
 {
-    public UnityEngine.Material baseMat; // 0x10
-    public UnityEngine.Material customMat; // 0x18
-    public int count; // 0x20
-    public int stencilId; // 0x24
-    public 0x664E6680 operation; // 0x28
-    public 0x664E65D0 compareFunction; // 0x2C
-    public int readMask; // 0x30
-    public int writeMask; // 0x34
-    public bool useAlphaClip; // 0x38
-    public 0x664E6628 colorMask; // 0x3C
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5508BB30
 }
 
 public class MatchResult : ValueType
 {
-    public 0x664A6AF0 score; // 0x10
+    public tCaMode score; // 0x10
     public float isSuccessfulMatch; // 0x14
-    public UnityEngine.InputSystem.InputControlList`1<UnityEngine.InputSystem.InputDevice> hasMissingRequiredDevices; // 0x18
-    public UnityEngine.InputSystem.InputControlList`1<UnityEngine.InputSystem.InputControl> hasMissingOptionalDevices; // 0x38
-    public 0x664A6CA8[] devices; // 0x58
+    public ilAddress.h<ilAddress.ActionProperty> hasMissingRequiredDevices; // 0x18
+    public ilAddress.h<ilAddress.ressedThisFrame> hasMissingOptionalDevices; // 0x38
+    public ield[] devices; // 0x58
 
     // ── Methods ──
     public void get_score(){} // RVA: 0x7FFD4FEBB900
@@ -325,7 +314,7 @@ public class MatcherJson : ValueType
     public string[] products; // 0x50
     public string version; // 0x58
     public string[] versions; // 0x60
-    public Capability[] capabilities; // 0x68
+    public dDelta[] capabilities; // 0x68
 
     // ── Methods ──
     public void FromMatcher(){} // RVA: 0x7FFD549798D0
@@ -335,8 +324,8 @@ public class MatcherJson : ValueType
 public class Maxima : Object
 {
     public long X; // 0x10
-    public Maxima Next; // 0x18
-    public Maxima Prev; // 0x20
+    public ngPath Next; // 0x18
+    public ngPath Prev; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -344,10 +333,10 @@ public class Maxima : Object
 
 public class MemoizeSource : Object
 {
-    public Cysharp.Threading.Tasks.IUniTaskSource`1<System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ>> source; // 0x10
-    public System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ> result; // 0x18
-    public 0x66435CE0 exception; // 0x20
-    public 0x6653CC08 status; // 0x28
+    public eObjectDelegate.32Converter<8BCA7B5CC287C51E0E3E<URA.woDigitYearMax<?>,URA.woDigitYearMax<?>>> source; // 0x10
+    public 8BCA7B5CC287C51E0E3E<URA.woDigitYearMax<?>,URA.woDigitYearMax<?>> result; // 0x18
+    public .Messaging.IInternalMessage.TargetIdentity.eDictionary exception; // 0x28
+    public eObjectDelegate.er status; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -360,8 +349,7 @@ public class MemoizeSource : Object
 
 public class Memory : ValueType
 {
-    public System.Collections.Generic.Queue`1<UIntPtr> Ptr;
-    public UIntPtr <Ptr>k__BackingField; // 0x10
+    public object Ptr;
 
     // ── Methods ──
     public void get_Ptr(){} // RVA: 0x7FFD4EEF9F60
@@ -374,9 +362,9 @@ public class Memory : ValueType
 
 public class MemoryBlock : ValueType
 {
-    public byte* m_pointer; // 0x10
+    public IntPtr m_pointer; // 0x10
     public long m_bytes; // 0x18
-    public Union m_union; // 0x20
+    public et_SaveInternalSubsetValue m_union; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD549322D0
@@ -391,9 +379,6 @@ public class MemoryFrameMaintenance : ValueType
 
 public class MemorySpan : ValueType
 {
-    public VRC.Dynamics.ChainId id; // 0x10
-    public int dataIndex; // 0x20
-    public int dataLength; // 0x24
 }
 
 public class MemoryUsageChangedCallback : MulticastDelegate
@@ -405,56 +390,56 @@ public class MemoryUsageChangedCallback : MulticastDelegate
 
 public class MenuIcons : ValueType
 {
-    public UnityEngine.Texture2D home; // 0x10
-    public UnityEngine.Texture2D options; // 0x18
-    public UnityEngine.Texture2D config; // 0x20
-    public UnityEngine.Texture2D expressions; // 0x28
-    public UnityEngine.Texture2D tools; // 0x30
-    public UnityEngine.Texture2D emojisAndStickers; // 0x38
-    public UnityEngine.Texture2D stickers; // 0x40
-    public UnityEngine.Texture2D looks; // 0x48
-    public UnityEngine.Texture2D customStickers; // 0x50
-    public UnityEngine.Texture2D props; // 0x58
-    public UnityEngine.Texture2D emojis; // 0x60
-    public UnityEngine.Texture2D customEmojis; // 0x68
-    public UnityEngine.Texture2D inventory; // 0x70
-    public UnityEngine.Texture2D add; // 0x78
-    public UnityEngine.Texture2D micOn; // 0x80
-    public UnityEngine.Texture2D micOff; // 0x88
-    public UnityEngine.Texture2D gesturesOn; // 0x90
-    public UnityEngine.Texture2D gesturesOff; // 0x98
-    public UnityEngine.Texture2D defaultExpression; // 0xA0
-    public UnityEngine.Texture2D back; // 0xA8
-    public UnityEngine.Texture2D close; // 0xB0
-    public UnityEngine.Texture2D debug; // 0xB8
-    public UnityEngine.Texture2D resetAvatar; // 0xC0
-    public UnityEngine.Texture2D resetPose; // 0xC8
-    public UnityEngine.Texture2D toggleOn; // 0xD0
-    public UnityEngine.Texture2D toggleOff; // 0xD8
-    public UnityEngine.Texture2D settingHudPosition; // 0xE0
-    public UnityEngine.Texture2D settingSize; // 0xE8
-    public UnityEngine.Texture2D settingSizeReset; // 0xF0
-    public UnityEngine.Texture2D settingOpacity; // 0xF8
-    public UnityEngine.Texture2D settingStatus; // 0x100
-    public UnityEngine.Texture2D nameplate; // 0x108
-    public UnityEngine.Texture2D settingAvatarOverlay; // 0x110
-    public UnityEngine.Texture2D settingActionMenu; // 0x118
-    public UnityEngine.Texture2D arrowUp; // 0x120
-    public UnityEngine.Texture2D arrowRight; // 0x128
-    public UnityEngine.Texture2D arrowDown; // 0x130
-    public UnityEngine.Texture2D arrowLeft; // 0x138
-    public UnityEngine.Texture2D folder; // 0x140
-    public UnityEngine.Texture2D visibility; // 0x148
-    public UnityEngine.Texture2D radioOn; // 0x150
-    public UnityEngine.Texture2D radioOff; // 0x158
-    public UnityEngine.Texture2D osc; // 0x160
-    public UnityEngine.Texture2D chatbox; // 0x168
-    public UnityEngine.Texture2D keyboard; // 0x170
-    public UnityEngine.Texture2D camera; // 0x178
-    public UnityEngine.Texture2D delete; // 0x180
-    public UnityEngine.Texture2D statusOff; // 0x188
-    public UnityEngine.Texture2D statusLocked; // 0x190
-    public UnityEngine.Texture2D statusVRCPlusLocked; // 0x198
+    public ector home; // 0x10
+    public ector options; // 0x18
+    public ector config; // 0x20
+    public ector expressions; // 0x28
+    public ector tools; // 0x30
+    public ector emojisAndStickers; // 0x38
+    public ector stickers; // 0x40
+    public ector looks; // 0x48
+    public ector customStickers; // 0x50
+    public ector props; // 0x58
+    public ector emojis; // 0x60
+    public ector customEmojis; // 0x68
+    public ector inventory; // 0x70
+    public ector add; // 0x78
+    public ector micOn; // 0x80
+    public ector micOff; // 0x88
+    public ector gesturesOn; // 0x90
+    public ector gesturesOff; // 0x98
+    public ector defaultExpression; // 0xA0
+    public ector back; // 0xA8
+    public ector close; // 0xB0
+    public ector debug; // 0xB8
+    public ector resetAvatar; // 0xC0
+    public ector resetPose; // 0xC8
+    public ector toggleOn; // 0xD0
+    public ector toggleOff; // 0xD8
+    public ector settingHudPosition; // 0xE0
+    public ector settingSize; // 0xE8
+    public ector settingSizeReset; // 0xF0
+    public ector settingOpacity; // 0xF8
+    public ector settingStatus; // 0x100
+    public ector nameplate; // 0x108
+    public ector settingAvatarOverlay; // 0x110
+    public ector settingActionMenu; // 0x118
+    public ector arrowUp; // 0x120
+    public ector arrowRight; // 0x128
+    public ector arrowDown; // 0x130
+    public ector arrowLeft; // 0x138
+    public ector folder; // 0x140
+    public ector visibility; // 0x148
+    public ector radioOn; // 0x150
+    public ector radioOff; // 0x158
+    public ector osc; // 0x160
+    public ector chatbox; // 0x168
+    public ector keyboard; // 0x170
+    public ector camera; // 0x178
+    public ector delete; // 0x180
+    public ector statusOff; // 0x188
+    public ector statusLocked; // 0x190
+    public ector statusVRCPlusLocked; // 0x198
 }
 
 public class MeshData : ValueType
@@ -464,7 +449,7 @@ public class MeshData : ValueType
 
 public class MeshDataArray : ValueType
 {
-    public UIntPtr* m_Ptrs; // 0x10
+    public IntPtr m_Ptrs; // 0x10
     public int m_Length; // 0x18
 
     // ── Methods ──
@@ -498,7 +483,7 @@ public class MessengerHelper : MonoBehaviour
 
 public class MetaDynamic : DynamicMetaObject
 {
-    public System.Linq.Expressions.Expression[] Value;
+    public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.Update[] Value;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5421A050
@@ -541,10 +526,10 @@ public class MetadataCallback : MulticastDelegate
 
 public class MinMaxCurve : ValueType
 {
-    public ÌÏÌÌÍÌÍÍÌÎÍÍÏ mode; // 0x10
+    public aterialIndex_Injected mode; // 0x10
     public float curveMultiplier; // 0x14
-    public UnityEngine.AnimationCurve curveMax; // 0x18
-    public UnityEngine.AnimationCurve curveMin; // 0x20
+    public ÍÎÌÍÍÌÌÎÏÏ curveMax; // 0x18
+    public ÍÎÌÍÍÌÌÎÏÏ curveMin; // 0x20
     public float constantMax; // 0x28
     public float constantMin; // 0x2C
 
@@ -572,11 +557,11 @@ public class MinMaxCurve : ValueType
 
 public class MinMaxGradient : ValueType
 {
-    public ÏÍÏÌÏÏÎÍÌÎÎÍÎ mode; // 0x10
-    public UnityEngine.Gradient gradientMax; // 0x18
-    public UnityEngine.Gradient gradientMin; // 0x20
-    public UnityEngine.Color colorMax; // 0x28
-    public UnityEngine.Color colorMin; // 0x38
+    public ected mode; // 0x10
+    public ightShadowCasterMode gradientMax; // 0x18
+    public ightShadowCasterMode gradientMin; // 0x20
+    public object colorMax; // 0x28
+    public object colorMin; // 0x38
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54D714B0 | overloaded x4
@@ -600,17 +585,6 @@ public class MinMaxGradient : ValueType
 
 public class ModulesSetup : Object
 {
-    public bool showPanel; // 0x10
-    public bool audioEnabled; // 0x11
-    public bool physicsEnabled; // 0x12
-    public bool physics2DEnabled; // 0x13
-    public bool spriteEnabled; // 0x14
-    public bool uiEnabled; // 0x15
-    public bool textMeshProEnabled; // 0x16
-    public bool tk2DEnabled; // 0x17
-    public bool deAudioEnabled; // 0x18
-    public bool deUnityExtendedEnabled; // 0x19
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FDE71A0
 }
@@ -626,21 +600,14 @@ public class MonoScriptData : ValueType
 
 public class MoreInfo : Object
 {
-    public string Path; // 0x10
-    public string Query; // 0x18
-    public string Fragment; // 0x20
-    public string AbsoluteUri; // 0x28
-    public int Hash; // 0x30
-    public string RemoteUrl; // 0x38
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class MouseButtonEventData : Object
 {
-    public 0x665ABEF0 buttonState; // 0x10
-    public UnityEngine.EventSystems.PointerEventData buttonData; // 0x18
+    public igger buttonState; // 0x10
+    public moryFailure.String,Valve.Newtonsoft.Json.Linq.JToken>>.IsReadOnly buttonData; // 0x18
 
     // ── Methods ──
     public void PressedThisFrame(){} // RVA: 0x7FFD550A65D0
@@ -650,9 +617,9 @@ public class MouseButtonEventData : Object
 
 public class MousePreferences : ValueType
 {
-    public 0x66395F08 mode; // 0x10
-    public 0x66395F60 xAxisBind; // 0x14
-    public 0x66395F60 yAxisBind; // 0x18
+    public object mode; // 0x10
+    public object xAxisBind; // 0x14
+    public object yAxisBind; // 0x18
     public float sensitivityX; // 0x1C
     public float sensitivityY; // 0x20
     public float sensitivityXRelativeOnly; // 0x24
@@ -668,7 +635,7 @@ public class MousePreferences : ValueType
 
 public class MouseState : Object
 {
-    public System.Collections.Generic.List`1<ButtonState> m_TrackedButtons; // 0x10
+    public URA.woDigitYearMax<ÏÏÏÌÍÏÏÎÏÍÌÌÌÌÌÍÎÍÍÌ> m_TrackedButtons; // 0x10
 
     // ── Methods ──
     public void AnyPressesThisFrame(){} // RVA: 0x7FFD550A60F0
@@ -680,9 +647,9 @@ public class MouseState : Object
 
 public class MoveNextRunner : Object
 {
-    public System.Threading.ExecutionContext m_context; // 0x10
-    public System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine; // 0x18
-    public System.Threading.ContextCallback s_invokeMoveNext;
+    public sageKind.d m_context; // 0x10
+    public ArgCount..Runtime.Serialization m_stateMachine; // 0x18
+    public sageKind.st s_invokeMoveNext;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E90C240
@@ -693,11 +660,11 @@ public class MoveNextRunner : Object
 public class MoveShapesJob : ValueType
 {
     public float VelocityLerpSpeed;
-    public Unity.Collections.NativeArray`1<0x664E1038> transformData; // 0x10
-    public Unity.Collections.NativeArray`1<int> transformLookup; // 0x20
-    public Unity.Collections.NativeList`1<ushort> activeShapes; // 0x30
-    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x38
-    public ParallelWriter<ushort> shapesToUpdate; // 0x48
+    public ÍÎÏÎÎ.ÌÌ<rdLeastSignificantDecimal> transformData; // 0x10
+    public ÍÎÏÎÎ.ÌÌ<int> transformLookup; // 0x20
+    public ÍÎÏÎÎ.AssignProgramAndVariables<ushort> activeShapes; // 0x30
+    public ÍÎÏÎÎ.ÌÌ<?> shapeData; // 0x38
+    public kingField<ushort> shapesToUpdate; // 0x48
     public float deltaTime; // 0x58
 
     // ── Methods ──
@@ -708,10 +675,10 @@ public class MoveShapesJob : ValueType
 
 public class MutationInput : ValueType
 {
-    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> Root; // 0x10
-    public System.Collections.Generic.IEqualityComparer`1<string> Comparers; // 0x18
-    public int KeyComparer; // 0x20
-    public System.Collections.Generic.IEqualityComparer`1<HashBucket<string>> ValueComparer; // 0x28
+    public fset2096.KeyOffset<IUTF8Bytes<T1717730272>> Root;
+    public URA.hEraNames<T1717730272> Comparers;
+    public int KeyComparer;
+    public URA.hEraNames<IUTF8Bytes<T1717730272>> ValueComparer;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -723,9 +690,9 @@ public class MutationInput : ValueType
 
 public class MutationResult : ValueType
 {
-    public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> Root; // 0x10
-    public int CountAdjustment; // 0x18
-    public 0x6660E708<string> _countType; // 0x1C
+    public fset2096.KeyOffset<IUTF8Bytes<T1717730304>> Root;
+    public int CountAdjustment;
+    public rayDispose<T1717730304> _countType;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E097970
@@ -736,7 +703,7 @@ public class MutationResult : ValueType
 
 public class MutexAcquired : ValueType
 {
-    public 0x664275E0 mutex; // 0x10
+    public sageKind.ndle mutex; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5750E0A0

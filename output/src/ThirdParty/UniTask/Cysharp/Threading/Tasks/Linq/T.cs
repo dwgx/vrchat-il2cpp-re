@@ -7,7 +7,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class TakeLast`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public eObjectDelegate.fo<T1717638416> source;
         public int count;
 
         // ── Methods ──
@@ -17,8 +17,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeUntilCanceled`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Threading.CancellationToken cancellationToken;
+        public eObjectDelegate.fo<T1717638496> source;
+        public sageKind.TICMAP_SIZE cancellationToken;
 
         // ── Methods ──
         public void .ctor(){}
@@ -27,9 +27,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeUntil`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public Cysharp.Threading.Tasks.UniTask other;
-        public System.Func`2<System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask> other2;
+        public eObjectDelegate.fo<T1717638464> source;
+        public eObjectDelegate.eNonPublicAccessors other;
+        public n<sageKind.TICMAP_SIZE,eObjectDelegate.eNonPublicAccessors> other2;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -38,8 +38,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileAwaitWithCancellation`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+        public eObjectDelegate.fo<T1717638656> source;
+        public nalInformation<T1717638656,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<bool>> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -48,8 +48,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileAwait`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+        public eObjectDelegate.fo<T1717638592> source;
+        public n<T1717638592,eObjectDelegate.kingField<bool>> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -58,8 +58,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileIntAwaitWithCancellation`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`4<T,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+        public eObjectDelegate.fo<T1717638688> source;
+        public rmation<T1717638688,int,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<bool>> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -68,8 +68,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileIntAwait`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`3<T,int,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+        public eObjectDelegate.fo<T1717638624> source;
+        public nalInformation<T1717638624,int,eObjectDelegate.kingField<bool>> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -78,8 +78,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileInt`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`3<T,int,bool> predicate;
+        public eObjectDelegate.fo<T1717638560> source;
+        public nalInformation<T1717638560,int,bool> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -88,8 +88,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhile`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`2<T,bool> predicate;
+        public eObjectDelegate.fo<T1717638528> source;
+        public n<T1717638528,bool> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -98,7 +98,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Take`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public eObjectDelegate.fo<T1717638384> source;
         public int count;
 
         // ── Methods ──
@@ -108,7 +108,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Throw`1 : Object
     {
-        public System.Exception exception;
+        public ÏÏÍÍÎÎ exception;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -117,9 +117,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Timer : Object
     {
-        public 0x6653D918 updateTiming; // 0x10
-        public System.TimeSpan dueTime; // 0x18
-        public System.Nullable`1<System.TimeSpan> period; // 0x20
+        public eObjectDelegate.sonElementConverter updateTiming; // 0x10
+        public ializable.GetObjectData dueTime; // 0x18
+        public aphy<ializable.GetObjectData> period; // 0x20
         public bool ignoreTimeScale; // 0x30
         public bool cancelImmediately; // 0x31
 
@@ -164,7 +164,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToObservable`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public eObjectDelegate.fo<T1717640096> source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -174,7 +174,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToUniTaskAsyncEnumerableObservable`1 : Object
     {
-        public System.IObservable`1<T> source;
+        public subkeyWritable<T1717640256> source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -183,7 +183,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToUniTaskAsyncEnumerableTask`1 : Object
     {
-        public System.Threading.Tasks.Task`1<T> source;
+        public utes.?<T1717640176> source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -192,7 +192,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToUniTaskAsyncEnumerableUniTask`1 : Object
     {
-        public Cysharp.Threading.Tasks.UniTask`1<T> source;
+        public eObjectDelegate.kingField<T1717640224> source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -201,7 +201,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToUniTaskAsyncEnumerable`1 : Object
     {
-        public System.Collections.Generic.IEnumerable`1<T> source;
+        public URA.bbrevEraNames<T1717640128> source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

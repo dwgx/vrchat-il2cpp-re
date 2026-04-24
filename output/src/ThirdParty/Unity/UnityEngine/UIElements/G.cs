@@ -7,9 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class GroupBoxUtility : Object
     {
-        public System.Collections.Generic.Dictionary`2<UnityEngine.UIElements.IGroupBox,[3> s_GroupManagers;
-        public System.Collections.Generic.Dictionary`2<0x6647F428,[3> s_GroupOptionManagerCache; // 0x8
-        public System.Type k_GenericGroupBoxType; // 0x10
+        public URA.DateTime<ÎÏÌÎÎÎÌÌÌ.etVisualMode,ÎÏÌÎÎÎÌÌÌ.?> s_GroupManagers;
+        public URA.DateTime<ÎÏÌÎÎÎÌÌÌ.r,ÎÏÌÎÎÎÌÌÌ.?> s_GroupOptionManagerCache; // 0x8
+        public object k_GenericGroupBoxType; // 0x10
 
         // ── Methods ──
         public void RegisterGroupBoxOption(){} // RVA: 0x7FFD4E2ADC40

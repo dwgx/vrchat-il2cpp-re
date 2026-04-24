@@ -7,8 +7,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.Core
 {
     public class BaseVisionTaskApi : Object
     {
-        public Mediapipe.Tasks.Core.TaskRunner runningMode; // 0x10
-        public 0x66575EC0 <runningMode>k__BackingField; // 0x18
+        public lIdFieldNumber.t_HasConfidence runningMode; // 0x10
+        public e.ÍÍÏÏÎÎÍÍÍÏÎÏÍÎÍÏÌÏÌÏÌÍÌ <runningMode>k__BackingField; // 0x18
         public bool _isClosed; // 0x1C
 
         // ── Methods ──
@@ -25,7 +25,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.Core
 
     public class ImageProcessingOptions : ValueType
     {
-        public System.Nullable`1<Mediapipe.Tasks.Components.Containers.RectF> regionOfInterest; // 0x10
+        public aphy<gBox.ber> regionOfInterest; // 0x10
         public int rotationDegrees; // 0x24
 
         // ── Methods ──

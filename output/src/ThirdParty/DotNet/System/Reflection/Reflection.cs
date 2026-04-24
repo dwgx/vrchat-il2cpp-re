@@ -68,63 +68,49 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class AssemblyCompanyAttribute : Attribute
     {
-        public string <Company>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AssemblyConfigurationAttribute : Attribute
     {
-        public string <Configuration>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AssemblyCopyrightAttribute : Attribute
     {
-        public string <Copyright>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AssemblyDefaultAliasAttribute : Attribute
     {
-        public string <DefaultAlias>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AssemblyDelaySignAttribute : Attribute
     {
-        public bool <DelaySign>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E40B5F0
     }
 
     public class AssemblyDescriptionAttribute : Attribute
     {
-        public string <Description>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AssemblyFileVersionAttribute : Attribute
     {
-        public string <Version>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53910080
     }
 
     public class AssemblyInformationalVersionAttribute : Attribute
     {
-        public string InformationalVersion; // 0x10
+        public object InformationalVersion;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -133,16 +119,14 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class AssemblyKeyFileAttribute : Attribute
     {
-        public string <KeyFile>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AssemblyMetadataAttribute : Attribute
     {
-        public string Key; // 0x10
-        public string Value; // 0x18
+        public object Key;
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
@@ -158,16 +142,16 @@ namespace ThirdParty.DotNet.System.Reflection
         public int FullName; // 0x24
         public int Version; // 0x28
         public int IsPublicKeyValid; // 0x2C
-        public System.Globalization.CultureInfo cultureinfo; // 0x30
-        public 0x664385C8 flags; // 0x38
-        public 0x6643D378 hashalg; // 0x3C
-        public 0x6643A4B8 keypair; // 0x40
+        public 0.T_I8 cultureinfo; // 0x30
+        public m.ring flags; // 0x38
+        public _UnclonedYearMonthPatterns.llLongTimePatterns hashalg; // 0x3C
+        public m.rnal keypair; // 0x40
         public byte[] publicKey; // 0x48
         public byte[] keyToken; // 0x50
-        public 0x6643D3D0 versioncompat; // 0x58
-        public System.Version version; // 0x60
-        public 0x66439228 processor_architecture; // 0x68
-        public 0x664382B0 contentType; // 0x6C
+        public _UnclonedYearMonthPatterns.nclonedShortDatePatterns versioncompat; // 0x58
+        public object version; // 0x60
+        public m.tEnd processor_architecture; // 0x68
+        public m.fo contentType; // 0x6C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5394C1A0 | overloaded x3
@@ -199,24 +183,18 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class AssemblyProductAttribute : Attribute
     {
-        public string <Product>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AssemblyTitleAttribute : Attribute
     {
-        public string <Title>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class AssemblyTrademarkAttribute : Attribute
     {
-        public string <Trademark>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
@@ -251,10 +229,10 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class CustomAttributeData : Object
     {
-        public System.Reflection.ConstructorInfo Constructor; // 0x10
-        public System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument> ConstructorArguments; // 0x18
-        public System.Collections.Generic.IList`1<System.Reflection.CustomAttributeNamedArgument> NamedArguments; // 0x20
-        public LazyCAttrData AttributeType; // 0x28
+        public m.nformation Constructor; // 0x10
+        public URA.?<m.tType> ConstructorArguments; // 0x18
+        public URA.?<m.dTable> NamedArguments; // 0x20
+        public object AttributeType; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E420E00 | overloaded x4
@@ -282,11 +260,11 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class CustomAttributeNamedArgument : ValueType
     {
-        public System.Reflection.CustomAttributeTypedArgument TypedValue; // 0x10
+        public m.tType TypedValue; // 0x10
         public bool IsField; // 0x20
         public string MemberName; // 0x28
-        public System.Type MemberInfo; // 0x30
-        public System.Reflection.MemberInfo _lazyMemberInfo; // 0x38
+        public object MemberInfo; // 0x30
+        public m.Int64 _lazyMemberInfo; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53947320 | overloaded x3
@@ -303,7 +281,7 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class CustomAttributeTypedArgument : ValueType
     {
-        public System.Type ArgumentType; // 0x10
+        public object ArgumentType; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -329,7 +307,7 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class EventInfo : MemberInfo
     {
-        public AddEventAdapter MemberType; // 0x10
+        public eofChar MemberType; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -525,7 +503,7 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class Missing : Object
     {
-        public System.Reflection.Missing Value;
+        public m.c.IList<T>.get_Item Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -535,9 +513,9 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class Module : Object
     {
-        public 0x66439800 Assembly;
-        public 0x66439800 FullyQualifiedName; // 0x8
-        public 0x66438780 Name;
+        public m.eadInt16 Assembly;
+        public m.eadInt16 FullyQualifiedName; // 0x8
+        public m.unt Name;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -564,12 +542,12 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class MonoPropertyInfo : ValueType
     {
-        public System.Type parent; // 0x10
-        public System.Type declaring_type; // 0x18
+        public object parent; // 0x10
+        public object declaring_type; // 0x18
         public string name; // 0x20
-        public System.Reflection.MethodInfo get_method; // 0x28
-        public System.Reflection.MethodInfo set_method; // 0x30
-        public 0x66439280 attrs; // 0x38
+        public m.jectMapInfo get_method; // 0x28
+        public m.jectMapInfo set_method; // 0x30
+        public m.? attrs; // 0x38
     }
 
     public class ObfuscationAttribute : Attribute
@@ -586,10 +564,10 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class ParameterInfo : Object
     {
-        public 0x664390C8 Attributes; // 0x10
-        public System.Type Member; // 0x18
+        public m.ectInfoIdCount Attributes; // 0x10
+        public object Member; // 0x18
         public object Name; // 0x20
-        public System.Reflection.MemberInfo ParameterType; // 0x28
+        public m.Int64 ParameterType; // 0x28
         public string Position; // 0x30
         public int IsIn; // 0x38
         public int IsOptional;
@@ -657,7 +635,7 @@ namespace ThirdParty.DotNet.System.Reflection
     {
         public UIntPtr ManifestModule; // 0x10
         public object ReflectionOnly; // 0x18
-        public ResolveEventHolder CodeBase; // 0x20
+        public faceIsIUnknown CodeBase; // 0x20
         public object EscapedCodeBase; // 0x28
         public object FullName; // 0x30
         public object MonoAssembly; // 0x38
@@ -707,7 +685,7 @@ namespace ThirdParty.DotNet.System.Reflection
     {
         public UIntPtr Module; // 0x10
         public string BindingFlags; // 0x18
-        public System.Type ReflectedTypeInternal; // 0x20
+        public object ReflectedTypeInternal; // 0x20
 
         // ── Methods ──
         public void get_Module(){} // RVA: 0x7FFD53956A20
@@ -776,10 +754,10 @@ namespace ThirdParty.DotNet.System.Reflection
     public class RuntimeFieldInfo : RtFieldInfo
     {
         public UIntPtr BindingFlags; // 0x10
-        public System.RuntimeFieldHandle Module; // 0x18
+        public object Module; // 0x18
         public string ReflectedTypeInternal; // 0x20
-        public System.Type Attributes; // 0x28
-        public 0x66438A98 FieldHandle; // 0x30
+        public object Attributes; // 0x28
+        public m.peofSByte FieldHandle; // 0x30
 
         // ── Methods ──
         public void get_BindingFlags(){} // RVA: 0x7FFD4E919180
@@ -820,7 +798,7 @@ namespace ThirdParty.DotNet.System.Reflection
     {
         public UIntPtr BindingFlags; // 0x10
         public string Module; // 0x18
-        public System.Type ReflectedTypeInternal; // 0x20
+        public object ReflectedTypeInternal; // 0x20
 
         // ── Methods ──
         public void get_BindingFlags(){} // RVA: 0x7FFD4E919180
@@ -882,7 +860,7 @@ namespace ThirdParty.DotNet.System.Reflection
     public class RuntimeModule : Module
     {
         public UIntPtr Assembly; // 0x10
-        public System.Reflection.Assembly Name; // 0x18
+        public m.ormation Name; // 0x18
         public string ScopeName; // 0x20
         public string ModuleVersionId; // 0x28
         public string FullyQualifiedName; // 0x30
@@ -912,7 +890,7 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeParameterInfo : ParameterInfo
     {
-        public 0x66435970 DefaultValue; // 0x40
+        public annelDataStore.essage.get_TargetIdentity DefaultValue; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53958530 | overloaded x3
@@ -932,9 +910,9 @@ namespace ThirdParty.DotNet.System.Reflection
     {
         public UIntPtr BindingFlags; // 0x10
         public UIntPtr Module; // 0x18
-        public System.Reflection.MonoPropertyInfo ReflectedTypeInternal; // 0x20
-        public 0x6643A300 Attributes; // 0x50
-        public GetterAdapter CanRead; // 0x58
+        public m.tor ReflectedTypeInternal; // 0x20
+        public m.ureStringToGlobalAllocUnicode Attributes; // 0x50
+        public gate CanRead; // 0x58
 
         // ── Methods ──
         public void get_property_info(){} // RVA: 0x7FFD53959990
@@ -975,7 +953,7 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class TypeInfo : Type
     {
-        public 0x66438780 DeclaredFields;
+        public m.unt DeclaredFields;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53946700

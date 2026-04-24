@@ -19,8 +19,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class ClassificationResult : ValueType
     {
-        public System.Collections.Generic.List`1<0x66578178> classifications; // 0x10
-        public System.Nullable`1<long> timestampMs; // 0x18
+        public URA.woDigitYearMax<gBox.set_Mask> classifications; // 0x10
+        public aphy<long> timestampMs; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51515420
@@ -30,7 +30,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class DetectionResult : ValueType
     {
-        public System.Collections.Generic.List`1<0x66578228> detections; // 0x10
+        public URA.woDigitYearMax<gBox.d_GazeOn> detections; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -45,8 +45,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
         public float x; // 0x10
         public float y; // 0x14
         public float z; // 0x18
-        public System.Nullable`1<float> visibility; // 0x1C
-        public System.Nullable`1<float> presence; // 0x24
+        public aphy<float> visibility; // 0x1C
+        public aphy<float> presence; // 0x24
         public string name; // 0x30
 
         // ── Methods ──
@@ -62,7 +62,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
         public float x; // 0x10
         public float y; // 0x14
         public string label; // 0x18
-        public System.Nullable`1<float> score; // 0x20
+        public aphy<float> score; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5373D670 | overloaded x2

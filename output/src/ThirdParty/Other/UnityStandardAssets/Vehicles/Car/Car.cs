@@ -7,8 +7,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 {
     public class BrakeLight : MonoBehaviour
     {
-        public UnityStandardAssets.Vehicles.Car.CarController car; // 0x20
-        public UnityEngine.Renderer m_Renderer; // 0x28
+        public Model_ControllerMode_State_t.? car; // 0x20
+        public rical m_Renderer; // 0x28
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E360310
@@ -29,17 +29,17 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
         public float m_LateralWanderSpeed; // 0x40
         public float m_AccelWanderAmount; // 0x44
         public float m_AccelWanderSpeed; // 0x48
-        public 0x6651B370 m_BrakeCondition; // 0x4C
+        public enderModelComponentName4 m_BrakeCondition; // 0x4C
         public bool m_Driving; // 0x50
-        public UnityEngine.Transform m_Target; // 0x58
+        public object m_Target; // 0x58
         public bool m_StopWhenTargetReached; // 0x60
         public float m_ReachTargetThreshold; // 0x64
         public float m_RandomPerlin; // 0x68
-        public UnityStandardAssets.Vehicles.Car.CarController m_CarController; // 0x70
+        public Model_ControllerMode_State_t.? m_CarController; // 0x70
         public float m_AvoidOtherCarTime; // 0x78
         public float m_AvoidOtherCarSlowdown; // 0x7C
         public float m_AvoidPathOffset; // 0x80
-        public UnityEngine.Rigidbody m_Rigidbody; // 0x88
+        public Touched m_Rigidbody; // 0x88
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E360420
@@ -51,11 +51,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class CarAudio : MonoBehaviour
     {
-        public 0x6651B420 engineSoundStyle; // 0x20
-        public UnityEngine.AudioClip lowAccelClip; // 0x28
-        public UnityEngine.AudioClip lowDecelClip; // 0x30
-        public UnityEngine.AudioClip highAccelClip; // 0x38
-        public UnityEngine.AudioClip highDecelClip; // 0x40
+        public delComponentName16 engineSoundStyle; // 0x20
+        public ies lowAccelClip; // 0x28
+        public ies lowDecelClip; // 0x30
+        public ies highAccelClip; // 0x38
+        public ies highDecelClip; // 0x40
         public float pitchMultiplier; // 0x48
         public float lowPitchMin; // 0x4C
         public float lowPitchMax; // 0x50
@@ -63,12 +63,12 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
         public float maxRolloffDistance; // 0x58
         public float dopplerLevel; // 0x5C
         public bool useDoppler; // 0x60
-        public UnityEngine.AudioSource m_LowAccel; // 0x68
-        public UnityEngine.AudioSource m_LowDecel; // 0x70
-        public UnityEngine.AudioSource m_HighAccel; // 0x78
-        public UnityEngine.AudioSource m_HighDecel; // 0x80
+        public t m_LowAccel; // 0x68
+        public t m_LowDecel; // 0x70
+        public t m_HighAccel; // 0x78
+        public t m_HighDecel; // 0x80
         public bool m_StartedSound; // 0x88
-        public UnityStandardAssets.Vehicles.Car.CarController m_CarController; // 0x90
+        public Model_ControllerMode_State_t.? m_CarController; // 0x90
 
         // ── Methods ──
         public void StartSound(){} // RVA: 0x7FFD4E361650
@@ -81,11 +81,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class CarController : MonoBehaviour
     {
-        public 0x6651B4D0 Skidding; // 0x20
-        public UnityEngine.WheelCollider[] BrakeInput; // 0x28
-        public UnityEngine.GameObject[] CurrentSteerAngle; // 0x30
-        public UnityStandardAssets.Vehicles.Car.WheelEffects[] CurrentSpeed; // 0x38
-        public UnityEngine.Vector3 MaxSpeed; // 0x40
+        public Model_ControllerMode_State_t.elComponentName17 Skidding; // 0x20
+        public cessorType[] BrakeInput; // 0x28
+        public BuffersImpl[] CurrentSteerAngle; // 0x30
+        public Model_ControllerMode_State_t.tName58[] CurrentSpeed; // 0x38
+        public amut MaxSpeed; // 0x40
         public float Revs; // 0x4C
         public float AccelInput; // 0x50
         public float m_TractionControl; // 0x54
@@ -93,21 +93,21 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
         public float m_ReverseTorque; // 0x5C
         public float m_MaxHandbrakeTorque; // 0x60
         public float m_Downforce; // 0x64
-        public 0x6651B528 m_SpeedType; // 0x68
+        public Model_ControllerMode_State_t.delComponentName19 m_SpeedType; // 0x68
         public float m_Topspeed; // 0x6C
         public int NoOfGears;
         public float m_RevRangeBoundary; // 0x70
         public float m_SlipLimit; // 0x74
         public float m_BrakeTorque; // 0x78
-        public UnityEngine.Quaternion[] m_WheelMeshLocalRotations; // 0x80
-        public UnityEngine.Vector3 m_Prevpos; // 0x88
-        public UnityEngine.Vector3 m_Pos; // 0x94
+        public R_12x12[] m_WheelMeshLocalRotations; // 0x80
+        public amut m_Prevpos; // 0x88
+        public amut m_Pos; // 0x94
         public float m_SteerAngle; // 0xA0
         public int m_GearNum; // 0xA4
         public float m_GearFactor; // 0xA8
         public float m_OldRotation; // 0xAC
         public float m_CurrentTorque; // 0xB0
-        public UnityEngine.Rigidbody m_Rigidbody; // 0xB8
+        public Touched m_Rigidbody; // 0xB8
         public float k_ReversingThreshold;
         public bool <Skidding>k__BackingField; // 0xC0
         public float <BrakeInput>k__BackingField; // 0xC4
@@ -150,7 +150,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
         public float m_WaitTime; // 0x20
         public float m_VelocityThreshold; // 0x24
         public float m_LastOkTime; // 0x28
-        public UnityEngine.Rigidbody m_Rigidbody; // 0x30
+        public Touched m_Rigidbody; // 0x30
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E3660F0
@@ -161,7 +161,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class CarUserControl : MonoBehaviour
     {
-        public UnityStandardAssets.Vehicles.Car.CarController m_Car; // 0x20
+        public Model_ControllerMode_State_t.? m_Car; // 0x20
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E3666E0
@@ -171,8 +171,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class Mudguard : MonoBehaviour
     {
-        public UnityStandardAssets.Vehicles.Car.CarController carController; // 0x20
-        public UnityEngine.Quaternion m_OriginalRotation; // 0x28
+        public Model_ControllerMode_State_t.? carController; // 0x20
+        public R_12x12 m_OriginalRotation; // 0x28
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E366920
@@ -191,9 +191,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class Suspension : MonoBehaviour
     {
-        public UnityEngine.GameObject wheel; // 0x20
-        public UnityEngine.Vector3 m_TargetOriginalPosition; // 0x28
-        public UnityEngine.Vector3 m_Origin; // 0x34
+        public BuffersImpl wheel; // 0x20
+        public amut m_TargetOriginalPosition; // 0x28
+        public amut m_Origin; // 0x34
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E367020
@@ -203,15 +203,15 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class WheelEffects : MonoBehaviour
     {
-        public UnityEngine.Transform skidding; // 0x20
-        public UnityEngine.Transform PlayingAudio;
-        public UnityEngine.ParticleSystem skidParticles; // 0x28
+        public object skidding; // 0x20
+        public object PlayingAudio;
+        public InDuration skidParticles; // 0x28
         public bool <skidding>k__BackingField; // 0x30
         public bool <PlayingAudio>k__BackingField; // 0x31
-        public UnityEngine.AudioSource m_AudioSource; // 0x38
-        public UnityEngine.Transform m_SkidTrail; // 0x40
-        public UnityEngine.WheelCollider m_WheelCollider; // 0x48
-        public InstantiationDelegate Instantiate; // 0x8
+        public t m_AudioSource; // 0x38
+        public object m_SkidTrail; // 0x40
+        public cessorType m_WheelCollider; // 0x48
+        public object Instantiate; // 0x8
 
         // ── Methods ──
         public void get_skidding(){} // RVA: 0x7FFD4E367450

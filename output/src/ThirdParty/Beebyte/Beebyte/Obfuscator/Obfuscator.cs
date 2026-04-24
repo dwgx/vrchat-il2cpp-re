@@ -46,7 +46,7 @@ namespace ThirdParty.Beebyte.Beebyte.Obfuscator
 
     public class SuppressLogAttribute : Attribute
     {
-        public ÌÏÌÍÎÌÎÏÏ.ÌÎÍÏÌÏÎÍÏÎÏÍÎÌÍÌÎÏÌÌÌÌÍ _messageCode; // 0x10
+        public eBuffer.ctiveIndex _messageCode; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0 | overloaded x2

@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 {
     public class AllocFreeConcurrentStack`1 : Object
     {
-        public System.Type ThreadLocalStack;
+        public object ThreadLocalStack;
 
         // ── Methods ──
         public void TryAdd(){} // RVA: 0x7FFD4E2ADC40
@@ -18,7 +18,7 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class DictionaryEnumerator`2 : Object
     {
-        public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<U,T>> Entry;
+        public URA.saAbbrevEnglishEraNames<URA.mes<T1717730000,T1717730016>> Entry;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -32,8 +32,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class DisposableEnumeratorAdapter`2 : ValueType
     {
-        public System.Collections.Generic.IEnumerator`1<string> Current; // 0x10
-        public Enumerator<string> _enumeratorStruct; // 0x18
+        public URA.saAbbrevEnglishEraNames<T1717730032> Current;
+        public T1717730048 _enumeratorStruct;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -98,8 +98,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
-        public System.Collections.Immutable.ImmutableArray`1<UnityEngine.RequireComponent> System.Collections.Generic.IList<T>.Item;
-        public UnityEngine.RequireComponent[] System.Collections.Generic.ICollection<T>.IsReadOnly; // 0x10
+        public fset2096.ctions.KVPair<TKey,TValue>>.GetEnumerator<int> System.Collections.Generic.IList<T>.Item;
+        public int[] System.Collections.Generic.ICollection<T>.IsReadOnly; // 0x10
 
         // ── Methods ──
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0x7FFD4E2ADC40
@@ -158,11 +158,11 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableDictionary`2 : Object
     {
-        public System.Collections.Immutable.ImmutableDictionary`2<U,T> Count;
-        public System.Action`1<System.Collections.Generic.KeyValuePair`2<int,HashBucket<U,T>>> IsEmpty;
+        public fset2096.ultiHashMap`2<T1717731056,T1717731072> Count;
+        public ileFullDirectoryInformation<URA.mes<int,IUTF8Bytes<T1717731056,T1717731072>>> IsEmpty;
         public int ValueComparer;
-        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<U,T>> Keys;
-        public Comparers<U,T> Values;
+        public fset2096.KeyOffset<IUTF8Bytes<T1717731056,T1717731072>> Keys;
+        public ose<T1717731056,T1717731072> Values;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -228,12 +228,12 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableHashSet`1 : Object
     {
-        public System.Collections.Immutable.ImmutableHashSet`1<string> Count;
-        public System.Action`1<System.Collections.Generic.KeyValuePair`2<int,HashBucket<string>>> IsEmpty; // 0x8
-        public System.Collections.Generic.IEqualityComparer`1<string> KeyComparer; // 0x10
-        public int System.Collections.ICollection.SyncRoot; // 0x18
-        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> System.Collections.ICollection.IsSynchronized; // 0x20
-        public System.Collections.Generic.IEqualityComparer`1<HashBucket<string>> Origin; // 0x28
+        public fset2096.?<T1717730336> Count;
+        public ileFullDirectoryInformation<URA.mes<int,IUTF8Bytes<T1717730336>>> IsEmpty;
+        public URA.hEraNames<T1717730336> KeyComparer;
+        public int System.Collections.ICollection.SyncRoot;
+        public fset2096.KeyOffset<IUTF8Bytes<T1717730336>> System.Collections.ICollection.IsSynchronized;
+        public URA.hEraNames<IUTF8Bytes<T1717730336>> Origin;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -271,8 +271,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableList`1 : Object
     {
-        public System.Collections.Immutable.ImmutableList`1<T> IsEmpty;
-        public Node<T> Count;
+        public fset2096.eading.Tasks.IAsyncTextSelectionEventHandler<T>.OnTextSelectionAsync<T1717731392> IsEmpty;
+        public tyles<T1717731392> Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -320,11 +320,11 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableSortedDictionary`2 : Object
     {
-        public System.Collections.Immutable.ImmutableSortedDictionary`2<U,T> ValueComparer;
-        public Node<U,T> IsEmpty;
+        public fset2096.aultScrambleAcc<T1717731552,T1717731568> ValueComparer;
+        public tyles<T1717731552,T1717731568> IsEmpty;
         public int Count;
-        public System.Collections.Generic.IComparer`1<U> Keys;
-        public System.Collections.Generic.IEqualityComparer`1<T> Values;
+        public URA.ndar_data<T1717731552> Keys;
+        public URA.hEraNames<T1717731568> Values;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30 | overloaded x2
@@ -385,8 +385,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class KeysOrValuesCollectionAccessor`3 : Object
     {
-        public System.Collections.Immutable.IImmutableDictionary`2<U,T> IsReadOnly; // 0x10
-        public System.Collections.Generic.IEnumerable`1<T> Count; // 0x18
+        public fset2096.offset3248<T1717731696,T1717731712> IsReadOnly; // 0x10
+        public URA.bbrevEraNames<T1717731712> Count; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -407,7 +407,7 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class RefAsValueType`1 : ValueType
     {
-        public Node<string> Value; // 0x10
+        public T1717731728 Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -435,8 +435,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SecurePooledObject`1 : Object
     {
-        public System.Collections.Generic.Stack`1<System.Collections.Immutable.RefAsValueType`1<Node<string>>> Owner; // 0x10
-        public int _owner; // 0x18
+        public T1717735120 Owner;
+        public int _owner;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -449,13 +449,13 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SortedInt32KeyNode`1 : Object
     {
-        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> IsEmpty;
-        public int Height; // 0x10
-        public HashBucket<string> Left; // 0x18
-        public bool Right; // 0x28
-        public byte Value; // 0x29
-        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> _left; // 0x30
-        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> _right; // 0x38
+        public fset2096.KeyOffset<T1717735152> IsEmpty;
+        public int Height;
+        public T1717735152 Left;
+        public bool Right;
+        public byte Value;
+        public fset2096.KeyOffset<T1717735152> _left;
+        public fset2096.KeyOffset<T1717735152> _right;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2

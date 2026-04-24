@@ -19,7 +19,11 @@ namespace VRC.Effects
     /// <summary>Originally: ÍÌÌÌÎÌÏÍÏÏÌÎÏÎÌÌÍÏÍÍÌÌÍ</summary>
     public class EffectBundleIDIsSpecialFX_25D1 : SpecialEffectBase_50E7
     {
-        public ÌÏÎÌÏÏÎÍÍÎÌÍÌÏÎÎÍÌÍÎÏÎÎ _effectBundleID; // 0x140
+        public object _effectBundleID;
+        public object _isSpecialFX;
+        public object f_A32;
+        public object f_5F8;
+        public object f_6C4;
 
         // ── Methods ──
         public void get_EffectBundleID(){} // RVA: 0x7FFD4FA0D070
@@ -41,7 +45,12 @@ namespace VRC.Effects
     /// <summary>Originally: ÏÍÎÏÏÎÍÎÍÍÏÎÍÎÏÌÍÏÌÌÌÌÌ</summary>
     public class EffectBundleIDIsSpecialFX_821E : SpecialEffectBase_50E7
     {
-        public ÍÍÍÏÏÏÏÎÏÍÎÌÏÎÎÍÎÏÍÌÏÎÎ _isSpecialFX; // 0x140
+        public object _isSpecialFX;
+        public object _effectBundleID;
+        public object f_A32;
+        public object f_590;
+        public object f_5F8;
+        public object f_6C4;
 
         // ── Methods ──
         public void get_IsSpecialFX(){} // RVA: 0x7FFD4FAD7270
@@ -65,7 +74,11 @@ namespace VRC.Effects
     /// <summary>Originally: ÏÌÎÏÍÌÏÍÎÎÍÍÌÎÍÏÏÎÌÌÎÏÍ</summary>
     public class EffectBundleIDIsSpecialFX_CE7B : AnimatedTextureBaseImpl_CE19
     {
-        public ÌÏÎÌÏÏÎÍÍÎÌÍÌÏÎÎÍÌÍÎÏÎÎ _effectBundleID; // 0xB8
+        public object _effectBundleID;
+        public object _isSpecialFX;
+        public object f_A32;
+        public object f_5F8;
+        public object f_6C4;
 
         // ── Methods ──
         public void set_PointerPose(){} // RVA: 0x7FFD4E3AC0C0
@@ -88,7 +101,11 @@ namespace VRC.Effects
     /// <summary>Originally: ÏÎÎÌÏÏÌÍÎÏÍÌÎÍÍÍÌÎÍÌÌÌÌ</summary>
     public class EffectBundleIDIsSpecialFX_EDFC : AnimatedTextureBaseImpl_CE19
     {
-        public ÍÏÎÏÎÌÎÏÎÎÍÏÎÍÎÏÏÏÍÍÎÎÍ _effectBundleID; // 0xB8
+        public object _effectBundleID;
+        public object _isSpecialFX;
+        public object f_6C4;
+        public object f_D73;
+        public object f_A32;
 
         // ── Methods ──
         public void set_EffectBundleID(){} // RVA: 0x7FFD4FAD6C70
@@ -123,7 +140,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÍÍÍÌÌÎÍÌÎÏÍÌÏÍÏÏÍÏÎÎÍÌÏ</summary>
     public class SpecialEffectBaseImplImpl_283F : SpecialEffectBaseImpl_9655
     {
-        public ÌÎÍÌÎÌÍÍÏÎÏÎÌÍÏÌÍÌÌÏÎÍÌ f_455; // 0x148
+        public object f_455;
+        public object f_58F;
 
         // ── Methods ──
         public void InitializeCtor(){} // RVA: 0x7FFD4E918D90
@@ -136,7 +154,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÏÍÍÎÌÏÎÎÏÌÏÏÎÎÎÎÎÎÌÍÌÎÌ</summary>
     public class SpecialEffectBaseImplImpl_515B : SpecialEffectBaseImpl_9655
     {
-        public ÏÍÍÎÌÏÏÎÏÏÌÍÍÏÌÌÌÏÍÎÌÍÍ f_455; // 0x148
+        public object f_455;
+        public object f_58F;
 
         // ── Methods ──
         public void InitializeEffect(){} // RVA: 0x7FFD4E93EB30
@@ -149,9 +168,8 @@ namespace VRC.Effects
     /// <summary>Originally: ÏÍÏÎÎÎÍÎÏÌÎÌÏÍÏÏÍÏÎÏÌÌÎ</summary>
     public class SpecialEffectBaseImplImpl_EADB : SpecialEffectBaseImpl_9655
     {
-        public string f_58F;
-        public string f_455; // 0x148
-        public ÍÌÎÍÏÌÎÌÌÌÏÎÍÎÌÏÍÏÌÍÍÏÏ ÎÌÎÌÎÌÍÎÎÏÌÌÌÎÌÏÏÏÌÏÌÏÌ; // 0x150
+        public object f_58F;
+        public object f_455;
 
         // ── Methods ──
         public void SetEnabled_508(){} // RVA: 0x7FFD4E8E1A70
@@ -197,8 +215,7 @@ namespace VRC.Effects
     /// <summary>Originally: ÏÍÌÎÎÍÎÏÎÍÍÎÌÎÏÎÏÌÍÏÏÏÏ</summary>
     public class SpecialEffectBaseImpl_CBF2 : SpecialEffectBase_50E7
     {
-        public VRC.Core.ApiProp _cBF2; // 0x140
-        public ÏÎÌÏÏÍÎÌÍÏÏÌÌÏÏÌÍÌÌÎÎÏÎ <ÍÏÍÍÍÏÏÌÏÎÎÍÍÌÎÎÌÌÌÍÍÏÏ>k__BackingField; // 0x148
+        public object _cBF2;
 
         // ── Methods ──
         public void StartPickedUp(){} // RVA: 0x7FFD4E727A40
@@ -218,48 +235,47 @@ namespace VRC.Effects
     /// <summary>Originally: ÎÏÏÍÎÌÍÎÎÌÍÌÍÎÍÌÎÏÌÏÎÌÌ</summary>
     public class SpecialEffectBaseSibling_AB91 : Object
     {
-        public string _name; // 0x10
-        public VRC.Localization.LocalizableString _hideFlags; // 0x18
-        public VRC.Localization.LocalizableString f_840; // 0x40
-        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> f_9CE; // 0x68
-        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Sprite> f_EA3; // 0x70
-        public string f_9DF; // 0x78
-        public object f_0A9; // 0x80
-        public string f_A31; // 0x88
-        public string f_ED8; // 0x90
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> f_55F; // 0x98
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> f_172; // 0xA0
-        public bool f_D1E; // 0xA8
-        public System.DateTime f_A26; // 0xB0
-        public System.DateTime f_AF4; // 0xB8
-        public System.DateTime f_491; // 0xC0
-        public System.DateTime f_7A4; // 0xC8
-        public string f_088; // 0xD0
-        public string f_A14; // 0xD8
-        public string f_4C4; // 0xE0
-        public string f_88F; // 0xE8
-        public bool f_BF0; // 0xF0
-        public bool f_A80; // 0xF1
-        public bool f_FCF; // 0xF2
-        public bool f_876; // 0xF3
-        public bool f_3CC; // 0xF4
-        public bool f_464; // 0xF5
-        public bool f_D41; // 0xF6
-        public bool f_0B7; // 0xF7
-        public bool f_A2D; // 0xF8
-        public bool f_0C4; // 0xF9
-        public bool f_122; // 0xFA
-        public bool f_2A5; // 0xFB
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_F9F; // 0x100
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_AAF; // 0x108
-        public System.Collections.Generic.List`1<string> f_78A; // 0x110
-        public System.Collections.Generic.List`1<string> f_CCA; // 0x118
-        public System.Collections.Generic.List`1<string> f_4F8; // 0x120
-        public string f_DB7; // 0x128
-        public bool f_5FC; // 0x130
-        public bool f_E2C; // 0x131
-        public string f_675; // 0x138
-        public System.Action ÏÌÏÌÎÍÍÌÏÌÎÎÍÎÌÌÎÏÎÌÏÎÎ; // 0x140
+        public object _name;
+        public object _hideFlags;
+        public object f_840;
+        public object f_9CE;
+        public object f_EA3;
+        public object f_9DF;
+        public object f_0A9;
+        public object f_A31;
+        public object f_ED8;
+        public object f_55F;
+        public object f_172;
+        public object f_D1E;
+        public object f_A26;
+        public object f_AF4;
+        public object f_491;
+        public object f_7A4;
+        public object f_088;
+        public object f_A14;
+        public object f_4C4;
+        public object f_88F;
+        public object f_BF0;
+        public object f_A80;
+        public object f_FCF;
+        public object f_876;
+        public object f_3CC;
+        public object f_464;
+        public object f_D41;
+        public object f_0B7;
+        public object f_A2D;
+        public object f_0C4;
+        public object f_122;
+        public object f_2A5;
+        public object f_F9F;
+        public object f_AAF;
+        public object f_78A;
+        public object f_CCA;
+        public object f_4F8;
+        public object f_DB7;
+        public object f_5FC;
+        public object f_E2C;
+        public object f_675;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F282B60
@@ -358,46 +374,46 @@ namespace VRC.Effects
     /// <summary>Originally: ÎÎÌÎÍÎÎÌÍÌÏÎÏÎÎÌÎÏÎÏÌÏÍ</summary>
     public class SpecialEffectBase_50E7 : Object
     {
-        public string _name; // 0x10
-        public VRC.Localization.LocalizableString _hideFlags; // 0x18
-        public VRC.Localization.LocalizableString f_840; // 0x40
-        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> f_9CE; // 0x68
-        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Sprite> f_EA3; // 0x70
-        public string f_9DF; // 0x78
-        public string f_A31; // 0x80
-        public string f_ED8; // 0x88
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> f_55F; // 0x90
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> f_172; // 0x98
-        public bool f_D1E; // 0xA0
-        public System.DateTime f_A26; // 0xA8
-        public System.DateTime f_AF4; // 0xB0
-        public System.DateTime f_491; // 0xB8
-        public System.DateTime f_7A4; // 0xC0
-        public string f_DB7; // 0xC8
-        public bool f_5FC; // 0xD0
-        public string f_E2C; // 0xD8
-        public string f_675; // 0xE0
-        public string f_088; // 0xE8
-        public string f_A14; // 0xF0
-        public string f_4C4; // 0xF8
-        public bool f_88F; // 0x100
-        public bool f_BF0; // 0x101
-        public bool f_A80; // 0x102
-        public bool f_FCF; // 0x103
-        public bool f_876; // 0x104
-        public bool f_3CC; // 0x105
-        public bool f_464; // 0x106
-        public bool f_D41; // 0x107
-        public bool f_0B7; // 0x108
-        public bool f_A2D; // 0x109
-        public bool f_0C4; // 0x10A
-        public bool f_122; // 0x10B
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_2A5; // 0x110
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_F9F; // 0x118
-        public System.Collections.Generic.List`1<string> f_AAF; // 0x120
-        public System.Collections.Generic.List`1<string> f_78A; // 0x128
-        public System.Collections.Generic.List`1<string> f_CCA; // 0x130
-        public System.Action f_4F8; // 0x138
+        public object _name;
+        public object _hideFlags;
+        public object f_840;
+        public object f_9CE;
+        public object f_EA3;
+        public object f_9DF;
+        public object f_A31;
+        public object f_ED8;
+        public object f_55F;
+        public object f_172;
+        public object f_D1E;
+        public object f_A26;
+        public object f_AF4;
+        public object f_491;
+        public object f_7A4;
+        public object f_DB7;
+        public object f_5FC;
+        public object f_E2C;
+        public object f_675;
+        public object f_088;
+        public object f_A14;
+        public object f_4C4;
+        public object f_88F;
+        public object f_BF0;
+        public object f_A80;
+        public object f_FCF;
+        public object f_876;
+        public object f_3CC;
+        public object f_464;
+        public object f_D41;
+        public object f_0B7;
+        public object f_A2D;
+        public object f_0C4;
+        public object f_122;
+        public object f_2A5;
+        public object f_F9F;
+        public object f_AAF;
+        public object f_78A;
+        public object f_CCA;
+        public object f_4F8;
 
         // ── Methods ──
         public void StartPickedUp(){} // RVA: 0x7FFD4E3BCD60

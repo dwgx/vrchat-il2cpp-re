@@ -7,8 +7,8 @@ namespace VRC.Localization
 {
     public class LocalizableOptionData : ValueType
     {
-        public VRC.Localization.LocalizableString LocalizableText; // 0x10
-        public UnityEngine.Sprite Image; // 0x38
+        public itTypeSize=876 LocalizableText; // 0x10
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField Image; // 0x38
 
         // ── Methods ──
         public void GetLanguage(){} // RVA: 0x7FFD4E36F130
@@ -29,7 +29,7 @@ namespace VRC.Localization
         public object IsLocalized; // 0x20
         public object IsEmpty; // 0x28
         public object _arg2; // 0x30
-        public VRC.Localization.LocalizableString Empty;
+        public itTypeSize=876 Empty;
 
         // ── Methods ──
         public void op_Equality(){} // RVA: 0x7FFD53658120
@@ -64,7 +64,7 @@ namespace VRC.Localization
 
     public class LocalizableStringFormatter : Object
     {
-        public System.Collections.Generic.Stack`1<System.Text.StringBuilder> _formattedStringBuilders;
+        public URA.leEastFrench<em.MarkAborted.izeDefaultCase> _formattedStringBuilders;
 
         // ── Methods ──
         public void GetStringBuilder(){} // RVA: 0x7FFD53659590
@@ -75,7 +75,7 @@ namespace VRC.Localization
 
     public class LocalizationAssetParser : Object
     {
-        public System.Text.StringBuilder TMPBuilder;
+        public em.MarkAborted.izeDefaultCase TMPBuilder;
 
         // ── Methods ──
         public void SeparateCSVDataIntoFilesPerLanguage(){} // RVA: 0x7FFD5364D300
@@ -117,13 +117,13 @@ namespace VRC.Localization
     public class LocalizationDatabase : Object
     {
         public string Instance;
-        public System.Collections.Generic.Dictionary`2<string,string> Languages; // 0x10
-        public System.Collections.Generic.List`1<string> LanguageCount; // 0x18
-        public System.Collections.Generic.HashSet`1<string> KeyCount; // 0x20
-        public System.Collections.Generic.List`1<string> Timestamp; // 0x28
-        public System.Collections.Generic.List`1<VRC.Localization.LocalizationAssetSource> CurrentLanguage; // 0x30
-        public System.Text.StringBuilder IsRTL; // 0x38
-        public VRC.Localization.LocalizationDatabase <Instance>k__BackingField;
+        public URA.DateTime<string,string> Languages; // 0x10
+        public URA.woDigitYearMax<string> LanguageCount; // 0x18
+        public URA.onsDepth<string> KeyCount; // 0x20
+        public URA.woDigitYearMax<string> Timestamp; // 0x28
+        public URA.woDigitYearMax<e> CurrentLanguage; // 0x30
+        public em.MarkAborted.izeDefaultCase IsRTL; // 0x38
+        public ionTorque <Instance>k__BackingField;
         public string <Timestamp>k__BackingField; // 0x40
         public string <CurrentLanguage>k__BackingField; // 0x48
         public bool <IsRTL>k__BackingField; // 0x50
@@ -161,16 +161,16 @@ namespace VRC.Localization
 
     public class LocalizationManager : Object
     {
-        public System.Lazy`1<ÌÎÏÍÏÏÍÎÍÍÏÌÎÌÏÍÏÏÌÎÌÏÌ> _name; // 0x10
+        public dle<ÌÍÏÍÎÌÎÌ> _name; // 0x10
         public string _hideFlags;
-        public ÏÎÎÌÏÏÎÌÎÌÎÍÍÎÏÌÏÎÌÏÎÏÎ<string> f_86E; // 0x18
-        public ÏÎÎÌÏÏÎÌÎÌÎÍÍÎÏÌÏÎÌÏÎÏÎ<VRC.Localization.LocalizableString> f_032; // 0x20
-        public System.Collections.Generic.List`1<string> f_D44; // 0x28
-        public ÌÎÌÌÎÎÍÌÍÍÏÏÏÌÌÌÎÌÏÍÎÍÎ f_B88; // 0x30
+        public ?<string> f_86E; // 0x18
+        public ?<itTypeSize=876> f_032; // 0x20
+        public URA.woDigitYearMax<string> f_D44; // 0x28
+        public object f_B88; // 0x30
         public string f_708;
         public bool <ÍÏÌÏÎÍÏÎÏÌÏÍÎÏÎÌÍÌÌÏÍÎÎ>k__BackingField; // 0x38
-        public System.Collections.Generic.Dictionary`2<string,ÌÎÌÌÎÎÍÌÍÍÏÏÏÌÌÌÎÌÏÍÎÍÎ> ÏÍÍÌÎÎÏÌÌÌÌÏÏÌÍÏÍÌÎÎÏÍÍ;
-        public System.Collections.Generic.Dictionary`2<string,string> ÌÏÎÌÍÏÏÎÍÎÍÌÎÌÎÌÍÍÎÍÎÍÏ; // 0x8
+        public URA.DateTime<string,?> ÎÎÎÌÏÍÏÎÍÏÎÍÏÏÎÎÎÌÌÏÎÏÏ;
+        public URA.DateTime<string,string> ÏÏÎÏÎÍÎÌÏÌÌÌÎÍÍÏÎÍÏÏÌÍÏ; // 0x8
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FAE3E60

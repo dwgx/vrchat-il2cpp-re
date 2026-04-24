@@ -128,9 +128,9 @@ namespace ThirdParty.DotNet.System
 
     public class MonoCustomAttrs : Object
     {
-        public System.Reflection.Assembly corlib;
-        public System.Collections.Generic.Dictionary`2<System.Type,System.AttributeUsageAttribute> usage_cache; // 0xFFFF
-        public System.AttributeUsageAttribute DefaultAttributeUsage; // 0x8
+        public m.ormation corlib;
+        public URA.DateTime<?,n> usage_cache; // 0xFFFFFFFF
+        public n DefaultAttributeUsage; // 0x8
 
         // ── Methods ──
         public void IsUserCattrProvider(){} // RVA: 0x7FFD53ABDA70
@@ -159,7 +159,7 @@ namespace ThirdParty.DotNet.System
     public class MonoTypeInfo : Object
     {
         public string full_name; // 0x10
-        public System.Reflection.RuntimeConstructorInfo default_ctor; // 0x18
+        public m.FreeBSTR default_ctor; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -167,7 +167,7 @@ namespace ThirdParty.DotNet.System
 
     public class MulticastDelegate : Delegate
     {
-        public System.Delegate[] delegates; // 0x78
+        public formation[] delegates; // 0x78
 
         // ── Methods ──
         public void GetObjectData(){} // RVA: 0x7FFD53ABC000

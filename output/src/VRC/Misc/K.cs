@@ -8,7 +8,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÎÎÎÌÌÌÍÍÌÌÌÌÌÌÏÍÍÍÎÍÌ</summary>
     public class keepWaitingSibling_EA88 : keepWaiting_F346
     {
-        public T _eA88;
+        public object _eA88;
 
         // ── Methods ──
         public void GetRange(){} // RVA: 0x7FFD4E2ADC40
@@ -20,7 +20,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÍÎÍÍÏÎÍÎÌÎÍÎÌÌÌÏÌÍÍÌÍ</summary>
     public class keepWaiting_BAD0 : CustomYieldInstruction
     {
-        public float _keepWaiting; // 0x10
+        public object _keepWaiting;
 
         // ── Methods ──
         public void get_keepWaiting(){} // RVA: 0x7FFD4F9C83C0
@@ -30,14 +30,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÎÍÌÌÎÍÌÏÎÎÍÌÏÎÏÏÌÌÍÎÏ</summary>
     public class keepWaiting_F346 : CustomYieldInstruction
     {
-        public object _keepWaiting; // 0x10
-        public object _current; // 0x18
-        public bool f_A68; // 0x20
-        public UnityEngine.MonoBehaviour f_276; // 0x28
-        public System.Collections.IEnumerator ÌÏÌÎÏÏÍÎÍÎÍÏÍÎÌÌÌÎÎÏÏÏÎ; // 0x30
-        public UnityEngine.Coroutine ÎÌÎÏÍÍÍÎÍÏÏÌÍÌÌÎÏÍÎÎÏÍÎ; // 0x38
-        public bool <ÎÍÌÍÏÍÍÍÏÎÍÍÏÌÎÌÎÏÌÎÏÍÍ>k__BackingField; // 0x40
-        public System.Exception <ÌÍÍÍÎÎÎÏÍÍÍÍÎÌÍÍÌÍÏÍÌÌÏ>k__BackingField; // 0x48
+        public object _keepWaiting;
+        public object _current;
+        public object f_A68;
+        public object f_276;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F8517B0

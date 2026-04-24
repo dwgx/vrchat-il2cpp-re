@@ -8,8 +8,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
     public class Bone : ValueType
     {
         public uint parentBoneIndex; // 0x10
-        public UnityEngine.Vector3 position; // 0x14
-        public UnityEngine.Quaternion rotation; // 0x20
+        public amut position; // 0x14
+        public R_12x12 rotation; // 0x20
 
         // ── Methods ──
         public void get_parentBoneIndex(){} // RVA: 0x7FFD4F840210
@@ -22,9 +22,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class BoneControl : InputControl`1
     {
-        public UnityEngine.InputSystem.Controls.IntegerControl parentBoneIndex; // 0x140
-        public UnityEngine.InputSystem.Controls.Vector3Control position; // 0x148
-        public UnityEngine.InputSystem.Controls.QuaternionControl rotation; // 0x150
+        public _1.tTriggerButton parentBoneIndex; // 0x140
+        public _1.utReport position; // 0x148
+        public _1.? rotation; // 0x150
 
         // ── Methods ──
         public void get_parentBoneIndex(){} // RVA: 0x7FFD4E3AC5F0
@@ -41,11 +41,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class Eyes : ValueType
     {
-        public UnityEngine.Vector3 leftEyePosition; // 0x10
-        public UnityEngine.Quaternion leftEyeRotation; // 0x1C
-        public UnityEngine.Vector3 rightEyePosition; // 0x2C
-        public UnityEngine.Quaternion rightEyeRotation; // 0x38
-        public UnityEngine.Vector3 fixationPoint; // 0x48
+        public amut leftEyePosition; // 0x10
+        public R_12x12 leftEyeRotation; // 0x1C
+        public amut rightEyePosition; // 0x2C
+        public R_12x12 rightEyeRotation; // 0x38
+        public amut fixationPoint; // 0x48
         public float leftEyeOpenAmount; // 0x54
         public float rightEyeOpenAmount; // 0x58
 
@@ -68,13 +68,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class EyesControl : InputControl`1
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control leftEyePosition; // 0x198
-        public UnityEngine.InputSystem.Controls.QuaternionControl leftEyeRotation; // 0x1A0
-        public UnityEngine.InputSystem.Controls.Vector3Control rightEyePosition; // 0x1A8
-        public UnityEngine.InputSystem.Controls.QuaternionControl rightEyeRotation; // 0x1B0
-        public UnityEngine.InputSystem.Controls.Vector3Control fixationPoint; // 0x1B8
-        public UnityEngine.InputSystem.Controls.AxisControl leftEyeOpenAmount; // 0x1C0
-        public UnityEngine.InputSystem.Controls.AxisControl rightEyeOpenAmount; // 0x1C8
+        public _1.utReport leftEyePosition; // 0x198
+        public _1.? leftEyeRotation; // 0x1A0
+        public _1.utReport rightEyePosition; // 0x1A8
+        public _1.? rightEyeRotation; // 0x1B0
+        public _1.utReport fixationPoint; // 0x1B8
+        public _1.Index leftEyeOpenAmount; // 0x1C0
+        public _1.Index rightEyeOpenAmount; // 0x1C8
 
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0x7FFD4E961C80
@@ -99,12 +99,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class PoseControl : InputControl`1
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl isTracked; // 0x178
-        public UnityEngine.InputSystem.Controls.IntegerControl trackingState; // 0x180
-        public UnityEngine.InputSystem.Controls.Vector3Control position; // 0x188
-        public UnityEngine.InputSystem.Controls.QuaternionControl rotation; // 0x190
-        public UnityEngine.InputSystem.Controls.Vector3Control velocity; // 0x198
-        public UnityEngine.InputSystem.Controls.Vector3Control angularVelocity; // 0x1A0
+        public _1.ceControlChangedValue isTracked; // 0x178
+        public _1.tTriggerButton trackingState; // 0x180
+        public _1.utReport position; // 0x188
+        public _1.? rotation; // 0x190
+        public _1.utReport velocity; // 0x198
+        public _1.utReport angularVelocity; // 0x1A0
 
         // ── Methods ──
         public void get_isTracked(){} // RVA: 0x7FFD4E78D860
@@ -129,13 +129,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
     public class PoseState : ValueType
     {
         public int format;
-        public UnityEngine.InputSystem.Utilities.FourCC s_Format;
+        public 2.Code s_Format;
         public bool isTracked; // 0x10
-        public ÏÎÏÎÏÍÎÌÍÍÍÏÍÎÍÍÎÎÎÌ.ÌÏÌÎÌÎÎÌÎÎÌÌÎÎÍÌÌÏÌÍÏÍ trackingState; // 0x14
-        public UnityEngine.Vector3 position; // 0x18
-        public UnityEngine.Quaternion rotation; // 0x24
-        public UnityEngine.Vector3 velocity; // 0x34
-        public UnityEngine.Vector3 angularVelocity; // 0x40
+        public oducts.metry trackingState; // 0x14
+        public amut position; // 0x18
+        public R_12x12 rotation; // 0x24
+        public amut velocity; // 0x34
+        public amut angularVelocity; // 0x40
 
         // ── Methods ──
         public void get_format(){} // RVA: 0x7FFD54A52560
@@ -145,21 +145,21 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class TrackedPoseDriver : MonoBehaviour
     {
-        public 0x664A9A08 trackingType; // 0x20
-        public 0x664A9AB8 updateType; // 0x24
+        public ch7deltadown trackingType; // 0x20
+        public object updateType; // 0x24
         public bool ignoreTrackingState; // 0x28
-        public UnityEngine.InputSystem.InputActionProperty positionInput; // 0x30
-        public UnityEngine.InputSystem.InputActionProperty rotationInput; // 0x48
-        public UnityEngine.InputSystem.InputActionProperty trackingStateInput; // 0x60
-        public UnityEngine.Vector3 positionAction; // 0x78
-        public UnityEngine.Quaternion rotationAction; // 0x84
-        public 0x664A9A60 m_CurrentTrackingState; // 0x94
+        public ilAddress.Providers positionInput; // 0x30
+        public ilAddress.Providers rotationInput; // 0x48
+        public ilAddress.Providers trackingStateInput; // 0x60
+        public amut positionAction; // 0x78
+        public R_12x12 rotationAction; // 0x84
+        public touch7deltaleft m_CurrentTrackingState; // 0x94
         public bool m_RotationBound; // 0x98
         public bool m_PositionBound; // 0x99
         public bool m_TrackingStateBound; // 0x9A
         public bool m_IsFirstUpdate; // 0x9B
-        public UnityEngine.InputSystem.InputAction m_PositionAction; // 0xA0
-        public UnityEngine.InputSystem.InputAction m_RotationAction; // 0xA8
+        public ilAddress.s m_PositionAction; // 0xA0
+        public ilAddress.s m_RotationAction; // 0xA8
 
         // ── Methods ──
         public void get_trackingType(){} // RVA: 0x7FFD4E4FBBE0
@@ -232,12 +232,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class XRHMD : TrackedDevice
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control leftEyePosition; // 0x1B0
-        public UnityEngine.InputSystem.Controls.QuaternionControl leftEyeRotation; // 0x1B8
-        public UnityEngine.InputSystem.Controls.Vector3Control rightEyePosition; // 0x1C0
-        public UnityEngine.InputSystem.Controls.QuaternionControl rightEyeRotation; // 0x1C8
-        public UnityEngine.InputSystem.Controls.Vector3Control centerEyePosition; // 0x1D0
-        public UnityEngine.InputSystem.Controls.QuaternionControl centerEyeRotation; // 0x1D8
+        public _1.utReport leftEyePosition; // 0x1B0
+        public _1.? leftEyeRotation; // 0x1B8
+        public _1.utReport rightEyePosition; // 0x1C0
+        public _1.? rightEyeRotation; // 0x1C8
+        public _1.utReport centerEyePosition; // 0x1D0
+        public _1.? centerEyeRotation; // 0x1D8
 
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0x7FFD4E969F30
@@ -260,9 +260,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
     {
         public string parentLayout; // 0x10
         public string interfaceName; // 0x18
-        public 0x664A9D78 descriptor; // 0x20
+        public deltaleft.rlTouchscreentouch8press descriptor; // 0x20
         public string[] poseSubControlNames;
-        public 0x664A9C70[] poseSubControlTypes; // 0x8
+        public deltaleft.ntouch8pressure[] poseSubControlTypes; // 0x8
 
         // ── Methods ──
         public void GetSizeOfFeature(){} // RVA: 0x7FFD54A56500

@@ -20,8 +20,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker
         public string _HAND_WORLD_LANDMARKS_TAG;
         public string _TASK_GRAPH_NAME;
         public int _MICRO_SECONDS_PER_MILLISECOND;
-        public 0x66577BA0 _packetCallback; // 0x20
-        public 0x66573000 _normalizedRect; // 0x28
+        public dFieldNumber _packetCallback; // 0x20
+        public etBestGrabbingType.Name _normalizedRect; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537184D0
@@ -37,13 +37,13 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker
 
     public class HandLandmarkerOptions : Object
     {
-        public Mediapipe.Tasks.Core.BaseOptions baseOptions; // 0x10
-        public 0x66575EC0 runningMode; // 0x18
+        public lIdFieldNumber.rdio baseOptions; // 0x10
+        public e.ÍÍÏÏÎÎÍÍÍÏÎÏÍÎÍÏÌÏÌÏÌÍÌ runningMode; // 0x18
         public int numHands; // 0x1C
         public float minHandDetectionConfidence; // 0x20
         public float minHandPresenceConfidence; // 0x24
         public float minTrackingConfidence; // 0x28
-        public 0x665765A0 resultCallback; // 0x30
+        public maxDefaultValue resultCallback; // 0x30
 
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x7FFD4E35C380
@@ -60,9 +60,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker
 
     public class HandLandmarkerResult : ValueType
     {
-        public System.Collections.Generic.List`1<0x66578178> handedness; // 0x10
-        public System.Collections.Generic.List`1<0x66578438> handLandmarks; // 0x18
-        public System.Collections.Generic.List`1<0x665783E0> handWorldLandmarks; // 0x20
+        public URA.woDigitYearMax<gBox.set_Mask> handedness; // 0x10
+        public URA.woDigitYearMax<gBox.ypoints> handLandmarks; // 0x18
+        public URA.woDigitYearMax<gBox.RelativeKeypoints> handWorldLandmarks; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F88FCC0

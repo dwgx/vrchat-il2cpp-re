@@ -7,9 +7,9 @@ namespace VRC.UI.Core
 {
     public class FoldoutStateService : Object
     {
-        public string ÎÌÏÏÍÎÏÎÍÍÏÎÍÌÏÍÏÎÌÍÏÏÏ;
-        public System.Collections.Generic.HashSet`1<int> ÏÍÍÍÍÌÏÏÎÌÏÍÎÍÎÎÌÍÏÏÍÌÌ;
-        public System.Collections.Generic.Dictionary`2<int,ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<bool>> ÍÎÏÍÎÌÌÎÏÍÏÏÌÌÍÏÎÏÎÌÍÌÎ; // 0x8
+        public string ÍÌÌÎÏÏÏÌÎÏÌÏÌÎÏÎÏÏÏÌÎÎÎ;
+        public URA.onsDepth<int> ÏÌÌÍÍÌÏÏÍÎÍÌÏÌÎÎÌÏÍÎÍÌÎ;
+        public URA.DateTime<int,ÏÏÎÏÍÎÍÏÌÎÏÎ<bool>> ÎÌÎÍÎÎÍÏÌÎÏÎÌÎÍÎÎÌÏÏÌÌÎ; // 0x8
 
         // ── Methods ──
         public void StaticInitialize(){} // RVA: 0x7FFD56DBC180
@@ -21,7 +21,7 @@ namespace VRC.UI.Core
 
     public class UIElement : MonoBehaviour
     {
-        public 0x665C7D78 _uIElement; // 0x20
+        public nableAutomaticResync _uIElement; // 0x20
 
         // ── Methods ──
         public void SetCurrentSocket(){} // RVA: 0x7FFD4E36F0D0
@@ -37,7 +37,7 @@ namespace VRC.UI.Core
 
     public class UIManager : MonoBehaviour
     {
-        public VRC.UI.Core.UIManager _uIManager;
+        public _1.AutoPlay _uIManager;
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD56658CC0

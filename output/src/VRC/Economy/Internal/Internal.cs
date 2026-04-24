@@ -9,11 +9,11 @@ namespace VRC.Economy.Internal
     {
         public string _name;
         public string _hideFlags;
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_918; // 0x10
-        public System.Nullable`1<System.DateTime> f_E1F; // 0x18
-        public System.Collections.Generic.IReadOnlyList`1<ÍÍÎÍÌÌÏÏÏÎÏÏÍÌÎÍÍÌÌÎÏÎÏ> ÏÎÎÎÏÏÏÏÌÍÏÎÌÎÌÎÍÍÎÏÏÏÎ; // 0x28
-        public System.Lazy`1<string> ÎÏÎÌÏÏÎÎÎÌÏÎÎÌÎÍÏÏÏÏÎÌÌ;
-        public ÌÌÌÎÍÎÏÌÌÎÎÏÎÍÍÎÍÌÍÏÏÏÏ <ÏÎÌÌÏÏÌÌÏÌÎÍÌÍÍÎÎÌÎÏÏÍÎ>k__BackingField; // 0x30
+        public ?<bool> f_918; // 0x10
+        public aphy<DependencyInjector> f_E1F; // 0x18
+        public URA.saAbbrevMonthNames<?> ÏÏÎÎÍÎÌÍÎÌÍÎÎÏÎÌÌÍÎÍÎÍÌ; // 0x28
+        public dle<string> ÍÏÏÎÎÌÏÌÎÌÎÍÌÏÍÏÍÍÌÎÍÍÎ;
+        public ÏÎÌÏÎÍÌÌÌÌÌÍÎ <ÏÎÌÌÏÏÌÌÏÌÎÍÌÍÍÎÎÌÎÏÏÍÎ>k__BackingField; // 0x30
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E9F2F00

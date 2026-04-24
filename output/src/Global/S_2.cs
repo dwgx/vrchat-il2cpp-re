@@ -7,7 +7,7 @@ public class StringSerializer : ValueType
 {
     public string _serializedText; // 0x10
     public int _currentTokenStartIndex; // 0x18
-    public 0x6641D768 _state; // 0x1C
+    public object _state; // 0x1C
 
     // ── Methods ──
     public void GetSerializedString(){} // RVA: 0x7FFD53924A60
@@ -35,7 +35,7 @@ public class StructGetter`2 : MulticastDelegate
 
 public class SubEmittersModule : ValueType
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public InDuration enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -78,8 +78,8 @@ public class SubmitEvent : UnityEvent`1
 public class Subscription : Object
 {
     public object gate;
-    public Cysharp.Threading.Tasks.Internal.AsyncSubject`1<T> parent;
-    public System.IObserver`1<T> unsubscribeTarget;
+    public n.ngedAsync<T1717671888> parent;
+    public yPermissionCheck<T1717671888> unsubscribeTarget;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -131,8 +131,8 @@ public class SwitchInputOnlyReport : ValueType
 public class SwitchMagicOutputHIDBluetooth : ValueType
 {
     public int Type;
-    public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
-    public SwitchMagicOutputReport report; // 0x18
+    public Device.formUserAccount typeStatic; // 0x10
+    public eenIndex report; // 0x18
 
     // ── Methods ──
     public void get_Type(){} // RVA: 0x7FFD54A782B0
@@ -143,8 +143,8 @@ public class SwitchMagicOutputHIDBluetooth : ValueType
 public class SwitchMagicOutputHIDUSB : ValueType
 {
     public int Type;
-    public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
-    public SwitchMagicOutputReport report; // 0x18
+    public Device.formUserAccount typeStatic; // 0x10
+    public eenIndex report; // 0x18
 
     // ── Methods ──
     public void get_Type(){} // RVA: 0x7FFD54A782B0
@@ -179,7 +179,7 @@ public class SwitchSimpleInputReport : ValueType
 
 public class SyncHashtable : Hashtable
 {
-    public System.Collections.Hashtable Count; // 0x50
+    public mePatterns.MES_SIZE Count; // 0x50
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539C4920 | overloaded x2
@@ -207,8 +207,6 @@ public class SyncHashtable : Hashtable
 
 public class SyncTextReader : TextReader
 {
-    public System.IO.TextReader _in; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539EFD30
     public void Close(){} // RVA: 0x7FFD539EFDD0
@@ -223,7 +221,7 @@ public class SyncTextReader : TextReader
 
 public class SyncTextWriter : TextWriter
 {
-    public System.IO.TextWriter Encoding; // 0x30
+    public Inherited.endency Encoding; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539F29D0
@@ -242,9 +240,9 @@ public class SyncTextWriter : TextWriter
 
 public class SyncTile : ValueType
 {
-    public UnityEngine.Vector3Int m_Position; // 0x10
-    public UnityEngine.Tilemaps.TileBase m_Tile; // 0x20
-    public UnityEngine.Tilemaps.TileData m_TileData; // 0x28
+    public lutionZ m_Position; // 0x10
+    public ÏÍÍÎÏÏÌÏÍ.Í m_Tile; // 0x20
+    public ÏÍÍÎÏÏÌÏÍ.acity m_TileData; // 0x28
 }
 
 public class SyncTileCallbackSettings : ValueType
@@ -266,8 +264,8 @@ public class SynchronousAsyncResult : Object
 {
     public object IsCompleted; // 0x10
     public bool AsyncWaitHandle; // 0x18
-    public System.Threading.ManualResetEvent AsyncState; // 0x20
-    public 0x66435CE0 CompletedSynchronously; // 0x28
+    public sageKind.tion AsyncState; // 0x20
+    public .Messaging.IInternalMessage.TargetIdentity.eDictionary CompletedSynchronously; // 0x28
     public bool _endXxxCalled; // 0x30
     public int _bytesRead; // 0x34
 

@@ -7,9 +7,9 @@ namespace VRC.SDK3.Midi
 {
     public class MidiFile : ScriptableObject
     {
-        public 0x665C1E40 rawData; // 0x18
-        public 0x665C1970 data; // 0x20
-        public UnityEngine.AudioClip audioClip; // 0x28
+        public pecificJobData.ainingAnimator rawData; // 0x18
+        public pecificJobData.dateTypeSpecificJobData data; // 0x20
+        public ies audioClip; // 0x28
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD574193E0
@@ -23,13 +23,13 @@ namespace VRC.SDK3.Midi
         public int MidiIn;
         public int Initialize;
         public int OnLog;
-        public VRC.SDKBase.Midi.IVRCMidiInput Instance; // 0x20
-        public 0x665B3E78 OnNoteOn; // 0x28
-        public 0x665B3E78 OnNoteOff; // 0x30
-        public 0x665B3E78 OnControlChange; // 0x38
-        public VRC.SDK3.Midi.VRCMidiHandler _instance;
-        public System.Func`1<VRC.SDKBase.Midi.IVRCMidiInput> <Initialize>k__BackingField; // 0x8
-        public System.Action`1<string> <OnLog>k__BackingField; // 0x10
+        public cEvent.? Instance; // 0x20
+        public cEvent.ped OnNoteOn; // 0x28
+        public cEvent.ped OnNoteOff; // 0x30
+        public cEvent.ped OnControlChange; // 0x38
+        public pecificJobData.AffectsPosition _instance;
+        public ormation<cEvent.?> <Initialize>k__BackingField; // 0x8
+        public ileFullDirectoryInformation<string> <OnLog>k__BackingField; // 0x10
 
         // ── Methods ──
         public void get_MidiIn(){} // RVA: 0x7FFD5741DB90
@@ -55,10 +55,10 @@ namespace VRC.SDK3.Midi
 
     public class VRCMidiListener : MonoBehaviour
     {
-        public VRC.SDK3.Midi.VRCMidiHandler _plugin; // 0x20
-        public System.ValueTuple`2<string,object>[] argsArray; // 0x28
-        public VRC.SDK3.Components.AbstractUdonBehaviour behaviour; // 0x30
-        public 0x665C1FF8 activeEvents; // 0x38
+        public pecificJobData.AffectsPosition _plugin; // 0x20
+        public 8BCA7B5CC287C51E0E3E<string,object>[] argsArray; // 0x28
+        public rentDependency|126_1.cutionGroups>g__FindParentDependency|126_1 behaviour; // 0x30
+        public gAnimatorLatestActiveState activeEvents; // 0x38
 
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD5741EC50
@@ -71,13 +71,13 @@ namespace VRC.SDK3.Midi
 
     public class VRCMidiPlayer : MonoBehaviour
     {
-        public VRC.SDK3.Midi.MidiFile MidiData; // 0x20
-        public UnityEngine.AudioSource Time; // 0x28
-        public VRC.SDK3.Components.AbstractUdonBehaviour[] Coroutine; // 0x30
-        public System.Collections.Generic.List`1<0x665C1A78> OnBlockStarted; // 0x38
+        public pecificJobData.ionOffsets MidiData; // 0x20
+        public t Time; // 0x28
+        public rentDependency|126_1.cutionGroups>g__FindParentDependency|126_1[] Coroutine; // 0x30
+        public URA.woDigitYearMax<arentTransform> OnBlockStarted; // 0x38
         public float OnBlockCompleted; // 0x40
-        public UnityEngine.Coroutine OnPlayingStarted; // 0x48
-        public System.ValueTuple`2<string,object>[] OnPlayingStopped; // 0x50
+        public ts OnPlayingStarted; // 0x48
+        public 8BCA7B5CC287C51E0E3E<string,object>[] OnPlayingStopped; // 0x50
 
         // ── Methods ──
         public void get_MidiData(){} // RVA: 0x7FFD5741A100

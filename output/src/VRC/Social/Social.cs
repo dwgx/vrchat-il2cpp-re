@@ -9,7 +9,8 @@ namespace VRC.Social
     public class GroupsStorageSiblingSiblingSibling_15EF : Object
     {
         public object _name;
-        public System.Collections.Generic.List`1<T> _hideFlags;
+        public object _hideFlags;
+        public object f_46C;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E079960
@@ -35,8 +36,6 @@ namespace VRC.Social
     /// <summary>Originally: ÏÏÌÎÌÌÏÍÎÏÌÎÌÌÏÍÏÏÏÍÏÎÎ</summary>
     public class GroupsStorageSiblingSiblingSibling_6E30 : Object
     {
-        public System.Collections.Generic.HashSet`1<UnityEngine.Events.UnityAction`2<U,T>> ÎÎÏÍÎÎÎÏÌÍÌÌÎÍÎÎÍÌÌÎÏÎÏ;
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
         public void Equals(){} // RVA: 0x7FFD4E090980
@@ -53,8 +52,6 @@ namespace VRC.Social
     /// <summary>Originally: ÎÎÏÎÏÎÎÎÎÍÏÏÍÌÌÎÎÍÍÏÏÍÍ</summary>
     public class GroupsStorageSiblingSiblingSibling_C1A1 : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,object> ÍÌÏÍÍÎÌÌÏÍÏÏÎÎÍÍÌÌÌÌÏÍÌ; // 0x10
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FC9FB40
         public void Equals(){} // RVA: 0x7FFD4FC9FBB0
@@ -74,8 +71,6 @@ namespace VRC.Social
     /// <summary>Originally: ÏÍÎÎÎÌÏÍÎÎÎÌÌÏÎÍÏÍÍÎÏÍÌ</summary>
     public class GroupsStorageSiblingSiblingSibling_C52A : Object
     {
-        public System.Collections.Generic.HashSet`1<UnityEngine.Events.UnityAction`1<T>> ÎÎÏÍÎÎÎÏÌÍÌÌÎÍÎÎÍÌÌÎÏÎÏ;
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
         public void Equals(){} // RVA: 0x7FFD4E090A40
@@ -92,23 +87,6 @@ namespace VRC.Social
     /// <summary>Originally: ÎÏÍÍÌÍÏÎÎÌÏÍÍÍÏÍÏÌÌÏÌÌÌ</summary>
     public class GroupsStorageSiblingSibling_2652 : Object
     {
-        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ ÎÌÍÌÌÎÎÏÎÍÎÍÎÍÏÎÍÌÏÌÌÍÏ; // 0x10
-        public ÎÌÎÍÍÍÏÎÌÏÏÍÏÏÌÌÎÎÎÏÍÏÏ ÎÏÏÌÌÎÌÍÎÌÎÍÍÎÌÏÌÏÍÍÎÍÌ; // 0x18
-        public 0x663A5478 ÏÌÍÍÍÎÏÍÍÎÍÎÌÍÏÏÌÏÌÎÏÎÍ; // 0x20
-        public UnityEngine.Transform ÏÎÍÏÌÏÏÏÍÍÍÍÎÌÎÌÏÌÌÌÌÏÏ; // 0x28
-        public UnityEngine.Vector3 ÍÎÏÎÎÍÏÍÎÌÍÌÍÎÏÎÎÎÍÍÌÍÌ; // 0x30
-        public UnityEngine.Vector3 ÌÍÎÍÏÌÎÎÎÏÍÎÍÏÎÌÌÍÎÌÎÍÍ; // 0x3C
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÎÍÌÏÍÌÌÏÏÎÏÍÏÏÏÍÎÍÎÎÌÏÍ; // 0x48
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÌÏÌÎÍÍÌÌÎÌÏÌÎÎÍÎÌÍÏÌÍÏÌ; // 0x50
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÏÍÎÎÌÏÎÌÌÎÎÎÌÌÍÏÍÏÍÍÌÎÏ; // 0x58
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÌÌÍÌÎÎÎÍÏÍÌÎÍÍÏÍÎÎÏÏÍÎÌ; // 0x60
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÍÎÏÏÍÏÏÌÏÏÎÏÏÏÍÏÌÍÎÏÎÍÍ; // 0x68
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÍÌÌÍÏÏÍÎÍÌÏÌÌÏÎÏÎÍÌÏÏÏÍ; // 0x70
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÎÎÎÏÎÏÍÍÍÏÌÎÍÏÎÏÌÍÌÌÌÌÎ; // 0x78
-        public float ÌÌÏÎÌÎÍÎÏÏÍÌÏÌÎÌÎÏÍÌÍÏÌ; // 0x80
-        public bool ÏÌÏÍÍÌÏÍÏÏÎÎÍÌÍÎÎÏÏÏÌÏÏ; // 0x84
-        public Grab ÎÏÌÌÍÎÌÌÍÎÏÎÌÍÍÌÎÍÌÌÌÏÎ; // 0x88
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4EEC2ED0
@@ -134,14 +112,6 @@ namespace VRC.Social
     /// <summary>Originally: ÏÏÎÌÍÏÏÍÌÌÎÍÎÍÏÏÍÍÍÌÎÏÏ</summary>
     public class GroupsStorageSiblingSibling_D832 : Object
     {
-        public bool ÌÌÍÍÏÏÌÎÌÍÏÏÏÏÎÌÎÍÌÌÍÌÌ;
-        public bool ÎÍÏÎÏÍÏÏÏÎÎÌÎÏÍÍÏÏÏÎÌÍÌ;
-        public ÍÏÌÎÌÍÎÍÎÎÍÌÏÌÌÌÏÍÍÍÍÌÍ ÎÎÌÎÌÍÍÌÌÌÍÎÍÎÎÍÏÏÍÌÏÎÍ;
-        public UnityEngine.RectTransform ÌÎÌÏÌÌÏÍÍÍÍÎÎÍÏÍÏÎÏÌÏÏÏ;
-        public System.Collections.Generic.Dictionary`2<T,UnityEngine.RectTransform> ÎÏÍÏÏÎÎÌÍÏÍÌÏÌÍÌÌÌÍÍÌÏÎ;
-        public System.Collections.Generic.Dictionary`2<T,UnityEngine.RectTransform> ÏÌÍÎÍÏÎÍÍÍÏÏÌÎÌÎÎÎÏÌÎÍÌ;
-        public System.Action`1<T> ÏÍÏÌÎÌÌÌÎÌÏÌÏÌÍÌÍÏÏÎÌÎÍ;
-
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E09F3E0
         public void Equals(){} // RVA: 0x7FFD4E090980
@@ -164,9 +134,6 @@ namespace VRC.Social
     /// <summary>Originally: ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ</summary>
     public class GroupsStorageSiblingSibling_DA8C : Object
     {
-        public UnityEngine.Vector3 ÌÍÍÌÌÎÍÍÌÏÍÌÍÌÏÎÌÍÏÍÎÏÎ; // 0x10
-        public UnityEngine.Quaternion ÎÍÌÌÏÍÌÎÏÍÍÌÌÌÍÍÏÍÌÍÎÌÌ; // 0x1C
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F3C3670
         public void Equals(){} // RVA: 0x7FFD4F3C3670
@@ -183,8 +150,6 @@ namespace VRC.Social
     /// <summary>Originally: ÎÎÎÎÌÎÌÍÍÍÎÍÎÌÍÌÎÍÎÎÎÍÍ</summary>
     public class GroupsStorageSiblingSibling_FDBE : Object
     {
-        public System.Collections.Generic.HashSet`1<UnityEngine.Events.UnityAction`4<U,V,W,T>> ÎÎÏÍÎÎÎÏÌÍÌÌÎÍÎÎÍÌÌÎÏÎÏ;
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
         public void Equals(){} // RVA: 0x7FFD4E090980
@@ -202,9 +167,6 @@ namespace VRC.Social
     /// <summary>Originally: ÌÏÍÏÌÍÏÎÎÍÏÏÏÍÌÍÍÌÏÎÏÏÏ</summary>
     public class GroupsStorageSibling_63F8 : Object
     {
-        public System.Collections.Generic.List`1<ÎÏÌÎÎÌÏÎÏÍÍÏÏÎÏÎÍÏÎÎÌÏÌ<T>> ÌÏÍÌÌÎÏÌÎÎÎÍÎÏÎÌÎÌÎÎÎÎÍ;
-        public System.Collections.Generic.List`1<bool> ÌÍÍÏÏÍÎÍÎÌÎÌÍÌÏÌÎÌÍÏÌÏÎ;
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
         public void Equals(){} // RVA: 0x7FFD4E090980

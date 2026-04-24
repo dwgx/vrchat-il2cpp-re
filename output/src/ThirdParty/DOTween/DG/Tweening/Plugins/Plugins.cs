@@ -98,8 +98,6 @@ namespace ThirdParty.DOTween.DG.Tweening.Plugins
 
     public class RectOffsetPlugin : ABSTweenPlugin`3
     {
-        public UnityEngine.RectOffset _r;
-
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4FDBEBE0
         public void SetFrom(){} // RVA: 0x7FFD4FDD65C0 | overloaded x2
@@ -127,9 +125,6 @@ namespace ThirdParty.DOTween.DG.Tweening.Plugins
 
     public class StringPlugin : ABSTweenPlugin`3
     {
-        public System.Text.StringBuilder _Buffer;
-        public System.Collections.Generic.List`1<char> _OpenedTags; // 0x8
-
         // ── Methods ──
         public void SetFrom(){} // RVA: 0x7FFD4FDDABD0 | overloaded x2
         public void Reset(){} // RVA: 0x7FFD4FDBEBE0

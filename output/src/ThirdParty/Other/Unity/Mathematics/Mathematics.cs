@@ -22,7 +22,7 @@ namespace ThirdParty.Other.Unity.Mathematics
     {
         public float x; // 0x10
         public float y; // 0x14
-        public Unity.Mathematics.float2 zero;
+        public es.gine.XR zero;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E364D10
@@ -38,7 +38,7 @@ namespace ThirdParty.Other.Unity.Mathematics
         public float yxxy; // 0x10
         public float zzyz; // 0x14
         public float xyz; // 0x18
-        public Unity.Mathematics.float3 yzx;
+        public es.ap yzx;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABD1D0 | overloaded x2
@@ -62,10 +62,10 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float3x3 : ValueType
     {
-        public Unity.Mathematics.float3 c0; // 0x10
-        public Unity.Mathematics.float3 c1; // 0x1C
-        public Unity.Mathematics.float3 c2; // 0x28
-        public Unity.Mathematics.float3x3 identity;
+        public es.ap c0; // 0x10
+        public es.ap c1; // 0x1C
+        public es.ap c2; // 0x28
+        public es.owedCodePointsBitmap identity;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABE340 | overloaded x4
@@ -82,7 +82,7 @@ namespace ThirdParty.Other.Unity.Mathematics
         public float yzxy; // 0x14
         public float yzxz; // 0x18
         public float yzxw; // 0x1C
-        public Unity.Mathematics.float4 zxyy;
+        public es.ointsBitmap zxyy;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABE6A0 | overloaded x3
@@ -113,12 +113,12 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float4x4 : ValueType
     {
-        public Unity.Mathematics.float4 c0; // 0x10
-        public Unity.Mathematics.float4 c1; // 0x20
-        public Unity.Mathematics.float4 c2; // 0x30
-        public Unity.Mathematics.float4 c3; // 0x40
-        public Unity.Mathematics.float4x4 identity;
-        public Unity.Mathematics.float4x4 zero; // 0x40
+        public es.ointsBitmap c0; // 0x10
+        public es.ointsBitmap c1; // 0x20
+        public es.ointsBitmap c2; // 0x30
+        public es.ointsBitmap c3; // 0x40
+        public es._14 identity;
+        public es._14 zero; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABEF60 | overloaded x2
@@ -202,8 +202,8 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class quaternion : ValueType
     {
-        public Unity.Mathematics.float4 value; // 0x10
-        public Unity.Mathematics.quaternion identity;
+        public es.ointsBitmap value; // 0x10
+        public es.eout identity;
 
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x7FFD4E6E0590 | overloaded x3

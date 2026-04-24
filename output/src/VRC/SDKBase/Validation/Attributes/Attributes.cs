@@ -7,7 +7,7 @@ namespace VRC.SDKBase.Validation.Attributes
 {
     public class PerformanceScannerAttribute : Attribute
     {
-        public System.Type type; // 0x10
+        public object type;
 
         // ── Methods ──
         public void get_type(){} // RVA: 0x7FFD4E35C380

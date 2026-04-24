@@ -31,7 +31,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRApplications : Object
     {
-        public Valve.VR.IVRApplications FnTable; // 0x10
+        public LeftController FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C178D0
@@ -69,7 +69,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRBlockQueue : Object
     {
-        public Valve.VR.IVRBlockQueue FnTable; // 0x10
+        public ÌÌÍÎÏÍÎÌÍÏÌÌÌÍÍÍÍÏÏÌÍÏÎ FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1F640
@@ -86,7 +86,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRChaperone : Object
     {
-        public Valve.VR.IVRChaperone FnTable; // 0x10
+        public splayRefreshRateChangedData FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C18DC0
@@ -103,7 +103,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRChaperoneSetup : Object
     {
-        public Valve.VR.IVRChaperoneSetup FnTable; // 0x10
+        public uestShow FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C18FB0
@@ -131,7 +131,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRCompositor : Object
     {
-        public Valve.VR.IVRCompositor FnTable; // 0x10
+        public hColor FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C194E0
@@ -191,7 +191,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRDebug : Object
     {
-        public Valve.VR.IVRDebug FnTable; // 0x10
+        public object FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1ED30
@@ -203,7 +203,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRDriverManager : Object
     {
-        public Valve.VR.IVRDriverManager FnTable; // 0x10
+        public yInMHz_IsValid FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1DB60
@@ -215,7 +215,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRExtendedDisplay : Object
     {
-        public Valve.VR.IVRExtendedDisplay FnTable; // 0x10
+        public ueryComplete FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C17460
@@ -226,7 +226,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRHeadsetView : Object
     {
-        public Valve.VR.IVRHeadsetView FnTable; // 0x10
+        public object FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1B340
@@ -243,7 +243,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRIOBuffer : Object
     {
-        public Valve.VR.IVRIOBuffer FnTable; // 0x10
+        public dVector2 FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1E840
@@ -257,7 +257,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRInput : Object
     {
-        public Valve.VR.IVRInput FnTable; // 0x10
+        public ckLevel FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1DDB0
@@ -297,7 +297,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRNotifications : Object
     {
-        public Valve.VR.IVRNotifications FnTable; // 0x10
+        public nRendererDataProvider FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1C470
@@ -307,7 +307,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVROverlay : Object
     {
-        public Valve.VR.IVROverlay FnTable; // 0x10
+        public _enableMixedReality FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C19BB0
@@ -395,7 +395,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVROverlayView : Object
     {
-        public Valve.VR.IVROverlayView FnTable; // 0x10
+        public ÏÏÌÎ FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1B1B0
@@ -407,7 +407,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRPaths : Object
     {
-        public Valve.VR.IVRPaths FnTable; // 0x10
+        public ÏÏÌÍÌÍÍÍÎÌ FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1F3A0
@@ -419,7 +419,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRProperties : Object
     {
-        public Valve.VR.IVRProperties FnTable; // 0x10
+        public object FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1F160
@@ -436,7 +436,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRRenderModels : Object
     {
-        public Valve.VR.IVRRenderModels FnTable; // 0x10
+        public object FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1B590
@@ -463,7 +463,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRResources : Object
     {
-        public Valve.VR.IVRResources FnTable; // 0x10
+        public eragePercentage FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1D7F0
@@ -473,7 +473,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRScreenshots : Object
     {
-        public Valve.VR.IVRScreenshots FnTable; // 0x10
+        public ctatorAnchor FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1D330
@@ -493,7 +493,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRSettings : Object
     {
-        public Valve.VR.IVRSettings FnTable; // 0x10
+        public emGestureMaterial FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1C720
@@ -512,7 +512,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRSpatialAnchors : Object
     {
-        public Valve.VR.IVRSpatialAnchors FnTable; // 0x10
+        public ReadRectOffset FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C1EAD0
@@ -524,7 +524,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRSystem : Object
     {
-        public Valve.VR.IVRSystem FnTable; // 0x10
+        public ovrp_GetCurrentInteractionProfile FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C16170
@@ -578,7 +578,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRTrackedCamera : Object
     {
-        public Valve.VR.IVRTrackedCamera FnTable; // 0x10
+        public nDelegates FnTable; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C17600
@@ -600,12 +600,12 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CameraVideoStreamFrameHeader_t : ValueType
     {
-        public 0x665A0AD0 eFrameType; // 0x10
+        public tState eFrameType; // 0x10
         public uint nWidth; // 0x14
         public uint nHeight; // 0x18
         public uint nBytesPerPixel; // 0x1C
         public uint nFrameSequence; // 0x20
-        public Valve.VR.TrackedDevicePose_t trackedDevicePose; // 0x24
+        public fications trackedDevicePose; // 0x24
         public ulong ulFrameExposureTime; // 0x78
     }
 
@@ -666,7 +666,7 @@ namespace ThirdParty.Valve.Valve.VR
         public float m_flCompositorUpdateStartMs; // 0x64
         public float m_flCompositorUpdateEndMs; // 0x68
         public float m_flCompositorRenderStartMs; // 0x6C
-        public Valve.VR.TrackedDevicePose_t m_HmdPose; // 0x70
+        public fications m_HmdPose; // 0x70
         public uint m_nNumVSyncsReadyForUse; // 0xC0
         public uint m_nNumVSyncsToFirstView; // 0xC4
         public float m_flTransferLatencyMs; // 0xC8
@@ -674,8 +674,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class Compositor_StageRenderSettings : ValueType
     {
-        public Valve.VR.HmdColor_t m_PrimaryColor; // 0x10
-        public Valve.VR.HmdColor_t m_SecondaryColor; // 0x20
+        public lNextOverlayEventUnion m_PrimaryColor; // 0x10
+        public lNextOverlayEventUnion m_SecondaryColor; // 0x20
         public float m_flVignetteInnerRadius; // 0x30
         public float m_flVignetteOuterRadius; // 0x34
         public float m_flFresnelStrength; // 0x38

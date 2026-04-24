@@ -8,7 +8,7 @@ namespace ThirdParty.Other.BidiSharp
     public class Bidi : Object
     {
         public int MAX_DEPTH;
-        public System.Collections.Generic.Dictionary`2<char,char> _bracketPairs;
+        public URA.DateTime<char,char> _bracketPairs;
 
         // ── Methods ──
         public void LogicalToVisual(){} // RVA: 0x7FFD53654570

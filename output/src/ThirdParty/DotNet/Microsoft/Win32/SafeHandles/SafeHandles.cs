@@ -14,7 +14,7 @@ namespace ThirdParty.DotNet.Microsoft.Win32.SafeHandles
 
     public class SafeHandleCache`1 : Object
     {
-        public T s_invalidHandle;
+        public T1717582032 s_invalidHandle;
 
         // ── Methods ──
         public void IsCachedInvalidHandle(){} // RVA: 0x7FFD4E079DE0
@@ -38,8 +38,6 @@ namespace ThirdParty.DotNet.Microsoft.Win32.SafeHandles
 
     public class SafePipeHandle : SafeHandleZeroOrMinusOneIsInvalid
     {
-        public int DefaultInvalidHandle;
-
         // ── Methods ──
         public void ReleaseHandle(){} // RVA: 0x7FFD54155E20
         public void .ctor(){} // RVA: 0x7FFD537D9FF0 | overloaded x2

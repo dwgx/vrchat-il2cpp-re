@@ -7,9 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class KeyboardEventBase`1 : EventBase`1
     {
-        public 0x665DF588 modifiers;
+        public illingServiceDisconnected modifiers;
         public char character;
-        public 0x664DD1A8 keyCode;
+        public Flag keyCode;
 
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x7FFD4E079960
@@ -32,7 +32,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class KeyboardTextEditorEventHandler : TextEditorEventHandler
     {
-        public UnityEngine.Event m_ImguiEvent; // 0x20
+        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE m_ImguiEvent; // 0x20
         public bool m_Changed; // 0x28
 
         // ── Methods ──

@@ -7,65 +7,59 @@ namespace ThirdParty.BestHTTP.BestHTTP
 {
     public class HTTPRequest : Object
     {
-        public byte[] Uri;
-        public string[] MethodType; // 0x8
-        public int RawData; // 0x10
-        public System.Uri UploadStream; // 0x10
-        public 0x663E3A08 DisposeUploadStream; // 0x18
-        public byte[] UseUploadStreamLength; // 0x20
-        public System.IO.Stream IsKeepAlive; // 0x28
-        public bool DisableCache; // 0x30
-        public bool CacheOnly; // 0x31
-        public 0x663E3D20 UseStreaming; // 0x38
-        public int StreamFragmentSize; // 0x40
-        public = MaxFragmentQueueLength; // 0x48
-        public 0x663E3CC8 Callback; // 0x50
-        public = DisableRetry; // 0x58
-        public bool IsRedirected; // 0x60
-        public bool RedirectUri; // 0x61
-        public System.Uri CurrentUri; // 0x68
-        public 0x663E3FE0 Response; // 0x70
-        public 0x663E3FE0 ProxyResponse; // 0x78
-        public System.Exception Exception; // 0x80
-        public object Tag; // 0x88
-        public 0x6640B440 Credentials; // 0x90
-        public 0x663E3B10 HasProxy; // 0x98
-        public int Proxy; // 0xA0
-        public bool MaxRedirects; // 0xA4
-        public bool UseAlternateSSL; // 0xA5
-        public System.Collections.Generic.List`1<0x6640B180> IsCookiesEnabled; // 0xA8
-        public 0x66409BD8 Cookies; // 0xB0
-        public s FormUsage; // 0xB4
-        public int State; // 0xB8
-        public System.Func`4<BestHTTP.HTTPRequest,0x6642DEB8,0x66491F90,bool> RedirectCount; // 0xC0
-        public System.TimeSpan ConnectTimeout; // 0xC8
-        public System.TimeSpan Timeout; // 0xD0
-        public bool EnableTimoutForStreaming; // 0xD8
-        public bool EnableSafeReadOnUnknownContentLength; // 0xD9
-        public int Priority; // 0xDC
-        public Org.BouncyCastle.Crypto.Tls.ICertificateVerifyer CustomCertificateVerifyer; // 0xE0
-        public Org.BouncyCastle.Crypto.Tls.IClientCredentialsProvider CustomClientCredentialsProvider; // 0xE8
-        public System.Collections.Generic.List`1<string> CustomTLSServerNameList; // 0xF0
-        public 0x663E3A60 ProtocolHandler; // 0xF8
-        public 0x663E3D78 TryToMinimizeTCPLatency; // 0x100
-        public 0x663E3E28 SendBufferSize; // 0x108
-        public bool ReceiveBufferSize; // 0x110
-        public int Downloaded; // 0x114
-        public int DownloadLength; // 0x118
-        public long DownloadProgressChanged; // 0x120
-        public long UploadStreamLength; // 0x128
-        public bool Uploaded; // 0x130
-        public long UploadLength; // 0x138
-        public long UploadProgressChanged; // 0x140
-        public bool Headers; // 0x148
-        public bool Current; // 0x149
-        public bool System.Collections.Generic.IEnumerator<BestHTTP.HTTPRequest>.Current; // 0x14A
-        public bool cacheOnly; // 0x14B
-        public int streamFragmentSize; // 0x14C
-        public bool useStreaming; // 0x150
-        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<string>> <Headers>k__BackingField; // 0x158
-        public 0x66409B80 FieldCollector; // 0x160
-        public 0x66409B80 FormImpl; // 0x168
+        public object Uri;
+        public object MethodType;
+        public object RawData;
+        public object UploadStream;
+        public object DisposeUploadStream;
+        public object UseUploadStreamLength;
+        public object IsKeepAlive;
+        public object DisableCache;
+        public object CacheOnly;
+        public object UseStreaming;
+        public object StreamFragmentSize;
+        public object MaxFragmentQueueLength;
+        public object Callback;
+        public object DisableRetry;
+        public object IsRedirected;
+        public object RedirectUri;
+        public object CurrentUri;
+        public object Response;
+        public object ProxyResponse;
+        public object Exception;
+        public object Tag;
+        public object Credentials;
+        public object HasProxy;
+        public object Proxy;
+        public object MaxRedirects;
+        public object UseAlternateSSL;
+        public object IsCookiesEnabled;
+        public object Cookies;
+        public object FormUsage;
+        public object State;
+        public object RedirectCount;
+        public object ConnectTimeout;
+        public object Timeout;
+        public object EnableTimoutForStreaming;
+        public object EnableSafeReadOnUnknownContentLength;
+        public object Priority;
+        public object CustomCertificateVerifyer;
+        public object CustomClientCredentialsProvider;
+        public object CustomTLSServerNameList;
+        public object ProtocolHandler;
+        public object TryToMinimizeTCPLatency;
+        public object SendBufferSize;
+        public object ReceiveBufferSize;
+        public object Downloaded;
+        public object DownloadLength;
+        public object DownloadProgressChanged;
+        public object UploadStreamLength;
+        public object Uploaded;
+        public object UploadLength;
+        public object UploadProgressChanged;
+        public object Headers;
+        public object Current;
+        public object System.Collections.Generic.IEnumerator<BestHTTP.HTTPRequest>.Current;
 
         // ── Methods ──
         public void get_Uri(){} // RVA: 0x7FFD4E35C380

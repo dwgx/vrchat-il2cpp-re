@@ -7,8 +7,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 {
     public class PoseLandmarker : BaseVisionTaskApi
     {
-        public 0x66577BA0 _packetCallback; // 0x20
-        public 0x66573000 _normalizedRect; // 0x28
+        public dFieldNumber _packetCallback; // 0x20
+        public etBestGrabbingType.Name _normalizedRect; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53710170
@@ -24,14 +24,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 
     public class PoseLandmarkerOptions : Object
     {
-        public Mediapipe.Tasks.Core.BaseOptions baseOptions; // 0x10
-        public 0x66575EC0 runningMode; // 0x18
+        public lIdFieldNumber.rdio baseOptions; // 0x10
+        public e.ÍÍÏÏÎÎÍÍÍÏÎÏÍÎÍÏÌÏÌÏÌÍÌ runningMode; // 0x18
         public int numPoses; // 0x1C
         public float minPoseDetectionConfidence; // 0x20
         public float minPosePresenceConfidence; // 0x24
         public float minTrackingConfidence; // 0x28
         public bool outputSegmentationMasks; // 0x2C
-        public 0x66575FC8 resultCallback; // 0x30
+        public maxDefaultValue resultCallback; // 0x30
 
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x7FFD4E35C380
@@ -49,9 +49,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 
     public class PoseLandmarkerResult : ValueType
     {
-        public System.Collections.Generic.List`1<0x66578438> poseLandmarks; // 0x10
-        public System.Collections.Generic.List`1<0x665783E0> poseWorldLandmarks; // 0x18
-        public System.Collections.Generic.List`1<Mediapipe.Image> segmentationMasks; // 0x20
+        public URA.woDigitYearMax<gBox.ypoints> poseLandmarks; // 0x10
+        public URA.woDigitYearMax<gBox.RelativeKeypoints> poseWorldLandmarks; // 0x18
+        public URA.woDigitYearMax<etBestGrabbingType.ÎÌÍÍÎÏÌ> segmentationMasks; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F88FCC0

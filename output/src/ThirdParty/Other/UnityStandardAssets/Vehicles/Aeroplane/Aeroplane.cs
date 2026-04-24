@@ -15,8 +15,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
         public float m_MaxRollAngle; // 0x34
         public float m_SpeedEffect; // 0x38
         public float m_TakeoffHeight; // 0x3C
-        public UnityEngine.Transform m_Target; // 0x40
-        public UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController m_AeroplaneController; // 0x48
+        public object m_Target; // 0x40
+        public lComponentName70.omponentName89 m_AeroplaneController; // 0x48
         public float m_RandomPerlin; // 0x50
         public bool m_TakenOff; // 0x54
 
@@ -30,19 +30,19 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
 
     public class AeroplaneAudio : MonoBehaviour
     {
-        public UnityEngine.AudioClip m_EngineSound; // 0x20
+        public ies m_EngineSound; // 0x20
         public float m_EngineMinThrottlePitch; // 0x28
         public float m_EngineMaxThrottlePitch; // 0x2C
         public float m_EngineFwdSpeedMultiplier; // 0x30
-        public UnityEngine.AudioClip m_WindSound; // 0x38
+        public ies m_WindSound; // 0x38
         public float m_WindBasePitch; // 0x40
         public float m_WindSpeedPitchFactor; // 0x44
         public float m_WindMaxSpeedVolume; // 0x48
-        public 0x6651B948 m_AdvancedSetttings; // 0x50
-        public UnityEngine.AudioSource m_EngineSoundSource; // 0x58
-        public UnityEngine.AudioSource m_WindSoundSource; // 0x60
-        public UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController m_Plane; // 0x68
-        public UnityEngine.Rigidbody m_Rigidbody; // 0x70
+        public erModelComponentName84 m_AdvancedSetttings; // 0x50
+        public t m_EngineSoundSource; // 0x58
+        public t m_WindSoundSource; // 0x60
+        public lComponentName70.omponentName89 m_Plane; // 0x68
+        public Touched m_Rigidbody; // 0x70
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E3692E0
@@ -53,8 +53,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
     public class AeroplaneControlSurfaceAnimator : MonoBehaviour
     {
         public float m_Smoothing; // 0x20
-        public 0x6651BAA8[] m_ControlSurfaces; // 0x28
-        public UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController m_Plane; // 0x30
+        public itor[] m_ControlSurfaces; // 0x28
+        public lComponentName70.omponentName89 m_Plane; // 0x30
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E36C4F0
@@ -95,8 +95,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
         public float m_AeroFactor; // 0x8C
         public bool m_Immobilized; // 0x90
         public float m_BankedTurnAmount; // 0x94
-        public UnityEngine.Rigidbody m_Rigidbody; // 0x98
-        public UnityEngine.WheelCollider[] m_WheelColliders; // 0xA0
+        public Touched m_Rigidbody; // 0x98
+        public cessorType[] m_WheelColliders; // 0xA0
 
         // ── Methods ──
         public void get_Altitude(){} // RVA: 0x7FFD4E369FE0
@@ -141,17 +141,17 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
 
     public class AeroplanePropellerAnimator : MonoBehaviour
     {
-        public UnityEngine.Transform m_PropellorModel; // 0x20
-        public UnityEngine.Transform m_PropellorBlur; // 0x28
-        public UnityEngine.Texture2D[] m_PropellorBlurTextures; // 0x30
+        public object m_PropellorModel; // 0x20
+        public object m_PropellorBlur; // 0x28
+        public ector[] m_PropellorBlurTextures; // 0x30
         public float m_ThrottleBlurStart; // 0x38
         public float m_ThrottleBlurEnd; // 0x3C
         public float m_MaxRpm; // 0x40
-        public UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController m_Plane; // 0x48
+        public lComponentName70.omponentName89 m_Plane; // 0x48
         public int m_PropellorBlurState; // 0x50
         public float k_RpmToDps;
-        public UnityEngine.Renderer m_PropellorModelRenderer; // 0x58
-        public UnityEngine.Renderer m_PropellorBlurRenderer; // 0x60
+        public rical m_PropellorModelRenderer; // 0x58
+        public rical m_PropellorBlurRenderer; // 0x60
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E36CB10
@@ -163,7 +163,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
     {
         public float maxRollAngle; // 0x20
         public float maxPitchAngle; // 0x24
-        public UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController m_Aeroplane; // 0x28
+        public lComponentName70.omponentName89 m_Aeroplane; // 0x28
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E36CF50
@@ -176,7 +176,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
     {
         public float maxRollAngle; // 0x20
         public float maxPitchAngle; // 0x24
-        public UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController m_Aeroplane; // 0x28
+        public lComponentName70.omponentName89 m_Aeroplane; // 0x28
         public float m_Throttle; // 0x30
         public bool m_AirBrakes; // 0x34
         public float m_Yaw; // 0x38
@@ -190,12 +190,12 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
 
     public class JetParticleEffect : MonoBehaviour
     {
-        public UnityEngine.Color minColour; // 0x20
-        public UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController m_Jet; // 0x30
-        public UnityEngine.ParticleSystem m_System; // 0x38
+        public object minColour; // 0x20
+        public lComponentName70.omponentName89 m_Jet; // 0x30
+        public InDuration m_System; // 0x38
         public float m_OriginalStartSize; // 0x40
         public float m_OriginalLifetime; // 0x44
-        public UnityEngine.Color m_OriginalStartColor; // 0x48
+        public object m_OriginalStartColor; // 0x48
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E36D620
@@ -208,10 +208,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
     {
         public float raiseAtAltitude; // 0x20
         public float lowerAtAltitude; // 0x24
-        public 0x6651BCB8 m_State; // 0x28
-        public UnityEngine.Animator m_Animator; // 0x30
-        public UnityEngine.Rigidbody m_Rigidbody; // 0x38
-        public UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController m_Plane; // 0x40
+        public PropertyTag m_State; // 0x28
+        public stfix m_Animator; // 0x30
+        public Touched m_Rigidbody; // 0x38
+        public lComponentName70.omponentName89 m_Plane; // 0x40
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E36DF10

@@ -8,7 +8,12 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÌÌÌÏÏÌÏÌÌÌÍÍÏÎÏÏÌÏÏÎÌÍ</summary>
     public class CameraPositionCanWrite_BE89 : Stream
     {
-        public ÏÍÌÎÌÌÏÍÏÎÏÌÏÌÍÏÍÎÌÍÏÌÏ _position; // 0x28
+        public object _position;
+        public object _canWrite;
+        public object _canSeek;
+        public object _canRead;
+        public object _length;
+        public object _position2;
 
         // ── Methods ──
         public void get_Position(){} // RVA: 0x7FFD4F911B50
@@ -41,19 +46,12 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÏÌÏÌÍÏÍÎÌÍÏÌÏ</summary>
     public class CameraPosition_DAF2 : Stream
     {
-        public int _length;
-        public System.IO.Stream _canSeek; // 0x28
-        public 0x66373EE0 _canRead; // 0x30
-        public bool _position; // 0x34
-        public ÎÏÍÍÏÍÏÏÍÍÎÎÏÏÍÏÍÏÍÏÎÍÏ _canWrite; // 0x38
-        public ÌÍÍÏÍÍÍÌÏÍÍÎÍÍÌÍÎÌÎÏÍÎÍ _position2; // 0x40
-        public byte[] ÍÌÏÎÎÎÎÎÏÍÎÍÎÌÏÍÎÌÏÍÎÎÍ; // 0x48
-        public int ÌÎÍÍÎÎÌÎÏÌÏÍÎÏÌÌÍÍÏÍÎÏÎ; // 0x50
-        public 0x6641E4D0 ÍÎÎÌÏÌÎÎÌÏÍÏÌÍÌÍÍÎÎÎÌÎÌ; // 0x58
-        public ÏÏÏÍÏÎÎÏÍÎÍÌÌÎÏÎÌÌÏÍÍÍÎ ÍÏÏÏÌÍÎÌÏÍÌÏÍÌÌÍÎÍÏÏÏÎÌ; // 0x60
-        public ÍÏÎÌÍÌÏÎÌÎÍÍÏÏÏÎÌÏÏÍÍÏÍ ÎÍÍÍÏÎÍÏÍÌÎÏÏÌÌÌÍÎÍÍÏÎÍ; // 0x68
-        public bool ÏÍÍÏÏÏÎÏÍÍÎÍÎÎÏÍÍÌÏÏÏÍÌ; // 0x70
-        public bool ÎÌÍÍÍÌÎÍÌÎÏÌÍÎÎÏÎÍÍÏÍÏÌ; // 0x71
+        public object _length;
+        public object _canSeek;
+        public object _canRead;
+        public object _position;
+        public object _canWrite;
+        public object _position2;
 
         // ── Methods ──
         public void EnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x7FFD4F909C00
@@ -103,8 +101,7 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÏÎÎÏÎÌÌÍÎÎÏÍÎÏÌÎÏÍÏÍÏÍ</summary>
     public class EffectmaterialForRenderingGetMaterial_5E1C : Texturetext_35E1
     {
-        public ÌÏÍÍÏÌÌÎÎÍÏÍÎÍÍÎÌÌÎÍÏÎÍ _materialForRendering; // 0x7E8
-        public bool ÏÍÎÎÍÎÍÎÎÍÏÍÍÏÎÏÍÎÍÎÍÌÎ; // 0x7F0
+        public object _materialForRendering;
 
         // ── Methods ──
         public void GetMaterial_7084143CFF13(){} // RVA: 0x7FFD4E520600
@@ -126,13 +123,6 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÌÍÎÎÍÌÎÎÍÏÍÌÍÎÏÌÌÏÌÍÎÎ</summary>
     public class PopulateMesh_0AD8 : Image
     {
-        public int _sides; // 0x118
-        public float _radius; // 0x11C
-        public float _thickness; // 0x120
-        public float _uvRangeX; // 0x124
-        public bool _useRadialFill; // 0x128
-        public float ÌÎÎÎÌÍÏÎÍÌÍÎÌÎÍÌÍÍÍÏÎÍÏ;
-
         // ── Methods ──
         public void OnPopulateMesh(){} // RVA: 0x7FFD4EB2C100
         public void set_image(){} // RVA: 0x7FFD4EB2C360
@@ -165,8 +155,6 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÍÏÌÎÍÎÌÎÎÌÌÎÎÌÎÍÍÎÎÍÏÍ</summary>
     public class PopulateMesh_1894 : MaskableGraphic
     {
-        public float ÏÏÌÏÏÍÌÌÌÏÏÌÌÍÎÍÍÎÎÏÍÎÎ; // 0xE0
-
         // ── Methods ──
         public void OnPopulateMesh(){} // RVA: 0x7FFD4FA66F00
         public void set_onCullStateChanged(){} // RVA: 0x7FFD4FA67080
@@ -182,12 +170,6 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÏÎÏÎÏÏÎÏÏÎÏÌÎÍÌÌÏÍÍÎÎÏ</summary>
     public class PopulateMesh_269E : Image
     {
-        public 0x663980B8 _mirrorMode; // 0x118
-        public bool _flipMirrored; // 0x11C
-        public float _flipOffset; // 0x120
-        public UnityEngine.Vector2[] ÏÏÎÍÏÎÍÎÏÏÎÎÌÎÍÌÎÏÎÌÏÎÍ;
-        public UnityEngine.Vector2[] ÏÍÌÏÎÌÏÏÏÌÎÎÏÎÎÌÎÏÏÌÍÎÍ; // 0x8
-
         // ── Methods ──
         public void get_image(){} // RVA: 0x7FFD4EB14600
         public void OnPopulateMesh(){} // RVA: 0x7FFD4EB146F0
@@ -208,15 +190,6 @@ namespace VRC.Rendering
     /// <summary>Originally: ÏÌÎÏÌÏÌÍÏÍÎÍÍÌÏÏÌÏÎÎÍÍÎ</summary>
     public class PopulateMesh_D259 : MaskableGraphic
     {
-        public UnityEngine.Color _geometryColor; // 0xE0
-        public UnityEngine.Mesh _inputMesh; // 0xF0
-        public float _yScalingRatio; // 0xF8
-        public System.Collections.Generic.List`1<UnityEngine.Vector2> ÌÍÌÏÎÍÎÍÎÏÌÌÍÎÌÌÎÍÍÍÏÎÏ; // 0x100
-        public System.Collections.Generic.List`1<UnityEngine.UIVertex> ÌÏÌÏÎÌÎÏÏÌÌÌÏÏÏÏÍÍÍÍÎÎÌ; // 0x108
-        public System.Collections.Generic.List`1<int> ÎÍÍÌÌÎÏÎÎÌÏÎÍÎÏÎÎÍÍÌÎÍÎ; // 0x110
-        public System.Collections.Generic.List`1<UnityEngine.Vector3> ÌÌÌÎÍÎÍÎÏÏÌÎÍÎÍÏÏÏÍÌÏÏÎ;
-        public System.Collections.Generic.List`1<UnityEngine.Vector2> ÎÍÎÏÍÎÍÎÎÌÌÏÏÍÍÏÏÌÍÏÌÏÌ; // 0x8
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4EB12A00
         public void OnEnable(){} // RVA: 0x7FFD4EB12C80
@@ -235,9 +208,6 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÍÎÍÍÏÌÎÍÏÌÎÌÎÏÏÎÌÌÏÌÎÏ</summary>
     public class SetMaterialDirtySetVerticesDirty_FBD6 : Text
     {
-        public bool ÎÌÏÍÌÎÍÍÎÍÎÌÌÏÎÎÏÎÍÌÏÎÏ; // 0x110
-        public System.Text.RegularExpressions.Regex ÎÏÍÍÌÌÏÎÍÎÎÏÌÌÎÌÎÍÎÌÌÌÍ; // 0x118
-
         // ── Methods ──
         public void GetisDone(){} // RVA: 0x7FFD4EE8B770
         public void get_cachedTextGenerator(){} // RVA: 0x7FFD4EE8B990
@@ -258,8 +228,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÌÏÍÍÍÎÎÏÎÌÍÎÎÌÏÍÍÏÍÍÌÍÍ</summary>
     public class mainTexturePopulateMeshSibling_7840 : MonoBehaviour
     {
-        public UnityEngine.UI.RawImage _destroyCancellationToken; // 0x20
-        public ÏÍÏÌÎÎÏÌÏÌÍÎÏÌÎÏÍÎÍÌÏÏÍ _useGUILayout; // 0x28
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F850B10
@@ -285,12 +255,7 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÍÌÌÍÌÌÏÎÌÎÏÌÏÎÌÍÌÎÏÎÎÎ</summary>
     public class mainTexturePopulateMesh_1388 : MaskableGraphic
     {
-        public UnityEngine.Sprite _mainTexture; // 0xE0
-        public float ÌÌÍÌÎÎÎÏÎÏÌÎÌÌÍÍÍÎÎÍÎÏÎ; // 0xE8
-        public float ÌÎÌÏÌÌÏÎÍÏÍÌÏÏÏÍÏÍÎÍÏÍÎ; // 0xEC
-        public float ÏÎÎÍÏÎÍÏÏÌÍÏÍÏÏÎÍÍÌÎÏÌÏ; // 0xF0
-        public float ÎÌÎÎÌÏÍÎÌÌÏÏÍÎÎÌÏÌÏÌÍÏÌ; // 0xF4
-        public float ÍÌÌÌÌÌÏÎÍÎÍÌÍÍÎÍÎÌÍÍÍÎÏ; // 0xF8
+        public object _mainTexture;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FA68880
@@ -310,12 +275,8 @@ namespace VRC.Rendering
     /// <summary>Originally: ÍÎÏÍÏÍÌÏÏÍÏÍÏÍÌÏÏÌÏÎÎÎÏ</summary>
     public class mainTexturePopulateMesh_3A32 : MaskableGraphic
     {
-        public float _mainTexture; // 0xE0
-        public float _maskable; // 0xE4
-        public float ÎÎÍÏÎÌÍÌÌÍÍÏÌÍÌÌÏÎÍÏÍÏÍ; // 0xE8
-        public float ÌÏÌÍÏÌÏÏÏÏÍÎÎÍÏÎÏÏÍÎÌÍÎ; // 0xEC
-        public float ÍÏÍÍÌÍÏÍÏÎÌÎÌÌÎÏÍÌÌÍÎÏÍ;
-        public UnityEngine.Texture _texture; // 0xF0
+        public object _mainTexture;
+        public object _maskable;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD56D9E050
@@ -335,13 +296,9 @@ namespace VRC.Rendering
     /// <summary>Originally: ÎÏÎÎÌÎÍÍÏÏÎÏÎÌÏÎÏÍÌÌÌÎÎ</summary>
     public class mainTexturePopulateMesh_FA06 : MaskableGraphic
     {
-        public UnityEngine.Sprite _mainTexture; // 0xE0
-        public 0x6634DCB8 _maskable; // 0xE8
-        public bool _isMaskingGraphic; // 0xEC
-        public uint ShaderFeatureRectOffsetChannel; // 0xF0
-        public bool ShaderFeatureMasking; // 0xF4
-        public float yOffset; // 0xF8
-        public float ÌÎÍÏÍÏÌÎÌÍÎÏÎÎÏÏÌÍÍÎÏÌÏ; // 0xFC
+        public object _mainTexture;
+        public object _maskable;
+        public object _isMaskingGraphic;
 
         // ── Methods ──
         public void get_fillAmount(){} // RVA: 0x7FFD4E5110F0

@@ -7,11 +7,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
 {
     public class AbstractTargetFollower : MonoBehaviour
     {
-        public UnityEngine.Transform Target; // 0x20
+        public object Target; // 0x20
         public bool m_AutoTargetPlayer; // 0x28
         public bool m_AutoTargetLocalPlayer; // 0x29
-        public 0x6651C130 m_UpdateType; // 0x2C
-        public UnityEngine.Rigidbody targetRigidbody; // 0x30
+        public object m_UpdateType; // 0x2C
+        public Touched targetRigidbody; // 0x30
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E377E20
@@ -38,7 +38,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public float m_LastFlatAngle; // 0x74
         public float m_CurrentTurnAmount; // 0x78
         public float m_TurnSpeedVelocityChange; // 0x7C
-        public UnityEngine.Vector3 m_RollUp; // 0x80
+        public amut m_RollUp; // 0x80
 
         // ── Methods ──
         public void FollowTarget(){} // RVA: 0x7FFD4E378D80
@@ -57,9 +57,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public float m_LookAngle; // 0x70
         public float m_TiltAngle; // 0x74
         public float k_LookDistance;
-        public UnityEngine.Vector3 m_PivotEulers; // 0x78
-        public UnityEngine.Quaternion m_PivotTargetRot; // 0x84
-        public UnityEngine.Quaternion m_TransformTargetRot; // 0x94
+        public amut m_PivotEulers; // 0x78
+        public R_12x12 m_PivotTargetRot; // 0x84
+        public R_12x12 m_TransformTargetRot; // 0x94
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E379920
@@ -84,11 +84,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
 
     public class LookatTarget : AbstractTargetFollower
     {
-        public UnityEngine.Vector2 m_RotationRange; // 0x38
+        public tionX m_RotationRange; // 0x38
         public float m_FollowSpeed; // 0x40
-        public UnityEngine.Vector3 m_FollowAngles; // 0x44
-        public UnityEngine.Quaternion m_OriginalRotation; // 0x50
-        public UnityEngine.Vector3 m_FollowVelocity; // 0x60
+        public amut m_FollowAngles; // 0x44
+        public R_12x12 m_OriginalRotation; // 0x50
+        public amut m_FollowVelocity; // 0x60
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E37ACF0
@@ -98,9 +98,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
 
     public class PivotBasedCameraRig : AbstractTargetFollower
     {
-        public UnityEngine.Transform m_Cam; // 0x38
-        public UnityEngine.Transform m_Pivot; // 0x40
-        public UnityEngine.Vector3 m_LastTargetPosition; // 0x48
+        public object m_Cam; // 0x38
+        public object m_Pivot; // 0x40
+        public amut m_LastTargetPosition; // 0x48
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E37B880
@@ -116,14 +116,14 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public float closestDistance; // 0x30
         public bool <protecting>k__BackingField; // 0x34
         public string dontClipTag; // 0x38
-        public UnityEngine.Transform m_Cam; // 0x40
-        public UnityEngine.Transform m_Pivot; // 0x48
+        public object m_Cam; // 0x40
+        public object m_Pivot; // 0x48
         public float m_OriginalDist; // 0x50
         public float m_MoveVelocity; // 0x54
         public float m_CurrentDist; // 0x58
-        public UnityEngine.Ray m_Ray; // 0x5C
-        public UnityEngine.RaycastHit[] m_Hits; // 0x78
-        public 0x6651C3F0 m_RayHitComparer; // 0x80
+        public ed m_Ray; // 0x5C
+        public ColorScaleAndOffset[] m_Hits; // 0x78
+        public Bool m_RayHitComparer; // 0x80
 
         // ── Methods ──
         public void get_protecting(){} // RVA: 0x7FFD4E377C20
@@ -140,8 +140,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public bool m_IncludeEffectsInSize; // 0x40
         public float m_BoundSize; // 0x44
         public float m_FovAdjustVelocity; // 0x48
-        public UnityEngine.Camera m_Cam; // 0x50
-        public UnityEngine.Transform m_LastTarget; // 0x58
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ m_Cam; // 0x50
+        public object m_LastTarget; // 0x58
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E37CAF0

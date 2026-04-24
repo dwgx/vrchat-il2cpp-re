@@ -31,8 +31,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AppendPrepend`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public T element;
+        public eObjectDelegate.fo<T1717621472> source;
+        public T1717621472 element;
         public bool append;
 
         // ── Methods ──
@@ -52,15 +52,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
-        public System.Action`1<object> SourceCurrent;
-        public System.Action`1<object> Current; // 0x8
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source; // 0x38
-        public System.Threading.CancellationToken cancellationToken; // 0x40
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator; // 0x48
-        public Awaiter<bool> sourceMoveNext; // 0x50
-        public Awaiter<bool> resultAwaiter; // 0x60
-        public T <SourceCurrent>k__BackingField; // 0x70
-        public T <Current>k__BackingField; // 0x78
+        public ileFullDirectoryInformation<object> SourceCurrent;
+        public ileFullDirectoryInformation<object> Current; // 0x8
+        public eObjectDelegate.fo<T1717638672> source; // 0x38
+        public sageKind.TICMAP_SIZE cancellationToken; // 0x40
+        public eObjectDelegate.o<T1717638672> enumerator; // 0x48
+        public peInfoResolverChain<bool> sourceMoveNext; // 0x50
+        public peInfoResolverChain<bool> resultAwaiter; // 0x60
+        public T1717638672 <SourceCurrent>k__BackingField; // 0x70
+        public T1717638672 <Current>k__BackingField; // 0x78
 
         // ── Methods ──
         public void .ctor(){}
@@ -85,12 +85,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
-        public System.Action`1<object> SourceCurrent;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current; // 0x38
-        public System.Threading.CancellationToken cancellationToken; // 0x40
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator; // 0x48
-        public Awaiter<bool> sourceMoveNext; // 0x50
-        public T <Current>k__BackingField; // 0x60
+        public ileFullDirectoryInformation<object> SourceCurrent;
+        public eObjectDelegate.fo<T1717638544> Current; // 0x38
+        public sageKind.TICMAP_SIZE cancellationToken; // 0x40
+        public eObjectDelegate.o<T1717638544> enumerator; // 0x48
+        public peInfoResolverChain<bool> sourceMoveNext; // 0x50
+        public T1717638544 <Current>k__BackingField; // 0x60
 
         // ── Methods ──
         public void .ctor(){}
@@ -108,11 +108,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncSelectorEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
-        public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
-        public System.Collections.Generic.IComparer`1<T> comparer;
+        public n<T1717635344,eObjectDelegate.kingField<T1717635360>> keySelector;
+        public URA.ndar_data<T1717635360> comparer;
         public bool descending;
-        public Cysharp.Threading.Tasks.Linq.AsyncEnumerableSorter`1<U> next;
-        public T[] keys;
+        public dLighting.rsalMode<T1717635344> next;
+        public T1717635360[] keys;
 
         // ── Methods ──
         public void .ctor(){}
@@ -122,12 +122,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncSelectorWithCancellationEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
-        public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
-        public System.Collections.Generic.IComparer`1<T> comparer;
+        public nalInformation<T1717635408,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717635424>> keySelector;
+        public URA.ndar_data<T1717635424> comparer;
         public bool descending;
-        public Cysharp.Threading.Tasks.Linq.AsyncEnumerableSorter`1<U> next;
-        public System.Threading.CancellationToken cancellationToken;
-        public T[] keys;
+        public dLighting.rsalMode<T1717635408> next;
+        public sageKind.TICMAP_SIZE cancellationToken;
+        public T1717635424[] keys;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

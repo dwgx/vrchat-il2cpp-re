@@ -7,8 +7,7 @@ namespace ThirdParty.DotNet.System.Runtime.Versioning
 {
     public class TargetFrameworkAttribute : Attribute
     {
-        public string FrameworkDisplayName; // 0x10
-        public string _frameworkDisplayName; // 0x18
+        public object FrameworkDisplayName;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538BD800

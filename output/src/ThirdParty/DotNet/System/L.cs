@@ -7,13 +7,13 @@ namespace ThirdParty.DotNet.System
 {
     public class LazyHelper : Object
     {
-        public System.LazyHelper State;
-        public System.LazyHelper NoneViaFactory; // 0x8
-        public System.LazyHelper PublicationOnlyViaConstructor; // 0x10
-        public System.LazyHelper PublicationOnlyViaFactory; // 0x18
-        public System.LazyHelper PublicationOnlyWaitForOtherThreadToPublish; // 0x20
-        public 0x66420050 <State>k__BackingField; // 0x10
-        public 0x66435CE0 _exceptionDispatch; // 0x18
+        public ityException State;
+        public ityException NoneViaFactory; // 0x8
+        public ityException PublicationOnlyViaConstructor; // 0x10
+        public ityException PublicationOnlyViaFactory; // 0x18
+        public ityException PublicationOnlyWaitForOtherThreadToPublish; // 0x20
+        public Flags <State>k__BackingField; // 0x10
+        public .Messaging.IInternalMessage.TargetIdentity.eDictionary _exceptionDispatch; // 0x18
 
         // ── Methods ──
         public void get_State(){} // RVA: 0x7FFD4E38E5C0
@@ -27,9 +27,9 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
-        public System.LazyHelper IsValueCreated; // 0x10
-        public System.Func`1<System.Reflection.MethodInfo> Value; // 0x18
-        public System.Reflection.MethodInfo _value; // 0x20
+        public ityException IsValueCreated; // 0x10
+        public ormation<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal> Value; // 0x18
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal _value; // 0x20
 
         // ── Methods ──
         public void CreateViaDefaultConstructor(){} // RVA: 0x7FFD4E2ADC40
@@ -49,8 +49,8 @@ namespace ThirdParty.DotNet.System
 
     public class LocalDataStore : Object
     {
-        public 0x66422A98[] m_DataTable; // 0x10
-        public System.LocalDataStoreMgr m_Manager; // 0x18
+        public hEnd[] m_DataTable; // 0x10
+        public D_MNd m_Manager; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A88AF0
@@ -68,8 +68,8 @@ namespace ThirdParty.DotNet.System
         public int LargeSlotTableSizeIncrease;
         public bool[] m_SlotInfoTable; // 0x10
         public int m_FirstAvailableSlot; // 0x18
-        public System.Collections.Generic.List`1<System.LocalDataStore> m_ManagedLocalDataStores; // 0x20
-        public System.Collections.Generic.Dictionary`2<string,System.LocalDataStoreSlot> m_KeyToSlotMap; // 0x28
+        public URA.woDigitYearMax<umTimesuff> m_ManagedLocalDataStores; // 0x20
+        public URA.DateTime<string,TM> m_KeyToSlotMap; // 0x28
         public long m_CookieGenerator; // 0x30
 
         // ── Methods ──
@@ -87,7 +87,7 @@ namespace ThirdParty.DotNet.System
 
     public class LocalDataStoreSlot : Object
     {
-        public System.LocalDataStoreMgr Manager; // 0x10
+        public D_MNd Manager; // 0x10
         public int Slot; // 0x18
         public long Cookie; // 0x20
 

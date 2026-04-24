@@ -26,48 +26,40 @@ OBF_RE = re.compile(r'^[\u00CC\u00CD\u00CE\u00CF]{3,}$')
 
 
 def load_field_types():
-    """Load field_types.json and index by both VA and (namespace, name).
+    """Load field_types.json and index by (namespace, name) full-name.
 
-    When field_types comes from the same dump as precise_dump.json (offline
-    extractor), VAs match 1:1 and give the highest hit rate (including obf
-    classes). Full-name fallback catches cross-session matches where
-    VAs differ due to ASLR but names are stable.
+    VA-based indexing is useless across sessions because heap VAs differ on
+    every launch. Class namespace+name is stable across Beebyte re-seeds for
+    any class that was already semantically named in Apr 8.
     """
     print('  Loading field_types.json ...')
     with open(FIELD_TYPES, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     by_fullname = {}
-    by_va = {}
+    skipped_obf = 0
     for key, cls in data['classes'].items():
-        va = cls.get('va', '')
-        if va:
-            by_va[va] = cls
         n = cls.get('name', '')
-        if n and not OBF_RE.match(n):
-            ns = cls.get('namespace') or ''
-            fullname = f'{ns}.{n}' if ns else n
-            by_fullname[fullname] = cls
-    print(f'    {len(by_va):,} classes by VA, {len(by_fullname):,} by full name')
-    return by_va, by_fullname
+        if not n or OBF_RE.match(n):
+            skipped_obf += 1
+            continue
+        ns = cls.get('namespace') or ''
+        fullname = f'{ns}.{n}' if ns else n
+        by_fullname[fullname] = cls
+    print(f'    {len(by_fullname):,} classes indexed by full name (skipped {skipped_obf:,} obf)')
+    return by_fullname
 
 
-def merge_into_dump(ft_by_va: dict, ft_by_fullname: dict):
-    """Merge field type info into deobfuscated_dump.json.
-
-    Strategy: VA match first (works for same-dump sessions, covers obf
-    classes too). Full-name fallback for cross-session matches.
-    """
+def merge_into_dump(ft_by_fullname: dict):
+    """Merge field type info into deobfuscated_dump.json by class full name."""
     print('  Loading deobfuscated_dump.json ...')
     with open(DEOBF_JSON, 'r', encoding='utf-8') as f:
         dump = json.load(f)
 
     stats = {
         'classes_matched': 0,
-        'matched_by_va': 0,
-        'matched_by_name': 0,
         'fields_typed': 0,
-        'fields_added': 0,
+        'fields_added': 0,  # fields that only exist in ft (deobf had none)
         'fields_total_before': 0,
         'classes_with_new_fields': 0,
         'field_count_mismatch': 0,
@@ -76,16 +68,10 @@ def merge_into_dump(ft_by_va: dict, ft_by_fullname: dict):
     for ns, classes in dump['namespaces'].items():
         for cls in classes:
             cls_name = cls.get('name', '')
-            va = cls.get('va', '')
-            ft_cls = None
-            if va and va in ft_by_va:
-                ft_cls = ft_by_va[va]
-                stats['matched_by_va'] += 1
-            elif cls_name and not OBF_RE.match(cls_name):
-                fullname = f'{ns}.{cls_name}' if ns else cls_name
-                ft_cls = ft_by_fullname.get(fullname)
-                if ft_cls is not None:
-                    stats['matched_by_name'] += 1
+            if not cls_name or OBF_RE.match(cls_name):
+                continue
+            fullname = f'{ns}.{cls_name}' if ns else cls_name
+            ft_cls = ft_by_fullname.get(fullname)
             if ft_cls is None:
                 continue
             ft_fields = ft_cls.get('fields', [])
@@ -250,8 +236,8 @@ def main():
         print(f'ERROR: {FIELD_TYPES} not found')
         sys.exit(1)
 
-    ft_by_va, ft_by_fullname = load_field_types()
-    dump, stats = merge_into_dump(ft_by_va, ft_by_fullname)
+    ft_by_fullname = load_field_types()
+    dump, stats = merge_into_dump(ft_by_fullname)
     generate_cs(dump)
 
     print()

@@ -5,24 +5,24 @@
 
 public class COpenVRContext : Object
 {
-    public Valve.VR.CVRSystem m_pVRSystem; // 0x10
-    public Valve.VR.CVRChaperone m_pVRChaperone; // 0x18
-    public Valve.VR.CVRChaperoneSetup m_pVRChaperoneSetup; // 0x20
-    public Valve.VR.CVRCompositor m_pVRCompositor; // 0x28
-    public Valve.VR.CVRHeadsetView m_pVRHeadsetView; // 0x30
-    public Valve.VR.CVROverlay m_pVROverlay; // 0x38
-    public Valve.VR.CVROverlayView m_pVROverlayView; // 0x40
-    public Valve.VR.CVRRenderModels m_pVRRenderModels; // 0x48
-    public Valve.VR.CVRExtendedDisplay m_pVRExtendedDisplay; // 0x50
-    public Valve.VR.CVRSettings m_pVRSettings; // 0x58
-    public Valve.VR.CVRApplications m_pVRApplications; // 0x60
-    public Valve.VR.CVRScreenshots m_pVRScreenshots; // 0x68
-    public Valve.VR.CVRTrackedCamera m_pVRTrackedCamera; // 0x70
-    public Valve.VR.CVRInput m_pVRInput; // 0x78
-    public Valve.VR.CVRIOBuffer m_pVRIOBuffer; // 0x80
-    public Valve.VR.CVRSpatialAnchors m_pVRSpatialAnchors; // 0x88
-    public Valve.VR.CVRNotifications m_pVRNotifications; // 0x90
-    public Valve.VR.CVRDebug m_pVRDebug; // 0x98
+    public merator m_pVRSystem; // 0x10
+    public _23 m_pVRChaperone; // 0x18
+    public g m_pVRChaperoneSetup; // 0x20
+    public UIntPtr m_pVRCompositor; // 0x28
+    public UIntPtr m_pVRHeadsetView; // 0x30
+    public NBool m_pVROverlay; // 0x38
+    public UIntPtr m_pVROverlayView; // 0x40
+    public m m_pVRRenderModels; // 0x48
+    public __22 m_pVRExtendedDisplay; // 0x50
+    public imeSinceLastVsync m_pVRSettings; // 0x58
+    public <get_Children>d__23 m_pVRApplications; // 0x60
+    public Vsync m_pVRScreenshots; // 0x68
+    public ict m_pVRTrackedCamera; // 0x70
+    public etOutputDevice m_pVRInput; // 0x78
+    public evice m_pVRIOBuffer; // 0x80
+    public layOnDesktop m_pVRSpatialAnchors; // 0x88
+    public eadTransform m_pVRNotifications; // 0x90
+    public ÏÏÎÎÎÍÌÌÎÎÍÏÌ m_pVRDebug; // 0x98
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54C24810
@@ -50,7 +50,7 @@ public class COpenVRContext : Object
 
 public class Cache : ValueType
 {
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputControlLayout> table; // 0x10
+    public URA.DateTime<2.uestResetCommand,criptorSizeDeviceCommandType.Wrapping> table; // 0x10
 
     // ── Methods ──
     public void Clear(){} // RVA: 0x7FFD5496FE20
@@ -61,7 +61,7 @@ public class CacheCurve : Object
 {
     public float Count; // 0x10
     public float StepSize; // 0x14
-    public System.Collections.Generic.List`1<Item> m_Cache; // 0x18
+    public URA.woDigitYearMax<?> m_Cache; // 0x18
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4FC701E0
@@ -73,9 +73,8 @@ public class CacheCurve : Object
 
 public class CacheEntry : Object
 {
-    public VRC.Core.ApiCacheObject Curve; // 0x10
-    public string RawItems; // 0x18
-    public long expiry; // 0x20
+    public mActivationTime Curve; // 0x10
+    public URA.woDigitYearMax<IsBlending> RawItems; // 0x18
 
     // ── Methods ──
     public void AddRawItem(){} // RVA: 0x7FFD4FC70B40
@@ -93,7 +92,7 @@ public class CacheRefInstance : ValueType
 
 public class Cache`1 : Object
 {
-    public System.Collections.Generic.IEqualityComparer`1<U> Comparer;
+    public URA.hEraNames<T1717671808> Comparer;
 
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -101,16 +100,16 @@ public class Cache`1 : Object
 
 public class CachedCodeEntry : Object
 {
-    public CachedCodeEntry Next; // 0x10
-    public CachedCodeEntry Previous; // 0x18
-    public CachedCodeEntryKey Key; // 0x20
-    public System.Text.RegularExpressions.RegexCode Code; // 0x38
-    public System.Collections.Hashtable Caps; // 0x40
-    public System.Collections.Hashtable Capnames; // 0x48
+    public tiate_pending Next; // 0x10
+    public tiate_pending Previous; // 0x18
+    public _btls_ssl_set_renegotiate_mode Key; // 0x20
+    public tor.ck Code; // 0x38
+    public mePatterns.MES_SIZE Caps; // 0x40
+    public mePatterns.MES_SIZE Capnames; // 0x48
     public string[] Capslist; // 0x50
     public int Capsize; // 0x58
-    public System.Text.RegularExpressions.ExclusiveReference Runnerref; // 0x60
-    public System.WeakReference`1<System.Text.RegularExpressions.RegexReplacement> ReplRef; // 0x68
+    public tor.re Runnerref; // 0x60
+    public numValuesAndNames<tor.btls_x509_lookup_add_dir> ReplRef; // 0x68
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD547BF9F0
@@ -118,7 +117,7 @@ public class CachedCodeEntry : Object
 
 public class CachedCodeEntryKey : ValueType
 {
-    public 0x66490410 _options; // 0x10
+    public tor.F_SIGNED_CERT_IN_CHAIN _options; // 0x10
     public string _cultureKey; // 0x18
     public string _pattern; // 0x20
 
@@ -131,10 +130,10 @@ public class CachedCodeEntryKey : ValueType
 
 public class CachedData : Object
 {
-    public OffsetAndRule Local; // 0x10
-    public System.TimeZoneInfo _localTimeZone; // 0x18
-    public System.Collections.Generic.Dictionary`2<string,System.TimeZoneInfo> _systemTimeZones; // 0x20
-    public System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo> _readOnlySystemTimeZones; // 0x28
+    public ags Local; // 0x10
+    public F5C5AE2947D800794ECD5F752EE8381073C2E5D0D095FDA040F541702F3 _localTimeZone; // 0x18
+    public URA.DateTime<string,F5C5AE2947D800794ECD5F752EE8381073C2E5D0D095FDA040F541702F3> _systemTimeZones; // 0x20
+    public UnicodeCategory.pacingCombiningMark<F5C5AE2947D800794ECD5F752EE8381073C2E5D0D095FDA040F541702F3> _readOnlySystemTimeZones; // 0x28
     public bool _allSystemTimeZonesRead; // 0x30
 
     // ── Methods ──
@@ -171,10 +170,10 @@ public class CalcProximity_000001C3$PostfixBurstDelegate : MulticastDelegate
 
 public class CallSiteFormatterContext : ValueType
 {
-    public System.Collections.Generic.HashSet`1<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite> Offset; // 0x10
+    public URA.onsDepth<numeratorObject.NullAttribute> Offset; // 0x10
     public bool Builder; // 0x18
     public int <Offset>k__BackingField; // 0x1C
-    public System.Text.StringBuilder <Builder>k__BackingField; // 0x20
+    public em.MarkAborted.izeDefaultCase <Builder>k__BackingField; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD537459E0
@@ -193,7 +192,7 @@ public class CallSiteFormatterContext : ValueType
 
 public class CallSiteValidatorState : ValueType
 {
-    public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite Singleton; // 0x10
+    public numeratorObject.NullAttribute Singleton; // 0x10
 
     // ── Methods ──
     public void get_Singleton(){} // RVA: 0x7FFD4EEF9F60
@@ -202,8 +201,8 @@ public class CallSiteValidatorState : ValueType
 
 public class Callback : MulticastDelegate
 {
-    public System.Action`1<UIntPtr> callback; // 0x10
-    public bool state; // 0x18
+    public sageKind.st callback; // 0x10
+    public object state; // 0x18
 
     // ── Methods ──
     public void .ctor(){}
@@ -214,8 +213,11 @@ public class Callback : MulticastDelegate
 
 public class CallbackContext : ValueType
 {
-    public UnityEngine.InputSystem.InputActionState actionIndex; // 0x10
-    public int bindingIndex; // 0x18
+    public object actionIndex; // 0x10
+    public line.? bindingIndex; // 0x18
+    public line.riCanonical controlIndex; // 0x20
+    public tion.Loop interactionIndex; // 0x28
+    public bool phase; // 0x2C
 
     // ── Methods ──
     public void get_actionIndex(){} // RVA: 0x7FFD4FDE7500
@@ -242,16 +244,12 @@ public class CallbackContext : ValueType
 
 public class CallbackMsg_t : ValueType
 {
-    public 0x665F3B68 m_hSteamUser; // 0x10
-    public ÍÌÏÌÎÏÎÏÏÎ Type; // 0x14
-    public UIntPtr Data; // 0x18
-    public int DataSize; // 0x20
 }
 
 public class CalloutTarget : ValueType
 {
-    public UnityEngine.RectTransform Target; // 0x10
-    public UnityEngine.UI.Button TargetButton; // 0x18
+    public 16 Target; // 0x10
+    public ePathName117.? TargetButton; // 0x18
 }
 
 public class CameraCallback : MulticastDelegate
@@ -263,10 +261,6 @@ public class CameraCallback : MulticastDelegate
 
 public class CameraImageCapture : MonoBehaviour
 {
-    public int resWidth; // 0x20
-    public int resHeight; // 0x24
-    public UnityEngine.Camera shotCamera; // 0x28
-
     // ── Methods ──
     public void ImageName(){} // RVA: 0x7FFD56E4FA80
     public void TakePicture(){} // RVA: 0x7FFD56E4FD80
@@ -275,7 +269,7 @@ public class CameraImageCapture : MonoBehaviour
 
 public class CanceledResultSource : Object
 {
-    public System.Threading.CancellationToken cancellationToken; // 0x10
+    public sageKind.TICMAP_SIZE cancellationToken; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -287,7 +281,7 @@ public class CanceledResultSource : Object
 
 public class CanceledResultSource`1 : Object
 {
-    public System.Threading.CancellationToken cancellationToken;
+    public sageKind.TICMAP_SIZE cancellationToken;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090BF0
@@ -300,7 +294,7 @@ public class CanceledResultSource`1 : Object
 
 public class CanceledUniTaskCache`1 : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<T> Task;
+    public eObjectDelegate.kingField<T1717659152> Task;
 
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -308,7 +302,7 @@ public class CanceledUniTaskCache`1 : Object
 
 public class CancellationTokenDisposable : Object
 {
-    public System.Threading.CancellationTokenSource Token;
+    public sageKind._internal Token;
 
     // ── Methods ──
     public void get_Token(){} // RVA: 0x7FFD4E2ADC40
@@ -318,11 +312,11 @@ public class CancellationTokenDisposable : Object
 
 public class CanvasInfo : Object
 {
-    public UnityEngine.GameObject mCanvas; // 0x10
-    public UnityEngine.Canvas mCanvasComponent; // 0x18
-    public Cinemachine.CinemachineBrain mCanvasParent; // 0x20
-    public UnityEngine.RectTransform mViewport; // 0x28
-    public UnityEngine.UI.RawImage mRawImage; // 0x30
+    public BuffersImpl mCanvas; // 0x10
+    public pad mCanvasComponent; // 0x18
+    public EXTERNAL_INDEX_REF_SIG.tance mCanvasParent; // 0x20
+    public 16 mViewport; // 0x28
+    public ePathName117.ÌÎÌÎÏÏÌÎÏÍÍÌÌÌÏÌÍÎÍÎÌÏ mRawImage; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -330,9 +324,9 @@ public class CanvasInfo : Object
 
 public class Capabilities : ValueType
 {
-    public 0x664AA2A0 type; // 0x10
-    public 0x664AA2F8 subType; // 0x14
-    public 0x664AA350 flags; // 0x18
+    public ilableSlot type; // 0x10
+    public alize_ctrlTouchscreentouch9startPositiony subType; // 0x14
+    public nState flags; // 0x18
 }
 
 public class Capability : ValueType
@@ -351,11 +345,11 @@ public class CastInstructionT`1 : CastInstruction
 public class CellRecord : ValueType
 {
     public ushort shape; // 0x10
-    public UnityEngine.Vector3Int min; // 0x14
-    public UnityEngine.Vector3Int max; // 0x20
+    public lutionZ min; // 0x14
+    public lutionZ max; // 0x20
     public bool isCollider; // 0x2C
     public bool isReceiver; // 0x2D
-    public 0x665BD820 shapeData; // 0x30
+    public x shapeData; // 0x30
 }
 
 public class Chain : ValueType
@@ -365,25 +359,25 @@ public class Chain : ValueType
     public int boneCount; // 0x18
     public int spanCount; // 0x1C
     public bool hasInitialized; // 0x20
-    public 0x665C06E0 version; // 0x24
+    public object version; // 0x24
     public bool isAnimated; // 0x28
-    public 0x665C07E8 integrationType; // 0x2C
-    public Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Collider> colliders; // 0x30
+    public object integrationType; // 0x2C
+    public egister<riteCharacterUnicode> colliders; // 0x30
     public int grabBone; // 0x48
-    public Unity.Mathematics.float3 grabGlobalPosition; // 0x4C
+    public es.ap grabGlobalPosition; // 0x4C
     public float grabMovement; // 0x58
     public float paramStretch; // 0x5C
     public float paramSquish; // 0x60
     public bool grabIkSolved; // 0x64
-    public 0x665C08F0 limitType; // 0x68
-    public Unity.Mathematics.float3 staticFreezeAxis; // 0x6C
-    public 0x665C0898 immobileType; // 0x78
+    public _ElementInitializerMethodStatic limitType; // 0x68
+    public es.ap staticFreezeAxis; // 0x6C
+    public omponent immobileType; // 0x78
     public ushort shapeId; // 0x7C
-    public UnityEngine.Bounds renderBounds; // 0x80
-    public UnityEngine.Bounds collisionBounds; // 0x98
+    public stments renderBounds; // 0x80
+    public stments collisionBounds; // 0x98
     public float paramAngle; // 0xB0
-    public TransformState lastRootParentState; // 0xB4
-    public TransformState lastSceneRootState; // 0xD0
+    public nityVectorPositive lastRootParentState; // 0xB4
+    public nityVectorPositive lastSceneRootState; // 0xD0
 
     // ── Methods ──
     public void Init(){} // RVA: 0x7FFD55262AD0
@@ -393,7 +387,7 @@ public class Chain : ValueType
 public class ChainItemInfo : ValueType
 {
     public int Order; // 0x10
-    public System.Type ImplementationType; // 0x18
+    public object ImplementationType; // 0x18
 
     // ── Methods ──
     public void get_Order(){} // RVA: 0x7FFD4F840210
@@ -412,18 +406,18 @@ public class ChainRoot : ValueType
     public float autoRealTimeElapsed; // 0x24
     public float prevVelReal; // 0x28
     public float prevVelFixed; // 0x2C
-    public Unity.Mathematics.float3 lastPos; // 0x30
+    public es.ap lastPos; // 0x30
     public bool isUsed; // 0x3C
     public float executions; // 0x40
 }
 
 public class ChangeTokenRegistration`1 : Object
 {
-    public System.Func`1<ÎÌÌÌÏÍÍÍÎÍÍ.ÌÎÍÍÍÍÏÎÌÍÎÎ> _changeTokenProducer;
-    public System.Action`1<T> _changeTokenConsumer;
-    public T _state;
-    public System.IDisposable _disposable;
-    public NoopDisposable<T> _disposedSentinel;
+    public ormation<lphaPackingShader.oundHorizontalPadding> _changeTokenProducer;
+    public ileFullDirectoryInformation<T1717745616> _changeTokenConsumer;
+    public T1717745616 _state;
+    public Names _disposable;
+    public titlesUGUI<T1717745616> _disposedSentinel;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -436,8 +430,8 @@ public class ChangeTokenRegistration`1 : Object
 
 public class ChangeTrackerDisposable : Object
 {
-    public System.Action`2<Microsoft.Extensions.Logging.LoggerFilterOptions,string> _listener; // 0x10
-    public Microsoft.Extensions.Options.OptionsMonitor`1<Microsoft.Extensions.Logging.LoggerFilterOptions> _monitor; // 0x18
+    public rectoryInformation<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal,string> _listener; // 0x10
+    public ce._KernTable<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal> _monitor; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -469,7 +463,7 @@ public class ChildrenSection`1 : Object
 {
     public string ValueToAppear; // 0x10
     public bool SettingComponents; // 0x18
-    public ÎÍÏÍÏÏÌÏÎÎÎÏÍÏÍÍÏÍÍÍÍÌÎ[] _settingComponents; // 0x20
+    public ÏÌÏÎÎÌÏÍÎÏÎ[] _settingComponents; // 0x20
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4E078E90
@@ -487,8 +481,8 @@ public class ChildrenSection`1 : Object
 
 public class CinemachineCameraOffset : CinemachineExtension
 {
-    public UnityEngine.Vector3 m_Offset; // 0x30
-    public 0x6658A550 m_ApplyAfter; // 0x3C
+    public amut m_Offset; // 0x30
+    public NSIGNED_BYTE m_ApplyAfter; // 0x3C
     public bool m_PreserveComposition; // 0x40
 
     // ── Methods ──
@@ -498,8 +492,8 @@ public class CinemachineCameraOffset : CinemachineExtension
 
 public class CinemachineMixer : PlayableBehaviour
 {
-    public MasterDirectorDelegate GetMasterPlayableDirector;
-    public Cinemachine.ICameraOverrideStack m_BrainOverrideStack; // 0x10
+    public WriteString_WithEscape GetMasterPlayableDirector;
+    public EXTERNAL_INDEX_REF_SIG.FormatterResolve m_BrainOverrideStack; // 0x10
     public int m_BrainOverrideId; // 0x18
     public bool m_PreviewPlay; // 0x1C
 
@@ -513,7 +507,7 @@ public class CinemachineMixer : PlayableBehaviour
 
 public class CinemachineRecomposer : CinemachineExtension
 {
-    public 0x6658A550 m_ApplyAfter; // 0x30
+    public NSIGNED_BYTE m_ApplyAfter; // 0x30
     public float m_Tilt; // 0x34
     public float m_Pan; // 0x38
     public float m_Dutch; // 0x3C
@@ -532,7 +526,7 @@ public class CinemachineRecomposer : CinemachineExtension
 public class CinemachineShot : PlayableAsset
 {
     public string DisplayName; // 0x18
-    public UnityEngine.ExposedReference`1<Cinemachine.CinemachineVirtualCameraBase> VirtualCamera; // 0x20
+    public bType<EXTERNAL_INDEX_REF_SIG.StaticFieldGetter> VirtualCamera; // 0x20
 
     // ── Methods ──
     public void CreatePlayable(){} // RVA: 0x7FFD4FC0DC50
@@ -542,7 +536,7 @@ public class CinemachineShot : PlayableAsset
 
 public class CinemachineShotPlayable : PlayableBehaviour
 {
-    public Cinemachine.CinemachineVirtualCameraBase IsValid; // 0x10
+    public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter IsValid; // 0x10
 
     // ── Methods ──
     public void get_IsValid(){} // RVA: 0x7FFD4FC0E090
@@ -595,16 +589,16 @@ public class Clipper : ClipperBase
     public int ReverseSolution;
     public int StrictlySimple;
     public int ioPreserveCollinear;
-    public 0x6658C440 m_ClipType; // 0x48
-    public Maxima m_Maxima; // 0x50
-    public TEdge m_SortedEdges; // 0x58
-    public System.Collections.Generic.List`1<IntersectNode> m_IntersectList; // 0x60
-    public System.Collections.Generic.IComparer`1<IntersectNode> m_IntersectNodeComparer; // 0x68
+    public xWindowSize m_ClipType; // 0x48
+    public ngPath m_Maxima; // 0x50
+    public m_OriginalPath m_SortedEdges; // 0x58
+    public URA.woDigitYearMax<tionTimePerFrameInSeconds> m_IntersectList; // 0x60
+    public URA.ndar_data<tionTimePerFrameInSeconds> m_IntersectNodeComparer; // 0x68
     public bool m_ExecuteLocked; // 0x70
-    public 0x6658C4F0 m_ClipFillType; // 0x74
-    public 0x6658C4F0 m_SubjFillType; // 0x78
-    public System.Collections.Generic.List`1<Join> m_Joins; // 0x80
-    public System.Collections.Generic.List`1<Join> m_GhostJoins; // 0x88
+    public peCache m_ClipFillType; // 0x74
+    public peCache m_SubjFillType; // 0x78
+    public URA.woDigitYearMax<434304727B1C71307D99BC27D059966A854CB749> m_Joins; // 0x80
+    public URA.woDigitYearMax<434304727B1C71307D99BC27D059966A854CB749> m_GhostJoins; // 0x88
     public bool m_UsingPolyTree; // 0x90
     public bool <ReverseSolution>k__BackingField; // 0x91
     public bool <StrictlySimple>k__BackingField; // 0x92
@@ -720,12 +714,12 @@ public class ClipperBase : Object
     public double tolerance;
     public long loRange;
     public long hiRange;
-    public LocalMinima m_MinimaList; // 0x10
-    public LocalMinima m_CurrentLM; // 0x18
-    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<TEdge>> m_edges; // 0x20
-    public Scanbeam m_Scanbeam; // 0x28
-    public System.Collections.Generic.List`1<OutRec> m_PolyOuts; // 0x30
-    public TEdge m_ActiveEdges; // 0x38
+    public ngShape2D m_MinimaList; // 0x10
+    public ngShape2D m_CurrentLM; // 0x18
+    public URA.woDigitYearMax<URA.woDigitYearMax<m_OriginalPath>> m_edges; // 0x20
+    public stanceAlongPath m_Scanbeam; // 0x28
+    public URA.woDigitYearMax<SetCartPosition> m_PolyOuts; // 0x30
+    public m_OriginalPath m_ActiveEdges; // 0x38
     public bool m_UseFullRange; // 0x40
     public bool m_HasOpenPaths; // 0x41
     public bool <PreserveCollinear>k__BackingField; // 0x42
@@ -776,18 +770,18 @@ public class ClipperException : Exception
 
 public class ClipperOffset : Object
 {
-    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<IntPoint>> ArcTolerance; // 0x10
-    public System.Collections.Generic.List`1<IntPoint> MiterLimit; // 0x18
-    public System.Collections.Generic.List`1<IntPoint> m_destPoly; // 0x20
-    public System.Collections.Generic.List`1<DoublePoint> m_normals; // 0x28
+    public URA.woDigitYearMax<URA.woDigitYearMax<lfFrustumHeight>> ArcTolerance; // 0x10
+    public URA.woDigitYearMax<lfFrustumHeight> MiterLimit; // 0x18
+    public URA.woDigitYearMax<lfFrustumHeight> m_destPoly; // 0x20
+    public URA.woDigitYearMax<ingShape2DCache> m_normals; // 0x28
     public double m_delta; // 0x30
     public double m_sinA; // 0x38
     public double m_sin; // 0x40
     public double m_cos; // 0x48
     public double m_miterLim; // 0x50
     public double m_StepsPerRad; // 0x58
-    public IntPoint m_lowest; // 0x60
-    public PolyNode m_polyNodes; // 0x70
+    public lfFrustumHeight m_lowest; // 0x60
+    public hCache m_polyNodes; // 0x70
     public double <ArcTolerance>k__BackingField; // 0x78
     public double <MiterLimit>k__BackingField; // 0x80
     public double two_pi;
@@ -815,8 +809,8 @@ public class ClipperOffset : Object
 
 public class Codec : Object
 {
-    public Google.Protobuf.FieldCodec`1<U> KeyCodec;
-    public Google.Protobuf.FieldCodec`1<T> ValueCodec;
+    public gBox.PathNoRoll<T1717702000> KeyCodec;
+    public gBox.PathNoRoll<T1717702016> ValueCodec;
     public uint MapTag;
 
     // ── Methods ──
@@ -829,14 +823,14 @@ public class Codec : Object
 public class Collection : ValueType
 {
     public float kBaseScoreForNonGeneratedLayouts;
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,System.Type> layoutTypes; // 0x10
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,string> layoutStrings; // 0x18
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,System.Func`1<UnityEngine.InputSystem.Layouts.InputControlLayout>> layoutBuilders; // 0x20
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString> baseLayoutTable; // 0x28
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString[]> layoutOverrides; // 0x30
-    public System.Collections.Generic.HashSet`1<UnityEngine.InputSystem.Utilities.InternedString> layoutOverrideNames; // 0x38
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,PrecompiledLayout> precompiledLayouts; // 0x40
-    public System.Collections.Generic.List`1<LayoutMatcher> layoutMatchers; // 0x48
+    public URA.DateTime<2.uestResetCommand,?> layoutTypes; // 0x10
+    public URA.DateTime<2.uestResetCommand,string> layoutStrings; // 0x18
+    public URA.DateTime<2.uestResetCommand,ormation<criptorSizeDeviceCommandType.Wrapping>> layoutBuilders; // 0x20
+    public URA.DateTime<2.uestResetCommand,2.uestResetCommand> baseLayoutTable; // 0x28
+    public URA.DateTime<2.uestResetCommand,2.uestResetCommand[]> layoutOverrides; // 0x30
+    public URA.onsDepth<2.uestResetCommand> layoutOverrideNames; // 0x38
+    public URA.DateTime<2.uestResetCommand,FlareRelease> precompiledLayouts; // 0x40
+    public URA.woDigitYearMax<ommunications> layoutMatchers; // 0x48
 
     // ── Methods ──
     public void Allocate(){} // RVA: 0x7FFD54AB4AD0
@@ -861,7 +855,7 @@ public class CollectionHeaderTypeInfo`2 : HeaderTypeInfo`2
 {
     public int Separator;
     public string separator;
-    public System.Net.Http.Headers.TryParseListDelegate`1<T> parser;
+    public CheckingState.?<T1717726160> parser;
 
     // ── Methods ──
     public void .ctor(){}
@@ -873,13 +867,13 @@ public class Collider : ValueType
 {
     public int shapeId; // 0x10
     public bool hasUpdated; // 0x14
-    public Unity.Mathematics.float3 prevPos0; // 0x18
-    public Unity.Mathematics.float3 prevPos1; // 0x24
-    public Unity.Mathematics.float3 nextPos0; // 0x30
-    public Unity.Mathematics.float3 nextPos1; // 0x3C
-    public 0x665C0108 shapeType; // 0x48
-    public Unity.Mathematics.float3 pos0; // 0x4C
-    public Unity.Mathematics.float3 pos1; // 0x58
+    public es.ap prevPos0; // 0x18
+    public es.ap prevPos1; // 0x24
+    public es.ap nextPos0; // 0x30
+    public es.ap nextPos1; // 0x3C
+    public cationCallback shapeType; // 0x48
+    public es.ap pos0; // 0x4C
+    public es.ap pos1; // 0x58
     public float radius; // 0x64
     public bool insideBounds; // 0x68
     public bool bonesAsSpheres; // 0x69
@@ -891,9 +885,9 @@ public class Collider : ValueType
 
 public class ColliderToRemoveData : ValueType
 {
-    public VRC.Dynamics.VRCPhysBoneColliderBase comp; // 0x10
+    public ÍÏÎÎÌÍÍ.ns comp; // 0x10
     public int executionGroup; // 0x18
-    public Shape shape; // 0x20
+    public gSmoothFactor shape; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD55263C20
@@ -917,9 +911,9 @@ public class CollisionEvent : ValueType
 
 public class CollisionEventsJob : ValueType
 {
-    public Unity.Collections.NativeList`1<Pair> prevCollisionPairs; // 0x10
-    public Unity.Collections.NativeQueue`1<CollisionEvent> collisionEvents; // 0x18
-    public Unity.Collections.NativeList`1<GridCell> gridCells; // 0x20
+    public ÍÎÏÎÎ.AssignProgramAndVariables<?> prevCollisionPairs; // 0x10
+    public ÍÎÏÎÎ.ateUpdateProfilerMarker<oom> collisionEvents; // 0x18
+    public ÍÎÏÎÎ.AssignProgramAndVariables<onfigOptions> gridCells; // 0x20
 
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD55217950
@@ -936,7 +930,7 @@ public class CollisionExitDelegate : MulticastDelegate
 
 public class CollisionModule : ValueType
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public InDuration enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -1044,19 +1038,19 @@ public class CollisionModule : ValueType
 
 public class CollisionRecord : ValueType
 {
-    public Shape shape; // 0x10
-    public VRC.Dynamics.ContactSender trigger; // 0x18
-    public 0x665BEF28 triggerProxy; // 0x20
-    public 0x665BEF80 receiverProxy; // 0x28
+    public gSmoothFactor shape; // 0x10
+    public ÍÏÎÎÌÍÍ.leSlant trigger; // 0x18
+    public ÍÏÎÎÌÍÍ.9287EE6327F8A74D0617C5 triggerProxy; // 0x20
+    public ÍÏÎÎÌÍÍ.5DD51EECC0A8037DAFB1A52F12E04CC696BF57AAC1449C527105 receiverProxy; // 0x28
 }
 
 public class CollisionsJob : ValueType
 {
-    public Unity.Collections.NativeParallelMultiHashMap`2<UnityEngine.Vector3Int,int> shapeMap; // 0x10
-    public Unity.Collections.NativeList`1<ushort> activeShapes; // 0x20
-    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x28
-    public Unity.Collections.NativeArray`1<int> collisions; // 0x38
-    public ParallelWriter<CollisionEvent> collisionEvents; // 0x48
+    public ÍÎÏÎÎ.ateUpdateEvent<lutionZ,int> shapeMap; // 0x10
+    public ÍÎÏÎÎ.AssignProgramAndVariables<ushort> activeShapes; // 0x20
+    public ÍÎÏÎÎ.ÌÌ<?> shapeData; // 0x28
+    public ÍÎÏÎÎ.ÌÌ<int> collisions; // 0x38
+    public kingField<oom> collisionEvents; // 0x48
 
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD55211F50
@@ -1075,7 +1069,7 @@ public class Color32Surrogate : Object
 
 public class ColorBySpeedModule : ValueType
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public InDuration enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -1095,7 +1089,7 @@ public class ColorBySpeedModule : ValueType
 
 public class ColorOverLifetimeModule : ValueType
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public InDuration enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -1134,9 +1128,9 @@ public class ColorSurrogate : Object
 
 public class Comparers : Object
 {
-    public Comparers<U,T> KeyComparer;
-    public System.Collections.Generic.IEqualityComparer`1<U> KeyOnlyComparer;
-    public System.Collections.Generic.IEqualityComparer`1<T> ValueComparer;
+    public ose<T1717730672,T1717730688> KeyComparer;
+    public URA.hEraNames<T1717730672> KeyOnlyComparer;
+    public URA.hEraNames<T1717730688> ValueComparer;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -1153,7 +1147,7 @@ public class Comparers : Object
 
 public class CompleteOnInvokePromise : Task`1
 {
-    public System.Collections.Generic.IList`1<System.Threading.Tasks.Task> InvokeMayRunArbitraryCode; // 0x58
+    public URA.?<utes.Line> InvokeMayRunArbitraryCode; // 0x58
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD537EABF0
@@ -1163,7 +1157,7 @@ public class CompleteOnInvokePromise : Task`1
 
 public class ConfigurationListDebugView : Object
 {
-    public System.Text.Json.Serialization.ConfigurationList`1<T> Items;
+    public ngCommas.Index<T1717649472> Items;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -1172,7 +1166,7 @@ public class ConfigurationListDebugView : Object
 
 public class ConfiguredTaskAwaiter : ValueType
 {
-    public System.Threading.Tasks.Task`1<VRC.Core.ApiInventoryItem> IsCompleted; // 0x10
+    public utes.?<utes.Line> IsCompleted; // 0x10
     public bool m_continueOnCapturedContext; // 0x18
 
     // ── Methods ──
@@ -1185,7 +1179,7 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredValueTaskAwaiter : ValueType
 {
-    public System.Threading.Tasks.ValueTask`1<bool> IsCompleted; // 0x10
+    public utes.xitAttributeMode<bool> IsCompleted; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1197,7 +1191,7 @@ public class ConfiguredValueTaskAwaiter : ValueType
 
 public class ConnectDisposable : Object
 {
-    public System.Threading.CancellationTokenSource cancellationTokenSource;
+    public sageKind._internal cancellationTokenSource;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -1213,8 +1207,8 @@ public class ConstraintSourceData : ValueType
     public int SourceIndex; // 0x10
     public bool SourceExists; // 0x14
     public float Weight; // 0x18
-    public Unity.Mathematics.float3 ParentPositionOffset; // 0x1C
-    public Unity.Mathematics.float3 ParentRotationOffset; // 0x28
+    public es.ap ParentPositionOffset; // 0x1C
+    public es.ap ParentRotationOffset; // 0x28
 }
 
 public class ContactEventDelegate : MulticastDelegate
@@ -1226,8 +1220,8 @@ public class ContactEventDelegate : MulticastDelegate
 
 public class ContainerHeight : Object
 {
-    public UnityEngine.Transform Height; // 0x10
-    public UnityEngine.Transform _containerBottom; // 0x18
+    public object Height; // 0x10
+    public object _containerBottom; // 0x18
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD56A1C000
@@ -1243,25 +1237,25 @@ public class ContainerHeight : Object
 public class Content : ValueType
 {
     public bool IsAvailable; // 0x10
-    public VRC.Localization.LocalizableString DisplayName; // 0x18
+    public itTypeSize=876 DisplayName; // 0x18
     public bool DisplayPrice; // 0x40
-    public VRC.Localization.LocalizableString Price; // 0x48
+    public itTypeSize=876 Price; // 0x48
     public bool IsFavoritable; // 0x70
     public bool IsFavorited; // 0x71
     public bool IsWearing; // 0x72
     public bool IsLocal; // 0x73
     public bool CanTryOn; // 0x74
     public bool ShowHeight; // 0x75
-    public VRC.Localization.LocalizableString Height; // 0x78
+    public itTypeSize=876 Height; // 0x78
     public bool ShowDisplayName; // 0xA0
     public bool ShowImpostorToggle; // 0xA1
     public bool ShowPrimaryButton; // 0xA2
     public bool ShowFunctionButtons; // 0xA3
     public bool ImpostorSelected; // 0xA4
-    public VRC.Localization.LocalizableString PrimaryButtonText; // 0xA8
-    public VRC.Localization.LocalizableString DetailsButtonTooltip; // 0xD0
-    public VRC.Localization.LocalizableString TryOnButtonTooltip; // 0xF8
-    public VRC.Localization.LocalizableString FavButtonTooltip; // 0x120
+    public itTypeSize=876 PrimaryButtonText; // 0xA8
+    public itTypeSize=876 DetailsButtonTooltip; // 0xD0
+    public itTypeSize=876 TryOnButtonTooltip; // 0xF8
+    public itTypeSize=876 FavButtonTooltip; // 0x120
 }
 
 public class ContentHeightCacheInfo : ValueType
@@ -1275,21 +1269,21 @@ public class ContentHeightCacheInfo : ValueType
 
 public class ContentSectionElementSet : ValueType
 {
-    public ÏÏÎÎÍÎÎÌÏÍÏÍÍÎÎÍÍÍÎÌÍÍÍ contentListUiBinding; // 0x10
-    public UnityEngine.GameObject contentListHeaderContainer; // 0x18
-    public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ contentListHeaderLabel; // 0x20
-    public UnityEngine.GameObject trailingSeparator; // 0x28
+    public owAlias contentListUiBinding; // 0x10
+    public BuffersImpl contentListHeaderContainer; // 0x18
+    public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ contentListHeaderLabel; // 0x20
+    public BuffersImpl trailingSeparator; // 0x28
 }
 
 public class Context : ValueType
 {
-    public 0x6643B010 Option; // 0x10
-    public byte* NeverMatchFlags; // 0x18
-    public byte* AlwaysMatchFlags; // 0x20
-    public byte* Buffer1; // 0x28
-    public byte* Buffer2; // 0x30
+    public 0.gManifestResourceException Option; // 0x10
+    public IntPtr NeverMatchFlags; // 0x18
+    public IntPtr AlwaysMatchFlags; // 0x20
+    public IntPtr Buffer1; // 0x28
+    public IntPtr Buffer2; // 0x30
     public int PrevCode; // 0x38
-    public byte* PrevSortKey; // 0x40
+    public IntPtr PrevSortKey; // 0x40
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD537BB2E0
@@ -1297,14 +1291,14 @@ public class Context : ValueType
 
 public class ContingentProperties : Object
 {
-    public System.Threading.ExecutionContext m_capturedContext; // 0x10
-    public System.Threading.ManualResetEventSlim m_completionEvent; // 0x18
-    public ` m_exceptionsHolder; // 0x20
-    public System.Threading.CancellationToken m_cancellationToken; // 0x28
+    public sageKind.d m_capturedContext; // 0x10
+    public sageKind.e m_completionEvent; // 0x18
+    public utes.rce m_exceptionsHolder; // 0x20
+    public sageKind.TICMAP_SIZE m_cancellationToken; // 0x28
     public object m_cancellationRegistration; // 0x30
     public int m_internalCancellationRequested; // 0x38
     public int m_completionCountdown; // 0x3C
-    public System.Collections.Generic.LowLevelListWithIList`1<System.Threading.Tasks.Task> m_exceptionalChildren; // 0x40
+    public URA.jriYear<utes.Line> m_exceptionalChildren; // 0x40
 
     // ── Methods ──
     public void SetCompleted(){} // RVA: 0x7FFD53B06980
@@ -1314,9 +1308,9 @@ public class ContingentProperties : Object
 
 public class ContinuationWrapper : Object
 {
-    public System.Action m_continuation; // 0x10
-    public System.Action m_invokeAction; // 0x18
-    public System.Threading.Tasks.Task m_innerTask; // 0x20
+    public ÎÌÍÏÏÌÍÏ m_continuation; // 0x10
+    public ÎÌÍÏÏÌÍÏ m_invokeAction; // 0x18
+    public utes.Line m_innerTask; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD538FF550
@@ -1326,14 +1320,14 @@ public class ContinuationWrapper : Object
 public class Control : Object
 {
     public string name; // 0x10
-    public UnityEngine.Texture2D icon; // 0x18
-    public 0x66633908 type; // 0x20
-    public Parameter parameter; // 0x28
+    public ector icon; // 0x18
+    public Ì type; // 0x20
+    public e parameter; // 0x28
     public float value; // 0x30
-    public 0x666339B8 style; // 0x34
-    public VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionsMenu subMenu; // 0x38
-    public Parameter[] subParameters; // 0x40
-    public Label[] labels; // 0x48
+    public Property style; // 0x34
+    public terfaces.IUdonVariable.Value.VariableType subMenu; // 0x38
+    public e[] subParameters; // 0x40
+    public ?[] labels; // 0x48
 
     // ── Methods ──
     public void GetSubParameter(){} // RVA: 0x7FFD57434E30
@@ -1354,7 +1348,7 @@ public class ControlBitRangeNode : ValueType
 
 public class ControlBuilder : ValueType
 {
-    public UnityEngine.InputSystem.InputControl control; // 0x10
+    public ilAddress.ressedThisFrame control; // 0x10
 
     // ── Methods ──
     public void get_control(){} // RVA: 0x7FFD4EEF9F60
@@ -1381,8 +1375,8 @@ public class ControlBuilder : ValueType
 
 public class ControlDataForExport : Object
 {
-    public 0x66374F08 eyeControl; // 0x10
-    public F eyelidBoneMode; // 0x14
+    public Ì eyeControl; // 0x10
+    public object eyelidBoneMode; // 0x14
     public string leftEyePath; // 0x18
     public string rightEyePath; // 0x20
     public float maxEyeUpBoneAngle; // 0x28
@@ -1395,11 +1389,11 @@ public class ControlDataForExport : Object
     public bool isEyeBoneLookUpSet; // 0x3B
     public bool isEyeBallLookDownSet; // 0x3C
     public bool isEyeBoneLookDownSet; // 0x3D
-    public EyeRotationLimiterForExport leftBoneEyeRotationLimiter; // 0x40
-    public EyeRotationLimiterForExport rightBoneEyeRotationLimiter; // 0x48
-    public EyeRotationLimiterForExport leftEyeballEyeRotationLimiter; // 0x50
-    public EyeRotationLimiterForExport rightEyeballEyeRotationLimiter; // 0x58
-    public F eyelidControl; // 0x60
+    public object leftBoneEyeRotationLimiter; // 0x40
+    public object rightBoneEyeRotationLimiter; // 0x48
+    public object leftEyeballEyeRotationLimiter; // 0x50
+    public object rightEyeballEyeRotationLimiter; // 0x58
+    public ÍÏÏ eyelidControl; // 0x60
     public bool eyelidsFollowEyesVertically; // 0x64
     public string upperEyeLidLeftPath; // 0x68
     public string upperEyeLidRightPath; // 0x70
@@ -1409,15 +1403,15 @@ public class ControlDataForExport : Object
     public bool isEyelidBonesClosedSet; // 0x89
     public bool isEyelidBonesLookUpSet; // 0x8A
     public bool isEyelidBonesLookDownSet; // 0x8B
-    public EyelidRotationLimiterForExport upperLeftLimiter; // 0x90
-    public EyelidRotationLimiterForExport upperRightLimiter; // 0x98
-    public EyelidRotationLimiterForExport lowerLeftLimiter; // 0xA0
-    public EyelidRotationLimiterForExport lowerRightLimiter; // 0xA8
+    public ÌÍÎÍÎÍÌÌÍÎÎÌÎÏÏÎÌÌÍÎÏÏ upperLeftLimiter; // 0x90
+    public ÌÍÎÍÎÍÌÌÍÎÎÌÎÏÏÎÌÌÍÎÏÏ upperRightLimiter; // 0x98
+    public ÌÍÎÍÎÍÌÌÍÎÎÌÎÏÏÎÌÌÍÎÏÏ lowerLeftLimiter; // 0xA0
+    public ÌÍÎÍÎÍÌÌÍÎÎÌÎÏÏÎÌÌÍÎÏÏ lowerRightLimiter; // 0xA8
     public float eyeWidenOrSquint; // 0xB0
-    public EyelidPositionBlendshapeForExport[] blendshapesForBlinking; // 0xB8
-    public EyelidPositionBlendshapeForExport[] blendshapesForLookingUp; // 0xC0
-    public EyelidPositionBlendshapeForExport[] blendshapesForLookingDown; // 0xC8
-    public BlendshapesConfigForExport[] blendshapesConfigs; // 0xD0
+    public ?[] blendshapesForBlinking; // 0xB8
+    public ?[] blendshapesForLookingUp; // 0xC0
+    public ?[] blendshapesForLookingDown; // 0xC8
+    public ?[] blendshapesConfigs; // 0xD0
     public bool isEyelidBlendshapeDefaultSet; // 0xD8
     public bool isEyelidBlendshapeClosedSet; // 0xD9
     public bool isEyelidBlendshapeLookUpSet; // 0xDA
@@ -1429,25 +1423,25 @@ public class ControlDataForExport : Object
 
 public class ControlItem : ValueType
 {
-    public UnityEngine.InputSystem.Utilities.InternedString name; // 0x10
-    public UnityEngine.InputSystem.Utilities.InternedString layout; // 0x20
-    public UnityEngine.InputSystem.Utilities.InternedString variants; // 0x30
+    public 2.uestResetCommand name; // 0x10
+    public 2.uestResetCommand layout; // 0x20
+    public 2.uestResetCommand variants; // 0x30
     public string useStateFrom; // 0x40
     public string displayName; // 0x48
     public string shortDisplayName; // 0x50
-    public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString> usages; // 0x58
-    public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString> aliases; // 0x68
-    public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue> parameters; // 0x78
-    public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NameAndParameters> processors; // 0x88
+    public 2.ntReadPos<2.uestResetCommand> usages; // 0x58
+    public 2.ntReadPos<2.uestResetCommand> aliases; // 0x68
+    public 2.ntReadPos<2.sOrphanedPrimaryTouch> parameters; // 0x78
+    public 2.ntReadPos<2.se> processors; // 0x88
     public uint offset; // 0x98
     public uint bit; // 0x9C
     public uint sizeInBits; // 0xA0
-    public UnityEngine.InputSystem.Utilities.FourCC format; // 0xA4
-    public 0x664AF8E8 flags; // 0xA8
+    public 2.Code format; // 0xA4
+    public tf32 flags; // 0xA8
     public int arraySize; // 0xAC
-    public UnityEngine.InputSystem.Utilities.PrimitiveValue defaultState; // 0xB0
-    public UnityEngine.InputSystem.Utilities.PrimitiveValue minValue; // 0xC0
-    public UnityEngine.InputSystem.Utilities.PrimitiveValue maxValue; // 0xD0
+    public 2.me defaultState; // 0xB0
+    public 2.me minValue; // 0xC0
+    public 2.me maxValue; // 0xD0
 
     // ── Methods ──
     public void get_name(){} // RVA: 0x7FFD4E6E0590
@@ -1536,9 +1530,9 @@ public class ControlItemJson : Object
 
 public class ControlSchemeSyntax : ValueType
 {
-    public UnityEngine.InputSystem.InputActionAsset m_Asset; // 0x10
+    public ilAddress.adLength m_Asset; // 0x10
     public int m_ControlSchemeIndex; // 0x18
-    public UnityEngine.InputSystem.InputControlScheme m_ControlScheme; // 0x20
+    public ilAddress.cceleration m_ControlScheme; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54961DC0 | overloaded x2
@@ -1598,9 +1592,6 @@ public class CreateValueCallback : MulticastDelegate
 
 public class CredentialsBundle : Object
 {
-    public string username; // 0x10
-    public string password; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -1615,5 +1606,5 @@ public class CustomBlend : ValueType
 {
     public string m_From; // 0x10
     public string m_To; // 0x18
-    public Cinemachine.CinemachineBlendDefinition m_Blend; // 0x20
+    public EXTERNAL_INDEX_REF_SIG.racter m_Blend; // 0x20
 }

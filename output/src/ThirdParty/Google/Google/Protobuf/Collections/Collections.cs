@@ -14,10 +14,10 @@ namespace ThirdParty.Google.Google.Protobuf.Collections
 
     public class MapField`2 : Object
     {
-        public System.Collections.Generic.EqualityComparer`1<T> Item;
-        public System.Collections.Generic.EqualityComparer`1<U> Keys;
-        public System.Collections.Generic.Dictionary`2<U,System.Collections.Generic.LinkedListNode`1<System.Collections.Generic.KeyValuePair`2<U,T>>> Values;
-        public System.Collections.Generic.LinkedList`1<System.Collections.Generic.KeyValuePair`2<U,T>> Count;
+        public URA.t_CurrencyDecimalDigits<T1717702160> Item;
+        public URA.t_CurrencyDecimalDigits<T1717702144> Keys;
+        public URA.DateTime<T1717702144,URA._cultureInfoNameMap<URA.mes<T1717702144,T1717702160>>> Values;
+        public URA.antCultureString<URA.mes<T1717702144,T1717702160>> Count;
 
         // ── Methods ──
         public void Clone(){} // RVA: 0x7FFD4E078E90
@@ -66,10 +66,10 @@ namespace ThirdParty.Google.Google.Protobuf.Collections
 
     public class ProtobufEqualityComparers : Object
     {
-        public System.Collections.Generic.EqualityComparer`1<double> BitwiseDoubleEqualityComparer;
-        public System.Collections.Generic.EqualityComparer`1<float> BitwiseSingleEqualityComparer; // 0x8
-        public System.Collections.Generic.EqualityComparer`1<System.Nullable`1<double>> BitwiseNullableDoubleEqualityComparer; // 0x10
-        public System.Collections.Generic.EqualityComparer`1<System.Nullable`1<float>> BitwiseNullableSingleEqualityComparer; // 0x18
+        public URA.t_CurrencyDecimalDigits<double> BitwiseDoubleEqualityComparer;
+        public URA.t_CurrencyDecimalDigits<float> BitwiseSingleEqualityComparer; // 0x8
+        public URA.t_CurrencyDecimalDigits<aphy<double>> BitwiseNullableDoubleEqualityComparer; // 0x10
+        public URA.t_CurrencyDecimalDigits<aphy<float>> BitwiseNullableSingleEqualityComparer; // 0x18
 
         // ── Methods ──
         public void GetEqualityComparer(){} // RVA: 0x7FFD4E078A90
@@ -82,10 +82,10 @@ namespace ThirdParty.Google.Google.Protobuf.Collections
 
     public class RepeatedField`1 : Object
     {
-        public System.Collections.Generic.EqualityComparer`1<T> Count;
-        public T[] IsReadOnly;
+        public URA.t_CurrencyDecimalDigits<T1717702208> Count;
+        public T1717702208[] IsReadOnly;
         public int Item;
-        public T[] System.Collections.IList.IsFixedSize;
+        public T1717702208[] System.Collections.IList.IsFixedSize;
         public int System.Collections.ICollection.IsSynchronized;
 
         // ── Methods ──

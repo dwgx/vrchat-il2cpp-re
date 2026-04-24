@@ -105,92 +105,92 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryOptions : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,string> ScopeStackContainer; // 0x10
-        public 0x66490410 InstallationId;
-        public 0x664FE620 IsGlobalModeEnabled; // 0x18
-        public System.Lazy`1<string> ScopeObserver; // 0x20
-        public System.Nullable`1<bool> EnableScopeSync; // 0x28
-        public 0x664F75B8 Transport; // 0x30
+        public URA.DateTime<string,string> ScopeStackContainer; // 0x10
+        public tor.F_SIGNED_CERT_IN_CHAIN InstallationId;
+        public ield.ssionDenied IsGlobalModeEnabled; // 0x18
+        public dle<string> ScopeObserver; // 0x20
+        public aphy<bool> EnableScopeSync; // 0x28
+        public RGBA_ETC2_SRGB.ChangedAwaitWithCancellation`2 Transport; // 0x30
         public bool ClientReportRecorder; // 0x38
-        public 0x66500CF8 SentryStackTraceFactory; // 0x40
-        public System.Lazy`1<Sentry.Internal.IClientReportRecorder> SentryVersion; // 0x48
-        public System.Lazy`1<Sentry.Extensibility.ISentryStackTraceFactory> ExceptionProcessors; // 0x50
+        public k SentryStackTraceFactory; // 0x40
+        public dle<IsPerformanceMonitoringEnabled.eforeSendTransaction>b__0> SentryVersion; // 0x48
+        public dle<?> ExceptionProcessors; // 0x50
         public int TransactionProcessors; // 0x58
-        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Type,System.Lazy`1<Sentry.Extensibility.ISentryEventExceptionProcessor>>> EventProcessors; // 0x60
-        public System.Collections.Generic.List`1<Sentry.Extensibility.ISentryTransactionProcessor> EventProcessorsProviders; // 0x68
-        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Type,System.Lazy`1<Sentry.Extensibility.ISentryEventProcessor>>> TransactionProcessorsProviders; // 0x70
-        public System.Collections.Generic.List`1<System.Func`1<System.Collections.Generic.IEnumerable`1<Sentry.Extensibility.ISentryEventProcessor>>> ExceptionProcessorsProviders; // 0x78
-        public System.Collections.Generic.List`1<System.Func`1<System.Collections.Generic.IEnumerable`1<Sentry.Extensibility.ISentryTransactionProcessor>>> Integrations; // 0x80
-        public System.Collections.Generic.List`1<System.Func`1<System.Collections.Generic.IEnumerable`1<Sentry.Extensibility.ISentryEventExceptionProcessor>>> ExceptionFilters; // 0x88
-        public 0x664F8F80 TagFilters; // 0x90
-        public System.Collections.Generic.List`1<Sentry.Extensibility.IExceptionFilter> BackgroundWorker; // 0x98
-        public System.Collections.Generic.ICollection`1<Sentry.SubstringOrRegexPattern> SentryHttpClientFactory; // 0xA0
-        public Sentry.Extensibility.IBackgroundWorker SentryScopeStateProcessor; // 0xA8
-        public 0x66500408 InAppExclude; // 0xB0
-        public Sentry.ISentryScopeStateProcessor InAppInclude; // 0xB8
-        public System.Collections.Generic.List`1<Sentry.Internal.StringOrRegex> SendDefaultPii; // 0xC0
-        public System.Collections.Generic.List`1<Sentry.Internal.StringOrRegex> IsEnvironmentUser; // 0xC8
+        public URA.woDigitYearMax<8BCA7B5CC287C51E0E3E<?,dle<ntract>>> EventProcessors; // 0x60
+        public URA.woDigitYearMax<GetEventId> EventProcessorsProviders; // 0x68
+        public URA.woDigitYearMax<8BCA7B5CC287C51E0E3E<?,dle<qualityContract>>> TransactionProcessorsProviders; // 0x70
+        public URA.woDigitYearMax<ormation<URA.bbrevEraNames<qualityContract>>> ExceptionProcessorsProviders; // 0x78
+        public URA.woDigitYearMax<ormation<URA.bbrevEraNames<GetEventId>>> Integrations; // 0x80
+        public URA.woDigitYearMax<ormation<URA.bbrevEraNames<ntract>>> ExceptionFilters; // 0x88
+        public syncFileIO TagFilters; // 0x90
+        public URA.woDigitYearMax<icTypeExtensions> BackgroundWorker; // 0x98
+        public URA.tCalendarData<RGBA_ETC2_SRGB.ts> SentryHttpClientFactory; // 0xA0
+        public ield SentryScopeStateProcessor; // 0xA8
+        public ngField.em.Collections.Generic.IEnumerator<System.IConvertible>.get_Current InAppExclude; // 0xB0
+        public RGBA_ETC2_SRGB.1 InAppInclude; // 0xB8
+        public URA.woDigitYearMax<IsPerformanceMonitoringEnabled.Frames> SendDefaultPii; // 0xC0
+        public URA.woDigitYearMax<IsPerformanceMonitoringEnabled.Frames> IsEnvironmentUser; // 0xC8
         public bool ServerName; // 0xD0
         public bool AttachStacktrace; // 0xD1
         public string MaxBreadcrumbs; // 0xD8
         public bool SampleRate; // 0xE0
         public int Release; // 0xE4
-        public System.Nullable`1<float> Distribution; // 0xE8
+        public aphy<float> Distribution; // 0xE8
         public string Environment; // 0xF0
         public string Dsn; // 0xF8
         public string ParsedDsn; // 0x100
         public string BeforeSendInternal; // 0x108
-        public 0x664F6A08 BeforeSendTransactionInternal; // 0x110
-        public System.Lazy`1<string> BeforeBreadcrumbInternal; // 0x118
-        public System.Func`3<0x664F8950,0x664F8AB0,0x664F8950> MaxQueueItems; // 0x120
-        public System.Func`3<0x664F9C38,0x664F8AB0,0x664F9C38> MaxCacheItems; // 0x128
-        public System.Func`3<0x664F6640,0x664F8AB0,0x664F6640> ShutdownTimeout; // 0x130
+        public RGBA_ETC2_SRGB.electManyAwait>b__314_0 BeforeSendTransactionInternal; // 0x110
+        public dle<string> BeforeBreadcrumbInternal; // 0x118
+        public nalInformation<RGBA_ETC2_SRGB.?,RGBA_ETC2_SRGB.tAsync>d__38`1,RGBA_ETC2_SRGB.?> MaxQueueItems; // 0x120
+        public nalInformation<RGBA_ETC2_SRGB.DiagnosticsMeters,RGBA_ETC2_SRGB.tAsync>d__38`1,RGBA_ETC2_SRGB.DiagnosticsMeters> MaxCacheItems; // 0x128
+        public nalInformation<RGBA_ETC2_SRGB.<AnyAsync>d__1`1,RGBA_ETC2_SRGB.tAsync>d__38`1,RGBA_ETC2_SRGB.<AnyAsync>d__1`1> ShutdownTimeout; // 0x130
         public int FlushTimeout; // 0x138
         public int DecompressionMethods; // 0x13C
-        public System.TimeSpan RequestBodyCompressionLevel; // 0x140
-        public System.TimeSpan RequestBodyCompressionBuffered; // 0x148
-        public 0x6649CA68 SendClientReports; // 0x150
-        public 0x66499788 HttpProxy; // 0x154
+        public ializable.GetObjectData RequestBodyCompressionLevel; // 0x140
+        public ializable.GetObjectData RequestBodyCompressionBuffered; // 0x148
+        public ialized.tGrandParent SendClientReports; // 0x150
+        public rtsAdvancedSorting.Attribute HttpProxy; // 0x154
         public bool CreateHttpMessageHandler; // 0x158
         public bool ConfigureClient; // 0x159
-        public 0x6649C3E0 Debug; // 0x160
-        public System.Func`1<ÎÏÍÍÎÌÌÎÎÏÏÎÌÌÍÌÌÎÌÍÎÏ> DiagnosticLevel; // 0x168
-        public System.Action`1<0x66602840> DiagnosticLogger; // 0x170
+        public ialized.AddingCompleted Debug; // 0x160
+        public ormation<eHeaderAsync>d__29.?> DiagnosticLevel; // 0x168
+        public ileFullDirectoryInformation<eHeaderAsync>d__29.nContinuation> DiagnosticLogger; // 0x170
         public bool ReportAssembliesMode; // 0x178
-        public 0x664F8C68 DeduplicateMode; // 0x17A
-        public Sentry.Extensibility.IDiagnosticLogger CacheDirectoryPath; // 0x180
-        public 0x664F8168 CaptureFailedRequests; // 0x188
-        public 0x664F6850 FailedRequestStatusCodes; // 0x18C
+        public RGBA_ETC2_SRGB.>d__23`1 DeduplicateMode; // 0x17A
+        public riteTo>b__2_0 CacheDirectoryPath; // 0x180
+        public RGBA_ETC2_SRGB.9__318_0 CaptureFailedRequests; // 0x188
+        public RGBA_ETC2_SRGB.Zip>b__471_0 FailedRequestStatusCodes; // 0x18C
         public string FailedRequestTargets; // 0x190
         public bool FileSystem; // 0x198
-        public System.Collections.Generic.IList`1<Sentry.HttpStatusCodeRange> DisableFileWrite; // 0x1A0
-        public System.Lazy`1<System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern>> InitCacheFlushTimeout; // 0x1A8
-        public 0x664FD078 DefaultTags; // 0x1B0
+        public URA.?<RGBA_ETC2_SRGB.107> DisableFileWrite; // 0x1A0
+        public dle<URA.?<RGBA_ETC2_SRGB.ts>> InitCacheFlushTimeout; // 0x1A8
+        public IsPerformanceMonitoringEnabled.ReportRecorder>b__0 DefaultTags; // 0x1B0
         public bool IsPerformanceMonitoringEnabled; // 0x1B8
-        public System.TimeSpan IsProfilingEnabled; // 0x1C0
-        public System.Nullable`1<bool> EnableTracing; // 0x1C8
-        public System.Nullable`1<double> TracesSampleRate; // 0x1D0
-        public System.Nullable`1<double> ProfilesSampleRate; // 0x1E0
-        public System.Func`2<0x664FA478,System.Nullable`1<double>> TracesSampler; // 0x1F0
-        public System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern> TracePropagationTargets; // 0x1F8
-        public 0x664FD230 TransactionProfilerFactory; // 0x200
-        public System.Nullable`1<0x664FA058> StackTraceMode; // 0x208
-        public System.Collections.Generic.List`1<Sentry.Integrations.ISdkIntegration> MaxAttachmentSize; // 0x210
+        public ializable.GetObjectData IsProfilingEnabled; // 0x1C0
+        public aphy<bool> EnableTracing; // 0x1C8
+        public aphy<double> TracesSampleRate; // 0x1D0
+        public aphy<double> ProfilesSampleRate; // 0x1E0
+        public n<RGBA_ETC2_SRGB.nueTrace,aphy<double>> TracesSampler; // 0x1F0
+        public URA.?<RGBA_ETC2_SRGB.ts> TracePropagationTargets; // 0x1F8
+        public IsPerformanceMonitoringEnabled.rent TransactionProfilerFactory; // 0x200
+        public aphy<RGBA_ETC2_SRGB.aitAsync>d__5`3> StackTraceMode; // 0x208
+        public URA.woDigitYearMax<Internal.ICloneable<Sentry.Protocol.OperatingSystem>.Clone.Sentry.Internal.IUpdatable<Sentry.Protocol.OperatingSystem>.UpdateFrom> MaxAttachmentSize; // 0x210
         public long DetectStartupTime; // 0x218
-        public 0x664FA0B0 AutoSessionTrackingInterval; // 0x220
-        public System.TimeSpan AutoSessionTracking; // 0x228
+        public RGBA_ETC2_SRGB.nter AutoSessionTrackingInterval; // 0x220
+        public ializable.GetObjectData AutoSessionTracking; // 0x228
         public bool UseAsyncFileIO; // 0x230
         public bool CrashedLastRun; // 0x231
-        public System.Func`1<bool> Instrumenter; // 0x238
-        public 0x664F7560 JsonPreserveReferences; // 0x240
-        public Sentry.Extensibility.INetworkStatusListener NetworkStatusListener; // 0x248
-        public System.Func`2<string,0x665F4D48> AssemblyReader; // 0x250
-        public 0x664F6B68 ExperimentalMetrics; // 0x258
+        public ormation<bool> Instrumenter; // 0x238
+        public RGBA_ETC2_SRGB.eratorCurrent JsonPreserveReferences; // 0x240
+        public ToStatsdType NetworkStatusListener; // 0x248
+        public n<string,swordRequiredToKickSession.igitalHandles> AssemblyReader; // 0x250
+        public RGBA_ETC2_SRGB.? ExperimentalMetrics; // 0x258
         public string SpotlightUrl; // 0x260
         public bool EnableSpotlight; // 0x268
-        public Sentry.Internal.SettingLocator SettingLocator; // 0x270
+        public IsPerformanceMonitoringEnabled._AutoSessionTracking SettingLocator; // 0x270
         public bool InitNativeSdks; // 0x278
-        public System.Collections.Generic.List`1<System.Action`1<0x664F7458>> PostInitCallbacks; // 0x280
+        public URA.woDigitYearMax<ileFullDirectoryInformation<RGBA_ETC2_SRGB.`2>> PostInitCallbacks; // 0x280
 
         // ── Methods ──
         public void get_ScopeStackContainer(){} // RVA: 0x7FFD4E3447C0
@@ -413,7 +413,7 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentrySdk : Object
     {
-        public 0x664F7458 CurrentOptions;
+        public RGBA_ETC2_SRGB.`2 CurrentOptions;
 
         // ── Methods ──
         public void get_CurrentOptions(){} // RVA: 0x7FFD53F67A80
@@ -456,7 +456,7 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryValues`1 : Object
     {
-        public System.Collections.Generic.IEnumerable`1<T> Values;
+        public URA.bbrevEraNames<T1717641712> Values;
 
         // ── Methods ──
         public void get_Values(){} // RVA: 0x7FFD4E078E90
@@ -466,9 +466,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SubstringOrRegexPattern : Object
     {
-        public System.Text.RegularExpressions.Regex Regex; // 0x10
+        public tor.neStore Regex; // 0x10
         public string _substring; // 0x18
-        public 0x66421288 _stringComparison; // 0x20
+        public meZone _stringComparison; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2

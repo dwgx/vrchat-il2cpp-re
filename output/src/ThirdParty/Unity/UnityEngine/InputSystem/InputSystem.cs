@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class Accelerometer : Sensor
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control acceleration; // 0x190
-        public UnityEngine.InputSystem.Accelerometer current;
+        public _1.utReport acceleration; // 0x190
+        public ilAddress.umpad5Key current;
 
         // ── Methods ──
         public void get_acceleration(){} // RVA: 0x7FFD4E960F60
@@ -23,8 +23,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class AmbientTemperatureSensor : Sensor
     {
-        public UnityEngine.InputSystem.Controls.AxisControl ambientTemperature; // 0x190
-        public UnityEngine.InputSystem.AmbientTemperatureSensor current;
+        public _1.Index ambientTemperature; // 0x190
+        public ilAddress.rwardButton>k__BackingField current;
 
         // ── Methods ──
         public void get_ambientTemperature(){} // RVA: 0x7FFD4E960F60
@@ -39,8 +39,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class AttitudeSensor : Sensor
     {
-        public UnityEngine.InputSystem.Controls.QuaternionControl attitude; // 0x190
-        public UnityEngine.InputSystem.AttitudeSensor current;
+        public _1.? attitude; // 0x190
+        public ilAddress.4Key current;
 
         // ── Methods ──
         public void get_attitude(){} // RVA: 0x7FFD4E960F60
@@ -55,33 +55,33 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class CommonUsages : Object
     {
-        public UnityEngine.InputSystem.Utilities.InternedString Primary2DMotion;
-        public UnityEngine.InputSystem.Utilities.InternedString Secondary2DMotion; // 0x10
-        public UnityEngine.InputSystem.Utilities.InternedString PrimaryAction; // 0x20
-        public UnityEngine.InputSystem.Utilities.InternedString SecondaryAction; // 0x30
-        public UnityEngine.InputSystem.Utilities.InternedString PrimaryTrigger; // 0x40
-        public UnityEngine.InputSystem.Utilities.InternedString SecondaryTrigger; // 0x50
-        public UnityEngine.InputSystem.Utilities.InternedString Modifier; // 0x60
-        public UnityEngine.InputSystem.Utilities.InternedString Position; // 0x70
-        public UnityEngine.InputSystem.Utilities.InternedString Orientation; // 0x80
-        public UnityEngine.InputSystem.Utilities.InternedString Hatswitch; // 0x90
-        public UnityEngine.InputSystem.Utilities.InternedString Back; // 0xA0
-        public UnityEngine.InputSystem.Utilities.InternedString Forward; // 0xB0
-        public UnityEngine.InputSystem.Utilities.InternedString Menu; // 0xC0
-        public UnityEngine.InputSystem.Utilities.InternedString Submit; // 0xD0
-        public UnityEngine.InputSystem.Utilities.InternedString Cancel; // 0xE0
-        public UnityEngine.InputSystem.Utilities.InternedString Horizontal; // 0xF0
-        public UnityEngine.InputSystem.Utilities.InternedString Vertical; // 0x100
-        public UnityEngine.InputSystem.Utilities.InternedString Twist; // 0x110
-        public UnityEngine.InputSystem.Utilities.InternedString Pressure; // 0x120
-        public UnityEngine.InputSystem.Utilities.InternedString ScrollHorizontal; // 0x130
-        public UnityEngine.InputSystem.Utilities.InternedString ScrollVertical; // 0x140
-        public UnityEngine.InputSystem.Utilities.InternedString Point; // 0x150
-        public UnityEngine.InputSystem.Utilities.InternedString LowFreqMotor; // 0x160
-        public UnityEngine.InputSystem.Utilities.InternedString HighFreqMotor; // 0x170
-        public UnityEngine.InputSystem.Utilities.InternedString LeftHand; // 0x180
-        public UnityEngine.InputSystem.Utilities.InternedString RightHand; // 0x190
-        public UnityEngine.InputSystem.Utilities.InternedString BatteryStrength; // 0x1A0
+        public 2.uestResetCommand Primary2DMotion;
+        public 2.uestResetCommand Secondary2DMotion; // 0x10
+        public 2.uestResetCommand PrimaryAction; // 0x20
+        public 2.uestResetCommand SecondaryAction; // 0x30
+        public 2.uestResetCommand PrimaryTrigger; // 0x40
+        public 2.uestResetCommand SecondaryTrigger; // 0x50
+        public 2.uestResetCommand Modifier; // 0x60
+        public 2.uestResetCommand Position; // 0x70
+        public 2.uestResetCommand Orientation; // 0x80
+        public 2.uestResetCommand Hatswitch; // 0x90
+        public 2.uestResetCommand Back; // 0xA0
+        public 2.uestResetCommand Forward; // 0xB0
+        public 2.uestResetCommand Menu; // 0xC0
+        public 2.uestResetCommand Submit; // 0xD0
+        public 2.uestResetCommand Cancel; // 0xE0
+        public 2.uestResetCommand Horizontal; // 0xF0
+        public 2.uestResetCommand Vertical; // 0x100
+        public 2.uestResetCommand Twist; // 0x110
+        public 2.uestResetCommand Pressure; // 0x120
+        public 2.uestResetCommand ScrollHorizontal; // 0x130
+        public 2.uestResetCommand ScrollVertical; // 0x140
+        public 2.uestResetCommand Point; // 0x150
+        public 2.uestResetCommand LowFreqMotor; // 0x160
+        public 2.uestResetCommand HighFreqMotor; // 0x170
+        public 2.uestResetCommand LeftHand; // 0x180
+        public 2.uestResetCommand RightHand; // 0x190
+        public 2.uestResetCommand BatteryStrength; // 0x1A0
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD549A2A60
@@ -89,24 +89,24 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class DefaultInputActions : Object
     {
-        public UnityEngine.InputSystem.InputActionAsset asset; // 0x10
-        public UnityEngine.InputSystem.InputActionMap bindingMask; // 0x18
-        public 0x664A9328 devices; // 0x20
-        public UnityEngine.InputSystem.InputAction controlSchemes; // 0x28
-        public UnityEngine.InputSystem.InputAction bindings; // 0x30
-        public UnityEngine.InputSystem.InputAction Player; // 0x38
-        public UnityEngine.InputSystem.InputActionMap UI; // 0x40
-        public 0x664A9380 KeyboardMouseScheme; // 0x48
-        public UnityEngine.InputSystem.InputAction GamepadScheme; // 0x50
-        public UnityEngine.InputSystem.InputAction TouchScheme; // 0x58
-        public UnityEngine.InputSystem.InputAction JoystickScheme; // 0x60
-        public UnityEngine.InputSystem.InputAction XRScheme; // 0x68
-        public UnityEngine.InputSystem.InputAction m_UI_Click; // 0x70
-        public UnityEngine.InputSystem.InputAction m_UI_ScrollWheel; // 0x78
-        public UnityEngine.InputSystem.InputAction m_UI_MiddleClick; // 0x80
-        public UnityEngine.InputSystem.InputAction m_UI_RightClick; // 0x88
-        public UnityEngine.InputSystem.InputAction m_UI_TrackedDevicePosition; // 0x90
-        public UnityEngine.InputSystem.InputAction m_UI_TrackedDeviceOrientation; // 0x98
+        public ilAddress.adLength asset; // 0x10
+        public ilAddress.epAliveInterval bindingMask; // 0x18
+        public ntouch1press devices; // 0x20
+        public ilAddress.s controlSchemes; // 0x28
+        public ilAddress.s bindings; // 0x30
+        public ilAddress.s Player; // 0x38
+        public ilAddress.epAliveInterval UI; // 0x40
+        public eentouch1tapCount KeyboardMouseScheme; // 0x48
+        public ilAddress.s GamepadScheme; // 0x50
+        public ilAddress.s TouchScheme; // 0x58
+        public ilAddress.s JoystickScheme; // 0x60
+        public ilAddress.s XRScheme; // 0x68
+        public ilAddress.s m_UI_Click; // 0x70
+        public ilAddress.s m_UI_ScrollWheel; // 0x78
+        public ilAddress.s m_UI_MiddleClick; // 0x80
+        public ilAddress.s m_UI_RightClick; // 0x88
+        public ilAddress.s m_UI_TrackedDevicePosition; // 0x90
+        public ilAddress.s m_UI_TrackedDeviceOrientation; // 0x98
         public int m_KeyboardMouseSchemeIndex; // 0xA0
         public int m_GamepadSchemeIndex; // 0xA4
         public int m_TouchSchemeIndex; // 0xA8
@@ -141,7 +141,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class DynamicBitfield : ValueType
     {
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<ulong> array; // 0x10
+        public 2.and<ulong> array; // 0x10
         public int length; // 0x28
 
         // ── Methods ──
@@ -644,25 +644,25 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Gamepad : InputDevice
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl buttonWest; // 0x190
-        public UnityEngine.InputSystem.Controls.ButtonControl buttonNorth; // 0x198
-        public UnityEngine.InputSystem.Controls.ButtonControl buttonSouth; // 0x1A0
-        public UnityEngine.InputSystem.Controls.ButtonControl buttonEast; // 0x1A8
-        public UnityEngine.InputSystem.Controls.ButtonControl leftStickButton; // 0x1B0
-        public UnityEngine.InputSystem.Controls.ButtonControl rightStickButton; // 0x1B8
-        public UnityEngine.InputSystem.Controls.ButtonControl startButton; // 0x1C0
-        public UnityEngine.InputSystem.Controls.ButtonControl selectButton; // 0x1C8
-        public UnityEngine.InputSystem.Controls.DpadControl dpad; // 0x1D0
-        public UnityEngine.InputSystem.Controls.ButtonControl leftShoulder; // 0x1D8
-        public UnityEngine.InputSystem.Controls.ButtonControl rightShoulder; // 0x1E0
-        public UnityEngine.InputSystem.Controls.StickControl leftStick; // 0x1E8
-        public UnityEngine.InputSystem.Controls.StickControl rightStick; // 0x1F0
-        public UnityEngine.InputSystem.Controls.ButtonControl leftTrigger; // 0x1F8
-        public UnityEngine.InputSystem.Controls.ButtonControl rightTrigger; // 0x200
-        public UnityEngine.InputSystem.Gamepad aButton;
-        public UnityEngine.InputSystem.Haptics.DualMotorRumble bButton; // 0x208
+        public _1.ceControlChangedValue buttonWest; // 0x190
+        public _1.ceControlChangedValue buttonNorth; // 0x198
+        public _1.ceControlChangedValue buttonSouth; // 0x1A0
+        public _1.ceControlChangedValue buttonEast; // 0x1A8
+        public _1.ceControlChangedValue leftStickButton; // 0x1B0
+        public _1.ceControlChangedValue rightStickButton; // 0x1B8
+        public _1.ceControlChangedValue startButton; // 0x1C0
+        public _1.ceControlChangedValue selectButton; // 0x1C8
+        public _1.d dpad; // 0x1D0
+        public _1.ceControlChangedValue leftShoulder; // 0x1D8
+        public _1.ceControlChangedValue rightShoulder; // 0x1E0
+        public _1.ftTriggerButton>k__BackingField leftStick; // 0x1E8
+        public _1.ftTriggerButton>k__BackingField rightStick; // 0x1F0
+        public _1.ceControlChangedValue leftTrigger; // 0x1F8
+        public _1.ceControlChangedValue rightTrigger; // 0x200
+        public ilAddress.? aButton;
+        public teControlScheme.sWithUser bButton; // 0x208
         public int xButton; // 0x8
-        public UnityEngine.InputSystem.Gamepad[] yButton; // 0x10
+        public ilAddress.?[] yButton; // 0x10
 
         // ── Methods ──
         public void get_buttonWest(){} // RVA: 0x7FFD4E960F60
@@ -720,8 +720,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class GravitySensor : Sensor
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control gravity; // 0x190
-        public UnityEngine.InputSystem.GravitySensor current;
+        public _1.utReport gravity; // 0x190
+        public ilAddress.14Key current;
 
         // ── Methods ──
         public void get_gravity(){} // RVA: 0x7FFD4E960F60
@@ -736,8 +736,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Gyroscope : Sensor
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control angularVelocity; // 0x190
-        public UnityEngine.InputSystem.Gyroscope current;
+        public _1.utReport angularVelocity; // 0x190
+        public ilAddress.f5Key current;
 
         // ── Methods ──
         public void get_angularVelocity(){} // RVA: 0x7FFD4E960F60
@@ -752,8 +752,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class HumiditySensor : Sensor
     {
-        public UnityEngine.InputSystem.Controls.AxisControl relativeHumidity; // 0x190
-        public UnityEngine.InputSystem.HumiditySensor current;
+        public _1.Index relativeHumidity; // 0x190
+        public ilAddress.n>k__BackingField current;
 
         // ── Methods ──
         public void get_relativeHumidity(){} // RVA: 0x7FFD4E960F60
@@ -806,26 +806,26 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputAction : Object
     {
-        public Unity.Profiling.ProfilerMarker name;
-        public Unity.Profiling.ProfilerMarker type; // 0x8
+        public object name;
+        public object type; // 0x8
         public string id; // 0x10
-        public 0x664A6620 idDontGenerate; // 0x18
+        public ilAddress.ghtEyeVelocity>k__BackingField idDontGenerate; // 0x18
         public string expectedControlType; // 0x20
         public string processors; // 0x28
         public string interactions; // 0x30
         public string actionMap; // 0x38
-        public UnityEngine.InputSystem.InputBinding[] bindingMask; // 0x40
-        public 0x664A5498 bindings; // 0x48
-        public System.Nullable`1<UnityEngine.InputSystem.InputBinding> controls; // 0x50
+        public ilAddress.__BackingField[] bindingMask; // 0x40
+        public set bindings; // 0x48
+        public aphy<ilAddress.__BackingField> controls; // 0x50
         public int phase; // 0xB0
         public int inProgress; // 0xB4
         public int enabled; // 0xB8
         public int triggered; // 0xBC
         public int activeControl; // 0xC0
-        public UnityEngine.InputSystem.InputActionMap activeValueType; // 0xC8
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<CallbackContext>> wantsInitialStateCheck; // 0xD0
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<CallbackContext>> isSingletonAction; // 0x120
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<CallbackContext>> currentState; // 0x170
+        public ilAddress.epAliveInterval activeValueType; // 0xC8
+        public 2.Enabled<ileFullDirectoryInformation<et>> wantsInitialStateCheck; // 0xD0
+        public 2.Enabled<ileFullDirectoryInformation<et>> isSingletonAction; // 0x120
+        public 2.Enabled<ileFullDirectoryInformation<et>> currentState; // 0x170
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E35C380
@@ -896,14 +896,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     {
         public string enabled;
         public string actionMaps;
-        public UnityEngine.InputSystem.InputActionMap[] controlSchemes; // 0x18
-        public UnityEngine.InputSystem.InputControlScheme[] bindings; // 0x20
+        public ilAddress.epAliveInterval[] controlSchemes; // 0x18
+        public ilAddress.cceleration[] bindings; // 0x20
         public bool bindingMask; // 0x28
-        public UnityEngine.InputSystem.InputActionState devices; // 0x30
-        public System.Nullable`1<UnityEngine.InputSystem.InputBinding> Item; // 0x38
+        public ilAddress.icate devices; // 0x30
+        public aphy<ilAddress.__BackingField> Item; // 0x38
         public int m_ParameterOverridesCount; // 0x98
-        public ParameterOverride[] m_ParameterOverrides; // 0xA0
-        public DeviceArray m_Devices; // 0xA8
+        public RemoteCertificateChainErrors[] m_ParameterOverrides; // 0xA0
+        public kingKey m_Devices; // 0xA8
 
         // ── Methods ──
         public void get_enabled(){} // RVA: 0x7FFD5493E9E0
@@ -941,25 +941,25 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionMap : Object
     {
-        public Unity.Profiling.ProfilerMarker name;
+        public object name;
         public string asset; // 0x10
         public string id; // 0x18
-        public UnityEngine.InputSystem.InputActionAsset idDontGenerate; // 0x20
-        public UnityEngine.InputSystem.InputAction[] enabled; // 0x28
-        public UnityEngine.InputSystem.InputBinding[] actions; // 0x30
-        public UnityEngine.InputSystem.InputBinding[] bindings; // 0x38
-        public UnityEngine.InputSystem.InputControl[] UnityEngine.InputSystem.IInputActionCollection2.bindings; // 0x40
+        public ilAddress.adLength idDontGenerate; // 0x20
+        public ilAddress.s[] enabled; // 0x28
+        public ilAddress.__BackingField[] actions; // 0x30
+        public ilAddress.__BackingField[] bindings; // 0x38
+        public ilAddress.ressedThisFrame[] UnityEngine.InputSystem.IInputActionCollection2.bindings; // 0x40
         public int controlSchemes; // 0x48
-        public UnityEngine.InputSystem.InputAction bindingMask; // 0x50
+        public ilAddress.s bindingMask; // 0x50
         public int devices; // 0x58
-        public UnityEngine.InputSystem.InputActionState Item; // 0x60
-        public System.Nullable`1<UnityEngine.InputSystem.InputBinding> needToResolveBindings; // 0x68
-        public 0x664A5808 bindingResolutionNeedsFullReResolve; // 0xC8
+        public ilAddress.icate Item; // 0x60
+        public aphy<ilAddress.__BackingField> needToResolveBindings; // 0x68
+        public tf32 bindingResolutionNeedsFullReResolve; // 0xC8
         public int controlsForEachActionInitialized; // 0xCC
-        public ParameterOverride[] bindingsForEachActionInitialized; // 0xD0
-        public DeviceArray m_Devices; // 0xD8
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<CallbackContext>> m_ActionCallbacks; // 0xE8
-        public System.Collections.Generic.Dictionary`2<string,int> m_ActionIndexByNameOrId; // 0x138
+        public RemoteCertificateChainErrors[] bindingsForEachActionInitialized; // 0xD0
+        public kingKey m_Devices; // 0xD8
+        public 2.Enabled<ileFullDirectoryInformation<et>> m_ActionCallbacks; // 0xE8
+        public URA.DateTime<string,int> m_ActionIndexByNameOrId; // 0x138
         public int s_DeferBindingResolution; // 0x8
         public bool s_NeedToResolveBindings; // 0xC
 
@@ -1026,8 +1026,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     public class InputActionProperty : ValueType
     {
         public bool action; // 0x10
-        public UnityEngine.InputSystem.InputAction reference; // 0x18
-        public UnityEngine.InputSystem.InputActionReference serializedAction; // 0x20
+        public ilAddress.s reference; // 0x18
+        public ilAddress.operty serializedAction; // 0x20
 
         // ── Methods ──
         public void get_action(){} // RVA: 0x7FFD54958510
@@ -1043,7 +1043,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionRebindingExtensions : Object
     {
-        public DeferBindingResolutionWrapper s_DeferBindingResolutionWrapper;
+        public et_BareMessage s_DeferBindingResolutionWrapper;
 
         // ── Methods ──
         public void GetParameterValue(){} // RVA: 0x7FFD4E2ADC40 | overloaded x4
@@ -1069,9 +1069,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionReference : ScriptableObject
     {
-        public UnityEngine.InputSystem.InputActionAsset asset; // 0x18
+        public ilAddress.adLength asset; // 0x18
         public string action; // 0x20
-        public UnityEngine.InputSystem.InputAction m_Action; // 0x28
+        public ilAddress.s m_Action; // 0x28
 
         // ── Methods ──
         public void get_asset(){} // RVA: 0x7FFD4E3447C0
@@ -1117,25 +1117,25 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     public class InputActionState : Object
     {
         public int totalCompositeCount;
-        public UnityEngine.InputSystem.InputActionMap[] totalMapCount; // 0x10
-        public UnityEngine.InputSystem.InputControl[] totalActionCount; // 0x18
-        public UnityEngine.InputSystem.IInputInteraction[] totalBindingCount; // 0x20
-        public UnityEngine.InputSystem.InputProcessor[] totalInteractionCount; // 0x28
-        public UnityEngine.InputSystem.InputBindingComposite[] totalControlCount; // 0x30
+        public ilAddress.epAliveInterval[] totalMapCount; // 0x10
+        public ilAddress.ressedThisFrame[] totalActionCount; // 0x18
+        public ilAddress.t[] totalBindingCount; // 0x20
+        public ilAddress.get_completed[] totalInteractionCount; // 0x28
+        public ilAddress.d[] totalControlCount; // 0x30
         public int mapIndices; // 0x38
-        public 0x664A64C0 actionStates; // 0x40
+        public larVelocity actionStates; // 0x40
         public bool bindingStates; // 0xC0
         public bool interactionStates; // 0xC1
         public bool controlIndexToBindingIndex; // 0xC2
-        public UnityEngine.InputSystem.LowLevel.InputEventPtr controlGroupingAndComplexity; // 0xC8
-        public System.Action controlMagnitudes; // 0xD0
-        public System.Action enabledControls; // 0xD8
-        public Unity.Profiling.ProfilerMarker isProcessingControlStateChange;
-        public Unity.Profiling.ProfilerMarker k_InputActionResolveConflictMarker; // 0x8
-        public Unity.Profiling.ProfilerMarker k_InputActionCallbackMarker; // 0x10
-        public Unity.Profiling.ProfilerMarker k_InputOnActionChangeMarker; // 0x18
-        public Unity.Profiling.ProfilerMarker k_InputOnDeviceChangeMarker; // 0x20
-        public 0x664A6518 s_GlobalState; // 0x28
+        public Device.ckingField controlGroupingAndComplexity; // 0xC8
+        public ÎÌÍÏÏÌÍÏ controlMagnitudes; // 0xD0
+        public ÎÌÍÏÏÌÍÏ enabledControls; // 0xD8
+        public object isProcessingControlStateChange;
+        public object k_InputActionResolveConflictMarker; // 0x8
+        public object k_InputActionCallbackMarker; // 0x10
+        public object k_InputOnActionChangeMarker; // 0x18
+        public object k_InputOnDeviceChangeMarker; // 0x20
+        public _BackingField s_GlobalState; // 0x28
 
         // ── Methods ──
         public void get_totalCompositeCount(){} // RVA: 0x7FFD4E55CBA0
@@ -1254,7 +1254,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public string processors; // 0x30
         public string overrideProcessors; // 0x38
         public string groups; // 0x40
-        public 0x664A6728 action; // 0x48
+        public tf32 action; // 0x48
         public string isComposite; // 0x50
         public string isPartOfComposite; // 0x58
         public string hasOverrides; // 0x60
@@ -1307,7 +1307,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputBindingComposite : Object
     {
-        public UnityEngine.InputSystem.Utilities.TypeTable valueType;
+        public 2.erSize valueType;
 
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x7FFD4E078E90
@@ -1326,7 +1326,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputBindingCompositeContext : ValueType
     {
-        public UnityEngine.InputSystem.InputActionState controls; // 0x10
+        public ilAddress.icate controls; // 0x10
         public int m_BindingIndex; // 0x18
 
         // ── Methods ──
@@ -1356,15 +1356,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public int totalMapCount; // 0x10
         public int totalActionCount; // 0x14
         public int totalBindingCount; // 0x18
-        public UnityEngine.InputSystem.InputActionMap[] totalControlCount; // 0x20
-        public UnityEngine.InputSystem.InputControl[] controls; // 0x28
-        public 0x664A64C0 memory; // 0x30
-        public UnityEngine.InputSystem.IInputInteraction[] interactions; // 0xB0
-        public UnityEngine.InputSystem.InputProcessor[] processors; // 0xB8
-        public UnityEngine.InputSystem.InputBindingComposite[] composites; // 0xC0
-        public System.Nullable`1<UnityEngine.InputSystem.InputBinding> bindingMask; // 0xC8
+        public ilAddress.epAliveInterval[] totalControlCount; // 0x20
+        public ilAddress.ressedThisFrame[] controls; // 0x28
+        public larVelocity memory; // 0x30
+        public ilAddress.t[] interactions; // 0xB0
+        public ilAddress.get_completed[] processors; // 0xB8
+        public ilAddress.d[] composites; // 0xC0
+        public aphy<ilAddress.__BackingField> bindingMask; // 0xC8
         public bool m_IsControlOnlyResolve; // 0x128
-        public System.Collections.Generic.List`1<UnityEngine.InputSystem.Utilities.NameAndParameters> m_Parameters; // 0x130
+        public URA.woDigitYearMax<2.se> m_Parameters; // 0x130
 
         // ── Methods ──
         public void get_totalMapCount(){} // RVA: 0x7FFD4E70C4C0
@@ -1382,30 +1382,30 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl : Object
     {
-        public UnityEngine.InputSystem.LowLevel.InputStateBlock name; // 0x10
-        public UnityEngine.InputSystem.Utilities.InternedString displayName; // 0x20
+        public Device.ackingField name; // 0x10
+        public 2.uestResetCommand displayName; // 0x20
         public string shortDisplayName; // 0x30
         public string path; // 0x38
         public string layout; // 0x40
         public string variants; // 0x48
         public string device; // 0x50
-        public UnityEngine.InputSystem.Utilities.InternedString parent; // 0x58
-        public UnityEngine.InputSystem.Utilities.InternedString children; // 0x68
-        public UnityEngine.InputSystem.InputDevice usages; // 0x78
-        public UnityEngine.InputSystem.InputControl aliases; // 0x80
+        public 2.uestResetCommand parent; // 0x58
+        public 2.uestResetCommand children; // 0x68
+        public ilAddress.ActionProperty usages; // 0x78
+        public ilAddress.ressedThisFrame aliases; // 0x80
         public int stateBlock; // 0x88
         public int noisy; // 0x8C
         public int synthetic; // 0x90
         public int Item; // 0x94
         public int valueType; // 0x98
         public int valueSizeInBytes; // 0x9C
-        public 0x664A7120 magnitude; // 0xA0
+        public ineNumber magnitude; // 0xA0
         public bool currentStatePtr; // 0xA4
         public bool previousFrameStatePtr; // 0xA5
-        public UnityEngine.InputSystem.Utilities.PrimitiveValue defaultStatePtr; // 0xA8
-        public UnityEngine.InputSystem.Utilities.PrimitiveValue noiseMaskPtr; // 0xB8
-        public UnityEngine.InputSystem.Utilities.PrimitiveValue stateOffsetRelativeToDeviceRoot; // 0xC8
-        public UnityEngine.InputSystem.Utilities.FourCC optimizedControlDataType; // 0xD8
+        public 2.me defaultStatePtr; // 0xA8
+        public 2.me noiseMaskPtr; // 0xB8
+        public 2.me stateOffsetRelativeToDeviceRoot; // 0xC8
+        public 2.Code optimizedControlDataType; // 0xD8
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD549A3C00
@@ -1516,9 +1516,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControlList`1 : ValueType
     {
-        public int Count; // 0x10
-        public Unity.Collections.NativeArray`1<ulong> Capacity; // 0x18
-        public 0x664D7E20 IsReadOnly; // 0x28
+        public int Count;
+        public ÍÎÏÎÎ.ÌÌ<ulong> Capacity;
+        public ÍÎÏÎÎ.ments.ITextEdition.autoCorrection IsReadOnly;
         public ulong Item;
 
         // ── Methods ──
@@ -1588,7 +1588,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     {
         public string name; // 0x10
         public string bindingGroup; // 0x18
-        public 0x664A6CA8[] deviceRequirements; // 0x20
+        public ield[] deviceRequirements; // 0x20
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4EEF9F60
@@ -1610,9 +1610,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.InputSystem.XR.Eyes>> valueType; // 0xE0
-        public UnityEngine.InputSystem.XR.Eyes valueSizeInBytes; // 0xF8
-        public UnityEngine.InputSystem.XR.Eyes value; // 0x144
+        public 2.and<ilAddress.hBindingMask<deltaleft.?>> valueType; // 0xE0
+        public deltaleft.? valueSizeInBytes; // 0xF8
+        public deltaleft.? value; // 0x144
         public bool unprocessedValue; // 0x190
 
         // ── Methods ──
@@ -1648,23 +1648,23 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public int description;
         public int enabled;
         public int canRunInBackground;
-        public 0x664A79B8 canDeviceRunInBackground; // 0xE0
+        public nState canDeviceRunInBackground; // 0xE0
         public int added; // 0xE4
         public int remote; // 0xE8
         public int native; // 0xEC
         public uint updateBeforeRender; // 0xF0
-        public UnityEngine.InputSystem.Layouts.InputDeviceDescription deviceId; // 0xF8
+        public criptorSizeDeviceCommandType.t_activeTouches deviceId; // 0xF8
         public double lastUpdateTime; // 0x130
         public uint wasUpdatedThisFrame; // 0x138
-        public UnityEngine.InputSystem.Utilities.InternedString[] allControls; // 0x140
-        public UnityEngine.InputSystem.Utilities.InternedString[] valueType; // 0x148
-        public UnityEngine.InputSystem.InputControl[] valueSizeInBytes; // 0x150
-        public UnityEngine.InputSystem.InputControl[] all; // 0x158
-        public System.Collections.Generic.HashSet`1<int> disabledInFrontend; // 0x160
-        public System.Collections.Generic.List`1<UnityEngine.InputSystem.Controls.ButtonControl> disabledInRuntime; // 0x168
+        public 2.uestResetCommand[] allControls; // 0x140
+        public 2.uestResetCommand[] valueType; // 0x148
+        public ilAddress.ressedThisFrame[] valueSizeInBytes; // 0x150
+        public ilAddress.ressedThisFrame[] all; // 0x158
+        public URA.onsDepth<int> disabledInFrontend; // 0x160
+        public URA.woDigitYearMax<_1.ceControlChangedValue> disabledInRuntime; // 0x168
         public bool disabledWhileInBackground; // 0x170
         public uint[] hasControlsWithDefaultState; // 0x178
-        public ControlBitRangeNode[] hasDontResetControls; // 0x180
+        public pdate[] hasDontResetControls; // 0x180
         public ushort[] hasStateCallbacks; // 0x188
         public int hasEventMerger;
         public int hasEventPreProcessor;
@@ -1756,7 +1756,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputInteraction : Object
     {
-        public UnityEngine.InputSystem.Utilities.TypeTable s_Interactions;
+        public 2.erSize s_Interactions;
 
         // ── Methods ──
         public void GetValueType(){} // RVA: 0x7FFD5493A790
@@ -1765,9 +1765,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputInteractionContext : ValueType
     {
-        public UnityEngine.InputSystem.InputActionState action; // 0x10
-        public 0x664A6E08 control; // 0x18
-        public 0x664A6410 phase; // 0x1C
+        public ilAddress.icate action; // 0x10
+        public tf32 control; // 0x18
+        public nentSettings phase; // 0x1C
 
         // ── Methods ──
         public void get_action(){} // RVA: 0x7FFD5499AED0
@@ -1798,62 +1798,62 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputManager : Object
     {
-        public Unity.Profiling.ProfilerMarker devices;
-        public Unity.Profiling.ProfilerMarker processors; // 0x8
-        public Unity.Profiling.ProfilerMarker interactions; // 0x10
-        public Unity.Profiling.ProfilerMarker composites; // 0x18
-        public Unity.Profiling.ProfilerMarker metrics; // 0x20
-        public Unity.Profiling.ProfilerMarker settings; // 0x28
-        public Unity.Profiling.ProfilerMarker actions; // 0x30
-        public Unity.Profiling.ProfilerMarker updateMask; // 0x38
-        public Unity.Profiling.ProfilerMarker defaultUpdateType; // 0x40
-        public Unity.Profiling.ProfilerMarker scrollDeltaBehavior; // 0x48
-        public Unity.Profiling.ProfilerMarker pollingFrequency; // 0x50
-        public Unity.Profiling.ProfilerMarker isProcessingEvents; // 0x58
-        public Unity.Profiling.ProfilerMarker gameIsPlaying; // 0x60
+        public object devices;
+        public object processors; // 0x8
+        public object interactions; // 0x10
+        public object composites; // 0x18
+        public object metrics; // 0x20
+        public object settings; // 0x28
+        public object actions; // 0x30
+        public object updateMask; // 0x38
+        public object defaultUpdateType; // 0x40
+        public object scrollDeltaBehavior; // 0x48
+        public object pollingFrequency; // 0x50
+        public object isProcessingEvents; // 0x58
+        public object gameIsPlaying; // 0x60
         public int gameHasFocus; // 0x10
         public float gameShouldGetInputRegardlessOfFocus; // 0x14
-        public Collection optimizedControlsFeatureEnabled; // 0x18
-        public UnityEngine.InputSystem.Utilities.TypeTable readValueCachingFeatureEnabled; // 0x58
-        public UnityEngine.InputSystem.Utilities.TypeTable paranoidReadValueCachingChecksEnabled; // 0x60
-        public UnityEngine.InputSystem.Utilities.TypeTable m_Composites; // 0x68
+        public tEyeRotation optimizedControlsFeatureEnabled; // 0x18
+        public 2.erSize readValueCachingFeatureEnabled; // 0x58
+        public 2.erSize paranoidReadValueCachingChecksEnabled; // 0x60
+        public 2.erSize m_Composites; // 0x68
         public int m_DevicesCount; // 0x70
-        public UnityEngine.InputSystem.InputDevice[] m_Devices; // 0x78
-        public System.Collections.Generic.Dictionary`2<int,UnityEngine.InputSystem.InputDevice> m_DevicesById; // 0x80
+        public ilAddress.ActionProperty[] m_Devices; // 0x78
+        public URA.DateTime<int,ilAddress.ActionProperty> m_DevicesById; // 0x80
         public int m_AvailableDeviceCount; // 0x88
-        public AvailableDevice[] m_AvailableDevices; // 0x90
+        public rlMousedeltay[] m_AvailableDevices; // 0x90
         public int m_DisconnectedDevicesCount; // 0x98
-        public UnityEngine.InputSystem.InputDevice[] m_DisconnectedDevices; // 0xA0
-        public 0x664AEA20 m_UpdateMask; // 0xA8
-        public 0x664AEA20 m_CurrentUpdate; // 0xAC
-        public UnityEngine.InputSystem.LowLevel.InputStateBuffers m_StateBuffers; // 0xB0
-        public 0x664A90C0 m_ScrollDeltaBehavior; // 0xE8
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`2<UnityEngine.InputSystem.InputDevice,0x664A7AC0>> m_DeviceChangeListeners; // 0xF0
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`2<UnityEngine.InputSystem.InputDevice,UnityEngine.InputSystem.LowLevel.InputEventPtr>> m_DeviceStateChangeListeners; // 0x140
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<UnityEngine.InputSystem.Layouts.InputDeviceFindControlLayoutDelegate> m_DeviceFindLayoutCallbacks; // 0x190
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<UnityEngine.InputSystem.LowLevel.InputDeviceCommandDelegate> m_DeviceCommandCallbacks; // 0x1E0
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`2<string,0x664A7490>> m_LayoutChangeListeners; // 0x230
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`2<UnityEngine.InputSystem.LowLevel.InputEventPtr,UnityEngine.InputSystem.InputDevice>> m_EventListeners; // 0x280
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action> m_BeforeUpdateListeners; // 0x2D0
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action> m_AfterUpdateListeners; // 0x320
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action> m_SettingsChangedListeners; // 0x370
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action> m_ActionsChangedListeners; // 0x3C0
+        public ilAddress.ActionProperty[] m_DisconnectedDevices; // 0xA0
+        public Device.tClick m_UpdateMask; // 0xA8
+        public Device.tClick m_CurrentUpdate; // 0xAC
+        public Device.ed m_StateBuffers; // 0xB0
+        public trlTouchscreentouch0touchId m_ScrollDeltaBehavior; // 0xE8
+        public 2.Enabled<rectoryInformation<ilAddress.ActionProperty,ilAddress.Index>> m_DeviceChangeListeners; // 0xF0
+        public 2.Enabled<rectoryInformation<ilAddress.ActionProperty,Device.ckingField>> m_DeviceStateChangeListeners; // 0x140
+        public 2.Enabled<criptorSizeDeviceCommandType.?> m_DeviceFindLayoutCallbacks; // 0x190
+        public 2.Enabled<Device.tHandle> m_DeviceCommandCallbacks; // 0x1E0
+        public 2.Enabled<rectoryInformation<string,ilAddress.n>> m_LayoutChangeListeners; // 0x230
+        public 2.Enabled<rectoryInformation<Device.ckingField,ilAddress.ActionProperty>> m_EventListeners; // 0x280
+        public 2.Enabled<ÎÌÍÏÏÌÍÏ> m_BeforeUpdateListeners; // 0x2D0
+        public 2.Enabled<ÎÌÍÏÏÌÍÏ> m_AfterUpdateListeners; // 0x320
+        public 2.Enabled<ÎÌÍÏÏÌÍÏ> m_SettingsChangedListeners; // 0x370
+        public 2.Enabled<ÎÌÍÏÏÌÍÏ> m_ActionsChangedListeners; // 0x3C0
         public bool m_NativeBeforeUpdateHooked; // 0x410
         public bool m_HaveDevicesWithStateCallbackReceivers; // 0x411
         public bool m_HasFocus; // 0x412
-        public UnityEngine.InputSystem.LowLevel.InputEventStream m_InputEventStream; // 0x418
-        public 0x664ACDF0 m_DeviceFindExecuteCommandDelegate; // 0x490
+        public Device.DeviceOrientation m_InputEventStream; // 0x418
+        public Device.? m_DeviceFindExecuteCommandDelegate; // 0x490
         public int m_DeviceFindExecuteCommandDeviceId; // 0x498
-        public UnityEngine.InputSystem.LowLevel.IInputRuntime m_Runtime; // 0x4A0
-        public UnityEngine.InputSystem.LowLevel.InputMetrics m_Metrics; // 0x4A8
-        public UnityEngine.InputSystem.InputSettings m_Settings; // 0x4E0
+        public Device.tion m_Runtime; // 0x4A0
+        public Device.iPlayerRoot m_Metrics; // 0x4A8
+        public ilAddress.itialize_ctrlTouchscreendelta m_Settings; // 0x4E0
         public bool m_OptimizedControlsFeatureEnabled; // 0x4E8
         public bool m_ReadValueCachingFeatureEnabled; // 0x4E9
         public bool m_ParanoidReadValueCachingChecksEnabled; // 0x4EA
-        public UnityEngine.InputSystem.InputActionAsset m_Actions; // 0x4F0
+        public ilAddress.adLength m_Actions; // 0x4F0
         public bool m_ShouldMakeCurrentlyUpdatingDeviceCurrent; // 0x4F8
-        public StateChangeMonitorsForDevice[] m_StateChangeMonitors; // 0x500
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<StateChangeMonitorTimeout> m_StateChangeMonitorTimeouts; // 0x508
+        public lMousescrollleft[] m_StateChangeMonitors; // 0x500
+        public 2.and<crollup> m_StateChangeMonitorTimeouts; // 0x508
 
         // ── Methods ──
         public void get_devices(){} // RVA: 0x7FFD54A2A1D0
@@ -1990,7 +1990,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputProcessor : Object
     {
-        public UnityEngine.InputSystem.Utilities.TypeTable cachingPolicy;
+        public 2.erSize cachingPolicy;
 
         // ── Methods ──
         public void ProcessAsObject(){} // RVA: 0x7FFD4E08A6F0
@@ -2010,10 +2010,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputRemoting : Object
     {
-        public 0x664A7F90 sending; // 0x10
-        public UnityEngine.InputSystem.InputManager manager; // 0x18
-        public 0x664A8098[] m_Subscribers; // 0x20
-        public 0x664A7FE8[] m_Senders; // 0x28
+        public tf32 sending; // 0x10
+        public ilAddress.scape manager; // 0x18
+        public ?[] m_Subscribers; // 0x20
+        public git1Key[] m_Senders; // 0x28
 
         // ── Methods ──
         public void get_sending(){} // RVA: 0x7FFD54A20820
@@ -2047,14 +2047,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     public class InputSettings : ScriptableObject
     {
         public string[] updateMode; // 0x18
-        public 0x664A9068 scrollDeltaBehavior; // 0x20
-        public 0x664A90C0 compensateForScreenOrientation; // 0x24
+        public _6 scrollDeltaBehavior; // 0x20
+        public trlTouchscreentouch0touchId compensateForScreenOrientation; // 0x24
         public int filterNoiseOnCurrent; // 0x28
         public int defaultDeadzoneMin; // 0x2C
         public bool defaultDeadzoneMax; // 0x30
-        public 0x664A9118 defaultButtonPressPoint; // 0x34
-        public 0x664A9170 buttonReleaseThreshold; // 0x38
-        public 0x664A91C8 defaultTapTime; // 0x3C
+        public ze_ctrlTouchscreentouch0delta defaultButtonPressPoint; // 0x34
+        public reentouch0radius buttonReleaseThreshold; // 0x38
+        public tialize_ctrlTouchscreentouch0displayIndex defaultTapTime; // 0x3C
         public float defaultSlowTapTime; // 0x40
         public float defaultHoldTime; // 0x44
         public float tapRadius; // 0x48
@@ -2066,7 +2066,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public float maxQueuedEventsPerUpdate; // 0x60
         public bool supportedDevices; // 0x64
         public bool disableRedundantEventsMerging; // 0x65
-        public System.Collections.Generic.HashSet`1<string> shortcutKeysConsumeInput; // 0x68
+        public URA.onsDepth<string> shortcutKeysConsumeInput; // 0x68
         public int s_OldUnsupportedFixedAndDynamicUpdateSetting;
 
         // ── Methods ──
@@ -2126,10 +2126,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     {
         public string devices;
         public string disconnectedDevices;
-        public Unity.Profiling.ProfilerMarker pollingFrequency;
+        public object pollingFrequency;
         public float isProcessingEvents;
-        public UnityEngine.InputSystem.InputManager onEvent; // 0x8
-        public UnityEngine.InputSystem.InputRemoting onAnyButtonPress; // 0x10
+        public ilAddress.scape onEvent; // 0x8
+        public ilAddress.t_imeSelected onAnyButtonPress; // 0x10
 
         // ── Methods ──
         public void add_onLayoutChange(){} // RVA: 0x7FFD5499B380
@@ -2226,7 +2226,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputValue : Object
     {
-        public System.Nullable`1<CallbackContext> isPressed; // 0x10
+        public aphy<et> isPressed; // 0x10
 
         // ── Methods ──
         public void Get(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -2236,13 +2236,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Joystick : InputDevice
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl trigger; // 0x190
-        public UnityEngine.InputSystem.Controls.StickControl stick; // 0x198
-        public UnityEngine.InputSystem.Controls.AxisControl twist; // 0x1A0
-        public UnityEngine.InputSystem.Controls.Vector2Control hatswitch; // 0x1A8
-        public UnityEngine.InputSystem.Joystick current;
+        public _1.ceControlChangedValue trigger; // 0x190
+        public _1.ftTriggerButton>k__BackingField stick; // 0x198
+        public _1.Index twist; // 0x1A0
+        public _1.lSenseHIDUSBInputReport hatswitch; // 0x1A8
+        public ilAddress.yEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyTimerExpired current;
         public int all; // 0x8
-        public UnityEngine.InputSystem.Joystick[] s_Joysticks; // 0x10
+        public ilAddress.yEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyTimerExpired[] s_Joysticks; // 0x10
 
         // ── Methods ──
         public void get_trigger(){} // RVA: 0x7FFD4E960F60
@@ -2267,16 +2267,16 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     {
         public int keyboardLayout;
         public int anyKey;
-        public UnityEngine.InputSystem.Controls.AnyKeyControl spaceKey; // 0x190
-        public UnityEngine.InputSystem.Controls.ButtonControl enterKey; // 0x198
-        public UnityEngine.InputSystem.Controls.ButtonControl tabKey; // 0x1A0
-        public UnityEngine.InputSystem.Controls.ButtonControl backquoteKey; // 0x1A8
-        public UnityEngine.InputSystem.Controls.ButtonControl quoteKey; // 0x1B0
-        public UnityEngine.InputSystem.Keyboard semicolonKey;
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<char>> commaKey; // 0x1B8
+        public _1.setState>b__80_1 spaceKey; // 0x190
+        public _1.ceControlChangedValue enterKey; // 0x198
+        public _1.ceControlChangedValue tabKey; // 0x1A0
+        public _1.ceControlChangedValue backquoteKey; // 0x1A8
+        public _1.ceControlChangedValue quoteKey; // 0x1B0
+        public ilAddress.? semicolonKey;
+        public 2.and<ileFullDirectoryInformation<char>> commaKey; // 0x1B8
         public string periodKey; // 0x1D0
-        public UnityEngine.InputSystem.Controls.KeyControl[] slashKey; // 0x1D8
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<0x664AE1E0>> backslashKey; // 0x1E0
+        public _1.set_leftTriggerButton[] slashKey; // 0x1D8
+        public 2.and<ileFullDirectoryInformation<Device.ings>> backslashKey; // 0x1E0
 
         // ── Methods ──
         public void add_onTextInput(){} // RVA: 0x7FFD549B4B30
@@ -2444,8 +2444,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class LightSensor : Sensor
     {
-        public UnityEngine.InputSystem.Controls.AxisControl lightLevel; // 0x190
-        public UnityEngine.InputSystem.LightSensor current;
+        public _1.Index lightLevel; // 0x190
+        public ilAddress.utton current;
 
         // ── Methods ──
         public void get_lightLevel(){} // RVA: 0x7FFD4E960F60
@@ -2460,8 +2460,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class LinearAccelerationSensor : Sensor
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control acceleration; // 0x190
-        public UnityEngine.InputSystem.LinearAccelerationSensor current;
+        public _1.utReport acceleration; // 0x190
+        public ilAddress.croll current;
 
         // ── Methods ──
         public void get_acceleration(){} // RVA: 0x7FFD4E960F60
@@ -2476,8 +2476,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class MagneticFieldSensor : Sensor
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control magneticField; // 0x190
-        public UnityEngine.InputSystem.MagneticFieldSensor current;
+        public _1.utReport magneticField; // 0x190
+        public ilAddress.leftButton current;
 
         // ── Methods ──
         public void get_magneticField(){} // RVA: 0x7FFD4E960F60
@@ -2492,15 +2492,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Mouse : Pointer
     {
-        public UnityEngine.InputSystem.Controls.DeltaControl scroll; // 0x1C0
-        public UnityEngine.InputSystem.Controls.ButtonControl leftButton; // 0x1C8
-        public UnityEngine.InputSystem.Controls.ButtonControl middleButton; // 0x1D0
-        public UnityEngine.InputSystem.Controls.ButtonControl rightButton; // 0x1D8
-        public UnityEngine.InputSystem.Controls.ButtonControl backButton; // 0x1E0
-        public UnityEngine.InputSystem.Controls.ButtonControl forwardButton; // 0x1E8
-        public UnityEngine.InputSystem.Controls.IntegerControl clickCount; // 0x1F0
-        public UnityEngine.InputSystem.Mouse current;
-        public UnityEngine.InputSystem.Mouse s_PlatformMouseDevice; // 0x8
+        public _1.get_L3 scroll; // 0x1C0
+        public _1.ceControlChangedValue leftButton; // 0x1C8
+        public _1.ceControlChangedValue middleButton; // 0x1D0
+        public _1.ceControlChangedValue rightButton; // 0x1D8
+        public _1.ceControlChangedValue backButton; // 0x1E0
+        public _1.ceControlChangedValue forwardButton; // 0x1E8
+        public _1.tTriggerButton clickCount; // 0x1F0
+        public ilAddress.ÏÏÌÍÏÍÌÍ current;
+        public ilAddress.ÏÏÌÍÏÍÌÍ s_PlatformMouseDevice; // 0x8
 
         // ── Methods ──
         public void get_scroll(){} // RVA: 0x7FFD4E9622B0
@@ -2533,16 +2533,16 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Pen : Pointer
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl tip; // 0x1C0
-        public UnityEngine.InputSystem.Controls.ButtonControl eraser; // 0x1C8
-        public UnityEngine.InputSystem.Controls.ButtonControl firstBarrelButton; // 0x1D0
-        public UnityEngine.InputSystem.Controls.ButtonControl secondBarrelButton; // 0x1D8
-        public UnityEngine.InputSystem.Controls.ButtonControl thirdBarrelButton; // 0x1E0
-        public UnityEngine.InputSystem.Controls.ButtonControl fourthBarrelButton; // 0x1E8
-        public UnityEngine.InputSystem.Controls.ButtonControl inRange; // 0x1F0
-        public UnityEngine.InputSystem.Controls.Vector2Control tilt; // 0x1F8
-        public UnityEngine.InputSystem.Controls.AxisControl twist; // 0x200
-        public UnityEngine.InputSystem.Pen current;
+        public _1.ceControlChangedValue tip; // 0x1C0
+        public _1.ceControlChangedValue eraser; // 0x1C8
+        public _1.ceControlChangedValue firstBarrelButton; // 0x1D0
+        public _1.ceControlChangedValue secondBarrelButton; // 0x1D8
+        public _1.ceControlChangedValue thirdBarrelButton; // 0x1E0
+        public _1.ceControlChangedValue fourthBarrelButton; // 0x1E8
+        public _1.ceControlChangedValue inRange; // 0x1F0
+        public _1.lSenseHIDUSBInputReport tilt; // 0x1F8
+        public _1.Index twist; // 0x200
+        public ilAddress.med current;
 
         // ── Methods ──
         public void get_tip(){} // RVA: 0x7FFD4E9622B0
@@ -2578,41 +2578,41 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public string active;
         public string playerIndex;
         public int splitScreenIndex; // 0x20
-        public UnityEngine.InputSystem.InputActionAsset actions; // 0x28
-        public 0x664A97A0 currentControlScheme; // 0x30
-        public UnityEngine.InputSystem.UI.InputSystemUIInputModule defaultControlScheme; // 0x38
-        public 0x664A94E0 neverAutoSwitchControlSchemes; // 0x40
-        public 0x664A9538 currentActionMap; // 0x48
-        public 0x664A9590 defaultActionMap; // 0x50
-        public 0x664A9488[] notificationBehavior; // 0x58
+        public ilAddress.adLength actions; // 0x28
+        public ilAddress.e_ctrlTouchscreentouch5positiony currentControlScheme; // 0x30
+        public gControlLayout.eString defaultControlScheme; // 0x38
+        public Touchscreentouch4pressure neverAutoSwitchControlSchemes; // 0x40
+        public 4pressure currentActionMap; // 0x48
+        public _ctrlTouchscreentouch4radius defaultActionMap; // 0x50
+        public creentouch4position[] notificationBehavior; // 0x58
         public bool actionEvents; // 0x60
         public string deviceLostEvent; // 0x68
         public string deviceRegainedEvent; // 0x70
         public int controlsChangedEvent; // 0x78
-        public UnityEngine.Camera camera; // 0x80
-        public UnityEngine.InputSystem.InputValue uiInputModule; // 0x88
-        public UnityEngine.InputSystem.InputActionMap user; // 0x90
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ camera; // 0x80
+        public ilAddress.ize_ctrlTouchscreentouch1tap uiInputModule; // 0x88
+        public ilAddress.epAliveInterval user; // 0x90
         public int devices; // 0x98
         public bool hasMissingRequiredDevices; // 0x9C
         public bool all; // 0x9D
         public bool isSinglePlayer; // 0x9E
-        public System.Collections.Generic.Dictionary`2<string,string> m_ActionMessageNames; // 0xA0
-        public UnityEngine.InputSystem.Users.InputUser m_InputUser; // 0xA8
-        public System.Action`1<CallbackContext> m_ActionTriggeredDelegate; // 0xB0
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.PlayerInput>> m_DeviceLostCallbacks; // 0xB8
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.PlayerInput>> m_DeviceRegainedCallbacks; // 0x108
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.PlayerInput>> m_ControlsChangedCallbacks; // 0x158
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<CallbackContext>> m_ActionTriggeredCallbacks; // 0x1A8
-        public System.Action`2<UnityEngine.InputSystem.InputControl,UnityEngine.InputSystem.LowLevel.InputEventPtr> m_UnpairedDeviceUsedDelegate; // 0x1F8
-        public System.Func`3<UnityEngine.InputSystem.InputDevice,UnityEngine.InputSystem.LowLevel.InputEventPtr,bool> m_PreFilterUnpairedDeviceUsedDelegate; // 0x200
+        public URA.DateTime<string,string> m_ActionMessageNames; // 0xA0
+        public SendDevice.llDevices m_InputUser; // 0xA8
+        public ileFullDirectoryInformation<et> m_ActionTriggeredDelegate; // 0xB0
+        public 2.Enabled<ileFullDirectoryInformation<ilAddress.chscreentouch1tap>> m_DeviceLostCallbacks; // 0xB8
+        public 2.Enabled<ileFullDirectoryInformation<ilAddress.chscreentouch1tap>> m_DeviceRegainedCallbacks; // 0x108
+        public 2.Enabled<ileFullDirectoryInformation<ilAddress.chscreentouch1tap>> m_ControlsChangedCallbacks; // 0x158
+        public 2.Enabled<ileFullDirectoryInformation<et>> m_ActionTriggeredCallbacks; // 0x1A8
+        public rectoryInformation<ilAddress.ressedThisFrame,Device.ckingField> m_UnpairedDeviceUsedDelegate; // 0x1F8
+        public nalInformation<ilAddress.ActionProperty,Device.ckingField,bool> m_PreFilterUnpairedDeviceUsedDelegate; // 0x200
         public bool m_OnUnpairedDeviceUsedHooked; // 0x208
-        public System.Action`2<UnityEngine.InputSystem.InputDevice,0x664A7AC0> m_DeviceChangeDelegate; // 0x210
+        public rectoryInformation<ilAddress.ActionProperty,ilAddress.Index> m_DeviceChangeDelegate; // 0x210
         public bool m_OnDeviceChangeHooked; // 0x218
         public int s_AllActivePlayersCount;
-        public UnityEngine.InputSystem.PlayerInput[] s_AllActivePlayers; // 0x8
-        public System.Action`3<UnityEngine.InputSystem.Users.InputUser,0x664AA8D0,UnityEngine.InputSystem.InputDevice> s_UserChangeDelegate; // 0x10
+        public ilAddress.chscreentouch1tap[] s_AllActivePlayers; // 0x8
+        public formation<SendDevice.llDevices,SendDevice.mDeviceReset.Reset,ilAddress.ActionProperty> s_UserChangeDelegate; // 0x10
         public int s_InitPairWithDevicesCount; // 0x18
-        public UnityEngine.InputSystem.InputDevice[] s_InitPairWithDevices; // 0x20
+        public ilAddress.ActionProperty[] s_InitPairWithDevices; // 0x20
         public int s_InitPlayerIndex; // 0x28
         public int s_InitSplitScreenIndex; // 0x2C
         public string s_InitControlScheme; // 0x30
@@ -2706,25 +2706,25 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     {
         public string splitScreen;
         public string maintainAspectRatioInSplitScreen;
-        public UnityEngine.InputSystem.PlayerInputManager fixedNumberOfSplitScreens;
-        public 0x664A97A0 splitScreenArea; // 0x20
+        public ilAddress.4radius fixedNumberOfSplitScreens;
+        public ilAddress.e_ctrlTouchscreentouch5positiony splitScreenArea; // 0x20
         public int playerCount; // 0x24
         public bool maxPlayerCount; // 0x28
-        public 0x664A9748 joiningEnabled; // 0x2C
-        public 0x664A9640 joinBehavior; // 0x30
-        public 0x664A9698 joinAction; // 0x38
-        public UnityEngine.InputSystem.InputActionProperty notificationBehavior; // 0x40
-        public UnityEngine.GameObject playerJoinedEvent; // 0x58
+        public ilAddress.startTime joiningEnabled; // 0x2C
+        public p joinBehavior; // 0x30
+        public ouchscreentouch5startTime joinAction; // 0x38
+        public ilAddress.Providers notificationBehavior; // 0x40
+        public BuffersImpl playerJoinedEvent; // 0x58
         public bool playerLeftEvent; // 0x60
         public bool playerPrefab; // 0x61
         public int instance; // 0x64
-        public UnityEngine.Rect messages; // 0x68
+        public dRecorder messages; // 0x68
         public bool m_JoinActionDelegateHooked; // 0x78
         public bool m_UnpairedDeviceUsedDelegateHooked; // 0x79
-        public System.Action`1<CallbackContext> m_JoinActionDelegate; // 0x80
-        public System.Action`2<UnityEngine.InputSystem.InputControl,UnityEngine.InputSystem.LowLevel.InputEventPtr> m_UnpairedDeviceUsedDelegate; // 0x88
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.PlayerInput>> m_PlayerJoinedCallbacks; // 0x90
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.PlayerInput>> m_PlayerLeftCallbacks; // 0xE0
+        public ileFullDirectoryInformation<et> m_JoinActionDelegate; // 0x80
+        public rectoryInformation<ilAddress.ressedThisFrame,Device.ckingField> m_UnpairedDeviceUsedDelegate; // 0x88
+        public 2.Enabled<ileFullDirectoryInformation<ilAddress.chscreentouch1tap>> m_PlayerJoinedCallbacks; // 0x90
+        public 2.Enabled<ileFullDirectoryInformation<ilAddress.chscreentouch1tap>> m_PlayerLeftCallbacks; // 0xE0
 
         // ── Methods ──
         public void get_splitScreen(){} // RVA: 0x7FFD4E36A020
@@ -2772,13 +2772,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Pointer : InputDevice
     {
-        public UnityEngine.InputSystem.Controls.Vector2Control position; // 0x190
-        public UnityEngine.InputSystem.Controls.DeltaControl delta; // 0x198
-        public UnityEngine.InputSystem.Controls.Vector2Control radius; // 0x1A0
-        public UnityEngine.InputSystem.Controls.AxisControl pressure; // 0x1A8
-        public UnityEngine.InputSystem.Controls.ButtonControl press; // 0x1B0
-        public UnityEngine.InputSystem.Controls.IntegerControl displayIndex; // 0x1B8
-        public UnityEngine.InputSystem.Pointer current;
+        public _1.lSenseHIDUSBInputReport position; // 0x190
+        public _1.get_L3 delta; // 0x198
+        public _1.lSenseHIDUSBInputReport radius; // 0x1A0
+        public _1.Index pressure; // 0x1A8
+        public _1.ceControlChangedValue press; // 0x1B0
+        public _1.tTriggerButton displayIndex; // 0x1B8
+        public ilAddress.7680D2C6B73ABF19738EF5186 current;
 
         // ── Methods ──
         public void get_position(){} // RVA: 0x7FFD4E960F60
@@ -2808,8 +2808,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class PressureSensor : Sensor
     {
-        public UnityEngine.InputSystem.Controls.AxisControl atmosphericPressure; // 0x190
-        public UnityEngine.InputSystem.PressureSensor current;
+        public _1.Index atmosphericPressure; // 0x190
+        public ilAddress.Event current;
 
         // ── Methods ──
         public void get_atmosphericPressure(){} // RVA: 0x7FFD4E960F60
@@ -2824,15 +2824,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class RemoteInputPlayerConnection : ScriptableObject
     {
-        public System.Guid kNewDeviceMsg;
-        public System.Guid kNewLayoutMsg; // 0x10
-        public System.Guid kNewEventsMsg; // 0x20
-        public System.Guid kRemoveDeviceMsg; // 0x30
-        public System.Guid kChangeUsagesMsg; // 0x40
-        public System.Guid kStartSendingMsg; // 0x50
-        public System.Guid kStopSendingMsg; // 0x60
-        public UnityEngine.Networking.PlayerConnection.IEditorPlayerConnection m_Connection; // 0x18
-        public 0x664A8618[] m_Subscribers; // 0x20
+        public ce kNewDeviceMsg;
+        public ce kNewLayoutMsg; // 0x10
+        public ce kNewEventsMsg; // 0x20
+        public ce kRemoveDeviceMsg; // 0x30
+        public ce kChangeUsagesMsg; // 0x40
+        public ce kStartSendingMsg; // 0x50
+        public ce kStopSendingMsg; // 0x60
+        public e.eviceID m_Connection; // 0x18
+        public ?[] m_Subscribers; // 0x20
         public int[] m_ConnectedIds; // 0x28
 
         // ── Methods ──
@@ -2867,8 +2867,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class StepCounter : Sensor
     {
-        public UnityEngine.InputSystem.Controls.IntegerControl stepCounter; // 0x190
-        public UnityEngine.InputSystem.StepCounter current;
+        public _1.tTriggerButton stepCounter; // 0x190
+        public ilAddress.lFirst current;
 
         // ── Methods ──
         public void get_stepCounter(){} // RVA: 0x7FFD4E960F60
@@ -2883,11 +2883,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Touchscreen : Pointer
     {
-        public UnityEngine.InputSystem.Controls.TouchControl primaryTouch; // 0x1C0
-        public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Controls.TouchControl> touches; // 0x1C8
-        public Unity.Profiling.ProfilerMarker touchControlArray;
-        public Unity.Profiling.ProfilerMarker current; // 0x8
-        public UnityEngine.InputSystem.Touchscreen <current>k__BackingField; // 0x10
+        public _1.? primaryTouch; // 0x1C0
+        public 2.ntReadPos<_1.?> touches; // 0x1C8
+        public object touchControlArray;
+        public object current; // 0x8
+        public ilAddress.rstBarrelButton <current>k__BackingField; // 0x10
         public float s_TapTime; // 0x18
         public float s_TapDelayTime; // 0x1C
         public float s_TapRadiusSquared; // 0x20
@@ -2919,10 +2919,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class TrackedDevice : InputDevice
     {
-        public UnityEngine.InputSystem.Controls.IntegerControl trackingState; // 0x190
-        public UnityEngine.InputSystem.Controls.ButtonControl isTracked; // 0x198
-        public UnityEngine.InputSystem.Controls.Vector3Control devicePosition; // 0x1A0
-        public UnityEngine.InputSystem.Controls.QuaternionControl deviceRotation; // 0x1A8
+        public _1.tTriggerButton trackingState; // 0x190
+        public _1.ceControlChangedValue isTracked; // 0x198
+        public _1.utReport devicePosition; // 0x1A0
+        public _1.? deviceRotation; // 0x1A8
 
         // ── Methods ──
         public void get_trackingState(){} // RVA: 0x7FFD4E960F60

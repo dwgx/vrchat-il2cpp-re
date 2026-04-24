@@ -7,7 +7,7 @@ namespace VRC.UI.Dev
 {
     public class EditorFragmentDataState : ScriptableObject
     {
-        public UnityEngine.ScriptableObject data; // 0x18
+        public ge data; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0

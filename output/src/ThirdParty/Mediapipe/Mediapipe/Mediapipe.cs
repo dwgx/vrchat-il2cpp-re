@@ -7,7 +7,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class BadStatusException : Exception
     {
-        public 0x6656F9B0 statusCode; // 0x90
+        public etBestGrabbingType.ÎÏÏÍÎÎÏÌÎÌÏÏÍÍÌÌÌÏÏÌÏ statusCode; // 0x90
 
         // ── Methods ──
         public void set_statusCode(){} // RVA: 0x7FFD4E8F2750
@@ -37,9 +37,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.CalculatorOptions> _Extensions;
-        public 0x6658E800 Parser; // 0x10
-        public Google.Protobuf.ExtensionSet`1<Mediapipe.CalculatorOptions> Descriptor; // 0x18
+        public gBox.itionBlend<etBestGrabbingType.?> _Extensions;
+        public gBox.ra Parser; // 0x10
+        public gBox.centerTarget<etBestGrabbingType.?> Descriptor; // 0x18
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x20
         public bool MergeFields; // 0x8
         public bool HasMergeFields; // 0x24
@@ -73,7 +73,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536A9A30
@@ -82,8 +82,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Classification : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Classification> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<etBestGrabbingType.nes_35> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
         public int Index;
         public int HasIndex; // 0x8
@@ -133,20 +133,20 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Detection : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Detection> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<etBestGrabbingType.d_GazeOn> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
         public int Label;
-        public Google.Protobuf.FieldCodec`1<string> LabelId; // 0x8
-        public Google.Protobuf.Collections.RepeatedField`1<string> Score; // 0x20
+        public gBox.PathNoRoll<string> LabelId; // 0x8
+        public r>k__BackingField.resentations<string> Score; // 0x20
         public int LocationData;
-        public Google.Protobuf.FieldCodec`1<int> FeatureTag; // 0x10
-        public Google.Protobuf.Collections.RepeatedField`1<int> HasFeatureTag; // 0x28
+        public gBox.PathNoRoll<int> FeatureTag; // 0x10
+        public r>k__BackingField.resentations<int> HasFeatureTag; // 0x28
         public int TrackId;
-        public Google.Protobuf.FieldCodec`1<float> HasTrackId; // 0x18
-        public Google.Protobuf.Collections.RepeatedField`1<float> DetectionId; // 0x30
+        public gBox.PathNoRoll<float> HasTrackId; // 0x18
+        public r>k__BackingField.resentations<float> DetectionId; // 0x30
         public int HasDetectionId;
-        public Mediapipe.LocationData AssociatedDetections; // 0x38
+        public etBestGrabbingType.Size=11893 AssociatedDetections; // 0x38
         public int DisplayName;
         public string TimestampUsec; // 0x20
         public string HasTimestampUsec; // 0x40
@@ -157,11 +157,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
         public long DetectionIdDefaultValue; // 0x30
         public long detectionId_; // 0x50
         public int AssociatedDetectionsFieldNumber;
-        public Google.Protobuf.FieldCodec`1<0x66572030> _repeated_associatedDetections_codec; // 0x38
-        public Google.Protobuf.Collections.RepeatedField`1<0x66572030> associatedDetections_; // 0x58
+        public gBox.PathNoRoll<sCode>k__BackingField> _repeated_associatedDetections_codec; // 0x38
+        public r>k__BackingField.resentations<sCode>k__BackingField> associatedDetections_; // 0x58
         public int DisplayNameFieldNumber;
-        public Google.Protobuf.FieldCodec`1<string> _repeated_displayName_codec; // 0x40
-        public Google.Protobuf.Collections.RepeatedField`1<string> displayName_; // 0x60
+        public gBox.PathNoRoll<string> _repeated_displayName_codec; // 0x40
+        public r>k__BackingField.resentations<string> displayName_; // 0x60
         public int TimestampUsecFieldNumber;
         public long TimestampUsecDefaultValue; // 0x48
         public long timestampUsec_; // 0x68
@@ -231,7 +231,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class FaceDetectionReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536E6830
@@ -240,7 +240,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class FlowLimiterCalculatorReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD53697820
@@ -258,7 +258,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlContext : MpResourceHandle
     {
-        public Mediapipe.SharedPtrHandle _sharedPtrHandle; // 0x20
+        public etBestGrabbingType.DistanceNoItem _sharedPtrHandle; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD536924B0
@@ -268,7 +268,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlSyncPoint : MpResourceHandle
     {
-        public Mediapipe.SharedPtrHandle _sharedPtrHandle; // 0x20
+        public etBestGrabbingType.DistanceNoItem _sharedPtrHandle; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD536927C0
@@ -285,8 +285,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2 : Object
     {
-        public 0x66559068 maxSize;
-        public System.Collections.Generic.Dictionary`2<T,System.WeakReference`1<T>> _table;
+        public sageKind.ce maxSize;
+        public URA.DateTime<T1717692208,numValuesAndNames<T1717692224>> _table;
         public int _maxSize;
 
         // ── Methods ──
@@ -327,8 +327,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GpuOrigin : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.GpuOrigin> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<etBestGrabbingType.otobuf__SetLogHandler__PF> Parser;
+        public gBox.ra Descriptor; // 0x10
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD536E61D0
@@ -349,7 +349,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GpuResources : MpResourceHandle
     {
-        public Mediapipe.SharedPtrHandle sharedPtr; // 0x20
+        public etBestGrabbingType.DistanceNoItem sharedPtr; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53692BC0
@@ -361,7 +361,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Image : MpResourceHandle
     {
-        public 0x6656F748 _VoidDeleter;
+        public ceRotation _VoidDeleter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5368D740 | overloaded x5
@@ -384,8 +384,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ImageFormat : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.ImageFormat> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<etBestGrabbingType.ÌÏÏÌÌÎÎÍÎÎÎÍÍÏ> Parser;
+        public gBox.ra Descriptor; // 0x10
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD536C6340
@@ -415,7 +415,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
     {
         public uint DefaultAlignmentBoundary;
         public uint GlDefaultAlignmentBoundary; // 0x4
-        public 0x6656F748 _VoidDeleter; // 0x8
+        public ceRotation _VoidDeleter; // 0x8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5368E4B0 | overloaded x4
@@ -433,7 +433,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InferenceCalculatorReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536990A0
@@ -448,8 +448,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Landmark : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Landmark> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<etBestGrabbingType.?> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
         public int X;
         public float HasX; // 0x8
@@ -512,21 +512,21 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LocationData : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.LocationData> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<etBestGrabbingType.Size=11893> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
         public int Format;
-        public 0x665728C8 HasFormat; // 0x8
-        public 0x665728C8 BoundingBox; // 0x1C
+        public BIT_LENGTH HasFormat; // 0x8
+        public BIT_LENGTH BoundingBox; // 0x1C
         public int RelativeBoundingBox;
-        public 0x66572978 Mask; // 0x20
+        public Step Mask; // 0x20
         public int RelativeKeypoints;
-        public 0x66572A28 relativeBoundingBox_; // 0x28
+        public PixelData relativeBoundingBox_; // 0x28
         public int MaskFieldNumber;
-        public 0x66572AD8 mask_; // 0x30
+        public ateProto mask_; // 0x30
         public int RelativeKeypointsFieldNumber;
-        public Google.Protobuf.FieldCodec`1<0x66572B88> _repeated_relativeKeypoints_codec; // 0x10
-        public Google.Protobuf.Collections.RepeatedField`1<0x66572B88> relativeKeypoints_; // 0x38
+        public gBox.PathNoRoll<tMap> _repeated_relativeKeypoints_codec; // 0x10
+        public r>k__BackingField.resentations<tMap> relativeKeypoints_; // 0x38
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD536CE8C0
@@ -558,17 +558,17 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MatrixData : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.MatrixData> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<etBestGrabbingType.exName> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
         public int Rows; // 0x8
         public int HasRows; // 0x1C
         public int Cols; // 0xC
         public int HasCols; // 0x20
-        public Google.Protobuf.FieldCodec`1<float> PackedData; // 0x10
-        public Google.Protobuf.Collections.RepeatedField`1<float> Layout; // 0x28
-        public 0x66572D40 HasLayout; // 0x18
-        public 0x66572D40 layout_; // 0x30
+        public gBox.PathNoRoll<float> PackedData; // 0x10
+        public r>k__BackingField.resentations<float> Layout; // 0x28
+        public UnderPointer HasLayout; // 0x18
+        public UnderPointer layout_; // 0x30
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD536D4C00
@@ -608,9 +608,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MediaPipeOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.MediaPipeOptions> _Extensions;
-        public 0x6658E800 Parser; // 0x10
-        public Google.Protobuf.ExtensionSet`1<Mediapipe.MediaPipeOptions> Descriptor; // 0x18
+        public gBox.itionBlend<etBestGrabbingType.lassifications> _Extensions;
+        public gBox.ra Parser; // 0x10
+        public gBox.centerTarget<etBestGrabbingType.lassifications> Descriptor; // 0x18
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -643,7 +643,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MediapipeOptionsReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536D8E20
@@ -768,9 +768,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketFactoryOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.PacketFactoryOptions> _Extensions;
-        public 0x6658E800 Parser; // 0x10
-        public Google.Protobuf.ExtensionSet`1<Mediapipe.PacketFactoryOptions> Descriptor; // 0x18
+        public gBox.itionBlend<etBestGrabbingType.nts> _Extensions;
+        public gBox.ra Parser; // 0x10
+        public gBox.centerTarget<etBestGrabbingType.nts> Descriptor; // 0x18
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -797,7 +797,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketFactoryReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536D9F50
@@ -806,9 +806,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketGeneratorOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.PacketGeneratorOptions> _Extensions;
-        public 0x6658E800 Parser; // 0x10
-        public Google.Protobuf.ExtensionSet`1<Mediapipe.PacketGeneratorOptions> Descriptor; // 0x18
+        public gBox.itionBlend<etBestGrabbingType.mp_ImageFrame__WidthStep> _Extensions;
+        public gBox.ra Parser; // 0x10
+        public gBox.centerTarget<etBestGrabbingType.mp_ImageFrame__WidthStep> Descriptor; // 0x18
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x20
         public bool MergeFields; // 0x8
         public bool HasMergeFields; // 0x24
@@ -842,7 +842,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketGeneratorReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536DDBC0
@@ -884,7 +884,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Protobuf : Object
     {
-        public 0x6656F3D8 DefaultLogHandler;
+        public ityMagic DefaultLogHandler;
 
         // ── Methods ──
         public void SetLogHandler(){} // RVA: 0x7FFD5368BB10
@@ -895,11 +895,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Rasterization : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Rasterization> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<etBestGrabbingType.?> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor;
-        public Google.Protobuf.FieldCodec`1<0x66571BB8> Interval; // 0x8
-        public Google.Protobuf.Collections.RepeatedField`1<0x66571BB8> interval_; // 0x18
+        public gBox.PathNoRoll<onvertFromUtc> Interval; // 0x8
+        public r>k__BackingField.resentations<onvertFromUtc> interval_; // 0x18
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD536BB3D0
@@ -921,8 +921,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Rect : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Rect> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<etBestGrabbingType.dRecorder> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
         public int XCenter; // 0x8
         public int HasXCenter; // 0x1C
@@ -981,9 +981,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
     public class ResourceManager : Object
     {
         public object _InitLock;
-        public Mediapipe.ResourceManager _Instance; // 0x8
-        public 0x66573C60 _pathResolver; // 0x10
-        public 0x66573D10 _resourceProvider; // 0x18
+        public etBestGrabbingType.OnSerializedAttribute _Instance; // 0x8
+        public Proto_At__PKc_PKc_i_ll _pathResolver; // 0x10
+        public tProtoMessageLite _resourceProvider; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD536E9B40
@@ -1050,8 +1050,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Status : MpResourceHandle
     {
-        public System.Nullable`1<bool> _ok; // 0x20
-        public System.Nullable`1<int> _rawCode; // 0x24
+        public aphy<bool> _ok; // 0x20
+        public aphy<int> _rawCode; // 0x24
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51B06D30
@@ -1066,7 +1066,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StatusArgs : ValueType
     {
-        public 0x6656F9B0 _code; // 0x10
+        public etBestGrabbingType.ÎÏÏÍÎÎÏÌÎÌÏÏÍÍÌÌÌÏÏÌÏ _code; // 0x10
         public UIntPtr _message; // 0x18
 
         // ── Methods ──
@@ -1079,7 +1079,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StatusHandlerReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536E1070
@@ -1096,7 +1096,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StreamHandlerReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536E2D40
@@ -1105,7 +1105,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class TensorsToDetectionsCalculatorReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536A1790
@@ -1120,7 +1120,7 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ThresholdingCalculatorReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public ate.ination Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD536A84E0

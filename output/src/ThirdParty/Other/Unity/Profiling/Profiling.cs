@@ -39,7 +39,7 @@ namespace ThirdParty.Other.Unity.Profiling
     public class ProfilerRecorder : ValueType
     {
         public ulong Valid; // 0x10
-        public 0x664D7378 LastValueAsDouble;
+        public ÍÍÌÏÍÎÍÏÍÏÌÏÍÌÍÌÎ LastValueAsDouble;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C6F330

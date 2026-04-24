@@ -71,7 +71,7 @@ namespace ThirdParty.Oculus.Oculus.Platform
     public class CAPI : Object
     {
         public string DLL_NAME;
-        public System.Text.UTF8Encoding nativeStringEncoding;
+        public em.MarkAborted.e nativeStringEncoding;
         public int VoipFilterBufferSize;
 
         // ── Methods ──
@@ -1274,12 +1274,12 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Callback : Object
     {
-        public System.Collections.Generic.Dictionary`2<ulong,Oculus.Platform.Request> requestIDsToRequests;
-        public System.Collections.Generic.Dictionary`2<!,RequestCallback> notificationCallbacks; // 0x8
+        public URA.DateTime<ulong,NextImage.?> requestIDsToRequests;
+        public URA.DateTime<ÏÏÍÍÌÌÎÍ,ld> notificationCallbacks; // 0x8
         public bool hasRegisteredRoomInviteNotificationHandler; // 0x10
-        public System.Collections.Generic.List`1<Oculus.Platform.Message> pendingRoomInviteNotifications; // 0x18
+        public URA.woDigitYearMax<NextImage.ÎÏÏÌÌÏÎÎÌÏÌÌÍÎ> pendingRoomInviteNotifications; // 0x18
         public bool hasRegisteredJoinIntentNotificationHandler; // 0x20
-        public Oculus.Platform.Message latestPendingJoinIntentNotifications; // 0x28
+        public NextImage.ÎÏÏÌÌÏÎÎÌÏÌÌÍÎ latestPendingJoinIntentNotifications; // 0x28
 
         // ── Methods ──
         public void SetNotificationCallback(){} // RVA: 0x7FFD53C3A2B0 | overloaded x2
@@ -1409,10 +1409,10 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message : Object
     {
-        public ! Type; // 0x10
+        public ÏÏÍÍÌÌÎÍ Type; // 0x10
         public ulong IsError; // 0x18
-        public Oculus.Platform.Models.Error RequestID; // 0x20
-        public 0x665B5630 HandleExtraMessageTypes;
+        public Full.ÍÎÎÍÏ RequestID; // 0x20
+        public ovr_ProductArray_GetSize HandleExtraMessageTypes;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C6C8A0
@@ -1513,7 +1513,7 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
-        public T Data;
+        public T1717704096 Data;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090BF0
@@ -1573,7 +1573,7 @@ namespace ThirdParty.Oculus.Oculus.Platform
         public string AppID; // 0x18
         public string MobileAppID; // 0x20
         public bool UseStandalonePlatform; // 0x28
-        public Oculus.Platform.PlatformSettings Instance;
+        public NextImage.SessionId_Native Instance;
 
         // ── Methods ──
         public void get_AppID(){} // RVA: 0x7FFD53C93A60
@@ -1589,7 +1589,7 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Request : Object
     {
-        public s RequestID; // 0x10
+        public object RequestID; // 0x10
         public ulong <RequestID>k__BackingField; // 0x18
 
         // ── Methods ──
@@ -1603,7 +1603,7 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Request`1 : Request
     {
-        public Callback<T> callback_;
+        public ?<T1717704112> callback_;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090BF0
@@ -1703,9 +1703,9 @@ namespace ThirdParty.Oculus.Oculus.Platform
     public class VoipAudioSourceHiLevel : MonoBehaviour
     {
         public int senderID; // 0x20
-        public UnityEngine.AudioSource audioSource; // 0x28
+        public t audioSource; // 0x28
         public float peakAmplitude; // 0x30
-        public Oculus.Platform.IVoipPCMSource pcmSource; // 0x38
+        public NextImage._LeaderboardEntry_GetExtraData pcmSource; // 0x38
         public int audioSystemPlaybackFrequency;
         public bool verboseLogging; // 0x4
 

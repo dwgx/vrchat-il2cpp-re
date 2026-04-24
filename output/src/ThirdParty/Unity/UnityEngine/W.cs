@@ -30,8 +30,8 @@ namespace ThirdParty.Unity.UnityEngine
         public string name; // 0x10
         public string isFrontFacing; // 0x18
         public int m_Flags; // 0x20
-        public ÍÍÍÎÏÌÎÍÌÌÍÌ m_Kind; // 0x24
-        public UnityEngine.Resolution[] m_Resolutions; // 0x28
+        public g`2 m_Kind; // 0x24
+        public ilter[] m_Resolutions; // 0x28
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD505F9A30

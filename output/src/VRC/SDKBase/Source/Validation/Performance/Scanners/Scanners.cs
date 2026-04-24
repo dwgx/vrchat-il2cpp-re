@@ -7,7 +7,7 @@ namespace VRC.SDKBase.Source.Validation.Performance.Scanners
 {
     public class PerformanceScannerPlaceholder : MonoBehaviour
     {
-        public System.Type type; // 0x20
+        public object type; // 0x20
         public string TypeInfo; // 0x28
 
         // ── Methods ──

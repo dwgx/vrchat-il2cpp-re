@@ -28,8 +28,6 @@ namespace VRC.Core.Services
 
     public class EventsService : Object
     {
-        public float ListCacheTime;
-
         // ── Methods ──
         public void GetEntry(){} // RVA: 0x7FFD57363180
         public void GetAllOwnersEvents(){} // RVA: 0x7FFD57363540

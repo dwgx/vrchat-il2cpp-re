@@ -7,7 +7,7 @@ namespace ThirdParty.Other.BlobHandles
 {
     public class BlobHandle : ValueType
     {
-        public byte* Pointer; // 0x10
+        public IntPtr Pointer; // 0x10
         public int Length; // 0x18
 
         // ── Methods ──
@@ -20,9 +20,9 @@ namespace ThirdParty.Other.BlobHandles
 
     public class BlobString : ValueType
     {
-        public System.Text.Encoding Encoding;
-        public Unity.Collections.NativeArray`1<byte> Bytes; // 0x10
-        public BlobHandles.BlobHandle Handle; // 0x20
+        public em.MarkAborted.ION_4_7 Encoding;
+        public ÍÎÏÎÎ.ÌÌ<byte> Bytes; // 0x10
+        public ellSize_Injected.InstallEvents>b__3_3 Handle; // 0x20
 
         // ── Methods ──
         public void get_Encoding(){} // RVA: 0x7FFD4FC0B940

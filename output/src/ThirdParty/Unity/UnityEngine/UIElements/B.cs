@@ -7,10 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Background : ValueType
     {
-        public UnityEngine.Texture2D texture; // 0x10
-        public UnityEngine.Sprite sprite; // 0x18
-        public UnityEngine.RenderTexture renderTexture; // 0x20
-        public UnityEngine.UIElements.VectorImage vectorImage; // 0x28
+        public object texture;
+        public object sprite;
+        public object renderTexture;
+        public object vectorImage;
 
         // ── Methods ──
         public void get_texture(){} // RVA: 0x7FFD505F9A30
@@ -35,9 +35,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BackgroundPosition : ValueType
     {
-        public 0x66482B28 keyword; // 0x10
-        public UnityEngine.UIElements.Length offset; // 0x14
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD515116B0 | overloaded x2
         public void Initial(){} // RVA: 0x7FFD54E9CD40
@@ -50,9 +47,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BackgroundRepeat : ValueType
     {
-        public 0x66482B80 x; // 0x10
-        public 0x66482B80 y; // 0x14
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E7F6D50
         public void Initial(){} // RVA: 0x7FFD54E9D650
@@ -65,9 +59,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BackgroundSize : ValueType
     {
-        public 0x66482BD8 sizeType; // 0x10
-        public UnityEngine.UIElements.Length x; // 0x14
-        public UnityEngine.UIElements.Length y; // 0x1C
+        public object sizeType;
+        public object x;
+        public object y;
 
         // ── Methods ──
         public void get_sizeType(){} // RVA: 0x7FFD543B3F90
@@ -87,7 +81,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
-        public System.Collections.Generic.List`1<V> m_Fields;
+        public URA.woDigitYearMax<T1717594592> m_Fields;
         public bool m_ShouldUpdateDisplay;
         public bool m_ForceUpdateDisplay;
         public int m_PropertyIndex;
@@ -121,7 +115,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
-        public 0x664852B0 m_Value; // 0x80
+        public ÎÏÌÎÎÎÌÌÌ.bledInHierarchy m_Value; // 0x80
 
         // ── Methods ──
         public void Init(){}
@@ -139,26 +133,26 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public string mixedValueLabel; // 0x30
         public string UnityEngine.UIElements.IEditableElement.editingStarted; // 0x38
         public string UnityEngine.UIElements.IEditableElement.editingEnded; // 0x40
-        public UnityEngine.PropertyName serializedPropertyCopyName; // 0x48
-        public UnityEngine.UIElements.CustomStyleProperty`1<float> s_LabelWidthRatioProperty; // 0x50
-        public UnityEngine.UIElements.CustomStyleProperty`1<float> s_LabelExtraPaddingProperty; // 0x58
-        public UnityEngine.UIElements.CustomStyleProperty`1<float> s_LabelBaseMinWidthProperty; // 0x60
-        public UnityEngine.UIElements.CustomStyleProperty`1<float> s_LabelExtraContextWidthProperty; // 0x68
+        public object serializedPropertyCopyName; // 0x48
+        public ÎÏÌÎÎÎÌÌÌ.ement<float> s_LabelWidthRatioProperty; // 0x50
+        public ÎÏÌÎÎÎÌÌÌ.ement<float> s_LabelExtraPaddingProperty; // 0x58
+        public ÎÏÌÎÎÎÌÌÌ.ement<float> s_LabelBaseMinWidthProperty; // 0x60
+        public ÎÏÌÎÎÎÌÌÌ.ement<float> s_LabelExtraContextWidthProperty; // 0x68
         public float m_LabelWidthRatio; // 0x3D8
         public float m_LabelExtraPadding; // 0x3DC
         public float m_LabelBaseMinWidth; // 0x3E0
         public float m_LabelExtraContextWidth; // 0x3E4
-        public UnityEngine.UIElements.VisualElement m_VisualInput; // 0x3E8
-        public System.Enum m_Value; // 0x3F0
-        public System.Func`2<System.Enum,System.Enum> onValidateValue; // 0x3F8
-        public 0x66477BD8 <labelElement>k__BackingField; // 0x400
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_VisualInput; // 0x3E8
+        public nformation m_Value; // 0x3F0
+        public n<nformation,nformation> onValidateValue; // 0x3F8
+        public ÎÏÌÎÎÎÌÌÌ.? <labelElement>k__BackingField; // 0x400
         public bool m_ShowMixedValue; // 0x408
-        public 0x66477BD8 m_MixedValueLabel; // 0x410
+        public ÎÏÌÎÎÎÌÌÌ.? m_MixedValueLabel; // 0x410
         public bool m_SkipValidation; // 0x418
-        public UnityEngine.UIElements.VisualElement m_CachedContextWidthElement; // 0x420
-        public UnityEngine.UIElements.VisualElement m_CachedInspectorElement; // 0x428
-        public System.Action <UnityEngine.UIElements.IEditableElement.editingStarted>k__BackingField; // 0x430
-        public System.Action <UnityEngine.UIElements.IEditableElement.editingEnded>k__BackingField; // 0x438
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_CachedContextWidthElement; // 0x420
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_CachedInspectorElement; // 0x428
+        public ÎÌÍÏÏÌÍÏ <UnityEngine.UIElements.IEditableElement.editingStarted>k__BackingField; // 0x430
+        public ÎÌÍÏÏÌÍÏ <UnityEngine.UIElements.IEditableElement.editingEnded>k__BackingField; // 0x438
 
         // ── Methods ──
         public void get_visualInput(){} // RVA: 0x7FFD530A2120
@@ -198,12 +192,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BasePopupField`2 : BaseField`1
     {
-        public System.Collections.Generic.List`1<T> textElement;
-        public UnityEngine.UIElements.TextElement choices;
-        public UnityEngine.UIElements.VisualElement m_ArrowElement;
-        public System.Func`2<T,string> m_FormatSelectedValueCallback;
-        public System.Func`2<T,string> m_FormatListItemCallback;
-        public System.Func`1<0x66476E18> createMenuCallback;
+        public URA.woDigitYearMax<T1717594720> textElement;
+        public ÎÏÌÎÎÎÌÌÌ.yle.get_minWidth choices;
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_ArrowElement;
+        public n<T1717594720,string> m_FormatSelectedValueCallback;
+        public n<T1717594720,string> m_FormatListItemCallback;
+        public ormation<ÎÏÌÎÎÎÌÌÌ.op> createMenuCallback;
         public string ussClassName;
         public string textUssClassName;
         public string arrowUssClassName;
@@ -230,20 +224,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseSlider`1 : BaseField`1
     {
-        public UnityEngine.UIElements.VisualElement dragContainer;
-        public UnityEngine.UIElements.VisualElement dragElement;
-        public UnityEngine.UIElements.VisualElement trackElement;
-        public UnityEngine.UIElements.VisualElement dragBorderElement;
-        public ` inputTextField;
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius dragContainer;
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius dragElement;
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius trackElement;
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius dragBorderElement;
+        public ÎÏÌÎÎÎÌÌÌ.on inputTextField;
         public bool lowValue;
-        public T highValue;
-        public T pageSize;
+        public T1717594768 highValue;
+        public T1717594768 pageSize;
         public float showInputField;
         public bool clamped;
         public bool clampedDragger;
-        public UnityEngine.UIElements.ClampedDragger`1<T> value;
-        public UnityEngine.Rect direction;
-        public 0x664753F8 inverted;
+        public ÎÏÌÎÎÎÌÌÌ.?<T1717594768> value;
+        public dRecorder direction;
+        public ÎÏÌÎÎÎÌÌÌ.? inverted;
         public bool m_Inverted;
         public string ussClassName;
         public string labelUssClassName;
@@ -326,13 +320,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseTreeViewController : CollectionViewController
     {
-        public System.Collections.Generic.Dictionary`2<int,0x66479B78> baseTreeView; // 0x30
-        public System.Collections.Generic.List`1<int> itemsSource; // 0x38
-        public System.Collections.Generic.List`1<0x66479BD0> m_ItemWrappers; // 0x40
-        public System.Collections.Generic.HashSet`1<int> m_TreeItemIdsWithItemWrappers; // 0x48
-        public System.Collections.Generic.List`1<0x66479BD0> m_WrapperInsertionList; // 0x50
-        public Unity.Profiling.ProfilerMarker K_ExpandItemByIndex;
-        public Unity.Profiling.ProfilerMarker k_CreateWrappers; // 0x8
+        public URA.DateTime<int,ÎÏÌÎÎÎÌÌÌ.rable> baseTreeView; // 0x30
+        public URA.woDigitYearMax<int> itemsSource; // 0x38
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.wAlternatingRowBackgrounds> m_ItemWrappers; // 0x40
+        public URA.onsDepth<int> m_TreeItemIdsWithItemWrappers; // 0x48
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.wAlternatingRowBackgrounds> m_WrapperInsertionList; // 0x50
+        public object K_ExpandItemByIndex;
+        public object k_CreateWrappers; // 0x8
 
         // ── Methods ──
         public void get_baseTreeView(){} // RVA: 0x7FFD54EA6040
@@ -376,7 +370,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
-        public UxmlTraits uxmlName; // 0x10
+        public leScroll<T1717595216> uxmlName; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -398,40 +392,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseVerticalCollectionView : BindableElement
     {
-        public Unity.Profiling.ProfilerMarker itemsSource;
-        public Unity.Profiling.ProfilerMarker contentContainer; // 0x8
-        public System.Action`1<System.Collections.Generic.IEnumerable`1<object>> selectionType; // 0x3D8
-        public System.Action`1<System.Collections.Generic.IEnumerable`1<object>> selectedIndex; // 0x3E0
-        public System.Action`1<System.Collections.Generic.IEnumerable`1<int>> selectedIndices; // 0x3E8
-        public System.Action`2<int,int> selectedIds; // 0x3F0
-        public System.Action activeItems; // 0x3F8
-        public System.Action scrollView; // 0x400
-        public System.Func`2<0x6647AA40,bool> dragger; // 0x408
-        public System.Func`2<0x6647AA98,UnityEngine.UIElements.StartDragArgs> virtualizationController; // 0x410
-        public System.Func`2<0x6647AAF0,0x6647A9E8> viewController; // 0x418
-        public System.Func`2<0x6647AAF0,0x6647A9E8> showBorder; // 0x420
-        public g/s reorderable; // 0x428
-        public System.Collections.Generic.List`1<0x66474D18> horizontalScrollingEnabled; // 0x10
+        public object itemsSource;
+        public object contentContainer; // 0x8
+        public ileFullDirectoryInformation<URA.bbrevEraNames<object>> selectionType; // 0x3D8
+        public ileFullDirectoryInformation<URA.bbrevEraNames<object>> selectedIndex; // 0x3E0
+        public ileFullDirectoryInformation<URA.bbrevEraNames<int>> selectedIndices; // 0x3E8
+        public rectoryInformation<int,int> selectedIds; // 0x3F0
+        public ÎÌÍÏÏÌÍÏ activeItems; // 0x3F8
+        public ÎÌÍÏÏÌÍÏ scrollView; // 0x400
+        public n<ÎÏÌÎÎÎÌÌÌ.tomProperties,bool> dragger; // 0x408
+        public n<ÎÏÌÎÎÎÌÌÌ.perty,ÎÏÌÎÎÎÌÌÌ.m_VectorImage> virtualizationController; // 0x410
+        public n<ÎÏÌÎÎÎÌÌÌ.SourceRect,ÎÏÌÎÎÎÌÌÌ.rovider> viewController; // 0x418
+        public n<ÎÏÌÎÎÎÌÌÌ.SourceRect,ÎÏÌÎÎÎÌÌÌ.rovider> showBorder; // 0x420
+        public ÎÏÌÎÎÎÌÌÌ.led reorderable; // 0x428
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.ÎÍÏÌÏÎÏÏÍÏÎÎÍÏÌÍÍÍÎ> horizontalScrollingEnabled; // 0x10
         public bool showAlternatingRowBackgrounds; // 0x42C
-        public 0x66475608 virtualizationMethod; // 0x430
+        public ÎÏÌÎÎÎÌÌÌ.? virtualizationMethod; // 0x430
         public int fixedItemHeight; // 0x18
         public float lastHeight; // 0x434
         public bool m_ItemHeightIsInline; // 0x438
-        public 0x66475660 m_VirtualizationMethod; // 0x43C
-        public 0x664794F0 m_ScrollView; // 0x440
-        public UnityEngine.UIElements.CollectionViewController m_ViewController; // 0x448
-        public UnityEngine.UIElements.CollectionVirtualizationController m_VirtualizationController; // 0x450
-        public 0x6647F950 m_NavigationManipulator; // 0x458
-        public 0x664756B8 serializedVirtualizationData; // 0x460
-        public System.Collections.Generic.List`1<int> m_SelectedIds; // 0x468
-        public System.Collections.Generic.List`1<int> m_SelectedIndices; // 0x470
-        public System.Collections.Generic.List`1<object> m_SelectedItems; // 0x478
+        public ÎÏÌÎÎÎÌÌÌ.? m_VirtualizationMethod; // 0x43C
+        public ÎÏÌÎÎÎÌÌÌ.ÎÏÌÌÍÌÎÎÎÏÍÍ>k__BackingField m_ScrollView; // 0x440
+        public ÎÏÌÎÎÎÌÌÌ.? m_ViewController; // 0x448
+        public ÎÏÌÎÎÎÌÌÌ.ÍÎÍÌÏÎÎÍÍÏÍÏÏÏÏÍÍÏÍÏÍ m_VirtualizationController; // 0x450
+        public ÎÏÌÎÎÎÌÌÌ.ld m_NavigationManipulator; // 0x458
+        public ÎÏÌÎÎÎÌÌÌ.? serializedVirtualizationData; // 0x460
+        public URA.woDigitYearMax<int> m_SelectedIds; // 0x468
+        public URA.woDigitYearMax<int> m_SelectedIndices; // 0x470
+        public URA.woDigitYearMax<object> m_SelectedItems; // 0x478
         public float m_LastHeight; // 0x480
         public bool m_IsRangeSelectionDirectionUp; // 0x484
-        public 0x6647AC50 m_Dragger; // 0x488
-        public UnityEngine.UIElements.CustomStyleProperty`1<int> s_ItemHeightProperty; // 0x20
-        public System.Action`2<int,int> m_ItemIndexChangedCallback; // 0x490
-        public System.Action m_ItemsSourceChangedCallback; // 0x498
+        public ÎÏÌÎÎÎÌÌÌ.egisterValueChangedCallback m_Dragger; // 0x488
+        public ÎÏÌÎÎÎÌÌÌ.ement<int> s_ItemHeightProperty; // 0x20
+        public rectoryInformation<int,int> m_ItemIndexChangedCallback; // 0x490
+        public ÎÌÍÏÏÌÍÏ m_ItemsSourceChangedCallback; // 0x498
         public string ussClassName; // 0x28
         public string borderUssClassName; // 0x30
         public string itemUssClassName; // 0x38
@@ -442,7 +436,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public string itemAlternativeBackgroundUssClassName; // 0x60
         public string listScrollViewUssClassName; // 0x68
         public string backgroundFillUssClassName; // 0x70
-        public UnityEngine.Vector3 m_TouchDownPosition; // 0x4A0
+        public amut m_TouchDownPosition; // 0x4A0
 
         // ── Methods ──
         public void HasCanStartDrag(){} // RVA: 0x7FFD54EB6850
@@ -535,25 +529,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseVisualElementPanel : Object
     {
-        public System.Action`1<UnityEngine.UIElements.BaseVisualElementPanel> IMGUIEventInterests; // 0x10
-        public 0x66484548 ownerObject; // 0x18
-        public float saveViewData; // 0x20
-        public 0x664739D8 getViewDataDictionary; // 0x28
-        public float IMGUIContainersCount; // 0x30
-        public float focusController; // 0x34
-        public UnityEngine.UIElements.PanelClearSettings rootIMGUIContainer; // 0x38
-        public bool uiElementsBridge; // 0x4C
-        public 0x66480088 scale; // 0x50
-        public 0x6647A258 pixelsPerPoint; // 0x58
-        public 0x66474F80 scaledPixelsPerPoint; // 0x60
-        public bool referenceSpritePixelsPerUnit; // 0x68
-        public 0x6647BA68 clearSettings; // 0x70
-        public System.Action duringLayoutPhase; // 0x78
-        public System.Action version; // 0x80
-        public System.Action hierarchyVersion; // 0x88
-        public System.Action`1<UnityEngine.Material> repaintData; // 0x90
-        public 0x664800E0 cursorManager; // 0x98
-        public System.Action`1<UnityEngine.UIElements.IPanel> contextualMenuManager; // 0xA0
+        public object IMGUIEventInterests;
+        public object ownerObject;
+        public object saveViewData;
+        public object getViewDataDictionary;
+        public object IMGUIContainersCount;
+        public object focusController;
+        public object rootIMGUIContainer;
+        public object uiElementsBridge;
+        public object scale;
+        public object pixelsPerPoint;
+        public object scaledPixelsPerPoint;
+        public object referenceSpritePixelsPerUnit;
+        public object clearSettings;
+        public object duringLayoutPhase;
+        public object version;
+        public object hierarchyVersion;
+        public object repaintData;
+        public object cursorManager;
+        public object contextualMenuManager;
+        public object visualTree;
+        public object dispatcher;
+        public object scheduler;
+        public object styleAnimationSystem;
+        public object contextType;
+        public object disposed;
+        public object standardShader;
+        public object standardWorldSpaceShader;
+        public object atlas;
 
         // ── Methods ──
         public void get_IMGUIEventInterests(){}
@@ -639,7 +642,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindableElement : VisualElement
     {
-        public 0x664758C8 binding; // 0x3C8
+        public ÎÏÌÎÎÎÌÌÌ.eSetMinHeight binding; // 0x3C8
         public string bindingPath; // 0x3D0
 
         // ── Methods ──

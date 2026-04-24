@@ -12,7 +12,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Ball
         public float m_MaxAngularVelocity; // 0x28
         public float m_JumpPower; // 0x2C
         public float k_GroundRayLength;
-        public UnityEngine.Rigidbody m_Rigidbody; // 0x30
+        public Touched m_Rigidbody; // 0x30
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E36E210
@@ -22,10 +22,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Ball
 
     public class BallUserControl : MonoBehaviour
     {
-        public UnityStandardAssets.Vehicles.Ball.Ball ball; // 0x20
-        public UnityEngine.Vector3 move; // 0x28
-        public UnityEngine.Transform cam; // 0x38
-        public UnityEngine.Vector3 camForward; // 0x40
+        public andle.iverHandle ball; // 0x20
+        public amut move; // 0x28
+        public object cam; // 0x38
+        public amut camForward; // 0x40
         public bool jump; // 0x4C
 
         // ── Methods ──

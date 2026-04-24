@@ -6,9 +6,9 @@
 public class XHashtableState : Object
 {
     public int[] _buckets;
-    public 0x6661F220<T>[] _entries;
+    public ?<T1717741296>[] _entries;
     public int _numEntries;
-    public ExtractKeyDelegate<T> _extractKey;
+    public ToWorldMatrix<T1717741296> _extractKey;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E097970
@@ -21,13 +21,13 @@ public class XHashtableState : Object
 
 public class XRBlitParams : ValueType
 {
-    public UnityEngine.RenderTexture srcTex; // 0x10
+    public Offset srcTex; // 0x10
     public int srcTexArraySlice; // 0x18
-    public UnityEngine.Rect srcRect; // 0x1C
-    public UnityEngine.Rect destRect; // 0x2C
+    public dRecorder srcRect; // 0x1C
+    public dRecorder destRect; // 0x2C
     public UIntPtr foveatedRenderingInfo; // 0x40
     public bool srcHdrEncoded; // 0x48
-    public 0x664DBEC0 srcHdrColorGamut; // 0x4C
+    public ectInt srcHdrColorGamut; // 0x4C
     public int srcHdrMaxLuminance; // 0x50
 }
 
@@ -63,11 +63,11 @@ public class XRRenderPass : ValueType
 {
     public UIntPtr displaySubsystemInstance; // 0x10
     public int renderPassIndex; // 0x18
-    public 0x664E6AF8 renderTarget; // 0x20
-    public 0x664DCFF0 renderTargetDesc; // 0x48
+    public ons.get_disableInPlaceEditing renderTarget; // 0x20
+    public ode renderTargetDesc; // 0x48
     public bool hasMotionVectorPass; // 0x7C
-    public 0x664E6AF8 motionVectorRenderTarget; // 0x80
-    public 0x664DCFF0 motionVectorRenderTargetDesc; // 0xA8
+    public ons.get_disableInPlaceEditing motionVectorRenderTarget; // 0x80
+    public ode motionVectorRenderTargetDesc; // 0xA8
     public bool shouldFillOutDepth; // 0xDC
     public int cullingPassIndex; // 0xE0
     public UIntPtr foveatedRenderingInfo; // 0xE8

@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Compiler
 {
     public class DelegateHelpers : Object
     {
-        public 0x66556468 _DelegateCache;
+        public alBlockSizes _DelegateCache;
         public int MaximumArity;
 
         // ── Methods ──

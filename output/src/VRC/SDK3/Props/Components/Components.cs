@@ -7,12 +7,12 @@ namespace VRC.SDK3.Props.Components
 {
     public class VRCPropDescriptor : VRC_PropDescriptor
     {
-        public UnityEngine.Vector3 selectorLocalPosition; // 0x50
+        public amut selectorLocalPosition; // 0x50
         public float selectorRadius; // 0x5C
-        public 0x66645E40[] customAttributes; // 0x60
+        public B5E44F1C6B526502967430BBB5512CD812A6E80350F2B00BFD8D1B710E.7_1[] customAttributes; // 0x60
         public int spawnBearingOffset; // 0x68
         public int previewBearingOffset; // 0x6C
-        public VRC.SDK3.Components.AbstractUdonBehaviour previewBehaviour; // 0x70
+        public rentDependency|126_1.cutionGroups>g__FindParentDependency|126_1 previewBehaviour; // 0x70
 
         // ── Methods ──
         public void OnDrawGizmosSelected(){} // RVA: 0x7FFD5743CB40

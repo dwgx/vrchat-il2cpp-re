@@ -89,7 +89,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoundingSphere : ValueType
     {
-        public UnityEngine.Vector3 position; // 0x10
+        public amut position; // 0x10
         public float radius; // 0x1C
 
         // ── Methods ──
@@ -98,8 +98,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Bounds : ValueType
     {
-        public UnityEngine.Vector3 center; // 0x10
-        public UnityEngine.Vector3 size; // 0x1C
+        public amut center; // 0x10
+        public amut size; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C83E50
@@ -135,8 +135,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoundsInt : ValueType
     {
-        public UnityEngine.Vector3Int min; // 0x10
-        public UnityEngine.Vector3Int xMin; // 0x1C
+        public lutionZ min; // 0x10
+        public lutionZ xMin; // 0x1C
 
         // ── Methods ──
         public void get_min(){} // RVA: 0x7FFD54C84B20

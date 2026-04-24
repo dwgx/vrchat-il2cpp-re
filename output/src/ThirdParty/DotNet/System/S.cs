@@ -119,7 +119,7 @@ namespace ThirdParty.DotNet.System
 
     public class Span`1 : ValueType
     {
-        public System.ByReference`1<System.Collections.Generic.KeyValuePair`2<string,int>> Item; // 0x10
+        public et<ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ> Item; // 0x10
         public int Length; // 0x18
 
         // ── Methods ──
@@ -272,10 +272,10 @@ namespace ThirdParty.DotNet.System
 
     public class StringComparer : Object
     {
-        public System.CultureAwareComparer InvariantCulture;
-        public System.CultureAwareComparer InvariantCultureIgnoreCase; // 0x8
-        public System.OrdinalCaseSensitiveComparer CurrentCulture; // 0x10
-        public System.OrdinalIgnoreCaseComparer CurrentCultureIgnoreCase; // 0x18
+        public ules InvariantCulture;
+        public ules InvariantCultureIgnoreCase; // 0x8
+        public djustmentRules CurrentCulture; // 0x10
+        public tSavingTime CurrentCultureIgnoreCase; // 0x18
 
         // ── Methods ──
         public void get_InvariantCulture(){} // RVA: 0x7FFD53A6CA80

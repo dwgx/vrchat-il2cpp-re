@@ -183,7 +183,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MaterialPropertyBlock : Object
     {
-        public UIntPtr isEmpty; // 0x10
+        public object isEmpty;
 
         // ── Methods ──
         public void GetIntImpl(){} // RVA: 0x7FFD54C96550
@@ -355,8 +355,8 @@ namespace ThirdParty.Unity.UnityEngine
         public float m13; // 0x44
         public float m23; // 0x48
         public float m33; // 0x4C
-        public UnityEngine.Matrix4x4 zeroMatrix;
-        public UnityEngine.Matrix4x4 identityMatrix; // 0x40
+        public tSizeBias zeroMatrix;
+        public tSizeBias identityMatrix; // 0x40
 
         // ── Methods ──
         public void GetRotation(){} // RVA: 0x7FFD54CCA6E0
@@ -684,7 +684,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MonoBehaviour : Behaviour
     {
-        public System.Threading.CancellationTokenSource destroyCancellationToken; // 0x18
+        public sageKind._internal destroyCancellationToken; // 0x18
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD54CE2420

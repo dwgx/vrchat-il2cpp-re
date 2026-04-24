@@ -7,7 +7,7 @@ namespace ThirdParty.Other.Unity.Jobs
 {
     public class EarlyInitHelpers : Object
     {
-        public System.Collections.Generic.List`1<0x66606570> s_PendingDelegates;
+        public URA.woDigitYearMax<Value> s_PendingDelegates;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5492E3A0

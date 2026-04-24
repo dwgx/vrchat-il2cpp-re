@@ -7,8 +7,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 {
     public class BidirectionalDictionary`2 : Object
     {
-        public System.Collections.Generic.IDictionary`2<U,T> _firstToSecond;
-        public System.Collections.Generic.IDictionary`2<T,U> _secondToFirst;
+        public URA.X_CALENDARS<T1717702576,T1717702592> _firstToSecond;
+        public URA.X_CALENDARS<T1717702592,T1717702576> _secondToFirst;
         public string _duplicateFirstErrorMessage;
         public string _duplicateSecondErrorMessage;
 
@@ -37,8 +37,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class CollectionWrapper`1 : Object
     {
-        public System.Collections.IList Count;
-        public System.Collections.Generic.ICollection`1<T> IsReadOnly;
+        public mePatterns.eseCalendarDTFI Count;
+        public URA.tCalendarData<T1717702704> IsReadOnly;
         public object System.Collections.IList.IsFixedSize;
 
         // ── Methods ──
@@ -70,8 +70,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class DictionaryWrapper`2 : Object
     {
-        public System.Collections.IDictionary Keys;
-        public System.Collections.Generic.IDictionary`2<U,T> Values;
+        public mePatterns.ears Keys;
+        public URA.X_CALENDARS<T1717702816,T1717702832> Values;
         public object Item;
 
         // ── Methods ──
@@ -106,7 +106,7 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
     {
-        public Valve.Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory Instance;
+        public _FTheta.Input>k__BackingField Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD550F0660
@@ -139,7 +139,7 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class ReflectionUtils : Object
     {
-        public System.Type[] EmptyTypes;
+        public ?[] EmptyTypes;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD550F2640
@@ -197,8 +197,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
     public class ThreadSafeStore`2 : Object
     {
         public object _lock;
-        public System.Collections.Generic.Dictionary`2<U,T> _store;
-        public System.Func`2<U,T> _creator;
+        public URA.DateTime<T1717703280,T1717703296> _store;
+        public n<T1717703280,T1717703296> _creator;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

@@ -26,7 +26,7 @@ namespace ThirdParty.Unity.UnityEngine
     public class CachedAssetBundle : ValueType
     {
         public string name; // 0x10
-        public UnityEngine.Hash128 hash; // 0x18
+        public rQueue hash; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51515420
@@ -40,9 +40,9 @@ namespace ThirdParty.Unity.UnityEngine
         public float farClipPlane;
         public int fieldOfView;
         public int renderingPath;
-        public CameraCallback actualRenderingPath;
-        public CameraCallback allowHDR; // 0x8
-        public CameraCallback allowMSAA; // 0x10
+        public object actualRenderingPath;
+        public object allowHDR; // 0x8
+        public object allowMSAA; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -299,11 +299,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Canvas : Behaviour
     {
-        public WillRenderCanvases renderMode;
-        public WillRenderCanvases isRootCanvas; // 0x8
-        public System.Action`1<int> pixelRect; // 0x10
-        public System.Action`2<int,int> scaleFactor; // 0x18
-        public System.Action`1<int> referencePixelsPerUnit; // 0x20
+        public e.TextCoreFontEngineModule renderMode;
+        public e.TextCoreFontEngineModule isRootCanvas; // 0x8
+        public ileFullDirectoryInformation<int> pixelRect; // 0x10
+        public rectoryInformation<int,int> scaleFactor; // 0x18
+        public ileFullDirectoryInformation<int> referencePixelsPerUnit; // 0x20
 
         // ── Methods ──
         public void add_preWillRenderCanvases(){} // RVA: 0x7FFD550576F0
@@ -488,8 +488,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CastHelper`1 : ValueType
     {
-        public VRC.SDKBase.INetworkID t; // 0x10
-        public UIntPtr onePointerFurtherThanT; // 0x18
     }
 
     public class CharacterController : Collider
@@ -541,9 +539,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CharacterJoint : Joint
     {
-        public UnityEngine.Quaternion swingAxis; // 0x18
-        public UnityEngine.Vector3 twistLimitSpring; // 0x28
-        public 0x665FFF00 swingLimitSpring; // 0x34
+        public R_12x12 swingAxis; // 0x18
+        public amut twistLimitSpring; // 0x28
+        public odyPositionInternal_Injected swingLimitSpring; // 0x34
 
         // ── Methods ──
         public void get_swingAxis(){} // RVA: 0x7FFD54DBC7E0
@@ -683,8 +681,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ClothSphereColliderPair : ValueType
     {
-        public UnityEngine.SphereCollider first; // 0x10
-        public UnityEngine.SphereCollider second; // 0x18
+        public cted first; // 0x10
+        public cted second; // 0x18
 
         // ── Methods ──
         public void get_first(){} // RVA: 0x7FFD4EEF9F60
@@ -849,10 +847,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Collision : Object
     {
-        public UnityEngine.ContactPairHeader impulse; // 0x10
-        public UnityEngine.ContactPair relativeVelocity; // 0x38
+        public ANGUAGES_FILE_NAME impulse; // 0x10
+        public kingField relativeVelocity; // 0x38
         public bool rigidbody; // 0x60
-        public UnityEngine.ContactPoint[] articulationBody; // 0x68
+        public RotationOffset[] articulationBody; // 0x68
 
         // ── Methods ──
         public void get_impulse(){} // RVA: 0x7FFD4E3A7FA0
@@ -878,11 +876,11 @@ namespace ThirdParty.Unity.UnityEngine
         public int otherCollider; // 0x14
         public int rigidbody; // 0x18
         public int otherRigidbody; // 0x1C
-        public UnityEngine.Vector2 transform; // 0x20
+        public tionX transform; // 0x20
         public int gameObject; // 0x28
         public int relativeVelocity; // 0x2C
-        public UnityEngine.ContactPoint2D[] enabled; // 0x30
-        public UnityEngine.ContactPoint2D[] contacts; // 0x38
+        public ceSettings[] enabled; // 0x30
+        public ceSettings[] contacts; // 0x38
 
         // ── Methods ──
         public void GetContacts_Internal(){} // RVA: 0x7FFD54D97F90
@@ -1263,7 +1261,7 @@ namespace ThirdParty.Unity.UnityEngine
         public bool useOutsideDepth; // 0x13
         public bool useNormalAngle; // 0x14
         public bool useOutsideNormalAngle; // 0x15
-        public UnityEngine.LayerMask layerMask; // 0x18
+        public object layerMask; // 0x18
         public float minDepth; // 0x1C
         public float maxDepth; // 0x20
         public float minNormalAngle; // 0x24
@@ -1296,9 +1294,9 @@ namespace ThirdParty.Unity.UnityEngine
         public int OtherColliderInstanceID; // 0x14
         public UIntPtr Collider; // 0x18
         public uint OtherCollider; // 0x20
-        public 0x66600CC0 ImpulseSum; // 0x24
-        public 0x66600D18 IsCollisionEnter; // 0x26
-        public UnityEngine.Vector3 IsCollisionExit; // 0x28
+        public LanguageDictionary ImpulseSum; // 0x24
+        public t IsCollisionEnter; // 0x26
+        public amut IsCollisionExit; // 0x28
 
         // ── Methods ──
         public void get_ColliderInstanceID(){} // RVA: 0x7FFD4F840210
@@ -1319,12 +1317,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPairHeader : ValueType
     {
-        public int Body; // 0x10
-        public int OtherBody; // 0x14
-        public UIntPtr HasRemovedBody; // 0x18
-        public uint m_NbPairs; // 0x20
-        public ÌÏÌÏÏ m_Flags; // 0x24
-        public UnityEngine.Vector3 m_RelativeVelocity; // 0x28
+        public object Body;
+        public object OtherBody;
+        public object HasRemovedBody;
 
         // ── Methods ──
         public void get_Body(){} // RVA: 0x7FFD54DC2CE0
@@ -1336,9 +1331,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPoint : ValueType
     {
-        public UnityEngine.Vector3 point; // 0x10
-        public UnityEngine.Vector3 normal; // 0x1C
-        public UnityEngine.Vector3 impulse; // 0x28
+        public amut point; // 0x10
+        public amut normal; // 0x1C
+        public amut impulse; // 0x28
         public int thisCollider; // 0x34
         public int otherCollider; // 0x38
         public float separation; // 0x3C
@@ -1355,9 +1350,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPoint2D : ValueType
     {
-        public UnityEngine.Vector2 point; // 0x10
-        public UnityEngine.Vector2 normal; // 0x18
-        public UnityEngine.Vector2 separation; // 0x20
+        public tionX point; // 0x10
+        public tionX normal; // 0x18
+        public tionX separation; // 0x20
         public float normalImpulse; // 0x28
         public float tangentImpulse; // 0x2C
         public float relativeVelocity; // 0x30
@@ -1393,11 +1388,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ControllerColliderHit : Object
     {
-        public UnityEngine.CharacterController controller; // 0x10
-        public UnityEngine.Collider collider; // 0x18
-        public UnityEngine.Vector3 rigidbody; // 0x20
-        public UnityEngine.Vector3 gameObject; // 0x2C
-        public UnityEngine.Vector3 transform; // 0x38
+        public ProcessAnimationJobStruct`1 controller; // 0x10
+        public riteCharacterUnicode collider; // 0x18
+        public amut rigidbody; // 0x20
+        public amut gameObject; // 0x2C
+        public amut transform; // 0x38
         public float point; // 0x44
         public int normal; // 0x48
 
@@ -1494,7 +1489,7 @@ namespace ThirdParty.Unity.UnityEngine
     public class CullingGroup : Object
     {
         public UIntPtr m_Ptr; // 0x10
-        public StateChanged m_OnStateChanged; // 0x18
+        public ityEngine.UIElements.IStyle.get_textShadow m_OnStateChanged; // 0x18
 
         // ── Methods ──
         public void SendEvents(){} // RVA: 0x7FFD54C7CBA0
@@ -1562,10 +1557,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CustomRenderTextureManager : Object
     {
-        public System.Action`1<UnityEngine.CustomRenderTexture> textureLoaded;
-        public System.Action`1<UnityEngine.CustomRenderTexture> textureUnloaded; // 0x8
-        public System.Action`2<UnityEngine.CustomRenderTexture,int> updateTriggered; // 0x10
-        public System.Action`1<UnityEngine.CustomRenderTexture> initializeTriggered; // 0x18
+        public ileFullDirectoryInformation<nIntensity> textureLoaded;
+        public ileFullDirectoryInformation<nIntensity> textureUnloaded; // 0x8
+        public rectoryInformation<nIntensity,int> updateTriggered; // 0x10
+        public ileFullDirectoryInformation<nIntensity> initializeTriggered; // 0x18
 
         // ── Methods ──
         public void InvokeOnTextureLoaded_Internal(){} // RVA: 0x7FFD54C8B220
@@ -1576,8 +1571,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CustomRenderTextureUpdateZone : ValueType
     {
-        public UnityEngine.Vector3 updateZoneCenter; // 0x10
-        public UnityEngine.Vector3 updateZoneSize; // 0x1C
+        public amut updateZoneCenter; // 0x10
+        public amut updateZoneSize; // 0x1C
         public float rotation; // 0x28
         public int passIndex; // 0x2C
         public bool needSwap; // 0x30

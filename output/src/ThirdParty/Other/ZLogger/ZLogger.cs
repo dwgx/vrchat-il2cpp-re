@@ -11,11 +11,11 @@ namespace ThirdParty.Other.ZLogger
         public bool crlf; // 0x18
         public byte newLine1; // 0x19
         public byte newLine2; // 0x1A
-        public System.IO.Stream stream; // 0x20
-        public System.Threading.Channels.Channel`1<ZLogger.IZLoggerEntry> channel; // 0x28
-        public System.Threading.Tasks.Task writeLoop; // 0x30
-        public ZLogger.ZLoggerOptions options; // 0x38
-        public System.Func`2<0x66618CB8,bool> levelFilter; // 0x40
+        public Inherited.? stream; // 0x20
+        public bstacleAvoidance.rpList<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> channel; // 0x28
+        public utes.Line writeLoop; // 0x30
+        public ÏÌÍÍÏÎÎÎÌ options; // 0x38
+        public n<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject,bool> levelFilter; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57504040 | overloaded x2
@@ -28,8 +28,6 @@ namespace ThirdParty.Other.ZLogger
 
     public class CustomFormatParser : Object
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<string,System.ValueTuple`2<string,string>> alternateNameCache;
-
         // ── Methods ──
         public void GetOrAdd(){} // RVA: 0x7FFD5750B360
         public void .cctor(){} // RVA: 0x7FFD5750B6A0
@@ -92,22 +90,13 @@ namespace ThirdParty.Other.ZLogger
 
     public class InterpolatedStringParameter : ValueType
     {
-        public System.Type Type; // 0x10
-        public string Name; // 0x18
-        public int Alignment; // 0x20
-        public string Format; // 0x28
-        public int BoxOffset; // 0x30
-        public object BoxedValue; // 0x38
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750D230
     }
 
     public class LogCategory : ValueType
     {
-        public byte[] Utf8Span; // 0x10
-        public string Name; // 0x18
-        public System.Text.Json.JsonEncodedText JsonEncoded; // 0x20
+        public object Utf8Span;
 
         // ── Methods ──
         public void get_Utf8Span(){} // RVA: 0x7FFD57505E20
@@ -117,12 +106,12 @@ namespace ThirdParty.Other.ZLogger
 
     public class LogInfo : ValueType
     {
-        public ZLogger.LogCategory Category; // 0x10
-        public ZLogger.Timestamp Timestamp; // 0x30
-        public 0x66618CB8 LogLevel; // 0x48
-        public Microsoft.Extensions.Logging.EventId EventId; // 0x50
-        public System.Exception Exception; // 0x60
-        public ZLogger.LogScopeState ScopeState; // 0x68
+        public ÏÌÎÌ Category; // 0x10
+        public rtCode Timestamp; // 0x30
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject LogLevel; // 0x48
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.et_LongDatePattern EventId; // 0x50
+        public ÏÏÍÍÎÎ Exception; // 0x60
+        public object ScopeState; // 0x68
         public object Context; // 0x70
         public string MemberName; // 0x78
         public string FilePath; // 0x80
@@ -134,11 +123,6 @@ namespace ThirdParty.Other.ZLogger
 
     public class LogScopeState : Object
     {
-        public System.Collections.Concurrent.ConcurrentQueue`1<ZLogger.LogScopeState> cache;
-        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<string,object>> properties; // 0x10
-        public short version; // 0x18
-        public short snapshotVersion; // 0x1A
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD57506090
         public void Return(){} // RVA: 0x7FFD57506260
@@ -150,11 +134,6 @@ namespace ThirdParty.Other.ZLogger
 
     public class MessageSequence : Object
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<LiteralList,ZLogger.MessageSequence> cache;
-        public int literalLength; // 0x10
-        public int parametersLength; // 0x14
-        public ZLogger.MessageSequenceSegment[] segments; // 0x18
-
         // ── Methods ──
         public void GetOrCreate(){} // RVA: 0x7FFD5750BC20
         public void .ctor(){} // RVA: 0x7FFD5750C1C0
@@ -164,8 +143,7 @@ namespace ThirdParty.Other.ZLogger
 
     public class MessageSequenceSegment : ValueType
     {
-        public string IsLiteral; // 0x10
-        public byte[] Utf8Bytes; // 0x18
+        public object IsLiteral;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F5CE4B0
@@ -175,8 +153,8 @@ namespace ThirdParty.Other.ZLogger
 
     public class MessageTemplate : ValueType
     {
-        public ZLogger.MessageTemplateHolder template; // 0x10
-        public System.Buffers.IBufferWriter`1<byte> writer; // 0x18
+        public ÍÏ template; // 0x10
+        public erDecimalDigits.AsNumber<byte> writer; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F5CE4B0
@@ -191,7 +169,7 @@ namespace ThirdParty.Other.ZLogger
     {
         public int EqualityContract; // 0x10
         public int LiteralLength; // 0x14
-        public ÏÌÌÌÏÏÏÏ.imageBack[] FormattedCount; // 0x18
+        public ?[] FormattedCount; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD56FFB2F0
@@ -209,10 +187,8 @@ namespace ThirdParty.Other.ZLogger
 
     public class Timestamp : ValueType
     {
-        public System.DateTimeOffset Utc; // 0x10
-        public 0x66644790 Local; // 0x20
-        public long MinTicks;
-        public long MaxTicks; // 0x8
+        public object Utc;
+        public object Local;
 
         // ── Methods ──
         public void get_Utc(){} // RVA: 0x7FFD4E6E0590
@@ -240,7 +216,7 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerDebugInterpolatedStringHandler : ValueType
     {
-        public ZLogger.ZLoggerInterpolatedStringHandler InnerHandler; // 0x10
+        public ÌÍÌÎÎÌÎÌÏÌÎÍ InnerHandler; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750D3A0
@@ -250,10 +226,10 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerEntry`1 : Object
     {
-        public ZLogger.Internal.ObjectPool`1<ZLogger.ZLoggerEntry`1<ZLogger.LogStates.InterpolatedStringLogState>> ZLogger.Internal.IObjectPoolNode<ZLogger.ZLoggerEntry<TState>>.NextNode;
-        public ZLogger.ZLoggerEntry`1<ZLogger.LogStates.InterpolatedStringLogState> LogInfo; // 0x10
-        public ZLogger.LogInfo logInfo; // 0x18
-        public ZLogger.LogStates.InterpolatedStringLogState state; // 0x98
+        public gressBarContainer.gContentId<ÍÏÌÎÎÌÌÏÎÏÍÏ<T1717732272>> ZLogger.Internal.IObjectPoolNode<ZLogger.ZLoggerEntry<TState>>.NextNode;
+        public ÍÏÌÎÎÌÌÏÎÏÍÏ<T1717732272> LogInfo;
+        public ÍÏÏÎÍÌÎÍÌÎÌÎÎÎÎ logInfo;
+        public T1717732272 state;
 
         // ── Methods ──
         public void ZLogger.Internal.IObjectPoolNode<ZLogger.ZLoggerEntry<TState>>.get_NextNode(){} // RVA: 0x7FFD4E078E90
@@ -270,7 +246,7 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerErrorInterpolatedStringHandler : ValueType
     {
-        public ZLogger.ZLoggerInterpolatedStringHandler InnerHandler; // 0x10
+        public ÌÍÌÎÎÌÎÌÏÌÎÍ InnerHandler; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750D490
@@ -289,12 +265,12 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerInterpolatedStringHandler : ValueType
     {
-        public System.Collections.Generic.List`1<string> IsLoggerEnabled; // 0xFFFF
+        public URA.woDigitYearMax<string> IsLoggerEnabled; // 0xFFFFFFFF
         public bool <IsLoggerEnabled>k__BackingField; // 0x10
         public int literalLength; // 0x14
         public int parametersLength; // 0x18
-        public System.Collections.Generic.List`1<string> literals; // 0x20
-        public ZLogger.LogStates.InterpolatedStringLogState state; // 0x28
+        public URA.woDigitYearMax<string> literals; // 0x20
+        public ÌÌÎÌÏÎÎÏÍÏÌÌÏÍÎÏÍÎÎÏÏ state; // 0x28
         public int parameterWritten; // 0x30
 
         // ── Methods ──
@@ -307,10 +283,10 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerLogger : Object
     {
-        public ZLogger.LogCategory category; // 0x10
-        public ZLogger.IAsyncLogProcessor logProcessor; // 0x30
-        public 0x66644790 timeProvider; // 0x38
-        public Microsoft.Extensions.Logging.IExternalScopeProvider scopeProvider; // 0x40
+        public ÏÌÎÌ category; // 0x10
+        public ÍÎÌÌÏÏÎÌÏÎÍÎÏÍÍÍÎÏÎÍÍÍ logProcessor; // 0x30
+        public teConstants timeProvider; // 0x38
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile scopeProvider; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750D500
@@ -321,12 +297,12 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerOptions : Object
     {
-        public System.Action`1<System.Exception> InternalErrorLogger; // 0x10
+        public ileFullDirectoryInformation<ÏÏÍÍÎÎ> InternalErrorLogger; // 0x10
         public bool IncludeScopes; // 0x18
-        public 0x66644790 TimeProvider; // 0x20
-        public ÏÌÌÌÏÏÏÏ.ÌÏÏ FullMode; // 0x28
+        public teConstants TimeProvider; // 0x20
+        public object FullMode; // 0x28
         public int BackgroundBufferCapacity; // 0x2C
-        public System.Func`1<ZLogger.IZLoggerFormatter> formatterFactory; // 0x30
+        public ormation<ÎÏÎÎ> formatterFactory; // 0x30
 
         // ── Methods ──
         public void get_InternalErrorLogger(){} // RVA: 0x7FFD4E35C380
@@ -344,7 +320,7 @@ namespace ThirdParty.Other.ZLogger
 
     public class ZLoggerWarningInterpolatedStringHandler : ValueType
     {
-        public ZLogger.ZLoggerInterpolatedStringHandler InnerHandler; // 0x10
+        public ÌÍÌÎÎÌÎÌÏÌÎÍ InnerHandler; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750D420

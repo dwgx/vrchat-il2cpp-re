@@ -36,8 +36,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÌÍÍÎÎÌÏÏÍÌÍÌÌÎÏÏÏÏÌÍ</summary>
     public class Unknown10m_16D6 : Static9m_FA09
     {
-        public string ÎÎÎÌÌÌÍÎÏÏÏÌÎÏÍÎÌÍÏÏÏÍÌ; // 0x40
-
         // ── Methods ──
         public void AsUdonLong(){} // RVA: 0x7FFD4F137850
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -73,13 +71,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÎÍÏÎÍÎÎÎÌÌÌÌÎÍÎÍÍÏÏÌ</summary>
     public class Unknown13m_2342 : LifecycleComponentImpl_B997
     {
-        public int ÍÍÌÍÍÎÏÏÌÏÎÌÏÏÏÎÏÍÏÍÍÎÍ;
-        public int ÍÍÎÍÍÍÎÏÍÍÍÏÎÎÎÌÏÍÏÏÍÌÍ;
-        public float mobilePulseSpeed; // 0x60
-        public float mobileMinimumOpacity; // 0x64
-        public float mobileMaximumOpacity; // 0x68
-        public System.Collections.Generic.List`1<System.ValueTuple`3<UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Color>> ÏÌÎÍÎÏÍÍÌÍÎÍÍÍÏÌÍÎÌÏÌÌÎ; // 0x70
-
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0x7FFD4F2FFCA0
         public void Update(){} // RVA: 0x7FFD4F300D20
@@ -99,13 +90,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÏÌÎÏÌÎÍÌÎÎÍÍÎÏÌÎÍÎÍÍ</summary>
     public class Unknown13m_5F41 : Service36m_7DDD
     {
-        public UnityEngine.GameObject ÏÎÍÏÌÎÍÌÎÏÌÌÎÎÍÏÍÍÌÏÍÌÌ;
-        public System.Action`3<T,int,T> ÏÌÏÌÎÍÎÍÏÍÍÏÌÍÏÏÎÎÏÍÎÍÍ;
-        public System.Action`1<T> ÍÍÌÏÌÌÌÎÍÍÏÏÏÌÏÍÍÌÎÌÌÍÎ;
-        public UnityEngine.Vector2 ÌÎÏÏÎÌÍÎÌÏÎÌÍÍÏÌÏÏÍÌÌÎÍ;
-        public int ÎÍÍÌÍÎÍÍÏÍÎÌÌÌÏÌÌÎÏÎÍÌÎ;
-        public int ÌÍÍÎÍÌÍÏÍÌÏÏÎÎÍÌÌÏÍÍÏÍÍ;
-
         // ── Methods ──
         public void ContainsChild(){} // RVA: 0x7FFD4E090A40
         public void ContainsChild_58F82FA292AE(){} // RVA: 0x7FFD4E090A40
@@ -139,8 +123,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÍÌÎÏÍÌÏÍÍÎÌÌÏÌÏÏÎÌÎÏÎ</summary>
     public class Unknown1m_801A : Static1m_306D
     {
-        public int ÏÏÌÌÍÎÎÏÌÍÍÎÍÍÍÏÎÌÍÏÍÍÎ; // 0x50
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -148,26 +130,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÏÏÌÌÏÎÌÏÍÎÏÎÍÍÍÏÍÏÌÍ</summary>
     public class Unknown23m_8D1E : LifecycleComponentImpl_B997
     {
-        public 0x664DC180 ÎÏÏÌÎÎÎÌÌÏÌÌÌÍÎÏÌÎÍÎÍÏÎ;
-        public int ÍÏÍÍÎÎÏÏÏÌÎÌÌÎÍÌÌÏÌÏÏÏÏ;
-        public int ÍÏÏÏÏÎÏÍÏÎÍÎÍÌÍÎÍÏÎÎÍÎÎ;
-        public int ÌÎÍÌÎÍÎÏÌÎÌÍÏÏÎÌÏÏÏÏÌÍÎ;
-        public int ÍÏÍÍÌÌÌÏÏÌÌÍÏÎÎÏÎÏÎÎÍÌÏ;
-        public int ÎÍÏÏÎÌÏÌÎÎÏÍÎÏÎÍÌÎÏÏÏÏÏ;
-        public int renderTextureWidth; // 0x60
-        public int renderTextureHeight; // 0x64
-        public int blurDownsampleFactor; // 0x68
-        public float blurSize; // 0x6C
-        public int blurIterations; // 0x70
-        public UnityEngine.Rendering.CommandBuffer ÍÎÌÏÌÎÌÎÎÍÎÌÏÎÍÏÎÌÌÏÎÏÏ; // 0x78
-        public int ÏÍÎÎÎÎÌÏÎÎÌÎÌÏÍÏÎÍÍÎÌÍÍ;
-        public int ÎÌÎÌÎÌÍÎÏÎÏÏÏÌÌÏÍÎÍÌÌÌÎ; // 0x4
-        public int ÍÎÎÌÍÌÌÌÍÍÍÌÍÎÌÍÍÎÌÏÎÍÍ; // 0x8
-        public int ÌÏÏÍÌÍÏÍÎÍÌÍÏÌÌÌÌÍÏÎÍÌÎ; // 0xC
-        public int ÌÏÎÏÎÍÏÍÎÏÎÎÍÌÍÎÎÎÌÏÍÍÏ; // 0x10
-        public int ÏÏÌÍÌÏÌÍÍÎÎÍÍÌÍÌÍÏÎÍÍÍÏ; // 0x14
-        public UnityEngine.MaterialPropertyBlock ÏÌÌÌÌÏÏÎÍÎÌÍÌÏÌÎÎÍÎÌÏÎÌ; // 0x80
-
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0x7FFD4F304910
         public void OnDisable(){} // RVA: 0x7FFD4F304940
@@ -197,11 +159,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÍÍÎÌÎÌÏÏÍÌÏÏÌÏÌÌÎÌÌÎÎ</summary>
     public class Unknown39m_27CB : Mono5m_9E57
     {
-        public VRC.UI.Elements.MainMenuPlacementData f_46F; // 0x20
-        public ÎÌÎÏÎÏÎÏÏÏÏÎÍÌÌÏÎÏÎÌÌÌÌ f_5EA; // 0x28
-        public UnityEngine.Vector3 f_A7C; // 0x30
-        public bool f_72F; // 0x3C
-        public System.Action f_BC1; // 0x40
+        public object f_46F;
+        public object f_5EA;
+        public object f_A7C;
+        public object f_72F;
+        public object f_BC1;
+        public object f_619;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56709990
@@ -257,8 +220,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÏÏÌÌÌÍÍÏÌÏÌÍÎÏÏÏÎÌÏÌÌ</summary>
     public class Unknown3m_622F : Unknown6m_A761
     {
-        public 0x664D1338 ÍÏÍÎÍÌÍÏÌÎÏÏÎÌÌÎÍÏÏÌÍÎÎ; // 0x38
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD56BAE1C0
         public void Initialize(){} // RVA: 0x7FFD56E14C30
@@ -268,7 +229,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÏÌÍÏÏÌÎÌÍÎÎÏÌÍÍÍÎÏÍÎ</summary>
     public class Unknown3m_8012 : Mono6m_5AF0
     {
-        public ÌÍÍÍÏÎÏÎÏÍÌÌÏÍÌÏÎÏÎÍÏÍÏ[] _8012;
+        public object _8012;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD56BAE1C0
@@ -288,7 +249,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÏÌÎÎÏÌÎÏÌÏÎÍÍÏÍÏÌÍÏÎ</summary>
     public class Unknown4m_7923 : Static2m_370E
     {
-        public T _7923;
+        public object _7923;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -300,8 +261,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÏÍÌÍÏÏÍÏÏÌÌÎÍÍÏÍÎÌÍÏÌ</summary>
     public class Unknown4m_BE4F : PointerEnterPointerEImpl_AA84
     {
-        public 0x664C9358 resolution; // 0x68
-
         // ── Methods ──
         public void UpdateGameObjectStatistics(){} // RVA: 0x7FFD4E7B65A0
         public void get_rightArmMapping(){} // RVA: 0x7FFD4E7B6750
@@ -312,8 +271,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÎÍÏÎÍÍÍÌÌÎÍÏÎÍÌÌÌÏÏÌ</summary>
     public class Unknown6m_A761 : Mono6m_5AF0
     {
-        public ÌÍÍÍÏÎÏÎÏÍÌÌÏÍÌÏÎÏÎÍÏÍÏ[] _a761; // 0x30
-        public System.Collections.Generic.List`1<System.ValueTuple`7<0x66634828,System.Type,string,0x66634930,string,System.Type,int>> ÌÎÏÎÌÏÌÏÏÌÌÌÏÌÏÍÏÍÏÌÎÍÎ;
+        public object _a761;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56E464A0
@@ -327,7 +285,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÎÍÏÌÏÎÍÎÍÌÏÌÎÍÏÏÏÏÍÏ</summary>
     public class Unknown9m_174F : Type6m3f_0012
     {
-        public VRC.SDK3.Video.Components.VRCUnityVideoPlayer f_216; // 0x20
+        public object f_216;
+        public object f_14F;
 
         // ── Methods ──
         public void Setenabled(){} // RVA: 0x7FFD4E5EBB30
@@ -344,9 +303,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÏÌÍÏÍÌÍÎÍÌÌÏÍÏÌÏÏÏÎÌ</summary>
     public class Unknown9m_EE3E : Static9m_FA09
     {
-        public 0x665B2E50 ÌÏÍÎÏÎÏÍÍÎÏÏÌÏÍÎÌÏÌÍÌÎÎ; // 0x40
-        public bool ÏÌÌÍÌÎÏÎÏÎÍÎÎÌÍÎÎÌÏÍÎÏÏ;
-
         // ── Methods ──
         public void InitializeHashtable(){} // RVA: 0x7FFD4F0D93E0
         public void Configurepayload(){} // RVA: 0x7FFD4F0D9640
@@ -362,11 +318,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÌÍÎÌÎÎÌÍÍÎÍÌÎÌÍÍÌÍÍ</summary>
     public class UpdateHeightComponent_0662 : MonoBehaviour
     {
-        public ÏÏÏÎÍÏÎÏÍÎÎÌÏÍÎÍÍÍÎÍÎÌÎ ÍÌÎÏÍÎÎÍÌÌÍÏÌÎÏÎÍÌÌÍÏÌÌ; // 0x20
-        public ÍÎÎÏÎÌÏÍÎÏÌÌÎÏÏÎÍÌÏÎÌÎÎ ÏÏÌÏÏÏÍÏÌÎÏÏÎÎÏÍÍÏÏÏÏÎÍ; // 0x28
-        public VRC.SDK.Internal.Tutorial.VRCAvatarCalibrator ÏÏÍÍÏÏÍÌÌÍÍÏÏÍÎÎÌÏÎÍÌÌÏ; // 0x30
-        public VRC.Core.ApiAvatar ÌÏÌÍÌÌÎÏÏÌÎÌÍÏÍÏÍÍÎÎÌÍÍ; // 0x38
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F577210
         public void RaiseCancellation(){} // RVA: 0x7FFD4F577300
@@ -387,79 +338,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÌÌÌÎÍÏÌÍÎÌÏÌÌÍÍÍÏÌÎÌ</summary>
     public class UpdateHeightComponent_4221 : MonoBehaviour
     {
-        public ÍÏÍÌÎÏÍÎÌÌÍÎÌÏÌÌÎÏÎÍÏÏÎ _4221; // 0x20
-        public UnityEngine.GameObject _avatarPriceContainer; // 0x28
-        public UnityEngine.GameObject _primaryPurchaseButton; // 0x30
-        public ÏÎÎÏÎÌÎÍÌÏÍÎÌÏÌÎÍÌÎÌÎÏÎ _avatarPerformanceDetails; // 0x38
-        public ÎÌÍÏÎÎÍÏÎÍÎÎÏÍÎÏÏÏÍÍÌÎÍ _authorUserContentCell; // 0x40
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _avatarNameText; // 0x48
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _avatarAuthorText; // 0x50
-        public UnityEngine.UI.Button _reportButton; // 0x58
-        public ÌÍÌÏÌÏÎÌÎÌÍÌÍÌÍÌÏÍÎÏÏÌÎ _previewButton; // 0x60
-        public ÌÍÌÍÍÍÎÍÎÎÍÌÌÏÎÎÍÍÍÌÌÌÏ _avatarDescriptionText; // 0x68
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _downloadSizeText; // 0x70
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _performanceRankText; // 0x78
-        public ÌÌÍÍÏÌÏÏÏÌÏÍÍÏÎÌÌÌÎÍÎÏÏ _tagsListBinding; // 0x80
-        public UnityEngine.GameObject _tagPrefab; // 0x88
-        public ÌÍÍÌÍÌÌÏÏÍÏÏÏÎÏÍÌÌÌÍÏÍÏ _lastUpdatedText; // 0x90
-        public UnityEngine.UI.Image _performanceRankIcon; // 0x98
-        public UnityEngine.Sprite _performanceRankErrorSprite; // 0xA0
-        public ÏÌÍÍÌÌÏÌÌÎÌÍÏÍÏÌÎÍÏÍÎÌÏ[] _platformRanks; // 0xA8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _priceText; // 0xB0
-        public UnityEngine.RectTransform _specialPricesContainer; // 0xB8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _specialPricesStandard; // 0xC0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _specialPricesDiscount; // 0xC8
-        public UnityEngine.RectTransform _normalPricesContainer; // 0xD0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _normalPricesStandard; // 0xD8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _normalPricesDiscount; // 0xE0
-        public ÎÌÍÍÏÏÌÎÏÎÎÌÌÏÌÌÍÏÍÏÍÍÌ _purchaseOptionsFoldout; // 0xE8
-        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ _purchaseOptionsBinding; // 0xF0
-        public UnityEngine.GameObject _purchaseOptionPrefab; // 0xF8
-        public UnityEngine.GameObject _sdk2Cell; // 0x100
-        public UnityEngine.GameObject _sdk3Cell; // 0x108
-        public UnityEngine.GameObject _eyelookCell; // 0x110
-        public UnityEngine.GameObject _visemesCell; // 0x118
-        public UnityEngine.GameObject _hasImpostorCell; // 0x120
-        public UnityEngine.GameObject _crossPlatformCell; // 0x128
-        public UnityEngine.GameObject _androidPlatformCell; // 0x130
-        public UnityEngine.GameObject _iOSPlatformCell; // 0x138
-        public UnityEngine.GameObject _windowsPlatformCell; // 0x140
-        public UnityEngine.GameObject _loadingFeaturesCell; // 0x148
-        public UnityEngine.GameObject _acknowledgementsHeader; // 0x150
-        public UnityEngine.GameObject _acknowledgementsContainer; // 0x158
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _acknowledgementsText; // 0x160
-        public UnityEngine.GameObject _moreAvatarsHeader; // 0x168
-        public ÎÌÎÏÍÏÎÎÌÎÎÎÎÌÎÎÌÍÍÍÏÌÏ _avatarListView; // 0x170
-        public int _maximumDisplayedMoreAvatars; // 0x178
-        public UnityEngine.GameObject _performanceHeader; // 0x180
-        public UnityEngine.GameObject _performanceDetails; // 0x188
-        public UnityEngine.GameObject _downloadInfoContainer; // 0x190
-        public UnityEngine.GameObject _dateInfoContainer; // 0x198
-        public UnityEngine.GameObject _overallPerformanceContainer; // 0x1A0
-        public UnityEngine.UI.Button _sellerPreviewModeButton; // 0x1A8
-        public UnityEngine.UI.Toggle _modelSwitcherToggle; // 0x1B0
-        public VRC.UI.Core.Styles.StyleElement _avatarDetailsStyleElement; // 0x1B8
-        public UnityEngine.GameObject _avatarMediaContainer; // 0x1C0
-        public ÎÌÏÍÌÌÍÏÌÌÏÍÎÍÍÍÏÍÎÌÍÏÏ _imageSelector; // 0x1C8
-        public ÍÏÎÍÍÏÌÌÍÎÎÏÏÍÍÎÎÌÎÎÍÍÏ _favoriteButton; // 0x1D0
-        public ÍÏÌÎÌÍÎÍÎÎÍÌÏÌÌÌÏÍÍÍÍÌÍ _scrollRect; // 0x1D8
-        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ _purchaseButton; // 0x1E0
-        public ÏÍÏÍÏÌÏÎÌÏÌÏÎÍÎÏÏÏÏÎÍÍÌ _purchaseButtonScrollHandler; // 0x1E8
-        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ _giftButton; // 0x1F0
-        public ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ ÏÏÎÏÍÍÏÏÌÍÎÍÎÎÍÌÌÍÍÏÏÌÎ; // 0x1F8
-        public ÍÍÎÍÍÍÍÎÏÎÏÏÏÍÎÍÏÌÎÍÌÍÍ ÌÌÏÏÏÌÍÌÌÍÌÎÍÍÎÌÍÌÎÌÏÎÎ; // 0x200
-        public string ÍÌÎÏÍÎÏÍÎÏÌÎÏÍÍÎÍÏÍÍÍÎÎ; // 0x208
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÍÎÏÍÌÎÎÍÌÍÏÏÍÍÍÎÌÎÎÎÌÎÏ; // 0x210
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÏÌÎÍÌÍÍÍÍÏÍÎÍÍÏÎÍÏÏÏÎÏÍ; // 0x218
-        public ÍÍÌÏÍÌÌÍÎÏÎÍÍÎÎÌÏÏÏÍÍÏÏ<System.Collections.IList> ÎÏÎÎÎÏÌÎÏÏÌÍÍÍÍÎÍÌÍÍÍÌÎ; // 0x220
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> ÍÌÎÏÍÏÌÌÎÍÌÍÌÌÍÏÏÏÍÌÌÌÏ; // 0x228
-        public System.Collections.Generic.HashSet`1<string> ÌÎÍÎÌÍÌÏÌÍÏÍÏÏÎÎÌÎÎÏÌÍÍ; // 0x230
-        public bool ÎÏÌÍÌÍÎÌÌÏÌÍÍÎÏÌÌÍÎÌÌÌÌ; // 0x238
-        public bool ÌÎÏÌÎÎÍÌÏÍÍÎÌÌÌÍÏÏÌÌÏÌÍ; // 0x239
-        public bool ÏÌÌÍÌÏÍÎÍÎÎÍÎÎÏÎÍÍÏÌÍÎÏ; // 0x23A
-        public VRC.Localization.LocalizableString ÏÍÎÌÎÌÌÌÍÍÌÏÏÏÏÍÎÌÎÍÌÌÎ; // 0x240
-        public bool ÌÏÏÌÍÍÎÎÎÏÏÍÎÏÏÌÌÎÍÎÌÎÏ; // 0x268
-        public 0x66593818 ÌÌÍÌÌÌÌÌÎÍÎÍÌÏÍÌÍÌÌÌÍÎÎ; // 0x270
+        public object _4221;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56858420
@@ -518,34 +397,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÏÌÌÎÌÏÌÌÏÍÍÌÏÏÎÍÏÏÎÍÍ</summary>
     public class UpdateHeightComponent_51E6 : MonoBehaviour
     {
-        public VRC.Localization.LocalizableString _destroyCancellationToken;
-        public VRC.Localization.LocalizableString _useGUILayout; // 0x28
-        public VRC.Localization.LocalizableString ÌÏÌÍÎÌÍÎÍÏÏÎÍÍÎÌÍÏÌÌÏÌÎ; // 0x50
-        public VRC.Localization.LocalizableString ÍÎÎÍÍÎÍÏÎÎÎÌÌÎÎÌÌÌÏÎÏÏÏ; // 0x78
-        public 0x663D2B28 ÍÎÌÎÍÌÍÌÍÏÎÎÎÌÍÏÌÎÏÌÎÌÏ; // 0x20
-        public ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ <ÌÍÎÍÏÏÎÍÏÎÌÎÏÏÌÏÍÌÍÌÎÎÍ>k__BackingField; // 0x28
-        public ÌÍÏÏÏÎÌÎÎÌÌÌÏÏÍÏÏÎÍÌÍÍÍ _favoriteFlow; // 0x30
-        public ÍÏÍÌÎÏÍÎÌÌÍÎÌÏÌÌÎÏÎÍÏÏÎ _selectAvatar; // 0x38
-        public UnityEngine.UI.Button _wearAvatar; // 0x40
-        public UnityEngine.UI.Button _avatarDetails; // 0x48
-        public UnityEngine.UI.Button _addToFavorites; // 0x50
-        public UnityEngine.UI.Button _moveAvatar; // 0x58
-        public UnityEngine.UI.Button _resetHeight; // 0x60
-        public UnityEngine.GameObject _vrcplusIndicator; // 0x68
-        public UnityEngine.Color _vrcplusFavoriteColor; // 0x70
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ _wearAvatarTooltip; // 0x80
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ _favoriteAvatarTooltip; // 0x88
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ _avatarDetailsTooltip; // 0x90
-        public UnityEngine.UI.Image _overallPerformanceRatingIcon; // 0x98
-        public VRC.UI.Core.Styles.StyleElement _wearAvatarButtonStyle; // 0xA0
-        public UnityEngine.GameObject _deleteIcon; // 0xA8
-        public UnityEngine.GameObject _favIcon; // 0xB0
-        public UnityEngine.GameObject _unfavIcon; // 0xB8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÍÌÏÍÌÎÏÍÏÌÍÍÍÏÎÍÌÎÍÌÎÎÎ; // 0xC0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÍÌÎÌÍÏÏÎÏÏÎÏÍÎÍÍÏÍÍÏÏÏÌ; // 0xC8
-        public System.Action`1<ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ> ÌÎÏÍÍÏÎÍÎÎÎÏÏÎÍÌÏÎÍÎÌÎÏ; // 0xD0
-        public UnityEngine.GameObject ÌÌÎÏÎÏÎÎÍÍÌÌÎÏÎÍÎÏÎÎÌÎÎ; // 0xD8
-        public bool ÎÍÎÏÎÏÏÏÎÎÎÍÌÍÎÍÏÌÌÍÌÏÍ; // 0xE0
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD569161C0
@@ -590,90 +443,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÍÎÌÍÍÏÍÍÎÎÍÏÎÎÍÌÍÏÎÍÌ</summary>
     public class UpdateHeight_DE1F : ComplexComponent_5D5C
     {
-        public ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ ÏÏÎÏÍÍÏÏÌÍÎÍÎÎÍÌÌÍÍÏÏÌÎ; // 0x138
-        public ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ ÏÏÏÍÌÍÏÏÏÌÍÏÏÌÏÎÏÌÍÌÌÍÍ; // 0x140
-        public bool ÎÏÌÍÌÍÎÌÌÏÌÍÍÎÏÌÌÍÎÌÌÌÌ; // 0x148
-        public ÍÍÎÍÍÍÍÎÏÎÏÏÏÍÎÍÏÌÎÍÌÍÍ ÌÌÏÏÏÌÍÌÌÍÌÎÍÍÎÌÍÌÎÌÏÎÎ; // 0x150
-        public ÍÏÍÌÎÏÍÎÌÌÍÎÌÏÌÌÎÏÎÍÏÏÎ _avatarPanel; // 0x158
-        public UnityEngine.GameObject _authorDropdown; // 0x160
-        public UnityEngine.GameObject _authorCellParent; // 0x168
-        public ÎÌÍÏÎÎÍÏÎÍÎÎÏÍÎÏÏÏÍÍÌÎÍ _authorCell; // 0x170
-        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ _image; // 0x178
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _nameField; // 0x180
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _authorField; // 0x188
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _favoriteButtonText; // 0x190
-        public ÌÍÍÌÍÌÌÏÏÍÏÏÏÎÏÍÌÌÌÍÏÍÏ _lastUpdatedText; // 0x198
-        public UnityEngine.GameObject _avatarDescriptionPanel; // 0x1A0
-        public ÏÏÎÎÍÎÎÌÏÍÏÍÍÎÎÍÍÍÎÌÍÍÍ ContentWarnings; // 0x1A8
-        public UnityEngine.GameObject TagPrefab; // 0x1B0
-        public UnityEngine.GameObject ContentWarningsHeader; // 0x1B8
-        public UnityEngine.GameObject _contentWarningBanner; // 0x1C0
-        public UnityEngine.GameObject _platformPrefab; // 0x1C8
-        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ _supportedPlatformsListBinding; // 0x1D0
-        public System.Collections.Generic.List`1<VRC.DataModel.SupportedPlatformData> _supportedPlatformTags; // 0x1D8
-        public UnityEngine.UI.Button _wearAvatarButton; // 0x1E0
-        public UnityEngine.UI.Button _favoriteButton; // 0x1E8
-        public VRC.UI.Core.Styles.StyleElement _favoriteButtonIcon; // 0x1F0
-        public UnityEngine.UI.Button _documentationButton; // 0x1F8
-        public UnityEngine.UI.Toggle _modelSwitcherToggle; // 0x200
-        public UnityEngine.UI.Button _reportButton; // 0x208
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ ÍÌÎÎÏÏÌÌÎÎÎÏÏÎÍÍÌÏÍÌÏÎÍ; // 0x210
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ ÌÏÎÎÍÎÍÎÎÍÏÌÍÌÌÏÍÎÏÎÎÎÎ; // 0x218
-        public bool ÌÎÏÌÎÎÍÌÏÍÍÎÌÌÌÍÏÏÌÌÏÌÍ; // 0x220
-        public ÌÍÏÏÏÎÌÎÎÌÌÌÏÏÍÏÏÎÍÌÍÍÍ _favoriteFlow; // 0x228
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<VRC.DataModel.SupportedPlatformData>> ÌÍÎÎÏÎÏÍÏÍÍÍÎÍÎÏÏÌÌÌÌÌÍ; // 0x230
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<string>> ÌÍÎÌÌÍÍÍÌÍÌÏÏÍÎÎÎÎÎÍÌÎÌ; // 0x238
-        public string ÌÎÎÎÌÎÏÌÏÌÍÏÏÌÌÍÏÎÌÏÏÍÎ;
-        public UnityEngine.GameObject _crossPlatformCell; // 0x240
-        public UnityEngine.GameObject _androidPlatformCell; // 0x248
-        public UnityEngine.GameObject _iOSPlatformCell; // 0x250
-        public UnityEngine.GameObject _windowsPlatformCell; // 0x258
-        public UnityEngine.GameObject _sdk2Cell; // 0x260
-        public UnityEngine.GameObject _sdk3Cell; // 0x268
-        public UnityEngine.GameObject _eyelookCell; // 0x270
-        public UnityEngine.GameObject _visemesCell; // 0x278
-        public UnityEngine.GameObject _hasImpostorCell; // 0x280
-        public UnityEngine.GameObject _favoritesVRCPlusIndicator; // 0x288
-        public UnityEngine.GameObject _performanceHeader; // 0x290
-        public UnityEngine.GameObject _performanceDetails; // 0x298
-        public UnityEngine.GameObject _performanceIcon; // 0x2A0
-        public UnityEngine.GameObject _performanceText; // 0x2A8
-        public UnityEngine.GameObject _downloadIcon; // 0x2B0
-        public UnityEngine.GameObject _downloadSize; // 0x2B8
-        public UnityEngine.UI.Image _overallPerformanceRatingIcon; // 0x2C0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _polygonsField; // 0x2C8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _boundsField; // 0x2D0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _skinnedMeshesField; // 0x2D8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _meshesField; // 0x2E0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _materialSlotsField; // 0x2E8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _textureMemoryField; // 0x2F0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _physBoneComponents; // 0x2F8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _physBoneTransforms; // 0x300
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _physBoneColliders; // 0x308
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _physBoneCollisionCheckCount; // 0x310
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _contactCount; // 0x318
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _constraintsField; // 0x320
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _constraintDepthField; // 0x328
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _animatorsField; // 0x330
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _bonesField; // 0x338
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _lightsField; // 0x340
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _particleSystemsField; // 0x348
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _totalMaxParticlesField; // 0x350
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _meshParticlePolygonsField; // 0x358
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _particleTrailsField; // 0x360
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _particleCollisionsField; // 0x368
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _trailRenderersField; // 0x370
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _clothMeshesField; // 0x378
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _clothMaxVerticesField; // 0x380
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _colliderCountField; // 0x388
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _rigidbodiesField; // 0x390
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _audioSourcesField; // 0x398
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _raycastsField; // 0x3A0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _downloadSizeField; // 0x3A8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _uncompressedSizeField; // 0x3B0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _overallPerformance; // 0x3B8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _downloadSizeHeaderField; // 0x3C0
-
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x7FFD5687B460
         public void RaiseCancellation(){} // RVA: 0x7FFD5687B4C0

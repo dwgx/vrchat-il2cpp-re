@@ -14,12 +14,12 @@ namespace ThirdParty.Other.Utf8StringInterpolation
     public class Utf8StringWriter`1 : ValueType
     {
         public byte[] NewLineUtf8Bytes;
-        public System.Span`1<byte> destination; // 0x10
-        public int allocatedDestinationSize; // 0x20
-        public System.Buffers.ArrayBufferWriter`1<byte> bufferWriter; // 0x28
-        public int currentWritten; // 0x30
-        public System.IFormatProvider formatProvider; // 0x38
-        public bool calculateStringJustSize; // 0x40
+        public HaveRegistry<byte> destination;
+        public int allocatedDestinationSize;
+        public T1717743888 bufferWriter;
+        public int currentWritten;
+        public nalGetValue formatProvider;
+        public bool calculateStringJustSize;
 
         // ── Methods ──
         public void AppendFormatted(){} // RVA: 0x7FFD4E0986D0 | overloaded x36

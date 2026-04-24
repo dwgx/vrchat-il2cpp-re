@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Utils
 {
     public class GooglePurchaseBuilder : Object
     {
-        public UnityEngine.Purchasing.IGoogleCachedQueryProductDetailsService m_CachedQueryProductDetailsService; // 0x10
-        public UnityEngine.ILogger m_Logger; // 0x18
+        public ing.set_MouseCursor m_CachedQueryProductDetailsService; // 0x10
+        public Identifiers m_Logger; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240

@@ -9,11 +9,11 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
     {
         public float effectOverlay; // 0xB0
         public bool overrideEffectOverlay; // 0xB4
-        public ÎÌ backgroundMode; // 0xB8
+        public u_Axis backgroundMode; // 0xB8
         public bool overrideBackgroundMode; // 0xBC
         public int cageDownsample; // 0xC0
         public bool overrideCageDownsample; // 0xC4
-        public 0x66614380 cageAntiAliasing; // 0xC8
+        public or_Thumb_Inner_Lower cageAntiAliasing; // 0xC8
         public bool overrideCageAntiAliasing; // 0xCC
         public bool cageUpdateEveryFrame; // 0xCD
         public bool overrideCageUpdateEveryFrame; // 0xCE
@@ -23,7 +23,7 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
         public bool overrideCageFogPower; // 0xDC
         public float cageFogBlend; // 0xE0
         public bool overrideCageFogBlend; // 0xE4
-        public ÍÏÎ maskMode; // 0xE8
+        public e_Activator_Thumb_Inner_Upper maskMode; // 0xE8
         public bool overrideMaskMode; // 0xEC
         public int blurDownsample; // 0xF0
         public bool overrideBlurDownsample; // 0xF4
@@ -31,9 +31,9 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
         public bool overrideBlurDistance; // 0xFC
         public int blurPasses; // 0x100
         public bool overrideBlurPasses; // 0x104
-        public 0x66614590 blurSamples; // 0x108
+        public _Wheel_Held_Left blurSamples; // 0x108
         public bool overrideBlurSamples; // 0x10C
-        public 0x666145E8 counterVelocityMode; // 0x110
+        public esture_Wheel_Select_Right counterVelocityMode; // 0x110
         public bool overrideCounterVelocityMode; // 0x114
         public float counterVelocityResetDistance; // 0x118
         public bool overrideCounterVelocityResetDistance; // 0x11C
@@ -41,7 +41,7 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
         public bool overrideCounterVelocityResetTime; // 0x124
         public float counterVelocityStrength; // 0x128
         public bool overrideCounterVelocityStrength; // 0x12C
-        public UnityEngine.Vector3 counterVelocityPerAxis; // 0x130
+        public amut counterVelocityPerAxis; // 0x130
         public bool overrideCounterVelocityPerAxis; // 0x13C
         public bool irisZRejection; // 0x13D
         public bool overrideIrisZRejection; // 0x13E
@@ -99,25 +99,25 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
         public bool overrideAll; // 0x18
         public float effectCoverage; // 0x1C
         public bool overrideEffectCoverage; // 0x20
-        public UnityEngine.Color effectColor; // 0x24
+        public object effectColor; // 0x24
         public bool overrideEffectColor; // 0x34
         public float effectFeather; // 0x38
         public bool overrideEffectFeather; // 0x3C
         public bool applyColorToBackground; // 0x3D
         public bool overrideApplyColorToBackground; // 0x3E
-        public UnityEngine.Cubemap skybox; // 0x40
+        public tmapST skybox; // 0x40
         public bool overrideSkybox; // 0x48
-        public 0x66614850 angularVelocity; // 0x50
+        public rrayInitTypeSize=768 angularVelocity; // 0x50
         public bool overrideAngularVelocity; // 0x58
-        public 0x66614850 acceleration; // 0x60
+        public rrayInitTypeSize=768 acceleration; // 0x60
         public bool overrideAcceleration; // 0x68
-        public 0x66614850 velocity; // 0x70
+        public rrayInitTypeSize=768 velocity; // 0x70
         public bool overrideVelocity; // 0x78
         public bool useCounterMotion; // 0x79
         public bool overrideUseCounterMotion; // 0x7A
         public float counterRotationStrength; // 0x7C
         public bool overrideCounterRotationStrength; // 0x80
-        public UnityEngine.Vector3 counterRotationPerAxis; // 0x84
+        public amut counterRotationPerAxis; // 0x84
         public bool overrideCounterRotationPerAxis; // 0x90
         public bool useArtificialTilt; // 0x91
         public bool overrideUseArtificialTilt; // 0x92
@@ -127,7 +127,7 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
         public bool overrideDivideTranslation; // 0x9A
         public bool divideRotation; // 0x9B
         public bool overrideDividerotation; // 0x9C
-        public ÎÍÎÍÎÌÌÎÏÏÌÏÏÌÍÏÍ forceVignetteMode; // 0xA0
+        public or_Thumb_Outer forceVignetteMode; // 0xA0
         public bool overrideForceVignetteMode; // 0xA4
         public float forceVignetteValue; // 0xA8
         public bool overrideForceVignetteValue; // 0xAC

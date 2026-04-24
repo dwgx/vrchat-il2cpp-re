@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.System.Buffers
 {
     public class ArrayBufferWriter`1 : Object
     {
-        public byte[] WrittenMemory; // 0x10
-        public int WrittenCount; // 0x18
+        public T1717592768[] WrittenMemory;
+        public int WrittenCount;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -25,8 +25,6 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPoolEventSource : EventSource
     {
-        public System.Buffers.ArrayPoolEventSource Log;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539C66B0
         public void BufferRented(){} // RVA: 0x7FFD539C6740
@@ -39,7 +37,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
-        public System.Buffers.ArrayPool`1<0x66560128> Shared;
+        public erDecimalDigits.?<char> Shared;
 
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x7FFD4E078A90
@@ -60,7 +58,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
-        public Bucket<0x665C6FB8<Transmtn.DTO.Notifications.Notification>>[] Id; // 0x10
+        public izes<char>[] Id; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092E60
@@ -71,8 +69,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class DefaultArrayPool`1 : ArrayPool`1
     {
-        public T[] Id;
-        public Bucket<T>[] _buckets;
+        public T1717745664[] Id;
+        public izes<T1717745664>[] _buckets;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092E60 | overloaded x2
@@ -91,9 +89,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class MemoryHandle : ValueType
     {
-        public void* Pointer; // 0x10
-        public System.Runtime.InteropServices.GCHandle _handle; // 0x18
-        public 0x66440AD0 _pinnable; // 0x20
+        public IntPtr Pointer; // 0x10
+        public annelDataStore.essage _handle; // 0x18
+        public erDecimalDigits.ativeSign _pinnable; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539C6B20
@@ -114,8 +112,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequenceSegment`1 : Object
     {
-        public System.ReadOnlyMemory`1<T> Memory;
-        public System.Buffers.ReadOnlySequenceSegment`1<T> Next;
+        public oRegistry<T1717592752> Memory;
+        public erDecimalDigits.iant<T1717592752> Next;
         public long RunningIndex;
 
         // ── Methods ──
@@ -126,9 +124,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequence`1 : ValueType
     {
-        public System.SequencePosition _sequenceStart;
-        public System.SequencePosition _sequenceEnd;
-        public System.Buffers.ReadOnlySequence`1<T> Empty;
+        public object _sequenceStart;
+        public object _sequenceEnd;
+        public erDecimalDigits.tor<T1717725888> Empty;
     }
 
     public class SpanAction`2 : MulticastDelegate
@@ -161,11 +159,11 @@ namespace ThirdParty.DotNet.System.Buffers
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
         public int[] Id; // 0x10
-        public PerCoreLockedStacks<0x665C6FB8<Transmtn.DTO.Notifications.Notification>>[] _buckets; // 0x18
-        public 0x665C6FB8<Transmtn.DTO.Notifications.Notification>[][] t_tlsBuckets; // 0xFFFF
+        public rencyPositivePattern<char>[] _buckets; // 0x18
+        public char[][] t_tlsBuckets; // 0xFFFFFFFF
         public int _callbackCreated; // 0x20
         public bool s_trimBuffers;
-        public System.Runtime.CompilerServices.ConditionalWeakTable`2<0x665C6FB8<Transmtn.DTO.Notifications.Notification>[][],object> s_allTlsBuckets; // 0x8
+        public ArgCount.ent<char[][],object> s_allTlsBuckets; // 0x8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980

@@ -7,7 +7,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class RectFormatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD5543AC40
@@ -18,7 +18,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ReflectionFormatter`1 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy OverridePolicy;
+        public CullingUpdateMarker OverridePolicy;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51CC0650 | overloaded x2
@@ -36,7 +36,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class RegisterDictionaryKeyPathProviderAttribute : Attribute
     {
-        public System.Type ProviderType; // 0x10
+        public object ProviderType; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -44,7 +44,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class RegisterFormatterAttribute : Attribute
     {
-        public System.Type FormatterType; // 0x10
+        public object FormatterType; // 0x10
         public int Priority; // 0x18
 
         // ── Methods ──
@@ -57,7 +57,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class RegisterFormatterLocatorAttribute : Attribute
     {
-        public System.Type FormatterLocatorType; // 0x10
+        public object FormatterLocatorType; // 0x10
         public int Priority; // 0x18
 
         // ── Methods ──

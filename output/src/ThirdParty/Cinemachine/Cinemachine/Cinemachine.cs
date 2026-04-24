@@ -19,7 +19,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class AxisState : ValueType
     {
         public float HasInputProvider; // 0x10
-        public 0x66589FD0 ValueRangeLocked; // 0x14
+        public verSerializesTypes ValueRangeLocked; // 0x14
         public float HasRecentering; // 0x18
         public float m_AccelTime; // 0x1C
         public float m_DecelTime; // 0x20
@@ -29,12 +29,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public float m_MinValue; // 0x38
         public float m_MaxValue; // 0x3C
         public bool m_Wrap; // 0x40
-        public Recentering m_Recentering; // 0x44
+        public SerializeCache_UnityPolicy m_Recentering; // 0x44
         public float m_CurrentSpeed; // 0x64
         public float m_LastUpdateTime; // 0x68
         public int m_LastUpdateFrame; // 0x6C
         public float Epsilon;
-        public IInputAxisProvider m_InputAxisProvider; // 0x70
+        public everSerializesTypeNames m_InputAxisProvider; // 0x70
         public int m_InputAxisIndex; // 0x78
         public bool <ValueRangeLocked>k__BackingField; // 0x7C
         public bool <HasRecentering>k__BackingField; // 0x7D
@@ -63,11 +63,11 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class BlendSourceVirtualCamera : Object
     {
-        public Cinemachine.CinemachineBlend Blend; // 0x10
+        public EXTERNAL_INDEX_REF_SIG.ty Blend; // 0x10
         public int Name; // 0x18
-        public UnityEngine.Transform Description; // 0x20
-        public UnityEngine.Transform Priority; // 0x28
-        public Cinemachine.CameraState LookAt; // 0x30
+        public object Description; // 0x20
+        public object Priority; // 0x28
+        public EXTERNAL_INDEX_REF_SIG.eResult LookAt; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -96,22 +96,22 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CameraState : ValueType
     {
-        public Cinemachine.LensSettings HasLookAt; // 0x10
-        public UnityEngine.Vector3 CorrectedPosition; // 0x44
-        public UnityEngine.Vector3 CorrectedOrientation; // 0x50
-        public UnityEngine.Vector3 FinalPosition;
-        public UnityEngine.Vector3 FinalOrientation; // 0x5C
-        public UnityEngine.Quaternion Default; // 0x68
-        public UnityEngine.Vector3 NumCustomBlendables; // 0x78
+        public EXTERNAL_INDEX_REF_SIG.er HasLookAt; // 0x10
+        public amut CorrectedPosition; // 0x44
+        public amut CorrectedOrientation; // 0x50
+        public amut FinalPosition;
+        public amut FinalOrientation; // 0x5C
+        public R_12x12 Default; // 0x68
+        public amut NumCustomBlendables; // 0x78
         public float ShotQuality; // 0x84
-        public UnityEngine.Vector3 PositionCorrection; // 0x88
-        public UnityEngine.Quaternion OrientationCorrection; // 0x94
-        public 0x6658A130 BlendHint; // 0xA4
-        public CustomBlendable mCustom0; // 0xA8
-        public CustomBlendable mCustom1; // 0xB8
-        public CustomBlendable mCustom2; // 0xC8
-        public CustomBlendable mCustom3; // 0xD8
-        public System.Collections.Generic.List`1<CustomBlendable> m_CustomOverflow; // 0xE8
+        public amut PositionCorrection; // 0x88
+        public R_12x12 OrientationCorrection; // 0x94
+        public lement BlendHint; // 0xA4
+        public iasProperty mCustom0; // 0xA8
+        public iasProperty mCustom1; // 0xB8
+        public iasProperty mCustom2; // 0xC8
+        public iasProperty mCustom3; // 0xD8
+        public URA.woDigitYearMax<iasProperty> m_CustomOverflow; // 0xE8
         public int <NumCustomBlendables>k__BackingField; // 0xF0
 
         // ── Methods ──
@@ -136,11 +136,11 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class Cinemachine3rdPersonAim : CinemachineExtension
     {
-        public UnityEngine.LayerMask AimTarget; // 0x30
+        public object AimTarget; // 0x30
         public string IgnoreTag; // 0x38
         public float AimDistance; // 0x40
-        public UnityEngine.RectTransform AimTargetReticle; // 0x48
-        public UnityEngine.Vector3 <AimTarget>k__BackingField; // 0x50
+        public 16 AimTargetReticle; // 0x48
+        public amut <AimTarget>k__BackingField; // 0x50
 
         // ── Methods ──
         public void get_AimTarget(){} // RVA: 0x7FFD4E3A7FA0
@@ -157,18 +157,18 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class Cinemachine3rdPersonFollow : CinemachineComponentBase
     {
-        public UnityEngine.Vector3 IsValid; // 0x28
-        public UnityEngine.Vector3 Stage; // 0x34
+        public amut IsValid; // 0x28
+        public amut Stage; // 0x34
         public float VerticalArmLength; // 0x40
         public float CameraSide; // 0x44
         public float CameraDistance; // 0x48
-        public UnityEngine.LayerMask CameraCollisionFilter; // 0x4C
+        public object CameraCollisionFilter; // 0x4C
         public string IgnoreTag; // 0x50
         public float CameraRadius; // 0x58
         public float DampingIntoCollision; // 0x5C
         public float DampingFromCollision; // 0x60
-        public UnityEngine.Vector3 m_PreviousFollowTargetPosition; // 0x64
-        public UnityEngine.Vector3 m_DampingCorrection; // 0x70
+        public amut m_PreviousFollowTargetPosition; // 0x64
+        public amut m_DampingCorrection; // 0x70
         public float m_CamPosCollisionCorrection; // 0x7C
 
         // ── Methods ──
@@ -190,13 +190,13 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBasicMultiChannelPerlin : CinemachineComponentBase
     {
-        public Cinemachine.NoiseSettings IsValid; // 0x28
-        public UnityEngine.Vector3 Stage; // 0x30
+        public EXTERNAL_INDEX_REF_SIG.iewPlay IsValid; // 0x28
+        public amut Stage; // 0x30
         public float m_AmplitudeGain; // 0x3C
         public float m_FrequencyGain; // 0x40
         public bool mInitialized; // 0x44
         public float mNoiseTime; // 0x48
-        public UnityEngine.Vector3 mNoiseOffsets; // 0x4C
+        public amut mNoiseOffsets; // 0x4C
 
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x7FFD4FC41BE0
@@ -209,9 +209,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBlend : Object
     {
-        public Cinemachine.ICinemachineCamera BlendWeight; // 0x10
-        public Cinemachine.ICinemachineCamera IsValid; // 0x18
-        public UnityEngine.AnimationCurve IsComplete; // 0x20
+        public EXTERNAL_INDEX_REF_SIG.Callback BlendWeight; // 0x10
+        public EXTERNAL_INDEX_REF_SIG.Callback IsValid; // 0x18
+        public ÍÎÌÍÍÌÌÎÏÏ IsComplete; // 0x20
         public float Description; // 0x28
         public float State; // 0x2C
 
@@ -228,10 +228,10 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBlendDefinition : ValueType
     {
-        public 0x6658A290 BlendTime; // 0x10
+        public Property BlendTime; // 0x10
         public float BlendCurve; // 0x14
-        public UnityEngine.AnimationCurve m_CustomCurve; // 0x18
-        public UnityEngine.AnimationCurve[] sStandardCurves;
+        public ÍÎÌÍÍÌÌÎÏÏ m_CustomCurve; // 0x18
+        public ÍÎÌÍÍÌÌÎÏÏ[] sStandardCurves;
 
         // ── Methods ──
         public void get_BlendTime(){} // RVA: 0x7FFD4FC5DDB0
@@ -248,18 +248,18 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBlendListCamera : CinemachineVirtualCameraBase
     {
-        public UnityEngine.Transform Description; // 0xA8
-        public UnityEngine.Transform LiveChild; // 0xB0
+        public object Description; // 0xA8
+        public object LiveChild; // 0xB0
         public bool State; // 0xB8
         public bool LookAt; // 0xB9
-        public Cinemachine.CinemachineVirtualCameraBase[] Follow; // 0xC0
-        public Instruction[] ChildCameras; // 0xC8
-        public Cinemachine.ICinemachineCamera IsBlending; // 0xD0
-        public Cinemachine.ICinemachineCamera m_TransitioningFrom; // 0xD8
-        public Cinemachine.CameraState m_State; // 0xE0
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter[] Follow; // 0xC0
+        public ryQuote[] ChildCameras; // 0xC8
+        public EXTERNAL_INDEX_REF_SIG.Callback IsBlending; // 0xD0
+        public EXTERNAL_INDEX_REF_SIG.Callback m_TransitioningFrom; // 0xD8
+        public EXTERNAL_INDEX_REF_SIG.eResult m_State; // 0xE0
         public float mActivationTime; // 0x1C8
         public int mCurrentInstruction; // 0x1CC
-        public Cinemachine.CinemachineBlend mActiveBlend; // 0x1D0
+        public EXTERNAL_INDEX_REF_SIG.ty mActiveBlend; // 0x1D0
 
         // ── Methods ──
         public void get_Description(){} // RVA: 0x7FFD4FC0F770
@@ -291,7 +291,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBlenderSettings : ScriptableObject
     {
-        public CustomBlend[] m_CustomBlends; // 0x18
+        public GenericInterface[] m_CustomBlends; // 0x18
         public string kBlendFromAnyCameraLabel;
 
         // ── Methods ──
@@ -304,26 +304,26 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public bool OutputCamera; // 0x20
         public bool ControlledObject; // 0x21
         public bool SoloCamera; // 0x22
-        public UnityEngine.Transform DefaultWorldUp; // 0x28
-        public 0x665883F8 ActiveVirtualCamera; // 0x30
-        public 0x66588450 IsBlending; // 0x34
-        public Cinemachine.CinemachineBlendDefinition ActiveBlend; // 0x38
-        public Cinemachine.CinemachineBlenderSettings CurrentCameraState; // 0x48
-        public UnityEngine.Camera m_OutputCamera; // 0x50
-        public UnityEngine.GameObject m_TargetOverride; // 0x58
-        public BrainEvent m_CameraCutEvent; // 0x60
-        public VcamActivatedEvent m_CameraActivatedEvent; // 0x68
-        public Cinemachine.ICinemachineCamera mSoloCamera;
-        public UnityEngine.Coroutine mPhysicsCoroutine; // 0x70
+        public object DefaultWorldUp; // 0x28
+        public or ActiveVirtualCamera; // 0x30
+        public DoubleLookupDictionaryFormatter`3 IsBlending; // 0x34
+        public EXTERNAL_INDEX_REF_SIG.racter ActiveBlend; // 0x38
+        public EXTERNAL_INDEX_REF_SIG.GenericClass CurrentCameraState; // 0x48
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ m_OutputCamera; // 0x50
+        public BuffersImpl m_TargetOverride; // 0x58
+        public naryFormatter`3 m_CameraCutEvent; // 0x60
+        public er`3 m_CameraActivatedEvent; // 0x68
+        public EXTERNAL_INDEX_REF_SIG.Callback mSoloCamera;
+        public ts mPhysicsCoroutine; // 0x70
         public int m_LastFrameUpdated; // 0x78
-        public UnityEngine.WaitForFixedUpdate mWaitForFixedUpdate; // 0x80
-        public System.Collections.Generic.List`1<BrainFrame> mFrameStack; // 0x88
+        public able mWaitForFixedUpdate; // 0x80
+        public URA.woDigitYearMax<riter> mFrameStack; // 0x88
         public int mNextFrameId; // 0x90
-        public Cinemachine.CinemachineBlend mCurrentLiveCameras; // 0x98
-        public UnityEngine.AnimationCurve mDefaultLinearAnimationCurve; // 0x8
-        public Cinemachine.ICinemachineCamera mActiveCameraPreviousFrame; // 0xA0
-        public UnityEngine.GameObject mActiveCameraPreviousFrameGameObject; // 0xA8
-        public Cinemachine.CameraState <CurrentCameraState>k__BackingField; // 0xB0
+        public EXTERNAL_INDEX_REF_SIG.ty mCurrentLiveCameras; // 0x98
+        public ÍÎÌÍÍÌÌÎÏÏ mDefaultLinearAnimationCurve; // 0x8
+        public EXTERNAL_INDEX_REF_SIG.Callback mActiveCameraPreviousFrame; // 0xA0
+        public BuffersImpl mActiveCameraPreviousFrameGameObject; // 0xA8
+        public EXTERNAL_INDEX_REF_SIG.eResult <CurrentCameraState>k__BackingField; // 0xB0
 
         // ── Methods ──
         public void get_OutputCamera(){} // RVA: 0x7FFD4FC11C90
@@ -369,24 +369,24 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineClearShot : CinemachineVirtualCameraBase
     {
-        public UnityEngine.Transform Description; // 0xA8
-        public UnityEngine.Transform LiveChild; // 0xB0
+        public object Description; // 0xA8
+        public object LiveChild; // 0xB0
         public bool State; // 0xB8
-        public Cinemachine.CinemachineVirtualCameraBase[] LookAt; // 0xC0
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter[] LookAt; // 0xC0
         public float Follow; // 0xC8
         public float IsBlending; // 0xCC
         public bool ActiveBlend; // 0xD0
-        public Cinemachine.CinemachineBlendDefinition ChildCameras; // 0xD8
-        public Cinemachine.CinemachineBlenderSettings m_CustomBlends; // 0xE8
-        public Cinemachine.ICinemachineCamera <LiveChild>k__BackingField; // 0xF0
-        public Cinemachine.CameraState m_State; // 0xF8
+        public EXTERNAL_INDEX_REF_SIG.racter ChildCameras; // 0xD8
+        public EXTERNAL_INDEX_REF_SIG.GenericClass m_CustomBlends; // 0xE8
+        public EXTERNAL_INDEX_REF_SIG.Callback <LiveChild>k__BackingField; // 0xF0
+        public EXTERNAL_INDEX_REF_SIG.eResult m_State; // 0xF8
         public float mActivationTime; // 0x1E0
         public float mPendingActivationTime; // 0x1E4
-        public Cinemachine.ICinemachineCamera mPendingCamera; // 0x1E8
-        public Cinemachine.CinemachineBlend mActiveBlend; // 0x1F0
+        public EXTERNAL_INDEX_REF_SIG.Callback mPendingCamera; // 0x1E8
+        public EXTERNAL_INDEX_REF_SIG.ty mActiveBlend; // 0x1F0
         public bool mRandomizeNow; // 0x1F8
-        public Cinemachine.CinemachineVirtualCameraBase[] m_RandomizedChilden; // 0x200
-        public Cinemachine.ICinemachineCamera m_TransitioningFrom; // 0x208
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter[] m_RandomizedChilden; // 0x200
+        public EXTERNAL_INDEX_REF_SIG.Callback m_TransitioningFrom; // 0x208
 
         // ── Methods ──
         public void get_Description(){} // RVA: 0x7FFD4FC179B0
@@ -420,24 +420,24 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineCollider : CinemachineExtension
     {
-        public UnityEngine.LayerMask DebugPaths; // 0x30
+        public object DebugPaths; // 0x30
         public string m_IgnoreTag; // 0x38
-        public UnityEngine.LayerMask m_TransparentLayers; // 0x40
+        public object m_TransparentLayers; // 0x40
         public float m_MinimumDistanceFromTarget; // 0x44
         public bool m_AvoidObstacles; // 0x48
         public float m_DistanceLimit; // 0x4C
         public float m_MinimumOcclusionTime; // 0x50
         public float m_CameraRadius; // 0x54
-        public 0x66588768 m_Strategy; // 0x58
+        public alizableFormatter`1 m_Strategy; // 0x58
         public int m_MaximumEffort; // 0x5C
         public float m_SmoothingTime; // 0x60
         public float m_Damping; // 0x64
         public float m_DampingWhenOccluded; // 0x68
         public float m_OptimalTargetDistance; // 0x6C
         public float k_PrecisionSlush;
-        public UnityEngine.RaycastHit[] m_CornerBuffer; // 0x70
+        public ColorScaleAndOffset[] m_CornerBuffer; // 0x70
         public float k_AngleThreshold;
-        public UnityEngine.Collider[] s_ColliderBuffer;
+        public riteCharacterUnicode[] s_ColliderBuffer;
 
         // ── Methods ──
         public void IsTargetObscured(){} // RVA: 0x7FFD4FC1A880
@@ -464,13 +464,13 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineCollisionImpulseSource : CinemachineImpulseSource
     {
-        public UnityEngine.LayerMask m_LayerMask; // 0x38
+        public object m_LayerMask; // 0x38
         public string m_IgnoreTag; // 0x40
         public bool m_UseImpactDirection; // 0x48
         public bool m_ScaleImpactWithMass; // 0x49
         public bool m_ScaleImpactWithSpeed; // 0x4A
-        public UnityEngine.Rigidbody mRigidBody; // 0x50
-        public UnityEngine.Rigidbody2D mRigidBody2D; // 0x58
+        public Touched mRigidBody; // 0x50
+        public nfluence mRigidBody2D; // 0x58
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4FC74910
@@ -489,7 +489,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachineComponentBase : MonoBehaviour
     {
         public float VirtualCamera;
-        public Cinemachine.CinemachineVirtualCameraBase FollowTarget; // 0x20
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter FollowTarget; // 0x20
 
         // ── Methods ──
         public void get_VirtualCamera(){} // RVA: 0x7FFD4FC5F110
@@ -519,7 +519,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineComposer : CinemachineComponentBase
     {
-        public UnityEngine.Vector3 IsValid; // 0x28
+        public amut IsValid; // 0x28
         public float Stage; // 0x34
         public float TrackedPoint; // 0x38
         public bool SoftGuideRect; // 0x3C
@@ -534,13 +534,13 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public float m_BiasX; // 0x60
         public float m_BiasY; // 0x64
         public bool m_CenterOnActivate; // 0x68
-        public UnityEngine.Vector3 <TrackedPoint>k__BackingField; // 0x6C
-        public UnityEngine.Vector3 m_CameraPosPrevFrame; // 0x78
-        public UnityEngine.Vector3 m_LookAtPrevFrame; // 0x84
-        public UnityEngine.Vector2 m_ScreenOffsetPrevFrame; // 0x90
-        public UnityEngine.Quaternion m_CameraOrientationPrevFrame; // 0x98
-        public Cinemachine.Utility.PositionPredictor m_Predictor; // 0xA8
-        public FovCache mCache; // 0xB0
+        public amut <TrackedPoint>k__BackingField; // 0x6C
+        public amut m_CameraPosPrevFrame; // 0x78
+        public amut m_LookAtPrevFrame; // 0x84
+        public tionX m_ScreenOffsetPrevFrame; // 0x90
+        public R_12x12 m_CameraOrientationPrevFrame; // 0x98
+        public amera.FrequencyGain m_Predictor; // 0xA8
+        public entPaths mCache; // 0xB0
 
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x7FFD4FC42C00
@@ -564,13 +564,13 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineConfiner : CinemachineExtension
     {
-        public 0x66588870 IsValid; // 0x30
-        public UnityEngine.Collider m_BoundingVolume; // 0x38
-        public UnityEngine.Collider2D m_BoundingShape2D; // 0x40
-        public UnityEngine.Collider2D m_BoundingShape2DCache; // 0x48
+        public object IsValid; // 0x30
+        public riteCharacterUnicode m_BoundingVolume; // 0x38
+        public eRetain m_BoundingShape2D; // 0x40
+        public eRetain m_BoundingShape2DCache; // 0x48
         public bool m_ConfineScreenEdges; // 0x50
         public float m_Damping; // 0x54
-        public System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.Vector2>> m_pathCache; // 0x58
+        public URA.woDigitYearMax<URA.woDigitYearMax<tionX>> m_pathCache; // 0x58
         public int m_pathTotalPointCount; // 0x60
 
         // ── Methods ──
@@ -590,13 +590,13 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineConfiner2D : CinemachineExtension
     {
-        public UnityEngine.Collider2D m_BoundingShape2D; // 0x30
+        public eRetain m_BoundingShape2D; // 0x30
         public float m_Damping; // 0x38
         public float m_MaxWindowSize; // 0x3C
         public float m_Padding; // 0x40
         public float m_MaxComputationTimePerFrameInSeconds; // 0x44
         public float k_cornerAngleTreshold;
-        public ShapeCache m_shapeCache; // 0x48
+        public ldTypeName m_shapeCache; // 0x48
 
         // ── Methods ──
         public void InvalidateCache(){} // RVA: 0x7FFD4FC22C70
@@ -611,25 +611,25 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachineCore : Object
     {
         public int Instance;
-        public Cinemachine.CinemachineCore DeltaTime; // 0x8
+        public EXTERNAL_INDEX_REF_SIG.cParameterConstraintsString DeltaTime; // 0x8
         public bool CurrentTime; // 0x10
-        public AxisInputDelegate BrainCount; // 0x18
+        public ternatives BrainCount; // 0x18
         public float VirtualCameraCount; // 0x20
         public float CurrentTimeOverride; // 0x24
-        public GetBlendOverrideDelegate GetBlendOverride; // 0x28
-        public BrainEvent CameraUpdatedEvent; // 0x30
-        public BrainEvent CameraCutEvent; // 0x38
-        public System.Collections.Generic.List`1<Cinemachine.CinemachineBrain> mActiveBrains; // 0x10
+        public iceNames_LOCK GetBlendOverride; // 0x28
+        public naryFormatter`3 CameraUpdatedEvent; // 0x30
+        public naryFormatter`3 CameraCutEvent; // 0x38
+        public URA.woDigitYearMax<EXTERNAL_INDEX_REF_SIG.tance> mActiveBrains; // 0x10
         public bool FrameDeltaCompensationEnabled; // 0x40
-        public System.Collections.Generic.List`1<Cinemachine.CinemachineVirtualCameraBase> mActiveCameras; // 0x18
+        public URA.woDigitYearMax<EXTERNAL_INDEX_REF_SIG.StaticFieldGetter> mActiveCameras; // 0x18
         public bool m_ActiveCamerasAreSorted; // 0x20
         public int m_ActivationSequence; // 0x24
-        public System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.CinemachineVirtualCameraBase>> mAllCameras; // 0x28
-        public Cinemachine.CinemachineVirtualCameraBase mRoundRobinVcamLastFrame; // 0x30
+        public URA.woDigitYearMax<URA.woDigitYearMax<EXTERNAL_INDEX_REF_SIG.StaticFieldGetter>> mAllCameras; // 0x28
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter mRoundRobinVcamLastFrame; // 0x30
         public float s_LastUpdateTime; // 0x44
         public int s_FixedFrameCount; // 0x48
-        public System.Collections.Generic.Dictionary`2<Cinemachine.CinemachineVirtualCameraBase,UpdateStatus> mUpdateStatus; // 0x38
-        public 0x6658A6B0 m_CurrentUpdateFilter; // 0x40
+        public URA.DateTime<EXTERNAL_INDEX_REF_SIG.StaticFieldGetter,et_ConverterTypeName> mUpdateStatus; // 0x38
+        public ComparerDelegate>b__37_0 m_CurrentUpdateFilter; // 0x40
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD4FC606B0
@@ -663,9 +663,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineDollyCart : MonoBehaviour
     {
-        public Cinemachine.CinemachinePathBase m_Path; // 0x20
-        public 0x66588A80 m_UpdateMethod; // 0x28
-        public 0x6658A918 m_PositionUnits; // 0x2C
+        public EXTERNAL_INDEX_REF_SIG.erInfo>.get_Current m_Path; // 0x20
+        public or m_UpdateMethod; // 0x28
+        public ationReceiver m_PositionUnits; // 0x2C
         public float m_Speed; // 0x30
         public float m_Position; // 0x34
 
@@ -688,8 +688,8 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachineExtension : MonoBehaviour
     {
         public float VirtualCamera;
-        public Cinemachine.CinemachineVirtualCameraBase RequiresUserInput; // 0x20
-        public System.Collections.Generic.Dictionary`2<Cinemachine.ICinemachineCamera,object> mExtraState; // 0x28
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter RequiresUserInput; // 0x20
+        public URA.DateTime<EXTERNAL_INDEX_REF_SIG.Callback,object> mExtraState; // 0x28
 
         // ── Methods ──
         public void get_VirtualCamera(){} // RVA: 0x7FFD4FC63A80
@@ -713,11 +713,11 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineExternalCamera : CinemachineVirtualCameraBase
     {
-        public UnityEngine.Transform State; // 0xA8
-        public UnityEngine.Camera LookAt; // 0xB0
-        public Cinemachine.CameraState Follow; // 0xB8
-        public UnityEngine.Transform <Follow>k__BackingField; // 0x1A0
-        public 0x6658AE40 m_BlendHint; // 0x1A8
+        public object State; // 0xA8
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ LookAt; // 0xB0
+        public EXTERNAL_INDEX_REF_SIG.eResult Follow; // 0xB8
+        public object <Follow>k__BackingField; // 0x1A0
+        public ias m_BlendHint; // 0x1A8
 
         // ── Methods ──
         public void get_State(){} // RVA: 0x7FFD4FC24E00
@@ -731,9 +731,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineFixedSignal : SignalSourceAsset
     {
-        public UnityEngine.AnimationCurve SignalDuration; // 0x18
-        public UnityEngine.AnimationCurve m_YCurve; // 0x20
-        public UnityEngine.AnimationCurve m_ZCurve; // 0x28
+        public ÍÎÌÍÍÌÌÎÏÏ SignalDuration; // 0x18
+        public ÍÎÌÍÍÌÌÎÏÏ m_YCurve; // 0x20
+        public ÍÎÌÍÍÌÌÎÏÏ m_ZCurve; // 0x28
 
         // ── Methods ──
         public void get_SignalDuration(){} // RVA: 0x7FFD4FC75E10
@@ -759,7 +759,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineFramingTransposer : CinemachineComponentBase
     {
-        public UnityEngine.Vector3 SoftGuideRect; // 0x28
+        public amut SoftGuideRect; // 0x28
         public float HardGuideRect; // 0x34
         public float IsValid; // 0x38
         public bool Stage; // 0x3C
@@ -779,8 +779,8 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public float m_BiasX; // 0x74
         public float m_BiasY; // 0x78
         public bool m_CenterOnActivate; // 0x7C
-        public 0x66589840 m_GroupFramingMode; // 0x80
-        public 0x66589898 m_AdjustmentMode; // 0x84
+        public BlockFormatterLocator m_GroupFramingMode; // 0x80
+        public rmatter`1 m_AdjustmentMode; // 0x84
         public float m_GroupFramingSize; // 0x88
         public float m_MaxDollyIn; // 0x8C
         public float m_MaxDollyOut; // 0x90
@@ -792,14 +792,14 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public float m_MaximumOrthoSize; // 0xA8
         public float kMinimumCameraDistance;
         public float kMinimumGroupSize;
-        public UnityEngine.Vector3 m_PreviousCameraPosition; // 0xAC
-        public Cinemachine.Utility.PositionPredictor m_Predictor; // 0xB8
-        public UnityEngine.Vector3 <TrackedPoint>k__BackingField; // 0xC0
+        public amut m_PreviousCameraPosition; // 0xAC
+        public amera.FrequencyGain m_Predictor; // 0xB8
+        public amut <TrackedPoint>k__BackingField; // 0xC0
         public bool m_InheritingPosition; // 0xCC
         public float m_prevFOV; // 0xD0
-        public UnityEngine.Quaternion m_prevRotation; // 0xD4
-        public UnityEngine.Bounds <LastBounds>k__BackingField; // 0xE4
-        public UnityEngine.Matrix4x4 <LastBoundsMatrix>k__BackingField; // 0xFC
+        public R_12x12 m_prevRotation; // 0xD4
+        public stments <LastBounds>k__BackingField; // 0xE4
+        public tSizeBias <LastBoundsMatrix>k__BackingField; // 0xFC
 
         // ── Methods ──
         public void get_SoftGuideRect(){} // RVA: 0x7FFD4FC459F0
@@ -831,37 +831,37 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineFreeLook : CinemachineVirtualCameraBase
     {
-        public UnityEngine.Transform RigsAreCreated; // 0xA8
-        public UnityEngine.Transform RigNames; // 0xB0
+        public object RigsAreCreated; // 0xA8
+        public object RigNames; // 0xB0
         public bool PreviousStateIsValid; // 0xB8
-        public Cinemachine.LensSettings State; // 0xBC
-        public TransitionParams LookAt; // 0xF0
-        public 0x6658AE40 Follow; // 0x100
-        public Cinemachine.AxisState m_YAxis; // 0x108
-        public Recentering m_YAxisRecentering; // 0x178
-        public Cinemachine.AxisState m_XAxis; // 0x198
-        public Heading m_Heading; // 0x208
-        public Recentering m_RecenterToTargetHeading; // 0x214
-        public 0x66589EC8 m_BindingMode; // 0x234
+        public EXTERNAL_INDEX_REF_SIG.er State; // 0xBC
+        public FieldGetter>b__0 LookAt; // 0xF0
+        public ias Follow; // 0x100
+        public EXTERNAL_INDEX_REF_SIG.? m_YAxis; // 0x108
+        public SerializeCache_UnityPolicy m_YAxisRecentering; // 0x178
+        public EXTERNAL_INDEX_REF_SIG.? m_XAxis; // 0x198
+        public tionFormat m_Heading; // 0x208
+        public SerializeCache_UnityPolicy m_RecenterToTargetHeading; // 0x214
+        public ize m_BindingMode; // 0x234
         public float m_SplineCurvature; // 0x238
-        public Orbit[] m_Orbits; // 0x240
+        public ?[] m_Orbits; // 0x240
         public float m_LegacyHeadingBias; // 0x248
         public bool mUseLegacyRigDefinitions; // 0x24C
         public bool mIsDestroyed; // 0x24D
-        public Cinemachine.CameraState m_State; // 0x250
-        public Cinemachine.CinemachineVirtualCamera[] m_Rigs; // 0x338
-        public Cinemachine.CinemachineOrbitalTransposer[] mOrbitals; // 0x340
-        public Cinemachine.CinemachineBlend mBlendA; // 0x348
-        public Cinemachine.CinemachineBlend mBlendB; // 0x350
-        public CreateRigDelegate CreateRigOverride;
-        public DestroyRigDelegate DestroyRigOverride; // 0x8
+        public EXTERNAL_INDEX_REF_SIG.eResult m_State; // 0x250
+        public EXTERNAL_INDEX_REF_SIG.ternalReferenceId[] m_Rigs; // 0x338
+        public EXTERNAL_INDEX_REF_SIG.matter[] mOrbitals; // 0x340
+        public EXTERNAL_INDEX_REF_SIG.ty mBlendA; // 0x348
+        public EXTERNAL_INDEX_REF_SIG.ty mBlendB; // 0x350
+        public itiveType CreateRigOverride;
+        public iveArrayType DestroyRigOverride; // 0x8
         public float m_CachedXAxisHeading; // 0x358
         public float m_LastHeadingUpdateFrame; // 0x35C
-        public Orbit[] m_CachedOrbits; // 0x360
+        public ?[] m_CachedOrbits; // 0x360
         public float m_CachedTension; // 0x368
-        public UnityEngine.Vector4[] m_CachedKnots; // 0x370
-        public UnityEngine.Vector4[] m_CachedCtrl1; // 0x378
-        public UnityEngine.Vector4[] m_CachedCtrl2; // 0x380
+        public get_boundingBoxMode[] m_CachedKnots; // 0x370
+        public get_boundingBoxMode[] m_CachedCtrl1; // 0x378
+        public get_boundingBoxMode[] m_CachedCtrl2; // 0x380
 
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x7FFD4FC26140
@@ -910,9 +910,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachineGroupComposer : CinemachineComposer
     {
         public float LastBounds; // 0x100
-        public 0x66589948 LastBoundsMatrix; // 0x104
+        public BlockFormatterLocator LastBoundsMatrix; // 0x104
         public float m_FrameDamping; // 0x108
-        public 0x665899A0 m_AdjustmentMode; // 0x10C
+        public rmatter`1 m_AdjustmentMode; // 0x10C
         public float m_MaxDollyIn; // 0x110
         public float m_MaxDollyOut; // 0x114
         public float m_MinimumDistance; // 0x118
@@ -923,8 +923,8 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public float m_MaximumOrthoSize; // 0x12C
         public float m_prevFramingDistance; // 0x130
         public float m_prevFOV; // 0x134
-        public UnityEngine.Bounds <LastBounds>k__BackingField; // 0x138
-        public UnityEngine.Matrix4x4 <LastBoundsMatrix>k__BackingField; // 0x150
+        public stments <LastBounds>k__BackingField; // 0x138
+        public tSizeBias <LastBoundsMatrix>k__BackingField; // 0x150
 
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x7FFD4FC494A0
@@ -942,7 +942,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachineHardLockToTarget : CinemachineComponentBase
     {
         public float IsValid; // 0x28
-        public UnityEngine.Vector3 Stage; // 0x2C
+        public amut Stage; // 0x2C
 
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x7FFD4FC4AFF0
@@ -973,23 +973,23 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachineImpulseDefinition : Object
     {
         public int ImpulseCurve; // 0x10
-        public 0x6658BC58 m_ImpulseShape; // 0x14
-        public UnityEngine.AnimationCurve m_CustomImpulseShape; // 0x18
+        public ime m_ImpulseShape; // 0x14
+        public ÍÎÌÍÍÌÌÎÏÏ m_CustomImpulseShape; // 0x18
         public float m_ImpulseDuration; // 0x20
-        public 0x6658BCB0 m_ImpulseType; // 0x24
+        public omizeNow m_ImpulseType; // 0x24
         public float m_DissipationRate; // 0x28
-        public Cinemachine.SignalSourceAsset m_RawSignal; // 0x30
+        public EXTERNAL_INDEX_REF_SIG.get_Follow m_RawSignal; // 0x30
         public float m_AmplitudeGain; // 0x38
         public float m_FrequencyGain; // 0x3C
-        public 0x6658BD08 m_RepeatMode; // 0x40
+        public _0 m_RepeatMode; // 0x40
         public bool m_Randomize; // 0x44
-        public EnvelopeDefinition m_TimeEnvelope; // 0x48
+        public nOccluded m_TimeEnvelope; // 0x48
         public float m_ImpactRadius; // 0x68
-        public 0x6658C020 m_DirectionMode; // 0x6C
-        public 0x6658C078 m_DissipationMode; // 0x70
+        public teDistanceSmoothing m_DirectionMode; // 0x6C
+        public Smoothing m_DissipationMode; // 0x70
         public float m_DissipationDistance; // 0x74
         public float m_PropagationSpeed; // 0x78
-        public UnityEngine.AnimationCurve[] sStandardShapes;
+        public ÍÎÌÍÍÌÌÎÏÏ[] sStandardShapes;
 
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x7FFD4FC761D0
@@ -1016,12 +1016,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineImpulseListener : CinemachineExtension
     {
-        public 0x6658A550 m_ApplyAfter; // 0x30
+        public NSIGNED_BYTE m_ApplyAfter; // 0x30
         public int m_ChannelMask; // 0x34
         public float m_Gain; // 0x38
         public bool m_Use2DDistance; // 0x3C
         public bool m_UseCameraSpace; // 0x3D
-        public ImpulseReaction m_ReactionSettings; // 0x40
+        public raInFrontOfNearestObstacle m_ReactionSettings; // 0x40
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4FC780E0
@@ -1031,10 +1031,10 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineImpulseManager : Object
     {
-        public Cinemachine.CinemachineImpulseManager Instance;
+        public EXTERNAL_INDEX_REF_SIG.creen Instance;
         public float CurrentTime;
-        public System.Collections.Generic.List`1<ImpulseEvent> m_ExpiredEvents; // 0x10
-        public System.Collections.Generic.List`1<ImpulseEvent> m_ActiveEvents; // 0x18
+        public URA.woDigitYearMax<rd> m_ExpiredEvents; // 0x10
+        public URA.woDigitYearMax<rd> m_ActiveEvents; // 0x18
         public bool IgnoreTimeScale; // 0x20
 
         // ── Methods ──
@@ -1051,8 +1051,8 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineImpulseSource : MonoBehaviour
     {
-        public Cinemachine.CinemachineImpulseDefinition m_ImpulseDefinition; // 0x20
-        public UnityEngine.Vector3 m_DefaultVelocity; // 0x28
+        public EXTERNAL_INDEX_REF_SIG._BackingField m_ImpulseDefinition; // 0x20
+        public amut m_DefaultVelocity; // 0x28
 
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x7FFD4FC7A7D0
@@ -1067,13 +1067,13 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineIndependentImpulseListener : MonoBehaviour
     {
-        public UnityEngine.Vector3 impulsePosLastFrame; // 0x20
-        public UnityEngine.Quaternion impulseRotLastFrame; // 0x2C
+        public amut impulsePosLastFrame; // 0x20
+        public R_12x12 impulseRotLastFrame; // 0x2C
         public int m_ChannelMask; // 0x3C
         public float m_Gain; // 0x40
         public bool m_Use2DDistance; // 0x44
         public bool m_UseLocalSpace; // 0x45
-        public ImpulseReaction m_ReactionSettings; // 0x48
+        public raInFrontOfNearestObstacle m_ReactionSettings; // 0x48
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4FC7AF00
@@ -1103,10 +1103,10 @@ namespace ThirdParty.Cinemachine.Cinemachine
     {
         public int PlayerIndex; // 0x20
         public bool AutoEnableInputs; // 0x24
-        public UnityEngine.InputSystem.InputActionReference XYAxis; // 0x28
-        public UnityEngine.InputSystem.InputActionReference ZAxis; // 0x30
+        public ilAddress.operty XYAxis; // 0x28
+        public ilAddress.operty ZAxis; // 0x30
         public int NUM_AXES;
-        public UnityEngine.InputSystem.InputAction[] m_cachedActions; // 0x38
+        public ilAddress.s[] m_cachedActions; // 0x38
 
         // ── Methods ──
         public void GetAxisValue(){} // RVA: 0x7FFD4FC722E0
@@ -1127,12 +1127,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public float m_Weight5; // 0xBC
         public float m_Weight6; // 0xC0
         public float m_Weight7; // 0xC4
-        public Cinemachine.CameraState m_State; // 0xC8
-        public Cinemachine.ICinemachineCamera <LiveChild>k__BackingField; // 0x1B0
-        public UnityEngine.Transform <LookAt>k__BackingField; // 0x1B8
-        public UnityEngine.Transform <Follow>k__BackingField; // 0x1C0
-        public Cinemachine.CinemachineVirtualCameraBase[] m_ChildCameras; // 0x1C8
-        public System.Collections.Generic.Dictionary`2<Cinemachine.CinemachineVirtualCameraBase,int> m_indexMap; // 0x1D0
+        public EXTERNAL_INDEX_REF_SIG.eResult m_State; // 0xC8
+        public EXTERNAL_INDEX_REF_SIG.Callback <LiveChild>k__BackingField; // 0x1B0
+        public object <LookAt>k__BackingField; // 0x1B8
+        public object <Follow>k__BackingField; // 0x1C0
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter[] m_ChildCameras; // 0x1C8
+        public URA.DateTime<EXTERNAL_INDEX_REF_SIG.StaticFieldGetter,int> m_indexMap; // 0x1D0
 
         // ── Methods ──
         public void GetWeight(){} // RVA: 0x7FFD4FC2D260 | overloaded x2
@@ -1160,19 +1160,19 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineOrbitalTransposer : CinemachineTransposer
     {
-        public Heading RequiresUserInput; // 0xA0
-        public Recentering m_RecenterToTargetHeading; // 0xAC
-        public Cinemachine.AxisState m_XAxis; // 0xD0
+        public tionFormat RequiresUserInput; // 0xA0
+        public SerializeCache_UnityPolicy m_RecenterToTargetHeading; // 0xAC
+        public EXTERNAL_INDEX_REF_SIG.? m_XAxis; // 0xD0
         public float m_LegacyRadius; // 0x140
         public float m_LegacyHeightOffset; // 0x144
         public float m_LegacyHeadingBias; // 0x148
         public bool m_HeadingIsSlave; // 0x14C
-        public UpdateHeadingDelegate HeadingUpdater; // 0x150
-        public UnityEngine.Vector3 m_LastTargetPosition; // 0x158
-        public Cinemachine.Utility.HeadingTracker mHeadingTracker; // 0x168
-        public UnityEngine.Rigidbody m_TargetRigidBody; // 0x170
-        public UnityEngine.Transform m_PreviousTarget; // 0x178
-        public UnityEngine.Vector3 m_LastCameraPosition; // 0x180
+        public pportsPrefabSerialization HeadingUpdater; // 0x150
+        public amut m_LastTargetPosition; // 0x158
+        public amera.dGuideRect mHeadingTracker; // 0x168
+        public Touched m_TargetRigidBody; // 0x170
+        public object m_PreviousTarget; // 0x178
+        public amut m_LastCameraPosition; // 0x180
         public float m_LastHeading; // 0x18C
 
         // ── Methods ──
@@ -1193,13 +1193,13 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachinePOV : CinemachineComponentBase
     {
-        public 0x66589CB8 IsValid; // 0x28
-        public Cinemachine.AxisState Stage; // 0x30
-        public Recentering RequiresUserInput; // 0xA0
-        public Cinemachine.AxisState m_HorizontalAxis; // 0xC0
-        public Recentering m_HorizontalRecentering; // 0x130
+        public eldName IsValid; // 0x28
+        public EXTERNAL_INDEX_REF_SIG.? Stage; // 0x30
+        public SerializeCache_UnityPolicy RequiresUserInput; // 0xA0
+        public EXTERNAL_INDEX_REF_SIG.? m_HorizontalAxis; // 0xC0
+        public SerializeCache_UnityPolicy m_HorizontalRecentering; // 0x130
         public bool m_ApplyBeforeBody; // 0x150
-        public UnityEngine.Quaternion m_PreviousCameraRotation; // 0x154
+        public R_12x12 m_PreviousCameraRotation; // 0x154
 
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x7FFD4E3A7DE0
@@ -1221,7 +1221,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachinePath : CinemachinePathBase
     {
         public bool MinPos; // 0x50
-        public Waypoint[] MaxPos; // 0x58
+        public solver[] MaxPos; // 0x58
 
         // ── Methods ──
         public void get_MinPos(){} // RVA: 0x7FFD4EB632E0
@@ -1242,7 +1242,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachinePathBase : MonoBehaviour
     {
         public int MinPos; // 0x20
-        public Appearance MaxPos; // 0x28
+        public 500DistinguishedName MaxPos; // 0x28
         public float[] Looped; // 0x30
         public float[] DistanceCacheSampleStepsPerSegment; // 0x38
         public int PathLength; // 0x40
@@ -1294,7 +1294,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachineSameAsFollowTarget : CinemachineComponentBase
     {
         public float IsValid; // 0x28
-        public UnityEngine.Quaternion Stage; // 0x2C
+        public R_12x12 Stage; // 0x2C
 
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x7FFD4FC513F0
@@ -1307,9 +1307,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachineSmoothPath : CinemachinePathBase
     {
         public bool MinPos; // 0x50
-        public Waypoint[] MaxPos; // 0x58
-        public Waypoint[] Looped; // 0x60
-        public Waypoint[] DistanceCacheSampleStepsPerSegment; // 0x68
+        public solver[] MaxPos; // 0x58
+        public solver[] Looped; // 0x60
+        public solver[] DistanceCacheSampleStepsPerSegment; // 0x68
         public bool m_IsLoopedCache; // 0x70
 
         // ── Methods ──
@@ -1331,28 +1331,28 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineStateDrivenCamera : CinemachineVirtualCameraBase
     {
-        public UnityEngine.Transform Description; // 0xA8
-        public UnityEngine.Transform LiveChild; // 0xB0
-        public UnityEngine.Animator State; // 0xB8
+        public object Description; // 0xA8
+        public object LiveChild; // 0xB0
+        public stfix State; // 0xB8
         public int LookAt; // 0xC0
         public bool Follow; // 0xC4
-        public Cinemachine.CinemachineVirtualCameraBase[] ChildCameras; // 0xC8
-        public Instruction[] IsBlending; // 0xD0
-        public Cinemachine.CinemachineBlendDefinition ActiveBlend; // 0xD8
-        public Cinemachine.CinemachineBlenderSettings m_CustomBlends; // 0xE8
-        public ParentHash[] m_ParentHash; // 0xF0
-        public Cinemachine.ICinemachineCamera <LiveChild>k__BackingField; // 0xF8
-        public Cinemachine.ICinemachineCamera m_TransitioningFrom; // 0x100
-        public Cinemachine.CameraState m_State; // 0x108
-        public System.Collections.Generic.Dictionary`2<UnityEngine.AnimationClip,System.Collections.Generic.List`1<HashPair>> mHashCache; // 0x1F0
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter[] ChildCameras; // 0xC8
+        public ryQuote[] IsBlending; // 0xD0
+        public EXTERNAL_INDEX_REF_SIG.racter ActiveBlend; // 0xD8
+        public EXTERNAL_INDEX_REF_SIG.GenericClass m_CustomBlends; // 0xE8
+        public h[] m_ParentHash; // 0xF0
+        public EXTERNAL_INDEX_REF_SIG.Callback <LiveChild>k__BackingField; // 0xF8
+        public EXTERNAL_INDEX_REF_SIG.Callback m_TransitioningFrom; // 0x100
+        public EXTERNAL_INDEX_REF_SIG.eResult m_State; // 0x108
+        public URA.DateTime<r,URA.woDigitYearMax<Instance>> mHashCache; // 0x1F0
         public float mActivationTime; // 0x1F8
-        public Instruction mActiveInstruction; // 0x200
+        public ryQuote mActiveInstruction; // 0x200
         public float mPendingActivationTime; // 0x218
-        public Instruction mPendingInstruction; // 0x220
-        public Cinemachine.CinemachineBlend mActiveBlend; // 0x238
-        public System.Collections.Generic.Dictionary`2<int,int> mInstructionDictionary; // 0x240
-        public System.Collections.Generic.Dictionary`2<int,int> mStateParentLookup; // 0x248
-        public System.Collections.Generic.List`1<UnityEngine.AnimatorClipInfo> m_clipInfoList; // 0x250
+        public ryQuote mPendingInstruction; // 0x220
+        public EXTERNAL_INDEX_REF_SIG.ty mActiveBlend; // 0x238
+        public URA.DateTime<int,int> mInstructionDictionary; // 0x240
+        public URA.DateTime<int,int> mStateParentLookup; // 0x248
+        public URA.woDigitYearMax<ityThreshold> m_clipInfoList; // 0x250
 
         // ── Methods ──
         public void get_Description(){} // RVA: 0x7FFD4FC31130
@@ -1390,19 +1390,19 @@ namespace ThirdParty.Cinemachine.Cinemachine
     {
         public bool CanvasName;
         public bool m_ShowImage; // 0x30
-        public UnityEngine.Texture m_Image; // 0x38
-        public 0x66589210 m_Aspect; // 0x40
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField m_Image; // 0x38
+        public eToHexCharLookupLowerCase m_Aspect; // 0x40
         public float m_Alpha; // 0x44
-        public UnityEngine.Vector2 m_Center; // 0x48
-        public UnityEngine.Vector3 m_Rotation; // 0x50
-        public UnityEngine.Vector2 m_Scale; // 0x5C
+        public tionX m_Center; // 0x48
+        public amut m_Rotation; // 0x50
+        public tionX m_Scale; // 0x5C
         public bool m_SyncScale; // 0x64
         public bool m_MuteCamera; // 0x65
         public float m_SplitView; // 0x68
-        public 0x665892C0 m_RenderMode; // 0x6C
+        public teUnion m_RenderMode; // 0x6C
         public int m_SortingOrder; // 0x70
         public float m_PlaneDistance; // 0x74
-        public System.Collections.Generic.List`1<CanvasInfo> mCanvasInfo; // 0x78
+        public URA.woDigitYearMax<rCase> mCanvasInfo; // 0x78
 
         // ── Methods ──
         public void PostPipelineStageCallback(){} // RVA: 0x7FFD4FC344E0
@@ -1421,18 +1421,18 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineTargetGroup : MonoBehaviour
     {
-        public 0x66589420 Transform; // 0x20
-        public 0x66589478 BoundingBox; // 0x24
-        public 0x665894D0 Sphere; // 0x28
-        public Target[] IsEmpty; // 0x30
+        public y Transform; // 0x20
+        public text BoundingBox; // 0x24
+        public or Sphere; // 0x28
+        public ÍÍÍÎÌ[] IsEmpty; // 0x30
         public float CachedCountIsValid; // 0x38
         public float m_WeightSum; // 0x3C
-        public UnityEngine.Vector3 m_AveragePos; // 0x40
-        public UnityEngine.Bounds m_BoundingBox; // 0x4C
-        public UnityEngine.BoundingSphere m_BoundingSphere; // 0x64
+        public amut m_AveragePos; // 0x40
+        public stments m_BoundingBox; // 0x4C
+        public ÎÌÎÌÌÍÏÏ m_BoundingSphere; // 0x64
         public int m_LastUpdateFrame; // 0x74
-        public System.Collections.Generic.List`1<int> m_ValidMembers; // 0x78
-        public System.Collections.Generic.List`1<bool> m_MemberValidity; // 0x80
+        public URA.woDigitYearMax<int> m_ValidMembers; // 0x78
+        public URA.woDigitYearMax<bool> m_MemberValidity; // 0x80
 
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x7FFD4FC37B00
@@ -1466,21 +1466,21 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineTrackedDolly : CinemachineComponentBase
     {
-        public Cinemachine.CinemachinePathBase IsValid; // 0x28
+        public EXTERNAL_INDEX_REF_SIG.erInfo>.get_Current IsValid; // 0x28
         public float Stage; // 0x30
-        public 0x6658A918 AngularDamping; // 0x34
-        public UnityEngine.Vector3 m_PathOffset; // 0x38
+        public ationReceiver AngularDamping; // 0x34
+        public amut m_PathOffset; // 0x38
         public float m_XDamping; // 0x44
         public float m_YDamping; // 0x48
         public float m_ZDamping; // 0x4C
-        public 0x66589DC0 m_CameraUp; // 0x50
+        public tsPrefabSerialization.set_SerializationData m_CameraUp; // 0x50
         public float m_PitchDamping; // 0x54
         public float m_YawDamping; // 0x58
         public float m_RollDamping; // 0x5C
-        public AutoDolly m_AutoDolly; // 0x60
+        public object m_AutoDolly; // 0x60
         public float m_PreviousPathPosition; // 0x70
-        public UnityEngine.Quaternion m_PreviousOrientation; // 0x74
-        public UnityEngine.Vector3 m_PreviousCameraPosition; // 0x84
+        public R_12x12 m_PreviousOrientation; // 0x74
+        public amut m_PreviousCameraPosition; // 0x84
 
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x7FFD4FC518D0
@@ -1494,22 +1494,22 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineTransposer : CinemachineComponentBase
     {
-        public 0x66589EC8 HideOffsetInInspector; // 0x28
-        public UnityEngine.Vector3 EffectiveOffset; // 0x2C
+        public ize HideOffsetInInspector; // 0x28
+        public amut EffectiveOffset; // 0x2C
         public float IsValid; // 0x38
         public float Stage; // 0x3C
         public float Damping; // 0x40
-        public 0x66589F20 AngularDamping; // 0x44
+        public nstanceUnityObjects AngularDamping; // 0x44
         public float m_PitchDamping; // 0x48
         public float m_YawDamping; // 0x4C
         public float m_RollDamping; // 0x50
         public float m_AngularDamping; // 0x54
         public bool <HideOffsetInInspector>k__BackingField; // 0x58
-        public UnityEngine.Vector3 m_PreviousTargetPosition; // 0x5C
-        public UnityEngine.Quaternion m_PreviousReferenceOrientation; // 0x68
-        public UnityEngine.Quaternion m_targetOrientationOnAssign; // 0x78
-        public UnityEngine.Vector3 m_PreviousOffset; // 0x88
-        public UnityEngine.Transform m_previousTarget; // 0x98
+        public amut m_PreviousTargetPosition; // 0x5C
+        public R_12x12 m_PreviousReferenceOrientation; // 0x68
+        public R_12x12 m_targetOrientationOnAssign; // 0x78
+        public amut m_PreviousOffset; // 0x88
+        public object m_previousTarget; // 0x98
 
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x7FFD4FC53620
@@ -1534,14 +1534,14 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineTriggerAction : MonoBehaviour
     {
-        public UnityEngine.LayerMask m_LayerMask; // 0x20
+        public object m_LayerMask; // 0x20
         public string m_WithTag; // 0x28
         public string m_WithoutTag; // 0x30
         public int m_SkipFirst; // 0x38
         public bool m_Repeating; // 0x3C
-        public ActionSettings m_OnObjectEnter; // 0x40
-        public ActionSettings m_OnObjectExit; // 0x68
-        public System.Collections.Generic.HashSet`1<UnityEngine.GameObject> m_ActiveTriggerObjects; // 0x90
+        public fromKey m_OnObjectEnter; // 0x40
+        public fromKey m_OnObjectExit; // 0x68
+        public URA.onsDepth<BuffersImpl> m_ActiveTriggerObjects; // 0x90
 
         // ── Methods ──
         public void Filter(){} // RVA: 0x7FFD4FC73030
@@ -1561,19 +1561,19 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineVirtualCamera : CinemachineVirtualCameraBase
     {
-        public UnityEngine.Transform State; // 0xA8
-        public UnityEngine.Transform LookAt; // 0xB0
-        public Cinemachine.LensSettings Follow; // 0xB8
-        public TransitionParams m_Transitions; // 0xF0
-        public 0x6658AE40 m_LegacyBlendHint; // 0x100
+        public object State; // 0xA8
+        public object LookAt; // 0xB0
+        public EXTERNAL_INDEX_REF_SIG.er Follow; // 0xB8
+        public FieldGetter>b__0 m_Transitions; // 0xF0
+        public ias m_LegacyBlendHint; // 0x100
         public string PipelineName;
-        public CreatePipelineDelegate CreatePipelineOverride;
-        public DestroyPipelineDelegate DestroyPipelineOverride; // 0x8
-        public Cinemachine.CameraState m_State; // 0x108
-        public Cinemachine.CinemachineComponentBase[] m_ComponentPipeline; // 0x1F0
-        public UnityEngine.Transform m_ComponentOwner; // 0x1F8
-        public UnityEngine.Transform mCachedLookAtTarget; // 0x200
-        public Cinemachine.CinemachineVirtualCameraBase mCachedLookAtTargetVcam; // 0x208
+        public object CreatePipelineOverride;
+        public eferencedUnityObjects DestroyPipelineOverride; // 0x8
+        public EXTERNAL_INDEX_REF_SIG.eResult m_State; // 0x108
+        public EXTERNAL_INDEX_REF_SIG.rand[] m_ComponentPipeline; // 0x1F0
+        public object m_ComponentOwner; // 0x1F8
+        public object mCachedLookAtTarget; // 0x200
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter mCachedLookAtTargetVcam; // 0x208
 
         // ── Methods ──
         public void get_State(){} // RVA: 0x7FFD4FC312A0
@@ -1611,7 +1611,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
     public class CinemachineVirtualCameraBase : MonoBehaviour
     {
         public string[] ValidatingStreamVersion; // 0x20
-        public 0x6658A550[] mExtensions; // 0x28
+        public NSIGNED_BYTE[] mExtensions; // 0x28
         public int Name; // 0x30
         public bool Description; // 0x34
         public int Priority; // 0x38
@@ -1619,20 +1619,20 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public int IsValid; // 0x40
         public float State; // 0x44
         public float ParentCamera; // 0x48
-        public 0x6658ADE8 LookAt; // 0x4C
-        public System.Collections.Generic.List`1<Cinemachine.CinemachineExtension> Follow; // 0x50
+        public eateStaticFieldSetter>b__0 LookAt; // 0x4C
+        public URA.woDigitYearMax<EXTERNAL_INDEX_REF_SIG.ethodDelegate>b__0> Follow; // 0x50
         public bool PreviousStateIsValid; // 0x58
         public bool FollowTargetChanged; // 0x59
         public bool LookAtTargetChanged; // 0x5A
-        public Cinemachine.CinemachineVirtualCameraBase AbstractFollowTargetGroup; // 0x60
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter AbstractFollowTargetGroup; // 0x60
         public int FollowTargetAsVcam; // 0x68
         public float AbstractLookAtTargetGroup; // 0x6C
-        public UnityEngine.Transform LookAtTargetAsVcam; // 0x70
-        public Cinemachine.CinemachineVirtualCameraBase m_CachedFollowTargetVcam; // 0x78
-        public Cinemachine.ICinemachineTargetGroup m_CachedFollowTargetGroup; // 0x80
-        public UnityEngine.Transform m_CachedLookAtTarget; // 0x88
-        public Cinemachine.CinemachineVirtualCameraBase m_CachedLookAtTargetVcam; // 0x90
-        public Cinemachine.ICinemachineTargetGroup m_CachedLookAtTargetGroup; // 0x98
+        public object LookAtTargetAsVcam; // 0x70
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter m_CachedFollowTargetVcam; // 0x78
+        public EXTERNAL_INDEX_REF_SIG.e9 m_CachedFollowTargetGroup; // 0x80
+        public object m_CachedLookAtTarget; // 0x88
+        public EXTERNAL_INDEX_REF_SIG.StaticFieldGetter m_CachedLookAtTargetVcam; // 0x90
+        public EXTERNAL_INDEX_REF_SIG.e9 m_CachedLookAtTargetGroup; // 0x98
         public bool <FollowTargetChanged>k__BackingField; // 0xA0
         public bool <LookAtTargetChanged>k__BackingField; // 0xA1
 
@@ -1714,18 +1714,18 @@ namespace ThirdParty.Cinemachine.Cinemachine
     {
         public float State; // 0x10
         public float m_SkeletonPadding; // 0x14
-        public System.Collections.Generic.List`1<System.Collections.Generic.List`1<IntPoint>> m_OriginalPolygon; // 0x18
-        public IntPoint m_MidPoint; // 0x20
-        public System.Collections.Generic.List`1<System.Collections.Generic.List`1<IntPoint>> m_Skeleton; // 0x30
+        public URA.woDigitYearMax<URA.woDigitYearMax<lfFrustumHeight>> m_OriginalPolygon; // 0x18
+        public lfFrustumHeight m_MidPoint; // 0x20
+        public URA.woDigitYearMax<URA.woDigitYearMax<lfFrustumHeight>> m_Skeleton; // 0x30
         public long k_FloatToIntScaler;
         public float k_IntToFloatScaler;
         public float k_MinStepSize;
-        public UnityEngine.Rect m_PolygonRect; // 0x38
-        public AspectStretcher m_AspectStretcher; // 0x48
+        public dRecorder m_PolygonRect; // 0x38
+        public ringToBytes m_AspectStretcher; // 0x48
         public float m_MaxComputationTimeForFullSkeletonBakeInSeconds; // 0x54
-        public 0x6658B100 <State>k__BackingField; // 0x58
+        public 393DD129531DB2AC70CAC28C97B025DB681F8C6CCEE60369652 <State>k__BackingField; // 0x58
         public float bakeProgress; // 0x5C
-        public BakingStateCache m_Cache; // 0x60
+        public 81F8C6CCEE60369652 m_Cache; // 0x60
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC69750
@@ -1746,7 +1746,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class DocumentationSortingAttribute : Attribute
     {
-        public 0x6658AD38 Category; // 0x10
+        public ÏÌÍÎÌÌÍÌÌÌÍÏÌÏÎÏ Category; // 0x10
 
         // ── Methods ──
         public void get_Category(){} // RVA: 0x7FFD4E38E5C0
@@ -1764,7 +1764,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public float m_Weight5; // 0x34
         public float m_Weight6; // 0x38
         public float m_Weight7; // 0x3C
-        public Cinemachine.CinemachineTargetGroup m_group; // 0x40
+        public EXTERNAL_INDEX_REF_SIG.BackingField m_group; // 0x40
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4FC744D0
@@ -1843,17 +1843,17 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class LensSettings : ValueType
     {
-        public Cinemachine.LensSettings Orthographic;
+        public EXTERNAL_INDEX_REF_SIG.er Orthographic;
         public float SensorSize; // 0x10
         public float Aspect; // 0x14
         public float IsPhysicalCamera; // 0x18
         public float FarClipPlane; // 0x1C
         public float Dutch; // 0x20
-        public 0x6658B260 ModeOverride; // 0x24
-        public UnityEngine.Vector2 LensShift; // 0x28
-        public 0x664D98F0 GateFit; // 0x30
+        public rrideId ModeOverride; // 0x24
+        public tionX LensShift; // 0x28
+        public ÏÏÎÌÍÍÍÍÍÌÎÌÏÍÍÍÏ GateFit; // 0x30
         public float FocusDistance; // 0x34
-        public UnityEngine.Vector2 m_SensorSize; // 0x38
+        public tionX m_SensorSize; // 0x38
         public bool m_OrthoFromCamera; // 0x40
         public bool m_PhysicalFromCamera; // 0x41
 
@@ -1887,8 +1887,8 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class NoiseSettings : SignalSourceAsset
     {
-        public TransformNoiseParams[] SignalDuration; // 0x18
-        public TransformNoiseParams[] OrientationNoise; // 0x20
+        public Cam[] SignalDuration; // 0x18
+        public Cam[] OrientationNoise; // 0x20
 
         // ── Methods ──
         public void GetCombinedFilterResults(){} // RVA: 0x7FFD4FC6D060
@@ -1911,10 +1911,10 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class RuntimeUtility : Object
     {
-        public UnityEngine.RaycastHit[] s_HitBuffer;
+        public ColorScaleAndOffset[] s_HitBuffer;
         public int[] s_PenetrationIndexBuffer; // 0x8
-        public UnityEngine.SphereCollider s_ScratchCollider; // 0x10
-        public UnityEngine.GameObject s_ScratchColliderGameObject; // 0x18
+        public cted s_ScratchCollider; // 0x10
+        public BuffersImpl s_ScratchColliderGameObject; // 0x18
 
         // ── Methods ──
         public void DestroyObject(){} // RVA: 0x7FFD4FC6D5D0
@@ -1947,9 +1947,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
     {
         public string Name; // 0x10
         public int Description; // 0x18
-        public UnityEngine.Transform Priority; // 0x20
-        public UnityEngine.Transform LookAt; // 0x28
-        public Cinemachine.CameraState Follow; // 0x30
+        public object Priority; // 0x20
+        public object LookAt; // 0x28
+        public EXTERNAL_INDEX_REF_SIG.eResult Follow; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC5E7A0
@@ -1985,12 +1985,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
     {
         public bool CacheMode;
         public float IsRecording;
-        public 0x6658B520 CurrentPlaybackTimeValid; // 0x4
+        public object CurrentPlaybackTimeValid; // 0x4
         public float IsEmpty; // 0x8
         public int CacheTimeRange; // 0xC
         public bool HasCurrentTime; // 0x10
-        public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,CacheEntry> m_Cache; // 0x18
-        public TimeRange m_CacheTimeRange; // 0x20
+        public URA.DateTime<?,sToGet> m_Cache; // 0x18
+        public Camera m_CacheTimeRange; // 0x20
         public float kWraparoundSlush;
 
         // ── Methods ──
@@ -2010,8 +2010,8 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class UpdateTracker : Object
     {
-        public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,UpdateStatus> mUpdateStatus;
-        public System.Collections.Generic.List`1<UnityEngine.Transform> sToDelete; // 0x8
+        public URA.DateTime<?,et_ConverterTypeName> mUpdateStatus;
+        public URA.woDigitYearMax<?> sToDelete; // 0x8
         public float mLastUpdateTime; // 0x10
 
         // ── Methods ──

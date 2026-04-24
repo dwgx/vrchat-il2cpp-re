@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 {
     public class BufferedRumble : ValueType
     {
-        public 0x664AA090 capabilities; // 0x10
-        public UnityEngine.InputSystem.InputDevice device; // 0x28
+        public Initialize_ctrlTouchscreentouch8radiusy.tialize_ctrlTouchscreentouch9press capabilities; // 0x10
+        public ilAddress.ActionProperty device; // 0x28
 
         // ── Methods ──
         public void get_capabilities(){} // RVA: 0x7FFD54A5AEF0
@@ -22,7 +22,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
     public class GetCurrentHapticStateCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
         public uint currentState; // 0x18
         public uint samplesAvailable; // 0x1C
 
@@ -36,7 +36,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
     public class GetHapticCapabilitiesCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
         public uint capabilities; // 0x18
         public bool supportsImpulse; // 0x1C
         public bool supportsBuffer; // 0x1D
@@ -55,10 +55,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
     {
         public int Type;
         public int typeStatic;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
+        public Device.formUserAccount baseCommand; // 0x10
         public int channel; // 0x18
         public int bufferSize; // 0x1C
-        public 0x664AA140 buffer; // 0x20
+        public eft buffer; // 0x20
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A5B3F0
@@ -69,7 +69,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
     public class SendHapticImpulseCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
         public int channel; // 0x18
         public float amplitude; // 0x1C
         public float duration; // 0x20

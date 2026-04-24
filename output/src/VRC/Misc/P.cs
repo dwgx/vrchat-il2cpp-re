@@ -8,17 +8,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÎÌÎÍÍÍÏÍÍÌÌÍÏÌÏÌÏÍÌ</summary>
     public class PIDControllerSiblingSiblingSibSibling_290B : Object
     {
-        public int _name; // 0x10
-        public int _hideFlags; // 0x14
-        public int f_C13;
-        public string[] f_2C9; // 0x8
-        public string[] ÎÌÍÍÎÌÎÍÌÏÌÌÍÍÎÏÏÌÏÍÏÌÎ; // 0x10
-        public System.Text.StringBuilder ÎÌÌÌÌÏÌÍÏÌÍÍÍÌÎÏÏÍÎÏÌÎÎ; // 0x18
-        public System.ValueTuple`2<int,int>[] ÎÏÌÏÌÌÍÍÎÍÍÏÏÍÏÎÍÍÌÏÎÏÎ; // 0x20
-        public string[,] ÎÎÎÏÎÎÎÎÏÌÎÍÏÍÎÍÏÌÏÍÎÎÌ; // 0x28
-        public System.Text.StringBuilder ÎÍÍÍÏÍÏÌÌÌÍÏÏÍÍÎÍÌÏÏÏÏÏ; // 0x18
-        public System.Collections.Generic.List`1<ÌÏÏÍÍÍÏÎÎÏÎÏÏÌÌÌÏÌÎÏÍÏÍ> ÏÍÎÍÎÏÌÍÏÍÎÎÏÌÏÍÍÌÍÏÎÍÍ; // 0x20
-        public System.Collections.Generic.Queue`1<ÌÏÎÎÌÏÎÏÍÏÍÏÍÍÌÌÎÎÎÍÏÎÍ> ÍÍÏÏÎÌÎÍÏÌÌÍÌÌÎÌÍÎÌÏÍÎÎ; // 0x28
+        public object _name;
+        public object _hideFlags;
+        public object f_C13;
+        public object f_2C9;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EABE470
@@ -53,14 +46,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÌÍÍÏÎÏÌÌÎÎÏÎÎÍÎÍÏÏÎÎÌ</summary>
     public class PIDControllerSiblingSiblingSibling_2E92 : Object
     {
-        public ÎÏÏÏÍÌÏÏÍÌÏÌÎÍÎÎÏÍÍÎÎÌÎ _name; // 0x10
-        public System.Collections.Generic.List`1<System.ValueTuple`2<UnityEngine.AudioSource,0x66396F88>> _hideFlags;
-        public UnityEngine.Color f_C13; // 0x8
-        public UnityEngine.Color f_2C9; // 0x18
-        public bool ÏÎÍÌÎÍÏÍÍÌÍÏÍÎÏÏÌÍÏÌÍÏÎ; // 0x18
-        public bool ÎÍÏÏÍÏÌÏÎÏÍÏÍÍÎÍÌÍÎÍÎÎÍ; // 0x19
-        public System.Collections.Generic.List`1<System.ValueTuple`2<UnityEngine.AudioSource,0x66396F88>> ÌÎÏÏÌÏÏÎÍÏÎÏÌÎÌÍÌÍÌÍÏÌÏ; // 0x20
-        public System.Text.StringBuilder ÎÌÌÌÌÏÌÍÏÌÍÍÍÌÎÏÏÍÎÏÌÎÎ; // 0x28
+        public object _name;
+        public object _hideFlags;
+        public object f_C13;
+        public object f_2C9;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341310
@@ -89,20 +78,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÌÎÍÏÏÏÏÏÍÎÏÏÌÍÎÏÌÏÏÎ</summary>
     public class PIDControllerSiblingSiblingSibling_881D : Object
     {
-        public int _name;
-        public int _hideFlags;
-        public int f_1F6;
-        public int f_0B1;
-        public int f_E44;
-        public float ÎÍÍÍÍÎÎÏÌÌÌÎÍÍÌÌÏÎÎÏÌÌÏ; // 0x10
-        public int ÍÏÌÎÎÍÌÍÌÌÍÏÍÍÌÎÍÍÎÌÌÎÏ; // 0x14
-        public 0x6637A1E0[] ÏÌÍÍÌÎÌÌÎÌÌÌÎÏÌÏÌÌÍÌÍÌÎ; // 0x18
-        public System.Collections.Generic.Dictionary`2<ÌÍÍÎÌÌÌÍÏÍÌÎÎÌÌÍÌÏÌÎÏÍÌ,UnityEngine.Sprite> ÎÎÎÌÌÍÍÌÌÏÏÎÌÍÌÏÎÍÍÍÌÏÌ; // 0x20
-        public Unity.Profiling.ProfilerMarker ÍÌÍÎÌÍÎÌÍÏÎÌÎÎÌÌÍÌÌÎÌÍÌ; // 0x28
-        public Unity.Profiling.ProfilerMarker ÎÏÌÍÎÏÌÏÌÏÌÏÍÏÎÏÍÍÍÍÌÍÎ; // 0x30
-        public string ÎÍÏÏÏÎÍÌÎÎÍÎÎÌÍÌÍÍÌÌÎÏÌ;
-        public ÌÍÍÎÌÌÌÍÏÍÌÎÎÌÌÍÌÏÌÎÏÍÌ ÍÎÌÍÌÏÏÏÍÏÎÌÎÍÏÎÌÍÌÌÏÍÎ; // 0x38
-        public int ÍÎÏÍÏÎÍÏÍÎÍÍÏÌÍÌÎÌÎÍÏÍÍ;
+        public object _name;
+        public object _hideFlags;
+        public object f_1F6;
+        public object f_0B1;
+        public object f_E44;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EAE9CA0
@@ -137,7 +117,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÍÎÏÎÎÌÎÏÌÏÏÍÍÎÍÌÌÏÌÍ</summary>
     public class PIDControllerSiblingSiblingSibling_8F85 : PIDControllerSiblingSiblingSibling_F918
     {
-        public System.Text.StringBuilder f_1F6; // 0x10
+        public object f_1F6;
+        public object f_0B1;
+        public object f_C13;
+        public object f_2C9;
 
         // ── Methods ──
         public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x7FFD4EAE3E70
@@ -158,8 +141,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÌÎÌÏÍÌÍÏÏÌÌÍÎÎÌÌÍÏÌÏÌ</summary>
     public class PIDControllerSiblingSiblingSibling_9139 : Object
     {
-        public string _name;
-        public System.Text.StringBuilder _hideFlags; // 0x10
+        public object _name;
+        public object _hideFlags;
+        public object f_C13;
+        public object f_2C9;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4EACECA0
@@ -231,28 +216,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÌÏÏÏÏÎÌÏÌÌÌÏÍÍÎÎÌÍÎÏÎ</summary>
     public class PIDControllerSiblingSibling_0922 : Object
     {
-        public string _name; // 0x10
-        public string _hideFlags; // 0x18
-        public string f_C13; // 0x20
-        public int f_2C9;
-        public int ÏÎÎÏÍÏÎÌÏÍÏÍÍÌÎÎÌÌÌÎÏÍÏ;
-        public int ÏÌÎÏÍÏÏÎÏÌÏÌÍÎÎÎÎÏÍÏÌÍÏ;
-        public int ÏÎÏÎÎÎÎÏÌÍÎÏÏÍÍÌÍÏÏÎÎÏÏ;
-        public bool ÌÍÏÍÎÎÍÎÏÌÌÌÍÎÍÌÌÎÏÍÌÍÎ; // 0x28
-        public bool ÌÎÍÍÎÏÌÌÎÍÎÎÏÏÎÍÏÍÎÏÌÌÎ; // 0x29
-        public bool ÌÍÏÍÍÏÏÏÏÎÌÏÏÌÏÍÎÍÍÏÏÏÏ; // 0x2A
-        public bool ÌÌÎÏÌÏÍÏÍÌÏÏÌÌÍÎÏÏÍÌÍÌÎ; // 0x2B
-        public bool ÍÏÎÍÌÌÏÎÍÍÌÏÏÎÎÍÍÍÌÎÎÏÎ; // 0x2C
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> ÏÏÎÌÍÎÌÌÌÎÍÍÎÏÎÏÌÏÍÌÌÎÏ; // 0x30
-        public bool ÌÌÎÏÌÍÌÌÎÎÌÏÍÍÍÏÎÎÎÌÌÍÎ; // 0x38
-        public int ÍÌÍÍÏÎÎÎÎÍÎÎÌÌÍÎÌÍÏÍÍÌÏ; // 0x3C
-        public ÍÎÎÍÌÏÏÍÏÏÎÌÏÏÎÏÏÎÌÏÎÎÎ[] ÏÏÏÏÍÍÌÍÎÏÏÌÌÏÌÏÏÍÍÎÍÏÏ; // 0x40
-        public ÍÌÍÌÌÏÍÏÍÎÎÍÎÌÎÍÍÍÏÎÍÌÍ[] ÌÍÏÎÍÍÌÎÎÎÏÍÎÏÎÍÏÍÌÎÌÍÍ; // 0x48
-        public int ÍÏÏÏÏÍÌÏÍÏÍÏÍÍÍÍÎÏÌÍÏÍÏ; // 0x50
-        public System.Text.StringBuilder ÌÎÍÏÏÍÍÏÌÍÏÎÌÏÌÍÌÍÎÎÎÍÍ; // 0x58
-        public System.Collections.Generic.List`1<string> ÌÍÍÍÏÌÏÏÎÌÎÌÎÌÍÍÏÎÏÌÍÌÏ; // 0x60
-        public System.Collections.Generic.List`1<string> ÎÌÎÍÍÌÍÍÍÎÎÎÍÎÍÍÏÏÏÏÌÎÍ; // 0x68
-        public bool ÎÏÍÎÏÌÎÌÍÍÍÌÎÏÍÎÏÍÌÎÎÏÏ; // 0x70
+        public object _name;
+        public object _hideFlags;
+        public object f_C13;
+        public object f_2C9;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EAD54D0
@@ -287,18 +254,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÎÏÏÏÍÍÏÎÍÏÎÏÏÏÏÏÎÌÎÌ</summary>
     public class PIDControllerSibling_2884 : Object
     {
-        public UnityEngine.Ray ÍÍÎÏÎÏÏÎÍÍÍÎÌÌÍÌÍÍÎÎÌÌÌ; // 0x10
-        public UnityEngine.BoundingSphere ÍÎÌÎÌÌÍÏÎÌÌÎÌÎÎÏÏÏÌÍÌÌÌ; // 0x28
-        public 0x6636A8A8 ÎÏÍÌÏÍÌÏÏÎÌÌÌÎÏÍÏÍÍÏÍÌÏ; // 0x38
-        public UnityEngine.RaycastHit ÍÏÍÌÌÎÌÏÍÍÎÏÍÌÏÏÍÍÎÎÌÏÌ; // 0x3C
-        public bool ÌÎÌÎÏÎÌÍÎÎÎÍÏÏÎÌÎÏÌÏÎÍÌ; // 0x68
-        public VRC.SDKBase.VRC_UiShape ÏÌÍÍÎÍÏÎÍÌÎÍÍÎÏÍÍÌÎÍÍÏÍ; // 0x70
-        public UnityEngine.Canvas ÎÌÌÏÍÎÍÏÎÎÏÌÏÎÌÎÍÍÌÌÍÌÌ; // 0x78
-        public UnityEngine.RectTransform ÏÌÌÎÏÍÎÏÏÍÏÍÌÍÍÎÍÎÌÍÏÎÌ; // 0x80
-        public System.Collections.Generic.List`1<VRC.SDKBase.VRC_Interactable> ÎÌÌÌÎÌÎÍÎÍÍÎÎÏÍÌÍÏÍÎÎÌÎ; // 0x88
-        public VRC.SDKBase.VRC_Pickup ÍÏÌÏÏÌÌÏÎÍÏÏÍÏÏÌÌÍÏÌÌÌÏ; // 0x90
-        public ÎÏÌÎÏÍÏÍÌÍÍÎÌÌÍÌÏÌÍÏÌÍÌ ÎÌÌÍÌÌÌÎÍÌÏÍÏÏÎÎÌÌÍÎÏÎÎ; // 0x98
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F7388B0
         public void Equals(){} // RVA: 0x7FFD4F738AF0
@@ -315,12 +270,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÏÎÎÍÍÎÏÌÎÏÏÌÍÌÎÎÏÌÎÍ</summary>
     public class PIDControllerSibling_9D95 : ValueType
     {
-        public bool ÎÌÏÎÏÍÏÎÍÎÍÍÌÎÌÍÏÏÎÎÌÎÌ; // 0x10
-        public bool ÎÌÎÎÏÌÎÎÌÌÎÎÍÌÏÏÍÎÌÍÏÏÏ; // 0x11
-        public bool ÎÎÌÌÍÌÏÎÏÍÏÏÍÌÎÏÍÎÌÎÎÎÌ; // 0x12
-        public bool ÍÌÎÏÏÍÌÏÎÌÌÍÏÏÎÏÎÏÌÏÎÌÍ; // 0x13
-        public float ÎÎÎÎÌÎÏÌÌÍÌÏÌÍÏÎÍÌÍÎÌÌÏ; // 0x14
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F4956D0
         public void InternalEquals(){} // RVA: 0x7FFD4F4956F0
@@ -334,18 +283,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÎÌÌÏÎÏÎÍÎÎÌÌÎÍÏÌÎÏÏÌ</summary>
     public class PIDControllerSibling_F369 : PIDControllerSiblingSiblingSibling_F918
     {
-        public string f_1F6;
-        public string f_C13;
-        public long f_2C9;
-        public UnityEngine.Vector2 ÏÍÎÌÍÏÏÍÌÏÌÎÍÌÌÎÏÎÎÍÍÌÌ; // 0x10
-        public long ÏÌÎÍÎÎÎÍÌÏÌÌÌÌÎÍÎÏÎÌÏÎÌ; // 0x18
-        public long ÎÌÌÎÌÎÏÌÌÍÌÌÎÌÌÏÏÎÍÌÌÌÏ; // 0x20
-        public float ÍÌÍÏÎÌÎÎÍÌÎÏÌÍÏÌÏÌÎÎÏÌÍ; // 0x28
-        public bool ÎÌÎÌÏÍÌÏÏÎÌÌÎÎÏÏÎÎÎÌÌÍÍ; // 0x2C
-        public UnityEngine.Texture2D ÌÎÏÍÍÍÍÎÍÏÎÎÎÏÍÏÎÍÏÍÍÎÍ; // 0x30
-        public System.Text.StringBuilder ÎÌÌÌÌÏÌÍÏÌÍÍÍÌÎÏÏÍÎÏÌÎÎ; // 0x38
-        public long ÌÎÍÍÌÏÎÍÎÏÍÏÍÎÎÍÏÍÏÏÌÌÏ; // 0x40
-        public long ÎÌÍÌÍÍÏÎÏÎÎÏÌÍÏÏÎÎÎÏÍÎÏ; // 0x48
+        public object f_1F6;
+        public object f_C13;
+        public object f_2C9;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EADFBE0
@@ -372,11 +312,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÏÏÌÌÏÏÌÏÏÎÏÎÎÌÌÌÍÏÍÍÌ</summary>
     public class PhysBoneValidateColliderPermissioSetParameter_6C1A : ContactReceiver
     {
-        public UnityEngine.Animator animator; // 0xE0
-        public string droneParameterName; // 0xE8
-        public int ÍÏÍÍÍÎÏÍÏÌÏÌÎÏÍÎÎÌÎÎÌÍÎ; // 0xF0
-        public bool ÌÏÎÎÏÎÌÏÏÏÍÌÌÎÍÎÎÎÎÌÍÏÏ; // 0xF4
-
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x7FFD4F75F5D0
         public void SetParameter(){} // RVA: 0x7FFD4F75F680
@@ -418,8 +353,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÎÍÌÍÌÎÎÌÍÎÍÍÎÎÏÍÏÏÏÍÌ</summary>
     public class PropertyAttributeDerived_F7BF : PropertyAttribute
     {
-        public string[] ÍÎÎÏÎÏÎÌÎÏÎÍÎÌÎÏÎÌÍÍÏÌÏ; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }

@@ -23,12 +23,12 @@ namespace ThirdParty.DotNet.System.IO.Enumeration
 
     public class FileSystemEnumerable`1 : Object
     {
-        public DelegateEnumerator<System.IO.FileInfo> ShouldIncludePredicate; // 0x10
-        public FindTransform<System.IO.FileInfo> ShouldRecursePredicate; // 0x18
-        public System.IO.EnumerationOptions _options; // 0x20
+        public y<string> ShouldIncludePredicate; // 0x10
+        public yForItem<string> ShouldRecursePredicate; // 0x18
+        public Inherited.? _options; // 0x20
         public string _directory; // 0x28
-        public FindPredicate<System.IO.FileInfo> <ShouldIncludePredicate>k__BackingField; // 0x30
-        public FindPredicate<System.IO.FileInfo> <ShouldRecursePredicate>k__BackingField; // 0x38
+        public ection`2<string> <ShouldIncludePredicate>k__BackingField; // 0x30
+        public ection`2<string> <ShouldRecursePredicate>k__BackingField; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -43,16 +43,16 @@ namespace ThirdParty.DotNet.System.IO.Enumeration
     {
         public string Current; // 0x10
         public string System.Collections.IEnumerator.Current; // 0x18
-        public System.IO.EnumerationOptions _options; // 0x20
+        public Inherited.? _options; // 0x20
         public object _lock; // 0x28
-        public ЦW* _entry; // 0x30
-        public System.IO.FileInfo _current; // 0x38
+        public IntPtr _entry; // 0x30
+        public string _current; // 0x38
         public UIntPtr _buffer; // 0x40
         public int _bufferLength; // 0x48
         public UIntPtr _directoryHandle; // 0x50
         public string _currentPath; // 0x58
         public bool _lastEntryFound; // 0x60
-        public System.Collections.Generic.Queue`1<System.ValueTuple`2<UIntPtr,string>> _pending; // 0x68
+        public URA.ge<8BCA7B5CC287C51E0E3E<UIntPtr,string>> _pending; // 0x68
 
         // ── Methods ──
         public void GetDataUWP(){} // RVA: 0x7FFD5109EED0

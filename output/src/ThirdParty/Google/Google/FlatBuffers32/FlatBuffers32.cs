@@ -7,9 +7,9 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 {
     public class ByteBuffer : Object
     {
-        public 0x66559A60 Position; // 0x10
+        public AssignBinaryExpression.ingContinuation Position; // 0x10
         public int Length; // 0x18
-        public System.Collections.Generic.Dictionary`2<System.Type,int> genericSizes;
+        public URA.DateTime<?,int> genericSizes;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD551726F0 | overloaded x4
@@ -70,7 +70,7 @@ namespace ThirdParty.Google.Google.FlatBuffers32
     public class FlatBufferBuilder : Object
     {
         public int ForceDefaults; // 0x10
-        public Google.FlatBuffers32.ByteBuffer Offset; // 0x18
+        public AssignBinaryExpression..Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current Offset; // 0x18
         public int Waste; // 0x20
         public int[] DataBuffer; // 0x28
         public int _vtableSize; // 0x30
@@ -79,7 +79,7 @@ namespace ThirdParty.Google.Google.FlatBuffers32
         public int _numVtables; // 0x40
         public int _vectorNumElems; // 0x44
         public int _waste; // 0x48
-        public System.Collections.Generic.Dictionary`2<string,0x66559ED8> _sharedStringMap; // 0x50
+        public URA.DateTime<string,AssignBinaryExpression.le> _sharedStringMap; // 0x50
         public bool <ForceDefaults>k__BackingField; // 0x58
 
         // ── Methods ──
@@ -156,7 +156,7 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Offset`1 : ValueType
     {
-        public int Value; // 0x10
+        public int Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -186,7 +186,7 @@ namespace ThirdParty.Google.Google.FlatBuffers32
     public class Struct : ValueType
     {
         public int bb_pos; // 0x10
-        public Google.FlatBuffers32.ByteBuffer bb; // 0x18
+        public AssignBinaryExpression..Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current bb; // 0x18
 
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x7FFD4F840210
@@ -199,7 +199,7 @@ namespace ThirdParty.Google.Google.FlatBuffers32
     public class Table : ValueType
     {
         public int bb_pos; // 0x10
-        public Google.FlatBuffers32.ByteBuffer bb; // 0x18
+        public AssignBinaryExpression..Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current bb; // 0x18
 
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x7FFD4F840210

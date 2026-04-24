@@ -10,10 +10,10 @@ namespace ThirdParty.DotNet.System.ComponentModel
         public int ItemTypeHasDefaultConstructor;
         public bool RaiseListChangedEvents;
         public bool AddingNewHandled;
-        public 0x66495218 AllowNew;
-        public 0x66495E20 System.ComponentModel.IBindingList.AllowNew;
-        public 0x66492E58 AllowEdit;
-        public 0x66494B90 System.ComponentModel.IBindingList.AllowEdit;
+        public pacity.Time AllowNew;
+        public pacity.InvalidBasicConstraints System.ComponentModel.IBindingList.AllowNew;
+        public pacity.ystem.Collections.Generic.ICollection<System.Text.RegularExpressions.Capture>.Clear AllowEdit;
+        public pacity.cessName System.ComponentModel.IBindingList.AllowEdit;
         public int AllowRemove;
         public bool System.ComponentModel.IBindingList.AllowRemove;
         public bool System.ComponentModel.IBindingList.SupportsChangeNotification;

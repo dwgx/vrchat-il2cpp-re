@@ -7,7 +7,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 {
     public class AmbientSound : MonoBehaviour
     {
-        public UnityEngine.AudioSource s; // 0x20
+        public t s; // 0x20
         public float fadeintime; // 0x28
         public float t; // 0x2C
         public bool fadeblack; // 0x30
@@ -21,33 +21,33 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class BuggyBuddy : MonoBehaviour
     {
-        public UnityEngine.Transform turret; // 0x20
+        public object turret; // 0x20
         public float turretRot; // 0x28
         public float maxAngle; // 0x2C
         public float maxTurnTorque; // 0x30
         public float maxTorque; // 0x34
         public float brakeTorque; // 0x38
-        public UnityEngine.GameObject[] wheelRenders; // 0x40
+        public BuffersImpl[] wheelRenders; // 0x40
         public float criticalSpeed; // 0x48
         public int stepsBelow; // 0x4C
         public int stepsAbove; // 0x50
-        public UnityEngine.WheelCollider[] m_Wheels; // 0x58
-        public UnityEngine.AudioSource au_motor; // 0x60
+        public cessorType[] m_Wheels; // 0x58
+        public t au_motor; // 0x60
         public float mvol; // 0x68
-        public UnityEngine.AudioSource au_skid; // 0x70
+        public t au_skid; // 0x70
         public float svol; // 0x78
-        public Valve.VR.InteractionSystem.Sample.WheelDust skidsample; // 0x80
+        public rted.? skidsample; // 0x80
         public float skidSpeed; // 0x88
-        public UnityEngine.Vector3 localGravity; // 0x8C
-        public UnityEngine.Rigidbody body; // 0x98
+        public amut localGravity; // 0x8C
+        public Touched body; // 0x98
         public float rapidfireTime; // 0xA0
         public float shootTimer; // 0xA4
-        public UnityEngine.Vector2 steer; // 0xA8
+        public tionX steer; // 0xA8
         public float throttle; // 0xB0
         public float handBrake; // 0xB4
-        public UnityEngine.Transform controllerReference; // 0xB8
+        public object controllerReference; // 0xB8
         public float speed; // 0xC0
-        public UnityEngine.Transform centerOfMass; // 0xC8
+        public object centerOfMass; // 0xC8
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5413C140
@@ -59,30 +59,30 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class BuggyController : MonoBehaviour
     {
-        public UnityEngine.Transform modelJoystick; // 0x20
+        public object modelJoystick; // 0x20
         public float joystickRot; // 0x28
-        public UnityEngine.Transform modelTrigger; // 0x30
+        public object modelTrigger; // 0x30
         public float triggerRot; // 0x38
-        public Valve.VR.InteractionSystem.Sample.BuggyBuddy buggy; // 0x40
-        public UnityEngine.Transform buttonBrake; // 0x48
-        public UnityEngine.Transform buttonReset; // 0x50
-        public UnityEngine.Canvas ui_Canvas; // 0x58
-        public UnityEngine.UI.Image ui_rpm; // 0x60
-        public UnityEngine.UI.Image ui_speed; // 0x68
-        public UnityEngine.RectTransform ui_steer; // 0x70
+        public rted.ameId buggy; // 0x40
+        public object buttonBrake; // 0x48
+        public object buttonReset; // 0x50
+        public pad ui_Canvas; // 0x58
+        public ePathName117.ÎÌÍÍÎÏÌ ui_rpm; // 0x60
+        public ePathName117.ÎÌÍÍÎÏÌ ui_speed; // 0x68
+        public 16 ui_steer; // 0x70
         public float ui_steerangle; // 0x78
-        public UnityEngine.Vector2 ui_fillAngles; // 0x7C
-        public UnityEngine.Transform resetToPoint; // 0x88
-        public Valve.VR.SteamVR_Action_Vector2 actionSteering; // 0x90
-        public Valve.VR.SteamVR_Action_Single actionThrottle; // 0x98
-        public Valve.VR.SteamVR_Action_Boolean actionBrake; // 0xA0
-        public Valve.VR.SteamVR_Action_Boolean actionReset; // 0xA8
+        public tionX ui_fillAngles; // 0x7C
+        public object resetToPoint; // 0x88
+        public tartWrappedLong actionSteering; // 0x90
+        public rify actionThrottle; // 0x98
+        public or actionBrake; // 0xA0
+        public or actionReset; // 0xA8
         public float usteer; // 0xB0
-        public Valve.VR.InteractionSystem.Interactable interactable; // 0xB8
-        public UnityEngine.Quaternion trigSRot; // 0xC0
-        public UnityEngine.Quaternion joySRot; // 0xD0
-        public UnityEngine.Coroutine resettingRoutine; // 0xE0
-        public UnityEngine.Vector3 initialScale; // 0xE8
+        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0xB8
+        public R_12x12 trigSRot; // 0xC0
+        public R_12x12 joySRot; // 0xD0
+        public ts resettingRoutine; // 0xE0
+        public amut initialScale; // 0xE8
         public float buzztimer; // 0xF4
 
         // ── Methods ──
@@ -104,8 +104,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class ButtonExample : MonoBehaviour
     {
-        public Valve.VR.InteractionSystem.HoverButton hoverButton; // 0x20
-        public UnityEngine.GameObject prefab; // 0x28
+        public Source_Map.thumbDistal hoverButton; // 0x20
+        public BuffersImpl prefab; // 0x28
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54145660
@@ -116,8 +116,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class ControllerHintsExample : MonoBehaviour
     {
-        public UnityEngine.Coroutine buttonHintCoroutine; // 0x20
-        public UnityEngine.Coroutine textHintCoroutine; // 0x28
+        public ts buttonHintCoroutine; // 0x20
+        public ts textHintCoroutine; // 0x28
 
         // ── Methods ──
         public void ShowButtonHints(){} // RVA: 0x7FFD541464B0
@@ -130,9 +130,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class CustomSkeletonHelper : MonoBehaviour
     {
-        public 0x6656E358 wrist; // 0x20
-        public 0x6656E408[] fingers; // 0x28
-        public 0x6656E3B0[] thumbs; // 0x30
+        public hMap wrist; // 0x20
+        public ÍÏÏÎÎÍÎÌÎÏÍÎÌÏ[] fingers; // 0x28
+        public ÎÎÌÎÌ[] thumbs; // 0x30
 
         // ── Methods ──
         public void Update(){} // RVA: 0x7FFD54147210
@@ -142,10 +142,10 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
     public class FloppyHand : MonoBehaviour
     {
         public float fingerFlexAngle; // 0x20
-        public Valve.VR.SteamVR_Action_Single squeezyAction; // 0x28
-        public 0x66569C88 inputSource; // 0x30
-        public 0x6656E510[] fingers; // 0x38
-        public UnityEngine.Vector3 constforce; // 0x40
+        public rify squeezyAction; // 0x28
+        public 2EA1BA7A405A72DE inputSource; // 0x30
+        public ÍÏÏÎÎÍÎÌÎÏÍÎÌÏ[] fingers; // 0x38
+        public amut constforce; // 0x40
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54147A70
@@ -164,10 +164,10 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class Grenade : MonoBehaviour
     {
-        public UnityEngine.GameObject explodePartPrefab; // 0x20
+        public BuffersImpl explodePartPrefab; // 0x20
         public int explodeCount; // 0x28
         public float minMagnitudeToExplode; // 0x2C
-        public Valve.VR.InteractionSystem.Interactable interactable; // 0x30
+        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0x30
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD541416B0
@@ -177,13 +177,13 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class InteractableExample : MonoBehaviour
     {
-        public UnityEngine.TextMesh generalText; // 0x20
-        public UnityEngine.TextMesh hoveringText; // 0x28
-        public UnityEngine.Vector3 oldPosition; // 0x30
-        public UnityEngine.Quaternion oldRotation; // 0x3C
+        public ED54E9924CA80D32FD85A52A959E03 generalText; // 0x20
+        public ED54E9924CA80D32FD85A52A959E03 hoveringText; // 0x28
+        public amut oldPosition; // 0x30
+        public R_12x12 oldRotation; // 0x3C
         public float attachTime; // 0x4C
-        public 0x6656BC28 attachmentFlags; // 0x50
-        public Valve.VR.InteractionSystem.Interactable interactable; // 0x58
+        public x attachmentFlags; // 0x50
+        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0x58
         public bool lastHovering; // 0x60
 
         // ── Methods ──
@@ -210,17 +210,17 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public float frictionTime; // 0x34
         public float footHeight; // 0x38
         public float footRadius; // 0x3C
-        public UnityEngine.RaycastHit footHit; // 0x40
+        public ColorScaleAndOffset footHit; // 0x40
         public bool isGrounded; // 0x6C
         public float turnAmount; // 0x70
         public float forwardAmount; // 0x74
         public float groundedTime; // 0x78
-        public UnityEngine.Animator animator; // 0x80
-        public UnityEngine.Vector3 input; // 0x88
+        public stfix animator; // 0x80
+        public amut input; // 0x88
         public bool held; // 0x94
-        public UnityEngine.Rigidbody rigidbody; // 0x98
-        public Valve.VR.InteractionSystem.Interactable interactable; // 0xA0
-        public Valve.VR.InteractionSystem.FireSource fire; // 0xA8
+        public Touched rigidbody; // 0x98
+        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0xA0
+        public Source_Map.e fire; // 0xA8
         public float jumpTimer; // 0xB0
 
         // ── Methods ──
@@ -240,17 +240,17 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class JoeJeffController : MonoBehaviour
     {
-        public UnityEngine.Transform Joystick; // 0x20
+        public object Joystick; // 0x20
         public float joyMove; // 0x28
-        public Valve.VR.SteamVR_Action_Vector2 moveAction; // 0x30
-        public Valve.VR.SteamVR_Action_Boolean jumpAction; // 0x38
-        public Valve.VR.InteractionSystem.Sample.JoeJeff character; // 0x40
-        public UnityEngine.Renderer jumpHighlight; // 0x48
-        public UnityEngine.Vector3 movement; // 0x50
+        public tartWrappedLong moveAction; // 0x30
+        public or jumpAction; // 0x38
+        public rted.eLinearMapping character; // 0x40
+        public rical jumpHighlight; // 0x48
+        public amut movement; // 0x50
         public bool jump; // 0x5C
         public float glow; // 0x60
-        public 0x66569C88 hand; // 0x64
-        public Valve.VR.InteractionSystem.Interactable interactable; // 0x68
+        public 2EA1BA7A405A72DE hand; // 0x64
+        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0x68
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54143C70
@@ -263,7 +263,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public float openFingerAmount;
         public float closedFingerAmount;
         public float closedThumbAmount;
-        public Valve.VR.InteractionSystem.Sample.JoeJeff joeJeff; // 0x20
+        public rted.eLinearMapping joeJeff; // 0x20
         public bool lastPeaceSignState; // 0x28
 
         // ── Methods ──
@@ -275,11 +275,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class LockToPoint : MonoBehaviour
     {
-        public UnityEngine.Transform snapTo; // 0x20
-        public UnityEngine.Rigidbody body; // 0x28
+        public object snapTo; // 0x20
+        public Touched body; // 0x28
         public float snapTime; // 0x30
         public float dropTimer; // 0x34
-        public Valve.VR.InteractionSystem.Interactable interactable; // 0x38
+        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0x38
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5413F3E0
@@ -289,9 +289,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class Planting : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Action_Boolean plantAction; // 0x20
-        public Valve.VR.InteractionSystem.Hand hand; // 0x28
-        public UnityEngine.GameObject prefabToPlant; // 0x30
+        public or plantAction; // 0x20
+        public Source_Map.ÌÎ hand; // 0x28
+        public BuffersImpl prefabToPlant; // 0x30
 
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD5414B770
@@ -304,7 +304,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class ProceduralHats : MonoBehaviour
     {
-        public UnityEngine.GameObject[] hats; // 0x20
+        public BuffersImpl[] hats; // 0x20
         public float hatSwitchTime; // 0x28
 
         // ── Methods ──
@@ -318,9 +318,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class RenderModelChangerUI : UIElement
     {
-        public UnityEngine.GameObject leftPrefab; // 0x30
-        public UnityEngine.GameObject rightPrefab; // 0x38
-        public Valve.VR.InteractionSystem.Sample.SkeletonUIOptions ui; // 0x40
+        public BuffersImpl leftPrefab; // 0x30
+        public BuffersImpl rightPrefab; // 0x38
+        public rted.? ui; // 0x40
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5414CBC0
@@ -341,12 +341,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class SquishyToy : MonoBehaviour
     {
-        public Valve.VR.InteractionSystem.Interactable interactable; // 0x20
-        public UnityEngine.SkinnedMeshRenderer renderer; // 0x28
+        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0x20
+        public ure renderer; // 0x28
         public bool affectMaterial; // 0x30
-        public Valve.VR.SteamVR_Action_Single gripSqueeze; // 0x38
-        public Valve.VR.SteamVR_Action_Single pinchSqueeze; // 0x40
-        public UnityEngine.Rigidbody rigidbody; // 0x48
+        public rify gripSqueeze; // 0x38
+        public rify pinchSqueeze; // 0x40
+        public Touched rigidbody; // 0x48
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5414E9E0
@@ -356,8 +356,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class TargetHitEffect : MonoBehaviour
     {
-        public UnityEngine.Collider targetCollider; // 0x20
-        public UnityEngine.GameObject spawnObjectOnCollision; // 0x28
+        public riteCharacterUnicode targetCollider; // 0x20
+        public BuffersImpl spawnObjectOnCollision; // 0x28
         public bool colorSpawnedObject; // 0x30
         public bool destroyOnTargetCollision; // 0x31
 
@@ -368,11 +368,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class TargetMeasurement : MonoBehaviour
     {
-        public UnityEngine.GameObject visualWrapper; // 0x20
-        public UnityEngine.Transform measurementTape; // 0x28
-        public UnityEngine.Transform endPoint; // 0x30
-        public UnityEngine.UI.Text measurementTextM; // 0x38
-        public UnityEngine.UI.Text measurementTextFT; // 0x40
+        public BuffersImpl visualWrapper; // 0x20
+        public object measurementTape; // 0x28
+        public object endPoint; // 0x30
+        public ePathName117.? measurementTextM; // 0x38
+        public ePathName117.? measurementTextFT; // 0x40
         public float maxDistanceToDraw; // 0x48
         public bool drawTape; // 0x4C
         public float lastDistance; // 0x50
@@ -384,14 +384,14 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class WheelDust : MonoBehaviour
     {
-        public UnityEngine.WheelCollider col; // 0x20
-        public UnityEngine.ParticleSystem p; // 0x28
+        public cessorType col; // 0x20
+        public InDuration p; // 0x28
         public float EmissionMul; // 0x30
         public float velocityMul; // 0x34
         public float maxEmission; // 0x38
         public float minSlip; // 0x3C
         public float amt; // 0x40
-        public UnityEngine.Vector3 slip; // 0x44
+        public amut slip; // 0x44
         public float emitTimer; // 0x50
 
         // ── Methods ──
@@ -414,7 +414,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
 
     public class trackObj : MonoBehaviour
     {
-        public UnityEngine.Transform target; // 0x20
+        public object target; // 0x20
         public float speed; // 0x28
         public bool negative; // 0x2C
 

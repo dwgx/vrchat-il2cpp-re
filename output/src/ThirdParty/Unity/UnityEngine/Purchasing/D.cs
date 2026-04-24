@@ -10,8 +10,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public string QueryText; // 0x10
         public string OkayButtonText; // 0x18
         public string CancelButtonText; // 0x20
-        public System.Collections.Generic.List`1<string> Options; // 0x28
-        public System.Action`2<bool,int> Callback; // 0x30
+        public URA.woDigitYearMax<string> Options; // 0x28
+        public rectoryInformation<bool,int> Callback; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310

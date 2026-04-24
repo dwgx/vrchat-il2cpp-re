@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.System.Text
 {
     public class Decoder : Object
     {
-        public System.Text.DecoderFallback Fallback; // 0x10
-        public System.Text.DecoderFallbackBuffer FallbackBuffer; // 0x18
+        public em.MarkAborted.ugView`1 Fallback; // 0x10
+        public em.MarkAborted.FlowControl FallbackBuffer; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -35,8 +35,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderFallback : Object
     {
-        public System.Text.DecoderFallback ReplacementFallback;
-        public System.Text.DecoderFallback ExceptionFallback; // 0x8
+        public em.MarkAborted.ugView`1 ReplacementFallback;
+        public em.MarkAborted.ugView`1 ExceptionFallback; // 0x8
 
         // ── Methods ──
         public void get_ReplacementFallback(){} // RVA: 0x7FFD537F0B40
@@ -48,8 +48,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderFallbackBuffer : Object
     {
-        public byte* Remaining; // 0x10
-        public char* charEnd; // 0x18
+        public object Remaining;
 
         // ── Methods ──
         public void Fallback(){} // RVA: 0x7FFD4E07C920
@@ -65,7 +64,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderNLS : Decoder
     {
-        public System.Text.Encoding MustFlush; // 0x20
+        public em.MarkAborted.ION_4_7 MustFlush; // 0x20
         public bool HasState; // 0x28
         public bool _throwOnOverflow; // 0x29
         public int _bytesUsed; // 0x2C
@@ -97,9 +96,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderReplacementFallbackBuffer : DecoderFallbackBuffer
     {
-        public string Remaining; // 0x20
-        public int _fallbackCount; // 0x28
-        public int _fallbackIndex; // 0x2C
+        public object Remaining;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537F2880
@@ -112,8 +109,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Encoder : Object
     {
-        public System.Text.EncoderFallback Fallback; // 0x10
-        public 0x6642A398 FallbackBuffer; // 0x18
+        public em.MarkAborted.CreateMutableCopy Fallback; // 0x10
+        public em.MarkAborted.y FallbackBuffer; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -140,8 +137,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncoderFallback : Object
     {
-        public System.Text.EncoderFallback ReplacementFallback;
-        public System.Text.EncoderFallback ExceptionFallback; // 0x8
+        public em.MarkAborted.CreateMutableCopy ReplacementFallback;
+        public em.MarkAborted.CreateMutableCopy ExceptionFallback; // 0x8
 
         // ── Methods ──
         public void get_ReplacementFallback(){} // RVA: 0x7FFD537F4790
@@ -154,7 +151,7 @@ namespace ThirdParty.DotNet.System.Text
     public class EncoderNLS : Encoder
     {
         public char Encoding; // 0x20
-        public System.Text.Encoding MustFlush; // 0x28
+        public em.MarkAborted.ION_4_7 MustFlush; // 0x28
         public bool HasState; // 0x30
         public bool _throwOnOverflow; // 0x31
         public int _charsUsed; // 0x34
@@ -187,15 +184,15 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Encoding : Object
     {
-        public System.Text.Encoding InternalSyncObject;
-        public System.Text.Encoding Preamble; // 0x8
-        public System.Text.Encoding BodyName; // 0x10
-        public System.Text.Encoding EncodingName; // 0x18
-        public System.Text.Encoding HeaderName; // 0x20
-        public System.Text.Encoding WebName; // 0x28
-        public System.Text.Encoding IsSingleByte; // 0x30
-        public System.Text.Encoding EncoderFallback; // 0x38
-        public System.Collections.Generic.Dictionary`2<int,System.Text.Encoding> DecoderFallback; // 0x40
+        public em.MarkAborted.ION_4_7 InternalSyncObject;
+        public em.MarkAborted.ION_4_7 Preamble; // 0x8
+        public em.MarkAborted.ION_4_7 BodyName; // 0x10
+        public em.MarkAborted.ION_4_7 EncodingName; // 0x18
+        public em.MarkAborted.ION_4_7 HeaderName; // 0x20
+        public em.MarkAborted.ION_4_7 WebName; // 0x28
+        public em.MarkAborted.ION_4_7 IsSingleByte; // 0x30
+        public em.MarkAborted.ION_4_7 EncoderFallback; // 0x38
+        public URA.DateTime<int,em.MarkAborted.ION_4_7> DecoderFallback; // 0x40
         public int IsReadOnly;
         public int ASCII;
         public int Latin1;
@@ -243,11 +240,11 @@ namespace ThirdParty.DotNet.System.Text
         public int CodePageUTF32;
         public int CodePageUTF32BE;
         public int m_codePage; // 0x10
-        public 0x6643C2F8 dataItem; // 0x18
+        public 0.S dataItem; // 0x18
         public bool m_deserializedFromEverett; // 0x20
         public bool m_isReadOnly; // 0x21
-        public System.Text.EncoderFallback encoderFallback; // 0x28
-        public System.Text.DecoderFallback decoderFallback; // 0x30
+        public em.MarkAborted.CreateMutableCopy encoderFallback; // 0x28
+        public em.MarkAborted.ugView`1 decoderFallback; // 0x30
         public object s_InternalSyncObject; // 0x48
 
         // ── Methods ──
@@ -306,7 +303,11 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Rune : ValueType
     {
-        public uint IsAscii; // 0x10
+        public object IsAscii;
+        public object IsBmp;
+        public object ReplacementChar;
+        public object Utf16SequenceLength;
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E78D8B0 | overloaded x3
@@ -330,7 +331,7 @@ namespace ThirdParty.DotNet.System.Text
     public class StringBuilder : Object
     {
         public char[] Capacity; // 0x10
-        public System.Text.StringBuilder MaxCapacity; // 0x18
+        public em.MarkAborted.izeDefaultCase MaxCapacity; // 0x18
         public int Length; // 0x20
         public int Chars; // 0x24
         public int RemainingCurrentChunk; // 0x28
@@ -384,7 +385,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class StringBuilderCache : Object
     {
-        public System.Text.StringBuilder t_cachedInstance; // 0xFFFF
+        public em.MarkAborted.izeDefaultCase t_cachedInstance; // 0xFFFFFFFF
 
         // ── Methods ──
         public void Acquire(){} // RVA: 0x7FFD538012F0
@@ -394,13 +395,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class UTF32Encoding : Encoding
     {
-        public System.Text.UTF32Encoding Preamble;
-        public System.Text.UTF32Encoding s_bigEndianDefault; // 0x8
-        public byte[] s_bigEndianPreamble; // 0x10
-        public byte[] s_littleEndianPreamble; // 0x18
-        public bool _emitUTF32ByteOrderMark; // 0x38
-        public bool _isThrowException; // 0x39
-        public bool _bigEndian; // 0x3A
+        public object Preamble;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53801560 | overloaded x3
@@ -426,7 +421,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class UTF8Encoding : Encoding
     {
-        public UTF8EncodingSealed Preamble;
+        public entCultureNoAppX Preamble;
         public byte[] s_preamble; // 0x8
         public bool _emitUTF8Identifier; // 0x38
         public bool _isThrowException; // 0x39
@@ -456,14 +451,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class UnicodeEncoding : Encoding
     {
-        public System.Text.UnicodeEncoding Preamble;
-        public System.Text.UnicodeEncoding s_littleEndianDefault; // 0x8
-        public byte[] s_bigEndianPreamble; // 0x10
-        public byte[] s_littleEndianPreamble; // 0x18
-        public bool isThrowException; // 0x38
-        public bool bigEndian; // 0x39
-        public bool byteOrderMark; // 0x3A
-        public ulong highLowPatternMask; // 0x20
+        public object Preamble;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5380B0E0 | overloaded x3

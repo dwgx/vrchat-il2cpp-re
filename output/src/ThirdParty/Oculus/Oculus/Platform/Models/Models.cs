@@ -15,7 +15,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class AchievementDefinition : Object
     {
-        public 0x665B46B8 Type; // 0x10
+        public NextImage.UTCUnixSecondsID Type; // 0x10
         public string Name; // 0x18
         public uint BitfieldLength; // 0x20
         public ulong Target; // 0x28
@@ -30,7 +30,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
         public ulong Count; // 0x18
         public bool IsUnlocked; // 0x20
         public string Name; // 0x28
-        public System.DateTime UnlockTime; // 0x30
+        public DependencyInjector UnlockTime; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C98650
@@ -47,14 +47,14 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class ApplicationInvite : Object
     {
-        public Oculus.Platform.Models.Destination DestinationOptional; // 0x10
-        public Oculus.Platform.Models.Destination Destination; // 0x18
+        public Full.ght DestinationOptional; // 0x10
+        public Full.ght Destination; // 0x18
         public ulong ID; // 0x20
         public bool IsActive; // 0x28
         public string LobbySessionId; // 0x30
         public string MatchSessionId; // 0x38
-        public Oculus.Platform.Models.User RecipientOptional; // 0x40
-        public Oculus.Platform.Models.User Recipient; // 0x48
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ RecipientOptional; // 0x40
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ Recipient; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C98FC0
@@ -78,8 +78,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
         public string DownloadStatus; // 0x20
         public string Filepath; // 0x28
         public string IapStatus; // 0x30
-        public Oculus.Platform.Models.LanguagePackInfo LanguageOptional; // 0x38
-        public Oculus.Platform.Models.LanguagePackInfo Language; // 0x40
+        public Full.eateRoomMaxUsers LanguageOptional; // 0x38
+        public Full.eateRoomMaxUsers Language; // 0x40
         public string Metadata; // 0x48
 
         // ── Methods ──
@@ -174,18 +174,18 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class Challenge : Object
     {
-        public 0x665B4C38 CreationType; // 0x10
+        public NextImage.endRequest CreationType; // 0x10
         public string Description; // 0x18
-        public System.DateTime EndDate; // 0x20
+        public DependencyInjector EndDate; // 0x20
         public ulong ID; // 0x28
-        public 0x665BB4B8 InvitedUsersOptional; // 0x30
-        public 0x665BB4B8 InvitedUsers; // 0x38
-        public Oculus.Platform.Models.Leaderboard Leaderboard; // 0x40
-        public 0x665BB4B8 ParticipantsOptional; // 0x48
-        public 0x665BB4B8 Participants; // 0x50
-        public System.DateTime StartDate; // 0x58
+        public Full.led InvitedUsersOptional; // 0x30
+        public Full.led InvitedUsers; // 0x38
+        public Full.ptionFailed Leaderboard; // 0x40
+        public Full.led ParticipantsOptional; // 0x48
+        public Full.led Participants; // 0x50
+        public DependencyInjector StartDate; // 0x58
         public string Title; // 0x60
-        public 0x665B4D40 Visibility; // 0x68
+        public NextImage.me_Native Visibility; // 0x68
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C9BF20
@@ -198,8 +198,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
         public ulong ID; // 0x20
         public int Rank; // 0x28
         public long Score; // 0x30
-        public System.DateTime Timestamp; // 0x38
-        public Oculus.Platform.Models.User User; // 0x40
+        public DependencyInjector Timestamp; // 0x38
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ User; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C9CD50
@@ -207,8 +207,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class CloudStorageConflictMetadata : Object
     {
-        public Oculus.Platform.Models.CloudStorageMetadata Local; // 0x10
-        public Oculus.Platform.Models.CloudStorageMetadata Remote; // 0x18
+        public Full.cy Local; // 0x10
+        public Full.cy Remote; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C9D790
@@ -233,7 +233,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
         public string ExtraData; // 0x28
         public string Key; // 0x30
         public ulong SaveTime; // 0x38
-        public 0x665B4D98 Status; // 0x40
+        public NextImage.board_GetDestination Status; // 0x40
         public string VersionHandle; // 0x48
 
         // ── Methods ──
@@ -244,7 +244,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     {
         public string Bucket; // 0x10
         public string Key; // 0x18
-        public 0x665B4DF0 Status; // 0x20
+        public NextImage.extUrl Status; // 0x20
         public string VersionHandle; // 0x28
 
         // ── Methods ──
@@ -253,7 +253,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
-        public System.Collections.Generic.List`1<T> Count;
+        public URA.woDigitYearMax<T1717704128> Count;
         public string System.Collections.Generic.ICollection<T>.IsReadOnly;
         public string Item;
 
@@ -376,11 +376,11 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
         public string DeeplinkMessage; // 0x10
         public string DestinationApiName; // 0x18
         public string LaunchSource; // 0x20
-        public 0x665B50B0 LaunchType; // 0x28
+        public NextImage.rboardEntry_GetScore LaunchType; // 0x28
         public ulong RoomID; // 0x30
         public string TrackingID; // 0x38
-        public 0x665BB4B8 UsersOptional; // 0x40
-        public 0x665BB4B8 Users; // 0x48
+        public Full.led UsersOptional; // 0x40
+        public Full.led Users; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA08F0
@@ -397,7 +397,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class LaunchInvitePanelFlowResult : Object
     {
-        public 0x665BB4B8 InvitedUsers; // 0x10
+        public Full.led InvitedUsers; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA10A0
@@ -424,8 +424,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class Leaderboard : Object
     {
         public string ApiName; // 0x10
-        public Oculus.Platform.Models.Destination DestinationOptional; // 0x18
-        public Oculus.Platform.Models.Destination Destination; // 0x20
+        public Full.ght DestinationOptional; // 0x18
+        public Full.ght Destination; // 0x20
         public ulong ID; // 0x28
 
         // ── Methods ──
@@ -439,10 +439,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
         public ulong ID; // 0x20
         public int Rank; // 0x28
         public long Score; // 0x30
-        public Oculus.Platform.Models.SupplementaryMetric SupplementaryMetricOptional; // 0x38
-        public Oculus.Platform.Models.SupplementaryMetric SupplementaryMetric; // 0x40
-        public System.DateTime Timestamp; // 0x48
-        public Oculus.Platform.Models.User User; // 0x50
+        public Full.sferUpdate SupplementaryMetricOptional; // 0x38
+        public Full.sferUpdate SupplementaryMetric; // 0x40
+        public DependencyInjector Timestamp; // 0x48
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ User; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA1BD0
@@ -451,7 +451,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class LinkedAccount : Object
     {
         public string AccessToken; // 0x10
-        public 0x665B8AC8 ServiceProvider; // 0x18
+        public NextImage.SetTimeWindow ServiceProvider; // 0x18
         public string UserId; // 0x20
 
         // ── Methods ──
@@ -468,7 +468,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class LivestreamingStartResult : Object
     {
-        public 0x665B5268 StreamingResult; // 0x10
+        public NextImage.ovr_LeaderboardEntryArray_GetNextUrl StreamingResult; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA2EE0
@@ -498,7 +498,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class MatchmakingAdminSnapshot : Object
     {
-        public 0x665BA648 Candidates; // 0x10
+        public Full.llengeEntryList Candidates; // 0x10
         public double MyCurrentThreshold; // 0x18
 
         // ── Methods ──
@@ -519,8 +519,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class MatchmakingBrowseResult : Object
     {
-        public Oculus.Platform.Models.MatchmakingEnqueueResult EnqueueResult; // 0x10
-        public 0x665BB098 Rooms; // 0x18
+        public Full.loudStorageUpdateResponse EnqueueResult; // 0x10
+        public Full.MediaResult Rooms; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA3B60
@@ -528,8 +528,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class MatchmakingEnqueueResult : Object
     {
-        public Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional; // 0x10
-        public Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot; // 0x18
+        public Full.ate AdminSnapshotOptional; // 0x10
+        public Full.ate AdminSnapshot; // 0x18
         public uint AverageWait; // 0x20
         public uint MatchesInLastHourCount; // 0x24
         public uint MaxExpectedWait; // 0x28
@@ -543,8 +543,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class MatchmakingEnqueueResultAndRoom : Object
     {
-        public Oculus.Platform.Models.MatchmakingEnqueueResult MatchmakingEnqueueResult; // 0x10
-        public Oculus.Platform.Models.Room Room; // 0x18
+        public Full.loudStorageUpdateResponse MatchmakingEnqueueResult; // 0x10
+        public Full.? Room; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA48E0
@@ -552,9 +552,9 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class MatchmakingEnqueuedUser : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,string> CustomData; // 0x10
-        public Oculus.Platform.Models.User UserOptional; // 0x18
-        public Oculus.Platform.Models.User User; // 0x20
+        public URA.DateTime<string,string> CustomData; // 0x10
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ UserOptional; // 0x18
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ User; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA3DB0
@@ -584,9 +584,9 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class NetSyncConnection : Object
     {
         public long ConnectionId; // 0x10
-        public 0x665B7680 DisconnectReason; // 0x18
+        public NextImage.ser_GetPresenceLobbySessionId_Native DisconnectReason; // 0x18
         public ulong SessionId; // 0x20
-        public 0x665B7628 Status; // 0x28
+        public NextImage.enceLobbySessionId Status; // 0x28
         public string ZoneId; // 0x30
 
         // ── Methods ──
@@ -608,7 +608,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class NetSyncSessionsChangedNotification : Object
     {
         public long ConnectionId; // 0x10
-        public 0x665BA9B8 Sessions; // 0x18
+        public Full.GetLivestreamingApplicationStatus Sessions; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA5720
@@ -616,7 +616,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class NetSyncSetSessionPropertyResult : Object
     {
-        public Oculus.Platform.Models.NetSyncSession Session; // 0x10
+        public Full.ist Session; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA58D0
@@ -634,7 +634,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class NetworkingPeer : Object
     {
         public ulong ID; // 0x10
-        public 0x665B78E8 State; // 0x18
+        public NextImage._GetElement State; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F840710
@@ -655,14 +655,14 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class Party : Object
     {
         public ulong ID; // 0x10
-        public 0x665BB4B8 InvitedUsersOptional; // 0x18
-        public 0x665BB4B8 InvitedUsers; // 0x20
-        public Oculus.Platform.Models.User LeaderOptional; // 0x28
-        public Oculus.Platform.Models.User Leader; // 0x30
-        public Oculus.Platform.Models.Room RoomOptional; // 0x38
-        public Oculus.Platform.Models.Room Room; // 0x40
-        public 0x665BB4B8 UsersOptional; // 0x48
-        public 0x665BB4B8 Users; // 0x50
+        public Full.led InvitedUsersOptional; // 0x18
+        public Full.led InvitedUsers; // 0x20
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ LeaderOptional; // 0x28
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ Leader; // 0x30
+        public Full.? RoomOptional; // 0x38
+        public Full.? Room; // 0x40
+        public Full.led UsersOptional; // 0x48
+        public Full.led Users; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA5FC0
@@ -678,7 +678,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class PartyUpdateNotification : Object
     {
-        public 0x665B7890 Action; // 0x10
+        public NextImage.etUser Action; // 0x10
         public ulong PartyId; // 0x18
         public ulong SenderId; // 0x20
         public string UpdateTimestamp; // 0x28
@@ -701,7 +701,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class PingResult : Object
     {
         public ulong ID; // 0x10
-        public System.Nullable`1<ulong> PingTimeUsec; // 0x18
+        public aphy<ulong> PingTimeUsec; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA71C0
@@ -713,7 +713,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class PlatformInitialize : Object
     {
-        public 0x665B8440 Result; // 0x10
+        public NextImage.ovr_MatchmakingOptions_SetCreateRoomMaxUsers Result; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA7270
@@ -733,8 +733,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class Purchase : Object
     {
         public string DeveloperPayload; // 0x10
-        public System.DateTime ExpirationTime; // 0x18
-        public System.DateTime GrantTime; // 0x20
+        public DependencyInjector ExpirationTime; // 0x18
+        public DependencyInjector GrantTime; // 0x20
         public string ID; // 0x28
         public string ReportingId; // 0x30
         public string Sku; // 0x38
@@ -754,25 +754,25 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class Room : Object
     {
         public ulong ApplicationID; // 0x10
-        public System.Collections.Generic.Dictionary`2<string,string> DataStore; // 0x18
+        public URA.DateTime<string,string> DataStore; // 0x18
         public string Description; // 0x20
         public ulong ID; // 0x28
-        public 0x665BB4B8 InvitedUsersOptional; // 0x30
-        public 0x665BB4B8 InvitedUsers; // 0x38
+        public Full.led InvitedUsersOptional; // 0x30
+        public Full.led InvitedUsers; // 0x38
         public bool IsMembershipLocked; // 0x40
-        public 0x665B8860 JoinPolicy; // 0x44
-        public 0x665B8808 Joinability; // 0x48
-        public 0x665BA750 MatchedUsersOptional; // 0x50
-        public 0x665BA750 MatchedUsers; // 0x58
+        public NextImage.ffUpdates JoinPolicy; // 0x44
+        public NextImage.MetTimeWindow Joinability; // 0x48
+        public Full.loudStorageMetadataList MatchedUsersOptional; // 0x50
+        public Full.loudStorageMetadataList MatchedUsers; // 0x58
         public uint MaxUsers; // 0x60
         public string Name; // 0x68
-        public Oculus.Platform.Models.User OwnerOptional; // 0x70
-        public Oculus.Platform.Models.User Owner; // 0x78
-        public 0x665BB408 TeamsOptional; // 0x80
-        public 0x665BB408 Teams; // 0x88
-        public 0x665B8968 Type; // 0x90
-        public 0x665BB4B8 UsersOptional; // 0x98
-        public 0x665BB4B8 Users; // 0xA0
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ OwnerOptional; // 0x70
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ Owner; // 0x78
+        public Full.andleExtraMessageTypes TeamsOptional; // 0x80
+        public Full.andleExtraMessageTypes Teams; // 0x88
+        public NextImage.? Type; // 0x90
+        public Full.led UsersOptional; // 0x98
+        public Full.led Users; // 0xA0
         public uint Version; // 0xA8
 
         // ── Methods ──
@@ -784,7 +784,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
         public ulong ID; // 0x10
         public ulong RoomID; // 0x18
         public ulong SenderID; // 0x20
-        public System.DateTime SentTime; // 0x28
+        public DependencyInjector SentTime; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CA9780
@@ -792,7 +792,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class SdkAccount : Object
     {
-        public 0x665B8A18 AccountType; // 0x10
+        public NextImage.r_UserOptions_ClearServiceProviders AccountType; // 0x10
         public ulong UserId; // 0x18
 
         // ── Methods ──
@@ -801,7 +801,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class SendInvitesResult : Object
     {
-        public 0x665B9410 Invites; // 0x10
+        public Full.phoneOff Invites; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CAA290
@@ -809,7 +809,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class ShareMediaResult : Object
     {
-        public 0x665B8B20 Status; // 0x10
+        public NextImage.ptions_Destroy Status; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CAA3E0
@@ -826,8 +826,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class SystemVoipState : Object
     {
-        public 0x665B8F98 MicrophoneMuted; // 0x10
-        public 0x665B8C80 Status; // 0x14
+        public NextImage.ed MicrophoneMuted; // 0x10
+        public NextImage.h Status; // 0x14
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CAA5D0
@@ -835,7 +835,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class Team : Object
     {
-        public 0x665BB4B8 AssignedUsers; // 0x10
+        public Full.led AssignedUsers; // 0x10
         public int MaxUsers; // 0x18
         public int MinUsers; // 0x1C
         public string Name; // 0x20
@@ -856,7 +856,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
         public string PresenceDestinationApiName; // 0x48
         public string PresenceLobbySessionId; // 0x50
         public string PresenceMatchSessionId; // 0x58
-        public 0x665B8DE0 PresenceStatus; // 0x60
+        public NextImage.? PresenceStatus; // 0x60
         public string SmallImageUrl; // 0x68
 
         // ── Methods ──
@@ -865,9 +865,9 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class UserAndRoom : Object
     {
-        public Oculus.Platform.Models.Room RoomOptional; // 0x10
-        public Oculus.Platform.Models.Room Room; // 0x18
-        public Oculus.Platform.Models.User User; // 0x20
+        public Full.? RoomOptional; // 0x10
+        public Full.? Room; // 0x18
+        public Full.ÏÍÏÎÎÍÍÎÏÌÍÏÌÏ User; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53CABB40

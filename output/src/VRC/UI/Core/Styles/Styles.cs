@@ -7,7 +7,7 @@ namespace VRC.UI.Core.Styles
 {
     public class StyleClass : MonoBehaviour
     {
-        public string ÍÌÎÌÏÌÎÏÏÎÎÎÌÎÍÏÏÎÍÏÏÍÍ; // 0x20
+        public string ÏÍÌÎÍÏÍÏÎÍÎÍÍÍÍÌÏÏÏÏÍÏÍ; // 0x20
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E36F0C0
@@ -22,53 +22,53 @@ namespace VRC.UI.Core.Styles
 
     public class StyleElement : MonoBehaviour
     {
-        public System.Collections.Generic.Dictionary`2<int,0x665C8718> _destroyCancellationToken;
-        public System.Collections.Generic.Dictionary`2<int,long> _useGUILayout; // 0x8
+        public URA.DateTime<int,Rehash> _destroyCancellationToken;
+        public URA.DateTime<int,long> _useGUILayout; // 0x8
         public bool f_912; // 0x20
-        public string ÍÌÎÌÏÌÌÌÏÍÎÍÎÍÎÎÍÏÎÏÏÍÍ; // 0x28
-        public string ÍÌÎÌÏÌÎÏÏÎÎÎÌÎÍÏÏÎÍÏÏÍÍ; // 0x30
-        public UnityEngine.UI.Selectable ÎÌÌÍÌÌÌÎÍÌÏÍÏÏÎÎÌÌÍÎÏÎÎ; // 0x38
-        public System.Collections.Generic.HashSet`1<int> ÏÏÏÎÍÎÎÏÏÌÎÎÌÎÍÎÍÏÎÌÎÏÏ; // 0x40
-        public long ÌÏÏÍÏÌÌÏÏÌÎÎÏÎÍÏÎÌÏÏÏÏÍ; // 0x48
-        public int ÌÍÌÌÍÏÏÏÍÎÍÎÏÌÌÍÏÎÏÍÏÍÎ; // 0x50
-        public VRC.UI.Core.Styles.StyleElement ÌÌÏÎÏÎÌÎÎÍÌÌÌÌÌÍÎÌÌÎÎÎÎ; // 0x58
-        public System.Collections.Generic.List`1<VRC.UI.Core.Styles.StyleElement> ÌÌÎÏÏÍÍÎÌÍÏÎÍÏÍÎÍÏÍÏÎÍÌ; // 0x60
-        public VRC.UI.Core.Styles.StyleEngine ÏÏÏÏÍÍÌÌÎÍÌÍÎÍÍÎÌÌÍÎÏÎÏ; // 0x68
-        public System.Collections.Generic.List`1<0x665C82A0> ÎÏÍÏÎÏÌÌÎÏÌÍÌÍÌÍÎÎÏÏÍÏÌ; // 0x70
-        public bool ÏÎÍÌÎÏÌÎÏÍÌÎÏÏÌÎÍÍÍÌÏÏÎ; // 0x78
-        public bool ÌÎÏÍÏÍÎÌÌÎÍÍÍÏÍÌÍÍÍÏÍÌÌ; // 0x79
-        public 0x665C8350 ÏÍÎÏÍÏÎÌÏÌÏÍÍÏÍÍÏÎÎÌÍÎÌ; // 0x80
-        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<int,0x665C87C8>> ÍÍÎÎÌÎÍÌÎÍÍÌÌÏÍÏÌÏÎÍÌÍÌ; // 0x88
-        public bool ÌÎÍÍÏÌÍÌÎÌÌÌÌÎÏÌÎÏÌÏÏÌÌ; // 0x90
-        public 0x665C82A0 ÎÍÎÍÍÍÏÍÎÌÎÍÌÌÌÌÎÍÌÏÏÌÎ; // 0x98
-        public 0x665C82A0 ÌÎÍÍÌÌÌÌÎÍÌÍÍÎÏÏÏÎÎÎÍÏÌ; // 0xA0
-        public 0x665C8198 ÏÌÎÎÎÌÌÏÏÎÌÏÌÏÌÍÌÏÍÎÏÎÎ; // 0xA8
-        public 0x665C8198 ÎÍÍÌÎÏÏÌÍÍÏÏÎÌÏÏÍÎÍÍÎÎÎ; // 0xB0
-        public System.Collections.Generic.List`1<0x665C8820> ÍÍÍÏÍÏÎÍÎÌÍÎÌÌÌÌÎÍÌÌÏÏÏ; // 0x10
-        public bool ÎÏÎÍÌÎÌÏÏÍÎÍÍÏÍÎÌÎÏÏÎÌÏ; // 0xB8
-        public System.Collections.Generic.List`1<UnityEngine.Component> ÎÏÎÍÏÍÍÌÎÌÎÏÎÍÏÏÏÎÎÍÏÍÏ; // 0xC0
-        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.Component>> ÎÎÍÍÌÎÎÍÏÍÍÎÌÌÎÍÍÌÎÌÏÌÏ; // 0xC8
-        public System.Collections.Generic.List`1<ÍÌÏÎÏÍÏÏÏÌÎÍÏÍÏÏÌÎÍÎÎÍÎ> ÍÍÏÏÍÏÌÍÏÍÏÏÌÌÍÎÌÎÍÌÍÎÎ; // 0x18
-        public bool ÌÍÌÌÎÍÌÏÏÍÎÍÎÏÎÍÍÏÏÍÏÌÏ; // 0xD0
-        public bool ÌÏÍÏÌÍÍÍÎÎÌÌÍÍÎÎÍÎÍÎÍÍÍ; // 0xD1
-        public UnityEngine.Canvas ÏÌÍÍÎÎÌÎÍÏÌÍÎÏÍÌÏÏÎÏÌÍÍ; // 0xD8
-        public System.Collections.Generic.List`1<UnityEngine.EventSystems.IPointerDownHandler> ÍÎÌÌÏÌÎÍÌÍÌÏÍÎÎÏÌÎÏÍÍÌÎ; // 0x20
-        public System.Collections.Generic.List`1<UnityEngine.EventSystems.IPointerClickHandler> ÍÍÏÎÏÌÌÎÍÍÏÎÏÍÍÍÍÎÌÌÎÍÏ; // 0x28
-        public System.Collections.Generic.List`1<UnityEngine.EventSystems.IDragHandler> ÏÎÎÌÍÌÏÏÌÌÎÎÌÍÌÌÎÌÍÌÌÍÌ; // 0x30
-        public bool ÍÎÏÌÌÌÏÌÎÏÏÍÌÏÍÏÌÏÌÏÍÍÌ; // 0xE0
-        public bool ÍÏÌÎÏÌÌÏÍÎÏÎÏÌÏÍÌÌÌÌÍÍÍ; // 0xE1
-        public bool ÌÌÌÍÍÌÏÍÍÎÍÎÎÌÏÏÏÌÍÌÏÎÌ; // 0xE2
-        public bool ÍÎÏÍÌÏÏÍÌÏÌÍÌÍÌÍÏÏÌÏÎÏÌ; // 0xE3
-        public System.Collections.Generic.Dictionary`2<int,ÎÌÌÍÎÎÏÍÌÌÌÎÍÏÌÏÏÎÍÎÍÌÌ> ÍÍÌÌÎÍÌÏÏÏÌÍÎÎÌÏÏÍÌÏÎÍÏ; // 0xE8
-        public System.Collections.Generic.Dictionary`2<int,0x665C89D8> ÏÎÍÎÎÍÍÍÎÎÍÍÎÎÍÏÎÏÏÏÎÎÌ; // 0xF0
-        public 0x665C80E8 ÍÏÍÍÏÏÎÏÍÏÍÎÏÏÎÎÍÍÍÍÏÌÍ; // 0x38
-        public 0x665C80E8 ÎÍÌÍÎÏÍÎÌÌÎÌÌÍÎÌÏÌÏÏÌÍÍ; // 0x48
-        public 0x665C80E8 ÎÌÍÌÌÎÍÌÌÏÏÌÏÎÍÎÎÏÏÍÍÍÌ; // 0x58
-        public 0x665C80E8 ÏÏÏÌÎÏÍÎÏÏÍÎÌÎÎÌÌÏÏÌÎÏÎ; // 0x68
-        public 0x665C80E8 ÌÍÍÌÍÍÎÎÎÌÍÍÌÏÏÍÌÎÌÏÌÎÏ; // 0x78
-        public EventFunction`1<ÌÏÍÏÎÎÍÌÏÏÍÎÌÎÏÏÍÌÏÍÌÌÌ> ÏÎÏÍÏÏÏÏÏÎÎÍÌÏÏÌÎÎÌÏÍÎÎ; // 0x88
-        public EventFunction`1<ÌÏÍÏÎÎÍÌÏÏÍÎÌÎÏÏÍÌÏÍÌÌÌ> ÍÎÎÏÏÍÎÍÍÏÍÍÍÏÎÍÍÎÎÍÏÌÍ; // 0x90
-        public string ÎÏÎÏÌÏÏÍÎÏÏÎÏÏÌÏÏÎÍÎÏÎÍ; // 0xF8
+        public string ÏÍÍÍÎÌÎÎÏÎÎÎÌÍÍÎÏÏÎÎÌÍÌ; // 0x28
+        public string ÏÍÌÎÍÏÍÏÎÍÎÍÍÍÍÌÏÏÏÏÍÏÍ; // 0x30
+        public ePathName117.? ÌÌÎÏÎÌÌÎÏÍÎÌÏÏÌÌÍÎÌÌÍÍÏ; // 0x38
+        public URA.onsDepth<int> ÍÌÎÏÍÎÍÍÏÌÍÌÍÎÏÏÍÍÌÏÌÍÌ; // 0x40
+        public long ÎÎÎÎÍÌÌÎÌÍÍÏÎÎÌÍÍÏÎÎÎÏÎ; // 0x48
+        public int ÍÎÌÎÌÏÏÎÏÍÏÌÏÎÎÌÏÏÍÍÌÍÍ; // 0x50
+        public gField.ldKeyboardOverride ÏÎÍÏÎÎÏÌÍÎÍÍÍÏÏÏÏÏÌÌÎÏÌ; // 0x58
+        public URA.woDigitYearMax<gField.ldKeyboardOverride> ÏÍÎÍÌÎÏÍÌÌÎÏÌÌÌÎÌÏÍÏÌÏÎ; // 0x60
+        public gField.? ÌÏÎÍÍÌÌÌÎÌÍÏÌÏÏÎÏÍÍÍÌÌÏ; // 0x68
+        public URA.woDigitYearMax<erNetworkTick> ÌÏÏÍÌÌÏÌÌÍÍÌÎÍÍÎÍÎÌÍÌÌÍ; // 0x70
+        public bool ÌÍÍÌÏÎÏÌÍÎÌÍÌÍÌÏÍÎÎÌÎÍÌ; // 0x78
+        public bool ÍÏÍÏÌÍÌÎÌÌÎÏÍÌÎÏÏÍÍÎÍÌÌ; // 0x79
+        public ercentage ÌÍÏÏÌÎÏÎÎÍÏÍÏÎÍÎÎÎÍÍÏÍÏ; // 0x80
+        public URA.woDigitYearMax<URA.mes<int,ment>>.get_IsReadOnly>> ÎÏÌÏÎÏÏÍÍÌÍÏÎÏÎÌÏÏÎÍÍÎÏ; // 0x88
+        public bool ÎÌÍÏÎÎÍÍÏÎÍÍÍÌÏÌÎÎÌÎÏÎÎ; // 0x90
+        public erNetworkTick ÍÎÍÌÎÎÎÎÌÎÍÏÍÎÎÍÌÎÌÍÎÌÎ; // 0x98
+        public erNetworkTick ÏÎÍÏÏÍÍÏÌÏÌÏÎÎÎÏÍÎÍÍÎÎÎ; // 0xA0
+        public gure ÍÌÏÌÎÎÎÍÏÌÎÏÎÍÏÎÏÏÌÏÌÍÎ; // 0xA8
+        public gure ÍÍÍÌÍÌÏÏÎÌÏÏÏÌÎÌÎÏÎÌÏÍÌ; // 0xB0
+        public URA.woDigitYearMax<ections.Generic.ICollection<System.Linq.IGrouping<TKey,TElement>>.Remove> ÍÍÍÌÍÌÎÍÌÍÌÌÌÎÌÍÌÍÍÏÌÏÎ; // 0x10
+        public bool ÍÏÏÏÎÍÎÍÏÌÍÏÍÌÌÌÍÎÏÏÎÌÌ; // 0xB8
+        public URA.woDigitYearMax<led> ÏÍÌÍÎÍÎÌÍÏÎÌÍÎÍÌÎÌÏÌÏÌÏ; // 0xC0
+        public URA.woDigitYearMax<URA.mes<?,led>> ÌÏÎÍÌÏÏÎÏÌÎÍÎÏÏÍÌÍÎÎÎÏÌ; // 0xC8
+        public URA.woDigitYearMax<tinuity> ÏÏÎÏÍÌÌÍÎÏÍÎÎÌÏÍÎÎÍÏÌÎÌ; // 0x18
+        public bool ÏÍÎÌÎÎÍÏÎÎÏÏÌÍÏÌÍÌÌÏÎÌÌ; // 0xD0
+        public bool ÌÌÎÏÍÌÎÌÏÎÍÌÏÌÍÏÎÌÎÏÌÌÏ; // 0xD1
+        public pad ÍÍÌÍÏÍÌÎÍÌÌÎÌÏÏÎÌÌÎÏÍÌÏ; // 0xD8
+        public URA.woDigitYearMax<moryFailure.t> ÌÎÏÎÎÍÌÏÎÌÍÏÎÌÍÏÎÏÍÏÎÏÏ; // 0x20
+        public URA.woDigitYearMax<moryFailure.<elapsedTime>5__3> ÍÎÏÌÏÎÌÌÌÍÌÍÌÎÌÎÌÎÏÍÎÎÌ; // 0x28
+        public URA.woDigitYearMax<moryFailure.nder> ÏÏÍÌÍÎÌÌÌÎÏÎÎÏÎÏÏÍÍÌÌÎÍ; // 0x30
+        public bool ÍÎÌÍÍÏÌÍÍÌÎÎÍÏÍÍÌÎÍÍÏÎÍ; // 0xE0
+        public bool ÎÎÏÍÎÌÏÏÍÏÍÍÎÏÍÌÎÏÍÌÍÌÍ; // 0xE1
+        public bool ÍÍÌÌÏÌÍÍÎÌÌÍÌÌÍÌÏÍÎÎÎÏÍ; // 0xE2
+        public bool ÍÌÌÎÏÎÎÏÌÎÎÍÌÎÍÌÌÎÌÎÏÌÌ; // 0xE3
+        public URA.DateTime<int,ip`5> ÌÍÏÏÌÍÏÏÎÏÏÎÏÎÏÏÏÍÍÏÌÏÏ; // 0xE8
+        public URA.DateTime<int,efaultInterpolatedStringHandler> ÍÌÍÎÏÍÎÌÍÌÏÌÎÏÎÏÍÏÎÎÏÎÏ; // 0xF0
+        public nces ÌÎÎÌÏÎÍÏÌÌÏÍÎÎÍÎÎÌÎÍÌÏÎ; // 0x38
+        public nces ÏÎÎÍÏÌÍÍÎÍÎÌÌÍÍÎÌÍÎÍÍÏÎ; // 0x48
+        public nces ÏÎÍÍÎÏÎÌÎÎÌÌÌÏÏÌÎÌÌÍÏÎÌ; // 0x58
+        public nces ÏÏÍÍÍÍÏÌÌÌÍÎÌÎÌÌÍÍÍÌÍÌÎ; // 0x68
+        public nces ÌÍÌÎÍÎÍÍÎÎÌÎÍÍÍÌÌÍÌÏÎÌÏ; // 0x78
+        public eshGeneration>k__BackingField<tion> ÎÏÍÍÎÍÌÌÎÏÎÏÏÏÎÎÍÎÍÌÌÌÎ; // 0x88
+        public eshGeneration>k__BackingField<tion> ÎÍÌÎÌÎÍÏÌÎÌÍÎÍÍÏÌÎÍÎÍÌÏ; // 0x90
+        public string ÎÏÌÍÌÍÌÍÌÌÍÌÌÍÍÍÍÏÌÌÏÌÍ; // 0xF8
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD5666A870
@@ -145,19 +145,19 @@ namespace VRC.UI.Core.Styles
 
     public class StyleEngine : MonoBehaviour
     {
-        public VRC.UI.Core.Styles.StyleResource _styleEngine; // 0x20
-        public System.Collections.Generic.Dictionary`2<int,0x665C8C40> ÌÍÎÍÎÏÏÌÎÏÍÌÌÌÏÎÏÍÏÏÏÌÍ;
-        public System.Collections.Generic.List`1<0x665C8D48> ÌÍÍÍÏÏÌÏÌÍÍÌÌÏÏÌÌÍÏÎÎÎÍ; // 0x8
-        public ÍÍÌÍÎÏÎÍÎÌÎÌÌÍÎÏÏÍÏÍÌÍÍ ÌÌÏÍÌÎÎÍÍÏÏÏÏÎÌÎÍÎÏÍÌÎÎ; // 0x28
-        public bool ÎÌÎÎÍÍÍÏÎÎÌÎÌÏÌÎÎÌÎÌÍÍÎ; // 0x30
-        public System.DateTime ÌÏÌÍÎÎÎÌÏÎÌÏÌÌÏÌÎÍÍÏÍÌÏ; // 0x38
+        public gField.? _styleEngine; // 0x20
+        public URA.DateTime<int,?> ÏÏÏÍÏÏÌÍÍÎÎÌÍÏÍÏÍÌÌÌÌÍÌ;
+        public URA.woDigitYearMax<?> ÏÌÌÎÏÌÎÏÏÎÌÏÍÍÍÏÎÏÌÍÎÏÎ; // 0x8
+        public object ÏÎÍÍÍÌÍÍÎÏÍÌÏÍÍÌÌÏÏÍÏÍÍ; // 0x28
+        public bool ÌÏÏÏÎÍÏÎÍÏÏÌÎÌÌÌÎÏÍÏÌÍÎ; // 0x30
+        public DependencyInjector ÎÏÎÏÌÌÌÌÌÎÎÌÌÎÌÎÏÍÎÌÍÍÍ; // 0x38
         public bool <ÍÏÌÏÎÍÏÎÏÌÏÍÎÏÎÌÍÌÌÏÍÎÎ>k__BackingField; // 0x40
-        public System.Collections.Generic.List`1<0x665C82A0> ÌÎÍÍÏÏÌÌÌÍÍÌÍÎÌÌÎÌÏÎÍÏÎ; // 0x48
-        public System.Collections.Generic.HashSet`1<VRC.UI.Core.Styles.StyleElement> ÎÌÎÌÍÎÏÌÍÎÏÍÏÎÏÍÎÌÎÍÍÍÌ; // 0x50
-        public bool ÎÎÌÎÏÎÍÏÍÍÏÌÏÍÌÏÍÎÍÏÎÍÌ; // 0x58
-        public System.Collections.Generic.HashSet`1<VRC.UI.Core.Styles.StyleElement> ÎÍÌÎÌÌÌÌÏÍÏÌÍÏÍÍÌÌÌÍÏÏÏ; // 0x60
-        public int ÌÌÍÏÎÍÏÌÍÍÍÎÏÍÏÎÍÎÍÏÌÎÎ; // 0x68
-        public System.Collections.Generic.List`1<VRC.UI.Core.Styles.StyleElement> ÎÌÎÍÍÏÌÏÏÏÍÎÎÎÌÍÍÌÍÏÎÌÎ; // 0x70
+        public URA.woDigitYearMax<erNetworkTick> ÌÏÍÎÏÏÎÍÌÌÏÎÎÏÌÏÍÎÍÏÏÍÌ; // 0x48
+        public URA.onsDepth<gField.ldKeyboardOverride> ÎÍÍÎÏÎÌÍÍÌÌÌÏÎÏÍÏÍÎÌÍÌÎ; // 0x50
+        public bool ÎÏÎÍÍÍÎÏÍÎÏÎÏÌÌÍÌÍÎÏÏÍÎ; // 0x58
+        public URA.onsDepth<gField.ldKeyboardOverride> ÏÌÎÎÏÍÏÌÏÎÍÏÌÌÎÏÏÏÎÏÌÍÎ; // 0x60
+        public int ÍÍÎÏÍÍÍÍÍÎÏÌÏÍÎÏÌÍÎÌÏÎÎ; // 0x68
+        public URA.woDigitYearMax<gField.ldKeyboardOverride> ÎÍÏÎÏÏÌÍÏÌÏÍÌÎÌÍÍÎÎÎÌÍÏ; // 0x70
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E2ADC40
@@ -197,8 +197,8 @@ namespace VRC.UI.Core.Styles
 
     public class StyleResource : ScriptableObject
     {
-        public System.Collections.Generic.List`1<0x665C9D18> resources; // 0x18
-        public System.Collections.Generic.List`1<VRC.UI.Core.Styles.StyleResource> includes; // 0x20
+        public URA.woDigitYearMax<mediateRenderers> resources; // 0x18
+        public URA.woDigitYearMax<gField.?> includes; // 0x20
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD5669B680

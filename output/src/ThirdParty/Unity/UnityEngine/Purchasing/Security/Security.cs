@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Security
 {
     public class AppleReceipt : Object
     {
-        public ÎÌÍÍÍÎÏÍÍÌÍÏÍÌÍÏÌÍ[] inAppPurchaseReceipts; // 0x10
+        public onEventHandler.ncDeselectEventHandler[] inAppPurchaseReceipts; // 0x10
     }
 
     public class IAPSecurityException : Exception

@@ -8,10 +8,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
     public class InputUser : ValueType
     {
         public uint valid;
-        public Unity.Profiling.ProfilerMarker index;
-        public Unity.Profiling.ProfilerMarker id; // 0x8
+        public object index;
+        public object id; // 0x8
         public uint platformUserAccountHandle; // 0x10
-        public 0x664AA770 platformUserAccountName; // 0x10
+        public _BackingField platformUserAccountName; // 0x10
 
         // ── Methods ──
         public void get_valid(){} // RVA: 0x7FFD54A5BA90
@@ -102,8 +102,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
         public string customBindings; // 0x10
         public bool invertMouseX; // 0x18
         public bool invertMouseY; // 0x19
-        public System.Nullable`1<float> mouseSmoothing; // 0x1C
-        public System.Nullable`1<float> mouseSensitivity; // 0x24
+        public aphy<float> mouseSmoothing; // 0x1C
+        public aphy<float> mouseSensitivity; // 0x24
         public bool invertStickX; // 0x2C
         public bool invertStickY; // 0x2D
         public bool swapSticks; // 0x2E

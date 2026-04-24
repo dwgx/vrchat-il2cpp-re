@@ -5,8 +5,8 @@
 
 public class NativeArrayHelper`1 : ValueType
 {
-    public Unity.Collections.NativeArray`1<T> UnityNativeArray;
-    public System.Runtime.InteropServices.GCHandle _handle;
+    public ÍÎÏÎÎ.ÌÌ<T1717644528> UnityNativeArray;
+    public annelDataStore.essage _handle;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E097970
@@ -15,8 +15,6 @@ public class NativeArrayHelper`1 : ValueType
 
 public class NetworkSurrogateSelector : Object
 {
-    public 0x66432A00 _next; // 0x10
-
     // ── Methods ──
     public void ChainSelector(){} // RVA: 0x7FFD57499CC0
     public void GetNextSelector(){} // RVA: 0x7FFD4E35C380
@@ -27,9 +25,9 @@ public class NetworkSurrogateSelector : Object
 
 public class NeverPromise`1 : Object
 {
-    public System.Action`1<object> cancellationCallback;
-    public System.Threading.CancellationToken cancellationToken;
-    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<T> core;
+    public ileFullDirectoryInformation<object> cancellationCallback;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public eObjectDelegate.ataProperty>k__BackingField<T1717659264> core;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090BF0
@@ -52,12 +50,12 @@ public class NewInputUpdate : ValueType
 
 public class NextFramePromise : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<NextFramePromise> NextNode;
-    public NextFramePromise nextNode; // 0x10
+    public eObjectDelegate.ion<Index> NextNode;
+    public Index nextNode; // 0x10
     public int frameCount; // 0x18
-    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<Cysharp.Threading.Tasks.AsyncUnit> core; // 0x20
-    public System.Threading.CancellationToken cancellationToken; // 0x48
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration; // 0x50
+    public eObjectDelegate.ataProperty>k__BackingField<eObjectDelegate.b__1> core; // 0x20
+    public sageKind.TICMAP_SIZE cancellationToken; // 0x48
+    public sageKind.sition cancellationTokenRegistration; // 0x50
     public bool cancelImmediately; // 0x68
 
     // ── Methods ──
@@ -75,7 +73,7 @@ public class NextFramePromise : Object
 
 public class NextResult : ValueType
 {
-    public Mediapipe.Packet`1<System.Collections.Generic.List`1<0x66571E78>> packet; // 0x10
+    public etBestGrabbingType.ionEnabled<URA.woDigitYearMax<etBestGrabbingType.?>> packet; // 0x10
     public bool ok; // 0x18
 
     // ── Methods ──
@@ -84,11 +82,10 @@ public class NextResult : ValueType
 
 public class Node : Object
 {
-    public bool _key; // 0x10
-    public int _value; // 0x14
-    public Photon.Client.NCommand _next; // 0x18
-    public int _hashcode; // 0x20
-    public uint Hash; // 0x24
+    public numeratorObject.NullPassthrough _key; // 0x10
+    public numeratorObject.NullAttribute _value; // 0x28
+    public tyles<numeratorObject.NullPassthrough,numeratorObject.NullAttribute> _next; // 0x30
+    public int _hashcode; // 0x38
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD519D2CC0
@@ -105,7 +102,7 @@ public class NodePath : ValueType
 
 public class NoiseModule : ValueType
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public InDuration enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -250,8 +247,6 @@ public class NoopDisposable : Object
 
 public class NullDisposable : Object
 {
-    public System.IDisposable Instance;
-
     // ── Methods ──
     public void Dispose(){} // RVA: 0x7FFD4E341310
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -260,7 +255,7 @@ public class NullDisposable : Object
 
 public class NullProgress`1 : Object
 {
-    public System.IProgress`1<T> Instance;
+    public e<T1717654336> Instance;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -270,7 +265,7 @@ public class NullProgress`1 : Object
 
 public class NullStream : Stream
 {
-    public System.Threading.Tasks.Task`1<int> CanRead;
+    public utes.?<int> CanRead;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A0A120
@@ -341,8 +336,8 @@ public class NumberBuffer : ValueType
     public int sign; // 0x10
     public int digits; // 0x14
     public int _sign; // 0x18
-    public 0x66420788 _digits; // 0x1C
-    public char* _allDigits; // 0x82
+    public _1 _digits; // 0x1C
+    public IntPtr _allDigits; // 0x82
 
     // ── Methods ──
     public void get_sign(){} // RVA: 0x7FFD53A64870

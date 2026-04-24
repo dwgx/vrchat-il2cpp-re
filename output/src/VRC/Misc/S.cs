@@ -8,67 +8,22 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÎÌÌÍÎÌÏÌÍÍÏÎÍÍÎÍÎÎÎÎÍ</summary>
     public class SelectHandler_2312 : MonoBehaviour
     {
-        public string _destroyCancellationToken;
-        public float _useGUILayout;
-        public bool f_064; // 0x8
-        public int f_AD2;
-        public System.Threading.SemaphoreSlim f_732; // 0x10
-        public float f_3BD; // 0x20
-        public int f_B2C; // 0x24
-        public string f_9F9; // 0x28
-        public 0x66413F20 f_4A3; // 0x30
-        public int f_D4A; // 0x34
-        public string f_BDC; // 0x38
-        public string f_DA7; // 0x40
-        public bool f_928; // 0x48
-        public bool f_970; // 0x49
-        public bool f_8D0; // 0x4A
-        public bool f_ABC; // 0x4B
-        public bool <ÌÍÍÏÍÏÎÏÌÍÏÌÏÍÏÏÏÌÎÏÏÌÎ>k__BackingField; // 0x4C
-        public string <ÍÌÌÍÍÍÎÏÏÌÍÌÎÎÏÍÍÏÏÏÌÌÎ>k__BackingField; // 0x50
-        public ÌÌÎÎÍÎÏÎÏÎÎÎÌÏÎÏÌÌÌÎÏÍÍ _selector; // 0x58
-        public UnityEngine.GameObject clElements; // 0x60
-        public UnityEngine.GameObject invalidDestinationElements; // 0x68
-        public UnityEngine.GameObject proximityDestinationElements; // 0x70
-        public UnityEngine.Texture2D _warningBannerTexture; // 0x78
-        public UnityEngine.GameObject[] _disableOnShutdown; // 0x80
-        public UnityEngine.Shader MobileOpaqueShader; // 0x88
-        public ÍÍÎÌÍÏÍÏÎÏÎÍÏÏÍÎÍÎÌÍÏÍÌ cosmeticsHandler; // 0x90
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _worldText; // 0x98
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _ownerText; // 0xA0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _accessText; // 0xA8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _groupText; // 0xB0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _ageGateText; // 0xB8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _playerCountText; // 0xC0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _timerText; // 0xC8
-        public ÌÌÍÎÌÍÌÌÌÌÏÎÎÏÌÏÏÌÎÌÏÏÎ _platformIcons; // 0xD0
-        public ÍÏÌÎÍÌÎÍÏÎÌÌÎÍÍÌÏÏÍÎÌÌÍ ÍÎÎÍÍÎÍÌÍÎÍÎÏÍÎÏÏÎÎÏÍÏÍ; // 0xD8
-        public VRC.SDKBase.VRC_PortalMarker ÏÌÍÌÌÍÌÍÍÌÍÍÎÏÌÌÍÎÎÌÍÏÏ; // 0xE0
-        public VRC.Core.ApiWorld ÍÎÍÌÍÏÏÏÎÎÌÎÌÍÌÌÏÎÍÌÍÌÏ; // 0xE8
-        public VRC.Core.ApiWorld ÌÍÍÍÌÎÌÌÍÌÏÏÏÌÌÏÍÍÏÎÎÌÌ; // 0xF0
-        public VRC.Core.ApiWorldInstance ÍÏÍÎÍÎÍÍÏÏÏÏÌÎÍÏÌÌÏÎÍÍÎ; // 0xF8
-        public UnityEngine.Vector2 ÏÏÍÏÏÍÌÎÏÎÎÍÎÌÍÏÏÏÌÎÌÎÍ; // 0x100
-        public string ÌÌÏÍÍÎÎÌÌÍÏÍÍÎÍÌÍÎÌÎÍÌÎ; // 0x108
-        public int ÌÏÌÍÍÏÏÍÌÏÌÌÍÍÎÍÎÍÏÏÌÍÎ; // 0x110
-        public bool ÍÌÌÌÏÍÍÍÏÎÍÎÎÌÎÏÌÌÍÌÏÎÍ; // 0x114
-        public float ÍÎÎÌÎÎÍÍÍÌÏÍÎÎÍÌÏÎÏÌÎÎÎ; // 0x118
-        public float ÌÌÎÍÌÏÎÍÎÌÎÏÍÍÍÍÌÎÌÎÏÌÍ; // 0x11C
-        public bool ÍÏÌÎÎÌÍÏÎÏÏÏÍÎÏÌÏÌÍÌÎÌÌ; // 0x120
-        public bool ÏÎÏÌÎÌÌÎÎÍÏÏÎÍÍÎÎÍÌÎÌÌÏ; // 0x121
-        public bool ÏÎÎÏÏÍÍÎÍÎÌÍÏÎÏÌÌÏÍÍÍÌÏ; // 0x122
-        public bool ÌÎÍÍÌÏÎÌÏÎÎÍÏÌÏÎÎÎÍÍÌÎÎ; // 0x123
-        public UnityEngine.BoxCollider ÌÌÎÏÍÎÍÏÎÏÏÎÌÍÍÎÌÎÌÏÍÏÍ; // 0x128
-        public bool ÍÌÌÏÎÍÏÎÍÏÏÌÏÎÎÏÌÎÌÍÎÎÍ; // 0x130
-        public System.Action ÌÍÎÏÏÍÏÌÌÏÍÌÎÍÍÏÌÌÎÏÍÎÍ; // 0x138
-        public string ÍÎÍÌÍÎÎÌÏÏÎÏÏÎÍÎÍÌÏÌÍÏÎ; // 0x140
-        public string ÏÌÎÌÎÎÌÍÍÏÍÎÎÌÎÍÌÍÎÍÍÏÍ; // 0x148
-        public UnityEngine.Renderer[] ÏÏÍÌÎÍÎÍÍÎÏÍÍÎÎÌÎÏÏÌÌÎÎ; // 0x150
-        public UnityEngine.Collider[] ÌÍÏÌÍÍÏÌÌÌÍÎÎÍÌÌÎÍÍÌÏÏÍ; // 0x158
-        public System.Threading.CancellationToken ÏÍÎÌÌÏÍÍÌÍÎÎÍÍÏÏÏÍÌÍÌÍÏ; // 0x160
-        public string ÏÍÏÌÎÎÌÏÌÍÏÎÎÌÍÍÏÏÎÌÎÎÍ; // 0x168
-        public bool ÏÎÍÎÏÍÍÎÌÏÏÎÎÎÏÏÍÌÎÍÏÌÍ; // 0x170
-        public bool ÌÏÏÏÍÏÎÏÍÌÎÌÍÎÏÏÎÏÏÏÏÍÌ; // 0x171
-        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ ÌÍÍÏÌÎÌÏÎÏÍÌÍÏÎÏÏÌÍÍÏÍÏ; // 0x178
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_064;
+        public object f_AD2;
+        public object f_732;
+        public object f_3BD;
+        public object f_B2C;
+        public object f_9F9;
+        public object f_4A3;
+        public object f_D4A;
+        public object f_BDC;
+        public object f_DA7;
+        public object f_928;
+        public object f_970;
+        public object f_8D0;
+        public object f_ABC;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F583690
@@ -163,7 +118,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÌÏÏÌÎÍÎÍÌÎÎÍÍÏÎÎÍÏÍÌÍ</summary>
     public class SerializableVector3Sibling_01A0 : ValueType
     {
-        public int _01A0; // 0x10
+        public object _01A0;
 
         // ── Methods ──
         public void ToHashCode(){} // RVA: 0x7FFD4F840210
@@ -194,11 +149,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÍÌÏÍÏÌÌÏÍÍÍÎÎÎÌÏÌÎÏÌÍ</summary>
     public class SetActionBinding_DB55 : MonoBehaviour
     {
-        public UnityEngine.GameObject ÎÍÏÎÎÏÌÍÍÌÍÏÌÏÍÌÍÍÌÎÍÌÏ; // 0x20
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÌÏÏÍÌÏÍÌÍÎÍÍÍÏÌÎÏÍÎÍÍÎÍ; // 0x28
-        public System.Action ÎÍÎÍÎÎÏÎÏÏÍÌÎÍÎÍÎÌÏÏÎÌÌ; // 0x30
-        public 0x6635F488 ÍÏÍÌÌÏÍÏÎÌÍÎÍÏÌÎÎÍÏÏÌÎÏ; // 0x38
-
         // ── Methods ──
         public void GetFileLineNumber(){} // RVA: 0x7FFD4E9AA870
         public void RaiseCancellation(){} // RVA: 0x7FFD4E9AA870
@@ -220,9 +170,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÍÍÍÏÎÏÏÍÍÍÍÏÌÏÍÍÌÌÎÌ</summary>
     public class SetEnableComponent_A1A6 : MonoBehaviour
     {
-        public UnityEngine.UI.Toggle ÎÍÌÏÎÍÌÍÎÎÌÌÍÎÌÏÎÏÌÎÏÌÎ; // 0x20
-        public bool ÎÍÌÏÏÎÍÌÌÏÎÍÏÍÎÏÌÎÎÍÎÏÏ; // 0x28
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4F707390
         public void OnDisable(){} // RVA: 0x7FFD4F707580
@@ -238,11 +185,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÎÎÌÌÍÌÍÏÎÍÏÌÍÍÏÌÏÎÎÌ</summary>
     public class SetEnableComponent_A8E1 : MonoBehaviour
     {
-        public 0x6635F748 ÍÎÏÏÌÏÍÏÍÍÏÏÎÎÎÌÏÎÎÎÍÎÌ; // 0x20
-        public 0x6635F748[] ÎÎÎÎÏÏÎÌÍÏÌÍÎÎÍÏÌÍÍÏÌÌÎ; // 0x28
-        public UnityEngine.UI.Toggle ÎÍÌÏÎÍÌÍÎÎÌÌÍÎÌÏÎÏÌÎÏÌÎ; // 0x30
-        public UnityEngine.GameObject ÍÍÎÌÍÏÎÏÎÌÎÏÌÍÎÌÏÏÏÌÍÍÌ; // 0x38
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F707F80
         public void RaiseCancellation(){} // RVA: 0x7FFD4F707FF0
@@ -274,10 +216,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÎÏÌÏÍÏÌÌÍÏÏÍÍÌÍÏÎÍÍÌÏ</summary>
     public class SetLayoutHorizontalSetLayoutVertical_07A6 : ContentSizeFitter
     {
-        public UnityEngine.RectTransform _horizontalFit; // 0x38
-        public float _verticalFit; // 0x40
-        public float _rectTransform; // 0x44
-        public UnityEngine.RectTransform _maxFootprint; // 0x48
+        public object _horizontalFit;
+        public object _verticalFit;
+        public object _rectTransform;
 
         // ── Methods ──
         public void get_horizontalFit(){} // RVA: 0x7FFD4EB121E0
@@ -300,14 +241,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÍÌÍÏÍÏÎÌÏÍÏÌÎÏÎÏÎÎÍÏ</summary>
     public class SetLayoutHorizontalSetLayoutVertical_3827 : UILifecycleComponentImpl_A5BA
     {
-        public UnityEngine.RectTransform parentPanel; // 0x60
-        public UnityEngine.RectTransform sidePanel; // 0x68
-        public UnityEngine.RectTransform mainPanel; // 0x70
-        public int sidebarWidthExpanded; // 0x78
-        public int sidebarWidthCollapsed; // 0x7C
-        public float animationDuration; // 0x80
-        public float ÍÌÍÎÎÎÏÏÎÍÏÍÍÌÎÍÌÏÎÍÎÎÎ; // 0x84
-
         // ── Methods ──
         public void SetLayoutHorizontal(){} // RVA: 0x7FFD56E11910
         public void get_dynamicLightingSmoothFactor(){} // RVA: 0x7FFD4E5634E0
@@ -329,19 +262,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÍÍÏÌÌÌÌÎÏÎÏÌÍÍÎÎÏÌÎ</summary>
     public class SetLayoutHorizontalSetLayoutVertical_645E : MonoBehaviour
     {
-        public UnityEngine.RectOffset _645E; // 0x20
-        public float m_Spacing; // 0x28
-        public 0x66638C90 m_ChildAlignment; // 0x2C
-        public bool m_ChildControlWidth; // 0x30
-        public bool m_ChildControlHeight; // 0x31
-        public bool m_ChildScaleWidth; // 0x32
-        public bool m_ChildScaleHeight; // 0x33
-        public bool m_ChildForceExpandWidth; // 0x34
-        public bool m_ChildForceExpandHeight; // 0x35
-        public R m_HorizontalFit; // 0x38
-        public R m_VerticalFit; // 0x3C
-        public UnityEngine.RectTransform ÌÎÌÏÏÍÎÌÎÍÍÌÍÎÎÎÌÎÎÎÍÏÎ; // 0x40
-        public int ÏÎÎÎÎÌÏÌÏÏÎÍÌÎÎÏÍÍÍÍÏÎÏ; // 0x48
+        public object _645E;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56C4E900
@@ -362,12 +283,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÌÍÌÏÍÌÍÏÍÏÌÌÏÎÎÌÌÌÎÏ</summary>
     public class SetLayoutHorizontalSetLayoutVertical_680A : MonoBehaviour
     {
-        public float ÎÎÍÏÎÌÍÌÌÍÍÏÌÍÌÌÏÎÍÏÍÏÍ; // 0x20
-        public float ÌÏÌÍÏÌÏÏÏÏÍÎÎÍÏÎÏÏÍÎÌÍÎ; // 0x24
-        public float ÌÏÍÎÍÍÍÎÍÌÎÌÌÌÍÍÏÎÎÎÎÏÏ; // 0x28
-        public float ÌÌÏÎÌÎÍÎÏÏÍÌÏÌÎÌÎÏÍÌÍÏÌ; // 0x2C
-        public bool ÍÎÎÌÎÏÏÎÎÍÏÏÎÍÍÍÎÌÍÌÌÎÌ; // 0x30
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56DD7190
         public void RaiseCancellation(){} // RVA: 0x7FFD56DD71A0
@@ -386,8 +301,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÏÏÏÌÏÏÏÎÎÌÌÌÎÎÏÌÎÎÌ</summary>
     public class Set_CC3F : PointerDown_E181
     {
-        public float ÍÍÏÌÏÌÎÌÌÎÌÏÏÎÌÎÌÎÌÎÍÍÎ; // 0x198
-
         // ── Methods ──
         public void Set(){} // RVA: 0x7FFD56C493B0
         public void get_listingIds(){} // RVA: 0x7FFD56C494B0
@@ -413,13 +326,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÌÌÏÌÌÎÏÌÎÏÍÌÏÌÍÏÍÏÎÎÎ</summary>
     public class ShouldActivateModuleIsModuleSupported_8A61 : BaseInputModule
     {
-        public bool _8A61; // 0x58
-        public float ÍÏÌÍÍÏÏÍÍÎÍÍÏÍÏÍÍÏÎÎÍÌÍ; // 0x5C
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÍÏÌÏÏÎÏÏÌÎÍÍÌÍÌÎÎÍÎÌÍÏÍ; // 0x60
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÌÌÍÏÌÌÏÏÌÍÏÍÎÎÎÏÎÏÏÏÏÎÌ; // 0x68
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÌÎÎÏÎÌÎÍÌÍÎÍÏÏÎÌÎÏÏÏÍÏÏ; // 0x70
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÏÏÏÍÌÌÌÌÏÎÏÎÎÎÌÌÏÍÍÏÍÏÏ; // 0x78
-        public float m_InputActionsPerSecond; // 0x80
+        public object _8A61;
 
         // ── Methods ──
         public void get_sendPointerHoverToParent(){} // RVA: 0x7FFD4F6F7390

@@ -7,7 +7,7 @@ namespace ThirdParty.Sentry.Sentry.PlatformAbstractions
 {
     public class RuntimeInfo : Object
     {
-        public System.Text.RegularExpressions.Regex RuntimeParseRegex;
+        public tor.neStore RuntimeParseRegex;
 
         // ── Methods ──
         public void GetRuntime(){} // RVA: 0x7FFD53FADF90
@@ -23,7 +23,7 @@ namespace ThirdParty.Sentry.Sentry.PlatformAbstractions
 
     public class SentryRuntime : Object
     {
-        public System.Lazy`1<Sentry.PlatformAbstractions.SentryRuntime> Current;
+        public dle<s.ureClient> Current;
         public string Name; // 0x10
         public string Version; // 0x18
         public string Raw; // 0x20

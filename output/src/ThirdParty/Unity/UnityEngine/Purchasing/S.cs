@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class ScriptingStoreCallback : Object
     {
-        public UnityEngine.Purchasing.Extension.IStoreCallback products; // 0x10
-        public Uniject.IUtil m_Util; // 0x18
+        public ra.__0 products; // 0x10
+        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ m_Util; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
@@ -22,8 +22,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ScriptingUnityCallback : Object
     {
-        public UnityEngine.Purchasing.IUnityCallback forwardTo; // 0x10
-        public Uniject.IUtil util; // 0x18
+        public ing.PersistAcrossSceneLoads forwardTo; // 0x10
+        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ util; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
@@ -32,19 +32,19 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
     public class StandardPurchasingModule : AbstractPurchasingModule
     {
         public string util; // 0x18
-        public UnityEngine.Purchasing.INativeStoreProvider logger; // 0x20
-        public 0x664D9580 storeInstance; // 0x28
-        public UnityEngine.Purchasing.StandardPurchasingModule telemetryMetricsInstanceWrapper;
-        public Uniject.IUtil telemetryDiagnosticsInstanceWrapper; // 0x30
-        public UnityEngine.ILogger appStore; // 0x38
-        public 0x665DD9B0 useFakeStoreUIMode; // 0x40
-        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsInstanceWrapper useFakeStoreAlways; // 0x48
-        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnosticsInstanceWrapper <telemetryDiagnosticsInstanceWrapper>k__BackingField; // 0x50
-        public System.Collections.Generic.Dictionary`2<0x665DCF08,string> AndroidStoreNameMap; // 0x8
-        public 0x665DCF08 <appStore>k__BackingField; // 0x58
-        public 0x665DD220 <useFakeStoreUIMode>k__BackingField; // 0x5C
+        public ing.ealTime logger; // 0x20
+        public object storeInstance; // 0x28
+        public ing.p telemetryMetricsInstanceWrapper;
+        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ telemetryDiagnosticsInstanceWrapper; // 0x30
+        public Identifiers appStore; // 0x38
+        public mapResolution useFakeStoreUIMode; // 0x40
+        public ÌÍÏÏÏ.49CD08E395F1704FA3F9B047CEA369CBF35299449D4DF081 useFakeStoreAlways; // 0x48
+        public ÌÍÏÏÏ.? <telemetryDiagnosticsInstanceWrapper>k__BackingField; // 0x50
+        public URA.DateTime<ing.encoderHintsAndroid,string> AndroidStoreNameMap; // 0x8
+        public ing.encoderHintsAndroid <appStore>k__BackingField; // 0x58
+        public ing.? <useFakeStoreUIMode>k__BackingField; // 0x5C
         public bool <useFakeStoreAlways>k__BackingField; // 0x60
-        public UnityEngine.Purchasing.WinRTStore windowsStore; // 0x68
+        public ing.ageSequence windowsStore; // 0x68
 
         // ── Methods ──
         public void get_util(){} // RVA: 0x7FFD4E5F95E0
@@ -90,7 +90,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreConfiguration : Object
     {
-        public 0x665DCF08 androidStore; // 0x10
+        public ing.encoderHintsAndroid androidStore; // 0x10
 
         // ── Methods ──
         public void get_androidStore(){} // RVA: 0x7FFD4E38E5C0
@@ -101,9 +101,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreListenerProxy : Object
     {
-        public UnityEngine.Purchasing.IAnalyticsClient m_Analytics; // 0x10
-        public UnityEngine.Purchasing.IStoreListener m_ForwardTo; // 0x18
-        public UnityEngine.Purchasing.IExtensionProvider m_Extensions; // 0x20
+        public ing.? m_Analytics; // 0x10
+        public ing.? m_ForwardTo; // 0x18
+        public ing.? m_Extensions; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DD05F0

@@ -7,18 +7,18 @@ namespace ThirdParty.Other.Unity.Services.Core.Registration
 {
     public class CorePackageInitializer : Object
     {
-        public Unity.Services.Core.Scheduler.Internal.ActionScheduler ActionScheduler; // 0x10
-        public Unity.Services.Core.Device.InstallationId InstallationId; // 0x18
-        public Unity.Services.Core.Configuration.ProjectConfiguration ProjectConfig; // 0x20
-        public Unity.Services.Core.Environments.Internal.Environments Environments; // 0x28
-        public Unity.Services.Core.Configuration.ExternalUserId ExternalUserId; // 0x30
-        public Unity.Services.Core.Configuration.Internal.ICloudProjectId CloudProjectId; // 0x38
-        public Unity.Services.Core.Telemetry.Internal.IDiagnosticsFactory DiagnosticsFactory; // 0x40
-        public Unity.Services.Core.Telemetry.Internal.IMetricsFactory MetricsFactory; // 0x48
-        public Unity.Services.Core.Threading.Internal.UnityThreadUtilsInternal UnityThreadUtils; // 0x50
-        public Unity.Services.Core.Internal.CoreRegistry m_Registry; // 0x58
-        public Unity.Services.Core.Internal.Serialization.IJsonSerializer m_Serializer; // 0x60
-        public Unity.Services.Core.InitializationOptions m_CurrentInitializationOptions; // 0x68
+        public Acceleration.Source ActionScheduler; // 0x10
+        public nWrapper.reFailedRequests InstallationId; // 0x18
+        public dll.SenderNames ProjectConfig; // 0x20
+        public ferFrequencyHz.DelayBetweenResolveRequests Environments; // 0x28
+        public dll.esolveRequests ExternalUserId; // 0x30
+        public erFrequencyHz.rtsBuffer CloudProjectId; // 0x38
+        public odeState.ularVelocity DiagnosticsFactory; // 0x40
+        public odeState.lag MetricsFactory; // 0x48
+        public celerationAvailable.Whitelist`1 UnityThreadUtils; // 0x50
+        public a.mbTouch m_Registry; // 0x58
+        public Middleware.middleware m_Serializer; // 0x60
+        public playableAsset.lTime m_CurrentInitializationOptions; // 0x68
 
         // ── Methods ──
         public void get_ActionScheduler(){} // RVA: 0x7FFD4E35C380

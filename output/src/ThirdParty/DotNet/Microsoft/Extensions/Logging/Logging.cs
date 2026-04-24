@@ -86,7 +86,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
     {
         public string OriginalFormat;
         public char[] ValueNames;
-        public System.Collections.Generic.List`1<string> _valueNames; // 0x10
+        public URA.woDigitYearMax<string> _valueNames; // 0x10
         public string _format; // 0x18
         public string <OriginalFormat>k__BackingField; // 0x20
 
@@ -109,9 +109,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
     public class Logger : Object
     {
         public string Loggers; // 0x10
-        public Microsoft.Extensions.Logging.LoggerInformation[] MessageLoggers; // 0x18
-        public Microsoft.Extensions.Logging.MessageLogger[] ScopeLoggers; // 0x20
-        public Microsoft.Extensions.Logging.ScopeLogger[] <ScopeLoggers>k__BackingField; // 0x28
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.phamapResolution[] MessageLoggers; // 0x18
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.?[] ScopeLoggers; // 0x20
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.solution[] <ScopeLoggers>k__BackingField; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
@@ -131,7 +131,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerExternalScopeProvider : Object
     {
-        public System.Threading.AsyncLocal`1<0x66617E48> _currentScope; // 0x10
+        public sageKind.GCCollectionMode<ult> _currentScope; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537621A0
@@ -142,14 +142,14 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFactory : Object
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<string,Microsoft.Extensions.Logging.Logger> _loggers; // 0x10
-        public System.Collections.Generic.List`1<ProviderRegistration> _providerRegistrations; // 0x18
+        public JapaneseLangName.erns<string,ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ÏÎÏÌÎÍÌÍÏÌÌÎÎÎ> _loggers; // 0x10
+        public URA.woDigitYearMax<m_Density> _providerRegistrations; // 0x18
         public object _sync; // 0x20
         public bool _disposed; // 0x28
-        public System.IDisposable _changeTokenRegistration; // 0x30
-        public Microsoft.Extensions.Logging.LoggerFilterOptions _filterOptions; // 0x38
-        public Microsoft.Extensions.Logging.IExternalScopeProvider _scopeProvider; // 0x40
-        public Microsoft.Extensions.Logging.LoggerFactoryOptions _factoryOptions; // 0x48
+        public Names _changeTokenRegistration; // 0x30
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal _filterOptions; // 0x38
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile _scopeProvider; // 0x40
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.itter _factoryOptions; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53767750 | overloaded x6
@@ -172,7 +172,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFactoryOptions : Object
     {
-        public ÎÌÌÌÌÍÏÎÎÎÌÏ ActivityTrackingOptions; // 0x10
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.latmapDistance ActivityTrackingOptions; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -181,8 +181,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFactoryScopeProvider : Object
     {
-        public System.Threading.AsyncLocal`1<Scope> _currentScope; // 0x10
-        public ÎÌÌÌÌÍÏÎÎÎÌÏ _activityTrackingOption; // 0x18
+        public sageKind.GCCollectionMode<ult> _currentScope; // 0x10
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.latmapDistance _activityTrackingOption; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53769E40
@@ -195,8 +195,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
     public class LoggerFilterOptions : Object
     {
         public bool CaptureScopes; // 0x10
-        public 0x66618CB8 MinLevel; // 0x14
-        public System.Collections.Generic.List`1<Microsoft.Extensions.Logging.LoggerFilterRule> Rules; // 0x18
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject MinLevel; // 0x14
+        public URA.woDigitYearMax<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.SplatDatabasePrefix> Rules; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5376BC30
@@ -211,8 +211,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
     {
         public string ProviderName; // 0x10
         public string CategoryName; // 0x18
-        public System.Nullable`1<0x66618CB8> LogLevel; // 0x20
-        public System.Func`4<string,string,0x66618CB8,bool> Filter; // 0x28
+        public aphy<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject> LogLevel; // 0x20
+        public rmation<string,string,ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject,bool> Filter; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5376BCF0
@@ -225,10 +225,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerInformation : ValueType
     {
-        public Microsoft.Extensions.Logging.ILogger Logger; // 0x10
-        public string Category; // 0x18
-        public System.Type ProviderType; // 0x20
-        public bool ExternalScope; // 0x28
+        public object Logger;
+        public object Category;
+        public object ProviderType;
+        public object ExternalScope;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5376C370
@@ -248,7 +248,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class Logger`1 : Object
     {
-        public Microsoft.Extensions.Logging.ILogger _logger;
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.Identifiers _logger;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -261,7 +261,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggingBuilder : Object
     {
-        public Microsoft.Extensions.DependencyInjection.IServiceCollection Services; // 0x10
+        public ute.? Services; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -270,11 +270,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class MessageLogger : ValueType
     {
-        public Microsoft.Extensions.Logging.ILogger Logger; // 0x10
-        public string Category; // 0x18
-        public string ProviderTypeFullName; // 0x20
-        public System.Nullable`1<0x66618CB8> MinLevel; // 0x28
-        public System.Func`4<string,string,0x66618CB8,bool> Filter; // 0x30
+        public object Logger;
+        public object Category;
+        public object ProviderTypeFullName;
+        public object MinLevel;
+        public object Filter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5376C160
@@ -288,7 +288,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class NullExternalScopeProvider : Object
     {
-        public Microsoft.Extensions.Logging.IExternalScopeProvider Instance;
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile Instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -300,16 +300,14 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class ProviderAliasAttribute : Attribute
     {
-        public string <Alias>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class ScopeLogger : ValueType
     {
-        public Microsoft.Extensions.Logging.ILogger Logger; // 0x10
-        public Microsoft.Extensions.Logging.IExternalScopeProvider ExternalScopeProvider; // 0x18
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.Identifiers Logger; // 0x10
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile ExternalScopeProvider; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F5CE4B0

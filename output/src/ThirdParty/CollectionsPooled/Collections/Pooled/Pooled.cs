@@ -13,9 +13,9 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledList`1 : Object
     {
-        public System.Buffers.ArrayPool`1<T> Capacity;
+        public erDecimalDigits.?<T1717742944> Capacity;
         public object Count;
-        public T[] System.Collections.IList.IsFixedSize;
+        public T1717742944[] System.Collections.IList.IsFixedSize;
         public int System.Collections.Generic.ICollection<T>.IsReadOnly;
         public int System.Collections.IList.IsReadOnly;
         public bool System.Collections.ICollection.Count;
@@ -60,18 +60,18 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledSet`1 : Object
     {
-        public System.Buffers.ArrayPool`1<int> Count;
-        public System.Buffers.ArrayPool`1<0x6662E738<string>> System.Collections.Generic.ICollection<T>.IsReadOnly; // 0x8
-        public int[] _buckets; // 0x10
-        public 0x6662E738<string>[] _slots; // 0x18
-        public int _size; // 0x20
-        public int _count; // 0x24
-        public int _lastIndex; // 0x28
-        public int _freeList; // 0x2C
-        public System.Collections.Generic.IEqualityComparer`1<string> _comparer; // 0x30
-        public int _version; // 0x38
-        public bool _clearOnFree; // 0x3C
-        public System.Runtime.Serialization.SerializationInfo _siInfo; // 0x40
+        public erDecimalDigits.?<int> Count;
+        public erDecimalDigits.?<D_NM<T1717742992>> System.Collections.Generic.ICollection<T>.IsReadOnly;
+        public int[] _buckets;
+        public D_NM<T1717742992>[] _slots;
+        public int _size;
+        public int _count;
+        public int _lastIndex;
+        public int _freeList;
+        public URA.hEraNames<T1717742992> _comparer;
+        public int _version;
+        public bool _clearOnFree;
+        public externalClaims.resent _siInfo;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x3
@@ -100,12 +100,12 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledStack`1 : Object
     {
-        public System.Buffers.ArrayPool`1<System.ValueTuple`2<UnityEngine.Object,bool>> Count; // 0x10
-        public object System.Collections.ICollection.IsSynchronized; // 0x18
-        public System.ValueTuple`2<UnityEngine.Object,bool>[] System.Collections.ICollection.SyncRoot; // 0x20
-        public int _size; // 0x28
-        public int _version; // 0x2C
-        public bool _clearOnFree; // 0x30
+        public erDecimalDigits.?<T1717743024> Count;
+        public object System.Collections.ICollection.IsSynchronized;
+        public T1717743024[] System.Collections.ICollection.SyncRoot;
+        public int _size;
+        public int _version;
+        public bool _clearOnFree;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x2

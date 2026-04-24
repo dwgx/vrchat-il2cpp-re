@@ -216,476 +216,476 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class IVRApplications : ValueType
     {
-        public _AddApplicationManifest AddApplicationManifest; // 0x10
-        public _RemoveApplicationManifest RemoveApplicationManifest; // 0x18
-        public _IsApplicationInstalled IsApplicationInstalled; // 0x20
-        public _GetApplicationCount GetApplicationCount; // 0x28
-        public _GetApplicationKeyByIndex GetApplicationKeyByIndex; // 0x30
-        public _GetApplicationKeyByProcessId GetApplicationKeyByProcessId; // 0x38
-        public _LaunchApplication LaunchApplication; // 0x40
-        public _LaunchTemplateApplication LaunchTemplateApplication; // 0x48
-        public _LaunchApplicationFromMimeType LaunchApplicationFromMimeType; // 0x50
-        public _LaunchDashboardOverlay LaunchDashboardOverlay; // 0x58
-        public _CancelApplicationLaunch CancelApplicationLaunch; // 0x60
-        public _IdentifyApplication IdentifyApplication; // 0x68
-        public _GetApplicationProcessId GetApplicationProcessId; // 0x70
-        public _GetApplicationsErrorNameFromEnum GetApplicationsErrorNameFromEnum; // 0x78
-        public _GetApplicationPropertyString GetApplicationPropertyString; // 0x80
-        public _GetApplicationPropertyBool GetApplicationPropertyBool; // 0x88
-        public _GetApplicationPropertyUint64 GetApplicationPropertyUint64; // 0x90
-        public _SetApplicationAutoLaunch SetApplicationAutoLaunch; // 0x98
-        public _GetApplicationAutoLaunch GetApplicationAutoLaunch; // 0xA0
-        public _SetDefaultApplicationForMimeType SetDefaultApplicationForMimeType; // 0xA8
-        public _GetDefaultApplicationForMimeType GetDefaultApplicationForMimeType; // 0xB0
-        public _GetApplicationSupportedMimeTypes GetApplicationSupportedMimeTypes; // 0xB8
-        public _GetApplicationsThatSupportMimeType GetApplicationsThatSupportMimeType; // 0xC0
-        public _GetApplicationLaunchArguments GetApplicationLaunchArguments; // 0xC8
-        public _GetStartingApplication GetStartingApplication; // 0xD0
-        public _GetSceneApplicationState GetSceneApplicationState; // 0xD8
-        public _PerformApplicationPrelaunchCheck PerformApplicationPrelaunchCheck; // 0xE0
-        public _GetSceneApplicationStateNameFromEnum GetSceneApplicationStateNameFromEnum; // 0xE8
-        public _LaunchInternalProcess LaunchInternalProcess; // 0xF0
-        public _GetCurrentSceneProcessId GetCurrentSceneProcessId; // 0xF8
+        public >b__4_21 AddApplicationManifest; // 0x10
+        public 25 RemoveApplicationManifest; // 0x18
+        public _4_27 IsApplicationInstalled; // 0x20
+        public 9 GetApplicationCount; // 0x28
+        public _4_4 GetApplicationKeyByIndex; // 0x30
+        public 14 GetApplicationKeyByProcessId; // 0x38
+        public object LaunchApplication; // 0x40
+        public 0 LaunchTemplateApplication; // 0x48
+        public object LaunchApplicationFromMimeType; // 0x50
+        public pturePos LaunchDashboardOverlay; // 0x58
+        public ggerCubemapCapture CancelApplicationLaunch; // 0x60
+        public amera IdentifyApplication; // 0x68
+        public erIntoCubemap GetApplicationProcessId; // 0x70
+        public Capture GetApplicationsErrorNameFromEnum; // 0x78
+        public oTriggerDelay GetApplicationPropertyString; // 0x80
+        public omSkeleton GetApplicationPropertyBool; // 0x88
+        public oneId GetApplicationPropertyUint64; // 0x90
+        public Bones_V2 SetApplicationAutoLaunch; // 0x98
+        public UIComponents GetApplicationAutoLaunch; // 0xA0
+        public e SetDefaultApplicationForMimeType; // 0xA8
+        public sentGUI GetDefaultApplicationForMimeType; // 0xB0
+        public object GetApplicationSupportedMimeTypes; // 0xB8
+        public tOffset GetApplicationsThatSupportMimeType; // 0xC0
+        public eFPS GetApplicationLaunchArguments; // 0xC8
+        public esolutionEyeTexture GetStartingApplication; // 0xD0
+        public ÌÏÎÌÌÏÏÌÌÏÎÌÏ GetSceneApplicationState; // 0xD8
+        public object PerformApplicationPrelaunchCheck; // 0xE0
+        public object GetSceneApplicationStateNameFromEnum; // 0xE8
+        public ft LaunchInternalProcess; // 0xF0
+        public ze GetCurrentSceneProcessId; // 0xF8
     }
 
     public class IVRBlockQueue : ValueType
     {
-        public _Create Create; // 0x10
-        public _Connect Connect; // 0x18
-        public _Destroy Destroy; // 0x20
-        public _AcquireWriteOnlyBlock AcquireWriteOnlyBlock; // 0x28
-        public _ReleaseWriteOnlyBlock ReleaseWriteOnlyBlock; // 0x30
-        public _WaitAndAcquireReadOnlyBlock WaitAndAcquireReadOnlyBlock; // 0x38
-        public _AcquireReadOnlyBlock AcquireReadOnlyBlock; // 0x40
-        public _ReleaseReadOnlyBlock ReleaseReadOnlyBlock; // 0x48
-        public _QueueHasReader QueueHasReader; // 0x50
+        public passOperationBack Create; // 0x10
+        public object Connect; // 0x18
+        public ÏÏÏÏÎÎÎÎÎÎ Destroy; // 0x20
+        public ÏÎÎÎÍÏÎÍÌÎÏÎÍÎÍÍÍÌÍÍÌÌ AcquireWriteOnlyBlock; // 0x28
+        public object ReleaseWriteOnlyBlock; // 0x30
+        public ÍÌÌ WaitAndAcquireReadOnlyBlock; // 0x38
+        public Ì AcquireReadOnlyBlock; // 0x40
+        public object ReleaseReadOnlyBlock; // 0x48
+        public object QueueHasReader; // 0x50
     }
 
     public class IVRChaperone : ValueType
     {
-        public _GetCalibrationState GetCalibrationState; // 0x10
-        public _GetPlayAreaSize GetPlayAreaSize; // 0x18
-        public _GetPlayAreaRect GetPlayAreaRect; // 0x20
-        public _ReloadInfo ReloadInfo; // 0x28
-        public _SetSceneColor SetSceneColor; // 0x30
-        public _GetBoundsColor GetBoundsColor; // 0x38
-        public _AreBoundsVisible AreBoundsVisible; // 0x40
-        public _ForceBoundsVisible ForceBoundsVisible; // 0x48
-        public _ResetZeroPose ResetZeroPose; // 0x50
+        public tialAnchorCreateCompleteData GetCalibrationState; // 0x10
+        public eteData GetPlayAreaSize; // 0x18
+        public CompleteData GetPlayAreaRect; // 0x20
+        public eSaveCompleteData ReloadInfo; // 0x28
+        public eData SetSceneColor; // 0x30
+        public eCompleteData GetBoundsColor; // 0x38
+        public rogress AreBoundsVisible; // 0x40
+        public ionProgress ForceBoundsVisible; // 0x48
+        public ÏÏÎÎÍÏÏÏÎÏÎÌÌÌÏÌÌÏÎÌÌ ResetZeroPose; // 0x50
     }
 
     public class IVRChaperoneSetup : ValueType
     {
-        public _CommitWorkingCopy CommitWorkingCopy; // 0x10
-        public _RevertWorkingCopy RevertWorkingCopy; // 0x18
-        public _GetWorkingPlayAreaSize GetWorkingPlayAreaSize; // 0x20
-        public _GetWorkingPlayAreaRect GetWorkingPlayAreaRect; // 0x28
-        public _GetWorkingCollisionBoundsInfo GetWorkingCollisionBoundsInfo; // 0x30
-        public _GetLiveCollisionBoundsInfo GetLiveCollisionBoundsInfo; // 0x38
-        public _GetWorkingSeatedZeroPoseToRawTrackingPose GetWorkingSeatedZeroPoseToRawTrackingPose; // 0x40
-        public _GetWorkingStandingZeroPoseToRawTrackingPose GetWorkingStandingZeroPoseToRawTrackingPose; // 0x48
-        public _SetWorkingPlayAreaSize SetWorkingPlayAreaSize; // 0x50
-        public _SetWorkingCollisionBoundsInfo SetWorkingCollisionBoundsInfo; // 0x58
-        public _SetWorkingPerimeter SetWorkingPerimeter; // 0x60
-        public _SetWorkingSeatedZeroPoseToRawTrackingPose SetWorkingSeatedZeroPoseToRawTrackingPose; // 0x68
-        public _SetWorkingStandingZeroPoseToRawTrackingPose SetWorkingStandingZeroPoseToRawTrackingPose; // 0x70
-        public _ReloadFromDisk ReloadFromDisk; // 0x78
-        public _GetLiveSeatedZeroPoseToRawTrackingPose GetLiveSeatedZeroPoseToRawTrackingPose; // 0x80
-        public _ExportLiveToBuffer ExportLiveToBuffer; // 0x88
-        public _ImportFromBufferToWorking ImportFromBufferToWorking; // 0x90
-        public _ShowWorkingSetPreview ShowWorkingSetPreview; // 0x98
-        public _HideWorkingSetPreview HideWorkingSetPreview; // 0xA0
-        public _RoomSetupStarting RoomSetupStarting; // 0xA8
+        public _snapOffset CommitWorkingCopy; // 0x10
+        public bbedKinematic RevertWorkingCopy; // 0x18
+        public bbedCollider GetWorkingPlayAreaSize; // 0x20
+        public object GetWorkingPlayAreaRect; // 0x28
+        public bed GetWorkingCollisionBoundsInfo; // 0x30
+        public bedTransform GetLiveCollisionBoundsInfo; // 0x38
+        public y GetWorkingSeatedZeroPoseToRawTrackingPose; // 0x40
+        public rs GetWorkingStandingZeroPoseToRawTrackingPose; // 0x48
+        public bbableRelease SetWorkingPlayAreaSize; // 0x50
+        public object SetWorkingCollisionBoundsInfo; // 0x58
+        public object SetWorkingPerimeter; // 0x60
+        public ake>b__23_0 SetWorkingSeatedZeroPoseToRawTrackingPose; // 0x68
+        public form SetWorkingStandingZeroPoseToRawTrackingPose; // 0x70
+        public ot ReloadFromDisk; // 0x78
+        public tRotation GetLiveSeatedZeroPoseToRawTrackingPose; // 0x80
+        public ameraController ExportLiveToBuffer; // 0x88
+        public teCubeGrid ImportFromBufferToWorking; // 0x90
+        public object ShowWorkingSetPreview; // 0x98
+        public object HideWorkingSetPreview; // 0xA0
+        public ÌÍÏÎÏÌÎÌ RoomSetupStarting; // 0xA8
     }
 
     public class IVRCompositor : ValueType
     {
-        public _SetTrackingSpace SetTrackingSpace; // 0x10
-        public _GetTrackingSpace GetTrackingSpace; // 0x18
-        public _WaitGetPoses WaitGetPoses; // 0x20
-        public _GetLastPoses GetLastPoses; // 0x28
-        public _GetLastPoseForTrackedDeviceIndex GetLastPoseForTrackedDeviceIndex; // 0x30
-        public _Submit Submit; // 0x38
-        public _SubmitWithArrayIndex SubmitWithArrayIndex; // 0x40
-        public _ClearLastSubmittedFrame ClearLastSubmittedFrame; // 0x48
-        public _PostPresentHandoff PostPresentHandoff; // 0x50
-        public _GetFrameTiming GetFrameTiming; // 0x58
-        public _GetFrameTimings GetFrameTimings; // 0x60
-        public _GetFrameTimeRemaining GetFrameTimeRemaining; // 0x68
-        public _GetCumulativeStats GetCumulativeStats; // 0x70
-        public _FadeToColor FadeToColor; // 0x78
-        public _GetCurrentFadeColor GetCurrentFadeColor; // 0x80
-        public _FadeGrid FadeGrid; // 0x88
-        public _GetCurrentGridAlpha GetCurrentGridAlpha; // 0x90
-        public _SetSkyboxOverride SetSkyboxOverride; // 0x98
-        public _ClearSkyboxOverride ClearSkyboxOverride; // 0xA0
-        public _CompositorBringToFront CompositorBringToFront; // 0xA8
-        public _CompositorGoToBack CompositorGoToBack; // 0xB0
-        public _CompositorQuit CompositorQuit; // 0xB8
-        public _IsFullscreen IsFullscreen; // 0xC0
-        public _GetCurrentSceneFocusProcess GetCurrentSceneFocusProcess; // 0xC8
-        public _GetLastFrameRenderer GetLastFrameRenderer; // 0xD0
-        public _CanRenderScene CanRenderScene; // 0xD8
-        public _ShowMirrorWindow ShowMirrorWindow; // 0xE0
-        public _HideMirrorWindow HideMirrorWindow; // 0xE8
-        public _IsMirrorWindowVisible IsMirrorWindowVisible; // 0xF0
-        public _CompositorDumpImages CompositorDumpImages; // 0xF8
-        public _ShouldAppRenderWithLowResources ShouldAppRenderWithLowResources; // 0x100
-        public _ForceInterleavedReprojectionOn ForceInterleavedReprojectionOn; // 0x108
-        public _ForceReconnectProcess ForceReconnectProcess; // 0x110
-        public _SuspendRendering SuspendRendering; // 0x118
-        public _GetMirrorTextureD3D11 GetMirrorTextureD3D11; // 0x120
-        public _ReleaseMirrorTextureD3D11 ReleaseMirrorTextureD3D11; // 0x128
-        public _GetMirrorTextureGL GetMirrorTextureGL; // 0x130
-        public _ReleaseSharedGLTexture ReleaseSharedGLTexture; // 0x138
-        public _LockGLSharedTextureForAccess LockGLSharedTextureForAccess; // 0x140
-        public _UnlockGLSharedTextureForAccess UnlockGLSharedTextureForAccess; // 0x148
-        public _GetVulkanInstanceExtensionsRequired GetVulkanInstanceExtensionsRequired; // 0x150
-        public _GetVulkanDeviceExtensionsRequired GetVulkanDeviceExtensionsRequired; // 0x158
-        public _SetExplicitTimingMode SetExplicitTimingMode; // 0x160
-        public _SubmitExplicitTimingData SubmitExplicitTimingData; // 0x168
-        public _IsMotionSmoothingEnabled IsMotionSmoothingEnabled; // 0x170
-        public _IsMotionSmoothingSupported IsMotionSmoothingSupported; // 0x178
-        public _IsCurrentSceneFocusAppLoading IsCurrentSceneFocusAppLoading; // 0x180
-        public _SetStageOverride_Async SetStageOverride_Async; // 0x188
-        public _ClearStageOverride ClearStageOverride; // 0x190
-        public _GetCompositorBenchmarkResults GetCompositorBenchmarkResults; // 0x198
-        public _GetLastPosePredictionIDs GetLastPosePredictionIDs; // 0x1A0
-        public _GetPosesForFrame GetPosesForFrame; // 0x1A8
+        public ld SetTrackingSpace; // 0x10
+        public ackingField GetTrackingSpace; // 0x18
+        public onfidence>k__BackingField WaitGetPoses; // 0x20
+        public object GetLastPoses; // 0x28
+        public ystemGestureInProgress GetLastPoseForTrackedDeviceIndex; // 0x30
+        public ntHand Submit; // 0x38
+        public object SubmitWithArrayIndex; // 0x40
+        public object ClearLastSubmittedFrame; // 0x48
+        public result_skel_LH PostPresentHandoff; // 0x50
+        public t_skel_RH GetFrameTiming; // 0x58
+        public _RH GetFrameTimings; // 0x60
+        public r>b__19_0 GetFrameTimeRemaining; // 0x68
+        public esh GetCumulativeStats; // 0x70
+        public sh FadeToColor; // 0x78
+        public object GetCurrentFadeColor; // 0x80
+        public ticesV3 FadeGrid; // 0x88
+        public ransformVertices GetCurrentGridAlpha; // 0x90
+        public rateTrianglesFromBoundaryVertices SetSkyboxOverride; // 0x98
+        public Order ClearSkyboxOverride; // 0xA0
+        public object CompositorBringToFront; // 0xA8
+        public rClockwise CompositorGoToBack; // 0xB0
+        public bs CompositorQuit; // 0xB8
+        public itySpaceJob IsFullscreen; // 0xC0
+        public rtices GetCurrentSceneFocusProcess; // 0xC8
+        public object GetLastFrameRenderer; // 0xD0
+        public MeshNormals CanRenderScene; // 0xD8
+        public UV ShowMirrorWindow; // 0xE0
+        public object HideMirrorWindow; // 0xE8
+        public ransformTrianglesJob IsMirrorWindowVisible; // 0xF0
+        public shIndices CompositorDumpImages; // 0xF8
+        public elper`1 ShouldAppRenderWithLowResources; // 0x100
+        public object ForceInterleavedReprojectionOn; // 0x108
+        public eMaterial ForceReconnectProcess; // 0x110
+        public SystemGestureMaterial SuspendRendering; // 0x118
+        public esh GetMirrorTextureD3D11; // 0x120
+        public denceBehavior ReleaseMirrorTextureD3D11; // 0x128
+        public aterial GetMirrorTextureGL; // 0x130
+        public rer ReleaseSharedGLTexture; // 0x138
+        public Field LockGLSharedTextureForAccess; // 0x140
+        public terial UnlockGLSharedTextureForAccess; // 0x148
+        public der GetVulkanInstanceExtensionsRequired; // 0x150
+        public ata GetVulkanDeviceExtensionsRequired; // 0x158
+        public Behavior SetExplicitTimingMode; // 0x160
+        public tyCaptureConfiguration SubmitExplicitTimingData; // 0x168
+        public ÌÌÏÎ IsMotionSmoothingEnabled; // 0x170
+        public object IsMotionSmoothingSupported; // 0x178
+        public object IsCurrentSceneFocusAppLoading; // 0x180
+        public object SetStageOverride_Async; // 0x188
+        public ÌÌÏÎÏÎÎÏÍÏÍÏÎÎÏ ClearStageOverride; // 0x190
+        public ÍÏÎÎÏ GetCompositorBenchmarkResults; // 0x198
+        public d GetLastPosePredictionIDs; // 0x1A0
+        public object GetPosesForFrame; // 0x1A8
     }
 
     public class IVRDebug : ValueType
     {
-        public _EmitVrProfilerEvent EmitVrProfilerEvent; // 0x10
-        public _BeginVrProfilerEvent BeginVrProfilerEvent; // 0x18
-        public _FinishVrProfilerEvent FinishVrProfilerEvent; // 0x20
-        public _DriverDebugRequest DriverDebugRequest; // 0x28
+        public ÌÏÏÏÏÏÌ EmitVrProfilerEvent; // 0x10
+        public object BeginVrProfilerEvent; // 0x18
+        public object FinishVrProfilerEvent; // 0x20
+        public form DriverDebugRequest; // 0x28
     }
 
     public class IVRDriverManager : ValueType
     {
-        public _GetDriverCount GetDriverCount; // 0x10
-        public _GetDriverName GetDriverName; // 0x18
-        public _GetDriverHandle GetDriverHandle; // 0x20
-        public _IsEnabled IsEnabled; // 0x28
+        public l_IsValid GetDriverCount; // 0x10
+        public CpuClockLevel GetDriverName; // 0x18
+        public ClockLevel_IsValid GetDriverHandle; // 0x20
+        public ÌÎÎ IsEnabled; // 0x28
     }
 
     public class IVRExtendedDisplay : ValueType
     {
-        public _GetWindowBounds GetWindowBounds; // 0x10
-        public _GetEyeOutputViewport GetEyeOutputViewport; // 0x18
-        public _GetDXGIOutputInfo GetDXGIOutputInfo; // 0x20
+        public led GetWindowBounds; // 0x10
+        public hors GetEyeOutputViewport; // 0x18
+        public yAllBounded2DEnabled GetDXGIOutputInfo; // 0x20
     }
 
     public class IVRHeadsetView : ValueType
     {
-        public _SetHeadsetViewSize SetHeadsetViewSize; // 0x10
-        public _GetHeadsetViewSize GetHeadsetViewSize; // 0x18
-        public _SetHeadsetViewMode SetHeadsetViewMode; // 0x20
-        public _GetHeadsetViewMode GetHeadsetViewMode; // 0x28
-        public _SetHeadsetViewCropped SetHeadsetViewCropped; // 0x30
-        public _GetHeadsetViewCropped GetHeadsetViewCropped; // 0x38
-        public _GetHeadsetViewAspectRatio GetHeadsetViewAspectRatio; // 0x40
-        public _SetHeadsetViewBlendRange SetHeadsetViewBlendRange; // 0x48
-        public _GetHeadsetViewBlendRange GetHeadsetViewBlendRange; // 0x50
+        public ÎÌÌÏÌÎÌÌÏÌ SetHeadsetViewSize; // 0x10
+        public object GetHeadsetViewSize; // 0x18
+        public object SetHeadsetViewMode; // 0x20
+        public ÏÍÌÏÏ GetHeadsetViewMode; // 0x28
+        public object SetHeadsetViewCropped; // 0x30
+        public object GetHeadsetViewCropped; // 0x38
+        public object GetHeadsetViewAspectRatio; // 0x40
+        public Ï SetHeadsetViewBlendRange; // 0x48
+        public object GetHeadsetViewBlendRange; // 0x50
     }
 
     public class IVRIOBuffer : ValueType
     {
-        public _Open Open; // 0x10
-        public _Close Close; // 0x18
-        public _Read Read; // 0x20
-        public _Write Write; // 0x28
-        public _PropertyContainer PropertyContainer; // 0x30
-        public _HasReaders HasReaders; // 0x38
+        public ctor2 Open; // 0x10
+        public object Close; // 0x18
+        public adQuaternion Read; // 0x20
+        public ernion Write; // 0x28
+        public ReadRect PropertyContainer; // 0x30
+        public ÏÌ HasReaders; // 0x38
     }
 
     public class IVRInput : ValueType
     {
-        public _SetActionManifestPath SetActionManifestPath; // 0x10
-        public _GetActionSetHandle GetActionSetHandle; // 0x18
-        public _GetActionHandle GetActionHandle; // 0x20
-        public _GetInputSourceHandle GetInputSourceHandle; // 0x28
-        public _UpdateActionState UpdateActionState; // 0x30
-        public _GetDigitalActionData GetDigitalActionData; // 0x38
-        public _GetAnalogActionData GetAnalogActionData; // 0x40
-        public _GetPoseActionDataRelativeToNow GetPoseActionDataRelativeToNow; // 0x48
-        public _GetPoseActionDataForNextFrame GetPoseActionDataForNextFrame; // 0x50
-        public _GetSkeletalActionData GetSkeletalActionData; // 0x58
-        public _GetDominantHand GetDominantHand; // 0x60
-        public _SetDominantHand SetDominantHand; // 0x68
-        public _GetBoneCount GetBoneCount; // 0x70
-        public _GetBoneHierarchy GetBoneHierarchy; // 0x78
-        public _GetBoneName GetBoneName; // 0x80
-        public _GetSkeletalReferenceTransforms GetSkeletalReferenceTransforms; // 0x88
-        public _GetSkeletalTrackingLevel GetSkeletalTrackingLevel; // 0x90
-        public _GetSkeletalBoneData GetSkeletalBoneData; // 0x98
-        public _GetSkeletalSummaryData GetSkeletalSummaryData; // 0xA0
-        public _GetSkeletalBoneDataCompressed GetSkeletalBoneDataCompressed; // 0xA8
-        public _DecompressSkeletalBoneData DecompressSkeletalBoneData; // 0xB0
-        public _TriggerHapticVibrationAction TriggerHapticVibrationAction; // 0xB8
-        public _GetActionOrigins GetActionOrigins; // 0xC0
-        public _GetOriginLocalizedName GetOriginLocalizedName; // 0xC8
-        public _GetOriginTrackedDeviceInfo GetOriginTrackedDeviceInfo; // 0xD0
-        public _GetActionBindingInfo GetActionBindingInfo; // 0xD8
-        public _ShowActionOrigins ShowActionOrigins; // 0xE0
-        public _ShowBindingsForActionSet ShowBindingsForActionSet; // 0xE8
-        public _GetComponentStateForBinding GetComponentStateForBinding; // 0xF0
-        public _IsUsingLegacyInput IsUsingLegacyInput; // 0xF8
-        public _OpenBindingUI OpenBindingUI; // 0x100
-        public _GetBindingVariant GetBindingVariant; // 0x108
+        public ty SetActionManifestPath; // 0x10
+        public Ratio GetActionSetHandle; // 0x18
+        public Color GetActionHandle; // 0x20
+        public object GetInputSourceHandle; // 0x28
+        public er UpdateActionState; // 0x30
+        public terial GetDigitalActionData; // 0x38
+        public eAndOffset1Property GetAnalogActionData; // 0x40
+        public ÍÏÎÌÏ GetPoseActionDataRelativeToNow; // 0x48
+        public object GetPoseActionDataForNextFrame; // 0x50
+        public AndOffset1 GetSkeletalActionData; // 0x58
+        public object GetDominantHand; // 0x60
+        public object SetDominantHand; // 0x68
+        public object GetBoneCount; // 0x70
+        public object GetBoneHierarchy; // 0x78
+        public ÎÎÌÎÎÍÌÏÌÌÎÌÎÏÌÏÏÎÎÌÎÍ GetBoneName; // 0x80
+        public ÍÏÏÍÌÍÌÌÎÍÏÎÎÌÎÎÌÌÍ GetSkeletalReferenceTransforms; // 0x88
+        public ÍÏÏÌÌÌÎÌÏÌÏÏÌÌÍÌÏÎÍ GetSkeletalTrackingLevel; // 0x90
+        public AndOffset0 GetSkeletalBoneData; // 0x98
+        public ÌÎÍÌÌÎÍÌÏÏÍÏÎÌÌÎÏÌ GetSkeletalSummaryData; // 0xA0
+        public hComplexityLevel GetSkeletalBoneDataCompressed; // 0xA8
+        public NodeType DecompressSkeletalBoneData; // 0xB0
+        public object TriggerHapticVibrationAction; // 0xB8
+        public object GetActionOrigins; // 0xC0
+        public Int GetOriginLocalizedName; // 0xC8
+        public AsBool GetOriginTrackedDeviceInfo; // 0xD0
+        public ÌÍÏÌÏÏÏÍÍÍÍÌÏÌÌÍÏÌÏÎÌÏÏ GetActionBindingInfo; // 0xD8
+        public yValue ShowActionOrigins; // 0xE0
+        public ted ShowBindingsForActionSet; // 0xE8
+        public ÎÌÎ GetComponentStateForBinding; // 0xF0
+        public ÎÏÍÌÌÎÏÏÌÍÍÍ IsUsingLegacyInput; // 0xF8
+        public ÍÍ OpenBindingUI; // 0x100
+        public object GetBindingVariant; // 0x108
     }
 
     public class IVRNotifications : ValueType
     {
-        public _CreateNotification CreateNotification; // 0x10
-        public _RemoveNotification RemoveNotification; // 0x18
+        public endererData CreateNotification; // 0x10
+        public stureMat RemoveNotification; // 0x18
     }
 
     public class IVROverlay : ValueType
     {
-        public _FindOverlay FindOverlay; // 0x10
-        public _CreateOverlay CreateOverlay; // 0x18
-        public _DestroyOverlay DestroyOverlay; // 0x20
-        public _GetOverlayKey GetOverlayKey; // 0x28
-        public _GetOverlayName GetOverlayName; // 0x30
-        public _SetOverlayName SetOverlayName; // 0x38
-        public _GetOverlayImageData GetOverlayImageData; // 0x40
-        public _GetOverlayErrorNameFromEnum GetOverlayErrorNameFromEnum; // 0x48
-        public _SetOverlayRenderingPid SetOverlayRenderingPid; // 0x50
-        public _GetOverlayRenderingPid GetOverlayRenderingPid; // 0x58
-        public _SetOverlayFlag SetOverlayFlag; // 0x60
-        public _GetOverlayFlag GetOverlayFlag; // 0x68
-        public _GetOverlayFlags GetOverlayFlags; // 0x70
-        public _SetOverlayColor SetOverlayColor; // 0x78
-        public _GetOverlayColor GetOverlayColor; // 0x80
-        public _SetOverlayAlpha SetOverlayAlpha; // 0x88
-        public _GetOverlayAlpha GetOverlayAlpha; // 0x90
-        public _SetOverlayTexelAspect SetOverlayTexelAspect; // 0x98
-        public _GetOverlayTexelAspect GetOverlayTexelAspect; // 0xA0
-        public _SetOverlaySortOrder SetOverlaySortOrder; // 0xA8
-        public _GetOverlaySortOrder GetOverlaySortOrder; // 0xB0
-        public _SetOverlayWidthInMeters SetOverlayWidthInMeters; // 0xB8
-        public _GetOverlayWidthInMeters GetOverlayWidthInMeters; // 0xC0
-        public _SetOverlayCurvature SetOverlayCurvature; // 0xC8
-        public _GetOverlayCurvature GetOverlayCurvature; // 0xD0
-        public _SetOverlayPreCurvePitch SetOverlayPreCurvePitch; // 0xD8
-        public _GetOverlayPreCurvePitch GetOverlayPreCurvePitch; // 0xE0
-        public _SetOverlayTextureColorSpace SetOverlayTextureColorSpace; // 0xE8
-        public _GetOverlayTextureColorSpace GetOverlayTextureColorSpace; // 0xF0
-        public _SetOverlayTextureBounds SetOverlayTextureBounds; // 0xF8
-        public _GetOverlayTextureBounds GetOverlayTextureBounds; // 0x100
-        public _GetOverlayTransformType GetOverlayTransformType; // 0x108
-        public _SetOverlayTransformAbsolute SetOverlayTransformAbsolute; // 0x110
-        public _GetOverlayTransformAbsolute GetOverlayTransformAbsolute; // 0x118
-        public _SetOverlayTransformTrackedDeviceRelative SetOverlayTransformTrackedDeviceRelative; // 0x120
-        public _GetOverlayTransformTrackedDeviceRelative GetOverlayTransformTrackedDeviceRelative; // 0x128
-        public _SetOverlayTransformTrackedDeviceComponent SetOverlayTransformTrackedDeviceComponent; // 0x130
-        public _GetOverlayTransformTrackedDeviceComponent GetOverlayTransformTrackedDeviceComponent; // 0x138
-        public _SetOverlayTransformCursor SetOverlayTransformCursor; // 0x140
-        public _GetOverlayTransformCursor GetOverlayTransformCursor; // 0x148
-        public _SetOverlayTransformProjection SetOverlayTransformProjection; // 0x150
-        public _ShowOverlay ShowOverlay; // 0x158
-        public _HideOverlay HideOverlay; // 0x160
-        public _IsOverlayVisible IsOverlayVisible; // 0x168
-        public _GetTransformForOverlayCoordinates GetTransformForOverlayCoordinates; // 0x170
-        public _WaitFrameSync WaitFrameSync; // 0x178
-        public _PollNextOverlayEvent PollNextOverlayEvent; // 0x180
-        public _GetOverlayInputMethod GetOverlayInputMethod; // 0x188
-        public _SetOverlayInputMethod SetOverlayInputMethod; // 0x190
-        public _GetOverlayMouseScale GetOverlayMouseScale; // 0x198
-        public _SetOverlayMouseScale SetOverlayMouseScale; // 0x1A0
-        public _ComputeOverlayIntersection ComputeOverlayIntersection; // 0x1A8
-        public _IsHoverTargetOverlay IsHoverTargetOverlay; // 0x1B0
-        public _SetOverlayIntersectionMask SetOverlayIntersectionMask; // 0x1B8
-        public _TriggerLaserMouseHapticVibration TriggerLaserMouseHapticVibration; // 0x1C0
-        public _SetOverlayCursor SetOverlayCursor; // 0x1C8
-        public _SetOverlayCursorPositionOverride SetOverlayCursorPositionOverride; // 0x1D0
-        public _ClearOverlayCursorPositionOverride ClearOverlayCursorPositionOverride; // 0x1D8
-        public _SetOverlayTexture SetOverlayTexture; // 0x1E0
-        public _ClearOverlayTexture ClearOverlayTexture; // 0x1E8
-        public _SetOverlayRaw SetOverlayRaw; // 0x1F0
-        public _SetOverlayFromFile SetOverlayFromFile; // 0x1F8
-        public _GetOverlayTexture GetOverlayTexture; // 0x200
-        public _ReleaseNativeOverlayHandle ReleaseNativeOverlayHandle; // 0x208
-        public _GetOverlayTextureSize GetOverlayTextureSize; // 0x210
-        public _CreateDashboardOverlay CreateDashboardOverlay; // 0x218
-        public _IsDashboardVisible IsDashboardVisible; // 0x220
-        public _IsActiveDashboardOverlay IsActiveDashboardOverlay; // 0x228
-        public _SetDashboardOverlaySceneProcess SetDashboardOverlaySceneProcess; // 0x230
-        public _GetDashboardOverlaySceneProcess GetDashboardOverlaySceneProcess; // 0x238
-        public _ShowDashboard ShowDashboard; // 0x240
-        public _GetPrimaryDashboardDevice GetPrimaryDashboardDevice; // 0x248
-        public _ShowKeyboard ShowKeyboard; // 0x250
-        public _ShowKeyboardForOverlay ShowKeyboardForOverlay; // 0x258
-        public _GetKeyboardText GetKeyboardText; // 0x260
-        public _HideKeyboard HideKeyboard; // 0x268
-        public _SetKeyboardTransformAbsolute SetKeyboardTransformAbsolute; // 0x270
-        public _SetKeyboardPositionForOverlay SetKeyboardPositionForOverlay; // 0x278
-        public _ShowMessageOverlay ShowMessageOverlay; // 0x280
-        public _CloseMessageOverlay CloseMessageOverlay; // 0x288
+        public est FindOverlay; // 0x10
+        public e CreateOverlay; // 0x18
+        public tFov DestroyOverlay; // 0x20
+        public Network GetOverlayKey; // 0x28
+        public erLength GetOverlayName; // 0x30
+        public oadLength SetOverlayName; // 0x38
+        public icIdentifier GetOverlayImageData; // 0x40
+        public fier GetOverlayErrorNameFromEnum; // 0x48
+        public VRNetworkTcpServer SetOverlayRenderingPid; // 0x50
+        public rt GetOverlayRenderingPid; // 0x58
+        public back SetOverlayFlag; // 0x60
+        public lback GetOverlayFlag; // 0x68
+        public _enablePhysicsCapsules GetOverlayFlags; // 0x70
+        public ock SetOverlayColor; // 0x78
+        public tworkTcpClient GetOverlayColor; // 0x80
+        public eadDataCallback SetOverlayAlpha; // 0x88
+        public onnectionStateChangedCallback GetOverlayAlpha; // 0x90
+        public back SetOverlayTexelAspect; // 0x98
+        public nt GetOverlayTexelAspect; // 0xA0
+        public x SetOverlaySortOrder; // 0xA8
+        public eiveDataEvent GetOverlaySortOrder; // 0xB0
+        public ectionState SetOverlayWidthInMeters; // 0xB8
+        public sformUpdated GetOverlayWidthInMeters; // 0xC0
+        public ÏÏÎÎÏÏÌÌÎÏÍÌÍÎÌÎ SetOverlayCurvature; // 0xC8
+        public object GetOverlayCurvature; // 0xD0
+        public ÎÍÌÎÌÏÌ SetOverlayPreCurvePitch; // 0xD8
+        public object GetOverlayPreCurvePitch; // 0xE0
+        public tiplier SetOverlayTextureColorSpace; // 0xE8
+        public plier GetOverlayTextureColorSpace; // 0xF0
+        public tiplier SetOverlayTextureBounds; // 0xF8
+        public ation GetOverlayTextureBounds; // 0x100
+        public altUpdateMovement GetOverlayTransformType; // 0x108
+        public g SetOverlayTransformAbsolute; // 0x110
+        public oundGuardianCenter GetOverlayTransformAbsolute; // 0x118
+        public HmdRotatesY SetOverlayTransformTrackedDeviceRelative; // 0x120
+        public ted GetOverlayTransformTrackedDeviceRelative; // 0x128
+        public tationEitherThumbstick SetOverlayTransformTrackedDeviceComponent; // 0x130
+        public ialPose GetOverlayTransformTrackedDeviceComponent; // 0x138
+        public object SetOverlayTransformCursor; // 0x140
+        public object GetOverlayTransformCursor; // 0x148
+        public object SetOverlayTransformProjection; // 0x150
+        public erEnabled ShowOverlay; // 0x158
+        public tialYRotation HideOverlay; // 0x160
+        public object IsOverlayVisible; // 0x168
+        public tor GetTransformForOverlayCoordinates; // 0x170
+        public ÍÏÍÏÎÌÍÎ WaitFrameSync; // 0x178
+        public heckForBlocking PollNextOverlayEvent; // 0x180
+        public tPointer GetOverlayInputMethod; // 0x188
+        public object SetOverlayInputMethod; // 0x190
+        public ed GetOverlayMouseScale; // 0x198
+        public ouse SetOverlayMouseScale; // 0x1A0
+        public __16_0 ComputeOverlayIntersection; // 0x1A8
+        public er IsHoverTargetOverlay; // 0x1B0
+        public innableBones SetOverlayIntersectionMask; // 0x1B8
+        public object TriggerLaserMouseHapticVibration; // 0x1C0
+        public object SetOverlayCursor; // 0x1C8
+        public object SetOverlayCursorPositionOverride; // 0x1D0
+        public object ClearOverlayCursorPositionOverride; // 0x1D8
+        public ionNodes SetOverlayTexture; // 0x1E0
+        public trollerModel>d__16 ClearOverlayTexture; // 0x1E8
+        public RSceneSampleController SetOverlayRaw; // 0x1F0
+        public UpdateSpeedAndRotationScaleMultiplier SetOverlayFromFile; // 0x1F8
+        public plier GetOverlayTexture; // 0x200
+        public VRScreenFade ReleaseNativeOverlayHandle; // 0x208
+        public a GetOverlayTextureSize; // 0x210
+        public lFinishedLoading CreateDashboardOverlay; // 0x218
+        public pha IsDashboardVisible; // 0x220
+        public Start IsActiveDashboardOverlay; // 0x228
+        public imatedFadeAlpha SetDashboardOverlaySceneProcess; // 0x230
+        public enderer GetDashboardOverlaySceneProcess; // 0x238
+        public Alpha ShowDashboard; // 0x240
+        public __2 GetPrimaryDashboardDevice; // 0x248
+        public et_Bones ShowKeyboard; // 0x250
+        public SkeletonChangedCount ShowKeyboardForOverlay; // 0x258
+        public tializeBones GetKeyboardText; // 0x260
+        public nitializeCapsules HideKeyboard; // 0x268
+        public les SetKeyboardTransformAbsolute; // 0x270
+        public BoneId SetKeyboardPositionForOverlay; // 0x278
+        public applyBoneTranslations ShowMessageOverlay; // 0x280
+        public on CloseMessageOverlay; // 0x288
     }
 
     public class IVROverlayView : ValueType
     {
-        public _AcquireOverlayView AcquireOverlayView; // 0x10
-        public _ReleaseOverlayView ReleaseOverlayView; // 0x18
-        public _PostOverlayEvent PostOverlayEvent; // 0x20
-        public _IsViewingPermitted IsViewingPermitted; // 0x28
+        public ÏÏÌÏÍÏÍÌÌÍÌÌÏÏÌÌÎ AcquireOverlayView; // 0x10
+        public ÏÎÎÏÍÌÎÏ ReleaseOverlayView; // 0x18
+        public object PostOverlayEvent; // 0x20
+        public ÍÎÍÎÍÏÎÎ IsViewingPermitted; // 0x28
     }
 
     public class IVRPaths : ValueType
     {
-        public _ReadPathBatch ReadPathBatch; // 0x10
-        public _WritePathBatch WritePathBatch; // 0x18
-        public _StringToHandle StringToHandle; // 0x20
-        public _HandleToString HandleToString; // 0x28
+        public ÏÌÏÎÌÌÏÎÍÎÍÍÏÎÎÍÌÍÏÎÏÎÍ ReadPathBatch; // 0x10
+        public ÎÍÌÍÏÎÏÎÍ WritePathBatch; // 0x18
+        public Í StringToHandle; // 0x20
+        public object HandleToString; // 0x28
     }
 
     public class IVRProperties : ValueType
     {
-        public _ReadPropertyBatch ReadPropertyBatch; // 0x10
-        public _WritePropertyBatch WritePropertyBatch; // 0x18
-        public _GetPropErrorNameFromEnum GetPropErrorNameFromEnum; // 0x20
-        public _TrackedDeviceToPropertyContainer TrackedDeviceToPropertyContainer; // 0x28
+        public object ReadPropertyBatch; // 0x10
+        public object WritePropertyBatch; // 0x18
+        public get_QueryType GetPropErrorNameFromEnum; // 0x20
+        public object TrackedDeviceToPropertyContainer; // 0x28
     }
 
     public class IVRRenderModels : ValueType
     {
-        public _LoadRenderModel_Async LoadRenderModel_Async; // 0x10
-        public _FreeRenderModel FreeRenderModel; // 0x18
-        public _LoadTexture_Async LoadTexture_Async; // 0x20
-        public _FreeTexture FreeTexture; // 0x28
-        public _LoadTextureD3D11_Async LoadTextureD3D11_Async; // 0x30
-        public _LoadIntoTextureD3D11_Async LoadIntoTextureD3D11_Async; // 0x38
-        public _FreeTextureD3D11 FreeTextureD3D11; // 0x40
-        public _GetRenderModelName GetRenderModelName; // 0x48
-        public _GetRenderModelCount GetRenderModelCount; // 0x50
-        public _GetComponentCount GetComponentCount; // 0x58
-        public _GetComponentName GetComponentName; // 0x60
-        public _GetComponentButtonMask GetComponentButtonMask; // 0x68
-        public _GetComponentRenderModelName GetComponentRenderModelName; // 0x70
-        public _GetComponentStateForDevicePath GetComponentStateForDevicePath; // 0x78
-        public _GetComponentState GetComponentState; // 0x80
-        public _RenderModelHasComponent RenderModelHasComponent; // 0x88
-        public _GetRenderModelThumbnailURL GetRenderModelThumbnailURL; // 0x90
-        public _GetRenderModelOriginalPath GetRenderModelOriginalPath; // 0x98
-        public _GetRenderModelErrorNameFromEnum GetRenderModelErrorNameFromEnum; // 0xA0
+        public ackingField LoadRenderModel_Async; // 0x10
+        public BoneTranslations FreeRenderModel; // 0x18
+        public arentBoneIndex LoadTexture_Async; // 0x20
+        public Index FreeTexture; // 0x28
+        public nsform LoadTextureD3D11_Async; // 0x30
+        public <Transform>k__BackingField LoadIntoTextureD3D11_Async; // 0x38
+        public e FreeTextureD3D11; // 0x40
+        public CapsuleRigidbody GetRenderModelName; // 0x48
+        public t_CapsuleCollider GetRenderModelCount; // 0x50
+        public eIndex GetComponentCount; // 0x58
+        public Body GetComponentName; // 0x60
+        public leRigidbody>k__BackingField GetComponentButtonMask; // 0x68
+        public eld GetComponentRenderModelName; // 0x70
+        public er GetComponentStateForDevicePath; // 0x78
+        public faultMaterial GetComponentState; // 0x80
+        public uleMaterial RenderModelHasComponent; // 0x88
+        public ltMaterial GetRenderModelThumbnailURL; // 0x90
+        public boneVisualizations GetRenderModelOriginalPath; // 0x98
+        public capsuleRotationOffset GetRenderModelErrorNameFromEnum; // 0xA0
     }
 
     public class IVRResources : ValueType
     {
-        public _LoadSharedResource LoadSharedResource; // 0x10
-        public _GetResourceFullPath GetResourceFullPath; // 0x18
+        public object LoadSharedResource; // 0x10
+        public _IsValid GetResourceFullPath; // 0x18
     }
 
     public class IVRScreenshots : ValueType
     {
-        public _RequestScreenshot RequestScreenshot; // 0x10
-        public _HookScreenshot HookScreenshot; // 0x18
-        public _GetScreenshotPropertyType GetScreenshotPropertyType; // 0x20
-        public _GetScreenshotPropertyFilename GetScreenshotPropertyFilename; // 0x28
-        public _UpdateScreenshotProgress UpdateScreenshotProgress; // 0x30
-        public _TakeStereoScreenshot TakeStereoScreenshot; // 0x38
-        public _SubmitScreenshot SubmitScreenshot; // 0x40
+        public appGpuTime_IsValid RequestScreenshot; // 0x10
+        public object HookScreenshot; // 0x18
+        public ime GetScreenshotPropertyType; // 0x20
+        public ositorDroppedFrameCount GetScreenshotPropertyFilename; // 0x28
+        public aceWarpMode UpdateScreenshotProgress; // 0x30
+        public sValid TakeStereoScreenshot; // 0x38
+        public rcentage SubmitScreenshot; // 0x40
     }
 
     public class IVRSettings : ValueType
     {
-        public _GetSettingsErrorNameFromEnum GetSettingsErrorNameFromEnum; // 0x10
-        public _SetBool SetBool; // 0x18
-        public _SetInt32 SetInt32; // 0x20
-        public _SetFloat SetFloat; // 0x28
-        public _SetString SetString; // 0x30
-        public _GetBool GetBool; // 0x38
-        public _GetInt32 GetInt32; // 0x40
-        public _GetFloat GetFloat; // 0x48
-        public _GetString GetString; // 0x50
-        public _RemoveSection RemoveSection; // 0x58
-        public _RemoveKeyInSection RemoveKeyInSection; // 0x60
+        public object GetSettingsErrorNameFromEnum; // 0x10
+        public leVisualization SetBool; // 0x18
+        public uleScale SetInt32; // 0x20
+        public atorModeDomeTest SetFloat; // 0x28
+        public pdateSpectatorCameraStatus SetString; // 0x30
+        public torCameraStatus GetBool; // 0x38
+        public Status GetInt32; // 0x40
+        public ctatorAnchorPosition GetFloat; // 0x48
+        public orPosition GetString; // 0x50
+        public meraDomePosition RemoveSection; // 0x58
+        public n RemoveKeyInSection; // 0x60
     }
 
     public class IVRSpatialAnchors : ValueType
     {
-        public _CreateSpatialAnchorFromDescriptor CreateSpatialAnchorFromDescriptor; // 0x10
-        public _CreateSpatialAnchorFromPose CreateSpatialAnchorFromPose; // 0x18
-        public _GetSpatialAnchorPose GetSpatialAnchorPose; // 0x20
-        public _GetSpatialAnchorDescriptor GetSpatialAnchorDescriptor; // 0x28
+        public nionContainerType CreateSpatialAnchorFromDescriptor; // 0x10
+        public ect CreateSpatialAnchorFromPose; // 0x18
+        public le GetSpatialAnchorPose; // 0x20
+        public ect GetSpatialAnchorDescriptor; // 0x28
     }
 
     public class IVRSystem : ValueType
     {
-        public _GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize; // 0x10
-        public _GetProjectionMatrix GetProjectionMatrix; // 0x18
-        public _GetProjectionRaw GetProjectionRaw; // 0x20
-        public _ComputeDistortion ComputeDistortion; // 0x28
-        public _GetEyeToHeadTransform GetEyeToHeadTransform; // 0x30
-        public _GetTimeSinceLastVsync GetTimeSinceLastVsync; // 0x38
-        public _GetD3D9AdapterIndex GetD3D9AdapterIndex; // 0x40
-        public _GetDXGIOutputInfo GetDXGIOutputInfo; // 0x48
-        public _GetOutputDevice GetOutputDevice; // 0x50
-        public _IsDisplayOnDesktop IsDisplayOnDesktop; // 0x58
-        public _SetDisplayVisibility SetDisplayVisibility; // 0x60
-        public _GetDeviceToAbsoluteTrackingPose GetDeviceToAbsoluteTrackingPose; // 0x68
-        public _GetSeatedZeroPoseToStandingAbsoluteTrackingPose GetSeatedZeroPoseToStandingAbsoluteTrackingPose; // 0x70
-        public _GetRawZeroPoseToStandingAbsoluteTrackingPose GetRawZeroPoseToStandingAbsoluteTrackingPose; // 0x78
-        public _GetSortedTrackedDeviceIndicesOfClass GetSortedTrackedDeviceIndicesOfClass; // 0x80
-        public _GetTrackedDeviceActivityLevel GetTrackedDeviceActivityLevel; // 0x88
-        public _ApplyTransform ApplyTransform; // 0x90
-        public _GetTrackedDeviceIndexForControllerRole GetTrackedDeviceIndexForControllerRole; // 0x98
-        public _GetControllerRoleForTrackedDeviceIndex GetControllerRoleForTrackedDeviceIndex; // 0xA0
-        public _GetTrackedDeviceClass GetTrackedDeviceClass; // 0xA8
-        public _IsTrackedDeviceConnected IsTrackedDeviceConnected; // 0xB0
-        public _GetBoolTrackedDeviceProperty GetBoolTrackedDeviceProperty; // 0xB8
-        public _GetFloatTrackedDeviceProperty GetFloatTrackedDeviceProperty; // 0xC0
-        public _GetInt32TrackedDeviceProperty GetInt32TrackedDeviceProperty; // 0xC8
-        public _GetUint64TrackedDeviceProperty GetUint64TrackedDeviceProperty; // 0xD0
-        public _GetMatrix34TrackedDeviceProperty GetMatrix34TrackedDeviceProperty; // 0xD8
-        public _GetArrayTrackedDeviceProperty GetArrayTrackedDeviceProperty; // 0xE0
-        public _GetStringTrackedDeviceProperty GetStringTrackedDeviceProperty; // 0xE8
-        public _GetPropErrorNameFromEnum GetPropErrorNameFromEnum; // 0xF0
-        public _PollNextEvent PollNextEvent; // 0xF8
-        public _PollNextEventWithPose PollNextEventWithPose; // 0x100
-        public _GetEventTypeNameFromEnum GetEventTypeNameFromEnum; // 0x108
-        public _GetHiddenAreaMesh GetHiddenAreaMesh; // 0x110
-        public _GetControllerState GetControllerState; // 0x118
-        public _GetControllerStateWithPose GetControllerStateWithPose; // 0x120
-        public _TriggerHapticPulse TriggerHapticPulse; // 0x128
-        public _GetButtonIdNameFromEnum GetButtonIdNameFromEnum; // 0x130
-        public _GetControllerAxisTypeNameFromEnum GetControllerAxisTypeNameFromEnum; // 0x138
-        public _IsInputAvailable IsInputAvailable; // 0x140
-        public _IsSteamVRDrawingControllers IsSteamVRDrawingControllers; // 0x148
-        public _ShouldApplicationPause ShouldApplicationPause; // 0x150
-        public _ShouldApplicationReduceRenderingWork ShouldApplicationReduceRenderingWork; // 0x158
-        public _PerformFirmwareUpdate PerformFirmwareUpdate; // 0x160
-        public _AcknowledgeQuit_Exiting AcknowledgeQuit_Exiting; // 0x168
-        public _GetAppContainerFilePaths GetAppContainerFilePaths; // 0x170
-        public _GetRuntimeVersion GetRuntimeVersion; // 0x178
+        public derComparer GetRecommendedRenderTargetSize; // 0x10
+        public eCaptureRequestId GetProjectionMatrix; // 0x18
+        public object GetProjectionRaw; // 0x20
+        public Index ComputeDistortion; // 0x28
+        public me GetEyeToHeadTransform; // 0x30
+        public _BackingField GetTimeSinceLastVsync; // 0x38
+        public hors GetD3D9AdapterIndex; // 0x40
+        public yAllBounded2DEnabled GetDXGIOutputInfo; // 0x48
+        public ayoutEnabledForAllEntitiesInside GetOutputDevice; // 0x50
+        public outEnabledForRoomBox IsDisplayOnDesktop; // 0x58
+        public object SetDisplayVisibility; // 0x60
+        public ult>g__EnabledComponents|0 GetDeviceToAbsoluteTrackingPose; // 0x68
+        public ceneManager GetSeatedZeroPoseToStandingAbsoluteTrackingPose; // 0x70
+        public del GetRawZeroPoseToStandingAbsoluteTrackingPose; // 0x78
+        public oSceneModelToLoad GetSortedTrackedDeviceIndicesOfClass; // 0x80
+        public tToLoadSceneModel>d__6 GetTrackedDeviceActivityLevel; // 0x88
+        public imensions ApplyTransform; // 0x90
+        public cenePlaneMeshFilter GetTrackedDeviceIndexForControllerRole; // 0x98
+        public r GetControllerRoleForTrackedDeviceIndex; // 0xA0
+        public tionCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0 GetTrackedDeviceClass; // 0xA8
+        public AfterDeserialize>g__IndexOf|4_0 IsTrackedDeviceConnected; // 0xB0
+        public f|4_0 GetBoolTrackedDeviceProperty; // 0xB8
+        public torClassificationIndex GetFloatTrackedDeviceProperty; // 0xC0
+        public Volume GetInt32TrackedDeviceProperty; // 0xC8
+        public VRSemanticClassification GetUint64TrackedDeviceProperty; // 0xD0
+        public els GetMatrix34TrackedDeviceProperty; // 0xD8
+        public Uuid GetArrayTrackedDeviceProperty; // 0xE0
+        public t_MaxResults GetStringTrackedDeviceProperty; // 0xE8
+        public get_QueryType GetPropErrorNameFromEnum; // 0xF0
+        public e PollNextEvent; // 0xF8
+        public t_ComponentFilter PollNextEventWithPose; // 0x100
+        public omponentFilter GetEventTypeNameFromEnum; // 0x108
+        public t_UuidFilter GetHiddenAreaMesh; // 0x110
+        public rySpaces GetControllerState; // 0x118
+        public ingField GetControllerStateWithPose; // 0x120
+        public ingField TriggerHapticPulse; // 0x128
+        public object GetButtonIdNameFromEnum; // 0x130
+        public ialAnchor GetControllerAxisTypeNameFromEnum; // 0x138
+        public nitializeFromExisting IsInputAvailable; // 0x140
+        public ing IsSteamVRDrawingControllers; // 0x148
+        public nitializeUnchecked ShouldApplicationPause; // 0x150
+        public ackingSpacePose ShouldApplicationReduceRenderingWork; // 0x158
+        public omplete PerformFirmwareUpdate; // 0x160
+        public lete AcknowledgeQuit_Exiting; // 0x168
+        public object GetAppContainerFilePaths; // 0x170
+        public ÎÍÍÌÏÌÌÍÎÍÎÏÎÏÍÌÏÏ GetRuntimeVersion; // 0x178
     }
 
     public class IVRTrackedCamera : ValueType
     {
-        public _GetCameraErrorNameFromEnum GetCameraErrorNameFromEnum; // 0x10
-        public _HasCamera HasCamera; // 0x18
-        public _GetCameraFrameSize GetCameraFrameSize; // 0x20
-        public _GetCameraIntrinsics GetCameraIntrinsics; // 0x28
-        public _GetCameraProjection GetCameraProjection; // 0x30
-        public _AcquireVideoStreamingService AcquireVideoStreamingService; // 0x38
-        public _ReleaseVideoStreamingService ReleaseVideoStreamingService; // 0x40
-        public _GetVideoStreamFrameBuffer GetVideoStreamFrameBuffer; // 0x48
-        public _GetVideoStreamTextureSize GetVideoStreamTextureSize; // 0x50
-        public _GetVideoStreamTextureD3D11 GetVideoStreamTextureD3D11; // 0x58
-        public _GetVideoStreamTextureGL GetVideoStreamTextureGL; // 0x60
-        public _ReleaseVideoStreamTextureGL ReleaseVideoStreamTextureGL; // 0x68
-        public _SetCameraTrackingSpace SetCameraTrackingSpace; // 0x70
-        public _GetCameraTrackingSpace GetCameraTrackingSpace; // 0x78
+        public >k__BackingField GetCameraErrorNameFromEnum; // 0x10
+        public axAnchorCount HasCamera; // 0x18
+        public et_Localizing GetCameraFrameSize; // 0x20
+        public dTo GetCameraIntrinsics; // 0x28
+        public ssage GetCameraProjection; // 0x30
+        public get_isPositionTracked AcquireVideoStreamingService; // 0x38
+        public se ReleaseVideoStreamingService; // 0x40
+        public onTracked GetVideoStreamFrameBuffer; // 0x48
+        public tion GetVideoStreamTextureSize; // 0x50
+        public ializeControllerModels GetVideoStreamTextureD3D11; // 0x58
+        public ontroller GetVideoStreamTextureGL; // 0x60
+        public ftSRightController ReleaseVideoStreamTextureGL; // 0x68
+        public object SetCameraTrackingSpace; // 0x70
+        public ÎÎÏÎÏÏÎÏÏ GetCameraTrackingSpace; // 0x78
     }
 
     public class ImuSample_t : ValueType
     {
         public double fSampleTime; // 0x10
-        public Valve.VR.HmdVector3d_t vAccel; // 0x18
-        public Valve.VR.HmdVector3d_t vGyro; // 0x30
+        public tup vAccel; // 0x18
+        public tup vGyro; // 0x30
         public uint unOffScaleFlags; // 0x48
     }
 
@@ -1407,7 +1407,7 @@ namespace ThirdParty.Valve.Valve.VR
     {
         public bool bActive; // 0x10
         public ulong activeOrigin; // 0x18
-        public Valve.VR.TrackedDevicePose_t pose; // 0x20
+        public fications pose; // 0x20
     }
 
     public class InputSkeletalActionData_t : ValueType

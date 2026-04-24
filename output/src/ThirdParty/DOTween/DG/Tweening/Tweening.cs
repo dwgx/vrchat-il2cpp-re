@@ -7,9 +7,6 @@ namespace ThirdParty.DOTween.DG.Tweening
 {
     public class Color2 : ValueType
     {
-        public UnityEngine.Color ca; // 0x10
-        public UnityEngine.Color cb; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FD9E290
         public void op_Addition(){} // RVA: 0x7FFD4FD9E2A0
@@ -21,31 +18,31 @@ namespace ThirdParty.DOTween.DG.Tweening
     {
         public string logBehaviour;
         public bool debugStoreTargetId; // 0x8
-        public 0x665CFD00 nestedTweenFailureBehaviour; // 0xC
+        public rializeShort.? nestedTweenFailureBehaviour; // 0xC
         public bool showUnityEditorReport; // 0x10
         public float timeScale; // 0x14
         public bool useSmoothDeltaTime; // 0x18
         public float maxSmoothUnscaledTime; // 0x1C
-        public 0x665CFEB8 rewindCallbackMode; // 0x20
-        public 0x665CE390 _logBehaviour; // 0x24
-        public System.Func`3<0x664D9630,object,bool> onWillLog; // 0x28
+        public rializeShort.rray rewindCallbackMode; // 0x20
+        public bie _logBehaviour; // 0x24
+        public nalInformation<?,object,bool> onWillLog; // 0x28
         public bool drawGizmos; // 0x30
         public bool debugMode; // 0x31
         public bool _fooDebugStoreTargetId; // 0x32
-        public 0x665CE4F0 defaultUpdateType; // 0x34
+        public object defaultUpdateType; // 0x34
         public bool defaultTimeScaleIndependent; // 0x38
-        public 0x665CC0D8 defaultAutoPlay; // 0x3C
+        public ntB defaultAutoPlay; // 0x3C
         public bool defaultAutoKill; // 0x40
-        public 0x665CC7B8 defaultLoopType; // 0x44
+        public veChains defaultLoopType; // 0x44
         public bool defaultRecyclable; // 0x48
-        public 0x665CC448 defaultEaseType; // 0x4C
+        public usCount defaultEaseType; // 0x4C
         public float defaultEaseOvershootOrAmplitude; // 0x50
         public float defaultEasePeriod; // 0x54
-        public DG.Tweening.Core.DOTweenComponent instance; // 0x58
+        public nnectTimeout.h instance; // 0x58
         public int maxActiveTweenersReached; // 0x60
         public int maxActiveSequencesReached; // 0x64
-        public DG.Tweening.Core.SafeModeReport safeModeReport; // 0x68
-        public System.Collections.Generic.List`1<0x665CC1E0> GizmosDelegates; // 0x78
+        public nnectTimeout.ndowSize safeModeReport; // 0x68
+        public URA.woDigitYearMax<ÎÌÎÏÏÏÎÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ> GizmosDelegates; // 0x78
         public bool initialized; // 0x80
         public bool isQuitting; // 0x81
 
@@ -309,16 +306,16 @@ namespace ThirdParty.DOTween.DG.Tweening
         public string hasLoops; // 0x38
         public int playedOnce; // 0x40
         public object position; // 0x48
-        public 0x665CE4F0 updateType; // 0x50
+        public object updateType; // 0x50
         public bool isIndependentUpdate; // 0x54
-        public 0x665CC1E0 onPlay; // 0x58
-        public 0x665CC1E0 onPause; // 0x60
-        public 0x665CC1E0 onRewind; // 0x68
-        public 0x665CC1E0 onUpdate; // 0x70
-        public 0x665CC1E0 onStepComplete; // 0x78
-        public 0x665CC1E0 onComplete; // 0x80
-        public 0x665CC1E0 onKill; // 0x88
-        public DG.Tweening.TweenCallback`1<int> onWaypointChange; // 0x90
+        public ÎÌÎÏÏÏÎÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ onPlay; // 0x58
+        public ÎÌÎÏÏÏÎÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ onPause; // 0x60
+        public ÎÌÎÏÏÏÎÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ onRewind; // 0x68
+        public ÎÌÎÏÏÏÎÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ onUpdate; // 0x70
+        public ÎÌÎÏÏÏÎÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ onStepComplete; // 0x78
+        public ÎÌÎÏÏÏÎÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ onComplete; // 0x80
+        public ÎÌÎÏÏÏÎÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ onKill; // 0x88
+        public ÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ<int> onWaypointChange; // 0x90
         public bool isFrom; // 0x98
         public bool isBlendable; // 0x99
         public bool isRecyclable; // 0x9A
@@ -326,22 +323,22 @@ namespace ThirdParty.DOTween.DG.Tweening
         public bool autoKill; // 0x9C
         public float duration; // 0xA0
         public int loops; // 0xA4
-        public 0x665CC7B8 loopType; // 0xA8
+        public veChains loopType; // 0xA8
         public float delay; // 0xAC
         public bool <isRelative>k__BackingField; // 0xB0
-        public 0x665CC448 easeType; // 0xB4
-        public 0x665CC290 customEase; // 0xB8
+        public usCount easeType; // 0xB4
+        public ÍÏÍÎÍÏÍ customEase; // 0xB8
         public float easeOvershootOrAmplitude; // 0xC0
         public float easePeriod; // 0xC4
         public string debugTargetId; // 0xC8
-        public System.Type typeofT1; // 0xD0
-        public System.Type typeofT2; // 0xD8
-        public System.Type typeofTPlugOptions; // 0xE0
+        public object typeofT1; // 0xD0
+        public object typeofT2; // 0xD8
+        public object typeofTPlugOptions; // 0xE0
         public bool <active>k__BackingField; // 0xE8
         public bool isSequenced; // 0xE9
-        public 0x665CC810 sequenceParent; // 0xF0
+        public sa20Engine sequenceParent; // 0xF0
         public int activeId; // 0xF8
-        public 0x665CFDB0 specialStartupMode; // 0xFC
+        public rializeShort.erType specialStartupMode; // 0xFC
         public bool creationLocked; // 0x100
         public bool startupDone; // 0x101
         public bool <playedOnce>k__BackingField; // 0x102

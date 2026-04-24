@@ -43,7 +43,7 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputDevice : ValueType
     {
-        public System.Collections.Generic.List`1<UnityEngine.XR.XRInputSubsystem> deviceId;
+        public URA.woDigitYearMax<oducts.eAttribute> deviceId;
         public ulong isValid; // 0x10
         public bool name; // 0x18
 
@@ -66,10 +66,10 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputDevices : Object
     {
-        public System.Collections.Generic.List`1<UnityEngine.XR.InputDevice> s_InputDeviceList;
-        public System.Action`1<UnityEngine.XR.InputDevice> deviceConnected; // 0x8
-        public System.Action`1<UnityEngine.XR.InputDevice> deviceDisconnected; // 0x10
-        public System.Action`1<UnityEngine.XR.InputDevice> deviceConfigChanged; // 0x18
+        public URA.woDigitYearMax<oducts.ActionProperty> s_InputDeviceList;
+        public ileFullDirectoryInformation<oducts.ActionProperty> deviceConnected; // 0x8
+        public ileFullDirectoryInformation<oducts.ActionProperty> deviceDisconnected; // 0x10
+        public ileFullDirectoryInformation<oducts.ActionProperty> deviceConfigChanged; // 0x18
 
         // ── Methods ──
         public void GetDeviceAtXRNode(){} // RVA: 0x7FFD550C0720
@@ -102,7 +102,7 @@ namespace ThirdParty.Unity.UnityEngine.XR
     public class InputFeatureUsage : ValueType
     {
         public string name; // 0x10
-        public 0x66628F38 internalType; // 0x18
+        public oducts.or internalType; // 0x18
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD505F9A30
@@ -125,10 +125,10 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputTracking : Object
     {
-        public System.Action`1<UnityEngine.XR.XRNodeState> trackingAcquired;
-        public System.Action`1<UnityEngine.XR.XRNodeState> trackingLost; // 0x8
-        public System.Action`1<UnityEngine.XR.XRNodeState> nodeAdded; // 0x10
-        public System.Action`1<UnityEngine.XR.XRNodeState> nodeRemoved; // 0x18
+        public ileFullDirectoryInformation<oducts.dFailCallback> trackingAcquired;
+        public ileFullDirectoryInformation<oducts.dFailCallback> trackingLost; // 0x8
+        public ileFullDirectoryInformation<oducts.dFailCallback> nodeAdded; // 0x10
+        public ileFullDirectoryInformation<oducts.dFailCallback> nodeRemoved; // 0x18
 
         // ── Methods ──
         public void InvokeTrackingEvent(){} // RVA: 0x7FFD550BCF50
@@ -145,15 +145,15 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class MeshGenerationResult : ValueType
     {
-        public UnityEngine.XR.MeshId MeshId; // 0x10
-        public UnityEngine.Mesh Mesh; // 0x20
-        public UnityEngine.MeshCollider MeshCollider; // 0x28
-        public ÏÎÏÎÏÍÎÌÍÍÍÏÍÎÍÍÎÎÎÌ.ÏÍÏÍÏ Status; // 0x30
-        public 0x66629778 Attributes; // 0x34
+        public oducts.nPointer2 MeshId; // 0x10
+        public object Mesh; // 0x20
+        public dUpObject MeshCollider; // 0x28
+        public oducts.er Status; // 0x30
+        public oducts.ReinitAttribute Attributes; // 0x34
         public ulong Position; // 0x38
-        public UnityEngine.Vector3 Rotation; // 0x40
-        public UnityEngine.Quaternion Scale; // 0x4C
-        public UnityEngine.Vector3 <Scale>k__BackingField; // 0x5C
+        public amut Rotation; // 0x40
+        public R_12x12 Scale; // 0x4C
+        public amut <Scale>k__BackingField; // 0x5C
 
         // ── Methods ──
         public void get_MeshId(){} // RVA: 0x7FFD4E6E0590
@@ -170,7 +170,7 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class MeshId : ValueType
     {
-        public UnityEngine.XR.MeshId s_InvalidId;
+        public oducts.nPointer2 s_InvalidId;
         public ulong m_SubId1; // 0x10
         public ulong m_SubId2; // 0x18
 
@@ -183,7 +183,7 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRDevice : Object
     {
-        public System.Action`1<string> deviceLoaded;
+        public ileFullDirectoryInformation<string> deviceLoaded;
 
         // ── Methods ──
         public void GetNativePtr(){} // RVA: 0x7FFD550BC7C0
@@ -195,8 +195,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRDisplaySubsystem : IntegratedSubsystem`1
     {
-        public System.Action`1<bool> scaleOfAllRenderTargets; // 0x20
-        public UnityEngine.HDROutputSettings m_HDROutputSettings; // 0x28
+        public ileFullDirectoryInformation<bool> scaleOfAllRenderTargets; // 0x20
+        public <UseKindFlags>k__BackingField m_HDROutputSettings; // 0x28
 
         // ── Methods ──
         public void InvokeDisplayFocusChanged(){} // RVA: 0x7FFD54C65210
@@ -213,9 +213,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRInputSubsystem : IntegratedSubsystem`1
     {
-        public System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated; // 0x20
-        public System.Action`1<UnityEngine.XR.XRInputSubsystem> boundaryChanged; // 0x28
-        public System.Collections.Generic.List`1<ulong> m_DeviceIdsCache; // 0x30
+        public ileFullDirectoryInformation<oducts.eAttribute> trackingOriginUpdated; // 0x20
+        public ileFullDirectoryInformation<oducts.eAttribute> boundaryChanged; // 0x28
+        public URA.woDigitYearMax<ulong> m_DeviceIdsCache; // 0x30
 
         // ── Methods ──
         public void TryRecenter(){} // RVA: 0x7FFD550C20C0
@@ -250,14 +250,14 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRNodeState : ValueType
     {
-        public 0x66628DD8 uniqueID; // 0x10
-        public ÏÎÏÎÏÍÎÌÍÍÍÏÍÎÍÍÎÎÎÌ.ÍÏÎÍÍÏ nodeType; // 0x14
-        public UnityEngine.Vector3 tracked; // 0x18
-        public UnityEngine.Quaternion m_Rotation; // 0x24
-        public UnityEngine.Vector3 m_Velocity; // 0x34
-        public UnityEngine.Vector3 m_AngularVelocity; // 0x40
-        public UnityEngine.Vector3 m_Acceleration; // 0x4C
-        public UnityEngine.Vector3 m_AngularAcceleration; // 0x58
+        public oducts.Purchase uniqueID; // 0x10
+        public oducts.? nodeType; // 0x14
+        public amut tracked; // 0x18
+        public R_12x12 m_Rotation; // 0x24
+        public amut m_Velocity; // 0x34
+        public amut m_AngularVelocity; // 0x40
+        public amut m_Acceleration; // 0x4C
+        public amut m_AngularAcceleration; // 0x58
         public int m_Tracked; // 0x64
         public ulong m_UniqueID; // 0x68
 

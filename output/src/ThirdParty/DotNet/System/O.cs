@@ -34,7 +34,7 @@ namespace ThirdParty.DotNet.System
 
     public class OperationCanceledException : SystemException
     {
-        public System.Threading.CancellationToken CancellationToken; // 0x90
+        public sageKind.TICMAP_SIZE CancellationToken; // 0x90
 
         // ── Methods ──
         public void get_CancellationToken(){} // RVA: 0x7FFD4E70F640

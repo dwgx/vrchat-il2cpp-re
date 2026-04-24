@@ -7,8 +7,6 @@ namespace ThirdParty.DotNet.System.IO.Hashing
 {
     public class NonCryptographicHashAlgorithm : Object
     {
-        public int <HashLengthInBytes>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD543B09F0
         public void Append(){}
@@ -18,8 +16,6 @@ namespace ThirdParty.DotNet.System.IO.Hashing
 
     public class XxHash3 : NonCryptographicHashAlgorithm
     {
-        public State _state; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD543B0C70 | overloaded x2
         public void HashToUInt64(){} // RVA: 0x7FFD543B0E20

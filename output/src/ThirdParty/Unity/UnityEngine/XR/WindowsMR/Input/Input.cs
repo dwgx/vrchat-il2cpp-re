@@ -7,10 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
 {
     public class HololensHand : XRController
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control deviceVelocity; // 0x1B0
-        public UnityEngine.InputSystem.Controls.ButtonControl airTap; // 0x1B8
-        public UnityEngine.InputSystem.Controls.AxisControl sourceLossRisk; // 0x1C0
-        public UnityEngine.InputSystem.Controls.Vector3Control sourceLossMitigationDirection; // 0x1C8
+        public _1.utReport deviceVelocity; // 0x1B0
+        public _1.ceControlChangedValue airTap; // 0x1B8
+        public _1.Index sourceLossRisk; // 0x1C0
+        public _1.utReport sourceLossMitigationDirection; // 0x1C8
 
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x7FFD4E969F30
@@ -27,7 +27,7 @@ namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
 
     public class WMRHMD : XRHMD
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl userPresence; // 0x1E0
+        public _1.ceControlChangedValue userPresence; // 0x1E0
 
         // ── Methods ──
         public void get_userPresence(){} // RVA: 0x7FFD4E818150
@@ -38,23 +38,23 @@ namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
 
     public class WMRSpatialController : XRControllerWithRumble
     {
-        public UnityEngine.InputSystem.Controls.Vector2Control joystick; // 0x1B0
-        public UnityEngine.InputSystem.Controls.Vector2Control touchpad; // 0x1B8
-        public UnityEngine.InputSystem.Controls.AxisControl grip; // 0x1C0
-        public UnityEngine.InputSystem.Controls.ButtonControl gripPressed; // 0x1C8
-        public UnityEngine.InputSystem.Controls.ButtonControl menu; // 0x1D0
-        public UnityEngine.InputSystem.Controls.AxisControl trigger; // 0x1D8
-        public UnityEngine.InputSystem.Controls.ButtonControl triggerPressed; // 0x1E0
-        public UnityEngine.InputSystem.Controls.ButtonControl joystickClicked; // 0x1E8
-        public UnityEngine.InputSystem.Controls.ButtonControl touchpadClicked; // 0x1F0
-        public UnityEngine.InputSystem.Controls.ButtonControl touchpadTouched; // 0x1F8
-        public UnityEngine.InputSystem.Controls.Vector3Control deviceVelocity; // 0x200
-        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularVelocity; // 0x208
-        public UnityEngine.InputSystem.Controls.AxisControl batteryLevel; // 0x210
-        public UnityEngine.InputSystem.Controls.AxisControl sourceLossRisk; // 0x218
-        public UnityEngine.InputSystem.Controls.Vector3Control sourceLossMitigationDirection; // 0x220
-        public UnityEngine.InputSystem.Controls.Vector3Control pointerPosition; // 0x228
-        public UnityEngine.InputSystem.Controls.QuaternionControl pointerRotation; // 0x230
+        public _1.lSenseHIDUSBInputReport joystick; // 0x1B0
+        public _1.lSenseHIDUSBInputReport touchpad; // 0x1B8
+        public _1.Index grip; // 0x1C0
+        public _1.ceControlChangedValue gripPressed; // 0x1C8
+        public _1.ceControlChangedValue menu; // 0x1D0
+        public _1.Index trigger; // 0x1D8
+        public _1.ceControlChangedValue triggerPressed; // 0x1E0
+        public _1.ceControlChangedValue joystickClicked; // 0x1E8
+        public _1.ceControlChangedValue touchpadClicked; // 0x1F0
+        public _1.ceControlChangedValue touchpadTouched; // 0x1F8
+        public _1.utReport deviceVelocity; // 0x200
+        public _1.utReport deviceAngularVelocity; // 0x208
+        public _1.Index batteryLevel; // 0x210
+        public _1.Index sourceLossRisk; // 0x218
+        public _1.utReport sourceLossMitigationDirection; // 0x220
+        public _1.utReport pointerPosition; // 0x228
+        public _1.? pointerRotation; // 0x230
 
         // ── Methods ──
         public void get_joystick(){} // RVA: 0x7FFD4E969F30

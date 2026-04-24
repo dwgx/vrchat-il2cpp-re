@@ -27,8 +27,8 @@ namespace ThirdParty.Other.MiniNtp
 
     public class TimeConstants : Object
     {
-        public System.DateTime Epoch1900;
-        public System.DateTime Epoch2036; // 0x8
+        public DependencyInjector Epoch1900;
+        public DependencyInjector Epoch2036; // 0x8
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53C38430

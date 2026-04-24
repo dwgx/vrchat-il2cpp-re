@@ -123,15 +123,15 @@ public class _Skip : AsyncEnumeratorBase`2
 
 public class _SkipLast : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public ileFullDirectoryInformation<object> Current;
+    public eObjectDelegate.fo<T1717636912> source;
     public int count;
-    public System.Threading.CancellationToken cancellationToken;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
-    public System.Collections.Generic.Queue`1<T> queue;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public eObjectDelegate.o<T1717636912> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public URA.ge<T1717636912> queue;
     public bool continueNext;
-    public T <Current>k__BackingField;
+    public T1717636912 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -146,17 +146,17 @@ public class _SkipLast : MoveNextSource
 
 public class _SkipUntil : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> MoveNextCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-    public System.Threading.CancellationToken cancellationToken1;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> MoveNextCoreDelegate;
+    public eObjectDelegate.fo<T1717636960> source;
+    public sageKind.TICMAP_SIZE cancellationToken1;
     public bool completed;
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration1;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
+    public sageKind.sition cancellationTokenRegistration1;
+    public eObjectDelegate.o<T1717636960> enumerator;
+    public peInfoResolverChain<bool> awaiter;
     public bool continueNext;
-    public System.Exception exception;
-    public T <Current>k__BackingField;
+    public ÏÏÍÍÎÎ exception;
+    public T1717636960 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -173,19 +173,19 @@ public class _SkipUntil : MoveNextSource
 
 public class _SkipUntilCanceled : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> CancelDelegate2;
-    public System.Action`1<object> MoveNextCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-    public System.Threading.CancellationToken cancellationToken1;
-    public System.Threading.CancellationToken cancellationToken2;
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration1;
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration2;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> CancelDelegate2;
+    public ileFullDirectoryInformation<object> MoveNextCoreDelegate;
+    public eObjectDelegate.fo<T1717636992> source;
+    public sageKind.TICMAP_SIZE cancellationToken1;
+    public sageKind.TICMAP_SIZE cancellationToken2;
+    public sageKind.sition cancellationTokenRegistration1;
+    public sageKind.sition cancellationTokenRegistration2;
     public int isCanceled;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
+    public eObjectDelegate.o<T1717636992> enumerator;
+    public peInfoResolverChain<bool> awaiter;
     public bool continueNext;
-    public T <Current>k__BackingField;
+    public T1717636992 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -202,7 +202,7 @@ public class _SkipUntilCanceled : MoveNextSource
 
 public class _SkipWhile : AsyncEnumeratorBase`2
 {
-    public System.Func`2<T,bool> predicate;
+    public n<T1717637024,bool> predicate;
 
     // ── Methods ──
     public void .ctor(){}
@@ -211,7 +211,7 @@ public class _SkipWhile : AsyncEnumeratorBase`2
 
 public class _SkipWhileAwait : AsyncEnumeratorAwaitSelectorBase`3
 {
-    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+    public n<T1717637088,eObjectDelegate.kingField<bool>> predicate;
 
     // ── Methods ──
     public void .ctor(){}
@@ -221,7 +221,7 @@ public class _SkipWhileAwait : AsyncEnumeratorAwaitSelectorBase`3
 
 public class _SkipWhileAwaitWithCancellation : AsyncEnumeratorAwaitSelectorBase`3
 {
-    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+    public nalInformation<T1717637152,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<bool>> predicate;
 
     // ── Methods ──
     public void .ctor(){}
@@ -231,7 +231,7 @@ public class _SkipWhileAwaitWithCancellation : AsyncEnumeratorAwaitSelectorBase`
 
 public class _SkipWhileInt : AsyncEnumeratorBase`2
 {
-    public System.Func`3<T,int,bool> predicate;
+    public nalInformation<T1717637056,int,bool> predicate;
     public int index;
 
     // ── Methods ──
@@ -241,7 +241,7 @@ public class _SkipWhileInt : AsyncEnumeratorBase`2
 
 public class _SkipWhileIntAwait : AsyncEnumeratorAwaitSelectorBase`3
 {
-    public System.Func`3<T,int,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+    public nalInformation<T1717637120,int,eObjectDelegate.kingField<bool>> predicate;
     public int index;
 
     // ── Methods ──
@@ -252,7 +252,7 @@ public class _SkipWhileIntAwait : AsyncEnumeratorAwaitSelectorBase`3
 
 public class _SkipWhileIntAwaitWithCancellation : AsyncEnumeratorAwaitSelectorBase`3
 {
-    public System.Func`4<T,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+    public rmation<T1717637184,int,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<bool>> predicate;
     public int index;
 
     // ── Methods ──
@@ -317,14 +317,14 @@ public class _SuspendRendering : MulticastDelegate
 
 public class _Take : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public ileFullDirectoryInformation<object> Current;
+    public eObjectDelegate.fo<T1717638368> source;
     public int count;
-    public System.Threading.CancellationToken cancellationToken;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public eObjectDelegate.o<T1717638368> enumerator;
+    public peInfoResolverChain<bool> awaiter;
     public int index;
-    public T <Current>k__BackingField;
+    public T1717638368 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -339,16 +339,16 @@ public class _Take : MoveNextSource
 
 public class _TakeLast : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public ileFullDirectoryInformation<object> Current;
+    public eObjectDelegate.fo<T1717638400> source;
     public int count;
-    public System.Threading.CancellationToken cancellationToken;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
-    public System.Collections.Generic.Queue`1<T> queue;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public eObjectDelegate.o<T1717638400> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public URA.ge<T1717638400> queue;
     public bool iterateCompleted;
     public bool continueNext;
-    public T <Current>k__BackingField;
+    public T1717638400 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -372,16 +372,16 @@ public class _TakeStereoScreenshot : MulticastDelegate
 
 public class _TakeUntil : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> MoveNextCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-    public System.Threading.CancellationToken cancellationToken1;
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration1;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> MoveNextCoreDelegate;
+    public eObjectDelegate.fo<T1717638448> source;
+    public sageKind.TICMAP_SIZE cancellationToken1;
+    public sageKind.sition cancellationTokenRegistration1;
     public bool completed;
-    public System.Exception exception;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
-    public T <Current>k__BackingField;
+    public ÏÏÍÍÎÎ exception;
+    public eObjectDelegate.o<T1717638448> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public T1717638448 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -398,18 +398,18 @@ public class _TakeUntil : MoveNextSource
 
 public class _TakeUntilCanceled : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> CancelDelegate2;
-    public System.Action`1<object> MoveNextCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-    public System.Threading.CancellationToken cancellationToken1;
-    public System.Threading.CancellationToken cancellationToken2;
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration1;
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration2;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> CancelDelegate2;
+    public ileFullDirectoryInformation<object> MoveNextCoreDelegate;
+    public eObjectDelegate.fo<T1717638480> source;
+    public sageKind.TICMAP_SIZE cancellationToken1;
+    public sageKind.TICMAP_SIZE cancellationToken2;
+    public sageKind.sition cancellationTokenRegistration1;
+    public sageKind.sition cancellationTokenRegistration2;
     public bool isCanceled;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
-    public T <Current>k__BackingField;
+    public eObjectDelegate.o<T1717638480> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public T1717638480 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -426,7 +426,7 @@ public class _TakeUntilCanceled : MoveNextSource
 
 public class _TakeWhile : AsyncEnumeratorBase`2
 {
-    public System.Func`2<T,bool> predicate;
+    public n<T1717638512,bool> predicate;
 
     // ── Methods ──
     public void .ctor(){}
@@ -435,7 +435,7 @@ public class _TakeWhile : AsyncEnumeratorBase`2
 
 public class _TakeWhileAwait : AsyncEnumeratorAwaitSelectorBase`3
 {
-    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+    public n<T1717638576,eObjectDelegate.kingField<bool>> predicate;
 
     // ── Methods ──
     public void .ctor(){}
@@ -445,7 +445,7 @@ public class _TakeWhileAwait : AsyncEnumeratorAwaitSelectorBase`3
 
 public class _TakeWhileAwaitWithCancellation : AsyncEnumeratorAwaitSelectorBase`3
 {
-    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+    public nalInformation<T1717638640,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<bool>> predicate;
 
     // ── Methods ──
     public void .ctor(){}
@@ -455,7 +455,7 @@ public class _TakeWhileAwaitWithCancellation : AsyncEnumeratorAwaitSelectorBase`
 
 public class _TakeWhileInt : AsyncEnumeratorBase`2
 {
-    public System.Func`3<T,int,bool> predicate;
+    public nalInformation<T1717638544,int,bool> predicate;
     public int index;
 
     // ── Methods ──
@@ -465,7 +465,7 @@ public class _TakeWhileInt : AsyncEnumeratorBase`2
 
 public class _TakeWhileIntAwait : AsyncEnumeratorAwaitSelectorBase`3
 {
-    public System.Func`3<T,int,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+    public nalInformation<T1717638608,int,eObjectDelegate.kingField<bool>> predicate;
     public int index;
 
     // ── Methods ──
@@ -476,7 +476,7 @@ public class _TakeWhileIntAwait : AsyncEnumeratorAwaitSelectorBase`3
 
 public class _TakeWhileIntAwaitWithCancellation : AsyncEnumeratorAwaitSelectorBase`3
 {
-    public System.Func`4<T,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+    public rmation<T1717638672,int,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<bool>> predicate;
     public int index;
 
     // ── Methods ──
@@ -487,8 +487,8 @@ public class _TakeWhileIntAwaitWithCancellation : AsyncEnumeratorAwaitSelectorBa
 
 public class _Throw : Object
 {
-    public System.Exception Current;
-    public System.Threading.CancellationToken cancellationToken;
+    public ÏÏÍÍÎÎ Current;
+    public sageKind.TICMAP_SIZE cancellationToken;
 
     // ── Methods ──
     public void .ctor(){}
@@ -499,9 +499,9 @@ public class _Throw : Object
 
 public class _ToUniTaskAsyncEnumerable : Object
 {
-    public System.Collections.Generic.IEnumerable`1<T> Current;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Collections.Generic.IEnumerator`1<T> enumerator;
+    public URA.bbrevEraNames<T1717640112> Current;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public URA.saAbbrevEnglishEraNames<T1717640112> enumerator;
 
     // ── Methods ──
     public void .ctor(){}
@@ -512,16 +512,16 @@ public class _ToUniTaskAsyncEnumerable : Object
 
 public class _ToUniTaskAsyncEnumerableObservable : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.IObservable`1<T> source;
-    public System.Threading.CancellationToken cancellationToken;
+    public ileFullDirectoryInformation<object> Current;
+    public subkeyWritable<T1717640240> source;
+    public sageKind.TICMAP_SIZE cancellationToken;
     public bool useCachedCurrent;
-    public T current;
+    public T1717640240 current;
     public bool subscribeCompleted;
-    public System.Collections.Generic.Queue`1<T> queuedResult;
-    public System.Exception error;
-    public System.IDisposable subscription;
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration;
+    public URA.ge<T1717640240> queuedResult;
+    public ÏÏÍÍÎÎ error;
+    public Names subscription;
+    public sageKind.sition cancellationTokenRegistration;
 
     // ── Methods ──
     public void .ctor(){}
@@ -537,9 +537,9 @@ public class _ToUniTaskAsyncEnumerableObservable : MoveNextSource
 
 public class _ToUniTaskAsyncEnumerableTask : Object
 {
-    public System.Threading.Tasks.Task`1<T> Current;
-    public System.Threading.CancellationToken cancellationToken;
-    public T current;
+    public utes.?<T1717640160> Current;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public T1717640160 current;
     public bool called;
 
     // ── Methods ──
@@ -551,9 +551,9 @@ public class _ToUniTaskAsyncEnumerableTask : Object
 
 public class _ToUniTaskAsyncEnumerableUniTask : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<T> Current;
-    public System.Threading.CancellationToken cancellationToken;
-    public T current;
+    public eObjectDelegate.kingField<T1717640208> Current;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public T1717640208 current;
     public bool called;
 
     // ── Methods ──
@@ -655,14 +655,14 @@ public class _WaitGetPoses : MulticastDelegate
 
 public class _Where : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current;
-    public System.Func`2<T,bool> predicate;
-    public System.Threading.CancellationToken cancellationToken;
+    public eObjectDelegate.fo<T1717640464> Current;
+    public n<T1717640464,bool> predicate;
+    public sageKind.TICMAP_SIZE cancellationToken;
     public int state;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
-    public System.Action moveNextAction;
-    public T <Current>k__BackingField;
+    public eObjectDelegate.o<T1717640464> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public ÎÌÍÏÏÌÍÏ moveNextAction;
+    public T1717640464 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -675,16 +675,16 @@ public class _Where : MoveNextSource
 
 public class _WhereAwait : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current;
-    public System.Func`3<T,int,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
-    public System.Threading.CancellationToken cancellationToken;
+    public eObjectDelegate.fo<T1717640560> Current;
+    public nalInformation<T1717640560,int,eObjectDelegate.kingField<bool>> predicate;
+    public sageKind.TICMAP_SIZE cancellationToken;
     public int state;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
-    public Awaiter<bool> awaiter2;
-    public System.Action moveNextAction;
+    public eObjectDelegate.o<T1717640560> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public peInfoResolverChain<bool> awaiter2;
+    public ÎÌÍÏÏÌÍÏ moveNextAction;
     public int index;
-    public T <Current>k__BackingField;
+    public T1717640560 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -697,16 +697,16 @@ public class _WhereAwait : MoveNextSource
 
 public class _WhereAwaitWithCancellation : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current;
-    public System.Func`4<T,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
-    public System.Threading.CancellationToken cancellationToken;
+    public eObjectDelegate.fo<T1717640624> Current;
+    public rmation<T1717640624,int,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<bool>> predicate;
+    public sageKind.TICMAP_SIZE cancellationToken;
     public int state;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
-    public Awaiter<bool> awaiter2;
-    public System.Action moveNextAction;
+    public eObjectDelegate.o<T1717640624> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public peInfoResolverChain<bool> awaiter2;
+    public ÎÌÍÏÏÌÍÏ moveNextAction;
     public int index;
-    public T <Current>k__BackingField;
+    public T1717640624 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -746,17 +746,17 @@ public class _WritePropertyBatch : MulticastDelegate
 
 public class _Zip : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> secondMoveNextCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> first;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> second;
-    public System.Func`3<U,V,T> resultSelector;
-    public System.Threading.CancellationToken cancellationToken;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> firstEnumerator;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<V> secondEnumerator;
-    public Awaiter<bool> firstAwaiter;
-    public Awaiter<bool> secondAwaiter;
-    public T <Current>k__BackingField;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> secondMoveNextCoreDelegate;
+    public eObjectDelegate.fo<T1717640704> first;
+    public eObjectDelegate.fo<T1717640720> second;
+    public nalInformation<T1717640704,T1717640720,T1717640736> resultSelector;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public eObjectDelegate.o<T1717640704> firstEnumerator;
+    public eObjectDelegate.o<T1717640720> secondEnumerator;
+    public peInfoResolverChain<bool> firstAwaiter;
+    public peInfoResolverChain<bool> secondAwaiter;
+    public T1717640736 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -771,19 +771,19 @@ public class _Zip : MoveNextSource
 
 public class _ZipAwait : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> secondMoveNextCoreDelegate;
-    public System.Action`1<object> resultAwaitCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> first;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> second;
-    public System.Func`3<U,V,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Threading.CancellationToken cancellationToken;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> firstEnumerator;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<V> secondEnumerator;
-    public Awaiter<bool> firstAwaiter;
-    public Awaiter<bool> secondAwaiter;
-    public Awaiter<T> resultAwaiter;
-    public T <Current>k__BackingField;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> secondMoveNextCoreDelegate;
+    public ileFullDirectoryInformation<object> resultAwaitCoreDelegate;
+    public eObjectDelegate.fo<T1717640848> first;
+    public eObjectDelegate.fo<T1717640864> second;
+    public nalInformation<T1717640848,T1717640864,eObjectDelegate.kingField<T1717640880>> resultSelector;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public eObjectDelegate.o<T1717640848> firstEnumerator;
+    public eObjectDelegate.o<T1717640864> secondEnumerator;
+    public peInfoResolverChain<bool> firstAwaiter;
+    public peInfoResolverChain<bool> secondAwaiter;
+    public peInfoResolverChain<T1717640880> resultAwaiter;
+    public T1717640880 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -799,19 +799,19 @@ public class _ZipAwait : MoveNextSource
 
 public class _ZipAwaitWithCancellation : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> secondMoveNextCoreDelegate;
-    public System.Action`1<object> resultAwaitCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> first;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> second;
-    public System.Func`4<U,V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Threading.CancellationToken cancellationToken;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> firstEnumerator;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<V> secondEnumerator;
-    public Awaiter<bool> firstAwaiter;
-    public Awaiter<bool> secondAwaiter;
-    public Awaiter<T> resultAwaiter;
-    public T <Current>k__BackingField;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> secondMoveNextCoreDelegate;
+    public ileFullDirectoryInformation<object> resultAwaitCoreDelegate;
+    public eObjectDelegate.fo<T1717640992> first;
+    public eObjectDelegate.fo<T1717641008> second;
+    public rmation<T1717640992,T1717641008,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717641024>> resultSelector;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public eObjectDelegate.o<T1717640992> firstEnumerator;
+    public eObjectDelegate.o<T1717641008> secondEnumerator;
+    public peInfoResolverChain<bool> firstAwaiter;
+    public peInfoResolverChain<bool> secondAwaiter;
+    public peInfoResolverChain<T1717641024> resultAwaiter;
+    public T1717641024 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}

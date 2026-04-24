@@ -7,13 +7,13 @@ namespace ThirdParty.DotNet.Microsoft.Win32
 {
     public class Registry : Object
     {
-        public Microsoft.Win32.RegistryKey CurrentUser;
-        public Microsoft.Win32.RegistryKey LocalMachine; // 0x8
-        public Microsoft.Win32.RegistryKey ClassesRoot; // 0x10
-        public Microsoft.Win32.RegistryKey Users; // 0x18
-        public Microsoft.Win32.RegistryKey PerformanceData; // 0x20
-        public Microsoft.Win32.RegistryKey CurrentConfig; // 0x28
-        public Microsoft.Win32.RegistryKey DynData; // 0x30
+        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C CurrentUser;
+        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C LocalMachine; // 0x8
+        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C ClassesRoot; // 0x10
+        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C Users; // 0x18
+        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C PerformanceData; // 0x20
+        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C CurrentConfig; // 0x28
+        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C DynData; // 0x30
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD537D5A30
@@ -29,12 +29,12 @@ namespace ThirdParty.DotNet.Microsoft.Win32
         public UIntPtr HKEY_CURRENT_CONFIG; // 0x28
         public UIntPtr HKEY_DYN_DATA; // 0x30
         public string[] s_hkeyNames; // 0x38
-        public Microsoft.Win32.SafeHandles.SafeRegistryHandle _hkey; // 0x18
+        public 01B30335EAF483F59E5EDCB41DF7C4807E1B.B2E7212421547E53B _hkey; // 0x18
         public string _keyName; // 0x20
         public bool _remoteKey; // 0x28
-        public 0x6641CC68 _state; // 0x2C
-        public 0x6641CD18 _checkMode; // 0x30
-        public 0x6641CDC8 _regView; // 0x34
+        public B247ED2023 _state; // 0x2C
+        public 91DE96906C2FB70018166887D85BEB84B7957.5039C44C37F526BDCE2E00200BE _checkMode; // 0x30
+        public 91DE96906C2FB70018166887D85BEB84B7957.3318A5A76F5FC0E725883F81ED29DAD7E32947BA8779AA3DE37F _regView; // 0x34
 
         // ── Methods ──
         public void ClosePerfDataKey(){} // RVA: 0x7FFD537D5E00

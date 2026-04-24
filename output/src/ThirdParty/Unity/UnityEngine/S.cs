@@ -22,15 +22,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ScrollViewState : Object
     {
-        public UnityEngine.Rect position; // 0x10
-        public UnityEngine.Rect visibleRect; // 0x20
-        public UnityEngine.Rect viewRect; // 0x30
-        public UnityEngine.Vector2 scrollPosition; // 0x40
+        public dRecorder position; // 0x10
+        public dRecorder visibleRect; // 0x20
+        public dRecorder viewRect; // 0x30
+        public tionX scrollPosition; // 0x40
         public bool apply; // 0x48
         public bool isDuringTouchScroll; // 0x49
-        public UnityEngine.Vector2 touchScrollStartMousePosition; // 0x4C
-        public UnityEngine.Vector2 touchScrollStartPosition; // 0x54
-        public UnityEngine.Vector2 velocity; // 0x5C
+        public tionX touchScrollStartMousePosition; // 0x4C
+        public tionX touchScrollStartPosition; // 0x54
+        public tionX velocity; // 0x5C
         public float previousTimeSinceStartup; // 0x64
 
         // ── Methods ──
@@ -46,12 +46,12 @@ namespace ThirdParty.Unity.UnityEngine
     public class SendMouseEvents : Object
     {
         public bool s_MouseUsed;
-        public HitInfo[] m_LastHit; // 0x8
-        public HitInfo[] m_MouseDownHit; // 0x10
-        public HitInfo[] m_CurrentHit; // 0x18
-        public UnityEngine.Camera[] m_Cameras; // 0x20
-        public System.Func`1<System.Collections.Generic.KeyValuePair`2<int,UnityEngine.Vector2>> s_GetMouseState; // 0x28
-        public UnityEngine.Vector2 s_MousePosition; // 0x30
+        public ioning[] m_LastHit; // 0x8
+        public ioning[] m_MouseDownHit; // 0x10
+        public ioning[] m_CurrentHit; // 0x18
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ[] m_Cameras; // 0x20
+        public ormation<URA.mes<int,tionX>> s_GetMouseState; // 0x28
+        public tionX s_MousePosition; // 0x30
         public bool s_MouseButtonPressedThisFrame; // 0x38
         public bool s_MouseButtonIsPressed; // 0x39
 
@@ -130,9 +130,9 @@ namespace ThirdParty.Unity.UnityEngine
     {
         public string name; // 0x10
         public string parentName; // 0x18
-        public UnityEngine.Vector3 position; // 0x20
-        public UnityEngine.Quaternion rotation; // 0x2C
-        public UnityEngine.Vector3 scale; // 0x3C
+        public amut position; // 0x20
+        public R_12x12 rotation; // 0x2C
+        public amut scale; // 0x3C
     }
 
     public class SkinnedMeshRenderer : Renderer
@@ -372,7 +372,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SpriteRenderer : Renderer
     {
-        public UnityEngine.Events.UnityEvent`1<UnityEngine.SpriteRenderer> shouldSupportTiling; // 0x18
+        public rScript.mData>b__2_1<ar> shouldSupportTiling; // 0x18
 
         // ── Methods ──
         public void RegisterSpriteChangeCallback(){} // RVA: 0x7FFD54CF7460
@@ -439,13 +439,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SubsystemManager : Object
     {
-        public System.Action beforeReloadSubsystems;
-        public System.Action afterReloadSubsystems; // 0x8
-        public System.Collections.Generic.List`1<UnityEngine.IntegratedSubsystem> s_IntegratedSubsystems; // 0x10
-        public System.Collections.Generic.List`1<0x6663BC58> s_StandaloneSubsystems; // 0x18
-        public System.Collections.Generic.List`1<0x6663B9F0> s_DeprecatedSubsystems; // 0x20
-        public System.Action reloadSubsytemsStarted; // 0x28
-        public System.Action reloadSubsytemsCompleted; // 0x30
+        public ÎÌÍÏÏÌÍÏ beforeReloadSubsystems;
+        public ÎÌÍÏÏÌÍÏ afterReloadSubsystems; // 0x8
+        public URA.woDigitYearMax<ernalTime> s_IntegratedSubsystems; // 0x10
+        public URA.woDigitYearMax<ount.areCompleted> s_StandaloneSubsystems; // 0x18
+        public URA.woDigitYearMax<Exceeded> s_DeprecatedSubsystems; // 0x20
+        public ÎÌÍÏÏÌÍÏ reloadSubsytemsStarted; // 0x28
+        public ÎÌÍÏÏÌÍÏ reloadSubsytemsCompleted; // 0x30
 
         // ── Methods ──
         public void ReloadSubsystemsStarted(){} // RVA: 0x7FFD54E11860

@@ -7,9 +7,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
 {
     public class AICharacterControl : MonoBehaviour
     {
-        public UnityEngine.AI.NavMeshAgent agent; // 0x20
-        public UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter character; // 0x28
-        public UnityEngine.Transform target; // 0x30
+        public delay.? agent; // 0x20
+        public 3PropertyTag.ctionPropertyTag character; // 0x28
+        public object target; // 0x30
 
         // ── Methods ──
         public void get_agent(){} // RVA: 0x7FFD4E36F0C0
@@ -32,17 +32,17 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
         public float m_MoveSpeedMultiplier; // 0x34
         public float m_AnimSpeedMultiplier; // 0x38
         public float m_GroundCheckDistance; // 0x3C
-        public UnityEngine.Rigidbody m_Rigidbody; // 0x40
-        public UnityEngine.Animator m_Animator; // 0x48
+        public Touched m_Rigidbody; // 0x40
+        public stfix m_Animator; // 0x48
         public bool m_IsGrounded; // 0x50
         public float m_OrigGroundCheckDistance; // 0x54
         public float k_Half;
         public float m_TurnAmount; // 0x58
         public float m_ForwardAmount; // 0x5C
-        public UnityEngine.Vector3 m_GroundNormal; // 0x60
+        public amut m_GroundNormal; // 0x60
         public float m_CapsuleHeight; // 0x6C
-        public UnityEngine.Vector3 m_CapsuleCenter; // 0x70
-        public UnityEngine.CapsuleCollider m_Capsule; // 0x80
+        public amut m_CapsuleCenter; // 0x70
+        public ovrp_Media_DestroyCustomCameraAnchor m_Capsule; // 0x80
         public bool m_Crouching; // 0x88
 
         // ── Methods ──
@@ -61,10 +61,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
 
     public class ThirdPersonUserControl : MonoBehaviour
     {
-        public UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter m_Character; // 0x20
-        public UnityEngine.Transform m_Cam; // 0x28
-        public UnityEngine.Vector3 m_CamForward; // 0x30
-        public UnityEngine.Vector3 m_Move; // 0x3C
+        public 3PropertyTag.ctionPropertyTag m_Character; // 0x20
+        public object m_Cam; // 0x28
+        public amut m_CamForward; // 0x30
+        public amut m_Move; // 0x3C
         public bool m_Jump; // 0x48
 
         // ── Methods ──

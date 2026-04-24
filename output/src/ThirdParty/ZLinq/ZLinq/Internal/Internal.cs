@@ -7,9 +7,9 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 {
     public class DefaultInterpolatedStringHandler : ValueType
     {
-        public System.IFormatProvider _provider; // 0x10
+        public nalGetValue _provider; // 0x10
         public char[] _arrayToReturnToPool; // 0x18
-        public System.Span`1<char> _chars; // 0x20
+        public HaveRegistry<char> _chars; // 0x20
         public int _pos; // 0x30
 
         // ── Methods ──
@@ -26,8 +26,8 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 
     public class DictionarySlim`2 : Object
     {
-        public System.Collections.Generic.IEqualityComparer`1<U> comparer;
-        public 0x665C6E58<U,T>[] entries;
+        public URA.hEraNames<T1717720080> comparer;
+        public ?<T1717720080,T1717720096>[] entries;
         public int[] buckets;
         public int bucketsLength;
         public int entryIndex;
@@ -56,12 +56,12 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 
     public class HashSetSlim`1 : Object
     {
-        public System.Collections.Generic.IEqualityComparer`1<Transmtn.DTO.Notifications.Notification> comparer; // 0x10
-        public 0x665C6FB8<Transmtn.DTO.Notifications.Notification>[] entries; // 0x18
-        public int[] buckets; // 0x20
-        public int bucketsLength; // 0x28
-        public int entryIndex; // 0x2C
-        public int resizeThreshold; // 0x30
+        public URA.hEraNames<T1717720304> comparer;
+        public ?<T1717720304>[] entries;
+        public int[] buckets;
+        public int bucketsLength;
+        public int entryIndex;
+        public int resizeThreshold;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x2
@@ -75,22 +75,22 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 
     public class InlineArray16`1 : ValueType
     {
-        public System.Collections.Generic.KeyValuePair`2<string,int> item0; // 0x10
-        public System.Collections.Generic.KeyValuePair`2<string,int> item1; // 0x20
-        public System.Collections.Generic.KeyValuePair`2<string,int> item2; // 0x30
-        public System.Collections.Generic.KeyValuePair`2<string,int> item3; // 0x40
-        public System.Collections.Generic.KeyValuePair`2<string,int> item4; // 0x50
-        public System.Collections.Generic.KeyValuePair`2<string,int> item5; // 0x60
-        public System.Collections.Generic.KeyValuePair`2<string,int> item6; // 0x70
-        public System.Collections.Generic.KeyValuePair`2<string,int> item7; // 0x80
-        public System.Collections.Generic.KeyValuePair`2<string,int> item8; // 0x90
-        public System.Collections.Generic.KeyValuePair`2<string,int> item9; // 0xA0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item10; // 0xB0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item11; // 0xC0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item12; // 0xD0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item13; // 0xE0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item14; // 0xF0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item15; // 0x100
+        public T1717720432 item0;
+        public T1717720432 item1;
+        public T1717720432 item2;
+        public T1717720432 item3;
+        public T1717720432 item4;
+        public T1717720432 item5;
+        public T1717720432 item6;
+        public T1717720432 item7;
+        public T1717720432 item8;
+        public T1717720432 item9;
+        public T1717720432 item10;
+        public T1717720432 item11;
+        public T1717720432 item12;
+        public T1717720432 item13;
+        public T1717720432 item14;
+        public T1717720432 item15;
 
         // ── Methods ──
         public void AsSpan(){} // RVA: 0x7FFD4E2ADC40
@@ -98,33 +98,33 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 
     public class InlineArray27`1 : ValueType
     {
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] Item; // 0x10
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item1; // 0x18
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item2; // 0x20
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item3; // 0x28
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item4; // 0x30
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item5; // 0x38
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item6; // 0x40
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item7; // 0x48
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item8; // 0x50
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item9; // 0x58
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item10; // 0x60
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item11; // 0x68
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item12; // 0x70
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item13; // 0x78
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item14; // 0x80
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item15; // 0x88
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item16; // 0x90
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item17; // 0x98
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item18; // 0xA0
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item19; // 0xA8
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item20; // 0xB0
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item21; // 0xB8
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item22; // 0xC0
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item23; // 0xC8
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item24; // 0xD0
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item25; // 0xD8
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item26; // 0xE0
+        public T1717720448 Item;
+        public T1717720448 item1;
+        public T1717720448 item2;
+        public T1717720448 item3;
+        public T1717720448 item4;
+        public T1717720448 item5;
+        public T1717720448 item6;
+        public T1717720448 item7;
+        public T1717720448 item8;
+        public T1717720448 item9;
+        public T1717720448 item10;
+        public T1717720448 item11;
+        public T1717720448 item12;
+        public T1717720448 item13;
+        public T1717720448 item14;
+        public T1717720448 item15;
+        public T1717720448 item16;
+        public T1717720448 item17;
+        public T1717720448 item18;
+        public T1717720448 item19;
+        public T1717720448 item20;
+        public T1717720448 item21;
+        public T1717720448 item22;
+        public T1717720448 item23;
+        public T1717720448 item24;
+        public T1717720448 item25;
+        public T1717720448 item26;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD4E087DE0
@@ -140,7 +140,7 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 
     public class RandomShared : Object
     {
-        public System.Threading.ThreadLocal`1<System.Random> Shared;
+        public sageKind._id<?> Shared;
 
         // ── Methods ──
         public void Shuffle(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -149,8 +149,8 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 
     public class RefBox`1 : Object
     {
-        public ZLinq.Internal.ValueQueue`1<int> value; // 0x10
-        public bool isDisposed; // 0x28
+        public T1717720384 value;
+        public bool isDisposed;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -160,9 +160,9 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 
     public class RentedArrayBox`1 : Object
     {
-        public Transmtn.DTO.Notifications.Notification[] Length; // 0x10
-        public int Span; // 0x18
-        public ZLinq.Internal.RentedArrayBox`1<Transmtn.DTO.Notifications.Notification> Empty;
+        public T1717720400[] Length;
+        public int Span;
+        public ics.ManagedTypes.leConstraintBase<T1717720400> Empty;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970
@@ -175,12 +175,12 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 
     public class SegmentedArrayProvider`1 : ValueType
     {
-        public System.Span`1<System.Collections.Generic.KeyValuePair`2<string,int>> Count; // 0x10
-        public int countInCurrentSegment; // 0x20
-        public System.Span`1<System.Collections.Generic.KeyValuePair`2<string,int>> initialBuffer; // 0x28
-        public ZLinq.Internal.InlineArray27`1<System.Collections.Generic.KeyValuePair`2<string,int>[]> segments; // 0x38
-        public int segmentsCount; // 0x110
-        public int countInFinishedSegments; // 0x114
+        public HaveRegistry<T1717720416> Count;
+        public int countInCurrentSegment;
+        public HaveRegistry<T1717720416> initialBuffer;
+        public ics.ManagedTypes.A8AA6C8FF033EEE4803350ED422AA23E2B48009BA39CC9988B38F<T1717720416[]> segments;
+        public int segmentsCount;
+        public int countInFinishedSegments;
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -211,10 +211,10 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 
     public class ValueQueue`1 : ValueType
     {
-        public int[] Count; // 0x10
-        public int head; // 0x18
-        public int tail; // 0x1C
-        public int size; // 0x20
+        public T1717720608[] Count;
+        public int head;
+        public int tail;
+        public int size;
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD4E079960

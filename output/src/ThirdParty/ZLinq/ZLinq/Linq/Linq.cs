@@ -7,7 +7,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class <OrderBy>F20F22F0783C758479CC59FC23C7FEAF81F289B10B31CBE866E87C24F818E06F4__DescendingDefaultComparer`1 : Object
     {
-        public System.Collections.Generic.IComparer`1<Transmtn.DTO.Notifications.Notification> Default;
+        public URA.ndar_data<T1717717888> Default;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -27,7 +27,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class <OrderBy>F20F22F0783C758479CC59FC23C7FEAF81F289B10B31CBE866E87C24F818E06F4__UnsafeFunctions`2 : Object
     {
-        public System.Func`2<Transmtn.DTO.Notifications.Notification,long> Identity;
+        public n<T1717717856,T1717717872> Identity;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -35,13 +35,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class AggregateBy2`4 : ValueType
     {
-        public System.Func`2<V,W> <keySelector>P;
-        public System.Func`2<W,U> <seedSelector>P;
-        public System.Func`3<U,V,U> <func>P;
-        public System.Collections.Generic.IEqualityComparer`1<W> <keyComparer>P;
-        public U source;
-        public ZLinq.Internal.DictionarySlim`2<W,U> dictionary;
-        public Enumerator<W,U> enumerator;
+        public n<T1717716256,T1717716272> <keySelector>P;
+        public n<T1717716272,T1717716288> <seedSelector>P;
+        public nalInformation<T1717716288,T1717716256,T1717716288> <func>P;
+        public URA.hEraNames<T1717716272> <keyComparer>P;
+        public T1717716240 source;
+        public ics.ManagedTypes.intBase<T1717716272,T1717716288> dictionary;
+        public eDeviceInformation<T1717716272,T1717716288> enumerator;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -55,13 +55,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class AggregateBy`4 : ValueType
     {
-        public System.Func`2<V,W> <keySelector>P;
-        public U <seed>P;
-        public System.Func`3<U,V,U> <func>P;
-        public System.Collections.Generic.IEqualityComparer`1<W> <keyComparer>P;
-        public U source;
-        public ZLinq.Internal.DictionarySlim`2<W,U> dictionary;
-        public Enumerator<W,U> enumerator;
+        public n<T1717716192,T1717716208> <keySelector>P;
+        public T1717716224 <seed>P;
+        public nalInformation<T1717716224,T1717716192,T1717716224> <func>P;
+        public URA.hEraNames<T1717716208> <keyComparer>P;
+        public T1717716176 source;
+        public ics.ManagedTypes.intBase<T1717716208,T1717716224> dictionary;
+        public eDeviceInformation<T1717716208,T1717716224> enumerator;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -75,9 +75,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Append`2 : ValueType
     {
-        public int <element>P; // 0x10
-        public ZLinq.Linq.FromEnumerable`1<int> source; // 0x18
-        public byte state; // 0x30
+        public T1717716320 <element>P;
+        public T1717716304 source;
+        public byte state;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -90,7 +90,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayIterator`1 : CollectionIterator`1
     {
-        public ZLinq.Linq.ArrayIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.RootDefinition<ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ> Instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -103,9 +103,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArraySelect`2 : ValueType
     {
-        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ[] source; // 0x10
-        public System.Func`2<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ,int> selector; // 0x18
-        public int index; // 0x20
+        public T1717718240[] source;
+        public n<T1717718240,T1717718256> selector;
+        public int index;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -118,10 +118,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhereSelect`2 : ValueType
     {
-        public System.Func`2<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ,bool> Predicate; // 0x10
-        public System.Func`2<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ,int> Selector; // 0x18
-        public int index; // 0x20
-        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ[] source; // 0x28
+        public n<T1717719680,bool> Predicate;
+        public n<T1717719680,T1717719696> Selector;
+        public int index;
+        public T1717719680[] source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -137,9 +137,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhere`1 : ValueType
     {
-        public System.Func`2<ÎÎÌÏÏÏÎÌÏÌÌÏÍÍÏÌÌÍÏÎÍÏÍ,bool> Predicate; // 0x10
-        public ÎÎÌÏÏÏÎÌÏÌÌÏÍÍÏÌÌÍÏÎÍÏÍ[] source; // 0x18
-        public int index; // 0x20
+        public n<T1717719664,bool> Predicate;
+        public T1717719664[] source;
+        public int index;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -155,7 +155,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Cast`3 : ValueType
     {
-        public ZLinq.Linq.FromEnumerable`1<object> source; // 0x10
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.RequiredHideFlags<object> source; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -169,7 +169,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
     public class Chunk`2 : ValueType
     {
         public int <size>P;
-        public U source;
+        public T1717716544 source;
         public int index;
         public bool isInitialized;
         public bool isCompleted;
@@ -196,8 +196,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Concat`3 : ValueType
     {
-        public V first;
-        public V second;
+        public T1717716576 first;
+        public T1717716592 second;
         public bool firstCompleted;
 
         // ── Methods ──
@@ -211,11 +211,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class CountBy`3 : ValueType
     {
-        public System.Func`2<V,U> <keySelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<U> <keyComparer>P;
-        public U source;
-        public ZLinq.Internal.DictionarySlim`2<U,int> dictionary;
-        public Enumerator<U,int> enumerator;
+        public n<T1717716640,T1717716656> <keySelector>P;
+        public URA.hEraNames<T1717716656> <keyComparer>P;
+        public T1717716624 source;
+        public ics.ManagedTypes.intBase<T1717716656,int> dictionary;
+        public eDeviceInformation<T1717716656,int> enumerator;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -229,8 +229,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class DefaultIfEmpty`2 : ValueType
     {
-        public U <defaultValue>P;
-        public U source;
+        public T1717716688 <defaultValue>P;
+        public T1717716672 source;
         public bool iterateDefault;
 
         // ── Methods ──
@@ -244,10 +244,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class DistinctBy`3 : ValueType
     {
-        public System.Func`2<ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ,string> <keySelector>P; // 0x10
-        public System.Collections.Generic.IEqualityComparer`1<string> <comparer>P; // 0x18
-        public ZLinq.Linq.Reverse`2<ZLinq.Linq.ListWhere`1<ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ>,ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ> source; // 0x20
-        public ZLinq.Internal.HashSetSlim`1<string> set; // 0x48
+        public n<T1717716752,T1717716768> <keySelector>P;
+        public URA.hEraNames<T1717716768> <comparer>P;
+        public T1717716736 source;
+        public ics.ManagedTypes.?<T1717716768> set;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -260,9 +260,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Distinct`2 : ValueType
     {
-        public System.Collections.Generic.IEqualityComparer`1<U> <comparer>P;
-        public U source;
-        public ZLinq.Internal.HashSetSlim`1<U> set;
+        public URA.hEraNames<T1717716720> <comparer>P;
+        public T1717716704 source;
+        public ics.ManagedTypes.?<T1717716720> set;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -275,7 +275,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class EnumerableIterator`1 : CollectionIterator`1
     {
-        public ZLinq.Linq.EnumerableIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.eFixedTime<ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ> Instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -287,11 +287,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ExceptBy`4 : ValueType
     {
-        public System.Func`2<W,U> <keySelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<U> <comparer>P;
-        public V source;
-        public ZLinq.ValueEnumerable`2<V,U> second;
-        public ZLinq.Internal.HashSetSlim`1<U> set;
+        public n<T1717716864,T1717716880> <keySelector>P;
+        public URA.hEraNames<T1717716880> <comparer>P;
+        public T1717716832 source;
+        public _MARGIN..PhysBoneManager.Chainchain)>.Current<T1717716848,T1717716880> second;
+        public ics.ManagedTypes.?<T1717716880> set;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -304,10 +304,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Except`3 : ValueType
     {
-        public System.Collections.Generic.IEqualityComparer`1<Transmtn.DTO.Notifications.Notification> <comparer>P; // 0x10
-        public ZLinq.Linq.FromList`1<Transmtn.DTO.Notifications.Notification> source; // 0x18
-        public ZLinq.ValueEnumerable`2<ZLinq.Linq.ListWhere`1<Transmtn.DTO.Notifications.Notification>,Transmtn.DTO.Notifications.Notification> second; // 0x28
-        public ZLinq.Internal.HashSetSlim`1<Transmtn.DTO.Notifications.Notification> set; // 0x40
+        public URA.hEraNames<T1717716816> <comparer>P;
+        public T1717716784 source;
+        public _MARGIN..PhysBoneManager.Chainchain)>.Current<T1717716800,T1717716816> second;
+        public ics.ManagedTypes.?<T1717716816> set;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -320,8 +320,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromArray`1 : ValueType
     {
-        public int[] <source>P; // 0x10
-        public int index; // 0x18
+        public T1717716448[] <source>P;
+        public int index;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -346,8 +346,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
-        public ZLinq.Linq.CollectionIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> iterator; // 0x10
-        public ZLinq.Linq.FromEnumerableContent content; // 0x18
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.ng<ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ> iterator; // 0x10
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.Timing content; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -361,8 +361,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
-        public System.Collections.Generic.List`1<ÌÌÏÌÏÏÍÏÍÌÎÎÌÌÏÌÌÍÍÌÍÏÌ> <source>P; // 0x10
-        public int index; // 0x18
+        public URA.woDigitYearMax<T1717716480> <source>P;
+        public int index;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -376,7 +376,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromMemory`1 : ValueType
     {
-        public System.ReadOnlyMemory`1<Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`3<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ,ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ,int>>> <source>P; // 0x10
+        public oRegistry<eObjectDelegate.kingField<E<?,ÌÌÌÏÎÌÌÏÎÍÌÌÍÏÌÍÎÎÌÏÍ,int>>> <source>P; // 0x10
         public int index; // 0x20
 
         // ── Methods ──
@@ -407,13 +407,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupBy2`4 : ValueType
     {
-        public System.Func`2<V,W> <keySelector>P;
-        public System.Func`2<V,U> <elementSelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<W> <comparer>P;
-        public U source;
+        public n<T1717716960,T1717716976> <keySelector>P;
+        public n<T1717716960,T1717716992> <elementSelector>P;
+        public URA.hEraNames<T1717716976> <comparer>P;
+        public T1717716944 source;
         public bool init;
-        public ZLinq.Linq.Grouping`2<W,U> rootGrouping;
-        public ZLinq.Linq.Grouping`2<W,U> currentGrouping;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717716976,T1717716992> rootGrouping;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717716976,T1717716992> currentGrouping;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -427,13 +427,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupBy3`4 : ValueType
     {
-        public System.Func`2<V,W> <keySelector>P;
-        public System.Func`3<W,System.Collections.Generic.IEnumerable`1<V>,U> <resultSelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<W> <comparer>P;
-        public U source;
+        public n<T1717717024,T1717717040> <keySelector>P;
+        public nalInformation<T1717717040,URA.bbrevEraNames<T1717717024>,T1717717056> <resultSelector>P;
+        public URA.hEraNames<T1717717040> <comparer>P;
+        public T1717717008 source;
         public bool init;
-        public ZLinq.Linq.Grouping`2<W,V> rootGrouping;
-        public ZLinq.Linq.Grouping`2<W,V> currentGrouping;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717717040,T1717717024> rootGrouping;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717717040,T1717717024> currentGrouping;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -447,14 +447,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupBy4`5 : ValueType
     {
-        public System.Func`2<V,W> <keySelector>P;
-        public System.Func`2<V,T4> <elementSelector>P;
-        public System.Func`3<W,System.Collections.Generic.IEnumerable`1<T4>,T> <resultSelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<W> <comparer>P;
-        public U source;
+        public n<T1717717088,T1717717104> <keySelector>P;
+        public n<T1717717088,T1717717120> <elementSelector>P;
+        public nalInformation<T1717717104,URA.bbrevEraNames<T1717717120>,T1717717136> <resultSelector>P;
+        public URA.hEraNames<T1717717104> <comparer>P;
+        public T1717717072 source;
         public bool init;
-        public ZLinq.Linq.Grouping`2<W,T4> rootGrouping;
-        public ZLinq.Linq.Grouping`2<W,T4> currentGrouping;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717717104,T1717717120> rootGrouping;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717717104,T1717717120> currentGrouping;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -468,12 +468,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupBy`3 : ValueType
     {
-        public System.Func`2<V,U> <keySelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<U> <comparer>P;
-        public U source;
+        public n<T1717716912,T1717716928> <keySelector>P;
+        public URA.hEraNames<T1717716928> <comparer>P;
+        public T1717716896 source;
         public bool init;
-        public ZLinq.Linq.Grouping`2<U,V> rootGrouping;
-        public ZLinq.Linq.Grouping`2<U,V> currentGrouping;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717716928,T1717716912> rootGrouping;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717716928,T1717716912> currentGrouping;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -487,13 +487,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class GroupJoin`6 : ValueType
     {
-        public System.Func`2<W,T5> <outerKeySelector>P;
-        public System.Func`2<T4,T5> <innerKeySelector>P;
-        public System.Func`3<W,System.Collections.Generic.IEnumerable`1<T4>,U> <resultSelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<T5> <comparer>P;
-        public V source;
-        public V inner;
-        public ZLinq.Linq.Lookup`2<T5,T4> innerLookup;
+        public n<T1717717184,T1717717216> <outerKeySelector>P;
+        public n<T1717717200,T1717717216> <innerKeySelector>P;
+        public nalInformation<T1717717184,URA.bbrevEraNames<T1717717200>,T1717717232> <resultSelector>P;
+        public URA.hEraNames<T1717717216> <comparer>P;
+        public T1717717152 source;
+        public T1717717168 inner;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.m<T1717717216,T1717717200> innerLookup;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -506,12 +506,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Grouping`2 : Object
     {
-        public U Key;
+        public T1717719312 Key;
         public uint HashCode;
-        public T[] Count;
+        public T1717719328[] Count;
         public int IsReadOnly;
-        public ZLinq.Linq.Grouping`2<U,T> Item;
-        public ZLinq.Linq.Grouping`2<U,T> NextGroupInSameHashCode;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717719312,T1717719328> Item;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717719312,T1717719328> NextGroupInSameHashCode;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -536,7 +536,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class IListIterator`1 : CollectionIterator`1
     {
-        public ZLinq.Linq.IListIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.et_AutoEvaluateFixedTime<ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ> Instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -553,7 +553,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class IReadOnlyListIterator`1 : CollectionIterator`1
     {
-        public ZLinq.Linq.IReadOnlyListIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.ixedTime<ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ> Instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -564,9 +564,6 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Index`2 : ValueType
     {
-        public ZLinq.Linq.FromEnumerable`1<ÎÎÏÌÍÌÌÍÍÌÏÎÍÍÏÍÌÎÌÍÎÍÏ> source; // 0x10
-        public int index; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x7FFD4E079F60
@@ -578,11 +575,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class IntersectBy`4 : ValueType
     {
-        public System.Func`2<W,T> <keySelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<T> <comparer>P;
-        public V source;
-        public ZLinq.ValueEnumerable`2<V,T> second;
-        public ZLinq.Internal.HashSetSlim`1<T> set;
+        public n<T1717717360,T1717717376> <keySelector>P;
+        public URA.hEraNames<T1717717376> <comparer>P;
+        public T1717717328 source;
+        public _MARGIN..PhysBoneManager.Chainchain)>.Current<T1717717344,T1717717376> second;
+        public ics.ManagedTypes.?<T1717717376> set;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -595,10 +592,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Intersect`3 : ValueType
     {
-        public System.Collections.Generic.IEqualityComparer`1<T> <comparer>P;
-        public V source;
-        public ZLinq.ValueEnumerable`2<V,T> second;
-        public ZLinq.Internal.HashSetSlim`1<T> set;
+        public URA.hEraNames<T1717717312> <comparer>P;
+        public T1717717280 source;
+        public _MARGIN..PhysBoneManager.Chainchain)>.Current<T1717717296,T1717717312> second;
+        public ics.ManagedTypes.?<T1717717312> set;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -611,16 +608,16 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Join`6 : ValueType
     {
-        public System.Func`2<W,T5> <outerKeySelector>P;
-        public System.Func`2<T4,T5> <innerKeySelector>P;
-        public System.Func`3<W,T4,T> <resultSelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<T5> <comparer>P;
-        public V source;
-        public V inner;
-        public ZLinq.Linq.Lookup`2<T5,T4> innerLookup;
-        public ZLinq.Linq.Grouping`2<T5,T4> currentGroup;
+        public n<T1717717424,T1717717456> <outerKeySelector>P;
+        public n<T1717717440,T1717717456> <innerKeySelector>P;
+        public nalInformation<T1717717424,T1717717440,T1717717472> <resultSelector>P;
+        public URA.hEraNames<T1717717456> <comparer>P;
+        public T1717717392 source;
+        public T1717717408 inner;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.m<T1717717456,T1717717440> innerLookup;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717717456,T1717717440> currentGroup;
         public int currentGroupIndex;
-        public W currentOuter;
+        public T1717717424 currentOuter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -633,16 +630,16 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class LeftJoin`6 : ValueType
     {
-        public System.Func`2<W,T5> <outerKeySelector>P;
-        public System.Func`2<T4,T5> <innerKeySelector>P;
-        public System.Func`3<W,T4,U> <resultSelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<T5> <comparer>P;
-        public V source;
-        public V inner;
-        public ZLinq.Linq.Lookup`2<T5,T4> innerLookup;
-        public ZLinq.Linq.Grouping`2<T5,T4> currentGroup;
+        public n<T1717717520,T1717717552> <outerKeySelector>P;
+        public n<T1717717536,T1717717552> <innerKeySelector>P;
+        public nalInformation<T1717717520,T1717717536,T1717717568> <resultSelector>P;
+        public URA.hEraNames<T1717717552> <comparer>P;
+        public T1717717488 source;
+        public T1717717504 inner;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.m<T1717717552,T1717717536> innerLookup;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717717552,T1717717536> currentGroup;
         public int currentGroupIndex;
-        public W currentOuter;
+        public T1717717520 currentOuter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -655,7 +652,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
-        public ZLinq.Linq.ListIterator`1<System.Collections.Generic.KeyValuePair`2<string,int>> Instance;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current._NameAsString<ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ> Instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -668,9 +665,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListSelect`2 : ValueType
     {
-        public System.Collections.Generic.List`1<Transmtn.DTO.Notifications.Notification> source; // 0x10
-        public System.Func`2<Transmtn.DTO.Notifications.Notification,ÍÎÎÍÏÌÎÏÏÌÌÏÌÌÏÎÏÌÌÌÌÍÏ> selector; // 0x18
-        public int index; // 0x20
+        public URA.woDigitYearMax<T1717718272> source;
+        public n<T1717718272,T1717718288> selector;
+        public int index;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -683,10 +680,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhereSelect`2 : ValueType
     {
-        public System.Func`2<U,bool> <predicate>P;
-        public System.Func`2<U,T> <selector>P;
+        public n<T1717719744,bool> <predicate>P;
+        public n<T1717719744,T1717719760> <selector>P;
         public int index;
-        public System.Collections.Generic.List`1<U> source;
+        public URA.woDigitYearMax<T1717719744> source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -699,8 +696,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
-        public System.Func`2<Transmtn.DTO.Notifications.Notification,bool> Predicate; // 0x10
-        public System.Collections.Generic.List`1<Transmtn.DTO.Notifications.Notification> source; // 0x18
+        public n<ÎÌÌÎÍÎÏÏÏÏÍÍÏ,bool> Predicate; // 0x10
+        public URA.woDigitYearMax<ÎÌÌÎÍÎÏÏÏÏÍÍÏ> source; // 0x18
         public int index; // 0x20
 
         // ── Methods ──
@@ -723,10 +720,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class LookupBuilder`2 : ValueType
     {
-        public System.Collections.Generic.IEqualityComparer`1<U> comparer;
-        public ZLinq.Linq.Grouping`2<U,T>[] buckets;
+        public URA.hEraNames<T1717719184> comparer;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717719184,T1717719200>[] buckets;
         public int bucketsLength;
-        public ZLinq.Linq.Grouping`2<U,T> last;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717719184,T1717719200> last;
         public int groupCount;
 
         // ── Methods ──
@@ -741,11 +738,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Lookup`2 : Object
     {
-        public ZLinq.Linq.Lookup`2<U,T> Item;
-        public ZLinq.Linq.Grouping`2<U,T>[] Count;
-        public ZLinq.Linq.Grouping`2<U,T> System.Collections.Generic.ICollection<System.Linq.IGrouping<TKey,TElement>>.IsReadOnly;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.m<T1717719248,T1717719264> Item;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717719248,T1717719264>[] Count;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717719248,T1717719264> System.Collections.Generic.ICollection<System.Linq.IGrouping<TKey,TElement>>.IsReadOnly;
         public int count;
-        public System.Collections.Generic.IEqualityComparer`1<U> comparer;
+        public URA.hEraNames<T1717719248> comparer;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980 | overloaded x2
@@ -767,7 +764,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OfType`3 : ValueType
     {
-        public U source;
+        public T1717717584 source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -780,10 +777,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparable`2 : Object
     {
-        public System.Func`2<Transmtn.DTO.Notifications.Notification,long> <keySelector>P; // 0x10
-        public ZLinq.Linq.IOrderByComparable`1<Transmtn.DTO.Notifications.Notification> <parent>P; // 0x18
-        public bool <descending>P; // 0x20
-        public System.Collections.Generic.IComparer`1<long> comparer; // 0x28
+        public n<T1717717760,T1717717776> <keySelector>P;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.wed<T1717717760> <parent>P;
+        public bool <descending>P;
+        public URA.ndar_data<T1717717776> comparer;
 
         // ── Methods ──
         public void .ctor(){}
@@ -792,10 +789,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparer`2 : Object
     {
-        public long[] keys; // 0x10
-        public System.Collections.Generic.IComparer`1<long> comparer; // 0x18
-        public 0x665C5B70 childComparer; // 0x20
-        public bool descending; // 0x28
+        public T1717717808[] keys;
+        public URA.ndar_data<T1717717808> comparer;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.d childComparer;
+        public bool descending;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -805,12 +802,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderBySkipTake`3 : ValueType
     {
-        public U source;
-        public ZLinq.Linq.OrderByComparable`2<V,T> comparable;
+        public T1717717696 source;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current._Angle<T1717717712,T1717717728> comparable;
         public int minIndexInclusive;
         public int maxIndexInclusive;
-        public ZLinq.Internal.RentedArrayBox`1<V> buffer;
-        public ZLinq.Internal.RentedArrayBox`1<int> indexMap;
+        public ics.ManagedTypes.leConstraintBase<T1717717712> buffer;
+        public ics.ManagedTypes.leConstraintBase<int> indexMap;
         public int maxIndex;
         public int index;
 
@@ -827,14 +824,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderBy`3 : ValueType
     {
-        public System.Func`2<Transmtn.DTO.Notifications.Notification,long> <keySelector>P; // 0x10
-        public System.Collections.Generic.IComparer`1<long> <comparer>P; // 0x18
-        public ZLinq.Linq.IOrderByComparable`1<Transmtn.DTO.Notifications.Notification> <parent>P; // 0x20
-        public bool <descending>P; // 0x28
-        public ZLinq.Linq.FromList`1<Transmtn.DTO.Notifications.Notification> source; // 0x30
-        public ZLinq.Linq.OrderByComparable`2<Transmtn.DTO.Notifications.Notification,long> comparable; // 0x40
-        public ZLinq.Internal.RentedArrayBox`1<Transmtn.DTO.Notifications.Notification> buffer; // 0x48
-        public int index; // 0x50
+        public n<T1717717664,T1717717680> <keySelector>P;
+        public URA.ndar_data<T1717717680> <comparer>P;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.wed<T1717717664> <parent>P;
+        public bool <descending>P;
+        public T1717717648 source;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current._Angle<T1717717664,T1717717680> comparable;
+        public ics.ManagedTypes.leConstraintBase<T1717717664> buffer;
+        public int index;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -851,8 +848,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Prepend`2 : ValueType
     {
-        public U <element>P;
-        public U source;
+        public T1717717936 <element>P;
+        public T1717717920 source;
         public byte state;
 
         // ── Methods ──
@@ -870,7 +867,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
         public int start;
         public int to;
         public int value;
-        public System.Func`2<int,U> selector;
+        public n<int,T1717718176> selector;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -883,9 +880,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Reverse`2 : ValueType
     {
-        public ZLinq.Linq.ListWhere`1<ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ> source; // 0x10
-        public ZLinq.Internal.RentedArrayBox`1<ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ> buffer; // 0x28
-        public int index; // 0x30
+        public T1717717952 source;
+        public ics.ManagedTypes.leConstraintBase<T1717717968> buffer;
+        public int index;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -899,16 +896,16 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class RightJoin`6 : ValueType
     {
-        public System.Func`2<W,T5> <outerKeySelector>P;
-        public System.Func`2<T4,T5> <innerKeySelector>P;
-        public System.Func`3<W,T4,U> <resultSelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<T5> <comparer>P;
-        public V source;
-        public V inner;
-        public ZLinq.Linq.Lookup`2<T5,W> outerLookup;
-        public ZLinq.Linq.Grouping`2<T5,W> currentGroup;
+        public n<T1717718016,T1717718048> <outerKeySelector>P;
+        public n<T1717718032,T1717718048> <innerKeySelector>P;
+        public nalInformation<T1717718016,T1717718032,T1717718064> <resultSelector>P;
+        public URA.hEraNames<T1717718048> <comparer>P;
+        public T1717717984 source;
+        public T1717718000 inner;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.m<T1717718048,T1717718016> outerLookup;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.6G16B16_SInt<T1717718048,T1717718016> currentGroup;
         public int currentGroupIndex;
-        public T4 currentInner;
+        public T1717718032 currentInner;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -921,8 +918,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Select2`3 : ValueType
     {
-        public System.Func`3<V,int,T> <selector>P;
-        public U source;
+        public nalInformation<T1717718144,int,T1717718160> <selector>P;
+        public T1717718128 source;
         public int index;
 
         // ── Methods ──
@@ -936,9 +933,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany2`3 : ValueType
     {
-        public System.Func`3<V,int,System.Collections.Generic.IEnumerable`1<U>> <selector>P;
-        public U source;
-        public ZLinq.Linq.FromEnumerable`1<U> innerEnumerator;
+        public nalInformation<T1717718656,int,URA.bbrevEraNames<T1717718672>> <selector>P;
+        public T1717718640 source;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.RequiredHideFlags<T1717718672> innerEnumerator;
         public bool hasInner;
         public int index;
 
@@ -953,9 +950,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany2`4 : ValueType
     {
-        public System.Func`3<W,int,ZLinq.ValueEnumerable`2<V,T>> <selector>P;
-        public V source;
-        public V innerEnumerator;
+        public nalInformation<T1717718384,int,_MARGIN..PhysBoneManager.Chainchain)>.Current<T1717718368,T1717718400>> <selector>P;
+        public T1717718352 source;
+        public T1717718368 innerEnumerator;
         public bool hasInner;
         public int index;
 
@@ -970,11 +967,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany3`4 : ValueType
     {
-        public System.Func`2<V,System.Collections.Generic.IEnumerable`1<W>> <collectionSelector>P;
-        public System.Func`3<V,W,U> <resultSelector>P;
-        public U source;
-        public ZLinq.Linq.FromEnumerable`1<W> innerEnumerator;
-        public V currentSource;
+        public n<T1717718704,URA.bbrevEraNames<T1717718720>> <collectionSelector>P;
+        public nalInformation<T1717718704,T1717718720,T1717718736> <resultSelector>P;
+        public T1717718688 source;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.RequiredHideFlags<T1717718720> innerEnumerator;
+        public T1717718704 currentSource;
         public bool hasInner;
 
         // ── Methods ──
@@ -988,11 +985,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany3`5 : ValueType
     {
-        public System.Func`2<W,ZLinq.ValueEnumerable`2<V,T4>> <collectionSelector>P;
-        public System.Func`3<W,T4,T> <resultSelector>P;
-        public V source;
-        public V innerEnumerator;
-        public W currentSource;
+        public n<T1717718448,_MARGIN..PhysBoneManager.Chainchain)>.Current<T1717718432,T1717718464>> <collectionSelector>P;
+        public nalInformation<T1717718448,T1717718464,T1717718480> <resultSelector>P;
+        public T1717718416 source;
+        public T1717718432 innerEnumerator;
+        public T1717718448 currentSource;
         public bool hasInner;
 
         // ── Methods ──
@@ -1006,11 +1003,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany4`4 : ValueType
     {
-        public System.Func`3<V,int,System.Collections.Generic.IEnumerable`1<W>> <collectionSelector>P;
-        public System.Func`3<V,W,U> <resultSelector>P;
-        public U source;
-        public ZLinq.Linq.FromEnumerable`1<W> innerEnumerator;
-        public V currentSource;
+        public nalInformation<T1717718768,int,URA.bbrevEraNames<T1717718784>> <collectionSelector>P;
+        public nalInformation<T1717718768,T1717718784,T1717718800> <resultSelector>P;
+        public T1717718752 source;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.RequiredHideFlags<T1717718784> innerEnumerator;
+        public T1717718768 currentSource;
         public int index;
         public bool hasInner;
 
@@ -1025,11 +1022,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany4`5 : ValueType
     {
-        public System.Func`3<W,int,ZLinq.ValueEnumerable`2<V,T4>> <collectionSelector>P;
-        public System.Func`3<W,T4,T> <resultSelector>P;
-        public V source;
-        public V innerEnumerator;
-        public W currentSource;
+        public nalInformation<T1717718528,int,_MARGIN..PhysBoneManager.Chainchain)>.Current<T1717718512,T1717718544>> <collectionSelector>P;
+        public nalInformation<T1717718528,T1717718544,T1717718560> <resultSelector>P;
+        public T1717718496 source;
+        public T1717718512 innerEnumerator;
+        public T1717718528 currentSource;
         public int index;
         public bool hasInner;
 
@@ -1044,10 +1041,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany`3 : ValueType
     {
-        public System.Func`2<System.Collections.Generic.SortedSet`1<Transmtn.DTO.Notifications.Notification>,System.Collections.Generic.IEnumerable`1<Transmtn.DTO.Notifications.Notification>> <selector>P; // 0x10
-        public ZLinq.Linq.FromEnumerable`1<System.Collections.Generic.SortedSet`1<Transmtn.DTO.Notifications.Notification>> source; // 0x18
-        public ZLinq.Linq.FromEnumerable`1<Transmtn.DTO.Notifications.Notification> innerEnumerator; // 0x30
-        public bool hasInner; // 0x48
+        public n<T1717718320,URA.bbrevEraNames<T1717718336>> <selector>P;
+        public T1717718304 source;
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.RequiredHideFlags<T1717718336> innerEnumerator;
+        public bool hasInner;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1060,9 +1057,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany`4 : ValueType
     {
-        public System.Func`2<W,ZLinq.ValueEnumerable`2<V,U>> <selector>P;
-        public V source;
-        public V innerEnumerator;
+        public n<T1717718608,_MARGIN..PhysBoneManager.Chainchain)>.Current<T1717718592,T1717718624>> <selector>P;
+        public T1717718576 source;
+        public T1717718592 innerEnumerator;
         public bool hasInner;
 
         // ── Methods ──
@@ -1076,9 +1073,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectWhere`3 : ValueType
     {
-        public System.Func`2<LoadingInfoData,float> <selector>P; // 0x10
-        public System.Func`2<float,bool> <predicate>P; // 0x18
-        public ZLinq.Linq.FromList`1<LoadingInfoData> source; // 0x20
+        public n<T1717718208,T1717718224> <selector>P;
+        public n<T1717718224,bool> <predicate>P;
+        public T1717718192 source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1091,8 +1088,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Select`3 : ValueType
     {
-        public ZLinq.Linq.FromList`1<LoadingInfoData> source; // 0x10
-        public System.Func`2<LoadingInfoData,float> selector; // 0x20
+        public T1717718080 source;
+        public n<T1717718096,T1717718112> selector;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1106,8 +1103,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Shuffle`2 : ValueType
     {
-        public U source;
-        public ZLinq.Internal.RentedArrayBox`1<U> buffer;
+        public T1717718816 source;
+        public ics.ManagedTypes.leConstraintBase<T1717718832> buffer;
         public int index;
 
         // ── Methods ──
@@ -1122,9 +1119,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipLast`2 : ValueType
     {
-        public U source;
+        public T1717718880 source;
         public int skipCount;
-        public ZLinq.Internal.RefBox`1<ZLinq.Internal.ValueQueue`1<U>> buffer;
+        public ics.ManagedTypes.ConstraintBase<ics.ManagedTypes.BurstDirectCallInitializer<T1717718896>> buffer;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1137,8 +1134,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipWhile2`2 : ValueType
     {
-        public System.Func`3<U,int,bool> <predicate>P;
-        public U source;
+        public nalInformation<T1717718960,int,bool> <predicate>P;
+        public T1717718944 source;
         public bool skippingDone;
         public int index;
 
@@ -1153,8 +1150,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipWhile`2 : ValueType
     {
-        public System.Func`2<U,bool> <predicate>P;
-        public U source;
+        public n<T1717718928,bool> <predicate>P;
+        public T1717718912 source;
         public bool skippingDone;
 
         // ── Methods ──
@@ -1168,7 +1165,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Skip`2 : ValueType
     {
-        public ZLinq.Linq.ListWhere`1<ÌÌÍÏÏÎÎÏÎÍÍÌÍÌÍÏÌÎÏÏÍÏÏ> source; // 0x10
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.GlobalCollider<ÎÌÌÎÍÎÏÏÏÏÍÍÏ> source; // 0x10
         public int skipCount; // 0x28
         public int skipped; // 0x2C
 
@@ -1183,9 +1180,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeLast`2 : ValueType
     {
-        public U source;
+        public T1717719040 source;
         public int takeCount;
-        public ZLinq.Internal.RefBox`1<ZLinq.Internal.ValueQueue`1<U>> q;
+        public ics.ManagedTypes.ConstraintBase<ics.ManagedTypes.BurstDirectCallInitializer<T1717719056>> q;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1198,13 +1195,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeRange`2 : ValueType
     {
-        public U source;
-        public System.Range range;
+        public T1717719008 source;
+        public HeadAnimatorForExport range;
         public int index;
         public int remains;
         public int skipIndex;
         public int fromEndQueueCount;
-        public ZLinq.Internal.RefBox`1<ZLinq.Internal.ValueQueue`1<U>> q;
+        public ics.ManagedTypes.ConstraintBase<ics.ManagedTypes.BurstDirectCallInitializer<T1717719024>> q;
         public bool isInitialized;
 
         // ── Methods ──
@@ -1219,8 +1216,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeWhile2`2 : ValueType
     {
-        public System.Func`3<U,int,bool> <predicate>P;
-        public U source;
+        public nalInformation<T1717719120,int,bool> <predicate>P;
+        public T1717719104 source;
         public int index;
 
         // ── Methods ──
@@ -1234,8 +1231,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeWhile`2 : ValueType
     {
-        public System.Func`2<U,bool> <predicate>P;
-        public U source;
+        public n<T1717719088,bool> <predicate>P;
+        public T1717719072 source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1248,7 +1245,7 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Take`2 : ValueType
     {
-        public U source;
+        public T1717718976 source;
         public int takeCount;
         public int index;
 
@@ -1263,11 +1260,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class UnionBy`4 : ValueType
     {
-        public System.Func`2<W,T> <keySelector>P;
-        public System.Collections.Generic.IEqualityComparer`1<T> <comparer>P;
-        public V source;
-        public V second;
-        public ZLinq.Internal.HashSetSlim`1<T> set;
+        public n<T1717719488,T1717719504> <keySelector>P;
+        public URA.hEraNames<T1717719504> <comparer>P;
+        public T1717719456 source;
+        public T1717719472 second;
+        public ics.ManagedTypes.?<T1717719504> set;
         public byte state;
 
         // ── Methods ──
@@ -1281,10 +1278,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Union`3 : ValueType
     {
-        public System.Collections.Generic.IEqualityComparer`1<T> <comparer>P;
-        public V source;
-        public V second;
-        public ZLinq.Internal.HashSetSlim`1<T> set;
+        public URA.hEraNames<T1717719440> <comparer>P;
+        public T1717719408 source;
+        public T1717719424 second;
+        public ics.ManagedTypes.?<T1717719440> set;
         public byte state;
 
         // ── Methods ──
@@ -1298,8 +1295,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Where2`2 : ValueType
     {
-        public System.Func`3<U,int,bool> <predicate>P;
-        public U source;
+        public nalInformation<T1717719584,int,bool> <predicate>P;
+        public T1717719568 source;
         public int index;
 
         // ── Methods ──
@@ -1313,9 +1310,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class WhereSelect`3 : ValueType
     {
-        public System.Func`2<ÍÍÎÎÍÍÍÍÏÍÍÏÎÏÍÏÏÏÏÏÏÏÎ,bool> Predicate; // 0x10
-        public System.Func`2<ÍÍÎÎÍÍÍÍÏÍÍÏÎÏÍÏÏÏÏÏÏÏÎ,string> Selector; // 0x18
-        public ZLinq.Linq.FromEnumerable`1<ÍÍÎÎÍÍÍÍÏÍÍÏÎÏÍÏÏÏÏÏÏÏÎ> source; // 0x20
+        public object Predicate;
+        public object Selector;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1331,8 +1327,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Where`2 : ValueType
     {
-        public System.Func`2<Transmtn.DTO.Notifications.Notification,bool> Predicate; // 0x10
-        public ZLinq.Linq.SelectMany`3<ZLinq.Linq.FromEnumerable`1<System.Collections.Generic.SortedSet`1<Transmtn.DTO.Notifications.Notification>>,System.Collections.Generic.SortedSet`1<Transmtn.DTO.Notifications.Notification>,Transmtn.DTO.Notifications.Notification> source; // 0x18
+        public n<T1717719552,bool> Predicate;
+        public T1717719536 source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1348,8 +1344,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Zip`4 : ValueType
     {
-        public V source;
-        public V second;
+        public T1717719776 source;
+        public T1717719792 second;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1362,9 +1358,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Zip`5 : ValueType
     {
-        public System.Func`3<W,T4,T> <resultSelector>P;
-        public V source;
-        public V second;
+        public nalInformation<T1717719968,T1717719984,T1717720000> <resultSelector>P;
+        public T1717719936 source;
+        public T1717719952 second;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1377,9 +1373,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Zip`6 : ValueType
     {
-        public T source;
-        public W second;
-        public W third;
+        public T1717719840 source;
+        public T1717719856 second;
+        public T1717719872 third;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

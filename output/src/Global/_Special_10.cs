@@ -446,14 +446,14 @@ public class _GetWorkingStandingZeroPoseToRawTrackingPose : MulticastDelegate
 
 public class _GroupBy : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
-    public System.Func`2<U,V> keySelector;
-    public System.Func`2<U,W> elementSelector;
-    public System.Func`3<V,System.Collections.Generic.IEnumerable`1<W>,T> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<V> comparer;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<V,W>> groupEnumerator;
-    public T <Current>k__BackingField;
+    public eObjectDelegate.fo<T1717630480> Current;
+    public n<T1717630480,T1717630496> keySelector;
+    public n<T1717630480,T1717630512> elementSelector;
+    public nalInformation<T1717630496,URA.bbrevEraNames<T1717630512>,T1717630528> resultSelector;
+    public URA.hEraNames<T1717630496> comparer;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public URA.saAbbrevEnglishEraNames<Trigger.calledAwake<T1717630496,T1717630512>> groupEnumerator;
+    public T1717630528 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -467,16 +467,16 @@ public class _GroupBy : MoveNextSource
 
 public class _GroupByAwait : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<V>> keySelector;
-    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<W>> elementSelector;
-    public System.Func`3<V,System.Collections.Generic.IEnumerable`1<W>,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<V> comparer;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<V,W>> groupEnumerator;
-    public Awaiter<T> awaiter;
-    public T <Current>k__BackingField;
+    public ileFullDirectoryInformation<object> Current;
+    public eObjectDelegate.fo<T1717630816> source;
+    public n<T1717630816,eObjectDelegate.kingField<T1717630832>> keySelector;
+    public n<T1717630816,eObjectDelegate.kingField<T1717630848>> elementSelector;
+    public nalInformation<T1717630832,URA.bbrevEraNames<T1717630848>,eObjectDelegate.kingField<T1717630864>> resultSelector;
+    public URA.hEraNames<T1717630832> comparer;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public URA.saAbbrevEnglishEraNames<Trigger.calledAwake<T1717630832,T1717630848>> groupEnumerator;
+    public peInfoResolverChain<T1717630864> awaiter;
+    public T1717630864 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -490,16 +490,16 @@ public class _GroupByAwait : MoveNextSource
 
 public class _GroupByAwaitWithCancellation : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<V>> keySelector;
-    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> elementSelector;
-    public System.Func`4<V,System.Collections.Generic.IEnumerable`1<W>,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<V> comparer;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<V,W>> groupEnumerator;
-    public Awaiter<T> awaiter;
-    public T <Current>k__BackingField;
+    public ileFullDirectoryInformation<object> Current;
+    public eObjectDelegate.fo<T1717631152> source;
+    public nalInformation<T1717631152,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717631168>> keySelector;
+    public nalInformation<T1717631152,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717631184>> elementSelector;
+    public rmation<T1717631168,URA.bbrevEraNames<T1717631184>,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717631200>> resultSelector;
+    public URA.hEraNames<T1717631168> comparer;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public URA.saAbbrevEnglishEraNames<Trigger.calledAwake<T1717631168,T1717631184>> groupEnumerator;
+    public peInfoResolverChain<T1717631200> awaiter;
+    public T1717631200 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -513,18 +513,18 @@ public class _GroupByAwaitWithCancellation : MoveNextSource
 
 public class _GroupJoin : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`2<U,W> outerKeySelector;
-    public System.Func`2<V,W> innerKeySelector;
-    public System.Func`3<U,System.Collections.Generic.IEnumerable`1<V>,T> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public T <Current>k__BackingField;
+    public ileFullDirectoryInformation<object> Current;
+    public eObjectDelegate.fo<T1717631344> outer;
+    public eObjectDelegate.fo<T1717631360> inner;
+    public n<T1717631344,T1717631376> outerKeySelector;
+    public n<T1717631360,T1717631376> innerKeySelector;
+    public nalInformation<T1717631344,URA.bbrevEraNames<T1717631360>,T1717631392> resultSelector;
+    public URA.hEraNames<T1717631376> comparer;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public Trigger.calledDestroy<T1717631376,T1717631360> lookup;
+    public eObjectDelegate.o<T1717631344> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public T1717631392 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -540,23 +540,23 @@ public class _GroupJoin : MoveNextSource
 
 public class _GroupJoinAwait : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> ResultSelectCoreDelegate;
-    public System.Action`1<object> OuterKeySelectCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
-    public System.Func`2<V,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
-    public System.Func`3<U,System.Collections.Generic.IEnumerable`1<V>,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public U outerValue;
-    public Awaiter<bool> awaiter;
-    public Awaiter<W> outerKeyAwaiter;
-    public Awaiter<T> resultAwaiter;
-    public T <Current>k__BackingField;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> ResultSelectCoreDelegate;
+    public ileFullDirectoryInformation<object> OuterKeySelectCoreDelegate;
+    public eObjectDelegate.fo<T1717631536> outer;
+    public eObjectDelegate.fo<T1717631552> inner;
+    public n<T1717631536,eObjectDelegate.kingField<T1717631568>> outerKeySelector;
+    public n<T1717631552,eObjectDelegate.kingField<T1717631568>> innerKeySelector;
+    public nalInformation<T1717631536,URA.bbrevEraNames<T1717631552>,eObjectDelegate.kingField<T1717631584>> resultSelector;
+    public URA.hEraNames<T1717631568> comparer;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public Trigger.calledDestroy<T1717631568,T1717631552> lookup;
+    public eObjectDelegate.o<T1717631536> enumerator;
+    public T1717631536 outerValue;
+    public peInfoResolverChain<bool> awaiter;
+    public peInfoResolverChain<T1717631568> outerKeyAwaiter;
+    public peInfoResolverChain<T1717631584> resultAwaiter;
+    public T1717631584 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -574,23 +574,23 @@ public class _GroupJoinAwait : MoveNextSource
 
 public class _GroupJoinAwaitWithCancellation : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> ResultSelectCoreDelegate;
-    public System.Action`1<object> OuterKeySelectCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
-    public System.Func`3<V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
-    public System.Func`4<U,System.Collections.Generic.IEnumerable`1<V>,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public U outerValue;
-    public Awaiter<bool> awaiter;
-    public Awaiter<W> outerKeyAwaiter;
-    public Awaiter<T> resultAwaiter;
-    public T <Current>k__BackingField;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> ResultSelectCoreDelegate;
+    public ileFullDirectoryInformation<object> OuterKeySelectCoreDelegate;
+    public eObjectDelegate.fo<T1717631728> outer;
+    public eObjectDelegate.fo<T1717631744> inner;
+    public nalInformation<T1717631728,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717631760>> outerKeySelector;
+    public nalInformation<T1717631744,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717631760>> innerKeySelector;
+    public rmation<T1717631728,URA.bbrevEraNames<T1717631744>,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717631776>> resultSelector;
+    public URA.hEraNames<T1717631760> comparer;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public Trigger.calledDestroy<T1717631760,T1717631744> lookup;
+    public eObjectDelegate.o<T1717631728> enumerator;
+    public T1717631728 outerValue;
+    public peInfoResolverChain<bool> awaiter;
+    public peInfoResolverChain<T1717631760> outerKeyAwaiter;
+    public peInfoResolverChain<T1717631776> resultAwaiter;
+    public T1717631776 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -698,11 +698,11 @@ public class _ImportFromBufferToWorking : MulticastDelegate
 
 public class _Intersect : AsyncEnumeratorBase`2
 {
-    public System.Action`1<object> HashSetAsyncCoreDelegate;
-    public System.Collections.Generic.IEqualityComparer`1<T> comparer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> second;
-    public System.Collections.Generic.HashSet`1<T> set;
-    public Awaiter<System.Collections.Generic.HashSet`1<T>> awaiter;
+    public ileFullDirectoryInformation<object> HashSetAsyncCoreDelegate;
+    public URA.hEraNames<T1717631856> comparer;
+    public eObjectDelegate.fo<T1717631856> second;
+    public URA.onsDepth<T1717631856> set;
+    public peInfoResolverChain<URA.onsDepth<T1717631856>> awaiter;
 
     // ── Methods ──
     public void .ctor(){}
@@ -867,21 +867,21 @@ public class _IsViewingPermitted : MulticastDelegate
 
 public class _Join : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`2<U,W> outerKeySelector;
-    public System.Func`2<V,W> innerKeySelector;
-    public System.Func`3<U,V,T> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public U currentOuterValue;
-    public System.Collections.Generic.IEnumerator`1<V> valueEnumerator;
+    public ileFullDirectoryInformation<object> Current;
+    public eObjectDelegate.fo<T1717631952> outer;
+    public eObjectDelegate.fo<T1717631968> inner;
+    public n<T1717631952,T1717631984> outerKeySelector;
+    public n<T1717631968,T1717631984> innerKeySelector;
+    public nalInformation<T1717631952,T1717631968,T1717632000> resultSelector;
+    public URA.hEraNames<T1717631984> comparer;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public Trigger.calledDestroy<T1717631984,T1717631968> lookup;
+    public eObjectDelegate.o<T1717631952> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public T1717631952 currentOuterValue;
+    public URA.saAbbrevEnglishEraNames<T1717631968> valueEnumerator;
     public bool continueNext;
-    public T <Current>k__BackingField;
+    public T1717632000 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -897,25 +897,25 @@ public class _Join : MoveNextSource
 
 public class _JoinAwait : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> OuterSelectCoreDelegate;
-    public System.Action`1<object> ResultSelectCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
-    public System.Func`2<V,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
-    public System.Func`3<U,V,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public U currentOuterValue;
-    public System.Collections.Generic.IEnumerator`1<V> valueEnumerator;
-    public Awaiter<T> resultAwaiter;
-    public Awaiter<W> outerKeyAwaiter;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> OuterSelectCoreDelegate;
+    public ileFullDirectoryInformation<object> ResultSelectCoreDelegate;
+    public eObjectDelegate.fo<T1717632144> outer;
+    public eObjectDelegate.fo<T1717632160> inner;
+    public n<T1717632144,eObjectDelegate.kingField<T1717632176>> outerKeySelector;
+    public n<T1717632160,eObjectDelegate.kingField<T1717632176>> innerKeySelector;
+    public nalInformation<T1717632144,T1717632160,eObjectDelegate.kingField<T1717632192>> resultSelector;
+    public URA.hEraNames<T1717632176> comparer;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public Trigger.calledDestroy<T1717632176,T1717632160> lookup;
+    public eObjectDelegate.o<T1717632144> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public T1717632144 currentOuterValue;
+    public URA.saAbbrevEnglishEraNames<T1717632160> valueEnumerator;
+    public peInfoResolverChain<T1717632192> resultAwaiter;
+    public peInfoResolverChain<T1717632176> outerKeyAwaiter;
     public bool continueNext;
-    public T <Current>k__BackingField;
+    public T1717632192 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -933,25 +933,25 @@ public class _JoinAwait : MoveNextSource
 
 public class _JoinAwaitWithCancellation : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> OuterSelectCoreDelegate;
-    public System.Action`1<object> ResultSelectCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
-    public System.Func`3<V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
-    public System.Func`4<U,V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public U currentOuterValue;
-    public System.Collections.Generic.IEnumerator`1<V> valueEnumerator;
-    public Awaiter<T> resultAwaiter;
-    public Awaiter<W> outerKeyAwaiter;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> OuterSelectCoreDelegate;
+    public ileFullDirectoryInformation<object> ResultSelectCoreDelegate;
+    public eObjectDelegate.fo<T1717632336> outer;
+    public eObjectDelegate.fo<T1717632352> inner;
+    public nalInformation<T1717632336,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717632368>> outerKeySelector;
+    public nalInformation<T1717632352,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717632368>> innerKeySelector;
+    public rmation<T1717632336,T1717632352,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717632384>> resultSelector;
+    public URA.hEraNames<T1717632368> comparer;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public Trigger.calledDestroy<T1717632368,T1717632352> lookup;
+    public eObjectDelegate.o<T1717632336> enumerator;
+    public peInfoResolverChain<bool> awaiter;
+    public T1717632336 currentOuterValue;
+    public URA.saAbbrevEnglishEraNames<T1717632352> valueEnumerator;
+    public peInfoResolverChain<T1717632384> resultAwaiter;
+    public peInfoResolverChain<T1717632368> outerKeyAwaiter;
     public bool continueNext;
-    public T <Current>k__BackingField;
+    public T1717632384 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -1068,14 +1068,14 @@ public class _LockGLSharedTextureForAccess : MulticastDelegate
 
 public class _Merge : MoveNextSource
 {
-    public System.Action`1<object> Current;
+    public ileFullDirectoryInformation<object> Current;
     public int length;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T>[] enumerators;
-    public 0x664EFB00<T>[] states;
-    public System.Collections.Generic.Queue`1<System.ValueTuple`3<T,System.Exception,bool>> queuedResult;
-    public System.Threading.CancellationToken cancellationToken;
+    public eObjectDelegate.o<T1717633936>[] enumerators;
+    public eed<T1717633936>[] states;
+    public URA.ge<E<T1717633936,ÏÏÍÍÎÎ,bool>> queuedResult;
+    public sageKind.TICMAP_SIZE cancellationToken;
     public int moveNextCompleted;
-    public T <Current>k__BackingField;
+    public T1717633936 <Current>k__BackingField;
 
     // ── Methods ──
     public void get_Current(){} // RVA: 0x7FFD4E2ADC40
@@ -1091,7 +1091,7 @@ public class _Merge : MoveNextSource
 
 public class _Never : Object
 {
-    public System.Threading.CancellationToken Current;
+    public sageKind.TICMAP_SIZE Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090BF0

@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System
 {
     public class WeakReference`1 : Object
     {
-        public System.Runtime.InteropServices.GCHandle handle; // 0x10
+        public annelDataStore.essage handle; // 0x10
         public bool trackResurrection; // 0x18
 
         // ── Methods ──

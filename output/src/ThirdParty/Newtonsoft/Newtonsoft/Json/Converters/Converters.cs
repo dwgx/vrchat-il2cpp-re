@@ -7,10 +7,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 {
     public class BinaryConverter : JsonConverter
     {
-        public string BinaryTypeName;
-        public string BinaryToArrayName;
-        public Newtonsoft.Json.Utilities.ReflectionObject _reflectionObject;
-
         // ── Methods ──
         public void WriteJson(){} // RVA: 0x7FFD53C17670
         public void GetByteArray(){} // RVA: 0x7FFD53C176E0
@@ -65,11 +61,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class DiscriminatedUnionConverter : JsonConverter
     {
-        public string CasePropertyName;
-        public string FieldsPropertyName;
-        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,Union> UnionCache;
-        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,System.Type> UnionTypeLookupCache; // 0x8
-
         // ── Methods ──
         public void CreateUnionTypeLookup(){} // RVA: 0x7FFD53C1A640
         public void CreateUnion(){} // RVA: 0x7FFD53C1A8A0
@@ -82,12 +73,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class EntityKeyMemberConverter : JsonConverter
     {
-        public string EntityKeyMemberFullTypeName;
-        public string KeyPropertyName;
-        public string TypePropertyName;
-        public string ValuePropertyName;
-        public Newtonsoft.Json.Utilities.ReflectionObject _reflectionObject;
-
         // ── Methods ──
         public void WriteJson(){} // RVA: 0x7FFD53C1CB50
         public void ReadAndAssertProperty(){} // RVA: 0x7FFD53C1CF10
@@ -138,10 +123,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class KeyValuePairConverter : JsonConverter
     {
-        public string KeyName;
-        public string ValueName;
-        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,Newtonsoft.Json.Utilities.ReflectionObject> ReflectionObjectPerType;
-
         // ── Methods ──
         public void InitializeReflectionObject(){} // RVA: 0x7FFD53C1F010
         public void WriteJson(){} // RVA: 0x7FFD53C1F210
@@ -153,9 +134,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class RegexConverter : JsonConverter
     {
-        public string PatternName;
-        public string OptionsName;
-
         // ── Methods ──
         public void WriteJson(){} // RVA: 0x7FFD53C201D0 | overloaded x2
         public void HasFlag(){} // RVA: 0x7FFD538EAD10
@@ -170,18 +148,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 
     public class XmlNodeConverter : JsonConverter
     {
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> DeserializeRootElementName;
-        public string WriteArrayAttribute;
-        public string OmitRootObject;
-        public string EncodeSpecialCharacters;
-        public string WhitespaceName;
-        public string SignificantWhitespaceName;
-        public string DeclarationName;
-        public string JsonNamespaceUri;
-        public string <DeserializeRootElementName>k__BackingField; // 0x10
-        public bool <WriteArrayAttribute>k__BackingField; // 0x18
-        public bool <OmitRootObject>k__BackingField; // 0x19
-        public bool <EncodeSpecialCharacters>k__BackingField; // 0x1A
+        public object DeserializeRootElementName;
+        public object WriteArrayAttribute;
+        public object OmitRootObject;
+        public object EncodeSpecialCharacters;
 
         // ── Methods ──
         public void get_DeserializeRootElementName(){} // RVA: 0x7FFD4E35C380

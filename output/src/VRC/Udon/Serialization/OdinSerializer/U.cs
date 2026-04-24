@@ -39,8 +39,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class UnityReferenceResolver : Object
     {
-        public System.Collections.Generic.Dictionary`2<UnityEngine.Object,int> referenceIndexMapping; // 0x10
-        public System.Collections.Generic.List`1<UnityEngine.Object> referencedUnityObjects; // 0x18
+        public URA.DateTime<?,int> referenceIndexMapping; // 0x10
+        public URA.woDigitYearMax<?> referencedUnityObjects; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5543CE60 | overloaded x2
@@ -57,7 +57,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
     {
         public object Initialized;
         public bool CurrentPlatform; // 0x8
-        public 0x664D9580 <CurrentPlatform>k__BackingField; // 0xC
+        public object <CurrentPlatform>k__BackingField; // 0xC
 
         // ── Methods ──
         public void get_Initialized(){} // RVA: 0x7FFD5543D680
@@ -70,23 +70,23 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class UnitySerializationUtility : Object
     {
-        public System.Type SerializeReferenceAttributeType;
-        public System.Reflection.Assembly String_Assembly; // 0x8
-        public System.Reflection.Assembly HashSet_Assembly; // 0x10
-        public System.Reflection.Assembly LinkedList_Assembly; // 0x18
-        public System.Collections.Generic.Dictionary`2<System.Reflection.MemberInfo,0x66586C98> UnityMemberGetters; // 0x20
-        public System.Collections.Generic.Dictionary`2<System.Reflection.MemberInfo,0x66586CF0> UnityMemberSetters; // 0x28
-        public System.Collections.Generic.Dictionary`2<System.Reflection.MemberInfo,bool> UnityWillSerializeMembersCache; // 0x30
-        public System.Collections.Generic.Dictionary`2<System.Type,bool> UnityWillSerializeTypesCache; // 0x38
-        public System.Collections.Generic.HashSet`1<System.Type> UnityNeverSerializesTypes; // 0x40
-        public System.Collections.Generic.HashSet`1<string> UnityNeverSerializesTypeNames; // 0x48
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy UnityPolicy; // 0x50
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy EverythingPolicy; // 0x58
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy StrictPolicy; // 0x60
-        public System.Collections.Generic.Dictionary`2<System.Reflection.MemberInfo,0x66586140> OdinWillSerializeCache_UnityPolicy; // 0x68
-        public System.Collections.Generic.Dictionary`2<System.Reflection.MemberInfo,0x66586140> OdinWillSerializeCache_EverythingPolicy; // 0x70
-        public System.Collections.Generic.Dictionary`2<System.Reflection.MemberInfo,0x66586140> OdinWillSerializeCache_StrictPolicy; // 0x78
-        public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Collections.Generic.Dictionary`2<System.Reflection.MemberInfo,0x66586140>> OdinWillSerializeCache_CustomPolicies; // 0x80
+        public object SerializeReferenceAttributeType;
+        public m.ormation String_Assembly; // 0x8
+        public m.ormation HashSet_Assembly; // 0x10
+        public m.ormation LinkedList_Assembly; // 0x18
+        public URA.DateTime<m.Int64,yNumberHandling.rrentNodeName> UnityMemberGetters; // 0x20
+        public URA.DateTime<m.Int64,yNumberHandling.seDataReaderWriter> UnityMemberSetters; // 0x28
+        public URA.DateTime<m.Int64,bool> UnityWillSerializeMembersCache; // 0x30
+        public URA.DateTime<?,bool> UnityWillSerializeTypesCache; // 0x38
+        public URA.onsDepth<?> UnityNeverSerializesTypes; // 0x40
+        public URA.onsDepth<string> UnityNeverSerializesTypeNames; // 0x48
+        public CullingUpdateMarker UnityPolicy; // 0x50
+        public CullingUpdateMarker EverythingPolicy; // 0x58
+        public CullingUpdateMarker StrictPolicy; // 0x60
+        public URA.DateTime<m.Int64,gnoreDefaultValuesOnRead> OdinWillSerializeCache_UnityPolicy; // 0x68
+        public URA.DateTime<m.Int64,gnoreDefaultValuesOnRead> OdinWillSerializeCache_EverythingPolicy; // 0x70
+        public URA.DateTime<m.Int64,gnoreDefaultValuesOnRead> OdinWillSerializeCache_StrictPolicy; // 0x78
+        public URA.DateTime<CullingUpdateMarker,URA.DateTime<m.Int64,gnoreDefaultValuesOnRead>> OdinWillSerializeCache_CustomPolicies; // 0x80
 
         // ── Methods ──
         public void OdinWillSerialize(){} // RVA: 0x7FFD5543DCC0

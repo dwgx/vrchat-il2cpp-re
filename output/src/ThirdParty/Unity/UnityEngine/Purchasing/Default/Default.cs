@@ -22,7 +22,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Default
         public string title; // 0x20
         public string description; // 0x28
         public string ISOCurrencyCode; // 0x30
-        public System.Decimal priceDecimal; // 0x38
+        public ltiple priceDecimal; // 0x38
         public string receipt; // 0x48
         public string transactionID; // 0x50
         public bool consumable; // 0x58

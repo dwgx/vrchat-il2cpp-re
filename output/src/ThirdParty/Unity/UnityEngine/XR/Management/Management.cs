@@ -21,10 +21,10 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
     public class XRGeneralSettings : ScriptableObject
     {
         public string Manager;
-        public UnityEngine.XR.Management.XRGeneralSettings Instance; // 0x8
-        public UnityEngine.XR.Management.XRManagerSettings AssignedSettings; // 0x18
+        public clippingSoftness_Injected.rentMesh Instance; // 0x8
+        public clippingSoftness_Injected.rting AssignedSettings; // 0x18
         public bool InitManagerOnStart; // 0x20
-        public UnityEngine.XR.Management.XRManagerSettings m_XRManager; // 0x28
+        public clippingSoftness_Injected.rting m_XRManager; // 0x28
         public bool m_ProviderIntialized; // 0x30
         public bool m_ProviderStarted; // 0x31
 
@@ -62,7 +62,7 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
 
     public class XRLoaderHelper : XRLoader
     {
-        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.ISubsystem> m_SubsystemInstanceMap; // 0x18
+        public URA.DateTime<?,operty> m_SubsystemInstanceMap; // 0x18
 
         // ── Methods ──
         public void GetLoadedSubsystem(){} // RVA: 0x7FFD4E2ADC40
@@ -94,9 +94,9 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
         public bool automaticRunning; // 0x19
         public bool loaders; // 0x1A
         public bool activeLoaders; // 0x1B
-        public System.Collections.Generic.List`1<UnityEngine.XR.Management.XRLoader> isInitializationComplete; // 0x20
-        public System.Collections.Generic.HashSet`1<UnityEngine.XR.Management.XRLoader> activeLoader; // 0x28
-        public UnityEngine.XR.Management.XRLoader currentLoaders; // 0x30
+        public URA.woDigitYearMax<clippingSoftness_Injected.?> isInitializationComplete; // 0x20
+        public URA.onsDepth<clippingSoftness_Injected.?> activeLoader; // 0x28
+        public clippingSoftness_Injected.? currentLoaders; // 0x30
 
         // ── Methods ──
         public void get_automaticLoading(){} // RVA: 0x7FFD4FA1A190

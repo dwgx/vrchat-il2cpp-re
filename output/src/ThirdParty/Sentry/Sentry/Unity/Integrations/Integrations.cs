@@ -7,9 +7,9 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 {
     public class ApplicationAdapter : Object
     {
-        public Sentry.Unity.Integrations.ApplicationAdapter ActiveSceneName;
-        public LogCallback IsEditor; // 0x10
-        public System.Action ProductName; // 0x18
+        public eaMod.DNS.Model.SEC3PARAM ActiveSceneName;
+        public e IsEditor; // 0x10
+        public ÎÌÍÏÏÌÍÏ ProductName; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53F3F9A0
@@ -58,7 +58,7 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class SceneManagerIntegration : Object
     {
-        public Sentry.Unity.ISceneManager _sceneManager; // 0x10
+        public hXMultiplier.t_lifetime _sceneManager; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
@@ -67,7 +67,7 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class SessionIntegration : Object
     {
-        public Sentry.Unity.SentryMonoBehaviour _sentryMonoBehaviour; // 0x10
+        public hXMultiplier.Field _sentryMonoBehaviour; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -85,7 +85,7 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class UnityBeforeSceneLoadIntegration : Object
     {
-        public Sentry.Unity.Integrations.IApplication _application; // 0x10
+        public eaMod.DNS.Model.? _application; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53F41370
@@ -94,13 +94,13 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class UnityLogHandlerIntegration : Object
     {
-        public Sentry.Unity.ErrorTimeDebounce ErrorTimeDebounce; // 0x10
-        public Sentry.Unity.LogTimeDebounce LogTimeDebounce; // 0x18
-        public Sentry.Unity.WarningTimeDebounce WarningTimeDebounce; // 0x20
-        public Sentry.Unity.Integrations.IApplication _application; // 0x28
-        public 0x664F7458 _hub; // 0x30
-        public Sentry.Unity.SentryUnityOptions _sentryOptions; // 0x38
-        public UnityEngine.ILogHandler _unityLogHandler; // 0x40
+        public hXMultiplier.eEventArgs ErrorTimeDebounce; // 0x10
+        public hXMultiplier.solveAsync>b__3 LogTimeDebounce; // 0x18
+        public hXMultiplier.workInterfaces WarningTimeDebounce; // 0x20
+        public eaMod.DNS.Model.? _application; // 0x28
+        public RGBA_ETC2_SRGB.`2 _hub; // 0x30
+        public hXMultiplier.ssageReceived _sentryOptions; // 0x38
+        public ode _unityLogHandler; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53F415B0

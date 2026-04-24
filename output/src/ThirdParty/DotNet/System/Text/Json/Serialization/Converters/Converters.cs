@@ -20,7 +20,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class CastingConverter`1 : JsonConverter`1
     {
-        public System.Text.Json.Serialization.JsonConverter KeyType;
+        public ngCommas.IKSolverAim KeyType;
         public bool ElementType;
 
         // ── Methods ──
@@ -79,13 +79,13 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class EnumConverter`1 : JsonConverter`1
     {
-        public 0x66421808 s_enumTypeCode;
+        public t_AllowMultiple s_enumTypeCode;
         public bool s_isSignedEnum;
         public string ValueSeparator;
-        public 0x6653AF28 _converterOptions;
-        public 0x66534B20 _namingPolicy;
-        public System.Collections.Concurrent.ConcurrentDictionary`2<ulong,System.Text.Json.JsonEncodedText> _nameCacheForWriting;
-        public System.Collections.Concurrent.ConcurrentDictionary`2<string,T> _nameCacheForReading;
+        public bleInterface.zation _converterOptions;
+        public inDataView.gCommaNotAllowedBeforeObjectEnd _namingPolicy;
+        public JapaneseLangName.erns<ulong,inDataView.inString> _nameCacheForWriting;
+        public JapaneseLangName.erns<string,T1717653488> _nameCacheForReading;
         public int NameCacheSizeSoftLimit;
 
         // ── Methods ──
@@ -104,7 +104,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpListConverter`2 : IEnumerableDefaultConverter`2
     {
-        public System.Func`2<System.Collections.Generic.IEnumerable`1<T>,U> _listConstructor;
+        public n<URA.bbrevEraNames<T1717653184>,T1717653168> _listConstructor;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -115,7 +115,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpMapConverter`3 : DictionaryDefaultConverter`3
     {
-        public System.Func`2<System.Collections.Generic.IEnumerable`1<System.Tuple`2<V,T>>,U> CanHaveIdMetadata;
+        public n<URA.bbrevEraNames<t<T1717653216,T1717653232>>,T1717653200> CanHaveIdMetadata;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -127,9 +127,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpOptionConverter`2 : JsonConverter`1
     {
-        public System.Text.Json.Serialization.JsonConverter`1<U> ConverterStrategy;
-        public System.Func`2<U,U> ElementType;
-        public System.Func`2<U,U> HandleNull;
+        public ngCommas.get_transformPoleAxis<T1717653296> ConverterStrategy;
+        public n<T1717653280,T1717653296> ElementType;
+        public n<T1717653296,T1717653280> HandleNull;
 
         // ── Methods ──
         public void get_ConverterStrategy(){} // RVA: 0x7FFD4E079D00
@@ -144,7 +144,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpSetConverter`2 : IEnumerableDefaultConverter`2
     {
-        public System.Func`2<System.Collections.Generic.IEnumerable`1<U>,U> _setConstructor;
+        public n<URA.bbrevEraNames<T1717653264>,T1717653248> _setConstructor;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -155,9 +155,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpValueOptionConverter`2 : JsonConverter`1
     {
-        public System.Text.Json.Serialization.JsonConverter`1<T> ConverterStrategy;
-        public StructGetter`2<U,T> ElementType;
-        public System.Func`2<T,U> HandleNull;
+        public ngCommas.get_transformPoleAxis<T1717653328> ConverterStrategy;
+        public eadOnlyFields<T1717653312,T1717653328> ElementType;
+        public n<T1717653328,T1717653312> HandleNull;
 
         // ── Methods ──
         public void get_ConverterStrategy(){} // RVA: 0x7FFD4E079D00
@@ -345,7 +345,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
-        public System.Text.Json.Serialization.JsonConverter`1<T> Converter;
+        public ngCommas.get_transformPoleAxis<T1717652144> Converter;
         public bool ConverterStrategy;
 
         // ── Methods ──
@@ -371,7 +371,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
     {
         public string _keyName;
         public string _valueName;
-        public System.Reflection.ConstructorInfo s_constructorInfo;
+        public m.nformation s_constructorInfo;
 
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4E099B30
@@ -429,7 +429,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class NullableConverter`1 : JsonConverter`1
     {
-        public System.Text.Json.Serialization.JsonConverter`1<T> _elementConverter;
+        public ngCommas.get_transformPoleAxis<T1717653504> _elementConverter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

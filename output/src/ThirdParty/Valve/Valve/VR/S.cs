@@ -7,19 +7,19 @@ namespace ThirdParty.Valve.Valve.VR
 {
     public class SpatialAnchorPose_t : ValueType
     {
-        public Valve.VR.HmdMatrix34_t mAnchorToAbsoluteTracking; // 0x10
+        public hPosePacked mAnchorToAbsoluteTracking; // 0x10
     }
 
     public class SteamVR : Object
     {
-        public System.Nullable`1<bool> active;
+        public aphy<bool> active;
         public bool enabled; // 0x2
-        public Valve.VR.SteamVR instance; // 0x8
-        public 0x6656A158 usingNativeSupport; // 0x10
-        public Valve.VR.SteamVR_Settings settings; // 0x18
-        public Valve.VR.CVRSystem hmd; // 0x10
-        public Valve.VR.CVRCompositor compositor; // 0x18
-        public Valve.VR.CVROverlay overlay; // 0x20
+        public object instance; // 0x8
+        public ctionSetSize usingNativeSupport; // 0x10
+        public t_skeletalTransformSpace settings; // 0x18
+        public merator hmd; // 0x10
+        public object compositor; // 0x18
+        public NBool overlay; // 0x20
         public bool initializing; // 0x20
         public bool calibrating; // 0x21
         public bool outOfRange; // 0x22
@@ -28,10 +28,10 @@ namespace ThirdParty.Valve.Valve.VR
         public float aspect; // 0x2C
         public float fieldOfView; // 0x30
         public float tanHalfFov; // 0x34
-        public UnityEngine.Vector2 textureBounds; // 0x38
-        public Valve.VR.VRTextureBounds_t[] eyes; // 0x40
-        public 0x66565FB0[] hmd_TrackingSystemName; // 0x48
-        public 0x6659FE70 hmd_ActualTrackingSystemName; // 0x50
+        public tionX textureBounds; // 0x38
+        public ApplicationType[] eyes; // 0x40
+        public reateUdonShortArray[] hmd_TrackingSystemName; // 0x48
+        public lyTransform hmd_ActualTrackingSystemName; // 0x50
         public bool hmd_ModelNumber; // 0x30
         public string hmd_SerialNumber;
         public string hmd_Type;
@@ -158,7 +158,7 @@ namespace ThirdParty.Valve.Valve.VR
     public class SteamVR_ActionSet : Object
     {
         public string allActions; // 0x10
-        public 0x665668A0 nonVisualInActions; // 0x18
+        public Metadatas nonVisualInActions; // 0x18
         public bool visualActions; // 0x20
 
         // ── Methods ──
@@ -202,7 +202,7 @@ namespace ThirdParty.Valve.Valve.VR
         public uint rawActiveActionSetArray;
         public bool changed; // 0x4
         public int currentArraySize; // 0x8
-        public System.Collections.Generic.Dictionary`2<int,Valve.VR.VRActiveActionSet_t[]> poolActiveActionSetArrays; // 0x10
+        public URA.DateTime<int,tivated[]> poolActiveActionSetArrays; // 0x10
         public int lastFrameUpdated; // 0x18
         public string debugActiveSetListText; // 0x20
         public bool updateDebugTextInBuilds; // 0x28
@@ -275,7 +275,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_In_Source_Map`1 : SteamVR_Action_Source_Map`1
     {
-        public System.Collections.Generic.List`1<int> updatingSources;
+        public URA.woDigitYearMax<int> updatingSources;
 
         // ── Methods ──
         public void IsUpdating(){} // RVA: 0x7FFD51DC2240
@@ -472,7 +472,7 @@ namespace ThirdParty.Valve.Valve.VR
     public class SteamVR_Action_Skeleton : SteamVR_Action_Pose_Base`2
     {
         public int bonePositions;
-        public UnityEngine.Quaternion boneRotations;
+        public R_12x12 boneRotations;
 
         // ── Methods ──
         public void add_onActiveChange(){} // RVA: 0x7FFD540697E0
@@ -590,9 +590,9 @@ namespace ThirdParty.Valve.Valve.VR
     {
         public string fullPath; // 0x10
         public ulong handle; // 0x18
-        public Valve.VR.SteamVR_ActionSet actionSet; // 0x20
-        public 0x665667F0 direction; // 0x28
-        public Valve.VR.SteamVR_Action action; // 0x30
+        public PayloadVector actionSet; // 0x20
+        public ePayloadVectorBlock direction; // 0x28
+        public reateUdon action; // 0x30
         public string inLowered;
         public string outLowered; // 0x8
 
@@ -616,7 +616,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Source_Map`1 : SteamVR_Action_Source_Map
     {
-        public T[] Item;
+        public T1717690640[] Item;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD51DC3D80
@@ -737,10 +737,10 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action`2 : SteamVR_Action
     {
-        public 0x66568108 Item; // 0x28
+        public dString Item; // 0x28
         public bool fullPath; // 0x30
         public uint handle;
-        public Valve.VR.InputBindingInfo_t[] actionSet; // 0x8
+        public ÌÎÎÏÏÎÎÎÎÍÍÍÍÎÎÏÎÎÌÏÎ[] actionSet; // 0x8
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD51DC4030
@@ -770,223 +770,223 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Actions : Object
     {
-        public Valve.VR.SteamVR_Action_Boolean global_Safe_Mode;
-        public Valve.VR.SteamVR_Action_Pose global_Pose; // 0x8
-        public Valve.VR.SteamVR_Action_Skeleton global_SkeletonLeftHand; // 0x10
-        public Valve.VR.SteamVR_Action_Skeleton global_SkeletonRightHand; // 0x18
-        public Valve.VR.SteamVR_Action_Boolean global_HeadsetOnHead; // 0x20
-        public Valve.VR.SteamVR_Action_Boolean global_Menu; // 0x28
-        public Valve.VR.SteamVR_Action_Boolean global_Quick_Menu; // 0x30
-        public Valve.VR.SteamVR_Action_Boolean global_Action_Menu; // 0x38
-        public Valve.VR.SteamVR_Action_Boolean global_Main_Menu; // 0x40
-        public Valve.VR.SteamVR_Action_Boolean global_Interact; // 0x48
-        public Valve.VR.SteamVR_Action_Boolean global_Grab; // 0x50
-        public Valve.VR.SteamVR_Action_Vector2 global_Move; // 0x58
-        public Valve.VR.SteamVR_Action_Boolean global_Jump; // 0x60
-        public Valve.VR.SteamVR_Action_Vector2 global_Rotate; // 0x68
-        public Valve.VR.SteamVR_Action_Boolean global_Mic; // 0x70
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Toggle; // 0x78
-        public Valve.VR.SteamVR_Action_Boolean global_Stick_Click; // 0x80
-        public Valve.VR.SteamVR_Action_Single global_Trigger_Axis; // 0x88
-        public Valve.VR.SteamVR_Action_Single global_Grip_Axis; // 0x90
-        public Valve.VR.SteamVR_Action_Boolean global_Udon_Menu; // 0x98
-        public Valve.VR.SteamVR_Action_Boolean global_Drop; // 0xA0
-        public Valve.VR.SteamVR_Action_Boolean global_Nameplates; // 0xA8
-        public Valve.VR.SteamVR_Action_Boolean global_HUD; // 0xB0
-        public Valve.VR.SteamVR_Action_Boolean global_Chatbox; // 0xB8
-        public Valve.VR.SteamVR_Action_Boolean global_Face_Mirror; // 0xC0
-        public Valve.VR.SteamVR_Action_Boolean global_Personal_Mirror; // 0xC8
-        public Valve.VR.SteamVR_Action_Boolean global_Personal_Mirror_Lock; // 0xD0
-        public Valve.VR.SteamVR_Action_Boolean global_Earmuffs; // 0xD8
-        public Valve.VR.SteamVR_Action_Boolean global_Camera; // 0xE0
-        public Valve.VR.SteamVR_Action_Boolean global_Stream_Camera; // 0xE8
-        public Valve.VR.SteamVR_Action_Boolean global_Avatar_Debug_Screen; // 0xF0
-        public Valve.VR.SteamVR_Action_Boolean global_OSC_Debug_Screen; // 0xF8
-        public Valve.VR.SteamVR_Action_Boolean global_Confirm_FBT_Calibration; // 0x100
-        public Valve.VR.SteamVR_Action_Boolean global_Start_Move; // 0x108
-        public Valve.VR.SteamVR_Action_Boolean global_Start_Rotate; // 0x110
-        public Valve.VR.SteamVR_Action_Boolean global_Continue_Move; // 0x118
-        public Valve.VR.SteamVR_Action_Boolean global_Continue_Rotate; // 0x120
-        public Valve.VR.SteamVR_Action_Boolean global_No_Gesture_After_Move; // 0x128
-        public Valve.VR.SteamVR_Action_Boolean global_No_Gesture_After_Rotate; // 0x130
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Activator_Thumb; // 0x138
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Activator_Thumb_Inner_Upper; // 0x140
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Activator_Thumb_Inner_Lower; // 0x148
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Activator_Thumb_Outer; // 0x150
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Activator_Index; // 0x158
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Activator_Grip; // 0x160
-        public Valve.VR.SteamVR_Action_Single global_Gesture_Trigger_Axis; // 0x168
-        public Valve.VR.SteamVR_Action_Single global_Gesture_Grip_Axis; // 0x170
-        public Valve.VR.SteamVR_Action_Vector2 global_Gesture_Activator_Stick_Deflection; // 0x178
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Neutral_Left; // 0x180
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Fist_Left; // 0x188
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Open_Left; // 0x190
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Peace_Left; // 0x198
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Horns_Left; // 0x1A0
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Finger_Gun_Left; // 0x1A8
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Thumbs_Up_Left; // 0x1B0
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Point_Left; // 0x1B8
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Neutral_Right; // 0x1C0
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Fist_Right; // 0x1C8
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Open_Right; // 0x1D0
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Peace_Right; // 0x1D8
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Horns_Right; // 0x1E0
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Finger_Gun_Right; // 0x1E8
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Thumbs_Up_Right; // 0x1F0
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Direct_Point_Right; // 0x1F8
-        public Valve.VR.SteamVR_Action_Vector2 global_Gesture_Wheel_Left; // 0x200
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Select_Left; // 0x208
-        public Valve.VR.SteamVR_Action_Single global_Gesture_Wheel_Soft_Select_Left; // 0x210
-        public Valve.VR.SteamVR_Action_Single global_Gesture_Wheel_Weight_Left; // 0x218
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Direct_Left; // 0x220
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Direct_Stay_Left; // 0x228
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Cancel_Left; // 0x230
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Cancel_Open_Left; // 0x238
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Held_Left; // 0x240
-        public Valve.VR.SteamVR_Action_Vector2 global_Gesture_Wheel_Right; // 0x248
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Select_Right; // 0x250
-        public Valve.VR.SteamVR_Action_Single global_Gesture_Wheel_Soft_Select_Right; // 0x258
-        public Valve.VR.SteamVR_Action_Single global_Gesture_Wheel_Weight_Right; // 0x260
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Direct_Right; // 0x268
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Direct_Stay_Right; // 0x270
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Cancel_Right; // 0x278
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Cancel_Open_Right; // 0x280
-        public Valve.VR.SteamVR_Action_Boolean global_Gesture_Wheel_Held_Right; // 0x288
-        public Valve.VR.SteamVR_Action_Boolean global_Disable_Gesture_Tracked; // 0x290
-        public Valve.VR.SteamVR_Action_Boolean global_Disable_Gesture_Wheel_Move_Left; // 0x298
-        public Valve.VR.SteamVR_Action_Boolean global_Disable_Gesture_Wheel_Rotate_Left; // 0x2A0
-        public Valve.VR.SteamVR_Action_Boolean global_Disable_Gesture_Wheel_Move_Right; // 0x2A8
-        public Valve.VR.SteamVR_Action_Boolean global_Disable_Gesture_Wheel_Rotate_Right; // 0x2B0
-        public Valve.VR.SteamVR_Action_Boolean global_Physbone_Grab_Left; // 0x2B8
-        public Valve.VR.SteamVR_Action_Boolean global_Physbone_Freeze_Left; // 0x2C0
-        public Valve.VR.SteamVR_Action_Boolean global_Physbone_Grab_Right; // 0x2C8
-        public Valve.VR.SteamVR_Action_Boolean global_Physbone_Freeze_Right; // 0x2D0
-        public Valve.VR.SteamVR_Action_Vector2 global_Scroll; // 0x2D8
-        public Valve.VR.SteamVR_Action_Vibration global_Haptic; // 0x2E0
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Interact; // 0x2E8
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Grab; // 0x2F0
-        public Valve.VR.SteamVR_Action_Vector2 one_Hand_Move_Rotate; // 0x2F8
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Jump; // 0x300
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Mic; // 0x308
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Toggle; // 0x310
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Stick_Click; // 0x318
-        public Valve.VR.SteamVR_Action_Single one_Hand_Trigger_Axis; // 0x320
-        public Valve.VR.SteamVR_Action_Single one_Hand_Grip_Axis; // 0x328
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Udon_Menu; // 0x330
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Drop; // 0x338
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Start_Move_Rotate; // 0x340
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Continue_Move_Rotate; // 0x348
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_No_Gesture_After_Move_Rotate; // 0x350
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Menu; // 0x358
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Nameplates; // 0x360
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_HUD; // 0x368
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Chatbox; // 0x370
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Face_Mirror; // 0x378
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Personal_Mirror; // 0x380
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Personal_Mirror_Lock; // 0x388
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Earmuffs; // 0x390
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Camera; // 0x398
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Stream_Camera; // 0x3A0
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Avatar_Debug_Screen; // 0x3A8
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_OSC_Debug_Screen; // 0x3B0
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Confirm_FBT_Calibration; // 0x3B8
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Activator_Thumb; // 0x3C0
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Activator_Thumb_Inner_Upper; // 0x3C8
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Activator_Thumb_Inner_Lower; // 0x3D0
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Activator_Thumb_Outer; // 0x3D8
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Activator_Index; // 0x3E0
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Activator_Grip; // 0x3E8
-        public Valve.VR.SteamVR_Action_Single one_Hand_Gesture_Trigger_Axis; // 0x3F0
-        public Valve.VR.SteamVR_Action_Single one_Hand_Gesture_Grip_Axis; // 0x3F8
-        public Valve.VR.SteamVR_Action_Vector2 one_Hand_Gesture_Activator_Stick_Deflection; // 0x400
-        public Valve.VR.SteamVR_Action_Vector2 one_Hand_Gesture_Wheel_Left; // 0x408
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Select_Left; // 0x410
-        public Valve.VR.SteamVR_Action_Single one_Hand_Gesture_Wheel_Soft_Select_Left; // 0x418
-        public Valve.VR.SteamVR_Action_Single one_Hand_Gesture_Wheel_Weight_Left; // 0x420
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Direct_Left; // 0x428
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Direct_Stay_Left; // 0x430
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Cancel_Left; // 0x438
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Cancel_Open_Left; // 0x440
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Held_Left; // 0x448
-        public Valve.VR.SteamVR_Action_Vector2 one_Hand_Gesture_Wheel_Right; // 0x450
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Select_Right; // 0x458
-        public Valve.VR.SteamVR_Action_Single one_Hand_Gesture_Wheel_Soft_Select_Right; // 0x460
-        public Valve.VR.SteamVR_Action_Single one_Hand_Gesture_Wheel_Weight_Right; // 0x468
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Direct_Right; // 0x470
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Direct_Stay_Right; // 0x478
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Cancel_Right; // 0x480
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Cancel_Open_Right; // 0x488
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Gesture_Wheel_Held_Right; // 0x490
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Disable_Gesture_Wheel_Move_Left; // 0x498
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Disable_Gesture_Wheel_Rotate_Left; // 0x4A0
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Disable_Gesture_Wheel_Move_Right; // 0x4A8
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Disable_Gesture_Wheel_Rotate_Right; // 0x4B0
-        public Valve.VR.SteamVR_Action_Boolean one_Hand_Reserve_bool; // 0x4B8
-        public Valve.VR.SteamVR_Action_Single one_Hand_Reserve_vector1; // 0x4C0
-        public Valve.VR.SteamVR_Action_Vector2 one_Hand_Reserve_vector2; // 0x4C8
-        public Valve.VR.SteamVR_Action_Boolean menu_Confirm; // 0x4D0
-        public Valve.VR.SteamVR_Action_Boolean menu_Back; // 0x4D8
-        public Valve.VR.SteamVR_Action_Boolean menu_Tab; // 0x4E0
-        public Valve.VR.SteamVR_Action_Vector2 menu_Scroll; // 0x4E8
-        public Valve.VR.SteamVR_Action_Boolean menu_Quick_Menu_Close; // 0x4F0
-        public Valve.VR.SteamVR_Action_Boolean menu_Drag; // 0x4F8
-        public Valve.VR.SteamVR_Action_Vector2 action_Menu_Axis; // 0x500
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Select; // 0x508
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Activator_Thumb; // 0x510
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Activator_Thumb_Inner_Upper; // 0x518
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Activator_Thumb_Inner_Lower; // 0x520
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Activator_Thumb_Outer; // 0x528
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Activator_Index; // 0x530
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Activator_Grip; // 0x538
-        public Valve.VR.SteamVR_Action_Single action_Menu_Gesture_Trigger_Axis; // 0x540
-        public Valve.VR.SteamVR_Action_Single action_Menu_Gesture_Grip_Axis; // 0x548
-        public Valve.VR.SteamVR_Action_Vector2 action_Menu_Gesture_Activator_Stick_Deflection; // 0x550
-        public Valve.VR.SteamVR_Action_Vector2 action_Menu_Gesture_Wheel_Left; // 0x558
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Select_Left; // 0x560
-        public Valve.VR.SteamVR_Action_Single action_Menu_Gesture_Wheel_Soft_Select_Left; // 0x568
-        public Valve.VR.SteamVR_Action_Single action_Menu_Gesture_Wheel_Weight_Left; // 0x570
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Direct_Left; // 0x578
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Direct_Stay_Left; // 0x580
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Cancel_Left; // 0x588
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Cancel_Open_Left; // 0x590
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Held_Left; // 0x598
-        public Valve.VR.SteamVR_Action_Vector2 action_Menu_Gesture_Wheel_Right; // 0x5A0
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Select_Right; // 0x5A8
-        public Valve.VR.SteamVR_Action_Single action_Menu_Gesture_Wheel_Soft_Select_Right; // 0x5B0
-        public Valve.VR.SteamVR_Action_Single action_Menu_Gesture_Wheel_Weight_Right; // 0x5B8
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Direct_Right; // 0x5C0
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Direct_Stay_Right; // 0x5C8
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Cancel_Right; // 0x5D0
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Cancel_Open_Right; // 0x5D8
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Gesture_Wheel_Held_Right; // 0x5E0
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Disable_Gesture_Wheel_Move_Left; // 0x5E8
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Disable_Gesture_Wheel_Rotate_Left; // 0x5F0
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Disable_Gesture_Wheel_Move_Right; // 0x5F8
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Disable_Gesture_Wheel_Rotate_Right; // 0x600
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Reserve_bool; // 0x608
-        public Valve.VR.SteamVR_Action_Single action_Menu_Reserve_vector1; // 0x610
-        public Valve.VR.SteamVR_Action_Vector2 action_Menu_Reserve_vector2; // 0x618
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Grab; // 0x620
-        public Valve.VR.SteamVR_Action_Boolean action_Menu_Drop; // 0x628
-        public Valve.VR.SteamVR_Action_Vector2 drone_Left_Joystick; // 0x630
-        public Valve.VR.SteamVR_Action_Vector2 drone_Right_Joystick; // 0x638
-        public Valve.VR.SteamVR_Action_Boolean drone_Self_Leveling_Mod; // 0x640
-        public Valve.VR.SteamVR_Action_Boolean drone_Hold_Altitude_Mod; // 0x648
-        public Valve.VR.SteamVR_Action_Boolean drone_Toggle_FPV; // 0x650
-        public Valve.VR.SteamVR_Action_Boolean drone_Flip; // 0x658
-        public Valve.VR.SteamVR_Action_Boolean drone_Take_Picture; // 0x660
-        public Valve.VR.SteamVR_Action_Boolean drone_Cycle_Flight_Preset; // 0x668
-        public Valve.VR.SteamVR_Action_Boolean drone_Toggle_Self_Leveling; // 0x670
-        public Valve.VR.SteamVR_Action_Boolean drone_Respawn; // 0x678
-        public Valve.VR.SteamVR_Action_Boolean drone_Select_Flight_Preset_Micro; // 0x680
-        public Valve.VR.SteamVR_Action_Boolean drone_Select_Flight_Preset_Cinematic; // 0x688
-        public Valve.VR.SteamVR_Action_Boolean drone_Select_Flight_Preset_Racing; // 0x690
-        public Valve.VR.SteamVR_Action_Boolean drone_Select_Flight_Preset_Freestyle; // 0x698
-        public Valve.VR.SteamVR_Input_ActionSet_Global Global; // 0x6A0
-        public Valve.VR.SteamVR_Input_ActionSet_One_Hand One_Hand; // 0x6A8
-        public Valve.VR.SteamVR_Input_ActionSet_Menu Menu; // 0x6B0
-        public Valve.VR.SteamVR_Input_ActionSet_Action_Menu Action_Menu; // 0x6B8
-        public Valve.VR.SteamVR_Input_ActionSet_Drone Drone; // 0x6C0
+        public or global_Safe_Mode;
+        public eld global_Pose; // 0x8
+        public ckingField global_SkeletonLeftHand; // 0x10
+        public ckingField global_SkeletonRightHand; // 0x18
+        public or global_HeadsetOnHead; // 0x20
+        public or global_Menu; // 0x28
+        public or global_Quick_Menu; // 0x30
+        public or global_Action_Menu; // 0x38
+        public or global_Main_Menu; // 0x40
+        public or global_Interact; // 0x48
+        public or global_Grab; // 0x50
+        public tartWrappedLong global_Move; // 0x58
+        public or global_Jump; // 0x60
+        public tartWrappedLong global_Rotate; // 0x68
+        public or global_Mic; // 0x70
+        public or global_Gesture_Toggle; // 0x78
+        public or global_Stick_Click; // 0x80
+        public rify global_Trigger_Axis; // 0x88
+        public rify global_Grip_Axis; // 0x90
+        public or global_Udon_Menu; // 0x98
+        public or global_Drop; // 0xA0
+        public or global_Nameplates; // 0xA8
+        public or global_HUD; // 0xB0
+        public or global_Chatbox; // 0xB8
+        public or global_Face_Mirror; // 0xC0
+        public or global_Personal_Mirror; // 0xC8
+        public or global_Personal_Mirror_Lock; // 0xD0
+        public or global_Earmuffs; // 0xD8
+        public or global_Camera; // 0xE0
+        public or global_Stream_Camera; // 0xE8
+        public or global_Avatar_Debug_Screen; // 0xF0
+        public or global_OSC_Debug_Screen; // 0xF8
+        public or global_Confirm_FBT_Calibration; // 0x100
+        public or global_Start_Move; // 0x108
+        public or global_Start_Rotate; // 0x110
+        public or global_Continue_Move; // 0x118
+        public or global_Continue_Rotate; // 0x120
+        public or global_No_Gesture_After_Move; // 0x128
+        public or global_No_Gesture_After_Rotate; // 0x130
+        public or global_Gesture_Activator_Thumb; // 0x138
+        public or global_Gesture_Activator_Thumb_Inner_Upper; // 0x140
+        public or global_Gesture_Activator_Thumb_Inner_Lower; // 0x148
+        public or global_Gesture_Activator_Thumb_Outer; // 0x150
+        public or global_Gesture_Activator_Index; // 0x158
+        public or global_Gesture_Activator_Grip; // 0x160
+        public rify global_Gesture_Trigger_Axis; // 0x168
+        public rify global_Gesture_Grip_Axis; // 0x170
+        public tartWrappedLong global_Gesture_Activator_Stick_Deflection; // 0x178
+        public or global_Gesture_Direct_Neutral_Left; // 0x180
+        public or global_Gesture_Direct_Fist_Left; // 0x188
+        public or global_Gesture_Direct_Open_Left; // 0x190
+        public or global_Gesture_Direct_Peace_Left; // 0x198
+        public or global_Gesture_Direct_Horns_Left; // 0x1A0
+        public or global_Gesture_Direct_Finger_Gun_Left; // 0x1A8
+        public or global_Gesture_Direct_Thumbs_Up_Left; // 0x1B0
+        public or global_Gesture_Direct_Point_Left; // 0x1B8
+        public or global_Gesture_Direct_Neutral_Right; // 0x1C0
+        public or global_Gesture_Direct_Fist_Right; // 0x1C8
+        public or global_Gesture_Direct_Open_Right; // 0x1D0
+        public or global_Gesture_Direct_Peace_Right; // 0x1D8
+        public or global_Gesture_Direct_Horns_Right; // 0x1E0
+        public or global_Gesture_Direct_Finger_Gun_Right; // 0x1E8
+        public or global_Gesture_Direct_Thumbs_Up_Right; // 0x1F0
+        public or global_Gesture_Direct_Point_Right; // 0x1F8
+        public tartWrappedLong global_Gesture_Wheel_Left; // 0x200
+        public or global_Gesture_Wheel_Select_Left; // 0x208
+        public rify global_Gesture_Wheel_Soft_Select_Left; // 0x210
+        public rify global_Gesture_Wheel_Weight_Left; // 0x218
+        public or global_Gesture_Wheel_Direct_Left; // 0x220
+        public or global_Gesture_Wheel_Direct_Stay_Left; // 0x228
+        public or global_Gesture_Wheel_Cancel_Left; // 0x230
+        public or global_Gesture_Wheel_Cancel_Open_Left; // 0x238
+        public or global_Gesture_Wheel_Held_Left; // 0x240
+        public tartWrappedLong global_Gesture_Wheel_Right; // 0x248
+        public or global_Gesture_Wheel_Select_Right; // 0x250
+        public rify global_Gesture_Wheel_Soft_Select_Right; // 0x258
+        public rify global_Gesture_Wheel_Weight_Right; // 0x260
+        public or global_Gesture_Wheel_Direct_Right; // 0x268
+        public or global_Gesture_Wheel_Direct_Stay_Right; // 0x270
+        public or global_Gesture_Wheel_Cancel_Right; // 0x278
+        public or global_Gesture_Wheel_Cancel_Open_Right; // 0x280
+        public or global_Gesture_Wheel_Held_Right; // 0x288
+        public or global_Disable_Gesture_Tracked; // 0x290
+        public or global_Disable_Gesture_Wheel_Move_Left; // 0x298
+        public or global_Disable_Gesture_Wheel_Rotate_Left; // 0x2A0
+        public or global_Disable_Gesture_Wheel_Move_Right; // 0x2A8
+        public or global_Disable_Gesture_Wheel_Rotate_Right; // 0x2B0
+        public or global_Physbone_Grab_Left; // 0x2B8
+        public or global_Physbone_Freeze_Left; // 0x2C0
+        public or global_Physbone_Grab_Right; // 0x2C8
+        public or global_Physbone_Freeze_Right; // 0x2D0
+        public tartWrappedLong global_Scroll; // 0x2D8
+        public edStringT global_Haptic; // 0x2E0
+        public or one_Hand_Interact; // 0x2E8
+        public or one_Hand_Grab; // 0x2F0
+        public tartWrappedLong one_Hand_Move_Rotate; // 0x2F8
+        public or one_Hand_Jump; // 0x300
+        public or one_Hand_Mic; // 0x308
+        public or one_Hand_Gesture_Toggle; // 0x310
+        public or one_Hand_Stick_Click; // 0x318
+        public rify one_Hand_Trigger_Axis; // 0x320
+        public rify one_Hand_Grip_Axis; // 0x328
+        public or one_Hand_Udon_Menu; // 0x330
+        public or one_Hand_Drop; // 0x338
+        public or one_Hand_Start_Move_Rotate; // 0x340
+        public or one_Hand_Continue_Move_Rotate; // 0x348
+        public or one_Hand_No_Gesture_After_Move_Rotate; // 0x350
+        public or one_Hand_Menu; // 0x358
+        public or one_Hand_Nameplates; // 0x360
+        public or one_Hand_HUD; // 0x368
+        public or one_Hand_Chatbox; // 0x370
+        public or one_Hand_Face_Mirror; // 0x378
+        public or one_Hand_Personal_Mirror; // 0x380
+        public or one_Hand_Personal_Mirror_Lock; // 0x388
+        public or one_Hand_Earmuffs; // 0x390
+        public or one_Hand_Camera; // 0x398
+        public or one_Hand_Stream_Camera; // 0x3A0
+        public or one_Hand_Avatar_Debug_Screen; // 0x3A8
+        public or one_Hand_OSC_Debug_Screen; // 0x3B0
+        public or one_Hand_Confirm_FBT_Calibration; // 0x3B8
+        public or one_Hand_Gesture_Activator_Thumb; // 0x3C0
+        public or one_Hand_Gesture_Activator_Thumb_Inner_Upper; // 0x3C8
+        public or one_Hand_Gesture_Activator_Thumb_Inner_Lower; // 0x3D0
+        public or one_Hand_Gesture_Activator_Thumb_Outer; // 0x3D8
+        public or one_Hand_Gesture_Activator_Index; // 0x3E0
+        public or one_Hand_Gesture_Activator_Grip; // 0x3E8
+        public rify one_Hand_Gesture_Trigger_Axis; // 0x3F0
+        public rify one_Hand_Gesture_Grip_Axis; // 0x3F8
+        public tartWrappedLong one_Hand_Gesture_Activator_Stick_Deflection; // 0x400
+        public tartWrappedLong one_Hand_Gesture_Wheel_Left; // 0x408
+        public or one_Hand_Gesture_Wheel_Select_Left; // 0x410
+        public rify one_Hand_Gesture_Wheel_Soft_Select_Left; // 0x418
+        public rify one_Hand_Gesture_Wheel_Weight_Left; // 0x420
+        public or one_Hand_Gesture_Wheel_Direct_Left; // 0x428
+        public or one_Hand_Gesture_Wheel_Direct_Stay_Left; // 0x430
+        public or one_Hand_Gesture_Wheel_Cancel_Left; // 0x438
+        public or one_Hand_Gesture_Wheel_Cancel_Open_Left; // 0x440
+        public or one_Hand_Gesture_Wheel_Held_Left; // 0x448
+        public tartWrappedLong one_Hand_Gesture_Wheel_Right; // 0x450
+        public or one_Hand_Gesture_Wheel_Select_Right; // 0x458
+        public rify one_Hand_Gesture_Wheel_Soft_Select_Right; // 0x460
+        public rify one_Hand_Gesture_Wheel_Weight_Right; // 0x468
+        public or one_Hand_Gesture_Wheel_Direct_Right; // 0x470
+        public or one_Hand_Gesture_Wheel_Direct_Stay_Right; // 0x478
+        public or one_Hand_Gesture_Wheel_Cancel_Right; // 0x480
+        public or one_Hand_Gesture_Wheel_Cancel_Open_Right; // 0x488
+        public or one_Hand_Gesture_Wheel_Held_Right; // 0x490
+        public or one_Hand_Disable_Gesture_Wheel_Move_Left; // 0x498
+        public or one_Hand_Disable_Gesture_Wheel_Rotate_Left; // 0x4A0
+        public or one_Hand_Disable_Gesture_Wheel_Move_Right; // 0x4A8
+        public or one_Hand_Disable_Gesture_Wheel_Rotate_Right; // 0x4B0
+        public or one_Hand_Reserve_bool; // 0x4B8
+        public rify one_Hand_Reserve_vector1; // 0x4C0
+        public tartWrappedLong one_Hand_Reserve_vector2; // 0x4C8
+        public or menu_Confirm; // 0x4D0
+        public or menu_Back; // 0x4D8
+        public or menu_Tab; // 0x4E0
+        public tartWrappedLong menu_Scroll; // 0x4E8
+        public or menu_Quick_Menu_Close; // 0x4F0
+        public or menu_Drag; // 0x4F8
+        public tartWrappedLong action_Menu_Axis; // 0x500
+        public or action_Menu_Select; // 0x508
+        public or action_Menu_Gesture_Activator_Thumb; // 0x510
+        public or action_Menu_Gesture_Activator_Thumb_Inner_Upper; // 0x518
+        public or action_Menu_Gesture_Activator_Thumb_Inner_Lower; // 0x520
+        public or action_Menu_Gesture_Activator_Thumb_Outer; // 0x528
+        public or action_Menu_Gesture_Activator_Index; // 0x530
+        public or action_Menu_Gesture_Activator_Grip; // 0x538
+        public rify action_Menu_Gesture_Trigger_Axis; // 0x540
+        public rify action_Menu_Gesture_Grip_Axis; // 0x548
+        public tartWrappedLong action_Menu_Gesture_Activator_Stick_Deflection; // 0x550
+        public tartWrappedLong action_Menu_Gesture_Wheel_Left; // 0x558
+        public or action_Menu_Gesture_Wheel_Select_Left; // 0x560
+        public rify action_Menu_Gesture_Wheel_Soft_Select_Left; // 0x568
+        public rify action_Menu_Gesture_Wheel_Weight_Left; // 0x570
+        public or action_Menu_Gesture_Wheel_Direct_Left; // 0x578
+        public or action_Menu_Gesture_Wheel_Direct_Stay_Left; // 0x580
+        public or action_Menu_Gesture_Wheel_Cancel_Left; // 0x588
+        public or action_Menu_Gesture_Wheel_Cancel_Open_Left; // 0x590
+        public or action_Menu_Gesture_Wheel_Held_Left; // 0x598
+        public tartWrappedLong action_Menu_Gesture_Wheel_Right; // 0x5A0
+        public or action_Menu_Gesture_Wheel_Select_Right; // 0x5A8
+        public rify action_Menu_Gesture_Wheel_Soft_Select_Right; // 0x5B0
+        public rify action_Menu_Gesture_Wheel_Weight_Right; // 0x5B8
+        public or action_Menu_Gesture_Wheel_Direct_Right; // 0x5C0
+        public or action_Menu_Gesture_Wheel_Direct_Stay_Right; // 0x5C8
+        public or action_Menu_Gesture_Wheel_Cancel_Right; // 0x5D0
+        public or action_Menu_Gesture_Wheel_Cancel_Open_Right; // 0x5D8
+        public or action_Menu_Gesture_Wheel_Held_Right; // 0x5E0
+        public or action_Menu_Disable_Gesture_Wheel_Move_Left; // 0x5E8
+        public or action_Menu_Disable_Gesture_Wheel_Rotate_Left; // 0x5F0
+        public or action_Menu_Disable_Gesture_Wheel_Move_Right; // 0x5F8
+        public or action_Menu_Disable_Gesture_Wheel_Rotate_Right; // 0x600
+        public or action_Menu_Reserve_bool; // 0x608
+        public rify action_Menu_Reserve_vector1; // 0x610
+        public tartWrappedLong action_Menu_Reserve_vector2; // 0x618
+        public or action_Menu_Grab; // 0x620
+        public or action_Menu_Drop; // 0x628
+        public tartWrappedLong drone_Left_Joystick; // 0x630
+        public tartWrappedLong drone_Right_Joystick; // 0x638
+        public or drone_Self_Leveling_Mod; // 0x640
+        public or drone_Hold_Altitude_Mod; // 0x648
+        public or drone_Toggle_FPV; // 0x650
+        public or drone_Flip; // 0x658
+        public or drone_Take_Picture; // 0x660
+        public or drone_Cycle_Flight_Preset; // 0x668
+        public or drone_Toggle_Self_Leveling; // 0x670
+        public or drone_Respawn; // 0x678
+        public or drone_Select_Flight_Preset_Micro; // 0x680
+        public or drone_Select_Flight_Preset_Cinematic; // 0x688
+        public or drone_Select_Flight_Preset_Racing; // 0x690
+        public or drone_Select_Flight_Preset_Freestyle; // 0x698
+        public object Global; // 0x6A0
+        public <>9__6_7 One_Hand; // 0x6A8
+        public ÎÍÏÏÌÍÍÏÎ Menu; // 0x6B0
+        public object Action_Menu; // 0x6B8
+        public ÏÌÍÏÎÍÎÍÌÌÎÏÌÏÏÍÌ Drone; // 0x6C0
 
         // ── Methods ──
         public void get_global_Safe_Mode(){} // RVA: 0x7FFD54073B90
@@ -1215,8 +1215,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ActivateActionSetOnLoad : MonoBehaviour
     {
-        public Valve.VR.SteamVR_ActionSet actionSet; // 0x20
-        public 0x66569C88 forSources; // 0x28
+        public PayloadVector actionSet; // 0x20
+        public 2EA1BA7A405A72DE forSources; // 0x28
         public bool disableAllOtherActionSets; // 0x2C
         public bool activateOnStart; // 0x2D
         public bool deactivateOnDestroy; // 0x2E
@@ -1232,13 +1232,13 @@ namespace ThirdParty.Valve.Valve.VR
     {
         public string instance;
         public bool forcingInitialization;
-        public Valve.VR.SteamVR_Behaviour _instance; // 0x8
+        public s _instance; // 0x8
         public bool initializeSteamVROnAwake; // 0x20
         public bool doNotDestroy; // 0x21
-        public Valve.VR.SteamVR_Render steamvr_render; // 0x28
+        public astVelocity steamvr_render; // 0x28
         public bool isPlaying; // 0x10
         public bool initializing; // 0x11
-        public UnityEngine.Coroutine initializeCoroutine; // 0x30
+        public ts initializeCoroutine; // 0x30
         public bool loadedOpenVRDeviceSuccess; // 0x38
         public int lastFrameCount; // 0x14
 
@@ -1264,18 +1264,18 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Boolean : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Action_Boolean isActive; // 0x20
-        public 0x66569C88 actionSet; // 0x28
-        public Valve.VR.SteamVR_Behaviour_BooleanEvent onChange; // 0x30
-        public 0x665685D8 onChangeEvent; // 0x38
-        public Valve.VR.SteamVR_Behaviour_BooleanEvent onUpdate; // 0x40
-        public 0x66568630 onUpdateEvent; // 0x48
-        public Valve.VR.SteamVR_Behaviour_BooleanEvent onPress; // 0x50
-        public 0x66568528 onPressEvent; // 0x58
-        public Valve.VR.SteamVR_Behaviour_BooleanEvent onPressDown; // 0x60
-        public 0x66568478 onPressDownEvent; // 0x68
-        public Valve.VR.SteamVR_Behaviour_BooleanEvent onPressUp; // 0x70
-        public 0x665684D0 onPressUpEvent; // 0x78
+        public or isActive; // 0x20
+        public 2EA1BA7A405A72DE actionSet; // 0x28
+        public sUdonUShortArray onChange; // 0x30
+        public __MetadataCompatible|3_0 onChangeEvent; // 0x38
+        public sUdonUShortArray onUpdate; // 0x40
+        public atible|3_0 onUpdateEvent; // 0x48
+        public sUdonUShortArray onPress; // 0x50
+        public gViews onPressEvent; // 0x58
+        public sUdonUShortArray onPressDown; // 0x60
+        public ersistenceID onPressDownEvent; // 0x68
+        public sUdonUShortArray onPressUp; // 0x70
+        public t_NetworkCallingViews onPressUpEvent; // 0x78
 
         // ── Methods ──
         public void add_onChangeEvent(){} // RVA: 0x7FFD5408EA80
@@ -1311,22 +1311,22 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Pose : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Action_Pose isValid; // 0x20
-        public 0x66569C88 isActive; // 0x28
-        public UnityEngine.Transform origin; // 0x30
-        public Valve.VR.SteamVR_Behaviour_PoseEvent onTransformUpdated; // 0x38
-        public Valve.VR.SteamVR_Behaviour_PoseEvent onTransformChanged; // 0x40
-        public Valve.VR.SteamVR_Behaviour_Pose_ConnectedChangedEvent onConnectedChanged; // 0x48
-        public Valve.VR.SteamVR_Behaviour_Pose_TrackingChangedEvent onTrackingChanged; // 0x50
-        public Valve.VR.SteamVR_Behaviour_Pose_DeviceIndexChangedEvent onDeviceIndexChanged; // 0x58
-        public 0x66568790 onTransformUpdatedEvent; // 0x60
-        public 0x66568738 onTransformChangedEvent; // 0x68
-        public 0x66568898 onConnectedChangedEvent; // 0x70
-        public 0x665687E8 onTrackingChangedEvent; // 0x78
-        public 0x665688F0 onDeviceIndexChangedEvent; // 0x80
+        public eld isValid; // 0x20
+        public 2EA1BA7A405A72DE isActive; // 0x28
+        public object origin; // 0x30
+        public rtArray onTransformUpdated; // 0x38
+        public rtArray onTransformChanged; // 0x40
+        public object onConnectedChanged; // 0x48
+        public r2Array onTrackingChanged; // 0x50
+        public rtArrayVerify onDeviceIndexChanged; // 0x58
+        public atible|3_0 onTransformUpdatedEvent; // 0x60
+        public __MetadataCompatible|3_0 onTransformChangedEvent; // 0x68
+        public bjectMetadataPair onConnectedChangedEvent; // 0x70
+        public Pair onTrackingChangedEvent; // 0x78
+        public .Networking.Tween onDeviceIndexChangedEvent; // 0x80
         public bool broadcastDeviceChanges; // 0x88
         public int deviceIndex; // 0x8C
-        public 0x6656B020 historyBuffer; // 0x90
+        public eValueWithoutEvents historyBuffer; // 0x90
         public int lastFrameUpdated; // 0x98
 
         // ── Methods ──
@@ -1377,14 +1377,14 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Single : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Action_Single isActive; // 0x20
-        public 0x66569C88 inputSource; // 0x28
-        public Valve.VR.SteamVR_Behaviour_SingleEvent onChange; // 0x30
-        public Valve.VR.SteamVR_Behaviour_SingleEvent onUpdate; // 0x38
-        public Valve.VR.SteamVR_Behaviour_SingleEvent onAxis; // 0x40
-        public 0x665689F8 onChangeEvent; // 0x48
-        public 0x66568A50 onUpdateEvent; // 0x50
-        public 0x665689A0 onAxisEvent; // 0x58
+        public rify isActive; // 0x20
+        public 2EA1BA7A405A72DE inputSource; // 0x28
+        public ctor2ArrayT onChange; // 0x30
+        public ctor2ArrayT onUpdate; // 0x38
+        public ctor2ArrayT onAxis; // 0x40
+        public __MetadataCompatible|3_0 onChangeEvent; // 0x48
+        public atible|3_0 onUpdateEvent; // 0x50
+        public tePhysBoneGrab onAxisEvent; // 0x58
 
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x7FFD54092640
@@ -1407,40 +1407,40 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Skeleton : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Action_Skeleton skeletonAvailable; // 0x20
-        public 0x66569C88 isActive; // 0x28
-        public 0x665A0868 fingerCurls; // 0x2C
-        public UnityEngine.Transform thumbCurl; // 0x30
-        public UnityEngine.Transform indexCurl; // 0x38
+        public ckingField skeletonAvailable; // 0x20
+        public 2EA1BA7A405A72DE isActive; // 0x28
+        public rm fingerCurls; // 0x2C
+        public object thumbCurl; // 0x30
+        public object indexCurl; // 0x38
         public bool middleCurl; // 0x40
         public bool ringCurl; // 0x41
         public float pinkyCurl; // 0x44
-        public Valve.VR.SteamVR_Behaviour_SkeletonEvent root; // 0x48
-        public Valve.VR.SteamVR_Behaviour_SkeletonEvent wrist; // 0x50
-        public Valve.VR.SteamVR_Behaviour_SkeletonEvent indexMetacarpal; // 0x58
-        public Valve.VR.SteamVR_Behaviour_Skeleton_ConnectedChangedEvent indexProximal; // 0x60
-        public Valve.VR.SteamVR_Behaviour_Skeleton_TrackingChangedEvent indexMiddle; // 0x68
-        public 0x66568C08 indexDistal; // 0x70
-        public 0x66568C08 indexTip; // 0x78
-        public 0x66568BB0 middleMetacarpal; // 0x80
-        public 0x66568D10 middleProximal; // 0x88
-        public 0x66568C60 middleMiddle; // 0x90
-        public 0x66568B00 middleDistal; // 0x98
-        public Valve.VR.SteamVR_Skeleton_Poser middleTip; // 0xA0
-        public Valve.VR.SteamVR_Action_Single pinkyMetacarpal; // 0xA8
-        public Valve.VR.SteamVR_Skeleton_Poser pinkyProximal; // 0xB0
-        public 0x6656A050 pinkyMiddle; // 0xB8
-        public UnityEngine.Transform[] pinkyDistal; // 0xC0
-        public UnityEngine.Transform[] pinkyTip; // 0xC8
-        public UnityEngine.Transform[] ringMetacarpal; // 0xD0
-        public UnityEngine.Transform[] ringProximal; // 0xD8
-        public UnityEngine.Transform[] ringMiddle; // 0xE0
-        public UnityEngine.Coroutine ringDistal; // 0xE8
-        public UnityEngine.Coroutine ringTip; // 0xF0
-        public UnityEngine.Coroutine thumbMetacarpal; // 0xF8
-        public UnityEngine.Transform[] thumbProximal; // 0x100
-        public System.Nullable`1<0x665A0868> thumbMiddle; // 0x108
-        public UnityEngine.Quaternion thumbDistal;
+        public object root; // 0x48
+        public object wrist; // 0x50
+        public object indexMetacarpal; // 0x58
+        public tor3Array indexProximal; // 0x60
+        public r3ArrayT indexMiddle; // 0x68
+        public atible|3_0 indexDistal; // 0x70
+        public atible|3_0 indexTip; // 0x78
+        public __MetadataCompatible|3_0 middleMetacarpal; // 0x80
+        public bjectMetadataPair middleProximal; // 0x88
+        public Pair middleMiddle; // 0x90
+        public omNetwork middleDistal; // 0x98
+        public anEvent middleTip; // 0xA0
+        public rify pinkyMetacarpal; // 0xA8
+        public anEvent pinkyProximal; // 0xB0
+        public tion1 pinkyMiddle; // 0xB8
+        public ?[] pinkyDistal; // 0xC0
+        public ?[] pinkyTip; // 0xC8
+        public ?[] ringMetacarpal; // 0xD0
+        public ?[] ringProximal; // 0xD8
+        public ?[] ringMiddle; // 0xE0
+        public ts ringDistal; // 0xE8
+        public ts ringTip; // 0xF0
+        public ts thumbMetacarpal; // 0xF8
+        public ?[] thumbProximal; // 0x100
+        public aphy<rm> thumbMiddle; // 0x108
+        public R_12x12 thumbDistal;
 
         // ── Methods ──
         public void get_skeletonAvailable(){} // RVA: 0x7FFD54093190
@@ -1538,37 +1538,37 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_SkeletonCustom : SteamVR_Behaviour_Skeleton
     {
-        public UnityEngine.Transform _wrist; // 0x110
-        public UnityEngine.Transform _thumbMetacarpal; // 0x118
-        public UnityEngine.Transform _thumbProximal; // 0x120
-        public UnityEngine.Transform _thumbMiddle; // 0x128
-        public UnityEngine.Transform _thumbDistal; // 0x130
-        public UnityEngine.Transform _thumbTip; // 0x138
-        public UnityEngine.Transform _thumbAux; // 0x140
-        public UnityEngine.Transform _indexMetacarpal; // 0x148
-        public UnityEngine.Transform _indexProximal; // 0x150
-        public UnityEngine.Transform _indexMiddle; // 0x158
-        public UnityEngine.Transform _indexDistal; // 0x160
-        public UnityEngine.Transform _indexTip; // 0x168
-        public UnityEngine.Transform _indexAux; // 0x170
-        public UnityEngine.Transform _middleMetacarpal; // 0x178
-        public UnityEngine.Transform _middleProximal; // 0x180
-        public UnityEngine.Transform _middleMiddle; // 0x188
-        public UnityEngine.Transform _middleDistal; // 0x190
-        public UnityEngine.Transform _middleTip; // 0x198
-        public UnityEngine.Transform _middleAux; // 0x1A0
-        public UnityEngine.Transform _ringMetacarpal; // 0x1A8
-        public UnityEngine.Transform _ringProximal; // 0x1B0
-        public UnityEngine.Transform _ringMiddle; // 0x1B8
-        public UnityEngine.Transform _ringDistal; // 0x1C0
-        public UnityEngine.Transform _ringTip; // 0x1C8
-        public UnityEngine.Transform _ringAux; // 0x1D0
-        public UnityEngine.Transform _pinkyMetacarpal; // 0x1D8
-        public UnityEngine.Transform _pinkyProximal; // 0x1E0
-        public UnityEngine.Transform _pinkyMiddle; // 0x1E8
-        public UnityEngine.Transform _pinkyDistal; // 0x1F0
-        public UnityEngine.Transform _pinkyTip; // 0x1F8
-        public UnityEngine.Transform _pinkyAux; // 0x200
+        public object _wrist; // 0x110
+        public object _thumbMetacarpal; // 0x118
+        public object _thumbProximal; // 0x120
+        public object _thumbMiddle; // 0x128
+        public object _thumbDistal; // 0x130
+        public object _thumbTip; // 0x138
+        public object _thumbAux; // 0x140
+        public object _indexMetacarpal; // 0x148
+        public object _indexProximal; // 0x150
+        public object _indexMiddle; // 0x158
+        public object _indexDistal; // 0x160
+        public object _indexTip; // 0x168
+        public object _indexAux; // 0x170
+        public object _middleMetacarpal; // 0x178
+        public object _middleProximal; // 0x180
+        public object _middleMiddle; // 0x188
+        public object _middleDistal; // 0x190
+        public object _middleTip; // 0x198
+        public object _middleAux; // 0x1A0
+        public object _ringMetacarpal; // 0x1A8
+        public object _ringProximal; // 0x1B0
+        public object _ringMiddle; // 0x1B8
+        public object _ringDistal; // 0x1C0
+        public object _ringTip; // 0x1C8
+        public object _ringAux; // 0x1D0
+        public object _pinkyMetacarpal; // 0x1D8
+        public object _pinkyProximal; // 0x1E0
+        public object _pinkyMiddle; // 0x1E8
+        public object _pinkyDistal; // 0x1F0
+        public object _pinkyTip; // 0x1F8
+        public object _pinkyAux; // 0x200
 
         // ── Methods ──
         public void AssignBonesArray(){} // RVA: 0x7FFD5409A500
@@ -1595,14 +1595,14 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Vector2 : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Action_Vector2 isActive; // 0x20
-        public 0x66569C88 inputSource; // 0x28
-        public Valve.VR.SteamVR_Behaviour_Vector2Event onChange; // 0x30
-        public Valve.VR.SteamVR_Behaviour_Vector2Event onUpdate; // 0x38
-        public Valve.VR.SteamVR_Behaviour_Vector2Event onAxis; // 0x40
-        public 0x66568F20 onChangeEvent; // 0x48
-        public 0x66568F78 onUpdateEvent; // 0x50
-        public 0x66568EC8 onAxisEvent; // 0x58
+        public tartWrappedLong isActive; // 0x20
+        public 2EA1BA7A405A72DE inputSource; // 0x28
+        public y onChange; // 0x30
+        public y onUpdate; // 0x38
+        public y onAxis; // 0x40
+        public __MetadataCompatible|3_0 onChangeEvent; // 0x48
+        public atible|3_0 onUpdateEvent; // 0x50
+        public tePhysBoneGrab onAxisEvent; // 0x58
 
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x7FFD54092640
@@ -1625,14 +1625,14 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Vector3 : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Action_Vector3 isActive; // 0x20
-        public 0x66569C88 inputSource; // 0x28
-        public Valve.VR.SteamVR_Behaviour_Vector3Event onChange; // 0x30
-        public Valve.VR.SteamVR_Behaviour_Vector3Event onUpdate; // 0x38
-        public Valve.VR.SteamVR_Behaviour_Vector3Event onAxis; // 0x40
-        public 0x66569080 onChangeEvent; // 0x48
-        public 0x665690D8 onUpdateEvent; // 0x50
-        public 0x66569028 onAxisEvent; // 0x58
+        public gVerify isActive; // 0x20
+        public 2EA1BA7A405A72DE inputSource; // 0x28
+        public r4Array onChange; // 0x30
+        public r4Array onUpdate; // 0x38
+        public r4Array onAxis; // 0x40
+        public __MetadataCompatible|3_0 onChangeEvent; // 0x48
+        public atible|3_0 onUpdateEvent; // 0x50
+        public tePhysBoneGrab onAxisEvent; // 0x58
 
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x7FFD54092640
@@ -1655,11 +1655,11 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Camera : MonoBehaviour
     {
-        public UnityEngine.Transform head; // 0x20
-        public UnityEngine.Camera offset; // 0x28
-        public UnityEngine.Transform origin; // 0x30
+        public object head; // 0x20
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ offset; // 0x28
+        public object origin; // 0x30
         public bool camera; // 0x38
-        public System.Collections.Hashtable ears;
+        public mePatterns.MES_SIZE ears;
         public string sceneResolutionScale;
         public string baseName;
         public string headSuffix;
@@ -1708,9 +1708,9 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Ears : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Camera vrcam; // 0x20
+        public _onActiveBindingChange vrcam; // 0x20
         public bool usingSpeakers; // 0x28
-        public UnityEngine.Quaternion offset; // 0x2C
+        public R_12x12 offset; // 0x2C
 
         // ── Methods ──
         public void OnNewPosesApplied(){} // RVA: 0x7FFD540BA890
@@ -1721,22 +1721,22 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Events : Object
     {
-        public Event`1<bool> Calibrating;
-        public Event`2<int,bool> DeviceConnected; // 0x8
-        public Event`3<UnityEngine.Color,float,bool> Fade; // 0x10
-        public 0x6656A6D8 FadeReady; // 0x18
-        public Event`1<bool> HideRenderModels; // 0x20
-        public Event`1<bool> Initializing; // 0x28
-        public Event`1<bool> InputFocus; // 0x30
-        public Event`1<bool> Loading; // 0x38
-        public Event`1<float> LoadingFadeIn; // 0x40
-        public Event`1<float> LoadingFadeOut; // 0x48
-        public Event`1<Valve.VR.TrackedDevicePose_t[]> NewPoses; // 0x50
-        public 0x6656A6D8 NewPosesApplied; // 0x58
-        public Event`1<bool> Initialized; // 0x60
-        public Event`1<bool> OutOfRange; // 0x68
-        public Event`2<Valve.VR.SteamVR_RenderModel,bool> RenderModelLoaded; // 0x70
-        public System.Collections.Generic.Dictionary`2<0x665A0290,Event`1<Valve.VR.VREvent_t>> systemEvents; // 0x78
+        public ed<bool> Calibrating;
+        public astChanged<int,bool> DeviceConnected; // 0x8
+        public ed<?,float,bool> Fade; // 0x10
+        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE FadeReady; // 0x18
+        public ed<bool> HideRenderModels; // 0x20
+        public ed<bool> Initializing; // 0x28
+        public ed<bool> InputFocus; // 0x30
+        public ed<bool> Loading; // 0x38
+        public ed<float> LoadingFadeIn; // 0x40
+        public ed<float> LoadingFadeOut; // 0x48
+        public ed<fications[]> NewPoses; // 0x50
+        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE NewPosesApplied; // 0x58
+        public ed<bool> Initialized; // 0x60
+        public ed<bool> OutOfRange; // 0x68
+        public astChanged<onnected,bool> RenderModelLoaded; // 0x70
+        public URA.DateTime<opy,ed<?>> systemEvents; // 0x78
 
         // ── Methods ──
         public void CalibratingAction(){} // RVA: 0x7FFD540BB0E0
@@ -1761,22 +1761,22 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ExternalCamera : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Action_Pose cameraPose; // 0x20
-        public 0x66569C88 cameraInputSource; // 0x28
-        public 0x6656A890 config; // 0x2C
+        public eld cameraPose; // 0x20
+        public 2EA1BA7A405A72DE cameraInputSource; // 0x28
+        public er config; // 0x2C
         public string configPath; // 0x78
         public bool autoEnableDisableActionSet; // 0x80
-        public 0x66499418 watcher; // 0x88
-        public UnityEngine.Camera cam; // 0x90
-        public UnityEngine.Transform target; // 0x98
-        public UnityEngine.GameObject clipQuad; // 0xA0
-        public UnityEngine.Material clipMaterial; // 0xA8
-        public Valve.VR.SteamVR_ActionSet activatedActionSet; // 0xB0
-        public 0x66569C88 activatedInputSource; // 0xB8
-        public UnityEngine.Material colorMat; // 0xC0
-        public UnityEngine.Material alphaMat; // 0xC8
-        public UnityEngine.Camera[] cameras; // 0xD0
-        public UnityEngine.Rect[] cameraRects; // 0xD8
+        public Inherited.? watcher; // 0x88
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ cam; // 0x90
+        public object target; // 0x98
+        public BuffersImpl clipQuad; // 0xA0
+        public atrix_Injected clipMaterial; // 0xA8
+        public PayloadVector activatedActionSet; // 0xB0
+        public 2EA1BA7A405A72DE activatedInputSource; // 0xB8
+        public atrix_Injected colorMat; // 0xC0
+        public atrix_Injected alphaMat; // 0xC8
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ[] cameras; // 0xD0
+        public dRecorder[] cameraRects; // 0xD8
         public float sceneResolutionScale; // 0xE0
 
         // ── Methods ──
@@ -1798,7 +1798,7 @@ namespace ThirdParty.Valve.Valve.VR
     public class SteamVR_ExternalCamera_LegacyManager : Object
     {
         public int hasCamera;
-        public Action newPosesAction; // 0x8
+        public ÎÌÍÏÏÌÍÏ newPosesAction; // 0x8
 
         // ── Methods ──
         public void get_hasCamera(){} // RVA: 0x7FFD540C1240
@@ -1810,11 +1810,11 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Fade : MonoBehaviour
     {
-        public UnityEngine.Color currentColor; // 0x20
-        public UnityEngine.Color targetColor; // 0x30
-        public UnityEngine.Color deltaColor; // 0x40
+        public object currentColor; // 0x20
+        public object targetColor; // 0x30
+        public object deltaColor; // 0x40
         public bool fadeOverlay; // 0x50
-        public UnityEngine.Material fadeMaterial;
+        public atrix_Injected fadeMaterial;
         public int fadeMaterialColorID; // 0x8
 
         // ── Methods ──
@@ -1830,7 +1830,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Frustum : MonoBehaviour
     {
-        public 0x6656B338 index; // 0x20
+        public ingPinkySplay index; // 0x20
         public float fovLeft; // 0x24
         public float fovRight; // 0x28
         public float fovTop; // 0x2C
@@ -1848,16 +1848,16 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_IK : MonoBehaviour
     {
-        public UnityEngine.Transform target; // 0x20
-        public UnityEngine.Transform start; // 0x28
-        public UnityEngine.Transform joint; // 0x30
-        public UnityEngine.Transform end; // 0x38
-        public UnityEngine.Transform poleVector; // 0x40
-        public UnityEngine.Transform upVector; // 0x48
+        public object target; // 0x20
+        public object start; // 0x28
+        public object joint; // 0x30
+        public object end; // 0x38
+        public object poleVector; // 0x40
+        public object upVector; // 0x48
         public float blendPct; // 0x50
-        public UnityEngine.Transform startXform; // 0x58
-        public UnityEngine.Transform jointXform; // 0x60
-        public UnityEngine.Transform endXform; // 0x68
+        public object startXform; // 0x58
+        public object jointXform; // 0x60
+        public object endXform; // 0x68
 
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x7FFD540C3290
@@ -1872,35 +1872,35 @@ namespace ThirdParty.Valve.Valve.VR
         public bool fileInitialized;
         public bool initialized; // 0x1
         public bool preInitialized; // 0x2
-        public Valve.VR.SteamVR_Input_ActionFile actionFile; // 0x8
+        public ecoveredID actionFile; // 0x8
         public string actionFileHash; // 0x10
-        public System.Action onNonVisualActionsUpdated; // 0x18
-        public 0x66569188 onPosesUpdated; // 0x20
-        public 0x665691E0 onSkeletonsUpdated; // 0x28
+        public ÎÌÍÏÏÌÍÏ onNonVisualActionsUpdated; // 0x18
+        public erializationRecoveryID onPosesUpdated; // 0x20
+        public ID onSkeletonsUpdated; // 0x28
         public bool initializing; // 0x30
         public int startupFrame; // 0x34
-        public Valve.VR.SteamVR_ActionSet[] actionSets; // 0x38
-        public Valve.VR.SteamVR_Action[] actions; // 0x40
-        public 0x66566E20[] actionsIn; // 0x48
-        public 0x66566F80[] actionsOut; // 0x50
-        public Valve.VR.SteamVR_Action_Boolean[] actionsBoolean; // 0x58
-        public Valve.VR.SteamVR_Action_Single[] actionsSingle; // 0x60
-        public Valve.VR.SteamVR_Action_Vector2[] actionsVector2; // 0x68
-        public Valve.VR.SteamVR_Action_Vector3[] actionsVector3; // 0x70
-        public Valve.VR.SteamVR_Action_Pose[] actionsPose; // 0x78
-        public Valve.VR.SteamVR_Action_Skeleton[] actionsSkeleton; // 0x80
-        public Valve.VR.SteamVR_Action_Vibration[] actionsVibration; // 0x88
-        public 0x66566E20[] actionsNonPoseNonSkeletonIn; // 0x90
-        public System.Collections.Generic.Dictionary`2<string,Valve.VR.SteamVR_ActionSet> actionSetsByPath; // 0x98
-        public System.Collections.Generic.Dictionary`2<string,Valve.VR.SteamVR_ActionSet> actionSetsByPathLowered; // 0xA0
-        public System.Collections.Generic.Dictionary`2<string,Valve.VR.SteamVR_Action> actionsByPath; // 0xA8
-        public System.Collections.Generic.Dictionary`2<string,Valve.VR.SteamVR_Action> actionsByPathLowered; // 0xB0
-        public System.Collections.Generic.Dictionary`2<string,Valve.VR.SteamVR_ActionSet> actionSetsByPathCache; // 0xB8
-        public System.Collections.Generic.Dictionary`2<string,Valve.VR.SteamVR_Action> actionsByPathCache; // 0xC0
-        public System.Collections.Generic.Dictionary`2<string,Valve.VR.SteamVR_Action> actionsByNameCache; // 0xC8
-        public System.Collections.Generic.Dictionary`2<string,Valve.VR.SteamVR_ActionSet> actionSetsByNameCache; // 0xD0
+        public PayloadVector[] actionSets; // 0x38
+        public reateUdon[] actions; // 0x40
+        public onentInfoT[] actionsIn; // 0x48
+        public TypeId>k__BackingField[] actionsOut; // 0x50
+        public or[] actionsBoolean; // 0x58
+        public rify[] actionsSingle; // 0x60
+        public tartWrappedLong[] actionsVector2; // 0x68
+        public gVerify[] actionsVector3; // 0x70
+        public eld[] actionsPose; // 0x78
+        public ckingField[] actionsSkeleton; // 0x80
+        public edStringT[] actionsVibration; // 0x88
+        public onentInfoT[] actionsNonPoseNonSkeletonIn; // 0x90
+        public URA.DateTime<string,PayloadVector> actionSetsByPath; // 0x98
+        public URA.DateTime<string,PayloadVector> actionSetsByPathLowered; // 0xA0
+        public URA.DateTime<string,reateUdon> actionsByPath; // 0xA8
+        public URA.DateTime<string,reateUdon> actionsByPathLowered; // 0xB0
+        public URA.DateTime<string,PayloadVector> actionSetsByPathCache; // 0xB8
+        public URA.DateTime<string,reateUdon> actionsByPathCache; // 0xC0
+        public URA.DateTime<string,reateUdon> actionsByNameCache; // 0xC8
+        public URA.DateTime<string,PayloadVector> actionSetsByNameCache; // 0xD0
         public uint sizeVRActiveActionSet_t; // 0xD8
-        public Valve.VR.VRActiveActionSet_t[] setCache; // 0xE0
+        public tivated[] setCache; // 0xE0
 
         // ── Methods ──
         public void add_onNonVisualActionsUpdated(){} // RVA: 0x7FFD5409C560
@@ -1981,12 +1981,12 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Input_ActionFile : Object
     {
-        public System.Collections.Generic.List`1<0x665694A0> actions; // 0x10
-        public System.Collections.Generic.List`1<0x665693F0> action_sets; // 0x18
-        public System.Collections.Generic.List`1<0x66569398> default_bindings; // 0x20
-        public System.Collections.Generic.List`1<System.Collections.Generic.Dictionary`2<string,string>> localization; // 0x28
+        public URA.woDigitYearMax<tanceStorageIdDelegate> actions; // 0x10
+        public URA.woDigitYearMax<tanceRestoredDelegate> action_sets; // 0x18
+        public URA.woDigitYearMax<Filter> default_bindings; // 0x20
+        public URA.woDigitYearMax<URA.DateTime<string,string>> localization; // 0x28
         public string filePath; // 0x30
-        public System.Collections.Generic.List`1<0x665694F8> localizationHelperList; // 0x38
+        public URA.woDigitYearMax<ID> localizationHelperList; // 0x38
         public string findString_appKeyStart;
         public string findString_appKeyEnd;
 
@@ -2465,7 +2465,7 @@ namespace ThirdParty.Valve.Valve.VR
     public class SteamVR_Input_BindingFile : Object
     {
         public string app_key; // 0x10
-        public System.Collections.Generic.Dictionary`2<string,0x66569918> bindings; // 0x18
+        public URA.DateTime<string,yClass73_1> bindings; // 0x18
         public string controller_type; // 0x20
         public string description; // 0x28
         public string name; // 0x30
@@ -2500,10 +2500,10 @@ namespace ThirdParty.Valve.Valve.VR
     {
         public int numSources;
         public ulong[] inputSourceHandlesBySource; // 0x8
-        public System.Collections.Generic.Dictionary`2<ulong,0x66569C88> inputSourceSourcesByHandle; // 0x10
-        public System.Type enumType; // 0x18
-        public System.Type descriptionType; // 0x20
-        public 0x66569C88[] allSources; // 0x28
+        public URA.DateTime<ulong,2EA1BA7A405A72DE> inputSourceSourcesByHandle; // 0x10
+        public object enumType; // 0x18
+        public object descriptionType; // 0x20
+        public 2EA1BA7A405A72DE[] allSources; // 0x28
 
         // ── Methods ──
         public void GetHandle(){} // RVA: 0x7FFD540AAA30
@@ -2516,27 +2516,27 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_LoadLevel : MonoBehaviour
     {
-        public Valve.VR.SteamVR_LoadLevel loading;
+        public teOriginTrackedDeviceInfo loading;
         public string progress; // 0x20
         public string progressTexture; // 0x28
         public string internalProcessArgs; // 0x30
         public bool loadAdditive; // 0x38
         public bool loadAsync; // 0x39
-        public UnityEngine.Texture loadingScreen; // 0x40
-        public UnityEngine.Texture progressBarEmpty; // 0x48
-        public UnityEngine.Texture progressBarFull; // 0x50
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField loadingScreen; // 0x40
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField progressBarEmpty; // 0x48
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField progressBarFull; // 0x50
         public float loadingScreenWidthInMeters; // 0x58
         public float progressBarWidthInMeters; // 0x5C
         public float loadingScreenDistance; // 0x60
-        public UnityEngine.Transform loadingScreenTransform; // 0x68
-        public UnityEngine.Transform progressBarTransform; // 0x70
-        public UnityEngine.Texture front; // 0x78
-        public UnityEngine.Texture back; // 0x80
-        public UnityEngine.Texture left; // 0x88
-        public UnityEngine.Texture right; // 0x90
-        public UnityEngine.Texture top; // 0x98
-        public UnityEngine.Texture bottom; // 0xA0
-        public UnityEngine.Color backgroundColor; // 0xA8
+        public object loadingScreenTransform; // 0x68
+        public object progressBarTransform; // 0x70
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField front; // 0x78
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField back; // 0x80
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField left; // 0x88
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField right; // 0x90
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField top; // 0x98
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField bottom; // 0xA0
+        public object backgroundColor; // 0xA8
         public bool showGrid; // 0xB8
         public float fadeOutTime; // 0xBC
         public float fadeInTime; // 0xC0
@@ -2545,8 +2545,8 @@ namespace ThirdParty.Valve.Valve.VR
         public float loadingScreenFadeOutTime; // 0xCC
         public float fadeRate; // 0xD0
         public float alpha; // 0xD4
-        public UnityEngine.AsyncOperation async; // 0xD8
-        public UnityEngine.RenderTexture renderTexture; // 0xE0
+        public ntaxFlags async; // 0xD8
+        public Offset renderTexture; // 0xE0
         public ulong loadingScreenOverlayHandle; // 0xE8
         public ulong progressBarOverlayHandle; // 0xF0
         public bool autoTriggerOnEnable; // 0xF8
@@ -2567,22 +2567,22 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Menu : MonoBehaviour
     {
-        public UnityEngine.Texture texture; // 0x20
-        public UnityEngine.Texture scale; // 0x28
-        public UnityEngine.Texture logo; // 0x30
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField texture; // 0x20
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField scale; // 0x28
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField logo; // 0x30
         public float logoHeight; // 0x38
         public float menuOffset; // 0x3C
-        public UnityEngine.Vector2 scaleLimits; // 0x40
+        public tionX scaleLimits; // 0x40
         public float scaleRate; // 0x48
-        public Valve.VR.SteamVR_Overlay overlay; // 0x50
-        public UnityEngine.Camera overlayCam; // 0x58
-        public UnityEngine.Vector4 uvOffset; // 0x60
+        public TrackingChanged overlay; // 0x50
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ overlayCam; // 0x58
+        public get_boundingBoxMode uvOffset; // 0x60
         public float distance; // 0x70
         public float <scale>k__BackingField; // 0x74
         public string scaleLimitX; // 0x78
         public string scaleLimitY; // 0x80
         public string scaleRateText; // 0x88
-        public 0x664DD0F8 savedCursorLockState; // 0x90
+        public eOffset savedCursorLockState; // 0x90
         public bool savedCursorVisible; // 0x94
 
         // ── Methods ──
@@ -2602,14 +2602,14 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Overlay : MonoBehaviour
     {
-        public UnityEngine.Texture instance; // 0x20
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField instance; // 0x20
         public float key; // 0x28
         public float distance; // 0x2C
         public float alpha; // 0x30
-        public UnityEngine.Vector4 uvOffset; // 0x34
-        public UnityEngine.Vector2 mouseScale; // 0x44
-        public 0x665A0F48 inputMethod; // 0x4C
-        public Valve.VR.SteamVR_Overlay <instance>k__BackingField;
+        public get_boundingBoxMode uvOffset; // 0x34
+        public tionX mouseScale; // 0x44
+        public eDataCompressed inputMethod; // 0x4C
+        public TrackingChanged <instance>k__BackingField;
         public ulong handle; // 0x50
 
         // ── Methods ──
@@ -2630,9 +2630,9 @@ namespace ThirdParty.Valve.Valve.VR
         public float wireframeHeight; // 0x24
         public bool drawWireframeWhenSelectedOnly; // 0x28
         public bool drawInGame; // 0x29
-        public 0x6656AC58 size; // 0x2C
-        public UnityEngine.Color color; // 0x30
-        public UnityEngine.Vector3[] vertices; // 0x40
+        public object size; // 0x2C
+        public object color; // 0x30
+        public amut[] vertices; // 0x40
 
         // ── Methods ──
         public void GetBounds(){} // RVA: 0x7FFD540CBA40
@@ -2647,18 +2647,18 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Render : MonoBehaviour
     {
-        public Valve.VR.SteamVR_ExternalCamera eye; // 0x20
+        public ctiveOrigin eye; // 0x20
         public string instance; // 0x28
-        public 0x6659FE18 pauseRendering;
+        public kedDeviceActivityLevel pauseRendering;
         public bool isQuitting; // 0x4
-        public Valve.VR.SteamVR_Camera[] cameras; // 0x30
-        public Valve.VR.TrackedDevicePose_t[] poses; // 0x38
-        public Valve.VR.TrackedDevicePose_t[] gamePoses; // 0x40
+        public _onActiveBindingChange[] cameras; // 0x30
+        public fications[] poses; // 0x38
+        public fications[] gamePoses; // 0x40
         public bool _pauseRendering; // 0x5
-        public UnityEngine.WaitForEndOfFrame waitForEndOfFrame; // 0x48
-        public System.Nullable`1<bool> doesPathExist; // 0x50
+        public s waitForEndOfFrame; // 0x48
+        public aphy<bool> doesPathExist; // 0x50
         public float timeScale; // 0x54
-        public 0x665A0970[] screenshotTypes; // 0x58
+        public ?[] screenshotTypes; // 0x58
 
         // ── Methods ──
         public void get_eye(){} // RVA: 0x7FFD540CD680
@@ -2690,26 +2690,26 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_RenderModel : MonoBehaviour
     {
-        public 0x6656B338 renderModelName; // 0x20
-        public 0x66569C88 initializedAttachPoints; // 0x24
+        public ingPinkySplay renderModelName; // 0x20
+        public 2EA1BA7A405A72DE initializedAttachPoints; // 0x24
         public string modelOverrideWarning;
         public string modelOverride; // 0x28
-        public UnityEngine.Shader shader; // 0x30
+        public ojectionMatrix_Injected shader; // 0x30
         public bool verbose; // 0x38
         public bool createComponents; // 0x39
         public bool updateDynamically; // 0x3A
-        public Valve.VR.RenderModel_ControllerMode_State_t controllerModeState; // 0x3B
+        public s_Matrix34_Array controllerModeState; // 0x3B
         public string k_localTransformName;
         public string <renderModelName>k__BackingField; // 0x40
         public bool <initializedAttachPoints>k__BackingField; // 0x48
-        public System.Collections.Generic.Dictionary`2<string,UnityEngine.Transform> componentAttachPoints; // 0x50
-        public System.Collections.Generic.List`1<UnityEngine.MeshRenderer> meshRenderers; // 0x58
-        public System.Collections.Hashtable models;
-        public System.Collections.Hashtable materials; // 0x8
-        public Action deviceConnectedAction; // 0x60
-        public Action hideRenderModelsAction; // 0x68
-        public Action modelSkinSettingsHaveChangedAction; // 0x70
-        public System.Collections.Generic.Dictionary`2<int,string> nameCache; // 0x78
+        public URA.DateTime<string,?> componentAttachPoints; // 0x50
+        public URA.woDigitYearMax<terialIndex> meshRenderers; // 0x58
+        public mePatterns.MES_SIZE models;
+        public mePatterns.MES_SIZE materials; // 0x8
+        public ÎÌÍÏÏÌÍÏ deviceConnectedAction; // 0x60
+        public ÎÌÍÏÏÌÍÏ hideRenderModelsAction; // 0x68
+        public ÎÌÍÏÏÌÍÏ modelSkinSettingsHaveChangedAction; // 0x70
+        public URA.DateTime<int,string> nameCache; // 0x78
 
         // ── Methods ──
         public void get_renderModelName(){} // RVA: 0x7FFD4E3BE740
@@ -2746,9 +2746,9 @@ namespace ThirdParty.Valve.Valve.VR
     public class SteamVR_RingBuffer`1 : Object
     {
         public bool UseDateTimeForTicks;
-        public T[] buffer;
+        public T1717691200[] buffer;
         public int currentIndex;
-        public T lastElement;
+        public T1717691200 lastElement;
         public bool cleared;
 
         // ── Methods ──
@@ -2763,23 +2763,23 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Settings : ScriptableObject
     {
-        public Valve.VR.SteamVR_Settings instance;
+        public t_skeletalTransformSpace instance;
         public bool trackingSpace; // 0x18
         public bool lockPhysicsUpdateRateToRenderFrequency; // 0x19
-        public 0x665A0028 trackingSpaceOrigin; // 0x1C
+        public kedDeviceProperty trackingSpaceOrigin; // 0x1C
         public string actionsFilePath; // 0x20
         public string steamVRInputPath; // 0x28
-        public 0x6656A100 inputUpdateMode; // 0x30
-        public 0x6656A100 poseUpdateMode; // 0x34
+        public datingSourceOnAccess inputUpdateMode; // 0x30
+        public datingSourceOnAccess poseUpdateMode; // 0x34
         public bool activateFirstActionSetOnStart; // 0x38
         public string editorAppKey; // 0x40
         public bool autoEnableVR; // 0x48
         public bool legacyMixedRealityCamera; // 0x49
-        public Valve.VR.SteamVR_Action_Pose mixedRealityCameraPose; // 0x50
-        public 0x66569C88 mixedRealityCameraInputSource; // 0x58
+        public eld mixedRealityCameraPose; // 0x50
+        public 2EA1BA7A405A72DE mixedRealityCameraInputSource; // 0x58
         public bool mixedRealityActionSetAutoEnable; // 0x5C
-        public UnityEngine.GameObject previewHandLeft; // 0x60
-        public UnityEngine.GameObject previewHandRight; // 0x68
+        public BuffersImpl previewHandLeft; // 0x60
+        public BuffersImpl previewHandRight; // 0x68
         public string previewLeftDefaultAssetName;
         public string previewRightDefaultAssetName;
         public string defaultSettingsAssetName;
@@ -2800,8 +2800,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Skeleton_Pose : ScriptableObject
     {
-        public 0x66569D38 leftHand; // 0x18
-        public 0x66569D38 rightHand; // 0x20
+        public e=95 leftHand; // 0x18
+        public e=95 rightHand; // 0x20
         public int leftHandInputSource;
         public int rightHandInputSource;
         public bool applyToSkeletonRoot; // 0x28
@@ -2816,19 +2816,19 @@ namespace ThirdParty.Valve.Valve.VR
         public bool blendPoseCount; // 0x20
         public bool blendEditorExpanded; // 0x21
         public string[] poseNames; // 0x28
-        public UnityEngine.GameObject overridePreviewLeftHandPrefab; // 0x30
-        public UnityEngine.GameObject overridePreviewRightHandPrefab; // 0x38
-        public Valve.VR.SteamVR_Skeleton_Pose skeletonMainPose; // 0x40
-        public System.Collections.Generic.List`1<Valve.VR.SteamVR_Skeleton_Pose> skeletonAdditionalPoses; // 0x48
+        public BuffersImpl overridePreviewLeftHandPrefab; // 0x30
+        public BuffersImpl overridePreviewRightHandPrefab; // 0x38
+        public 7 skeletonMainPose; // 0x40
+        public URA.woDigitYearMax<7> skeletonAdditionalPoses; // 0x48
         public bool showLeftPreview; // 0x50
         public bool showRightPreview; // 0x51
-        public UnityEngine.GameObject previewLeftInstance; // 0x58
-        public UnityEngine.GameObject previewRightInstance; // 0x60
+        public BuffersImpl previewLeftInstance; // 0x58
+        public BuffersImpl previewRightInstance; // 0x60
         public int previewPoseSelection; // 0x68
-        public System.Collections.Generic.List`1<0x66569F48> blendingBehaviours; // 0x70
-        public 0x6656A050 blendedSnapshotL; // 0x78
-        public 0x6656A050 blendedSnapshotR; // 0x80
-        public 0x66569E98[] blendPoses; // 0x88
+        public URA.woDigitYearMax<eBinding> blendingBehaviours; // 0x70
+        public tion1 blendedSnapshotL; // 0x78
+        public tion1 blendedSnapshotR; // 0x80
+        public ?[] blendPoses; // 0x88
         public int boneCount; // 0x90
         public bool poseUpdatedThisFrame; // 0x94
         public float scale; // 0x98
@@ -2857,13 +2857,13 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Skybox : MonoBehaviour
     {
-        public UnityEngine.Texture front; // 0x20
-        public UnityEngine.Texture back; // 0x28
-        public UnityEngine.Texture left; // 0x30
-        public UnityEngine.Texture right; // 0x38
-        public UnityEngine.Texture top; // 0x40
-        public UnityEngine.Texture bottom; // 0x48
-        public 0x6656B128 StereoCellSize; // 0x50
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField front; // 0x20
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField back; // 0x28
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField left; // 0x30
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField right; // 0x38
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField top; // 0x40
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField bottom; // 0x48
+        public TransformSpace StereoCellSize; // 0x50
         public float StereoIpdMm; // 0x54
 
         // ── Methods ──
@@ -2878,7 +2878,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_SphericalProjection : MonoBehaviour
     {
-        public UnityEngine.Material material;
+        public atrix_Injected material;
 
         // ── Methods ──
         public void Set(){} // RVA: 0x7FFD540D8480
@@ -2888,9 +2888,9 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_TrackedCamera : Object
     {
-        public 0x6656B230[] distorted;
-        public 0x6656B230[] undistorted; // 0x8
-        public 0x6656B288[] videostreams; // 0x10
+        public ?[] distorted;
+        public ?[] undistorted; // 0x8
+        public Type[] videostreams; // 0x10
 
         // ── Methods ──
         public void Distorted(){} // RVA: 0x7FFD540D8B00
@@ -2902,10 +2902,10 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_TrackedObject : MonoBehaviour
     {
-        public 0x6656B338 isValid; // 0x20
-        public UnityEngine.Transform origin; // 0x28
+        public ingPinkySplay isValid; // 0x20
+        public object origin; // 0x28
         public bool <isValid>k__BackingField; // 0x30
-        public Action newPosesAction; // 0x38
+        public ÎÌÍÏÏÌÍÏ newPosesAction; // 0x38
 
         // ── Methods ──
         public void get_isValid(){} // RVA: 0x7FFD4E367450
@@ -2920,7 +2920,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_TrackingReferenceManager : MonoBehaviour
     {
-        public System.Collections.Generic.Dictionary`2<uint,0x6656B3E8> trackingReferences; // 0x20
+        public URA.DateTime<uint,rCurls> trackingReferences; // 0x20
 
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD540DAA10

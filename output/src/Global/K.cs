@@ -50,13 +50,13 @@ public class Kernel32 : Object
 
 public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<0x664DC180,float> _dictionary; // 0x10
+    public URA.DateTime<numeratorObject.posed,rs> _dictionary; // 0x10
 }
 
 public class KeyComparer`1 : Object
 {
-    public KeyComparer`1<T> Default;
-    public System.Collections.Generic.IComparer`1<T> actualComparer;
+    public Pair<System.String,T>>.get_Current<T1717697648> Default;
+    public URA.ndar_data<T1717697648> actualComparer;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -66,7 +66,7 @@ public class KeyComparer`1 : Object
 
 public class KeyEnumerator : ValueType
 {
-    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<T,byte>> Current;
+    public URA.saAbbrevEnglishEraNames<URA.mes<T1717724480,byte>> Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -77,8 +77,8 @@ public class KeyEnumerator : ValueType
 
 public class KeyIterator : ValueType
 {
-    public int System.Collections.IEnumerator.Current; // 0x10
-    public Photon.Client.NonAllocDictionary`2<byte,object> Current; // 0x18
+    public int System.Collections.IEnumerator.Current;
+    public Ease_Out.ÍÍÏÍÌÍÍÌÌÏÍÏÌÍÍÍÍÍÌÌ<T1717720768,T1717720784> Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -92,7 +92,7 @@ public class KeyIterator : ValueType
 
 public class KeyList : Object
 {
-    public System.Collections.Generic.SortedList`2<U,T> Count;
+    public URA.yKey<T1717598208,T1717598224> Count;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -117,7 +117,7 @@ public class KeyList : Object
 
 public class KeyValuePairComparer : Comparer`1
 {
-    public System.Collections.Generic.IComparer`1<0x664CA170> keyComparer; // 0x10
+    public URA.ndar_data<T1717597968> keyComparer;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -126,7 +126,7 @@ public class KeyValuePairComparer : Comparer`1
 
 public class KeyValuePairProperty : Property`2
 {
-    public V Name;
+    public T1717740272 Name;
 
     // ── Methods ──
     public void get_Name(){} // RVA: 0x7FFD4E078E90
@@ -136,5 +136,5 @@ public class KeyValuePairProperty : Property`2
 
 public class Keywords : Object
 {
-    public 0x6643CDF8 ServiceProviderInitialized;
+    public esCore.alendarId ServiceProviderInitialized;
 }

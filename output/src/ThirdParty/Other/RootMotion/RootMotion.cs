@@ -30,8 +30,8 @@ namespace ThirdParty.Other.RootMotion
     {
         public int isBaking; // 0x20
         public float bakingProgress; // 0x24
-        public 0x6651C6B0 clipLength; // 0x28
-        public UnityEngine.AnimationClip[] animationClips; // 0x30
+        public object clipLength; // 0x28
+        public r[] animationClips; // 0x30
         public string[] animationStates; // 0x38
         public bool loop; // 0x40
         public string saveToFolder; // 0x48
@@ -39,8 +39,8 @@ namespace ThirdParty.Other.RootMotion
         public string saveName; // 0x58
         public bool <isBaking>k__BackingField; // 0x60
         public float <bakingProgress>k__BackingField; // 0x64
-        public UnityEngine.Animator animator; // 0x68
-        public UnityEngine.Playables.PlayableDirector director; // 0x70
+        public stfix animator; // 0x68
+        public oUpdateAPI.ool director; // 0x70
         public float <clipLength>k__BackingField; // 0x78
 
         // ── Methods ──
@@ -77,10 +77,10 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedLimbOrientations : Object
     {
-        public 0x6651CAD0 UMA; // 0x10
-        public 0x6651CAD0 MaxBiped; // 0x18
-        public 0x6651CAD0 leftLeg; // 0x20
-        public 0x6651CAD0 rightLeg; // 0x28
+        public sColorGammaB_Int32 UMA; // 0x10
+        public sColorGammaB_Int32 MaxBiped; // 0x18
+        public sColorGammaB_Int32 leftLeg; // 0x20
+        public sColorGammaB_Int32 rightLeg; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E389A50
@@ -138,23 +138,23 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedReferences : Object
     {
-        public UnityEngine.Transform isFilled; // 0x10
-        public UnityEngine.Transform isEmpty; // 0x18
-        public UnityEngine.Transform leftThigh; // 0x20
-        public UnityEngine.Transform leftCalf; // 0x28
-        public UnityEngine.Transform leftFoot; // 0x30
-        public UnityEngine.Transform rightThigh; // 0x38
-        public UnityEngine.Transform rightCalf; // 0x40
-        public UnityEngine.Transform rightFoot; // 0x48
-        public UnityEngine.Transform leftUpperArm; // 0x50
-        public UnityEngine.Transform leftForearm; // 0x58
-        public UnityEngine.Transform leftHand; // 0x60
-        public UnityEngine.Transform rightUpperArm; // 0x68
-        public UnityEngine.Transform rightForearm; // 0x70
-        public UnityEngine.Transform rightHand; // 0x78
-        public UnityEngine.Transform head; // 0x80
-        public UnityEngine.Transform[] spine; // 0x88
-        public UnityEngine.Transform[] eyes; // 0x90
+        public object isFilled; // 0x10
+        public object isEmpty; // 0x18
+        public object leftThigh; // 0x20
+        public object leftCalf; // 0x28
+        public object leftFoot; // 0x30
+        public object rightThigh; // 0x38
+        public object rightCalf; // 0x40
+        public object rightFoot; // 0x48
+        public object leftUpperArm; // 0x50
+        public object leftForearm; // 0x58
+        public object leftHand; // 0x60
+        public object rightUpperArm; // 0x68
+        public object rightForearm; // 0x70
+        public object rightHand; // 0x78
+        public object head; // 0x80
+        public ?[] spine; // 0x88
+        public ?[] eyes; // 0x90
 
         // ── Methods ──
         public void get_isFilled(){} // RVA: 0x7FFD4E38E6C0
@@ -194,7 +194,7 @@ namespace ThirdParty.Other.RootMotion
     public class DemoGUIMessage : MonoBehaviour
     {
         public string text; // 0x20
-        public UnityEngine.Color color; // 0x28
+        public object color; // 0x28
 
         // ── Methods ──
         public void OnGUI(){} // RVA: 0x7FFD4E3952C0
@@ -204,12 +204,12 @@ namespace ThirdParty.Other.RootMotion
     public class GenericBaker : Baker
     {
         public bool markAsLegacy; // 0x80
-        public UnityEngine.Transform root; // 0x88
-        public UnityEngine.Transform rootNode; // 0x90
-        public UnityEngine.Transform[] ignoreList; // 0x98
-        public UnityEngine.Transform[] bakePositionList; // 0xA0
-        public 0x6651C970[] children; // 0xA8
-        public 0x6651C970 rootChild; // 0xB0
+        public object root; // 0x88
+        public object rootNode; // 0x90
+        public ?[] ignoreList; // 0x98
+        public ?[] bakePositionList; // 0xA0
+        public h_Null_ModelNumber_String.ollisionBounds_FadeDistance_Float[] children; // 0xA8
+        public h_Null_ModelNumber_String.ollisionBounds_FadeDistance_Float rootChild; // 0xB0
         public int rootChildIndex; // 0xB8
 
         // ── Methods ──
@@ -244,19 +244,19 @@ namespace ThirdParty.Other.RootMotion
         public bool bakeHandIK; // 0x80
         public float IKKeyReductionError; // 0x84
         public int muscleFrameRateDiv; // 0x88
-        public 0x6651C918[] bakerMuscles; // 0x90
-        public 0x6651C8C0 rootQT; // 0x98
-        public 0x6651C8C0 leftFootQT; // 0xA0
-        public 0x6651C8C0 rightFootQT; // 0xA8
-        public 0x6651C8C0 leftHandQT; // 0xB0
-        public 0x6651C8C0 rightHandQT; // 0xB8
+        public h_Null_ModelNumber_String.ds_CenterMarkerOn_Bool[] bakerMuscles; // 0x90
+        public h_Null_ModelNumber_String.ingsOnExit_Bool rootQT; // 0x98
+        public h_Null_ModelNumber_String.ingsOnExit_Bool leftFootQT; // 0xA0
+        public h_Null_ModelNumber_String.ingsOnExit_Bool rightFootQT; // 0xA8
+        public h_Null_ModelNumber_String.ingsOnExit_Bool leftHandQT; // 0xB0
+        public h_Null_ModelNumber_String.ingsOnExit_Bool rightHandQT; // 0xB8
         public float[] muscles; // 0xC0
-        public UnityEngine.HumanPose pose; // 0xC8
-        public ÍÏÌÍÌ handler; // 0xF0
-        public UnityEngine.Vector3 bodyPosition; // 0xF8
-        public UnityEngine.Quaternion bodyRotation; // 0x104
+        public isionCallbacks pose; // 0xC8
+        public acks handler; // 0xF0
+        public amut bodyPosition; // 0xF8
+        public R_12x12 bodyRotation; // 0x104
         public int mN; // 0x114
-        public UnityEngine.Quaternion lastBodyRotation; // 0x118
+        public R_12x12 lastBodyRotation; // 0x118
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E386E90
@@ -358,7 +358,7 @@ namespace ThirdParty.Other.RootMotion
 
     public class Singleton`1 : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMasterSettings instance;
+        public ce.? instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD4E2ADC40
@@ -368,11 +368,11 @@ namespace ThirdParty.Other.RootMotion
 
     public class SolverManager : MonoBehaviour
     {
-        public System.Func`1<object> animatePhysics;
-        public System.Action`3<string,string,object> isAnimated; // 0x8
+        public ormation<object> animatePhysics;
+        public formation<string,string,object> isAnimated; // 0x8
         public bool fixTransforms; // 0x20
-        public UnityEngine.Animator animator; // 0x28
-        public UnityEngine.Animation legacy; // 0x30
+        public stfix animator; // 0x28
+        public usInEvent>b__10_0 legacy; // 0x30
         public bool updateFrame; // 0x38
         public bool componentInitiated; // 0x39
         public bool skipSolverUpdate; // 0x3A
@@ -397,7 +397,7 @@ namespace ThirdParty.Other.RootMotion
 
     public class TriggerEventBroadcaster : MonoBehaviour
     {
-        public UnityEngine.GameObject target; // 0x20
+        public BuffersImpl target; // 0x20
 
         // ── Methods ──
         public void OnTriggerEnter(){} // RVA: 0x7FFD4E39B0B0

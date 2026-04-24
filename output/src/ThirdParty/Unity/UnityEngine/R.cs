@@ -7,8 +7,7 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class RangeInt : ValueType
     {
-        public int end; // 0x10
-        public int length; // 0x14
+        public object end;
 
         // ── Methods ──
         public void get_end(){} // RVA: 0x7FFD54CE3290
@@ -17,8 +16,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Ray : ValueType
     {
-        public UnityEngine.Vector3 origin; // 0x10
-        public UnityEngine.Vector3 direction; // 0x1C
+        public amut origin; // 0x10
+        public amut direction; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C863A0
@@ -32,11 +31,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RaycastHit : ValueType
     {
-        public UnityEngine.Vector3 collider; // 0x10
-        public UnityEngine.Vector3 colliderInstanceID; // 0x1C
+        public amut collider; // 0x10
+        public amut colliderInstanceID; // 0x1C
         public uint point; // 0x28
         public float normal; // 0x2C
-        public UnityEngine.Vector2 barycentricCoordinate; // 0x30
+        public tionX barycentricCoordinate; // 0x30
         public int distance; // 0x38
 
         // ── Methods ──
@@ -63,9 +62,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RaycastHit2D : ValueType
     {
-        public UnityEngine.Vector2 centroid; // 0x10
-        public UnityEngine.Vector2 point; // 0x18
-        public UnityEngine.Vector2 normal; // 0x20
+        public tionX centroid; // 0x10
+        public tionX point; // 0x18
+        public tionX normal; // 0x20
         public float distance; // 0x28
         public float fraction; // 0x2C
         public int collider; // 0x30
@@ -192,7 +191,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RectTransform : Transform
     {
-        public ReapplyDrivenProperties rect;
+        public object rect;
 
         // ── Methods ──
         public void add_reapplyDrivenProperties(){} // RVA: 0x7FFD54CEE390
@@ -242,9 +241,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ReflectionProbe : Behaviour
     {
-        public System.Action`2<UnityEngine.ReflectionProbe,0x664D9E18> type;
-        public System.Collections.Generic.Dictionary`2<int,System.Action`1<UnityEngine.Texture>> size; // 0x8
-        public System.Collections.Generic.List`1<System.Action`1<UnityEngine.Texture>> center; // 0x10
+        public rectoryInformation<ÍÌÍÏÏÍÎÌÍÌÌÏÍÎÏÏ,Ptr> type;
+        public URA.DateTime<int,ileFullDirectoryInformation<ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField>> size; // 0x8
+        public URA.woDigitYearMax<ileFullDirectoryInformation<ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField>> center; // 0x10
 
         // ── Methods ──
         public void get_type(){} // RVA: 0x7FFD54C7CC10
@@ -370,7 +369,7 @@ namespace ThirdParty.Unity.UnityEngine
     public class RemoteConfigSettings : Object
     {
         public UIntPtr m_Ptr; // 0x10
-        public System.Action`1<bool> Updated; // 0x18
+        public ileFullDirectoryInformation<bool> Updated; // 0x18
 
         // ── Methods ──
         public void RemoteConfigSettingsUpdated(){} // RVA: 0x7FFD550AE150
@@ -378,9 +377,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RemoteSettings : Object
     {
-        public UpdatedEventHandler Updated;
-        public System.Action BeforeFetchFromServer; // 0x8
-        public System.Action`3<bool,bool,int> Completed; // 0x10
+        public object Updated;
+        public ÎÌÍÏÏÌÍÏ BeforeFetchFromServer; // 0x8
+        public formation<bool,bool,int> Completed; // 0x10
 
         // ── Methods ──
         public void RemoteSettingsUpdated(){} // RVA: 0x7FFD550AE010
@@ -767,9 +766,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RequireComponent : Attribute
     {
-        public System.Type m_Type0; // 0x10
-        public System.Type m_Type1; // 0x18
-        public System.Type m_Type2; // 0x20
+        public object m_Type0; // 0x10
+        public object m_Type1; // 0x18
+        public object m_Type2; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240 | overloaded x2
@@ -779,7 +778,7 @@ namespace ThirdParty.Unity.UnityEngine
     {
         public int width; // 0x10
         public int height; // 0x14
-        public UnityEngine.RefreshRate refreshRateRatio; // 0x18
+        public eld refreshRateRatio; // 0x18
 
         // ── Methods ──
         public void get_width(){} // RVA: 0x7FFD543B3F90
@@ -795,7 +794,7 @@ namespace ThirdParty.Unity.UnityEngine
     public class ResourceRequest : AsyncOperation
     {
         public string asset; // 0x20
-        public System.Type m_Type; // 0x28
+        public object m_Type; // 0x28
 
         // ── Methods ──
         public void GetResult(){} // RVA: 0x7FFD54CD8980
@@ -817,8 +816,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ResourcesAPI : Object
     {
-        public UnityEngine.ResourcesAPI ActiveAPI;
-        public UnityEngine.ResourcesAPI overrideAPI; // 0x8
+        public ode ActiveAPI;
+        public ode overrideAPI; // 0x8
 
         // ── Methods ──
         public void get_ActiveAPI(){} // RVA: 0x7FFD54CD8B50
@@ -1172,7 +1171,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RuntimeInitializeOnLoadMethodAttribute : PreserveAttribute
     {
-        public 0x664DF300 loadType; // 0x10
+        public erLayout loadType; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0 | overloaded x2

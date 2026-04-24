@@ -73,11 +73,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
     public class Glyph : Object
     {
         public uint index; // 0x10
-        public UnityEngine.TextCore.GlyphMetrics metrics; // 0x14
-        public UnityEngine.TextCore.GlyphRect glyphRect; // 0x28
+        public e._TryInitializePackageAsync|0>d metrics; // 0x14
+        public e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d glyphRect; // 0x28
         public float scale; // 0x38
         public int atlasIndex; // 0x3C
-        public 0x666321A8 m_ClassDefinitionType; // 0x40
+        public e.c>g__InitializePackageAsync|2>d m_ClassDefinitionType; // 0x40
 
         // ── Methods ──
         public void get_index(){} // RVA: 0x7FFD54C71CE0
@@ -118,7 +118,7 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
         public int y; // 0x14
         public int width; // 0x18
         public int height; // 0x1C
-        public UnityEngine.TextCore.GlyphRect zero;
+        public e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d zero;
 
         // ── Methods ──
         public void get_x(){} // RVA: 0x7FFD543B3F90

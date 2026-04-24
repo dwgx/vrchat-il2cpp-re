@@ -31,10 +31,10 @@ namespace ThirdParty.Other.TMPro
 
     public class Extents : ValueType
     {
-        public TMPro.Extents zero;
-        public TMPro.Extents uninitialized; // 0x10
-        public UnityEngine.Vector2 min; // 0x10
-        public UnityEngine.Vector2 max; // 0x18
+        public ypointLabel.r zero;
+        public ypointLabel.r uninitialized; // 0x10
+        public tionX min; // 0x10
+        public tionX max; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC7CA00
@@ -72,8 +72,8 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction : Object
     {
-        public System.Collections.Generic.LinkedList`1<System.Action> delegates; // 0x10
-        public System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup; // 0x18
+        public URA.antCultureString<ÎÌÍÏÏÌÍÏ> delegates; // 0x10
+        public URA.DateTime<ÎÌÍÏÏÌÍÏ,URA._cultureInfoNameMap<ÎÌÍÏÏÌÍÏ>> lookup; // 0x18
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD54B39FD0
@@ -84,8 +84,8 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction`1 : Object
     {
-        public System.Collections.Generic.LinkedList`1<System.Action`1<UnityEngine.Object>> delegates; // 0x10
-        public System.Collections.Generic.Dictionary`2<System.Action`1<UnityEngine.Object>,System.Collections.Generic.LinkedListNode`1<System.Action`1<UnityEngine.Object>>> lookup; // 0x18
+        public URA.antCultureString<ileFullDirectoryInformation<T1717692624>> delegates;
+        public URA.DateTime<ileFullDirectoryInformation<T1717692624>,URA._cultureInfoNameMap<ileFullDirectoryInformation<T1717692624>>> lookup;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E090A40
@@ -96,8 +96,8 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction`2 : Object
     {
-        public System.Collections.Generic.LinkedList`1<System.Action`2<U,T>> delegates;
-        public System.Collections.Generic.Dictionary`2<System.Action`2<U,T>,System.Collections.Generic.LinkedListNode`1<System.Action`2<U,T>>> lookup;
+        public URA.antCultureString<rectoryInformation<T1717692640,T1717692656>> delegates;
+        public URA.DateTime<rectoryInformation<T1717692640,T1717692656>,URA._cultureInfoNameMap<rectoryInformation<T1717692640,T1717692656>>> lookup;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD5108D000
@@ -108,8 +108,8 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction`3 : Object
     {
-        public System.Collections.Generic.LinkedList`1<System.Action`3<U,V,T>> delegates;
-        public System.Collections.Generic.Dictionary`2<System.Action`3<U,V,T>,System.Collections.Generic.LinkedListNode`1<System.Action`3<U,V,T>>> lookup;
+        public URA.antCultureString<formation<T1717692672,T1717692688,T1717692704>> delegates;
+        public URA.DateTime<formation<T1717692672,T1717692688,T1717692704>,URA._cultureInfoNameMap<formation<T1717692672,T1717692688,T1717692704>>> lookup;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD5108D000
@@ -120,8 +120,8 @@ namespace ThirdParty.Other.TMPro
 
     public class HighlightState : ValueType
     {
-        public UnityEngine.Color32 color; // 0x10
-        public TMPro.TMP_Offset padding; // 0x14
+        public object color; // 0x10
+        public ypointLabel.Annotation padding; // 0x14
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51512100
@@ -152,12 +152,12 @@ namespace ThirdParty.Other.TMPro
     public class MaterialReference : ValueType
     {
         public int index; // 0x10
-        public TMPro.TMP_FontAsset fontAsset; // 0x18
-        public TMPro.TMP_SpriteAsset spriteAsset; // 0x20
-        public UnityEngine.Material material; // 0x28
+        public ypointLabel.urces fontAsset; // 0x18
+        public ypointLabel.? spriteAsset; // 0x20
+        public atrix_Injected material; // 0x28
         public bool isDefaultMaterial; // 0x30
         public bool isFallbackMaterial; // 0x31
-        public UnityEngine.Material fallbackMaterial; // 0x38
+        public atrix_Injected fallbackMaterial; // 0x38
         public float padding; // 0x40
         public int referenceCount; // 0x44
 
@@ -169,11 +169,11 @@ namespace ThirdParty.Other.TMPro
 
     public class MaterialReferenceManager : Object
     {
-        public TMPro.MaterialReferenceManager instance;
-        public System.Collections.Generic.Dictionary`2<int,UnityEngine.Material> m_FontMaterialReferenceLookup; // 0x10
-        public System.Collections.Generic.Dictionary`2<int,TMPro.TMP_FontAsset> m_FontAssetReferenceLookup; // 0x18
-        public System.Collections.Generic.Dictionary`2<int,TMPro.TMP_SpriteAsset> m_SpriteAssetReferenceLookup; // 0x20
-        public System.Collections.Generic.Dictionary`2<int,TMPro.TMP_ColorGradient> m_ColorGradientReferenceLookup; // 0x28
+        public ypointLabel.lue instance;
+        public URA.DateTime<int,atrix_Injected> m_FontMaterialReferenceLookup; // 0x10
+        public URA.DateTime<int,ypointLabel.urces> m_FontAssetReferenceLookup; // 0x18
+        public URA.DateTime<int,ypointLabel.?> m_SpriteAssetReferenceLookup; // 0x20
+        public URA.DateTime<int,ypointLabel.ld> m_ColorGradientReferenceLookup; // 0x28
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54B3A5F0
@@ -274,8 +274,8 @@ namespace ThirdParty.Other.TMPro
         public string ShaderTag_CullMode; // 0x120
         public float m_clamp; // 0x128
         public bool isInitialized; // 0x12C
-        public UnityEngine.Shader k_ShaderRef_MobileSDF; // 0x130
-        public UnityEngine.Shader k_ShaderRef_MobileBitmap; // 0x138
+        public ojectionMatrix_Injected k_ShaderRef_MobileSDF; // 0x130
+        public ojectionMatrix_Injected k_ShaderRef_MobileBitmap; // 0x138
 
         // ── Methods ──
         public void get_ShaderRef_MobileSDF(){} // RVA: 0x7FFD54BB1890
@@ -292,7 +292,7 @@ namespace ThirdParty.Other.TMPro
     {
         public int instanceID; // 0x18
         public int hashCode; // 0x1C
-        public UnityEngine.Material material; // 0x20
+        public atrix_Injected material; // 0x20
         public int materialHashCode; // 0x28
 
         // ── Methods ──
@@ -311,26 +311,26 @@ namespace ThirdParty.Other.TMPro
         public char character; // 0x10
         public int index; // 0x14
         public int stringLength; // 0x18
-        public 0x6657B718 elementType; // 0x1C
-        public TMPro.TMP_TextElement textElement; // 0x20
-        public TMPro.TMP_FontAsset fontAsset; // 0x28
-        public TMPro.TMP_SpriteAsset spriteAsset; // 0x30
+        public ypointLabel.extures elementType; // 0x1C
+        public ypointLabel.oroutine textElement; // 0x20
+        public ypointLabel.urces fontAsset; // 0x28
+        public ypointLabel.? spriteAsset; // 0x30
         public int spriteIndex; // 0x38
-        public UnityEngine.Material material; // 0x40
+        public atrix_Injected material; // 0x40
         public int materialReferenceIndex; // 0x48
         public bool isUsingAlternateTypeface; // 0x4C
         public float pointSize; // 0x50
         public int lineNumber; // 0x54
         public int pageNumber; // 0x58
         public int vertexIndex; // 0x5C
-        public 0x66579358 vertex_BL; // 0x60
-        public 0x66579358 vertex_TL; // 0x88
-        public 0x66579358 vertex_TR; // 0xB0
-        public 0x66579358 vertex_BR; // 0xD8
-        public UnityEngine.Vector3 topLeft; // 0x100
-        public UnityEngine.Vector3 bottomLeft; // 0x10C
-        public UnityEngine.Vector3 topRight; // 0x118
-        public UnityEngine.Vector3 bottomRight; // 0x124
+        public ypointLabel.oundTransform vertex_BL; // 0x60
+        public ypointLabel.oundTransform vertex_TL; // 0x88
+        public ypointLabel.oundTransform vertex_TR; // 0xB0
+        public ypointLabel.oundTransform vertex_BR; // 0xD8
+        public amut topLeft; // 0x100
+        public amut bottomLeft; // 0x10C
+        public amut topRight; // 0x118
+        public amut bottomRight; // 0x124
         public float origin; // 0x130
         public float xAdvance; // 0x134
         public float ascender; // 0x138
@@ -340,26 +340,26 @@ namespace ThirdParty.Other.TMPro
         public float adjustedDescender; // 0x148
         public float aspectRatio; // 0x14C
         public float scale; // 0x150
-        public UnityEngine.Color32 color; // 0x154
-        public UnityEngine.Color32 underlineColor; // 0x158
+        public object color; // 0x154
+        public object underlineColor; // 0x158
         public int underlineVertexIndex; // 0x15C
-        public UnityEngine.Color32 strikethroughColor; // 0x160
+        public object strikethroughColor; // 0x160
         public int strikethroughVertexIndex; // 0x164
-        public UnityEngine.Color32 highlightColor; // 0x168
-        public TMPro.HighlightState highlightState; // 0x16C
-        public 0x6657B8D0 style; // 0x180
+        public object highlightColor; // 0x168
+        public ypointLabel.teMonoColorTexture highlightState; // 0x16C
+        public ypointLabel.rray style; // 0x180
         public bool isVisible; // 0x184
     }
 
     public class TMP_ColorGradient : ScriptableObject
     {
-        public 0x665794B8 colorMode; // 0x18
-        public UnityEngine.Color topLeft; // 0x1C
-        public UnityEngine.Color topRight; // 0x2C
-        public UnityEngine.Color bottomLeft; // 0x3C
-        public UnityEngine.Color bottomRight; // 0x4C
-        public 0x665794B8 k_DefaultColorMode;
-        public UnityEngine.Color k_DefaultColor;
+        public ypointLabel.kWidth colorMode; // 0x18
+        public object topLeft; // 0x1C
+        public object topRight; // 0x2C
+        public object bottomLeft; // 0x3C
+        public object bottomRight; // 0x4C
+        public ypointLabel.kWidth k_DefaultColorMode;
+        public object k_DefaultColor;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B5A5B0 | overloaded x3
@@ -377,11 +377,11 @@ namespace ThirdParty.Other.TMPro
         public float kWidth;
         public float kThickHeight;
         public float kThinHeight;
-        public UnityEngine.Vector2 s_TextElementSize;
-        public UnityEngine.Vector2 s_ThickElementSize; // 0x8
-        public UnityEngine.Vector2 s_ThinElementSize; // 0x10
-        public UnityEngine.Color s_DefaultSelectableColor; // 0x18
-        public UnityEngine.Color s_TextColor; // 0x28
+        public tionX s_TextElementSize;
+        public tionX s_ThickElementSize; // 0x8
+        public tionX s_ThinElementSize; // 0x10
+        public object s_DefaultSelectableColor; // 0x18
+        public object s_TextColor; // 0x28
 
         // ── Methods ──
         public void CreateUIElementRoot(){} // RVA: 0x7FFD54B5ACA0
@@ -400,23 +400,23 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Dropdown : Selectable
     {
-        public UnityEngine.RectTransform template; // 0x100
-        public TMPro.TMP_Text captionText; // 0x108
-        public UnityEngine.UI.Image captionImage; // 0x110
-        public UnityEngine.UI.Graphic placeholder; // 0x118
-        public TMPro.TMP_Text itemText; // 0x120
-        public UnityEngine.UI.Image itemImage; // 0x128
+        public 16 template; // 0x100
+        public ypointLabel.rAtlasTextures captionText; // 0x108
+        public ePathName117.ÎÌÍÍÎÏÌ captionImage; // 0x110
+        public ePathName117.hInputPathName124 placeholder; // 0x118
+        public ypointLabel.rAtlasTextures itemText; // 0x120
+        public ePathName117.ÎÌÍÍÎÏÌ itemImage; // 0x128
         public int options; // 0x130
-        public OptionDataList onValueChanged; // 0x138
-        public DropdownEvent alphaFadeSpeed; // 0x140
+        public teNormalizer onValueChanged; // 0x138
+        public hortNormalizer alphaFadeSpeed; // 0x140
         public float value; // 0x148
-        public UnityEngine.GameObject IsExpanded; // 0x150
-        public UnityEngine.GameObject m_Blocker; // 0x158
-        public System.Collections.Generic.List`1<DropdownItem> m_Items; // 0x160
-        public TMPro.TweenRunner`1<0x665797D0> m_AlphaTweenRunner; // 0x168
+        public BuffersImpl IsExpanded; // 0x150
+        public BuffersImpl m_Blocker; // 0x158
+        public URA.woDigitYearMax<ChannelNormalized> m_Items; // 0x160
+        public ypointLabel.dth<ypointLabel.yLeftLandmarkColor> m_AlphaTweenRunner; // 0x168
         public bool validTemplate; // 0x170
-        public UnityEngine.Coroutine m_Coroutine; // 0x178
-        public OptionData s_NoOptionData;
+        public ts m_Coroutine; // 0x178
+        public Src s_NoOptionData;
 
         // ── Methods ──
         public void get_template(){} // RVA: 0x7FFD4E916C80
@@ -475,34 +475,34 @@ namespace ThirdParty.Other.TMPro
     {
         public string version; // 0x30
         public string sourceFontFile; // 0x38
-        public UnityEngine.Font atlasPopulationMode; // 0x40
-        public 0x66579BF0 faceInfo; // 0x48
-        public UnityEngine.TextCore.FaceInfo glyphTable; // 0x50
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> glyphLookupTable; // 0xB0
-        public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Glyph> characterTable; // 0xB8
-        public System.Collections.Generic.List`1<TMPro.TMP_Character> characterLookupTable; // 0xC0
-        public System.Collections.Generic.Dictionary`2<uint,TMPro.TMP_Character> atlasTexture; // 0xC8
-        public UnityEngine.Texture2D atlasTextures; // 0xD0
-        public UnityEngine.Texture2D[] atlasTextureCount; // 0xD8
+        public IsWithinBudget atlasPopulationMode; // 0x40
+        public ypointLabel.uManager faceInfo; // 0x48
+        public e.ToInstance glyphTable; // 0x50
+        public URA.woDigitYearMax<e.ypeHash> glyphLookupTable; // 0xB0
+        public URA.DateTime<uint,e.ypeHash> characterTable; // 0xB8
+        public URA.woDigitYearMax<ypointLabel.arker> characterLookupTable; // 0xC0
+        public URA.DateTime<uint,ypointLabel.arker> atlasTexture; // 0xC8
+        public ector atlasTextures; // 0xD0
+        public ector[] atlasTextureCount; // 0xD8
         public int isMultiAtlasTexturesEnabled; // 0xE0
         public bool clearDynamicDataOnBuild; // 0xE4
         public bool usedGlyphRects; // 0xE5
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> freeGlyphRects; // 0xE8
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> fontInfo; // 0xF0
-        public TMPro.FaceInfo_Legacy atlasWidth; // 0xF8
-        public UnityEngine.Texture2D atlasHeight; // 0x100
+        public URA.woDigitYearMax<e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d> freeGlyphRects; // 0xE8
+        public URA.woDigitYearMax<e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d> fontInfo; // 0xF0
+        public ypointLabel.oseWorldLandmarks atlasWidth; // 0xF8
+        public ector atlasHeight; // 0x100
         public int atlasPadding; // 0x108
         public int atlasRenderMode; // 0x10C
         public int fontFeatureTable; // 0x110
-        public ÍÎÏÎÎÌÎÎÍÌÎÌÍÏÏÌÎÏÏÍ fallbackFontAssetTable; // 0x114
-        public System.Collections.Generic.List`1<0x66579D50> creationSettings; // 0x118
-        public 0x6657A0C0 fontWeightTable; // 0x120
-        public TMPro.TMP_FontFeatureTable m_FontFeatureTable; // 0x128
-        public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fallbackFontAssets; // 0x130
-        public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> m_FallbackFontAssetTable; // 0x138
-        public 0x66579DA8 m_CreationSettings; // 0x140
-        public 0x66579E00[] m_FontWeightTable; // 0x198
-        public 0x66579E00[] fontWeights; // 0x1A0
+        public tPackageJObject.izablePackage fallbackFontAssetTable; // 0x114
+        public URA.woDigitYearMax<ypointLabel.seLandmarksDetectorGraphOptions> creationSettings; // 0x118
+        public ypointLabel.onfidence fontWeightTable; // 0x120
+        public ypointLabel.ndDetectorGraphOptions_ m_FontFeatureTable; // 0x128
+        public URA.woDigitYearMax<ypointLabel.urces> fallbackFontAssets; // 0x130
+        public URA.woDigitYearMax<ypointLabel.urces> m_FallbackFontAssetTable; // 0x138
+        public ypointLabel.sDetectorGraphOptions m_CreationSettings; // 0x140
+        public ypointLabel.sDetectorGraphOptions_[] m_FontWeightTable; // 0x198
+        public ypointLabel.sDetectorGraphOptions_[] fontWeights; // 0x1A0
         public float normalStyle; // 0x1A8
         public float normalSpacingOffset; // 0x1AC
         public float boldStyle; // 0x1B0
@@ -510,30 +510,30 @@ namespace ThirdParty.Other.TMPro
         public byte italicStyle; // 0x1B8
         public byte tabSize; // 0x1B9
         public bool IsFontAssetLookupTablesDirty; // 0x1BA
-        public Unity.Profiling.ProfilerMarker k_ReadFontAssetDefinitionMarker;
-        public Unity.Profiling.ProfilerMarker k_AddSynthesizedCharactersMarker; // 0x8
-        public Unity.Profiling.ProfilerMarker k_TryAddCharacterMarker; // 0x10
-        public Unity.Profiling.ProfilerMarker k_TryAddCharactersMarker; // 0x18
-        public Unity.Profiling.ProfilerMarker k_UpdateGlyphAdjustmentRecordsMarker; // 0x20
-        public Unity.Profiling.ProfilerMarker k_ClearFontAssetDataMarker; // 0x28
-        public Unity.Profiling.ProfilerMarker k_UpdateFontAssetDataMarker; // 0x30
+        public object k_ReadFontAssetDefinitionMarker;
+        public object k_AddSynthesizedCharactersMarker; // 0x8
+        public object k_TryAddCharacterMarker; // 0x10
+        public object k_TryAddCharactersMarker; // 0x18
+        public object k_UpdateGlyphAdjustmentRecordsMarker; // 0x20
+        public object k_ClearFontAssetDataMarker; // 0x28
+        public object k_UpdateFontAssetDataMarker; // 0x30
         public string s_DefaultMaterialSuffix; // 0x38
-        public System.Collections.Generic.HashSet`1<int> FallbackSearchQueryLookup; // 0x1C0
-        public System.Collections.Generic.HashSet`1<int> k_SearchedFontAssetLookup; // 0x40
-        public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> k_FontAssets_FontFeaturesUpdateQueue; // 0x48
-        public System.Collections.Generic.HashSet`1<int> k_FontAssets_FontFeaturesUpdateQueueLookup; // 0x50
-        public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> k_FontAssets_AtlasTexturesUpdateQueue; // 0x58
-        public System.Collections.Generic.HashSet`1<int> k_FontAssets_AtlasTexturesUpdateQueueLookup; // 0x60
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsToRender; // 0x1C8
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsRendered; // 0x1D0
-        public System.Collections.Generic.List`1<uint> m_GlyphIndexList; // 0x1D8
-        public System.Collections.Generic.List`1<uint> m_GlyphIndexListNewlyAdded; // 0x1E0
-        public System.Collections.Generic.List`1<uint> m_GlyphsToAdd; // 0x1E8
-        public System.Collections.Generic.HashSet`1<uint> m_GlyphsToAddLookup; // 0x1F0
-        public System.Collections.Generic.List`1<TMPro.TMP_Character> m_CharactersToAdd; // 0x1F8
-        public System.Collections.Generic.HashSet`1<uint> m_CharactersToAddLookup; // 0x200
-        public System.Collections.Generic.List`1<uint> s_MissingCharacterList; // 0x208
-        public System.Collections.Generic.HashSet`1<uint> m_MissingUnicodesFromFontFile; // 0x210
+        public URA.onsDepth<int> FallbackSearchQueryLookup; // 0x1C0
+        public URA.onsDepth<int> k_SearchedFontAssetLookup; // 0x40
+        public URA.woDigitYearMax<ypointLabel.urces> k_FontAssets_FontFeaturesUpdateQueue; // 0x48
+        public URA.onsDepth<int> k_FontAssets_FontFeaturesUpdateQueueLookup; // 0x50
+        public URA.woDigitYearMax<ypointLabel.urces> k_FontAssets_AtlasTexturesUpdateQueue; // 0x58
+        public URA.onsDepth<int> k_FontAssets_AtlasTexturesUpdateQueueLookup; // 0x60
+        public URA.woDigitYearMax<e.ypeHash> m_GlyphsToRender; // 0x1C8
+        public URA.woDigitYearMax<e.ypeHash> m_GlyphsRendered; // 0x1D0
+        public URA.woDigitYearMax<uint> m_GlyphIndexList; // 0x1D8
+        public URA.woDigitYearMax<uint> m_GlyphIndexListNewlyAdded; // 0x1E0
+        public URA.woDigitYearMax<uint> m_GlyphsToAdd; // 0x1E8
+        public URA.onsDepth<uint> m_GlyphsToAddLookup; // 0x1F0
+        public URA.woDigitYearMax<ypointLabel.arker> m_CharactersToAdd; // 0x1F8
+        public URA.onsDepth<uint> m_CharactersToAddLookup; // 0x200
+        public URA.woDigitYearMax<uint> s_MissingCharacterList; // 0x208
+        public URA.onsDepth<uint> m_MissingUnicodesFromFontFile; // 0x210
         public uint[] k_GlyphIndexArray; // 0x68
 
         // ── Methods ──
@@ -626,8 +626,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontAssetUtilities : Object
     {
-        public TMPro.TMP_FontAssetUtilities instance;
-        public System.Collections.Generic.HashSet`1<int> k_SearchedAssets; // 0x8
+        public ypointLabel.ppressionThreshold_ instance;
+        public URA.onsDepth<int> k_SearchedAssets; // 0x8
         public bool k_IsFontEngineInitialized; // 0x10
 
         // ── Methods ──
@@ -643,8 +643,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontFeatureTable : Object
     {
-        public System.Collections.Generic.List`1<0x6657A2D0> glyphPairAdjustmentRecords; // 0x10
-        public System.Collections.Generic.Dictionary`2<uint,0x6657A2D0> m_GlyphPairAdjustmentRecordLookupDictionary; // 0x18
+        public URA.woDigitYearMax<ypointLabel.Confidence>k__BackingField> glyphPairAdjustmentRecords; // 0x10
+        public URA.DateTime<uint,ypointLabel.Confidence>k__BackingField> m_GlyphPairAdjustmentRecordLookupDictionary; // 0x18
 
         // ── Methods ──
         public void get_glyphPairAdjustmentRecords(){} // RVA: 0x7FFD4E35C380
@@ -694,46 +694,46 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_InputField : Selectable
     {
-        public 0x664E03D8 inputSystem; // 0x100
+        public Hash128ToStringImpl inputSystem; // 0x100
         public char[] compositionString;
-        public UnityEngine.RectTransform compositionLength; // 0x108
-        public UnityEngine.RectTransform mesh; // 0x110
-        public UnityEngine.UI.RectMask2D shouldHideMobileInput; // 0x118
-        public UnityEngine.UI.RectMask2D shouldHideSoftKeyboard; // 0x120
-        public UnityEngine.Rect text; // 0x128
-        public TMPro.TMP_Text isFocused; // 0x138
-        public UnityEngine.RectTransform caretBlinkRate; // 0x140
-        public UnityEngine.UI.Graphic caretWidth; // 0x148
-        public UnityEngine.UI.Scrollbar textViewport; // 0x150
-        public TMPro.TMP_ScrollbarEventHandler textComponent; // 0x158
+        public 16 compositionLength; // 0x108
+        public 16 mesh; // 0x110
+        public ePathName117.alPriorityMax shouldHideMobileInput; // 0x118
+        public ePathName117.alPriorityMax shouldHideSoftKeyboard; // 0x120
+        public dRecorder text; // 0x128
+        public ypointLabel.rAtlasTextures isFocused; // 0x138
+        public 16 caretBlinkRate; // 0x140
+        public ePathName117.hInputPathName124 caretWidth; // 0x148
+        public ePathName117.readmill textViewport; // 0x150
+        public ypointLabel.__19 textComponent; // 0x158
         public bool placeholder; // 0x160
-        public UnityEngine.UI.LayoutGroup verticalScrollbar; // 0x168
-        public UnityEngine.EventSystems.IScrollHandler scrollSensitivity; // 0x170
+        public ePathName117.on verticalScrollbar; // 0x168
+        public moryFailure.ng scrollSensitivity; // 0x170
         public float caretColor; // 0x178
         public float customCaretColor; // 0x17C
-        public 0x6657A430 selectionColor; // 0x180
-        public 0x6657A488 onEndEdit; // 0x184
+        public 2_FE_LONGS selectionColor; // 0x180
+        public ÍÏÎÍÏÏÌÏÏÍÏÌÌÎÌÎÌ onEndEdit; // 0x184
         public char onSubmit; // 0x188
-        public 0x664E0430 onSelect; // 0x18C
-        public 0x6657A538 onDeselect; // 0x190
+        public Underscore onSelect; // 0x18C
+        public object onDeselect; // 0x190
         public bool onTextSelection; // 0x194
         public bool onEndTextSelection; // 0x195
-        public 0x6657A4E0 onValueChanged; // 0x198
+        public aterial onValueChanged; // 0x198
         public string onTouchScreenKeyboardStatusChanged; // 0x1A0
         public float onValidateInput; // 0x1A8
         public int characterLimit; // 0x1AC
-        public SubmitEvent pointSize; // 0x1B0
-        public SubmitEvent fontAsset; // 0x1B8
-        public SelectionEvent onFocusSelectAll; // 0x1C0
-        public SelectionEvent resetOnDeActivation; // 0x1C8
-        public TextSelectionEvent restoreOriginalTextOnEscape; // 0x1D0
-        public TextSelectionEvent isRichTextEditingAllowed; // 0x1D8
-        public OnChangeEvent contentType; // 0x1E0
-        public TouchScreenKeyboardEvent lineType; // 0x1E8
-        public OnValidateInput lineLimit; // 0x1F0
-        public UnityEngine.Color inputType; // 0x1F8
+        public et_isAutoFitting pointSize; // 0x1B0
+        public et_isAutoFitting fontAsset; // 0x1B8
+        public oFitting onFocusSelectAll; // 0x1C0
+        public oFitting resetOnDeActivation; // 0x1C8
+        public rners restoreOriginalTextOnEscape; // 0x1D0
+        public rners isRichTextEditingAllowed; // 0x1D8
+        public ting contentType; // 0x1E0
+        public ers lineType; // 0x1E8
+        public idth lineLimit; // 0x1F0
+        public object inputType; // 0x1F8
         public bool keyboardType; // 0x208
-        public UnityEngine.Color characterValidation; // 0x20C
+        public object characterValidation; // 0x20C
         public string inputValidator; // 0x220
         public float readOnly; // 0x228
         public int richText; // 0x22C
@@ -743,11 +743,11 @@ namespace ThirdParty.Other.TMPro
         public int caretPositionInternal; // 0x238
         public int stringPositionInternal; // 0x23C
         public int caretSelectPositionInternal; // 0x240
-        public UnityEngine.RectTransform stringSelectPositionInternal; // 0x248
-        public UnityEngine.UIVertex[] hasSelection; // 0x250
-        public UnityEngine.CanvasRenderer caretPosition; // 0x258
-        public UnityEngine.Vector2 selectionAnchorPosition; // 0x260
-        public UnityEngine.Mesh selectionFocusPosition; // 0x268
+        public 16 stringSelectPositionInternal; // 0x248
+        public cTotalCost[] hasSelection; // 0x250
+        public kingField caretPosition; // 0x258
+        public tionX selectionAnchorPosition; // 0x260
+        public object selectionFocusPosition; // 0x268
         public bool stringPosition; // 0x270
         public bool selectionStringAnchorPosition; // 0x271
         public bool selectionStringFocusPosition; // 0x272
@@ -755,13 +755,13 @@ namespace ThirdParty.Other.TMPro
         public float minWidth;
         public float preferredWidth;
         public bool flexibleWidth; // 0x274
-        public UnityEngine.Coroutine minHeight; // 0x278
+        public ts minHeight; // 0x278
         public float preferredHeight; // 0x280
-        public UnityEngine.Coroutine flexibleHeight; // 0x288
+        public ts flexibleHeight; // 0x288
         public string layoutPriority; // 0x290
         public bool m_WasCanceled; // 0x298
         public bool m_HasDoneFocusTransition; // 0x299
-        public 0x664DFC48 m_WaitForSecondsRealtime; // 0x2A0
+        public object m_WaitForSecondsRealtime; // 0x2A0
         public bool m_PreventCallback; // 0x2A8
         public bool m_TouchKeyboardAllowsInPlaceEditing; // 0x2A9
         public bool m_IsTextComponentUpdateRequired; // 0x2AA
@@ -773,22 +773,22 @@ namespace ThirdParty.Other.TMPro
         public bool m_IsCompositionActive; // 0x2B8
         public bool m_ShouldUpdateIMEWindowPosition; // 0x2B9
         public int m_PreviousIMEInsertionLine; // 0x2BC
-        public TMPro.TMP_FontAsset m_GlobalFontAsset; // 0x2C0
+        public ypointLabel.urces m_GlobalFontAsset; // 0x2C0
         public bool m_OnFocusSelectAll; // 0x2C8
         public bool m_isSelectAll; // 0x2C9
         public bool m_ResetOnDeActivation; // 0x2CA
         public bool m_SelectionStillActive; // 0x2CB
         public bool m_ReleaseSelection; // 0x2CC
-        public UnityEngine.GameObject m_PreviouslySelectedObject; // 0x2D0
+        public BuffersImpl m_PreviouslySelectedObject; // 0x2D0
         public bool m_RestoreOriginalTextOnEscape; // 0x2D8
         public bool m_isRichTextEditingAllowed; // 0x2D9
         public int m_LineLimit; // 0x2DC
-        public TMPro.TMP_InputValidator m_InputValidator; // 0x2E0
+        public ypointLabel.asChanged m_InputValidator; // 0x2E0
         public bool m_isSelected; // 0x2E8
         public bool m_IsStringPositionDirty; // 0x2E9
         public bool m_IsCaretPositionDirty; // 0x2EA
         public bool m_forceRectTransformAdjustment; // 0x2EB
-        public UnityEngine.Event m_ProcessingEvent; // 0x2F0
+        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE m_ProcessingEvent; // 0x2F0
 
         // ── Methods ──
         public void get_inputSystem(){} // RVA: 0x7FFD54B73C30
@@ -1039,20 +1039,12 @@ namespace ThirdParty.Other.TMPro
         public float width; // 0x4C
         public float marginLeft; // 0x50
         public float marginRight; // 0x54
-        public 0x6657B610 alignment; // 0x58
-        public TMPro.Extents lineExtents; // 0x5C
+        public ypointLabel.CharacterInternal alignment; // 0x58
+        public ypointLabel.r lineExtents; // 0x5C
     }
 
     public class TMP_LinkInfo : ValueType
     {
-        public TMPro.TMP_Text textComponent; // 0x10
-        public int hashCode; // 0x18
-        public int linkIdFirstCharacterIndex; // 0x1C
-        public int linkIdLength; // 0x20
-        public int linkTextfirstCharacterIndex; // 0x24
-        public int linkTextLength; // 0x28
-        public char[] linkID; // 0x30
-
         // ── Methods ──
         public void SetLinkID(){} // RVA: 0x7FFD54B59120
         public void GetLinkText(){} // RVA: 0x7FFD54B59240
@@ -1061,7 +1053,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ListPool`1 : Object
     {
-        public TMPro.TMP_ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.UI.IMaterialModifier>> s_ListPool;
+        public ypointLabel.shFilters<URA.woDigitYearMax<T1717692864>> s_ListPool;
 
         // ── Methods ──
         public void Get(){} // RVA: 0x7FFD4E078A90
@@ -1071,10 +1063,10 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_MaterialManager : Object
     {
-        public System.Collections.Generic.List`1<0x6657AB10> m_materialList;
-        public System.Collections.Generic.Dictionary`2<long,0x6657AAB8> m_fallbackMaterials; // 0x8
-        public System.Collections.Generic.Dictionary`2<int,long> m_fallbackMaterialLookup; // 0x10
-        public System.Collections.Generic.List`1<0x6657AAB8> m_fallbackCleanupList; // 0x18
+        public URA.woDigitYearMax<ateMask> m_materialList;
+        public URA.DateTime<long,s> m_fallbackMaterials; // 0x8
+        public URA.DateTime<int,long> m_fallbackMaterialLookup; // 0x10
+        public URA.woDigitYearMax<s> m_fallbackCleanupList; // 0x18
         public bool isFallbackListDirty; // 0x20
 
         // ── Methods ──
@@ -1101,20 +1093,20 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_MeshInfo : ValueType
     {
-        public UnityEngine.Color32 s_DefaultColor;
-        public UnityEngine.Vector3 s_DefaultNormal; // 0x4
-        public UnityEngine.Vector4 s_DefaultTangent; // 0x10
-        public UnityEngine.Bounds s_DefaultBounds; // 0x20
-        public UnityEngine.Mesh mesh; // 0x10
+        public object s_DefaultColor;
+        public amut s_DefaultNormal; // 0x4
+        public get_boundingBoxMode s_DefaultTangent; // 0x10
+        public stments s_DefaultBounds; // 0x20
+        public object mesh; // 0x10
         public int vertexCount; // 0x18
-        public UnityEngine.Vector3[] vertices; // 0x20
-        public UnityEngine.Vector3[] normals; // 0x28
-        public UnityEngine.Vector4[] tangents; // 0x30
-        public UnityEngine.Vector2[] uvs0; // 0x38
-        public UnityEngine.Vector2[] uvs2; // 0x40
-        public UnityEngine.Color32[] colors32; // 0x48
+        public amut[] vertices; // 0x20
+        public amut[] normals; // 0x28
+        public get_boundingBoxMode[] tangents; // 0x30
+        public tionX[] uvs0; // 0x38
+        public tionX[] uvs2; // 0x40
+        public ?[] colors32; // 0x48
         public int[] triangles; // 0x50
-        public UnityEngine.Material material; // 0x58
+        public atrix_Injected material; // 0x58
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54BAC7A0 | overloaded x2
@@ -1128,10 +1120,10 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ObjectPool`1 : Object
     {
-        public System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.UI.IMaterialModifier>> countAll; // 0x10
-        public UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.UI.IMaterialModifier>> countActive; // 0x18
-        public UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.UI.IMaterialModifier>> countInactive; // 0x20
-        public int <countAll>k__BackingField; // 0x28
+        public URA.leEastFrench<T1717692880> countAll;
+        public rScript.?<T1717692880> countActive;
+        public rScript.?<T1717692880> countInactive;
+        public int <countAll>k__BackingField;
 
         // ── Methods ──
         public void get_countAll(){} // RVA: 0x7FFD4E079960
@@ -1149,7 +1141,7 @@ namespace ThirdParty.Other.TMPro
         public float right; // 0x14
         public float top; // 0x18
         public float bottom; // 0x1C
-        public TMPro.TMP_Offset horizontal;
+        public ypointLabel.Annotation horizontal;
 
         // ── Methods ──
         public void get_left(){} // RVA: 0x7FFD4FC6C150
@@ -1176,19 +1168,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_PageInfo : ValueType
     {
-        public int firstCharacterIndex; // 0x10
-        public int lastCharacterIndex; // 0x14
-        public float ascender; // 0x18
-        public float baseLine; // 0x1C
-        public float descender; // 0x20
     }
 
     public class TMP_ResourceManager : Object
     {
-        public TMPro.TMP_ResourceManager s_instance;
-        public TMPro.TMP_Settings s_TextSettings; // 0x8
-        public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> s_FontAssetReferences; // 0x10
-        public System.Collections.Generic.Dictionary`2<int,TMPro.TMP_FontAsset> s_FontAssetReferenceLookup; // 0x18
+        public ypointLabel.etCompoundBounds s_instance;
+        public ypointLabel.ager s_TextSettings; // 0x8
+        public URA.woDigitYearMax<ypointLabel.urces> s_FontAssetReferences; // 0x10
+        public URA.DateTime<int,ypointLabel.urces> s_FontAssetReferenceLookup; // 0x18
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54BAFBF0
@@ -1220,7 +1207,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Settings : ScriptableObject
     {
-        public TMPro.TMP_Settings version;
+        public ypointLabel.ager version;
         public bool enableWordWrapping; // 0x18
         public bool enableKerning; // 0x19
         public bool enableExtraPadding; // 0x1A
@@ -1230,27 +1217,27 @@ namespace ThirdParty.Other.TMPro
         public bool getFontFeaturesAtRuntime; // 0x1E
         public int missingGlyphCharacter; // 0x20
         public bool warningsDisabled; // 0x24
-        public TMPro.TMP_FontAsset defaultFontAsset; // 0x28
+        public ypointLabel.urces defaultFontAsset; // 0x28
         public string defaultFontAssetPath; // 0x30
         public float defaultFontSize; // 0x38
         public float defaultTextAutoSizingMinRatio; // 0x3C
         public float defaultTextAutoSizingMaxRatio; // 0x40
-        public UnityEngine.Vector2 defaultTextMeshProTextContainerSize; // 0x44
-        public UnityEngine.Vector2 defaultTextMeshProUITextContainerSize; // 0x4C
+        public tionX defaultTextMeshProTextContainerSize; // 0x44
+        public tionX defaultTextMeshProUITextContainerSize; // 0x4C
         public bool autoSizeTextContainer; // 0x54
         public bool isTextObjectScaleStatic; // 0x55
-        public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fallbackFontAssets; // 0x58
+        public URA.woDigitYearMax<ypointLabel.urces> fallbackFontAssets; // 0x58
         public bool matchMaterialPreset; // 0x60
-        public TMPro.TMP_SpriteAsset defaultSpriteAsset; // 0x68
+        public ypointLabel.? defaultSpriteAsset; // 0x68
         public string defaultSpriteAssetPath; // 0x70
         public bool enableEmojiSupport; // 0x78
         public uint missingCharacterSpriteUnicode; // 0x7C
         public string defaultColorGradientPresetsPath; // 0x80
-        public TMPro.TMP_StyleSheet defaultStyleSheet; // 0x88
+        public ypointLabel.t_atlasPadding defaultStyleSheet; // 0x88
         public string styleSheetsResourcePath; // 0x90
-        public UnityEngine.TextAsset leadingCharacters; // 0x98
-        public UnityEngine.TextAsset followingCharacters; // 0xA0
-        public 0x6657B090 linebreakingRules; // 0xA8
+        public dex2 leadingCharacters; // 0x98
+        public dex2 followingCharacters; // 0xA0
+        public _vertical linebreakingRules; // 0xA8
         public bool useModernHangulLineBreakingRules; // 0xB0
 
         // ── Methods ──
@@ -1307,8 +1294,8 @@ namespace ThirdParty.Other.TMPro
         public string name; // 0x38
         public int hashCode; // 0x40
         public int unicode; // 0x44
-        public UnityEngine.Vector2 pivot; // 0x48
-        public UnityEngine.Sprite sprite; // 0x50
+        public tionX pivot; // 0x48
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField sprite; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1316,8 +1303,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SpriteAnimator : MonoBehaviour
     {
-        public System.Collections.Generic.Dictionary`2<int,bool> m_animations; // 0x20
-        public TMPro.TMP_Text m_TextComponent; // 0x28
+        public URA.DateTime<int,bool> m_animations; // 0x20
+        public ypointLabel.rAtlasTextures m_TextComponent; // 0x28
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54BB5DE0
@@ -1331,19 +1318,19 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SpriteAsset : TMP_Asset
     {
-        public System.Collections.Generic.Dictionary`2<int,int> version; // 0x30
-        public System.Collections.Generic.Dictionary`2<uint,int> faceInfo; // 0x38
+        public URA.DateTime<int,int> version; // 0x30
+        public URA.DateTime<uint,int> faceInfo; // 0x38
         public string spriteCharacterTable; // 0x40
-        public UnityEngine.TextCore.FaceInfo spriteCharacterLookupTable; // 0x48
-        public UnityEngine.Texture spriteGlyphTable; // 0xA8
-        public System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> m_SpriteCharacterTable; // 0xB0
-        public System.Collections.Generic.Dictionary`2<uint,TMPro.TMP_SpriteCharacter> m_SpriteCharacterLookup; // 0xB8
-        public System.Collections.Generic.List`1<TMPro.TMP_SpriteGlyph> m_SpriteGlyphTable; // 0xC0
-        public System.Collections.Generic.Dictionary`2<uint,TMPro.TMP_SpriteGlyph> m_SpriteGlyphLookup; // 0xC8
-        public System.Collections.Generic.List`1<TMPro.TMP_Sprite> spriteInfoList; // 0xD0
-        public System.Collections.Generic.List`1<TMPro.TMP_SpriteAsset> fallbackSpriteAssets; // 0xD8
+        public e.ToInstance spriteCharacterLookupTable; // 0x48
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField spriteGlyphTable; // 0xA8
+        public URA.woDigitYearMax<ypointLabel.nfo> m_SpriteCharacterTable; // 0xB0
+        public URA.DateTime<uint,ypointLabel.nfo> m_SpriteCharacterLookup; // 0xB8
+        public URA.woDigitYearMax<ypointLabel.ookupTable> m_SpriteGlyphTable; // 0xC0
+        public URA.DateTime<uint,ypointLabel.ookupTable> m_SpriteGlyphLookup; // 0xC8
+        public URA.woDigitYearMax<ypointLabel.entSize> spriteInfoList; // 0xD0
+        public URA.woDigitYearMax<ypointLabel.?> fallbackSpriteAssets; // 0xD8
         public bool m_IsSpriteAssetLookupTablesDirty; // 0xE0
-        public System.Collections.Generic.HashSet`1<int> k_searchedSpriteAssets;
+        public URA.onsDepth<int> k_searchedSpriteAssets;
 
         // ── Methods ──
         public void get_version(){} // RVA: 0x7FFD4E3BE740
@@ -1387,7 +1374,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SpriteGlyph : Glyph
     {
-        public UnityEngine.Sprite sprite; // 0x48
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField sprite; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54BB9C20 | overloaded x3
@@ -1395,7 +1382,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Style : Object
     {
-        public TMPro.TMP_Style NormalStyle;
+        public ypointLabel.ble NormalStyle;
         public string name; // 0x10
         public int hashCode; // 0x18
         public string styleOpeningDefinition; // 0x20
@@ -1421,8 +1408,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_StyleSheet : ScriptableObject
     {
-        public System.Collections.Generic.List`1<TMPro.TMP_Style> styles; // 0x18
-        public System.Collections.Generic.Dictionary`2<int,TMPro.TMP_Style> m_StyleLookupDictionary; // 0x20
+        public URA.woDigitYearMax<ypointLabel.ble> styles; // 0x18
+        public URA.DateTime<int,ypointLabel.ble> m_StyleLookupDictionary; // 0x20
 
         // ── Methods ──
         public void get_styles(){} // RVA: 0x7FFD4E3447C0
@@ -1435,18 +1422,18 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SubMesh : MonoBehaviour
     {
-        public TMPro.TMP_FontAsset fontAsset; // 0x20
-        public TMPro.TMP_SpriteAsset spriteAsset; // 0x28
-        public UnityEngine.Material material; // 0x30
-        public UnityEngine.Material sharedMaterial; // 0x38
-        public UnityEngine.Material fallbackMaterial; // 0x40
-        public UnityEngine.Material fallbackSourceMaterial; // 0x48
+        public ypointLabel.urces fontAsset; // 0x20
+        public ypointLabel.? spriteAsset; // 0x28
+        public atrix_Injected material; // 0x30
+        public atrix_Injected sharedMaterial; // 0x38
+        public atrix_Injected fallbackMaterial; // 0x40
+        public atrix_Injected fallbackSourceMaterial; // 0x48
         public bool isDefaultMaterial; // 0x50
         public float padding; // 0x54
-        public UnityEngine.Renderer renderer; // 0x58
-        public UnityEngine.MeshFilter meshFilter; // 0x60
-        public UnityEngine.Mesh mesh; // 0x68
-        public TMPro.TextMeshPro textComponent; // 0x70
+        public rical renderer; // 0x58
+        public n meshFilter; // 0x60
+        public object mesh; // 0x68
+        public ypointLabel.faultValue textComponent; // 0x70
         public bool m_isRegisteredForEvents; // 0x78
 
         // ── Methods ──
@@ -1490,20 +1477,20 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SubMeshUI : MaskableGraphic
     {
-        public TMPro.TMP_FontAsset fontAsset; // 0xE0
-        public TMPro.TMP_SpriteAsset spriteAsset; // 0xE8
-        public UnityEngine.Material mainTexture; // 0xF0
-        public UnityEngine.Material material; // 0xF8
-        public UnityEngine.Material sharedMaterial; // 0x100
-        public UnityEngine.Material fallbackMaterial; // 0x108
+        public ypointLabel.urces fontAsset; // 0xE0
+        public ypointLabel.? spriteAsset; // 0xE8
+        public atrix_Injected mainTexture; // 0xF0
+        public atrix_Injected material; // 0xF8
+        public atrix_Injected sharedMaterial; // 0x100
+        public atrix_Injected fallbackMaterial; // 0x108
         public bool fallbackSourceMaterial; // 0x110
         public float materialForRendering; // 0x114
-        public UnityEngine.Mesh isDefaultMaterial; // 0x118
-        public TMPro.TextMeshProUGUI padding; // 0x120
+        public object isDefaultMaterial; // 0x118
+        public ypointLabel.esourceProvider padding; // 0x120
         public bool mesh; // 0x128
         public bool textComponent; // 0x129
         public int m_materialReferenceIndex; // 0x12C
-        public UnityEngine.Transform m_RootCanvasTransform; // 0x130
+        public object m_RootCanvasTransform; // 0x130
 
         // ── Methods ──
         public void get_fontAsset(){} // RVA: 0x7FFD4E3C2900
@@ -1558,48 +1545,48 @@ namespace ThirdParty.Other.TMPro
     {
         public string text; // 0xE0
         public bool textPreprocessor; // 0xE8
-        public TMPro.ITextPreprocessor isRightToLeftText; // 0xF0
+        public ypointLabel.ieldNumber isRightToLeftText; // 0xF0
         public bool font; // 0xF8
-        public TMPro.TMP_FontAsset fontSharedMaterial; // 0x100
-        public TMPro.TMP_FontAsset fontSharedMaterials; // 0x108
+        public ypointLabel.urces fontSharedMaterial; // 0x100
+        public ypointLabel.urces fontSharedMaterials; // 0x108
         public bool fontMaterial; // 0x110
-        public UnityEngine.Material fontMaterials; // 0x118
-        public UnityEngine.Material color; // 0x120
-        public TMPro.MaterialReference[] alpha;
-        public System.Collections.Generic.Dictionary`2<int,int> enableVertexGradient; // 0x8
-        public TMPro.TMP_TextProcessingStack`1<TMPro.MaterialReference> colorGradient; // 0x10
+        public atrix_Injected fontMaterials; // 0x118
+        public atrix_Injected color; // 0x120
+        public ypointLabel.RectId[] alpha;
+        public URA.DateTime<int,int> enableVertexGradient; // 0x8
+        public ypointLabel.t<ypointLabel.RectId> colorGradient; // 0x10
         public int colorGradientPreset; // 0x128
-        public UnityEngine.Material[] spriteAsset; // 0x130
-        public UnityEngine.Material tintAllSprites; // 0x138
-        public UnityEngine.Material[] styleSheet; // 0x140
+        public atrix_Injected[] spriteAsset; // 0x130
+        public atrix_Injected tintAllSprites; // 0x138
+        public atrix_Injected[] styleSheet; // 0x140
         public bool textStyle; // 0x148
-        public UnityEngine.Color32 overrideColorTags; // 0x14C
-        public UnityEngine.Color faceColor; // 0x150
-        public UnityEngine.Color32 outlineColor; // 0x68
-        public UnityEngine.Color32 outlineWidth; // 0x160
-        public UnityEngine.Color32 fontSize; // 0x164
+        public object overrideColorTags; // 0x14C
+        public object faceColor; // 0x150
+        public object outlineColor; // 0x68
+        public object outlineWidth; // 0x160
+        public object fontSize; // 0x164
         public bool fontWeight; // 0x168
-        public 0x665794B8 pixelsPerUnit; // 0x16C
-        public TMPro.VertexGradient enableAutoSizing; // 0x170
-        public TMPro.TMP_ColorGradient fontSizeMin; // 0x1B0
-        public TMPro.TMP_SpriteAsset fontSizeMax; // 0x1B8
+        public ypointLabel.kWidth pixelsPerUnit; // 0x16C
+        public ypointLabel.ircleVertices enableAutoSizing; // 0x170
+        public ypointLabel.ld fontSizeMin; // 0x1B0
+        public ypointLabel.? fontSizeMax; // 0x1B8
         public bool fontStyle; // 0x1C0
         public bool isUsingBold; // 0x1C1
-        public UnityEngine.Color32 horizontalAlignment; // 0x1C4
-        public TMPro.TMP_StyleSheet verticalAlignment; // 0x1C8
-        public TMPro.TMP_Style alignment; // 0x1D0
+        public object horizontalAlignment; // 0x1C4
+        public ypointLabel.t_atlasPadding verticalAlignment; // 0x1C8
+        public ypointLabel.ble alignment; // 0x1D0
         public int characterSpacing; // 0x1D8
         public bool wordSpacing; // 0x1DC
-        public UnityEngine.Color32 lineSpacing; // 0x1E0
-        public UnityEngine.Color32 lineSpacingAdjustment; // 0x1E4
+        public object lineSpacing; // 0x1E0
+        public object lineSpacingAdjustment; // 0x1E4
         public float paragraphSpacing; // 0x1E8
         public float characterWidthAdjustment; // 0x1EC
         public float enableWordWrapping; // 0x1F0
         public float wordWrappingRatios; // 0x1F4
-        public TMPro.TMP_TextProcessingStack`1<float> overflowMode; // 0x1F8
-        public 0x6657B928 isTextOverflowing; // 0x218
-        public 0x6657B928 firstOverflowCharacterIndex; // 0x21C
-        public TMPro.TMP_TextProcessingStack`1<0x6657B928> linkedTextComponent; // 0x220
+        public ypointLabel.t<float> overflowMode; // 0x1F8
+        public ypointLabel.tAssetData isTextOverflowing; // 0x218
+        public ypointLabel.tAssetData firstOverflowCharacterIndex; // 0x21C
+        public ypointLabel.t<ypointLabel.tAssetData> linkedTextComponent; // 0x220
         public bool isTextTruncated; // 0x240
         public float enableKerning; // 0x244
         public float extraPadding; // 0x248
@@ -1608,16 +1595,16 @@ namespace ThirdParty.Other.TMPro
         public bool isOverlay; // 0x254
         public float isOrthographic; // 0x258
         public float enableCulling; // 0x25C
-        public 0x6657B8D0 ignoreVisibility; // 0x260
-        public 0x6657B8D0 horizontalMapping; // 0x264
-        public TMPro.TMP_FontStyleStack verticalMapping; // 0x268
+        public ypointLabel.rray ignoreVisibility; // 0x260
+        public ypointLabel.rray horizontalMapping; // 0x264
+        public ypointLabel.formAdjustment verticalMapping; // 0x268
         public bool mappingUvLineOffset; // 0x272
-        public 0x6657B610 renderMode; // 0x274
-        public 0x6657B668 geometrySortingOrder; // 0x278
-        public 0x6657B5B8 isTextObjectScaleStatic; // 0x27C
-        public 0x6657B610 vertexBufferAutoSizeReduction; // 0x280
-        public TMPro.TMP_TextProcessingStack`1<0x6657B610> firstVisibleCharacter; // 0x288
-        public UnityEngine.Vector3[] maxVisibleCharacters; // 0x2A8
+        public ypointLabel.CharacterInternal renderMode; // 0x274
+        public ypointLabel.racter_and_QueueRenderToTexture geometrySortingOrder; // 0x278
+        public ypointLabel.ortFontFeatureTable isTextObjectScaleStatic; // 0x27C
+        public ypointLabel.CharacterInternal vertexBufferAutoSizeReduction; // 0x280
+        public ypointLabel.t<ypointLabel.CharacterInternal> firstVisibleCharacter; // 0x288
+        public amut[] maxVisibleCharacters; // 0x2A8
         public float maxVisibleWords; // 0x2B0
         public float maxVisibleLines; // 0x2B4
         public float useMaxVisibleDescender; // 0x2B8
@@ -1635,10 +1622,10 @@ namespace ThirdParty.Other.TMPro
         public bool textBounds; // 0x2E2
         public bool spriteAnimator; // 0x2E3
         public float flexibleHeight; // 0x2E4
-        public 0x6657B7C8 flexibleWidth; // 0x2E8
+        public ypointLabel.UpdateGlyphAdjustmentRecords flexibleWidth; // 0x2E8
         public int minWidth; // 0x2EC
-        public TMPro.TMP_Text minHeight; // 0x2F0
-        public TMPro.TMP_Text maxWidth; // 0x2F8
+        public ypointLabel.rAtlasTextures minHeight; // 0x2F0
+        public ypointLabel.rAtlasTextures maxWidth; // 0x2F8
         public bool maxHeight; // 0x300
         public bool layoutElement; // 0x301
         public float preferredWidth; // 0x304
@@ -1652,11 +1639,11 @@ namespace ThirdParty.Other.TMPro
         public bool m_isMaskingEnabled; // 0x30F
         public bool isMaskUpdateRequired; // 0x310
         public bool m_ignoreCulling; // 0x311
-        public 0x6657B878 m_horizontalMapping; // 0x314
-        public 0x6657B878 m_verticalMapping; // 0x318
+        public ypointLabel.lyphIndexes m_horizontalMapping; // 0x314
+        public ypointLabel.lyphIndexes m_verticalMapping; // 0x318
         public float m_uvLineOffset; // 0x31C
-        public 0x6657B6C0 m_renderMode; // 0x320
-        public 0x6657AD20 m_geometrySortingOrder; // 0x324
+        public ypointLabel.exture m_renderMode; // 0x320
+        public ypointLabel.? m_geometrySortingOrder; // 0x324
         public bool m_IsTextObjectScaleStatic; // 0x328
         public bool m_VertexBufferAutoSizeReduction; // 0x329
         public int m_firstVisibleCharacter; // 0x32C
@@ -1666,34 +1653,34 @@ namespace ThirdParty.Other.TMPro
         public bool m_useMaxVisibleDescender; // 0x33C
         public int m_pageToDisplay; // 0x340
         public bool m_isNewPage; // 0x344
-        public UnityEngine.Vector4 m_margin; // 0x348
+        public get_boundingBoxMode m_margin; // 0x348
         public float m_marginLeft; // 0x358
         public float m_marginRight; // 0x35C
         public float m_marginWidth; // 0x360
         public float m_marginHeight; // 0x364
         public float m_width; // 0x368
-        public TMPro.TMP_TextInfo m_textInfo; // 0x370
+        public ypointLabel.StartTime m_textInfo; // 0x370
         public bool m_havePropertiesChanged; // 0x378
         public bool m_isUsingLegacyAnimationComponent; // 0x379
-        public UnityEngine.Transform m_transform; // 0x380
-        public UnityEngine.RectTransform m_rectTransform; // 0x388
-        public UnityEngine.Vector2 m_PreviousRectTransformSize; // 0x390
-        public UnityEngine.Vector2 m_PreviousPivotPosition; // 0x398
+        public object m_transform; // 0x380
+        public 16 m_rectTransform; // 0x388
+        public tionX m_PreviousRectTransformSize; // 0x390
+        public tionX m_PreviousPivotPosition; // 0x398
         public bool <autoSizeTextContainer>k__BackingField; // 0x3A0
         public bool m_autoSizeTextContainer; // 0x3A1
-        public UnityEngine.Mesh m_mesh; // 0x3A8
+        public object m_mesh; // 0x3A8
         public bool m_isVolumetricText; // 0x3B0
-        public System.Func`3<int,string,TMPro.TMP_FontAsset> OnFontAssetRequest; // 0x70
-        public System.Func`3<int,string,TMPro.TMP_SpriteAsset> OnSpriteAssetRequest; // 0x78
-        public System.Action`1<TMPro.TMP_TextInfo> OnPreRenderText; // 0x3B8
-        public TMPro.TMP_SpriteAnimator m_spriteAnimator; // 0x3C0
+        public nalInformation<int,string,ypointLabel.urces> OnFontAssetRequest; // 0x70
+        public nalInformation<int,string,ypointLabel.?> OnSpriteAssetRequest; // 0x78
+        public ileFullDirectoryInformation<ypointLabel.StartTime> OnPreRenderText; // 0x3B8
+        public ypointLabel.hickElementSize m_spriteAnimator; // 0x3C0
         public float m_flexibleHeight; // 0x3C8
         public float m_flexibleWidth; // 0x3CC
         public float m_minWidth; // 0x3D0
         public float m_minHeight; // 0x3D4
         public float m_maxWidth; // 0x3D8
         public float m_maxHeight; // 0x3DC
-        public UnityEngine.UI.LayoutElement m_LayoutElement; // 0x3E0
+        public ePathName117.OpenVRLaunchOption_Bool m_LayoutElement; // 0x3E0
         public float m_preferredWidth; // 0x3E8
         public float m_renderedWidth; // 0x3EC
         public bool m_isPreferredWidthDirty; // 0x3F0
@@ -1705,28 +1692,28 @@ namespace ThirdParty.Other.TMPro
         public bool m_isLayoutDirty; // 0x404
         public bool m_isAwake; // 0x405
         public bool m_isWaitingOnResourceLoad; // 0x406
-        public 0x6657B9D8 m_inputSource; // 0x408
+        public houldActivateNextUpdate m_inputSource; // 0x408
         public float m_fontScaleMultiplier; // 0x40C
         public char[] m_htmlTag; // 0x80
-        public 0x66579250[] m_xmlAttribute; // 0x88
+        public ypointLabel.lateDistance[] m_xmlAttribute; // 0x88
         public float[] m_attributeParameterValues; // 0x90
         public float tag_LineIndent; // 0x410
         public float tag_Indent; // 0x414
-        public TMPro.TMP_TextProcessingStack`1<float> m_indentStack; // 0x418
+        public ypointLabel.t<float> m_indentStack; // 0x418
         public bool tag_NoParsing; // 0x438
         public bool m_isParsingText; // 0x439
-        public UnityEngine.Matrix4x4 m_FXMatrix; // 0x43C
+        public tSizeBias m_FXMatrix; // 0x43C
         public bool m_isFXMatrixSet; // 0x47C
-        public UnicodeChar[] m_TextProcessingArray; // 0x480
+        public OfBounds[] m_TextProcessingArray; // 0x480
         public int m_InternalTextProcessingArraySize; // 0x488
-        public TMPro.TMP_CharacterInfo[] m_internalCharacterInfo; // 0x490
+        public ypointLabel.ure[] m_internalCharacterInfo; // 0x490
         public int m_totalCharacterCount; // 0x498
-        public TMPro.WordWrapState m_SavedWordWrapState; // 0x98
-        public TMPro.WordWrapState m_SavedLineState; // 0x410
-        public TMPro.WordWrapState m_SavedEllipsisState; // 0x788
-        public TMPro.WordWrapState m_SavedLastValidState; // 0xB00
-        public TMPro.WordWrapState m_SavedSoftLineBreakState; // 0xE78
-        public TMPro.TMP_TextProcessingStack`1<TMPro.WordWrapState> m_EllipsisInsertionCandidateStack; // 0x11F0
+        public ypointLabel.rkColor m_SavedWordWrapState; // 0x98
+        public ypointLabel.rkColor m_SavedLineState; // 0x410
+        public ypointLabel.rkColor m_SavedEllipsisState; // 0x788
+        public ypointLabel.rkColor m_SavedLastValidState; // 0xB00
+        public ypointLabel.rkColor m_SavedSoftLineBreakState; // 0xE78
+        public ypointLabel.t<ypointLabel.rkColor> m_EllipsisInsertionCandidateStack; // 0x11F0
         public int m_characterCount; // 0x49C
         public int m_firstCharacterOfLine; // 0x4A0
         public int m_firstVisibleCharacterOfLine; // 0x4A4
@@ -1745,42 +1732,42 @@ namespace ThirdParty.Other.TMPro
         public float m_startOfLineAscender; // 0x4D8
         public float m_startOfLineDescender; // 0x4DC
         public float m_lineOffset; // 0x4E0
-        public TMPro.Extents m_meshExtents; // 0x4E4
-        public UnityEngine.Color32 m_htmlColor; // 0x4F4
-        public TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32> m_colorStack; // 0x4F8
-        public TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32> m_underlineColorStack; // 0x518
-        public TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32> m_strikethroughColorStack; // 0x538
-        public TMPro.TMP_TextProcessingStack`1<TMPro.HighlightState> m_HighlightStateStack; // 0x558
-        public TMPro.TMP_ColorGradient m_colorGradientPreset; // 0x588
-        public TMPro.TMP_TextProcessingStack`1<TMPro.TMP_ColorGradient> m_colorGradientStack; // 0x590
+        public ypointLabel.r m_meshExtents; // 0x4E4
+        public object m_htmlColor; // 0x4F4
+        public ypointLabel.t<?> m_colorStack; // 0x4F8
+        public ypointLabel.t<?> m_underlineColorStack; // 0x518
+        public ypointLabel.t<?> m_strikethroughColorStack; // 0x538
+        public ypointLabel.t<ypointLabel.teMonoColorTexture> m_HighlightStateStack; // 0x558
+        public ypointLabel.ld m_colorGradientPreset; // 0x588
+        public ypointLabel.t<ypointLabel.ld> m_colorGradientStack; // 0x590
         public bool m_colorGradientPresetIsTinted; // 0x5B8
         public float m_tabSpacing; // 0x5BC
         public float m_spacing; // 0x5C0
-        public TMPro.TMP_TextProcessingStack`1<int>[] m_TextStyleStacks; // 0x5C8
+        public ypointLabel.t<int>[] m_TextStyleStacks; // 0x5C8
         public int m_TextStyleStackDepth; // 0x5D0
-        public TMPro.TMP_TextProcessingStack`1<int> m_ItalicAngleStack; // 0x5D8
+        public ypointLabel.t<int> m_ItalicAngleStack; // 0x5D8
         public int m_ItalicAngle; // 0x5F8
-        public TMPro.TMP_TextProcessingStack`1<int> m_actionStack; // 0x600
+        public ypointLabel.t<int> m_actionStack; // 0x600
         public float m_padding; // 0x620
         public float m_baselineOffset; // 0x624
-        public TMPro.TMP_TextProcessingStack`1<float> m_baselineOffsetStack; // 0x628
+        public ypointLabel.t<float> m_baselineOffsetStack; // 0x628
         public float m_xAdvance; // 0x648
-        public 0x6657B718 m_textElementType; // 0x64C
-        public TMPro.TMP_TextElement m_cached_TextElement; // 0x650
-        public SpecialCharacter m_Ellipsis; // 0x658
-        public SpecialCharacter m_Underline; // 0x678
-        public TMPro.TMP_SpriteAsset m_defaultSpriteAsset; // 0x698
-        public TMPro.TMP_SpriteAsset m_currentSpriteAsset; // 0x6A0
+        public ypointLabel.extures m_textElementType; // 0x64C
+        public ypointLabel.oroutine m_cached_TextElement; // 0x650
+        public crollSpeed m_Ellipsis; // 0x658
+        public crollSpeed m_Underline; // 0x678
+        public ypointLabel.? m_defaultSpriteAsset; // 0x698
+        public ypointLabel.? m_currentSpriteAsset; // 0x6A0
         public int m_spriteCount; // 0x6A8
         public int m_spriteIndex; // 0x6AC
         public int m_spriteAnimationID; // 0x6B0
-        public Unity.Profiling.ProfilerMarker k_ParseTextMarker; // 0x1588
-        public Unity.Profiling.ProfilerMarker k_InsertNewLineMarker; // 0x1590
+        public object k_ParseTextMarker; // 0x1588
+        public object k_InsertNewLineMarker; // 0x1590
         public bool m_ignoreActiveState; // 0x6B4
-        public TextBackingContainer m_TextBackingArray; // 0x6B8
-        public System.Decimal[] k_Power; // 0x6C8
-        public UnityEngine.Vector2 k_LargePositiveVector2; // 0x1598
-        public UnityEngine.Vector2 k_LargeNegativeVector2; // 0x15A0
+        public llSpeed m_TextBackingArray; // 0x6B8
+        public ltiple[] k_Power; // 0x6C8
+        public tionX k_LargePositiveVector2; // 0x1598
+        public tionX k_LargeNegativeVector2; // 0x15A0
         public float k_LargePositiveFloat; // 0x15A8
         public float k_LargeNegativeFloat; // 0x15AC
         public int k_LargePositiveInt; // 0x15B0
@@ -2045,10 +2032,10 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextElement : Object
     {
-        public 0x6657BBE8 elementType; // 0x10
+        public ypointLabel.tartTime elementType; // 0x10
         public uint unicode; // 0x14
-        public TMPro.TMP_Asset textAsset; // 0x18
-        public UnityEngine.TextCore.Glyph glyph; // 0x20
+        public ypointLabel.eTextColor textAsset; // 0x18
+        public e.ypeHash glyph; // 0x20
         public uint glyphIndex; // 0x28
         public float scale; // 0x2C
 
@@ -2085,9 +2072,9 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextInfo : Object
     {
-        public UnityEngine.Vector2 k_InfinityVectorPositive;
-        public UnityEngine.Vector2 k_InfinityVectorNegative; // 0x8
-        public TMPro.TMP_Text textComponent; // 0x10
+        public tionX k_InfinityVectorPositive;
+        public tionX k_InfinityVectorNegative; // 0x8
+        public ypointLabel.rAtlasTextures textComponent; // 0x10
         public int characterCount; // 0x18
         public int spriteCount; // 0x1C
         public int spaceCount; // 0x20
@@ -2096,13 +2083,13 @@ namespace ThirdParty.Other.TMPro
         public int lineCount; // 0x2C
         public int pageCount; // 0x30
         public int materialCount; // 0x34
-        public TMPro.TMP_CharacterInfo[] characterInfo; // 0x38
-        public TMPro.TMP_WordInfo[] wordInfo; // 0x40
-        public TMPro.TMP_LinkInfo[] linkInfo; // 0x48
-        public TMPro.TMP_LineInfo[] lineInfo; // 0x50
-        public TMPro.TMP_PageInfo[] pageInfo; // 0x58
-        public TMPro.TMP_MeshInfo[] meshInfo; // 0x60
-        public TMPro.TMP_MeshInfo[] m_CachedMeshInfo; // 0x68
+        public ypointLabel.ure[] characterInfo; // 0x38
+        public ypointLabel.esultAnnotationController[] wordInfo; // 0x40
+        public ypointLabel.LandmarkListAnnotation[] linkInfo; // 0x48
+        public ypointLabel._anchorPosition[] lineInfo; // 0x50
+        public ypointLabel.IrisLandmarkList[] pageInfo; // 0x58
+        public ypointLabel.pectiveCorrection[] meshInfo; // 0x60
+        public ypointLabel.pectiveCorrection[] m_CachedMeshInfo; // 0x68
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54BC0A40 | overloaded x3
@@ -2121,7 +2108,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextParsingUtilities : Object
     {
-        public TMPro.TMP_TextParsingUtilities instance;
+        public ypointLabel._isRichTextEditingAllowed instance;
         public string k_LookupStringL;
         public string k_LookupStringU;
 
@@ -2140,9 +2127,9 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
-        public TMPro.WordWrapState[] Count; // 0x10
+        public ypointLabel.rkColor[] Count; // 0x10
         public int current; // 0x18
-        public TMPro.WordWrapState rolloverSize; // 0x20
+        public ypointLabel.rkColor rolloverSize; // 0x20
         public int m_Capacity; // 0x398
         public int m_RolloverSize; // 0x39C
         public int m_Count; // 0x3A0
@@ -2167,7 +2154,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextUtilities : Object
     {
-        public UnityEngine.Vector3[] m_rectWorldCorners;
+        public amut[] m_rectWorldCorners;
         public string k_lookupStringL;
         public string k_lookupStringU;
 
@@ -2200,20 +2187,20 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_UpdateManager : Object
     {
-        public TMPro.TMP_UpdateManager instance;
-        public System.Collections.Generic.HashSet`1<int> m_LayoutQueueLookup; // 0x10
-        public System.Collections.Generic.List`1<TMPro.TMP_Text> m_LayoutRebuildQueue; // 0x18
-        public System.Collections.Generic.HashSet`1<int> m_GraphicQueueLookup; // 0x20
-        public System.Collections.Generic.List`1<TMPro.TMP_Text> m_GraphicRebuildQueue; // 0x28
-        public System.Collections.Generic.HashSet`1<int> m_InternalUpdateLookup; // 0x30
-        public System.Collections.Generic.List`1<TMPro.TMP_Text> m_InternalUpdateQueue; // 0x38
-        public System.Collections.Generic.HashSet`1<int> m_CullingUpdateLookup; // 0x40
-        public System.Collections.Generic.List`1<TMPro.TMP_Text> m_CullingUpdateQueue; // 0x48
-        public Unity.Profiling.ProfilerMarker k_RegisterTextObjectForUpdateMarker; // 0x8
-        public Unity.Profiling.ProfilerMarker k_RegisterTextElementForGraphicRebuildMarker; // 0x10
-        public Unity.Profiling.ProfilerMarker k_RegisterTextElementForCullingUpdateMarker; // 0x18
-        public Unity.Profiling.ProfilerMarker k_UnregisterTextObjectForUpdateMarker; // 0x20
-        public Unity.Profiling.ProfilerMarker k_UnregisterTextElementForGraphicRebuildMarker; // 0x28
+        public ypointLabel.ct instance;
+        public URA.onsDepth<int> m_LayoutQueueLookup; // 0x10
+        public URA.woDigitYearMax<ypointLabel.rAtlasTextures> m_LayoutRebuildQueue; // 0x18
+        public URA.onsDepth<int> m_GraphicQueueLookup; // 0x20
+        public URA.woDigitYearMax<ypointLabel.rAtlasTextures> m_GraphicRebuildQueue; // 0x28
+        public URA.onsDepth<int> m_InternalUpdateLookup; // 0x30
+        public URA.woDigitYearMax<ypointLabel.rAtlasTextures> m_InternalUpdateQueue; // 0x38
+        public URA.onsDepth<int> m_CullingUpdateLookup; // 0x40
+        public URA.woDigitYearMax<ypointLabel.rAtlasTextures> m_CullingUpdateQueue; // 0x48
+        public object k_RegisterTextObjectForUpdateMarker; // 0x8
+        public object k_RegisterTextElementForGraphicRebuildMarker; // 0x10
+        public object k_RegisterTextElementForCullingUpdateMarker; // 0x18
+        public object k_UnregisterTextObjectForUpdateMarker; // 0x20
+        public object k_UnregisterTextElementForGraphicRebuildMarker; // 0x28
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54BC9560
@@ -2238,11 +2225,11 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_UpdateRegistry : Object
     {
-        public TMPro.TMP_UpdateRegistry instance;
-        public System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue; // 0x10
-        public System.Collections.Generic.HashSet`1<int> m_LayoutQueueLookup; // 0x18
-        public System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement> m_GraphicRebuildQueue; // 0x20
-        public System.Collections.Generic.HashSet`1<int> m_GraphicQueueLookup; // 0x28
+        public ypointLabel.etProperties instance;
+        public URA.woDigitYearMax<ePathName117.PathName28> m_LayoutRebuildQueue; // 0x10
+        public URA.onsDepth<int> m_LayoutQueueLookup; // 0x18
+        public URA.woDigitYearMax<ePathName117.PathName28> m_GraphicRebuildQueue; // 0x20
+        public URA.onsDepth<int> m_GraphicQueueLookup; // 0x28
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54BCAD50
@@ -2260,29 +2247,24 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_WordInfo : ValueType
     {
-        public TMPro.TMP_Text textComponent; // 0x10
-        public int firstCharacterIndex; // 0x18
-        public int lastCharacterIndex; // 0x1C
-        public int characterCount; // 0x20
-
         // ── Methods ──
         public void GetWord(){} // RVA: 0x7FFD54B594B0
     }
 
     public class TMPro_EventManager : Object
     {
-        public TMPro.FastAction`2<object,0x66578DD8> COMPUTE_DT_EVENT;
-        public TMPro.FastAction`2<bool,UnityEngine.Material> MATERIAL_PROPERTY_EVENT; // 0x8
-        public TMPro.FastAction`2<bool,UnityEngine.Object> FONT_PROPERTY_EVENT; // 0x10
-        public TMPro.FastAction`2<bool,UnityEngine.Object> SPRITE_ASSET_PROPERTY_EVENT; // 0x18
-        public TMPro.FastAction`2<bool,UnityEngine.Object> TEXTMESHPRO_PROPERTY_EVENT; // 0x20
-        public TMPro.FastAction`3<UnityEngine.GameObject,UnityEngine.Material,UnityEngine.Material> DRAG_AND_DROP_MATERIAL_EVENT; // 0x28
-        public TMPro.FastAction`1<bool> TEXT_STYLE_PROPERTY_EVENT; // 0x30
-        public TMPro.FastAction`1<UnityEngine.Object> COLOR_GRADIENT_PROPERTY_EVENT; // 0x38
-        public TMPro.FastAction TMP_SETTINGS_PROPERTY_EVENT; // 0x40
-        public TMPro.FastAction RESOURCE_LOAD_EVENT; // 0x48
-        public TMPro.FastAction`2<bool,UnityEngine.Object> TEXTMESHPRO_UGUI_PROPERTY_EVENT; // 0x50
-        public TMPro.FastAction`1<UnityEngine.Object> TEXT_CHANGED_EVENT; // 0x58
+        public ypointLabel.ypointLabel<object,ypointLabel.Count> COMPUTE_DT_EVENT;
+        public ypointLabel.ypointLabel<bool,atrix_Injected> MATERIAL_PROPERTY_EVENT; // 0x8
+        public ypointLabel.ypointLabel<bool,?> FONT_PROPERTY_EVENT; // 0x10
+        public ypointLabel.ypointLabel<bool,?> SPRITE_ASSET_PROPERTY_EVENT; // 0x18
+        public ypointLabel.ypointLabel<bool,?> TEXTMESHPRO_PROPERTY_EVENT; // 0x20
+        public ypointLabel.eypointLabelFieldNumber<BuffersImpl,atrix_Injected,atrix_Injected> DRAG_AND_DROP_MATERIAL_EVENT; // 0x28
+        public ypointLabel.Label<bool> TEXT_STYLE_PROPERTY_EVENT; // 0x30
+        public ypointLabel.Label<?> COLOR_GRADIENT_PROPERTY_EVENT; // 0x38
+        public ypointLabel.l TMP_SETTINGS_PROPERTY_EVENT; // 0x40
+        public ypointLabel.l RESOURCE_LOAD_EVENT; // 0x48
+        public ypointLabel.ypointLabel<bool,?> TEXTMESHPRO_UGUI_PROPERTY_EVENT; // 0x50
+        public ypointLabel.Label<?> TEXT_CHANGED_EVENT; // 0x58
 
         // ── Methods ──
         public void ON_MATERIAL_PROPERTY_CHANGED(){} // RVA: 0x7FFD54B573F0
@@ -2318,18 +2300,18 @@ namespace ThirdParty.Other.TMPro
     public class TextContainer : UIBehaviour
     {
         public bool hasChanged; // 0x20
-        public UnityEngine.Vector2 pivot; // 0x24
-        public 0x66578B18 anchorPosition; // 0x2C
-        public UnityEngine.Rect rect; // 0x30
+        public tionX pivot; // 0x24
+        public ypointLabel.faultValue anchorPosition; // 0x2C
+        public dRecorder rect; // 0x30
         public bool size; // 0x40
         public bool width; // 0x41
         public bool height; // 0x42
-        public UnityEngine.Vector3[] isDefaultWidth; // 0x48
-        public UnityEngine.Vector3[] isDefaultHeight; // 0x50
-        public UnityEngine.Vector4 isAutoFitting; // 0x58
-        public UnityEngine.RectTransform corners; // 0x68
-        public UnityEngine.Vector2 worldCorners;
-        public TMPro.TextMeshPro margins; // 0x70
+        public amut[] isDefaultWidth; // 0x48
+        public amut[] isDefaultHeight; // 0x50
+        public get_boundingBoxMode isAutoFitting; // 0x58
+        public 16 corners; // 0x68
+        public tionX worldCorners;
+        public ypointLabel.faultValue margins; // 0x70
 
         // ── Methods ──
         public void get_hasChanged(){} // RVA: 0x7FFD4E42F9D0
@@ -2374,40 +2356,40 @@ namespace ThirdParty.Other.TMPro
         public int sortingLayerID; // 0x6D0
         public int sortingOrder; // 0x6D4
         public int autoSizeTextContainer; // 0x6D8
-        public System.Action`1<TMPro.TMP_TextInfo> textContainer; // 0x6E0
+        public ileFullDirectoryInformation<ypointLabel.StartTime> textContainer; // 0x6E0
         public bool transform; // 0x6E8
         public bool renderer; // 0x6E9
         public float mesh; // 0x6EC
-        public UnityEngine.Renderer meshFilter; // 0x6F0
-        public UnityEngine.MeshFilter maskType; // 0x6F8
+        public rical meshFilter; // 0x6F0
+        public n maskType; // 0x6F8
         public bool m_isFirstAllocation; // 0x700
         public int m_max_characters; // 0x704
         public int m_max_numberOfLines; // 0x708
-        public TMPro.TMP_SubMesh[] m_subTextObjects; // 0x710
-        public 0x6657B770 m_maskType; // 0x718
-        public UnityEngine.Matrix4x4 m_EnvMapMatrix; // 0x71C
-        public UnityEngine.Vector3[] m_RectTransformCorners; // 0x760
+        public ypointLabel.set_fontFeatureTable[] m_subTextObjects; // 0x710
+        public ypointLabel.ToNewAtlasTexture m_maskType; // 0x718
+        public tSizeBias m_EnvMapMatrix; // 0x71C
+        public amut[] m_RectTransformCorners; // 0x760
         public bool m_isRegisteredForEvents; // 0x768
-        public Unity.Profiling.ProfilerMarker k_GenerateTextMarker;
-        public Unity.Profiling.ProfilerMarker k_SetArraySizesMarker; // 0x8
-        public Unity.Profiling.ProfilerMarker k_GenerateTextPhaseIMarker; // 0x10
-        public Unity.Profiling.ProfilerMarker k_ParseMarkupTextMarker; // 0x18
-        public Unity.Profiling.ProfilerMarker k_CharacterLookupMarker; // 0x20
-        public Unity.Profiling.ProfilerMarker k_HandleGPOSFeaturesMarker; // 0x28
-        public Unity.Profiling.ProfilerMarker k_CalculateVerticesPositionMarker; // 0x30
-        public Unity.Profiling.ProfilerMarker k_ComputeTextMetricsMarker; // 0x38
-        public Unity.Profiling.ProfilerMarker k_HandleVisibleCharacterMarker; // 0x40
-        public Unity.Profiling.ProfilerMarker k_HandleWhiteSpacesMarker; // 0x48
-        public Unity.Profiling.ProfilerMarker k_HandleHorizontalLineBreakingMarker; // 0x50
-        public Unity.Profiling.ProfilerMarker k_HandleVerticalLineBreakingMarker; // 0x58
-        public Unity.Profiling.ProfilerMarker k_SaveGlyphVertexDataMarker; // 0x60
-        public Unity.Profiling.ProfilerMarker k_ComputeCharacterAdvanceMarker; // 0x68
-        public Unity.Profiling.ProfilerMarker k_HandleCarriageReturnMarker; // 0x70
-        public Unity.Profiling.ProfilerMarker k_HandleLineTerminationMarker; // 0x78
-        public Unity.Profiling.ProfilerMarker k_SavePageInfoMarker; // 0x80
-        public Unity.Profiling.ProfilerMarker k_SaveProcessingStatesMarker; // 0x88
-        public Unity.Profiling.ProfilerMarker k_GenerateTextPhaseIIMarker; // 0x90
-        public Unity.Profiling.ProfilerMarker k_GenerateTextPhaseIIIMarker; // 0x98
+        public object k_GenerateTextMarker;
+        public object k_SetArraySizesMarker; // 0x8
+        public object k_GenerateTextPhaseIMarker; // 0x10
+        public object k_ParseMarkupTextMarker; // 0x18
+        public object k_CharacterLookupMarker; // 0x20
+        public object k_HandleGPOSFeaturesMarker; // 0x28
+        public object k_CalculateVerticesPositionMarker; // 0x30
+        public object k_ComputeTextMetricsMarker; // 0x38
+        public object k_HandleVisibleCharacterMarker; // 0x40
+        public object k_HandleWhiteSpacesMarker; // 0x48
+        public object k_HandleHorizontalLineBreakingMarker; // 0x50
+        public object k_HandleVerticalLineBreakingMarker; // 0x58
+        public object k_SaveGlyphVertexDataMarker; // 0x60
+        public object k_ComputeCharacterAdvanceMarker; // 0x68
+        public object k_HandleCarriageReturnMarker; // 0x70
+        public object k_HandleLineTerminationMarker; // 0x78
+        public object k_SavePageInfoMarker; // 0x80
+        public object k_SaveProcessingStatesMarker; // 0x88
+        public object k_GenerateTextPhaseIIMarker; // 0x90
+        public object k_GenerateTextPhaseIIIMarker; // 0x98
 
         // ── Methods ──
         public void get_sortingLayerID(){} // RVA: 0x7FFD54B3DBB0
@@ -2487,45 +2469,45 @@ namespace ThirdParty.Other.TMPro
     public class TextMeshProUGUI : TMP_Text
     {
         public bool materialForRendering; // 0x6D0
-        public UnityEngine.Coroutine autoSizeTextContainer; // 0x6D8
-        public UnityEngine.Coroutine mesh; // 0x6E0
-        public UnityEngine.Rect canvasRenderer; // 0x6E8
+        public ts autoSizeTextContainer; // 0x6D8
+        public ts mesh; // 0x6E0
+        public dRecorder canvasRenderer; // 0x6E8
         public bool maskOffset; // 0x6F8
-        public System.Action`1<TMPro.TMP_TextInfo> OnPreRenderText; // 0x700
+        public ileFullDirectoryInformation<ypointLabel.StartTime> OnPreRenderText; // 0x700
         public bool m_hasFontAssetChanged; // 0x708
-        public TMPro.TMP_SubMeshUI[] m_subTextObjects; // 0x710
+        public ypointLabel.dCharactersAndFaceMetrics[] m_subTextObjects; // 0x710
         public float m_previousLossyScaleY; // 0x718
-        public UnityEngine.Vector3[] m_RectTransformCorners; // 0x720
-        public UnityEngine.CanvasRenderer m_canvasRenderer; // 0x728
-        public UnityEngine.Canvas m_canvas; // 0x730
+        public amut[] m_RectTransformCorners; // 0x720
+        public kingField m_canvasRenderer; // 0x728
+        public pad m_canvas; // 0x730
         public float m_CanvasScaleFactor; // 0x738
         public bool m_isFirstAllocation; // 0x73C
         public int m_max_characters; // 0x740
-        public UnityEngine.Material m_baseMaterial; // 0x748
+        public atrix_Injected m_baseMaterial; // 0x748
         public bool m_isScrollRegionSet; // 0x750
-        public UnityEngine.Vector4 m_maskOffset; // 0x754
-        public UnityEngine.Matrix4x4 m_EnvMapMatrix; // 0x764
+        public get_boundingBoxMode m_maskOffset; // 0x754
+        public tSizeBias m_EnvMapMatrix; // 0x764
         public bool m_isRegisteredForEvents; // 0x7A4
-        public Unity.Profiling.ProfilerMarker k_GenerateTextMarker;
-        public Unity.Profiling.ProfilerMarker k_SetArraySizesMarker; // 0x8
-        public Unity.Profiling.ProfilerMarker k_GenerateTextPhaseIMarker; // 0x10
-        public Unity.Profiling.ProfilerMarker k_ParseMarkupTextMarker; // 0x18
-        public Unity.Profiling.ProfilerMarker k_CharacterLookupMarker; // 0x20
-        public Unity.Profiling.ProfilerMarker k_HandleGPOSFeaturesMarker; // 0x28
-        public Unity.Profiling.ProfilerMarker k_CalculateVerticesPositionMarker; // 0x30
-        public Unity.Profiling.ProfilerMarker k_ComputeTextMetricsMarker; // 0x38
-        public Unity.Profiling.ProfilerMarker k_HandleVisibleCharacterMarker; // 0x40
-        public Unity.Profiling.ProfilerMarker k_HandleWhiteSpacesMarker; // 0x48
-        public Unity.Profiling.ProfilerMarker k_HandleHorizontalLineBreakingMarker; // 0x50
-        public Unity.Profiling.ProfilerMarker k_HandleVerticalLineBreakingMarker; // 0x58
-        public Unity.Profiling.ProfilerMarker k_SaveGlyphVertexDataMarker; // 0x60
-        public Unity.Profiling.ProfilerMarker k_ComputeCharacterAdvanceMarker; // 0x68
-        public Unity.Profiling.ProfilerMarker k_HandleCarriageReturnMarker; // 0x70
-        public Unity.Profiling.ProfilerMarker k_HandleLineTerminationMarker; // 0x78
-        public Unity.Profiling.ProfilerMarker k_SavePageInfoMarker; // 0x80
-        public Unity.Profiling.ProfilerMarker k_SaveProcessingStatesMarker; // 0x88
-        public Unity.Profiling.ProfilerMarker k_GenerateTextPhaseIIMarker; // 0x90
-        public Unity.Profiling.ProfilerMarker k_GenerateTextPhaseIIIMarker; // 0x98
+        public object k_GenerateTextMarker;
+        public object k_SetArraySizesMarker; // 0x8
+        public object k_GenerateTextPhaseIMarker; // 0x10
+        public object k_ParseMarkupTextMarker; // 0x18
+        public object k_CharacterLookupMarker; // 0x20
+        public object k_HandleGPOSFeaturesMarker; // 0x28
+        public object k_CalculateVerticesPositionMarker; // 0x30
+        public object k_ComputeTextMetricsMarker; // 0x38
+        public object k_HandleVisibleCharacterMarker; // 0x40
+        public object k_HandleWhiteSpacesMarker; // 0x48
+        public object k_HandleHorizontalLineBreakingMarker; // 0x50
+        public object k_HandleVerticalLineBreakingMarker; // 0x58
+        public object k_SaveGlyphVertexDataMarker; // 0x60
+        public object k_ComputeCharacterAdvanceMarker; // 0x68
+        public object k_HandleCarriageReturnMarker; // 0x70
+        public object k_HandleLineTerminationMarker; // 0x78
+        public object k_SavePageInfoMarker; // 0x80
+        public object k_SaveProcessingStatesMarker; // 0x88
+        public object k_GenerateTextPhaseIIMarker; // 0x90
+        public object k_GenerateTextPhaseIIIMarker; // 0x98
 
         // ── Methods ──
         public void get_materialForRendering(){} // RVA: 0x7FFD54B4A2A0
@@ -2604,8 +2586,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TweenRunner`1 : Object
     {
-        public UnityEngine.MonoBehaviour m_CoroutineContainer;
-        public System.Collections.IEnumerator m_Tween;
+        public glesLength m_CoroutineContainer;
+        public mePatterns.e m_Tween;
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E2ADC40
@@ -2617,10 +2599,10 @@ namespace ThirdParty.Other.TMPro
 
     public class VertexGradient : ValueType
     {
-        public UnityEngine.Color topLeft; // 0x10
-        public UnityEngine.Color topRight; // 0x20
-        public UnityEngine.Color bottomLeft; // 0x30
-        public UnityEngine.Color bottomRight; // 0x40
+        public object topLeft; // 0x10
+        public object topRight; // 0x20
+        public object bottomLeft; // 0x30
+        public object bottomRight; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABEF30 | overloaded x2
@@ -2645,7 +2627,7 @@ namespace ThirdParty.Other.TMPro
         public float maxLineAscender; // 0x48
         public float maxLineDescender; // 0x4C
         public float pageAscender; // 0x50
-        public 0x6657B610 horizontalAlignment; // 0x54
+        public ypointLabel.CharacterInternal horizontalAlignment; // 0x54
         public float marginLeft; // 0x58
         public float marginRight; // 0x5C
         public float xAdvance; // 0x60
@@ -2653,7 +2635,7 @@ namespace ThirdParty.Other.TMPro
         public float preferredHeight; // 0x68
         public float previousLineScale; // 0x6C
         public int wordCount; // 0x70
-        public 0x6657B8D0 fontStyle; // 0x74
+        public ypointLabel.rray fontStyle; // 0x74
         public int italicAngle; // 0x78
         public float fontScaleMultiplier; // 0x7C
         public float currentFontSize; // 0x80
@@ -2663,34 +2645,34 @@ namespace ThirdParty.Other.TMPro
         public float glyphHorizontalAdvanceAdjustment; // 0x90
         public float cSpace; // 0x94
         public float mSpace; // 0x98
-        public TMPro.TMP_TextInfo textInfo; // 0xA0
-        public TMPro.TMP_LineInfo lineInfo; // 0xA8
-        public UnityEngine.Color32 vertexColor; // 0x104
-        public UnityEngine.Color32 underlineColor; // 0x108
-        public UnityEngine.Color32 strikethroughColor; // 0x10C
-        public UnityEngine.Color32 highlightColor; // 0x110
-        public TMPro.TMP_FontStyleStack basicStyleStack; // 0x114
-        public TMPro.TMP_TextProcessingStack`1<int> italicAngleStack; // 0x120
-        public TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32> colorStack; // 0x140
-        public TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32> underlineColorStack; // 0x160
-        public TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32> strikethroughColorStack; // 0x180
-        public TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32> highlightColorStack; // 0x1A0
-        public TMPro.TMP_TextProcessingStack`1<TMPro.HighlightState> highlightStateStack; // 0x1C0
-        public TMPro.TMP_TextProcessingStack`1<TMPro.TMP_ColorGradient> colorGradientStack; // 0x1F0
-        public TMPro.TMP_TextProcessingStack`1<float> sizeStack; // 0x218
-        public TMPro.TMP_TextProcessingStack`1<float> indentStack; // 0x238
-        public TMPro.TMP_TextProcessingStack`1<0x6657B928> fontWeightStack; // 0x258
-        public TMPro.TMP_TextProcessingStack`1<int> styleStack; // 0x278
-        public TMPro.TMP_TextProcessingStack`1<float> baselineStack; // 0x298
-        public TMPro.TMP_TextProcessingStack`1<int> actionStack; // 0x2B8
-        public TMPro.TMP_TextProcessingStack`1<TMPro.MaterialReference> materialReferenceStack; // 0x2D8
-        public TMPro.TMP_TextProcessingStack`1<0x6657B610> lineJustificationStack; // 0x330
+        public ypointLabel.StartTime textInfo; // 0xA0
+        public ypointLabel._anchorPosition lineInfo; // 0xA8
+        public object vertexColor; // 0x104
+        public object underlineColor; // 0x108
+        public object strikethroughColor; // 0x10C
+        public object highlightColor; // 0x110
+        public ypointLabel.formAdjustment basicStyleStack; // 0x114
+        public ypointLabel.t<int> italicAngleStack; // 0x120
+        public ypointLabel.t<?> colorStack; // 0x140
+        public ypointLabel.t<?> underlineColorStack; // 0x160
+        public ypointLabel.t<?> strikethroughColorStack; // 0x180
+        public ypointLabel.t<?> highlightColorStack; // 0x1A0
+        public ypointLabel.t<ypointLabel.teMonoColorTexture> highlightStateStack; // 0x1C0
+        public ypointLabel.t<ypointLabel.ld> colorGradientStack; // 0x1F0
+        public ypointLabel.t<float> sizeStack; // 0x218
+        public ypointLabel.t<float> indentStack; // 0x238
+        public ypointLabel.t<ypointLabel.tAssetData> fontWeightStack; // 0x258
+        public ypointLabel.t<int> styleStack; // 0x278
+        public ypointLabel.t<float> baselineStack; // 0x298
+        public ypointLabel.t<int> actionStack; // 0x2B8
+        public ypointLabel.t<ypointLabel.RectId> materialReferenceStack; // 0x2D8
+        public ypointLabel.t<ypointLabel.CharacterInternal> lineJustificationStack; // 0x330
         public int spriteAnimationID; // 0x350
-        public TMPro.TMP_FontAsset currentFontAsset; // 0x358
-        public TMPro.TMP_SpriteAsset currentSpriteAsset; // 0x360
-        public UnityEngine.Material currentMaterial; // 0x368
+        public ypointLabel.urces currentFontAsset; // 0x358
+        public ypointLabel.? currentSpriteAsset; // 0x360
+        public atrix_Injected currentMaterial; // 0x368
         public int currentMaterialIndex; // 0x370
-        public TMPro.Extents meshExtents; // 0x374
+        public ypointLabel.r meshExtents; // 0x374
         public bool tagNoParsing; // 0x384
         public bool isNonBreakingSpace; // 0x385
     }
