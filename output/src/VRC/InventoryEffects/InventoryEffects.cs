@@ -7,12 +7,12 @@ namespace VRC.InventoryEffects
 {
     public class DroneSkinMapCore : MonoBehaviour
     {
-        public UnityEngine.SkinnedMeshRenderer Renderer; // 0x20
-        public UnityEngine.Animator Animator; // 0x28
-        public UnityEngine.GameObject FrontLeftRotorBone; // 0x30
-        public UnityEngine.GameObject FrontRightRotorBone; // 0x38
-        public UnityEngine.GameObject BackLeftRotorBone; // 0x40
-        public UnityEngine.GameObject BackRightRotorBone; // 0x48
+        public ure Renderer; // 0x20
+        public stfix Animator; // 0x28
+        public BuffersImpl FrontLeftRotorBone; // 0x30
+        public BuffersImpl FrontRightRotorBone; // 0x38
+        public BuffersImpl BackLeftRotorBone; // 0x40
+        public BuffersImpl BackRightRotorBone; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -20,8 +20,8 @@ namespace VRC.InventoryEffects
 
     public class InventoryEffectDescription : ScriptableObject
     {
-        public uestToBeSent.ÏÏÍÍÎÌÌÏÍÎÍ ContentType; // 0x18
-        public System.Collections.Generic.List`1<0x6663C020> Assets; // 0x20
+        public _errorReceived.vokeErrorReceivedCallback_Internal ContentType; // 0x18
+        public URA.woDigitYearMax<_errorReceived.okeClockResyncOccurredCallback_Internal> Assets; // 0x20
 
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x7FFD4E07D200
@@ -30,14 +30,14 @@ namespace VRC.InventoryEffects
 
     public class LoadingScreenMap : MonoBehaviour
     {
-        public UnityEngine.Cubemap Skybox; // 0x20
-        public UnityEngine.AudioClip BackgroundMusic; // 0x28
-        public UnityEngine.Color UINormalColor; // 0x30
-        public UnityEngine.Color UIHighlightColor; // 0x40
-        public UnityEngine.Color UIPressedColor; // 0x50
-        public UnityEngine.Color UIDisabledColor; // 0x60
-        public UnityEngine.Color TransitionBackgroundColor; // 0x70
-        public UnityEngine.Animator Animator; // 0x80
+        public tmapST Skybox; // 0x20
+        public ies BackgroundMusic; // 0x28
+        public object UINormalColor; // 0x30
+        public object UIHighlightColor; // 0x40
+        public object UIPressedColor; // 0x50
+        public object UIDisabledColor; // 0x60
+        public object TransitionBackgroundColor; // 0x70
+        public stfix Animator; // 0x80
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5527DE40
@@ -46,9 +46,9 @@ namespace VRC.InventoryEffects
     public class LocalPositionTracker : MonoBehaviour
     {
         public float _duration; // 0x20
-        public UnityEngine.Transform _targetTransform; // 0x28
-        public UnityEngine.Transform _startTransform; // 0x30
-        public UnityEngine.Transform _endTransform; // 0x38
+        public object _targetTransform; // 0x28
+        public object _startTransform; // 0x30
+        public object _endTransform; // 0x38
         public float _elapsedTime; // 0x40
 
         // ── Methods ──
@@ -60,22 +60,22 @@ namespace VRC.InventoryEffects
     public class WarpEffect : MonoBehaviour
     {
         public float AudioSources;
-        public VRC.InventoryEffects.WarpEffectParams _parameters; // 0x20
-        public UnityEngine.Transform _trackedTransform; // 0x28
-        public UnityEngine.Animator _animator; // 0x30
-        public UnityEngine.AudioSource[] _audioSources; // 0x38
-        public ÍÏÌÍÏÎÏÏÎÌ _currentMode; // 0x40
+        public _errorReceived.sterPortal _parameters; // 0x20
+        public object _trackedTransform; // 0x28
+        public stfix _animator; // 0x30
+        public t[] _audioSources; // 0x38
+        public lMarker__SystemVoid _currentMode; // 0x40
         public float _eyeHeight; // 0x44
         public bool _isTeleport; // 0x48
         public bool _isLocal; // 0x49
         public bool _isPoseTrackingAllowed; // 0x4A
         public float _trackingScale; // 0x4C
-        public System.Func`1<System.Nullable`1<UnityEngine.Pose>> _headPoseGetter; // 0x50
-        public System.Func`1<System.Nullable`1<UnityEngine.Pose>> _playerPoseGetter; // 0x58
+        public ormation<aphy<?>> _headPoseGetter; // 0x50
+        public ormation<aphy<?>> _playerPoseGetter; // 0x58
         public bool _isLoopingEnabled; // 0x60
         public bool _isInitialized; // 0x61
-        public UnityEngine.Pose _cachedHeadPose; // 0x64
-        public UnityEngine.Pose _cachedPlayerPose; // 0x80
+        public object _cachedHeadPose; // 0x64
+        public object _cachedPlayerPose; // 0x80
         public float _poseTrackingTimer; // 0x9C
         public int _isLocalHash; // 0xA0
         public int _isTeleportHash; // 0xA4
@@ -85,7 +85,7 @@ namespace VRC.InventoryEffects
         public int _heightHash; // 0xB4
         public int _heightAdjustHash; // 0xB8
         public int _destroyHash; // 0xBC
-        public System.Action`1<VRC.InventoryEffects.WarpEffect> Completed; // 0xC0
+        public ileFullDirectoryInformation<_errorReceived.?> Completed; // 0xC0
 
         // ── Methods ──
         public void add_Completed(){} // RVA: 0x7FFD5527E0E0
@@ -109,8 +109,8 @@ namespace VRC.InventoryEffects
 
     public class WarpEffectMap : MonoBehaviour
     {
-        public VRC.InventoryEffects.WarpEffectParams Parameters; // 0x20
-        public UnityEngine.Transform TrackedTransform; // 0x28
+        public _errorReceived.sterPortal Parameters; // 0x20
+        public object TrackedTransform; // 0x28
 
         // ── Methods ──
         public void get_Parameters(){} // RVA: 0x7FFD4E36F0C0
@@ -120,14 +120,14 @@ namespace VRC.InventoryEffects
 
     public class WarpEffectParams : ScriptableObject
     {
-        public 0x6663C288 PoseTrackingFlags; // 0x18
+        public ÌÏÎÎÍÏÍÏÌÏÌÏÎÏÌÍÎÍÍ PoseTrackingFlags; // 0x18
         public float PoseTrackingDuration; // 0x1C
         public bool CenterTrackedTransformVertically; // 0x20
-        public UnityEngine.Vector3 TrackedTransformLocalOffset; // 0x24
-        public UnityEngine.Vector3 TrackedTransformRemoteOffset; // 0x30
+        public amut TrackedTransformLocalOffset; // 0x24
+        public amut TrackedTransformRemoteOffset; // 0x30
         public float DelayBeforeShowingAvatar; // 0x3C
         public float DelayBeforeDespawningPlayer; // 0x40
-        public UnityEngine.Vector3 PreviewDistanceFromCamera; // 0x44
+        public amut PreviewDistanceFromCamera; // 0x44
         public bool UseReplacementShaderForPreview; // 0x50
 
         // ── Methods ──

@@ -34,7 +34,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ConfigurationUtils : Object
     {
-        public Unity.Services.Core.Configuration.IConfigurationLoader ConfigurationLoader;
+        public dll.r ConfigurationLoader;
 
         // ── Methods ──
         public void get_ConfigurationLoader(){} // RVA: 0x7FFD54B0F8E0
@@ -55,8 +55,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ProjectConfiguration : Object
     {
-        public System.Collections.Generic.IReadOnlyDictionary`2<string,Unity.Services.Core.Configuration.ConfigurationEntry> m_ConfigValues; // 0x10
-        public Unity.Services.Core.Internal.Serialization.IJsonSerializer <Serializer>k__BackingField; // 0x18
+        public URA.DayNames<string,dll.em> m_ConfigValues; // 0x10
+        public Middleware.middleware <Serializer>k__BackingField; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
@@ -66,7 +66,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
     public class SerializableProjectConfiguration : ValueType
     {
         public string[] Empty; // 0x10
-        public Unity.Services.Core.Configuration.ConfigurationEntry[] Values; // 0x18
+        public dll.em[] Values; // 0x18
 
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x7FFD54B0FB90
@@ -74,7 +74,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class StreamingAssetsConfigurationLoader : Object
     {
-        public Unity.Services.Core.Internal.Serialization.IJsonSerializer m_Serializer; // 0x10
+        public Middleware.middleware m_Serializer; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30

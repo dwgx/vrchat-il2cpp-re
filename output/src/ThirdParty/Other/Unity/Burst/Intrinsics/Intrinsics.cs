@@ -136,8 +136,8 @@ namespace ThirdParty.Other.Unity.Burst.Intrinsics
         public float Float3; // 0x1C
         public double Double0; // 0x10
         public double Double1; // 0x18
-        public Unity.Burst.Intrinsics.v64 Lo64; // 0x10
-        public Unity.Burst.Intrinsics.v64 Hi64; // 0x18
+        public ions.Generic.IEnumerator<System.Xml.Linq.XAttribute>.Current.onBehaviourUpdate Lo64; // 0x10
+        public ions.Generic.IEnumerator<System.Xml.Linq.XAttribute>.Current.onBehaviourUpdate Hi64; // 0x18
     }
 
     public class v256 : ValueType
@@ -274,8 +274,8 @@ namespace ThirdParty.Other.Unity.Burst.Intrinsics
         public double Double1; // 0x18
         public double Double2; // 0x20
         public double Double3; // 0x28
-        public Unity.Burst.Intrinsics.v128 Lo128; // 0x10
-        public Unity.Burst.Intrinsics.v128 Hi128; // 0x20
+        public ions.Generic.IEnumerator<System.Xml.Linq.XAttribute>.Current.elegate Lo128; // 0x10
+        public ions.Generic.IEnumerator<System.Xml.Linq.XAttribute>.Current.elegate Hi128; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FD9E290 | overloaded x2

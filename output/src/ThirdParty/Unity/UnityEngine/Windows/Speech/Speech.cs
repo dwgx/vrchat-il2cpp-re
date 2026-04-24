@@ -8,10 +8,10 @@ namespace ThirdParty.Unity.UnityEngine.Windows.Speech
     public class DictationRecognizer : Object
     {
         public UIntPtr m_Recognizer; // 0x10
-        public DictationHypothesisDelegate DictationHypothesis; // 0x18
-        public DictationResultDelegate DictationResult; // 0x20
-        public DictationCompletedDelegate DictationComplete; // 0x28
-        public DictationErrorHandler DictationError; // 0x30
+        public Engine.IPlayerEditorConnectionNative.DisconnectAll DictationHypothesis; // 0x18
+        public onNative.DisconnectAll DictationResult; // 0x20
+        public ollInternal DictationComplete; // 0x28
+        public ption DictationError; // 0x30
 
         // ── Methods ──
         public void DictationRecognizer_InvokeHypothesisGeneratedEvent(){} // RVA: 0x7FFD4E82E9F0
@@ -22,8 +22,8 @@ namespace ThirdParty.Unity.UnityEngine.Windows.Speech
 
     public class PhraseRecognitionSystem : Object
     {
-        public ErrorDelegate OnError;
-        public StatusDelegate OnStatusChanged; // 0x8
+        public ative OnError;
+        public ctAll OnStatusChanged; // 0x8
 
         // ── Methods ──
         public void PhraseRecognitionSystem_InvokeErrorEvent(){} // RVA: 0x7FFD54CFC670
@@ -33,7 +33,7 @@ namespace ThirdParty.Unity.UnityEngine.Windows.Speech
     public class PhraseRecognizer : Object
     {
         public UIntPtr m_Recognizer; // 0x10
-        public PhraseRecognizedDelegate OnPhraseRecognized; // 0x18
+        public nectionNative.TrySendMessage OnPhraseRecognized; // 0x18
 
         // ── Methods ──
         public void InvokePhraseRecognizedEvent(){} // RVA: 0x7FFD54CFC730

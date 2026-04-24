@@ -7,9 +7,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class MethodInfoFormatter`1 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<string> StringSerializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Type> TypeSerializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Type[]> TypeArraySerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<string> StringSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<?> TypeSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<?[]> TypeArraySerializer;
 
         // ── Methods ──
         public void DeserializeImplementation(){} // RVA: 0x7FFD4E099B30
@@ -42,7 +42,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public string RANKS_NAME;
         public char RANKS_SEPARATOR;
         public int ArrayRank;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> ValueReaderWriter;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717697136> ValueReaderWriter;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0

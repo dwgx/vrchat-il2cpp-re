@@ -8,7 +8,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÍÎÏÌÌÎÌÎÌÌÍÎÍÍÌÌÏÎÎÌ</summary>
     public class Type10m1f_0BF8 : Object
     {
-        public ÌÎÍÌÌÌÎÏÍÏÎÏÏÌÌÏÎÎÍÏÏÍÎ _0BF8; // 0x10
+        public object _0BF8;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E35C380
@@ -26,9 +26,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÌÌÍÌÌÌÏÏÌÎÎÌÎÏÎÏÌÎÍÎÏ</summary>
     public class Type10m1f_D87A : Object
     {
-        public int _d87A;
-        public int ÍÌÍÍÌÍÏÍÎÏÍÌÏÍÎÎÌÎÌÏÌÏÍ;
-        public System.Reflection.FieldInfo ÍÏÌÍÌÎÍÎÎÍÎÏÍÏÏÎÏÌÍÏÏÎÌ;
+        public object _d87A;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F0FBDC0
@@ -69,10 +67,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÎÏÍÍÌÎÍÎÍÏÏÌÌÏÎÌÎÌÌÍÏ</summary>
     public class Type11m1f_44CE : Object
     {
-        public string _44CE;
-        public string ÎÏÍÎÎÌÎÍÎÎÎÎÌÎÌÌÌÏÌÌÎÏÎ;
-        public string ÏÎÎÏÏÍÎÍÎÍÎÎÍÍÍÍÌÍÌÍÎÍÌ;
-        public 0x664D2780 ÏÍÍÏÏÎÍÍÎÎÍÎÍÍÌÍÌÌÎÎÍÎÌ; // 0x10
+        public object _44CE;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FB5C980
@@ -91,12 +86,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÍÏÎÍÎÎÍÎÎÏÍÎÏÍÍÎÏÏÍÏ</summary>
     public class Type11m1f_49FA : Object
     {
-        public System.Text.RegularExpressions.Regex _49FA;
-        public System.Text.RegularExpressions.Regex ÎÏÍÍÎÍÌÎÍÎÏÎÎÎÌÎÍÌÎÎÍÏÌ; // 0x8
-        public System.Lazy`1<string> ÌÏÌÍÏÎÎÌÎÌÍÎÌÏÌÍÎÎÎÎÎÍÎ; // 0x10
-        public float ÎÍÍÏÍÌÏÏÌÌÌÌÍÏÎÏÌÏÏÏÌÏÎ;
-        public float ÌÍÍÌÎÏÏÎÎÌÍÌÎÍÎÍÍÎÎÏÍÍÏ; // 0x18
-        public System.Collections.Generic.HashSet`1<string> ÎÍÌÏÍÎÍÏÍÎÎÎÌÌÏÌÎÍÎÌÍÍÌ; // 0x20
+        public object _49FA;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FB25C20
@@ -115,7 +105,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÌÍÌÎÍÌÎÏÌÏÏÍÍÎÏÏÏÍÍÎ</summary>
     public class Type11m1f_6EAD : Object
     {
-        public bool _6EAD;
+        public object _6EAD;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -134,22 +124,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÏÍÍÏÌÎÏÎÏÍÍÎÌÏÌÌÏÏÎÏ</summary>
     public class Type11m1f_E820 : Object
     {
-        public 0x664CE790 _e820; // 0x10
-        public string ÏÌÎÏÍÌÌÎÍÏÌÏÍÎÌÍÏÏÏÎÍÌÌ; // 0x18
-        public string ÍÎÍÏÎÎÏÎÎÍÌÎÎÌÎÎÍÏÍÏÏÌÎ; // 0x20
-        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÍÎÍÏÎÏÌÏÌÏÌÎÏÏÌÌÌÌÏÏÍÌÌ; // 0x28
-        public ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ ÍÎÎÍÎÍÌÍÎÎÍÎÎÏÍÍÏÎÌÌÌÎÌ; // 0x30
-        public ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ ÍÎÍÏÍÎÍÏÍÌÌÎÏÍÍÌÎÌÏÌÍÌÏ; // 0x38
-        public ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ ÌÍÏÌÌÏÏÏÌÌÎÍÏÏÌÎÌÌÎÌÏÎÏ; // 0x40
-        public ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ ÏÌÏÍÏÌÌÌÍÏÍÏÏÍÍÌÍÍÏÌÌÍÏ; // 0x48
-        public ÌÌÍÎÏÌÍÌÍÏÏÎÏÏÎÌÏÏÍÍÏÍÌ ÍÌÌÎÌÎÎÏÌÏÌÎÏÏÍÍÍÍÍÏÏÎÍ; // 0x50
-        public ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ ÌÏÏÍÍÏÏÌÎÌÎÏÏÌÍÍÍÌÎÏÏÍÍ; // 0x58
-        public ÎÍÎÎÍÏÎÌÌÏÎÏÌÏÍÌÎÎÏÍÌÏÏ ÍÌÎÍÏÍÍÎÌÎÎÏÍÎÌÏÎÎÍÍÎÎÍ; // 0x60
-        public ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ ÏÌÏÎÍÌÏÏÏÎÏÌÏÎÏÍÍÎÏÎÍÏÏ; // 0x68
-        public string ÎÎÌÍÌÌÍÌÍÌÎÏÍÏÍÎÎÍÌÌÍÌÌ; // 0x70
-        public System.Collections.Generic.List`1<string> ÏÎÎÍÏÌÌÌÍÎÍÍÌÍÍÎÎÎÍÎÍÏÌ; // 0x78
-        public System.Nullable`1<0x664CE840> ÎÍÎÌÏÍÏÌÏÏÏÍÏÍÏÎÍÌÎÎÏÌÎ; // 0x80
-        public string ÎÎÏÍÌÏÍÏÌÌÏÏÌÍÏÌÍÎÌÎÌÌÍ; // 0x88
+        public object _e820;
 
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD4E38E5C0
@@ -168,8 +143,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÏÌÍÏÏÎÏÎÍÍÌÏÌÏÎÍÎÍÌÍÌ</summary>
     public class Type11m2f_5F4F : Object
     {
-        public System.DateTime _name; // 0x10
-        public System.Collections.Generic.List`1<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ> _hideFlags; // 0x18
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E35C380
@@ -188,8 +163,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÏÍÎÍÌÎÎÌÍÏÍÎÏÏÍÏÏÌÎÍÍ</summary>
     public class Type11m2f_F771 : Object
     {
-        public ÎÍÌÍÏÍÍÎÍÌÍÎÎÎÌÏÌÍÎÎÏÎÌ _name; // 0x10
-        public bool _hideFlags; // 0x18
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F9887E0
@@ -230,11 +205,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÍÍÍÏÎÎÏÎÏÏÌÌÌÏÌÎÏÍÏÍ</summary>
     public class Type12m1f_28B3 : Object
     {
-        public System.WeakReference`1<ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ> _28B3; // 0x10
-        public string ÏÏÍÌÎÏÌÎÌÍÍÎÍÏÏÍÏÎÍÏÍÏÍ; // 0x18
-        public int ÌÎÎÏÍÍÌÍÌÏÌÍÎÏÎÌÍÌÍÍÎÍÎ; // 0x20
-        public string ÏÌÎÎÌÌÎÏÍÎÍÏÌÏÏÍÏÌÎÏÏÌÌ; // 0x28
-        public string <ÎÎÎÌÌÌÍÏÌÍÎÎÍÏÎÍÎÍÍÌÏÎÍ>k__BackingField; // 0x30
+        public object _28B3;
 
         // ── Methods ──
         public void GetPlatform(){} // RVA: 0x7FFD4E5F95E0
@@ -254,12 +225,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÎÏÍÍÌÍÎÎÍÍÏÌÎÏÎÌÏÏÌÎÌ</summary>
     public class Type12m1f_47FB : Object
     {
-        public System.Collections.Generic.List`1<VRC.SDK3.Avatars.Components.VRCHeadChop> _47FB; // 0x10
-        public UnityEngine.Transform ÌÎÌÎÍÌÍÎÎÍÎÌÎÎÏÎÏÏÏÏÍÏÌ; // 0x18
-        public System.Collections.Generic.Dictionary`2<UnityEngine.Transform,Î> ÌÍÌÌÎÍÎÎÌÏÌÏÌÎÌÌÎÌÏÎÍÍÏ; // 0x20
-        public System.Collections.Generic.HashSet`1<UnityEngine.Transform> ÌÏÎÏÏÌÍÏÍÎÎÍÎÎÍÌÍÌÏÎÌÌÏ; // 0x28
-        public float ÎÌÏÌÎÌÌÎÍÎÏÌÏÎÏÏÍÏÏÌÍÌÌ;
-        public UnityEngine.Vector3 ÏÌÎÎÌÌÏÍÌÎÎÍÍÌÎÌÏÌÍÍÏÎÎ;
+        public object _47FB;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F4DA490
@@ -279,8 +245,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÏÍÌÏÍÏÌÌÍÎÎÍÎÏÌÎÏÍÍÏ</summary>
     public class Type12m1f_DEFE : Object
     {
-        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ _dEFE; // 0x10
-        public System.Action`1<ÎÌÌÏÍÌÏÍÏÌÌÍÎÎÍÎÏÌÎÏÍÍÏ> ÍÏÍÏÌÎÏÎÌÍÌÎÌÏÌÏÍÏÎÏÏÍÍ; // 0x18
+        public object _dEFE;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC46B70
@@ -300,7 +265,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÌÍÍÎÎÍÌÌÍÌÌÏÍÏÍÏÌÎÏÍÎ</summary>
     public class Type12m2f_2210 : Object
     {
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> _name; // 0x10
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EB92270
@@ -320,8 +286,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÌÏÍÎÏÎÌÌÎÍÌÌÏÏÎÌÏÌÍÎÍ</summary>
     public class Type12m2f_B882 : Object
     {
-        public 0x663CA5C8 _name; // 0x10
-        public System.Action`1<object> _hideFlags; // 0x18
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -341,8 +307,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÎÍÎÍÎÍÍÏÎÌÌÏÎÌÍÎÏÍÏÌÍ</summary>
     public class Type12m3f_47FF : Object
     {
-        public System.Globalization.CultureInfo _name; // 0x10
-        public System.TimeZoneInfo[] _hideFlags; // 0x18
+        public object _name;
+        public object _hideFlags;
+        public object f_1AA;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -362,8 +329,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÎÌÎÎÎÌÌÌÏÍÏÏÎÌÍÌÍÍÎÏÏ</summary>
     public class Type12m3f_CE65 : Object
     {
-        public T _name;
-        public int _hideFlags;
+        public object _name;
+        public object _hideFlags;
+        public object f_CB4;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -383,8 +351,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÏÌÏÎÍÌÌÎÏÍÌÌÎÏÏÍÎÌÌÏÍ</summary>
     public class Type13m1f_7819 : Object
     {
-        public ÎÌÌÍÌÍÍÌÌÌÍÎÎÎÌÍÌÏÏÎÌÏÏ _7819; // 0x10
-        public j ÌÎÍÍÎÏÌÍÌÌÏÎÎÏÎÍÍÌÍÎÏÏÌ; // 0x18
+        public object _7819;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E90C640
@@ -405,7 +372,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÎÎÍÍÌÌÍÌÍÎÌÏÏÌÍÍÏÏÌÍ</summary>
     public class Type13m1f_8A82 : Object
     {
-        public bool _8A82;
+        public object _8A82;
 
         // ── Methods ──
         public void GetInstanceID_C6C0F0F77D0B(){} // RVA: 0x7FFD4EECD6A0 | overloaded x2
@@ -425,8 +392,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÍÍÏÎÏÌÎÏÎÎÌÍÍÌÌÌÏÌÎÌÌ</summary>
     public class Type13m1f_A695 : Object
     {
-        public ÌÎÎÏÎÎÎÏÏÌÌÍÌÏÌÎÌÏÏÌÎÎÍ<0x663CF168>[] _a695;
-        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> ÌÏÏÏÎÏÎÎÌÎÎÏÌÌÎÎÌÎÎÍÏÎÌ; // 0x8
+        public object _a695;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD5680B3B0
@@ -447,11 +413,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÌÌÏÍÎÌÍÌÍÌÎÎÌÍÏÏÍÍÎÏÌ</summary>
     public class Type13m1f_ED60 : Object
     {
-        public string _eD60;
-        public string ÍÌÌÌÏÍÍÏÎÌÏÌÎÎÌÍÎÌÌÎÌÏÏ; // 0x10
-        public System.Collections.Generic.HashSet`1<string> ÌÏÏÎÏÏÌÌÍÏÍÍÎÎÎÎÍÎÏÌÍÏÎ; // 0x18
-        public string ÎÎÌÏÏÌÍÎÎÏÎÏÍÎÍÌÏÌÍÏÌÌÍ; // 0x20
-        public int ÌÏÎÎÍÎÌÌÌÌÌÏÏÌÌÍÌÎÏÏÎÏÎ;
+        public object _eD60;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EB3F760
@@ -472,11 +434,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÍÎÎÌÎÍÎÏÍÎÎÏÎÎÌÌÌÎÌÎ</summary>
     public class Type13m2f_3111 : Object
     {
-        public int _name;
-        public int _hideFlags;
-        public byte[] ÍÌÍÏÏÌÏÍÎÍÎÍÍÏÍÏÏÎÎÎÍÍÏ; // 0x10
-        public int ÍÌÌÌÏÎÏÌÍÎÎÎÏÌÍÍÏÍÍÏÍÍÎ; // 0x18
-        public int ÍÌÌÎÏÌÏÎÌÏÏÌÎÌÍÍÎÌÎÍÍÌÏ; // 0x1C
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F917A80
@@ -532,18 +491,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÎÏÎÏÏÏÎÍÌÏÌÍÍÎÍÏÍÍÎÏÍ</summary>
     public class Type14m2f_0EAD : Object
     {
-        public int _name;
-        public int _hideFlags;
-        public int ÏÏÏÎÌÏÍÍÌÌÏÌÌÏÎÎÍÏÎÍÏÏÎ;
-        public int ÍÌÎÎÏÍÌÍÌÌÎÍÏÏÎÌÎÍÍÌÍÌÌ;
-        public int ÏÌÎÍÌÏÌÎÍÍÎÎÏÎÏÍÎÍÏÍÎÏÍ; // 0x10
-        public short[] ÏÎÏÏÎÎÌÏÍÏÍÎÌÌÍÎÎÏÍÌÏÌÍ; // 0x18
-        public short[] ÎÏÌÌÌÎÍÏÎÍÌÎÏÌÎÍÎÍÏÏÎÏÎ; // 0x20
-        public short[] ÎÌÏÎÏÍÏÎÍÎÍÍÌÎÌÍÏÏÎÎÌÎÌ; // 0x28
-        public byte[] ÎÎÍÌÏÌÌÌÍÍÌÏÍÎÎÌÌÏÏÏÏÏÏ; // 0x30
-        public int ÍÎÌÍÎÍÌÎÌÏÍÎÍÎÏÌÌÎÏÌÏÍÌ; // 0x38
-        public ÍÎÎÏÎÏÏÏÎÍÌÏÌÍÍÎÍÏÍÍÎÏÍ ÏÎÍÍÏÎÎÎÍÌÍÎÎÏÌÏÍÍÏÍÏÌÍ;
-        public ÍÎÎÏÎÏÏÏÎÍÌÏÌÍÍÎÍÏÍÍÎÏÍ ÏÍÌÏÎÍÌÍÎÍÎÌÍÎÎÎÏÏÍÌÎÎÍ; // 0x8
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F9130E0
@@ -565,10 +514,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÎÌÎÌÍÌÎÍÏÎÎÎÏÌÎÍÍÍÍÏ</summary>
     public class Type14m3f_38BE : Object
     {
-        public System.Type _name; // 0x10
-        public System.Delegate _hideFlags; // 0x18
-        public ÌÍÎÌÍÍÏÏÍÌÍÎÌÍÍÌÍÏÏÏÌÍÍ f_657; // 0x20
-        public object ÏÏÍÏÏÎÌÏÎÎÏÌÎÍÎÌÍÍÎÎÌÍÏ; // 0x28
+        public object _name;
+        public object _hideFlags;
+        public object f_657;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -590,8 +538,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÎÌÍÌÎÎÍÍÏÌÍÏÌÌÍÏÎÎÎÎÎ</summary>
     public class Type14m3f_5101 : Object
     {
-        public bool _name; // 0x10
-        public bool _hideFlags; // 0x11
+        public object _name;
+        public object _hideFlags;
+        public object f_973;
 
         // ── Methods ──
         public void set_KeysOrderedAcrossPartitions(){} // RVA: 0x7FFD4EB91D90
@@ -613,14 +562,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÏÏÎÍÏÍÌÏÎÏÎÏÏÏÏÍÌÏÍÌ</summary>
     public class Type14m8f_742B : Object
     {
-        public ÌÎÎÏÎÎÎÏÏÌÌÍÌÏÌÎÌÏÏÌÎÎÍ<0x664D18B8>[] _name;
-        public ÌÎÎÏÎÎÎÏÏÌÌÍÌÏÌÎÌÏÏÌÎÎÍ<0x664D18B8>[] _hideFlags; // 0x8
-        public ÌÎÎÏÎÎÎÏÏÌÌÍÌÏÌÎÌÏÏÌÎÎÍ<0x664D18B8>[] f_C7B; // 0x10
-        public ÌÎÎÏÎÎÎÏÏÌÌÍÌÏÌÎÌÏÏÌÎÎÍ<0x664D18B8>[] f_F58; // 0x18
-        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> f_D69; // 0x20
-        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> f_14C; // 0x28
-        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> f_390; // 0x30
-        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> f_D7F; // 0x38
+        public object _name;
+        public object _hideFlags;
+        public object f_C7B;
+        public object f_F58;
+        public object f_D69;
+        public object f_14C;
+        public object f_390;
+        public object f_D7F;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD56804E50
@@ -642,8 +591,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÍÍÎÌÍÍÎÎÍÏÎÌÌÏÎÏÎÎÌÌÏ</summary>
     public class Type15m1f_466D : Object
     {
-        public UnityEngine.GameObject _466D; // 0x10
-        public bool ÎÌÏÏÎÌÌÍÏÎÎÍÏÏÍÎÌÎÌÌÎÎÎ; // 0x18
+        public object _466D;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FD54F60
@@ -666,9 +614,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÌÍÌÎÏÍÍÍÌÏÍÌÏÌÏÍÏÌÏÍ</summary>
     public class Type15m3f_D9AF : Object
     {
-        public byte[] _name; // 0x10
-        public int _hideFlags; // 0x18
-        public int f_3B0; // 0x1C
+        public object _name;
+        public object _hideFlags;
+        public object f_3B0;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F908DD0
@@ -691,10 +639,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÌÌÌÍÎÍÌÏÌÍÎÌÎÍÏÍÌÍÍÌ</summary>
     public class Type16m4f_5C30 : Object
     {
-        public bool _name; // 0x10
-        public VRC.Localization.LocalizableString _hideFlags; // 0x18
-        public float f_35A; // 0x40
-        public int f_33C; // 0x44
+        public object _name;
+        public object _hideFlags;
+        public object f_35A;
+        public object f_33C;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E40B5E0
@@ -718,9 +666,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÍÎÎÌÎÌÎÎÍÍÍÍÎÏÌÍÎÌÌÌÌ</summary>
     public class Type16m6f_FA53 : Object
     {
-        public ÎÌÌÍÌÍÍÌÌÌÍÎÎÎÌÍÌÏÏÎÌÏÏ _name; // 0x10
-        public gw _hideFlags; // 0x18
-        public 0x664D6400 f_7DF; // 0x20
+        public object _name;
+        public object _hideFlags;
+        public object f_7DF;
+        public object f_E33;
+        public object f_E0B;
+        public object f_9CE;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E90B7E0
@@ -744,9 +695,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÌÌÎÌÎÎÌÌÍÎÍÍÌÍÏÍÌÎÏÌ</summary>
     public class Type17m2f_5DA9 : Object
     {
-        public System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,System.Collections.Generic.List`1<ÏÌÏÏÌÌÏÍÏÏÌÎÌÎÎÏÎÎÎÏÏÌÍ>> _name; // 0x10
-        public bool _hideFlags; // 0x18
-        public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> ÏÍÏÎÍÎÎÌÎÍÌÌÌÏÍÍÎÍÏÌÏÌÍ; // 0x20
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC05490
@@ -806,17 +756,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÏÌÏÏÍÌÎÏÎÏÍÏÍÎÏÌÌÎÎÌ</summary>
     public class Type18m1f_BFBB : Object
     {
-        public System.Collections.Generic.List`1<ÌÎÎÏÌÏÏÏÏÏÎÏÌÎÏÌÎÎÍÌÌÎÍ> _bFBB; // 0x18
-        public System.Collections.Generic.Dictionary`2<short,ÌÎÎÏÌÏÏÏÏÏÎÏÌÎÏÌÎÎÍÌÌÎÍ> ÏÎÌÏÎÎÍÏÏÍÍÎÏÍÍÎÍÍÎÏÎÌÎ; // 0x20
-        public System.Collections.Generic.Dictionary`2<string,ÌÎÎÏÌÏÏÏÏÏÎÏÌÎÏÌÎÎÍÌÌÎÍ> ÍÏÎÎÌÎÌÌÍÎÎÎÍÎÍÌÍÏÏÌÏÏÏ; // 0x28
-        public int ÌÍÌÏÌÍÍÎÌÌÍÌÍÌÍÏÏÎÍÍÌÎÎ; // 0x30
-        public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.Dictionary`2<ÌÎÎÏÌÏÏÏÏÏÎÏÌÎÏÌÎÎÍÌÌÎÍ,float>> ÎÍÌÌÌÎÎÏÎÏÏÌÌÏÏÌÏÌÎÏÏÏÎ; // 0x38
-        public Cysharp.Threading.Tasks.UniTask ÎÏÏÏÍÏÎÍÌÍÌÌÏÍÏÎÏÍÌÎÎÎÏ; // 0x40
-        public VRC.Profiling.ProfilerMarker ÏÍÏÎÍÌÎÍÎÎÏÎÎÎÎÌÍÏÌÎÍÎÎ;
-        public VRC.Profiling.ProfilerMarker ÌÎÎÏÍÍÌÍÌÏÎÍÌÌÏÎÏÎÍÎÍÍÏ; // 0x10
-        public VRC.Profiling.ProfilerMarker ÏÏÎÎÎÌÌÌÎÍÎÍÎÏÎÎÌÎÍÌÍÌÏ; // 0x20
-        public VRC.Profiling.ProfilerMarker ÏÏÎÌÏÏÌÌÎÏÍÍÎÌÌÎÎÌÏÎÎÏÍ; // 0x30
-        public System.Collections.Generic.List`1<System.Type> ÎÍÏÏÏÎÎÍÍÌÌÏÌÌÎÌÎÏÏÌÎÎÍ; // 0x40
+        public object _bFBB;
 
         // ── Methods ──
         public void LogInfo(){} // RVA: 0x7FFD4E55BE10
@@ -840,11 +780,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÌÎÍÏÏÎÍÌÌÎÌÏÍÏÎÏÌÏÎÎÎ</summary>
     public class Type18m2f_2583 : Object
     {
-        public byte[] _name; // 0x10
-        public int _hideFlags; // 0x18
-        public int ÍÌÌÌÏÎÏÌÍÎÎÎÏÌÍÍÏÍÍÏÍÍÎ; // 0x1C
-        public uint ÌÌÏÌÌÏÎÍÌÍÌÍÌÏÍÌÏÎÏÌÎÌÏ; // 0x20
-        public int ÏÎÎÍÌÍÍÏÎÎÏÌÏÌÍÍÎÎÍÏÍÌÍ; // 0x24
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F917030
@@ -870,14 +807,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÍÌÍÏÎÌÌÌÏÏÍÏÍÍÏÍÌÎÎÎÏ</summary>
     public class Type19m1f_8EAF : Object
     {
-        public System.Lazy`1<string> _8EAF;
-        public int ÏÍÌÌÍÏÌÌÍÍÏÌÍÍÎÍÍÎÎÏÌÌÏ;
-        public int ÌÍÍÏÌÍÍÏÏÍÎÏÎÏÏÌÏÍÏÎÍÌÌ;
-        public string ÍÍÌÍÎÏÌÌÎÏÏÎÌÎÌÎÍÏÏÌÍÏÎ;
-        public System.Collections.Generic.Dictionary`2<ÍÍÏÌÎÎÍÎÍÎÎÍÏÍÎÌÏÌÌÎÏÍÎ,ÍÌÌÏÍÎÎÎÎÍÍÏÏÌÎÌÎÌÍÏÎÎÍ> ÏÌÎÎÏÎÎÏÌÏÏÎÏÍÍÏÏÍÏÌÎÎÌ; // 0x10
-        public System.Collections.Generic.Dictionary`2<ÍÍÏÌÎÎÍÎÍÎÎÍÏÍÎÌÏÌÌÎÏÍÎ,Cysharp.Threading.Tasks.UniTaskCompletionSource`1<ÍÌÌÏÍÎÎÎÎÍÍÏÏÌÎÌÎÌÍÏÎÎÍ>> ÏÌÎÍÏÎÍÍÎÎÏÎÌÌÎÎÍÏÎÏÍÎÎ; // 0x18
-        public System.Threading.CancellationTokenSource ÎÍÌÍÍÎÎÏÎÌÏÏÎÏÍÏÌÌÍÏÍÍÍ; // 0x20
-        public System.Func`1<System.DateTime> ÍÍÏÎÌÌÎÏÍÏÌÌÍÏÎÍÌÌÍÎÍÎÎ; // 0x8
+        public object _8EAF;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F0DDC00
@@ -903,16 +833,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÌÎÎÍÌÍÍÏÏÏÌÌÌÎÌÏÍÎÍÎ</summary>
     public class Type19m8f_0DCE : Object
     {
-        public System.Globalization.CultureInfo _name; // 0x10
-        public string _hideFlags; // 0x18
-        public string f_BA4; // 0x20
-        public string f_940; // 0x28
-        public string f_0DF; // 0x30
-        public string f_4D7; // 0x38
-        public string f_7E0; // 0x40
-        public bool f_6D1; // 0x48
-        public bool ÏÌÎÌÎÏÏÌÏÌÌÍÎÏÍÍÎÏÎÎÏÌÍ; // 0x49
-        public bool ÌÌÎÏÍÌÍÏÏÍÍÍÌÎÌÌÍÏÏÍÎÌÎ; // 0x4A
+        public object _name;
+        public object _hideFlags;
+        public object f_BA4;
+        public object f_940;
+        public object f_0DF;
+        public object f_4D7;
+        public object f_7E0;
+        public object f_6D1;
 
         // ── Methods ──
         public void GetBufferedTimes(){} // RVA: 0x7FFD4E3BE740
@@ -1028,10 +956,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÎÏÎÎÏÌÏÍÌÏÏÌÎÎÌÎÌÌÎÌÏ</summary>
     public class Type20m3f_4262 : Object
     {
-        public byte[] _name; // 0x10
-        public int _hideFlags; // 0x18
-        public uint f_AE8; // 0x1C
-        public int ÍÍÍÍÏÌÎÎÎÍÍÌÎÍÍÎÏÏÎÍÌÎÏ; // 0x20
+        public object _name;
+        public object _hideFlags;
+        public object f_AE8;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F9175E0
@@ -1059,10 +986,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÌÏÌÏÌÍÏÏÌÍÍÎÍÍÎÌÌÎÏÍ</summary>
     public class Type20m5f_7035 : Object
     {
-        public string _name; // 0x10
-        public string _hideFlags; // 0x18
-        public string f_1C2; // 0x20
-        public int f_ADC; // 0x28
+        public object _name;
+        public object _hideFlags;
+        public object f_1C2;
+        public object f_ADC;
+        public object f_9F8;
 
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD4F9BFBB0
@@ -1368,8 +1296,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÏÍÍÎÍÌÎÌÌÏÍÍÍÌÌÍÌÍÍÌ</summary>
     public class Type4m2f_DAB7 : Object
     {
-        public float _name;
-        public float _hideFlags;
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F2FD750
@@ -1437,7 +1365,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÏÏÌÌÌÍÏÎÌÌÌÎÎÎÌÍÎÏÎÎÍ</summary>
     public class Type6m1f_55DE : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,string> _55DE;
+        public object _55DE;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F3C0EE0
@@ -1495,8 +1423,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÎÌÏÌÎÍÎÍÌÎÍÍÎÌÏÌÌÎÏÏ</summary>
     public class Type6m3f_0012 : Object
     {
-        public float _name; // 0x10
-        public UnityEngine.Coroutine _hideFlags; // 0x18
+        public object _name;
+        public object _hideFlags;
+        public object f_268;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E078E90
@@ -1510,8 +1439,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÎÌÎÏÎÍÌÌÏÍÏÍÌÏÌÍÍÎÍÍÏ</summary>
     public class Type7m1f_2CF5 : Object
     {
-        public ÌÎÎÏÎÎÎÏÏÌÌÍÌÏÌÎÌÏÏÌÎÎÍ<0x663CEDF8>[] _2CF5;
-        public System.Collections.Generic.Dictionary`2<int,System.Func`3<object,object,int>> ÌÌÍÏÏÎÍÍÏÍÌÌÏÏÍÌÍÌÎÍÎÏÏ; // 0x8
+        public object _2CF5;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD568033A0
@@ -1565,9 +1493,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÎÌÏÎÏÌÍÌÎÏÍÍÎÎÏÌÏÏÎÏ</summary>
     public class Type8m1f_AEF4 : Object
     {
-        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÍÏÏÍÌÌÏÎÏÏÍÎÍÎÏÍÎÌÍÎÎÎÍ>> _aEF4; // 0x10
-        public string ÍÍÍÍÍÌÌÏÎÏÍÎÌÎÌÎÍÌÎÏÍÍÏ; // 0x18
-        public System.Random ÍÏÎÌÌÏÎÌÎÍÎÏÎÌÏÏÏÌÏÏÎÏÎ; // 0x20
+        public object _aEF4;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E35C380
@@ -1583,8 +1509,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÍÏÍÌÍÏÌÏÍÎÍÌÌÎÍÎÌÌÎÏÌ</summary>
     public class Type8m2f_A6CC : Object
     {
-        public VRC.Localization.LocalizableString _name; // 0x10
-        public System.Action _hideFlags; // 0x38
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetSessionId(){} // RVA: 0x7FFD4E5F0140
@@ -1665,7 +1591,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÍÌÏÏÍÍÍÌÎÏÍÏÏÌÎÏÌÌÍÌÌ</summary>
     public class Type9m1f_7D6F : Object
     {
-        public ÌÍÎÏÍÍÎÍÌÎÍÍÎÎÏÌÌÎÏÍÌÌÏ _7D6F; // 0x10
+        public object _7D6F;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4EC8C0E0
@@ -1699,9 +1625,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÍÎÌÌÌÍÏÍÌÎÎÌÌÍÌÏÌÎÏÍÌ</summary>
     public class Type9m1f_C07D : Object
     {
-        public ÌÌÎÎÎÌÍÍÎÍÍÌÌÎÎÎÌÎÌÎÏÏÍ _c07D; // 0x10
-        public float ÏÏÏÏÍÏÎÎÍÏÎÏÏÎÎÎÌÎÍÏÍÏÌ; // 0x18
-        public System.Nullable`1<bool> ÌÎÎÌÍÌÎÎÍÎÌÎÍÌÏÍÏÎÏÏÌÏÍ; // 0x1C
+        public object _c07D;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FA16C20
@@ -1718,7 +1642,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÏÎÏÏÎÌÏÍÏÎÎÏÍÏÏÎÏÎÍÏ</summary>
     public class Type9m1f_DD55 : Object
     {
-        public ÌÏÏÏÎÌÌÏÌÌÎÍÏÌÌÌÍÎÏÌÌÎÌ _dD55;
+        public object _dD55;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EF3FB00
@@ -1735,11 +1659,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÎÍÎÏÍÌÍÍÏÌÍÍÌÌÌÌÎÍÌÎÌ</summary>
     public class Type9m2f_5219 : Object
     {
-        public float _name;
-        public float _hideFlags; // 0x4
-        public string ÍÏÍÎÌÍÏÍÍÌÎÎÎÌÏÌÏÍÎÎÎÍÎ;
-        public string ÌÌÍÏÎÏÍÍÍÌÌÍÏÎÌÏÍÍÏÌÍÎÎ;
-        public 0x664CF2E8 ÍÌÏÏÏÏÏÍÌÌÌÌÏÍÎÌÍÌÏÏÍÍÎ; // 0x8
+        public object _name;
+        public object _hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4ED8C270
@@ -1775,7 +1696,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÍÍÍÏÍÌÍÏÎÎÏÍÌÏÌÏÏÏÌÎÌ</summary>
     public class Type9m4f_83B2 : Object
     {
-        public int _name;
+        public object _name;
+        public object _hideFlags;
+        public object f_7EF;
+        public object f_07A;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4F83F4C0

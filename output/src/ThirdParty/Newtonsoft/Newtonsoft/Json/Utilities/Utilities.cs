@@ -20,9 +20,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class AsyncUtils : Object
     {
-        public System.Threading.Tasks.Task`1<bool> False;
-        public System.Threading.Tasks.Task`1<bool> True; // 0x8
-        public System.Threading.Tasks.Task CompletedTask; // 0x10
+        public utes.?<bool> False;
+        public utes.?<bool> True; // 0x8
+        public utes.Line CompletedTask; // 0x10
 
         // ── Methods ──
         public void ToAsync(){} // RVA: 0x7FFD53B73060
@@ -36,8 +36,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class BidirectionalDictionary`2 : Object
     {
-        public System.Collections.Generic.IDictionary`2<U,T> _firstToSecond;
-        public System.Collections.Generic.IDictionary`2<T,U> _secondToFirst;
+        public URA.X_CALENDARS<T1717644880,T1717644896> _firstToSecond;
+        public URA.X_CALENDARS<T1717644896,T1717644880> _secondToFirst;
         public string _duplicateFirstErrorMessage;
         public string _duplicateSecondErrorMessage;
 
@@ -71,8 +71,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class CollectionWrapper`1 : Object
     {
-        public System.Collections.IList Count;
-        public System.Collections.Generic.ICollection`1<T> IsReadOnly;
+        public mePatterns.eseCalendarDTFI Count;
+        public URA.tCalendarData<T1717645104> IsReadOnly;
         public object System.Collections.IList.IsFixedSize;
 
         // ── Methods ──
@@ -114,9 +114,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DictionaryWrapper`2 : Object
     {
-        public System.Collections.IDictionary GenericDictionary;
-        public System.Collections.Generic.IDictionary`2<U,T> Keys;
-        public System.Collections.Generic.IReadOnlyDictionary`2<U,T> Values;
+        public mePatterns.ears GenericDictionary;
+        public URA.X_CALENDARS<T1717645216,T1717645232> Keys;
+        public URA.DayNames<T1717645216,T1717645232> Values;
         public object Item;
 
         // ── Methods ──
@@ -153,7 +153,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DynamicProxyMetaObject`1 : DynamicMetaObject
     {
-        public Newtonsoft.Json.Utilities.DynamicProxy`1<T> NoArgs;
+        public rnToTarget.g<T1717645504> NoArgs;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -205,8 +205,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
     {
         public char EnumSeparatorChar;
         public string EnumSeparatorString;
-        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Type,0x66529548>,0x66526DC0> ValuesAndNamesPerEnum;
-        public 0x665280A8 _camelCaseNamingStrategy; // 0x8
+        public rnToTarget.ltFloatParseHandling<rnToTarget.?<?,eckAdditionalContent.eference>,rnToTarget.rameters> ValuesAndNamesPerEnum;
+        public eckAdditionalContent.ultMaxDepth _camelCaseNamingStrategy; // 0x8
 
         // ── Methods ──
         public void InitializeValuesAndNames(){} // RVA: 0x7FFD53B84C50
@@ -224,19 +224,19 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
     public class FSharpUtils : Object
     {
         public object Instance;
-        public Newtonsoft.Json.Utilities.FSharpUtils FSharpCoreAssembly; // 0x8
-        public System.Reflection.MethodInfo IsUnion; // 0x10
-        public System.Type GetUnionCases; // 0x18
-        public System.Reflection.Assembly PreComputeUnionTagReader; // 0x20
-        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> PreComputeUnionReader; // 0x28
-        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> PreComputeUnionConstructor; // 0x30
-        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> GetUnionCaseInfoDeclaringType; // 0x38
-        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> GetUnionCaseInfoName; // 0x40
-        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> GetUnionCaseInfoTag; // 0x48
-        public System.Func`2<object,object> GetUnionCaseInfoFields; // 0x50
-        public System.Func`2<object,object> <GetUnionCaseInfoName>k__BackingField; // 0x58
-        public System.Func`2<object,object> <GetUnionCaseInfoTag>k__BackingField; // 0x60
-        public Newtonsoft.Json.Utilities.MethodCall`2<object,object> <GetUnionCaseInfoFields>k__BackingField; // 0x68
+        public rnToTarget.rategyInstance>k__BackingField FSharpCoreAssembly; // 0x8
+        public m.jectMapInfo IsUnion; // 0x10
+        public object GetUnionCases; // 0x18
+        public m.ormation PreComputeUnionTagReader; // 0x20
+        public rnToTarget.?<object,object> PreComputeUnionReader; // 0x28
+        public rnToTarget.?<object,object> PreComputeUnionConstructor; // 0x30
+        public rnToTarget.?<object,object> GetUnionCaseInfoDeclaringType; // 0x38
+        public rnToTarget.?<object,object> GetUnionCaseInfoName; // 0x40
+        public rnToTarget.?<object,object> GetUnionCaseInfoTag; // 0x48
+        public n<object,object> GetUnionCaseInfoFields; // 0x50
+        public n<object,object> <GetUnionCaseInfoName>k__BackingField; // 0x58
+        public n<object,object> <GetUnionCaseInfoTag>k__BackingField; // 0x60
+        public rnToTarget.?<object,object> <GetUnionCaseInfoFields>k__BackingField; // 0x68
         public string FSharpSetTypeName;
         public string FSharpListTypeName;
         public string FSharpMapTypeName;
@@ -275,7 +275,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
     {
-        public Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory Instance;
+        public rnToTarget.Input>k__BackingField Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD53B8E570
@@ -310,8 +310,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ReflectionObject : Object
     {
-        public Newtonsoft.Json.Serialization.ObjectConstructor`1<object> Creator; // 0x10
-        public System.Collections.Generic.IDictionary`2<string,0x66527918> Members; // 0x18
+        public object Creator;
+        public object Members;
 
         // ── Methods ──
         public void get_Creator(){} // RVA: 0x7FFD4E35C380
@@ -325,7 +325,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ReflectionUtils : Object
     {
-        public System.Type[] EmptyTypes;
+        public ?[] EmptyTypes;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53B903F0
@@ -402,14 +402,14 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StructMultiKey`2 : ValueType
     {
-        public System.Type Value1; // 0x10
-        public 0x66529548 Value2; // 0x18
+        public T1717646096 Value1;
+        public T1717646112 Value2;
     }
 
     public class ThreadSafeStore`2 : Object
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Type,0x66529548>,0x66526DC0> _concurrentStore; // 0x10
-        public System.Func`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Type,0x66529548>,0x66526DC0> _creator; // 0x18
+        public JapaneseLangName.erns<T1717646128,T1717646144> _concurrentStore;
+        public n<T1717646128,T1717646144> _creator;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD520C44C0

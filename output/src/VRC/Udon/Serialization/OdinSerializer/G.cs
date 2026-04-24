@@ -20,7 +20,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GenericCollectionFormatter`2 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> valueReaderWriter;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717696928> valueReaderWriter;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -32,7 +32,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GlobalSerializationConfig : Object
     {
-        public VRC.Udon.Serialization.OdinSerializer.GlobalSerializationConfig Instance;
+        public ustment Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD553DE850
@@ -49,7 +49,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GradientAlphaKeyFormatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD554388C0
@@ -60,8 +60,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GradientColorKeyFormatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<UnityEngine.Color> ColorSerializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer; // 0x8
+        public tSupportedException_ConstructorMaxOf64Parameters<?> ColorSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer; // 0x8
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD55438BA0
@@ -72,10 +72,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GradientFormatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<UnityEngine.GradientAlphaKey[]> AlphaKeysSerializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<UnityEngine.GradientColorKey[]> ColorKeysSerializer; // 0x8
-        public System.Reflection.PropertyInfo ModeProperty; // 0x10
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<object> EnumSerializer; // 0x18
+        public tSupportedException_ConstructorMaxOf64Parameters<owMatrixOverride[]> AlphaKeysSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<NearPlane[]> ColorKeysSerializer; // 0x8
+        public m.ber ModeProperty; // 0x10
+        public tSupportedException_ConstructorMaxOf64Parameters<object> EnumSerializer; // 0x18
 
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0x7FFD55438F40

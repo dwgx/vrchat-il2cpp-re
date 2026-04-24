@@ -8,8 +8,8 @@ namespace ThirdParty.Unity.UnityEngine
     public class HDROutputSettings : Object
     {
         public int m_DisplayIndex; // 0x10
-        public UnityEngine.HDROutputSettings[] displays;
-        public UnityEngine.HDROutputSettings _mainDisplay; // 0x8
+        public <UseKindFlags>k__BackingField[] displays;
+        public <UseKindFlags>k__BackingField _mainDisplay; // 0x8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4EABFBB0
@@ -135,7 +135,7 @@ namespace ThirdParty.Unity.UnityEngine
     {
         public string boneName; // 0x10
         public string humanName; // 0x18
-        public UnityEngine.HumanLimit limit; // 0x20
+        public Array limit; // 0x20
 
         // ── Methods ──
         public void get_boneName(){} // RVA: 0x7FFD505F9A30
@@ -146,9 +146,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanLimit : ValueType
     {
-        public UnityEngine.Vector3 useDefaultValues; // 0x10
-        public UnityEngine.Vector3 min; // 0x1C
-        public UnityEngine.Vector3 max; // 0x28
+        public amut useDefaultValues; // 0x10
+        public amut min; // 0x1C
+        public amut max; // 0x28
         public float center; // 0x34
         public int axisLength; // 0x38
 
@@ -167,8 +167,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanPose : ValueType
     {
-        public UnityEngine.Vector3 bodyPosition; // 0x10
-        public UnityEngine.Quaternion bodyRotation; // 0x1C
+        public amut bodyPosition; // 0x10
+        public R_12x12 bodyRotation; // 0x1C
         public float[] muscles; // 0x30
 
         // ── Methods ──

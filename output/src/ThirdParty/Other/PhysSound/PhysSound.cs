@@ -8,8 +8,8 @@ namespace ThirdParty.Other.PhysSound
     public class PhysSoundAudioContainer : Object
     {
         public int KeyIndex; // 0x10
-        public UnityEngine.AudioSource SlideAudio; // 0x18
-        public PhysSound.PhysSoundMaterial mat; // 0x20
+        public t SlideAudio; // 0x18
+        public object mat; // 0x20
         public float targetVolume; // 0x28
         public float baseVol; // 0x2C
         public float basePitch; // 0x30
@@ -37,8 +37,8 @@ namespace ThirdParty.Other.PhysSound
     public class PhysSoundAudioSet : Object
     {
         public int Key; // 0x10
-        public System.Collections.Generic.List`1<UnityEngine.AudioClip> Impacts; // 0x18
-        public UnityEngine.AudioClip Slide; // 0x20
+        public URA.woDigitYearMax<ies> Impacts; // 0x18
+        public ies Slide; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F94BC40
@@ -64,16 +64,16 @@ namespace ThirdParty.Other.PhysSound
         public int MaterialTypeKey; // 0x18
         public int FallbackTypeIndex; // 0x1C
         public int FallbackTypeKey; // 0x20
-        public PhysSound.Range RelativeVelocityThreshold; // 0x24
+        public HeadAnimatorForExport RelativeVelocityThreshold; // 0x24
         public float PitchRandomness; // 0x2C
         public float SlidePitchMod; // 0x30
         public float SlideVolMultiplier; // 0x34
         public float ImpactNormalBias; // 0x38
-        public UnityEngine.LayerMask CollisionMask; // 0x3C
+        public object CollisionMask; // 0x3C
         public bool UseCollisionVelocity; // 0x40
         public bool ScaleImpactVolume; // 0x41
-        public System.Collections.Generic.List`1<PhysSound.PhysSoundAudioSet> AudioSets; // 0x48
-        public System.Collections.Generic.Dictionary`2<int,PhysSound.PhysSoundAudioSet> audioSetDic; // 0x50
+        public URA.woDigitYearMax<sform> AudioSets; // 0x48
+        public URA.DateTime<int,sform> audioSetDic; // 0x50
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F949E90
@@ -97,21 +97,21 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundObject : PhysSoundBase
     {
-        public PhysSound.PhysSoundMaterial SoundMaterial; // 0x20
-        public UnityEngine.AudioSource ImpactAudio; // 0x28
-        public float ÌÏÌÏÌÏÍÎÏÌÍÎÎÏÌÍÍÌÌÌÍÏÎ; // 0x30
-        public float ÌÍÌÏÎÌÏÌÎÎÍÏÍÍÎÌÌÌÌÍÎÎÎ; // 0x34
+        public object SoundMaterial; // 0x20
+        public t ImpactAudio; // 0x28
+        public float ÎÎÍÎÏÌÌÏÌÍÌÍÌÎÌÌÏÌÍÍÏÍÍ; // 0x30
+        public float ÏÎÌÌÎÌÍÍÌÍÎÍÎÎÏÍÌÏÏÏÎÏÌ; // 0x34
         public bool AutoCreateSources; // 0x38
         public bool PlayClipAtPoint; // 0x39
-        public System.Collections.Generic.List`1<PhysSound.PhysSoundAudioContainer> AudioContainers; // 0x40
-        public System.Collections.Generic.Dictionary`2<int,PhysSound.PhysSoundAudioContainer> ÎÍÌÎÏÍÎÎÏÌÌÌÌÍÎÏÎÏÏÍÍÎÏ; // 0x48
-        public UnityEngine.Vector3 ÏÍÏÍÍÌÎÎÌÍÎÏÎÏÌÏÏÎÌÎÎÌÍ; // 0x50
-        public bool ÎÍÎÍÏÍÎÌÌÍÏÌÌÍÌÍÍÏÌÍÍÍÍ; // 0x5C
-        public UnityEngine.Rigidbody ÎÎÎÍÏÌÏÌÍÎÌÏÎÎÏÎÎÍÍÍÏÌÎ; // 0x60
-        public UnityEngine.Rigidbody2D ÎÍÍÍÌÌÏÌÍÏÏÍÎÏÍÌÌÌÏÍÍÌÏ; // 0x68
-        public bool ÍÏÏÌÏÍÌÎÎÌÏÌÏÌÎÏÌÌÏÍÌÌÍ; // 0x70
-        public float ÍÏÏÍÏÎÍÍÌÏÍÎÏÍÎÏÎÏÏÌÎÍÏ; // 0x74
-        public float ÏÌÏÎÌÌÍÏÎÎÌÏÌÌÏÌÏÏÎÍÍÏÌ;
+        public URA.woDigitYearMax<ÎÌÏÏÏÎÎÌÏ> AudioContainers; // 0x40
+        public URA.DateTime<int,ÎÌÏÏÏÎÎÌÏ> ÌÍÌÎÍÏÌÏÏÌÎÎÎÎÌÎÌÏÍÎÎÌÌ; // 0x48
+        public amut ÎÌÏÍÍÎÏÌÎÍÎÏÎÏÏÎÍÍÌÏÎÌÌ; // 0x50
+        public bool ÍÍÎÎÏÏÍÏÏÍÏÎÌÍÏÌÏÍÏÏÍÎÏ; // 0x5C
+        public Touched ÎÍÍÎÎÎÌÌÎÏÏÎÏÎÌÎÏÏÍÌÎÎÎ; // 0x60
+        public nfluence ÌÌÍÏÏÍÎÌÌÎÌÌÏÌÎÌÎÌÏÏÍÏÎ; // 0x68
+        public bool ÎÏÌÌÌÍÍÍÏÌÍÌÎÍÎÎÎÌÎÌÌÌÎ; // 0x70
+        public float ÌÌÍÏÎÏÌÎÎÏÏÎÌÌÌÌÍÏÏÏÏÌÏ; // 0x74
+        public float ÏÎÎÌÌÍÌÌÍÌÏÌÎÌÌÏÎÎÎÎÎÌÏ;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F94C260
@@ -143,11 +143,11 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundTerrain : PhysSoundBase
     {
-        public UnityEngine.Terrain Terrain; // 0x20
-        public System.Collections.Generic.List`1<PhysSound.PhysSoundMaterial> SoundMaterials; // 0x28
-        public System.Collections.Generic.Dictionary`2<int,ÎÏÌÎÌÏÏÎÎÌÏÎÌÎÏÍÌÍÍÎÍÌÏ> ÍÏÌÍÌÌÍÏÎÍÎÎÏÎÏÍÏÎÏÎÌÌÍ; // 0x30
-        public UnityEngine.TerrainData ÎÍÎÌÍÍÏÏÍÎÏÌÎÎÌÌÌÏÌÌÌÌÌ; // 0x38
-        public UnityEngine.Vector3 ÌÏÌÍÌÏÎÌÌÎÍÎÏÎÌÏÏÏÍÏÏÍÎ; // 0x40
+        public ÎÍÏÎÎÎÍÎ Terrain; // 0x20
+        public URA.woDigitYearMax<?> SoundMaterials; // 0x28
+        public URA.DateTime<int,ÍÍÎÏÏÎÏÌÎÏÌÌÏÌÏÎÍÌÏÏ> ÏÏÏÏÍÎÍÏÌÎÏÍÌÌÏÍÌÍÍÎÎÍÌ; // 0x30
+        public acter ÌÎÍÎÍÎÍÌÍÌÌÏÎÎÌÎÏÍÏÍÏÌÎ; // 0x38
+        public amut ÌÍÌÎÎÏÏÌÎÎÎÎÏÍÏÏÌÏÏÌÎÌÌ; // 0x40
 
         // ── Methods ──
         public void Computetransform(){} // RVA: 0x7FFD4F956B80

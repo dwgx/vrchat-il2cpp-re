@@ -7,10 +7,10 @@ namespace VRC.SDK3.Video.Components.Base
 {
     public class BaseVRCVideoPlayer : MonoBehaviour
     {
-        public System.Action`1<VRC.SDK3.Video.Components.Base.BaseVRCVideoPlayer> InitializeBase;
+        public ileFullDirectoryInformation<ata.tIndex> InitializeBase;
         public float SyncIndexTimeSet; // 0x20
         public float SyncIndexPosition; // 0x24
-        public System.Collections.Generic.List`1<VRC.Udon.Common.Interfaces.IUdonBehaviour> Loop; // 0x28
+        public URA.woDigitYearMax<platMaterialPropertyBlock> Loop; // 0x28
         public bool IsPlaying; // 0x30
 
         // ── Methods ──

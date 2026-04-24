@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 {
     public class Collection`1 : Object
     {
-        public System.Collections.Generic.IList`1<T> Count; // 0x10
+        public URA.?<T1717590928> Count; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -47,8 +47,8 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 
     public class KeyedCollection`2 : Collection`1
     {
-        public System.Collections.Generic.IEqualityComparer`1<U> Items;
-        public System.Collections.Generic.Dictionary`2<U,T> Item;
+        public URA.hEraNames<T1717590912> Items;
+        public URA.DateTime<T1717590912,T1717590928> Item;
         public int Dictionary;
         public int threshold;
 
@@ -71,7 +71,7 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 
     public class ReadOnlyCollection`1 : Object
     {
-        public System.Collections.Generic.IList`1<IJobSortable> list; // 0x10
+        public URA.?<URA.mes<int,numeratorObject.NullAttribute>> list; // 0x10
         public object _syncRoot; // 0x18
     }
 
@@ -83,10 +83,10 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 
     public class ReadOnlyDictionary`2 : Object
     {
-        public System.Collections.Generic.IDictionary`2<U,T> Keys;
+        public URA.X_CALENDARS<T1717591040,T1717591056> Keys;
         public object Values;
-        public KeyCollection<U,T> System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
-        public ValueCollection<U,T> System.Collections.Generic.IDictionary<TKey,TValue>.Values;
+        public ySuff<T1717591040,T1717591056> System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
+        public ff<T1717591040,T1717591056> System.Collections.Generic.IDictionary<TKey,TValue>.Values;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

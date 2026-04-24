@@ -7,7 +7,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
 {
     public class Diagnostics : Object
     {
-        public System.Collections.Generic.IDictionary`2<string,string> <PackageTags>k__BackingField; // 0x10
+        public URA.X_CALENDARS<string,string> <PackageTags>k__BackingField; // 0x10
 
         // ── Methods ──
         public void SendDiagnostic(){} // RVA: 0x7FFD4E341310
@@ -16,7 +16,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
 
     public class DiagnosticsFactory : Object
     {
-        public System.Collections.Generic.IReadOnlyDictionary`2<string,string> <CommonTags>k__BackingField; // 0x10
+        public URA.DayNames<string,string> <CommonTags>k__BackingField; // 0x10
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54B1E990
@@ -55,7 +55,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
 
     public class Metrics : Object
     {
-        public System.Collections.Generic.IDictionary`2<string,string> <PackageTags>k__BackingField; // 0x10
+        public URA.X_CALENDARS<string,string> <PackageTags>k__BackingField; // 0x10
 
         // ── Methods ──
         public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendGaugeMetric(){} // RVA: 0x7FFD4E341310
@@ -66,7 +66,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
 
     public class MetricsFactory : Object
     {
-        public System.Collections.Generic.IReadOnlyDictionary`2<string,string> <CommonTags>k__BackingField; // 0x10
+        public URA.DayNames<string,string> <CommonTags>k__BackingField; // 0x10
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54B1EBF0

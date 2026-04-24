@@ -7,11 +7,11 @@ namespace VRC.SDK.Events
 {
     public class VRCRemoteString : VRCCustomAction
     {
-        public VRC.SDKBase.VRCUrl[] urls; // 0x20
-        public VRC.Udon.UdonBehaviour[] behaviours; // 0x28
+        public ellSize.t[] urls; // 0x20
+        public er.Order[] behaviours; // 0x28
         public string[] variables; // 0x30
-        public bool ÎÎÎÌÌÌÍÌÌÌÏÏÏÌÍÎÎÎÏÌÍÎÎ; // 0x38
-        public float ÍÎÎÌÌÌÌÎÍÌÌÍÍÍÍÌÎÍÌÍÎÌÏ;
+        public bool ÌÌÎÎÏÏÍÏÍÏÍÏÌÍÌÌÌÍÍÌÏÏÎ; // 0x38
+        public float ÌÎÎÏÎÎÎÎÏÏÌÎÌÏÌÎÏÎÍÏÍÍÌ;
 
         // ── Methods ──
         public void Execute(){} // RVA: 0x7FFD4FAD75B0

@@ -16,8 +16,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VRBoneTransform_t : ValueType
     {
-        public Valve.VR.HmdVector4_t position; // 0x10
-        public Valve.VR.HmdQuaternionf_t orientation; // 0x20
+        public VRChaperoneSetup position; // 0x10
+        public ayEventPacked orientation; // 0x20
     }
 
     public class VRControllerAxis_t : ValueType
@@ -31,11 +31,11 @@ namespace ThirdParty.Valve.Valve.VR
         public uint unPacketNum; // 0x10
         public ulong ulButtonPressed; // 0x18
         public ulong ulButtonTouched; // 0x20
-        public Valve.VR.VRControllerAxis_t rAxis0; // 0x28
-        public Valve.VR.VRControllerAxis_t rAxis1; // 0x30
-        public Valve.VR.VRControllerAxis_t rAxis2; // 0x38
-        public Valve.VR.VRControllerAxis_t rAxis3; // 0x40
-        public Valve.VR.VRControllerAxis_t rAxis4; // 0x48
+        public mButtonFixRequired_Bool rAxis0; // 0x28
+        public mButtonFixRequired_Bool rAxis1; // 0x30
+        public mButtonFixRequired_Bool rAxis2; // 0x38
+        public mButtonFixRequired_Bool rAxis3; // 0x40
+        public mButtonFixRequired_Bool rAxis4; // 0x48
     }
 
     public class VRControllerState_t_Packed : ValueType
@@ -43,11 +43,11 @@ namespace ThirdParty.Valve.Valve.VR
         public uint unPacketNum; // 0x10
         public ulong ulButtonPressed; // 0x14
         public ulong ulButtonTouched; // 0x1C
-        public Valve.VR.VRControllerAxis_t rAxis0; // 0x24
-        public Valve.VR.VRControllerAxis_t rAxis1; // 0x2C
-        public Valve.VR.VRControllerAxis_t rAxis2; // 0x34
-        public Valve.VR.VRControllerAxis_t rAxis3; // 0x3C
-        public Valve.VR.VRControllerAxis_t rAxis4; // 0x44
+        public mButtonFixRequired_Bool rAxis0; // 0x24
+        public mButtonFixRequired_Bool rAxis1; // 0x2C
+        public mButtonFixRequired_Bool rAxis2; // 0x34
+        public mButtonFixRequired_Bool rAxis3; // 0x3C
+        public mButtonFixRequired_Bool rAxis4; // 0x44
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DA5E20
@@ -83,37 +83,37 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VREvent_Data_t : ValueType
     {
-        public Valve.VR.VREvent_Reserved_t reserved; // 0x10
-        public Valve.VR.VREvent_Controller_t controller; // 0x10
-        public Valve.VR.VREvent_Mouse_t mouse; // 0x10
-        public Valve.VR.VREvent_Scroll_t scroll; // 0x10
-        public Valve.VR.VREvent_Process_t process; // 0x10
-        public Valve.VR.VREvent_Notification_t notification; // 0x10
-        public Valve.VR.VREvent_Overlay_t overlay; // 0x10
-        public Valve.VR.VREvent_Status_t status; // 0x10
-        public Valve.VR.VREvent_Ipd_t ipd; // 0x10
-        public Valve.VR.VREvent_Chaperone_t chaperone; // 0x10
-        public Valve.VR.VREvent_PerformanceTest_t performanceTest; // 0x10
-        public Valve.VR.VREvent_TouchPadMove_t touchPadMove; // 0x10
-        public Valve.VR.VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset; // 0x10
-        public Valve.VR.VREvent_Screenshot_t screenshot; // 0x10
-        public Valve.VR.VREvent_ScreenshotProgress_t screenshotProgress; // 0x10
-        public Valve.VR.VREvent_ApplicationLaunch_t applicationLaunch; // 0x10
-        public Valve.VR.VREvent_EditingCameraSurface_t cameraSurface; // 0x10
-        public Valve.VR.VREvent_MessageOverlay_t messageOverlay; // 0x10
-        public Valve.VR.VREvent_Property_t property; // 0x10
-        public Valve.VR.VREvent_HapticVibration_t hapticVibration; // 0x10
-        public Valve.VR.VREvent_WebConsole_t webConsole; // 0x10
-        public Valve.VR.VREvent_InputBindingLoad_t inputBinding; // 0x10
-        public Valve.VR.VREvent_SpatialAnchor_t spatialAnchor; // 0x10
-        public Valve.VR.VREvent_InputActionManifestLoad_t actionManifest; // 0x10
-        public Valve.VR.VREvent_ProgressUpdate_t progressUpdate; // 0x10
-        public Valve.VR.VREvent_ShowUI_t showUi; // 0x10
-        public Valve.VR.VREvent_ShowDevTools_t showDevTools; // 0x10
-        public Valve.VR.VREvent_HDCPError_t hdcpError; // 0x10
-        public Valve.VR.VREvent_AudioVolumeControl_t audioVolumeControl; // 0x10
-        public Valve.VR.VREvent_AudioMuteControl_t audioMuteControl; // 0x10
-        public Valve.VR.VREvent_Keyboard_t keyboard; // 0x10
+        public tring reserved; // 0x10
+        public ange controller; // 0x10
+        public ng_OutOfRange mouse; // 0x10
+        public rackedDeviceClass scroll; // 0x10
+        public niverseStanding process; // 0x10
+        public niverseSeated notification; // 0x10
+        public awAndUncalibrated overlay; // 0x10
+        public Property status; // 0x10
+        public ManufacturerName_String ipd; // 0x10
+        public Prop_TrackingFirmwareVersion_String chaperone; // 0x10
+        public rop_ConnectedWirelessDongle_String performanceTest; // 0x10
+        public acker touchPadMove; // 0x10
+        public iceIsWireless_Bool seatedZeroPoseReset; // 0x10
+        public p_DeviceBatteryPercentage_Float screenshot; // 0x10
+        public tage_Float screenshotProgress; // 0x10
+        public Transform_Matrix34 applicationLaunch; // 0x10
+        public ailable_Bool cameraSurface; // 0x10
+        public l messageOverlay; // 0x10
+        public Revision_Uint64 property; // 0x10
+        public _VRCVersion_Uint64 hapticVibration; // 0x10
+        public sion_Uint64 webConsole; // 0x10
+        public ool inputBinding; // 0x10
+        public ProgrammingTarget_String spatialAnchor; // 0x10
+        public rop_DeviceProvidesBatteryStatus_Bool actionManifest; // 0x10
+        public object progressUpdate; // 0x10
+        public object showUi; // 0x10
+        public ÌÎÌÏÌÏÍ showDevTools; // 0x10
+        public object hdcpError; // 0x10
+        public ÍÍÎÍÏÍÏÏÌÎÍÍÎÎÍÎÏÍÍÌ audioVolumeControl; // 0x10
+        public object audioMuteControl; // 0x10
+        public ackingSystemName_String keyboard; // 0x10
     }
 
     public class VREvent_EditingCameraSurface_t : ValueType
@@ -124,7 +124,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VREvent_HDCPError_t : ValueType
     {
-        public 0x665A0448 eCode; // 0x10
+        public object eCode; // 0x10
     }
 
     public class VREvent_HapticVibration_t : ValueType
@@ -227,7 +227,7 @@ namespace ThirdParty.Valve.Valve.VR
     public class VREvent_Property_t : ValueType
     {
         public ulong container; // 0x10
-        public 0x665A00D8 prop; // 0x18
+        public lNextEvent prop; // 0x18
     }
 
     public class VREvent_Reserved_t : ValueType
@@ -272,7 +272,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VREvent_ShowUI_t : ValueType
     {
-        public 0x665A03F0 eType; // 0x10
+        public ÌÍÌÎÏ eType; // 0x10
     }
 
     public class VREvent_SpatialAnchor_t : ValueType
@@ -305,7 +305,7 @@ namespace ThirdParty.Valve.Valve.VR
         public uint eventType; // 0x10
         public uint trackedDeviceIndex; // 0x14
         public float eventAgeSeconds; // 0x18
-        public Valve.VR.VREvent_Data_t data; // 0x20
+        public llNextEventUnion data; // 0x20
     }
 
     public class VREvent_t_Packed : ValueType
@@ -313,7 +313,7 @@ namespace ThirdParty.Valve.Valve.VR
         public uint eventType; // 0x10
         public uint trackedDeviceIndex; // 0x14
         public float eventAgeSeconds; // 0x18
-        public Valve.VR.VREvent_Data_t data; // 0x1C
+        public llNextEventUnion data; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C20300
@@ -323,33 +323,33 @@ namespace ThirdParty.Valve.Valve.VR
     public class VRNativeDevice_t : ValueType
     {
         public UIntPtr handle; // 0x10
-        public 0x665A1208 eType; // 0x18
+        public ÌÌÎÍÍÍÍÍ eType; // 0x18
     }
 
     public class VROverlayIntersectionMaskPrimitive_Data_t : ValueType
     {
-        public Valve.VR.IntersectionMaskRectangle_t m_Rectangle; // 0x10
-        public Valve.VR.IntersectionMaskCircle_t m_Circle; // 0x10
+        public isplayMCImageNumChannels_Int32 m_Rectangle; // 0x10
+        public romPhotonsToVblank_Float m_Circle; // 0x10
     }
 
     public class VROverlayIntersectionMaskPrimitive_t : ValueType
     {
-        public 0x665A1158 m_nPrimitiveType; // 0x10
-        public Valve.VR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive; // 0x14
+        public brationAction m_nPrimitiveType; // 0x10
+        public ithPoseUnion m_Primitive; // 0x14
     }
 
     public class VROverlayIntersectionParams_t : ValueType
     {
-        public Valve.VR.HmdVector3_t vSource; // 0x10
-        public Valve.VR.HmdVector3_t vDirection; // 0x1C
-        public 0x665A0028 eOrigin; // 0x28
+        public VRChaperone vSource; // 0x10
+        public VRChaperone vDirection; // 0x1C
+        public kedDeviceProperty eOrigin; // 0x28
     }
 
     public class VROverlayIntersectionResults_t : ValueType
     {
-        public Valve.VR.HmdVector3_t vPoint; // 0x10
-        public Valve.VR.HmdVector3_t vNormal; // 0x1C
-        public Valve.VR.HmdVector2_t vUVs; // 0x28
+        public VRChaperone vPoint; // 0x10
+        public VRChaperone vNormal; // 0x1C
+        public tor vUVs; // 0x28
         public float fDistance; // 0x30
     }
 
@@ -364,8 +364,8 @@ namespace ThirdParty.Valve.Valve.VR
     public class VROverlayView_t : ValueType
     {
         public ulong overlayHandle; // 0x10
-        public Valve.VR.Texture_t texture; // 0x18
-        public Valve.VR.VRTextureBounds_t textureBounds; // 0x28
+        public entStatePacked texture; // 0x18
+        public ApplicationType textureBounds; // 0x28
     }
 
     public class VRSkeletalSummaryData_t : ValueType
@@ -392,33 +392,33 @@ namespace ThirdParty.Valve.Valve.VR
     public class VRTextureDepthInfo_t : ValueType
     {
         public UIntPtr handle; // 0x10
-        public Valve.VR.HmdMatrix44_t mProjection; // 0x18
-        public Valve.VR.HmdVector2_t vRange; // 0x58
+        public mera mProjection; // 0x18
+        public tor vRange; // 0x58
     }
 
     public class VRTextureWithDepth_t : ValueType
     {
         public UIntPtr handle; // 0x10
-        public 0x6659FE70 eType; // 0x18
-        public 0x6659FEC8 eColorSpace; // 0x1C
-        public Valve.VR.VRTextureDepthInfo_t depth; // 0x20
+        public lyTransform eType; // 0x18
+        public oleForTrackedDeviceIndex eColorSpace; // 0x1C
+        public utdownInternal depth; // 0x20
     }
 
     public class VRTextureWithPoseAndDepth_t : ValueType
     {
         public UIntPtr handle; // 0x10
-        public 0x6659FE70 eType; // 0x18
-        public 0x6659FEC8 eColorSpace; // 0x1C
-        public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking; // 0x20
-        public Valve.VR.VRTextureDepthInfo_t depth; // 0x50
+        public lyTransform eType; // 0x18
+        public oleForTrackedDeviceIndex eColorSpace; // 0x1C
+        public hPosePacked mDeviceToAbsoluteTracking; // 0x20
+        public utdownInternal depth; // 0x50
     }
 
     public class VRTextureWithPose_t : ValueType
     {
         public UIntPtr handle; // 0x10
-        public 0x6659FE70 eType; // 0x18
-        public 0x6659FEC8 eColorSpace; // 0x1C
-        public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking; // 0x20
+        public lyTransform eType; // 0x18
+        public oleForTrackedDeviceIndex eColorSpace; // 0x1C
+        public hPosePacked mDeviceToAbsoluteTracking; // 0x20
     }
 
     public class VRVulkanDevice_t : ValueType

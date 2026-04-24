@@ -30,9 +30,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JContainer : JToken
     {
-        public 0x66494B90 ChildrenTokens; // 0x30
-        public 0x66492E58 HasValues; // 0x38
-        public 0x66497D10 First; // 0x40
+        public pacity.cessName ChildrenTokens; // 0x30
+        public pacity.ystem.Collections.Generic.ICollection<System.Text.RegularExpressions.Capture>.Clear HasValues; // 0x38
+        public ist.Find.? First; // 0x40
         public object Last; // 0x48
         public bool System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Item; // 0x50
 
@@ -140,8 +140,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JEnumerable`1 : ValueType
     {
-        public Newtonsoft.Json.Linq.JEnumerable`1<T> Item;
-        public System.Collections.Generic.IEnumerable`1<T> _enumerable;
+        public ltConstructor.chedAttributeGetter`1<T1717646832> Item;
+        public URA.bbrevEraNames<T1717646832> _enumerable;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -155,21 +155,21 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JToken : Object
     {
-        public 0x6652B228 EqualityComparer;
-        public Newtonsoft.Json.Linq.JContainer Parent; // 0x10
-        public Newtonsoft.Json.Linq.JToken Root; // 0x18
-        public Newtonsoft.Json.Linq.JToken Type; // 0x20
+        public ltConstructor.t EqualityComparer;
+        public ltConstructor.pe>k__BackingField Parent; // 0x10
+        public ltConstructor.getExtensionDataDictionary Root; // 0x18
+        public ltConstructor.getExtensionDataDictionary Type; // 0x20
         public object HasValues; // 0x28
-        public 0x6652B2D8[] Next; // 0x8
-        public 0x6652B2D8[] Previous; // 0x10
-        public 0x6652B2D8[] Path; // 0x18
-        public 0x6652B2D8[] Item; // 0x20
-        public 0x6652B2D8[] First; // 0x28
-        public 0x6652B2D8[] Last; // 0x30
-        public 0x6652B2D8[] Newtonsoft.Json.Linq.IJEnumerable<Newtonsoft.Json.Linq.JToken>.Item; // 0x38
-        public 0x6652B2D8[] Newtonsoft.Json.IJsonLineInfo.LineNumber; // 0x40
-        public 0x6652B2D8[] Newtonsoft.Json.IJsonLineInfo.LinePosition; // 0x48
-        public 0x6652B2D8[] BytesTypes; // 0x50
+        public ltConstructor.ced[] Next; // 0x8
+        public ltConstructor.ced[] Previous; // 0x10
+        public ltConstructor.ced[] Path; // 0x18
+        public ltConstructor.ced[] Item; // 0x20
+        public ltConstructor.ced[] First; // 0x28
+        public ltConstructor.ced[] Last; // 0x30
+        public ltConstructor.ced[] Newtonsoft.Json.Linq.IJEnumerable<Newtonsoft.Json.Linq.JToken>.Item; // 0x38
+        public ltConstructor.ced[] Newtonsoft.Json.IJsonLineInfo.LineNumber; // 0x40
+        public ltConstructor.ced[] Newtonsoft.Json.IJsonLineInfo.LinePosition; // 0x48
+        public ltConstructor.ced[] BytesTypes; // 0x50
 
         // ── Methods ──
         public void WriteToAsync(){} // RVA: 0x7FFD53BF3330 | overloaded x2

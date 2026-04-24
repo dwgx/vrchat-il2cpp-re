@@ -18,18 +18,18 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class HashMapHelper`1 : ValueType
     {
-        public byte* IsCreated; // 0x10
-        public VRC.Dynamics.ChainId* Keys; // 0x18
-        public int* Next; // 0x20
-        public int* Buckets; // 0x28
-        public int Count; // 0x30
-        public int Capacity; // 0x34
-        public int Log2MinGrowth; // 0x38
-        public int BucketCapacity; // 0x3C
-        public int AllocatedIndex; // 0x40
-        public int FirstFreeIdx; // 0x44
-        public int SizeOfTValue; // 0x48
-        public AllocatorHandle Allocator; // 0x4C
+        public IntPtr IsCreated;
+        public IntPtr Keys;
+        public IntPtr Next;
+        public IntPtr Buckets;
+        public int Count;
+        public int Capacity;
+        public int Log2MinGrowth;
+        public int BucketCapacity;
+        public int AllocatedIndex;
+        public int FirstFreeIdx;
+        public int SizeOfTValue;
+        public ield Allocator;
         public int kMinimumCapacity;
 
         // ── Methods ──
@@ -55,7 +55,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class KeyValue`2 : ValueType
     {
-        public Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData* m_Buffer;
+        public IntPtr m_Buffer;
         public int m_Index;
         public int m_Next;
     }
@@ -147,10 +147,10 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeBitArray : ValueType
     {
-        public ulong* IsCreated; // 0x10
+        public IntPtr IsCreated; // 0x10
         public int Length; // 0x18
         public int Capacity; // 0x1C
-        public AllocatorHandle Allocator; // 0x20
+        public ield Allocator; // 0x20
 
         // ── Methods ──
         public void Free(){} // RVA: 0x7FFD54934AF0
@@ -160,8 +160,8 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeDisposeJob : ValueType
     {
-        public void* Ptr; // 0x10
-        public AllocatorHandle Allocator; // 0x18
+        public IntPtr Ptr; // 0x10
+        public ield Allocator; // 0x18
 
         // ── Methods ──
         public void Execute(){} // RVA: 0x7FFD54934D40
@@ -169,7 +169,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeHashMap`2 : ValueType
     {
-        public Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<T> IsCreated;
+        public ightCullingMask<T1717729168> IsCreated;
 
         // ── Methods ──
         public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -187,11 +187,11 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
-        public ChainRoot* Length; // 0x10
-        public int Capacity; // 0x18
-        public int Item; // 0x1C
-        public AllocatorHandle IsCreated; // 0x20
-        public int padding; // 0x24
+        public IntPtr Length;
+        public int Capacity;
+        public int Item;
+        public ield IsCreated;
+        public int padding;
 
         // ── Methods ──
         public void get_Length(){} // RVA: 0x7FFD4E079960
@@ -230,10 +230,10 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelHashMapData : ValueType
     {
-        public byte* firstFreeTLS; // 0x10
-        public byte* keys; // 0x18
-        public byte* next; // 0x20
-        public byte* buckets; // 0x28
+        public IntPtr firstFreeTLS; // 0x10
+        public IntPtr keys; // 0x18
+        public IntPtr next; // 0x20
+        public IntPtr buckets; // 0x28
         public int keyCapacity; // 0x30
         public int bucketCapacityMask; // 0x34
         public int allocatedIndexLength; // 0x38
@@ -250,8 +250,8 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelHashMap`2 : ValueType
     {
-        public Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData* IsCreated; // 0x10
-        public AllocatorHandle m_AllocatorLabel; // 0x18
+        public IntPtr IsCreated;
+        public ield m_AllocatorLabel;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -265,8 +265,8 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelMultiHashMap`2 : ValueType
     {
-        public Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData* IsCreated; // 0x10
-        public AllocatorHandle m_AllocatorLabel; // 0x18
+        public IntPtr IsCreated;
+        public ield m_AllocatorLabel;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -283,12 +283,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeRingQueue`1 : ValueType
     {
-        public T* IsCreated;
-        public AllocatorHandle Allocator;
-        public int m_Capacity;
-        public int m_Filled;
-        public int m_Write;
-        public int m_Read;
+        public object IsCreated;
 
         // ── Methods ──
         public void Free(){} // RVA: 0x7FFD4E2ADC40
@@ -298,7 +293,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeStream : ValueType
     {
-        public Block IsCreated; // 0x10
+        public ÏÎÏÏÌÍÎÏÏÌÏÎÏÍÏÎÏÏ IsCreated; // 0x10
 
         // ── Methods ──
         public void AllocateForEach(){} // RVA: 0x7FFD54934F40
@@ -309,7 +304,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeText : ValueType
     {
-        public ÌÎÍÏ IsCreated; // 0x10
+        public irectories IsCreated; // 0x10
 
         // ── Methods ──
         public void get_IsCreated(){} // RVA: 0x7FFD54935220

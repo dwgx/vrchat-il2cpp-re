@@ -83,23 +83,23 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputControlLayout : Object
     {
-        public UnityEngine.InputSystem.Utilities.InternedString DefaultVariant;
+        public 2.uestResetCommand DefaultVariant;
         public string name;
-        public UnityEngine.InputSystem.Utilities.InternedString displayName; // 0x10
-        public System.Type type; // 0x20
-        public UnityEngine.InputSystem.Utilities.InternedString variants; // 0x28
-        public UnityEngine.InputSystem.Utilities.FourCC stateFormat; // 0x38
+        public 2.uestResetCommand displayName; // 0x10
+        public object type; // 0x20
+        public 2.uestResetCommand variants; // 0x28
+        public 2.Code stateFormat; // 0x38
         public int stateSizeInBytes; // 0x3C
-        public System.Nullable`1<bool> baseLayouts; // 0x40
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Utilities.InternedString> appliedOverrides; // 0x48
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Utilities.InternedString> commonUsages; // 0x68
-        public UnityEngine.InputSystem.Utilities.InternedString[] controls; // 0x88
-        public ControlItem[] updateBeforeRender; // 0x90
+        public aphy<bool> baseLayouts; // 0x40
+        public 2.and<2.uestResetCommand> appliedOverrides; // 0x48
+        public 2.and<2.uestResetCommand> commonUsages; // 0x68
+        public 2.uestResetCommand[] controls; // 0x88
+        public s[] updateBeforeRender; // 0x90
         public string isDeviceLayout; // 0x98
         public string isControlLayout; // 0xA0
-        public 0x664AFAA0 isOverride; // 0xA8
-        public Collection isGenericTypeOfDevice; // 0x10
-        public Cache hideInUI; // 0x50
+        public tf32 isOverride; // 0xA8
+        public tEyeRotation isGenericTypeOfDevice; // 0x10
+        public ÏÏÏÎÍÌÎÎÍÏÎÌÌÎÍÌÎÏÎÌ hideInUI; // 0x50
         public int isNoisy; // 0x58
 
         // ── Methods ──
@@ -154,13 +154,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputControlLayoutAttribute : Attribute
     {
-        public System.Type stateType; // 0x10
+        public object stateType; // 0x10
         public string stateFormat; // 0x18
         public string[] commonUsages; // 0x20
         public string variants; // 0x28
         public bool isNoisy; // 0x30
-        public System.Nullable`1<bool> canRunInBackground; // 0x31
-        public System.Nullable`1<bool> updateBeforeRender; // 0x33
+        public aphy<bool> canRunInBackground; // 0x31
+        public aphy<bool> updateBeforeRender; // 0x33
         public bool isGenericTypeOfDevice; // 0x35
         public string displayName; // 0x38
         public string description; // 0x40
@@ -194,13 +194,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceBuilder : ValueType
     {
-        public UnityEngine.InputSystem.InputDevice instance; // 0x10
-        public CacheRefInstance m_LayoutCacheRef; // 0x18
-        public System.Collections.Generic.Dictionary`2<string,ControlItem> m_ChildControlOverrides; // 0x20
-        public System.Collections.Generic.List`1<uint> m_StateOffsetToControlMap; // 0x28
-        public System.Text.StringBuilder m_StringBuilder; // 0x30
+        public ilAddress.ActionProperty instance; // 0x10
+        public object m_LayoutCacheRef; // 0x18
+        public URA.DateTime<string,s> m_ChildControlOverrides; // 0x20
+        public URA.woDigitYearMax<uint> m_StateOffsetToControlMap; // 0x28
+        public em.MarkAborted.izeDefaultCase m_StringBuilder; // 0x30
         public uint kSizeForControlUsingStateFromOtherControl;
-        public UnityEngine.InputSystem.Layouts.InputDeviceBuilder s_Instance;
+        public criptorSizeDeviceCommandType.in s_Instance;
         public int s_InstanceRef; // 0x28
 
         // ── Methods ──
@@ -281,13 +281,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceMatcher : ValueType
     {
-        public System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,object>[] empty; // 0x10
-        public UnityEngine.InputSystem.Utilities.InternedString patterns;
-        public UnityEngine.InputSystem.Utilities.InternedString kDeviceClassKey; // 0x10
-        public UnityEngine.InputSystem.Utilities.InternedString kManufacturerKey; // 0x20
-        public UnityEngine.InputSystem.Utilities.InternedString kManufacturerContainsKey; // 0x30
-        public UnityEngine.InputSystem.Utilities.InternedString kProductKey; // 0x40
-        public UnityEngine.InputSystem.Utilities.InternedString kVersionKey; // 0x50
+        public URA.mes<2.uestResetCommand,object>[] empty; // 0x10
+        public 2.uestResetCommand patterns;
+        public 2.uestResetCommand kDeviceClassKey; // 0x10
+        public 2.uestResetCommand kManufacturerKey; // 0x20
+        public 2.uestResetCommand kManufacturerContainsKey; // 0x30
+        public 2.uestResetCommand kProductKey; // 0x40
+        public 2.uestResetCommand kVersionKey; // 0x50
 
         // ── Methods ──
         public void get_empty(){} // RVA: 0x7FFD4FC6C2F0

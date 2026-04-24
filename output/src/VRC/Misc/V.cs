@@ -8,10 +8,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÏÏÌÍÍÎÏÌÎÍÍÌÎÏÍÎÌÎÍÌÌ</summary>
     public class VRCCustomActionDerivedSiblingSibling_309B : MonoBehaviour
     {
-        public ÏÍÏÌÌÌÎÎÌÌÍÏÎÌÌÍÌÏÏÌÎÍÍ _solution; // 0x20
-        public ÌÏÏÌÎÌÍÍÌÏÌÌÌÎÌÍÏÏÎÌÌÌÍ _taskApiRunner; // 0x28
-        public UnityEngine.GameObject ÌÏÎÎÏÎÌÍÎÏÏÎÎÍÌÍÎÏÏÌÎÌÎ; // 0x30
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F862560
         public void RaiseCancellation(){} // RVA: 0x7FFD4F862830
@@ -31,8 +27,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÎÏÎÎÏÌÎÌÎÌÌÎÏÏÎÍÎÎÎÍ</summary>
     public class VRCCustomActionDerivedSibling_8EF8 : MonoBehaviour
     {
-        public UnityEngine.GameObject _8EF8; // 0x20
-        public UnityEngine.GameObject _contents; // 0x28
+        public object _8EF8;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F8645F0
@@ -49,11 +44,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÏÍÏÎÍÍÍÌÎÍÌÍÌÌÏÏÎÎÏÍÎ</summary>
     public class VRCCustomActionDerived_C39F : VRCCustomAction
     {
-        public string ÍÏÏÎÍÍÌÌÍÏÎÏÍÎÎÏÍÏÍÏÏÏÎ; // 0x20
-        public string ÌÌÏÍÌÍÌÌÌÏÏÎÍÎÌÌÎÎÏÍÏÎÌ; // 0x28
-        public string ÎÌÏÏÌÍÏÎÍÏÎÌÌÍÎÎÌÌÏÏÌÍÏ; // 0x30
-        public string ÏÌÍÍÍÍÎÏÎÎÎÏÌÏÎÏÌÎÌÍÎÍÎ; // 0x38
-
         // ── Methods ──
         public void Execute(){} // RVA: 0x7FFD4F7EF830
         public void DoUnloadUnusedAssets_519(){} // RVA: 0x7FFD4F7EF950
@@ -69,45 +59,29 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÏÎÏÍÍÌÌÌÎÎÌÎÏÎÌÍÏÍÎÌ</summary>
     public class VRCUiManager : UIManager
     {
-        public bool f_1F7; // 0x20
-        public ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ f_D8A; // 0x28
-        public System.Action f_4BC; // 0x30
-        public System.Action f_999; // 0x38
-        public System.Action f_F92; // 0x40
-        public System.Action f_AE0; // 0x48
-        public System.Action`1<bool> f_C40; // 0x50
-        public System.Action f_4E9;
-        public System.Action f_8F0; // 0x8
-        public System.Action`1<bool> f_1A4; // 0x10
-        public System.Action`1<bool> f_CD7; // 0x18
-        public UnityEngine.GameObject f_78F; // 0x58
-        public UnityEngine.GameObject f_0D2; // 0x60
-        public UnityEngine.GameObject f_F0E; // 0x68
-        public UnityEngine.GameObject f_7C8; // 0x70
-        public UserController f_96B; // 0x78
-        public System.Collections.Generic.HashSet`1<0x664CD978> f_7A0; // 0x80
-        public 0x664D24C0 f_00F; // 0x88
-        public UnityEngine.Transform f_B1C; // 0x90
-        public UnityEngine.Transform f_BF3; // 0x98
-        public VRC.UI.Core.Styles.StyleEngine f_63C; // 0xA0
-        public ÎÌÎÌÏÎÏÍÎÏÌÍÏÏÌÏÌÌÎÎÌÏÍ f_EB5; // 0xA8
-        public UnityEngine.GameObject f_8BA; // 0xB0
-        public ÎÍÍÏÏÍÍÎÎÏÌÌÍÌÍÌÎÍÍÍÏÍÌ ÎÏÌÎÌÌÍÎÎÎÍÌÍÎÌÍÌÏÍÏÌÌÍ; // 0xB8
-        public UnityEngine.GameObject ÎÏÏÏÌÎÎÍÏÌÎÎÎÌÎÏÍÍÎÎÍÌÎ; // 0xC0
-        public ÍÏÏÍÏÌÎÏÎÏÏÌÍÏÎÏÎÍÌÍÌÌÌ ÌÌÌÎÎÏÍÍÏÎÎÌÌÎÎÏÌÎÏÌÏÌÎ; // 0xC8
-        public UnityEngine.GameObject ÍÏÍÍÍÎÎÎÎÍÎÍÏÏÌÍÏÎÍÎÍÌÌ; // 0xD0
-        public ÍÍÌÌÏÏÎÎÎÏÌÎÌÏÏÌÏÎÍÎÌÎÏ ÏÌÎÏÌÍÏÌÎÌÎÌÍÏÎÍÎÍÏÌÍÏÎ; // 0xD8
-        public UnityEngine.GameObject ÏÏÍÍÎÌÌÏÌÌÎÌÌÌÌÍÏÍÏÏÌÌÍ; // 0xE0
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÏÏÎÍÌÌÍÌÌÌÏÍÏÌÌÌÍÌÍÏÌÌÎ; // 0xE8
-        public VRC.Udon.Wrapper.Modules.ExternUnityEngineInput ÎÎÏÍÌÏÎÏÎÌÎÌÌÌÎÌÎÌÌÌÏÌÌ; // 0xF0
-        public bool ÏÏÌÌÏÎÏÏÎÌÏÏÎÏÍÏÏÍÍÌÏÍÍ; // 0xF8
-        public bool ÏÍÌÎÌÎÎÌÏÌÎÎÌÏÏÌÌÏÎÌÍÏÌ; // 0x20
-        public 0x665C7D78 ÍÍÌÏÌÍÍÌÌÏÌÎÌÍÍÍÏÌÌÏÏÎÏ; // 0x100
-        public ÍÌÏÌÌÎÌÎÎÌÌÍÎÍÍÌÍÏÍÌÎÏÌ ÌÍÌÎÌÌÍÌÏÏÏÏÏÏÌÏÏÍÏÎÏÌÎ; // 0x108
-        public System.Threading.CancellationTokenSource ÍÍÌÍÎÌÎÍÍÍÏÌÎÎÎÍÍÍÌÏÍÌÌ; // 0x110
-        public 0x664D2518 <ÍÎÍÎÏÏÎÌÌÍÏÏÎÍÍÌÍÍÍÍÏÏÌ>k__BackingField; // 0x118
-        public ÌÍÎÏÏÌÎÎÌÎÎÌÍÏÌÌÌÏÎÏÎÌÎ ÍÍÎÌÌÎÎÎÌÌÍÎÎÎÎÏÏÌÌÍÌÎÍ; // 0x120
-        public System.Collections.Generic.Dictionary`2<string,string> ÏÍÍÏÌÌÍÏÍÍÎÌÎÏÏÍÍÎÍÍÎÏÌ; // 0x28
+        public object f_1F7;
+        public object f_D8A;
+        public object f_4BC;
+        public object f_999;
+        public object f_F92;
+        public object f_AE0;
+        public object f_C40;
+        public object f_4E9;
+        public object f_8F0;
+        public object f_1A4;
+        public object f_CD7;
+        public object f_78F;
+        public object f_0D2;
+        public object f_F0E;
+        public object f_7C8;
+        public object f_96B;
+        public object f_7A0;
+        public object f_00F;
+        public object f_B1C;
+        public object f_BF3;
+        public object f_63C;
+        public object f_EB5;
+        public object f_8BA;
 
         // ── Methods ──
         public void Awake_068B033B1124(){} // RVA: 0x7FFD4EC0B630
@@ -575,21 +549,27 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÌÌÏÎÌÏÍÍÏÌÍÎÌÌÎÎÍÏÍÌÎ</summary>
     public class VRCUiManagerSibling_0842 : Object
     {
-        public System.Action _name; // 0x10
-        public System.Action _hideFlags; // 0x18
-        public System.Action f_4E9; // 0x20
-        public System.Action f_20E; // 0x28
-        public System.Action`1<bool> f_C2E; // 0x30
-        public string f_56C; // 0x38
-        public ÎÎÌÌÍÍÍÎÍÍÎÏÏÎÍÌÍÌÍÌÌÎÏ f_D97; // 0x40
-        public UnityEngine.Canvas f_134; // 0x48
-        public UnityEngine.GameObject f_CD7; // 0x50
-        public ÎÎÎÎÍÍÌÏÍÎÍÏÏÍÍÎÌÌÌÎÍÌÎ f_78F; // 0x58
-        public 0x664D2518 f_0D2; // 0x60
-        public ÏÏÎÍÌÍÌÌÍÏÌÏÍÎÌÍÌÌÌÌÌÎÎ f_7C8; // 0x68
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<UnityEngine.Material> f_F0E; // 0x70
-        public System.Collections.Generic.ISet`1<UnityEngine.Material> f_00F; // 0x78
-        public bool f_BF3; // 0x80
+        public object _name;
+        public object _hideFlags;
+        public object f_4E9;
+        public object f_20E;
+        public object f_C2E;
+        public object f_56C;
+        public object f_D97;
+        public object f_134;
+        public object f_CD7;
+        public object f_78F;
+        public object f_0D2;
+        public object f_7C8;
+        public object f_F0E;
+        public object f_00F;
+        public object f_BF3;
+        public object f_63C;
+        public object f_8BA;
+        public object f_7A0;
+        public object f_EB5;
+        public object f_8F0;
+        public object f_B1C;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EB98040
@@ -773,19 +753,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÏÌÎÎÏÎÎÍÌÏÌÌÏÎÍÎÌÍÏÏ</summary>
     public class VRCUiManagerSibling_C068 : Object
     {
-        public UnityEngine.GameObject _name; // 0x10
-        public ÌÍÍÎÌÎÏÎÏÌÏÌÍÏÏÏÏÍÍÎÌÍÎ _hideFlags; // 0x18
-        public X f_D67; // 0x20
-        public string f_ADE; // 0x28
-        public bool ÍÏÏÌÌÌÌÏÍÏÍÍÌÍÏÌÎÍÎÍÌÍÏ; // 0x30
-        public UnityEngine.GameObject ÏÎÍÏÌÎÍÌÎÏÌÌÎÎÍÏÍÍÌÏÍÌÌ; // 0x38
-        public UnityEngine.Vector3 ÌÎÍÎÌÏÌÎÍÏÍÍÍÎÏÏÎÌÏÌÏÍÍ; // 0x40
-        public UnityEngine.Vector3 ÍÏÌÍÎÍÌÌÍÎÌÌÏÏÎÏÍÌÎÎÏÎÎ; // 0x4C
-        public UnityEngine.Transform ÌÏÍÌÎÏÎÌÎÏÏÎÍÌÎÍÍÎÍÏÍÏÌ; // 0x58
-        public System.Func`2<X,Cysharp.Threading.Tasks.UniTask> ÎÎÎÏÎÌÌÏÎÍÌÎÏÍÎÍÏÎÍÏÍÌÌ; // 0x60
-        public bool ÏÏÎÎÌÏÎÏÏÎÏÌÏÎÏÌÏÎÌÌÌÍÌ; // 0x68
-        public bool ÏÍÎÎÏÍÏÍÍÎÏÏÌÌÌÍÌÏÏÌÏÌÎ; // 0x69
-        public string ÍÎÍÍÌÎÏÍÏÎÎÎÌÏÏÍÌÏÍÎÎÎÎ; // 0x70
+        public object _name;
+        public object _hideFlags;
+        public object f_D67;
+        public object f_ADE;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EB83520
@@ -817,16 +788,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÌÍÍÏÍÍÎÌÌÎÌÌÍÏÌÏÏÎÎÏ</summary>
     public class VRC_Interactable : VRC_Interactable
     {
-        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ _isInteractive; // 0x40
-        public ÍÌÎÎÍÎÌÏÎÍÏÌÍÍÌÌÎÏÎÍÌÍÎ animationTextureSheetPlayer; // 0x48
-        public UnityEngine.Transform cardParent; // 0x50
-        public UnityEngine.GameObject paletteDisplay; // 0x58
-        public UnityEngine.UI.Image[] paletteObjectsToColor; // 0x60
-        public TMPro.TMP_Text paletteText; // 0x68
-        public bool ÏÏÎÎÌÏÎÏÏÎÏÌÏÎÏÌÏÎÌÌÌÍÌ; // 0x70
-        public 0x66373490 ÌÏÍÎÍÎÎÎÌÌÏÍÏÎÍÍÎÎÏÎÍÏÎ; // 0x74
-        public Features.Sharing.SharableContentData ÍÌÏÍÍÎÌÌÏÍÏÏÎÎÍÍÌÌÌÌÏÍÌ; // 0x78
-        public bool ÌÍÌÌÎÍÌÏÏÍÎÍÎÏÎÍÍÏÏÍÏÌÏ; // 0x80
+        public object _isInteractive;
 
         // ── Methods ──
         public void GetGameObject_6CA(){} // RVA: 0x7FFD4F8C52E0
@@ -866,13 +828,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÌÎÏÎÌÎÌÏÏÍÌÌÍÌÎÎÍÎÏÎÌ</summary>
     public class VRC_InteractableSibling_3BA3 : LifecycleComponent_5100
     {
-        public ÍÎÏÍÏÍÌÏÏÍÏÍÏÍÌÏÏÌÏÎÎÎÏ _3BA3; // 0x78
-        public UnityEngine.GameObject quantityBadgeParent; // 0x80
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ quantityLabel; // 0x88
-        public ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ ÌÍÎÍÌÌÏÎÍÎÏÌÌÍÌÏÎÏÏÎÎÌÏ; // 0x90
-        public bool <ÍÏÍÎÌÍÌÎÏÏÌÏÎÍÌÌÏÏÌÎÌÍÍ>k__BackingField; // 0x98
-        public float holdTimeBeforeActivation; // 0x9C
-        public float ÏÍÍÏÏÌÎÌÌÎÎÏÏÌÎÏÍÍÌÍÏÎÎ; // 0xA0
+        public object _3BA3;
 
         // ── Methods ──
         public void GetGameObject_6CA(){} // RVA: 0x7FFD4F2B0480
@@ -898,8 +854,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÏÌÏÏÎÏÍÎÎÍÌÏÌÌÎÏÎÎÏÏÍ</summary>
     public class VRC_InteractableSibling_6F11 : Object
     {
-        public VRC.UI.Elements.Menus.KeyboardInputModalComponents ÎÍÎÌÏÏÍÏÌÏÎÍÎÌÌÎÍÍÌÏÏÌÎ; // 0x10
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD568FB570
         public void Equals(){} // RVA: 0x7FFD568FB6D0
@@ -926,9 +880,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÌÍÏÎÍÍÍÏÏÏÌÏÌÏÍÌÎÍÏÍ</summary>
     public class VRC_InteractableSibling_7104 : MonoBehaviour
     {
-        public UnityEngine.UI.Button ÎÏÍÎÏÍÎÏÎÏÏÍÍÏÏÍÎÎÎÍÏÌÌ; // 0x20
-        public 0x663E2D50 ÏÌÌÎÎÍÎÍÍÎÏÏÍÏÏÍÍÌÌÌÍÎÏ; // 0x28
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F6FA5F0
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -937,11 +888,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÌÍÍÏÏÏÍÏÎÏÎÍÏÎÎÏÌÌÌ</summary>
     public class VRC_InteractableSibling_92C4 : MonoBehaviour
     {
-        public ÍÎÏÌÏÏÌÏÍÌÌÌÏÏÎÏÏÏÎÎÏÎÎ selector; // 0x20
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ title; // 0x28
-        public ÌÎÏÎÍÍÎÎÍÌÍÏÍÍÏÏÌÏÎÎÎÍÌ tooltip; // 0x30
-        public ÍÍÎÏÏÎÏÎÍÎÍÌÏÍÍÌÏÎÎÏÏÎÎ ÌÌÏÏÌÌÍÌÎÏÍÏÎÍÍÏÍÍÎÏÏÌÎ; // 0x38
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56CD1BC0
         public void RaiseCancellation(){} // RVA: 0x7FFD56CD1C50
@@ -958,12 +904,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÌÌÌÍÎÏÌÍÎÎÌÌÍÍÌÍÏÎÏÏ</summary>
     public class VRC_InteractableSibling_9D46 : VRC_InteractableSibling_7104
     {
-        public VRC.Core.ApiWorld ÌÌÏÍÏÌÌÌÍÍÏÎÌÏÍÏÎÌÏÍÎÏÍ; // 0x30
-        public VRC.Core.ApiAvatar ÏÏÍÏÏÍÏÎÏÎÌÎÍÌÍÏÌÌÏÌÎÍÍ; // 0x38
-        public UnityEngine.UI.RawImage ÎÍÎÎÍÎÎÎÎÎÎÍÏÌÍÏÌÏÌÍÏÎÎ; // 0x40
-        public UnityEngine.UI.Text ÎÌÍÏÏÌÎÍÎÏÎÏÎÏÌÍÍÍÌÌÏÏÏ; // 0x48
-        public UnityEngine.UI.Text ÍÎÏÎÍÎÎÍÌÎÎÌÏÍÎÏÎÍÏÍÎÏÏ; // 0x50
-
         // ── Methods ──
         public void GetGameObject_6CA(){} // RVA: 0x7FFD4F72F400
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -979,15 +919,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÏÍÍÌÏÏÍÎÌÌÏÎÎÍÌÌÏÎÎÍ</summary>
     public class VRC_InteractableSibling_D677 : MonoBehaviour
     {
-        public float _d677; // 0x20
-        public UnityEngine.RectTransform center; // 0x28
-        public UnityEngine.RectTransform[] allButtons; // 0x30
-        public UnityEngine.RectTransform[] ownerButtons; // 0x38
-        public UnityEngine.RectTransform[] ownerNonAuthorButtons; // 0x40
-        public UnityEngine.RectTransform[] nonOwnerButtons; // 0x48
-        public UnityEngine.RectTransform[] instanceModeratorButtons; // 0x50
-        public UnityEngine.RectTransform worldDetailsButton; // 0x58
-        public bool <ÍÍÏÍÏÏÏÎÌÎÌÍÎÍÌÎÌÌÍÌÍÌÎ>k__BackingField; // 0x60
+        public object _d677;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F8DA5B0
@@ -1012,12 +944,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÎÍÌÌÏÎÌÏÎÌÌÎÍÎÏÌÌÍÏÏÎ</summary>
     public class VRC_InteractableSibling_DEEE : MonoBehaviour
     {
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _worldNameText; // 0x20
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _authorNameText; // 0x28
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ _disclaimerText; // 0x30
-        public UnityEngine.GameObject[] _links; // 0x38
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ[] _linkTexts; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
         public void Initialize(){} // RVA: 0x7FFD4F795E10
@@ -1031,251 +957,257 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÎÏÎÎÍÍÏÌÍÏÌÍÌÌÏÏÌÍÏÎ</summary>
     public class VRC_Main : MonoBehaviour
     {
-        public ÎÏÍÎÏÎÎÍÍÏÌÍÏÌÍÌÌÏÏÌÍÏÎ _destroyCancellationToken;
-        public ÎÍÏÏÏÏÎÎÍÎÍÌÏÏÌÎÏÌÏÏÍÌÎ _useGUILayout; // 0x20
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_6CD; // 0x28
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_8C4; // 0x30
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_15A; // 0x38
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_5FD; // 0x40
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_C14; // 0x48
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_C60; // 0x50
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_F4D; // 0x58
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_FB0; // 0x60
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF340> f_49C; // 0x68
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF3F0> f_492; // 0x70
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF398> f_EB1; // 0x78
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_8F1; // 0x80
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_7CF; // 0x88
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_3BE; // 0x90
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_675; // 0x98
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_BC3; // 0xA0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_670; // 0xA8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_88D; // 0xB0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_08F; // 0xB8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_EF8; // 0xC0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_C3C; // 0xC8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_B85; // 0xD0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_204; // 0xD8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_CD9; // 0xE0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_19F; // 0xE8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_14E; // 0xF0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_149; // 0xF8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_FE0; // 0x100
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_F92; // 0x108
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_21B; // 0x110
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_F37; // 0x118
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_2AD; // 0x120
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFC88> f_AD5; // 0x128
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_76D; // 0x130
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_27B; // 0x138
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_D23; // 0x140
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<0x664CF7B8>> f_A85; // 0x148
-        public ÏÎÎÌÏÏÎÌÎÌÎÍÍÎÏÌÏÎÌÏÎÏÎ<string> f_657; // 0x150
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_368; // 0x158
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_751; // 0x160
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF600> f_99F; // 0x168
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_D08; // 0x170
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF658> f_AB5; // 0x178
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_85B; // 0x180
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_217; // 0x188
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_760; // 0x190
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_2ED; // 0x198
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_EB8; // 0x1A0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_3DF; // 0x1A8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_5E5; // 0x1B0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_662; // 0x1B8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_68D; // 0x1C0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_A6B; // 0x1C8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_DD3; // 0x1D0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_12D; // 0x1D8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_B5D; // 0x1E0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_F75; // 0x1E8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_872; // 0x1F0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF2E8> f_A2F; // 0x1F8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664D1D88> f_96D; // 0x200
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664D1E90> f_578; // 0x208
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_786; // 0x210
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_D15; // 0x218
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF760> f_108; // 0x220
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_13A; // 0x228
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF760> f_FCA; // 0x230
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFA78> f_374; // 0x238
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_FD6; // 0x240
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF760> f_CF4; // 0x248
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_82D; // 0x250
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_CA6; // 0x258
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_F72; // 0x260
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_303; // 0x268
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_286; // 0x270
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_2CA; // 0x278
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_5FF; // 0x280
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF9C8> f_E48; // 0x288
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_53E; // 0x290
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_B45; // 0x298
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_E58; // 0x2A0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_912; // 0x2A8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_9AA; // 0x2B0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_FF5; // 0x2B8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_DFB; // 0x2C0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x665B2B90> f_1A0; // 0x2C8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_6DE; // 0x2D0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_158; // 0x2D8
-        public ÏÎÎÌÏÏÎÌÎÌÎÍÍÎÏÌÏÎÌÏÎÏÎ<VRC.Localization.LocalizableString> f_997; // 0x2E0
-        public ÏÎÎÌÏÏÎÌÎÌÎÍÍÎÏÌÏÎÌÏÎÏÎ<VRC.Localization.LocalizableString> f_1FD; // 0x2E8
-        public ÏÎÎÌÏÏÎÌÎÌÎÍÍÎÏÌÏÎÌÏÎÏÎ<VRC.Localization.LocalizableString> f_B2C; // 0x2F0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_8FD; // 0x2F8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_132; // 0x300
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_D77; // 0x308
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_D62; // 0x310
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_7B4; // 0x318
-        public string[] f_65C; // 0x320
-        public int f_0C4; // 0x328
-        public int f_EF1; // 0x32C
-        public int f_0A1; // 0x330
-        public bool f_72D; // 0x334
-        public bool f_EA6; // 0x335
-        public bool f_44E; // 0x336
-        public bool f_222; // 0x337
-        public bool f_B16; // 0x338
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_FF3; // 0x340
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFD90> f_01F; // 0x348
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_F78; // 0x350
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_63F; // 0x358
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_477; // 0x360
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_D97; // 0x368
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_5EC; // 0x370
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_B30; // 0x378
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_CDC; // 0x380
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_B3B; // 0x388
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x665B01A0> f_ED1; // 0x390
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_05E; // 0x398
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_6B4; // 0x3A0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664D1E38> f_D5D; // 0x3A8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_EC9; // 0x3B0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_BCB; // 0x3B8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF4F8> f_D35; // 0x3C0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_1A8; // 0x3C8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_5FC; // 0x3D0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF8C0> f_2DD; // 0x3D8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_6D7; // 0x3E0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_4A8; // 0x3E8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF550> f_107; // 0x3F0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF5A8> f_212; // 0x3F8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_300; // 0x400
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<ÍÏÎÍÍÎÏÍÎÎ> f_042; // 0x408
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_971; // 0x410
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_4E9; // 0x418
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_AB3; // 0x420
-        public ÎÌÏÏÎÍÎÎÍÍÍÌÎÌÏÎÍÌÏÌÌÍÌ<float> f_364; // 0x428
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF6B0> f_7D6; // 0x430
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_AF9; // 0x438
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_6CC; // 0x440
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF918> f_493; // 0x448
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_D7B; // 0x450
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_A4C; // 0x458
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_EA5; // 0x460
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_F52; // 0x468
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664C9358> f_D55; // 0x470
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664C9358> f_74E; // 0x478
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_95D; // 0x480
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_B18; // 0x488
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF238> f_B8B; // 0x490
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF290> f_E10; // 0x498
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_B43; // 0x4A0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_32E; // 0x4A8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_58E; // 0x4B0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF970> f_17E; // 0x4B8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_735; // 0x4C0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_0B1; // 0x4C8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_351; // 0x4D0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_EE8; // 0x4D8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_6B0; // 0x4E0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_665; // 0x4E8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_A55; // 0x4F0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_67F; // 0x4F8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF708> f_F73; // 0x500
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF4A0> f_DDB; // 0x508
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_6A7; // 0x510
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_08D; // 0x518
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_0C7; // 0x520
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_24E; // 0x528
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_091; // 0x530
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_F8C; // 0x538
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_856; // 0x540
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_C82; // 0x548
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_D5F; // 0x550
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_FFE; // 0x558
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_7C6; // 0x560
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_598; // 0x568
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFA20> f_DEE; // 0x570
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_5EB; // 0x578
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_10E; // 0x580
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_4DB; // 0x588
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_2BC; // 0x590
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_127; // 0x598
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_A80; // 0x5A0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_E58; // 0x5A8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_7AB; // 0x5B0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFAD0> f_5E9; // 0x5B8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_761; // 0x5C0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_0D3; // 0x5C8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_A6F; // 0x5D0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_E20; // 0x5D8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_070; // 0x5E0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFB28> f_CC9; // 0x5E8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFE98> f_766; // 0x5F0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFB80> f_367; // 0x5F8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFBD8> f_D52; // 0x600
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFC30> f_B69; // 0x608
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_988; // 0x610
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_FD3; // 0x618
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_657; // 0x620
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFCE0> f_E17; // 0x628
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CFD38> f_4AD; // 0x630
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_1C3; // 0x638
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_77B; // 0x640
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_39D; // 0x648
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_82E; // 0x650
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF810> f_B6D; // 0x658
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664CF868> f_7F5; // 0x660
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_5CE; // 0x668
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_0C5; // 0x670
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_C67; // 0x678
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_6E2; // 0x680
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_485; // 0x688
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_862; // 0x690
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_FD7; // 0x698
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_702; // 0x6A0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_5B6; // 0x6A8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_D35; // 0x6B0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_AF1; // 0x6B8
-        public bool f_65A; // 0x6C0
-        public 0x664CFE98 f_9A0; // 0x6C8
-        public string f_F9C; // 0x6D0
-        public VRC.Localization.LocalizableString f_0C4; // 0x6D8
-        public float f_8C5; // 0x700
-        public ÍÍÎÎÌÏÌÌÏÏÏÌÍÏÎÎÍÎÏÌÍÎÏ f_D57; // 0x708
-        public 0x664CF2E8 f_CED; // 0x710
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ f_40C; // 0x718
-        public string f_6DC;
-        public float f_AF2;
-        public string f_1BF;
-        public string f_A0E;
-        public string f_550;
-        public string f_ADC;
-        public float f_8D0;
-        public float f_ABC;
-        public System.Lazy`1<string> f_DEB; // 0x8
-        public System.Collections.Generic.Dictionary`2<string,ÍÎÍÏÎÏÎÌÌÎÎÍÍÌÌÌÏÏÏÎÍÎÌ> f_7B2; // 0x720
-        public System.Collections.Generic.List`1<string> f_9B9; // 0x728
-        public VRC.Localization.LocalizableString f_7D3; // 0x730
-        public System.Collections.Generic.List`1<UnityEngine.Resolution> f_BEE; // 0x758
-        public bool f_FD7; // 0x760
-        public bool f_9B1; // 0x761
-        public 0x664CF550 f_918; // 0x764
-        public ÍÌÍÌÏÏÌÍÏÎÌÌÏÎÎÍÌÏÌÍÍÍÍ f_06E; // 0x768
-        public bool f_089; // 0x770
-        public string f_7B3;
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_6CD;
+        public object f_8C4;
+        public object f_15A;
+        public object f_5FD;
+        public object f_C14;
+        public object f_C60;
+        public object f_F4D;
+        public object f_FB0;
+        public object f_49C;
+        public object f_492;
+        public object f_EB1;
+        public object f_8F1;
+        public object f_7CF;
+        public object f_3BE;
+        public object f_675;
+        public object f_BC3;
+        public object f_670;
+        public object f_88D;
+        public object f_08F;
+        public object f_EF8;
+        public object f_C3C;
+        public object f_B85;
+        public object f_204;
+        public object f_CD9;
+        public object f_19F;
+        public object f_14E;
+        public object f_149;
+        public object f_FE0;
+        public object f_F92;
+        public object f_21B;
+        public object f_F37;
+        public object f_2AD;
+        public object f_AD5;
+        public object f_76D;
+        public object f_27B;
+        public object f_D23;
+        public object f_A85;
+        public object f_657;
+        public object f_368;
+        public object f_751;
+        public object f_99F;
+        public object f_D08;
+        public object f_AB5;
+        public object f_85B;
+        public object f_217;
+        public object f_760;
+        public object f_2ED;
+        public object f_EB8;
+        public object f_3DF;
+        public object f_5E5;
+        public object f_662;
+        public object f_68D;
+        public object f_A6B;
+        public object f_DD3;
+        public object f_12D;
+        public object f_B5D;
+        public object f_F75;
+        public object f_872;
+        public object f_A2F;
+        public object f_96D;
+        public object f_578;
+        public object f_786;
+        public object f_D15;
+        public object f_108;
+        public object f_13A;
+        public object f_FCA;
+        public object f_374;
+        public object f_FD6;
+        public object f_CF4;
+        public object f_82D;
+        public object f_CA6;
+        public object f_F72;
+        public object f_303;
+        public object f_286;
+        public object f_2CA;
+        public object f_5FF;
+        public object f_E48;
+        public object f_53E;
+        public object f_B45;
+        public object f_E58;
+        public object f_912;
+        public object f_9AA;
+        public object f_FF5;
+        public object f_DFB;
+        public object f_1A0;
+        public object f_6DE;
+        public object f_158;
+        public object f_997;
+        public object f_1FD;
+        public object f_B2C;
+        public object f_8FD;
+        public object f_132;
+        public object f_D77;
+        public object f_D62;
+        public object f_7B4;
+        public object f_65C;
+        public object f_0C4;
+        public object f_EF1;
+        public object f_0A1;
+        public object f_72D;
+        public object f_EA6;
+        public object f_44E;
+        public object f_222;
+        public object f_B16;
+        public object f_FF3;
+        public object f_01F;
+        public object f_F78;
+        public object f_63F;
+        public object f_477;
+        public object f_D97;
+        public object f_5EC;
+        public object f_B30;
+        public object f_CDC;
+        public object f_B3B;
+        public object f_ED1;
+        public object f_05E;
+        public object f_6B4;
+        public object f_D5D;
+        public object f_EC9;
+        public object f_BCB;
+        public object f_D35;
+        public object f_1A8;
+        public object f_5FC;
+        public object f_2DD;
+        public object f_6D7;
+        public object f_4A8;
+        public object f_107;
+        public object f_212;
+        public object f_300;
+        public object f_042;
+        public object f_971;
+        public object f_4E9;
+        public object f_AB3;
+        public object f_364;
+        public object f_7D6;
+        public object f_AF9;
+        public object f_6CC;
+        public object f_493;
+        public object f_D7B;
+        public object f_A4C;
+        public object f_EA5;
+        public object f_F52;
+        public object f_D55;
+        public object f_74E;
+        public object f_95D;
+        public object f_B18;
+        public object f_B8B;
+        public object f_E10;
+        public object f_B43;
+        public object f_32E;
+        public object f_58E;
+        public object f_17E;
+        public object f_735;
+        public object f_0B1;
+        public object f_351;
+        public object f_EE8;
+        public object f_6B0;
+        public object f_665;
+        public object f_A55;
+        public object f_67F;
+        public object f_F73;
+        public object f_DDB;
+        public object f_6A7;
+        public object f_08D;
+        public object f_0C7;
+        public object f_24E;
+        public object f_091;
+        public object f_F8C;
+        public object f_856;
+        public object f_C82;
+        public object f_D5F;
+        public object f_FFE;
+        public object f_7C6;
+        public object f_598;
+        public object f_DEE;
+        public object f_5EB;
+        public object f_10E;
+        public object f_4DB;
+        public object f_2BC;
+        public object f_127;
+        public object f_A80;
+        public object f_E58;
+        public object f_7AB;
+        public object f_5E9;
+        public object f_761;
+        public object f_0D3;
+        public object f_A6F;
+        public object f_E20;
+        public object f_070;
+        public object f_CC9;
+        public object f_766;
+        public object f_367;
+        public object f_D52;
+        public object f_B69;
+        public object f_988;
+        public object f_FD3;
+        public object f_657;
+        public object f_E17;
+        public object f_4AD;
+        public object f_1C3;
+        public object f_77B;
+        public object f_39D;
+        public object f_82E;
+        public object f_B6D;
+        public object f_7F5;
+        public object f_5CE;
+        public object f_0C5;
+        public object f_C67;
+        public object f_6E2;
+        public object f_485;
+        public object f_862;
+        public object f_FD7;
+        public object f_702;
+        public object f_5B6;
+        public object f_D35;
+        public object f_AF1;
+        public object f_65A;
+        public object f_9A0;
+        public object f_F9C;
+        public object f_0C4;
+        public object f_8C5;
+        public object f_D57;
+        public object f_CED;
+        public object f_40C;
+        public object f_6DC;
+        public object f_AF2;
+        public object f_1BF;
+        public object f_A0E;
+        public object f_550;
+        public object f_ADC;
+        public object f_8D0;
+        public object f_ABC;
+        public object f_DEB;
+        public object f_7B2;
+        public object f_9B9;
+        public object f_7D3;
+        public object f_BEE;
+        public object f_FD7;
+        public object f_9B1;
+        public object f_918;
+        public object f_06E;
+        public object f_089;
+        public object f_7B3;
+        public object f_355;
+        public object f_DE8;
+        public object f_93A;
+        public object f_796;
+        public object f_AD3;
+        public object f_D45;
 
         // ── Methods ──
         public void GetMainCamera(){} // RVA: 0x7FFD4EAF1F40
@@ -2246,10 +2178,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÎÌÎÍÎÏÌÏÌÌÏÏÍÍÎÎÏÍÎÎÎ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_3A72 : Object
     {
-        public bool _name; // 0x10
-        public int _hideFlags; // 0x14
-        public int f_C13; // 0x18
-        public string f_D2A; // 0x20
+        public object _name;
+        public object _hideFlags;
+        public object f_C13;
+        public object f_D2A;
+        public object f_519;
+        public object f_67F;
+        public object f_6B1;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E341320
@@ -2276,17 +2211,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÏÎÎÌÍÎÎÏÏÎÌÎÌÏÌÌÍÌÏÌ</summary>
     public class VRC_MainSiblingSiblingSiblingSibling_7118 : Object
     {
-        public System.Globalization.NumberFormatInfo _name;
-        public ÍÌÌÌÎÎÏÏÍÏÍÎÎÏÎÌÏÎÍÌÍÎÏ _hideFlags; // 0x10
-        public System.Collections.Generic.Stack`1<ÍÌÌÌÎÎÏÏÍÏÍÎÎÏÎÌÏÎÍÌÍÎÏ> f_123; // 0x18
-        public bool f_379; // 0x20
-        public char[] ÌÏÎÍÏÌÍÏÏÌÎÍÌÏÎÌÎÏÌÎÌÍÌ; // 0x28
-        public int ÎÍÌÏÌÏÎÌÍÎÏÏÎÍÍÎÏÏÎÏÏÍÌ; // 0x30
-        public int ÏÌÍÍÎÌÌÏÎÍÎÍÏÌÍÍÎÌÌÌÍÎÎ; // 0x34
-        public System.Text.StringBuilder ÌÍÎÎÎÎÎÌÍÎÏÌÏÎÍÌÍÏÌÎÍÎÍ; // 0x38
-        public bool ÍÍÏÏÍÌÌÍÌÌÎÏÍÏÌÍÏÎÏÎÏÍÎ; // 0x40
-        public bool ÏÌÍÌÎÎÍÎÌÍÍÏÍÌÍÌÎÍÍÎÎÍÏ; // 0x41
-        public System.IO.TextWriter ÌÎÌÏÌÏÏÍÎÏÏÎÌÎÏÍÎÌÎÍÏÍÌ; // 0x48
+        public object _name;
+        public object _hideFlags;
+        public object f_123;
+        public object f_379;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EEFD530
@@ -2340,9 +2268,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÍÌÏÍÌÍÎÎÍÏÏÍÎÌÍÏÌÏÏÍ</summary>
     public class VRC_MainSiblingSiblingSibling_B4DA : Object
     {
-        public ÍÏÏÍÎÏÎÌÍÎÌÌÌÏÌÍÌÏÌÌÌÏÏ ÍÍÌÍÎÏÏÎÏÌÎÏÎÍÌÍÎÎÌÍÎÍÎ; // 0x10
-        public UIntPtr ÎÌÌÏÎÌÍÌÌÌÌÌÌÍÎÌÏÎÎÏÎÏÏ; // 0x18
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FA85850
         public void .ctor(){} // RVA: 0x7FFD4FA85BA0
@@ -2357,28 +2282,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÏÌÍÎÍÍÍÍÌÍÍÌÏÏÏÎÍÎÌÍ</summary>
     public class VRC_MainSiblingSiblingSibling_CF2B : Object
     {
-        public int _name;
-        public int _hideFlags;
-        public int f_E7F;
-        public int f_C13;
-        public int f_D2A;
-        public string f_6B1;
-        public System.Nullable`1<bool> f_B5C;
-        public bool f_519; // 0x10
-        public int f_67F; // 0x14
-        public 0x664CF4A0 <ÍÌÎÌÍÌÍÍÏÎÏÏÌÍÌÍÏÍÍÌÌÏÏ>k__BackingField; // 0x18
-        public 0x66619290 ÎÍÎÍÍÍÌÎÍÏÌÏÎÍÌÌÌÏÍÎÌÌÏ; // 0x20
-        public UnityEngine.AndroidJavaObject ÏÎÎÏÌÍÏÍÎÌÌÏÌÎÌÍÎÌÎÎÌÍÌ; // 0x28
-        public UnityEngine.AndroidJavaObject ÌÌÏÎÍÌÍÏÍÌÏÏÎÍÏÏÎÎÏÍÌÍÏ; // 0x30
-        public 0x66619290 ÎÍÍÏÎÌÍÌÎÍÌÎÏÌÍÌÍÌÎÌÏÏÌ; // 0x38
-        public UnityEngine.AndroidJavaObject ÍÎÎÎÍÌÎÎÍÌÎÍÍÏÍÎÏÌÏÏÏÎÍ; // 0x40
-        public 0x66619290 ÎÎÌÏÌÏÍÎÏÎÍÏÌÏÌÌÍÏÎÏÎÏÎ; // 0x48
-        public UnityEngine.AndroidJavaObject ÎÎÌÍÍÍÍÏÏÌÌÏÌÍÌÌÏÏÌÌÎÌÌ; // 0x50
-        public UIntPtr ÍÏÏÍÌÏÍÍÌÏÏÍÎÌÏÎÎÏÍÍÌÌÎ; // 0x58
-        public float ÎÌÎÍÌÍÎÍÎÎÌÌÌÎÏÏÏÍÍÌÎÌÏ; // 0x60
-        public int ÏÎÏÍÍÌÌÍÏÌÏÏÏÌÎÍÌÍÌÌÍÌÎ; // 0x64
-        public bool ÌÎÏÌÏÌÌÌÎÎÏÍÌÌÏÌÎÎÌÏÏÏÎ; // 0x68
-        public UnityEngine.AudioClip ÎÎÍÎÌÏÎÌÌÎÍÏÌÌÌÍÎÎÏÌÏÎÌ; // 0x70
+        public object _name;
+        public object _hideFlags;
+        public object f_E7F;
+        public object f_C13;
+        public object f_D2A;
+        public object f_6B1;
+        public object f_B5C;
+        public object f_519;
+        public object f_67F;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EF5F6F0
@@ -2422,9 +2334,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÌÏÏÎÌÍÍÎÌÌÏÌÎÌÏÌÎÎÍÎÌ</summary>
     public class VRC_MainSiblingSibling_9A9E : Object
     {
-        public System.Text.StringBuilder ÍÌÏÌÏÍÌÌÍÌÏÏÌÎÍÌÍÌÎÌÌÍÎ; // 0x10
-        public int ÍÍÌÎÍÎÎÌÌÍÎÏÏÏÏÍÎÍÏÏÏÎÍ; // 0x18
-
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD4F108330
         public void Equals(){} // RVA: 0x7FFD4F108360
@@ -2446,201 +2355,184 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÏÏÏÏÎÎÍÎÍÌÏÏÌÎÏÌÏÏÍÌÎ</summary>
     public class VRC_MainSiblingSibling_D4AF : Object
     {
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<int> _name; // 0x10
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<string> _hideFlags; // 0x18
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_9F5; // 0x20
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFD90> f_72D; // 0x28
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_B72; // 0x30
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_535; // 0x38
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_FD3; // 0x40
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_657; // 0x48
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_CDC; // 0x50
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_B3B; // 0x58
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<string> f_AAB; // 0x60
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_558; // 0x68
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_5EC; // 0x70
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_300; // 0x78
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_042; // 0x80
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_971; // 0x88
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF6B0> f_4E9; // 0x90
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_AB3; // 0x98
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_364; // 0xA0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF918> f_497; // 0xA8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_AF9; // 0xB0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_6CC; // 0xB8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_493; // 0xC0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_D7B; // 0xC8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<string> f_A4C; // 0xD0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664C9358> f_EA5; // 0xD8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_F52; // 0xE0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_D55; // 0xE8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_007; // 0xF0
-        public ÌÌÌÍÍÎÎÌÏÏÍÌÏÍÏÌÍÎÌÏÍÌÏ<string> f_F78; // 0xF8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<string> f_A85; // 0x100
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF3F0> f_B5C; // 0x108
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF398> f_492; // 0x110
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_EB1; // 0x118
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_8F1; // 0x120
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF340> f_3DA; // 0x128
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_08F; // 0x130
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_B4F; // 0x138
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_073; // 0x140
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_B85; // 0x148
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_C3C; // 0x150
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x6635F6F0> f_B11; // 0x158
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_9B7; // 0x160
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_5E5; // 0x168
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_672; // 0x170
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_A75; // 0x178
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_303; // 0x180
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_93C; // 0x188
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_508; // 0x190
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_A6B; // 0x198
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_DD3; // 0x1A0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_DFF; // 0x1A8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_0EB; // 0x1B0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x665B01A0> f_477; // 0x1B8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_BDF; // 0x1C0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_D15; // 0x1C8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_108; // 0x1D0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF760> f_13A; // 0x1D8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_FCA; // 0x1E0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF760> f_374; // 0x1E8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_CF4; // 0x1F0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF760> f_82D; // 0x1F8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFA78> f_FD6; // 0x200
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_CA6; // 0x208
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_204; // 0x210
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_CD9; // 0x218
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_B94; // 0x220
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_14E; // 0x228
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_149; // 0x230
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_FE0; // 0x238
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_F92; // 0x240
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_852; // 0x248
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_1FB; // 0x250
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFC88> f_F8C; // 0x258
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_AD5; // 0x260
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_01F; // 0x268
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_63F; // 0x270
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_275; // 0x278
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_286; // 0x280
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_6B0; // 0x288
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF4A0> f_DDB; // 0x290
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664D2678> f_A06; // 0x298
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_C8D; // 0x2A0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x665B2B90> f_EAF; // 0x2A8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_6A7; // 0x2B0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_08D; // 0x2B8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_0C7; // 0x2C0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_24E; // 0x2C8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_091; // 0x2D0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_C7F; // 0x2D8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<int> f_BC3; // 0x2E0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<int> f_161; // 0x2E8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_2DC; // 0x2F0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_AED; // 0x2F8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_E7A; // 0x300
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_A05; // 0x308
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_CE8; // 0x310
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_2CA; // 0x318
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_5FF; // 0x320
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_E48; // 0x328
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF9C8> f_39F; // 0x330
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_B45; // 0x338
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_E58; // 0x340
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_912; // 0x348
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_FF5; // 0x350
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_9AA; // 0x358
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x66415260> f_138; // 0x360
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF238> f_C6F; // 0x368
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_422; // 0x370
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_2C7; // 0x378
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF290> f_B18; // 0x380
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF970> f_32E; // 0x388
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_B43; // 0x390
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664D1D88> f_21E; // 0x398
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664D1E90> f_FB0; // 0x3A0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF810> f_995; // 0x3A8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF868> f_ED4; // 0x3B0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_6E2; // 0x3B8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_485; // 0x3C0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_862; // 0x3C8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_FD7; // 0x3D0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_702; // 0x3D8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_5FC; // 0x3E0
-        public ÌÌÌÍÍÎÎÌÏÏÍÌÏÍÏÌÍÎÌÏÍÌÏ<bool> f_E1B; // 0x3E8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_AF1; // 0x3F0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_C1F; // 0x3F8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_91C; // 0x400
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_F9C; // 0x408
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_967; // 0x410
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_6CD; // 0x418
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_8C4; // 0x420
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_F74; // 0x428
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_857; // 0x430
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> f_C14; // 0x438
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_7CF; // 0x440
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_3BE; // 0x448
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_675; // 0x450
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_883; // 0x458
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_C2E; // 0x460
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_88D; // 0x468
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<int> f_6F3; // 0x470
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<int> f_318; // 0x478
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_5FC; // 0x480
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_7E3; // 0x488
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_AB0; // 0x490
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<ÍÏÎÍÍÎÏÍÎÎ> f_2DD; // 0x498
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_6D7; // 0x4A0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<string> f_0C4; // 0x4A8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_65C; // 0x4B0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<int> f_82E; // 0x4B8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFE40> f_107; // 0x4C0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<ÍÌÎÍÌÌÎÌÏÏÍÌÍÎÎÎÍÏÍÌÏÍÎ> f_212; // 0x4C8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFDE8> f_4A8; // 0x4D0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_DFB; // 0x4D8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_9C2; // 0x4E0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_6DE; // 0x4E8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_A7A; // 0x4F0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_DA5; // 0x4F8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF600> f_04C; // 0x500
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_9C2; // 0x508
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF658> f_766; // 0x510
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_D52; // 0x518
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_B69; // 0x520
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_BC5; // 0x528
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_E17; // 0x530
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_1C3; // 0x538
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_4AD; // 0x540
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF8C0> f_77B; // 0x548
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_39D; // 0x550
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_735; // 0x558
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> f_0B1; // 0x560
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFB28> f_93A; // 0x568
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFB80> f_351; // 0x570
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFBD8> f_EE8; // 0x578
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFC30> f_665; // 0x580
-        public float f_A55;
-        public float f_536;
-        public float f_B6D;
-        public float ÏÍÎÍÌÎÏÎÏÌÍÎÍÏÏÎÏÍÍÌÎÍÏ;
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> <ÎÍÎÎÌÍÍÌÍÏÍÌÌÎÏÌÎÍÍÏÌÎÍ>k__BackingField; // 0x588
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> <ÎÍÏÏÏÏÎÌÍÎÌÎÎÎÌÏÎÌÌÏÌÌÎ>k__BackingField; // 0x590
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> <ÏÏÎÌÌÍÍÍÌÏÌÍÍÌÌÎÎÍÏÌÏÍÎ>k__BackingField; // 0x598
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFCE0> <ÎÌÌÍÍÏÌÏÏÌÎÎÏÍÍÏÏÎÏÌÎÍÌ>k__BackingField; // 0x5A0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CFD38> <ÎÏÌÍÏÍÍÎÍÌÎÌÌÌÍÌÍÎÍÏÍÍÌ>k__BackingField; // 0x5A8
-        public float ÍÏÏÏÎÎÏÎÎÎÎÎÌÌÌÎÏÎÎÏÌÎÏ;
-        public float ÍÍÍÌÎÏÌÍÍÎÎÎÍÏÌÍÍÎÏÏÎÏÎ;
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> <ÎÎÍÌÎÏÎÎÎÏÍÍÌÎÌÍÏÍÎÏÍÏÍ>k__BackingField; // 0x5B0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> <ÎÌÍÎÏÍÎÍÎÍÏÌÎÍÎÏÍÌÏÌÏÌÌ>k__BackingField; // 0x5B8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> <ÌÏÏÌÍÏÌÏÍÎÌÏÌÌÎÍÎÏÍÏÍÎÍ>k__BackingField; // 0x5C0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> <ÌÍÌÍÌÎÏÏÍÏÌÎÍÍÎÌÎÌÏÍÏÌÌ>k__BackingField; // 0x5C8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> <ÏÏÌÎÏÍÌÏÎÍÌÏÎÏÏÎÎÍÎÎÏÏÌ>k__BackingField; // 0x5D0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> <ÎÌÌÌÎÌÏÍÎÌÌÍÏÌÍÏÏÎÏÌÎÏÌ>k__BackingField; // 0x5D8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<bool> <ÏÌÏÍÏÍÌÍÍÌÍÌÌÏÎÏÎÍÎÍÌÌÎ>k__BackingField; // 0x5E0
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<0x664CF708> <ÏÌÎÍÏÍÍÎÍÏÎÎÍÎÏÌÎÎÏÌÎÎÌ>k__BackingField; // 0x5E8
-        public ÌÍÏÌÎÌÌÎÏÌÍÌÎÎÏÍÏÌÏÏÏÏÏ<float> <ÍÎÎÌÎÏÌÌÌÌÌÍÌÌÏÎÎÏÌÌÏÏÎ>k__BackingField; // 0x5F0
+        public object _name;
+        public object _hideFlags;
+        public object f_9F5;
+        public object f_72D;
+        public object f_B72;
+        public object f_535;
+        public object f_FD3;
+        public object f_657;
+        public object f_CDC;
+        public object f_B3B;
+        public object f_AAB;
+        public object f_558;
+        public object f_5EC;
+        public object f_300;
+        public object f_042;
+        public object f_971;
+        public object f_4E9;
+        public object f_AB3;
+        public object f_364;
+        public object f_497;
+        public object f_AF9;
+        public object f_6CC;
+        public object f_493;
+        public object f_D7B;
+        public object f_A4C;
+        public object f_EA5;
+        public object f_F52;
+        public object f_D55;
+        public object f_007;
+        public object f_F78;
+        public object f_A85;
+        public object f_B5C;
+        public object f_492;
+        public object f_EB1;
+        public object f_8F1;
+        public object f_3DA;
+        public object f_08F;
+        public object f_B4F;
+        public object f_073;
+        public object f_B85;
+        public object f_C3C;
+        public object f_B11;
+        public object f_9B7;
+        public object f_5E5;
+        public object f_672;
+        public object f_A75;
+        public object f_303;
+        public object f_93C;
+        public object f_508;
+        public object f_A6B;
+        public object f_DD3;
+        public object f_DFF;
+        public object f_0EB;
+        public object f_477;
+        public object f_BDF;
+        public object f_D15;
+        public object f_108;
+        public object f_13A;
+        public object f_FCA;
+        public object f_374;
+        public object f_CF4;
+        public object f_82D;
+        public object f_FD6;
+        public object f_CA6;
+        public object f_204;
+        public object f_CD9;
+        public object f_B94;
+        public object f_14E;
+        public object f_149;
+        public object f_FE0;
+        public object f_F92;
+        public object f_852;
+        public object f_1FB;
+        public object f_F8C;
+        public object f_AD5;
+        public object f_01F;
+        public object f_63F;
+        public object f_275;
+        public object f_286;
+        public object f_6B0;
+        public object f_DDB;
+        public object f_A06;
+        public object f_C8D;
+        public object f_EAF;
+        public object f_6A7;
+        public object f_08D;
+        public object f_0C7;
+        public object f_24E;
+        public object f_091;
+        public object f_C7F;
+        public object f_BC3;
+        public object f_161;
+        public object f_2DC;
+        public object f_AED;
+        public object f_E7A;
+        public object f_A05;
+        public object f_CE8;
+        public object f_2CA;
+        public object f_5FF;
+        public object f_E48;
+        public object f_39F;
+        public object f_B45;
+        public object f_E58;
+        public object f_912;
+        public object f_FF5;
+        public object f_9AA;
+        public object f_138;
+        public object f_C6F;
+        public object f_422;
+        public object f_2C7;
+        public object f_B18;
+        public object f_32E;
+        public object f_B43;
+        public object f_21E;
+        public object f_FB0;
+        public object f_995;
+        public object f_ED4;
+        public object f_6E2;
+        public object f_485;
+        public object f_862;
+        public object f_FD7;
+        public object f_702;
+        public object f_5FC;
+        public object f_E1B;
+        public object f_AF1;
+        public object f_C1F;
+        public object f_91C;
+        public object f_F9C;
+        public object f_967;
+        public object f_6CD;
+        public object f_8C4;
+        public object f_F74;
+        public object f_857;
+        public object f_C14;
+        public object f_7CF;
+        public object f_3BE;
+        public object f_675;
+        public object f_883;
+        public object f_C2E;
+        public object f_88D;
+        public object f_6F3;
+        public object f_318;
+        public object f_5FC;
+        public object f_7E3;
+        public object f_AB0;
+        public object f_2DD;
+        public object f_6D7;
+        public object f_0C4;
+        public object f_65C;
+        public object f_82E;
+        public object f_107;
+        public object f_212;
+        public object f_4A8;
+        public object f_DFB;
+        public object f_9C2;
+        public object f_6DE;
+        public object f_A7A;
+        public object f_DA5;
+        public object f_04C;
+        public object f_9C2;
+        public object f_766;
+        public object f_D52;
+        public object f_B69;
+        public object f_BC5;
+        public object f_E17;
+        public object f_1C3;
+        public object f_4AD;
+        public object f_77B;
+        public object f_39D;
+        public object f_735;
+        public object f_0B1;
+        public object f_93A;
+        public object f_351;
+        public object f_EE8;
+        public object f_665;
+        public object f_A55;
+        public object f_536;
+        public object f_B6D;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EDDF7E0
@@ -2859,39 +2751,17 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÏÌÏÍÍÍÌÌÌÏÏÌÎÍÏÎÍÎÌÍÍ</summary>
     public class VRC_MainSibling_0495 : Object
     {
-        public System.Lazy`1<string> _name;
-        public ÍÏÏÌÏÍÍÍÌÌÌÏÏÌÎÍÏÎÍÎÌÍÍ _hideFlags; // 0x8
-        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiModeration>> f_E02; // 0x10
-        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiPlayerModeration>> f_B54; // 0x18
-        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiAvatarModeration>> f_2F7; // 0x20
-        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<VRC.Core.ApiAvatarModeration>> f_D8A; // 0x28
-        public float f_A53;
-        public System.TimeSpan f_68B; // 0x30
-        public bool f_DF6; // 0x38
-        public float f_7D9; // 0x3C
-        public System.DateTime f_852; // 0x40
-        public bool ÍÏÍÏÏÏÏÌÌÌÏÍÏÍÍÎÍÌÌÎÎÏÎ; // 0x48
-        public VRC.Localization.LocalizableString ÎÏÏÎÏÌÍÌÍÍÏÎÎÏÏÏÎÎÎÍÍÎÌ; // 0x50
-        public bool ÏÏÎÌÏÍÌÏÍÎÏÌÏÏÍÏÎÎÌÏÍÎÌ; // 0x78
-        public bool ÏÏÍÌÎÌÏÎÌÎÌÍÍÌÌÎÏÍÎÏÏÌÍ; // 0x79
-        public bool ÎÏÍÍÌÍÌÍÍÌÌÍÎÍÌÎÏÏÍÏÏÌÌ; // 0x7A
-        public bool <ÏÏÍÎÍÍÏÎÎÌÍÏÎÎÎÌÎÏÍÌÏÎÌ>k__BackingField; // 0x10
-        public bool <ÎÍÍÍÏÌÏÍÌÌÏÌÏÎÏÎÍÍÌÍÌÎÎ>k__BackingField; // 0x11
-        public System.Collections.Generic.List`1<ÍÏÏÎÏÌÍÍÎÌÎÏÍÏÏÍÌÏÎÍÍÎÏ> ÍÎÏÍÌÎÌÍÍÏÏÍÎÏÏÏÏÏÎÌÎÎÏ; // 0x18
-        public System.Collections.Generic.HashSet`1<0x664105B8> ÎÏÎÍÏÎÏÍÎÌÍÍÍÍÏÍÍÏÌÏÍÍÎ; // 0x20
-        public System.Collections.Generic.Dictionary`2<string,object>[] ÎÎÏÌÍÎÌÌÍÍÎÌÎÏÌÎÌÎÎÌÌÌÎ; // 0x80
-        public System.Collections.Generic.Dictionary`2<string,object>[] ÌÌÎÌÌÌÏÏÌÍÌÎÌÏÎÌÏÍÍÌÎÎÌ; // 0x88
-        public System.Collections.Generic.List`1<string> ÍÌÎÏÏÎÏÎÌÎÌÌÌÍÏÌÏÏÎÌÏÎÎ; // 0x28
-        public System.DateTime ÌÍÏÌÌÏÍÎÌÌÎÍÌÏÌÌÌÏÍÏÏÎÏ; // 0x30
-        public bool ÍÌÍÌÍÍÍÎÏÍÏÏÏÍÌÍÏÏÌÍÍÌÏ; // 0x38
-        public System.Collections.Generic.List`1<string> ÌÏÌÍÎÍÍÌÍÍÏÍÏÍÏÍÏÍÍÏÏÎÎ; // 0x40
-        public System.Collections.Generic.List`1<string> ÍÏÌÌÏÍÍÎÏÌÍÎÍÏÍÎÍÎÏÌÍÍÌ; // 0x48
-        public System.Collections.Generic.HashSet`1<int> ÍÏÎÌÏÏÌÎÏÍÍÌÏÏÌÏÎÌÏÌÍÏÌ; // 0x90
-        public System.Collections.Generic.Dictionary`2<int,System.ValueTuple`2<bool,bool>> ÌÎÌÏÍÏÏÎÌÌÏÌÌÏÌÎÎÎÏÌÌÌÍ; // 0x98
-        public int ÏÌÎÏÏÏÎÌÎÌÎÍÍÍÏÍÏÍÍÎÏÍÍ; // 0xA0
-        public System.Collections.Generic.Dictionary`2<string,float> ÍÎÏÍÌÎÎÍÌÍÍÏÌÌÌÎÏÌÏÏÏÍÌ; // 0x50
-        public System.Collections.Generic.HashSet`1<string> ÍÌÏÍÏÌÎÌÏÎÏÌÌÏÌÎÎÎÍÏÏÏÍ; // 0xA8
-        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.IList> <ÍÌÏÌÌÌÏÎÍÌÌÍÌÏÍÏÍÍÏÏÏÏÏ>k__BackingField; // 0xB0
+        public object _name;
+        public object _hideFlags;
+        public object f_E02;
+        public object f_B54;
+        public object f_2F7;
+        public object f_D8A;
+        public object f_A53;
+        public object f_68B;
+        public object f_DF6;
+        public object f_7D9;
+        public object f_852;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E60B030
@@ -3035,40 +2905,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÏÍÍÌÎÍÍÎÍÎÎÌÍÎÍÎÏÍÎÏ</summary>
     public class VRC_MainSibling_8B0D : Object
     {
-        public string _name;
-        public int _hideFlags;
-        public int f_4BC;
-        public long f_53B;
-        public long f_94B;
-        public int f_91C;
-        public int ÏÍÌÎÍÏÏÍÎÌÍÍÌÏÏÎÌÌÏÎÌÍÏ;
-        public int ÎÌÏÏÎÌÎÏÍÌÌÏÌÏÌÏÍÌÏÌÌÍÏ;
-        public int ÍÎÎÎÎÏÌÏÏÎÎÎÍÌÎÍÌÎÏÎÌÍÌ;
-        public int ÏÍÏÏÏÎÏÌÌÌÎÎÌÍÎÍÏÍÌÌÏÏÎ;
-        public long ÎÎÍÏÌÏÎÌÌÎÎÍÍÌÍÎÍÏÍÏÏÍÍ;
-        public int ÎÌÍÍÎÏÌÎÍÍÍÍÌÍÏÏÎÎÏÏÍÍÏ;
-        public System.Collections.Generic.Dictionary`2<string,ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ> ÎÎÎÌÏÏÍÍÌÍÏÎÏÍÍÎÍÍÌÏÏÎÏ; // 0x10
-        public System.Collections.Generic.List`1<string> ÍÏÏÍÍÍÎÍÍÎÎÏÍÎÌÏÎÍÌÌÌÍÏ; // 0x18
-        public System.Collections.Generic.List`1<ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ> ÌÌÍÎÏÎÍÌÎÍÌÎÍÍÍÎÎÌÎÎÏÏÍ; // 0x20
-        public System.Collections.Generic.List`1<ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ> ÌÏÌÍÏÌÎÍÍÌÎÏÎÌÎÏÍÍÍÏÎÎÍ; // 0x28
-        public System.Collections.Generic.List`1<ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ> ÌÌÌÎÍÏÍÌÍÎÏÌÎÍÎÍÌÌÎÍÏÏÎ; // 0x30
-        public System.Collections.Generic.List`1<ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ> ÌÎÎÏÎÍÌÍÌÎÏÎÌÌÎÌÌÎÏÏÍÎÍ; // 0x38
-        public System.Collections.Generic.List`1<ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ> ÎÎÏÌÎÌÏÎÏÎÍÍÎÎÍÏÎÎÍÍÌÍÌ; // 0x40
-        public ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ ÎÌÍÌÎÏÌÏÎÌÌÌÍÏÍÎÌÍÍÎÎÏÌ; // 0x48
-        public System.Collections.Generic.Dictionary`2<0x665AD498,System.Collections.Generic.List`1<ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ>> ÌÍÏÏÏÌÏÎÍÌÏÌÎÏÏÌÍÏÏÎÏÏÏ; // 0x50
-        public System.Nullable`1<Cysharp.Threading.Tasks.UniTask> ÌÎÏÎÌÎÎÎÌÏÎÎÌÌÏÍÌÍÍÎÌÎÍ; // 0x58
-        public System.Nullable`1<Cysharp.Threading.Tasks.UniTask> ÏÏÎÎÎÎÍÎÎÌÍÎÎÏÎÌÏÌÏÌÏÏÎ; // 0x70
-        public ulong ÍÎÎÍÍÏÏÎÍÎÏÎÌÏÏÌÌÌÌÍÌÎÎ; // 0x88
-        public ulong ÏÎÏÏÍÍÏÍÎÌÎÍÍÎÌÍÍÌÌÍÌÏÌ; // 0x90
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.IReadOnlyList`1<ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ>> <ÌÌÎÍÏÏÍÎÎÎÏÏÎÎÍÎÌÎÍÌÎÎÌ>k__BackingField; // 0x98
-        public int ÌÎÍÎÏÌÏÎÏÏÏÏÎÍÏÍÎÎÎÌÌÌÍ; // 0xA0
-        public int ÍÍÌÌÌÏÍÍÏÎÏÌÎÌÌÎÏÌÎÍÌÏÌ; // 0xA4
-        public ulong ÎÍÌÍÏÍÌÌÌÌÌÌÎÌÌÎÍÎÍÍÌÌÏ; // 0xA8
-        public UnityEngine.Cache ÎÎÎÍÎÌÌÌÎÎÎÍÏÍÎÎÌÏÏÍÏÌÌ; // 0xB0
-        public int ÎÌÌÌÍÎÎÏÌÍÌÌÌÏÎÌÎÎÍÌÌÍÎ; // 0xB4
-        public System.Action ÎÏÎÏÍÎÏÏÏÏÎÏÏÏÎÏÍÍÍÎÎÍÍ;
-        public ÎÎÎÏÍÍÌÎÍÍÎÍÎÎÌÍÎÍÎÏÍÎÏ <ÌÍÍÌÌÍÏÏÍÌÎÌÌÍÏÏÌÌÎÍÌÌÏ>k__BackingField; // 0x8
-        public ÎÌÎÎÍÍÎÎÎÏÌÏÍÎÌÏÌÎÎÏÍÌÌ <ÌÎÎÏÍÎÍÍÌÎÎÏÎÍÍÌÏÎÏÌÌÎÍ>k__BackingField; // 0xB8
+        public object _name;
+        public object _hideFlags;
+        public object f_4BC;
+        public object f_53B;
+        public object f_94B;
+        public object f_91C;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FA26260
@@ -3736,291 +3578,127 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÎÏÏÌÏÎÎÌÍÏÌÎÎÍÌÍÌÏÌÏ</summary>
     public class VRC_Secondary : MonoBehaviour
     {
-        public ÎÎÍÎÏÏÌÏÎÎÌÍÏÌÎÎÍÌÍÌÏÌÏ _destroyCancellationToken;
-        public System.Action _useGUILayout; // 0x8
-        public System.Action`1<float> f_3F7; // 0x10
-        public string f_6CC;
-        public bool f_7D8; // 0x20
-        public UnityEngine.Transform f_5F3; // 0x28
-        public ÏÏÏÎÍÏÎÏÍÎÎÌÏÍÎÍÍÍÎÍÎÌÎ f_FA3; // 0x30
-        public ÌÏÍÎÎÎÏÍÌÍÌÍÏÏÌÌÎÍÌÎÌÎÏ f_664; // 0x38
-        public ÌÌÍÌÌÏÎÎÏÎÌÏÍÏÍÌÌÌÌÏÎÌÍ f_F3D; // 0x40
-        public ÎÎÏÌÏÎÌÏÌÌÎÏÎÍÎÌÏÌÌÍÏÍÌ f_1B5; // 0x48
-        public bool f_9CE; // 0x50
-        public UnityEngine.Sprite f_6C0; // 0x58
-        public string f_0CA; // 0x60
-        public string f_84B; // 0x68
-        public string f_D3E; // 0x70
-        public string f_E08; // 0x78
-        public string f_212; // 0x80
-        public string f_ED1; // 0x88
-        public string f_F54; // 0x90
-        public string f_223; // 0x98
-        public string f_2C4; // 0xA0
-        public string f_627; // 0xA8
-        public string f_597; // 0xB0
-        public string f_2A5;
-        public string f_07F;
-        public ÎÏÎÌÌÍÌÎÍÌÌÏÎÍÍÏÍÍÎÏÎÍÏ f_1EC; // 0xB8
-        public ÎÏÏÎÌÏÌÎÍÎÎÌÎÏÌÏÎÏÌÏÏÌÍ f_5D2; // 0xC0
-        public UnityEngine.GameObject f_228; // 0xC8
-        public UnityEngine.GameObject f_6D3; // 0xD0
-        public UnityEngine.GameObject f_E62; // 0xD8
-        public UnityEngine.Transform f_301; // 0xE0
-        public VRC.IMDraw f_0F9; // 0x18
-        public ÍÎÌÌÌÌÎÏÌÌÎÌÎÍÏÍÌÏÎÍÍÌÏ f_B0F; // 0x20
-        public ÍÎÌÌÌÌÎÏÌÌÎÌÎÍÏÍÌÏÎÍÍÌÏ f_9FE; // 0x28
-        public ÍÎÌÌÌÌÎÏÌÌÎÌÎÍÏÍÌÏÎÍÍÌÏ f_740; // 0x30
-        public System.Collections.Generic.Dictionary`2<string,ÍÎÌÌÌÌÎÏÌÌÎÌÎÍÏÍÌÏÎÍÍÌÏ> f_0AC; // 0x38
-        public UnityEngine.Transform f_C69; // 0x40
-        public ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ f_D6A; // 0x48
-        public ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ f_11D; // 0x50
-        public ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ f_D05; // 0x58
-        public ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ f_88B; // 0x60
-        public ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ f_29B; // 0x68
-        public ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ f_064; // 0x70
-        public ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ f_1A0; // 0x78
-        public ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ f_9B1; // 0x80
-        public System.Collections.Generic.List`1<string> f_B5C; // 0x88
-        public float[] f_B98; // 0x90
-        public ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ[] f_0CC; // 0x98
-        public bool[] f_EF1; // 0xA0
-        public bool f_496; // 0xA8
-        public bool f_E9F; // 0xA9
-        public bool f_665; // 0xAA
-        public bool f_0A5; // 0xAB
-        public bool f_873; // 0xAC
-        public bool f_899; // 0xE8
-        public bool f_189; // 0xE9
-        public System.Collections.Generic.List`1<ÏÍÍÎÏÍÌÍÎÎÎÍÎÎÍÌÌÍÍÏÌÎÌ> f_447; // 0xF0
-        public System.Collections.Generic.Dictionary`2<0x66360668,ÎÎÏÎÌÌÌÍÌÍÏÏÎÍÌÌÏÌÍÏÍÏÍ> f_085; // 0xB0
-        public float f_799; // 0xB8
-        public float f_7CC; // 0xBC
-        public float f_089; // 0xC0
-        public float f_3E0; // 0xC4
-        public UnityEngine.Vector3 f_918; // 0xC8
-        public UnityEngine.Vector3 f_D1E; // 0xD4
-        public UnityEngine.Vector3 f_4D1; // 0xE0
-        public bool f_561; // 0xEC
-        public int f_8EF; // 0xF0
-        public float f_310;
-        public float f_CD7;
-        public float f_34A;
-        public float f_BED;
-        public float f_085;
-        public float f_5BE;
-        public float f_2F2;
-        public float f_3DD;
-        public float f_6A2;
-        public float f_AC5;
-        public float f_401;
-        public float f_336;
-        public string f_C45;
-        public bool f_D31; // 0xF8
-        public bool f_42C; // 0xF9
-        public bool f_52B; // 0xFA
-        public UnityEngine.Vector3 f_195; // 0xFC
-        public UnityEngine.Quaternion f_945; // 0x108
-        public float f_F88; // 0x118
-        public UnityEngine.Vector3 f_663; // 0x11C
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_FCD; // 0x128
-        public ÌÎÎÌÎÌÏÍÌÎÎÌÏÌÌÎÌÎÎÌÏÌÍ f_1FF; // 0x130
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ f_B06; // 0x138
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ f_C9B; // 0x140
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ f_CA3; // 0x148
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ f_AF5; // 0x150
-        public bool f_2AE; // 0x158
-        public bool f_A52; // 0x159
-        public 0x66360668 f_248; // 0x15C
-        public 0x66360668 f_E34; // 0x160
-        public 0x66360668 f_38B; // 0x164
-        public 0x66360668 f_559; // 0x168
-        public UnityEngine.Vector3 f_5FF; // 0x16C
-        public UnityEngine.Quaternion f_1F7; // 0x178
-        public float f_9B2; // 0x188
-        public float f_451; // 0x18C
-        public float f_0D2; // 0x190
-        public float f_A0A;
-        public float f_495;
-        public bool f_3EA; // 0x194
-        public float f_6C4;
-        public float f_35C;
-        public string f_E4C;
-        public string f_A80;
-        public string f_30B;
-        public int f_A35; // 0x198
-        public string f_C88;
-        public string f_F6A;
-        public string f_D0D;
-        public string f_F92;
-        public string f_5D6;
-        public string f_CAA;
-        public string f_B35;
-        public string f_E72;
-        public bool ÏÎÏÎÍÎÎÍÎÎÎÎÌÎÎÍÏÍÏÏÎÌÏ; // 0x19C
-        public bool ÏÎÎÌÎÎÏÏÏÎÍÎÌÌÌÌÍÎÎÍÌÏÍ; // 0x19D
-        public float ÎÌÍÏÏÌÏÍÍÏÍÌÎÍÍÌÏÍÌÌÍÎÌ; // 0x1A0
-        public bool ÍÏÏÍÏÏÌÎÎÌÌÍÍÎÍÍÏÏÏÏÌÍÎ; // 0xF4
-        public UnityEngine.AudioListener ÍÌÍÍÏÌÌÏÍÏÌÏÍÏÌÍÎÎÌÌÎÍÎ; // 0xF8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<ÎÍÍÏÎÎÎÎÍÏÌÎÌÏÌÏÎÌÍÎÏÎÎ> <ÍÍÏÍÌÎÍÎÍÍÌÏÏÎÍÏÎÌÏÍÍÍÌ>k__BackingField; // 0x100
-        public string ÏÍÍÎÌÌÎÌÍÏÏÎÍÎÎÎÍÎÌÎÎÎÍ;
-        public string ÌÍÍÏÍÌÏÏÎÌÌÏÍÏÎÎÎÍÌÌÏÍÌ;
-        public string ÎÍÌÏÌÏÍÌÍÌÏÎÌÏÌÌÏÌÍÏÌÏÎ;
-        public string ÎÌÎÌÍÏÎÍÏÌÍÌÍÏÎÎÏÎÍÍÍÌÎ;
-        public string ÍÌÌÍÍÌÍÍÎÏÍÍÎÏÌÏÎÍÌÌÌÎÌ;
-        public string ÎÏÎÏÍÍÏÌÍÏÌÌÍÍÌÍÍÏÏÎÌÍÏ;
-        public string ÎÎÏÎÏÍÍÍÍÍÍÌÍÏÌÏÎÍÏÍÎÏÏ;
-        public string ÌÏÏÏÍÍÏÎÎÏÌÏÍÍÏÌÌÎÎÎÎÌÎ;
-        public string ÎÏÍÍÎÏÏÌÏÎÏÌÏÌÌÏÎÏÍÎÌÎÎ;
-        public string ÎÏÎÎÏÌÏÎÌÎÏÌÌÌÏÎÌÍÎÍÎÏÎ;
-        public string ÍÍÎÎÎÍÌÍÏÍÏÏÎÌÌÏÌÏÍÌÎÍÏ;
-        public string ÍÎÌÍÍÌÏÌÌÍÎÏÍÏÍÏÏÎÏÏÍÎÌ;
-        public string ÏÎÍÍÎÍÎÍÍÏÍÌÏÏÍÍÏÌÌÌÏÌÍ;
-        public string ÌÎÌÍÏÍÎÍÍÏÏÌÎÍÍÎÎÏÌÌÍÍÌ;
-        public string ÍÏÏÍÏÌÏÏÏÏÍÍÎÍÍÎÏÎÎÏÌÍÏ;
-        public string ÌÌÎÌÏÎÍÎÎÏÌÎÌÌÎÌÍÌÏÏÍÏÎ;
-        public string ÏÏÏÏÎÍÎÌÌÍÌÎÎÏÌÍÏÏÏÏÎÍÎ;
-        public string ÍÍÍÏÍÏÍÏÍÏÏÍÏÍÍÎÍÌÎÏÌÌÏ;
-        public string ÏÎÎÌÍÏÎÎÎÏÌÏÏÎÎÍÌÏÌÌÎÍÌ;
-        public string ÍÌÏÏÌÌÍÌÎÌÍÏÌÎÎÏÏÍÌÏÍÌÍ;
-        public string ÌÎÍÍÎÍÍÍÏÎÎÍÏÍÎÍÌÍÏÍÌÎÌ;
-        public string ÍÎÌÍÍÍÍÌÍÍÍÏÏÍÏÌÍÍÎÏÍÎÌ;
-        public string ÎÌÎÎÎÌÏÍÍÏÍÎÍÌÌÏÏÏÌÍÌÏÎ;
-        public string ÍÍÍÌÌÏÍÏÌÌÏÌÏÌÍÍÍÏÏÏÏÌÍ;
-        public string ÏÌÍÌÌÏÎÍÎÎÏÏÌÎÎÌÌÏÎÏÌÎÍ;
-        public string ÏÎÍÏÍÍÎÍÎÏÍÎÎÍÍÍÍÌÏÎÌÌÏ;
-        public string ÏÍÌÍÌÌÌÎÍÏÏÏÎÎÍÎÎÏÏÎÌÏÎ;
-        public string ÏÎÌÏÌÏÎÎÏÌÎÍÎÌÎÌÎÎÌÍÏÍÍ;
-        public string ÍÏÌÏÌÌÍÍÌÏÎÌÎÎÎÌÎÍÌÍÎÏÎ;
-        public string ÌÏÎÎÏÌÍÎÍÍÌÌÎÎÏÌÎÌÏÌÍÍÌ;
-        public string ÎÍÎÍÎÍÍÎÍÍÏÎÌÌÎÎÍÍÏÍÎÍÌ;
-        public string ÎÎÍÏÎÎÌÎÎÏÍÎÎÎÏÎÌÏÌÏÌÏÏ;
-        public string ÌÌÎÎÍÍÍÎÌÎÎÌÏÍÌÍÍÌÎÎÍÏÌ;
-        public string ÎÎÍÏÏÎÌÍÍÎÎÍÏÎÏÏÌÍÌÎÏÎÏ;
-        public string ÏÏÍÌÎÏÌÍÏÎÍÏÏÍÎÍÎÏÎÍÎÎÎ;
-        public string ÍÏÍÏÌÏÎÌÍÍÏÎÏÏÎÎÍÌÎÍÏÏÍ;
-        public string ÎÏÍÌÌÌÏÌÎÎÍÌÍÎÎÎÌÌÍÏÏÌÌ;
-        public string ÌÍÍÍÍÏÏÍÎÍÏÍÍÌÍÎÏÎÌÏÏÌÎ;
-        public string ÍÍÎÏÏÍÏÍÏÎÌÎÏÍÏÏÍÏÌÎÍÌÍ;
-        public string ÌÏÏÎÎÏÍÏÍÏÌÎÌÌÏÌÍÎÎÍÎÍÎ;
-        public string ÍÌÌÏÎÍÏÏÎÏÏÎÏÏÎÌÍÌÍÍÌÌÏ;
-        public string ÌÌÍÍÏÍÏÌÏÍÌÎÌÎÌÏÌÎÌÌÌÌÌ;
-        public string ÏÌÎÌÍÎÍÍÍÌÎÎÌÍÎÌÏÍÏÏÎÎÏ;
-        public string ÌÎÍÏÍÌÌÍÏÎÍÏÏÍÍÎÍÍÌÍÌÏÎ;
-        public string ÎÏÎÍÍÌÎÏÏÎÍÍÏÌÏÎÎÎÌÌÌÌÎ;
-        public string ÌÍÎÌÌÏÌÎÌÏÍÌÎÎÎÏÎÎÍÌÍÍÏ;
-        public string ÍÌÍÏÏÏÎÏÌÍÌÍÏÏÌÏÌÍÍÌÍÏÌ;
-        public string ÌÏÏÎÌÍÌÍÎÎÎÎÏÎÍÌÍÌÏÍÏÏÌ;
-        public string ÌÎÎÌÌÎÌÏÎÏÎÏÌÎÎÎÍÍÎÎÍÏÌ;
-        public string ÎÏÎÍÏÎÌÏÎÍÏÏÌÌÎÏÍÎÌÎÌÍÌ;
-        public string ÎÍÍÏÎÎÍÍÍÎÌÌÌÍÌÌÎÌÌÍÍÏÍ;
-        public bool <ÏÍÏÍÌÏÎÍÏÍÌÍÌÎÎÎÏÏÍÏÌÏÍ>k__BackingField; // 0x108
-        public bool <ÌÎÎÌÍÌÌÌÎÍÏÌÏÍÌÍÍÎÌÎÎÎÍ>k__BackingField; // 0x109
-        public bool <ÏÎÍÌÎÌÎÌÌÌÌÌÏÌÎÌÎÏÏÎÎÏÎ>k__BackingField; // 0x10A
-        public bool <ÎÏÏÎÏÍÎÍÍÍÌÏÍÌÌÎÍÍÏÍÌÌÌ>k__BackingField; // 0x10B
-        public bool <ÌÍÌÏÎÌÍÎÍÍÍÍÌÍÎÎÍÏÎÍÏÏÎ>k__BackingField; // 0x10C
-        public bool <ÍÎÎÌÎÍÍÌÍÌÌÎÎÎÏÌÌÏÏÌÌÎÍ>k__BackingField; // 0x10D
-        public bool <ÎÍÌÎÏÎÍÍÌÍÎÌÍÌÌÍÏÌÎÍÌÌÌ>k__BackingField; // 0x10E
-        public bool <ÍÎÎÎÍÌÍÍÏÍÎÏÌÏÏÌÍÌÏÎÌÍÏ>k__BackingField; // 0x10F
-        public bool ÎÎÎÌÏÌÎÏÎÏÏÌÎÍÎÌÏÏÌÌÌÍÏ; // 0x110
-        public bool ÎÍÍÎÏÏÍÍÌÏÍÌÍÌÍÍÎÌÏÏÌÍÍ; // 0x111
-        public bool <ÏÎÌÎÌÍÎÏÍÎÏÎÏÎÍÏÎÍÏÎÏÏÏ>k__BackingField; // 0x112
-        public bool <ÌÍÍÍÍÌÌÏÏÏÍÎÏÎÏÏÌÏÎÎÌÍÍ>k__BackingField; // 0x113
-        public bool <ÍÍÍÏÏÍÍÌÏÎÎÌÎÏÏÍÎÎÎÌÌÍÎ>k__BackingField; // 0x114
-        public bool <ÎÏÌÍÎÍÏÎÌÏÍÌÍÍÍÏÏÏÎÌÏÌÎ>k__BackingField; // 0x115
-        public bool <ÏÍÍÌÌÍÌÌÎÏÌÏÌÌÌÌÌÍÍÌÎÍÏ>k__BackingField; // 0x116
-        public bool <ÌÎÎÍÌÎÍÏÏÌÌÌÎÌÍÏÎÎÍÌÏÌÎ>k__BackingField; // 0x117
-        public 0x664D0BA8 <ÌÏÌÏÎÏÏÌÌÍÍÍÍÌÎÍÏÏÌÏÌÎÎ>k__BackingField; // 0x118
-        public bool <ÎÏÍÏÏÎÌÌÎÌÎÏÍÎÎÎÎÎÎÌÎÏÏ>k__BackingField; // 0x11C
-        public bool <ÌÎÍÌÏÌÎÎÍÌÎÌÏÎÌÌÏÍÎÍÏÍÌ>k__BackingField; // 0x11D
-        public float <ÏÌÍÌÏÌÎÌÍÎÎÍÌÎÍÌÌÎÍÏÎÌÏ>k__BackingField; // 0x120
-        public int <ÍÍÎÏÌÏÍÎÌÏÎÌÌÏÌÎÏÎÏÎÏÏÍ>k__BackingField; // 0x124
-        public int <ÎÎÌÌÏÌÌÌÎÍÍÍÍÍÏÍÏÏÍÌÍÍÌ>k__BackingField; // 0x128
-        public int <ÎÌÎÍÎÍÎÏÏÎÏÍÌÏÍÌÍÌÎÏÎÏÏ>k__BackingField; // 0x12C
-        public int <ÍÏÎÏÍÍÎÌÌÏÍÏÏÍÍÌÌÍÏÎÍÎÌ>k__BackingField; // 0x130
-        public int <ÌÌÏÌÎÏÌÍÍÌÌÏÌÍÎÍÌÌÌÍÌÏÍ>k__BackingField; // 0x134
-        public bool <ÏÍÎÎÎÎÍÎÌÌÎÍÏÌÎÍÍÏÎÏÍÍÍ>k__BackingField; // 0x138
-        public bool <ÌÌÍÏÍÍÌÎÌÌÎÎÏÌÏÎÌÍÎÏÌÍÌ>k__BackingField; // 0x139
-        public bool <ÍÍÍÏÏÌÌÍÎÍÌÏÍÌÏÎÌÎÏÏÍÍÏ>k__BackingField; // 0x13A
-        public bool <ÍÌÌÏÌÎÏÍÌÍÍÌÏÎÎÌÏÌÎÎÏÏÎ>k__BackingField; // 0x13B
-        public bool <ÏÎÌÎÏÎÎÎÌÌÏÌÌÎÎÍÎÎÏÍÏÌÏ>k__BackingField; // 0x13C
-        public bool <ÏÎÍÍÎÌÏÎÍÌÌÌÍÏÍÎÎÏÎÏÌÏÎ>k__BackingField; // 0x13D
-        public bool <ÏÎÌÌÌÍÎÎÌÏÏÏÎÍÎÎÎÏÌÏÎÏÍ>k__BackingField; // 0x13E
-        public bool <ÎÍÎÍÎÍÌÌÎÍÎÍÎÎÎÌÌÍÍÍÎÎÎ>k__BackingField; // 0x13F
-        public bool <ÏÏÍÌÏÌÎÎÍÎÎÌÎÍÍÏÍÏÍÍÍÍÏ>k__BackingField; // 0x140
-        public bool <ÏÌÌÎÏÏÍÌÌÌÍÌÍÎÍÌÎÍÏÌÏÍÌ>k__BackingField; // 0x141
-        public bool <ÎÌÎÌÏÎÍÍÏÏÍÎÎÌÎÍÏÎÏÏÏÍÎ>k__BackingField; // 0x142
-        public bool <ÍÌÎÍÍÏÎÌÍÏÎÍÍÌÍÏÍÍÏÌÌÌÏ>k__BackingField; // 0x143
-        public bool <ÎÏÏÏÍÍÏÎÌÌÎÍÌÌÏÏÌÌÌÍÌÎÎ>k__BackingField; // 0x144
-        public bool <ÏÏÏÍÌÏÏÎÎÎÍÎÏÌÎÍÌÌÏÍÏÎÏ>k__BackingField; // 0x145
-        public 0x664D0AA0 <ÌÍÍÍÌÎÎÎÌÎÍÍÍÎÏÎÌÎÌÍÌÎÍ>k__BackingField; // 0x148
-        public 0x664D0AF8 <ÏÎÌÏÌÏÎÌÏÌÏÎÌÎÏÌÎÍÎÌÍÎÎ>k__BackingField; // 0x14C
-        public bool <ÎÎÎÍÏÏÏÍÍÎÍÏÍÏÏÍÏÍÎÏÏÎÍ>k__BackingField; // 0x150
-        public bool <ÍÎÌÏÍÍÍÍÏÌÌÍÍÏÏÎÎÎÎÍÍÎÎ>k__BackingField; // 0x151
-        public bool <ÌÍÍÎÎÍÌÍÎÌÍÎÍÍÏÎÌÍÍÍÏÌÏ>k__BackingField; // 0x152
-        public float <ÏÎÏÍÎÍÏÍÎÌÍÎÍÏÌÎÍÎÏÎÌÌÎ>k__BackingField; // 0x154
-        public float <ÍÍÍÎÌÏÍÌÏÌÌÎÌÎÌÎÍÍÎÎÎÌÏ>k__BackingField; // 0x158
-        public float <ÏÏÎÏÍÎÏÎÌÌÏÏÌÎÌÎÍÏÏÌÎÏÍ>k__BackingField; // 0x15C
-        public float <ÏÎÍÌÌÌÌÌÌÏÎÎÌÌÌÏÎÍÍÏÍÎÎ>k__BackingField; // 0x160
-        public float <ÎÌÌÌÎÏÌÌÎÌÌÎÏÌÌÍÌÌÍÌÏÌÌ>k__BackingField; // 0x164
-        public 0x66360770 <ÏÏÏÏÎÍÎÍÏÏÌÍÍÏÌÎÏÏÌÏÌÌÍ>k__BackingField; // 0x168
-        public 0x663607C8 <ÏÎÎÌÎÏÏÌÎÏÏÏÎÎÏÏÎÍÍÍÏÎÍ>k__BackingField; // 0x16C
-        public bool ÌÏÍÍÍÏÎÍÎÍÎÍÎÎÏÏÏÌÎÎÏÌÍ; // 0x170
-        public 0x664D0B50 ÌÌÍÍÎÎÎÌÎÌÏÏÏÍÌÌÌÎÌÏÎÏÍ; // 0x174
-        public System.Lazy`1<string> ÌÏÌÍÏÎÎÌÎÌÍÎÌÏÌÍÎÎÎÎÎÍÎ; // 0x178
-        public System.Nullable`1<bool> ÎÎÏÌÏÏÏÏÎÍÌÍÌÍÍÌÎÍÎÏÏÎÌ; // 0x180
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> <ÌÎÎÌÌÌÎÌÌÌÌÍÏÌÎÍÍÌÏÎÌÎÏ>k__BackingField; // 0x1A8
-        public bool ÌÍÏÏÍÍÌÍÎÌÌÍÎÌÍÌÍÌÏÏÎÎÌ; // 0x182
-        public bool ÏÎÎÏÌÍÎÍÏÎÌÏÏÎÍÎÍÍÌÎÏÍÏ; // 0x183
-        public bool ÏÏÏÎÍÌÍÌÎÏÎÏÌÌÏÌÍÎÍÌÍÏÏ; // 0x184
-        public bool <ÏÏÏÏÌÏÏÌÌÏÍÍÏÎÍÍÌÍÎÎÍÍÎ>k__BackingField; // 0x185
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> ÌÍÌÍÎÍÏÌÍÌÌÌÎÌÏÎÍÍÌÍÍÏÌ; // 0x188
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> ÍÏÌÍÍÎÍÍÍÎÏÏÎÎÎÎÏÏÍÍÏÍÎ; // 0x190
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> ÌÍÌÎÏÌÍÎÍÌÎÌÍÏÍÎÏÎÎÌÎÎÏ; // 0x198
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> ÌÌÍÎÎÎÍÍÍÍÏÍÎÍÏÏÌÏÌÎÍÌÌ; // 0x1A0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> ÏÏÏÏÎÌÌÍÎÍÌÎÌÌÎÏÌÌÌÏÎÍÌ; // 0x1A8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> ÍÍÎÍÏÎÎÎÌÎÎÎÍÎÎÎÌÌÌÍÎÌÍ; // 0x1B0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664D0B50> ÎÏÏÌÎÏÍÎÎÎÎÌÎÎÎÎÍÌÏÏÏÌÏ; // 0x1B8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664D0BA8> ÎÍÎÏÌÎÎÎÏÎÏÎÎÌÎÏÍÎÌÍÌÍÎ; // 0x1C0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> ÏÌÎÏÎÌÌÌÏÏÎÍÎÌÏÌÏÌÎÎÎÍÏ; // 0x1C8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> ÌÎÎÏÏÏÏÏÏÌÏÏÍÍÎÍÎÎÏÍÎÏÌ; // 0x1D0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÎÎÍÍÍÌÌÌÍÍÌÌÏÍÎÎÏÍÍÏÌÏ>k__BackingField; // 0x1B0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÏÌÎÎÎÌÌÎÏÏÎÌÌÌÍÍÏÎÏÎÍÌ>k__BackingField; // 0x1B8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÌÍÍÌÎÍÌÏÎÌÏÏÍÌÎÎÎÍÍÏÎÎ>k__BackingField; // 0x1C0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÍÌÎÏÏÍÍÌÍÎÎÍÎÍÎÏÌÌÍÌÎÍ>k__BackingField; // 0x1C8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÎÏÌÎÎÎÎÌÌÎÏÎÌÎÏÌÎÍÌÌÍÌ>k__BackingField; // 0x1D0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÎÌÎÍÏÏÌÎÎÍÌÎÍÏÏÎÍÍÍÎÍÏÍ>k__BackingField; // 0x1D8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÌÏÌÌÎÎÏÌÍÍÍÍÎÏÍÏÎÍÍÎÏÌ>k__BackingField; // 0x1E0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÍÌÍÎÎÎÏÏÌÍÍÏÌÏÌÍÏÏÎÌÌÏ>k__BackingField; // 0x1E8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÏÌÏÏÍÍÎÏÌÌÍÍÍÎÎÏÎÌÌÌÍÍ>k__BackingField; // 0x1F0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÏÏÎÏÏÎÎÍÌÎÏÍÎÏÏÎÏÏÏÎÎÎ>k__BackingField; // 0x1F8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÎÎÍÍÏÌÌÏÌÎÌÎÌÏÍÎÍÏÌÎÎÌÏ>k__BackingField; // 0x200
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÍÎÎÏÌÎÎÏÍÎÎÎÎÎÌÌÏÍÌÌÎÏ>k__BackingField; // 0x208
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÍÏÏÎÎÍÎÏÎÎÍÍÎÎÎÎÍÌÏÌÎÎ>k__BackingField; // 0x210
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÎÏÌÍÎÎÏÌÍÎÏÍÎÍÎÍÌÌÍÏÎÍ>k__BackingField; // 0x218
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÏÏÌÎÍÌÏÎÏÎÎÍÏÎÍÎÍÏÏÎÏÏ>k__BackingField; // 0x220
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> <ÍÍÍÍÏÍÌÌÍÍÎÍÌÍÎÎÏÎÏÌÌÌÍ>k__BackingField; // 0x228
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÎÍÍÎÎÌÍÎÏÎÎÎÏÌÏÏÍÍÍÎÏÎ>k__BackingField; // 0x230
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÏÎÏÌÏÌÌÍÎÏÏÏÌÏÏÎÎÍÌÎÎÍÎ>k__BackingField; // 0x238
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÏÏÍÎÎÎÍÌÎÎÍÌÌÌÏÍÍÎÏÍÍÍÎ>k__BackingField; // 0x240
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÎÎÏÍÏÍÍÎÌÎÌÎÌÌÏÌÏÎÍÎÌÏ>k__BackingField; // 0x248
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÏÎÌÎÌÏÌÌÎÎÌÎÏÏÌÏÏÎÏÎÌÏ>k__BackingField; // 0x250
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÎÌÌÌÎÏÍÏÍÌÏÍÏÍÎÌÌÌÏÌÍÌÎ>k__BackingField; // 0x258
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÎÌÍÎÎÏÏÌÍÍÎÎÌÏÏÎÏÌÏÏÏÍÌ>k__BackingField; // 0x260
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664D0AA0> <ÎÌÏÎÏÍÍÍÎÎÏÌÍÎÍÏÍÎÏÌÌÍÎ>k__BackingField; // 0x268
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x664D0AF8> <ÌÎÎÍÌÌÍÎÏÌÍÌÏÎÍÍÌÍÎÎÎÍÏ>k__BackingField; // 0x270
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÏÏÍÎÍÏÌÌÍÎÍÏÍÏÌÏÎÎÎÎÏÏ>k__BackingField; // 0x278
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÏÌÏÎÍÍÌÏÍÍÍÍÍÏÍÏÍÍÏÏÏÎ>k__BackingField; // 0x280
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÏÏÌÍÏÏÎÎÏÍÍÎÎÎÎÎÎÌÏÌÍÍ>k__BackingField; // 0x288
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÍÏÌÌÏÏÎÍÍÎÎÍÏÏÍÎÌÎÎÏÎÍ>k__BackingField; // 0x290
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÌÍÍÏÍÏÏÏÎÏÏÌÍÏÍÍÍÍÌÏÍÏ>k__BackingField; // 0x298
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÎÌÌÏÏÍÍÎÍÏÎÏÏÍÍÌÌÎÌÍÏÌÍ>k__BackingField; // 0x2A0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÏÏÏÌÌÏÍÏÌÍÍÌÎÍÏÍÏÏÎÌÎÍ>k__BackingField; // 0x2A8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> <ÏÌÏÎÍÍÌÎÍÎÎÎÏÏÎÍÎÏÍÌÌÎÏ>k__BackingField; // 0x2B0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> <ÌÎÏÏÍÏÍÎÍÍÍÌÏÌÌÍÌÌÌÍÌÏÎ>k__BackingField; // 0x2B8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> <ÎÎÎÌÎÍÎÎÎÏÎÌÏÏÍÎÍÎÍÏÌÌÏ>k__BackingField; // 0x2C0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> <ÎÏÎÏÌÎÎÌÎÏÌÌÏÏÏÌÏÎÏÌÌÍÍ>k__BackingField; // 0x2C8
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> <ÍÏÏÍÌÎÍÍÍÌÎÏÍÌÎÌÍÎÌÌÌÏÏ>k__BackingField; // 0x2D0
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_3F7;
+        public object f_6CC;
+        public object f_7D8;
+        public object f_5F3;
+        public object f_FA3;
+        public object f_664;
+        public object f_F3D;
+        public object f_1B5;
+        public object f_9CE;
+        public object f_6C0;
+        public object f_0CA;
+        public object f_84B;
+        public object f_D3E;
+        public object f_E08;
+        public object f_212;
+        public object f_ED1;
+        public object f_F54;
+        public object f_223;
+        public object f_2C4;
+        public object f_627;
+        public object f_597;
+        public object f_2A5;
+        public object f_07F;
+        public object f_1EC;
+        public object f_5D2;
+        public object f_228;
+        public object f_6D3;
+        public object f_E62;
+        public object f_301;
+        public object f_0F9;
+        public object f_B0F;
+        public object f_9FE;
+        public object f_740;
+        public object f_0AC;
+        public object f_C69;
+        public object f_D6A;
+        public object f_11D;
+        public object f_D05;
+        public object f_88B;
+        public object f_29B;
+        public object f_064;
+        public object f_1A0;
+        public object f_9B1;
+        public object f_B5C;
+        public object f_B98;
+        public object f_0CC;
+        public object f_EF1;
+        public object f_496;
+        public object f_E9F;
+        public object f_665;
+        public object f_0A5;
+        public object f_873;
+        public object f_899;
+        public object f_189;
+        public object f_447;
+        public object f_085;
+        public object f_799;
+        public object f_7CC;
+        public object f_089;
+        public object f_3E0;
+        public object f_918;
+        public object f_D1E;
+        public object f_4D1;
+        public object f_561;
+        public object f_8EF;
+        public object f_310;
+        public object f_CD7;
+        public object f_34A;
+        public object f_BED;
+        public object f_085;
+        public object f_5BE;
+        public object f_2F2;
+        public object f_3DD;
+        public object f_6A2;
+        public object f_AC5;
+        public object f_401;
+        public object f_336;
+        public object f_C45;
+        public object f_D31;
+        public object f_42C;
+        public object f_52B;
+        public object f_195;
+        public object f_945;
+        public object f_F88;
+        public object f_663;
+        public object f_FCD;
+        public object f_1FF;
+        public object f_B06;
+        public object f_C9B;
+        public object f_CA3;
+        public object f_AF5;
+        public object f_2AE;
+        public object f_A52;
+        public object f_248;
+        public object f_E34;
+        public object f_38B;
+        public object f_559;
+        public object f_5FF;
+        public object f_1F7;
+        public object f_9B2;
+        public object f_451;
+        public object f_0D2;
+        public object f_A0A;
+        public object f_495;
+        public object f_3EA;
+        public object f_6C4;
+        public object f_35C;
+        public object f_E4C;
+        public object f_A80;
+        public object f_30B;
+        public object f_A35;
+        public object f_C88;
+        public object f_F6A;
+        public object f_D0D;
+        public object f_F92;
+        public object f_5D6;
+        public object f_CAA;
+        public object f_B35;
+        public object f_E72;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F3D65B0
@@ -4523,10 +4201,62 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÎÎÌÍÍÎÏÏÏÌÎÎÍÎÎÌÏÍÍÌ</summary>
     public class VRC_SecondarySiblingSibling_3F8B : Object
     {
-        public UnityEngine.Camera _name; // 0x10
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> _hideFlags; // 0x18
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_28F; // 0x20
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_FF6; // 0x28
+        public object _name;
+        public object _hideFlags;
+        public object f_28F;
+        public object f_FF6;
+        public object f_8B9;
+        public object f_D1E;
+        public object f_4FF;
+        public object f_21A;
+        public object f_6B6;
+        public object f_38B;
+        public object f_559;
+        public object f_5FF;
+        public object f_1F7;
+        public object f_9B2;
+        public object f_0A5;
+        public object f_CA3;
+        public object f_AF5;
+        public object f_873;
+        public object f_C9B;
+        public object f_F99;
+        public object f_561;
+        public object f_8EF;
+        public object f_310;
+        public object f_CD7;
+        public object f_34A;
+        public object f_BED;
+        public object f_085;
+        public object f_5BE;
+        public object f_2F2;
+        public object f_3DD;
+        public object f_6A2;
+        public object f_AC5;
+        public object f_401;
+        public object f_336;
+        public object f_C45;
+        public object f_A80;
+        public object f_D31;
+        public object f_42C;
+        public object f_52B;
+        public object f_195;
+        public object f_945;
+        public object f_F88;
+        public object f_10B;
+        public object f_663;
+        public object f_FCD;
+        public object f_1FF;
+        public object f_B06;
+        public object f_2AE;
+        public object f_A52;
+        public object f_248;
+        public object f_E34;
+        public object f_375;
+        public object f_083;
+        public object f_778;
+        public object f_AFB;
+        public object f_639;
 
         // ── Methods ──
         public void GetMaxDampTime(){} // RVA: 0x7FFD4EB632E0
@@ -4786,13 +4516,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÍÎÍÎÎÏÎÍÌÏÌÍÍÎÏÎÍÌÎÍ</summary>
     public class VRC_UiShapeDerived_48D9 : VRC_UiShape
     {
-        public int ÎÏÌÎÏÎÌÍÏÏÎÎÏÏÍÏÏÍÏÎÏÌÍ; // 0x48
-        public int ÎÎÍÎÌÌÍÌÏÏÍÎÏÎÍÌÌÏÎÌÍÏÍ; // 0x4C
-        public float ÎÏÍÍÏÏÎÎÏÌÌÌÌÏÏÎÍÎÏÌÌÎÌ; // 0x50
-        public float ÌÌÏÎÌÎÍÎÏÏÍÌÏÌÎÌÎÏÍÌÍÏÌ; // 0x54
-        public int ÏÌÍÎÌÌÍÍÎÍÌÎÏÎÌÍÎÎÎÍÌÍÎ; // 0x58
-        public UnityEngine.Vector2 ÎÎÎÍÍÌÍÎÍÍÏÌÎÍÎÎÎÏÎÎÎÍÍ; // 0x5C
-
         // ── Methods ──
         public void InitializeNetworkState(){} // RVA: 0x7FFD4F70E710
         public void InitializeNetworkStateCtor(){} // RVA: 0x7FFD4F70E740

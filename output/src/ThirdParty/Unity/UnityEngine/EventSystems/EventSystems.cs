@@ -18,8 +18,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class AxisEventData : BaseEventData
     {
-        public UnityEngine.Vector2 moveVector; // 0x20
-        public 0x665ACCB0 moveDir; // 0x28
+        public tionX moveVector; // 0x20
+        public moryFailure.in moveDir; // 0x28
 
         // ── Methods ──
         public void get_moveVector(){} // RVA: 0x7FFD4EB2B780
@@ -31,7 +31,7 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class BaseEventData : AbstractEventData
     {
-        public UnityEngine.EventSystems.EventSystem currentInputModule; // 0x18
+        public moryFailure.CanvasElementForLayoutRebuild currentInputModule; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3A7E80
@@ -73,13 +73,13 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class BaseInputModule : UIBehaviour
     {
-        public System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> sendPointerHoverToParent; // 0x20
+        public URA.woDigitYearMax<moryFailure.priteMesh> sendPointerHoverToParent; // 0x20
         public bool input; // 0x28
-        public UnityEngine.EventSystems.AxisEventData inputOverride; // 0x30
-        public UnityEngine.EventSystems.EventSystem eventSystem; // 0x38
-        public UnityEngine.EventSystems.BaseEventData m_BaseEventData; // 0x40
-        public UnityEngine.EventSystems.BaseInput m_InputOverride; // 0x48
-        public UnityEngine.EventSystems.BaseInput m_DefaultInput; // 0x50
+        public moryFailure.en>>.Remove inputOverride; // 0x30
+        public moryFailure.CanvasElementForLayoutRebuild eventSystem; // 0x38
+        public moryFailure..Newtonsoft.Json.Linq.JToken>.Values m_BaseEventData; // 0x40
+        public moryFailure._BackingField m_InputOverride; // 0x48
+        public moryFailure._BackingField m_DefaultInput; // 0x50
 
         // ── Methods ──
         public void get_sendPointerHoverToParent(){} // RVA: 0x7FFD4E516BA0
@@ -109,7 +109,7 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class BaseRaycaster : UIBehaviour
     {
-        public UnityEngine.EventSystems.BaseRaycaster eventCamera; // 0x20
+        public moryFailure.in eventCamera; // 0x20
 
         // ── Methods ──
         public void Raycast(){} // RVA: 0x7FFD4E099B30
@@ -128,18 +128,18 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class EventSystem : UIBehaviour
     {
-        public System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule> current; // 0x20
-        public UnityEngine.EventSystems.BaseInputModule sendNavigationEvents; // 0x28
-        public System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> pixelDragThreshold;
-        public UnityEngine.GameObject currentInputModule; // 0x30
+        public URA.woDigitYearMax<moryFailure.jects> current; // 0x20
+        public moryFailure.jects sendNavigationEvents; // 0x28
+        public URA.woDigitYearMax<moryFailure.CanvasElementForLayoutRebuild> pixelDragThreshold;
+        public BuffersImpl currentInputModule; // 0x30
         public bool firstSelectedGameObject; // 0x38
         public int currentSelectedGameObject; // 0x3C
-        public UnityEngine.GameObject lastSelectedGameObject; // 0x40
+        public BuffersImpl lastSelectedGameObject; // 0x40
         public bool isFocused; // 0x48
         public bool alreadySelecting; // 0x49
-        public UnityEngine.EventSystems.BaseEventData baseEventDataCache; // 0x50
-        public System.Comparison`1<UnityEngine.EventSystems.RaycastResult> isUIToolkitActiveEventSystem; // 0x8
-        public 0x665AC680 sendUIToolkitEvents; // 0x10
+        public moryFailure..Newtonsoft.Json.Linq.JToken>.Values baseEventDataCache; // 0x50
+        public ation<moryFailure.priteMesh> isUIToolkitActiveEventSystem; // 0x8
+        public mentSize sendUIToolkitEvents; // 0x10
         public bool createUIToolkitPanelGameObjectsOnStart; // 0x58
         public bool m_IsTrackingUIToolkitPanels; // 0x59
 
@@ -184,7 +184,7 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class EventTrigger : MonoBehaviour
     {
-        public System.Collections.Generic.List`1<0x665AC7E0> delegates; // 0x20
+        public URA.woDigitYearMax<?> delegates; // 0x20
 
         // ── Methods ──
         public void get_delegates(){} // RVA: 0x7FFD5509F790
@@ -214,25 +214,25 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class ExecuteEvents : Object
     {
-        public EventFunction`1<UnityEngine.EventSystems.IPointerMoveHandler> pointerMoveHandler;
-        public EventFunction`1<UnityEngine.EventSystems.IPointerEnterHandler> pointerEnterHandler; // 0x8
-        public EventFunction`1<UnityEngine.EventSystems.IPointerExitHandler> pointerExitHandler; // 0x10
-        public EventFunction`1<UnityEngine.EventSystems.IPointerDownHandler> pointerDownHandler; // 0x18
-        public EventFunction`1<UnityEngine.EventSystems.IPointerUpHandler> pointerUpHandler; // 0x20
-        public EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler> pointerClickHandler; // 0x28
-        public EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler> initializePotentialDrag; // 0x30
-        public EventFunction`1<UnityEngine.EventSystems.IBeginDragHandler> beginDragHandler; // 0x38
-        public EventFunction`1<UnityEngine.EventSystems.IDragHandler> dragHandler; // 0x40
-        public EventFunction`1<UnityEngine.EventSystems.IEndDragHandler> endDragHandler; // 0x48
-        public EventFunction`1<UnityEngine.EventSystems.IDropHandler> dropHandler; // 0x50
-        public EventFunction`1<UnityEngine.EventSystems.IScrollHandler> scrollHandler; // 0x58
-        public EventFunction`1<UnityEngine.EventSystems.IUpdateSelectedHandler> updateSelectedHandler; // 0x60
-        public EventFunction`1<UnityEngine.EventSystems.ISelectHandler> selectHandler; // 0x68
-        public EventFunction`1<UnityEngine.EventSystems.IDeselectHandler> deselectHandler; // 0x70
-        public EventFunction`1<UnityEngine.EventSystems.IMoveHandler> moveHandler; // 0x78
-        public EventFunction`1<UnityEngine.EventSystems.ISubmitHandler> submitHandler; // 0x80
-        public EventFunction`1<UnityEngine.EventSystems.ICancelHandler> cancelHandler; // 0x88
-        public System.Collections.Generic.List`1<UnityEngine.Transform> s_InternalTransformList; // 0x90
+        public eshGeneration>k__BackingField<moryFailure.et_onClick> pointerMoveHandler;
+        public eshGeneration>k__BackingField<moryFailure.ubmit> pointerEnterHandler; // 0x8
+        public eshGeneration>k__BackingField<moryFailure.ck> pointerExitHandler; // 0x10
+        public eshGeneration>k__BackingField<moryFailure.t> pointerDownHandler; // 0x18
+        public eshGeneration>k__BackingField<moryFailure._9> pointerUpHandler; // 0x20
+        public eshGeneration>k__BackingField<moryFailure.<elapsedTime>5__3> pointerClickHandler; // 0x28
+        public eshGeneration>k__BackingField<moryFailure.t> initializePotentialDrag; // 0x30
+        public eshGeneration>k__BackingField<moryFailure.vasUpdate> beginDragHandler; // 0x38
+        public eshGeneration>k__BackingField<moryFailure.nder> dragHandler; // 0x40
+        public eshGeneration>k__BackingField<moryFailure.eValue> endDragHandler; // 0x48
+        public eshGeneration>k__BackingField<moryFailure.ement> dropHandler; // 0x50
+        public eshGeneration>k__BackingField<moryFailure.ng> scrollHandler; // 0x58
+        public eshGeneration>k__BackingField<moryFailure.CanvasUpdateRegistry> updateSelectedHandler; // 0x60
+        public eshGeneration>k__BackingField<moryFailure.jectValidForUpdate> selectHandler; // 0x68
+        public eshGeneration>k__BackingField<moryFailure.ate> deselectHandler; // 0x70
+        public eshGeneration>k__BackingField<moryFailure.tems> moveHandler; // 0x78
+        public eshGeneration>k__BackingField<moryFailure.unt> submitHandler; // 0x80
+        public eshGeneration>k__BackingField<moryFailure.ist> cancelHandler; // 0x88
+        public URA.woDigitYearMax<?> s_InternalTransformList; // 0x90
 
         // ── Methods ──
         public void ValidateEventData(){} // RVA: 0x7FFD4E2ADC40
@@ -378,10 +378,10 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class OVRInputModule : PointerInputModule
     {
-        public UnityEngine.Transform inputMode; // 0x68
-        public OVRCursor allowActivationOnMobileDevice; // 0x70
-        public 0x66503F28 inputActionsPerSecond; // 0x78
-        public 0x664DD1A8 horizontalAxis; // 0x7C
+        public object inputMode; // 0x68
+        public t_R allowActivationOnMobileDevice; // 0x70
+        public object inputActionsPerSecond; // 0x78
+        public Flag horizontalAxis; // 0x7C
         public bool verticalAxis; // 0x80
         public bool submitButton; // 0x81
         public float cancelButton; // 0x84
@@ -389,20 +389,20 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
         public float swipeDragThreshold; // 0x8C
         public float swipeDragScale; // 0x90
         public bool InvertSwipeXAxis; // 0x94
-        public OVRRaycaster activeGraphicRaycaster; // 0x98
+        public gTransformRawPose activeGraphicRaycaster; // 0x98
         public float angleDragThreshold; // 0xA0
         public float m_SpherecastRadius; // 0xA4
         public float m_NextAction; // 0xA8
-        public UnityEngine.Vector2 m_LastMousePosition; // 0xAC
-        public UnityEngine.Vector2 m_MousePosition; // 0xB4
+        public tionX m_LastMousePosition; // 0xAC
+        public tionX m_MousePosition; // 0xB4
         public string m_HorizontalAxis; // 0xC0
         public string m_VerticalAxis; // 0xC8
         public string m_SubmitButton; // 0xD0
         public string m_CancelButton; // 0xD8
         public float m_InputActionsPerSecond; // 0xE0
         public bool m_AllowActivationOnMobileDevice; // 0xE4
-        public System.Collections.Generic.Dictionary`2<int,UnityEngine.EventSystems.OVRPointerEventData> m_VRRayPointerData; // 0xE8
-        public MouseState m_MouseState; // 0xF0
+        public URA.DateTime<int,moryFailure.onTransition_WaitingForExternalLaunch> m_VRRayPointerData; // 0xE8
+        public evicePaired m_MouseState; // 0xF0
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DA97A0
@@ -450,7 +450,7 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
     public class OVRPhysicsRaycaster : BaseRaycaster
     {
         public int eventCamera;
-        public UnityEngine.LayerMask depth; // 0x28
+        public object depth; // 0x28
         public int sortOrderPriority; // 0x2C
 
         // ── Methods ──
@@ -468,8 +468,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class OVRPointerEventData : PointerEventData
     {
-        public UnityEngine.Ray worldSpaceRay; // 0x180
-        public UnityEngine.Vector2 swipeStart; // 0x198
+        public ed worldSpaceRay; // 0x180
+        public tionX swipeStart; // 0x198
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DB0190
@@ -478,7 +478,7 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class Physics2DRaycaster : PhysicsRaycaster
     {
-        public UnityEngine.RaycastHit2D[] m_Hits; // 0x48
+        public Rate[] m_Hits; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F689B50
@@ -488,11 +488,11 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
     public class PhysicsRaycaster : BaseRaycaster
     {
         public int eventCamera;
-        public UnityEngine.Camera depth; // 0x28
-        public UnityEngine.LayerMask finalEventMask; // 0x30
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ depth; // 0x28
+        public object finalEventMask; // 0x30
         public int eventMask; // 0x34
         public int maxRayIntersections; // 0x38
-        public UnityEngine.RaycastHit[] m_Hits; // 0x40
+        public ColorScaleAndOffset[] m_Hits; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F689B50
@@ -509,38 +509,38 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class PointerEventData : BaseEventData
     {
-        public UnityEngine.GameObject pointerEnter; // 0x20
-        public UnityEngine.GameObject lastPress; // 0x28
-        public UnityEngine.GameObject rawPointerPress; // 0x30
-        public UnityEngine.GameObject pointerDrag; // 0x38
-        public UnityEngine.GameObject pointerClick; // 0x40
-        public UnityEngine.GameObject pointerCurrentRaycast; // 0x48
-        public UnityEngine.EventSystems.RaycastResult pointerPressRaycast; // 0x50
-        public UnityEngine.EventSystems.RaycastResult eligibleForClick; // 0xA0
-        public System.Collections.Generic.List`1<UnityEngine.GameObject> displayIndex; // 0xF0
+        public BuffersImpl pointerEnter; // 0x20
+        public BuffersImpl lastPress; // 0x28
+        public BuffersImpl rawPointerPress; // 0x30
+        public BuffersImpl pointerDrag; // 0x38
+        public BuffersImpl pointerClick; // 0x40
+        public BuffersImpl pointerCurrentRaycast; // 0x48
+        public moryFailure.priteMesh pointerPressRaycast; // 0x50
+        public moryFailure.priteMesh eligibleForClick; // 0xA0
+        public URA.woDigitYearMax<BuffersImpl> displayIndex; // 0xF0
         public bool pointerId; // 0xF8
         public int position; // 0xFC
         public int delta; // 0x100
-        public UnityEngine.Vector2 pressPosition; // 0x104
-        public UnityEngine.Vector2 worldPosition; // 0x10C
-        public UnityEngine.Vector2 worldNormal; // 0x114
-        public UnityEngine.Vector3 clickTime; // 0x11C
-        public UnityEngine.Vector3 clickCount; // 0x128
+        public tionX pressPosition; // 0x104
+        public tionX worldPosition; // 0x10C
+        public tionX worldNormal; // 0x114
+        public amut clickTime; // 0x11C
+        public amut clickCount; // 0x128
         public float scrollDelta; // 0x134
         public int useDragThreshold; // 0x138
-        public UnityEngine.Vector2 dragging; // 0x13C
+        public tionX dragging; // 0x13C
         public bool button; // 0x144
         public bool pressure; // 0x145
-        public 0x665ABE98 tangentialPressure; // 0x148
+        public ighlightedTrigger tangentialPressure; // 0x148
         public float altitudeAngle; // 0x14C
         public float azimuthAngle; // 0x150
         public float twist; // 0x154
         public float tilt; // 0x158
         public float penStatus; // 0x15C
-        public UnityEngine.Vector2 radius; // 0x160
-        public 0x66639160 radiusVariance; // 0x168
-        public UnityEngine.Vector2 fullyExited; // 0x16C
-        public UnityEngine.Vector2 reentered; // 0x174
+        public tionX radius; // 0x160
+        public aycast.PopulateRaycastCommand radiusVariance; // 0x168
+        public tionX fullyExited; // 0x16C
+        public tionX reentered; // 0x174
         public bool enterEventCamera; // 0x17C
         public bool pressEventCamera; // 0x17D
 
@@ -625,8 +625,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
         public int kMouseRightId;
         public int kMouseMiddleId;
         public int kFakeTouchesId;
-        public System.Collections.Generic.Dictionary`2<int,UnityEngine.EventSystems.PointerEventData> m_PointerData; // 0x58
-        public MouseState m_MouseState; // 0x60
+        public URA.DateTime<int,moryFailure.String,Valve.Newtonsoft.Json.Linq.JToken>>.IsReadOnly> m_PointerData; // 0x58
+        public evicePaired m_MouseState; // 0x60
 
         // ── Methods ──
         public void GetPointerData(){} // RVA: 0x7FFD550A4050
@@ -648,8 +648,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class RaycastResult : ValueType
     {
-        public UnityEngine.GameObject gameObject; // 0x10
-        public UnityEngine.EventSystems.BaseRaycaster isValid; // 0x18
+        public BuffersImpl gameObject; // 0x10
+        public moryFailure.in isValid; // 0x18
         public float distance; // 0x20
         public float index; // 0x24
         public int depth; // 0x28
@@ -657,9 +657,9 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
         public int sortingGroupOrder; // 0x30
         public int sortingLayer; // 0x34
         public int sortingOrder; // 0x38
-        public UnityEngine.Vector3 worldPosition; // 0x3C
-        public UnityEngine.Vector3 worldNormal; // 0x48
-        public UnityEngine.Vector2 screenPosition; // 0x54
+        public amut worldPosition; // 0x3C
+        public amut worldNormal; // 0x48
+        public tionX screenPosition; // 0x54
         public int displayIndex; // 0x5C
 
         // ── Methods ──
@@ -672,7 +672,7 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class RaycasterManager : Object
     {
-        public System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> s_Raycasters;
+        public URA.woDigitYearMax<moryFailure.in> s_Raycasters;
 
         // ── Methods ──
         public void AddRaycaster(){} // RVA: 0x7FFD550AB2A0
@@ -684,12 +684,12 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
     public class StandaloneInputModule : PointerInputModule
     {
         public float inputMode; // 0x68
-        public UnityEngine.Vector2 allowActivationOnMobileDevice; // 0x6C
+        public tionX allowActivationOnMobileDevice; // 0x6C
         public int forceModuleActive; // 0x74
-        public UnityEngine.Vector2 inputActionsPerSecond; // 0x78
-        public UnityEngine.Vector2 repeatDelay; // 0x80
-        public UnityEngine.GameObject horizontalAxis; // 0x88
-        public UnityEngine.EventSystems.PointerEventData verticalAxis; // 0x90
+        public tionX inputActionsPerSecond; // 0x78
+        public tionX repeatDelay; // 0x80
+        public BuffersImpl horizontalAxis; // 0x88
+        public moryFailure.String,Valve.Newtonsoft.Json.Linq.JToken>>.IsReadOnly verticalAxis; // 0x90
         public float submitButton;
         public string cancelButton; // 0x98
         public string m_VerticalAxis; // 0xA0
@@ -739,9 +739,9 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class TouchInputModule : PointerInputModule
     {
-        public UnityEngine.Vector2 allowActivationOnStandalone; // 0x68
-        public UnityEngine.Vector2 forceModuleActive; // 0x70
-        public UnityEngine.EventSystems.PointerEventData m_InputPointerEvent; // 0x78
+        public tionX allowActivationOnStandalone; // 0x68
+        public tionX forceModuleActive; // 0x70
+        public moryFailure.String,Valve.Newtonsoft.Json.Linq.JToken>>.IsReadOnly m_InputPointerEvent; // 0x78
         public bool m_ForceModuleActive; // 0x80
 
         // ── Methods ──

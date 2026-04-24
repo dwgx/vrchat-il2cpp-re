@@ -10,7 +10,7 @@ namespace VRC.SDKBase.Validation.Performance.Scanners
         public int MAXIMUM_COMPONENT_SCANS_PER_FRAME;
         public int _componentScansThisFrame;
         public int _componentScansFrameNumber; // 0x4
-        public System.Collections.Generic.Stack`1<System.Collections.IEnumerator> _coroutines; // 0x10
+        public URA.leEastFrench<mePatterns.e> _coroutines; // 0x10
         public bool _limitComponentScansPerFrame; // 0x18
 
         // ── Methods ──

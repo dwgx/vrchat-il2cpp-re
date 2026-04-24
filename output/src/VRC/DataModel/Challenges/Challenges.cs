@@ -21,9 +21,9 @@ namespace VRC.DataModel.Challenges
     {
         public string Icon; // 0x10
         public string ID; // 0x18
-        public 0x664D47D0 Progress; // 0x20
-        public 0x664D46C8 Status; // 0x28
-        public 0x664D4778 Title; // 0x30
+        public object Progress; // 0x20
+        public object Status; // 0x28
+        public object Title; // 0x30
         public string ProgressCriteria; // 0x38
 
         // ── Methods ──

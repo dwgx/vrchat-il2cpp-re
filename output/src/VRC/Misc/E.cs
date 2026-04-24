@@ -26,7 +26,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÌÎÏÍÎÌÍÍÍÍÌÏÎÏÏÎÎÌÎÏÌ</summary>
     public class EncodingWrite_6BB1 : TextWriter
     {
-        public System.Text.StringBuilder _encoding; // 0x30
+        public object _encoding;
 
         // ── Methods ──
         public void Write(){} // RVA: 0x7FFD4F355600 | overloaded x3
@@ -38,8 +38,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÌÌÏÌÏÏÍÏÏÍÏÍÍÌÎÌÏÎÌÎ</summary>
     public class EventArgsDerived_DEFB : EventArgs
     {
-        public UnityEngine.RaycastHit ÌÌÏÎÎÎÎÍÍÌÍÍÍÍÎÏÍÌÍÎÏÍÎ; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E4ECD80
     }
@@ -47,11 +45,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÎÌÍÍÎÌÌÎÌÍÍÏÏÍÍÎÏÌÎÎ</summary>
     public class EventReplicator2Derived_2D6D : EventReplicator`2
     {
-        public ÍÏÍÍÌÍÍÍÍÍÌÎÎÏÎÌÎÍÌÍÏÍÏ ÏÎÏÍÌÏÌÏÏÍÌÏÏÎÏÏÎÍÍÎÍÏÎ; // 0x78
-        public VRC.Profiling.ProfilerMarker ÎÎÍÎÎÍÌÍÌÎÎÎÍÎÏÍÏÏÎÏÍÍÏ; // 0x80
-        public VRC.Profiling.ProfilerMarker ÍÎÏÍÎÍÏÏÏÏÍÎÎÍÏÍÍÏÎÌÍÎÍ; // 0x90
-        public VRC.Profiling.ProfilerMarker ÍÏÌÍÏÏÍÍÌÏÍÏÎÏÏÌÏÍÍÏÏÍÎ; // 0xA0
-
         // ── Methods ──
         public void Replicate(){} // RVA: 0x7FFD4F2695D0
         public void OnDisable(){} // RVA: 0x7FFD4F269630
@@ -77,8 +70,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÎÌÏÌÎÎÏÌÍÎÎÏÎÎÌÍÏÎÎÏ</summary>
     public class ExceptionDerived_2517 : Exception
     {
-        public 0x66377E78 ÎÎÌÎÏÌÌÏÌÌÍÏÏÍÎÌÎÏÌÎÌÎÎ; // 0x90
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F987850
     }
@@ -93,8 +84,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÏÍÎÌÎÌÍÍÍÌÌÍÌÏÍÍÍÍÌÏ</summary>
     public class ExceptionDerived_8DBB : Exception
     {
-        public short ÏÍÍÌÏÏÌÌÍÍÏÍÍÍÌÌÎÏÍÌÌÍÌ; // 0x90
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F9879B0
     }
@@ -116,8 +105,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÌÎÍÎÌÎÍÍÌÎÏÎÍÍÍÏÏÏÎÌ</summary>
     public class ExceptionDerived_A59B : Exception
     {
-        public 0x66635068 _message; // 0x90
-        public 0x663866D8 _data; // 0x94
+        public object _message;
+        public object _data;
 
         // ── Methods ──
         public void Operator(){} // RVA: 0x7FFD4E640660
@@ -136,7 +125,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÍÏÏÍÌÌÌÎÌÎÌÏÏÍÍÍÍÎÍÌÎ</summary>
     public class ExceptionDerived_CE95 : Exception
     {
-        public 0x6636EC60 _cE95; // 0x90
+        public object _cE95;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F840340 | overloaded x2
@@ -168,9 +157,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÍÌÏÍÍÌÍÏÌÍÎÌÍÎÎÍÍÌÌÍÌ</summary>
     public class Execute_B105 : VRCCustomAction
     {
-        public string ÍÏÏÎÍÍÌÌÍÏÎÏÍÎÎÏÍÏÍÏÏÏÎ; // 0x20
-        public string ÌÌÏÍÌÍÌÌÌÏÏÎÍÎÌÌÎÎÏÍÏÎÌ; // 0x28
-
         // ── Methods ──
         public void Execute(){} // RVA: 0x7FFD4F7F0270
         public void .ctor(){} // RVA: 0x7FFD4F7F0390
@@ -179,10 +165,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÏÎÎÏÏÏÌÏÎÎÎÌÏÌÌÌÎÏÍÏ</summary>
     public class Execute_EF9D : ValueType
     {
-        public Unity.Collections.NativeArray`1<ÏÍÏÌÎÏÍÍÌÌÌÍÍÌÍÌÌÍÏÍÎÌÏ> ÎÍÍÎÏÌÍÎÏÏÍÎÌÌÌÍÏÍÎÎÎÌÏ; // 0x10
-        public UnityEngine.Vector3 ÍÍÍÏÍÎÏÌÍÏÏÏÍÏÎÌÍÎÍÍÎÌÏ; // 0x20
-        public int ÎÎÌÎÍÌÍÎÎÏÍÏÌÌÎÌÍÎÍÍÎÌÏ; // 0x2C
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EF728F0
         public void InternalEquals(){} // RVA: 0x7FFD4EF728F0
@@ -195,8 +177,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÌÌÏÌÏÌÎÎÌÍÏÎÌÌÏÍÌÍÍÌÌ</summary>
     public class Execute_FD7A : ValueType
     {
-        public Unity.Collections.NativeArray`1<ÏÍÏÌÎÏÍÍÌÌÌÍÍÌÍÌÌÍÏÍÎÌÏ> ÎÍÍÎÏÌÍÎÏÏÍÎÌÌÌÍÏÍÎÎÎÌÏ; // 0x10
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EF72A80
         public void InternalEquals(){} // RVA: 0x7FFD4EF72A80
@@ -225,9 +205,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÍÎÎÎÍÍÏÌÌÌÏÏÍÌÏÎÏÌÏ</summary>
     public class ExtrapolateInterpolate_592D : TweenableValue`1
     {
-        public ÍÎÎÎÍÎÍÏÏÌÎÍÎÏÏÏÎÏÏÎÏÎÎ[] ÎÍÍÏÏÌÏÌÏÎÌÎÌÎÍÏÌÎÍÎÌÎÍ; // 0x40
-        public object[] ÎÌÍÍÌÌÌÍÌÎÏÎÏÏÏÌÎÎÎÍÌÎÌ; // 0x48
-
         // ── Methods ──
         public void get_Time(){} // RVA: 0x7FFD4EE8B0A0 | overloaded x10
         public void set_Time(){} // RVA: 0x7FFD4EE85340

@@ -15,19 +15,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
     {
         public long durationMs;
         public int easingCurve;
-        public System.Func`2<float,float> isRunning;
+        public n<float,float> isRunning;
         public bool onAnimationCompleted;
-        public System.Action autoRecycle;
+        public ÎÌÍÏÏÌÍÏ autoRecycle;
         public bool recycled;
         public bool owner;
-        public UnityEngine.UIElements.ObjectPool`1<UnityEngine.UIElements.Experimental.ValueAnimation`1<T>> valueUpdated;
-        public UnityEngine.UIElements.VisualElement initialValue;
-        public System.Action`2<UnityEngine.UIElements.VisualElement,T> interpolator;
-        public System.Func`2<UnityEngine.UIElements.VisualElement,T> from;
-        public System.Func`4<T,T,float,T> to;
-        public T _from;
+        public ÎÏÌÎÎÎÌÌÌ.gContentId<ileDrawChainBegin.ementStride<T1717597344>> valueUpdated;
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius initialValue;
+        public rectoryInformation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius,T1717597344> interpolator;
+        public n<ÎÏÌÎÎÎÌÌÌ.omLeftRadius,T1717597344> from;
+        public rmation<T1717597344,T1717597344,float,T1717597344> to;
+        public T1717597344 _from;
         public bool fromValueSet;
-        public T <to>k__BackingField;
+        public T1717597344 <to>k__BackingField;
 
         // ── Methods ──
         public void get_durationMs(){} // RVA: 0x7FFD4E079960

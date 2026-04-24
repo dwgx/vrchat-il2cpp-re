@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 {
     public class AbstractPurchasingModule : Object
     {
-        public UnityEngine.Purchasing.Extension.IPurchasingBinder m_Binder; // 0x10
+        public ra.0 m_Binder; // 0x10
 
         // ── Methods ──
         public void Configure(){} // RVA: 0x7FFD4E090980 | overloaded x2
@@ -76,8 +76,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
     public class ProductDescription : Object
     {
         public string storeSpecificId; // 0x10
-        public 0x66622450 metadata; // 0x18
-        public UnityEngine.Purchasing.ProductMetadata receipt; // 0x20
+        public ing.t_verification_uri metadata; // 0x18
+        public ing.ÎÎÏÏÏÎÏÎÏÎÎÌÍÍÌ receipt; // 0x20
         public string transactionId; // 0x28
         public string <transactionId>k__BackingField; // 0x30
 
@@ -96,7 +96,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
     public class PurchaseFailureDescription : Object
     {
         public string productId; // 0x10
-        public 0x66622500 reason; // 0x18
+        public ing.Factor reason; // 0x18
         public string message; // 0x20
 
         // ── Methods ──
@@ -111,10 +111,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class UnityUtil : MonoBehaviour
     {
-        public System.Collections.Generic.List`1<System.Action> currentTime;
+        public URA.woDigitYearMax<ÎÌÍÏÏÌÍÏ> currentTime;
         public bool persistentDataPath; // 0x8
-        public System.Collections.Generic.List`1<0x664D9580> deviceUniqueIdentifier; // 0x10
-        public System.Collections.Generic.List`1<System.Action`1<bool>> unityVersion; // 0x20
+        public URA.woDigitYearMax<?> deviceUniqueIdentifier; // 0x10
+        public URA.woDigitYearMax<ileFullDirectoryInformation<bool>> unityVersion; // 0x20
 
         // ── Methods ──
         public void GetAnyComponentsOfType(){} // RVA: 0x7FFD4E078E90

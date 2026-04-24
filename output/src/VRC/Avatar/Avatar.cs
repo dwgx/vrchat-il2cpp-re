@@ -21,11 +21,8 @@ namespace VRC.Avatar
     /// <summary>Originally: ÏÎÎÍÏÍÎÍÍÏÌÍÎÏÍÌÎÏÎÍÍÎÏ</summary>
     public class AvatarParameterEnumerator_27C5 : Object
     {
-        public int System.Collections.Generic.IEnumerator<VRC.Playables.AvatarParameter>.Current; // 0x10
-        public ÏÎÏÌÌÌÏÍÍÌÍÎÍÌÏÍÎÏÌÍÎÎÍ System.Collections.IEnumerator.Current; // 0x18
-        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ; // 0x20
-        public ÌÎÌÌÍÌÏÏÍÎÏÏÏÍÌÌÎÎÍÌÏÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public Enumerator<int,ÏÎÏÌÌÌÏÍÍÌÍÎÍÌÏÍÎÏÌÍÎÎÍ> ÍÍÎÏÎÍÍÌÌÍÍÌÍÎÎÍÌÎÌÏÎÌÏ; // 0x30
+        public object System.Collections.Generic.IEnumerator<VRC.Playables.AvatarParameter>.Current;
+        public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E69C1D0
@@ -47,75 +44,24 @@ namespace VRC.Avatar
     /// <summary>Originally: ÎÏÎÏÌÌÍÎÍÍÎÍÍÌÍÍÍÌÌÍÏÍÌ</summary>
     public class AvatarPickupUseDownPickup_640A : VRC_Interactable
     {
-        public float f_A35;
-        public bool Index; // 0x40
-        public int PathIndex; // 0x44
-        public int FocalDistance; // 0x48
-        public float Aperture; // 0x4C
-        public float Hue; // 0x50
-        public float Saturation; // 0x54
-        public float Lightness; // 0x58
-        public float LookAtMeXOffset; // 0x5C
-        public float LookAtMeYOffset; // 0x60
-        public float Zoom; // 0x64
-        public float Exposure; // 0x68
-        public float Speed; // 0x6C
-        public float Duration; // 0x70
-        public float Position; // 0x74
-        public ÎÍÏÏÏÏÌÌÏÏÍÏÎÏÏÌÏÏÏÎÍÏÏ Rotation; // 0x78
-        public UnityEngine.Transform f_523; // 0x80
-        public UnityEngine.Transform f_D7B; // 0x88
-        public UnityEngine.Transform ÎÌÍÎÌÍÎÏÌÏÍÏÌÎÏÌÌÏÎÏÍÍÍ; // 0x90
-        public UnityEngine.Transform ÍÏÍÏÎÌÏÎÍÏÏÍÏÎÍÌÏÎÏÏÍÏÍ; // 0x98
-        public System.Collections.Generic.List`1<UnityEngine.Vector3> ÎÏÌÎÏÌÍÍÏÏÏÌÎÌÎÍÌÎÏÏÏÍÍ; // 0xA0
-        public UnityEngine.UI.Slider SpeedSlider; // 0xA8
-        public UnityEngine.UI.Slider DurationSlider; // 0xB0
-        public UnityEngine.UI.Slider ZoomSlider; // 0xB8
-        public UnityEngine.UI.Slider ExposureSlider; // 0xC0
-        public UnityEngine.UI.Slider FocalDistanceSlider; // 0xC8
-        public UnityEngine.UI.Slider ApertureSlider; // 0xD0
-        public UnityEngine.UI.Slider LookAtMeXOffsetSlider; // 0xD8
-        public UnityEngine.UI.Slider LookAtMeYOffsetSlider; // 0xE0
-        public UnityEngine.UI.Slider HueSlider; // 0xE8
-        public UnityEngine.UI.Slider LightnessSlider; // 0xF0
-        public UnityEngine.UI.Slider SaturationSlider; // 0xF8
-        public UnityEngine.UI.Button MotionFoldout; // 0x100
-        public UnityEngine.UI.Button FocusFoldout; // 0x108
-        public UnityEngine.UI.Button LookAtMeFoldout; // 0x110
-        public UnityEngine.UI.Button GreenscreenFoldout; // 0x118
-        public UnityEngine.GameObject[] SliderContent; // 0x120
-        public UnityEngine.GameObject[] SliderFoldoutArrows; // 0x128
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ DofSliderContentTitle; // 0x130
-        public UnityEngine.RectTransform DofSliderContentRect; // 0x138
-        public UnityEngine.RectTransform ZoomSliderParentRect; // 0x140
-        public UnityEngine.GameObject FocalDistanceSliderParent; // 0x148
-        public UnityEngine.GameObject ApertureSliderParent; // 0x150
-        public UnityEngine.UI.Button DeleteButton; // 0x158
-        public UnityEngine.UI.Button CopyToCameraButton; // 0x160
-        public UnityEngine.UI.Button NextPositionButton; // 0x168
-        public UnityEngine.UI.Button PreviousPositionButton; // 0x170
-        public UnityEngine.UI.Button NextSegmentButton; // 0x178
-        public UnityEngine.UI.Button PreviousSegmentButton; // 0x180
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ IndexUIPathIndex; // 0x188
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ IndexUIPointIndex; // 0x190
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ UITitle; // 0x198
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ PositionIndexText; // 0x1A0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ SegmentIndexText; // 0x1A8
-        public VRC.SDKBase.VRC_Pickup ÍÎÌÎÎÏÎÏÎÎÎÏÎÍÍÏÏÏÌÏÌÏÎ; // 0x1B0
-        public ÌÎÎÌÌÏÌÎÌÏÍÏÏÏÎÍÌÎÌÎÌÌÏ ÌÍÏÌÍÍÍÍÎÏÍÌÌÌÎÍÍÏÍÏÍÎÎ; // 0x1B8
-        public UnityEngine.Rigidbody ÏÏÎÍÏÏÌÍÎÌÌÌÎÏÍÎÎÍÌÌÏÎÎ; // 0x1C0
-        public UnityEngine.Transform ÎÌÏÏÍÌÌÍÌÍÏÏÌÍÌÏÍÏÍÎÎÍÎ; // 0x1C8
-        public UnityEngine.Transform ÏÍÏÍÌÏÌÏÏÌÎÌÍÌÎÍÏÌÍÎÎÏÏ; // 0x1D0
-        public UnityEngine.Vector3 ÏÍÍÌÍÌÎÏÎÏÌÏÌÏÍÍÍÏÌÍÌÍÏ; // 0x1D8
-        public UnityEngine.Vector3 ÎÏÏÍÍÍÏÍÏÍÏÏÌÏÏÍÌÌÍÌÍÍÎ; // 0x1E4
-        public UnityEngine.Vector3 ÌÌÎÌÏÏÎÍÏÎÌÌÎÏÏÎÏÏÌÌÍÎÌ; // 0x1F0
-        public UnityEngine.Quaternion ÌÌÌÏÏÏÍÏÍÎÎÌÏÎÌÎÍÎÏÌÌÍÌ; // 0x1FC
-        public 0x6638B7A0 ÎÍÏÎÌÌÌÏÎÎÏÎÏÎÎÎÍÌÌÎÍÌÏ; // 0x20C
-        public UnityEngine.Vector3 ÌÌÏÍÌÌÌÌÎÌÏÏÏÍÌÏÍÌÍÎÍÍÌ; // 0x210
-        public UnityEngine.Quaternion ÌÎÌÎÏÍÌÏÍÏÏÎÏÎÍÍÌÌÌÎÌÏÍ; // 0x21C
-        public bool ÌÏÎÌÎÎÍÏÏÎÎÏÏÏÎÏÌÏÌÍÎÌÌ; // 0x22C
-        public float ÏÏÌÎÍÎÎÌÍÎÍÏÍÍÌÌÎÎÍÏÎÏÏ; // 0x230
-        public int ÍÎÎÎÌÍÎÍÎÏÏÌÍÏÏÏÌÎÍÍÍÎÏ; // 0x234
+        public object f_A35;
+        public object Index;
+        public object PathIndex;
+        public object FocalDistance;
+        public object Aperture;
+        public object Hue;
+        public object Saturation;
+        public object Lightness;
+        public object LookAtMeXOffset;
+        public object LookAtMeYOffset;
+        public object Zoom;
+        public object Exposure;
+        public object Speed;
+        public object Duration;
+        public object Position;
+        public object Rotation;
+        public object f_523;
+        public object f_D7B;
 
         // ── Methods ──
         public void set_captureMethod(){} // RVA: 0x7FFD4E3E20B0
@@ -224,50 +170,6 @@ namespace VRC.Avatar
     /// <summary>Originally: ÍÎÌÌÏÎÎÌÎÏÌÏÏÎÍÍÏÏÌÎÎÍÏ</summary>
     public class LoadAvatarComponent_D33F : MonoBehaviour
     {
-        public bool ÍÎÏÎÎÌÍÏÎÍÎÏÏÎÌÌÎÍÎÍÌÌÍ;
-        public UnityEngine.UI.Image ÏÏÎÍÌÍÍÍÏÎÌÌÍÎÍÏÌÌÎÍÏÎÏ; // 0x20
-        public UnityEngine.UI.Image ÎÍÎÌÍÎÌÌÎÏÍÍÍÎÍÍÎÎÌÏÌÏÎ; // 0x28
-        public UnityEngine.UI.Image ÏÍÍÎÏÎÎÌÌÍÍÌÍÌÎÍÏÏÌÌÏÌÎ; // 0x30
-        public UnityEngine.Color ÏÍÎÌÌÌÌÎÍÌÎÍÎÍÎÏÎÎÍÏÏÍÍ; // 0x38
-        public UnityEngine.Color ÏÎÎÍÎÎÍÎÎÎÍÍÌÎÏÍÌÏÍÍÍÌÏ; // 0x48
-        public UnityEngine.Color ÍÏÎÍÏÍÍÌÌÎÎÍÎÏÏÍÍÍÏÍÍÏÌ; // 0x58
-        public UnityEngine.Sprite ÎÎÌÍÍÏÍÍÌÏÎÏÌÏÎÎÍÍÎÎÏÎÏ; // 0x68
-        public UnityEngine.Sprite ÏÌÏÍÌÍÏÌÍÍÌÌÍÎÌÌÏÌÏÎÎÌÎ; // 0x70
-        public UnityEngine.UI.Image ÍÍÎÏÏÎÌÌÍÍÏÍÍÏÍÎÎÍÍÎÌÍÍ; // 0x78
-        public UnityEngine.UI.Image ÏÏÌÏÌÍÏÏÌÌÎÌÎÌÎÎÍÍÌÌÎÌÌ; // 0x80
-        public UnityEngine.UI.Image ÌÌÌÏÎÏÍÍÎÍÌÍÍÏÌÍÏÍÎÏÎÎÍ; // 0x88
-        public UnityEngine.UI.Image ÍÎÍÌÍÏÎÌÎÏÎÍÍÎÍÎÎÍÌÏÍÌÌ; // 0x90
-        public UnityEngine.UI.Image ÍÏÏÍÌÌÌÎÎÍÌÎÌÍÌÌÌÍÎÍÏÏÎ; // 0x98
-        public UnityEngine.UI.Image ÍÌÎÌÏÏÌÏÏÏÍÏÏÌÎÏÎÏÎÏÎÍÍ; // 0xA0
-        public UnityEngine.UI.Image ÏÌÍÏÏÎÍÎÍÍÎÍÌÍÍÍÎÏÍÍÎÎÍ; // 0xA8
-        public UnityEngine.UI.Text ÌÎÍÌÏÍÍÍÌÎÎÎÌÍÏÌÎÍÎÎÎÌÏ; // 0xB0
-        public UnityEngine.UI.Text ÎÌÌÍÎÎÎÎÌÎÎÏÌÌÏÌÏÌÍÍÏÌÍ; // 0xB8
-        public UnityEngine.UI.Text ÌÎÍÎÏÏÎÍÎÏÎÏÏÏÌÌÏÌÎÌÎÍÍ; // 0xC0
-        public UnityEngine.Color ÌÌÌÍÌÏÏÏÍÎÎÎÌÍÍÎÏÌÍÌÍÎÏ; // 0xC8
-        public bool ÏÏÏÍÌÍÌÍÏÍÎÎÎÍÎÏÎÎÎÎÌÌÎ; // 0xD8
-        public UnityEngine.Transform ÍÌÌÌÎÌÏÍÎÏÌÌÏÏÍÍÌÍÎÌÍÌÎ; // 0xE0
-        public VRC.Core.ApiAvatar ÏÏÍÏÏÍÏÎÏÎÌÎÍÌÍÏÌÌÏÌÎÍÍ; // 0xE8
-        public ÏÏÏÎÍÏÎÏÍÎÎÌÏÍÎÍÍÍÎÍÎÌÎ ÍÌÌÏÎÌÏÏÎÏÎÎÌÏÎÎÍÎÏÌÌÎÎ; // 0xF0
-        public UnityEngine.Animator ÌÏÌÍÏÏÏÍÎÍÍÌÎÏÎÏÏÏÍÏÎÍÎ; // 0xF8
-        public ÏÌÎÍÏÎÌÌÎÍÍÎÌÏÌÏÌÎÍÌÎÌÎ ÍÎÏÏÏÍÏÎÎÍÍÍÎÏÏÎÌÎÌÏÏÍÎ; // 0x100
-        public ÌÏÍÎÎÎÏÍÌÍÌÍÏÏÌÌÎÍÌÎÌÎÏ ÏÌÎÍÏÏÎÏÍÎÌÍÌÌÌÏÎÏÌÌÌÎÏ; // 0x108
-        public ÏÍÍÏÌÍÍÏÏÍÍÌÍÎÎÎÌÏÎÎÎÍÏ ÌÏÎÏÌÍÌÏÍÏÍÎÎÌÎÍÌÍÏÌÎÎÏ; // 0x110
-        public ÍÏÍÏÏÎÏÌÎÏÌÌÌÍÌÌÎÍÏÍÎÎÌ ÏÏÏÍÍÌÏÌÏÏÍÏÎÏÍÎÍÍÎÏÎÏÎ; // 0x118
-        public UnityEngine.AudioSource ÌÎÏÍÎÏÌÌÎÏÍÎÌÌÎÎÎÍÌÏÎÍÌ; // 0x120
-        public OVRLipSyncContext ÍÌÌÎÌÎÌÎÏÌÍÎÎÌÌÍÏÏÌÏÍÏÎ; // 0x128
-        public bool ÎÎÎÌÍÏÎÎÍÏÏÏÏÍÎÎÌÏÌÏÌÍÌ; // 0x130
-        public bool ÌÍÍÎÌÎÍÍÍÌÍÌÌÍÎÏÎÌÎÌÌÏÏ; // 0x131
-        public bool ÌÎÏÍÍÍÎÌÏÌÍÌÏÍÌÍÌÏÍÏÏÍÍ; // 0x132
-        public int ÎÌÍÍÎÍÎÏÎÎÍÌÍÌÍÎÍÌÏÍÍÌÎ; // 0x134
-        public int ÏÏÌÎÌÍÍÎÎÎÌÏÏÎÍÍÏÎÏÌÏÌÏ; // 0x138
-        public bool ÍÌÏÏÌÌÎÍÎÍÌÎÍÌÍÏÌÎÏÏÌÏÎ; // 0x13C
-        public int ÍÌÌÏÍÌÏÌÍÌÏÌÎÎÌÍÌÌÍÏÏÌÍ; // 0x140
-        public string ÏÍÍÌÌÍÌÌÍÌÍÎÌÍÏÎÌÍÍÍÎÏÏ; // 0x148
-        public string ÎÎÏÏÌÎÏÎÌÌÌÍÏÎÍÏÍÌÌÍÏÍÎ; // 0x150
-        public UnityEngine.Vector3 ÍÌÌÏÎÏÎÏÏÍÌÏÏÎÍÎÏÌÎÎÎÍÎ; // 0x158
-        public float ÎÌÍÍÌÏÎÎÍÍÍÍÎÌÏÎÏÏÏÌÍÌÏ; // 0x164
-        public float[] ÍÏÎÍÏÎÏÌÎÌÏÍÍÌÏÍÍÏÎÎÌÏÎ; // 0x168
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F65D540
         public void RaiseCancellation(){} // RVA: 0x7FFD4E341310
@@ -299,36 +201,6 @@ namespace VRC.Avatar
     /// <summary>Originally: ÎÎÍÌÏÏÏÌÏÏÎÎÎÍÏÍÏÏÎÍÏÌÌ</summary>
     public class RefreshAvatarComponent_6DA1 : MonoBehaviour
     {
-        public int ÏÌÏÏÏÎÎÏÏÎÏÍÍÎÏÍÌÌÎÌÎÍÌ;
-        public UnityEngine.GameObject ÌÎÎÌÏÌÏÎÌÏÌÏÍÏÏÎÏÎÍÌÏÍÌ; // 0x20
-        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ ÍÏÏÌÍÏÏÎÎÏÎÌÎÌÏÏÏÎÏÌÍÌÎ; // 0x28
-        public UnityEngine.GameObject ÌÍÎÍÏÍÍÏÎÎÎÌÎÎÌÍÌÏÍÍÎÏÌ; // 0x30
-        public UnityEngine.UI.Button ÏÌÍÌÌÎÍÍÏÍÎÏÎÎÏÎÏÌÌÎÏÍÏ; // 0x38
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÏÏÍÎÏÎÎÍÍÎÎÎÌÌÌÍÌÎÏÌÏÍÍ; // 0x40
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÌÎÎÏÌÏÏÏÌÌÌÏÌÎÎÎÏÏÌÌÎÍÎ; // 0x48
-        public UnityEngine.GameObject ÎÎÍÍÍÏÎÍÏÌÌÏÏÍÎÌÌÌÍÌÌÎÍ; // 0x50
-        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ ÏÏÌÎÌÎÍÏÎÎÌÏÍÎÎÏÌÏÏÏÎÏÌ; // 0x58
-        public UnityEngine.UI.Button ÏÎÎÎÌÍÏÏÏÌÏÎÍÌÌÎÍÏÍÍÌÏÎ; // 0x60
-        public UnityEngine.GameObject ÏÌÍÏÏÌÏÎÎÏÍÎÍÏÌÎÍÍÌÌÏÎÌ; // 0x68
-        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ ÏÏÍÌÌÏÎÌÏÌÏÎÌÎÏÏÏÏÎÎÎÍÏ; // 0x70
-        public UnityEngine.UI.Button ÍÍÍÍÎÎÏÏÍÎÍÌÎÍÏÍÎÏÎÌÎÌÎ; // 0x78
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÎÏÏÎÏÍÏÌÌÍÌÎÍÍÎÎÌÌÎÍÏÌÏ; // 0x80
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÎÌÍÎÌÎÍÎÎÍÎÏÏÍÍÌÏÍÎÎÏÏÍ; // 0x88
-        public UnityEngine.UI.Button ÌÎÍÏÎÍÎÏÌÍÏÎÍÍÍÏÍÎÎÍÏÌÏ; // 0x90
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÌÏÍÏÍÎÍÏÏÌÍÎÏÍÎÌÎÏÍÍÌÍÎ; // 0x98
-        public ÎÌÏÎÌÌÏÍÍÍÏÍÏÌÏÍÏÍÏÏÏÏÎ ÏÌÌÌÌÎÏÌÌÎÎÎÍÏÍÏÎÌÏÎÌÌÏ; // 0xA0
-        public UnityEngine.UI.Button ÌÍÎÏÎÏÌÎÌÌÏÍÎÎÍÌÌÍÍÌÏÌÎ; // 0xA8
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÌÌÏÏÎÌÏÍÎÎÌÏÍÏÏÏÌÎÍÏÍÌÍ; // 0xB0
-        public UnityEngine.UI.Button ÏÌÎÍÌÏÏÌÌÎÎÍÌÌÌÎÏÏÌÍÎÌÍ; // 0xB8
-        public UnityEngine.GameObject ÌÌÌÏÎÎÎÌÎÍÏÍÎÍÎÌÎÎÌÎÍÏÌ; // 0xC0
-        public UnityEngine.UI.Toggle ÎÌÌÎÎÍÏÏÌÌÏÌÏÏÌÏÏÌÎÎÎÎÍ; // 0xC8
-        public ÍÎÎÍÍÍÏÏÍÌÏÎÎÏÍÌÌÍÎÌÏÌÏ ÍÎÌÎÎÍÎÌÏÎÍÎÍÎÌÍÏÏÏÌÍÎÌ; // 0xD0
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÍÎÌÍÌÌÍÍÌÌÎÏÎÍÏÍÏÏÏÏÎÏÍ; // 0xD8
-        public ÎÌÏÎÍÎÏÌÍÌÍÌÎÌÎÎÍÌÏÎÏÏÏ ÎÎÏÍÏÍÍÌÏÌÎÎÍÎÌÎÌÍÏÍÌÌÍ; // 0xE0
-        public ÌÌÍÍÏÌÏÏÏÌÏÍÍÏÎÌÌÌÎÍÎÏÏ _badgesListBinding; // 0xE8
-        public ÌÍÍÍÎÌÍÍÎÎÍÏÎÌÌÏÎÏÎÎÌÌÏ ÍÍÎÍÌÏÏÍÎÎÍÏÎÌÍÏÍÌÏÏÌÎÏ; // 0xF0
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÍÎÏÍÎÍÌÎÎÌÍÏÍÎÏÏÍÏÏÌÎÍÍ>> ÍÌÎÌÏÎÏÍÏÌÏÍÎÏÎÍÎÌÍÍÍÌÍ; // 0xF8
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD5679D880
         public void RaiseCancellation(){} // RVA: 0x7FFD5679DCA0

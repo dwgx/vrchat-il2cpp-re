@@ -7,10 +7,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class NodeInfo : ValueType
     {
-        public VRC.Udon.Serialization.OdinSerializer.NodeInfo Empty;
+        public arker Empty;
         public string Name; // 0x10
         public int Id; // 0x18
-        public System.Type Type; // 0x20
+        public object Type; // 0x20
         public bool IsArray; // 0x28
         public bool IsEmpty; // 0x29
 
@@ -25,7 +25,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class NullableFormatter`1 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> TSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717697152> TSerializer;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0

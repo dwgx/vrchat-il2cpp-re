@@ -8,14 +8,8 @@ namespace VRC.World
     /// <summary>Originally: ÍÏÍÏÌÌÎÍÏÌÍÎÎÏÎÍÏÎÎÍÏÎÎ</summary>
     public class ISpawnedPropEnumerator_BA4F : Object
     {
-        public int System.Collections.Generic.IEnumerator<VRC.DataModel.ISpawnedProp>.Current; // 0x10
-        public ÏÎÌÍÏÎÎÎÍÏÏÌÌÎÌÎÎÌÍÎÍÌÎ System.Collections.IEnumerator.Current; // 0x18
-        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ; // 0x20
-        public ÌÍÏÏÏÍÌÏÎÎÍÏÍÍÍÌÍÍÍÏÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public string ÏÏÏÎÍÎÏÏÎÎÌÎÎÍÏÌÌÍÏÍÍÍÏ; // 0x30
-        public string ÍÌÍÏÎÌÌÏÎÎÍÎÎÌÏÏÎÌÏÍÏÏÏ; // 0x38
-        public System.Collections.Generic.List`1<ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ> ÍÍÎÌÏÌÏÏÌÍÏÌÏÌÍÌÏÏÍÍÏÎÎ; // 0x40
-        public int ÎÏÍÎÌÏÌÌÏÌÏÎÎÏÌÍÌÌÏÍÎÍÍ; // 0x48
+        public object System.Collections.Generic.IEnumerator<VRC.DataModel.ISpawnedProp>.Current;
+        public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -37,14 +31,6 @@ namespace VRC.World
     /// <summary>Originally: ÌÏÌÍÍÌÌÎÌÌÍÌÎÏÏÌÌÍÏÌÏÏÌ</summary>
     public class RoomManager : MonoBehaviour
     {
-        public VRCSDK2.VRC_PlayerAudioOverride ÍÌÎÍÎÏÎÍÎÎÎÎÍÎÍÍÎÌÌÌÌÍÍ; // 0x20
-        public VRCSDK2.VRC_PlayerAudioOverride ÎÎÌÎÎÏÍÎÏÌÎÍÎÏÍÍÍÍÌÏÌÏÎ;
-        public bool ÏÎÍÍÍÏÎÍÏÏÍÎÎÍÍÌÎÎÍÍÎÍÏ; // 0x8
-        public System.Collections.Generic.List`1<VRCSDK2.VRC_PlayerAudioOverride> ÌÌÏÏÎÍÏÍÏÏÎÍÌÍÏÍÏÌÏÎÎÌÏ; // 0x10
-        public VRCSDK2.VRC_PlayerAudioOverride ÏÌÏÏÍÎÎÎÍÎÏÏÌÍÍÌÏÏÌÌÎÎÎ; // 0x28
-        public bool ÌÌÌÍÍÌÍÌÍÌÌÍÏÍÍÌÌÌÎÌÌÎÏ; // 0x30
-        public ÍÎÌÎÌÏÏÏÏÌÎÍÎÌÎÏÌÌÏÏÏÏÍ ÎÍÎÎÌÌÎÏÏÏÎÏÎÎÌÍÌÌÏÌÍÍÏ; // 0x38
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F573840
         public void Start(){} // RVA: 0x7FFD4F573DE0
@@ -68,32 +54,17 @@ namespace VRC.World
     /// <summary>Originally: ÎÏÏÎÏÏÎÍÍÎÌÌÏÏÏÌÌÌÌÌÍÏÍ</summary>
     public class WorldProximityExitStation_FE46 : NetworkReadyHandler_68D0
     {
-        public ÎÏÏÎÏÏÎÍÍÎÌÌÏÏÏÌÌÌÌÌÍÏÍ[] _proximity;
-        public System.Collections.Generic.Dictionary`2<uint,ÎÏÏÎÏÏÎÍÍÎÌÌÏÏÏÌÌÌÌÌÍÏÍ> f_EC5; // 0x8
-        public VRC.SDKBase.VRCStation f_135; // 0x58
-        public VRCSDK2.VRC_Station f_46F; // 0x60
-        public VRC.SDK3.Components.VRCStation f_567; // 0x68
-        public VRC.Udon.UdonBehaviour f_842; // 0x70
-        public VRC.SDKBase.VRC_Interactable f_E7F; // 0x78
-        public VRC.SDKBase.VRC_PropController f_BC0; // 0x80
-        public CustomTriggerTarget f_53F; // 0x88
-        public UnityEngine.Vector3 f_94E; // 0x90
-        public UnityEngine.Vector3 f_EAB; // 0x9C
-        public UnityEngine.Quaternion ÏÌÏÍÍÏÎÍÎÌÌÍÎÌÍÏÍÌÎÎÌÏÍ; // 0xA8
-        public UnityEngine.Quaternion ÌÏÏÌÏÎÎÏÍÌÍÎÎÎÌÏÎÏÍÌÍÎÍ; // 0xB8
-        public System.Type ÏÌÎÎÍÍÍÍÎÌÍÏÍÍÍÎÍÌÍÍÍÎÌ; // 0xC8
-        public System.Collections.Generic.Dictionary`2<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ,ÎÌÎÌÏÎÏÍÎÏÌÍÏÏÌÏÌÌÎÎÌÏÍ> ÏÍÎÍÎÍÌÍÏÎÏÌÍÌÏÏÏÍÏÎÎÎÌ; // 0xD0
-        public UnityEngine.Vector3 ÌÌÎÍÎÍÍÍÎÏÌÍÌÎÏÎÏÎÏÌÌÍÌ; // 0xD8
-        public bool ÏÎÌÌÎÏÌÎÎÌÍÍÍÍÏÍÎÍÎÌÎÍÏ; // 0xE4
-        public bool ÏÍÌÎÎÌÌÍÏÎÍÏÍÌÍÎÏÎÏÌÌÍÏ; // 0xE5
-        public bool ÍÏÌÌÌÍÌÍÎÏÎÏÌÌÌÌÍÌÎÌÍÏÎ; // 0xE6
-        public UnityEngine.Coroutine ÏÎÌÌÏÎÌÎÎÏÌÍÌÌÍÌÎÏÏÍÏÌÏ; // 0xE8
-        public UnityEngine.WaitForSeconds ÏÌÍÏÌÌÌÌÎÍÌÏÎÎÏÍÎÌÌÏÎÏÍ; // 0x10
-        public System.Nullable`1<int> ÎÍÍÌÌÍÎÍÎÏÌÏÏÎÎÍÏÍÏÌÎÍÍ; // 0xF0
-        public System.Action`1<ÎÏÏÎÏÏÎÍÍÎÌÌÏÏÏÌÌÌÌÌÍÏÍ> ÌÎÌÍÏÌÌÏÍÎÎÏÌÏÌÎÎÍÌÍÌÍÍ; // 0xF8
-        public System.Nullable`1<uint> <ÏÎÌÌÌÏÏÌÎÍÏÏÌÎÌÎÏÍÎÏÍÍÏ>k__BackingField; // 0x100
-        public bool <ÍÌÍÏÎÍÎÍÌÌÌÍÌÍÎÏÌÍÏÏÌÎÏ>k__BackingField; // 0x108
-        public UnityEngine.GameObject ÌÌÎÏÎÏÎÎÍÍÌÌÎÏÎÍÎÏÎÎÌÎÎ; // 0x110
+        public object _proximity;
+        public object f_EC5;
+        public object f_135;
+        public object f_46F;
+        public object f_567;
+        public object f_842;
+        public object f_E7F;
+        public object f_BC0;
+        public object f_53F;
+        public object f_94E;
+        public object f_EAB;
 
         // ── Methods ──
         public void __Clone__SystemObject(){} // RVA: 0x7FFD4F5B50E0
@@ -156,13 +127,6 @@ namespace VRC.World
     /// <summary>Originally: ÍÎÏÍÍÌÎÌÎÎÍÍÏÌÏÎÍÌÍÍÏÌÍ</summary>
     public class WorldSpawnHandler_CA88 : MonoBehaviour
     {
-        public ÍÌÎÏÍÏÍÏÏÌÍÎÍÌÌÍÎÎÌÌÏÌÎ ÍÌÎÎÌÎÍÏÏÏÌÏÌÍÎÏÍÌÍÌÍÌÏ; // 0x20
-        public ÎÍÍÎÎÍÌÎÌÍÏÎÎÌÍÎÏÌÌÍÍÏÌ ÌÍÏÌÌÏÏÌÌÎÎÍÌÍÎÏÎÎÏÎÏÍÍ; // 0x28
-        public UnityEngine.GameObject ÍÏÌÌÍÏÍÎÏÎÍÌÏÍÍÎÌÌÎÍÎÌÎ; // 0x30
-        public UnityEngine.GameObject ÎÍÏÌÎÏÎÎÏÏÎÎÎÏÍÏÍÍÌÎÍÍÏ; // 0x38
-        public VRC.UI.Core.Styles.StyleElement ÍÏÎÍÌÍÍÏÏÏÏÏÌÍÍÎÏÍÌÌÏÌÎ; // 0x40
-        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ ÍÎÎÏÌÍÏÎÏÌÎÏÏÎÎÎÌÍÍÎÌÍÌ; // 0x48
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD566E6870
         public void RaiseCancellation(){} // RVA: 0x7FFD566E68C0
@@ -186,13 +150,7 @@ namespace VRC.World
     /// <summary>Originally: ÍÏÏÍÎÍÌÌÎÎÌÍÎÌÍÌÌÌÎÍÍÌÎ</summary>
     public class WorldSpawn_F00B : LifecycleComponent_5AF1
     {
-        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ _f00B; // 0x68
-        public UnityEngine.GameObject spawnedBadge; // 0x70
-        public UnityEngine.GameObject ÍÏÌÌÍÏÍÎÏÎÍÌÏÍÍÎÌÌÎÍÎÌÎ; // 0x78
-        public UnityEngine.GameObject ÎÍÏÌÎÏÎÎÏÏÎÎÎÏÍÏÍÍÌÎÍÍÏ; // 0x80
-        public VRC.UI.Core.Styles.StyleElement ÍÏÎÍÌÍÍÏÏÏÏÏÌÍÍÎÏÍÌÌÏÌÎ; // 0x88
-        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ ÍÎÎÏÌÍÏÎÏÌÎÏÏÎÎÎÌÍÍÎÌÍÌ; // 0x90
-        public System.Collections.Generic.List`1<ÎÍÍÎÎÍÌÎÌÍÏÎÎÌÍÎÏÌÌÍÍÏÌ> ÍÎÎÌÏÌÏÍÌÎÌÌÏÌÏÍÏÏÏÎÍÏÌ; // 0x98
+        public object _f00B;
 
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x7FFD56D7A6C0

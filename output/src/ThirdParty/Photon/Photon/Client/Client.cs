@@ -7,12 +7,6 @@ namespace ThirdParty.Photon.Photon.Client
 {
     public class ByteArraySlice : Object
     {
-        public byte[] Buffer; // 0x10
-        public int Offset; // 0x18
-        public int Count; // 0x1C
-        public Photon.Client.ByteArraySlicePool returnPool; // 0x20
-        public int stackIndex; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DBF230
         public void Dispose(){} // RVA: 0x7FFD53DBF360
@@ -21,10 +15,6 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class ByteArraySlicePool : Object
     {
-        public int minStackIndex; // 0x10
-        public System.Collections.Generic.Stack`1<Photon.Client.ByteArraySlice>[] poolTiers; // 0x18
-        public int allocationCounter; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DBF3E0
         public void Acquire(){} // RVA: 0x7FFD53DBF630
@@ -34,11 +24,6 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class CustomType : Object
     {
-        public byte Code; // 0x10
-        public System.Type Type; // 0x18
-        public Photon.Client.SerializeStreamMethod SerializeStreamFunction; // 0x20
-        public Photon.Client.DeserializeStreamMethod DeserializeStreamFunction; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DDC1F0
     }
@@ -52,26 +37,6 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class EnetChannel : Object
     {
-        public byte ChannelNumber; // 0x10
-        public Photon.Client.NonAllocDictionary`2<int,Photon.Client.NCommand> incomingReliableCommandsList; // 0x18
-        public Photon.Client.NonAllocDictionary`2<int,Photon.Client.NCommand> incomingUnreliableCommandsList; // 0x20
-        public System.Collections.Generic.Queue`1<Photon.Client.NCommand> incomingUnsequencedCommandsList; // 0x28
-        public Photon.Client.NonAllocDictionary`2<int,Photon.Client.NCommand> incomingUnsequencedFragments; // 0x30
-        public System.Collections.Generic.List`1<Photon.Client.NCommand> outgoingReliableCommandsList; // 0x38
-        public System.Collections.Generic.List`1<Photon.Client.NCommand> outgoingUnreliableCommandsList; // 0x40
-        public int incomingReliableSequenceNumber; // 0x48
-        public int incomingUnreliableSequenceNumber; // 0x4C
-        public int outgoingReliableSequenceNumber; // 0x50
-        public int outgoingUnreliableSequenceNumber; // 0x54
-        public int outgoingReliableUnsequencedNumber; // 0x58
-        public int reliableUnsequencedNumbersCompletelyReceived; // 0x5C
-        public System.Collections.Generic.HashSet`1<int> reliableUnsequencedNumbersReceived; // 0x60
-        public int highestReceivedAck; // 0x68
-        public int reliableCommandsInFlight; // 0x6C
-        public int lowestUnacknowledgedSequenceNumber; // 0x70
-        public ReceiveTrackingValues SequencedReceived; // 0x78
-        public ReceiveTrackingValues UnsequencedReceived; // 0x80
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DC12A0
         public void AddSequencedIfNew(){} // RVA: 0x7FFD53DC1770
@@ -87,7 +52,7 @@ namespace ThirdParty.Photon.Photon.Client
     public class EventData : Object
     {
         public byte Item; // 0x10
-        public Photon.Client.ParameterDictionary Sender; // 0x18
+        public Ease_Out.ÎÍ Sender; // 0x18
         public byte CustomData; // 0x20
         public int sender; // 0x24
         public byte CustomDataKey; // 0x28
@@ -122,65 +87,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NCommand : Object
     {
-        public byte SizeOfPayload;
-        public byte IsFlaggedUnsequenced;
-        public byte IsFlaggedReliable;
-        public byte FV_UNRELIABLE;
-        public byte FV_RELIABLE;
-        public byte FV_UNRELIABLE_UNSEQUENCED;
-        public byte FV_RELIBALE_UNSEQUENCED;
-        public byte CT_NONE;
-        public byte CT_ACK;
-        public byte CT_CONNECT;
-        public byte CT_VERIFYCONNECT;
-        public byte CT_DISCONNECT;
-        public byte CT_PING;
-        public byte CT_SENDRELIABLE;
-        public byte CT_SENDUNRELIABLE;
-        public byte CT_SENDFRAGMENT;
-        public byte CT_SENDUNSEQUENCED;
-        public byte CT_EG_SERVERTIME;
-        public byte CT_EG_SEND_UNRELIABLE_PROCESSED;
-        public byte CT_EG_SEND_RELIABLE_UNSEQUENCED;
-        public byte CT_EG_SEND_FRAGMENT_UNSEQUENCED;
-        public byte CT_EG_ACK_UNSEQUENCED;
-        public byte CT_EG_ACK_2;
-        public byte CT_EG_ACK_2_UNSEQUENCED;
-        public byte CT_EG_ACK_2_NULL;
-        public int HEADER_UDP_PACK_LENGTH;
-        public int CmdSizeMinimum;
-        public int CmdSizeAck;
-        public int CmdSizeConnect;
-        public int CmdSizeVerifyConnect;
-        public int CmdSizeDisconnect;
-        public int CmdSizePing;
-        public int CmdSizeReliableHeader;
-        public int CmdSizeUnreliableHeader;
-        public int CmdSizeUnsequensedHeader;
-        public int CmdSizeFragmentHeader;
-        public int CmdSizeMaxHeader;
-        public byte commandFlags; // 0x10
-        public byte commandType; // 0x11
-        public byte commandChannelID; // 0x12
-        public int reliableSequenceNumber; // 0x14
-        public int unreliableSequenceNumber; // 0x18
-        public int unsequencedGroupNumber; // 0x1C
-        public byte reservedByte; // 0x20
-        public int startSequenceNumber; // 0x24
-        public int fragmentCount; // 0x28
-        public int fragmentNumber; // 0x2C
-        public int totalLength; // 0x30
-        public int fragmentOffset; // 0x34
-        public int fragmentsRemaining; // 0x38
-        public int commandSentTime; // 0x3C
-        public byte commandSentCount; // 0x40
-        public int roundTripTimeout; // 0x44
-        public int timeoutTime; // 0x48
-        public int ackReceivedReliableSequenceNumber; // 0x4C
-        public int ackReceivedSentTime; // 0x50
-        public int TimeOfReceive; // 0x54
-        public int Size; // 0x58
-        public Photon.Client.StreamBuffer Payload; // 0x60
+        public object SizeOfPayload;
+        public object IsFlaggedUnsequenced;
+        public object IsFlaggedReliable;
 
         // ── Methods ──
         public void get_SizeOfPayload(){} // RVA: 0x7FFD53DCC750
@@ -200,18 +109,11 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NetworkSimulationSet : Object
     {
-        public bool IsSimulationEnabled; // 0x10
-        public int OutgoingLossPercentage; // 0x14
-        public int IncomingLossPercentage; // 0x18
-        public int LostPackagesOut; // 0x1C
-        public int LostPackagesIn; // 0x20
-        public int incomingJitter; // 0x24
-        public int incomingLossPercentage; // 0x28
-        public 0x665CAC90 peerBase; // 0x30
-        public System.Threading.Thread netSimThread; // 0x38
-        public System.Threading.ManualResetEvent NetSimManualResetEvent; // 0x40
-        public int <LostPackagesOut>k__BackingField; // 0x48
-        public int <LostPackagesIn>k__BackingField; // 0x4C
+        public object IsSimulationEnabled;
+        public object OutgoingLossPercentage;
+        public object IncomingLossPercentage;
+        public object LostPackagesOut;
+        public object LostPackagesIn;
 
         // ── Methods ──
         public void get_IsSimulationEnabled(){} // RVA: 0x7FFD4E40B5E0
@@ -227,15 +129,15 @@ namespace ThirdParty.Photon.Photon.Client
     public class NonAllocDictionary`2 : Object
     {
         public uint[] Keys;
-        public int System.Collections.Generic.IDictionary<K,V>.Values; // 0x10
-        public int System.Collections.Generic.IDictionary<K,V>.Keys; // 0x14
-        public int Count; // 0x18
-        public uint IsReadOnly; // 0x1C
-        public int[] Item; // 0x20
-        public 0x665CA2F0<byte,object>[] _nodes; // 0x28
-        public bool isReadOnly; // 0x30
-        public System.Collections.Generic.ICollection`1<byte> keys; // 0x38
-        public System.Collections.Generic.ICollection`1<object> values; // 0x40
+        public int System.Collections.Generic.IDictionary<K,V>.Values;
+        public int System.Collections.Generic.IDictionary<K,V>.Keys;
+        public int Count;
+        public uint IsReadOnly;
+        public int[] Item;
+        public tyles<T1717720864,T1717720880>[] _nodes;
+        public bool isReadOnly;
+        public URA.tCalendarData<T1717720864> keys;
+        public URA.tCalendarData<T1717720880> values;
 
         // ── Methods ──
         public void get_Keys(){} // RVA: 0x7FFD4E2ADC40
@@ -270,7 +172,7 @@ namespace ThirdParty.Photon.Photon.Client
         public byte Item; // 0x10
         public short ReturnCode; // 0x12
         public string DebugMessage; // 0x18
-        public Photon.Client.ParameterDictionary Parameters; // 0x20
+        public Ease_Out.ÎÍ Parameters; // 0x20
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD53DF26D0
@@ -281,8 +183,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class ParameterDictionary : Object
     {
-        public Photon.Client.NonAllocDictionary`2<byte,object> Item; // 0x10
-        public Photon.Client.StructWrapping.StructWrapperPools Count; // 0x18
+        public Ease_Out.ÍÍÏÍÌÍÍÌÌÏÍÏÌÍÍÍÍÍÌÌ<byte,object> Item; // 0x10
+        public ÎÌÍÌÌÏÎ.ÎÍÎÍÎÌÎÎÏÎÌÌÎÎÏÍÎÏÏÌ Count; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DCF5E0 | overloaded x2
@@ -320,7 +222,7 @@ namespace ThirdParty.Photon.Photon.Client
         public bool ClientSdkIdShifted;
         public bool Version;
         public int UseAck2;
-        public 0x665CA710 SerializationProtocolType; // 0x10
+        public Ease_Out.? SerializationProtocolType; // 0x10
         public byte SocketImplementation; // 0x14
         public string SocketErrorCode;
         public bool Listener; // 0x8
@@ -328,11 +230,11 @@ namespace ThirdParty.Photon.Photon.Client
         public bool ReuseEventInstance; // 0x16
         public bool UseByteArraySlicePoolForEvents; // 0x17
         public bool WrapIncomingStructs; // 0x18
-        public 0x665CAEF8 QuickResendAttempts; // 0x1C
-        public System.Collections.Generic.Dictionary`2<0x665CA660,System.Type> DisconnectTimeout; // 0x20
-        public System.Type CrcEnabled; // 0x28
-        public 0x665CA6B8 ServerAddress; // 0x30
-        public Photon.Client.IPhotonPeerListener UsedProtocol; // 0x38
+        public Ease_Out.ÏÌÏÎ QuickResendAttempts; // 0x1C
+        public URA.DateTime<Ease_Out.?,?> DisconnectTimeout; // 0x20
+        public object CrcEnabled; // 0x28
+        public Ease_Out.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject ServerAddress; // 0x30
+        public Ease_Out.ÌÎÏÎÎÏ UsedProtocol; // 0x38
         public bool TransportProtocol; // 0x40
         public bool IsSimulationEnabled; // 0x41
         public bool NetworkSimulationSettings; // 0x42
@@ -345,24 +247,24 @@ namespace ThirdParty.Photon.Photon.Client
         public bool ConnectionTime; // 0x58
         public int BytesIn; // 0x5C
         public byte BytesOut; // 0x60
-        public 0x665CA660 ByteCountCurrentDispatch; // 0x61
+        public Ease_Out.? ByteCountCurrentDispatch; // 0x61
         public int ByteCountLastOperation; // 0xC
         public int PacketLossByCrc; // 0x64
         public bool PacketLossByChallenge; // 0x10
         public bool CountDiscarded; // 0x68
         public byte[] DeltaUnreliableNumber; // 0x70
-        public System.Type QueuedOutgoingCommands; // 0x78
+        public object QueuedOutgoingCommands; // 0x78
         public byte[] Stats; // 0x80
-        public System.Type encryptorType; // 0x88
-        public Photon.Client.Encryption.IPhotonEncryptor Encryptor; // 0x90
-        public Photon.Client.ITrafficRecorder TrafficRecorder; // 0x98
+        public object encryptorType; // 0x88
+        public object Encryptor; // 0x90
+        public Ease_Out.? TrafficRecorder; // 0x98
         public bool <EnableServerTracing>k__BackingField; // 0xA0
         public bool PingUsedAsInit; // 0xA1
         public int <CountDiscarded>k__BackingField; // 0xA4
         public int <DeltaUnreliableNumber>k__BackingField; // 0xA8
-        public 0x665CB9A0 <Stats>k__BackingField; // 0xB0
+        public Ease_Out.? <Stats>k__BackingField; // 0xB0
         public bool TrafficStatsEnabled; // 0xB8
-        public 0x665CAC90 peerBase; // 0xC0
+        public Ease_Out.? peerBase; // 0xC0
         public object sendOutgoingLockObject; // 0xC8
         public object dispatchLockObject; // 0xD0
         public object enqueueLock; // 0xD8
@@ -436,10 +338,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonSocket : Object
     {
-        public 0x665CAC90 Listener; // 0x10
-        public 0x665CA660 MTU; // 0x18
+        public Ease_Out.? Listener; // 0x10
+        public Ease_Out.? MTU; // 0x18
         public bool State; // 0x19
-        public 0x665CAD98 SocketErrorCode; // 0x1C
+        public Ease_Out.ÏÏ SocketErrorCode; // 0x1C
         public int Connected; // 0x20
         public string ServerAddress; // 0x28
         public string ProxyServerAddress; // 0x30
@@ -488,9 +390,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Pool`1 : Object
     {
-        public System.Func`1<Photon.Client.StreamBuffer> createFunction; // 0x10
-        public System.Collections.Generic.Queue`1<Photon.Client.StreamBuffer> pool; // 0x18
-        public System.Action`1<Photon.Client.StreamBuffer> resetFunction; // 0x20
+        public ormation<T1717720928> createFunction;
+        public URA.ge<T1717720928> pool;
+        public ileFullDirectoryInformation<T1717720928> resetFunction;
 
         // ── Methods ──
         public void .ctor(){}
@@ -501,9 +403,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Protocol : Object
     {
-        public Photon.Client.ByteArraySlicePool ProtocolType; // 0x10
-        public System.Collections.Generic.Dictionary`2<System.Type,Photon.Client.CustomType> VersionBytes;
-        public System.Collections.Generic.Dictionary`2<byte,Photon.Client.CustomType> CodeDict; // 0x8
+        public object ProtocolType;
+        public object VersionBytes;
 
         // ── Methods ──
         public void get_ProtocolType(){} // RVA: 0x7FFD4E078E90
@@ -529,9 +430,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SendOptions : ValueType
     {
-        public Photon.Client.SendOptions Reliability;
-        public Photon.Client.SendOptions SendUnreliable; // 0x8
-        public 0x665CB4D0 DeliveryMode; // 0x10
+        public Ease_Out.? Reliability;
+        public Ease_Out.? SendUnreliable; // 0x8
+        public Ease_Out.? DeliveryMode; // 0x10
         public bool Encrypt; // 0x14
         public byte Channel; // 0x15
 
@@ -550,10 +451,7 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SimulationItem : Object
     {
-        public System.Diagnostics.Stopwatch Delay; // 0x10
-        public int TimeToExecute; // 0x18
-        public byte[] DelayedData; // 0x20
-        public int <Delay>k__BackingField; // 0x28
+        public object Delay;
 
         // ── Methods ──
         public void get_Delay(){} // RVA: 0x7FFD4E70C4C0
@@ -561,10 +459,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class StreamBuffer : Object
     {
-        public int Length;
-        public int Position; // 0x10
-        public int Available; // 0x14
-        public byte[] buf; // 0x18
+        public object Length;
+        public object Position;
+        public object Available;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DFB280 | overloaded x2
@@ -590,14 +487,7 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class TPeer : PeerBase
     {
-        public System.Collections.Generic.Queue`1<Photon.Client.StreamBuffer> QueuedOutgoingCommandsCount; // 0x128
-        public System.Collections.Generic.List`1<Photon.Client.StreamBuffer> outgoingStream; // 0x130
-        public int lastPingActivity; // 0x138
-        public byte[] pingRequest; // 0x140
-        public Photon.Client.ParameterDictionary pingParamDict; // 0x148
-        public byte[] tcpFramedMessageHead;
-        public byte[] tcpMsgHead; // 0x8
-        public bool DoFraming; // 0x150
+        public object QueuedOutgoingCommandsCount;
 
         // ── Methods ──
         public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x7FFD53DFD6F0

@@ -15,7 +15,7 @@ public class FILE_TIME : ValueType
 
 public class FakeDelegate : Object
 {
-    public System.Reflection.MethodInfo Method; // 0x10
+    public m.jectMapInfo Method; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -40,8 +40,8 @@ public class FallbackKeyComparer`1 : Object
 
 public class FallbackWrapper`1 : Object
 {
-    public System.Collections.Generic.IEnumerable`1<T> Count;
-    public System.Collections.Generic.IList`1<T> Item;
+    public URA.bbrevEraNames<T1717734544> Count;
+    public URA.?<T1717734544> Item;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -60,12 +60,12 @@ public class Fallback`1 : MulticastDelegate
 
 public class FeatureFidelityGroup : Object
 {
-    public 0x66504FA8 targetFeatureEnabled; // 0x10
-    public 0x66504F50 targetFeatureFidelity; // 0x14
-    public 0x66504FA8 currentFeatureEnabled; // 0x18
-    public 0x66504F50 currentFeatureFidelity; // 0x1C
-    public System.Nullable`1<0x66504FA8> lastSetTargetFeatureEnabled; // 0x20
-    public System.Nullable`1<0x66504F50> lastSetTargetFeatureFidelity; // 0x28
+    public mationSampler targetFeatureEnabled; // 0x10
+    public rNode targetFeatureFidelity; // 0x14
+    public mationSampler currentFeatureEnabled; // 0x18
+    public rNode currentFeatureFidelity; // 0x1C
+    public aphy<mationSampler> lastSetTargetFeatureEnabled; // 0x20
+    public aphy<rNode> lastSetTargetFeatureFidelity; // 0x28
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53CF3B50
@@ -75,8 +75,8 @@ public class FieldDescription : ValueType
 {
     public string name;
     public string ussName;
-    public System.Func`2<V,T> read;
-    public WriteDelegate<V,V,T> write;
+    public n<T1717594480,T1717594512> read;
+    public Add<T1717594480,T1717594496,T1717594512> write;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E09B8C0
@@ -84,9 +84,9 @@ public class FieldDescription : ValueType
 
 public class FillCollection`1 : Object
 {
-    public int Count; // 0x10
-    public FillCollection`1<System.Collections.Generic.KeyValuePair`2<string,int>> IsReadOnly; // 0xFFFF
-    public int <Count>k__BackingField; // 0x14
+    public int Count;
+    public oups<T1717705872> IsReadOnly; // 0xFFFFFFFF
+    public int <Count>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -113,8 +113,8 @@ public class FilterBlockCallback : MulticastDelegate
 
 public class FinalizationHelper : Object
 {
-    public LinkedSlotVolatile<int>[] SlotArray; // 0x10
-    public bool m_trackAllValues; // 0x18
+    public ingForUnload<T1717586864>[] SlotArray;
+    public bool m_trackAllValues;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E096500
@@ -137,9 +137,9 @@ public class FindTransform : MulticastDelegate
 
 public class FingerData : ValueType
 {
-    public 0x66360878 Finger; // 0x10
-    public JointData[] Joints; // 0x18
-    public UnityEngine.Vector3 TipPosition; // 0x20
+    public ÏÍÍÏÎ Finger; // 0x10
+    public ?[] Joints; // 0x18
+    public amut TipPosition; // 0x20
 }
 
 public class FinishFrameRendering : ValueType
@@ -148,11 +148,11 @@ public class FinishFrameRendering : ValueType
 
 public class FirstValueToUniTaskObserver`1 : Object
 {
-    public System.Action`1<object> callback;
-    public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<T> promise;
-    public 0x665483F0 disposable;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Threading.CancellationTokenRegistration registration;
+    public ileFullDirectoryInformation<object> callback;
+    public eObjectDelegate.opertyObjectCreationHandling<T1717670576> promise;
+    public n.eading.Tasks.IAsyncValueChangedEventHandler<T>.OnValueChangedAsync disposable;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public sageKind.sition registration;
     public bool hasValue;
 
     // ── Methods ──
@@ -166,9 +166,9 @@ public class FirstValueToUniTaskObserver`1 : Object
 
 public class FoldoutList : Object
 {
-    public System.Collections.Generic.List`1<bool> Item; // 0x10
+    public URA.woDigitYearMax<bool> Item; // 0x10
     public bool Count; // 0x18
-    public UnityEngine.Vector2 scrollPos; // 0x1C
+    public tionX scrollPos; // 0x1C
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4E4D4BF0
@@ -198,7 +198,7 @@ public class FontTextureRebuildCallback : MulticastDelegate
 
 public class ForceOverLifetimeModule : ValueType
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public InDuration enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -242,14 +242,14 @@ public class ForceOverLifetimeModule : ValueType
 
 public class FovCache : ValueType
 {
-    public UnityEngine.Rect mFovSoftGuideRect; // 0x10
-    public UnityEngine.Rect mFovHardGuideRect; // 0x20
+    public dRecorder mFovSoftGuideRect; // 0x10
+    public dRecorder mFovHardGuideRect; // 0x20
     public float mFovH; // 0x30
     public float mFov; // 0x34
     public float mOrthoSizeOverDistance; // 0x38
     public float mAspect; // 0x3C
-    public UnityEngine.Rect mSoftGuideRect; // 0x40
-    public UnityEngine.Rect mHardGuideRect; // 0x50
+    public dRecorder mSoftGuideRect; // 0x40
+    public dRecorder mHardGuideRect; // 0x50
 
     // ── Methods ──
     public void UpdateCache(){} // RVA: 0x7FFD4FC44D60
@@ -284,9 +284,9 @@ public class FrameReadyEventHandler : MulticastDelegate
 
 public class FromAsyncTrimPromise`1 : Task`1
 {
-    public 0x6641E4D0 s_completeFromAsyncResult;
-    public T m_thisRef;
-    public System.Func`3<T,System.IAsyncResult,T> m_endMethod;
+    public ileVolumeNameInformation s_completeFromAsyncResult;
+    public T1717587840 m_thisRef;
+    public nalInformation<T1717587840,cess,T1717587824> m_endMethod;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40

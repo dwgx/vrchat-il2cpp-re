@@ -17,13 +17,9 @@ namespace ThirdParty.DotNet.System.Security.Principal
 
     public class WindowsIdentity : ClaimsIdentity
     {
-        public UIntPtr AuthenticationType; // 0x78
-        public string Name; // 0x80
-        public 0x6642E388 Owner; // 0x88
-        public bool _authenticated; // 0x8C
-        public string _name; // 0x90
-        public System.Runtime.Serialization.SerializationInfo _info; // 0x98
-        public UIntPtr invalidWindows;
+        public object AuthenticationType;
+        public object Name;
+        public object Owner;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53870930 | overloaded x3

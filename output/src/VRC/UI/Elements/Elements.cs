@@ -7,16 +7,16 @@ namespace VRC.UI.Elements
 {
     public class MainMenuPlacementData : Object
     {
-        public UnityEngine.Transform MenuPlacementZDepthVR; // 0x10
+        public object MenuPlacementZDepthVR; // 0x10
         public float ZDepthMovementSpeedMultiplier;
         public float ScaleContainer;
         public float LastLocalRotation;
         public float LastLocalLookRotation; // 0x18
-        public UnityEngine.Quaternion MMDimensions; // 0x1C
-        public System.Nullable`1<UnityEngine.Quaternion> VrPosition; // 0x2C
-        public UnityEngine.Vector2 VrScale; // 0x40
-        public UnityEngine.Vector3 DesktopPosition; // 0x48
-        public UnityEngine.Vector3 <ÌÎÎÎÎÍÎÏÏÎÌÍÌÌÎÌÏÎÎÎÍÌÍ>k__BackingField; // 0x54
+        public R_12x12 MMDimensions; // 0x1C
+        public aphy<R_12x12> VrPosition; // 0x2C
+        public tionX VrScale; // 0x40
+        public amut DesktopPosition; // 0x48
+        public amut <ÌÎÎÎÎÍÎÏÏÎÌÍÌÌÎÌÏÎÎÎÍÌÍ>k__BackingField; // 0x54
 
         // ── Methods ──
         public void get_MMDimensions(){} // RVA: 0x7FFD55032650
@@ -45,17 +45,17 @@ namespace VRC.UI.Elements
 
     public class QuickMenuPlacer : Object
     {
-        public UnityEngine.Transform MotionSmoothingEnabled; // 0x10
-        public UnityEngine.Transform IsAttachedToHand; // 0x18
-        public UnityEngine.Vector3 DesktopScale; // 0x20
-        public UnityEngine.Vector3 _vrTwoHandedMenuPosL; // 0x2C
-        public UnityEngine.Vector3 _vrTwoHandedMenuRotL; // 0x38
-        public UnityEngine.Vector3 _vrTwoHandedMenuPosR; // 0x44
-        public UnityEngine.Vector3 _vrTwoHandedMenuRotR; // 0x50
-        public UnityEngine.Vector3 _vrTwoHandedMenuScale; // 0x5C
-        public UnityEngine.Vector3 _vrOneHandedMenuPos; // 0x68
-        public UnityEngine.Vector3 _vrOneHandedMenuRot; // 0x74
-        public UnityEngine.Vector3 _vrOneHandedMenuScale; // 0x80
+        public object MotionSmoothingEnabled; // 0x10
+        public object IsAttachedToHand; // 0x18
+        public amut DesktopScale; // 0x20
+        public amut _vrTwoHandedMenuPosL; // 0x2C
+        public amut _vrTwoHandedMenuRotL; // 0x38
+        public amut _vrTwoHandedMenuPosR; // 0x44
+        public amut _vrTwoHandedMenuRotR; // 0x50
+        public amut _vrTwoHandedMenuScale; // 0x5C
+        public amut _vrOneHandedMenuPos; // 0x68
+        public amut _vrOneHandedMenuRot; // 0x74
+        public amut _vrOneHandedMenuScale; // 0x80
         public bool _menuWasPlaced; // 0x8C
         public bool _wasAttachedToHand; // 0x8D
         public bool <ÍÏÍÏÏÍÏÏÎÏÍÎÍÍÎÎÎÎÎÏÍÏÌ>k__BackingField; // 0x8E

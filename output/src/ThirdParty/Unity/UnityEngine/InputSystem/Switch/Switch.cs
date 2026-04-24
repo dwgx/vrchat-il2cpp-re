@@ -7,9 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Switch
 {
     public class SwitchProControllerHID : Gamepad
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl captureButton; // 0x210
-        public UnityEngine.InputSystem.Controls.ButtonControl homeButton; // 0x218
-        public 0x664AB270[] s_HandshakeSequence;
+        public _1.ceControlChangedValue captureButton; // 0x210
+        public _1.ceControlChangedValue homeButton; // 0x218
+        public everAutoSwitchControlSchemes[] s_HandshakeSequence;
         public int m_HandshakeStepIndex; // 0x220
         public double m_HandshakeTimer; // 0x228
         public byte JitterMaskLow;

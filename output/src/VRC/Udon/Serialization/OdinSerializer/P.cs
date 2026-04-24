@@ -7,9 +7,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class PrefabModification : Object
     {
-        public 0x66584460 ModificationType; // 0x10
+        public ild ModificationType; // 0x10
         public string Path; // 0x18
-        public System.Collections.Generic.List`1<string> ReferencePaths; // 0x20
+        public URA.woDigitYearMax<string> ReferencePaths; // 0x20
         public object ModifiedValue; // 0x28
         public int NewLength; // 0x30
         public object[] DictionaryKeysAdded; // 0x38

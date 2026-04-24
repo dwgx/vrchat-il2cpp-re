@@ -7,7 +7,7 @@ namespace VRC.UI.Client.Emoji
 {
     public class EmojiCategoryList : ScriptableObject
     {
-        public System.Collections.Generic.List`1<VRC.UI.Client.Emoji.EmojiDataList> Categories; // 0x18
+        public URA.woDigitYearMax<?> Categories; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
@@ -17,11 +17,11 @@ namespace VRC.UI.Client.Emoji
     {
         public string ID; // 0x18
         public string OwnerID; // 0x20
-        public UnityEngine.Sprite FileId; // 0x28
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField FileId; // 0x28
         public string IsBuiltIn; // 0x30
-        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> DisplayTexture; // 0x38
-        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> FullResolutionTexture; // 0x40
-        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Sprite> Sprite; // 0x48
+        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ector> DisplayTexture; // 0x38
+        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ector> FullResolutionTexture; // 0x40
+        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField> Sprite; // 0x48
         public string IsAnimated; // 0x50
         public string IsPremium; // 0x58
         public string LoadFrom; // 0x60
@@ -69,8 +69,8 @@ namespace VRC.UI.Client.Emoji
     public class EmojiDataList : ScriptableObject
     {
         public string Name; // 0x18
-        public UnityEngine.Sprite Icon; // 0x20
-        public System.Collections.Generic.List`1<VRC.UI.Client.Emoji.EmojiData> Data; // 0x28
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField Icon; // 0x20
+        public URA.woDigitYearMax<ÎÎ> Data; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0

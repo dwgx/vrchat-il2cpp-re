@@ -7,13 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.SpatialTracking
 {
     public class TrackedPoseDriver : MonoBehaviour
     {
-        public 0x66641820 deviceType; // 0x20
-        public 9@ poseSource; // 0x24
-        public UnityEngine.Experimental.XR.Interaction.BasePoseProvider poseProviderComponent; // 0x28
-        public 0x666418D0 trackingType; // 0x30
-        public 0x66641928 updateType; // 0x34
+        public ilableSlot deviceType; // 0x20
+        public object poseSource; // 0x24
+        public .UnityUI.dll.oVideo.Extensions.UnityUI.dll poseProviderComponent; // 0x28
+        public ch7deltadown trackingType; // 0x30
+        public object updateType; // 0x34
         public bool UseRelativeTransform; // 0x38
-        public UnityEngine.Pose originPose; // 0x3C
+        public object originPose; // 0x3C
 
         // ── Methods ──
         public void get_deviceType(){} // RVA: 0x7FFD4E4FBBE0

@@ -13,7 +13,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal.Serialization
 
     public class NewtonsoftSerializer : Object
     {
-        public Newtonsoft.Json.JsonSerializer m_Serializer; // 0x10
+        public ex.ndGoalPosition m_Serializer; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2

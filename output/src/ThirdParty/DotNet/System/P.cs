@@ -25,7 +25,7 @@ namespace ThirdParty.DotNet.System
 
     public class Pinnable`1 : Object
     {
-        public T Data;
+        public T1717725648 Data;
     }
 
     public class Predicate`1 : MulticastDelegate
@@ -34,10 +34,10 @@ namespace ThirdParty.DotNet.System
 
     public class Progress`1 : Object
     {
-        public System.Threading.SynchronizationContext _synchronizationContext;
-        public System.Action`1<T> _handler;
-        public System.Threading.SendOrPostCallback _invokeHandlers;
-        public System.EventHandler`1<T> ProgressChanged;
+        public sageKind.ironmentVariable_native _synchronizationContext;
+        public ileFullDirectoryInformation<T1717584336> _handler;
+        public sageKind.st _invokeHandlers;
+        public tTable<T1717584336> ProgressChanged;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2

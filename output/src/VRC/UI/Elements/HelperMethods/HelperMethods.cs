@@ -7,7 +7,7 @@ namespace VRC.UI.Elements.HelperMethods
 {
     public class UIAlert : ValueType
     {
-        public VRC.Localization.LocalizableString _message; // 0x10
+        public itTypeSize=876 _message; // 0x10
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56A66150
@@ -20,8 +20,8 @@ namespace VRC.UI.Elements.HelperMethods
 
     public class UIBinaryAlert : ValueType
     {
-        public VRC.Localization.LocalizableString _localizedSuccess; // 0x10
-        public VRC.Localization.LocalizableString _localizedFail; // 0x38
+        public itTypeSize=876 _localizedSuccess; // 0x10
+        public itTypeSize=876 _localizedFail; // 0x38
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56A66570
@@ -36,8 +36,8 @@ namespace VRC.UI.Elements.HelperMethods
 
     public class UIConfirmDialog : ValueType
     {
-        public VRC.Localization.LocalizableString _localizedTitle; // 0x10
-        public VRC.Localization.LocalizableString _localizedBody; // 0x38
+        public itTypeSize=876 _localizedTitle; // 0x10
+        public itTypeSize=876 _localizedBody; // 0x38
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56A66BF0
@@ -50,8 +50,8 @@ namespace VRC.UI.Elements.HelperMethods
 
     public class UIDeletePrompts : ValueType
     {
-        public VRC.UI.Elements.HelperMethods.UIConfirmDialog _confirmPrompt; // 0x10
-        public VRC.UI.Elements.HelperMethods.UIBinaryAlert _resultOfActionPrompt; // 0x60
+        public utton._mobileIcon _confirmPrompt; // 0x10
+        public utton.rtIcon _resultOfActionPrompt; // 0x60
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56A67230

@@ -7,9 +7,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 {
     public class FaceBlendshapesGraphOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceBlendshapesGraphOptions> Parser;
-        public 0x6658E800 Descriptor; // 0x10
-        public Mediapipe.Tasks.Core.Proto.BaseOptions pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public gBox.itionBlend<et_Executor.t> Parser;
+        public gBox.ra Descriptor; // 0x10
+        public nceFieldNumber.rdio pb::Google.Protobuf.IMessage.Descriptor; // 0x18
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53723B60
@@ -32,15 +32,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 
     public class FaceLandmarkerGraphOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceLandmarkerGraphOptions> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<et_Executor.r_> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public Mediapipe.Tasks.Core.Proto.BaseOptions BaseOptions; // 0x20
-        public Mediapipe.Tasks.Vision.FaceDetector.Proto.FaceDetectorGraphOptions FaceDetectorGraphOptions; // 0x28
-        public Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceLandmarksDetectorGraphOptions FaceLandmarksDetectorGraphOptions; // 0x30
+        public nceFieldNumber.rdio BaseOptions; // 0x20
+        public ionId.ns FaceDetectorGraphOptions; // 0x28
+        public et_Executor.rgeFields FaceLandmarksDetectorGraphOptions; // 0x30
         public float MinTrackingConfidence; // 0x8
         public float HasMinTrackingConfidence; // 0x38
-        public Mediapipe.Tasks.Vision.FaceGeometry.Proto.FaceGeometryGraphOptions FaceGeometryGraphOptions; // 0x40
+        public _HasRightX.MergeFields FaceGeometryGraphOptions; // 0x40
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD537256A0
@@ -73,15 +73,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 
     public class FaceLandmarksDetectorGraphOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceLandmarksDetectorGraphOptions> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<et_Executor.rgeFields> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public Mediapipe.Tasks.Core.Proto.BaseOptions BaseOptions; // 0x20
+        public nceFieldNumber.rdio BaseOptions; // 0x20
         public float MinDetectionConfidence; // 0x8
         public float HasMinDetectionConfidence; // 0x28
         public bool SmoothLandmarks; // 0xC
         public bool HasSmoothLandmarks; // 0x2C
-        public Mediapipe.Tasks.Vision.FaceLandmarker.Proto.FaceBlendshapesGraphOptions FaceBlendshapesGraphOptions; // 0x30
+        public et_Executor.t FaceBlendshapesGraphOptions; // 0x30
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53727860

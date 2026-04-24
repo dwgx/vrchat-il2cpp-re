@@ -7,8 +7,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 {
     public class AsyncUniTaskMethodBuilder : ValueType
     {
-        public Cysharp.Threading.Tasks.CompilerServices.IStateMachineRunnerPromise Task; // 0x10
-        public System.Exception ex; // 0x18
+        public er<T>.OnTextSelectionAsync.SubmitEventHandler<T>.OnSubmitAsync Task; // 0x10
+        public ÏÏÍÍÎÎ ex; // 0x18
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4F3D3780
@@ -23,9 +23,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.CompilerServices.IStateMachineRunnerPromise`1<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> Task; // 0x10
-        public System.Exception ex; // 0x18
-        public ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ result; // 0x20
+        public er<T>.OnTextSelectionAsync.mitAsync<URA.woDigitYearMax<ÌÌÌÏÎÌÌÏÎÍÌÌÍÏÌÍÎÎÌÏÍ>> Task; // 0x10
+        public ÏÏÍÍÎÎ ex; // 0x18
+        public URA.woDigitYearMax<ÌÌÌÏÎÌÌÏÎÍÌÌÍÏÌÍÎÎÌÏÍ> result; // 0x20
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E2ADC40
@@ -40,7 +40,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoidMethodBuilder : ValueType
     {
-        public Cysharp.Threading.Tasks.CompilerServices.IStateMachineRunner Task; // 0x10
+        public er<T>.OnTextSelectionAsync.ectEventHandler<T>.OnSelectAsync Task; // 0x10
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E919180
@@ -55,11 +55,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoid`1 : Object
     {
-        public Cysharp.Threading.Tasks.TaskPool`1<Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid`1<0x664D2938>> ReturnAction;
-        public System.Action MoveNext; // 0x10
-        public 0x664D2938 NextNode; // 0x18
-        public System.Action <MoveNext>k__BackingField; // 0x70
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid`1<0x664D2938> nextNode; // 0x78
+        public eObjectDelegate.ion<er<T>.OnTextSelectionAsync.EventHandlerAsyncEnumerable<T1717672288>> ReturnAction;
+        public ÎÌÍÏÏÌÍÏ MoveNext;
+        public T1717672288 NextNode;
+        public ÎÌÍÏÏÌÍÏ <MoveNext>k__BackingField;
+        public er<T>.OnTextSelectionAsync.EventHandlerAsyncEnumerable<T1717672288> nextNode;
 
         // ── Methods ──
         public void get_ReturnAction(){} // RVA: 0x7FFD4E078E90
@@ -78,12 +78,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTask`1 : Object
     {
-        public Cysharp.Threading.Tasks.TaskPool`1<Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`1<0x664D28E0>> MoveNext;
-        public System.Action NextNode; // 0x10
-        public System.Action Task; // 0x18
-        public 0x664D28E0 stateMachine; // 0x20
-        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<Cysharp.Threading.Tasks.AsyncUnit> core; // 0xB8
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`1<0x664D28E0> nextNode; // 0xE0
+        public eObjectDelegate.ion<er<T>.OnTextSelectionAsync.egistration1<?>> MoveNext;
+        public ÎÌÍÏÏÌÍÏ NextNode; // 0x10
+        public ÎÌÍÏÏÌÍÏ Task; // 0x18
+        public object stateMachine; // 0x20
+        public eObjectDelegate.ataProperty>k__BackingField<eObjectDelegate.b__1> core; // 0x80
+        public er<T>.OnTextSelectionAsync.egistration1<?> nextNode; // 0xA8
 
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x7FFD4E3447C0
@@ -105,12 +105,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTask`2 : Object
     {
-        public Cysharp.Threading.Tasks.TaskPool`1<Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2<0x664D2F10,System.ValueTuple`3<bool,UnityEngine.Texture2D,0x664D2D00>>> MoveNext;
-        public System.Action NextNode; // 0x10
-        public System.Action Task; // 0x18
-        public 0x664D2F10 stateMachine; // 0x20
-        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<System.ValueTuple`3<bool,UnityEngine.Texture2D,0x664D2D00>> core; // 0x100
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2<0x664D2F10,System.ValueTuple`3<bool,UnityEngine.Texture2D,0x664D2D00>> nextNode; // 0x138
+        public eObjectDelegate.ion<er<T>.OnTextSelectionAsync.merable`1<T1717672368,T1717672384>> MoveNext;
+        public ÎÌÍÏÏÌÍÏ NextNode;
+        public ÎÌÍÏÏÌÍÏ Task;
+        public T1717672368 stateMachine;
+        public eObjectDelegate.ataProperty>k__BackingField<T1717672384> core;
+        public er<T>.OnTextSelectionAsync.merable`1<T1717672368,T1717672384> nextNode;
 
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x7FFD4E3447C0

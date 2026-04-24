@@ -7,8 +7,8 @@ namespace ThirdParty.Valve.Valve.VR
 {
     public class RenderModel_ComponentState_t : ValueType
     {
-        public Valve.VR.HmdMatrix34_t mTrackingToComponentRenderModel; // 0x10
-        public Valve.VR.HmdMatrix34_t mTrackingToComponentLocal; // 0x40
+        public hPosePacked mTrackingToComponentRenderModel; // 0x10
+        public hPosePacked mTrackingToComponentLocal; // 0x40
         public uint uProperties; // 0x70
     }
 
@@ -22,7 +22,7 @@ namespace ThirdParty.Valve.Valve.VR
         public ushort unWidth; // 0x10
         public ushort unHeight; // 0x12
         public UIntPtr rubTextureMapData; // 0x18
-        public 0x665A1310 format; // 0x20
+        public ÎÏÎ format; // 0x20
         public ushort unMipLevels; // 0x24
     }
 
@@ -31,7 +31,7 @@ namespace ThirdParty.Valve.Valve.VR
         public ushort unWidth; // 0x10
         public ushort unHeight; // 0x12
         public UIntPtr rubTextureMapData; // 0x14
-        public 0x665A1310 format; // 0x1C
+        public ÎÏÎ format; // 0x1C
         public ushort unMipLevels; // 0x20
 
         // ── Methods ──
@@ -41,8 +41,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class RenderModel_Vertex_t : ValueType
     {
-        public Valve.VR.HmdVector3_t vPosition; // 0x10
-        public Valve.VR.HmdVector3_t vNormal; // 0x1C
+        public VRChaperone vPosition; // 0x10
+        public VRChaperone vNormal; // 0x1C
         public float rfTextureCoord0; // 0x28
         public float rfTextureCoord1; // 0x2C
     }

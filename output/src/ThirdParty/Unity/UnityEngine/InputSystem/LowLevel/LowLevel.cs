@@ -7,14 +7,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 {
     public class ActionEvent : ValueType
     {
-        public UnityEngine.InputSystem.LowLevel.InputEvent Type; // 0x10
+        public Device.mnsDirty Type; // 0x10
         public ushort startTime; // 0x24
         public ushort phase; // 0x26
         public ushort valueData; // 0x28
         public byte valueSizeInBytes; // 0x2A
         public byte stateIndex; // 0x2B
         public double controlIndex; // 0x2C
-        public 0x664ADE18 bindingIndex; // 0x34
+        public g>k__BackingField bindingIndex; // 0x34
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A944B0
@@ -41,10 +41,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class DeltaStateEvent : ValueType
     {
         public int deltaStateSizeInBytes;
-        public UnityEngine.InputSystem.LowLevel.InputEvent deltaState; // 0x10
-        public UnityEngine.InputSystem.Utilities.FourCC typeStatic; // 0x24
+        public Device.mnsDirty deltaState; // 0x10
+        public 2.Code typeStatic; // 0x24
         public uint stateOffset; // 0x28
-        public 0x664ADEC8 stateData; // 0x2C
+        public __BackingField stateData; // 0x2C
 
         // ── Methods ──
         public void get_deltaStateSizeInBytes(){} // RVA: 0x7FFD54A94830
@@ -58,7 +58,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class DeviceConfigurationEvent : ValueType
     {
         public int typeStatic;
-        public UnityEngine.InputSystem.LowLevel.InputEvent baseEvent; // 0x10
+        public Device.mnsDirty baseEvent; // 0x10
 
         // ── Methods ──
         public void get_typeStatic(){} // RVA: 0x7FFD54A94D10
@@ -69,7 +69,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class DeviceRemoveEvent : ValueType
     {
         public int typeStatic;
-        public UnityEngine.InputSystem.LowLevel.InputEvent baseEvent; // 0x10
+        public Device.mnsDirty baseEvent; // 0x10
 
         // ── Methods ──
         public void get_typeStatic(){} // RVA: 0x7FFD54A94DF0
@@ -80,7 +80,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class DeviceResetEvent : ValueType
     {
         public int typeStatic;
-        public UnityEngine.InputSystem.LowLevel.InputEvent baseEvent; // 0x10
+        public Device.mnsDirty baseEvent; // 0x10
         public bool hardReset; // 0x18
 
         // ── Methods ──
@@ -91,7 +91,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class DisableDeviceCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A93140
@@ -102,7 +102,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class DualMotorRumbleCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
         public float lowFrequencyMotorSpeed; // 0x18
         public float highFrequencyMotorSpeed; // 0x1C
 
@@ -115,7 +115,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class EnableDeviceCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A93170
@@ -126,7 +126,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class EnableIMECompositionCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand imeEnabled; // 0x10
+        public Device.formUserAccount imeEnabled; // 0x10
         public byte typeStatic; // 0x18
 
         // ── Methods ──
@@ -253,8 +253,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     {
         public int typeStatic;
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputEvent baseEvent; // 0x10
-        public 0x664AE1E0 compositionString; // 0x24
+        public Device.mnsDirty baseEvent; // 0x10
+        public Device.ings compositionString; // 0x24
 
         // ── Methods ──
         public void get_typeStatic(){} // RVA: 0x7FFD54A94FC0
@@ -271,7 +271,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class InitiateUserAccountPairingCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A931F0
@@ -285,7 +285,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
         public int payloadPtr;
         public long typeStatic;
         public long GenericSuccess;
-        public UnityEngine.InputSystem.Utilities.FourCC type; // 0x10
+        public 2.Code type; // 0x10
         public int sizeInBytes; // 0x14
 
         // ── Methods ──
@@ -312,7 +312,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
         public int eventId;
         public int deviceId;
         public int time;
-        public ÎÌÍÌÎÍÏÍÍÎÌÍÍÏÏÎÌÌÍÏ internalTime; // 0x10
+        public ckingField.eviewSpeed internalTime; // 0x10
 
         // ── Methods ──
         public void get_type(){} // RVA: 0x7FFD4F840210
@@ -339,7 +339,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class InputEventBuffer : ValueType
     {
         public long eventCount;
-        public Unity.Collections.NativeArray`1<byte> sizeInBytes; // 0x10
+        public ÍÎÏÎÎ.ÌÌ<byte> sizeInBytes; // 0x10
         public long capacityInBytes; // 0x20
         public int data; // 0x28
         public bool bufferPtr; // 0x2C
@@ -365,7 +365,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputEventListener : ValueType
     {
-        public 0x664AE340 s_ObserverState;
+        public kitPointerId>k__BackingField s_ObserverState;
 
         // ── Methods ──
         public void op_Addition(){} // RVA: 0x7FFD54A96890
@@ -375,7 +375,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputEventPtr : ValueType
     {
-        public UnityEngine.InputSystem.LowLevel.InputEvent* valid; // 0x10
+        public IntPtr valid; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F9DB120
@@ -411,14 +411,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputEventStream : ValueType
     {
-        public UnityEngine.InputSystem.LowLevel.InputEventBuffer isOpen; // 0x10
-        public UnityEngine.InputSystem.LowLevel.InputEvent* remainingEventCount; // 0x30
-        public UnityEngine.InputSystem.LowLevel.InputEvent* numEventsRetainedInBuffer; // 0x38
+        public Device.__BackingField isOpen; // 0x10
+        public IntPtr remainingEventCount; // 0x30
+        public IntPtr numEventsRetainedInBuffer; // 0x38
         public int currentEventPtr; // 0x40
         public int numBytesRetainedInBuffer; // 0x44
-        public UnityEngine.InputSystem.LowLevel.InputEventBuffer m_AppendBuffer; // 0x48
-        public UnityEngine.InputSystem.LowLevel.InputEvent* m_CurrentAppendEventReadPtr; // 0x68
-        public UnityEngine.InputSystem.LowLevel.InputEvent* m_CurrentAppendEventWritePtr; // 0x70
+        public Device.__BackingField m_AppendBuffer; // 0x48
+        public IntPtr m_CurrentAppendEventReadPtr; // 0x68
+        public IntPtr m_CurrentAppendEventWritePtr; // 0x70
         public int m_RemainingAppendEventCount; // 0x78
         public int m_NumEventsRetainedInBuffer; // 0x7C
         public bool m_IsOpen; // 0x80
@@ -440,12 +440,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class InputEventTrace : Object
     {
         public int FrameMarkerEvent;
-        public Unity.Profiling.ProfilerMarker deviceId;
+        public object deviceId;
         public int enabled; // 0x10
         public bool recordFrameMarkers; // 0x14
-        public System.Func`3<UnityEngine.InputSystem.LowLevel.InputEventPtr,UnityEngine.InputSystem.InputDevice,bool> eventCount; // 0x18
+        public nalInformation<Device.ckingField,ilAddress.ActionProperty,bool> eventCount; // 0x18
         public int totalEventSizeInBytes; // 0x20
-        public UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.LowLevel.InputEventPtr>> allocatedSizeInBytes; // 0x28
+        public 2.Enabled<ileFullDirectoryInformation<Device.ckingField>> allocatedSizeInBytes; // 0x28
         public long maxSizeInBytes; // 0x78
         public long deviceInfos; // 0x80
         public long onFilterEvent; // 0x88
@@ -456,7 +456,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
         public ulong m_EventBufferTailStorage; // 0xB0
         public bool m_HasWrapped; // 0xB8
         public bool m_RecordFrameMarkers; // 0xB9
-        public 0x664AE6B0[] m_DeviceInfos; // 0xC0
+        public matWarn>k__BackingField[] m_DeviceInfos; // 0xC0
         public int kFileVersion; // 0x8
 
         // ── Methods ──
@@ -546,7 +546,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputRuntime : Object
     {
-        public UnityEngine.InputSystem.LowLevel.IInputRuntime s_Instance;
+        public Device.tion s_Instance;
         public double s_CurrentTimeOffsetToRealtimeSinceStartup; // 0x8
     }
 
@@ -580,45 +580,45 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     {
         public uint format;
         public uint byteOffset;
-        public UnityEngine.InputSystem.Utilities.FourCC bitOffset;
+        public 2.Code bitOffset;
         public int sizeInBits;
-        public UnityEngine.InputSystem.Utilities.FourCC alignedSizeInBytes; // 0x4
+        public 2.Code alignedSizeInBytes; // 0x4
         public int effectiveByteOffset;
-        public UnityEngine.InputSystem.Utilities.FourCC effectiveBitOffset; // 0x8
+        public 2.Code effectiveBitOffset; // 0x8
         public int kFormatSBit;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatInt; // 0xC
+        public 2.Code FormatInt; // 0xC
         public int kFormatInt;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatUInt; // 0x10
+        public 2.Code FormatUInt; // 0x10
         public int kFormatUInt;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatShort; // 0x14
+        public 2.Code FormatShort; // 0x14
         public int kFormatShort;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatUShort; // 0x18
+        public 2.Code FormatUShort; // 0x18
         public int kFormatUShort;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatByte; // 0x1C
+        public 2.Code FormatByte; // 0x1C
         public int kFormatByte;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatSByte; // 0x20
+        public 2.Code FormatSByte; // 0x20
         public int kFormatSByte;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatLong; // 0x24
+        public 2.Code FormatLong; // 0x24
         public int kFormatLong;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatULong; // 0x28
+        public 2.Code FormatULong; // 0x28
         public int kFormatULong;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatFloat; // 0x2C
+        public 2.Code FormatFloat; // 0x2C
         public int kFormatFloat;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatDouble; // 0x30
+        public 2.Code FormatDouble; // 0x30
         public int kFormatDouble;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatVector2; // 0x34
+        public 2.Code FormatVector2; // 0x34
         public int kFormatVector2;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatVector3; // 0x38
+        public 2.Code FormatVector3; // 0x38
         public int kFormatVector3;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatQuaternion; // 0x3C
+        public 2.Code FormatQuaternion; // 0x3C
         public int kFormatQuaternion;
-        public UnityEngine.InputSystem.Utilities.FourCC FormatVector2Short; // 0x40
-        public UnityEngine.InputSystem.Utilities.FourCC FormatVector3Short; // 0x44
-        public UnityEngine.InputSystem.Utilities.FourCC FormatVector2Byte; // 0x48
-        public UnityEngine.InputSystem.Utilities.FourCC FormatVector3Byte; // 0x4C
-        public UnityEngine.InputSystem.Utilities.FourCC FormatPose; // 0x50
+        public 2.Code FormatVector2Short; // 0x40
+        public 2.Code FormatVector3Short; // 0x44
+        public 2.Code FormatVector2Byte; // 0x48
+        public 2.Code FormatVector3Byte; // 0x4C
+        public 2.Code FormatPose; // 0x50
         public int kFormatPose;
-        public UnityEngine.InputSystem.Utilities.FourCC <format>k__BackingField; // 0x10
+        public 2.Code <format>k__BackingField; // 0x10
         public uint m_ByteOffset; // 0x14
         public uint <bitOffset>k__BackingField; // 0x18
         public uint <sizeInBits>k__BackingField; // 0x1C
@@ -653,15 +653,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     {
         public uint sizePerBuffer; // 0x10
         public uint totalSize; // 0x14
-        public void* defaultStateBuffer; // 0x18
-        public void* noiseMaskBuffer; // 0x20
-        public void* resetMaskBuffer; // 0x28
-        public void* m_AllBuffers; // 0x30
-        public DoubleBuffers m_PlayerStateBuffers; // 0x38
-        public void* s_DefaultStateBuffer;
-        public void* s_NoiseMaskBuffer; // 0x8
-        public void* s_ResetMaskBuffer; // 0x10
-        public DoubleBuffers s_CurrentBuffers; // 0x18
+        public IntPtr defaultStateBuffer; // 0x18
+        public IntPtr noiseMaskBuffer; // 0x20
+        public IntPtr resetMaskBuffer; // 0x28
+        public IntPtr m_AllBuffers; // 0x30
+        public eld m_PlayerStateBuffers; // 0x38
+        public IntPtr s_DefaultStateBuffer;
+        public IntPtr s_NoiseMaskBuffer; // 0x8
+        public IntPtr s_ResetMaskBuffer; // 0x10
+        public eld s_CurrentBuffers; // 0x18
 
         // ── Methods ──
         public void GetDoubleBuffersFor(){} // RVA: 0x7FFD54AA2C30
@@ -681,18 +681,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class InputStateHistory : Object
     {
         public int Count;
-        public System.Action`1<Record> version; // 0x10
-        public System.Func`4<UnityEngine.InputSystem.InputControl,double,UnityEngine.InputSystem.LowLevel.InputEventPtr,bool> historyDepth; // 0x18
-        public UnityEngine.InputSystem.InputControl[] extraMemoryPerRecord; // 0x20
+        public ileFullDirectoryInformation<n> version; // 0x10
+        public rmation<ilAddress.ressedThisFrame,double,Device.ckingField,bool> historyDepth; // 0x18
+        public ilAddress.ressedThisFrame[] extraMemoryPerRecord; // 0x20
         public int updateMask; // 0x28
-        public Unity.Collections.NativeArray`1<byte> controls; // 0x30
+        public ÍÎÏÎÎ.ÌÌ<byte> controls; // 0x30
         public int Item; // 0x40
         public int onRecordAdded; // 0x44
         public int onShouldRecordStateChange; // 0x48
         public int bytesPerRecord; // 0x4C
         public int m_HeadIndex; // 0x50
         public uint m_CurrentVersion; // 0x54
-        public System.Nullable`1<0x664AEA20> m_UpdateMask; // 0x58
+        public aphy<Device.tClick> m_UpdateMask; // 0x58
         public bool m_AddNewControls; // 0x60
 
         // ── Methods ──
@@ -753,8 +753,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class InputUpdate : Object
     {
         public uint s_UpdateStepCount;
-        public 0x664AEA20 s_LatestUpdateType; // 0x4
-        public UpdateStepCount s_PlayerUpdateStepCount; // 0x8
+        public Device.tClick s_LatestUpdateType; // 0x4
+        public kingMask s_PlayerUpdateStepCount; // 0x8
 
         // ── Methods ──
         public void OnBeforeUpdate(){} // RVA: 0x7FFD54A9D7F0
@@ -776,15 +776,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class NativeInputRuntime : Object
     {
-        public UnityEngine.InputSystem.LowLevel.NativeInputRuntime onUpdate;
+        public Device.kFor2DOcclusion onUpdate;
         public bool onBeforeUpdate; // 0x10
-        public System.Action onShouldRunUpdate; // 0x18
-        public UnityEngine.InputSystem.LowLevel.InputUpdateDelegate onDeviceDiscovered; // 0x20
-        public System.Action`1<0x664AEA20> onShutdown; // 0x28
-        public System.Func`2<0x664AEA20,bool> onPlayerFocusChanged; // 0x30
+        public ÎÌÍÏÏÌÍÏ onShouldRunUpdate; // 0x18
+        public Device.oveAction onDeviceDiscovered; // 0x20
+        public ileFullDirectoryInformation<Device.tClick> onShutdown; // 0x28
+        public n<Device.tClick,bool> onPlayerFocusChanged; // 0x30
         public float isPlayerFocused; // 0x38
         public bool pollingFrequency; // 0x3C
-        public System.Action`1<bool> currentTime; // 0x40
+        public ileFullDirectoryInformation<bool> currentTime; // 0x40
 
         // ── Methods ──
         public void AllocateDeviceId(){} // RVA: 0x7FFD54A9DA30
@@ -825,7 +825,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class QueryCanRunInBackground : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
         public bool canRunInBackground; // 0x18
 
         // ── Methods ──
@@ -837,8 +837,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class QueryDimensionsCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
-        public UnityEngine.Vector2 outDimensions; // 0x18
+        public Device.formUserAccount typeStatic; // 0x10
+        public tionX outDimensions; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A93450
@@ -849,7 +849,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class QueryEnabledStateCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
         public bool isEnabled; // 0x18
 
         // ── Methods ──
@@ -862,9 +862,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     {
         public int Type;
         public int typeStatic;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
+        public Device.formUserAccount baseCommand; // 0x10
         public int scanOrKeyCode; // 0x18
-        public 0x664AD058 nameBuffer; // 0x1C
+        public platformUserAccountId nameBuffer; // 0x1C
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A93570
@@ -876,8 +876,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class QueryKeyboardLayoutCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
-        public 0x664ACFA8 nameBuffer; // 0x18
+        public Device.formUserAccount typeStatic; // 0x10
+        public platformUserAccountId nameBuffer; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A934C0
@@ -892,10 +892,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
         public int Type;
         public int id;
         public int name;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
         public ulong handle; // 0x18
-        public 0x664AD1B8 nameBuffer; // 0x20
-        public 0x664AD160 idBuffer; // 0x220
+        public platformUserAccountId nameBuffer; // 0x20
+        public ces idBuffer; // 0x220
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A935F0
@@ -910,7 +910,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class QuerySamplingFrequencyCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
         public float frequency; // 0x18
 
         // ── Methods ──
@@ -923,8 +923,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     {
         public int Type;
         public int typeStatic;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
-        public 0x664AD2C0 idBuffer; // 0x18
+        public Device.formUserAccount baseCommand; // 0x10
+        public ces idBuffer; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A93920
@@ -936,7 +936,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class RequestResetCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A93970
@@ -947,7 +947,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class RequestSyncCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A939A0
@@ -957,8 +957,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class SelectObservable`2 : Object
     {
-        public System.IObservable`1<U> m_Source;
-        public System.Func`2<U,T> m_Filter;
+        public subkeyWritable<T1717600576> m_Source;
+        public n<T1717600576,T1717600592> m_Filter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -968,8 +968,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class SetIMECursorPositionCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand position; // 0x10
-        public UnityEngine.Vector2 typeStatic; // 0x18
+        public Device.formUserAccount position; // 0x10
+        public tionX typeStatic; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A939D0
@@ -981,7 +981,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class SetSamplingFrequencyCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+        public Device.formUserAccount typeStatic; // 0x10
         public float frequency; // 0x18
 
         // ── Methods ──
@@ -994,9 +994,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     {
         public int stateSizeInBytes;
         public int state;
-        public UnityEngine.InputSystem.LowLevel.InputEvent typeStatic; // 0x10
-        public UnityEngine.InputSystem.Utilities.FourCC stateFormat; // 0x24
-        public 0x664AE760 stateData; // 0x28
+        public Device.mnsDirty typeStatic; // 0x10
+        public 2.Code stateFormat; // 0x24
+        public __BackingField stateData; // 0x28
 
         // ── Methods ──
         public void get_stateSizeInBytes(){} // RVA: 0x7FFD54A9CEB0
@@ -1013,7 +1013,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class TextEvent : ValueType
     {
         public int typeStatic;
-        public UnityEngine.InputSystem.LowLevel.InputEvent baseEvent; // 0x10
+        public Device.mnsDirty baseEvent; // 0x10
         public int character; // 0x24
 
         // ── Methods ──
@@ -1026,17 +1026,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     {
         public int Format;
         public int phase; // 0x10
-        public UnityEngine.Vector2 isNoneEndedOrCanceled; // 0x14
-        public UnityEngine.Vector2 isInProgress; // 0x1C
+        public tionX isNoneEndedOrCanceled; // 0x14
+        public tionX isInProgress; // 0x1C
         public float isPrimaryTouch; // 0x24
-        public UnityEngine.Vector2 isOrphanedPrimaryTouch; // 0x28
+        public tionX isOrphanedPrimaryTouch; // 0x28
         public byte isIndirectTouch; // 0x30
         public byte isTap; // 0x31
         public byte isTapPress; // 0x32
         public byte isTapRelease; // 0x33
         public uint beganInSameFrame; // 0x34
         public double format; // 0x38
-        public UnityEngine.Vector2 startPosition; // 0x40
+        public tionX startPosition; // 0x40
 
         // ── Methods ──
         public void get_Format(){} // RVA: 0x7FFD54A93F40
@@ -1065,8 +1065,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class WarpMousePositionCommand : ValueType
     {
         public int Type;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
-        public UnityEngine.Vector2 warpPositionInPlayerDisplaySpace; // 0x18
+        public Device.formUserAccount typeStatic; // 0x10
+        public tionX warpPositionInPlayerDisplaySpace; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A93A40

@@ -372,7 +372,7 @@ namespace ThirdParty.Valve.Valve.VR
         public string IVRBlockQueue_Version;
         public uint <VRToken>k__BackingField;
         public string FnTable_Prefix;
-        public COpenVRContext _OpenVRInternal_ModuleContext; // 0x8
+        public Event_ImageLoaded _OpenVRInternal_ModuleContext; // 0x8
 
         // ── Methods ──
         public void InitInternal(){} // RVA: 0x7FFD54C1FAC0

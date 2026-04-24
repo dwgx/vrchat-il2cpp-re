@@ -22,7 +22,7 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class PooledArray`1 : ValueType
     {
-        public Transmtn.DTO.Notifications.Notification[] Memory; // 0x10
+        public eObjectDelegate.kingField<E<?,ÌÌÌÏÎÌÌÏÎÍÌÌÍÏÌÍÎÎÌÏÍ,int>>[] Memory; // 0x10
         public int ArraySegment; // 0x18
 
         // ── Methods ──
@@ -127,7 +127,7 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class ValueEnumerable`2 : ValueType
     {
-        public ZLinq.Linq.ArraySelect`2<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ,int> Enumerator; // 0x10
+        public RC.Dynamics.PhysBoneManager.Grab>.Current.edGlobalCollisionState<RC.Dynamics.PhysBoneManager.Grab>.Current.RequiredHideFlags<ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ>,ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ,string> Enumerator; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -137,8 +137,8 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class ValueEnumerator`2 : ValueType
     {
-        public ZLinq.Linq.ArrayWhereSelect`2<ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ,string> Current; // 0x10
-        public string current; // 0x30
+        public T1717716112 Current;
+        public T1717716128 current;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -149,9 +149,6 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class ZLinqDropInAttribute : Attribute
     {
-        public string <GenerateNamespace>k__BackingField; // 0x10
-        public 0x665C4E60 <DropInGenerateTypes>k__BackingField; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FCAC310
     }

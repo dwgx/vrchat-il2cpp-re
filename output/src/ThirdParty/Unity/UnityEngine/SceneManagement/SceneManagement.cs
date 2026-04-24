@@ -32,9 +32,9 @@ namespace ThirdParty.Unity.UnityEngine.SceneManagement
     public class SceneManager : Object
     {
         public bool sceneCount;
-        public UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,0x664E2848> sceneCountInBuildSettings; // 0x8
-        public UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene> sceneUnloaded; // 0x10
-        public UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> activeSceneChanged; // 0x18
+        public rScript.<GetCachedEnumData>b__2_2<Type.ntWithType,Type.UILayout> sceneCountInBuildSettings; // 0x8
+        public rScript.?<Type.ntWithType> sceneUnloaded; // 0x10
+        public rScript.<GetCachedEnumData>b__2_2<Type.ntWithType,Type.ntWithType> activeSceneChanged; // 0x18
 
         // ── Methods ──
         public void get_sceneCount(){} // RVA: 0x7FFD54D02160

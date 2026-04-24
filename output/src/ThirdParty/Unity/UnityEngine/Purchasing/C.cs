@@ -9,8 +9,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
     {
         public bool useCatalogProvider; // 0x10
         public bool logUnavailableProducts; // 0x11
-        public System.Collections.Generic.HashSet`1<UnityEngine.Purchasing.ProductDefinition> products; // 0x18
-        public UnityEngine.Purchasing.PurchasingFactory factory; // 0x20
+        public URA.onsDepth<ing.ÍÏÌÌÌÍÏÎÏÍÏÎÍÏÍÍÌÌÌÏ> products; // 0x18
+        public ing.in factory; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DCB340
@@ -24,9 +24,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class CoreServicesEnvironmentSubject : Object
     {
-        public UnityEngine.Purchasing.CoreServicesEnvironmentSubject s_Instance;
+        public ing.ÍÌÌÍÌÌÏÌÍÎÌÌ s_Instance;
         public string m_LastKnownEnvironment; // 0x10
-        public System.Collections.Generic.List`1<UnityEngine.Purchasing.ICoreServicesEnvironmentObserver> m_Observers; // 0x18
+        public URA.woDigitYearMax<ing.ÎÎÍÌÌÎÌÏÏÌÏÌÏÎÏÏÍÏ> m_Observers; // 0x18
 
         // ── Methods ──
         public void Instance(){} // RVA: 0x7FFD54DCB9D0

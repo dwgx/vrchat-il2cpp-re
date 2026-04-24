@@ -8,12 +8,12 @@ namespace VRC.SDK3.Components.Video.VRCDepthkit
     public class VRCDepthkitMetadata : Object
     {
         public string videoUrl; // 0x10
-        public ÏÎÌÏÎÏÏÌÏ studioMeshData; // 0x18
-        public ÌÍÍ studioLiteMeshData; // 0x20
-        public 0x666395D8 studioLookData; // 0x28
-        public 0x66639630 studioLiteLookData; // 0x30
+        public iptor studioMeshData; // 0x18
+        public izeAnimationLayers studioLiteMeshData; // 0x20
+        public lider_footL studioLookData; // 0x28
+        public lider_handR studioLiteLookData; // 0x30
         public string clipMetadataString; // 0x38
-        public System.Version FormatVersion;
+        public object FormatVersion;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55291E70
@@ -21,27 +21,27 @@ namespace VRC.SDK3.Components.Video.VRCDepthkit
 
     public class VRCDepthkitVideo : BaseVRCVideoPlayer
     {
-        public VRC.SDKBase.VRCUrl url; // 0x38
+        public ellSize.t url; // 0x38
         public bool Player; // 0x40
         public bool IsPlaying; // 0x41
-        public Depthkit.StudioLook IsReady; // 0x48
-        public Depthkit.StudioLiteLook Loop; // 0x50
-        public Depthkit.StudioMeshSource DebugCategoryName; // 0x58
-        public Depthkit.StudioLiteMeshSource VideoWidth; // 0x60
-        public Depthkit.Clip VideoHeight; // 0x68
+        public st.? IsReady; // 0x48
+        public st.tyEngine.SharedInternalsModule Loop; // 0x50
+        public st.ÏÎÌÍÏÍÍ DebugCategoryName; // 0x58
+        public st.? VideoWidth; // 0x60
+        public st.le.set_bottom VideoHeight; // 0x68
         public string LOG_CATEGORY;
-        public Depthkit.UnityVideoPlayer _player; // 0x70
-        public UnityEngine.Video.VideoPlayer _unityPlayer; // 0x78
+        public st.er _player; // 0x70
+        public ositionAdjustment.WorldConstraint _unityPlayer; // 0x78
         public bool _pauseOnStart; // 0x80
-        public UnityEngine.Coroutine _playDelayedCoroutine; // 0x88
-        public UnityEngine.Coroutine _onVideoReadyDelayedCoroutine; // 0x90
-        public System.Collections.Generic.HashSet`1<string> _allowedSchemes;
+        public ts _playDelayedCoroutine; // 0x88
+        public ts _onVideoReadyDelayedCoroutine; // 0x90
+        public URA.onsDepth<string> _allowedSchemes;
         public float MinimumDelayBetweenResolveRequests;
         public float _lastResolveRequest; // 0x8
-        public System.Collections.Generic.HashSet`1<string> _schemesToHandleDirectly; // 0x10
-        public System.Lazy`1<string> _debugCategoryName; // 0x18
-        public System.Text.RegularExpressions.Regex GetUrlExtension; // 0x20
-        public 0x66602840 _httpClient; // 0x28
+        public URA.onsDepth<string> _schemesToHandleDirectly; // 0x10
+        public dle<string> _debugCategoryName; // 0x18
+        public tor.neStore GetUrlExtension; // 0x20
+        public eHeaderAsync>d__29.nContinuation _httpClient; // 0x28
 
         // ── Methods ──
         public void get_url(){} // RVA: 0x7FFD54D53730

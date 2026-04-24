@@ -7,7 +7,7 @@ namespace VRC.SDKBase.Validation
 {
     public class TypeUtils : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,System.Type> _typeCache;
+        public URA.DateTime<string,?> _typeCache;
 
         // ── Methods ──
         public void GetTypeFromName(){} // RVA: 0x7FFD574A0100
@@ -18,7 +18,7 @@ namespace VRC.SDKBase.Validation
 
     public class VRCSdkWhitelistAttribute : Attribute
     {
-        public ÌÌÎÏÌÍÌÏÍÏÍ name; // 0x10
+        public idewaysFriction name; // 0x10
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E38E5C0
@@ -27,10 +27,10 @@ namespace VRC.SDKBase.Validation
 
     public class ValidationUtils : Object
     {
-        public System.Collections.Generic.List`1<UnityEngine.Component> _componentCache;
+        public URA.woDigitYearMax<led> _componentCache;
         public string EDITOR_ONLY_TAG;
-        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.HashSet`1<System.Type>> _whitelistCache; // 0x8
-        public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Immutable.ImmutableArray`1<UnityEngine.RequireComponent>> _requireComponentsCache; // 0x10
+        public URA.DateTime<string,URA.onsDepth<?>> _whitelistCache; // 0x8
+        public URA.DateTime<?,fset2096.ctions.KVPair<TKey,TValue>>.GetEnumerator<GetBaseVertexImpl>> _requireComponentsCache; // 0x10
 
         // ── Methods ──
         public void RemoveIllegalComponents(){} // RVA: 0x7FFD574A0A20 | overloaded x2

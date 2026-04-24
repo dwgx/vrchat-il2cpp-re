@@ -16,7 +16,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
     {
         public bool CancellationToken; // 0x20
         public bool called; // 0x21
-        public System.Threading.CancellationTokenSource cancellationTokenSource; // 0x28
+        public sageKind._internal cancellationTokenSource; // 0x28
 
         // ── Methods ──
         public void get_CancellationToken(){} // RVA: 0x7FFD549040D0
@@ -38,7 +38,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
 
     public class AsyncTriggerBase`1 : MonoBehaviour
     {
-        public Cysharp.Threading.Tasks.TriggerEvent`1<Cysharp.Threading.Tasks.AsyncUnit> triggerEvent; // 0x20
+        public eObjectDelegate.roperty<eObjectDelegate.b__1> triggerEvent; // 0x20
         public bool calledAwake; // 0x38
         public bool calledDestroy; // 0x39
 
@@ -140,15 +140,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
 
     public class AsyncTriggerHandler`1 : Object
     {
-        public System.Action`1<object> CancellationToken;
-        public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<T> Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
-        public System.Threading.CancellationToken Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
-        public System.Threading.CancellationTokenRegistration registration;
+        public ileFullDirectoryInformation<object> CancellationToken;
+        public alueConverter`3.567CC<T1717671232> Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
+        public sageKind.TICMAP_SIZE Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
+        public sageKind.sition registration;
         public bool isDisposed;
         public bool callOnce;
-        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<T> core;
-        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev>k__BackingField;
-        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Next>k__BackingField;
+        public eObjectDelegate.ataProperty>k__BackingField<T1717671232> core;
+        public eObjectDelegate.eationHandlingForProperty<T1717671232> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev>k__BackingField;
+        public eObjectDelegate.eationHandlingForProperty<T1717671232> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Next>k__BackingField;
 
         // ── Methods ──
         public void Cysharp.Threading.Tasks.Triggers.IAsyncOneShotTrigger.OneShotAsync(){} // RVA: 0x7FFD4E0788A0

@@ -7,8 +7,6 @@ namespace ThirdParty.DotNet.System
 {
     public class CLSCompliantAttribute : Attribute
     {
-        public bool _compliant; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E40B5F0
     }
@@ -108,8 +106,8 @@ namespace ThirdParty.DotNet.System
     public class Convert : Object
     {
         public sbyte[] s_decodingMap;
-        public System.Type[] ConvertTypes; // 0x8
-        public System.Type EnumType; // 0x10
+        public ?[] ConvertTypes; // 0x8
+        public object EnumType; // 0x10
         public char[] base64Table; // 0x18
         public object DBNull; // 0x20
 
@@ -167,9 +165,9 @@ namespace ThirdParty.DotNet.System
 
     public class CultureAwareComparer : StringComparer
     {
-        public 0x6643B010 ValidCompareMaskOffFlags;
-        public System.Globalization.CompareInfo _compareInfo; // 0x10
-        public 0x6643B010 _options; // 0x18
+        public 0.gManifestResourceException ValidCompareMaskOffFlags;
+        public 0.AManaged _compareInfo; // 0x10
+        public 0.gManifestResourceException _options; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A6D940 | overloaded x3

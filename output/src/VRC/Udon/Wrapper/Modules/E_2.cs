@@ -7,10 +7,7 @@ namespace VRC.Udon.Wrapper.Modules
 {
     public class ExternTMProTextRenderFlags : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD558BEA50
@@ -31,10 +28,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternTMProTextRenderFlagsArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD558C0080
@@ -85,10 +79,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternTMProVertexSortingOrder : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5590A670
@@ -109,10 +100,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternTMProVertexSortingOrderArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5590BCA0
@@ -163,10 +151,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternTMProVerticalAlignmentOptions : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55910A60
@@ -191,10 +176,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternTMProVerticalAlignmentOptionsArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55912540
@@ -245,10 +227,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityAINavigationCollectObjects : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55917300
@@ -271,10 +250,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityAINavigationNavMeshLink : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55918B80
@@ -358,10 +335,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityAINavigationNavMeshLinkArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55922B70
@@ -412,10 +386,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityAINavigationNavMeshModifier : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559279B0
@@ -495,10 +467,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityAINavigationNavMeshModifierArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55931080
@@ -549,10 +518,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityAINavigationNavMeshModifierVolume : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55935EC0
@@ -626,10 +593,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityAINavigationNavMeshModifierVolumeArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5593EBD0
@@ -680,10 +644,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityAINavigationNavMeshSurface : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55943A10
@@ -788,10 +750,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityAINavigationNavMeshSurfaceArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5594FB20
@@ -842,10 +801,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMesh : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55954960
@@ -889,10 +845,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshAgent : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55959210
@@ -1030,10 +984,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshAgentArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5596A100
@@ -1084,10 +1035,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshBuildSettings : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5596EF10
@@ -1134,10 +1082,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshBuildSettingsArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559734A0
@@ -1188,10 +1133,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshCollectGeometry : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559782C0
@@ -1212,10 +1154,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshData : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559798F0
@@ -1242,10 +1181,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshDataArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5597C3F0
@@ -1296,10 +1232,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshDataInstance : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559812C0
@@ -1319,10 +1252,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshDataInstanceArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55982930
@@ -1373,10 +1303,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshHit : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559876E0
@@ -1402,10 +1329,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshHitArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55989600
@@ -1456,10 +1380,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshLinkData : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5598E400
@@ -1489,10 +1410,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshLinkDataArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55990A90
@@ -1543,10 +1461,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshLinkInstance : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559958A0
@@ -1566,10 +1481,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshLinkInstanceArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55996F10
@@ -1620,10 +1532,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshObstacle : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5599BCC0
@@ -1711,10 +1621,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshObstacleArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559A66A0
@@ -1765,10 +1672,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshPath : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559AB4B0
@@ -1789,10 +1693,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshPathArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559ACBC0
@@ -1843,10 +1744,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshQueryFilter : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559DC300
@@ -1868,10 +1766,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshQueryFilterArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559DDB10
@@ -1922,10 +1817,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshTriangulation : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559E2950
@@ -1947,10 +1839,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAINavMeshTriangulationArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559E4350
@@ -2001,10 +1890,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAIOffMeshLink : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559E91B0
@@ -2088,10 +1975,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAIOffMeshLinkArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559F33B0
@@ -2142,10 +2026,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAIOffMeshLinkData : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559F81C0
@@ -2167,10 +2048,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAIOffMeshLinkDataArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559F99D0
@@ -2221,10 +2099,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationClip : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD559FE7D0
@@ -2269,10 +2144,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationClipArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A03520
@@ -2323,10 +2195,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationCurve : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A08330
@@ -2364,10 +2233,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationCurveArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A0BB70
@@ -2418,10 +2284,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationState : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A76810
@@ -2466,10 +2329,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationStateArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A7A850
@@ -2520,10 +2380,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsAimConstraint : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A10960
@@ -2620,10 +2478,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsAimConstraintArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A1C630
@@ -2674,10 +2529,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsConstraintSource : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A21440
@@ -2697,10 +2549,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsConstraintSourceArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A229D0
@@ -2751,10 +2600,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsLookAtConstraint : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A27810
@@ -2845,10 +2692,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsLookAtConstraintArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A32910
@@ -2899,10 +2743,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsParentConstraint : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A37720
@@ -2999,10 +2841,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsParentConstraintArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A434A0
@@ -3053,10 +2892,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsPositionConstraint : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A482B0
@@ -3143,10 +2980,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsPositionConstraintArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A52BC0
@@ -3197,10 +3031,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsRotationConstraint : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A579D0
@@ -3287,10 +3119,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsRotationConstraintArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A622E0
@@ -3341,10 +3170,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsScaleConstraint : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A670F0
@@ -3431,10 +3258,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimationsScaleConstraintArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A71A00
@@ -3485,10 +3309,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimator : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A7F670
@@ -3718,10 +3540,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55A9C6E0
@@ -3772,10 +3591,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorClipInfo : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AA1520
@@ -3793,10 +3609,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorClipInfoArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AA2710
@@ -3847,10 +3660,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorControllerParameter : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AA74B0
@@ -3877,10 +3687,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorControllerParameterArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AA9350
@@ -3931,10 +3738,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorOverrideController : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AAE0B0
@@ -3966,10 +3770,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorOverrideControllerArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AB1640
@@ -4020,10 +3821,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorStateInfo : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AB6610
@@ -4049,10 +3847,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorStateInfoArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AB8410
@@ -4103,10 +3898,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorTransitionInfo : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55ABD210
@@ -4131,10 +3923,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorTransitionInfoArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55ABEE00
@@ -4185,10 +3974,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorUtility : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AC3BF0
@@ -4207,10 +3993,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAnimatorUtilityArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AC5010
@@ -4261,10 +4044,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAreaEffector2D : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AC9F20
@@ -4350,10 +4131,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAreaEffector2DArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AD4490
@@ -4404,10 +4182,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAsyncOperation : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AD92D0
@@ -4425,10 +4200,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAsyncOperationArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55ADA580
@@ -4479,10 +4251,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioChorusFilter : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55ADF3D0
@@ -4564,10 +4334,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioChorusFilterArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AE91D0
@@ -4618,10 +4385,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioClip : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AEDFE0
@@ -4657,10 +4421,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioClipArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AF1C20
@@ -4711,10 +4472,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioDistortionFilter : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AF6AA0
@@ -4784,10 +4543,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioDistortionFilterArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55AFF1B0
@@ -4838,10 +4594,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioEchoFilter : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B03FC0
@@ -4917,10 +4671,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioEchoFilterArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B0D250
@@ -4971,10 +4722,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioHighPassFilter : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B12060
@@ -5046,10 +4795,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioHighPassFilterArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B1AB40
@@ -5100,10 +4846,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioLowPassFilter : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B1F950
@@ -5177,10 +4921,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioLowPassFilterArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B28800
@@ -5231,10 +4972,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioReverbFilter : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B2D610
@@ -5332,10 +5071,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioReverbFilterArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B39280
@@ -5386,10 +5122,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioReverbZone : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B3E090
@@ -5489,10 +5223,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioReverbZoneArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B6B7F0
@@ -5543,10 +5274,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioSettings : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B70600
@@ -5564,10 +5292,8 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioSource : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x28
+        public object Name;
+        public object VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetterType;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B71820
@@ -5700,10 +5426,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineAudioSourceArray : Object
     {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> Name; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,0x666304C8>> _functionDelegates; // 0x18
-        public VRC.Udon.Common.Interfaces.IUdonComponentGetter _componentGetter; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD55B818F0

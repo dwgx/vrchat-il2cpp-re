@@ -7,7 +7,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class BufferSkip`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public eObjectDelegate.fo<T1717622576> source;
         public int count;
         public int skip;
 
@@ -18,7 +18,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Buffer`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public eObjectDelegate.fo<T1717622544> source;
         public int count;
 
         // ── Methods ──

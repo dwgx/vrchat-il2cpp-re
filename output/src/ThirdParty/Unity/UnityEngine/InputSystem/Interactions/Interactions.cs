@@ -25,7 +25,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
         public float tapDelayOrDefault; // 0x14
         public int pressPointOrDefault; // 0x18
         public float releasePointOrDefault; // 0x1C
-        public 0x664B0A70 m_CurrentTapPhase; // 0x20
+        public equencyMotorSpeed m_CurrentTapPhase; // 0x20
         public int m_CurrentTapCount; // 0x24
         public double m_CurrentTapStartTime; // 0x28
         public double m_LastTapReleaseTime; // 0x30
@@ -43,7 +43,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
     public class PressInteraction : Object
     {
         public float pressPointOrDefault; // 0x10
-        public 0x664B0B78 releasePointOrDefault; // 0x14
+        public nputReport.BluetoothOutputReport releasePointOrDefault; // 0x14
         public bool m_WaitingForRelease; // 0x18
 
         // ── Methods ──

@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class DataCommonEventSource : EventSource
     {
-        public System.Data.DataCommonEventSource Log;
+        public rtable.AllowPreEpoch Log;
         public long s_nextScopeId; // 0x8
 
         // ── Methods ──
@@ -282,15 +282,15 @@ namespace ThirdParty.DotNet.System.Data
 
     public class Index : Object
     {
-        public 0x6652DF30 HasRemoteAggregate; // 0x10
-        public 0x665304A8[] ObjectID; // 0x18
-        public System.Comparison`1<0x6652EA30> RecordStates; // 0x20
-        public 0x6652F320 RowFilter; // 0x28
-        public 0x66424DA8 HasDuplicates; // 0x30
-        public 0x66530500 RecordCount; // 0x38
+        public rtable.eric.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove HasRemoteAggregate; // 0x10
+        public rtable.e[] ObjectID; // 0x18
+        public ation<rtable.42B862C3F1CA138CB3B89> RecordStates; // 0x20
+        public rtable.notAddColumn3 RowFilter; // 0x28
+        public Names HasDuplicates; // 0x30
+        public Collection RecordCount; // 0x38
         public int RefCount; // 0x40
         public int DoListChanged; // 0x44
-        public System.Data.Listeners`1<0x6652F218> Table; // 0x48
+        public rtable.reUserSet<rtable.DeletedRowInaccessible> Table; // 0x48
         public bool _suspendEvents; // 0x50
         public bool _isSharable; // 0x51
         public bool _hasRemoteAggregate; // 0x52
@@ -352,8 +352,8 @@ namespace ThirdParty.DotNet.System.Data
 
     public class Listeners`1 : Object
     {
-        public System.Collections.Generic.List`1<T> HasListeners;
-        public Func`2<T,T,bool> _filter;
+        public URA.woDigitYearMax<T1717647824> HasListeners;
+        public n<T1717647824,T1717647824,bool> _filter;
         public int _objectID;
         public int _listenerReaderCount;
 
@@ -369,7 +369,7 @@ namespace ThirdParty.DotNet.System.Data
 
     public class RBTree`1 : Object
     {
-        public TreePage<T>[] Count;
+        public tingFormat<T1717647616>[] Count;
         public int[] HasDuplicates;
         public int Item;
         public int _nextFreePageLine;
@@ -377,7 +377,7 @@ namespace ThirdParty.DotNet.System.Data
         public int _version;
         public int _inUseNodeCount;
         public int _inUseSatelliteTreeCount;
-        public 0x66530088 _accessMethod;
+        public rtable.ues _accessMethod;
 
         // ── Methods ──
         public void CompareNode(){} // RVA: 0x7FFD4E2ADC40

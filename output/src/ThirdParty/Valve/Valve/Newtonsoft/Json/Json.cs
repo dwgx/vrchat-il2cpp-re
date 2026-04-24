@@ -14,7 +14,7 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonConvert : Object
     {
-        public System.Func`1<0x665A4EE0> DefaultSettings;
+        public ormation<l.siteShoulder> DefaultSettings;
         public string True; // 0x8
         public string False; // 0x10
         public string Null; // 0x18
@@ -36,37 +36,37 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonSerializer : Object
     {
-        public 0x665A54B8 ReferenceResolver; // 0x10
-        public 0x664335B0 Binder; // 0x14
-        public 0x665A5358 TraceWriter; // 0x18
-        public 0x665A53B0 EqualityComparer; // 0x1C
-        public 0x665A5250 TypeNameHandling; // 0x20
-        public 0x665A5300 TypeNameAssemblyFormat; // 0x24
-        public 0x665A52A8 PreserveReferencesHandling; // 0x28
-        public 0x665A4598 ReferenceLoopHandling; // 0x2C
-        public 0x665A4438 MissingMemberHandling; // 0x30
-        public 0x665A51F8 NullValueHandling; // 0x34
-        public 0x665A49B8 DefaultValueHandling; // 0x38
-        public 0x665A6E80 ObjectCreationHandling; // 0x40
-        public 0x665A6F30 ConstructorHandling; // 0x48
-        public System.Collections.IEqualityComparer MetadataPropertyHandling; // 0x50
-        public System.Runtime.Serialization.SerializationBinder Converters; // 0x58
-        public System.Runtime.Serialization.StreamingContext ContractResolver; // 0x60
-        public 0x665A6ED8 Context; // 0x70
-        public System.Nullable`1<0x665A46A0> Formatting; // 0x78
-        public System.Nullable`1<0x665A4490> CheckAdditionalContent; // 0x80
-        public System.Nullable`1<0x665A4540> _dateTimeZoneHandling; // 0x88
-        public System.Nullable`1<0x665A44E8> _dateParseHandling; // 0x90
-        public System.Nullable`1<0x665A45F0> _floatFormatHandling; // 0x98
-        public System.Nullable`1<0x665A4648> _floatParseHandling; // 0xA0
-        public System.Nullable`1<0x665A5460> _stringEscapeHandling; // 0xA8
-        public System.Globalization.CultureInfo _culture; // 0xB0
-        public System.Nullable`1<int> _maxDepth; // 0xB8
+        public l.hts ReferenceResolver; // 0x10
+        public ri.operties Binder; // 0x14
+        public l.istAlign TraceWriter; // 0x18
+        public l._rightLegMapping EqualityComparer; // 0x1C
+        public l.ay TypeNameHandling; // 0x20
+        public l.eadMapping TypeNameAssemblyFormat; // 0x24
+        public l.leftLegMapping PreserveReferencesHandling; // 0x28
+        public l.aneRotationOffset ReferenceLoopHandling; // 0x2C
+        public l.chainIndex2 MissingMemberHandling; // 0x30
+        public l.rcCharacterSpaceBendOffsetLeft NullValueHandling; // 0x34
+        public l.mPoleAxis DefaultValueHandling; // 0x38
+        public eControlBarClose.iteEndAsync ObjectCreationHandling; // 0x40
+        public eControlBarClose.dentAsync ConstructorHandling; // 0x48
+        public mePatterns.djustment MetadataPropertyHandling; // 0x50
+        public externalClaims.or<System.Security.Claims.Claim>.Current Converters; // 0x58
+        public externalClaims.nvoySinks ContractResolver; // 0x60
+        public eControlBarClose.eAsync Context; // 0x70
+        public aphy<l.ateTokenTypeMap> Formatting; // 0x78
+        public aphy<l.entationsSet> CheckAdditionalContent; // 0x80
+        public aphy<l.ToBone> _dateTimeZoneHandling; // 0x88
+        public aphy<l._isEndEffector> _dateParseHandling; // 0x90
+        public aphy<l.?> _floatFormatHandling; // 0x98
+        public aphy<l.intainRelativePositionWeight> _floatParseHandling; // 0xA0
+        public aphy<l.OffsetRight> _stringEscapeHandling; // 0xA8
+        public 0.T_I8 _culture; // 0xB0
+        public aphy<int> _maxDepth; // 0xB8
         public bool _maxDepthSet; // 0xC0
-        public System.Nullable`1<bool> _checkAdditionalContent; // 0xC1
+        public aphy<bool> _checkAdditionalContent; // 0xC1
         public string _dateFormatString; // 0xC8
         public bool _dateFormatStringSet; // 0xD0
-        public System.EventHandler`1<0x665A6DD0> Error; // 0xD8
+        public tTable<eControlBarClose.ize> Error; // 0xD8
 
         // ── Methods ──
         public void add_Error(){} // RVA: 0x7FFD550CCA40

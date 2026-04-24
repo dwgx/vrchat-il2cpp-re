@@ -32,14 +32,14 @@ namespace ThirdParty.Sentry.Sentry.Internal.Extensions
 
     public class JsonExtensions : Object
     {
-        public System.Text.Json.Serialization.JsonConverter[] JsonPreserveReferences;
-        public System.Collections.Generic.List`1<System.Text.Json.Serialization.JsonConverter> CustomConverters; // 0x8
+        public ngCommas.IKSolverAim[] JsonPreserveReferences;
+        public URA.woDigitYearMax<ngCommas.IKSolverAim> CustomConverters; // 0x8
         public bool <JsonPreserveReferences>k__BackingField; // 0x10
-        public 0x6657DBE0 SerializerOptions; // 0x18
-        public 0x6657DBE0 AltSerializerOptions; // 0x20
-        public System.Collections.Generic.List`1<0x6657EB58> DefaultSerializerContexts; // 0x28
-        public System.Collections.Generic.List`1<0x6657EB58> ReferencePreservingSerializerContexts; // 0x30
-        public System.Collections.Generic.List`1<System.Func`2<0x6657DBE0,0x6657EB58>> JsonSerializerContextBuilders; // 0x38
+        public inDataView.CannotBeObjectOrArray SerializerOptions; // 0x18
+        public inDataView.CannotBeObjectOrArray AltSerializerOptions; // 0x20
+        public URA.woDigitYearMax<ngCommas.ptions> DefaultSerializerContexts; // 0x28
+        public URA.woDigitYearMax<ngCommas.ptions> ReferencePreservingSerializerContexts; // 0x30
+        public URA.woDigitYearMax<n<inDataView.CannotBeObjectOrArray,ngCommas.ptions>> JsonSerializerContextBuilders; // 0x38
 
         // ── Methods ──
         public void get_JsonPreserveReferences(){} // RVA: 0x7FFD53FE6C80
@@ -92,7 +92,7 @@ namespace ThirdParty.Sentry.Sentry.Internal.Extensions
 
     public class MiscExtensions : Object
     {
-        public System.TimeSpan MaxTimeout;
+        public ializable.GetObjectData MaxTimeout;
 
         // ── Methods ──
         public void Pipe(){} // RVA: 0x7FFD4E2ADC40

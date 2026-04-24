@@ -7,22 +7,22 @@ namespace VRC.SDK3.Video.Components
 {
     public class VRCUnityVideoPlayer : BaseVRCVideoPlayer
     {
-        public System.Action`5<VRC.SDKBase.VRCUrl,int,UnityEngine.Object,System.Action`1<string>,System.Action`1<0x665C41A8>> StartResolveURLCoroutine;
-        public System.Action`2<string,string> UnityPlayer; // 0x8
-        public VRC.SDKBase.VRCUrl IsPlaying; // 0x38
+        public ÏÍÍÌÎÍÏÏÎÏÏÍÌÍÏ<ellSize.t,int,?,ileFullDirectoryInformation<string>,ileFullDirectoryInformation<sStillContainsId.cutionGroupsStillContainsId>> StartResolveURLCoroutine;
+        public rectoryInformation<string,string> UnityPlayer; // 0x8
+        public ellSize.t IsPlaying; // 0x38
         public bool IsReady; // 0x40
         public bool Loop; // 0x41
-        public 0x665C15A8 VideoWidth; // 0x44
-        public UnityEngine.RenderTexture VideoHeight; // 0x48
-        public UnityEngine.Renderer targetMaterialRenderer; // 0x50
+        public essing VideoWidth; // 0x44
+        public Offset VideoHeight; // 0x48
+        public rical targetMaterialRenderer; // 0x50
         public string targetMaterialProperty; // 0x58
-        public ÏÏÎÎÌÍÍÌÏÌÎÏÌ.Í aspectRatio; // 0x60
-        public UnityEngine.AudioSource[] targetAudioSources; // 0x68
+        public ositionAdjustment.phID aspectRatio; // 0x60
+        public t[] targetAudioSources; // 0x68
         public int maximumResolution; // 0x70
-        public UnityEngine.Video.VideoPlayer _unityPlayer; // 0x78
+        public ositionAdjustment.WorldConstraint _unityPlayer; // 0x78
         public bool _pauseOnStart; // 0x80
-        public UnityEngine.Coroutine _playDelayedCoroutine; // 0x88
-        public UnityEngine.Coroutine _onVideoReadyDelayedCoroutine; // 0x90
+        public ts _playDelayedCoroutine; // 0x88
+        public ts _onVideoReadyDelayedCoroutine; // 0x90
 
         // ── Methods ──
         public void get_StartResolveURLCoroutine(){} // RVA: 0x7FFD57415060

@@ -9,7 +9,7 @@ namespace VRC.Steam
     {
         public uint _name;
         public uint _hideFlags;
-        public 0x665ECB00 f_9EB; // 0x8
+        public ellman f_9EB; // 0x8
         public bool f_AB7; // 0x10
 
         // ── Methods ──

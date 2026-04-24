@@ -11,7 +11,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
         public int positive; // 0x14
         public float minValue; // 0x18
         public float maxValue; // 0x1C
-        public 0x664B2178 whichSideWins; // 0x20
+        public Counter whichSideWins; // 0x20
 
         // ── Methods ──
         public void get_midPoint(){} // RVA: 0x7FFD549940A0
@@ -25,7 +25,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
         public int modifier; // 0x10
         public int button; // 0x14
         public bool overrideModifiersNeedToBePressedFirst; // 0x18
-        public 0x664B2228 modifiersOrder; // 0x1C
+        public _EventBufferHeadStorage modifiersOrder; // 0x1C
 
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x7FFD549942E0
@@ -41,7 +41,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
         public int modifier2; // 0x14
         public int button; // 0x18
         public bool overrideModifiersNeedToBePressedFirst; // 0x1C
-        public 0x664B22D8 modifiersOrder; // 0x20
+        public _EventBufferHeadStorage modifiersOrder; // 0x20
 
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x7FFD549944B0
@@ -56,9 +56,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
         public int valueType; // 0x10
         public int valueSizeInBytes; // 0x14
         public bool overrideModifiersNeedToBePressedFirst; // 0x18
-        public 0x664B2388 modifiersOrder; // 0x1C
+        public _EventBufferHeadStorage modifiersOrder; // 0x1C
         public int m_ValueSizeInBytes; // 0x20
-        public System.Type m_ValueType; // 0x28
+        public object m_ValueType; // 0x28
         public bool m_BindingIsButton; // 0x30
 
         // ── Methods ──
@@ -79,9 +79,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
         public int valueSizeInBytes; // 0x14
         public int binding; // 0x18
         public bool overrideModifiersNeedToBePressedFirst; // 0x1C
-        public 0x664B2438 modifiersOrder; // 0x20
+        public _EventBufferHeadStorage modifiersOrder; // 0x20
         public int m_ValueSizeInBytes; // 0x24
-        public System.Type m_ValueType; // 0x28
+        public object m_ValueType; // 0x28
         public bool m_BindingIsButton; // 0x30
 
         // ── Methods ──
@@ -102,7 +102,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
         public int left; // 0x18
         public int right; // 0x1C
         public bool normalize; // 0x20
-        public 0x664B24E8 mode; // 0x24
+        public object mode; // 0x24
 
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x7FFD54994FC0
@@ -118,7 +118,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
         public int right; // 0x1C
         public int forward; // 0x20
         public int backward; // 0x24
-        public 0x664B2598 mode; // 0x28
+        public object mode; // 0x28
 
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x7FFD549951B0

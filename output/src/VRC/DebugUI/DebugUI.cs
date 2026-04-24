@@ -7,8 +7,8 @@ namespace VRC.DebugUI
 {
     public class DebugUIPageData : Object
     {
-        public System.Collections.Generic.Dictionary`2<int,0x664CA170> _debugUIPageData;
-        public System.Collections.Generic.SortedDictionary`2<0x664CA170,ÏÌÎÍÎÌÎÍÎÎÏÌÎÍÎÌÌÍÏÎÎÎÏ> <ÏÍÎÏÍÎÍÌÍÍÎÏÍÏÌÍÌÎÌÍÎÌÏ>k__BackingField; // 0x8
+        public URA.DateTime<int,?> _debugUIPageData;
+        public URA.ap<?,ÌÌÏÎÍÌÎÎÏÏÌÌÏÌÎ> <ÏÍÎÏÍÎÍÌÍÍÎÏÍÏÌÍÌÎÌÍÎÌÏ>k__BackingField; // 0x8
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EAA16B0

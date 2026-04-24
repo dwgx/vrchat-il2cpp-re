@@ -8,11 +8,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
     public class VectorImage : ScriptableObject
     {
         public int width; // 0x18
-        public UnityEngine.Texture2D height; // 0x20
-        public 0x66486540[] vertices; // 0x28
+        public ector height; // 0x20
+        public ÎÏÌÎÎÎÌÌÌ.ss[] vertices; // 0x28
         public ushort[] indices; // 0x30
-        public 0x66486598[] settings; // 0x38
-        public UnityEngine.Vector2 size; // 0x40
+        public ÎÏÌÎÎÎÌÌÌ.ningFactor[] settings; // 0x38
+        public tionX size; // 0x40
 
         // ── Methods ──
         public void get_width(){} // RVA: 0x7FFD4E5080B0
@@ -22,15 +22,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VerticalVirtualizationController`1 : CollectionVirtualizationController
     {
-        public UnityEngine.Pool.ObjectPool`1<T> activeItems; // 0x18
-        public UnityEngine.UIElements.BaseVerticalCollectionView itemsCount; // 0x20
-        public System.Collections.Generic.List`1<T> firstVisibleItem; // 0x28
-        public T lastVisibleItem; // 0x30
+        public cy.gContentId<T1717594384> activeItems; // 0x18
+        public ÎÏÌÎÎÎÌÌÌ.? itemsCount; // 0x20
+        public URA.woDigitYearMax<T1717594384> firstVisibleItem; // 0x28
+        public T1717594384 lastVisibleItem; // 0x30
         public int visibleItemCount; // 0x38
-        public System.Collections.Generic.List`1<int> serializedData; // 0x40
-        public System.Func`2<T,bool> firstVisibleIndex; // 0x48
-        public System.Collections.Generic.List`1<T> lastHeight; // 0x50
-        public UnityEngine.UIElements.VisualElement alwaysRebindOnRefresh; // 0x58
+        public URA.woDigitYearMax<int> serializedData; // 0x40
+        public n<T1717594384,bool> firstVisibleIndex; // 0x48
+        public URA.woDigitYearMax<T1717594384> lastHeight; // 0x50
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius alwaysRebindOnRefresh; // 0x58
 
         // ── Methods ──
         public void get_activeItems(){} // RVA: 0x7FFD4E078E90
@@ -61,23 +61,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualData : ValueType
     {
-        public UnityEngine.Color backgroundColor; // 0x10
-        public UnityEngine.UIElements.Background backgroundImage; // 0x20
-        public UnityEngine.UIElements.BackgroundPosition backgroundPositionX; // 0x40
-        public UnityEngine.UIElements.BackgroundPosition backgroundPositionY; // 0x4C
-        public UnityEngine.UIElements.BackgroundRepeat backgroundRepeat; // 0x58
-        public UnityEngine.UIElements.BackgroundSize backgroundSize; // 0x60
-        public UnityEngine.Color borderBottomColor; // 0x74
-        public UnityEngine.UIElements.Length borderBottomLeftRadius; // 0x84
-        public UnityEngine.UIElements.Length borderBottomRightRadius; // 0x8C
-        public UnityEngine.Color borderLeftColor; // 0x94
-        public UnityEngine.Color borderRightColor; // 0xA4
-        public UnityEngine.Color borderTopColor; // 0xB4
-        public UnityEngine.UIElements.Length borderTopLeftRadius; // 0xC4
-        public UnityEngine.UIElements.Length borderTopRightRadius; // 0xCC
-        public float opacity; // 0xD4
-        public 0x66482708 overflow; // 0xD8
-
         // ── Methods ──
         public void Copy(){} // RVA: 0x7FFD55016360
         public void CopyFrom(){} // RVA: 0x7FFD5501A8F0
@@ -91,74 +74,74 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public int resolvedStyle; // 0x30
         public int UnityEngine.UIElements.IResolvedStyle.backgroundColor; // 0x34
         public uint UnityEngine.UIElements.IResolvedStyle.borderBottomColor;
-        public System.Collections.Generic.List`1<string> UnityEngine.UIElements.IResolvedStyle.borderBottomLeftRadius; // 0x8
-        public UnityEngine.PropertyName UnityEngine.UIElements.IResolvedStyle.borderBottomRightRadius; // 0x10
+        public URA.woDigitYearMax<string> UnityEngine.UIElements.IResolvedStyle.borderBottomLeftRadius; // 0x8
+        public object UnityEngine.UIElements.IResolvedStyle.borderBottomRightRadius; // 0x10
         public string UnityEngine.UIElements.IResolvedStyle.borderBottomWidth; // 0x18
         public string UnityEngine.UIElements.IResolvedStyle.borderLeftColor; // 0x38
-        public System.Collections.Generic.List`1<string> UnityEngine.UIElements.IResolvedStyle.borderLeftWidth; // 0x40
-        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.PropertyName,object>> UnityEngine.UIElements.IResolvedStyle.borderRightColor; // 0x48
-        public 0x664866A0 UnityEngine.UIElements.IResolvedStyle.borderRightWidth; // 0x50
+        public URA.woDigitYearMax<string> UnityEngine.UIElements.IResolvedStyle.borderLeftWidth; // 0x40
+        public URA.woDigitYearMax<URA.mes<?,object>> UnityEngine.UIElements.IResolvedStyle.borderRightColor; // 0x48
+        public ÎÏÌÎÎÎÌÌÌ.t UnityEngine.UIElements.IResolvedStyle.borderRightWidth; // 0x50
         public string UnityEngine.UIElements.IResolvedStyle.borderTopColor; // 0x58
-        public 0x6647FFD8 UnityEngine.UIElements.IResolvedStyle.borderTopLeftRadius; // 0x60
-        public UnityEngine.Rect UnityEngine.UIElements.IResolvedStyle.borderTopRightRadius; // 0x64
-        public UnityEngine.Rect UnityEngine.UIElements.IResolvedStyle.borderTopWidth; // 0x74
-        public UnityEngine.UIElements.UIR.RenderChainVEData UnityEngine.UIElements.IResolvedStyle.bottom; // 0x88
-        public UnityEngine.Rect UnityEngine.UIElements.IResolvedStyle.color; // 0x1D0
-        public UnityEngine.Rect UnityEngine.UIElements.IResolvedStyle.display; // 0x1E0
-        public 0x664866A0 UnityEngine.UIElements.IResolvedStyle.flexDirection;
-        public UnityEngine.Rect UnityEngine.UIElements.IResolvedStyle.flexGrow; // 0x1F0
-        public 0x664866A0 UnityEngine.UIElements.IResolvedStyle.flexShrink;
-        public UnityEngine.Matrix4x4 UnityEngine.UIElements.IResolvedStyle.height; // 0x200
-        public UnityEngine.Matrix4x4 UnityEngine.UIElements.IResolvedStyle.left; // 0x240
-        public UnityEngine.Rect UnityEngine.UIElements.IResolvedStyle.marginBottom; // 0x280
-        public UnityEngine.Rect UnityEngine.UIElements.IResolvedStyle.marginLeft; // 0x290
+        public ÎÏÌÎÎÎÌÌÌ.gerMouseEvent UnityEngine.UIElements.IResolvedStyle.borderTopLeftRadius; // 0x60
+        public dRecorder UnityEngine.UIElements.IResolvedStyle.borderTopRightRadius; // 0x64
+        public dRecorder UnityEngine.UIElements.IResolvedStyle.borderTopWidth; // 0x74
+        public rsor.UnityEngine.UIElements.IUIElementsUtility.MakeCurrentIMGUIContainerDirty UnityEngine.UIElements.IResolvedStyle.bottom; // 0x88
+        public dRecorder UnityEngine.UIElements.IResolvedStyle.color; // 0x1D0
+        public dRecorder UnityEngine.UIElements.IResolvedStyle.display; // 0x1E0
+        public ÎÏÌÎÎÎÌÌÌ.t UnityEngine.UIElements.IResolvedStyle.flexDirection;
+        public dRecorder UnityEngine.UIElements.IResolvedStyle.flexGrow; // 0x1F0
+        public ÎÏÌÎÎÎÌÌÌ.t UnityEngine.UIElements.IResolvedStyle.flexShrink;
+        public tSizeBias UnityEngine.UIElements.IResolvedStyle.height; // 0x200
+        public tSizeBias UnityEngine.UIElements.IResolvedStyle.left; // 0x240
+        public dRecorder UnityEngine.UIElements.IResolvedStyle.marginBottom; // 0x280
+        public dRecorder UnityEngine.UIElements.IResolvedStyle.marginLeft; // 0x290
         public bool UnityEngine.UIElements.IResolvedStyle.marginRight; // 0x2A0
-        public UnityEngine.Rect UnityEngine.UIElements.IResolvedStyle.marginTop; // 0x20
-        public 0x66486648 UnityEngine.UIElements.IResolvedStyle.minHeight; // 0x2A4
-        public 0x66486648 UnityEngine.UIElements.IResolvedStyle.minWidth; // 0x2A8
-        public 0x66486648 UnityEngine.UIElements.IResolvedStyle.opacity; // 0x2AC
+        public dRecorder UnityEngine.UIElements.IResolvedStyle.marginTop; // 0x20
+        public ÎÏÌÎÎÎÌÌÌ.ta UnityEngine.UIElements.IResolvedStyle.minHeight; // 0x2A4
+        public ÎÏÌÎÎÎÌÌÌ.ta UnityEngine.UIElements.IResolvedStyle.minWidth; // 0x2A8
+        public ÎÏÌÎÎÎÌÌÌ.ta UnityEngine.UIElements.IResolvedStyle.opacity; // 0x2AC
         public int UnityEngine.UIElements.IResolvedStyle.paddingBottom; // 0x2B0
-        public 0x664866F8 UnityEngine.UIElements.IResolvedStyle.paddingLeft; // 0x2B4
-        public 0x66473D48 UnityEngine.UIElements.IResolvedStyle.paddingRight; // 0x2B8
-        public UnityEngine.UIElements.ComputedStyle UnityEngine.UIElements.IResolvedStyle.paddingTop; // 0x2C0
-        public 0x66483EC0 UnityEngine.UIElements.IResolvedStyle.right; // 0x318
+        public ÎÏÌÎÎÎÌÌÌ.? UnityEngine.UIElements.IResolvedStyle.paddingLeft; // 0x2B4
+        public ÎÏÍÏÍÎÎÎÎÌÍÎÏÌÌÌÎ UnityEngine.UIElements.IResolvedStyle.paddingRight; // 0x2B8
+        public ÎÏÌÎÎÎÌÌÌ.taPosition UnityEngine.UIElements.IResolvedStyle.paddingTop; // 0x2C0
+        public ÎÏÌÎÎÎÌÌÌ.Engine.UIElements.IStyle.transformOrigin UnityEngine.UIElements.IResolvedStyle.right; // 0x318
         public int UnityEngine.UIElements.IResolvedStyle.scale; // 0x320
         public uint UnityEngine.UIElements.IResolvedStyle.top; // 0x324
         public int UnityEngine.UIElements.IResolvedStyle.transformOrigin; // 0x328
         public bool UnityEngine.UIElements.IResolvedStyle.translate; // 0x32C
-        public 0x66486750 UnityEngine.UIElements.IResolvedStyle.unityBackgroundImageTintColor; // 0x330
-        public 0x66486750 UnityEngine.UIElements.IResolvedStyle.unitySliceLeft; // 0x334
-        public System.Action`1<0x66480B30> UnityEngine.UIElements.IResolvedStyle.unitySliceRight; // 0x338
-        public Unity.Profiling.ProfilerMarker UnityEngine.UIElements.IResolvedStyle.unitySliceScale; // 0x30
-        public 0x66481688 UnityEngine.UIElements.IResolvedStyle.unityTextOutlineColor; // 0x340
-        public UnityEngine.Material UnityEngine.UIElements.IResolvedStyle.unityTextOutlineWidth; // 0x38
-        public UnityEngine.Material UnityEngine.UIElements.IResolvedStyle.visibility; // 0x348
-        public System.Collections.Generic.List`1<0x6648A7F0> UnityEngine.UIElements.IResolvedStyle.width; // 0x350
+        public ÎÏÌÎÎÎÌÌÌ.tyIdFromString UnityEngine.UIElements.IResolvedStyle.unityBackgroundImageTintColor; // 0x330
+        public ÎÏÌÎÎÎÌÌÌ.tyIdFromString UnityEngine.UIElements.IResolvedStyle.unitySliceLeft; // 0x334
+        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.yEngine.UIElements.IMouseEventInternal.sourcePointerEvent> UnityEngine.UIElements.IResolvedStyle.unitySliceRight; // 0x338
+        public object UnityEngine.UIElements.IResolvedStyle.unitySliceScale; // 0x30
+        public ertTransitionFunction>b__12_16 UnityEngine.UIElements.IResolvedStyle.unityTextOutlineColor; // 0x340
+        public atrix_Injected UnityEngine.UIElements.IResolvedStyle.unityTextOutlineWidth; // 0x38
+        public atrix_Injected UnityEngine.UIElements.IResolvedStyle.visibility; // 0x348
+        public URA.woDigitYearMax<ileDrawChainBegin.ax> UnityEngine.UIElements.IResolvedStyle.width; // 0x350
         public uint hasRunningAnimations; // 0x40
         public uint hasCompletedAnimations; // 0x358
         public uint UnityEngine.UIElements.IStylePropertyAnimations.runningAnimationCount; // 0x35C
-        public UnityEngine.UIElements.VisualElement UnityEngine.UIElements.IStylePropertyAnimations.completedAnimationCount; // 0x360
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius UnityEngine.UIElements.IStylePropertyAnimations.completedAnimationCount; // 0x360
         public int styleAnimation; // 0x368
         public int isCompositeRoot; // 0x36C
         public int isHierarchyDisplayed; // 0x370
         public int viewDataKey; // 0x374
         public string enableViewDataPersistence;
-        public Hierarchy userData; // 0x378
+        public TopElementUnderPointer userData; // 0x378
         public bool canGrabFocus; // 0x380
         public bool focusController; // 0x381
-        public UnityEngine.UIElements.VisualElement usageHints; // 0x388
-        public UnityEngine.UIElements.VisualElement renderHints; // 0x390
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.VisualElement> transform; // 0x48
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.VisualElement> UnityEngine.UIElements.ITransform.position; // 0x398
-        public UnityEngine.UIElements.BaseVisualElementPanel UnityEngine.UIElements.ITransform.scale; // 0x3A0
-        public UnityEngine.UIElements.VisualTreeAsset isLayoutManual; // 0x3A8
-        public CustomStyleAccess scaledPixelsPerPoint; // 0x50
-        public UnityEngine.UIElements.InlineStyleAccess layout; // 0x3B0
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheet> contentRect; // 0x3B8
-        public System.Text.RegularExpressions.Regex paddingRect; // 0x58
-        public UnityEngine.PropertyName isBoundingBoxDirty; // 0x60
-        public System.Collections.Generic.Dictionary`2<System.Type,TypeData> isWorldBoundingBoxDirty; // 0x68
-        public TypeData isWorldBoundingBoxOrDependenciesDirty; // 0x3C0
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius usageHints; // 0x388
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius renderHints; // 0x390
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> transform; // 0x48
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> UnityEngine.UIElements.ITransform.position; // 0x398
+        public ÎÏÌÎÎÎÌÌÌ.opped UnityEngine.UIElements.ITransform.scale; // 0x3A0
+        public ÎÏÌÎÎÎÌÌÌ.nt isLayoutManual; // 0x3A8
+        public se scaledPixelsPerPoint; // 0x50
+        public ÎÏÌÎÎÎÌÌÌ.lidateElement layout; // 0x3B0
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.inter> contentRect; // 0x3B8
+        public tor.neStore paddingRect; // 0x58
+        public object isBoundingBoxDirty; // 0x60
+        public URA.DateTime<?,utCubic> isWorldBoundingBoxDirty; // 0x68
+        public utCubic isWorldBoundingBoxOrDependenciesDirty; // 0x3C0
 
         // ── Methods ──
         public void get_resolvedStyle(){} // RVA: 0x7FFD4F9181E0
@@ -469,10 +452,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public string ruleIndex; // 0x30
         public int classes; // 0x38
         public string stylesheetPaths; // 0x40
-        public 0x664866F8 hasStylesheetPaths; // 0x48
+        public ÎÏÌÎÎÎÌÌÌ.? hasStylesheetPaths; // 0x48
         public string[] stylesheets; // 0x50
-        public System.Collections.Generic.List`1<string> hasStylesheets; // 0x58
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheet> skipClone; // 0x60
+        public URA.woDigitYearMax<string> hasStylesheets; // 0x58
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.inter> skipClone; // 0x60
         public bool m_SkipClone; // 0x68
 
         // ── Methods ──
@@ -492,15 +475,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public string importedWithErrors;
         public bool importedWithWarnings; // 0x18
         public bool templateDependencies; // 0x19
-        public System.Collections.Generic.Dictionary`2<string,UnityEngine.UIElements.VisualElement> stylesheets; // 0x8
-        public System.Collections.Generic.List`1<0x66486070> visualElementAssets; // 0x20
-        public UnityEngine.UIElements.StyleSheet templateAssets; // 0x28
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.VisualElementAsset> uxmlObjectEntries; // 0x30
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.TemplateAsset> uxmlObjectIds; // 0x38
-        public System.Collections.Generic.List`1<0x664861D0> slots; // 0x40
-        public System.Collections.Generic.List`1<int> contentContainerId; // 0x48
-        public System.Collections.Generic.List`1<0x66486228> contentHash; // 0x50
-        public System.Collections.Generic.List`1<0x66486120> m_Slots; // 0x58
+        public URA.DateTime<string,ÎÏÌÎÎÎÌÌÌ.omLeftRadius> stylesheets; // 0x8
+        public URA.woDigitYearMax<urrentTimeMs> visualElementAssets; // 0x20
+        public ÎÏÌÎÎÎÌÌÌ.inter templateAssets; // 0x28
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.ta> uxmlObjectEntries; // 0x30
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.nual> uxmlObjectIds; // 0x38
+        public URA.woDigitYearMax<Definitions> slots; // 0x40
+        public URA.woDigitYearMax<int> contentContainerId; // 0x48
+        public URA.woDigitYearMax<?> contentHash; // 0x50
+        public URA.woDigitYearMax<_Lengths> m_Slots; // 0x58
         public int m_ContentContainerId; // 0x60
         public int m_ContentHash; // 0x64
 
@@ -547,8 +530,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeUpdater : Object
     {
-        public UnityEngine.UIElements.BaseVisualElementPanel m_Panel; // 0x10
-        public 0x66487460 m_UpdaterArray; // 0x18
+        public ÎÏÌÎÎÎÌÌÌ.opped m_Panel; // 0x10
+        public extFieldChanged m_UpdaterArray; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54EE8A00

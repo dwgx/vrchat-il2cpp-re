@@ -7,9 +7,9 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class ParticleCollisionEvent : ValueType
     {
-        public UnityEngine.Vector3 velocity; // 0x10
-        public UnityEngine.Vector3 colliderComponent; // 0x1C
-        public UnityEngine.Vector3 m_Velocity; // 0x28
+        public amut velocity; // 0x10
+        public amut colliderComponent; // 0x1C
+        public amut m_Velocity; // 0x28
         public int m_ColliderInstanceID; // 0x34
 
         // ── Methods ──
@@ -309,13 +309,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PenData : ValueType
     {
-        public UnityEngine.Vector2 position; // 0x10
-        public UnityEngine.Vector2 tilt; // 0x18
-        public 0x66639160 penStatus; // 0x20
+        public tionX position; // 0x10
+        public tionX tilt; // 0x18
+        public aycast.PopulateRaycastCommand penStatus; // 0x20
         public float twist; // 0x24
         public float pressure; // 0x28
-        public 0x666391B8 contactType; // 0x2C
-        public UnityEngine.Vector2 deltaPos; // 0x30
+        public and contactType; // 0x2C
+        public tionX deltaPos; // 0x30
     }
 
     public class PhysicMaterial : Object
@@ -343,10 +343,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics : Object
     {
-        public System.Action`2<UnityEngine.PhysicsScene,Unity.Collections.NativeArray`1<0x66600480>> gravity;
-        public System.Action`2<UnityEngine.PhysicsScene,Unity.Collections.NativeArray`1<0x66600480>> bounceThreshold; // 0x8
-        public ContactEventDelegate simulationMode; // 0x10
-        public UnityEngine.Collision defaultMaxAngularSpeed; // 0x18
+        public rectoryInformation<njected,ÍÎÏÎÎ.ÌÌ<ightLittleIntermediate>> gravity;
+        public rectoryInformation<njected,ÍÎÏÎÎ.ÌÌ<ightLittleIntermediate>> bounceThreshold; // 0x8
+        public tRingDistal simulationMode; // 0x10
+        public ÍÏÎÍÏÏÏÏÌÏÍ>k__BackingField defaultMaxAngularSpeed; // 0x18
 
         // ── Methods ──
         public void OnSceneContactModify(){} // RVA: 0x7FFD54DA83A0
@@ -442,7 +442,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics2D : Object
     {
-        public System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> defaultPhysicsScene;
+        public URA.woDigitYearMax<nfluence> defaultPhysicsScene;
 
         // ── Methods ──
         public void get_defaultPhysicsScene(){} // RVA: 0x7FFD51B532B0
@@ -603,8 +603,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PhysicsScene : ValueType
     {
-        public int m_Handle; // 0x10
-
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD54DBFBF0
         public void op_Equality(){} // RVA: 0x7FFD54CD7FA0
@@ -658,14 +656,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PhysicsShape2D : ValueType
     {
-        public ÍÍÍÌÎÎÌÎÌÎÎÌÎÎÍÍÌÍÏ m_ShapeType; // 0x10
+        public oor m_ShapeType; // 0x10
         public float m_Radius; // 0x14
         public int m_VertexStartIndex; // 0x18
         public int m_VertexCount; // 0x1C
         public int m_UseAdjacentStart; // 0x20
         public int m_UseAdjacentEnd; // 0x24
-        public UnityEngine.Vector2 m_AdjacentStart; // 0x28
-        public UnityEngine.Vector2 m_AdjacentEnd; // 0x30
+        public tionX m_AdjacentStart; // 0x28
+        public tionX m_AdjacentEnd; // 0x30
     }
 
     public class PhysicsUpdateBehaviour2D : Behaviour
@@ -677,7 +675,7 @@ namespace ThirdParty.Unity.UnityEngine
     public class Plane : ValueType
     {
         public int normal;
-        public UnityEngine.Vector3 distance; // 0x10
+        public amut distance; // 0x10
         public float flipped; // 0x1C
 
         // ── Methods ──
@@ -786,9 +784,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Pose : ValueType
     {
-        public UnityEngine.Vector3 identity; // 0x10
-        public UnityEngine.Quaternion rotation; // 0x1C
-        public UnityEngine.Pose k_Identity;
+        public amut identity; // 0x10
+        public R_12x12 rotation; // 0x1C
+        public object k_Identity;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD52626E60

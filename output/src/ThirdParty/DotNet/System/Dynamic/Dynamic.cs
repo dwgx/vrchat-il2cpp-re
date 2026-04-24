@@ -7,11 +7,11 @@ namespace ThirdParty.DotNet.System.Dynamic
 {
     public class DynamicMetaObject : Object
     {
-        public System.Dynamic.DynamicMetaObject[] Expression;
+        public tBeBoolean.rrectNumberOfArgumentsForMembers[] Expression;
         public object Restrictions; // 0x8
         public object Value; // 0x10
-        public System.Linq.Expressions.Expression HasValue; // 0x18
-        public 0x66557178 RuntimeType; // 0x20
+        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.Update HasValue; // 0x18
+        public tBeBoolean.rPropertyInfo RuntimeType; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD542180F0 | overloaded x2

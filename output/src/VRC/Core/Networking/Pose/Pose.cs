@@ -7,7 +7,7 @@ namespace VRC.Core.Networking.Pose
 {
     public class Configuration : Object
     {
-        public System.Collections.Immutable.ImmutableArray`1<bool> MuscleUsed;
+        public fset2096.ctions.KVPair<TKey,TValue>>.GetEnumerator<bool> MuscleUsed;
         public int[] MuscleUsedIndices; // 0x8
         public int MuscleUsedCount; // 0x10
         public int MuscleCount; // 0x14
@@ -57,7 +57,7 @@ namespace VRC.Core.Networking.Pose
 
     public class PoseCodec`1 : Object
     {
-        public VRC.Core.Networking.Pose.IPoseRecorder poseRecorder; // 0x10
+        public izedObjectsVerify.ht poseRecorder; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -69,7 +69,7 @@ namespace VRC.Core.Networking.Pose
     {
         public ushort poseContents; // 0x40
         public float[] IsImmobilized; // 0x48
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT IsLocomoting; // 0x50
+        public dexes.lArg IsLocomoting; // 0x50
         public byte IsSeated; // 0x58
         public byte InVehicle; // 0x59
         public byte IsGrounded; // 0x5A
@@ -79,28 +79,28 @@ namespace VRC.Core.Networking.Pose
         public int IsMutingSelf; // 0x64
         public float Contents; // 0x68
         public float handGestureWeightRight; // 0x6C
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T leftHandPosition; // 0x70
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T rightHandPosition; // 0x78
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T headPosition; // 0x80
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT leftHandRotation; // 0x88
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT rightHandRotation; // 0x90
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT headRotation; // 0x98
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T leftFootPosition; // 0xA0
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T rightFootPosition; // 0xA8
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T hipPosition; // 0xB0
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT leftFootRotation; // 0xB8
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT rightFootRotation; // 0xC0
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT hipRotation; // 0xC8
+        public dexes.eteValue leftHandPosition; // 0x70
+        public dexes.eteValue rightHandPosition; // 0x78
+        public dexes.eteValue headPosition; // 0x80
+        public dexes.lArg leftHandRotation; // 0x88
+        public dexes.lArg rightHandRotation; // 0x90
+        public dexes.lArg headRotation; // 0x98
+        public dexes.eteValue leftFootPosition; // 0xA0
+        public dexes.eteValue rightFootPosition; // 0xA8
+        public dexes.eteValue hipPosition; // 0xB0
+        public dexes.lArg leftFootRotation; // 0xB8
+        public dexes.lArg rightFootRotation; // 0xC0
+        public dexes.lArg hipRotation; // 0xC8
         public float angVelocityY; // 0xD0
         public float spineLengthFactor; // 0xD4
         public float[] fingerStretch; // 0xD8
         public float[] fingerSpread; // 0xE0
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T eyeTargetRelativePosition01; // 0xE8
+        public dexes.eteValue eyeTargetRelativePosition01; // 0xE8
         public byte eyeClosedAmount; // 0xF0
         public float[] faceTrackedVisemes; // 0xF8
         public float[] puppetValues; // 0x100
         public bool[] puppetIsFloat; // 0x108
-        public VRC.Core.Networking.PositionEvent PositionEvent; // 0x110
+        public rpreter.ToUnderlying PositionEvent; // 0x110
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD551FE730 | overloaded x2

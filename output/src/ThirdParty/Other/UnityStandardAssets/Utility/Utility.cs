@@ -7,12 +7,12 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 {
     public class ActivateTrigger : MonoBehaviour
     {
-        public 0x665195E0 action; // 0x20
-        public UnityEngine.Object target; // 0x28
-        public UnityEngine.GameObject source; // 0x30
+        public object action; // 0x20
+        public object target; // 0x28
+        public BuffersImpl source; // 0x30
         public int triggerCount; // 0x38
         public bool repeatTrigger; // 0x3C
-        public InstantiationDelegate Instantiate;
+        public object Instantiate;
 
         // ── Methods ──
         public void DoActivateTrigger(){} // RVA: 0x7FFD4E342080
@@ -22,7 +22,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class AutoMobileShaderSwitch : MonoBehaviour
     {
-        public 0x66519740 m_ReplacementList; // 0x20
+        public ayTransform_TrackedDeviceRelative m_ReplacementList; // 0x20
 
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4E341310
@@ -31,10 +31,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class CameraRefocus : Object
     {
-        public UnityEngine.Camera Camera; // 0x10
-        public UnityEngine.Vector3 Lookatpoint; // 0x18
-        public UnityEngine.Transform Parent; // 0x28
-        public UnityEngine.Vector3 m_OrigCameraPos; // 0x30
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ Camera; // 0x10
+        public amut Lookatpoint; // 0x18
+        public object Parent; // 0x28
+        public amut m_OrigCameraPos; // 0x30
         public bool m_Refocus; // 0x3C
 
         // ── Methods ──
@@ -49,12 +49,12 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
     {
         public float HorizontalBobRange; // 0x10
         public float VerticalBobRange; // 0x14
-        public UnityEngine.AnimationCurve Bobcurve; // 0x18
+        public ÍÎÌÍÍÌÌÎÏÏ Bobcurve; // 0x18
         public float VerticaltoHorizontalRatio; // 0x20
         public float m_CyclePositionX; // 0x24
         public float m_CyclePositionY; // 0x28
         public float m_BobBaseInterval; // 0x2C
-        public UnityEngine.Vector3 m_OriginalCameraPosition; // 0x30
+        public amut m_OriginalCameraPosition; // 0x30
         public float m_Time; // 0x3C
 
         // ── Methods ──
@@ -71,7 +71,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public float k_AngularDrag;
         public float k_Distance;
         public bool k_AttachToCenterOfMass;
-        public UnityEngine.SpringJoint m_SpringJoint; // 0x20
+        public ernalSetMuscle_Injected m_SpringJoint; // 0x20
 
         // ── Methods ──
         public void Update(){} // RVA: 0x7FFD4E343870
@@ -82,7 +82,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class DynamicShadowSettings : MonoBehaviour
     {
-        public UnityEngine.Light sunLight; // 0x20
+        public ReflectionCubemap sunLight; // 0x20
         public float minHeight; // 0x28
         public float minShadowDistance; // 0x2C
         public float minShadowBias; // 0x30
@@ -102,12 +102,12 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class FOVKick : Object
     {
-        public UnityEngine.Camera Camera; // 0x10
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ Camera; // 0x10
         public float originalFov; // 0x18
         public float FOVIncrease; // 0x1C
         public float TimeToIncrease; // 0x20
         public float TimeToDecrease; // 0x24
-        public UnityEngine.AnimationCurve IncreaseCurve; // 0x28
+        public ÍÎÌÍÍÌÌÎÏÏ IncreaseCurve; // 0x28
 
         // ── Methods ──
         public void Setup(){} // RVA: 0x7FFD4E345170
@@ -125,7 +125,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public float m_FpsNextPeriod; // 0x24
         public int m_CurrentFps; // 0x28
         public string display;
-        public UnityEngine.UI.Text m_Text; // 0x30
+        public ePathName117.? m_Text; // 0x30
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E345AD0
@@ -135,8 +135,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class FollowTarget : MonoBehaviour
     {
-        public UnityEngine.Transform target; // 0x20
-        public UnityEngine.Vector3 offset; // 0x28
+        public object target; // 0x20
+        public amut offset; // 0x28
 
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x7FFD4E344EF0
@@ -157,10 +157,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class ObjectResetter : MonoBehaviour
     {
-        public UnityEngine.Vector3 originalPosition; // 0x20
-        public UnityEngine.Quaternion originalRotation; // 0x2C
-        public System.Collections.Generic.List`1<UnityEngine.Transform> originalStructure; // 0x40
-        public UnityEngine.Rigidbody Rigidbody; // 0x48
+        public amut originalPosition; // 0x20
+        public R_12x12 originalRotation; // 0x2C
+        public URA.woDigitYearMax<?> originalStructure; // 0x40
+        public Touched Rigidbody; // 0x48
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E3460A0
@@ -184,9 +184,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class PlatformSpecificContent : MonoBehaviour
     {
-        public 0x66519D70 m_BuildTargetGroup; // 0x20
-        public UnityEngine.GameObject[] m_Content; // 0x28
-        public UnityEngine.MonoBehaviour[] m_MonoBehaviours; // 0x30
+        public EVRSkeletalTransformSpace m_BuildTargetGroup; // 0x20
+        public BuffersImpl[] m_Content; // 0x28
+        public glesLength[] m_MonoBehaviours; // 0x30
         public bool m_ChildrenOfThisObject; // 0x38
 
         // ── Methods ──
@@ -198,16 +198,16 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class SimpleMouseRotator : MonoBehaviour
     {
-        public UnityEngine.Vector2 rotationRange; // 0x20
+        public tionX rotationRange; // 0x20
         public float rotationSpeed; // 0x28
         public float dampingTime; // 0x2C
         public bool autoZeroVerticalOnMobile; // 0x30
         public bool autoZeroHorizontalOnMobile; // 0x31
         public bool relative; // 0x32
-        public UnityEngine.Vector3 m_TargetAngles; // 0x34
-        public UnityEngine.Vector3 m_FollowAngles; // 0x40
-        public UnityEngine.Vector3 m_FollowVelocity; // 0x4C
-        public UnityEngine.Quaternion m_OriginalRotation; // 0x58
+        public amut m_TargetAngles; // 0x34
+        public amut m_FollowAngles; // 0x40
+        public amut m_FollowVelocity; // 0x4C
+        public R_12x12 m_OriginalRotation; // 0x58
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E347A80
@@ -217,7 +217,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class SmoothFollow : MonoBehaviour
     {
-        public UnityEngine.Transform target; // 0x20
+        public object target; // 0x20
         public float distance; // 0x28
         public float height; // 0x2C
         public float rotationDamping; // 0x30
@@ -231,7 +231,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class TimedObjectActivator : MonoBehaviour
     {
-        public s entries; // 0x20
+        public object entries; // 0x20
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E348F90
@@ -254,10 +254,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class WaypointCircuit : MonoBehaviour
     {
-        public 0x6651A190 Length; // 0x20
+        public mdMatrix44_t Length; // 0x20
         public bool Waypoints; // 0x28
         public int numPoints; // 0x2C
-        public UnityEngine.Vector3[] points; // 0x30
+        public amut[] points; // 0x30
         public float[] distances; // 0x38
         public float editorVisualisationSubsteps; // 0x40
         public float <Length>k__BackingField; // 0x44
@@ -266,10 +266,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public int p2n; // 0x50
         public int p3n; // 0x54
         public float i; // 0x58
-        public UnityEngine.Vector3 P0; // 0x5C
-        public UnityEngine.Vector3 P1; // 0x68
-        public UnityEngine.Vector3 P2; // 0x74
-        public UnityEngine.Vector3 P3; // 0x80
+        public amut P0; // 0x5C
+        public amut P1; // 0x68
+        public amut P2; // 0x74
+        public amut P3; // 0x80
 
         // ── Methods ──
         public void get_Length(){} // RVA: 0x7FFD4E349970
@@ -288,20 +288,20 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class WaypointProgressTracker : MonoBehaviour
     {
-        public UnityStandardAssets.Utility.WaypointCircuit targetPoint; // 0x20
+        public ntimePerformsPostPresentHandoff.applicationLaunch targetPoint; // 0x20
         public float speedPoint; // 0x28
         public float progressPoint; // 0x2C
         public float lookAheadForSpeedOffset; // 0x30
         public float lookAheadForSpeedFactor; // 0x34
-        public 0x6651A298 progressStyle; // 0x38
+        public n progressStyle; // 0x38
         public float pointToPointThreshold; // 0x3C
-        public 0x6651A1E8 <targetPoint>k__BackingField; // 0x40
-        public 0x6651A1E8 <speedPoint>k__BackingField; // 0x58
-        public 0x6651A1E8 <progressPoint>k__BackingField; // 0x70
-        public UnityEngine.Transform target; // 0x88
+        public HmdVector3_t <targetPoint>k__BackingField; // 0x40
+        public HmdVector3_t <speedPoint>k__BackingField; // 0x58
+        public HmdVector3_t <progressPoint>k__BackingField; // 0x70
+        public object target; // 0x88
         public float progressDistance; // 0x90
         public int progressNum; // 0x94
-        public UnityEngine.Vector3 lastPosition; // 0x98
+        public amut lastPosition; // 0x98
         public float speed; // 0xA4
 
         // ── Methods ──

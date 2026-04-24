@@ -7,13 +7,13 @@ namespace ThirdParty.Other.Unity.Profiling.LowLevel.Unsafe
 {
     public class ProfilerRecorderDescription : ValueType
     {
-        public Unity.Profiling.ProfilerCategory Category; // 0x10
-        public 0x664D7588 Name; // 0x12
-        public 0x664D75E0 dataType; // 0x14
-        public 0x664D72C8 unitType; // 0x15
+        public object Category; // 0x10
+        public ÍÏ.ÎÍÎÎÎÍÍÏ Name; // 0x12
+        public ÍÏ.? dataType; // 0x14
+        public ÏÌ unitType; // 0x15
         public int reserved0; // 0x18
         public int nameUtf8Len; // 0x1C
-        public byte* nameUtf8; // 0x20
+        public IntPtr nameUtf8; // 0x20
 
         // ── Methods ──
         public void get_Category(){} // RVA: 0x7FFD4FEE85D0

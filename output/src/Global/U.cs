@@ -9,7 +9,7 @@ public class UIElementsUpdatePanels : ValueType
 
 public class UIInvisibleGraphic : MaskableGraphic
 {
-    public 0x663697D0 interactibility; // 0xE0
+    public n interactibility; // 0xE0
     public bool interactableOverride; // 0xE4
 
     // ── Methods ──
@@ -21,16 +21,16 @@ public class UIInvisibleGraphic : MaskableGraphic
 
 public class UISearchStateMapping : ValueType
 {
-    public UnityEngine.GameObject targetGameObject; // 0x10
-    public 0x663D99D8 requiredSearchStatus; // 0x18
+    public BuffersImpl targetGameObject; // 0x10
+    public object requiredSearchStatus; // 0x18
     public bool invert; // 0x1C
 }
 
 public class UISoundCollection : ScriptableObject
 {
-    public UnityEngine.AudioClip MoveOver; // 0x18
-    public UnityEngine.AudioClip MoveOff; // 0x20
-    public UnityEngine.AudioClip Click; // 0x28
+    public ies MoveOver; // 0x18
+    public ies MoveOff; // 0x20
+    public ies Click; // 0x28
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E54F5F0
@@ -44,7 +44,7 @@ public class UISupport : Object
 
 public class UQueryMatcher : HierarchyTraversal
 {
-    public System.Collections.Generic.List`1<UnityEngine.UIElements.RuleMatcher> m_Matchers; // 0x10
+    public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.paddingBottom> m_Matchers; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -65,8 +65,7 @@ public class URPMaterialSwitcher : MonoBehaviour
 
 public class UTF32Decoder : DecoderNLS
 {
-    public int HasState; // 0x30
-    public int readByteCount; // 0x34
+    public object HasState;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD538047E0
@@ -112,23 +111,23 @@ public class UdonProgramScanner : Object
 
 public class UiInputField : MonoBehaviour
 {
-    public VRC.Localization.LocalizableString _uiInputField; // 0x20
-    public UnityEngine.GameObject placeholder; // 0x48
-    public VRC.Localization.LocalizableString _placeholderText; // 0x50
-    public UnityEngine.GameObject textField; // 0x78
-    public 0x6657A488 inputType; // 0x80
+    public itTypeSize=876 _uiInputField; // 0x20
+    public BuffersImpl placeholder; // 0x48
+    public itTypeSize=876 _placeholderText; // 0x50
+    public BuffersImpl textField; // 0x78
+    public ÍÏÎÍÏÏÌÏÏÍÏÌÌÎÌÎÌ inputType; // 0x80
     public bool isDate; // 0x84
     public bool useNumericKeypad; // 0x85
-    public UiInputField nextInputField; // 0x88
-    public SubmitEvent onEndEdit; // 0x90
-    public int ÌÎÍÎÍÎÏÍÎÏÏÎÏÎÌÍÎÌÎÍÏÍÍ; // 0x98
-    public bool ÎÍÍÎÎÍÌÏÎÏÏÍÌÌÏÎÎÌÎÎÍÍÎ; // 0x9C
-    public bool ÏÎÍÏÏÎÎÏÎÍÍÌÏÍÎÎÎÌÍÍÎÏÏ; // 0x9D
-    public bool ÍÍÌÎÍÌÍÎÎÍÌÎÏÎÍÏÌÌÌÏÌÍÌ; // 0x9E
-    public UnityEngine.Events.UnityAction`1<string> ÏÍÍÍÏÌÌÏÍÍÎÎÎÍÎÎÍÏÏÏÏÎÏ; // 0xA0
-    public 0x664E21C0 ÌÌÌÏÌÌÏÏÍÍÎÎÏÎÏÏÎÍÌÏÍÍÏ; // 0xA8
-    public UnityEngine.UI.Button ÏÏÎÍÍÌÎÍÌÏÍÍÍÍÎÌÏÏÍÏÍÏÍ; // 0xB0
-    public string ÍÌÏÍÏÏÎÎÌÏÎÍÍÎÍÎÌÏÍÍÎÌÏ; // 0xB8
+    public object nextInputField; // 0x88
+    public et_isAutoFitting onEndEdit; // 0x90
+    public int ÌÍÌÍÌÍÎÏÍÍÏÎÏÎÌÌÏÍÎÏÌÌÍ; // 0x98
+    public bool ÌÎÎÎÏÍÏÎÍÌÍÏÍÎÎÏÍÎÎÍÌÍÍ; // 0x9C
+    public bool ÏÏÌÍÎÍÍÌÏÌÏÌÎÌÌÎÏÎÏÎÌÌÍ; // 0x9D
+    public bool ÏÏÎÏÌÍÌÏÍÎÌÍÌÏÏÎÍÌÌÎÌÍÏ; // 0x9E
+    public rScript.?<string> ÎÍÍÍÎÏÍÌÎÌÍÍÌÌÌÌÍÌÍÌÌÍÌ; // 0xA0
+    public rScript.AllObsolete ÍÎÍÎÌÍÏÌÍÌÍÎÌÌÌÌÏÌÏÏÏÏÌ; // 0xA8
+    public ePathName117.? ÌÍÍÏÏÎÍÌÍÍÎÏÌÍÎÌÍÌÌÏÍÎÎ; // 0xB0
+    public string ÏÍÍÍÌÌÍÌÎÌÎÎÎÌÏÏÌÎÎÍÌÌÍ; // 0xB8
 
     // ── Methods ──
     public void get_source(){} // RVA: 0x7FFD4E90A3D0
@@ -155,8 +154,8 @@ public class UiInputField : MonoBehaviour
 
 public class UnboundAnchor : ValueType
 {
-    public OVRSpace Uuid; // 0x10
-    public System.Guid Localized; // 0x18
+    public ation_4 Uuid; // 0x10
+    public ce Localized; // 0x18
 
     // ── Methods ──
     public void get_Uuid(){} // RVA: 0x7FFD4FEB27D0
@@ -170,9 +169,9 @@ public class UnboundAnchor : ValueType
 
 public class UnboundedChannelReader : ChannelReader`1
 {
-    public System.Threading.Channels.SingleConsumerUnboundedChannel`1<ZLogger.IZLoggerEntry> _parent; // 0x10
-    public System.Threading.Channels.AsyncOperation`1<ZLogger.IZLoggerEntry> _readerSingleton; // 0x18
-    public System.Threading.Channels.AsyncOperation`1<bool> _waiterSingleton; // 0x20
+    public bstacleAvoidance.ttribute<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> _parent; // 0x10
+    public bstacleAvoidance.al<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> _readerSingleton; // 0x18
+    public bstacleAvoidance.al<bool> _waiterSingleton; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -182,7 +181,7 @@ public class UnboundedChannelReader : ChannelReader`1
 
 public class UnboundedChannelWriter : ChannelWriter`1
 {
-    public System.Threading.Channels.SingleConsumerUnboundedChannel`1<ZLogger.IZLoggerEntry> _parent; // 0x10
+    public bstacleAvoidance.ttribute<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> _parent; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -329,8 +328,7 @@ public class UnicodeChar : ValueType
 
 public class Union : ValueType
 {
-    public 0x66526F20 m_current; // 0x10
-    public System.Collections.Generic.List`1<UnionCase> Cases; // 0x18
+    public long m_current; // 0x10
 
     // ── Methods ──
     public void get_m_current(){} // RVA: 0x7FFD54932260
@@ -341,28 +339,22 @@ public class Union : ValueType
 
 public class UnionCase : Object
 {
-    public int Tag; // 0x10
-    public string Name; // 0x18
-    public System.Reflection.PropertyInfo[] Fields; // 0x20
-    public 0x66526F20 FieldReader; // 0x28
-    public 0x66526F20 Constructor; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53C1C980
 }
 
 public class UnityEventHandlerAsyncEnumerator : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> cancel2;
-    public UnityEngine.Events.UnityEvent`1<T> unityEvent;
-    public System.Threading.CancellationToken cancellationToken1;
-    public System.Threading.CancellationToken cancellationToken2;
-    public UnityEngine.Events.UnityAction`1<T> unityAction;
-    public System.Threading.CancellationTokenRegistration registration1;
-    public System.Threading.CancellationTokenRegistration registration2;
+    public ileFullDirectoryInformation<object> Current;
+    public ileFullDirectoryInformation<object> cancel2;
+    public rScript.mData>b__2_1<T1717670928> unityEvent;
+    public sageKind.TICMAP_SIZE cancellationToken1;
+    public sageKind.TICMAP_SIZE cancellationToken2;
+    public rScript.?<T1717670928> unityAction;
+    public sageKind.sition registration1;
+    public sageKind.sition registration2;
     public bool isDisposed;
-    public T <Current>k__BackingField;
+    public T1717670928 <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -392,8 +384,8 @@ public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1 : Object
 
 public class UnityWebRequestAsyncOperationAwaiter : ValueType
 {
-    public UnityEngine.Networking.UnityWebRequestAsyncOperation IsCompleted; // 0x10
-    public System.Action`1<UnityEngine.AsyncOperation> continuationAction; // 0x18
+    public Discovery.alIp IsCompleted; // 0x10
+    public ileFullDirectoryInformation<ntaxFlags> continuationAction; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFD0830
@@ -416,7 +408,7 @@ public class Unmanaged : ValueType
 
 public class UnmanagedMemoryStreamForModule : UnmanagedMemoryStream
 {
-    public System.Reflection.Module module; // 0x68
+    public m.FileIdExtdDirectoryInformation module; // 0x68
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539521F0
@@ -481,9 +473,9 @@ public class UpdateFunction : MulticastDelegate
 
 public class UpdateGridCellsJob : ValueType
 {
-    public Unity.Collections.NativeList`1<GridCell> gridCells; // 0x10
-    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x18
-    public ParallelWriter<Pair,bool> collisionPairs; // 0x28
+    public ÍÎÏÎÎ.AssignProgramAndVariables<onfigOptions> gridCells; // 0x10
+    public ÍÎÏÎÎ.ÌÌ<?> shapeData; // 0x18
+    public kingField<?,bool> collisionPairs; // 0x28
 
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD55216D40
@@ -542,7 +534,7 @@ public class UpdateRootsJob : ValueType
     public int MAX_EXECUTIONS;
     public float realTime; // 0x10
     public float fixedTime; // 0x14
-    public Unity.Collections.NativeArray`1<ChainRoot> roots; // 0x18
+    public ÍÎÏÎÎ.ÌÌ<tCursorPositionFromStringIndexUsingCharacterHeight> roots; // 0x18
     public int FIXED_TIME_COUNTER_MAX;
 
     // ── Methods ──
@@ -553,10 +545,10 @@ public class UpdateRootsJob : ValueType
 public class UpdateShapePositionsJob : ValueType
 {
     public int SHAPE_BATCH_COUNT;
-    public Unity.Collections.NativeList`1<ushort> activeShapes; // 0x10
-    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x18
-    public Unity.Collections.NativeArray`1<0x664E1038> transformData; // 0x28
-    public Unity.Collections.NativeArray`1<int> transformLookup; // 0x38
+    public ÍÎÏÎÎ.AssignProgramAndVariables<ushort> activeShapes; // 0x10
+    public ÍÎÏÎÎ.ÌÌ<?> shapeData; // 0x18
+    public ÍÎÏÎÎ.ÌÌ<rdLeastSignificantDecimal> transformData; // 0x28
+    public ÍÎÏÎÎ.ÌÌ<int> transformLookup; // 0x38
 
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD5521D650
@@ -566,11 +558,11 @@ public class UpdateShapePositionsJob : ValueType
 
 public class UpdateShapesJob : ValueType
 {
-    public Unity.Collections.NativeQueue`1<ushort> shapesToUpdate; // 0x10
-    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x18
-    public Unity.Collections.NativeHashMap`2<UnityEngine.Vector3Int,int> gridMap; // 0x28
-    public Unity.Collections.NativeList`1<GridCell> gridCells; // 0x30
-    public Unity.Collections.NativeList`1<int> cellCache; // 0x38
+    public ÍÎÏÎÎ.ateUpdateProfilerMarker<ushort> shapesToUpdate; // 0x10
+    public ÍÎÏÎÎ.ÌÌ<?> shapeData; // 0x18
+    public ÍÎÏÎÎ.les<lutionZ,int> gridMap; // 0x28
+    public ÍÎÏÎÎ.AssignProgramAndVariables<onfigOptions> gridCells; // 0x30
+    public ÍÎÏÎÎ.AssignProgramAndVariables<int> cellCache; // 0x38
 
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD55211530
@@ -586,8 +578,8 @@ public class UpdateStatus : Object
     public int numWindowFixedUpdateMoves; // 0x18
     public int numWindows; // 0x1C
     public int lastFrameUpdated; // 0x20
-    public UnityEngine.Matrix4x4 lastPos; // 0x24
-    public 0x6658B788 <PreferredUpdate>k__BackingField; // 0x64
+    public tSizeBias lastPos; // 0x24
+    public eCameraOverride <PreferredUpdate>k__BackingField; // 0x64
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -634,13 +626,6 @@ public class UpdatedEventHandler : MulticastDelegate
 
 public class UriInfo : Object
 {
-    public string Host; // 0x10
-    public string ScopeId; // 0x18
-    public string String; // 0x20
-    public Offset Offset; // 0x28
-    public string DnsSafeHost; // 0x38
-    public MoreInfo MoreInfo; // 0x40
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -676,8 +661,6 @@ public class UserDefinedSettings : ValueType
 
 public class UserHandle : ValueType
 {
-    public UIntPtr Handle; // 0x10
-
     // ── Methods ──
     public void Drop(){} // RVA: 0x7FFD4FD96780
     public void DisplayName(){} // RVA: 0x7FFD4FD96800
@@ -699,7 +682,7 @@ public class UxmlObjectFactory`1 : UxmlObjectFactory`2
 
 public class UxmlObjectTraits`1 : UxmlObjectTraits`1
 {
-    public UnityEngine.UIElements.UxmlObjectListAttributeDescription`1<UnityEngine.UIElements.SortColumnDescription> m_SortColumnDescriptions;
+    public ÎÏÌÎÎÎÌÌÌ.near<ÎÏÌÎÎÎÌÌÌ.MixedValueContent> m_SortColumnDescriptions;
 
     // ── Methods ──
     public void ParseLength(){} // RVA: 0x7FFD4E2ADC40

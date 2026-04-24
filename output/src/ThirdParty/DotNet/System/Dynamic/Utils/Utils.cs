@@ -8,7 +8,7 @@ namespace ThirdParty.DotNet.System.Dynamic.Utils
     public class CacheDict`2 : Object
     {
         public int Item;
-        public Entry<U,T>[] _entries;
+        public ?<T1717688736,T1717688752>[] _entries;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -44,7 +44,7 @@ namespace ThirdParty.DotNet.System.Dynamic.Utils
 
     public class EmptyReadOnlyCollection`1 : Object
     {
-        public System.Collections.ObjectModel.ReadOnlyCollection`1<T> Instance;
+        public UnicodeCategory.pacingCombiningMark<T1717688896> Instance;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0

@@ -76,10 +76,10 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class HmdQuad_t : ValueType
     {
-        public Valve.VR.HmdVector3_t vCorners0; // 0x10
-        public Valve.VR.HmdVector3_t vCorners1; // 0x1C
-        public Valve.VR.HmdVector3_t vCorners2; // 0x28
-        public Valve.VR.HmdVector3_t vCorners3; // 0x34
+        public VRChaperone vCorners0; // 0x10
+        public VRChaperone vCorners1; // 0x1C
+        public VRChaperone vCorners2; // 0x28
+        public VRChaperone vCorners3; // 0x34
     }
 
     public class HmdQuaternion_t : ValueType
@@ -100,8 +100,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class HmdRect2_t : ValueType
     {
-        public Valve.VR.HmdVector2_t vTopLeft; // 0x10
-        public Valve.VR.HmdVector2_t vBottomRight; // 0x18
+        public tor vTopLeft; // 0x10
+        public tor vBottomRight; // 0x18
     }
 
     public class HmdVector2_t : ValueType

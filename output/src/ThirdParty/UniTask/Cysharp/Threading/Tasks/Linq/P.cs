@@ -7,7 +7,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class Pairwise`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public eObjectDelegate.fo<T1717635648> source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -16,11 +16,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Publish`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Threading.CancellationTokenSource cancellationTokenSource;
-        public Cysharp.Threading.Tasks.TriggerEvent`1<T> trigger;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-        public System.IDisposable connectedDisposable;
+        public eObjectDelegate.fo<T1717635712> source;
+        public sageKind._internal cancellationTokenSource;
+        public eObjectDelegate.roperty<T1717635712> trigger;
+        public eObjectDelegate.o<T1717635712> enumerator;
+        public Names connectedDisposable;
         public bool isCompleted;
 
         // ── Methods ──

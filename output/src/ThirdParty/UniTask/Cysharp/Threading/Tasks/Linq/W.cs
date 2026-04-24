@@ -7,8 +7,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class WhereAwaitWithCancellation`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+        public eObjectDelegate.fo<T1717640608> source;
+        public nalInformation<T1717640608,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<bool>> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -17,8 +17,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class WhereAwait`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+        public eObjectDelegate.fo<T1717640544> source;
+        public n<T1717640544,eObjectDelegate.kingField<bool>> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -27,8 +27,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class WhereIntAwaitWithCancellation`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`4<T,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+        public eObjectDelegate.fo<T1717640640> source;
+        public rmation<T1717640640,int,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<bool>> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -37,8 +37,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class WhereIntAwait`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`3<T,int,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
+        public eObjectDelegate.fo<T1717640576> source;
+        public nalInformation<T1717640576,int,eObjectDelegate.kingField<bool>> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -47,8 +47,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class WhereInt`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`3<T,int,bool> predicate;
+        public eObjectDelegate.fo<T1717640512> source;
+        public nalInformation<T1717640512,int,bool> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -57,8 +57,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Where`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Func`2<T,bool> predicate;
+        public eObjectDelegate.fo<T1717640480> source;
+        public n<T1717640480,bool> predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30

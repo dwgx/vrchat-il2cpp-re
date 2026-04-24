@@ -34,8 +34,8 @@ namespace VRC.PlayerDrone
         public float pFactor; // 0x10
         public float iFactor; // 0x14
         public float dFactor; // 0x18
-        public UnityEngine.Vector3 integral; // 0x1C
-        public UnityEngine.Vector3 lastError; // 0x28
+        public amut integral; // 0x1C
+        public amut lastError; // 0x28
         public float kReferenceDeltaTime;
 
         // ── Methods ──

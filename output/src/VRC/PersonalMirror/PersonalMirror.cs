@@ -7,14 +7,14 @@ namespace VRC.PersonalMirror
 {
     public class Edges : Object
     {
-        public UnityEngine.GameObject top; // 0x10
-        public UnityEngine.GameObject bottom; // 0x18
-        public UnityEngine.GameObject left; // 0x20
-        public UnityEngine.GameObject right; // 0x28
-        public UnityEngine.GameObject topLeft; // 0x30
-        public UnityEngine.GameObject topRight; // 0x38
-        public UnityEngine.GameObject bottomLeft; // 0x40
-        public UnityEngine.GameObject bottomRight; // 0x48
+        public BuffersImpl top; // 0x10
+        public BuffersImpl bottom; // 0x18
+        public BuffersImpl left; // 0x20
+        public BuffersImpl right; // 0x28
+        public BuffersImpl topLeft; // 0x30
+        public BuffersImpl topRight; // 0x38
+        public BuffersImpl bottomLeft; // 0x40
+        public BuffersImpl bottomRight; // 0x48
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E872B40

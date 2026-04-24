@@ -119,7 +119,7 @@ namespace ThirdParty.DotNet.System.Globalization
         public int iTwoDigitYearMax; // 0x90
         public int iCurrentEra; // 0x94
         public bool bUseUserOverrides; // 0x98
-        public System.Globalization.CalendarData Invariant;
+        public 0.NT_TYPE_BOOLEAN Invariant;
         public string[] HEBREW_MONTH_NAMES; // 0x8
         public string[] HEBREW_LEAP_MONTH_NAMES; // 0x10
 
@@ -139,17 +139,17 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CompareInfo : Object
     {
-        public 0x6643B010 Name;
-        public 0x6643B010 UseManagedCollation;
-        public 0x6643B010 ValidHashCodeOfStringMaskOffFlags;
-        public 0x6643B010 ValidSortkeyCtorMaskOffFlags;
-        public System.Globalization.CompareInfo Invariant;
+        public 0.gManifestResourceException Name;
+        public 0.gManifestResourceException UseManagedCollation;
+        public 0.gManifestResourceException ValidHashCodeOfStringMaskOffFlags;
+        public 0.gManifestResourceException ValidSortkeyCtorMaskOffFlags;
+        public 0.AManaged Invariant;
         public string m_name; // 0x10
         public string _sortName; // 0x18
-        public System.Globalization.SortVersion m_SortVersion; // 0x20
+        public 0.Mitigations m_SortVersion; // 0x20
         public int culture; // 0x28
-        public System.Globalization.ISimpleCollator collator; // 0x30
-        public System.Collections.Generic.Dictionary`2<string,System.Globalization.ISimpleCollator> collators; // 0x8
+        public 0.nternal collator; // 0x30
+        public URA.DateTime<string,0.nternal> collators; // 0x8
         public bool managedCollation; // 0x10
         public bool managedCollationChecked; // 0x11
 
@@ -217,7 +217,7 @@ namespace ThirdParty.DotNet.System.Globalization
         public int IFIRSTWEEKOFYEAR; // 0x38
         public int SAM1159; // 0x3C
         public int[] SPM2359; // 0x40
-        public System.Globalization.CalendarData[] TimeSeparator; // 0x48
+        public 0.NT_TYPE_BOOLEAN[] TimeSeparator; // 0x48
         public string CalendarIds; // 0x50
         public string IsInvariantCulture; // 0x58
         public bool CultureName; // 0x60
@@ -229,7 +229,7 @@ namespace ThirdParty.DotNet.System.Globalization
         public int iDefaultEbcdicCodePage; // 0x78
         public bool isRightToLeft; // 0x7C
         public string sListSeparator; // 0x80
-        public System.Globalization.CultureData s_Invariant;
+        public 0.s s_Invariant;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E409510
@@ -284,9 +284,9 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CultureInfo : Object
     {
-        public System.Globalization.CultureInfo _cultureData;
+        public 0.T_I8 _cultureData;
         public object _isInherited; // 0x8
-        public System.Globalization.CultureInfo InvariantCulture; // 0x10
+        public 0.T_I8 InvariantCulture; // 0x10
         public bool CurrentCulture; // 0x10
         public int CurrentUICulture; // 0x14
         public int Territory; // 0x18
@@ -294,9 +294,9 @@ namespace ThirdParty.DotNet.System.Globalization
         public int IetfLanguageTag; // 0x20
         public int LCID; // 0x24
         public bool Name; // 0x28
-        public System.Globalization.NumberFormatInfo NativeName; // 0x30
-        public System.Globalization.DateTimeFormatInfo Calendar; // 0x38
-        public System.Globalization.TextInfo Parent; // 0x40
+        public 0.d NativeName; // 0x30
+        public 0.tOfUserTypes Calendar; // 0x38
+        public 0.GetDeclaringTypeInternal Parent; // 0x40
         public string TextInfo; // 0x48
         public string ThreeLetterISOLanguageName; // 0x50
         public string TwoLetterISOLanguageName; // 0x58
@@ -305,24 +305,24 @@ namespace ThirdParty.DotNet.System.Globalization
         public string NumberFormat; // 0x70
         public string DateTimeFormat; // 0x78
         public string[] DisplayName; // 0x80
-        public System.Globalization.CompareInfo EnglishName; // 0x88
-        public void* InstalledUICulture; // 0x90
+        public 0.AManaged EnglishName; // 0x88
+        public IntPtr InstalledUICulture; // 0x90
         public int IsReadOnly; // 0x98
-        public System.Globalization.Calendar CalendarType; // 0xA0
-        public System.Globalization.CultureInfo DefaultThreadCurrentCulture; // 0xA8
+        public 0.ÏÏÌÏÎÌÍÌÎÍÎÍÏÌÌÏÌÎÌÎÌ CalendarType; // 0xA0
+        public 0.T_I8 DefaultThreadCurrentCulture; // 0xA8
         public bool DefaultThreadCurrentUICulture; // 0xB0
         public byte[] SortName; // 0xB8
-        public System.Globalization.CultureData UserDefaultUICulture; // 0xC0
+        public 0.s UserDefaultUICulture; // 0xC0
         public bool UserDefaultCulture; // 0xC8
         public int HasInvariantCultureName;
         public int CalendarTypeBits;
         public int LOCALE_INVARIANT;
         public string MSG_READONLY;
-        public System.Globalization.CultureInfo s_DefaultThreadCurrentUICulture; // 0x18
-        public System.Globalization.CultureInfo s_DefaultThreadCurrentCulture; // 0x20
-        public System.Collections.Generic.Dictionary`2<int,System.Globalization.CultureInfo> shared_by_number; // 0x28
-        public System.Collections.Generic.Dictionary`2<string,System.Globalization.CultureInfo> shared_by_name; // 0x30
-        public System.Globalization.CultureInfo s_UserPreferredCultureInfoInAppX; // 0x38
+        public 0.T_I8 s_DefaultThreadCurrentUICulture; // 0x18
+        public 0.T_I8 s_DefaultThreadCurrentCulture; // 0x20
+        public URA.DateTime<int,0.T_I8> shared_by_number; // 0x28
+        public URA.DateTime<string,0.T_I8> shared_by_name; // 0x30
+        public 0.T_I8 s_UserPreferredCultureInfoInAppX; // 0x38
         public bool IsTaiwanSku; // 0x40
 
         // ── Methods ──
@@ -400,12 +400,12 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class DateTimeFormatInfo : Object
     {
-        public System.Globalization.DateTimeFormatInfo CultureName;
-        public System.Globalization.CultureData Culture; // 0x10
+        public 0.tOfUserTypes CultureName;
+        public 0.s Culture; // 0x10
         public string LanguageName; // 0x18
         public string InvariantInfo; // 0x20
-        public System.Globalization.CompareInfo CurrentInfo; // 0x28
-        public System.Globalization.CultureInfo AMDesignator; // 0x30
+        public 0.AManaged CurrentInfo; // 0x28
+        public 0.T_I8 AMDesignator; // 0x30
         public string Calendar; // 0x38
         public string OptionalCalendars; // 0x40
         public string EraNames; // 0x48
@@ -417,7 +417,7 @@ namespace ThirdParty.DotNet.System.Globalization
         public string LongTimePattern;
         public string MonthDayPattern;
         public string PMDesignator;
-        public System.Globalization.Calendar RFC1123Pattern; // 0x78
+        public 0.ÏÏÌÏÎÌÍÌÎÍÎÍÏÌÌÏÌÎÌÎÌ RFC1123Pattern; // 0x78
         public int ShortDatePattern; // 0x80
         public int ShortTimePattern; // 0x84
         public string SortableDateTimePattern; // 0x88
@@ -442,17 +442,17 @@ namespace ThirdParty.DotNet.System.Globalization
         public string[] UnclonedShortDatePatterns; // 0x120
         public string[] UnclonedLongDatePatterns; // 0x128
         public string[] UnclonedShortTimePatterns; // 0x130
-        public 0x6643B2D0[] UnclonedLongTimePatterns; // 0x138
+        public 0.tions[] UnclonedLongTimePatterns; // 0x138
         public int IsReadOnly;
         public bool MonthGenitiveNames; // 0x140
-        public 0x6643B170 FullTimeSpanPositivePattern; // 0x144
+        public 0.e>5__3 FullTimeSpanPositivePattern; // 0x144
         public char[] FullTimeSpanNegativePattern; // 0x8
         public string CompareInfo;
         public string FormatFlags;
         public string HasForceTwoDigitYears; // 0x148
         public string HasYearMonthAdjustment; // 0x150
-        public 0x6643B3D8 InvalidDateTimeStyles;
-        public TokenHashValue[] _dtfiTokenHash; // 0x158
+        public 0.o InvalidDateTimeStyles;
+        public dEventAdapter[] _dtfiTokenHash; // 0x158
         public int TOKEN_HASH_SIZE;
         public int SECOND_PRIME;
         public string dateSeparatorOrTimeZoneOffset;
@@ -480,8 +480,8 @@ namespace ThirdParty.DotNet.System.Globalization
         public string KoreanLangName;
         public string JapaneseLangName;
         public string EnglishLangName;
-        public System.Globalization.DateTimeFormatInfo s_jajpDTFI; // 0x10
-        public System.Globalization.DateTimeFormatInfo s_zhtwDTFI; // 0x18
+        public 0.tOfUserTypes s_jajpDTFI; // 0x10
+        public 0.tOfUserTypes s_zhtwDTFI; // 0x18
 
         // ── Methods ──
         public void get_CultureName(){} // RVA: 0x7FFD5396A2A0
@@ -594,10 +594,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class GregorianCalendar : Calendar
     {
-        public 0x6643BE80 MinSupportedDateTime; // 0x20
+        public 0.vStdcall MinSupportedDateTime; // 0x20
         public int[] MaxSupportedDateTime;
         public int[] AlgorithmType; // 0x8
-        public System.Globalization.Calendar ID; // 0x10
+        public 0.ÏÏÌÏÎÌÍÌÎÍÎÍÏÌÌÏÌÎÌÎÌ ID; // 0x10
 
         // ── Methods ──
         public void OnDeserialized(){} // RVA: 0x7FFD53984870
@@ -647,7 +647,7 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class NumberFormatInfo : Object
     {
-        public System.Globalization.NumberFormatInfo InvariantInfo;
+        public 0.d InvariantInfo;
         public int[] CurrencyDecimalDigits; // 0x10
         public int[] CurrencyDecimalSeparator; // 0x18
         public int[] IsReadOnly; // 0x20
@@ -682,7 +682,7 @@ namespace ThirdParty.DotNet.System.Globalization
         public bool m_isInvariant; // 0xD2
         public bool validForParseAsNumber; // 0xD3
         public bool validForParseAsCurrency; // 0xD4
-        public 0x6643B6F0 InvalidNumberStyles;
+        public 0.s InvalidNumberStyles;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5398D240 | overloaded x2
@@ -731,7 +731,7 @@ namespace ThirdParty.DotNet.System.Globalization
     {
         public string OriginalString; // 0x10
         public byte[] KeyData; // 0x18
-        public 0x6643B010 options; // 0x20
+        public 0.gManifestResourceException options; // 0x20
         public int lcid; // 0x24
 
         // ── Methods ──
@@ -746,8 +746,6 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class SortVersion : Object
     {
-        public int m_NlsVersion; // 0x10
-        public System.Guid m_SortId; // 0x14
     }
 
     public class TextInfo : Object
@@ -755,10 +753,10 @@ namespace ThirdParty.DotNet.System.Globalization
         public string Invariant; // 0x10
         public bool CultureName; // 0x18
         public string IsReadOnly; // 0x20
-        public System.Globalization.CultureData ListSeparator; // 0x28
+        public 0.s ListSeparator; // 0x28
         public string IsAsciiCasingSameAsInvariant; // 0x30
-        public System.Nullable`1<bool> IsRightToLeft; // 0x38
-        public System.Globalization.TextInfo s_Invariant;
+        public aphy<bool> IsRightToLeft; // 0x38
+        public 0.GetDeclaringTypeInternal s_Invariant;
         public string customCultureName; // 0x40
         public int m_nDataItem; // 0x48
         public bool m_useUserOverride; // 0x4C
@@ -800,15 +798,6 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class TextInfoToUpperData : Object
     {
-        public char[] range_00e0_0586;
-        public char[] range_1e01_1ff3; // 0x8
-        public char[] range_2170_2184; // 0x10
-        public char[] range_24d0_24e9; // 0x18
-        public char[] range_2c30_2ce3; // 0x20
-        public char[] range_2d00_2d25; // 0x28
-        public char[] range_a641_a697; // 0x30
-        public char[] range_a723_a78c; // 0x38
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD539A1380
     }

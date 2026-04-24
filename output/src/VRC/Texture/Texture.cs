@@ -8,8 +8,6 @@ namespace VRC.Texture
     /// <summary>Originally: ÏÌÍÍÍÏÌÎÎÎÎÏÌÌÌÏÌÏÎÍÌÎÎ</summary>
     public class DataStartDownloadLoadImage_4DD7 : ImageDownloader
     {
-        public string ÌÌÌÍÏÌÏÏÏÎÎÍÏÎÍÏÍÍÌÍÎÎÏ;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E5EE2C0
         public void LoadImage(){} // RVA: 0x7FFD4E5EE2D0
@@ -20,8 +18,6 @@ namespace VRC.Texture
     /// <summary>Originally: ÌÍÍÌÍÌÌÏÏÍÏÏÏÎÏÍÌÌÌÍÏÍÏ</summary>
     public class TexturetextImpl_10C6 : Texturetext_35E1
     {
-        public System.Nullable`1<System.DateTime> ÍÌÍÏÏÏÎÎÍÌÍÎÏÏÍÌÏÏÏÌÍÎÍ; // 0x7E8
-
         // ── Methods ──
         public void CalculateTextSize(){} // RVA: 0x7FFD56BE7440
         public void Initialize(){} // RVA: 0x7FFD56BE7BA0 | overloaded x3
@@ -58,11 +54,15 @@ namespace VRC.Texture
     /// <summary>Originally: ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ</summary>
     public class Texturetext_35E1 : TextMeshProUGUI
     {
-        public VRC.Localization.LocalizableString _text; // 0x7A8
-        public UnityEngine.UI.LayoutElement _autoSizeTextContainer; // 0x7D0
-        public bool _mesh; // 0x7D8
-        public 0x66594108 _canvasRenderer; // 0x7DC
-        public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<VRC.Localization.LocalizableString> _maskOffset; // 0x7E0
+        public object _text;
+        public object _autoSizeTextContainer;
+        public object _mesh;
+        public object _canvasRenderer;
+        public object _maskOffset;
+        public object f_3D7;
+        public object f_F4F;
+        public object f_B84;
+        public object f_C95;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E5212B0

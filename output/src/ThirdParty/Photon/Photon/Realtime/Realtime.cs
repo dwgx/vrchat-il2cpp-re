@@ -19,12 +19,12 @@ namespace ThirdParty.Photon.Photon.Realtime
         public string Server; // 0x58
         public ushort Port; // 0x60
         public string ProxyServer; // 0x68
-        public 0x665CA660 Protocol; // 0x70
+        public Ease_Out.? Protocol; // 0x70
         public bool EnableProtocolFallback; // 0x71
-        public 0x663784A8 AuthMode; // 0x74
+        public object AuthMode; // 0x74
         public bool EnableLobbyStatistics; // 0x78
-        public 0x665CA6B8 NetworkLogging; // 0x79
-        public 0x665CA6B8 ClientLogging; // 0x7A
+        public Ease_Out.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject NetworkLogging; // 0x79
+        public Ease_Out.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject ClientLogging; // 0x7A
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F95E180
@@ -49,7 +49,7 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class AsyncSetup : Object
     {
-        public System.Threading.CancellationTokenSource ÏÌÏÌÏÌÏÏÏÌÏÏÍÍÍÎÎÎÍÎÏÍÌ;
+        public sageKind._internal ÏÍÌÍÌÌÏÍÎÎÌÏÌÌÎÌÎÍÎÏÌÎÏ;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F95F620
@@ -66,23 +66,23 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class ConnectionHandler : MonoBehaviour
     {
-        public ÏÌÌÎÍÏÏÍÎÍÌÌÏÏÏÏÎÎÌÏÌÎÌ _destroyCancellationToken; // 0x20
+        public object _destroyCancellationToken; // 0x20
         public string _useGUILayout; // 0x28
         public bool f_93B; // 0x30
-        public int ÍÍÍÍÏÍÌÌÏÎÏÌÌÏÍÌÍÍÏÍÏÏÎ; // 0x34
+        public int ÌÍÌÌÏÍÍÎÎÎÍÏÍÎÎÌÍÍÌÎÌÎÎ; // 0x34
         public int <ÌÍÏÏÎÎÌÍÏÍÍÎÎÍÎÌÏÎÍÏÎÍÍ>k__BackingField; // 0x38
         public bool <ÎÎÎÌÏÏÌÍÌÎÏÍÍÍÎÏÌÏÌÌÎÎÍ>k__BackingField; // 0x3C
-        public bool ÎÍÌÏÏÌÌÌÎÌÎÍÏÌÍÍÍÍÎÏÎÌÎ;
-        public bool ÍÍÎÌÌÌÍÎÎÏÍÏÎÍÍÌÏÍÌÍÍÌÏ; // 0x1
-        public bool ÌÏÏÍÎÏÏÎÎÍÍÍÍÏÌÌÌÏÍÌÌÍÏ; // 0x2
-        public bool ÎÌÏÏÏÏÎÎÏÍÎÌÌÎÏÎÍÎÌÎÏÏÍ; // 0x3
-        public bool ÏÍÍÍÍÍÏÌÎÍÌÏÌÏÏÎÍÌÎÎÎÎÌ; // 0x4
-        public bool ÎÏÍÏÎÌÎÎÏÏÌÎÏÍÏÌÎÌÍÍÌÌÎ; // 0x3D
-        public bool ÍÍÍÌÏÎÏÍÏÏÌÌÎÏÎÎÎÏÏÍÎÌÌ; // 0x3E
-        public int ÌÌÍÌÏÌÎÏÍÎÌÍÌÏÏÎÏÎÌÍÏÏÏ; // 0x40
-        public System.Diagnostics.Stopwatch ÎÎÏÏÏÎÎÍÌÏÌÌÎÎÏÎÎÌÍÎÏÏÏ; // 0x48
-        public System.Threading.Timer ÍÏÍÌÌÎÍÏÏÏÍÏÌÌÏÎÌÎÍÍÏÏÌ; // 0x50
-        public UnityEngine.GameObject ÏÍÏÎÌÎÍÏÏÍÍÌÏÌÍÍÍÏÏÎÏÏÎ; // 0x8
+        public bool ÎÎÎÍÍÌÍÏÎÌÎÍÌÌÌÍÏÍÏÎÍÍÎ;
+        public bool ÍÏÍÎÌÎÍÎÏÎÍÍÏÍÏÌÍÌÍÏÍÏÍ; // 0x1
+        public bool ÍÍÎÌÌÍÍÍÎÎÍÎÎÌÎÍÌÎÍÍÏÎÏ; // 0x2
+        public bool ÌÌÎÌÏÌÎÌÍÎÍÎÌÌÎÌÍÎÌÌÏÏÍ; // 0x3
+        public bool ÍÌÍÏÍÌÍÏÌÍÏÍÍÌÏÍÎÎÌÎÍÏÍ; // 0x4
+        public bool ÏÌÎÍÎÌÎÌÍÌÌÏÏÍÌÏÎÍÌÎÏÌÍ; // 0x3D
+        public bool ÎÏÍÎÏÌÏÎÌÎÏÌÌÍÍÎÏÌÎÎÍÏÌ; // 0x3E
+        public int ÌÌÎÌÏÍÎÏÍÎÍÏÌÌÎÎÍÍÎÌÎÌÎ; // 0x40
+        public ernal_index_icall.mUri ÌÍÍÏÎÍÎÎÍÍÏÍÏÏÏÏÎÌÎÍÏÍÌ; // 0x48
+        public sageKind.lized ÏÏÎÍÍÏÏÎÏÍÎÍÎÍÏÍÏÏÍÌÍÎÌ; // 0x50
+        public BuffersImpl ÎÏÌÌÍÍÌÌÍÎÏÎÌÍÏÏÎÎÍÌÎÏÎ; // 0x8
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F992580
@@ -120,27 +120,27 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class MatchmakingArguments : ValueType
     {
-        public Photon.Realtime.AppSettings UserId; // 0x10
+        public ÌÍÍÍÌÍÌÎÍÏÌÏÌÌ.ÌÍÍ UserId; // 0x10
         public int Plugins; // 0x18
         public int CanRejoin; // 0x1C
         public string RoomName; // 0x20
         public int MaxPlayers; // 0x28
         public bool CanOnlyJoin; // 0x2C
-        public ÏÌÏÍÎÎÌÏÌÌÎÍÏÏÍÏÌÏÎÍÏÎÎ AsyncConfig; // 0x30
-        public ÏÌÌÎÍÏÏÍÎÍÌÌÏÏÏÏÎÎÌÏÌÎÌ NetworkClient; // 0x38
-        public ÍÏÍÎÏÍÍÎÏÌÍÎÌÎÏÏÌÌÌÍÎÎÌ AuthValues; // 0x40
+        public object AsyncConfig; // 0x30
+        public object NetworkClient; // 0x38
+        public object AuthValues; // 0x40
         public string PluginName; // 0x48
-        public Photon.Realtime.MatchmakingReconnectInformation ReconnectInformation; // 0x50
-        public Photon.Client.PhotonHashtable CustomProperties; // 0x58
+        public ÌÍÍÍÌÍÌÎÍÏÌÏÌÌ.ÌÌÏÌÏÌÍÏÍÌÎÏÍÏÌÌÌÎÏ ReconnectInformation; // 0x50
+        public Ease_Out.ÎÍÎÍÍÍÏÎÏÍÌÏÍÏÏÍÍÏÍÍÌ CustomProperties; // 0x58
         public string[] ExpectedUsers; // 0x60
-        public ÎÌÌÍÌÎÍÍÎÏÌÌÍÌÎÎÌÎÌÌÍÎÎ Lobby; // 0x68
+        public object Lobby; // 0x68
         public string[] CustomLobbyProperties; // 0x70
         public string SqlLobbyFilter; // 0x78
         public object Ticket; // 0x80
-        public 0x66378298 RandomMatchingType; // 0x88
-        public ÎÌÏÍÏÍÎÌÏÍÌÎÌÎÎÌÏÌÏÍÍÌÏ CustomRoomOptions; // 0x90
-        public System.Nullable`1<bool> IsRoomVisible; // 0x98
-        public System.Nullable`1<bool> IsRoomOpen; // 0x9A
+        public ÏÏÏÌÌÏÎÍÏÍÏÌÏÎÎÌÏ RandomMatchingType; // 0x88
+        public object CustomRoomOptions; // 0x90
+        public aphy<bool> IsRoomVisible; // 0x98
+        public aphy<bool> IsRoomOpen; // 0x9A
         public bool EnableCrc; // 0x9C
         public bool FastReconnectDisabled; // 0x9D
 
@@ -169,7 +169,7 @@ namespace ThirdParty.Photon.Photon.Realtime
         public string AppVersion; // 0x20
         public string UserId; // 0x28
         public long TimeoutInTicks; // 0x30
-        public System.TimeSpan DefaultTimeout; // 0x38
+        public ializable.GetObjectData DefaultTimeout; // 0x38
 
         // ── Methods ──
         public void get_Timeout(){} // RVA: 0x7FFD4F9ACF10

@@ -7,22 +7,22 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class HttpWebRequest : WebRequest
     {
-        public System.Uri Address; // 0x38
-        public System.Uri AllowAutoRedirect; // 0x40
+        public tLength Address; // 0x38
+        public tLength AllowAutoRedirect; // 0x40
         public bool AllowWriteStreamBuffering; // 0x48
         public bool AutomaticDecompression; // 0x49
         public bool InternalAllowBuffering; // 0x4A
         public bool MethodWithBuffer; // 0x4B
-        public 0x66491EE0 TlsProvider; // 0x50
+        public line.alized TlsProvider; // 0x50
         public string TlsSettings; // 0x58
         public bool ClientCertificates; // 0x60
         public long ConnectionGroupName; // 0x68
-        public 0x6649AF40 ContentLength; // 0x70
-        public 0x6649C120 InternalContentLength; // 0x78
-        public 0x6649AC80 ThrowOnError; // 0x80
+        public ialized.? ContentLength; // 0x70
+        public ialized.bjectsArray InternalContentLength; // 0x78
+        public ialized.buteCollection ThrowOnError; // 0x80
         public bool CookieContainer; // 0x88
         public bool Credentials; // 0x89
-        public 0x6649B3B8 DefaultMaximumErrorResponseLength; // 0x90
+        public ialized.faceAttributeList DefaultMaximumErrorResponseLength; // 0x90
         public bool Headers; // 0x98
         public int Host; // 0x9C
         public string KeepAlive; // 0xA0
@@ -31,18 +31,18 @@ namespace ThirdParty.DotNet.System.Net
         public bool ReadWriteTimeout; // 0xB8
         public bool Method; // 0xB9
         public bool PreAuthenticate; // 0xBA
-        public System.Version ProtocolVersion; // 0xC0
+        public object ProtocolVersion; // 0xC0
         public bool Proxy; // 0xC8
-        public System.Version RequestUri; // 0xD0
-        public 0x6649C3E0 SendChunked; // 0xD8
+        public object RequestUri; // 0xD0
+        public ialized.AddingCompleted SendChunked; // 0xD8
         public bool ServicePoint; // 0xE0
-        public 0x6649D9E0 ServicePointNoLock; // 0xE8
+        public ialized.dPipeline ServicePointNoLock; // 0xE8
         public int Timeout; // 0xF0
         public int TransferEncoding; // 0xF4
-        public 0x6649E6F0 UseDefaultCredentials; // 0xF8
-        public 0x6649D568 UnsafeAuthenticatedConnectionSharing; // 0x100
-        public 0x6649DE58 ExpectContinue; // 0x108
-        public 0x6649E328 AuthUri; // 0x110
+        public ialized.? UseDefaultCredentials; // 0xF8
+        public ialized.he UnsafeAuthenticatedConnectionSharing; // 0x100
+        public ialized._defaultFtpNetworkCredential ExpectContinue; // 0x108
+        public ialized.s AuthUri; // 0x110
         public int ProxyQuery; // 0x118
         public bool ServerCertValidationCallback; // 0x11C
         public int ServerCertificateValidationCallback; // 0x120
@@ -50,20 +50,20 @@ namespace ThirdParty.DotNet.System.Net
         public bool Aborted; // 0x125
         public object locker; // 0x128
         public bool finished_reading; // 0x130
-        public 0x6649CA68 auto_decomp; // 0x134
+        public ialized.tGrandParent auto_decomp; // 0x134
         public int maxResponseHeadersLength; // 0x138
         public int defaultMaxResponseHeadersLength;
         public int defaultMaximumErrorResponseLength; // 0x4
-        public 0x664A0110 defaultCachePolicy; // 0x8
+        public me.ignoreEquals defaultCachePolicy; // 0x8
         public int readWriteTimeout; // 0x13C
-        public 0x6648CDC0 tlsProvider; // 0x140
-        public ÏÍÏÍÎÌ.ÎÍÌÎÏÎÎÏÍÎÍÎÎÍÍÎÏÏÍÍÌÌÍ tlsSettings; // 0x148
-        public 0x6649C6F8 certValidationCallback; // 0x150
+        public geInfo.rocessOnClippingChanged tlsProvider; // 0x140
+        public ivationTrack.ceneOffsetEditor tlsSettings; // 0x148
+        public ialized.NodeBefore certValidationCallback; // 0x150
         public bool hostHasPort; // 0x158
-        public System.Uri hostUri; // 0x160
-        public 0x6649D300 auth_state; // 0x168
-        public 0x6649D300 proxy_auth_state; // 0x178
-        public System.Func`2<System.IO.Stream,System.Threading.Tasks.Task> ResendContentFactory; // 0x188
+        public tLength hostUri; // 0x160
+        public ck auth_state; // 0x168
+        public ck proxy_auth_state; // 0x178
+        public n<Inherited.?,utes.Line> ResendContentFactory; // 0x188
         public int ID; // 0x190
         public bool <ThrowOnError>k__BackingField; // 0x194
         public bool unsafe_auth_blah; // 0x195
@@ -171,8 +171,8 @@ namespace ThirdParty.DotNet.System.Net
 
     public class WebCompletionSource`1 : Object
     {
-        public System.Threading.Tasks.TaskCompletionSource`1<Result<T>> CurrentResult;
-        public Result<T> Task;
+        public utes.s<tCaMode<T1717598576>> CurrentResult;
+        public tCaMode<T1717598576> Task;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E091060
@@ -188,16 +188,16 @@ namespace ThirdParty.DotNet.System.Net
     public class WebRequest : MarshalByRefObject
     {
         public int InternalSyncObject;
-        public System.Collections.ArrayList PrefixList;
+        public mePatterns.tePatterns PrefixList;
         public object DefaultCachePolicy; // 0x8
-        public 0x6649BA40 CachePolicy; // 0x10
-        public 0x664A2370 Method; // 0x18
-        public 0x6642E0C8 RequestUri; // 0x1C
-        public 0x664A0110 ConnectionGroupName; // 0x20
-        public 0x664A01C0 Headers; // 0x28
-        public 0x664A0060 ContentLength; // 0x30
-        public 0x6649B468 Credentials; // 0x18
-        public 0x6649C3E0 UseDefaultCredentials; // 0x20
+        public gnator CachePolicy; // 0x10
+        public tion.achabilityGetFlags Method; // 0x18
+        public Context.ValidateToken RequestUri; // 0x1C
+        public me.ignoreEquals ConnectionGroupName; // 0x20
+        public me._index Headers; // 0x28
+        public me.nKey ContentLength; // 0x30
+        public ldHideMember Credentials; // 0x18
+        public ialized.AddingCompleted UseDefaultCredentials; // 0x20
         public bool Proxy; // 0x28
 
         // ── Methods ──

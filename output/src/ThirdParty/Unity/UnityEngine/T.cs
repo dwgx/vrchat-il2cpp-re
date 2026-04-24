@@ -218,8 +218,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TerrainCallbacks : Object
     {
-        public HeightmapChangedCallback heightmapChanged;
-        public TextureChangedCallback textureChanged; // 0x8
+        public ogateCodePoint heightmapChanged;
+        public teCodePoint textureChanged; // 0x8
 
         // ── Methods ──
         public void InvokeHeightmapChangedCallback(){} // RVA: 0x7FFD54E157B0
@@ -301,30 +301,30 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextEditor : Object
     {
-        public 0x664E03D8 text; // 0x10
+        public Hash128ToStringImpl text; // 0x10
         public int position; // 0x18
-        public UnityEngine.GUIStyle localPosition; // 0x20
+        public ailed localPosition; // 0x20
         public bool cursorIndex; // 0x28
         public bool selectIndex; // 0x29
         public bool hasSelection; // 0x2A
         public bool m_HasFocus; // 0x2B
-        public UnityEngine.Vector2 scrollOffset; // 0x2C
-        public UnityEngine.GUIContent m_Content; // 0x38
-        public UnityEngine.Rect m_Position; // 0x40
+        public tionX scrollOffset; // 0x2C
+        public otifyInitializationConnectionFailed m_Content; // 0x38
+        public dRecorder m_Position; // 0x40
         public int m_CursorIndex; // 0x50
         public int m_SelectIndex; // 0x54
         public bool m_RevealCursor; // 0x58
-        public UnityEngine.Vector2 graphicalCursorPos; // 0x5C
-        public UnityEngine.Vector2 graphicalSelectCursorPos; // 0x64
+        public tionX graphicalCursorPos; // 0x5C
+        public tionX graphicalSelectCursorPos; // 0x64
         public bool m_MouseDragSelectsWholeWords; // 0x6C
         public int m_DblClickInitPos; // 0x70
-        public 0x665E02F0 m_DblClickSnap; // 0x74
+        public csInstanceWrapper m_DblClickSnap; // 0x74
         public bool m_bJustSelected; // 0x75
         public int m_iAltCursorPos; // 0x78
         public string oldText; // 0x80
         public int oldPos; // 0x88
         public int oldSelectPos; // 0x8C
-        public System.Collections.Generic.Dictionary`2<UnityEngine.Event,0x665E03F8> s_Keyactions;
+        public URA.DateTime<5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE,eFakeStoreWindow> s_Keyactions;
 
         // ── Methods ──
         public void get_text(){} // RVA: 0x7FFD54D53730
@@ -425,23 +425,23 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextGenerationSettings : ValueType
     {
-        public UnityEngine.Font font; // 0x10
-        public UnityEngine.Color color; // 0x18
+        public IsWithinBudget font; // 0x10
+        public object color; // 0x18
         public int fontSize; // 0x28
         public float lineSpacing; // 0x2C
         public bool richText; // 0x30
         public float scaleFactor; // 0x34
-        public 0x66638AD8 fontStyle; // 0x38
-        public 0x66638C90 textAnchor; // 0x3C
+        public r fontStyle; // 0x38
+        public RingAutoIndexSort textAnchor; // 0x3C
         public bool alignByGeometry; // 0x40
         public bool resizeTextForBestFit; // 0x41
         public int resizeTextMinSize; // 0x44
         public int resizeTextMaxSize; // 0x48
         public bool updateBounds; // 0x4C
-        public 0x66638D40 verticalOverflow; // 0x50
-        public ÎÎÎÌÌÍÏÍÏÎÌÌÏÏÎÎÌÎÏÌÏ horizontalOverflow; // 0x54
-        public UnityEngine.Vector2 generationExtents; // 0x58
-        public UnityEngine.Vector2 pivot; // 0x60
+        public F218011DDEDB224BCED54E9924CA80D32FD85A52A959E03 verticalOverflow; // 0x50
+        public 2 horizontalOverflow; // 0x54
+        public tionX generationExtents; // 0x58
+        public tionX pivot; // 0x60
         public bool generateOutOfBounds; // 0x68
 
         // ── Methods ──
@@ -454,12 +454,12 @@ namespace ThirdParty.Unity.UnityEngine
     {
         public UIntPtr characterCountVisible; // 0x10
         public string verts; // 0x18
-        public UnityEngine.TextGenerationSettings characters; // 0x20
+        public age characters; // 0x20
         public bool lines; // 0x80
-        public ÏÍÎÎÍÌÎ rectExtents; // 0x84
-        public System.Collections.Generic.List`1<UnityEngine.UIVertex> characterCount; // 0x88
-        public System.Collections.Generic.List`1<UnityEngine.UICharInfo> lineCount; // 0x90
-        public System.Collections.Generic.List`1<UnityEngine.UILineInfo> m_Lines; // 0x98
+        public object rectExtents; // 0x84
+        public URA.woDigitYearMax<cTotalCost> characterCount; // 0x88
+        public URA.woDigitYearMax<?> lineCount; // 0x90
+        public URA.woDigitYearMax<K3.Avatars.ScriptableObjects> m_Lines; // 0x98
         public bool m_CachedVerts; // 0xA0
         public bool m_CachedCharacters; // 0xA1
         public bool m_CachedLines; // 0xA2
@@ -734,13 +734,13 @@ namespace ThirdParty.Unity.UnityEngine
     public class Touch : ValueType
     {
         public int fingerId; // 0x10
-        public UnityEngine.Vector2 position; // 0x14
-        public UnityEngine.Vector2 rawPosition; // 0x1C
-        public UnityEngine.Vector2 deltaPosition; // 0x24
+        public tionX position; // 0x14
+        public tionX rawPosition; // 0x1C
+        public tionX deltaPosition; // 0x24
         public float deltaTime; // 0x2C
         public int tapCount; // 0x30
-        public 0x66639000 phase; // 0x34
-        public 0x666390B0 pressure; // 0x38
+        public get_firstBarrelButton phase; // 0x34
+        public e.Validation.Performance.IVRCRaycast.get_CommandIndex pressure; // 0x38
         public float maximumPossiblePressure; // 0x3C
         public float type; // 0x40
         public float altitudeAngle; // 0x44
@@ -1035,19 +1035,19 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TreeInstance : ValueType
     {
-        public UnityEngine.Vector3 position; // 0x10
+        public amut position; // 0x10
         public float widthScale; // 0x1C
         public float heightScale; // 0x20
         public float rotation; // 0x24
-        public UnityEngine.Color32 color; // 0x28
-        public UnityEngine.Color32 lightmapColor; // 0x2C
+        public object color; // 0x28
+        public object lightmapColor; // 0x2C
         public int prototypeIndex; // 0x30
         public float temporaryDistance; // 0x34
     }
 
     public class TreePrototype : Object
     {
-        public UnityEngine.GameObject prefab; // 0x10
+        public BuffersImpl prefab; // 0x10
         public float bendFactor; // 0x18
         public int navMeshLod; // 0x1C
 

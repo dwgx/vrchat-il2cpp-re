@@ -41,20 +41,20 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class AsyncRequestNativeArrayData : ValueType
     {
-        public void* nativeArrayBuffer; // 0x10
+        public IntPtr nativeArrayBuffer; // 0x10
         public long lengthInBytes; // 0x18
     }
 
     public class BatchCullingContext : ValueType
     {
-        public Unity.Collections.NativeArray`1<UnityEngine.Plane> cullingPlanes; // 0x10
-        public Unity.Collections.NativeArray`1<UnityEngine.Rendering.CullingSplit> cullingSplits; // 0x20
-        public UnityEngine.Rendering.LODParameters lodParameters; // 0x30
-        public UnityEngine.Matrix4x4 localToWorldMatrix; // 0x4C
-        public 0x664E7548 viewType; // 0x8C
-        public 0x664E75A0 projectionType; // 0x90
-        public 0x664E74F0 cullingFlags; // 0x94
-        public UnityEngine.Rendering.BatchPackedCullingViewID viewID; // 0x98
+        public ÍÎÏÎÎ.ÌÌ<?> cullingPlanes; // 0x10
+        public ÍÎÏÎÎ.ÌÌ<ons.jected> cullingSplits; // 0x20
+        public ons.ine.Sprites lodParameters; // 0x30
+        public tSizeBias localToWorldMatrix; // 0x4C
+        public ons.et_position_Injected viewType; // 0x8C
+        public ons._Injected projectionType; // 0x90
+        public ons.nstrainProportionsScale cullingFlags; // 0x94
+        public ons._Injected viewID; // 0x98
         public uint cullingLayerMask; // 0xA0
         public ulong sceneCullingMask; // 0xA8
         public byte isOrthographic; // 0xB0
@@ -67,7 +67,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class BatchID : ValueType
     {
-        public UnityEngine.Rendering.BatchID Null;
+        public ons.onUniformScaleTransform Null;
         public uint value; // 0x10
 
         // ── Methods ──
@@ -78,7 +78,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class BatchMaterialID : ValueType
     {
-        public UnityEngine.Rendering.BatchMaterialID Null;
+        public ons.mScaleTransform Null;
         public uint value; // 0x10
 
         // ── Methods ──
@@ -89,7 +89,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class BatchMeshID : ValueType
     {
-        public UnityEngine.Rendering.BatchMeshID Null;
+        public ons.get_constrainProportionsScale Null;
         public uint value; // 0x10
 
         // ── Methods ──
@@ -109,27 +109,27 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class BatchRendererCullingOutput : ValueType
     {
-        public Unity.Jobs.JobHandle cullingJobsFence; // 0x10
-        public UnityEngine.Matrix4x4 localToWorldMatrix; // 0x20
-        public UnityEngine.Plane* cullingPlanes; // 0x60
+        public ÍÏÌÏÌÏÌÏÍÎÌÎÌÏÏÏÎ.ÎÎ cullingJobsFence; // 0x10
+        public tSizeBias localToWorldMatrix; // 0x20
+        public IntPtr cullingPlanes; // 0x60
         public int cullingPlaneCount; // 0x68
         public int receiverPlaneOffset; // 0x6C
         public int receiverPlaneCount; // 0x70
-        public UnityEngine.Rendering.CullingSplit* cullingSplits; // 0x78
+        public IntPtr cullingSplits; // 0x78
         public int cullingSplitCount; // 0x80
-        public 0x664E7548 viewType; // 0x84
-        public 0x664E75A0 projectionType; // 0x88
-        public 0x664E74F0 cullingFlags; // 0x8C
+        public ons.et_position_Injected viewType; // 0x84
+        public ons._Injected projectionType; // 0x88
+        public ons.nstrainProportionsScale cullingFlags; // 0x8C
         public ulong viewID; // 0x90
         public uint cullingLayerMask; // 0x98
         public ulong sceneCullingMask; // 0xA0
-        public 0x664E7758* drawCommands; // 0xA8
+        public IntPtr drawCommands; // 0xA8
     }
 
     public class BatchRendererGroup : Object
     {
         public UIntPtr m_GroupHandle; // 0x10
-        public OnPerformCulling m_PerformCulling; // 0x18
+        public tCurrentMeshData m_PerformCulling; // 0x18
 
         // ── Methods ──
         public void InvokeOnPerformCulling(){} // RVA: 0x7FFD54D0FED0
@@ -137,35 +137,35 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class CameraProperties : ValueType
     {
-        public UnityEngine.Rect screenRect; // 0x10
-        public UnityEngine.Vector3 viewDir; // 0x20
+        public dRecorder screenRect; // 0x10
+        public amut viewDir; // 0x20
         public float projectionNear; // 0x2C
         public float projectionFar; // 0x30
         public float cameraNear; // 0x34
         public float cameraFar; // 0x38
         public float cameraAspect; // 0x3C
-        public UnityEngine.Matrix4x4 cameraToWorld; // 0x40
-        public UnityEngine.Matrix4x4 actualWorldToClip; // 0x80
-        public UnityEngine.Matrix4x4 cameraClipToWorld; // 0xC0
-        public UnityEngine.Matrix4x4 cameraWorldToClip; // 0x100
-        public UnityEngine.Matrix4x4 implicitProjection; // 0x140
-        public UnityEngine.Matrix4x4 stereoWorldToClipLeft; // 0x180
-        public UnityEngine.Matrix4x4 stereoWorldToClipRight; // 0x1C0
-        public UnityEngine.Matrix4x4 worldToCamera; // 0x200
-        public UnityEngine.Vector3 up; // 0x240
-        public UnityEngine.Vector3 right; // 0x24C
-        public UnityEngine.Vector3 transformDirection; // 0x258
-        public UnityEngine.Vector3 cameraEuler; // 0x264
-        public UnityEngine.Vector3 velocity; // 0x270
+        public tSizeBias cameraToWorld; // 0x40
+        public tSizeBias actualWorldToClip; // 0x80
+        public tSizeBias cameraClipToWorld; // 0xC0
+        public tSizeBias cameraWorldToClip; // 0x100
+        public tSizeBias implicitProjection; // 0x140
+        public tSizeBias stereoWorldToClipLeft; // 0x180
+        public tSizeBias stereoWorldToClipRight; // 0x1C0
+        public tSizeBias worldToCamera; // 0x200
+        public amut up; // 0x240
+        public amut right; // 0x24C
+        public amut transformDirection; // 0x258
+        public amut cameraEuler; // 0x264
+        public amut velocity; // 0x270
         public float farPlaneWorldSpaceLength; // 0x27C
         public uint rendererCount; // 0x280
-        public <m_ShadowCullPlanes>e__FixedBuffer m_ShadowCullPlanes; // 0x284
-        public <m_CameraCullPlanes>e__FixedBuffer m_CameraCullPlanes; // 0x2E4
+        public daryTextures m_ShadowCullPlanes; // 0x284
+        public r m_CameraCullPlanes; // 0x2E4
         public float baseFarDistance; // 0x344
-        public UnityEngine.Vector3 shadowCullCenter; // 0x348
-        public <layerCullDistances>e__FixedBuffer layerCullDistances; // 0x354
+        public amut shadowCullCenter; // 0x348
+        public ndaryTexture layerCullDistances; // 0x354
         public int layerCullSpherical; // 0x3D4
-        public UnityEngine.Rendering.CoreCameraValues coreCameraValues; // 0x3D8
+        public ons.xtureProperties coreCameraValues; // 0x3D8
         public uint cameraType; // 0x3E4
         public int projectionIsOblique; // 0x3E8
         public int isImplicitProjectionMatrix; // 0x3EC
@@ -272,13 +272,13 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class CullingSplit : ValueType
     {
-        public UnityEngine.Vector3 sphereCenter; // 0x10
+        public amut sphereCenter; // 0x10
         public float sphereRadius; // 0x1C
         public int cullingPlaneOffset; // 0x20
         public int cullingPlaneCount; // 0x24
         public float cascadeBlendCullingFactor; // 0x28
         public float nearPlane; // 0x2C
-        public UnityEngine.Matrix4x4 cullingMatrix; // 0x30
+        public tSizeBias cullingMatrix; // 0x30
     }
 
     public class GraphicsSettings : Object
@@ -303,7 +303,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
     public class LODParameters : ValueType
     {
         public int m_IsOrthographic; // 0x10
-        public UnityEngine.Vector3 m_CameraPosition; // 0x14
+        public amut m_CameraPosition; // 0x14
         public float m_FieldOfView; // 0x20
         public float m_OrthoSize; // 0x24
         public int m_CameraPixelHeight; // 0x28
@@ -315,7 +315,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class LocalKeyword : ValueType
     {
-        public UnityEngine.Rendering.LocalKeywordSpace m_SpaceInfo; // 0x10
+        public ons.nt`1 m_SpaceInfo; // 0x10
         public string m_Name; // 0x18
         public uint m_Index; // 0x20
 
@@ -347,7 +347,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class ReflectionProbeBlendInfo : ValueType
     {
-        public UnityEngine.ReflectionProbe probe; // 0x10
+        public ÍÌÍÏÏÍÎÌÍÌÌÏÍÎÏÏ probe; // 0x10
         public float weight; // 0x18
     }
 
@@ -368,16 +368,16 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class RenderPipelineManager : Object
     {
-        public 0x664E7E38 currentPipeline;
-        public System.Collections.Generic.List`1<UnityEngine.Camera> s_Cameras; // 0x8
+        public ons.sedSizeLong currentPipeline;
+        public URA.woDigitYearMax<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> s_Cameras; // 0x8
         public string s_CurrentPipelineType; // 0x10
-        public UnityEngine.Rendering.RenderPipeline s_CurrentPipeline; // 0x18
-        public System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera> beginCameraRendering; // 0x20
-        public System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera> endCameraRendering; // 0x28
-        public System.Action activeRenderPipelineTypeChanged; // 0x30
-        public System.Action`2<0x664E7E38,0x664E7E38> activeRenderPipelineAssetChanged; // 0x38
-        public System.Action activeRenderPipelineCreated; // 0x40
-        public System.Action activeRenderPipelineDisposed; // 0x48
+        public ons.Requested s_CurrentPipeline; // 0x18
+        public rectoryInformation<ons.raseRecognizedEventArgs,ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> beginCameraRendering; // 0x20
+        public rectoryInformation<ons.raseRecognizedEventArgs,ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> endCameraRendering; // 0x28
+        public ÎÌÍÏÏÌÍÏ activeRenderPipelineTypeChanged; // 0x30
+        public rectoryInformation<ons.sedSizeLong,ons.sedSizeLong> activeRenderPipelineAssetChanged; // 0x38
+        public ÎÌÍÏÏÌÍÏ activeRenderPipelineCreated; // 0x40
+        public ÎÌÍÏÏÌÍÏ activeRenderPipelineDisposed; // 0x48
 
         // ── Methods ──
         public void get_currentPipeline(){} // RVA: 0x7FFD54D13EC0
@@ -400,27 +400,27 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
     public class ScriptableCullingParameters : ValueType
     {
         public int cullingPlaneCount; // 0x10
-        public UnityEngine.Rendering.LODParameters m_LODParameters; // 0x14
+        public ons.ine.Sprites m_LODParameters; // 0x14
         public int maximumCullingPlaneCount;
-        public <m_CullingPlanes>e__FixedBuffer m_CullingPlanes; // 0x30
+        public FromAttributeDataForType m_CullingPlanes; // 0x30
         public int m_CullingPlaneCount; // 0xD0
         public uint m_CullingMask; // 0xD4
         public ulong m_SceneMask; // 0xD8
         public ulong m_ViewID; // 0xE0
         public int layerCount; // 0x4
-        public <m_LayerFarCullDistances>e__FixedBuffer m_LayerFarCullDistances; // 0xE8
+        public leteTypeRedirection m_LayerFarCullDistances; // 0xE8
         public int m_LayerCull; // 0x168
-        public UnityEngine.Matrix4x4 m_CullingMatrix; // 0x16C
-        public UnityEngine.Vector3 m_Origin; // 0x1AC
+        public tSizeBias m_CullingMatrix; // 0x16C
+        public amut m_Origin; // 0x1AC
         public float m_ShadowDistance; // 0x1B8
         public float m_ShadowNearPlaneOffset; // 0x1BC
-        public 0x664E7B78 m_CullingOptions; // 0x1C0
-        public 0x664E7D88 m_ReflectionProbeSortingCriteria; // 0x1C4
-        public UnityEngine.Rendering.CameraProperties m_CameraProperties; // 0x1C8
+        public ons.spriteAtlasTextureScale m_CullingOptions; // 0x1C0
+        public ons.? m_ReflectionProbeSortingCriteria; // 0x1C4
+        public ons.etSpriteBounds m_CameraProperties; // 0x1C8
         public float m_AccurateOcclusionThreshold; // 0x5A8
         public int m_MaximumPortalCullingJobs; // 0x5AC
-        public UnityEngine.Matrix4x4 m_StereoViewMatrix; // 0x5B0
-        public UnityEngine.Matrix4x4 m_StereoProjectionMatrix; // 0x5F0
+        public tSizeBias m_StereoViewMatrix; // 0x5B0
+        public tSizeBias m_StereoProjectionMatrix; // 0x5F0
         public float m_StereoSeparationDistance; // 0x630
         public int m_maximumVisibleLights; // 0x634
         public bool m_ConservativeEnclosingSphere; // 0x638
@@ -437,7 +437,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class ScriptableRenderContext : ValueType
     {
-        public 0x664E7F40 kRenderTypeTag;
+        public ons.CaptureResult kRenderTypeTag;
         public UIntPtr m_Ptr; // 0x10
 
         // ── Methods ──
@@ -534,12 +534,12 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class SupportedRenderingFeatures : Object
     {
-        public UnityEngine.Rendering.SupportedRenderingFeatures active;
-        public 0x664E7FF0 defaultMixedLightingModes; // 0x10
-        public 0x664E8048 mixedLightingModes; // 0x14
-        public 0x664E8048 lightmapBakeTypes; // 0x18
-        public 0x664DBBA8 lightmapsModes; // 0x1C
-        public 0x664DC338 enlightenLightmapper; // 0x20
+        public ons.? active;
+        public allsDirty defaultMixedLightingModes; // 0x10
+        public object mixedLightingModes; // 0x14
+        public object lightmapBakeTypes; // 0x18
+        public al lightmapsModes; // 0x1C
+        public idth enlightenLightmapper; // 0x20
         public bool enlighten; // 0x24
         public bool rendersUIOverlay; // 0x25
         public bool autoAmbientProbeBaking; // 0x26
@@ -597,8 +597,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering
 
     public class VertexAttributeDescriptor : ValueType
     {
-        public 0x664E6470 attribute; // 0x10
-        public 0x664E6418 format; // 0x14
+        public ons.GroupSize attribute; // 0x10
+        public ons.xTextureSize format; // 0x14
         public int dimension; // 0x18
         public int stream; // 0x1C
 

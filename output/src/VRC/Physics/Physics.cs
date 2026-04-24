@@ -8,8 +8,6 @@ namespace VRC.Physics
     /// <summary>Originally: ÌÌÎÍÎÍÍÍÌÏÎÍÎÏÌÍÍÍÍÏÎÍÎ</summary>
     public class ParticleCollisionHandler_7602 : MonoBehaviour
     {
-        public ÌÎÌÍÎÌÌÍÏÏÍÍÍÎÍÌÍÎÎÎÍÏÎ ÎÌÏÎÌÎÎÌÎÎÍÎÎÌÎÎÌÌÍÏÍÍÎ; // 0x20
-
         // ── Methods ──
         public void OnParticleCollision(){} // RVA: 0x7FFD4F6330A0
         public void RaiseCancellation(){} // RVA: 0x7FFD4F6332A0
@@ -24,8 +22,6 @@ namespace VRC.Physics
     /// <summary>Originally: ÎÌÍÎÌÎÍÏÍÎÏÎÏÎÏÍÍÌÎÍÏÎÏ</summary>
     public class PhysicsCollisionEnterCollisionStayHandler_095E : MonoBehaviour
     {
-        public ÌÎÌÍÎÌÌÍÏÏÍÍÍÎÍÌÍÎÎÎÍÏÎ ÎÌÏÎÌÎÎÌÎÎÍÎÎÌÎÎÌÌÍÏÍÍÎ; // 0x20
-
         // ── Methods ──
         public void OnCollisionStay(){} // RVA: 0x7FFD4F633FC0
         public void OnCollisionExit(){} // RVA: 0x7FFD4F634310
@@ -173,12 +169,19 @@ namespace VRC.Physics
     /// <summary>Originally: ÌÏÏÏÏÍÌÌÎÎÎÌÎÍÍÌÎÏÌÎÏÎÍ</summary>
     public class PhysicsFullResolutionTextureEffectBundleID_FB23 : AnimatedTextureBase_F53F
     {
-        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> _isAnimated; // 0x20
-        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> _effectBundleID; // 0x28
-        public 0x664D6400 _isSpecialFX; // 0x30
-        public int _frames;
-        public VRC.Profiling.ProfilerMarker _fPS; // 0x38
-        public VRC.Profiling.ProfilerMarker _displayTexture; // 0x48
+        public object _isAnimated;
+        public object _effectBundleID;
+        public object _isSpecialFX;
+        public object _frames;
+        public object _fPS;
+        public object _displayTexture;
+        public object _maskTag;
+        public object _linearLoop;
+        public object _fileId;
+        public object _loopStyle;
+        public object _fullResolutionTexture;
+        public object _isBuiltIn;
+        public object f_31B;
 
         // ── Methods ──
         public void set_IsAnimated(){} // RVA: 0x7FFD4FA0D290
@@ -212,13 +215,6 @@ namespace VRC.Physics
     /// <summary>Originally: ÍÏÌÎÍÌÎÍÏÎÌÌÎÍÍÌÏÏÍÎÌÌÍ</summary>
     public class PhysicsTriggerEnterTriggerStayHandler_7B87 : MonoBehaviour
     {
-        public ÌÎÎÌÌÍÎÌÏÌÍÍÏÎÍÍÎÍÎÎÎÎÍ ÍÍÍÌÌÍÏÌÌÍÎÏÍÎÎÌÍÎÏÍÎÏÌ; // 0x20
-        public bool ÎÍÍÏÎÍÏÎÏÍÏÏÍÎÏÌÌÎÍÎÍÏÍ; // 0x28
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÏÎÏÏÏÍÏÏÏÍÎÎÎÌÏÏÎÍÎÍÎÏÍ; // 0x30
-        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÍÏÌÍÌÌÍÌÎÍÍÍÏÎÏÎÍÍÏÏÏÍÎ; // 0x38
-        public float ÌÏÎÍÏÏÏÎÌÍÏÍÎÌÌÍÏÎÎÏÌÎÏ; // 0x40
-        public bool ÎÏÏÎÍÏÍÌÌÍÍÍÍÍÎÏÏÎÍÏÏÍÍ; // 0x44
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F5AFC00
         public void RaiseCancellation(){} // RVA: 0x7FFD4F5AFC70
@@ -247,7 +243,7 @@ namespace VRC.Physics
     /// <summary>Originally: ÎÌÏÏÍÌÌÏÏÍÎÍÌÎÎÎÎÌÌÍÍÎÌ</summary>
     public class PhysicsTryConsumeOnTriggerEnterTryConsumeOnTrig_0827 : Object
     {
-        public ÌÍÏÏÏÍÌÏÎÎÍÏÍÍÍÌÍÍÍÏÍÎÍ _priority; // 0x10
+        public object _priority;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E74BB90

@@ -255,7 +255,7 @@ namespace ThirdParty.DotNet.System
 
     public class IntPtr : ValueType
     {
-        public void* Size; // 0x10
+        public IntPtr Size; // 0x10
         public UIntPtr Zero;
 
         // ── Methods ──

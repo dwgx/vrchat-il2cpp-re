@@ -13,8 +13,8 @@ namespace ThirdParty.DotNet.System
         public int _inext; // 0x10
         public int _inextp; // 0x14
         public int[] _seedArray; // 0x18
-        public System.Random t_threadRandom; // 0xFFFF
-        public System.Random s_globalRandom;
+        public object t_threadRandom; // 0xFFFFFFFF
+        public object s_globalRandom;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A67650 | overloaded x2
@@ -31,8 +31,8 @@ namespace ThirdParty.DotNet.System
 
     public class Range : ValueType
     {
-        public System.Index Start; // 0x10
-        public System.Index End; // 0x14
+        public ÏÏÍÏÏÍÌÏÏÌÎÍÏÍÌÌÏ Start; // 0x10
+        public ÏÏÍÏÏÍÌÏÏÌÎÍÏÍÌÌÏ End; // 0x14
 
         // ── Methods ──
         public void get_Start(){} // RVA: 0x7FFD4F840210
@@ -67,7 +67,7 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
-        public System.ByReference`1<System.Collections.Generic.KeyValuePair`2<string,int>> Item; // 0x10
+        public et<string> Item; // 0x10
         public int Length; // 0x18
 
         // ── Methods ──
@@ -99,7 +99,6 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeArgumentHandle : ValueType
     {
-        public UIntPtr args; // 0x10
     }
 
     public class RuntimeFieldHandle : ValueType
@@ -133,26 +132,26 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeType : TypeInfo
     {
-        public System.RuntimeType Module;
-        public System.RuntimeType Assembly; // 0x8
-        public System.RuntimeType TypeHandle; // 0x10
-        public System.RuntimeType BaseType; // 0x18
-        public System.RuntimeType UnderlyingSystemType; // 0x20
-        public System.Type[] IsEnum; // 0x28
-        public System.Func`3<System.Type,System.Type[],System.Type> GenericParameterAttributes; // 0x30
-        public 0x66438780 IsSzArray;
-        public 0x66438780 IsGenericTypeDefinition;
-        public 0x66438780 IsGenericParameter;
-        public 0x66438780 GenericParameterPosition;
-        public 0x66438780 IsGenericType;
-        public 0x66438780 IsConstructedGenericType;
-        public 0x66438780 MemberType;
-        public 0x66438780 ReflectedType;
-        public 0x66438780 MetadataToken;
-        public System.RuntimeType ContainsGenericParameters; // 0x38
-        public System.MonoTypeInfo GUID; // 0x18
+        public r Module;
+        public r Assembly; // 0x8
+        public r TypeHandle; // 0x10
+        public r BaseType; // 0x18
+        public r UnderlyingSystemType; // 0x20
+        public ?[] IsEnum; // 0x28
+        public nalInformation<?,?[],?> GenericParameterAttributes; // 0x30
+        public m.unt IsSzArray;
+        public m.unt IsGenericTypeDefinition;
+        public m.unt IsGenericParameter;
+        public m.unt GenericParameterPosition;
+        public m.unt IsGenericType;
+        public m.unt IsConstructedGenericType;
+        public m.unt MemberType;
+        public m.unt ReflectedType;
+        public m.unt MetadataToken;
+        public r ContainsGenericParameters; // 0x38
+        public IsContextful GUID; // 0x18
         public object DeclaringMethod; // 0x20
-        public System.Reflection.RuntimeConstructorInfo AssemblyQualifiedName; // 0x28
+        public m.FreeBSTR AssemblyQualifiedName; // 0x28
         public int DeclaringType;
 
         // ── Methods ──

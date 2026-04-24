@@ -62,20 +62,24 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UnityWebRequest : Object
     {
-        public UIntPtr disposeCertificateHandlerOnDispose; // 0x10
-        public UnityEngine.Networking.DownloadHandler disposeDownloadHandlerOnDispose; // 0x18
-        public UnityEngine.Networking.UploadHandler disposeUploadHandlerOnDispose; // 0x20
-        public UnityEngine.Networking.CertificateHandler method; // 0x28
-        public System.Uri error; // 0x30
-        public string url;
-        public string uri;
-        public string responseCode;
-        public string isModifiable;
-        public string isDone;
-        public string isNetworkError;
-        public bool result; // 0x38
-        public bool downloadedBytes; // 0x39
-        public bool redirectLimit; // 0x3A
+        public object disposeCertificateHandlerOnDispose;
+        public object disposeDownloadHandlerOnDispose;
+        public object disposeUploadHandlerOnDispose;
+        public object method;
+        public object error;
+        public object url;
+        public object uri;
+        public object responseCode;
+        public object isModifiable;
+        public object isDone;
+        public object isNetworkError;
+        public object result;
+        public object downloadedBytes;
+        public object redirectLimit;
+        public object uploadHandler;
+        public object downloadHandler;
+        public object certificateHandler;
+        public object timeout;
 
         // ── Methods ──
         public void GetWebErrorString(){} // RVA: 0x7FFD550B3C10
@@ -141,7 +145,7 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UnityWebRequestAsyncOperation : AsyncOperation
     {
-        public UnityEngine.Networking.UnityWebRequest webRequest; // 0x20
+        public Discovery.r`1 webRequest; // 0x20
 
         // ── Methods ──
         public void get_webRequest(){} // RVA: 0x7FFD4E36F0C0
@@ -151,8 +155,6 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UploadHandler : Object
     {
-        public UIntPtr m_Ptr; // 0x10
-
         // ── Methods ──
         public void Release(){} // RVA: 0x7FFD550B66F0
         public void .ctor(){} // RVA: 0x7FFD4E341310

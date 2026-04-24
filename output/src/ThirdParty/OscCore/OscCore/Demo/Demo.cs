@@ -9,10 +9,10 @@ namespace ThirdParty.OscCore.OscCore.Demo
     {
         public int k_LineCount;
         public int k_LastIndex;
-        public System.Text.StringBuilder k_StringBuilder;
-        public OscCore.OscReceiver Receiver; // 0x20
-        public UnityEngine.TextMesh IpAddressText; // 0x28
-        public UnityEngine.TextMesh RecentValueText; // 0x30
+        public em.MarkAborted.izeDefaultCase k_StringBuilder;
+        public stantiated.ructor.CanBeInstantiated Receiver; // 0x20
+        public ED54E9924CA80D32FD85A52A959E03 IpAddressText; // 0x28
+        public ED54E9924CA80D32FD85A52A959E03 RecentValueText; // 0x30
         public int m_ReplaceLineIndex; // 0x38
         public bool m_Dirty; // 0x3C
         public string[] m_ReceivedAsString; // 0x40

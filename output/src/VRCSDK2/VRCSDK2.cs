@@ -17,8 +17,8 @@ namespace VRCSDK2
         public int ParamInt; // 0x28
         public float ParamFloat; // 0x2C
         public string ParamString; // 0x30
-        public UnityEngine.Object ParamObject; // 0x38
-        public AwakeDelegate OnAwake;
+        public object ParamObject; // 0x38
+        public ShadowZeroAlloc OnAwake;
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5740EA40
@@ -41,7 +41,7 @@ namespace VRCSDK2
     public class VRC_AddDamage : MonoBehaviour
     {
         public float damageAmount; // 0x20
-        public InitializationDelegate Initialize;
+        public object Initialize;
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57402C30
@@ -51,9 +51,6 @@ namespace VRCSDK2
 
     public class VRC_AddHealth : MonoBehaviour
     {
-        public float healthAmount; // 0x20
-        public InitializationDelegate Initialize;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57402F10
         public void ProvideEvents(){} // RVA: 0x7FFD57402F70
@@ -62,19 +59,19 @@ namespace VRCSDK2
 
     public class VRC_AudioBank : MonoBehaviour
     {
-        public Jt Current; // 0x20
-        public 0x666263E8 CurrentIdx; // 0x24
-        public UnityEngine.AudioSource Source; // 0x28
+        public Nonce Current; // 0x20
+        public Property CurrentIdx; // 0x24
+        public t Source; // 0x28
         public float MinPitchRange; // 0x30
         public float MaxPitchRange; // 0x34
-        public CustomTriggerTarget OnPlay; // 0x38
-        public CustomTriggerTarget OnStop; // 0x40
-        public CustomTriggerTarget OnChange; // 0x48
-        public UnityEngine.AudioClip[] Clips; // 0x50
+        public t_compositionCursorPos OnPlay; // 0x38
+        public t_compositionCursorPos OnStop; // 0x40
+        public t_compositionCursorPos OnChange; // 0x48
+        public ies[] Clips; // 0x50
         public int[] playOrder; // 0x58
         public int current; // 0x60
         public float remainingTime; // 0x64
-        public System.Random rng; // 0x68
+        public object rng; // 0x68
 
         // ── Methods ──
         public void get_Current(){} // RVA: 0x7FFD5740F0E0
@@ -97,8 +94,8 @@ namespace VRCSDK2
 
     public class VRC_AvatarDescriptor : VRC_AvatarDescriptor
     {
-        public UnityEngine.AnimatorOverrideController CustomStandingAnims; // 0xB8
-        public UnityEngine.AnimatorOverrideController CustomSittingAnims; // 0xC0
+        public ationSpeed CustomStandingAnims; // 0xB8
+        public ationSpeed CustomSittingAnims; // 0xC0
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57401C90
@@ -112,11 +109,11 @@ namespace VRCSDK2
 
     public class VRC_AvatarVariations : MonoBehaviour
     {
-        public 0x66624A20[] categories; // 0x20
+        public AudioData[] categories; // 0x20
         public bool initialized; // 0x28
         public string currentVariationSpec; // 0x30
-        public System.Collections.Generic.List`1<UnityEngine.MeshRenderer> initialMeshes; // 0x38
-        public UnityEngine.Material[] initialMaterials; // 0x40
+        public URA.woDigitYearMax<terialIndex> initialMeshes; // 0x38
+        public atrix_Injected[] initialMaterials; // 0x40
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD57401CA0
@@ -130,21 +127,6 @@ namespace VRCSDK2
 
     public class VRC_CombatSystem : MonoBehaviour
     {
-        public VRCSDK2.VRC_CombatSystem instance;
-        public float maxPlayerHealth; // 0x20
-        public bool respawnOnDeath; // 0x24
-        public UnityEngine.Transform respawnPoint; // 0x28
-        public float respawnTime; // 0x30
-        public bool resetHealthOnRespawn; // 0x34
-        public UnityEngine.GameObject visualDamagePrefab; // 0x38
-        public CustomTriggerTarget onPlayerKilledTrigger; // 0x40
-        public CustomTriggerTarget onPlayerHealedTrigger; // 0x48
-        public CustomTriggerTarget onPlayerDamagedTrigger; // 0x50
-        public System.Action`1<VRC.SDKBase.VRCPlayerApi> onPlayerKilled; // 0x58
-        public System.Action`1<VRC.SDKBase.VRCPlayerApi> onPlayerHealed; // 0x60
-        public System.Action`1<VRC.SDKBase.VRCPlayerApi> onPlayerDamaged; // 0x68
-        public System.Action`1<VRC.SDKBase.VRCPlayerApi> onSetupPlayer; // 0x70
-
         // ── Methods ──
         public void GetInstance(){} // RVA: 0x7FFD574026F0
         public void OnDestroy(){} // RVA: 0x7FFD57402730
@@ -157,7 +139,7 @@ namespace VRCSDK2
     public class VRC_CustomRendererBehaviour : MonoBehaviour
     {
         public bool Renderer; // 0x20
-        public UnityEngine.Renderer _renderer; // 0x28
+        public rical _renderer; // 0x28
 
         // ── Methods ──
         public void get_Renderer(){} // RVA: 0x7FFD57410BF0
@@ -215,13 +197,6 @@ namespace VRCSDK2
 
     public class VRC_JukeBox : MonoBehaviour
     {
-        public bool AutoPlay; // 0x20
-        public bool Shuffle; // 0x21
-        public UnityEngine.AudioClip[] Songs; // 0x28
-        public int PlayingSong; // 0x30
-        public System.Collections.Generic.List`1<int> SongLog; // 0x38
-        public UnityEngine.AudioSource Speakers; // 0x40
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD57403260
         public void Update(){} // RVA: 0x7FFD57403300
@@ -286,17 +261,17 @@ namespace VRCSDK2
 
     public class VRC_ObjectSync : VRCNetworkBehaviour
     {
-        public InitializationDelegate useGravity;
-        public IsLocalDelegate isKinematic; // 0x8
+        public object useGravity;
+        public enerVolume isKinematic; // 0x8
         public bool SynchronizePhysics; // 0x20
         public bool AllowCollisionTransfer; // 0x21
-        public TeleportDelegate TeleportHandler; // 0x10
-        public System.Action`1<VRCSDK2.VRC_ObjectSync> RespawnHandler; // 0x18
-        public System.Func`2<VRCSDK2.VRC_ObjectSync,bool> GetUseGravity; // 0x20
-        public System.Func`2<VRCSDK2.VRC_ObjectSync,bool> GetIsKinematic; // 0x28
-        public System.Action`2<VRCSDK2.VRC_ObjectSync,bool> SetUseGravity; // 0x30
-        public System.Action`2<VRCSDK2.VRC_ObjectSync,bool> SetIsKinematic; // 0x38
-        public System.Action`1<VRCSDK2.VRC_ObjectSync> DiscontinuityHandler; // 0x40
+        public gnoreListenerPause TeleportHandler; // 0x10
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up> RespawnHandler; // 0x18
+        public n<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up,bool> GetUseGravity; // 0x20
+        public n<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up,bool> GetIsKinematic; // 0x28
+        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up,bool> SetUseGravity; // 0x30
+        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up,bool> SetIsKinematic; // 0x38
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up> DiscontinuityHandler; // 0x40
 
         // ── Methods ──
         public void get_useGravity(){} // RVA: 0x7FFD57403EA0
@@ -332,24 +307,6 @@ namespace VRCSDK2
 
     public class VRC_PlayerAudioOverride : MonoBehaviour
     {
-        public float VoiceGain; // 0x20
-        public float VoiceFar; // 0x24
-        public float VoiceNear; // 0x28
-        public float VoiceVolumetricRadius; // 0x2C
-        public bool VoiceDisableLowpass; // 0x30
-        public float AvatarGainLimit; // 0x34
-        public float AvatarFarLimit; // 0x38
-        public float AvatarNearLimit; // 0x3C
-        public float AvatarVolumetricRadiusLimit; // 0x40
-        public bool AvatarForceSpatial; // 0x44
-        public bool AvatarAllowCustomCurve; // 0x45
-        public bool global; // 0x46
-        public UnityEngine.Collider region; // 0x48
-        public float regionPriority; // 0x50
-        public InitializationDelegate Initialize;
-        public RegionDelegate onRegionEnter; // 0x58
-        public RegionDelegate onRegionExit; // 0x60
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57401960
         public void OnTriggerEnter(){} // RVA: 0x7FFD57401B70
@@ -360,8 +317,8 @@ namespace VRCSDK2
     public class VRC_PlayerMods : MonoBehaviour
     {
         public bool isRoomPlayerMods; // 0x20
-        public System.Collections.Generic.List`1<ÎÌÏÎÌÌÍÍÍÎÍÌÍÍÌÏÍÏÎÌÌ> playerMods; // 0x28
-        public InitializationDelegate Initialize;
+        public URA.woDigitYearMax<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.ffects> playerMods; // 0x28
+        public object Initialize;
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5740B790
@@ -397,13 +354,13 @@ namespace VRCSDK2
 
     public class VRC_SceneResetPosition : MonoBehaviour
     {
-        public UnityEngine.Transform Position; // 0x20
+        public object Position; // 0x20
         public bool RemoveVelocity; // 0x28
-        public UnityEngine.Rigidbody rigidbody; // 0x30
-        public VRCSDK2.VRC_ObjectSync sync; // 0x38
-        public UnityEngine.Vector3 initialPosition; // 0x40
-        public UnityEngine.Quaternion initialRotation; // 0x4C
-        public UnityEngine.Vector3 initialScale; // 0x5C
+        public Touched rigidbody; // 0x30
+        public ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up sync; // 0x38
+        public amut initialPosition; // 0x40
+        public R_12x12 initialRotation; // 0x4C
+        public amut initialScale; // 0x5C
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5740C1B0
@@ -414,10 +371,10 @@ namespace VRCSDK2
 
     public class VRC_SceneSmoothShift : MonoBehaviour
     {
-        public UnityEngine.AnimationCurve ShiftInterpolationCurve; // 0x20
+        public ÍÎÌÍÍÌÌÎÏÏ ShiftInterpolationCurve; // 0x20
         public float ShiftSpeed; // 0x28
-        public UnityEngine.Transform ShiftStart; // 0x30
-        public UnityEngine.Transform ShiftEnd; // 0x38
+        public object ShiftStart; // 0x30
+        public object ShiftEnd; // 0x38
         public float TargetPosition; // 0x40
         public float ShiftPosition; // 0x44
 
@@ -449,19 +406,14 @@ namespace VRCSDK2
 
     public class VRC_Station : VRCStation
     {
-        public CustomTriggerTarget OnRemotePlayerEnterStation; // 0x50
-        public CustomTriggerTarget OnLocalPlayerEnterStation; // 0x58
-        public CustomTriggerTarget OnRemotePlayerExitStation; // 0x60
-        public CustomTriggerTarget OnLocalPlayerExitStation; // 0x68
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5740E430
     }
 
     public class VRC_StationApi : MonoBehaviour
     {
-        public StationOccupiedDelegate IsStationOccupiedDelegate;
-        public StationOccupantDelegate GetStationOccupant; // 0x8
+        public t_diffusion IsStationOccupiedDelegate;
+        public n GetStationOccupant; // 0x8
 
         // ── Methods ──
         public void IsStationOccupied(){} // RVA: 0x7FFD5740E490
@@ -470,13 +422,13 @@ namespace VRCSDK2
 
     public class VRC_StationInput : MonoBehaviour
     {
-        public VRC.SDKBase.VRCPlayerApi controllingPlayer; // 0x20
-        public UnityEngine.Vector2 inputLeftAnalog; // 0x28
-        public UnityEngine.Vector2 inputRightAnalog; // 0x30
+        public ellSize.artCorner controllingPlayer; // 0x20
+        public tionX inputLeftAnalog; // 0x28
+        public tionX inputRightAnalog; // 0x30
         public bool inputUseButton; // 0x38
-        public UpdateDelegate UpdateInputs;
-        public InitializeDelegate Initialize; // 0x8
-        public System.Collections.Generic.List`1<InputPairing> customInputs; // 0x40
+        public object UpdateInputs;
+        public liderExpand Initialize; // 0x8
+        public URA.woDigitYearMax<s> customInputs; // 0x40
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57405600
@@ -493,9 +445,6 @@ namespace VRCSDK2
 
     public class VRC_SyncAnimation : VRCNetworkBehaviour
     {
-        public float AnimationStartPosition; // 0x20
-        public InitializationDelegate Initialize;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD574058F0
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -503,24 +452,6 @@ namespace VRCSDK2
 
     public class VRC_SyncVideoPlayer : VRCNetworkBehaviour
     {
-        public bool AllowNonOwnerControl; // 0x20
-        public string VideoSearchRoot; // 0x28
-        public int MaxStreamQuality; // 0x30
-        public VideoEntry[] Videos; // 0x38
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> _Play;
-        public System.Action`2<VRCSDK2.VRC_SyncVideoPlayer,int> _PlayIndex; // 0x8
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> _Stop; // 0x10
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> _Pause; // 0x18
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> _Next; // 0x20
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> _Previous; // 0x28
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> _Shuffle; // 0x30
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> _Clear; // 0x38
-        public System.Action`2<VRCSDK2.VRC_SyncVideoPlayer,string> _AddURL; // 0x40
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> _SpeedUp; // 0x48
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> _SpeedDown; // 0x50
-        public System.Action`2<VRCSDK2.VRC_SyncVideoPlayer,float> _SetMaxQuality; // 0x58
-        public System.Action`1<VRCSDK2.VRC_SyncVideoPlayer> Initialize; // 0x60
-
         // ── Methods ──
         public void Play(){} // RVA: 0x7FFD57405950
         public void PlayIndex(){} // RVA: 0x7FFD574059B0
@@ -545,24 +476,24 @@ namespace VRCSDK2
         public string VideoSearchRoot; // 0x28
         public int MaxStreamQuality; // 0x30
         public bool AutoStart; // 0x34
-        public VideoEntry[] Videos; // 0x38
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> _Play;
-        public System.Action`2<VRCSDK2.VRC_SyncVideoStream,int> _PlayIndex; // 0x8
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> _Stop; // 0x10
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> _Pause; // 0x18
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> _Next; // 0x20
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> _Previous; // 0x28
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> _Shuffle; // 0x30
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> _Clear; // 0x38
-        public System.Action`2<VRCSDK2.VRC_SyncVideoStream,string> _AddURL; // 0x40
-        public System.Action`2<VRCSDK2.VRC_SyncVideoStream,float> _FastForwardSeconds; // 0x48
-        public System.Action`2<VRCSDK2.VRC_SyncVideoStream,float> _RewindSeconds; // 0x50
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> _LocalResync; // 0x58
-        public System.Action`2<VRCSDK2.VRC_SyncVideoStream,ÍÌÌÍÎÏÏÌÏÌÍÎÍÍÏÌÌ> _SetSyncType; // 0x60
-        public System.Action`2<VRCSDK2.VRC_SyncVideoStream,float> _SetSyncMinutes; // 0x68
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> _ShowSearch; // 0x70
-        public System.Action`2<VRCSDK2.VRC_SyncVideoStream,float> _SetMaxQuality; // 0x78
-        public System.Action`1<VRCSDK2.VRC_SyncVideoStream> Initialize; // 0x80
+        public set_bypassEffects[] Videos; // 0x38
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Play;
+        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,int> _PlayIndex; // 0x8
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Stop; // 0x10
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Pause; // 0x18
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Next; // 0x20
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Previous; // 0x28
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Shuffle; // 0x30
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Clear; // 0x38
+        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,string> _AddURL; // 0x40
+        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,float> _FastForwardSeconds; // 0x48
+        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,float> _RewindSeconds; // 0x50
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _LocalResync; // 0x58
+        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,tOutputData> _SetSyncType; // 0x60
+        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,float> _SetSyncMinutes; // 0x68
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _ShowSearch; // 0x70
+        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,float> _SetMaxQuality; // 0x78
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> Initialize; // 0x80
 
         // ── Methods ──
         public void Play(){} // RVA: 0x7FFD574070D0
@@ -630,11 +561,11 @@ namespace VRCSDK2
 
     public class VRC_VideoScreen : MonoBehaviour
     {
-        public VRCSDK2.VRC_SyncVideoStream Initialize; // 0x20
+        public ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects Initialize; // 0x20
         public int _materialIndex; // 0x28
         public string _textureProperty; // 0x30
         public bool _useSharedMaterial; // 0x38
-        public System.Action`1<VRCSDK2.VRC_VideoScreen> <Initialize>k__BackingField;
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.inVolume> <Initialize>k__BackingField;
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x7FFD57409180
@@ -645,9 +576,9 @@ namespace VRCSDK2
 
     public class VRC_VideoSpeaker : MonoBehaviour
     {
-        public VRCSDK2.VRC_SyncVideoStream Initialize; // 0x20
-        public 0x666257E0 _channelType; // 0x28
-        public System.Action`1<VRCSDK2.VRC_VideoSpeaker> <Initialize>k__BackingField;
+        public ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects Initialize; // 0x20
+        public alizerFloat _channelType; // 0x28
+        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.tor> <Initialize>k__BackingField;
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x7FFD57409390

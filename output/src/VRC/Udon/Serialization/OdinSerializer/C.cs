@@ -9,7 +9,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
     {
         public int MemoryStream;
         public int MaxCapacity; // 0x4
-        public 0x66441AF8 memoryStream; // 0x10
+        public Inherited._culture memoryStream; // 0x10
 
         // ── Methods ──
         public void get_MemoryStream(){} // RVA: 0x7FFD55409FC0
@@ -30,7 +30,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Color32Formatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<byte> ByteSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<byte> ByteSerializer;
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD55437DC0
@@ -48,14 +48,14 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ColorBlockFormatter`1 : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<UnityEngine.Color> ColorSerializer;
-        public System.Reflection.PropertyInfo normalColor;
-        public System.Reflection.PropertyInfo highlightedColor;
-        public System.Reflection.PropertyInfo pressedColor;
-        public System.Reflection.PropertyInfo disabledColor;
-        public System.Reflection.PropertyInfo colorMultiplier;
-        public System.Reflection.PropertyInfo fadeDuration;
+        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<?> ColorSerializer;
+        public m.ber normalColor;
+        public m.ber highlightedColor;
+        public m.ber pressedColor;
+        public m.ber disabledColor;
+        public m.ber colorMultiplier;
+        public m.ber fadeDuration;
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD4E099B30
@@ -66,7 +66,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ColorFormatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD55438440
@@ -81,16 +81,16 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public bool ComplexTypeIsAbstract;
         public bool ComplexTypeIsNullable;
         public bool ComplexTypeIsValueType;
-        public System.Type TypeOf_T;
+        public object TypeOf_T;
         public bool AllowDeserializeInvalidDataForT;
-        public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter`1<T>> FormattersByPolicy;
+        public URA.DateTime<CullingUpdateMarker,m_ItalicAngleStack<T1717697536>> FormattersByPolicy;
         public object FormattersByPolicy_LOCK;
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy UnityPolicy;
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy StrictPolicy;
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy EverythingPolicy;
-        public VRC.Udon.Serialization.OdinSerializer.IFormatter`1<T> UnityPolicyFormatter;
-        public VRC.Udon.Serialization.OdinSerializer.IFormatter`1<T> StrictPolicyFormatter;
-        public VRC.Udon.Serialization.OdinSerializer.IFormatter`1<T> EverythingPolicyFormatter;
+        public CullingUpdateMarker UnityPolicy;
+        public CullingUpdateMarker StrictPolicy;
+        public CullingUpdateMarker EverythingPolicy;
+        public m_ItalicAngleStack<T1717697536> UnityPolicyFormatter;
+        public m_ItalicAngleStack<T1717697536> StrictPolicyFormatter;
+        public m_ItalicAngleStack<T1717697536> EverythingPolicyFormatter;
 
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x7FFD4E2ADC40
@@ -122,7 +122,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class CustomGenericFormatterAttribute : CustomFormatterAttribute
     {
-        public System.Type SerializedGenericTypeDefinition; // 0x18
+        public object SerializedGenericTypeDefinition; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5540A580
@@ -130,9 +130,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class CustomLogger : Object
     {
-        public System.Action`1<string> logWarningDelegate; // 0x10
-        public System.Action`1<string> logErrorDelegate; // 0x18
-        public System.Action`1<System.Exception> logExceptionDelegate; // 0x20
+        public ileFullDirectoryInformation<string> logWarningDelegate; // 0x10
+        public ileFullDirectoryInformation<string> logErrorDelegate; // 0x18
+        public ileFullDirectoryInformation<ÏÏÍÍÎÎ> logExceptionDelegate; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5540A710
@@ -145,7 +145,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
     {
         public string ID; // 0x10
         public bool AllowNonSerializableTypes; // 0x18
-        public System.Func`2<System.Reflection.MemberInfo,bool> shouldSerializeFunc; // 0x20
+        public n<m.Int64,bool> shouldSerializeFunc; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5540A840

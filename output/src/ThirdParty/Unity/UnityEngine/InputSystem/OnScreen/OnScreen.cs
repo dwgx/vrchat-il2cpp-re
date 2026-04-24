@@ -19,11 +19,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.OnScreen
 
     public class OnScreenControl : MonoBehaviour
     {
-        public UnityEngine.InputSystem.InputControl controlPath; // 0x20
-        public UnityEngine.InputSystem.OnScreen.OnScreenControl control; // 0x28
-        public UnityEngine.InputSystem.LowLevel.InputEventPtr controlPathInternal; // 0x30
+        public ilAddress.ressedThisFrame controlPath; // 0x20
+        public _deviceLostEvent.ChangedEvent control; // 0x28
+        public Device.ckingField controlPathInternal; // 0x30
         public int HasAnyActive;
-        public UnityEngine.InputSystem.Utilities.InlinedArray`1<OnScreenDeviceInfo> s_OnScreenDevices; // 0x8
+        public 2.and<t_uiInputModule> s_OnScreenDevices; // 0x8
 
         // ── Methods ──
         public void get_controlPath(){} // RVA: 0x7FFD4E3F5BC0
@@ -47,15 +47,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.OnScreen
         public float dynamicOriginRange; // 0x38
         public float useIsolatedInputActions; // 0x3C
         public string controlPathInternal; // 0x40
-        public 0x664AB690 behaviour; // 0x48
+        public eChanges behaviour; // 0x48
         public bool m_UseIsolatedInputActions; // 0x4C
-        public UnityEngine.InputSystem.InputAction m_PointerDownAction; // 0x50
-        public UnityEngine.InputSystem.InputAction m_PointerMoveAction; // 0x58
-        public UnityEngine.Vector3 m_StartPos; // 0x60
-        public UnityEngine.Vector2 m_PointerDownPos; // 0x6C
-        public System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> m_RaycastResults; // 0x78
-        public UnityEngine.EventSystems.PointerEventData m_PointerEventData; // 0x80
-        public UnityEngine.InputSystem.Controls.TouchControl m_TouchControl; // 0x88
+        public ilAddress.s m_PointerDownAction; // 0x50
+        public ilAddress.s m_PointerMoveAction; // 0x58
+        public amut m_StartPos; // 0x60
+        public tionX m_PointerDownPos; // 0x6C
+        public URA.woDigitYearMax<moryFailure.priteMesh> m_RaycastResults; // 0x78
+        public moryFailure.String,Valve.Newtonsoft.Json.Linq.JToken>>.IsReadOnly m_PointerEventData; // 0x80
+        public _1.? m_TouchControl; // 0x88
         public bool m_IsIsolationActive; // 0x90
 
         // ── Methods ──

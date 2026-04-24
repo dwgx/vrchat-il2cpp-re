@@ -7,9 +7,9 @@ namespace ThirdParty.Other.Unity.Profiling.Memory
 {
     public class MemoryProfiler : Object
     {
-        public System.Action`2<string,bool> m_SnapshotFinished;
-        public System.Action`3<string,bool,0x664D7530> m_SaveScreenshotToDisk; // 0x8
-        public System.Action`1<0x664D7798> CreatingMetadata; // 0x10
+        public rectoryInformation<string,bool> m_SnapshotFinished;
+        public formation<string,bool,ÏÌÎÍÎÌÎÌÌÍÌÍÏÏÏÎÏÏÎ> m_SaveScreenshotToDisk; // 0x8
+        public ileFullDirectoryInformation<ÍÌÌÍÎÏÏÌÍÎÏÍÎÍÎ> CreatingMetadata; // 0x10
 
         // ── Methods ──
         public void add_CreatingMetadata(){} // RVA: 0x7FFD54C70480

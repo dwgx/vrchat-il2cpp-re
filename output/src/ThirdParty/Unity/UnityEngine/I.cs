@@ -169,7 +169,7 @@ namespace ThirdParty.Unity.UnityEngine
     public class IntegratedSubsystem : Object
     {
         public UIntPtr running; // 0x10
-        public UnityEngine.ISubsystemDescriptor valid; // 0x18
+        public targetCameraAlpha valid; // 0x18
 
         // ── Methods ──
         public void SetHandle(){} // RVA: 0x7FFD54E11190

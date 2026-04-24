@@ -37,9 +37,9 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
     public class HeaderInfo : Object
     {
         public bool CustomToString; // 0x10
-        public ÍÌÎÍÎÎÎÏÏÍÎÏÍÏ.ÌÎÍÌÌÍÏÍÍ Separator; // 0x14
+        public CheckingState.ync>b__9 Separator; // 0x14
         public string Name; // 0x18
-        public System.Func`2<object,string> <CustomToString>k__BackingField; // 0x20
+        public n<object,string> <CustomToString>k__BackingField; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD543C5990
@@ -56,10 +56,10 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class HttpHeaderValueCollection`1 : Object
     {
-        public System.Collections.Generic.List`1<T> Count;
-        public System.Net.Http.Headers.HttpHeaders InvalidValues;
-        public System.Net.Http.Headers.HeaderInfo IsReadOnly;
-        public System.Collections.Generic.List`1<string> invalidValues;
+        public URA.woDigitYearMax<T1717726192> Count;
+        public CheckingState.tBlueIn InvalidValues;
+        public CheckingState..ComponentModel.ICustomTypeDescriptor.GetAttributes IsReadOnly;
+        public URA.woDigitYearMax<string> invalidValues;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -81,11 +81,11 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
 
     public class HttpHeaders : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,System.Net.Http.Headers.HeaderInfo> known_headers;
-        public System.Collections.Generic.Dictionary`2<string,0x666033F0> headers; // 0x10
-        public ÍÌÎÍÎÎÎÏÏÍÎÏÍÏ.ÌÎÍÌÌÍÏÍÍ HeaderKind; // 0x18
-        public System.Nullable`1<bool> connectionclose; // 0x1C
-        public System.Nullable`1<bool> transferEncodingChunked; // 0x1E
+        public URA.DateTime<string,CheckingState..ComponentModel.ICustomTypeDescriptor.GetAttributes> known_headers;
+        public URA.DateTime<string,nceValue> headers; // 0x10
+        public CheckingState.ync>b__9 HeaderKind; // 0x18
+        public aphy<bool> connectionclose; // 0x1C
+        public aphy<bool> transferEncodingChunked; // 0x1E
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD543C6020

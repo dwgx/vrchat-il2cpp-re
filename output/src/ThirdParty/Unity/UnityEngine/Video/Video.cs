@@ -24,14 +24,14 @@ namespace ThirdParty.Unity.UnityEngine.Video
 
     public class VideoPlayer : Behaviour
     {
-        public EventHandler source; // 0x18
-        public EventHandler timeUpdateMode; // 0x20
-        public EventHandler url; // 0x28
-        public EventHandler clip; // 0x30
-        public ErrorEventHandler renderMode; // 0x38
-        public EventHandler canSetTimeUpdateMode; // 0x40
-        public TimeEventHandler targetCamera; // 0x48
-        public FrameReadyEventHandler targetTexture; // 0x50
+        public cjkIndexer source; // 0x18
+        public cjkIndexer timeUpdateMode; // 0x20
+        public cjkIndexer url; // 0x28
+        public cjkIndexer clip; // 0x30
+        public t renderMode; // 0x38
+        public cjkIndexer canSetTimeUpdateMode; // 0x40
+        public er>b__29_4 targetCamera; // 0x48
+        public __29_2 targetTexture; // 0x50
 
         // ── Methods ──
         public void get_source(){} // RVA: 0x7FFD550B9340

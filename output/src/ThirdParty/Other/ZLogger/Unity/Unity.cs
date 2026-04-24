@@ -7,11 +7,11 @@ namespace ThirdParty.Other.ZLogger.Unity
 {
     public class UnityDebugLogProcessor : Object
     {
-        public System.Buffers.ArrayBufferWriter`1<byte> IsPostingToUnity; // 0xFFFF
-        public ZLogger.Unity.ZLoggerUnityDebugOptions options; // 0x10
-        public ZLogger.IZLoggerFormatter formatter; // 0x18
+        public erDecimalDigits.win32LangID<byte> IsPostingToUnity; // 0xFFFFFFFF
+        public ateHandlerOnDispose.tring options; // 0x10
+        public ÎÏÎÎ formatter; // 0x18
         public bool <IsPostingToUnity>k__BackingField;
-        public System.Collections.Generic.Dictionary`2<0x664D9630,0x664D9318> StackTraceLogTypeMappings; // 0x8
+        public URA.DateTime<?,?> StackTraceLogTypeMappings; // 0x8
 
         // ── Methods ──
         public void get_IsPostingToUnity(){} // RVA: 0x7FFD55280410
@@ -26,9 +26,9 @@ namespace ThirdParty.Other.ZLogger.Unity
 
     public class ZLoggerUnityDebugLoggerProvider : Object
     {
-        public ZLogger.ZLoggerOptions options; // 0x10
-        public ZLogger.Unity.UnityDebugLogProcessor processor; // 0x18
-        public Microsoft.Extensions.Logging.IExternalScopeProvider scopeProvider; // 0x20
+        public ÏÌÍÍÏÎÎÎÌ options; // 0x10
+        public ateHandlerOnDispose.spose processor; // 0x18
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile scopeProvider; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552815B0

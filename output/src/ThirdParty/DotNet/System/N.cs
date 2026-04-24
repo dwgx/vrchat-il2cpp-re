@@ -14,7 +14,7 @@ namespace ThirdParty.DotNet.System
     public class Nullable`1 : ValueType
     {
         public bool HasValue;
-        public T Value;
+        public T1717584320 Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

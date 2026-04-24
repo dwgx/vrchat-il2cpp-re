@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class PayoutDefinition : Object
     {
-        public ÌÍÎÎÎ type; // 0x10
+        public ing.? type; // 0x10
         public string typeString; // 0x18
         public double subtype; // 0x20
         public string quantity; // 0x28
@@ -28,8 +28,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class Product : Object
     {
-        public UnityEngine.Purchasing.ProductDefinition definition; // 0x10
-        public UnityEngine.Purchasing.ProductMetadata metadata; // 0x18
+        public ing.ÍÏÌÌÌÍÏÎÏÍÏÎÍÏÍÍÌÌÌÏ definition; // 0x10
+        public ing.ÎÎÏÏÏÎÏÎÏÎÎÌÍÍÌ metadata; // 0x18
         public bool availableToPurchase; // 0x20
         public string transactionID; // 0x28
         public string appleOriginalTransactionID; // 0x30
@@ -59,9 +59,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductCatalog : Object
     {
-        public 0x665DD900 allProducts;
+        public ing.h allProducts;
         public bool enableCodelessAutoInitialization; // 0x10
-        public System.Collections.Generic.List`1<0x665DD850> products; // 0x18
+        public URA.woDigitYearMax<ing.eDeviceAuthorisationStatus> products; // 0x18
 
         // ── Methods ──
         public void get_allProducts(){} // RVA: 0x7FFD4E3447C0
@@ -74,10 +74,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductCollection : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,UnityEngine.Purchasing.Product> set; // 0x10
-        public System.Collections.Generic.Dictionary`2<string,UnityEngine.Purchasing.Product> all; // 0x18
-        public System.Collections.Generic.HashSet`1<UnityEngine.Purchasing.Product> <set>k__BackingField; // 0x20
-        public UnityEngine.Purchasing.Product[] <all>k__BackingField; // 0x28
+        public URA.DateTime<string,ing.urrable> set; // 0x10
+        public URA.DateTime<string,ing.urrable> all; // 0x18
+        public URA.onsDepth<ing.urrable> <set>k__BackingField; // 0x20
+        public ing.urrable[] <all>k__BackingField; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DCCB30
@@ -93,9 +93,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
     {
         public string id; // 0x10
         public string storeSpecificId; // 0x18
-        public 0x66622450 type; // 0x20
+        public ing.t_verification_uri type; // 0x20
         public bool enabled; // 0x24
-        public System.Collections.Generic.List`1<UnityEngine.Purchasing.PayoutDefinition> payouts; // 0x28
+        public URA.woDigitYearMax<ing.?> payouts; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DCD740 | overloaded x4
@@ -121,7 +121,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductDetailsQueryResponse : Object
     {
-        public System.Collections.Concurrent.ConcurrentBag`1<System.ValueTuple`2<UnityEngine.Purchasing.Models.IGoogleBillingResult,System.Collections.Generic.IEnumerable`1<UnityEngine.AndroidJavaObject>>> m_Responses; // 0x10
+        public JapaneseLangName.eConverter<8BCA7B5CC287C51E0E3E<oductDetails>b__5_0.nt,URA.bbrevEraNames<?>>> m_Responses; // 0x10
 
         // ── Methods ──
         public void Finalize(){} // RVA: 0x7FFD54DE0100
@@ -135,10 +135,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
     public class ProductDetailsResponseConsolidator : Object
     {
         public int m_NumberReceivedCallbacks; // 0x10
-        public System.Action`1<UnityEngine.Purchasing.Interfaces.IProductDetailsQueryResponse> m_OnProductDetailsResponseConsolidated; // 0x18
-        public UnityEngine.Purchasing.Interfaces.IProductDetailsQueryResponse m_Responses; // 0x20
-        public Uniject.IUtil m_Util; // 0x28
-        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x30
+        public ileFullDirectoryInformation<B3ABA9D7C54CD812756C7C5CE8848E6A882B240EB.Details> m_OnProductDetailsResponseConsolidated; // 0x18
+        public B3ABA9D7C54CD812756C7C5CE8848E6A882B240EB.Details m_Responses; // 0x20
+        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ m_Util; // 0x28
+        public ÌÍÏÏÏ.ÌÎÍÍÏÍÏÎÏÎÏÌÍÏÏÏ m_TelemetryDiagnostics; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE1280
@@ -147,9 +147,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductDetailsResponseListener : AndroidJavaProxy
     {
-        public System.Action`2<UnityEngine.Purchasing.Models.IGoogleBillingResult,System.Collections.Generic.List`1<UnityEngine.AndroidJavaObject>> m_OnProductDetailsResponse; // 0x20
-        public Uniject.IUtil m_Util; // 0x28
-        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x30
+        public rectoryInformation<oductDetails>b__5_0.nt,URA.woDigitYearMax<?>> m_OnProductDetailsResponse; // 0x20
+        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ m_Util; // 0x28
+        public ÌÍÏÏÏ.ÌÎÍÍÏÍÏÎÏÎÏÌÍÏÏÏ m_TelemetryDiagnostics; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DDEE40
@@ -162,7 +162,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public string localizedTitle; // 0x18
         public string localizedDescription; // 0x20
         public string isoCurrencyCode; // 0x28
-        public System.Decimal localizedPrice; // 0x30
+        public ltiple localizedPrice; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310 | overloaded x3
@@ -186,7 +186,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class PurchaseEventArgs : Object
     {
-        public UnityEngine.Purchasing.Product purchasedProduct; // 0x10
+        public ing.urrable purchasedProduct; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -196,10 +196,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class PurchasingFactory : Object
     {
-        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Purchasing.Extension.IStoreConfiguration> storeName; // 0x10
-        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Purchasing.IStoreExtension> service; // 0x18
-        public UnityEngine.Purchasing.Extension.IStore m_Store; // 0x20
-        public UnityEngine.Purchasing.Extension.ICatalogProvider m_CatalogProvider; // 0x28
+        public URA.DateTime<?,ra.orPos>b__2> storeName; // 0x10
+        public URA.DateTime<?,ing.ÍÏÌÏÏÍÍÌÏÍÍÍÍÍÎÎÍÎÌ> service; // 0x18
+        public ra.orPos>b__0 m_Store; // 0x20
+        public ra.rPos>b__1 m_CatalogProvider; // 0x28
         public string <storeName>k__BackingField; // 0x30
 
         // ── Methods ──
@@ -216,19 +216,19 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class PurchasingManager : Object
     {
-        public UnityEngine.Purchasing.Extension.IStore useTransactionLog; // 0x10
-        public UnityEngine.Purchasing.IInternalStoreListener products; // 0x18
-        public UnityEngine.ILogger m_Logger; // 0x20
-        public UnityEngine.Purchasing.TransactionLog m_TransactionLog; // 0x28
+        public ra.orPos>b__0 useTransactionLog; // 0x10
+        public ing.ÏÌÏÍ products; // 0x18
+        public Identifiers m_Logger; // 0x20
+        public ing.? m_TransactionLog; // 0x28
         public string m_StoreName; // 0x30
         public bool m_logUnavailableProducts; // 0x38
-        public UnityEngine.Purchasing.IUnityServicesInitializationChecker m_UnityServicesInitializationChecker; // 0x40
-        public System.Action m_AdditionalProductsCallback; // 0x48
-        public System.Action`1<0x666220E0> m_AdditionalProductsFailCallback; // 0x50
-        public System.Action`2<0x666220E0,string> m_AdditionalProductsDetailedFailCallback; // 0x58
-        public System.Collections.Generic.HashSet`1<string> purchasesProcessedInSession; // 0x60
+        public ing.? m_UnityServicesInitializationChecker; // 0x40
+        public ÎÌÍÏÏÌÍÏ m_AdditionalProductsCallback; // 0x48
+        public ileFullDirectoryInformation<ing.ÍÌÍÏÎÏÏÏÍÌÎÎÍÏÍÏ> m_AdditionalProductsFailCallback; // 0x50
+        public rectoryInformation<ing.ÍÌÍÏÎÏÏÏÍÌÎÎÍÏÍÏ,string> m_AdditionalProductsDetailedFailCallback; // 0x58
+        public URA.onsDepth<string> purchasesProcessedInSession; // 0x60
         public bool <useTransactionLog>k__BackingField; // 0x68
-        public UnityEngine.Purchasing.ProductCollection <products>k__BackingField; // 0x70
+        public ing.? <products>k__BackingField; // 0x70
         public bool initialized; // 0x78
 
         // ── Methods ──

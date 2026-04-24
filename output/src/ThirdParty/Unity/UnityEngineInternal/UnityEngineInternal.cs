@@ -17,7 +17,7 @@ namespace ThirdParty.Unity.UnityEngineInternal
 
     public class WebRequestUtils : Object
     {
-        public System.Text.RegularExpressions.Regex domainRegex;
+        public tor.neStore domainRegex;
 
         // ── Methods ──
         public void RedirectTo(){} // RVA: 0x7FFD550B06D0

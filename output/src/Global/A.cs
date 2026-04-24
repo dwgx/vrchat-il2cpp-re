@@ -33,8 +33,8 @@ public class Action : Object
 
 public class ActionEventPtr : ValueType
 {
-    public UnityEngine.InputSystem.InputActionState action; // 0x10
-    public UnityEngine.InputSystem.LowLevel.ActionEvent* phase; // 0x18
+    public ilAddress.icate action; // 0x10
+    public IntPtr phase; // 0x18
 
     // ── Methods ──
     public void get_action(){} // RVA: 0x7FFD54982A60
@@ -52,7 +52,7 @@ public class ActionEventPtr : ValueType
 
 public class ActionQueryMatcher : UQueryMatcher
 {
-    public System.Action`1<T> callBack;
+    public ileFullDirectoryInformation<T1717596656> callBack;
 
     // ── Methods ──
     public void get_callBack(){} // RVA: 0x7FFD4E078E90
@@ -62,12 +62,12 @@ public class ActionQueryMatcher : UQueryMatcher
 
 public class ActionSettings : ValueType
 {
-    public 0x6658B940 m_Action; // 0x10
-    public UnityEngine.Object m_Target; // 0x18
+    public object m_Action; // 0x10
+    public object m_Target; // 0x18
     public int m_BoostAmount; // 0x20
     public float m_StartTime; // 0x24
-    public 0x6658B9F0 m_Mode; // 0x28
-    public TriggerEvent m_Event; // 0x30
+    public amera m_Mode; // 0x28
+    public ield m_Event; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC738D0
@@ -76,8 +76,8 @@ public class ActionSettings : ValueType
 
 public class Action`1 : Action
 {
-    public Event`1<Valve.VR.TrackedDevicePose_t[]> _event; // 0x10
-    public UnityEngine.Events.UnityAction`1<Valve.VR.TrackedDevicePose_t[]> action; // 0x18
+    public ed<T1717691008> _event;
+    public rScript.?<T1717691008> action;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -86,8 +86,8 @@ public class Action`1 : Action
 
 public class Action`2 : Action
 {
-    public Event`2<int,bool> _event; // 0x10
-    public UnityEngine.Events.UnityAction`2<int,bool> action; // 0x18
+    public astChanged<T1717691024,T1717691040> _event;
+    public rScript.<GetCachedEnumData>b__2_2<T1717691024,T1717691040> action;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -96,8 +96,8 @@ public class Action`2 : Action
 
 public class Action`3 : Action
 {
-    public Event`3<U,V,T> _event;
-    public UnityEngine.Events.UnityAction`3<U,V,T> action;
+    public ed<T1717691056,T1717691072,T1717691088> _event;
+    public rScript.GetCachedEnumData>b__2_3<T1717691056,T1717691072,T1717691088> action;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -140,8 +140,6 @@ public class ActivateObjectLabelDelegate : MulticastDelegate
 
 public class Activity : ValueType
 {
-    public UIntPtr Handle; // 0x10
-
     // ── Methods ──
     public void Init(){} // RVA: 0x7FFD4FD95A90
     public void Drop(){} // RVA: 0x7FFD4FD95B10
@@ -158,9 +156,6 @@ public class Activity : ValueType
 
 public class ActivityBaggageLogScopeWrapper : Object
 {
-    public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<string,string>> _items; // 0x10
-    public System.Text.StringBuilder _stringBuilder; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
     public void GetEnumerator(){} // RVA: 0x7FFD5376AE70
@@ -170,9 +165,8 @@ public class ActivityBaggageLogScopeWrapper : Object
 
 public class ActivityLogScope : Object
 {
-    public string Count; // 0x10
-    public System.Collections.Generic.KeyValuePair`2<string,object>[] Item; // 0x18
-    public int <Count>k__BackingField; // 0x20
+    public object Count;
+    public object Item;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5376A210
@@ -192,12 +186,12 @@ public class AddEventAdapter : MulticastDelegate
 
 public class AdjustmentRule : Object
 {
-    public System.DateTime DateStart; // 0x10
-    public System.DateTime DateEnd; // 0x18
-    public System.TimeSpan DaylightDelta; // 0x20
-    public TransitionTime DaylightTransitionStart; // 0x28
-    public TransitionTime DaylightTransitionEnd; // 0x40
-    public System.TimeSpan BaseUtcOffsetDelta; // 0x58
+    public DependencyInjector DateStart; // 0x10
+    public DependencyInjector DateEnd; // 0x18
+    public ializable.GetObjectData DaylightDelta; // 0x20
+    public k DaylightTransitionStart; // 0x28
+    public k DaylightTransitionEnd; // 0x40
+    public ializable.GetObjectData BaseUtcOffsetDelta; // 0x58
     public bool NoDaylightTransitions; // 0x60
 
     // ── Methods ──
@@ -246,15 +240,13 @@ public class AllocatorHandle : ValueType
 
 public class AllowedAsciiCodePoints : ValueType
 {
-    public <AsBytes>e__FixedBuffer AsBytes; // 0x10
-
     // ── Methods ──
     public void PopulateAllowedCodePoints(){} // RVA: 0x7FFD53EA5D40
 }
 
 public class AlphaButtonClickMask : MonoBehaviour
 {
-    public UnityEngine.UI.Image _image; // 0x20
+    public ePathName117.ÎÌÍÍÎÏÌ _image; // 0x20
 
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD4E341330
@@ -268,19 +260,19 @@ public class AnalyticsCoreStatsUpdate : ValueType
 
 public class Anchors : ValueType
 {
-    public UnityEngine.Transform friendIcon; // 0x10
-    public UnityEngine.Transform friendCapsule; // 0x18
-    public UnityEngine.Transform friendStats; // 0x20
+    public object friendIcon; // 0x10
+    public object friendCapsule; // 0x18
+    public object friendStats; // 0x20
 }
 
 public class AnimatedButton : Object
 {
-    public ÏÎÎÍÎÏÍÏÍÌÏÍÎÌÌÏÏÎÍÏÍÌÍ Button; // 0x10
+    public ÎÏÍÎÎÍÎÌÌÎÎÍÎÎÍÎÏ Button; // 0x10
     public float InAnimationDuration; // 0x18
     public float OutAnimationDuration; // 0x1C
     public float ScaleAnimationDuration; // 0x20
-    public UnityEngine.RectTransform OutPosition; // 0x28
-    public UnityEngine.RectTransform InPosition; // 0x30
+    public 16 OutPosition; // 0x28
+    public 16 InPosition; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -288,12 +280,12 @@ public class AnimatedButton : Object
 
 public class AnimationDataSet`2 : ValueType
 {
-    public UnityEngine.UIElements.VisualElement[] capacity;
-    public 0x66489770[] properties;
-    public U[] timing;
-    public T[] style;
+    public ÎÏÌÎÎÎÌÌÌ.omLeftRadius[] capacity;
+    public tor.exSort[] properties;
+    public T1717596432[] timing;
+    public T1717596448[] style;
     public int count;
-    public System.Collections.Generic.Dictionary`2<ElementPropertyPair,int> indices;
+    public URA.DateTime<Left,int> indices;
 
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x7FFD4E079960
@@ -310,7 +302,7 @@ public class AnimationDataSet`2 : ValueType
 
 public class AnonymousProgress`1 : Object
 {
-    public System.Action`1<T> action;
+    public ileFullDirectoryInformation<T1717654352> action;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -342,10 +334,6 @@ public class ApiBundleDropNotificationDetails : ApiModel
 
 public class ApiRequestData : ValueType
 {
-    public string RawJson; // 0x10
-    public System.Collections.Generic.IReadOnlyDictionary`2<string,Token> RequestParams; // 0x18
-    public 0x66409B80 FormData; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5727FFC0 | overloaded x3
     public void op_Implicit(){} // RVA: 0x7FFD57280130 | overloaded x3
@@ -363,8 +351,8 @@ public class ApiVRChatProductStore : ApiModel
 
 public class Appearance : Object
 {
-    public UnityEngine.Color pathColor; // 0x10
-    public UnityEngine.Color inactivePathColor; // 0x20
+    public object pathColor; // 0x10
+    public object inactivePathColor; // 0x20
     public float width; // 0x30
 
     // ── Methods ──
@@ -390,54 +378,54 @@ public class Array : ValueType
 
 public class Array16`1 : ValueType
 {
-    public T f0;
-    public T f1;
-    public T f2;
-    public T f3;
-    public T f4;
-    public T f5;
-    public T f6;
-    public T f7;
-    public T f8;
-    public T f9;
-    public T f10;
-    public T f11;
-    public T f12;
-    public T f13;
-    public T f14;
-    public T f15;
+    public T1717728144 f0;
+    public T1717728144 f1;
+    public T1717728144 f2;
+    public T1717728144 f3;
+    public T1717728144 f4;
+    public T1717728144 f5;
+    public T1717728144 f6;
+    public T1717728144 f7;
+    public T1717728144 f8;
+    public T1717728144 f9;
+    public T1717728144 f10;
+    public T1717728144 f11;
+    public T1717728144 f12;
+    public T1717728144 f13;
+    public T1717728144 f14;
+    public T1717728144 f15;
 }
 
 public class Array256`1 : ValueType
 {
-    public Array16`1<T> f0;
-    public Array16`1<T> f1;
-    public Array16`1<T> f2;
-    public Array16`1<T> f3;
-    public Array16`1<T> f4;
-    public Array16`1<T> f5;
-    public Array16`1<T> f6;
-    public Array16`1<T> f7;
-    public Array16`1<T> f8;
-    public Array16`1<T> f9;
-    public Array16`1<T> f10;
-    public Array16`1<T> f11;
-    public Array16`1<T> f12;
-    public Array16`1<T> f13;
-    public Array16`1<T> f14;
-    public Array16`1<T> f15;
+    public To<T1717728160> f0;
+    public To<T1717728160> f1;
+    public To<T1717728160> f2;
+    public To<T1717728160> f3;
+    public To<T1717728160> f4;
+    public To<T1717728160> f5;
+    public To<T1717728160> f6;
+    public To<T1717728160> f7;
+    public To<T1717728160> f8;
+    public To<T1717728160> f9;
+    public To<T1717728160> f10;
+    public To<T1717728160> f11;
+    public To<T1717728160> f12;
+    public To<T1717728160> f13;
+    public To<T1717728160> f14;
+    public To<T1717728160> f15;
 }
 
 public class Array32768`1 : ValueType
 {
-    public Array4096`1<T> Length;
-    public Array4096`1<T> f1;
-    public Array4096`1<T> f2;
-    public Array4096`1<T> f3;
-    public Array4096`1<T> f4;
-    public Array4096`1<T> f5;
-    public Array4096`1<T> f6;
-    public Array4096`1<T> f7;
+    public aderValue<T1717728192> Length;
+    public aderValue<T1717728192> f1;
+    public aderValue<T1717728192> f2;
+    public aderValue<T1717728192> f3;
+    public aderValue<T1717728192> f4;
+    public aderValue<T1717728192> f5;
+    public aderValue<T1717728192> f6;
+    public aderValue<T1717728192> f7;
 
     // ── Methods ──
     public void get_Length(){} // RVA: 0x7FFD4E079960
@@ -446,27 +434,27 @@ public class Array32768`1 : ValueType
 
 public class Array4096`1 : ValueType
 {
-    public Array256`1<T> f0;
-    public Array256`1<T> f1;
-    public Array256`1<T> f2;
-    public Array256`1<T> f3;
-    public Array256`1<T> f4;
-    public Array256`1<T> f5;
-    public Array256`1<T> f6;
-    public Array256`1<T> f7;
-    public Array256`1<T> f8;
-    public Array256`1<T> f9;
-    public Array256`1<T> f10;
-    public Array256`1<T> f11;
-    public Array256`1<T> f12;
-    public Array256`1<T> f13;
-    public Array256`1<T> f14;
-    public Array256`1<T> f15;
+    public EntityTagHeaderValue<T1717728176> f0;
+    public EntityTagHeaderValue<T1717728176> f1;
+    public EntityTagHeaderValue<T1717728176> f2;
+    public EntityTagHeaderValue<T1717728176> f3;
+    public EntityTagHeaderValue<T1717728176> f4;
+    public EntityTagHeaderValue<T1717728176> f5;
+    public EntityTagHeaderValue<T1717728176> f6;
+    public EntityTagHeaderValue<T1717728176> f7;
+    public EntityTagHeaderValue<T1717728176> f8;
+    public EntityTagHeaderValue<T1717728176> f9;
+    public EntityTagHeaderValue<T1717728176> f10;
+    public EntityTagHeaderValue<T1717728176> f11;
+    public EntityTagHeaderValue<T1717728176> f12;
+    public EntityTagHeaderValue<T1717728176> f13;
+    public EntityTagHeaderValue<T1717728176> f14;
+    public EntityTagHeaderValue<T1717728176> f15;
 }
 
 public class ArrayEnumerator : Object
 {
-    public System.Array Current; // 0x10
+    public ÌÎÍÏÍÎ Current; // 0x10
     public int _index; // 0x18
     public int _endIndex; // 0x1C
 
@@ -480,9 +468,9 @@ public class ArrayEnumerator : Object
 
 public class ArrayPoolImpl`1 : Object
 {
-    public object ObjectType; // 0x10
-    public System.Collections.Generic.Dictionary`2<int,SizeGroup<int>> CountInactive; // 0x18
-    public ArrayPoolImpl`1<int> Instance;
+    public object ObjectType;
+    public URA.DateTime<int,Of<T1717581200>> CountInactive;
+    public ultNameByTypeAndIndex<T1717581200> Instance;
 
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x7FFD4E078E90
@@ -505,8 +493,6 @@ public class ArraySurrogate : Object
 
 public class AsciiPreescapedData : ValueType
 {
-    public <Data>e__FixedBuffer Data; // 0x10
-
     // ── Methods ──
     public void PopulatePreescapedData(){} // RVA: 0x7FFD543ED960
     public void TryGetPreescapedData(){} // RVA: 0x7FFD53EA60A0
@@ -527,8 +513,8 @@ public class AspectStretcher : ValueType
 
 public class AssetBundleRequestAwaiter : ValueType
 {
-    public UnityEngine.AssetBundleRequest IsCompleted; // 0x10
-    public System.Action`1<UnityEngine.AsyncOperation> continuationAction; // 0x18
+    public getType IsCompleted; // 0x10
+    public ileFullDirectoryInformation<ntaxFlags> continuationAction; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFD0830
@@ -540,18 +526,18 @@ public class AssetBundleRequestAwaiter : ValueType
 
 public class AssetPreloader : Object
 {
-    public 0x66594B00 _name; // 0x10
-    public System.Collections.Generic.List`1<string> _hideFlags; // 0x18
-    public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiWorld> f_4F2; // 0x20
+    public re _name; // 0x10
+    public URA.woDigitYearMax<string> _hideFlags; // 0x18
+    public URA.DateTime<string,ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ThumbnailImageUrl>k__BackingField> f_4F2; // 0x20
     public bool <ÏÏÎÎÎÎÍÎÎÌÏÎÌÍÍÌÏÏÌÍÍÎÏ>k__BackingField; // 0x28
-    public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> <ÏÌÎÌÍÎÍÏÎÌÏÍÍÎÏÍÍÍÌÍÍÌÌ>k__BackingField; // 0x30
-    public System.Collections.Generic.List`1<VRC.Core.ApiWorld> ÍÍÏÌÍÌÍÎÏÎÏÏÏÌÏÎÏÍÎÏÍÎÎ; // 0x38
-    public string ÎÍÏÎÌÏÎÎÌÏÌÎÏÌÌÍÎÏÌÏÌÏÍ;
-    public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.IReadOnlyList`1<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ>> <ÌÍÍÍÌÍÏÍÎÌÏÍÏÎÌÏÏÎÎÍÌÍÌ>k__BackingField; // 0x40
-    public System.Collections.Generic.List`1<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ> ÎÌÌÎÍÎÍÏÌÌÎÎÎÏÍÍÌÏÌÍÎÍÏ; // 0x48
-    public System.Collections.Generic.HashSet`1<string> ÍÏÏÍÏÏÏÌÏÍÏÏÌÌÌÌÎÏÎÌÏÎÌ; // 0x50
-    public System.Collections.Generic.Dictionary`2<string,System.Threading.CancellationTokenSource> ÍÏÍÌÍÏÌÏÌÌÏÌÎÌÏÏÎÍÌÌÎÎÏ; // 0x58
-    public int ÏÎÌÏÌÍÏÏÍÏÎÍÎÎÏÎÌÌÌÏÍÎÏ;
+    public ?<mePatterns.eseCalendarDTFI> <ÏÌÎÌÍÎÍÏÎÌÏÍÍÎÏÍÍÍÌÍÍÌÌ>k__BackingField; // 0x30
+    public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ThumbnailImageUrl>k__BackingField> ÍÏÎÎÎÍÌÎÎÌÏÎÍÌÏÌÎÎÎÍÎÎÍ; // 0x38
+    public string ÍÍÏÎÍÎÌÍÌÏÌÏÏÎÎÍÍÌÌÌÌÍÌ;
+    public ?<URA.saAbbrevMonthNames<ÏÎÎÏÎÍÏÏÎÌÏÍÍÎÌÏÍÏÏÌÌ>> <ÌÍÍÍÌÍÏÍÎÌÏÍÏÎÌÏÏÎÎÍÌÍÌ>k__BackingField; // 0x40
+    public URA.woDigitYearMax<ÏÎÎÏÎÍÏÏÎÌÏÍÍÎÌÏÍÏÏÌÌ> ÎÍÍÏÎÎÏÌÌÌÎÏÍÍÎÏÎÌÎÏÌÏÎ; // 0x48
+    public URA.onsDepth<string> ÍÌÏÏÌÏÌÎÏÍÎÌÎÍÌÌÌÏÌÎÎÍÎ; // 0x50
+    public URA.DateTime<string,sageKind._internal> ÏÍÏÏÎÌÎÍÌÍÌÌÌÍÎÍÏÍÏÎÏÎÏ; // 0x58
+    public int ÎÏÍÌÌÏÍÏÎÍÌÏÍÏÌÎÏÎÏÌÍÍÎ;
 
     // ── Methods ──
     public void Finalize(){} // RVA: 0x7FFD4F043300
@@ -593,16 +579,16 @@ public class AssetPreloader : Object
 
 public class AsyncInstantiateOperationConfiguredSource`1 : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<AsyncInstantiateOperationConfiguredSource`1<T>> NextNode;
-    public AsyncInstantiateOperationConfiguredSource`1<T> nextNode;
-    public UnityEngine.AsyncInstantiateOperation`1<T> asyncOperation;
-    public System.IProgress`1<float> progress;
-    public System.Threading.CancellationToken cancellationToken;
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration;
+    public eObjectDelegate.ion<d<T1717670784>> NextNode;
+    public d<T1717670784> nextNode;
+    public ncePoint_Injected<T1717670784> asyncOperation;
+    public e<float> progress;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public sageKind.sition cancellationTokenRegistration;
     public bool cancelImmediately;
     public bool completed;
-    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<T[]> core;
-    public System.Action`1<UnityEngine.AsyncOperation> continuationAction;
+    public eObjectDelegate.ataProperty>k__BackingField<T1717670784[]> core;
+    public ileFullDirectoryInformation<ntaxFlags> continuationAction;
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD4E078E90
@@ -621,8 +607,8 @@ public class AsyncInstantiateOperationConfiguredSource`1 : Object
 
 public class AsyncOperationAwaiter : ValueType
 {
-    public UnityEngine.AsyncOperation IsCompleted; // 0x10
-    public System.Action`1<UnityEngine.AsyncOperation> continuationAction; // 0x18
+    public ntaxFlags IsCompleted; // 0x10
+    public ileFullDirectoryInformation<ntaxFlags> continuationAction; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFD0830
@@ -634,15 +620,15 @@ public class AsyncOperationAwaiter : ValueType
 
 public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<T> Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
-    public System.Threading.CancellationToken Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
-    public System.Threading.CancellationTokenRegistration registration;
+    public ileFullDirectoryInformation<object> Current;
+    public alueConverter`3.567CC<T1717671184> Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
+    public sageKind.TICMAP_SIZE Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
+    public sageKind.sition registration;
     public bool called;
     public bool isDisposed;
-    public T <Current>k__BackingField;
-    public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev>k__BackingField;
-    public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Next>k__BackingField;
+    public T1717671184 <Current>k__BackingField;
+    public eObjectDelegate.eationHandlingForProperty<T1717671184> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev>k__BackingField;
+    public eObjectDelegate.eationHandlingForProperty<T1717671184> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Next>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -664,7 +650,7 @@ public class AsyncTriggerEnumerator : MoveNextSource
 
 public class AsyncUnitSource : Object
 {
-    public Cysharp.Threading.Tasks.IUniTaskSource source; // 0x10
+    public eObjectDelegate.nverter source; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -681,8 +667,8 @@ public class AsyncUploadTimeSlicedUpdate : ValueType
 
 public class AsyncWriter : Object
 {
-    public _Create<T> enumerator;
-    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<Cysharp.Threading.Tasks.AsyncUnit> core;
+    public passOperationBack<T1717629280> enumerator;
+    public eObjectDelegate.ataProperty>k__BackingField<eObjectDelegate.b__1> core;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -697,10 +683,10 @@ public class AsyncWriter : Object
 
 public class AttachExternalCancellationSource`1 : Object
 {
-    public System.Action`1<object> cancellationCallbackDelegate;
-    public System.Threading.CancellationToken cancellationToken; // 0x10
-    public System.Threading.CancellationTokenRegistration tokenRegistration; // 0x18
-    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<int> core; // 0x30
+    public ileFullDirectoryInformation<object> cancellationCallbackDelegate;
+    public sageKind.TICMAP_SIZE cancellationToken;
+    public sageKind.sition tokenRegistration;
+    public eObjectDelegate.ataProperty>k__BackingField<T1717670160> core;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -716,7 +702,7 @@ public class AttachExternalCancellationSource`1 : Object
 
 public class AttributeInfo : Object
 {
-    public System.AttributeUsageAttribute Usage; // 0x10
+    public n Usage; // 0x10
     public int InheritanceLevel; // 0x18
 
     // ── Methods ──
@@ -758,7 +744,7 @@ public class AutoScope : ValueType
 
 public class AvailableDevice : ValueType
 {
-    public UnityEngine.InputSystem.Layouts.InputDeviceDescription description; // 0x10
+    public criptorSizeDeviceCommandType.t_activeTouches description; // 0x10
     public int deviceId; // 0x48
     public bool isNative; // 0x4C
     public bool isRemoved; // 0x4D
@@ -768,14 +754,14 @@ public class AvatarCullingMonitor : Object
 {
     public float AvatarScreenSizeAboveTriggerThreshold; // 0x10
     public float AvatarKindValidForExecution; // 0x14
-    public 0x66362030[] AvatarCullableShouldRun; // 0x18
-    public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ _owningPlayer; // 0x20
+    public ?[] AvatarCullableShouldRun; // 0x18
+    public object _owningPlayer; // 0x20
     public bool _hasOwningPlayer; // 0x28
     public bool _isBoundToAvatarKind; // 0x29
-    public System.Nullable`1<bool> _hasValidAvatarKind; // 0x2A
+    public aphy<bool> _hasValidAvatarKind; // 0x2A
     public bool _isBoundToAvatarScreenSize; // 0x2C
     public bool _aboveTriggerThreshold; // 0x2D
-    public System.Action _cullingChangedCallback; // 0x30
+    public ÎÌÍÏÏÌÍÏ _cullingChangedCallback; // 0x30
 
     // ── Methods ──
     public void get_AvatarCullableShouldRun(){} // RVA: 0x7FFD4EF76C40
@@ -802,8 +788,8 @@ public class AvatarOscConfig : Object
     public string id; // 0x10
     public string name; // 0x18
     public int hash; // 0x20
-    public System.Collections.Generic.List`1<ParameterConfig> parameters; // 0x28
-    public System.Collections.Generic.HashSet`1<N> _supportedTypes; // 0x30
+    public URA.woDigitYearMax<ÍÎÌÌÌÏÌÏÍÏ> parameters; // 0x28
+    public URA.onsDepth<?> _supportedTypes; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFDF1A0 | overloaded x2
@@ -836,7 +822,7 @@ public class Avx2 : Object
 
 public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ>> IsCompleted; // 0x10
+    public eObjectDelegate.kingField<8BCA7B5CC287C51E0E3E<URA.woDigitYearMax<?>,URA.woDigitYearMax<?>>> IsCompleted; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -858,7 +844,7 @@ public class AwakeDelegate : MulticastDelegate
 
 public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<T> trigger;
+    public alueConverter`3.567CC<T1717671200> trigger;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40

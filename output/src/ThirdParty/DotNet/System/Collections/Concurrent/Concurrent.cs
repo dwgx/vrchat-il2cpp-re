@@ -7,15 +7,15 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 {
     public class BlockingCollection`1 : Object
     {
-        public System.Collections.Concurrent.IProducerConsumerCollection`1<System.ValueTuple`2<System.Func`1<object>,System.Threading.Tasks.TaskCompletionSource`1<object>>> IsAddingCompleted; // 0x10
-        public int IsCompleted; // 0x18
+        public JapaneseLangName.p<T1717597424> IsAddingCompleted;
+        public int IsCompleted;
         public int Count;
-        public System.Threading.SemaphoreSlim System.Collections.ICollection.IsSynchronized; // 0x20
-        public System.Threading.SemaphoreSlim System.Collections.ICollection.SyncRoot; // 0x28
-        public bool _isDisposed; // 0x30
-        public System.Threading.CancellationTokenSource _consumersCancellationTokenSource; // 0x38
-        public System.Threading.CancellationTokenSource _producersCancellationTokenSource; // 0x40
-        public int _currentAdders; // 0x48
+        public sageKind.StringComparison System.Collections.ICollection.IsSynchronized;
+        public sageKind.StringComparison System.Collections.ICollection.SyncRoot;
+        public bool _isDisposed;
+        public sageKind._internal _consumersCancellationTokenSource;
+        public sageKind._internal _producersCancellationTokenSource;
+        public int _currentAdders;
         public int COMPLETE_ADDING_ON_MASK;
 
         // ── Methods ──
@@ -41,7 +41,7 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class CDSCollectionETWBCLProvider : EventSource
     {
-        public System.Collections.Concurrent.CDSCollectionETWBCLProvider Log;
+        public JapaneseLangName.? Log;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539C5E30
@@ -53,8 +53,8 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class ConcurrentBag`1 : Object
     {
-        public System.Threading.ThreadLocal`1<WorkStealingQueue<T>> Count;
-        public WorkStealingQueue<T> DangerousCount;
+        public sageKind._id<_method<T1717597488>> Count;
+        public _method<T1717597488> DangerousCount;
         public long System.Collections.ICollection.IsSynchronized;
 
         // ── Methods ──
@@ -84,11 +84,11 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class ConcurrentDictionary`2 : Object
     {
-        public Tables<System.Type,{> Item; // 0x10
-        public System.Collections.Generic.IEqualityComparer`1<System.Type> Count; // 0x18
+        public 400_DQ<string,ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ÏÎÏÌÎÍÌÍÏÌÌÎÎÎ> Item; // 0x10
+        public URA.hEraNames<string> Count; // 0x18
         public bool IsEmpty; // 0x20
         public int Keys; // 0x24
-        public System.Collections.Generic.KeyValuePair`2<System.Type,{>[] System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys; // 0x28
+        public URA.mes<string,ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ÏÎÏÌÎÍÌÍÏÌÌÎÎÎ>[] System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys; // 0x28
         public int Values; // 0x30
         public int System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values; // 0x34
         public int System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
@@ -164,9 +164,9 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class ConcurrentQueue`1 : Object
     {
-        public object System.Collections.ICollection.IsSynchronized; // 0x10
-        public Segment<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int>> System.Collections.ICollection.SyncRoot; // 0x18
-        public Segment<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int>> IsEmpty; // 0x20
+        public object System.Collections.ICollection.IsSynchronized;
+        public rn<T1717590384> System.Collections.ICollection.SyncRoot;
+        public rn<T1717590384> IsEmpty;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5088C630
@@ -194,7 +194,7 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class ConcurrentStack`1 : Object
     {
-        public Node<T> Count;
+        public tyles<T1717590640> Count;
         public int System.Collections.ICollection.IsSynchronized;
 
         // ── Methods ──
@@ -221,9 +221,9 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class OrderablePartitioner`1 : Partitioner`1
     {
-        public bool KeysOrderedInEachPartition; // 0x10
-        public bool KeysOrderedAcrossPartitions; // 0x11
-        public bool KeysNormalized; // 0x12
+        public bool KeysOrderedInEachPartition;
+        public bool KeysOrderedAcrossPartitions;
+        public bool KeysNormalized;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51B00530
@@ -236,8 +236,6 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class PaddedHeadAndTail : ValueType
     {
-        public int Head; // 0x90
-        public int Tail; // 0x110
     }
 
     public class Partitioner : Object
@@ -259,8 +257,8 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class SingleProducerSingleConsumerQueue`1 : Object
     {
-        public Segment<ZLogger.IZLoggerEntry> IsEmpty; // 0x10
-        public Segment<ZLogger.IZLoggerEntry> _tail; // 0x18
+        public rn<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> IsEmpty; // 0x10
+        public rn<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> _tail; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980

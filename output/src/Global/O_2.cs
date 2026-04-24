@@ -22,7 +22,15 @@ public class ObjectSurrogate : Object
 
 public class ObjectValueCollection : Object
 {
-    public System.Collections.Generic.IReadOnlyList`1<Token> Count; // 0x10
+    public object Count;
+    public object Item;
+    public object System.Collections.Generic.IReadOnlyList<System.Object>.Item;
+    public object System.Collections.Generic.IList<System.Object>.Item;
+    public object System.Collections.IList.Item;
+    public object IsReadOnly;
+    public object SyncRoot;
+    public object IsSynchronized;
+    public object IsFixedSize;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD57231880
@@ -56,28 +64,28 @@ public class ObjectValueCollection : Object
 
 public class OculusSpatializerUnity : MonoBehaviour
 {
-    public UnityEngine.LayerMask layerMask; // 0x20
+    public object layerMask; // 0x20
     public bool visualizeRoom; // 0x24
-    public bool ÎÌÏÌÎÌÌÏÌÍÍÎÏÌÍÎÍÌÍÏÏÌÎ; // 0x25
+    public bool ÏÍÎÎÏÎÍÎÍÏÌÌÌÏÌÏÎÍÏÌÍÏÎ; // 0x25
     public int raysPerSecond; // 0x28
     public float roomInterpSpeed; // 0x2C
     public float maxWallDistance; // 0x30
     public int rayCacheSize; // 0x34
     public bool dynamicReflectionsEnabled; // 0x38
-    public float ÌÍÎÎÌÎÎÌÌÎÌÏÍÌÎÍÏÏÏÎÌÌÎ; // 0x3C
-    public float ÎÏÍÌÎÍÍÌÏÏÌÍÌÏÎÌÏÎÌÏÍÎÌ; // 0x40
-    public UnityEngine.GameObject ÍÎÎÌÎÎÎÍÌÍÎÍÎÍÏÏÏÍÍÏÌÌÌ; // 0x48
-    public UnityEngine.Renderer[] ÍÎÎÏÎÌÏÍÎÏÍÎÍÏÌÎÌÍÌÎÎÍÍ; // 0x50
-    public float[] ÏÌÏÎÏÌÌÏÎÎÌÏÌÍÌÎÏÌÎÎÌÍÍ; // 0x58
-    public float[] ÌÏÍÏÌÍÎÎÌÎÍÍÎÍÏÌÍÏÏÏÏÏÎ; // 0x60
-    public int ÌÌÌÎÏÍÌÌÌÏÍÍÌÏÏÏÍÏÏÌÌÏÌ;
-    public UnityEngine.Vector3[] ÏÎÌÌÍÏÌÌÎÏÏÌÎÍÏÍÏÍÍÌÍÏÎ; // 0x68
-    public UnityEngine.Vector3[] ÌÏÌÌÍÍÍÎÍÍÎÍÎÎÍÌÎÎÎÌÎÌÍ; // 0x70
-    public UnityEngine.ParticleSystem ÎÏÎÎÌÏÌÎÏÏÎÎÍÎÏÎÏÍÌÎÎÍÍ; // 0x78
-    public Particle[] ÌÎÏÏÌÏÍÎÍÏÎÏÎÌÌÏÎÍÌÎÌÌÏ; // 0x80
-    public UnityEngine.AudioListener ÎÎÏÏÏÍÏÌÌÎÌÏÍÎÏÌÌÌÍÍÏÎÎ;
-    public UnityEngine.LayerMask ÌÍÍÎÎÏÎÏÎÏÍÎÎÎÏÍÏÌÎÌÎÍÎ; // 0x8
-    public string ÌÌÌÎÏÏÏÍÏÎÍÌÌÍÏÌÍÎÎÌÍÍÎ;
+    public float ÌÏÏÍÌÎÏÍÏÍÏÎÌÎÎÎÏÍÏÌÌÏÌ; // 0x3C
+    public float ÎÌÌÍÏÎÍÌÎÌÌÍÌÍÍÎÌÌÌÌÍÍÎ; // 0x40
+    public BuffersImpl ÌÏÎÍÌÍÍÎÍÎÎÎÏÍÎÏÌÎÍÎÌÍÎ; // 0x48
+    public rical[] ÏÍÍÌÍÎÎÏÌÏÏÏÌÌÍÌÎÏÌÏÌÌÏ; // 0x50
+    public float[] ÍÏÎÎÎÌÎÍÌÍÍÍÍÏÎÍÎÍÌÍÏÏÎ; // 0x58
+    public float[] ÍÏÍÍÎÌÌÍÎÌÍÍÍÍÍÏÌÌÏÏÌÍÏ; // 0x60
+    public int ÌÎÎÎÌÍÍÎÌÏÎÌÍÏÍÍÌÌÍÏÎÍÌ;
+    public amut[] ÏÍÎÍÎÏÏÌÍÍÏÎÌÍÍÌÎÌÍÌÌÌÏ; // 0x68
+    public amut[] ÌÌÌÍÎÍÏÎÏÍÎÎÍÎÏÏÍÌÎÍÌÍÏ; // 0x70
+    public InDuration ÏÎÏÏÍÎÍÌÍÌÍÍÏÏÎÌÍÏÏÎÌÎÌ; // 0x78
+    public ?[] ÎÏÌÏÏÍÍÌÌÏÍÍÍÎÎÎÎÌÏÎÏÏÍ; // 0x80
+    public e ÌÌÎÏÏÍÎÏÎÍÌÍÏÍÌÌÌÍÌÍÌÍÍ;
+    public object ÌÎÌÍÌÎÍÏÍÏÏÏÌÎÍÎÏÎÍÏÍÎÍ; // 0x8
+    public string ÌÍÏÎÎÌÍÎÍÏÎÍÎÏÍÎÍÎÎÎÏÍÍ;
 
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4EEA4B30
@@ -107,21 +115,13 @@ public class OculusSpatializerUnity : MonoBehaviour
 
 public class Offset : ValueType
 {
-    public ushort Scheme; // 0x10
-    public ushort User; // 0x12
-    public ushort Host; // 0x14
-    public ushort PortValue; // 0x16
-    public ushort Path; // 0x18
-    public ushort Query; // 0x1A
-    public ushort Fragment; // 0x1C
-    public ushort End; // 0x1E
 }
 
 public class OffsetAndRule : Object
 {
     public int Year; // 0x10
-    public System.TimeSpan Offset; // 0x18
-    public AdjustmentRule Rule; // 0x20
+    public ializable.GetObjectData Offset; // 0x18
+    public ositionInfo Rule; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53923240
@@ -207,10 +207,10 @@ public class OnPhotoModeStoppedCallback : MulticastDelegate
 
 public class OnScreenDeviceInfo : ValueType
 {
-    public UnityEngine.InputSystem.LowLevel.InputEventPtr eventPtr; // 0x10
-    public Unity.Collections.NativeArray`1<byte> buffer; // 0x18
-    public UnityEngine.InputSystem.InputDevice device; // 0x28
-    public UnityEngine.InputSystem.OnScreen.OnScreenControl firstControl; // 0x30
+    public Device.ckingField eventPtr; // 0x10
+    public ÍÎÏÎÎ.ÌÌ<byte> buffer; // 0x18
+    public ilAddress.ActionProperty device; // 0x28
+    public _deviceLostEvent.ChangedEvent firstControl; // 0x30
 
     // ── Methods ──
     public void AddControl(){} // RVA: 0x7FFD54A7A350
@@ -264,10 +264,10 @@ public class OnVideoModeStoppedCallback : MulticastDelegate
 
 public class OnlyValueChangedProgress`1 : Object
 {
-    public System.Action`1<T> action;
-    public System.Collections.Generic.IEqualityComparer`1<T> comparer;
+    public ileFullDirectoryInformation<T1717654368> action;
+    public URA.hEraNames<T1717654368> comparer;
     public bool isFirstCall;
-    public T latestValue;
+    public T1717654368 latestValue;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -276,10 +276,10 @@ public class OnlyValueChangedProgress`1 : Object
 
 public class Option : Object
 {
-    public VRC.Localization.LocalizableString OptionText; // 0x10
-    public VRC.Localization.LocalizableString Tooltip; // 0x38
+    public itTypeSize=876 OptionText; // 0x10
+    public itTypeSize=876 Tooltip; // 0x38
     public object Value; // 0x60
-    public System.Func`1<bool> IsEnabled; // 0x68
+    public ormation<bool> IsEnabled; // 0x68
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4E9FB780
@@ -303,7 +303,7 @@ public class Option : Object
 public class OptionData : Object
 {
     public string text; // 0x10
-    public UnityEngine.Sprite image; // 0x18
+    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField image; // 0x18
 
     // ── Methods ──
     public void get_text(){} // RVA: 0x7FFD4E35C380
@@ -315,7 +315,7 @@ public class OptionData : Object
 
 public class OptionDataList : Object
 {
-    public System.Collections.Generic.List`1<OptionData> options; // 0x10
+    public URA.woDigitYearMax<Src> options; // 0x10
 
     // ── Methods ──
     public void get_options(){} // RVA: 0x7FFD4E35C380
@@ -325,26 +325,10 @@ public class OptionDataList : Object
 
 public class OptionsAndroid : PlatformOptions
 {
-    public 0x665D3BE8 preferredMaximumResolution; // 0x20
-    public 0x665D3B38 customPreferredMaximumResolution; // 0x24
-    public UnityEngine.Vector2Int preferredPeakBitRate; // 0x28
-    public float preferredPeakBitRateUnits; // 0x30
-    public 0x665D3B90 _preferredPeakBitRateUnits; // 0x34
-    public 0x665D5190 videoApi; // 0x38
-    public bool useFastOesPath; // 0x3C
-    public bool showPosterFrame; // 0x3D
-    public 0x665D51E8 audioOutput; // 0x40
-    public 0x665D53A0 audio360ChannelMode; // 0x44
-    public bool preferSoftwareDecoder; // 0x48
-    public bool forceRtpTCP; // 0x49
-    public 0x665D5240 blitTextureFiltering; // 0x4C
-    public int fileOffset; // 0x50
-    public bool startWithHighestBitrate; // 0x54
-    public int minBufferMs; // 0x58
-    public int maxBufferMs; // 0x5C
-    public int bufferForPlaybackMs; // 0x60
-    public int bufferForPlaybackAfterRebufferMs; // 0x64
-    public bool enableAudio360; // 0x68
+    public object preferredMaximumResolution;
+    public object customPreferredMaximumResolution;
+    public object preferredPeakBitRate;
+    public object preferredPeakBitRateUnits;
 
     // ── Methods ──
     public void get_preferredMaximumResolution(){} // RVA: 0x7FFD4ED41980
@@ -367,19 +351,14 @@ public class OptionsAndroid : PlatformOptions
 
 public class OptionsApple : PlatformOptions
 {
-    public 0x665D38D0 previousAudioMode; // 0x20
-    public 0x665D3980 audioMode; // 0x24
-    public 0x665D38D0 flags; // 0x28
-    public 0x665D3928 preferredPeakBitRate; // 0x2C
-    public 0x665D3928 preferredPeakBitRateUnits; // 0x30
-    public 0x665D3980 preferredForwardBufferDuration; // 0x34
-    public float preferredMaximumResolution; // 0x38
-    public 0x665D3A88 customPreferredMaximumResolution; // 0x3C
-    public float _preferredPeakBitRate; // 0x40
-    public 0x665D3A30 _preferredPeakBitRateUnits; // 0x44
-    public double _preferredForwardBufferDuration; // 0x48
-    public 0x665D39D8 _preferredMaximumResolution; // 0x50
-    public UnityEngine.Vector2Int _customPreferredMaximumResolution; // 0x54
+    public object previousAudioMode;
+    public object audioMode;
+    public object flags;
+    public object preferredPeakBitRate;
+    public object preferredPeakBitRateUnits;
+    public object preferredForwardBufferDuration;
+    public object preferredMaximumResolution;
+    public object customPreferredMaximumResolution;
 
     // ── Methods ──
     public void get_previousAudioMode(){} // RVA: 0x7FFD4F0A91D0
@@ -407,9 +386,6 @@ public class OptionsApple : PlatformOptions
 
 public class OptionsWebGL : PlatformOptions
 {
-    public 0x665D52F0 externalLibrary; // 0x20
-    public bool useTextureMips; // 0x24
-
     // ── Methods ──
     public void IsModified(){} // RVA: 0x7FFD4FBE2EA0
     public void GetKeyServerAuthToken(){} // RVA: 0x7FFD4E919180
@@ -419,31 +395,6 @@ public class OptionsWebGL : PlatformOptions
 
 public class OptionsWindows : PlatformOptions
 {
-    public 0x665D4F80 videoApi; // 0x20
-    public bool useHardwareDecoding; // 0x24
-    public bool useTextureMips; // 0x25
-    public bool use10BitTextures; // 0x26
-    public bool hintAlphaChannel; // 0x27
-    public bool useLowLatency; // 0x28
-    public bool useCustomMovParser; // 0x29
-    public bool useHapNotchLC; // 0x2A
-    public bool useStereoDetection; // 0x2B
-    public bool useTextTrackSupport; // 0x2C
-    public bool useFacebookAudio360Support; // 0x2D
-    public bool useAudioDelay; // 0x2E
-    public 0x665D46E8 bufferedFrameSelection; // 0x30
-    public bool pauseOnPrerollComplete; // 0x34
-    public string forceAudioOutputDeviceName; // 0x38
-    public System.Collections.Generic.List`1<string> preferredFilters; // 0x40
-    public 0x665D4FD8 audioOutput; // 0x48
-    public 0x665D53A0 audio360ChannelMode; // 0x4C
-    public bool startWithHighestBitrate; // 0x50
-    public bool useLowLiveLatency; // 0x51
-    public int parallelFrameCount; // 0x54
-    public int prerollFrameCount; // 0x58
-    public bool useUnityAudio; // 0x5C
-    public bool enableAudio360; // 0x5D
-
     // ── Methods ──
     public void IsModified(){} // RVA: 0x7FFD4FBE26D0
     public void StartWithHighestBandwidth(){} // RVA: 0x7FFD4E3FB8E0
@@ -454,17 +405,6 @@ public class OptionsWindows : PlatformOptions
 
 public class OptionsWindowsUWP : PlatformOptions
 {
-    public bool useHardwareDecoding; // 0x20
-    public bool useTextureMips; // 0x21
-    public bool use10BitTextures; // 0x22
-    public bool hintOutput10Bit; // 0x23
-    public bool useLowLatency; // 0x24
-    public 0x665D5088 videoApi; // 0x28
-    public 0x665D50E0 audioOutput; // 0x2C
-    public 0x665D53A0 audio360ChannelMode; // 0x30
-    public bool startWithHighestBitrate; // 0x34
-    public bool useLowLiveLatency; // 0x35
-
     // ── Methods ──
     public void IsModified(){} // RVA: 0x7FFD4FBE2950
     public void StartWithHighestBandwidth(){} // RVA: 0x7FFD4E377C20
@@ -473,14 +413,14 @@ public class OptionsWindowsUWP : PlatformOptions
 
 public class OpusCodec : Object
 {
-    public int ÏÏÎÍÏÍÎÍÍÍÍÍÎÍÍÌÎÌÍÍÏÍÏ;
-    public ÎÌÎÍÏÎÍÌÏÏÏÌÍÌÍÏÍÏÌÏÍÌÏ ÍÏÏÍÏÌÌÌÌÍÏÍÌÎÎÏÏÍÎÌÌÏÏ; // 0x10
-    public ÌÏÌÌÍÍÌÌÎÎÌÎÌÍÍÏÏÌÎÌÎÌÍ ÌÌÎÍÏÌÍÌÍÌÍÌÌÏÍÏÍÏÏÎÌÌÏ; // 0x18
-    public int ÏÌÏÍÎÏÎÎÎÌÍÏÏÌÏÌÎÏÍÌÎÏÎ; // 0x20
-    public int ÌÌÏÍÏÍÌÎÍÎÏÏÎÏÌÍÏÏÏÏÍÌÍ; // 0x24
-    public int ÏÏÏÎÎÍÌÏÍÎÍÌÎÍÍÏÍÎÏÌÎÏÏ; // 0x28
-    public 0x66379D10 ÎÎÌÏÎÍÍÌÎÍÍÏÏÌÌÏÎÎÏÏÍÎÍ; // 0x2C
-    public bool ÏÏÏÏÍÌÌÎÍÎÏÎÍÎÎÌÍÍÌÍÏÏÌ; // 0x30
+    public int ÏÏÍÍÎÏÍÍÏÌÎÍÍÎÌÌÎÍÎÎÏÌÏ;
+    public ÎÍÏÍÏÌÏ ÍÏÏÌÏÌÌÎÍÎÏÏÍÏÎÏÌÌÎÍÏÌÎ; // 0x10
+    public ÎÎÎÍÎ ÏÏÏÌÍÏÎÌÎÏÎÏÍÌÌÎÎÏÎÎÏÏÏ; // 0x18
+    public int ÌÎÏÍÎÎÌÌÎÎÏÍÌÏÍÏÌÎÌÍÏÍÍ; // 0x20
+    public int ÍÎÍÎÎÍÏÌÎÎÌÌÎÍÎÌÎÍÎÏÍÏÏ; // 0x24
+    public int ÎÍÍÌÌÏÎÎÌÏÌÍÍÍÌÍÏÍÏÎÎÎÏ; // 0x28
+    public Ï ÏÍÌÍÌÏÏÏÌÏÏÏÍÎÍÍÍÏÏÎÍÍÎ; // 0x2C
+    public bool ÌÍÌÍÍÏÍÏÍÍÌÍÌÌÍÍÌÍÍÍÏÌÏ; // 0x30
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4E4FB160
@@ -515,29 +455,29 @@ public class Orbit : ValueType
 public class OscView : Object
 {
     public bool dirty; // 0x10
-    public ÍÎÍÍÍÏÍÎÎÍÍÌÍÍÌÏÏÎÍÎÏÏÍ parent; // 0x18
+    public ÏÌ parent; // 0x18
     public string pathName; // 0x20
-    public UnityEngine.Transform currentViewObject; // 0x28
-    public 0x6635CA98 queuedType; // 0x30
-    public 0x6635CA98 appliedType; // 0x34
+    public object currentViewObject; // 0x28
+    public object queuedType; // 0x30
+    public object appliedType; // 0x34
     public float queuedValue; // 0x38
     public float receivedTime; // 0x3C
     public float minValue; // 0x40
     public float maxValue; // 0x44
-    public UnityEngine.UI.Text valueDisplay; // 0x48
-    public UnityEngine.UI.Text minDisplay; // 0x50
-    public UnityEngine.UI.Text maxDisplay; // 0x58
-    public UnityEngine.UI.Image pulse; // 0x60
-    public UnityEngine.GameObject checkMark; // 0x68
-    public UnityEngine.RectTransform fill; // 0x70
-    public UnityEngine.Transform pointDisplay; // 0x78
-    public UnityEngine.Transform axisDisplay; // 0x80
-    public OscView sibling; // 0x88
-    public UnityEngine.Transform valueBG; // 0x90
-    public System.Collections.Generic.List`1<UnityEngine.RectTransform> fills; // 0x98
-    public System.Collections.Generic.List`1<UnityEngine.UI.Text> minDisplays; // 0xA0
-    public System.Collections.Generic.List`1<UnityEngine.UI.Text> maxDisplays; // 0xA8
-    public System.Collections.Generic.List`1<UnityEngine.UI.Text> valueDisplays; // 0xB0
+    public ePathName117.? valueDisplay; // 0x48
+    public ePathName117.? minDisplay; // 0x50
+    public ePathName117.? maxDisplay; // 0x58
+    public ePathName117.ÎÌÍÍÎÏÌ pulse; // 0x60
+    public BuffersImpl checkMark; // 0x68
+    public 16 fill; // 0x70
+    public object pointDisplay; // 0x78
+    public object axisDisplay; // 0x80
+    public object sibling; // 0x88
+    public object valueBG; // 0x90
+    public URA.woDigitYearMax<16> fills; // 0x98
+    public URA.woDigitYearMax<ePathName117.?> minDisplays; // 0xA0
+    public URA.woDigitYearMax<ePathName117.?> maxDisplays; // 0xA8
+    public URA.woDigitYearMax<ePathName117.?> valueDisplays; // 0xB0
     public float[] queuedValues; // 0xB8
     public float[] minValues; // 0xC0
     public float[] maxValues; // 0xC8
@@ -567,9 +507,9 @@ public class OscView : Object
 public class OutPt : Object
 {
     public int Idx; // 0x10
-    public IntPoint Pt; // 0x18
-    public OutPt Next; // 0x28
-    public OutPt Prev; // 0x30
+    public lfFrustumHeight Pt; // 0x18
+    public Speed Next; // 0x28
+    public Speed Prev; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -580,10 +520,10 @@ public class OutRec : Object
     public int Idx; // 0x10
     public bool IsHole; // 0x14
     public bool IsOpen; // 0x15
-    public OutRec FirstLeft; // 0x18
-    public OutPt Pts; // 0x20
-    public OutPt BottomPt; // 0x28
-    public PolyNode PolyNode; // 0x30
+    public SetCartPosition FirstLeft; // 0x18
+    public Speed Pts; // 0x20
+    public Speed BottomPt; // 0x28
+    public hCache PolyNode; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -591,7 +531,7 @@ public class OutRec : Object
 
 public class OutputEventArgs : ValueType
 {
-    public Mediapipe.Packet`1<T> packet;
+    public etBestGrabbingType.ionEnabled<T1717692464> packet;
     public long timestampMicrosecond;
 
     // ── Methods ──

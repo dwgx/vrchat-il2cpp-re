@@ -7,36 +7,26 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Panel : BaseVisualElementPanel
     {
-        public UnityEngine.UIElements.VisualElement visualTree; // 0xA8
-        public UnityEngine.UIElements.VisualTreeUpdater dispatcher; // 0xB0
-        public 0x66482CE0 timerEventScheduler; // 0xB8
-        public string scheduler; // 0xC0
-        public uint styleAnimationSystem; // 0xC8
-        public uint ownerObject; // 0xCC
-        public uint contextType; // 0xD0
-        public Unity.Profiling.ProfilerMarker saveViewData; // 0xD8
-        public Unity.Profiling.ProfilerMarker getViewDataDictionary; // 0xE0
-        public Unity.Profiling.ProfilerMarker focusController; // 0xE8
-        public Unity.Profiling.ProfilerMarker IMGUIEventInterests; // 0xF0
-        public Unity.Profiling.ProfilerMarker loadResourceFunc; // 0xF8
-        public Unity.Profiling.ProfilerMarker name;
-        public 0x6647B2D8 TimeSinceStartup; // 0x100
-        public 0x66480EF8 IMGUIContainersCount; // 0x108
-        public UnityEngine.ScriptableObject rootIMGUIContainer; // 0x110
-        public 0x6647FED0 version; // 0x118
-        public 0x664802F0 hierarchyVersion; // 0x120
-        public 0x66480298 standardShader; // 0x128
-        public 0x6647EEA8 atlas; // 0x130
-        public UnityEngine.EventInterests <IMGUIEventInterests>k__BackingField; // 0x138
-        public 0x664801E8 <loadResourceFunc>k__BackingField; // 0x8
-        public bool m_JustReceivedFocus; // 0x13B
-        public 0x66480240 <TimeSinceStartup>k__BackingField; // 0x10
-        public int <IMGUIContainersCount>k__BackingField; // 0x13C
-        public UnityEngine.UIElements.IMGUIContainer <rootIMGUIContainer>k__BackingField; // 0x140
-        public UnityEngine.Shader m_StandardShader; // 0x148
-        public 0x66474008 m_Atlas; // 0x150
-        public bool m_ValidatingLayout; // 0x158
-        public System.Action`1<UnityEngine.UIElements.Panel> beforeAnyRepaint; // 0x18
+        public object visualTree;
+        public object dispatcher;
+        public object timerEventScheduler;
+        public object scheduler;
+        public object styleAnimationSystem;
+        public object ownerObject;
+        public object contextType;
+        public object saveViewData;
+        public object getViewDataDictionary;
+        public object focusController;
+        public object IMGUIEventInterests;
+        public object loadResourceFunc;
+        public object name;
+        public object TimeSinceStartup;
+        public object IMGUIContainersCount;
+        public object rootIMGUIContainer;
+        public object version;
+        public object hierarchyVersion;
+        public object standardShader;
+        public object atlas;
 
         // ── Methods ──
         public void get_visualTree(){} // RVA: 0x7FFD54D3FDA0
@@ -94,8 +84,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelChangedEventBase`1 : EventBase`1
     {
-        public UnityEngine.UIElements.IPanel originPanel;
-        public UnityEngine.UIElements.IPanel destinationPanel;
+        public ÎÏÌÎÎÎÌÌÌ.Stopped originPanel;
+        public ÎÏÌÎÎÎÌÌÌ.Stopped destinationPanel;
 
         // ── Methods ──
         public void get_originPanel(){} // RVA: 0x7FFD4E078E90
@@ -110,19 +100,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelClearSettings : ValueType
     {
-        public bool clearDepthStencil; // 0x10
-        public bool clearColor; // 0x11
-        public UnityEngine.Color color; // 0x14
     }
 
     public class PanelEventHandler : UIBehaviour
     {
-        public 0x664803F8 panel; // 0x20
-        public 0x665ABC88 selectableGameObject; // 0x28
+        public ÎÏÌÎÎÎÌÌÌ.ent panel; // 0x20
+        public >>.get_IsReadOnly selectableGameObject; // 0x28
         public float eventSystem; // 0x30
         public bool isCurrentFocusedPanel; // 0x34
-        public UnityEngine.Event currentFocusedElement; // 0x38
-        public 0x665DF588 s_Modifiers;
+        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE currentFocusedElement; // 0x38
+        public illingServiceDisconnected s_Modifiers;
 
         // ── Methods ──
         public void get_panel(){} // RVA: 0x7FFD4E36F0C0
@@ -165,7 +152,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelRaycaster : BaseRaycaster
     {
-        public 0x664803F8 panel; // 0x28
+        public ÎÏÌÎÎÎÌÌÌ.ent panel; // 0x28
 
         // ── Methods ──
         public void get_panel(){} // RVA: 0x7FFD4E36F130
@@ -186,34 +173,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public int themeStyleSheet;
         public float targetTexture;
         public string scaleMode;
-        public UnityEngine.UIElements.ThemeStyleSheet referenceSpritePixelsPerUnit; // 0x18
-        public UnityEngine.RenderTexture scale; // 0x20
-        public 0x6647F060 referenceDpi; // 0x28
+        public ÎÏÌÎÎÎÌÌÌ._left referenceSpritePixelsPerUnit; // 0x18
+        public Offset scale; // 0x20
+        public ÎÏÌÎÎÎÌÌÌ.TabEvent referenceDpi; // 0x28
         public float fallbackDpi; // 0x2C
         public float referenceResolution; // 0x30
         public float screenMatchMode;
         public float match; // 0x34
         public float sortingOrder; // 0x38
-        public UnityEngine.Vector2Int targetDisplay; // 0x3C
-        public s clearDepthStencil; // 0x44
+        public onY targetDisplay; // 0x3C
+        public ÎÏÌÎÎÎÌÌÌ.endingTouchEvents clearDepthStencil; // 0x44
         public float depthClearValue; // 0x48
         public float clearColor; // 0x4C
         public int colorClearValue; // 0x50
         public bool panel; // 0x54
         public bool visualTree; // 0x55
-        public UnityEngine.Color dynamicAtlasSettings; // 0x58
-        public RuntimePanelAccess ScreenDPI; // 0x68
-        public 0x6647F2C8 m_AttachedUIDocumentsList; // 0x70
-        public 0x6647EF00 m_DynamicAtlasSettings; // 0x78
-        public UnityEngine.Shader m_AtlasBlitShader; // 0x80
-        public UnityEngine.Shader m_RuntimeShader; // 0x88
-        public UnityEngine.Shader m_RuntimeWorldShader; // 0x90
-        public UnityEngine.UIElements.PanelTextSettings textSettings; // 0x98
-        public UnityEngine.Rect m_TargetRect; // 0xA0
+        public object dynamicAtlasSettings; // 0x58
+        public object ScreenDPI; // 0x68
+        public ÎÏÌÎÎÎÌÌÌ.ler m_AttachedUIDocumentsList; // 0x70
+        public ÎÏÌÎÎÎÌÌÌ.tSequence m_DynamicAtlasSettings; // 0x78
+        public ojectionMatrix_Injected m_AtlasBlitShader; // 0x80
+        public ojectionMatrix_Injected m_RuntimeShader; // 0x88
+        public ojectionMatrix_Injected m_RuntimeWorldShader; // 0x90
+        public ÎÏÌÎÎÎÌÌÌ.ight textSettings; // 0x98
+        public dRecorder m_TargetRect; // 0xA0
         public float m_ResolvedScale; // 0xB0
-        public UnityEngine.UIElements.StyleSheet m_OldThemeUss; // 0xB8
+        public ÎÏÌÎÎÎÌÌÌ.inter m_OldThemeUss; // 0xB8
         public float <ScreenDPI>k__BackingField; // 0xC0
-        public System.Func`2<UnityEngine.Vector2,UnityEngine.Vector2> m_AssignedScreenToPanel; // 0xC8
+        public n<tionX,tionX> m_AssignedScreenToPanel; // 0xC8
 
         // ── Methods ──
         public void get_themeStyleSheet(){} // RVA: 0x7FFD50CC1130
@@ -272,9 +259,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelTextSettings : TextSettings
     {
-        public UnityEngine.UIElements.PanelTextSettings defaultPanelTextSettings;
-        public System.Func`2<string,UnityEngine.Object> EditorGUIUtilityLoad; // 0x8
-        public System.Func`1<0x664D95D8> GetCurrentLanguage; // 0x10
+        public ÎÏÌÎÎÎÌÌÌ.ight defaultPanelTextSettings;
+        public n<string,?> EditorGUIUtilityLoad; // 0x8
+        public ormation<?> GetCurrentLanguage; // 0x10
         public string s_DefaultEditorPanelTextSettingPath; // 0x18
 
         // ── Methods ──
@@ -287,7 +274,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerCaptureEventBase`1 : EventBase`1
     {
-        public UnityEngine.UIElements.IEventHandler relatedTarget; // 0x88
+        public ÎÏÌÎÎÎÌÌÌ.lumnsWidth relatedTarget; // 0x88
         public int pointerId; // 0x90
 
         // ── Methods ──
@@ -307,24 +294,24 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public float isPrimary;
         public float button;
         public bool pressedButtons;
-        public UnityEngine.Vector2 position;
+        public tionX position;
         public int localPosition;
         public string deltaPosition;
         public bool deltaTime;
         public int clickCount;
         public int pressure;
-        public UnityEngine.Vector3 tangentialPressure;
-        public UnityEngine.Vector3 altitudeAngle;
-        public UnityEngine.Vector3 azimuthAngle;
+        public amut tangentialPressure;
+        public amut altitudeAngle;
+        public amut azimuthAngle;
         public float twist;
         public int tilt;
         public float penStatus;
         public float radius;
         public float radiusVariance;
-        public 0x66639160 modifiers;
-        public UnityEngine.Vector2 shiftKey;
-        public UnityEngine.Vector2 ctrlKey;
-        public 0x665DF588 commandKey;
+        public aycast.PopulateRaycastCommand modifiers;
+        public tionX shiftKey;
+        public tionX ctrlKey;
+        public illingServiceDisconnected commandKey;
         public bool altKey;
         public bool actionKey;
 

@@ -8,8 +8,6 @@ namespace VRC.UI
     /// <summary>Originally: ÍÎÎÍÏÌÎÍÏÍÏÌÏÎÍÌÏÎÏÌÏÍÎ</summary>
     public class ScrollRectDerived_3950 : ScrollRect
     {
-        public ÌÎÏÏÏÌÌÌÏÎÎÎÍÍÎÏÌÌÌÍÎÍÌ ÎÎÎÌÌÍÏÏÎÍÎÏÌÏÏÌÍÎÎÌÌÍÍ; // 0x130
-
         // ── Methods ──
         public void get_content(){} // RVA: 0x7FFD4F6F9440
         public void .ctor(){} // RVA: 0x7FFD4F6F98C0

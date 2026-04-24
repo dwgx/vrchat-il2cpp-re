@@ -7,7 +7,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 {
     public class CachedAttributeGetter`1 : Object
     {
-        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<object,Newtonsoft.Json.JsonObjectAttribute> TypeAttributeCache;
+        public rnToTarget.ltFloatParseHandling<object,T1717646160> TypeAttributeCache;
 
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0x7FFD4E2ADC40
@@ -16,18 +16,18 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class DefaultContractResolver : Object
     {
-        public Newtonsoft.Json.Serialization.IContractResolver Instance;
+        public eckAdditionalContent.iteEndAsync Instance;
         public string[] DynamicCodeGeneration; // 0x8
-        public Newtonsoft.Json.JsonConverter[] DefaultMembersSearchFlags; // 0x10
-        public Newtonsoft.Json.DefaultJsonNameTable SerializeCompilerGeneratedMembers; // 0x10
-        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,Newtonsoft.Json.Serialization.JsonContract> IgnoreSerializableInterface; // 0x18
-        public 0x66438780 IgnoreSerializableAttribute; // 0x20
+        public ex.IKSolverAim[] DefaultMembersSearchFlags; // 0x10
+        public ex.etOffset SerializeCompilerGeneratedMembers; // 0x10
+        public rnToTarget.ltFloatParseHandling<?,eckAdditionalContent.terAsync>d__9> IgnoreSerializableInterface; // 0x18
+        public m.unt IgnoreSerializableAttribute; // 0x20
         public bool IgnoreIsSpecifiedMembers; // 0x24
         public bool IgnoreShouldSerializeMembers; // 0x25
         public bool NamingStrategy; // 0x26
         public bool <IgnoreIsSpecifiedMembers>k__BackingField; // 0x27
         public bool <IgnoreShouldSerializeMembers>k__BackingField; // 0x28
-        public 0x66529548 <NamingStrategy>k__BackingField; // 0x30
+        public eckAdditionalContent.eference <NamingStrategy>k__BackingField; // 0x30
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD53B98E20
@@ -99,9 +99,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class DefaultSerializationBinder : SerializationBinder
     {
-        public Newtonsoft.Json.Serialization.DefaultSerializationBinder Instance;
-        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<Newtonsoft.Json.Utilities.StructMultiKey`2<string,string>,System.Type> _typeCache; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53BA3F50
         public void GetTypeFromTypeNameKey(){} // RVA: 0x7FFD53BA4060
@@ -127,27 +124,18 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonContract : Object
     {
-        public bool UnderlyingType; // 0x10
-        public bool CreatedType; // 0x11
-        public bool IsReference; // 0x12
-        public System.Type Converter; // 0x18
-        public 0x66524B08 InternalConverter; // 0x20
-        public 0x66528A48 OnDeserializedCallbacks; // 0x24
-        public bool OnDeserializingCallbacks; // 0x28
-        public bool OnSerializedCallbacks; // 0x29
-        public bool OnSerializingCallbacks; // 0x2A
-        public System.Collections.Generic.List`1<0x66528AA0> OnErrorCallbacks; // 0x30
-        public System.Collections.Generic.List`1<0x66528AA0> DefaultCreator; // 0x38
-        public System.Collections.Generic.List`1<0x66528AA0> DefaultCreatorNonPublic; // 0x40
-        public System.Collections.Generic.List`1<0x66528AA0> _onSerializingCallbacks; // 0x48
-        public System.Collections.Generic.List`1<0x66528AF8> _onErrorCallbacks; // 0x50
-        public System.Type _createdType; // 0x58
-        public System.Type <UnderlyingType>k__BackingField; // 0x60
-        public System.Nullable`1<bool> <IsReference>k__BackingField; // 0x68
-        public Newtonsoft.Json.JsonConverter <Converter>k__BackingField; // 0x70
-        public Newtonsoft.Json.JsonConverter <InternalConverter>k__BackingField; // 0x78
-        public System.Func`1<object> <DefaultCreator>k__BackingField; // 0x80
-        public bool <DefaultCreatorNonPublic>k__BackingField; // 0x88
+        public object UnderlyingType;
+        public object CreatedType;
+        public object IsReference;
+        public object Converter;
+        public object InternalConverter;
+        public object OnDeserializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnSerializingCallbacks;
+        public object OnErrorCallbacks;
+        public object DefaultCreator;
+        public object DefaultCreatorNonPublic;
 
         // ── Methods ──
         public void get_UnderlyingType(){} // RVA: 0x7FFD4E3DF370
@@ -180,9 +168,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonFormatterConverter : Object
     {
-        public 0x66529230 _reader; // 0x10
-        public 0x66528E10 _contract; // 0x18
-        public 0x66528F70 _member; // 0x20
+        public eckAdditionalContent.DecimalZero _reader; // 0x10
+        public eckAdditionalContent.>b__27_0 _contract; // 0x18
+        public eckAdditionalContent.tibleValue _member; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53BABA50
@@ -207,8 +195,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonTypeReflector : Object
     {
-        public System.Nullable`1<bool> DynamicCodeGeneration;
-        public System.Nullable`1<bool> FullyTrusted; // 0x2
+        public aphy<bool> DynamicCodeGeneration;
+        public aphy<bool> FullyTrusted; // 0x2
         public string ReflectionDelegateFactory;
         public string RefPropertyName;
         public string TypePropertyName;
@@ -217,9 +205,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
         public string ShouldSerializePrefix;
         public string SpecifiedPostfix;
         public string ConcurrentDictionaryTypeName;
-        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,System.Func`2<object[],object>> CreatorCache; // 0x8
-        public Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,System.Type> AssociatedMetadataTypesCache; // 0x10
-        public Newtonsoft.Json.Utilities.ReflectionObject _metadataTypeAttributeReflectionObject; // 0x18
+        public rnToTarget.ltFloatParseHandling<?,n<object[],object>> CreatorCache; // 0x8
+        public rnToTarget.ltFloatParseHandling<?,?> AssociatedMetadataTypesCache; // 0x10
+        public rnToTarget.tructorHandling _metadataTypeAttributeReflectionObject; // 0x18
 
         // ── Methods ──
         public void GetCachedAttribute(){} // RVA: 0x7FFD4E2ADC40

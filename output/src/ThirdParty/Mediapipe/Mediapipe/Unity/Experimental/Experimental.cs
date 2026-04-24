@@ -9,19 +9,19 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Experimental
     {
         public string imageFormat;
         public int MaxTotalCount;
-        public Mediapipe.GlobalInstanceTable`2<System.Guid,Mediapipe.Unity.Experimental.TextureFrame> _InstanceTable;
-        public System.Collections.Generic.Dictionary`2<uint,System.Guid> _NameTable; // 0x8
-        public UnityEngine.Texture2D _texture; // 0x10
+        public etBestGrabbingType.__PI<ce,Value> _InstanceTable;
+        public URA.DateTime<uint,ce> _NameTable; // 0x8
+        public ector _texture; // 0x10
         public UIntPtr _nativeTexturePtr; // 0x18
-        public Mediapipe.GlSyncPoint _glSyncToken; // 0x20
-        public System.Guid _instanceId; // 0x28
+        public etBestGrabbingType.learanceRadius _glSyncToken; // 0x20
+        public ce _instanceId; // 0x28
         public int width; // 0x38
         public int height; // 0x3C
-        public 0x664DC078 format; // 0x40
-        public 0x66575C58 OnRelease; // 0x48
-        public UnityEngine.RenderTexture _tmpRenderTexture; // 0x50
-        public UnityEngine.RenderTexture _internalRenderTexture; // 0x58
-        public System.Action`1<UnityEngine.Rendering.AsyncGPUReadbackRequest> _onReadBackRenderTexture; // 0x60
+        public x format; // 0x40
+        public nScoreThreshDefaultValue OnRelease; // 0x48
+        public Offset _tmpRenderTexture; // 0x50
+        public Offset _internalRenderTexture; // 0x58
+        public ileFullDirectoryInformation<ons.ze> _onReadBackRenderTexture; // 0x60
 
         // ── Methods ──
         public void get_imageFormat(){} // RVA: 0x7FFD5370A590
@@ -47,11 +47,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Experimental
         public string poolSize;
         public int frameCount; // 0x10
         public int textureHeight; // 0x14
-        public 0x664DC078 textureFormat; // 0x18
+        public x textureFormat; // 0x18
         public int <poolSize>k__BackingField; // 0x1C
-        public 0x66559068 _textureFramesLock; // 0x20
-        public System.Collections.Generic.Queue`1<Mediapipe.Unity.Experimental.TextureFrame> _availableTextureFrames; // 0x28
-        public System.Collections.Generic.Dictionary`2<System.Guid,Mediapipe.Unity.Experimental.TextureFrame> _textureFramesInUse; // 0x30
+        public sageKind.ce _textureFramesLock; // 0x20
+        public URA.ge<Value> _availableTextureFrames; // 0x28
+        public URA.DateTime<ce,Value> _textureFramesInUse; // 0x30
 
         // ── Methods ──
         public void get_poolSize(){} // RVA: 0x7FFD4F8557F0

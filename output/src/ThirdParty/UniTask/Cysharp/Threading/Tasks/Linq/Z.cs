@@ -7,9 +7,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class ZipAwaitWithCancellation`3 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> first;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> second;
-        public System.Func`4<U,V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+        public eObjectDelegate.fo<T1717641040> first;
+        public eObjectDelegate.fo<T1717641056> second;
+        public rmation<T1717641040,T1717641056,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717641072>> resultSelector;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -18,9 +18,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ZipAwait`3 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> first;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> second;
-        public System.Func`3<U,V,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+        public eObjectDelegate.fo<T1717640896> first;
+        public eObjectDelegate.fo<T1717640912> second;
+        public nalInformation<T1717640896,T1717640912,eObjectDelegate.kingField<T1717640928>> resultSelector;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -29,9 +29,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Zip`3 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> first;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> second;
-        public System.Func`3<U,V,T> resultSelector;
+        public eObjectDelegate.fo<T1717640752> first;
+        public eObjectDelegate.fo<T1717640768> second;
+        public nalInformation<T1717640752,T1717640768,T1717640784> resultSelector;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60

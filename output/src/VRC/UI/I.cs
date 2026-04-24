@@ -8,13 +8,8 @@ namespace VRC.UI
     /// <summary>Originally: ÏÎÎÎÏÎÎÎÌÎÏÌÍÌÏÏÌÌÎÎÍÍÌ</summary>
     public class IPageEnumerator_D7D2 : Object
     {
-        public int System.Collections.Generic.IEnumerator<VRC.UI.Shared.IPage>.Current; // 0x10
-        public ÍÍÎÍÏÌÌÍÌÎÌÏÌÍÌÎÌÌÏÎÌÍÍ System.Collections.IEnumerator.Current; // 0x18
-        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ; // 0x20
-        public ÏÏÌÏÎÏÏÎÏÌÌÌÌÍÍÌÏÏÍÌÎÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public ÏÏÏÏÌÍÏÌÎÎÏÏÏÌÌÍÏÌÍÌÌÍÍ ÍÎÏÍÌÍÌÎÎÍÌÏÏÌÍÎÏÍÎÏÌÏÍ; // 0x30
-        public ÏÏÏÏÌÍÏÌÎÎÏÏÏÌÌÍÏÌÍÌÌÍÍ ÌÍÍÎÎÌÍÍÌÌÍÍÏÌÍÌÏÌÎÌÍÎÍ; // 0x38
-        public System.Collections.Generic.IEnumerator`1<ÌÍÍÍÏÎÏÎÏÍÌÌÏÍÌÏÎÏÎÍÏÍÏ> ÍÍÎÏÎÍÍÌÌÍÍÌÍÎÎÍÌÎÌÏÎÌÏ; // 0x40
+        public object System.Collections.Generic.IEnumerator<VRC.UI.Shared.IPage>.Current;
+        public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD56BAA120
@@ -45,9 +40,6 @@ namespace VRC.UI
     /// <summary>Originally: ÍÏÍÌÎÍÌÌÎÏÏÍÍÎÌÎÎÍÍÏÎÍÏ</summary>
     public class InitializePotentialDragPointerDownHandlerImpl_18B6 : InitializePotentialDragPointerDownHandler_518E
     {
-        public ÎÍÏÍÌÍÏÍÍÌÌÎÏÎÎÏÎÍÌÍÎÍÎ colorPicker; // 0x28
-        public UnityEngine.RectTransform hueRect; // 0x30
-
         // ── Methods ──
         public void Handle(){} // RVA: 0x7FFD56DC3A20
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -56,9 +48,6 @@ namespace VRC.UI
     /// <summary>Originally: ÎÏÍÌÌÏÍÍÍÍÍÏÎÍÍÍÌÍÌÍÏÌÌ</summary>
     public class InitializePotentialDragPointerDownHandlerImpl_2DD5 : InitializePotentialDragPointerDownHandler_518E
     {
-        public ÎÍÏÎÌÍÏÎÏÍÏÍÌÏÍÏÏÏÌÎÌÌÏ colorPicker; // 0x28
-        public UnityEngine.RectTransform colorPickerRectTransform; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
         public void Handle(){} // RVA: 0x7FFD56DC3940
@@ -67,9 +56,6 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÎÍÏÏÍÌÌÏÎÌÎÎÏÏÌÍÎÎÎÌÎ</summary>
     public class InitializePotentialDragPointerDownHandlerImpl_4062 : InitializePotentialDragPointerDownHandler_518E
     {
-        public ÎÍÏÍÌÍÏÍÍÌÌÎÏÎÎÏÎÍÌÍÎÍÎ colorPicker; // 0x28
-        public UnityEngine.RectTransform saturationValueRect; // 0x30
-
         // ── Methods ──
         public void Handle(){} // RVA: 0x7FFD56DC3B50
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -78,8 +64,6 @@ namespace VRC.UI
     /// <summary>Originally: ÏÍÎÏÌÍÎÍÍÎÏÎÌÎÏÎÌÍÎÌÎÍÌ</summary>
     public class InitializePotentialDragPointerDownHandler_518E : MonoBehaviour
     {
-        public UnityEngine.Camera ÏÎÎÌÌÎÎÌÏÎÏÍÍÏÏÏÎÍÌÏÍÏÌ; // 0x20
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EB3D9D0
         public void RaiseCancellation(){} // RVA: 0x7FFD53BFF6E0

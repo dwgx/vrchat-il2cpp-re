@@ -46,7 +46,7 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XDocument : XContainer
     {
-        public ÍÌÎÎÌÎÎÌÍÏÏÏÍÍÌÍÎ.ÎÌÍÍÎÌÏÏÍÏÍÏÏÌÍÌÍ Declaration; // 0x30
+        public rfaceNormalColorBlendingPower Declaration; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD544C0240 | overloaded x4
@@ -70,7 +70,7 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XHashtable`1 : Object
     {
-        public XHashtableState<T> _state;
+        public Size<T1717741312> _state;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970
@@ -80,7 +80,7 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XNode : XObject
     {
-        public System.Xml.Linq.XNode next; // 0x20
+        public EdgeMaskStrength next; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -95,7 +95,7 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XObject : Object
     {
-        public System.Xml.Linq.XContainer BaseUri; // 0x10
+        public ssAccumulateKId BaseUri; // 0x10
         public object NodeType; // 0x18
 
         // ── Methods ──

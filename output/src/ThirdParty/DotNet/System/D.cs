@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System
 {
     public class DBNull : Object
     {
-        public System.DBNull Value;
+        public NativeIoCompletionCallback Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A25460 | overloaded x2
@@ -66,9 +66,9 @@ namespace ThirdParty.DotNet.System
         public int DatePartDay;
         public int[] s_daysToMonth365;
         public int[] s_daysToMonth366; // 0x8
-        public System.DateTime MinValue; // 0x10
-        public System.DateTime MaxValue; // 0x18
-        public System.DateTime UnixEpoch; // 0x20
+        public DependencyInjector MinValue; // 0x10
+        public DependencyInjector MaxValue; // 0x18
+        public DependencyInjector UnixEpoch; // 0x20
         public ulong TicksMask;
         public ulong FlagsMask;
         public ulong LocalMask;
@@ -181,9 +181,9 @@ namespace ThirdParty.DotNet.System
 
     public class DateTimeFormat : Object
     {
-        public System.TimeSpan NullOffset;
+        public ializable.GetObjectData NullOffset;
         public char[] allStandardFormats; // 0x8
-        public System.Globalization.DateTimeFormatInfo InvariantFormatInfo; // 0x10
+        public 0.tOfUserTypes InvariantFormatInfo; // 0x10
         public string[] InvariantAbbreviatedMonthNames; // 0x18
         public string[] InvariantAbbreviatedDayNames; // 0x20
         public string[] fixedNumberFormats; // 0x28
@@ -225,10 +225,10 @@ namespace ThirdParty.DotNet.System
         public long UtcDateTime;
         public long LocalDateTime;
         public long ClockDateTime;
-        public System.DateTimeOffset Date;
-        public System.DateTimeOffset Day; // 0x10
-        public System.DateTimeOffset DayOfWeek; // 0x20
-        public System.DateTime DayOfYear; // 0x10
+        public ntent Date;
+        public ntent Day; // 0x10
+        public ntent DayOfWeek; // 0x20
+        public DependencyInjector DayOfYear; // 0x10
         public short Hour; // 0x18
 
         // ── Methods ──
@@ -306,11 +306,11 @@ namespace ThirdParty.DotNet.System
         public int High;
         public int Low;
         public int Mid;
-        public System.Decimal IsNegative;
-        public System.Decimal Scale; // 0x10
-        public System.Decimal Low64; // 0x20
-        public System.Decimal MaxValue; // 0x30
-        public System.Decimal MinValue; // 0x40
+        public ltiple IsNegative;
+        public ltiple Scale; // 0x10
+        public ltiple Low64; // 0x20
+        public ltiple MaxValue; // 0x30
+        public ltiple MinValue; // 0x40
         public int flags; // 0x10
         public int hi; // 0x14
         public int lo; // 0x18
@@ -401,7 +401,7 @@ namespace ThirdParty.DotNet.System
 
     public class DefaultBinder : Binder
     {
-        public 0x66422E08[] _primitiveConversions;
+        public mberToken[] _primitiveConversions;
 
         // ── Methods ──
         public void BindToMethod(){} // RVA: 0x7FFD53A8E6E0
@@ -442,9 +442,9 @@ namespace ThirdParty.DotNet.System
         public UIntPtr method_code; // 0x40
         public UIntPtr interp_method; // 0x48
         public UIntPtr interp_invoke_impl; // 0x50
-        public System.Reflection.MethodInfo method_info; // 0x58
-        public System.Reflection.MethodInfo original_method_info; // 0x60
-        public ` data; // 0x68
+        public m.jectMapInfo method_info; // 0x58
+        public m.jectMapInfo original_method_info; // 0x60
+        public mespace data; // 0x68
         public bool method_is_virtual; // 0x70
 
         // ── Methods ──

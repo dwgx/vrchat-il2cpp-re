@@ -7,11 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 {
     public class ITilemap : Object
     {
-        public UnityEngine.Tilemaps.ITilemap s_Instance;
-        public UnityEngine.Tilemaps.Tilemap m_Tilemap; // 0x10
+        public ÏÍÍÎÏÏÌÏÍ.? s_Instance;
+        public ÏÍÍÎÏÏÌÏÍ.ingField m_Tilemap; // 0x10
         public bool m_AddToList; // 0x18
         public int m_RefreshCount; // 0x1C
-        public Unity.Collections.NativeArray`1<UnityEngine.Vector3Int> m_RefreshPos; // 0x20
+        public ÍÎÏÎÎ.ÌÌ<lutionZ> m_RefreshPos; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -23,12 +23,12 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class Tile : TileBase
     {
-        public UnityEngine.Sprite sprite; // 0x18
-        public UnityEngine.Color color; // 0x20
-        public UnityEngine.Matrix4x4 transform; // 0x30
-        public UnityEngine.GameObject gameObject; // 0x70
-        public ÍÍÎÏÎÏÏ flags; // 0x78
-        public 0x6662EBB0 colliderType; // 0x7C
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField sprite; // 0x18
+        public object color; // 0x20
+        public tSizeBias transform; // 0x30
+        public BuffersImpl gameObject; // 0x70
+        public ÏÍÍÎÏÏÌÏÍ.unContinuationsAsynchronously flags; // 0x78
+        public object colliderType; // 0x7C
 
         // ── Methods ──
         public void get_sprite(){} // RVA: 0x7FFD50CC1130
@@ -49,10 +49,10 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class TileAnimationData : ValueType
     {
-        public UnityEngine.Sprite[] m_AnimatedSprites; // 0x10
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField[] m_AnimatedSprites; // 0x10
         public float m_AnimationSpeed; // 0x18
         public float m_AnimationStartTime; // 0x1C
-        public 0x6662EE70 m_Flags; // 0x20
+        public ÏÍÍÎÏÏÌÏÍ.yReserveCompletionIfCancelable m_Flags; // 0x20
     }
 
     public class TileBase : ScriptableObject
@@ -71,21 +71,21 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class TileChangeData : ValueType
     {
-        public UnityEngine.Vector3Int m_Position; // 0x10
-        public UnityEngine.Object m_TileAsset; // 0x20
-        public UnityEngine.Color m_Color; // 0x28
-        public UnityEngine.Matrix4x4 m_Transform; // 0x38
+        public lutionZ m_Position; // 0x10
+        public object m_TileAsset; // 0x20
+        public object m_Color; // 0x28
+        public tSizeBias m_Transform; // 0x38
     }
 
     public class TileData : ValueType
     {
         public int sprite; // 0x10
-        public UnityEngine.Color color; // 0x14
-        public UnityEngine.Matrix4x4 transform; // 0x24
+        public object color; // 0x14
+        public tSizeBias transform; // 0x24
         public int gameObject; // 0x64
-        public ÍÍÎÏÎÏÏ flags; // 0x68
-        public 0x6662EBB0 colliderType; // 0x6C
-        public UnityEngine.Tilemaps.TileData Default;
+        public ÏÍÍÎÏÏÌÏÍ.unContinuationsAsynchronously flags; // 0x68
+        public object colliderType; // 0x6C
+        public ÏÍÍÎÏÏÌÏÍ.acity Default;
 
         // ── Methods ──
         public void set_sprite(){} // RVA: 0x7FFD54E71A40
@@ -101,17 +101,17 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
     public class TileDataNative : ValueType
     {
         public int m_Sprite; // 0x10
-        public UnityEngine.Color m_Color; // 0x14
-        public UnityEngine.Matrix4x4 m_Transform; // 0x24
+        public object m_Color; // 0x14
+        public tSizeBias m_Transform; // 0x24
         public int m_GameObject; // 0x64
-        public ÍÍÎÏÎÏÏ m_Flags; // 0x68
-        public 0x6662EBB0 m_ColliderType; // 0x6C
+        public ÏÍÍÎÏÏÌÏÍ.unContinuationsAsynchronously m_Flags; // 0x68
+        public object m_ColliderType; // 0x6C
     }
 
     public class Tilemap : GridLayout
     {
-        public System.Action`2<UnityEngine.Tilemaps.Tilemap,SyncTile[]> bufferSyncTile;
-        public System.Action`2<UnityEngine.Tilemaps.Tilemap,Unity.Collections.NativeArray`1<UnityEngine.Vector3Int>> layoutGrid; // 0x8
+        public rectoryInformation<ÏÍÍÎÏÏÌÏÍ.ingField,inel[]> bufferSyncTile;
+        public rectoryInformation<ÏÍÍÎÏÏÌÏÍ.ingField,ÍÎÏÎÎ.ÌÌ<lutionZ>> layoutGrid; // 0x8
         public bool cellBounds; // 0x18
 
         // ── Methods ──

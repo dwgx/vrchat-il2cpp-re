@@ -5,7 +5,7 @@
 
 public class <>c__DisplayClass142_0 : Object
 {
-    public System.Func`2<0x664F8950,0x664F8950> beforeSend; // 0x10
+    public n<RGBA_ETC2_SRGB.?,RGBA_ETC2_SRGB.?> beforeSend; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -14,7 +14,7 @@ public class <>c__DisplayClass142_0 : Object
 
 public class <>c__DisplayClass147_0 : Object
 {
-    public System.Func`2<0x664F9C38,0x664F9C38> beforeSendTransaction; // 0x10
+    public n<RGBA_ETC2_SRGB.DiagnosticsMeters,RGBA_ETC2_SRGB.DiagnosticsMeters> beforeSendTransaction; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -23,8 +23,9 @@ public class <>c__DisplayClass147_0 : Object
 
 public class <>c__DisplayClass14_0 : Object
 {
-    public System.Action`1<VRC.Core.ApiUserPermissions> binder; // 0x10
-    public System.Action`1<string> <>4__this; // 0x18
+    public tBeBoolean.? binder;
+    public rnToTarget.splayClass8_1<T1717645376> <>4__this;
+    public tBeBoolean.rrectNumberOfArgumentsForMembers[] indexes;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -33,7 +34,7 @@ public class <>c__DisplayClass14_0 : Object
 
 public class <>c__DisplayClass14_0`1 : Object
 {
-    public System.Func`2<T,string> valueSelector;
+    public n<T1717646080,string> valueSelector;
     public string testValue;
 
     // ── Methods ──
@@ -44,9 +45,9 @@ public class <>c__DisplayClass14_0`1 : Object
 
 public class <>c__DisplayClass14_0`3 : Object
 {
-    public 0x66618CB8 logLevel;
-    public Microsoft.Extensions.Logging.EventId eventId;
-    public Microsoft.Extensions.Logging.LogValuesFormatter formatter;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject logLevel;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.et_LongDatePattern eventId;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 formatter;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -56,11 +57,6 @@ public class <>c__DisplayClass14_0`3 : Object
 
 public class <>c__DisplayClass151_0 : Object
 {
-    public VRC.Core.ApiWorldInstance <>4__this; // 0x10
-    public 0x664174C0 priority; // 0x18
-    public System.Action`1<VRC.Core.ApiContainer> onSuccess; // 0x20
-    public System.Action`1<VRC.Core.ApiContainer> onFailure; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <Get>g__asyncHelper|0(){} // RVA: 0x7FFD57321050
@@ -68,7 +64,7 @@ public class <>c__DisplayClass151_0 : Object
 
 public class <>c__DisplayClass152_0 : Object
 {
-    public System.Func`2<0x664F6640,0x664F6640> beforeBreadcrumb; // 0x10
+    public n<RGBA_ETC2_SRGB.<AnyAsync>d__1`1,RGBA_ETC2_SRGB.<AnyAsync>d__1`1> beforeBreadcrumb; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -77,7 +73,7 @@ public class <>c__DisplayClass152_0 : Object
 
 public class <>c__DisplayClass15_0 : Object
 {
-    public UnityEngine.UIElements.VisualTreeAsset asset;
+    public ÎÏÌÎÎÎÌÌÌ.nt asset;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -86,7 +82,7 @@ public class <>c__DisplayClass15_0 : Object
 
 public class <>c__DisplayClass15_1 : Object
 {
-    public UnityEngine.UIElements.VisualTreeAsset asset;
+    public ÎÏÌÎÎÎÌÌÌ.nt asset;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -95,10 +91,6 @@ public class <>c__DisplayClass15_1 : Object
 
 public class <>c__DisplayClass163_0 : Object
 {
-    public VRC.Core.ApiWorldInstance <>4__this; // 0x10
-    public System.Action`2<string,string> success; // 0x18
-    public System.Action`1<string> error; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <GetShortName>b__0(){} // RVA: 0x7FFD573215E0
@@ -107,12 +99,6 @@ public class <>c__DisplayClass163_0 : Object
 
 public class <>c__DisplayClass167_0 : Object
 {
-    public VRC.Core.ApiWorldInstance <>4__this; // 0x10
-    public 0x664174C0 priority; // 0x18
-    public bool weAreCertainTheAPICreatedItAlready; // 0x1C
-    public System.Action`1<VRC.Core.ApiWorldInstance> success; // 0x20
-    public System.Action`1<string> error; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <CreateOrFetch>g__asyncHelper|0(){} // RVA: 0x7FFD57321AA0
@@ -120,7 +106,7 @@ public class <>c__DisplayClass167_0 : Object
 
 public class <>c__DisplayClass16_0`1 : Object
 {
-    public System.Reflection.PropertyInfo propertyInfo;
+    public m.ber propertyInfo;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -129,9 +115,9 @@ public class <>c__DisplayClass16_0`1 : Object
 
 public class <>c__DisplayClass16_0`4 : Object
 {
-    public 0x66618CB8 logLevel;
-    public Microsoft.Extensions.Logging.EventId eventId;
-    public Microsoft.Extensions.Logging.LogValuesFormatter formatter;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject logLevel;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.et_LongDatePattern eventId;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 formatter;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -141,8 +127,8 @@ public class <>c__DisplayClass16_0`4 : Object
 
 public class <>c__DisplayClass170_0`1 : Object
 {
-    public System.Action`1<T> successCallback;
-    public System.Action`1<string> errorCallback;
+    public ileFullDirectoryInformation<T1717580640> successCallback;
+    public ileFullDirectoryInformation<string> errorCallback;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -152,10 +138,6 @@ public class <>c__DisplayClass170_0`1 : Object
 
 public class <>c__DisplayClass175_0 : Object
 {
-    public VRC.Core.ApiWorldInstance model; // 0x10
-    public System.Collections.Generic.Dictionary`2<string,Token> extraParameters; // 0x18
-    public 0x664174C0 priority; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <CreateOrFetchAsyncInternal>g__DoGET|0(){} // RVA: 0x7FFD573224B0
@@ -167,10 +149,6 @@ public class <>c__DisplayClass175_0 : Object
 
 public class <>c__DisplayClass175_1 : Object
 {
-    public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<VRC.Core.ApiWorldInstance> completion; // 0x10
-    public System.Func`2<VRC.Core.ApiContainer,System.Exception> exceptionFactory; // 0x18
-    public <>c__DisplayClass175_0 CS$<>8__locals1; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <CreateOrFetchAsyncInternal>b__8(){} // RVA: 0x7FFD573238A0
@@ -179,13 +157,13 @@ public class <>c__DisplayClass175_1 : Object
 
 public class <>c__DisplayClass17_0 : ValueType
 {
-    public System.Action`1<ZLogger.Providers.ZLoggerFileOptions> configure; // 0x10
+    public ileFullDirectoryInformation<?> configure; // 0x10
     public string filePath; // 0x18
 }
 
 public class <>c__DisplayClass17_0`1 : Object
 {
-    public System.Reflection.PropertyInfo propertyInfo;
+    public m.ber propertyInfo;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -194,7 +172,7 @@ public class <>c__DisplayClass17_0`1 : Object
 
 public class <>c__DisplayClass18_0`1 : Object
 {
-    public System.Action`1<T> callBack;
+    public ileFullDirectoryInformation<T1717587024> callBack;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -203,7 +181,7 @@ public class <>c__DisplayClass18_0`1 : Object
 
 public class <>c__DisplayClass18_0`2 : Object
 {
-    public System.Reflection.PropertyInfo propertyInfo;
+    public m.ber propertyInfo;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -212,9 +190,9 @@ public class <>c__DisplayClass18_0`2 : Object
 
 public class <>c__DisplayClass18_0`5 : Object
 {
-    public 0x66618CB8 logLevel;
-    public Microsoft.Extensions.Logging.EventId eventId;
-    public Microsoft.Extensions.Logging.LogValuesFormatter formatter;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject logLevel;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.et_LongDatePattern eventId;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 formatter;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -224,7 +202,7 @@ public class <>c__DisplayClass18_0`5 : Object
 
 public class <>c__DisplayClass19_0 : Object
 {
-    public UnityEngine.Material cacheLocation; // 0x10
+    public numeratorObject.erProxy`2 cacheLocation; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -233,16 +211,16 @@ public class <>c__DisplayClass19_0 : Object
 
 public class <>c__DisplayClass19_0`1 : Object
 {
-    public System.OperationCanceledException oce;
-    public System.Threading.Tasks.ParallelOptions parallelOptions;
-    public 0x66428450 sharedPStateFlags;
-    public 0x66428608 rangeManager;
+    public rSizeLimit oce;
+    public utes.FlashScreen parallelOptions;
+    public utes.KeyF34 sharedPStateFlags;
+    public utes.tColorPair rangeManager;
     public int forkJoinContextID;
-    public System.Action`2<int,System.Threading.Tasks.ParallelLoopState> bodyWithState;
-    public System.Func`4<int,System.Threading.Tasks.ParallelLoopState,T,T> bodyWithLocal;
-    public System.Func`1<T> localInit;
-    public System.Action`1<int> body;
-    public System.Action`1<T> localFinally;
+    public rectoryInformation<int,utes.Sleft> bodyWithState;
+    public rmation<int,utes.Sleft,T1717587376,T1717587376> bodyWithLocal;
+    public ormation<T1717587376> localInit;
+    public ileFullDirectoryInformation<int> body;
+    public ileFullDirectoryInformation<T1717587376> localFinally;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -252,7 +230,7 @@ public class <>c__DisplayClass19_0`1 : Object
 
 public class <>c__DisplayClass19_0`2 : Object
 {
-    public System.Reflection.PropertyInfo propertyInfo;
+    public m.ber propertyInfo;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -262,14 +240,12 @@ public class <>c__DisplayClass19_0`2 : Object
 public class <>c__DisplayClass19_1 : ValueType
 {
     public int slot; // 0x10
-    public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<int,Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite>> callSitesByIndex; // 0x18
+    public URA.woDigitYearMax<URA.mes<int,numeratorObject.NullAttribute>> callSitesByIndex; // 0x18
 }
 
 public class <>c__DisplayClass1_0 : Object
 {
-    public VRC.Core.RemoteConfig configure; // 0x10
-    public System.Action onFetched; // 0x18
-    public System.Action onError; // 0x20
+    public ileFullDirectoryInformation<ateHandlerOnDispose.tring> configure; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -279,7 +255,7 @@ public class <>c__DisplayClass1_0 : Object
 public class <>c__DisplayClass1_0`1 : Object
 {
     public int parameterCount;
-    public System.Reflection.ConstructorInfo constructor;
+    public m.nformation constructor;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -288,9 +264,9 @@ public class <>c__DisplayClass1_0`1 : Object
 
 public class <>c__DisplayClass1_0`2 : Object
 {
-    public System.Action`2<U,T> job;
-    public U param1;
-    public T param2;
+    public rectoryInformation<T1717579744,T1717579760> job;
+    public T1717579744 param1;
+    public T1717579760 param2;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -299,9 +275,6 @@ public class <>c__DisplayClass1_0`2 : Object
 
 public class <>c__DisplayClass202_0 : Object
 {
-    public System.Action`1<System.Collections.Generic.IEnumerable`1<VRC.Core.ApiWorld>> successCallback; // 0x10
-    public System.Action`1<string> errorCallback; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <FetchList>b__0(){} // RVA: 0x7FFD5731A350
@@ -310,9 +283,6 @@ public class <>c__DisplayClass202_0 : Object
 
 public class <>c__DisplayClass203_0 : Object
 {
-    public System.Action`1<0x66411B60> successCallback; // 0x10
-    public System.Action`1<string> errorCallback; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <FetchSearchResults>b__0(){} // RVA: 0x7FFD5731A500
@@ -321,8 +291,7 @@ public class <>c__DisplayClass203_0 : Object
 
 public class <>c__DisplayClass20_0 : Object
 {
-    public System.Type msgReceived; // 0x10
-    public System.Type loopRunnerType; // 0x18
+    public bool msgReceived; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -331,9 +300,9 @@ public class <>c__DisplayClass20_0 : Object
 
 public class <>c__DisplayClass20_0`6 : Object
 {
-    public 0x66618CB8 logLevel;
-    public Microsoft.Extensions.Logging.EventId eventId;
-    public Microsoft.Extensions.Logging.LogValuesFormatter formatter;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject logLevel;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.et_LongDatePattern eventId;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 formatter;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -343,8 +312,8 @@ public class <>c__DisplayClass20_0`6 : Object
 
 public class <>c__DisplayClass20`1 : Object
 {
-    public System.Text.StringBuilder buff;
-    public T[] array;
+    public em.MarkAborted.izeDefaultCase buff;
+    public T1717725104[] array;
     public string separator;
 
     // ── Methods ──
@@ -354,19 +323,6 @@ public class <>c__DisplayClass20`1 : Object
 
 public class <>c__DisplayClass212_0 : Object
 {
-    public VRC.Core.ApiWorld <>4__this; // 0x10
-    public string ownerId; // 0x18
-    public 0x66414FF8 access; // 0x20
-    public 0x66415260 region; // 0x24
-    public System.Collections.Generic.List`1<string> roleIds; // 0x28
-    public string groupAccessType; // 0x30
-    public bool queueEnabled; // 0x38
-    public bool ageGate; // 0x39
-    public string displayName; // 0x40
-    public string calendarEntryId; // 0x48
-    public System.Action`1<VRC.Core.ApiWorldInstance> onSuccess; // 0x50
-    public System.Action`1<string> onError; // 0x58
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <CreateNewInstance>g__asyncHelper|0(){} // RVA: 0x7FFD5731A750
@@ -374,9 +330,6 @@ public class <>c__DisplayClass212_0 : Object
 
 public class <>c__DisplayClass213_0 : Object
 {
-    public System.Action`1<System.Collections.Generic.IEnumerable`1<VRC.Core.ApiWorld>> successCallback; // 0x10
-    public System.Action`1<string> errorCallback; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <FetchUploadedWorlds>b__0(){} // RVA: 0x7FFD5731B220
@@ -385,9 +338,6 @@ public class <>c__DisplayClass213_0 : Object
 
 public class <>c__DisplayClass214_0 : Object
 {
-    public System.Action`1<VRC.Core.ApiModelContainer`1<VRC.Core.ApiWorld>> successCallback; // 0x10
-    public System.Action`1<string> errorCallback; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <PublishWorldToCommunityLabs>b__0(){} // RVA: 0x7FFD5731B2E0
@@ -396,7 +346,7 @@ public class <>c__DisplayClass214_0 : Object
 
 public class <>c__DisplayClass22_0`1 : Object
 {
-    public System.Reflection.MethodInfo methodInfo;
+    public m.jectMapInfo methodInfo;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -405,7 +355,7 @@ public class <>c__DisplayClass22_0`1 : Object
 
 public class <>c__DisplayClass23_0 : Object
 {
-    public System.Action`1<ZLogger.Formatters.PlainTextZLoggerFormatter> configure; // 0x10
+    public ileFullDirectoryInformation<?> configure; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -425,7 +375,7 @@ public class <>c__DisplayClass24_0 : Object
 
 public class <>c__DisplayClass24_0`2 : Object
 {
-    public System.Reflection.MethodInfo methodInfo;
+    public m.jectMapInfo methodInfo;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -434,11 +384,6 @@ public class <>c__DisplayClass24_0`2 : Object
 
 public class <>c__DisplayClass25_0 : Object
 {
-    public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputBinding> bindings; // 0x10
-    public int firstPartIndex; // 0x20
-    public string[] partStrings; // 0x28
-    public int partCount; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <GetBindingDisplayString>b__0(){} // RVA: 0x7FFD54958270
@@ -446,8 +391,8 @@ public class <>c__DisplayClass25_0 : Object
 
 public class <>c__DisplayClass25_0`1 : Object
 {
-    public T structure;
-    public System.Action`1<UIntPtr> action;
+    public T1717744832 structure;
+    public ileFullDirectoryInformation<UIntPtr> action;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -465,7 +410,7 @@ public class <>c__DisplayClass26_0 : Object
 
 public class <>c__DisplayClass26_0`2 : Object
 {
-    public System.Reflection.MethodInfo methodInfo;
+    public m.jectMapInfo methodInfo;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -474,7 +419,7 @@ public class <>c__DisplayClass26_0`2 : Object
 
 public class <>c__DisplayClass28_0 : Object
 {
-    public string value; // 0x10
+    public IsPerformanceMonitoringEnabled.eforeSendTransaction>b__0 value; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -483,7 +428,7 @@ public class <>c__DisplayClass28_0 : Object
 
 public class <>c__DisplayClass29_0 : Object
 {
-    public System.Func`1<object> untypedCreateObject;
+    public ormation<object> untypedCreateObject;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -492,7 +437,7 @@ public class <>c__DisplayClass29_0 : Object
 
 public class <>c__DisplayClass29_0`1 : Object
 {
-    public System.Action`1<Steamworks.Data.SteamRemotePlaySessionDisconnected_t> p; // 0x10
+    public ileFullDirectoryInformation<T1717724704> p;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -501,7 +446,7 @@ public class <>c__DisplayClass29_0`1 : Object
 
 public class <>c__DisplayClass29_1 : Object
 {
-    public System.Func`1<T> typedDelegate;
+    public ormation<T1717649744> typedDelegate;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -510,7 +455,8 @@ public class <>c__DisplayClass29_1 : Object
 
 public class <>c__DisplayClass2_0 : Object
 {
-    public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<VRC.Core.ApiWorldInstance> options; // 0x10
+    public RGBA_ETC2_SRGB.ionAsync>d__5`3 options; // 0x10
+    public RGBA_ETC2_SRGB.`2 hub; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -520,7 +466,7 @@ public class <>c__DisplayClass2_0 : Object
 public class <>c__DisplayClass2_0`1 : Object
 {
     public int parameterCount;
-    public System.Reflection.ConstructorInfo constructor;
+    public m.nformation constructor;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -529,7 +475,7 @@ public class <>c__DisplayClass2_0`1 : Object
 
 public class <>c__DisplayClass2_0`2 : Object
 {
-    public Microsoft.Extensions.Logging.LogValuesFormatter formatter;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 formatter;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -538,10 +484,10 @@ public class <>c__DisplayClass2_0`2 : Object
 
 public class <>c__DisplayClass2_0`3 : Object
 {
-    public System.Action`3<U,V,T> job;
-    public U param1;
-    public V param2;
-    public T param3;
+    public formation<T1717579776,T1717579792,T1717579808> job;
+    public T1717579776 param1;
+    public T1717579792 param2;
+    public T1717579808 param3;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -551,7 +497,7 @@ public class <>c__DisplayClass2_0`3 : Object
 public class <>c__DisplayClass2_0`5 : Object
 {
     public int parameterCount;
-    public System.Reflection.ConstructorInfo constructor;
+    public m.nformation constructor;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -560,8 +506,8 @@ public class <>c__DisplayClass2_0`5 : Object
 
 public class <>c__DisplayClass2_1 : Object
 {
-    public UnityEngine.Terrain t; // 0x10
-    public <>c__DisplayClass2_0 CS$<>8__locals1; // 0x18
+    public ÎÍÏÎÎÎÍÎ t; // 0x10
+    public censeHolderDisplayName CS$<>8__locals1; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -571,7 +517,7 @@ public class <>c__DisplayClass2_1 : Object
 public class <>c__DisplayClass30_0 : Object
 {
     public long emptyPacketThresholdMicrosecond;
-    public System.EventHandler`1<OutputEventArgs<T>> callback;
+    public tTable<ensorMapping<T1717692512>> callback;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -580,9 +526,7 @@ public class <>c__DisplayClass30_0 : Object
 
 public class <>c__DisplayClass31_0`1 : Object
 {
-    public System.Action`1<VRC.Core.ApiContainer> methodInfo; // 0x10
-    public System.Action`1<VRC.Core.ApiContainer> onSuccess; // 0x18
-    public VRC.Core.APIUser model; // 0x20
+    public m.jectMapInfo methodInfo;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -592,7 +536,7 @@ public class <>c__DisplayClass31_0`1 : Object
 
 public class <>c__DisplayClass32_0 : Object
 {
-    public VRC.Localization.LocalizationAssetSource value; // 0x10
+    public object value; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -601,7 +545,7 @@ public class <>c__DisplayClass32_0 : Object
 
 public class <>c__DisplayClass32_0`1 : Object
 {
-    public System.Threading.Tasks.TaskCompletionSource`1<System.ValueTuple`2<VRC.Core.ApiWorld,VRC.Core.ApiContainer>> parser; // 0x10
+    public gBox.itionBlend<T1717700000> parser;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -611,7 +555,7 @@ public class <>c__DisplayClass32_0`1 : Object
 
 public class <>c__DisplayClass32_0`2 : Object
 {
-    public System.Reflection.MethodInfo methodInfo;
+    public m.jectMapInfo methodInfo;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -633,7 +577,7 @@ public class <>c__DisplayClass33_0 : Object
 
 public class <>c__DisplayClass33_0`1 : Object
 {
-    public System.Threading.Tasks.TaskCompletionSource`1<System.ValueTuple`2<T,VRC.Core.ApiContainer>> completionSource;
+    public utes.s<8BCA7B5CC287C51E0E3E<T1717580400,ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.InSlot>b__0>> completionSource;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -642,12 +586,12 @@ public class <>c__DisplayClass33_0`1 : Object
 
 public class <>c__DisplayClass33_0`2 : Object
 {
-    public System.Action`1<U> body;
-    public System.Collections.Generic.IList`1<U> list;
-    public System.Action`2<U,System.Threading.Tasks.ParallelLoopState> bodyWithState;
-    public System.Action`3<U,System.Threading.Tasks.ParallelLoopState,long> bodyWithStateAndIndex;
-    public System.Func`4<U,System.Threading.Tasks.ParallelLoopState,T,T> bodyWithStateAndLocal;
-    public System.Func`5<U,System.Threading.Tasks.ParallelLoopState,long,T,T> bodyWithEverything;
+    public ileFullDirectoryInformation<T1717587424> body;
+    public URA.?<T1717587424> list;
+    public rectoryInformation<T1717587424,utes.Sleft> bodyWithState;
+    public formation<T1717587424,utes.Sleft,long> bodyWithStateAndIndex;
+    public rmation<T1717587424,utes.Sleft,T1717587440,T1717587440> bodyWithStateAndLocal;
+    public ?<T1717587424,utes.Sleft,long,T1717587440,T1717587440> bodyWithEverything;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -660,8 +604,8 @@ public class <>c__DisplayClass33_0`2 : Object
 
 public class <>c__DisplayClass34_0 : Object
 {
-    public bool found; // 0x10
-    public ÏÌÎÍÎÌÎÍÎÎÏÌÎÍÎÌÌÍÏÎÎÎÏ value; // 0x18
+    public bool found;
+    public T1717598016 value;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -670,7 +614,7 @@ public class <>c__DisplayClass34_0 : Object
 
 public class <>c__DisplayClass34_0`1 : Object
 {
-    public System.Collections.Generic.IEqualityComparer`1<T> comparer;
+    public URA.hEraNames<T1717601536> comparer;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -678,8 +622,8 @@ public class <>c__DisplayClass34_0`1 : Object
 
 public class <>c__DisplayClass34_1 : Object
 {
-    public System.Collections.Generic.EqualityComparer`1<ÏÌÎÍÎÌÎÍÎÎÏÌÎÍÎÌÌÍÏÎÎÎÏ> valueComparer; // 0x10
-    public <>c__DisplayClass34_0<0x664CA170,ÏÌÎÍÎÌÎÍÎÎÏÌÎÍÎÌÌÍÏÎÎÎÏ> CS$<>8__locals1; // 0x18
+    public URA.t_CurrencyDecimalDigits<T1717598048> valueComparer;
+    public __BackingField<T1717598032,T1717598048> CS$<>8__locals1;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -688,8 +632,8 @@ public class <>c__DisplayClass34_1 : Object
 
 public class <>c__DisplayClass34_1`1 : Object
 {
-    public T secondValue;
-    public <>c__DisplayClass34_0`1<T> CS$<>8__locals1;
+    public T1717601552 secondValue;
+    public EnableIMECompositionCommand<T1717601552> CS$<>8__locals1;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -698,7 +642,7 @@ public class <>c__DisplayClass34_1`1 : Object
 
 public class <>c__DisplayClass358_0 : Object
 {
-    public Sentry.Extensibility.ISentryEventExceptionProcessor processor; // 0x10
+    public ntract processor; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -707,9 +651,9 @@ public class <>c__DisplayClass358_0 : Object
 
 public class <>c__DisplayClass35_0 : Object
 {
-    public System.Func`2<System.IAsyncResult,0x66499EC0[]> endFunction; // 0x10
-    public System.Action`1<System.IAsyncResult> endAction; // 0x18
-    public System.Threading.Tasks.Task`1<0x66499EC0[]> promise; // 0x20
+    public n<cess,T1717587856> endFunction;
+    public ileFullDirectoryInformation<cess> endAction;
+    public utes.?<T1717587856> promise;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -718,7 +662,7 @@ public class <>c__DisplayClass35_0 : Object
 
 public class <>c__DisplayClass360_0 : Object
 {
-    public Sentry.Extensibility.ISentryEventProcessor processor; // 0x10
+    public qualityContract processor; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -727,8 +671,8 @@ public class <>c__DisplayClass360_0 : Object
 
 public class <>c__DisplayClass373_0 : Object
 {
-    public Sentry.IHasTags hasTags; // 0x10
-    public System.Func`2<System.Collections.Generic.KeyValuePair`2<string,string>,bool> <>9__0; // 0x18
+    public RGBA_ETC2_SRGB.pty hasTags; // 0x10
+    public n<URA.mes<string,string>,bool> <>9__0; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -737,7 +681,7 @@ public class <>c__DisplayClass373_0 : Object
 
 public class <>c__DisplayClass37_0 : Object
 {
-    public VRC.Dynamics.VRCPhysBoneBase comp; // 0x10
+    public ÍÏÎÎÌÍÍ.T_CAPACITY comp; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -746,7 +690,7 @@ public class <>c__DisplayClass37_0 : Object
 
 public class <>c__DisplayClass38_0 : Object
 {
-    public VRC.Dynamics.VRCPhysBoneBase comp; // 0x10
+    public ÍÏÎÎÌÍÍ.T_CAPACITY comp; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -755,9 +699,9 @@ public class <>c__DisplayClass38_0 : Object
 
 public class <>c__DisplayClass38_0`1 : Object
 {
-    public System.Func`2<System.IAsyncResult,0x66499EC0[]> endFunction; // 0x10
-    public System.Action`1<System.IAsyncResult> endAction; // 0x18
-    public System.Threading.Tasks.Task`1<0x66499EC0[]> promise; // 0x20
+    public n<cess,T1717587872> endFunction;
+    public ileFullDirectoryInformation<cess> endAction;
+    public utes.?<T1717587872> promise;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -766,7 +710,7 @@ public class <>c__DisplayClass38_0`1 : Object
 
 public class <>c__DisplayClass39_0 : Object
 {
-    public Google.Protobuf.ValueReader`1<T> reader;
+    public gBox.AngularDamping<T1717700112> reader;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -775,7 +719,8 @@ public class <>c__DisplayClass39_0 : Object
 
 public class <>c__DisplayClass3_0 : Object
 {
-    public System.Type expression; // 0x10
+    public string expression; // 0x10
+    public Inherited.? options; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -784,9 +729,8 @@ public class <>c__DisplayClass3_0 : Object
 
 public class <>c__DisplayClass3_0`1 : Object
 {
-    public System.Func`3<string,Microsoft.Extensions.Options.IOptionsFactory`1<Microsoft.Extensions.Logging.LoggerFilterOptions>,Microsoft.Extensions.Logging.LoggerFilterOptions> callback; // 0x10
-    public string state; // 0x18
-    public Microsoft.Extensions.Options.IOptionsFactory`1<Microsoft.Extensions.Logging.LoggerFilterOptions> localFactoryArgument; // 0x20
+    public rectoryInformation<object,T1717743600> callback;
+    public T1717743600 state;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -795,7 +739,7 @@ public class <>c__DisplayClass3_0`1 : Object
 
 public class <>c__DisplayClass3_0`3 : Object
 {
-    public Microsoft.Extensions.Logging.LogValuesFormatter formatter;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 formatter;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -805,7 +749,7 @@ public class <>c__DisplayClass3_0`3 : Object
 public class <>c__DisplayClass3_0`5 : Object
 {
     public int parameterCount;
-    public System.Reflection.ConstructorInfo constructor;
+    public m.nformation constructor;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -814,8 +758,8 @@ public class <>c__DisplayClass3_0`5 : Object
 
 public class <>c__DisplayClass3_1`1 : Object
 {
-    public System.ValueTuple`2<System.Func`3<string,Microsoft.Extensions.Options.IOptionsFactory`1<Microsoft.Extensions.Logging.LoggerFilterOptions>,Microsoft.Extensions.Logging.LoggerFilterOptions>,Microsoft.Extensions.Options.IOptionsFactory`1<Microsoft.Extensions.Logging.LoggerFilterOptions>> arg; // 0x10
-    public string name; // 0x20
+    public 8BCA7B5CC287C51E0E3E<nalInformation<string,T1717744240,T1717744224>,T1717744240> arg;
+    public string name;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -824,8 +768,6 @@ public class <>c__DisplayClass3_1`1 : Object
 
 public class <>c__DisplayClass40_0 : Object
 {
-    public 0x665B0880 triggerType; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <ExecuteTriggerType>b__0(){} // RVA: 0x7FFD5748BE90
@@ -833,8 +775,6 @@ public class <>c__DisplayClass40_0 : Object
 
 public class <>c__DisplayClass41_0 : Object
 {
-    public string name; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <ExecuteCustomTrigger>b__0(){} // RVA: 0x7FFD5748BEB0
@@ -842,9 +782,9 @@ public class <>c__DisplayClass41_0 : Object
 
 public class <>c__DisplayClass41_0`2 : Object
 {
-    public System.Func`2<System.IAsyncResult,U> endFunction;
-    public System.Action`1<System.IAsyncResult> endAction;
-    public System.Threading.Tasks.Task`1<U> promise;
+    public n<cess,T1717587904> endFunction;
+    public ileFullDirectoryInformation<cess> endAction;
+    public utes.?<T1717587904> promise;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -853,10 +793,7 @@ public class <>c__DisplayClass41_0`2 : Object
 
 public class <>c__DisplayClass42_0 : Object
 {
-    public VRC.Core.FavoriteArea namingStrategy; // 0x10
-    public System.Action OnListCompleteSuccess; // 0x18
-    public System.Action OnSuccess; // 0x20
-    public System.Action`1<string> OnFailure; // 0x28
+    public eckAdditionalContent.eference namingStrategy; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -865,13 +802,6 @@ public class <>c__DisplayClass42_0 : Object
 
 public class <>c__DisplayClass44_0 : Object
 {
-    public bool sorted; // 0x10
-    public VRC.Core.ApiModelListContainer`1<VRC.Core.FavoriteListModel> container; // 0x18
-    public VRC.Core.FavoriteArea <>4__this; // 0x20
-    public string groupType; // 0x28
-    public System.Action`1<System.Collections.Generic.IReadOnlyList`1<VRC.Core.FavoriteListModel>> OnSuccess; // 0x30
-    public System.Action`1<string> OnFailure; // 0x38
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <FetchLists>b__0(){} // RVA: 0x7FFD57330380
@@ -880,20 +810,20 @@ public class <>c__DisplayClass44_0 : Object
 
 public class <>c__DisplayClass44_0`2 : Object
 {
-    public System.OperationCanceledException oce; // 0x10
-    public System.Threading.Tasks.ParallelOptions parallelOptions; // 0x18
-    public System.Threading.Tasks.ParallelLoopStateFlags64 sharedPStateFlags; // 0x20
-    public int forkJoinContextID; // 0x28
-    public System.Action`2<System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>,System.Threading.Tasks.ParallelLoopState> bodyWithState; // 0x30
-    public System.Action`3<System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>,System.Threading.Tasks.ParallelLoopState,long> bodyWithStateAndIndex; // 0x38
-    public System.Func`4<System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>,System.Threading.Tasks.ParallelLoopState,object,object> bodyWithStateAndLocal; // 0x40
-    public System.Func`5<System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>,System.Threading.Tasks.ParallelLoopState,long,object,object> bodyWithEverything; // 0x48
-    public System.Func`1<object> localInit; // 0x50
-    public System.Collections.Concurrent.OrderablePartitioner`1<System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>> orderedSource; // 0x58
-    public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<long,System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>>> orderablePartitionerSource; // 0x60
-    public System.Action`1<System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>> simpleBody; // 0x68
-    public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>> partitionerSource; // 0x70
-    public System.Action`1<object> localFinally; // 0x78
+    public rSizeLimit oce;
+    public utes.FlashScreen parallelOptions;
+    public utes.1 sharedPStateFlags;
+    public int forkJoinContextID;
+    public rectoryInformation<T1717587456,utes.Sleft> bodyWithState;
+    public formation<T1717587456,utes.Sleft,long> bodyWithStateAndIndex;
+    public rmation<T1717587456,utes.Sleft,T1717587472,T1717587472> bodyWithStateAndLocal;
+    public ?<T1717587456,utes.Sleft,long,T1717587472,T1717587472> bodyWithEverything;
+    public ormation<T1717587472> localInit;
+    public JapaneseLangName.al<T1717587456> orderedSource;
+    public URA.bbrevEraNames<URA.mes<long,T1717587456>> orderablePartitionerSource;
+    public ileFullDirectoryInformation<T1717587456> simpleBody;
+    public URA.bbrevEraNames<T1717587456> partitionerSource;
+    public ileFullDirectoryInformation<T1717587472> localFinally;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -903,9 +833,9 @@ public class <>c__DisplayClass44_0`2 : Object
 
 public class <>c__DisplayClass44_0`3 : Object
 {
-    public System.Func`2<System.IAsyncResult,U> endFunction;
-    public System.Action`1<System.IAsyncResult> endAction;
-    public System.Threading.Tasks.Task`1<U> promise;
+    public n<cess,T1717587952> endFunction;
+    public ileFullDirectoryInformation<cess> endAction;
+    public utes.?<T1717587952> promise;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -914,8 +844,8 @@ public class <>c__DisplayClass44_0`3 : Object
 
 public class <>c__DisplayClass45_0 : Object
 {
-    public VRC.Core.FavoriteListModel <>4__this; // 0x10
-    public System.Action`1<VRC.Core.ApiContainer> onSuccess; // 0x18
+    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ction <>4__this; // 0x10
+    public ileFullDirectoryInformation<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.InSlot>b__0> onSuccess; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -923,10 +853,10 @@ public class <>c__DisplayClass45_0 : Object
 
 public class <>c__DisplayClass45_1 : Object
 {
-    public System.Action`2<object,object> setExtensionDataDictionary; // 0x10
-    public System.Func`1<object> createExtensionDataDictionary; // 0x18
-    public Newtonsoft.Json.Utilities.MethodCall`2<object,object> setExtensionDataDictionaryValue; // 0x20
-    public <>c__DisplayClass45_0 CS$<>8__locals1; // 0x28
+    public rectoryInformation<object,object> setExtensionDataDictionary; // 0x10
+    public ormation<object> createExtensionDataDictionary; // 0x18
+    public rnToTarget.?<object,object> setExtensionDataDictionaryValue; // 0x20
+    public ssionTimeoutMS CS$<>8__locals1; // 0x28
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -935,8 +865,8 @@ public class <>c__DisplayClass45_1 : Object
 
 public class <>c__DisplayClass45_2 : Object
 {
-    public Newtonsoft.Json.Serialization.ObjectConstructor`1<object> createEnumerableWrapper; // 0x10
-    public <>c__DisplayClass45_0 CS$<>8__locals2; // 0x18
+    public eckAdditionalContent.ray<object> createEnumerableWrapper; // 0x10
+    public ssionTimeoutMS CS$<>8__locals2; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -945,8 +875,8 @@ public class <>c__DisplayClass45_2 : Object
 
 public class <>c__DisplayClass47_0 : ValueType
 {
-    public Cinemachine.CinemachineFreeLook <>4__this; // 0x10
-    public UnityEngine.Vector3 cameraOffset; // 0x18
+    public EXTERNAL_INDEX_REF_SIG.text <>4__this; // 0x10
+    public amut cameraOffset; // 0x18
 }
 
 public class <>c__DisplayClass47_1 : ValueType
@@ -957,9 +887,6 @@ public class <>c__DisplayClass47_1 : ValueType
 
 public class <>c__DisplayClass492_0 : Object
 {
-    public UnityEngine.UIElements.VisualElement <>4__this; // 0x10
-    public 0x6648A6E8 to; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void <UnityEngine.UIElements.Experimental.ITransitionAnimations.Start>b__0(){} // RVA: 0x7FFD55015690
@@ -967,8 +894,8 @@ public class <>c__DisplayClass492_0 : Object
 
 public class <>c__DisplayClass4_0 : Object
 {
-    public System.Action`1<string[]> factory; // 0x10
-    public System.Action`2<int,string> serviceKey; // 0x18
+    public nalInformation<ForLatin1,object,object> factory; // 0x10
+    public object serviceKey; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -977,7 +904,7 @@ public class <>c__DisplayClass4_0 : Object
 
 public class <>c__DisplayClass4_0`1 : Object
 {
-    public System.Reflection.MethodInfo addMethod;
+    public m.jectMapInfo addMethod;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -987,7 +914,7 @@ public class <>c__DisplayClass4_0`1 : Object
 
 public class <>c__DisplayClass4_0`4 : Object
 {
-    public Microsoft.Extensions.Logging.LogValuesFormatter formatter;
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 formatter;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -996,7 +923,7 @@ public class <>c__DisplayClass4_0`4 : Object
 
 public class <>c__DisplayClass4_1`1 : Object
 {
-    public T value;
+    public T1717699248 value;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -1006,7 +933,7 @@ public class <>c__DisplayClass4_1`1 : Object
 public class <>c__DisplayClass4`1 : Object
 {
     public bool timeout;
-    public System.IO.Stream stream;
+    public Inherited.? stream;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -1015,14 +942,14 @@ public class <>c__DisplayClass4`1 : Object
 
 public class <>c__DisplayClass51_0 : Object
 {
-    public VRC.Core.ApiModelListContainer`1<0x66416700> container; // 0x10
-    public System.Collections.Generic.List`1<0x66416700> batch; // 0x18
+    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.adingScreen<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.capacity> container; // 0x10
+    public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.capacity> batch; // 0x18
     public int n; // 0x20
     public int offset; // 0x24
-    public VRC.Core.FavoriteListModel <>4__this; // 0x28
-    public System.Collections.Generic.Dictionary`2<string,Token> requestParams; // 0x30
-    public System.Action OnSuccess; // 0x38
-    public System.Action`1<string> OnFailure; // 0x40
+    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ction <>4__this; // 0x28
+    public URA.DateTime<string,_TA_ECDSA_SHA_1> requestParams; // 0x30
+    public ÎÌÍÏÏÌÍÏ OnSuccess; // 0x38
+    public ileFullDirectoryInformation<string> OnFailure; // 0x40
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1032,9 +959,9 @@ public class <>c__DisplayClass51_0 : Object
 
 public class <>c__DisplayClass52_0 : Object
 {
-    public int <>4__this; // 0x10
-    public int OnSuccess; // 0x14
-    public Transmtn.DTO.Notifications.Notification[] onFailure; // 0x18
+    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ction <>4__this; // 0x10
+    public ÎÌÍÏÏÌÍÏ OnSuccess; // 0x18
+    public ileFullDirectoryInformation<string> onFailure; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -1043,8 +970,7 @@ public class <>c__DisplayClass52_0 : Object
 
 public class <>c__DisplayClass53_0 : Object
 {
-    public int collider; // 0x10
-    public object[] objects; // 0x18
+    public ÍÏÎÎÌÍÍ.ns collider; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980

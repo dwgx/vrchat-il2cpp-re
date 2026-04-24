@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class DefaultEventSystem : Object
     {
-        public System.Func`1<bool> isAppFocused;
-        public 0x6647A3B8 input; // 0x10
+        public ormation<bool> isAppFocused;
+        public Field input; // 0x10
         public string focusedPanel; // 0x18
         public string m_VerticalAxis; // 0x20
         public string m_SubmitButton; // 0x28
@@ -17,18 +17,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
         public float m_RepeatDelay; // 0x3C
         public bool m_SendingTouchEvents; // 0x40
         public bool m_SendingPenEvent; // 0x41
-        public UnityEngine.Event m_Event; // 0x48
-        public 0x664803F8 m_FocusedPanel; // 0x50
-        public 0x664803F8 m_PreviousFocusedPanel; // 0x58
-        public UnityEngine.UIElements.Focusable m_PreviousFocusedElement; // 0x60
-        public 0x665DF588 m_CurrentModifiers; // 0x68
+        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE m_Event; // 0x48
+        public ÎÏÌÎÎÎÌÌÌ.ent m_FocusedPanel; // 0x50
+        public ÎÏÌÎÎÎÌÌÌ.ent m_PreviousFocusedPanel; // 0x58
+        public ÎÏÌÎÎÎÌÌÌ.ragLineAnchorHorizontalClassName m_PreviousFocusedElement; // 0x60
+        public illingServiceDisconnected m_CurrentModifiers; // 0x68
         public int m_LastMousePressButton; // 0x6C
         public float m_NextMousePressTime; // 0x70
         public int m_LastMouseClickCount; // 0x74
-        public UnityEngine.Vector2 m_LastMousePosition; // 0x78
+        public tionX m_LastMousePosition; // 0x78
         public bool m_MouseProcessedAtLeastOnce; // 0x80
         public int m_ConsecutiveMoveCount; // 0x84
-        public UnityEngine.Vector2 m_LastMoveVector; // 0x88
+        public tionX m_LastMoveVector; // 0x88
         public float m_PrevActionTime; // 0x90
         public bool m_IsMoveFromKeyboard; // 0x94
 
@@ -61,7 +61,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultMultiColumnTreeViewController`1 : MultiColumnTreeViewController
     {
-        public UnityEngine.UIElements.TreeDataController`1<T> treeDataController;
+        public ÎÏÌÎÎÎÌÌÌ.ÎÌÏÍÏÌÏÍÎÍÍÍ<T1717594240> treeDataController;
 
         // ── Methods ──
         public void get_treeDataController(){} // RVA: 0x7FFD4E078E90
@@ -80,7 +80,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultTreeViewController`1 : TreeViewController
     {
-        public UnityEngine.UIElements.TreeDataController`1<T> treeDataController;
+        public ÎÏÌÎÎÎÌÌÌ.ÎÌÏÍÏÌÏÍÎÍÍÍ<T1717594256> treeDataController;
 
         // ── Methods ──
         public void get_treeDataController(){} // RVA: 0x7FFD4E078E90
@@ -100,25 +100,25 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
     public class DynamicHeightVirtualizationController`1 : VerticalVirtualizationController`1
     {
         public int defaultExpectedHeight;
-        public System.Collections.Generic.Dictionary`2<int,float> contentPadding;
-        public System.Collections.Generic.Dictionary`2<int,ContentHeightCacheInfo<T>> contentHeight;
-        public System.Collections.Generic.HashSet`1<int> anchoredIndex;
+        public URA.DateTime<int,float> contentPadding;
+        public URA.DateTime<int,ÎÎÍÍÍÍ<T1717594368>> contentHeight;
+        public URA.onsDepth<int> anchoredIndex;
         public int anchorOffset;
         public int viewportMaxOffset;
         public bool alwaysRebindOnRefresh;
-        public 0x66474BB8<T> m_LastChange;
-        public 0x66474C10<T> m_ScrollDirection;
-        public UnityEngine.Vector2 m_DelayedScrollOffset;
+        public ÌÏÍÏÌÍÎÌÌÍÌÎÍÏÎÎ<T1717594368> m_LastChange;
+        public ÌÍÌÌÎÍÍÌÎÎÏÏÏÎÎÌÌÎ<T1717594368> m_ScrollDirection;
+        public tionX m_DelayedScrollOffset;
         public float m_AccumulatedHeight;
         public float m_MinimumItemHeight;
-        public System.Action m_FillCallback;
-        public System.Action m_ScrollCallback;
-        public System.Action m_ScrollResetCallback;
-        public System.Action`1<0x66474D18> m_GeometryChangedCallback;
-        public 0x66486E30 m_ScheduledItem;
-        public 0x66486E30 m_ScrollScheduledItem;
-        public 0x66486E30 m_ScrollResetScheduledItem;
-        public System.Predicate`1<int> m_IndexOutOfBoundsPredicate;
+        public ÎÌÍÏÏÌÍÏ m_FillCallback;
+        public ÎÌÍÏÏÌÍÏ m_ScrollCallback;
+        public ÎÌÍÏÏÌÍÏ m_ScrollResetCallback;
+        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.ÎÍÏÌÏÎÏÏÍÏÎÎÍÏÌÍÍÍÎ> m_GeometryChangedCallback;
+        public ÎÏÌÎÎÎÌÌÌ.dFloat m_ScheduledItem;
+        public ÎÏÌÎÎÎÌÌÌ.dFloat m_ScrollScheduledItem;
+        public ÎÏÌÎÎÎÌÌÌ.dFloat m_ScrollResetScheduledItem;
+        public rmation<int> m_IndexOutOfBoundsPredicate;
 
         // ── Methods ──
         public void get_defaultExpectedHeight(){} // RVA: 0x7FFD4E08D880

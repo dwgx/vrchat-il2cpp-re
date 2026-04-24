@@ -14,7 +14,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class AxisControl : InputControl`1
     {
-        public 0x664B0390 clamp; // 0x108
+        public e clamp; // 0x108
         public float clampMin; // 0x10C
         public float clampMax; // 0x110
         public float clampConstant; // 0x114
@@ -65,10 +65,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class DeltaControl : Vector2Control
     {
-        public UnityEngine.InputSystem.Controls.AxisControl up; // 0x120
-        public UnityEngine.InputSystem.Controls.AxisControl down; // 0x128
-        public UnityEngine.InputSystem.Controls.AxisControl left; // 0x130
-        public UnityEngine.InputSystem.Controls.AxisControl right; // 0x138
+        public _1.Index up; // 0x120
+        public _1.Index down; // 0x128
+        public _1.Index left; // 0x130
+        public _1.Index right; // 0x138
 
         // ── Methods ──
         public void get_up(){} // RVA: 0x7FFD4E55CBB0
@@ -89,7 +89,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
         public int maxValue; // 0x14C
         public int wrapAtValue; // 0x150
         public int nullValue; // 0x154
-        public 0x664B04F0 writeMode; // 0x158
+        public object writeMode; // 0x158
 
         // ── Methods ──
         public void FinishSetup(){} // RVA: 0x7FFD5497C090
@@ -108,10 +108,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class DpadControl : Vector2Control
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl up; // 0x120
-        public UnityEngine.InputSystem.Controls.ButtonControl down; // 0x128
-        public UnityEngine.InputSystem.Controls.ButtonControl left; // 0x130
-        public UnityEngine.InputSystem.Controls.ButtonControl right; // 0x138
+        public _1.ceControlChangedValue up; // 0x120
+        public _1.ceControlChangedValue down; // 0x128
+        public _1.ceControlChangedValue left; // 0x130
+        public _1.ceControlChangedValue right; // 0x138
 
         // ── Methods ──
         public void get_up(){} // RVA: 0x7FFD4E55CBB0
@@ -140,7 +140,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class KeyControl : ButtonControl
     {
-        public 0x664A7B70 keyCode; // 0x148
+        public ilAddress.? keyCode; // 0x148
         public int scanCode; // 0x14C
 
         // ── Methods ──
@@ -153,10 +153,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class QuaternionControl : InputControl`1
     {
-        public UnityEngine.InputSystem.Controls.AxisControl x; // 0x120
-        public UnityEngine.InputSystem.Controls.AxisControl y; // 0x128
-        public UnityEngine.InputSystem.Controls.AxisControl z; // 0x130
-        public UnityEngine.InputSystem.Controls.AxisControl w; // 0x138
+        public _1.Index x; // 0x120
+        public _1.Index y; // 0x128
+        public _1.Index z; // 0x130
+        public _1.Index w; // 0x138
 
         // ── Methods ──
         public void get_x(){} // RVA: 0x7FFD4E55CBB0
@@ -176,10 +176,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class StickControl : Vector2Control
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl up; // 0x120
-        public UnityEngine.InputSystem.Controls.ButtonControl down; // 0x128
-        public UnityEngine.InputSystem.Controls.ButtonControl left; // 0x130
-        public UnityEngine.InputSystem.Controls.ButtonControl right; // 0x138
+        public _1.ceControlChangedValue up; // 0x120
+        public _1.ceControlChangedValue down; // 0x128
+        public _1.ceControlChangedValue left; // 0x130
+        public _1.ceControlChangedValue right; // 0x138
 
         // ── Methods ──
         public void get_up(){} // RVA: 0x7FFD4E55CBB0
@@ -196,19 +196,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class TouchControl : InputControl`1
     {
-        public UnityEngine.InputSystem.Controls.TouchPressControl press; // 0x170
-        public UnityEngine.InputSystem.Controls.IntegerControl displayIndex; // 0x178
-        public UnityEngine.InputSystem.Controls.IntegerControl touchId; // 0x180
-        public UnityEngine.InputSystem.Controls.Vector2Control position; // 0x188
-        public UnityEngine.InputSystem.Controls.DeltaControl delta; // 0x190
-        public UnityEngine.InputSystem.Controls.AxisControl pressure; // 0x198
-        public UnityEngine.InputSystem.Controls.Vector2Control radius; // 0x1A0
-        public UnityEngine.InputSystem.Controls.TouchPhaseControl phase; // 0x1A8
-        public UnityEngine.InputSystem.Controls.ButtonControl indirectTouch; // 0x1B0
-        public UnityEngine.InputSystem.Controls.ButtonControl tap; // 0x1B8
-        public UnityEngine.InputSystem.Controls.IntegerControl tapCount; // 0x1C0
-        public UnityEngine.InputSystem.Controls.DoubleControl startTime; // 0x1C8
-        public UnityEngine.InputSystem.Controls.Vector2Control startPosition; // 0x1D0
+        public _1.ricInputReport press; // 0x170
+        public _1.tTriggerButton displayIndex; // 0x178
+        public _1.tTriggerButton touchId; // 0x180
+        public _1.lSenseHIDUSBInputReport position; // 0x188
+        public _1.get_L3 delta; // 0x190
+        public _1.Index pressure; // 0x198
+        public _1.lSenseHIDUSBInputReport radius; // 0x1A0
+        public _1.n phase; // 0x1A8
+        public _1.ceControlChangedValue indirectTouch; // 0x1B0
+        public _1.ceControlChangedValue tap; // 0x1B8
+        public _1.tTriggerButton tapCount; // 0x1C0
+        public _1.k__BackingField startTime; // 0x1C8
+        public _1.lSenseHIDUSBInputReport startPosition; // 0x1D0
 
         // ── Methods ──
         public void get_press(){} // RVA: 0x7FFD4E78D850
@@ -263,8 +263,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class Vector2Control : InputControl`1
     {
-        public UnityEngine.InputSystem.Controls.AxisControl x; // 0x110
-        public UnityEngine.InputSystem.Controls.AxisControl y; // 0x118
+        public _1.Index x; // 0x110
+        public _1.Index y; // 0x118
 
         // ── Methods ──
         public void get_x(){} // RVA: 0x7FFD4E96B170
@@ -281,9 +281,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class Vector3Control : InputControl`1
     {
-        public UnityEngine.InputSystem.Controls.AxisControl x; // 0x118
-        public UnityEngine.InputSystem.Controls.AxisControl y; // 0x120
-        public UnityEngine.InputSystem.Controls.AxisControl z; // 0x128
+        public _1.Index x; // 0x118
+        public _1.Index y; // 0x120
+        public _1.Index z; // 0x128
 
         // ── Methods ──
         public void get_x(){} // RVA: 0x7FFD4E7DC6D0

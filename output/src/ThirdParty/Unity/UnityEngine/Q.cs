@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class QualitySettings : Object
     {
-        public System.Action`2<int,int> pixelLightCount;
+        public rectoryInformation<int,int> pixelLightCount;
 
         // ── Methods ──
         public void OnActiveQualityLevelChanged(){} // RVA: 0x7FFD54C924E0
@@ -55,7 +55,7 @@ namespace ThirdParty.Unity.UnityEngine
         public float identity; // 0x14
         public float eulerAngles; // 0x18
         public float normalized; // 0x1C
-        public UnityEngine.Quaternion identityQuaternion;
+        public R_12x12 identityQuaternion;
         public float kEpsilon;
 
         // ── Methods ──

@@ -19,11 +19,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
     {
         public object StrongFormatters_LOCK;
         public object WeakFormatters_LOCK; // 0x8
-        public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.IFormatter> FormatterInstances; // 0x10
-        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<System.Type,VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter> StrongTypeFormatterMap; // 0x18
-        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<System.Type,VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,VRC.Udon.Serialization.OdinSerializer.IFormatter> WeakTypeFormatterMap; // 0x20
-        public System.Collections.Generic.List`1<0x66582728> FormatterLocators; // 0x28
-        public System.Collections.Generic.List`1<0x665826D0> FormatterInfos; // 0x30
+        public URA.DateTime<?,CanonicalExplicitAceCount> FormatterInstances; // 0x10
+        public yNumberHandling.ay<?,CullingUpdateMarker,CanonicalExplicitAceCount> StrongTypeFormatterMap; // 0x18
+        public yNumberHandling.ay<?,CullingUpdateMarker,CanonicalExplicitAceCount> WeakTypeFormatterMap; // 0x20
+        public URA.woDigitYearMax<imator> FormatterLocators; // 0x28
+        public URA.woDigitYearMax<VolumetricText> FormatterInfos; // 0x30
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55402710
@@ -39,11 +39,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class FormatterUtilities : Object
     {
-        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Type,System.Reflection.MemberInfo[]> MemberArrayCache;
-        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy,System.Type,System.Collections.Generic.Dictionary`2<string,System.Reflection.MemberInfo>> MemberMapCache; // 0x8
+        public yNumberHandling.ay<CullingUpdateMarker,?,m.Int64[]> MemberArrayCache;
+        public yNumberHandling.ay<CullingUpdateMarker,?,URA.DateTime<string,m.Int64>> MemberMapCache; // 0x8
         public object LOCK; // 0x10
-        public System.Collections.Generic.HashSet`1<System.Type> PrimitiveArrayTypes; // 0x18
-        public System.Reflection.FieldInfo UnityObjectRuntimeErrorStringField; // 0x20
+        public URA.onsDepth<?> PrimitiveArrayTypes; // 0x18
+        public m.WmiGuidObject UnityObjectRuntimeErrorStringField; // 0x20
         public string UnityObjectRuntimeErrorString;
 
         // ── Methods ──

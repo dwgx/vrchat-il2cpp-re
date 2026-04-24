@@ -7,16 +7,9 @@ namespace ThirdParty.Other.ZLogger.LogStates
 {
     public class InterpolatedStringLogState : Object
     {
-        public ZLogger.Internal.ObjectPool`1<ZLogger.LogStates.InterpolatedStringLogState> NextNode;
-        public ZLogger.LogStates.InterpolatedStringLogState ParameterCount; // 0x10
-        public int Version; // 0x18
-        public System.ValueTuple`4<object,string,string,int> additionalInfo; // 0x20
-        public byte[] magicalBoxStorage; // 0x40
-        public ZLogger.InterpolatedStringParameter[] parameters; // 0x48
-        public int refCount; // 0x50
-        public ZLogger.MessageSequence messageSequence; // 0x58
-        public ZLogger.Internal.MagicalBox magicalBox; // 0x60
-        public short version; // 0x70
+        public object NextNode;
+        public object ParameterCount;
+        public object Version;
 
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0
@@ -41,11 +34,11 @@ namespace ThirdParty.Other.ZLogger.LogStates
 
     public class StringFormatterLogState`1 : ValueType
     {
-        public int <ParameterCount>k__BackingField; // 0x10
-        public ZLogger.LogStates.VersionedLogState originalState; // 0x18
-        public System.Exception exception; // 0x28
-        public System.Func`3<ZLogger.LogStates.VersionedLogState,System.Exception,string> formatter; // 0x30
-        public System.Collections.Generic.IReadOnlyList`1<System.Collections.Generic.KeyValuePair`2<string,object>> originalStateParameters; // 0x38
+        public int <ParameterCount>k__BackingField;
+        public T1717732432 originalState;
+        public ÏÏÍÍÎÎ exception;
+        public nalInformation<T1717732432,ÏÏÍÍÎÎ,string> formatter;
+        public URA.saAbbrevMonthNames<URA.mes<string,object>> originalStateParameters;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -56,9 +49,6 @@ namespace ThirdParty.Other.ZLogger.LogStates
 
     public class VersionedLogState : ValueType
     {
-        public ZLogger.LogStates.InterpolatedStringLogState state; // 0x10
-        public int version; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750F800
         public void CreateEntry(){} // RVA: 0x7FFD5750F870

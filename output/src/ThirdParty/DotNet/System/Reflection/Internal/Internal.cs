@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Reflection.Internal
 {
     public class EmptyArray`1 : Object
     {
-        public T[] Instance;
+        public T1717724784[] Instance;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -15,8 +15,8 @@ namespace ThirdParty.DotNet.System.Reflection.Internal
 
     public class ObjectPool`1 : Object
     {
-        public 0x665F77E8<T>[] _items;
-        public System.Func`1<T> _factory;
+        public DLES<T1717724816>[] _items;
+        public ormation<T1717724816> _factory;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970 | overloaded x2

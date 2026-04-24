@@ -7,9 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.SubsystemsImplementation
 {
     public class SubsystemDescriptorStore : Object
     {
-        public System.Collections.Generic.List`1<UnityEngine.IntegratedSubsystemDescriptor> s_IntegratedDescriptors;
-        public System.Collections.Generic.List`1<ÏÍÏÌ> s_StandaloneDescriptors; // 0x8
-        public System.Collections.Generic.List`1<ÌÍÌÌÍÌÎÍÌÍÍÌÏÎÏÏÎÌÍÌÏÍÌ> s_DeprecatedDescriptors; // 0x10
+        public URA.woDigitYearMax<dateMode> s_IntegratedDescriptors;
+        public URA.woDigitYearMax<ount.TargetAudioSource> s_StandaloneDescriptors; // 0x8
+        public URA.woDigitYearMax<_targetCameraAlpha> s_DeprecatedDescriptors; // 0x10
 
         // ── Methods ──
         public void InitializeManagedDescriptor(){} // RVA: 0x7FFD54E12510

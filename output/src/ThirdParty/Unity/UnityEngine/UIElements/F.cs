@@ -7,11 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class FieldMouseDragger`1 : BaseFieldMouseDragger
     {
-        public UnityEngine.UIElements.IValueField`1<T> dragging;
-        public UnityEngine.UIElements.VisualElement startValue;
-        public UnityEngine.Rect m_DragHotZone;
+        public ÎÏÌÎÎÎÌÌÌ.sName<T1717596000> dragging;
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius startValue;
+        public dRecorder m_DragHotZone;
         public bool <dragging>k__BackingField;
-        public T <startValue>k__BackingField;
+        public T1717596000 <startValue>k__BackingField;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -50,9 +50,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusEventBase`1 : EventBase`1
     {
-        public UnityEngine.UIElements.Focusable relatedTarget;
-        public 0x6647EDA0 direction;
-        public 0x6647EEA8 focusController;
+        public ÎÏÌÎÎÎÌÌÌ.ragLineAnchorHorizontalClassName relatedTarget;
+        public ÎÏÌÎÎÎÌÌÌ.edPaneMargins direction;
+        public ÎÏÌÎÎÎÌÌÌ.t focusController;
         public bool IsFocusDelegated;
 
         // ── Methods ──
@@ -101,8 +101,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FontDefinition : ValueType
     {
-        public UnityEngine.Font font; // 0x10
-        public UnityEngine.TextCore.Text.FontAsset fontAsset; // 0x18
+        public object font;
+        public object fontAsset;
 
         // ── Methods ──
         public void get_font(){} // RVA: 0x7FFD505F9A30

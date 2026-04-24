@@ -13,7 +13,7 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXBatchedEffectInfo : ValueType
     {
-        public UnityEngine.VFX.VisualEffectAsset vfxAsset; // 0x10
+        public torMisuse vfxAsset; // 0x10
         public uint activeBatchCount; // 0x18
         public uint inactiveBatchCount; // 0x1C
         public uint activeInstanceCount; // 0x20
@@ -35,7 +35,7 @@ namespace ThirdParty.Unity.UnityEngine.VFX
     {
         public UIntPtr m_Ptr; // 0x10
         public bool m_Owner; // 0x18
-        public UnityEngine.VFX.VisualEffectAsset m_VfxAsset; // 0x20
+        public torMisuse m_VfxAsset; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD550B7F10
@@ -61,7 +61,7 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXManager : Object
     {
-        public UnityEngine.VFX.VFXCameraXRSettings kDefaultCameraXRSettings;
+        public t.Extensions.DependencyInjection.Abstractions kDefaultCameraXRSettings;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD550B8470
@@ -80,7 +80,7 @@ namespace ThirdParty.Unity.UnityEngine.VFX
     {
         public UIntPtr m_Ptr; // 0x10
         public bool m_Owner; // 0x18
-        public UnityEngine.VFX.VFXEventAttribute m_WrapEventAttribute; // 0x20
+        public object m_WrapEventAttribute; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD550B84D0
@@ -95,8 +95,8 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VisualEffect : Behaviour
     {
-        public UnityEngine.VFX.VFXEventAttribute visualEffectAsset; // 0x18
-        public System.Action`1<ÌÏÌÌÌÏÌÏÌÎÎÍÍÏÌ> outputEventReceived; // 0x20
+        public object visualEffectAsset; // 0x18
+        public ileFullDirectoryInformation<erviceRegistered> outputEventReceived; // 0x20
 
         // ── Methods ──
         public void get_visualEffectAsset(){} // RVA: 0x7FFD550B8C80

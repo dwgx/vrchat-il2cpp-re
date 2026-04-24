@@ -33,7 +33,7 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ExtensionSet`1 : Object
     {
-        public System.Collections.Generic.Dictionary`2<int,0x6658D9E8> ValuesByNumber;
+        public URA.DateTime<int,gBox.eviousCameraRotation> ValuesByNumber;
 
         // ── Methods ──
         public void get_ValuesByNumber(){} // RVA: 0x7FFD4E078E90
@@ -46,8 +46,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ExtensionValue`1 : Object
     {
-        public T field;
-        public Google.Protobuf.FieldCodec`1<T> codec;
+        public T1717699936 field;
+        public gBox.PathNoRoll<T1717699936> codec;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -63,7 +63,7 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class Extension`2 : Extension
     {
-        public Google.Protobuf.FieldCodec`1<T> DefaultValue;
+        public gBox.PathNoRoll<T1717699584> DefaultValue;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0
@@ -85,19 +85,19 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FieldCodec`1 : Object
     {
-        public System.Collections.Generic.EqualityComparer`1<T> PackedRepeatedField;
-        public T ValueWriter;
+        public URA.t_CurrencyDecimalDigits<T1717700128> PackedRepeatedField;
+        public T1717700128 ValueWriter;
         public bool ValueSizeCalculator;
         public bool ValueReader;
-        public Google.Protobuf.ValueWriter`1<T> ValueMerger;
-        public System.Func`2<T,int> FieldMerger;
-        public Google.Protobuf.ValueReader`1<T> FixedSize;
-        public InputMerger<T> Tag;
-        public ValuesMerger<T> EndTag;
+        public gBox.?<T1717700128> ValueMerger;
+        public n<T1717700128,int> FieldMerger;
+        public gBox.AngularDamping<T1717700128> FixedSize;
+        public arget<T1717700128> Tag;
+        public FollowWithWorldUp<T1717700128> EndTag;
         public int DefaultValue;
         public uint <Tag>k__BackingField;
         public uint <EndTag>k__BackingField;
-        public T <DefaultValue>k__BackingField;
+        public T1717700128 <DefaultValue>k__BackingField;
         public int tagSize;
 
         // ── Methods ──
@@ -163,9 +163,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class MessageParser : Object
     {
-        public System.Func`1<Google.Protobuf.IMessage> DiscardUnknownFields; // 0x10
+        public ormation<gBox.ganizationSid> DiscardUnknownFields; // 0x10
         public bool Extensions; // 0x18
-        public 0x6658D8E0 <Extensions>k__BackingField; // 0x20
+        public gBox.ds>k__BackingField <Extensions>k__BackingField; // 0x20
 
         // ── Methods ──
         public void get_DiscardUnknownFields(){} // RVA: 0x7FFD4E35C4E0
@@ -177,7 +177,7 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class MessageParser`1 : MessageParser
     {
-        public System.Func`1<T> factory;
+        public ormation<T1717700304> factory;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E096BD0 | overloaded x2
@@ -189,7 +189,7 @@ namespace ThirdParty.Google.Google.Protobuf
     public class ObjectIntPair`1 : ValueType
     {
         public int number;
-        public T obj;
+        public T1717700320 obj;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -222,8 +222,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class RepeatedExtensionValue`1 : Object
     {
-        public Google.Protobuf.Collections.RepeatedField`1<T> field;
-        public Google.Protobuf.FieldCodec`1<T> codec;
+        public r>k__BackingField.resentations<T1717699952> field;
+        public gBox.PathNoRoll<T1717699952> codec;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -238,7 +238,7 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class RepeatedExtension`2 : Extension
     {
-        public Google.Protobuf.FieldCodec`1<T> TargetType;
+        public gBox.PathNoRoll<T1717699616> TargetType;
 
         // ── Methods ──
         public void get_TargetType(){} // RVA: 0x7FFD4E078E90
@@ -248,11 +248,11 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class UnknownField : Object
     {
-        public System.Collections.Generic.List`1<ulong> varintList; // 0x10
-        public System.Collections.Generic.List`1<uint> fixed32List; // 0x18
-        public System.Collections.Generic.List`1<ulong> fixed64List; // 0x20
-        public System.Collections.Generic.List`1<0x6658D5C8> lengthDelimitedList; // 0x28
-        public System.Collections.Generic.List`1<0x6658E800> groupList; // 0x30
+        public URA.woDigitYearMax<ulong> varintList; // 0x10
+        public URA.woDigitYearMax<uint> fixed32List; // 0x18
+        public URA.woDigitYearMax<ulong> fixed64List; // 0x20
+        public URA.woDigitYearMax<gBox.mumDistance> lengthDelimitedList; // 0x28
+        public URA.woDigitYearMax<gBox.ra> groupList; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310

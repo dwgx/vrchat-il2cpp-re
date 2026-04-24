@@ -7,7 +7,7 @@ namespace ThirdParty.Other.OVRSimpleJSON
 {
     public class JSONLazyCreator : JSONNode
     {
-        public OVRSimpleJSON.JSONNode Tag; // 0x10
+        public Input.nentTypes Tag; // 0x10
         public string Item; // 0x18
 
         // ── Methods ──
@@ -41,10 +41,10 @@ namespace ThirdParty.Other.OVRSimpleJSON
     {
         public bool Tag;
         public bool Item; // 0x1
-        public System.Text.StringBuilder Item; // 0xFFFF
-        public 0x6650DDF8 Value; // 0x4
-        public 0x6650DDF8 Count; // 0x8
-        public 0x6650DDF8 IsNumber; // 0xC
+        public em.MarkAborted.izeDefaultCase Item; // 0xFFFFFFFF
+        public Input.nteractionProfile Value; // 0x4
+        public Input.nteractionProfile Count; // 0x8
+        public Input.nteractionProfile IsNumber; // 0xC
 
         // ── Methods ──
         public void get_Tag(){} // RVA: 0x7FFD4E079960

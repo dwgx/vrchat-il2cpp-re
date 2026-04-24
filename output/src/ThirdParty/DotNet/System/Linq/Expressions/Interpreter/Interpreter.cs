@@ -7,21 +7,21 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class CastInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.CastInstruction ConsumedStack;
-        public System.Linq.Expressions.Interpreter.CastInstruction ProducedStack; // 0x8
-        public System.Linq.Expressions.Interpreter.CastInstruction InstructionName; // 0x10
-        public System.Linq.Expressions.Interpreter.CastInstruction s_DateTime; // 0x18
-        public System.Linq.Expressions.Interpreter.CastInstruction s_Decimal; // 0x20
-        public System.Linq.Expressions.Interpreter.CastInstruction s_Double; // 0x28
-        public System.Linq.Expressions.Interpreter.CastInstruction s_Int16; // 0x30
-        public System.Linq.Expressions.Interpreter.CastInstruction s_Int32; // 0x38
-        public System.Linq.Expressions.Interpreter.CastInstruction s_Int64; // 0x40
-        public System.Linq.Expressions.Interpreter.CastInstruction s_SByte; // 0x48
-        public System.Linq.Expressions.Interpreter.CastInstruction s_Single; // 0x50
-        public System.Linq.Expressions.Interpreter.CastInstruction s_String; // 0x58
-        public System.Linq.Expressions.Interpreter.CastInstruction s_UInt16; // 0x60
-        public System.Linq.Expressions.Interpreter.CastInstruction s_UInt32; // 0x68
-        public System.Linq.Expressions.Interpreter.CastInstruction s_UInt64; // 0x70
+        public rmat_String_ObjectArray.ceMethodCallExpressionN ConsumedStack;
+        public rmat_String_ObjectArray.ceMethodCallExpressionN ProducedStack; // 0x8
+        public rmat_String_ObjectArray.ceMethodCallExpressionN InstructionName; // 0x10
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_DateTime; // 0x18
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Decimal; // 0x20
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Double; // 0x28
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Int16; // 0x30
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Int32; // 0x38
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Int64; // 0x40
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_SByte; // 0x48
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Single; // 0x50
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_String; // 0x58
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_UInt16; // 0x60
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_UInt32; // 0x68
+        public rmat_String_ObjectArray.ceMethodCallExpressionN s_UInt64; // 0x70
 
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x7FFD4E433AF0
@@ -33,8 +33,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class HybridReferenceDictionary`2 : Object
     {
-        public System.Collections.Generic.KeyValuePair`2<U,T>[] Item;
-        public System.Collections.Generic.Dictionary`2<U,T> _dict;
+        public URA.mes<T1717688080,T1717688096>[] Item;
+        public URA.DateTime<T1717688080,T1717688096> _dict;
         public int ArraySize;
 
         // ── Methods ──
@@ -70,35 +70,35 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class InstructionList : Object
     {
-        public System.Collections.Generic.List`1<System.Linq.Expressions.Interpreter.Instruction> Count; // 0x10
-        public System.Collections.Generic.List`1<object> CurrentStackDepth; // 0x18
+        public URA.woDigitYearMax<rmat_String_ObjectArray.ryQuote> Count; // 0x10
+        public URA.woDigitYearMax<object> CurrentStackDepth; // 0x18
         public int CurrentContinuationsDepth; // 0x20
         public int MaxStackDepth; // 0x24
         public int _currentContinuationsDepth; // 0x28
         public int _maxContinuationDepth; // 0x2C
         public int _runtimeLabelCount; // 0x30
-        public System.Collections.Generic.List`1<0x6654EA60> _labels; // 0x38
-        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<int,object>> _debugCookies; // 0x40
+        public URA.woDigitYearMax<rmat_String_ObjectArray.ecimal_Ctor_Int32_Int32_Int32_Bool_Byte> _labels; // 0x38
+        public URA.woDigitYearMax<URA.mes<int,object>> _debugCookies; // 0x40
         public int PushIntMinCachedValue;
         public int PushIntMaxCachedValue;
         public int CachedObjectCount;
-        public System.Linq.Expressions.Interpreter.Instruction s_null;
-        public System.Linq.Expressions.Interpreter.Instruction s_true; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_false; // 0x10
-        public System.Linq.Expressions.Interpreter.Instruction[] s_Ints; // 0x18
-        public System.Linq.Expressions.Interpreter.Instruction[] s_loadObjectCached; // 0x20
+        public rmat_String_ObjectArray.ryQuote s_null;
+        public rmat_String_ObjectArray.ryQuote s_true; // 0x8
+        public rmat_String_ObjectArray.ryQuote s_false; // 0x10
+        public rmat_String_ObjectArray.ryQuote[] s_Ints; // 0x18
+        public rmat_String_ObjectArray.ryQuote[] s_loadObjectCached; // 0x20
         public int LocalInstrCacheSize;
-        public System.Linq.Expressions.Interpreter.Instruction[] s_loadLocal; // 0x28
-        public System.Linq.Expressions.Interpreter.Instruction[] s_loadLocalBoxed; // 0x30
-        public System.Linq.Expressions.Interpreter.Instruction[] s_loadLocalFromClosure; // 0x38
-        public System.Linq.Expressions.Interpreter.Instruction[] s_loadLocalFromClosureBoxed; // 0x40
-        public System.Linq.Expressions.Interpreter.Instruction[] s_assignLocal; // 0x48
-        public System.Linq.Expressions.Interpreter.Instruction[] s_storeLocal; // 0x50
-        public System.Linq.Expressions.Interpreter.Instruction[] s_assignLocalBoxed; // 0x58
-        public System.Linq.Expressions.Interpreter.Instruction[] s_storeLocalBoxed; // 0x60
-        public System.Linq.Expressions.Interpreter.Instruction[] s_assignLocalToClosure; // 0x68
-        public System.Collections.Generic.Dictionary`2<System.Reflection.FieldInfo,System.Linq.Expressions.Interpreter.Instruction> s_loadFields; // 0x70
-        public 0x6654EA08[] s_emptyRuntimeLabels; // 0x78
+        public rmat_String_ObjectArray.ryQuote[] s_loadLocal; // 0x28
+        public rmat_String_ObjectArray.ryQuote[] s_loadLocalBoxed; // 0x30
+        public rmat_String_ObjectArray.ryQuote[] s_loadLocalFromClosure; // 0x38
+        public rmat_String_ObjectArray.ryQuote[] s_loadLocalFromClosureBoxed; // 0x40
+        public rmat_String_ObjectArray.ryQuote[] s_assignLocal; // 0x48
+        public rmat_String_ObjectArray.ryQuote[] s_storeLocal; // 0x50
+        public rmat_String_ObjectArray.ryQuote[] s_assignLocalBoxed; // 0x58
+        public rmat_String_ObjectArray.ryQuote[] s_storeLocalBoxed; // 0x60
+        public rmat_String_ObjectArray.ryQuote[] s_assignLocalToClosure; // 0x68
+        public URA.DateTime<m.WmiGuidObject,rmat_String_ObjectArray.ryQuote> s_loadFields; // 0x70
+        public rmat_String_ObjectArray.tor_Int32[] s_emptyRuntimeLabels; // 0x78
 
         // ── Methods ──
         public void Emit(){} // RVA: 0x7FFD541D46E0
@@ -216,7 +216,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class IntSwitchInstruction`1 : Instruction
     {
-        public System.Collections.Generic.Dictionary`2<T,int> InstructionName;
+        public URA.DateTime<T1717679712,int> InstructionName;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -227,10 +227,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LabelInfo : Object
     {
-        public 0x6654CA68 HasDefinitions; // 0x10
-        public 0x6654EA60 HasMultipleDefinitions; // 0x18
+        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.ator<TResult>.Current HasDefinitions; // 0x10
+        public rmat_String_ObjectArray.ecimal_Ctor_Int32_Int32_Int32_Bool_Byte HasMultipleDefinitions; // 0x18
         public object _definitions; // 0x20
-        public System.Collections.Generic.List`1<0x665516B8> _references; // 0x28
+        public URA.woDigitYearMax<rmat_String_ObjectArray.>b__60_0> _references; // 0x28
         public bool _acrossBlockJump; // 0x30
 
         // ── Methods ──
@@ -251,15 +251,15 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LightCompiler : Object
     {
-        public System.Linq.Expressions.Interpreter.InstructionList Instructions; // 0x10
-        public 0x66553238 _locals; // 0x18
-        public System.Collections.Generic.List`1<0x66552478> _debugInfos; // 0x20
-        public System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<0x6654CA68,System.Linq.Expressions.Interpreter.LabelInfo> _treeLabels; // 0x28
-        public 0x665516B8 _labelBlock; // 0x30
-        public System.Collections.Generic.Stack`1<System.Linq.Expressions.ParameterExpression> _exceptionForRethrowStack; // 0x38
-        public System.Linq.Expressions.Interpreter.LightCompiler _parent; // 0x40
-        public System.Linq.Expressions.StackGuard _guard; // 0x48
-        public 0x66553188[] s_emptyLocals;
+        public rmat_String_ObjectArray.? Instructions; // 0x10
+        public rmat_String_ObjectArray.? _locals; // 0x18
+        public URA.woDigitYearMax<rmat_String_ObjectArray.ncCollisionExitTrigger> _debugInfos; // 0x20
+        public rmat_String_ObjectArray.Expression<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.ator<TResult>.Current,rmat_String_ObjectArray.to> _treeLabels; // 0x28
+        public rmat_String_ObjectArray.>b__60_0 _labelBlock; // 0x30
+        public URA.leEastFrench<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current> _exceptionForRethrowStack; // 0x38
+        public rmat_String_ObjectArray.ompatible _parent; // 0x40
+        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.ocessor _guard; // 0x48
+        public rmat_String_ObjectArray.ConstructorRequired[] s_emptyLocals;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541E43D0 | overloaded x2
@@ -355,10 +355,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
     public class LightLambda : Object
     {
         public int DebugView;
-        public System.Runtime.CompilerServices.IStrongBox[] _closure; // 0x10
-        public 0x66551558 _interpreter; // 0x18
-        public System.Dynamic.Utils.CacheDict`2<System.Type,System.Func`2<System.Linq.Expressions.Interpreter.LightLambda,System.Delegate>> _runCache;
-        public 0x66552840 _delegateCreator; // 0x20
+        public ArgCount.meticTypes[] _closure; // 0x10
+        public rmat_String_ObjectArray.ngField _interpreter; // 0x18
+        public instructions.untimeLabel<?,n<rmat_String_ObjectArray.otHaveAccessor,formation>> _runCache;
+        public rmat_String_ObjectArray.Accessor _delegateCreator; // 0x20
 
         // ── Methods ──
         public void Run0(){} // RVA: 0x7FFD4E2ADC40
@@ -440,8 +440,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class QuoteInstruction : Instruction
     {
-        public System.Linq.Expressions.Expression ProducedStack; // 0x10
-        public System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,0x66553130> InstructionName; // 0x18
+        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.Update ProducedStack; // 0x10
+        public URA.DateTime<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current,rmat_String_ObjectArray.er> InstructionName; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240

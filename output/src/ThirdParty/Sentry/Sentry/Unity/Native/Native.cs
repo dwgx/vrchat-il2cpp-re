@@ -7,9 +7,9 @@ namespace ThirdParty.Sentry.Sentry.Unity.Native
 {
     public class SentryNative : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,bool> PerDirectoryCrashInfo;
+        public URA.DateTime<string,bool> PerDirectoryCrashInfo;
         public bool ShouldReinstallBackend; // 0x8
-        public Sentry.Extensibility.IDiagnosticLogger Logger; // 0x10
+        public riteTo>b__2_0 Logger; // 0x10
 
         // ── Methods ──
         public void Configure(){} // RVA: 0x7FFD53F43C50
@@ -19,7 +19,7 @@ namespace ThirdParty.Sentry.Sentry.Unity.Native
 
     public class SentryNativeBridge : Object
     {
-        public Sentry.Extensibility.IDiagnosticLogger _logger;
+        public riteTo>b__2_0 _logger;
         public bool _isLinux; // 0x8
 
         // ── Methods ──

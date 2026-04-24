@@ -7,14 +7,14 @@ namespace VRC.SDK3.Video.Components.AVPro
 {
     public class VRCAVProVideoPlayer : BaseVRCVideoPlayer
     {
-        public System.Func`2<VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer,VRC.SDK3.Video.Interfaces.AVPro.IAVProVideoPlayerInternal> Initialize;
+        public n<yBakeCurrentOffsetsRuntime.akeCurrentOffsets,dRotation.enWorldPosition> Initialize;
         public bool VideoURL; // 0x38
-        public VRC.SDKBase.VRCUrl AutoPlay; // 0x40
+        public ellSize.t AutoPlay; // 0x40
         public bool MaximumResolution; // 0x48
         public bool Initialized; // 0x49
         public int UseLowLatency; // 0x4C
         public bool Loop; // 0x50
-        public VRC.SDK3.Video.Interfaces.AVPro.IAVProVideoPlayerInternal IsPlaying; // 0x58
+        public dRotation.enWorldPosition IsPlaying; // 0x58
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x7FFD57417350
@@ -46,8 +46,8 @@ namespace VRC.SDK3.Video.Components.AVPro
 
     public class VRCAVProVideoScreen : MonoBehaviour
     {
-        public System.Action`1<VRC.SDK3.Video.Components.AVPro.VRCAVProVideoScreen> Initialize;
-        public VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer VideoPlayer; // 0x20
+        public ileFullDirectoryInformation<yBakeCurrentOffsetsRuntime.nsform> Initialize;
+        public yBakeCurrentOffsetsRuntime.akeCurrentOffsets VideoPlayer; // 0x20
         public int MaterialIndex; // 0x28
         public string TextureProperty; // 0x30
         public bool UseSharedMaterial; // 0x38
@@ -65,9 +65,9 @@ namespace VRC.SDK3.Video.Components.AVPro
 
     public class VRCAVProVideoSpeaker : MonoBehaviour
     {
-        public System.Action`1<VRC.SDK3.Video.Components.AVPro.VRCAVProVideoSpeaker> Initialize;
-        public VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer VideoPlayer; // 0x20
-        public 0x665C17B8 Mode; // 0x28
+        public object Initialize;
+        public object VideoPlayer;
+        public object Mode;
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x7FFD57417DD0

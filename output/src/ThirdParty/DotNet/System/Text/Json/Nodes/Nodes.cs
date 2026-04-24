@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 {
     public class JsonArray : JsonNode
     {
-        public System.Nullable`1<System.Text.Json.JsonElement> List; // 0x20
-        public System.Collections.Generic.List`1<System.Text.Json.Nodes.JsonNode> Count; // 0x38
+        public aphy<inDataView.ase64> List; // 0x20
+        public URA.woDigitYearMax<tNegative> Count; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5446E680 | overloaded x4
@@ -43,8 +43,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonNode : Object
     {
-        public System.Text.Json.Nodes.JsonNode Options; // 0x10
-        public System.Nullable`1<System.Text.Json.Nodes.JsonNodeOptions> Parent; // 0x18
+        public tNegative Options; // 0x10
+        public aphy<4_0> Parent; // 0x18
 
         // ── Methods ──
         public void get_Options(){} // RVA: 0x7FFD544701F0
@@ -101,7 +101,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValueCustomized`1 : JsonValue`1
     {
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<T> _jsonTypeInfo;
+        public ndlingValue.tions.Generic.IAsyncEnumerator<T>.MoveNextAsync<T1717649312> _jsonTypeInfo;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -111,8 +111,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValuePrimitive`1 : JsonValue`1
     {
-        public System.Text.Json.JsonSerializerOptions s_defaultOptions;
-        public System.Text.Json.Serialization.JsonConverter`1<T> _converter;
+        public inDataView.CannotBeObjectOrArray s_defaultOptions;
+        public ngCommas.get_transformPoleAxis<T1717649424> _converter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -123,8 +123,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValueTrimmable`1 : JsonValue`1
     {
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<T> _jsonTypeInfo;
-        public System.Text.Json.Serialization.JsonConverter`1<T> _converter;
+        public ndlingValue.tions.Generic.IAsyncEnumerator<T>.MoveNextAsync<T1717693488> _jsonTypeInfo;
+        public ngCommas.get_transformPoleAxis<T1717693488> _converter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -133,7 +133,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValue`1 : JsonValue
     {
-        public T _value;
+        public T1717693472 _value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

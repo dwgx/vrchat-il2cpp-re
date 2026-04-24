@@ -8,8 +8,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
     public class AnrIntegration : Object
     {
         public object Lock;
-        public 0x665EB0E0 Watchdog; // 0x8
-        public Sentry.Unity.SentryMonoBehaviour _monoBehaviour; // 0x10
+        public hXMultiplier.njected Watchdog; // 0x8
+        public hXMultiplier.Field _monoBehaviour; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -75,9 +75,9 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class Il2CppMethods : Object
     {
-        public Sentry.Unity.Il2CppGcHandleGetTarget Il2CppGcHandleGetTarget; // 0x10
-        public Sentry.Unity.Il2CppNativeStackTrace Il2CppNativeStackTrace; // 0x18
-        public Sentry.Unity.Il2CppFree Il2CppFree; // 0x20
+        public hXMultiplier.pace_Injected Il2CppGcHandleGetTarget; // 0x10
+        public hXMultiplier.hParticles_Injected Il2CppNativeStackTrace; // 0x18
+        public hXMultiplier._dieWithParticles_Injected Il2CppFree; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E420E00
@@ -103,10 +103,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SceneManagerAdapter : Object
     {
-        public System.Action`2<0x665EB298,0x664E2848> SceneLoaded; // 0x10
-        public System.Action`1<0x665EB298> SceneUnloaded; // 0x18
-        public System.Action`2<0x665EB298,0x665EB298> ActiveSceneChanged; // 0x20
-        public Sentry.Unity.SceneManagerAdapter Instance;
+        public rectoryInformation<hXMultiplier.railModule,Type.UILayout> SceneLoaded; // 0x10
+        public ileFullDirectoryInformation<hXMultiplier.railModule> SceneUnloaded; // 0x18
+        public rectoryInformation<hXMultiplier.railModule,hXMultiplier.railModule> ActiveSceneChanged; // 0x20
+        public hXMultiplier.ectsLifetime Instance;
 
         // ── Methods ──
         public void add_SceneLoaded(){} // RVA: 0x7FFD53F28D10
@@ -143,7 +143,7 @@ namespace ThirdParty.Sentry.Sentry.Unity
         public string AttachScreenshot; // 0x50
         public bool ScreenshotQuality; // 0x58
         public bool ScreenshotCompression; // 0x59
-        public 0x665EBB88 AttachViewHierarchy; // 0x5C
+        public hXMultiplier.ces AttachViewHierarchy; // 0x5C
         public int MaxViewHierarchyRootObjects; // 0x60
         public bool MaxViewHierarchyObjectChildCount; // 0x64
         public int MaxViewHierarchyDepth; // 0x68
@@ -155,7 +155,7 @@ namespace ThirdParty.Sentry.Sentry.Unity
         public bool MaxBreadcrumbs; // 0x77
         public bool ReportAssembliesMode; // 0x78
         public int SendDefaultPii; // 0x7C
-        public 0x664F8168 IsEnvironmentUser; // 0x80
+        public RGBA_ETC2_SRGB.9__318_0 IsEnvironmentUser; // 0x80
         public bool EnableOfflineCaching; // 0x84
         public bool MaxCacheItems; // 0x85
         public bool InitCacheFlushTimeout; // 0x86
@@ -167,7 +167,7 @@ namespace ThirdParty.Sentry.Sentry.Unity
         public bool CaptureFailedRequests; // 0x9C
         public int FailedRequestStatusCodes; // 0xA0
         public bool FilterBadGatewayExceptions; // 0xA4
-        public System.Collections.Generic.List`1<int> FilterWebExceptions; // 0xA8
+        public URA.woDigitYearMax<int> FilterWebExceptions; // 0xA8
         public bool FilterSocketExceptions; // 0xB0
         public bool IosNativeSupportEnabled; // 0xB1
         public bool AndroidNativeSupportEnabled; // 0xB2
@@ -180,12 +180,12 @@ namespace ThirdParty.Sentry.Sentry.Unity
         public bool Il2CppLineNumberSupportEnabled; // 0xBD
         public bool RuntimeOptionsConfiguration; // 0xBE
         public bool BuildTimeOptionsConfiguration; // 0xBF
-        public Sentry.Unity.SentryRuntimeOptionsConfiguration OptionsConfiguration; // 0xC0
-        public Sentry.Unity.SentryBuildTimeOptionsConfiguration Debug; // 0xC8
-        public Sentry.Unity.SentryOptionsConfiguration DebugOnlyInEditor; // 0xD0
+        public hXMultiplier.? OptionsConfiguration; // 0xC0
+        public hXMultiplier.veZone>b__0 Debug; // 0xC8
+        public hXMultiplier.ocalAddresses DebugOnlyInEditor; // 0xD0
         public bool DiagnosticLevel; // 0xD8
         public bool <DebugOnlyInEditor>k__BackingField; // 0xD9
-        public 0x664F8C68 <DiagnosticLevel>k__BackingField; // 0xDA
+        public RGBA_ETC2_SRGB.>d__23`1 <DiagnosticLevel>k__BackingField; // 0xDA
 
         // ── Methods ──
         public void GetConfigPath(){} // RVA: 0x7FFD53F30250
@@ -326,17 +326,15 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryCliOptions : ScriptableObject
     {
-        public string UploadSymbols;
-        public string UploadDevelopmentSymbols;
-        public bool UploadSources; // 0x18
-        public bool UrlOverride; // 0x19
-        public bool Auth; // 0x1A
-        public string Organization; // 0x20
-        public string Project; // 0x28
-        public string IgnoreCliErrors; // 0x30
-        public string CliOptionsConfiguration; // 0x38
-        public bool <IgnoreCliErrors>k__BackingField; // 0x40
-        public Sentry.Unity.SentryCliOptionsConfiguration <CliOptionsConfiguration>k__BackingField; // 0x48
+        public object UploadSymbols;
+        public object UploadDevelopmentSymbols;
+        public object UploadSources;
+        public object UrlOverride;
+        public object Auth;
+        public object Organization;
+        public object Project;
+        public object IgnoreCliErrors;
+        public object CliOptionsConfiguration;
 
         // ── Methods ──
         public void get_UploadSymbols(){} // RVA: 0x7FFD4E35C4E0
@@ -376,8 +374,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryInitialization : Object
     {
-        public Sentry.ISpan InitSpan;
-        public Sentry.ISpan SubSystemRegistrationSpan; // 0x8
+        public RGBA_ETC2_SRGB.waitWithCancellationAsync>d__4`1 InitSpan;
+        public RGBA_ETC2_SRGB.waitWithCancellationAsync>d__4`1 SubSystemRegistrationSpan; // 0x8
 
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD53645E00
@@ -391,11 +389,11 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryMonoBehaviour : MonoBehaviour
     {
-        public Sentry.Unity.SentryMonoBehaviour Instance;
-        public System.Action Application; // 0x20
-        public System.Action ApplicationPausing; // 0x28
+        public hXMultiplier.Field Instance;
+        public ÎÌÍÏÏÌÍÏ Application; // 0x20
+        public ÎÌÍÏÏÌÍÏ ApplicationPausing; // 0x28
         public bool _isRunning; // 0x30
-        public Sentry.Unity.Integrations.IApplication _application; // 0x38
+        public eaMod.DNS.Model.? _application; // 0x38
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD53F31F90
@@ -417,8 +415,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryOptionsConfiguration : ScriptableObject
     {
-        public string Template;
-
         // ── Methods ──
         public void GetAssetPath(){} // RVA: 0x7FFD53F32A40
         public void Configure(){} // RVA: 0x7FFD4E090A40
@@ -435,7 +431,7 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryUnityInfo : Object
     {
-        public Sentry.Unity.Il2CppMethods IL2CPP; // 0x10
+        public hXMultiplier._lifetime_Injected IL2CPP; // 0x10
 
         // ── Methods ──
         public void get_IL2CPP(){} // RVA: 0x7FFD4E426850
@@ -462,19 +458,19 @@ namespace ThirdParty.Sentry.Sentry.Unity
         public bool CaptureInEditor; // 0x28A
         public bool EnableLogDebouncing; // 0x28B
         public bool DebounceTimeLog; // 0x28C
-        public System.TimeSpan DebounceTimeWarning; // 0x290
-        public System.TimeSpan DebounceTimeError; // 0x298
-        public System.TimeSpan RequestBodyCompressionLevel; // 0x2A0
-        public ÌÏÎÍÌÏ AttachScreenshot; // 0x2A8
+        public ializable.GetObjectData DebounceTimeWarning; // 0x290
+        public ializable.GetObjectData DebounceTimeError; // 0x298
+        public ializable.GetObjectData RequestBodyCompressionLevel; // 0x2A0
+        public hXMultiplier.e AttachScreenshot; // 0x2A8
         public bool AttachViewHierarchy; // 0x2AC
         public bool MaxViewHierarchyRootObjects; // 0x2AD
         public int MaxViewHierarchyObjectChildCount; // 0x2B0
         public int MaxViewHierarchyDepth; // 0x2B4
         public int ScreenshotQuality; // 0x2B8
-        public 0x665EBB88 ScreenshotCompression; // 0x2BC
+        public hXMultiplier.ces ScreenshotCompression; // 0x2BC
         public int AddBreadcrumbsForLogType; // 0x2C0
-        public System.Collections.Generic.Dictionary`2<0x664D9630,bool> AnrTimeout; // 0x2C8
-        public System.TimeSpan FilterBadGatewayExceptions; // 0x2D0
+        public URA.DateTime<?,bool> AnrTimeout; // 0x2C8
+        public ializable.GetObjectData FilterBadGatewayExceptions; // 0x2D0
         public bool IosNativeSupportEnabled; // 0x2D8
         public bool AndroidNativeSupportEnabled; // 0x2D9
         public bool NdkIntegrationEnabled; // 0x2DA
@@ -485,12 +481,12 @@ namespace ThirdParty.Sentry.Sentry.Unity
         public bool Il2CppLineNumberSupportEnabled; // 0x2DF
         public bool PerformanceAutoInstrumentationEnabled; // 0x2E0
         public bool StackTraceMode; // 0x2E1
-        public 0x664FA058 DefaultUserId; // 0x2E4
+        public RGBA_ETC2_SRGB.aitAsync>d__5`3 DefaultUserId; // 0x2E4
         public string NativeContextWriter; // 0x2E8
         public bool NativeSupportCloseCallback; // 0x2F0
-        public 0x665EAD18 SdkIntegrationNames; // 0x2F8
-        public System.Action <NativeSupportCloseCallback>k__BackingField; // 0x300
-        public System.Collections.Generic.List`1<string> <SdkIntegrationNames>k__BackingField; // 0x308
+        public hXMultiplier.r>b__346_7 SdkIntegrationNames; // 0x2F8
+        public ÎÌÍÏÏÌÍÏ <NativeSupportCloseCallback>k__BackingField; // 0x300
+        public URA.woDigitYearMax<string> <SdkIntegrationNames>k__BackingField; // 0x308
 
         // ── Methods ──
         public void get_Enabled(){} // RVA: 0x7FFD4F559B80
@@ -565,13 +561,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class StartupTracingIntegration : Object
     {
-        public Sentry.ISpan AfterAssembliesSpan;
-        public Sentry.ISpan SplashScreenSpan; // 0x8
-        public Sentry.ISpan FirstSceneLoadSpan; // 0x10
-        public bool StartupAlreadyCaptured; // 0x18
-        public bool IntegrationRegistered; // 0x19
-        public Sentry.Extensibility.IDiagnosticLogger Logger; // 0x20
-
         // ── Methods ──
         public void Register(){} // RVA: 0x7FFD53646F60
         public void AfterAssembliesLoaded(){} // RVA: 0x7FFD53647040
@@ -583,8 +572,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class TimeDebounceBase : Object
     {
-        public System.TimeSpan Now; // 0x10
-        public System.Nullable`1<System.DateTimeOffset> _barrierOffset; // 0x18
+        public ializable.GetObjectData Now; // 0x10
+        public aphy<ntent> _barrierOffset; // 0x18
 
         // ── Methods ──
         public void get_Now(){} // RVA: 0x7FFD53F38050
@@ -594,7 +583,7 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityEventProcessor : Object
     {
-        public Sentry.Unity.SentryUnityOptions _sentryOptions; // 0x10
+        public hXMultiplier.ssageReceived _sentryOptions; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -606,10 +595,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityIl2CppEventExceptionProcessor : Object
     {
-        public Sentry.Unity.SentryUnityOptions Options;
-        public Sentry.Unity.ISentryUnityInfo UnityInfo; // 0x8
-        public Sentry.Unity.Il2CppMethods _il2CppMethods; // 0x10
-        public System.Lazy`1<System.Collections.Generic.List`1<DebugImageInfo>> DebugImagesSorted; // 0x10
+        public hXMultiplier.ssageReceived Options;
+        public hXMultiplier._ribbonCount UnityInfo; // 0x8
+        public hXMultiplier._lifetime_Injected _il2CppMethods; // 0x10
+        public dle<URA.woDigitYearMax<et_light>> DebugImagesSorted; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53F23880
@@ -624,8 +613,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
     public class UnityLogger : Object
     {
         public string LogTag;
-        public Sentry.SentryOptions _sentryOptions; // 0x10
-        public UnityEngine.ILogger _logger; // 0x18
+        public RGBA_ETC2_SRGB.ionAsync>d__5`3 _sentryOptions; // 0x10
+        public Identifiers _logger; // 0x18
 
         // ── Methods ──
         public void IsEnabled(){} // RVA: 0x7FFD53F38930
@@ -637,7 +626,7 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityScopeIntegration : Object
     {
-        public Sentry.Unity.Integrations.IApplication _application; // 0x10
+        public eaMod.DNS.Model.? _application; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -652,8 +641,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class WebBackgroundWorker : Object
     {
-        public Sentry.Unity.SentryMonoBehaviour QueuedItems; // 0x10
-        public 0x665EC268 _transport; // 0x18
+        public hXMultiplier.Field QueuedItems; // 0x10
+        public hXMultiplier.n _transport; // 0x18
         public int <QueuedItems>k__BackingField; // 0x20
 
         // ── Methods ──

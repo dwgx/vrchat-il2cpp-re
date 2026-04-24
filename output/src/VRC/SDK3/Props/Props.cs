@@ -7,8 +7,8 @@ namespace VRC.SDK3.Props
 {
     public class VRCPropApi : Object
     {
-        public GetPropFromGameObjectDelegate _GetPropFromGameObject;
-        public GetPropApiDelegate _GetPropApi; // 0x8
+        public ObjectConstraint _GetPropFromGameObject;
+        public egistered _GetPropApi; // 0x8
 
         // ── Methods ──
         public void TryGetPropFromGameObject(){} // RVA: 0x7FFD57422610

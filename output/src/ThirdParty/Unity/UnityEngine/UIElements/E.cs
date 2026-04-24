@@ -7,12 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class EnumField : BaseField`1
     {
-        public System.Type includeObsoleteValues; // 0x440
+        public object includeObsoleteValues; // 0x440
         public bool m_IncludeObsoleteValues; // 0x448
-        public UnityEngine.UIElements.TextElement m_TextElement; // 0x450
-        public UnityEngine.UIElements.VisualElement m_ArrowElement; // 0x458
-        public 0x664DEC78 m_EnumData; // 0x460
-        public System.Func`1<0x66476E18> createMenuCallback; // 0x4A0
+        public ÎÏÌÎÎÎÌÌÌ.yle.get_minWidth m_TextElement; // 0x450
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_ArrowElement; // 0x458
+        public oseCount m_EnumData; // 0x460
+        public ormation<ÎÏÌÎÎÎÌÌÌ.op> createMenuCallback; // 0x4A0
         public string ussClassName;
         public string textUssClassName; // 0x8
         public string arrowUssClassName; // 0x10
@@ -42,21 +42,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
     public class EventBase : Object
     {
         public long eventTypeId;
-        public 0x66486A10 eventCategory; // 0x10
+        public ÎÏÌÎÎÎÌÌÌ.onal eventCategory; // 0x10
         public ulong timestamp; // 0x8
         public long eventId; // 0x18
         public ulong triggerEventId; // 0x20
         public ulong propagation; // 0x28
-        public 0x6647BAC0 path; // 0x30
-        public 0x6647E668 lifeCycleStatus; // 0x38
-        public 0x6647BB18 bubbles; // 0x40
-        public UnityEngine.UIElements.IEventHandler tricklesDown; // 0x48
-        public UnityEngine.UIElements.IEventHandler bubblesOrTricklesDown; // 0x50
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.IEventHandler> skipDisabledElements; // 0x58
-        public 0x6647C568 ignoreCompositeRoots; // 0x60
-        public UnityEngine.UIElements.IEventHandler leafTarget; // 0x68
-        public UnityEngine.Event target; // 0x70
-        public UnityEngine.Vector2 skipElements; // 0x78
+        public tifyChange path; // 0x30
+        public ÎÏÌÎÎÎÌÌÌ.lassName lifeCycleStatus; // 0x38
+        public esiredWidth bubbles; // 0x40
+        public ÎÏÌÎÎÎÌÌÌ.lumnsWidth tricklesDown; // 0x48
+        public ÎÏÌÎÎÎÌÌÌ.lumnsWidth bubblesOrTricklesDown; // 0x50
+        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.lumnsWidth> skipDisabledElements; // 0x58
+        public ÎÏÌÎÎÎÌÌÌ.lumnChanged ignoreCompositeRoots; // 0x60
+        public ÎÏÌÎÎÎÌÌÌ.lumnsWidth leafTarget; // 0x68
+        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE target; // 0x70
+        public tionX skipElements; // 0x78
 
         // ── Methods ──
         public void RegisterEventType(){} // RVA: 0x7FFD54F9F900
@@ -133,9 +133,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
     public class EventBase`1 : EventBase
     {
         public long eventTypeId;
-        public UnityEngine.UIElements.ObjectPool`1<T> s_Pool; // 0x8
+        public ÎÏÌÎÎÎÌÌÌ.gContentId<T1717595984> s_Pool; // 0x8
         public int m_RefCount; // 0x80
-        public 0x66486A10 EventCategory; // 0x10
+        public ÎÏÌÎÎÎÌÌÌ.onal EventCategory; // 0x10
 
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x7FFD5106BB80
@@ -152,8 +152,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctorBase : Object
     {
-        public 0x6647BE88 phase; // 0x10
-        public ` invokePolicy; // 0x14
+        public ÎÏÌÎÎÎÌÌÌ.StretchableColumns phase; // 0x10
+        public ÎÏÌÎÎÎÌÌÌ.equested invokePolicy; // 0x14
 
         // ── Methods ──
         public void get_phase(){} // RVA: 0x7FFD4E38E5C0
@@ -166,7 +166,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctor`1 : EventCallbackFunctorBase
     {
-        public UnityEngine.UIElements.EventCallback`1<U> m_Callback;
+        public ÎÏÌÎÎÎÌÌÌ.Header<T1717595616> m_Callback;
         public long m_EventTypeId;
 
         // ── Methods ──
@@ -177,9 +177,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctor`2 : EventCallbackFunctorBase
     {
-        public UnityEngine.UIElements.EventCallback`2<U,T> userArgs;
+        public ÎÏÌÎÎÎÌÌÌ.der<T1717595632,T1717595648> userArgs;
         public long m_EventTypeId;
-        public T <userArgs>k__BackingField;
+        public T1717595648 <userArgs>k__BackingField;
 
         // ── Methods ──
         public void get_userArgs(){} // RVA: 0x7FFD4E2ADC40
@@ -191,9 +191,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackRegistry : Object
     {
-        public 0x6647BF38 s_ListPool;
-        public 0x6647BF90 m_Callbacks; // 0x10
-        public 0x6647BF90 m_TemporaryCallbacks; // 0x18
+        public ÎÏÌÎÎÎÌÌÌ.mnRemoved s_ListPool;
+        public ÎÏÌÎÎÎÌÌÌ.quiresLayoutUpdate m_Callbacks; // 0x10
+        public ÎÏÌÎÎÎÌÌÌ.quiresLayoutUpdate m_TemporaryCallbacks; // 0x18
         public int m_IsInvoking; // 0x20
 
         // ── Methods ──

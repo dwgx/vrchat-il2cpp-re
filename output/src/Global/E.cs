@@ -24,9 +24,9 @@ public class ElementCount : ValueType
 
 public class ElementPropertyPair : ValueType
 {
-    public System.Collections.Generic.IEqualityComparer`1<ElementPropertyPair> Comparer;
-    public UnityEngine.UIElements.VisualElement element; // 0x10
-    public 0x66489770 property; // 0x18
+    public URA.hEraNames<Left> Comparer;
+    public ÎÏÌÎÎÎÌÌÌ.omLeftRadius element; // 0x10
+    public tor.exSort property; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E77C3C0
@@ -35,7 +35,7 @@ public class ElementPropertyPair : ValueType
 
 public class EmissionModule : ValueType
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public InDuration enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -73,7 +73,7 @@ public class EmissionModule : ValueType
 
 public class EmitParams : ValueType
 {
-    public Particle particle; // 0x10
+    public object particle; // 0x10
     public bool position; // 0x94
     public bool applyShapeToPosition; // 0x95
     public bool velocity; // 0x96
@@ -130,9 +130,9 @@ public class EmitParams : ValueType
 
 public class EmojiMap : MonoBehaviour
 {
-    public UnityEngine.Animator Animator; // 0x20
+    public stfix Animator; // 0x20
     public float Duration; // 0x28
-    public UnityEngine.Vector3 PreviewCameraOffset; // 0x2C
+    public amut PreviewCameraOffset; // 0x2C
     public float PreviewSpeed; // 0x38
 
     // ── Methods ──
@@ -141,7 +141,7 @@ public class EmojiMap : MonoBehaviour
 
 public class EmojiParticleSystem : Object
 {
-    public VRC.Localization.LocalizableString Key; // 0x10
+    public itTypeSize=876 Key; // 0x10
     public string DisplayName; // 0x38
 
     // ── Methods ──
@@ -169,7 +169,7 @@ public class EmptyAOTEmittedFormatter`1 : AOTEmittedFormatter`1
 
 public class EmptyArrayContainer`1 : Object
 {
-    public T[] Empty;
+    public T1717645088[] Empty;
 
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -177,7 +177,7 @@ public class EmptyArrayContainer`1 : Object
 
 public class EmptyData : ValueType
 {
-    public EmptyData<T> Default;
+    public IStyle.set_translate<T1717596528> Default;
 
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -185,7 +185,7 @@ public class EmptyData : ValueType
 
 public class EmptyInternalEnumerator`1 : Object
 {
-    public EmptyInternalEnumerator`1<IJobSortable> Current;
+    public nePostProcessing<T1717586448> Current;
 
     // ── Methods ──
     public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -199,16 +199,16 @@ public class EmptyInternalEnumerator`1 : Object
 
 public class EncodingByteBuffer : Object
 {
-    public byte* MoreData; // 0x10
-    public byte* CharsUsed; // 0x18
-    public byte* Count; // 0x20
-    public char* chars; // 0x28
-    public char* charStart; // 0x30
-    public char* charEnd; // 0x38
+    public IntPtr MoreData; // 0x10
+    public IntPtr CharsUsed; // 0x18
+    public IntPtr Count; // 0x20
+    public IntPtr chars; // 0x28
+    public IntPtr charStart; // 0x30
+    public IntPtr charEnd; // 0x38
     public int byteCountResult; // 0x40
-    public System.Text.Encoding enc; // 0x48
-    public System.Text.EncoderNLS encoder; // 0x50
-    public 0x6642A398 fallbackBuffer; // 0x58
+    public em.MarkAborted.ION_4_7 enc; // 0x48
+    public em.MarkAborted.illogicalCallContext encoder; // 0x50
+    public em.MarkAborted.y fallbackBuffer; // 0x58
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53816310
@@ -222,16 +222,16 @@ public class EncodingByteBuffer : Object
 
 public class EncodingCharBuffer : Object
 {
-    public char* MoreData; // 0x10
-    public char* BytesUsed; // 0x18
-    public char* Count; // 0x20
+    public IntPtr MoreData; // 0x10
+    public IntPtr BytesUsed; // 0x18
+    public IntPtr Count; // 0x20
     public int charCountResult; // 0x28
-    public System.Text.Encoding enc; // 0x30
-    public System.Text.DecoderNLS decoder; // 0x38
-    public byte* byteStart; // 0x40
-    public byte* byteEnd; // 0x48
-    public byte* bytes; // 0x50
-    public System.Text.DecoderFallbackBuffer fallbackBuffer; // 0x58
+    public em.MarkAborted.ION_4_7 enc; // 0x30
+    public em.MarkAborted.ssed decoder; // 0x38
+    public IntPtr byteStart; // 0x40
+    public IntPtr byteEnd; // 0x48
+    public IntPtr bytes; // 0x50
+    public em.MarkAborted.FlowControl fallbackBuffer; // 0x58
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53815D10
@@ -246,9 +246,6 @@ public class EncodingCharBuffer : Object
 
 public class EncodingUtility : Object
 {
-    public System.Collections.Generic.KeyValuePair`2<byte[],System.Text.Encoding>[] encodingLookup;
-    public System.Text.Encoding targetEncoding; // 0x8
-
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD54CE5020
 }
@@ -269,9 +266,6 @@ public class EndGraphicsJobsAfterScriptUpdate : ValueType
 
 public class EndpointAccessEntry : Object
 {
-    public float time; // 0x10
-    public int count; // 0x14
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -292,20 +286,19 @@ public class EnterStateDelegate : MulticastDelegate
 public class Entry : ValueType
 {
     public int _key; // 0x10
-    public int _value; // 0x14
-    public 0x664DC180 _next; // 0x18
-    public float value; // 0x1C
+    public utes.Line _value; // 0x18
+    public ?<int,utes.Line> _next; // 0x20
 }
 
 public class EnumResult : ValueType
 {
     public object parsedEnum; // 0x10
     public bool canThrow; // 0x18
-    public 0x66422F68 m_failure; // 0x1C
+    public ed m_failure; // 0x1C
     public string m_failureMessageID; // 0x20
     public string m_failureParameter; // 0x28
     public object m_failureMessageFormatArgument; // 0x30
-    public System.Exception m_innerException; // 0x38
+    public ÏÏÍÍÎÎ m_innerException; // 0x38
 
     // ── Methods ──
     public void Init(){} // RVA: 0x7FFD53A9C1D0
@@ -315,7 +308,7 @@ public class EnumResult : ValueType
 
 public class EnumerableDictionaryWrapper`2 : Object
 {
-    public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<U,T>> _e;
+    public URA.bbrevEraNames<URA.mes<T1717703360,T1717703376>> _e;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -325,7 +318,7 @@ public class EnumerableDictionaryWrapper`2 : Object
 
 public class EnumerableDropIndices : Object
 {
-    public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<long,System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>>> _source; // 0x10
+    public URA.bbrevEraNames<URA.mes<long,T1717590688>> _source;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -336,15 +329,16 @@ public class EnumerableDropIndices : Object
 
 public class Enumerator : ValueType
 {
-    public System.Collections.Generic.List`1<IJobSortable> _dictionary; // 0x10
+    public URA.DateTime<string,object> _dictionary; // 0x10
     public int _version; // 0x18
     public int _index; // 0x1C
-    public IJobSortable _current; // 0x20
+    public URA.mes<string,object> _current; // 0x20
+    public int _getEnumeratorRetType; // 0x30
 }
 
 public class EnumeratorDropIndices : Object
 {
-    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<long,T>> Current;
+    public URA.saAbbrevEnglishEraNames<URA.mes<long,T1717590704>> Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -357,9 +351,9 @@ public class EnumeratorDropIndices : Object
 
 public class EnumeratorObject : Object
 {
-    public System.Collections.Generic.IEnumerator`1<UnityEngine.RequireComponent> Current;
-    public UnityEngine.RequireComponent[] System.Collections.IEnumerator.Current; // 0x10
-    public int _index; // 0x18
+    public URA.saAbbrevEnglishEraNames<T1717733984> Current;
+    public T1717733984[] System.Collections.IEnumerator.Current;
+    public int _index;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -374,8 +368,8 @@ public class EnumeratorObject : Object
 
 public class EnvelopeDefinition : ValueType
 {
-    public UnityEngine.AnimationCurve Duration; // 0x10
-    public UnityEngine.AnimationCurve m_DecayShape; // 0x18
+    public ÍÎÌÍÍÌÌÎÏÏ Duration; // 0x10
+    public ÍÎÌÍÍÌÌÎÏÏ m_DecayShape; // 0x18
     public float m_AttackTime; // 0x20
     public float m_SustainTime; // 0x24
     public float m_DecayTime; // 0x28
@@ -427,10 +421,6 @@ public class Escape : ValueType
 
 public class EscaperImplementation : ScalarEscaperBase
 {
-    public EscaperImplementation Singleton;
-    public EscaperImplementation SingletonMinimallyEscaped; // 0x8
-    public System.Text.Encodings.Web.AsciiByteMap _preescapedMap; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53EA6D30
     public void EncodeUtf8(){} // RVA: 0x7FFD543EE480
@@ -454,7 +444,7 @@ public class EventData : ValueType
 
 public class EventDataBuffer : ValueType
 {
-    public 0x665083E8 EventType; // 0x10
+    public rnalGetValues EventType; // 0x10
     public byte[] EventData; // 0x18
 }
 
@@ -476,21 +466,21 @@ public class EventHandler : MulticastDelegate
 
 public class EventReplicator`2 : MonoBehaviour
 {
-    public ÍÎÎÍÏÌÎÌÌÎÏÏÌÍÌÎÍÏÍÍÌÍÎ<ÌÏÏÏÍÏÎÌÍÎÏÏÍÏÎÎÍÍÎÏÌÍÎ,ÌÍÍÍÏÏÌÏÌÍÌÍÏÍÍÌÌÌÌÍÎÏÍ> _destroyCancellationToken; // 0x20
+    public ÎÏÎÏÌÍÍÎ<?,?> _destroyCancellationToken; // 0x20
     public int _useGUILayout;
     public int f_AAB;
     public int f_9F8;
-    public int ÌÌÎÏÏÌÍÌÏÍÎÍÍÍÎÍÍÌÏÍÎÌÍ;
-    public System.Collections.Generic.List`1<System.Action> ÎÌÍÍÏÍÍÎÎÏÏÍÏÍÏÍÎÏÍÎÍÍÍ; // 0x28
-    public ÎÏÍÏÍÍÎÍÎÌÍÏÎÎÌÏÌÍÎÏÍÎÍ<ÌÏÏÏÍÏÎÌÍÎÏÏÍÏÎÎÍÍÎÏÌÍÎ,ÌÍÍÍÏÏÌÏÌÍÌÍÏÍÍÌÌÌÌÍÎÏÍ> ÏÍÎÌÍÏÌÌÎÎÎÌÌÌÌÌÍÏÌÎÌÌÍ; // 0x30
-    public System.Collections.Generic.HashSet`1<ÌÏÏÏÍÏÎÌÍÎÏÏÍÏÎÎÍÍÎÏÌÍÎ> ÎÍÏÍÌÍÍÎÎÎÏÎÎÎÏÏÍÎÎÍÏÌÌ; // 0x38
-    public System.Collections.Generic.List`1<ÌÏÏÏÍÏÎÌÍÎÏÏÍÏÎÎÍÍÎÏÌÍÎ> ÏÏÍÍÏÏÏÍÎÌÌÎÌÏÌÌÏÎÍÍÏÏÍ; // 0x40
-    public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<ÌÏÏÏÍÏÎÌÍÎÏÏÍÏÎÎÍÍÎÏÌÍÎ>> ÍÏÎÌÏÎÎÏÏÏÏÌÏÍÎÍÍÌÍÍÎÎÍ; // 0x48
-    public bool ÎÎÎÍÏÎÌÏÏÍÎÎÏÍÌÍÏÏÍÌÎÎÎ; // 0x50
-    public ÌÍÍÍÏÏÌÏÌÍÌÍÏÍÍÌÌÌÌÍÎÏÍ ÍÎÏÌÏÎÏÍÌÌÌÎÍÎÍÎÍÌÌÍÍÍÎ; // 0x58
-    public System.Collections.Generic.List`1<int> ÏÍÎÍÍÍÎÍÏÍÍÎÏÌÍÎÍÍÍÎÌÍÍ; // 0x60
-    public System.Collections.Generic.List`1<ÏÏÏÍÌÌÍÎÎÍÏÎÍÏÍÎÌÌÌÎÎÌÎ> ÍÎÎÎÏÎÏÌÎÍÍÎÌÍÍÎÍÍÏÌÌÎÏ; // 0x68
-    public System.Collections.Generic.List`1<byte[]> ÌÌÏÌÍÌÎÎÍÌÌÌÏÏÍÎÍÌÌÌÏÌÍ; // 0x70
+    public int ÎÌÌÍÎÏÎÌÌÎÏÎÍÎÎÏÏÎÎÍÌÎÍ;
+    public URA.woDigitYearMax<ÎÌÍÏÏÌÍÏ> ÏÎÏÎÎÍÌÌÎÎÏÍÍÏÏÌÏÌÏÍÍÏÌ; // 0x28
+    public ?<?,?> ÍÍÌÌÌÍÎÎÎÏÌÌÍÏÏÍÍÍÎÎÍÎÏ; // 0x30
+    public URA.onsDepth<?> ÏÏÌÎÍÏÌÎÌÎÌÏÎÌÍÌÏÎÍÌÌÍÎ; // 0x38
+    public URA.woDigitYearMax<?> ÌÌÏÎÍÏÍÌÍÎÌÏÌÍÌÏÏÍÎÍÎÌÏ; // 0x40
+    public URA.DateTime<int,URA.woDigitYearMax<?>> ÍÍÎÎÍÍÍÎÏÌÏÍÎÍÍÏÌÎÍÏÏÏÍ; // 0x48
+    public bool ÎÌÍÎÌÌÌÍÎÌÍÌÍÎÍÏÌÍÍÎÍÌÎ; // 0x50
+    public object ÍÌÌÏÍÍÏÏÌÍÍÏÏÏÍÏÎÎÍÏÏÌÍ; // 0x58
+    public URA.woDigitYearMax<int> ÍÎÌÍÌÏÎÎÎÎÍÌÏÌÍÍÎÎÌÏÍÎÎ; // 0x60
+    public URA.woDigitYearMax<?> ÏÍÍÍÌÌÏÍÍÎÎÎÎÍÌÎÌÍÎÏÎÌÌ; // 0x68
+    public URA.woDigitYearMax<byte[]> ÍÌÎÌÎÌÏÏÌÍÎÌÍÌÍÌÍÎÎÏÎÌÌ; // 0x70
 
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E090980
@@ -567,7 +557,7 @@ public class ExceptionFromErrorCode : MulticastDelegate
 
 public class ExceptionResultSource : Object
 {
-    public 0x66435CE0 exception; // 0x10
+    public .Messaging.IInternalMessage.TargetIdentity.eDictionary exception; // 0x10
     public bool calledGet; // 0x18
 
     // ── Methods ──
@@ -581,7 +571,7 @@ public class ExceptionResultSource : Object
 
 public class ExceptionResultSource`1 : Object
 {
-    public 0x66435CE0 exception;
+    public .Messaging.IInternalMessage.TargetIdentity.eDictionary exception;
     public bool calledGet;
 
     // ── Methods ──
@@ -620,9 +610,9 @@ public class ExitStateDelegate : MulticastDelegate
 
 public class ExperimentSegment : Object
 {
-    public string Key; // 0x10
-    public System.Collections.Generic.Dictionary`2<string,string> Payload; // 0x18
-    public string RawPayload; // 0x20
+    public object Key;
+    public object Payload;
+    public object RawPayload;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E420E00
@@ -636,9 +626,9 @@ public class ExperimentSegment : Object
 
 public class ExperimentsManager : Object
 {
-    public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> _name; // 0x10
-    public ÌÌÎÍÎÍÌÏÌÍÏÏÏÏÏÌÍÏÏÎÎÏÍ _hideFlags; // 0x18
-    public ÌÌÎÍÎÍÌÏÌÍÏÏÏÏÏÌÍÏÏÎÎÏÍ f_F9A; // 0x20
+    public ?<bool> _name; // 0x10
+    public ÏÏÎÍÏÏÌÌÎÌÏÏÏÍÏÍ _hideFlags; // 0x18
+    public ÏÏÎÍÏÏÌÌÎÌÏÏÏÍÏÍ f_F9A; // 0x20
 
     // ── Methods ──
     public void Initialize(){} // RVA: 0x7FFD4E342E30
@@ -666,20 +656,20 @@ public class Expression : Object
 
 public class ExpressionIcons : ValueType
 {
-    public UnityEngine.Texture2D typeToggleOn; // 0x10
-    public UnityEngine.Texture2D typeToggleOff; // 0x18
-    public UnityEngine.Texture2D typeFolder; // 0x20
-    public UnityEngine.Texture2D typeAxis; // 0x28
-    public UnityEngine.Texture2D typeRadial; // 0x30
-    public UnityEngine.Texture2D typePlayOn; // 0x38
-    public UnityEngine.Texture2D typePlayOff; // 0x40
+    public ector typeToggleOn; // 0x10
+    public ector typeToggleOff; // 0x18
+    public ector typeFolder; // 0x20
+    public ector typeAxis; // 0x28
+    public ector typeRadial; // 0x30
+    public ector typePlayOn; // 0x38
+    public ector typePlayOff; // 0x40
 }
 
 public class ExpressionQuoter : ExpressionVisitor
 {
-    public System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,0x66553130> _variables; // 0x10
-    public 0x66551500 _frame; // 0x18
-    public System.Collections.Generic.Stack`1<System.Collections.Generic.HashSet`1<System.Linq.Expressions.ParameterExpression>> _shadowedVars; // 0x20
+    public URA.DateTime<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current,rmat_String_ObjectArray.er> _variables; // 0x10
+    public rmat_String_ObjectArray.derExtensions _frame; // 0x18
+    public URA.leEastFrench<URA.onsDepth<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current>> _shadowedVars; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD542101A0
@@ -694,7 +684,7 @@ public class ExpressionQuoter : ExpressionVisitor
 
 public class ExtensionReflectionHelper`2 : Object
 {
-    public Google.Protobuf.Extension extension;
+    public gBox.GetMonthNamesCore extension;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -706,7 +696,7 @@ public class ExtensionReflectionHelper`2 : Object
 
 public class ExternalForcesModule : ValueType
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public InDuration enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -758,9 +748,9 @@ public class ExtractKeyDelegate : MulticastDelegate
 public class EyeRotationLimiterForExport : Object
 {
     public string transformPath; // 0x10
-    public RealisticEyeMovements.SerializableQuaternion defaultQ; // 0x18
-    public RealisticEyeMovements.SerializableQuaternion lookUpQ; // 0x28
-    public RealisticEyeMovements.SerializableQuaternion lookDownQ; // 0x38
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÌÍÎÍÌÌÌÎÎÍÎÌ defaultQ; // 0x18
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÌÍÎÍÌÌÌÎÎÍÎÌ lookUpQ; // 0x28
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÌÍÎÍÌÌÌÎÎÍÎÌ lookDownQ; // 0x38
     public bool isLookUpSet; // 0x48
     public bool isLookDownSet; // 0x49
 
@@ -770,7 +760,7 @@ public class EyeRotationLimiterForExport : Object
 
 public class EyelidPositionBlendshape : Object
 {
-    public UnityEngine.SkinnedMeshRenderer skinnedMeshRenderer; // 0x10
+    public ure skinnedMeshRenderer; // 0x10
     public float defaultWeight; // 0x18
     public float positionWeight; // 0x1C
     public int index; // 0x20
@@ -808,16 +798,16 @@ public class EyelidPositionBlendshapeForExport : Object
 public class EyelidRotationLimiterForExport : Object
 {
     public string transformPath; // 0x10
-    public RealisticEyeMovements.SerializableQuaternion defaultQ; // 0x18
-    public RealisticEyeMovements.SerializableQuaternion closedQ; // 0x28
-    public RealisticEyeMovements.SerializableQuaternion lookUpQ; // 0x38
-    public RealisticEyeMovements.SerializableQuaternion lookDownQ; // 0x48
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÌÍÎÍÌÌÌÎÎÍÎÌ defaultQ; // 0x18
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÌÍÎÍÌÌÌÎÎÍÎÌ closedQ; // 0x28
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÌÍÎÍÌÌÌÎÎÍÎÌ lookUpQ; // 0x38
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÌÍÎÍÌÌÌÎÎÍÎÌ lookDownQ; // 0x48
     public float eyeMaxDownAngle; // 0x58
     public float eyeMaxUpAngle; // 0x5C
-    public RealisticEyeMovements.SerializableVector3 defaultPos; // 0x60
-    public RealisticEyeMovements.SerializableVector3 closedPos; // 0x6C
-    public RealisticEyeMovements.SerializableVector3 lookUpPos; // 0x78
-    public RealisticEyeMovements.SerializableVector3 lookDownPos; // 0x84
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÍÍÎÎÎÌÏÌÌÎÌÏÎÌÏÎ defaultPos; // 0x60
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÍÍÎÎÎÌÏÌÌÎÌÏÎÌÏÎ closedPos; // 0x6C
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÍÍÎÎÎÌÏÌÌÎÌÏÎÌÏÎ lookUpPos; // 0x78
+    public ÍÎÏÎÌÍÌÎÌÌÌÎÎÌÌÌÍÌÎÌ.ÍÍÎÎÎÌÏÌÌÎÌÏÎÌÏÎ lookDownPos; // 0x84
     public bool isLookUpSet; // 0x90
     public bool isLookDownSet; // 0x91
     public bool isDefaultPosSet; // 0x92

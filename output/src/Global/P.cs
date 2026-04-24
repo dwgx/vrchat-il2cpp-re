@@ -19,7 +19,7 @@ public class PCMSetPositionCallback : MulticastDelegate
 
 public class PagedGroupResult : Object
 {
-    public System.Collections.Generic.IReadOnlyList`1<VRC.Core.APIGroup> Groups; // 0x10
+    public URA.saAbbrevMonthNames<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.<pastDisplayNames>k__BackingField> Groups; // 0x10
     public string NextCursor; // 0x18
 
     // ── Methods ──
@@ -36,8 +36,8 @@ public class Pair : ValueType
 
 public class PairIterator : ValueType
 {
-    public int System.Collections.IEnumerator.Current; // 0x10
-    public Photon.Client.NonAllocDictionary`2<int,Photon.Client.NCommand> Current; // 0x18
+    public int System.Collections.IEnumerator.Current;
+    public Ease_Out.ÍÍÏÍÌÍÍÌÌÏÍÏÌÍÍÍÍÍÌÌ<T1717720800,T1717720816> Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -57,7 +57,7 @@ public class PanicFunction_ : MulticastDelegate
 
 public class ParallelForJobStruct`1 : ValueType
 {
-    public SharedStatic`1<UIntPtr> jobReflectionData;
+    public ÌÌÎÍÍÌÎÍÎÍÏÎÍÍÍÏÌÎÏÏÍÌÏ<UIntPtr> jobReflectionData;
 
     // ── Methods ──
     public void Initialize(){} // RVA: 0x7FFD4E0909B0
@@ -67,26 +67,14 @@ public class ParallelForJobStruct`1 : ValueType
 
 public class ParallelWriter : ValueType
 {
-    public ParallelWriter<Pair,bool> m_Buffer; // 0x10
+    public IntPtr m_Buffer;
+    public int m_ThreadIndex;
 }
 
 public class Parameter : Object
 {
-    public 0x665AE410 hash; // 0x10
-    public string _hash; // 0x18
-    public string source; // 0x20
-    public float value; // 0x28
-    public float valueMin; // 0x2C
-    public float valueMax; // 0x30
-    public float chance; // 0x34
-    public bool preventRepeats; // 0x38
-    public bool convertRange; // 0x39
-    public float sourceMin; // 0x3C
-    public float sourceMax; // 0x40
-    public float destMin; // 0x44
-    public float destMax; // 0x48
-    public object sourceParam; // 0x50
-    public object destParam; // 0x58
+    public string hash; // 0x10
+    public int _hash; // 0x18
 
     // ── Methods ──
     public void get_hash(){} // RVA: 0x7FFD57434ED0
@@ -97,10 +85,10 @@ public class Parameter : Object
 public class ParameterConfig : Object
 {
     public string name; // 0x10
-    public InputParameter input; // 0x18
-    public OutputParameter output; // 0x20
+    public ÍÎÍÍÍÍÎÏÍÎÌÌÏÌÍÎÎÍ input; // 0x18
+    public object output; // 0x20
     public string stringType; // 0x28
-    public N parameterType; // 0x30
+    public object parameterType; // 0x30
     public int hash; // 0x34
 
     // ── Methods ──
@@ -111,10 +99,6 @@ public class ParameterConfig : Object
 
 public class ParameterEnumerable : ValueType
 {
-    public UnityEngine.InputSystem.InputActionState m_State; // 0x10
-    public ParameterOverride m_Parameter; // 0x18
-    public int m_MapIndex; // 0x90
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54951CD0
     public void GetEnumerator(){} // RVA: 0x7FFD54951DE0
@@ -124,23 +108,8 @@ public class ParameterEnumerable : ValueType
 
 public class ParameterEnumerator : ValueType
 {
-    public UnityEngine.InputSystem.InputActionState Current; // 0x10
-    public int System.Collections.IEnumerator.Current; // 0x18
-    public int m_BindingCurrentIndex; // 0x1C
-    public int m_BindingEndIndex; // 0x20
-    public int m_InteractionCurrentIndex; // 0x24
-    public int m_InteractionEndIndex; // 0x28
-    public int m_ProcessorCurrentIndex; // 0x2C
-    public int m_ProcessorEndIndex; // 0x30
-    public UnityEngine.InputSystem.InputBinding m_BindingMask; // 0x38
-    public System.Type m_ObjectType; // 0x90
-    public string m_ParameterName; // 0x98
-    public bool m_MayBeInteraction; // 0xA0
-    public bool m_MayBeProcessor; // 0xA1
-    public bool m_MayBeComposite; // 0xA2
-    public bool m_CurrentBindingIsComposite; // 0xA3
-    public object m_CurrentObject; // 0xA8
-    public System.Reflection.FieldInfo m_CurrentParameter; // 0xB0
+    public object Current;
+    public object System.Collections.IEnumerator.Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD549520B0
@@ -159,8 +128,8 @@ public class ParameterOverride : ValueType
 {
     public string objectType; // 0x10
     public string parameter; // 0x18
-    public UnityEngine.InputSystem.InputBinding bindingMask; // 0x20
-    public UnityEngine.InputSystem.Utilities.PrimitiveValue value; // 0x78
+    public ilAddress.__BackingField bindingMask; // 0x20
+    public 2.me value; // 0x78
 
     // ── Methods ──
     public void get_objectType(){} // RVA: 0x7FFD54952D70
@@ -187,8 +156,8 @@ public class ParentHash : ValueType
 
 public class PartBinding : ValueType
 {
-    public int part; // 0x10
-    public UnityEngine.InputSystem.InputControl control; // 0x18
+    public object part;
+    public object control;
 
     // ── Methods ──
     public void get_part(){} // RVA: 0x7FFD4F840210
@@ -199,15 +168,15 @@ public class PartBinding : ValueType
 
 public class Particle : ValueType
 {
-    public UnityEngine.Vector3 lifetime; // 0x10
-    public UnityEngine.Vector3 position; // 0x1C
-    public UnityEngine.Vector3 velocity; // 0x28
-    public UnityEngine.Vector3 animatedVelocity; // 0x34
-    public UnityEngine.Vector3 totalVelocity; // 0x40
-    public UnityEngine.Vector3 remainingLifetime; // 0x4C
-    public UnityEngine.Vector3 startLifetime; // 0x58
-    public UnityEngine.Vector3 startColor; // 0x64
-    public UnityEngine.Color32 randomSeed; // 0x70
+    public amut lifetime; // 0x10
+    public amut position; // 0x1C
+    public amut velocity; // 0x28
+    public amut animatedVelocity; // 0x34
+    public amut totalVelocity; // 0x40
+    public amut remainingLifetime; // 0x4C
+    public amut startLifetime; // 0x58
+    public amut startColor; // 0x64
+    public object randomSeed; // 0x70
     public uint axisOfRotation; // 0x74
     public uint startSize; // 0x78
     public float startSize3D; // 0x7C
@@ -275,7 +244,7 @@ public class PassthroughCapabilities : Object
 
 public class PerCoreLockedStacks : Object
 {
-    public LockedStack<0x665C6FB8<Transmtn.DTO.Notifications.Notification>>[] _perCoreStacks; // 0x10
+    public n<T1717592560>[] _perCoreStacks;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -287,7 +256,7 @@ public class PerCoreLockedStacks : Object
 public class PerTypeValues`1 : Object
 {
     public bool IsReferenceOrContainsReferences;
-    public T[] EmptyArray;
+    public T1717725632[] EmptyArray;
     public UIntPtr ArrayAdjustment;
 
     // ── Methods ──
@@ -301,24 +270,24 @@ public class PerformanceAnalyticsUpdate : ValueType
 
 public class PersonalMirrorIcons : ValueType
 {
-    public UnityEngine.Texture2D mirror; // 0x10
-    public UnityEngine.Texture2D mirrorOpacity; // 0x18
-    public UnityEngine.Texture2D mirrorScale; // 0x20
-    public UnityEngine.Texture2D mirrorTracking; // 0x28
-    public UnityEngine.Texture2D mirrorVisibility; // 0x30
-    public UnityEngine.Texture2D mirrorReset; // 0x38
-    public UnityEngine.Texture2D mirrorPlus; // 0x40
-    public UnityEngine.Texture2D mirrorMinus; // 0x48
-    public UnityEngine.Texture2D faceMirror; // 0x50
-    public UnityEngine.Texture2D faceOpacity; // 0x58
-    public UnityEngine.Texture2D facePosition; // 0x60
-    public UnityEngine.Texture2D faceScale; // 0x68
-    public UnityEngine.Texture2D faceReset; // 0x70
+    public ector mirror; // 0x10
+    public ector mirrorOpacity; // 0x18
+    public ector mirrorScale; // 0x20
+    public ector mirrorTracking; // 0x28
+    public ector mirrorVisibility; // 0x30
+    public ector mirrorReset; // 0x38
+    public ector mirrorPlus; // 0x40
+    public ector mirrorMinus; // 0x48
+    public ector faceMirror; // 0x50
+    public ector faceOpacity; // 0x58
+    public ector facePosition; // 0x60
+    public ector faceScale; // 0x68
+    public ector faceReset; // 0x70
 }
 
 public class PhotoCaptureResult : ValueType
 {
-    public 0x664E1668 resultType; // 0x10
+    public lphaMin resultType; // 0x10
     public long hResult; // 0x18
 }
 
@@ -332,15 +301,15 @@ public class PhraseRecognizedDelegate : MulticastDelegate
 public class PhysBoneJob : ValueType
 {
     public float currentTime; // 0x10
-    public Unity.Mathematics.float3 distanceCullOrigin; // 0x14
-    public Unity.Collections.NativeArray`1<int> chainIndices; // 0x20
-    public Unity.Collections.NativeArray`1<ChainRoot> roots; // 0x30
-    public Unity.Collections.NativeArray`1<Chain> chains; // 0x40
-    public Unity.Collections.NativeArray`1<Bone> bones; // 0x50
-    public Unity.Collections.NativeArray`1<0x664E1038> transformAccess; // 0x60
-    public Unity.Collections.NativeArray`1<TransformData> transformData; // 0x70
-    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x80
-    public Unity.Collections.NativeArray`1<0x665BFD40> errorBuffer; // 0x90
+    public es.ap distanceCullOrigin; // 0x14
+    public ÍÎÏÎÎ.ÌÌ<int> chainIndices; // 0x20
+    public ÍÎÏÎÎ.ÌÌ<tCursorPositionFromStringIndexUsingCharacterHeight> roots; // 0x30
+    public ÍÎÏÎÎ.ÌÌ<ingArray> chains; // 0x40
+    public ÍÎÏÎÎ.ÌÌ<radius> bones; // 0x50
+    public ÍÎÏÎÎ.ÌÌ<rdLeastSignificantDecimal> transformAccess; // 0x60
+    public ÍÎÏÎÎ.ÌÌ<t_font> transformData; // 0x70
+    public ÍÎÏÎÎ.ÌÌ<?> shapeData; // 0x80
+    public ÍÎÏÎÎ.ÌÌ<Size> errorBuffer; // 0x90
     public int FABRIK_MAX_ITERATIONS;
     public float FABRIK_SOLVED_MARGIN;
 
@@ -444,12 +413,12 @@ public class PinchData : ValueType
 {
     public float Distance; // 0x10
     public float Amount; // 0x14
-    public UnityEngine.Vector3 Center; // 0x18
+    public amut Center; // 0x18
 }
 
 public class PinnedArray`1 : ValueType
 {
-    public System.Runtime.InteropServices.GCHandle _handle;
+    public annelDataStore.essage _handle;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -465,9 +434,9 @@ public class PipelineSaver : MonoBehaviour
 
 public class PlatformAsset : Object
 {
-    public 0x664C9720 Platform; // 0x10
-    public UnityEngine.Sprite Icon; // 0x18
-    public UnityEngine.Color Color; // 0x20
+    public ÌÏÏÏÎÍÍÏÎÎÏÌÌÎÌÌ Platform; // 0x10
+    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField Icon; // 0x18
+    public object Color; // 0x20
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -475,9 +444,6 @@ public class PlatformAsset : Object
 
 public class PlatformOptions : Object
 {
-    public 0x665D6160 httpHeaders; // 0x10
-    public RenderHeads.Media.AVProVideo.KeyAuthData keyAuth; // 0x18
-
     // ── Methods ──
     public void IsModified(){} // RVA: 0x7FFD4FBE24F0
     public void GetKeyServerAuthToken(){} // RVA: 0x7FFD4E98C7D0
@@ -492,14 +458,14 @@ public class PlaybackState : ValueType
     public float m_StartDelay; // 0x14
     public float m_PlaybackTime; // 0x18
     public int m_RingBufferIndex; // 0x1C
-    public 0x665E5D58 m_Emission; // 0x20
-    public 0x665E5DB0 m_Initial; // 0x38
-    public 0x665E5E08 m_Shape; // 0x78
-    public 0x665E5E60 m_Force; // 0xD4
-    public 0x665E5EB8 m_Collision; // 0x114
-    public 0x665E5F10 m_Noise; // 0x154
-    public 0x665E5F68 m_Lights; // 0x158
-    public 0x665E5FC0 m_Trail; // 0x16C
+    public object m_Emission; // 0x20
+    public Ï m_Initial; // 0x38
+    public gSmoothFactor m_Shape; // 0x78
+    public ndex m_Force; // 0xD4
+    public ÍÏÎÍÏÏÏÏÌÏÍ>k__BackingField m_Collision; // 0x114
+    public NameAlternatives m_Noise; // 0x154
+    public 4E58B42A7F61FD0EEE1D89B5120B m_Lights; // 0x158
+    public 7367E4FB0766E2CBC3ACF5AB42B4E98348E58E5A789845D4FCCDB63D2AEE m_Trail; // 0x16C
 }
 
 public class PlayerCleanupCachedData : ValueType
@@ -514,11 +480,11 @@ public class PlayerModComponentHealth : NetworkReadyHandler_68D0
 {
     public float f_3DB; // 0x58
     public float f_ABC; // 0x5C
-    public ÎÌÎÏÍÌÍÏÍÌÎÌÏÏÏÎÍÌÏÍÎÏÎ f_8D0; // 0x60
-    public 0x66625940 ÏÌÌÌÌÎÍÌÏÍÏÌÎÌÏÍÏÎÏÏÍÌÏ; // 0x68
-    public bool ÍÍÏÌÌÎÏÏÎÌÏÎÎÎÎÌÎÏÎÎÌÏÏ; // 0x6C
-    public ÍÍÎÎÍÎÎÏÍÌÏÏÌÎÍÍÎÎÍÏÌÏÎ ÎÏÌÎÌÌÍÌÌÌÌÏÍÍÌÏÍÍÎÌÌÌÏ; // 0x70
-    public UnityEngine.Coroutine ÎÎÍÍÍÏÏÎÏÌÏÏÌÍÌÍÎÌÌÌÏÍÏ; // 0x78
+    public object f_8D0; // 0x60
+    public ixerGroup ÏÏÎÌÌÍÏÏÎÏÏÎÍÎÏÍÍÌÍÌÍÍÌ; // 0x68
+    public bool ÎÌÌÏÏÎÍÏÏÎÎÍÏÌÍÏÌÏÌÌÎÌÌ; // 0x6C
+    public ÏÍÌÌÎÌÌÌ ÌÌÎÎÏÍÎÏÍÎÏÍÏÌÌÌÏÏÍÏÎÍÏ; // 0x70
+    public ts ÍÎÏÍÍÎÎÎÎÍÏÏÌÏÎÌÍÌÌÌÎÌÎ; // 0x78
 
     // ── Methods ──
     public void print(){} // RVA: 0x7FFD4F2EB600
@@ -554,10 +520,10 @@ public class PlayerModComponentHealth : NetworkReadyHandler_68D0
 
 public class PlayerModComponentJump : MonoBehaviour
 {
-    public ÍÌÎÍÌÌÎÌÏÍÏÍÍÏÍÎÎÏÌÌÎÌÏ ÎÌÎÎÍÏÎÏÎÌÍÏÍÌÎÏÍÏÌÎÌÎÎ; // 0x20
-    public float ÌÌÍÌÎÏÏÎÌÌÎÏÍÍÎÌÌÏÍÌÏÎÎ; // 0x28
-    public float ÌÌÎÌÍÌÌÏÍÌÎÍÍÍÍÏÏÎÏÏÍÍÎ; // 0x2C
-    public bool ÎÎÍÍÎÎÍÎÌÎÌÍÎÏÎÍÎÍÌÍÍÏÌ; // 0x30
+    public ÎÎÎÌÍÌÌÏÍÎÎÎÏÏÎÎÏÌÍÏ ÏÎÎÎÎÌÌÎÎÏÎÍÎÎÌÏÎÌÏÍÎÎÍ; // 0x20
+    public float ÏÎÎÍÎÏÏÍÏÍÎÍÍÍÌÍÏÎÌÏÍÎÏ; // 0x28
+    public float ÎÌÎÎÎÍÎÌÍÏÍÌÌÏÍÌÍÌÌÌÍÎÌ; // 0x2C
+    public bool ÌÌÏÍÎÌÌÏÎÌÌÌÏÎÎÎÍÎÏÍÌÌÎ; // 0x30
 
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F2F03F0
@@ -576,14 +542,14 @@ public class PlayerModComponentJump : MonoBehaviour
 
 public class PlayerModComponentSpeed : MonoBehaviour
 {
-    public ÍÌÎÍÌÌÎÌÏÍÏÍÍÏÍÎÎÏÌÌÎÌÏ ÍÎÏÍÌÍÌÎÎÍÌÏÏÌÍÎÏÍÎÏÌÏÍ; // 0x20
-    public float ÍÏÎÍÎÏÌÍÍÌÏÍÍÌÌÌÎÏÎÏÍÎÍ; // 0x28
-    public float ÎÏÍÎÍÍÌÍÌÌÏÎÌÎÌÎÎÎÎÍÌÍÌ; // 0x2C
-    public float ÍÌÌÏÏÏÍÍÏÏÎÍÍÍÍÍÌÏÌÍÍÍÌ; // 0x30
-    public float ÎÍÌÏÎÍÌÍÏÏÏÍÎÏÏÍÎÏÏÎÏÎÏ; // 0x34
-    public float ÏÏÌÏÌÍÏÍÍÍÌÏÏÍÎÍÌÍÌÍÏÌÏ; // 0x38
-    public float ÎÎÎÍÌÌÎÍÏÌÏÎÎÌÍÍÍÎÎÏÍÌÍ; // 0x3C
-    public bool ÏÌÎÏÏÌÌÍÍÌÎÌÌÏÎÌÏÌÌÌÌÍÌ; // 0x40
+    public ÎÎÎÌÍÌÌÏÍÎÎÎÏÏÎÎÏÌÍÏ ÏÏÌÏÌÌÌÏÍÏÏÎÌÎÌÌÍÎÌÏÌÍÎ; // 0x20
+    public float ÎÌÏÌÌÎÌÍÏÏÍÌÏÍÌÎÏÎÌÌÏÏÍ; // 0x28
+    public float ÍÏÍÎÍÎÍÎÏÌÏÍÎÏÍÏÌÍÏÏÍÍÏ; // 0x2C
+    public float ÏÏÍÌÌÌÏÎÍÍÍÎÏÌÎÎÍÏÍÏÍÎÍ; // 0x30
+    public float ÎÌÍÎÎÍÍÍÌÏÌÍÎÎÌÍÏÌÏÏÌÍÏ; // 0x34
+    public float ÍÎÌÌÌÎÍÎÎÏÌÌÍÎÌÎÏÏÍÏÏÏÌ; // 0x38
+    public float ÏÏÏÌÌÌÏÎÌÎÎÍÏÌÎÍÏÎÏÌÏÏÌ; // 0x3C
+    public bool ÍÏÎÍÌÌÌÍÍÏÏÎÍÏÎÏÌÏÍÎÍÍÍ; // 0x40
 
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F2F1150
@@ -604,10 +570,10 @@ public class PlayerModComponentSpeed : MonoBehaviour
 
 public class PlayerModComponentVoice : MonoBehaviour
 {
-    public float ÏÎÍÏÏÎÍÏÏÌÏÍÎÍÎÌÏÎÏÍÌÌÌ; // 0x20
-    public float ÎÍÌÏÌÎÌÌÎÍÏÌÏÍÏÍÍÌÎÎÎÎÍ; // 0x24
-    public bool ÍÌÏÎÎÏÍÌÍÍÎÏÌÌÍÌÌÍÌÍÎÌÏ; // 0x28
-    public ÌÍÎÎÍÎÌÌÍÎÌÌÍÏÎÎÍÍÍÏÎÍÍ ÍÌÏÎÏÏÌÌÍÏÌÌÏÌÏÌÌÎÏÎÏÎÍ; // 0x30
+    public float ÏÍÎÏÍÏÌÍÎÌÎÏÏÏÎÍÏÏÎÍÌÎÎ; // 0x20
+    public float ÌÏÎÏÏÍÏÌÍÏÍÎÎÎÌÏÎÎÍÍÍÌÌ; // 0x24
+    public bool ÍÎÎÌÏÎÎÎÎÎÏÏÎÎÎÍÍÏÌÏÍÌÎ; // 0x28
+    public object ÎÎÏÍÏÍÏÍÎÌÌÍÍÌÎÍÌÌÌÎÏÍÎ; // 0x30
 
     // ── Methods ──
     public void OnDestroy(){} // RVA: 0x7FFD4F2F2EE0
@@ -665,14 +631,14 @@ public class PollHtcsPlayerConnection : ValueType
 
 public class PollNextEventUnion : ValueType
 {
-    public _PollNextEvent pPollNextEvent; // 0x10
-    public _PollNextEventPacked pPollNextEventPacked; // 0x10
+    public e pPollNextEvent; // 0x10
+    public object pPollNextEventPacked; // 0x10
 }
 
 public class PollNextOverlayEventUnion : ValueType
 {
-    public _PollNextOverlayEvent pPollNextOverlayEvent; // 0x10
-    public _PollNextOverlayEventPacked pPollNextOverlayEventPacked; // 0x10
+    public heckForBlocking pPollNextOverlayEvent; // 0x10
+    public ull pPollNextOverlayEventPacked; // 0x10
 }
 
 public class PollPlayerConnection : ValueType
@@ -681,12 +647,12 @@ public class PollPlayerConnection : ValueType
 
 public class PolyNode : Object
 {
-    public PolyNode ChildCount; // 0x10
-    public System.Collections.Generic.List`1<IntPoint> Contour; // 0x18
+    public hCache ChildCount; // 0x10
+    public URA.woDigitYearMax<lfFrustumHeight> Contour; // 0x18
     public int Childs; // 0x20
-    public 0x6658C548 Parent; // 0x24
-    public 0x6658C5A0 IsHole; // 0x28
-    public System.Collections.Generic.List`1<PolyNode> IsOpen; // 0x30
+    public Solution Parent; // 0x24
+    public gShape2D IsHole; // 0x28
+    public URA.woDigitYearMax<hCache> IsOpen; // 0x30
     public bool <IsOpen>k__BackingField; // 0x38
 
     // ── Methods ──
@@ -706,7 +672,7 @@ public class PolyNode : Object
 
 public class PolyTree : PolyNode
 {
-    public System.Collections.Generic.List`1<PolyNode> Total; // 0x40
+    public URA.woDigitYearMax<hCache> Total; // 0x40
 
     // ── Methods ──
     public void Clear(){} // RVA: 0x7FFD4FC7BDD0
@@ -717,10 +683,10 @@ public class PolyTree : PolyNode
 
 public class PolyfillExtensions : Object
 {
-    public System.Collections.Concurrent.ConcurrentDictionary`2<System.Reflection.ParameterInfo,0x66502198> parameterCache;
-    public System.Collections.Concurrent.ConcurrentDictionary`2<System.Reflection.PropertyInfo,0x66502198> propertyCache; // 0x8
-    public System.Collections.Concurrent.ConcurrentDictionary`2<System.Reflection.EventInfo,0x66502198> eventCache; // 0x10
-    public System.Collections.Concurrent.ConcurrentDictionary`2<System.Reflection.FieldInfo,0x66502198> fieldCache; // 0x18
+    public JapaneseLangName.erns<m.?,m.ngField> parameterCache;
+    public JapaneseLangName.erns<m.ber,m.ngField> propertyCache; // 0x8
+    public JapaneseLangName.erns<m.itValueA,m.ngField> eventCache; // 0x10
+    public JapaneseLangName.erns<m.WmiGuidObject,m.ngField> fieldCache; // 0x18
     public long TicksPerMicrosecond;
 
     // ── Methods ──
@@ -778,7 +744,7 @@ public class PolyfillExtensions : Object
 
 public class PolygonSolution : ValueType
 {
-    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<IntPoint>> IsNull; // 0x10
+    public URA.woDigitYearMax<URA.woDigitYearMax<lfFrustumHeight>> IsNull; // 0x10
     public float frustumHeight; // 0x18
 
     // ── Methods ──
@@ -795,14 +761,14 @@ public class PopupTextElement : TextElement
 
 public class PortalSkinMap : MonoBehaviour
 {
-    public UnityEngine.Animator Animator; // 0x20
-    public UnityEngine.MeshRenderer ThumbnailRenderer; // 0x28
+    public stfix Animator; // 0x20
+    public terialIndex ThumbnailRenderer; // 0x28
     public float DespawnDuration; // 0x30
-    public UnityEngine.Transform PortalUIOverridePosition; // 0x38
-    public UnityEngine.Transform PortalPlatformBadgesOverridePosition; // 0x40
-    public UnityEngine.Transform PortalLabsBadgeOverridePosition; // 0x48
+    public object PortalUIOverridePosition; // 0x38
+    public object PortalPlatformBadgesOverridePosition; // 0x40
+    public object PortalLabsBadgeOverridePosition; // 0x48
     public float PreviewScale; // 0x50
-    public UnityEngine.Vector3 PreviewOffset; // 0x54
+    public amut PreviewOffset; // 0x54
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5527DC40
@@ -810,9 +776,9 @@ public class PortalSkinMap : MonoBehaviour
 
 public class Pose : Object
 {
-    public VRC.Dynamics.ChainId chainId; // 0x10
+    public ÍÏÎÎÌÍÍ.arker chainId; // 0x10
     public bool prevIsAnimated; // 0x20
-    public System.Collections.Generic.List`1<0x665C0210> prevData; // 0x28
+    public URA.woDigitYearMax<ntAssetInternal> prevData; // 0x28
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5526E9E0
@@ -820,7 +786,7 @@ public class Pose : Object
 
 public class PostLateUpdater : MonoBehaviour
 {
-    public VRC.Udon.UdonManager udonManager; // 0x20
+    public er.therRotation udonManager; // 0x20
 
     // ── Methods ──
     public void LateUpdate(){} // RVA: 0x7FFD552A7A40
@@ -829,7 +795,7 @@ public class PostLateUpdater : MonoBehaviour
 
 public class PrecompiledLayout : ValueType
 {
-    public System.Func`1<UnityEngine.InputSystem.InputDevice> factoryMethod; // 0x10
+    public ormation<ilAddress.ActionProperty> factoryMethod; // 0x10
     public string metadata; // 0x18
 }
 
@@ -844,7 +810,7 @@ public class PresentBeforeUpdate : ValueType
 public class PresetSaveData : Object
 {
     public int SelectedPreset; // 0x10
-    public System.Collections.Generic.Dictionary`2<int,ÍÎÍÌÎÌÍÍÎÍÏÏÎÏÏÎÎÎÌÌÌÍÏ> Presets; // 0x18
+    public URA.DateTime<int,ÍÍÏ> Presets; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -853,7 +819,7 @@ public class PresetSaveData : Object
 public class PreviousInfo : ValueType
 {
     public int Code; // 0x10
-    public byte* SortKey; // 0x18
+    public IntPtr SortKey; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD537BB310
@@ -898,6 +864,6 @@ public class ProfilerSynchronizeStats : ValueType
 
 public class ProviderRegistration : ValueType
 {
-    public Microsoft.Extensions.Logging.ILoggerProvider Provider; // 0x10
+    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ÏÍÌÎÎÌÌ Provider; // 0x10
     public bool ShouldDispose; // 0x18
 }

@@ -26,9 +26,9 @@ namespace VRC.Core.Networking.Tools
 
     public class BunchCollection : Object
     {
-        public System.Collections.Generic.Dictionary`2<int,byte[]> Hash; // 0x10
+        public URA.DateTime<int,byte[]> Hash; // 0x10
         public int IsAssembled; // 0x18
-        public System.Nullable`1<uint> Count; // 0x1C
+        public aphy<uint> Count; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD551F88B0 | overloaded x2
@@ -42,14 +42,14 @@ namespace VRC.Core.Networking.Tools
 
     public class ByteManipulation : Object
     {
-        public byte[] OneByteArray; // 0xFFFF
-        public byte[] TwoByteArray; // 0xFFFF
-        public byte[] FourByteArray; // 0xFFFF
-        public byte[] EightByteArray; // 0xFFFF
-        public 0x665649B0 Uint16ToBytesHelper; // 0xFFFF
-        public 0x66564958 Uint32ToBytesHelper; // 0xFFFF
-        public 0x66564900 FloatToBytesHelper; // 0xFFFF
-        public 0x66564A08 Uint64ToBytesHelper; // 0xFFFF
+        public byte[] OneByteArray; // 0xFFFFFFFF
+        public byte[] TwoByteArray; // 0xFFFFFFFF
+        public byte[] FourByteArray; // 0xFFFFFFFF
+        public byte[] EightByteArray; // 0xFFFFFFFF
+        public rseSerializedObjectsT Uint16ToBytesHelper; // 0xFFFFFFFF
+        public tmapLength Uint32ToBytesHelper; // 0xFFFFFFFF
+        public fixedSparseSerializedObjectsBuffer FloatToBytesHelper; // 0xFFFFFFFF
+        public bjectsT Uint64ToBytesHelper; // 0xFFFFFFFF
         public float BitsToBytes;
 
         // ── Methods ──

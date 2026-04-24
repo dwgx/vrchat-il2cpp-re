@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 {
     public class CodePointIndexer : Object
     {
-        public TableRange[] ranges; // 0x10
+        public E60A5C8337F28EDF8C33C3B180360B7279644A9BC1AF3C51E6220BF5[] ranges; // 0x10
         public int TotalCount; // 0x18
         public int defaultIndex; // 0x1C
         public int defaultCP; // 0x20
@@ -30,7 +30,7 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 
     public class ContractionComparer : Object
     {
-        public Mono.Globalization.Unicode.ContractionComparer Instance;
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.293D0C9535AF26B5452C6E916CE62FBBF765077BD958E69B7B9 Instance;
 
         // ── Methods ──
         public void Compare(){} // RVA: 0x7FFD537B18D0
@@ -50,22 +50,22 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
     public class MSCompatUnicodeTable : Object
     {
         public int IsReady;
-        public byte* ignorableFlags; // 0x8
-        public byte* categories; // 0x10
-        public byte* level1; // 0x18
-        public byte* level2; // 0x20
-        public byte* level3; // 0x28
-        public byte* cjkCHScategory; // 0x30
-        public byte* cjkCHTcategory; // 0x38
-        public byte* cjkJAcategory; // 0x40
-        public byte* cjkKOcategory; // 0x48
-        public byte* cjkCHSlv1; // 0x50
-        public byte* cjkCHTlv1; // 0x58
-        public byte* cjkJAlv1; // 0x60
-        public byte* cjkKOlv1; // 0x68
-        public byte* cjkKOlv2; // 0x70
+        public IntPtr ignorableFlags; // 0x8
+        public IntPtr categories; // 0x10
+        public IntPtr level1; // 0x18
+        public IntPtr level2; // 0x20
+        public IntPtr level3; // 0x28
+        public IntPtr cjkCHScategory; // 0x30
+        public IntPtr cjkCHTcategory; // 0x38
+        public IntPtr cjkJAcategory; // 0x40
+        public IntPtr cjkKOcategory; // 0x48
+        public IntPtr cjkCHSlv1; // 0x50
+        public IntPtr cjkCHTlv1; // 0x58
+        public IntPtr cjkJAlv1; // 0x60
+        public IntPtr cjkKOlv1; // 0x68
+        public IntPtr cjkKOlv2; // 0x70
         public char[] tailoringArr; // 0x78
-        public Mono.Globalization.Unicode.TailoringInfo[] tailoringInfos; // 0x80
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.AF3C51E6220BF5[] tailoringInfos; // 0x80
         public object forLock; // 0x88
         public bool isReady; // 0x90
 
@@ -95,13 +95,13 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 
     public class MSCompatUnicodeTableUtil : Object
     {
-        public Mono.Globalization.Unicode.CodePointIndexer Ignorable;
-        public Mono.Globalization.Unicode.CodePointIndexer Category; // 0x8
-        public Mono.Globalization.Unicode.CodePointIndexer Level1; // 0x10
-        public Mono.Globalization.Unicode.CodePointIndexer Level2; // 0x18
-        public Mono.Globalization.Unicode.CodePointIndexer Level3; // 0x20
-        public Mono.Globalization.Unicode.CodePointIndexer CjkCHS; // 0x28
-        public Mono.Globalization.Unicode.CodePointIndexer Cjk; // 0x30
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.0AC33B3C31E27 Ignorable;
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.0AC33B3C31E27 Category; // 0x8
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.0AC33B3C31E27 Level1; // 0x10
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.0AC33B3C31E27 Level2; // 0x18
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.0AC33B3C31E27 Level3; // 0x20
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.0AC33B3C31E27 CjkCHS; // 0x28
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.0AC33B3C31E27 Cjk; // 0x30
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD537B4180
@@ -109,16 +109,16 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 
     public class SimpleCollator : Object
     {
-        public Mono.Globalization.Unicode.SimpleCollator invariant;
-        public System.Globalization.TextInfo textInfo; // 0x10
-        public Mono.Globalization.Unicode.CodePointIndexer cjkIndexer; // 0x18
-        public Mono.Globalization.Unicode.Contraction[] contractions; // 0x20
-        public Mono.Globalization.Unicode.Level2Map[] level2Maps; // 0x28
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.E0CE5B8BEA476668CC2303A9845D8EC347A4035FB8 invariant;
+        public 0.GetDeclaringTypeInternal textInfo; // 0x10
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.0AC33B3C31E27 cjkIndexer; // 0x18
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.AB290A5E77EE4F9223EB2E39F9B89C30C41B9D[] contractions; // 0x20
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.6E916CE62FBBF765077BD958E69B7B9[] level2Maps; // 0x28
         public byte[] unsafeFlags; // 0x30
-        public byte* cjkCatTable; // 0x38
-        public byte* cjkLv1Table; // 0x40
-        public byte* cjkLv2Table; // 0x48
-        public Mono.Globalization.Unicode.CodePointIndexer cjkLv2Indexer; // 0x50
+        public IntPtr cjkCatTable; // 0x38
+        public IntPtr cjkLv1Table; // 0x40
+        public IntPtr cjkLv2Table; // 0x48
+        public D3F08BE488F1D6DCBF05D01C69BA80DF49A9E9E415F0205D575B4B5F32A34.0AC33B3C31E27 cjkLv2Indexer; // 0x50
         public int lcid; // 0x58
         public bool frenchSort; // 0x5C
 

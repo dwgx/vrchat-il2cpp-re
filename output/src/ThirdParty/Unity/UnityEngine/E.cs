@@ -57,8 +57,8 @@ namespace ThirdParty.Unity.UnityEngine
     public class Event : Object
     {
         public UIntPtr rawType; // 0x10
-        public UnityEngine.Event mousePosition;
-        public UnityEngine.Event delta; // 0x8
+        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE mousePosition;
+        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE delta; // 0x8
 
         // ── Methods ──
         public void get_rawType(){} // RVA: 0x7FFD54D25250
@@ -120,9 +120,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class EventInterests : ValueType
     {
-        public bool wantsMouseMove; // 0x10
-        public bool wantsMouseEnterLeaveWindow; // 0x11
-        public bool wantsLessLayoutEvents; // 0x12
+        public object wantsMouseMove;
+        public object wantsMouseEnterLeaveWindow;
+        public object wantsLessLayoutEvents;
 
         // ── Methods ──
         public void get_wantsMouseMove(){} // RVA: 0x7FFD4FD7DDF0
@@ -160,8 +160,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ExposedReference`1 : ValueType
     {
-        public UnityEngine.PropertyName exposedName; // 0x10
-        public UnityEngine.Object defaultValue; // 0x18
+        public object exposedName; // 0x10
+        public object defaultValue; // 0x18
 
         // ── Methods ──
         public void Resolve(){} // RVA: 0x7FFD4E2ADC40
@@ -169,8 +169,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ExpressionEvaluator : Object
     {
-        public 0x664DA130 s_Random;
-        public System.Collections.Generic.Dictionary`2<string,0x664DA238> s_Operators; // 0x10
+        public xCount s_Random;
+        public URA.DateTime<string,509_chain_free> s_Operators; // 0x10
 
         // ── Methods ──
         public void Evaluate(){} // RVA: 0x7FFD4E07D5A0

@@ -8,10 +8,6 @@ namespace VRC.Security
     /// <summary>Originally: ÍÌÍÏÎÎÍÍÏÍÍÎÏÌÌÍÏÎÎÏÎÏÏ</summary>
     public class SecurityHighlightDefaultBannerHighlightBannerComponent_606E : MonoBehaviour
     {
-        public UnityEngine.GameObject[] ÍÍÎÍÌÎÌÎÎÎÍÍÎÌÎÌÎÌÎÎÎÌÏ; // 0x20
-        public UnityEngine.GameObject ÌÎÎÎÌÍÎÍÌÎÎÎÍÏÍÌÌÏÏÏÌÍÎ; // 0x28
-        public int ÏÌÌÍÎÎÎÌÍÌÏÍÎÍÎÌÌÎÏÌÎÌÎ; // 0x30
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F6890F0
         public void RaiseCancellation(){} // RVA: 0x7FFD4F689240

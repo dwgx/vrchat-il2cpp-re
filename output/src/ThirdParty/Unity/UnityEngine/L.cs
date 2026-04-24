@@ -9,7 +9,7 @@ namespace ThirdParty.Unity.UnityEngine
     {
         public float screenRelativeTransitionHeight; // 0x10
         public float fadeTransitionWidth; // 0x14
-        public UnityEngine.Renderer[] renderers; // 0x18
+        public rical[] renderers; // 0x18
     }
 
     public class LODGroup : Component
@@ -252,9 +252,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LightProbes : Object
     {
-        public System.Action lightProbesUpdated;
-        public System.Action tetrahedralizationCompleted; // 0x8
-        public System.Action needsRetetrahedralization; // 0x10
+        public ÎÌÍÏÏÌÍÏ lightProbesUpdated;
+        public ÎÌÍÏÏÌÍÏ tetrahedralizationCompleted; // 0x8
+        public ÎÌÍÏÏÌÍÏ needsRetetrahedralization; // 0x10
 
         // ── Methods ──
         public void Internal_CallLightProbesUpdatedFunction(){} // RVA: 0x7FFD54C91A50
@@ -363,9 +363,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Logger : Object
     {
-        public UnityEngine.ILogHandler logHandler; // 0x10
+        public ode logHandler; // 0x10
         public bool logEnabled; // 0x18
-        public 0x664D9630 filterLogType; // 0x1C
+        public object filterLogType; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CC74D0

@@ -41,32 +41,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class IMGUIContainer : VisualElement
     {
-        public System.Action onGUIHandler; // 0x3C8
-        public 0x665E0088 guiState; // 0x3D0
-        public bool lastWorldClip; // 0x3D8
-        public UnityEngine.Rect cullingEnabled; // 0x3DC
-        public bool cache; // 0x3EC
-        public bool layoutMeasuredWidth; // 0x3ED
-        public bool layoutMeasuredHeight; // 0x3EE
-        public 0x665DFAB0 contextType; // 0x3F0
-        public UnityEngine.Rect focusOnlyIfHasFocusableControls; // 0x3F8
-        public UnityEngine.Matrix4x4 canGrabFocus; // 0x408
-        public 0x6647FED0 <contextType>k__BackingField; // 0x448
-        public bool lostFocus; // 0x44C
-        public bool receivedFocus; // 0x44D
-        public 0x6647EDA0 focusChangeDirection; // 0x450
-        public bool hasFocusableControls; // 0x458
-        public int newKeyboardFocusControlID; // 0x45C
-        public bool <focusOnlyIfHasFocusableControls>k__BackingField; // 0x460
-        public string ussClassName;
-        public string ussFoldoutChildDepthClassName; // 0x8
-        public System.Collections.Generic.List`1<string> ussFoldoutChildDepthClassNames; // 0x10
-        public GUIGlobals m_GUIGlobals; // 0x464
-        public Unity.Profiling.ProfilerMarker k_OnGUIMarker; // 0x18
-        public Unity.Profiling.ProfilerMarker k_ImmediateCallbackMarker; // 0x20
-        public UnityEngine.Event s_DefaultMeasureEvent; // 0x28
-        public UnityEngine.Event s_MeasureEvent; // 0x30
-        public UnityEngine.Event s_CurrentEvent; // 0x38
+        public object onGUIHandler;
+        public object guiState;
+        public object lastWorldClip;
+        public object cullingEnabled;
+        public object cache;
+        public object layoutMeasuredWidth;
+        public object layoutMeasuredHeight;
+        public object contextType;
+        public object focusOnlyIfHasFocusableControls;
+        public object canGrabFocus;
 
         // ── Methods ──
         public void get_onGUIHandler(){} // RVA: 0x7FFD54FBEA40
@@ -211,21 +195,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Image : VisualElement
     {
-        public 0x665DF8A0 image; // 0x3C8
-        public UnityEngine.Texture sprite; // 0x3D0
-        public UnityEngine.Sprite vectorImage; // 0x3D8
-        public UnityEngine.UIElements.VectorImage sourceRect; // 0x3E0
-        public UnityEngine.Rect uv; // 0x3E8
-        public UnityEngine.Color scaleMode; // 0x3F8
+        public rder image; // 0x3C8
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField sprite; // 0x3D0
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField vectorImage; // 0x3D8
+        public ÎÏÌÎÎÎÌÌÌ.alue sourceRect; // 0x3E0
+        public dRecorder uv; // 0x3E8
+        public object scaleMode; // 0x3F8
         public bool tintColor; // 0x408
         public bool m_ScaleModeIsInline; // 0x409
         public bool m_TintColorIsInline; // 0x40A
         public string ussClassName;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Texture2D> s_ImageProperty; // 0x8
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Sprite> s_SpriteProperty; // 0x10
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.UIElements.VectorImage> s_VectorImageProperty; // 0x18
-        public UnityEngine.UIElements.CustomStyleProperty`1<string> s_ScaleModeProperty; // 0x20
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_TintColorProperty; // 0x28
+        public ÎÏÌÎÎÎÌÌÌ.ement<ector> s_ImageProperty; // 0x8
+        public ÎÏÌÎÎÎÌÌÌ.ement<ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField> s_SpriteProperty; // 0x10
+        public ÎÏÌÎÎÎÌÌÌ.ement<ÎÏÌÎÎÎÌÌÌ.alue> s_VectorImageProperty; // 0x18
+        public ÎÏÌÎÎÎÌÌÌ.ement<string> s_ScaleModeProperty; // 0x20
+        public ÎÏÌÎÎÎÌÌÌ.ement<?> s_TintColorProperty; // 0x28
 
         // ── Methods ──
         public void get_image(){} // RVA: 0x7FFD4EDE1CA0
@@ -255,21 +239,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class InheritedData : ValueType
     {
-        public UnityEngine.Color color; // 0x10
-        public UnityEngine.UIElements.Length fontSize; // 0x20
-        public UnityEngine.UIElements.Length letterSpacing; // 0x28
-        public UnityEngine.UIElements.TextShadow textShadow; // 0x30
-        public UnityEngine.Font unityFont; // 0x50
-        public UnityEngine.UIElements.FontDefinition unityFontDefinition; // 0x58
-        public 0x66638AD8 unityFontStyleAndWeight; // 0x68
-        public UnityEngine.UIElements.Length unityParagraphSpacing; // 0x6C
-        public 0x66638C90 unityTextAlign; // 0x74
-        public UnityEngine.Color unityTextOutlineColor; // 0x78
-        public float unityTextOutlineWidth; // 0x88
-        public 0x66482A20 visibility; // 0x8C
-        public 0x66482A78 whiteSpace; // 0x90
-        public UnityEngine.UIElements.Length wordSpacing; // 0x94
-
         // ── Methods ──
         public void Copy(){} // RVA: 0x7FFD550156C0
         public void CopyFrom(){} // RVA: 0x7FFD55015710
@@ -280,24 +249,24 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class InlineStyleAccess : StyleValueCollection
     {
-        public 0x66489A30 UnityEngine.UIElements.IStyle.backgroundColor;
-        public System.Collections.Generic.List`1<0x66489DA0> UnityEngine.UIElements.IStyle.borderBottomColor; // 0x18
-        public UnityEngine.UIElements.VisualElement UnityEngine.UIElements.IStyle.borderBottomLeftRadius; // 0x20
+        public tor.lElementAnimationSystem UnityEngine.UIElements.IStyle.backgroundColor;
+        public URA.woDigitYearMax<tor.ateList> UnityEngine.UIElements.IStyle.borderBottomColor; // 0x18
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius UnityEngine.UIElements.IStyle.borderBottomLeftRadius; // 0x20
         public bool UnityEngine.UIElements.IStyle.borderBottomRightRadius; // 0x28
-        public 0x66481F20 UnityEngine.UIElements.IStyle.borderBottomWidth; // 0x30
+        public ÎÏÌÎÎÎÌÌÌ.ttomRightRadius UnityEngine.UIElements.IStyle.borderBottomWidth; // 0x30
         public bool UnityEngine.UIElements.IStyle.borderLeftColor; // 0x50
-        public 0x66482340 UnityEngine.UIElements.IStyle.borderLeftWidth; // 0x54
+        public ÎÏÌÎÎÎÌÌÌ.lements.IStyle.set_borderRightColor UnityEngine.UIElements.IStyle.borderLeftWidth; // 0x54
         public bool UnityEngine.UIElements.IStyle.borderRightColor; // 0x74
-        public s UnityEngine.UIElements.IStyle.borderRightWidth; // 0x78
+        public ÎÏÌÎÎÎÌÌÌ.et_borderRightColor UnityEngine.UIElements.IStyle.borderRightWidth; // 0x78
         public bool UnityEngine.UIElements.IStyle.borderTopColor; // 0x90
-        public 0x664822E8 UnityEngine.UIElements.IStyle.borderTopLeftRadius; // 0x94
+        public ÎÏÌÎÎÎÌÌÌ.UnityEngine.UIElements.IStyle.set_borderRightColor UnityEngine.UIElements.IStyle.borderTopLeftRadius; // 0x94
         public bool UnityEngine.UIElements.IStyle.borderTopRightRadius; // 0xB0
-        public 0x66482238 UnityEngine.UIElements.IStyle.borderTopWidth; // 0xB4
+        public ÎÏÌÎÎÎÌÌÌ.le.set_borderLeftWidth UnityEngine.UIElements.IStyle.borderTopWidth; // 0xB4
         public bool UnityEngine.UIElements.IStyle.bottom; // 0xD0
-        public 0x66482290 UnityEngine.UIElements.IStyle.color; // 0xD4
+        public ÎÏÌÎÎÎÌÌÌ.rLeftWidth UnityEngine.UIElements.IStyle.color; // 0xD4
         public bool UnityEngine.UIElements.IStyle.display; // 0xE8
-        public 0x66481E70 UnityEngine.UIElements.IStyle.flexBasis; // 0xEC
-        public 0x66481420 UnityEngine.UIElements.IStyle.flexDirection; // 0x108
+        public ÎÏÌÎÎÎÌÌÌ.LeftRadius UnityEngine.UIElements.IStyle.flexBasis; // 0xEC
+        public eDataInterface UnityEngine.UIElements.IStyle.flexDirection; // 0x108
 
         // ── Methods ──
         public void UnityEngine.UIElements.IStyle.set_backgroundColor(){} // RVA: 0x7FFD54FF9010

@@ -7,10 +7,10 @@ namespace VRC.SDK.Experimental
 {
     public class VRCImageSaver : VRCCustomAction
     {
-        public UnityEngine.RenderTexture[] textures; // 0x20
+        public Offset[] textures; // 0x20
         public bool useAlpha; // 0x28
-        public string ÏÎÍÌÎÍÏÎÌÍÎÌÍÎÌÌÏÍÌÎÎÏÍ; // 0x30
-        public System.Text.RegularExpressions.Regex ÍÍÌÌÏÍÏÍÏÏÌÌÎÍÎÎÍÌÎÏÏÌÌ; // 0x38
+        public string ÎÎÏÍÍÎÎÌÏÏÍÎÌÏÌÌÏÏÍÎÍÌÏ; // 0x30
+        public tor.neStore ÎÎÏÏÏÏÏÎÏÎÏÌÍÏÏÎÏÍÏÎÏÎÌ; // 0x38
 
         // ── Methods ──
         public void DispatchSaveNetworkEvent(){} // RVA: 0x7FFD4FAD8BE0
@@ -28,7 +28,7 @@ namespace VRC.SDK.Experimental
 
     public class VRCUdonMovieCapture : VRCCustomAction
     {
-        public UnityEngine.Camera[] Cameras; // 0x20
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ[] Cameras; // 0x20
 
         // ── Methods ──
         public void CanStartMovieCapture(){} // RVA: 0x7FFD4FADF720

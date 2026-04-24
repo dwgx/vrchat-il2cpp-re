@@ -7,9 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 {
     public class ActivationControlPlayable : PlayableBehaviour
     {
-        public UnityEngine.GameObject gameObject; // 0x10
-        public 0x665E2130 postPlayback; // 0x18
-        public 0x665E2188 m_InitialState; // 0x1C
+        public BuffersImpl gameObject; // 0x10
+        public object postPlayback; // 0x18
+        public Bits m_InitialState; // 0x1C
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54BF2AD0
@@ -23,9 +23,9 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class ActivationMixerPlayable : PlayableBehaviour
     {
-        public 0x665E07C0 postPlaybackState; // 0x10
+        public object postPlaybackState; // 0x10
         public bool m_BoundGameObjectInitialStateIsActive; // 0x14
-        public UnityEngine.GameObject m_BoundGameObject; // 0x18
+        public BuffersImpl m_BoundGameObject; // 0x18
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54BCC1A0
@@ -48,8 +48,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class ActivationTrack : TrackAsset
     {
-        public 0x665E07C0 postPlaybackState; // 0xA0
-        public UnityEngine.Timeline.ActivationMixerPlayable m_ActivationMixer; // 0xA8
+        public object postPlaybackState; // 0xA0
+        public ÏÏÌÌÍÍÌÌÌÎÏ m_ActivationMixer; // 0xA8
 
         // ── Methods ──
         public void CanCompileClips(){} // RVA: 0x7FFD54BCC7F0
@@ -64,9 +64,9 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class AnimationOutputWeightProcessor : Object
     {
-        public UnityEngine.Animations.AnimationPlayableOutput m_Output; // 0x10
-        public UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_MotionXPlayable; // 0x20
-        public System.Collections.Generic.List`1<0x665E0870> m_Mixers; // 0x30
+        public verlapped.yers m_Output; // 0x10
+        public verlapped.eeping m_MotionXPlayable; // 0x20
+        public URA.woDigitYearMax<?> m_Mixers; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54BCCD10
@@ -76,18 +76,18 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class AnimationPlayableAsset : PlayableAsset
     {
-        public UnityEngine.AnimationClip position; // 0x18
-        public UnityEngine.Vector3 rotation; // 0x20
-        public UnityEngine.Vector3 eulerAngles; // 0x2C
+        public r position; // 0x18
+        public amut rotation; // 0x20
+        public amut eulerAngles; // 0x2C
         public bool useTrackMatchFields; // 0x38
-        public 0x665E0B30 matchTargetFields; // 0x3C
+        public ÎÍÏÏÍÌÌÏÏÍÏÌÌÌÌÏÎÏÎÍ matchTargetFields; // 0x3C
         public bool removeStartOffset; // 0x40
         public bool applyFootIK; // 0x41
-        public 0x665E0920 loop; // 0x44
-        public 0x665E0BE0 hasRootTransforms; // 0x48
+        public ySettings loop; // 0x44
+        public ÍÍ hasRootTransforms; // 0x48
         public int appliedOffsetMode;
         public int clip; // 0x4C
-        public UnityEngine.Quaternion duration; // 0x50
+        public R_12x12 duration; // 0x50
 
         // ── Methods ──
         public void get_position(){} // RVA: 0x7FFD4E3A7EE0
@@ -129,9 +129,9 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class AnimationPreviewUpdateCallback : Object
     {
-        public UnityEngine.Animations.AnimationPlayableOutput m_Output; // 0x10
-        public UnityEngine.Playables.PlayableGraph m_Graph; // 0x20
-        public System.Collections.Generic.List`1<0x665FD250> m_PreviewComponents; // 0x30
+        public verlapped.yers m_Output; // 0x10
+        public oUpdateAPI.oop m_Graph; // 0x20
+        public URA.woDigitYearMax<verlapped.yerMask> m_PreviewComponents; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54BCF0D0
@@ -143,24 +143,24 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
     {
         public string position;
         public string rotation;
-        public 0x665E0EA0 eulerAngles; // 0xA0
-        public 0x665E0EA0 applyOffsets; // 0xA4
-        public UnityEngine.Vector3 trackOffset; // 0xA8
-        public UnityEngine.Vector3 matchTargetFields; // 0xB4
+        public object eulerAngles; // 0xA0
+        public object applyOffsets; // 0xA4
+        public amut trackOffset; // 0xA8
+        public amut matchTargetFields; // 0xB4
         public double infiniteClip; // 0xC0
         public bool infiniteClipRemoveOffset; // 0xC8
         public bool avatarMask; // 0xC9
-        public 0x665E0920 applyAvatarMask; // 0xCC
-        public 0x665E0B30 outputs; // 0xD0
-        public UnityEngine.Vector3 inClipMode; // 0xD4
-        public UnityEngine.Vector3 infiniteClipOffsetPosition; // 0xE0
-        public UnityEngine.AvatarMask infiniteClipOffsetRotation; // 0xF0
+        public ySettings applyAvatarMask; // 0xCC
+        public ÎÍÏÏÍÌÌÏÏÍÏÌÌÌÌÏÎÏÎÍ outputs; // 0xD0
+        public amut inClipMode; // 0xD4
+        public amut infiniteClipOffsetPosition; // 0xE0
+        public tactsList_Injected infiniteClipOffsetRotation; // 0xF0
         public bool infiniteClipOffsetEulerAngles; // 0xF8
-        public 0x665E0B88 infiniteClipApplyFootIK; // 0xFC
-        public UnityEngine.AnimationClip infiniteClipTimeOffset; // 0x100
-        public System.Collections.Generic.Queue`1<UnityEngine.Transform> infiniteClipPreExtrapolation;
-        public UnityEngine.Quaternion infiniteClipPostExtrapolation; // 0x108
-        public UnityEngine.Quaternion infiniteClipLoop; // 0x118
+        public object infiniteClipApplyFootIK; // 0xFC
+        public r infiniteClipTimeOffset; // 0x100
+        public URA.ge<?> infiniteClipPreExtrapolation;
+        public R_12x12 infiniteClipPostExtrapolation; // 0x108
+        public R_12x12 infiniteClipLoop; // 0x118
         public bool openClipOffsetPosition; // 0x128
 
         // ── Methods ──
@@ -269,10 +269,10 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class AudioPlayableAsset : PlayableAsset
     {
-        public UnityEngine.AudioClip bufferingTime; // 0x18
+        public ies bufferingTime; // 0x18
         public bool clip; // 0x20
         public float loop; // 0x24
-        public UnityEngine.Timeline.AudioClipProperties duration; // 0x28
+        public _154`1 duration; // 0x28
 
         // ── Methods ──
         public void get_bufferingTime(){} // RVA: 0x7FFD4E4AEF50
@@ -290,7 +290,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class AudioTrack : TrackAsset
     {
-        public UnityEngine.Timeline.AudioMixerProperties outputs; // 0xA0
+        public object outputs; // 0xA0
 
         // ── Methods ──
         public void CreateClip(){} // RVA: 0x7FFD54BE7340
@@ -334,24 +334,24 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
     public class ControlPlayableAsset : PlayableAsset
     {
         public int controllingDirectors;
-        public System.Collections.Generic.List`1<UnityEngine.Playables.PlayableDirector> controllingParticles;
-        public System.Collections.Generic.List`1<UnityEngine.ParticleSystem> duration; // 0x8
-        public System.Collections.Generic.HashSet`1<UnityEngine.ParticleSystem> clipCaps; // 0x10
-        public UnityEngine.ExposedReference`1<UnityEngine.GameObject> sourceGameObject; // 0x18
-        public UnityEngine.GameObject prefabGameObject; // 0x28
+        public URA.woDigitYearMax<oUpdateAPI.ool> controllingParticles;
+        public URA.woDigitYearMax<InDuration> duration; // 0x8
+        public URA.onsDepth<InDuration> clipCaps; // 0x10
+        public bType<BuffersImpl> sourceGameObject; // 0x18
+        public BuffersImpl prefabGameObject; // 0x28
         public bool updateParticle; // 0x30
         public uint particleRandomSeed; // 0x34
         public bool updateDirector; // 0x38
         public bool updateITimeControl; // 0x39
         public bool searchHierarchy; // 0x3A
         public bool active; // 0x3B
-        public 0x665E2130 postPlayback; // 0x3C
-        public 0x665E2290 directorOnClipEnd; // 0x40
-        public UnityEngine.Playables.PlayableAsset m_ControlDirectorAsset; // 0x48
+        public object postPlayback; // 0x3C
+        public ÌÎÎÏÏÌÌÎÌÍÏÍÏÎÍÌÌÌ directorOnClipEnd; // 0x40
+        public oUpdateAPI.veSceneChanged m_ControlDirectorAsset; // 0x48
         public double m_Duration; // 0x50
         public bool m_SupportLoop; // 0x58
-        public System.Collections.Generic.HashSet`1<UnityEngine.Playables.PlayableDirector> s_ProcessedDirectors; // 0x18
-        public System.Collections.Generic.HashSet`1<UnityEngine.GameObject> s_CreatedPrefabs; // 0x20
+        public URA.onsDepth<oUpdateAPI.ool> s_ProcessedDirectors; // 0x18
+        public URA.onsDepth<BuffersImpl> s_CreatedPrefabs; // 0x20
         public bool <controllingDirectors>k__BackingField; // 0x59
         public bool <controllingParticles>k__BackingField; // 0x5A
 
@@ -412,8 +412,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class DirectorControlPlayable : PlayableBehaviour
     {
-        public UnityEngine.Playables.PlayableDirector director; // 0x10
-        public 0x665E2290 pauseAction; // 0x18
+        public oUpdateAPI.ool director; // 0x10
+        public ÌÎÎÏÏÌÌÎÌÍÏÍÏÎÍÌÌÌ pauseAction; // 0x18
         public bool m_SyncTime; // 0x1C
         public double m_AssetDuration; // 0x20
 
@@ -436,7 +436,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
     public class DiscreteTime : ValueType
     {
         public double tickValue;
-        public UnityEngine.Timeline.DiscreteTime kMaxTime;
+        public object kMaxTime;
         public long m_DiscreteTime; // 0x10
 
         // ── Methods ──
@@ -609,7 +609,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class InfiniteRuntimeClip : RuntimeElement
     {
-        public UnityEngine.Playables.Playable intervalStart; // 0x18
+        public oUpdateAPI.ded intervalStart; // 0x18
         public long intervalEnd;
 
         // ── Methods ──
@@ -636,8 +636,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
         public int dirty;
         public int kInvalidNode;
         public long kCenterUnknown;
-        public System.Collections.Generic.List`1<0x665E1A50<T>> m_Entries;
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.IntervalTreeNode> m_Nodes;
+        public URA.woDigitYearMax<?<T1717724352>> m_Entries;
+        public URA.woDigitYearMax<?> m_Nodes;
         public bool <dirty>k__BackingField;
 
         // ── Methods ──
@@ -657,7 +657,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
     public class Marker : ScriptableObject
     {
         public double parent; // 0x18
-        public UnityEngine.Timeline.TrackAsset time; // 0x20
+        public object time; // 0x20
 
         // ── Methods ──
         public void get_parent(){} // RVA: 0x7FFD4E36F0C0
@@ -671,8 +671,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class MarkerList : ValueType
     {
-        public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> markers; // 0x10
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> Count; // 0x18
+        public URA.woDigitYearMax<ge> markers; // 0x10
+        public URA.woDigitYearMax<?> Count; // 0x18
         public bool Item; // 0x20
         public bool m_HasNotifications; // 0x21
 
@@ -722,7 +722,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
         public float m_LastPlayableTime; // 0x10
         public float m_LastParticleTime; // 0x14
         public uint m_RandomSeed; // 0x18
-        public UnityEngine.ParticleSystem <particleSystem>k__BackingField; // 0x20
+        public InDuration <particleSystem>k__BackingField; // 0x20
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54BF5320
@@ -746,7 +746,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class PrefabControlPlayable : PlayableBehaviour
     {
-        public UnityEngine.GameObject prefabInstance; // 0x10
+        public BuffersImpl prefabInstance; // 0x10
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54BF5E70
@@ -761,9 +761,9 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class RuntimeClip : RuntimeClipBase
     {
-        public UnityEngine.Timeline.TimelineClip start; // 0x18
-        public UnityEngine.Playables.Playable duration; // 0x20
-        public UnityEngine.Playables.Playable clip; // 0x30
+        public object start; // 0x18
+        public oUpdateAPI.ded duration; // 0x20
+        public oUpdateAPI.ded clip; // 0x30
 
         // ── Methods ──
         public void get_start(){} // RVA: 0x7FFD54BEE210
@@ -812,9 +812,9 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class ScheduleRuntimeClip : RuntimeClipBase
     {
-        public UnityEngine.Timeline.TimelineClip start; // 0x18
-        public UnityEngine.Playables.Playable duration; // 0x20
-        public UnityEngine.Playables.Playable clip; // 0x30
+        public object start; // 0x18
+        public oUpdateAPI.ded duration; // 0x20
+        public oUpdateAPI.ded clip; // 0x30
         public double mixer; // 0x40
         public double playable; // 0x48
         public bool enable; // 0x50
@@ -835,7 +835,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class SignalAsset : ScriptableObject
     {
-        public System.Action`1<UnityEngine.Timeline.SignalAsset> OnEnableCallback;
+        public ileFullDirectoryInformation<?> OnEnableCallback;
 
         // ── Methods ──
         public void add_OnEnableCallback(){} // RVA: 0x7FFD54BF05C0
@@ -848,7 +848,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
     {
         public bool retroactive; // 0x28
         public bool emitOnce; // 0x29
-        public UnityEngine.Timeline.SignalAsset asset; // 0x30
+        public object asset; // 0x30
 
         // ── Methods ──
         public void get_retroactive(){} // RVA: 0x7FFD4E516BA0
@@ -864,7 +864,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class SignalReceiver : MonoBehaviour
     {
-        public 0x665E1F20 m_Events; // 0x20
+        public ÏÍÏÎÌÏÏÍÌÎÎÎÍÏÍÌÏÏÌÏÏÎ m_Events; // 0x20
 
         // ── Methods ──
         public void OnNotify(){} // RVA: 0x7FFD54BF0A50
@@ -891,7 +891,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class SupportsChildTracksAttribute : Attribute
     {
-        public System.Type childType; // 0x10
+        public object childType; // 0x10
         public int levels; // 0x18
 
         // ── Methods ──
@@ -900,7 +900,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TimeControlPlayable : PlayableBehaviour
     {
-        public UnityEngine.Timeline.ITimeControl m_timeControl; // 0x10
+        public object m_timeControl; // 0x10
         public bool m_started; // 0x18
 
         // ── Methods ──
@@ -914,10 +914,10 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TimeNotificationBehaviour : PlayableBehaviour
     {
-        public System.Collections.Generic.List`1<0x665E24F8> timeSource; // 0x10
+        public URA.woDigitYearMax<ÏÎÎÌÎÏÌÌ> timeSource; // 0x10
         public double m_PreviousTime; // 0x18
         public bool m_NeedSortNotifications; // 0x20
-        public UnityEngine.Playables.Playable m_TimeSource; // 0x28
+        public oUpdateAPI.ded m_TimeSource; // 0x28
 
         // ── Methods ──
         public void set_timeSource(){} // RVA: 0x7FFD4EFEC210
@@ -970,14 +970,14 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
     {
         public int editorSettings;
         public int duration; // 0x18
-        public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> fixedDuration; // 0x20
+        public URA.woDigitYearMax<ge> fixedDuration; // 0x20
         public double durationMode; // 0x28
-        public UnityEngine.Timeline.TrackAsset[] outputs; // 0x30
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> clipCaps; // 0x38
-        public UnityEngine.Timeline.TrackAsset[] outputTrackCount; // 0x40
-        public 0x665E1108 rootTrackCount; // 0x48
-        public 0x665E10B0 flattenedTracks; // 0x50
-        public UnityEngine.Timeline.MarkerTrack markerTrack; // 0x58
+        public ?[] outputs; // 0x30
+        public URA.woDigitYearMax<?> clipCaps; // 0x38
+        public ?[] outputTrackCount; // 0x40
+        public ÎÎÏÎÍÎÎÌÍÏÏÎÍÏÏÎÏ rootTrackCount; // 0x48
+        public object flattenedTracks; // 0x50
+        public object markerTrack; // 0x58
 
         // ── Methods ──
         public void UpgradeToLatestVersion(){} // RVA: 0x7FFD4E341310
@@ -1028,7 +1028,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
     {
         public int hasPreExtrapolation;
         public int hasPostExtrapolation; // 0x10
-        public 0x665E16E0 timeScale;
+        public ÍÎÎÌÍÍÎÍÌÎ timeScale;
         public float start; // 0x4
         public double duration; // 0x8
         public double end; // 0x10
@@ -1037,23 +1037,23 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
         public double clipAssetDuration; // 0x28
         public double curves; // 0x18
         public double UnityEngine.Timeline.ICurvesOwner.defaultCurvesName; // 0x20
-        public UnityEngine.Object hasCurves; // 0x28
+        public object hasCurves; // 0x28
         public double asset; // 0x30
         public double UnityEngine.Timeline.ICurvesOwner.assetOwner; // 0x38
-        public UnityEngine.Timeline.TrackAsset UnityEngine.Timeline.ICurvesOwner.targetTrack; // 0x40
+        public object UnityEngine.Timeline.ICurvesOwner.targetTrack; // 0x40
         public double underlyingAsset; // 0x48
         public double parentTrack; // 0x50
         public double easeInDuration; // 0x58
         public double easeOutDuration; // 0x60
-        public UnityEngine.AnimationCurve eastOutTime; // 0x68
-        public UnityEngine.AnimationCurve easeOutTime; // 0x70
-        public 0x665E0EF8 blendInDuration; // 0x78
-        public 0x665E0EF8 blendOutDuration; // 0x7C
-        public System.Collections.Generic.List`1<string> blendInCurveMode; // 0x80
-        public UnityEngine.AnimationClip blendOutCurveMode; // 0x88
+        public ÍÎÌÍÍÌÌÎÏÏ eastOutTime; // 0x68
+        public ÍÎÌÍÍÌÌÎÏÏ easeOutTime; // 0x70
+        public object blendInDuration; // 0x78
+        public object blendOutDuration; // 0x7C
+        public URA.woDigitYearMax<string> blendInCurveMode; // 0x80
+        public r blendOutCurveMode; // 0x88
         public bool hasBlendIn; // 0x90
-        public 0x665E0EA0 hasBlendOut; // 0x94
-        public 0x665E0EA0 mixInCurve; // 0x98
+        public object hasBlendOut; // 0x94
+        public object mixInCurve; // 0x98
         public double mixInPercentage; // 0xA0
         public double mixInDuration; // 0xA8
         public string mixOutCurve; // 0xB0
@@ -1191,17 +1191,17 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TimelinePlayable : PlayableBehaviour
     {
-        public UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> m_IntervalTree; // 0x10
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.RuntimeElement> m_ActiveClips; // 0x18
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.RuntimeElement> m_CurrentListOfActiveClips; // 0x20
+        public ÏÎÍÌÌ<ÌÏÏÍÌÌÍÌÌÌÍÍÍÎÍÍÏÍ> m_IntervalTree; // 0x10
+        public URA.woDigitYearMax<ÌÏÏÍÌÌÍÌÌÌÍÍÍÎÍÍÏÍ> m_ActiveClips; // 0x18
+        public URA.woDigitYearMax<ÌÏÏÍÌÌÍÌÌÌÍÍÍÎÍÍÏÍ> m_CurrentListOfActiveClips; // 0x20
         public int m_ActiveBit; // 0x28
-        public System.Collections.Generic.Dictionary`2<UnityEngine.Timeline.TrackAsset,UnityEngine.Playables.Playable> m_PlayableCache; // 0x30
+        public URA.DateTime<?,oUpdateAPI.ded> m_PlayableCache; // 0x30
         public bool muteAudioScrubbing;
-        public System.Collections.Generic.Dictionary`2<UnityEngine.Timeline.AnimationTrack,System.Collections.Generic.List`1<UnityEngine.Timeline.ITimelineEvaluateCallback>> m_EvaluateCallbacks; // 0x38
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.ITimelineEvaluateCallback> m_AlwaysEvaluateCallbacks; // 0x40
-        public System.Collections.Generic.HashSet`1<UnityEngine.Timeline.ITimelineEvaluateCallback> m_ForceEvaluateNextEvaluate; // 0x48
-        public System.Collections.Generic.HashSet`1<UnityEngine.Timeline.ITimelineEvaluateCallback> m_InvokedThisFrame; // 0x50
-        public System.Collections.Generic.HashSet`1<UnityEngine.Timeline.AnimationTrack> m_ActiveTracksToEvaluateCache; // 0x58
+        public URA.DateTime<?,URA.woDigitYearMax<ÎÎ>> m_EvaluateCallbacks; // 0x38
+        public URA.woDigitYearMax<ÎÎ> m_AlwaysEvaluateCallbacks; // 0x40
+        public URA.onsDepth<ÎÎ> m_ForceEvaluateNextEvaluate; // 0x48
+        public URA.onsDepth<ÎÎ> m_InvokedThisFrame; // 0x50
+        public URA.onsDepth<?> m_ActiveTracksToEvaluateCache; // 0x58
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54BF8990
@@ -1238,29 +1238,29 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
     {
         public int start;
         public int end; // 0x18
-        public UnityEngine.AnimationClip duration; // 0x20
-        public TransientBuildData muted;
+        public r duration; // 0x20
+        public ÍÎÍÎÍÌÌÍÍÎÏÏÎÌÎÌÏÎÌÍÌÍÍ muted;
         public string mutedInHierarchy;
-        public System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> timelineAsset; // 0x18
-        public System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> parent; // 0x20
+        public formation<?,BuffersImpl,oUpdateAPI.ded> timelineAsset; // 0x18
+        public formation<?,BuffersImpl,oUpdateAPI.ded> parent; // 0x20
         public bool clips; // 0x28
         public bool blendsValid; // 0x29
         public string isEmpty; // 0x30
-        public UnityEngine.AnimationClip hasClips; // 0x38
-        public UnityEngine.Playables.PlayableAsset hasCurves; // 0x40
-        public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> isSubTrack; // 0x48
+        public r hasClips; // 0x38
+        public oUpdateAPI.veSceneChanged hasCurves; // 0x40
+        public URA.woDigitYearMax<ge> isSubTrack; // 0x48
         public int outputs; // 0x50
-        public UnityEngine.Timeline.TimelineClip[] customPlayableTypename; // 0x58
-        public UnityEngine.Timeline.DiscreteTime curves; // 0x60
-        public UnityEngine.Timeline.DiscreteTime UnityEngine.Timeline.ICurvesOwner.defaultCurvesName; // 0x68
+        public ?[] customPlayableTypename; // 0x58
+        public object curves; // 0x60
+        public object UnityEngine.Timeline.ICurvesOwner.defaultCurvesName; // 0x68
         public bool UnityEngine.Timeline.ICurvesOwner.asset; // 0x70
         public bool UnityEngine.Timeline.ICurvesOwner.assetOwner; // 0x71
-        public System.Nullable`1<bool> UnityEngine.Timeline.ICurvesOwner.targetTrack; // 0x72
-        public UnityEngine.Timeline.TrackAsset[] subTracksObjects; // 0x28
-        public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> locked; // 0x78
-        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> lockedInHierarchy; // 0x30
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.TimelineClip> supportsNotifications; // 0x80
-        public UnityEngine.Timeline.MarkerList m_Markers; // 0x88
+        public aphy<bool> UnityEngine.Timeline.ICurvesOwner.targetTrack; // 0x72
+        public ?[] subTracksObjects; // 0x28
+        public URA.bbrevEraNames<?> locked; // 0x78
+        public URA.DateTime<?,ÎÎÌÌÍÍÎÍÎÏÌÍÎÎÏÌ> lockedInHierarchy; // 0x30
+        public URA.woDigitYearMax<?> supportsNotifications; // 0x80
+        public Í m_Markers; // 0x88
 
         // ── Methods ──
         public void OnBeforeTrackSerialize(){} // RVA: 0x7FFD4E341310
@@ -1377,8 +1377,8 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TrackBindingTypeAttribute : Attribute
     {
-        public System.Type type; // 0x10
-        public 0x665E2760 flags; // 0x18
+        public object type; // 0x10
+        public ÍÌÎÎÎÏÍÏÍÌÌÍ flags; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FCAC310 | overloaded x2
@@ -1386,7 +1386,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TrackClipTypeAttribute : Attribute
     {
-        public System.Type inspectedType; // 0x10
+        public object inspectedType; // 0x10
         public bool allowAutoCreate; // 0x18
 
         // ── Methods ──
@@ -1395,7 +1395,7 @@ namespace ThirdParty.Unity.UnityEngine.Timeline
 
     public class TrackColorAttribute : Attribute
     {
-        public UnityEngine.Color color; // 0x10
+        public object color; // 0x10
 
         // ── Methods ──
         public void get_color(){} // RVA: 0x7FFD4F842E80

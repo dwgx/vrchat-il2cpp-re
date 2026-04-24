@@ -15,8 +15,8 @@ namespace ThirdParty.Other.Unity.Jobs.LowLevel.Unsafe
 
     public class BatchQueryJob`2 : ValueType
     {
-        public Unity.Collections.NativeArray`1<T> commands;
-        public Unity.Collections.NativeArray`1<T> results;
+        public ÍÎÏÎÎ.ÌÌ<T1717604032> commands;
+        public ÍÎÏÎÎ.ÌÌ<T1717604048> results;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -24,7 +24,7 @@ namespace ThirdParty.Other.Unity.Jobs.LowLevel.Unsafe
 
     public class JobsUtility : Object
     {
-        public PanicFunction_ IsExecutingJob;
+        public object IsExecutingJob;
 
         // ── Methods ──
         public void GetJobRange(){} // RVA: 0x7FFD54C6EAF0

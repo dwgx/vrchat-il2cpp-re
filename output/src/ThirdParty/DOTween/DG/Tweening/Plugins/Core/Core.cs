@@ -33,24 +33,24 @@ namespace ThirdParty.DOTween.DG.Tweening.Plugins.Core
 
     public class PluginsManager : Object
     {
-        public DG.Tweening.Plugins.Core.ITweenPlugin _floatPlugin;
-        public DG.Tweening.Plugins.Core.ITweenPlugin _doublePlugin; // 0x8
-        public DG.Tweening.Plugins.Core.ITweenPlugin _intPlugin; // 0x10
-        public DG.Tweening.Plugins.Core.ITweenPlugin _uintPlugin; // 0x18
-        public DG.Tweening.Plugins.Core.ITweenPlugin _longPlugin; // 0x20
-        public DG.Tweening.Plugins.Core.ITweenPlugin _ulongPlugin; // 0x28
-        public DG.Tweening.Plugins.Core.ITweenPlugin _vector2Plugin; // 0x30
-        public DG.Tweening.Plugins.Core.ITweenPlugin _vector3Plugin; // 0x38
-        public DG.Tweening.Plugins.Core.ITweenPlugin _vector4Plugin; // 0x40
-        public DG.Tweening.Plugins.Core.ITweenPlugin _quaternionPlugin; // 0x48
-        public DG.Tweening.Plugins.Core.ITweenPlugin _colorPlugin; // 0x50
-        public DG.Tweening.Plugins.Core.ITweenPlugin _rectPlugin; // 0x58
-        public DG.Tweening.Plugins.Core.ITweenPlugin _rectOffsetPlugin; // 0x60
-        public DG.Tweening.Plugins.Core.ITweenPlugin _stringPlugin; // 0x68
-        public DG.Tweening.Plugins.Core.ITweenPlugin _vector3ArrayPlugin; // 0x70
-        public DG.Tweening.Plugins.Core.ITweenPlugin _color2Plugin; // 0x78
+        public verFeatureFlagsAvailable>k__BackingField.ield _floatPlugin;
+        public verFeatureFlagsAvailable>k__BackingField.ield _doublePlugin; // 0x8
+        public verFeatureFlagsAvailable>k__BackingField.ield _intPlugin; // 0x10
+        public verFeatureFlagsAvailable>k__BackingField.ield _uintPlugin; // 0x18
+        public verFeatureFlagsAvailable>k__BackingField.ield _longPlugin; // 0x20
+        public verFeatureFlagsAvailable>k__BackingField.ield _ulongPlugin; // 0x28
+        public verFeatureFlagsAvailable>k__BackingField.ield _vector2Plugin; // 0x30
+        public verFeatureFlagsAvailable>k__BackingField.ield _vector3Plugin; // 0x38
+        public verFeatureFlagsAvailable>k__BackingField.ield _vector4Plugin; // 0x40
+        public verFeatureFlagsAvailable>k__BackingField.ield _quaternionPlugin; // 0x48
+        public verFeatureFlagsAvailable>k__BackingField.ield _colorPlugin; // 0x50
+        public verFeatureFlagsAvailable>k__BackingField.ield _rectPlugin; // 0x58
+        public verFeatureFlagsAvailable>k__BackingField.ield _rectOffsetPlugin; // 0x60
+        public verFeatureFlagsAvailable>k__BackingField.ield _stringPlugin; // 0x68
+        public verFeatureFlagsAvailable>k__BackingField.ield _vector3ArrayPlugin; // 0x70
+        public verFeatureFlagsAvailable>k__BackingField.ield _color2Plugin; // 0x78
         public int _MaxCustomPlugins;
-        public System.Collections.Generic.Dictionary`2<System.Type,DG.Tweening.Plugins.Core.ITweenPlugin> _customPlugins; // 0x80
+        public URA.DateTime<?,verFeatureFlagsAvailable>k__BackingField.ield> _customPlugins; // 0x80
 
         // ── Methods ──
         public void GetDefaultPlugin(){} // RVA: 0x7FFD4E078A90

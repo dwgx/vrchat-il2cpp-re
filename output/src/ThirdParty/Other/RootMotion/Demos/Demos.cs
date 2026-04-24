@@ -12,13 +12,13 @@ namespace ThirdParty.Other.RootMotion.Demos
         public float recalculateOnPathDistance; // 0x18
         public float maxSampleDistance; // 0x1C
         public float nextPathInterval; // 0x20
-        public UnityEngine.Vector3 <normalizedDeltaPosition>k__BackingField; // 0x24
-        public 0x6651D260 <state>k__BackingField; // 0x30
-        public UnityEngine.Transform transform; // 0x38
+        public amut <normalizedDeltaPosition>k__BackingField; // 0x24
+        public object <state>k__BackingField; // 0x30
+        public object transform; // 0x38
         public int cornerIndex; // 0x40
-        public UnityEngine.Vector3[] corners; // 0x48
-        public ÏÌÍÏÍÎÍÌÌÌ.ÏÏ path; // 0x50
-        public UnityEngine.Vector3 lastTargetPosition; // 0x58
+        public amut[] corners; // 0x48
+        public delay.lues path; // 0x50
+        public amut lastTargetPosition; // 0x58
         public bool initiated; // 0x64
         public float nextPathTime; // 0x68
 

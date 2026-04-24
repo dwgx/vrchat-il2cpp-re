@@ -13,7 +13,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ValueTupleFormatter`1 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> T1Serializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717727856> T1Serializer;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -25,8 +25,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ValueTupleFormatter`2 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<U> T1Serializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> T2Serializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717727872> T1Serializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717727888> T2Serializer;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -38,9 +38,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ValueTupleFormatter`3 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<U> T1Serializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<V> T2Serializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> T3Serializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717727904> T1Serializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717727920> T2Serializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717727936> T3Serializer;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -64,7 +64,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Vector2Formatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD5543B010
@@ -75,7 +75,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Vector2IntFormatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<int> Serializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<int> Serializer;
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD5543BA10
@@ -98,7 +98,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Vector3Formatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD5543B2F0
@@ -121,7 +121,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Vector4Formatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
 
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD5543B640

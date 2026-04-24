@@ -7,7 +7,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class AnimatorParameterUnion : Object
     {
-        public 0x6655CF50 Type; // 0x10
+        public dexes.rsiveWriteCount Type; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -28,7 +28,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class DataStorage : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -63,7 +63,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class DataStorageEntryUnion : Object
     {
-        public 0x6655B638 Type; // 0x10
+        public dexes.IsDeletedMember Type; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -88,7 +88,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class DestructiblePlayer : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -112,7 +112,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ObjectPool : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -142,7 +142,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PlayerDrone : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -166,7 +166,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PosePositionDataUnion : Object
     {
-        public 0x6655BF80 Type; // 0x10
+        public dexes.onNullableType Type; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -183,7 +183,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseRecorder : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -269,7 +269,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SerializedObjects : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -304,7 +304,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SerializedTypeUnion : Object
     {
-        public 0x6655C450 Type; // 0x10
+        public dexes.serOnly Type; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -337,7 +337,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SparseSerializedObjects : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -369,7 +369,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncAnim : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -419,7 +419,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncPhysicsData : ValueType
     {
-        public Google.FlatBuffers8.Struct ByteBuffer; // 0x10
+        public dingValue.ectoryInformation ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -437,7 +437,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoPlayer : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -467,7 +467,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoStream : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -503,7 +503,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Udon : ValueType
     {
-        public Google.FlatBuffers8.Table ByteBuffer; // 0x10
+        public dingValue.yptionAlgorithm ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -538,7 +538,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonValueUnion : Object
     {
-        public 0x6655D840 Type; // 0x10
+        public dexes.s Type; // 0x10
         public object Value; // 0x18
 
         // ── Methods ──
@@ -627,7 +627,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector2 : ValueType
     {
-        public Google.FlatBuffers8.Struct ByteBuffer; // 0x10
+        public dingValue.ectoryInformation ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220

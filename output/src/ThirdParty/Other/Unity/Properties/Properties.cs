@@ -18,8 +18,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
-        public System.Collections.Generic.List`1<0x6661A998<T>> m_PropertiesList; // 0x18
-        public System.Collections.Generic.Dictionary`2<string,0x6661A998<T>> m_PropertiesHash; // 0x20
+        public URA.woDigitYearMax<ÌÎÎÏÍÎÌÎÌÍÍÏÍÍÏÍÌÏ<T1717740912>> m_PropertiesList; // 0x18
+        public URA.DateTime<string,ÌÎÎÏÍÎÌÎÌÍÍÏÍÍÏÍÌÏ<T1717740912>> m_PropertiesHash; // 0x20
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -30,8 +30,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class DelegateProperty`2 : Property`2
     {
-        public Unity.Properties.PropertyGetter`2<U,T> Name;
-        public Unity.Properties.PropertySetter`2<U,T> m_Setter;
+        public ?<T1717739824,T1717739840> Name;
+        public ?<T1717739824,T1717739840> m_Setter;
         public string <Name>k__BackingField;
 
         // ── Methods ──
@@ -83,7 +83,7 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBag`2 : PropertyBag`1
     {
-        public ListElementProperty<System.Collections.Generic.List`1<T>,T> m_Property; // 0x18
+        public ÌÏÎÌÌÎÌÍÎÍÍÏÏÍÌÍÏ<URA.woDigitYearMax<T1717740416>,T1717740416> m_Property; // 0x18
 
         // ── Methods ──
         public void Unity.Properties.IConstructorWithCount<TList>.InstantiateWithCount(){} // RVA: 0x7FFD4E087DE0
@@ -93,7 +93,7 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class KeyValueCollectionPropertyBag`3 : PropertyBag`1
     {
-        public KeyValuePairProperty<U,V,T> m_KeyValuePairProperty;
+        public ?<T1717740304,T1717740320,T1717740336> m_KeyValuePairProperty;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5150D040
@@ -101,8 +101,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class KeyValuePairPropertyBag`2 : PropertyBag`1
     {
-        public Unity.Properties.DelegateProperty`2<System.Collections.Generic.KeyValuePair`2<U,T>,U> s_KeyProperty;
-        public Unity.Properties.DelegateProperty`2<System.Collections.Generic.KeyValuePair`2<U,T>,T> s_ValueProperty;
+        public ÎÍÎÏÍÎÏÌÍÏÌÏÍÍÎÏÍÌÌ>k__BackingField<URA.mes<T1717740384,T1717740400>,T1717740384> s_KeyProperty;
+        public ÎÍÎÏÍÎÏÌÍÏÌÏÍÍÎÏÍÌÌ>k__BackingField<URA.mes<T1717740384,T1717740400>,T1717740400> s_ValueProperty;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -128,7 +128,7 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
-        public ÍÍÍÎ Unity.Properties.IConstructor.InstantiationKind; // 0x10
+        public object Unity.Properties.IConstructor.InstantiationKind; // 0x10
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD51B53EE0
@@ -157,7 +157,7 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
-        public System.Collections.Generic.List`1<System.Attribute> Name; // 0x10
+        public URA.woDigitYearMax<lP256R1> Name; // 0x10
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4E078E90
@@ -172,12 +172,12 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ReflectedMemberProperty`2 : Property`2
     {
-        public 0x6661AA48 Name;
+        public ÍÏÎÏÏÍÍÌÎÌÏÌÌÎÌÏÏÍÍ Name;
         public bool m_IsStructContainerType;
-        public GetStructValueAction<U,T> m_GetStructValueAction;
-        public SetStructValueAction<U,T> m_SetStructValueAction;
-        public GetClassValueAction<U,T> m_GetClassValueAction;
-        public SetClassValueAction<U,T> m_SetClassValueAction;
+        public ÎÍÍÌÏÎÌÎÎÎ<T1717740048,T1717740064> m_GetStructValueAction;
+        public ÌÍÎÎÍÌÍÍÍÎÎÏÌÍÎÏÌÍÌÎÍÌÎ<T1717740048,T1717740064> m_SetStructValueAction;
+        public ?<T1717740048,T1717740064> m_GetClassValueAction;
+        public ?<T1717740048,T1717740064> m_SetClassValueAction;
         public string <Name>k__BackingField;
         public bool <IsReadOnly>k__BackingField;
 
@@ -188,7 +188,7 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class SetPropertyBagBase`2 : PropertyBag`1
     {
-        public SetElementProperty<U,T> m_Property;
+        public Î<T1717740496,T1717740512> m_Property;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5150D040
@@ -232,10 +232,10 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeUtility : Object
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,ÏÍÌÍÌÎÎÍ> s_TypeConstructors;
-        public System.Reflection.MethodInfo s_CreateTypeConstructor; // 0x8
-        public System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,string> s_CachedResolvedName; // 0x10
-        public UnityEngine.Pool.ObjectPool`1<System.Text.StringBuilder> s_Builders; // 0x18
+        public JapaneseLangName.erns<?,?> s_TypeConstructors;
+        public m.jectMapInfo s_CreateTypeConstructor; // 0x8
+        public JapaneseLangName.erns<?,string> s_CachedResolvedName; // 0x10
+        public cy.gContentId<em.MarkAborted.izeDefaultCase> s_Builders; // 0x18
         public object syncedPoolObject; // 0x20
 
         // ── Methods ──

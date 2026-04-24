@@ -33,15 +33,15 @@ namespace ThirdParty.DotNet.System.IO
 
     public class EnumerationOptions : Object
     {
-        public System.IO.EnumerationOptions Compatible;
-        public System.IO.EnumerationOptions CompatibleRecursive; // 0x8
-        public System.IO.EnumerationOptions Default; // 0x10
+        public Inherited.? Compatible;
+        public Inherited.? CompatibleRecursive; // 0x8
+        public Inherited.? Default; // 0x10
         public bool RecurseSubdirectories; // 0x10
         public bool IgnoreInaccessible; // 0x11
         public int BufferSize; // 0x14
-        public 0x66442B78 AttributesToSkip; // 0x18
-        public 0x664427B0 MatchType; // 0x1C
-        public 0x66442758 MatchCasing; // 0x20
+        public Inherited.1460699808ED5F8D48C6B09EED448CDAE597EBF52B010901CD6F75A767B047 AttributesToSkip; // 0x18
+        public Inherited.Pointer MatchType; // 0x1C
+        public Inherited.entSourceAttribute MatchCasing; // 0x20
         public bool ReturnSpecialDirectories; // 0x24
 
         // ── Methods ──
@@ -92,10 +92,10 @@ namespace ThirdParty.DotNet.System.IO
         public object CanSeek; // 0x8
         public byte[] Name; // 0x28
         public string Length; // 0x30
-        public Microsoft.Win32.SafeHandles.SafeFileHandle Position; // 0x38
+        public 01B30335EAF483F59E5EDCB41DF7C4807E1B.6F96387473C649F557670B8A92E175272491DFC646754F4A9D Position; // 0x38
         public bool SafeFileHandle; // 0x40
         public long append_startpos; // 0x48
-        public 0x66441890 access; // 0x50
+        public Inherited.nAppX access; // 0x50
         public bool owner; // 0x54
         public bool async; // 0x55
         public bool canseek; // 0x56
@@ -149,7 +149,7 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileSystemInfo : MarshalByRefObject
     {
-        public WIN32_FILE_ATTRIBUTE_DATA Attributes; // 0x18
+        public D48C6B09EED448CDAE597EBF52B010901CD6F75A767B047 Attributes; // 0x18
         public int ExistsCore; // 0x3C
         public string CreationTimeCore; // 0x40
         public string LastAccessTimeCore; // 0x48
@@ -299,10 +299,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class Stream : MarshalByRefObject
     {
-        public System.IO.Stream CanRead;
+        public Inherited.? CanRead;
         public int CanSeek;
-        public ReadWriteTask CanTimeout; // 0x18
-        public System.Threading.SemaphoreSlim CanWrite; // 0x20
+        public _bucket CanTimeout; // 0x18
+        public sageKind.StringComparison CanWrite; // 0x20
 
         // ── Methods ──
         public void EnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x7FFD53A05D10
@@ -359,22 +359,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StreamReader : TextReader
     {
-        public System.IO.StreamReader CurrentEncoding;
-        public System.IO.Stream BaseStream; // 0x18
-        public System.Text.Encoding LeaveOpen; // 0x20
-        public System.Text.Decoder EndOfStream; // 0x28
-        public byte[] _byteBuffer; // 0x30
-        public char[] _charBuffer; // 0x38
-        public int _charPos; // 0x40
-        public int _charLen; // 0x44
-        public int _byteLen; // 0x48
-        public int _bytePos; // 0x4C
-        public int _maxCharsPerBuffer; // 0x50
-        public bool _detectEncoding; // 0x54
-        public bool _checkPreamble; // 0x55
-        public bool _isBlocked; // 0x56
-        public bool _closable; // 0x57
-        public System.Threading.Tasks.Task _asyncReadTask; // 0x58
+        public object CurrentEncoding;
+        public object BaseStream;
+        public object LeaveOpen;
+        public object EndOfStream;
 
         // ── Methods ──
         public void CheckAsyncTaskInProgress(){} // RVA: 0x7FFD539E1BA0
@@ -407,18 +395,13 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StreamWriter : TextWriter
     {
-        public System.IO.StreamWriter UTF8NoBOM;
-        public System.IO.Stream AutoFlush; // 0x30
-        public System.Text.Encoding BaseStream; // 0x38
-        public System.Text.Encoder LeaveOpen; // 0x40
-        public byte[] Encoding; // 0x48
-        public char[] CharPos_Prop; // 0x50
-        public int HaveWrittenPreamble_Prop; // 0x58
-        public int _charLen; // 0x5C
-        public bool _autoFlush; // 0x60
-        public bool _haveWrittenPreamble; // 0x61
-        public bool _closable; // 0x62
-        public System.Threading.Tasks.Task _asyncWriteTask; // 0x68
+        public object UTF8NoBOM;
+        public object AutoFlush;
+        public object BaseStream;
+        public object LeaveOpen;
+        public object Encoding;
+        public object CharPos_Prop;
+        public object HaveWrittenPreamble_Prop;
 
         // ── Methods ──
         public void CheckAsyncTaskInProgress(){} // RVA: 0x7FFD539E8DE0
@@ -451,10 +434,6 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StringReader : TextReader
     {
-        public string _s; // 0x18
-        public int _pos; // 0x20
-        public int _length; // 0x24
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A10E70
         public void Close(){} // RVA: 0x7FFD538680E0
@@ -469,8 +448,6 @@ namespace ThirdParty.DotNet.System.IO
 
     public class TextReader : MarshalByRefObject
     {
-        public System.IO.TextReader Null;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Close(){} // RVA: 0x7FFD539EEA30
@@ -488,11 +465,11 @@ namespace ThirdParty.DotNet.System.IO
 
     public class TextWriter : MarshalByRefObject
     {
-        public System.IO.TextWriter FormatProvider;
+        public Inherited.endency FormatProvider;
         public char[] Encoding; // 0x8
         public char[] NewLine; // 0x18
         public string CoreNewLineStr; // 0x20
-        public System.IFormatProvider _internalFormatProvider; // 0x28
+        public nalGetValue _internalFormatProvider; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539F0D30 | overloaded x2
@@ -514,15 +491,15 @@ namespace ThirdParty.DotNet.System.IO
 
     public class UnmanagedMemoryStream : Stream
     {
-        public )| CanRead; // 0x28
-        public byte* CanSeek; // 0x30
+        public annelDataStore.tionLevelActivator CanRead; // 0x28
+        public IntPtr CanSeek; // 0x30
         public long CanWrite; // 0x38
         public long Length; // 0x40
         public long Position; // 0x48
         public long PositionPointer; // 0x50
-        public 0x66441890 _access; // 0x58
+        public Inherited.nAppX _access; // 0x58
         public bool _isOpen; // 0x5C
-        public System.Threading.Tasks.Task`1<int> _lastReadTask; // 0x60
+        public utes.?<int> _lastReadTask; // 0x60
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539F3B20 | overloaded x3

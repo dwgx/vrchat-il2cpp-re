@@ -7,8 +7,8 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 {
     public class StructWrapper : Object
     {
-        public 0x665CBA50 wrappedType; // 0x10
-        public System.Type ttype; // 0x18
+        public ÎÌÍÌÌÏÎ.ÌÍÎÏÍÏÎÌÍÌÌÏÎ wrappedType; // 0x10
+        public object ttype; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53E00B90
@@ -26,10 +26,10 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
     public class StructWrapperPool`1 : StructWrapperPool
     {
         public int GROWBY;
-        public System.Type tType; // 0x10
-        public 0x665CBA50 wType; // 0x18
-        public System.Collections.Generic.Stack`1<Photon.Client.StructWrapping.StructWrapper`1<byte[]>> pool; // 0x20
-        public bool isStaticPool; // 0x28
+        public object tType;
+        public ÎÌÍÌÌÏÎ.ÌÍÎÏÍÏÎÌÍÌÌÏÎ wType;
+        public URA.leEastFrench<ÎÌÍÌÌÏÎ.ÍÎÌÌÌÏÍÍÌ<T1717720960>> pool;
+        public bool isStaticPool;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E091060
@@ -39,10 +39,10 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapperPools : Object
     {
-        public Photon.Client.StructWrapping.StructWrapper`1<byte>[] mappedByteWrappers;
-        public Photon.Client.StructWrapping.StructWrapper`1<bool>[] mappedBoolWrappers; // 0x8
-        public System.Collections.Generic.Dictionary`2<System.Type,Photon.Client.StructWrapping.StructWrapperPool> pools; // 0x10
-        public System.Collections.Generic.List`1<System.IDisposable> used; // 0x18
+        public ÎÌÍÌÌÏÎ.ÍÎÌÌÌÏÍÍÌ<byte>[] mappedByteWrappers;
+        public ÎÌÍÌÌÏÎ.ÍÎÌÌÌÏÍÍÌ<bool>[] mappedBoolWrappers; // 0x8
+        public URA.DateTime<?,ÎÌÍÌÌÏÎ.?> pools; // 0x10
+        public URA.woDigitYearMax<Names> used; // 0x18
 
         // ── Methods ──
         public void GetPoolForType(){} // RVA: 0x7FFD4E078E90
@@ -61,10 +61,10 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapper`1 : StructWrapper
     {
-        public Photon.Client.StructWrapping.StructWrapperPool`1<byte[]> ReturnPool; // 0x20
-        public 0x665CBAA8 pooling; // 0x28
-        public byte[] value; // 0x30
-        public Photon.Client.StructWrapping.StructWrapperPool`1<byte[]> staticPool;
+        public ÎÌÍÌÌÏÎ.?<T1717720944> ReturnPool;
+        public ÎÌÍÌÌÏÎ.ÏÏÍÏÏÍÎÍÍÎÏÎÌÎÏÏ pooling;
+        public T1717720944 value;
+        public ÎÌÍÌÌÏÎ.?<T1717720944> staticPool;
 
         // ── Methods ──
         public void get_ReturnPool(){} // RVA: 0x7FFD4E078E90

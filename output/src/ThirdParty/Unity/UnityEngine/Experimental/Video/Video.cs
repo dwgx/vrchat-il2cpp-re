@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Video
 {
     public class VideoClipPlayable : ValueType
     {
-        public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
+        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
 
         // ── Methods ──
         public void GetHandle(){} // RVA: 0x7FFD51CFD430

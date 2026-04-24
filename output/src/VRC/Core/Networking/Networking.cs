@@ -15,7 +15,7 @@ namespace VRC.Core.Networking
 
     public class ConcurrentLimitedCapacityList`1 : Object
     {
-        public VRC.Core.Networking.LimitedCapacityList`1<T> SerializationHistoryLength;
+        public rpreter.nfoGenerator<T1717689984> SerializationHistoryLength;
 
         // ── Methods ──
         public void get_SerializationHistoryLength(){} // RVA: 0x7FFD4E079990
@@ -45,10 +45,10 @@ namespace VRC.Core.Networking
 
     public class DecodeParameters32 : Object
     {
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.SerializedObjects Objects; // 0x10
+        public h8.HashSetWithSameEC Objects; // 0x10
         public int ObjectIndex; // 0x20
         public float SendTime; // 0x24
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataT SerializationRecovery; // 0x28
+        public h8.icsCodec SerializationRecovery; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5517AAD0
@@ -66,10 +66,10 @@ namespace VRC.Core.Networking
 
     public class DecodeParameters8 : Object
     {
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.SerializedObjects Objects; // 0x10
+        public dexes.HashSetWithSameEC Objects; // 0x10
         public int ObjectIndex; // 0x20
         public float SendTime; // 0x24
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataT SerializationRecovery; // 0x28
+        public h8.icsCodec SerializationRecovery; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5517AAD0
@@ -101,7 +101,7 @@ namespace VRC.Core.Networking
 
     public class FlatBufferConfig : Object
     {
-        public VRC.Core.Networking.FlatBufferConfig Instance;
+        public rpreter.Instruction Instance;
         public int MaximumBunchCount32; // 0x10
         public int MaximumBunchSize32; // 0x14
         public int MaximumBunchSize8; // 0x18
@@ -127,18 +127,18 @@ namespace VRC.Core.Networking
 
     public class FlatBufferSerializerCodec : Object
     {
-        public VRC.Core.Networking.IFlatBufferNetworkSerializer Targets; // 0x10
+        public rpreter.LiftedToNull Targets; // 0x10
         public bool ForcePlayerStartSync; // 0x18
         public object objectLock; // 0x20
         public byte[] objOffsets8; // 0x28
         public int[] objOffsets32; // 0x30
-        public Google.FlatBuffers8.ByteBuffer receiveBuffer8; // 0x38
-        public VRC.Core.Networking.FixedByteBufferAllocator8 receiveAllocator8; // 0x40
-        public Google.FlatBuffers32.ByteBuffer receiveBuffer32; // 0x48
-        public 0x6655B0B8 receiveAllocator32; // 0x50
-        public Google.FlatBuffers8.FlatBufferBuilder builder8; // 0x58
-        public Google.FlatBuffers32.FlatBufferBuilder builder32; // 0x60
-        public 0x6655A3A8 recordSerialization; // 0x68
+        public dingValue..Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current receiveBuffer8; // 0x38
+        public rpreter.ompilerServices.IStrongBox.get_Value receiveAllocator8; // 0x40
+        public AssignBinaryExpression..Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current receiveBuffer32; // 0x48
+        public rpreter..get_Value receiveAllocator32; // 0x50
+        public dingValue.OnReturn builder8; // 0x58
+        public AssignBinaryExpression.OnReturn builder32; // 0x60
+        public otEqualByte recordSerialization; // 0x68
         public int SyncPhysicsLength;
         public float _firstPlayerEncodeTime; // 0x70
         public uint _playerEncodeCount; // 0x74
@@ -286,7 +286,7 @@ namespace VRC.Core.Networking
 
     public class LimitedCapacityList`1 : Object
     {
-        public System.Collections.Generic.List`1<VRC.Core.Networking.Tween.AnimationEvent> SerializationHistoryLength; // 0x10
+        public URA.woDigitYearMax<T1717690000> SerializationHistoryLength;
 
         // ── Methods ──
         public void get_SerializationHistoryLength(){} // RVA: 0x7FFD4E079990
@@ -348,9 +348,9 @@ namespace VRC.Core.Networking
     public class PositionEvent : TweenableValue`1
     {
         public byte flags; // 0x40
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T IsKinematic; // 0x48
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3T UseGravity; // 0x50
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT HeldInHand; // 0x58
+        public dexes.eteValue IsKinematic; // 0x48
+        public dexes.eteValue UseGravity; // 0x50
+        public dexes.lArg HeldInHand; // 0x58
         public bool DiscontinuityCounter; // 0x60
         public bool Discontinuity; // 0x61
         public int isHeld; // 0x64
@@ -380,18 +380,18 @@ namespace VRC.Core.Networking
 
     public class QuantizedSerialization : Object
     {
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.QuaternionT IdentityQuaternion32;
-        public System.Collections.Generic.Dictionary`2<0x6655AAE0,0x6655AA88> serializers32; // 0x8
+        public h8.lArg IdentityQuaternion32;
+        public URA.DateTime<s,_binder> serializers32; // 0x8
         public float MinimumFloatTolerance;
         public float MinimumRotationTolerance;
         public float MinimumVectorTolerance;
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT IdentityQuaternion8; // 0x10
+        public dexes.lArg IdentityQuaternion8; // 0x10
         public byte[] temp2; // 0x18
         public byte[] temp4; // 0x20
         public byte[] temp5; // 0x28
         public byte[] temp6; // 0x30
         public byte[] temp9; // 0x38
-        public System.Collections.Generic.Dictionary`2<0x6655AAE0,0x6655ADF8> serializers; // 0x40
+        public URA.DateTime<s,cateSecondErrorMessage> serializers; // 0x40
         public float tenBitToFloatFactor;
         public float twelveBitFloatFactor;
         public float eightBitFloatFactor;
@@ -462,8 +462,8 @@ namespace VRC.Core.Networking
 
     public class SyncPhysicsCodec : Object
     {
-        public byte[] positionBuffer; // 0xFFFF
-        public byte[] floatByteBuffer; // 0xFFFF
+        public byte[] positionBuffer; // 0xFFFFFFFF
+        public byte[] floatByteBuffer; // 0xFFFFFFFF
 
         // ── Methods ──
         public void Encode(){} // RVA: 0x7FFD55182110
@@ -473,14 +473,14 @@ namespace VRC.Core.Networking
 
     public class TimeProxy : Object
     {
-        public System.Func`1<float> time;
-        public System.Func`1<float> timeSinceEnteredRoom; // 0x8
-        public System.Func`1<float> realtimeSinceStartup; // 0x10
-        public System.Func`1<float> fixedTime; // 0x18
-        public System.Func`1<float> deltaTime; // 0x20
-        public System.Func`1<float> smoothDeltaTime; // 0x28
-        public System.Func`1<long> unixTime; // 0x30
-        public System.Func`1<int> renderedFrameCount; // 0x38
+        public ormation<float> time;
+        public ormation<float> timeSinceEnteredRoom; // 0x8
+        public ormation<float> realtimeSinceStartup; // 0x10
+        public ormation<float> fixedTime; // 0x18
+        public ormation<float> deltaTime; // 0x20
+        public ormation<float> smoothDeltaTime; // 0x28
+        public ormation<long> unixTime; // 0x30
+        public ormation<int> renderedFrameCount; // 0x38
 
         // ── Methods ──
         public void get_time(){} // RVA: 0x7FFD5517A0B0

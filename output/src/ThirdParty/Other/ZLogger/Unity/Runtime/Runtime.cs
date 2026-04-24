@@ -7,8 +7,8 @@ namespace ThirdParty.Other.ZLogger.Unity.Runtime
 {
     public class DiagnosticsHelper : Object
     {
-        public System.Text.RegularExpressions.Regex typeBeautifyRegex;
-        public System.Collections.Generic.Dictionary`2<System.Type,string> builtInTypeNames; // 0x8
+        public tor.neStore typeBeautifyRegex;
+        public URA.DateTime<?,string> builtInTypeNames; // 0x8
         public string applicationDataPath; // 0x10
         public bool displayFilenames; // 0x18
 

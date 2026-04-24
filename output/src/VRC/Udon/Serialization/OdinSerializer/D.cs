@@ -32,7 +32,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
     public class DefaultLoggers : Object
     {
         public object DefaultLogger;
-        public VRC.Udon.Serialization.OdinSerializer.ILogger UnityLogger; // 0x8
+        public Identifiers UnityLogger; // 0x8
 
         // ── Methods ──
         public void get_DefaultLogger(){} // RVA: 0x7FFD5540A9B0
@@ -43,15 +43,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
     public class DefaultSerializationBinder : TwoWaySerializationBinder
     {
         public object ASSEMBLY_LOOKUP_LOCK;
-        public System.Collections.Generic.Dictionary`2<string,System.Reflection.Assembly> assemblyNameLookUp; // 0x8
-        public System.Collections.Generic.Dictionary`2<string,System.Type> customTypeNameToTypeBindings; // 0x10
+        public URA.DateTime<string,m.ormation> assemblyNameLookUp; // 0x8
+        public URA.DateTime<string,?> customTypeNameToTypeBindings; // 0x10
         public object TYPETONAME_LOCK; // 0x18
-        public System.Collections.Generic.Dictionary`2<System.Type,string> nameMap; // 0x20
+        public URA.DateTime<?,string> nameMap; // 0x20
         public object NAMETOTYPE_LOCK; // 0x28
-        public System.Collections.Generic.Dictionary`2<string,System.Type> typeMap; // 0x30
+        public URA.DateTime<string,?> typeMap; // 0x30
         public object ASSEMBLY_REGISTER_QUEUE_LOCK; // 0x38
-        public System.Collections.Generic.List`1<System.Reflection.Assembly> assembliesQueuedForRegister; // 0x40
-        public System.Collections.Generic.List`1<0x6641E420> assemblyLoadEventsQueuedForRegister; // 0x48
+        public URA.woDigitYearMax<m.ormation> assembliesQueuedForRegister; // 0x40
+        public URA.woDigitYearMax<ndardLinkInformation> assemblyLoadEventsQueuedForRegister; // 0x48
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5540AF60
@@ -80,7 +80,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DelegateFormatter`1 : BaseFormatter`1
     {
-        public System.Type DelegateType;
+        public object DelegateType;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -92,10 +92,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
     public class DerivedDictionaryFormatter`3 : BaseFormatter`1
     {
         public bool KeyIsValueType;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Collections.Generic.IEqualityComparer`1<V>> EqualityComparerSerializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<V> KeyReaderWriter;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> ValueReaderWriter;
-        public System.Reflection.ConstructorInfo ComparerConstructor;
+        public tSupportedException_ConstructorMaxOf64Parameters<URA.hEraNames<T1717696736>> EqualityComparerSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717696736> KeyReaderWriter;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717696752> ValueReaderWriter;
+        public m.nformation ComparerConstructor;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -107,14 +107,14 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DeserializationContext : Object
     {
-        public VRC.Udon.Serialization.OdinSerializer.SerializationConfig Binder; // 0x10
-        public System.Collections.Generic.Dictionary`2<int,object> StringReferenceResolver; // 0x18
-        public System.Runtime.Serialization.StreamingContext GuidReferenceResolver; // 0x20
-        public System.Runtime.Serialization.IFormatterConverter IndexReferenceResolver; // 0x30
-        public VRC.Udon.Serialization.OdinSerializer.TwoWaySerializationBinder StreamingContext; // 0x38
-        public VRC.Udon.Serialization.OdinSerializer.IExternalStringReferenceResolver FormatterConverter; // 0x40
-        public VRC.Udon.Serialization.OdinSerializer.IExternalGuidReferenceResolver Config; // 0x48
-        public VRC.Udon.Serialization.OdinSerializer.IExternalIndexReferenceResolver <IndexReferenceResolver>k__BackingField; // 0x50
+        public ataPreservedArrayInvalidProperty Binder; // 0x10
+        public URA.DateTime<int,object> StringReferenceResolver; // 0x18
+        public externalClaims.nvoySinks GuidReferenceResolver; // 0x20
+        public externalClaims.m_actor IndexReferenceResolver; // 0x30
+        public ontextOptionsImmutable StreamingContext; // 0x38
+        public ForGraphicRebuildMarker FormatterConverter; // 0x40
+        public InternalUpdateLookup Config; // 0x48
+        public dateMarker <IndexReferenceResolver>k__BackingField; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5540F410 | overloaded x4
@@ -141,9 +141,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
     public class DictionaryFormatter`2 : BaseFormatter`1
     {
         public bool KeyIsValueType;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Collections.Generic.IEqualityComparer`1<U>> EqualityComparerSerializer;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<U> KeyReaderWriter;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> ValueReaderWriter;
+        public tSupportedException_ConstructorMaxOf64Parameters<URA.hEraNames<T1717696768>> EqualityComparerSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717696768> KeyReaderWriter;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717696784> ValueReaderWriter;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -155,14 +155,14 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DictionaryKeyUtility : Object
     {
-        public System.Collections.Generic.Dictionary`2<System.Type,bool> GetSupportedDictionaryKeyTypesResults;
-        public System.Collections.Generic.HashSet`1<System.Type> BaseSupportedDictionaryKeyTypes; // 0x8
-        public System.Collections.Generic.HashSet`1<char> AllowedSpecialKeyStrChars; // 0x10
-        public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider> TypeToKeyPathProviders; // 0x18
-        public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider> IDToKeyPathProviders; // 0x20
-        public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider,string> ProviderToID; // 0x28
-        public System.Collections.Generic.Dictionary`2<object,string> ObjectsToTempKeys; // 0x30
-        public System.Collections.Generic.Dictionary`2<string,object> TempKeysToObjects; // 0x38
+        public URA.DateTime<?,bool> GetSupportedDictionaryKeyTypesResults;
+        public URA.onsDepth<?> BaseSupportedDictionaryKeyTypes; // 0x8
+        public URA.onsDepth<char> AllowedSpecialKeyStrChars; // 0x10
+        public URA.DateTime<?,eadAheadMetadataAndSetState> TypeToKeyPathProviders; // 0x18
+        public URA.DateTime<string,eadAheadMetadataAndSetState> IDToKeyPathProviders; // 0x20
+        public URA.DateTime<eadAheadMetadataAndSetState,string> ProviderToID; // 0x28
+        public URA.DateTime<object,string> ObjectsToTempKeys; // 0x30
+        public URA.DateTime<string,object> TempKeysToObjects; // 0x38
         public long tempKeyCounter; // 0x40
 
         // ── Methods ──
@@ -178,8 +178,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DoubleLookupDictionaryFormatter`3 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<U> PrimaryReaderWriter;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Collections.Generic.Dictionary`2<V,T>> InnerReaderWriter;
+        public tSupportedException_ConstructorMaxOf64Parameters<T1717696800> PrimaryReaderWriter;
+        public tSupportedException_ConstructorMaxOf64Parameters<URA.DateTime<T1717696816,T1717696832>> InnerReaderWriter;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0

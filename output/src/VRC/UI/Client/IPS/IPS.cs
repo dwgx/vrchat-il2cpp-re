@@ -7,7 +7,7 @@ namespace VRC.UI.Client.IPS
 {
     public class IpsProvidedContentLoader`2 : Object
     {
-        public ÌÍÎÏÌÍÏÌÏÌÌÏÏÌÍÏÍÎÍÍÌÏÌ PagedData;
+        public nsion_Base PagedData;
         public int PAGE_SIZE;
 
         // ── Methods ──

@@ -14,10 +14,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncLazy : Object
     {
-        public System.Action`1<object> Task;
-        public System.Func`1<Cysharp.Threading.Tasks.UniTask> taskFactory; // 0x10
-        public Cysharp.Threading.Tasks.UniTaskCompletionSource completionSource; // 0x18
-        public Awaiter awaiter; // 0x20
+        public ileFullDirectoryInformation<object> Task;
+        public ormation<eObjectDelegate.eNonPublicAccessors> taskFactory; // 0x10
+        public eObjectDelegate.ingField completionSource; // 0x18
+        public peInfoResolverChain awaiter; // 0x20
         public object syncLock; // 0x30
         public bool initialized; // 0x38
 
@@ -33,10 +33,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncLazy`1 : Object
     {
-        public System.Action`1<object> Task;
-        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<T>> taskFactory;
-        public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<T> completionSource;
-        public Awaiter<T> awaiter;
+        public ileFullDirectoryInformation<object> Task;
+        public ormation<eObjectDelegate.kingField<T1717653536>> taskFactory;
+        public eObjectDelegate.opertyObjectCreationHandling<T1717653536> completionSource;
+        public peInfoResolverChain<T1717653536> awaiter;
         public object syncLock;
         public bool initialized;
 
@@ -52,8 +52,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncReactiveProperty`1 : Object
     {
-        public Cysharp.Threading.Tasks.TriggerEvent`1<T> Value;
-        public T latestValue;
+        public eObjectDelegate.roperty<T1717653648> Value;
+        public T1717653648 latestValue;
         public bool isValueType;
 
         // ── Methods ──
@@ -71,7 +71,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncUnit : ValueType
     {
-        public Cysharp.Threading.Tasks.AsyncUnit Default;
+        public eObjectDelegate.b__1 Default;
 
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD4E919180
@@ -82,14 +82,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncUnityEventHandler`1 : Object
     {
-        public System.Action`1<object> cancellationCallback;
-        public UnityEngine.Events.UnityAction`1<T> action;
-        public UnityEngine.Events.UnityEvent`1<T> unityEvent;
-        public System.Threading.CancellationToken cancellationToken;
-        public System.Threading.CancellationTokenRegistration registration;
+        public ileFullDirectoryInformation<object> cancellationCallback;
+        public rScript.?<T1717670912> action;
+        public rScript.mData>b__2_1<T1717670912> unityEvent;
+        public sageKind.TICMAP_SIZE cancellationToken;
+        public sageKind.sition registration;
         public bool isDisposed;
         public bool callOnce;
-        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<T> core;
+        public eObjectDelegate.ataProperty>k__BackingField<T1717670912> core;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -114,10 +114,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AutoResetUniTaskCompletionSource : Object
     {
-        public Cysharp.Threading.Tasks.TaskPool`1<Cysharp.Threading.Tasks.AutoResetUniTaskCompletionSource> NextNode;
-        public Cysharp.Threading.Tasks.AutoResetUniTaskCompletionSource Task; // 0x10
-        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<Cysharp.Threading.Tasks.AsyncUnit> core; // 0x18
-        public short version; // 0x40
+        public object NextNode;
+        public object Task;
 
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0
@@ -140,10 +138,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AutoResetUniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.TaskPool`1<Cysharp.Threading.Tasks.AutoResetUniTaskCompletionSource`1<UnityEngine.Networking.UnityWebRequest>> NextNode;
-        public Cysharp.Threading.Tasks.AutoResetUniTaskCompletionSource`1<UnityEngine.Networking.UnityWebRequest> Task; // 0x10
-        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<UnityEngine.Networking.UnityWebRequest> core; // 0x18
-        public short version; // 0x40
+        public eObjectDelegate.ion<eObjectDelegate.ingField<T1717667808>> NextNode;
+        public eObjectDelegate.ingField<T1717667808> Task;
+        public eObjectDelegate.ataProperty>k__BackingField<T1717667808> core;
+        public short version;
 
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x7FFD4E078E90
@@ -167,8 +165,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AwaiterActions : Object
     {
-        public System.Action`1<object> InvokeContinuationDelegate;
-
         // ── Methods ──
         public void Continuation(){} // RVA: 0x7FFD548B5F40
         public void .cctor(){} // RVA: 0x7FFD548B5FB0
@@ -176,7 +172,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class CancellationTokenEqualityComparer : Object
     {
-        public System.Collections.Generic.IEqualityComparer`1<System.Threading.CancellationToken> Default;
+        public URA.hEraNames<sageKind.TICMAP_SIZE> Default;
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD5489BE20
@@ -187,8 +183,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class CancellationTokenExtensions : Object
     {
-        public System.Action`1<object> cancellationTokenCallback;
-        public System.Action`1<object> disposeCallback; // 0x8
+        public ileFullDirectoryInformation<object> cancellationTokenCallback;
+        public ileFullDirectoryInformation<object> disposeCallback; // 0x8
 
         // ── Methods ──
         public void ToCancellationToken(){} // RVA: 0x7FFD4E2ADC40 | overloaded x4
@@ -204,7 +200,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class CancellationTokenSourceExtensions : Object
     {
-        public System.Action`1<object> CancelCancellationTokenSourceStateDelegate;
+        public ileFullDirectoryInformation<object> CancelCancellationTokenSourceStateDelegate;
 
         // ── Methods ──
         public void CancelCancellationTokenSourceState(){} // RVA: 0x7FFD5489D360
@@ -250,8 +246,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class Channel`2 : Object
     {
-        public Cysharp.Threading.Tasks.ChannelReader`1<T> Reader; // 0x10
-        public Cysharp.Threading.Tasks.ChannelWriter`1<T> Writer; // 0x18
+        public eObjectDelegate.ateFSharpSetConstructor<T1717653984> Reader; // 0x10
+        public eObjectDelegate.harpCompilationMappingAttribute<T1717653984> Writer; // 0x18
 
         // ── Methods ──
         public void get_Reader(){} // RVA: 0x7FFD4E35C380
@@ -458,7 +454,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class MoveNextSource : Object
     {
-        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<bool> completionSource; // 0x10
+        public eObjectDelegate.ataProperty>k__BackingField<bool> completionSource; // 0x10
 
         // ── Methods ──
         public void GetResult(){} // RVA: 0x7FFD548A05E0
@@ -472,13 +468,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class PlayerLoopHelper : Object
     {
-        public Cysharp.Threading.Tasks.Internal.ContinuationQueue UnitySynchronizationContext;
-        public Cysharp.Threading.Tasks.Internal.PlayerLoopRunner MainThreadId; // 0x8
+        public n.pCount UnitySynchronizationContext;
+        public n.etBundleRequestAllAssetsAwaiter MainThreadId; // 0x8
         public int ApplicationDataPath; // 0x10
         public string IsMainThread; // 0x18
-        public System.Threading.SynchronizationContext IsEditorApplicationQuitting; // 0x20
-        public Cysharp.Threading.Tasks.Internal.ContinuationQueue[] yielders; // 0x28
-        public Cysharp.Threading.Tasks.Internal.PlayerLoopRunner[] runners; // 0x30
+        public sageKind.ironmentVariable_native IsEditorApplicationQuitting; // 0x20
+        public n.pCount[] yielders; // 0x28
+        public n.etBundleRequestAllAssetsAwaiter[] runners; // 0x30
         public bool <IsEditorApplicationQuitting>k__BackingField; // 0x38
 
         // ── Methods ──
@@ -505,10 +501,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class PlayerLoopTimer : Object
     {
-        public System.Threading.CancellationToken cancellationToken; // 0x10
-        public System.Action`1<object> timerCallback; // 0x18
+        public sageKind.TICMAP_SIZE cancellationToken; // 0x10
+        public ileFullDirectoryInformation<object> timerCallback; // 0x18
         public object state; // 0x20
-        public 0x6653D918 playerLoopTiming; // 0x28
+        public eObjectDelegate.sonElementConverter playerLoopTiming; // 0x28
         public bool periodic; // 0x2C
         public bool isRunning; // 0x2D
         public bool tryStop; // 0x2E
@@ -535,9 +531,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class ReadOnlyAsyncReactiveProperty`1 : Object
     {
-        public Cysharp.Threading.Tasks.TriggerEvent`1<T> Value;
-        public T latestValue;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
+        public eObjectDelegate.roperty<T1717653744> Value;
+        public T1717653744 latestValue;
+        public eObjectDelegate.o<T1717653744> enumerator;
         public bool isValueType;
 
         // ── Methods ──
@@ -555,12 +551,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
-        public System.Collections.Generic.Queue`1<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> items; // 0x20
-        public SingleConsumerUnboundedChannelReader<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> readerSource; // 0x28
-        public Cysharp.Threading.Tasks.UniTaskCompletionSource completedTaskSource; // 0x30
-        public Cysharp.Threading.Tasks.UniTask completedTask; // 0x38
-        public System.Exception completionError; // 0x48
-        public bool closed; // 0x50
+        public URA.ge<T1717653984> items;
+        public ?<T1717653984> readerSource;
+        public eObjectDelegate.ingField completedTaskSource;
+        public eObjectDelegate.eNonPublicAccessors completedTask;
+        public ÏÏÍÍÎÎ completionError;
+        public bool closed;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -574,8 +570,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class SwitchToMainThreadAwaitable : ValueType
     {
-        public 0x6653D918 playerLoopTiming; // 0x10
-        public System.Threading.CancellationToken cancellationToken; // 0x18
+        public eObjectDelegate.sonElementConverter playerLoopTiming; // 0x10
+        public sageKind.TICMAP_SIZE cancellationToken; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD515124C0
@@ -591,7 +587,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
     public class TaskPool : Object
     {
         public int MaxPoolSize;
-        public System.Collections.Generic.Dictionary`2<System.Type,System.Func`1<int>> sizes; // 0x8
+        public URA.DateTime<?,ormation<int>> sizes; // 0x8
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD548A58B0
@@ -602,9 +598,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        public int Size; // 0x10
-        public int size; // 0x14
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid`1<0x664D2938> root; // 0x18
+        public int Size;
+        public int size;
+        public T1717654400 root;
 
         // ── Methods ──
         public void get_Size(){} // RVA: 0x7FFD4F8402A0
@@ -614,8 +610,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskTracker : Object
     {
-        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Cysharp.Threading.Tasks.IUniTaskSource,System.ValueTuple`4<string,int,System.DateTime,string>>> listPool;
-        public Cysharp.Threading.Tasks.Internal.WeakDictionary`2<Cysharp.Threading.Tasks.IUniTaskSource,System.ValueTuple`4<string,int,System.DateTime,string>> tracking; // 0x8
+        public URA.woDigitYearMax<URA.mes<eObjectDelegate.nverter,5AAF70FA8EA2EBFFB72DF72B5D29A339CC9B8DB464EFC14<string,int,DependencyInjector,string>>> listPool;
+        public n.nvokeDelegate<eObjectDelegate.nverter,5AAF70FA8EA2EBFFB72DF72B5D29A339CC9B8DB464EFC14<string,int,DependencyInjector,string>> tracking; // 0x8
         public bool dirty; // 0x10
 
         // ── Methods ──
@@ -657,14 +653,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TimeoutController : Object
     {
-        public System.Action`1<object> CancelCancellationTokenSourceStateDelegate;
-        public System.Threading.CancellationTokenSource timeoutSource; // 0x10
-        public System.Threading.CancellationTokenSource linkedSource; // 0x18
-        public Cysharp.Threading.Tasks.PlayerLoopTimer timer; // 0x20
+        public ileFullDirectoryInformation<object> CancelCancellationTokenSourceStateDelegate;
+        public sageKind._internal timeoutSource; // 0x10
+        public sageKind._internal linkedSource; // 0x18
+        public eObjectDelegate.gnoreNullTokensOnRead timer; // 0x20
         public bool isDisposed; // 0x28
-        public 0x665410C8 delayType; // 0x2C
-        public 0x6653D918 delayTiming; // 0x30
-        public System.Threading.CancellationTokenSource originalLinkCancellationTokenSource; // 0x38
+        public eObjectDelegate.<PropertyCache>k__BackingField delayType; // 0x2C
+        public eObjectDelegate.sonElementConverter delayTiming; // 0x30
+        public sageKind._internal originalLinkCancellationTokenSource; // 0x38
 
         // ── Methods ──
         public void CancelCancellationTokenSourceState(){} // RVA: 0x7FFD548A65E0
@@ -678,9 +674,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> head;
-        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> iteratingHead;
-        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> iteratingNode;
+        public eObjectDelegate.eationHandlingForProperty<T1717654432> head;
+        public eObjectDelegate.eationHandlingForProperty<T1717654432> iteratingHead;
+        public eObjectDelegate.eationHandlingForProperty<T1717654432> iteratingNode;
 
         // ── Methods ──
         public void LogError(){} // RVA: 0x7FFD4E090A40
@@ -694,10 +690,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource Status; // 0x10
+        public eObjectDelegate.nverter Status; // 0x10
         public short token; // 0x18
-        public Cysharp.Threading.Tasks.UniTask CanceledUniTask;
-        public Cysharp.Threading.Tasks.UniTask CompletedTask; // 0x10
+        public eObjectDelegate.eNonPublicAccessors CanceledUniTask;
+        public eObjectDelegate.eNonPublicAccessors CompletedTask; // 0x10
 
         // ── Methods ──
         public void ToCoroutine(){} // RVA: 0x7FFD548A77A0
@@ -754,8 +750,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCancelableAsyncEnumerable`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> enumerable;
-        public System.Threading.CancellationToken cancellationToken;
+        public eObjectDelegate.fo<T1717654256> enumerable;
+        public sageKind.TICMAP_SIZE cancellationToken;
 
         // ── Methods ──
         public void .ctor(){}
@@ -764,12 +760,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource : Object
     {
-        public System.Threading.CancellationToken Task; // 0x10
-        public 0x66541A68 exception; // 0x18
+        public sageKind.TICMAP_SIZE Task; // 0x10
+        public eObjectDelegate.ield exception; // 0x18
         public object gate; // 0x20
-        public System.Action`1<object> singleContinuation; // 0x28
+        public ileFullDirectoryInformation<object> singleContinuation; // 0x28
         public object singleState; // 0x30
-        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Action`1<object>,object>> secondaryContinuationList; // 0x38
+        public URA.woDigitYearMax<8BCA7B5CC287C51E0E3E<ileFullDirectoryInformation<object>,object>> secondaryContinuationList; // 0x38
         public int intStatus; // 0x40
         public bool handled; // 0x44
 
@@ -789,8 +785,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSourceCoreShared : Object
     {
-        public System.Action`1<object> s_sentinel;
-
         // ── Methods ──
         public void CompletionSentinel(){} // RVA: 0x7FFD548B7C60
         public void .cctor(){} // RVA: 0x7FFD548B7CB0
@@ -798,13 +792,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public System.ValueTuple`3<bool,UnityEngine.Texture2D,0x664D2D00> Version; // 0x10
-        public object error; // 0x28
-        public short version; // 0x30
-        public bool hasUnhandledError; // 0x32
-        public int completedCount; // 0x34
-        public System.Action`1<object> continuation; // 0x38
-        public object continuationState; // 0x40
+        public T1717667776 Version;
+        public object error;
+        public short version;
+        public bool hasUnhandledError;
+        public int completedCount;
+        public ileFullDirectoryInformation<object> continuation;
+        public object continuationState;
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD521B9730
@@ -823,13 +817,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
-        public System.Threading.CancellationToken Task; // 0x10
-        public long result; // 0x18
-        public 0x66541A68 exception; // 0x20
+        public sageKind.TICMAP_SIZE Task; // 0x10
+        public object result; // 0x18
+        public eObjectDelegate.ield exception; // 0x20
         public object gate; // 0x28
-        public System.Action`1<object> singleContinuation; // 0x30
+        public ileFullDirectoryInformation<object> singleContinuation; // 0x30
         public object singleState; // 0x38
-        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Action`1<object>,object>> secondaryContinuationList; // 0x40
+        public URA.woDigitYearMax<8BCA7B5CC287C51E0E3E<ileFullDirectoryInformation<object>,object>> secondaryContinuationList; // 0x40
         public int intStatus; // 0x48
         public bool handled; // 0x4C
 
@@ -879,11 +873,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskScheduler : Object
     {
-        public System.Action`1<System.Exception> UnobservedTaskException;
+        public ileFullDirectoryInformation<ÏÏÍÍÎÎ> UnobservedTaskException;
         public bool PropagateOperationCanceledException; // 0x8
-        public 0x664D9630 UnobservedExceptionWriteLogType; // 0xC
+        public object UnobservedExceptionWriteLogType; // 0xC
         public bool DispatchUnityMainThread; // 0x10
-        public System.Threading.SendOrPostCallback handleExceptionInvoke; // 0x18
+        public sageKind.st handleExceptionInvoke; // 0x18
 
         // ── Methods ──
         public void add_UnobservedTaskException(){} // RVA: 0x7FFD548E92F0
@@ -897,12 +891,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
     {
         public int MaxArrayLength;
         public int InitialSize;
-        public System.Threading.SpinLock gate;
+        public sageKind.ceJapaneseEraYearRanges gate;
         public bool dequing; // 0x4
         public int actionListCount; // 0x8
-        public Callback[] actionList; // 0x10
+        public ?[] actionList; // 0x10
         public int waitingListCount; // 0x18
-        public Callback[] waitingList; // 0x20
+        public ?[] waitingList; // 0x20
         public int opCount; // 0x28
 
         // ── Methods ──
@@ -931,9 +925,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ>>> Status; // 0x10
-        public System.ValueTuple`2<bool,System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ>> result; // 0x18
-        public short token; // 0x28
+        public eObjectDelegate.32Converter<8BCA7B5CC287C51E0E3E<bool,8BCA7B5CC287C51E0E3E<URA.woDigitYearMax<?>,URA.woDigitYearMax<?>>>> Status; // 0x10
+        public 8BCA7B5CC287C51E0E3E<bool,8BCA7B5CC287C51E0E3E<URA.woDigitYearMax<?>,URA.woDigitYearMax<?>>> result; // 0x18
+        public short token; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -978,8 +972,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UnityEventHandlerAsyncEnumerable`1 : Object
     {
-        public UnityEngine.Events.UnityEvent`1<T> unityEvent;
-        public System.Threading.CancellationToken cancellationToken1;
+        public rScript.mData>b__2_1<T1717670944> unityEvent;
+        public sageKind.TICMAP_SIZE cancellationToken1;
 
         // ── Methods ──
         public void .ctor(){}
@@ -988,12 +982,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UnityWebRequestException : Exception
     {
-        public UnityEngine.Networking.UnityWebRequest UnityWebRequest; // 0x90
-        public 0x6662E268 Result; // 0x98
+        public Discovery.r`1 UnityWebRequest; // 0x90
+        public tCaMode Result; // 0x98
         public string Error; // 0xA0
         public string Text; // 0xA8
         public long ResponseCode; // 0xB0
-        public System.Collections.Generic.Dictionary`2<string,string> ResponseHeaders; // 0xB8
+        public URA.DateTime<string,string> ResponseHeaders; // 0xB8
         public string Message; // 0xC0
 
         // ── Methods ──
@@ -1009,7 +1003,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class WhenEachEnumerable`1 : Object
     {
-        public System.Collections.Generic.IEnumerable`1<Cysharp.Threading.Tasks.UniTask`1<T>> source;
+        public URA.bbrevEraNames<eObjectDelegate.kingField<T1717667728>> source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -1018,8 +1012,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class WhenEachResult`1 : ValueType
     {
-        public T Result;
-        public System.Exception Exception;
+        public T1717667664 Result;
+        public ÏÏÍÍÎÎ Exception;
 
         // ── Methods ──
         public void get_Result(){} // RVA: 0x7FFD4E2ADC40
@@ -1034,7 +1028,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class YieldAwaitable : ValueType
     {
-        public 0x6653D918 timing; // 0x10
+        public eObjectDelegate.sonElementConverter timing; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E78D8B0

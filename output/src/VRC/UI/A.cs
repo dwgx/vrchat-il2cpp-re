@@ -16,18 +16,18 @@ namespace VRC.UI
         public float f_C00;
         public int f_975;
         public int f_31B;
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_13E; // 0x10
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_954; // 0x18
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_56A; // 0x20
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÏÏÌÍÍÎÎÍÏÌÌÎÎÎÎÍÌÌÏÏÌÏ>k__BackingField; // 0x28
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÍÏÏÎÏÏÎÏÎÎÍÍÌÎÎÌÎÍÌÌÏÏ>k__BackingField; // 0x30
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÌÌÎÌÎÌÏÍÏÏÎÍÎÍÌÎÏÎÏÍÌÌÎ>k__BackingField; // 0x38
-        public bool ÎÍÍÍÍÏÌÏÍÍÎÏÌÌÌÌÍÌÎÏÎÎÏ;
-        public bool ÏÌÏÍÍÏÏÏÏÏÏÏÏÏÎÍÎÍÏÏÌÎÎ; // 0x1
-        public float ÏÌÍÌÌÍÏÍÍÍÌÏÎÍÎÎÎÌÍÏÍÌÌ; // 0x4
-        public bool ÎÍÍÏÍÌÏÌÎÏÌÌÏÍÎÍÍÌÎÏÏÎÍ; // 0x8
-        public int ÏÍÌÍÎÏÌÌÍÍÍÍÌÌÎÏÍÎÎÍÌÎÍ; // 0xC
-        public bool ÌÎÎÎÌÌÍÌÎÏÎÍÍÍÎÎÍÌÌÏÏÎÌ; // 0x10
+        public ?<float> f_13E; // 0x10
+        public ?<float> f_954; // 0x18
+        public ?<bool> f_56A; // 0x20
+        public ?<bool> <ÍÏÏÌÍÍÎÎÍÏÌÌÎÎÎÎÍÌÌÏÏÌÏ>k__BackingField; // 0x28
+        public ?<bool> <ÍÍÏÏÎÏÏÎÏÎÎÍÍÌÎÎÌÎÍÌÌÏÏ>k__BackingField; // 0x30
+        public ?<bool> <ÌÌÎÌÎÌÏÍÏÏÎÍÎÍÌÎÏÎÏÍÌÌÎ>k__BackingField; // 0x38
+        public bool ÌÍÏÎÍÍÏÌÎÍÏÏÍÌÎÎÌÏÏÏÎÏÎ;
+        public bool ÌÏÌÎÌÎÍÍÌÎÍÎÏÎÎÌÏÏÍÏÏÌÌ; // 0x1
+        public float ÎÌÏÎÎÌÍÏÏÎÍÏÌÍÌÏÌÎÌÌÌÍÌ; // 0x4
+        public bool ÍÌÏÌÏÏÎÏÎÌÏÏÎÎÍÍÌÍÎÍÏÍÌ; // 0x8
+        public int ÍÌÏÍÎÎÏÌÍÏÌÏÏÎÎÏÏÌÍÎÌÎÍ; // 0xC
+        public bool ÏÌÎÍÎÏÌÌÌÏÌÍÌÎÏÏÌÎÎÌÎÍÌ; // 0x10
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EB62850

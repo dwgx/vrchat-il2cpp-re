@@ -9,14 +9,14 @@ namespace VRC.Core.Networking.Codec.StateManagement
     {
         public int SerializationHeaderLengthSingleBunch; // 0x10
         public int SerializationHeaderLengthMultiBunch; // 0x14
-        public 0x66564F30 MaximumViewID; // 0x18
-        public 0x66564ED8 MinimumViewID; // 0x20
-        public 0x66564F88 ManagedPlayerViews; // 0x28
-        public 0x66564E80 ObjectStateSizeBytes; // 0x30
-        public 0x66564FE0 _log; // 0x38
-        public 0x66564FE0 _warn; // 0x40
-        public 0x66564FE0 _error; // 0x48
-        public System.Collections.Generic.HashSet`1<int> _managedPlayerViews; // 0x50
+        public a MaximumViewID; // 0x18
+        public position_Data MinimumViewID; // 0x20
+        public ysicsDataT ManagedPlayerViews; // 0x28
+        public eFlags ObjectStateSizeBytes; // 0x30
+        public tation _log; // 0x38
+        public tation _warn; // 0x40
+        public tation _error; // 0x48
+        public URA.onsDepth<int> _managedPlayerViews; // 0x50
 
         // ── Methods ──
         public void SerializationHeaderLength(){} // RVA: 0x7FFD552027B0
@@ -50,44 +50,44 @@ namespace VRC.Core.Networking.Codec.StateManagement
 
     public class PersistenceObjectStateManager : AbstractObjectStateManager
     {
-        public 0x665650E8 UseInstancePersistence; // 0x58
-        public 0x66565350 UsePlayerPersistence; // 0x60
-        public 0x66565508 ObjectStateSizeBytes; // 0x68
-        public 0x665654B0 _playerStorageId; // 0x70
+        public romVector2 UseInstancePersistence; // 0x58
+        public olor32 UsePlayerPersistence; // 0x60
+        public ay ObjectStateSizeBytes; // 0x68
+        public ShortArray _playerStorageId; // 0x70
         public bool _enablePlayerPersistence; // 0x78
         public bool _enableInstancePersistence; // 0x79
         public bool _didSendPersistenceRecoveredMessage; // 0x7A
         public byte _serializationRecoveryID; // 0x7B
         public byte _instancePersistenceRecoveredID; // 0x7C
         public byte _playerPersistenceRecoveredID; // 0x7D
-        public System.Collections.Generic.List`1<int> _didSendPlayerPersistenceRecoveredMessage; // 0x80
+        public URA.woDigitYearMax<int> _didSendPlayerPersistenceRecoveredMessage; // 0x80
         public int _maximumBunchSize; // 0x88
         public int _playerPersistenceMinID; // 0x8C
         public int _playerPersistenceMaxID; // 0x90
-        public 0x66565198 _writeInstance; // 0x98
-        public 0x665651F0 _readInstance; // 0xA0
-        public 0x665652A0 _writePlayer; // 0xA8
-        public 0x665652F8 _readPlayer; // 0xB0
-        public 0x665653A8 _raiseDataUsage; // 0xB8
-        public Google.FlatBuffers32.FlatBufferBuilder _metadataBuilder; // 0xC0
-        public System.Nullable`1<long> _activeMetadataSize; // 0xC8
-        public System.Collections.Generic.Dictionary`2<string,VRC.Core.Networking.FlatBuffers.FlatBuffers32.WorldMetadataT> ReceivedMetadata; // 0xD8
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.WorldMetadataT BaseWorldMetadata; // 0xE0
-        public System.Collections.Generic.Dictionary`2<int,0x66560390> ActiveStateLookup; // 0xE8
-        public System.Collections.Generic.Dictionary`2<int,0x66560390> IncompleteStateLookup; // 0xF0
-        public System.Collections.Generic.Dictionary`2<int,0x66560390> RecoveredStateLookup; // 0xF8
-        public System.Collections.Generic.HashSet`1<int> PlayerPersistenceViewIDs; // 0x100
-        public System.Collections.Generic.IDictionary`2<string,System.Collections.Generic.IDictionary`2<int,int>> _lastUsage; // 0x108
+        public r3 _writeInstance; // 0x98
+        public FromVector4 _readInstance; // 0xA0
+        public n _writePlayer; // 0xA8
+        public mColor _readPlayer; // 0xB0
+        public object _raiseDataUsage; // 0xB8
+        public AssignBinaryExpression.OnReturn _metadataBuilder; // 0xC0
+        public aphy<long> _activeMetadataSize; // 0xC8
+        public URA.DateTime<string,h8.mVectorTolerance> ReceivedMetadata; // 0xD8
+        public h8.mVectorTolerance BaseWorldMetadata; // 0xE0
+        public URA.DateTime<int,h8.ay8> ActiveStateLookup; // 0xE8
+        public URA.DateTime<int,h8.ay8> IncompleteStateLookup; // 0xF0
+        public URA.DateTime<int,h8.ay8> RecoveredStateLookup; // 0xF8
+        public URA.onsDepth<int> PlayerPersistenceViewIDs; // 0x100
+        public URA.X_CALENDARS<string,URA.X_CALENDARS<int,int>> _lastUsage; // 0x108
         public object raiseSizeRequestLock; // 0x110
         public bool raiseSizeRequested; // 0x118
         public string PLAYER_STORAGE_BUCKET;
         public string PLAYER_OBJECTS_BUCKET;
         public string INSTANCE_OBJECTS_BUCKET;
         public string[] AllBuckets;
-        public System.Collections.Generic.Dictionary`2<string,uint> HashBuckets; // 0x8
-        public System.Collections.Generic.Dictionary`2<uint,string> DeHashBuckets; // 0x10
-        public System.Collections.Generic.List`1<0x66565610> PlayerBucketFilters; // 0x120
-        public 0x66565610 InstanceBucketFilter; // 0x128
+        public URA.DateTime<string,uint> HashBuckets; // 0x8
+        public URA.DateTime<uint,string> DeHashBuckets; // 0x10
+        public URA.woDigitYearMax<ay> PlayerBucketFilters; // 0x120
+        public ay InstanceBucketFilter; // 0x128
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55202ED0
@@ -142,7 +142,7 @@ namespace VRC.Core.Networking.Codec.StateManagement
 
     public class SimpleObjectStateManager : AbstractObjectStateManager
     {
-        public System.Collections.Generic.Dictionary`2<int,0x66565AE0> ObjectStateSizeBytes; // 0x58
+        public URA.DateTime<int,onCharArray> ObjectStateSizeBytes; // 0x58
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5520E2F0

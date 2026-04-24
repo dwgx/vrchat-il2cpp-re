@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 {
     public class CallSiteJsonFormatter : CallSiteVisitor`2
     {
-        public Microsoft.Extensions.DependencyInjection.CallSiteJsonFormatter Instance;
+        public ute.m.Collections.Immutable.dll Instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53744B30
@@ -23,8 +23,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class DependencyInjectionEventSource : EventSource
     {
-        public Microsoft.Extensions.DependencyInjection.DependencyInjectionEventSource Log;
-        public System.Collections.Generic.List`1<System.WeakReference`1<Microsoft.Extensions.DependencyInjection.ServiceProvider>> _providers; // 0x20
+        public ute.ocFreeConcurrentStack`1 Log;
+        public URA.woDigitYearMax<numValuesAndNames<ute.SetTimeWindow>> _providers; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53746000
@@ -93,7 +93,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceCollection : Object
     {
-        public System.Collections.Generic.List`1<Microsoft.Extensions.DependencyInjection.ServiceDescriptor> Count; // 0x10
+        public URA.woDigitYearMax<ute.portsPacking> Count; // 0x10
         public bool IsReadOnly; // 0x18
 
         // ── Methods ──
@@ -125,10 +125,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceDescriptor : Object
     {
-        public ÎÌÌÏÍÌÏÌÌÍÌÏÏÎÎÌÎÍÎÌ.ÎÏÎÍÌÌÌÎÌÎ Lifetime; // 0x10
+        public ute.? Lifetime; // 0x10
         public object ServiceKey; // 0x18
-        public System.Type ServiceType; // 0x20
-        public System.Type ImplementationType; // 0x28
+        public object ServiceType; // 0x20
+        public object ImplementationType; // 0x28
         public object KeyedImplementationType; // 0x30
         public object ImplementationInstance; // 0x38
 
@@ -161,13 +161,13 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceProvider : Object
     {
-        public Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator CallSiteFactory; // 0x10
-        public System.Func`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceAccessor> Root; // 0x18
-        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine VerifyOpenGenericServiceTrimmability; // 0x20
+        public numeratorObject.ons.Immutable.ISecurePooledObjectUser.PoolUserId CallSiteFactory; // 0x10
+        public n<numeratorObject.posed,stem.Collections.Generic.ICollection<T>.get_Count> Root; // 0x18
+        public numeratorObject.? VerifyOpenGenericServiceTrimmability; // 0x20
         public bool DisableDynamicEngine; // 0x28
-        public System.Collections.Concurrent.ConcurrentDictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceAccessor> VerifyAotCompatibility; // 0x30
-        public Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory <CallSiteFactory>k__BackingField; // 0x38
-        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope <Root>k__BackingField; // 0x40
+        public JapaneseLangName.erns<numeratorObject.posed,stem.Collections.Generic.ICollection<T>.get_Count> VerifyAotCompatibility; // 0x30
+        public numeratorObject.e <CallSiteFactory>k__BackingField; // 0x38
+        public numeratorObject.? <Root>k__BackingField; // 0x40
         public bool <VerifyOpenGenericServiceTrimmability>k__BackingField;
         public bool <DisableDynamicEngine>k__BackingField; // 0x1
 
@@ -195,7 +195,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceProviderOptions : Object
     {
-        public Microsoft.Extensions.DependencyInjection.ServiceProviderOptions ValidateScopes;
+        public ute.fNotInitialized ValidateScopes;
         public bool ValidateOnBuild; // 0x10
         public bool <ValidateOnBuild>k__BackingField; // 0x11
 

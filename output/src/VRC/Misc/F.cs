@@ -8,8 +8,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÏÏÍÏÌÏÏÏÍÎÌÌÎÌÍÎÏÎÍÏÍ</summary>
     public class FinishTransactionRetrieveProducts_44A4 : Object
     {
-        public UnityEngine.Purchasing.Extension.IStoreCallback ÍÌÎÏÏÏÍÍÎÌÎÏÌÏÍÎÏÏÎÍÍÏÍ; // 0x10
-
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4E342E30
         public void FinishTransaction(){} // RVA: 0x7FFD4E341310
@@ -31,33 +29,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÎÎÌÍÍÎÍÍÌÌÎÎÎÌÎÌÎÏÏÍ</summary>
     public class FoldoutListRelated_CEA5 : Object
     {
-        public string _name; // 0x10
-        public 0x6637A1E0 _hideFlags; // 0x18
-        public UnityEngine.Texture2D f_E71; // 0x20
-        public UnityEngine.Color32 f_844; // 0x28
-        public UnityEngine.Color32 f_864; // 0x2C
-        public int f_99D; // 0x30
-        public float f_604; // 0x34
-        public float f_3E7; // 0x38
-        public int ÎÌÍÎÌÌÎÎÏÍÎÌÏÍÌÌÏÍÎÍÎÏÌ; // 0x3C
-        public int ÎÏÎÎÎÏÎÏÍÍÌÏÏÍÏÎÏÎÌÏÌÏÏ; // 0x40
-        public float <ÌÍÎÎÍÎÏÌÌÎÍÎÌÌÎÎÏÍÍÌÍÎÍ>k__BackingField; // 0x44
-        public float <ÍÌÍÎÎÏÎÌÎÌÍÌÏÌÍÎÏÎÍÎÏÌÏ>k__BackingField; // 0x48
-        public float <ÌÏÎÍÌÍÍÏÌÏÎÌÌÏÎÎÌÌÍÏÌÎÎ>k__BackingField; // 0x4C
-        public float <ÍÌÍÏÌÍÌÌÍÎÎÍÎÏÌÎÎÍÌÍÌÍÎ>k__BackingField; // 0x50
-        public float <ÍÎÌÎÏÏÍÏÏÍÏÏÏÌÌÎÍÌÎÍÍÌÏ>k__BackingField; // 0x54
-        public UnityEngine.Color32[] ÎÏÎÏÎÍÎÏÎÌÎÎÌÌÏÏÎÍÌÌÍÌÎ; // 0x58
-        public UnityEngine.Color32[] ÎÍÍÍÌÍÏÎÏÌÎÌÏÎÍÎÏÍÌÍÏÌÏ; // 0x60
-        public ÌÎÌÏÌÌÌÌÏÏÌÏÍÎÌÌÍÍÌÍÏÏÏ<float> <ÎÏÌÏÌÌÎÎÌÏÌÏÍÏÍÎÏÎÌÎÏÏÍ>k__BackingField; // 0x68
-        public float ÌÌÎÍÌÍÎÏÎÏÍÌÎÌÌÏÌÎÎÎÍÏÎ; // 0x70
-        public ÌÏÌÏÍÍÌÏÍÌÏÌÌÎÎÏÌÏÍÍÍÎÎ<float> ÍÌÌÌÎÎÏÎÍÏÏÌÏÏÍÏÍÎÍÍÎÌÏ; // 0x78
-        public float ÎÍÎÏÏÌÏÏÍÍÎÏÏÍÏÏÌÍÌÍÍÌÎ; // 0x80
-        public float ÍÎÏÎÏÎÍÏÏÍÍÏÌÌÌÌÍÍÎÎÏÏÍ; // 0x84
-        public int ÏÍÎÎÎÍÏÍÌÏÎÍÏÌÎÏÌÏÎÏÍÌÎ; // 0x88
-        public int ÏÌÍÏÍÍÍÍÍÏÍÏÍÌÌÎÍÏÌÍÎÍÏ; // 0x8C
-        public float ÏÌÌÎÌÌÌÌÌÍÎÏÌÍÌÏÎÍÎÌÌÍÍ; // 0x90
-        public float[] ÍÌÏÌÎÍÍÍÍÏÍÍÌÌÍÌÏÎÌÎÎÌÏ; // 0x98
-        public float[] ÍÏÍÎÌÏÎÎÍÎÍÏÍÎÏÏÏÌÏÍÌÏÌ; // 0xA0
+        public object _name;
+        public object _hideFlags;
+        public object f_E71;
+        public object f_844;
+        public object f_864;
+        public object f_99D;
+        public object f_604;
+        public object f_3E7;
 
         // ── Methods ──
         public void set_AreaWidth(){} // RVA: 0x7FFD4E3A9470
@@ -90,17 +69,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÌÌÌÏÍÍÌÍÎÍÌÏÍÎÏÌÍÎÎÍ</summary>
     public class floatVal_29F7 : Object
     {
-        public N _intVal; // 0x10
-        public string _boolVal; // 0x18
-        public int _floatVal; // 0x20
-        public bool f_AFE; // 0x24
-        public float f_B5A; // 0x28
-        public int f_72D; // 0x2C
-        public bool f_1F6; // 0x30
-        public bool f_2FE; // 0x31
-        public object ÏÏÍÏÎÍÏÎÌÌÏÌÏÎÌÎÏÏÍÌÍÍÍ; // 0x38
-        public System.Action`2<int,VRC.SDKBase.IAnimParameterAccess> ÎÎÎÍÎÌÍÍÏÌÌÍÌÏÍÎÍÏÏÍÌÎÍ; // 0x40
-        public bool ÏÌÍÍÌÎÎÏÌÍÍÍÌÌÌÏÎÏÍÏÏÏÎ; // 0x48
+        public object _intVal;
+        public object _boolVal;
+        public object _floatVal;
+        public object f_AFE;
+        public object f_B5A;
+        public object f_72D;
+        public object f_1F6;
+        public object f_2FE;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E6E2330
@@ -136,8 +112,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÍÌÎÏÍÌÌÌÏÏÏÍÎÏÌÌÍÎÍÎ</summary>
     public class floatVal_B57D : Object
     {
-        public bool _intVal; // 0x10
-        public ÏÎÏÌÌÌÏÍÍÌÍÎÍÌÏÍÎÏÌÍÎÎÍ _boolVal; // 0x18
+        public object _intVal;
+        public object _boolVal;
+        public object _floatVal;
 
         // ── Methods ──
         public void get_intVal(){} // RVA: 0x7FFD4EEBCC20

@@ -17,7 +17,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Repeat`1 : Object
     {
-        public T element;
+        public T1717635808 element;
         public int count;
 
         // ── Methods ──
@@ -27,7 +27,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Return`1 : Object
     {
-        public T value;
+        public T1717635840 value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -36,7 +36,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Reverse`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public eObjectDelegate.fo<T1717635888> source;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

@@ -7,10 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class WinRTStore : AbstractStore
     {
-        public 0x66646AA0 win8; // 0x10
-        public UnityEngine.Purchasing.Extension.IStoreCallback callback; // 0x18
-        public Uniject.IUtil util; // 0x20
-        public UnityEngine.ILogger logger; // 0x28
+        public ardDir.waysDir win8; // 0x10
+        public ra.__0 callback; // 0x18
+        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ util; // 0x20
+        public Identifiers logger; // 0x28
         public bool m_CanReceivePurchases; // 0x30
 
         // ── Methods ──

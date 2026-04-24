@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 {
     public class ConfigurationList`1 : Object
     {
-        public System.Collections.Generic.List`1<T> IsReadOnly;
+        public URA.woDigitYearMax<T1717649488> IsReadOnly;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -58,7 +58,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
         public bool CanPopulate; // 0x13
         public bool CanUseDirectReadOrWrite; // 0x14
         public bool CanHaveMetadata; // 0x15
-        public System.Reflection.ConstructorInfo CanBePolymorphic; // 0x18
+        public m.nformation CanBePolymorphic; // 0x18
         public bool RequiresReadAhead; // 0x20
 
         // ── Methods ──
@@ -149,8 +149,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
-        public System.Type KeyType; // 0x28
-        public System.Text.Json.Serialization.JsonConverter`1<T> ElementType; // 0x30
+        public object KeyType; // 0x28
+        public ngCommas.get_transformPoleAxis<T1717653520> ElementType; // 0x30
 
         // ── Methods ──
         public void ReadCore(){} // RVA: 0x7FFD4E27B230
@@ -207,8 +207,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
-        public System.Text.Json.Serialization.JsonConverter`1<V> ElementType; // 0x38
-        public System.Text.Json.Serialization.JsonConverter`1<T> KeyType; // 0x40
+        public ngCommas.get_transformPoleAxis<T1717652048> ElementType; // 0x38
+        public ngCommas.get_transformPoleAxis<T1717652064> KeyType; // 0x40
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E09B8C0
@@ -255,8 +255,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonStringEnumConverter`1 : JsonConverterFactory
     {
-        public 0x66534B20 _namingPolicy;
-        public 0x6653AF28 _converterOptions;
+        public inDataView.gCommaNotAllowedBeforeObjectEnd _namingPolicy;
+        public bleInterface.zation _converterOptions;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E096500 | overloaded x2
@@ -266,9 +266,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ReferenceHandler : Object
     {
-        public 0x66538010 Preserve; // 0x10
-        public System.Text.Json.Serialization.ReferenceHandler IgnoreCycles;
-        public System.Text.Json.Serialization.ReferenceHandler <IgnoreCycles>k__BackingField; // 0x8
+        public ngCommas._SerializerOptionsReadOnly Preserve; // 0x10
+        public ngCommas.hrowInvalidOperationException_JsonPropertyRequiredAndExtensionData IgnoreCycles;
+        public ngCommas.hrowInvalidOperationException_JsonPropertyRequiredAndExtensionData <IgnoreCycles>k__BackingField; // 0x8
 
         // ── Methods ──
         public void get_Preserve(){} // RVA: 0x7FFD5447F2B0

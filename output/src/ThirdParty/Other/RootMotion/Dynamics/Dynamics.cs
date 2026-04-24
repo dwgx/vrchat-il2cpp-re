@@ -14,33 +14,33 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BehaviourBase : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMaster forceActive; // 0x20
-        public 0x6651D368 OnPreActivate; // 0x28
-        public 0x6651D368 OnPreInitiate; // 0x30
-        public 0x6651D368 OnPreFixedUpdate; // 0x38
-        public 0x6651D368 OnPreUpdate; // 0x40
-        public 0x6651D368 OnPreLateUpdate; // 0x48
-        public 0x6651D368 OnPreDeactivate; // 0x50
-        public 0x6651D368 OnPreFixTransforms; // 0x58
-        public 0x6651D368 OnPreRead; // 0x60
-        public 0x6651D368 OnPreWrite; // 0x68
-        public 0x6651D3C0 OnPreMuscleHit; // 0x70
-        public 0x6651D418 OnPreMuscleCollision; // 0x78
-        public 0x6651D418 OnPreMuscleCollisionExit; // 0x80
-        public 0x6651D368 OnHierarchyChanged; // 0x88
-        public 0x6651D368 OnPostActivate; // 0x90
-        public 0x6651D368 OnPostInitiate; // 0x98
-        public 0x6651D368 OnPostFixedUpdate; // 0xA0
-        public 0x6651D368 OnPostUpdate; // 0xA8
-        public 0x6651D368 OnPostLateUpdate; // 0xB0
-        public 0x6651D368 OnPostDeactivate; // 0xB8
-        public 0x6651D368 OnPostDrawGizmos; // 0xC0
-        public 0x6651D368 OnPostFixTransforms; // 0xC8
-        public 0x6651D368 OnPostRead; // 0xD0
-        public 0x6651D368 OnPostWrite; // 0xD8
-        public 0x6651D3C0 OnPostMuscleHit; // 0xE0
-        public 0x6651D418 OnPostMuscleCollision; // 0xE8
-        public 0x6651D418 OnPostMuscleCollisionExit; // 0xF0
+        public ce.layAudio forceActive; // 0x20
+        public Range OnPreActivate; // 0x28
+        public Range OnPreInitiate; // 0x30
+        public Range OnPreFixedUpdate; // 0x38
+        public Range OnPreUpdate; // 0x40
+        public Range OnPreLateUpdate; // 0x48
+        public Range OnPreDeactivate; // 0x50
+        public Range OnPreFixTransforms; // 0x58
+        public Range OnPreRead; // 0x60
+        public Range OnPreWrite; // 0x68
+        public ange OnPreMuscleHit; // 0x70
+        public e OnPreMuscleCollision; // 0x78
+        public e OnPreMuscleCollisionExit; // 0x80
+        public Range OnHierarchyChanged; // 0x88
+        public Range OnPostActivate; // 0x90
+        public Range OnPostInitiate; // 0x98
+        public Range OnPostFixedUpdate; // 0xA0
+        public Range OnPostUpdate; // 0xA8
+        public Range OnPostLateUpdate; // 0xB0
+        public Range OnPostDeactivate; // 0xB8
+        public Range OnPostDrawGizmos; // 0xC0
+        public Range OnPostFixTransforms; // 0xC8
+        public Range OnPostRead; // 0xD0
+        public Range OnPostWrite; // 0xD8
+        public ange OnPostMuscleHit; // 0xE0
+        public e OnPostMuscleCollision; // 0xE8
+        public e OnPostMuscleCollisionExit; // 0xF0
         public bool deactivated; // 0xF8
         public bool <forceActive>k__BackingField; // 0xF9
         public bool initiated; // 0xFA
@@ -100,7 +100,7 @@ namespace ThirdParty.Other.RootMotion.Dynamics
         public float transitionDuration; // 0x108
         public int layer; // 0x10C
         public float fixedTime; // 0x110
-        public UnityEngine.LayerMask raycastLayers; // 0x114
+        public object raycastLayers; // 0x114
         public string blendParameter; // 0x118
         public float writheHeight; // 0x120
         public float writheYVelocity; // 0x124
@@ -109,7 +109,7 @@ namespace ThirdParty.Other.RootMotion.Dynamics
         public bool canEnd; // 0x130
         public float minTime; // 0x134
         public float maxEndVelocity; // 0x138
-        public 0x6651D470 onEnd; // 0x140
+        public ntalRatio onEnd; // 0x140
         public float timer; // 0x158
         public bool endTriggered; // 0x15C
 
@@ -131,17 +131,17 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BehaviourPuppet : BehaviourBase
     {
-        public 0x6651D6D8 state; // 0x100
-        public UnityEngine.LayerMask groundLayers; // 0x108
-        public UnityEngine.LayerMask collisionLayers; // 0x10C
+        public aypointList state; // 0x100
+        public object groundLayers; // 0x108
+        public object collisionLayers; // 0x10C
         public float collisionThreshold; // 0x110
-        public RootMotion.Dynamics.Weight collisionResistance; // 0x118
-        public 0x6651D7E0[] collisionResistanceMultipliers; // 0x120
+        public ce.peed collisionResistance; // 0x118
+        public r[] collisionResistanceMultipliers; // 0x120
         public int maxCollisions; // 0x128
         public float regainPinSpeed; // 0x12C
         public float boostFalloff; // 0x130
-        public 0x6651D730 defaults; // 0x138
-        public 0x6651D788[] groupOverrides; // 0x170
+        public object defaults; // 0x138
+        public headForSpeedFactor[] groupOverrides; // 0x170
         public float knockOutDistance; // 0x178
         public float unpinnedMuscleWeightMlp; // 0x17C
         public float maxRigidbodyVelocity; // 0x180
@@ -156,26 +156,26 @@ namespace ThirdParty.Other.RootMotion.Dynamics
         public float getUpCollisionResistanceMlp; // 0x19C
         public float getUpRegainPinSpeedMlp; // 0x1A0
         public float getUpKnockOutDistanceMlp; // 0x1A4
-        public UnityEngine.Vector3 getUpOffsetProne; // 0x1A8
-        public UnityEngine.Vector3 getUpOffsetSupine; // 0x1B4
-        public 0x6651D470 onGetUpProne; // 0x1C0
-        public 0x6651D470 onGetUpSupine; // 0x1D8
-        public 0x6651D470 onLoseBalance; // 0x1F0
-        public 0x6651D470 onLoseBalanceFromPuppet; // 0x208
-        public 0x6651D470 onLoseBalanceFromGetUp; // 0x220
-        public 0x6651D470 onRegainBalance; // 0x238
-        public 0x6651D418 OnCollision; // 0x250
-        public 0x6651D838 OnCollisionImpulse; // 0x258
-        public 0x6651D628 <state>k__BackingField; // 0x260
+        public amut getUpOffsetProne; // 0x1A8
+        public amut getUpOffsetSupine; // 0x1B4
+        public ntalRatio onGetUpProne; // 0x1C0
+        public ntalRatio onGetUpSupine; // 0x1D8
+        public ntalRatio onLoseBalance; // 0x1F0
+        public ntalRatio onLoseBalanceFromPuppet; // 0x208
+        public ntalRatio onLoseBalanceFromGetUp; // 0x220
+        public ntalRatio onRegainBalance; // 0x238
+        public e OnCollision; // 0x250
+        public reshold OnCollisionImpulse; // 0x258
+        public object <state>k__BackingField; // 0x260
         public bool canMoveTarget; // 0x264
         public float unpinnedTimer; // 0x268
         public float getUpTimer; // 0x26C
-        public UnityEngine.Vector3 hipsForward; // 0x270
-        public UnityEngine.Vector3 hipsUp; // 0x27C
+        public amut hipsForward; // 0x270
+        public amut hipsUp; // 0x27C
         public float getupAnimationBlendWeight; // 0x288
         public float getupAnimationBlendWeightV; // 0x28C
         public bool getUpTargetFixed; // 0x290
-        public 0x6651D680 lastNormalMode; // 0x294
+        public p0n lastNormalMode; // 0x294
         public int collisions; // 0x298
         public bool eventsEnabled; // 0x29C
         public float lastKnockOutDistance; // 0x2A0
@@ -183,8 +183,8 @@ namespace ThirdParty.Other.RootMotion.Dynamics
         public bool getupDisabled; // 0x2A8
         public bool hasCollidedSinceGetUp; // 0x2A9
         public bool hasBoosted; // 0x2AA
-        public RootMotion.Dynamics.MuscleCollisionBroadcaster broadcaster; // 0x2B0
-        public UnityEngine.Vector3 getUpPosition; // 0x2B8
+        public ce.get_BrakeInput broadcaster; // 0x2B0
+        public amut getUpPosition; // 0x2B8
         public bool dropPropFlag; // 0x2C4
 
         // ── Methods ──
@@ -235,9 +235,9 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BehaviourTemplate : BehaviourBase
     {
-        public RootMotion.Dynamics.SubBehaviourCOM centerOfMass; // 0x100
-        public UnityEngine.LayerMask groundLayers; // 0x108
-        public 0x6651D470 onLoseBalance; // 0x110
+        public ce.ty centerOfMass; // 0x100
+        public object groundLayers; // 0x108
+        public ntalRatio onLoseBalance; // 0x110
         public float loseBalanceAngle; // 0x128
 
         // ── Methods ──
@@ -255,8 +255,8 @@ namespace ThirdParty.Other.RootMotion.Dynamics
     public class BipedRagdollCreator : RagdollCreator
     {
         public bool canBuild; // 0x20
-        public RootMotion.Dynamics.BipedRagdollReferences references; // 0x28
-        public 0x6651E8B8 options; // 0xB0
+        public ce.dCameraRig references; // 0x28
+        public ÌÍÎÏÎÏÎÌÍÌÎ options; // 0xB0
 
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -280,23 +280,23 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BipedRagdollReferences : ValueType
     {
-        public UnityEngine.Transform root; // 0x10
-        public UnityEngine.Transform hips; // 0x18
-        public UnityEngine.Transform spine; // 0x20
-        public UnityEngine.Transform chest; // 0x28
-        public UnityEngine.Transform head; // 0x30
-        public UnityEngine.Transform leftUpperLeg; // 0x38
-        public UnityEngine.Transform leftLowerLeg; // 0x40
-        public UnityEngine.Transform leftFoot; // 0x48
-        public UnityEngine.Transform rightUpperLeg; // 0x50
-        public UnityEngine.Transform rightLowerLeg; // 0x58
-        public UnityEngine.Transform rightFoot; // 0x60
-        public UnityEngine.Transform leftUpperArm; // 0x68
-        public UnityEngine.Transform leftLowerArm; // 0x70
-        public UnityEngine.Transform leftHand; // 0x78
-        public UnityEngine.Transform rightUpperArm; // 0x80
-        public UnityEngine.Transform rightLowerArm; // 0x88
-        public UnityEngine.Transform rightHand; // 0x90
+        public object root; // 0x10
+        public object hips; // 0x18
+        public object spine; // 0x20
+        public object chest; // 0x28
+        public object head; // 0x30
+        public object leftUpperLeg; // 0x38
+        public object leftLowerLeg; // 0x40
+        public object leftFoot; // 0x48
+        public object rightUpperLeg; // 0x50
+        public object rightLowerLeg; // 0x58
+        public object rightFoot; // 0x60
+        public object leftUpperArm; // 0x68
+        public object leftLowerArm; // 0x70
+        public object leftHand; // 0x78
+        public object rightUpperArm; // 0x80
+        public object rightLowerArm; // 0x88
+        public object rightHand; // 0x90
 
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E3EC760
@@ -311,8 +311,8 @@ namespace ThirdParty.Other.RootMotion.Dynamics
     public class Booster : Object
     {
         public bool fullBody; // 0x10
-        public UnityEngine.ConfigurableJoint[] muscles; // 0x18
-        public 0x6651DBA8[] groups; // 0x20
+        public eam[] muscles; // 0x18
+        public ?[] groups; // 0x20
         public float immunity; // 0x28
         public float impulseMlp; // 0x2C
         public float boostParents; // 0x30
@@ -326,7 +326,7 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class JointBreakBroadcaster : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMaster puppetMaster; // 0x20
+        public ce.layAudio puppetMaster; // 0x20
         public int muscleIndex; // 0x28
 
         // ── Methods ──
@@ -353,81 +353,81 @@ namespace ThirdParty.Other.RootMotion.Dynamics
     public class Muscle : Object
     {
         public string transform; // 0x10
-        public UnityEngine.ConfigurableJoint rigidbody; // 0x18
-        public UnityEngine.Transform connectedBodyTarget; // 0x20
-        public 0x6651DC58 targetAnimatedPosition; // 0x28
-        public 0x6651DCB0 targetAnimatedWorldRotation; // 0x30
+        public eam rigidbody; // 0x18
+        public object connectedBodyTarget; // 0x20
+        public ÌÍÌÌÎÎÌÏÏÍÎÌÎÎÍÌÏÏÎÏÌÍÏ targetAnimatedPosition; // 0x28
+        public object targetAnimatedWorldRotation; // 0x30
         public int[] colliders; // 0x70
         public int[] targetVelocity; // 0x78
         public bool[] additionalRigidbody; // 0x80
         public int[] targetRotationRelative; // 0x88
-        public RootMotion.Dynamics.MuscleCollisionBroadcaster rebuildConnectedBody; // 0x90
-        public RootMotion.Dynamics.JointBreakBroadcaster rebuildTargetParent; // 0x98
-        public UnityEngine.Vector3 defaultTargetPosRelToMuscle; // 0xA0
-        public UnityEngine.Transform defaultTargetRotRelToMuscle; // 0xB0
-        public UnityEngine.Rigidbody defaultMuscleRotRelToTarget; // 0xB8
-        public UnityEngine.Transform localRotation; // 0xC0
-        public UnityEngine.Vector3 parentRotation; // 0xC8
-        public UnityEngine.Quaternion targetParentRotation; // 0xD4
-        public UnityEngine.Vector3 targetLocalRotation; // 0xE4
-        public UnityEngine.Rigidbody <additionalRigidbody>k__BackingField; // 0xF0
-        public UnityEngine.ConfigurableJoint additionalPin; // 0xF8
-        public UnityEngine.Transform additionalPinTarget; // 0x100
+        public ce.get_BrakeInput rebuildConnectedBody; // 0x90
+        public ce.onFor rebuildTargetParent; // 0x98
+        public amut defaultTargetPosRelToMuscle; // 0xA0
+        public object defaultTargetRotRelToMuscle; // 0xB0
+        public Touched defaultMuscleRotRelToTarget; // 0xB8
+        public object localRotation; // 0xC0
+        public amut parentRotation; // 0xC8
+        public R_12x12 targetParentRotation; // 0xD4
+        public amut targetLocalRotation; // 0xE4
+        public Touched <additionalRigidbody>k__BackingField; // 0xF0
+        public eam additionalPin; // 0xF8
+        public object additionalPinTarget; // 0x100
         public float additionalPinWeight; // 0x108
-        public UnityEngine.Vector3 mappedVelocity; // 0x10C
-        public UnityEngine.Vector3 mappedAngularVelocity; // 0x118
+        public amut mappedVelocity; // 0x10C
+        public amut mappedAngularVelocity; // 0x118
         public bool isPropMuscle; // 0x124
         public int index; // 0x128
-        public UnityEngine.Quaternion <targetRotationRelative>k__BackingField; // 0x12C
-        public UnityEngine.Rigidbody <rebuildConnectedBody>k__BackingField; // 0x140
-        public UnityEngine.Transform <rebuildTargetParent>k__BackingField; // 0x148
-        public UnityEngine.Vector3 <defaultTargetPosRelToMuscle>k__BackingField; // 0x150
-        public UnityEngine.Quaternion <defaultTargetRotRelToMuscle>k__BackingField; // 0x15C
-        public UnityEngine.Quaternion <defaultMuscleRotRelToTarget>k__BackingField; // 0x16C
-        public UnityEngine.Transform rebuildParent; // 0x180
-        public UnityEngine.Vector3 rebuildPosition; // 0x188
-        public UnityEngine.Quaternion rebuildRotation; // 0x194
-        public UnityEngine.Vector3 rebuildTargetPosition; // 0x1A4
-        public UnityEngine.Quaternion rebuildTargetRotation; // 0x1B0
-        public ÎÌÏÎÏÎÍÏ rebuildAngularXMotion; // 0x1C0
-        public ÎÌÏÎÏÎÍÏ rebuildAngularYMotion; // 0x1C4
-        public ÎÌÏÎÏÎÍÏ rebuildAngularZMotion; // 0x1C8
-        public UnityEngine.Vector3 targetMappedPosition; // 0x1CC
-        public UnityEngine.Quaternion targetMappedRotation; // 0x1D8
-        public UnityEngine.Vector3 targetSampledPosition; // 0x1E8
-        public UnityEngine.Quaternion targetSampledRotation; // 0x1F4
-        public 0x665FFF00 slerpDrive; // 0x204
+        public R_12x12 <targetRotationRelative>k__BackingField; // 0x12C
+        public Touched <rebuildConnectedBody>k__BackingField; // 0x140
+        public object <rebuildTargetParent>k__BackingField; // 0x148
+        public amut <defaultTargetPosRelToMuscle>k__BackingField; // 0x150
+        public R_12x12 <defaultTargetRotRelToMuscle>k__BackingField; // 0x15C
+        public R_12x12 <defaultMuscleRotRelToTarget>k__BackingField; // 0x16C
+        public object rebuildParent; // 0x180
+        public amut rebuildPosition; // 0x188
+        public R_12x12 rebuildRotation; // 0x194
+        public amut rebuildTargetPosition; // 0x1A4
+        public R_12x12 rebuildTargetRotation; // 0x1B0
+        public ectMassCenter rebuildAngularXMotion; // 0x1C0
+        public ectMassCenter rebuildAngularYMotion; // 0x1C4
+        public ectMassCenter rebuildAngularZMotion; // 0x1C8
+        public amut targetMappedPosition; // 0x1CC
+        public R_12x12 targetMappedRotation; // 0x1D8
+        public amut targetSampledPosition; // 0x1E8
+        public R_12x12 targetSampledRotation; // 0x1F4
+        public odyPositionInternal_Injected slerpDrive; // 0x204
         public float lastJointDriveRotationWeight; // 0x214
         public float lastRotationDamper; // 0x218
-        public UnityEngine.Vector3 defaultPosition; // 0x21C
-        public UnityEngine.Vector3 defaultTargetLocalPosition; // 0x228
-        public UnityEngine.Vector3 lastMappedPosition; // 0x234
-        public UnityEngine.Quaternion defaultLocalRotation; // 0x240
-        public UnityEngine.Quaternion localRotationConvert; // 0x250
-        public UnityEngine.Quaternion toParentSpace; // 0x260
-        public UnityEngine.Quaternion toJointSpaceInverse; // 0x270
-        public UnityEngine.Quaternion toJointSpaceDefault; // 0x280
-        public UnityEngine.Quaternion targetAnimatedRotation; // 0x290
-        public UnityEngine.Quaternion defaultRotation; // 0x2A0
-        public UnityEngine.Quaternion rotationRelativeToTarget; // 0x2B0
-        public UnityEngine.Quaternion defaultTargetLocalRotation; // 0x2C0
-        public UnityEngine.Quaternion lastMappedRotation; // 0x2D0
-        public UnityEngine.Transform targetParent; // 0x2E0
-        public UnityEngine.Transform connectedBodyTransform; // 0x2E8
-        public ÎÌÏÎÏÎÍÏ angularXMotionDefault; // 0x2F0
-        public ÎÌÏÎÏÎÍÏ angularYMotionDefault; // 0x2F4
-        public ÎÌÏÎÏÎÍÏ angularZMotionDefault; // 0x2F8
+        public amut defaultPosition; // 0x21C
+        public amut defaultTargetLocalPosition; // 0x228
+        public amut lastMappedPosition; // 0x234
+        public R_12x12 defaultLocalRotation; // 0x240
+        public R_12x12 localRotationConvert; // 0x250
+        public R_12x12 toParentSpace; // 0x260
+        public R_12x12 toJointSpaceInverse; // 0x270
+        public R_12x12 toJointSpaceDefault; // 0x280
+        public R_12x12 targetAnimatedRotation; // 0x290
+        public R_12x12 defaultRotation; // 0x2A0
+        public R_12x12 rotationRelativeToTarget; // 0x2B0
+        public R_12x12 defaultTargetLocalRotation; // 0x2C0
+        public R_12x12 lastMappedRotation; // 0x2D0
+        public object targetParent; // 0x2E0
+        public object connectedBodyTransform; // 0x2E8
+        public ectMassCenter angularXMotionDefault; // 0x2F0
+        public ectMassCenter angularYMotionDefault; // 0x2F4
+        public ectMassCenter angularZMotionDefault; // 0x2F8
         public bool directTargetParent; // 0x2FC
         public bool initiated; // 0x2FD
-        public UnityEngine.Collider[] _colliders; // 0x300
+        public riteCharacterUnicode[] _colliders; // 0x300
         public float lastReadTime; // 0x308
         public float lastWriteTime; // 0x30C
         public bool[] disabledColliders; // 0x310
-        public 0x6651DD08[] targetChildren; // 0x318
-        public UnityEngine.Vector3 additionalTargetVelocity; // 0x320
-        public UnityEngine.Vector3 targetAnimatedCenterOfMass; // 0x32C
-        public UnityEngine.Vector3 additionalPinTargetAnimatedCenterOfMass; // 0x338
-        public UnityEngine.Quaternion defaultTargetRotRelToMuscleInverse; // 0x344
+        public ourWheelDrive[] targetChildren; // 0x318
+        public amut additionalTargetVelocity; // 0x320
+        public amut targetAnimatedCenterOfMass; // 0x32C
+        public amut additionalPinTargetAnimatedCenterOfMass; // 0x338
+        public R_12x12 defaultTargetRotRelToMuscleInverse; // 0x344
 
         // ── Methods ──
         public void get_transform(){} // RVA: 0x7FFD4E3AC040
@@ -499,12 +499,12 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class MuscleCollisionBroadcaster : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMaster puppetMaster; // 0x20
+        public ce.layAudio puppetMaster; // 0x20
         public int muscleIndex; // 0x28
         public string onMuscleHit;
         public string onMuscleCollision;
         public string onMuscleCollisionExit;
-        public RootMotion.Dynamics.MuscleCollisionBroadcaster otherBroadcaster; // 0x30
+        public ce.get_BrakeInput otherBroadcaster; // 0x30
 
         // ── Methods ──
         public void Hit(){} // RVA: 0x7FFD4E3B7F80
@@ -535,13 +535,13 @@ namespace ThirdParty.Other.RootMotion.Dynamics
     public class PressureSensor : MonoBehaviour
     {
         public bool center; // 0x20
-        public UnityEngine.LayerMask inContact; // 0x24
-        public UnityEngine.Vector3 bottom; // 0x28
+        public object inContact; // 0x24
+        public amut bottom; // 0x28
         public bool r; // 0x34
-        public UnityEngine.Vector3 <bottom>k__BackingField; // 0x38
-        public UnityEngine.Rigidbody <r>k__BackingField; // 0x48
+        public amut <bottom>k__BackingField; // 0x38
+        public Touched <r>k__BackingField; // 0x48
         public bool fixedFrame; // 0x50
-        public UnityEngine.Vector3 P; // 0x54
+        public amut P; // 0x54
         public int count; // 0x60
 
         // ── Methods ──
@@ -567,23 +567,23 @@ namespace ThirdParty.Other.RootMotion.Dynamics
     public class Prop : MonoBehaviour
     {
         public int isPickedUp; // 0x20
-        public UnityEngine.ConfigurableJoint propRoot; // 0x28
-        public 0x6651DC58 initiated; // 0x30
+        public eam propRoot; // 0x28
+        public ÌÍÌÌÎÎÌÏÏÍÎÌÎÎÍÌÏÏÎÏÌÍÏ initiated; // 0x30
         public bool forceLayers; // 0x38
-        public UnityEngine.ConfigurableJoint additionalPin; // 0x40
-        public UnityEngine.Transform additionalPinTarget; // 0x48
+        public eam additionalPin; // 0x40
+        public object additionalPinTarget; // 0x48
         public float additionalPinWeight; // 0x50
-        public UnityEngine.PhysicMaterial pickedUpMaterial; // 0x58
-        public UnityEngine.PhysicMaterial droppedMaterial; // 0x60
-        public RootMotion.Dynamics.PropRoot <propRoot>k__BackingField; // 0x68
+        public th pickedUpMaterial; // 0x58
+        public th droppedMaterial; // 0x60
+        public ce.get_skidding <propRoot>k__BackingField; // 0x68
         public bool <initiated>k__BackingField; // 0x70
-        public ÎÌÏÎÏÎÍÏ xMotion; // 0x74
-        public ÎÌÏÎÏÎÍÏ yMotion; // 0x78
-        public ÎÌÏÎÏÎÍÏ zMotion; // 0x7C
-        public ÎÌÏÎÏÎÍÏ angularXMotion; // 0x80
-        public ÎÌÏÎÏÎÍÏ angularYMotion; // 0x84
-        public ÎÌÏÎÏÎÍÏ angularZMotion; // 0x88
-        public UnityEngine.Collider[] colliders; // 0x90
+        public ectMassCenter xMotion; // 0x74
+        public ectMassCenter yMotion; // 0x78
+        public ectMassCenter zMotion; // 0x7C
+        public ectMassCenter angularXMotion; // 0x80
+        public ectMassCenter angularYMotion; // 0x84
+        public ectMassCenter angularZMotion; // 0x88
+        public riteCharacterUnicode[] colliders; // 0x90
 
         // ── Methods ──
         public void get_isPickedUp(){} // RVA: 0x7FFD4E3BCC80
@@ -606,16 +606,16 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PropMuscle : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMaster muscle; // 0x20
-        public RootMotion.Dynamics.PuppetMasterProp activeProp; // 0x28
-        public UnityEngine.Vector3 additionalPinOffset; // 0x30
-        public RootMotion.Dynamics.PuppetMasterProp <activeProp>k__BackingField; // 0x40
-        public 0x6651DFC8 OnPickUpProp; // 0x48
-        public 0x6651DFC8 OnDropProp; // 0x50
-        public RootMotion.Dynamics.Muscle _muscle; // 0x58
-        public RootMotion.Dynamics.PuppetMasterProp lastProp; // 0x60
-        public UnityEngine.Vector3 targetDefaultLocalPos; // 0x68
-        public UnityEngine.Vector3 lastAdditionalPinOffset; // 0x74
+        public ce.layAudio muscle; // 0x20
+        public ce.epInterval activeProp; // 0x28
+        public amut additionalPinOffset; // 0x30
+        public ce.epInterval <activeProp>k__BackingField; // 0x40
+        public WheelEffects OnPickUpProp; // 0x48
+        public WheelEffects OnDropProp; // 0x50
+        public ce.projection _muscle; // 0x58
+        public ce.epInterval lastProp; // 0x60
+        public amut targetDefaultLocalPos; // 0x68
+        public amut lastAdditionalPinOffset; // 0x74
 
         // ── Methods ──
         public void get_muscle(){} // RVA: 0x7FFD4E3BE650
@@ -632,10 +632,10 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PropRoot : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMaster puppetMaster; // 0x20
-        public UnityEngine.Rigidbody connectTo; // 0x28
-        public RootMotion.Dynamics.Prop currentProp; // 0x30
-        public RootMotion.Dynamics.Prop lastProp; // 0x38
+        public ce.layAudio puppetMaster; // 0x20
+        public Touched connectTo; // 0x28
+        public ce.ÍÎÏÏÌÌÍÌÌÎÌÏÌÍÏÏÏÌ currentProp; // 0x30
+        public ce.ÍÎÏÏÌÌÍÌÌÎÌÏÌÍÏÏÏÌ lastProp; // 0x38
         public bool fixedUpdateCalled; // 0x40
 
         // ── Methods ──
@@ -660,11 +660,11 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMaster : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMasterHumanoidConfig targetAnimator; // 0x20
-        public UnityEngine.Transform targetAnimation; // 0x28
-        public 0x6651E288 behaviours; // 0x30
-        public 0x6651E2E0 isActive; // 0x34
-        public 0x6651E128 initiated; // 0x48
+        public ce.Kick targetAnimator; // 0x20
+        public object targetAnimation; // 0x28
+        public object behaviours; // 0x30
+        public hing isActive; // 0x34
+        public object initiated; // 0x48
         public float updateMode; // 0x4C
         public bool controlsAnimator; // 0x50
         public int isBlending; // 0x54
@@ -681,22 +681,22 @@ namespace ThirdParty.Other.RootMotion.Dynamics
         public bool supportTranslationAnimation; // 0x7A
         public bool angularLimits; // 0x7B
         public bool internalCollisions; // 0x7C
-        public RootMotion.Dynamics.Muscle[] muscles; // 0x80
-        public RootMotion.Dynamics.PropMuscle[] propMuscles; // 0x88
-        public 0x6651E180 OnPostInitiate; // 0x90
-        public 0x6651E180 OnRead; // 0x98
-        public 0x6651E180 OnWrite; // 0xA0
-        public 0x6651E180 OnPostLateUpdate; // 0xA8
-        public 0x6651E180 OnFixTransforms; // 0xB0
-        public 0x6651E180 OnHierarchyChanged; // 0xB8
-        public 0x6651E1D8 OnMuscleRemoved; // 0xC0
-        public 0x6651E1D8 OnMuscleDisconnected; // 0xC8
-        public 0x6651E1D8 OnMuscleReconnected; // 0xD0
-        public UnityEngine.Animator _targetAnimator; // 0xD8
-        public UnityEngine.Animation <targetAnimation>k__BackingField; // 0xE0
-        public RootMotion.Dynamics.BehaviourBase[] <behaviours>k__BackingField; // 0xE8
+        public ce.projection[] muscles; // 0x80
+        public ce.?[] propMuscles; // 0x88
+        public object OnPostInitiate; // 0x90
+        public object OnRead; // 0x98
+        public object OnWrite; // 0xA0
+        public object OnPostLateUpdate; // 0xA8
+        public object OnFixTransforms; // 0xB0
+        public object OnHierarchyChanged; // 0xB8
+        public t OnMuscleRemoved; // 0xC0
+        public t OnMuscleDisconnected; // 0xC8
+        public t OnMuscleReconnected; // 0xD0
+        public stfix _targetAnimator; // 0xD8
+        public usInEvent>b__10_0 <targetAnimation>k__BackingField; // 0xE0
+        public ce.cond[] <behaviours>k__BackingField; // 0xE8
         public bool <initiated>k__BackingField; // 0xF0
-        public System.Collections.Generic.List`1<RootMotion.SolverManager> solvers; // 0xF8
+        public URA.woDigitYearMax<h_Null_ModelNumber_String.putActionsPerSecond> solvers; // 0xF8
         public bool manualInternalCollisionControl; // 0x100
         public bool manualAngularLimitControl; // 0x101
         public bool mapDisconnectedMuscles; // 0x102
@@ -712,30 +712,30 @@ namespace ThirdParty.Other.RootMotion.Dynamics
         public bool hasBeenDisabled; // 0x111
         public bool hierarchyIsFlat; // 0x112
         public bool teleport; // 0x113
-        public UnityEngine.Vector3 teleportPosition; // 0x114
-        public UnityEngine.Quaternion teleportRotation; // 0x120
+        public amut teleportPosition; // 0x114
+        public R_12x12 teleportRotation; // 0x120
         public bool teleportMoveToTarget; // 0x130
         public bool rebuildFlag; // 0x131
         public bool onPostRebuildFlag; // 0x132
         public bool[] disconnectMuscleFlags; // 0x138
-        public 0x6651E5A0[] muscleDisconnectModes; // 0x140
+        public ce.ok[] muscleDisconnectModes; // 0x140
         public bool[] disconnectDeactivateFlags; // 0x148
         public bool[] reconnectMuscleFlags; // 0x150
-        public RootMotion.Dynamics.Muscle[] defaultMuscles; // 0x158
-        public UnityEngine.Vector3 rebuildPelvisPos; // 0x160
-        public UnityEngine.Quaternion rebuildPelvisRot; // 0x16C
+        public ce.projection[] defaultMuscles; // 0x158
+        public amut rebuildPelvisPos; // 0x160
+        public R_12x12 rebuildPelvisRot; // 0x16C
         public bool readInFixedUpdate; // 0x17C
         public bool <isSwitchingMode>k__BackingField; // 0x17D
-        public 0x6651E128 activeMode; // 0x180
-        public 0x6651E128 lastMode; // 0x184
+        public object activeMode; // 0x180
+        public object lastMode; // 0x184
         public float mappingBlend; // 0x188
         public bool <isKilling>k__BackingField; // 0x18C
-        public 0x6651E180 OnFreeze; // 0x190
-        public 0x6651E180 OnUnfreeze; // 0x198
-        public 0x6651E180 OnDeath; // 0x1A0
-        public 0x6651E180 OnResurrection; // 0x1A8
-        public 0x6651E288 activeState; // 0x1B0
-        public 0x6651E288 lastState; // 0x1B4
+        public object OnFreeze; // 0x190
+        public object OnUnfreeze; // 0x198
+        public object OnDeath; // 0x1A0
+        public object OnResurrection; // 0x1A8
+        public object activeState; // 0x1B0
+        public object lastState; // 0x1B4
         public bool angularLimitsEnabledOnKill; // 0x1B8
         public bool internalCollisionsEnabledOnKill; // 0x1B9
         public bool animationDisabledbyStates; // 0x1BA
@@ -888,9 +888,9 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMasterHumanoidConfig : ScriptableObject
     {
-        public 0x6651E288 state; // 0x18
-        public 0x6651E2E0 stateSettings; // 0x1C
-        public 0x6651E128 mode; // 0x30
+        public object state; // 0x18
+        public hing stateSettings; // 0x1C
+        public object mode; // 0x30
         public float blendTime; // 0x34
         public bool fixTargetTransforms; // 0x38
         public int solverIterationCount; // 0x3C
@@ -907,7 +907,7 @@ namespace ThirdParty.Other.RootMotion.Dynamics
         public bool supportTranslationAnimation; // 0x62
         public bool angularLimits; // 0x63
         public bool internalCollisions; // 0x64
-        public 0x6651E5F8[] muscles; // 0x68
+        public ?[] muscles; // 0x68
 
         // ── Methods ──
         public void ApplyTo(){} // RVA: 0x7FFD4E3DEA00
@@ -917,31 +917,31 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMasterProp : MonoBehaviour
     {
-        public UnityEngine.Transform isPickedUp; // 0x20
-        public 0x6651DC58 propMuscle; // 0x28
+        public object isPickedUp; // 0x20
+        public ÌÍÌÌÎÎÌÏÏÍÎÌÎÎÍÌÏÏÎÏÌÍÏ propMuscle; // 0x28
         public bool forceLayers; // 0x30
         public float mass; // 0x34
         public int propType; // 0x38
-        public UnityEngine.PhysicMaterial pickedUpMaterial; // 0x40
-        public UnityEngine.Vector3 additionalPinOffsetAdd; // 0x48
+        public th pickedUpMaterial; // 0x40
+        public amut additionalPinOffsetAdd; // 0x48
         public float additionalPinWeight; // 0x54
         public float additionalPinMass; // 0x58
         public bool <isPickedUp>k__BackingField; // 0x5C
-        public RootMotion.Dynamics.Muscle <propMuscle>k__BackingField; // 0x60
+        public ce.projection <propMuscle>k__BackingField; // 0x60
         public int defaultLayer; // 0x68
-        public UnityEngine.Transform defaultParent; // 0x70
-        public UnityEngine.Collider[] colliders; // 0x78
-        public UnityEngine.PhysicMaterial[] droppedMaterials; // 0x80
-        public UnityEngine.Rigidbody r; // 0x88
+        public object defaultParent; // 0x70
+        public riteCharacterUnicode[] colliders; // 0x78
+        public th[] droppedMaterials; // 0x80
+        public Touched r; // 0x88
         public float _mass; // 0x90
         public float _drag; // 0x94
         public float _angularDrag; // 0x98
         public bool _useGravity; // 0x9C
         public bool _isKinematic; // 0x9D
-        public ÎÏÎÍÍÌÎÌÍÌÍÌÏÌÍ _interpolation; // 0xA0
-        public ÎÍÏÎÌÏÍÎÏÎÎÎÏÏÌÌ _collisionDetectionMode; // 0xA4
-        public 0x665FFC98 _constraints; // 0xA8
-        public UnityEngine.Collider[] emptyColliders; // 0xB0
+        public kAtPositionInternal_Injected _interpolation; // 0xA0
+        public imeAnimatorController _collisionDetectionMode; // 0xA4
+        public ffectMassCenter _constraints; // 0xA8
+        public riteCharacterUnicode[] emptyColliders; // 0xB0
 
         // ── Methods ──
         public void get_isPickedUp(){} // RVA: 0x7FFD4E3DF240
@@ -964,16 +964,16 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMasterSettings : Singleton`1
     {
-        public 0x6651E700 currentlyActivePuppets; // 0x20
-        public 0x6651E700 currentlyKinematicPuppets; // 0x28
-        public 0x6651E700 currentlyDisabledPuppets; // 0x30
+        public te currentlyActivePuppets; // 0x20
+        public te currentlyKinematicPuppets; // 0x28
+        public te currentlyDisabledPuppets; // 0x30
         public bool puppets; // 0x38
         public bool collisionExitMessages; // 0x39
         public float activePuppetCollisionThresholdMlp; // 0x3C
         public int <currentlyActivePuppets>k__BackingField; // 0x40
         public int <currentlyKinematicPuppets>k__BackingField; // 0x44
         public int <currentlyDisabledPuppets>k__BackingField; // 0x48
-        public System.Collections.Generic.List`1<RootMotion.Dynamics.PuppetMaster> _puppets; // 0x50
+        public URA.woDigitYearMax<ce.layAudio> _puppets; // 0x50
 
         // ── Methods ──
         public void get_currentlyActivePuppets(){} // RVA: 0x7FFD4E3E2080
@@ -1023,10 +1023,10 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class RagdollEditor : MonoBehaviour
     {
-        public UnityEngine.Rigidbody selectedRigidbody; // 0x20
-        public UnityEngine.Collider selectedCollider; // 0x28
+        public Touched selectedRigidbody; // 0x20
+        public riteCharacterUnicode selectedCollider; // 0x28
         public bool symmetry; // 0x30
-        public 0x6651EC28 mode; // 0x34
+        public object mode; // 0x34
 
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -1037,19 +1037,19 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class SubBehaviourBalancer : SubBehaviourBase
     {
-        public UnityEngine.ConfigurableJoint joint; // 0x18
-        public UnityEngine.Vector3 dir; // 0x20
-        public UnityEngine.Vector3 dirVel; // 0x2C
-        public UnityEngine.Vector3 cop; // 0x38
-        public UnityEngine.Vector3 com; // 0x44
-        public UnityEngine.Vector3 comV; // 0x50
-        public 0x6651D940 settings; // 0x60
-        public UnityEngine.Rigidbody[] rigidbodies; // 0x68
-        public UnityEngine.Transform[] copPoints; // 0x70
-        public RootMotion.Dynamics.PressureSensor pressureSensor; // 0x78
-        public UnityEngine.Rigidbody Ibody; // 0x80
-        public UnityEngine.Vector3 I; // 0x88
-        public UnityEngine.Quaternion toJointSpace; // 0x94
+        public eam joint; // 0x18
+        public amut dir; // 0x20
+        public amut dirVel; // 0x2C
+        public amut cop; // 0x38
+        public amut com; // 0x44
+        public amut comV; // 0x50
+        public Ì settings; // 0x60
+        public Touched[] rigidbodies; // 0x68
+        public ?[] copPoints; // 0x70
+        public ce.Event pressureSensor; // 0x78
+        public Touched Ibody; // 0x80
+        public amut I; // 0x88
+        public R_12x12 toJointSpace; // 0x94
 
         // ── Methods ──
         public void get_joint(){} // RVA: 0x7FFD4E3447C0
@@ -1071,7 +1071,7 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class SubBehaviourBase : Object
     {
-        public RootMotion.Dynamics.BehaviourBase behaviour; // 0x10
+        public ce.cond behaviour; // 0x10
 
         // ── Methods ──
         public void XZ(){} // RVA: 0x7FFD4E3A93D0
@@ -1083,24 +1083,24 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class SubBehaviourCOM : SubBehaviourBase
     {
-        public 0x6651DA48 position; // 0x18
+        public object position; // 0x18
         public float direction; // 0x1C
         public float angle; // 0x20
         public float velocity; // 0x24
         public float centerOfPressure; // 0x28
-        public UnityEngine.Vector3 rotation; // 0x2C
-        public UnityEngine.Vector3 inverseRotation; // 0x38
-        public UnityEngine.Vector3 isGrounded; // 0x44
+        public amut rotation; // 0x2C
+        public amut inverseRotation; // 0x38
+        public amut isGrounded; // 0x44
         public float lastGroundedTime; // 0x50
-        public UnityEngine.Vector3 <velocity>k__BackingField; // 0x54
-        public UnityEngine.Vector3 <centerOfPressure>k__BackingField; // 0x60
-        public UnityEngine.Quaternion <rotation>k__BackingField; // 0x6C
-        public UnityEngine.Quaternion <inverseRotation>k__BackingField; // 0x7C
+        public amut <velocity>k__BackingField; // 0x54
+        public amut <centerOfPressure>k__BackingField; // 0x60
+        public R_12x12 <rotation>k__BackingField; // 0x6C
+        public R_12x12 <inverseRotation>k__BackingField; // 0x7C
         public bool <isGrounded>k__BackingField; // 0x8C
         public float <lastGroundedTime>k__BackingField; // 0x90
         public bool[] groundContacts; // 0x98
-        public UnityEngine.Vector3[] groundContactPoints; // 0xA0
-        public UnityEngine.LayerMask groundLayers; // 0xA8
+        public amut[] groundContactPoints; // 0xA0
+        public object groundLayers; // 0xA8
 
         // ── Methods ──
         public void get_position(){} // RVA: 0x7FFD4E3A7F40
@@ -1140,9 +1140,9 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class Weight : Object
     {
-        public 0x6651E808 mode; // 0x10
+        public object mode; // 0x10
         public float floatValue; // 0x14
-        public UnityEngine.AnimationCurve curve; // 0x18
+        public ÍÎÌÍÍÌÌÎÏÏ curve; // 0x18
         public string tooltip; // 0x20
 
         // ── Methods ──

@@ -8,28 +8,11 @@ namespace VRC.Core.System
     /// <summary>Originally: ÎÍÍÍÏÌÌÎÍÍÏÍÍÎÌÌÎÌÍÎÍÍÏ</summary>
     public class RefreshServicesComponent_9F82 : MonoBehaviour
     {
-        public int _destroyCancellationToken; // 0x20
-        public string _useGUILayout; // 0x28
-        public int f_A81; // 0x30
-        public ÎÍÍÍÏÌÌÎÍÍÏÍÍÎÌÌÎÌÍÎÍÍÏ f_EDB;
-        public OscCore.OscServer f_E72; // 0x38
-        public ÍÎÍÍÍÏÍÎÎÍÍÌÍÍÌÏÏÎÍÎÏÏÍ _debugDisplay; // 0x40
-        public bool ÌÍÎÎÌÎÌÌÎÏÍÎÌÏÍÎÍÎÎÌÌÏÎ; // 0x48
-        public object ÍÍÍÍÌÍÏÌÍÎÏÎÌÎÏÍÎÎÌÏÍÏÎ; // 0x50
-        public System.Action`1<bool> ÍÎÏÏÎÌÍÎÌÍÍÌÍÌÎÏÎÍÌÌÍÌÌ; // 0x8
-        public VRC.OSCQuery.OSCQueryService ÎÏÍÌÏÏÍÍÏÍÌÎÎÏÌÍÎÏÌÌÌÌÎ; // 0x58
-        public System.Collections.Generic.Dictionary`2<0x664D3750,System.Collections.Generic.Dictionary`2<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ,OscCore.OscClient>> ÌÏÌÏÍÌÎÌÍÏÌÏÍÍÎÌÎÎÏÌÎÍÌ; // 0x60
-        public System.Collections.Generic.Dictionary`2<0x664D3750,bool> ÍÌÏÏÎÎÌÍÏÍÌÌÎÍÎÎÎÍÎÍÎÎÍ; // 0x68
-        public System.Collections.Generic.Dictionary`2<ÏÎÌÎÏÏÍÎÌÍÍÍÏÍÏÏÎÍÍÏÌÏÍ,System.Action> ÎÏÎÏÌÍÍÏÎÍÏÎÍÍÍÎÎÏÍÎÌÌÏ; // 0x70
-        public string ÍÎÍÏÎÏÌÌÌÎÌÍÌÍÏÏÏÎÏÍÌÏÍ;
-        public string ÍÍÍÌÏÏÎÎÌÏÌÍÏÎÎÏÎÏÍÌÏÏÎ; // 0x10
-        public float ÎÏÎÎÌÏÎÌÍÍÌÎÎÌÌÎÍÍÎÌÌÌÏ;
-        public int ÏÏÏÎÌÏÎÌÍÌÌÏÎÎÎÎÎÌÍÎÍÍÍ; // 0x18
-        public int ÌÌÍÍÏÏÏÎÎÌÍÍÏÍÍÎÎÌÏÎÌÏÏ;
-        public string ÎÏÌÎÍÌÏÏÍÎÍÎÌÎÏÎÍÎÎÏÌÎÌ;
-        public bool ÎÎÎÎÌÌÌÏÎÍÏÌÏÎÌÌÌÍÌÏÎÎÌ; // 0x78
-        public System.Collections.Generic.HashSet`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> ÌÍÍÍÌÌÎÏÏÌÏÏÏÍÏÏÏÎÏÏÍÎÏ; // 0x80
-        public System.Collections.Generic.Dictionary`2<string,ÏÍÌÍÍÌÎÏÏÍÏÍÍÎÍÎÎÍÎÏÏÍÎ> ÍÍÏÍÏÎÏÏÍÏÌÍÏÍÎÍÌÏÏÌÍÌÎ; // 0x88
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_A81;
+        public object f_EDB;
+        public object f_E72;
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4F2D2010

@@ -7,10 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceDetector.Proto
 {
     public class FaceDetectorGraphOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceDetector.Proto.FaceDetectorGraphOptions> Parser;
-        public 0x6658E800 Descriptor; // 0x10
+        public gBox.itionBlend<ionId.ns> Parser;
+        public gBox.ra Descriptor; // 0x10
         public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public Mediapipe.Tasks.Core.Proto.BaseOptions BaseOptions; // 0x20
+        public nceFieldNumber.rdio BaseOptions; // 0x20
         public float MinDetectionConfidence; // 0x8
         public float HasMinDetectionConfidence; // 0x28
         public float MinSuppressionThreshold; // 0xC

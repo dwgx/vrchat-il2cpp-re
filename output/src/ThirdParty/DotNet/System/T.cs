@@ -57,9 +57,9 @@ namespace ThirdParty.DotNet.System
         public long MaxMilliSeconds;
         public long MinMilliSeconds;
         public long TicksPerTenthSecond;
-        public System.TimeSpan Zero;
-        public System.TimeSpan MaxValue; // 0x8
-        public System.TimeSpan MinValue; // 0x10
+        public ializable.GetObjectData Zero;
+        public ializable.GetObjectData MaxValue; // 0x8
+        public ializable.GetObjectData MinValue; // 0x10
         public long _ticks; // 0x10
 
         // ── Methods ──
@@ -124,24 +124,24 @@ namespace ThirdParty.DotNet.System
         public string Utc;
         public string LastEntryValue;
         public int MaxKeyLength;
-        public System.Lazy`1<bool> lazyHaveRegistry;
+        public dle<bool> lazyHaveRegistry;
         public uint TIME_ZONE_ID_INVALID;
         public uint ERROR_NO_MORE_ITEMS;
         public string _id; // 0x10
         public string _displayName; // 0x18
         public string _standardDisplayName; // 0x20
         public string _daylightDisplayName; // 0x28
-        public System.TimeSpan _baseUtcOffset; // 0x30
+        public ializable.GetObjectData _baseUtcOffset; // 0x30
         public bool _supportsDaylightSavingTime; // 0x38
-        public AdjustmentRule[] _adjustmentRules; // 0x40
+        public ositionInfo[] _adjustmentRules; // 0x40
         public string UtcId;
         public string LocalId;
-        public System.TimeZoneInfo s_utcTimeZone; // 0x8
-        public CachedData s_cachedData; // 0x10
-        public System.DateTime s_maxDateOnly; // 0x18
-        public System.DateTime s_minDateOnly; // 0x20
-        public System.TimeSpan MaxOffset; // 0x28
-        public System.TimeSpan MinOffset; // 0x30
+        public F5C5AE2947D800794ECD5F752EE8381073C2E5D0D095FDA040F541702F3 s_utcTimeZone; // 0x8
+        public Template s_cachedData; // 0x10
+        public DependencyInjector s_maxDateOnly; // 0x18
+        public DependencyInjector s_minDateOnly; // 0x20
+        public ializable.GetObjectData MaxOffset; // 0x28
+        public ializable.GetObjectData MinOffset; // 0x30
 
         // ── Methods ──
         public void GetAdjustmentRules(){} // RVA: 0x7FFD539116A0
@@ -237,8 +237,8 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
-        public System.Threading.Tasks.UnwrapPromise`1<ÎÏÏÌÏÌÍÏÍÍÎÍÎÌÍÎÌÏÌÌÍÍÍ> Item1; // 0x10
-        public System.Threading.Tasks.Task Item2; // 0x18
+        public utes.Token<utes.on> Item1; // 0x10
+        public utes.Line Item2; // 0x18
 
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x7FFD4E2ADC40
@@ -257,9 +257,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`3 : Object
     {
-        public U Item1;
-        public V Item2;
-        public T Item3;
+        public T1717584720 Item1;
+        public T1717584736 Item2;
+        public T1717584752 Item3;
 
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x7FFD4E2ADC40
@@ -279,10 +279,10 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`4 : Object
     {
-        public U Item1;
-        public V Item2;
-        public W Item3;
-        public T Item4;
+        public T1717584768 Item1;
+        public T1717584784 Item2;
+        public T1717584800 Item3;
+        public T1717584816 Item4;
 
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x7FFD4E2ADC40
@@ -303,15 +303,15 @@ namespace ThirdParty.DotNet.System
 
     public class Type : MemberInfo
     {
-        public System.Reflection.Binder IsSerializable;
+        public m.? IsSerializable;
         public char ContainsGenericParameters; // 0x8
-        public System.Type[] IsVisible; // 0x10
+        public ?[] IsVisible; // 0x10
         public object MemberType; // 0x18
-        public System.Reflection.MemberFilter Namespace; // 0x20
-        public System.Reflection.MemberFilter AssemblyQualifiedName; // 0x28
-        public System.Reflection.MemberFilter FullName; // 0x30
-        public 0x66438780 Assembly;
-        public System.RuntimeTypeHandle Module; // 0x10
+        public m.UInt32 Namespace; // 0x20
+        public m.UInt32 AssemblyQualifiedName; // 0x28
+        public m.UInt32 FullName; // 0x30
+        public m.unt Assembly;
+        public d Module; // 0x10
         public string IsNested;
 
         // ── Methods ──
@@ -461,7 +461,7 @@ namespace ThirdParty.DotNet.System
 
     public class TypedReference : ValueType
     {
-        public System.RuntimeTypeHandle IsNull; // 0x10
+        public d IsNull; // 0x10
         public UIntPtr Value; // 0x18
         public UIntPtr Type; // 0x20
 

@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock.LowLevel
 {
     public class DualSenseHIDInputReport : ValueType
     {
-        public UnityEngine.InputSystem.Utilities.FourCC format;
+        public 2.Code format;
         public byte leftStickX; // 0x10
         public byte leftStickY; // 0x11
         public byte rightStickX; // 0x12

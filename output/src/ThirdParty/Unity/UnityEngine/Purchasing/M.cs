@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class MetricizedAppleStoreImpl : AppleStoreImpl
     {
-        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsService m_TelemetryMetricsService; // 0xD0
+        public ÌÍÏÏÏ.OTween.Modules.dll m_TelemetryMetricsService; // 0xD0
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DF41C0
@@ -19,7 +19,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class MetricizedGooglePlayStoreExtensions : GooglePlayStoreExtensions
     {
-        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsService m_TelemetryMetricsService; // 0x38
+        public ÌÍÏÏÏ.OTween.Modules.dll m_TelemetryMetricsService; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE4A80
@@ -27,8 +27,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class MetricizedGooglePlayStoreService : GooglePlayStoreService
     {
-        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsService m_TelemetryMetricsService; // 0x80
-        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x88
+        public ÌÍÏÏÏ.OTween.Modules.dll m_TelemetryMetricsService; // 0x80
+        public ÌÍÏÏÏ.ÌÎÍÍÏÍÏÎÏÎÏÌÍÏÏÏ m_TelemetryDiagnostics; // 0x88
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DDF580
@@ -43,7 +43,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class MetricizedJsonStore : JSONStore
     {
-        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsService m_TelemetryMetricsService; // 0x48
+        public ÌÍÏÏÏ.OTween.Modules.dll m_TelemetryMetricsService; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DF52D0

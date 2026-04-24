@@ -7,10 +7,10 @@ namespace ThirdParty.DotNet.System.Text.Json
 {
     public class Arguments`4 : Object
     {
-        public U Arg0;
-        public V Arg1;
-        public W Arg2;
-        public T Arg3;
+        public T1717648144 Arg0;
+        public T1717648160 Arg1;
+        public T1717648176 Arg2;
+        public T1717648192 Arg3;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -18,7 +18,7 @@ namespace ThirdParty.DotNet.System.Text.Json
 
     public class JsonElement : ValueType
     {
-        public 0x66535308 TokenType; // 0x10
+        public inDataView.ties TokenType; // 0x10
         public int ValueKind; // 0x18
 
         // ── Methods ──
@@ -100,12 +100,12 @@ namespace ThirdParty.DotNet.System.Text.Json
     public class JsonPropertyDictionary`1 : Object
     {
         public int List;
-        public System.Collections.Generic.Dictionary`2<string,T> Count;
-        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<string,T>> Keys;
-        public System.StringComparer Values;
+        public URA.DateTime<string,T1717648128> Count;
+        public URA.woDigitYearMax<URA.mes<string,T1717648128>> Keys;
+        public x Values;
         public bool IsReadOnly;
-        public KeyCollection<T> Item;
-        public ValueCollection<T> _valueCollection;
+        public ySuff<T1717648128> Item;
+        public ff<T1717648128> _valueCollection;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E091610 | overloaded x2
@@ -139,10 +139,6 @@ namespace ThirdParty.DotNet.System.Text.Json
 
     public class JsonReaderHelper : Object
     {
-        public string SpecialCharacters;
-        public System.Text.UTF8Encoding s_utf8Encoding;
-        public ulong XorPowerOfTwoToHighByte;
-
         // ── Methods ──
         public void ContainsSpecialCharacters(){} // RVA: 0x7FFD54417020
         public void CountNewLines(){} // RVA: 0x7FFD544170E0
@@ -177,9 +173,9 @@ namespace ThirdParty.DotNet.System.Text.Json
         public byte[] IsReflectionEnabledByDefault;
         public byte[] s_refPropertyName; // 0x8
         public byte[] s_valuesPropertyName; // 0x10
-        public System.Text.Json.JsonEncodedText s_metadataId; // 0x18
-        public System.Text.Json.JsonEncodedText s_metadataRef; // 0x28
-        public System.Text.Json.JsonEncodedText s_metadataValues; // 0x38
+        public inDataView.inString s_metadataId; // 0x18
+        public inDataView.inString s_metadataRef; // 0x28
+        public inDataView.inString s_metadataValues; // 0x38
 
         // ── Methods ──
         public void Deserialize(){} // RVA: 0x7FFD5445D120 | overloaded x40
@@ -240,24 +236,24 @@ namespace ThirdParty.DotNet.System.Text.Json
 
     public class JsonSerializerOptions : Object
     {
-        public 0x66535F10 CacheContext; // 0x10
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo ObjectTypeInfo; // 0x18
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo Converters; // 0x20
+        public AndExtensionData CacheContext; // 0x10
+        public ndlingValue.lidOperationException_NodeJsonObjectCustomConverterNotAllowedOnExtensionProperty ObjectTypeInfo; // 0x18
+        public ndlingValue.lidOperationException_NodeJsonObjectCustomConverterNotAllowedOnExtensionProperty Converters; // 0x20
         public int Default;
         public int TypeInfoResolver;
-        public System.Text.Json.JsonSerializerOptions TypeInfoResolverChain;
-        public 0x665381C8 AllowTrailingCommas; // 0x28
-        public 0x66534B20 DefaultBufferSize; // 0x30
-        public 0x66534B20 Encoder; // 0x38
-        public 0x66534B78 DictionaryKeyPolicy; // 0x40
-        public System.Text.Json.Serialization.ReferenceHandler IgnoreNullValues; // 0x48
-        public System.Text.Encodings.Web.JavaScriptEncoder DefaultIgnoreCondition; // 0x50
-        public 0x665360C8 NumberHandling; // 0x58
-        public 0x66536E30 PreferredObjectCreationHandling; // 0x60
-        public 0x66536EE0 IgnoreReadOnlyProperties; // 0x64
-        public 0x66536F38 IgnoreReadOnlyFields; // 0x68
-        public 0x665370F0 IncludeFields; // 0x6C
-        public 0x66536F90 MaxDepth; // 0x70
+        public inDataView.CannotBeObjectOrArray TypeInfoResolverChain;
+        public ndlingValue.efPropertyName AllowTrailingCommas; // 0x28
+        public inDataView.gCommaNotAllowedBeforeObjectEnd DefaultBufferSize; // 0x30
+        public inDataView.gCommaNotAllowedBeforeObjectEnd Encoder; // 0x38
+        public inDataView.ensionDataConflictsWithUnmappedMemberHandling DictionaryKeyPolicy; // 0x40
+        public ngCommas.hrowInvalidOperationException_JsonPropertyRequiredAndExtensionData IgnoreNullValues; // 0x48
+        public tKnown.calizedPriceString>k__BackingField DefaultIgnoreCondition; // 0x50
+        public eteBinding NumberHandling; // 0x58
+        public ngCommas.s PreferredObjectCreationHandling; // 0x60
+        public ngCommas.sonElement IgnoreReadOnlyProperties; // 0x64
+        public ngCommas.tSByte IgnoreReadOnlyFields; // 0x68
+        public ngCommas.ormation IncludeFields; // 0x6C
+        public ngCommas.TryGetInt16 MaxDepth; // 0x70
         public int EffectiveMaxDepth; // 0x74
         public int PropertyNamingPolicy; // 0x78
         public bool PropertyNameCaseInsensitive; // 0x7C
@@ -267,13 +263,13 @@ namespace ThirdParty.DotNet.System.Text.Json
         public bool WriteIndented; // 0x80
         public bool ReferenceHandler; // 0x81
         public bool CanUseFastPathSerializationLogic; // 0x82
-        public 0x66536120 IsReadOnly; // 0x88
+        public ption_ExtensionDataCannotBindToCtorParam IsReadOnly; // 0x88
         public int DebuggerDisplay; // 0x90
-        public System.Nullable`1<bool> _canUseFastPathSerializationLogic; // 0x94
-        public 0x66538010 ReferenceHandlingStrategy; // 0x98
+        public aphy<bool> _canUseFastPathSerializationLogic; // 0x94
+        public ngCommas._SerializerOptionsReadOnly ReferenceHandlingStrategy; // 0x98
         public bool _isReadOnly; // 0x9C
         public bool _isConfiguredForJsonSerializer; // 0x9D
-        public 0x665381C8 _effectiveJsonTypeInfoResolver; // 0xA0
+        public ndlingValue.efPropertyName _effectiveJsonTypeInfoResolver; // 0xA0
 
         // ── Methods ──
         public void get_CacheContext(){} // RVA: 0x7FFD54460A20
@@ -354,10 +350,7 @@ namespace ThirdParty.DotNet.System.Text.Json
 
     public class JsonWriterHelper : Object
     {
-        public System.Text.UTF8Encoding AllowList;
-        public System.Buffers.StandardFormat s_dateTimeStandardFormat; // 0x8
-        public int LastAsciiCharacter;
-        public System.Buffers.StandardFormat s_hexStandardFormat; // 0xA
+        public object AllowList;
 
         // ── Methods ──
         public void WriteIndentation(){} // RVA: 0x7FFD5446A8C0

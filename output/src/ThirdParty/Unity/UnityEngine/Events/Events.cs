@@ -17,7 +17,7 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class CachedInvokableCall`1 : InvokableCall`1
     {
-        public int m_Arg1; // 0x18
+        public T1717606480 m_Arg1;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -26,7 +26,7 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class InvokableCall`1 : BaseInvokableCall
     {
-        public UnityEngine.Events.UnityAction`1<Valve.VR.VREvent_t> Delegate; // 0x10
+        public rScript.?<?> Delegate; // 0x10
 
         // ── Methods ──
         public void add_Delegate(){} // RVA: 0x7FFD513408D0
@@ -38,7 +38,7 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class InvokableCall`2 : BaseInvokableCall
     {
-        public UnityEngine.Events.UnityAction`2<Cinemachine.ICinemachineCamera,Cinemachine.ICinemachineCamera> Delegate; // 0x10
+        public rScript.<GetCachedEnumData>b__2_2<EXTERNAL_INDEX_REF_SIG.Callback,EXTERNAL_INDEX_REF_SIG.Callback> Delegate; // 0x10
 
         // ── Methods ──
         public void add_Delegate(){} // RVA: 0x7FFD4E090A40
@@ -50,7 +50,7 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class InvokableCall`3 : BaseInvokableCall
     {
-        public UnityEngine.Events.UnityAction`3<UnityEngine.Color,float,bool> Delegate; // 0x10
+        public rScript.GetCachedEnumData>b__2_3<T1717606368,T1717606384,T1717606400> Delegate;
 
         // ── Methods ──
         public void add_Delegate(){} // RVA: 0x7FFD4E090A40
@@ -62,7 +62,7 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class InvokableCall`4 : BaseInvokableCall
     {
-        public UnityEngine.Events.UnityAction`4<U,V,W,T> Delegate;
+        public rScript.etCachedEnumData>b__2_4<T1717606416,T1717606432,T1717606448,T1717606464> Delegate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -113,8 +113,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEventBase : Object
     {
-        public 0x664E2110 m_Calls; // 0x10
-        public 0x664E20B8 m_PersistentCalls; // 0x18
+        public rScript.? m_Calls; // 0x10
+        public rScript.ntsInParent m_PersistentCalls; // 0x18
         public bool m_CallsDirty; // 0x20
 
         // ── Methods ──

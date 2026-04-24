@@ -40,12 +40,12 @@ namespace ThirdParty.Other.Transmtn.DTO
         public string username; // 0x18
         public string displayName; // 0x20
         public string bio; // 0x28
-        public System.Collections.Immutable.ImmutableHashSet`1<string> bioLinks; // 0x30
+        public fset2096.?<string> bioLinks; // 0x30
         public string currentAvatar; // 0x38
         public string currentAvatarImageUrl; // 0x40
         public string currentAvatarThumbnailImageUrl; // 0x48
-        public System.Collections.Immutable.ImmutableHashSet`1<string> currentAvatarTags; // 0x50
-        public System.Collections.Immutable.ImmutableHashSet`1<string> tags; // 0x58
+        public fset2096.?<string> currentAvatarTags; // 0x50
+        public fset2096.?<string> tags; // 0x58
         public string developerType; // 0x60
         public string last_login; // 0x68
         public string last_activity; // 0x70
@@ -61,7 +61,7 @@ namespace ThirdParty.Other.Transmtn.DTO
         public bool allowAvatarCopying; // 0xC0
         public bool isFriend; // 0xC1
         public string friendRequestStatus; // 0xC8
-        public Transmtn.DTO.Location location; // 0xD0
+        public 384.? location; // 0xD0
         public string profilePicOverride; // 0xD8
         public string userIcon; // 0xE0
         public string fallbackAvatar; // 0xE8

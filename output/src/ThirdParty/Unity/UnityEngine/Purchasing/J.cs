@@ -20,13 +20,13 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class JSONStore : AbstractStore
     {
-        public UnityEngine.Purchasing.Extension.IStoreCallback unity; // 0x10
-        public UnityEngine.Purchasing.INativeStore m_Store; // 0x18
-        public UnityEngine.Purchasing.StandardPurchasingModule m_Module; // 0x20
-        public UnityEngine.ILogger m_Logger; // 0x28
-        public Stores.Util.JsonProductDescriptionsDeserializer m_ProductDescriptionsDeserializer; // 0x30
-        public UnityEngine.Purchasing.Extension.PurchaseFailureDescription m_LastPurchaseFailureDescription; // 0x38
-        public 0x665DDB10 m_LastPurchaseErrorCode; // 0x40
+        public ra.__0 unity; // 0x10
+        public ing.elfAndInterCollisionIndices m_Store; // 0x18
+        public ing.p m_Module; // 0x20
+        public Identifiers m_Logger; // 0x28
+        public et_ScanHiddenCameras.canFrequency m_ProductDescriptionsDeserializer; // 0x30
+        public ra.pAnchorPos>b__4 m_LastPurchaseFailureDescription; // 0x38
+        public ing.ighth m_LastPurchaseErrorCode; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DF4780
@@ -45,7 +45,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class JavaBridge : AndroidJavaProxy
     {
-        public UnityEngine.Purchasing.IUnityCallback forwardTo; // 0x20
+        public ing.PersistAcrossSceneLoads forwardTo; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE7DB0

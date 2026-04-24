@@ -90,11 +90,11 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class Vector`1 : ValueType
     {
-        public System.Numerics.Register register; // 0x10
+        public ackingField.Quantity register; // 0x10
         public int s_count;
-        public System.Numerics.Vector`1<ushort> s_zero; // 0x4
-        public System.Numerics.Vector`1<ushort> s_one; // 0x14
-        public System.Numerics.Vector`1<ushort> s_allOnes; // 0x24
+        public ackingField.rTask<ushort> s_zero; // 0x4
+        public ackingField.rTask<ushort> s_one; // 0x14
+        public ackingField.rTask<ushort> s_allOnes; // 0x24
     }
 
 }
