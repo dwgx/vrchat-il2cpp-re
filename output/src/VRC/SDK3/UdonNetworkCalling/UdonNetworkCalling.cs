@@ -7,11 +7,12 @@ namespace VRC.SDK3.UdonNetworkCalling
 {
     public class NetworkCalling : Object
     {
-        public object InNetworkCall;
-        public object CallingPlayer;
-        public object SendCustomNetworkEventProxy;
-        public object GetQueuedEventsProxy;
-        public object GetAllQueuedEventsProxy;
+        public bool InNetworkCall;
+        public VRC.SDKBase.VRCPlayerApi CallingPlayer; // 0x8
+        public SendNetworkEventDelegate SendCustomNetworkEventProxy; // 0x10
+        public GetQueuedEventsDelegate GetQueuedEventsProxy; // 0x18
+        public GetAllQueuedEventsDelegate GetAllQueuedEventsProxy; // 0x20
+        public object[] _parameters; // 0x28
 
         // ── Methods ──
         public void get_InNetworkCall(){} // RVA: 0x7FFD57411FC0

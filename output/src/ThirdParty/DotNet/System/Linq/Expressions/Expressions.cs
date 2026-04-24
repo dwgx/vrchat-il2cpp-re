@@ -13,9 +13,17 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class DebugViewWriter : ExpressionVisitor
     {
-        public object Base;
-        public object Delta;
-        public object Depth;
+        public int Base;
+        public int Delta;
+        public System.IO.TextWriter Depth; // 0x10
+        public int _column; // 0x18
+        public System.Collections.Generic.Stack`1<int> _stack; // 0x20
+        public int _delta; // 0x28
+        public 0x6654BE08 _flow; // 0x2C
+        public System.Collections.Generic.Queue`1<System.Linq.Expressions.LambdaExpression> _lambdas; // 0x30
+        public System.Collections.Generic.Dictionary`2<System.Linq.Expressions.LambdaExpression,int> _lambdaIds; // 0x38
+        public System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,int> _paramIds; // 0x40
+        public System.Collections.Generic.Dictionary`2<0x6654CA68,int> _labelIds; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54197140
@@ -91,10 +99,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class Expression : Object
     {
-        public object NodeType;
-        public object Type;
-        public object CanReduce;
-        public object DebugView;
+        public System.Dynamic.Utils.CacheDict`2<System.Type,System.Reflection.MethodInfo> NodeType;
+        public System.Dynamic.Utils.CacheDict`2<System.Type,System.Func`5<System.Linq.Expressions.Expression,string,bool,System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression>,System.Linq.Expressions.LambdaExpression>> Type; // 0x8
+        public System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Linq.Expressions.Expression,0x6654B468> CanReduce; // 0x10
 
         // ── Methods ──
         public void Assign(){} // RVA: 0x7FFD54167C10
@@ -331,6 +338,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
     public class Expression2`1 : Expression`1
     {
         public object ParameterCount;
+        public System.Linq.Expressions.ParameterExpression _par1;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -344,6 +352,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
     public class Expression3`1 : Expression`1
     {
         public object ParameterCount;
+        public System.Linq.Expressions.ParameterExpression _par1;
+        public System.Linq.Expressions.ParameterExpression _par2;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09B8C0
@@ -362,7 +372,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ExpressionN`1 : Expression`1
     {
-        public object ParameterCount;
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.ParameterExpression> ParameterCount; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -375,6 +385,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ExpressionStringBuilder : ExpressionVisitor
     {
+        public System.Text.StringBuilder _out; // 0x10
+        public System.Collections.Generic.Dictionary`2<object,int> _ids; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541A9360
         public void ToString(){} // RVA: 0x7FFD4F108330
@@ -490,8 +503,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class FullExpression`1 : ExpressionN`1
     {
-        public object NameCore;
-        public object TailCallCore;
+        public string NameCore;
+        public bool TailCallCore;
 
         // ── Methods ──
         public void .ctor(){}
@@ -501,19 +514,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class LambdaExpression : Expression
     {
-        public object Type;
-        public object TypeCore;
-        public object PublicType;
-        public object NodeType;
-        public object Parameters;
-        public object Name;
-        public object NameCore;
-        public object Body;
-        public object ReturnType;
-        public object TailCall;
-        public object TailCallCore;
-        public object System.Linq.Expressions.IParameterProvider.ParameterCount;
-        public object ParameterCount;
+        public System.Linq.Expressions.Expression Type; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541B2720 | overloaded x2
@@ -539,10 +540,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class ParameterExpression : Expression
     {
-        public object Type;
-        public object NodeType;
-        public object Name;
-        public object IsByRef;
+        public string Type; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541B86F0 | overloaded x2
@@ -557,8 +555,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class PrimitiveParameterExpression`1 : ParameterExpression
     {
-        public tSupportedException_ConstructorMaxOf64Parameters<T1717697200> Type;
-        public bool IsPlainQueue;
+        public object Type;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -567,6 +564,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 
     public class StackGuard : Object
     {
+        public int MaxExecutionStackCount;
+        public int _executionStackCount; // 0x10
+
         // ── Methods ──
         public void TryEnterOnCurrentStack(){} // RVA: 0x7FFD4E426850
         public void RunOnEmptyStack(){} // RVA: 0x7FFD4E2ADC40 | overloaded x4

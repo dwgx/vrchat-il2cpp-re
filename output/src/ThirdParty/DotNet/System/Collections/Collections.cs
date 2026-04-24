@@ -7,13 +7,12 @@ namespace ThirdParty.DotNet.System.Collections
 {
     public class ArrayList : Object
     {
-        public object Capacity;
-        public object Count;
-        public object IsFixedSize;
-        public object IsReadOnly;
-        public object IsSynchronized;
-        public object SyncRoot;
-        public object Item;
+        public object[] Capacity; // 0x10
+        public int Count; // 0x18
+        public int IsFixedSize; // 0x1C
+        public object IsReadOnly; // 0x20
+        public int IsSynchronized;
+        public int SyncRoot;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539BC350 | overloaded x3
@@ -48,6 +47,10 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class Comparer : Object
     {
+        public System.Globalization.CompareInfo _compareInfo; // 0x10
+        public System.Collections.Comparer Default;
+        public System.Collections.Comparer DefaultInvariant; // 0x8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539B0480 | overloaded x2
         public void GetObjectData(){} // RVA: 0x7FFD539B0660
@@ -57,8 +60,8 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class DictionaryEntry : ValueType
     {
-        public object Key;
-        public object Value;
+        public object Key; // 0x10
+        public object Value; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F5CE4B0
@@ -68,7 +71,8 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class HashHelpers : Object
     {
-        public object SerializationInfoTable;
+        public int[] SerializationInfoTable;
+        public System.Runtime.CompilerServices.ConditionalWeakTable`2<object,System.Runtime.Serialization.SerializationInfo> s_serializationInfoTable; // 0x8
 
         // ── Methods ──
         public void IsPrime(){} // RVA: 0x7FFD539B0C40
@@ -80,15 +84,28 @@ namespace ThirdParty.DotNet.System.Collections
 
     public class Hashtable : Object
     {
-        public object SerializationInfoTable;
-        public object Item;
-        public object IsReadOnly;
-        public object IsFixedSize;
-        public object IsSynchronized;
-        public object Keys;
-        public object Values;
-        public object SyncRoot;
-        public object Count;
+        public int SerializationInfoTable;
+        public int Item;
+        public string IsReadOnly;
+        public string IsFixedSize;
+        public string IsSynchronized;
+        public string Keys;
+        public string Values;
+        public string SyncRoot;
+        public string Count;
+        public string KeyComparerName;
+        public bucket[] _buckets; // 0x10
+        public int _count; // 0x18
+        public int _occupancy; // 0x1C
+        public int _loadsize; // 0x20
+        public float _loadFactor; // 0x24
+        public int _version; // 0x28
+        public bool _isWriterInProgress; // 0x2C
+        public System.Collections.ICollection _keys; // 0x30
+        public System.Collections.ICollection _values; // 0x38
+        public System.Collections.IEqualityComparer _keycomparer; // 0x40
+        public object _syncRoot; // 0x48
+        public System.Runtime.CompilerServices.ConditionalWeakTable`2<object,System.Runtime.Serialization.SerializationInfo> s_serializationInfoTable;
 
         // ── Methods ──
         public void get_SerializationInfoTable(){} // RVA: 0x7FFD539C01B0

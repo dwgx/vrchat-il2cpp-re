@@ -7,11 +7,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class BaseDataReader : BaseDataReaderWriter
     {
-        public object CurrentNodeId;
-        public object CurrentNodeDepth;
-        public object CurrentNodeName;
-        public object Stream;
-        public object Context;
+        public VRC.Udon.Serialization.OdinSerializer.DeserializationContext CurrentNodeId; // 0x20
+        public System.IO.Stream CurrentNodeDepth; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553DE9A0
@@ -55,11 +52,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseDataReaderWriter : Object
     {
-        public object Binder;
-        public object IsInArrayNode;
-        public object NodeDepth;
-        public object NodesArray;
-        public object CurrentNode;
+        public VRC.Udon.Serialization.OdinSerializer.NodeInfo[] Binder; // 0x10
+        public int IsInArrayNode; // 0x18
 
         // ── Methods ──
         public void get_Binder(){} // RVA: 0x7FFD553DF2A0
@@ -79,8 +73,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseDataWriter : BaseDataReaderWriter
     {
-        public object Stream;
-        public object Context;
+        public VRC.Udon.Serialization.OdinSerializer.SerializationContext Stream; // 0x20
+        public System.IO.Stream Context; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553DFF20
@@ -135,7 +129,14 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
-        public object SerializedType;
+        public SerializationCallback<VRC.SDKBase.VRCUrl>[] SerializedType;
+        public SerializationCallback<VRC.SDKBase.VRCUrl>[] OnSerializedCallbacks; // 0x8
+        public SerializationCallback<VRC.SDKBase.VRCUrl>[] OnDeserializingCallbacks; // 0x10
+        public SerializationCallback<VRC.SDKBase.VRCUrl>[] OnDeserializedCallbacks; // 0x18
+        public bool IsValueType; // 0x20
+        public bool ImplementsISerializationCallbackReceiver; // 0x21
+        public bool ImplementsIDeserializationCallback; // 0x22
+        public bool ImplementsIObjectReference; // 0x23
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5316FAD0
@@ -156,6 +157,16 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BinaryDataReader : BaseDataReader
     {
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Delegate> PrimitiveFromByteMethods;
+        public byte[] internalBufferBackup; // 0x30
+        public byte[] buffer; // 0x38
+        public int bufferIndex; // 0x40
+        public int bufferEnd; // 0x44
+        public System.Nullable`1<0x66583DD8> peekedEntryType; // 0x48
+        public 0x66582258 peekedBinaryEntryType; // 0x4A
+        public string peekedEntryName; // 0x50
+        public System.Collections.Generic.Dictionary`2<int,System.Type> types; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553E04C0 | overloaded x2
         public void Dispose(){} // RVA: 0x7FFD4E341310
@@ -215,6 +226,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BinaryDataWriter : BaseDataWriter
     {
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Delegate> PrimitiveGetBytesMethods;
+        public System.Collections.Generic.Dictionary`2<System.Type,int> PrimitiveSizes; // 0x8
+        public byte[] small_buffer; // 0x30
+        public byte[] buffer; // 0x38
+        public int bufferIndex; // 0x40
+        public System.Collections.Generic.Dictionary`2<System.Type,int> types; // 0x48
+        public bool CompressStringsTo8BitWhenPossible; // 0x50
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Action`2<VRC.Udon.Serialization.OdinSerializer.BinaryDataWriter,object>> PrimitiveArrayWriters; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553E5E90 | overloaded x2
         public void BeginArrayNode(){} // RVA: 0x7FFD553E6100
@@ -288,6 +308,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BoundsFormatter : MinimalBaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<UnityEngine.Vector3> Vector3Serializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD55437A50
         public void Write(){} // RVA: 0x7FFD55437B50
@@ -298,8 +320,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
     public class Buffer`1 : Object
     {
         public object Count;
-        public object Array;
-        public object IsFree;
+        public System.Collections.Generic.List`1<VRC.Udon.Serialization.OdinSerializer.Buffer`1<T>> Array;
+        public int IsFree;
+        public T[] array;
+        public bool isFree;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0

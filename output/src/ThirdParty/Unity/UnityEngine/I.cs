@@ -160,14 +160,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class InspectorNameAttribute : PropertyAttribute
     {
+        public string displayName; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class IntegratedSubsystem : Object
     {
-        public object running;
-        public object valid;
+        public UIntPtr running; // 0x10
+        public UnityEngine.ISubsystemDescriptor valid; // 0x18
 
         // ── Methods ──
         public void SetHandle(){} // RVA: 0x7FFD54E11190
@@ -182,7 +184,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class IntegratedSubsystemDescriptor : Object
     {
-        public object id;
+        public UIntPtr id; // 0x10
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD54E115E0
@@ -201,12 +203,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class IntegratedSubsystem`1 : IntegratedSubsystem
     {
-        public n<T1717717360,T1717717376> <keySelector>P;
-        public URA.hEraNames<T1717717376> <comparer>P;
-        public T1717717328 source;
-        public _MARGIN..PhysBoneManager.Chainchain)>.Current<T1717717344,T1717717376> second;
-        public ics.ManagedTypes.?<T1717717376> set;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
     }

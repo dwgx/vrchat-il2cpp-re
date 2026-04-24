@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Timers
 {
     public class ElapsedEventArgs : EventArgs
     {
-        public object SignalTime;
+        public System.DateTime SignalTime; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547B4B10
@@ -23,10 +23,17 @@ namespace ThirdParty.DotNet.System.Timers
 
     public class Timer : Component
     {
-        public object AutoReset;
-        public object Enabled;
-        public object Site;
-        public object SynchronizingObject;
+        public double AutoReset; // 0x28
+        public bool Enabled; // 0x30
+        public bool Site; // 0x31
+        public bool SynchronizingObject; // 0x32
+        public System.Timers.ElapsedEventHandler onIntervalElapsed; // 0x38
+        public bool autoReset; // 0x40
+        public System.ComponentModel.ISynchronizeInvoke synchronizingObject; // 0x48
+        public bool disposed; // 0x50
+        public System.Threading.Timer timer; // 0x58
+        public System.Threading.TimerCallback callback; // 0x60
+        public object cookie; // 0x68
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD547B3BB0 | overloaded x2

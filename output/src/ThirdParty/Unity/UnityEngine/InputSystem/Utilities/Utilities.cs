@@ -7,13 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
     public class ArrayHelpers : Object
     {
-        public ileFullDirectoryInformation<T1717587424> body;
-        public URA.?<T1717587424> list;
-        public rectoryInformation<T1717587424,utes.Sleft> bodyWithState;
-        public formation<T1717587424,utes.Sleft,long> bodyWithStateAndIndex;
-        public rmation<T1717587424,utes.Sleft,T1717587440,T1717587440> bodyWithStateAndLocal;
-        public ?<T1717587424,utes.Sleft,long,T1717587440,T1717587440> bodyWithEverything;
-
         // ── Methods ──
         public void LengthSafe(){} // RVA: 0x7FFD4E079A40
         public void Clear(){} // RVA: 0x7FFD4E090C80 | overloaded x3
@@ -63,8 +56,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
-        public object length;
-        public object Item;
+        public bool length; // 0x10
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<object>> Item; // 0x18
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<object>> m_CallbacksToAdd; // 0x30
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<object>> m_CallbacksToRemove; // 0x48
 
         // ── Methods ──
         public void get_length(){} // RVA: 0x7FFD4E079960
@@ -87,7 +82,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class DisplayStringFormatAttribute : Attribute
     {
-        public object formatString;
+        public string formatString; // 0x10
 
         // ── Methods ──
         public void get_formatString(){} // RVA: 0x7FFD4E35C380
@@ -103,6 +98,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ForDeviceEventObservable : Object
     {
+        public System.IObservable`1<UnityEngine.InputSystem.LowLevel.InputEventPtr> m_Source; // 0x10
+        public UnityEngine.InputSystem.InputDevice m_Device; // 0x18
+        public System.Type m_DeviceType; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5498C5B0
         public void Subscribe(){} // RVA: 0x7FFD5498C6B0
@@ -110,6 +109,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class FourCC : ValueType
     {
+        public int m_Code; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54984120 | overloaded x3
         public void op_Implicit(){} // RVA: 0x7FFD50006C10 | overloaded x2
@@ -131,8 +132,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
-        public object Capacity;
-        public object Item;
+        public int Capacity; // 0x10
+        public ulong Item; // 0x18
+        public ulong[] additionalValues; // 0x20
 
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x7FFD4E079960
@@ -161,8 +163,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InputActionTrace : Object
     {
-        public object buffer;
-        public object count;
+        public bool buffer; // 0x10
+        public bool count; // 0x11
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputAction> m_SubscribedActions; // 0x18
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputActionMap> m_SubscribedActionMaps; // 0x30
+        public UnityEngine.InputSystem.LowLevel.InputEventBuffer m_EventBuffer; // 0x48
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputActionState> m_ActionMapStates; // 0x68
+        public UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputActionState> m_ActionMapStateClones; // 0x80
+        public System.Action`1<CallbackContext> m_CallbackDelegate; // 0x98
+        public System.Action`2<object,0x664A57B0> m_ActionChangeDelegate; // 0xA0
 
         // ── Methods ──
         public void get_buffer(){} // RVA: 0x7FFD54980D60
@@ -196,7 +205,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InternedString : ValueType
     {
-        public object length;
+        public string length; // 0x10
+        public string m_StringLowerCase; // 0x18
 
         // ── Methods ──
         public void get_length(){} // RVA: 0x7FFD54984560
@@ -216,7 +226,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class JsonParser : ValueType
     {
-        public object isAtEnd;
+        public string isAtEnd; // 0x10
+        public int m_Length; // 0x18
+        public int m_Position; // 0x1C
+        public bool m_MatchAnyElementInArray; // 0x20
+        public bool m_DryRun; // 0x21
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD549855E0
@@ -272,8 +286,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class NameAndParameters : ValueType
     {
-        public object name;
-        public object parameters;
+        public string name; // 0x10
+        public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue> parameters; // 0x18
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4EEF9F60
@@ -289,9 +303,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class NamedValue : ValueType
     {
-        public object name;
-        public object value;
-        public object type;
+        public string name;
+        public string value; // 0x10
+        public UnityEngine.InputSystem.Utilities.PrimitiveValue type; // 0x18
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4EEF9F60
@@ -327,8 +341,6 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class Observable : Object
     {
-        public ?<T1717667312,T1717667328,T1717667344,T1717667360,eObjectDelegate.206_1> asyncAction;
-
         // ── Methods ──
         public void Where(){} // RVA: 0x7FFD4E078FF0
         public void Select(){} // RVA: 0x7FFD4E078FF0
@@ -341,6 +353,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class Observer`1 : Object
     {
+        public System.Action`1<T> m_OnNext;
+        public System.Action m_OnCompleted;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
         public void OnCompleted(){} // RVA: 0x7FFD4E090980
@@ -350,8 +365,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class OneOrMore`2 : ValueType
     {
-        public object Count;
-        public object Item;
+        public bool Count; // 0x10
+        public UnityEngine.InputSystem.InputActionMap Item; // 0x18
+        public UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputActionMap> m_Multiple; // 0x20
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -364,6 +380,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class PredictiveParser : ValueType
     {
+        public int m_Position; // 0x10
+
         // ── Methods ──
         public void ExpectSingleChar(){} // RVA: 0x7FFD5498CB80
         public void ExpectInt(){} // RVA: 0x7FFD5498CCA0
@@ -375,9 +393,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class PrimitiveValue : ValueType
     {
-        public object valuePtr;
-        public object type;
-        public object isEmpty;
+        public 0x66421808 valuePtr; // 0x10
+        public bool type; // 0x14
+        public char isEmpty; // 0x14
+        public byte m_ByteValue; // 0x14
+        public sbyte m_SByteValue; // 0x14
+        public short m_ShortValue; // 0x14
+        public ushort m_UShortValue; // 0x14
+        public int m_IntValue; // 0x14
+        public uint m_UIntValue; // 0x14
+        public long m_LongValue; // 0x14
+        public ulong m_ULongValue; // 0x14
+        public float m_FloatValue; // 0x14
+        public double m_DoubleValue; // 0x14
 
         // ── Methods ──
         public void get_valuePtr(){} // RVA: 0x7FFD5498D2A0
@@ -436,8 +464,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
-        public object Count;
-        public object Item;
+        public UnityEngine.InputSystem.InputAction[] Count; // 0x10
+        public int Item; // 0x18
+        public int m_Length; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -453,8 +482,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class SavedStructState`1 : Object
     {
-        public oUpdateAPI.osPlatformEvents m_Handle; // 0x10
-        public oUpdateAPI.ded m_NullPlayable;
+        public T m_State;
+        public TypedRestore<T> m_RestoreAction;
+        public System.Action m_StaticDisposeCurrentState;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -464,6 +494,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class SelectManyObservable`2 : Object
     {
+        public System.IObservable`1<U> m_Source;
+        public System.Func`2<U,System.Collections.Generic.IEnumerable`1<T>> m_Filter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
         public void Subscribe(){} // RVA: 0x7FFD4E078F40
@@ -501,10 +534,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class Substring : ValueType
     {
-        public object isEmpty;
-        public object length;
-        public object index;
-        public object Item;
+        public string isEmpty; // 0x10
+        public int length; // 0x18
+        public int index; // 0x1C
 
         // ── Methods ──
         public void get_isEmpty(){} // RVA: 0x7FFD54992170
@@ -526,6 +558,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class TakeNObservable`1 : Object
     {
+        public System.IObservable`1<T> m_Source;
+        public int m_Count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970
         public void Subscribe(){} // RVA: 0x7FFD4E078F40
@@ -543,8 +578,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class TypeTable : ValueType
     {
-        public object names;
-        public object internedNames;
+        public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,System.Type> names; // 0x10
 
         // ── Methods ──
         public void get_names(){} // RVA: 0x7FFD54993780
@@ -563,9 +597,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class WhereObservable`1 : Object
     {
-        public URA.bbrevEraNames<T1717677552> source;
-        public n<T1717677552,bool> predicate;
-        public URA.saAbbrevEnglishEraNames<T1717677552> enumerator;
+        public System.IObservable`1<T> m_Source;
+        public System.Func`2<T,bool> m_Predicate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30

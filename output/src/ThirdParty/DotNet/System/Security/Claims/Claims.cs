@@ -7,11 +7,19 @@ namespace ThirdParty.DotNet.System.Security.Claims
 {
     public class ClaimsIdentity : Object
     {
-        public object AuthenticationType;
-        public object Actor;
-        public object Claims;
-        public object Name;
-        public object NameClaimType;
+        public byte[] AuthenticationType; // 0x10
+        public System.Collections.Generic.List`1<0x6642E490> Actor; // 0x18
+        public System.Collections.ObjectModel.Collection`1<System.Collections.Generic.IEnumerable`1<0x6642E490>> Claims; // 0x20
+        public string Name; // 0x28
+        public string NameClaimType; // 0x30
+        public string m_version; // 0x38
+        public System.Security.Claims.ClaimsIdentity m_actor; // 0x40
+        public string m_authenticationType; // 0x48
+        public object m_bootstrapContext; // 0x50
+        public string m_label; // 0x58
+        public string m_serializedNameType; // 0x60
+        public string m_serializedRoleType; // 0x68
+        public string m_serializedClaims; // 0x70
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53873B00 | overloaded x6

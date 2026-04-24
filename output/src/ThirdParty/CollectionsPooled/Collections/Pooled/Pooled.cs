@@ -13,16 +13,12 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledList`1 : Object
     {
-        public object Capacity;
+        public System.Buffers.ArrayPool`1<T> Capacity;
         public object Count;
-        public object System.Collections.IList.IsFixedSize;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
-        public object System.Collections.IList.IsReadOnly;
-        public object System.Collections.ICollection.Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object Item;
-        public object System.Collections.IList.Item;
+        public T[] System.Collections.IList.IsFixedSize;
+        public int System.Collections.Generic.ICollection<T>.IsReadOnly;
+        public int System.Collections.IList.IsReadOnly;
+        public bool System.Collections.ICollection.Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x2
@@ -64,8 +60,18 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledSet`1 : Object
     {
-        public object Count;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
+        public System.Buffers.ArrayPool`1<int> Count;
+        public System.Buffers.ArrayPool`1<0x6662E738<string>> System.Collections.Generic.ICollection<T>.IsReadOnly; // 0x8
+        public int[] _buckets; // 0x10
+        public 0x6662E738<string>[] _slots; // 0x18
+        public int _size; // 0x20
+        public int _count; // 0x24
+        public int _lastIndex; // 0x28
+        public int _freeList; // 0x2C
+        public System.Collections.Generic.IEqualityComparer`1<string> _comparer; // 0x30
+        public int _version; // 0x38
+        public bool _clearOnFree; // 0x3C
+        public System.Runtime.Serialization.SerializationInfo _siInfo; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x3
@@ -94,9 +100,12 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledStack`1 : Object
     {
-        public object Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
+        public System.Buffers.ArrayPool`1<System.ValueTuple`2<UnityEngine.Object,bool>> Count; // 0x10
+        public object System.Collections.ICollection.IsSynchronized; // 0x18
+        public System.ValueTuple`2<UnityEngine.Object,bool>[] System.Collections.ICollection.SyncRoot; // 0x20
+        public int _size; // 0x28
+        public int _version; // 0x2C
+        public bool _clearOnFree; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x2

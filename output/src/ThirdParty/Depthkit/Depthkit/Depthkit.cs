@@ -7,25 +7,23 @@ namespace ThirdParty.Depthkit.Depthkit
 {
     public class Clip : MonoBehaviour
     {
-        public object playerEvents;
-        public object metadataFilePath;
-        public object metadataFile;
-        public object metadataSourceType;
-        public object metadata;
-        public object hasMetadata;
-        public object perspectiveDataBuffer;
-        public object player;
-        public object playerSetup;
-        public object playerIsActive;
-        public object width;
-        public object height;
-        public object gammaCorrectDepth;
-        public object gammaCorrectColor;
-        public object cppTexture;
-        public object textureIsFlipped;
-        public object poster;
-        public object disablePoster;
-        public object isSetup;
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÍÏÎÌÌÏÌÌÎÌÌÍÍÎÌÌÎÏ playerEvents; // 0x20
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÍÏÎÌÌÏÌÌÎÌÌÍÍÎÌÌÎÏ metadataFilePath; // 0x28
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÎÌÌÌÌÏÏÍ metadataFile; // 0x30
+        public string metadataSourceType; // 0x38
+        public UnityEngine.TextAsset metadata; // 0x40
+        public 0x66609C70 hasMetadata; // 0x48
+        public Depthkit.Metadata perspectiveDataBuffer; // 0x50
+        public 0x66609C18 player; // 0x58
+        public Depthkit.ClipPlayer playerSetup; // 0x60
+        public int playerIsActive; // 0x68
+        public UnityEngine.Texture width; // 0x70
+        public UnityEngine.Texture2D height; // 0x78
+        public bool gammaCorrectDepth; // 0x80
+        public System.Collections.Generic.List`1<0x66424DA8> gammaCorrectColor; // 0x88
+        public bool cppTexture; // 0x90
+        public bool textureIsFlipped; // 0x91
+        public float poster;
 
         // ── Methods ──
         public void add_newFrame(){} // RVA: 0x7FFD4FD682C0
@@ -84,12 +82,8 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class ClipPlayer : MonoBehaviour
     {
-        public tionX videoLoaded; // 0x10
-        public int consecutiveMoveCount; // 0x18
-        public moryFailure.in lastMoveDirection; // 0x1C
-        public float lastMoveTime; // 0x20
-        public moryFailure.en>>.Remove eventData; // 0x28
-        public ilAddress.ActionProperty device; // 0x30
+        public bool videoLoaded; // 0x20
+        public Depthkit.PlayerEvents events; // 0x28
 
         // ── Methods ──
         public void get_videoLoaded(){} // RVA: 0x7FFD4E42F9D0
@@ -126,6 +120,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class CoreLook : ProceduralLook
     {
+        public UnityEngine.Shader s_defaultUnlitPhotoLookShader;
+        public UnityEngine.Material s_defaultUnlitPhotoLookMaterial; // 0x8
+
         // ── Methods ──
         public void GetDefaultMaterial(){} // RVA: 0x7FFD4FD77870
         public void GetLookName(){} // RVA: 0x7FFD4FD77B50
@@ -136,11 +133,21 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class CoreMeshSource : MeshSource
     {
-        public object meshDensity;
-        public object latticeMaxTriangles;
-        public object latticeResolution;
-        public object scaledPerspectiveResolution;
-        public object vertexBuffer;
+        public float meshDensity; // 0x90
+        public 0x66609E28 latticeMaxTriangles; // 0x94
+        public UnityEngine.Vector2Int latticeResolution; // 0x98
+        public uint scaledPerspectiveResolution; // 0xA0
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÌÏÌÎÏÏÏÎÎÌÏÎÎÎÏÏÎÍÌÏÎÏ vertexBuffer; // 0xA4
+        public float adjustableNormalSlope; // 0xA8
+        public float edgeCompressionNoiseThreshold; // 0xAC
+        public float clipThreshold; // 0xB0
+        public bool ditherEdge; // 0xB4
+        public float ditherWidth; // 0xB8
+        public uint vertexCount; // 0xBC
+        public UnityEngine.ComputeBuffer m_vertexBuffer; // 0xC0
+        public int m_vertexBufferSlices; // 0xC8
+        public UnityEngine.ComputeShader m_generateDataCompute; // 0xD0
+        public Depthkit.MaskGenerator maskGenerator; // 0xD8
 
         // ── Methods ──
         public void get_meshDensity(){} // RVA: 0x7FFD4FD6CBE0
@@ -173,8 +180,13 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class DataSource : MonoBehaviour
     {
-        public object clip;
-        public object dataSourceParent;
+        public Depthkit.DataSourceEvents clip; // 0x20
+        public bool dataSourceParent; // 0x28
+        public Depthkit.Clip m_clip; // 0x30
+        public string m_parent; // 0x38
+        public bool m_doUpdate; // 0x40
+        public bool m_doResize; // 0x41
+        public System.Collections.Generic.List`1<0x66424DA8> m_children; // 0x48
 
         // ── Methods ──
         public void get_clip(){} // RVA: 0x7FFD4E5F95E0
@@ -212,6 +224,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class DataSourceEvents : Object
     {
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÎÌÌÌÌÏÏÍ m_dataGenerated; // 0x10
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÎÌÌÌÌÏÏÍ m_dataResized; // 0x18
+
         // ── Methods ──
         public void add_m_dataGenerated(){} // RVA: 0x7FFD4FD70F50
         public void remove_m_dataGenerated(){} // RVA: 0x7FFD4FD71040
@@ -228,8 +243,15 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class GaussianBlurFilter : Object
     {
-        public object hasTexture;
-        public object texture;
+        public float hasTexture; // 0x10
+        public int texture; // 0x14
+        public int slices; // 0x18
+        public int m_prevReductionFactor; // 0x1C
+        public UnityEngine.RenderTexture[] m_textures; // 0x20
+        public int m_currentTexture; // 0x28
+        public UnityEngine.ComputeShader m_blurCompute; // 0x30
+        public string s_defaultComputeBlurShaderName;
+        public UnityEngine.Vector4 m_pongSize; // 0x38
 
         // ── Methods ──
         public void get_hasTexture(){} // RVA: 0x7FFD4FD7C6A0
@@ -252,6 +274,8 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class Info : Object
     {
+        public 0x6660AA30 Version;
+
         // ── Methods ──
         public void IsPlatformValid(){} // RVA: 0x7FFD4FD7E3A0
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -260,7 +284,14 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class Look : MonoBehaviour
     {
-        public object materialPropertyBlock;
+        public Depthkit.Clip materialPropertyBlock; // 0x20
+        public bool showPerViewColorDebug; // 0x28
+        public bool showCameraFrustums; // 0x29
+        public 0x6660A5B8 onUpdated; // 0x30
+        public UnityEngine.MaterialPropertyBlock m_materialPropertyBlock; // 0x38
+        public Depthkit.MeshSource meshSource; // 0x40
+        public UnityEngine.BoxCollider m_collider; // 0x48
+        public bool m_bIsInit; // 0x50
 
         // ── Methods ──
         public void EnsureMaterialPropertyBlock(){} // RVA: 0x7FFD4FD77E60
@@ -289,11 +320,26 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class MaskGenerator : Object
     {
-        public int perspectivesToSlice; // 0x10
-        public ileFullDirectoryInformation<B3ABA9D7C54CD812756C7C5CE8848E6A882B240EB.Details> sliceToPerspective; // 0x18
-        public B3ABA9D7C54CD812756C7C5CE8848E6A882B240EB.Details sliceCount; // 0x20
-        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ blurRadius; // 0x28
-        public ÌÍÏÏÏ.ÌÎÍÍÏÍÏÎÏÎÏÌÍÏÏÏ paddedUVScaleFactor; // 0x30
+        public Depthkit.Clip perspectivesToSlice; // 0x10
+        public int sliceToPerspective; // 0x18
+        public float sliceCount; // 0x1C
+        public float blurRadius; // 0x20
+        public UnityEngine.ComputeShader paddedUVScaleFactor; // 0x28
+        public 0x664DC180 maskTexture; // 0x30
+        public UnityEngine.RenderTexture downScale; // 0x38
+        public UnityEngine.Vector4 downScaledMaskTexture; // 0x40
+        public UnityEngine.Vector4[] m_perspectivesToSlice; // 0x50
+        public UnityEngine.Vector4[] m_sliceToPerspective; // 0x58
+        public bool enableBlur; // 0x60
+        public bool enableMaskDebug; // 0x61
+        public Depthkit.GaussianBlurFilter m_blurFilter; // 0x68
+        public float sobelMultiplier; // 0x70
+        public UnityEngine.ComputeShader m_sobelFilterCompute; // 0x78
+        public int m_sobelFilterKId; // 0x80
+        public int m_downScale; // 0x84
+        public UnityEngine.ComputeShader m_downScaleCompute; // 0x88
+        public int m_downScaleKId; // 0x90
+        public UnityEngine.RenderTexture m_downScaledMaskTexture; // 0x98
 
         // ── Methods ──
         public void get_perspectivesToSlice(){} // RVA: 0x7FFD4E3E20E0
@@ -323,13 +369,24 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class MeshSource : DataSource
     {
-        public object currentSubmeshIndex;
-        public object triangleBuffer;
-        public object triangleBufferDispatchIndirectArgs;
-        public object triangleBufferDrawIndirectArgs;
-        public object maxSurfaceTriangles;
-        public object useTriangleMesh;
-        public object triangleMesh;
+        public bool currentSubmeshIndex; // 0x50
+        public Depthkit.SubMesh[] triangleBuffer; // 0x58
+        public uint[] triangleBufferDispatchIndirectArgs; // 0x60
+        public bool triangleBufferDrawIndirectArgs; // 0x68
+        public uint maxSurfaceTriangles; // 0x6C
+        public bool useTriangleMesh; // 0x70
+        public float triangleMesh;
+        public float radialBiasMax;
+        public float radialBiasDefault;
+        public float radialBias; // 0x74
+        public float[] radialBiasPersp; // 0x78
+        public UnityEngine.Vector4[] radialBiasPerspInMeters; // 0x80
+        public bool pauseDataGenerationWhenInvisible; // 0x88
+        public bool pausePlayerWhenInvisible; // 0x89
+        public bool m_wasPlaying; // 0x8A
+        public bool m_doGeneration; // 0x8B
+        public bool m_pausedFromRenderer; // 0x8C
+        public bool m_seenOnce; // 0x8D
 
         // ── Methods ──
         public void GetSubMesh(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -366,9 +423,21 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class Metadata : Object
     {
-        public object perspectiveCPPResolution;
-        public object perspectiveResolution;
-        public object paddedTextureDimensions;
+        public int perspectiveCPPResolution;
+        public uint perspectiveResolution; // 0x4
+        public float paddedTextureDimensions;
+        public int _versionMajor; // 0x10
+        public int _versionMinor; // 0x14
+        public string format; // 0x18
+        public int textureWidth; // 0x20
+        public int textureHeight; // 0x24
+        public UnityEngine.Vector3 boundsCenter; // 0x28
+        public UnityEngine.Vector3 boundsSize; // 0x34
+        public 0x6660AB90[] perspectives; // 0x40
+        public int perspectivesCount; // 0x48
+        public int numRows; // 0x4C
+        public int numColumns; // 0x50
+        public int numAngles; // 0x54
 
         // ── Methods ──
         public void Valid(){} // RVA: 0x7FFD4FD7E820
@@ -402,6 +471,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class PerspectiveGeometryData : SyncedStructuredBuffer`1
     {
+        public bool[] m_geometryMatchesColorWeights; // 0x30
+        public float[] m_viewDependentContributions; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FD901B0
         public void EnableGeometry(){} // RVA: 0x7FFD4FD90590 | overloaded x2
@@ -429,6 +501,12 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class PlayerEvents : Object
     {
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÍÏÎÌÌÏÌÌÎÌÌÍÍÎÌÌÎÏ playbackStarted; // 0x10
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÍÏÎÌÌÏÌÌÎÌÌÍÍÎÌÌÎÏ playbackPaused; // 0x18
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÍÏÎÌÌÏÌÌÎÌÌÍÍÎÌÌÎÏ playbackStopped; // 0x20
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÍÏÎÌÌÏÌÌÎÌÌÍÍÎÌÌÎÏ loadingStarted; // 0x28
+        public ÎÎÏÎÌÏÌÍÍÌÏÏÍÏÌÌ.ÍÏÎÌÌÏÌÌÎÌÌÍÍÎÌÌÎÏ loadingFinished; // 0x30
+
         // ── Methods ──
         public void add_playbackStarted(){} // RVA: 0x7FFD4FD7A1E0
         public void remove_playbackStarted(){} // RVA: 0x7FFD4FD7A2D0
@@ -450,6 +528,12 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class ProceduralLook : Look
     {
+        public 0x664E6940 shadowCastingMode; // 0x58
+        public bool receiveShadows; // 0x5C
+        public bool interpolateLightProbes; // 0x5D
+        public UnityEngine.Transform anchorOverride; // 0x60
+        public UnityEngine.Material lookMaterial; // 0x68
+
         // ── Methods ──
         public void UsesMaterial(){} // RVA: 0x7FFD4E426850
         public void GetMaterial(){} // RVA: 0x7FFD4E3BCD50
@@ -461,6 +545,10 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class SetCaptureFrameRate : MonoBehaviour
     {
+        public UnityEngine.Events.UnityEvent onFrameBegin; // 0x20
+        public UnityEngine.Events.UnityEvent onFrameEnd; // 0x28
+        public int captureFramteRate; // 0x30
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4FD7FF70
         public void Update(){} // RVA: 0x7FFD4FD7FF80
@@ -470,6 +558,29 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class StudioLiteLook : ProceduralLook
     {
+        public UnityEngine.Shader s_defaultMainStencilShader;
+        public UnityEngine.Material s_defaultMainStencilMaterial; // 0x8
+        public UnityEngine.Shader s_defaultMainShader; // 0x10
+        public UnityEngine.Material s_defaultMainMaterial; // 0x18
+        public UnityEngine.Shader s_defaultMainEdgeStencilShader; // 0x20
+        public UnityEngine.Material s_defaultMainEdgeStencilMaterial; // 0x28
+        public UnityEngine.Shader s_defaultMainEdgeShader; // 0x30
+        public UnityEngine.Material s_defaultMainEdgeMaterial; // 0x38
+        public UnityEngine.Shader s_defaultFillShader; // 0x40
+        public UnityEngine.Material s_defaultFillMaterial; // 0x48
+        public UnityEngine.Shader s_defaultFillEdgeShader; // 0x50
+        public UnityEngine.Material s_defaultFillEdgeMaterial; // 0x58
+        public UnityEngine.Material mainPerspectiveStencil; // 0x70
+        public UnityEngine.Material mainPerspectiveEdgeStencil; // 0x78
+        public UnityEngine.Material mainPerspective; // 0x80
+        public UnityEngine.Material mainPerspectiveEdge; // 0x88
+        public UnityEngine.Material fillPerspectives; // 0x90
+        public UnityEngine.Material fillPerspectivesEdges; // 0x98
+        public bool showMain; // 0xA0
+        public bool showMainEdge; // 0xA1
+        public bool showFill; // 0xA2
+        public bool showFillEdge; // 0xA3
+
         // ── Methods ──
         public void GetDefaultMaterial(){} // RVA: 0x7FFD4FD92AF0
         public void GetLookName(){} // RVA: 0x7FFD4FD937A0
@@ -481,6 +592,13 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class StudioLiteMeshSource : CoreMeshSource
     {
+        public UnityEngine.Transform volumeViewpoint; // 0xE0
+        public int maxPerspectivesToRender; // 0xE8
+        public bool enableAdaptiveThreshold; // 0xEC
+        public float maxViewAngleCosThreshold; // 0xF0
+        public float minClipThreshold; // 0xF4
+        public float minDitherWidth; // 0xF8
+
         // ── Methods ──
         public void GetComputeShaderName(){} // RVA: 0x7FFD4FD90C60
         public void GetKernelNamePostfix(){} // RVA: 0x7FFD4FD90CA0
@@ -494,6 +612,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class StudioLook : ProceduralLook
     {
+        public UnityEngine.Shader s_defaultUnlitPhotoLookShader;
+        public UnityEngine.Material s_defaultUnlitPhotoLookMaterial; // 0x8
+
         // ── Methods ──
         public void GetDefaultMaterial(){} // RVA: 0x7FFD4FD8F110
         public void GetLookName(){} // RVA: 0x7FFD4FD8F3F0
@@ -504,12 +625,85 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class StudioMeshSource : MeshSource
     {
-        public object currentLevelOfDetailLevel;
-        public object volumeBounds;
-        public object volumeDensity;
-        public object numLevelOfDetailLevels;
-        public object useTextureAtlas;
-        public object enableEdgeMask;
+        public 0x66619708 currentLevelOfDetailLevel; // 0x90
+        public UnityEngine.ComputeShader volumeBounds; // 0x98
+        public UnityEngine.ComputeShader volumeDensity; // 0xA0
+        public UnityEngine.ComputeShader numLevelOfDetailLevels; // 0xA8
+        public UnityEngine.ComputeShader useTextureAtlas; // 0xB0
+        public UnityEngine.ComputeShader enableEdgeMask; // 0xB8
+        public bool showVolumePreview; // 0xC0
+        public UnityEngine.Material m_volumePreviewMaterial; // 0xC8
+        public float volumePreviewAlpha; // 0xD0
+        public float volumePreviewPointSize; // 0xD4
+        public bool automaticLevelOfDetail; // 0xD8
+        public float levelOfDetailDistance; // 0xDC
+        public int m_currentLODLevel; // 0xE0
+        public int m_currentLODIsoScalar; // 0xE4
+        public UnityEngine.Camera m_mainCamera; // 0xE8
+        public UnityEngine.Bounds m_volumeBounds; // 0xF0
+        public float m_volumeDensity; // 0x108
+        public UnityEngine.Vector3Int m_voxelGridDimensions; // 0x10C
+        public int <numLevelOfDetailLevels>k__BackingField; // 0x118
+        public int m_totalVoxelCount; // 0x11C
+        public float surfaceSmoothingRadius; // 0x120
+        public bool enableSurfaceSmoothing; // 0x124
+        public float m_surfaceSensitivityThreshold; // 0x128
+        public float surfaceSensitivityDefault;
+        public float weightUnknownDefault;
+        public float weightUnseenMaxDefault;
+        public float weightUnseenMinDefault;
+        public float weightUnseenFalloffPowerDefault;
+        public float weightInFrontMaxDefault;
+        public float weightInFrontMinDefault;
+        public float surfaceSensitivity; // 0x12C
+        public float weightUnknown; // 0x130
+        public float weightUnseenMax; // 0x134
+        public float weightUnseenMin; // 0x138
+        public float weightUnseenFalloffPower; // 0x13C
+        public float weightInFrontMax; // 0x140
+        public float weightInFrontMin; // 0x144
+        public UnityEngine.Transform volumeViewpoint; // 0x148
+        public float surfaceNormalColorBlendingPower; // 0x150
+        public float perViewDisparityThreshold; // 0x154
+        public float perViewDisparityBlendWidth; // 0x158
+        public float disparityMin; // 0x15C
+        public float globalViewDependentColorBlendWeight; // 0x160
+        public float globalViewDependentGeometryBlendWeight; // 0x164
+        public bool enableViewDependentGeometry; // 0x168
+        public 0x666197B8 untexturedFragmentSetting; // 0x16C
+        public UnityEngine.Color untexturedColor; // 0x170
+        public UnityEngine.ComputeBuffer[] m_sdfBuffers; // 0x180
+        public int m_currentSdfBuffer; // 0x188
+        public UnityEngine.ComputeBuffer m_pointsBuffer; // 0x190
+        public int m_triangleConnectionTableSize;
+        public int m_triangleOffsetsSize;
+        public int m_numberOfTrianglesSize;
+        public int m_triangleBufferSize;
+        public UnityEngine.ComputeBuffer m_triangleBuffer; // 0x198
+        public UnityEngine.Material m_halfBlitMaterial; // 0x1A0
+        public UnityEngine.RenderTexture m_normalWeightTexture; // 0x1A8
+        public UnityEngine.Vector4 m_normalWeightTextureTexelSize; // 0x1B0
+        public UnityEngine.Material m_normalWeightGenerationMaterial; // 0x1C0
+        public int m_generateVolumeKernelGroupSize; // 0x1C8
+        public int m_extractSurfaceKernelGroupSize; // 0x1CC
+        public int m_extractSurfaceKId; // 0x1D0
+        public int m_normalWeightKId; // 0x1D4
+        public int m_generateVolumeSinglePassKId; // 0x1D8
+        public int m_generateVolumeMultiPassInitKId; // 0x1DC
+        public int m_generateVolumeMultiPassAccumulateKId; // 0x1E0
+        public int m_generateVolumeMultiPassResolveKId; // 0x1E4
+        public int m_generateVolumePreviewKId; // 0x1E8
+        public Depthkit.PerspectiveColorBlendingData perspectiveColorBlendingData; // 0x1F0
+        public Depthkit.PerspectiveGeometryData perspectiveGeometryData; // 0x1F8
+        public bool[] overrideRadialBias; // 0x200
+        public int perspectivesCount; // 0x208
+        public int normalWeightResolutionReduction; // 0x20C
+        public bool m_useTextureAtlas; // 0x210
+        public int[] triangleOffsets;
+        public int[,] triangleConnectionTable; // 0x8
+        public int[] nrOfTriangles; // 0x10
+        public Depthkit.MaskGenerator maskGenerator; // 0x218
+        public bool m_enableEdgeMask; // 0x220
 
         // ── Methods ──
         public void set_currentLevelOfDetailLevel(){} // RVA: 0x7FFD4FD86030
@@ -566,12 +760,14 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class SubMesh : Object
     {
-        public object triangleBuffer;
-        public object trianglesCount;
-        public object dispatchIndirectArgs;
-        public object drawIndirectArgs;
-        public object source;
-        public object triangleMesh;
+        public uint triangleBuffer; // 0x10
+        public UnityEngine.ComputeBuffer trianglesCount; // 0x18
+        public UnityEngine.ComputeBuffer dispatchIndirectArgs; // 0x20
+        public UnityEngine.ComputeBuffer drawIndirectArgs; // 0x28
+        public UnityEngine.ComputeBuffer source; // 0x30
+        public Depthkit.MeshSource triangleMesh; // 0x38
+        public bool useTriangleMesh; // 0x40
+        public Depthkit.TriangleMesh m_triangleMesh; // 0x48
 
         // ── Methods ──
         public void GetDataTypeSizeInBytes(){} // RVA: 0x7FFD4E079960
@@ -601,7 +797,10 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class SyncedStructuredBuffer`1 : Object
     {
-        public object Length;
+        public UnityEngine.ComputeBuffer Length; // 0x10
+        public 0x66619918[] m_data; // 0x18
+        public bool m_dirty; // 0x20
+        public string m_name; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E0986D0
@@ -613,8 +812,11 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class TriangleMesh : Object
     {
-        public object TriangleCount;
-        public object mesh;
+        public Depthkit.MeshSource TriangleCount; // 0x10
+        public UnityEngine.Mesh mesh; // 0x18
+        public int m_triangleCount; // 0x20
+        public UnityEngine.Vector3[] s_cubeVerts;
+        public int[] s_cubeTriangles; // 0x8
 
         // ── Methods ──
         public void get_TriangleCount(){} // RVA: 0x7FFD4E4FBBE0
@@ -635,6 +837,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class UnityVideoPlayer : ClipPlayer
     {
+        public UnityEngine.Video.VideoPlayer m_mediaPlayer; // 0x30
+        public UnityEngine.AudioSource m_audioSource; // 0x38
+
         // ── Methods ──
         public void CreatePlayer(){} // RVA: 0x7FFD4FD7AB40
         public void IsPlayerCreated(){} // RVA: 0x7FFD4FD7B170

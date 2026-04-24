@@ -81,18 +81,46 @@ public class VFXUpdate : ValueType
 
 public class VRCAnimationPreset : ScriptableObject
 {
+    public UnityEngine.RuntimeAnimatorController locomotion; // 0x18
+    public UnityEngine.RuntimeAnimatorController idle; // 0x20
+    public UnityEngine.RuntimeAnimatorController hands; // 0x28
+    public UnityEngine.RuntimeAnimatorController face; // 0x30
+    public UnityEngine.RuntimeAnimatorController actions; // 0x38
+    public UnityEngine.RuntimeAnimatorController tpose; // 0x40
+    public UnityEngine.RuntimeAnimatorController sitting; // 0x48
+    public UnityEngine.RuntimeAnimatorController ikpose; // 0x50
+    public UnityEngine.RuntimeAnimatorController locomotionOff; // 0x58
+    public UnityEngine.AnimationClip[] builtInClips; // 0x60
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E54F5F0
 }
 
 public class VRCApplicationSetup : MonoBehaviour
 {
-    public object _destroyCancellationToken;
-    public object _useGUILayout;
-    public object f_3D2;
-    public object f_2F3;
-    public object f_BFE;
-    public object f_4BC;
+    public 0x6640C2B0 _destroyCancellationToken;
+    public string _useGUILayout; // 0x20
+    public string f_3D2; // 0x28
+    public int f_2F3; // 0x30
+    public long f_BFE; // 0x38
+    public string f_4BC; // 0x40
+    public string ÏÍÎÏÏÍÏÎÌÍÍÎÍÏÍÎÏÎÍÌÏÍÏ; // 0x48
+    public string ÎÌÌÍÎÍÎÏÏÎÏÏÍÍÏÍÍÍÎÍÏÌÍ; // 0x50
+    public bool ÌÍÏÌÍÏÌÍÎÌÍÌÌÌÍÎÍÍÎÌÍÏÌ; // 0x58
+    public bool ÌÎÍÎÍÌÌÌÌÏÍÎÎÍÌÎÎÏÌÎÍÍÏ; // 0x59
+    public bool ÌÎÍÎÌÎÌÎÌÍÏÍÏÍÍÏÌÍÎÍÏÎÎ; // 0x5A
+    public string ÎÏÌÌÏÌÍÏÍÏÍÏÏÍÏÎÏÌÏÏÏÏÏ;
+    public string <ÏÎÍÏÍÌÏÎÌÍÍÏÌÍÎÍÏÎÍÏÍÎÌ>k__BackingField; // 0x60
+    public System.Lazy`1<int> ÍÍÍÏÍÏÎÏÌÎÏÏÌÎÍÏÏÏÌÎÍÌÌ; // 0x68
+    public string <ÎÌÏÎÌÎÍÎÏÎÍÍÏÏÌÍÎÏÏÏÍÍÎ>k__BackingField; // 0x70
+    public bool ÎÏÌÍÌÌÍÏÎÎÎÏÌÌÍÏÌÍÍÏÌÎÏ; // 0x78
+    public bool ÌÎÎÎÍÌÍÎÏÍÍÌÏÎÎÏÏÍÌÍÌÏÎ; // 0x4
+    public UnityEngine.GameObject[] ÍÍÎÍÌÏÎÍÏÍÍÌÌÍÏÏÏÌÎÏÍÍÌ; // 0x80
+    public string ÌÏÌÌÍÍÎÍÌÎÎÎÍÏÎÏÌÌÎÎÎÌÌ; // 0x88
+    public VRCApplicationSetup ÍÏÍÎÍÎÍÍÏÏÏÏÌÎÍÏÌÌÏÎÍÍÎ; // 0x8
+    public bool ÍÍÍÍÎÍÏÏÏÌÌÏÏÍÍÎÏÌÍÌÏÍÏ; // 0x10
+    public string ÎÏÏÎÍÌÍÍÌÌÎÍÎÎÏÎÍÎÌÌÏÍÍ;
+    public int ÌÍÎÎÌÏÌÏÍÍÏÏÎÍÏÌÌÏÌÏÏÏÎ;
 
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F4A5A10
@@ -157,6 +185,10 @@ public class VRCConstraintsUpdate : ValueType
 
 public class VRCFlowUserContextTracker : Object
 {
+    public string ÌÍÌÌÏÏÍÍÍÏÏÌÌÏÎÏÍÎÏÏÏÏÍ;
+    public string ÍÏÌÌÏÍÍÍÎÏÌÏÌÍÎÏÍÌÍÌÍÌÍ;
+    public 0x66359D38 ÎÏÍÎÏÌÍÎÏÎÌÌÏÏÌÌÏÌÍÌÍÌÏ;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x7FFD4F1C5A40
     public void Equals(){} // RVA: 0x7FFD4F1C5AE0
@@ -166,12 +198,17 @@ public class VRCFlowUserContextTracker : Object
 
 public class VRCHandData : ValueType
 {
+    public bool IsLeft; // 0x10
+    public HandTrackingData TrackingData; // 0x18
+    public HandInputData InputData; // 0x60
 }
 
 public class VRCInitializeVRSDK : MonoBehaviour
 {
-    public object _destroyCancellationToken;
-    public object _useGUILayout;
+    public bool _destroyCancellationToken;
+    public bool _useGUILayout; // 0x1
+    public bool ÎÏÏÏÍÏÏÍÌÏÌÎÎÎÏÏÍÎÌÍÎÏÌ; // 0x20
+    public bool ÎÎÌÎÌÌÌÏÌÍÌÌÍÍÎÍÎÎÎÎÎÎÎ; // 0x2
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -199,25 +236,39 @@ public class VRCInitializeVRSDK : MonoBehaviour
 
 public class VRCInputBindingPreset : ScriptableObject
 {
+    public 0x6635F488 joyButtonLeftAction; // 0x18
+    public 0x6635F488 joyButtonRightAction; // 0x1C
+    public 0x6635F488 aButtonLeftAction; // 0x20
+    public 0x6635F488 aButtonRightAction; // 0x24
+    public bool useLongPress; // 0x28
+    public bool useLightGrip; // 0x29
+    public bool useDoubleTap; // 0x2A
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E54F5F0
 }
 
 public class VRCProjectSettings : MonoBehaviour
 {
+    public string[] layers; // 0x20
+    public int numLayers; // 0x28
+    public bool[] layerCollisionArr; // 0x30
+    public bool queriesHitTriggers; // 0x38
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341D50
 }
 
 public class VRCTime : Object
 {
-    public object _name;
-    public object _hideFlags;
-    public object f_0D4;
-    public object f_348;
-    public object f_184;
-    public object f_157;
-    public object f_E36;
+    public float _name;
+    public float _hideFlags; // 0x4
+    public float f_0D4; // 0x8
+    public float f_348; // 0xC
+    public int f_184; // 0x10
+    public long f_157; // 0x18
+    public System.Runtime.CompilerServices.StrongBox`1<System.DateTime> f_E36; // 0x20
+    public System.Runtime.CompilerServices.StrongBox`1<System.DateTime> ÏÎÏÌÏÍÌÎÌÌÏÌÏÍÏÎÌÎÍÏÏÌÍ; // 0x28
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4F230450
@@ -234,6 +285,8 @@ public class VRCTime : Object
 
 public class VRCUrlLauncher : VRCCustomAction
 {
+    public VRC.SDKBase.VRCUrl[] urls; // 0x20
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD4F7F07B0 | overloaded x3
     public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -247,6 +300,14 @@ public class VRC_VisualDamage : VRC_VisualDamage
 
 public class VRC_YouTubeSync : MonoBehaviour
 {
+    public string videoID; // 0x20
+    public bool hideUI; // 0x28
+    public bool loop; // 0x29
+    public bool autoplay; // 0x2A
+    public int volume; // 0x2C
+    public string[] playlist; // 0x30
+    public System.Action`1<VRC_YouTubeSync> _init;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x7FFD574018B0
     public void .ctor(){} // RVA: 0x7FFD57401910
@@ -263,10 +324,7 @@ public class ValidDelegate : MulticastDelegate
 
 public class ValueCollection : Object
 {
-    public object Count;
-    public object System.Collections.Generic.ICollection<TValue>.IsReadOnly;
-    public object System.Collections.ICollection.IsSynchronized;
-    public object System.Collections.ICollection.SyncRoot;
+    public System.Collections.Generic.Dictionary`2<0x664DC180,float> Count; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD514E1FC0
@@ -287,11 +345,7 @@ public class ValueCollection : Object
 
 public class ValueList : Object
 {
-    public object Count;
-    public object IsReadOnly;
-    public object System.Collections.ICollection.IsSynchronized;
-    public object System.Collections.ICollection.SyncRoot;
-    public object Item;
+    public System.Collections.Generic.SortedList`2<U,T> Count;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -316,6 +370,10 @@ public class ValueList : Object
 
 public class ValueTaskSourceAsTask : Task`1
 {
+    public System.Action`1<object> s_completionAction;
+    public System.Threading.Tasks.Sources.IValueTaskSource`1<bool> _source; // 0x58
+    public short _token; // 0x60
+
     // ── Methods ──
     public void .ctor(){}
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -336,13 +394,16 @@ public class Values : Object
 
 public class ValuesAndNames : Object
 {
+    public ulong[] Values; // 0x10
+    public string[] Names; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E90C240
 }
 
 public class ValuesDiscrete`1 : Values`1
 {
-    public object SameFunc;
+    public System.Func`3<T,T,bool> SameFunc;
 
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x7FFD4E078E90
@@ -361,8 +422,11 @@ public class ValuesMerger : MulticastDelegate
 
 public class Values`1 : Values
 {
-    public object isEmpty;
-    public object SameFunc;
+    public long isEmpty; // 0x10
+    public TransitionEventsFrameState<T> SameFunc; // 0x18
+    public TransitionEventsFrameState<T> m_NextFrameEventsState; // 0x20
+    public AnimationDataSet`2<0x66482FA0<T>,0x66482FF8<T>> running; // 0x28
+    public AnimationDataSet`2<EmptyData<T>,T> completed; // 0x58
 
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x7FFD4E079D00
@@ -399,6 +463,8 @@ public class VcamActivatedEvent : UnityEvent`2
 
 public class VcamExtraState : Object
 {
+    public UnityEngine.Rendering.PostProcessing.PostProcessProfile mProfileCopy; // 0x10
+
     // ── Methods ──
     public void AddPointToDebugPath(){} // RVA: 0x7FFD4E341310
     public void ApplyDistanceSmoothing(){} // RVA: 0x7FFD4FC20BE0
@@ -425,6 +491,9 @@ public class Vector3Surrogate : Object
 
 public class Vector3andSpace : Object
 {
+    public UnityEngine.Vector3 value; // 0x10
+    public 0x664D9528 space; // 0x1C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4F7FADB0
 }
@@ -439,34 +508,13 @@ public class Vector4Surrogate : Object
 
 public class VectorSizeHelper : ValueType
 {
+    public System.Numerics.Vector`1<T> _placeholder;
+    public byte _byte;
 }
 
 public class VelocityOverLifetimeModule : ValueType
 {
-    public object enabled;
-    public object x;
-    public object y;
-    public object z;
-    public object xMultiplier;
-    public object yMultiplier;
-    public object zMultiplier;
-    public object orbitalX;
-    public object orbitalY;
-    public object orbitalZ;
-    public object orbitalXMultiplier;
-    public object orbitalYMultiplier;
-    public object orbitalZMultiplier;
-    public object orbitalOffsetX;
-    public object orbitalOffsetY;
-    public object orbitalOffsetZ;
-    public object orbitalOffsetXMultiplier;
-    public object orbitalOffsetYMultiplier;
-    public object orbitalOffsetZMultiplier;
-    public object radial;
-    public object radialMultiplier;
-    public object speedModifier;
-    public object speedModifierMultiplier;
-    public object space;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -570,7 +618,7 @@ public class VelocityOverLifetimeModule : ValueType
 
 public class VerifyKey : ValueType
 {
-    public object Key;
+    public byte[] Key; // 0x10
 
     // ── Methods ──
     public void get_Key(){} // RVA: 0x7FFD4EEF9F60
@@ -579,28 +627,55 @@ public class VerifyKey : ValueType
 
 public class VideoCaptureResult : ValueType
 {
+    public 0x664E1980 resultType; // 0x10
+    public long hResult; // 0x18
 }
 
 public class VideoEntry : Object
 {
+    public 0x66637690 Source; // 0x10
+    public UnityEngine.Video.VideoClip VideoClip; // 0x18
+    public float PlaybackSpeed; // 0x20
+    public string URL; // 0x28
+    public ÍÌÌÍÎÏÏÌÏÌÍÎÍÍÏÌÌ SyncType; // 0x30
+    public float SyncMinutes; // 0x34
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD57407010
 }
 
 public class ViewfinderSkinMap : MonoBehaviour
 {
+    public UnityEngine.SkinnedMeshRenderer Renderer; // 0x20
+    public UnityEngine.Animator Animator; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341D50
 }
 
 public class VisualElementScheduledItem`1 : BaseVisualElementScheduledItem
 {
+    public System.Action updateEvent; // 0x50
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
 }
 
 public class VrcDataElement : Object
 {
+    public string name; // 0x10
+    public 0x665B1488 mirror; // 0x18
+    public 0x665B14E0 type; // 0x1C
+    public UnityEngine.MonoBehaviour serializeComponent; // 0x20
+    public bool valueBool; // 0x28
+    public int valueInt; // 0x2C
+    public float valueFloat; // 0x30
+    public string valueString; // 0x38
+    public byte[] valueSerializedBytes; // 0x40
+    public bool modified; // 0x48
+    public bool added; // 0x49
+    public VRC.SDKBase.VRC_DataStorage dataStorage; // 0x50
+
     // ── Methods ──
     public void Serialize(){} // RVA: 0x7FFD4E2ADC40
     public void Deserialize(){} // RVA: 0x7FFD4E079F60

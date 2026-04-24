@@ -7,9 +7,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 {
     public class AnnotationController`1 : MonoBehaviour
     {
-        public object isMirrored;
-        public object rotationAngle;
-        public object imageSize;
+        public Mediapipe.Unity.MaskAnnotation isMirrored; // 0x20
+        public bool rotationAngle; // 0x28
+        public UnityEngine.Vector2Int imageSize; // 0x2C
 
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x7FFD4E079D00
@@ -29,11 +29,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class Arrow : MonoBehaviour
     {
-        public object cone;
-        public object lineRenderer;
-        public object direction;
-        public object magnitude;
-        public object color;
+        public UnityEngine.Color cone; // 0x20
+        public UnityEngine.Vector3 lineRenderer; // 0x30
+        public float direction; // 0x3C
+        public float magnitude; // 0x40
+        public float color; // 0x44
+        public UnityEngine.Transform _cone; // 0x48
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD536EA7F0
@@ -58,6 +59,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AssetBundleResourceManager : ResourceManager
     {
+        public string _TAG;
+        public string _AssetBundlePath; // 0x8
+        public string _CachePathRoot; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53708D10
         public void PrepareAssetAsync(){} // RVA: 0x7FFD53709020
@@ -69,6 +74,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class CircleAnnotation : HierarchicalAnnotation
     {
+        public UnityEngine.LineRenderer _lineRenderer; // 0x30
+        public UnityEngine.Color _color; // 0x38
+        public float _lineWidth; // 0x48
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD536EB700
         public void OnDisable(){} // RVA: 0x7FFD536EB740
@@ -82,13 +91,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class Connection : Object
     {
+        public Mediapipe.Unity.HierarchicalAnnotation start; // 0x10
+        public Mediapipe.Unity.HierarchicalAnnotation end; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
     }
 
     public class ConnectionAnnotation : LineAnnotation
     {
-        public object isEmpty;
+        public Mediapipe.Unity.Connection isEmpty; // 0x50
 
         // ── Methods ──
         public void get_isEmpty(){} // RVA: 0x7FFD536EBF70
@@ -100,6 +112,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ConnectionListAnnotation : ListAnnotation`1
     {
+        public UnityEngine.Color _color; // 0x40
+        public float _lineWidth; // 0x50
+
         // ── Methods ──
         public void Fill(){} // RVA: 0x7FFD536EC1D0
         public void SetColor(){} // RVA: 0x7FFD536EC500
@@ -114,8 +129,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionAnnotation : HierarchicalAnnotation
     {
-        public object isMirrored;
-        public object rotationAngle;
+        public Mediapipe.Unity.RectangleAnnotation isMirrored; // 0x30
+        public Mediapipe.Unity.PointListAnnotation rotationAngle; // 0x38
+        public Mediapipe.Unity.LabelAnnotation _labelAnnotation; // 0x40
 
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x7FFD536ED150
@@ -129,6 +145,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionAnnotationController : AnnotationController`1
     {
+        public float _threshold; // 0x38
+        public Mediapipe.Detection _currentTarget; // 0x40
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536EE030
         public void DrawLater(){} // RVA: 0x7FFD536EE0A0
@@ -138,6 +157,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionListAnnotation : ListAnnotation`1
     {
+        public float _lineWidth; // 0x40
+        public float _keypointRadius; // 0x44
+
         // ── Methods ──
         public void SetLineWidth(){} // RVA: 0x7FFD536EE1A0
         public void SetKeypointRadius(){} // RVA: 0x7FFD536EE1B0
@@ -150,6 +172,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionListAnnotationController : AnnotationController`1
     {
+        public float _threshold; // 0x38
+        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.Detection> _currentTarget; // 0x40
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536EECC0 | overloaded x2
         public void DrawLater(){} // RVA: 0x7FFD536EED50 | overloaded x2
@@ -159,6 +184,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionResultAnnotationController : AnnotationController`1
     {
+        public float _threshold; // 0x38
+        public Mediapipe.Tasks.Components.Containers.DetectionResult _currentTarget; // 0x40
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536EE030
         public void DrawLater(){} // RVA: 0x7FFD536EEE60
@@ -168,8 +196,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public object isMirrored;
-        public object rotationAngle;
+        public Mediapipe.Unity.PointListAnnotation isMirrored; // 0x30
+        public Mediapipe.Unity.ConnectionListAnnotation rotationAngle; // 0x38
+        public int _LandmarkCount;
+        public System.Collections.Generic.List`1<System.ValueTuple`2<int,int>> _connections; // 0x40
 
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x7FFD536EF360
@@ -185,6 +215,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkListAnnotationController : AnnotationController`1
     {
+        public bool _visualizeZ; // 0x38
+        public int _circleVertices; // 0x3C
+        public System.Collections.Generic.IReadOnlyList`1<0x665726B8> _currentTarget; // 0x40
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536F10A0 | overloaded x2
         public void DrawLater(){} // RVA: 0x7FFD536F1190 | overloaded x2
@@ -194,8 +228,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkListWithIrisAnnotation : HierarchicalAnnotation
     {
-        public object isMirrored;
-        public object rotationAngle;
+        public Mediapipe.Unity.FaceLandmarkListAnnotation isMirrored; // 0x30
+        public Mediapipe.Unity.IrisLandmarkListAnnotation rotationAngle; // 0x38
+        public Mediapipe.Unity.IrisLandmarkListAnnotation _rightIrisLandmarkListAnnotation; // 0x40
+        public int _FaceLandmarkCount;
+        public int _IrisLandmarkCount;
 
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x7FFD536ED150
@@ -218,6 +255,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkerResultAnnotationController : AnnotationController`1
     {
+        public bool _visualizeZ; // 0x38
+        public Mediapipe.Tasks.Vision.FaceLandmarker.FaceLandmarkerResult _currentTarget; // 0x40
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536EF0E0
         public void DrawLater(){} // RVA: 0x7FFD536EF120
@@ -229,8 +269,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
     public class GpuManager : Object
     {
         public object GpuResources;
-        public object GlCalculatorHelper;
-        public object IsInitialized;
+        public UIntPtr GlCalculatorHelper; // 0x8
+        public bool IsInitialized; // 0x10
+        public Mediapipe.GpuResources <GpuResources>k__BackingField; // 0x18
+        public Mediapipe.GlCalculatorHelper <GlCalculatorHelper>k__BackingField; // 0x20
+        public bool <IsInitialized>k__BackingField; // 0x28
 
         // ── Methods ──
         public void get_GpuResources(){} // RVA: 0x7FFD53707F40
@@ -246,9 +289,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HandLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public object isMirrored;
-        public object rotationAngle;
-        public object Item;
+        public Mediapipe.Unity.PointListAnnotation isMirrored; // 0x30
+        public Mediapipe.Unity.ConnectionListAnnotation rotationAngle; // 0x38
+        public UnityEngine.Color Item; // 0x40
+        public UnityEngine.Color _rightLandmarkColor; // 0x50
+        public int _LandmarkCount;
+        public System.Collections.Generic.List`1<System.ValueTuple`2<int,int>> _connections; // 0x60
 
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x7FFD536EF360
@@ -267,6 +313,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HandLandmarkerResultAnnotationController : AnnotationController`1
     {
+        public bool _visualizeZ; // 0x38
+        public Mediapipe.Tasks.Vision.HandLandmarker.HandLandmarkerResult _currentTarget; // 0x40
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536F1A50
         public void DrawLater(){} // RVA: 0x7FFD536F1A90
@@ -277,11 +326,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HierarchicalAnnotation : MonoBehaviour
     {
-        public object root;
-        public object isActive;
-        public object isActiveInHierarchy;
-        public object isMirrored;
-        public object rotationAngle;
+        public Mediapipe.Unity.IHierachicalAnnotation root; // 0x20
+        public bool isActive; // 0x28
+        public 0x66575BA8 isActiveInHierarchy; // 0x2C
 
         // ── Methods ──
         public void get_root(){} // RVA: 0x7FFD536F2DC0
@@ -303,8 +350,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HolisticLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public object isMirrored;
-        public object rotationAngle;
+        public Mediapipe.Unity.FaceLandmarkListWithIrisAnnotation isMirrored; // 0x30
+        public Mediapipe.Unity.PoseLandmarkListAnnotation rotationAngle; // 0x38
+        public Mediapipe.Unity.HandLandmarkListAnnotation _leftHandLandmarkListAnnotation; // 0x40
+        public Mediapipe.Unity.HandLandmarkListAnnotation _rightHandLandmarkListAnnotation; // 0x48
+        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x50
 
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x7FFD536F36B0
@@ -317,6 +367,13 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HolisticLandmarkListAnnotationController : AnnotationController`1
     {
+        public bool _visualizeZ; // 0x38
+        public int _circleVertices; // 0x3C
+        public System.Collections.Generic.IReadOnlyList`1<0x665726B8> _currentFaceLandmarkList; // 0x40
+        public System.Collections.Generic.IReadOnlyList`1<0x665726B8> _currentPoseLandmarkList; // 0x48
+        public System.Collections.Generic.IReadOnlyList`1<0x665726B8> _currentLeftHandLandmarkList; // 0x50
+        public System.Collections.Generic.IReadOnlyList`1<0x665726B8> _currentRightHandLandmarkList; // 0x58
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536F3FE0 | overloaded x2
         public void DrawFaceLandmarkListLater(){} // RVA: 0x7FFD536F4210 | overloaded x2
@@ -349,8 +406,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class IrisLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public object isMirrored;
-        public object rotationAngle;
+        public Mediapipe.Unity.PointListAnnotation isMirrored; // 0x30
+        public Mediapipe.Unity.CircleAnnotation rotationAngle; // 0x38
 
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x7FFD536EF360
@@ -367,6 +424,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class LabelAnnotation : HierarchicalAnnotation
     {
+        public UnityEngine.UI.Text _labelText; // 0x30
+        public UnityEngine.Transform _backgroundTransform; // 0x38
+
         // ── Methods ──
         public void Draw(){} // RVA: 0x7FFD536F54A0
         public void GetFontSize(){} // RVA: 0x7FFD536F5B90
@@ -379,6 +439,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class LineAnnotation : HierarchicalAnnotation
     {
+        public UnityEngine.LineRenderer _lineRenderer; // 0x30
+        public UnityEngine.Color _color; // 0x38
+        public float _lineWidth; // 0x48
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD536F5ED0
         public void OnDisable(){} // RVA: 0x7FFD536F5F10
@@ -392,11 +456,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public object children;
-        public object Item;
-        public object count;
-        public object isMirrored;
-        public object rotationAngle;
+        public UnityEngine.GameObject children; // 0x30
+        public System.Collections.Generic.List`1<Mediapipe.Unity.RectangleAnnotation> Item; // 0x38
 
         // ── Methods ──
         public void get_children(){} // RVA: 0x7FFD4E078E90
@@ -414,7 +475,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class Logger : Object
     {
-        public object MinLogLevel;
+        public 0x66575730 MinLogLevel;
 
         // ── Methods ──
         public void set_MinLogLevel(){} // RVA: 0x7FFD53708C70
@@ -423,6 +484,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MaskAnnotation : HierarchicalAnnotation
     {
+        public UnityEngine.UI.RawImage _screen; // 0x30
+        public UnityEngine.Shader _maskShader; // 0x38
+        public UnityEngine.Texture2D _maskTexture; // 0x40
+        public UnityEngine.Color _color; // 0x48
+        public float _threshold; // 0x58
+        public UnityEngine.Material _prevMaterial; // 0x60
+        public UnityEngine.Material _material; // 0x68
+        public UnityEngine.GraphicsBuffer _maskBuffer; // 0x70
+        public float[] _maskArray; // 0x78
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD536F6570
         public void OnDisable(){} // RVA: 0x7FFD536F65B0
@@ -441,6 +512,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MaskAnnotationController : AnnotationController`1
     {
+        public int _maskWidth; // 0x38
+        public int _maskHeight; // 0x3C
+        public Mediapipe.ImageFrame _currentTarget; // 0x40
+
         // ── Methods ──
         public void InitScreen(){} // RVA: 0x7FFD536F73A0
         public void DrawNow(){} // RVA: 0x7FFD536F73D0
@@ -452,6 +527,17 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MaskOverlayAnnotation : HierarchicalAnnotation
     {
+        public UnityEngine.Shader _maskShader; // 0x30
+        public UnityEngine.Texture2D _maskTexture; // 0x38
+        public UnityEngine.Color _color; // 0x40
+        public float _threshold; // 0x50
+        public UnityEngine.GameObject _screenObject; // 0x58
+        public UnityEngine.UI.RawImage _screen; // 0x60
+        public UnityEngine.Material _prevMaterial; // 0x68
+        public UnityEngine.Material _material; // 0x70
+        public UnityEngine.GraphicsBuffer _maskBuffer; // 0x78
+        public float[] _maskArray; // 0x80
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD536F7630
         public void OnDisable(){} // RVA: 0x7FFD536F7780
@@ -472,6 +558,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiFaceLandmarkListAnnotation : ListAnnotation`1
     {
+        public UnityEngine.Color _faceLandmarkColor; // 0x40
+        public UnityEngine.Color _irisLandmarkColor; // 0x50
+        public float _faceLandmarkRadius; // 0x60
+        public float _irisLandmarkRadius; // 0x64
+        public UnityEngine.Color _faceConnectionColor; // 0x68
+        public UnityEngine.Color _irisCircleColor; // 0x78
+        public float _faceConnectionWidth; // 0x88
+        public float _irisCircleWidth; // 0x8C
+
         // ── Methods ──
         public void SetFaceLandmarkRadius(){} // RVA: 0x7FFD536F8BE0
         public void SetIrisLandmarkRadius(){} // RVA: 0x7FFD536F8BF0
@@ -496,6 +591,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiFaceLandmarkListAnnotationController : AnnotationController`1
     {
+        public bool _visualizeZ; // 0x38
+        public System.Collections.Generic.IReadOnlyList`1<0x66572768> _currentTarget; // 0x40
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536EE030
         public void DrawLater(){} // RVA: 0x7FFD536FA770
@@ -505,6 +603,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiHandLandmarkListAnnotation : ListAnnotation`1
     {
+        public UnityEngine.Color _leftLandmarkColor; // 0x40
+        public UnityEngine.Color _rightLandmarkColor; // 0x50
+        public float _landmarkRadius; // 0x60
+        public UnityEngine.Color _connectionColor; // 0x64
+        public float _connectionWidth; // 0x74
+
         // ── Methods ──
         public void SetLeftLandmarkColor(){} // RVA: 0x7FFD536FA960
         public void SetRightLandmarkColor(){} // RVA: 0x7FFD536FA990
@@ -524,6 +628,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiHandLandmarkListAnnotationController : AnnotationController`1
     {
+        public bool _visualizeZ; // 0x38
+        public System.Collections.Generic.IReadOnlyList`1<0x66572768> _currentHandLandmarkLists; // 0x40
+        public System.Collections.Generic.IReadOnlyList`1<0x66571E78> _currentHandedness; // 0x48
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536FC130
         public void DrawLater(){} // RVA: 0x7FFD536FC250 | overloaded x2
@@ -533,6 +641,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiPoseLandmarkListAnnotation : ListAnnotation`1
     {
+        public UnityEngine.Color _leftLandmarkColor; // 0x40
+        public UnityEngine.Color _rightLandmarkColor; // 0x50
+        public float _landmarkRadius; // 0x60
+        public UnityEngine.Color _connectionColor; // 0x64
+        public float _connectionWidth; // 0x74
+
         // ── Methods ──
         public void SetLeftLandmarkColor(){} // RVA: 0x7FFD536FC4B0
         public void SetRightLandmarkColor(){} // RVA: 0x7FFD536FC4E0
@@ -551,6 +665,18 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiPoseLandmarkListWithMaskAnnotation : ListAnnotation`1
     {
+        public UnityEngine.Color _leftLandmarkColor; // 0x40
+        public UnityEngine.Color _rightLandmarkColor; // 0x50
+        public float _landmarkRadius; // 0x60
+        public UnityEngine.Color _connectionColor; // 0x64
+        public float _connectionWidth; // 0x74
+        public UnityEngine.UI.RawImage _screen; // 0x78
+        public UnityEngine.Texture2D _maskTexture; // 0x80
+        public UnityEngine.Color _color; // 0x88
+        public float _maskThreshold; // 0x98
+        public int _maskWidth; // 0x9C
+        public int _maskHeight; // 0xA0
+
         // ── Methods ──
         public void SetLeftLandmarkColor(){} // RVA: 0x7FFD536FD6D0
         public void SetRightLandmarkColor(){} // RVA: 0x7FFD536FD700
@@ -575,6 +701,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class NormalizedLandmarkListAnnotationController : AnnotationController`1
     {
+        public bool _visualizeZ; // 0x38
+        public System.Collections.Generic.IReadOnlyList`1<0x665726B8> _currentTarget; // 0x40
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536FEF50 | overloaded x3
         public void DrawLater(){} // RVA: 0x7FFD536FF050 | overloaded x3
@@ -585,6 +714,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class NormalizedRectAnnotationController : AnnotationController`1
     {
+        public 0x66573000 _currentTarget; // 0x38
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536FF550
         public void DrawLater(){} // RVA: 0x7FFD536FF5C0
@@ -594,6 +725,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class NormalizedRectListAnnotationController : AnnotationController`1
     {
+        public System.Collections.Generic.IReadOnlyList`1<0x66573000> _currentTarget; // 0x38
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536FF550
         public void DrawLater(){} // RVA: 0x7FFD536FF6C0
@@ -604,18 +737,18 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
     public class OutputStream`1 : Object
     {
         public int outputPacket;
-        public etBestGrabbingType.__PI<int,ClearReverseOutputOrder<T1717692544>> referencePacket;
-        public etBestGrabbingType.ects _calculatorGraph;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<T>> referencePacket;
+        public Mediapipe.CalculatorGraph _calculatorGraph;
         public int _id;
         public string streamName;
         public bool observeTimestampBounds;
-        public etBestGrabbingType.on<T1717692544> _poller;
-        public etBestGrabbingType.ionEnabled<T1717692544> _outputPacket;
-        public sageKind.ce _waitTaskLock;
-        public utes.?<xBoundariesIndices<T1717692544>> _waitTask;
-        public tTable<ensorMapping<T1717692544>> OnReceived;
+        public Mediapipe.OutputStreamPoller`1<T> _poller;
+        public Mediapipe.Packet`1<T> _outputPacket;
+        public 0x66559068 _waitTaskLock;
+        public System.Threading.Tasks.Task`1<NextResult<T>> _waitTask;
+        public System.EventHandler`1<OutputEventArgs<T>> OnReceived;
         public long _lastTimestampMicrosec;
-        public etBestGrabbingType.ionEnabled<T1717692544> _referencePacket;
+        public Mediapipe.Packet`1<T> _referencePacket;
         public int _disposeSignaled;
         public bool _isDisposed;
 
@@ -645,6 +778,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PointAnnotation : HierarchicalAnnotation
     {
+        public UnityEngine.Color _color; // 0x30
+        public float _radius; // 0x40
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD536FF950
         public void OnDisable(){} // RVA: 0x7FFD536FF990
@@ -659,14 +795,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PointListAnnotation : ListAnnotation`1
     {
-        public object m_ConfineMode; // 0x30
-        public riteCharacterUnicode m_BoundingVolume; // 0x38
-        public eRetain m_BoundingShape2D; // 0x40
-        public eRetain m_BoundingShape2DCache; // 0x48
-        public bool m_ConfineScreenEdges; // 0x50
-        public float m_Damping; // 0x54
-        public URA.woDigitYearMax<URA.woDigitYearMax<tionX>> m_pathCache; // 0x58
-        public int m_pathTotalPointCount; // 0x60
+        public UnityEngine.Color _color; // 0x40
+        public float _radius; // 0x50
 
         // ── Methods ──
         public void SetColor(){} // RVA: 0x7FFD53700860
@@ -680,9 +810,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public object isMirrored;
-        public object rotationAngle;
-        public object Item;
+        public Mediapipe.Unity.PointListAnnotation isMirrored; // 0x30
+        public Mediapipe.Unity.ConnectionListAnnotation rotationAngle; // 0x38
+        public UnityEngine.Color Item; // 0x40
+        public UnityEngine.Color _rightLandmarkColor; // 0x50
+        public int _LandmarkCount;
+        public int[] _LeftLandmarks;
+        public int[] _RightLandmarks; // 0x8
+        public System.Collections.Generic.List`1<System.ValueTuple`2<int,int>> _Connections; // 0x10
 
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x7FFD536EF360
@@ -704,6 +839,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkListAnnotationController : AnnotationController`1
     {
+        public bool _visualizeZ; // 0x38
+        public System.Collections.Generic.IReadOnlyList`1<0x665726B8> _currentTarget; // 0x40
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x7FFD536F10A0 | overloaded x2
         public void DrawLater(){} // RVA: 0x7FFD53704B40 | overloaded x2
@@ -713,8 +851,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkListWithMaskAnnotation : HierarchicalAnnotation
     {
-        public object isMirrored;
-        public object rotationAngle;
+        public Mediapipe.Unity.PoseLandmarkListAnnotation isMirrored; // 0x30
+        public Mediapipe.Unity.MaskOverlayAnnotation rotationAngle; // 0x38
 
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x7FFD536EF360
@@ -734,6 +872,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkerResultAnnotationController : AnnotationController`1
     {
+        public bool _visualizeZ; // 0x38
+        public object _currentTargetLock; // 0x40
+        public Mediapipe.Tasks.Vision.PoseLandmarker.PoseLandmarkerResult _currentTarget; // 0x48
+
         // ── Methods ──
         public void InitScreen(){} // RVA: 0x7FFD53701DE0
         public void DrawNow(){} // RVA: 0x7FFD53701E10
@@ -746,7 +888,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseWorldLandmarkListAnnotationController : AnnotationController`1
     {
-        public etBestGrabbingType.DistanceNoItem _sharedPtrHandle; // 0x20
+        public float _hipHeightMeter; // 0x38
+        public UnityEngine.Vector3 _scale; // 0x3C
+        public bool _visualizeZ; // 0x48
+        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.Landmark> _currentTarget; // 0x50
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD53704F60
@@ -758,6 +903,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class RectangleAnnotation : HierarchicalAnnotation
     {
+        public UnityEngine.LineRenderer _lineRenderer; // 0x30
+        public UnityEngine.Color _color; // 0x38
+        public float _lineWidth; // 0x48
+        public UnityEngine.Vector3[] _EmptyPositions;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD537053A0
         public void OnDisable(){} // RVA: 0x7FFD537053E0
@@ -772,6 +922,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class RectangleListAnnotation : ListAnnotation`1
     {
+        public UnityEngine.Color _color; // 0x40
+        public float _lineWidth; // 0x50
+
         // ── Methods ──
         public void SetColor(){} // RVA: 0x7FFD53706250
         public void SetLineWidth(){} // RVA: 0x7FFD53706280
@@ -792,6 +945,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class StreamingAssetsResourceManager : ResourceManager
     {
+        public string _TAG;
+        public string _RelativePath; // 0x8
+        public string _AssetPathRoot; // 0x10
+        public string _CachePathRoot; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53709A60 | overloaded x2
         public void PrepareAssetAsync(){} // RVA: 0x7FFD53709AB0

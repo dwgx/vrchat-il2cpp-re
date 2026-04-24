@@ -5,8 +5,11 @@
 
 public class RBTreeEnumerator : ValueType
 {
-    public object Current;
-    public object System.Collections.IEnumerator.Current;
+    public System.Data.RBTree`1<T> Current;
+    public int System.Collections.IEnumerator.Current;
+    public int _index;
+    public int _mainTreeNodeId;
+    public T _current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E097970 | overloaded x2
@@ -19,6 +22,10 @@ public class RBTreeEnumerator : ValueType
 
 public class Range : ValueType
 {
+    public UIntPtr Pointer; // 0x10
+    public int Items; // 0x18
+    public AllocatorHandle Allocator; // 0x1C
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x7FFD5492F360
 }
@@ -32,7 +39,16 @@ public class RawData : Object
 
 public class ReadAllAsyncEnumerable : Object
 {
-    public object Current;
+    public System.Action`1<object> Current; // 0x10
+    public System.Action`1<object> CancellationCallback2Delegate; // 0x18
+    public SingleConsumerUnboundedChannelReader<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> parent; // 0x20
+    public System.Threading.CancellationToken cancellationToken1; // 0x28
+    public System.Threading.CancellationToken cancellationToken2; // 0x30
+    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration1; // 0x38
+    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration2; // 0x50
+    public ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ current; // 0x68
+    public bool cacheValue; // 0x88
+    public bool running; // 0x89
 
     // ── Methods ──
     public void .ctor(){}
@@ -46,6 +62,8 @@ public class ReadAllAsyncEnumerable : Object
 
 public class ReadBoneJob : ValueType
 {
+    public Unity.Collections.NativeArray`1<0x664E1038> transformData; // 0x10
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD5223DF70
 }
@@ -61,15 +79,18 @@ public class ReadDelegate : MulticastDelegate
 
 public class ReadFileJson : ValueType
 {
+    public string name; // 0x10
+    public 0x664A5A70[] maps; // 0x18
+    public 0x664A6D58[] controlSchemes; // 0x20
+
     // ── Methods ──
     public void ToAsset(){} // RVA: 0x7FFD54941150
 }
 
 public class ReadOnly : ValueType
 {
-    public object Length;
-    public object Item;
-    public object IsCreated;
+    public void* Length; // 0x10
+    public int Item; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -83,13 +104,7 @@ public class ReadOnly : ValueType
 
 public class ReadOnlyArrayList : ArrayList
 {
-    public object Count;
-    public object IsReadOnly;
-    public object IsFixedSize;
-    public object IsSynchronized;
-    public object Item;
-    public object SyncRoot;
-    public object Capacity;
+    public System.Collections.ArrayList Count; // 0x28
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539BF350
@@ -121,10 +136,7 @@ public class ReadOnlyArrayList : ArrayList
 
 public class ReadOnlyKeyCollection : Object
 {
-    public object Count;
-    public object IsReadOnly;
-    public object SyncRoot;
-    public object IsSynchronized;
+    public System.Collections.Generic.IReadOnlyCollection`1<string> Count; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD572311F0
@@ -143,17 +155,30 @@ public class ReadOnlyKeyCollection : Object
 
 public class ReadTransformJob : ValueType
 {
+    public Unity.Collections.NativeArray`1<0x664E1038> transformData; // 0x10
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD5223DF70
 }
 
 public class ReadWriteParameters : ValueType
 {
+    public byte[] Buffer; // 0x10
+    public int Offset; // 0x18
+    public int Count; // 0x1C
 }
 
 public class ReadWriteTask : Task`1
 {
-    public object System.Threading.Tasks.ITaskCompletionAction.InvokeMayRunArbitraryCode;
+    public bool System.Threading.Tasks.ITaskCompletionAction.InvokeMayRunArbitraryCode; // 0x58
+    public bool _apm; // 0x59
+    public System.IO.Stream _stream; // 0x60
+    public byte[] _buffer; // 0x68
+    public int _offset; // 0x70
+    public int _count; // 0x74
+    public 0x6641E4D0 _callback; // 0x78
+    public System.Threading.ExecutionContext _context; // 0x80
+    public System.Threading.ContextCallback s_invokeAsyncCallback;
 
     // ── Methods ──
     public void ClearBeginState(){} // RVA: 0x7FFD53A09980
@@ -165,11 +190,7 @@ public class ReadWriteTask : Task`1
 
 public class Reader : ValueType
 {
-    public object IsNull;
-    public object IsFlowSuppressed;
-    public object SynchronizationContext;
-    public object SynchronizationContextNoFlow;
-    public object LogicalCallContext;
+    public System.Runtime.Remoting.Messaging.LogicalCallContext IsNull; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -186,6 +207,8 @@ public class Reader : ValueType
 
 public class ReaderCache : Object
 {
+    public System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,Handlers> cache;
+
     // ── Methods ──
     public void TryReadTo(){} // RVA: 0x7FFD57511740 | overloaded x2
     public void ReadBoxed(){} // RVA: 0x7FFD4E088090 | overloaded x2
@@ -210,18 +233,38 @@ public class ReapplyDrivenProperties : MulticastDelegate
 
 public class RebindingOperation : Object
 {
-    public object action;
-    public object bindingMask;
-    public object candidates;
-    public object scores;
-    public object magnitudes;
-    public object selectedControl;
-    public object started;
-    public object completed;
-    public object canceled;
-    public object startTime;
-    public object timeout;
-    public object expectedControlType;
+    public float action;
+    public UnityEngine.InputSystem.InputAction bindingMask; // 0x10
+    public System.Nullable`1<UnityEngine.InputSystem.InputBinding> candidates; // 0x18
+    public System.Type scores; // 0x78
+    public UnityEngine.InputSystem.Utilities.InternedString magnitudes; // 0x80
+    public int selectedControl; // 0x90
+    public string[] started; // 0x98
+    public int completed; // 0xA0
+    public string[] canceled; // 0xA8
+    public int startTime; // 0xB0
+    public string timeout; // 0xB8
+    public string expectedControlType; // 0xC0
+    public float m_MagnitudeThreshold; // 0xC8
+    public float[] m_Scores; // 0xD0
+    public float[] m_Magnitudes; // 0xD8
+    public double m_LastMatchTime; // 0xE0
+    public double m_StartTime; // 0xE8
+    public float m_Timeout; // 0xF0
+    public float m_WaitSecondsAfterMatch; // 0xF4
+    public UnityEngine.InputSystem.InputControlList`1<UnityEngine.InputSystem.InputControl> m_Candidates; // 0xF8
+    public System.Action`1<RebindingOperation> m_OnComplete; // 0x118
+    public System.Action`1<RebindingOperation> m_OnCancel; // 0x120
+    public System.Action`1<RebindingOperation> m_OnPotentialMatch; // 0x128
+    public System.Func`2<UnityEngine.InputSystem.InputControl,string> m_OnGeneratePath; // 0x130
+    public System.Func`3<UnityEngine.InputSystem.InputControl,UnityEngine.InputSystem.LowLevel.InputEventPtr,float> m_OnComputeScore; // 0x138
+    public System.Action`2<RebindingOperation,string> m_OnApplyBinding; // 0x140
+    public System.Action`2<UnityEngine.InputSystem.LowLevel.InputEventPtr,UnityEngine.InputSystem.InputDevice> m_OnEventDelegate; // 0x148
+    public System.Action m_OnAfterUpdateDelegate; // 0x150
+    public Cache m_LayoutCache; // 0x158
+    public System.Text.StringBuilder m_PathBuilder; // 0x160
+    public 0x664A5D88 m_Flags; // 0x168
+    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.InputControl,float> m_StartingActuations; // 0x170
 
     // ── Methods ──
     public void get_action(){} // RVA: 0x7FFD4E35C380
@@ -281,12 +324,26 @@ public class RebindingOperation : Object
 
 public class ReceiveTrackingValues : Object
 {
+    public bool ReceivedReliableCommandSincePreviousAck2; // 0x10
+    public System.Collections.Generic.HashSet`1<int> receivedReliableSequenceNumbers; // 0x18
+    public int reliableSequencedNumbersCompletelyReceived; // 0x20
+    public int reliableSequencedNumbersHighestReceived; // 0x24
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53DC2620
 }
 
 public class Recentering : ValueType
 {
+    public bool m_enabled; // 0x10
+    public float m_WaitTime; // 0x14
+    public float m_RecenteringTime; // 0x18
+    public float m_LastUpdateTime; // 0x1C
+    public float mLastAxisInputTime; // 0x20
+    public float mRecenteringVelocity; // 0x24
+    public int m_LegacyHeadingDefinition; // 0x28
+    public int m_LegacyVelocityFilterStrength; // 0x2C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC57440
     public void Validate(){} // RVA: 0x7FFD4FC57460
@@ -299,15 +356,9 @@ public class Recentering : ValueType
 
 public class Record : ValueType
 {
-    public object header;
-    public object recordIndex;
-    public object valid;
-    public object owner;
-    public object index;
-    public object time;
-    public object control;
-    public object next;
-    public object previous;
+    public UnityEngine.InputSystem.LowLevel.InputStateHistory header; // 0x10
+    public int recordIndex; // 0x18
+    public uint valid; // 0x1C
 
     // ── Methods ──
     public void get_header(){} // RVA: 0x7FFD4E2ADC40
@@ -334,11 +385,17 @@ public class Record : ValueType
 
 public class RecordingItem : ValueType
 {
+    public float Time; // 0x10
+    public bool IsCut; // 0x14
+    public Item Item; // 0x18
 }
 
 public class RefCounted : Object
 {
-    public object refCount;
+    public uint refCount;
+    public int m_RefCount; // 0x10
+    public uint m_Id; // 0x14
+    public UnityEngine.UIElements.VisualData value; // 0x18
 
     // ── Methods ──
     public void get_refCount(){} // RVA: 0x7FFD4E079960
@@ -385,6 +442,9 @@ public class RemoveAcesCallback`1 : MulticastDelegate
 
 public class RenderRequest : ValueType
 {
+    public 0x664D9AA8 m_CameraRenderMode; // 0x10
+    public UnityEngine.RenderTexture m_ResultRT; // 0x18
+    public 0x664D9B00 m_OutputSpace; // 0x20
 }
 
 public class RendererNotifyInvisible : ValueType
@@ -393,6 +453,10 @@ public class RendererNotifyInvisible : ValueType
 
 public class RentArray`1 : ValueType
 {
+    public Cysharp.Threading.Tasks.UniTask[] Array; // 0x10
+    public int Length; // 0x18
+    public Cysharp.Threading.Tasks.Internal.ArrayPool`1<Cysharp.Threading.Tasks.UniTask> pool; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD51CE66B0
     public void Dispose(){} // RVA: 0x7FFD51CE68D0
@@ -401,6 +465,11 @@ public class RentArray`1 : ValueType
 
 public class Replica : Object
 {
+    public System.Threading.Tasks.TaskReplicator _replicator; // 0x10
+    public int _timeout; // 0x18
+    public int _remainingConcurrency; // 0x1C
+    public System.Threading.Tasks.Task _pendingTask; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53AFC100
     public void Start(){} // RVA: 0x7FFD53AFC3F0
@@ -412,6 +481,9 @@ public class Replica : Object
 
 public class Replica`1 : Replica
 {
+    public ReplicatableUserAction`1<System.Collections.IEnumerator> _action; // 0x28
+    public System.Collections.IEnumerator _state; // 0x30
+
     // ── Methods ──
     public void .ctor(){}
     public void CreateNewReplica(){} // RVA: 0x7FFD4E090980
@@ -427,6 +499,8 @@ public class ReplicatableUserAction`1 : MulticastDelegate
 
 public class RequestCallback : Object
 {
+    public s messageCallback; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
     public void HandleMessage(){} // RVA: 0x7FFD53C3B160
@@ -434,6 +508,8 @@ public class RequestCallback : Object
 
 public class RequestCallback`1 : RequestCallback
 {
+    public Callback<T> callback;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void HandleMessage(){} // RVA: 0x7FFD4E090A40
@@ -448,8 +524,8 @@ public class RequestLightsDelegate : MulticastDelegate
 
 public class ReservedName : ApiModel
 {
-    public object displayName;
-    public object expires;
+    public string displayName; // 0x68
+    public System.DateTime expires; // 0x70
 
     // ── Methods ──
     public void get_displayName(){} // RVA: 0x7FFD4E3BCD50
@@ -469,6 +545,10 @@ public class ResetInputAxis : ValueType
 
 public class ResolutionStruct : ValueType
 {
+    public int width; // 0x10
+    public int height; // 0x14
+    public double frameRate; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4F8431A0 | overloaded x2
     public void Initialize(){} // RVA: 0x7FFD4F843170
@@ -491,7 +571,8 @@ public class ResolveEventHolder : Object
 
 public class ResourceRequestAwaiter : ValueType
 {
-    public object IsCompleted;
+    public UnityEngine.ResourceRequest IsCompleted; // 0x10
+    public System.Action`1<UnityEngine.AsyncOperation> continuationAction; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFD0830
@@ -503,10 +584,9 @@ public class ResourceRequestAwaiter : ValueType
 
 public class Result : Object
 {
-    public object Status;
-    public object Success;
-    public object Error;
-    public object Argument;
+    public 0x6649DCF8<T> Status;
+    public 0x66435CE0 Success;
+    public T Error;
 
     // ── Methods ──
     public void get_Status(){} // RVA: 0x7FFD4E2ADC40
@@ -518,10 +598,14 @@ public class Result : Object
 
 public class ResultCallback : ValueType
 {
+    public System.Action continuation; // 0x10
+    public bool server; // 0x18
 }
 
 public class ReturnObservable`1 : Object
 {
+    public T value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     public void Subscribe(){} // RVA: 0x7FFD4E078F40
@@ -535,15 +619,7 @@ public class ReverseComparer : ValueType
 
 public class RotationBySpeedModule : ValueType
 {
-    public object enabled;
-    public object x;
-    public object xMultiplier;
-    public object y;
-    public object yMultiplier;
-    public object z;
-    public object zMultiplier;
-    public object separateAxes;
-    public object range;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -587,14 +663,7 @@ public class RotationBySpeedModule : ValueType
 
 public class RotationOverLifetimeModule : ValueType
 {
-    public object enabled;
-    public object x;
-    public object xMultiplier;
-    public object y;
-    public object yMultiplier;
-    public object z;
-    public object zMultiplier;
-    public object separateAxes;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -634,6 +703,12 @@ public class RotationOverLifetimeModule : ValueType
 
 public class Rotor : ValueType
 {
+    public UnityEngine.Transform transform; // 0x10
+    public float pitchModifier; // 0x18
+    public float rollModifier; // 0x1C
+    public float maxSpeed; // 0x20
+    public UnityEngine.Quaternion startingRotation; // 0x24
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x7FFD4EA5AD50
     public void InternalEquals(){} // RVA: 0x7FFD4EA5B180
@@ -645,8 +720,8 @@ public class Rotor : ValueType
 
 public class RuntimePanelAccess : Object
 {
-    public object isInitialized;
-    public object panel;
+    public UnityEngine.UIElements.PanelSettings isInitialized; // 0x10
+    public 0x664803F8 panel; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30

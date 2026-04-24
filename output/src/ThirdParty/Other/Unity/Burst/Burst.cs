@@ -7,10 +7,10 @@ namespace ThirdParty.Other.Unity.Burst
 {
     public class BurstCompileAttribute : Attribute
     {
-        public object FloatMode;
-        public object FloatPrecision;
-        public object CompileSynchronously;
-        public object Options;
+        public ÌÎÎÍÌÍÍÍ FloatMode; // 0x10
+        public 0x666234D0 FloatPrecision; // 0x14
+        public System.Nullable`1<bool> CompileSynchronously; // 0x18
+        public string[] Options; // 0x20
 
         // ── Methods ──
         public void set_FloatMode(){} // RVA: 0x7FFD4E3440C0
@@ -22,7 +22,10 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompiler : Object
     {
-        public object IsEnabled;
+        public bool IsEnabled;
+        public Unity.Burst.BurstCompilerOptions Options; // 0x8
+        public System.Action OnCompileILPPMethod2; // 0x10
+        public System.Reflection.MethodInfo DummyMethodInfo; // 0x18
 
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0x7FFD54924D60
@@ -37,10 +40,13 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompilerOptions : Object
     {
-        public object IsGlobal;
-        public object EnableBurstCompilation;
-        public object EnableBurstSafetyChecks;
-        public object OptionsChanged;
+        public bool IsGlobal;
+        public bool EnableBurstCompilation; // 0x1
+        public bool EnableBurstSafetyChecks; // 0x2
+        public bool OptionsChanged; // 0x10
+        public bool _enableBurstSafetyChecks; // 0x11
+        public bool <IsGlobal>k__BackingField; // 0x12
+        public System.Action <OptionsChanged>k__BackingField; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54926F40
@@ -68,6 +74,12 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstString : Object
     {
+        public char[] SplitByColon;
+        public byte[] logTable; // 0x8
+        public uint[] g_PowerOf10_U32; // 0x10
+        public byte[] InfinityString; // 0x18
+        public byte[] NanString; // 0x20
+
         // ── Methods ──
         public void CopyFixedString(){} // RVA: 0x7FFD54927C70
         public void Format(){} // RVA: 0x7FFD549286E0 | overloaded x13
@@ -106,7 +118,7 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class FunctionPointer`1 : ValueType
     {
-        public object Invoke;
+        public UIntPtr Invoke;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090BF0
@@ -121,7 +133,7 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class SharedStatic`1 : ValueType
     {
-        public object Data;
+        public void* Data;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

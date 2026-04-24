@@ -8,8 +8,12 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÌÎÍÌÌÏÌÎÎÏÍÏÌÏÍÏÏÎÌÎÌÏÌ</summary>
     public class GameObjectEnumerator_36F4 : Object
     {
-        public object System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.Current; // 0x10
+        public UnityEngine.GameObject System.Collections.IEnumerator.Current; // 0x18
+        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ; // 0x20
+        public int ÌÏÍÏÌÌÏÍÎÏÏÌÎÍÌÎÌÌÍÎÏÍÏ; // 0x24
+        public UnityEngine.GameObject[] ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ; // 0x28
+        public int ÍÎÌÍÌÍÍÎÎÏÍÎÌÌÎÌÌÎÍÎÍÎÎ; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E69C740
@@ -32,8 +36,12 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÎÌÌÎÏÎÌÌÎÌÌÌÏÎÎÏÏÏÌÌÎÏÌ</summary>
     public class GameObjectEnumerator_CED0 : Object
     {
-        public object System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.Current; // 0x10
+        public UnityEngine.GameObject System.Collections.IEnumerator.Current; // 0x18
+        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ; // 0x20
+        public System.Collections.Generic.Queue`1<UnityEngine.Transform> ÎÎÏÎÏÌÎÍÏÌÌÍÏÏÌÏÎÍÌÌÌÍÏ; // 0x28
+        public System.Collections.Generic.IEnumerator`1<UnityEngine.GameObject> ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ; // 0x30
+        public UnityEngine.Transform ÎÍÍÏÎÎÎÎÎÍÌÌÏÎÌÌÏÍÏÌÍÌÏ; // 0x38
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -56,7 +64,9 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÌÍÏÍÏÌÏÍÏÎÌÎÎÏÌÏÌÌÎÏÏÏ</summary>
     public class RectTransformDimensionsCh_A3CB : ContentSizeFitter
     {
-        public object _a3CB;
+        public UnityEngine.RectTransform _a3CB; // 0x38
+        public UnityEngine.RectTransform _root; // 0x40
+        public UnityEngine.RectTransform _this; // 0x48
 
         // ── Methods ──
         public void get_horizontalFit(){} // RVA: 0x7FFD56C01570
@@ -73,7 +83,17 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÍÎÌÎÏÎÌÍÍÏÍÏÏÌÏÍÏÎÎÏÏÎ</summary>
     public class RectTransformDimensionsCh_F151 : UIBehaviour
     {
-        public object _f151;
+        public int _f151; // 0x20
+        public float ÍÍÏÌÍÍÎÍÏÍÎÍÍÏÎÌÍÏÌÍÎÏÌ; // 0x24
+        public int[] _milestoneValues; // 0x28
+        public UnityEngine.UI.Image _barGraphic; // 0x30
+        public UnityEngine.GameObject _milestoneObject; // 0x38
+        public UnityEngine.RectTransform _container; // 0x40
+        public UnityEngine.RectTransform _MilestoneContainer; // 0x48
+        public UnityEngine.RectTransform _handle; // 0x50
+        public UnityEngine.GameObject[] ÎÎÌÏÍÎÌÎÎÍÌÌÏÎÎÎÌÎÏÍÏÍÎ; // 0x58
+        public VRC.UI.Core.Styles.StyleElement[] ÎÍÍÍÍÎÌÏÏÌÎÍÏÎÎÍÎÌÎÌÌÎÌ; // 0x60
+        public int ÍÎÍÍÌÌÍÍÏÌÎÎÎÌÌÏÌÎÌÍÏÏÍ; // 0x68
 
         // ── Methods ──
         public void get_MemberSerialization(){} // RVA: 0x7FFD4FBDAB50
@@ -96,7 +116,10 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÎÌÍÏÏÌÎÌÌÌÎÍÎÍÌÏÎÍÌÎÌÌÍ</summary>
     public class RectTransformDimensionsCh_FF47 : UIBehaviour
     {
-        public object _fF47;
+        public 0x665A9DF0 _fF47; // 0x20
+        public UnityEngine.UI.Graphic ÏÌÌÌÎÍÌÎÎÏÏÍÍÌÌÌÎÌÏÎÎÌÎ; // 0x28
+        public UnityEngine.UI.AspectRatioFitter ÍÌÌÍÌÍÍÌÌÌÏÍÏÎÏÏÏÌÎÏÍÍÏ; // 0x30
+        public bool ÍÍÏÏÍÍÏÍÍÍÌÌÌÏÍÎÌÎÎÏÎÌÏ; // 0x38
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD56D56CE0
@@ -133,6 +156,10 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÏÎÎÏÌÏÏÏÍÎÏÌÍÎÎÍÏÎÎÏÍÏÍ</summary>
     public class TransformChildrenChangedSetLayoutHorizonHandler_B8BE : MonoBehaviour
     {
+        public System.Action ÍÍÌÏÍÍÏÏÍÍÌÌÎÎÌÏÌÌÍÌÌÏÌ; // 0x20
+        public System.Action ÍÌÍÍÏÌÎÍÎÌÎÍÌÏÎÌÍÏÎÍÏÏÏ; // 0x28
+        public System.Action ÎÍÏÍÌÎÍÌÍÌÌÌÎÎÌÎÎÌÏÍÏÍÏ; // 0x30
+
         // ── Methods ──
         public void SetLayoutHorizontal(){} // RVA: 0x7FFD4E6232C0
         public void RaiseCancellation(){} // RVA: 0x7FFD54EA5920
@@ -151,6 +178,12 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÍÏÏÌÌÏÍÎÍÏÌÌÎÌÌÏÏÏÌÎÌÎÎ</summary>
     public class TransformParentChangedHandler_E575 : MonoBehaviour
     {
+        public bool _resizeLayoutElement; // 0x20
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ ÌÏÏÎÏÍÌÎÌÌÍÍÍÏÏÏÌÎÏÎÏÏÏ; // 0x28
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x30
+        public ÏÏÏÏÎÎÌÍÎÌÌÍÏÎÏÍÍÏÎÍÌÎÎ ÏÌÍÎÎÎÌÏÎÍÍÍÏÎÌÏÍÌÏÎÏÍÏ; // 0x38
+        public System.Action ÌÏÌÍÍÎÍÎÍÍÍÎÌÎÍÎÌÏÌÏÍÎÏ; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56BD3680
         public void RaiseCancellation(){} // RVA: 0x7FFD56BD3880

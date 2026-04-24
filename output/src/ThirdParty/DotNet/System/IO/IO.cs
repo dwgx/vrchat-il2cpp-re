@@ -22,6 +22,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class DisableMediaInsertionPrompt : ValueType
     {
+        public bool _disableSuccess; // 0x10
+        public uint _oldMode; // 0x14
+        public bool useUWPFallback;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD539D72B0
         public void Dispose(){} // RVA: 0x7FFD539D7330
@@ -29,16 +33,16 @@ namespace ThirdParty.DotNet.System.IO
 
     public class EnumerationOptions : Object
     {
-        public object Compatible;
-        public object CompatibleRecursive;
-        public object Default;
-        public object RecurseSubdirectories;
-        public object IgnoreInaccessible;
-        public object BufferSize;
-        public object AttributesToSkip;
-        public object MatchType;
-        public object MatchCasing;
-        public object ReturnSpecialDirectories;
+        public System.IO.EnumerationOptions Compatible;
+        public System.IO.EnumerationOptions CompatibleRecursive; // 0x8
+        public System.IO.EnumerationOptions Default; // 0x10
+        public bool RecurseSubdirectories; // 0x10
+        public bool IgnoreInaccessible; // 0x11
+        public int BufferSize; // 0x14
+        public 0x66442B78 AttributesToSkip; // 0x18
+        public 0x664427B0 MatchType; // 0x1C
+        public 0x66442758 MatchCasing; // 0x20
+        public bool ReturnSpecialDirectories; // 0x24
 
         // ── Methods ──
         public void get_Compatible(){} // RVA: 0x7FFD539F8C30
@@ -83,13 +87,24 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileStream : Stream
     {
-        public object CanRead;
-        public object CanWrite;
-        public object CanSeek;
-        public object Name;
-        public object Length;
-        public object Position;
-        public object SafeFileHandle;
+        public int CanRead;
+        public byte[] CanWrite;
+        public object CanSeek; // 0x8
+        public byte[] Name; // 0x28
+        public string Length; // 0x30
+        public Microsoft.Win32.SafeHandles.SafeFileHandle Position; // 0x38
+        public bool SafeFileHandle; // 0x40
+        public long append_startpos; // 0x48
+        public 0x66441890 access; // 0x50
+        public bool owner; // 0x54
+        public bool async; // 0x55
+        public bool canseek; // 0x56
+        public bool anonymous; // 0x57
+        public bool buf_dirty; // 0x58
+        public int buf_size; // 0x5C
+        public int buf_length; // 0x60
+        public int buf_offset; // 0x64
+        public long buf_start; // 0x68
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A127A0 | overloaded x12
@@ -134,21 +149,11 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileSystemInfo : MarshalByRefObject
     {
-        public object Attributes;
-        public object ExistsCore;
-        public object CreationTimeCore;
-        public object LastAccessTimeCore;
-        public object LastWriteTimeCore;
-        public object LengthCore;
-        public object NormalizedPath;
-        public object FullName;
-        public object Name;
-        public object Exists;
-        public object CreationTimeUtc;
-        public object LastAccessTime;
-        public object LastAccessTimeUtc;
-        public object LastWriteTime;
-        public object LastWriteTimeUtc;
+        public WIN32_FILE_ATTRIBUTE_DATA Attributes; // 0x18
+        public int ExistsCore; // 0x3C
+        public string CreationTimeCore; // 0x40
+        public string LastAccessTimeCore; // 0x48
+        public string LastWriteTimeCore; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539FC3C0 | overloaded x2
@@ -180,13 +185,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class MonoIO : Object
     {
-        public object ConsoleOutput;
-        public object ConsoleInput;
-        public object ConsoleError;
-        public object VolumeSeparatorChar;
-        public object DirectorySeparatorChar;
-        public object AltDirectorySeparatorChar;
-        public object PathSeparator;
+        public UIntPtr ConsoleOutput;
+        public bool ConsoleInput; // 0x8
 
         // ── Methods ──
         public void GetException(){} // RVA: 0x7FFD53A17110 | overloaded x2
@@ -224,9 +224,16 @@ namespace ThirdParty.DotNet.System.IO
 
     public class Path : Object
     {
-        public object StringComparison;
-        public object IsCaseSensitive;
-        public object IsWindows;
+        public char[] StringComparison;
+        public char IsCaseSensitive; // 0x8
+        public char IsWindows; // 0xA
+        public char PathSeparator; // 0xC
+        public string DirectorySeparatorStr; // 0x10
+        public char VolumeSeparatorChar; // 0x18
+        public char[] PathSeparatorChars; // 0x20
+        public bool dirEqualsVolume; // 0x28
+        public char[] trimEndCharsWindows; // 0x30
+        public char[] trimEndCharsUnix; // 0x38
 
         // ── Methods ──
         public void ChangeExtension(){} // RVA: 0x7FFD53A18D20
@@ -264,7 +271,7 @@ namespace ThirdParty.DotNet.System.IO
 
     public class PathInternal : Object
     {
-        public object IsCaseSensitive;
+        public bool IsCaseSensitive;
 
         // ── Methods ──
         public void IsValidDriveChar(){} // RVA: 0x7FFD539DFDC0
@@ -292,14 +299,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class Stream : MarshalByRefObject
     {
-        public object CanRead;
-        public object CanSeek;
-        public object CanTimeout;
-        public object CanWrite;
-        public object Length;
-        public object Position;
-        public object ReadTimeout;
-        public object WriteTimeout;
+        public System.IO.Stream CanRead;
+        public int CanSeek;
+        public ReadWriteTask CanTimeout; // 0x18
+        public System.Threading.SemaphoreSlim CanWrite; // 0x20
 
         // ── Methods ──
         public void EnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x7FFD53A05D10
@@ -356,10 +359,22 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StreamReader : TextReader
     {
-        public object CurrentEncoding;
-        public object BaseStream;
-        public object LeaveOpen;
-        public object EndOfStream;
+        public System.IO.StreamReader CurrentEncoding;
+        public System.IO.Stream BaseStream; // 0x18
+        public System.Text.Encoding LeaveOpen; // 0x20
+        public System.Text.Decoder EndOfStream; // 0x28
+        public byte[] _byteBuffer; // 0x30
+        public char[] _charBuffer; // 0x38
+        public int _charPos; // 0x40
+        public int _charLen; // 0x44
+        public int _byteLen; // 0x48
+        public int _bytePos; // 0x4C
+        public int _maxCharsPerBuffer; // 0x50
+        public bool _detectEncoding; // 0x54
+        public bool _checkPreamble; // 0x55
+        public bool _isBlocked; // 0x56
+        public bool _closable; // 0x57
+        public System.Threading.Tasks.Task _asyncReadTask; // 0x58
 
         // ── Methods ──
         public void CheckAsyncTaskInProgress(){} // RVA: 0x7FFD539E1BA0
@@ -392,13 +407,18 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StreamWriter : TextWriter
     {
-        public object UTF8NoBOM;
-        public object AutoFlush;
-        public object BaseStream;
-        public object LeaveOpen;
-        public object Encoding;
-        public object CharPos_Prop;
-        public object HaveWrittenPreamble_Prop;
+        public System.IO.StreamWriter UTF8NoBOM;
+        public System.IO.Stream AutoFlush; // 0x30
+        public System.Text.Encoding BaseStream; // 0x38
+        public System.Text.Encoder LeaveOpen; // 0x40
+        public byte[] Encoding; // 0x48
+        public char[] CharPos_Prop; // 0x50
+        public int HaveWrittenPreamble_Prop; // 0x58
+        public int _charLen; // 0x5C
+        public bool _autoFlush; // 0x60
+        public bool _haveWrittenPreamble; // 0x61
+        public bool _closable; // 0x62
+        public System.Threading.Tasks.Task _asyncWriteTask; // 0x68
 
         // ── Methods ──
         public void CheckAsyncTaskInProgress(){} // RVA: 0x7FFD539E8DE0
@@ -431,6 +451,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StringReader : TextReader
     {
+        public string _s; // 0x18
+        public int _pos; // 0x20
+        public int _length; // 0x24
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A10E70
         public void Close(){} // RVA: 0x7FFD538680E0
@@ -445,6 +469,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class TextReader : MarshalByRefObject
     {
+        public System.IO.TextReader Null;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Close(){} // RVA: 0x7FFD539EEA30
@@ -462,9 +488,11 @@ namespace ThirdParty.DotNet.System.IO
 
     public class TextWriter : MarshalByRefObject
     {
-        public object FormatProvider;
-        public object Encoding;
-        public object NewLine;
+        public System.IO.TextWriter FormatProvider;
+        public char[] Encoding; // 0x8
+        public char[] NewLine; // 0x18
+        public string CoreNewLineStr; // 0x20
+        public System.IFormatProvider _internalFormatProvider; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539F0D30 | overloaded x2
@@ -486,12 +514,15 @@ namespace ThirdParty.DotNet.System.IO
 
     public class UnmanagedMemoryStream : Stream
     {
-        public object CanRead;
-        public object CanSeek;
-        public object CanWrite;
-        public object Length;
-        public object Position;
-        public object PositionPointer;
+        public )| CanRead; // 0x28
+        public byte* CanSeek; // 0x30
+        public long CanWrite; // 0x38
+        public long Length; // 0x40
+        public long Position; // 0x48
+        public long PositionPointer; // 0x50
+        public 0x66441890 _access; // 0x58
+        public bool _isOpen; // 0x5C
+        public System.Threading.Tasks.Task`1<int> _lastReadTask; // 0x60
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539F3B20 | overloaded x3

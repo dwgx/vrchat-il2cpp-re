@@ -47,17 +47,18 @@ public class IJobSortable
 
 public class IKBone : ValueType
 {
+    public bool isSimulated; // 0x10
+    public int boneIndex; // 0x14
+    public Unity.Mathematics.float3 position; // 0x18
+    public Unity.Mathematics.float3 endPosition; // 0x24
+    public float length; // 0x30
+    public Unity.Mathematics.float3 localAxis; // 0x34
+    public UnityEngine.Quaternion rotationOffset; // 0x40
 }
 
 public class IListWrapper : ArrayList
 {
-    public object Capacity;
-    public object Count;
-    public object IsReadOnly;
-    public object IsFixedSize;
-    public object IsSynchronized;
-    public object Item;
-    public object SyncRoot;
+    public System.Collections.IList Capacity; // 0x28
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539BDA70
@@ -89,6 +90,20 @@ public class IListWrapper : ArrayList
 
 public class IMDrawBuffer`1 : Object
 {
+    public UnityEngine.Mesh mesh; // 0x10
+    public UnityEngine.Material material; // 0x18
+    public int subMeshIndex; // 0x20
+    public Unity.Collections.NativeArray`1<ÎÏÏÏÏÎÌÌÏÏÍÍÎÎÍÏÏ> meshProps; // 0x28
+    public UnityEngine.GraphicsBuffer meshPropsBuffer; // 0x38
+    public int instanceCount; // 0x40
+    public int maxCapacity; // 0x44
+    public UnityEngine.Bounds bounds; // 0x48
+    public int layer; // 0x60
+    public 0x664DADE8 _renderParams; // 0x68
+    public UnityEngine.GraphicsBuffer bufferWithArgs; // 0xC8
+    public IndirectDrawIndexedArgs[] bufferWithArgsData; // 0xD0
+    public int propertiesId;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x7FFD4E092E60
     public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -111,11 +126,6 @@ public class IMDrawLine : IMDrawBuffer`1
 
 public class IMDrawShape : IMDrawBuffer`1
 {
-    public int TcpListeningPort;
-    public int PayloadTypeMetrics;
-    public int MaxBufferLength;
-    public int MaxMessageLength;
-
     // ── Methods ──
     public void Add(){} // RVA: 0x7FFD5527A0F0
     public void .ctor(){} // RVA: 0x7FFD5527A2A0
@@ -161,10 +171,24 @@ public class IOVRSkeletonRendererDataProvider
 
 public class IPLGainNudgeData : ValueType
 {
+    public float NearFieldILDNudgeEarRadius; // 0x10
+    public float NearFieldILDNudgeEarTranslate; // 0x14
+    public float NearFieldILDNudgeDistance; // 0x18
+    public float NearFieldILDMaxNudge; // 0x1C
+    public ÏÏÍÍÏÎÏÍ NearFieldGlobalBoostGain; // 0x20
+    public ÏÌÍÍÍÎÍÏÌÎÎÏÎÏÌ NearFieldILDNudgeOnEarBoost; // 0x820
+    public Xs NearFieldILDNudgeOffEarDuck; // 0x1020
 }
 
 public class IPV4 : ValueType
 {
+    public ulong m_8zeros; // 0x10
+    public ushort m_0000; // 0x18
+    public ushort m_ffff; // 0x1A
+    public byte ip0; // 0x1C
+    public byte ip1; // 0x1D
+    public byte ip2; // 0x1E
+    public byte ip3; // 0x1F
 }
 
 public class ISealedAllowReference
@@ -186,10 +210,17 @@ public class IWebSocketReceiveResultGetter`1
 
 public class Icons : ValueType
 {
+    public UnityEngine.Sprite sticker; // 0x10
+    public UnityEngine.Sprite takePhoto; // 0x18
+    public UnityEngine.Sprite gallery; // 0x20
+    public UnityEngine.Sprite upload; // 0x28
 }
 
 public class IdManager : Object
 {
+    public int m_nextIdToTry; // 0x10
+    public System.Collections.Generic.List`1<bool> m_freeIds; // 0x18
+
     // ── Methods ──
     public void GetId(){} // RVA: 0x7FFD4E079960
     public void ReturnId(){} // RVA: 0x7FFD4E090ED0
@@ -214,16 +245,23 @@ public class IgnoreDelegate : MulticastDelegate
 
 public class ImageDownloader : Object
 {
-    public object State;
-    public object Error;
-    public object ErrorMessage;
-    public object Result;
-    public object SizeInMemoryBytes;
-    public object Progress;
-    public object Url;
-    public object Material;
-    public object UdonBehaviour;
-    public object TextureInfo;
+    public string State;
+    public float Error;
+    public int ErrorMessage;
+    public int Result;
+    public int SizeInMemoryBytes;
+    public float Progress;
+    public System.Threading.CancellationTokenSource Url; // 0x10
+    public int Material; // 0x18
+    public 0x665C2940 UdonBehaviour; // 0x1C
+    public 0x665C28E8 TextureInfo; // 0x20
+    public string <ErrorMessage>k__BackingField; // 0x28
+    public UnityEngine.Texture2D <Result>k__BackingField; // 0x30
+    public float <Progress>k__BackingField; // 0x38
+    public VRC.SDKBase.VRCUrl <Url>k__BackingField; // 0x40
+    public UnityEngine.Material <Material>k__BackingField; // 0x48
+    public VRC.Udon.Common.Interfaces.IUdonEventReceiver <UdonBehaviour>k__BackingField; // 0x50
+    public 0x665C2418 <TextureInfo>k__BackingField; // 0x58
 
     // ── Methods ──
     public void get_State(){} // RVA: 0x7FFD4F8557F0
@@ -260,10 +298,20 @@ public class ImageDownloader : Object
 
 public class ImageInfo : ValueType
 {
+    public uint width; // 0x10
+    public uint height; // 0x14
+    public 0x665C24C8 format; // 0x18
 }
 
 public class ImageLoadSettings : ValueType
 {
+    public 0x665C25D0 _flags; // 0x10
+    public uint _allocationLimit; // 0x14
+    public uint _resolutionLimit; // 0x18
+    public uint _targetWidth; // 0x1C
+    public uint _targetHeight; // 0x20
+    public 0x665C24C8 _outputFormatOverride; // 0x24
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FD09520
     public void GetAllocationLimit(){} // RVA: 0x7FFD57424B30
@@ -285,17 +333,45 @@ public class ImageLoadSettings : ValueType
 
 public class ImageResult : ValueType
 {
+    public byte success; // 0x10
+    public ImageInfo info; // 0x14
+    public 0x665C2470 error; // 0x20
 }
 
 public class ImposterData : ScriptableObject
 {
+    public int CapturedAngleCount; // 0x18
+    public int DataChunkStart; // 0x1C
+    public UnityEngine.Texture2D ColorAtlas; // 0x20
+    public UnityEngine.Vector3 PositionOffset; // 0x28
+    public UnityEngine.Vector4 BindPoseRotation; // 0x34
+    public System.Collections.Generic.List`1<UnityEngine.Vector4> CameraOffsets; // 0x48
+    public int CameraOffsetsHash; // 0x50
+    public string CameraOffsetsAdjacencyMapJson; // 0x58
+    public System.Collections.Generic.List`1<UnityEngine.Vector4> CameraRotations; // 0x60
+    public System.Collections.Generic.List`1<UnityEngine.Vector4> AtlasPosition; // 0x68
+    public System.Collections.Generic.List`1<UnityEngine.Vector4> DepthAtlasPositions; // 0x70
+    public System.Collections.Generic.List`1<UnityEngine.Vector4> BoundsCenter; // 0x78
+    public System.Collections.Generic.List`1<UnityEngine.Vector4> BoundsSize; // 0x80
+    public System.Collections.Generic.List`1<UnityEngine.Bounds> BoundingVolume; // 0x88
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4F5E1290
 }
 
 public class ImpulseEvent : Object
 {
-    public object Expired;
+    public float Expired; // 0x10
+    public EnvelopeDefinition m_Envelope; // 0x18
+    public Cinemachine.ISignalSource6D m_SignalSource; // 0x38
+    public UnityEngine.Vector3 m_Position; // 0x40
+    public float m_Radius; // 0x4C
+    public 0x6658C020 m_DirectionMode; // 0x50
+    public int m_Channel; // 0x54
+    public 0x6658C078 m_DissipationMode; // 0x58
+    public float m_DissipationDistance; // 0x5C
+    public float m_CustomDissipation; // 0x60
+    public float m_PropagationSpeed; // 0x64
 
     // ── Methods ──
     public void get_Expired(){} // RVA: 0x7FFD4FC79CE0
@@ -308,6 +384,16 @@ public class ImpulseEvent : Object
 
 public class ImpulseReaction : ValueType
 {
+    public Cinemachine.NoiseSettings m_SecondaryNoise; // 0x10
+    public float m_AmplitudeGain; // 0x18
+    public float m_FrequencyGain; // 0x1C
+    public float m_Duration; // 0x20
+    public float m_CurrentAmount; // 0x24
+    public float m_CurrentTime; // 0x28
+    public float m_CurrentDamping; // 0x2C
+    public bool m_Initialized; // 0x30
+    public UnityEngine.Vector3 m_NoiseOffsets; // 0x34
+
     // ── Methods ──
     public void ReSeed(){} // RVA: 0x7FFD4FC787D0
     public void GetReaction(){} // RVA: 0x7FFD4FC78900
@@ -322,11 +408,12 @@ public class IndexedConverter`2 : MulticastDelegate
 
 public class IndirectDrawIndexedArgs : ValueType
 {
-    public object indexCountPerInstance;
-    public object instanceCount;
-    public object startIndex;
-    public object baseVertexIndex;
-    public object startInstance;
+    public int indexCountPerInstance;
+    public uint instanceCount; // 0x10
+    public uint startIndex; // 0x14
+    public uint baseVertexIndex; // 0x18
+    public uint startInstance; // 0x1C
+    public uint <startInstance>k__BackingField; // 0x20
 
     // ── Methods ──
     public void set_indexCountPerInstance(){} // RVA: 0x7FFD4E78D8B0
@@ -338,10 +425,7 @@ public class IndirectDrawIndexedArgs : ValueType
 
 public class InheritVelocityModule : ValueType
 {
-    public object enabled;
-    public object mode;
-    public object curve;
-    public object curveMultiplier;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -383,6 +467,8 @@ public class InitializeDelegate : MulticastDelegate
 
 public class InputActionReferenceState : ValueType
 {
+    public int refCount; // 0x10
+    public bool enabledByInputModule; // 0x14
 }
 
 public class InputEndFrame : ValueType
@@ -398,6 +484,12 @@ public class InputMerger : MulticastDelegate
 
 public class InputPairing : Object
 {
+    public string name; // 0x10
+    public 0x664DD1A8[] unityKeys; // 0x18
+    public string[] cInputKeys; // 0x20
+    public bool value; // 0x28
+    public bool lastValue; // 0x29
+
     // ── Methods ──
     public void GetKeyDown(){} // RVA: 0x7FFD574058D0
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -405,6 +497,9 @@ public class InputPairing : Object
 
 public class InputParameter : Object
 {
+    public string address; // 0x10
+    public string type; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFE01C0
 }
@@ -447,10 +542,17 @@ public class InstantiationDelegate : MulticastDelegate
 
 public class Instruction : ValueType
 {
+    public int m_FullHash; // 0x10
+    public Cinemachine.CinemachineVirtualCameraBase m_VirtualCamera; // 0x18
+    public float m_ActivateAfter; // 0x20
+    public float m_MinDuration; // 0x24
 }
 
 public class Int128 : ValueType
 {
+    public long hi; // 0x10
+    public ulong lo; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC7BDA0 | overloaded x3
     public void IsNegative(){} // RVA: 0x7FFD4FC7C530
@@ -475,6 +577,9 @@ public class IntChildrenSection : ChildrenSection`1
 
 public class IntPoint : ValueType
 {
+    public long X; // 0x10
+    public long Y; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC7BDA0 | overloaded x3
     public void op_Equality(){} // RVA: 0x7FFD4FC7CA30
@@ -485,18 +590,24 @@ public class IntPoint : ValueType
 
 public class IntRect : ValueType
 {
+    public long left; // 0x10
+    public long top; // 0x18
+    public long right; // 0x20
+    public long bottom; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC7CB80 | overloaded x2
 }
 
 public class Internal : Object
 {
+    public int hash_code_of_ptr_seed;
 }
 
 public class InternalEnumerator`1 : ValueType
 {
-    public ÌÎÍÏÍÎ Current;
-    public int System.Collections.IEnumerator.Current;
+    public System.Array Current; // 0x10
+    public int System.Collections.IEnumerator.Current; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -509,6 +620,19 @@ public class InternalEnumerator`1 : ValueType
 
 public class InternalPartitionEnumerable : Object
 {
+    public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>> _sharedReader; // 0x10
+    public SharedLong _sharedIndex; // 0x18
+    public System.Collections.Generic.KeyValuePair`2<long,System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>>[] _fillBuffer; // 0x20
+    public int _fillBufferSize; // 0x28
+    public int _fillBufferCurrentPosition; // 0x2C
+    public int _activeCopiers; // 0x30
+    public SharedBool _hasNoElementsLeft; // 0x38
+    public SharedBool _sourceDepleted; // 0x40
+    public object _sharedLock; // 0x48
+    public bool _disposed; // 0x50
+    public SharedInt _activePartitionCount; // 0x58
+    public bool _useSingleChunking; // 0x60
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E096590
     public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
@@ -522,12 +646,10 @@ public class InternalPartitionEnumerable : Object
 
 public class InternalPartitionEnumerator : DynamicPartitionEnumerator_Abstract`2
 {
-    public int HasNoElementsLeft;
-    public int Current;
-    public long kCenterUnknown;
-    public URA.woDigitYearMax<?<T1717724352>> m_Entries;
-    public URA.woDigitYearMax<?> m_Nodes;
-    public bool <dirty>k__BackingField;
+    public System.Collections.Generic.KeyValuePair`2<long,System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>>[] HasNoElementsLeft; // 0x38
+    public SharedBool Current; // 0x40
+    public SharedInt _activePartitionCount; // 0x48
+    public InternalPartitionEnumerable<System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>> _enumerable; // 0x50
 
     // ── Methods ──
     public void .ctor(){}
@@ -546,6 +668,10 @@ public class Interop : Object
 
 public class IntersectNode : Object
 {
+    public TEdge Edge1; // 0x10
+    public TEdge Edge2; // 0x18
+    public IntPoint Pt; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -561,6 +687,9 @@ public class IntializationDelegate : MulticastDelegate
 
 public class InvocationContext : Object
 {
+    public System.Threading.SendOrPostCallback m_Delegate; // 0x10
+    public object m_State; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E90C240
     public void Invoke(){} // RVA: 0x7FFD52D143D0
@@ -582,6 +711,9 @@ public class IsBurstEnabledDelegate : MulticastDelegate
 
 public class IsBurstEnabled_00000145$BurstDirectCall : Object
 {
+    public UIntPtr Pointer;
+    public UIntPtr DeferredCompilation; // 0x8
+
     // ── Methods ──
     public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD54926840
     public void GetFunctionPointer(){} // RVA: 0x7FFD54926980
@@ -600,6 +732,8 @@ public class IsBurstEnabled_00000145$PostfixBurstDelegate : MulticastDelegate
 
 public class IsCanceledSource : Object
 {
+    public Cysharp.Threading.Tasks.IUniTaskSource`1<System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ>> source; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void GetResult(){} // RVA: 0x7FFD4E2ADC40
@@ -620,6 +754,8 @@ public class IsLocalDelegate : MulticastDelegate
 
 public class IsOfType`1 : Object
 {
+    public IsOfType`1<T> s_Instance;
+
     // ── Methods ──
     public void Predicate(){} // RVA: 0x7FFD4E079F60
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -628,11 +764,14 @@ public class IsOfType`1 : Object
 
 public class IsRegistered`1 : Object
 {
+    public bool Value;
 }
 
 public class Item : ValueType
 {
-    public object Empty;
+    public UnityEngine.Vector3 Empty; // 0x10
+    public float weight; // 0x1C
+    public float time; // 0x20
 
     // ── Methods ──
     public void Lerp(){} // RVA: 0x7FFD4FC70980
@@ -641,8 +780,9 @@ public class Item : ValueType
 
 public class Iterator`1 : Object
 {
-    public object Current;
-    public object System.Collections.IEnumerator.Current;
+    public int Current; // 0x10
+    public int System.Collections.IEnumerator.Current; // 0x14
+    public VRC.SDKBase.Network.VRCNetworkBehaviour current; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD51359810
@@ -660,8 +800,11 @@ public class Iterator`1 : Object
 
 public class iOSInfo : Object
 {
-    public object CacheDir;
-    public object FreeDiskSpaceBytes;
+    public bool CacheDir;
+    public long FreeDiskSpaceBytes;
+    public System.Threading.Thread _pollMemoryStatusThread; // 0x8
+    public long _cachedMemoryAvailable; // 0x10
+    public string _cacheDir; // 0x18
 
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD53648480
@@ -677,6 +820,8 @@ public class iOSInfo : Object
 
 public class iOSVibration : Object
 {
+    public System.Lazy`1<bool> SupportsVibration;
+
     // ── Methods ──
     public void Vibrate(){} // RVA: 0x7FFD4E341000
     public void VibrateSimple(){} // RVA: 0x7FFD4E341080

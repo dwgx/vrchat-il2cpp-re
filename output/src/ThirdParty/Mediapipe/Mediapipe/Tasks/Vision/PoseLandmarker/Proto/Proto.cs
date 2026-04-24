@@ -7,14 +7,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 {
     public class PoseLandmarkerGraphOptions : Object
     {
-        public object Parser;
-        public object Descriptor;
-        public object pb::Google.Protobuf.IMessage.Descriptor;
-        public object BaseOptions;
-        public object PoseDetectorGraphOptions;
-        public object PoseLandmarksDetectorGraphOptions;
-        public object MinTrackingConfidence;
-        public object HasMinTrackingConfidence;
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.PoseLandmarker.Proto.PoseLandmarkerGraphOptions> Parser;
+        public 0x6658E800 Descriptor; // 0x10
+        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions BaseOptions; // 0x20
+        public Mediapipe.Tasks.Vision.PoseDetector.Proto.PoseDetectorGraphOptions PoseDetectorGraphOptions; // 0x28
+        public Mediapipe.Tasks.Vision.PoseLandmarker.Proto.PoseLandmarksDetectorGraphOptions PoseLandmarksDetectorGraphOptions; // 0x30
+        public float MinTrackingConfidence; // 0x8
+        public float HasMinTrackingConfidence; // 0x38
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53713750
@@ -45,14 +45,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 
     public class PoseLandmarksDetectorGraphOptions : Object
     {
-        public object Parser;
-        public object Descriptor;
-        public object pb::Google.Protobuf.IMessage.Descriptor;
-        public object BaseOptions;
-        public object MinDetectionConfidence;
-        public object HasMinDetectionConfidence;
-        public object SmoothLandmarks;
-        public object HasSmoothLandmarks;
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.PoseLandmarker.Proto.PoseLandmarksDetectorGraphOptions> Parser;
+        public 0x6658E800 Descriptor; // 0x10
+        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions BaseOptions; // 0x20
+        public float MinDetectionConfidence; // 0x8
+        public float HasMinDetectionConfidence; // 0x28
+        public bool SmoothLandmarks; // 0xC
+        public bool HasSmoothLandmarks; // 0x2C
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53715450

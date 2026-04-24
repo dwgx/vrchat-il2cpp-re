@@ -5,7 +5,12 @@
 
 public class YieldPromise : Object
 {
-    public object NextNode;
+    public Cysharp.Threading.Tasks.TaskPool`1<YieldPromise> NextNode;
+    public YieldPromise nextNode; // 0x10
+    public System.Threading.CancellationToken cancellationToken; // 0x18
+    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration; // 0x20
+    public bool cancelImmediately; // 0x38
+    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<object> core; // 0x40
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0

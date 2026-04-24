@@ -160,33 +160,11 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÌÌÍÎÏÌÎÎÌÍÎÌÍÌÍÎÎÍÍÌÌÌ</summary>
     public class MajorSystemSibling_8CE5 : AnimatedTextureBaseImpl_0682
     {
-        public object f_4ED;
-        public object f_9E6;
-        public object f_C66;
-        public object f_60F;
-        public object f_D9F;
-        public object f_AB4;
-        public object f_BFC;
-        public object f_8BF;
-        public object f_772;
-        public object f_21E;
-        public object f_4FA;
-        public object f_57F;
-        public object f_B83;
-        public object f_393;
-        public object f_8E1;
-        public object f_7E1;
-        public object f_EF7;
-        public object f_884;
-        public object f_133;
-        public object f_1B7;
-        public object f_938;
-        public object f_396;
-        public object f_3FB;
-        public object f_C53;
-        public object f_D8F;
-        public object f_A8A;
-        public object f_FBE;
+        public bool f_4ED; // 0x240
+        public bool f_9E6; // 0x241
+        public bool f_C66; // 0x242
+        public bool f_60F; // 0x243
+        public System.Nullable`1<System.DateTime> f_D9F; // 0x248
 
         // ── Methods ──
         public void LinkConnectedBody(){} // RVA: 0x7FFD4E91D930

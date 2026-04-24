@@ -7,9 +7,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 {
     public class CircularBuffer`1 : Object
     {
-        public object Capacity;
-        public object Count;
-        public object Item;
+        public int Capacity;
+        public int Count;
+        public T[] Item;
+        public int startIdx;
+        public int endIdx;
 
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x7FFD4E079960

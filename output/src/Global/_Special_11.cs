@@ -23,7 +23,12 @@ public class _OpenBindingUI : MulticastDelegate
 
 public class _OrderedAsyncEnumerator : MoveNextSource
 {
-    public object Current;
+    public Cysharp.Threading.Tasks.Linq.OrderedAsyncEnumerable`1<T> Current;
+    public System.Threading.CancellationToken cancellationToken;
+    public T[] buffer;
+    public int[] map;
+    public int index;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -36,7 +41,14 @@ public class _OrderedAsyncEnumerator : MoveNextSource
 
 public class _Pairwise : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
+    public Awaiter<bool> awaiter;
+    public T prev;
+    public bool isFirst;
+    public System.ValueTuple`2<T,T> <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -141,9 +153,14 @@ public class _PropertyContainer : MulticastDelegate
 
 public class _Publish : MoveNextSource
 {
-    public object Current;
-    public object Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Prev;
-    public object Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Next;
+    public System.Action`1<object> Current;
+    public Cysharp.Threading.Tasks.Linq.Publish`1<T> Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Prev;
+    public System.Threading.CancellationToken Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Next;
+    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration;
+    public bool isDisposed;
+    public T <Current>k__BackingField;
+    public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Prev>k__BackingField;
+    public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Next>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -164,7 +181,12 @@ public class _Publish : MoveNextSource
 
 public class _Queue : Object
 {
-    public object Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current;
+    public System.Threading.CancellationToken cancellationToken;
+    public Cysharp.Threading.Tasks.Channel`1<T> channel;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> channelEnumerator;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> sourceEnumerator;
+    public bool channelClosed;
 
     // ── Methods ──
     public void .ctor(){}
@@ -347,7 +369,10 @@ public class _RenderModelHasComponent : MulticastDelegate
 
 public class _Repeat : Object
 {
-    public object Current;
+    public T Current;
+    public int count;
+    public int remaining;
+    public System.Threading.CancellationToken cancellationToken;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -376,7 +401,9 @@ public class _ResetZeroPose : MulticastDelegate
 
 public class _Return : Object
 {
-    public object Current;
+    public T Current;
+    public System.Threading.CancellationToken cancellationToken;
+    public bool called;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -387,7 +414,11 @@ public class _Return : Object
 
 public class _Reverse : MoveNextSource
 {
-    public object Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current;
+    public System.Threading.CancellationToken cancellationToken;
+    public T[] array;
+    public int index;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -417,7 +448,14 @@ public class _RoomSetupStarting : MulticastDelegate
 
 public class _Select : MoveNextSource
 {
-    public object Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
+    public System.Func`2<U,T> selector;
+    public System.Threading.CancellationToken cancellationToken;
+    public int state;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+    public Awaiter<bool> awaiter;
+    public System.Action moveNextAction;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -430,7 +468,16 @@ public class _Select : MoveNextSource
 
 public class _SelectAwait : MoveNextSource
 {
-    public object Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
+    public System.Func`3<U,int,Cysharp.Threading.Tasks.UniTask`1<T>> selector;
+    public System.Threading.CancellationToken cancellationToken;
+    public int state;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+    public Awaiter<bool> awaiter;
+    public Awaiter<T> awaiter2;
+    public System.Action moveNextAction;
+    public int index;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -443,7 +490,16 @@ public class _SelectAwait : MoveNextSource
 
 public class _SelectAwaitWithCancellation : MoveNextSource
 {
-    public object Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
+    public System.Func`4<U,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> selector;
+    public System.Threading.CancellationToken cancellationToken;
+    public int state;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+    public Awaiter<bool> awaiter;
+    public Awaiter<T> awaiter2;
+    public System.Action moveNextAction;
+    public int index;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){}
@@ -456,7 +512,22 @@ public class _SelectAwaitWithCancellation : MoveNextSource
 
 public class _SelectMany : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public System.Action`1<object> selectedSourceMoveNextCoreDelegate;
+    public System.Action`1<object> selectedEnumeratorDisposeAsyncCoreDelegate;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+    public System.Func`2<U,Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>> selector1;
+    public System.Func`3<U,int,Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>> selector2;
+    public System.Func`3<U,V,T> resultSelector;
+    public System.Threading.CancellationToken cancellationToken;
+    public U sourceCurrent;
+    public int sourceIndex;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> sourceEnumerator;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<V> selectedEnumerator;
+    public Awaiter<bool> sourceAwaiter;
+    public Awaiter<bool> selectedAwaiter;
+    public Awaiter selectedDisposeAsyncAwaiter;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -474,7 +545,26 @@ public class _SelectMany : MoveNextSource
 
 public class _SelectManyAwait : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public System.Action`1<object> selectedSourceMoveNextCoreDelegate;
+    public System.Action`1<object> selectedEnumeratorDisposeAsyncCoreDelegate;
+    public System.Action`1<object> selectorAwaitCoreDelegate;
+    public System.Action`1<object> resultSelectorAwaitCoreDelegate;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>>> selector1;
+    public System.Func`3<U,int,Cysharp.Threading.Tasks.UniTask`1<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>>> selector2;
+    public System.Func`3<U,V,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+    public System.Threading.CancellationToken cancellationToken;
+    public U sourceCurrent;
+    public int sourceIndex;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> sourceEnumerator;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<V> selectedEnumerator;
+    public Awaiter<bool> sourceAwaiter;
+    public Awaiter<bool> selectedAwaiter;
+    public Awaiter selectedDisposeAsyncAwaiter;
+    public Awaiter<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>> collectionSelectorAwaiter;
+    public Awaiter<T> resultSelectorAwaiter;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -494,7 +584,26 @@ public class _SelectManyAwait : MoveNextSource
 
 public class _SelectManyAwaitWithCancellation : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public System.Action`1<object> selectedSourceMoveNextCoreDelegate;
+    public System.Action`1<object> selectedEnumeratorDisposeAsyncCoreDelegate;
+    public System.Action`1<object> selectorAwaitCoreDelegate;
+    public System.Action`1<object> resultSelectorAwaitCoreDelegate;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>>> selector1;
+    public System.Func`4<U,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>>> selector2;
+    public System.Func`4<U,V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+    public System.Threading.CancellationToken cancellationToken;
+    public U sourceCurrent;
+    public int sourceIndex;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> sourceEnumerator;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<V> selectedEnumerator;
+    public Awaiter<bool> sourceAwaiter;
+    public Awaiter<bool> selectedAwaiter;
+    public Awaiter selectedDisposeAsyncAwaiter;
+    public Awaiter<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>> collectionSelectorAwaiter;
+    public Awaiter<T> resultSelectorAwaiter;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40

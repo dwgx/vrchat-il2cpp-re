@@ -23,8 +23,8 @@ namespace ThirdParty.DotNet.System
 
     public class ObsoleteAttribute : Attribute
     {
-        public object Message;
-        public object IsError;
+        public string Message; // 0x10
+        public bool IsError; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F9887E0 | overloaded x3
@@ -34,7 +34,7 @@ namespace ThirdParty.DotNet.System
 
     public class OperationCanceledException : SystemException
     {
-        public object CancellationToken;
+        public System.Threading.CancellationToken CancellationToken; // 0x90
 
         // ── Methods ──
         public void get_CancellationToken(){} // RVA: 0x7FFD4E70F640
@@ -54,6 +54,8 @@ namespace ThirdParty.DotNet.System
 
     public class OrdinalComparer : StringComparer
     {
+        public bool _ignoreCase; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A6E2E0
         public void Compare(){} // RVA: 0x7FFD53A6E340

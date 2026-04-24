@@ -104,7 +104,7 @@ namespace ThirdParty.DotNet.System
     public class UIntPtr : ValueType
     {
         public object Size;
-        public IntPtr _pointer; // 0x10
+        public void* _pointer; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F9DB120 | overloaded x3
@@ -151,20 +151,20 @@ namespace ThirdParty.DotNet.System
         public int HostNameType;
         public string IsDefaultPort; // 0x10
         public string IsFile; // 0x18
-        public icateChain IsLoopback; // 0x20
+        public System.UriParser IsLoopback; // 0x20
         public string PathAndQuery; // 0x28
-        public tf32 Segments; // 0x30
-        public ate IsUnc; // 0x38
+        public 0x6648EEC0 Segments; // 0x30
+        public UriInfo IsUnc; // 0x38
         public bool Host; // 0x40
         public bool InitializeLock; // 0x68
         public bool Port; // 0x69
-        public oninfo Query; // 0x6C
+        public 0x6648F288 Query; // 0x6C
         public bool Fragment; // 0x70
         public bool Scheme; // 0x71
-        public allback OriginalStringSwitched;
+        public 0x6648F180 OriginalStringSwitched;
         public bool OriginalString; // 0x72
         public object DnsSafeHost; // 0x78
-        public lClientCertificate IdnHost;
+        public 0x6648F230 IdnHost;
         public char IsAbsoluteUri;
         public char UserEscaped;
         public char[] UserInfo; // 0x80
@@ -297,11 +297,48 @@ namespace ThirdParty.DotNet.System
 
     public class UriParser : Object
     {
-        public object SchemeName;
-        public object DefaultPort;
-        public object ShouldUseLegacyV2Quirks;
-        public object Flags;
-        public object IsSimple;
+        public 0x6648F5F8 SchemeName;
+        public System.Collections.Generic.Dictionary`2<string,System.UriParser> DefaultPort;
+        public System.Collections.Generic.Dictionary`2<string,System.UriParser> ShouldUseLegacyV2Quirks; // 0x8
+        public 0x6648F5F8 Flags; // 0x10
+        public 0x6648F5F8 IsSimple; // 0x14
+        public bool m_UpdatableFlagsUsed; // 0x18
+        public 0x6648F5F8 c_UpdatableFlags;
+        public int m_Port; // 0x1C
+        public string m_Scheme; // 0x20
+        public int NoDefaultPort;
+        public int c_InitialTableSize;
+        public System.UriParser HttpUri; // 0x10
+        public System.UriParser HttpsUri; // 0x18
+        public System.UriParser WsUri; // 0x20
+        public System.UriParser WssUri; // 0x28
+        public System.UriParser FtpUri; // 0x30
+        public System.UriParser FileUri; // 0x38
+        public System.UriParser GopherUri; // 0x40
+        public System.UriParser NntpUri; // 0x48
+        public System.UriParser NewsUri; // 0x50
+        public System.UriParser MailToUri; // 0x58
+        public System.UriParser UuidUri; // 0x60
+        public System.UriParser TelnetUri; // 0x68
+        public System.UriParser LdapUri; // 0x70
+        public System.UriParser NetTcpUri; // 0x78
+        public System.UriParser NetPipeUri; // 0x80
+        public System.UriParser VsMacrosUri; // 0x88
+        public 0x6648F440 s_QuirksVersion; // 0x90
+        public int c_MaxCapacity;
+        public 0x6648F5F8 UnknownV1SyntaxFlags;
+        public 0x6648F5F8 HttpSyntaxFlags; // 0x94
+        public 0x6648F5F8 FtpSyntaxFlags;
+        public 0x6648F5F8 FileSyntaxFlags; // 0x98
+        public 0x6648F5F8 VsmacrosSyntaxFlags;
+        public 0x6648F5F8 GopherSyntaxFlags;
+        public 0x6648F5F8 NewsSyntaxFlags;
+        public 0x6648F5F8 NntpSyntaxFlags;
+        public 0x6648F5F8 TelnetSyntaxFlags;
+        public 0x6648F5F8 LdapSyntaxFlags;
+        public 0x6648F5F8 MailtoSyntaxFlags;
+        public 0x6648F5F8 NetPipeSyntaxFlags;
+        public 0x6648F5F8 NetTcpSyntaxFlags;
 
         // ── Methods ──
         public void get_SchemeName(){} // RVA: 0x7FFD4E36F0C0

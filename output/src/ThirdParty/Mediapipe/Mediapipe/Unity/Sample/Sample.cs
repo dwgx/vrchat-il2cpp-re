@@ -7,10 +7,18 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Sample
 {
     public class AppSettings : ScriptableObject
     {
-        public object defaultImageSource;
-        public object preferableInferenceMode;
-        public object assetLoaderType;
-        public object logLevel;
+        public 0x66350D30 defaultImageSource; // 0x18
+        public 0x6636F918 preferableInferenceMode; // 0x1C
+        public 0x6636FD38 assetLoaderType; // 0x20
+        public 0x66575730 logLevel; // 0x24
+        public int _glogMinloglevel; // 0x28
+        public int _glogStderrthreshold; // 0x2C
+        public int _glogV; // 0x30
+        public int _preferredDefaultWebCamWidth; // 0x34
+        public ResolutionStruct[] _defaultAvailableWebCamResolutions; // 0x38
+        public UnityEngine.Texture[] _availableStaticImageSources; // 0x40
+        public ResolutionStruct[] _defaultAvailableStaticImageResolutions; // 0x48
+        public UnityEngine.Video.VideoClip[] _availableVideoSources; // 0x50
 
         // ── Methods ──
         public void get_preferableInferenceMode(){} // RVA: 0x7FFD4F8557F0

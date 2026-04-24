@@ -20,11 +20,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class CastingConverter`1 : JsonConverter`1
     {
-        public object KeyType;
-        public object ElementType;
-        public object HandleNull;
-        public object SupportsCreateObjectDelegate;
-        public object SourceConverterForCastingConverter;
+        public System.Text.Json.Serialization.JsonConverter KeyType;
+        public bool ElementType;
 
         // ── Methods ──
         public void get_KeyType(){} // RVA: 0x7FFD4E078E90
@@ -82,6 +79,15 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class EnumConverter`1 : JsonConverter`1
     {
+        public 0x66421808 s_enumTypeCode;
+        public bool s_isSignedEnum;
+        public string ValueSeparator;
+        public 0x6653AF28 _converterOptions;
+        public 0x66534B20 _namingPolicy;
+        public System.Collections.Concurrent.ConcurrentDictionary`2<ulong,System.Text.Json.JsonEncodedText> _nameCacheForWriting;
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,T> _nameCacheForReading;
+        public int NameCacheSizeSoftLimit;
+
         // ── Methods ──
         public void CanConvert(){} // RVA: 0x7FFD4E079F60
         public void .ctor(){} // RVA: 0x7FFD4E093960 | overloaded x2
@@ -98,6 +104,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpListConverter`2 : IEnumerableDefaultConverter`2
     {
+        public System.Func`2<System.Collections.Generic.IEnumerable`1<T>,U> _listConstructor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void Add(){} // RVA: 0x7FFD4E099B30
@@ -107,7 +115,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpMapConverter`3 : DictionaryDefaultConverter`3
     {
-        public object CanHaveIdMetadata;
+        public System.Func`2<System.Collections.Generic.IEnumerable`1<System.Tuple`2<V,T>>,U> CanHaveIdMetadata;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -119,9 +127,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpOptionConverter`2 : JsonConverter`1
     {
-        public object ConverterStrategy;
-        public object ElementType;
-        public object HandleNull;
+        public System.Text.Json.Serialization.JsonConverter`1<U> ConverterStrategy;
+        public System.Func`2<U,U> ElementType;
+        public System.Func`2<U,U> HandleNull;
 
         // ── Methods ──
         public void get_ConverterStrategy(){} // RVA: 0x7FFD4E079D00
@@ -136,6 +144,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpSetConverter`2 : IEnumerableDefaultConverter`2
     {
+        public System.Func`2<System.Collections.Generic.IEnumerable`1<U>,U> _setConstructor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void Add(){} // RVA: 0x7FFD4E099B30
@@ -145,9 +155,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpValueOptionConverter`2 : JsonConverter`1
     {
-        public object ConverterStrategy;
-        public object ElementType;
-        public object HandleNull;
+        public System.Text.Json.Serialization.JsonConverter`1<T> ConverterStrategy;
+        public StructGetter`2<U,T> ElementType;
+        public System.Func`2<T,U> HandleNull;
 
         // ── Methods ──
         public void get_ConverterStrategy(){} // RVA: 0x7FFD4E079D00
@@ -210,7 +220,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IEnumerableConverter`1 : JsonCollectionConverter`2
     {
-        public object RuntimeType;
+        public bool RuntimeType;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E099B30
@@ -232,7 +242,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IEnumerableOfTConverter`2 : IEnumerableDefaultConverter`2
     {
-        public object RuntimeType;
+        public bool RuntimeType;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E099B30
@@ -268,7 +278,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IReadOnlyDictionaryOfTKeyTValueConverter`3 : DictionaryDefaultConverter`3
     {
-        public object RuntimeType;
+        public bool RuntimeType;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E2ADC40
@@ -335,11 +345,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
-        public object Converter;
-        public object ConverterStrategy;
-        public object KeyType;
-        public object ElementType;
-        public object ConstructorIsParameterized;
+        public System.Text.Json.Serialization.JsonConverter`1<T> Converter;
+        public bool ConverterStrategy;
 
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x7FFD4E078E90
@@ -362,6 +369,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class KeyValuePairConverter`2 : SmallObjectWithParameterizedConstructorConverter`5
     {
+        public string _keyName;
+        public string _valueName;
+        public System.Reflection.ConstructorInfo s_constructorInfo;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4E099B30
         public void TryLookupConstructorParameter(){} // RVA: 0x7FFD4E07D680
@@ -418,6 +429,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class NullableConverter`1 : JsonConverter`1
     {
+        public System.Text.Json.Serialization.JsonConverter`1<T> _elementConverter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Read(){} // RVA: 0x7FFD4E2ADC40
@@ -523,6 +536,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class UnsupportedTypeConverter`1 : JsonConverter`1
     {
+        public string _errorMessage;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD4E2ADC40
         public void Write(){} // RVA: 0x7FFD4E2ADC40

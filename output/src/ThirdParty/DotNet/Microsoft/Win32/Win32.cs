@@ -7,12 +7,35 @@ namespace ThirdParty.DotNet.Microsoft.Win32
 {
     public class Registry : Object
     {
+        public Microsoft.Win32.RegistryKey CurrentUser;
+        public Microsoft.Win32.RegistryKey LocalMachine; // 0x8
+        public Microsoft.Win32.RegistryKey ClassesRoot; // 0x10
+        public Microsoft.Win32.RegistryKey Users; // 0x18
+        public Microsoft.Win32.RegistryKey PerformanceData; // 0x20
+        public Microsoft.Win32.RegistryKey CurrentConfig; // 0x28
+        public Microsoft.Win32.RegistryKey DynData; // 0x30
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD537D5A30
     }
 
     public class RegistryKey : MarshalByRefObject
     {
+        public UIntPtr HKEY_CLASSES_ROOT;
+        public UIntPtr HKEY_CURRENT_USER; // 0x8
+        public UIntPtr HKEY_LOCAL_MACHINE; // 0x10
+        public UIntPtr HKEY_USERS; // 0x18
+        public UIntPtr HKEY_PERFORMANCE_DATA; // 0x20
+        public UIntPtr HKEY_CURRENT_CONFIG; // 0x28
+        public UIntPtr HKEY_DYN_DATA; // 0x30
+        public string[] s_hkeyNames; // 0x38
+        public Microsoft.Win32.SafeHandles.SafeRegistryHandle _hkey; // 0x18
+        public string _keyName; // 0x20
+        public bool _remoteKey; // 0x28
+        public 0x6641CC68 _state; // 0x2C
+        public 0x6641CD18 _checkMode; // 0x30
+        public 0x6641CDC8 _regView; // 0x34
+
         // ── Methods ──
         public void ClosePerfDataKey(){} // RVA: 0x7FFD537D5E00
         public void OpenBaseKeyCore(){} // RVA: 0x7FFD537D5E60

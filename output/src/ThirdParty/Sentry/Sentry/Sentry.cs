@@ -7,6 +7,8 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class DefaultSentryScopeStateProcessor : Object
     {
+        public char[] TrimFilter;
+
         // ── Methods ──
         public void Apply(){} // RVA: 0x7FFD53E57290
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -15,8 +17,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class HttpStatusCodeRange : ValueType
     {
-        public object Start;
-        public object End;
+        public int Start; // 0x10
+        public int End; // 0x14
 
         // ── Methods ──
         public void get_Start(){} // RVA: 0x7FFD4F840210
@@ -103,92 +105,92 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryOptions : Object
     {
-        public object ScopeStackContainer;
-        public object InstallationId;
-        public object IsGlobalModeEnabled;
-        public object ScopeObserver;
-        public object EnableScopeSync;
-        public object Transport;
-        public object ClientReportRecorder;
-        public object SentryStackTraceFactory;
-        public object SentryVersion;
-        public object ExceptionProcessors;
-        public object TransactionProcessors;
-        public object EventProcessors;
-        public object EventProcessorsProviders;
-        public object TransactionProcessorsProviders;
-        public object ExceptionProcessorsProviders;
-        public object Integrations;
-        public object ExceptionFilters;
-        public object TagFilters;
-        public object BackgroundWorker;
-        public object SentryHttpClientFactory;
-        public object SentryScopeStateProcessor;
-        public object InAppExclude;
-        public object InAppInclude;
-        public object SendDefaultPii;
-        public object IsEnvironmentUser;
-        public object ServerName;
-        public object AttachStacktrace;
-        public object MaxBreadcrumbs;
-        public object SampleRate;
-        public object Release;
-        public object Distribution;
-        public object Environment;
-        public object Dsn;
-        public object ParsedDsn;
-        public object BeforeSendInternal;
-        public object BeforeSendTransactionInternal;
-        public object BeforeBreadcrumbInternal;
-        public object MaxQueueItems;
-        public object MaxCacheItems;
-        public object ShutdownTimeout;
-        public object FlushTimeout;
-        public object DecompressionMethods;
-        public object RequestBodyCompressionLevel;
-        public object RequestBodyCompressionBuffered;
-        public object SendClientReports;
-        public object HttpProxy;
-        public object CreateHttpMessageHandler;
-        public object ConfigureClient;
-        public object Debug;
-        public object DiagnosticLevel;
-        public object DiagnosticLogger;
-        public object ReportAssembliesMode;
-        public object DeduplicateMode;
-        public object CacheDirectoryPath;
-        public object CaptureFailedRequests;
-        public object FailedRequestStatusCodes;
-        public object FailedRequestTargets;
-        public object FileSystem;
-        public object DisableFileWrite;
-        public object InitCacheFlushTimeout;
-        public object DefaultTags;
-        public object IsPerformanceMonitoringEnabled;
-        public object IsProfilingEnabled;
-        public object EnableTracing;
-        public object TracesSampleRate;
-        public object ProfilesSampleRate;
-        public object TracesSampler;
-        public object TracePropagationTargets;
-        public object TransactionProfilerFactory;
-        public object StackTraceMode;
-        public object MaxAttachmentSize;
-        public object DetectStartupTime;
-        public object AutoSessionTrackingInterval;
-        public object AutoSessionTracking;
-        public object UseAsyncFileIO;
-        public object CrashedLastRun;
-        public object Instrumenter;
-        public object JsonPreserveReferences;
-        public object NetworkStatusListener;
-        public object AssemblyReader;
-        public object ExperimentalMetrics;
-        public object SpotlightUrl;
-        public object EnableSpotlight;
-        public object SettingLocator;
-        public object InitNativeSdks;
-        public object PostInitCallbacks;
+        public System.Collections.Generic.Dictionary`2<string,string> ScopeStackContainer; // 0x10
+        public 0x66490410 InstallationId;
+        public 0x664FE620 IsGlobalModeEnabled; // 0x18
+        public System.Lazy`1<string> ScopeObserver; // 0x20
+        public System.Nullable`1<bool> EnableScopeSync; // 0x28
+        public 0x664F75B8 Transport; // 0x30
+        public bool ClientReportRecorder; // 0x38
+        public 0x66500CF8 SentryStackTraceFactory; // 0x40
+        public System.Lazy`1<Sentry.Internal.IClientReportRecorder> SentryVersion; // 0x48
+        public System.Lazy`1<Sentry.Extensibility.ISentryStackTraceFactory> ExceptionProcessors; // 0x50
+        public int TransactionProcessors; // 0x58
+        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Type,System.Lazy`1<Sentry.Extensibility.ISentryEventExceptionProcessor>>> EventProcessors; // 0x60
+        public System.Collections.Generic.List`1<Sentry.Extensibility.ISentryTransactionProcessor> EventProcessorsProviders; // 0x68
+        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Type,System.Lazy`1<Sentry.Extensibility.ISentryEventProcessor>>> TransactionProcessorsProviders; // 0x70
+        public System.Collections.Generic.List`1<System.Func`1<System.Collections.Generic.IEnumerable`1<Sentry.Extensibility.ISentryEventProcessor>>> ExceptionProcessorsProviders; // 0x78
+        public System.Collections.Generic.List`1<System.Func`1<System.Collections.Generic.IEnumerable`1<Sentry.Extensibility.ISentryTransactionProcessor>>> Integrations; // 0x80
+        public System.Collections.Generic.List`1<System.Func`1<System.Collections.Generic.IEnumerable`1<Sentry.Extensibility.ISentryEventExceptionProcessor>>> ExceptionFilters; // 0x88
+        public 0x664F8F80 TagFilters; // 0x90
+        public System.Collections.Generic.List`1<Sentry.Extensibility.IExceptionFilter> BackgroundWorker; // 0x98
+        public System.Collections.Generic.ICollection`1<Sentry.SubstringOrRegexPattern> SentryHttpClientFactory; // 0xA0
+        public Sentry.Extensibility.IBackgroundWorker SentryScopeStateProcessor; // 0xA8
+        public 0x66500408 InAppExclude; // 0xB0
+        public Sentry.ISentryScopeStateProcessor InAppInclude; // 0xB8
+        public System.Collections.Generic.List`1<Sentry.Internal.StringOrRegex> SendDefaultPii; // 0xC0
+        public System.Collections.Generic.List`1<Sentry.Internal.StringOrRegex> IsEnvironmentUser; // 0xC8
+        public bool ServerName; // 0xD0
+        public bool AttachStacktrace; // 0xD1
+        public string MaxBreadcrumbs; // 0xD8
+        public bool SampleRate; // 0xE0
+        public int Release; // 0xE4
+        public System.Nullable`1<float> Distribution; // 0xE8
+        public string Environment; // 0xF0
+        public string Dsn; // 0xF8
+        public string ParsedDsn; // 0x100
+        public string BeforeSendInternal; // 0x108
+        public 0x664F6A08 BeforeSendTransactionInternal; // 0x110
+        public System.Lazy`1<string> BeforeBreadcrumbInternal; // 0x118
+        public System.Func`3<0x664F8950,0x664F8AB0,0x664F8950> MaxQueueItems; // 0x120
+        public System.Func`3<0x664F9C38,0x664F8AB0,0x664F9C38> MaxCacheItems; // 0x128
+        public System.Func`3<0x664F6640,0x664F8AB0,0x664F6640> ShutdownTimeout; // 0x130
+        public int FlushTimeout; // 0x138
+        public int DecompressionMethods; // 0x13C
+        public System.TimeSpan RequestBodyCompressionLevel; // 0x140
+        public System.TimeSpan RequestBodyCompressionBuffered; // 0x148
+        public 0x6649CA68 SendClientReports; // 0x150
+        public 0x66499788 HttpProxy; // 0x154
+        public bool CreateHttpMessageHandler; // 0x158
+        public bool ConfigureClient; // 0x159
+        public 0x6649C3E0 Debug; // 0x160
+        public System.Func`1<ÎÏÍÍÎÌÌÎÎÏÏÎÌÌÍÌÌÎÌÍÎÏ> DiagnosticLevel; // 0x168
+        public System.Action`1<0x66602840> DiagnosticLogger; // 0x170
+        public bool ReportAssembliesMode; // 0x178
+        public 0x664F8C68 DeduplicateMode; // 0x17A
+        public Sentry.Extensibility.IDiagnosticLogger CacheDirectoryPath; // 0x180
+        public 0x664F8168 CaptureFailedRequests; // 0x188
+        public 0x664F6850 FailedRequestStatusCodes; // 0x18C
+        public string FailedRequestTargets; // 0x190
+        public bool FileSystem; // 0x198
+        public System.Collections.Generic.IList`1<Sentry.HttpStatusCodeRange> DisableFileWrite; // 0x1A0
+        public System.Lazy`1<System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern>> InitCacheFlushTimeout; // 0x1A8
+        public 0x664FD078 DefaultTags; // 0x1B0
+        public bool IsPerformanceMonitoringEnabled; // 0x1B8
+        public System.TimeSpan IsProfilingEnabled; // 0x1C0
+        public System.Nullable`1<bool> EnableTracing; // 0x1C8
+        public System.Nullable`1<double> TracesSampleRate; // 0x1D0
+        public System.Nullable`1<double> ProfilesSampleRate; // 0x1E0
+        public System.Func`2<0x664FA478,System.Nullable`1<double>> TracesSampler; // 0x1F0
+        public System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern> TracePropagationTargets; // 0x1F8
+        public 0x664FD230 TransactionProfilerFactory; // 0x200
+        public System.Nullable`1<0x664FA058> StackTraceMode; // 0x208
+        public System.Collections.Generic.List`1<Sentry.Integrations.ISdkIntegration> MaxAttachmentSize; // 0x210
+        public long DetectStartupTime; // 0x218
+        public 0x664FA0B0 AutoSessionTrackingInterval; // 0x220
+        public System.TimeSpan AutoSessionTracking; // 0x228
+        public bool UseAsyncFileIO; // 0x230
+        public bool CrashedLastRun; // 0x231
+        public System.Func`1<bool> Instrumenter; // 0x238
+        public 0x664F7560 JsonPreserveReferences; // 0x240
+        public Sentry.Extensibility.INetworkStatusListener NetworkStatusListener; // 0x248
+        public System.Func`2<string,0x665F4D48> AssemblyReader; // 0x250
+        public 0x664F6B68 ExperimentalMetrics; // 0x258
+        public string SpotlightUrl; // 0x260
+        public bool EnableSpotlight; // 0x268
+        public Sentry.Internal.SettingLocator SettingLocator; // 0x270
+        public bool InitNativeSdks; // 0x278
+        public System.Collections.Generic.List`1<System.Action`1<0x664F7458>> PostInitCallbacks; // 0x280
 
         // ── Methods ──
         public void get_ScopeStackContainer(){} // RVA: 0x7FFD4E3447C0
@@ -411,10 +413,7 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentrySdk : Object
     {
-        public object CurrentOptions;
-        public object LastEventId;
-        public object IsEnabled;
-        public object Metrics;
+        public 0x664F7458 CurrentOptions;
 
         // ── Methods ──
         public void get_CurrentOptions(){} // RVA: 0x7FFD53F67A80
@@ -457,7 +456,7 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryValues`1 : Object
     {
-        public object Values;
+        public System.Collections.Generic.IEnumerable`1<T> Values;
 
         // ── Methods ──
         public void get_Values(){} // RVA: 0x7FFD4E078E90
@@ -467,7 +466,9 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SubstringOrRegexPattern : Object
     {
-        public object Regex;
+        public System.Text.RegularExpressions.Regex Regex; // 0x10
+        public string _substring; // 0x18
+        public 0x66421288 _stringComparison; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2

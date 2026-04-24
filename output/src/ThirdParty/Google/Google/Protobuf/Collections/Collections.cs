@@ -14,19 +14,10 @@ namespace ThirdParty.Google.Google.Protobuf.Collections
 
     public class MapField`2 : Object
     {
-        public object Item;
-        public object Keys;
-        public object Values;
-        public object Count;
-        public object IsReadOnly;
-        public object System.Collections.IDictionary.IsFixedSize;
-        public object System.Collections.IDictionary.Keys;
-        public object System.Collections.IDictionary.Values;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.IDictionary.Item;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values;
+        public System.Collections.Generic.EqualityComparer`1<T> Item;
+        public System.Collections.Generic.EqualityComparer`1<U> Keys;
+        public System.Collections.Generic.Dictionary`2<U,System.Collections.Generic.LinkedListNode`1<System.Collections.Generic.KeyValuePair`2<U,T>>> Values;
+        public System.Collections.Generic.LinkedList`1<System.Collections.Generic.KeyValuePair`2<U,T>> Count;
 
         // ── Methods ──
         public void Clone(){} // RVA: 0x7FFD4E078E90
@@ -75,10 +66,10 @@ namespace ThirdParty.Google.Google.Protobuf.Collections
 
     public class ProtobufEqualityComparers : Object
     {
-        public object BitwiseDoubleEqualityComparer;
-        public object BitwiseSingleEqualityComparer;
-        public object BitwiseNullableDoubleEqualityComparer;
-        public object BitwiseNullableSingleEqualityComparer;
+        public System.Collections.Generic.EqualityComparer`1<double> BitwiseDoubleEqualityComparer;
+        public System.Collections.Generic.EqualityComparer`1<float> BitwiseSingleEqualityComparer; // 0x8
+        public System.Collections.Generic.EqualityComparer`1<System.Nullable`1<double>> BitwiseNullableDoubleEqualityComparer; // 0x10
+        public System.Collections.Generic.EqualityComparer`1<System.Nullable`1<float>> BitwiseNullableSingleEqualityComparer; // 0x18
 
         // ── Methods ──
         public void GetEqualityComparer(){} // RVA: 0x7FFD4E078A90
@@ -91,10 +82,11 @@ namespace ThirdParty.Google.Google.Protobuf.Collections
 
     public class RepeatedField`1 : Object
     {
-        public int Count;
-        public URA.mes<string,_TA_ECDSA_SHA_1> IsReadOnly;
-        public cureProtocol.Org.BouncyCastle.Asn1.IsisMtt.X509<T1717579888> Item;
-        public URA.saAbbrevEnglishEraNames<URA.mes<string,T1717579888>> System.Collections.IList.IsFixedSize;
+        public System.Collections.Generic.EqualityComparer`1<T> Count;
+        public T[] IsReadOnly;
+        public int Item;
+        public T[] System.Collections.IList.IsFixedSize;
+        public int System.Collections.ICollection.IsSynchronized;
 
         // ── Methods ──
         public void Clone(){} // RVA: 0x7FFD4E078E90

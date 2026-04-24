@@ -53,6 +53,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ObjectDispatcher : Object
     {
+        public UIntPtr m_Ptr; // 0x10
+        public System.Action`6<UnityEngine.Object[],UIntPtr,UIntPtr,int,int,System.Action`1<0x664DD8E0>> s_TypeDispatch;
+        public System.Action`8<UIntPtr,UIntPtr,UIntPtr,UIntPtr,UIntPtr,UIntPtr,int,System.Action`1<0x664DD938>> s_TransformDispatch; // 0x8
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54CD65D0
     }

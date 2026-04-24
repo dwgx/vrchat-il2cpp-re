@@ -7,6 +7,10 @@ namespace VRC.Udon.Wrapper
 {
     public class UdonDefaultWrapperFactory : Object
     {
+        public System.Collections.Generic.HashSet`1<System.Type> _wrapperModuleTypes; // 0x10
+        public VRC.Udon.Common.Interfaces.IUdonWrapper _udonWrapper; // 0x18
+        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> _filter; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD556E3D90
         public void GetWrapperModuleTypesFromAttribute(){} // RVA: 0x7FFD556E4290
@@ -17,6 +21,9 @@ namespace VRC.Udon.Wrapper
 
     public class UdonWrapper : Object
     {
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,VRC.Udon.Common.Interfaces.IUdonWrapperModule> _wrapperModulesByName; // 0x10
+        public System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,VRC.Udon.Common.Interfaces.IUdonComponentGetterModule> _componentGetterModules; // 0x18
+
         // ── Methods ──
         public void GetExternFunctionParameterCount(){} // RVA: 0x7FFD556E4980
         public void GetExternFunctionDelegate(){} // RVA: 0x7FFD556E4B90

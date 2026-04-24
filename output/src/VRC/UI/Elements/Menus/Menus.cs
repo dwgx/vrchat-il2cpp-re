@@ -7,12 +7,16 @@ namespace VRC.UI.Elements.Menus
 {
     public class Binding : ValueType
     {
+        public k fingerBindings; // 0x10
+        public ÏÍÎÍÍÏÎÌÏÎÌÎÌÏÏÎÎÎÎÎÎÍÎ fingerBindingCell_Left; // 0x18
+        public ÏÍÎÍÍÏÎÌÏÎÌÎÌÏÏÎÎÎÎÎÎÍÎ fingerBindingCell_Right; // 0x20
     }
 
     public class GalleryIconsView : HeaderElementContentView`1
     {
-        public object MaxContentCount;
-        public object ObservableList;
+        public VRC.UI.Elements.HelperMethods.UIAlert MaxContentCount; // 0x68
+        public VRC.UI.Elements.HelperMethods.UIBinaryAlert ObservableList; // 0x90
+        public UnityEngine.GameObject subNowInfo; // 0xE0
 
         // ── Methods ──
         public void UpdateActive(){} // RVA: 0x7FFD568C1260
@@ -38,8 +42,8 @@ namespace VRC.UI.Elements.Menus
 
     public class GalleryPhotosView : HeaderElementContentView`1
     {
-        public object MaxContentCount;
-        public object ObservableList;
+        public ÍÍÍÍÏÎÍÌÌÏÌÎÏÍÏÍÎÏÍÍÏÌÎ MaxContentCount; // 0x68
+        public UnityEngine.GameObject ObservableList; // 0x70
 
         // ── Methods ──
         public void get_MaxContentCount(){} // RVA: 0x7FFD568C2B00
@@ -63,6 +67,8 @@ namespace VRC.UI.Elements.Menus
 
     public class HeaderElementContentView`1 : ListContentView`1
     {
+        public UnityEngine.GameObject _headerPrefab; // 0x60
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x7FFD4E090980
         public void get_MaxContentCount(){} // RVA: 0x7FFD4E090980
@@ -74,22 +80,23 @@ namespace VRC.UI.Elements.Menus
 
     public class KeyboardInputModalComponents : Object
     {
-        public object Keyboard;
-        public object Cancel;
-        public object CancelText;
-        public object Submit;
-        public object SubmitText;
-        public object CloseButton;
-        public object ClearButton;
-        public object Title;
-        public object Placeholder;
-        public object CharactersRemaining;
-        public object InputField;
-        public object MaskInputToggle;
-        public object MinimizedKeyboard;
-        public object ModalBackgrounds;
-        public object WorldBackground;
-        public object KeyboardToggleGroups;
+        public UnityEngine.GameObject Keyboard; // 0x10
+        public UnityEngine.UI.Button Cancel; // 0x18
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ CancelText; // 0x20
+        public UnityEngine.UI.Button Submit; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ SubmitText; // 0x30
+        public UnityEngine.UI.Button CloseButton; // 0x38
+        public UnityEngine.UI.Button ClearButton; // 0x40
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ Title; // 0x48
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ Placeholder; // 0x50
+        public ÏÍÍÌÏÎÏÌÌÎÏÏÍÌÍÍÌÍÎÎÏÌÎ CharactersRemaining; // 0x58
+        public TMPro.TMP_InputField InputField; // 0x60
+        public ÏÌÏÏÎÌÍÍÏÌÍÌÏÎÎÍÎÏÏÌÍÍÍ MaskInputToggle; // 0x68
+        public ÍÎÍÌÏÍÍÌÎÍÎÏÍÏÌÎÎÌÏÏÌÍÌ MinimizedKeyboard; // 0x70
+        public UnityEngine.GameObject[] ModalBackgrounds; // 0x78
+        public UnityEngine.GameObject WorldBackground; // 0x80
+        public ÏÌÎÍÍÌÌÏÌÍÎÌÌÏÏÏÍÍÍÏÏÌÏ[] KeyboardToggleGroups; // 0x88
+        public ÍÏÎÍÍÎÎÏÎÏÌÏÏÌÎÌÍÎÏÎÌÏÎ _keyboard; // 0x90
 
         // ── Methods ──
         public void get_SubmitText(){} // RVA: 0x7FFD4E5F95E0
@@ -121,9 +128,10 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
-        public object CountFormat;
-        public object MaxContentCount;
-        public object ObservableList;
+        public UnityEngine.GameObject CountFormat; // 0x20
+        public ÏÌÏÍÎÌÍÌÏÌÌÍÏÎÌÍÍÎÎÎÎÌÌ MaxContentCount; // 0x28
+        public ÏÏÍÏÏÍÏÌÎÍÏÏÍÏÌÏÎÌÏÎÎÏÍ ObservableList; // 0x30
+        public VRC.Localization.LocalizableString _header; // 0x38
 
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x7FFD5153B210

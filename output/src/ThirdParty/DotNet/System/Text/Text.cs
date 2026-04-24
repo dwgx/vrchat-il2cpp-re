@@ -7,9 +7,8 @@ namespace ThirdParty.DotNet.System.Text
 {
     public class Decoder : Object
     {
-        public object Fallback;
-        public object FallbackBuffer;
-        public object InternalHasFallbackBuffer;
+        public System.Text.DecoderFallback Fallback; // 0x10
+        public System.Text.DecoderFallbackBuffer FallbackBuffer; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -36,9 +35,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderFallback : Object
     {
-        public object ReplacementFallback;
-        public object ExceptionFallback;
-        public object MaxCharCount;
+        public System.Text.DecoderFallback ReplacementFallback;
+        public System.Text.DecoderFallback ExceptionFallback; // 0x8
 
         // ── Methods ──
         public void get_ReplacementFallback(){} // RVA: 0x7FFD537F0B40
@@ -50,7 +48,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderFallbackBuffer : Object
     {
-        public object Remaining;
+        public byte* Remaining; // 0x10
+        public char* charEnd; // 0x18
 
         // ── Methods ──
         public void Fallback(){} // RVA: 0x7FFD4E07C920
@@ -66,8 +65,10 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderNLS : Decoder
     {
-        public object MustFlush;
-        public object HasState;
+        public System.Text.Encoding MustFlush; // 0x20
+        public bool HasState; // 0x28
+        public bool _throwOnOverflow; // 0x29
+        public int _bytesUsed; // 0x2C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537F13B0
@@ -82,8 +83,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderReplacementFallback : DecoderFallback
     {
-        public object DefaultString;
-        public object MaxCharCount;
+        public string DefaultString; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537F2570 | overloaded x3
@@ -97,7 +97,9 @@ namespace ThirdParty.DotNet.System.Text
 
     public class DecoderReplacementFallbackBuffer : DecoderFallbackBuffer
     {
-        public object Remaining;
+        public string Remaining; // 0x20
+        public int _fallbackCount; // 0x28
+        public int _fallbackIndex; // 0x2C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537F2880
@@ -110,9 +112,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Encoder : Object
     {
-        public object Fallback;
-        public object FallbackBuffer;
-        public object InternalHasFallbackBuffer;
+        public System.Text.EncoderFallback Fallback; // 0x10
+        public 0x6642A398 FallbackBuffer; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -139,9 +140,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncoderFallback : Object
     {
-        public object ReplacementFallback;
-        public object ExceptionFallback;
-        public object MaxCharCount;
+        public System.Text.EncoderFallback ReplacementFallback;
+        public System.Text.EncoderFallback ExceptionFallback; // 0x8
 
         // ── Methods ──
         public void get_ReplacementFallback(){} // RVA: 0x7FFD537F4790
@@ -153,9 +153,11 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncoderNLS : Encoder
     {
-        public object Encoding;
-        public object MustFlush;
-        public object HasState;
+        public char Encoding; // 0x20
+        public System.Text.Encoding MustFlush; // 0x28
+        public bool HasState; // 0x30
+        public bool _throwOnOverflow; // 0x31
+        public int _charsUsed; // 0x34
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537F4C70
@@ -171,8 +173,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class EncoderReplacementFallback : EncoderFallback
     {
-        public object DefaultString;
-        public object MaxCharCount;
+        public string DefaultString; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537F5DE0 | overloaded x3
@@ -186,25 +187,68 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Encoding : Object
     {
-        public object InternalSyncObject;
-        public object Preamble;
-        public object BodyName;
-        public object EncodingName;
-        public object HeaderName;
-        public object WebName;
-        public object IsSingleByte;
-        public object EncoderFallback;
-        public object DecoderFallback;
-        public object IsReadOnly;
-        public object ASCII;
-        public object Latin1;
-        public object CodePage;
-        public object Default;
-        public object Unicode;
-        public object BigEndianUnicode;
-        public object UTF7;
-        public object UTF8;
-        public object UTF32;
+        public System.Text.Encoding InternalSyncObject;
+        public System.Text.Encoding Preamble; // 0x8
+        public System.Text.Encoding BodyName; // 0x10
+        public System.Text.Encoding EncodingName; // 0x18
+        public System.Text.Encoding HeaderName; // 0x20
+        public System.Text.Encoding WebName; // 0x28
+        public System.Text.Encoding IsSingleByte; // 0x30
+        public System.Text.Encoding EncoderFallback; // 0x38
+        public System.Collections.Generic.Dictionary`2<int,System.Text.Encoding> DecoderFallback; // 0x40
+        public int IsReadOnly;
+        public int ASCII;
+        public int Latin1;
+        public int CodePage;
+        public int Default;
+        public int Unicode;
+        public int BigEndianUnicode;
+        public int UTF7;
+        public int UTF8;
+        public int UTF32;
+        public int CodePageBigEndian;
+        public int CodePageWindows1252;
+        public int CodePageMacGB2312;
+        public int CodePageGB2312;
+        public int CodePageMacKorean;
+        public int CodePageDLLKorean;
+        public int ISO2022JP;
+        public int ISO2022JPESC;
+        public int ISO2022JPSISO;
+        public int ISOKorean;
+        public int ISOSimplifiedCN;
+        public int EUCJP;
+        public int ChineseHZ;
+        public int DuplicateEUCCN;
+        public int EUCCN;
+        public int EUCKR;
+        public int CodePageASCII;
+        public int ISO_8859_1;
+        public int ISCIIAssemese;
+        public int ISCIIBengali;
+        public int ISCIIDevanagari;
+        public int ISCIIGujarathi;
+        public int ISCIIKannada;
+        public int ISCIIMalayalam;
+        public int ISCIIOriya;
+        public int ISCIIPanjabi;
+        public int ISCIITamil;
+        public int ISCIITelugu;
+        public int GB18030;
+        public int ISO_8859_8I;
+        public int ISO_8859_8_Visual;
+        public int ENC50229;
+        public int CodePageUTF7;
+        public int CodePageUTF8;
+        public int CodePageUTF32;
+        public int CodePageUTF32BE;
+        public int m_codePage; // 0x10
+        public 0x6643C2F8 dataItem; // 0x18
+        public bool m_deserializedFromEverett; // 0x20
+        public bool m_isReadOnly; // 0x21
+        public System.Text.EncoderFallback encoderFallback; // 0x28
+        public System.Text.DecoderFallback decoderFallback; // 0x30
+        public object s_InternalSyncObject; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538100C0 | overloaded x2
@@ -262,11 +306,7 @@ namespace ThirdParty.DotNet.System.Text
 
     public class Rune : ValueType
     {
-        public object IsAscii;
-        public object IsBmp;
-        public object ReplacementChar;
-        public object Utf16SequenceLength;
-        public object Value;
+        public uint IsAscii; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E78D8B0 | overloaded x3
@@ -290,7 +330,7 @@ namespace ThirdParty.DotNet.System.Text
     public class StringBuilder : Object
     {
         public char[] Capacity; // 0x10
-        public em.MarkAborted.izeDefaultCase MaxCapacity; // 0x18
+        public System.Text.StringBuilder MaxCapacity; // 0x18
         public int Length; // 0x20
         public int Chars; // 0x24
         public int RemainingCurrentChunk; // 0x28
@@ -344,6 +384,8 @@ namespace ThirdParty.DotNet.System.Text
 
     public class StringBuilderCache : Object
     {
+        public System.Text.StringBuilder t_cachedInstance; // 0xFFFF
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0x7FFD538012F0
         public void Release(){} // RVA: 0x7FFD538013E0
@@ -352,7 +394,13 @@ namespace ThirdParty.DotNet.System.Text
 
     public class UTF32Encoding : Encoding
     {
-        public object Preamble;
+        public System.Text.UTF32Encoding Preamble;
+        public System.Text.UTF32Encoding s_bigEndianDefault; // 0x8
+        public byte[] s_bigEndianPreamble; // 0x10
+        public byte[] s_littleEndianPreamble; // 0x18
+        public bool _emitUTF32ByteOrderMark; // 0x38
+        public bool _isThrowException; // 0x39
+        public bool _bigEndian; // 0x3A
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53801560 | overloaded x3
@@ -378,7 +426,10 @@ namespace ThirdParty.DotNet.System.Text
 
     public class UTF8Encoding : Encoding
     {
-        public object Preamble;
+        public UTF8EncodingSealed Preamble;
+        public byte[] s_preamble; // 0x8
+        public bool _emitUTF8Identifier; // 0x38
+        public bool _isThrowException; // 0x39
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53806F90 | overloaded x3
@@ -405,7 +456,14 @@ namespace ThirdParty.DotNet.System.Text
 
     public class UnicodeEncoding : Encoding
     {
-        public object Preamble;
+        public System.Text.UnicodeEncoding Preamble;
+        public System.Text.UnicodeEncoding s_littleEndianDefault; // 0x8
+        public byte[] s_bigEndianPreamble; // 0x10
+        public byte[] s_littleEndianPreamble; // 0x18
+        public bool isThrowException; // 0x38
+        public bool bigEndian; // 0x39
+        public bool byteOrderMark; // 0x3A
+        public ulong highLowPatternMask; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5380B0E0 | overloaded x3

@@ -8,8 +8,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÌÏÎÌÍÍÎÏÏÍÍÌÌÎÎÎÏÌÏÍÌÏÌ</summary>
     public class MidiDeviceInfoEnumerator_3A28 : Object
     {
-        public object System.Collections.Generic.IEnumerator<PortMidi.MidiDeviceInfo>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<PortMidi.MidiDeviceInfo>.Current; // 0x10
+        public ÌÌÍÌÍÍÏÌÎÎÍÍÏÍÏÌÏÌÍÍÏÎÍ System.Collections.IEnumerator.Current; // 0x18
+        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ; // 0x48
+        public int ÌÏÌÌÏÏÌÌÎÌÍÌÏÏÍÌÌÎÏÌÌÌÎ; // 0x4C
 
         // ── Methods ──
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4F83FD90

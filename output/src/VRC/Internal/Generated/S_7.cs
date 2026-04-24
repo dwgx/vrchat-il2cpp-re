@@ -8,6 +8,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÏÌÌÏÏÎÎÌÌÏÍÍÏÍÍÎÌÍÍÍÍ</summary>
     public class Static10m_164D : Object
     {
+        public System.Action ÏÌÌÌÏÌÍÏÎÍÍÍÌÍÎÎÏÌÌÍÌÌÌ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F15B830
         public void Equals(){} // RVA: 0x7FFD4F15B830
@@ -24,6 +26,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÌÏÍÎÎÍÏÎÎÏÏÏÌÍÌÍÏÍÍÎ</summary>
     public class Static10m_283D : Object
     {
+        public System.Action`1<ÍÍÎÍÎÎÍÌÏÏÌÏÍÍÎÏÏÏÌÍÎÌÏ> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x10
+        public ÍÍÎÍÍÍÎÍÍÌÍÍÌÍÌÍÎÏÏÏÌÍÌ ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E943270
         public void Equals(){} // RVA: 0x7FFD4E943270
@@ -40,6 +45,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÏÍÏÏÎÍÌÍÎÏÏÎÌÏÌÎÎÏÍÍ</summary>
     public class Static10m_41D7 : Object
     {
+        public int ÌÍÍÍÍÎÌÎÏÍÌÌÎÎÌÎÍÌÎÏÍÍÏ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F14E150
         public void Equals(){} // RVA: 0x7FFD4F14E400
@@ -56,6 +63,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÍÍÍÎÏÍÌÎÏÎÏÌÌÌÍÍÎÎÏÌ</summary>
     public class Static10m_5317 : Object
     {
+        public ÍÌÌÍÏÍÏÌÏÌÌÌÍÌÎÌÍÏÍÌÍÎÏ ÎÏÍÎÏÍÎÏÎÏÏÍÍÏÏÍÎÎÎÍÏÌÌ; // 0x10
+        public ÎÎÍÏÏÌÎÍÏÎÏÌÎÏÎÏÎÎÎÌÏÌÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD5689A1E0
         public void Equals(){} // RVA: 0x7FFD5689A210
@@ -72,6 +82,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÍÍÏÍÌÌÍÏÎÏÍÎÍÍÍÌÎÏÏÌ</summary>
     public class Static10m_57E7 : Object
     {
+        public ÎÍÌÌÏÎÌÎÌÌÎÎÌÍÏÎÏÌÎÍÌÌÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<T> ÍÌÏÎÍÍÌÏÌÏÎÎÌÏÎÌÎÍÍÍÍÏÏ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
         public void Equals(){} // RVA: 0x7FFD4E090980
@@ -88,6 +101,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÌÏÏÎÌÍÍÌÏÏÌÍÍÎÌÏÍÎÌÍ</summary>
     public class Static10m_7F5A : Object
     {
+        public System.Collections.Generic.List`1<ÌÏÌÏÏÏÏÍÍÏÏÍÎÍÎÍÎÎÏÎÌÌÍ> ÏÌÏÌÏÍÍÍÎÍÌÍÌÌÏÏÎÏÎÎÍÎÏ; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,int> ÌÌÍÍÍÍÍÌÌÏÍÍÌÍÎÌÎÎÌÍÍÌÎ; // 0x18
+        public ÎÏÌÍÎÏÍÍÍÏÎÎÌÍÍÍÎÍÌÍÎÍÌ ÍÏÍÍÎÎÏÍÌÎÍÌÌÍÎÌÏÏÏÍÎÍÌ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EBEEC40
         public void Equals(){} // RVA: 0x7FFD4EBEED30
@@ -104,6 +121,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÏÍÍÏÍÏÎÎÏÌÎÎÏÏÏÏÍÏÍÏ</summary>
     public class Static10m_8FDD : Object
     {
+        public System.Action`1<System.Collections.IList> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090A40
         public void Equals(){} // RVA: 0x7FFD4E090A40
@@ -120,6 +139,13 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÏÌÎÌÍÌÌÎÎÍÌÏÌÌÎÎÌÍÍÏ</summary>
     public class Static10m_93C3 : Object
     {
+        public string ÌÍÍÌÎÏÏÎÍÏÍÏÎÌÏÍÍÏÍÏÎÎÏ; // 0x10
+        public int ÍÏÍÎÏÎÎÏÎÍÌÌÍÍÏÌÍÌÎÌÍÏÍ; // 0x18
+        public System.DateTime ÍÍÏÌÏÌÍÎÍÎÎÍÌÌÌÌÌÍÏÏÎÏÍ; // 0x20
+        public int ÏÎÍÏÎÌÏÏÏÌÍÌÌÎÌÏÌÎÌÍÌÏÍ; // 0x28
+        public int ÏÏÍÍÌÍÎÏÍÌÎÍÍÍÏÎÎÎÌÌÌÏÎ; // 0x2C
+        public bool ÌÌÎÎÍÌÏÌÎÏÏÌÎÌÎÌÍÍÍÍÏÏÌ; // 0x30
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC778E0
         public void Equals(){} // RVA: 0x7FFD4EC77A10
@@ -136,6 +162,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÏÌÏÏÏÍÎÌÌÍÌÏÏÏÎÌÌÎÍÏ</summary>
     public class Static10m_97DB : Object
     {
+        public 0x664C7360 ÏÍÏÍÌÎÍÌÍÌÏÏÎÌÏÎÌÍÌÎÍÎÍ; // 0x10
+        public System.Action`1<System.Collections.Generic.List`1<ÍÍÎÌÏÍÍÌÌÍÎÍÌÎÏÎÎÌÌÎÍÎÌ>> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4ECCF5A0
         public void Equals(){} // RVA: 0x7FFD4ECCFDC0
@@ -152,6 +181,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÍÌÍÌÏÏÎÏÌÏÌÎÎÌÏÌÍÎÎÌ</summary>
     public class Static10m_AB09 : Object
     {
+        public System.DateTime ÍÎÍÎÏÌÌÎÍÏÍÏÏÏÌÏÌÌÌÌÎÍÎ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FB36BE0
         public void Equals(){} // RVA: 0x7FFD4FB36C60
@@ -168,6 +199,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÎÌÏÏÍÎÏÌÎÌÏÍÌÌÌÎÌÏÎÍ</summary>
     public class Static10m_ADC1 : Object
     {
+        public UnityEngine.GameObject ÌÏÍÎÏÌÍÎÌÏÍÍÎÎÎÎÌÌÏÌÏÎÎ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F658AD0
         public void Equals(){} // RVA: 0x7FFD4F658C20
@@ -184,6 +217,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÌÎÏÍÎÎÏÏÌÎÍÎÎÌÎÌÏÌÌ</summary>
     public class Static10m_D382 : Object
     {
+        public ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ ÎÌÍÍÏÌÎÍÏÎÏÍÎÍÏÎÏÎÍÌÌÌÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FD40420
         public void Equals(){} // RVA: 0x7FFD4FD404D0
@@ -200,6 +235,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÎÏÍÎÍÍÍÍÎÎÍÌÌÎÎÎÌÌÌÌ</summary>
     public class Static10m_E442 : Object
     {
+        public ÏÌÏÏÍÎÌÎÏÎÏÍÍÎÏÎÏÌÌÌÏÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public 0x66382690 ÏÎÏÏÍÌÎÍÎÏÍÍÏÌÌÏÏÍÏÏÍÏÍ; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4F5F94C0
@@ -216,6 +254,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÍÌÌÌÎÏÏÎÌÍÌÏÏÎÏÎÍÏÍÍ</summary>
     public class Static10m_ED65 : Object
     {
+        public ÌÏÌÎÍÌÏÏÍÏÎÍÎÍÏÌÎÏÏÍÏÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public int ÍÍÍÍÏÌÏÌÎÌÏÍÎÎÎÌÌÌÏÏÍÌÏ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD568FA360
         public void Equals(){} // RVA: 0x7FFD568FA360
@@ -232,6 +273,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÌÍÎÎÍÌÍÏÍÌÍÎÍÌÍÍÍÍÎÍ</summary>
     public class Static11m_0F99 : Object
     {
+        public ÌÌÌÍÌÍÌÏÍÎÍÍÍÏÏÎÍÍÏÎÏÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Action`1<System.Collections.IEnumerable> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x18
+        public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC585D0
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -249,6 +294,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÍÍÌÏÎÍÎÎÏÎÎÎÌÎÍÏÍÎÎÍ</summary>
     public class Static11m_1221 : Object
     {
+        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ ÎÌÍÌÌÎÎÏÎÍÎÍÎÍÏÎÍÌÏÌÌÍÏ; // 0x10
+        public System.Func`2<System.Collections.Generic.KeyValuePair`2<int,ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ>,bool> ÍÎÌÎÏÎÍÎÍÏÍÏÌÏÏÎÏÍÏÏÌÏÏ; // 0x18
+        public System.Func`2<System.Collections.Generic.KeyValuePair`2<UnityEngine.GameObject,ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ>,bool> ÍÎÏÍÍÌÏÎÌÏÎÏÏÎÍÌÍÍÌÏÍÌÍ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FA9F0D0
         public void Equals(){} // RVA: 0x7FFD4FA9F2D0
@@ -266,6 +315,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÍÏÌÎÎÍÌÎÌÍÎÌÎÌÏÌÏÍÌÎ</summary>
     public class Static11m_162E : Object
     {
+        public ÌÎÍÏÎÏÍÏÍÌÍÍÏÏÎÎÎÌÌÌÏÌÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public int ÏÏÎÍÌÎÌÍÏÍÍÎÍÍÏÎÍÏÍÏÏÌÌ; // 0x18
+        public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<System.Collections.Generic.IList`1<ÎÏÌÎÍÏÌÏÎÏÌÍÏÌÍÌÏÌÍÌÏÏÏ>> ÏÍÏÌÎÏÍÎÎÎÌÏÍÌÌÌÏÏÎÌÍÏÌ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F7D1EA0
         public void Equals(){} // RVA: 0x7FFD4F7D1F40
@@ -283,6 +336,11 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÏÏÌÎÌÎÎÌÌÏÌÏÍÍÌÌÌÌÎÎ</summary>
     public class Static11m_8AED : Object
     {
+        public ÍÌÎÌÏÎÎÎÏÌÌÎÎÍÎÌÍÌÎÏÎÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public int ÍÍÍÏÍÌÏÎÏÏÍÎÏÎÍÎÌÏÌÏÍÌÏ; // 0x18
+        public string ÌÌÍÎÌÍÏÎÌÍÌÏÌÏÎÍÌÏÍÏÎÎÎ; // 0x20
+        public VRC.Core.FavoriteListModel ÎÏÎÎÌÍÍÌÎÏÎÏÎÍÎÎÎÎÏÌÍÏÍ; // 0x28
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4ED51EB0
         public void Equals(){} // RVA: 0x7FFD4ED521B0
@@ -300,6 +358,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÏÎÍÎÌÏÌÎÌÌÍÍÏÏÎÏÌÌÎÎ</summary>
     public class Static11m_9D9F : Object
     {
+        public ÏÍÌÍÍÍÏÌÍÌÏÏÍÍÎÎÌÏÎÌÍÏÎ ÌÍÎÍÍÏÏÏÍÏÎÏÌÌÏÏÍÏÌÌÍÎÌ; // 0x10
+        public ÌÏÏÎÎÏÎÎÎÌÌÌÍÎÍÎÍÍÍÎÌÍÏ ÍÏÍÍÎÎÏÍÌÎÍÌÌÍÎÌÏÏÏÍÎÍÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F965330
         public void Equals(){} // RVA: 0x7FFD4F979D60
@@ -317,6 +378,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÏÌÍÏÏÌÍÏÌÎÏÏÌÌÍÍÏÎÏÍ</summary>
     public class Static11m_B184 : Object
     {
+        public ÍÌÌÍÎÎÎÍÎÎÍÍÏÎÎÍÏÎÏÏÍÏÎ ÎÌÎÍÏÌÌÍÎÎÎÎÌÏÏÎÌÌÏÍÎÎÏ; // 0x10
+        public ÍÍÌÎÏÏÎÌÎÌÏÌÏÏÏÍÍÏÎÏÍÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
+        public UnityEngine.UI.Button ÎÏÍÎÏÍÎÏÎÏÏÍÍÏÏÍÎÎÎÍÏÌÌ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD566B0D00
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -334,6 +399,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÏÍÏÌÍÎÌÍÍÍÍÎÍÍÍÏÏÌÎ</summary>
     public class Static11m_C26E : Object
     {
+        public 0x6636F970 ÌÍÎÍÏÎÍÏÍÏÏÏÍÌÍÌÏÏÍÍÌÎÏ; // 0x10
+        public ÎÌÎÍÎÍÎÎÏÎÎÏÍÎÌÎÍÎÎÌÎÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F87ACD0
         public void Equals(){} // RVA: 0x7FFD4F8B4AF0
@@ -351,6 +419,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÌÌÎÏÎÍÍÌÌÍÌÍÌÌÍÏÌÏÏÍ</summary>
     public class Static11m_D5B5 : Object
     {
+        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ ÎÌÍÌÌÎÎÏÎÍÎÍÎÍÏÎÍÌÏÌÌÍÏ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4EA3A070
@@ -368,6 +438,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÌÍÌÌÍÌÍÌÌÏÎÌÍÌÍÍÌÏÍ</summary>
     public class Static11m_F1EE : Object
     {
+        public ÏÏÎÎÎÏÌÍÏÎÏÍÍÌÎÏÍÎÏÌÌÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Action`1<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ> ÏÏÏÎÎÎÏÏÌÏÏÏÎÌÌÎÍÏÎÍÏÏÍ; // 0x18
+        public System.Action`1<string> ÌÌÍÏÍÍÏÌÌÏÎÌÎÌÍÌÏÏÌÍÎÎÍ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E998F30
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -385,6 +459,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÍÎÎÌÍÍÍÏÏÏÏÌÏÏÏÎÌÌÏ</summary>
     public class Static11m_F2F2 : Object
     {
+        public ÎÎÏÎÌÍÍÏÍÏÍÍÏÍÎÏÏÌÎÌÌÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Action`1<System.Collections.Generic.List`1<ÍÏÏÍÌÌÏÎÏÏÍÎÍÎÏÍÎÌÍÎÎÎÍ>> ÏÏÏÎÎÎÏÏÌÏÏÏÎÌÌÎÍÏÎÍÏÏÍ; // 0x18
+        public System.Action`1<string> ÌÌÍÏÍÍÏÌÌÏÎÌÎÌÍÌÏÏÌÍÎÎÍ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC5BD10
         public void Equals(){} // RVA: 0x7FFD4EC5C0F0
@@ -420,6 +498,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÌÌÏÏÌÏÍÌÎÍÍÏÎÍÎÎÌÏÎÌ</summary>
     public class Static12m_2611 : Object
     {
+        public System.Threading.Tasks.TaskCompletionSource`1<System.ValueTuple`2<bool,string>> ÎÌÌÎÍÎÏÌÍÏÎÌÎÎÎÏÎÎÎÍÎÍÌ; // 0x10
+        public System.Threading.Tasks.TaskCompletionSource`1<System.ValueTuple`2<bool,string>> ÏÍÌÏÍÏÎÏÎÏÎÍÎÌÍÌÌÎÌÍÌÎÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD56C55C70
         public void Equals(){} // RVA: 0x7FFD56C55D90
@@ -438,6 +519,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÎÌÏÌÍÏÍÏÍÎÏÍÌÌÎÎÎÎÌÍ</summary>
     public class Static12m_8FB0 : Object
     {
+        public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<ÍÍÎÍÎÎÍÌÏÏÌÏÍÍÎÏÏÏÌÍÎÌÏ> ÎÍÎÌÌÏÏÌÎÌÌÏÌÏÌÏÏÍÏÍÌÌÏ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E6FB940
         public void Equals(){} // RVA: 0x7FFD4E6FBA60
@@ -456,6 +539,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÎÍÏÌÏÎÏÏÏÎÏÍÎÏÎÎÌÌÍÍ</summary>
     public class Static12m_AF37 : Object
     {
+        public int ÍÍÍÏÍÌÏÎÏÏÍÎÏÎÍÎÌÏÌÏÍÌÏ; // 0x10
+        public ÎÍÎÏÏÍÏÍÌÍÍÎÍÍÌÍÍÎÎÏÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD56737EC0
         public void Equals(){} // RVA: 0x7FFD56737EF0
@@ -493,6 +579,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÏÎÏÏÍÎÎÎÎÍÍÍÍÌÌÍÌÏÎÌ</summary>
     public class Static13m_EBE5 : Object
     {
+        public VRC.Core.ApiImage ÌÏÎÍÎÍÏÏÏÏÍÎÌÏÎÌÏÌÎÏÏÏÍ; // 0x10
+        public ÍÌÏÎÎÏÌÍÏÍÍÍÏÍÌÎÍÎÍÌÍÍÏ ÍÎÎÌÍÎÏÏÎÍÎÍÍÌÌÍÎÌÎÎÍÎÌ; // 0x18
+        public System.Action`1<VRC.Core.ApiContainer> ÍÎÏÏÏÏÍÍÍÍÍÍÎÌÍÎÎÌÏÌÏÍÏ; // 0x20
+        public System.Action`1<VRC.Core.ApiContainer> ÏÏÍÌÌÏÌÏÏÎÌÍÏÎÍÎÌÏÎÎÎÎÎ; // 0x28
+        public System.Action ÏÎÌÍÏÎÎÎÍÎÏÍÏÎÍÎÌÎÍÌÎÍÎ; // 0x30
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F6FED00
         public void Equals(){} // RVA: 0x7FFD4F6FEFE0
@@ -512,6 +604,17 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÌÌÎÏÌÌÎÌÎÍÏÍÌÏÎÍÍÌÏ</summary>
     public class Static14m_4EB9 : Object
     {
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÏÎÏÏÏÎÏÏÏÌÎÌÏÌÍÌÌÍÏÌÎÍÏ; // 0x10
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÏÏÎÏÎÎÎÏÍÏÌÌÎÍÍÎÏÍÏÌÎÏÌ; // 0x18
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÌÍÌÎÎÏÌÍÌÍÌÎÌÍÌÏÏÍÌÎÍÌÌ; // 0x20
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÎÍÎÎÍÏÌÏÌÍÎÏÍÎÏÏÌÏÏÍÍÏÌ; // 0x28
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÏÎÎÌÌÏÌÏÎÌÌÌÎÌÍÏÌÍÎÍÏÎÏ; // 0x30
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÍÍÏÏÎÎÌÌÌÌÌÍÎÎÍÏÏÎÏÌÍÏÏ; // 0x38
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÍÌÌÍÍÏÌÎÍÎÍÍÎÎÌÍÎÎÍÍÎÌÍ; // 0x40
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÌÎÍÍÍÍÌÎÌÎÏÎÌÎÏÌÍÍÎÏÏÎÎ; // 0x48
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÌÏÌÌÍÏÌÎÍÌÏÏÏÍÏÏÏÍÍÎÍÌÎ; // 0x50
+        public ÍÍÌÍÏÎÎÍÎÎÏÌÏÏÍÎÌÏÌÍÏÍÏ ÍÎÏÌÏÏÎÍÏÏÎÎÌÏÎÏÎÍÏÌÏÍÎ; // 0x58
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F3C2080
         public void Equals(){} // RVA: 0x7FFD4F3C22D0
@@ -532,6 +635,11 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÏÌÍÏÍÏÎÌÎÎÌÍÍÌÍÍÏÍÌÏ</summary>
     public class Static15m_1AA8 : Object
     {
+        public ÎÎÏÌÌÏÎÏÏÏÍÍÏÍÎÍÎÍÍÌÍÎÏ ÌÌÌÍÍÌÎÌÏÏÎÏÌÌÎÍÌÍÍÏÍÎÎ; // 0x10
+        public ÎÎÏÌÌÏÎÏÏÏÍÍÏÍÎÍÎÍÍÌÍÎÏ ÎÍÍÍÎÎÎÎÍÎÌÎÎÎÎÏÏÍÌÏÎÏÍ; // 0x16
+        public ÎÎÏÌÌÏÎÏÏÏÍÍÏÍÎÍÎÍÍÌÍÎÏ ÏÌÏÎÏÏÏÏÌÍÏÎÍÏÎÍÏÌÌÌÌÎÌ; // 0x1C
+        public ÎÎÏÌÌÏÎÏÏÏÍÍÏÍÎÍÎÍÍÌÍÎÏ ÎÎÎÍÏÏÍÌÍÎÏÍÌÏÌÏÌÏÌÎÏÏÌ; // 0x22
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F9B0280
         public void Equals(){} // RVA: 0x7FFD4F9B02A0
@@ -553,6 +661,19 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÎÎÍÌÏÏÎÍÎÎÎÍÍÏÏÌÍÏÍÏ</summary>
     public class Static17m_0E26 : Object
     {
+        public byte ÍÏÎÏÏÌÌÌÍÍÏÌÏÌÎÏÏÍÍÍÎÌÍ; // 0x10
+        public byte ÌÎÏÍÍÏÎÌÍÏÎÍÍÏÎÏÌÏÍÏÍÌÏ; // 0x11
+        public bool ÎÍÌÏÏÌÌÌÎÌÎÍÏÌÍÍÍÍÎÏÎÌÎ; // 0x12
+        public bool ÍÍÎÌÌÌÍÎÎÏÍÏÎÍÍÌÏÍÌÍÍÌÏ; // 0x13
+        public bool ÌÏÏÍÎÏÏÎÎÍÍÍÍÏÌÌÌÏÍÌÌÍÏ; // 0x14
+        public bool ÎÌÏÏÏÏÎÎÏÍÎÌÌÎÏÎÍÎÌÎÏÏÍ; // 0x15
+        public bool ÏÍÍÍÍÍÏÌÎÍÌÏÌÏÏÎÍÌÎÎÎÎÌ; // 0x16
+        public bool ÏÎÏÏÏÎÍÍÏÌÍÍÍÌÍÎÌÎÌÍÌÍÎ; // 0x17
+        public bool ÏÌÍÎÌÌÌÏÌÍÏÌÍÏÌÏÍÌÎÌÍÍÌ; // 0x18
+        public bool ÌÍÍÌÏÌÎÌÏÎÍÎÏÎÎÏÍÍÌÍÍÎÎ; // 0x19
+        public int ÌÎÌÍÌÎÎÏÏÍÏÌÎÌÎÌÎÌÎÏÌÍÌ; // 0x1C
+        public string[] ÏÌÎÍÎÍÏÎÎÍÍÌÍÌÌÏÎÎÏÏÎÌÏ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F9937D0
         public void .cctor(){} // RVA: 0x7FFD4F9937E0
@@ -575,6 +696,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÎÏÏÏÎÌÎÏÏÎÎÏÎÌÎÌÎÍÎ</summary>
     public class Static1m_0F72 : Object
     {
+        public byte ÌÍÍÌÏÌÎÌÏÍÌÏÌÍÍÌÍÍÍÎÏÎÎ;
+        public byte ÌÎÎÍÏÌÌÏÎÎÍÏÌÏÍÏÌÌÏÌÍÍÍ;
+        public byte ÌÌÎÍÏÎÍÏÍÌÌÏÌÌÌÌÎÍÍÍÌÎÍ;
+        public byte ÏÌÌÌÎÎÍÏÏÏÍÍÏÌÍÎÎÌÏÏÎÎÌ;
+        public byte ÎÏÍÎÎÏÌÏÌÏÏÍÎÏÍÎÎÎÎÎÍÌÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -589,6 +716,14 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÎÍÍÌÍÎÎÍÏÏÍÍÍÌÏÍÎÎÎÏ</summary>
     public class Static1m_2295 : Object
     {
+        public Photon.Client.PhotonHashtable ÍÏÍÍÎÏÌÌÏÎÍÍÎÏÍÍÍÏÍÏÍÍÎ; // 0x10
+        public int ÌÌÌÍÌÎÍÌÍÌÌÍÎÍÏÎÎÏÎÌÎÏÌ; // 0x18
+        public 0x66378298 ÏÏÏÌÎÍÏÌÍÎÏÌÎÎÎÎÏÌÍÎÌÌÏ; // 0x1C
+        public ÎÌÌÍÌÎÍÍÎÏÌÌÍÌÎÎÌÎÌÌÍÎÎ ÌÏÍÌÏÍÌÎÎÌÏÎÍÎÌÍÎÌÌÍÌÎÍ; // 0x20
+        public string ÌÍÎÏÏÍÎÍÍÏÏÍÎÌÌÌÍÏÌÍÍÍÍ; // 0x28
+        public string[] ÌÏÎÍÎÍÍÍÌÍÍÎÌÌÏÌÍÍÏÎÏÎÌ; // 0x30
+        public object ÎÏÏÏÌÎÍÍÎÏÌÎÌÌÍÍÎÍÌÎÌÏÌ; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -596,6 +731,15 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÌÏÏÌÏÏÎÎÎÍÏÌÎÌÎÍÏÍÌÏ</summary>
     public class Static1m_3469 : Object
     {
+        public byte ÍÍÌÍÏÎÍÍÌÏÌÎÌÍÍÏÎÎÌÎÎÍÍ;
+        public byte ÎÍÌÍÌÏÎÏÍÎÎÍÎÌÏÍÎÏÍÏÎÏÍ;
+        public byte ÍÍÏÌÏÏÏÎÌÌÎÌÍÏÍÍÍÏÏÌÌÌÍ;
+        public byte ÎÍÏÍÎÌÌÌÏÏÍÏÍÎÍÌÍÎÌÏÎÏÍ;
+        public byte ÎÍÌÍÏÏÍÍÍÌÌÎÎÎÌÍÎÍÌÍÏÍÌ;
+        public byte ÏÌÍÍÏÌÏÏÎÍÎÎÏÍÏÍÌÎÎÌÎÎÍ;
+        public byte ÎÎÍÏÏÌÏÏÎÏÌÏÍÍÏÏÏÍÍÎÌÏÏ;
+        public byte ÍÏÍÎÌÌÍÏÌÎÏÎÍÍÍÎÍÌÏÎÏÌÍ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -610,6 +754,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÍÌÏÏÍÏÏÎÌÏÏÎÏÏÎÌÏÎÎÎ</summary>
     public class Static1m_6B28 : Object
     {
+        public string ÎÍÍÎÎÍÎÎÍÌÎÏÌÌÎÏÍÏÎÏÏÎÍ; // 0x10
+        public string ÍÌÍÏÎÏÎÏÎÍÏÍÎÎÎÌÎÌÌÎÍÏÌ; // 0x18
+        public bool ÎÌÎÌÏÍÏÍÌÏÏÎÏÎÎÏÎÍÏÎÌÏÌ; // 0x20
+        public 0x664D9630 ÌÌÍÎÌÌÏÍÍÍÏÎÎÎÌÍÏÌÏÏÍÍÌ; // 0x24
+        public int ÌÎÍÌÏÌÎÎÎÎÍÎÌÌÌÎÍÏÍÎÍÍÏ; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -617,6 +767,11 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÎÎÌÌÎÍÏÎÏÍÌÎÏÍÏÎÌÎÌÏ</summary>
     public class Static1m_75F1 : Object
     {
+        public UnityEngine.Sprite ÍÎÎÍÎÍÌÍÌÏÏÏÎÌÎÏÌÎÍÍÌÏÏ; // 0x10
+        public VRC.Localization.LocalizableString ÍÏÌÎÏÍÌÌÎÌÎÎÍÍÎÎÏÎÎÌÏÎÌ; // 0x18
+        public VRC.Localization.LocalizableString ÍÎÌÏÏÎÎÌÎÎÏÌÏÍÌÎÏÎÌÎÎÎÌ; // 0x40
+        public System.Action ÏÍÌÍÎÏÎÎÎÏÏÏÌÌÌÎÍÌÏÌÎÍÍ; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -624,6 +779,13 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÌÏÎÎÌÍÎÏÎÎÌÎÎÏÍÌÌÎÍ</summary>
     public class Static1m_86D7 : Object
     {
+        public UnityEngine.Color ÌÏÎÍÌÌÎÍÏÎÏÍÌÏÎÍÍÌÎÌÏÌÎ; // 0x10
+        public UnityEngine.Color ÌÌÏÏÌÍÏÏÌÌÏÎÍÍÌÌÍÍÌÏÏÏÍ; // 0x20
+        public UnityEngine.Color ÍÍÌÏÍÍÏÏÎÌÍÍÎÍÏÍÌÍÏÍÏÎÎ; // 0x30
+        public UnityEngine.Color ÌÍÏÏÌÏÎÌÍÏÎÍÍÌÌÍÎÎÎÏÍÏÎ; // 0x40
+        public UnityEngine.Color ÍÏÏÌÎÎÏÌÌÌÌÍÌÎÌÌÌÍÏÌÍÏÎ; // 0x50
+        public UnityEngine.Color ÏÎÏÎÍÍÍÍÏÏÍÏÍÏÌÌÍÎÏÍÍÍÍ; // 0x60
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -638,6 +800,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÎÍÎÍÏÏÌÎÍÎÏÏÏÎÏÏÎÏÎÎ</summary>
     public class Static1m_A0B1 : Object
     {
+        public 0x6662FFA0 ÏÎÎÏÌÏÍÌÎÎÌÍÏÍÌÎÌÏÌÍÌÌÌ; // 0x10
+        public ÎÏÍÏÏÎÌÌ.ÎÍÌÌÎÏÏÏ ÌÏÏÌÎÎÌÍÏÌÌÍÏÌÏÎÍÌÏÌÍÎÍ; // 0x18
+        public System.Type ÎÌÏÍÎÌÍÎÏÏÏÍÌÎÎÏÎÌÌÏÌÌÏ; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -645,6 +811,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÏÍÏÌÍÌÏÍÌÍÍÌÍÌÌÌÎÏÎÏ</summary>
     public class Static1m_DC54 : Object
     {
+        public ÎÏÏÌÏÌÍÏÍÍÎÍÎÌÍÎÌÏÌÌÍÍÍ ÍÏÍÎÎÎÌÍÍÏÌÎÏÎÍÎÏÎÏÎÎÌÏ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -652,6 +820,13 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÎÏÌÎÌÍÏÎÏÌÏÌÌÎÎÌÏÏÏÎ</summary>
     public class Static22m_2C95 : Object
     {
+        public System.Collections.Generic.List`1<ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÎÍÍÌÌÌÌÍÏÍÏÎÌÏÌÎÎÌÍÍÍÍÍ>>> ÌÏÏÍÍÌÏÏÍÎÌÍÌÌÎÍÍÌÍÎÎÍÏ; // 0x10
+        public int[] ÌÍÍÏÏÍÌÌÌÌÌÍÎÌÏÍÌÌÎÏÌÎÍ; // 0x18
+        public UnityEngine.Texture2D ÎÎÍÌÌÌÌÎÎÎÏÍÏÌÏÎÍÎÎÏÎÎÍ; // 0x20
+        public ÍÌÌÍÎÎÎÍÎÎÍÍÏÎÎÍÏÎÏÏÍÏÎ ÎÏÏÌÎÌÎÎÏÎÏÌÌÌÍÏÌÎÎÏÌÌÌ; // 0x28
+        public ÎÎÍÍÏÏÎÌÏÏÍÌÍÌÎÌÏÎÎÌÏÎÎ ÍÌÎÎÍÍÏÍÏÏÏÏÍÏÎÏÍÍÎÍÌÌÎ; // 0x30
+        public System.Collections.Generic.Dictionary`2<!,int> ÎÏÏÍÎÍÌÎÏÌÍÏÍÍÎÎÏÍÍÎÍÏÏ; // 0x38
+
         // ── Methods ──
         public void AddUnitNode(){} // RVA: 0x7FFD4E36F890
         public void Equals(){} // RVA: 0x7FFD4E36F0C0
@@ -679,6 +854,26 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÌÎÌÍÍÎÍÏÏÎÏÏÎÎÎÌÌÌÍÏ</summary>
     public class Static2m_1260 : Object
     {
+        public float cameraTilt; // 0x10
+        public float maxAngle; // 0x14
+        public float expoPitch; // 0x18
+        public float expoRoll; // 0x1C
+        public float expoYaw; // 0x20
+        public float expoThrottle; // 0x24
+        public float centerSensitivityPitch; // 0x28
+        public float centerSensitivityRoll; // 0x2C
+        public float centerSensitivityYaw; // 0x30
+        public float centerSensitivityThrottle; // 0x34
+        public float maxRatePitch; // 0x38
+        public float maxRateRoll; // 0x3C
+        public float maxRateYaw; // 0x40
+        public float maxRateThrottle; // 0x44
+        public float modeChangeSmoothingTime; // 0x48
+        public float mass; // 0x4C
+        public float drag; // 0x50
+        public float crossSectionArea; // 0x54
+        public float motorPower; // 0x58
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4EA817E0 | overloaded x2
     }
@@ -694,6 +889,17 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÏÏÌÏÎÏÎÌÌÌÍÌÎÎÌÍÏÎÌÍ</summary>
     public class Static2m_732D : Object
     {
+        public UnityEngine.Color32 ÌÍÎÌÍÎÌÏÍÏÌÌÍÌÏÎÏÏÎÏÏÎÏ;
+        public UnityEngine.Color32 ÎÌÍÌÎÏÌÌÌÍÎÌÏÎÏÎÌÍÏÌÎÎÏ; // 0x4
+        public UnityEngine.Color32 ÎÏÏÌÎÎÎÏÍÍÍÌÏÌÍÎÌÍÌÏÎÌÍ; // 0x8
+        public UnityEngine.Color32 ÌÏÌÍÎÌÌÎÍÌÏÏÌÏÎÏÏÍÍÎÏÏÌ; // 0xC
+        public UnityEngine.Color32 ÏÌÏÌÍÎÍÎÍÎÌÎÍÌÌÍÎÎÍÎÌÌÍ; // 0x10
+        public string ÍÏÏÏÌÌÎÎÏÍÍÏÍÌÌÏÌÌÌÍÏÏÏ;
+        public string ÌÌÍÏÏÎÏÍÌÌÏÍÏÏÍÌÎÎÎÍÏÍÎ;
+        public string ÎÍÌÌÏÎÏÏÎÎÏÎÌÍÏÏÍÌÍÌÌÌÍ;
+        public string ÎÏÏÍÎÏÌÌÍÏÏÏÌÍÍÌÏÌÌÍÌÍÍ;
+        public string ÎÍÍÌÏÌÎÏÌÏÎÌÌÎÌÏÎÏÏÎÌÏÎ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD56A68F70
         public void .cctor(){} // RVA: 0x7FFD56A693E0
@@ -733,6 +939,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÍÎÎÏÎÎÏÎÎÏÎÏÎÍÎÍÌÎÍ</summary>
     public class Static5m_F854 : Object
     {
+        public string ÏÏÌÎÌÌÏÍÏÌÏÍÎÏÏÌÍÍÎÏÌÎÌ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E620080
         public void Equals(){} // RVA: 0x7FFD4E620240
@@ -744,6 +952,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÏÌÏÌÎÏÍÍÍÏÏÎÏÏÍÍÏÎÎ</summary>
     public class Static7m_0702 : Object
     {
+        public System.Action ÏÍÌÍÎÏÎÎÎÏÏÏÌÌÌÎÍÌÏÌÎÍÍ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4E623950
@@ -757,6 +967,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÍÎÍÌÌÏÌÏÍÍÌÌÍÎÍÍÏÌÎ</summary>
     public class Static7m_0B30 : Object
     {
+        public ÌÎÏÌÏÌÌÌÏÌÍÌÎÎÎÌÎÌÏÍÍÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD569C9E20
         public void Equals(){} // RVA: 0x7FFD569C9F50
@@ -770,6 +983,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÌÌÏÏÍÌÏÌÏÏÍÎÍÍÌÏÎÌÌÍ</summary>
     public class Static7m_23F8 : Object
     {
+        public string ÏÎÏÍÎÏÏÌÌÏÎÍÏÏÎÌÌÎÏÎÍÏÎ; // 0x10
+        public ÌÍÍÏÍÏÍÌÌÏÏÌÍÏÏÏÎÌÌÍÍÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4ECB5050
         public void Equals(){} // RVA: 0x7FFD4ECB5180
@@ -783,6 +999,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÏÏÌÌÍÎÎÌÍÏÌÌÏÏÌÌÏÍÏÏ</summary>
     public class Static7m_3A80 : Object
     {
+        public System.Threading.Tasks.Task`1<Mediapipe.ImageFrame> ÍÍÏÏÍÌÎÏÏÏÎÌÏÎÍÌÌÌÏÏÍÌÏ; // 0x10
+
         // ── Methods ──
         public void get_IsCompleted(){} // RVA: 0x7FFD4F878C20
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -796,6 +1014,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÏÌÌÏÍÍÍÌÎÏÌÌÎÍÎÏÌÌÎÎ</summary>
     public class Static7m_3CCD : Object
     {
+        public ÎÌÌÏÏÍÍÍÍÏÌÍÏÍÏÏÏÎÍÏÏÍÎ ÏÍÎÎÌÏÏÏÍÎÏÎÍÌÌÎÌÎÎÌÏÌÎ; // 0x10
+        public ÎÌÏÏÎÏÍÏÎÎÎÍÏÎÎÎÍÌÍÎÍÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EE3B640
         public void Equals(){} // RVA: 0x7FFD4EE3B770
@@ -809,6 +1030,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÌÍÏÎÍÍÎÍÏÏÌÏÏÏÍÏÌÌÏÎ</summary>
     public class Static7m_4ADD : Object
     {
+        public ÌÍÏÏÎÍÎÎÍÌÏÌÎÌÏÍÏÏÍÏÎÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Action`1<UnityEngine.Texture2D> ÎÍÏÏÍÍÌÌÏÍÍÎÏÏÍÎÍÍÎÏÍÏÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F7D0EA0
         public void Equals(){} // RVA: 0x7FFD4F7D1080
@@ -822,6 +1046,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÌÎÌÍÍÎÍÎÌÎÌÍÏÎÎÎÎÎÍÌ</summary>
     public class Static7m_4D8F : Object
     {
+        public System.Action`1<System.Collections.IList> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x10
+        public ÏÍÎÏÎÌÏÏÏÍÌÍÏÍÌÏÌÎÏÌÍÏÎ ÍÏÍÍÎÎÏÍÌÎÍÌÌÍÎÌÏÏÏÍÎÍÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC9DEF0
         public void Equals(){} // RVA: 0x7FFD4EC9E240
@@ -835,6 +1062,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÏÏÏÏÎÌÏÍÏÍÎÎÍÌÌÏÍÎÍÌ</summary>
     public class Static7m_741A : Object
     {
+        public ÏÌÌÎÍÏÏÍÎÍÌÌÏÏÏÏÎÎÌÏÌÎÌ ÎÌÍÌÎÏÍÎÎÍÏÎÏÌÍÏÌÎÍÎÏÎÍ; // 0x10
+        public Photon.Realtime.AppSettings ÎÌÍÎÏÌÎÌÌÎÍÌÍÍÍÎÎÏÎÎÌÌÌ; // 0x18
+        public ÏÌÏÍÎÎÌÏÌÌÎÍÏÏÍÏÌÏÎÍÏÎÎ ÌÍÎÎÍÌÍÌÍÌÎÌÍÏÌÎÍÏÌÎÎÏÏ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F9752B0
         public void Equals(){} // RVA: 0x7FFD4F975700
@@ -848,6 +1079,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÌÌÍÍÌÌÌÌÏÌÏÏÏÏÏÏÏÌÌ</summary>
     public class Static7m_9FEC : Object
     {
+        public ÏÎÍÏÏÍÏÎÎÍÌÌÌÏÎÏÍÏÎÏÏÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD569BB540
         public void Equals(){} // RVA: 0x7FFD569BB670
@@ -861,6 +1095,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÏÏÏÏÎÏÏÌÏÌÎÍÏÌÎÎÍÎÍÎ</summary>
     public class Static7m_C939 : Object
     {
+        public string ÏÎÏÍÏÏÏÏÎÌÏÎÌÏÎÌÌÌÎÌÍÍÍ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4E62D660
@@ -874,7 +1110,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÏÌÍÎÌÎÍÍÌÏÍÍÎÍÎÌÌÏÎÌ</summary>
     public class Static7m_D4CE : Object
     {
-        public ushort ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+        public ÌÎÏÍÎÍÎÎÍÎÍÏÍÍÏÎÍÎÎÌÍÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Action ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x18
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E8FE650
@@ -889,6 +1126,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÎÎÍÌÏÎÍÌÎÏÏÏÌÍÏÌÌÎÏÍ</summary>
     public class Static7m_FBA4 : Object
     {
+        public ÍÍÌÎÏÎÏÌÏÌÎÏÌÍÎÌÌÏÍÌÏÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Action`1<VRC.Localization.LocalizableString> ÏÏÎÌÎÏÍÌÏÍÍÎÎÌÌÏÌÌÍÎÏÏÏ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E96E960
         public void Equals(){} // RVA: 0x7FFD4E96E9B0
@@ -902,6 +1142,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÍÍÏÎÏÌÍÌÏÌÎÏÍÌÌÌÌÎÏÎ</summary>
     public class Static8m_079B : Object
     {
+        public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<System.Collections.Generic.IEnumerable`1<ÍÏÌÌÍÎÍÍÏÍÎÎÎÍÌÍÌÍÎÏÎÌÏ>> ÍÏÌÍÎÏÌÎÎÌÎÏÏÍÏÏÎÍÍÌÌÌÌ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4E95BC00
@@ -916,6 +1158,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÍÏÎÎÌÌÌÍÎÎÏÎÎÍÏÎÍÍÌÌ</summary>
     public class Static8m_0942 : Object
     {
+        public Features.Sharing.SharableContentData ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Action ÍÎÌÎÏÏÏÎÍÌÎÎÏÏÎÍÏÍÎÏÍÍÎ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F8CDA80
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -930,6 +1175,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÎÏÌÍÎÌÌÍÏÌÌÌÌÎÍÎÌÎÌÎ</summary>
     public class Static8m_135D : Object
     {
+        public ÎÌÍÌÏÌÎÌÎÏÏÏÏÎÏÍÏÍÌÍÍÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Action ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x18
+        public System.Action ÏÌÎÏÎÍÎÌÍÎÎÌÎÏÏÌÏÏÍÍÏÌÌ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F9ECED0
         public void Equals(){} // RVA: 0x7FFD4F9ED210
@@ -944,6 +1193,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÌÎÌÌÏÎÎÎÌÌÎÌÎÎÍÏÏÎÎ</summary>
     public class Static8m_1755 : Object
     {
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÌÎÎÌÌÌÍÌÍÍÏÎÎÏÏÎÎÏÍÌÎÎÎ; // 0x10
+        public string ÌÏÎÌÎÌÌÍÌÎÌÎÌÌÍÌÎÏÌÎÎÎÎ; // 0x18
+        public bool ÏÌÍÍÎÏÎÏÎÎÍÍÍÎÍÍÍÌÏÍÌÌÌ; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4E96EA00
@@ -958,6 +1211,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÏÍÎÏÏÌÏÍÏÏÎÎÌÍÌÏÏÎÍÌ</summary>
     public class Static8m_3487 : Object
     {
+        public string ÍÎÏÍÍÏÌÏÎÌÎÏÏÍÌÎÎÏÍÎÎÍÏ; // 0x10
+        public string ÎÏÎÍÏÌÏÏÍÍÍÌÎÏÍÍÎÍÏÏÍÌÏ; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4F09BDB0
@@ -972,6 +1228,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÍÎÍÌÏÎÏÌÌÌÏÎÍÏÍÎÌÏÏÌ</summary>
     public class Static8m_400D : Object
     {
+        public System.Action`1<string> ÌÌÍÏÍÍÏÌÌÏÎÌÎÌÍÌÏÏÌÍÎÎÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E957520
         public void Equals(){} // RVA: 0x7FFD4E957580
@@ -986,6 +1244,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÎÍÌÍÍÎÌÍÏÎÌÍÎÍÌÍÍÏÍÍ</summary>
     public class Static8m_5A6E : Object
     {
+        public ÍÏÏÌÌÏÌÏÌÍÏÏÎÏÎÌÍÏÌÌÍÏÏ ÍÍÎÎÏÎÎÏÍÎÎÍÏÎÎÍÌÌÌÌÎÍÍ; // 0x10
+        public 0x664CDCE8 ÏÏÎÎÏÌÍÌÍÌÍÏÍÏÎÌÎÌÍÏÍÌÍ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E833B40
         public void Equals(){} // RVA: 0x7FFD4E834030
@@ -1000,6 +1261,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÍÎÌÍÍÍÎÌÏÏÍÍÍÎÌÌÎÏÏÌ</summary>
     public class Static8m_A90C : Object
     {
+        public bool ÌÎÏÍÏÍÏÏÏÏÎÍÎÍÍÏÍÎÏÍÍÎÍ; // 0x10
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4E64C880
         public void Equals(){} // RVA: 0x7FFD4E64C880
@@ -1014,6 +1277,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÌÍÏÏÍÎÍÌÎÌÎÎÎÏÍÌÌÍÌÌ</summary>
     public class Static8m_AEB9 : Object
     {
+        public VRC.Economy.IProduct ÍÌÏÌÎÍÍÍÍÏÍÍÌÌÍÌÏÎÌÎÎÌÏ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EA22090
         public void Equals(){} // RVA: 0x7FFD4EA22160
@@ -1028,6 +1293,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÍÏÌÌÍÍÏÏÍÍÏÌÍÎÌÍÍÏÌÌ</summary>
     public class Static8m_C063 : Object
     {
+        public ÏÌÎÌÌÌÎÌÍÎÍÎÏÌÌÏÌÏÌÍÍÏÌ ÎÌÎÍÏÌÌÍÎÎÎÎÌÏÏÎÌÌÏÍÎÎÏ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD56CAC4A0
         public void Equals(){} // RVA: 0x7FFD56CAC4E0
@@ -1042,6 +1309,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÌÏÌÎÍÏÏÌÍÍÌÎÏÌÏÌÎÍÌÍ</summary>
     public class Static8m_C29A : Object
     {
+        public System.Action`1<ÍÍÍÌÎÍÍÏÏÏÎÎÌÎÍÎÏÎÌÍÍÏÎ> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x10
+        public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4EA06A00
@@ -1056,7 +1326,7 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÏÍÎÎÍÌÍÏÏÏÍÍÍÎÍÌÏÌÌÏÎ</summary>
     public class Static8m_CD66 : Object
     {
-        public string ÏÍÍÍÎÌÎÎÏÎÎÎÌÍÍÎÏÏÎÎÌÍÌ; // 0x10
+        public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<System.Collections.IEnumerable> ÍÌÎÏÍÌÍÏÎÎÍÏÍÌÏÏÎÏÏÏÏÍÎ; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1072,6 +1342,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÍÍÍÌÏÎÏÌÎÌÌÌÎÏÏÌÍÍÌÍ</summary>
     public class Static8m_D1FF : Object
     {
+        public ÏÏÌÎÌÍÍÏÌÌÎÎÎÌÏÏÎÏÏÏÏÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public System.Action`1<System.Collections.IList> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x18
+        public System.Action ÎÍÏÎÌÌÎÍÏÍÌÍÏÎÍÎÌÍÌÏÎÏÏ; // 0x20
+
         // ── Methods ──
         public void OnPointerClick(){} // RVA: 0x7FFD4E6232C0
         public void Equals(){} // RVA: 0x7FFD4E9577C0
@@ -1086,6 +1360,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÎÏÍÎÍÏÌÏÎÌÌÎÎÏÍÎÍÍÍÌ</summary>
     public class Static8m_E18E : Object
     {
+        public UnityEngine.EventSystems.PointerEventData ÍÍÍÍÎÏÎÎÏÌÎÎÍÍÏÍÎÏÍÌÏÏÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F6E9CA0
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1100,6 +1376,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÍÌÍÏÌÏÏÎÍÍÌÎÎÌÏÌÌÍÌÎ</summary>
     public class Static8m_EF82 : Object
     {
+        public ÌÏÎÏÌÏÎÌÍÌÌÎÏÍÎÏÏÎÌÎÍÍÌ ÏÎÎÍÍÏÍÌÏÏÌÏÏÎÎÌÏÌÍÌÏÎÌ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD5687AEB0
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1114,6 +1392,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÎÌÎÍÏÌÏÌÌÎÍÌÎÌÎÍÌÌÎÌ</summary>
     public class Static8m_F1E1 : Object
     {
+        public int ÍÎÌÌÍÏÏÎÎÎÍÌÎÍÏÍÎÏÌÎÏÏÌ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E5C6D80
         public void Equals(){} // RVA: 0x7FFD4E5C6EA0
@@ -1127,6 +1407,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÏÏÌÏÌÌÏÎÎÎÍÏÌÍÎÌÍÏÎÌ</summary>
     public class Static9m_082E : Object
     {
+        public VRC.Core.ApiAvatar ÌÏÌÍÌÌÎÏÏÌÎÌÍÏÍÏÍÍÎÎÌÍÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F836570
         public void Equals(){} // RVA: 0x7FFD4F8366B0
@@ -1142,6 +1424,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÏÌÏÌÌÎÍÎÎÍÍÌÌÍÍÎÍÎÏÍ</summary>
     public class Static9m_1BD2 : Object
     {
+        public System.Action ÌÍÌÌÍÏÍÎÏÌÎÍÌÏÏÍÏÎÍÌÌÎÏ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E623950
         public void Equals(){} // RVA: 0x7FFD4E623950
@@ -1157,6 +1441,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÍÎÍÏÎÌÎÍÌÏÍÍÎÍÍÍÏÌÎÍ</summary>
     public class Static9m_276D : Object
     {
+        public ÏÍÌÏÏÌÏÌÌÍÍÎÌÎÌÎÎÍÌÎÍÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public string ÏÏÌÎÏÌÌÏÏÌÎÍÍÎÏÎÎÍÍÌÍÎÍ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD56730ED0
         public void Equals(){} // RVA: 0x7FFD56730F40
@@ -1172,6 +1459,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÌÏÌÏÏÏÍÍÏÍÍÍÍÍÍÎÎÍÌÎ</summary>
     public class Static9m_277D : Object
     {
+        public string ÏÍÌÎÌÎÌÏÌÏÎÏÍÎÎÌÎÏÌÏÍÏÌ; // 0x10
+        public ÏÍÎÎÎÏÍÍÌÌÌÏÏÌÏÏÌÏÌÎÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EA2A560
         public void Equals(){} // RVA: 0x7FFD4EA2A790
@@ -1187,7 +1477,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÎÍÍÎÎÍÌÏÏÏÎÎÏÎÍÍÍÏÏÎ</summary>
     public class Static9m_387D : Object
     {
-        public string ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+        public System.Collections.Generic.List`1<VRC.Core.ApiGroupGalleryImage> ÍÌÏÎÍÍÌÏÌÏÎÎÌÏÎÌÎÍÍÍÍÏÏ; // 0x10
+        public int ÎÎÏÎÌÏÏÎÎÍÎÍÍÏÏÍÍÎÎÏÎÏÍ; // 0x18
+        public int ÌÏÍÎÍÍÍÎÍÌÎÌÌÌÍÍÏÎÎÎÎÏÏ; // 0x1C
+        public ÎÏÌÍÎÎÌÌÎÏÍÌÏÏÌÏÎÎÍÍÎÌÏ ÍÎÎÌÍÎÏÏÎÍÎÍÍÌÌÍÎÌÎÎÍÎÌ; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1204,6 +1497,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÏÏÏÍÏÎÎÍÍÌÏÏÎÌÏÍÏÏÎÏ</summary>
     public class Static9m_3C5C : Object
     {
+        public ÍÌÏÎÌÍÍÍÏÏÎÌÎÌÍÏÎÏÎÏÍÏÏ ÍÌÍÌÏÌÌÏÏÎÏÎÏÎÍÌÏÎÍÌÎÎÎ;
+        public System.Action ÌÍÏÌÏÏÌÎÏÌÌÍÌÌÌÌÎÏÎÏÏÏÎ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -1219,6 +1515,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÎÎÌÎÎÌÏÌÍÌÌÏÎÎÏÎÎÌÍÎ</summary>
     public class Static9m_3F8C : Object
     {
+        public Transmtn.DTO.Notifications.Notification ÎÏÍÎÎÌÌÏÎÏÌÌÌÏÎÍÏÏÎÎÍÌÎ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F2B6880
         public void Equals(){} // RVA: 0x7FFD4F2B6880
@@ -1234,6 +1532,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÎÍÎÌÎÏÏÎÏÌÍÌÏÍÏÏÌÍÍÌ</summary>
     public class Static9m_6ED0 : Object
     {
+        public bool ÎÌÏÍÌÎÍÎÌÍÏÏÏÎÌÍÍÏÍÍÎÏÏ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4E40B5E0
@@ -1249,6 +1549,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÎÏÎÎÌÎÌÏÍÍÍÎÎÏÎÍÌÍÍÍ</summary>
     public class Static9m_713B : Object
     {
+        public bool ÍÍÍÏÍÏÍÏÍÎÍÏÌÌÍÎÍÎÌÏÌÍÌ; // 0x10
+        public System.DateTime ÎÎÌÌÌÌÏÏÏÎÌÍÏÎÏÌÌÍÏÍÍÌÏ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F2B5800
         public void Equals(){} // RVA: 0x7FFD4F2B5A10
@@ -1264,6 +1567,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÌÎÏÌÌÏÏÎÍÏÌÍÌÏÍÏÍÌÎÌ</summary>
     public class Static9m_7BEB : Object
     {
+        public string ÎÏÏÎÎÏÎÌÎÏÍÏÍÏÌÌÎÍÍÎÌÎÌ; // 0x10
+        public System.Action`1<VRC.Core.APIUser> ÍÏÍÌÎÍÌÏÏÏÏÏÌÌÏÌÏÍÌÏÌÌÏ; // 0x18
+        public System.Action`1<string> ÌÍÎÎÌÏÌÎÎÍÍÌÌÌÍÌÌÌÏÎÍÎÌ; // 0x20
+
         // ── Methods ──
         public void OnPointerDown(){} // RVA: 0x7FFD4E8F6BC0
         public void Equals(){} // RVA: 0x7FFD4E8F6BC0
@@ -1279,6 +1586,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÎÏÍÎÌÏÍÍÏÏÌÏÍÌÌÎÏÎÍÎ</summary>
     public class Static9m_A686 : Object
     {
+        public ÏÎÎÌÌÍÎÌÍÎÌÌÌÎÎÌÏÌÍÏÏÌÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public int ÏÎÍÏÌÌÍÏÍÎÍÌÎÌÏÌÌÍÌÌÍÎÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC652E0
         public void Equals(){} // RVA: 0x7FFD4EC652E0
@@ -1294,6 +1604,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÌÏÎÎÌÎÍÏÌÍÍÎÎÎÌÌÌÏÍÎ</summary>
     public class Static9m_AF7A : Object
     {
+        public VRC.Udon.Common.Interfaces.IUdonEventReceiver ÎÏÌÎÎÎÏÏÍÌÍÏÌÍÎÍÎÍÍÍÏÍÏ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EA31930
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1309,6 +1621,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÌÍÎÎÏÏÏÍÏÍÏÌÌÏÎÌÍÍÏÏ</summary>
     public class Static9m_B94C : Object
     {
+        public 0x664D4CA0 ÎÌÌÌÍÎÎÏÌÏÏÎÏÍÌÎÎÌÏÎÍÏÌ; // 0x10
+        public System.Action ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x18
+        public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD56868BF0
         public void Equals(){} // RVA: 0x7FFD56868E70
@@ -1324,6 +1640,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÍÏÎÍÍÎÏÎÏÌÍÌÏÏÌÏÎÌÏÌÍÌ</summary>
     public class Static9m_CB09 : Object
     {
+        public ÍÍÎÍÎÎÍÌÏÏÌÏÍÍÎÏÏÏÌÍÎÌÏ ÌÍÌÌÎÎÏÎÏÌÌÏÍÌÎÎÏÌÌÏÍÏÎ; // 0x10
+        public bool ÏÍÎÍÍÎÏÍÎÎÎÍÏÎÌÎÍÌÏÌÍÌÏ; // 0x18
+        public UnityEngine.GameObject ÎÌÎÎÎÌÍÏÎÏÍÌÍÏÍÌÍÌÍÏÌÍÌ; // 0x20
+        public string ÎÍÌÌÏÍÏÍÌÏÎÎÌÎÏÎÍÌÍÏÍÎÎ; // 0x28
+        public bool ÍÏÎÌÎÌÍÌÏÎÎÌÍÌÍÍÎÏÌÌÌÍÌ; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4ED272B0
@@ -1339,6 +1661,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÎÎÎÎÏÎÌÌÏÍÍÏÍÌÍÏÍÌÍÍ</summary>
     public class Static9m_D861 : Object
     {
+        public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<System.ValueTuple`2<string,bool>> ÍÍÌÍÌÎÎÏÌÍÌÏÎÍÎÍÌÍÌÎÎÌÏ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F5909A0
         public void Equals(){} // RVA: 0x7FFD4F590AF0
@@ -1354,6 +1678,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÏÏÏÏÏÌÍÎÎÍÍÍÌÏÏÍÏÌÍÏ</summary>
     public class Static9m_DC08 : Object
     {
+        public ÌÍÌÏÏÌÏÍÌÏÏÎÌÎÎÌÎÎÏÏÎÍÌ ÌÏÎÌÌÏÍÎÌÍÏÏÎÎÎÏÎÎÍÏÏÎÍ; // 0x10
+        public ÌÏÎÍÌÍÌÌÎÍÎÍÏÎÌÎÌÏÍÌÏÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD56A3B7D0
         public void Equals(){} // RVA: 0x7FFD56A3B7D0
@@ -1369,6 +1696,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÎÎÍÍÌÌÏÍÍÎÎÍÌÍÍÍÍÍÎÎ</summary>
     public class Static9m_E509 : Object
     {
+        public bool ÎÏÏÏÏÍÍÍÎÍÌÍÍÎÌÎÏÍÌÏÎÏÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EAD3240
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1384,6 +1713,10 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÌÌÏÌÌÏÏÏÍÎÌÎÍÏÎÍÌÌÍÍÍ</summary>
     public class Static9m_F140 : Object
     {
+        public ÏÎÏÎÎÍÌÎÏÌÌÎÏÌÍÏÏÍÍÏÌÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x10
+        public string ÏÍÌÎÌÍÌÏÏÎÏÍÎÌÌÎÎÏÎÌÎÏÍ; // 0x18
+        public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<int> ÏÍÏÌÎÏÍÎÎÎÌÏÍÌÌÌÏÏÎÌÍÏÌ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F0A4040
         public void Equals(){} // RVA: 0x7FFD4F0A4340
@@ -1399,7 +1732,14 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÎÏÎÎÏÏÍÍÌÎÏÌÏÏÌÌÍÎÏÌÍ</summary>
     public class Struct1f_D4EE : ValueType
     {
-        public object _d4EE;
+        public 0x664C8960 _d4EE; // 0x10
+        public 0x664C89B8 ÍÌÍÏÎÍÍÎÍÍÍÌÎÍÏÏÌÏÏÍÌÎÍ; // 0x14
+        public 0x665B2B90 ÍÎÌÎÍÏÌÏÎÏÎÏÏÏÎÎÍÎÏÏÌÎÎ; // 0x18
+        public 0x664C8A10 ÏÎÏÌÎÎÌÌÏÌÌÌÍÌÎÏÏÏÎÎÌÏÏ; // 0x1C
+        public string[] ÏÎÏÌÏÍÌÏÌÍÎÌÌÌÏÎÏÏÏÌÍÎÌ; // 0x20
+        public string ÌÌÏÏÏÌÍÍÌÏÏÍÍÎÍÍÏÎÍÏÌÌÌ; // 0x28
+        public bool ÍÎÏÏÏÍÎÎÎÌÎÍÌÎÌÌÍÏÍÌÎÍÎ; // 0x30
+        public bool ÏÍÌÎÌÎÌÏÏÎÌÎÎÎÍÎÏÎÌÍÌÌÍ; // 0x31
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4FCABF20
@@ -1414,8 +1754,7 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÎÍÏÏÎÌÍÏÍÌÍÏÌÏÍÌÎÏÌÏÌÍ</summary>
     public class Struct2f_EFA0 : ValueType
     {
-        public object f_E36;
-        public object f_5ED;
+        public float[] f_E36; // 0x10
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F4882A0

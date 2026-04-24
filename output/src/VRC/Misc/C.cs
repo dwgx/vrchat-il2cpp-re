@@ -40,8 +40,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÎÍÍÎÍÎÏÍÌÍÍÍÎÍÎÌÏÌÎÏ</summary>
     public class Clone_08DE : Object
     {
-        public object _name;
-        public object _hideFlags;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> _name; // 0x10
+        public int _hideFlags; // 0x18
+        public ÍÏÍÍÏÎÍÍÎÌÎÎÌÏÌÎÌÏÏÏÍÎÏ ÍÍÍÍÎÌÏÍÎÏÌÏÏÎÎÌÏÍÏÌÎÌÏ; // 0x20
+        public int ÏÎÏÌÎÍÍÍÍÎÌÍÏÎÌÏÏÍÎÌÍÌÎ; // 0x28
+        public bool ÌÎÏÎÏÏÏÎÎÌÏÏÏÍÏÍÏÏÍÎÌÎÍ; // 0x2C
+        public bool ÌÎÍÎÍÏÌÌÏÍÍÍÌÌÎÌÏÏÌÎÍÍÏ; // 0x2D
+        public float ÍÎÌÎÌÏÌÍÍÏÎÍÌÌÍÍÎÍÎÍÎÍÎ; // 0x30
 
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD4E577800
@@ -66,6 +71,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÏÍÍÎÌÎÌÎÏÌÏÏÎÏÌÍÏÏÎÍ</summary>
     public class Clone_3DCF : Object
     {
+        public 0x66412088 ÎÍÍÎÏÎÍÏÌÌÌÎÌÌÍÍÏÍÎÍÎÎÎ; // 0x10
+        public 0x66412138[] ÏÌÌÌÌÎÌÎÎÌÍÍÎÏÌÌÍÍÌÍÎÏÎ; // 0x18
+        public 0x664120E0 ÎÏÏÏÌÌÌÏÌÎÏÍÏÍÌÍÍÎÏÏÌÏÎ; // 0x20
+        public string ÌÎÏÏÌÌÌÎÍÍÎÏÌÍÍÍÏÌÌÌÏÍÌ; // 0x28
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FCD3060
         public void Equals(){} // RVA: 0x7FFD4FCD30E0
@@ -81,6 +91,24 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÍÍÏÎÍÍÎÌÎÎÌÏÌÎÌÏÏÏÍÎÏ</summary>
     public class Clone_4AE0 : Object
     {
+        public 0x6640D7A8<VRC.Core.ApiAvatar> ÎÍÍÎÏÎÍÏÌÌÌÎÌÌÍÍÏÍÎÍÎÎÎ; // 0x10
+        public 0x6640D858<VRC.Core.ApiAvatar> ÎÌÏÎÎÌÍÍÌÌÎÌÎÍÏÏÎÍÏÍÍÎÏ; // 0x14
+        public 0x6640D800<VRC.Core.ApiAvatar> ÎÏÏÏÌÌÌÏÌÎÏÍÏÍÌÍÍÎÏÏÌÏÎ; // 0x18
+        public 0x6639AA50 ÍÍÎÏÏÌÍÏÍÏÏÌÎÍÌÍÏÎÎÎÍÌÎ; // 0x1C
+        public System.Nullable`1<0x6640D8B0<VRC.Core.ApiAvatar>> ÍÏÍÎÌÏÌÎÌÎÏÌÎÏÍÏÍÌÏÎÍÌÎ; // 0x20
+        public string ÍÍÏÌÍÍÏÌÎÎÌÏÌÍÎÌÏÍÎÌÍÎÍ; // 0x28
+        public string ÌÎÏÏÌÌÌÎÍÍÎÏÌÍÍÍÏÌÌÌÏÍÌ; // 0x30
+        public string[] ÎÎÏÌÏÎÎÍÏÎÌÏÌÌÎÏÏÌÎÍÍÎÌ; // 0x38
+        public string[] ÏÎÌÍÌÏÏÏÍÍÌÎÌÏÏÌÎÏÏÌÎÌÏ; // 0x40
+        public string ÍÎÏÎÎÍÍÏÌÍÌÍÏÎÍÏÏÍÌÏÌÏÎ; // 0x48
+        public 0x663A0F08 ÎÌÌÏÏÍÌÏÏÍÌÌÌÎÎÍÍÌÎÍÏÍÎ; // 0x50
+        public int ÌÏÍÏÌÎÌÍÏÎÎÍÏÏÏÏÏÍÌÍÏÏÍ; // 0x54
+        public bool ÎÌÌÍÌÌÌÍÎÌÏÌÌÍÍÎÏÎÌÍÍÎÍ; // 0x58
+        public bool ÎÍÌÏÌÏÏÏÍÍÌÌÏÎÎÏÎÏÍÌÍÎÎ; // 0x59
+        public System.Collections.Generic.Dictionary`2<string,Token> ÍÏÎÌÌÍÎÍÍÏÎÍÎÌÍÌÍÌÌÍÌÎÏ; // 0x60
+        public bool ÌÍÎÏÌÎÍÌÏÍÍÎÍÏÏÌÏÎÏÎÍÌÎ; // 0x68
+        public System.Nullable`1<int> ÏÍÎÌÌÏÎÎÏÌÏÎÏÎÌÎÌÏÍÌÏÏÌ; // 0x6C
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4ED4ABC0
         public void .ctor(){} // RVA: 0x7FFD4ED4AD30
@@ -94,6 +122,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÎÎÎÍÍÍÏÏÌÍÌÎÌÏÍÎÎÎÎÍÌ</summary>
     public class Clone_5715 : Object
     {
+        public 0x66411060 ÎÍÍÎÏÎÍÏÌÌÌÎÌÌÍÍÏÍÎÍÎÎÎ; // 0x10
+        public 0x664110B8 ÎÏÏÏÌÌÌÏÌÎÏÍÏÍÌÍÍÎÏÏÌÏÎ; // 0x14
+        public 0x66411110 ÎÌÏÍÎÌÍÎÏÏÏÍÌÎÎÏÎÌÌÏÌÌÏ; // 0x18
+
         // ── Methods ──
         public void Clone(){} // RVA: 0x7FFD4FCD11D0
         public void Equals(){} // RVA: 0x7FFD4FCD1250
@@ -108,6 +140,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÏÍÍÎÎÌÍÏÏÎÎÏÎÏÍÌÏÎÎÌ</summary>
     public class Clone_75DA : Object
     {
+        public System.Nullable`1<System.DateTime> ÍÏÎÏÏÏÎÎÎÍÏÍÌÍÎÏÍÍÌÌÎÍÎ; // 0x10
+        public System.Nullable`1<System.DateTime> ÎÍÏÎÎÎÍÏÍÏÌÎÌÎÌÍÏÍÌÏÎÏÏ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FCD3600
         public void Equals(){} // RVA: 0x7FFD4FCD3680
@@ -124,6 +159,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÎÌÎÏÎÌÍÏÏÏÌÎÍÍÏÏÏÍ</summary>
     public class CloseImpl_998F : Close_02D4
     {
+        public UnityEngine.UI.ScrollRect ÎÎÍÏÎÎÎÎÍÎÍÍÎÌÎÎÏÏÍÌÍÌÏ; // 0xA8
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÎÍÎÏÍÏÏÎÌÎÏÎÍÏÌÌÍÏÌÌÎÏÌ; // 0xB0
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÎÎÍÎÌÎÎÏÌÏÌÏÌÎÍÍÌÌÍÏÏÍÍ; // 0xB8
+        public float ÏÏÎÌÌÎÏÏÏÎÏÏÌÏÍÍÍÎÏÏÏÍÍ; // 0xC0
+        public 0x6636BB90 ÏÌÏÏÍÏÎÌÏÎÏÎÌÏÏÌÏÍÎÏÎÎÌ; // 0xC4
+        public System.Action ÍÎÏÌÏÏÌÏÍÌÍÎÏÏÎÌÏÎÌÌÎÎÎ; // 0xC8
+        public float ÎÌÍÏÏÍÍÎÏÌÍÎÎÎÍÎÎÍÎÍÍÏÍ; // 0xD0
+        public VRC.Localization.LocalizableString ÌÌÎÏÌÎÍÎÌÏÏÎÍÍÎÌÌÎÍÏÏÍÌ; // 0xD8
+
         // ── Methods ──
         public void Close(){} // RVA: 0x7FFD4F799880
         public void RaiseCancellation(){} // RVA: 0x7FFD4F799970
@@ -146,6 +190,20 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÎÎÏÎÎÍÍÏÍÌÌÍÍÏÏÏÍÍÌ</summary>
     public class Close_02D4 : UpdateComponent_B6B3
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÎÌÍÍÏÌÍÍÎÍÍÍÍÌÎÏÌÏÍÎÍÌÌ; // 0x60
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÏÏÌÏÌÍÎÎÎÍÎÎÌÏÏÌÎÍÎÌÌÎÍ; // 0x68
+        public UnityEngine.UI.Image ÏÍÎÎÎÌÏÌÌÏÎÌÌÍÍÌÎÎÌÎÍÏÌ; // 0x70
+        public UnityEngine.UI.Button ÎÎÎÌÎÏÍÍÎÌÎÎÎÍÎÌÌÏÎÍÎÎÍ; // 0x78
+        public System.Action ÍÏÌÎÏÎÍÎÏÌÎÍÌÌÍÌÎÎÍÌÎÌÌ; // 0x80
+        public float ÎÎÎÎÎÏÏÏÌÎÏÌÏÍÍÍÎÎÍÌÌÍÍ; // 0x88
+        public float ÌÎÍÍÎÍÎÎÎÎÎÏÏÌÍÏÌÍÎÍÌÌÌ; // 0x8C
+        public float ÏÎÎÌÍÏÍÏÏÌÏÏÍÍÌÏÍÎÏÌÏÍÏ; // 0x90
+        public float ÍÌÏÎÎÍÏÏÌÌÌÎÍÏÎÍÎÌÎÌÏÍÍ; // 0x94
+        public System.Action ÎÏÎÌÌÌÎÎÌÍÌÏÍÍÏÏÎÌÌÍÌÌÌ; // 0x98
+        public UnityEngine.Color32 ÏÍÌÎÍÎÍÌÏÏÏÍÎÎÍÎÌÎÌÍÏÏÌ; // 0xA0
+        public UnityEngine.Color32 ÌÌÍÏÏÌÍÏÌÏÌÍÏÎÏÍÍÏÏÎÍÏÏ; // 0xA4
+        public System.Action`1<bool> ÏÏÏÌÏÍÍÌÍÎÌÎÏÏÍÌÍÎÌÌÏÎÌ;
+
         // ── Methods ──
         public void Close(){} // RVA: 0x7FFD4F7971F0
         public void RaiseCancellation(){} // RVA: 0x7FFD4F797280
@@ -176,6 +234,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÍÌÌÎÌÎÎÏÌÏÍÍÏÌÌÌÎÏÌÏÏ</summary>
     public class Compare_09B3 : Object
     {
+        public int ÌÍÏÏÍÏÏÏÌÍÍÌÌÌÍÍÌÍÎÌÎÌÌ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F84EBC0
         public void Equals(){} // RVA: 0x7FFD4F84EBC0
@@ -206,6 +266,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÎÌÏÏÏÌÍÍÌÍÎÌÌÍÏÎÎÌÍÌ</summary>
     public class Compare_7E5B : Object
     {
+        public ÌÍÎÎÌÏÏÏÌÍÍÌÍÎÌÌÍÏÎÎÌÍÌ ÍÎÍÏÍÎÍÏÍÌÌÎÏÍÍÌÎÌÏÌÍÌÏ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F26CD70
         public void .cctor(){} // RVA: 0x7FFD4F26CDB0
@@ -249,6 +311,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÏÎÎÌÏÎÌÎÏÏÍÍÏÍÍÌÍÏÎÍÌ</summary>
     public class Compare_E81E : Object
     {
+        public System.Func`2<object,string> ÏÍÏÍÍÏÏÏÍÎÌÍÌÌÌÍÎÎÍÏÎÎÏ; // 0x10
+
         // ── Methods ──
         public void Compare(){} // RVA: 0x7FFD567FFE40
         public void .ctor(){} // RVA: 0x7FFD4E341310 | overloaded x2
@@ -263,6 +327,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÍÎÍÍÌÏÏÎÏÌÎÍÍÍÏÎÌÏÎÏ</summary>
     public class Configure_4111 : AbstractPurchasingModule
     {
+        public ÏÎÌÍÎÍÍÌÏÏÎÏÌÎÍÍÍÏÎÌÏÎÏ ÏÍÏÏÍÌÎÎÌÏÏÎÌÎÎÍÍÍÎÍÎÏÌ;
+
         // ── Methods ──
         public void Configure(){} // RVA: 0x7FFD4F2FCBC0
         public void RegisterStore(){} // RVA: 0x7FFD4F2FCC30
@@ -296,6 +362,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÎÏÍÏÎÏÍÏÎÏÌÌÌÏÍÍÎÎÌÎ</summary>
     public class ControlDerivedSibling_9B63 : Object
     {
+        public float ÌÎÎÏÍÌÎÎÎÍÎÎÎÎÌÏÎÎÍÌÍÏÏ; // 0x10
+        public float ÍÍÌÎÍÍÎÎÌÍÏÎÎÌÌÍÎÎÏÌÎÌÍ; // 0x14
+        public float ÎÌÏÍÎÍÍÍÌÏÌÎÍÏÏÌÏÌÎÎÌÌÏ; // 0x18
+        public float ÎÌÍÏÏÍÍÎÏÌÍÎÎÎÍÎÎÍÎÍÍÏÍ; // 0x1C
+        public float ÏÌÌÍÌÎÎÍÍÍÎÏÎÌÍÏÏÌÌÏÌÏÍ; // 0x20
+        public ÌÍÎÍÎÎÍÎÏÌÎÍÌÍÌÍÎÌÎÌÎÍÎ ÌÎÎÌÎÎÌÌÍÍÎÎÌÏÌÎÌÌÌÍÍÍÌ; // 0x28
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F454040
         public void Equals(){} // RVA: 0x7FFD4F4540B0
@@ -314,6 +387,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÍÍÍÏÎÏÍÌÌÍÌÏÎÏÎÎÏÌÌÌÎ</summary>
     public class ControlDerived_0D1B : Control
     {
+        public float[] ÍÍÎÍÎÍÎÎÏÍÌÏÎÍÍÏÌÏÏÎÎÌÏ; // 0x50
+        public System.Action`1<float[]> ÍÌÍÌÎÏÏÎÌÍÌÎÎÌÌÌÍÌÎÎÎÏÍ; // 0x58
+
         // ── Methods ──
         public void GetSubParameter(){} // RVA: 0x7FFD4F2ADB90
         public void GetLabel(){} // RVA: 0x7FFD4F2ADD00
@@ -330,6 +406,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÌÎÍÏÏÏÌÎÏÎÍÌÎÎÍÎÍÌÏÌÌÎ</summary>
     public class ControlDerived_4FDA : Control
     {
+        public VRC.Localization.LocalizableString ÌÌÍÏÍÍÎÌÏÌÏÍÎÏÌÍÏÌÎÌÏÍÌ; // 0x50
+        public float ÏÍÏÌÏÍÏÍÎÏÎÍÍÎÍÎÍÌÎÏÍÏÌ; // 0x78
+        public float ÏÎÌÍÍÏÌÎÌÍÌÍÌÍÍÎÏÏÎÎÎÏÌ; // 0x7C
+        public System.Action`1<float> ÍÌÍÌÎÏÏÎÌÍÌÎÎÌÌÌÍÌÎÎÎÏÍ; // 0x80
+        public float ÍÌÌÏÍÍÍÌÏÏÌÌÍÌÎÎÏÎÍÏÍÎÌ;
+
         // ── Methods ──
         public void GetSubParameter(){} // RVA: 0x7FFD4F12F540
         public void GetLabel(){} // RVA: 0x7FFD4F12F5D0
@@ -358,14 +440,6 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÍÎÎÏÍÏÏÎÎÍÏÌÍÏÏÌÌÌÌÌ</summary>
     public class CreatePropertiesCreateContract_D171 : DefaultContractResolver
     {
-        public object ÏÌÍÌÎÎÏÍÍÏÎÎÌÎÏÍÎÎÌÏÌÎÌ; // 0x10
-        public object ÌÌÌÎÍÎÌÍÌÌÏÍÍÌÎÏÏÏÏÎÍÏÌ; // 0x18
-        public object ÌÏÏÎÍÏÏÌÌÎÍÌÎÎÌÏÌÎÎÍÍÎÏ; // 0x20
-        public BuffersImpl ÍÍÍÏÏÌÎÍÏÏÌÎÎÎÌÍÏÌÏÌÏÎÏ; // 0x28
-        public BuffersImpl ÎÌÍÎÏÍÍÍÎÎÍÏÍÏÎÎÌÎÏÏÍÍÎ; // 0x30
-        public int ÌÎÌÌÎÌÌÏÎÎÎÍÏÏÍÌÍÏÌÍÏÍÍ;
-        public URA.woDigitYearMax<ÏÏÎÎÌÍÌÎÎÎÌÏÌÍÌÌ> ÍÌÏÌÏÏÌÍÎÍÏÌÍÏÎÌÌÏÍÎÍÏÍ; // 0x38
-
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD4EE03150
         public void get_DefaultMembersSearchFlags(){} // RVA: 0x7FFD4EE03150

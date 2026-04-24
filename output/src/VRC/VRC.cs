@@ -7,7 +7,8 @@ namespace VRC
 {
     public class AssetCache : Object
     {
-        public object _assetCache;
+        public System.Collections.Generic.List`1<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ> _assetCache; // 0x10
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> <ÌÏÎÍÎÏÍÍÎÍÎÎÌÍÌÍÌÎÎÌÌÌÏ>k__BackingField; // 0x18
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -30,10 +31,11 @@ namespace VRC
 
     public class BackgroundOption : Object
     {
-        public object IsLoaded;
-        public object BackgroundName;
-        public object Preview;
-        public object IsVRCPlus;
+        public VRC.Localization.LocalizableString IsLoaded; // 0x10
+        public string BackgroundName; // 0x38
+        public UnityEngine.Sprite Preview; // 0x40
+        public bool IsVRCPlus; // 0x48
+        public UnityEngine.Material _loadedMaterial; // 0x50
 
         // ── Methods ──
         public void set_IsLoaded(){} // RVA: 0x7FFD4F9DEBF0
@@ -53,7 +55,7 @@ namespace VRC
 
     public class BackgroundOptions : ScriptableObject
     {
-        public object Options;
+        public VRC.BackgroundOption[] Options; // 0x18
 
         // ── Methods ──
         public void set_Options(){} // RVA: 0x7FFD4E3447C0
@@ -70,6 +72,8 @@ namespace VRC
 
     public class ClientPlayerLoop : Object
     {
+        public System.Action ÌÍÌÏÏÍÌÌÏÎÏÏÍÏÏÌÏÏÍÏÍÌÌ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FA177E0
         public void Equals(){} // RVA: 0x7FFD4FA178F0
@@ -80,6 +84,8 @@ namespace VRC
 
     public class GiftDisplayReferences : ScriptableObject
     {
+        public GiftDisplayReference[] giftDisplayReferences; // 0x18
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F9F82F0
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
@@ -94,6 +100,19 @@ namespace VRC
 
     public class IMDraw : MonoBehaviour
     {
+        public IMDrawLine line2D; // 0x20
+        public IMDrawLine line3D; // 0x28
+        public IMDrawShape sphere; // 0x30
+        public IMDrawShape cone; // 0x38
+        public int MaxBuffer; // 0x40
+        public UnityEngine.Color Color; // 0x44
+        public float Alpha; // 0x54
+        public float LineWidth; // 0x58
+        public float DEFAULT_LINE_WIDTH;
+        public int Layer; // 0x5C
+        public bool ClearEachFrame; // 0x60
+        public bool DrawToMainCamera; // 0x61
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5527A470
         public void OnDestroy(){} // RVA: 0x7FFD5527A690
@@ -116,7 +135,10 @@ namespace VRC
 
     public class InputLatencyTracker : Object
     {
-        public object _inputLatencyTracker;
+        public System.Diagnostics.Stopwatch _inputLatencyTracker;
+        public bool ÌÎÏÌÏÌÌÌÎÎÏÍÌÌÏÌÎÎÌÏÏÏÎ; // 0x8
+        public float ÏÎÎÏÎÏÏÌÍÏÍÏÍÍÌÌÍÍÎÎÌÏÎ; // 0xC
+        public object ÏÌÎÎÍÌÌÏÏÏÎÏÍÏÏÏÍÎÎÍÌÎÏ; // 0x10
 
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4FA17EE0
@@ -139,27 +161,24 @@ namespace VRC
 
     public class StickerCollectionPrefab : ScriptableObject
     {
+        public UnityEngine.Sprite icon; // 0x18
+        public VRC.StickerPrefab[] stickers; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
     }
 
     public class StickerPrefab : ScriptableObject
     {
-        public object ID;
-        public object FileId;
-        public object IsBuiltIn;
-        public object Sprite;
-        public object CollectionID;
-        public object DisplayTexture;
-        public object FullResolutionTexture;
-        public object MaskTag;
-        public object IsAnimated;
-        public object Frames;
-        public object FPS;
-        public object LoopStyle;
-        public object LinearLoop;
-        public object EffectBundleID;
-        public object IsSpecialFX;
+        public UnityEngine.Texture2D ID; // 0x18
+        public bool FileId; // 0x20
+        public int IsBuiltIn; // 0x24
+        public int Sprite; // 0x28
+        public string CollectionID; // 0x30
+        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Sprite> DisplayTexture; // 0x38
+        public string FullResolutionTexture; // 0x40
+        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> MaskTag; // 0x48
+        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> IsAnimated; // 0x50
 
         // ── Methods ──
         public void get_IsAnimated(){} // RVA: 0x7FFD4E42F9D0
@@ -196,6 +215,10 @@ namespace VRC
 
     public class SystemsPlayerLoop : Object
     {
+        public bool _initialized;
+        public System.Action OnAvatarClone; // 0x8
+        public System.Action OnAvatarHeadChop; // 0x10
+
         // ── Methods ──
         public void add_OnAvatarClone(){} // RVA: 0x7FFD57270CB0
         public void remove_OnAvatarClone(){} // RVA: 0x7FFD57270DC0
@@ -212,12 +235,13 @@ namespace VRC
 
     public class Tools : Object
     {
-        public object isClient;
-        public object GameServerVersion;
-        public object ClientVersion;
-        public object SdkVersion;
-        public object UnityVersion;
-        public object Platform;
+        public System.Lazy`1<bool> isClient;
+        public string GameServerVersion; // 0x8
+        public string ClientVersion; // 0x10
+        public string SdkVersion; // 0x18
+        public VRC.Core.UnityVersion UnityVersion; // 0x20
+        public string Platform; // 0x38
+        public System.Random random; // 0x40
 
         // ── Methods ──
         public void get_isClient(){} // RVA: 0x7FFD57272530
@@ -269,6 +293,11 @@ namespace VRC
 
     public class VRCFastCrypto_Client : Object
     {
+        public string NATIVE_LIB;
+        public ulong publicKeyLength;
+        public ulong secretKeyLength; // 0x8
+        public ulong signatureLength; // 0x10
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD552A8960
         public void GetSizes(){} // RVA: 0x7FFD552A89E0

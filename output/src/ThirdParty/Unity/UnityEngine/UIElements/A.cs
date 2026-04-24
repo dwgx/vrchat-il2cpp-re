@@ -7,7 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Angle : ValueType
     {
-        public object value;
+        public float value; // 0x10
+        public 0x66481000 m_Unit; // 0x14
 
         // ── Methods ──
         public void None(){} // RVA: 0x7FFD54FF3760

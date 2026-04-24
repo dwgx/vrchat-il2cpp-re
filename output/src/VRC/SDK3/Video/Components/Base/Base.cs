@@ -7,14 +7,11 @@ namespace VRC.SDK3.Video.Components.Base
 {
     public class BaseVRCVideoPlayer : MonoBehaviour
     {
-        public object InitializeBase;
-        public object SyncIndexTimeSet;
-        public object SyncIndexPosition;
-        public object Loop;
-        public object IsPlaying;
-        public object IsReady;
-        public object VideoWidth;
-        public object VideoHeight;
+        public System.Action`1<VRC.SDK3.Video.Components.Base.BaseVRCVideoPlayer> InitializeBase;
+        public float SyncIndexTimeSet; // 0x20
+        public float SyncIndexPosition; // 0x24
+        public System.Collections.Generic.List`1<VRC.Udon.Common.Interfaces.IUdonBehaviour> Loop; // 0x28
+        public bool IsPlaying; // 0x30
 
         // ── Methods ──
         public void get_InitializeBase(){} // RVA: 0x7FFD57417FD0

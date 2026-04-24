@@ -7,7 +7,8 @@ namespace ThirdParty.Other.Unity.Services.Core
 {
     public class ExternalUserIdProperty : Object
     {
-        public object UserId;
+        public System.Action`1<string> UserId; // 0x10
+        public string m_UserId; // 0x18
 
         // ── Methods ──
         public void get_UserId(){} // RVA: 0x7FFD4E3447C0
@@ -25,7 +26,7 @@ namespace ThirdParty.Other.Unity.Services.Core
 
     public class InitializationOptions : Object
     {
-        public object Values;
+        public System.Collections.Generic.IDictionary`2<string,object> Values; // 0x10
 
         // ── Methods ──
         public void get_Values(){} // RVA: 0x7FFD4E35C380
@@ -46,10 +47,9 @@ namespace ThirdParty.Other.Unity.Services.Core
 
     public class UnityServices : Object
     {
-        public object Instance;
-        public object InstantiationCompletion;
-        public object State;
-        public object ExternalUserId;
+        public Unity.Services.Core.IUnityServices Instance;
+        public System.Threading.Tasks.TaskCompletionSource`1<object> InstantiationCompletion; // 0x8
+        public Unity.Services.Core.ExternalUserIdProperty State; // 0x10
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD54B10780
@@ -63,8 +63,8 @@ namespace ThirdParty.Other.Unity.Services.Core
 
     public class UnityThreadUtils : Object
     {
-        public object UnityThreadScheduler;
-        public object IsRunningOnUnityThread;
+        public int UnityThreadScheduler;
+        public System.Threading.Tasks.TaskScheduler IsRunningOnUnityThread; // 0x8
 
         // ── Methods ──
         public void set_UnityThreadScheduler(){} // RVA: 0x7FFD54B10CC0

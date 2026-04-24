@@ -13,6 +13,8 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ClassInterfaceAttribute : Attribute
     {
+        public 0x664350D8 _val; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
     }
@@ -27,6 +29,11 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ComCompatibleVersionAttribute : Attribute
     {
+        public int _major; // 0x10
+        public int _minor; // 0x14
+        public int _build; // 0x18
+        public int _revision; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538F6230
     }
@@ -39,12 +46,16 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ComVisibleAttribute : Attribute
     {
+        public bool _val; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E40B5F0
     }
 
     public class DefaultDllImportSearchPathsAttribute : Attribute
     {
+        public 0x664354A0 _paths; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
     }
@@ -56,8 +67,7 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class GCHandle : ValueType
     {
-        public object IsAllocated;
-        public object Target;
+        public UIntPtr IsAllocated; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538F76E0 | overloaded x3
@@ -82,6 +92,8 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class GuidAttribute : Attribute
     {
+        public string _val; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
@@ -94,14 +106,21 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ListViewA`1 : Object
     {
+        public System.Collections.Generic.KeyValuePair`2<string,int>[] _items; // 0x10
     }
 
     public class ListViewB`1 : Object
     {
+        public System.Collections.Generic.KeyValuePair`2<string,int>[] _items; // 0x10
     }
 
     public class Marshal : Object
     {
+        public int SystemMaxDBCSCharSize;
+        public int SystemDefaultCharSize; // 0x4
+        public System.Collections.Generic.Dictionary`2<System.ValueTuple`2<System.Type,string>,0x66434F20> MarshalerInstanceCache; // 0x8
+        public object MarshalerInstanceCacheLock; // 0x10
+
         // ── Methods ──
         public void AllocCoTaskMem(){} // RVA: 0x7FFD538F7DC0
         public void AllocHGlobal(){} // RVA: 0x7FFD538F7DE0 | overloaded x2
@@ -173,9 +192,10 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class OSPlatform : ValueType
     {
-        public object Linux;
-        public object OSX;
-        public object Windows;
+        public string Linux; // 0x10
+        public System.Runtime.InteropServices.OSPlatform OSX;
+        public System.Runtime.InteropServices.OSPlatform Windows; // 0x8
+        public System.Runtime.InteropServices.OSPlatform <Windows>k__BackingField; // 0x10
 
         // ── Methods ──
         public void get_Linux(){} // RVA: 0x7FFD538F4C60
@@ -192,10 +212,6 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class OptionalAttribute : Attribute
     {
-        public UIntPtr <DataPointer>k__BackingField; // 0x10
-        public int <Size>k__BackingField; // 0x18
-        public int <Reserved>k__BackingField; // 0x1C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -214,8 +230,9 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class RuntimeInformation : Object
     {
-        public object FrameworkDescription;
-        public object OSDescription;
+        public 0x66434CB8 FrameworkDescription;
+        public 0x66434CB8 OSDescription; // 0x4
+        public System.Runtime.InteropServices.OSPlatform _osPlatform; // 0x8
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD538F6A10

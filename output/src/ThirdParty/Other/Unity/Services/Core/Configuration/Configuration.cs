@@ -21,8 +21,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ConfigurationEntry : Object
     {
-        public object Value;
-        public object IsReadOnly;
+        public string Value; // 0x10
+        public bool IsReadOnly; // 0x18
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x7FFD4E35C380
@@ -34,7 +34,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ConfigurationUtils : Object
     {
-        public object ConfigurationLoader;
+        public Unity.Services.Core.Configuration.IConfigurationLoader ConfigurationLoader;
 
         // ── Methods ──
         public void get_ConfigurationLoader(){} // RVA: 0x7FFD54B0F8E0
@@ -55,6 +55,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ProjectConfiguration : Object
     {
+        public System.Collections.Generic.IReadOnlyDictionary`2<string,Unity.Services.Core.Configuration.ConfigurationEntry> m_ConfigValues; // 0x10
+        public Unity.Services.Core.Internal.Serialization.IJsonSerializer <Serializer>k__BackingField; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
         public void GetString(){} // RVA: 0x7FFD54B0FA80
@@ -62,7 +65,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class SerializableProjectConfiguration : ValueType
     {
-        public object Empty;
+        public string[] Empty; // 0x10
+        public Unity.Services.Core.Configuration.ConfigurationEntry[] Values; // 0x18
 
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x7FFD54B0FB90
@@ -70,6 +74,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class StreamingAssetsConfigurationLoader : Object
     {
+        public Unity.Services.Core.Internal.Serialization.IJsonSerializer m_Serializer; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void GetConfigAsync(){} // RVA: 0x7FFD54B0FCB0

@@ -7,7 +7,7 @@ namespace ThirdParty.Other.Internal.Threading.Tasks.Tracing
 {
     public class TaskTrace : Object
     {
-        public object Enabled;
+        public 0x6641D2F0 Enabled;
 
         // ── Methods ──
         public void get_Enabled(){} // RVA: 0x7FFD537DA7A0

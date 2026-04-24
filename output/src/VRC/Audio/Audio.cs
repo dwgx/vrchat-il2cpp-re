@@ -8,8 +8,14 @@ namespace VRC.Audio
     /// <summary>Originally: ÏÌÏÌÎÍÏÏÍÏÍÎÍÌÏÌÍÏÎÌÍÌÍ</summary>
     public class AudioFilterReadHandler_9BBB : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public int _destroyCancellationToken; // 0x20
+        public bool _useGUILayout; // 0x24
+        public UnityEngine.AudioSource ÍÏÎÏÍÍÏÎÍÍÎÎÎÏÌÏÌÌÏÎÍÌÏ; // 0x28
+        public ONSPAudioSource ÎÎÌÎÏÍÏÎÏÎÌÎÏÌÌÌÍÎÎÎÌÏÌ; // 0x30
+        public bool ÏÎÌÍÌÌÌÎÏÌÎÎÏÌÎÌÍÏÌÌÍÍÌ; // 0x38
+        public ÏÍÎÏÎÌÏÎÎÏÍÏÏÎÏÏÎÎÍÏÌÎÎ ÍÏÎÎÏÎÌÎÎÏÍÎÍÌÎÍÏÍÍÌÍÍÌ; // 0x40
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ <ÌÎÌÏÍÌÏÎÏÎÏÍÏÍÎÌÌÎÌÌÎÎÍ>k__BackingField; // 0x80
+        public ÍÍÌÌÎÍÏÏÍÎÎÌÏÎÏÍÏÏÌÍÎÌÏ <ÎÎÍÏÎÌÎÏÍÍÎÏÎÌÎÌÏÍÍÌÍÍÏ>k__BackingField; // 0x88
 
         // ── Methods ──
         public void InitPayloadEncryption(){} // RVA: 0x7FFD4E8F4AA0
@@ -37,7 +43,11 @@ namespace VRC.Audio
     /// <summary>Originally: ÍÍÎÍÎÏÍÌÏÎÏÌÎÏÍÏÏÎÌÍÏÍÍ</summary>
     public class AudioGetDeviceNamesOpenDevice_173D : Object
     {
-        public object _name;
+        public ÏÎÍÌÍÏÏÏÎÎÍÍÏÎÌÏÌÌÎÍÌÌÌ _name; // 0x10
+        public byte[] ÍÌÏÍÍÎÌÌÏÍÏÏÎÎÍÍÌÌÌÌÏÍÌ; // 0x18
+        public ÌÌÍÌÍÍÏÌÎÎÍÍÏÍÏÌÏÌÍÍÏÎÍ ÌÍÏÏÌÌÍÌÌÍÎÍÎÍÍÎÎÎÌÎÍÍÌ; // 0x20
+        public 0x665B3E78 ÍÌÎÌÏÍÌÌÎÌÌÏÌÏÎÎÌÌÏÏÏÏÌ; // 0x50
+        public 0x665B3E20 ÏÎÌÌÍÍÎÍÎÌÎÎÍÍÌÎÍÎÎÌÍÌÍ; // 0x58
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E5529D0
@@ -62,7 +72,10 @@ namespace VRC.Audio
     /// <summary>Originally: ÍÌÏÎÎÍÏÍÎÎÎÎÍÏÍÌÏÎÌÏÎÎÏ</summary>
     public class AudioPerformClipping_2B7E : RectMask2D
     {
-        public object _2B7E;
+        public System.Action _2B7E;
+        public bool ÌÏÍÌÍÎÏÌÎÌÏÎÍÏÌÎÎÍÏÎÎÌÍ; // 0x90
+        public Cysharp.Threading.Tasks.UniTask ÍÏÏÏÍÍÎÍÏÌÍÎÌÍÏÌÏÍÎÏÌÏÍ; // 0x98
+        public bool _clippingEnabled; // 0xA8
 
         // ── Methods ──
         public void get_padding(){} // RVA: 0x7FFD56C16E50
@@ -89,6 +102,10 @@ namespace VRC.Audio
     /// <summary>Originally: ÌÏÏÍÎÏÍÍÎÎÍÌÌÍÏÎÏÎÎÎÌÌÍ</summary>
     public class AudioSelectPreviousMicSelectNextMic_DB18 : MonoBehaviour
     {
+        public UnityEngine.UI.Button ÍÍÌÍÎÌÎÎÍÌÌÎÍÏÎÌÌÎÎÏÌÍÏ; // 0x20
+        public UnityEngine.UI.Button ÏÏÏÌÎÍÌÏÎÌÌÍÎÍÍÌÏÍÎÎÌÍÍ; // 0x28
+        public UnityEngine.UI.Text ÏÎÌÏÌÌÎÍÍÏÌÏÏÎÏÎÌÏÍÍÏÍÌ; // 0x30
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E341310
         public void RaiseCancellation(){} // RVA: 0x7FFD4E341310

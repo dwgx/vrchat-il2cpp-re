@@ -7,7 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class ScriptingStoreCallback : Object
     {
-        public object products;
+        public UnityEngine.Purchasing.Extension.IStoreCallback products; // 0x10
+        public Uniject.IUtil m_Util; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
@@ -21,20 +22,29 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ScriptingUnityCallback : Object
     {
+        public UnityEngine.Purchasing.IUnityCallback forwardTo; // 0x10
+        public Uniject.IUtil util; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
     }
 
     public class StandardPurchasingModule : AbstractPurchasingModule
     {
-        public object util;
-        public object logger;
-        public object storeInstance;
-        public object telemetryMetricsInstanceWrapper;
-        public object telemetryDiagnosticsInstanceWrapper;
-        public object appStore;
-        public object useFakeStoreUIMode;
-        public object useFakeStoreAlways;
+        public string util; // 0x18
+        public UnityEngine.Purchasing.INativeStoreProvider logger; // 0x20
+        public 0x664D9580 storeInstance; // 0x28
+        public UnityEngine.Purchasing.StandardPurchasingModule telemetryMetricsInstanceWrapper;
+        public Uniject.IUtil telemetryDiagnosticsInstanceWrapper; // 0x30
+        public UnityEngine.ILogger appStore; // 0x38
+        public 0x665DD9B0 useFakeStoreUIMode; // 0x40
+        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsInstanceWrapper useFakeStoreAlways; // 0x48
+        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnosticsInstanceWrapper <telemetryDiagnosticsInstanceWrapper>k__BackingField; // 0x50
+        public System.Collections.Generic.Dictionary`2<0x665DCF08,string> AndroidStoreNameMap; // 0x8
+        public 0x665DCF08 <appStore>k__BackingField; // 0x58
+        public 0x665DD220 <useFakeStoreUIMode>k__BackingField; // 0x5C
+        public bool <useFakeStoreAlways>k__BackingField; // 0x60
+        public UnityEngine.Purchasing.WinRTStore windowsStore; // 0x68
 
         // ── Methods ──
         public void get_util(){} // RVA: 0x7FFD4E5F95E0
@@ -80,7 +90,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreConfiguration : Object
     {
-        public object androidStore;
+        public 0x665DCF08 androidStore; // 0x10
 
         // ── Methods ──
         public void get_androidStore(){} // RVA: 0x7FFD4E38E5C0
@@ -91,6 +101,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreListenerProxy : Object
     {
+        public UnityEngine.Purchasing.IAnalyticsClient m_Analytics; // 0x10
+        public UnityEngine.Purchasing.IStoreListener m_ForwardTo; // 0x18
+        public UnityEngine.Purchasing.IExtensionProvider m_Extensions; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DD05F0
         public void OnInitialized(){} // RVA: 0x7FFD54DD06F0
@@ -102,6 +116,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class SubscriptionManager : Object
     {
+        public string receipt; // 0x10
+        public string productId; // 0x18
+        public string intro_json; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DFE6E0
         public void getSubscriptionInfo(){} // RVA: 0x7FFD54DFE820

@@ -7,14 +7,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandDetector.Proto
 {
     public class HandDetectorGraphOptions : Object
     {
-        public object Parser;
-        public object Descriptor;
-        public object pb::Google.Protobuf.IMessage.Descriptor;
-        public object BaseOptions;
-        public object MinDetectionConfidence;
-        public object HasMinDetectionConfidence;
-        public object NumHands;
-        public object HasNumHands;
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.HandDetector.Proto.HandDetectorGraphOptions> Parser;
+        public 0x6658E800 Descriptor; // 0x10
+        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions BaseOptions; // 0x20
+        public float MinDetectionConfidence; // 0x8
+        public float HasMinDetectionConfidence; // 0x28
+        public int NumHands; // 0xC
+        public int HasNumHands; // 0x2C
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD5371F0C0

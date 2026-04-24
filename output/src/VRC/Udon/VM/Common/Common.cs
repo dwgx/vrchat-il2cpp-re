@@ -7,7 +7,8 @@ namespace VRC.Udon.VM.Common
 {
     public class LightweightStack`1 : Object
     {
-        public object Contents;
+        public T[] Contents;
+        public int _size;
 
         // ── Methods ──
         public void get_Contents(){} // RVA: 0x7FFD4E2ADC40

@@ -7,14 +7,15 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 {
     public class FrameData : ValueType
     {
-        public object deltaTime;
-        public object effectiveSpeed;
-        public object evaluationType;
-        public object seekOccurred;
-        public object timeLooped;
-        public object timeHeld;
-        public object output;
-        public object effectivePlayState;
+        public ulong deltaTime; // 0x10
+        public double effectiveSpeed; // 0x18
+        public float evaluationType; // 0x20
+        public float seekOccurred; // 0x24
+        public double timeLooped; // 0x28
+        public float timeHeld; // 0x30
+        public float output; // 0x34
+        public 0x664E8258 effectivePlayState; // 0x38
+        public UnityEngine.Playables.PlayableOutput m_Output; // 0x40
 
         // ── Methods ──
         public void HasFlags(){} // RVA: 0x7FFD54D171E0
@@ -30,8 +31,15 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class FrameRate : ValueType
     {
-        public object dropFrame;
-        public object rate;
+        public UnityEngine.Playables.FrameRate dropFrame;
+        public UnityEngine.Playables.FrameRate rate; // 0x4
+        public UnityEngine.Playables.FrameRate k_25Fps; // 0x8
+        public UnityEngine.Playables.FrameRate k_30Fps; // 0xC
+        public UnityEngine.Playables.FrameRate k_29_97Fps; // 0x10
+        public UnityEngine.Playables.FrameRate k_50Fps; // 0x14
+        public UnityEngine.Playables.FrameRate k_60Fps; // 0x18
+        public UnityEngine.Playables.FrameRate k_59_94Fps; // 0x1C
+        public int m_Rate; // 0x10
 
         // ── Methods ──
         public void get_dropFrame(){} // RVA: 0x7FFD53A4EBA0
@@ -96,7 +104,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class Playable : ValueType
     {
-        public object Null;
+        public UnityEngine.Playables.PlayableHandle Null; // 0x10
+        public UnityEngine.Playables.Playable m_NullPlayable;
 
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7FFD54D178B0
@@ -140,15 +149,9 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableDirector : Behaviour
     {
-        public object state;
-        public object extrapolationMode;
-        public object playableAsset;
-        public object playableGraph;
-        public object playOnAwake;
-        public object timeUpdateMode;
-        public object time;
-        public object initialTime;
-        public object duration;
+        public System.Action`1<UnityEngine.Playables.PlayableDirector> state; // 0x18
+        public System.Action`1<UnityEngine.Playables.PlayableDirector> extrapolationMode; // 0x20
+        public System.Action`1<UnityEngine.Playables.PlayableDirector> playableAsset; // 0x28
 
         // ── Methods ──
         public void get_state(){} // RVA: 0x7FFD54D22030
@@ -243,6 +246,9 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableGraph : ValueType
     {
+        public UIntPtr m_Handle; // 0x10
+        public uint m_Version; // 0x18
+
         // ── Methods ──
         public void GetRootPlayable(){} // RVA: 0x7FFD54D18390
         public void Connect(){} // RVA: 0x7FFD4E2ADC40
@@ -296,7 +302,9 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableHandle : ValueType
     {
-        public object Null;
+        public UIntPtr Null; // 0x10
+        public uint m_Version; // 0x18
+        public UnityEngine.Playables.PlayableHandle m_Null;
 
         // ── Methods ──
         public void GetObject(){} // RVA: 0x7FFD4E2ADC40
@@ -375,7 +383,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableOutput : ValueType
     {
-        public object Null;
+        public UnityEngine.Playables.PlayableOutputHandle Null; // 0x10
+        public UnityEngine.Playables.PlayableOutput m_NullPlayableOutput;
 
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7FFD54D1B5E0
@@ -402,7 +411,9 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableOutputHandle : ValueType
     {
-        public object Null;
+        public UIntPtr Null; // 0x10
+        public uint m_Version; // 0x18
+        public UnityEngine.Playables.PlayableOutputHandle m_Null;
 
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7FFD54D1B7F0
@@ -436,7 +447,7 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class ScriptPlayableOutput : ValueType
     {
-        public object Null;
+        public UnityEngine.Playables.PlayableOutputHandle Null; // 0x10
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54D1C720
@@ -448,7 +459,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class ScriptPlayable`1 : ValueType
     {
-        public object Null;
+        public UnityEngine.Playables.PlayableHandle Null;
+        public UnityEngine.Playables.ScriptPlayable`1<T> m_NullPlayable;
 
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7FFD4E2ADC40

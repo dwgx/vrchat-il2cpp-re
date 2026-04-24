@@ -7,6 +7,9 @@ namespace VRC.Profiling
 {
     public class ProfilerMarker : ValueType
     {
+        public Unity.Profiling.ProfilerMarker ÏÏÌÏÌÌÏÏÎÍÎÏÌÌÌÍÎÌÍÎÎÏÏ; // 0x10
+        public string ÏÏÍÏÌÍÍÎÌÎÎÏÏÍÌÎÎÌÌÍÌÎÍ; // 0x18
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4FB8E230
         public void InternalEquals(){} // RVA: 0x7FFD4FB8E2C0

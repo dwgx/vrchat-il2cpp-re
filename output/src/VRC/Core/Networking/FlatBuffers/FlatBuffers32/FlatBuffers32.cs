@@ -7,9 +7,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class DataStorage : ValueType
     {
-        public object ByteBuffer;
-        public object EntriesTypeLength;
-        public object EntriesLength;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -44,8 +42,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageEntryUnion : Object
     {
-        public object Type;
-        public object Value;
+        public 0x6655F890 Type; // 0x10
+        public object Value; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -69,13 +67,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadata : ValueType
     {
-        public object ByteBuffer;
-        public object Is8Bit;
-        public object DoNotPersist;
-        public object Code;
-        public object ComponentInfoLength;
-        public object PayloadLength;
-        public object InitialPath;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void ComputeHash(){} // RVA: 0x7FFD551BC0A0
@@ -120,12 +112,12 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadataT : Object
     {
-        public object Is8Bit;
-        public object DoNotPersist;
-        public object Code;
-        public object ComponentInfo;
-        public object Payload;
-        public object InitialPath;
+        public bool Is8Bit; // 0x10
+        public bool DoNotPersist; // 0x11
+        public byte Code; // 0x12
+        public System.Collections.Generic.List`1<0x66560128> ComponentInfo; // 0x18
+        public System.Collections.Generic.List`1<0x66560230> Payload; // 0x20
+        public string InitialPath; // 0x28
 
         // ── Methods ──
         public void ComputeHash(){} // RVA: 0x7FFD551BE7C0
@@ -147,8 +139,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectPool : ValueType
     {
-        public object ByteBuffer;
-        public object DataLength;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -178,11 +169,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneGrab : ValueType
     {
-        public object ByteBuffer;
-        public object ChainIdA;
-        public object ChainIdB;
-        public object Bone;
-        public object Offset;
+        public Google.FlatBuffers32.Struct ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -203,9 +190,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataPair : ValueType
     {
-        public object ByteBuffer;
-        public object Key;
-        public object ValueType;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -250,8 +235,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataTypeUnion : Object
     {
-        public object Type;
-        public object Value;
+        public 0x66560AC8 Type; // 0x10
+        public object Value; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -303,8 +288,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerStationStateData : ValueType
     {
-        public object ByteBuffer;
-        public object ActiveStationsLength;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -331,13 +315,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionT : Object
     {
-        public object identity;
-        public object magnitude;
-        public object sqrMagnitude;
-        public object X;
-        public object Y;
-        public object Z;
-        public object W;
+        public float identity; // 0x10
+        public float magnitude; // 0x14
+        public float sqrMagnitude; // 0x18
+        public float X; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55192C50 | overloaded x2
@@ -362,9 +343,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SerializedObjects : ValueType
     {
-        public object ByteBuffer;
-        public object ObjectsTypeLength;
-        public object ObjectsLength;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -399,8 +378,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SerializedTypeUnion : Object
     {
-        public object Type;
-        public object Value;
+        public 0x66560EE8 Type; // 0x10
+        public object Value; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -428,9 +407,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SparseSerializedObjects : ValueType
     {
-        public object ByteBuffer;
-        public object Objects;
-        public object BitmapLength;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -462,10 +439,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SyncPlayable : ValueType
     {
-        public object ByteBuffer;
-        public object StageParamsOffset;
-        public object Puppet;
-        public object AvatarDiscriminator;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -494,9 +468,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Udon : ValueType
     {
-        public object ByteBuffer;
-        public object DataTypeLength;
-        public object DataLength;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -531,9 +503,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class UdonInfo : ValueType
     {
-        public object ByteBuffer;
-        public object NamesLength;
-        public object TypesLength;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220
@@ -563,8 +533,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class UdonValueUnion : Object
     {
-        public object Type;
-        public object Value;
+        public 0x665625F0 Type; // 0x10
+        public object Value; // 0x18
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -652,11 +622,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector2T : Object
     {
-        public object zero;
-        public object magnitude;
-        public object sqrMagnitude;
-        public object X;
-        public object Y;
+        public float zero; // 0x10
+        public float magnitude; // 0x14
 
         // ── Methods ──
         public void ToNumerics(){} // RVA: 0x7FFD50C943D0
@@ -681,11 +648,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class Vector3T : Object
     {
-        public object magnitude;
-        public object sqrMagnitude;
-        public object X;
-        public object Y;
-        public object Z;
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.Vector3T magnitude;
+        public float sqrMagnitude; // 0x10
+        public float X; // 0x14
+        public float Y; // 0x18
 
         // ── Methods ──
         public void ToNumerics(){} // RVA: 0x7FFD4EB56D20
@@ -712,16 +678,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WorldMetadata : ValueType
     {
-        public object ByteBuffer;
-        public object Hash;
-        public object PlayerPersistenceGuid;
-        public object PlayerPersistenceMetadatasLength;
-        public object ObjectMetadatasLength;
-        public object MaximumViewIDs;
-        public object MinimumViewID;
-        public object FirstPlayerPersistenceID;
-        public object MaxPlayerPersistenceID;
-        public object NetworkCallingViewsLength;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void CompareHash(){} // RVA: 0x7FFD551C0D70
@@ -777,15 +734,15 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WorldMetadataT : Object
     {
-        public object Hash;
-        public object PlayerPersistenceGuid;
-        public object PlayerPersistenceMetadatas;
-        public object ObjectMetadatas;
-        public object MaximumViewIDs;
-        public object MinimumViewID;
-        public object FirstPlayerPersistenceID;
-        public object MaxPlayerPersistenceID;
-        public object NetworkCallingViews;
+        public 0x66562388 Hash; // 0x10
+        public 0x665622D8 PlayerPersistenceGuid; // 0x18
+        public System.Collections.Generic.List`1<0x66560390> PlayerPersistenceMetadatas; // 0x20
+        public System.Collections.Generic.List`1<0x66560390> ObjectMetadatas; // 0x28
+        public int MaximumViewIDs; // 0x30
+        public int MinimumViewID; // 0x34
+        public int FirstPlayerPersistenceID; // 0x38
+        public int MaxPlayerPersistenceID; // 0x3C
+        public System.Collections.Generic.List`1<0x665606A8> NetworkCallingViews; // 0x40
 
         // ── Methods ──
         public void CompareHash(){} // RVA: 0x7FFD551C3E10
@@ -816,8 +773,7 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedLong : ValueType
     {
-        public object ByteBuffer;
-        public object L;
+        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
 
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFD4F840220

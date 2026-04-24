@@ -7,14 +7,21 @@ namespace VRC.InventoryEffects
 {
     public class DroneSkinMapCore : MonoBehaviour
     {
+        public UnityEngine.SkinnedMeshRenderer Renderer; // 0x20
+        public UnityEngine.Animator Animator; // 0x28
+        public UnityEngine.GameObject FrontLeftRotorBone; // 0x30
+        public UnityEngine.GameObject FrontRightRotorBone; // 0x38
+        public UnityEngine.GameObject BackLeftRotorBone; // 0x40
+        public UnityEngine.GameObject BackRightRotorBone; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class InventoryEffectDescription : ScriptableObject
     {
-        public int parameterCount;
-        public m.nformation constructor;
+        public uestToBeSent.ÏÏÍÍÎÌÌÏÍÎÍ ContentType; // 0x18
+        public System.Collections.Generic.List`1<0x6663C020> Assets; // 0x20
 
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x7FFD4E07D200
@@ -23,12 +30,27 @@ namespace VRC.InventoryEffects
 
     public class LoadingScreenMap : MonoBehaviour
     {
+        public UnityEngine.Cubemap Skybox; // 0x20
+        public UnityEngine.AudioClip BackgroundMusic; // 0x28
+        public UnityEngine.Color UINormalColor; // 0x30
+        public UnityEngine.Color UIHighlightColor; // 0x40
+        public UnityEngine.Color UIPressedColor; // 0x50
+        public UnityEngine.Color UIDisabledColor; // 0x60
+        public UnityEngine.Color TransitionBackgroundColor; // 0x70
+        public UnityEngine.Animator Animator; // 0x80
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5527DE40
     }
 
     public class LocalPositionTracker : MonoBehaviour
     {
+        public float _duration; // 0x20
+        public UnityEngine.Transform _targetTransform; // 0x28
+        public UnityEngine.Transform _startTransform; // 0x30
+        public UnityEngine.Transform _endTransform; // 0x38
+        public float _elapsedTime; // 0x40
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4F5F0AC0
         public void Update(){} // RVA: 0x7FFD5527DEC0
@@ -37,7 +59,33 @@ namespace VRC.InventoryEffects
 
     public class WarpEffect : MonoBehaviour
     {
-        public object AudioSources;
+        public float AudioSources;
+        public VRC.InventoryEffects.WarpEffectParams _parameters; // 0x20
+        public UnityEngine.Transform _trackedTransform; // 0x28
+        public UnityEngine.Animator _animator; // 0x30
+        public UnityEngine.AudioSource[] _audioSources; // 0x38
+        public ÍÏÌÍÏÎÏÏÎÌ _currentMode; // 0x40
+        public float _eyeHeight; // 0x44
+        public bool _isTeleport; // 0x48
+        public bool _isLocal; // 0x49
+        public bool _isPoseTrackingAllowed; // 0x4A
+        public float _trackingScale; // 0x4C
+        public System.Func`1<System.Nullable`1<UnityEngine.Pose>> _headPoseGetter; // 0x50
+        public System.Func`1<System.Nullable`1<UnityEngine.Pose>> _playerPoseGetter; // 0x58
+        public bool _isLoopingEnabled; // 0x60
+        public bool _isInitialized; // 0x61
+        public UnityEngine.Pose _cachedHeadPose; // 0x64
+        public UnityEngine.Pose _cachedPlayerPose; // 0x80
+        public float _poseTrackingTimer; // 0x9C
+        public int _isLocalHash; // 0xA0
+        public int _isTeleportHash; // 0xA4
+        public int _isAppearHash; // 0xA8
+        public int _activeHash; // 0xAC
+        public int _inactiveHash; // 0xB0
+        public int _heightHash; // 0xB4
+        public int _heightAdjustHash; // 0xB8
+        public int _destroyHash; // 0xBC
+        public System.Action`1<VRC.InventoryEffects.WarpEffect> Completed; // 0xC0
 
         // ── Methods ──
         public void add_Completed(){} // RVA: 0x7FFD5527E0E0
@@ -61,8 +109,8 @@ namespace VRC.InventoryEffects
 
     public class WarpEffectMap : MonoBehaviour
     {
-        public object Parameters;
-        public object TrackedTransform;
+        public VRC.InventoryEffects.WarpEffectParams Parameters; // 0x20
+        public UnityEngine.Transform TrackedTransform; // 0x28
 
         // ── Methods ──
         public void get_Parameters(){} // RVA: 0x7FFD4E36F0C0
@@ -72,15 +120,15 @@ namespace VRC.InventoryEffects
 
     public class WarpEffectParams : ScriptableObject
     {
-        public object PoseTrackingFlags;
-        public object PoseTrackingDuration;
-        public object CenterTrackedTransformVertically;
-        public object TrackedTransformLocalOffset;
-        public object TrackedTransformRemoteOffset;
-        public object DelayBeforeShowingAvatar;
-        public object DelayBeforeDespawningPlayer;
-        public object PreviewDistanceFromCamera;
-        public object UseReplacementShaderForPreview;
+        public 0x6663C288 PoseTrackingFlags; // 0x18
+        public float PoseTrackingDuration; // 0x1C
+        public bool CenterTrackedTransformVertically; // 0x20
+        public UnityEngine.Vector3 TrackedTransformLocalOffset; // 0x24
+        public UnityEngine.Vector3 TrackedTransformRemoteOffset; // 0x30
+        public float DelayBeforeShowingAvatar; // 0x3C
+        public float DelayBeforeDespawningPlayer; // 0x40
+        public UnityEngine.Vector3 PreviewDistanceFromCamera; // 0x44
+        public bool UseReplacementShaderForPreview; // 0x50
 
         // ── Methods ──
         public void get_PoseTrackingFlags(){} // RVA: 0x7FFD4E577800

@@ -7,14 +7,18 @@ namespace ThirdParty.Other.Unity.AI.Navigation
 {
     public class NavMeshLink : MonoBehaviour
     {
-        public object agentTypeID;
-        public object startPoint;
-        public object endPoint;
-        public object width;
-        public object costModifier;
-        public object bidirectional;
-        public object autoUpdate;
-        public object area;
+        public int agentTypeID; // 0x20
+        public UnityEngine.Vector3 startPoint; // 0x24
+        public UnityEngine.Vector3 endPoint; // 0x30
+        public float width; // 0x3C
+        public int costModifier; // 0x40
+        public bool bidirectional; // 0x44
+        public bool autoUpdate; // 0x45
+        public int area; // 0x48
+        public ÏÌÍÏÍÎÍÌÌÌ.ÎÏÌÏÌÍÍÍÍÌÎÌÌÍÏÍÎÎÌÎÏÏ m_LinkInstance; // 0x4C
+        public UnityEngine.Vector3 m_LastPosition; // 0x50
+        public UnityEngine.Quaternion m_LastRotation; // 0x5C
+        public System.Collections.Generic.List`1<Unity.AI.Navigation.NavMeshLink> s_Tracked;
 
         // ── Methods ──
         public void get_agentTypeID(){} // RVA: 0x7FFD4E4FBBE0
@@ -49,13 +53,14 @@ namespace ThirdParty.Other.Unity.AI.Navigation
 
     public class NavMeshModifier : MonoBehaviour
     {
-        public object overrideArea;
-        public object area;
-        public object overrideGenerateLinks;
-        public object generateLinks;
-        public object ignoreFromBuild;
-        public object applyToChildren;
-        public object activeModifiers;
+        public bool overrideArea; // 0x20
+        public int area; // 0x24
+        public bool overrideGenerateLinks; // 0x28
+        public bool generateLinks; // 0x29
+        public bool ignoreFromBuild; // 0x2A
+        public bool applyToChildren; // 0x2B
+        public System.Collections.Generic.List`1<int> activeModifiers; // 0x30
+        public System.Collections.Generic.List`1<Unity.AI.Navigation.NavMeshModifier> s_NavMeshModifiers;
 
         // ── Methods ──
         public void get_overrideArea(){} // RVA: 0x7FFD4E42F9D0
@@ -80,10 +85,11 @@ namespace ThirdParty.Other.Unity.AI.Navigation
 
     public class NavMeshModifierVolume : MonoBehaviour
     {
-        public object size;
-        public object center;
-        public object area;
-        public object activeModifiers;
+        public UnityEngine.Vector3 size; // 0x20
+        public UnityEngine.Vector3 center; // 0x2C
+        public int area; // 0x38
+        public System.Collections.Generic.List`1<int> activeModifiers; // 0x40
+        public System.Collections.Generic.List`1<Unity.AI.Navigation.NavMeshModifierVolume> s_NavMeshModifiers;
 
         // ── Methods ──
         public void get_size(){} // RVA: 0x7FFD4E3A7EE0
@@ -102,24 +108,27 @@ namespace ThirdParty.Other.Unity.AI.Navigation
 
     public class NavMeshSurface : MonoBehaviour
     {
-        public object agentTypeID;
-        public object collectObjects;
-        public object size;
-        public object center;
-        public object layerMask;
-        public object useGeometry;
-        public object defaultArea;
-        public object ignoreNavMeshAgent;
-        public object ignoreNavMeshObstacle;
-        public object overrideTileSize;
-        public object tileSize;
-        public object overrideVoxelSize;
-        public object voxelSize;
-        public object minRegionArea;
-        public object buildHeightMesh;
-        public object navMeshData;
-        public object navMeshDataInstance;
-        public object activeSurfaces;
+        public int agentTypeID; // 0x20
+        public 0x666399F8 collectObjects; // 0x24
+        public UnityEngine.Vector3 size; // 0x28
+        public UnityEngine.Vector3 center; // 0x34
+        public UnityEngine.LayerMask layerMask; // 0x40
+        public ÏÌÍÏÍÎÍÌÌÌ.ÍÌÌÌ useGeometry; // 0x44
+        public int defaultArea; // 0x48
+        public bool ignoreNavMeshAgent; // 0x4C
+        public bool ignoreNavMeshObstacle; // 0x4D
+        public bool overrideTileSize; // 0x4E
+        public bool tileSize; // 0x4F
+        public int overrideVoxelSize; // 0x50
+        public bool voxelSize; // 0x54
+        public float minRegionArea; // 0x58
+        public float buildHeightMesh; // 0x5C
+        public UnityEngine.AI.NavMeshData navMeshData; // 0x60
+        public bool navMeshDataInstance; // 0x68
+        public ÏÌÍÏÍÎÍÌÌÌ.ÍÍÎÍÌÎÍÍÏÎÍÌÌÍÍÏÌÍÍÏ activeSurfaces; // 0x6C
+        public UnityEngine.Vector3 m_LastPosition; // 0x70
+        public UnityEngine.Quaternion m_LastRotation; // 0x7C
+        public System.Collections.Generic.List`1<Unity.AI.Navigation.NavMeshSurface> s_NavMeshSurfaces;
 
         // ── Methods ──
         public void get_agentTypeID(){} // RVA: 0x7FFD4E4FBBE0

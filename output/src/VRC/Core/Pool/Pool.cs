@@ -67,10 +67,16 @@ namespace VRC.Core.Pool
 
     public class ObjectPool`1 : Object
     {
-        public object ObjectType;
-        public object CountActive;
-        public object CountInactive;
-        public object CountAll;
+        public object ObjectType; // 0x10
+        public System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<VRC.SDKBase.INetworkID>> CountActive; // 0x18
+        public int CountInactive; // 0x20
+        public System.Func`1<System.Collections.Generic.List`1<VRC.SDKBase.INetworkID>> CountAll; // 0x28
+        public System.Action`1<System.Collections.Generic.List`1<VRC.SDKBase.INetworkID>> OnGetFunc; // 0x30
+        public System.Action`1<System.Collections.Generic.List`1<VRC.SDKBase.INetworkID>> OnReleaseFunc; // 0x38
+        public System.Action`1<System.Collections.Generic.List`1<VRC.SDKBase.INetworkID>> OnDestroyFunc; // 0x40
+        public bool CollectionChecks; // 0x48
+        public int MaxSize; // 0x4C
+        public int <CountActive>k__BackingField; // 0x50
 
         // ── Methods ──
         public void get_ObjectType(){} // RVA: 0x7FFD4E078E90
@@ -88,6 +94,12 @@ namespace VRC.Core.Pool
 
     public class PoolManager : MonoBehaviour
     {
+        public object syncLock;
+        public System.Collections.Generic.List`1<System.WeakReference`1<VRC.Core.Pool.IPool>> Pools; // 0x8
+        public UnityEngine.WaitForSeconds PoolCleanupTaskInterval; // 0x20
+        public Unity.Profiling.ProfilerMarker _cleanupProfilerMarker; // 0x10
+        public VRC.Core.Pool.PoolManager Instance; // 0x18
+
         // ── Methods ──
         public void TryInitialize(){} // RVA: 0x7FFD57356620
         public void PoolCleanupTask(){} // RVA: 0x7FFD57356B40
@@ -100,6 +112,8 @@ namespace VRC.Core.Pool
 
     public class PooledArray`1 : ValueType
     {
+        public int[] Array; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -108,6 +122,9 @@ namespace VRC.Core.Pool
 
     public class PooledObject`1 : ValueType
     {
+        public VRC.Core.Pool.IObjectPool`1<System.Collections.Generic.HashSet`1<int>> Pool; // 0x10
+        public System.Collections.Generic.HashSet`1<int> Object; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -115,6 +132,8 @@ namespace VRC.Core.Pool
 
     public class StringBuilderPool : Object
     {
+        public VRC.Core.Pool.ObjectPool`1<System.Text.StringBuilder> Pool;
+
         // ── Methods ──
         public void GetObjectPool(){} // RVA: 0x7FFD573584B0
         public void Get(){} // RVA: 0x7FFD57358590 | overloaded x2

@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.System.Text.Unicode
 {
     public class UnicodeRange : Object
     {
-        public object FirstCodePoint;
-        public object Length;
+        public int FirstCodePoint; // 0x10
+        public int Length; // 0x14
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD543EC1F0
@@ -21,8 +21,8 @@ namespace ThirdParty.DotNet.System.Text.Unicode
 
     public class UnicodeRanges : Object
     {
-        public object All;
-        public object BasicLatin;
+        public System.Text.Unicode.UnicodeRange All;
+        public System.Text.Unicode.UnicodeRange BasicLatin; // 0x8
 
         // ── Methods ──
         public void get_All(){} // RVA: 0x7FFD543EC3D0

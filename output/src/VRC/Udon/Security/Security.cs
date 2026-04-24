@@ -27,7 +27,7 @@ namespace VRC.Udon.Security
 
     public class UdonSignatureHolderMarker : Attribute
     {
-        public object type;
+        public System.Type type; // 0x10
 
         // ── Methods ──
         public void get_type(){} // RVA: 0x7FFD4E35C380
@@ -36,7 +36,10 @@ namespace VRC.Udon.Security
 
     public class UnityEngineObjectSecurityBlacklist : Object
     {
-        public object LightReservedLayerMask;
+        public System.Collections.Generic.HashSet`1<UnityEngine.Object> LightReservedLayerMask; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Type,bool> _safeTypeCache; // 0x18
+        public System.Lazy`1<int> _dontDestroyOnLoadHandle; // 0x20
+        public int <LightReservedLayerMask>k__BackingField; // 0x28
 
         // ── Methods ──
         public void IsBlacklisted(){} // RVA: 0x7FFD552C5F80 | overloaded x2
@@ -54,7 +57,9 @@ namespace VRC.Udon.Security
 
     public class UnityEngineObjectSecurityWhitelist : Object
     {
-        public object LightReservedLayerMask;
+        public System.Collections.Generic.HashSet`1<UnityEngine.Object> LightReservedLayerMask; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Type,bool> _safeTypeCache; // 0x18
+        public int <LightReservedLayerMask>k__BackingField; // 0x20
 
         // ── Methods ──
         public void ApplyFilter(){} // RVA: 0x7FFD552C6F40 | overloaded x2

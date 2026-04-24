@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class NativeClassAttribute : Attribute
     {
-        public object QualifiedNativeName;
-        public object Declaration;
+        public string QualifiedNativeName; // 0x10
+        public string Declaration; // 0x18
 
         // ── Methods ──
         public void set_QualifiedNativeName(){} // RVA: 0x7FFD4E342E30

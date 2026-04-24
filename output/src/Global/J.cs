@@ -5,18 +5,8 @@
 
 public class JArray : Object
 {
-    public object Item;
-    public object System.Collections.Generic.IList<BestHTTP.JSON.Json.Token>.Item;
-    public object System.Collections.Generic.IReadOnlyList<System.Object>.Item;
-    public object System.Collections.Generic.IList<System.Object>.Item;
-    public object System.Collections.IList.Item;
-    public object Count;
-    public object System.Collections.ICollection.SyncRoot;
-    public object System.Collections.ICollection.IsSynchronized;
-    public object System.Collections.IList.IsReadOnly;
-    public object System.Collections.Generic.ICollection<System.Object>.IsReadOnly;
-    public object System.Collections.Generic.ICollection<BestHTTP.JSON.Json.Token>.IsReadOnly;
-    public object System.Collections.IList.IsFixedSize;
+    public JArray Item;
+    public System.Collections.Generic.IReadOnlyList`1<Token> System.Collections.Generic.IList<BestHTTP.JSON.Json.Token>.Item; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5722BAA0
@@ -71,30 +61,13 @@ public class JArray : Object
 
 public class JObject : Object
 {
-    public object Count;
-    public object IsReadOnly;
-    public object IsFixedSize;
-    public object IsSynchronized;
-    public object System.Collections.ICollection.SyncRoot;
-    public object KeysCollection;
-    public object Keys;
-    public object System.Collections.Generic.IReadOnlyDictionary<System.String,BestHTTP.JSON.Json.Token>.Keys;
-    public object System.Collections.Generic.IReadOnlyDictionary<System.String,System.Object>.Keys;
-    public object System.Collections.Generic.IDictionary<System.String,BestHTTP.JSON.Json.Token>.Keys;
-    public object System.Collections.Generic.IDictionary<System.String,System.Object>.Keys;
-    public object System.Collections.IDictionary.Keys;
-    public object ValuesCollection;
-    public object Values;
-    public object System.Collections.Generic.IReadOnlyDictionary<System.String,BestHTTP.JSON.Json.Token>.Values;
-    public object System.Collections.Generic.IReadOnlyDictionary<System.String,System.Object>.Values;
-    public object System.Collections.Generic.IDictionary<System.String,BestHTTP.JSON.Json.Token>.Values;
-    public object System.Collections.Generic.IDictionary<System.String,System.Object>.Values;
-    public object Item;
-    public object System.Collections.Generic.IReadOnlyDictionary<System.String,System.Object>.Item;
-    public object System.Collections.IDictionary.Item;
-    public object System.Collections.Generic.IDictionary<System.String,BestHTTP.JSON.Json.Token>.Item;
-    public object System.Collections.Generic.IDictionary<System.String,System.Object>.Item;
-    public object System.Collections.IDictionary.Values;
+    public int Count;
+    public JObject IsReadOnly;
+    public string[] IsFixedSize; // 0x10
+    public Token[] IsSynchronized; // 0x18
+    public ReadOnlyKeyCollection System.Collections.ICollection.SyncRoot; // 0x20
+    public ObjectValueCollection KeysCollection; // 0x28
+    public ObjectValueCollection Keys; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5722E2E0
@@ -161,12 +134,19 @@ public class JObject : Object
 
 public class JobScheduleParameters : ValueType
 {
+    public Unity.Jobs.JobHandle Dependency; // 0x10
+    public int ScheduleMode; // 0x20
+    public UIntPtr ReflectionData; // 0x28
+    public UIntPtr JobDataPtr; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54C6F1E0
 }
 
 public class JobStruct`1 : ValueType
 {
+    public SharedStatic`1<UIntPtr> jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x7FFD4E0909B0
     public void Execute(){} // RVA: 0x7FFD4E099720
@@ -175,10 +155,16 @@ public class JobStruct`1 : ValueType
 
 public class Join : Object
 {
+    public OutPt OutPt1; // 0x10
+    public OutPt OutPt2; // 0x18
+    public IntPoint OffPt; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class JointData : ValueType
 {
+    public 0x663608D0 Type; // 0x10
+    public TrackedPose Pose; // 0x14
 }

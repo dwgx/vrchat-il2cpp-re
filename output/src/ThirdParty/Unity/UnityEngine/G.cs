@@ -7,22 +7,21 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class GUI : Object
     {
-        public object color;
-        public object backgroundColor;
-        public object contentColor;
-        public object changed;
-        public object enabled;
-        public object depth;
-        public object usePageScrollbars;
-        public object blendMaterial;
-        public object blitMaterial;
-        public object roundedRectMaterial;
-        public object roundedRectWithColorPerBorderMaterial;
-        public object scrollTroughSide;
-        public object nextScrollStepTime;
-        public object skin;
-        public object matrix;
-        public object scrollViewStates;
+        public int color;
+        public int backgroundColor; // 0x4
+        public int contentColor; // 0x8
+        public int changed; // 0xC
+        public int enabled; // 0x10
+        public int depth; // 0x14
+        public int usePageScrollbars; // 0x18
+        public int blendMaterial; // 0x1C
+        public int blitMaterial; // 0x20
+        public int roundedRectMaterial; // 0x24
+        public int roundedRectWithColorPerBorderMaterial; // 0x28
+        public System.DateTime scrollTroughSide; // 0x30
+        public UnityEngine.GUISkin nextScrollStepTime; // 0x38
+        public UnityEngine.Rect skin; // 0x40
+        public 0x664D6A88 matrix; // 0x50
 
         // ── Methods ──
         public void get_color(){} // RVA: 0x7FFD54D291B0
@@ -103,9 +102,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIContent : Object
     {
-        public object text;
-        public object image;
-        public object tooltip;
+        public string text; // 0x10
+        public UnityEngine.Texture image; // 0x18
+        public string tooltip; // 0x20
+        public System.Action OnTextChanged; // 0x28
+        public UnityEngine.GUIContent s_Text;
+        public UnityEngine.GUIContent s_Image; // 0x8
+        public UnityEngine.GUIContent s_TextImage; // 0x10
+        public UnityEngine.GUIContent none; // 0x18
 
         // ── Methods ──
         public void get_text(){} // RVA: 0x7FFD510E4750
@@ -122,13 +126,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUILayoutEntry : Object
     {
-        public object style;
-        public object marginLeft;
-        public object marginRight;
-        public object marginTop;
-        public object marginBottom;
-        public object marginHorizontal;
-        public object marginVertical;
+        public float style; // 0x10
+        public float marginLeft; // 0x14
+        public float marginRight; // 0x18
+        public float marginTop; // 0x1C
+        public UnityEngine.Rect marginBottom; // 0x20
+        public int marginHorizontal; // 0x30
+        public int marginVertical; // 0x34
+        public bool consideredForMargin; // 0x38
+        public UnityEngine.GUIStyle m_Style; // 0x40
+        public UnityEngine.Rect kDummyRect;
+        public int indent; // 0x10
 
         // ── Methods ──
         public void get_style(){} // RVA: 0x7FFD54D3F730
@@ -152,10 +160,27 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUILayoutGroup : GUILayoutEntry
     {
-        public object marginLeft;
-        public object marginRight;
-        public object marginTop;
-        public object marginBottom;
+        public System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> marginLeft; // 0x48
+        public bool marginRight; // 0x50
+        public bool marginTop; // 0x51
+        public float marginBottom; // 0x54
+        public bool sameSize; // 0x58
+        public bool isWindow; // 0x59
+        public int windowID; // 0x5C
+        public int m_Cursor; // 0x60
+        public int m_StretchableCountX; // 0x64
+        public int m_StretchableCountY; // 0x68
+        public bool m_UserSpecifiedWidth; // 0x6C
+        public bool m_UserSpecifiedHeight; // 0x6D
+        public float m_ChildMinWidth; // 0x70
+        public float m_ChildMaxWidth; // 0x74
+        public float m_ChildMinHeight; // 0x78
+        public float m_ChildMaxHeight; // 0x7C
+        public int m_MarginLeft; // 0x80
+        public int m_MarginRight; // 0x84
+        public int m_MarginTop; // 0x88
+        public int m_MarginBottom; // 0x8C
+        public UnityEngine.GUILayoutEntry none;
 
         // ── Methods ──
         public void get_marginLeft(){} // RVA: 0x7FFD4E9929C0
@@ -178,6 +203,19 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIScrollGroup : GUILayoutGroup
     {
+        public float calcMinWidth; // 0x90
+        public float calcMaxWidth; // 0x94
+        public float calcMinHeight; // 0x98
+        public float calcMaxHeight; // 0x9C
+        public float clientWidth; // 0xA0
+        public float clientHeight; // 0xA4
+        public bool allowHorizontalScroll; // 0xA8
+        public bool allowVerticalScroll; // 0xA9
+        public bool needsHorizontalScrollbar; // 0xAA
+        public bool needsVerticalScrollbar; // 0xAB
+        public UnityEngine.GUIStyle horizontalScrollbar; // 0xB0
+        public UnityEngine.GUIStyle verticalScrollbar; // 0xB8
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54D4D980
         public void CalcWidth(){} // RVA: 0x7FFD54D4D9E0
@@ -188,33 +226,36 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUISkin : ScriptableObject
     {
-        public object font;
-        public object box;
-        public object label;
-        public object textField;
-        public object textArea;
-        public object button;
-        public object toggle;
-        public object window;
-        public object horizontalSlider;
-        public object horizontalSliderThumb;
-        public object horizontalSliderThumbExtent;
-        public object sliderMixed;
-        public object verticalSlider;
-        public object verticalSliderThumb;
-        public object verticalSliderThumbExtent;
-        public object horizontalScrollbar;
-        public object horizontalScrollbarThumb;
-        public object horizontalScrollbarLeftButton;
-        public object horizontalScrollbarRightButton;
-        public object verticalScrollbar;
-        public object verticalScrollbarThumb;
-        public object verticalScrollbarUpButton;
-        public object verticalScrollbarDownButton;
-        public object scrollView;
-        public object customStyles;
-        public object settings;
-        public object error;
+        public UnityEngine.Font font; // 0x18
+        public UnityEngine.GUIStyle box; // 0x20
+        public UnityEngine.GUIStyle label; // 0x28
+        public UnityEngine.GUIStyle textField; // 0x30
+        public UnityEngine.GUIStyle textArea; // 0x38
+        public UnityEngine.GUIStyle button; // 0x40
+        public UnityEngine.GUIStyle toggle; // 0x48
+        public UnityEngine.GUIStyle window; // 0x50
+        public UnityEngine.GUIStyle horizontalSlider; // 0x58
+        public UnityEngine.GUIStyle horizontalSliderThumb; // 0x60
+        public UnityEngine.GUIStyle horizontalSliderThumbExtent; // 0x68
+        public UnityEngine.GUIStyle sliderMixed; // 0x70
+        public UnityEngine.GUIStyle verticalSlider; // 0x78
+        public UnityEngine.GUIStyle verticalSliderThumb; // 0x80
+        public UnityEngine.GUIStyle verticalSliderThumbExtent; // 0x88
+        public UnityEngine.GUIStyle horizontalScrollbar; // 0x90
+        public UnityEngine.GUIStyle horizontalScrollbarThumb; // 0x98
+        public UnityEngine.GUIStyle horizontalScrollbarLeftButton; // 0xA0
+        public UnityEngine.GUIStyle horizontalScrollbarRightButton; // 0xA8
+        public UnityEngine.GUIStyle verticalScrollbar; // 0xB0
+        public UnityEngine.GUIStyle verticalScrollbarThumb; // 0xB8
+        public UnityEngine.GUIStyle verticalScrollbarUpButton; // 0xC0
+        public UnityEngine.GUIStyle verticalScrollbarDownButton; // 0xC8
+        public UnityEngine.GUIStyle scrollView; // 0xD0
+        public UnityEngine.GUIStyle[] customStyles; // 0xD8
+        public 0x665DFB60 settings; // 0xE0
+        public UnityEngine.GUIStyle error;
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.GUIStyle> m_Styles; // 0xE8
+        public SkinChangedDelegate m_SkinChanged; // 0x8
+        public UnityEngine.GUISkin current; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54D3F1D0
@@ -282,24 +323,22 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIStyle : Object
     {
-        public object rawName;
-        public object font;
-        public object imagePosition;
-        public object wordWrap;
-        public object contentOffset;
-        public object fixedWidth;
-        public object fixedHeight;
-        public object stretchWidth;
-        public object stretchHeight;
-        public object Internal_clipOffset;
-        public object name;
-        public object normal;
-        public object border;
-        public object margin;
-        public object padding;
-        public object lineHeight;
-        public object none;
-        public object isHeightDependantOnWidth;
+        public UIntPtr rawName; // 0x10
+        public 0x665DFCC0 font; // 0x18
+        public 0x665DFCC0 imagePosition; // 0x20
+        public 0x665DFCC0 wordWrap; // 0x28
+        public 0x665DFCC0 contentOffset; // 0x30
+        public 0x665DFCC0 fixedWidth; // 0x38
+        public 0x665DFCC0 fixedHeight; // 0x40
+        public 0x665DFCC0 stretchWidth; // 0x48
+        public 0x665DFCC0 stretchHeight; // 0x50
+        public UnityEngine.RectOffset Internal_clipOffset; // 0x58
+        public UnityEngine.RectOffset name; // 0x60
+        public UnityEngine.RectOffset normal; // 0x68
+        public UnityEngine.RectOffset border; // 0x70
+        public string margin; // 0x78
+        public bool padding;
+        public UnityEngine.GUIStyle lineHeight; // 0x8
 
         // ── Methods ──
         public void get_rawName(){} // RVA: 0x7FFD54D42800
@@ -377,23 +416,27 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUITargetAttribute : Attribute
     {
+        public int displayMask; // 0x10
+
         // ── Methods ──
         public void GetGUITargetAttrValue(){} // RVA: 0x7FFD54D45AF0
     }
 
     public class GUIUtility : Object
     {
-        public object pixelsPerPoint;
-        public object guiDepth;
-        public object mouseUsed;
-        public object textFieldInput;
-        public object systemCopyBuffer;
-        public object compositionString;
-        public object imeCompositionMode;
-        public object compositionCursorPos;
-        public object guiIsExiting;
-        public object hotControl;
-        public object keyboardControl;
+        public int pixelsPerPoint;
+        public int guiDepth; // 0x4
+        public int mouseUsed; // 0x8
+        public System.Action textFieldInput; // 0x10
+        public System.Action systemCopyBuffer; // 0x18
+        public System.Func`3<int,UIntPtr,bool> compositionString; // 0x20
+        public System.Action imeCompositionMode; // 0x28
+        public System.Func`2<System.Exception,bool> compositionCursorPos; // 0x30
+        public System.Action guiIsExiting; // 0x38
+        public System.Action`2<0x665DF530,0x664DD1A8> hotControl; // 0x40
+        public UnityEngine.Event keyboardControl; // 0x48
+        public bool <guiIsExiting>k__BackingField; // 0x50
+        public System.Func`1<bool> s_HasCurrentWindowKeyFocusFunc; // 0x58
 
         // ── Methods ──
         public void get_pixelsPerPoint(){} // RVA: 0x7FFD54D45D50
@@ -526,10 +569,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Gradient : Object
     {
-        public object colorKeys;
-        public object alphaKeys;
-        public object mode;
-        public object colorSpace;
+        public UIntPtr colorKeys; // 0x10
 
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD54CC9EA0
@@ -554,21 +594,25 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GradientAlphaKey : ValueType
     {
+        public float alpha; // 0x10
+        public float time; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E364D10
     }
 
     public class GradientColorKey : ValueType
     {
+        public UnityEngine.Color color; // 0x10
+        public float time; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CC9E90
     }
 
     public class GraphicsBuffer : Object
     {
-        public object count;
-        public object stride;
-        public object usageFlags;
+        public UIntPtr count; // 0x10
 
         // ── Methods ──
         public void Finalize(){} // RVA: 0x7FFD54CA7880

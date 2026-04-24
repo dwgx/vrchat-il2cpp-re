@@ -8,9 +8,13 @@ namespace VRC.Input
     /// <summary>Originally: ÌÌÏÌÏÌÏÏÎÏÎÌÌÌÍÌÎÍÌÎÍÎÏ</summary>
     public class InputControlBinding : OnScreenControl
     {
-        public object _controlPathInternal;
-        public object _control;
-        public object _controlPathInternal2;
+        public bool _controlPathInternal; // 0x38
+        public float _control; // 0x3C
+        public string _controlPathInternal2; // 0x40
+        public UnityEngine.Vector2 ÎÌÏÏÎÌÌÎÌÏÌÍÏÍÌÎÍÏÌÌÎÎÏ; // 0x48
+        public UnityEngine.Vector3 ÏÌÎÌÌÏÏÎÏÌÎÏÏÏÎÌÏÍÎÎÎÌÌ; // 0x50
+        public UnityEngine.RectTransform ÍÎÍÎÎÎÍÍÏÎÌÍÍÎÍÌÌÍÏÍÍÍÎ; // 0x60
+        public bool <ÍÎÎÎÎÏÍÍÏÍÌÏÎÍÏÎÍÌÎÏÏÌÎ>k__BackingField; // 0x68
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4EB16930
@@ -38,6 +42,13 @@ namespace VRC.Input
     /// <summary>Originally: ÎÎÎÍÎÏÍÎÍÍÌÍÌÍÏÎÍÍÌÌÎÍÏ</summary>
     public class InputControlBindingSibling_89E1 : InputControlBinding
     {
+        public UnityEngine.RectTransform ÎÍÌÎÌÎÍÍÎÏÏÎÌÏÏÏÍÍÎÏÏÎÍ; // 0x70
+        public UnityEngine.RectTransform ÏÎÍÎÎÍÍÏÍÍÏÎÎÎÎÎÌÍÏÌÍÎÏ; // 0x78
+        public UnityEngine.Vector3 ÍÌÎÍÌÌÏÏÏÍÍÎÎÍÎÎÌÎÏÍÌÎÎ; // 0x80
+        public bool ÍÏÎÏÌÌÎÏÍÎÎÏÍÏÌÎÍÏÏÏÌÏÎ; // 0x8C
+        public UnityEngine.Vector2 stickPosLandscape; // 0x90
+        public UnityEngine.Vector2 stickPosPortrait; // 0x98
+
         // ── Methods ──
         public void GetGameObject_B0F(){} // RVA: 0x7FFD4EB27EF0
         public void set_controlPath(){} // RVA: 0x7FFD4EB28130
@@ -58,12 +69,19 @@ namespace VRC.Input
     /// <summary>Originally: ÍÍÎÍÌÏÎÌÏÎÍÌÏÎÎÍÌÏÍÏÏÏÌ</summary>
     public class InputFieldDerived_866B : InputField
     {
-        public object _input;
-        public object _compositionString;
-        public object _mesh;
-        public object _cachedInputTextGenerator;
-        public object _shouldHideMobileInput;
-        public object _shouldActivateOnSelect;
+        public int _input; // 0x228
+        public int _compositionString; // 0x22C
+        public int _mesh; // 0x230
+        public int _cachedInputTextGenerator; // 0x234
+        public float _shouldHideMobileInput; // 0x238
+        public float _shouldActivateOnSelect; // 0x23C
+        public ÏÌÍÍÏÍÌÏÏÌÍÎÍÎÍÍÍÎÌÌÎÌÏ _plusButton; // 0x240
+        public ÏÌÍÍÏÍÌÏÏÌÍÎÍÎÍÍÍÎÌÌÎÌÏ _minusButton; // 0x248
+        public UnityEngine.Events.UnityEvent`1<int> ÌÎÎÏÌÎÎÍÏÌÌÌÍÌÍÌÎÌÍÍÍÌÏ; // 0x250
+        public UnityEngine.Events.UnityEvent`1<int> ÍÎÏÎÌÍÎÍÏÏÌÌÏÌÍÎÍÍÍÌÎÍÎ; // 0x258
+        public UnityEngine.Events.UnityEvent ÏÌÌÍÌÍÎÎÍÏÏÏÍÍÌÎÎÌÍÎÍÍÏ; // 0x260
+        public UnityEngine.Events.UnityEvent ÎÎÌÏÎÌÎÌÏÏÌÍÌÍÎÍÎÏÎÌÌÎÏ; // 0x268
+        public System.Collections.IEnumerator ÏÎÏÏÌÎÍÏÎÏÎÍÏÍÏÌÍÌÌÏÍÌÏ; // 0x270
 
         // ── Methods ──
         public void get_input(){} // RVA: 0x7FFD4F9186F0

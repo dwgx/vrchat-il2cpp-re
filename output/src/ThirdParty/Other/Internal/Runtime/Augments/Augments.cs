@@ -7,7 +7,8 @@ namespace ThirdParty.Other.Internal.Runtime.Augments
 {
     public class RuntimeThread : Object
     {
-        public object IsBackground;
+        public int IsBackground;
+        public System.Threading.Thread thread; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30

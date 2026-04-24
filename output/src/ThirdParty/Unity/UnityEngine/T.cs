@@ -218,6 +218,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TerrainCallbacks : Object
     {
+        public HeightmapChangedCallback heightmapChanged;
+        public TextureChangedCallback textureChanged; // 0x8
+
         // ── Methods ──
         public void InvokeHeightmapChangedCallback(){} // RVA: 0x7FFD54E157B0
         public void InvokeTextureChangedCallback(){} // RVA: 0x7FFD54E158E0
@@ -237,17 +240,20 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TerrainData : Object
     {
-        public object heightmapResolution;
-        public object internalHeightmapResolution;
-        public object size;
-        public object detailPrototypes;
-        public object treeInstances;
-        public object treePrototypes;
-        public object alphamapResolution;
-        public object Internal_alphamapResolution;
-        public object alphamapWidth;
-        public object alphamapHeight;
-        public object users;
+        public string heightmapResolution;
+        public string internalHeightmapResolution;
+        public string size;
+        public string detailPrototypes;
+        public string treeInstances;
+        public string treePrototypes;
+        public int alphamapResolution;
+        public int Internal_alphamapResolution; // 0x4
+        public int alphamapWidth; // 0x8
+        public int alphamapHeight; // 0xC
+        public int users; // 0x10
+        public int k_MaximumAlphamapResolution; // 0x14
+        public int k_MinimumBaseMapResolution; // 0x18
+        public int k_MaximumBaseMapResolution; // 0x1C
 
         // ── Methods ──
         public void GetBoundaryValue(){} // RVA: 0x7FFD54E16470
@@ -295,12 +301,30 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextEditor : Object
     {
-        public object text;
-        public object position;
-        public object localPosition;
-        public object cursorIndex;
-        public object selectIndex;
-        public object hasSelection;
+        public 0x664E03D8 text; // 0x10
+        public int position; // 0x18
+        public UnityEngine.GUIStyle localPosition; // 0x20
+        public bool cursorIndex; // 0x28
+        public bool selectIndex; // 0x29
+        public bool hasSelection; // 0x2A
+        public bool m_HasFocus; // 0x2B
+        public UnityEngine.Vector2 scrollOffset; // 0x2C
+        public UnityEngine.GUIContent m_Content; // 0x38
+        public UnityEngine.Rect m_Position; // 0x40
+        public int m_CursorIndex; // 0x50
+        public int m_SelectIndex; // 0x54
+        public bool m_RevealCursor; // 0x58
+        public UnityEngine.Vector2 graphicalCursorPos; // 0x5C
+        public UnityEngine.Vector2 graphicalSelectCursorPos; // 0x64
+        public bool m_MouseDragSelectsWholeWords; // 0x6C
+        public int m_DblClickInitPos; // 0x70
+        public 0x665E02F0 m_DblClickSnap; // 0x74
+        public bool m_bJustSelected; // 0x75
+        public int m_iAltCursorPos; // 0x78
+        public string oldText; // 0x80
+        public int oldPos; // 0x88
+        public int oldSelectPos; // 0x8C
+        public System.Collections.Generic.Dictionary`2<UnityEngine.Event,0x665E03F8> s_Keyactions;
 
         // ── Methods ──
         public void get_text(){} // RVA: 0x7FFD54D53730
@@ -401,6 +425,25 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextGenerationSettings : ValueType
     {
+        public UnityEngine.Font font; // 0x10
+        public UnityEngine.Color color; // 0x18
+        public int fontSize; // 0x28
+        public float lineSpacing; // 0x2C
+        public bool richText; // 0x30
+        public float scaleFactor; // 0x34
+        public 0x66638AD8 fontStyle; // 0x38
+        public 0x66638C90 textAnchor; // 0x3C
+        public bool alignByGeometry; // 0x40
+        public bool resizeTextForBestFit; // 0x41
+        public int resizeTextMinSize; // 0x44
+        public int resizeTextMaxSize; // 0x48
+        public bool updateBounds; // 0x4C
+        public 0x66638D40 verticalOverflow; // 0x50
+        public ÎÎÎÌÌÍÏÍÏÎÌÌÏÏÎÎÌÎÏÌÏ horizontalOverflow; // 0x54
+        public UnityEngine.Vector2 generationExtents; // 0x58
+        public UnityEngine.Vector2 pivot; // 0x60
+        public bool generateOutOfBounds; // 0x68
+
         // ── Methods ──
         public void CompareColors(){} // RVA: 0x7FFD54E68BB0
         public void CompareVector2(){} // RVA: 0x7FFD54E68C20
@@ -409,13 +452,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextGenerator : Object
     {
-        public object characterCountVisible;
-        public object verts;
-        public object characters;
-        public object lines;
-        public object rectExtents;
-        public object characterCount;
-        public object lineCount;
+        public UIntPtr characterCountVisible; // 0x10
+        public string verts; // 0x18
+        public UnityEngine.TextGenerationSettings characters; // 0x20
+        public bool lines; // 0x80
+        public ÏÍÎÎÍÌÎ rectExtents; // 0x84
+        public System.Collections.Generic.List`1<UnityEngine.UIVertex> characterCount; // 0x88
+        public System.Collections.Generic.List`1<UnityEngine.UICharInfo> lineCount; // 0x90
+        public System.Collections.Generic.List`1<UnityEngine.UILineInfo> m_Lines; // 0x98
+        public bool m_CachedVerts; // 0xA0
+        public bool m_CachedCharacters; // 0xA1
+        public bool m_CachedLines; // 0xA2
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54E68FA0 | overloaded x2
@@ -496,27 +543,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Texture : Object
     {
-        public object mipmapCount;
-        public object graphicsFormat;
-        public object width;
-        public object height;
-        public object dimension;
-        public object isReadable;
-        public object wrapMode;
-        public object wrapModeU;
-        public object wrapModeV;
-        public object wrapModeW;
-        public object filterMode;
-        public object anisoLevel;
-        public object mipMapBias;
-        public object texelSize;
-        public object updateCount;
-        public object activeTextureColorSpace;
-        public object isDataSRGB;
-        public object totalTextureMemory;
-        public object desiredTextureMemory;
-        public object currentTextureMemory;
-        public object nonStreamingTextureMemory;
+        public int mipmapCount;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CB78A0
@@ -568,28 +595,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Texture2D : Texture
     {
-        public object format;
-        public object ignoreMipmapLimit;
-        public object mipmapLimitGroup;
-        public object activeMipmapLimit;
-        public object whiteTexture;
-        public object blackTexture;
-        public object redTexture;
-        public object grayTexture;
-        public object linearGrayTexture;
-        public object normalTexture;
-        public object isReadable;
-        public object vtOnly;
-        public object streamingMipmaps;
-        public object streamingMipmapsPriority;
-        public object requestedMipmapLevel;
-        public object minimumMipmapLevel;
-        public object calculatedMipmapLevel;
-        public object desiredMipmapLevel;
-        public object loadingMipmapLevel;
-        public object loadedMipmapLevel;
-        public object enableStreamingMipmapsPriorityOverrideOnLoad;
-        public object streamingMipmapsPriorityOverrideOnLoad;
+        public int format;
+        public int ignoreMipmapLimit;
 
         // ── Methods ──
         public void get_format(){} // RVA: 0x7FFD54CB8CA0
@@ -718,26 +725,28 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TooltipAttribute : PropertyAttribute
     {
+        public string tooltip; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class Touch : ValueType
     {
-        public object fingerId;
-        public object position;
-        public object rawPosition;
-        public object deltaPosition;
-        public object deltaTime;
-        public object tapCount;
-        public object phase;
-        public object pressure;
-        public object maximumPossiblePressure;
-        public object type;
-        public object altitudeAngle;
-        public object azimuthAngle;
-        public object radius;
-        public object radiusVariance;
+        public int fingerId; // 0x10
+        public UnityEngine.Vector2 position; // 0x14
+        public UnityEngine.Vector2 rawPosition; // 0x1C
+        public UnityEngine.Vector2 deltaPosition; // 0x24
+        public float deltaTime; // 0x2C
+        public int tapCount; // 0x30
+        public 0x66639000 phase; // 0x34
+        public 0x666390B0 pressure; // 0x38
+        public float maximumPossiblePressure; // 0x3C
+        public float type; // 0x40
+        public float altitudeAngle; // 0x44
+        public float azimuthAngle; // 0x48
+        public float radius; // 0x4C
+        public float radiusVariance; // 0x50
 
         // ── Methods ──
         public void get_fingerId(){} // RVA: 0x7FFD543B3F90
@@ -761,6 +770,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TrackedReference : Object
     {
+        public UIntPtr m_Ptr; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void op_Equality(){} // RVA: 0x7FFD54CE56F0
@@ -1024,13 +1035,21 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TreeInstance : ValueType
     {
+        public UnityEngine.Vector3 position; // 0x10
+        public float widthScale; // 0x1C
+        public float heightScale; // 0x20
+        public float rotation; // 0x24
+        public UnityEngine.Color32 color; // 0x28
+        public UnityEngine.Color32 lightmapColor; // 0x2C
+        public int prototypeIndex; // 0x30
+        public float temporaryDistance; // 0x34
     }
 
     public class TreePrototype : Object
     {
-        public object prefab;
-        public object bendFactor;
-        public object navMeshLod;
+        public UnityEngine.GameObject prefab; // 0x10
+        public float bendFactor; // 0x18
+        public int navMeshLod; // 0x1C
 
         // ── Methods ──
         public void get_prefab(){} // RVA: 0x7FFD510E4750

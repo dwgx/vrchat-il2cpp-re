@@ -7,11 +7,11 @@ namespace ThirdParty.DotNet.System.IO.Pipes
 {
     public class PipeCompletionSource`1 : TaskCompletionSource`1
     {
-        public sageKind.nlyCollection Overlapped;
-        public sageKind.sition _cancellationRegistration;
+        public 0x66426248 Overlapped;
+        public System.Threading.CancellationTokenRegistration _cancellationRegistration;
         public int _errorCode;
-        public IntPtr _overlapped;
-        public erDecimalDigits.DecimalSeparator _pinnedMemory;
+        public 0x66425C18* _overlapped;
+        public System.Buffers.MemoryHandle _pinnedMemory;
         public int _state;
 
         // ── Methods ──

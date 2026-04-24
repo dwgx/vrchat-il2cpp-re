@@ -7,15 +7,15 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 {
     public class GearVRTrackedController : XRController
     {
-        public object touchpad;
-        public object trigger;
-        public object back;
-        public object triggerPressed;
-        public object touchpadClicked;
-        public object touchpadTouched;
-        public object deviceAngularVelocity;
-        public object deviceAcceleration;
-        public object deviceAngularAcceleration;
+        public UnityEngine.InputSystem.Controls.Vector2Control touchpad; // 0x1B0
+        public UnityEngine.InputSystem.Controls.AxisControl trigger; // 0x1B8
+        public UnityEngine.InputSystem.Controls.ButtonControl back; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl triggerPressed; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl touchpadClicked; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl touchpadTouched; // 0x1D8
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularVelocity; // 0x1E0
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAcceleration; // 0x1E8
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularAcceleration; // 0x1F0
 
         // ── Methods ──
         public void get_touchpad(){} // RVA: 0x7FFD4E969F30
@@ -42,19 +42,19 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusHMD : XRHMD
     {
-        public object userPresence;
-        public object deviceAngularVelocity;
-        public object deviceAcceleration;
-        public object deviceAngularAcceleration;
-        public object leftEyeAngularVelocity;
-        public object leftEyeAcceleration;
-        public object leftEyeAngularAcceleration;
-        public object rightEyeAngularVelocity;
-        public object rightEyeAcceleration;
-        public object rightEyeAngularAcceleration;
-        public object centerEyeAngularVelocity;
-        public object centerEyeAcceleration;
-        public object centerEyeAngularAcceleration;
+        public UnityEngine.InputSystem.Controls.ButtonControl userPresence; // 0x1E0
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularVelocity; // 0x1E8
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAcceleration; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularAcceleration; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector3Control leftEyeAngularVelocity; // 0x200
+        public UnityEngine.InputSystem.Controls.Vector3Control leftEyeAcceleration; // 0x208
+        public UnityEngine.InputSystem.Controls.Vector3Control leftEyeAngularAcceleration; // 0x210
+        public UnityEngine.InputSystem.Controls.Vector3Control rightEyeAngularVelocity; // 0x218
+        public UnityEngine.InputSystem.Controls.Vector3Control rightEyeAcceleration; // 0x220
+        public UnityEngine.InputSystem.Controls.Vector3Control rightEyeAngularAcceleration; // 0x228
+        public UnityEngine.InputSystem.Controls.Vector3Control centerEyeAngularVelocity; // 0x230
+        public UnityEngine.InputSystem.Controls.Vector3Control centerEyeAcceleration; // 0x238
+        public UnityEngine.InputSystem.Controls.Vector3Control centerEyeAngularAcceleration; // 0x240
 
         // ── Methods ──
         public void get_userPresence(){} // RVA: 0x7FFD4E818150
@@ -89,8 +89,8 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusHMDExtended : OculusHMD
     {
-        public object back;
-        public object touchpad;
+        public UnityEngine.InputSystem.Controls.ButtonControl back; // 0x248
+        public UnityEngine.InputSystem.Controls.Vector2Control touchpad; // 0x250
 
         // ── Methods ──
         public void get_back(){} // RVA: 0x7FFD4EDC6830
@@ -103,9 +103,9 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusRemote : InputDevice
     {
-        public object back;
-        public object start;
-        public object touchpad;
+        public UnityEngine.InputSystem.Controls.ButtonControl back; // 0x190
+        public UnityEngine.InputSystem.Controls.ButtonControl start; // 0x198
+        public UnityEngine.InputSystem.Controls.Vector2Control touchpad; // 0x1A0
 
         // ── Methods ──
         public void get_back(){} // RVA: 0x7FFD4E960F60
@@ -120,23 +120,23 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusTouchController : XRControllerWithRumble
     {
-        public object thumbstick;
-        public object trigger;
-        public object grip;
-        public object primaryButton;
-        public object secondaryButton;
-        public object gripPressed;
-        public object start;
-        public object thumbstickClicked;
-        public object primaryTouched;
-        public object secondaryTouched;
-        public object triggerTouched;
-        public object triggerPressed;
-        public object thumbstickTouched;
-        public object deviceVelocity;
-        public object deviceAngularVelocity;
-        public object deviceAcceleration;
-        public object deviceAngularAcceleration;
+        public UnityEngine.InputSystem.Controls.Vector2Control thumbstick; // 0x1B0
+        public UnityEngine.InputSystem.Controls.AxisControl trigger; // 0x1B8
+        public UnityEngine.InputSystem.Controls.AxisControl grip; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl primaryButton; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl secondaryButton; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl gripPressed; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl start; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl thumbstickClicked; // 0x1E8
+        public UnityEngine.InputSystem.Controls.ButtonControl primaryTouched; // 0x1F0
+        public UnityEngine.InputSystem.Controls.ButtonControl secondaryTouched; // 0x1F8
+        public UnityEngine.InputSystem.Controls.AxisControl triggerTouched; // 0x200
+        public UnityEngine.InputSystem.Controls.ButtonControl triggerPressed; // 0x208
+        public UnityEngine.InputSystem.Controls.ButtonControl thumbstickTouched; // 0x210
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceVelocity; // 0x218
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularVelocity; // 0x220
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAcceleration; // 0x228
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularAcceleration; // 0x230
 
         // ── Methods ──
         public void get_thumbstick(){} // RVA: 0x7FFD4E969F30
@@ -179,8 +179,8 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusTrackingReference : TrackedDevice
     {
-        public object trackingState;
-        public object isTracked;
+        public UnityEngine.InputSystem.Controls.IntegerControl trackingState; // 0x1B0
+        public UnityEngine.InputSystem.Controls.ButtonControl isTracked; // 0x1B8
 
         // ── Methods ──
         public void get_trackingState(){} // RVA: 0x7FFD4E969F30

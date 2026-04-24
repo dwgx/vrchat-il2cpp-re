@@ -13,6 +13,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Intersect`1 : Object
     {
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> first;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> second;
+        public System.Collections.Generic.IEqualityComparer`1<T> comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
         public void GetAsyncEnumerator(){}

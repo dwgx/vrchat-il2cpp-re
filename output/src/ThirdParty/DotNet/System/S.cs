@@ -39,6 +39,9 @@ namespace ThirdParty.DotNet.System
 
     public class SequencePosition : ValueType
     {
+        public object _object; // 0x10
+        public int _integer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E77C3C0
         public void GetObject(){} // RVA: 0x7FFD4EEF9F60
@@ -116,9 +119,8 @@ namespace ThirdParty.DotNet.System
 
     public class Span`1 : ValueType
     {
-        public object Item;
-        public object Length;
-        public object IsEmpty;
+        public System.ByReference`1<System.Collections.Generic.KeyValuePair`2<string,int>> Item; // 0x10
+        public int Length; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC0B650 | overloaded x4
@@ -270,12 +272,10 @@ namespace ThirdParty.DotNet.System
 
     public class StringComparer : Object
     {
-        public object InvariantCulture;
-        public object InvariantCultureIgnoreCase;
-        public object CurrentCulture;
-        public object CurrentCultureIgnoreCase;
-        public object Ordinal;
-        public object OrdinalIgnoreCase;
+        public System.CultureAwareComparer InvariantCulture;
+        public System.CultureAwareComparer InvariantCultureIgnoreCase; // 0x8
+        public System.OrdinalCaseSensitiveComparer CurrentCulture; // 0x10
+        public System.OrdinalIgnoreCaseComparer CurrentCultureIgnoreCase; // 0x18
 
         // ── Methods ──
         public void get_InvariantCulture(){} // RVA: 0x7FFD53A6CA80

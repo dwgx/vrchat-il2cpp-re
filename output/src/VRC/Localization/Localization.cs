@@ -7,8 +7,8 @@ namespace VRC.Localization
 {
     public class LocalizableOptionData : ValueType
     {
-        public object LocalizableText;
-        public object Image;
+        public VRC.Localization.LocalizableString LocalizableText; // 0x10
+        public UnityEngine.Sprite Image; // 0x38
 
         // ── Methods ──
         public void GetLanguage(){} // RVA: 0x7FFD4E36F130
@@ -23,11 +23,13 @@ namespace VRC.Localization
 
     public class LocalizableString : ValueType
     {
-        public object Key;
-        public object FallbackText;
-        public object HasKey;
-        public object IsLocalized;
-        public object IsEmpty;
+        public string Key;
+        public string FallbackText; // 0x10
+        public string HasKey; // 0x18
+        public object IsLocalized; // 0x20
+        public object IsEmpty; // 0x28
+        public object _arg2; // 0x30
+        public VRC.Localization.LocalizableString Empty;
 
         // ── Methods ──
         public void op_Equality(){} // RVA: 0x7FFD53658120
@@ -62,6 +64,8 @@ namespace VRC.Localization
 
     public class LocalizableStringFormatter : Object
     {
+        public System.Collections.Generic.Stack`1<System.Text.StringBuilder> _formattedStringBuilders;
+
         // ── Methods ──
         public void GetStringBuilder(){} // RVA: 0x7FFD53659590
         public void PutStringBuilder(){} // RVA: 0x7FFD53659730
@@ -71,6 +75,8 @@ namespace VRC.Localization
 
     public class LocalizationAssetParser : Object
     {
+        public System.Text.StringBuilder TMPBuilder;
+
         // ── Methods ──
         public void SeparateCSVDataIntoFilesPerLanguage(){} // RVA: 0x7FFD5364D300
         public void SplitCsvLine(){} // RVA: 0x7FFD5364D9C0
@@ -81,9 +87,17 @@ namespace VRC.Localization
 
     public class LocalizationAssetSource : Object
     {
-        public object ID;
-        public object FolderPath;
-        public object Groups;
+        public string ID;
+        public string FolderPath;
+        public string Groups;
+        public string IDS_FILE_NAME;
+        public string CLIENT_STRINGS_GROUP;
+        public string API_CONSUMER_STRINGS_GROUP;
+        public string DYNAMIC_CONTENT_STRINGS_GROUP;
+        public string[] DEFAULT_GROUPS;
+        public string <ID>k__BackingField; // 0x10
+        public string <FolderPath>k__BackingField; // 0x18
+        public string[] <Groups>k__BackingField; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5364E930
@@ -102,13 +116,17 @@ namespace VRC.Localization
 
     public class LocalizationDatabase : Object
     {
-        public object Instance;
-        public object Languages;
-        public object LanguageCount;
-        public object KeyCount;
-        public object Timestamp;
-        public object CurrentLanguage;
-        public object IsRTL;
+        public string Instance;
+        public System.Collections.Generic.Dictionary`2<string,string> Languages; // 0x10
+        public System.Collections.Generic.List`1<string> LanguageCount; // 0x18
+        public System.Collections.Generic.HashSet`1<string> KeyCount; // 0x20
+        public System.Collections.Generic.List`1<string> Timestamp; // 0x28
+        public System.Collections.Generic.List`1<VRC.Localization.LocalizationAssetSource> CurrentLanguage; // 0x30
+        public System.Text.StringBuilder IsRTL; // 0x38
+        public VRC.Localization.LocalizationDatabase <Instance>k__BackingField;
+        public string <Timestamp>k__BackingField; // 0x40
+        public string <CurrentLanguage>k__BackingField; // 0x48
+        public bool <IsRTL>k__BackingField; // 0x50
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD53650240
@@ -143,13 +161,16 @@ namespace VRC.Localization
 
     public class LocalizationManager : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_86E;
-        public object f_032;
-        public object f_D44;
-        public object f_B88;
-        public object f_708;
+        public System.Lazy`1<ÌÎÏÍÏÏÍÎÍÍÏÌÎÌÏÍÏÏÌÎÌÏÌ> _name; // 0x10
+        public string _hideFlags;
+        public ÏÎÎÌÏÏÎÌÎÌÎÍÍÎÏÌÏÎÌÏÎÏÎ<string> f_86E; // 0x18
+        public ÏÎÎÌÏÏÎÌÎÌÎÍÍÎÏÌÏÎÌÏÎÏÎ<VRC.Localization.LocalizableString> f_032; // 0x20
+        public System.Collections.Generic.List`1<string> f_D44; // 0x28
+        public ÌÎÌÌÎÎÍÌÍÍÏÏÏÌÌÌÎÌÏÍÎÍÎ f_B88; // 0x30
+        public string f_708;
+        public bool <ÍÏÌÏÎÍÏÎÏÌÏÍÎÏÎÌÍÌÌÏÍÎÎ>k__BackingField; // 0x38
+        public System.Collections.Generic.Dictionary`2<string,ÌÎÌÌÎÎÍÌÍÍÏÏÏÌÌÌÎÌÏÍÎÍÎ> ÏÍÍÌÎÎÏÌÌÌÌÏÏÌÍÏÍÌÎÎÏÍÍ;
+        public System.Collections.Generic.Dictionary`2<string,string> ÌÏÎÌÍÏÏÎÍÎÍÌÎÌÎÌÍÍÎÍÎÍÏ; // 0x8
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FAE3E60
@@ -208,6 +229,8 @@ namespace VRC.Localization
 
     public class ResourcesLocalizationAssetSource : LocalizationAssetSource
     {
+        public string BaseFolder; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5364EC00
         public void GetAvailableLanguagesFile(){} // RVA: 0x7FFD5364EE90

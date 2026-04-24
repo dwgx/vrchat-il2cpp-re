@@ -7,7 +7,8 @@ namespace VRC.UI.Client.Promotions
 {
     public class PromotionDataManager : Object
     {
-        public object Key;
+        public System.Collections.Generic.HashSet`1<ÍÎÌÏÌÎÌÍÌÌÎÎÍÌÏÌÌÎÎÌÍÍÏ> Key; // 0x10
+        public VRC.UI.Client.Promotions.PromotionDataManager Instance;
 
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7FFD4EC74C90

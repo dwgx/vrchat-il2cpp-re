@@ -7,6 +7,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class LayerMaskFormatter : MinimalBaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<int> IntSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD5543A5F0
         public void Write(){} // RVA: 0x7FFD5543A680
@@ -16,6 +18,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ListFormatter`1 : BaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> TSerializer;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void .ctor(){} // RVA: 0x7FFD4E090980

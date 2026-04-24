@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.Serialization
 {
     public class FormerlySerializedAsAttribute : Attribute
     {
-        public object oldName;
+        public string oldName; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30

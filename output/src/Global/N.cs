@@ -5,6 +5,9 @@
 
 public class NativeArrayHelper`1 : ValueType
 {
+    public Unity.Collections.NativeArray`1<T> UnityNativeArray;
+    public System.Runtime.InteropServices.GCHandle _handle;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E097970
     public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -12,6 +15,8 @@ public class NativeArrayHelper`1 : ValueType
 
 public class NetworkSurrogateSelector : Object
 {
+    public 0x66432A00 _next; // 0x10
+
     // ── Methods ──
     public void ChainSelector(){} // RVA: 0x7FFD57499CC0
     public void GetNextSelector(){} // RVA: 0x7FFD4E35C380
@@ -22,6 +27,10 @@ public class NetworkSurrogateSelector : Object
 
 public class NeverPromise`1 : Object
 {
+    public System.Action`1<object> cancellationCallback;
+    public System.Threading.CancellationToken cancellationToken;
+    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<T> core;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090BF0
     public void CancellationCallback(){} // RVA: 0x7FFD4E090A10
@@ -43,7 +52,13 @@ public class NewInputUpdate : ValueType
 
 public class NextFramePromise : Object
 {
-    public object NextNode;
+    public Cysharp.Threading.Tasks.TaskPool`1<NextFramePromise> NextNode;
+    public NextFramePromise nextNode; // 0x10
+    public int frameCount; // 0x18
+    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<Cysharp.Threading.Tasks.AsyncUnit> core; // 0x20
+    public System.Threading.CancellationToken cancellationToken; // 0x48
+    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration; // 0x50
+    public bool cancelImmediately; // 0x68
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0
@@ -60,54 +75,37 @@ public class NextFramePromise : Object
 
 public class NextResult : ValueType
 {
+    public Mediapipe.Packet`1<System.Collections.Generic.List`1<0x66571E78>> packet; // 0x10
+    public bool ok; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E096500
 }
 
 public class Node : Object
 {
+    public bool _key; // 0x10
+    public int _value; // 0x14
+    public Photon.Client.NCommand _next; // 0x18
+    public int _hashcode; // 0x20
+    public uint Hash; // 0x24
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD519D2CC0
 }
 
 public class NodePath : ValueType
 {
+    public int _nodeID;
+    public int _mainTreeNodeID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E092E60
 }
 
 public class NoiseModule : ValueType
 {
-    public object enabled;
-    public object separateAxes;
-    public object strength;
-    public object strengthMultiplier;
-    public object strengthX;
-    public object strengthXMultiplier;
-    public object strengthY;
-    public object strengthYMultiplier;
-    public object strengthZ;
-    public object strengthZMultiplier;
-    public object frequency;
-    public object damping;
-    public object octaveCount;
-    public object octaveMultiplier;
-    public object octaveScale;
-    public object quality;
-    public object scrollSpeed;
-    public object scrollSpeedMultiplier;
-    public object remapEnabled;
-    public object remap;
-    public object remapMultiplier;
-    public object remapX;
-    public object remapXMultiplier;
-    public object remapY;
-    public object remapYMultiplier;
-    public object remapZ;
-    public object remapZMultiplier;
-    public object positionAmount;
-    public object rotationAmount;
-    public object sizeAmount;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -235,6 +233,10 @@ public class NoiseModule : ValueType
 
 public class NoiseParams : ValueType
 {
+    public float Frequency; // 0x10
+    public float Amplitude; // 0x14
+    public bool Constant; // 0x18
+
     // ── Methods ──
     public void GetValueAt(){} // RVA: 0x7FFD4FC6D480
 }
@@ -248,6 +250,8 @@ public class NoopDisposable : Object
 
 public class NullDisposable : Object
 {
+    public System.IDisposable Instance;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x7FFD4E341310
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -256,6 +260,8 @@ public class NullDisposable : Object
 
 public class NullProgress`1 : Object
 {
+    public System.IProgress`1<T> Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
     public void Report(){} // RVA: 0x7FFD4E2ADC40
@@ -264,11 +270,7 @@ public class NullProgress`1 : Object
 
 public class NullStream : Stream
 {
-    public object CanRead;
-    public object CanWrite;
-    public object CanSeek;
-    public object Length;
-    public object Position;
+    public System.Threading.Tasks.Task`1<int> CanRead;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A0A120
@@ -336,8 +338,11 @@ public class NullTextWriter : TextWriter
 
 public class NumberBuffer : ValueType
 {
-    public object sign;
-    public object digits;
+    public int sign; // 0x10
+    public int digits; // 0x14
+    public int _sign; // 0x18
+    public 0x66420788 _digits; // 0x1C
+    public char* _allDigits; // 0x82
 
     // ── Methods ──
     public void get_sign(){} // RVA: 0x7FFD53A64870
@@ -347,4 +352,27 @@ public class NumberBuffer : ValueType
 
 public class NumberFormatEntryManaged : ValueType
 {
+    public int currency_decimal_digits; // 0x10
+    public int currency_decimal_separator; // 0x14
+    public int currency_group_separator; // 0x18
+    public int currency_group_sizes0; // 0x1C
+    public int currency_group_sizes1; // 0x20
+    public int currency_negative_pattern; // 0x24
+    public int currency_positive_pattern; // 0x28
+    public int currency_symbol; // 0x2C
+    public int nan_symbol; // 0x30
+    public int negative_infinity_symbol; // 0x34
+    public int negative_sign; // 0x38
+    public int number_decimal_digits; // 0x3C
+    public int number_decimal_separator; // 0x40
+    public int number_group_separator; // 0x44
+    public int number_group_sizes0; // 0x48
+    public int number_group_sizes1; // 0x4C
+    public int number_negative_pattern; // 0x50
+    public int per_mille_symbol; // 0x54
+    public int percent_negative_pattern; // 0x58
+    public int percent_positive_pattern; // 0x5C
+    public int percent_symbol; // 0x60
+    public int positive_infinity_symbol; // 0x64
+    public int positive_sign; // 0x68
 }

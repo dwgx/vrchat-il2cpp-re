@@ -26,6 +26,10 @@ namespace ThirdParty.Other.Org.BouncyCastle.Crypto.Tls
 
     public class LegacyTlsAuthentication : Object
     {
+        public Org.BouncyCastle.Crypto.Tls.ICertificateVerifyer verifyer; // 0x10
+        public Org.BouncyCastle.Crypto.Tls.IClientCredentialsProvider credProvider; // 0x18
+        public System.Uri TargetUri; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53640D00
         public void NotifyServerCertificate(){} // RVA: 0x7FFD56E51B60
@@ -34,6 +38,10 @@ namespace ThirdParty.Other.Org.BouncyCastle.Crypto.Tls
 
     public class LegacyTlsClient : DefaultTlsClient
     {
+        public System.Uri TargetUri; // 0x58
+        public Org.BouncyCastle.Crypto.Tls.ICertificateVerifyer verifyer; // 0x60
+        public Org.BouncyCastle.Crypto.Tls.IClientCredentialsProvider credProvider; // 0x68
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD56E51CB0
         public void GetAuthentication(){} // RVA: 0x7FFD56E51F50

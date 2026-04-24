@@ -7,8 +7,7 @@ namespace ThirdParty.Other.ProfanityFilter
 {
     public class AllowList : Object
     {
-        public object ToList;
-        public object Count;
+        public System.Collections.Generic.List`1<string> ToList; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E4C1900
@@ -22,7 +21,8 @@ namespace ThirdParty.Other.ProfanityFilter
 
     public class ProfanityBase : Object
     {
-        public object Count;
+        public System.Collections.Generic.List`1<string> Count; // 0x10
+        public string[] _wordList; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E4C2390 | overloaded x3
@@ -34,7 +34,7 @@ namespace ThirdParty.Other.ProfanityFilter
 
     public class ProfanityFilter : ProfanityBase
     {
-        public object AllowList;
+        public ProfanityFilter.Interfaces.IAllowList AllowList; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E4C3020 | overloaded x3

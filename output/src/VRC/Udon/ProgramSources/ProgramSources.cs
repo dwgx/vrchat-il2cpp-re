@@ -7,10 +7,25 @@ namespace VRC.Udon.ProgramSources
 {
     public class SerializedUdonProgramAsset : AbstractSerializedUdonProgramAsset
     {
-        public object DebugCategoryName;
-        public object VRC.Udon.Security.IUdonSignatureHolder.Signature;
-        public object VRC.Udon.Security.IUdonSignatureHolder.SignedData;
-        public object IsInternallyValidated;
+        public System.Lazy`1<string> DebugCategoryName;
+        public 0x66583B70 VRC.Udon.Security.IUdonSignatureHolder.Signature;
+        public int VRC.Udon.Security.IUdonSignatureHolder.SignedData;
+        public byte[] IsInternallyValidated; // 0x18
+        public string serializedProgramBytesString; // 0x20
+        public byte[] serializedSignature; // 0x28
+        public System.Collections.Generic.List`1<UnityEngine.Object> programUnityEngineObjects; // 0x30
+        public 0x665C1448[] networkCallingEntrypointMetadata; // 0x38
+        public System.Collections.Generic.Dictionary`2<string,0x665C1448> _networkCallingEntrypointMetadataMap; // 0x40
+        public 0x66583B70 serializationDataFormat; // 0x48
+        public System.Nullable`1<System.ValueTuple`3<0x6662FCE0,byte[],System.Collections.Generic.List`1<UnityEngine.Object>>> _serializationCache; // 0x50
+        public int _mainThreadId; // 0x70
+        public Unity.Profiling.ProfilerMarker _retrieveProgramProfilerMarker; // 0x78
+        public Unity.Profiling.ProfilerMarker _retrieveProgramCopyHeapProfilerMarker; // 0x80
+        public Unity.Profiling.ProfilerMarker _cloneProgramCopyByteCodeProfilerMarker; // 0x88
+        public bool <IsInternallyValidated>k__BackingField; // 0x90
+        public int _entrypointHashesLoaded; // 0x94
+        public System.Collections.Generic.Dictionary`2<uint,string> _entrypointHashToName; // 0x98
+        public System.Collections.Generic.Dictionary`2<string,uint> _entrypointNameToHash; // 0xA0
 
         // ── Methods ──
         public void get_DebugCategoryName(){} // RVA: 0x7FFD552C08A0

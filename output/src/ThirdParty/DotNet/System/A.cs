@@ -129,6 +129,9 @@ namespace ThirdParty.DotNet.System
 
     public class AppContext : Object
     {
+        public System.Collections.Generic.Dictionary`2<string,0x66422938> s_switchMap;
+        public bool s_defaultsInitialized; // 0x8
+
         // ── Methods ──
         public void InitializeDefaultSwitchValues(){} // RVA: 0x7FFD53A88240
         public void TryGetSwitch(){} // RVA: 0x7FFD53A88440
@@ -137,6 +140,10 @@ namespace ThirdParty.DotNet.System
 
     public class AppContextDefaultValues : Object
     {
+        public string SwitchEnforceJapaneseEraYearRanges;
+        public string SwitchFormatJapaneseFirstYearAsANumber; // 0x8
+        public string SwitchEnforceLegacyJapaneseDateParsing; // 0x10
+
         // ── Methods ──
         public void PopulateDefaultValues(){} // RVA: 0x7FFD4E341310
         public void TryGetSwitchOverride(){} // RVA: 0x7FFD53AB2DA0
@@ -145,31 +152,36 @@ namespace ThirdParty.DotNet.System
 
     public class AppContextSwitches : Object
     {
+        public bool SetActorAsReferenceWhenCopyingClaimsIdentity;
+        public bool NoAsyncCurrentCulture; // 0x1
+        public bool EnforceJapaneseEraYearRanges; // 0x2
+        public bool FormatJapaneseFirstYearAsANumber; // 0x3
+        public bool EnforceLegacyJapaneseDateParsing; // 0x4
     }
 
     public class AppDomain : MarshalByRefObject
     {
         public UIntPtr CurrentDomain; // 0x18
         public string IsHomogenous;
-        public URA.DateTime<string,object> IsFullyTrusted; // 0xFFFFFFFF
-        public URA.DateTime<string,object> assembly_resolve_in_progress; // 0xFFFFFFFF
-        public URA.DateTime<string,object> assembly_resolve_in_progress_refonly; // 0xFFFFFFFF
+        public System.Collections.Generic.Dictionary`2<string,object> IsFullyTrusted; // 0xFFFF
+        public System.Collections.Generic.Dictionary`2<string,object> assembly_resolve_in_progress; // 0xFFFF
+        public System.Collections.Generic.Dictionary`2<string,object> assembly_resolve_in_progress_refonly; // 0xFFFF
         public object _evidence; // 0x20
         public object _granted; // 0x28
         public int _principalPolicy; // 0x30
-        public mationBypassAccessCheck AssemblyLoad; // 0x38
-        public neFromLocalMachine AssemblyResolve; // 0x40
-        public cjkIndexer DomainUnload; // 0x48
-        public cjkIndexer ProcessExit; // 0x50
-        public neFromLocalMachine ResourceResolve; // 0x58
-        public neFromLocalMachine TypeResolve; // 0x60
-        public lean UnhandledException; // 0x68
-        public tTable<.Messaging.IInternalMessage.TargetIdentity.ge.Uri> FirstChanceException; // 0x70
+        public 0x6641E478 AssemblyLoad; // 0x38
+        public 0x66420E10 AssemblyResolve; // 0x40
+        public Cl DomainUnload; // 0x48
+        public Cl ProcessExit; // 0x50
+        public 0x66420E10 ResourceResolve; // 0x58
+        public 0x66420E10 TypeResolve; // 0x60
+        public System.UnhandledExceptionEventHandler UnhandledException; // 0x68
+        public System.EventHandler`1<0x66435C30> FirstChanceException; // 0x70
         public object _domain_manager; // 0x78
-        public neFromLocalMachine ReflectionOnlyAssemblyResolve; // 0x80
+        public 0x66420E10 ReflectionOnlyAssemblyResolve; // 0x80
         public object _activation; // 0x88
         public object _applicationIdentity; // 0x90
-        public URA.woDigitYearMax<string> compatibility_switch; // 0x98
+        public System.Collections.Generic.List`1<string> compatibility_switch; // 0x98
 
         // ── Methods ──
         public void IsAppXModel(){} // RVA: 0x7FFD4E341320
@@ -253,6 +265,11 @@ namespace ThirdParty.DotNet.System
 
     public class ArgIterator : ValueType
     {
+        public UIntPtr sig; // 0x10
+        public UIntPtr args; // 0x18
+        public int next_arg; // 0x20
+        public int num_args; // 0x24
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD53AB7830
         public void GetHashCode(){} // RVA: 0x7FFD4F840210
@@ -375,13 +392,10 @@ namespace ThirdParty.DotNet.System
 
     public class ArraySegment`1 : ValueType
     {
-        public object Empty;
-        public object Array;
-        public object Offset;
-        public object Count;
-        public object System.Collections.Generic.IList<T>.Item;
-        public object System.Collections.Generic.IReadOnlyList<T>.Item;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
+        public System.ArraySegment`1<ÌÌÏÌÏÏÍÏÍÌÎÎÌÌÏÌÌÍÍÌÍÏÌ> Empty;
+        public ÌÌÏÌÏÏÍÏÍÌÎÎÌÌÏÌÌÍÍÌÍÏÌ[] Array; // 0x10
+        public int Offset; // 0x18
+        public int Count; // 0x1C
 
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x7FFD4E2ADC40
@@ -464,8 +478,10 @@ namespace ThirdParty.DotNet.System
 
     public class AttributeUsageAttribute : Attribute
     {
-        public object AllowMultiple;
-        public object Inherited;
+        public ` AllowMultiple; // 0x10
+        public bool Inherited; // 0x14
+        public bool _inherited; // 0x15
+        public System.AttributeUsageAttribute Default;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5392B0F0

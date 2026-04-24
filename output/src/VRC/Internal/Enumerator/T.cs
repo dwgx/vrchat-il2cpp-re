@@ -109,8 +109,15 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÍÎÌÍÏÌÍÌÎÍÎÏÌÌÎÍÏÏÏÏÌÍ</summary>
     public class TSourceEnumerator_5A44 : Object
     {
-        public object System.Collections.Generic.IEnumerator<TSource>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<TSource>.Current;
+        public U System.Collections.IEnumerator.Current;
+        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ;
+        public System.Collections.Generic.IEnumerable`1<U> ÏÏÎÎÏÌÍÌÍÌÍÏÍÏÎÌÎÌÍÏÍÌÍ;
+        public System.Collections.Generic.IEnumerable`1<U> ÏÌÏÍÌÎÌÌÏÌÏÍÌÎÍÌÎÍÍÍÌÌÌ;
+        public System.Func`2<U,T> ÌÍÍÎÌÌÌÎÍÏÏÏÌÍÍÌÎÍÌÍÏÏÍ;
+        public System.Func`2<U,T> ÏÌÎÎÎÍÍÌÏÍÎÏÌÎÎÌÌÍÏÍÍÌÌ;
+        public System.Collections.Generic.HashSet`1<T> ÎÍÍÎÏÏÍÍÎÏÍÌÏÍÌÌÏÎÏÍÍÎÎ;
+        public System.Collections.Generic.IEnumerator`1<U> ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
