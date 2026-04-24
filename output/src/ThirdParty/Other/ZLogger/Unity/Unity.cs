@@ -7,11 +7,7 @@ namespace ThirdParty.Other.ZLogger.Unity
 {
     public class UnityDebugLogProcessor : Object
     {
-        public erDecimalDigits.win32LangID<byte> IsPostingToUnity; // 0xFFFFFFFF
-        public ateHandlerOnDispose.tring options; // 0x10
-        public ÎÏÎÎ formatter; // 0x18
-        public bool <IsPostingToUnity>k__BackingField;
-        public URA.DateTime<?,?> StackTraceLogTypeMappings; // 0x8
+        public object IsPostingToUnity;
 
         // ── Methods ──
         public void get_IsPostingToUnity(){} // RVA: 0x7FFD55280410
@@ -26,10 +22,6 @@ namespace ThirdParty.Other.ZLogger.Unity
 
     public class ZLoggerUnityDebugLoggerProvider : Object
     {
-        public ÏÌÍÍÏÎÎÎÌ options; // 0x10
-        public ateHandlerOnDispose.spose processor; // 0x18
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile scopeProvider; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552815B0
         public void CreateLogger(){} // RVA: 0x7FFD552817B0
@@ -40,7 +32,7 @@ namespace ThirdParty.Other.ZLogger.Unity
 
     public class ZLoggerUnityDebugOptions : ZLoggerOptions
     {
-        public bool PrettyStacktrace; // 0x38
+        public object PrettyStacktrace;
 
         // ── Methods ──
         public void get_PrettyStacktrace(){} // RVA: 0x7FFD4E5F95D0

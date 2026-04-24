@@ -7,10 +7,10 @@ namespace ThirdParty.Unity.UnityEngineInternal.Input
 {
     public class NativeInputSystem : Object
     {
-        public ckingField.d onDeviceDiscovered;
-        public ileFullDirectoryInformation<ckingField.mbnailRenderer> hasDeviceDiscoveredCallback; // 0x8
-        public n<ckingField.mbnailRenderer,bool> currentTime; // 0x10
-        public rectoryInformation<int,string> currentTimeOffsetToRealtimeSinceStartup; // 0x18
+        public object onDeviceDiscovered;
+        public object hasDeviceDiscoveredCallback;
+        public object currentTime;
+        public object currentTimeOffsetToRealtimeSinceStartup;
 
         // ── Methods ──
         public void get_onDeviceDiscovered(){} // RVA: 0x7FFD54D62C70

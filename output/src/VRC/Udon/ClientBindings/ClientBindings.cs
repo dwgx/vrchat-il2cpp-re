@@ -7,11 +7,8 @@ namespace VRC.Udon.ClientBindings
 {
     public class UdonClientInterface : Object
     {
-        public ilObjectDistance DebugLogging; // 0x10
-        public gger.ry_options_set_logger LightReservedLayerMask; // 0x18
-        public caleOffset_Injected<?> filter; // 0x20
-        public tDensity wrapperFactory; // 0x28
-        public bool <DebugLogging>k__BackingField; // 0x30
+        public object DebugLogging;
+        public object LightReservedLayerMask;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5529D250 | overloaded x2

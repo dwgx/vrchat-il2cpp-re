@@ -599,9 +599,46 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÌÎÏÏÍÌÏÍÌÌÎÍÎÎÏÌÎÍÏÌÏ</summary>
     public class Enumerator_402A : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object System.Collections.IEnumerator.Current;
+        public string _name; // 0x10
+        public itTypeSize=876 _hideFlags; // 0x18
+        public itTypeSize=876 System.Collections.IEnumerator.Current; // 0x40
+        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ector> <ÍÍÌÌÌÏÌÌÏÎÍÍÏÍÏÏÍÍÍÏÎÌÏ>k__BackingField; // 0x68
+        public ÌÍÎÌÎÎÍÎÌÏÎÌÎÎÎÏÍÌÍÌ<ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField> <ÍÎÍÍÎÌÌÏÌÍÌÍÎÎÎÏÍÎÌÍÍÌÌ>k__BackingField; // 0x70
+        public string <ÏÏÍÏÍÍÎÎÍÎÏÌÏÍÎÍÎÍÍÏÎÎÍ>k__BackingField; // 0x78
+        public string <ÍÎÏÌÍÏÌÌÍÌÏÌÏÌÌÎÍÏÍÍÌÎÎ>k__BackingField; // 0x80
+        public string <ÎÎÌÌÎÎÎÏÌÌÍÌÏÌÍÍÎÏÎÌÎÌÍ>k__BackingField; // 0x88
+        public ÍÎÎÎÎÌÏÏÎÌ<?> <ÏÌÍÎÍÌÎÏÍÍÍÏÍÍÍÏÍÍÌÏÍÏÏ>k__BackingField; // 0x90
+        public ÍÎÎÎÎÌÏÏÎÌ<?> <ÌÍÌÍÎÎÌÎÎÏÌÌÏÍÎÍÍÌÎÎÍÍÎ>k__BackingField; // 0x98
+        public bool <ÌÏÍÌÌÏÌÍÎÎÌÏÎÌÌÌÌÍÏÌÌÎÍ>k__BackingField; // 0xA0
+        public DependencyInjector <ÎÏÏÏÌÎÎÍÍÌÏÏÍÌÍÌÎÎÎÍÍÍÌ>k__BackingField; // 0xA8
+        public DependencyInjector <ÌÏÎÏÏÌÎÍÌÍÎÏÍÎÎÎÎÍÎÎÎÍÍ>k__BackingField; // 0xB0
+        public DependencyInjector <ÍÎÏÎÌÌÍÏÏÏÌÍÍÎÎÍÍÍÎÎÍÎÍ>k__BackingField; // 0xB8
+        public DependencyInjector <ÎÎÎÍÎÌÏÌÌÏÍÎÏÌÌÏÏÌÍÌÏÌÎ>k__BackingField; // 0xC0
+        public string <ÍÌÌÍÌÎÍÏÌÏÌÌÎÏÏÎÏÌÎÌÍÌÍ>k__BackingField; // 0xC8
+        public bool <ÎÌÌÌÌÌÎÌÏÏÍÎÏÍÏÎÏÍÏÏÌÏÍ>k__BackingField; // 0xD0
+        public string <ÍÏÌÎÎÍÎÏÏÎÍÎÍÏÍÎÍÌÏÏÌÌÎ>k__BackingField; // 0xD8
+        public string <ÍÍÏÎÌÎÍÏÌÌÌÎÎÌÎÍÌÍÏÏÎÍÎ>k__BackingField; // 0xE0
+        public string <ÎÎÎÎÎÎÌÏÍÏÏÍÎÌÌÎÏÌÎÏÏÌÏ>k__BackingField; // 0xE8
+        public string <ÏÏÎÎÌÍÌÍÌÏÍÌÎÎÌÌÍÌÌÎÍÎÌ>k__BackingField; // 0xF0
+        public string <ÌÏÎÌÌÏÌÍÍÌÍÏÍÍÍÎÏÍÌÎÏÍÌ>k__BackingField; // 0xF8
+        public bool <ÎÏÎÍÎÍÌÌÎÌÍÍÏÎÎÎÌÎÍÏÍÍÍ>k__BackingField; // 0x100
+        public bool <ÎÏÎÌÏÍÍÏÍÍÍÏÏÏÍÍÎÏÌÏÌÍÌ>k__BackingField; // 0x101
+        public bool <ÌÍÍÌÌÎÎÏÍÎÎÌÎÏÍÎÍÌÎÎÍÍÎ>k__BackingField; // 0x102
+        public bool <ÎÍÎÎÎÍÏÌÏÏÏÌÎÍÌÍÎÍÍÍÌÎÍ>k__BackingField; // 0x103
+        public bool <ÏÌÍÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField; // 0x104
+        public bool <ÎÎÍÎÏÏÍÍÏÎÌÌÎÌÍÏÏÍÏÎÏÏÏ>k__BackingField; // 0x105
+        public bool <ÌÍÍÏÎÍÎÏÍÎÍÎÌÍÏÍÏÎÌÍÍÍÎ>k__BackingField; // 0x106
+        public bool <ÎÌÏÍÎÎÏÏÎÏÎÎÏÍÍÍÌÌÏÏÎÍÌ>k__BackingField; // 0x107
+        public bool <ÏÎÎÌÏÍÌÍÌÌÎÏÏÌÌÏÌÌÍÍÍÏÏ>k__BackingField; // 0x108
+        public bool <ÏÏÌÍÏÏÍÍÍÏÎÎÎÍÌÎÏÎÍÏÌÏÎ>k__BackingField; // 0x109
+        public bool <ÎÌÍÍÍÌÌÌÎÎÎÌÎÌÌÌÌÏÌÏÌÌÌ>k__BackingField; // 0x10A
+        public bool <ÏÎÌÍÏÍÌÏÌÎÎÍÎÎÎÎÎÎÏÌÌÌÏ>k__BackingField; // 0x10B
+        public ?<bool> <ÍÎÎÏÍÏÏÎÍÏÎÏÌÍÌÏÍÍÌÍÎÍÏ>k__BackingField; // 0x110
+        public ?<int> <ÍÍÎÍÎÎÏÏÏÌÏÍÎÍÏÏÎÍÍÍÍÎÍ>k__BackingField; // 0x118
+        public URA.woDigitYearMax<string> <ÌÏÏÏÏÎÍÌÏÎÎÌÏÍÎÏÎÎÌÎÎÌÍ>k__BackingField; // 0x120
+        public URA.woDigitYearMax<string> <ÌÌÍÍÏÎÏÌÏÏÏÏÏÍÏÌÏÏÍÍÌÎÎ>k__BackingField; // 0x128
+        public URA.woDigitYearMax<string> <ÏÌÏÌÍÍÎÏÌÏÌÍÏÍÍÍÌÌÏÏÌÏÎ>k__BackingField; // 0x130
+        public ÎÌÍÏÏÌÍÏ ÎÍÎÌÏÏÌÏÍÎÍÍÌÏÌÏÏÎÏÍÎÎÏ; // 0x138
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980

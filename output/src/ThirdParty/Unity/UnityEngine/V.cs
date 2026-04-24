@@ -7,18 +7,18 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Vector2 : ValueType
     {
-        public float Item; // 0x10
-        public float normalized; // 0x14
-        public tionX magnitude;
-        public tionX sqrMagnitude; // 0x8
-        public tionX zero; // 0x10
-        public tionX one; // 0x18
-        public tionX up; // 0x20
-        public tionX down; // 0x28
-        public tionX left; // 0x30
-        public tionX right; // 0x38
-        public float positiveInfinity;
-        public float negativeInfinity;
+        public object Item;
+        public object normalized;
+        public object magnitude;
+        public object sqrMagnitude;
+        public object zero;
+        public object one;
+        public object up;
+        public object down;
+        public object left;
+        public object right;
+        public object positiveInfinity;
+        public object negativeInfinity;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD4EB1F650
@@ -68,14 +68,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector2Int : ValueType
     {
-        public int x; // 0x10
-        public int y; // 0x14
-        public onY Item;
-        public onY magnitude; // 0x8
-        public onY sqrMagnitude; // 0x10
-        public onY zero; // 0x18
-        public onY one; // 0x20
-        public onY up; // 0x28
+        public object x;
+        public object y;
+        public object Item;
+        public object magnitude;
+        public object sqrMagnitude;
+        public object zero;
+        public object one;
+        public object up;
+        public object down;
+        public object left;
+        public object right;
 
         // ── Methods ──
         public void get_x(){} // RVA: 0x7FFD543B3F90
@@ -119,21 +122,20 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector3 : ValueType
     {
-        public float Item;
-        public float normalized;
-        public float magnitude; // 0x10
-        public float sqrMagnitude; // 0x14
-        public float zero; // 0x18
-        public amut one;
-        public amut forward; // 0xC
-        public amut back; // 0x18
-        public amut up; // 0x24
-        public amut down; // 0x30
-        public amut left; // 0x3C
-        public amut right; // 0x48
-        public amut positiveInfinity; // 0x54
-        public amut negativeInfinity; // 0x60
-        public amut negativeInfinityVector; // 0x6C
+        public object Item;
+        public object normalized;
+        public object magnitude;
+        public object sqrMagnitude;
+        public object zero;
+        public object one;
+        public object forward;
+        public object back;
+        public object up;
+        public object down;
+        public object left;
+        public object right;
+        public object positiveInfinity;
+        public object negativeInfinity;
 
         // ── Methods ──
         public void Slerp(){} // RVA: 0x7FFD54CCD7D0
@@ -196,17 +198,20 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector3Int : ValueType
     {
-        public int x; // 0x10
-        public int y; // 0x14
-        public int z; // 0x18
-        public lutionZ Item;
-        public lutionZ magnitude; // 0xC
-        public lutionZ sqrMagnitude; // 0x18
-        public lutionZ zero; // 0x24
-        public lutionZ one; // 0x30
-        public lutionZ up; // 0x3C
-        public lutionZ down; // 0x48
-        public lutionZ left; // 0x54
+        public object x;
+        public object y;
+        public object z;
+        public object Item;
+        public object magnitude;
+        public object sqrMagnitude;
+        public object zero;
+        public object one;
+        public object up;
+        public object down;
+        public object left;
+        public object right;
+        public object forward;
+        public object back;
 
         // ── Methods ──
         public void get_x(){} // RVA: 0x7FFD543B3F90
@@ -254,15 +259,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector4 : ValueType
     {
-        public float Item;
-        public float normalized; // 0x10
-        public float magnitude; // 0x14
-        public float sqrMagnitude; // 0x18
-        public float zero; // 0x1C
-        public get_boundingBoxMode one;
-        public get_boundingBoxMode positiveInfinity; // 0x10
-        public get_boundingBoxMode negativeInfinity; // 0x20
-        public get_boundingBoxMode negativeInfinityVector; // 0x30
+        public object Item;
+        public object normalized;
+        public object magnitude;
+        public object sqrMagnitude;
+        public object zero;
+        public object one;
+        public object positiveInfinity;
+        public object negativeInfinity;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD4E3659C0

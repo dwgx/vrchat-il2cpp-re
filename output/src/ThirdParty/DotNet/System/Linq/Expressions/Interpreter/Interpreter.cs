@@ -7,21 +7,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class CastInstruction : Instruction
     {
-        public rmat_String_ObjectArray.ceMethodCallExpressionN ConsumedStack;
-        public rmat_String_ObjectArray.ceMethodCallExpressionN ProducedStack; // 0x8
-        public rmat_String_ObjectArray.ceMethodCallExpressionN InstructionName; // 0x10
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_DateTime; // 0x18
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Decimal; // 0x20
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Double; // 0x28
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Int16; // 0x30
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Int32; // 0x38
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Int64; // 0x40
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_SByte; // 0x48
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_Single; // 0x50
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_String; // 0x58
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_UInt16; // 0x60
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_UInt32; // 0x68
-        public rmat_String_ObjectArray.ceMethodCallExpressionN s_UInt64; // 0x70
+        public object ConsumedStack;
+        public object ProducedStack;
+        public object InstructionName;
 
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x7FFD4E433AF0
@@ -33,9 +21,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class HybridReferenceDictionary`2 : Object
     {
-        public URA.mes<T1717688080,T1717688096>[] Item;
-        public URA.DateTime<T1717688080,T1717688096> _dict;
-        public int ArraySize;
+        public object Item;
 
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x7FFD4E2ADC40
@@ -50,7 +36,13 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class Instruction : Object
     {
-        public int ConsumedStack;
+        public object ConsumedStack;
+        public object ProducedStack;
+        public object ConsumedContinuations;
+        public object ProducedContinuations;
+        public object StackBalance;
+        public object ContinuationsBalance;
+        public object InstructionName;
 
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x7FFD4E919180
@@ -70,35 +62,10 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class InstructionList : Object
     {
-        public URA.woDigitYearMax<rmat_String_ObjectArray.ryQuote> Count; // 0x10
-        public URA.woDigitYearMax<object> CurrentStackDepth; // 0x18
-        public int CurrentContinuationsDepth; // 0x20
-        public int MaxStackDepth; // 0x24
-        public int _currentContinuationsDepth; // 0x28
-        public int _maxContinuationDepth; // 0x2C
-        public int _runtimeLabelCount; // 0x30
-        public URA.woDigitYearMax<rmat_String_ObjectArray.ecimal_Ctor_Int32_Int32_Int32_Bool_Byte> _labels; // 0x38
-        public URA.woDigitYearMax<URA.mes<int,object>> _debugCookies; // 0x40
-        public int PushIntMinCachedValue;
-        public int PushIntMaxCachedValue;
-        public int CachedObjectCount;
-        public rmat_String_ObjectArray.ryQuote s_null;
-        public rmat_String_ObjectArray.ryQuote s_true; // 0x8
-        public rmat_String_ObjectArray.ryQuote s_false; // 0x10
-        public rmat_String_ObjectArray.ryQuote[] s_Ints; // 0x18
-        public rmat_String_ObjectArray.ryQuote[] s_loadObjectCached; // 0x20
-        public int LocalInstrCacheSize;
-        public rmat_String_ObjectArray.ryQuote[] s_loadLocal; // 0x28
-        public rmat_String_ObjectArray.ryQuote[] s_loadLocalBoxed; // 0x30
-        public rmat_String_ObjectArray.ryQuote[] s_loadLocalFromClosure; // 0x38
-        public rmat_String_ObjectArray.ryQuote[] s_loadLocalFromClosureBoxed; // 0x40
-        public rmat_String_ObjectArray.ryQuote[] s_assignLocal; // 0x48
-        public rmat_String_ObjectArray.ryQuote[] s_storeLocal; // 0x50
-        public rmat_String_ObjectArray.ryQuote[] s_assignLocalBoxed; // 0x58
-        public rmat_String_ObjectArray.ryQuote[] s_storeLocalBoxed; // 0x60
-        public rmat_String_ObjectArray.ryQuote[] s_assignLocalToClosure; // 0x68
-        public URA.DateTime<m.WmiGuidObject,rmat_String_ObjectArray.ryQuote> s_loadFields; // 0x70
-        public rmat_String_ObjectArray.tor_Int32[] s_emptyRuntimeLabels; // 0x78
+        public object Count;
+        public object CurrentStackDepth;
+        public object CurrentContinuationsDepth;
+        public object MaxStackDepth;
 
         // ── Methods ──
         public void Emit(){} // RVA: 0x7FFD541D46E0
@@ -216,7 +183,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class IntSwitchInstruction`1 : Instruction
     {
-        public URA.DateTime<T1717679712,int> InstructionName;
+        public object InstructionName;
+        public object ConsumedStack;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -227,11 +195,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LabelInfo : Object
     {
-        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.ator<TResult>.Current HasDefinitions; // 0x10
-        public rmat_String_ObjectArray.ecimal_Ctor_Int32_Int32_Int32_Bool_Byte HasMultipleDefinitions; // 0x18
-        public object _definitions; // 0x20
-        public URA.woDigitYearMax<rmat_String_ObjectArray.>b__60_0> _references; // 0x28
-        public bool _acrossBlockJump; // 0x30
+        public object HasDefinitions;
+        public object HasMultipleDefinitions;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541DD140
@@ -251,15 +216,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LightCompiler : Object
     {
-        public rmat_String_ObjectArray.? Instructions; // 0x10
-        public rmat_String_ObjectArray.? _locals; // 0x18
-        public URA.woDigitYearMax<rmat_String_ObjectArray.ncCollisionExitTrigger> _debugInfos; // 0x20
-        public rmat_String_ObjectArray.Expression<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.ator<TResult>.Current,rmat_String_ObjectArray.to> _treeLabels; // 0x28
-        public rmat_String_ObjectArray.>b__60_0 _labelBlock; // 0x30
-        public URA.leEastFrench<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current> _exceptionForRethrowStack; // 0x38
-        public rmat_String_ObjectArray.ompatible _parent; // 0x40
-        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.ocessor _guard; // 0x48
-        public rmat_String_ObjectArray.ConstructorRequired[] s_emptyLocals;
+        public object Instructions;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541E43D0 | overloaded x2
@@ -354,11 +311,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LightLambda : Object
     {
-        public int DebugView;
-        public ArgCount.meticTypes[] _closure; // 0x10
-        public rmat_String_ObjectArray.ngField _interpreter; // 0x18
-        public instructions.untimeLabel<?,n<rmat_String_ObjectArray.otHaveAccessor,formation>> _runCache;
-        public rmat_String_ObjectArray.Accessor _delegateCreator; // 0x20
+        public object DebugView;
 
         // ── Methods ──
         public void Run0(){} // RVA: 0x7FFD4E2ADC40
@@ -440,8 +393,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class QuoteInstruction : Instruction
     {
-        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.Update ProducedStack; // 0x10
-        public URA.DateTime<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current,rmat_String_ObjectArray.er> InstructionName; // 0x18
+        public object ProducedStack;
+        public object InstructionName;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240

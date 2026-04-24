@@ -7,9 +7,6 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class LOD : ValueType
     {
-        public float screenRelativeTransitionHeight; // 0x10
-        public float fadeTransitionWidth; // 0x14
-        public rical[] renderers; // 0x18
     }
 
     public class LODGroup : Component
@@ -54,7 +51,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LayerMask : ValueType
     {
-        public int value; // 0x10
+        public object value;
 
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x7FFD5061C020 | overloaded x2
@@ -88,7 +85,45 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Light : Behaviour
     {
-        public int type; // 0x18
+        public object type;
+        public object shape;
+        public object spotAngle;
+        public object innerSpotAngle;
+        public object color;
+        public object colorTemperature;
+        public object useColorTemperature;
+        public object intensity;
+        public object bounceIntensity;
+        public object useBoundingSphereOverride;
+        public object boundingSphereOverride;
+        public object useViewFrustumForShadowCasterCull;
+        public object shadowCustomResolution;
+        public object shadowBias;
+        public object shadowNormalBias;
+        public object shadowNearPlane;
+        public object useShadowMatrixOverride;
+        public object shadowMatrixOverride;
+        public object range;
+        public object flare;
+        public object bakingOutput;
+        public object cullingMask;
+        public object renderingLayerMask;
+        public object lightShadowCasterMode;
+        public object shadows;
+        public object shadowStrength;
+        public object shadowResolution;
+        public object shadowSoftness;
+        public object shadowSoftnessFade;
+        public object layerShadowCullDistances;
+        public object cookieSize;
+        public object cookie;
+        public object renderMode;
+        public object bakedIndex;
+        public object commandBufferCount;
+        public object pixelLightCount;
+        public object shadowConstantBias;
+        public object shadowObjectSizeBias;
+        public object attenuate;
 
         // ── Methods ──
         public void get_type(){} // RVA: 0x7FFD54CA9330
@@ -252,10 +287,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LightProbes : Object
     {
-        public ÎÌÍÏÏÌÍÏ lightProbesUpdated;
-        public ÎÌÍÏÏÌÍÏ tetrahedralizationCompleted; // 0x8
-        public ÎÌÍÏÏÌÍÏ needsRetetrahedralization; // 0x10
-
         // ── Methods ──
         public void Internal_CallLightProbesUpdatedFunction(){} // RVA: 0x7FFD54C91A50
         public void Internal_CallTetrahedralizationCompletedFunction(){} // RVA: 0x7FFD54C91AB0
@@ -363,9 +394,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Logger : Object
     {
-        public ode logHandler; // 0x10
-        public bool logEnabled; // 0x18
-        public object filterLogType; // 0x1C
+        public object logHandler;
+        public object logEnabled;
+        public object filterLogType;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CC74D0

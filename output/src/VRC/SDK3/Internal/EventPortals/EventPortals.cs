@@ -7,8 +7,7 @@ namespace VRC.SDK3.Internal.EventPortals
 {
     public class VRCEventPortalManager : MonoBehaviour
     {
-        public ÍÍ.ÏÎÏÏÍÎÌÏÌÎÍÍ Initialize; // 0x20
-        public ormation<ÍÍ.ÏÎÏÏÍÎÌÏÌÎÍÍ> <Initialize>k__BackingField;
+        public object Initialize;
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x7FFD55291A30

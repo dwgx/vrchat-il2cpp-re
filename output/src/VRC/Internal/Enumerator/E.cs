@@ -96,8 +96,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÌÏÌÎÏÏÏÎÌÌÍÍÎÏÏÎÍÌÎÏÎÏÏ</summary>
     public class Enumerator_0494 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public ileFullDirectoryInformation<T1717603824> System.Collections.Generic.IEnumerator<System.Object>.Current;
+        public ÏÏÎÎÍÎÎÎÌÏ<T1717603824> System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E078E90
@@ -1086,8 +1086,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÌÎÍÍÌÏÌÎÎÍÍÌÎÍÍÍÎÍÎÏÍÌ</summary>
     public class Enumerator_756E : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public object System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public ÎÌÍÏÏÌÍÏ System.Collections.IEnumerator.Current; // 0x18
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4EC7B170

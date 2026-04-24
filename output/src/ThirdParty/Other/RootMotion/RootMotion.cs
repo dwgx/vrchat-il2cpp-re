@@ -28,20 +28,9 @@ namespace ThirdParty.Other.RootMotion
 
     public class Baker : MonoBehaviour
     {
-        public int isBaking; // 0x20
-        public float bakingProgress; // 0x24
-        public object clipLength; // 0x28
-        public r[] animationClips; // 0x30
-        public string[] animationStates; // 0x38
-        public bool loop; // 0x40
-        public string saveToFolder; // 0x48
-        public string appendName; // 0x50
-        public string saveName; // 0x58
-        public bool <isBaking>k__BackingField; // 0x60
-        public float <bakingProgress>k__BackingField; // 0x64
-        public stfix animator; // 0x68
-        public oUpdateAPI.ool director; // 0x70
-        public float <clipLength>k__BackingField; // 0x78
+        public object isBaking;
+        public object bakingProgress;
+        public object clipLength;
 
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -77,10 +66,8 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedLimbOrientations : Object
     {
-        public sColorGammaB_Int32 UMA; // 0x10
-        public sColorGammaB_Int32 MaxBiped; // 0x18
-        public sColorGammaB_Int32 leftLeg; // 0x20
-        public sColorGammaB_Int32 rightLeg; // 0x28
+        public object UMA;
+        public object MaxBiped;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E389A50
@@ -90,25 +77,6 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedNaming : Object
     {
-        public string[] typeLeft;
-        public string[] typeRight; // 0x8
-        public string[] typeSpine; // 0x10
-        public string[] typeHead; // 0x18
-        public string[] typeArm; // 0x20
-        public string[] typeLeg; // 0x28
-        public string[] typeTail; // 0x30
-        public string[] typeEye; // 0x38
-        public string[] typeExclude; // 0x40
-        public string[] typeExcludeSpine; // 0x48
-        public string[] typeExcludeHead; // 0x50
-        public string[] typeExcludeArm; // 0x58
-        public string[] typeExcludeLeg; // 0x60
-        public string[] typeExcludeTail; // 0x68
-        public string[] typeExcludeEye; // 0x70
-        public string[] pelvis; // 0x78
-        public string[] hand; // 0x80
-        public string[] foot; // 0x88
-
         // ── Methods ──
         public void GetBonesOfType(){} // RVA: 0x7FFD4E38A4C0
         public void GetBonesOfSide(){} // RVA: 0x7FFD4E38A6C0
@@ -138,23 +106,8 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedReferences : Object
     {
-        public object isFilled; // 0x10
-        public object isEmpty; // 0x18
-        public object leftThigh; // 0x20
-        public object leftCalf; // 0x28
-        public object leftFoot; // 0x30
-        public object rightThigh; // 0x38
-        public object rightCalf; // 0x40
-        public object rightFoot; // 0x48
-        public object leftUpperArm; // 0x50
-        public object leftForearm; // 0x58
-        public object leftHand; // 0x60
-        public object rightUpperArm; // 0x68
-        public object rightForearm; // 0x70
-        public object rightHand; // 0x78
-        public object head; // 0x80
-        public ?[] spine; // 0x88
-        public ?[] eyes; // 0x90
+        public object isFilled;
+        public object isEmpty;
 
         // ── Methods ──
         public void get_isFilled(){} // RVA: 0x7FFD4E38E6C0
@@ -185,17 +138,12 @@ namespace ThirdParty.Other.RootMotion
 
     public class Comments : MonoBehaviour
     {
-        public string text; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class DemoGUIMessage : MonoBehaviour
     {
-        public string text; // 0x20
-        public object color; // 0x28
-
         // ── Methods ──
         public void OnGUI(){} // RVA: 0x7FFD4E3952C0
         public void .ctor(){} // RVA: 0x7FFD4E395450
@@ -203,15 +151,6 @@ namespace ThirdParty.Other.RootMotion
 
     public class GenericBaker : Baker
     {
-        public bool markAsLegacy; // 0x80
-        public object root; // 0x88
-        public object rootNode; // 0x90
-        public ?[] ignoreList; // 0x98
-        public ?[] bakePositionList; // 0xA0
-        public h_Null_ModelNumber_String.ollisionBounds_FadeDistance_Float[] children; // 0xA8
-        public h_Null_ModelNumber_String.ollisionBounds_FadeDistance_Float rootChild; // 0xB0
-        public int rootChildIndex; // 0xB8
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E37FB30
         public void GetCharacterRoot(){} // RVA: 0x7FFD4E380010
@@ -241,23 +180,6 @@ namespace ThirdParty.Other.RootMotion
 
     public class HumanoidBaker : Baker
     {
-        public bool bakeHandIK; // 0x80
-        public float IKKeyReductionError; // 0x84
-        public int muscleFrameRateDiv; // 0x88
-        public h_Null_ModelNumber_String.ds_CenterMarkerOn_Bool[] bakerMuscles; // 0x90
-        public h_Null_ModelNumber_String.ingsOnExit_Bool rootQT; // 0x98
-        public h_Null_ModelNumber_String.ingsOnExit_Bool leftFootQT; // 0xA0
-        public h_Null_ModelNumber_String.ingsOnExit_Bool rightFootQT; // 0xA8
-        public h_Null_ModelNumber_String.ingsOnExit_Bool leftHandQT; // 0xB0
-        public h_Null_ModelNumber_String.ingsOnExit_Bool rightHandQT; // 0xB8
-        public float[] muscles; // 0xC0
-        public isionCallbacks pose; // 0xC8
-        public acks handler; // 0xF0
-        public amut bodyPosition; // 0xF8
-        public R_12x12 bodyRotation; // 0x104
-        public int mN; // 0x114
-        public R_12x12 lastBodyRotation; // 0x118
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E386E90
         public void OnDestroy(){} // RVA: 0x7FFD4E387A20
@@ -272,9 +194,6 @@ namespace ThirdParty.Other.RootMotion
 
     public class InspectorComment : PropertyAttribute
     {
-        public string name; // 0x10
-        public string color; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E397160 | overloaded x2
     }
@@ -317,9 +236,6 @@ namespace ThirdParty.Other.RootMotion
 
     public class LargeHeader : PropertyAttribute
     {
-        public string name; // 0x10
-        public string color; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E398430 | overloaded x2
     }
@@ -358,7 +274,7 @@ namespace ThirdParty.Other.RootMotion
 
     public class Singleton`1 : MonoBehaviour
     {
-        public ce.? instance;
+        public object instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD4E2ADC40
@@ -368,14 +284,8 @@ namespace ThirdParty.Other.RootMotion
 
     public class SolverManager : MonoBehaviour
     {
-        public ormation<object> animatePhysics;
-        public formation<string,string,object> isAnimated; // 0x8
-        public bool fixTransforms; // 0x20
-        public stfix animator; // 0x28
-        public usInEvent>b__10_0 legacy; // 0x30
-        public bool updateFrame; // 0x38
-        public bool componentInitiated; // 0x39
-        public bool skipSolverUpdate; // 0x3A
+        public object animatePhysics;
+        public object isAnimated;
 
         // ── Methods ──
         public void Disable(){} // RVA: 0x7FFD4E39A330
@@ -397,8 +307,6 @@ namespace ThirdParty.Other.RootMotion
 
     public class TriggerEventBroadcaster : MonoBehaviour
     {
-        public BuffersImpl target; // 0x20
-
         // ── Methods ──
         public void OnTriggerEnter(){} // RVA: 0x7FFD4E39B0B0
         public void OnTriggerStay(){} // RVA: 0x7FFD4E39B1D0
@@ -422,8 +330,6 @@ namespace ThirdParty.Other.RootMotion
 
     public class Warning : Object
     {
-        public bool logged;
-
         // ── Methods ──
         public void Log(){} // RVA: 0x7FFD4E39CA70 | overloaded x2
     }

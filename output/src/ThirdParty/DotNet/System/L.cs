@@ -7,13 +7,7 @@ namespace ThirdParty.DotNet.System
 {
     public class LazyHelper : Object
     {
-        public ityException State;
-        public ityException NoneViaFactory; // 0x8
-        public ityException PublicationOnlyViaConstructor; // 0x10
-        public ityException PublicationOnlyViaFactory; // 0x18
-        public ityException PublicationOnlyWaitForOtherThreadToPublish; // 0x20
-        public Flags <State>k__BackingField; // 0x10
-        public .Messaging.IInternalMessage.TargetIdentity.eDictionary _exceptionDispatch; // 0x18
+        public object State;
 
         // ── Methods ──
         public void get_State(){} // RVA: 0x7FFD4E38E5C0
@@ -27,9 +21,8 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
-        public ityException IsValueCreated; // 0x10
-        public ormation<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal> Value; // 0x18
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal _value; // 0x20
+        public object IsValueCreated;
+        public object Value;
 
         // ── Methods ──
         public void CreateViaDefaultConstructor(){} // RVA: 0x7FFD4E2ADC40
@@ -49,9 +42,6 @@ namespace ThirdParty.DotNet.System
 
     public class LocalDataStore : Object
     {
-        public hEnd[] m_DataTable; // 0x10
-        public D_MNd m_Manager; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A88AF0
         public void Dispose(){} // RVA: 0x7FFD53A88BF0
@@ -63,15 +53,6 @@ namespace ThirdParty.DotNet.System
 
     public class LocalDataStoreMgr : Object
     {
-        public int InitialSlotTableSize;
-        public int SlotTableDoubleThreshold;
-        public int LargeSlotTableSizeIncrease;
-        public bool[] m_SlotInfoTable; // 0x10
-        public int m_FirstAvailableSlot; // 0x18
-        public URA.woDigitYearMax<umTimesuff> m_ManagedLocalDataStores; // 0x20
-        public URA.DateTime<string,TM> m_KeyToSlotMap; // 0x28
-        public long m_CookieGenerator; // 0x30
-
         // ── Methods ──
         public void CreateLocalDataStore(){} // RVA: 0x7FFD53A894B0
         public void DeleteLocalDataStore(){} // RVA: 0x7FFD53A89820
@@ -87,9 +68,9 @@ namespace ThirdParty.DotNet.System
 
     public class LocalDataStoreSlot : Object
     {
-        public D_MNd Manager; // 0x10
-        public int Slot; // 0x18
-        public long Cookie; // 0x20
+        public object Manager;
+        public object Slot;
+        public object Cookie;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A893E0

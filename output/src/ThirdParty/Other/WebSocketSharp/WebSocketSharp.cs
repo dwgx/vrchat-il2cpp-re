@@ -7,10 +7,6 @@ namespace ThirdParty.Other.WebSocketSharp
 {
     public class Ext : Object
     {
-        public byte[] _last;
-        public int _retry; // 0x8
-        public n<string,bool> CS$<>9__CachedAnonymousMethodDelegate1; // 0x10
-
         // ── Methods ──
         public void decompress(){} // RVA: 0x7FFD574BF730 | overloaded x2
         public void decompressToArray(){} // RVA: 0x7FFD574BF9D0
@@ -66,9 +62,9 @@ namespace ThirdParty.Other.WebSocketSharp
 
     public class HttpBase : Object
     {
-        public ist.Find.tem.ComponentModel.IBindingList.RemoveIndex EntityBody; // 0x10
-        public object Headers; // 0x18
-        public byte[] ProtocolVersion; // 0x20
+        public object EntityBody;
+        public object Headers;
+        public object ProtocolVersion;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538842F0

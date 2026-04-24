@@ -7,10 +7,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 {
     public class Any : Object
     {
-        public gBox.itionBlend<mExtraState.?> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public string pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public gBox.mumDistance TypeUrl; // 0x20
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object TypeUrl;
+        public object Value;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD535EFF40
@@ -41,10 +42,7 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class FieldMask : Object
     {
-        public gBox.itionBlend<mExtraState.?> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public gBox.PathNoRoll<string> pb::Google.Protobuf.IMessage.Descriptor; // 0x8
-        public r>k__BackingField.resentations<string> Paths; // 0x18
+        public byte Parser; // 0x10
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD535F4C10

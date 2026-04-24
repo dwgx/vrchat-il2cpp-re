@@ -26,32 +26,22 @@ OBF_RE = re.compile(r'^[\u00CC\u00CD\u00CE\u00CF]{3,}$')
 
 
 def load_field_types():
-    """Load field_types.json and index by (namespace, name) full-name.
-
-    VA-based indexing is useless across sessions because heap VAs differ on
-    every launch. Class namespace+name is stable across Beebyte re-seeds for
-    any class that was already semantically named in Apr 8.
-    """
+    """Load field_types.json and index by VA."""
     print('  Loading field_types.json ...')
     with open(FIELD_TYPES, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    by_fullname = {}
-    skipped_obf = 0
+    by_va = {}
     for key, cls in data['classes'].items():
-        n = cls.get('name', '')
-        if not n or OBF_RE.match(n):
-            skipped_obf += 1
-            continue
-        ns = cls.get('namespace') or ''
-        fullname = f'{ns}.{n}' if ns else n
-        by_fullname[fullname] = cls
-    print(f'    {len(by_fullname):,} classes indexed by full name (skipped {skipped_obf:,} obf)')
-    return by_fullname
+        va = cls.get('va', '')
+        if va:
+            by_va[va] = cls
+    print(f'    {len(by_va):,} classes indexed by VA')
+    return by_va
 
 
-def merge_into_dump(ft_by_fullname: dict):
-    """Merge field type info into deobfuscated_dump.json by class full name."""
+def merge_into_dump(ft_by_va: dict):
+    """Merge field type info into deobfuscated_dump.json."""
     print('  Loading deobfuscated_dump.json ...')
     with open(DEOBF_JSON, 'r', encoding='utf-8') as f:
         dump = json.load(f)
@@ -62,18 +52,15 @@ def merge_into_dump(ft_by_fullname: dict):
         'fields_added': 0,  # fields that only exist in ft (deobf had none)
         'fields_total_before': 0,
         'classes_with_new_fields': 0,
-        'field_count_mismatch': 0,
     }
 
     for ns, classes in dump['namespaces'].items():
         for cls in classes:
-            cls_name = cls.get('name', '')
-            if not cls_name or OBF_RE.match(cls_name):
+            va = cls.get('va', '')
+            if va not in ft_by_va:
                 continue
-            fullname = f'{ns}.{cls_name}' if ns else cls_name
-            ft_cls = ft_by_fullname.get(fullname)
-            if ft_cls is None:
-                continue
+
+            ft_cls = ft_by_va[va]
             ft_fields = ft_cls.get('fields', [])
             if not ft_fields:
                 continue
@@ -81,8 +68,6 @@ def merge_into_dump(ft_by_fullname: dict):
             deobf_fields = cls.get('fields', [])
             stats['fields_total_before'] += len(deobf_fields)
             stats['classes_matched'] += 1
-            if deobf_fields and len(deobf_fields) != len(ft_fields):
-                stats['field_count_mismatch'] += 1
 
             # Build new typed field list
             new_fields = []
@@ -236,8 +221,8 @@ def main():
         print(f'ERROR: {FIELD_TYPES} not found')
         sys.exit(1)
 
-    ft_by_fullname = load_field_types()
-    dump, stats = merge_into_dump(ft_by_fullname)
+    ft_by_va = load_field_types()
+    dump, stats = merge_into_dump(ft_by_va)
     generate_cs(dump)
 
     print()

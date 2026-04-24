@@ -364,13 +364,12 @@ namespace VRC.Network
     /// <summary>Originally: ÎÌÌÎÌÍÌÍÍÌÌÌÏÍÍÍÏÌÎÎÎÍÌ</summary>
     public class NetworkEnumeratorContainsSibling_B68B
     {
-        public object f_1DA;
-        public object f_598;
-        public object f_E82;
-        public object f_A2C;
-        public object f_34C;
-        public object f_18A;
-        public object f_1B2;
+        public object f_1DA; // 0x10
+        public URA.bbrevEraNames<string> f_598; // 0x18
+        public URA.bbrevEraNames<string> f_E82; // 0x20
+        public string f_A2C; // 0x28
+        public ileFullDirectoryInformation<URA.bbrevEraNames<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ermissions>> f_34C; // 0x30
+        public ileFullDirectoryInformation<string> f_18A; // 0x38
 
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFD4E079D00
@@ -2089,20 +2088,17 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÏÏÌÍÌÌÍÌÌÎÌÌÌÍÎÎÍÍÎÏÏ</summary>
     public class PhotonConnectionHandlerSibling_CE19 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_01E;
-        public object f_2C9;
-        public object f_FBB;
-        public object f_86D;
-        public object f_E90;
-        public object f_3EE;
-        public object f_7EC;
-        public object f_E91;
-        public object f_0B2;
-        public object f_990;
-        public object f_6C6;
-        public object f_257;
+        public string _name; // 0x10
+        public string _hideFlags; // 0x18
+        public ÏÎÎÏÎÍÏÏÎÌÏÍÍÎÌÏÍÏÏÌÌ f_01E; // 0x20
+        public string f_2C9; // 0x28
+        public object f_FBB; // 0x30
+        public DependencyInjector f_86D; // 0x38
+        public ector f_E90; // 0x40
+        public object f_3EE; // 0x48
+        public byte[] f_7EC; // 0x50
+        public object f_E91; // 0x58
+        public bool f_0B2; // 0x60
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E426850

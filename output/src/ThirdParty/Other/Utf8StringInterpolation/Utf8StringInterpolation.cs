@@ -13,14 +13,6 @@ namespace ThirdParty.Other.Utf8StringInterpolation
 
     public class Utf8StringWriter`1 : ValueType
     {
-        public byte[] NewLineUtf8Bytes;
-        public HaveRegistry<byte> destination;
-        public int allocatedDestinationSize;
-        public T1717743888 bufferWriter;
-        public int currentWritten;
-        public nalGetValue formatProvider;
-        public bool calculateStringJustSize;
-
         // ── Methods ──
         public void AppendFormatted(){} // RVA: 0x7FFD4E0986D0 | overloaded x36
         public void AppendFormattedAlignment(){} // RVA: 0x7FFD4E2ADC40 | overloaded x17

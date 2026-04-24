@@ -7,8 +7,6 @@ namespace VRC.UI.Core.Styles
 {
     public class StyleClass : MonoBehaviour
     {
-        public string ÏÍÌÎÍÏÍÏÎÍÎÍÍÍÍÌÏÏÏÏÍÏÍ; // 0x20
-
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E36F0C0
         public void RaiseCancellation(){} // RVA: 0x7FFD4E36F0C0
@@ -22,53 +20,9 @@ namespace VRC.UI.Core.Styles
 
     public class StyleElement : MonoBehaviour
     {
-        public URA.DateTime<int,Rehash> _destroyCancellationToken;
-        public URA.DateTime<int,long> _useGUILayout; // 0x8
-        public bool f_912; // 0x20
-        public string ÏÍÍÍÎÌÎÎÏÎÎÎÌÍÍÎÏÏÎÎÌÍÌ; // 0x28
-        public string ÏÍÌÎÍÏÍÏÎÍÎÍÍÍÍÌÏÏÏÏÍÏÍ; // 0x30
-        public ePathName117.? ÌÌÎÏÎÌÌÎÏÍÎÌÏÏÌÌÍÎÌÌÍÍÏ; // 0x38
-        public URA.onsDepth<int> ÍÌÎÏÍÎÍÍÏÌÍÌÍÎÏÏÍÍÌÏÌÍÌ; // 0x40
-        public long ÎÎÎÎÍÌÌÎÌÍÍÏÎÎÌÍÍÏÎÎÎÏÎ; // 0x48
-        public int ÍÎÌÎÌÏÏÎÏÍÏÌÏÎÎÌÏÏÍÍÌÍÍ; // 0x50
-        public gField.ldKeyboardOverride ÏÎÍÏÎÎÏÌÍÎÍÍÍÏÏÏÏÏÌÌÎÏÌ; // 0x58
-        public URA.woDigitYearMax<gField.ldKeyboardOverride> ÏÍÎÍÌÎÏÍÌÌÎÏÌÌÌÎÌÏÍÏÌÏÎ; // 0x60
-        public gField.? ÌÏÎÍÍÌÌÌÎÌÍÏÌÏÏÎÏÍÍÍÌÌÏ; // 0x68
-        public URA.woDigitYearMax<erNetworkTick> ÌÏÏÍÌÌÏÌÌÍÍÌÎÍÍÎÍÎÌÍÌÌÍ; // 0x70
-        public bool ÌÍÍÌÏÎÏÌÍÎÌÍÌÍÌÏÍÎÎÌÎÍÌ; // 0x78
-        public bool ÍÏÍÏÌÍÌÎÌÌÎÏÍÌÎÏÏÍÍÎÍÌÌ; // 0x79
-        public ercentage ÌÍÏÏÌÎÏÎÎÍÏÍÏÎÍÎÎÎÍÍÏÍÏ; // 0x80
-        public URA.woDigitYearMax<URA.mes<int,ment>>.get_IsReadOnly>> ÎÏÌÏÎÏÏÍÍÌÍÏÎÏÎÌÏÏÎÍÍÎÏ; // 0x88
-        public bool ÎÌÍÏÎÎÍÍÏÎÍÍÍÌÏÌÎÎÌÎÏÎÎ; // 0x90
-        public erNetworkTick ÍÎÍÌÎÎÎÎÌÎÍÏÍÎÎÍÌÎÌÍÎÌÎ; // 0x98
-        public erNetworkTick ÏÎÍÏÏÍÍÏÌÏÌÏÎÎÎÏÍÎÍÍÎÎÎ; // 0xA0
-        public gure ÍÌÏÌÎÎÎÍÏÌÎÏÎÍÏÎÏÏÌÏÌÍÎ; // 0xA8
-        public gure ÍÍÍÌÍÌÏÏÎÌÏÏÏÌÎÌÎÏÎÌÏÍÌ; // 0xB0
-        public URA.woDigitYearMax<ections.Generic.ICollection<System.Linq.IGrouping<TKey,TElement>>.Remove> ÍÍÍÌÍÌÎÍÌÍÌÌÌÎÌÍÌÍÍÏÌÏÎ; // 0x10
-        public bool ÍÏÏÏÎÍÎÍÏÌÍÏÍÌÌÌÍÎÏÏÎÌÌ; // 0xB8
-        public URA.woDigitYearMax<led> ÏÍÌÍÎÍÎÌÍÏÎÌÍÎÍÌÎÌÏÌÏÌÏ; // 0xC0
-        public URA.woDigitYearMax<URA.mes<?,led>> ÌÏÎÍÌÏÏÎÏÌÎÍÎÏÏÍÌÍÎÎÎÏÌ; // 0xC8
-        public URA.woDigitYearMax<tinuity> ÏÏÎÏÍÌÌÍÎÏÍÎÎÌÏÍÎÎÍÏÌÎÌ; // 0x18
-        public bool ÏÍÎÌÎÎÍÏÎÎÏÏÌÍÏÌÍÌÌÏÎÌÌ; // 0xD0
-        public bool ÌÌÎÏÍÌÎÌÏÎÍÌÏÌÍÏÎÌÎÏÌÌÏ; // 0xD1
-        public pad ÍÍÌÍÏÍÌÎÍÌÌÎÌÏÏÎÌÌÎÏÍÌÏ; // 0xD8
-        public URA.woDigitYearMax<moryFailure.t> ÌÎÏÎÎÍÌÏÎÌÍÏÎÌÍÏÎÏÍÏÎÏÏ; // 0x20
-        public URA.woDigitYearMax<moryFailure.<elapsedTime>5__3> ÍÎÏÌÏÎÌÌÌÍÌÍÌÎÌÎÌÎÏÍÎÎÌ; // 0x28
-        public URA.woDigitYearMax<moryFailure.nder> ÏÏÍÌÍÎÌÌÌÎÏÎÎÏÎÏÏÍÍÌÌÎÍ; // 0x30
-        public bool ÍÎÌÍÍÏÌÍÍÌÎÎÍÏÍÍÌÎÍÍÏÎÍ; // 0xE0
-        public bool ÎÎÏÍÎÌÏÏÍÏÍÍÎÏÍÌÎÏÍÌÍÌÍ; // 0xE1
-        public bool ÍÍÌÌÏÌÍÍÎÌÌÍÌÌÍÌÏÍÎÎÎÏÍ; // 0xE2
-        public bool ÍÌÌÎÏÎÎÏÌÎÎÍÌÎÍÌÌÎÌÎÏÌÌ; // 0xE3
-        public URA.DateTime<int,ip`5> ÌÍÏÏÌÍÏÏÎÏÏÎÏÎÏÏÏÍÍÏÌÏÏ; // 0xE8
-        public URA.DateTime<int,efaultInterpolatedStringHandler> ÍÌÍÎÏÍÎÌÍÌÏÌÎÏÎÏÍÏÎÎÏÎÏ; // 0xF0
-        public nces ÌÎÎÌÏÎÍÏÌÌÏÍÎÎÍÎÎÌÎÍÌÏÎ; // 0x38
-        public nces ÏÎÎÍÏÌÍÍÎÍÎÌÌÍÍÎÌÍÎÍÍÏÎ; // 0x48
-        public nces ÏÎÍÍÎÏÎÌÎÎÌÌÌÏÏÌÎÌÌÍÏÎÌ; // 0x58
-        public nces ÏÏÍÍÍÍÏÌÌÌÍÎÌÎÌÌÍÍÍÌÍÌÎ; // 0x68
-        public nces ÌÍÌÎÍÎÍÍÎÎÌÎÍÍÍÌÌÍÌÏÎÌÏ; // 0x78
-        public eshGeneration>k__BackingField<tion> ÎÏÍÍÎÍÌÌÎÏÎÏÏÏÎÎÍÎÍÌÌÌÎ; // 0x88
-        public eshGeneration>k__BackingField<tion> ÎÍÌÎÌÎÍÏÌÎÌÍÎÍÍÏÌÎÍÎÍÌÏ; // 0x90
-        public string ÎÏÌÍÌÍÌÍÌÌÍÌÌÍÍÍÍÏÌÌÏÌÍ; // 0xF8
+        public object _destroyCancellationToken;
+        public object _useGUILayout;
+        public object f_912;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD5666A870
@@ -145,19 +99,7 @@ namespace VRC.UI.Core.Styles
 
     public class StyleEngine : MonoBehaviour
     {
-        public gField.? _styleEngine; // 0x20
-        public URA.DateTime<int,?> ÏÏÏÍÏÏÌÍÍÎÎÌÍÏÍÏÍÌÌÌÌÍÌ;
-        public URA.woDigitYearMax<?> ÏÌÌÎÏÌÎÏÏÎÌÏÍÍÍÏÎÏÌÍÎÏÎ; // 0x8
-        public object ÏÎÍÍÍÌÍÍÎÏÍÌÏÍÍÌÌÏÏÍÏÍÍ; // 0x28
-        public bool ÌÏÏÏÎÍÏÎÍÏÏÌÎÌÌÌÎÏÍÏÌÍÎ; // 0x30
-        public DependencyInjector ÎÏÎÏÌÌÌÌÌÎÎÌÌÎÌÎÏÍÎÌÍÍÍ; // 0x38
-        public bool <ÍÏÌÏÎÍÏÎÏÌÏÍÎÏÎÌÍÌÌÏÍÎÎ>k__BackingField; // 0x40
-        public URA.woDigitYearMax<erNetworkTick> ÌÏÍÎÏÏÎÍÌÌÏÎÎÏÌÏÍÎÍÏÏÍÌ; // 0x48
-        public URA.onsDepth<gField.ldKeyboardOverride> ÎÍÍÎÏÎÌÍÍÌÌÌÏÎÏÍÏÍÎÌÍÌÎ; // 0x50
-        public bool ÎÏÎÍÍÍÎÏÍÎÏÎÏÌÌÍÌÍÎÏÏÍÎ; // 0x58
-        public URA.onsDepth<gField.ldKeyboardOverride> ÏÌÎÎÏÍÏÌÏÎÍÏÌÌÎÏÏÏÎÏÌÍÎ; // 0x60
-        public int ÍÍÎÏÍÍÍÍÍÎÏÌÏÍÎÏÌÍÎÌÏÎÎ; // 0x68
-        public URA.woDigitYearMax<gField.ldKeyboardOverride> ÎÍÏÎÏÏÌÍÏÌÏÍÌÎÌÍÍÎÎÎÌÍÏ; // 0x70
+        public object _styleEngine;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E2ADC40
@@ -197,9 +139,6 @@ namespace VRC.UI.Core.Styles
 
     public class StyleResource : ScriptableObject
     {
-        public URA.woDigitYearMax<mediateRenderers> resources; // 0x18
-        public URA.woDigitYearMax<gField.?> includes; // 0x20
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD5669B680
         public void CreateInstance(){} // RVA: 0x7FFD5669B780

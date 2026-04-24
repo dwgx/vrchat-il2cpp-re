@@ -75,8 +75,10 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class GetMemberBinder : DynamicMetaObjectBinder
     {
-        public string ReturnType; // 0x18
-        public bool Name; // 0x20
+        public object ReturnType;
+        public object Name;
+        public object IgnoreCase;
+        public object IsStandardBinder;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54224CD0

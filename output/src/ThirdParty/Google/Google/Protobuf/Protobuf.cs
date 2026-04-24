@@ -7,7 +7,9 @@ namespace ThirdParty.Google.Google.Protobuf
 {
     public class Extension : Object
     {
-        public int TargetType; // 0x10
+        public object TargetType;
+        public object FieldNumber;
+        public object IsRepeated;
 
         // ── Methods ──
         public void get_TargetType(){} // RVA: 0x7FFD4E078E90
@@ -33,7 +35,7 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ExtensionSet`1 : Object
     {
-        public URA.DateTime<int,gBox.eviousCameraRotation> ValuesByNumber;
+        public object ValuesByNumber;
 
         // ── Methods ──
         public void get_ValuesByNumber(){} // RVA: 0x7FFD4E078E90
@@ -46,9 +48,6 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ExtensionValue`1 : Object
     {
-        public T1717699936 field;
-        public gBox.PathNoRoll<T1717699936> codec;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void CalculateSize(){} // RVA: 0x7FFD4E079960
@@ -63,7 +62,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class Extension`2 : Extension
     {
-        public gBox.PathNoRoll<T1717699584> DefaultValue;
+        public object DefaultValue;
+        public object TargetType;
+        public object IsRepeated;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0
@@ -163,9 +164,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class MessageParser : Object
     {
-        public ormation<gBox.ganizationSid> DiscardUnknownFields; // 0x10
-        public bool Extensions; // 0x18
-        public gBox.ds>k__BackingField <Extensions>k__BackingField; // 0x20
+        public object DiscardUnknownFields;
+        public object Extensions;
 
         // ── Methods ──
         public void get_DiscardUnknownFields(){} // RVA: 0x7FFD4E35C4E0
@@ -177,8 +177,6 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class MessageParser`1 : MessageParser
     {
-        public ormation<T1717700304> factory;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E096BD0 | overloaded x2
         public void CreateTemplate(){} // RVA: 0x7FFD4E2ADC40
@@ -188,9 +186,6 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ObjectIntPair`1 : ValueType
     {
-        public int number;
-        public T1717700320 obj;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x2
@@ -199,8 +194,6 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ParsingPrimitivesMessages : Object
     {
-        public byte[] ZeroLengthMessageStreamData;
-
         // ── Methods ──
         public void SkipLastField(){} // RVA: 0x7FFD535E7880
         public void SkipGroup(){} // RVA: 0x7FFD535E7A40
@@ -222,9 +215,6 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class RepeatedExtensionValue`1 : Object
     {
-        public r>k__BackingField.resentations<T1717699952> field;
-        public gBox.PathNoRoll<T1717699952> codec;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void CalculateSize(){} // RVA: 0x7FFD4E079960
@@ -238,7 +228,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class RepeatedExtension`2 : Extension
     {
-        public gBox.PathNoRoll<T1717699616> TargetType;
+        public object TargetType;
+        public object IsRepeated;
 
         // ── Methods ──
         public void get_TargetType(){} // RVA: 0x7FFD4E078E90
@@ -248,12 +239,6 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class UnknownField : Object
     {
-        public URA.woDigitYearMax<ulong> varintList; // 0x10
-        public URA.woDigitYearMax<uint> fixed32List; // 0x18
-        public URA.woDigitYearMax<ulong> fixed64List; // 0x20
-        public URA.woDigitYearMax<gBox.mumDistance> lengthDelimitedList; // 0x28
-        public URA.woDigitYearMax<gBox.ra> groupList; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Equals(){} // RVA: 0x7FFD535E8BD0

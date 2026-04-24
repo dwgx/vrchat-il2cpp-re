@@ -202,14 +202,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÏÌÌÏÌÏÎÎÎÍÍÏÏÌÏÌÌÎÏÌÌÍÌ</summary>
     public class AnimatedTextureBaseImplSibling_6876 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_BC5;
-        public object f_4DD;
-        public object f_F0A;
-        public object f_7FE;
-        public object f_C22;
-        public object f_FC1;
+        public int _name; // 0x10
+        public er<T>.OnTextSelectionAsync.harp.Threading.Tasks.IAsyncSelectEventHandler<T>.OnSelectAsync _hideFlags; // 0x18
+        public object f_BC5; // 0x20
+        public peInfoResolverChain f_4DD; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E35C380
@@ -541,9 +537,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÏÏÏÎÍÌÎÌÍÎÌÎÌÏÍÌÎÌÎÌÌÌÌ</summary>
     public class AnimatedTextureBaseImpl_2F9C : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_C13;
-        public object f_3E7;
+        public byte f_E70;
+        public byte f_C13;
+        public byte f_3E7;
 
         // ── Methods ──
         public void AddSubtraction(){} // RVA: 0x7FFD4E342E90
@@ -620,6 +616,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÏÎÍÏÎÎÎÍÎÍÏÏÏÍÍÍÎÍÎÏÎÎÍ</summary>
     public class AnimatedTextureBaseImpl_58F6 : AnimatedTextureBase_F53F
     {
+        public object ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E908EC0
     }

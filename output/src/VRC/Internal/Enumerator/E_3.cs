@@ -717,8 +717,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÍÏÍÏÎÏÍÌÎÌÍÌÍÍÌÍÍÌÎÍÌÌ</summary>
     public class Enumerator_46A6 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public ÏÌÍÍÏÌÎÍÏÎÌÎÎÍÌÌÍÌÍÌÍÎ System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public string System.Collections.IEnumerator.Current; // 0x18
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EB67460

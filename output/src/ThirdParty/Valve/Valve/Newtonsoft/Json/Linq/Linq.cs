@@ -7,9 +7,6 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 {
     public class JEnumerable`1 : ValueType
     {
-        public ogressAction.chedAttributeGetter`1<T1717703488> Empty;
-        public URA.bbrevEraNames<T1717703488> _enumerable;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
@@ -21,19 +18,17 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JToken : Object
     {
-        public ogressAction.pe>k__BackingField Parent; // 0x10
-        public ogressAction.getExtensionDataDictionary Root; // 0x18
-        public ogressAction.getExtensionDataDictionary Type; // 0x20
-        public object HasValues; // 0x28
-        public ogressAction.ced[] Next;
-        public ogressAction.ced[] Previous; // 0x8
-        public ogressAction.ced[] Path; // 0x10
-        public ogressAction.ced[] First; // 0x18
-        public ogressAction.ced[] Last; // 0x20
-        public ogressAction.ced[] Valve.Newtonsoft.Json.IJsonLineInfo.LineNumber; // 0x28
-        public ogressAction.ced[] Valve.Newtonsoft.Json.IJsonLineInfo.LinePosition; // 0x30
-        public ogressAction.ced[] DateTimeTypes; // 0x38
-        public ogressAction.ced[] BytesTypes; // 0x40
+        public object Parent;
+        public object Root;
+        public object Type;
+        public object HasValues;
+        public object Next;
+        public object Previous;
+        public object Path;
+        public object First;
+        public object Last;
+        public object Valve.Newtonsoft.Json.IJsonLineInfo.LineNumber;
+        public object Valve.Newtonsoft.Json.IJsonLineInfo.LinePosition;
 
         // ── Methods ──
         public void get_Parent(){} // RVA: 0x7FFD4E35C380

@@ -37,34 +37,6 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCAvatarDescriptor : VRC_AvatarDescriptor
     {
-        public bool customExpressions; // 0xB8
-        public terfaces.IUdonVariable.Value.VariableType expressionsMenu; // 0xC0
-        public terfaces.IUdonVariable.Value.lName expressionParameters; // 0xC8
-        public bool enableEyeLook; // 0xD0
-        public eLoggers customEyeLookSettings; // 0xD8
-        public bool customizeAnimationLayers; // 0x170
-        public Loggers[] baseAnimationLayers; // 0x178
-        public Loggers[] specialAnimationLayers; // 0x180
-        public ge AnimationPreset; // 0x188
-        public URA.woDigitYearMax<ion> animationHashSet; // 0x190
-        public bool autoFootsteps; // 0x198
-        public bool autoLocomotion; // 0x199
-        public float COLLIDER_MAX_SIZE;
-        public Loggers collider_head; // 0x1A0
-        public Loggers collider_torso; // 0x1D8
-        public Loggers collider_footR; // 0x210
-        public Loggers collider_footL; // 0x248
-        public Loggers collider_handR; // 0x280
-        public Loggers collider_handL; // 0x2B8
-        public Loggers collider_fingerIndexL; // 0x2F0
-        public Loggers collider_fingerMiddleL; // 0x328
-        public Loggers collider_fingerRingL; // 0x360
-        public Loggers collider_fingerLittleL; // 0x398
-        public Loggers collider_fingerIndexR; // 0x3D0
-        public Loggers collider_fingerMiddleR; // 0x408
-        public Loggers collider_fingerRingR; // 0x440
-        public Loggers collider_fingerLittleR; // 0x478
-
         // ── Methods ──
         public void GetExpressionParameterCount(){} // RVA: 0x7FFD57437970
         public void GetExpressionParameter(){} // RVA: 0x7FFD57437A70
@@ -87,11 +59,6 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCHeadChop : MonoBehaviour
     {
-        public ?[] targetBones; // 0x20
-        public float globalScaleFactor; // 0x28
-        public int MaxBoneCount;
-        public int MaxComponentCount;
-
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x7FFD5743C140
         public void Start(){} // RVA: 0x7FFD4E341310
@@ -101,10 +68,6 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCImpostorEnvironment : MonoBehaviour
     {
-        public object SkyColor; // 0x20
-        public object EquatorColor; // 0x30
-        public object GroundColor; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5743CAE0
     }

@@ -7,11 +7,6 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 {
     public class ABSSequentiable : Object
     {
-        public mands tweenType; // 0x10
-        public float sequencedPosition; // 0x14
-        public float sequencedEndPosition; // 0x18
-        public ÎÌÎÏÏÏÎÍÌÍÎÎÎÎÎÍÏÍÎÍÏÍ onStart; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -36,14 +31,6 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class DOTweenComponent : MonoBehaviour
     {
-        public int inspectorUpdater; // 0x20
-        public float _unscaledTime; // 0x24
-        public float _unscaledDeltaTime; // 0x28
-        public bool _paused; // 0x2C
-        public float _pausedTime; // 0x30
-        public bool _isQuitting; // 0x34
-        public bool _duplicateToDestroy; // 0x35
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4FDE4980
         public void Start(){} // RVA: 0x7FFD4FDE4D70
@@ -76,34 +63,6 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class DOTweenSettings : ScriptableObject
     {
-        public string AssetName;
-        public string AssetFullFilename;
-        public bool useSafeMode; // 0x18
-        public ework safeModeOptions; // 0x20
-        public float timeScale; // 0x28
-        public bool useSmoothDeltaTime; // 0x2C
-        public float maxSmoothUnscaledTime; // 0x30
-        public rializeShort.rray rewindCallbackMode; // 0x34
-        public bool showUnityEditorReport; // 0x38
-        public bie logBehaviour; // 0x3C
-        public bool drawGizmos; // 0x40
-        public bool defaultRecyclable; // 0x41
-        public ntB defaultAutoPlay; // 0x44
-        public object defaultUpdateType; // 0x48
-        public bool defaultTimeScaleIndependent; // 0x4C
-        public usCount defaultEaseType; // 0x50
-        public float defaultEaseOvershootOrAmplitude; // 0x54
-        public float defaultEasePeriod; // 0x58
-        public bool defaultAutoKill; // 0x5C
-        public veChains defaultLoopType; // 0x60
-        public bool debugMode; // 0x64
-        public bool debugStoreTargetId; // 0x65
-        public bool showPreviewPanel; // 0x66
-        public ion>b__203_0 storeSettingsLocation; // 0x68
-        public d modules; // 0x70
-        public bool showPlayingTweens; // 0x78
-        public bool showPausedTweens; // 0x79
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FDE7050
     }
@@ -165,45 +124,6 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class TweenManager : Object
     {
-        public int _DefaultMaxTweeners;
-        public int _DefaultMaxSequences;
-        public string _MaxTweensReached;
-        public float _EpsilonVsTimeCheck;
-        public bool isUnityEditor;
-        public bool isDebugBuild; // 0x1
-        public int maxActive; // 0x4
-        public int maxTweeners; // 0x8
-        public int maxSequences; // 0xC
-        public bool hasActiveTweens; // 0x10
-        public bool hasActiveDefaultTweens; // 0x11
-        public bool hasActiveLateTweens; // 0x12
-        public bool hasActiveFixedTweens; // 0x13
-        public bool hasActiveManualTweens; // 0x14
-        public int totActiveTweens; // 0x18
-        public int totActiveDefaultTweens; // 0x1C
-        public int totActiveLateTweens; // 0x20
-        public int totActiveFixedTweens; // 0x24
-        public int totActiveManualTweens; // 0x28
-        public int totActiveTweeners; // 0x2C
-        public int totActiveSequences; // 0x30
-        public int totPooledTweeners; // 0x34
-        public int totPooledSequences; // 0x38
-        public int totTweeners; // 0x3C
-        public int totSequences; // 0x40
-        public bool isUpdateLoop; // 0x44
-        public tUInt32[] _activeTweens; // 0x48
-        public tUInt32[] _pooledTweeners; // 0x50
-        public URA.leEastFrench<tUInt32> _PooledSequences; // 0x58
-        public URA.woDigitYearMax<tUInt32> _KillList; // 0x60
-        public URA.DateTime<tUInt32,nnectTimeout.ck> _TweenLinks; // 0x68
-        public int _totTweenLinks; // 0x70
-        public int _maxActiveLookupId; // 0x74
-        public bool _requiresActiveReorganization; // 0x78
-        public int _reorganizeFromId; // 0x7C
-        public int _minPooledTweenerId; // 0x80
-        public int _maxPooledTweenerId; // 0x84
-        public bool _despawnAllCalledFromUpdateLoopCallback; // 0x88
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4FDE7690
         public void GetTweener(){} // RVA: 0x7FFD4E078A90
@@ -251,15 +171,6 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class TweenerCore`3 : Tweener
     {
-        public T1717722752 startValue;
-        public T1717722752 endValue;
-        public T1717722752 changeValue;
-        public T1717722768 plugOptions;
-        public nnectTimeout.ansportProtocol<T1717722736> getter;
-        public nnectTimeout.ocol<T1717722736> setter;
-        public verFeatureFlagsAvailable>k__BackingField.axQueueableReliableCommands>k__BackingField<T1717722736,T1717722752,T1717722768> tweenPlugin;
-        public string _TxtCantChangeSequencedValues;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void ChangeStartValue(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2

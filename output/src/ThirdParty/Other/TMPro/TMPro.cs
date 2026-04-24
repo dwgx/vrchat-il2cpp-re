@@ -7,35 +7,10 @@ namespace ThirdParty.Other.TMPro
 {
     public class CodePoint : Object
     {
-        public uint SPACE;
-        public uint DOUBLE_QUOTE;
-        public uint NUMBER_SIGN;
-        public uint PERCENTAGE;
-        public uint PLUS;
-        public uint MINUS;
-        public uint PERIOD;
-        public uint HYPHEN_MINUS;
-        public uint SOFT_HYPHEN;
-        public uint HYPHEN;
-        public uint NON_BREAKING_HYPHEN;
-        public uint ZERO_WIDTH_SPACE;
-        public uint RIGHT_SINGLE_QUOTATION;
-        public uint APOSTROPHE;
-        public uint WORD_JOINER;
-        public uint HIGH_SURROGATE_START;
-        public uint HIGH_SURROGATE_END;
-        public uint LOW_SURROGATE_START;
-        public uint LOW_SURROGATE_END;
-        public uint UNICODE_PLANE01_START;
     }
 
     public class Extents : ValueType
     {
-        public ypointLabel.r zero;
-        public ypointLabel.r uninitialized; // 0x10
-        public tionX min; // 0x10
-        public tionX max; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC7CA00
         public void ToString(){} // RVA: 0x7FFD54B59620
@@ -44,37 +19,12 @@ namespace ThirdParty.Other.TMPro
 
     public class FaceInfo_Legacy : Object
     {
-        public string Name; // 0x10
-        public float PointSize; // 0x18
-        public float Scale; // 0x1C
-        public int CharacterCount; // 0x20
-        public float LineHeight; // 0x24
-        public float Baseline; // 0x28
-        public float Ascender; // 0x2C
-        public float CapHeight; // 0x30
-        public float Descender; // 0x34
-        public float CenterLine; // 0x38
-        public float SuperscriptOffset; // 0x3C
-        public float SubscriptOffset; // 0x40
-        public float SubSize; // 0x44
-        public float Underline; // 0x48
-        public float UnderlineThickness; // 0x4C
-        public float strikethrough; // 0x50
-        public float strikethroughThickness; // 0x54
-        public float TabWidth; // 0x58
-        public float Padding; // 0x5C
-        public float AtlasWidth; // 0x60
-        public float AtlasHeight; // 0x64
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class FastAction : Object
     {
-        public URA.antCultureString<ÎÌÍÏÏÌÍÏ> delegates; // 0x10
-        public URA.DateTime<ÎÌÍÏÏÌÍÏ,URA._cultureInfoNameMap<ÎÌÍÏÏÌÍÏ>> lookup; // 0x18
-
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD54B39FD0
         public void Remove(){} // RVA: 0x7FFD54B3A0C0
@@ -84,9 +34,6 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction`1 : Object
     {
-        public URA.antCultureString<ileFullDirectoryInformation<T1717692624>> delegates;
-        public URA.DateTime<ileFullDirectoryInformation<T1717692624>,URA._cultureInfoNameMap<ileFullDirectoryInformation<T1717692624>>> lookup;
-
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E090A40
         public void Remove(){} // RVA: 0x7FFD4E090A40
@@ -96,9 +43,6 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction`2 : Object
     {
-        public URA.antCultureString<rectoryInformation<T1717692640,T1717692656>> delegates;
-        public URA.DateTime<rectoryInformation<T1717692640,T1717692656>,URA._cultureInfoNameMap<rectoryInformation<T1717692640,T1717692656>>> lookup;
-
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD5108D000
         public void Remove(){} // RVA: 0x7FFD5108D0D0
@@ -108,9 +52,6 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction`3 : Object
     {
-        public URA.antCultureString<formation<T1717692672,T1717692688,T1717692704>> delegates;
-        public URA.DateTime<formation<T1717692672,T1717692688,T1717692704>,URA._cultureInfoNameMap<formation<T1717692672,T1717692688,T1717692704>>> lookup;
-
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD5108D000
         public void Remove(){} // RVA: 0x7FFD5108D0D0
@@ -120,9 +61,6 @@ namespace ThirdParty.Other.TMPro
 
     public class HighlightState : ValueType
     {
-        public object color; // 0x10
-        public ypointLabel.Annotation padding; // 0x14
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51512100
         public void op_Equality(){} // RVA: 0x7FFD54B5A0C0
@@ -151,16 +89,6 @@ namespace ThirdParty.Other.TMPro
 
     public class MaterialReference : ValueType
     {
-        public int index; // 0x10
-        public ypointLabel.urces fontAsset; // 0x18
-        public ypointLabel.? spriteAsset; // 0x20
-        public atrix_Injected material; // 0x28
-        public bool isDefaultMaterial; // 0x30
-        public bool isFallbackMaterial; // 0x31
-        public atrix_Injected fallbackMaterial; // 0x38
-        public float padding; // 0x40
-        public int referenceCount; // 0x44
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B3B980
         public void Contains(){} // RVA: 0x7FFD54B3BB50
@@ -169,11 +97,7 @@ namespace ThirdParty.Other.TMPro
 
     public class MaterialReferenceManager : Object
     {
-        public ypointLabel.lue instance;
-        public URA.DateTime<int,atrix_Injected> m_FontMaterialReferenceLookup; // 0x10
-        public URA.DateTime<int,ypointLabel.urces> m_FontAssetReferenceLookup; // 0x18
-        public URA.DateTime<int,ypointLabel.?> m_SpriteAssetReferenceLookup; // 0x20
-        public URA.DateTime<int,ypointLabel.ld> m_ColorGradientReferenceLookup; // 0x28
+        public object instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54B3A5F0
@@ -208,74 +132,8 @@ namespace ThirdParty.Other.TMPro
 
     public class ShaderUtilities : Object
     {
-        public int ShaderRef_MobileSDF;
-        public int ShaderRef_MobileBitmap; // 0x4
-        public int ID_FaceColor; // 0x8
-        public int ID_FaceDilate; // 0xC
-        public int ID_Shininess; // 0x10
-        public int ID_UnderlayColor; // 0x14
-        public int ID_UnderlayOffsetX; // 0x18
-        public int ID_UnderlayOffsetY; // 0x1C
-        public int ID_UnderlayDilate; // 0x20
-        public int ID_UnderlaySoftness; // 0x24
-        public int ID_UnderlayOffset; // 0x28
-        public int ID_UnderlayIsoPerimeter; // 0x2C
-        public int ID_WeightNormal; // 0x30
-        public int ID_WeightBold; // 0x34
-        public int ID_OutlineTex; // 0x38
-        public int ID_OutlineWidth; // 0x3C
-        public int ID_OutlineSoftness; // 0x40
-        public int ID_OutlineColor; // 0x44
-        public int ID_Outline2Color; // 0x48
-        public int ID_Outline2Width; // 0x4C
-        public int ID_Padding; // 0x50
-        public int ID_GradientScale; // 0x54
-        public int ID_ScaleX; // 0x58
-        public int ID_ScaleY; // 0x5C
-        public int ID_PerspectiveFilter; // 0x60
-        public int ID_Sharpness; // 0x64
-        public int ID_TextureWidth; // 0x68
-        public int ID_TextureHeight; // 0x6C
-        public int ID_BevelAmount; // 0x70
-        public int ID_GlowColor; // 0x74
-        public int ID_GlowOffset; // 0x78
-        public int ID_GlowPower; // 0x7C
-        public int ID_GlowOuter; // 0x80
-        public int ID_GlowInner; // 0x84
-        public int ID_LightAngle; // 0x88
-        public int ID_EnvMap; // 0x8C
-        public int ID_EnvMatrix; // 0x90
-        public int ID_EnvMatrixRotation; // 0x94
-        public int ID_MaskCoord; // 0x98
-        public int ID_ClipRect; // 0x9C
-        public int ID_MaskSoftnessX; // 0xA0
-        public int ID_MaskSoftnessY; // 0xA4
-        public int ID_VertexOffsetX; // 0xA8
-        public int ID_VertexOffsetY; // 0xAC
-        public int ID_UseClipRect; // 0xB0
-        public int ID_StencilID; // 0xB4
-        public int ID_StencilOp; // 0xB8
-        public int ID_StencilComp; // 0xBC
-        public int ID_StencilReadMask; // 0xC0
-        public int ID_StencilWriteMask; // 0xC4
-        public int ID_ShaderFlags; // 0xC8
-        public int ID_ScaleRatio_A; // 0xCC
-        public int ID_ScaleRatio_B; // 0xD0
-        public int ID_ScaleRatio_C; // 0xD4
-        public string Keyword_Bevel; // 0xD8
-        public string Keyword_Glow; // 0xE0
-        public string Keyword_Underlay; // 0xE8
-        public string Keyword_Ratios; // 0xF0
-        public string Keyword_MASK_SOFT; // 0xF8
-        public string Keyword_MASK_HARD; // 0x100
-        public string Keyword_MASK_TEX; // 0x108
-        public string Keyword_Outline; // 0x110
-        public string ShaderTag_ZTestMode; // 0x118
-        public string ShaderTag_CullMode; // 0x120
-        public float m_clamp; // 0x128
-        public bool isInitialized; // 0x12C
-        public ojectionMatrix_Injected k_ShaderRef_MobileSDF; // 0x130
-        public ojectionMatrix_Injected k_ShaderRef_MobileBitmap; // 0x138
+        public object ShaderRef_MobileSDF;
+        public object ShaderRef_MobileBitmap;
 
         // ── Methods ──
         public void get_ShaderRef_MobileSDF(){} // RVA: 0x7FFD54BB1890
@@ -290,10 +148,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Asset : ScriptableObject
     {
-        public int instanceID; // 0x18
-        public int hashCode; // 0x1C
-        public atrix_Injected material; // 0x20
-        public int materialHashCode; // 0x28
+        public object instanceID;
 
         // ── Methods ──
         public void get_instanceID(){} // RVA: 0x7FFD54B59A80
@@ -308,59 +163,10 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_CharacterInfo : ValueType
     {
-        public char character; // 0x10
-        public int index; // 0x14
-        public int stringLength; // 0x18
-        public ypointLabel.extures elementType; // 0x1C
-        public ypointLabel.oroutine textElement; // 0x20
-        public ypointLabel.urces fontAsset; // 0x28
-        public ypointLabel.? spriteAsset; // 0x30
-        public int spriteIndex; // 0x38
-        public atrix_Injected material; // 0x40
-        public int materialReferenceIndex; // 0x48
-        public bool isUsingAlternateTypeface; // 0x4C
-        public float pointSize; // 0x50
-        public int lineNumber; // 0x54
-        public int pageNumber; // 0x58
-        public int vertexIndex; // 0x5C
-        public ypointLabel.oundTransform vertex_BL; // 0x60
-        public ypointLabel.oundTransform vertex_TL; // 0x88
-        public ypointLabel.oundTransform vertex_TR; // 0xB0
-        public ypointLabel.oundTransform vertex_BR; // 0xD8
-        public amut topLeft; // 0x100
-        public amut bottomLeft; // 0x10C
-        public amut topRight; // 0x118
-        public amut bottomRight; // 0x124
-        public float origin; // 0x130
-        public float xAdvance; // 0x134
-        public float ascender; // 0x138
-        public float baseLine; // 0x13C
-        public float descender; // 0x140
-        public float adjustedAscender; // 0x144
-        public float adjustedDescender; // 0x148
-        public float aspectRatio; // 0x14C
-        public float scale; // 0x150
-        public object color; // 0x154
-        public object underlineColor; // 0x158
-        public int underlineVertexIndex; // 0x15C
-        public object strikethroughColor; // 0x160
-        public int strikethroughVertexIndex; // 0x164
-        public object highlightColor; // 0x168
-        public ypointLabel.teMonoColorTexture highlightState; // 0x16C
-        public ypointLabel.rray style; // 0x180
-        public bool isVisible; // 0x184
     }
 
     public class TMP_ColorGradient : ScriptableObject
     {
-        public ypointLabel.kWidth colorMode; // 0x18
-        public object topLeft; // 0x1C
-        public object topRight; // 0x2C
-        public object bottomLeft; // 0x3C
-        public object bottomRight; // 0x4C
-        public ypointLabel.kWidth k_DefaultColorMode;
-        public object k_DefaultColor;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B5A5B0 | overloaded x3
         public void .cctor(){} // RVA: 0x7FFD54B5A620
@@ -374,15 +180,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_DefaultControls : Object
     {
-        public float kWidth;
-        public float kThickHeight;
-        public float kThinHeight;
-        public tionX s_TextElementSize;
-        public tionX s_ThickElementSize; // 0x8
-        public tionX s_ThinElementSize; // 0x10
-        public object s_DefaultSelectableColor; // 0x18
-        public object s_TextColor; // 0x28
-
         // ── Methods ──
         public void CreateUIElementRoot(){} // RVA: 0x7FFD54B5ACA0
         public void CreateUIObject(){} // RVA: 0x7FFD54B5AD90
@@ -400,23 +197,17 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Dropdown : Selectable
     {
-        public 16 template; // 0x100
-        public ypointLabel.rAtlasTextures captionText; // 0x108
-        public ePathName117.ÎÌÍÍÎÏÌ captionImage; // 0x110
-        public ePathName117.hInputPathName124 placeholder; // 0x118
-        public ypointLabel.rAtlasTextures itemText; // 0x120
-        public ePathName117.ÎÌÍÍÎÏÌ itemImage; // 0x128
-        public int options; // 0x130
-        public teNormalizer onValueChanged; // 0x138
-        public hortNormalizer alphaFadeSpeed; // 0x140
-        public float value; // 0x148
-        public BuffersImpl IsExpanded; // 0x150
-        public BuffersImpl m_Blocker; // 0x158
-        public URA.woDigitYearMax<ChannelNormalized> m_Items; // 0x160
-        public ypointLabel.dth<ypointLabel.yLeftLandmarkColor> m_AlphaTweenRunner; // 0x168
-        public bool validTemplate; // 0x170
-        public ts m_Coroutine; // 0x178
-        public Src s_NoOptionData;
+        public object template;
+        public object captionText;
+        public object captionImage;
+        public object placeholder;
+        public object itemText;
+        public object itemImage;
+        public object options;
+        public object onValueChanged;
+        public object alphaFadeSpeed;
+        public object value;
+        public object IsExpanded;
 
         // ── Methods ──
         public void get_template(){} // RVA: 0x7FFD4E916C80
@@ -473,68 +264,30 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontAsset : TMP_Asset
     {
-        public string version; // 0x30
-        public string sourceFontFile; // 0x38
-        public IsWithinBudget atlasPopulationMode; // 0x40
-        public ypointLabel.uManager faceInfo; // 0x48
-        public e.ToInstance glyphTable; // 0x50
-        public URA.woDigitYearMax<e.ypeHash> glyphLookupTable; // 0xB0
-        public URA.DateTime<uint,e.ypeHash> characterTable; // 0xB8
-        public URA.woDigitYearMax<ypointLabel.arker> characterLookupTable; // 0xC0
-        public URA.DateTime<uint,ypointLabel.arker> atlasTexture; // 0xC8
-        public ector atlasTextures; // 0xD0
-        public ector[] atlasTextureCount; // 0xD8
-        public int isMultiAtlasTexturesEnabled; // 0xE0
-        public bool clearDynamicDataOnBuild; // 0xE4
-        public bool usedGlyphRects; // 0xE5
-        public URA.woDigitYearMax<e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d> freeGlyphRects; // 0xE8
-        public URA.woDigitYearMax<e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d> fontInfo; // 0xF0
-        public ypointLabel.oseWorldLandmarks atlasWidth; // 0xF8
-        public ector atlasHeight; // 0x100
-        public int atlasPadding; // 0x108
-        public int atlasRenderMode; // 0x10C
-        public int fontFeatureTable; // 0x110
-        public tPackageJObject.izablePackage fallbackFontAssetTable; // 0x114
-        public URA.woDigitYearMax<ypointLabel.seLandmarksDetectorGraphOptions> creationSettings; // 0x118
-        public ypointLabel.onfidence fontWeightTable; // 0x120
-        public ypointLabel.ndDetectorGraphOptions_ m_FontFeatureTable; // 0x128
-        public URA.woDigitYearMax<ypointLabel.urces> fallbackFontAssets; // 0x130
-        public URA.woDigitYearMax<ypointLabel.urces> m_FallbackFontAssetTable; // 0x138
-        public ypointLabel.sDetectorGraphOptions m_CreationSettings; // 0x140
-        public ypointLabel.sDetectorGraphOptions_[] m_FontWeightTable; // 0x198
-        public ypointLabel.sDetectorGraphOptions_[] fontWeights; // 0x1A0
-        public float normalStyle; // 0x1A8
-        public float normalSpacingOffset; // 0x1AC
-        public float boldStyle; // 0x1B0
-        public float boldSpacing; // 0x1B4
-        public byte italicStyle; // 0x1B8
-        public byte tabSize; // 0x1B9
-        public bool IsFontAssetLookupTablesDirty; // 0x1BA
-        public object k_ReadFontAssetDefinitionMarker;
-        public object k_AddSynthesizedCharactersMarker; // 0x8
-        public object k_TryAddCharacterMarker; // 0x10
-        public object k_TryAddCharactersMarker; // 0x18
-        public object k_UpdateGlyphAdjustmentRecordsMarker; // 0x20
-        public object k_ClearFontAssetDataMarker; // 0x28
-        public object k_UpdateFontAssetDataMarker; // 0x30
-        public string s_DefaultMaterialSuffix; // 0x38
-        public URA.onsDepth<int> FallbackSearchQueryLookup; // 0x1C0
-        public URA.onsDepth<int> k_SearchedFontAssetLookup; // 0x40
-        public URA.woDigitYearMax<ypointLabel.urces> k_FontAssets_FontFeaturesUpdateQueue; // 0x48
-        public URA.onsDepth<int> k_FontAssets_FontFeaturesUpdateQueueLookup; // 0x50
-        public URA.woDigitYearMax<ypointLabel.urces> k_FontAssets_AtlasTexturesUpdateQueue; // 0x58
-        public URA.onsDepth<int> k_FontAssets_AtlasTexturesUpdateQueueLookup; // 0x60
-        public URA.woDigitYearMax<e.ypeHash> m_GlyphsToRender; // 0x1C8
-        public URA.woDigitYearMax<e.ypeHash> m_GlyphsRendered; // 0x1D0
-        public URA.woDigitYearMax<uint> m_GlyphIndexList; // 0x1D8
-        public URA.woDigitYearMax<uint> m_GlyphIndexListNewlyAdded; // 0x1E0
-        public URA.woDigitYearMax<uint> m_GlyphsToAdd; // 0x1E8
-        public URA.onsDepth<uint> m_GlyphsToAddLookup; // 0x1F0
-        public URA.woDigitYearMax<ypointLabel.arker> m_CharactersToAdd; // 0x1F8
-        public URA.onsDepth<uint> m_CharactersToAddLookup; // 0x200
-        public URA.woDigitYearMax<uint> s_MissingCharacterList; // 0x208
-        public URA.onsDepth<uint> m_MissingUnicodesFromFontFile; // 0x210
-        public uint[] k_GlyphIndexArray; // 0x68
+        public object version;
+        public object sourceFontFile;
+        public object atlasPopulationMode;
+        public object faceInfo;
+        public object glyphTable;
+        public object glyphLookupTable;
+        public object characterTable;
+        public object characterLookupTable;
+        public object atlasTexture;
+        public object atlasTextures;
+        public object atlasTextureCount;
+        public object isMultiAtlasTexturesEnabled;
+        public object clearDynamicDataOnBuild;
+        public object usedGlyphRects;
+        public object freeGlyphRects;
+        public object fontInfo;
+        public object atlasWidth;
+        public object atlasHeight;
+        public object atlasPadding;
+        public object atlasRenderMode;
+        public object fontFeatureTable;
+        public object fallbackFontAssetTable;
+        public object creationSettings;
+        public object fontWeightTable;
 
         // ── Methods ──
         public void get_version(){} // RVA: 0x7FFD4E5F95E0
@@ -626,9 +379,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontAssetUtilities : Object
     {
-        public ypointLabel.ppressionThreshold_ instance;
-        public URA.onsDepth<int> k_SearchedAssets; // 0x8
-        public bool k_IsFontEngineInitialized; // 0x10
+        public object instance;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54B72180
@@ -643,8 +394,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontFeatureTable : Object
     {
-        public URA.woDigitYearMax<ypointLabel.Confidence>k__BackingField> glyphPairAdjustmentRecords; // 0x10
-        public URA.DateTime<uint,ypointLabel.Confidence>k__BackingField> m_GlyphPairAdjustmentRecordLookupDictionary; // 0x18
+        public object glyphPairAdjustmentRecords;
 
         // ── Methods ──
         public void get_glyphPairAdjustmentRecords(){} // RVA: 0x7FFD4E35C380
@@ -655,17 +405,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontStyleStack : ValueType
     {
-        public byte bold; // 0x10
-        public byte italic; // 0x11
-        public byte underline; // 0x12
-        public byte strikethrough; // 0x13
-        public byte highlight; // 0x14
-        public byte superscript; // 0x15
-        public byte subscript; // 0x16
-        public byte uppercase; // 0x17
-        public byte lowercase; // 0x18
-        public byte smallcaps; // 0x19
-
         // ── Methods ──
         public void Clear(){} // RVA: 0x7FFD54BC25B0
         public void Add(){} // RVA: 0x7FFD54BC25C0
@@ -674,10 +413,10 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_GlyphValueRecord : ValueType
     {
-        public float xPlacement; // 0x10
-        public float yPlacement; // 0x14
-        public float xAdvance; // 0x18
-        public float yAdvance; // 0x1C
+        public object xPlacement;
+        public object yPlacement;
+        public object xAdvance;
+        public object yAdvance;
 
         // ── Methods ──
         public void get_xPlacement(){} // RVA: 0x7FFD4FC6C150
@@ -694,101 +433,71 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_InputField : Selectable
     {
-        public Hash128ToStringImpl inputSystem; // 0x100
-        public char[] compositionString;
-        public 16 compositionLength; // 0x108
-        public 16 mesh; // 0x110
-        public ePathName117.alPriorityMax shouldHideMobileInput; // 0x118
-        public ePathName117.alPriorityMax shouldHideSoftKeyboard; // 0x120
-        public dRecorder text; // 0x128
-        public ypointLabel.rAtlasTextures isFocused; // 0x138
-        public 16 caretBlinkRate; // 0x140
-        public ePathName117.hInputPathName124 caretWidth; // 0x148
-        public ePathName117.readmill textViewport; // 0x150
-        public ypointLabel.__19 textComponent; // 0x158
-        public bool placeholder; // 0x160
-        public ePathName117.on verticalScrollbar; // 0x168
-        public moryFailure.ng scrollSensitivity; // 0x170
-        public float caretColor; // 0x178
-        public float customCaretColor; // 0x17C
-        public 2_FE_LONGS selectionColor; // 0x180
-        public ÍÏÎÍÏÏÌÏÏÍÏÌÌÎÌÎÌ onEndEdit; // 0x184
-        public char onSubmit; // 0x188
-        public Underscore onSelect; // 0x18C
-        public object onDeselect; // 0x190
-        public bool onTextSelection; // 0x194
-        public bool onEndTextSelection; // 0x195
-        public aterial onValueChanged; // 0x198
-        public string onTouchScreenKeyboardStatusChanged; // 0x1A0
-        public float onValidateInput; // 0x1A8
-        public int characterLimit; // 0x1AC
-        public et_isAutoFitting pointSize; // 0x1B0
-        public et_isAutoFitting fontAsset; // 0x1B8
-        public oFitting onFocusSelectAll; // 0x1C0
-        public oFitting resetOnDeActivation; // 0x1C8
-        public rners restoreOriginalTextOnEscape; // 0x1D0
-        public rners isRichTextEditingAllowed; // 0x1D8
-        public ting contentType; // 0x1E0
-        public ers lineType; // 0x1E8
-        public idth lineLimit; // 0x1F0
-        public object inputType; // 0x1F8
-        public bool keyboardType; // 0x208
-        public object characterValidation; // 0x20C
-        public string inputValidator; // 0x220
-        public float readOnly; // 0x228
-        public int richText; // 0x22C
-        public bool multiLine; // 0x230
-        public bool asteriskChar; // 0x231
-        public int wasCanceled; // 0x234
-        public int caretPositionInternal; // 0x238
-        public int stringPositionInternal; // 0x23C
-        public int caretSelectPositionInternal; // 0x240
-        public 16 stringSelectPositionInternal; // 0x248
-        public cTotalCost[] hasSelection; // 0x250
-        public kingField caretPosition; // 0x258
-        public tionX selectionAnchorPosition; // 0x260
-        public object selectionFocusPosition; // 0x268
-        public bool stringPosition; // 0x270
-        public bool selectionStringAnchorPosition; // 0x271
-        public bool selectionStringFocusPosition; // 0x272
-        public bool clipboard; // 0x273
-        public float minWidth;
-        public float preferredWidth;
-        public bool flexibleWidth; // 0x274
-        public ts minHeight; // 0x278
-        public float preferredHeight; // 0x280
-        public ts flexibleHeight; // 0x288
-        public string layoutPriority; // 0x290
-        public bool m_WasCanceled; // 0x298
-        public bool m_HasDoneFocusTransition; // 0x299
-        public object m_WaitForSecondsRealtime; // 0x2A0
-        public bool m_PreventCallback; // 0x2A8
-        public bool m_TouchKeyboardAllowsInPlaceEditing; // 0x2A9
-        public bool m_IsTextComponentUpdateRequired; // 0x2AA
-        public bool m_isLastKeyBackspace; // 0x2AB
-        public float m_PointerDownClickStartTime; // 0x2AC
-        public float m_KeyDownStartTime; // 0x2B0
-        public float m_DoubleClickDelay; // 0x2B4
-        public string kEmailSpecialCharacters;
-        public bool m_IsCompositionActive; // 0x2B8
-        public bool m_ShouldUpdateIMEWindowPosition; // 0x2B9
-        public int m_PreviousIMEInsertionLine; // 0x2BC
-        public ypointLabel.urces m_GlobalFontAsset; // 0x2C0
-        public bool m_OnFocusSelectAll; // 0x2C8
-        public bool m_isSelectAll; // 0x2C9
-        public bool m_ResetOnDeActivation; // 0x2CA
-        public bool m_SelectionStillActive; // 0x2CB
-        public bool m_ReleaseSelection; // 0x2CC
-        public BuffersImpl m_PreviouslySelectedObject; // 0x2D0
-        public bool m_RestoreOriginalTextOnEscape; // 0x2D8
-        public bool m_isRichTextEditingAllowed; // 0x2D9
-        public int m_LineLimit; // 0x2DC
-        public ypointLabel.asChanged m_InputValidator; // 0x2E0
-        public bool m_isSelected; // 0x2E8
-        public bool m_IsStringPositionDirty; // 0x2E9
-        public bool m_IsCaretPositionDirty; // 0x2EA
-        public bool m_forceRectTransformAdjustment; // 0x2EB
-        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE m_ProcessingEvent; // 0x2F0
+        public object inputSystem;
+        public object compositionString;
+        public object compositionLength;
+        public object mesh;
+        public object shouldHideMobileInput;
+        public object shouldHideSoftKeyboard;
+        public object text;
+        public object isFocused;
+        public object caretBlinkRate;
+        public object caretWidth;
+        public object textViewport;
+        public object textComponent;
+        public object placeholder;
+        public object verticalScrollbar;
+        public object scrollSensitivity;
+        public object caretColor;
+        public object customCaretColor;
+        public object selectionColor;
+        public object onEndEdit;
+        public object onSubmit;
+        public object onSelect;
+        public object onDeselect;
+        public object onTextSelection;
+        public object onEndTextSelection;
+        public object onValueChanged;
+        public object onTouchScreenKeyboardStatusChanged;
+        public object onValidateInput;
+        public object characterLimit;
+        public object pointSize;
+        public object fontAsset;
+        public object onFocusSelectAll;
+        public object resetOnDeActivation;
+        public object restoreOriginalTextOnEscape;
+        public object isRichTextEditingAllowed;
+        public object contentType;
+        public object lineType;
+        public object lineLimit;
+        public object inputType;
+        public object keyboardType;
+        public object characterValidation;
+        public object inputValidator;
+        public object readOnly;
+        public object richText;
+        public object multiLine;
+        public object asteriskChar;
+        public object wasCanceled;
+        public object caretPositionInternal;
+        public object stringPositionInternal;
+        public object caretSelectPositionInternal;
+        public object stringSelectPositionInternal;
+        public object hasSelection;
+        public object caretPosition;
+        public object selectionAnchorPosition;
+        public object selectionFocusPosition;
+        public object stringPosition;
+        public object selectionStringAnchorPosition;
+        public object selectionStringFocusPosition;
+        public object clipboard;
+        public object minWidth;
+        public object preferredWidth;
+        public object flexibleWidth;
+        public object minHeight;
+        public object preferredHeight;
+        public object flexibleHeight;
+        public object layoutPriority;
 
         // ── Methods ──
         public void get_inputSystem(){} // RVA: 0x7FFD54B73C30
@@ -1021,26 +730,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_LineInfo : ValueType
     {
-        public int controlCharacterCount; // 0x10
-        public int characterCount; // 0x14
-        public int visibleCharacterCount; // 0x18
-        public int spaceCount; // 0x1C
-        public int wordCount; // 0x20
-        public int firstCharacterIndex; // 0x24
-        public int firstVisibleCharacterIndex; // 0x28
-        public int lastCharacterIndex; // 0x2C
-        public int lastVisibleCharacterIndex; // 0x30
-        public float length; // 0x34
-        public float lineHeight; // 0x38
-        public float ascender; // 0x3C
-        public float baseline; // 0x40
-        public float descender; // 0x44
-        public float maxAdvance; // 0x48
-        public float width; // 0x4C
-        public float marginLeft; // 0x50
-        public float marginRight; // 0x54
-        public ypointLabel.CharacterInternal alignment; // 0x58
-        public ypointLabel.r lineExtents; // 0x5C
     }
 
     public class TMP_LinkInfo : ValueType
@@ -1063,12 +752,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_MaterialManager : Object
     {
-        public URA.woDigitYearMax<ateMask> m_materialList;
-        public URA.DateTime<long,s> m_fallbackMaterials; // 0x8
-        public URA.DateTime<int,long> m_fallbackMaterialLookup; // 0x10
-        public URA.woDigitYearMax<s> m_fallbackCleanupList; // 0x18
-        public bool isFallbackListDirty; // 0x20
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54BA77B0
         public void OnPreRender(){} // RVA: 0x7FFD54BA7AF0
@@ -1093,21 +776,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_MeshInfo : ValueType
     {
-        public object s_DefaultColor;
-        public amut s_DefaultNormal; // 0x4
-        public get_boundingBoxMode s_DefaultTangent; // 0x10
-        public stments s_DefaultBounds; // 0x20
-        public object mesh; // 0x10
-        public int vertexCount; // 0x18
-        public amut[] vertices; // 0x20
-        public amut[] normals; // 0x28
-        public get_boundingBoxMode[] tangents; // 0x30
-        public tionX[] uvs0; // 0x38
-        public tionX[] uvs2; // 0x40
-        public ?[] colors32; // 0x48
-        public int[] triangles; // 0x50
-        public atrix_Injected material; // 0x58
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54BAC7A0 | overloaded x2
         public void ResizeMeshInfo(){} // RVA: 0x7FFD54BADDA0 | overloaded x2
@@ -1120,10 +788,9 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ObjectPool`1 : Object
     {
-        public URA.leEastFrench<T1717692880> countAll;
-        public rScript.?<T1717692880> countActive;
-        public rScript.?<T1717692880> countInactive;
-        public int <countAll>k__BackingField;
+        public object countAll;
+        public object countActive;
+        public object countInactive;
 
         // ── Methods ──
         public void get_countAll(){} // RVA: 0x7FFD4E079960
@@ -1137,11 +804,13 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Offset : ValueType
     {
-        public float left; // 0x10
-        public float right; // 0x14
-        public float top; // 0x18
-        public float bottom; // 0x1C
-        public ypointLabel.Annotation horizontal;
+        public object left;
+        public object right;
+        public object top;
+        public object bottom;
+        public object horizontal;
+        public object vertical;
+        public object zero;
 
         // ── Methods ──
         public void get_left(){} // RVA: 0x7FFD4FC6C150
@@ -1172,11 +841,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ResourceManager : Object
     {
-        public ypointLabel.etCompoundBounds s_instance;
-        public ypointLabel.ager s_TextSettings; // 0x8
-        public URA.woDigitYearMax<ypointLabel.urces> s_FontAssetReferences; // 0x10
-        public URA.DateTime<int,ypointLabel.urces> s_FontAssetReferenceLookup; // 0x18
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54BAFBF0
         public void GetTextSettings(){} // RVA: 0x7FFD54BAFE10
@@ -1188,8 +852,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ScrollbarEventHandler : MonoBehaviour
     {
-        public bool isSelected; // 0x20
-
         // ── Methods ──
         public void OnPointerClick(){} // RVA: 0x7FFD54BB04F0
         public void OnSelect(){} // RVA: 0x7FFD54BB0550
@@ -1207,38 +869,39 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Settings : ScriptableObject
     {
-        public ypointLabel.ager version;
-        public bool enableWordWrapping; // 0x18
-        public bool enableKerning; // 0x19
-        public bool enableExtraPadding; // 0x1A
-        public bool enableTintAllSprites; // 0x1B
-        public bool enableParseEscapeCharacters; // 0x1C
-        public bool enableRaycastTarget; // 0x1D
-        public bool getFontFeaturesAtRuntime; // 0x1E
-        public int missingGlyphCharacter; // 0x20
-        public bool warningsDisabled; // 0x24
-        public ypointLabel.urces defaultFontAsset; // 0x28
-        public string defaultFontAssetPath; // 0x30
-        public float defaultFontSize; // 0x38
-        public float defaultTextAutoSizingMinRatio; // 0x3C
-        public float defaultTextAutoSizingMaxRatio; // 0x40
-        public tionX defaultTextMeshProTextContainerSize; // 0x44
-        public tionX defaultTextMeshProUITextContainerSize; // 0x4C
-        public bool autoSizeTextContainer; // 0x54
-        public bool isTextObjectScaleStatic; // 0x55
-        public URA.woDigitYearMax<ypointLabel.urces> fallbackFontAssets; // 0x58
-        public bool matchMaterialPreset; // 0x60
-        public ypointLabel.? defaultSpriteAsset; // 0x68
-        public string defaultSpriteAssetPath; // 0x70
-        public bool enableEmojiSupport; // 0x78
-        public uint missingCharacterSpriteUnicode; // 0x7C
-        public string defaultColorGradientPresetsPath; // 0x80
-        public ypointLabel.t_atlasPadding defaultStyleSheet; // 0x88
-        public string styleSheetsResourcePath; // 0x90
-        public dex2 leadingCharacters; // 0x98
-        public dex2 followingCharacters; // 0xA0
-        public _vertical linebreakingRules; // 0xA8
-        public bool useModernHangulLineBreakingRules; // 0xB0
+        public object version;
+        public object enableWordWrapping;
+        public object enableKerning;
+        public object enableExtraPadding;
+        public object enableTintAllSprites;
+        public object enableParseEscapeCharacters;
+        public object enableRaycastTarget;
+        public object getFontFeaturesAtRuntime;
+        public object missingGlyphCharacter;
+        public object warningsDisabled;
+        public object defaultFontAsset;
+        public object defaultFontAssetPath;
+        public object defaultFontSize;
+        public object defaultTextAutoSizingMinRatio;
+        public object defaultTextAutoSizingMaxRatio;
+        public object defaultTextMeshProTextContainerSize;
+        public object defaultTextMeshProUITextContainerSize;
+        public object autoSizeTextContainer;
+        public object isTextObjectScaleStatic;
+        public object fallbackFontAssets;
+        public object matchMaterialPreset;
+        public object defaultSpriteAsset;
+        public object defaultSpriteAssetPath;
+        public object enableEmojiSupport;
+        public object missingCharacterSpriteUnicode;
+        public object defaultColorGradientPresetsPath;
+        public object defaultStyleSheet;
+        public object styleSheetsResourcePath;
+        public object leadingCharacters;
+        public object followingCharacters;
+        public object linebreakingRules;
+        public object useModernHangulLineBreakingRules;
+        public object instance;
 
         // ── Methods ──
         public void get_version(){} // RVA: 0x7FFD54BB0700
@@ -1291,21 +954,12 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Sprite : TMP_TextElement_Legacy
     {
-        public string name; // 0x38
-        public int hashCode; // 0x40
-        public int unicode; // 0x44
-        public tionX pivot; // 0x48
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField sprite; // 0x50
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class TMP_SpriteAnimator : MonoBehaviour
     {
-        public URA.DateTime<int,bool> m_animations; // 0x20
-        public ypointLabel.rAtlasTextures m_TextComponent; // 0x28
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54BB5DE0
         public void OnEnable(){} // RVA: 0x7FFD4E341310
@@ -1318,19 +972,11 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SpriteAsset : TMP_Asset
     {
-        public URA.DateTime<int,int> version; // 0x30
-        public URA.DateTime<uint,int> faceInfo; // 0x38
-        public string spriteCharacterTable; // 0x40
-        public e.ToInstance spriteCharacterLookupTable; // 0x48
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField spriteGlyphTable; // 0xA8
-        public URA.woDigitYearMax<ypointLabel.nfo> m_SpriteCharacterTable; // 0xB0
-        public URA.DateTime<uint,ypointLabel.nfo> m_SpriteCharacterLookup; // 0xB8
-        public URA.woDigitYearMax<ypointLabel.ookupTable> m_SpriteGlyphTable; // 0xC0
-        public URA.DateTime<uint,ypointLabel.ookupTable> m_SpriteGlyphLookup; // 0xC8
-        public URA.woDigitYearMax<ypointLabel.entSize> spriteInfoList; // 0xD0
-        public URA.woDigitYearMax<ypointLabel.?> fallbackSpriteAssets; // 0xD8
-        public bool m_IsSpriteAssetLookupTablesDirty; // 0xE0
-        public URA.onsDepth<int> k_searchedSpriteAssets;
+        public object version;
+        public object faceInfo;
+        public object spriteCharacterTable;
+        public object spriteCharacterLookupTable;
+        public object spriteGlyphTable;
 
         // ── Methods ──
         public void get_version(){} // RVA: 0x7FFD4E3BE740
@@ -1362,8 +1008,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SpriteCharacter : TMP_TextElement
     {
-        public string name; // 0x30
-        public int hashCode; // 0x38
+        public object name;
+        public object hashCode;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E5F95E0
@@ -1374,23 +1020,19 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SpriteGlyph : Glyph
     {
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField sprite; // 0x48
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54BB9C20 | overloaded x3
     }
 
     public class TMP_Style : Object
     {
-        public ypointLabel.ble NormalStyle;
-        public string name; // 0x10
-        public int hashCode; // 0x18
-        public string styleOpeningDefinition; // 0x20
-        public string styleClosingDefinition; // 0x28
-        public int[] styleOpeningTagArray; // 0x30
-        public int[] styleClosingTagArray; // 0x38
-        public uint[] m_OpeningTagUnicodeArray; // 0x40
-        public uint[] m_ClosingTagUnicodeArray; // 0x48
+        public object NormalStyle;
+        public object name;
+        public object hashCode;
+        public object styleOpeningDefinition;
+        public object styleClosingDefinition;
+        public object styleOpeningTagArray;
+        public object styleClosingTagArray;
 
         // ── Methods ──
         public void get_NormalStyle(){} // RVA: 0x7FFD54BB9CA0
@@ -1408,8 +1050,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_StyleSheet : ScriptableObject
     {
-        public URA.woDigitYearMax<ypointLabel.ble> styles; // 0x18
-        public URA.DateTime<int,ypointLabel.ble> m_StyleLookupDictionary; // 0x20
+        public object styles;
 
         // ── Methods ──
         public void get_styles(){} // RVA: 0x7FFD4E3447C0
@@ -1422,19 +1063,18 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SubMesh : MonoBehaviour
     {
-        public ypointLabel.urces fontAsset; // 0x20
-        public ypointLabel.? spriteAsset; // 0x28
-        public atrix_Injected material; // 0x30
-        public atrix_Injected sharedMaterial; // 0x38
-        public atrix_Injected fallbackMaterial; // 0x40
-        public atrix_Injected fallbackSourceMaterial; // 0x48
-        public bool isDefaultMaterial; // 0x50
-        public float padding; // 0x54
-        public rical renderer; // 0x58
-        public n meshFilter; // 0x60
-        public object mesh; // 0x68
-        public ypointLabel.faultValue textComponent; // 0x70
-        public bool m_isRegisteredForEvents; // 0x78
+        public object fontAsset;
+        public object spriteAsset;
+        public object material;
+        public object sharedMaterial;
+        public object fallbackMaterial;
+        public object fallbackSourceMaterial;
+        public object isDefaultMaterial;
+        public object padding;
+        public object renderer;
+        public object meshFilter;
+        public object mesh;
+        public object textComponent;
 
         // ── Methods ──
         public void get_fontAsset(){} // RVA: 0x7FFD4E36F0C0
@@ -1477,20 +1117,18 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SubMeshUI : MaskableGraphic
     {
-        public ypointLabel.urces fontAsset; // 0xE0
-        public ypointLabel.? spriteAsset; // 0xE8
-        public atrix_Injected mainTexture; // 0xF0
-        public atrix_Injected material; // 0xF8
-        public atrix_Injected sharedMaterial; // 0x100
-        public atrix_Injected fallbackMaterial; // 0x108
-        public bool fallbackSourceMaterial; // 0x110
-        public float materialForRendering; // 0x114
-        public object isDefaultMaterial; // 0x118
-        public ypointLabel.esourceProvider padding; // 0x120
-        public bool mesh; // 0x128
-        public bool textComponent; // 0x129
-        public int m_materialReferenceIndex; // 0x12C
-        public object m_RootCanvasTransform; // 0x130
+        public object fontAsset;
+        public object spriteAsset;
+        public object mainTexture;
+        public object material;
+        public object sharedMaterial;
+        public object fallbackMaterial;
+        public object fallbackSourceMaterial;
+        public object materialForRendering;
+        public object isDefaultMaterial;
+        public object padding;
+        public object mesh;
+        public object textComponent;
 
         // ── Methods ──
         public void get_fontAsset(){} // RVA: 0x7FFD4E3C2900
@@ -1543,235 +1181,96 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Text : MaskableGraphic
     {
-        public string text; // 0xE0
-        public bool textPreprocessor; // 0xE8
-        public ypointLabel.ieldNumber isRightToLeftText; // 0xF0
-        public bool font; // 0xF8
-        public ypointLabel.urces fontSharedMaterial; // 0x100
-        public ypointLabel.urces fontSharedMaterials; // 0x108
-        public bool fontMaterial; // 0x110
-        public atrix_Injected fontMaterials; // 0x118
-        public atrix_Injected color; // 0x120
-        public ypointLabel.RectId[] alpha;
-        public URA.DateTime<int,int> enableVertexGradient; // 0x8
-        public ypointLabel.t<ypointLabel.RectId> colorGradient; // 0x10
-        public int colorGradientPreset; // 0x128
-        public atrix_Injected[] spriteAsset; // 0x130
-        public atrix_Injected tintAllSprites; // 0x138
-        public atrix_Injected[] styleSheet; // 0x140
-        public bool textStyle; // 0x148
-        public object overrideColorTags; // 0x14C
-        public object faceColor; // 0x150
-        public object outlineColor; // 0x68
-        public object outlineWidth; // 0x160
-        public object fontSize; // 0x164
-        public bool fontWeight; // 0x168
-        public ypointLabel.kWidth pixelsPerUnit; // 0x16C
-        public ypointLabel.ircleVertices enableAutoSizing; // 0x170
-        public ypointLabel.ld fontSizeMin; // 0x1B0
-        public ypointLabel.? fontSizeMax; // 0x1B8
-        public bool fontStyle; // 0x1C0
-        public bool isUsingBold; // 0x1C1
-        public object horizontalAlignment; // 0x1C4
-        public ypointLabel.t_atlasPadding verticalAlignment; // 0x1C8
-        public ypointLabel.ble alignment; // 0x1D0
-        public int characterSpacing; // 0x1D8
-        public bool wordSpacing; // 0x1DC
-        public object lineSpacing; // 0x1E0
-        public object lineSpacingAdjustment; // 0x1E4
-        public float paragraphSpacing; // 0x1E8
-        public float characterWidthAdjustment; // 0x1EC
-        public float enableWordWrapping; // 0x1F0
-        public float wordWrappingRatios; // 0x1F4
-        public ypointLabel.t<float> overflowMode; // 0x1F8
-        public ypointLabel.tAssetData isTextOverflowing; // 0x218
-        public ypointLabel.tAssetData firstOverflowCharacterIndex; // 0x21C
-        public ypointLabel.t<ypointLabel.tAssetData> linkedTextComponent; // 0x220
-        public bool isTextTruncated; // 0x240
-        public float enableKerning; // 0x244
-        public float extraPadding; // 0x248
-        public int richText; // 0x24C
-        public int parseCtrlCharacters; // 0x250
-        public bool isOverlay; // 0x254
-        public float isOrthographic; // 0x258
-        public float enableCulling; // 0x25C
-        public ypointLabel.rray ignoreVisibility; // 0x260
-        public ypointLabel.rray horizontalMapping; // 0x264
-        public ypointLabel.formAdjustment verticalMapping; // 0x268
-        public bool mappingUvLineOffset; // 0x272
-        public ypointLabel.CharacterInternal renderMode; // 0x274
-        public ypointLabel.racter_and_QueueRenderToTexture geometrySortingOrder; // 0x278
-        public ypointLabel.ortFontFeatureTable isTextObjectScaleStatic; // 0x27C
-        public ypointLabel.CharacterInternal vertexBufferAutoSizeReduction; // 0x280
-        public ypointLabel.t<ypointLabel.CharacterInternal> firstVisibleCharacter; // 0x288
-        public amut[] maxVisibleCharacters; // 0x2A8
-        public float maxVisibleWords; // 0x2B0
-        public float maxVisibleLines; // 0x2B4
-        public float useMaxVisibleDescender; // 0x2B8
-        public float pageToDisplay; // 0x2BC
-        public float margin; // 0x2C0
-        public float textInfo; // 0x2C4
-        public float havePropertiesChanged; // 0x2C8
-        public bool isUsingLegacyAnimationComponent; // 0x2CC
-        public float transform; // 0x2D0
-        public float rectTransform; // 0x2D4
-        public float autoSizeTextContainer; // 0x2D8
-        public float mesh; // 0x2DC
-        public bool isVolumetricText; // 0x2E0
-        public bool bounds; // 0x2E1
-        public bool textBounds; // 0x2E2
-        public bool spriteAnimator; // 0x2E3
-        public float flexibleHeight; // 0x2E4
-        public ypointLabel.UpdateGlyphAdjustmentRecords flexibleWidth; // 0x2E8
-        public int minWidth; // 0x2EC
-        public ypointLabel.rAtlasTextures minHeight; // 0x2F0
-        public ypointLabel.rAtlasTextures maxWidth; // 0x2F8
-        public bool maxHeight; // 0x300
-        public bool layoutElement; // 0x301
-        public float preferredWidth; // 0x304
-        public bool preferredHeight; // 0x308
-        public bool renderedWidth; // 0x309
-        public bool renderedHeight; // 0x30A
-        public bool layoutPriority; // 0x30B
-        public bool m_isOverlay; // 0x30C
-        public bool m_isOrthographic; // 0x30D
-        public bool m_isCullingEnabled; // 0x30E
-        public bool m_isMaskingEnabled; // 0x30F
-        public bool isMaskUpdateRequired; // 0x310
-        public bool m_ignoreCulling; // 0x311
-        public ypointLabel.lyphIndexes m_horizontalMapping; // 0x314
-        public ypointLabel.lyphIndexes m_verticalMapping; // 0x318
-        public float m_uvLineOffset; // 0x31C
-        public ypointLabel.exture m_renderMode; // 0x320
-        public ypointLabel.? m_geometrySortingOrder; // 0x324
-        public bool m_IsTextObjectScaleStatic; // 0x328
-        public bool m_VertexBufferAutoSizeReduction; // 0x329
-        public int m_firstVisibleCharacter; // 0x32C
-        public int m_maxVisibleCharacters; // 0x330
-        public int m_maxVisibleWords; // 0x334
-        public int m_maxVisibleLines; // 0x338
-        public bool m_useMaxVisibleDescender; // 0x33C
-        public int m_pageToDisplay; // 0x340
-        public bool m_isNewPage; // 0x344
-        public get_boundingBoxMode m_margin; // 0x348
-        public float m_marginLeft; // 0x358
-        public float m_marginRight; // 0x35C
-        public float m_marginWidth; // 0x360
-        public float m_marginHeight; // 0x364
-        public float m_width; // 0x368
-        public ypointLabel.StartTime m_textInfo; // 0x370
-        public bool m_havePropertiesChanged; // 0x378
-        public bool m_isUsingLegacyAnimationComponent; // 0x379
-        public object m_transform; // 0x380
-        public 16 m_rectTransform; // 0x388
-        public tionX m_PreviousRectTransformSize; // 0x390
-        public tionX m_PreviousPivotPosition; // 0x398
-        public bool <autoSizeTextContainer>k__BackingField; // 0x3A0
-        public bool m_autoSizeTextContainer; // 0x3A1
-        public object m_mesh; // 0x3A8
-        public bool m_isVolumetricText; // 0x3B0
-        public nalInformation<int,string,ypointLabel.urces> OnFontAssetRequest; // 0x70
-        public nalInformation<int,string,ypointLabel.?> OnSpriteAssetRequest; // 0x78
-        public ileFullDirectoryInformation<ypointLabel.StartTime> OnPreRenderText; // 0x3B8
-        public ypointLabel.hickElementSize m_spriteAnimator; // 0x3C0
-        public float m_flexibleHeight; // 0x3C8
-        public float m_flexibleWidth; // 0x3CC
-        public float m_minWidth; // 0x3D0
-        public float m_minHeight; // 0x3D4
-        public float m_maxWidth; // 0x3D8
-        public float m_maxHeight; // 0x3DC
-        public ePathName117.OpenVRLaunchOption_Bool m_LayoutElement; // 0x3E0
-        public float m_preferredWidth; // 0x3E8
-        public float m_renderedWidth; // 0x3EC
-        public bool m_isPreferredWidthDirty; // 0x3F0
-        public float m_preferredHeight; // 0x3F4
-        public float m_renderedHeight; // 0x3F8
-        public bool m_isPreferredHeightDirty; // 0x3FC
-        public bool m_isCalculatingPreferredValues; // 0x3FD
-        public int m_layoutPriority; // 0x400
-        public bool m_isLayoutDirty; // 0x404
-        public bool m_isAwake; // 0x405
-        public bool m_isWaitingOnResourceLoad; // 0x406
-        public houldActivateNextUpdate m_inputSource; // 0x408
-        public float m_fontScaleMultiplier; // 0x40C
-        public char[] m_htmlTag; // 0x80
-        public ypointLabel.lateDistance[] m_xmlAttribute; // 0x88
-        public float[] m_attributeParameterValues; // 0x90
-        public float tag_LineIndent; // 0x410
-        public float tag_Indent; // 0x414
-        public ypointLabel.t<float> m_indentStack; // 0x418
-        public bool tag_NoParsing; // 0x438
-        public bool m_isParsingText; // 0x439
-        public tSizeBias m_FXMatrix; // 0x43C
-        public bool m_isFXMatrixSet; // 0x47C
-        public OfBounds[] m_TextProcessingArray; // 0x480
-        public int m_InternalTextProcessingArraySize; // 0x488
-        public ypointLabel.ure[] m_internalCharacterInfo; // 0x490
-        public int m_totalCharacterCount; // 0x498
-        public ypointLabel.rkColor m_SavedWordWrapState; // 0x98
-        public ypointLabel.rkColor m_SavedLineState; // 0x410
-        public ypointLabel.rkColor m_SavedEllipsisState; // 0x788
-        public ypointLabel.rkColor m_SavedLastValidState; // 0xB00
-        public ypointLabel.rkColor m_SavedSoftLineBreakState; // 0xE78
-        public ypointLabel.t<ypointLabel.rkColor> m_EllipsisInsertionCandidateStack; // 0x11F0
-        public int m_characterCount; // 0x49C
-        public int m_firstCharacterOfLine; // 0x4A0
-        public int m_firstVisibleCharacterOfLine; // 0x4A4
-        public int m_lastCharacterOfLine; // 0x4A8
-        public int m_lastVisibleCharacterOfLine; // 0x4AC
-        public int m_lineNumber; // 0x4B0
-        public int m_lineVisibleCharacterCount; // 0x4B4
-        public int m_pageNumber; // 0x4B8
-        public float m_PageAscender; // 0x4BC
-        public float m_maxTextAscender; // 0x4C0
-        public float m_maxCapHeight; // 0x4C4
-        public float m_ElementAscender; // 0x4C8
-        public float m_ElementDescender; // 0x4CC
-        public float m_maxLineAscender; // 0x4D0
-        public float m_maxLineDescender; // 0x4D4
-        public float m_startOfLineAscender; // 0x4D8
-        public float m_startOfLineDescender; // 0x4DC
-        public float m_lineOffset; // 0x4E0
-        public ypointLabel.r m_meshExtents; // 0x4E4
-        public object m_htmlColor; // 0x4F4
-        public ypointLabel.t<?> m_colorStack; // 0x4F8
-        public ypointLabel.t<?> m_underlineColorStack; // 0x518
-        public ypointLabel.t<?> m_strikethroughColorStack; // 0x538
-        public ypointLabel.t<ypointLabel.teMonoColorTexture> m_HighlightStateStack; // 0x558
-        public ypointLabel.ld m_colorGradientPreset; // 0x588
-        public ypointLabel.t<ypointLabel.ld> m_colorGradientStack; // 0x590
-        public bool m_colorGradientPresetIsTinted; // 0x5B8
-        public float m_tabSpacing; // 0x5BC
-        public float m_spacing; // 0x5C0
-        public ypointLabel.t<int>[] m_TextStyleStacks; // 0x5C8
-        public int m_TextStyleStackDepth; // 0x5D0
-        public ypointLabel.t<int> m_ItalicAngleStack; // 0x5D8
-        public int m_ItalicAngle; // 0x5F8
-        public ypointLabel.t<int> m_actionStack; // 0x600
-        public float m_padding; // 0x620
-        public float m_baselineOffset; // 0x624
-        public ypointLabel.t<float> m_baselineOffsetStack; // 0x628
-        public float m_xAdvance; // 0x648
-        public ypointLabel.extures m_textElementType; // 0x64C
-        public ypointLabel.oroutine m_cached_TextElement; // 0x650
-        public crollSpeed m_Ellipsis; // 0x658
-        public crollSpeed m_Underline; // 0x678
-        public ypointLabel.? m_defaultSpriteAsset; // 0x698
-        public ypointLabel.? m_currentSpriteAsset; // 0x6A0
-        public int m_spriteCount; // 0x6A8
-        public int m_spriteIndex; // 0x6AC
-        public int m_spriteAnimationID; // 0x6B0
-        public object k_ParseTextMarker; // 0x1588
-        public object k_InsertNewLineMarker; // 0x1590
-        public bool m_ignoreActiveState; // 0x6B4
-        public llSpeed m_TextBackingArray; // 0x6B8
-        public ltiple[] k_Power; // 0x6C8
-        public tionX k_LargePositiveVector2; // 0x1598
-        public tionX k_LargeNegativeVector2; // 0x15A0
-        public float k_LargePositiveFloat; // 0x15A8
-        public float k_LargeNegativeFloat; // 0x15AC
-        public int k_LargePositiveInt; // 0x15B0
-        public int k_LargeNegativeInt; // 0x15B4
+        public object text;
+        public object textPreprocessor;
+        public object isRightToLeftText;
+        public object font;
+        public object fontSharedMaterial;
+        public object fontSharedMaterials;
+        public object fontMaterial;
+        public object fontMaterials;
+        public object color;
+        public object alpha;
+        public object enableVertexGradient;
+        public object colorGradient;
+        public object colorGradientPreset;
+        public object spriteAsset;
+        public object tintAllSprites;
+        public object styleSheet;
+        public object textStyle;
+        public object overrideColorTags;
+        public object faceColor;
+        public object outlineColor;
+        public object outlineWidth;
+        public object fontSize;
+        public object fontWeight;
+        public object pixelsPerUnit;
+        public object enableAutoSizing;
+        public object fontSizeMin;
+        public object fontSizeMax;
+        public object fontStyle;
+        public object isUsingBold;
+        public object horizontalAlignment;
+        public object verticalAlignment;
+        public object alignment;
+        public object characterSpacing;
+        public object wordSpacing;
+        public object lineSpacing;
+        public object lineSpacingAdjustment;
+        public object paragraphSpacing;
+        public object characterWidthAdjustment;
+        public object enableWordWrapping;
+        public object wordWrappingRatios;
+        public object overflowMode;
+        public object isTextOverflowing;
+        public object firstOverflowCharacterIndex;
+        public object linkedTextComponent;
+        public object isTextTruncated;
+        public object enableKerning;
+        public object extraPadding;
+        public object richText;
+        public object parseCtrlCharacters;
+        public object isOverlay;
+        public object isOrthographic;
+        public object enableCulling;
+        public object ignoreVisibility;
+        public object horizontalMapping;
+        public object verticalMapping;
+        public object mappingUvLineOffset;
+        public object renderMode;
+        public object geometrySortingOrder;
+        public object isTextObjectScaleStatic;
+        public object vertexBufferAutoSizeReduction;
+        public object firstVisibleCharacter;
+        public object maxVisibleCharacters;
+        public object maxVisibleWords;
+        public object maxVisibleLines;
+        public object useMaxVisibleDescender;
+        public object pageToDisplay;
+        public object margin;
+        public object textInfo;
+        public object havePropertiesChanged;
+        public object isUsingLegacyAnimationComponent;
+        public object transform;
+        public object rectTransform;
+        public object autoSizeTextContainer;
+        public object mesh;
+        public object isVolumetricText;
+        public object bounds;
+        public object textBounds;
+        public object spriteAnimator;
+        public object flexibleHeight;
+        public object flexibleWidth;
+        public object minWidth;
+        public object minHeight;
+        public object maxWidth;
+        public object maxHeight;
+        public object layoutElement;
+        public object preferredWidth;
+        public object preferredHeight;
+        public object renderedWidth;
+        public object renderedHeight;
+        public object layoutPriority;
 
         // ── Methods ──
         public void get_text(){} // RVA: 0x7FFD54B86E50
@@ -2032,12 +1531,12 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextElement : Object
     {
-        public ypointLabel.tartTime elementType; // 0x10
-        public uint unicode; // 0x14
-        public ypointLabel.eTextColor textAsset; // 0x18
-        public e.ypeHash glyph; // 0x20
-        public uint glyphIndex; // 0x28
-        public float scale; // 0x2C
+        public object elementType;
+        public object unicode;
+        public object textAsset;
+        public object glyph;
+        public object glyphIndex;
+        public object scale;
 
         // ── Methods ──
         public void get_elementType(){} // RVA: 0x7FFD4E40B5E0
@@ -2056,41 +1555,12 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextElement_Legacy : Object
     {
-        public int id; // 0x10
-        public float x; // 0x14
-        public float y; // 0x18
-        public float width; // 0x1C
-        public float height; // 0x20
-        public float xOffset; // 0x24
-        public float yOffset; // 0x28
-        public float xAdvance; // 0x2C
-        public float scale; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class TMP_TextInfo : Object
     {
-        public tionX k_InfinityVectorPositive;
-        public tionX k_InfinityVectorNegative; // 0x8
-        public ypointLabel.rAtlasTextures textComponent; // 0x10
-        public int characterCount; // 0x18
-        public int spriteCount; // 0x1C
-        public int spaceCount; // 0x20
-        public int wordCount; // 0x24
-        public int linkCount; // 0x28
-        public int lineCount; // 0x2C
-        public int pageCount; // 0x30
-        public int materialCount; // 0x34
-        public ypointLabel.ure[] characterInfo; // 0x38
-        public ypointLabel.esultAnnotationController[] wordInfo; // 0x40
-        public ypointLabel.LandmarkListAnnotation[] linkInfo; // 0x48
-        public ypointLabel._anchorPosition[] lineInfo; // 0x50
-        public ypointLabel.IrisLandmarkList[] pageInfo; // 0x58
-        public ypointLabel.pectiveCorrection[] meshInfo; // 0x60
-        public ypointLabel.pectiveCorrection[] m_CachedMeshInfo; // 0x68
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54BC0A40 | overloaded x3
         public void Clear(){} // RVA: 0x7FFD54BC0E80
@@ -2108,9 +1578,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextParsingUtilities : Object
     {
-        public ypointLabel._isRichTextEditingAllowed instance;
-        public string k_LookupStringL;
-        public string k_LookupStringU;
+        public object instance;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54BC2100
@@ -2127,13 +1595,9 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
-        public ypointLabel.rkColor[] Count; // 0x10
-        public int current; // 0x18
-        public ypointLabel.rkColor rolloverSize; // 0x20
-        public int m_Capacity; // 0x398
-        public int m_RolloverSize; // 0x39C
-        public int m_Count; // 0x3A0
-        public int k_DefaultCapacity;
+        public object Count;
+        public object current;
+        public object rolloverSize;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092E60 | overloaded x3
@@ -2154,10 +1618,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextUtilities : Object
     {
-        public amut[] m_rectWorldCorners;
-        public string k_lookupStringL;
-        public string k_lookupStringU;
-
         // ── Methods ──
         public void GetCursorIndexFromPosition(){} // RVA: 0x7FFD54BC29E0 | overloaded x2
         public void FindNearestLine(){} // RVA: 0x7FFD54BC2CE0
@@ -2187,20 +1647,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_UpdateManager : Object
     {
-        public ypointLabel.ct instance;
-        public URA.onsDepth<int> m_LayoutQueueLookup; // 0x10
-        public URA.woDigitYearMax<ypointLabel.rAtlasTextures> m_LayoutRebuildQueue; // 0x18
-        public URA.onsDepth<int> m_GraphicQueueLookup; // 0x20
-        public URA.woDigitYearMax<ypointLabel.rAtlasTextures> m_GraphicRebuildQueue; // 0x28
-        public URA.onsDepth<int> m_InternalUpdateLookup; // 0x30
-        public URA.woDigitYearMax<ypointLabel.rAtlasTextures> m_InternalUpdateQueue; // 0x38
-        public URA.onsDepth<int> m_CullingUpdateLookup; // 0x40
-        public URA.woDigitYearMax<ypointLabel.rAtlasTextures> m_CullingUpdateQueue; // 0x48
-        public object k_RegisterTextObjectForUpdateMarker; // 0x8
-        public object k_RegisterTextElementForGraphicRebuildMarker; // 0x10
-        public object k_RegisterTextElementForCullingUpdateMarker; // 0x18
-        public object k_UnregisterTextObjectForUpdateMarker; // 0x20
-        public object k_UnregisterTextElementForGraphicRebuildMarker; // 0x28
+        public object instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54BC9560
@@ -2225,11 +1672,7 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_UpdateRegistry : Object
     {
-        public ypointLabel.etProperties instance;
-        public URA.woDigitYearMax<ePathName117.PathName28> m_LayoutRebuildQueue; // 0x10
-        public URA.onsDepth<int> m_LayoutQueueLookup; // 0x18
-        public URA.woDigitYearMax<ePathName117.PathName28> m_GraphicRebuildQueue; // 0x20
-        public URA.onsDepth<int> m_GraphicQueueLookup; // 0x28
+        public object instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54BCAD50
@@ -2253,19 +1696,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TMPro_EventManager : Object
     {
-        public ypointLabel.ypointLabel<object,ypointLabel.Count> COMPUTE_DT_EVENT;
-        public ypointLabel.ypointLabel<bool,atrix_Injected> MATERIAL_PROPERTY_EVENT; // 0x8
-        public ypointLabel.ypointLabel<bool,?> FONT_PROPERTY_EVENT; // 0x10
-        public ypointLabel.ypointLabel<bool,?> SPRITE_ASSET_PROPERTY_EVENT; // 0x18
-        public ypointLabel.ypointLabel<bool,?> TEXTMESHPRO_PROPERTY_EVENT; // 0x20
-        public ypointLabel.eypointLabelFieldNumber<BuffersImpl,atrix_Injected,atrix_Injected> DRAG_AND_DROP_MATERIAL_EVENT; // 0x28
-        public ypointLabel.Label<bool> TEXT_STYLE_PROPERTY_EVENT; // 0x30
-        public ypointLabel.Label<?> COLOR_GRADIENT_PROPERTY_EVENT; // 0x38
-        public ypointLabel.l TMP_SETTINGS_PROPERTY_EVENT; // 0x40
-        public ypointLabel.l RESOURCE_LOAD_EVENT; // 0x48
-        public ypointLabel.ypointLabel<bool,?> TEXTMESHPRO_UGUI_PROPERTY_EVENT; // 0x50
-        public ypointLabel.Label<?> TEXT_CHANGED_EVENT; // 0x58
-
         // ── Methods ──
         public void ON_MATERIAL_PROPERTY_CHANGED(){} // RVA: 0x7FFD54B573F0
         public void ON_FONT_PROPERTY_CHANGED(){} // RVA: 0x7FFD54B57490
@@ -2299,19 +1729,21 @@ namespace ThirdParty.Other.TMPro
 
     public class TextContainer : UIBehaviour
     {
-        public bool hasChanged; // 0x20
-        public tionX pivot; // 0x24
-        public ypointLabel.faultValue anchorPosition; // 0x2C
-        public dRecorder rect; // 0x30
-        public bool size; // 0x40
-        public bool width; // 0x41
-        public bool height; // 0x42
-        public amut[] isDefaultWidth; // 0x48
-        public amut[] isDefaultHeight; // 0x50
-        public get_boundingBoxMode isAutoFitting; // 0x58
-        public 16 corners; // 0x68
-        public tionX worldCorners;
-        public ypointLabel.faultValue margins; // 0x70
+        public object hasChanged;
+        public object pivot;
+        public object anchorPosition;
+        public object rect;
+        public object size;
+        public object width;
+        public object height;
+        public object isDefaultWidth;
+        public object isDefaultHeight;
+        public object isAutoFitting;
+        public object corners;
+        public object worldCorners;
+        public object margins;
+        public object rectTransform;
+        public object textMeshPro;
 
         // ── Methods ──
         public void get_hasChanged(){} // RVA: 0x7FFD4E42F9D0
@@ -2353,43 +1785,15 @@ namespace ThirdParty.Other.TMPro
 
     public class TextMeshPro : TMP_Text
     {
-        public int sortingLayerID; // 0x6D0
-        public int sortingOrder; // 0x6D4
-        public int autoSizeTextContainer; // 0x6D8
-        public ileFullDirectoryInformation<ypointLabel.StartTime> textContainer; // 0x6E0
-        public bool transform; // 0x6E8
-        public bool renderer; // 0x6E9
-        public float mesh; // 0x6EC
-        public rical meshFilter; // 0x6F0
-        public n maskType; // 0x6F8
-        public bool m_isFirstAllocation; // 0x700
-        public int m_max_characters; // 0x704
-        public int m_max_numberOfLines; // 0x708
-        public ypointLabel.set_fontFeatureTable[] m_subTextObjects; // 0x710
-        public ypointLabel.ToNewAtlasTexture m_maskType; // 0x718
-        public tSizeBias m_EnvMapMatrix; // 0x71C
-        public amut[] m_RectTransformCorners; // 0x760
-        public bool m_isRegisteredForEvents; // 0x768
-        public object k_GenerateTextMarker;
-        public object k_SetArraySizesMarker; // 0x8
-        public object k_GenerateTextPhaseIMarker; // 0x10
-        public object k_ParseMarkupTextMarker; // 0x18
-        public object k_CharacterLookupMarker; // 0x20
-        public object k_HandleGPOSFeaturesMarker; // 0x28
-        public object k_CalculateVerticesPositionMarker; // 0x30
-        public object k_ComputeTextMetricsMarker; // 0x38
-        public object k_HandleVisibleCharacterMarker; // 0x40
-        public object k_HandleWhiteSpacesMarker; // 0x48
-        public object k_HandleHorizontalLineBreakingMarker; // 0x50
-        public object k_HandleVerticalLineBreakingMarker; // 0x58
-        public object k_SaveGlyphVertexDataMarker; // 0x60
-        public object k_ComputeCharacterAdvanceMarker; // 0x68
-        public object k_HandleCarriageReturnMarker; // 0x70
-        public object k_HandleLineTerminationMarker; // 0x78
-        public object k_SavePageInfoMarker; // 0x80
-        public object k_SaveProcessingStatesMarker; // 0x88
-        public object k_GenerateTextPhaseIIMarker; // 0x90
-        public object k_GenerateTextPhaseIIIMarker; // 0x98
+        public object sortingLayerID;
+        public object sortingOrder;
+        public object autoSizeTextContainer;
+        public object textContainer;
+        public object transform;
+        public object renderer;
+        public object mesh;
+        public object meshFilter;
+        public object maskType;
 
         // ── Methods ──
         public void get_sortingLayerID(){} // RVA: 0x7FFD54B3DBB0
@@ -2468,46 +1872,11 @@ namespace ThirdParty.Other.TMPro
 
     public class TextMeshProUGUI : TMP_Text
     {
-        public bool materialForRendering; // 0x6D0
-        public ts autoSizeTextContainer; // 0x6D8
-        public ts mesh; // 0x6E0
-        public dRecorder canvasRenderer; // 0x6E8
-        public bool maskOffset; // 0x6F8
-        public ileFullDirectoryInformation<ypointLabel.StartTime> OnPreRenderText; // 0x700
-        public bool m_hasFontAssetChanged; // 0x708
-        public ypointLabel.dCharactersAndFaceMetrics[] m_subTextObjects; // 0x710
-        public float m_previousLossyScaleY; // 0x718
-        public amut[] m_RectTransformCorners; // 0x720
-        public kingField m_canvasRenderer; // 0x728
-        public pad m_canvas; // 0x730
-        public float m_CanvasScaleFactor; // 0x738
-        public bool m_isFirstAllocation; // 0x73C
-        public int m_max_characters; // 0x740
-        public atrix_Injected m_baseMaterial; // 0x748
-        public bool m_isScrollRegionSet; // 0x750
-        public get_boundingBoxMode m_maskOffset; // 0x754
-        public tSizeBias m_EnvMapMatrix; // 0x764
-        public bool m_isRegisteredForEvents; // 0x7A4
-        public object k_GenerateTextMarker;
-        public object k_SetArraySizesMarker; // 0x8
-        public object k_GenerateTextPhaseIMarker; // 0x10
-        public object k_ParseMarkupTextMarker; // 0x18
-        public object k_CharacterLookupMarker; // 0x20
-        public object k_HandleGPOSFeaturesMarker; // 0x28
-        public object k_CalculateVerticesPositionMarker; // 0x30
-        public object k_ComputeTextMetricsMarker; // 0x38
-        public object k_HandleVisibleCharacterMarker; // 0x40
-        public object k_HandleWhiteSpacesMarker; // 0x48
-        public object k_HandleHorizontalLineBreakingMarker; // 0x50
-        public object k_HandleVerticalLineBreakingMarker; // 0x58
-        public object k_SaveGlyphVertexDataMarker; // 0x60
-        public object k_ComputeCharacterAdvanceMarker; // 0x68
-        public object k_HandleCarriageReturnMarker; // 0x70
-        public object k_HandleLineTerminationMarker; // 0x78
-        public object k_SavePageInfoMarker; // 0x80
-        public object k_SaveProcessingStatesMarker; // 0x88
-        public object k_GenerateTextPhaseIIMarker; // 0x90
-        public object k_GenerateTextPhaseIIIMarker; // 0x98
+        public object materialForRendering;
+        public object autoSizeTextContainer;
+        public object mesh;
+        public object canvasRenderer;
+        public object maskOffset;
 
         // ── Methods ──
         public void get_materialForRendering(){} // RVA: 0x7FFD54B4A2A0
@@ -2586,9 +1955,6 @@ namespace ThirdParty.Other.TMPro
 
     public class TweenRunner`1 : Object
     {
-        public glesLength m_CoroutineContainer;
-        public mePatterns.e m_Tween;
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E2ADC40
         public void Init(){} // RVA: 0x7FFD4E090A40
@@ -2599,10 +1965,16 @@ namespace ThirdParty.Other.TMPro
 
     public class VertexGradient : ValueType
     {
-        public object topLeft; // 0x10
-        public object topRight; // 0x20
-        public object bottomLeft; // 0x30
-        public object bottomRight; // 0x40
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ _titleText; // 0x60
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ _topText; // 0x68
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ _middleText; // 0x70
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ _bottomText; // 0x78
+        public ePathName117.? _confirmButton; // 0x80
+        public ePathName117.? _cancelButton; // 0x88
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ _confirmText; // 0x90
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ _cancelText; // 0x98
+        public ÎÌÍÏÏÌÍÏ ÍÏÎÏÌÌÎÏÍÍÍÌÌÎÍÏÍÍÌÍÎÌÌ; // 0xA0
+        public ÎÌÍÏÏÌÍÏ ÏÍÏÍÏÎÍÎÌÎÌÌÎÍÏÍÍÏÍÏÍÎÌ; // 0xA8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABEF30 | overloaded x2
@@ -2610,71 +1982,6 @@ namespace ThirdParty.Other.TMPro
 
     public class WordWrapState : ValueType
     {
-        public int previous_WordBreak; // 0x10
-        public int total_CharacterCount; // 0x14
-        public int visible_CharacterCount; // 0x18
-        public int visible_SpriteCount; // 0x1C
-        public int visible_LinkCount; // 0x20
-        public int firstCharacterIndex; // 0x24
-        public int firstVisibleCharacterIndex; // 0x28
-        public int lastCharacterIndex; // 0x2C
-        public int lastVisibleCharIndex; // 0x30
-        public int lineNumber; // 0x34
-        public float maxCapHeight; // 0x38
-        public float maxAscender; // 0x3C
-        public float maxDescender; // 0x40
-        public float startOfLineAscender; // 0x44
-        public float maxLineAscender; // 0x48
-        public float maxLineDescender; // 0x4C
-        public float pageAscender; // 0x50
-        public ypointLabel.CharacterInternal horizontalAlignment; // 0x54
-        public float marginLeft; // 0x58
-        public float marginRight; // 0x5C
-        public float xAdvance; // 0x60
-        public float preferredWidth; // 0x64
-        public float preferredHeight; // 0x68
-        public float previousLineScale; // 0x6C
-        public int wordCount; // 0x70
-        public ypointLabel.rray fontStyle; // 0x74
-        public int italicAngle; // 0x78
-        public float fontScaleMultiplier; // 0x7C
-        public float currentFontSize; // 0x80
-        public float baselineOffset; // 0x84
-        public float lineOffset; // 0x88
-        public bool isDrivenLineSpacing; // 0x8C
-        public float glyphHorizontalAdvanceAdjustment; // 0x90
-        public float cSpace; // 0x94
-        public float mSpace; // 0x98
-        public ypointLabel.StartTime textInfo; // 0xA0
-        public ypointLabel._anchorPosition lineInfo; // 0xA8
-        public object vertexColor; // 0x104
-        public object underlineColor; // 0x108
-        public object strikethroughColor; // 0x10C
-        public object highlightColor; // 0x110
-        public ypointLabel.formAdjustment basicStyleStack; // 0x114
-        public ypointLabel.t<int> italicAngleStack; // 0x120
-        public ypointLabel.t<?> colorStack; // 0x140
-        public ypointLabel.t<?> underlineColorStack; // 0x160
-        public ypointLabel.t<?> strikethroughColorStack; // 0x180
-        public ypointLabel.t<?> highlightColorStack; // 0x1A0
-        public ypointLabel.t<ypointLabel.teMonoColorTexture> highlightStateStack; // 0x1C0
-        public ypointLabel.t<ypointLabel.ld> colorGradientStack; // 0x1F0
-        public ypointLabel.t<float> sizeStack; // 0x218
-        public ypointLabel.t<float> indentStack; // 0x238
-        public ypointLabel.t<ypointLabel.tAssetData> fontWeightStack; // 0x258
-        public ypointLabel.t<int> styleStack; // 0x278
-        public ypointLabel.t<float> baselineStack; // 0x298
-        public ypointLabel.t<int> actionStack; // 0x2B8
-        public ypointLabel.t<ypointLabel.RectId> materialReferenceStack; // 0x2D8
-        public ypointLabel.t<ypointLabel.CharacterInternal> lineJustificationStack; // 0x330
-        public int spriteAnimationID; // 0x350
-        public ypointLabel.urces currentFontAsset; // 0x358
-        public ypointLabel.? currentSpriteAsset; // 0x360
-        public atrix_Injected currentMaterial; // 0x368
-        public int currentMaterialIndex; // 0x370
-        public ypointLabel.r meshExtents; // 0x374
-        public bool tagNoParsing; // 0x384
-        public bool isNonBreakingSpace; // 0x385
     }
 
 }

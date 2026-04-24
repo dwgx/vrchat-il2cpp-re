@@ -7,15 +7,7 @@ namespace ThirdParty.Cinemachine.Cinemachine.PostFX
 {
     public class CinemachinePostProcessing : CinemachineExtension
     {
-        public float IsValid;
-        public bool m_FocusTracksTarget; // 0x30
-        public PipelineDelegate m_FocusTracking; // 0x34
-        public object m_FocusTarget; // 0x38
-        public float m_FocusOffset; // 0x40
-        public dUInt64.hakeRotation m_Profile; // 0x48
-        public string sVolumeOwnerName; // 0x8
-        public URA.woDigitYearMax<dUInt64.LookAt>b__0> sVolumes; // 0x10
-        public URA.DateTime<EXTERNAL_INDEX_REF_SIG.tance,dUInt64.othRewindAll> mBrainToLayer; // 0x18
+        public object IsValid;
 
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x7FFD4FC94D40

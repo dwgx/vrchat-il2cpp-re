@@ -7,8 +7,7 @@ namespace ThirdParty.Other.Internal.Runtime.Augments
 {
     public class RuntimeThread : Object
     {
-        public int IsBackground;
-        public sageKind.nVideos thread; // 0x10
+        public object IsBackground;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30

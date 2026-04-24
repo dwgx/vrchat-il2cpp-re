@@ -84,8 +84,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelChangedEventBase`1 : EventBase`1
     {
-        public ÎÏÌÎÎÎÌÌÌ.Stopped originPanel;
-        public ÎÏÌÎÎÎÌÌÌ.Stopped destinationPanel;
+        public object originPanel;
+        public object destinationPanel;
 
         // ── Methods ──
         public void get_originPanel(){} // RVA: 0x7FFD4E078E90
@@ -104,12 +104,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelEventHandler : UIBehaviour
     {
-        public ÎÏÌÎÎÎÌÌÌ.ent panel; // 0x20
-        public >>.get_IsReadOnly selectableGameObject; // 0x28
-        public float eventSystem; // 0x30
-        public bool isCurrentFocusedPanel; // 0x34
-        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE currentFocusedElement; // 0x38
-        public illingServiceDisconnected s_Modifiers;
+        public object panel;
+        public object selectableGameObject;
+        public object eventSystem;
+        public object isCurrentFocusedPanel;
+        public object currentFocusedElement;
 
         // ── Methods ──
         public void get_panel(){} // RVA: 0x7FFD4E36F0C0
@@ -152,7 +151,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelRaycaster : BaseRaycaster
     {
-        public ÎÏÌÎÎÎÌÌÌ.ent panel; // 0x28
+        public object panel;
+        public object selectableGameObject;
+        public object sortOrderPriority;
+        public object renderOrderPriority;
+        public object eventCamera;
 
         // ── Methods ──
         public void get_panel(){} // RVA: 0x7FFD4E36F130
@@ -170,37 +173,26 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelSettings : ScriptableObject
     {
-        public int themeStyleSheet;
-        public float targetTexture;
-        public string scaleMode;
-        public ÎÏÌÎÎÎÌÌÌ._left referenceSpritePixelsPerUnit; // 0x18
-        public Offset scale; // 0x20
-        public ÎÏÌÎÎÎÌÌÌ.TabEvent referenceDpi; // 0x28
-        public float fallbackDpi; // 0x2C
-        public float referenceResolution; // 0x30
-        public float screenMatchMode;
-        public float match; // 0x34
-        public float sortingOrder; // 0x38
-        public onY targetDisplay; // 0x3C
-        public ÎÏÌÎÎÎÌÌÌ.endingTouchEvents clearDepthStencil; // 0x44
-        public float depthClearValue; // 0x48
-        public float clearColor; // 0x4C
-        public int colorClearValue; // 0x50
-        public bool panel; // 0x54
-        public bool visualTree; // 0x55
-        public object dynamicAtlasSettings; // 0x58
-        public object ScreenDPI; // 0x68
-        public ÎÏÌÎÎÎÌÌÌ.ler m_AttachedUIDocumentsList; // 0x70
-        public ÎÏÌÎÎÎÌÌÌ.tSequence m_DynamicAtlasSettings; // 0x78
-        public ojectionMatrix_Injected m_AtlasBlitShader; // 0x80
-        public ojectionMatrix_Injected m_RuntimeShader; // 0x88
-        public ojectionMatrix_Injected m_RuntimeWorldShader; // 0x90
-        public ÎÏÌÎÎÎÌÌÌ.ight textSettings; // 0x98
-        public dRecorder m_TargetRect; // 0xA0
-        public float m_ResolvedScale; // 0xB0
-        public ÎÏÌÎÎÎÌÌÌ.inter m_OldThemeUss; // 0xB8
-        public float <ScreenDPI>k__BackingField; // 0xC0
-        public n<tionX,tionX> m_AssignedScreenToPanel; // 0xC8
+        public object themeStyleSheet;
+        public object targetTexture;
+        public object scaleMode;
+        public object referenceSpritePixelsPerUnit;
+        public object scale;
+        public object referenceDpi;
+        public object fallbackDpi;
+        public object referenceResolution;
+        public object screenMatchMode;
+        public object match;
+        public object sortingOrder;
+        public object targetDisplay;
+        public object clearDepthStencil;
+        public object depthClearValue;
+        public object clearColor;
+        public object colorClearValue;
+        public object panel;
+        public object visualTree;
+        public object dynamicAtlasSettings;
+        public object ScreenDPI;
 
         // ── Methods ──
         public void get_themeStyleSheet(){} // RVA: 0x7FFD50CC1130
@@ -259,10 +251,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelTextSettings : TextSettings
     {
-        public ÎÏÌÎÎÎÌÌÌ.ight defaultPanelTextSettings;
-        public n<string,?> EditorGUIUtilityLoad; // 0x8
-        public ormation<?> GetCurrentLanguage; // 0x10
-        public string s_DefaultEditorPanelTextSettingPath; // 0x18
+        public object defaultPanelTextSettings;
 
         // ── Methods ──
         public void get_defaultPanelTextSettings(){} // RVA: 0x7FFD5502F4A0
@@ -274,8 +263,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerCaptureEventBase`1 : EventBase`1
     {
-        public ÎÏÌÎÎÎÌÌÌ.lumnsWidth relatedTarget; // 0x88
-        public int pointerId; // 0x90
+        public object relatedTarget;
+        public object pointerId;
 
         // ── Methods ──
         public void set_relatedTarget(){} // RVA: 0x7FFD4E090A40
@@ -289,31 +278,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
-        public bool pointerId;
-        public bool pointerType;
-        public float isPrimary;
-        public float button;
-        public bool pressedButtons;
-        public tionX position;
-        public int localPosition;
-        public string deltaPosition;
-        public bool deltaTime;
-        public int clickCount;
-        public int pressure;
-        public amut tangentialPressure;
-        public amut altitudeAngle;
-        public amut azimuthAngle;
-        public float twist;
-        public int tilt;
-        public float penStatus;
-        public float radius;
-        public float radiusVariance;
-        public aycast.PopulateRaycastCommand modifiers;
-        public tionX shiftKey;
-        public tionX ctrlKey;
-        public illingServiceDisconnected commandKey;
-        public bool altKey;
-        public bool actionKey;
+        public object pointerId;
+        public object pointerType;
+        public object isPrimary;
+        public object button;
+        public object pressedButtons;
+        public object position;
+        public object localPosition;
+        public object deltaPosition;
+        public object deltaTime;
+        public object clickCount;
+        public object pressure;
+        public object tangentialPressure;
+        public object altitudeAngle;
+        public object azimuthAngle;
+        public object twist;
+        public object tilt;
+        public object penStatus;
+        public object radius;
+        public object radiusVariance;
+        public object modifiers;
+        public object shiftKey;
+        public object ctrlKey;
+        public object commandKey;
+        public object altKey;
+        public object actionKey;
+        public object UnityEngine.UIElements.IPointerEventInternal.triggeredByOS;
+        public object UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer;
+        public object currentTarget;
 
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0x7FFD4E079960
@@ -389,8 +381,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerManipulator : MouseManipulator
     {
-        public int m_CurrentPointerId; // 0x30
-
         // ── Methods ──
         public void CanStartManipulation(){} // RVA: 0x7FFD54FCDA90
         public void CanStopManipulation(){} // RVA: 0x7FFD54FCDCC0
@@ -399,10 +389,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PopupField`1 : BasePopupField`2
     {
-        public int value;
-        public string index;
-        public string labelUssClassName;
-        public string inputUssClassName;
+        public object value;
+        public object index;
 
         // ── Methods ──
         public void GetValueToDisplay(){} // RVA: 0x7FFD4E078E90

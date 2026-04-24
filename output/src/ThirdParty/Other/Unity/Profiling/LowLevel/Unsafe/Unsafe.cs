@@ -7,13 +7,8 @@ namespace ThirdParty.Other.Unity.Profiling.LowLevel.Unsafe
 {
     public class ProfilerRecorderDescription : ValueType
     {
-        public object Category; // 0x10
-        public ÍÏ.ÎÍÎÎÎÍÍÏ Name; // 0x12
-        public ÍÏ.? dataType; // 0x14
-        public ÏÌ unitType; // 0x15
-        public int reserved0; // 0x18
-        public int nameUtf8Len; // 0x1C
-        public IntPtr nameUtf8; // 0x20
+        public object Category;
+        public object Name;
 
         // ── Methods ──
         public void get_Category(){} // RVA: 0x7FFD4FEE85D0
@@ -22,7 +17,7 @@ namespace ThirdParty.Other.Unity.Profiling.LowLevel.Unsafe
 
     public class ProfilerRecorderHandle : ValueType
     {
-        public ulong Valid; // 0x10
+        public object Valid;
 
         // ── Methods ──
         public void get_Valid(){} // RVA: 0x7FFD54C6FAE0

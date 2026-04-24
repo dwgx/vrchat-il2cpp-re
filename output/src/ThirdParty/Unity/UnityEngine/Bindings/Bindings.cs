@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 {
     public class NativeHeaderAttribute : Attribute
     {
-        public string Header; // 0x10
+        public object Header;
 
         // ── Methods ──
         public void set_Header(){} // RVA: 0x7FFD4E342E30

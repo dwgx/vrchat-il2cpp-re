@@ -952,6 +952,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÎÏÌÎÎÏÏÎÏÍÍÏÍÏÏÌÏÌÌÍÍÎ</summary>
     public class Static8m_4F86 : Object
     {
+        public long ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E900EE0
         public void Equals(){} // RVA: 0x7FFD4E900FD0
@@ -994,6 +996,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÎÌÏÎÍÌÎÍÌÏÎÎÍÏÍÎÍÌÍÎÍÍ</summary>
     public class Static8m_9B6A : Object
     {
+        public verlapped.ontactCaptureLayers_Injected[] ÌÌÎÌÎÌÌÎÌÍÎÏÌÏÏÏÍÍÌÍÍÍÍ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E9284D0
         public void Equals(){} // RVA: 0x7FFD4E9288C0

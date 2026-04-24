@@ -34,53 +34,24 @@ namespace ThirdParty.DotNet.System
 
     public class DateTime : ValueType
     {
-        public long InternalTicks;
-        public long InternalKind;
-        public long Date;
-        public long Day;
-        public long DayOfWeek;
-        public int DayOfYear;
-        public int Hour;
-        public int Kind;
-        public int Millisecond;
-        public int Minute;
-        public int Month;
-        public int Now;
-        public int Second;
-        public int Ticks;
-        public int TimeOfDay;
-        public int Today;
-        public int Year;
-        public long UtcNow;
-        public long MaxTicks;
-        public long MaxMillis;
-        public long UnixEpochTicks;
-        public long FileTimeOffset;
-        public long DoubleDateOffset;
-        public long OADateMinAsTicks;
-        public double OADateMinAsDouble;
-        public double OADateMaxAsDouble;
-        public int DatePartYear;
-        public int DatePartDayOfYear;
-        public int DatePartMonth;
-        public int DatePartDay;
-        public int[] s_daysToMonth365;
-        public int[] s_daysToMonth366; // 0x8
-        public DependencyInjector MinValue; // 0x10
-        public DependencyInjector MaxValue; // 0x18
-        public DependencyInjector UnixEpoch; // 0x20
-        public ulong TicksMask;
-        public ulong FlagsMask;
-        public ulong LocalMask;
-        public long TicksCeiling;
-        public ulong KindUnspecified;
-        public ulong KindUtc;
-        public ulong KindLocal;
-        public ulong KindLocalAmbiguousDst;
-        public int KindShift;
-        public string TicksField;
-        public string DateDataField;
-        public ulong _dateData; // 0x10
+        public object InternalTicks;
+        public object InternalKind;
+        public object Date;
+        public object Day;
+        public object DayOfWeek;
+        public object DayOfYear;
+        public object Hour;
+        public object Kind;
+        public object Millisecond;
+        public object Minute;
+        public object Month;
+        public object Now;
+        public object Second;
+        public object Ticks;
+        public object TimeOfDay;
+        public object Today;
+        public object Year;
+        public object UtcNow;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A26AB0 | overloaded x14
@@ -181,13 +152,6 @@ namespace ThirdParty.DotNet.System
 
     public class DateTimeFormat : Object
     {
-        public ializable.GetObjectData NullOffset;
-        public char[] allStandardFormats; // 0x8
-        public 0.tOfUserTypes InvariantFormatInfo; // 0x10
-        public string[] InvariantAbbreviatedMonthNames; // 0x18
-        public string[] InvariantAbbreviatedDayNames; // 0x20
-        public string[] fixedNumberFormats; // 0x28
-
         // ── Methods ──
         public void FormatDigits(){} // RVA: 0x7FFD53A34FC0 | overloaded x2
         public void HebrewFormatDigits(){} // RVA: 0x7FFD53A350C0
@@ -219,17 +183,26 @@ namespace ThirdParty.DotNet.System
 
     public class DateTimeOffset : ValueType
     {
-        public long Now;
-        public long UtcNow;
-        public long DateTime;
-        public long UtcDateTime;
-        public long LocalDateTime;
-        public long ClockDateTime;
-        public ntent Date;
-        public ntent Day; // 0x10
-        public ntent DayOfWeek; // 0x20
-        public DependencyInjector DayOfYear; // 0x10
-        public short Hour; // 0x18
+        public object Now;
+        public object UtcNow;
+        public object DateTime;
+        public object UtcDateTime;
+        public object LocalDateTime;
+        public object ClockDateTime;
+        public object Date;
+        public object Day;
+        public object DayOfWeek;
+        public object DayOfYear;
+        public object Hour;
+        public object Millisecond;
+        public object Minute;
+        public object Month;
+        public object Offset;
+        public object Second;
+        public object Ticks;
+        public object UtcTicks;
+        public object TimeOfDay;
+        public object Year;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A30020 | overloaded x7
@@ -303,19 +276,12 @@ namespace ThirdParty.DotNet.System
 
     public class Decimal : ValueType
     {
-        public int High;
-        public int Low;
-        public int Mid;
-        public ltiple IsNegative;
-        public ltiple Scale; // 0x10
-        public ltiple Low64; // 0x20
-        public ltiple MaxValue; // 0x30
-        public ltiple MinValue; // 0x40
-        public int flags; // 0x10
-        public int hi; // 0x14
-        public int lo; // 0x18
-        public int mid; // 0x1C
-        public ulong ulomidLE; // 0x18
+        public object High;
+        public object Low;
+        public object Mid;
+        public object IsNegative;
+        public object Scale;
+        public object Low64;
 
         // ── Methods ──
         public void get_High(){} // RVA: 0x7FFD4F8402A0
@@ -401,8 +367,6 @@ namespace ThirdParty.DotNet.System
 
     public class DefaultBinder : Binder
     {
-        public mberToken[] _primitiveConversions;
-
         // ── Methods ──
         public void BindToMethod(){} // RVA: 0x7FFD53A8E6E0
         public void BindToField(){} // RVA: 0x7FFD53A90CB0

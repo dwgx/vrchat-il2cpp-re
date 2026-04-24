@@ -16,10 +16,6 @@ namespace ThirdParty.Other.Unity.Services.Core.Device
 
     public class InstallationId : Object
     {
-        public string Identifier; // 0x10
-        public nWrapper.? UnityAdsIdentifierProvider; // 0x18
-        public nWrapper.? UnityAnalyticsIdentifierProvider; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B11020
         public void CreateIdentifier(){} // RVA: 0x7FFD54B11140

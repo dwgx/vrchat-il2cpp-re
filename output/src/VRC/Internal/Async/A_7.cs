@@ -99,6 +99,18 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÏÍÏÎÏÍÌÎÏÏÎÌÍÍÍÎÎÏÏÏÏÎ</summary>
     public class AsyncStateMachine_3077 : ValueType
     {
+        public BuffersImpl ÍÍÌÏÌÌÍÌÌÏÏÏÏÌÍÌÎÍÏÌÏÏÌ; // 0x10
+        public bool ÏÏÍÎÎÍÌÌÍÎÍÌÏÌÌÌÏÏÎÍÌÎÏ; // 0x18
+        public ÎÌÍÏÏÌÍÏ ÎÍÌÍÏÎÏÍÍÏÎÎÎÍÍÎÍÏÎÍÍÍÎ; // 0x20
+        public ?<?> <ÍÏÎÏÎÎÎÏÌÏÏÎÍÍÏÏÌÎÏÌÎÎÌ>k__BackingField; // 0x28
+        public ?<bool> <ÍÌÍÌÍÏÌÏÏÌÎÏÌÌÌÍÌÍÏÌÌÎÍ>k__BackingField; // 0x30
+        public ?<?> <ÍÎÌÍÎÍÏÌÏÍÎÎÍÏÍÎÌÍÍÎÎÍÍ>k__BackingField; // 0x38
+        public ?<ÍÎÎÏÏÌÍÏÍÎÌÍÏÏÍÌÍÌÏÍÍ>k__BackingField> <ÍÍÎÎÏÏÌÌÍÍÍÍÌÌÏÍÎÍÎÎÍÎÍ>k__BackingField; // 0x40
+        public ?<bool> <ÏÎÏÎÎÌÍÌÎÍÌÎÏÎÍÎÏÍÍÏÍÏÎ>k__BackingField; // 0x48
+        public bool ÌÌÎÌÌÍÏÏÏÏÍÍÎÍÎÏÍÌÏÏÍÎÏ;
+        public ?<bool> <ÎÍÏÌÎÌÍÌÍÍÌÏÎÏÌÍÌÎÎÎÎÍÏ>k__BackingField; // 0x50
+        public ?<bool> <ÌÌÌÎÏÌÍÏÍÌÍÎÍÎÏÍÎÍÍÌÏÎÍ>k__BackingField; // 0x58
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4EA6F100

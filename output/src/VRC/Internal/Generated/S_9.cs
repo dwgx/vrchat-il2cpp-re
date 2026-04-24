@@ -594,6 +594,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÌÏÌÎÍÌÍÌÍÌÏÍÌÌÌÏÎÏÌÏÌ</summary>
     public class Static13m_B5DE : Object
     {
+        public object ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x10
+        public ÏÏÍÍÌÌÎÍ ÎÌÎÎÌÌÎÏÎÏÌÏÎÌÍÌÏÏÌÍÌÌÎ; // 0x18
+        public ileFullDirectoryInformation<URA.woDigitYearMax<s_1080>> ÎÏÍÌÏÍÏÍÌÍÌÎÎÎÏÍÏÏÏÏÏÏÌ; // 0x20
+        public ÍÎÏÍÌÏÍÏÌÌÍÍÏÍÌÏ ÏÌÍÎÏÌÎÏÏÌÏÌÎÏÎÍÏÎÌÍÎÌÏ; // 0x28
+        public ileFullDirectoryInformation<string> ÍÌÌÍÍÎÏÎÎÎÏÌÍÎÌÌÏÌÎÌÏÌÏ; // 0x30
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EAEE660
         public void Equals(){} // RVA: 0x7FFD4EAEE680
@@ -891,6 +897,18 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÌÌÍÎÍÏÎÎÌÍÎÌÍÏÍÍÎÌÌÎÍÎ</summary>
     public class Static8m_17FD : Object
     {
+        public ÌÌÌÏÎÌÌÏÎÍÌÌÍÏÌÍÎÎÌÏÍ <ÍÎÏÎÏÌÏÏÌÏÏÍÌÏÏÏÍÎÍÌÍÌÎ>k__BackingField; // 0x10
+        public object <ÎÎÍÏÎÍÎÏÍÌÍÏÌÎÌÎÌÎÎÌÌÌÎ>k__BackingField; // 0x18
+        public ?<mePatterns.eseCalendarDTFI> <ÏÎÏÏÌÏÎÌÏÍÌÎÎÌÏÌÌÍÎÎÍÎÍ>k__BackingField; // 0x20
+        public ?<mePatterns.eseCalendarDTFI> <ÌÌÎÏÎÏÍÏÍÎÎÎÎÎÏÎÎÌÏÎÍÏÌ>k__BackingField; // 0x28
+        public ?<mePatterns.eseCalendarDTFI> <ÍÍÎÍÍÏÌÌÍÌÎÌÏÎÎÌÌÎÎÍÎÍÎ>k__BackingField; // 0x30
+        public ?<mePatterns.eseCalendarDTFI> <ÏÌÍÏÍÏÌÎÎÏÌÏÌÎÍÏÏÏÍÌÌÍÌ>k__BackingField; // 0x38
+        public ?<mePatterns.eseCalendarDTFI> <ÎÏÏÌÌÍÌÍÍÌÌÏÏÏÏÍÏÌÍÍÏÎÌ>k__BackingField; // 0x40
+        public ?<mePatterns.eseCalendarDTFI> <ÏÏÌÏÍÏÍÏÏÌÏÌÍÎÏÌÍÍÎÏÏÍÏ>k__BackingField; // 0x48
+        public ?<mePatterns.eseCalendarDTFI> <ÌÍÌÍÎÏÎÍÎÌÍÎÎÍÌÌÎÌÏÌÎÍÍ>k__BackingField; // 0x50
+        public ileFullDirectoryInformation<?> <ÍÏÌÏÎÍÎÏÎÎÎÎÍÍÏÏÏÌÎÍÏÏÍ>k__BackingField; // 0x58
+        public ileFullDirectoryInformation<?> <ÍÏÌÌÏÌÌÏÍÎÌÍÍÏÎÎÌÎÏÎÌÏÏ>k__BackingField; // 0x60
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EE56330
         public void Equals(){} // RVA: 0x7FFD4EE56AA0

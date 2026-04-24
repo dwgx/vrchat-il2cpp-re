@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class ScriptableObject : Object
     {
+        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 formatter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CE32A0
         public void CreateInstance(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -22,17 +24,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ScrollViewState : Object
     {
-        public dRecorder position; // 0x10
-        public dRecorder visibleRect; // 0x20
-        public dRecorder viewRect; // 0x30
-        public tionX scrollPosition; // 0x40
-        public bool apply; // 0x48
-        public bool isDuringTouchScroll; // 0x49
-        public tionX touchScrollStartMousePosition; // 0x4C
-        public tionX touchScrollStartPosition; // 0x54
-        public tionX velocity; // 0x5C
-        public float previousTimeSinceStartup; // 0x64
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -45,16 +36,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SendMouseEvents : Object
     {
-        public bool s_MouseUsed;
-        public ioning[] m_LastHit; // 0x8
-        public ioning[] m_MouseDownHit; // 0x10
-        public ioning[] m_CurrentHit; // 0x18
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ[] m_Cameras; // 0x20
-        public ormation<URA.mes<int,tionX>> s_GetMouseState; // 0x28
-        public tionX s_MousePosition; // 0x30
-        public bool s_MouseButtonPressedThisFrame; // 0x38
-        public bool s_MouseButtonIsPressed; // 0x39
-
         // ── Methods ──
         public void UpdateMouse(){} // RVA: 0x7FFD54D60C50
         public void SetMouseMoved(){} // RVA: 0x7FFD54D60F50
@@ -128,11 +109,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SkeletonBone : ValueType
     {
-        public string name; // 0x10
-        public string parentName; // 0x18
-        public amut position; // 0x20
-        public R_12x12 rotation; // 0x2C
-        public amut scale; // 0x3C
     }
 
     public class SkinnedMeshRenderer : Renderer
@@ -223,10 +199,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SliderState : Object
     {
-        public float dragStartPos; // 0x10
-        public float dragStartValue; // 0x14
-        public bool isDragging; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -372,7 +344,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SpriteRenderer : Renderer
     {
-        public rScript.mData>b__2_1<ar> shouldSupportTiling; // 0x18
+        public object shouldSupportTiling;
+        public object sprite;
+        public object drawMode;
+        public object size;
+        public object adaptiveModeThreshold;
+        public object tileMode;
+        public object color;
+        public object maskInteraction;
+        public object flipX;
+        public object flipY;
+        public object spriteSortPoint;
 
         // ── Methods ──
         public void RegisterSpriteChangeCallback(){} // RVA: 0x7FFD54CF7460
@@ -414,8 +396,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class StackTraceUtility : Object
     {
-        public string projectFolder;
-
         // ── Methods ──
         public void SetProjectFolder(){} // RVA: 0x7FFD54CE3490
         public void ExtractStackTrace(){} // RVA: 0x7FFD54CE3650
@@ -439,14 +419,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SubsystemManager : Object
     {
-        public ÎÌÍÏÏÌÍÏ beforeReloadSubsystems;
-        public ÎÌÍÏÏÌÍÏ afterReloadSubsystems; // 0x8
-        public URA.woDigitYearMax<ernalTime> s_IntegratedSubsystems; // 0x10
-        public URA.woDigitYearMax<ount.areCompleted> s_StandaloneSubsystems; // 0x18
-        public URA.woDigitYearMax<Exceeded> s_DeprecatedSubsystems; // 0x20
-        public ÎÌÍÏÏÌÍÏ reloadSubsytemsStarted; // 0x28
-        public ÎÌÍÏÏÌÍÏ reloadSubsytemsCompleted; // 0x30
-
         // ── Methods ──
         public void ReloadSubsystemsStarted(){} // RVA: 0x7FFD54E11860
         public void ReloadSubsystemsCompleted(){} // RVA: 0x7FFD54E11950

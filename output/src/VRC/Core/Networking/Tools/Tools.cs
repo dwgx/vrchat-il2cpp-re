@@ -26,9 +26,10 @@ namespace VRC.Core.Networking.Tools
 
     public class BunchCollection : Object
     {
-        public URA.DateTime<int,byte[]> Hash; // 0x10
-        public int IsAssembled; // 0x18
-        public aphy<uint> Count; // 0x1C
+        public object Hash;
+        public object IsAssembled;
+        public object Count;
+        public object Bunches;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD551F88B0 | overloaded x2
@@ -42,15 +43,10 @@ namespace VRC.Core.Networking.Tools
 
     public class ByteManipulation : Object
     {
-        public byte[] OneByteArray; // 0xFFFFFFFF
-        public byte[] TwoByteArray; // 0xFFFFFFFF
-        public byte[] FourByteArray; // 0xFFFFFFFF
-        public byte[] EightByteArray; // 0xFFFFFFFF
-        public rseSerializedObjectsT Uint16ToBytesHelper; // 0xFFFFFFFF
-        public tmapLength Uint32ToBytesHelper; // 0xFFFFFFFF
-        public fixedSparseSerializedObjectsBuffer FloatToBytesHelper; // 0xFFFFFFFF
-        public bjectsT Uint64ToBytesHelper; // 0xFFFFFFFF
-        public float BitsToBytes;
+        public object OneByteArray;
+        public object TwoByteArray;
+        public object FourByteArray;
+        public object EightByteArray;
 
         // ── Methods ──
         public void get_OneByteArray(){} // RVA: 0x7FFD551F96D0

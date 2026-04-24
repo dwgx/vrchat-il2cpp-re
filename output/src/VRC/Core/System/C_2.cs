@@ -191,6 +191,11 @@ namespace VRC.Core.System
     /// <summary>Originally: ÏÏÌÏÎÎÍÍÌÏÏÌÎÍÎÎÏÌÏÌÏÍÌ</summary>
     public class ComplexComponentImplImpl_8DF6 : ComplexComponentImpl_3266
     {
+        public tSupportedException_ConstructorMaxOf64Parameters<float> FloatSerializer;
+        public tSupportedException_ConstructorMaxOf64Parameters<int> IntSerializer; // 0x8
+        public bool Is_In_2018_1_Or_Above; // 0x10
+        public m_ItalicAngleStack<ÏÌÍÌÍÎÍÌÏÍÍÌÌÎÍÍ> Formatter; // 0x18
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD56A73180
         public void RaiseCancellation(){} // RVA: 0x7FFD56A73A50

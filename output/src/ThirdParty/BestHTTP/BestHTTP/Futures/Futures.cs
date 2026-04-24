@@ -25,14 +25,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.Futures
 
     public class Future`1 : Object
     {
-        public y.gAlg state;
-        public T1717580048 value;
-        public ÏÏÍÍÎÎ error;
-        public ormation<T1717580048> _processFunc;
-        public URA.woDigitYearMax<y.tValidity<T1717580048>> _itemCallbacks;
-        public URA.woDigitYearMax<y.tValidity<T1717580048>> _successCallbacks;
-        public URA.woDigitYearMax<y.rUID> _errorCallbacks;
-        public URA.woDigitYearMax<y.ser<T1717580048>> _complationCallbacks;
+        public object state;
+        public object value;
+        public object error;
 
         // ── Methods ──
         public void get_state(){} // RVA: 0x7FFD4E079960

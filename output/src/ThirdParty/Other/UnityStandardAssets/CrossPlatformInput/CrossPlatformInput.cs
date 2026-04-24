@@ -7,13 +7,6 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 {
     public class AxisTouchButton : MonoBehaviour
     {
-        public string axisName; // 0x20
-        public float axisValue; // 0x28
-        public float responseSpeed; // 0x2C
-        public float returnToCentreSpeed; // 0x30
-        public tor_OverlaySettings.t_Packed m_PairedWith; // 0x38
-        public rPresentCpuMs m_Axis; // 0x40
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4E35A5F0
         public void FindPairedButton(){} // RVA: 0x7FFD4E35A8B0
@@ -25,8 +18,6 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class ButtonHandler : MonoBehaviour
     {
-        public string Name; // 0x20
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4E341310
         public void SetDownState(){} // RVA: 0x7FFD4E35AED0
@@ -40,9 +31,7 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class CrossPlatformInputManager : Object
     {
-        public tor_OverlaySettings.ckingToComponentRenderModel mousePosition;
-        public tor_OverlaySettings.ckingToComponentRenderModel s_TouchInput; // 0x8
-        public tor_OverlaySettings.ckingToComponentRenderModel s_HardwareInput; // 0x10
+        public object mousePosition;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E35B290
@@ -73,8 +62,6 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class InputAxisScrollbar : MonoBehaviour
     {
-        public string axis; // 0x20
-
         // ── Methods ──
         public void Update(){} // RVA: 0x7FFD4E341310
         public void HandleInput(){} // RVA: 0x7FFD4E35C890
@@ -83,16 +70,6 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class Joystick : MonoBehaviour
     {
-        public int MovementRange; // 0x20
-        public pedFramesTimedOut axesToUse; // 0x24
-        public string horizontalAxisName; // 0x28
-        public string verticalAxisName; // 0x30
-        public amut m_StartPos; // 0x38
-        public bool m_UseX; // 0x44
-        public bool m_UseY; // 0x45
-        public rPresentCpuMs m_HorizontalVirtualAxis; // 0x48
-        public rPresentCpuMs m_VerticalVirtualAxis; // 0x50
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4E35C960
         public void Start(){} // RVA: 0x7FFD4E35C970
@@ -117,12 +94,6 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class TiltInput : MonoBehaviour
     {
-        public ftX mapping; // 0x20
-        public MaskRectangle_t tiltAroundAxis; // 0x28
-        public float fullTiltAngle; // 0x2C
-        public float centreAngleOffset; // 0x30
-        public rPresentCpuMs m_SteerAxis; // 0x38
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4E35D7B0
         public void Update(){} // RVA: 0x7FFD4E35D900
@@ -132,25 +103,6 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class TouchPad : MonoBehaviour
     {
-        public pedFramesTimedOut axesToUse; // 0x20
-        public mponentState_t controlStyle; // 0x24
-        public string horizontalAxisName; // 0x28
-        public string verticalAxisName; // 0x30
-        public float Xsensitivity; // 0x38
-        public float Ysensitivity; // 0x3C
-        public amut m_StartPos; // 0x40
-        public tionX m_PreviousDelta; // 0x4C
-        public amut m_JoytickOutput; // 0x54
-        public bool m_UseX; // 0x60
-        public bool m_UseY; // 0x61
-        public rPresentCpuMs m_HorizontalVirtualAxis; // 0x68
-        public rPresentCpuMs m_VerticalVirtualAxis; // 0x70
-        public bool m_Dragging; // 0x78
-        public int m_Id; // 0x7C
-        public tionX m_PreviousTouchPos; // 0x80
-        public amut m_Center; // 0x88
-        public ePathName117.ÎÌÍÍÎÏÌ m_Image; // 0x98
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4E35DEB0
         public void Start(){} // RVA: 0x7FFD4E35DEC0
@@ -165,10 +117,7 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class VirtualInput : Object
     {
-        public amut virtualMousePosition; // 0x10
-        public URA.DateTime<string,rPresentCpuMs> m_VirtualAxes; // 0x20
-        public URA.DateTime<string,e> m_VirtualButtons; // 0x28
-        public URA.woDigitYearMax<string> m_AlwaysUseVirtual; // 0x30
+        public object virtualMousePosition;
 
         // ── Methods ──
         public void get_virtualMousePosition(){} // RVA: 0x7FFD4E35E8D0

@@ -128,8 +128,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÏÏÎÎÏÏÌÍÌÌÎÎÌÍÌÌÍÏÍÎÎÎÎ</summary>
     public class Enumerator_29CE : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ction> System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+        public ÌÍÏÏÍÎÍÍÌ System.Collections.IEnumerator.Current; // 0x18
+        public ileFullDirectoryInformation<string> ÍÌÌÍÍÎÏÎÎÎÏÌÍÎÌÌÏÌÎÌÏÌÏ; // 0x20
+        public ileFullDirectoryInformation<URA.woDigitYearMax<?>> ÎÏÍÌÏÍÏÍÌÍÌÎÎÎÏÍÏÏÏÏÏÏÌ; // 0x28
 
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E3447C0

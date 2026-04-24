@@ -61,40 +61,14 @@ namespace VRC.SDKBase
 
     public class Networking : Object
     {
-        public n<BuffersImpl,float> SceneEventHandler;
-        public n<BuffersImpl,string> IsNetworkSettled; // 0x8
-        public BothDirectoryInformation<ght,BuffersImpl,string,object[]> IsMaster; // 0x10
-        public BothDirectoryInformation<ellSize.artCorner,BuffersImpl,string,object[]> IsClogged; // 0x18
-        public ormation<bool> IsInstanceOwner; // 0x20
-        public ormation<bool> LocalPlayer; // 0x28
-        public ormation<bool> Master; // 0x30
-        public ormation<bool> InstanceOwner; // 0x38
-        public ormation<ellSize.artCorner> _LocalPlayer; // 0x40
-        public ormation<ellSize.artCorner> _GetMaster; // 0x48
-        public ormation<ellSize.artCorner> _GetInstanceOwner; // 0x50
-        public nalInformation<ellSize.artCorner,BuffersImpl,bool> _IsOwner; // 0x58
-        public rectoryInformation<ellSize.artCorner,BuffersImpl> _SetOwner; // 0x60
-        public n<BuffersImpl,bool> _IsObjectReady; // 0x68
-        public ?<e,string,amut,R_12x12,BuffersImpl> _Instantiate; // 0x70
-        public n<BuffersImpl,ellSize.artCorner> _GetOwner; // 0x78
-        public n<object[],byte[]> _ParameterEncoder; // 0x80
-        public n<byte[],object[]> _ParameterDecoder; // 0x88
-        public ileFullDirectoryInformation<BuffersImpl> _Destroy; // 0x90
-        public ormation<ellSize.ZE_LIMIT_PC> _SceneEventHandler; // 0x98
-        public n<string,bool> _GoToRoom; // 0xA0
-        public ormation<DependencyInjector> _GetNetworkDateTime; // 0xA8
-        public ormation<double> _GetServerTimeInSeconds; // 0xB0
-        public ormation<int> _GetServerTimeInMilliseconds; // 0xB8
-        public nalInformation<double,double,double> _CalculateServerDeltaTime; // 0xC0
-        public n<mePatterns.e,ts> _SafeStartCoroutine; // 0xC8
-        public ormation<ellSize.leCalled> _GetEventDispatcher; // 0xD0
-        public n<ellSize.artCorner,BuffersImpl[]> _GetPlayerPersistence; // 0xD8
-        public n<ellSize.artCorner,int> _GetPlayerDataStorageUsage; // 0xE0
-        public n<ellSize.artCorner,int> _GetPlayerObjectStorageUsage; // 0xE8
-        public ormation<int> _GetPlayerDataStorageLimit; // 0xF0
-        public ormation<int> _GetPlayerObjectStorageLimit; // 0xF8
-        public nalInformation<ellSize.artCorner,led,led> _FindComponentInPlayerObjects; // 0x100
-        public ÎÌÍÏÏÌÍÏ _RequestStorageUsageUpdate; // 0x108
+        public object SceneEventHandler;
+        public object IsNetworkSettled;
+        public object IsMaster;
+        public object IsClogged;
+        public object IsInstanceOwner;
+        public object LocalPlayer;
+        public object Master;
+        public object InstanceOwner;
 
         // ── Methods ──
         public void get_SceneEventHandler(){} // RVA: 0x7FFD57473220
@@ -152,8 +126,6 @@ namespace VRC.SDKBase
 
     public class Utilities : Object
     {
-        public bool _isClient;
-
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD5749FC50
         public void ShuffleArray(){} // RVA: 0x7FFD5749FDB0 | overloaded x2
@@ -188,8 +160,6 @@ namespace VRC.SDKBase
 
     public class VRCDroneApi : Object
     {
-        public roperty _GetDroneFromGameObject;
-
         // ── Methods ──
         public void TryGetDroneFromGameObject(){} // RVA: 0x7FFD57472A00
         public void GetPlayer(){} // RVA: 0x7FFD4E078E90
@@ -207,108 +177,14 @@ namespace VRC.SDKBase
 
     public class VRCPlayerApi : Object
     {
-        public n<ellSize.artCorner,bool> isMaster;
-        public n<ellSize.artCorner,bool> isInstanceOwner; // 0x8
-        public n<ellSize.artCorner,bool> isModerator; // 0x10
-        public n<ellSize.artCorner,bool> isSuper; // 0x18
-        public n<ellSize.artCorner,bool> isSuspended; // 0x20
-        public n<ellSize.artCorner,bool> isVRCPlus; // 0x28
-        public bool AllPlayers; // 0x10
-        public string playerId; // 0x18
-        public gets SetAnimatorBool; // 0x30
-        public uldRecalculateClipRects ClaimNetworkControl; // 0x38
-        public stClipRectCanvasSpace GetLookRay; // 0x40
-        public ce IsGrounded; // 0x48
-        public p _GetDroneApi; // 0x50
-        public URA.woDigitYearMax<ellSize.artCorner> sPlayers; // 0x58
-        public int mPlayerId; // 0x20
-        public n<ellSize.artCorner,int> _GetPlayerId; // 0x60
-        public n<BuffersImpl,ellSize.artCorner> _GetPlayerByGameObject; // 0x68
-        public n<int,ellSize.artCorner> _GetPlayerById; // 0x70
-        public nalInformation<ellSize.artCorner,BuffersImpl,bool> _IsOwner; // 0x78
-        public rectoryInformation<ellSize.artCorner,BuffersImpl> _TakeOwnership; // 0x80
-        public nalInformation<ellSize.artCorner,ness,<>9__192_0> _GetTrackingData; // 0x88
-        public nalInformation<ellSize.artCorner,ching,?> _GetBoneTransform; // 0x90
-        public nalInformation<ellSize.artCorner,ching,amut> _GetBonePosition; // 0x98
-        public nalInformation<ellSize.artCorner,ching,R_12x12> _GetBoneRotation; // 0xA0
-        public nalInformation<ellSize.artCorner,Alpha,ellSize.ayIntersectionAllNonAllocCallback> _GetPickupInHand; // 0xA8
-        public ÏÍÍÌÎÍÏÏÎÏÏÍÌÍÏ<ellSize.artCorner,Alpha,float,float,float> _PlayHapticEventInHand; // 0xB0
-        public formation<ellSize.artCorner,amut,R_12x12> _TeleportTo; // 0xB8
-        public BothDirectoryInformation<ellSize.artCorner,amut,R_12x12,nction> _TeleportToOrientation; // 0xC0
-        public ÏÍÍÌÎÍÏÏÎÏÏÍÌÍÏ<ellSize.artCorner,amut,R_12x12,nction,bool> _TeleportToOrientationLerp; // 0xC8
-        public ileFullDirectoryInformation<ellSize.artCorner> _Respawn; // 0xD0
-        public rectoryInformation<ellSize.artCorner,int> _RespawnWithIndex; // 0xD8
-        public rectoryInformation<ellSize.artCorner,bool> _EnablePickups; // 0xE0
-        public ormation<string[]> _GetAvailableLanguages; // 0xE8
-        public ormation<string> _GetCurrentLanguage; // 0xF0
-        public rectoryInformation<ellSize.artCorner,?> _SetNamePlateColor; // 0xF8
-        public ileFullDirectoryInformation<ellSize.artCorner> _RestoreNamePlateColor; // 0x100
-        public rectoryInformation<ellSize.artCorner,bool> _SetNamePlateVisibility; // 0x108
-        public ileFullDirectoryInformation<ellSize.artCorner> _RestoreNamePlateVisibility; // 0x110
-        public formation<ellSize.artCorner,string,string> _SetPlayerTag; // 0x118
-        public nalInformation<ellSize.artCorner,string,string> _GetPlayerTag; // 0x120
-        public nalInformation<string,string,URA.woDigitYearMax<int>> _GetPlayersWithTag; // 0x128
-        public ileFullDirectoryInformation<ellSize.artCorner> _ClearPlayerTags; // 0x130
-        public BothDirectoryInformation<ellSize.artCorner,bool,string,string> _SetInvisibleToTagged; // 0x138
-        public BothDirectoryInformation<ellSize.artCorner,bool,string,string> _SetInvisibleToUntagged; // 0x140
-        public BothDirectoryInformation<ellSize.artCorner,int,string,string> _SetSilencedToTagged; // 0x148
-        public BothDirectoryInformation<ellSize.artCorner,int,string,string> _SetSilencedToUntagged; // 0x150
-        public ileFullDirectoryInformation<ellSize.artCorner> _ClearInvisible; // 0x158
-        public ileFullDirectoryInformation<ellSize.artCorner> _ClearSilence; // 0x160
-        public rectoryInformation<ellSize.artCorner,float> _SetRunSpeed; // 0x168
-        public rectoryInformation<ellSize.artCorner,float> _SetWalkSpeed; // 0x170
-        public rectoryInformation<ellSize.artCorner,float> _SetStrafeSpeed; // 0x178
-        public rectoryInformation<ellSize.artCorner,float> _SetJumpImpulse; // 0x180
-        public rectoryInformation<ellSize.artCorner,float> _SetGravityStrength; // 0x188
-        public n<ellSize.artCorner,float> _GetRunSpeed; // 0x190
-        public n<ellSize.artCorner,float> _GetWalkSpeed; // 0x198
-        public n<ellSize.artCorner,float> _GetStrafeSpeed; // 0x1A0
-        public n<ellSize.artCorner,float> _GetJumpImpulse; // 0x1A8
-        public n<ellSize.artCorner,float> _GetGravityStrength; // 0x1B0
-        public rectoryInformation<ellSize.artCorner,float> _SetVoiceGain; // 0x1B8
-        public rectoryInformation<ellSize.artCorner,float> _SetVoiceDistanceNear; // 0x1C0
-        public rectoryInformation<ellSize.artCorner,float> _SetVoiceDistanceFar; // 0x1C8
-        public rectoryInformation<ellSize.artCorner,float> _SetVoiceVolumetricRadius; // 0x1D0
-        public rectoryInformation<ellSize.artCorner,bool> _SetVoiceLowpass; // 0x1D8
-        public n<ellSize.artCorner,float> _GetVoiceGain; // 0x1E0
-        public n<ellSize.artCorner,float> _GetVoiceDistanceNear; // 0x1E8
-        public n<ellSize.artCorner,float> _GetVoiceDistanceFar; // 0x1F0
-        public n<ellSize.artCorner,float> _GetVoiceVolumetricRadius; // 0x1F8
-        public n<ellSize.artCorner,bool> _GetVoiceLowpass; // 0x200
-        public rectoryInformation<ellSize.artCorner,float> _SetAvatarAudioGain; // 0x208
-        public rectoryInformation<ellSize.artCorner,float> _SetAvatarAudioFarRadius; // 0x210
-        public rectoryInformation<ellSize.artCorner,float> _SetAvatarAudioNearRadius; // 0x218
-        public rectoryInformation<ellSize.artCorner,float> _SetAvatarAudioVolumetricRadius; // 0x220
-        public rectoryInformation<ellSize.artCorner,bool> _SetAvatarAudioForceSpatial; // 0x228
-        public rectoryInformation<ellSize.artCorner,bool> _SetAvatarAudioCustomCurve; // 0x230
-        public ileFullDirectoryInformation<ellSize.artCorner> _CombatSetup; // 0x238
-        public rectoryInformation<ellSize.artCorner,float> _CombatSetMaxHitpoints; // 0x240
-        public rectoryInformation<ellSize.artCorner,float> _CombatSetCurrentHitpoints; // 0x248
-        public n<ellSize.artCorner,float> _CombatGetCurrentHitpoints; // 0x250
-        public BothDirectoryInformation<ellSize.artCorner,bool,float,?> _CombatSetRespawn; // 0x258
-        public rectoryInformation<ellSize.artCorner,BuffersImpl> _CombatSetDamageGraphic; // 0x260
-        public n<ellSize.artCorner,ellSize.celerationRate> _CombatGetDestructible; // 0x268
-        public n<ellSize.artCorner,bool> _IsUserInVR; // 0x270
-        public ileFullDirectoryInformation<ellSize.artCorner> _UseLegacyLocomotion; // 0x278
-        public ileFullDirectoryInformation<ellSize.artCorner> _UseAttachedStation; // 0x280
-        public rectoryInformation<ellSize.artCorner,ColliderDistance2D> _PushAnimations; // 0x288
-        public ileFullDirectoryInformation<ellSize.artCorner> _PopAnimations; // 0x290
-        public rectoryInformation<ellSize.artCorner,bool> _Immobilize; // 0x298
-        public rectoryInformation<ellSize.artCorner,amut> _SetVelocity; // 0x2A0
-        public n<ellSize.artCorner,amut> _GetVelocity; // 0x2A8
-        public n<ellSize.artCorner,amut> _GetPosition; // 0x2B0
-        public n<ellSize.artCorner,R_12x12> _GetRotation; // 0x2B8
-        public BuffersImpl gameObject; // 0x28
-        public bool _isValid; // 0x30
-        public n<ellSize.artCorner,float> _GetAvatarEyeHeightAsMeters; // 0x2C0
-        public n<ellSize.artCorner,float> _GetAvatarEyeHeightMaximumAsMeters; // 0x2C8
-        public n<ellSize.artCorner,float> _GetAvatarEyeHeightMinimumAsMeters; // 0x2D0
-        public n<ellSize.artCorner,bool> _GetManualAvatarScalingAllowed; // 0x2D8
-        public rectoryInformation<ellSize.artCorner,float> _SetAvatarEyeHeightByMeters; // 0x2E0
-        public rectoryInformation<ellSize.artCorner,float> _SetAvatarEyeHeightByMultiplier; // 0x2E8
-        public rectoryInformation<ellSize.artCorner,float> _SetAvatarEyeHeightMaximumByMeters; // 0x2F0
-        public rectoryInformation<ellSize.artCorner,float> _SetAvatarEyeHeightMinimumByMeters; // 0x2F8
-        public rectoryInformation<ellSize.artCorner,bool> _SetManualAvatarScalingAllowed; // 0x300
+        public object isMaster;
+        public object isInstanceOwner;
+        public object isModerator;
+        public object isSuper;
+        public object isSuspended;
+        public object isVRCPlus;
+        public object AllPlayers;
+        public object playerId;
 
         // ── Methods ──
         public void get_isMaster(){} // RVA: 0x7FFD574688B0
@@ -417,18 +293,6 @@ namespace VRC.SDKBase
 
     public class VRCStation : MonoBehaviour
     {
-        public ed PlayerMobility; // 0x20
-        public bool canUseStationFromStation; // 0x24
-        public ColliderDistance2D animatorController; // 0x28
-        public bool disableStationExit; // 0x30
-        public bool seated; // 0x31
-        public object stationEnterPlayerLocation; // 0x38
-        public object stationExitPlayerLocation; // 0x40
-        public ellSize.sCache controlsObject; // 0x48
-        public object Initialize;
-        public rectoryInformation<ellSize.ss,ellSize.artCorner> useStationDelegate; // 0x8
-        public rectoryInformation<ellSize.ss,ellSize.artCorner> exitStationDelegate; // 0x10
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5747C3D0
         public void UseStation(){} // RVA: 0x7FFD5747C430
@@ -438,10 +302,6 @@ namespace VRC.SDKBase
 
     public class VRCTriggerRelay : MonoBehaviour
     {
-        public ileFullDirectoryInformation<ellSize.ttomLeft> Initialize;
-        public URA.onsDepth<riteCharacterUnicode>[] triggersInside; // 0x20
-        public int currentIdx; // 0x28
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57493910
         public void OnTriggerEnter(){} // RVA: 0x7FFD57493970
@@ -451,10 +311,9 @@ namespace VRC.SDKBase
 
     public class VRCUrl : Object
     {
-        public ellSize.t Empty;
-        public ormation<URA.bbrevEraNames<string>> DomainExplicitAllowlistDelegate; // 0x8
-        public ormation<URA.bbrevEraNames<string>> DomainWildcardAllowlistDelegate; // 0x10
-        public string url; // 0x10
+        public object Empty;
+        public object DomainExplicitAllowlistDelegate;
+        public object DomainWildcardAllowlistDelegate;
 
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x7FFD57493C40
@@ -475,14 +334,6 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorLayerControl : StateMachineBehaviour
     {
-        public stepSize playable; // 0x18
-        public int layer; // 0x1C
-        public float goalWeight; // 0x20
-        public float blendDuration; // 0x24
-        public string debugString; // 0x28
-        public object Initialize;
-        public CachedReferences ApplySettings; // 0x30
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5746E3A0
         public void OnStateEnter(){} // RVA: 0x7FFD531D12C0
@@ -491,11 +342,6 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorLocomotionControl : StateMachineBehaviour
     {
-        public bool disableLocomotion; // 0x18
-        public string debugString; // 0x20
-        public object Initialize;
-        public CachedReferences ApplySettings; // 0x28
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5746E400
         public void OnStateEnter(){} // RVA: 0x7FFD542A7130
@@ -523,15 +369,6 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorTemporaryPoseSpace : StateMachineBehaviour
     {
-        public bool enterPoseSpace; // 0x18
-        public bool fixedDelay; // 0x19
-        public float delayTime; // 0x1C
-        public string debugString; // 0x20
-        public object Initialize;
-        public CachedReferences ApplySettings; // 0x28
-        public bool applied; // 0x30
-        public float enterTime; // 0x34
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5746E5D0
         public void OnStateEnter(){} // RVA: 0x7FFD5746E630
@@ -541,20 +378,6 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorTrackingControl : StateMachineBehaviour
     {
-        public ch7deltadown trackingHead; // 0x18
-        public ch7deltadown trackingLeftHand; // 0x1C
-        public ch7deltadown trackingRightHand; // 0x20
-        public ch7deltadown trackingHip; // 0x24
-        public ch7deltadown trackingLeftFoot; // 0x28
-        public ch7deltadown trackingRightFoot; // 0x2C
-        public ch7deltadown trackingLeftFingers; // 0x30
-        public ch7deltadown trackingRightFingers; // 0x34
-        public ch7deltadown trackingEyes; // 0x38
-        public ch7deltadown trackingMouth; // 0x3C
-        public string debugString; // 0x40
-        public object Initialize;
-        public CachedReferences ApplySettings; // 0x48
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5746E760
         public void OnStateEnter(){} // RVA: 0x7FFD54804990
@@ -563,22 +386,7 @@ namespace VRC.SDKBase
 
     public class VRC_AvatarDescriptor : MonoBehaviour
     {
-        public string NetworkIDCollection; // 0x20
-        public amut ViewPosition; // 0x28
-        public barVisibility Animations; // 0x34
-        public bool ScaleIPD; // 0x38
-        public rollbarVisibility lipSync; // 0x3C
-        public object lipSyncJawBone; // 0x40
-        public R_12x12 lipSyncJawClosed; // 0x48
-        public R_12x12 lipSyncJawOpen; // 0x58
-        public ure VisemeSkinnedMesh; // 0x68
-        public string MouthOpenBlendShapeName; // 0x70
-        public string[] VisemeBlendShapes; // 0x78
-        public object apiAvatar; // 0x80
-        public string unityVersion; // 0x88
-        public amut portraitCameraPositionOffset; // 0x90
-        public R_12x12 portraitCameraRotationOffset; // 0x9C
-        public URA.woDigitYearMax<BroadcastType.nEventName> networkIDs; // 0xB0
+        public object NetworkIDCollection;
 
         // ── Methods ──
         public void OnDrawGizmosSelected(){} // RVA: 0x7FFD5746E7C0
@@ -593,14 +401,6 @@ namespace VRC.SDKBase
 
     public class VRC_AvatarParameterDriver : StateMachineBehaviour
     {
-        public URA.woDigitYearMax<e> parameters; // 0x18
-        public bool localOnly; // 0x20
-        public string debugString; // 0x28
-        public bool isLocalPlayer; // 0x30
-        public bool isEnabled; // 0x31
-        public bool initialized; // 0x32
-        public rectoryInformation<ellSize.oLocalMatrix,stfix> OnApplySettings;
-
         // ── Methods ──
         public void OnStateEnter(){} // RVA: 0x7FFD5746F6B0
         public void .ctor(){} // RVA: 0x7FFD5743C070
@@ -608,16 +408,6 @@ namespace VRC.SDKBase
 
     public class VRC_AvatarPedestal : VRCNetworkBehaviour
     {
-        public string blueprintId; // 0x20
-        public bool grantBlueprintAccess; // 0x28
-        public object Placement; // 0x30
-        public bool ChangeAvatarsOnUse; // 0x38
-        public float scale; // 0x3C
-        public ÎÌÍÏÏÌÍÏ OnReceiveAvatarImage; // 0x40
-        public ector avatarImage; // 0x48
-        public BuffersImpl Instance; // 0x50
-        public object Instantiate;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD574747D0
         public void SwitchAvatar(){} // RVA: 0x7FFD57450BC0 | overloaded x2
@@ -627,13 +417,6 @@ namespace VRC.SDKBase
 
     public class VRC_DataStorage : VRCNetworkBehaviour
     {
-        public ORLD_ASSET_BUNDLE_SIZE_LIMIT_PC[] data; // 0x20
-        public object Initialize;
-        public _AVATAR_UNCOMPRESSED_ASSET_BUNDLE_SIZE_LIMIT_PC Serialize; // 0x8
-        public SSET_BUNDLE_SIZE_LIMIT_PC Deserialize; // 0x10
-        public C ElementChanged; // 0x28
-        public nalInformation<ellSize.tAssetBundleSizeLimit,string,int> _GetElementIndex; // 0x18
-
         // ── Methods ──
         public void GetElementIndex(){} // RVA: 0x7FFD57494AF0
         public void GetElement(){} // RVA: 0x7FFD57494B60
@@ -646,31 +429,6 @@ namespace VRC.SDKBase
 
     public class VRC_DestructibleStandard : MonoBehaviour
     {
-        public float maxHealth; // 0x20
-        public float currentHealth; // 0x24
-        public bool healable; // 0x28
-        public string damageEvent; // 0x30
-        public string destroyEvent; // 0x38
-        public string healEvent; // 0x40
-        public string fullHealthEvent; // 0x48
-        public ellSize._DropHandler onDamagedTrigger; // 0x50
-        public dImageInternal onDamagedEvent; // 0x58
-        public ellSize._DropHandler onDestructedTrigger; // 0x60
-        public dImageInternal onDestructedEvent; // 0x68
-        public ellSize._DropHandler onHealedTrigger; // 0x70
-        public dImageInternal onHealedEvent; // 0x78
-        public ellSize._DropHandler onFullHealedTrigger; // 0x80
-        public dImageInternal onFullHealedEvent; // 0x88
-        public ellSize._DropHandler spawnerOnDamagedTrigger; // 0x90
-        public dImageInternal spawnerOnDamagedEvent; // 0x98
-        public ellSize._DropHandler spawnerOnDestructedTrigger; // 0xA0
-        public dImageInternal spawnerOnDestructedEvent; // 0xA8
-        public ellSize._DropHandler spawnerOnHealedTrigger; // 0xB0
-        public dImageInternal spawnerOnHealedEvent; // 0xB8
-        public ellSize._DropHandler spawnerOnFullHealedTrigger; // 0xC0
-        public dImageInternal spawnerOnFullHealedEvent; // 0xC8
-        public ellSize.ZE_LIMIT_PC eventHandler; // 0xD0
-
         // ── Methods ──
         public void GetMaxHealth(){} // RVA: 0x7FFD4E36A080
         public void GetCurrentHealth(){} // RVA: 0x7FFD4E4AEF50
@@ -712,12 +470,8 @@ namespace VRC.SDKBase
 
     public class VRC_EventHandler : VRCNetworkBehaviour
     {
-        public URA.woDigitYearMax<dImageInternal> Dispatcher; // 0x20
-        public ellSize.leCalled GetInsitgatorId; // 0x28
-        public eQueue GetInstigatorId;
-        public ges LogEvent; // 0x8
-        public URA.woDigitYearMax<itValueA> deferredEvents; // 0x30
-        public ts DeferredEventProcessor; // 0x38
+        public object Dispatcher;
+        public object GetInsitgatorId;
 
         // ── Methods ──
         public void BooleanOp(){} // RVA: 0x7FFD57494EF0
@@ -741,27 +495,12 @@ namespace VRC.SDKBase
 
     public class VRC_GunStats : MonoBehaviour
     {
-        public float rateOfFire; // 0x20
-        public float damage; // 0x24
-        public bool fullAuto; // 0x28
-        public BuffersImpl muzzleEffect; // 0x30
-        public t muzzleAudio; // 0x38
-        public ies[] fireAudio; // 0x40
-        public t reloadAudio; // 0x48
-        public BuffersImpl[] hitEffects; // 0x50
-        public BuffersImpl leftHandContact; // 0x58
-        public bool leftHandPositionOnly; // 0x60
-        public int clipSize; // 0x64
-        public ies EmptyClipFire; // 0x68
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57403200
     }
 
     public class VRC_IKFollower : MonoBehaviour
     {
-        public object Initialize;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57497AA0
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -769,12 +508,8 @@ namespace VRC.SDKBase
 
     public class VRC_Interactable : VRCNetworkBehaviour
     {
-        public object IsInteractive; // 0x20
-        public string Proximity; // 0x28
-        public BuffersImpl interactTextGO; // 0x30
-        public float proximity; // 0x38
-        public object Initialize;
-        public ByGameObject CheckValid; // 0x8
+        public object IsInteractive;
+        public object Proximity;
 
         // ── Methods ──
         public void get_IsInteractive(){} // RVA: 0x7FFD4E341320
@@ -792,14 +527,6 @@ namespace VRC.SDKBase
 
     public class VRC_KeyEvents : MonoBehaviour
     {
-        public Flag Key; // 0x20
-        public string DownEventName; // 0x28
-        public string UpEventName; // 0x30
-        public bool LocalOnly; // 0x38
-        public e BroadcastType; // 0x3C
-        public ellSize.ZE_LIMIT_PC Handler; // 0x40
-        public object Initialize;
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5746F730
         public void Update(){} // RVA: 0x7FFD5746F990
@@ -812,17 +539,13 @@ namespace VRC.SDKBase
 
     public class VRC_Label : MonoBehaviour
     {
-        public string label; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57410EC0
     }
 
     public class VRC_MetadataListener : MonoBehaviour
     {
-        public ingField currentMetadata;
-        public ingField metadataUpdate; // 0x20
-        public ormation<URA.DateTime<string,object>> _GetCurrentMetadata; // 0x8
+        public object currentMetadata;
 
         // ── Methods ──
         public void get_currentMetadata(){} // RVA: 0x7FFD5747C510
@@ -835,12 +558,6 @@ namespace VRC.SDKBase
 
     public class VRC_MidiNoteIn : MonoBehaviour
     {
-        public ctor channel; // 0x20
-        public ÌÎÍÎÌÌÎ note; // 0x24
-        public t_compositionCursorPos OnNoteOn; // 0x28
-        public t_compositionCursorPos OnNoteOff; // 0x30
-        public object Initialize;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD574742B0
         public void Start(){} // RVA: 0x7FFD4E341310
@@ -850,34 +567,8 @@ namespace VRC.SDKBase
 
     public class VRC_MirrorReflection : MonoBehaviour
     {
-        public string CurrentlyRenderingMirror;
-        public string CurrentMirrorCenterEyePos;
-        public bool m_DisablePixelLights; // 0x20
-        public bool TurnOffMirrorOcclusion; // 0x21
-        public object m_ReflectLayers; // 0x24
-        public e.Utilities.Encoders mirrorResolution; // 0x28
-        public object maximumAntialiasing; // 0x2C
-        public ojectionMatrix_Injected customShader; // 0x30
-        public ChangeEventModule MirrorQualityOverride;
-        public utModules PreRenderMirror; // 0x8
-        public utModules PostRenderMirror; // 0x10
-        public ellSize.elta>k__BackingField <CurrentlyRenderingMirror>k__BackingField; // 0x18
-        public amut <CurrentMirrorCenterEyePos>k__BackingField; // 0x20
-        public bool allowCustomMirrorShaders; // 0x2C
-        public Offset _temporaryRenderTexture; // 0x38
-        public URA.DateTime<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ,ÏÏÏÌÏÏÍÎÎ> _mReflections; // 0x40
-        public rical _mirrorRenderer; // 0x48
-        public atrix_Injected _mirrorRendererMaterialInstance; // 0x50
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _mirrorCamera; // 0x58
-        public Min _mirrorSkybox; // 0x60
-        public tSizeBias _parentTransform; // 0x68
-        public R_12x12 _parentRotation; // 0xA8
-        public int _playerLocalLayer; // 0xB8
-        public int[] _texturePropertyId; // 0x30
-        public int MAX_AUTO_VR_RESOLUTION;
-        public int MAX_AUTO_DESKTOP_RESOLUTION;
-        public int MAX_AUTO_RESOLUTION_UNLIMITER;
-        public ?[] _frustumPlanes; // 0x38
+        public object CurrentlyRenderingMirror;
+        public object CurrentMirrorCenterEyePos;
 
         // ── Methods ──
         public void add_PreRenderMirror(){} // RVA: 0x7FFD5747C8D0
@@ -921,13 +612,6 @@ namespace VRC.SDKBase
 
     public class VRC_NPCSpawn : MonoBehaviour
     {
-        public string npcName; // 0x20
-        public string blueprintId; // 0x28
-        public ColliderDistance2D customAnimation; // 0x30
-        public float scale; // 0x38
-        public object Initialize;
-        public BuffersImpl npcGameObject; // 0x40
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57474EE0
         public void .ctor(){} // RVA: 0x7FFD57403D60
@@ -935,14 +619,6 @@ namespace VRC.SDKBase
 
     public class VRC_NpcApi : MonoBehaviour
     {
-        public liderExpand Initialize;
-        public n<BuffersImpl,ellSize.ontalScrollbarSpacing> _GetApiByGameObject; // 0x8
-        public BothDirectoryInformation<ellSize.ontalScrollbarSpacing,bool,string,string> _SetNamePlate; // 0x10
-        public BothDirectoryInformation<ellSize.ontalScrollbarSpacing,bool,bool,bool> _SetSocialStatus; // 0x18
-        public formation<ellSize.ontalScrollbarSpacing,bool,bool> _SetMuteStatus; // 0x20
-        public formation<ellSize.ontalScrollbarSpacing,int,bool> _ActThis; // 0x28
-        public formation<ellSize.ontalScrollbarSpacing,ies,float> _SayThis; // 0x30
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD574700A0
         public void GetApiByGameObject(){} // RVA: 0x7FFD57470100
@@ -963,11 +639,6 @@ namespace VRC.SDKBase
 
     public class VRC_ObjectSpawn : MonoBehaviour
     {
-        public BuffersImpl ObjectPrefab; // 0x20
-        public object Initialize;
-        public object Instantiate; // 0x28
-        public ctionAllCallback ReapObjects; // 0x30
-
         // ── Methods ──
         public void SpawnObject(){} // RVA: 0x7FFD574751A0 | overloaded x2
         public void DestroySpawnedObjects(){} // RVA: 0x7FFD4FD68B60
@@ -978,11 +649,6 @@ namespace VRC.SDKBase
 
     public class VRC_OscButtonIn : MonoBehaviour
     {
-        public string address; // 0x20
-        public t_compositionCursorPos OnButtonOn; // 0x28
-        public t_compositionCursorPos OnButtonOff; // 0x30
-        public object Initialize;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57474310
         public void Start(){} // RVA: 0x7FFD4E341310
@@ -992,12 +658,6 @@ namespace VRC.SDKBase
 
     public class VRC_Panorama : MonoBehaviour
     {
-        public rical renderer; // 0x20
-        public URA.woDigitYearMax<tionGuard> panoramas; // 0x28
-        public int currentlyShown; // 0x30
-        public ellSize.tAssetBundleSizeLimit data; // 0x38
-        public int dataIndex; // 0x40
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD57484360
         public void Update(){} // RVA: 0x7FFD57484530
@@ -1010,9 +670,6 @@ namespace VRC.SDKBase
 
     public class VRC_PhysicsRoot : MonoBehaviour
     {
-        public BuffersImpl PhysicsRoot; // 0x20
-        public BuffersImpl[] PhysicsObjects; // 0x28
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD57470500
         public void OnDestroy(){} // RVA: 0x7FFD57470B30
@@ -1021,33 +678,10 @@ namespace VRC.SDKBase
 
     public class VRC_Pickup : VRCNetworkBehaviour
     {
-        public atorMove currentPlayer; // 0x20
-        public bool IsHeld; // 0x24
-        public object currentHand; // 0x28
-        public object Proximity; // 0x30
-        public bool allowManipulationWhenEquipped; // 0x38
-        public object orientation; // 0x3C
-        public et_useGraphicAlpha AutoHold; // 0x40
-        public string InteractionText; // 0x48
-        public string UseText; // 0x50
-        public e useEventBroadcastType; // 0x58
-        public string UseDownEventName; // 0x60
-        public string UseUpEventName; // 0x68
-        public e pickupDropEventBroadcastType; // 0x70
-        public string PickupEventName; // 0x78
-        public string DropEventName; // 0x80
-        public float ThrowVelocityBoostMinSpeed; // 0x88
-        public float ThrowVelocityBoostScale; // 0x8C
-        public led currentlyHeldBy; // 0x90
-        public ellSize.artCorner currentLocalPlayer; // 0x98
-        public bool pickupable; // 0xA0
-        public float proximity; // 0xA4
-        public ShadowZeroAlloc OnAwake;
-        public c ForceDrop; // 0x8
-        public fectColor OnDestroyed; // 0x10
-        public stance HapticEvent; // 0x18
-        public n<ellSize.ayIntersectionAllNonAllocCallback,Alpha> _GetPickupHand; // 0x20
-        public n<ellSize.ayIntersectionAllNonAllocCallback,ellSize.artCorner> _GetCurrentPlayer; // 0x28
+        public object currentPlayer;
+        public object IsHeld;
+        public object currentHand;
+        public object Proximity;
 
         // ── Methods ──
         public void IsGlobalAutoHoldPickup(){} // RVA: 0x7FFD57475930 | overloaded x2
@@ -1068,14 +702,6 @@ namespace VRC.SDKBase
 
     public class VRC_PlayableLayerControl : StateMachineBehaviour
     {
-        public stepSize layer; // 0x18
-        public float goalWeight; // 0x1C
-        public float blendDuration; // 0x20
-        public string debugString; // 0x28
-        public object Initialize;
-        public CachedReferences ApplySettings; // 0x30
-        public int outputParamHash; // 0x38
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57470C50
         public void OnStateEnter(){} // RVA: 0x7FFD57470CB0
@@ -1084,21 +710,6 @@ namespace VRC.SDKBase
 
     public class VRC_PortalMarker : MonoBehaviour
     {
-        public m_EnabledObjectCount world; // 0x20
-        public string roomId; // 0x28
-        public string customPortalName; // 0x30
-        public object sortHeading; // 0x38
-        public intananceParam sortOrder; // 0x3C
-        public int offset; // 0x40
-        public string searchTerm; // 0x48
-        public string tag; // 0x50
-        public bool useDefaultPresentation; // 0x58
-        public string effectPrefabName; // 0x60
-        public object Initialize;
-        public string roomName; // 0x68
-        public bool updateFlag; // 0x70
-        public bool initializedWithRoomId; // 0x71
-
         // ── Methods ──
         public void RefreshPortal(){} // RVA: 0x7FFD4E4F1BC0
         public void Awake(){} // RVA: 0x7FFD574768B0
@@ -1108,22 +719,12 @@ namespace VRC.SDKBase
 
     public class VRC_PropApi : MonoBehaviour
     {
-        public ching mountPoint; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class VRC_PropController : MonoBehaviour
     {
-        public ellSize.artCorner controllingPlayer; // 0x20
-        public tionX inputLeftAnalog; // 0x28
-        public tionX inputRightAnalog; // 0x30
-        public bool inputUseButton; // 0x38
-        public object UpdateInputs;
-        public liderExpand Initialize; // 0x8
-        public URA.woDigitYearMax<s> Inputs; // 0x40
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD574769B0
         public void Update(){} // RVA: 0x7FFD57476A10
@@ -1133,15 +734,8 @@ namespace VRC.SDKBase
 
     public class VRC_PropDescriptor : MonoBehaviour
     {
-        public object NetworkIDCollection; // 0x20
-        public string NetworkIDLookup; // 0x28
-        public URA.woDigitYearMax<BuffersImpl> DynamicPrefabs; // 0x30
-        public URA.DateTime<string,BuffersImpl> sDynamicPrefabs;
-        public URA.woDigitYearMax<atrix_Injected> DynamicMaterials; // 0x38
-        public URA.DateTime<string,atrix_Injected> sDynamicMaterials; // 0x8
-        public ment Initialize; // 0x10
-        public URA.woDigitYearMax<BroadcastType.nEventName> NetworkIDs; // 0x40
-        public URA.DateTime<BuffersImpl,BroadcastType.nEventName> <NetworkIDLookup>k__BackingField; // 0x48
+        public object NetworkIDCollection;
+        public object NetworkIDLookup;
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57476B80
@@ -1157,71 +751,12 @@ namespace VRC.SDKBase
 
     public class VRC_SceneDescriptor : MonoBehaviour
     {
-        public ?[] NetworkIDCollection; // 0x20
-        public float NetworkIDLookup; // 0x28
-        public entChain Instance; // 0x2C
-        public nction Exists; // 0x30
-        public BuffersImpl BundleUnityMajorVersion; // 0x38
-        public float Scene; // 0x40
-        public eEvent ObjectBehaviourAtRespawnHeight; // 0x44
-        public bool ForbidUserPortals; // 0x48
-        public int interactThruLayers; // 0x4C
-        public bool autoSpatializeAudioSources; // 0x50
-        public amut gravity; // 0x54
-        public bool[] layerCollisionArr; // 0x60
-        public int capacity; // 0x68
-        public bool contentSex; // 0x6C
-        public bool contentViolence; // 0x6D
-        public bool contentGore; // 0x6E
-        public bool contentOther; // 0x6F
-        public bool releasePublic; // 0x70
-        public string unityVersion; // 0x78
-        public URA.woDigitYearMax<string> udonProducts; // 0x80
-        public string Name; // 0x88
-        public bool NSFW; // 0x90
-        public amut SpawnPosition; // 0x94
-        public object SpawnLocation; // 0xA0
-        public float DrawDistance; // 0xA8
-        public bool useAssignedLayers; // 0xAC
-        public URA.woDigitYearMax<BuffersImpl> DynamicPrefabs; // 0xB0
-        public URA.DateTime<string,BuffersImpl> sDynamicPrefabs;
-        public URA.woDigitYearMax<atrix_Injected> DynamicMaterials; // 0xB8
-        public URA.DateTime<string,atrix_Injected> sDynamicMaterials; // 0x8
-        public ector[] LightMapsNear; // 0xC0
-        public ector[] LightMapsFar; // 0xC8
-        public idth LightMode; // 0xD0
-        public object RenderAmbientEquatorColor; // 0xD4
-        public object RenderAmbientGroundColor; // 0xE4
-        public float RenderAmbientIntensity; // 0xF4
-        public object RenderAmbientLight; // 0xF8
-        public ons.ration RenderAmbientMode; // 0x108
-        public ons.? RenderAmbientProbe; // 0x10C
-        public object RenderAmbientSkyColor; // 0x178
-        public bool RenderFog; // 0x188
-        public object RenderFogColor; // 0x18C
-        public tSide RenderFogMode; // 0x19C
-        public float RenderFogDensity; // 0x1A0
-        public float RenderFogLinearStart; // 0x1A4
-        public float RenderFogLinearEnd; // 0x1A8
-        public float RenderHaloStrength; // 0x1AC
-        public float RenderFlareFadeSpeed; // 0x1B0
-        public float RenderFlareStrength; // 0x1B4
-        public tmapST RenderCustomReflection; // 0x1B8
-        public ons.icsMemorySize RenderDefaultReflectionMode; // 0x1C0
-        public int RenderDefaultReflectionResolution; // 0x1C4
-        public int RenderReflectionBounces; // 0x1C8
-        public float RenderReflectionIntensity; // 0x1CC
-        public atrix_Injected RenderSkybox; // 0x1D0
-        public URA.woDigitYearMax<BroadcastType.nEventName> NetworkIDs; // 0x1D8
-        public URA.DateTime<BuffersImpl,BroadcastType.nEventName> <NetworkIDLookup>k__BackingField; // 0x1E0
-        public URA.woDigitYearMax<BuffersImpl> rootSceneGameObjectsBuffer; // 0x10
-        public ment Initialize; // 0x18
-        public object apiWorld; // 0x1E8
-        public ellSize.lkitOverride _instance; // 0x20
-        public int _bundleUnityMajorVersion; // 0x1F0
-        public Type.ntWithType _scene; // 0x1F4
-        public amut portraitCameraPositionOffset; // 0x1F8
-        public R_12x12 portraitCameraRotationOffset; // 0x204
+        public object NetworkIDCollection;
+        public object NetworkIDLookup;
+        public object Instance;
+        public object Exists;
+        public object BundleUnityMajorVersion;
+        public object Scene;
 
         // ── Methods ──
         public void GetValidatedSpawnList(){} // RVA: 0x7FFD57485390
@@ -1271,13 +806,6 @@ namespace VRC.SDKBase
 
     public class VRC_SlideShow : MonoBehaviour
     {
-        public bool autoplay; // 0x20
-        public bool shuffle; // 0x21
-        public ector[] images; // 0x28
-        public float displayDuration; // 0x30
-        public atrix_Injected imageMaterial; // 0x38
-        public int showingImage; // 0x40
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD57477B90
         public void ShowNextImage(){} // RVA: 0x7FFD57477C50
@@ -1289,15 +817,6 @@ namespace VRC.SDKBase
 
     public class VRC_SpatialAudioSource : MonoBehaviour
     {
-        public float Gain; // 0x20
-        public float Far; // 0x24
-        public float Near; // 0x28
-        public float VolumetricRadius; // 0x2C
-        public bool EnableSpatialization; // 0x30
-        public bool UseAudioSourceVolumeCurve; // 0x31
-        public object Initialize;
-        public t _source; // 0x38
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57467DC0
         public void OnDrawGizmosSelected(){} // RVA: 0x7FFD57468060
@@ -1306,8 +825,6 @@ namespace VRC.SDKBase
 
     public class VRC_SpecialLayer : MonoBehaviour
     {
-        public terUpHandler specialLayer; // 0x20
-
         // ── Methods ──
         public void Apply(){} // RVA: 0x7FFD57488460
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -1321,17 +838,6 @@ namespace VRC.SDKBase
 
     public class VRC_TimedEvents : MonoBehaviour
     {
-        public bool Repeat; // 0x20
-        public float LowPeriodTime; // 0x24
-        public float HighPeriodTime; // 0x28
-        public bool ResetOnEnable; // 0x2C
-        public string EventName; // 0x30
-        public e BroadcastType; // 0x38
-        public bool EventFired; // 0x3C
-        public float Duration; // 0x40
-        public float Timer; // 0x44
-        public ellSize.ZE_LIMIT_PC Handler; // 0x48
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD57488690
         public void OnEnable(){} // RVA: 0x7FFD57488860
@@ -1379,15 +885,6 @@ namespace VRC.SDKBase
 
     public class VRC_TriggerColliderEventTrigger : MonoBehaviour
     {
-        public string EnterEventName; // 0x20
-        public string ExitEventName; // 0x28
-        public bool TriggerIndividuals; // 0x30
-        public object layers; // 0x34
-        public ellSize.ZE_LIMIT_PC Handler; // 0x38
-        public me CollisionEnter;
-        public ta CollisionExit; // 0x8
-        public int currentOccupants; // 0x40
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5748BF00
         public void OnTriggerEnter(){} // RVA: 0x7FFD5748C0C0
@@ -1418,13 +915,7 @@ namespace VRC.SDKBase
     public class VRC_UiShape : MonoBehaviour
     {
         public object RootCanvas;
-        public pad RootCanvasRectTransform; // 0x20
-        public 16 <RootCanvasRectTransform>k__BackingField; // 0x28
-        public bool AllowFocusView; // 0x30
-        public pad _uiCanvas; // 0x38
-        public 16 _localRectTransform; // 0x40
-        public ileFullDirectoryInformation<ellSize.?> OnUiShapeInit; // 0x8
-        public ileFullDirectoryInformation<ellSize.?> OnUiShapeDestroy; // 0x10
+        public object RootCanvasRectTransform;
 
         // ── Methods ──
         public void get_RootCanvas(){} // RVA: 0x7FFD4E36F0C0
@@ -1445,11 +936,6 @@ namespace VRC.SDKBase
 
     public class VRC_UseEvents : VRC_Interactable
     {
-        public string EventName; // 0x40
-        public bool isHidden; // 0x48
-        public e BroadcastType; // 0x4C
-        public object UpdateUse;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5748C340
         public void Start(){} // RVA: 0x7FFD5748C580
@@ -1460,14 +946,6 @@ namespace VRC.SDKBase
 
     public class VRC_VisualDamage : MonoBehaviour
     {
-        public float fullDamageScale; // 0x20
-        public float minDamageScale; // 0x24
-        public float offset; // 0x28
-        public ÍÎÌÍÍÌÌÎÏÏ curve; // 0x30
-        public float currentTime; // 0x38
-        public rical renderer; // 0x40
-        public amut initScale; // 0x48
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57471E10
         public void Start(){} // RVA: 0x7FFD57471EA0
@@ -1481,22 +959,6 @@ namespace VRC.SDKBase
 
     public class VRC_Water : MonoBehaviour
     {
-        public unt waterMode; // 0x20
-        public bool disablePixelLights; // 0x24
-        public int textureSize; // 0x28
-        public float clipPlaneOffset; // 0x2C
-        public object reflectLayers; // 0x30
-        public object refractLayers; // 0x34
-        public bool TurnOffWaterOcclusion; // 0x38
-        public URA.DateTime<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ,ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> m_ReflectionCameras; // 0x40
-        public URA.DateTime<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ,ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> m_RefractionCameras; // 0x48
-        public Offset m_ReflectionTexture; // 0x50
-        public Offset m_RefractionTexture; // 0x58
-        public unt m_HardwareWaterSupport; // 0x60
-        public int m_OldReflectionTextureSize; // 0x64
-        public int m_OldRefractionTextureSize; // 0x68
-        public bool s_InsideWater;
-
         // ── Methods ──
         public void OnWillRenderObject(){} // RVA: 0x7FFD5748CB00
         public void OnDisable(){} // RVA: 0x7FFD5748D7E0
@@ -1512,30 +974,7 @@ namespace VRC.SDKBase
 
     public class VRC_WebPanel : VRC_Interactable
     {
-        public string WebRootPath; // 0x40
-        public string defaultUrl; // 0x48
-        public int resolutionWidth; // 0x50
-        public int resolutionHeight; // 0x54
-        public dRecorder displayRegion; // 0x58
-        public bool interactive; // 0x68
-        public atrix_Injected[] extraVideoScreens; // 0x70
-        public liderExpand Initialize;
-        public bool localOnly; // 0x78
-        public bool syncURI; // 0x79
-        public bool syncInput; // 0x7A
-        public bool syncDisplayAndAudio; // 0x7B
-        public BuffersImpl cursor; // 0x80
-        public bool transparent; // 0x88
-        public ellSize.ss station; // 0x90
-        public bool cookiesEnabled; // 0x98
-        public bool autoFormSubmit; // 0x99
-        public URA.woDigitYearMax<ootRaycaster> webData; // 0xA0
-        public ileFullDirectoryInformation<string> _NavigateTo; // 0xA8
-        public ÎÌÍÏÏÌÍÏ _WebPanelForward; // 0xB0
-        public ÎÌÍÏÏÌÍÏ _WebPanelBackward; // 0xB8
-        public ÎÌÍÏÏÌÍÏ _WebPanelReload; // 0xC0
-        public ileFullDirectoryInformation<string> _ExecuteScript; // 0xC8
-        public nalInformation<string,formation,bool> _BindCall; // 0xD0
+        public object WebRootPath;
 
         // ── Methods ──
         public void WebPanelForward(){} // RVA: 0x7FFD5748FF40
@@ -1554,6 +993,12 @@ namespace VRC.SDKBase
 
     public class VersionHelper : Object
     {
+        public bool _updateWhenDisabled; // 0x20
+        public URA.woDigitYearMax<?> ÌÌÌÏÌÍÌÏÎÏÎÏÍÎÌÌÏÎÌÍÍÏÎ; // 0x28
+        public ileFullDirectoryInformation<?> ÌÌÌÌÏÎÍÎÏÎÎÏÎÏÌÏÍÎÏÎÎÎÏ; // 0x30
+        public object ÎÍÌÌÎÏÏÏÌÍÏÌÏÏÍÌÍÌÌÎÎÌÌ; // 0x38
+        public ?<object> ÎÌÍÏÏÎÍÎÎÍÏÏÌÌÏÏÌÎÎÌÏÎÎ; // 0x40
+
         // ── Methods ──
         public void GetLatestVersion(){} // RVA: 0x7FFD4E2ADC40
     }

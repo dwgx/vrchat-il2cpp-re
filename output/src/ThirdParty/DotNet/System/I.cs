@@ -142,7 +142,8 @@ namespace ThirdParty.DotNet.System
 
     public class Index : ValueType
     {
-        public int Value; // 0x10
+        public object Value;
+        public object IsFromEnd;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E78D8B0 | overloaded x2

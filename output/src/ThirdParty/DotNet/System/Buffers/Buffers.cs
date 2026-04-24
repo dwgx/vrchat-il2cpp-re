@@ -7,8 +7,9 @@ namespace ThirdParty.DotNet.System.Buffers
 {
     public class ArrayBufferWriter`1 : Object
     {
-        public T1717592768[] WrittenMemory;
-        public int WrittenCount;
+        public object WrittenMemory;
+        public object WrittenCount;
+        public object FreeCapacity;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -37,7 +38,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
-        public erDecimalDigits.?<char> Shared;
+        public n.?<T1717671248> Shared;
 
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x7FFD4E078A90
@@ -58,7 +59,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
-        public izes<char>[] Id; // 0x10
+        public object Id;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092E60
@@ -69,8 +70,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class DefaultArrayPool`1 : ArrayPool`1
     {
-        public T1717745664[] Id;
-        public izes<T1717745664>[] _buckets;
+        public object Id;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092E60 | overloaded x2
@@ -89,9 +89,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class MemoryHandle : ValueType
     {
-        public IntPtr Pointer; // 0x10
-        public annelDataStore.essage _handle; // 0x18
-        public erDecimalDigits.ativeSign _pinnable; // 0x20
+        public object Pointer;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539C6B20
@@ -112,9 +110,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequenceSegment`1 : Object
     {
-        public oRegistry<T1717592752> Memory;
-        public erDecimalDigits.iant<T1717592752> Next;
-        public long RunningIndex;
+        public object Memory;
+        public object Next;
+        public object RunningIndex;
 
         // ── Methods ──
         public void get_Memory(){} // RVA: 0x7FFD4E2ADC40
@@ -124,9 +122,6 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequence`1 : ValueType
     {
-        public object _sequenceStart;
-        public object _sequenceEnd;
-        public erDecimalDigits.tor<T1717725888> Empty;
     }
 
     public class SpanAction`2 : MulticastDelegate
@@ -138,8 +133,10 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class StandardFormat : ValueType
     {
-        public byte Symbol; // 0x10
-        public byte Precision; // 0x11
+        public object Symbol;
+        public object Precision;
+        public object HasPrecision;
+        public object IsDefault;
 
         // ── Methods ──
         public void get_Symbol(){} // RVA: 0x7FFD4FD7DDF0
@@ -158,12 +155,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
-        public int[] Id; // 0x10
-        public rencyPositivePattern<char>[] _buckets; // 0x18
-        public char[][] t_tlsBuckets; // 0xFFFFFFFF
-        public int _callbackCreated; // 0x20
-        public bool s_trimBuffers;
-        public ArgCount.ent<char[][],object> s_allTlsBuckets; // 0x8
+        public object Id;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980

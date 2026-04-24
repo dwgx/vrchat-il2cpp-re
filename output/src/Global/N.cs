@@ -5,9 +5,6 @@
 
 public class NativeArrayHelper`1 : ValueType
 {
-    public ÍÎÏÎÎ.ÌÌ<T1717644528> UnityNativeArray;
-    public annelDataStore.essage _handle;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E097970
     public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -25,10 +22,6 @@ public class NetworkSurrogateSelector : Object
 
 public class NeverPromise`1 : Object
 {
-    public ileFullDirectoryInformation<object> cancellationCallback;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public eObjectDelegate.ataProperty>k__BackingField<T1717659264> core;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090BF0
     public void CancellationCallback(){} // RVA: 0x7FFD4E090A10
@@ -50,13 +43,7 @@ public class NewInputUpdate : ValueType
 
 public class NextFramePromise : Object
 {
-    public eObjectDelegate.ion<Index> NextNode;
-    public Index nextNode; // 0x10
-    public int frameCount; // 0x18
-    public eObjectDelegate.ataProperty>k__BackingField<eObjectDelegate.b__1> core; // 0x20
-    public sageKind.TICMAP_SIZE cancellationToken; // 0x48
-    public sageKind.sition cancellationTokenRegistration; // 0x50
-    public bool cancelImmediately; // 0x68
+    public object NextNode;
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0
@@ -73,36 +60,54 @@ public class NextFramePromise : Object
 
 public class NextResult : ValueType
 {
-    public etBestGrabbingType.ionEnabled<URA.woDigitYearMax<etBestGrabbingType.?>> packet; // 0x10
-    public bool ok; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E096500
 }
 
 public class Node : Object
 {
-    public numeratorObject.NullPassthrough _key; // 0x10
-    public numeratorObject.NullAttribute _value; // 0x28
-    public tyles<numeratorObject.NullPassthrough,numeratorObject.NullAttribute> _next; // 0x30
-    public int _hashcode; // 0x38
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD519D2CC0
 }
 
 public class NodePath : ValueType
 {
-    public int _nodeID;
-    public int _mainTreeNodeID;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E092E60
 }
 
 public class NoiseModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object separateAxes;
+    public object strength;
+    public object strengthMultiplier;
+    public object strengthX;
+    public object strengthXMultiplier;
+    public object strengthY;
+    public object strengthYMultiplier;
+    public object strengthZ;
+    public object strengthZMultiplier;
+    public object frequency;
+    public object damping;
+    public object octaveCount;
+    public object octaveMultiplier;
+    public object octaveScale;
+    public object quality;
+    public object scrollSpeed;
+    public object scrollSpeedMultiplier;
+    public object remapEnabled;
+    public object remap;
+    public object remapMultiplier;
+    public object remapX;
+    public object remapXMultiplier;
+    public object remapY;
+    public object remapYMultiplier;
+    public object remapZ;
+    public object remapZMultiplier;
+    public object positionAmount;
+    public object rotationAmount;
+    public object sizeAmount;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -230,10 +235,6 @@ public class NoiseModule : ValueType
 
 public class NoiseParams : ValueType
 {
-    public float Frequency; // 0x10
-    public float Amplitude; // 0x14
-    public bool Constant; // 0x18
-
     // ── Methods ──
     public void GetValueAt(){} // RVA: 0x7FFD4FC6D480
 }
@@ -255,8 +256,6 @@ public class NullDisposable : Object
 
 public class NullProgress`1 : Object
 {
-    public e<T1717654336> Instance;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
     public void Report(){} // RVA: 0x7FFD4E2ADC40
@@ -265,7 +264,11 @@ public class NullProgress`1 : Object
 
 public class NullStream : Stream
 {
-    public utes.?<int> CanRead;
+    public object CanRead;
+    public object CanWrite;
+    public object CanSeek;
+    public object Length;
+    public object Position;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A0A120
@@ -333,11 +336,8 @@ public class NullTextWriter : TextWriter
 
 public class NumberBuffer : ValueType
 {
-    public int sign; // 0x10
-    public int digits; // 0x14
-    public int _sign; // 0x18
-    public _1 _digits; // 0x1C
-    public IntPtr _allDigits; // 0x82
+    public object sign;
+    public object digits;
 
     // ── Methods ──
     public void get_sign(){} // RVA: 0x7FFD53A64870
@@ -347,27 +347,4 @@ public class NumberBuffer : ValueType
 
 public class NumberFormatEntryManaged : ValueType
 {
-    public int currency_decimal_digits; // 0x10
-    public int currency_decimal_separator; // 0x14
-    public int currency_group_separator; // 0x18
-    public int currency_group_sizes0; // 0x1C
-    public int currency_group_sizes1; // 0x20
-    public int currency_negative_pattern; // 0x24
-    public int currency_positive_pattern; // 0x28
-    public int currency_symbol; // 0x2C
-    public int nan_symbol; // 0x30
-    public int negative_infinity_symbol; // 0x34
-    public int negative_sign; // 0x38
-    public int number_decimal_digits; // 0x3C
-    public int number_decimal_separator; // 0x40
-    public int number_group_separator; // 0x44
-    public int number_group_sizes0; // 0x48
-    public int number_group_sizes1; // 0x4C
-    public int number_negative_pattern; // 0x50
-    public int per_mille_symbol; // 0x54
-    public int percent_negative_pattern; // 0x58
-    public int percent_positive_pattern; // 0x5C
-    public int percent_symbol; // 0x60
-    public int positive_infinity_symbol; // 0x64
-    public int positive_sign; // 0x68
 }

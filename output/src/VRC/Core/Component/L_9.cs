@@ -1778,6 +1778,37 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÎÏÍÌÌÎÎÎÎÎÏÌÎÌÎÎÌÎÌÍÏÍ</summary>
     public class LifecycleComponent_BD7A : MonoBehaviour
     {
+        public ePathName117.? _searchTypeRelevance; // 0x1F0
+        public BuffersImpl _searchTypeRelevanceEnabledIcon; // 0x1F8
+        public ePathName117.? _searchTypeCustom; // 0x200
+        public BuffersImpl _searchTypeCustomEnabledIcon; // 0x208
+        public ePathName117.? _sortByLastUpdated; // 0x210
+        public BuffersImpl _sortByLastUpdatedEnabledIcon; // 0x218
+        public ePathName117.? _sortByPopular; // 0x220
+        public BuffersImpl _sortByPopularEnabledIcon; // 0x228
+        public ePathName117.? _sortByTrust; // 0x230
+        public BuffersImpl _sortByTrustEnabledIcon; // 0x238
+        public ePathName117.? _sortByLastLoggedIn; // 0x240
+        public BuffersImpl _sortByLastLoggedInEnabledIcon; // 0x248
+        public ePathName117.? _searchByTitle; // 0x250
+        public BuffersImpl _searchByTitleEnabledIcon; // 0x258
+        public ePathName117.? _searchByTags; // 0x260
+        public BuffersImpl _searchByTagsEnabledIcon; // 0x268
+        public ePathName117.? _searchByDescription; // 0x270
+        public BuffersImpl _searchByDescriptionEnabledIcon; // 0x278
+        public ePathName117.? _searchByAuthor; // 0x280
+        public BuffersImpl _searchByAuthorEnabledIcon; // 0x288
+        public ePathName117.? _searchByUserName; // 0x290
+        public BuffersImpl _searchByUserNameEnabledIcon; // 0x298
+        public ePathName117.? _searchByBio; // 0x2A0
+        public BuffersImpl _searchByBioEnabledIcon; // 0x2A8
+        public ÎÌ.nGroupValue ÌÌÌÍÏÍÎÎÌÍÌÎÌÎÎÍÎÎÎÏÎÏÎ; // 0x2B0
+        public ÎÌ.ÍÏÌÍÌ ÎÏÏÌÏÎÎÎÌÎÎÌÎÎÌÍÎÎÌÏÏÏÌ; // 0x2B8
+        public ÎÌ.ÎÎÎÍÍÎÏÌÎ ÌÍÍÌÏÌÏÏÍÍÍÍÌÌÎÎÌÎÍÌÌÎÎ; // 0x2C0
+        public ÌÎÌÌ ÌÍÌÍÏÌÌÍÌÎÏÍÍÍÌÎÌÍÌÍÍÍÍ; // 0x2C8
+        public gField.ldKeyboardOverride ÎÎÌÌÎÏÎÏÌÎÎÌÏÏÎÎÏÌÏÏÏÎÍ; // 0x2D0
+        public bool ÍÎÎÎÍÌÎÏÍÏÎÏÎÌÍÌÍÌÌÍÌÌÎ; // 0x2D8
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56CD1110
         public void RaiseCancellation(){} // RVA: 0x7FFD4E341310

@@ -14,12 +14,7 @@ namespace ThirdParty.Other.ZLogger.Formatters
 
     public class PlainTextZLoggerFormatter : Object
     {
-        public byte[] WithLineBreak;
-        public rectoryInformation<erDecimalDigits.AsNumber<byte>,ÏÏÍÍÎÎ> exceptionFormatter; // 0x10
-        public ÍÏ prefixTemplate; // 0x18
-        public ÌÌÍÌÎÌÌÍÌÌÏÏÍÌÍÌÌÎÎÏ prefixFormatter; // 0x20
-        public ÍÏ suffixTemplate; // 0x28
-        public ÌÌÍÌÎÌÌÍÌÌÏÏÍÌÍÌÌÎÎÏ suffixFormatter; // 0x30
+        public object WithLineBreak;
 
         // ── Methods ──
         public void get_WithLineBreak(){} // RVA: 0x7FFD4E426850

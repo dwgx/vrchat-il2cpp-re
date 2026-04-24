@@ -17,8 +17,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class CachedInvokableCall`1 : InvokableCall`1
     {
-        public T1717606480 m_Arg1;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void Invoke(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -26,8 +24,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class InvokableCall`1 : BaseInvokableCall
     {
-        public rScript.?<?> Delegate; // 0x10
-
         // ── Methods ──
         public void add_Delegate(){} // RVA: 0x7FFD513408D0
         public void remove_Delegate(){} // RVA: 0x7FFD513409E0
@@ -38,8 +34,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class InvokableCall`2 : BaseInvokableCall
     {
-        public rScript.<GetCachedEnumData>b__2_2<EXTERNAL_INDEX_REF_SIG.Callback,EXTERNAL_INDEX_REF_SIG.Callback> Delegate; // 0x10
-
         // ── Methods ──
         public void add_Delegate(){} // RVA: 0x7FFD4E090A40
         public void remove_Delegate(){} // RVA: 0x7FFD4E090A40
@@ -50,8 +44,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class InvokableCall`3 : BaseInvokableCall
     {
-        public rScript.GetCachedEnumData>b__2_3<T1717606368,T1717606384,T1717606400> Delegate;
-
         // ── Methods ──
         public void add_Delegate(){} // RVA: 0x7FFD4E090A40
         public void remove_Delegate(){} // RVA: 0x7FFD4E090A40
@@ -62,8 +54,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class InvokableCall`4 : BaseInvokableCall
     {
-        public rScript.etCachedEnumData>b__2_4<T1717606416,T1717606432,T1717606448,T1717606464> Delegate;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
         public void Invoke(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -100,8 +90,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent : UnityEventBase
     {
-        public object[] m_InvokeArray; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC74470
         public void AddListener(){} // RVA: 0x7FFD54D00F20
@@ -113,10 +101,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEventBase : Object
     {
-        public rScript.? m_Calls; // 0x10
-        public rScript.ntsInParent m_PersistentCalls; // 0x18
-        public bool m_CallsDirty; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CFFBB0
         public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFD54CFFF20
@@ -140,8 +124,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
-        public object[] m_InvokeArray; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC74470
         public void AddListener(){} // RVA: 0x7FFD522344D0
@@ -153,8 +135,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`2 : UnityEventBase
     {
-        public object[] m_InvokeArray; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC74470
         public void AddListener(){} // RVA: 0x7FFD522344D0
@@ -166,8 +146,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`3 : UnityEventBase
     {
-        public object[] m_InvokeArray; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC74470
         public void AddListener(){} // RVA: 0x7FFD522344D0
@@ -179,8 +157,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`4 : UnityEventBase
     {
-        public object[] m_InvokeArray; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void FindMethod_Impl(){} // RVA: 0x7FFD4E08A6F0

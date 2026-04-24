@@ -387,6 +387,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÌÏÌÍÎÎÏÏÏÍÎÎÍÏÍÌÌÍÌÎÌÌ</summary>
     public class Static13m_C4A8 : Object
     {
+        public ÍÎÏÍÌÏÍÏÌÌÍÍÏÍÌÏ ÏÌÍÎÏÌÎÏÏÌÏÌÎÏÎÍÏÎÌÍÎÌÏ; // 0x10
+        public object ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EAEE900
         public void Equals(){} // RVA: 0x7FFD4EAEEA60
@@ -704,6 +707,12 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÌÌÎÍÌÎÎÍÎÏÌÏÍÎÌÌÍÎÎÍÏÎ</summary>
     public class Static3m_793E : Object
     {
+        public int ÏÎÎÌÌÏÍÎÌÏÏÎÌÍÍÏÍÌÌÌÌÌÎ; // 0x10
+        public ArgCount.ypes ÌÍÍÎÌÌÎÍÎÏÍÍÎÍÌÍÏÎÏÌÎÍÏ; // 0x18
+        public ÎÏÎÍÌÌÌÍÎ ÍÏÌÌÌÌÌÎÎÏÍÏÎÌÌÍÍÎÍÏÌÏÎ; // 0x38
+        public ÍÏÏÏÏÌÌÍÌÏÏÏÌÏÎÍÌÌÏ ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x80
+        public peInfoResolverChain ÏÌÍÎÍÎÎÌÏÍÌÏÎÍÍÍÌÍÎÌÍÌÍ; // 0x88
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EDFBAF0
         public void Equals(){} // RVA: 0x7FFD4EDFBB60

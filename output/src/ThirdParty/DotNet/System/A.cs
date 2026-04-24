@@ -129,9 +129,6 @@ namespace ThirdParty.DotNet.System
 
     public class AppContext : Object
     {
-        public URA.DateTime<string,alue> s_switchMap;
-        public bool s_defaultsInitialized; // 0x8
-
         // ── Methods ──
         public void InitializeDefaultSwitchValues(){} // RVA: 0x7FFD53A88240
         public void TryGetSwitch(){} // RVA: 0x7FFD53A88440
@@ -140,10 +137,6 @@ namespace ThirdParty.DotNet.System
 
     public class AppContextDefaultValues : Object
     {
-        public string SwitchEnforceJapaneseEraYearRanges;
-        public string SwitchFormatJapaneseFirstYearAsANumber; // 0x8
-        public string SwitchEnforceLegacyJapaneseDateParsing; // 0x10
-
         // ── Methods ──
         public void PopulateDefaultValues(){} // RVA: 0x7FFD4E341310
         public void TryGetSwitchOverride(){} // RVA: 0x7FFD53AB2DA0
@@ -152,11 +145,6 @@ namespace ThirdParty.DotNet.System
 
     public class AppContextSwitches : Object
     {
-        public bool SetActorAsReferenceWhenCopyingClaimsIdentity;
-        public bool NoAsyncCurrentCulture; // 0x1
-        public bool EnforceJapaneseEraYearRanges; // 0x2
-        public bool FormatJapaneseFirstYearAsANumber; // 0x3
-        public bool EnforceLegacyJapaneseDateParsing; // 0x4
     }
 
     public class AppDomain : MarshalByRefObject
@@ -387,10 +375,13 @@ namespace ThirdParty.DotNet.System
 
     public class ArraySegment`1 : ValueType
     {
-        public on<BuffersImpl> Empty;
-        public BuffersImpl[] Array; // 0x10
-        public int Offset; // 0x18
-        public int Count; // 0x1C
+        public object Empty;
+        public object Array;
+        public object Offset;
+        public object Count;
+        public object System.Collections.Generic.IList<T>.Item;
+        public object System.Collections.Generic.IReadOnlyList<T>.Item;
+        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
 
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x7FFD4E2ADC40
@@ -473,10 +464,8 @@ namespace ThirdParty.DotNet.System
 
     public class AttributeUsageAttribute : Attribute
     {
-        public rmation AllowMultiple; // 0x10
-        public bool Inherited; // 0x14
-        public bool _inherited; // 0x15
-        public n Default;
+        public object AllowMultiple;
+        public object Inherited;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5392B0F0

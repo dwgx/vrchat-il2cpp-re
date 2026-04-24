@@ -7,8 +7,6 @@ namespace VRC.UI.Elements.HelperMethods
 {
     public class UIAlert : ValueType
     {
-        public itTypeSize=876 _message; // 0x10
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56A66150
         public void InternalEquals(){} // RVA: 0x7FFD56A66200
@@ -20,9 +18,6 @@ namespace VRC.UI.Elements.HelperMethods
 
     public class UIBinaryAlert : ValueType
     {
-        public itTypeSize=876 _localizedSuccess; // 0x10
-        public itTypeSize=876 _localizedFail; // 0x38
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56A66570
         public void InternalEquals(){} // RVA: 0x7FFD56A66640
@@ -36,9 +31,6 @@ namespace VRC.UI.Elements.HelperMethods
 
     public class UIConfirmDialog : ValueType
     {
-        public itTypeSize=876 _localizedTitle; // 0x10
-        public itTypeSize=876 _localizedBody; // 0x38
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56A66BF0
         public void InternalEquals(){} // RVA: 0x7FFD56A66D00
@@ -50,9 +42,6 @@ namespace VRC.UI.Elements.HelperMethods
 
     public class UIDeletePrompts : ValueType
     {
-        public utton._mobileIcon _confirmPrompt; // 0x10
-        public utton.rtIcon _resultOfActionPrompt; // 0x60
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD56A67230
         public void InternalEquals(){} // RVA: 0x7FFD56A67240

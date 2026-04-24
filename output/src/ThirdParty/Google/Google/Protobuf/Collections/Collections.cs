@@ -14,10 +14,19 @@ namespace ThirdParty.Google.Google.Protobuf.Collections
 
     public class MapField`2 : Object
     {
-        public URA.t_CurrencyDecimalDigits<T1717702160> Item;
-        public URA.t_CurrencyDecimalDigits<T1717702144> Keys;
-        public URA.DateTime<T1717702144,URA._cultureInfoNameMap<URA.mes<T1717702144,T1717702160>>> Values;
-        public URA.antCultureString<URA.mes<T1717702144,T1717702160>> Count;
+        public object Item;
+        public object Keys;
+        public object Values;
+        public object Count;
+        public object IsReadOnly;
+        public object System.Collections.IDictionary.IsFixedSize;
+        public object System.Collections.IDictionary.Keys;
+        public object System.Collections.IDictionary.Values;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object System.Collections.IDictionary.Item;
+        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys;
+        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values;
 
         // ── Methods ──
         public void Clone(){} // RVA: 0x7FFD4E078E90
@@ -66,10 +75,10 @@ namespace ThirdParty.Google.Google.Protobuf.Collections
 
     public class ProtobufEqualityComparers : Object
     {
-        public URA.t_CurrencyDecimalDigits<double> BitwiseDoubleEqualityComparer;
-        public URA.t_CurrencyDecimalDigits<float> BitwiseSingleEqualityComparer; // 0x8
-        public URA.t_CurrencyDecimalDigits<aphy<double>> BitwiseNullableDoubleEqualityComparer; // 0x10
-        public URA.t_CurrencyDecimalDigits<aphy<float>> BitwiseNullableSingleEqualityComparer; // 0x18
+        public object BitwiseDoubleEqualityComparer;
+        public object BitwiseSingleEqualityComparer;
+        public object BitwiseNullableDoubleEqualityComparer;
+        public object BitwiseNullableSingleEqualityComparer;
 
         // ── Methods ──
         public void GetEqualityComparer(){} // RVA: 0x7FFD4E078A90
@@ -82,11 +91,10 @@ namespace ThirdParty.Google.Google.Protobuf.Collections
 
     public class RepeatedField`1 : Object
     {
-        public URA.t_CurrencyDecimalDigits<T1717702208> Count;
-        public T1717702208[] IsReadOnly;
-        public int Item;
-        public T1717702208[] System.Collections.IList.IsFixedSize;
-        public int System.Collections.ICollection.IsSynchronized;
+        public int Count;
+        public URA.mes<string,_TA_ECDSA_SHA_1> IsReadOnly;
+        public cureProtocol.Org.BouncyCastle.Asn1.IsisMtt.X509<T1717579888> Item;
+        public URA.saAbbrevEnglishEraNames<URA.mes<string,T1717579888>> System.Collections.IList.IsFixedSize;
 
         // ── Methods ──
         public void Clone(){} // RVA: 0x7FFD4E078E90

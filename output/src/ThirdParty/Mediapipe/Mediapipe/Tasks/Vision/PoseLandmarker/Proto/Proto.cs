@@ -7,14 +7,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 {
     public class PoseLandmarkerGraphOptions : Object
     {
-        public gBox.itionBlend<rReflection.t_Threshold> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public nceFieldNumber.rdio BaseOptions; // 0x20
-        public cketTimestampForAddedPacket.Recordio PoseDetectorGraphOptions; // 0x28
-        public rReflection.nvalidUpperBound PoseLandmarksDetectorGraphOptions; // 0x30
-        public float MinTrackingConfidence; // 0x8
-        public float HasMinTrackingConfidence; // 0x38
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object BaseOptions;
+        public object PoseDetectorGraphOptions;
+        public object PoseLandmarksDetectorGraphOptions;
+        public object MinTrackingConfidence;
+        public object HasMinTrackingConfidence;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53713750
@@ -45,14 +45,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 
     public class PoseLandmarksDetectorGraphOptions : Object
     {
-        public gBox.itionBlend<rReflection.nvalidUpperBound> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public nceFieldNumber.rdio BaseOptions; // 0x20
-        public float MinDetectionConfidence; // 0x8
-        public float HasMinDetectionConfidence; // 0x28
-        public bool SmoothLandmarks; // 0xC
-        public bool HasSmoothLandmarks; // 0x2C
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object BaseOptions;
+        public object MinDetectionConfidence;
+        public object HasMinDetectionConfidence;
+        public object SmoothLandmarks;
+        public object HasSmoothLandmarks;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53715450

@@ -7,13 +7,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 {
     public class ActivateTrigger : MonoBehaviour
     {
-        public object action; // 0x20
-        public object target; // 0x28
-        public BuffersImpl source; // 0x30
-        public int triggerCount; // 0x38
-        public bool repeatTrigger; // 0x3C
-        public object Instantiate;
-
         // ── Methods ──
         public void DoActivateTrigger(){} // RVA: 0x7FFD4E342080
         public void OnTriggerEnter(){} // RVA: 0x7FFD4E342900
@@ -22,8 +15,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class AutoMobileShaderSwitch : MonoBehaviour
     {
-        public ayTransform_TrackedDeviceRelative m_ReplacementList; // 0x20
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4E341310
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -31,12 +22,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class CameraRefocus : Object
     {
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ Camera; // 0x10
-        public amut Lookatpoint; // 0x18
-        public object Parent; // 0x28
-        public amut m_OrigCameraPos; // 0x30
-        public bool m_Refocus; // 0x3C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342D70
         public void ChangeCamera(){} // RVA: 0x7FFD4E342E30
@@ -47,16 +32,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class CurveControlledBob : Object
     {
-        public float HorizontalBobRange; // 0x10
-        public float VerticalBobRange; // 0x14
-        public ÍÎÌÍÍÌÌÎÏÏ Bobcurve; // 0x18
-        public float VerticaltoHorizontalRatio; // 0x20
-        public float m_CyclePositionX; // 0x24
-        public float m_CyclePositionY; // 0x28
-        public float m_BobBaseInterval; // 0x2C
-        public amut m_OriginalCameraPosition; // 0x30
-        public float m_Time; // 0x3C
-
         // ── Methods ──
         public void Setup(){} // RVA: 0x7FFD4E343260
         public void DoHeadBob(){} // RVA: 0x7FFD4E343410
@@ -65,14 +40,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class DragRigidbody : MonoBehaviour
     {
-        public float k_Spring;
-        public float k_Damper;
-        public float k_Drag;
-        public float k_AngularDrag;
-        public float k_Distance;
-        public bool k_AttachToCenterOfMass;
-        public ernalSetMuscle_Injected m_SpringJoint; // 0x20
-
         // ── Methods ──
         public void Update(){} // RVA: 0x7FFD4E343870
         public void DragObject(){} // RVA: 0x7FFD4E343EC0
@@ -82,18 +49,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class DynamicShadowSettings : MonoBehaviour
     {
-        public ReflectionCubemap sunLight; // 0x20
-        public float minHeight; // 0x28
-        public float minShadowDistance; // 0x2C
-        public float minShadowBias; // 0x30
-        public float maxHeight; // 0x34
-        public float maxShadowDistance; // 0x38
-        public float maxShadowBias; // 0x3C
-        public float adaptTime; // 0x40
-        public float m_SmoothHeight; // 0x44
-        public float m_ChangeSpeed; // 0x48
-        public float m_OriginalStrength; // 0x4C
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E344810
         public void Update(){} // RVA: 0x7FFD4E344880
@@ -102,13 +57,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class FOVKick : Object
     {
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ Camera; // 0x10
-        public float originalFov; // 0x18
-        public float FOVIncrease; // 0x1C
-        public float TimeToIncrease; // 0x20
-        public float TimeToDecrease; // 0x24
-        public ÍÎÌÍÍÌÌÎÏÏ IncreaseCurve; // 0x28
-
         // ── Methods ──
         public void Setup(){} // RVA: 0x7FFD4E345170
         public void CheckStatus(){} // RVA: 0x7FFD4E345370
@@ -120,13 +68,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class FPSCounter : MonoBehaviour
     {
-        public float fpsMeasurePeriod;
-        public int m_FpsAccumulator; // 0x20
-        public float m_FpsNextPeriod; // 0x24
-        public int m_CurrentFps; // 0x28
-        public string display;
-        public ePathName117.? m_Text; // 0x30
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E345AD0
         public void Update(){} // RVA: 0x7FFD4E345BA0
@@ -135,9 +76,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class FollowTarget : MonoBehaviour
     {
-        public object target; // 0x20
-        public amut offset; // 0x28
-
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x7FFD4E344EF0
         public void .ctor(){} // RVA: 0x7FFD4E345110
@@ -145,10 +83,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class LerpControlledBob : Object
     {
-        public float BobDuration; // 0x10
-        public float BobAmount; // 0x14
-        public float m_Offset; // 0x18
-
         // ── Methods ──
         public void Offset(){} // RVA: 0x7FFD4E345CF0
         public void DoBobCycle(){} // RVA: 0x7FFD4E345D00
@@ -157,11 +91,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class ObjectResetter : MonoBehaviour
     {
-        public amut originalPosition; // 0x20
-        public R_12x12 originalRotation; // 0x2C
-        public URA.woDigitYearMax<?> originalStructure; // 0x40
-        public Touched Rigidbody; // 0x48
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E3460A0
         public void DelayedReset(){} // RVA: 0x7FFD4E346380
@@ -171,11 +100,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class ParticleSystemDestroyer : MonoBehaviour
     {
-        public float minDuration; // 0x20
-        public float maxDuration; // 0x24
-        public float m_MaxLifetime; // 0x28
-        public bool m_EarlyStop; // 0x2C
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E346AD0
         public void Stop(){} // RVA: 0x7FFD4E346B70
@@ -184,11 +108,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class PlatformSpecificContent : MonoBehaviour
     {
-        public EVRSkeletalTransformSpace m_BuildTargetGroup; // 0x20
-        public BuffersImpl[] m_Content; // 0x28
-        public glesLength[] m_MonoBehaviours; // 0x30
-        public bool m_ChildrenOfThisObject; // 0x38
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD4E347370
         public void CheckEnableContent(){} // RVA: 0x7FFD4E347370
@@ -198,17 +117,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class SimpleMouseRotator : MonoBehaviour
     {
-        public tionX rotationRange; // 0x20
-        public float rotationSpeed; // 0x28
-        public float dampingTime; // 0x2C
-        public bool autoZeroVerticalOnMobile; // 0x30
-        public bool autoZeroHorizontalOnMobile; // 0x31
-        public bool relative; // 0x32
-        public amut m_TargetAngles; // 0x34
-        public amut m_FollowAngles; // 0x40
-        public amut m_FollowVelocity; // 0x4C
-        public R_12x12 m_OriginalRotation; // 0x58
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E347A80
         public void Update(){} // RVA: 0x7FFD4E347B40
@@ -217,12 +125,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class SmoothFollow : MonoBehaviour
     {
-        public object target; // 0x20
-        public float distance; // 0x28
-        public float height; // 0x2C
-        public float rotationDamping; // 0x30
-        public float heightDamping; // 0x34
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E341310
         public void LateUpdate(){} // RVA: 0x7FFD4E348400
@@ -231,8 +133,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class TimedObjectActivator : MonoBehaviour
     {
-        public object entries; // 0x20
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E348F90
         public void Activate(){} // RVA: 0x7FFD4E3490C0
@@ -243,9 +143,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class TimedObjectDestructor : MonoBehaviour
     {
-        public float m_TimeOut; // 0x20
-        public bool m_DetachChildren; // 0x24
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E349790
         public void DestroyNow(){} // RVA: 0x7FFD4E3497E0
@@ -254,22 +151,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class WaypointCircuit : MonoBehaviour
     {
-        public mdMatrix44_t Length; // 0x20
-        public bool Waypoints; // 0x28
-        public int numPoints; // 0x2C
-        public amut[] points; // 0x30
-        public float[] distances; // 0x38
-        public float editorVisualisationSubsteps; // 0x40
-        public float <Length>k__BackingField; // 0x44
-        public int p0n; // 0x48
-        public int p1n; // 0x4C
-        public int p2n; // 0x50
-        public int p3n; // 0x54
-        public float i; // 0x58
-        public amut P0; // 0x5C
-        public amut P1; // 0x68
-        public amut P2; // 0x74
-        public amut P3; // 0x80
+        public object Length;
+        public object Waypoints;
 
         // ── Methods ──
         public void get_Length(){} // RVA: 0x7FFD4E349970
@@ -288,21 +171,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class WaypointProgressTracker : MonoBehaviour
     {
-        public ntimePerformsPostPresentHandoff.applicationLaunch targetPoint; // 0x20
-        public float speedPoint; // 0x28
-        public float progressPoint; // 0x2C
-        public float lookAheadForSpeedOffset; // 0x30
-        public float lookAheadForSpeedFactor; // 0x34
-        public n progressStyle; // 0x38
-        public float pointToPointThreshold; // 0x3C
-        public HmdVector3_t <targetPoint>k__BackingField; // 0x40
-        public HmdVector3_t <speedPoint>k__BackingField; // 0x58
-        public HmdVector3_t <progressPoint>k__BackingField; // 0x70
-        public object target; // 0x88
-        public float progressDistance; // 0x90
-        public int progressNum; // 0x94
-        public amut lastPosition; // 0x98
-        public float speed; // 0xA4
+        public object targetPoint;
+        public object speedPoint;
+        public object progressPoint;
 
         // ── Methods ──
         public void get_targetPoint(){} // RVA: 0x7FFD4E34AE10

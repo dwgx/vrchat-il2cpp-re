@@ -7,6 +7,9 @@ namespace VRC.Core.Networking
 {
     public class ArrayPoolShim : Object
     {
+        public er<T>.OnTextSelectionAsync.SubmitEventHandler<T>.OnSubmitAsync runnerPromise; // 0x10
+        public ÏÏÍÍÎÎ ex; // 0x18
+
         // ── Methods ──
         public void Exchange(){} // RVA: 0x7FFD4E096370
         public void Release(){} // RVA: 0x7FFD4E090A10
@@ -15,7 +18,12 @@ namespace VRC.Core.Networking
 
     public class ConcurrentLimitedCapacityList`1 : Object
     {
-        public rpreter.nfoGenerator<T1717689984> SerializationHistoryLength;
+        public object SerializationHistoryLength;
+        public object Count;
+        public object IsReadOnly;
+        public object Capacity;
+        public object Item;
+        public object Full;
 
         // ── Methods ──
         public void get_SerializationHistoryLength(){} // RVA: 0x7FFD4E079990
@@ -45,10 +53,12 @@ namespace VRC.Core.Networking
 
     public class DecodeParameters32 : Object
     {
-        public h8.HashSetWithSameEC Objects; // 0x10
-        public int ObjectIndex; // 0x20
-        public float SendTime; // 0x24
-        public h8.icsCodec SerializationRecovery; // 0x28
+        public object Objects;
+        public object ObjectIndex;
+        public object SendTime;
+        public object SerializationRecovery;
+        public object SerializationHashes;
+        public object HasSerializationRecovery;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5517AAD0
@@ -66,10 +76,12 @@ namespace VRC.Core.Networking
 
     public class DecodeParameters8 : Object
     {
-        public dexes.HashSetWithSameEC Objects; // 0x10
-        public int ObjectIndex; // 0x20
-        public float SendTime; // 0x24
-        public h8.icsCodec SerializationRecovery; // 0x28
+        public object Objects;
+        public object ObjectIndex;
+        public object SendTime;
+        public object SerializationRecovery;
+        public object SerializationHashes;
+        public object HasSerializationRecovery;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5517AAD0
@@ -87,7 +99,10 @@ namespace VRC.Core.Networking
 
     public class FixedByteBufferAllocator8 : ByteBufferAllocator
     {
-        public byte[] Span; // 0x18
+        public object Span;
+        public object ReadOnlySpan;
+        public object Memory;
+        public object ReadOnlyMemory;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5518D530
@@ -101,52 +116,14 @@ namespace VRC.Core.Networking
 
     public class FlatBufferConfig : Object
     {
-        public rpreter.Instruction Instance;
-        public int MaximumBunchCount32; // 0x10
-        public int MaximumBunchSize32; // 0x14
-        public int MaximumBunchSize8; // 0x18
-        public int NotVisibleFactor; // 0x1C
-        public int DistanceFactor; // 0x20
-        public int PlayerOrderFactor; // 0x24
-        public int PlayerOrderBucketSize; // 0x28
-        public int SlowUpdateFactorThreadhold; // 0x2C
-        public int DistanceClose; // 0x30
-        public int DistanceFar; // 0x34
-        public int ViewSegmentLength; // 0x38
-        public int SqrDistanceClose; // 0x3C
-        public int SqrDistanceFar; // 0x40
-        public float InterestRequestTimeLimit; // 0x44
-        public float ForcedInterestUpdateTimeLimit; // 0x48
-        public bool UseDirectPlayerSerialization8; // 0x4C
-        public float MaxDistanceFromCentre; // 0x50
-        public float MaxDistanceFromMembers; // 0x54
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5517ACD0
     }
 
     public class FlatBufferSerializerCodec : Object
     {
-        public rpreter.LiftedToNull Targets; // 0x10
-        public bool ForcePlayerStartSync; // 0x18
-        public object objectLock; // 0x20
-        public byte[] objOffsets8; // 0x28
-        public int[] objOffsets32; // 0x30
-        public dingValue..Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current receiveBuffer8; // 0x38
-        public rpreter.ompilerServices.IStrongBox.get_Value receiveAllocator8; // 0x40
-        public AssignBinaryExpression..Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current receiveBuffer32; // 0x48
-        public rpreter..get_Value receiveAllocator32; // 0x50
-        public dingValue.OnReturn builder8; // 0x58
-        public AssignBinaryExpression.OnReturn builder32; // 0x60
-        public otEqualByte recordSerialization; // 0x68
-        public int SyncPhysicsLength;
-        public float _firstPlayerEncodeTime; // 0x70
-        public uint _playerEncodeCount; // 0x74
-        public uint ForcePlayerSyncEveryN;
-        public byte[] _playerEncodeBuffer; // 0x78
-        public byte[] _emptyPlayerBuffer; // 0x80
-        public byte[] sparseAvailabilityBitmap; // 0x88
-        public bool[] sparseAvailability; // 0x90
+        public object Targets;
+        public object ForcePlayerStartSync;
 
         // ── Methods ──
         public void get_Targets(){} // RVA: 0x7FFD5517BBC0
@@ -190,8 +167,13 @@ namespace VRC.Core.Networking
 
     public class IFlatBufferNetworkSerializer
     {
-        public int EventCode;
-        public int name;
+        public object EventCode;
+        public object name;
+        public object IsSparse;
+        public object LastEncoding;
+        public object Targets;
+        public object MaxContentLength8;
+        public object MaxContentLength32;
 
         // ── Methods ──
         public void get_EventCode(){} // RVA: 0x7FFD4E079D00
@@ -286,7 +268,12 @@ namespace VRC.Core.Networking
 
     public class LimitedCapacityList`1 : Object
     {
-        public URA.woDigitYearMax<T1717690000> SerializationHistoryLength;
+        public object SerializationHistoryLength;
+        public object Count;
+        public object Item;
+        public object Capacity;
+        public object Full;
+        public object IsReadOnly;
 
         // ── Methods ──
         public void get_SerializationHistoryLength(){} // RVA: 0x7FFD4E079990
@@ -316,20 +303,12 @@ namespace VRC.Core.Networking
 
     public class NetworkUpdateRates : Object
     {
-        public int UpdateRateMSUdonManual;
-        public int UpdateRateMSMinimum; // 0x4
-        public int UpdateRateMSNormal; // 0x8
-        public int UpdateRateMSDesktop; // 0xC
-        public int UpdateRateMSMaximum; // 0x10
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5517A010
     }
 
     public class NumericExtensions : Object
     {
-        public float Epsilon;
-
         // ── Methods ──
         public void Clamp(){} // RVA: 0x7FFD4E2ADC40
         public void SingleToInt(){} // RVA: 0x7FFD5392C850
@@ -347,14 +326,13 @@ namespace VRC.Core.Networking
 
     public class PositionEvent : TweenableValue`1
     {
-        public byte flags; // 0x40
-        public dexes.eteValue IsKinematic; // 0x48
-        public dexes.eteValue UseGravity; // 0x50
-        public dexes.lArg HeldInHand; // 0x58
-        public bool DiscontinuityCounter; // 0x60
-        public bool Discontinuity; // 0x61
-        public int isHeld; // 0x64
-        public bool <Discontinuity>k__BackingField; // 0x68
+        public object flags;
+        public object IsKinematic;
+        public object UseGravity;
+        public object HeldInHand;
+        public object DiscontinuityCounter;
+        public object Discontinuity;
+        public object isHeld;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55181730 | overloaded x2
@@ -380,22 +358,6 @@ namespace VRC.Core.Networking
 
     public class QuantizedSerialization : Object
     {
-        public h8.lArg IdentityQuaternion32;
-        public URA.DateTime<s,_binder> serializers32; // 0x8
-        public float MinimumFloatTolerance;
-        public float MinimumRotationTolerance;
-        public float MinimumVectorTolerance;
-        public dexes.lArg IdentityQuaternion8; // 0x10
-        public byte[] temp2; // 0x18
-        public byte[] temp4; // 0x20
-        public byte[] temp5; // 0x28
-        public byte[] temp6; // 0x30
-        public byte[] temp9; // 0x38
-        public URA.DateTime<s,cateSecondErrorMessage> serializers; // 0x40
-        public float tenBitToFloatFactor;
-        public float twelveBitFloatFactor;
-        public float eightBitFloatFactor;
-
         // ── Methods ──
         public void Serialize(){} // RVA: 0x7FFD55185D50 | overloaded x11
         public void Deserialize(){} // RVA: 0x7FFD55186930 | overloaded x15
@@ -449,22 +411,12 @@ namespace VRC.Core.Networking
 
     public class RoomNetworkProperty : Object
     {
-        public byte Join_Token;
-        public byte Join_Token_Version;
-        public byte Feature_Flags;
-        public byte Combine_Messages;
-        public byte Use_Player_Persistence;
-        public byte Use_Instance_Persistence;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class SyncPhysicsCodec : Object
     {
-        public byte[] positionBuffer; // 0xFFFFFFFF
-        public byte[] floatByteBuffer; // 0xFFFFFFFF
-
         // ── Methods ──
         public void Encode(){} // RVA: 0x7FFD55182110
         public void Decode(){} // RVA: 0x7FFD55182500
@@ -473,14 +425,14 @@ namespace VRC.Core.Networking
 
     public class TimeProxy : Object
     {
-        public ormation<float> time;
-        public ormation<float> timeSinceEnteredRoom; // 0x8
-        public ormation<float> realtimeSinceStartup; // 0x10
-        public ormation<float> fixedTime; // 0x18
-        public ormation<float> deltaTime; // 0x20
-        public ormation<float> smoothDeltaTime; // 0x28
-        public ormation<long> unixTime; // 0x30
-        public ormation<int> renderedFrameCount; // 0x38
+        public object time;
+        public object timeSinceEnteredRoom;
+        public object realtimeSinceStartup;
+        public object fixedTime;
+        public object deltaTime;
+        public object smoothDeltaTime;
+        public object unixTime;
+        public object renderedFrameCount;
 
         // ── Methods ──
         public void get_time(){} // RVA: 0x7FFD5517A0B0
@@ -495,66 +447,6 @@ namespace VRC.Core.Networking
 
     public class VRCPhotonEvent : Object
     {
-        public byte Unused;
-        public byte ExecutiveMessage;
-        public byte ExecutiveAction;
-        public byte SetNetworkLimits;
-        public byte ResetEventCounts;
-        public byte VoiceDataReceived;
-        public byte SendPastEvents;
-        public byte SyncEvents;
-        public byte InitialSyncFinished;
-        public byte ProcessEvent;
-        public byte Serialization8;
-        public byte ReceiveInterval;
-        public byte Serialization32;
-        public byte UdonSerialization8;
-        public byte UdonSerialization32;
-        public byte PlayerSerialization8;
-        public byte PlayerSerialization32;
-        public byte PropSerialization8;
-        public byte PropSerialization32;
-        public byte PhysicsSerialization;
-        public byte UdonUnreliableSerialization;
-        public byte UdonNetworkCall;
-        public byte OwnershipCollection;
-        public byte OwnershipRequest;
-        public byte OwnershipTransfer;
-        public byte RestrictedViews;
-        public byte SerializationRecovery;
-        public byte InstanceMetadata;
-        public byte NotifySuspend;
-        public byte MasterTransfer;
-        public byte OnPlayerRestored;
-        public byte OnInstanceRestored;
-        public byte RequestNoPersist;
-        public byte UserModelUpdate;
-        public byte PlayerProperties;
-        public byte TextChatMessage;
-        public byte TextChatAction;
-        public byte StoreMadePurchase;
-        public byte StorePurchaseResult;
-        public byte StoreUsePurchase;
-        public byte StoreListProductOwners;
-        public byte AvatarInteractionList;
-        public byte EAC;
-        public byte AppD;
-        public byte FocusViewEvent;
-        public byte ContentToken;
-        public byte PlaceableEvent;
-        public byte InstanceContentSettingsUpdate;
-        public byte EmojiEvent;
-        public byte SerializationRecoveryUnpacked;
-        public byte BulkData;
-        public byte[] PlayerSerializationTypes;
-        public byte[] Serialization32Types; // 0x8
-        public byte[] Serialization8Types; // 0x10
-        public byte[] UdonSerializationTypes; // 0x18
-        public byte[] SerializationTypes; // 0x20
-        public byte[] UnreliableSerializationTypes; // 0x28
-        public byte[] ReliableSerializationTypes; // 0x30
-        public byte[] SceneTypes; // 0x38
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void .cctor(){} // RVA: 0x7FFD5517A3B0

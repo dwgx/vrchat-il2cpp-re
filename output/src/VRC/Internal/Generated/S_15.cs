@@ -199,6 +199,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÏÌÏÏÏÎÏÎÏÌÍÏÎÌÌÎÌÍÏÌÍÌ</summary>
     public class Static10m_BF69 : Object
     {
+        public string ÏÍÍÍÎÌÎÎÏÎÎÎÌÍÍÎÏÏÎÎÌÍÌ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC95A20
         public void .ctor(){} // RVA: 0x7FFD4E341310

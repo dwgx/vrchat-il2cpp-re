@@ -1834,8 +1834,14 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÍÏÍÎÍÌÎÏÏÌÍÌÎÍÏÏÌÎÌÌÌÎÏ</summary>
     public class UpdateComponent_8BC0 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public ileFullDirectoryInformation<object> _destroyCancellationToken;
+        public sageKind._internal _useGUILayout; // 0x10
+        public sageKind._internal linkedSource; // 0x18
+        public eObjectDelegate.gnoreNullTokensOnRead timer; // 0x20
+        public bool isDisposed; // 0x28
+        public eObjectDelegate.<PropertyCache>k__BackingField delayType; // 0x2C
+        public eObjectDelegate.sonElementConverter delayTiming; // 0x30
+        public sageKind._internal originalLinkCancellationTokenSource; // 0x38
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F7705F0
@@ -2210,6 +2216,11 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÌÌÌÏÎÎÍÍÌÏÎÌÌÍÎÎÏÌÎÍÏÍÌ</summary>
     public class UpdateComponent_B359 : MonoBehaviour
     {
+        public ePathName117.OpenVRLaunchOption_Bool root; // 0x20
+        public BuffersImpl header; // 0x28
+        public ePathName117.? disableButton; // 0x30
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ radiusText; // 0x38
+
         // ── Methods ──
         public void Update(){} // RVA: 0x7FFD4E4EE3B0
         public void RaiseCancellation(){} // RVA: 0x7FFD4E4EE560
@@ -2241,9 +2252,9 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÌÌÍÏÎÏÌÏÎÍÍÏÎÏÎÌÌÍÍÏÍÌÏ</summary>
     public class UpdateComponent_B603 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_8E7;
+        public object _destroyCancellationToken; // 0x20
+        public float _useGUILayout; // 0x28
+        public float f_8E7; // 0x2C
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F3510C0

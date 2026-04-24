@@ -23,13 +23,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ScheduledItem : Object
     {
-        public ormation<bool> startMs; // 0x10
-        public ormation<bool> delayMs;
-        public ormation<bool> intervalMs; // 0x8
-        public long endTimeMs; // 0x18
-        public long <delayMs>k__BackingField; // 0x20
-        public long <intervalMs>k__BackingField; // 0x28
-        public long <endTimeMs>k__BackingField; // 0x30
+        public object startMs;
+        public object delayMs;
+        public object intervalMs;
+        public object endTimeMs;
 
         // ── Methods ──
         public void get_startMs(){} // RVA: 0x7FFD4E3447C0
@@ -49,11 +46,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SortColumnDescription : Object
     {
-        public int columnName; // 0x10
-        public string columnIndex; // 0x18
-        public ÎÏÌÎÎÎÌÌÌ.ckEvent column; // 0x20
-        public ÎÏÌÎÎÎÌÌÌ.? direction; // 0x28
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.MixedValueContent> changed; // 0x30
+        public object columnName;
+        public object columnIndex;
+        public object column;
+        public object direction;
 
         // ── Methods ──
         public void get_columnName(){} // RVA: 0x7FFD4E3447C0
@@ -71,8 +67,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SortColumnDescriptions : Object
     {
-        public URA.?<ÎÏÌÎÎÎÌÌÌ.MixedValueContent> Count; // 0x10
-        public ÎÌÍÏÏÌÍÏ IsReadOnly; // 0x18
+        public object Count;
+        public object IsReadOnly;
 
         // ── Methods ──
         public void add_changed(){} // RVA: 0x7FFD54F6F870
@@ -93,10 +89,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StartDragArgs : ValueType
     {
-        public string title; // 0x10
-        public ÎÏÌÎÎÎÌÌÌ.rovider visualMode; // 0x18
-        public mePatterns.MES_SIZE genericData; // 0x20
-        public URA.bbrevEraNames<?> unityObjectReferences; // 0x28
+        public object title;
+        public object visualMode;
+        public object genericData;
+        public object unityObjectReferences;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54F91E30
@@ -111,8 +107,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleDataRef`1 : ValueType
     {
-        public ments.IStyle.set_borderBottomWidth<T1717596304> m_Ref;
-
         // ── Methods ──
         public void Acquire(){} // RVA: 0x7FFD4E2ADC40
         public void Release(){} // RVA: 0x7FFD4E090980
@@ -128,8 +122,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
-        public T1717596320 value;
-        public ÎÏÌÎÎÎÌÌÌ.lements.IStyle.set_borderRightWidth keyword;
+        public object value;
+        public object keyword;
 
         // ── Methods ──
         public void get_value(){} // RVA: 0x7FFD4E2ADC40
@@ -179,8 +173,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StylePropertyName : ValueType
     {
-        public tor.exSort id; // 0x10
-        public string name; // 0x18
+        public object id;
+        public object name;
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD4F840210
@@ -197,8 +191,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StylePropertyNameCollection : ValueType
     {
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.groundSize> propertiesList; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4ECFFE40
         public void GetEnumerator(){} // RVA: 0x7FFD54FB1F60
@@ -208,24 +200,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleSheet : ScriptableObject
     {
-        public bool importedWithErrors; // 0x18
-        public bool importedWithWarnings; // 0x19
-        public ÎÏÌÎÎÎÌÌÌ.rBottomWidth[] rules; // 0x20
-        public ÎÏÌÎÎÎÌÌÌ._InlineTextShadow[] complexSelectors; // 0x28
-        public float[] flattenedRecursiveImports; // 0x30
-        public tor.e.Utilities.Encoders[] contentHash; // 0x38
-        public ?[] isDefaultStyleSheet; // 0x40
-        public string[] strings; // 0x48
-        public ?[] assets; // 0x50
-        public e.top[] imports; // 0x58
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.inter> m_FlattenedImportedStyleSheets; // 0x60
-        public int m_ContentHash; // 0x68
-        public tor.UnityEngine.UIElements.IStyle.backgroundSize[] scalableImages; // 0x70
-        public URA.DateTime<string,ÎÏÌÎÎÎÌÌÌ._InlineTextShadow> orderedNameSelectors; // 0x78
-        public URA.DateTime<string,ÎÏÌÎÎÎÌÌÌ._InlineTextShadow> orderedTypeSelectors; // 0x80
-        public URA.DateTime<string,ÎÏÌÎÎÎÌÌÌ._InlineTextShadow> orderedClassSelectors; // 0x88
-        public bool m_IsDefaultStyleSheet; // 0x90
-        public string kCustomPropertyMarker;
+        public object importedWithErrors;
+        public object importedWithWarnings;
+        public object rules;
+        public object complexSelectors;
+        public object flattenedRecursiveImports;
+        public object contentHash;
+        public object isDefaultStyleSheet;
 
         // ── Methods ──
         public void get_importedWithErrors(){} // RVA: 0x7FFD54C48D80
@@ -274,8 +255,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleValueCollection : Object
     {
-        public URA.woDigitYearMax<tor.ntext> m_Values; // 0x10
-
         // ── Methods ──
         public void GetStyleLength(){} // RVA: 0x7FFD5501C3B0
         public void GetStyleFloat(){} // RVA: 0x7FFD5501C460
@@ -299,8 +278,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleValueHandle : ValueType
     {
-        public ÎÏÌÎÎÎÌÌÌ.tyEngine.UIElements.IStyle.cursor valueType; // 0x10
-        public int valueIndex; // 0x14
+        public object valueType;
 
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x7FFD543B3F90

@@ -7,23 +7,7 @@ namespace VRC.OSCQuery.Android
 {
     public class AndroidDiscovery : Object
     {
-        public float MulticastLockStatus; // 0x10
-        public bool stopAcquiringLock; // 0x14
-        public bool _multicastLockStatus; // 0x15
-        public object multicastLock; // 0x18
-        public object discoveryJava; // 0x20
-        public object activityContext; // 0x28
-        public ÍÎÏÌÎÍÍÌÎÎÎÌÏÍÎÌÌÏÍÌÌ.? javaBridge; // 0x30
-        public bool advertisingReady; // 0x38
-        public ileFullDirectoryInformation<bool> MulticastLockStatusChanged; // 0x40
-        public URA.ge<string> errors; // 0x48
-        public URA.onsDepth<string> _requiredPermissions; // 0x50
-        public string multicastPermission; // 0x58
-        public URA.onsDepth<gate.4> _oscQueryServices; // 0x60
-        public URA.onsDepth<gate.4> _oscServices; // 0x68
-        public URA.ge<gate.4> _profilesToAdvertise; // 0x70
-        public ileFullDirectoryInformation<gate.4> OnOscServiceAdded; // 0x78
-        public ileFullDirectoryInformation<gate.4> OnOscQueryServiceAdded; // 0x80
+        public object MulticastLockStatus;
 
         // ── Methods ──
         public void getMulticastLock(){} // RVA: 0x7FFD4E554A40
@@ -53,7 +37,11 @@ namespace VRC.OSCQuery.Android
 
     public class JavaBridge : AndroidJavaProxy
     {
-        public ileFullDirectoryInformation<gate.4> OnServiceProfileFound; // 0x20
+        public aluesByNumber ÎÍÎÏÍÎÍÌÌÍÏÏÍÏÎÎÍÎÍÍÍÍÍ; // 0x20
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ ÎÎÌÏÌÏÏÎÎÎÏÏÍÍÌÌÍÎÍÏÏÍÎ; // 0x28
+        public object ÎÌÎÏÌÏÌÏÍÍÌÏÏÎÏÍÍÏÌÏÌÌÌ; // 0x30
+        public ePathName117.? ÌÌÍÎÏÍÎÎÍÌÍÎÌÍÏÍÎÎÌÏÌÌÌ; // 0x38
+        public object ÏÎÍÏÏÍÌÎÏÏÌÎÏÌÏÌÌÌÎÌÌÎÎ; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E557A50

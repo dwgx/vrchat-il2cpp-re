@@ -7,12 +7,6 @@ namespace VRC.Udon.Common
 {
     public class UdonHeap : Object
     {
-        public uint DEFAULT_CAPACITY;
-        public uint MAXIMUM_CAPACITY;
-        public ArgCount.meticTypes[] _heap; // 0x10
-        public URA.DateTime<?,?> _strongBoxOfTypeCache; // 0x18
-        public URA.DateTime<?,?> _strongBoxOfTContainedTypeCache; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552A0E70 | overloaded x3
         public void CheckHeapBounds(){} // RVA: 0x7FFD506E5FC0
@@ -33,18 +27,13 @@ namespace VRC.Udon.Common
 
     public class UdonInputEventArgs : ValueType
     {
-        public ueItemAndPostProcess.ingSentinel eventType; // 0x10
-        public bool boolValue; // 0x14
-        public float floatValue; // 0x18
-        public ueItemAndPostProcess.troy handType; // 0x1C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552A1980 | overloaded x2
     }
 
     public class UdonVariableTable : Object
     {
-        public URA.DateTime<string,ted> VariableSymbols; // 0x10
+        public object VariableSymbols;
 
         // ── Methods ──
         public void get_VariableSymbols(){} // RVA: 0x7FFD552A67F0
@@ -59,8 +48,10 @@ namespace VRC.Udon.Common
 
     public class UdonVariable`1 : Object
     {
-        public string SymbolName;
-        public T1717743200 Value;
+        public object SymbolName;
+        public object Value;
+        public object VRC.Udon.Common.Interfaces.IUdonVariable.Value;
+        public object DeclaredType;
 
         // ── Methods ──
         public void get_SymbolName(){} // RVA: 0x7FFD4E078E90

@@ -354,6 +354,8 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÏÍÏÌÎÎÎÎÏÎÏÌÌÌÍÎÌÌÍÍ</summary>
     public class AsyncStateMachine_3AE7 : ValueType
     {
+        public ÌÍÍÍÏÍÌ ÏÏÎÍÎÍÍÏÎÎÎÏÍÏÏÌÍÍÌÎÏÌÌ; // 0x10
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EA2B460
         public void InternalEquals(){} // RVA: 0x7FFD4EA2BB60
@@ -1118,6 +1120,8 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÎÏÎÏÏÏÍÌÎÎÏÎÎÏÏÎÏÎÍÍÎ</summary>
     public class AsyncStateMachine_C1AB : ValueType
     {
+        public URA.woDigitYearMax<?> ÍÏÍÍÏÎÍÍÍÌÎÌÏÍÏÌÍÌÏÌÌÍÍ; // 0x10
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E341310
         public void InternalEquals(){} // RVA: 0x7FFD4E341310

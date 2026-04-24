@@ -7,11 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class FieldMouseDragger`1 : BaseFieldMouseDragger
     {
-        public ÎÏÌÎÎÎÌÌÌ.sName<T1717596000> dragging;
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius startValue;
-        public dRecorder m_DragHotZone;
-        public bool <dragging>k__BackingField;
-        public T1717596000 <startValue>k__BackingField;
+        public object dragging;
+        public object startValue;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -50,10 +47,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusEventBase`1 : EventBase`1
     {
-        public ÎÏÌÎÎÎÌÌÌ.ragLineAnchorHorizontalClassName relatedTarget;
-        public ÎÏÌÎÎÎÌÌÌ.edPaneMargins direction;
-        public ÎÏÌÎÎÎÌÌÌ.t focusController;
-        public bool IsFocusDelegated;
+        public object relatedTarget;
+        public object direction;
+        public object focusController;
+        public object IsFocusDelegated;
 
         // ── Methods ──
         public void get_relatedTarget(){} // RVA: 0x7FFD4E078E90
@@ -72,10 +69,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Focusable : CallbackEventHandler
     {
-        public bool focusController; // 0x20
-        public int focusable; // 0x24
-        public bool tabIndex; // 0x28
-        public bool delegatesFocus; // 0x29
+        public object focusController;
+        public object focusable;
+        public object tabIndex;
+        public object delegatesFocus;
+        public object excludeFromFocusRing;
+        public object canGrabFocus;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54FB3010

@@ -7,27 +7,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class JsonConfig : Object
     {
-        public string ID_SIG;
-        public string TYPE_SIG;
-        public string REGULAR_ARRAY_LENGTH_SIG;
-        public string PRIMITIVE_ARRAY_LENGTH_SIG;
-        public string REGULAR_ARRAY_CONTENT_SIG;
-        public string PRIMITIVE_ARRAY_CONTENT_SIG;
-        public string INTERNAL_REF_SIG;
-        public string EXTERNAL_INDEX_REF_SIG;
-        public string EXTERNAL_GUID_REF_SIG;
-        public string EXTERNAL_STRING_REF_SIG_OLD;
-        public string EXTERNAL_STRING_REF_SIG_FIXED;
     }
 
     public class JsonDataReader : BaseDataReader
     {
-        public otRelativeToRoot Stream; // 0x30
-        public aphy<LinePlane> peekedEntryType; // 0x38
-        public string peekedEntryName; // 0x40
-        public string peekedEntryContent; // 0x48
-        public URA.DateTime<int,?> seenTypes; // 0x50
-        public URA.DateTime<?,formation> primitiveArrayReaders; // 0x58
+        public object Stream;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553ED720 | overloaded x2
@@ -81,17 +65,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class JsonDataWriter : BaseDataWriter
     {
-        public uint[] ByteToHexCharLookup;
-        public string NEW_LINE; // 0x8
-        public bool justStarted; // 0x30
-        public bool forceNoSeparatorNextLine; // 0x31
-        public URA.DateTime<?,formation> primitiveTypeWriters; // 0x38
-        public URA.DateTime<?,int> seenTypes; // 0x40
-        public byte[] buffer; // 0x48
-        public int bufferIndex; // 0x50
-        public bool FormatAsReadable; // 0x54
-        public bool EnableTypeOptimization; // 0x55
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553F1E60 | overloaded x2
         public void MarkJustStarted(){} // RVA: 0x7FFD4F689BA0
@@ -134,15 +107,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class JsonTextReader : Object
     {
-        public URA.DateTime<char,aphy<LinePlane>> Context;
-        public URA.DateTime<char,char> UnescapeDictionary; // 0x8
-        public Inherited.ht_to_left reader; // 0x10
-        public int bufferIndex; // 0x18
-        public char[] buffer; // 0x20
-        public aphy<char> lastReadChar; // 0x28
-        public aphy<char> peekedChar; // 0x2C
-        public URA.ge<char> emergencyPlayback; // 0x30
-        public rASCIIFast <Context>k__BackingField; // 0x38
+        public object Context;
 
         // ── Methods ──
         public void get_Context(){} // RVA: 0x7FFD4E5F0140

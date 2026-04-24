@@ -120,6 +120,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÎÍÍÎÌÎÎÏÎÎÌÌÌÌÌÌÏÎÎÌÏÎÍ</summary>
     public class Static10m_A218 : Object
     {
+        public object ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x10
+        public ÎÌÍÏÏÌÍÏ ÎÎÌÎÎÎÍÏÌÏÍÎÏÌÌÎÌÎÏÏÌÎÏ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC7B0D0
         public void Equals(){} // RVA: 0x7FFD4EC7B0D0

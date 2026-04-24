@@ -7,16 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.UI
 {
     public class AnimationTriggers : Object
     {
-        public string normalTrigger;
-        public string highlightedTrigger;
-        public string pressedTrigger;
-        public string selectedTrigger;
-        public string disabledTrigger;
-        public string m_NormalTrigger; // 0x10
-        public string m_HighlightedTrigger; // 0x18
-        public string m_PressedTrigger; // 0x20
-        public string m_SelectedTrigger; // 0x28
-        public string m_DisabledTrigger; // 0x30
+        public object normalTrigger;
+        public object highlightedTrigger;
+        public object pressedTrigger;
+        public object selectedTrigger;
+        public object disabledTrigger;
 
         // ── Methods ──
         public void get_normalTrigger(){} // RVA: 0x7FFD4E35C380
@@ -34,12 +29,9 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class AspectRatioFitter : UIBehaviour
     {
-        public 1 aspectMode; // 0x20
-        public float aspectRatio; // 0x24
-        public 16 rectTransform; // 0x28
-        public bool m_DelayedSetDirty; // 0x30
-        public bool m_DoesParentExist; // 0x31
-        public tton13 m_Tracker; // 0x32
+        public object aspectMode;
+        public object aspectRatio;
+        public object rectTransform;
 
         // ── Methods ──
         public void get_aspectMode(){} // RVA: 0x7FFD4E4FBBE0
@@ -67,7 +59,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class BaseMeshEffect : UIBehaviour
     {
-        public ePathName117.hInputPathName124 graphic; // 0x20
+        public object graphic;
 
         // ── Methods ──
         public void get_graphic(){} // RVA: 0x7FFD55094F50
@@ -80,7 +72,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Button : Selectable
     {
-        public me20 onClick; // 0x100
+        public object onClick;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54E72290
@@ -94,21 +86,16 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class CanvasScaler : UIBehaviour
     {
-        public rder uiScaleMode; // 0x20
-        public float referencePixelsPerUnit; // 0x24
-        public float scaleFactor; // 0x28
-        public tionX referenceResolution; // 0x2C
-        public eamVR_TrackingLossColor_String screenMatchMode; // 0x34
-        public float matchWidthOrHeight; // 0x38
-        public float physicalUnit;
-        public object fallbackScreenDPI; // 0x3C
-        public float defaultSpriteDPI; // 0x40
-        public float dynamicPixelsPerUnit; // 0x44
-        public float m_DynamicPixelsPerUnit; // 0x48
-        public pad m_Canvas; // 0x50
-        public float m_PrevScaleFactor; // 0x58
-        public float m_PrevReferencePixelsPerUnit; // 0x5C
-        public bool m_PresetInfoIsWorld; // 0x60
+        public object uiScaleMode;
+        public object referencePixelsPerUnit;
+        public object scaleFactor;
+        public object referenceResolution;
+        public object screenMatchMode;
+        public object matchWidthOrHeight;
+        public object physicalUnit;
+        public object fallbackScreenDPI;
+        public object defaultSpriteDPI;
+        public object dynamicPixelsPerUnit;
 
         // ── Methods ──
         public void get_uiScaleMode(){} // RVA: 0x7FFD4E4FBBE0
@@ -146,14 +133,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class CanvasUpdateRegistry : Object
     {
-        public ePathName117.tPathName30 instance;
-        public bool m_PerformingLayoutUpdate; // 0x10
-        public bool m_PerformingGraphicUpdate; // 0x11
-        public string[] m_CanvasUpdateProfilerStrings; // 0x18
-        public string m_CullingUpdateProfilerString;
-        public llection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear.s.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear<ePathName117.PathName28> m_LayoutRebuildQueue; // 0x20
-        public llection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear.s.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear<ePathName117.PathName28> m_GraphicRebuildQueue; // 0x28
-        public ation<ePathName117.PathName28> s_SortLayoutFunction; // 0x8
+        public object instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54E72840
@@ -182,9 +162,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ClipperRegistry : Object
     {
-        public ePathName117.Name75 instance;
-        public llection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear.s.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear<ePathName117.nputPathName80> m_Clippers; // 0x10
-        public bool HasCulledThisFrame; // 0x18
+        public object instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54E75330
@@ -203,14 +181,13 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ColorBlock : ValueType
     {
-        public object normalColor; // 0x10
-        public object highlightedColor; // 0x20
-        public object pressedColor; // 0x30
-        public object selectedColor; // 0x40
-        public object disabledColor; // 0x50
-        public float colorMultiplier; // 0x60
-        public float fadeDuration; // 0x64
-        public ePathName117.e54 defaultColorBlock;
+        public object normalColor;
+        public object highlightedColor;
+        public object pressedColor;
+        public object selectedColor;
+        public object disabledColor;
+        public object colorMultiplier;
+        public object fadeDuration;
 
         // ── Methods ──
         public void get_normalColor(){} // RVA: 0x7FFD4E6E0590
@@ -236,10 +213,9 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ContentSizeFitter : UIBehaviour
     {
-        public ÏÎÌÎÏÏÍÍÌÌ horizontalFit; // 0x20
-        public ÏÎÌÎÏÏÍÍÌÌ verticalFit; // 0x24
-        public 16 rectTransform; // 0x28
-        public tton13 m_Tracker; // 0x30
+        public object horizontalFit;
+        public object verticalFit;
+        public object rectTransform;
 
         // ── Methods ──
         public void get_horizontalFit(){} // RVA: 0x7FFD4E4FBBE0
@@ -259,16 +235,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class DefaultControls : Object
     {
-        public 94 factory;
-        public float kWidth;
-        public float kThickHeight;
-        public float kThinHeight;
-        public tionX s_ThickElementSize; // 0x8
-        public tionX s_ThinElementSize; // 0x10
-        public tionX s_ImageElementSize; // 0x18
-        public object s_DefaultSelectableColor; // 0x20
-        public object s_PanelColor; // 0x30
-        public object s_TextColor; // 0x40
+        public object factory;
 
         // ── Methods ──
         public void get_factory(){} // RVA: 0x7FFD54E75FC0
@@ -294,22 +261,15 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Dropdown : Selectable
     {
-        public 16 template; // 0x100
-        public ePathName117.? captionText; // 0x108
-        public ePathName117.ÎÌÍÍÎÏÌ captionImage; // 0x110
-        public ePathName117.? itemText; // 0x118
-        public ePathName117.ÎÌÍÍÎÏÌ itemImage; // 0x120
-        public int options; // 0x128
-        public teNormalizer onValueChanged; // 0x130
-        public hortNormalizer alphaFadeSpeed; // 0x138
-        public float value; // 0x140
-        public BuffersImpl m_Dropdown; // 0x148
-        public BuffersImpl m_Blocker; // 0x150
-        public URA.woDigitYearMax<ChannelNormalized> m_Items; // 0x158
-        public ollections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Contains.dth<ollections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Contains.yLeftLandmarkColor> m_AlphaTweenRunner; // 0x160
-        public bool validTemplate; // 0x168
-        public int kHighSortingLayer;
-        public Src s_NoOptionData;
+        public object template;
+        public object captionText;
+        public object captionImage;
+        public object itemText;
+        public object itemImage;
+        public object options;
+        public object onValueChanged;
+        public object alphaFadeSpeed;
+        public object value;
 
         // ── Methods ──
         public void get_template(){} // RVA: 0x7FFD4E916C80
@@ -363,18 +323,19 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class FontData : Object
     {
-        public IsWithinBudget defaultFontData; // 0x10
-        public int font; // 0x18
-        public r fontSize; // 0x1C
-        public bool fontStyle; // 0x20
-        public int bestFit; // 0x24
-        public int minSize; // 0x28
-        public RingAutoIndexSort maxSize; // 0x2C
-        public bool alignment; // 0x30
-        public bool alignByGeometry; // 0x31
-        public 2 richText; // 0x34
-        public F218011DDEDB224BCED54E9924CA80D32FD85A52A959E03 horizontalOverflow; // 0x38
-        public float verticalOverflow; // 0x3C
+        public object defaultFontData;
+        public object font;
+        public object fontSize;
+        public object fontStyle;
+        public object bestFit;
+        public object minSize;
+        public object maxSize;
+        public object alignment;
+        public object alignByGeometry;
+        public object richText;
+        public object horizontalOverflow;
+        public object verticalOverflow;
+        public object lineSpacing;
 
         // ── Methods ──
         public void get_defaultFontData(){} // RVA: 0x7FFD54E841C0
@@ -409,8 +370,6 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class FontUpdateTracker : Object
     {
-        public URA.DateTime<IsWithinBudget,URA.onsDepth<ePathName117.?>> m_Tracked;
-
         // ── Methods ──
         public void TrackText(){} // RVA: 0x7FFD54E84280
         public void RebuildForFont(){} // RVA: 0x7FFD54E846C0
@@ -420,29 +379,20 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Graphic : UIBehaviour
     {
-        public atrix_Injected defaultGraphicMaterial;
-        public ector color; // 0x8
-        public atrix_Injected raycastTarget; // 0x20
-        public object raycastPadding; // 0x28
-        public bool useLegacyMeshGeneration; // 0x38
-        public bool depth; // 0x39
-        public bool rectTransform; // 0x3A
-        public bool canvas; // 0x3B
-        public get_boundingBoxMode canvasRenderer; // 0x3C
-        public 16 defaultMaterial; // 0x50
-        public kingField material; // 0x58
-        public pad materialForRendering; // 0x60
-        public bool mainTexture; // 0x68
-        public bool workerMesh; // 0x69
-        public rScript.AllObsolete m_OnDirtyLayoutCallback; // 0x70
-        public rScript.AllObsolete m_OnDirtyVertsCallback; // 0x78
-        public rScript.AllObsolete m_OnDirtyMaterialCallback; // 0x80
-        public object s_Mesh; // 0x10
-        public ePathName117.eadOnly s_VertexHelper; // 0x18
-        public object m_CachedMesh; // 0x88
-        public tionX[] m_CachedUvs; // 0x90
-        public ollections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Contains.dth<ollections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Contains.eWidth> m_ColorTweenRunner; // 0x98
-        public bool <useLegacyMeshGeneration>k__BackingField; // 0xA0
+        public object defaultGraphicMaterial;
+        public object color;
+        public object raycastTarget;
+        public object raycastPadding;
+        public object useLegacyMeshGeneration;
+        public object depth;
+        public object rectTransform;
+        public object canvas;
+        public object canvasRenderer;
+        public object defaultMaterial;
+        public object material;
+        public object materialForRendering;
+        public object mainTexture;
+        public object workerMesh;
 
         // ── Methods ──
         public void get_defaultGraphicMaterial(){} // RVA: 0x7FFD54E84D30
@@ -508,13 +458,13 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class GraphicRaycaster : BaseRaycaster
     {
-        public int sortOrderPriority;
-        public bool renderOrderPriority; // 0x28
-        public eName75 ignoreReversedGraphics; // 0x2C
-        public object blockingObjects; // 0x30
-        public pad blockingMask; // 0x38
-        public URA.woDigitYearMax<ePathName117.hInputPathName124> canvas; // 0x40
-        public URA.woDigitYearMax<ePathName117.hInputPathName124> eventCamera;
+        public object sortOrderPriority;
+        public object renderOrderPriority;
+        public object ignoreReversedGraphics;
+        public object blockingObjects;
+        public object blockingMask;
+        public object canvas;
+        public object eventCamera;
 
         // ── Methods ──
         public void get_sortOrderPriority(){} // RVA: 0x7FFD54E89900
@@ -534,10 +484,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class GraphicRegistry : Object
     {
-        public ePathName117.me78 instance;
-        public URA.DateTime<pad,llection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear.s.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear<ePathName117.hInputPathName124>> m_Graphics; // 0x10
-        public URA.DateTime<pad,llection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear.s.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Valve.Newtonsoft.Json.Linq.JToken>>.Clear<ePathName117.hInputPathName124>> m_RaycastableGraphics; // 0x18
-        public URA.woDigitYearMax<ePathName117.hInputPathName124> s_EmptyList; // 0x8
+        public object instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54E8BD50
@@ -555,12 +502,12 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class GridLayoutGroup : LayoutGroup
     {
-        public ncReprojection_Bool startCorner; // 0x60
-        public nitAttributeType startAxis; // 0x64
-        public tionX cellSize; // 0x68
-        public tionX spacing; // 0x70
-        public ingField constraint; // 0x78
-        public int constraintCount; // 0x7C
+        public object startCorner;
+        public object startAxis;
+        public object cellSize;
+        public object spacing;
+        public object constraint;
+        public object constraintCount;
 
         // ── Methods ──
         public void get_startCorner(){} // RVA: 0x7FFD4E558C20
@@ -595,14 +542,14 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class HorizontalOrVerticalLayoutGroup : LayoutGroup
     {
-        public float spacing; // 0x60
-        public bool childForceExpandWidth; // 0x64
-        public bool childForceExpandHeight; // 0x65
-        public bool childControlWidth; // 0x66
-        public bool childControlHeight; // 0x67
-        public bool childScaleWidth; // 0x68
-        public bool childScaleHeight; // 0x69
-        public bool reverseArrangement; // 0x6A
+        public object spacing;
+        public object childForceExpandWidth;
+        public object childForceExpandHeight;
+        public object childControlWidth;
+        public object childControlHeight;
+        public object childScaleWidth;
+        public object childScaleHeight;
+        public object reverseArrangement;
 
         // ── Methods ──
         public void get_spacing(){} // RVA: 0x7FFD4E451E10
@@ -739,27 +686,33 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Image : MaskableGraphic
     {
-        public atrix_Injected sprite;
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField overrideSprite; // 0xE0
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField activeSprite; // 0xE8
-        public object type; // 0xF0
-        public bool preserveAspect; // 0xF4
-        public bool fillCenter; // 0xF5
-        public lotName86 fillMethod; // 0xF8
-        public float fillAmount; // 0xFC
-        public bool fillClockwise; // 0x100
-        public int fillOrigin; // 0x104
-        public float eventAlphaThreshold; // 0x108
-        public bool alphaHitTestMinimumThreshold; // 0x10C
-        public bool useSpriteMesh; // 0x10D
-        public float defaultETC1GraphicMaterial; // 0x110
-        public float mainTexture; // 0x114
-        public tionX[] hasBorder; // 0x8
-        public tionX[] pixelsPerUnitMultiplier; // 0x10
-        public amut[] pixelsPerUnit; // 0x18
-        public amut[] multipliedPixelsPerUnit; // 0x20
-        public URA.woDigitYearMax<ePathName117.ÎÌÍÍÎÏÌ> material; // 0x28
-        public bool minWidth; // 0x30
+        public object sprite;
+        public object overrideSprite;
+        public object activeSprite;
+        public object type;
+        public object preserveAspect;
+        public object fillCenter;
+        public object fillMethod;
+        public object fillAmount;
+        public object fillClockwise;
+        public object fillOrigin;
+        public object eventAlphaThreshold;
+        public object alphaHitTestMinimumThreshold;
+        public object useSpriteMesh;
+        public object defaultETC1GraphicMaterial;
+        public object mainTexture;
+        public object hasBorder;
+        public object pixelsPerUnitMultiplier;
+        public object pixelsPerUnit;
+        public object multipliedPixelsPerUnit;
+        public object material;
+        public object minWidth;
+        public object preferredWidth;
+        public object flexibleWidth;
+        public object minHeight;
+        public object preferredHeight;
+        public object flexibleHeight;
+        public object layoutPriority;
 
         // ── Methods ──
         public void get_sprite(){} // RVA: 0x7FFD4E3C2900
@@ -839,64 +792,51 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class InputField : Selectable
     {
-        public Hash128ToStringImpl input; // 0x100
-        public char[] compositionString;
-        public bool mesh; // 0x8
-        public bool cachedInputTextGenerator; // 0x9
-        public ePathName117.? shouldHideMobileInput; // 0x108
-        public ePathName117.hInputPathName124 shouldActivateOnSelect; // 0x110
-        public 2_FE_LONGS text; // 0x118
-        public ÍÏÎÍÏÏÌÏÏÍÏÌÌÎÌÎÌ isFocused; // 0x11C
-        public char caretBlinkRate; // 0x120
-        public Underscore caretWidth; // 0x124
-        public object textComponent; // 0x128
-        public bool placeholder; // 0x12C
-        public aterial caretColor; // 0x130
-        public int customCaretColor; // 0x134
-        public et_isAutoFitting selectionColor; // 0x138
-        public et_isAutoFitting onEndEdit; // 0x140
-        public utSourceType19 onSubmit; // 0x148
-        public ting onValueChange; // 0x150
-        public idth onValueChanged; // 0x158
-        public object onValidateInput; // 0x160
-        public bool characterLimit; // 0x170
-        public object contentType; // 0x174
-        public string lineType; // 0x188
-        public float inputType; // 0x190
-        public int touchScreenKeyboard; // 0x194
-        public bool keyboardType; // 0x198
-        public bool characterValidation; // 0x199
-        public int readOnly; // 0x19C
-        public int multiLine; // 0x1A0
-        public 16 asteriskChar; // 0x1A8
-        public cTotalCost[] wasCanceled; // 0x1B0
-        public in2 caretPositionInternal; // 0x1B8
-        public kingField caretSelectPositionInternal; // 0x1C0
-        public bool hasSelection; // 0x1C8
-        public object caretPosition; // 0x1D0
-        public bool selectionAnchorPosition; // 0x1D8
-        public bool selectionFocusPosition; // 0x1D9
-        public bool clipboard; // 0x1DA
-        public bool minWidth; // 0x1DB
-        public float preferredWidth;
-        public float flexibleWidth;
-        public bool minHeight; // 0x1DC
-        public ts preferredHeight; // 0x1E0
-        public float flexibleHeight; // 0x1E8
-        public int layoutPriority; // 0x1EC
-        public int m_DrawEnd; // 0x1F0
-        public ts m_DragCoroutine; // 0x1F8
-        public string m_OriginalText; // 0x200
-        public bool m_WasCanceled; // 0x208
-        public bool m_HasDoneFocusTransition; // 0x209
-        public object m_WaitForSecondsRealtime; // 0x210
-        public bool m_TouchKeyboardAllowsInPlaceEditing; // 0x218
-        public bool m_IsCompositionActive; // 0x219
-        public string kEmailSpecialCharacters;
-        public string kOculusQuestDeviceModel;
-        public string kPicoDeviceModel;
-        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE m_ProcessingEvent; // 0x220
-        public int k_MaxTextLength;
+        public object input;
+        public object compositionString;
+        public object mesh;
+        public object cachedInputTextGenerator;
+        public object shouldHideMobileInput;
+        public object shouldActivateOnSelect;
+        public object text;
+        public object isFocused;
+        public object caretBlinkRate;
+        public object caretWidth;
+        public object textComponent;
+        public object placeholder;
+        public object caretColor;
+        public object customCaretColor;
+        public object selectionColor;
+        public object onEndEdit;
+        public object onSubmit;
+        public object onValueChange;
+        public object onValueChanged;
+        public object onValidateInput;
+        public object characterLimit;
+        public object contentType;
+        public object lineType;
+        public object inputType;
+        public object touchScreenKeyboard;
+        public object keyboardType;
+        public object characterValidation;
+        public object readOnly;
+        public object multiLine;
+        public object asteriskChar;
+        public object wasCanceled;
+        public object caretPositionInternal;
+        public object caretSelectPositionInternal;
+        public object hasSelection;
+        public object caretPosition;
+        public object selectionAnchorPosition;
+        public object selectionFocusPosition;
+        public object clipboard;
+        public object minWidth;
+        public object preferredWidth;
+        public object flexibleWidth;
+        public object minHeight;
+        public object preferredHeight;
+        public object flexibleHeight;
+        public object layoutPriority;
 
         // ── Methods ──
         public void get_input(){} // RVA: 0x7FFD55059180
@@ -1067,14 +1007,14 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class LayoutElement : UIBehaviour
     {
-        public bool ignoreLayout; // 0x20
-        public float minWidth; // 0x24
-        public float minHeight; // 0x28
-        public float preferredWidth; // 0x2C
-        public float preferredHeight; // 0x30
-        public float flexibleWidth; // 0x34
-        public float flexibleHeight; // 0x38
-        public int layoutPriority; // 0x3C
+        public object ignoreLayout;
+        public object minWidth;
+        public object minHeight;
+        public object preferredWidth;
+        public object preferredHeight;
+        public object flexibleWidth;
+        public object flexibleHeight;
+        public object layoutPriority;
 
         // ── Methods ──
         public void get_ignoreLayout(){} // RVA: 0x7FFD4E42F9D0
@@ -1106,14 +1046,18 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class LayoutGroup : UIBehaviour
     {
-        public Field padding; // 0x20
-        public RingAutoIndexSort childAlignment; // 0x28
-        public 16 rectTransform; // 0x30
-        public tton13 rectChildren; // 0x38
-        public tionX minWidth; // 0x3C
-        public tionX preferredWidth; // 0x44
-        public tionX flexibleWidth; // 0x4C
-        public URA.woDigitYearMax<16> minHeight; // 0x58
+        public object padding;
+        public object childAlignment;
+        public object rectTransform;
+        public object rectChildren;
+        public object minWidth;
+        public object preferredWidth;
+        public object flexibleWidth;
+        public object minHeight;
+        public object preferredHeight;
+        public object flexibleHeight;
+        public object layoutPriority;
+        public object isRootLayoutGroup;
 
         // ── Methods ──
         public void get_padding(){} // RVA: 0x7FFD4E36F0C0
@@ -1155,12 +1099,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class LayoutRebuilder : Object
     {
-        public 16 transform; // 0x10
-        public int m_CachedHashFromTransform; // 0x18
-        public cy.gContentId<ePathName117.ling_Bool> s_Rebuilders;
-        public string TAG_CACHED;
-        public URA.DateTime<16,URA.woDigitYearMax<led>> _cachedControllerComponents; // 0x8
-        public URA.DateTime<16,URA.woDigitYearMax<led>> _cachedElementComponents; // 0x10
+        public object transform;
 
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD5506E3F0
@@ -1204,11 +1143,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Mask : UIBehaviour
     {
-        public 16 rectTransform; // 0x20
-        public bool showMaskGraphic; // 0x28
-        public ePathName117.hInputPathName124 graphic; // 0x30
-        public atrix_Injected m_MaskMaterial; // 0x38
-        public atrix_Injected m_UnmaskMaterial; // 0x40
+        public ate.ination rectTransform;
 
         // ── Methods ──
         public void get_rectTransform(){} // RVA: 0x7FFD55072AF0
@@ -1239,16 +1174,10 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class MaskableGraphic : Graphic
     {
-        public bool onCullStateChanged; // 0xA8
-        public atrix_Injected maskable; // 0xB0
-        public ePathName117.alPriorityMax isMaskingGraphic; // 0xB8
-        public bool rootCanvasRect; // 0xC0
-        public bool m_IsMaskingGraphic; // 0xC1
-        public bool m_IncludeForMasking; // 0xC2
-        public h_VRWebHelper_DebuggerPort_Int32 m_OnCullStateChanged; // 0xC8
-        public bool m_ShouldRecalculate; // 0xD0
-        public int m_StencilValue; // 0xD4
-        public amut[] m_Corners; // 0xD8
+        public object onCullStateChanged;
+        public object maskable;
+        public object isMaskingGraphic;
+        public object rootCanvasRect;
 
         // ── Methods ──
         public void get_onCullStateChanged(){} // RVA: 0x7FFD4E499460
@@ -1292,12 +1221,13 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Navigation : ValueType
     {
-        public object mode; // 0x10
-        public bool wrapAround; // 0x14
-        public ePathName117.? selectOnUp; // 0x18
-        public ePathName117.? selectOnDown; // 0x20
-        public ePathName117.? selectOnLeft; // 0x28
-        public ePathName117.? selectOnRight; // 0x30
+        public object mode;
+        public object wrapAround;
+        public object selectOnUp;
+        public object selectOnDown;
+        public object selectOnLeft;
+        public object selectOnRight;
+        public object defaultNavigation;
 
         // ── Methods ──
         public void get_mode(){} // RVA: 0x7FFD4F840210
@@ -1332,8 +1262,9 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class RawImage : MaskableGraphic
     {
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField mainTexture; // 0xE0
-        public dRecorder texture; // 0xE8
+        public object mainTexture;
+        public object texture;
+        public object uvRect;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55077BF0
@@ -1349,18 +1280,12 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class RectMask2D : UIBehaviour
     {
-        public ePathName117.PathName83 padding; // 0x20
-        public 16 softness; // 0x28
-        public URA.onsDepth<ePathName117.pch_Dashboard_Position> Canvas; // 0x30
-        public URA.onsDepth<ePathName117.ame80> canvasRect; // 0x38
-        public bool rectTransform; // 0x40
-        public URA.woDigitYearMax<ePathName117.alPriorityMax> rootCanvasRect; // 0x48
-        public dRecorder m_LastClipRectCanvasSpace; // 0x50
-        public bool m_ForceClip; // 0x60
-        public get_boundingBoxMode m_Padding; // 0x64
-        public onY m_Softness; // 0x74
-        public pad m_Canvas; // 0x80
-        public amut[] m_Corners; // 0x88
+        public object padding;
+        public object softness;
+        public object Canvas;
+        public object canvasRect;
+        public object rectTransform;
+        public object rootCanvasRect;
 
         // ── Methods ──
         public void get_padding(){} // RVA: 0x7FFD4E451E00
@@ -1386,9 +1311,6 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class RectangularVertexClipper : Object
     {
-        public amut[] m_WorldCorners; // 0x10
-        public amut[] m_CanvasCorners; // 0x18
-
         // ── Methods ──
         public void GetCanvasRect(){} // RVA: 0x7FFD54E75C10
         public void .ctor(){} // RVA: 0x7FFD54E75EB0
@@ -1396,13 +1318,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ReflectionMethodsCache : Object
     {
-        public ctions.Generic.ICollection<Valve.Newtonsoft.Json.Linq.JToken>.CopyTo Singleton; // 0x10
-        public llection<Valve.Newtonsoft.Json.Linq.JToken>.CopyTo raycast3DAll; // 0x18
-        public onsoft.Json.Linq.JToken>.CopyTo getRaycastNonAlloc; // 0x20
-        public pyTo raycast2D; // 0x28
-        public tions.Generic.ICollection<Valve.Newtonsoft.Json.Linq.JToken>.get_IsReadOnly getRayIntersectionAll; // 0x30
-        public e.Newtonsoft.Json.Linq.JToken>.get_IsReadOnly getRayIntersectionAllNonAlloc; // 0x38
-        public ePathName117.llections.Generic.ICollection<Valve.Newtonsoft.Json.Linq.JToken>.Clear s_ReflectionMethodsCache;
+        public object Singleton;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55090070
@@ -1411,43 +1327,37 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ScrollRect : UIBehaviour
     {
-        public 16 content; // 0x20
-        public bool horizontal; // 0x28
-        public bool vertical; // 0x29
-        public nitializationType movementType; // 0x2C
-        public float elasticity; // 0x30
-        public bool inertia; // 0x34
-        public float decelerationRate; // 0x38
-        public float scrollSensitivity; // 0x3C
-        public 16 viewport; // 0x40
-        public ePathName117.readmill horizontalScrollbar; // 0x48
-        public ePathName117.readmill verticalScrollbar; // 0x50
-        public Type horizontalScrollbarVisibility; // 0x58
-        public Type verticalScrollbarVisibility; // 0x5C
-        public float horizontalScrollbarSpacing; // 0x60
-        public float verticalScrollbarSpacing; // 0x64
-        public rrorView onValueChanged; // 0x68
-        public tionX viewRect; // 0x70
-        public tionX velocity; // 0x78
-        public 16 rectTransform; // 0x80
-        public stments normalizedPosition; // 0x88
-        public stments horizontalNormalizedPosition; // 0xA0
-        public tionX verticalNormalizedPosition; // 0xB8
-        public bool hScrollingNeeded; // 0xC0
-        public bool vScrollingNeeded; // 0xC1
-        public tionX minWidth; // 0xC4
-        public stments preferredWidth; // 0xCC
-        public stments flexibleWidth; // 0xE4
-        public bool minHeight; // 0xFC
-        public bool preferredHeight; // 0xFD
-        public bool flexibleHeight; // 0xFE
-        public float layoutPriority; // 0x100
-        public float m_VSliderWidth; // 0x104
-        public 16 m_Rect; // 0x108
-        public 16 m_HorizontalScrollbarRect; // 0x110
-        public 16 m_VerticalScrollbarRect; // 0x118
-        public tton13 m_Tracker; // 0x120
-        public amut[] m_Corners; // 0x128
+        public object content;
+        public object horizontal;
+        public object vertical;
+        public object movementType;
+        public object elasticity;
+        public object inertia;
+        public object decelerationRate;
+        public object scrollSensitivity;
+        public object viewport;
+        public object horizontalScrollbar;
+        public object verticalScrollbar;
+        public object horizontalScrollbarVisibility;
+        public object verticalScrollbarVisibility;
+        public object horizontalScrollbarSpacing;
+        public object verticalScrollbarSpacing;
+        public object onValueChanged;
+        public object viewRect;
+        public object velocity;
+        public object rectTransform;
+        public object normalizedPosition;
+        public object horizontalNormalizedPosition;
+        public object verticalNormalizedPosition;
+        public object hScrollingNeeded;
+        public object vScrollingNeeded;
+        public object minWidth;
+        public object preferredWidth;
+        public object flexibleWidth;
+        public object minHeight;
+        public object preferredHeight;
+        public object flexibleHeight;
+        public object layoutPriority;
 
         // ── Methods ──
         public void get_content(){} // RVA: 0x7FFD4E36F0C0
@@ -1545,18 +1455,15 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Scrollbar : Selectable
     {
-        public 16 handleRect; // 0x100
-        public teVerticalSliderPageSize direction; // 0x108
-        public float value; // 0x10C
-        public float size; // 0x110
-        public int numberOfSteps; // 0x114
-        public Right onValueChanged; // 0x118
-        public 16 stepSize; // 0x120
-        public tionX axis; // 0x128
-        public tton13 reverseValue; // 0x130
-        public ts m_PointerDownRepeat; // 0x138
-        public bool isPointerDownAndNotDragging; // 0x140
-        public bool m_DelayedUpdateVisuals; // 0x141
+        public object handleRect;
+        public object direction;
+        public object value;
+        public object size;
+        public object numberOfSteps;
+        public object onValueChanged;
+        public object stepSize;
+        public object axis;
+        public object reverseValue;
 
         // ── Methods ──
         public void get_handleRect(){} // RVA: 0x7FFD4E916C80
@@ -1606,22 +1513,22 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Selectable : UIBehaviour
     {
-        public ePathName117.?[] allSelectablesArray;
-        public int allSelectableCount; // 0x8
-        public bool allSelectables; // 0x20
-        public ePathName117.ÌÎÌ navigation; // 0x28
-        public hildOrder transition; // 0x50
-        public ePathName117.e54 colors; // 0x54
-        public ePathName117.e>b__37_1 spriteState; // 0xB0
-        public ePathName117.DevicePathName119 animationTriggers; // 0xD0
-        public bool targetGraphic; // 0xD8
-        public ePathName117.hInputPathName124 interactable; // 0xE0
-        public bool isPointerInside; // 0xE8
-        public int isPointerDown; // 0xEC
-        public bool hasSelection; // 0xF0
-        public bool image; // 0xF1
-        public bool animator; // 0xF2
-        public URA.woDigitYearMax<panId> currentSelectionState; // 0xF8
+        public object allSelectablesArray;
+        public object allSelectableCount;
+        public object allSelectables;
+        public object navigation;
+        public object transition;
+        public object colors;
+        public object spriteState;
+        public object animationTriggers;
+        public object targetGraphic;
+        public object interactable;
+        public object isPointerInside;
+        public object isPointerDown;
+        public object hasSelection;
+        public object image;
+        public object animator;
+        public object currentSelectionState;
 
         // ── Methods ──
         public void get_allSelectablesArray(){} // RVA: 0x7FFD55083810
@@ -1699,10 +1606,9 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Shadow : BaseMeshEffect
     {
-        public object effectColor; // 0x28
-        public tionX effectDistance; // 0x38
-        public bool useGraphicAlpha; // 0x40
-        public float kMaxEffectDistance;
+        public object effectColor;
+        public object effectDistance;
+        public object useGraphicAlpha;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD550954A0
@@ -1719,22 +1625,18 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Slider : Selectable
     {
-        public 16 fillRect; // 0x100
-        public 16 handleRect; // 0x108
-        public teVerticalSliderPageSize direction; // 0x110
-        public float minValue; // 0x114
-        public float maxValue; // 0x118
-        public bool wholeNumbers; // 0x11C
-        public float value; // 0x120
-        public MemberForType>b__37_1 normalizedValue; // 0x128
-        public ePathName117.ÎÌÍÍÎÏÌ onValueChanged; // 0x130
-        public object stepSize; // 0x138
-        public 16 axis; // 0x140
-        public object reverseValue; // 0x148
-        public 16 m_HandleContainerRect; // 0x150
-        public tionX m_Offset; // 0x158
-        public tton13 m_Tracker; // 0x160
-        public bool m_DelayedUpdateVisuals; // 0x161
+        public object fillRect;
+        public object handleRect;
+        public object direction;
+        public object minValue;
+        public object maxValue;
+        public object wholeNumbers;
+        public object value;
+        public object normalizedValue;
+        public object onValueChanged;
+        public object stepSize;
+        public object axis;
+        public object reverseValue;
 
         // ── Methods ──
         public void get_fillRect(){} // RVA: 0x7FFD4E916C80
@@ -1788,10 +1690,10 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class SpriteState : ValueType
     {
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField highlightedSprite; // 0x10
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField pressedSprite; // 0x18
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField selectedSprite; // 0x20
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField disabledSprite; // 0x28
+        public object highlightedSprite;
+        public object pressedSprite;
+        public object selectedSprite;
+        public object disabledSprite;
 
         // ── Methods ──
         public void get_highlightedSprite(){} // RVA: 0x7FFD4EEF9F60
@@ -1807,8 +1709,6 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class StencilMaterial : Object
     {
-        public URA.woDigitYearMax<_parametrizedConstructor> m_List;
-
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD5508A970 | overloaded x3
         public void LogWarningWhenNotInBatchmode(){} // RVA: 0x7FFD5508A8A0
@@ -1819,14 +1719,30 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Text : MaskableGraphic
     {
-        public ePathName117.? cachedTextGenerator; // 0xE0
-        public string cachedTextGeneratorForLayout; // 0xE8
-        public in2 mainTexture; // 0xF0
-        public in2 font; // 0xF8
-        public atrix_Injected text;
-        public bool supportRichText; // 0x100
-        public int resizeTextForBestFit;
-        public cTotalCost[] resizeTextMinSize; // 0x108
+        public object cachedTextGenerator;
+        public object cachedTextGeneratorForLayout;
+        public object mainTexture;
+        public object font;
+        public object text;
+        public object supportRichText;
+        public object resizeTextForBestFit;
+        public object resizeTextMinSize;
+        public object resizeTextMaxSize;
+        public object alignment;
+        public object alignByGeometry;
+        public object fontSize;
+        public object horizontalOverflow;
+        public object verticalOverflow;
+        public object lineSpacing;
+        public object fontStyle;
+        public object pixelsPerUnit;
+        public object minWidth;
+        public object preferredWidth;
+        public object flexibleWidth;
+        public object minHeight;
+        public object preferredHeight;
+        public object flexibleHeight;
+        public object layoutPriority;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5508BB40
@@ -1882,11 +1798,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class Toggle : Selectable
     {
-        public object group; // 0x100
-        public ePathName117.hInputPathName124 isOn; // 0x108
-        public ePathName117.List<Valve.Newtonsoft.Json.Linq.JToken>.RemoveAt m_Group; // 0x110
-        public ns.Generic.IList<Valve.Newtonsoft.Json.Linq.JToken>.RemoveAt onValueChanged; // 0x118
-        public bool m_IsOn; // 0x120
+        public object group;
+        public object isOn;
 
         // ── Methods ──
         public void get_group(){} // RVA: 0x7FFD4E96B170
@@ -1914,8 +1827,7 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class ToggleGroup : UIBehaviour
     {
-        public bool allowSwitchOff; // 0x20
-        public URA.woDigitYearMax<ePathName117.ÍÏÎÍÏÌÏÎÏÎÎÏÎÏÎÏÏÏÏÏ> m_Toggles; // 0x28
+        public object allowSwitchOff;
 
         // ── Methods ──
         public void get_allowSwitchOff(){} // RVA: 0x7FFD4E42F9D0
@@ -1936,18 +1848,8 @@ namespace ThirdParty.Unity.UnityEngine.UI
 
     public class VertexHelper : Object
     {
-        public URA.woDigitYearMax<amut> currentVertCount; // 0x10
-        public URA.woDigitYearMax<?> currentIndexCount; // 0x18
-        public URA.woDigitYearMax<get_boundingBoxMode> m_Uv0S; // 0x20
-        public URA.woDigitYearMax<get_boundingBoxMode> m_Uv1S; // 0x28
-        public URA.woDigitYearMax<get_boundingBoxMode> m_Uv2S; // 0x30
-        public URA.woDigitYearMax<get_boundingBoxMode> m_Uv3S; // 0x38
-        public URA.woDigitYearMax<amut> m_Normals; // 0x40
-        public URA.woDigitYearMax<get_boundingBoxMode> m_Tangents; // 0x48
-        public URA.woDigitYearMax<int> m_Indices; // 0x50
-        public get_boundingBoxMode s_DefaultTangent;
-        public amut s_DefaultNormal; // 0x10
-        public bool m_ListsInitalized; // 0x58
+        public object currentVertCount;
+        public object currentIndexCount;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55092490 | overloaded x2

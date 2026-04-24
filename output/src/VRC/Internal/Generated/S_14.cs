@@ -56,6 +56,11 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÎÏÎÎÏÎÎÍÍÎÍÍÏÍÎÏÎÍÌÌÏ</summary>
     public class Static10m_6DB7 : Object
     {
+        public bool <ÍÍÌÍÏÍÌÍÏÌÎÎÍÍÍÎÎÌÌÌÌÍÍ>k__BackingField; // 0x10
+        public int ÎÍÍÎÏÎÎÏÏÏÌÏÏÎÍÌÎÎÎÍÏÏÍ; // 0x14
+        public int ÍÏÏÌÌÍÏÎÌÏÎÏÍÎÌÏÎÍÎÏÍÎÏ; // 0x18
+        public string ÏÍÍÍÌÏÍÏÏÎÎÏÍÏÍÎÏÏÎÍÌÌÏ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E92A0C0
         public void Equals(){} // RVA: 0x7FFD4E92A120
@@ -654,6 +659,161 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÎÌÌÍÏÍÎÏÌÌÍÎÏÍÍÌÏÌÌÎÍÏ</summary>
     public class Static1m_D734
     {
+        public object ÌÎÏÍÌÎÍÎÎÌÍÌÌÍÏÌÌÌÎÏÏÎÌ; // 0x38
+        public object ÍÏÍÎÍÎÍÎÍÍÌÍÌÌÌÌÎÍÏÏÎÎÍ; // 0x40
+        public object ÎÍÎÍÏÏÏÏÏÎÎÍÌÍÌÌÍÌÏÌÏÏÍ; // 0x48
+        public object ÌÎÎÍÏÎÏÌÎÌÌÍÍÎÏÌÍÏÍÎÌÎÏ; // 0x50
+        public object ÍÏÌÎÍÎÏÍÎÌÏÌÏÌÍÏÍÌÌÌÌÌÏ; // 0x58
+        public object ÍÏÍÍÎÎÏÍÏÏÏÍÌÎÏÎÏÌÍÌÏÎÍ; // 0x60
+        public object ÎÏÏÏÏÌÎÏÏÏÍÎÍÌÍÏÎÏÏÏÎÌÏ; // 0x68
+        public object ÏÌÌÍÏÌÍÎÌÌÌÎÌÎÏÏÌÍÏÌÏÏÎ; // 0x70
+        public object ÍÎÌÏÍÌÌÌÎÎÎÍÎÎÏÍÎÌÏÏÏÍÏ; // 0x78
+        public object ÍÎÏÌÌÏÌÏÌÍÎÌÏÌÎÍÍÏÌÏÌÏÌ; // 0x80
+        public object ÌÎÌÍÍÍÎÎÏÏÏÏÍÏÍÎÌÌÌÌÏÏÍ; // 0x88
+        public object ÍÌÏÏÌÎÌÌÍÏÎÎÍÍÍÌÌÎÎÍÍÌÍ; // 0x90
+        public object ÎÏÌÍÍÍÌÍÌÍÏÏÌÌÏÏÌÍÎÎÌÎÎ; // 0x98
+        public object ÏÎÌÌÍÎÌÍÌÎÍÎÏÎÍÎÏÎÍÏÏÍÎ; // 0xA0
+        public object ÏÎÌÎÏÏÏÌÏÏÌÍÎÌÏÎÏÎÏÍÏÎÎ; // 0xA8
+        public object ÏÍÎÎÌÍÌÎÌÎÍÏÎÍÌÍÏÎÏÏÌÍÎ; // 0xB0
+        public object ÎÌÎÌÎÏÎÍÎÎÌÍÎÎÎÏÌÏÍÌÌÎÏ; // 0xB8
+        public object ÍÍÌÍÎÌÏÌÎÌÏÍÌÍÌÎÏÍÎÍÏÍÏ; // 0xC0
+        public object ÎÍÎÎÌÌÌÍÏÍÏÎÏÌÎÍÍÌÎÌÏÏÎ; // 0xC8
+        public object ÍÎÌÍÏÎÏÏÎÏÏÎÎÎÎÏÏÏÎÌÍÏÍ; // 0xD0
+        public object ÍÍÌÏÌÌÏÌÌÍÍÎÎÌÌÏÏÌÏÌÍÏÌ; // 0xD8
+        public object ÎÏÎÍÏÎÌÍÌÌÏÏÍÏÎÌÍÍÍÍÍÌÎ; // 0xE0
+        public object ÍÏÏÍÏÏÏÎÍÌÌÎÌÎÍÌÏÍÏÎÏÏÎ; // 0xE8
+        public BuffersImpl ÏÌÏÌÎÌÌÎÏÌÏÌÏÍÏÌÎÌÎÍÍÎÏ; // 0xF0
+        public BuffersImpl ÌÌÌÎÏÌÍÏÏÌÏÌÏÌÏÍÍÎÌÎÏÍÌ; // 0xF8
+        public BuffersImpl ÍÌÌÏÍÎÍÏÍÍÍÎÏÌÏÍÌÌÎÌÏÎÏ; // 0x100
+        public BuffersImpl ÌÌÎÍÏÌÎÎÌÌÌÎÎÏÏÏÌÍÌÎÎÌÌ; // 0x108
+        public BuffersImpl ÌÎÎÏÏÏÎÏÎÏÏÌÌÏÌÏÎÌÌÎÌÍÌ; // 0x110
+        public BuffersImpl ÏÏÏÍÍÍÍÏÏÎÏÏÎÌÎÌÌÌÌÎÏÎÍ; // 0x118
+        public BuffersImpl ÎÏÏÎÌÍÍÍÌÌÎÍÍÎÏÎÌÏÏÌÌÏÍ; // 0x120
+        public object ÏÍÎÍÏÍÏÏÏÏÌÍÌÏÌÌÎÌÌÌÏÏÌ; // 0x128
+        public object ÎÍÍÎÎÌÌÎÏÍÎÎÍÍÍÏÏÎÏÍÌÎÌ; // 0x130
+        public atrix_Injected ÌÏÍÍÌÏÏÌÎÏÏÍÌÏÍÌÌÍÍÎÎÍÍ; // 0x138
+        public viousIndex ÎÏÏÍÌÏÍÌÌÌÌÌÏÎÎÍÍÎÍÌÌÌÍ; // 0x140
+        public viousIndex ÎÍÍÏÌÍÏÏÎÌÏÏÎÎÌÍÍÎÏÎÌÍÎ; // 0x148
+        public R_12x12 ÏÍÏÍÌÌÌÌÏÍÌÏÎÍÎÌÎÏÏÍÎÎÎ; // 0x150
+        public R_12x12 ÏÍÏÏÏÎÍÎÌÌÎÎÏÎÎÍÏÎÏÎÌÌÌ; // 0x160
+        public R_12x12 ÏÌÎÍÎÏÎÏÎÍÍÍÍÌÍÏÍÏÎÌÍÎÌ; // 0x170
+        public R_12x12 ÎÌÍÍÏÌÍÌÍÎÏÌÏÎÌÏÏÎÍÎÎÏÏ; // 0x180
+        public R_12x12 ÍÏÍÎÎÏÍÏÌÎÎÏÌÏÍÍÏÌÏÎÎÍÎ; // 0x190
+        public R_12x12 ÎÍÏÏÏÍÍÌÍÌÌÏÌÍÍÍÍÍÎÎÏÍÏ; // 0x1A0
+        public object ÏÎÌÏÏÍÍÌÎÌÌÏÍÌÍÏÎÎÏÌÌÎÎ; // 0x1B0
+        public amut ÎÍÏÎÎÌÎÎÌÍÏÏÌÌÏÏÍÎÍÎÍÌÌ; // 0x1B8
+        public amut ÍÌÍÎÌÏÍÌÍÎÌÌÍÍÎÌÍÏÏÍÍÌÎ; // 0x1C4
+        public amut ÎÏÏÍÍÍÎÌÎÍÎÏÌÎÍÍÏÍÏÏÌÍÎ; // 0x1D0
+        public amut ÌÌÏÍÍÏÌÌÌÍÎÏÌÎÌÌÍÍÍÍÏÍÌ; // 0x1DC
+        public R_12x12 ÏÏÌÌÍÍÎÌÍÏÏÏÌÍÏÌÌÎÌÏÏÌÌ; // 0x1E8
+        public R_12x12 ÏÎÌÍÏÌÍÏÏÏÌÎÎÎÎÌÌÌÌÎÏÎÎ; // 0x1F8
+        public R_12x12 ÏÎÎÎÎÍÏÍÏÍÎÌÌÌÍÎÎÍÏÏÏÌÍ; // 0x208
+        public R_12x12 ÍÍÎÎÍÍÍÏÌÏÍÍÍÍÍÍÏÎÍÏÍÎÎ; // 0x218
+        public float ÌÌÌÍÏÏÌÌÌÎÏÏÏÌÌÎÌÎÏÎÍÌÍ; // 0x228
+        public float ÎÎÎÏÏÎÎÍÎÍÎÌÌÏÎÌÎÎÎÌÏÏÏ; // 0x22C
+        public float ÌÎÎÌÍÌÏÍÍÏÎÎÍÍÌÎÌÏÌÎÏÎÍ; // 0x230
+        public float[] ÍÌÌÍÍÌÏÍÍÎÏÌÌÏÌÎÏÏÌÏÌÎÏ; // 0x238
+        public float ÍÏÎÍÌÍÌÏÍÏÍÌÌÌÌÏÏÎÎÏÎÌÌ; // 0x240
+        public float ÌÏÌÍÎÏÌÍÎÎÎÍÏÍÌÌÎÎÌÍÌÍÍ; // 0x244
+        public float ÌÏÌÍÌÏÎÍÌÌÎÌÍÎÎÎÍÌÌÎÏÏÍ; // 0x248
+        public float ÍÍÍÍÎÍÍÍÌÍÌÌÏÎÍÎÌÎÎÍÎÌÌ; // 0x24C
+        public float ÍÎÏÎÎÌÌÏÌÍÏÌÎÎÌÌÍÏÏÎÍÍÌ; // 0x250
+        public float ÏÏÏÍÍÏÍÏÌÏÏÎÏÏÍÏÎÍÏÌÌÍÍ; // 0x254
+        public float ÍÎÎÏÍÌÏÍÍÎÎÍÌÏÍÌÍÎÍÌÏÍÍ; // 0x258
+        public float ÏÌÍÍÏÍÌÌÏÍÎÌÌÎÏÍÌÍÌÎÌÏÎ; // 0x25C
+        public float ÌÍÌÍÍÎÎÎÌÏÌÌÏÎÌÌÌÍÌÍÍÏÌ; // 0x260
+        public float ÎÌÏÍÏÌÏÎÍÍÏÌÍÍÏÏÏÍÎÌÍÌÎ; // 0x264
+        public float ÎÎÍÏÍÌÍÏÍÍÍÏÏÌÍÍÏÍÍÍÏÌÏ; // 0x268
+        public float ÎÏÌÏÏÏÏÌÌÍÎÍÏÏÍÏÌÏÌÎÏÏÌ; // 0x26C
+        public float ÍÎÎÌÏÌÌÎÎÌÌÍÍÍÌÍÌÌÍÎÍÍÏ; // 0x270
+        public float ÏÌÎÌÌÏÎÍÏÌÌÌÎÎÎÌÏÎÎÏÏÏÍ;
+        public bool ÌÌÏÎÍÌÎÎÏÎÌÍÎÍÎÏÍÍÎÎÎÌÎ; // 0x274
+        public bool ÍÍÌÍÍÏÏÏÌÎÎÏÎÏÏÏÍÏÏÎÎÎÎ; // 0x275
+        public bool ÍÎÌÍÎÌÏÍÌÍÌÏÌÌÏÍÎÎÎÌÏÌÌ; // 0x276
+        public ÏÌÏ ÏÎÌÌÍÍÍÌÍÍÌÏÌÌÍÌÏÏÎÌÍÍÌ; // 0x278
+        public object ÍÏÎÌÎÍÎÍÍÍÌÎÍÎÌÍÏÏÍÏÍÎÎ; // 0x280
+        public float ÏÌÍÌÏÏÌÌÌÌÍÍÏÎÎÍÎÏÎÌÏÍÏ; // 0x288
+        public amut ÎÍÏÎÍÎÏÎÏÍÍÌÌÌÌÌÎÌÎÎÍÎÎ; // 0x28C
+        public amut ÌÌÏÌÍÏÍÌÎÌÍÍÏÎÎÍÎÏÌÏÎÍÏ; // 0x298
+        public tionX ÌÌÏÌÏÏÌÏÏÎÍÌÌÌÌÏÏÏÍÏÌÍÍ; // 0x2A4
+        public URA.ge<tionX> ÎÎÍÏÍÎÏÌÍÎÌÎÍÌÍÌÌÍÌÌÎÌÏ; // 0x2B0
+        public URA.woDigitYearMax<float> ÎÎÏÍÍÌÏÌÌÎÌÎÎÍÍÍÍÎÌÍÌÏÎ; // 0x2B8
+        public ?[] ÌÎÍÏÍÏÍÏÌÌÍÌÌÌÎÍÏÌÎÌÏÍÎ; // 0x2C0
+        public ?[] ÏÏÍÎÏÏÎÎÍÍÏÌÎÍÏÏÏÏÏÎÍÎÍ; // 0x2C8
+        public float[] ÍÌÏÎÌÎÎÌÌÏÎÏÌÎÍÌÏÌÌÏÍÎÎ; // 0x2D0
+        public float[] ÌÍÎÌÌÌÍÍÌÍÍÎÏÍÏÍÍÎÏÏÍÌÏ; // 0x2D8
+        public float ÎÎÎÎÏÍÍÌÍÍÍÎÍÎÎÍÌÎÌÍÎÍÏ;
+        public ÎÎÏÎÎÌÍÎÎÍÌÌÍÌÏÏÍ ÎÌÍÎÌÏÍÌÎÎÍÍÍÎÍÏÍÌÏÏÏÎÎ; // 0x2E0
+        public object ÍÏÍÏÏÍÎÌÏÏÌÍÏÍÌÎÏÌÏÍÏÍÎ; // 0x2E8
+        public object ÎÌÌÌÏÎÏÎÎÏÎÎÏÎÍÌÌÏÌÍÍÎÍ; // 0x388
+        public object ÎÎÏÎÌÎÎÍÏÏÎÍÍÌÏÌÍÌÏÏÏÎÌ; // 0x428
+        public amut ÍÎÏÏÌÏÍÌÌÌÎÏÍÏÍÏÏÎÌÏÏÎÎ; // 0x430
+        public R_12x12 ÏÌÍÏÍÎÎÌÏÏÍÏÌÏÍÍÎÌÍÎÏÌÍ; // 0x43C
+        public amut ÏÎÎÎÏÍÏÎÍÎÍÎÏÍÎÌÌÏÏÏÏÌÌ; // 0x44C
+        public R_12x12 ÍÍÌÍÌÍÌÎÏÎÌÌÏÌÍÏÏÏÌÎÎÎÍ; // 0x458
+        public amut ÍÍÍÎÎÍÏÎÏÏÎÏÏÎÎÏÏÍÏÏÌÍÎ; // 0x468
+        public R_12x12 ÌÏÌÌÍÏÍÎÍÏÎÍÌÏÌÍÍÎÎÍÌÎÏ; // 0x474
+        public amut ÏÏÌÎÏÏÎÌÏÍÏÎÏÏÎÍÌÏÎÏÏÏÎ; // 0x484
+        public R_12x12 ÏÌÍÏÏÎÎÎÌÌÍÎÏÍÎÏÏÎÎÌÌÎÌ; // 0x490
+        public float ÌÍÏÏÎÍÎÎÌÏÌÍÏÎÏÌÍÍÏÏÌÌÏ;
+        public bool ÎÌÏÍÍÏÎÏÍÎÏÌÍÏÍÍÍÏÏÏÎÎÏ; // 0x4A0
+        public bool ÏÌÎÌÌÏÏÎÍÎÎÍÎÎÏÏÏÎÏÍÍÎÍ; // 0x4A1
+        public bool ÌÌÏÍÏÎÌÍÌÏÎÌÎÎÏÌÏÍÌÎÌÍÌ; // 0x4A2
+        public bool drawPalmGizmos; // 0x4A3
+        public bool drawHandTrackingSkeleton; // 0x4A4
+        public bool drawPersistentSkeleton; // 0x4A5
+        public onnected ÍÎÌÍÌÌÏÎÌÌÎÏÌÏÎÌÎÍÍÌÌÌÎ; // 0x4A8
+        public onnected ÍÍÎÏÎÍÍÌÍÎÍÏÎÎÍÌÏÎÍÏÌÎÍ; // 0x4B0
+        public uint ÌÌÏÎÍÌÎÏÎÏÎÌÍÍÍÏÌÍÍÍÎÏÍ; // 0x4B8
+        public uint ÏÎÏÌÌÍÏÏÍÏÌÏÏÍÌÏÌÎÎÏÏÎÎ; // 0x4BC
+        public bool ÍÎÎÍÎÏÍÏÎÌÎÌÍÎÎÏÏÍÍÍÌÏÎ; // 0x4C0
+        public bool ÏÎÏÎÎÏÌÍÌÍÏÌÍÏÍÍÏÌÌÍÍÍÏ; // 0x4C1
+        public bool ÎÌÎÍÎÌÎÎÎÏÎÎÎÎÏÎÌÍÌÍÌÏÏ; // 0x4C2
+        public bool ÍÎÎÎÍÌÎÏÎÏÏÏÌÏÎÎÏÏÏÎÎÍÍ; // 0x4C3
+        public bool ÏÎÏÍÎÎÍÌÎÎÏÎÎÌÏÎÌÎÌÍÍÏÍ; // 0x4C4
+        public bool ÏÏÌÌÍÎÌÍÏÍÍÍÌÍÎÎÌÍÌÌÎÏÍ; // 0x4C5
+        public merator ÎÌÌÎÌÍÏÍÏÍÍÌÏÍÍÌÌÏÌÍÌÎÏ; // 0x4C8
+        public URA.DateTime<ÎÍÏÌÍÌÎ,float> ÏÏÍÏÌÌÌÏÏÏÍÍÌÍÌÍÏÍÍÏÎÎÌ; // 0x4D0
+        public URA.DateTime<ÎÍÏÌÍÌÎ,float> ÏÏÌÎÍÎÎÎÌÍÌÌÎÍÍÌÍÌÍÍÎÎÎ; // 0x4D8
+        public float ÍÏÌÌÌÏÌÍÍÎÎÏÍÎÌÎÏÍÍÎÎÎÎ; // 0x4E0
+        public float ÎÌÌÎÌÍÏÎÎÏÎÏÍÎÌÌÏÍÎÌÍÍÌ; // 0x4E4
+        public float ÌÍÌÍÎÌÏÎÏÏÎÎÍÌÌÍÌÏÏÎÍÍÏ; // 0x4E8
+        public float ÍÏÎÍÎÎÌÍÌÎÌÎÎÍÏÌÌÍÌÍÎÎÏ; // 0x4EC
+        public float ÍÎÎÌÍÏÍÌÎÌÏÌÏÌÏÏÌÏÍÍÏÏÌ; // 0x4F0
+        public bool ÎÍÏÍÎÏÌÌÎÍÌÌÍÌÎÏÌÏÎÍÏÏÏ; // 0x4F4
+        public bool ÎÎÎÌÌÎÌÏÍÎÍÌÎÍÏÌÍÏÎÌÌÌÌ; // 0x4F5
+        public bool ÌÏÌÍÍÌÌÍÌÎÎÌÏÌÌÌÏÍÏÎÍÍÍ; // 0x4F6
+        public bool ÎÏÍÏÍÎÎÎÌÎÍÎÍÌÍÏÌÎÏÎÌÍÎ; // 0x4F7
+        public _onActiveBindingChange ÌÎÌÏÌÍÍÍÍÍÍÏÎÏÍÌÏÎÏÏÍÍÏ; // 0x4F8
+        public object ÎÏÏÌÍÌÌÎÍÏÌÌÌÎÍÍÏÍÎÎÌÌÏ; // 0x500
+        public object ÏÎÌÌÎÎÌÎÌÎÎÌÍÌÏÏÍÍÏÌÏÌÎ; // 0x508
+        public object ÌÏÍÎÍÌÏÍÏÍÎÏÏÏÏÌÎÎÎÌÎÎÏ; // 0x510
+        public float ÌÎÏÌÎÍÌÍÍÎÎÏÍÏÎÌÏÍÍÎÎÏÎ;
+        public uint ÍÏÍÎÌÏÌÎÍÍÎÎÍÏÌÏÍÎÌÏÏÏÍ;
+        public ts[] ÎÎÏÌÎÏÎÌÏÎÍÎÏÍÌÌÏÎÏÏÍÍÍ; // 0x518
+        public bool ÎÎÏÌÎÏÍÏÍÌÌÌÍÌÌÌÍÌÍÎÏÎÌ; // 0x520
+        public bool ÏÎÎÌÏÍÌÎÏÏÍÏÌÎÌÌÍÍÎÎÌÏÍ; // 0x521
+        public float ÍÏÍÌÎÏÎÎÏÏÌÎÌÏÍÏÎÎÎÍÌÎÌ; // 0x524
+        public float ÌÍÏÌÍÌÍÏÍÍÏÍÌÏÏÍÏÌÎÏÎÏÏ;
+        public object ÌÎÎÏÍÎÏÍÏÎÎÎÌÏÌÌÍÍÌÎÌÌÎ; // 0x528
+        public BuffersImpl ÏÌÍÏÏÏÍÍÎÏÎÏÏÏÏÎÎÏÍÍÍÍÎ; // 0x530
+        public BuffersImpl ÍÏÎÍÍÎÌÌÍÌÌÍÏÏÏÌÍÌÏÌÏÌÎ; // 0x538
+        public bool ÍÎÏÌÎÍÌÎÍÌÍÍÏÏÎÏÏÍÎÎÍÍÍ; // 0x540
+        public ÎÍÏÌÍÌÎ ÏÏÍÍÍÍÏÍÎÍÍÌÌÍÎÌÍÌÌÍÍÎÏ; // 0x544
+        public float ÌÍÎÎÎÍÏÏÌÏÎÌÏÌÍÌÎÎÎÏÏÍÍ; // 0x548
+        public bool ÌÎÌÎÍÏÏÏÌÌÌÎÌÍÎÌÎÌÌÎÍÌÎ; // 0x54C
+        public object ÏÏÏÏÌÎÍÎÌÎÏÎÌÏÏÎÌÎÏÏÌÎÌ; // 0x550
+        public float ÎÌÌÏÍÍÎÌÌÍÍÍÍÎÏÏÏÌÎÍÍÌÌ; // 0x598
+        public bool ÍÎÍÎÎÍÎÍÎÌÌÏÏÏÎÏÍÏÎÏÍÏÎ; // 0x59C
+        public object ÍÌÏÏÏÎÌÏÌÎÎÎÌÏÏÎÍÏÏÎÏÍÌ; // 0x5A0
+        public float ÏÎÍÎÌÏÍÌÏÎÌÎÍÍÏÍÍÎÌÌÌÎÍ;
+        public dle<string> ÎÍÌÍÏÏÎÌÏÎÏÌÌÎÎÌÏÍÌÏÎÌÍ;
+        public float ÎÎÎÏÌÎÌÍÌÏÏÍÏÎÎÎÏÌÌÏÏÌÌ;
+        public float ÍÎÏÍÏÌÏÎÎÏÍÏÎÎÏÌÍÌÎÍÍÌÍ;
+        public float ÎÌÍÌÍÍÌÌÏÎÌÍÍÍÎÎÏÏÌÏÏÎÌ;
+        public float ÌÍÍÍÏÏÏÍÏÎÏÎÌÌÍÌÏÍÍÎÍÏÎ;
+        public float ÎÌÏÏÏÍÌÎÎÎÎÌÌÏÏÌÍÎÎÌÌÎÎ;
+
         // ── Methods ──
         public void ContainsChild(){} // RVA: 0x7FFD4E090A40
     }
@@ -861,6 +1021,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÎÌÍÎÏÎÏÎÍÌÏÏÍÎÎÎÌÍÎÌÏÍ</summary>
     public class Static7m_ED84 : Object
     {
+        public double ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E905530
         public void Equals(){} // RVA: 0x7FFD4E905A90
@@ -1056,6 +1218,8 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÍÎÎÎÎÍÎÏÏÏÌÌÎÌÎÍÎÍÏÏÎÌ</summary>
     public class Static8m_E698 : Object
     {
+        public byte ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Initialize(){} // RVA: 0x7FFD4E8F8760

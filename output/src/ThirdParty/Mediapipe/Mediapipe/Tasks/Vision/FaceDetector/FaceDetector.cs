@@ -7,9 +7,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceDetector
 {
     public class FaceDetector : BaseVisionTaskApi
     {
-        public dFieldNumber _packetCallback; // 0x20
-        public etBestGrabbingType.Name _normalizedRect; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5372EDE0
         public void CreateFromOptions(){} // RVA: 0x7FFD5372EF10
@@ -24,12 +21,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceDetector
 
     public class FaceDetectorOptions : Object
     {
-        public lIdFieldNumber.rdio baseOptions; // 0x10
-        public e.ÍÍÏÏÎÎÍÍÍÏÎÏÍÎÍÏÌÏÌÏÌÍÌ runningMode; // 0x18
-        public float minDetectionConfidence; // 0x1C
-        public float minSuppressionThreshold; // 0x20
-        public int numFaces; // 0x24
-        public maxDefaultValue resultCallback; // 0x28
+        public object baseOptions;
+        public object runningMode;
+        public object minDetectionConfidence;
+        public object minSuppressionThreshold;
+        public object numFaces;
+        public object resultCallback;
 
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x7FFD4E35C380

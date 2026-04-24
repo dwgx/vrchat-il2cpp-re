@@ -7,8 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 {
     public class AnalyticsSessionInfo : Object
     {
-        public Ì userId;
-        public object identityTokenChanged; // 0x8
+        public object userId;
 
         // ── Methods ──
         public void CallSessionStateChanged(){} // RVA: 0x7FFD550AE180

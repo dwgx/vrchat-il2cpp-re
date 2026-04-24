@@ -208,6 +208,13 @@ namespace VRC.Internal.Delegate
     /// <summary>Originally: ÎÌÏÏÎÌÌÎÍÏÎÏÍÍÍÎÌÎÎÎÌÍÌ</summary>
     public class Delegate_7AA9 : MulticastDelegate
     {
+        public int ÏÎÎÌÌÏÍÎÌÏÏÎÌÍÍÏÍÌÌÌÌÌÎ;
+        public er<T>.OnTextSelectionAsync.yncTextSelectionEventHandler<T>.OnTextSelectionAsync ÌÍÍÎÌÌÎÍÎÏÍÍÎÍÌÍÏÎÏÌÎÍÏ;
+        public ?<T1717733280,T1717733296,T1717733312> ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ;
+        public T1717733296 ÏÌÎÎÌÏÍÍÎÍÍÎÏÏÍÍÌÍÌÏÍÍÍ;
+        public int ÍÌÏÎÍÌÌÏÍÍÌÏÍÍÏÏÏÍÏÏÌÍÍ;
+        public peInfoResolverChain<T1717733312> ÏÌÍÎÍÎÎÌÏÍÌÏÎÍÍÍÌÍÎÌÍÌÍ;
+
         // ── Methods ──
         public void .ctor(){}
         public void Invoke(){} // RVA: 0x7FFD4E2ADC40

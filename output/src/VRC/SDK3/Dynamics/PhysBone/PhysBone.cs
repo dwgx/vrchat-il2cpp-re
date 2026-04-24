@@ -7,10 +7,6 @@ namespace VRC.SDK3.Dynamics.PhysBone
 {
     public class PhysBoneMigration : Object
     {
-        public URA.woDigitYearMax<?> HumanoidBoneCache;
-        public ÍÎÌÍÍÌÌÎÏÏ StiffToMaxAngle; // 0x8
-        public bool HasInitDBConversionTables; // 0x10
-
         // ── Methods ──
         public void Convert(){} // RVA: 0x7FFD552973A0
         public void InitConversionTables(){} // RVA: 0x7FFD55297B40

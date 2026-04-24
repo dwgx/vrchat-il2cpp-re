@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 {
     public class Bone : ValueType
     {
-        public ulong deviceId; // 0x10
-        public uint featureIndex; // 0x18
+        public object deviceId;
+        public object featureIndex;
 
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x7FFD505F9A30
@@ -19,8 +19,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class Eyes : ValueType
     {
-        public ulong deviceId; // 0x10
-        public uint featureIndex; // 0x18
+        public object deviceId;
+        public object featureIndex;
 
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x7FFD505F9A30
@@ -31,8 +31,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class Hand : ValueType
     {
-        public ulong deviceId; // 0x10
-        public uint featureIndex; // 0x18
+        public object deviceId;
+        public object featureIndex;
 
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x7FFD505F9A30
@@ -43,9 +43,12 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputDevice : ValueType
     {
-        public URA.woDigitYearMax<oducts.eAttribute> deviceId;
-        public ulong isValid; // 0x10
-        public bool name; // 0x18
+        public object deviceId;
+        public object isValid;
+        public object name;
+        public object manufacturer;
+        public object serialNumber;
+        public object characteristics;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD550BFAD0
@@ -66,11 +69,6 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputDevices : Object
     {
-        public URA.woDigitYearMax<oducts.ActionProperty> s_InputDeviceList;
-        public ileFullDirectoryInformation<oducts.ActionProperty> deviceConnected; // 0x8
-        public ileFullDirectoryInformation<oducts.ActionProperty> deviceDisconnected; // 0x10
-        public ileFullDirectoryInformation<oducts.ActionProperty> deviceConfigChanged; // 0x18
-
         // ── Methods ──
         public void GetDeviceAtXRNode(){} // RVA: 0x7FFD550C0720
         public void GetDevicesAtXRNode(){} // RVA: 0x7FFD550C07A0
@@ -101,8 +99,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputFeatureUsage : ValueType
     {
-        public string name; // 0x10
-        public oducts.or internalType; // 0x18
+        public object name;
+        public object internalType;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD505F9A30
@@ -113,7 +111,7 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputFeatureUsage`1 : ValueType
     {
-        public string name; // 0x10
+        public object name;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E078E90
@@ -125,11 +123,6 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputTracking : Object
     {
-        public ileFullDirectoryInformation<oducts.dFailCallback> trackingAcquired;
-        public ileFullDirectoryInformation<oducts.dFailCallback> trackingLost; // 0x8
-        public ileFullDirectoryInformation<oducts.dFailCallback> nodeAdded; // 0x10
-        public ileFullDirectoryInformation<oducts.dFailCallback> nodeRemoved; // 0x18
-
         // ── Methods ──
         public void InvokeTrackingEvent(){} // RVA: 0x7FFD550BCF50
         public void GetLocalPosition(){} // RVA: 0x7FFD550BD110
@@ -145,15 +138,14 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class MeshGenerationResult : ValueType
     {
-        public oducts.nPointer2 MeshId; // 0x10
-        public object Mesh; // 0x20
-        public dUpObject MeshCollider; // 0x28
-        public oducts.er Status; // 0x30
-        public oducts.ReinitAttribute Attributes; // 0x34
-        public ulong Position; // 0x38
-        public amut Rotation; // 0x40
-        public R_12x12 Scale; // 0x4C
-        public amut <Scale>k__BackingField; // 0x5C
+        public object MeshId;
+        public object Mesh;
+        public object MeshCollider;
+        public object Status;
+        public object Attributes;
+        public object Position;
+        public object Rotation;
+        public object Scale;
 
         // ── Methods ──
         public void get_MeshId(){} // RVA: 0x7FFD4E6E0590
@@ -170,10 +162,6 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class MeshId : ValueType
     {
-        public oducts.nPointer2 s_InvalidId;
-        public ulong m_SubId1; // 0x10
-        public ulong m_SubId2; // 0x18
-
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD550C2610
         public void GetHashCode(){} // RVA: 0x7FFD54CC7070
@@ -183,8 +171,6 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRDevice : Object
     {
-        public ileFullDirectoryInformation<string> deviceLoaded;
-
         // ── Methods ──
         public void GetNativePtr(){} // RVA: 0x7FFD550BC7C0
         public void DisableAutoXRCameraTracking(){} // RVA: 0x7FFD550BC810
@@ -195,8 +181,7 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRDisplaySubsystem : IntegratedSubsystem`1
     {
-        public ileFullDirectoryInformation<bool> scaleOfAllRenderTargets; // 0x20
-        public <UseKindFlags>k__BackingField m_HDROutputSettings; // 0x28
+        public object scaleOfAllRenderTargets;
 
         // ── Methods ──
         public void InvokeDisplayFocusChanged(){} // RVA: 0x7FFD54C65210
@@ -213,10 +198,6 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRInputSubsystem : IntegratedSubsystem`1
     {
-        public ileFullDirectoryInformation<oducts.eAttribute> trackingOriginUpdated; // 0x20
-        public ileFullDirectoryInformation<oducts.eAttribute> boundaryChanged; // 0x28
-        public URA.woDigitYearMax<ulong> m_DeviceIdsCache; // 0x30
-
         // ── Methods ──
         public void TryRecenter(){} // RVA: 0x7FFD550C20C0
         public void TrySetTrackingOriginMode(){} // RVA: 0x7FFD550C2110
@@ -250,16 +231,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRNodeState : ValueType
     {
-        public oducts.Purchase uniqueID; // 0x10
-        public oducts.? nodeType; // 0x14
-        public amut tracked; // 0x18
-        public R_12x12 m_Rotation; // 0x24
-        public amut m_Velocity; // 0x34
-        public amut m_AngularVelocity; // 0x40
-        public amut m_Acceleration; // 0x4C
-        public amut m_AngularAcceleration; // 0x58
-        public int m_Tracked; // 0x64
-        public ulong m_UniqueID; // 0x68
+        public object uniqueID;
+        public object nodeType;
+        public object tracked;
 
         // ── Methods ──
         public void set_uniqueID(){} // RVA: 0x7FFD4F669140

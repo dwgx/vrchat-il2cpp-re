@@ -7,9 +7,6 @@ namespace ThirdParty.DotNet.System.Linq
 {
     public class Buffer`1 : ValueType
     {
-        public 2.uestResetCommand[] items; // 0x10
-        public int count; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void ToArray(){} // RVA: 0x7FFD4E078E90
@@ -17,8 +14,6 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class EmptyEnumerable`1 : Object
     {
-        public T1717678208[] Instance;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
     }
@@ -101,12 +96,6 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class EnumerableSorter`2 : EnumerableSorter`1
     {
-        public n<T1717678800,T1717678816> keySelector;
-        public URA.ndar_data<T1717678816> comparer;
-        public bool descending;
-        public Trigger.nCollisionEnterHandler.OnCollisionEnterAsync<T1717678800> next;
-        public T1717678816[] keys;
-
         // ── Methods ──
         public void .ctor(){}
         public void ComputeKeys(){} // RVA: 0x7FFD4E097970
@@ -115,11 +104,6 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class GroupedEnumerable`3 : Object
     {
-        public URA.bbrevEraNames<T1717678656> source;
-        public n<T1717678656,T1717678672> keySelector;
-        public n<T1717678656,T1717678688> elementSelector;
-        public URA.hEraNames<T1717678672> comparer;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09B8C0
         public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
@@ -128,12 +112,6 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class GroupedEnumerable`4 : Object
     {
-        public URA.bbrevEraNames<T1717678592> source;
-        public n<T1717678592,T1717678608> keySelector;
-        public n<T1717678592,T1717678624> elementSelector;
-        public URA.hEraNames<T1717678608> comparer;
-        public nalInformation<T1717678608,URA.bbrevEraNames<T1717678624>,T1717678640> resultSelector;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09BB70
         public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
@@ -172,10 +150,7 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Lookup`2 : Object
     {
-        public URA.hEraNames<T1717678528> Item;
-        public Async<T1717678528,T1717678544>[] groupings;
-        public Async<T1717678528,T1717678544> lastGrouping;
-        public int count;
+        public object Item;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E08B1A0
@@ -191,8 +166,6 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`1 : Object
     {
-        public URA.bbrevEraNames<T1717678752> source; // 0x10
-
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
         public void GetEnumerableSorter(){} // RVA: 0x7FFD4E078F40
@@ -203,11 +176,6 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`2 : OrderedEnumerable`1
     {
-        public Trigger.c<T1717678752> parent;
-        public n<T1717678752,T1717678768> keySelector;
-        public URA.ndar_data<T1717678768> comparer;
-        public bool descending;
-
         // ── Methods ──
         public void .ctor(){}
         public void GetEnumerableSorter(){} // RVA: 0x7FFD4E078F40
@@ -215,12 +183,6 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Set`1 : Object
     {
-        public int[] buckets;
-        public D_NM<T1717678576>[] slots;
-        public int count;
-        public int freeList;
-        public URA.hEraNames<T1717678576> comparer;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Add(){} // RVA: 0x7FFD4E2ADC40

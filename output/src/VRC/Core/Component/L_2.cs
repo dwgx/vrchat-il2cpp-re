@@ -1930,6 +1930,36 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÌÎÌÎÍÎÌÎÎÏÍÏÌÎÌÌÎÌÍÌÏÏÏ</summary>
     public class LifecycleComponent_D744 : MonoBehaviour
     {
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ m_Camera; // 0x10
+        public ons.WorldCorners <command>k__BackingField; // 0x18
+        public ons.get_disableInPlaceEditing <source>k__BackingField; // 0x20
+        public ons.get_disableInPlaceEditing <destination>k__BackingField; // 0x48
+        public ded <sourceFormat>k__BackingField; // 0x70
+        public bool <flip>k__BackingField; // 0x74
+        public dUInt64.MoveZ>b__1 <resources>k__BackingField; // 0x78
+        public dUInt64.able <propertySheets>k__BackingField; // 0x80
+        public URA.DateTime<string,object> <userData>k__BackingField; // 0x88
+        public dUInt64.tTypeSize=97 <debugLayer>k__BackingField; // 0x90
+        public int <width>k__BackingField; // 0x98
+        public int <height>k__BackingField; // 0x9C
+        public bool <stereoActive>k__BackingField; // 0xA0
+        public int <xrActiveEye>k__BackingField; // 0xA4
+        public int <numberOfEyes>k__BackingField; // 0xA8
+        public d <stereoRenderingMode>k__BackingField; // 0xAC
+        public int <screenWidth>k__BackingField; // 0xB0
+        public int <screenHeight>k__BackingField; // 0xB4
+        public bool <isSceneView>k__BackingField; // 0xB8
+        public edLoops <antialiasing>k__BackingField; // 0xBC
+        public dUInt64.s>k__BackingField <temporalAntialiasing>k__BackingField; // 0xC0
+        public dUInt64.onStart uberSheet; // 0xC8
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField autoExposureTexture; // 0xD0
+        public dUInt64.etion logHistogram; // 0xD8
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField logLut; // 0xE0
+        public dUInt64.odyLengthSerialized autoExposure; // 0xE8
+        public int bloomBufferNameID; // 0xF0
+        public bool physicalCamera; // 0xF4
+        public ode m_sourceDescriptor; // 0xF8
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD568DCA10
         public void OnEnable(){} // RVA: 0x7FFD568DCB60

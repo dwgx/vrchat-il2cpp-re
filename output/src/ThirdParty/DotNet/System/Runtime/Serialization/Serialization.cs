@@ -88,8 +88,7 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class StreamingContext : ValueType
     {
-        public object Context; // 0x10
-        public externalClaims.peInfo State; // 0x18
+        public m.WmiGuidObject Context;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538CE640 | overloaded x2

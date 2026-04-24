@@ -7,18 +7,15 @@ namespace ThirdParty.Other.Unity.Services.Core.Registration
 {
     public class CorePackageInitializer : Object
     {
-        public Acceleration.Source ActionScheduler; // 0x10
-        public nWrapper.reFailedRequests InstallationId; // 0x18
-        public dll.SenderNames ProjectConfig; // 0x20
-        public ferFrequencyHz.DelayBetweenResolveRequests Environments; // 0x28
-        public dll.esolveRequests ExternalUserId; // 0x30
-        public erFrequencyHz.rtsBuffer CloudProjectId; // 0x38
-        public odeState.ularVelocity DiagnosticsFactory; // 0x40
-        public odeState.lag MetricsFactory; // 0x48
-        public celerationAvailable.Whitelist`1 UnityThreadUtils; // 0x50
-        public a.mbTouch m_Registry; // 0x58
-        public Middleware.middleware m_Serializer; // 0x60
-        public playableAsset.lTime m_CurrentInitializationOptions; // 0x68
+        public object ActionScheduler;
+        public object InstallationId;
+        public object ProjectConfig;
+        public object Environments;
+        public object ExternalUserId;
+        public object CloudProjectId;
+        public object DiagnosticsFactory;
+        public object MetricsFactory;
+        public object UnityThreadUtils;
 
         // ── Methods ──
         public void get_ActionScheduler(){} // RVA: 0x7FFD4E35C380

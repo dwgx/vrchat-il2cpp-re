@@ -7,18 +7,9 @@ namespace ThirdParty.DotNet.Mono.Btls
 {
     public class MonoBtlsContext : MobileTlsContext
     {
-        public line.anonical IsAuthenticated; // 0x58
-        public line.? LocalClientCertificate; // 0x60
-        public pplyVisualElementClipping.orarilyDisabled RemoteCertificate; // 0x68
-        public pplyVisualElementClipping.orarilyDisabled nativeClientCertificate; // 0x70
-        public pplyVisualElementClipping.ount ctx; // 0x78
-        public pplyVisualElementClipping.ottomLeftRadius ssl; // 0x80
-        public pplyVisualElementClipping.mentBorder bio; // 0x88
-        public pplyVisualElementClipping.mentBorder errbio; // 0x90
-        public ivationTrack.onPreviewUpdateCallback connectionInfo; // 0x98
-        public bool certificateValidated; // 0xA0
-        public bool isAuthenticated; // 0xA1
-        public bool connected; // 0xA2
+        public object IsAuthenticated;
+        public object LocalClientCertificate;
+        public object RemoteCertificate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5424F2B0

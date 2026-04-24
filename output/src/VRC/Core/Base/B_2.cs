@@ -1577,7 +1577,7 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÎÌÍÏÍÌÌÍÏÌÍÌÏÌÌÍÌÍÎÍÌÍÍ</summary>
     public class BaseClass4Sibling_85F6 : Object
     {
-        public object _85F6;
+        public ileFullDirectoryInformation<?> _85F6; // 0x10
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC94C30
@@ -1766,6 +1766,11 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÍÏÍÏÌÏÏÍÎÍÏÌÏÎÏÏÍÎÎÌÎÎÍ</summary>
     public class BaseClass7ImplImpl_062B : BaseClass7Impl_781A
     {
+        public int ÏÎÎÌÌÏÍÎÌÏÏÎÌÍÍÏÍÌÌÌÌÌÎ; // 0x10
+        public er<T>.OnTextSelectionAsync.yncTextSelectionEventHandler<T>.OnTextSelectionAsync ÌÍÍÎÌÌÎÍÎÏÍÍÎÍÌÍÏÎÏÌÎÍÏ; // 0x18
+        public Ì ÌÏÏÏÌÏÍÌÎÎÎÍÍÍÎÍÏÏÍÌÌÌÎ; // 0x28
+        public peInfoResolverChain ÏÌÍÎÍÎÎÌÏÍÌÏÎÍÍÍÌÍÎÌÍÌÍ; // 0x30
+
         // ── Methods ──
         public void ApplySkyboxOverride(){} // RVA: 0x7FFD4ED260E0
         public void .ctor(){} // RVA: 0x7FFD4ED26290
@@ -1979,6 +1984,9 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÍÍÎÌÎÏÍÍÏÎÌÍÎÎÌÏÏÎÌÌÌÍÍ</summary>
     public class BaseClass7Impl_F229 : BaseClass7_DD79
     {
+        public ileFullDirectoryInformation<URA.woDigitYearMax<?>> ÎÏÍÌÏÍÏÍÌÍÌÎÎÎÏÍÏÏÏÏÏÏÌ; // 0x10
+        public ileFullDirectoryInformation<string> ÍÌÌÍÍÎÏÎÎÎÏÌÍÎÌÌÏÌÎÌÏÌÏ; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4EEDB540
         public void Initialize(){} // RVA: 0x7FFD4EEDB590

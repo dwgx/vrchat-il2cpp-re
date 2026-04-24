@@ -68,15 +68,9 @@ namespace VRC.Core.Pool
     public class ObjectPool`1 : Object
     {
         public object ObjectType;
-        public URA.leEastFrench<T1717581344> CountActive;
-        public int CountInactive;
-        public ormation<T1717581344> CountAll;
-        public ileFullDirectoryInformation<T1717581344> OnGetFunc;
-        public ileFullDirectoryInformation<T1717581344> OnReleaseFunc;
-        public ileFullDirectoryInformation<T1717581344> OnDestroyFunc;
-        public bool CollectionChecks;
-        public int MaxSize;
-        public int <CountActive>k__BackingField;
+        public object CountActive;
+        public object CountInactive;
+        public object CountAll;
 
         // ── Methods ──
         public void get_ObjectType(){} // RVA: 0x7FFD4E078E90
@@ -106,8 +100,6 @@ namespace VRC.Core.Pool
 
     public class PooledArray`1 : ValueType
     {
-        public ?[] Array; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -116,9 +108,6 @@ namespace VRC.Core.Pool
 
     public class PooledObject`1 : ValueType
     {
-        public onfigSettings.dListContainingContentId<URA.woDigitYearMax<eObjectDelegate.eNonPublicAccessors>> Pool; // 0x10
-        public URA.woDigitYearMax<eObjectDelegate.eNonPublicAccessors> Object; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void Dispose(){} // RVA: 0x7FFD4E090980

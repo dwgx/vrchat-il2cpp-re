@@ -7,8 +7,6 @@ namespace VRC.UI.Client.Groups
 {
     public class GroupCache : Object
     {
-        public URA.DateTime<string,ÍÎÎÎÎÌÏÏÎÌ<?>> _groupDataDictionary; // 0x10
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4ECAE020
         public void Equals(){} // RVA: 0x7FFD4ECAE070
@@ -24,9 +22,7 @@ namespace VRC.UI.Client.Groups
 
     public class GroupsStorage : Object
     {
-        public ÍÎÎÎÎÌÏÏÎÌ<?> Local; // 0x10
-        public URA.DateTime<string,ÍÎÎÎÎÌÏÏÎÌ<?>> _userMembershipDictionary; // 0x18
-        public URA.DateTime<string,ÍÎÎÎÎÌÏÏÎÌ<?>> _userRepresentationDictionary; // 0x20
+        public object Local;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4ECE2A20

@@ -7,10 +7,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 {
     public class AnrIntegration : Object
     {
-        public object Lock;
-        public hXMultiplier.njected Watchdog; // 0x8
-        public hXMultiplier.Field _monoBehaviour; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void Register(){} // RVA: 0x7FFD53F26F70
@@ -75,9 +71,9 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class Il2CppMethods : Object
     {
-        public hXMultiplier.pace_Injected Il2CppGcHandleGetTarget; // 0x10
-        public hXMultiplier.hParticles_Injected Il2CppNativeStackTrace; // 0x18
-        public hXMultiplier._dieWithParticles_Injected Il2CppFree; // 0x20
+        public object Il2CppGcHandleGetTarget;
+        public object Il2CppNativeStackTrace;
+        public object Il2CppFree;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E420E00
@@ -103,11 +99,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SceneManagerAdapter : Object
     {
-        public rectoryInformation<hXMultiplier.railModule,Type.UILayout> SceneLoaded; // 0x10
-        public ileFullDirectoryInformation<hXMultiplier.railModule> SceneUnloaded; // 0x18
-        public rectoryInformation<hXMultiplier.railModule,hXMultiplier.railModule> ActiveSceneChanged; // 0x20
-        public hXMultiplier.ectsLifetime Instance;
-
         // ── Methods ──
         public void add_SceneLoaded(){} // RVA: 0x7FFD53F28D10
         public void remove_SceneLoaded(){} // RVA: 0x7FFD53F28E10
@@ -124,68 +115,66 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class ScriptableSentryUnityOptions : ScriptableObject
     {
-        public string Enabled;
-        public string Dsn;
-        public bool CaptureInEditor; // 0x18
-        public string EnableLogDebouncing; // 0x20
-        public bool DebounceTimeLog; // 0x28
-        public bool DebounceTimeWarning; // 0x29
-        public int DebounceTimeError; // 0x2C
-        public int TracesSampleRate; // 0x30
-        public int AutoStartupTraces; // 0x34
-        public double AutoSceneLoadTraces; // 0x38
-        public bool AutoAwakeTraces; // 0x40
-        public bool AutoSessionTracking; // 0x41
-        public bool AutoSessionTrackingInterval; // 0x42
-        public bool ReleaseOverride; // 0x43
-        public int EnvironmentOverride; // 0x44
-        public string AttachStacktrace; // 0x48
-        public string AttachScreenshot; // 0x50
-        public bool ScreenshotQuality; // 0x58
-        public bool ScreenshotCompression; // 0x59
-        public hXMultiplier.ces AttachViewHierarchy; // 0x5C
-        public int MaxViewHierarchyRootObjects; // 0x60
-        public bool MaxViewHierarchyObjectChildCount; // 0x64
-        public int MaxViewHierarchyDepth; // 0x68
-        public int BreadcrumbsForLogs; // 0x6C
-        public int BreadcrumbsForWarnings; // 0x70
-        public bool BreadcrumbsForAsserts; // 0x74
-        public bool BreadcrumbsForErrors; // 0x75
-        public bool BreadcrumbsForExceptions; // 0x76
-        public bool MaxBreadcrumbs; // 0x77
-        public bool ReportAssembliesMode; // 0x78
-        public int SendDefaultPii; // 0x7C
-        public RGBA_ETC2_SRGB.9__318_0 IsEnvironmentUser; // 0x80
-        public bool EnableOfflineCaching; // 0x84
-        public bool MaxCacheItems; // 0x85
-        public bool InitCacheFlushTimeout; // 0x86
-        public int SampleRate; // 0x88
-        public int ShutdownTimeout; // 0x8C
-        public float MaxQueueItems; // 0x90
-        public int AnrDetectionEnabled; // 0x94
-        public int AnrTimeout; // 0x98
-        public bool CaptureFailedRequests; // 0x9C
-        public int FailedRequestStatusCodes; // 0xA0
-        public bool FilterBadGatewayExceptions; // 0xA4
-        public URA.woDigitYearMax<int> FilterWebExceptions; // 0xA8
-        public bool FilterSocketExceptions; // 0xB0
-        public bool IosNativeSupportEnabled; // 0xB1
-        public bool AndroidNativeSupportEnabled; // 0xB2
-        public bool NdkIntegrationEnabled; // 0xB3
-        public bool NdkScopeSyncEnabled; // 0xB4
-        public bool PostGenerateGradleProjectCallbackOrder; // 0xB5
-        public bool WindowsNativeSupportEnabled; // 0xB6
-        public int MacosNativeSupportEnabled; // 0xB8
-        public bool LinuxNativeSupportEnabled; // 0xBC
-        public bool Il2CppLineNumberSupportEnabled; // 0xBD
-        public bool RuntimeOptionsConfiguration; // 0xBE
-        public bool BuildTimeOptionsConfiguration; // 0xBF
-        public hXMultiplier.? OptionsConfiguration; // 0xC0
-        public hXMultiplier.veZone>b__0 Debug; // 0xC8
-        public hXMultiplier.ocalAddresses DebugOnlyInEditor; // 0xD0
-        public bool DiagnosticLevel; // 0xD8
-        public bool <DebugOnlyInEditor>k__BackingField; // 0xD9
-        public RGBA_ETC2_SRGB.>d__23`1 <DiagnosticLevel>k__BackingField; // 0xDA
+        public object Enabled;
+        public object Dsn;
+        public object CaptureInEditor;
+        public object EnableLogDebouncing;
+        public object DebounceTimeLog;
+        public object DebounceTimeWarning;
+        public object DebounceTimeError;
+        public object TracesSampleRate;
+        public object AutoStartupTraces;
+        public object AutoSceneLoadTraces;
+        public object AutoAwakeTraces;
+        public object AutoSessionTracking;
+        public object AutoSessionTrackingInterval;
+        public object ReleaseOverride;
+        public object EnvironmentOverride;
+        public object AttachStacktrace;
+        public object AttachScreenshot;
+        public object ScreenshotQuality;
+        public object ScreenshotCompression;
+        public object AttachViewHierarchy;
+        public object MaxViewHierarchyRootObjects;
+        public object MaxViewHierarchyObjectChildCount;
+        public object MaxViewHierarchyDepth;
+        public object BreadcrumbsForLogs;
+        public object BreadcrumbsForWarnings;
+        public object BreadcrumbsForAsserts;
+        public object BreadcrumbsForErrors;
+        public object BreadcrumbsForExceptions;
+        public object MaxBreadcrumbs;
+        public object ReportAssembliesMode;
+        public object SendDefaultPii;
+        public object IsEnvironmentUser;
+        public object EnableOfflineCaching;
+        public object MaxCacheItems;
+        public object InitCacheFlushTimeout;
+        public object SampleRate;
+        public object ShutdownTimeout;
+        public object MaxQueueItems;
+        public object AnrDetectionEnabled;
+        public object AnrTimeout;
+        public object CaptureFailedRequests;
+        public object FailedRequestStatusCodes;
+        public object FilterBadGatewayExceptions;
+        public object FilterWebExceptions;
+        public object FilterSocketExceptions;
+        public object IosNativeSupportEnabled;
+        public object AndroidNativeSupportEnabled;
+        public object NdkIntegrationEnabled;
+        public object NdkScopeSyncEnabled;
+        public object PostGenerateGradleProjectCallbackOrder;
+        public object WindowsNativeSupportEnabled;
+        public object MacosNativeSupportEnabled;
+        public object LinuxNativeSupportEnabled;
+        public object Il2CppLineNumberSupportEnabled;
+        public object RuntimeOptionsConfiguration;
+        public object BuildTimeOptionsConfiguration;
+        public object OptionsConfiguration;
+        public object Debug;
+        public object DebugOnlyInEditor;
+        public object DiagnosticLevel;
 
         // ── Methods ──
         public void GetConfigPath(){} // RVA: 0x7FFD53F30250
@@ -363,8 +352,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryCliOptionsConfiguration : ScriptableObject
     {
-        public string Template;
-
         // ── Methods ──
         public void GetAssetPath(){} // RVA: 0x7FFD53F31E80
         public void Configure(){} // RVA: 0x7FFD4E090A40
@@ -374,9 +361,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryInitialization : Object
     {
-        public RGBA_ETC2_SRGB.waitWithCancellationAsync>d__4`1 InitSpan;
-        public RGBA_ETC2_SRGB.waitWithCancellationAsync>d__4`1 SubSystemRegistrationSpan; // 0x8
-
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD53645E00
     }
@@ -389,11 +373,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryMonoBehaviour : MonoBehaviour
     {
-        public hXMultiplier.Field Instance;
-        public ÎÌÍÏÏÌÍÏ Application; // 0x20
-        public ÎÌÍÏÏÌÍÏ ApplicationPausing; // 0x28
-        public bool _isRunning; // 0x30
-        public eaMod.DNS.Model.? _application; // 0x38
+        public object Instance;
+        public object Application;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD53F31F90
@@ -431,7 +412,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryUnityInfo : Object
     {
-        public hXMultiplier._lifetime_Injected IL2CPP; // 0x10
+        public object IL2CPP;
+        public object Il2CppMethods;
 
         // ── Methods ──
         public void get_IL2CPP(){} // RVA: 0x7FFD4E426850
@@ -452,41 +434,39 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryUnityOptions : SentryOptions
     {
-        public string Enabled;
-        public bool AutoStartupTraces; // 0x288
-        public bool AutoSceneLoadTraces; // 0x289
-        public bool CaptureInEditor; // 0x28A
-        public bool EnableLogDebouncing; // 0x28B
-        public bool DebounceTimeLog; // 0x28C
-        public ializable.GetObjectData DebounceTimeWarning; // 0x290
-        public ializable.GetObjectData DebounceTimeError; // 0x298
-        public ializable.GetObjectData RequestBodyCompressionLevel; // 0x2A0
-        public hXMultiplier.e AttachScreenshot; // 0x2A8
-        public bool AttachViewHierarchy; // 0x2AC
-        public bool MaxViewHierarchyRootObjects; // 0x2AD
-        public int MaxViewHierarchyObjectChildCount; // 0x2B0
-        public int MaxViewHierarchyDepth; // 0x2B4
-        public int ScreenshotQuality; // 0x2B8
-        public hXMultiplier.ces ScreenshotCompression; // 0x2BC
-        public int AddBreadcrumbsForLogType; // 0x2C0
-        public URA.DateTime<?,bool> AnrTimeout; // 0x2C8
-        public ializable.GetObjectData FilterBadGatewayExceptions; // 0x2D0
-        public bool IosNativeSupportEnabled; // 0x2D8
-        public bool AndroidNativeSupportEnabled; // 0x2D9
-        public bool NdkIntegrationEnabled; // 0x2DA
-        public bool NdkScopeSyncEnabled; // 0x2DB
-        public bool WindowsNativeSupportEnabled; // 0x2DC
-        public bool MacosNativeSupportEnabled; // 0x2DD
-        public bool LinuxNativeSupportEnabled; // 0x2DE
-        public bool Il2CppLineNumberSupportEnabled; // 0x2DF
-        public bool PerformanceAutoInstrumentationEnabled; // 0x2E0
-        public bool StackTraceMode; // 0x2E1
-        public RGBA_ETC2_SRGB.aitAsync>d__5`3 DefaultUserId; // 0x2E4
-        public string NativeContextWriter; // 0x2E8
-        public bool NativeSupportCloseCallback; // 0x2F0
-        public hXMultiplier.r>b__346_7 SdkIntegrationNames; // 0x2F8
-        public ÎÌÍÏÏÌÍÏ <NativeSupportCloseCallback>k__BackingField; // 0x300
-        public URA.woDigitYearMax<string> <SdkIntegrationNames>k__BackingField; // 0x308
+        public object Enabled;
+        public object AutoStartupTraces;
+        public object AutoSceneLoadTraces;
+        public object CaptureInEditor;
+        public object EnableLogDebouncing;
+        public object DebounceTimeLog;
+        public object DebounceTimeWarning;
+        public object DebounceTimeError;
+        public object RequestBodyCompressionLevel;
+        public object AttachScreenshot;
+        public object AttachViewHierarchy;
+        public object MaxViewHierarchyRootObjects;
+        public object MaxViewHierarchyObjectChildCount;
+        public object MaxViewHierarchyDepth;
+        public object ScreenshotQuality;
+        public object ScreenshotCompression;
+        public object AddBreadcrumbsForLogType;
+        public object AnrTimeout;
+        public object FilterBadGatewayExceptions;
+        public object IosNativeSupportEnabled;
+        public object AndroidNativeSupportEnabled;
+        public object NdkIntegrationEnabled;
+        public object NdkScopeSyncEnabled;
+        public object WindowsNativeSupportEnabled;
+        public object MacosNativeSupportEnabled;
+        public object LinuxNativeSupportEnabled;
+        public object Il2CppLineNumberSupportEnabled;
+        public object PerformanceAutoInstrumentationEnabled;
+        public object StackTraceMode;
+        public object DefaultUserId;
+        public object NativeContextWriter;
+        public object NativeSupportCloseCallback;
+        public object SdkIntegrationNames;
 
         // ── Methods ──
         public void get_Enabled(){} // RVA: 0x7FFD4F559B80
@@ -572,8 +552,7 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class TimeDebounceBase : Object
     {
-        public ializable.GetObjectData Now; // 0x10
-        public aphy<ntent> _barrierOffset; // 0x18
+        public object Now;
 
         // ── Methods ──
         public void get_Now(){} // RVA: 0x7FFD53F38050
@@ -583,8 +562,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityEventProcessor : Object
     {
-        public hXMultiplier.ssageReceived _sentryOptions; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void Process(){} // RVA: 0x7FFD53F38280 | overloaded x2
@@ -595,11 +572,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityIl2CppEventExceptionProcessor : Object
     {
-        public hXMultiplier.ssageReceived Options;
-        public hXMultiplier._ribbonCount UnityInfo; // 0x8
-        public hXMultiplier._lifetime_Injected _il2CppMethods; // 0x10
-        public dle<URA.woDigitYearMax<et_light>> DebugImagesSorted; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53F23880
         public void Process(){} // RVA: 0x7FFD53F23B70
@@ -612,10 +584,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityLogger : Object
     {
-        public string LogTag;
-        public RGBA_ETC2_SRGB.ionAsync>d__5`3 _sentryOptions; // 0x10
-        public Identifiers _logger; // 0x18
-
         // ── Methods ──
         public void IsEnabled(){} // RVA: 0x7FFD53F38930
         public void .ctor(){} // RVA: 0x7FFD53F38A70 | overloaded x2
@@ -626,8 +594,6 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityScopeIntegration : Object
     {
-        public eaMod.DNS.Model.? _application; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void Register(){} // RVA: 0x7FFD53F29D60
@@ -641,9 +607,7 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class WebBackgroundWorker : Object
     {
-        public hXMultiplier.Field QueuedItems; // 0x10
-        public hXMultiplier.n _transport; // 0x18
-        public int <QueuedItems>k__BackingField; // 0x20
+        public object QueuedItems;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53F3A1B0

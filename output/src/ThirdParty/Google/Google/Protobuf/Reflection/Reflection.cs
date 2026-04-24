@@ -7,12 +7,6 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 {
     public class DescriptorPool : Object
     {
-        public URA.X_CALENDARS<string,ate.thSize> descriptorsByName; // 0x10
-        public URA.X_CALENDARS<gBox.dialAimBlend<ate.thSize>,ate.nel> fieldsByNumber; // 0x18
-        public URA.X_CALENDARS<gBox.dialAimBlend<ate.thSize>,ate.meOwnerName> enumValuesByNumber; // 0x20
-        public URA.onsDepth<ate.ination> dependencies; // 0x28
-        public tor.neStore ValidationRegex;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53635110
         public void ImportPublicDependencies(){} // RVA: 0x7FFD536357D0
@@ -35,16 +29,15 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class EnumOptions : Object
     {
-        public gBox.itionBlend<ate.aPending> _Extensions;
-        public gBox.ra Parser; // 0x10
-        public gBox.centerTarget<ate.aPending> Descriptor; // 0x18
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x20
-        public bool AllowAlias; // 0x8
-        public bool HasAllowAlias; // 0x24
-        public bool Deprecated; // 0x9
-        public bool HasDeprecated; // 0x25
-        public gBox.PathNoRoll<ate.ePoint>g__ClosestPointOnSegment|9_2> UninterpretedOption; // 0x10
-        public r>k__BackingField.resentations<ate.ePoint>g__ClosestPointOnSegment|9_2> uninterpretedOption_; // 0x28
+        public object _Extensions;
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object AllowAlias;
+        public object HasAllowAlias;
+        public object Deprecated;
+        public object HasDeprecated;
+        public object UninterpretedOption;
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -80,14 +73,13 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class EnumValueOptions : Object
     {
-        public gBox.itionBlend<ate.tLM> _Extensions;
-        public gBox.ra Parser; // 0x10
-        public gBox.centerTarget<ate.tLM> Descriptor; // 0x18
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x20
-        public bool Deprecated; // 0x8
-        public bool HasDeprecated; // 0x24
-        public gBox.PathNoRoll<ate.ePoint>g__ClosestPointOnSegment|9_2> UninterpretedOption; // 0x10
-        public r>k__BackingField.resentations<ate.ePoint>g__ClosestPointOnSegment|9_2> uninterpretedOption_; // 0x28
+        public object _Extensions;
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object Deprecated;
+        public object HasDeprecated;
+        public object UninterpretedOption;
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -119,11 +111,11 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ExtensionRangeOptions : Object
     {
-        public gBox.itionBlend<ate.e> _Extensions;
-        public gBox.ra Parser; // 0x10
-        public gBox.centerTarget<ate.e> Descriptor; // 0x18
-        public gBox.PathNoRoll<ate.ePoint>g__ClosestPointOnSegment|9_2> pb::Google.Protobuf.IMessage.Descriptor; // 0x8
-        public r>k__BackingField.resentations<ate.ePoint>g__ClosestPointOnSegment|9_2> UninterpretedOption; // 0x20
+        public object _Extensions;
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object UninterpretedOption;
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -151,26 +143,25 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FieldOptions : Object
     {
-        public gBox.itionBlend<ate.Node> _Extensions;
-        public gBox.ra Parser; // 0x10
-        public gBox.centerTarget<ate.Node> Descriptor; // 0x18
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x20
-        public nsertLocalMinima Ctype; // 0x8
-        public nsertLocalMinima HasCtype; // 0x24
-        public bool Packed; // 0xC
-        public bool HasPacked; // 0x28
-        public alMinima Jstype; // 0x10
-        public alMinima HasJstype; // 0x2C
-        public bool Lazy; // 0x14
-        public bool HasLazy; // 0x30
-        public bool UnverifiedLazy; // 0x15
-        public bool HasUnverifiedLazy; // 0x31
-        public bool Deprecated; // 0x16
-        public bool HasDeprecated; // 0x32
-        public bool Weak; // 0x17
-        public bool HasWeak; // 0x33
-        public gBox.PathNoRoll<ate.ePoint>g__ClosestPointOnSegment|9_2> UninterpretedOption; // 0x18
-        public r>k__BackingField.resentations<ate.ePoint>g__ClosestPointOnSegment|9_2> uninterpretedOption_; // 0x38
+        public object _Extensions;
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object Ctype;
+        public object HasCtype;
+        public object Packed;
+        public object HasPacked;
+        public object Jstype;
+        public object HasJstype;
+        public object Lazy;
+        public object HasLazy;
+        public object UnverifiedLazy;
+        public object HasUnverifiedLazy;
+        public object Deprecated;
+        public object HasDeprecated;
+        public object Weak;
+        public object HasWeak;
+        public object UninterpretedOption;
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -226,17 +217,19 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FileDescriptor : Object
     {
-        public dle<URA.DateTime<ate.thSize,ate.?>> Proto; // 0x10
-        public ate.ed Syntax; // 0x18
-        public ate.? Name; // 0x20
-        public URA.?<ate.nt64Size> Package; // 0x28
-        public URA.?<ate.?> MessageTypes; // 0x30
-        public URA.?<ate.portsPacking> EnumTypes; // 0x38
-        public ate.royProfileCopy Services; // 0x40
-        public URA.?<ate.ination> Extensions; // 0x48
-        public URA.?<ate.ination> Dependencies; // 0x50
-        public gBox.mumDistance PublicDependencies; // 0x58
-        public ate.t Google.Protobuf.Reflection.IDescriptor.FullName; // 0x60
+        public object Proto;
+        public object Syntax;
+        public object Name;
+        public object Package;
+        public object MessageTypes;
+        public object EnumTypes;
+        public object Services;
+        public object Extensions;
+        public object Dependencies;
+        public object PublicDependencies;
+        public object Google.Protobuf.Reflection.IDescriptor.FullName;
+        public object Google.Protobuf.Reflection.IDescriptor.File;
+        public object DescriptorPool;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5363A9B0
@@ -273,52 +266,51 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class FileOptions : Object
     {
-        public gBox.itionBlend<ate.LanguageInAppX> _Extensions;
-        public gBox.ra Parser; // 0x10
-        public gBox.centerTarget<ate.LanguageInAppX> Descriptor; // 0x18
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x20
-        public string JavaPackage; // 0x8
-        public string HasJavaPackage; // 0x28
-        public string JavaOuterClassname; // 0x10
-        public string HasJavaOuterClassname; // 0x30
-        public bool JavaMultipleFiles; // 0x18
-        public bool HasJavaMultipleFiles; // 0x38
-        public bool JavaGenerateEqualsAndHash; // 0x19
-        public bool HasJavaGenerateEqualsAndHash; // 0x39
-        public bool JavaStringCheckUtf8; // 0x1A
-        public bool HasJavaStringCheckUtf8; // 0x3A
-        public oint OptimizeFor; // 0x1C
-        public oint HasOptimizeFor; // 0x3C
-        public string GoPackage; // 0x20
-        public string HasGoPackage; // 0x40
-        public bool CcGenericServices; // 0x28
-        public bool HasCcGenericServices; // 0x48
-        public bool JavaGenericServices; // 0x29
-        public bool HasJavaGenericServices; // 0x49
-        public bool PyGenericServices; // 0x2A
-        public bool HasPyGenericServices; // 0x4A
-        public bool PhpGenericServices; // 0x2B
-        public bool HasPhpGenericServices; // 0x4B
-        public bool Deprecated; // 0x2C
-        public bool HasDeprecated; // 0x4C
-        public bool CcEnableArenas; // 0x2D
-        public bool HasCcEnableArenas; // 0x4D
-        public string ObjcClassPrefix; // 0x30
-        public string HasObjcClassPrefix; // 0x50
-        public string CsharpNamespace; // 0x38
-        public string HasCsharpNamespace; // 0x58
-        public string SwiftPrefix; // 0x40
-        public string HasSwiftPrefix; // 0x60
-        public string PhpClassPrefix; // 0x48
-        public string HasPhpClassPrefix; // 0x68
-        public string PhpNamespace; // 0x50
-        public string HasPhpNamespace; // 0x70
-        public string PhpMetadataNamespace; // 0x58
-        public string HasPhpMetadataNamespace; // 0x78
-        public string RubyPackage; // 0x60
-        public string HasRubyPackage; // 0x80
-        public gBox.PathNoRoll<ate.ePoint>g__ClosestPointOnSegment|9_2> UninterpretedOption; // 0x68
-        public r>k__BackingField.resentations<ate.ePoint>g__ClosestPointOnSegment|9_2> uninterpretedOption_; // 0x88
+        public object _Extensions;
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object JavaPackage;
+        public object HasJavaPackage;
+        public object JavaOuterClassname;
+        public object HasJavaOuterClassname;
+        public object JavaMultipleFiles;
+        public object HasJavaMultipleFiles;
+        public object JavaGenerateEqualsAndHash;
+        public object HasJavaGenerateEqualsAndHash;
+        public object JavaStringCheckUtf8;
+        public object HasJavaStringCheckUtf8;
+        public object OptimizeFor;
+        public object HasOptimizeFor;
+        public object GoPackage;
+        public object HasGoPackage;
+        public object CcGenericServices;
+        public object HasCcGenericServices;
+        public object JavaGenericServices;
+        public object HasJavaGenericServices;
+        public object PyGenericServices;
+        public object HasPyGenericServices;
+        public object PhpGenericServices;
+        public object HasPhpGenericServices;
+        public object Deprecated;
+        public object HasDeprecated;
+        public object CcEnableArenas;
+        public object HasCcEnableArenas;
+        public object ObjcClassPrefix;
+        public object HasObjcClassPrefix;
+        public object CsharpNamespace;
+        public object HasCsharpNamespace;
+        public object SwiftPrefix;
+        public object HasSwiftPrefix;
+        public object PhpClassPrefix;
+        public object HasPhpClassPrefix;
+        public object PhpNamespace;
+        public object HasPhpNamespace;
+        public object PhpMetadataNamespace;
+        public object HasPhpMetadataNamespace;
+        public object RubyPackage;
+        public object HasRubyPackage;
+        public object UninterpretedOption;
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -426,20 +418,20 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class MessageOptions : Object
     {
-        public gBox.itionBlend<ate.ode> _Extensions;
-        public gBox.ra Parser; // 0x10
-        public gBox.centerTarget<ate.ode> Descriptor; // 0x18
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x20
-        public bool MessageSetWireFormat; // 0x8
-        public bool HasMessageSetWireFormat; // 0x24
-        public bool NoStandardDescriptorAccessor; // 0x9
-        public bool HasNoStandardDescriptorAccessor; // 0x25
-        public bool Deprecated; // 0xA
-        public bool HasDeprecated; // 0x26
-        public bool MapEntry; // 0xB
-        public bool HasMapEntry; // 0x27
-        public gBox.PathNoRoll<ate.ePoint>g__ClosestPointOnSegment|9_2> UninterpretedOption; // 0x10
-        public r>k__BackingField.resentations<ate.ePoint>g__ClosestPointOnSegment|9_2> uninterpretedOption_; // 0x28
+        public object _Extensions;
+        public object Parser; // 0x4
+        public string Descriptor; // 0x8
+        public string pb::Google.Protobuf.IMessage.Descriptor; // 0x10
+        public string MessageSetWireFormat; // 0x18
+        public string HasMessageSetWireFormat; // 0x20
+        public string NoStandardDescriptorAccessor; // 0x28
+        public string HasNoStandardDescriptorAccessor; // 0x30
+        public string Deprecated; // 0x38
+        public ÎÌÍÏÏÌÍÏ HasDeprecated; // 0x10
+        public rectoryInformation<ÎÏÌÎÎÎÌÌÌ.lerVisibility,ÎÏÌÎÎÎÌÌÌ.?> MapEntry; // 0x18
+        public ÎÏÌÎÎÎÌÌÌ.? HasMapEntry; // 0x20
+        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius UninterpretedOption; // 0x28
+        public CopyBackIndices.xDecl m_MultiColumnHeader; // 0x30
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -483,16 +475,15 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class MethodOptions : Object
     {
-        public gBox.itionBlend<ate.s> _Extensions;
-        public gBox.ra Parser; // 0x10
-        public gBox.centerTarget<ate.s> Descriptor; // 0x18
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x20
-        public bool Deprecated; // 0x8
-        public bool HasDeprecated; // 0x24
-        public on IdempotencyLevel; // 0xC
-        public on HasIdempotencyLevel; // 0x28
-        public gBox.PathNoRoll<ate.ePoint>g__ClosestPointOnSegment|9_2> UninterpretedOption; // 0x10
-        public r>k__BackingField.resentations<ate.ePoint>g__ClosestPointOnSegment|9_2> uninterpretedOption_; // 0x30
+        public object _Extensions;
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object Deprecated;
+        public object HasDeprecated;
+        public object IdempotencyLevel;
+        public object HasIdempotencyLevel;
+        public object UninterpretedOption;
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -528,11 +519,11 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class OneofOptions : Object
     {
-        public gBox.itionBlend<ate.am> _Extensions;
-        public gBox.ra Parser; // 0x10
-        public gBox.centerTarget<ate.am> Descriptor; // 0x18
-        public gBox.PathNoRoll<ate.ePoint>g__ClosestPointOnSegment|9_2> pb::Google.Protobuf.IMessage.Descriptor; // 0x8
-        public r>k__BackingField.resentations<ate.ePoint>g__ClosestPointOnSegment|9_2> UninterpretedOption; // 0x20
+        public object _Extensions;
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object UninterpretedOption;
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0
@@ -560,8 +551,7 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ReflectionUtil : Object
     {
-        public ?[] CanConvertEnumFuncToInt32Func;
-        public bool <CanConvertEnumFuncToInt32Func>k__BackingField; // 0x8
+        public object CanConvertEnumFuncToInt32Func;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD536421B0
@@ -580,14 +570,13 @@ namespace ThirdParty.Google.Google.Protobuf.Reflection
 
     public class ServiceOptions : Object
     {
-        public gBox.itionBlend<ate.nbeam> _Extensions;
-        public gBox.ra Parser; // 0x10
-        public gBox.centerTarget<ate.nbeam> Descriptor; // 0x18
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x20
-        public bool Deprecated; // 0x8
-        public bool HasDeprecated; // 0x24
-        public gBox.PathNoRoll<ate.ePoint>g__ClosestPointOnSegment|9_2> UninterpretedOption; // 0x10
-        public r>k__BackingField.resentations<ate.ePoint>g__ClosestPointOnSegment|9_2> uninterpretedOption_; // 0x28
+        public object _Extensions;
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object Deprecated;
+        public object HasDeprecated;
+        public object UninterpretedOption;
 
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0x7FFD4E3447C0

@@ -21,8 +21,6 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class CodeGeneratorUtil : Object
     {
-        public inDataView.PolymorphicTypeConfigurationDoesNotSpecifyDerivedTypes utf8JsonWriter; // 0xFFFFFFFF
-
         // ── Methods ──
         public void GetThreadStaticUtf8JsonWriter(){} // RVA: 0x7FFD5750F9F0
         public void AppendAsJson(){} // RVA: 0x7FFD5750FB40 | overloaded x2
@@ -52,9 +50,6 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class MagicalBox : ValueType
     {
-        public byte[] storage; // 0x10
-        public int written; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5501E610
         public void TryWrite(){} // RVA: 0x7FFD4E2ADC40
@@ -68,9 +63,6 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class ObjectPool`1 : Object
     {
-        public int gate;
-        public T1717732832 root;
-
         // ── Methods ──
         public void TryPop(){} // RVA: 0x7FFD4E079F60
         public void TryPush(){} // RVA: 0x7FFD4E2ADC40
@@ -79,11 +71,6 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class StreamBufferWriter : Object
     {
-        public Inherited.? stream; // 0x10
-        public byte[] buffer; // 0x18
-        public byte[] defaultBuffer; // 0x20
-        public int written; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57511CF0
         public void Advance(){} // RVA: 0x7FFD57511E40

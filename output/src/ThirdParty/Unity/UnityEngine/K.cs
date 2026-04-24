@@ -7,13 +7,13 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Keyframe : ValueType
     {
-        public float time; // 0x10
-        public float value; // 0x14
-        public float inTangent; // 0x18
-        public float outTangent; // 0x1C
-        public int weightedMode; // 0x20
-        public float tangentMode; // 0x24
-        public float tangentModeInternal; // 0x28
+        public object time;
+        public object value;
+        public object inTangent;
+        public object outTangent;
+        public object weightedMode;
+        public object tangentMode;
+        public object tangentModeInternal;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C71CB0 | overloaded x2

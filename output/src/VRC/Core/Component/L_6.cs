@@ -176,6 +176,27 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÎÌÍÌÎÎÌÌÎÎÎÍÏÍÏÌÌÎÍÎÎ</summary>
     public class LifecycleComponentImpl_6A5F : LifecycleComponent_7FFD
     {
+        public float ÎÍÏÍÌÎÍÏÎÎÍÌÍÍÏÏÌÏÌÍÌÌÌ;
+        public string _controlName; // 0x130
+        public bool ÌÏÌÎÌÏÏÍÏÏÏÍÏÏÎÍÏÎÌÎÏÎÎ; // 0x138
+        public float minimumSpeed; // 0x13C
+        public bool _allowPropagationToParent; // 0x140
+        public uint _framesDelayForSet; // 0x144
+        public bool _autoClampScroll; // 0x148
+        public bool ÍÌÍÌÎÏÌÍÏÎÎÍÎÌÎÏÌÍÏÎÎÏÎ; // 0x149
+        public bool ÍÌÌÍÍÍÏÎÍÌÍÌÎÌÌÎÌÌÎÌÍÏÏ; // 0x14A
+        public bool ÏÍÍÌÏÌÎÌÎÎÌÏÌÎÏÎÍÍÍÌÎÎÏ; // 0x14B
+        public bool ÌÏÎÍÌÌÌÎÍÍÍÏÌÌÌÏÌÍÌÏÏÌÌ; // 0x14C
+        public panId ÍÌÏÏÍÌÍÌÎÏÎÍÍÎÍÍÌÌÎÍÏÍÏ; // 0x150
+        public tUInt32 ÌÎÎÏÏÍÏÏÎÎÎÎÌÏÌÍÎÌÎÏÌÍÎ; // 0x158
+        public URA.DateTime<object,float> ÍÌÎÏÏÍÍÍÍÌÏÎÌÏÍÎÍÎÍÎÌÌÍ; // 0x160
+        public object ÌÌÍÍÏÏÎÎÏÎÎÎÏÍÌÌÍÍÎÍÏÏÏ; // 0x168
+        public sageKind._internal ÍÎÌÎÌÎÍÎÏÍÍÌÎÍÏÍÏÏÍÏÎÎÍ; // 0x170
+        public nitializationType ÍÎÍÌÎÏÏÏÏÍÌÌÏÌÎÏÍÌÌÎÌÌÎ; // 0x178
+        public float ÏÎÍÍÍÏÏÏÌÏÍÎÏÌÌÎÏÏÎÍÏÎÍ;
+        public float ÏÎÌÍÌÎÎÌÌÍÎÏÍÍÌÎÎÏÌÏÌÍÎ;
+        public float ÎÌÌÍÍÏÏÏÌÏÏÎÌÏÍÍÏÎÍÍÌÍÎ; // 0x17C
+
         // ── Methods ──
         public void get_hidden(){} // RVA: 0x7FFD569F8A80
         public void Start(){} // RVA: 0x7FFD569F8B80
@@ -186,7 +207,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÍÏÍÌÎÌÏÍÍÌÎÏÎÏÏÌÎÌÎÌÍ</summary>
     public class LifecycleComponentImpl_75AF : LifecycleComponent_AC66
     {
-        public object _75AF;
+        public string _75AF; // 0x18
+        public string ovrMobileAppID; // 0x20
+        public bool ovrUseStandalonePlatform; // 0x28
+        public NextImage.SessionId_Native instance;
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F446820
@@ -218,8 +242,7 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÌÏÎÌÎÍÍÌÍÌÎÍÌÏÍÌÏÏÎÎÍÌ</summary>
     public class LifecycleComponentImpl_D28B : LifecycleComponent_AC66
     {
-        public object f_128;
-        public object f_BB8;
+        public ÏÎ f_128; // 0x20
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F44AC30
@@ -2082,7 +2105,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÎÎÎÍÎÍÎÌÍÎÌÍÍÍÌÎÎÌÌÎÏÍÎ</summary>
     public class LifecycleComponent_D997 : MonoBehaviour
     {
-        public object _d997;
+        public BuffersImpl _d997; // 0x20
+        public BuffersImpl ÍÌÏÏÍÎÎÍÎÎÍÏÌÏÏÍÍÏÌÏÌÍÏ; // 0x28
+        public BuffersImpl ÏÏÎÏÌÍÌÌÍÌÌÎÍÎÍÎÍÎÍÏÎÎÍ; // 0x30
+        public ÏÎÎÏÎÍÏÏÎÌÏÍÍÎÌÏÍÏÏÌÌ ÌÍÌÌÎÏÎÍÍÏÌÎÏÌÎÎÎÌÌÌÌÏÍ; // 0x38
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56CACA70

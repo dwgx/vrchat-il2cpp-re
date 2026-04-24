@@ -7,10 +7,6 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 {
     public class Ambisonic : Object
     {
-        public int MaxCoeffs;
-        public float[] _weightsFuMa;
-        public float[] _weightsSN3D; // 0x8
-
         // ── Methods ──
         public void GetNormalisationWeights(){} // RVA: 0x7FFD53E30670
         public void GetCoeffCount(){} // RVA: 0x7FFD53E30700
@@ -28,18 +24,6 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class AmbisonicSource : MonoBehaviour
     {
-        public esampleMode.Pause _sink; // 0x20
-        public object _listener; // 0x28
-        public amut _position; // 0x30
-        public esampleMode.list _order; // 0x3C
-        public esampleMode.ition _channelOrder; // 0x40
-        public esampleMode.ration _normalisation; // 0x44
-        public UIntPtr _sourceInstance; // 0x48
-        public int _activeSampleIndex; // 0x50
-        public float[] _activeSamples; // 0x58
-        public URA.ge<float[]> _fullBuffers; // 0x60
-        public URA.ge<float[]> _emptyBuffers; // 0x68
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD53E0B440
         public void OnDisable(){} // RVA: 0x7FFD53E0B870
@@ -57,15 +41,71 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class AmbisonicWavWriter : MonoBehaviour
     {
-        public esampleMode.? Order; // 0x20
-        public esampleMode.list Format; // 0x28
-        public esampleMode.iousOnTransition _format; // 0x2C
-        public string _filename; // 0x30
-        public int _bufferCount; // 0x38
-        public float[] _outSamples; // 0x40
-        public esampleMode.orspaceSRGB _wavWriter; // 0x48
-        public URA.woDigitYearMax<esampleMode._useResampler> _sources; // 0x50
-        public int _pendingSampleCount; // 0x58
+        public bool Order; // 0x28
+        public object Format; // 0x30
+        public bool ÌÌÎÏÏÎÍÌÏÏÍÎÍÍÍÌÎÎÌÌÍÎÎ; // 0x38
+        public bool ÌÎÍÎÌÌÎÏÏÏÎÎÍÎÌÌÌÏÌÌÏÎÍ; // 0x39
+        public float fingerDebugPlaceForwardOffset; // 0x3C
+        public bool ÏÏÍÎÌÎÏÌÏÍÌÍÏÎÎÍÏÎÌÏÌÏÏ; // 0x40
+        public pad ÌÎÌÍÍÍÌÏÌÎÏÎÍÏÍÏÍÍÎÌÌÍÎ; // 0x48
+        public ÏÍÎÌ ÏÍÏÌÏÌÏÎÍÌÍÍÌÍÌÌÍÍÌÍÍÌÍ; // 0x50
+        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ ÍÎÍÍÍÏÎÏÎÏÏÍÍÎÏÏÏÏÏÍÍÏÍ; // 0x58
+        public object ÌÏÌÏÎÌÏÎÌÎÎÎÌÎÎÌÍÏÌÌÌÌÍ; // 0x60
+        public int ÎÌÏÏÏÌÏÍÎÎÍÌÌÏÏÎÍÍÎÌÎÎÏ; // 0x68
+        public int ÏÎÏÏÏÍÏÏÏÎÍÏÍÍÍÏÏÍÌÎÏÌÌ; // 0x6C
+        public int ÍÎÍÌÏÌÌÌÏÏÍÌÎÎÍÏÏÎÎÌÏÍÍ; // 0x70
+        public int ÍÌÎÎÌÎÎÏÍÎÎÌÌÏÏÏÏÏÏÍÎÍÌ; // 0x74
+        public int ÌÍÏÎÎÍÌÎÎÌÍÏÏÌÎÌÍÎÏÎÌÍÍ; // 0x78
+        public int ÎÏÎÎÍÍÎÌÍÏÍÍÌÌÏÌÌÏÏÌÎÏÏ; // 0x7C
+        public bool ÎÌÍÌÌÎÍÍÌÍÏÎÌÌÍÌÎÎÌÍÌÍÍ; // 0x80
+        public ÎÎÏÎÎÌÍÎÎÍÌÌÍÌÏÏÍ ÎÌÍÎÌÏÍÌÎÎÍÍÍÎÍÏÍÌÏÏÏÎÎ; // 0x88
+        public object ÎÎÏÎÌÎÎÍÏÏÎÍÍÌÏÌÍÌÏÏÏÎÌ; // 0x90
+        public bool ÌÍÎÎÍÏÍÍÍÍÍÏÎÏÏÎÏÌÍÌÍÍÍ; // 0x98
+        public stfix ÌÏÎÌÌÏÏÍÎÍÍÌÍÎÏÎÏÌÍÏÌÍÏ; // 0xA0
+        public ching ÌÏÌÎÍÏÌÏÎÍÎÏÍÎÎÌÌÍÎÌÍÏÏ; // 0xA8
+        public ching ÌÍÏÏÎÍÍÏÌÎÏÍÌÎÍÍÍÏÌÍÏÌÍ; // 0xAC
+        public amut headOffset; // 0xB0
+        public float startAngle; // 0xBC
+        public float zoneAngle; // 0xC0
+        public float planeViewRadius; // 0xC4
+        public float planeDetectRadius; // 0xC8
+        public bool attachedRight; // 0xCC
+        public object ÍÎÏÍÎÍÍÍÌÌÌÎÍÏÍÎÎÏÎÌÌÍÌ; // 0xD0
+        public object ÎÌÎÌÎÍÎÌÎÌÎÏÏÍÍÎÍÎÏÏÎÏÌ; // 0xE0
+        public ePathName117.ÎÌÍÍÎÏÌ socketImage; // 0xE8
+        public bool ÏÎÌÎÎÌÏÌÍÎÌÍÍÏÏÎÏÏÏÏÍÏÍ; // 0xF0
+        public ePathName117.ÎÌÍÍÎÏÌ ÎÍÍÍÌÏÏÏÌÌÎÍÎÍÍÌÍÎÌÌÎÌÏ; // 0xF8
+        public bool ÎÏÎÌÏÏÌÌÏÍÏÎÍÍÍÍÍÎÎÎÌÍÍ; // 0x100
+        public float ÎÎÏÍÎÍÏÌÎÏÎÎÍÎÌÎÍÌÍÎÎÎÎ; // 0x104
+        public object dotStartColor; // 0x108
+        public object dotEndColor; // 0x118
+        public object ÎÎÍÎÌÌÏÍÎÌÌÌÍÌÍÌÏÍÍÌÍÏÎ; // 0x128
+        public object ÌÏÌÏÎÌÏÍÏÎÍÍÍÍÍÏÍÎÎÏÏÍÍ; // 0x138
+        public amut socketLocalPosition; // 0x148
+        public float socketRadius; // 0x154
+        public float socketActivationRadius; // 0x158
+        public float socketPullRadius; // 0x15C
+        public float socketOpenFillAmt; // 0x160
+        public ies socketEntryClip; // 0x168
+        public ies completeClip; // 0x170
+        public object cursorDirectionIndicator; // 0x178
+        public ePathName117.ÎÌÍÍÎÏÌ cursorDirectionIndicatorIcon; // 0x180
+        public bool ÍÍÎÍÏÌÎÎÍÍÍÏÎÍÍÎÎÏÌÎÏÏÎ; // 0x188
+        public ePathName117.ÎÌÍÍÎÏÌ cursorDirectionIndicatorArrow; // 0x190
+        public bool ÌÌÏÌÌÌÎÍÌÏÌÌÏÏÍÍÎÌÍÍÍÏÏ; // 0x198
+        public ÌÌÍÍÍÏÎÍÍÏÌÌÍÏÏÎÍÎÌÎÏÏÏ ÍÍÏÏÏÍÍÎÏÌÌÍÍÏÍÍÌÍÍÏÌÍÌ; // 0x1A0
+        public float ÏÏÏÏÎÎÎÍÍÍÏÌÍÍÍÎÌÌÌÍÌÏÌ; // 0x1A8
+        public float ÏÎÎÍÌÏÏÌÌÌÎÎÏÏÌÍÏÏÍÎÏÌÏ;
+        public float ÍÍÎÍÍÏÍÌÏÌÌÍÌÏÎÍÏÌÍÌÏÌÌ;
+        public float ÎÌÍÎÎÍÏÏÎÍÎÏÎÏÏÏÎÍÌÎÎÎÌ;
+        public amut ÍÎÍÍÎÏÏÎÌÏÍÌÍÎÎÎÌÏÎÍÌÎÏ; // 0x1AC
+        public bool ÍÎÍÍÌÌÎÎÏÌÏÍÏÎÍÎÌÏÍÌÏÌÍ; // 0x1B8
+        public bool ÎÎÏÍÎÍÏÍÏÎÌÌÏÍÏÍÍÏÎÏÌÏÎ; // 0x1B9
+        public bool ÌÎÍÍÎÎÏÎÍÌÏÌÌÍÌÌÏÍÏÎÌÏÎ; // 0x1BA
+        public float ÌÌÍÍÏÌÏÏÎÏÌÌÏÌÌÎÏÌÎÍÏÍÌ;
+        public float ÏÏÌÍÍÍÏÏÌÌÎÏÎÍÌÍÏÎÏÏÍÍÏ; // 0x1BC
+        public bool ÎÎÍÌÏÎÎÏÌÏÌÌÍÍÌÏÌÏÎÏÍÌÏ; // 0x1C0
+        public bool ÍÏÎÌÎÏÌÍÌÏÎÏÍÍÏÏÎÏÏÌÏÎÍ; // 0x1C1
 
         // ── Methods ──
         public void get_Order(){} // RVA: 0x7FFD4E70C4C0
@@ -87,9 +127,6 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class AudioSourceToWav : MonoBehaviour
     {
-        public string _filename; // 0x20
-        public esampleMode.orspaceSRGB _wavWriter; // 0x28
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD53E0ECB0
         public void OnDisable(){} // RVA: 0x7FFD53E0EED0
@@ -99,16 +136,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CameraSelector : MonoBehaviour
     {
-        public btitleIndex Camera; // 0x20
-        public cOSX SelectBy; // 0x24
-        public bool ScanFrequency; // 0x28
-        public string ScanHiddenCameras; // 0x30
-        public string SelectTag; // 0x38
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ SelectName; // 0x40
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ[] _cameraCache; // 0x48
-        public int _cameraCount; // 0x50
-        public int _cameraCacheFrame; // 0x54
-        public bool _selectionDirty; // 0x58
+        public object Camera;
+        public object SelectBy;
+        public object ScanFrequency;
+        public object ScanHiddenCameras;
+        public object SelectTag;
+        public object SelectName;
 
         // ── Methods ──
         public void get_Camera(){} // RVA: 0x7FFD4E3BE740
@@ -141,14 +174,6 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureAudioFromAudioClip : MonoBehaviour
     {
-        public esampleMode.? _capture; // 0x20
-        public ies _audioClip; // 0x28
-        public int _videoOffsetInSamples; // 0x30
-        public int _committedFrames; // 0x34
-        public int _committedSamples; // 0x38
-        public int _lastCommittedSample; // 0x3C
-        public float[] _frameBuffer; // 0x40
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD53E0FF40
         public void Update(){} // RVA: 0x7FFD53E102F0
@@ -158,16 +183,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureAudioFromAudioListener : UnityAudioCapture
     {
-        public bool Buffer; // 0x20
-        public bool BufferLength; // 0x21
-        public int BufferPtr;
-        public float[] OverflowCount; // 0x28
-        public float[] SampleRate; // 0x30
-        public int ChannelCount; // 0x38
-        public annelDataStore.essage _bufferHandle; // 0x40
-        public int _numChannels; // 0x48
-        public int _overflowCount; // 0x4C
-        public object _lockObject; // 0x50
+        public object Buffer;
+        public object BufferLength;
+        public object BufferPtr;
+        public object OverflowCount;
+        public object SampleRate;
+        public object ChannelCount;
 
         // ── Methods ──
         public void get_Buffer(){} // RVA: 0x7FFD4E5F95E0
@@ -187,10 +208,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureAudioFromAudioRenderer : UnityAudioCapture
     {
-        public esampleMode.? Capture; // 0x20
-        public int SampleRate; // 0x28
-        public bool ChannelCount; // 0x2C
-        public ÍÎÏÎÎ.ÌÌ<float> _audioBuffer; // 0x30
+        public object Capture;
+        public object SampleRate;
+        public object ChannelCount;
 
         // ── Methods ──
         public void get_Capture(){} // RVA: 0x7FFD4E36F0C0
@@ -209,7 +229,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureAudioFromWwise : UnityAudioCapture
     {
-        public esampleMode.? Capture; // 0x20
+        public object Capture;
+        public object SampleRate;
+        public object ChannelCount;
 
         // ── Methods ──
         public void get_Capture(){} // RVA: 0x7FFD4E36F0C0
@@ -226,129 +248,65 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureBase : MonoBehaviour
     {
-        public string OutputTarget;
-        public esampleMode.unt OutputFolder; // 0x20
-        public esampleMode.unt OutputFolderPath; // 0x28
-        public esampleMode.unt FilenamePrefix; // 0x30
-        public esampleMode.unt AppendFilenameTimestamp; // 0x38
-        public Flag AllowManualFileExtension; // 0x40
-        public bool FilenameExtension; // 0x44
-        public bool NamedPipePath; // 0x45
-        public esampleMode.? ImageSequenceStartFrame; // 0x48
-        public esampleMode.IMGUI ImageSequenceZeroDigits; // 0x4C
-        public float UseMotionBlur; // 0x50
-        public esampleMode.ereoDetectEnabled MotionBlurSamples; // 0x54
-        public int MotionBlurCameras; // 0x58
-        public float MotionBlur; // 0x5C
-        public string[] ActiveFilePaths;
-        public string[] LastFilePath; // 0x8
-        public string[] BeginFinalFileWritingAction; // 0x10
-        public string[] CompletedFileWritingAction; // 0x18
-        public string[] Stats; // 0x20
-        public string[] CameraRenderResolution; // 0x28
-        public string[] CameraRenderCustomResolution; // 0x30
-        public string[] CameraRenderAntiAliasing; // 0x38
-        public string[] IsRealTime; // 0x40
-        public string[] PersistAcrossSceneLoads; // 0x48
-        public string[] AudioCaptureSource; // 0x50
-        public string[] ManualAudioSampleRate; // 0x60
-        public string[] ManualAudioChannelCount; // 0x68
-        public string[] UnityAudioCapture; // 0x70
-        public string[] ForceAudioInputDeviceIndex; // 0x78
-        public string[] FrameRate; // 0x80
-        public string[] StartTrigger; // 0x88
-        public float StartDelay; // 0x90
-        public int StartDelaySeconds; // 0x94
-        public xturePointer StopMode; // 0x98
-        public er StopAfterFramesElapsed; // 0x9C
-        public tionX StopAfterSecondsElapsed; // 0xA0
-        public int CaptureStats; // 0xA8
-        public int VideoCodecPriorityWindows; // 0xAC
-        public int VideoCodecPriorityMacOS; // 0xB0
-        public int AudioCodecPriorityWindows; // 0xB4
-        public int AudioCodecPriorityMacOS; // 0xB8
-        public int TimelapseScale; // 0xBC
-        public int FrameUpdate; // 0xC0
-        public int ResolutionDownScale; // 0xC4
-        public bool ResolutionDownscaleCustom; // 0xC8
-        public bool FlipVertically; // 0xC9
-        public bool UseWaitForEndOfFrame; // 0xCA
-        public bool LogCaptureStartStop; // 0xCB
-        public bool AllowOfflineVSyncDisable; // 0xCC
-        public esampleMode.hUsed SupportTextureRecreate; // 0xD0
-        public esampleMode.ansitioning TimelineController; // 0xD8
-        public int VideoPlayerController; // 0xE0
-        public int SelectedVideoCodec; // 0xE4
-        public int SelectedAudioCodec; // 0xE8
-        public esampleMode.onMode SelectedAudioInputDevice; // 0xEC
-        public leFormat NativeForceVideoCodecIndex;
-        public string NativeForceAudioCodecIndex;
-        public leFormat NativeImageSequenceFormat; // 0xF0
-        public string LastFileSaved; // 0xF8
-        public string _filenamePrefix; // 0x100
-        public bool _appendFilenameTimestamp; // 0x108
-        public bool _allowManualFileExtension; // 0x109
-        public string _filenameExtension; // 0x110
-        public string _namedPipePath; // 0x118
-        public int _imageSequenceStartFrame; // 0x120
-        public int _imageSequenceZeroDigits; // 0x124
-        public esampleMode.Shader_Preview _imageSequenceFormatWindows; // 0x128
-        public esampleMode.Shader_Preview _imageSequenceFormatMacOS; // 0x12C
-        public esampleMode.Shader_Preview _imageSequenceFormatIOS; // 0x130
-        public esampleMode.Shader_Preview _imageSequenceFormatAndroid; // 0x134
-        public ilter _renderResolution; // 0x138
-        public tionX _renderSize; // 0x13C
-        public int _renderAntiAliasing; // 0x144
-        public bool _useMotionBlur; // 0x148
-        public int _motionBlurSamples; // 0x14C
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ[] _motionBlurCameras; // 0x150
-        public esampleMode.gesIn>k__BackingField _motionBlur; // 0x158
-        public bool _allowVSyncDisable; // 0x160
-        public bool _supportTextureRecreate; // 0x161
-        public int _minimumDiskSpaceMB; // 0x164
-        public esampleMode.ress _timelineController; // 0x168
-        public esampleMode.rameCount _videoPlayerController; // 0x170
-        public ector _texture; // 0x178
-        public int _handle; // 0x180
-        public int _sourceWidth; // 0x184
-        public int _sourceHeight; // 0x188
-        public int _targetWidth; // 0x18C
-        public int _targetHeight; // 0x190
-        public bool _capturing; // 0x194
-        public bool _paused; // 0x195
-        public string _filePath; // 0x198
-        public string _finalFilePath; // 0x1A0
-        public Inherited.ttribute _fileInfo; // 0x1A8
-        public alAudio _pixelFormat; // 0x1B0
-        public esampleMode.izeCalculator _selectedVideoCodec; // 0x1B8
-        public esampleMode.izeCalculator _selectedAudioCodec; // 0x1C0
-        public esampleMode.tAll _selectedAudioInputDevice; // 0x1C8
-        public int _oldVSyncCount; // 0x1D0
-        public float _oldFixedDeltaTime; // 0x1D4
-        public bool _isTopDown; // 0x1D8
-        public bool _isDirectX11; // 0x1D9
-        public bool _queuedStartCapture; // 0x1DA
-        public bool _queuedStopCapture; // 0x1DB
-        public float _captureStartTime; // 0x1DC
-        public float _capturePrePauseTotalTime; // 0x1E0
-        public float _timeSinceLastFrame; // 0x1E4
-        public lsImpl _waitForEndOfFrame; // 0x1E8
-        public long _freeDiskSpaceMB; // 0x1F0
-        public float _startDelayTimer; // 0x1F8
-        public bool _startPaused; // 0x1FC
-        public ileFullDirectoryInformation<esampleMode.rate> _beginFinalFileWritingAction; // 0x200
-        public ileFullDirectoryInformation<esampleMode.rate> _completedFileWritingAction; // 0x208
-        public URA.woDigitYearMax<esampleMode.rate> _pendingFileWrites; // 0x210
-        public URA.onsDepth<string> _activeFilePaths; // 0x58
-        public esampleMode.ideoWidth _stats; // 0x218
-        public bool _isInitialised; // 0x60
-        public bool _isApplicationQuiting; // 0x61
-        public bool _waitingForAudioCaptureDeviceAuthorisation; // 0x62
-        public bool _hasCheckedAudioCaptureDeviceAuthorisationStatus; // 0x63
-        public meTimeStamp _audioCaptureDeviceAuthorisationStatus; // 0x64
-        public bool _waitingForAuthorisationToAccessPhotos; // 0x68
-        public bool _hasCheckedPhotoLibraryAuthorisationStatus; // 0x69
-        public condsSince1970 _photoLibraryAuthorisation; // 0x6C
+        public object OutputTarget;
+        public object OutputFolder;
+        public object OutputFolderPath;
+        public object FilenamePrefix;
+        public object AppendFilenameTimestamp;
+        public object AllowManualFileExtension;
+        public object FilenameExtension;
+        public object NamedPipePath;
+        public object ImageSequenceStartFrame;
+        public object ImageSequenceZeroDigits;
+        public object UseMotionBlur;
+        public object MotionBlurSamples;
+        public object MotionBlurCameras;
+        public object MotionBlur;
+        public object ActiveFilePaths;
+        public object LastFilePath;
+        public object BeginFinalFileWritingAction;
+        public object CompletedFileWritingAction;
+        public object Stats;
+        public object CameraRenderResolution;
+        public object CameraRenderCustomResolution;
+        public object CameraRenderAntiAliasing;
+        public object IsRealTime;
+        public object PersistAcrossSceneLoads;
+        public object AudioCaptureSource;
+        public object ManualAudioSampleRate;
+        public object ManualAudioChannelCount;
+        public object UnityAudioCapture;
+        public object ForceAudioInputDeviceIndex;
+        public object FrameRate;
+        public object StartTrigger;
+        public object StartDelay;
+        public object StartDelaySeconds;
+        public object StopMode;
+        public object StopAfterFramesElapsed;
+        public object StopAfterSecondsElapsed;
+        public object CaptureStats;
+        public object VideoCodecPriorityWindows;
+        public object VideoCodecPriorityMacOS;
+        public object AudioCodecPriorityWindows;
+        public object AudioCodecPriorityMacOS;
+        public object TimelapseScale;
+        public object FrameUpdate;
+        public object ResolutionDownScale;
+        public object ResolutionDownscaleCustom;
+        public object FlipVertically;
+        public object UseWaitForEndOfFrame;
+        public object LogCaptureStartStop;
+        public object AllowOfflineVSyncDisable;
+        public object SupportTextureRecreate;
+        public object TimelineController;
+        public object VideoPlayerController;
+        public object SelectedVideoCodec;
+        public object SelectedAudioCodec;
+        public object SelectedAudioInputDevice;
+        public object NativeForceVideoCodecIndex;
+        public object NativeForceAudioCodecIndex;
+        public object NativeImageSequenceFormat;
+        public object LastFileSaved;
 
         // ── Methods ──
         public void get_OutputTarget(){} // RVA: 0x7FFD4FBF3260
@@ -546,16 +504,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromCamera : CaptureBase
     {
-        public esampleMode.terface CameraSelector; // 0x220
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ UseContributingCameras; // 0x228
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ[] _contribCameras; // 0x230
-        public bool _useContributingCameras; // 0x238
-        public bool _supportTransparency; // 0x239
-        public Offset _target; // 0x240
-        public Offset _resolveTexture; // 0x248
-        public UIntPtr _targetNativePointer; // 0x250
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField _targetNativeTexture; // 0x258
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField _previewTexture; // 0x260
+        public object CameraSelector;
+        public object UseContributingCameras;
 
         // ── Methods ──
         public void get_CameraSelector(){} // RVA: 0x7FFD4E9693F0
@@ -582,23 +532,15 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromCamera360 : CaptureBase
     {
-        public esampleMode.terface CameraSelector; // 0x220
-        public a CubemapFaceResolution; // 0x228
-        public t_AuthenticationData CubemapDepthResolution; // 0x22C
-        public bool SupportGUI; // 0x230
-        public bool SupportCameraRotation; // 0x231
-        public bool OnlyLeftRightRotation; // 0x232
-        public bool Render180Degrees; // 0x233
-        public esampleMode.ColliderPrimitives StereoRendering; // 0x234
-        public float IPD; // 0x238
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _camera; // 0x240
-        public Offset _faceTarget; // 0x248
-        public atrix_Injected _blitMaterial; // 0x250
-        public atrix_Injected _cubemapToEquirectangularMaterial; // 0x258
-        public Offset _cubeTarget; // 0x260
-        public Offset _finalTarget; // 0x268
-        public UIntPtr _targetNativePointer; // 0x270
-        public int _propFlipX; // 0x278
+        public object CameraSelector;
+        public object CubemapFaceResolution;
+        public object CubemapDepthResolution;
+        public object SupportGUI;
+        public object SupportCameraRotation;
+        public object OnlyLeftRightRotation;
+        public object Render180Degrees;
+        public object StereoRendering;
+        public object IPD;
 
         // ── Methods ──
         public void get_CameraSelector(){} // RVA: 0x7FFD4E9693F0
@@ -638,18 +580,7 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromCamera360ODS : CaptureBase
     {
-        public Ì Setup; // 0x220
-        public int _eyeWidth; // 0x228
-        public int _eyeHeight; // 0x22C
-        public object _cameraGroup; // 0x230
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _leftCameraTop; // 0x238
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _leftCameraBot; // 0x240
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _rightCameraTop; // 0x248
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _rightCameraBot; // 0x250
-        public Offset _final; // 0x258
-        public UIntPtr _targetNativePointer; // 0x260
-        public atrix_Injected _finalMaterial; // 0x268
-        public int _propSliceCenter; // 0x270
+        public object Setup;
 
         // ── Methods ──
         public void get_Setup(){} // RVA: 0x7FFD4E9693F0
@@ -670,11 +601,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromScreen : CaptureBase
     {
-        public bool CaptureMouseCursor; // 0x220
-        public esampleMode.ion MouseCursor; // 0x228
-        public UIntPtr _targetNativePointer; // 0x230
-        public Offset _resolveTexture; // 0x238
-        public ons.WorldCorners _commandBuffer; // 0x240
+        public object CaptureMouseCursor;
+        public object MouseCursor;
 
         // ── Methods ──
         public void get_CaptureMouseCursor(){} // RVA: 0x7FFD53E1E710
@@ -692,11 +620,7 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromTexture : CaptureBase
     {
-        public bool IsManualUpdate; // 0x220
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField _sourceTexture; // 0x228
-        public Offset _resolveTexture; // 0x230
-        public UIntPtr _targetNativePointer; // 0x238
-        public bool _isSourceTextureChanged; // 0x240
+        public object IsManualUpdate;
 
         // ── Methods ──
         public void get_IsManualUpdate(){} // RVA: 0x7FFD53E1E710
@@ -726,30 +650,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureGUI : MonoBehaviour
     {
-        public esampleMode.? MovieCapture; // 0x20
-        public bool HideUiWhenRecording; // 0x28
-        public bool ShowUI; // 0x29
-        public m_FetchPurchases _guiSkin; // 0x30
-        public string[] CommonFrameRateNames;
-        public float[] CommonFrameRateValues; // 0x8
-        public ant _shownSection; // 0x38
-        public string[] _videoCodecNames; // 0x40
-        public string[] _audioCodecNames; // 0x48
-        public bool[] _videoCodecConfigurable; // 0x50
-        public bool[] _audioCodecConfigurable; // 0x58
-        public string[] _audioDeviceNames; // 0x60
-        public string[] _downScales; // 0x68
-        public string[] _outputType; // 0x70
-        public int _downScaleIndex; // 0x78
-        public ailed _tintableBox; // 0x80
-        public tionX _videoPos; // 0x88
-        public tionX _audioPos; // 0x90
-        public tionX _audioCodecPos; // 0x98
-        public tionX _imageCodecPos; // 0xA0
-        public long _lastFileSize; // 0xA8
-        public uint _lastEncodedMinutes; // 0xB0
-        public uint _lastEncodedSeconds; // 0xB4
-        public uint _lastEncodedFrame; // 0xB8
+        public object MovieCapture;
+        public object HideUiWhenRecording;
+        public object ShowUI;
 
         // ── Methods ──
         public void get_MovieCapture(){} // RVA: 0x7FFD4E36F0C0
@@ -777,9 +680,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CodecManager : Object
     {
-        public bool VideoCodecs;
-        public esampleMode.ate AudioCodecs; // 0x8
-        public esampleMode.ate _audioCodecs; // 0x10
+        public object VideoCodecs;
+        public object AudioCodecs;
 
         // ── Methods ──
         public void FindCodec(){} // RVA: 0x7FFD53E3C710
@@ -794,8 +696,7 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class DeviceManager : Object
     {
-        public bool AudioInputDevices;
-        public esampleMode.ctiveTrack _audioInputDevices; // 0x8
+        public object AudioInputDevices;
 
         // ── Methods ──
         public void FindDevice(){} // RVA: 0x7FFD53E3D930
@@ -809,16 +710,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class FileWritingHandler : Object
     {
-        public string Status; // 0x10
-        public int Path; // 0x18
-        public bool CompletedFileWritingAction; // 0x1C
-        public esampleMode.onMode _outputTarget; // 0x20
-        public ÌÍÎÏÎÏÎÌÍÌÎ _postOptions; // 0x28
-        public sageKind.tion _postProcessEvent; // 0x48
-        public errideDecryptionKey _completionStatus; // 0x50
-        public string _finalFilePath; // 0x58
-        public bool _updateMediaGallery; // 0x60
-        public ileFullDirectoryInformation<esampleMode.rate> <CompletedFileWritingAction>k__BackingField; // 0x68
+        public object Status;
+        public object Path;
+        public object CompletedFileWritingAction;
 
         // ── Methods ──
         public void get_Status(){} // RVA: 0x7FFD4E5110E0
@@ -835,37 +729,6 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class MP4FileProcessing : Object
     {
-        public int ChunkHeaderSize;
-        public int ExtendedChunkHeaderSize;
-        public int CopyBufferSize;
-        public uint Atom_moov;
-        public uint Atom_mdat; // 0x4
-        public uint Atom_cmov; // 0x8
-        public uint Atom_trak; // 0xC
-        public uint Atom_mdia; // 0x10
-        public uint Atom_hdlr; // 0x14
-        public uint Atom_minf; // 0x18
-        public uint Atom_stbl; // 0x1C
-        public uint Atom_stco; // 0x20
-        public uint Atom_co64; // 0x24
-        public uint Atom_stsd; // 0x28
-        public uint Atom_avc1; // 0x2C
-        public uint Atom_hev1; // 0x30
-        public uint Atom_hvc1; // 0x34
-        public uint Atom_st3d; // 0x38
-        public uint Atom_uuid; // 0x3C
-        public uint Atom_sv3d; // 0x40
-        public uint Atom_svhd; // 0x44
-        public uint Atom_proj; // 0x48
-        public uint Atom_prhd; // 0x4C
-        public uint Atom_equi; // 0x50
-        public Inherited.onValue _reader; // 0x10
-        public Inherited.? _writeFile; // 0x18
-        public ÌÍÎÏÎÏÎÌÍÌÎ _options; // 0x20
-        public bool _requires64BitOffsets; // 0x40
-        public URA.woDigitYearMax<Message> _offsetChunks; // 0x48
-        public URA.woDigitYearMax<Message> _offsetUpgradeChunks; // 0x50
-
         // ── Methods ──
         public void ProcessFileAsync(){} // RVA: 0x7FFD53E3E920
         public void ProcessFile(){} // RVA: 0x7FFD53E3EF50 | overloaded x2
@@ -913,21 +776,10 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class MotionBlur : MonoBehaviour
     {
-        public ded IsFrameAccumulated; // 0x20
-        public int NumSamples; // 0x24
-        public Offset FrameCount; // 0x28
-        public Offset FinalTexture; // 0x30
-        public atrix_Injected _addMaterial; // 0x38
-        public atrix_Injected _divMaterial; // 0x40
-        public int _frameCount; // 0x48
-        public int _targetWidth; // 0x4C
-        public int _targetHeight; // 0x50
-        public bool _isDirty; // 0x54
-        public int _propNumSamples;
-        public int _propWeight; // 0x4
-        public bool <IsFrameAccumulated>k__BackingField; // 0x55
-        public float _bias; // 0x58
-        public float _total; // 0x5C
+        public object IsFrameAccumulated;
+        public object NumSamples;
+        public object FrameCount;
+        public object FinalTexture;
 
         // ── Methods ──
         public void get_IsFrameAccumulated(){} // RVA: 0x7FFD4F9C1580
@@ -953,12 +805,6 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class MouseCursor : MonoBehaviour
     {
-        public ector _texture; // 0x20
-        public tionX _hotspotOffset; // 0x28
-        public int _sizeScale; // 0x30
-        public int _depth; // 0x34
-        public otifyInitializationConnectionFailed _content; // 0x38
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD53E29720
         public void SetTexture(){} // RVA: 0x7FFD53E29730
@@ -968,21 +814,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class NativePlugin : Object
     {
-        public string RenderCaptureEventFunction;
-        public string RenderFreeEventFunction;
-        public string PluginName;
-        public string[] PlatformNames;
-        public string[] VideoCodecNamesMacOS; // 0x8
-        public string[] AudioCodecNamesMacOS; // 0x10
-        public string[] VideoCodecNamesIOS; // 0x18
-        public string[] AudioCodecNamesIOS; // 0x20
-        public string[] VideoCodecNamesAndroid; // 0x28
-        public string[] AudioCodecNamesAndroid; // 0x30
-        public int MaxRenderWidth;
-        public int MaxRenderHeight;
-        public int PluginID;
-        public UIntPtr _renderEventFunction; // 0x38
-        public UIntPtr _freeEventFunction; // 0x40
+        public object RenderCaptureEventFunction;
+        public object RenderFreeEventFunction;
 
         // ── Methods ──
         public void AddAmbisonicSourceInstance(){} // RVA: 0x7FFD53E2D3B0
@@ -1042,8 +875,7 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class TimelineController : MonoBehaviour
     {
-        public cOSX ScanFrequency; // 0x20
-        public URA.woDigitYearMax<eoEvent> _timelines; // 0x28
+        public object ScanFrequency;
 
         // ── Methods ──
         public void get_ScanFrequency(){} // RVA: 0x7FFD4E4FBBE0
@@ -1082,11 +914,6 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class Utils : Object
     {
-        public string[] WindowsImageSequenceFormatNames;
-        public string[] MacOSImageSequenceFormatNames; // 0x8
-        public string[] IOSImageSequenceFormatNames; // 0x10
-        public string[] AndroidImageSequenceFormatNames; // 0x18
-
         // ── Methods ──
         public void GetNativeImageSequenceFormatNames(){} // RVA: 0x7FFD53E44410
         public void HasAlphaChannel(){} // RVA: 0x7FFD53E44490
@@ -1107,8 +934,7 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class VideoPlayerController : MonoBehaviour
     {
-        public cOSX ScanFrequency; // 0x20
-        public URA.woDigitYearMax<extureStereoPacking> _instances; // 0x28
+        public object ScanFrequency;
 
         // ── Methods ──
         public void get_ScanFrequency(){} // RVA: 0x7FFD4E4FBBE0
@@ -1133,23 +959,6 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class WavWriter : Object
     {
-        public byte[] RIFF_HEADER;
-        public byte[] FORMAT_WAVE; // 0x8
-        public byte[] FORMAT_TAG; // 0x10
-        public byte[] AUDIO_FORMAT_PCM; // 0x18
-        public byte[] AUDIO_FORMAT_FLOAT; // 0x20
-        public byte[] SUBCHUNK_ID; // 0x28
-        public byte[] FACTCHUNK_ID; // 0x30
-        public int BufferDuration;
-        public Inherited.eFactory _stream; // 0x10
-        public byte[] _outBytes; // 0x18
-        public int _byteCount; // 0x20
-        public int _byteCountTotal; // 0x24
-        public int _channelCount; // 0x28
-        public int _sampleRate; // 0x2C
-        public tTypeSize=5295 _sampleFormat; // 0x30
-        public int _headerSize; // 0x34
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53E46860
         public void Dispose(){} // RVA: 0x7FFD53E469F0

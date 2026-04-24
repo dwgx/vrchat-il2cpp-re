@@ -5,26 +5,10 @@
 
 public class HIDCollectionDescriptor : ValueType
 {
-    public backs type; // 0x10
-    public int usage; // 0x14
-    public yerJoined usagePage; // 0x18
-    public int parent; // 0x1C
-    public int childCount; // 0x20
-    public int firstChild; // 0x24
 }
 
 public class HIDDeviceDescriptor : ValueType
 {
-    public int vendorId; // 0x10
-    public int productId; // 0x14
-    public int usage; // 0x18
-    public yerJoined usagePage; // 0x1C
-    public int inputReportSize; // 0x20
-    public int outputReportSize; // 0x24
-    public int featureReportSize; // 0x28
-    public eChangeHooked[] elements; // 0x30
-    public ControlsChangedEvent[] collections; // 0x38
-
     // ── Methods ──
     public void ToJson(){} // RVA: 0x7FFD54A826A0
     public void FromJson(){} // RVA: 0x7FFD54A82710
@@ -32,17 +16,6 @@ public class HIDDeviceDescriptor : ValueType
 
 public class HIDDeviceDescriptorBuilder : ValueType
 {
-    public yerJoined usagePage; // 0x10
-    public int usage; // 0x14
-    public int m_CurrentReportId; // 0x18
-    public object m_CurrentReportType; // 0x1C
-    public int m_CurrentReportOffsetInBits; // 0x20
-    public URA.woDigitYearMax<eChangeHooked> m_Elements; // 0x28
-    public URA.woDigitYearMax<ControlsChangedEvent> m_Collections; // 0x30
-    public int m_InputReportSize; // 0x38
-    public int m_OutputReportSize; // 0x3C
-    public int m_FeatureReportSize; // 0x40
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54A84AD0 | overloaded x2
     public void StartReport(){} // RVA: 0x7FFD54A84B00
@@ -54,22 +27,16 @@ public class HIDDeviceDescriptorBuilder : ValueType
 
 public class HIDElementDescriptor : ValueType
 {
-    public int hasNullState; // 0x10
-    public yerJoined hasPreferredState; // 0x14
-    public int isArray; // 0x18
-    public int isNonLinear; // 0x1C
-    public int isRelative; // 0x20
-    public int isConstant; // 0x24
-    public int isWrapping; // 0x28
-    public int isSigned; // 0x2C
-    public object minFloatValue; // 0x30
-    public int maxFloatValue; // 0x34
-    public int reportId; // 0x38
-    public int reportSizeInBits; // 0x3C
-    public int reportOffsetInBits; // 0x40
-    public object flags; // 0x44
-    public aphy<int> usageMin; // 0x48
-    public aphy<int> usageMax; // 0x50
+    public object hasNullState;
+    public object hasPreferredState;
+    public object isArray;
+    public object isNonLinear;
+    public object isRelative;
+    public object isConstant;
+    public object isWrapping;
+    public object isSigned;
+    public object minFloatValue;
+    public object maxFloatValue;
 
     // ── Methods ──
     public void get_hasNullState(){} // RVA: 0x7FFD54A80CE0
@@ -98,11 +65,6 @@ public class HIDElementDescriptor : ValueType
 
 public class HIDLayoutBuilder : Object
 {
-    public string displayName; // 0x10
-    public ager hidDescriptor; // 0x18
-    public string parentLayout; // 0x48
-    public object deviceType; // 0x50
-
     // ── Methods ──
     public void Build(){} // RVA: 0x7FFD54A7ED60
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -110,24 +72,12 @@ public class HIDLayoutBuilder : Object
 
 public class HIDPageUsage : ValueType
 {
-    public yerJoined page; // 0x10
-    public int usage; // 0x14
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54A87310 | overloaded x2
 }
 
 public class HandInputData : ValueType
 {
-    public float TrackedDuration; // 0x10
-    public ?[] Pinches; // 0x18
-    public bool[] FingerExtended; // 0x20
-    public float[] FingerCurls; // 0x28
-    public float[] FingerCurlVelocities; // 0x30
-    public amut PreviousWristPositionPlayspace; // 0x38
-    public amut WristVelocity; // 0x44
-    public amut WristVelocityPlayspace; // 0x50
-
     // ── Methods ──
     public void Equals(){} // RVA: 0x7FFD4F410AD0
     public void InternalEquals(){} // RVA: 0x7FFD4F410FB0
@@ -141,13 +91,6 @@ public class HandInputData : ValueType
 
 public class HandTrackingData : ValueType
 {
-    public bool IsLeft; // 0x10
-    public bool IsTracking; // 0x11
-    public bool IsPersisting; // 0x12
-    public ÌÌÌÌÍÏÏÌÍÎÎÍÎÎ FidelityLevel; // 0x14
-    public ÎÎÎÍÌÌÌÏ[] Fingers; // 0x18
-    public object WristPose; // 0x20
-    public object PalmPose; // 0x3C
 }
 
 public class Handlers : Object
@@ -158,8 +101,9 @@ public class Handlers : Object
 
 public class HashBucket : ValueType
 {
-    public T1717730256 IsEmpty;
-    public tyles<T1717730256> FirstValue;
+    public object IsEmpty;
+    public object FirstValue;
+    public object AdditionalElements;
 
     // ── Methods ──
     public void get_IsEmpty(){} // RVA: 0x7FFD4E079D00
@@ -176,7 +120,7 @@ public class HashBucket : ValueType
 
 public class HashBucketByRefEqualityComparer : Object
 {
-    public URA.hEraNames<IUTF8Bytes<T1717730160>> DefaultInstance;
+    public object DefaultInstance;
 
     // ── Methods ──
     public void get_DefaultInstance(){} // RVA: 0x7FFD4E078A90
@@ -188,8 +132,7 @@ public class HashBucketByRefEqualityComparer : Object
 
 public class HashBucketByValueEqualityComparer : Object
 {
-    public URA.hEraNames<IUTF8Bytes<T1717730144>> DefaultInstance;
-    public URA.hEraNames<T1717730144> _valueComparer;
+    public object DefaultInstance;
 
     // ── Methods ──
     public void get_DefaultInstance(){} // RVA: 0x7FFD4E078A90
@@ -201,8 +144,6 @@ public class HashBucketByValueEqualityComparer : Object
 
 public class HashCode : ValueType
 {
-    public int _hashCode; // 0x10
-
     // ── Methods ──
     public void Add(){} // RVA: 0x7FFD4E2ADC40
     public void ToHashCode(){} // RVA: 0x7FFD4F840210
@@ -210,16 +151,12 @@ public class HashCode : ValueType
 
 public class HashCode64`1 : ValueType
 {
-    public long Value;
-
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
 }
 
 public class HashPair : ValueType
 {
-    public int parentHash; // 0x10
-    public int hash; // 0x14
 }
 
 public class HashSetPoolImpl`1 : Object
@@ -232,9 +169,7 @@ public class HashSetPoolImpl`1 : Object
 
 public class HashsetIterator`1 : ValueType
 {
-    public bool Current;
-    public URA.onsDepth<T1717697808> hashset;
-    public eDeviceInformation<T1717697808> enumerator;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -250,13 +185,10 @@ public class HashtableDebugView : Object
 
 public class HashtableEnumerator : Object
 {
-    public mePatterns.MES_SIZE Key; // 0x10
-    public int Entry; // 0x18
-    public int Current; // 0x1C
-    public bool Value; // 0x20
-    public int _getObjectRetType; // 0x24
-    public object _currentKey; // 0x28
-    public object _currentValue; // 0x30
+    public object Key;
+    public object Entry;
+    public object Current;
+    public object Value;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539C58D0
@@ -271,8 +203,6 @@ public class HashtableEnumerator : Object
 
 public class HeaderTypeInfo`2 : HeaderInfo
 {
-    public CheckingState.gKey<T1717726128> parser;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5126A7D0
     public void AddToCollection(){} // RVA: 0x7FFD5126A890
@@ -283,10 +213,6 @@ public class HeaderTypeInfo`2 : HeaderInfo
 
 public class Heading : ValueType
 {
-    public get_OdinSerializesUnityFields m_Definition; // 0x10
-    public int m_VelocityFilterStrength; // 0x14
-    public float m_Bias; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC4EE60
 }
@@ -334,9 +260,6 @@ public class Hierarchy : ValueType
 
 public class HitInfo : ValueType
 {
-    public BuffersImpl target; // 0x10
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ camera; // 0x18
-
     // ── Methods ──
     public void SendMessage(){} // RVA: 0x7FFD54D625B0
     public void op_Implicit(){} // RVA: 0x7FFD54D625E0
@@ -345,9 +268,6 @@ public class HitInfo : ValueType
 
 public class HudLayout : Object
 {
-    public 16 PopupTransform; // 0x10
-    public 16 UserEventTransform; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }

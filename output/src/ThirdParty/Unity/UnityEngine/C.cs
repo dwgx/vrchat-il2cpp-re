@@ -7,7 +7,11 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Cache : ValueType
     {
-        public int handle; // 0x10
+        public object handle;
+        public object valid;
+        public object path;
+        public object maximumAvailableStorageSpace;
+        public object spaceOccupied;
 
         // ── Methods ──
         public void get_handle(){} // RVA: 0x7FFD543B3F90
@@ -25,8 +29,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CachedAssetBundle : ValueType
     {
-        public string name; // 0x10
-        public rQueue hash; // 0x18
+        public object name;
+        public object hash;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51515420
@@ -36,13 +40,80 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Camera : Behaviour
     {
-        public float nearClipPlane;
-        public float farClipPlane;
-        public int fieldOfView;
-        public int renderingPath;
+        public object nearClipPlane;
+        public object farClipPlane;
+        public object fieldOfView;
+        public object renderingPath;
         public object actualRenderingPath;
-        public object allowHDR; // 0x8
-        public object allowMSAA; // 0x10
+        public object allowHDR;
+        public object allowMSAA;
+        public object allowDynamicResolution;
+        public object forceIntoRenderTexture;
+        public object orthographicSize;
+        public object orthographic;
+        public object opaqueSortMode;
+        public object transparencySortMode;
+        public object transparencySortAxis;
+        public object depth;
+        public object aspect;
+        public object velocity;
+        public object cullingMask;
+        public object eventMask;
+        public object layerCullSpherical;
+        public object cameraType;
+        public object skyboxMaterial;
+        public object overrideSceneCullingMask;
+        public object sceneCullingMask;
+        public object layerCullDistances;
+        public object PreviewCullingLayer;
+        public object useOcclusionCulling;
+        public object cullingMatrix;
+        public object backgroundColor;
+        public object clearFlags;
+        public object depthTextureMode;
+        public object clearStencilAfterLightingPass;
+        public object projectionMatrixMode;
+        public object usePhysicalProperties;
+        public object iso;
+        public object shutterSpeed;
+        public object aperture;
+        public object focusDistance;
+        public object focalLength;
+        public object bladeCount;
+        public object curvature;
+        public object barrelClipping;
+        public object anamorphism;
+        public object sensorSize;
+        public object lensShift;
+        public object gateFit;
+        public object rect;
+        public object pixelRect;
+        public object pixelWidth;
+        public object pixelHeight;
+        public object scaledPixelWidth;
+        public object scaledPixelHeight;
+        public object targetTexture;
+        public object activeTexture;
+        public object targetDisplay;
+        public object cameraToWorldMatrix;
+        public object worldToCameraMatrix;
+        public object projectionMatrix;
+        public object nonJitteredProjectionMatrix;
+        public object useJitteredProjectionMatrixForTransparentRendering;
+        public object previousViewProjectionMatrix;
+        public object main;
+        public object current;
+        public object scene;
+        public object stereoEnabled;
+        public object stereoSeparation;
+        public object stereoConvergence;
+        public object areVRStereoViewMatricesWithinSingleCullTolerance;
+        public object stereoTargetEye;
+        public object stereoActiveEye;
+        public object allCamerasCount;
+        public object allCameras;
+        public object sceneViewFilterMode;
+        public object commandBufferCount;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -299,11 +370,32 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Canvas : Behaviour
     {
-        public e.TextCoreFontEngineModule renderMode;
-        public e.TextCoreFontEngineModule isRootCanvas; // 0x8
-        public ileFullDirectoryInformation<int> pixelRect; // 0x10
-        public rectoryInformation<int,int> scaleFactor; // 0x18
-        public ileFullDirectoryInformation<int> referencePixelsPerUnit; // 0x20
+        public object renderMode;
+        public object isRootCanvas;
+        public object pixelRect;
+        public object scaleFactor;
+        public object referencePixelsPerUnit;
+        public object overridePixelPerfect;
+        public object vertexColorAlwaysGammaSpace;
+        public object pixelPerfect;
+        public object planeDistance;
+        public object renderOrder;
+        public object overrideSorting;
+        public object sortingOrder;
+        public object targetDisplay;
+        public object sortingLayerID;
+        public object cachedSortingLayerValue;
+        public object additionalShaderChannels;
+        public object sortingLayerName;
+        public object rootCanvas;
+        public object renderingDisplaySize;
+        public object updateRectTransformForStandalone;
+        public object externBeginRenderOverlays;
+        public object externRenderOverlaysBefore;
+        public object externEndRenderOverlays;
+        public object worldCamera;
+        public object normalizedSortingGridSize;
+        public object sortingGridNormalizedSize;
 
         // ── Methods ──
         public void add_preWillRenderCanvases(){} // RVA: 0x7FFD550576F0
@@ -394,7 +486,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CanvasRenderer : Component
     {
-        public bool hasPopInstruction; // 0x18
+        public object hasPopInstruction;
+        public object materialCount;
+        public object popMaterialCount;
+        public object absoluteDepth;
+        public object hasMoved;
+        public object cullTransparentMesh;
+        public object hasRectClipping;
+        public object relativeDepth;
+        public object cull;
+        public object isMask;
+        public object clippingSoftness;
 
         // ── Methods ──
         public void get_hasPopInstruction(){} // RVA: 0x7FFD55053600
@@ -539,9 +641,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CharacterJoint : Joint
     {
-        public R_12x12 swingAxis; // 0x18
-        public amut twistLimitSpring; // 0x28
-        public odyPositionInternal_Injected swingLimitSpring; // 0x34
+        public object swingAxis;
+        public object twistLimitSpring;
+        public object swingLimitSpring;
+        public object lowTwistLimit;
+        public object highTwistLimit;
+        public object swing1Limit;
+        public object swing2Limit;
+        public object enableProjection;
+        public object projectionDistance;
+        public object projectionAngle;
 
         // ── Methods ──
         public void get_swingAxis(){} // RVA: 0x7FFD54DBC7E0
@@ -601,8 +710,33 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Cloth : Component
     {
-        public float vertices; // 0x18
-        public bool normals; // 0x1C
+        public object vertices;
+        public object normals;
+        public object coefficients;
+        public object capsuleColliders;
+        public object sphereColliders;
+        public object sleepThreshold;
+        public object bendingStiffness;
+        public object stretchingStiffness;
+        public object damping;
+        public object externalAcceleration;
+        public object randomAcceleration;
+        public object useGravity;
+        public object enabled;
+        public object friction;
+        public object collisionMassScale;
+        public object enableContinuousCollision;
+        public object useVirtualParticles;
+        public object worldVelocityScale;
+        public object worldAccelerationScale;
+        public object clothSolverFrequency;
+        public object solverFrequency;
+        public object useTethers;
+        public object stiffnessFrequency;
+        public object selfCollisionDistance;
+        public object selfCollisionStiffness;
+        public object useContinuousCollision;
+        public object selfCollision;
 
         // ── Methods ──
         public void get_vertices(){} // RVA: 0x7FFD54C6CD30
@@ -675,14 +809,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ClothSkinningCoefficient : ValueType
     {
-        public float maxDistance; // 0x10
-        public float collisionSphereDistance; // 0x14
     }
 
     public class ClothSphereColliderPair : ValueType
     {
-        public cted first; // 0x10
-        public cted second; // 0x18
+        public object first;
+        public object second;
 
         // ── Methods ──
         public void get_first(){} // RVA: 0x7FFD4EEF9F60
@@ -847,10 +979,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Collision : Object
     {
-        public ANGUAGES_FILE_NAME impulse; // 0x10
-        public kingField relativeVelocity; // 0x38
-        public bool rigidbody; // 0x60
-        public RotationOffset[] articulationBody; // 0x68
+        public object impulse;
+        public object relativeVelocity;
+        public object rigidbody;
+        public object articulationBody;
+        public object body;
+        public object collider;
+        public object transform;
+        public object gameObject;
+        public object Flipped;
+        public object contactCount;
+        public object contacts;
 
         // ── Methods ──
         public void get_impulse(){} // RVA: 0x7FFD4E3A7FA0
@@ -872,15 +1011,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Collision2D : Object
     {
-        public int collider; // 0x10
-        public int otherCollider; // 0x14
-        public int rigidbody; // 0x18
-        public int otherRigidbody; // 0x1C
-        public tionX transform; // 0x20
-        public int gameObject; // 0x28
-        public int relativeVelocity; // 0x2C
-        public ceSettings[] enabled; // 0x30
-        public ceSettings[] contacts; // 0x38
+        public object collider;
+        public object otherCollider;
+        public object rigidbody;
+        public object otherRigidbody;
+        public object transform;
+        public object gameObject;
+        public object relativeVelocity;
+        public object enabled;
+        public object contacts;
+        public object contactCount;
 
         // ── Methods ──
         public void GetContacts_Internal(){} // RVA: 0x7FFD54D97F90
@@ -901,10 +1041,22 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Color : ValueType
     {
-        public float red; // 0x10
-        public float green; // 0x14
-        public float blue; // 0x18
-        public float white; // 0x1C
+        public object red;
+        public object green;
+        public object blue;
+        public object white;
+        public object black;
+        public object yellow;
+        public object cyan;
+        public object magenta;
+        public object gray;
+        public object grey;
+        public object clear;
+        public object grayscale;
+        public object linear;
+        public object gamma;
+        public object maxColorComponent;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CC8410 | overloaded x2
@@ -945,11 +1097,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Color32 : ValueType
     {
-        public int Item; // 0x10
-        public byte r; // 0x10
-        public byte g; // 0x11
-        public byte b; // 0x12
-        public byte a; // 0x13
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E535270
@@ -1026,7 +1174,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ComputeBuffer : Object
     {
-        public UIntPtr count; // 0x10
+        public object count;
+        public object stride;
+        public object name;
 
         // ── Methods ──
         public void Finalize(){} // RVA: 0x7FFD54CE9130
@@ -1255,17 +1405,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactFilter2D : ValueType
     {
-        public bool isFiltering; // 0x10
-        public bool useLayerMask; // 0x11
-        public bool useDepth; // 0x12
-        public bool useOutsideDepth; // 0x13
-        public bool useNormalAngle; // 0x14
-        public bool useOutsideNormalAngle; // 0x15
-        public object layerMask; // 0x18
-        public float minDepth; // 0x1C
-        public float maxDepth; // 0x20
-        public float minNormalAngle; // 0x24
-        public float maxNormalAngle; // 0x28
+        public object isFiltering;
 
         // ── Methods ──
         public void NoFilter(){} // RVA: 0x7FFD54D97930
@@ -1290,13 +1430,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPair : ValueType
     {
-        public int ColliderInstanceID; // 0x10
-        public int OtherColliderInstanceID; // 0x14
-        public UIntPtr Collider; // 0x18
-        public uint OtherCollider; // 0x20
-        public LanguageDictionary ImpulseSum; // 0x24
-        public t IsCollisionEnter; // 0x26
-        public amut IsCollisionExit; // 0x28
+        public object ColliderInstanceID;
+        public object OtherColliderInstanceID;
+        public object Collider;
+        public object OtherCollider;
+        public object ImpulseSum;
+        public object IsCollisionEnter;
+        public object IsCollisionExit;
+        public object IsCollisionStay;
+        public object HasRemovedCollider;
 
         // ── Methods ──
         public void get_ColliderInstanceID(){} // RVA: 0x7FFD4F840210
@@ -1331,12 +1473,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPoint : ValueType
     {
-        public amut point; // 0x10
-        public amut normal; // 0x1C
-        public amut impulse; // 0x28
-        public int thisCollider; // 0x34
-        public int otherCollider; // 0x38
-        public float separation; // 0x3C
+        public object point;
+        public object normal;
+        public object impulse;
+        public object thisCollider;
+        public object otherCollider;
+        public object separation;
 
         // ── Methods ──
         public void get_point(){} // RVA: 0x7FFD54C31DA0
@@ -1350,17 +1492,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPoint2D : ValueType
     {
-        public tionX point; // 0x10
-        public tionX normal; // 0x18
-        public tionX separation; // 0x20
-        public float normalImpulse; // 0x28
-        public float tangentImpulse; // 0x2C
-        public float relativeVelocity; // 0x30
-        public int collider; // 0x34
-        public int otherCollider; // 0x38
-        public int rigidbody; // 0x3C
-        public int otherRigidbody; // 0x40
-        public int enabled; // 0x44
+        public object point;
+        public object normal;
+        public object separation;
+        public object normalImpulse;
+        public object tangentImpulse;
+        public object relativeVelocity;
+        public object collider;
+        public object otherCollider;
+        public object rigidbody;
+        public object otherRigidbody;
+        public object enabled;
 
         // ── Methods ──
         public void get_point(){} // RVA: 0x7FFD505F9A30
@@ -1378,23 +1520,21 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContextMenu : Attribute
     {
-        public string menuItem; // 0x10
-        public bool validate; // 0x18
-        public int priority; // 0x1C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CDA7E0 | overloaded x3
     }
 
     public class ControllerColliderHit : Object
     {
-        public ProcessAnimationJobStruct`1 controller; // 0x10
-        public riteCharacterUnicode collider; // 0x18
-        public amut rigidbody; // 0x20
-        public amut gameObject; // 0x2C
-        public amut transform; // 0x38
-        public float point; // 0x44
-        public int normal; // 0x48
+        public object controller;
+        public object collider;
+        public object rigidbody;
+        public object gameObject;
+        public object transform;
+        public object point;
+        public object normal;
+        public object moveDirection;
+        public object moveLength;
 
         // ── Methods ──
         public void get_controller(){} // RVA: 0x7FFD510E4750
@@ -1410,8 +1550,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Coroutine : YieldInstruction
     {
-        public UIntPtr m_Ptr; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Finalize(){} // RVA: 0x7FFD54CDCA20
@@ -1420,9 +1558,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CreateAssetMenuAttribute : Attribute
     {
-        public string menuName; // 0x10
-        public string fileName; // 0x18
-        public int order; // 0x20
+        public object menuName;
+        public object fileName;
+        public object order;
 
         // ── Methods ──
         public void set_menuName(){} // RVA: 0x7FFD4E342E30
@@ -1488,9 +1626,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CullingGroup : Object
     {
-        public UIntPtr m_Ptr; // 0x10
-        public ityEngine.UIElements.IStyle.get_textShadow m_OnStateChanged; // 0x18
-
         // ── Methods ──
         public void SendEvents(){} // RVA: 0x7FFD54C7CBA0
     }
@@ -1557,11 +1692,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CustomRenderTextureManager : Object
     {
-        public ileFullDirectoryInformation<nIntensity> textureLoaded;
-        public ileFullDirectoryInformation<nIntensity> textureUnloaded; // 0x8
-        public rectoryInformation<nIntensity,int> updateTriggered; // 0x10
-        public ileFullDirectoryInformation<nIntensity> initializeTriggered; // 0x18
-
         // ── Methods ──
         public void InvokeOnTextureLoaded_Internal(){} // RVA: 0x7FFD54C8B220
         public void InvokeOnTextureUnloaded_Internal(){} // RVA: 0x7FFD54C8B280
@@ -1571,11 +1701,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CustomRenderTextureUpdateZone : ValueType
     {
-        public amut updateZoneCenter; // 0x10
-        public amut updateZoneSize; // 0x1C
-        public float rotation; // 0x28
-        public int passIndex; // 0x2C
-        public bool needSwap; // 0x30
     }
 
     public class CustomYieldInstruction : Object

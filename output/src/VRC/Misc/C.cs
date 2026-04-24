@@ -358,6 +358,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÎÍÎÎÏÍÏÏÎÎÍÏÌÍÏÏÌÌÌÌÌ</summary>
     public class CreatePropertiesCreateContract_D171 : DefaultContractResolver
     {
+        public object ÏÌÍÌÎÎÏÍÍÏÎÎÌÎÏÍÎÎÌÏÌÎÌ; // 0x10
+        public object ÌÌÌÎÍÎÌÍÌÌÏÍÍÌÎÏÏÏÏÎÍÏÌ; // 0x18
+        public object ÌÏÏÎÍÏÏÌÌÎÍÌÎÎÌÏÌÎÎÍÍÎÏ; // 0x20
+        public BuffersImpl ÍÍÍÏÏÌÎÍÏÏÌÎÎÎÌÍÏÌÏÌÏÎÏ; // 0x28
+        public BuffersImpl ÎÌÍÎÏÍÍÍÎÎÍÏÍÏÎÎÌÎÏÏÍÍÎ; // 0x30
+        public int ÌÎÌÌÎÌÌÏÎÎÎÍÏÏÍÌÍÏÌÍÏÍÍ;
+        public URA.woDigitYearMax<ÏÏÎÎÌÍÌÎÎÎÌÏÌÍÌÌ> ÍÌÏÌÏÏÌÍÎÍÏÌÍÏÎÌÌÏÍÎÍÏÍ; // 0x38
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD4EE03150
         public void get_DefaultMembersSearchFlags(){} // RVA: 0x7FFD4EE03150

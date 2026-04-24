@@ -7,15 +7,14 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 {
     public class FrameData : ValueType
     {
-        public ulong deltaTime; // 0x10
-        public double effectiveSpeed; // 0x18
-        public float evaluationType; // 0x20
-        public float seekOccurred; // 0x24
-        public double timeLooped; // 0x28
-        public float timeHeld; // 0x30
-        public float output; // 0x34
-        public tf32 effectivePlayState; // 0x38
-        public oUpdateAPI.Update m_Output; // 0x40
+        public object deltaTime;
+        public object effectiveSpeed;
+        public object evaluationType;
+        public object seekOccurred;
+        public object timeLooped;
+        public object timeHeld;
+        public object output;
+        public object effectivePlayState;
 
         // ── Methods ──
         public void HasFlags(){} // RVA: 0x7FFD54D171E0
@@ -31,15 +30,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class FrameRate : ValueType
     {
-        public oUpdateAPI.? dropFrame;
-        public oUpdateAPI.? rate; // 0x4
-        public oUpdateAPI.? k_25Fps; // 0x8
-        public oUpdateAPI.? k_30Fps; // 0xC
-        public oUpdateAPI.? k_29_97Fps; // 0x10
-        public oUpdateAPI.? k_50Fps; // 0x14
-        public oUpdateAPI.? k_60Fps; // 0x18
-        public oUpdateAPI.? k_59_94Fps; // 0x1C
-        public int m_Rate; // 0x10
+        public object dropFrame;
+        public object rate;
 
         // ── Methods ──
         public void get_dropFrame(){} // RVA: 0x7FFD53A4EBA0
@@ -104,8 +96,7 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class Playable : ValueType
     {
-        public oUpdateAPI.osPlatformEvents Null; // 0x10
-        public oUpdateAPI.ded m_NullPlayable;
+        public object Null;
 
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7FFD54D178B0
@@ -149,9 +140,15 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableDirector : Behaviour
     {
-        public ileFullDirectoryInformation<oUpdateAPI.ool> state; // 0x18
-        public ileFullDirectoryInformation<oUpdateAPI.ool> extrapolationMode; // 0x20
-        public ileFullDirectoryInformation<oUpdateAPI.ool> playableAsset; // 0x28
+        public object state;
+        public object extrapolationMode;
+        public object playableAsset;
+        public object playableGraph;
+        public object playOnAwake;
+        public object timeUpdateMode;
+        public object time;
+        public object initialTime;
+        public object duration;
 
         // ── Methods ──
         public void get_state(){} // RVA: 0x7FFD54D22030
@@ -246,9 +243,6 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableGraph : ValueType
     {
-        public UIntPtr m_Handle; // 0x10
-        public uint m_Version; // 0x18
-
         // ── Methods ──
         public void GetRootPlayable(){} // RVA: 0x7FFD54D18390
         public void Connect(){} // RVA: 0x7FFD4E2ADC40
@@ -302,9 +296,7 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableHandle : ValueType
     {
-        public UIntPtr Null; // 0x10
-        public uint m_Version; // 0x18
-        public oUpdateAPI.osPlatformEvents m_Null;
+        public object Null;
 
         // ── Methods ──
         public void GetObject(){} // RVA: 0x7FFD4E2ADC40
@@ -383,8 +375,7 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableOutput : ValueType
     {
-        public oUpdateAPI.gerUpdate Null; // 0x10
-        public oUpdateAPI.Update m_NullPlayableOutput;
+        public object Null;
 
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7FFD54D1B5E0
@@ -411,9 +402,7 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableOutputHandle : ValueType
     {
-        public UIntPtr Null; // 0x10
-        public uint m_Version; // 0x18
-        public oUpdateAPI.gerUpdate m_Null;
+        public object Null;
 
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7FFD54D1B7F0
@@ -447,7 +436,7 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class ScriptPlayableOutput : ValueType
     {
-        public oUpdateAPI.gerUpdate Null; // 0x10
+        public object Null;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD54D1C720
@@ -459,8 +448,7 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class ScriptPlayable`1 : ValueType
     {
-        public oUpdateAPI.osPlatformEvents Null;
-        public oUpdateAPI.ProbeProxyVolumes<T1717607824> m_NullPlayable;
+        public object Null;
 
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7FFD4E2ADC40

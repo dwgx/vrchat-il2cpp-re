@@ -34,12 +34,6 @@ namespace ThirdParty.Other.ZLogger.LogStates
 
     public class StringFormatterLogState`1 : ValueType
     {
-        public int <ParameterCount>k__BackingField;
-        public T1717732432 originalState;
-        public ÏÏÍÍÎÎ exception;
-        public nalInformation<T1717732432,ÏÏÍÍÎÎ,string> formatter;
-        public URA.saAbbrevMonthNames<URA.mes<string,object>> originalStateParameters;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void CreateEntry(){} // RVA: 0x7FFD4E078F40

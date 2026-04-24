@@ -13,21 +13,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class ValueAnimation`1 : Object
     {
-        public long durationMs;
-        public int easingCurve;
-        public n<float,float> isRunning;
-        public bool onAnimationCompleted;
-        public ÎÌÍÏÏÌÍÏ autoRecycle;
-        public bool recycled;
-        public bool owner;
-        public ÎÏÌÎÎÎÌÌÌ.gContentId<ileDrawChainBegin.ementStride<T1717597344>> valueUpdated;
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius initialValue;
-        public rectoryInformation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius,T1717597344> interpolator;
-        public n<ÎÏÌÎÎÎÌÌÌ.omLeftRadius,T1717597344> from;
-        public rmation<T1717597344,T1717597344,float,T1717597344> to;
-        public T1717597344 _from;
-        public bool fromValueSet;
-        public T1717597344 <to>k__BackingField;
+        public object durationMs;
+        public object easingCurve;
+        public object isRunning;
+        public object onAnimationCompleted;
+        public object autoRecycle;
+        public object recycled;
+        public object owner;
+        public object valueUpdated;
+        public object initialValue;
+        public object interpolator;
+        public object from;
+        public object to;
 
         // ── Methods ──
         public void get_durationMs(){} // RVA: 0x7FFD4E079960

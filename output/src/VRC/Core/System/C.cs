@@ -8,6 +8,40 @@ namespace VRC.Core.System
     /// <summary>Originally: ÍÎÍÎÍÍÌÍÏÍÎÍÍÎÌÌÎÍÏÎÏÏÎ</summary>
     public class ComplexComponentImplImpl_1D1D : ComplexComponentImpl_A727
     {
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField _favoriteIcon; // 0x20
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField _authoredIcon; // 0x28
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField _licensedIcon; // 0x30
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField _recentIcon; // 0x38
+        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField _vrcPlusFavoriteIcon; // 0x40
+        public ÌÌÍÍÎÍÍÍÎÏÍÏÏÍÏÏÌ <ÍÎÏÎÏÌÏÏÌÏÏÍÌÏÏÏÍÎÍÌÍÌÎ>k__BackingField;
+        public string ÎÎÎÎÎÎÎÌÌÎÍÏÍÌÏÌÏÍÏÎÌÏÍ;
+        public string ÏÏÏÎÏÌÌÍÌÍÌÍÏÎÏÎÌÍÍÍÎÏÍ;
+        public re ÏÏÎÍÏÏÌÍÌÏÎÍÏÏÏÎÍÌÎÌÌÌÌ; // 0x48
+        public URA.onsDepth<ckNodeSet> ÍÍÏÎÍÌÍÍÌÌÍÌÌÌÍÏÍÌÎÏÍÏÎ; // 0x50
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÍÍÎÏÌÏÍÏÏÏÌÏÏÌÏÎÎÍÍÎÍÌÎ>k__BackingField; // 0x58
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÌÏÎÏÎÏÎÍÍÎÎÌÌÍÍÏÏÍÌÎÌÏÎ>k__BackingField; // 0x60
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÍÍÎÎÎÏÎÎÎÌÎÌÏÌÎÏÌÌÏÍÌÍÎ>k__BackingField; // 0x68
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÍÍÎÎÍÍÎÍÌÌÌÍÎÌÍÍÌÌÏÌÌÏÏ>k__BackingField; // 0x70
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÍÎÍÌÍÎÏÍÎÏÍÏÍÌÍÍÎÌÌÌÏÌÏ>k__BackingField; // 0x78
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÍÌÍÍÍÎÍÏÎÏÎÍÌÏÏÎÍÌÏÌÎÎÎ>k__BackingField; // 0x80
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÏÏÎÌÌÎÏÍÎÌÏÍÌÏÏÎÎÎÍÌÎÍÏ>k__BackingField; // 0x88
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÏÎÎÎÌÌÎÏÌÌÌÍÏÌÌÏÎÎÍÎÎÌÏ>k__BackingField; // 0x90
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÎÍÎÌÍÍÌÏÎÎÏÏÏÎÎÍÏÍÌÍÎÏÌ>k__BackingField; // 0x98
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÏÌÏÏÌÎÏÌÍÍÌÍÍÍÏÏÍÍÍÍÍÍÎ>k__BackingField; // 0xA0
+        public object <ÏÎÍÍÌÎÍÌÎÍÌÎÎÏÍÍÎÍÏÎÍÌÎ>k__BackingField; // 0xA8
+        public object <ÌÍÌÌÏÌÌÎÌÍÏÎÏÏÌÏÌÏÏÎÌÌÍ>k__BackingField; // 0xB0
+        public object <ÍÏÏÍÎÎÎÍÎÌÌÍÏÍÍÌÎÍÎÏÌÎÌ>k__BackingField; // 0xB8
+        public object <ÍÏÍÌÎÏÎÍÌÏÏÎÎÏÏÌÏÌÎÌÎÎÎ>k__BackingField; // 0xC0
+        public object <ÎÍÎÏÌÏÍÎÎÌÎÌÍÏÎÍÍÍÏÏÎÍÌ>k__BackingField; // 0xC8
+        public ?<mePatterns.eseCalendarDTFI> <ÏÍÌÎÎÌÏÏÍÏÎÎÌÏÍÍÎÎÌÎÎÎÎ>k__BackingField; // 0xD0
+        public ?<mePatterns.eseCalendarDTFI> <ÎÏÍÍÍÏÎÍÍÌÌÌÎÏÏÎÏÏÍÎÎÌÍ>k__BackingField; // 0xD8
+        public ?<nsion_Base> <ÏÎÎÎÍÌÍÏÌÌÎÌÌÌÎÍÌÍÌÏÌÌÎ>k__BackingField; // 0xE0
+        public ÍÎÎÎÎÌÏÏÎÌ<mePatterns.eseCalendarDTFI> <ÏÌÌÎÏÌÍÌÍÎÏÍÌÍÎÎÏÌÏÌÍÏÍ>k__BackingField; // 0xE8
+        public ÏÏÎÏÍÎÍÏÌÎÏÎ<string>[] <ÏÎÍÏÏÏÍÏÍÏÏÎÍÎÎÌÎÏÌÏÎÏÍ>k__BackingField; // 0xF0
+        public URA.woDigitYearMax<?> ÌÏÎÌÌÏÌÏÏÍÍÍÌÍÎÏÍÎÍÍÏÌÍ; // 0xF8
+        public ileFullDirectoryInformation<ckNodeSet> <ÌÍÏÍÎÌÍÏÌÌÎÍÍÏÍÎÎÌÌÎÍÍÌ>k__BackingField; // 0x100
+        public object <ÎÌÏÏÏÌÌÏÍÌÏÏÎÍÎÌÍÌÍÌÍÍÌ>k__BackingField; // 0x108
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x7FFD56891020
         public void OnDisable(){} // RVA: 0x7FFD568912F0
@@ -30,6 +64,11 @@ namespace VRC.Core.System
     /// <summary>Originally: ÍÌÎÌÏÎÍÌÍÎÌÍÍÏÎÌÌÍÌÍÏÌÍ</summary>
     public class ComplexComponentImplImpl_2CAF : ComplexComponentImpl_A727
     {
+        public IntPtr Ptr; // 0x10
+        public int Length; // 0x18
+        public int Capacity; // 0x1C
+        public ield Allocator; // 0x20
+
         // ── Methods ──
         public void Update(){} // RVA: 0x7FFD56AF1530
         public void OnDisable(){} // RVA: 0x7FFD56AF1590
@@ -185,6 +224,11 @@ namespace VRC.Core.System
     /// <summary>Originally: ÍÌÎÌÍÎÏÏÍÍÌÎÎÍÎÏÌÌÌÏÎÌÌ</summary>
     public class ComplexComponentImplImpl_8566 : ComplexComponentImpl_A727
     {
+        public object _tooltip; // 0x20
+        public ePathName117.? ÌÌÍÎÏÍÎÎÍÌÍÎÌÍÏÍÎÎÌÏÌÌÌ; // 0x28
+        public int ÌÍÎÏÍÎÎÎÎÌÎÍÎÏÏÎÎÎÎÌÎÏÍ; // 0x30
+        public ÎÎÍÎÌÎÏÌÍÏÎÎÏÎ ÍÏÎÍÌÍÏÍÎÍÍÏÍÏÎÏÎÎÎÏÍÌÍ; // 0x38
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x7FFD5683C0F0
         public void OnDisable(){} // RVA: 0x7FFD5683C460
@@ -560,7 +604,8 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÌÍÎÎÌÏÏÏÌÍÍÍÎÏÌÎÍÎÍÏÎÏ</summary>
     public class ComplexComponentImpl_0821 : ComplexComponent_5D5C
     {
-        public object _0821;
+        public ÎÏÎÍÎÏÎÍÍÌÎÏÍÍÌÏÍ[] _0821; // 0x48
+        public Limit ÌÌÌÏÎÏÍÍÌÌÏÌÍÍÌÎÍÎÎÌÌÏÎ; // 0x50
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A5D770
@@ -709,6 +754,36 @@ namespace VRC.Core.System
     /// <summary>Originally: ÍÏÌÌÌÌÍÍÏÎÌÌÏÏÌÍÎÍÏÌÍÍÌ</summary>
     public class ComplexComponentImpl_1211 : ComplexComponent_5D5C
     {
+        public string <id>k__BackingField; // 0x10
+        public int <version>k__BackingField; // 0x18
+        public string <type>k__BackingField; // 0x20
+        public string <descriptor>k__BackingField; // 0x28
+        public string <category>k__BackingField; // 0x30
+        public bool <isSystem>k__BackingField; // 0x38
+        public string <senderUserId>k__BackingField; // 0x40
+        public string <senderUsername>k__BackingField; // 0x48
+        public string <receiverUserId>k__BackingField; // 0x50
+        public string <relatedNotificationsId>k__BackingField; // 0x58
+        public itTypeSize=876 <title>k__BackingField; // 0x60
+        public itTypeSize=876 <message>k__BackingField; // 0x88
+        public string <imageUrl>k__BackingField; // 0xB0
+        public string <link>k__BackingField; // 0xB8
+        public itTypeSize=876 <linkText>k__BackingField; // 0xC0
+        public URA.DateTime<string,string> <data>k__BackingField; // 0xE8
+        public URA.DateTime<string,object>[] <responses>k__BackingField; // 0xF0
+        public DependencyInjector <expiresAt>k__BackingField; // 0xF8
+        public aphy<int> <expiryAfterSeen>k__BackingField; // 0x100
+        public bool <requireSeen>k__BackingField; // 0x108
+        public bool <seen>k__BackingField; // 0x109
+        public bool <ignoreDND>k__BackingField; // 0x10A
+        public bool <canDelete>k__BackingField; // 0x10B
+        public DependencyInjector <createdAt>k__BackingField; // 0x110
+        public DependencyInjector <updatedAt>k__BackingField; // 0x118
+        public DependencyInjector _created_at; // 0x120
+        public set1744 details; // 0x128
+        public object <payload>k__BackingField; // 0x130
+        public t<string,object>[] _notificationDataTuples;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD569611D0
         public void .ctor(){} // RVA: 0x7FFD569613C0
@@ -868,7 +943,28 @@ namespace VRC.Core.System
     /// <summary>Originally: ÍÎÏÏÏÏÍÎÍÌÌÏÎÏÏÏÌÍÌÏÍÎÏ</summary>
     public class ComplexComponentImpl_4407 : ComplexComponent_5D5C
     {
-        public object _4407;
+        public object _4407; // 0x20
+        public URA.woDigitYearMax<amut> _Verts; // 0x28
+        public URA.woDigitYearMax<tionX> _UV; // 0x30
+        public URA.woDigitYearMax<int> _Tris; // 0x38
+        public ctTextureQuality _Overlay; // 0x40
+        public n _MeshFilter; // 0x48
+        public dUpObject _MeshCollider; // 0x50
+        public terialIndex _MeshRenderer; // 0x58
+        public object _CameraRoot; // 0x60
+        public object _Transform; // 0x68
+        public unt _LastShape; // 0x70
+        public amut _LastPosition; // 0x74
+        public R_12x12 _LastRotation; // 0x80
+        public amut _LastScale; // 0x90
+        public dRecorder _LastDestRectLeft; // 0x9C
+        public dRecorder _LastDestRectRight; // 0xAC
+        public dRecorder _LastSrcRectLeft; // 0xBC
+        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField _LastTexture; // 0xD0
+        public bool _Awake; // 0xD8
+        public amut[] BottomLeft;
+        public amut[] RightVector; // 0x8
+        public amut[] UpVector; // 0x10
 
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x7FFD569ECB60
@@ -1054,7 +1150,11 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÍÎÌÍÌÎÌÌÎÍÌÌÏÍÏÌÏÌÌÎÎÎ</summary>
     public class ComplexComponentImpl_925D : ComplexComponent_5D5C
     {
-        public object _925D;
+        public string _925D; // 0x10
+        public string OkayButtonText; // 0x18
+        public string CancelButtonText; // 0x20
+        public URA.woDigitYearMax<string> Options; // 0x28
+        public rectoryInformation<bool,int> Callback; // 0x30
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56A7AE40
@@ -1371,6 +1471,13 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÍÍÎÌÎÌÌÌÏÌÌÎÌÌÏÍÌÌÏÍÎÍ</summary>
     public class ComplexComponentImpl_CAEA : ComplexComponent_5D5C
     {
+        public ePathName117.? ÎÌÌÏÍÌÌÏÏÎÏÎÎÌÌÎÌÍÎÏÎÏÎ; // 0x20
+        public ePathName117.? ÏÍÌÎÍÏÌÍÌÎÍÏÍÍÏÌÍÌÌÏÌÌÎ; // 0x28
+        public string ÎÏÏÎÎÌÍÎÏÏÌÎÏÍÏÍÏÍÍÎÍÎÍ; // 0x30
+        public string ÍÌÍÌÌÎÎÌÎÎÍÏÏÏÎÌÌÏÏÏÍÏÍ; // 0x38
+        public bool ÎÏÎÎÌÏÎÌÏÌÏÎÍÏÏÏÎÌÌÎÌÍÏ; // 0x40
+        public bool ÌÍÏÍÎÍÎÌÎÏÌÌÌÌÏÌÎÍÍÏÌÎÎ; // 0x41
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD568C85A0
         public void RaiseCancellation(){} // RVA: 0x7FFD568C87B0
@@ -3717,20 +3824,17 @@ namespace VRC.Core.System
     /// <summary>Originally: ÌÍÍÏÎÍÍÍÏÌÍÍÏÏÍÌÌÏÌÏÍÌÎ</summary>
     public class ComplexComponent_E14F : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_9B5;
-        public object f_492;
-        public object f_06F;
-        public object f_410;
-        public object f_C7B;
-        public object f_250;
-        public object f_BFF;
-        public object f_5CB;
-        public object f_50F;
-        public object f_76A;
-        public object f_D1D;
-        public object f_22A;
+        public ÍÏÎÍÌÍÌÎÌÏÌÍÏÍÌÏÎÎÎÎÏÏ _destroyCancellationToken; // 0x20
+        public object _useGUILayout; // 0x28
+        public BuffersImpl f_9B5; // 0x30
+        public ePathName117.? f_492; // 0x38
+        public ÏÏÏÏÎÍÎÎÏÎÍÏÎÏÍÌÌÎ[] f_06F; // 0x40
+        public aluesByNumber f_410; // 0x48
+        public BuffersImpl f_C7B; // 0x50
+        public BuffersImpl f_250; // 0x58
+        public ÍÌÏÍÎÍÏÌÌÏÌÎÍÎÍÍÌÌ f_BFF; // 0x60
+        public ÎÌÍÏÏÌÍÏ f_5CB; // 0x68
+        public ileFullDirectoryInformation<int> f_50F; // 0x70
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EFFCE40

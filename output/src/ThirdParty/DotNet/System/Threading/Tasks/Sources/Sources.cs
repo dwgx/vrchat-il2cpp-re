@@ -23,15 +23,8 @@ namespace ThirdParty.DotNet.System.Threading.Tasks.Sources
 
     public class ManualResetValueTaskSourceCore`1 : ValueType
     {
-        public ileFullDirectoryInformation<object> RunContinuationsAsynchronously;
+        public object RunContinuationsAsynchronously;
         public object Version;
-        public sageKind.d _executionContext;
-        public object _capturedContext;
-        public bool _completed;
-        public T1717588544 _result;
-        public .Messaging.IInternalMessage.TargetIdentity.eDictionary _error;
-        public short _version;
-        public bool <RunContinuationsAsynchronously>k__BackingField;
 
         // ── Methods ──
         public void get_RunContinuationsAsynchronously(){} // RVA: 0x7FFD4E079D00

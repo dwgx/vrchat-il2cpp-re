@@ -18,19 +18,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class HashMapHelper`1 : ValueType
     {
-        public IntPtr IsCreated;
-        public IntPtr Keys;
-        public IntPtr Next;
-        public IntPtr Buckets;
-        public int Count;
-        public int Capacity;
-        public int Log2MinGrowth;
-        public int BucketCapacity;
-        public int AllocatedIndex;
-        public int FirstFreeIdx;
-        public int SizeOfTValue;
-        public ield Allocator;
-        public int kMinimumCapacity;
+        public object IsCreated;
 
         // ── Methods ──
         public void CalcCapacityCeilPow2(){} // RVA: 0x7FFD4E0800D0
@@ -55,9 +43,6 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class KeyValue`2 : ValueType
     {
-        public IntPtr m_Buffer;
-        public int m_Index;
-        public int m_Next;
     }
 
     public class NativeArrayUnsafeUtility : Object
@@ -147,10 +132,10 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeBitArray : ValueType
     {
-        public IntPtr IsCreated; // 0x10
-        public int Length; // 0x18
-        public int Capacity; // 0x1C
-        public ield Allocator; // 0x20
+        public ÏÍÍ IsCreated; // 0x20
+        public amut <ÎÍÏÎÍÏÌÎÍÍÎÌÍÍÏÏÍÏÌÏÌÌÏ>k__BackingField; // 0x28
+        public ÏÏÎÎÌÍÌÎÎÎÌÏÌÍÌÌ <ÍÏÎÍÏÏÎÍÍÍÌÌÏÌÎÌÎÍÎÍÌÍÌ>k__BackingField; // 0x38
+        public ?<etContentType> <ÍÏÎÌÏÌÎÏÎÍÌÏÌÎÎÌÌÍÍÌÎÌÍ>k__BackingField; // 0x40
 
         // ── Methods ──
         public void Free(){} // RVA: 0x7FFD54934AF0
@@ -160,16 +145,13 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeDisposeJob : ValueType
     {
-        public IntPtr Ptr; // 0x10
-        public ield Allocator; // 0x18
-
         // ── Methods ──
         public void Execute(){} // RVA: 0x7FFD54934D40
     }
 
     public class UnsafeHashMap`2 : ValueType
     {
-        public ightCullingMask<T1717729168> IsCreated;
+        public object IsCreated;
 
         // ── Methods ──
         public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -187,11 +169,10 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
-        public IntPtr Length;
-        public int Capacity;
-        public int Item;
-        public ield IsCreated;
-        public int padding;
+        public object Length;
+        public object Capacity;
+        public object Item;
+        public object IsCreated;
 
         // ── Methods ──
         public void get_Length(){} // RVA: 0x7FFD4E079960
@@ -230,13 +211,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelHashMapData : ValueType
     {
-        public IntPtr firstFreeTLS; // 0x10
-        public IntPtr keys; // 0x18
-        public IntPtr next; // 0x20
-        public IntPtr buckets; // 0x28
-        public int keyCapacity; // 0x30
-        public int bucketCapacityMask; // 0x34
-        public int allocatedIndexLength; // 0x38
+        public object firstFreeTLS;
 
         // ── Methods ──
         public void get_firstFreeTLS(){} // RVA: 0x7FFD52E61BE0
@@ -250,8 +225,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelHashMap`2 : ValueType
     {
-        public IntPtr IsCreated;
-        public ield m_AllocatorLabel;
+        public object IsCreated;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -265,8 +239,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelMultiHashMap`2 : ValueType
     {
-        public IntPtr IsCreated;
-        public ield m_AllocatorLabel;
+        public object IsCreated;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -293,7 +266,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeStream : ValueType
     {
-        public ÏÎÏÏÌÍÎÏÏÌÏÎÏÍÏÎÏÏ IsCreated; // 0x10
+        public object IsCreated;
 
         // ── Methods ──
         public void AllocateForEach(){} // RVA: 0x7FFD54934F40
@@ -304,7 +277,8 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeText : ValueType
     {
-        public irectories IsCreated; // 0x10
+        public object IsCreated;
+        public object Length;
 
         // ── Methods ──
         public void get_IsCreated(){} // RVA: 0x7FFD54935220

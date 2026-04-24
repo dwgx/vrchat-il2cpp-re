@@ -560,6 +560,8 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÎÍÏÏÎÎÌÎÏÏÌÏÍÍÌÌÏÏÏÌÍÌ</summary>
     public class AsyncStateMachine_576D : ValueType
     {
+        public object ÍÌÌÌÏÍÌÍÏÎÏÍÍÎÎÌÌÎÍÍÍÎÌ; // 0x10
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4EBF5700
         public void InternalEquals(){} // RVA: 0x7FFD4EBF5D10

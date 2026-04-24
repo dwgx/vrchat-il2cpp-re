@@ -7,7 +7,15 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 {
     public class Collection`1 : Object
     {
-        public URA.?<T1717590928> Count; // 0x10
+        public object Count;
+        public object Items;
+        public object Item;
+        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object System.Collections.IList.Item;
+        public object System.Collections.IList.IsReadOnly;
+        public object System.Collections.IList.IsFixedSize;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -47,10 +55,9 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 
     public class KeyedCollection`2 : Collection`1
     {
-        public URA.hEraNames<T1717590912> Items;
-        public URA.DateTime<T1717590912,T1717590928> Item;
-        public int Dictionary;
-        public int threshold;
+        public object Items;
+        public object Item;
+        public object Dictionary;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970 | overloaded x3
@@ -71,8 +78,6 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 
     public class ReadOnlyCollection`1 : Object
     {
-        public URA.?<URA.mes<int,numeratorObject.NullAttribute>> list; // 0x10
-        public object _syncRoot; // 0x18
     }
 
     public class ReadOnlyDictionaryHelpers : Object
@@ -83,10 +88,23 @@ namespace ThirdParty.DotNet.System.Collections.ObjectModel
 
     public class ReadOnlyDictionary`2 : Object
     {
-        public URA.X_CALENDARS<T1717591040,T1717591056> Keys;
+        public object Keys;
         public object Values;
-        public ySuff<T1717591040,T1717591056> System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
-        public ff<T1717591040,T1717591056> System.Collections.Generic.IDictionary<TKey,TValue>.Values;
+        public object System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
+        public object System.Collections.Generic.IDictionary<TKey,TValue>.Values;
+        public object Item;
+        public object System.Collections.Generic.IDictionary<TKey,TValue>.Item;
+        public object Count;
+        public object System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
+        public object System.Collections.IDictionary.IsFixedSize;
+        public object System.Collections.IDictionary.IsReadOnly;
+        public object System.Collections.IDictionary.Keys;
+        public object System.Collections.IDictionary.Values;
+        public object System.Collections.IDictionary.Item;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys;
+        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

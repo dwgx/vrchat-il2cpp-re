@@ -7,33 +7,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class AimController : MonoBehaviour
     {
-        public dius.creaseSpeed pivot; // 0x20
-        public float weight; // 0x28
-        public object target; // 0x30
-        public float targetSwitchSmoothTime; // 0x38
-        public float weightSmoothTime; // 0x3C
-        public bool smoothTurnTowardsTarget; // 0x40
-        public float maxRadiansDelta; // 0x44
-        public float maxMagnitudeDelta; // 0x48
-        public float slerpSpeed; // 0x4C
-        public amut pivotOffsetFromRoot; // 0x50
-        public float minDistance; // 0x5C
-        public amut offset; // 0x60
-        public float maxRootAngle; // 0x6C
-        public bool turnToTarget; // 0x70
-        public float turnToTargetTime; // 0x74
-        public bool useAnimatedAimDirection; // 0x78
-        public amut animatedAimDirection; // 0x7C
-        public object lastTarget; // 0x88
-        public float switchWeight; // 0x90
-        public float switchWeightV; // 0x94
-        public float weightV; // 0x98
-        public amut lastPosition; // 0x9C
-        public amut dir; // 0xA8
-        public bool lastSmoothTowardsTarget; // 0xB4
-        public bool turningToTarget; // 0xB5
-        public float turnToTargetMlp; // 0xB8
-        public float turnToTargetMlpV; // 0xBC
+        public object pivot;
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4AB580
@@ -47,8 +21,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class AimIK : IK
     {
-        public dius.broadcaster solver; // 0x40
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -61,9 +33,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class AimPoser : MonoBehaviour
     {
-        public float angleBuffer; // 0x20
-        public ?[] poses; // 0x28
-
         // ── Methods ──
         public void GetPose(){} // RVA: 0x7FFD4E4AD3E0
         public void SetPoseActive(){} // RVA: 0x7FFD4E4AD4F0
@@ -72,8 +41,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Amplifier : OffsetModifier
     {
-        public KeyGenerationParameters[] bodies; // 0x38
-
         // ── Methods ──
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4AD9B0
         public void .ctor(){} // RVA: 0x7FFD4E349920
@@ -81,8 +48,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ArmIK : IK
     {
-        public dius.Material solver; // 0x40
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -94,9 +59,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class BipedIK : SolverManager
     {
-        public h_Null_ModelNumber_String.pch_Dashboard_EnableDashboard_Bool references; // 0x40
-        public dius.ps solvers; // 0x48
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -127,16 +89,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class BipedIKSolvers : Object
     {
-        public dius.rgetTransforms limbs; // 0x10
-        public dius.rgetTransforms ikSolvers; // 0x18
-        public dius.rgetTransforms leftHand; // 0x20
-        public dius.rgetTransforms rightHand; // 0x28
-        public dius.ehaviourTemplate spine; // 0x30
-        public dius.rentRotation lookAt; // 0x38
-        public dius.broadcaster aim; // 0x40
-        public dius.E9B282E317592631CA48B75F46340A11B95A474700E656D4 pelvis; // 0x48
-        public dius.rgetTransforms[] _limbs; // 0x50
-        public dius.?[] _ikSolvers; // 0x58
+        public object limbs;
+        public object ikSolvers;
 
         // ── Methods ──
         public void get_limbs(){} // RVA: 0x7FFD4E3F68E0
@@ -147,13 +101,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class BodyTilt : OffsetModifier
     {
-        public float tiltSpeed; // 0x38
-        public float tiltSensitivity; // 0x3C
-        public dius._BackingField poseLeft; // 0x40
-        public dius._BackingField poseRight; // 0x48
-        public float tiltAngle; // 0x50
-        public amut lastForward; // 0x54
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4AE220
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4AE330
@@ -162,8 +109,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class CCDIK : IK
     {
-        public dius.lier solver; // 0x40
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -175,8 +120,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Constraint : Object
     {
-        public object isValid; // 0x10
-        public float weight; // 0x18
+        public object isValid;
 
         // ── Methods ──
         public void get_isValid(){} // RVA: 0x7FFD4E3F73B0
@@ -186,8 +130,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintPosition : Constraint
     {
-        public amut position; // 0x20
-
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0x7FFD4E3F7480
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
@@ -195,10 +137,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintPositionOffset : Constraint
     {
-        public amut positionChanged; // 0x20
-        public amut defaultLocalPosition; // 0x2C
-        public amut lastLocalPosition; // 0x38
-        public bool initiated; // 0x44
+        public object positionChanged;
 
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0x7FFD4E3F75F0
@@ -208,8 +147,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintRotation : Constraint
     {
-        public R_12x12 rotation; // 0x20
-
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0x7FFD4E3F7AF0
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
@@ -217,12 +154,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintRotationOffset : Constraint
     {
-        public R_12x12 rotationChanged; // 0x20
-        public R_12x12 defaultRotation; // 0x30
-        public R_12x12 defaultLocalRotation; // 0x40
-        public R_12x12 lastLocalRotation; // 0x50
-        public R_12x12 defaultTargetLocalRotation; // 0x60
-        public bool initiated; // 0x70
+        public object rotationChanged;
 
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0x7FFD4E3F7C70
@@ -232,15 +164,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Constraints : Object
     {
-        public object transform; // 0x10
-        public object target; // 0x18
-        public amut positionOffset; // 0x20
-        public amut position; // 0x2C
-        public float positionWeight; // 0x38
-        public amut rotationOffset; // 0x3C
-        public amut rotation; // 0x48
-        public float rotationWeight; // 0x54
-
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E3F8180
         public void Initiate(){} // RVA: 0x7FFD4E3F8250
@@ -250,8 +173,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class EditorIK : MonoBehaviour
     {
-        public dius.ÌÌÎÍÏÏ ik; // 0x20
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4AE740
         public void Update(){} // RVA: 0x7FFD4E4AE860
@@ -260,8 +181,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FABRIK : IK
     {
-        public dius.ehaviourTemplate solver; // 0x40
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -273,11 +192,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FABRIKChain : Object
     {
-        public dius.der ik; // 0x10
-        public float pull; // 0x18
-        public float pin; // 0x1C
-        public int[] children; // 0x20
-
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E413B50
         public void Initiate(){} // RVA: 0x7FFD4E413CE0
@@ -289,8 +203,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FABRIKRoot : IK
     {
-        public dius.comV solver; // 0x40
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -302,16 +214,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FBBIKArmBending : MonoBehaviour
     {
-        public dius.sions ik; // 0x20
-        public amut bendDirectionOffsetLeft; // 0x28
-        public amut bendDirectionOffsetRight; // 0x34
-        public amut characterSpaceBendOffsetLeft; // 0x40
-        public amut characterSpaceBendOffsetRight; // 0x4C
-        public R_12x12 leftHandTargetRotation; // 0x58
-        public R_12x12 rightHandTargetRotation; // 0x68
-        public bool initiated; // 0x78
-        public object OnPostArmBend; // 0x80
-
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x7FFD4E4144B0
         public void OnPostFBBIK(){} // RVA: 0x7FFD4E414FB0
@@ -321,54 +223,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FBBIKHeadEffector : MonoBehaviour
     {
-        public dius.sions ik; // 0x20
-        public float positionWeight; // 0x28
-        public float bodyWeight; // 0x2C
-        public float thighWeight; // 0x30
-        public bool handsPullBody; // 0x34
-        public float rotationWeight; // 0x38
-        public float bodyClampWeight; // 0x3C
-        public float headClampWeight; // 0x40
-        public float bendWeight; // 0x44
-        public veToTarget[] bendBones; // 0x48
-        public float CCDWeight; // 0x50
-        public float roll; // 0x54
-        public float damper; // 0x58
-        public ?[] CCDBones; // 0x60
-        public float postStretchWeight; // 0x68
-        public float maxStretch; // 0x6C
-        public float stretchDamper; // 0x70
-        public bool fixHead; // 0x74
-        public ?[] stretchBones; // 0x78
-        public amut chestDirection; // 0x80
-        public float chestDirectionWeight; // 0x8C
-        public ?[] chestBones; // 0x90
-        public object OnPostHeadEffectorFK; // 0x98
-        public amut offset; // 0xA0
-        public amut headToBody; // 0xAC
-        public amut shoulderCenterToHead; // 0xB8
-        public amut headToLeftThigh; // 0xC4
-        public amut headToRightThigh; // 0xD0
-        public amut leftShoulderPos; // 0xDC
-        public amut rightShoulderPos; // 0xE8
-        public float shoulderDist; // 0xF4
-        public float leftShoulderDist; // 0xF8
-        public float rightShoulderDist; // 0xFC
-        public R_12x12 chestRotation; // 0x100
-        public R_12x12 headRotationRelativeToRoot; // 0x110
-        public R_12x12[] ccdDefaultLocalRotations; // 0x120
-        public amut headLocalPosition; // 0x128
-        public R_12x12 headLocalRotation; // 0x134
-        public amut[] stretchLocalPositions; // 0x148
-        public R_12x12[] stretchLocalRotations; // 0x150
-        public amut[] chestLocalPositions; // 0x158
-        public R_12x12[] chestLocalRotations; // 0x160
-        public int bendBonesCount; // 0x168
-        public int ccdBonesCount; // 0x16C
-        public int stretchBonesCount; // 0x170
-        public int chestBonesCount; // 0x174
-        public bool _isVRCAvatarMainIK; // 0x178
-
         // ── Methods ──
         public void VRCInitialize(){} // RVA: 0x7FFD4E415690
         public void VRCSetAvatarMainIK(){} // RVA: 0x7FFD4E4156A0
@@ -391,30 +245,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FBIKChain : Object
     {
-        public float pin; // 0x10
-        public float pull; // 0x14
-        public float push; // 0x18
-        public float pushParent; // 0x1C
-        public float reach; // 0x20
-        public ÍÎÍÏÍÍÎÌÍÏÍÍÏÍÎÍÏÎÏÌÎÍ reachSmoothing; // 0x24
-        public ÍÎÍÏÍÍÎÌÍÏÍÍÏÍÎÍÏÎÏÌÎÍ pushSmoothing; // 0x28
-        public tyles[] nodes; // 0x30
-        public int[] children; // 0x38
-        public tMuscle[] childConstraints; // 0x40
-        public dius.eCollision bendConstraint; // 0x48
-        public float rootLength; // 0x50
-        public bool initiated; // 0x54
-        public float length; // 0x58
-        public float distance; // 0x5C
-        public object p; // 0x60
-        public float reachForce; // 0x68
-        public float pullParentSum; // 0x6C
-        public float[] crossFades; // 0x70
-        public float sqrMag1; // 0x78
-        public float sqrMag2; // 0x7C
-        public float sqrMagDif; // 0x80
-        public float maxLimbLength;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E41C710 | overloaded x2
         public void SetNodes(){} // RVA: 0x7FFD4E41CA00
@@ -439,9 +269,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FingerRig : SolverManager
     {
-        public float initiated; // 0x40
-        public dius.ÍÏÏÎÎÍÎÌÎÏÍÎÌÏ[] fingers; // 0x48
-        public bool <initiated>k__BackingField; // 0x50
+        public object initiated;
 
         // ── Methods ──
         public void get_initiated(){} // RVA: 0x7FFD4E3FB8E0
@@ -462,10 +290,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FullBodyBipedIK : IK
     {
-        public bool _isVRCAvatarMainIK; // 0x40
-        public h_Null_ModelNumber_String.pch_Dashboard_EnableDashboard_Bool references; // 0x48
-        public dius.etCentroid solver; // 0x50
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -487,8 +311,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GenericPoser : Poser
     {
-        public rCert[] maps; // 0x58
-
         // ── Methods ──
         public void AutoMapping(){} // RVA: 0x7FFD4E4A02B0
         public void InitiatePoser(){} // RVA: 0x7FFD4E4A0840
@@ -501,11 +323,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Grounder : MonoBehaviour
     {
-        public float initiated; // 0x20
-        public dius.? solver; // 0x28
-        public dex OnPreGrounder; // 0x30
-        public dex OnPostGrounder; // 0x38
-        public bool <initiated>k__BackingField; // 0x40
+        public object initiated;
 
         // ── Methods ──
         public void ResetPosition(){} // RVA: 0x7FFD4E090980
@@ -522,16 +340,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderBipedIK : Grounder
     {
-        public dius.eilingRadius ik; // 0x48
-        public float spineBend; // 0x50
-        public float spineSpeed; // 0x54
-        public ?[] feet; // 0x58
-        public R_12x12[] footRotations; // 0x60
-        public amut animatedPelvisLocalPosition; // 0x68
-        public amut solvedPelvisLocalPosition; // 0x74
-        public amut spineOffset; // 0x80
-        public float lastWeight; // 0x8C
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -549,14 +357,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderFBBIK : Grounder
     {
-        public dius.sions ik; // 0x48
-        public float spineBend; // 0x50
-        public float spineSpeed; // 0x54
-        public s[] spine; // 0x58
-        public ?[] feet; // 0x60
-        public amut spineOffset; // 0x68
-        public bool firstSolve; // 0x74
-
         // ── Methods ──
         public void OpenTutorial(){} // RVA: 0x7FFD4E341310
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -576,21 +376,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderIK : Grounder
     {
-        public dius.ÌÌÎÍÏÏ[] legs; // 0x48
-        public object pelvis; // 0x50
-        public object characterRoot; // 0x58
-        public float rootRotationWeight; // 0x60
-        public float rootRotationSpeed; // 0x64
-        public float maxRootRotationAngle; // 0x68
-        public ?[] feet; // 0x70
-        public R_12x12[] footRotations; // 0x78
-        public amut animatedPelvisLocalPosition; // 0x80
-        public amut solvedPelvisLocalPosition; // 0x8C
-        public int solvedFeet; // 0x98
-        public bool solved; // 0x9C
-        public float lastWeight; // 0xA0
-        public Touched characterRootRigidbody; // 0xA8
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -608,36 +393,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderQuadruped : Grounder
     {
-        public dius.? forelegSolver; // 0x48
-        public float rootRotationWeight; // 0x50
-        public float minRootRotation; // 0x54
-        public float maxRootRotation; // 0x58
-        public float rootRotationSpeed; // 0x5C
-        public float maxLegOffset; // 0x60
-        public float maxForeLegOffset; // 0x64
-        public float maintainHeadRotationWeight; // 0x68
-        public object characterRoot; // 0x70
-        public object pelvis; // 0x78
-        public object lastSpineBone; // 0x80
-        public object head; // 0x88
-        public dius.ÌÌÎÍÏÏ[] legs; // 0x90
-        public dius.ÌÌÎÍÏÏ[] forelegs; // 0x98
-        public amut gravity; // 0xA0
-        public elClip[] feet; // 0xB0
-        public amut animatedPelvisLocalPosition; // 0xB8
-        public R_12x12 animatedPelvisLocalRotation; // 0xC4
-        public R_12x12 animatedHeadLocalRotation; // 0xD4
-        public amut solvedPelvisLocalPosition; // 0xE4
-        public R_12x12 solvedPelvisLocalRotation; // 0xF0
-        public R_12x12 solvedHeadLocalRotation; // 0x100
-        public int solvedFeet; // 0x110
-        public bool solved; // 0x114
-        public float angle; // 0x118
-        public object forefeetRoot; // 0x120
-        public R_12x12 headRotation; // 0x128
-        public float lastWeight; // 0x138
-        public Touched characterRootRigidbody; // 0x140
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -661,8 +416,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderVRIK : Grounder
     {
-        public dius.ht ik; // 0x48
-        public ?[] feet; // 0x50
+        public int kSize;
+        public Device.formUserAccount baseCommand; // 0x10
 
         // ── Methods ──
         public void OpenTutorial(){} // RVA: 0x7FFD4E341310
@@ -682,30 +437,14 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Grounding : Object
     {
-        public object legs; // 0x10
-        public float pelvis; // 0x14
-        public float isGrounded; // 0x18
-        public float root; // 0x1C
-        public float rootHit; // 0x20
-        public float rootGrounded; // 0x24
-        public float up; // 0x28
-        public float useRootRotation; // 0x2C
-        public float footRotationSpeed; // 0x30
-        public float maxFootRotationAngle; // 0x34
-        public bool rotateSolver; // 0x38
-        public float pelvisSpeed; // 0x3C
-        public float pelvisDamper; // 0x40
-        public float lowerPelvisWeight; // 0x44
-        public float liftPelvisWeight; // 0x48
-        public float rootSphereCastRadius; // 0x4C
-        public bool overstepFallsDown; // 0x50
-        public es quality; // 0x54
-        public rd_Section[] <legs>k__BackingField; // 0x58
-        public ic <pelvis>k__BackingField; // 0x60
-        public bool <isGrounded>k__BackingField; // 0x68
-        public object <root>k__BackingField; // 0x70
-        public ColorScaleAndOffset <rootHit>k__BackingField; // 0x78
-        public bool initiated; // 0xA4
+        public object legs;
+        public object pelvis;
+        public object isGrounded;
+        public object root;
+        public object rootHit;
+        public object rootGrounded;
+        public object up;
+        public object useRootRotation;
 
         // ── Methods ──
         public void get_legs(){} // RVA: 0x7FFD4E409500
@@ -736,11 +475,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class HandPoser : Poser
     {
-        public ?[] children; // 0x58
-        public object _poseRoot; // 0x60
-        public ?[] poseChildren; // 0x68
-        public amut[] defaultLocalPositions; // 0x70
-        public R_12x12[] defaultLocalRotations; // 0x78
+        public BuffersImpl wheel; // 0x20
+        public amut m_TargetOriginalPosition; // 0x28
+        public amut m_Origin; // 0x34
 
         // ── Methods ──
         public void AutoMapping(){} // RVA: 0x7FFD4E4A1290
@@ -753,8 +490,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class HitReaction : OffsetModifier
     {
-        public eightFromGround[] inProgress; // 0x38
-        public et[] boneHitPoints; // 0x40
+        public object inProgress;
 
         // ── Methods ──
         public void get_inProgress(){} // RVA: 0x7FFD4E4AE9A0
@@ -765,10 +501,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class HitReactionVRIK : OffsetModifierVRIK
     {
-        public ÍÎÌÍÍÌÌÎÏÏ[] offsetCurves; // 0x38
-        public ÎÌ[] positionOffsets; // 0x40
-        public tings[] rotationOffsets; // 0x48
-
         // ── Methods ──
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4B03B0
         public void Hit(){} // RVA: 0x7FFD4E4B0480
@@ -789,24 +521,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKConstraintBend : Object
     {
-        public object initiated; // 0x10
-        public object bone2; // 0x18
-        public object bone3; // 0x20
-        public object bendGoal; // 0x28
-        public amut direction; // 0x30
-        public R_12x12 rotationOffset; // 0x3C
-        public float weight; // 0x4C
-        public amut defaultLocalDirection; // 0x50
-        public amut defaultChildDirection; // 0x5C
-        public float clampF; // 0x68
-        public int chainIndex1; // 0x6C
-        public int nodeIndex1; // 0x70
-        public int chainIndex2; // 0x74
-        public int nodeIndex2; // 0x78
-        public int chainIndex3; // 0x7C
-        public int nodeIndex3; // 0x80
-        public bool <initiated>k__BackingField; // 0x84
-        public bool limbOrientationsSet; // 0x85
+        public object initiated;
 
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E420920
@@ -824,38 +539,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKEffector : Object
     {
-        public object isEndEffector; // 0x10
-        public object target; // 0x18
-        public float positionWeight; // 0x20
-        public float rotationWeight; // 0x24
-        public amut position; // 0x28
-        public R_12x12 rotation; // 0x34
-        public amut positionOffset; // 0x44
-        public bool <isEndEffector>k__BackingField; // 0x50
-        public bool effectChildNodes; // 0x51
-        public float maintainRelativePositionWeight; // 0x54
-        public ?[] childBones; // 0x58
-        public object planeBone1; // 0x60
-        public object planeBone2; // 0x68
-        public object planeBone3; // 0x70
-        public R_12x12 planeRotationOffset; // 0x78
-        public float posW; // 0x88
-        public float rotW; // 0x8C
-        public amut[] localPositions; // 0x90
-        public bool usePlaneNodes; // 0x98
-        public R_12x12 animatedPlaneRotation; // 0x9C
-        public amut animatedPosition; // 0xAC
-        public bool firstUpdate; // 0xB8
-        public int chainIndex; // 0xBC
-        public int nodeIndex; // 0xC0
-        public int plane1ChainIndex; // 0xC4
-        public int plane1NodeIndex; // 0xC8
-        public int plane2ChainIndex; // 0xCC
-        public int plane2NodeIndex; // 0xD0
-        public int plane3ChainIndex; // 0xD4
-        public int plane3NodeIndex; // 0xD8
-        public int[] childChainIndexes; // 0xE0
-        public int[] childNodeIndexes; // 0xE8
+        public object isEndEffector;
 
         // ── Methods ──
         public void GetNode(){} // RVA: 0x7FFD4E423770
@@ -876,9 +560,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKExecutionOrder : MonoBehaviour
     {
-        public dius.ÌÌÎÍÏÏ[] animatePhysics; // 0x20
-        public stfix animator; // 0x28
-        public bool fixedFrame; // 0x30
+        public object animatePhysics;
 
         // ── Methods ──
         public void get_animatePhysics(){} // RVA: 0x7FFD4E4104C0
@@ -902,10 +584,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKMappingBone : IKMapping
     {
-        public object bone; // 0x10
-        public float maintainRotationWeight; // 0x18
-        public hActivate>d__21 boneMap; // 0x20
-
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E42A050
         public void .ctor(){} // RVA: 0x7FFD4E42A250 | overloaded x2
@@ -918,18 +596,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKMappingLimb : IKMapping
     {
-        public object parentBone; // 0x10
-        public object bone1; // 0x18
-        public object bone2; // 0x20
-        public object bone3; // 0x28
-        public float maintainRotationWeight; // 0x30
-        public float weight; // 0x34
-        public bool updatePlaneRotations; // 0x38
-        public hActivate>d__21 boneMapParent; // 0x40
-        public hActivate>d__21 boneMap1; // 0x48
-        public hActivate>d__21 boneMap2; // 0x50
-        public hActivate>d__21 boneMap3; // 0x58
-
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E42A5D0
         public void GetBoneMap(){} // RVA: 0x7FFD4E42A670
@@ -945,21 +611,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKMappingSpine : IKMapping
     {
-        public ?[] spineBones; // 0x10
-        public object leftUpperArmBone; // 0x18
-        public object rightUpperArmBone; // 0x20
-        public object leftThighBone; // 0x28
-        public object rightThighBone; // 0x30
-        public int iterations; // 0x38
-        public float twistWeight; // 0x3C
-        public int rootNodeIndex; // 0x40
-        public hActivate>d__21[] spine; // 0x48
-        public hActivate>d__21 leftUpperArm; // 0x50
-        public hActivate>d__21 rightUpperArm; // 0x58
-        public hActivate>d__21 leftThigh; // 0x60
-        public hActivate>d__21 rightThigh; // 0x68
-        public bool useFABRIK; // 0x70
-
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E42C5C0
         public void .ctor(){} // RVA: 0x7FFD4E42D040 | overloaded x2
@@ -977,15 +628,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolver : Object
     {
-        public amut initiated; // 0x10
-        public float IKPositionWeight; // 0x1C
-        public bool <initiated>k__BackingField; // 0x20
-        public object OnPreInitiate; // 0x28
-        public object OnPostInitiate; // 0x30
-        public object OnPreUpdate; // 0x38
-        public object OnPostUpdate; // 0x40
-        public bool firstInitiation; // 0x48
-        public object root; // 0x50
+        public object initiated;
 
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E079F60 | overloaded x2
@@ -1013,19 +656,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverAim : IKSolverHeuristic
     {
-        public object transformAxis; // 0x88
-        public amut transformPoleAxis; // 0x90
-        public amut minBones; // 0x9C
-        public amut localDirection; // 0xA8
-        public float poleWeight; // 0xB4
-        public object poleTarget; // 0xB8
-        public float clampWeight; // 0xC0
-        public int clampSmoothing; // 0xC4
-        public eGetUp OnPreIteration; // 0xC8
-        public float step; // 0xD0
-        public amut clampedIKPosition; // 0xD4
-        public dius.aultLocalRotation transformLimit; // 0xE0
-        public object lastTransform; // 0xE8
+        public object transformAxis;
+        public object transformPoleAxis;
+        public object minBones;
+        public object localDirection;
 
         // ── Methods ──
         public void GetAngle(){} // RVA: 0x7FFD4E4324C0
@@ -1043,18 +677,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverArm : IKSolver
     {
-        public float IKRotationWeight; // 0x58
-        public R_12x12 IKRotation; // 0x5C
-        public object chest; // 0x70
-        public object shoulder; // 0x78
-        public object upperArm; // 0x80
-        public object forearm; // 0x88
-        public object hand; // 0x90
-        public bool isLeft; // 0x98
-        public tionCall arm; // 0xA0
-        public amut[] positions; // 0xA8
-        public R_12x12[] rotations; // 0xB0
-
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E435250
         public void SetChain(){} // RVA: 0x7FFD4E435940
@@ -1072,8 +694,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverCCD : IKSolverHeuristic
     {
-        public eGetUp OnPreIteration; // 0x88
-
         // ── Methods ──
         public void FadeOutBoneWeights(){} // RVA: 0x7FFD4E437690
         public void OnInitiate(){} // RVA: 0x7FFD4E437730
@@ -1084,9 +704,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFABRIK : IKSolverHeuristic
     {
-        public eGetUp boneLengthCanBeZero; // 0x88
-        public bool[] limitedBones; // 0x90
-        public amut[] solverLocalPositions; // 0x98
+        public object boneLengthCanBeZero;
 
         // ── Methods ──
         public void SolveForward(){} // RVA: 0x7FFD4E438C40
@@ -1118,13 +736,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFABRIKRoot : IKSolver
     {
-        public int iterations; // 0x58
-        public float rootPin; // 0x5C
-        public dius.tchRotation[] chains; // 0x60
-        public bool zeroWeightApplied; // 0x68
-        public bool[] isRoot; // 0x70
-        public amut rootDefaultPosition; // 0x78
-
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E43D610
         public void StoreDefaultLocalState(){} // RVA: 0x7FFD4E43DF90
@@ -1141,22 +752,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFullBody : IKSolver
     {
-        public int iterations; // 0x58
-        public dius.t[] chain; // 0x60
-        public dius.nPostMuscleCollisionExit[] effectors; // 0x68
-        public dius.nimationTime spineMapping; // 0x70
-        public dius.?[] boneMappings; // 0x78
-        public dius.uscleWeightMlp[] limbMappings; // 0x80
-        public bool FABRIKPass; // 0x88
-        public object OnPreRead; // 0x90
-        public object OnPreSolve; // 0x98
-        public eGetUp OnPreIteration; // 0xA0
-        public eGetUp OnPostIteration; // 0xA8
-        public object OnPreBend; // 0xB0
-        public object OnPostSolve; // 0xB8
-        public object OnStoreDefaultLocalState; // 0xC0
-        public object OnFixTransforms; // 0xC8
-
         // ── Methods ──
         public void GetEffector(){} // RVA: 0x7FFD4E43EE70
         public void GetChain(){} // RVA: 0x7FFD4E43F010
@@ -1179,12 +774,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFullBodyBiped : IKSolverFullBody
     {
-        public object bodyEffector; // 0xD0
-        public float leftShoulderEffector; // 0xD8
-        public float rightShoulderEffector; // 0xDC
-        public float leftThighEffector; // 0xE0
-        public amut rightThighEffector; // 0xE4
-        public amut leftHandEffector; // 0xF0
+        public int bodyEffector;
+        public int leftShoulderEffector;
+        public int rightShoulderEffector;
+        public ataStartIndex leftThighEffector; // 0x10
 
         // ── Methods ──
         public void get_bodyEffector(){} // RVA: 0x7FFD4E441010
@@ -1235,14 +828,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverHeuristic : IKSolver
     {
-        public object minBones; // 0x58
-        public float boneLengthCanBeZero; // 0x60
-        public int allowCommonParent; // 0x64
-        public bool localDirection; // 0x68
-        public bool positionOffset; // 0x69
-        public radius[] bones; // 0x70
-        public amut lastLocalDirection; // 0x78
-        public float chainLength; // 0x84
+        public object minBones;
+        public object boneLengthCanBeZero;
+        public object allowCommonParent;
+        public object localDirection;
+        public object positionOffset;
 
         // ── Methods ──
         public void SetChain(){} // RVA: 0x7FFD4E445ED0
@@ -1267,18 +857,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverLeg : IKSolver
     {
-        public float IKRotationWeight; // 0x58
-        public R_12x12 IKRotation; // 0x5C
-        public object pelvis; // 0x70
-        public object thigh; // 0x78
-        public object calf; // 0x80
-        public object foot; // 0x88
-        public object toe; // 0x90
-        public rd_Section leg; // 0x98
-        public amut heelOffset; // 0xA0
-        public amut[] positions; // 0xB0
-        public R_12x12[] rotations; // 0xB8
-
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E448190
         public void SetChain(){} // RVA: 0x7FFD4E435940
@@ -1296,22 +874,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverLimb : IKSolverTrigonometric
     {
-        public ianceMinDistance axisDirections; // 0xA8
-        public parentRotation bendModifier; // 0xAC
-        public float maintainRotationWeight; // 0xB0
-        public float bendModifierWeight; // 0xB4
-        public object bendGoal; // 0xB8
-        public bool maintainBendFor1Frame; // 0xC0
-        public bool maintainRotationFor1Frame; // 0xC1
-        public R_12x12 defaultRootRotation; // 0xC4
-        public R_12x12 parentDefaultRotation; // 0xD4
-        public R_12x12 bone3RotationBeforeSolve; // 0xE4
-        public R_12x12 maintainRotation; // 0xF4
-        public R_12x12 bone3DefaultRotation; // 0x104
-        public amut _bendNormal; // 0x114
-        public amut animationNormal; // 0x120
-        public n[] axisDirectionsLeft; // 0x130
-        public n[] axisDirectionsRight; // 0x138
+        public object axisDirections;
 
         // ── Methods ──
         public void MaintainRotation(){} // RVA: 0x7FFD4E44A390
@@ -1327,22 +890,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverLookAt : IKSolver
     {
-        public object spineIsValid; // 0x58
-        public d[] spineIsEmpty; // 0x60
-        public d headIsValid; // 0x68
-        public d[] headIsEmpty; // 0x70
-        public float eyesIsValid; // 0x78
-        public float eyesIsEmpty; // 0x7C
-        public float eyesWeight; // 0x80
-        public float clampWeight; // 0x84
-        public float clampWeightHead; // 0x88
-        public float clampWeightEyes; // 0x8C
-        public int clampSmoothing; // 0x90
-        public ÍÎÌÍÍÌÌÎÏÏ spineWeightCurve; // 0x98
-        public amut spineTargetOffset; // 0xA0
-        public amut[] spineForwards; // 0xB0
-        public amut[] headForwards; // 0xB8
-        public amut[] eyeForward; // 0xC0
+        public object spineIsValid;
+        public object spineIsEmpty;
+        public object headIsValid;
+        public object headIsEmpty;
+        public object eyesIsValid;
+        public object eyesIsEmpty;
 
         // ── Methods ──
         public void SetLookAtWeight(){} // RVA: 0x7FFD4E44D3A0 | overloaded x6
@@ -1370,16 +923,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverTrigonometric : IKSolver
     {
-        public object target; // 0x58
-        public float IKRotationWeight; // 0x60
-        public R_12x12 IKRotation; // 0x64
-        public amut bendNormal; // 0x74
-        public ldTargetParent>k__BackingField bone1; // 0x80
-        public ldTargetParent>k__BackingField bone2; // 0x88
-        public ldTargetParent>k__BackingField bone3; // 0x90
-        public amut weightIKPosition; // 0x98
-        public bool directHierarchy; // 0xA4
-
         // ── Methods ──
         public void SetBendGoalPosition(){} // RVA: 0x7FFD4E451790
         public void SetBendPlaneToCurrent(){} // RVA: 0x7FFD4E451AA0
@@ -1408,44 +951,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverVR : IKSolver
     {
-        public ?[] rootBone; // 0x58
-        public bool hasChest; // 0x60
-        public bool hasNeck; // 0x61
-        public bool hasShoulders; // 0x62
-        public bool hasToes; // 0x63
-        public bool hasLegs; // 0x64
-        public bool hasUpperChest; // 0x65
-        public amut[] readPositions; // 0x68
-        public R_12x12[] readRotations; // 0x70
-        public amut[] solvedPositions; // 0x78
-        public R_12x12[] solvedRotations; // 0x80
-        public R_12x12[] defaultLocalRotations; // 0x88
-        public amut[] defaultLocalPositions; // 0x90
-        public amut rootV; // 0x98
-        public amut rootVelocity; // 0xA4
-        public amut bodyOffset; // 0xB0
-        public int supportLegIndex; // 0xBC
-        public int lastLOD; // 0xC0
-        public int LOD; // 0xC4
-        public bool plantFeet; // 0xC8
-        public ion <rootBone>k__BackingField; // 0xD0
-        public ashboard_Section spine; // 0xD8
-        public tionCall leftArm; // 0xE0
-        public tionCall rightArm; // 0xE8
-        public rd_Section leftLeg; // 0xF0
-        public rd_Section rightLeg; // 0xF8
-        public ÌÍÍÍÍÍÌÎÍÏÏ locomotion; // 0x100
-        public rd_Section[] legs; // 0x108
-        public tionCall[] arms; // 0x110
-        public amut headPosition; // 0x118
-        public amut headDeltaPosition; // 0x124
-        public amut raycastOriginPelvis; // 0x130
-        public amut lastOffset; // 0x13C
-        public amut debugPos1; // 0x148
-        public amut debugPos2; // 0x154
-        public amut debugPos3; // 0x160
-        public amut debugPos4; // 0x16C
-        public bool vrcLateSolve; // 0x178
+        public object rootBone;
 
         // ── Methods ──
         public void SetToReferences(){} // RVA: 0x7FFD4E4564F0
@@ -1486,9 +992,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Inertia : OffsetModifier
     {
-        public KeyGenerationParameters[] bodies; // 0x38
-        public ition>k__BackingField[] limits; // 0x40
-
         // ── Methods ──
         public void ResetBodies(){} // RVA: 0x7FFD4E4B1D60
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4B1E00
@@ -1497,42 +1000,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionEffector : Object
     {
-        public dius.oundedTime effectorType; // 0x10
-        public bool isPaused; // 0x14
-        public dius.ollisionStayMessages interactionObject; // 0x18
-        public dius.KSolvers inInteraction; // 0x20
-        public dius.nPostMuscleCollisionExit progress; // 0x28
-        public float timer; // 0x30
-        public float length; // 0x34
-        public float weight; // 0x38
-        public float fadeInSpeed; // 0x3C
-        public float defaultPositionWeight; // 0x40
-        public float defaultRotationWeight; // 0x44
-        public float defaultPull; // 0x48
-        public float defaultReach; // 0x4C
-        public float defaultPush; // 0x50
-        public float defaultPushParent; // 0x54
-        public float defaultBendGoalWeight; // 0x58
-        public float resetTimer; // 0x5C
-        public bool positionWeightUsed; // 0x60
-        public bool rotationWeightUsed; // 0x61
-        public bool pullUsed; // 0x62
-        public bool reachUsed; // 0x63
-        public bool pushUsed; // 0x64
-        public bool pushParentUsed; // 0x65
-        public bool bendGoalWeightUsed; // 0x66
-        public bool pickedUp; // 0x67
-        public bool defaults; // 0x68
-        public bool pickUpOnPostFBBIK; // 0x69
-        public amut pickUpPosition; // 0x6C
-        public amut pausePositionRelative; // 0x78
-        public R_12x12 pickUpRotation; // 0x84
-        public R_12x12 pauseRotationRelative; // 0x94
-        public dius.its interactionTarget; // 0xA8
-        public object target; // 0xB0
-        public URA.woDigitYearMax<bool> triggered; // 0xB8
-        public dius.dBone interactionSystem; // 0xC0
-        public bool started; // 0xC8
+        public object effectorType;
+        public object isPaused;
+        public object interactionObject;
+        public object inInteraction;
+        public object progress;
 
         // ── Methods ──
         public void get_effectorType(){} // RVA: 0x7FFD4E38E5C0
@@ -1559,15 +1031,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionLookAt : Object
     {
-        public dius.ionToLocalSpace ik; // 0x10
-        public float lerpSpeed; // 0x18
-        public float weightSpeed; // 0x1C
-        public bool isPaused; // 0x20
-        public object lookAtTarget; // 0x28
-        public float stopLookTime; // 0x30
-        public float weight; // 0x34
-        public bool firstFBBIKSolve; // 0x38
-
         // ── Methods ──
         public void Look(){} // RVA: 0x7FFD4E494120
         public void OnFixTransforms(){} // RVA: 0x7FFD4E494380
@@ -1579,15 +1042,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionObject : MonoBehaviour
     {
-        public object length; // 0x20
-        public object lastUsedInteractionSystem; // 0x28
-        public object lookAtTarget; // 0x30
-        public eator[] targetsRoot; // 0x38
-        public n[] multipliers; // 0x40
-        public ue[] events; // 0x48
-        public float <length>k__BackingField; // 0x50
-        public dius.dBone <lastUsedInteractionSystem>k__BackingField; // 0x58
-        public dius.its[] targets; // 0x60
+        public object length;
+        public object lastUsedInteractionSystem;
+        public object lookAtTarget;
+        public object targetsRoot;
 
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -1619,30 +1077,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionSystem : MonoBehaviour
     {
-        public string inInteraction; // 0x20
-        public float ik; // 0x28
-        public float triggersInRange; // 0x2C
-        public float resetToDefaultsSpeed; // 0x30
-        public riteCharacterUnicode characterCollider; // 0x38
-        public object FPSCamera; // 0x40
-        public object camRaycastLayers; // 0x48
-        public float camRaycastDistance; // 0x4C
-        public URA.woDigitYearMax<dius.s> <triggersInRange>k__BackingField; // 0x50
-        public URA.woDigitYearMax<dius.s> inContact; // 0x58
-        public URA.woDigitYearMax<int> bestRangeIndexes; // 0x60
-        public able OnInteractionStart; // 0x68
-        public able OnInteractionPause; // 0x70
-        public able OnInteractionPickUp; // 0x78
-        public able OnInteractionResume; // 0x80
-        public able OnInteractionStop; // 0x88
-        public ms OnInteractionEvent; // 0x90
-        public ColorScaleAndOffset raycastHit; // 0x98
-        public dius.sions fullBody; // 0xC8
-        public dius.eFree lookAt; // 0xD0
-        public dius.75[] interactionEffectors; // 0xD8
-        public bool initiated; // 0xE0
-        public riteCharacterUnicode lastCollider; // 0xE8
-        public riteCharacterUnicode c; // 0xF0
+        public object inInteraction;
+        public object ik;
+        public object triggersInRange;
 
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -1704,17 +1141,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionTarget : MonoBehaviour
     {
-        public dius.oundedTime effectorType; // 0x20
-        public n[] multipliers; // 0x28
-        public float interactionSpeedMlp; // 0x30
-        public object pivot; // 0x38
-        public amut twistAxis; // 0x40
-        public float twistWeight; // 0x4C
-        public float swingWeight; // 0x50
-        public bool rotateOnce; // 0x54
-        public R_12x12 defaultLocalRotation; // 0x58
-        public object lastPivot; // 0x68
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1732,8 +1158,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionTrigger : MonoBehaviour
     {
-        public HeadAnimatorForExport[] ranges; // 0x20
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1747,8 +1171,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LegIK : IK
     {
-        public dius.? solver; // 0x40
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1760,8 +1182,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LimbIK : IK
     {
-        public dius.rgetTransforms solver; // 0x40
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1773,26 +1193,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LookAtController : MonoBehaviour
     {
-        public dius.ionToLocalSpace pivot; // 0x20
-        public object target; // 0x28
-        public float weight; // 0x30
-        public amut offset; // 0x34
-        public float targetSwitchSmoothTime; // 0x40
-        public float weightSmoothTime; // 0x44
-        public bool smoothTurnTowardsTarget; // 0x48
-        public float maxRadiansDelta; // 0x4C
-        public float maxMagnitudeDelta; // 0x50
-        public float slerpSpeed; // 0x54
-        public amut pivotOffsetFromRoot; // 0x58
-        public float minDistance; // 0x64
-        public float maxRootAngle; // 0x68
-        public object lastTarget; // 0x70
-        public float switchWeight; // 0x78
-        public float switchWeightV; // 0x7C
-        public float weightV; // 0x80
-        public amut lastPosition; // 0x84
-        public amut dir; // 0x90
-        public bool lastSmoothTowardsTarget; // 0x9C
+        public object pivot;
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4B2790
@@ -1805,8 +1206,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LookAtIK : IK
     {
-        public dius.rentRotation solver; // 0x40
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1818,9 +1217,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class OffsetModifier : MonoBehaviour
     {
-        public float deltaTime; // 0x20
-        public dius.sions ik; // 0x28
-        public float lastTime; // 0x30
+        public object deltaTime;
 
         // ── Methods ──
         public void get_deltaTime(){} // RVA: 0x7FFD4E4B4140
@@ -1835,9 +1232,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class OffsetModifierVRIK : MonoBehaviour
     {
-        public float deltaTime; // 0x20
-        public dius.ht ik; // 0x28
-        public float lastTime; // 0x30
+        public object deltaTime;
 
         // ── Methods ──
         public void get_deltaTime(){} // RVA: 0x7FFD4E4B4140
@@ -1851,8 +1246,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class OffsetPose : MonoBehaviour
     {
-        public xStep[] effectorLinks; // 0x20
-
         // ── Methods ──
         public void Apply(){} // RVA: 0x7FFD4E4B5A60 | overloaded x2
         public void .ctor(){} // RVA: 0x7FFD4E4B5B20
@@ -1860,8 +1253,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class PenetrationAvoidance : OffsetModifier
     {
-        public ?[] avoiders; // 0x38
-
         // ── Methods ──
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4B6190
         public void .ctor(){} // RVA: 0x7FFD4E349920
@@ -1869,11 +1260,26 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Poser : SolverManager
     {
-        public object poseRoot; // 0x40
-        public float weight; // 0x48
-        public float localRotationWeight; // 0x4C
-        public float localPositionWeight; // 0x50
-        public bool initiated; // 0x54
+        public int MaxFlatLength;
+        public ÍÏÎÎÌÍÍ.killLevel source0; // 0x10
+        public ÍÏÎÎÌÍÍ.killLevel source1; // 0x38
+        public ÍÏÎÎÌÍÍ.killLevel source2; // 0x60
+        public ÍÏÎÎÌÍÍ.killLevel source3; // 0x88
+        public ÍÏÎÎÌÍÍ.killLevel source4; // 0xB0
+        public ÍÏÎÎÌÍÍ.killLevel source5; // 0xD8
+        public ÍÏÎÎÌÍÍ.killLevel source6; // 0x100
+        public ÍÏÎÎÌÍÍ.killLevel source7; // 0x128
+        public ÍÏÎÎÌÍÍ.killLevel source8; // 0x150
+        public ÍÏÎÎÌÍÍ.killLevel source9; // 0x178
+        public ÍÏÎÎÌÍÍ.killLevel source10; // 0x1A0
+        public ÍÏÎÎÌÍÍ.killLevel source11; // 0x1C8
+        public ÍÏÎÎÌÍÍ.killLevel source12; // 0x1F0
+        public ÍÏÎÎÌÍÍ.killLevel source13; // 0x218
+        public ÍÏÎÎÌÍÍ.killLevel source14; // 0x240
+        public ÍÏÎÎÌÍÍ.killLevel source15; // 0x268
+        public int totalLength; // 0x290
+        public URA.woDigitYearMax<ÍÏÎÎÌÍÍ.killLevel> overflowList; // 0x298
+        public URA.saAbbrevEnglishEraNames<ÍÏÎÎÌÍÍ.killLevel> _valueEnumerator; // 0x2A0
 
         // ── Methods ──
         public void AutoMapping(){} // RVA: 0x7FFD4E090980
@@ -1889,22 +1295,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RagdollUtility : MonoBehaviour
     {
-        public dius.ÌÌÎÍÏÏ isRagdoll; // 0x20
-        public float ikUsed; // 0x28
-        public bool applyIkOnRagdoll; // 0x2C
-        public float applyVelocity; // 0x30
-        public float applyAngularVelocity; // 0x34
-        public stfix animator; // 0x38
-        public oreDefaultLocalState[] rigidbones; // 0x40
-        public nfo[] children; // 0x48
-        public bool enableRagdollFlag; // 0x50
-        public ngVisibilityRadius animatorUpdateMode; // 0x54
-        public dius.ÌÌÎÍÏÏ[] allIKComponents; // 0x58
-        public bool[] fixTransforms; // 0x60
-        public float ragdollWeight; // 0x68
-        public float ragdollWeightV; // 0x6C
-        public bool fixedFrame; // 0x70
-        public bool[] disabledIKComponents; // 0x78
+        public object isRagdoll;
+        public object ikUsed;
 
         // ── Methods ──
         public void EnableRagdoll(){} // RVA: 0x7FFD4E4A2280
@@ -1929,29 +1321,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Recoil : OffsetModifier
     {
-        public dius.creaseSpeed isFinished; // 0x38
-        public bool primaryHandEffector; // 0x40
-        public ld secondaryHandEffector; // 0x44
-        public bool primaryHand; // 0x48
-        public ÍÎÌÍÍÌÌÎÏÏ secondaryHand; // 0x50
-        public float magnitudeRandom; // 0x58
-        public amut rotationRandom; // 0x5C
-        public amut handRotationOffset; // 0x68
-        public float blendTime; // 0x74
-        public essHandOrientations[] offsets; // 0x78
-        public R_12x12 rotationOffset; // 0x80
-        public float magnitudeMlp; // 0x90
-        public float endTime; // 0x94
-        public R_12x12 handRotation; // 0x98
-        public R_12x12 secondaryHandRelativeRotation; // 0xA8
-        public R_12x12 randomRotation; // 0xB8
-        public float length; // 0xC8
-        public bool initiated; // 0xCC
-        public float blendWeight; // 0xD0
-        public float w; // 0xD4
-        public R_12x12 primaryHandRotation; // 0xD8
-        public bool handRotationsSet; // 0xE8
-        public amut aimIKAxis; // 0xEC
+        public object isFinished;
+        public object primaryHandEffector;
+        public object secondaryHandEffector;
+        public object primaryHand;
+        public object secondaryHand;
 
         // ── Methods ──
         public void get_isFinished(){} // RVA: 0x7FFD4E4B6B60
@@ -1970,12 +1344,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimit : MonoBehaviour
     {
-        public amut secondaryAxis; // 0x20
-        public R_12x12 crossAxis; // 0x2C
-        public bool defaultLocalRotationOverride; // 0x3C
-        public bool initiated; // 0x3D
-        public bool applicationQuit; // 0x3E
-        public bool defaultLocalRotationSet; // 0x3F
+        public object secondaryAxis;
+        public object crossAxis;
+        public object defaultLocalRotationOverride;
 
         // ── Methods ──
         public void SetDefaultLocalRotation(){} // RVA: 0x7FFD4E4A5E10 | overloaded x2
@@ -1998,9 +1369,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitAngle : RotationLimit
     {
-        public float limit; // 0x40
-        public float twistLimit; // 0x44
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -2013,13 +1381,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitHinge : RotationLimit
     {
-        public bool useLimits; // 0x40
-        public float min; // 0x44
-        public float max; // 0x48
-        public float zeroAxisDisplayOffset; // 0x4C
-        public R_12x12 lastRotation; // 0x50
-        public float lastAngle; // 0x60
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -2032,12 +1393,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitPolygonal : RotationLimit
     {
-        public float twistLimit; // 0x40
-        public int smoothIterations; // 0x44
-        public uped[] points; // 0x48
-        public amut[] P; // 0x50
-        public tationAngle[] reachCones; // 0x58
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -2059,9 +1414,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitSpline : RotationLimit
     {
-        public float twistLimit; // 0x40
-        public ÍÎÌÍÍÌÌÎÏÏ spline; // 0x48
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -2075,11 +1427,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ShoulderRotator : MonoBehaviour
     {
-        public float weight; // 0x20
-        public float offset; // 0x24
-        public dius.sions ik; // 0x28
-        public bool skip; // 0x30
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4B9490
         public void RotateShoulders(){} // RVA: 0x7FFD4E4B9660
@@ -2091,8 +1438,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class TrigonometricIK : IK
     {
-        public dius.ield solver; // 0x40
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -2104,18 +1449,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class TwistRelaxer : MonoBehaviour
     {
-        public dius.ÌÌÎÍÏÏ ik; // 0x20
-        public object parent; // 0x28
-        public object child; // 0x30
-        public float weight; // 0x38
-        public float parentChildCrossfade; // 0x3C
-        public float twistAngleOffset; // 0x40
-        public amut twistAxis; // 0x44
-        public amut axis; // 0x50
-        public amut axisRelativeToParentDefault; // 0x5C
-        public amut axisRelativeToChildDefault; // 0x68
-        public bool _inited; // 0x74
-
         // ── Methods ──
         public void Relax(){} // RVA: 0x7FFD4E48EA40
         public void Init(){} // RVA: 0x7FFD4E48FBA0
@@ -2128,10 +1461,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class VRIK : IK
     {
-        public otation references; // 0x40
-        public dius._BackingField solver; // 0x48
-        public bool _isVRCAvatarMainIK; // 0x50
-
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -2157,11 +1486,6 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class VRIKLODController : MonoBehaviour
     {
-        public rical LODRenderer; // 0x20
-        public float LODDistance; // 0x28
-        public bool allowCulled; // 0x2C
-        public dius.ht ik; // 0x30
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4BFCA0
         public void Update(){} // RVA: 0x7FFD4E4BFD30
@@ -2171,11 +1495,7 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class VRIKRootController : MonoBehaviour
     {
-        public amut pelvisTargetRight; // 0x20
-        public object pelvisTarget; // 0x30
-        public object leftFootTarget; // 0x38
-        public object rightFootTarget; // 0x40
-        public dius.ht ik; // 0x48
+        public object pelvisTargetRight;
 
         // ── Methods ──
         public void get_pelvisTargetRight(){} // RVA: 0x7FFD4E3A7EE0

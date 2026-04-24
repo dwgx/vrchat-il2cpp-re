@@ -7,12 +7,9 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 {
     public class Cache`1 : Object
     {
-        public sageKind.ceJapaneseEraYearRanges MaxCacheSize;
-        public bool IsFree;
-        public object[] VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.Value;
-        public bool isFree;
-        public int maxCacheSize;
-        public T1717698288 Value;
+        public object MaxCacheSize;
+        public object IsFree;
+        public object VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.Value;
 
         // ── Methods ──
         public void get_MaxCacheSize(){} // RVA: 0x7FFD4E079990
@@ -30,7 +27,7 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class DoubleLookupDictionary`3 : Dictionary`2
     {
-        public URA.hEraNames<T1717698320> Item;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30 | overloaded x2
@@ -46,7 +43,7 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class EmitUtilities : Object
     {
-        public m.ormation CanEmit;
+        public m.WmiGuidObject CanEmit;
 
         // ── Methods ──
         public void get_CanEmit(){} // RVA: 0x7FFD4E341320
@@ -76,8 +73,6 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class FastTypeComparer : Object
     {
-        public yNumberHandling.ecimal Instance;
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD5545A270
         public void GetHashCode(){} // RVA: 0x7FFD4E5C13D0
@@ -94,21 +89,6 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class Flags : Object
     {
-        public m.unt AnyVisibility;
-        public m.unt InstancePublic;
-        public m.unt InstancePrivate;
-        public m.unt InstanceAnyVisibility;
-        public m.unt StaticPublic;
-        public m.unt StaticPrivate;
-        public m.unt StaticAnyVisibility;
-        public m.unt InstancePublicDeclaredOnly;
-        public m.unt InstancePrivateDeclaredOnly;
-        public m.unt InstanceAnyDeclaredOnly;
-        public m.unt StaticPublicDeclaredOnly;
-        public m.unt StaticPrivateDeclaredOnly;
-        public m.unt StaticAnyDeclaredOnly;
-        public m.unt StaticInstanceAnyVisibility;
-        public m.unt AllMembers;
     }
 
     public class GarbageFreeIterators : Object
@@ -147,7 +127,14 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList : Object
     {
-        public mePatterns.eseCalendarDTFI Count; // 0x10
+        public object Count;
+        public object IsFixedSize;
+        public object IsReadOnly;
+        public object IsSynchronized;
+        public object SyncRoot;
+        public object System.Collections.IList.Item;
+        public object System.Collections.Generic.IList<System.Object>.Item;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5545A380
@@ -181,7 +168,15 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList`1 : Object
     {
-        public URA.?<T1717699344> Count;
+        public object Count;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object System.Collections.IList.IsFixedSize;
+        public object System.Collections.IList.IsReadOnly;
+        public object IsReadOnly;
+        public object System.Collections.IList.Item;
+        public object System.Collections.Generic.IList<T>.Item;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -218,7 +213,15 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList`2 : Object
     {
-        public T1717699360 Count;
+        public object Count;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object System.Collections.IList.IsFixedSize;
+        public object System.Collections.IList.IsReadOnly;
+        public object IsReadOnly;
+        public object System.Collections.IList.Item;
+        public object System.Collections.Generic.IList<TElement>.Item;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -262,9 +265,15 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasFieldInfo : FieldInfo
     {
-        public string AliasedField;
-        public m.WmiGuidObject Module; // 0x10
-        public string MetadataToken; // 0x18
+        public object AliasedField;
+        public object Module;
+        public object MetadataToken;
+        public object Name;
+        public object DeclaringType;
+        public object ReflectedType;
+        public object FieldType;
+        public object FieldHandle;
+        public object Attributes;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5545B1E0 | overloaded x2
@@ -285,9 +294,14 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasMethodInfo : MethodInfo
     {
-        public string AliasedMethod;
-        public m.jectMapInfo ReturnTypeCustomAttributes; // 0x10
-        public string MethodHandle; // 0x18
+        public object AliasedMethod;
+        public object ReturnTypeCustomAttributes;
+        public object MethodHandle;
+        public object Attributes;
+        public object ReturnType;
+        public object DeclaringType;
+        public object Name;
+        public object ReflectedType;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5545B1E0 | overloaded x2
@@ -309,9 +323,16 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasPropertyInfo : PropertyInfo
     {
-        public string AliasedProperty;
-        public m.ber Module; // 0x10
-        public string MetadataToken; // 0x18
+        public object AliasedProperty;
+        public object Module;
+        public object MetadataToken;
+        public object Name;
+        public object DeclaringType;
+        public object ReflectedType;
+        public object PropertyType;
+        public object Attributes;
+        public object CanRead;
+        public object CanWrite;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5545B1E0 | overloaded x2
@@ -373,8 +394,6 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ReferenceEqualityComparer`1 : Object
     {
-        public yNumberHandling.medFloat<T1717699392> Default;
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E2ADC40
         public void GetHashCode(){} // RVA: 0x7FFD4E2ADC40
@@ -391,31 +410,6 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class TypeExtensions : Object
     {
-        public nalInformation<float,float,bool> FloatEqualityComparerFunc;
-        public nalInformation<double,double,bool> DoubleEqualityComparerFunc; // 0x8
-        public nalInformation<R_12x12,R_12x12,bool> QuaternionEqualityComparerFunc; // 0x10
-        public object GenericConstraintsSatisfaction_LOCK; // 0x18
-        public URA.DateTime<?,?> GenericConstraintsSatisfactionInferredParameters; // 0x20
-        public URA.DateTime<?,?> GenericConstraintsSatisfactionResolvedMap; // 0x28
-        public URA.onsDepth<?> GenericConstraintsSatisfactionProcessedParams; // 0x30
-        public URA.onsDepth<?> GenericConstraintsSatisfactionTypesToCheck; // 0x38
-        public URA.woDigitYearMax<?> GenericConstraintsSatisfactionTypesToCheck_ToAdd; // 0x40
-        public object GenericListInterface; // 0x48
-        public object GenericCollectionInterface; // 0x50
-        public object WeaklyTypedTypeCastDelegates_LOCK; // 0x58
-        public object StronglyTypedTypeCastDelegates_LOCK; // 0x60
-        public yNumberHandling.ay<?,?,n<object,object>> WeaklyTypedTypeCastDelegates; // 0x68
-        public yNumberHandling.ay<?,?,formation> StronglyTypedTypeCastDelegates; // 0x70
-        public ?[] TwoLengthTypeArray_Cached; // 0x78
-        public URA.leEastFrench<?> GenericArgumentsContainsTypes_ArgsToCheckCached; // 0x80
-        public URA.onsDepth<string> ReservedCSharpKeywords; // 0x88
-        public URA.DateTime<string,string> TypeNameAlternatives; // 0x90
-        public object CachedNiceNames_LOCK; // 0x98
-        public URA.DateTime<?,string> CachedNiceNames; // 0xA0
-        public object VoidPointerType; // 0xA8
-        public URA.DateTime<?,URA.onsDepth<?>> PrimitiveImplicitCasts; // 0xB0
-        public URA.onsDepth<?> ExplicitCastIntegrals; // 0xB8
-
         // ── Methods ──
         public void GetCachedNiceName(){} // RVA: 0x7FFD5544AAF0
         public void CreateNiceName(){} // RVA: 0x7FFD5544AD80
@@ -475,8 +469,6 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class UnityExtensions : Object
     {
-        public yNumberHandling.et_NodesArray<?,UIntPtr> UnityObjectCachedPtrFieldGetter;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55458720
         public void SafeIsUnityNull(){} // RVA: 0x7FFD554588E0
@@ -484,9 +476,6 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class UnityVersion : Object
     {
-        public int Major;
-        public int Minor; // 0x4
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5545B6B0
         public void EnsureLoaded(){} // RVA: 0x7FFD4E341310

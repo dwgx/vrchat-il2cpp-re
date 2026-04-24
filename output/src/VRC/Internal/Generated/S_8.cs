@@ -1082,6 +1082,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÍÏÍÌÍÏÎÌÍÏÍÌÎÏÏÎÍÎÌÍÌÍÏ</summary>
     public class Static9m_02CD : Object
     {
+        public object ÌÏÌÏÌÎÎÏÍÌÍÎÏÎÎÍÎÌÏÎÏÏÏ; // 0x20
+        public object ÍÏÍÎÍÎÎÌÎÏÎÌÎÌÌÏÍÎÌÏÎÏÏ; // 0x28
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E9264C0
         public void Equals(){} // RVA: 0x7FFD4E9268D0

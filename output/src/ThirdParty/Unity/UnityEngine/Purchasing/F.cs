@@ -44,11 +44,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class FakeStore : JSONStore
     {
-        public ra.__0 unavailableProductId; // 0x48
-        public URA.woDigitYearMax<string> m_PurchasedProducts; // 0x50
-        public bool purchaseCalled; // 0x58
-        public string <unavailableProductId>k__BackingField; // 0x60
-        public ing.? UIMode; // 0x68
+        public object unavailableProductId;
 
         // ── Methods ──
         public void get_unavailableProductId(){} // RVA: 0x7FFD4E3DF370

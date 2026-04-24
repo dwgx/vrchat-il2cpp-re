@@ -5,16 +5,13 @@
 
 public class CustomBlendable : ValueType
 {
-    public object m_Custom; // 0x10
-    public float m_Weight; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFCF7D0
 }
 
 public class CustomDataModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -42,7 +39,7 @@ public class CustomDataModule : ValueType
 
 public class CustomEmojiParticleSystemList : ScriptableObject
 {
-    public ÌÍÏÎÌÍÎ[] Count; // 0x18
+    public object Count;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4F7DA6F0

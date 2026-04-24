@@ -132,6 +132,13 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ILegacyUnityAnalytics
     {
+        public ausedTweens.r _mediaPlayer; // 0x20
+        public ePathName117.? _text; // 0x28
+        public ePathName117.ÎÌÍÍÎÏÌ _backgroundImage; // 0x30
+        public int _backgroundHorizontalPadding; // 0x38
+        public int _backgroundVerticalPadding; // 0x3C
+        public int _maxCharacters; // 0x40
+
         // ── Methods ──
         public void SendTransactionEvent(){}
         public void SendCustomEvent(){} // RVA: 0x7FFD4E099B30

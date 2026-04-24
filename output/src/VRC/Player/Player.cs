@@ -183,7 +183,29 @@ namespace VRC.Player
     /// <summary>Originally: ÌÌÎÌÏÌÎÌÏÍÌÏÏÏÌÍÌÎÌÎÍÏÍ</summary>
     public class PlayerIsInteractivePickupUseDown_C325 : VRCInteractable
     {
-        public object _isInteractive;
+        public 16 _isInteractive; // 0x20
+        public ÏÌÎÎ ÌÏÌÌÌÏÍÍÎÍÌÍÎÏÌÍÍÍÍÎÎÍÍ; // 0x28
+        public object ÎÌÌÏÌÏÌÏÍÎÏÏÎÎÌÏÎÍÌÍÏÏÍ; // 0x2C
+        public bool ÍÎÏÌÏÌÌÏÏÏÏÍÏÏÍÎÎÏÌÌÎÎÎ; // 0x30
+        public bool ÍÎÍÌÏÍÍÌÏÎÎÍÌÍÏÏÎÌÏÍÌÎÍ; // 0x31
+        public bool ÎÍÍÌÎÍÌÏÏÏÎÏÎÏÏÍÎÍÏÎÎÌÍ;
+        public bool ÌÌÏÏÌÏÌÌÍÍÎÏÍÌÍÍÎÎÏÌÍÎÎ; // 0x1
+        public float ÍÎÎÎÍÍÏÏÍÏÍÏÏÎÍÍÎÏÌÏÏÏÌ; // 0x4
+        public float ÏÍÍÌÎÍÏÌÌÌÎÌÏÍÎÎÍÏÏÏÍÏÎ; // 0x8
+        public float ÏÍÍÌÌÎÍÍÍÍÏÍÌÎÎÌÎÍÌÎÌÌÌ; // 0xC
+        public ÏÏÏÌÍÏÏÎÏÍÌÌÌÌÌÍÎÍÍÌ ÏÎÎÎÎÌÍÏÍÌÎÍÍÍÎÌÌÏÏÎÍÏÎ; // 0x38
+        public ÏÏÏÌÍÏÏÎÏÍÌÌÌÌÌÍÎÍÍÌ ÍÍÌÏÍÎÎÌÏÏÌÎÏÌÏÎÏÎÍÎÌÎÍ; // 0x40
+        public ÏÏÏÌÍÏÏÎÏÍÌÌÌÌÌÍÎÍÍÌ ÏÌÏÏÍÌÏÏÍÌÎÍÎÎÌÍÌÍÌÍÎÍÏ; // 0x48
+        public ÏÏÏÌÍÏÏÎÏÍÌÌÌÌÌÍÎÍÍÌ ÌÌÏÎÏÎÏÌÏÏÌÏÍÏÎÎÍÏÎÎÎÍÎ; // 0x50
+        public bool ÏÌÏÍÍÎÏÌÏÏÏÌÍÍÎÌÍÏÏÍÍÎÌ; // 0x58
+        public bool ÌÍÍÍÌÏÍÌÏÍÎÏÏÎÌÎÌÍÍÌÍÍÎ; // 0x59
+        public bool ÎÎÎÍÍÍÎÏÌÏÎÎÏÍÎÏÎÏÌÌÍÏÎ; // 0x5A
+        public amut ÏÍÍÌÍÍÍÌÎÌÏÏÌÍÎÌÌÍÏÌÏÍÎ; // 0x5C
+        public tionX ÍÌÎÍÎÌÏÏÌÎÌÌÍÎÎÍÍÏÌÏÍÏÍ; // 0x68
+        public amut ÎÏÎÍÌÏÌÌÏÎÌÌÏÍÌÍÌÎÍÏÍÏÎ; // 0x70
+        public bool ÌÍÌÍÍÏÍÏÍÍÌÍÌÌÍÍÌÍÍÍÏÌÏ; // 0x7C
+        public sa20Engine ÌÏÏÌÌÏÍÌÌÎÍÍÎÌÏÎÌÏÍÎÌÎÎ; // 0x80
+        public ÏÏÏÌÍÏÏÎÏÍÌÌÌÌÌÍÎÍÍÌ ÌÎÎÎÏÎÍÌÎÌÍÌÍÎÌÍÍÌÏÏÎÏÏ; // 0x88
 
         // ── Methods ──
         public void OnPickupUseDown(){} // RVA: 0x7FFD4E788150
@@ -599,59 +621,14 @@ namespace VRC.Player
     /// <summary>Originally: ÌÍÌÌÍÌÍÍÍÍÌÍÏÌÏÎÌÎÍÎÎÌÌ</summary>
     public class PlayerNet : NetworkReadyHandler_68D0
     {
-        public object _typeId;
-        public object f_E94;
-        public object f_DEA;
-        public object f_BC1;
-        public object f_DA7;
-        public object f_45B;
-        public object f_673;
-        public object f_DD3;
-        public object f_C13;
-        public object f_C0D;
-        public object f_C75;
-        public object f_5E4;
-        public object f_B9E;
-        public object f_427;
-        public object f_8C5;
-        public object f_665;
-        public object f_4B7;
-        public object f_A6A;
-        public object f_F8E;
-        public object f_9DD;
-        public object f_14B;
-        public object f_BE5;
-        public object f_AC1;
-        public object f_C9D;
-        public object f_5EF;
-        public object f_128;
-        public object f_110;
-        public object f_774;
-        public object f_1A6;
-        public object f_7C9;
-        public object f_4BE;
-        public object f_7E0;
-        public object f_F61;
-        public object f_2CD;
-        public object f_8F8;
-        public object f_C98;
-        public object f_E80;
-        public object f_CC2;
-        public object f_96B;
-        public object f_929;
-        public object f_0C0;
-        public object f_09B;
-        public object f_BBA;
-        public object f_DEE;
-        public object f_F8C;
-        public object f_A27;
-        public object f_8B0;
-        public object f_F4E;
-        public object f_3AA;
-        public object f_78D;
-        public object f_FD9;
-        public object f_3DB;
-        public object f_990;
+        public ormation<object> _typeId;
+        public formation<string,string,object> f_E94; // 0x8
+        public bool f_DEA; // 0x20
+        public stfix f_BC1; // 0x28
+        public usInEvent>b__10_0 f_DA7; // 0x30
+        public bool f_45B; // 0x38
+        public bool f_673; // 0x39
+        public bool f_DD3; // 0x3A
 
         // ── Methods ──
         public void OnTriggerExit(){} // RVA: 0x7FFD4EA5CF50

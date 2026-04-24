@@ -7,12 +7,6 @@ namespace VRC.SDK.Events
 {
     public class VRCRemoteString : VRCCustomAction
     {
-        public ellSize.t[] urls; // 0x20
-        public er.Order[] behaviours; // 0x28
-        public string[] variables; // 0x30
-        public bool ÌÌÎÎÏÏÍÏÍÏÍÏÌÍÌÌÌÍÍÌÏÏÎ; // 0x38
-        public float ÌÎÎÏÎÎÎÎÏÏÌÎÌÏÌÎÏÎÍÏÍÍÌ;
-
         // ── Methods ──
         public void Execute(){} // RVA: 0x7FFD4FAD75B0
         public void ProcessRemoteStringVariables(){} // RVA: 0x7FFD4FAD76C0
