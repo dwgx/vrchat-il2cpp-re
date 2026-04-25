@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate VRChat source-tree-style C# files from deobfuscated dump.
+Generate source-tree-style C# files from deobfuscated dump.
 Organizes classes into domain-based folder/namespace structure.
 
 Output: il2cpp_full_dump/src/
@@ -256,7 +256,7 @@ def write_cs_file(filepath: Path, namespace: str, classes: list[dict]):
     filepath.parent.mkdir(parents=True, exist_ok=True)
 
     lines = []
-    lines.append(f'// VRChat IL2CPP Deobfuscated Source')
+    lines.append(f'// IL2CPP Deobfuscated Source')
     lines.append(f'// Namespace: {namespace}')
     lines.append(f'// Classes: {len(classes)}')
     lines.append(f'// Methods: {sum(len(c.get("methods",[])) for c in classes)}')
@@ -466,7 +466,7 @@ def main():
     # Step 3: Generate index file
     index_path = OUTPUT_DIR / 'INDEX.md'
     with open(index_path, 'w', encoding='utf-8') as f:
-        f.write('# VRChat IL2CPP Deobfuscated Source Tree\n\n')
+        f.write('# IL2CPP Deobfuscated Source Tree\n\n')
         f.write(f'Total: {total_written} classes in {file_count} files\n\n')
         f.write('## Domain Structure\n\n')
         f.write('| Domain | Classes | Methods | Files |\n')

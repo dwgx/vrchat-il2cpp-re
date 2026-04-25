@@ -1,7 +1,0 @@
-MCP issues detected. Run /mcp list for status.```json
-{
-  "BaseClass136Impl_6CFA::m_F76": "UnboxThunkF76",
-  "BaseClass136Impl_6CFA::m_BC2": "UnboxThunkBC2",
-  "BaseClass136Impl_6CFA::m_B24": "EnsureInitAndCall"
-}
-```

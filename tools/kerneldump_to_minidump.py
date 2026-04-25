@@ -32,9 +32,9 @@ from typing import Iterable
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_KERNEL_DUMP = Path(r"C:\Windows\MEMORY.DMP")
-DEFAULT_OUTPUT = ROOT / "tools" / "VRChat_kernel_full.dmp"
+DEFAULT_OUTPUT = ROOT / "tools" / "process_kernel.dmp"
 DEFAULT_WORKDIR = ROOT / "tools" / "kernel_minidump_work"
-DEFAULT_PROCESS_NAME = "VRChat.exe"
+DEFAULT_PROCESS_NAME = "target.exe"
 USER_VA_LIMIT = 0x0000800000000000
 MDMP_SIGNATURE = 0x504D444D  # "MDMP" little-endian
 MDMP_VERSION = 0x0000A793
