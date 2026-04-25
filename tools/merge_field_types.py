@@ -156,7 +156,7 @@ def generate_cs(dump: dict):
     print('  Generating deobfuscated_dump.cs with type annotations ...')
 
     lines = []
-    lines.append('// VRChat IL2CPP Deobfuscated Dump (with field types)')
+    lines.append('// IL2CPP Deobfuscated Dump (with field types)')
     lines.append(f'// Generated: {time.strftime("%Y-%m-%d %H:%M:%S")}')
     lines.append(f'// Source: deobfuscated_dump.json + field_types.json merge')
     lines.append('')
