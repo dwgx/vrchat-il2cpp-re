@@ -8,7 +8,7 @@ namespace VRC.Inventory
     public class InventoryEffectDescription : InventoryEffectDescription
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4EECC310
+        public void .ctor(){} // RVA: 0x7FFAC3AAC310
     }
 
 }

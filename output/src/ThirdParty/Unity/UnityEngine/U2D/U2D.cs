@@ -8,7 +8,7 @@ namespace ThirdParty.Unity.UnityEngine.U2D
     public class SpriteAtlas : Object
     {
         // ── Methods ──
-        public void CanBindTo(){} // RVA: 0x7FFD54CFB1C0
+        public void CanBindTo(){} // RVA: 0x7FFAC98DB1C0
     }
 
     public class SpriteAtlasManager : Object
@@ -17,11 +17,11 @@ namespace ThirdParty.Unity.UnityEngine.U2D
         public System.Action`1<UnityEngine.U2D.SpriteAtlas> atlasRegistered; // 0x8
 
         // ── Methods ──
-        public void RequestAtlas(){} // RVA: 0x7FFD54CFADD0
-        public void add_atlasRegistered(){} // RVA: 0x7FFD54CFAE90
-        public void remove_atlasRegistered(){} // RVA: 0x7FFD54CFAFD0
-        public void PostRegisteredAtlas(){} // RVA: 0x7FFD54CFB110
-        public void Register(){} // RVA: 0x7FFD54CFB170
+        public void RequestAtlas(){} // RVA: 0x7FFAC98DADD0
+        public void add_atlasRegistered(){} // RVA: 0x7FFAC98DAE90
+        public void remove_atlasRegistered(){} // RVA: 0x7FFAC98DAFD0
+        public void PostRegisteredAtlas(){} // RVA: 0x7FFAC98DB110
+        public void Register(){} // RVA: 0x7FFAC98DB170
     }
 
     public class SpriteBone : ValueType

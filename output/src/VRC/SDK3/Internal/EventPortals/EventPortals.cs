@@ -11,15 +11,15 @@ namespace VRC.SDK3.Internal.EventPortals
         public System.Func`1<VRC.SDK3.Internal.EventPortals.Interfaces.IEventPortalManager> <Initialize>k__BackingField;
 
         // ── Methods ──
-        public void get_Initialize(){} // RVA: 0x7FFD55291A30
-        public void set_Initialize(){} // RVA: 0x7FFD55291A70
-        public void Start(){} // RVA: 0x7FFD55291B10
-        public void RegisterPortal(){} // RVA: 0x7FFD55291C50 | overloaded x2
-        public void UnregisterPortal(){} // RVA: 0x7FFD55291D00 | overloaded x2
-        public void OnEnable(){} // RVA: 0x7FFD55291D60
-        public void OnDisable(){} // RVA: 0x7FFD55291DB0
-        public void OnDestroy(){} // RVA: 0x7FFD55291E00
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void get_Initialize(){} // RVA: 0x7FFAC9E71A30
+        public void set_Initialize(){} // RVA: 0x7FFAC9E71A70
+        public void Start(){} // RVA: 0x7FFAC9E71B10
+        public void RegisterPortal(){} // RVA: 0x7FFAC9E71C50 | overloaded x2
+        public void UnregisterPortal(){} // RVA: 0x7FFAC9E71D00 | overloaded x2
+        public void OnEnable(){} // RVA: 0x7FFAC9E71D60
+        public void OnDisable(){} // RVA: 0x7FFAC9E71DB0
+        public void OnDestroy(){} // RVA: 0x7FFAC9E71E00
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
 }

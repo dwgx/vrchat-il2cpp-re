@@ -1,160 +1,170 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
-// Classes: 19
-// Methods: 39
+// Classes: 20
+// Methods: 42
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
+    public class CancellationTokenDisposable : Object
+    {
+        public System.Threading.CancellationTokenSource Token; // 0x10
+
+        // ── Methods ──
+        public void get_Token(){} // RVA: 0x7FFAC7DE8BE0
+        public void Dispose(){} // RVA: 0x7FFAC7DE8C00
+        public void .ctor(){} // RVA: 0x7FFAC94BC2E0
+    }
+
     public class Cast`1 : Object
     {
         public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<object> source;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E090A40
+        public void .ctor(){} // RVA: 0x7FFAC2C70A40
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`10 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T7> source7;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T8> source8;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T9> source9;
-        public System.Func`10<U,V,W,T4,T5,T6,T7,T8,T9,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source7;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source8;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source9;
+        public System.Func`10<T,T,T,T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09C330
+        public void .ctor(){} // RVA: 0x7FFAC2C7C330
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`11 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T7> source7;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T8> source8;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T9> source9;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T10> source10;
-        public System.Func`11<U,V,W,T4,T5,T6,T7,T8,T9,T10,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source7;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source8;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source9;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source10;
+        public System.Func`11<T,T,T,T,T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09C510
+        public void .ctor(){} // RVA: 0x7FFAC2C7C510
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`12 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T7> source7;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T8> source8;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T9> source9;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T10> source10;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T11> source11;
-        public System.Func`12<U,V,W,T4,T5,T6,T7,T8,T9,T10,T11,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source7;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source8;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source9;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source10;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source11;
+        public System.Func`12<T,T,T,T,T,T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09C720
+        public void .ctor(){} // RVA: 0x7FFAC2C7C720
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`13 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T7> source7;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T8> source8;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T9> source9;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T10> source10;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T11> source11;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T12> source12;
-        public System.Func`13<U,V,W,T4,T5,T6,T7,T8,T9,T10,T11,T12,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source7;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source8;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source9;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source10;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source11;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source12;
+        public System.Func`13<T,T,T,T,T,T,T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09C940
+        public void .ctor(){} // RVA: 0x7FFAC2C7C940
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`14 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T7> source7;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T8> source8;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T9> source9;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T10> source10;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T11> source11;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T12> source12;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T13> source13;
-        public System.Func`14<U,V,W,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source7;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source8;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source9;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source10;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source11;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source12;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source13;
+        public System.Func`14<T,T,T,T,T,T,T,T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09CB90
+        public void .ctor(){} // RVA: 0x7FFAC2C7CB90
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`15 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T7> source7;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T8> source8;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T9> source9;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T10> source10;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T11> source11;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T12> source12;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T13> source13;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T14> source14;
-        public System.Func`15<U,V,W,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source7;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source8;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source9;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source10;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source11;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source12;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source13;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source14;
+        public System.Func`15<T,T,T,T,T,T,T,T,T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09CE00
+        public void .ctor(){} // RVA: 0x7FFAC2C7CE00
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`16 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T7> source7;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T8> source8;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T9> source9;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T10> source10;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T11> source11;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T12> source12;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T13> source13;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T14> source14;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T15> source15;
-        public System.Func`16<U,V,W,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source7;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source8;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source9;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source10;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source11;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source12;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source13;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source14;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source15;
+        public System.Func`16<T,T,T,T,T,T,T,T,T,T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
         public void .ctor(){}
@@ -168,7 +178,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`3<U,V,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 
@@ -180,7 +190,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`4<U,V,W,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09B8C0
+        public void .ctor(){} // RVA: 0x7FFAC2C7B8C0
         public void GetAsyncEnumerator(){}
     }
 
@@ -193,7 +203,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`5<U,V,W,T4,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09BB70
+        public void .ctor(){} // RVA: 0x7FFAC2C7BB70
         public void GetAsyncEnumerator(){}
     }
 
@@ -207,55 +217,55 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`6<U,V,W,T4,T5,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09BCE0
+        public void .ctor(){} // RVA: 0x7FFAC2C7BCE0
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`7 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public System.Func`7<U,V,W,T4,T5,T6,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public System.Func`7<T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09BF10
+        public void .ctor(){} // RVA: 0x7FFAC2C7BF10
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`8 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T7> source7;
-        public System.Func`8<U,V,W,T4,T5,T6,T7,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source7;
+        public System.Func`8<T,T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09BFF0
+        public void .ctor(){} // RVA: 0x7FFAC2C7BFF0
         public void GetAsyncEnumerator(){}
     }
 
     public class CombineLatest`9 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source1;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> source2;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<W> source3;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T4> source4;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T5> source5;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T6> source6;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T7> source7;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T8> source8;
-        public System.Func`9<U,V,W,T4,T5,T6,T7,T8,T> resultSelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source1;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source2;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source3;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source4;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source5;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source6;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source7;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source8;
+        public System.Func`9<T,T,T,T,T,T,T,T,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09C170
+        public void .ctor(){} // RVA: 0x7FFAC2C7C170
         public void GetAsyncEnumerator(){}
     }
 
@@ -265,22 +275,22 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> second;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E099B30
+        public void .ctor(){} // RVA: 0x7FFAC2C79B30
         public void GetAsyncEnumerator(){}
     }
 
     public class Contains : Object
     {
         // ── Methods ──
-        public void ContainsAsync(){} // RVA: 0x7FFD4E2ADC40
+        public void ContainsAsync(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class Count : Object
     {
         // ── Methods ──
-        public void CountAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void CountAwaitAsync(){} // RVA: 0x7FFD4E2ADC40
-        public void CountAwaitWithCancellationAsync(){} // RVA: 0x7FFD4E2ADC40
+        public void CountAsync(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void CountAwaitAsync(){} // RVA: 0x7FFAC2E8DC40
+        public void CountAwaitWithCancellationAsync(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class Create`1 : Object
@@ -288,7 +298,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`3<Cysharp.Threading.Tasks.Linq.IAsyncWriter`1<T>,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask> create;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E090A40
+        public void .ctor(){} // RVA: 0x7FFAC2C70A40
         public void GetAsyncEnumerator(){}
     }
 

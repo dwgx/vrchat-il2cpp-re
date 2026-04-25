@@ -11,11 +11,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public float maxOrDefault; // 0x14
 
         // ── Methods ──
-        public void get_minOrDefault(){} // RVA: 0x7FFD54AA6E20
-        public void get_maxOrDefault(){} // RVA: 0x7FFD54AA6EA0
-        public void Process(){} // RVA: 0x7FFD54AA6F20
-        public void ToString(){} // RVA: 0x7FFD54AA6FF0
-        public void .ctor(){} // RVA: 0x7FFD54AA70E0
+        public void get_minOrDefault(){} // RVA: 0x7FFAC9686E20
+        public void get_maxOrDefault(){} // RVA: 0x7FFAC9686EA0
+        public void Process(){} // RVA: 0x7FFAC9686F20
+        public void ToString(){} // RVA: 0x7FFAC9686FF0
+        public void .ctor(){} // RVA: 0x7FFAC96870E0
     }
 
     public class ClampProcessor : InputProcessor`1
@@ -24,9 +24,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public float max; // 0x14
 
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA7110
-        public void ToString(){} // RVA: 0x7FFD54AA7130
-        public void .ctor(){} // RVA: 0x7FFD54AA7210
+        public void Process(){} // RVA: 0x7FFAC9687110
+        public void ToString(){} // RVA: 0x7FFAC9687130
+        public void .ctor(){} // RVA: 0x7FFAC9687210
     }
 
     public class CompensateDirectionProcessor : InputProcessor`1
@@ -34,10 +34,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public object cachingPolicy;
 
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA7240
-        public void ToString(){} // RVA: 0x7FFD54AA7680
-        public void get_cachingPolicy(){} // RVA: 0x7FFD4E433AF0
-        public void .ctor(){} // RVA: 0x7FFD54AA76C0
+        public void Process(){} // RVA: 0x7FFAC9687240
+        public void ToString(){} // RVA: 0x7FFAC9687680
+        public void get_cachingPolicy(){} // RVA: 0x7FFAC3013AF0
+        public void .ctor(){} // RVA: 0x7FFAC96876C0
     }
 
     public class CompensateRotationProcessor : InputProcessor`1
@@ -45,18 +45,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public object cachingPolicy;
 
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA76F0
-        public void ToString(){} // RVA: 0x7FFD54AA79B0
-        public void get_cachingPolicy(){} // RVA: 0x7FFD4E433AF0
-        public void .ctor(){} // RVA: 0x7FFD54AA79F0
+        public void Process(){} // RVA: 0x7FFAC96876F0
+        public void ToString(){} // RVA: 0x7FFAC96879B0
+        public void get_cachingPolicy(){} // RVA: 0x7FFAC3013AF0
+        public void .ctor(){} // RVA: 0x7FFAC96879F0
     }
 
     public class InvertProcessor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA7A20
-        public void ToString(){} // RVA: 0x7FFD54AA7A30
-        public void .ctor(){} // RVA: 0x7FFD54AA7A70
+        public void Process(){} // RVA: 0x7FFAC9687A20
+        public void ToString(){} // RVA: 0x7FFAC9687A30
+        public void .ctor(){} // RVA: 0x7FFAC9687A70
     }
 
     public class InvertVector2Processor : InputProcessor`1
@@ -65,9 +65,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public bool invertY; // 0x11
 
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA7AA0
-        public void ToString(){} // RVA: 0x7FFD54AA7B00
-        public void .ctor(){} // RVA: 0x7FFD54AA7BD0
+        public void Process(){} // RVA: 0x7FFAC9687AA0
+        public void ToString(){} // RVA: 0x7FFAC9687B00
+        public void .ctor(){} // RVA: 0x7FFAC9687BD0
     }
 
     public class InvertVector3Processor : InputProcessor`1
@@ -77,9 +77,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public bool invertZ; // 0x12
 
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA7C20
-        public void ToString(){} // RVA: 0x7FFD54AA7C80
-        public void .ctor(){} // RVA: 0x7FFD54AA7D90
+        public void Process(){} // RVA: 0x7FFAC9687C20
+        public void ToString(){} // RVA: 0x7FFAC9687C80
+        public void .ctor(){} // RVA: 0x7FFAC9687D90
     }
 
     public class NormalizeProcessor : InputProcessor`1
@@ -89,27 +89,27 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public float zero; // 0x18
 
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA7DD0
-        public void Normalize(){} // RVA: 0x7FFD54AA7E00
-        public void Denormalize(){} // RVA: 0x7FFD54AA7E90
-        public void ToString(){} // RVA: 0x7FFD54AA7EE0
-        public void .ctor(){} // RVA: 0x7FFD54AA8000
+        public void Process(){} // RVA: 0x7FFAC9687DD0
+        public void Normalize(){} // RVA: 0x7FFAC9687E00
+        public void Denormalize(){} // RVA: 0x7FFAC9687E90
+        public void ToString(){} // RVA: 0x7FFAC9687EE0
+        public void .ctor(){} // RVA: 0x7FFAC9688000
     }
 
     public class NormalizeVector2Processor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA8030
-        public void ToString(){} // RVA: 0x7FFD54AA8050
-        public void .ctor(){} // RVA: 0x7FFD54AA8090
+        public void Process(){} // RVA: 0x7FFAC9688030
+        public void ToString(){} // RVA: 0x7FFAC9688050
+        public void .ctor(){} // RVA: 0x7FFAC9688090
     }
 
     public class NormalizeVector3Processor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA80C0
-        public void ToString(){} // RVA: 0x7FFD54AA80F0
-        public void .ctor(){} // RVA: 0x7FFD54AA8130
+        public void Process(){} // RVA: 0x7FFAC96880C0
+        public void ToString(){} // RVA: 0x7FFAC96880F0
+        public void .ctor(){} // RVA: 0x7FFAC9688130
     }
 
     public class ScaleProcessor : InputProcessor`1
@@ -117,9 +117,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public float factor; // 0x10
 
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA8160
-        public void ToString(){} // RVA: 0x7FFD54AA8170
-        public void .ctor(){} // RVA: 0x7FFD54AA8220
+        public void Process(){} // RVA: 0x7FFAC9688160
+        public void ToString(){} // RVA: 0x7FFAC9688170
+        public void .ctor(){} // RVA: 0x7FFAC9688220
     }
 
     public class ScaleVector2Processor : InputProcessor`1
@@ -128,9 +128,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public float y; // 0x14
 
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA8270
-        public void ToString(){} // RVA: 0x7FFD54AA82A0
-        public void .ctor(){} // RVA: 0x7FFD54AA8380
+        public void Process(){} // RVA: 0x7FFAC9688270
+        public void ToString(){} // RVA: 0x7FFAC96882A0
+        public void .ctor(){} // RVA: 0x7FFAC9688380
     }
 
     public class ScaleVector3Processor : InputProcessor`1
@@ -140,9 +140,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public float z; // 0x18
 
         // ── Methods ──
-        public void Process(){} // RVA: 0x7FFD54AA83E0
-        public void ToString(){} // RVA: 0x7FFD54AA8420
-        public void .ctor(){} // RVA: 0x7FFD54AA8540
+        public void Process(){} // RVA: 0x7FFAC96883E0
+        public void ToString(){} // RVA: 0x7FFAC9688420
+        public void .ctor(){} // RVA: 0x7FFAC9688540
     }
 
     public class StickDeadzoneProcessor : InputProcessor`1
@@ -151,12 +151,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
         public float maxOrDefault; // 0x14
 
         // ── Methods ──
-        public void get_minOrDefault(){} // RVA: 0x7FFD54AA8590
-        public void get_maxOrDefault(){} // RVA: 0x7FFD54AA8610
-        public void Process(){} // RVA: 0x7FFD54AA8690
-        public void GetDeadZoneAdjustedValue(){} // RVA: 0x7FFD54AA87A0
-        public void ToString(){} // RVA: 0x7FFD54AA8870
-        public void .ctor(){} // RVA: 0x7FFD54AA8960
+        public void get_minOrDefault(){} // RVA: 0x7FFAC9688590
+        public void get_maxOrDefault(){} // RVA: 0x7FFAC9688610
+        public void Process(){} // RVA: 0x7FFAC9688690
+        public void GetDeadZoneAdjustedValue(){} // RVA: 0x7FFAC96887A0
+        public void ToString(){} // RVA: 0x7FFAC9688870
+        public void .ctor(){} // RVA: 0x7FFAC9688960
     }
 
 }

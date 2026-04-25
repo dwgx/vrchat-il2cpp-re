@@ -1,10 +1,21 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.LowLevel
-// Classes: 2
-// Methods: 1
+// Classes: 3
+// Methods: 7
 
 namespace ThirdParty.Unity.UnityEngine.LowLevel
 {
+    public class PlayerLoop : Object
+    {
+        // ── Methods ──
+        public void GetCurrentPlayerLoop(){} // RVA: 0x7FFAC98E3630
+        public void SetPlayerLoop(){} // RVA: 0x7FFAC98E36D0
+        public void PlayerLoopSystemToInternal(){} // RVA: 0x7FFAC98E3890
+        public void InternalToPlayerLoopSystem(){} // RVA: 0x7FFAC98E3BB0
+        public void GetCurrentPlayerLoopInternal(){} // RVA: 0x7FFAC98E3FE0
+        public void SetPlayerLoopInternal(){} // RVA: 0x7FFAC98E4030
+    }
+
     public class PlayerLoopSystem : ValueType
     {
         public System.Type type; // 0x10
@@ -14,7 +25,7 @@ namespace ThirdParty.Unity.UnityEngine.LowLevel
         public UIntPtr loopConditionFunction; // 0x30
 
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFD54D03600
+        public void ToString(){} // RVA: 0x7FFAC98E3600
     }
 
     public class PlayerLoopSystemInternal : ValueType

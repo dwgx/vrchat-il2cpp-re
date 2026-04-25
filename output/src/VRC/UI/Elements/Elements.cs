@@ -19,28 +19,28 @@ namespace VRC.UI.Elements
         public UnityEngine.Vector3 <ÎÎÌÌÏÍÏÍÌÌÌÌÌÏÏÍÏÍÏÍÍÌÍ>k__BackingField; // 0x54
 
         // ── Methods ──
-        public void get_MMDimensions(){} // RVA: 0x7FFD55032650
-        public void get_VrPosition(){} // RVA: 0x7FFD5670DD70
-        public void get_MenuPlacementZDepthVR(){} // RVA: 0x7FFD4E345CF0
-        public void op_Implicit(){} // RVA: 0x7FFD5670DD90
-        public void CompareBaseObjects(){} // RVA: 0x7FFD5670DE30
-        public void get_velocity(){} // RVA: 0x7FFD4E3A9480
-        public void GetCachedPtr(){} // RVA: 0x7FFD5670DE40
-        public void set_LastLocalLookRotation(){} // RVA: 0x7FFD5670DE30
-        public void get_LastLocalLookRotation(){} // RVA: 0x7FFD5670DE50
-        public void set_MenuPlacementZDepthVR(){} // RVA: 0x7FFD5670DE70
-        public void get_VrScale(){} // RVA: 0x7FFD53CE6C50
-        public void .ctor(){} // RVA: 0x7FFD5670DEA0
-        public void get_DesktopPosition(){} // RVA: 0x7FFD4E3A9480
-        public void set_LastLocalRotation(){} // RVA: 0x7FFD5670DF80
-        public void get_ScaleContainer(){} // RVA: 0x7FFD4E35C380
-        public void get_LastLocalRotation(){} // RVA: 0x7FFD5670DF90
-        public void Instantiate(){} // RVA: 0x7FFD5670DE50
-        public void set_ScaleContainer(){} // RVA: 0x7FFD5670DFA0
-        public void set_ZDepthMovementSpeedMultiplier(){} // RVA: 0x7FFD5670E040
-        public void Destroy(){} // RVA: 0x7FFD5670E0E0
-        public void Equals(){} // RVA: 0x7FFD5670E180
-        public void get_ZDepthMovementSpeedMultiplier(){} // RVA: 0x7FFD5670E220
+        public void get_MMDimensions(){} // RVA: 0x7FFAC9C12650
+        public void get_VrPosition(){} // RVA: 0x7FFACB2EDD70
+        public void get_MenuPlacementZDepthVR(){} // RVA: 0x7FFAC2F25CF0
+        public void op_Implicit(){} // RVA: 0x7FFACB2EDD90
+        public void CompareBaseObjects(){} // RVA: 0x7FFACB2EDE30
+        public void get_velocity(){} // RVA: 0x7FFAC2F89480
+        public void GetCachedPtr(){} // RVA: 0x7FFACB2EDE40
+        public void set_LastLocalLookRotation(){} // RVA: 0x7FFACB2EDE30
+        public void get_LastLocalLookRotation(){} // RVA: 0x7FFACB2EDE50
+        public void set_MenuPlacementZDepthVR(){} // RVA: 0x7FFACB2EDE70
+        public void get_VrScale(){} // RVA: 0x7FFAC88C6C50
+        public void .ctor(){} // RVA: 0x7FFACB2EDEA0
+        public void get_DesktopPosition(){} // RVA: 0x7FFAC2F89480
+        public void set_LastLocalRotation(){} // RVA: 0x7FFACB2EDF80
+        public void get_ScaleContainer(){} // RVA: 0x7FFAC2F3C380
+        public void get_LastLocalRotation(){} // RVA: 0x7FFACB2EDF90
+        public void Instantiate(){} // RVA: 0x7FFACB2EDE50
+        public void set_ScaleContainer(){} // RVA: 0x7FFACB2EDFA0
+        public void set_ZDepthMovementSpeedMultiplier(){} // RVA: 0x7FFACB2EE040
+        public void Destroy(){} // RVA: 0x7FFACB2EE0E0
+        public void Equals(){} // RVA: 0x7FFACB2EE180
+        public void get_ZDepthMovementSpeedMultiplier(){} // RVA: 0x7FFACB2EE220
     }
 
     public class QuickMenuPlacer : Object
@@ -66,20 +66,20 @@ namespace VRC.UI.Elements
         public float QM_HEIGHT;
 
         // ── Methods ──
-        public void get_IsDataHighConfidence(){} // RVA: 0x7FFD4F223D30
-        public void set_MotionSmoothingEnabled(){} // RVA: 0x7FFD4F2268E0
-        public void get_MotionSmoothingEnabled(){} // RVA: 0x7FFD4F223D30
-        public void op_Implicit(){} // RVA: 0x7FFD56767A60
-        public void .ctor(){} // RVA: 0x7FFD56767B90
-        public void Initialize(){} // RVA: 0x7FFD56767D60
-        public void get_DesktopScale(){} // RVA: 0x7FFD56767E20
-        public void set_DesktopScale(){} // RVA: 0x7FFD4F223D30
-        public void set_IsAttachedToHand(){} // RVA: 0x7FFD567680B0
-        public void get_IsAttachedToHand(){} // RVA: 0x7FFD56768860
-        public void Instantiate(){} // RVA: 0x7FFD56767D60
-        public void Equals(){} // RVA: 0x7FFD56768990
-        public void GetHashCode(){} // RVA: 0x7FFD56767D60
-        public void ToString(){} // RVA: 0x7FFD56768C20
+        public void get_IsDataHighConfidence(){} // RVA: 0x7FFAC3E03D30
+        public void set_MotionSmoothingEnabled(){} // RVA: 0x7FFAC3E068E0
+        public void get_MotionSmoothingEnabled(){} // RVA: 0x7FFAC3E03D30
+        public void op_Implicit(){} // RVA: 0x7FFACB347A60
+        public void .ctor(){} // RVA: 0x7FFACB347B90
+        public void Initialize(){} // RVA: 0x7FFACB347D60
+        public void get_DesktopScale(){} // RVA: 0x7FFACB347E20
+        public void set_DesktopScale(){} // RVA: 0x7FFAC3E03D30
+        public void set_IsAttachedToHand(){} // RVA: 0x7FFACB3480B0
+        public void get_IsAttachedToHand(){} // RVA: 0x7FFACB348860
+        public void Instantiate(){} // RVA: 0x7FFACB347D60
+        public void Equals(){} // RVA: 0x7FFACB348990
+        public void GetHashCode(){} // RVA: 0x7FFACB347D60
+        public void ToString(){} // RVA: 0x7FFACB348C20
     }
 
 }

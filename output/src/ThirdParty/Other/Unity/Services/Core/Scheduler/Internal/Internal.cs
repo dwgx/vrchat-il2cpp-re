@@ -16,10 +16,10 @@ namespace ThirdParty.Other.Unity.Services.Core.Scheduler.Internal
         public long m_NextId; // 0x60
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD54B1D8E0 | overloaded x2
-        public void ExecuteExpiredActions(){} // RVA: 0x7FFD54B1DDE0
-        public void UpdateCurrentPlayerLoopWith(){} // RVA: 0x7FFD54B1E440
-        public void JoinPlayerLoopSystem(){} // RVA: 0x7FFD54B1E510
+        public void .ctor(){} // RVA: 0x7FFAC96FD8E0 | overloaded x2
+        public void ExecuteExpiredActions(){} // RVA: 0x7FFAC96FDDE0
+        public void UpdateCurrentPlayerLoopWith(){} // RVA: 0x7FFAC96FE440
+        public void JoinPlayerLoopSystem(){} // RVA: 0x7FFAC96FE510
     }
 
     public class IActionScheduler
@@ -28,16 +28,16 @@ namespace ThirdParty.Other.Unity.Services.Core.Scheduler.Internal
 
     public class ITimeProvider
     {
-        public <>c<T> Now;
+        public object Now;
 
         // ── Methods ──
-        public void get_Now(){} // RVA: 0x7FFD4E078E90
+        public void get_Now(){} // RVA: 0x7FFAC2C58E90
     }
 
     public class MinimumBinaryHeap : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class MinimumBinaryHeap`1 : MinimumBinaryHeap
@@ -49,23 +49,23 @@ namespace ThirdParty.Other.Unity.Services.Core.Scheduler.Internal
         public int <Count>k__BackingField;
 
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7FFD4E079960
-        public void set_Count(){} // RVA: 0x7FFD4E090ED0
-        public void get_Min(){} // RVA: 0x7FFD4E2ADC40
-        public void .ctor(){} // RVA: 0x7FFD4E097970 | overloaded x2
-        public void Insert(){} // RVA: 0x7FFD4E2ADC40
-        public void IncreaseHeapCapacityWhenFull(){} // RVA: 0x7FFD4E090980
-        public void Remove(){} // RVA: 0x7FFD4E2ADC40
-        public void IndexOf(){} // RVA: 0x7FFD4E2ADC40
-        public void ExtractMin(){} // RVA: 0x7FFD4E2ADC40
-        public void DecreaseHeapCapacityWhenSpare(){} // RVA: 0x7FFD4E090980
-        public void MinHeapify(){} // RVA: 0x7FFD4E090980
-        public void Swap(){} // RVA: 0x7FFD4E090C80
-        public void GetParentIndex(){} // RVA: 0x7FFD4E080110
-        public void GetLeftChildIndex(){} // RVA: 0x7FFD4E080110
-        public void GetRightChildIndex(){} // RVA: 0x7FFD4E080110
-        public void <MinHeapify>g__UpdateSmallestIndex|21_0(){} // RVA: 0x7FFD4E090A40
-        public void <MinHeapify>g__UpdateSmallestIfCandidateIsSmaller|21_1(){} // RVA: 0x7FFD4E092BC0
+        public void get_Count(){} // RVA: 0x7FFAC2C59960
+        public void set_Count(){} // RVA: 0x7FFAC2C70ED0
+        public void get_Min(){} // RVA: 0x7FFAC2E8DC40
+        public void .ctor(){} // RVA: 0x7FFAC2C77970 | overloaded x2
+        public void Insert(){} // RVA: 0x7FFAC2E8DC40
+        public void IncreaseHeapCapacityWhenFull(){} // RVA: 0x7FFAC2C70980
+        public void Remove(){} // RVA: 0x7FFAC2E8DC40
+        public void IndexOf(){} // RVA: 0x7FFAC2E8DC40
+        public void ExtractMin(){} // RVA: 0x7FFAC2E8DC40
+        public void DecreaseHeapCapacityWhenSpare(){} // RVA: 0x7FFAC2C70980
+        public void MinHeapify(){} // RVA: 0x7FFAC2C70980
+        public void Swap(){} // RVA: 0x7FFAC2C70C80
+        public void GetParentIndex(){} // RVA: 0x7FFAC2C60110
+        public void GetLeftChildIndex(){} // RVA: 0x7FFAC2C60110
+        public void GetRightChildIndex(){} // RVA: 0x7FFAC2C60110
+        public void <MinHeapify>g__UpdateSmallestIndex|21_0(){} // RVA: 0x7FFAC2C70A40
+        public void <MinHeapify>g__UpdateSmallestIfCandidateIsSmaller|21_1(){} // RVA: 0x7FFAC2C72BC0
     }
 
     public class ScheduledInvocation : Object
@@ -78,8 +78,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Scheduler.Internal
     public class ScheduledInvocationComparer : Object
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7FFD54B1E7B0
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void Compare(){} // RVA: 0x7FFAC96FE7B0
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class UtcTimeProvider : Object
@@ -87,8 +87,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Scheduler.Internal
         public object Now;
 
         // ── Methods ──
-        public void get_Now(){} // RVA: 0x7FFD54B1E880
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void get_Now(){} // RVA: 0x7FFAC96FE880
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
 }

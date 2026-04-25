@@ -22,7 +22,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public int count;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E097970
+        public void .ctor(){} // RVA: 0x7FFAC2C77970
         public void GetAsyncEnumerator(){}
     }
 

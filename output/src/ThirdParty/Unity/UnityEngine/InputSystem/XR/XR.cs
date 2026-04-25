@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.InputSystem.XR
-// Classes: 12
-// Methods: 146
+// Classes: 16
+// Methods: 149
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 {
@@ -12,12 +12,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
         public UnityEngine.Quaternion rotation; // 0x20
 
         // ── Methods ──
-        public void get_parentBoneIndex(){} // RVA: 0x7FFD4F840210
-        public void set_parentBoneIndex(){} // RVA: 0x7FFD4E78D8B0
-        public void get_position(){} // RVA: 0x7FFD515107C0
-        public void set_position(){} // RVA: 0x7FFD54A58590
-        public void get_rotation(){} // RVA: 0x7FFD4F842E80
-        public void set_rotation(){} // RVA: 0x7FFD4F842E90
+        public void get_parentBoneIndex(){} // RVA: 0x7FFAC4420210
+        public void set_parentBoneIndex(){} // RVA: 0x7FFAC336D8B0
+        public void get_position(){} // RVA: 0x7FFAC60F07C0
+        public void set_position(){} // RVA: 0x7FFAC9638590
+        public void get_rotation(){} // RVA: 0x7FFAC4422E80
+        public void set_rotation(){} // RVA: 0x7FFAC4422E90
     }
 
     public class BoneControl : InputControl`1
@@ -27,16 +27,16 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
         public UnityEngine.InputSystem.Controls.QuaternionControl rotation; // 0x150
 
         // ── Methods ──
-        public void get_parentBoneIndex(){} // RVA: 0x7FFD4E3AC5F0
-        public void set_parentBoneIndex(){} // RVA: 0x7FFD4E3AC600
-        public void get_position(){} // RVA: 0x7FFD4E3AC660
-        public void set_position(){} // RVA: 0x7FFD4E3AC670
-        public void get_rotation(){} // RVA: 0x7FFD4E96DFA0
-        public void set_rotation(){} // RVA: 0x7FFD4EDD99C0
-        public void FinishSetup(){} // RVA: 0x7FFD54A585F0
-        public void ReadUnprocessedValueFromState(){} // RVA: 0x7FFD54A58800
-        public void WriteValueIntoState(){} // RVA: 0x7FFD54A589E0
-        public void .ctor(){} // RVA: 0x7FFD54A58AA0
+        public void get_parentBoneIndex(){} // RVA: 0x7FFAC2F8C5F0
+        public void set_parentBoneIndex(){} // RVA: 0x7FFAC2F8C600
+        public void get_position(){} // RVA: 0x7FFAC2F8C660
+        public void set_position(){} // RVA: 0x7FFAC2F8C670
+        public void get_rotation(){} // RVA: 0x7FFAC354DFA0
+        public void set_rotation(){} // RVA: 0x7FFAC39B99C0
+        public void FinishSetup(){} // RVA: 0x7FFAC96385F0
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x7FFAC9638800
+        public void WriteValueIntoState(){} // RVA: 0x7FFAC96389E0
+        public void .ctor(){} // RVA: 0x7FFAC9638AA0
     }
 
     public class Eyes : ValueType
@@ -50,20 +50,20 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
         public float rightEyeOpenAmount; // 0x58
 
         // ── Methods ──
-        public void get_leftEyePosition(){} // RVA: 0x7FFD5072B520
-        public void set_leftEyePosition(){} // RVA: 0x7FFD5072B6C0
-        public void get_leftEyeRotation(){} // RVA: 0x7FFD54A585A0
-        public void set_leftEyeRotation(){} // RVA: 0x7FFD54A585B0
-        public void get_rightEyePosition(){} // RVA: 0x7FFD54A585C0
-        public void set_rightEyePosition(){} // RVA: 0x7FFD54A585E0
-        public void get_rightEyeRotation(){} // RVA: 0x7FFD4EFEF020
-        public void set_rightEyeRotation(){} // RVA: 0x7FFD4EFEC210
-        public void get_fixationPoint(){} // RVA: 0x7FFD4E3A7F40
-        public void set_fixationPoint(){} // RVA: 0x7FFD4E3A7F60
-        public void get_leftEyeOpenAmount(){} // RVA: 0x7FFD4E349970
-        public void set_leftEyeOpenAmount(){} // RVA: 0x7FFD4E349980
-        public void get_rightEyeOpenAmount(){} // RVA: 0x7FFD4F9E0DE0
-        public void set_rightEyeOpenAmount(){} // RVA: 0x7FFD4F9E0F70
+        public void get_leftEyePosition(){} // RVA: 0x7FFAC530B520
+        public void set_leftEyePosition(){} // RVA: 0x7FFAC530B6C0
+        public void get_leftEyeRotation(){} // RVA: 0x7FFAC96385A0
+        public void set_leftEyeRotation(){} // RVA: 0x7FFAC96385B0
+        public void get_rightEyePosition(){} // RVA: 0x7FFAC96385C0
+        public void set_rightEyePosition(){} // RVA: 0x7FFAC96385E0
+        public void get_rightEyeRotation(){} // RVA: 0x7FFAC3BCF020
+        public void set_rightEyeRotation(){} // RVA: 0x7FFAC3BCC210
+        public void get_fixationPoint(){} // RVA: 0x7FFAC2F87F40
+        public void set_fixationPoint(){} // RVA: 0x7FFAC2F87F60
+        public void get_leftEyeOpenAmount(){} // RVA: 0x7FFAC2F29970
+        public void set_leftEyeOpenAmount(){} // RVA: 0x7FFAC2F29980
+        public void get_rightEyeOpenAmount(){} // RVA: 0x7FFAC45C0DE0
+        public void set_rightEyeOpenAmount(){} // RVA: 0x7FFAC45C0F70
     }
 
     public class EyesControl : InputControl`1
@@ -77,24 +77,24 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
         public UnityEngine.InputSystem.Controls.AxisControl rightEyeOpenAmount; // 0x1C8
 
         // ── Methods ──
-        public void get_leftEyePosition(){} // RVA: 0x7FFD4E961C80
-        public void set_leftEyePosition(){} // RVA: 0x7FFD4EDE8ED0
-        public void get_leftEyeRotation(){} // RVA: 0x7FFD4E96E2E0
-        public void set_leftEyeRotation(){} // RVA: 0x7FFD4EDC8AF0
-        public void get_rightEyePosition(){} // RVA: 0x7FFD4E968F80
-        public void set_rightEyePosition(){} // RVA: 0x7FFD4EDD4D10
-        public void get_rightEyeRotation(){} // RVA: 0x7FFD4E969F30
-        public void set_rightEyeRotation(){} // RVA: 0x7FFD4EDC7790
-        public void get_fixationPoint(){} // RVA: 0x7FFD4E964330
-        public void set_fixationPoint(){} // RVA: 0x7FFD4EDCC050
-        public void get_leftEyeOpenAmount(){} // RVA: 0x7FFD4E9622B0
-        public void set_leftEyeOpenAmount(){} // RVA: 0x7FFD4EDCD110
-        public void get_rightEyeOpenAmount(){} // RVA: 0x7FFD4EDECB10
-        public void set_rightEyeOpenAmount(){} // RVA: 0x7FFD4EDEF3F0
-        public void FinishSetup(){} // RVA: 0x7FFD54A58B20
-        public void ReadUnprocessedValueFromState(){} // RVA: 0x7FFD54A58F30
-        public void WriteValueIntoState(){} // RVA: 0x7FFD54A59320
-        public void .ctor(){} // RVA: 0x7FFD54A594C0
+        public void get_leftEyePosition(){} // RVA: 0x7FFAC3541C80
+        public void set_leftEyePosition(){} // RVA: 0x7FFAC39C8ED0
+        public void get_leftEyeRotation(){} // RVA: 0x7FFAC354E2E0
+        public void set_leftEyeRotation(){} // RVA: 0x7FFAC39A8AF0
+        public void get_rightEyePosition(){} // RVA: 0x7FFAC3548F80
+        public void set_rightEyePosition(){} // RVA: 0x7FFAC39B4D10
+        public void get_rightEyeRotation(){} // RVA: 0x7FFAC3549F30
+        public void set_rightEyeRotation(){} // RVA: 0x7FFAC39A7790
+        public void get_fixationPoint(){} // RVA: 0x7FFAC3544330
+        public void set_fixationPoint(){} // RVA: 0x7FFAC39AC050
+        public void get_leftEyeOpenAmount(){} // RVA: 0x7FFAC35422B0
+        public void set_leftEyeOpenAmount(){} // RVA: 0x7FFAC39AD110
+        public void get_rightEyeOpenAmount(){} // RVA: 0x7FFAC39CCB10
+        public void set_rightEyeOpenAmount(){} // RVA: 0x7FFAC39CF3F0
+        public void FinishSetup(){} // RVA: 0x7FFAC9638B20
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x7FFAC9638F30
+        public void WriteValueIntoState(){} // RVA: 0x7FFAC9639320
+        public void .ctor(){} // RVA: 0x7FFAC96394C0
     }
 
     public class PoseControl : InputControl`1
@@ -107,23 +107,23 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
         public UnityEngine.InputSystem.Controls.Vector3Control angularVelocity; // 0x1A0
 
         // ── Methods ──
-        public void get_isTracked(){} // RVA: 0x7FFD4E78D860
-        public void set_isTracked(){} // RVA: 0x7FFD4EDEA130
-        public void get_trackingState(){} // RVA: 0x7FFD4E96B1B0
-        public void set_trackingState(){} // RVA: 0x7FFD4E923070
-        public void get_position(){} // RVA: 0x7FFD4E9610C0
-        public void set_position(){} // RVA: 0x7FFD4E923010
-        public void get_rotation(){} // RVA: 0x7FFD4E960F60
-        public void set_rotation(){} // RVA: 0x7FFD4EDCB1D0
-        public void get_velocity(){} // RVA: 0x7FFD4E961C80
-        public void set_velocity(){} // RVA: 0x7FFD4EDE8ED0
-        public void get_angularVelocity(){} // RVA: 0x7FFD4E96E2E0
-        public void set_angularVelocity(){} // RVA: 0x7FFD4EDC8AF0
-        public void .ctor(){} // RVA: 0x7FFD54A52650
-        public void FinishSetup(){} // RVA: 0x7FFD54A52740
-        public void ReadUnprocessedValueFromState(){} // RVA: 0x7FFD54A52AE0
-        public void WriteValueIntoState(){} // RVA: 0x7FFD54A52D90
-        public void CalculateOptimizedControlDataType(){} // RVA: 0x7FFD54A52FC0
+        public void get_isTracked(){} // RVA: 0x7FFAC336D860
+        public void set_isTracked(){} // RVA: 0x7FFAC39CA130
+        public void get_trackingState(){} // RVA: 0x7FFAC354B1B0
+        public void set_trackingState(){} // RVA: 0x7FFAC3503070
+        public void get_position(){} // RVA: 0x7FFAC35410C0
+        public void set_position(){} // RVA: 0x7FFAC3503010
+        public void get_rotation(){} // RVA: 0x7FFAC3540F60
+        public void set_rotation(){} // RVA: 0x7FFAC39AB1D0
+        public void get_velocity(){} // RVA: 0x7FFAC3541C80
+        public void set_velocity(){} // RVA: 0x7FFAC39C8ED0
+        public void get_angularVelocity(){} // RVA: 0x7FFAC354E2E0
+        public void set_angularVelocity(){} // RVA: 0x7FFAC39A8AF0
+        public void .ctor(){} // RVA: 0x7FFAC9632650
+        public void FinishSetup(){} // RVA: 0x7FFAC9632740
+        public void ReadUnprocessedValueFromState(){} // RVA: 0x7FFAC9632AE0
+        public void WriteValueIntoState(){} // RVA: 0x7FFAC9632D90
+        public void CalculateOptimizedControlDataType(){} // RVA: 0x7FFAC9632FC0
     }
 
     public class PoseState : ValueType
@@ -131,29 +131,29 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
         public int format;
         public UnityEngine.InputSystem.Utilities.FourCC s_Format;
         public bool isTracked; // 0x10
-        public ÏÎÏÎÏÍÎÌÍÍÍÏÍÎÍÍÎÎÎÌ.ÌÏÌÎÌÎÎÌÎÎÌÌÎÎÍÌÌÏÌÍÏÍ trackingState; // 0x14
+        public 0x6B2C9040 trackingState; // 0x14
         public UnityEngine.Vector3 position; // 0x18
         public UnityEngine.Quaternion rotation; // 0x24
         public UnityEngine.Vector3 velocity; // 0x34
         public UnityEngine.Vector3 angularVelocity; // 0x40
 
         // ── Methods ──
-        public void get_format(){} // RVA: 0x7FFD54A52560
-        public void .ctor(){} // RVA: 0x7FFD54A525C0
-        public void .cctor(){} // RVA: 0x7FFD54A52610
+        public void get_format(){} // RVA: 0x7FFAC9632560
+        public void .ctor(){} // RVA: 0x7FFAC96325C0
+        public void .cctor(){} // RVA: 0x7FFAC9632610
     }
 
     public class TrackedPoseDriver : MonoBehaviour
     {
-        public 0x664A9A08 trackingType; // 0x20
-        public 0x664A9AB8 updateType; // 0x24
+        public 0x6B149A08 trackingType; // 0x20
+        public 0x6B149AB8 updateType; // 0x24
         public bool ignoreTrackingState; // 0x28
         public UnityEngine.InputSystem.InputActionProperty positionInput; // 0x30
         public UnityEngine.InputSystem.InputActionProperty rotationInput; // 0x48
         public UnityEngine.InputSystem.InputActionProperty trackingStateInput; // 0x60
         public UnityEngine.Vector3 positionAction; // 0x78
         public UnityEngine.Quaternion rotationAction; // 0x84
-        public 0x664A9A60 m_CurrentTrackingState; // 0x94
+        public 0x6B149A60 m_CurrentTrackingState; // 0x94
         public bool m_RotationBound; // 0x98
         public bool m_PositionBound; // 0x99
         public bool m_TrackingStateBound; // 0x9A
@@ -162,53 +162,58 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
         public UnityEngine.InputSystem.InputAction m_RotationAction; // 0xA8
 
         // ── Methods ──
-        public void get_trackingType(){} // RVA: 0x7FFD4E4FBBE0
-        public void set_trackingType(){} // RVA: 0x7FFD4E9FB7A0
-        public void get_updateType(){} // RVA: 0x7FFD4ED41980
-        public void set_updateType(){} // RVA: 0x7FFD4F5874D0
-        public void get_ignoreTrackingState(){} // RVA: 0x7FFD4E516BA0
-        public void set_ignoreTrackingState(){} // RVA: 0x7FFD4F044F40
-        public void get_positionInput(){} // RVA: 0x7FFD4FFC6360
-        public void set_positionInput(){} // RVA: 0x7FFD54A539A0
-        public void get_rotationInput(){} // RVA: 0x7FFD53F6B520
-        public void set_rotationInput(){} // RVA: 0x7FFD54A53B40
-        public void get_trackingStateInput(){} // RVA: 0x7FFD513F9A30
-        public void set_trackingStateInput(){} // RVA: 0x7FFD54A53CE0
-        public void BindActions(){} // RVA: 0x7FFD54A53E80
-        public void UnbindActions(){} // RVA: 0x7FFD54A53EB0
-        public void BindPosition(){} // RVA: 0x7FFD54A53EE0
-        public void BindRotation(){} // RVA: 0x7FFD54A54130
-        public void BindTrackingState(){} // RVA: 0x7FFD54A54380
-        public void RenameAndEnable(){} // RVA: 0x7FFD54A545D0
-        public void UnbindPosition(){} // RVA: 0x7FFD54A54600
-        public void UnbindRotation(){} // RVA: 0x7FFD54A54800
-        public void UnbindTrackingState(){} // RVA: 0x7FFD54A54A00
-        public void OnPositionPerformed(){} // RVA: 0x7FFD54A54C00
-        public void OnPositionCanceled(){} // RVA: 0x7FFD54A54C70
-        public void OnRotationPerformed(){} // RVA: 0x7FFD54A54CC0
-        public void OnRotationCanceled(){} // RVA: 0x7FFD54A54D20
-        public void OnTrackingStatePerformed(){} // RVA: 0x7FFD54A54D70
-        public void OnTrackingStateCanceled(){} // RVA: 0x7FFD54A54DD0
-        public void Reset(){} // RVA: 0x7FFD54A54DE0
-        public void Awake(){} // RVA: 0x7FFD54A55100
-        public void OnEnable(){} // RVA: 0x7FFD54A551F0
-        public void OnDisable(){} // RVA: 0x7FFD54A552C0
-        public void OnDestroy(){} // RVA: 0x7FFD54A55380
-        public void UpdateCallback(){} // RVA: 0x7FFD54A55470
-        public void ReadTrackingState(){} // RVA: 0x7FFD54A55930
-        public void OnUpdate(){} // RVA: 0x7FFD54A55B20
-        public void OnBeforeRender(){} // RVA: 0x7FFD54A55B50
-        public void PerformUpdate(){} // RVA: 0x7FFD54A55B80
-        public void SetLocalTransform(){} // RVA: 0x7FFD54A55BD0
-        public void HasStereoCamera(){} // RVA: 0x7FFD54A55E10
-        public void HasResolvedControl(){} // RVA: 0x7FFD54A55EC0
-        public void get_positionAction(){} // RVA: 0x7FFD54A55FA0
-        public void set_positionAction(){} // RVA: 0x7FFD54A55FB0
-        public void get_rotationAction(){} // RVA: 0x7FFD54A56180
-        public void set_rotationAction(){} // RVA: 0x7FFD54A56190
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFD4E341310
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFD54A56360
-        public void .ctor(){} // RVA: 0x7FFD54A56420
+        public void get_trackingType(){} // RVA: 0x7FFAC30DBBE0
+        public void set_trackingType(){} // RVA: 0x7FFAC35DB7A0
+        public void get_updateType(){} // RVA: 0x7FFAC3921980
+        public void set_updateType(){} // RVA: 0x7FFAC41674D0
+        public void get_ignoreTrackingState(){} // RVA: 0x7FFAC30F6BA0
+        public void set_ignoreTrackingState(){} // RVA: 0x7FFAC3C24F40
+        public void get_positionInput(){} // RVA: 0x7FFAC4BA6360
+        public void set_positionInput(){} // RVA: 0x7FFAC96339A0
+        public void get_rotationInput(){} // RVA: 0x7FFAC8B4B520
+        public void set_rotationInput(){} // RVA: 0x7FFAC9633B40
+        public void get_trackingStateInput(){} // RVA: 0x7FFAC5FD9A30
+        public void set_trackingStateInput(){} // RVA: 0x7FFAC9633CE0
+        public void BindActions(){} // RVA: 0x7FFAC9633E80
+        public void UnbindActions(){} // RVA: 0x7FFAC9633EB0
+        public void BindPosition(){} // RVA: 0x7FFAC9633EE0
+        public void BindRotation(){} // RVA: 0x7FFAC9634130
+        public void BindTrackingState(){} // RVA: 0x7FFAC9634380
+        public void RenameAndEnable(){} // RVA: 0x7FFAC96345D0
+        public void UnbindPosition(){} // RVA: 0x7FFAC9634600
+        public void UnbindRotation(){} // RVA: 0x7FFAC9634800
+        public void UnbindTrackingState(){} // RVA: 0x7FFAC9634A00
+        public void OnPositionPerformed(){} // RVA: 0x7FFAC9634C00
+        public void OnPositionCanceled(){} // RVA: 0x7FFAC9634C70
+        public void OnRotationPerformed(){} // RVA: 0x7FFAC9634CC0
+        public void OnRotationCanceled(){} // RVA: 0x7FFAC9634D20
+        public void OnTrackingStatePerformed(){} // RVA: 0x7FFAC9634D70
+        public void OnTrackingStateCanceled(){} // RVA: 0x7FFAC9634DD0
+        public void Reset(){} // RVA: 0x7FFAC9634DE0
+        public void Awake(){} // RVA: 0x7FFAC9635100
+        public void OnEnable(){} // RVA: 0x7FFAC96351F0
+        public void OnDisable(){} // RVA: 0x7FFAC96352C0
+        public void OnDestroy(){} // RVA: 0x7FFAC9635380
+        public void UpdateCallback(){} // RVA: 0x7FFAC9635470
+        public void ReadTrackingState(){} // RVA: 0x7FFAC9635930
+        public void OnUpdate(){} // RVA: 0x7FFAC9635B20
+        public void OnBeforeRender(){} // RVA: 0x7FFAC9635B50
+        public void PerformUpdate(){} // RVA: 0x7FFAC9635B80
+        public void SetLocalTransform(){} // RVA: 0x7FFAC9635BD0
+        public void HasStereoCamera(){} // RVA: 0x7FFAC9635E10
+        public void HasResolvedControl(){} // RVA: 0x7FFAC9635EC0
+        public void get_positionAction(){} // RVA: 0x7FFAC9635FA0
+        public void set_positionAction(){} // RVA: 0x7FFAC9635FB0
+        public void get_rotationAction(){} // RVA: 0x7FFAC9636180
+        public void set_rotationAction(){} // RVA: 0x7FFAC9636190
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFAC2F21310
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFAC9636360
+        public void .ctor(){} // RVA: 0x7FFAC9636420
+    }
+
+    public class UsageHint : ValueType
+    {
+        public string content; // 0x10
     }
 
     public class XRController : TrackedDevice
@@ -217,17 +222,40 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
         public object rightHand;
 
         // ── Methods ──
-        public void get_leftHand(){} // RVA: 0x7FFD54A535C0
-        public void get_rightHand(){} // RVA: 0x7FFD54A53670
-        public void FinishSetup(){} // RVA: 0x7FFD54A53720
-        public void .ctor(){} // RVA: 0x7FFD54936440
+        public void get_leftHand(){} // RVA: 0x7FFAC96335C0
+        public void get_rightHand(){} // RVA: 0x7FFAC9633670
+        public void FinishSetup(){} // RVA: 0x7FFAC9633720
+        public void .ctor(){} // RVA: 0x7FFAC9516440
     }
 
     public class XRControllerWithRumble : XRController
     {
         // ── Methods ──
-        public void SendImpulse(){} // RVA: 0x7FFD54A538F0
-        public void .ctor(){} // RVA: 0x7FFD54936440
+        public void SendImpulse(){} // RVA: 0x7FFAC96338F0
+        public void .ctor(){} // RVA: 0x7FFAC9516440
+    }
+
+    public class XRDeviceDescriptor : Object
+    {
+        public string deviceName; // 0x10
+        public string manufacturer; // 0x18
+        public string serialNumber; // 0x20
+        public 0x6B2C8FE8 characteristics; // 0x28
+        public int deviceId; // 0x2C
+        public System.Collections.Generic.List`1<UnityEngine.InputSystem.XR.XRFeatureDescriptor> inputFeatures; // 0x30
+
+        // ── Methods ──
+        public void ToJson(){} // RVA: 0x7FFAC9638540
+        public void FromJson(){} // RVA: 0x7FFAC9638550
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
+    }
+
+    public class XRFeatureDescriptor : ValueType
+    {
+        public string name; // 0x10
+        public System.Collections.Generic.List`1<UnityEngine.InputSystem.XR.UsageHint> usageHints; // 0x18
+        public 0x6B149C70 featureType; // 0x20
+        public uint customSize; // 0x24
     }
 
     public class XRHMD : TrackedDevice
@@ -240,47 +268,54 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
         public UnityEngine.InputSystem.Controls.QuaternionControl centerEyeRotation; // 0x1D8
 
         // ── Methods ──
-        public void get_leftEyePosition(){} // RVA: 0x7FFD4E969F30
-        public void set_leftEyePosition(){} // RVA: 0x7FFD4EDC7790
-        public void get_leftEyeRotation(){} // RVA: 0x7FFD4E964330
-        public void set_leftEyeRotation(){} // RVA: 0x7FFD4EDCC050
-        public void get_rightEyePosition(){} // RVA: 0x7FFD4E9622B0
-        public void set_rightEyePosition(){} // RVA: 0x7FFD4EDCD110
-        public void get_rightEyeRotation(){} // RVA: 0x7FFD4EDECB10
-        public void set_rightEyeRotation(){} // RVA: 0x7FFD4EDEF3F0
-        public void get_centerEyePosition(){} // RVA: 0x7FFD4EDE1920
-        public void set_centerEyePosition(){} // RVA: 0x7FFD4EDC8050
-        public void get_centerEyeRotation(){} // RVA: 0x7FFD4EDE0A30
-        public void set_centerEyeRotation(){} // RVA: 0x7FFD4EDEF5C0
-        public void FinishSetup(){} // RVA: 0x7FFD54A53250
-        public void .ctor(){} // RVA: 0x7FFD54936440
+        public void get_leftEyePosition(){} // RVA: 0x7FFAC3549F30
+        public void set_leftEyePosition(){} // RVA: 0x7FFAC39A7790
+        public void get_leftEyeRotation(){} // RVA: 0x7FFAC3544330
+        public void set_leftEyeRotation(){} // RVA: 0x7FFAC39AC050
+        public void get_rightEyePosition(){} // RVA: 0x7FFAC35422B0
+        public void set_rightEyePosition(){} // RVA: 0x7FFAC39AD110
+        public void get_rightEyeRotation(){} // RVA: 0x7FFAC39CCB10
+        public void set_rightEyeRotation(){} // RVA: 0x7FFAC39CF3F0
+        public void get_centerEyePosition(){} // RVA: 0x7FFAC39C1920
+        public void set_centerEyePosition(){} // RVA: 0x7FFAC39A8050
+        public void get_centerEyeRotation(){} // RVA: 0x7FFAC39C0A30
+        public void set_centerEyeRotation(){} // RVA: 0x7FFAC39CF5C0
+        public void FinishSetup(){} // RVA: 0x7FFAC9633250
+        public void .ctor(){} // RVA: 0x7FFAC9516440
     }
 
     public class XRLayoutBuilder : Object
     {
         public string parentLayout; // 0x10
         public string interfaceName; // 0x18
-        public 0x664A9D78 descriptor; // 0x20
+        public UnityEngine.InputSystem.XR.XRDeviceDescriptor descriptor; // 0x20
         public string[] poseSubControlNames;
-        public 0x664A9C70[] poseSubControlTypes; // 0x8
+        public 0x6B149C70[] poseSubControlTypes; // 0x8
 
         // ── Methods ──
-        public void GetSizeOfFeature(){} // RVA: 0x7FFD54A56500
-        public void SanitizeString(){} // RVA: 0x7FFD54A565C0
-        public void OnFindLayoutForDevice(){} // RVA: 0x7FFD54A56770
-        public void ConvertPotentialAliasToName(){} // RVA: 0x7FFD54A56CB0
-        public void IsSubControl(){} // RVA: 0x7FFD54A56F40
-        public void GetParentControlName(){} // RVA: 0x7FFD54A56F80
-        public void IsPoseControl(){} // RVA: 0x7FFD54A56FC0
-        public void Build(){} // RVA: 0x7FFD54A57180
-        public void .ctor(){} // RVA: 0x7FFD4E341310
-        public void .cctor(){} // RVA: 0x7FFD54A582B0
+        public void GetSizeOfFeature(){} // RVA: 0x7FFAC9636500
+        public void SanitizeString(){} // RVA: 0x7FFAC96365C0
+        public void OnFindLayoutForDevice(){} // RVA: 0x7FFAC9636770
+        public void ConvertPotentialAliasToName(){} // RVA: 0x7FFAC9636CB0
+        public void IsSubControl(){} // RVA: 0x7FFAC9636F40
+        public void GetParentControlName(){} // RVA: 0x7FFAC9636F80
+        public void IsPoseControl(){} // RVA: 0x7FFAC9636FC0
+        public void Build(){} // RVA: 0x7FFAC9637180
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFAC96382B0
     }
 
     public class XRSupport : Object
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFD54A59540
+        public void Initialize(){} // RVA: 0x7FFAC9639540
+    }
+
+    public class XRUtilities : Object
+    {
+        public string InterfaceMatchAnyVersion;
+        public string InterfaceV1;
+        public string InterfaceCurrent;
     }
 
 }

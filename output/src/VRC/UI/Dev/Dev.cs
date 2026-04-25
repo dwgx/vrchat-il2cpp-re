@@ -10,7 +10,7 @@ namespace VRC.UI.Dev
         public UnityEngine.ScriptableObject data; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E54F5F0
+        public void .ctor(){} // RVA: 0x7FFAC312F5F0
     }
 
 }

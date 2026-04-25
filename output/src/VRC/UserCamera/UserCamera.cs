@@ -9,7 +9,7 @@ namespace VRC.UserCamera
     {
         public UnityEngine.Vector3 Position; // 0x18
         public UnityEngine.Quaternion Rotation; // 0x24
-        public 0x6638B7A0 Space; // 0x34
+        public 0x6B02B7A0 Space; // 0x34
         public int Filter; // 0x38
         public int DofMode; // 0x3C
         public UnityEngine.Vector2 DofUV; // 0x40
@@ -26,20 +26,20 @@ namespace VRC.UserCamera
         public bool ShowRemotePlayerInCamera; // 0x5B
         public bool ShowEnvironmentInCamera; // 0x5C
         public bool ShowGreenscreen; // 0x5D
-        public 0x665B3CC0 Orientation; // 0x60
+        public 0x6B253CC0 Orientation; // 0x60
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E7796A0
+        public void .ctor(){} // RVA: 0x7FFAC33596A0
     }
 
     public class CameraPreset : ScriptableObject
     {
-        public 0x6638A828 properties; // 0x18
+        public 0x6B02A828 properties; // 0x18
         public float nearClipPlane; // 0x1C
         public float farClipPlane; // 0x20
         public UnityEngine.Color backgroundColor; // 0x24
-        public O renderingPath; // 0x34
-        public 0x664DBCB0 clearFlags; // 0x38
+        public 0x6B17B838 renderingPath; // 0x34
+        public 0x6B17BCB0 clearFlags; // 0x38
         public UnityEngine.LayerMask cullingMask; // 0x3C
         public int fieldOfView; // 0x40
         public bool allowHDR; // 0x44
@@ -50,7 +50,7 @@ namespace VRC.UserCamera
         public bool disablePostEffects; // 0x68
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E779750
+        public void .ctor(){} // RVA: 0x7FFAC3359750
     }
 
     public class VRCOscDollyPointMessage : ValueType
@@ -73,14 +73,14 @@ namespace VRC.UserCamera
         public int PathIndex; // 0x58
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E77A9C0
-        public void InternalEquals(){} // RVA: 0x7FFD4E77AD00
-        public void DefaultEquals(){} // RVA: 0x7FFD4E77B040
-        public void GetHashCode(){} // RVA: 0x7FFD4E77B380
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E77B6C0
-        public void ToString(){} // RVA: 0x7FFD4E77BA00
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E77BD40
-        public void ToString_B9B0B22EE707(){} // RVA: 0x7FFD4E77C080
+        public void Equals(){} // RVA: 0x7FFAC335A9C0
+        public void InternalEquals(){} // RVA: 0x7FFAC335AD00
+        public void DefaultEquals(){} // RVA: 0x7FFAC335B040
+        public void GetHashCode(){} // RVA: 0x7FFAC335B380
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC335B6C0
+        public void ToString(){} // RVA: 0x7FFAC335BA00
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC335BD40
+        public void ToString_B9B0B22EE707(){} // RVA: 0x7FFAC335C080
     }
 
 }

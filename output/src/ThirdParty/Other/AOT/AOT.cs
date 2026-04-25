@@ -8,7 +8,7 @@ namespace ThirdParty.Other.AOT
     public class MonoPInvokeCallbackAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
 }

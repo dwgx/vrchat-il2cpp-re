@@ -7,34 +7,34 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 {
     public class StructWrapper : Object
     {
-        public 0x665CBA50 wrappedType; // 0x10
+        public 0x6B26BA50 wrappedType; // 0x10
         public System.Type ttype; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53E00B90
-        public void Dispose(){} // RVA: 0x7FFD4E090980
+        public void .ctor(){} // RVA: 0x7FFAC89E0B90
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
         public void ToString(){}
     }
 
     public class StructWrapperPool : Object
     {
         // ── Methods ──
-        public void GetWrappedType(){} // RVA: 0x7FFD53E00BF0
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void GetWrappedType(){} // RVA: 0x7FFAC89E0BF0
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class StructWrapperPool`1 : StructWrapperPool
     {
         public int GROWBY;
-        public System.Type tType; // 0x10
-        public 0x665CBA50 wType; // 0x18
-        public System.Collections.Generic.Stack`1<Photon.Client.StructWrapping.StructWrapper`1<byte[]>> pool; // 0x20
-        public bool isStaticPool; // 0x28
+        public System.Type tType;
+        public 0x6B26BA50 wType;
+        public System.Collections.Generic.Stack`1<Photon.Client.StructWrapping.StructWrapper`1<T>> pool;
+        public bool isStaticPool;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E091060
-        public void Acquire(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void Release(){} // RVA: 0x7FFD4E090A40
+        public void .ctor(){} // RVA: 0x7FFAC2C71060
+        public void Acquire(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void Release(){} // RVA: 0x7FFAC2C70A40
     }
 
     public class StructWrapperPools : Object
@@ -45,35 +45,35 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
         public System.Collections.Generic.List`1<System.IDisposable> used; // 0x18
 
         // ── Methods ──
-        public void GetPoolForType(){} // RVA: 0x7FFD4E078E90
-        public void Acquire(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
-        public void Clear(){} // RVA: 0x7FFD53E00FC0
-        public void .ctor(){} // RVA: 0x7FFD53E011E0
-        public void .cctor(){} // RVA: 0x7FFD53E01340
+        public void GetPoolForType(){} // RVA: 0x7FFAC2C58E90
+        public void Acquire(){} // RVA: 0x7FFAC2E8DC40 | overloaded x3
+        public void Clear(){} // RVA: 0x7FFAC89E0FC0
+        public void .ctor(){} // RVA: 0x7FFAC89E11E0
+        public void .cctor(){} // RVA: 0x7FFAC89E1340
     }
 
     public class StructWrapperUtility : Object
     {
         // ── Methods ──
-        public void Unwrap(){} // RVA: 0x7FFD4E2ADC40
-        public void Get(){} // RVA: 0x7FFD4E2ADC40
+        public void Unwrap(){} // RVA: 0x7FFAC2E8DC40
+        public void Get(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class StructWrapper`1 : StructWrapper
     {
-        public Photon.Client.StructWrapping.StructWrapperPool`1<byte[]> ReturnPool; // 0x20
-        public 0x665CBAA8 pooling; // 0x28
-        public byte[] value; // 0x30
-        public Photon.Client.StructWrapping.StructWrapperPool`1<byte[]> staticPool;
+        public Photon.Client.StructWrapping.StructWrapperPool`1<T> ReturnPool;
+        public 0x6B26BAA8 pooling;
+        public T value;
+        public Photon.Client.StructWrapping.StructWrapperPool`1<T> staticPool;
 
         // ── Methods ──
-        public void get_ReturnPool(){} // RVA: 0x7FFD4E078E90
-        public void set_ReturnPool(){} // RVA: 0x7FFD4E090A40
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void Unwrap(){} // RVA: 0x7FFD4E2ADC40
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void ToString(){} // RVA: 0x7FFD4E078E90 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFD4E0909B0
+        public void get_ReturnPool(){} // RVA: 0x7FFAC2C58E90
+        public void set_ReturnPool(){} // RVA: 0x7FFAC2C70A40
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void Unwrap(){} // RVA: 0x7FFAC2E8DC40
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void ToString(){} // RVA: 0x7FFAC2C58E90 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAC2C709B0
     }
 
 }

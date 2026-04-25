@@ -10,16 +10,16 @@ namespace VRC.Networking.Pose
         public VRC.Profiling.ProfilerMarker ÎÏÎÏÌÌÌÌÌÍÎÎÍÍÎÎÎÌÏÍÏÎÍ; // 0x28
 
         // ── Methods ──
-        public void SampleProfilerBegin(){} // RVA: 0x7FFD4E6089D0
-        public void CaptureProfilerSample(){} // RVA: 0x7FFD4E6089D0
-        public void DoInitializeArray(){} // RVA: 0x7FFD4E6089D0
-        public void .ctor(){} // RVA: 0x7FFD4E608AD0
-        public void Initialize(){} // RVA: 0x7FFD4E6089D0
-        public void BeginProfilerSection(){} // RVA: 0x7FFD4E6089D0
-        public void LateUpdate(){} // RVA: 0x7FFD4E6089D0
-        public void Start(){} // RVA: 0x7FFD4E6089D0
-        public void Update(){} // RVA: 0x7FFD4E6089D0
-        public void InitiateProfilerProbe(){} // RVA: 0x7FFD4E608BC0
+        public void SampleProfilerBegin(){} // RVA: 0x7FFAC31E89D0
+        public void CaptureProfilerSample(){} // RVA: 0x7FFAC31E89D0
+        public void DoInitializeArray(){} // RVA: 0x7FFAC31E89D0
+        public void .ctor(){} // RVA: 0x7FFAC31E8AD0
+        public void Initialize(){} // RVA: 0x7FFAC31E89D0
+        public void BeginProfilerSection(){} // RVA: 0x7FFAC31E89D0
+        public void LateUpdate(){} // RVA: 0x7FFAC31E89D0
+        public void Start(){} // RVA: 0x7FFAC31E89D0
+        public void Update(){} // RVA: 0x7FFAC31E89D0
+        public void InitiateProfilerProbe(){} // RVA: 0x7FFAC31E8BC0
     }
 
     public class PoseAV3Update : PoseRemoteUpdate
@@ -27,17 +27,17 @@ namespace VRC.Networking.Pose
         public VRC.Profiling.ProfilerMarker ÎÏÎÏÌÌÌÌÌÍÎÎÍÍÎÎÎÌÏÍÏÎÍ; // 0x28
 
         // ── Methods ──
-        public void UpdatePoseProfile(){} // RVA: 0x7FFD4E608D30
-        public void BeginPoseUpdateProfilingSample(){} // RVA: 0x7FFD4E608D30
-        public void Update(){} // RVA: 0x7FFD4E608D30
-        public void .ctor(){} // RVA: 0x7FFD4E608E10
-        public void LateUpdate(){} // RVA: 0x7FFD4E608F00
-        public void Start(){} // RVA: 0x7FFD4E608F00
-        public void Start_102293102DC6(){} // RVA: 0x7FFD4E608F00
-        public void IsInvoking(){} // RVA: 0x7FFD4E608FE0
-        public void Start_7B4B723BF65B(){} // RVA: 0x7FFD4E608F00
-        public void DoInitializeArray(){} // RVA: 0x7FFD4E608F00
-        public void Start_14A2EE7C9AC8(){} // RVA: 0x7FFD4E608F00
+        public void UpdatePoseProfile(){} // RVA: 0x7FFAC31E8D30
+        public void BeginPoseUpdateProfilingSample(){} // RVA: 0x7FFAC31E8D30
+        public void Update(){} // RVA: 0x7FFAC31E8D30
+        public void .ctor(){} // RVA: 0x7FFAC31E8E10
+        public void LateUpdate(){} // RVA: 0x7FFAC31E8F00
+        public void Start(){} // RVA: 0x7FFAC31E8F00
+        public void Start_102293102DC6(){} // RVA: 0x7FFAC31E8F00
+        public void IsInvoking(){} // RVA: 0x7FFAC31E8FE0
+        public void Start_7B4B723BF65B(){} // RVA: 0x7FFAC31E8F00
+        public void DoInitializeArray(){} // RVA: 0x7FFAC31E8F00
+        public void Start_14A2EE7C9AC8(){} // RVA: 0x7FFAC31E8F00
     }
 
     public class PoseLocalUpdate : MonoBehaviour
@@ -46,16 +46,16 @@ namespace VRC.Networking.Pose
         public VRC.Profiling.ProfilerMarker ÍÏÌÏÍÌÌÎÌÌÎÎÍÌÎÌÎÎÍÎÎÍÍ; // 0x28
 
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E609150
-        public void RaiseCancellation(){} // RVA: 0x7FFD4E609280
-        public void IsInvoking(){} // RVA: 0x7FFD4E6093B0
-        public void CancelInvoke(){} // RVA: 0x7FFD4E6094E0
-        public void Invoke(){} // RVA: 0x7FFD4E609610
-        public void InvokeRepeating(){} // RVA: 0x7FFD4E609740
-        public void .ctor(){} // RVA: 0x7FFD4E609870
-        public void LateUpdate(){} // RVA: 0x7FFD4E609960
-        public void StartCoroutine(){} // RVA: 0x7FFD4E609A90
-        public void OnDestroy(){} // RVA: 0x7FFD4E609BC0
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFAC31E9150
+        public void RaiseCancellation(){} // RVA: 0x7FFAC31E9280
+        public void IsInvoking(){} // RVA: 0x7FFAC31E93B0
+        public void CancelInvoke(){} // RVA: 0x7FFAC31E94E0
+        public void Invoke(){} // RVA: 0x7FFAC31E9610
+        public void InvokeRepeating(){} // RVA: 0x7FFAC31E9740
+        public void .ctor(){} // RVA: 0x7FFAC31E9870
+        public void LateUpdate(){} // RVA: 0x7FFAC31E9960
+        public void StartCoroutine(){} // RVA: 0x7FFAC31E9A90
+        public void OnDestroy(){} // RVA: 0x7FFAC31E9BC0
     }
 
     public class PoseRemoteUpdate : MonoBehaviour
@@ -63,20 +63,20 @@ namespace VRC.Networking.Pose
         public ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ _poseRemoteUpdate; // 0x20
 
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E608580
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
-        public void Initialize(){} // RVA: 0x7FFD4E6085D0
-        public void OnDestroy(){} // RVA: 0x7FFD4E6085D0
-        public void Invoke(){} // RVA: 0x7FFD4E608620
-        public void InvokeRepeating(){} // RVA: 0x7FFD4E608630
-        public void CancelInvoke(){} // RVA: 0x7FFD4E6085D0
-        public void IsInvoking(){} // RVA: 0x7FFD4E6087A0
-        public void Start(){} // RVA: 0x7FFD4E608620
-        public void StartCoroutine(){} // RVA: 0x7FFD4E6087A0
-        public void OnCollisionExit(){} // RVA: 0x7FFD4E608580
-        public void StartCoroutine_Auto(){} // RVA: 0x7FFD4E6087C0
-        public void StopCoroutine(){} // RVA: 0x7FFD4E608970
-        public void OnTriggerExit(){} // RVA: 0x7FFD4E6089A0
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFAC31E8580
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void Initialize(){} // RVA: 0x7FFAC31E85D0
+        public void OnDestroy(){} // RVA: 0x7FFAC31E85D0
+        public void Invoke(){} // RVA: 0x7FFAC31E8620
+        public void InvokeRepeating(){} // RVA: 0x7FFAC31E8630
+        public void CancelInvoke(){} // RVA: 0x7FFAC31E85D0
+        public void IsInvoking(){} // RVA: 0x7FFAC31E87A0
+        public void Start(){} // RVA: 0x7FFAC31E8620
+        public void StartCoroutine(){} // RVA: 0x7FFAC31E87A0
+        public void OnCollisionExit(){} // RVA: 0x7FFAC31E8580
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFAC31E87C0
+        public void StopCoroutine(){} // RVA: 0x7FFAC31E8970
+        public void OnTriggerExit(){} // RVA: 0x7FFAC31E89A0
     }
 
 }

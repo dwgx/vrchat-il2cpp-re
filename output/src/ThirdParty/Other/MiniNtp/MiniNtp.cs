@@ -8,7 +8,7 @@ namespace ThirdParty.Other.MiniNtp
     public class ExtensionMethods : Object
     {
         // ── Methods ──
-        public void ReverseBytes(){} // RVA: 0x7FFD50008790
+        public void ReverseBytes(){} // RVA: 0x7FFAC4BE8790
     }
 
     public class NtpTimestamp : ValueType
@@ -17,12 +17,12 @@ namespace ThirdParty.Other.MiniNtp
         public uint Fractions; // 0x14
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53C380D0 | overloaded x2
-        public void ToBigEndianBytes(){} // RVA: 0x7FFD53C38260
-        public void ToString(){} // RVA: 0x7FFD53C38270
-        public void Equals(){} // RVA: 0x7FFD53C38360 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFD53C383F0
-        public void CompareTo(){} // RVA: 0x7FFD53C38400
+        public void .ctor(){} // RVA: 0x7FFAC88180D0 | overloaded x2
+        public void ToBigEndianBytes(){} // RVA: 0x7FFAC8818260
+        public void ToString(){} // RVA: 0x7FFAC8818270
+        public void Equals(){} // RVA: 0x7FFAC8818360 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAC88183F0
+        public void CompareTo(){} // RVA: 0x7FFAC8818400
     }
 
     public class TimeConstants : Object
@@ -31,7 +31,7 @@ namespace ThirdParty.Other.MiniNtp
         public System.DateTime Epoch2036; // 0x8
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFD53C38430
+        public void .cctor(){} // RVA: 0x7FFAC8818430
     }
 
 }

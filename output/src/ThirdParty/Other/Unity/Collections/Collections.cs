@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Collections
-// Classes: 69
-// Methods: 358
+// Classes: 96
+// Methods: 372
 
 namespace ThirdParty.Other.Unity.Collections
 {
@@ -19,46 +19,46 @@ namespace ThirdParty.Other.Unity.Collections
         public uint FirstGlobalScratchpadAllocatorIndex; // 0x20
 
         // ── Methods ──
-        public void AllocateBlock(){} // RVA: 0x7FFD4E2ADC40
-        public void Allocate(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void AllocateStruct(){} // RVA: 0x7FFD4E2ADC40
-        public void FreeBlock(){} // RVA: 0x7FFD4E090C80
-        public void Free(){} // RVA: 0x7FFD4E2ADC40 | overloaded x4
-        public void CheckDelegate(){} // RVA: 0x7FFD53201980
-        public void UseDelegate(){} // RVA: 0x7FFD5492E690
-        public void allocate_block(){} // RVA: 0x7FFD5492E6E0
-        public void forward_mono_allocate_block(){} // RVA: 0x7FFD5492E780
-        public void LegacyOf(){} // RVA: 0x7FFD5492E8A0
-        public void TryLegacy(){} // RVA: 0x7FFD5492E8B0
-        public void Try(){} // RVA: 0x7FFD5492EA50
-        public void IsCustomAllocator(){} // RVA: 0x7FFD5492EDC0
-        public void .cctor(){} // RVA: 0x7FFD5492EDD0
-        public void Initialize$StackAllocator_Try_000000AB$BurstDirectCall(){} // RVA: 0x7FFD5492EF90
-        public void Initialize$SlabAllocator_Try_000000B9$BurstDirectCall(){} // RVA: 0x7FFD5492EFE0
+        public void AllocateBlock(){} // RVA: 0x7FFAC2E8DC40
+        public void Allocate(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void AllocateStruct(){} // RVA: 0x7FFAC2E8DC40
+        public void FreeBlock(){} // RVA: 0x7FFAC2C70C80
+        public void Free(){} // RVA: 0x7FFAC2E8DC40 | overloaded x4
+        public void CheckDelegate(){} // RVA: 0x7FFAC7DE1980
+        public void UseDelegate(){} // RVA: 0x7FFAC950E690
+        public void allocate_block(){} // RVA: 0x7FFAC950E6E0
+        public void forward_mono_allocate_block(){} // RVA: 0x7FFAC950E780
+        public void LegacyOf(){} // RVA: 0x7FFAC950E8A0
+        public void TryLegacy(){} // RVA: 0x7FFAC950E8B0
+        public void Try(){} // RVA: 0x7FFAC950EA50
+        public void IsCustomAllocator(){} // RVA: 0x7FFAC950EDC0
+        public void .cctor(){} // RVA: 0x7FFAC950EDD0
+        public void Initialize$StackAllocator_Try_000000AB$BurstDirectCall(){} // RVA: 0x7FFAC950EF90
+        public void Initialize$SlabAllocator_Try_000000B9$BurstDirectCall(){} // RVA: 0x7FFAC950EFE0
     }
 
     public class ArrayOfArrays`1 : ValueType
     {
-        public AllocatorHandle BlockSizeInElements; // 0x10
-        public int BlockSizeInBytes; // 0x14
-        public int BlockMask; // 0x18
-        public int Length; // 0x1C
-        public int Item; // 0x20
-        public UIntPtr* m_block; // 0x28
+        public AllocatorHandle BlockSizeInElements;
+        public int BlockSizeInBytes;
+        public int BlockMask;
+        public int Length;
+        public int Item;
+        public UIntPtr* m_block;
 
         // ── Methods ──
-        public void get_BlockSizeInElements(){} // RVA: 0x7FFD4E079960
-        public void get_BlockSizeInBytes(){} // RVA: 0x7FFD4E079960
-        public void get_BlockMask(){} // RVA: 0x7FFD4E079960
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void LockfreeAdd(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Item(){} // RVA: 0x7FFD4E087DE0
-        public void Rewind(){} // RVA: 0x7FFD4E090980
-        public void Clear(){} // RVA: 0x7FFD4E090980
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void RemoveAtSwapBack(){} // RVA: 0x7FFD4E090ED0
-        public void BlockIndexOfElement(){} // RVA: 0x7FFD4E0800D0
-        public void TrimExcess(){} // RVA: 0x7FFD4E090980
+        public void get_BlockSizeInElements(){} // RVA: 0x7FFAC2C59960
+        public void get_BlockSizeInBytes(){} // RVA: 0x7FFAC2C59960
+        public void get_BlockMask(){} // RVA: 0x7FFAC2C59960
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void LockfreeAdd(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Item(){} // RVA: 0x7FFAC2C67DE0
+        public void Rewind(){} // RVA: 0x7FFAC2C70980
+        public void Clear(){} // RVA: 0x7FFAC2C70980
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void RemoveAtSwapBack(){} // RVA: 0x7FFAC2C70ED0
+        public void BlockIndexOfElement(){} // RVA: 0x7FFAC2C600D0
+        public void TrimExcess(){} // RVA: 0x7FFAC2C70980
     }
 
     public class AutoFreeAllocator : ValueType
@@ -69,26 +69,35 @@ namespace ThirdParty.Other.Unity.Collections
         public AllocatorHandle m_backingAllocatorHandle; // 0x54
 
         // ── Methods ──
-        public void Update(){} // RVA: 0x7FFD54930620
-        public void FreeAll(){} // RVA: 0x7FFD54930780
-        public void Dispose(){} // RVA: 0x7FFD549308D0
-        public void Try(){} // RVA: 0x7FFD54930A20 | overloaded x2
-        public void get_Handle(){} // RVA: 0x7FFD4E3E2080
-        public void Try$BurstManaged(){} // RVA: 0x7FFD54930A80
+        public void Update(){} // RVA: 0x7FFAC9510620
+        public void FreeAll(){} // RVA: 0x7FFAC9510780
+        public void Dispose(){} // RVA: 0x7FFAC95108D0
+        public void Try(){} // RVA: 0x7FFAC9510A20 | overloaded x2
+        public void get_Handle(){} // RVA: 0x7FFAC2FC2080
+        public void Try$BurstManaged(){} // RVA: 0x7FFAC9510A80
     }
 
     public class CollectionHelper : Object
     {
         // ── Methods ──
-        public void Align(){} // RVA: 0x7FFD54931010
-        public void Hash(){} // RVA: 0x7FFD54931030
-        public void ShouldDeallocate(){} // RVA: 0x7FFD54931060
-        public void AssumePositive(){} // RVA: 0x7FFD50006C10
-        public void CreateNativeArray(){} // RVA: 0x7FFD4E2ADC40
+        public void Align(){} // RVA: 0x7FFAC9511010
+        public void Hash(){} // RVA: 0x7FFAC9511030
+        public void ShouldDeallocate(){} // RVA: 0x7FFAC9511060
+        public void AssumePositive(){} // RVA: 0x7FFAC4BE6C10
+        public void CreateNativeArray(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class DeallocateOnJobCompletionAttribute : Attribute
     {
+    }
+
+    public class ExcludeFromBurstCompatTestingAttribute : Attribute
+    {
+        public string Reason; // 0x10
+
+        // ── Methods ──
+        public void set_Reason(){} // RVA: 0x7FFAC2F22E30
+        public void .ctor(){} // RVA: 0x7FFAC2F22E30
     }
 
     public class FixedBytes128Align8 : ValueType
@@ -422,100 +431,120 @@ namespace ThirdParty.Other.Unity.Collections
     public class FixedList : ValueType
     {
         // ── Methods ──
-        public void PaddingBytes(){} // RVA: 0x7FFD4E079990
+        public void PaddingBytes(){} // RVA: 0x7FFAC2C59990
+    }
+
+    public class FixedList128BytesDebugView`1 : Object
+    {
     }
 
     public class FixedList128Bytes`1 : ValueType
     {
-        public Unity.Collections.FixedBytes128Align8 length; // 0x10
+        public Unity.Collections.FixedBytes128Align8 length;
 
         // ── Methods ──
-        public void get_length(){} // RVA: 0x7FFD4E078DC0
-        public void get_buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void get_LengthInBytes(){} // RVA: 0x7FFD4E079960
-        public void get_Buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void GetHashCode(){} // RVA: 0x7FFD4E079960
-        public void CompareTo(){} // RVA: 0x7FFD4E2ADC40 | overloaded x5
-        public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x6
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
+        public void get_length(){} // RVA: 0x7FFAC2C58DC0
+        public void get_buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void get_LengthInBytes(){} // RVA: 0x7FFAC2C59960
+        public void get_Buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void GetHashCode(){} // RVA: 0x7FFAC2C59960
+        public void CompareTo(){} // RVA: 0x7FFAC2E8DC40 | overloaded x5
+        public void Equals(){} // RVA: 0x7FFAC2C59F60 | overloaded x6
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+    }
+
+    public class FixedList32BytesDebugView`1 : Object
+    {
     }
 
     public class FixedList32Bytes`1 : ValueType
     {
-        public Unity.Collections.FixedBytes32Align8 length; // 0x10
+        public Unity.Collections.FixedBytes32Align8 length;
 
         // ── Methods ──
-        public void get_length(){} // RVA: 0x7FFD4E078DC0
-        public void get_buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void get_LengthInBytes(){} // RVA: 0x7FFD4E079960
-        public void get_Buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void GetHashCode(){} // RVA: 0x7FFD4E079960
-        public void CompareTo(){} // RVA: 0x7FFD4E2ADC40 | overloaded x5
-        public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x6
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
+        public void get_length(){} // RVA: 0x7FFAC2C58DC0
+        public void get_buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void get_LengthInBytes(){} // RVA: 0x7FFAC2C59960
+        public void get_Buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void GetHashCode(){} // RVA: 0x7FFAC2C59960
+        public void CompareTo(){} // RVA: 0x7FFAC2E8DC40 | overloaded x5
+        public void Equals(){} // RVA: 0x7FFAC2C59F60 | overloaded x6
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+    }
+
+    public class FixedList4096BytesDebugView`1 : Object
+    {
     }
 
     public class FixedList4096Bytes`1 : ValueType
     {
-        public Unity.Collections.FixedBytes4096Align8 length; // 0x10
+        public Unity.Collections.FixedBytes4096Align8 length;
 
         // ── Methods ──
-        public void get_length(){} // RVA: 0x7FFD4E078DC0
-        public void get_buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void get_LengthInBytes(){} // RVA: 0x7FFD4E079960
-        public void get_Buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Item(){} // RVA: 0x7FFD4E2ADC40
-        public void set_Item(){} // RVA: 0x7FFD4E2ADC40
-        public void GetHashCode(){} // RVA: 0x7FFD4E079960
-        public void CompareTo(){} // RVA: 0x7FFD4E2ADC40 | overloaded x5
-        public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x6
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
+        public void get_length(){} // RVA: 0x7FFAC2C58DC0
+        public void get_buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void get_LengthInBytes(){} // RVA: 0x7FFAC2C59960
+        public void get_Buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Item(){} // RVA: 0x7FFAC2E8DC40
+        public void set_Item(){} // RVA: 0x7FFAC2E8DC40
+        public void GetHashCode(){} // RVA: 0x7FFAC2C59960
+        public void CompareTo(){} // RVA: 0x7FFAC2E8DC40 | overloaded x5
+        public void Equals(){} // RVA: 0x7FFAC2C59F60 | overloaded x6
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+    }
+
+    public class FixedList512BytesDebugView`1 : Object
+    {
     }
 
     public class FixedList512Bytes`1 : ValueType
     {
-        public Unity.Collections.FixedBytes512Align8 length; // 0x10
+        public Unity.Collections.FixedBytes512Align8 length;
 
         // ── Methods ──
-        public void get_length(){} // RVA: 0x7FFD4E078DC0
-        public void get_buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void get_LengthInBytes(){} // RVA: 0x7FFD4E079960
-        public void get_Buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void GetHashCode(){} // RVA: 0x7FFD4E079960
-        public void CompareTo(){} // RVA: 0x7FFD4E2ADC40 | overloaded x5
-        public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x6
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
+        public void get_length(){} // RVA: 0x7FFAC2C58DC0
+        public void get_buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void get_LengthInBytes(){} // RVA: 0x7FFAC2C59960
+        public void get_Buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void GetHashCode(){} // RVA: 0x7FFAC2C59960
+        public void CompareTo(){} // RVA: 0x7FFAC2E8DC40 | overloaded x5
+        public void Equals(){} // RVA: 0x7FFAC2C59F60 | overloaded x6
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+    }
+
+    public class FixedList64BytesDebugView`1 : Object
+    {
     }
 
     public class FixedList64Bytes`1 : ValueType
     {
-        public Unity.Collections.FixedBytes64Align8 length; // 0x10
+        public Unity.Collections.FixedBytes64Align8 length;
 
         // ── Methods ──
-        public void get_length(){} // RVA: 0x7FFD4E078DC0
-        public void get_buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void get_LengthInBytes(){} // RVA: 0x7FFD4E079960
-        public void get_Buffer(){} // RVA: 0x7FFD4E2ADC40
-        public void GetHashCode(){} // RVA: 0x7FFD4E079960
-        public void CompareTo(){} // RVA: 0x7FFD4E2ADC40 | overloaded x5
-        public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x6
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
+        public void get_length(){} // RVA: 0x7FFAC2C58DC0
+        public void get_buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void get_LengthInBytes(){} // RVA: 0x7FFAC2C59960
+        public void get_Buffer(){} // RVA: 0x7FFAC2E8DC40
+        public void GetHashCode(){} // RVA: 0x7FFAC2C59960
+        public void CompareTo(){} // RVA: 0x7FFAC2E8DC40 | overloaded x5
+        public void Equals(){} // RVA: 0x7FFAC2C59F60 | overloaded x6
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
     }
 
     public class FixedStringMethods : Object
     {
         // ── Methods ──
-        public void ConvertToString(){} // RVA: 0x7FFD4E078F80
+        public void ConvertToString(){} // RVA: 0x7FFAC2C58F80
     }
 
     public class GenerateTestsForBurstCompatibilityAttribute : Attribute
@@ -523,8 +552,8 @@ namespace ThirdParty.Other.Unity.Collections
         public System.Type[] GenericTypeArguments; // 0x10
 
         // ── Methods ──
-        public void set_GenericTypeArguments(){} // RVA: 0x7FFD4E342E30
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void set_GenericTypeArguments(){} // RVA: 0x7FFAC2F22E30
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class Hash128Long_00000A71$BurstDirectCall : Object
@@ -533,19 +562,19 @@ namespace ThirdParty.Other.Unity.Collections
         public UIntPtr DeferredCompilation; // 0x8
 
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD54934460
-        public void GetFunctionPointer(){} // RVA: 0x7FFD549345A0
-        public void Constructor(){} // RVA: 0x7FFD54934710
-        public void Initialize(){} // RVA: 0x7FFD4E341310
-        public void .cctor(){} // RVA: 0x7FFD54934710
-        public void Invoke(){} // RVA: 0x7FFD549347D0
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFAC9514460
+        public void GetFunctionPointer(){} // RVA: 0x7FFAC95145A0
+        public void Constructor(){} // RVA: 0x7FFAC9514710
+        public void Initialize(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFAC9514710
+        public void Invoke(){} // RVA: 0x7FFAC95147D0
     }
 
     public class Hash128Long_00000A71$PostfixBurstDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD54934380
-        public void Invoke(){} // RVA: 0x7FFD51080E20
+        public void .ctor(){} // RVA: 0x7FFAC9514380
+        public void Invoke(){} // RVA: 0x7FFAC5C60E20
     }
 
     public class Hash64Long_00000A6A$BurstDirectCall : Object
@@ -554,19 +583,19 @@ namespace ThirdParty.Other.Unity.Collections
         public UIntPtr DeferredCompilation; // 0x8
 
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD54933D30
-        public void GetFunctionPointer(){} // RVA: 0x7FFD54933E70
-        public void Constructor(){} // RVA: 0x7FFD54933FE0
-        public void Initialize(){} // RVA: 0x7FFD4E341310
-        public void .cctor(){} // RVA: 0x7FFD54933FE0
-        public void Invoke(){} // RVA: 0x7FFD549340A0
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFAC9513D30
+        public void GetFunctionPointer(){} // RVA: 0x7FFAC9513E70
+        public void Constructor(){} // RVA: 0x7FFAC9513FE0
+        public void Initialize(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFAC9513FE0
+        public void Invoke(){} // RVA: 0x7FFAC95140A0
     }
 
     public class Hash64Long_00000A6A$PostfixBurstDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53790B30
-        public void Invoke(){} // RVA: 0x7FFD4EC5F780
+        public void .ctor(){} // RVA: 0x7FFAC8370B30
+        public void Invoke(){} // RVA: 0x7FFAC383F780
     }
 
     public class IIndexable`1
@@ -574,7 +603,7 @@ namespace ThirdParty.Other.Unity.Collections
         public object Length;
 
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7FFD4E079960
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
     }
 
     public class INativeList`1
@@ -584,7 +613,7 @@ namespace ThirdParty.Other.Unity.Collections
     public class IUTF8Bytes
     {
         // ── Methods ──
-        public void GetUnsafePtr(){} // RVA: 0x7FFD4E2ADC40
+        public void GetUnsafePtr(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class KVPair`2 : ValueType
@@ -597,20 +626,70 @@ namespace ThirdParty.Other.Unity.Collections
     public class ListExtensions : Object
     {
         // ── Methods ──
-        public void RemoveAtSwapBack(){} // RVA: 0x7FFD4E096370
+        public void RemoveAtSwapBack(){} // RVA: 0x7FFAC2C76370
+    }
+
+    public class Long1024 : ValueType
+    {
+        public Unity.Collections.Long512 Length; // 0x10
+        public Unity.Collections.Long512 f1; // 0x1010
+
+        // ── Methods ──
+        public void get_Length(){} // RVA: 0x7FFAC9511080
+        public void ElementAt(){} // RVA: 0x7FFAC9511090
+    }
+
+    public class Long512 : ValueType
+    {
+        public Unity.Collections.Long64 f0; // 0x10
+        public Unity.Collections.Long64 f1; // 0x210
+        public Unity.Collections.Long64 f2; // 0x410
+        public Unity.Collections.Long64 f3; // 0x610
+        public Unity.Collections.Long64 f4; // 0x810
+        public Unity.Collections.Long64 f5; // 0xA10
+        public Unity.Collections.Long64 f6; // 0xC10
+        public Unity.Collections.Long64 f7; // 0xE10
+    }
+
+    public class Long64 : ValueType
+    {
+        public Unity.Collections.Long8 f0; // 0x10
+        public Unity.Collections.Long8 f1; // 0x50
+        public Unity.Collections.Long8 f2; // 0x90
+        public Unity.Collections.Long8 f3; // 0xD0
+        public Unity.Collections.Long8 f4; // 0x110
+        public Unity.Collections.Long8 f5; // 0x150
+        public Unity.Collections.Long8 f6; // 0x190
+        public Unity.Collections.Long8 f7; // 0x1D0
+    }
+
+    public class Long8 : ValueType
+    {
+        public long f0; // 0x10
+        public long f1; // 0x18
+        public long f2; // 0x20
+        public long f3; // 0x28
+        public long f4; // 0x30
+        public long f5; // 0x38
+        public long f6; // 0x40
+        public long f7; // 0x48
     }
 
     public class Memory : ValueType
     {
     }
 
+    public class NativeArrayDebugView`1 : Object
+    {
+    }
+
     public class NativeArrayDispose : ValueType
     {
         public void* m_Buffer; // 0x10
-        public 0x664D7E20 m_AllocatorLabel; // 0x18
+        public 0x6B177E20 m_AllocatorLabel; // 0x18
 
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7FFD54C70DA0
+        public void Dispose(){} // RVA: 0x7FFAC9850DA0
     }
 
     public class NativeArrayDisposeJob : ValueType
@@ -618,42 +697,46 @@ namespace ThirdParty.Other.Unity.Collections
         public Unity.Collections.NativeArrayDispose Data; // 0x10
 
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7FFD54C70DA0
-        public void RegisterNativeArrayDisposeJobReflectionData(){} // RVA: 0x7FFD54C70E00
+        public void Execute(){} // RVA: 0x7FFAC9850DA0
+        public void RegisterNativeArrayDisposeJobReflectionData(){} // RVA: 0x7FFAC9850E00
     }
 
     public class NativeArrayExtensions : Object
     {
         // ── Methods ──
-        public void IndexOf(){} // RVA: 0x7FFD4E2ADC40
-        public void Initialize(){} // RVA: 0x7FFD4E2ADC40
+        public void IndexOf(){} // RVA: 0x7FFAC2E8DC40
+        public void Initialize(){} // RVA: 0x7FFAC2E8DC40
+    }
+
+    public class NativeArrayReadOnlyDebugView`1 : Object
+    {
     }
 
     public class NativeArray`1 : ValueType
     {
-        public void* Length; // 0x10
-        public int Item; // 0x18
-        public 0x664D7E20 IsCreated; // 0x1C
+        public void* Length;
+        public int Item;
+        public 0x6B177E20 IsCreated;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
-        public void Allocate(){} // RVA: 0x7FFD4E092740
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void get_Item(){} // RVA: 0x7FFD4E2ADC40
-        public void set_Item(){} // RVA: 0x7FFD4E2ADC40
-        public void get_IsCreated(){} // RVA: 0x7FFD4E079D00
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void CopyFrom(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void ToArray(){} // RVA: 0x7FFD4E078E90
-        public void GetEnumerator(){} // RVA: 0x7FFD4E2ADC40
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFD4E079960
-        public void Copy(){} // RVA: 0x7FFD4E2ADC40 | overloaded x5
-        public void CopySafe(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
-        public void GetSubArray(){} // RVA: 0x7FFD4E2ADC40
-        public void AsReadOnly(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40 | overloaded x3
+        public void Allocate(){} // RVA: 0x7FFAC2C72740
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void get_Item(){} // RVA: 0x7FFAC2E8DC40
+        public void set_Item(){} // RVA: 0x7FFAC2E8DC40
+        public void get_IsCreated(){} // RVA: 0x7FFAC2C59D00
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void CopyFrom(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void ToArray(){} // RVA: 0x7FFAC2C58E90
+        public void GetEnumerator(){} // RVA: 0x7FFAC2E8DC40
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void Equals(){} // RVA: 0x7FFAC2C59F60 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAC2C59960
+        public void Copy(){} // RVA: 0x7FFAC2E8DC40 | overloaded x5
+        public void CopySafe(){} // RVA: 0x7FFAC2E8DC40 | overloaded x3
+        public void GetSubArray(){} // RVA: 0x7FFAC2E8DC40
+        public void AsReadOnly(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class NativeBitArrayDispose : ValueType
@@ -662,7 +745,7 @@ namespace ThirdParty.Other.Unity.Collections
         public AllocatorHandle m_Allocator; // 0x18
 
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7FFD549313E0
+        public void Dispose(){} // RVA: 0x7FFAC95113E0
     }
 
     public class NativeBitArrayDisposeJob : ValueType
@@ -670,16 +753,20 @@ namespace ThirdParty.Other.Unity.Collections
         public Unity.Collections.NativeBitArrayDispose Data; // 0x10
 
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7FFD549314F0
+        public void Execute(){} // RVA: 0x7FFAC95114F0
     }
 
     public class NativeDisableParallelForRestrictionAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class NativeFixedLengthAttribute : Attribute
+    {
+    }
+
+    public class NativeHashMapDebuggerTypeProxy`2 : Object
     {
     }
 
@@ -689,7 +776,7 @@ namespace ThirdParty.Other.Unity.Collections
         public AllocatorHandle m_Allocator; // 0x18
 
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7FFD54931500
+        public void Dispose(){} // RVA: 0x7FFAC9511500
     }
 
     public class NativeHashMapDisposeJob : ValueType
@@ -697,36 +784,40 @@ namespace ThirdParty.Other.Unity.Collections
         public Unity.Collections.NativeHashMapDispose Data; // 0x10
 
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7FFD54931680
+        public void Execute(){} // RVA: 0x7FFAC9511680
     }
 
     public class NativeHashMap`2 : ValueType
     {
-        public Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<VRC.Dynamics.ChainId>* IsCreated; // 0x10
+        public Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<T>* IsCreated;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void get_IsCreated(){} // RVA: 0x7FFD4E079D00
-        public void Clear(){} // RVA: 0x7FFD4E090980
-        public void TryAdd(){} // RVA: 0x7FFD4E2ADC40
-        public void Add(){} // RVA: 0x7FFD4E2ADC40
-        public void Remove(){} // RVA: 0x7FFD4E2ADC40
-        public void TryGetValue(){} // RVA: 0x7FFD4E2ADC40
-        public void ContainsKey(){} // RVA: 0x7FFD4E2ADC40
-        public void set_Item(){} // RVA: 0x7FFD4E2ADC40
-        public void GetKeyArray(){} // RVA: 0x7FFD4E2ADC40
-        public void GetValueArray(){} // RVA: 0x7FFD4E2ADC40
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.KVPair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void get_IsCreated(){} // RVA: 0x7FFAC2C59D00
+        public void Clear(){} // RVA: 0x7FFAC2C70980
+        public void TryAdd(){} // RVA: 0x7FFAC2E8DC40
+        public void Add(){} // RVA: 0x7FFAC2E8DC40
+        public void Remove(){} // RVA: 0x7FFAC2E8DC40
+        public void TryGetValue(){} // RVA: 0x7FFAC2E8DC40
+        public void ContainsKey(){} // RVA: 0x7FFAC2E8DC40
+        public void set_Item(){} // RVA: 0x7FFAC2E8DC40
+        public void GetKeyArray(){} // RVA: 0x7FFAC2E8DC40
+        public void GetValueArray(){} // RVA: 0x7FFAC2E8DC40
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.KVPair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+    }
+
+    public class NativeListDebugView`1 : Object
+    {
     }
 
     public class NativeListDispose : ValueType
     {
-        public ÌÎÍÏ* m_ListData; // 0x10
+        public Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList* m_ListData; // 0x10
 
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7FFD54931690
+        public void Dispose(){} // RVA: 0x7FFAC9511690
     }
 
     public class NativeListDisposeJob : ValueType
@@ -734,86 +825,94 @@ namespace ThirdParty.Other.Unity.Collections
         public Unity.Collections.NativeListDispose Data; // 0x10
 
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7FFD54931690
+        public void Execute(){} // RVA: 0x7FFAC9511690
     }
 
     public class NativeListExtensions : Object
     {
         // ── Methods ──
-        public void Contains(){} // RVA: 0x7FFD4E2ADC40
-        public void IndexOf(){} // RVA: 0x7FFD4E2ADC40
+        public void Contains(){} // RVA: 0x7FFAC2E8DC40
+        public void IndexOf(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class NativeList`1 : ValueType
     {
-        public Unity.Collections.LowLevel.Unsafe.UnsafeList`1<ChainRoot>* Item; // 0x10
+        public Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Item;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void Initialize(){} // RVA: 0x7FFD4E092BC0
-        public void get_Item(){} // RVA: 0x7FFD4E2ADC40
-        public void set_Item(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void set_Length(){} // RVA: 0x7FFD4E090ED0
-        public void get_Capacity(){} // RVA: 0x7FFD4E079960
-        public void Add(){} // RVA: 0x7FFD4E090A40
-        public void AddRange(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void RemoveAtSwapBack(){} // RVA: 0x7FFD4E090ED0
-        public void RemoveAt(){} // RVA: 0x7FFD4E090ED0
-        public void get_IsCreated(){} // RVA: 0x7FFD4E079D00
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void Clear(){} // RVA: 0x7FFD4E090980
-        public void AsArray(){} // RVA: 0x7FFD4E2ADC40
-        public void GetEnumerator(){} // RVA: 0x7FFD4E2ADC40
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void SetCapacity(){} // RVA: 0x7FFD4E090ED0
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void Initialize(){} // RVA: 0x7FFAC2C72BC0
+        public void get_Item(){} // RVA: 0x7FFAC2E8DC40
+        public void set_Item(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void set_Length(){} // RVA: 0x7FFAC2C70ED0
+        public void get_Capacity(){} // RVA: 0x7FFAC2C59960
+        public void Add(){} // RVA: 0x7FFAC2C70A40
+        public void AddRange(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void RemoveAtSwapBack(){} // RVA: 0x7FFAC2C70ED0
+        public void RemoveAt(){} // RVA: 0x7FFAC2C70ED0
+        public void get_IsCreated(){} // RVA: 0x7FFAC2C59D00
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void Clear(){} // RVA: 0x7FFAC2C70980
+        public void AsArray(){} // RVA: 0x7FFAC2E8DC40
+        public void GetEnumerator(){} // RVA: 0x7FFAC2E8DC40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void SetCapacity(){} // RVA: 0x7FFAC2C70ED0
     }
 
     public class NativeMatchesParallelForLengthAttribute : Attribute
     {
     }
 
+    public class NativeParallelHashMapDebuggerTypeProxy`2 : Object
+    {
+    }
+
     public class NativeParallelHashMapExtensions : Object
     {
         // ── Methods ──
-        public void Remove(){} // RVA: 0x7FFD4E2ADC40
+        public void Remove(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class NativeParallelHashMap`2 : ValueType
     {
-        public Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<Pair,bool> IsCreated; // 0x10
+        public Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<T,T> IsCreated;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-        public void get_IsCreated(){} // RVA: 0x7FFD4E079D00
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void AsParallelWriter(){} // RVA: 0x7FFD4E2ADC40
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+        public void get_IsCreated(){} // RVA: 0x7FFAC2C59D00
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void AsParallelWriter(){} // RVA: 0x7FFAC2E8DC40
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+    }
+
+    public class NativeParallelMultiHashMapDebuggerTypeProxy`2 : Object
+    {
     }
 
     public class NativeParallelMultiHashMapIterator`1 : ValueType
     {
-        public UnityEngine.Vector3Int key; // 0x10
-        public int NextEntryIndex; // 0x1C
-        public int EntryIndex; // 0x20
+        public T key;
+        public int NextEntryIndex;
+        public int EntryIndex;
     }
 
     public class NativeParallelMultiHashMap`2 : ValueType
     {
-        public Unity.Collections.LowLevel.Unsafe.UnsafeParallelMultiHashMap`2<UnityEngine.Vector3Int,int> IsCreated; // 0x10
+        public Unity.Collections.LowLevel.Unsafe.UnsafeParallelMultiHashMap`2<T,T> IsCreated;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-        public void Initialize(){} // RVA: 0x7FFD4E092BC0
-        public void Add(){} // RVA: 0x7FFD4E2ADC40
-        public void TryGetFirstValue(){} // RVA: 0x7FFD4E2ADC40
-        public void TryGetNextValue(){} // RVA: 0x7FFD4E07D200
-        public void get_IsCreated(){} // RVA: 0x7FFD4E079D00
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+        public void Initialize(){} // RVA: 0x7FFAC2C72BC0
+        public void Add(){} // RVA: 0x7FFAC2E8DC40
+        public void TryGetFirstValue(){} // RVA: 0x7FFAC2E8DC40
+        public void TryGetNextValue(){} // RVA: 0x7FFAC2C5D200
+        public void get_IsCreated(){} // RVA: 0x7FFAC2C59D00
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
     }
 
     public class NativeQueueDispose : ValueType
@@ -821,7 +920,7 @@ namespace ThirdParty.Other.Unity.Collections
         public Unity.Collections.UnsafeQueue`1<int>* m_QueueData; // 0x10
 
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7FFD549316D0
+        public void Dispose(){} // RVA: 0x7FFAC95116D0
     }
 
     public class NativeQueueDisposeJob : ValueType
@@ -829,27 +928,64 @@ namespace ThirdParty.Other.Unity.Collections
         public Unity.Collections.NativeQueueDispose Data; // 0x10
 
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7FFD549316D0
+        public void Execute(){} // RVA: 0x7FFAC95116D0
     }
 
     public class NativeQueue`1 : ValueType
     {
-        public Unity.Collections.UnsafeQueue`1<ushort>* IsCreated; // 0x10
+        public Unity.Collections.UnsafeQueue`1<T>* IsCreated;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-        public void Enqueue(){} // RVA: 0x7FFD4E2ADC40
-        public void TryDequeue(){} // RVA: 0x7FFD4E079F60
-        public void Clear(){} // RVA: 0x7FFD4E090980
-        public void get_IsCreated(){} // RVA: 0x7FFD4E079D00
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void AsParallelWriter(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+        public void Enqueue(){} // RVA: 0x7FFAC2E8DC40
+        public void TryDequeue(){} // RVA: 0x7FFAC2C59F60
+        public void Clear(){} // RVA: 0x7FFAC2C70980
+        public void get_IsCreated(){} // RVA: 0x7FFAC2C59D00
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void AsParallelWriter(){} // RVA: 0x7FFAC2E8DC40
+    }
+
+    public class NativeReferenceDispose : ValueType
+    {
+        public void* m_Data; // 0x10
+        public AllocatorHandle m_AllocatorLabel; // 0x18
+
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x7FFAC9511710
+    }
+
+    public class NativeReferenceDisposeJob : ValueType
+    {
+        public Unity.Collections.NativeReferenceDispose Data; // 0x10
+
+        // ── Methods ──
+        public void Execute(){} // RVA: 0x7FFAC9511710
+    }
+
+    public class NativeRingQueueDispose : ValueType
+    {
+        public Unity.Collections.LowLevel.Unsafe.UnsafeRingQueue`1<int>* m_QueueData; // 0x10
+
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x7FFAC9511750
+    }
+
+    public class NativeRingQueueDisposeJob : ValueType
+    {
+        public Unity.Collections.NativeRingQueueDispose Data; // 0x10
+
+        // ── Methods ──
+        public void Execute(){} // RVA: 0x7FFAC95118A0
+    }
+
+    public class NativeSliceDebugView`1 : Object
+    {
     }
 
     public class NativeSliceExtensions : Object
     {
         // ── Methods ──
-        public void Slice(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
+        public void Slice(){} // RVA: 0x7FFAC2E8DC40 | overloaded x3
     }
 
     public class NativeSlice`1 : ValueType
@@ -859,18 +995,18 @@ namespace ThirdParty.Other.Unity.Collections
         public int Length;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x4
-        public void op_Implicit(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Item(){} // RVA: 0x7FFD4E2ADC40
-        public void set_Item(){} // RVA: 0x7FFD4E2ADC40
-        public void CopyFrom(){} // RVA: 0x7FFD4E090A40 | overloaded x2
-        public void get_Stride(){} // RVA: 0x7FFD4E079960
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void GetEnumerator(){} // RVA: 0x7FFD4E2ADC40
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFD4E079960
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40 | overloaded x4
+        public void op_Implicit(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Item(){} // RVA: 0x7FFAC2E8DC40
+        public void set_Item(){} // RVA: 0x7FFAC2E8DC40
+        public void CopyFrom(){} // RVA: 0x7FFAC2C70A40 | overloaded x2
+        public void get_Stride(){} // RVA: 0x7FFAC2C59960
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void GetEnumerator(){} // RVA: 0x7FFAC2E8DC40
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void Equals(){} // RVA: 0x7FFAC2C59F60 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAC2C59960
     }
 
     public class NativeStream : ValueType
@@ -878,15 +1014,47 @@ namespace ThirdParty.Other.Unity.Collections
         public Unity.Collections.LowLevel.Unsafe.UnsafeStream IsCreated; // 0x10
 
         // ── Methods ──
-        public void get_IsCreated(){} // RVA: 0x7FFD511E6CA0
-        public void Dispose(){} // RVA: 0x7FFD549318B0
-        public void AllocateForEach(){} // RVA: 0x7FFD549318C0
+        public void get_IsCreated(){} // RVA: 0x7FFAC5DC6CA0
+        public void Dispose(){} // RVA: 0x7FFAC95118B0
+        public void AllocateForEach(){} // RVA: 0x7FFAC95118C0
+    }
+
+    public class NativeStreamDispose : ValueType
+    {
+        public Unity.Collections.LowLevel.Unsafe.UnsafeStream m_StreamData; // 0x10
+
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x7FFAC95118B0
+    }
+
+    public class NativeStreamDisposeJob : ValueType
+    {
+        public Unity.Collections.NativeStreamDispose Data; // 0x10
+
+        // ── Methods ──
+        public void Execute(){} // RVA: 0x7FFAC95118B0
+    }
+
+    public class NativeTextDispose : ValueType
+    {
+        public Unity.Collections.LowLevel.Unsafe.UnsafeText* m_TextData; // 0x10
+
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x7FFAC9511910
+    }
+
+    public class NativeTextDisposeJob : ValueType
+    {
+        public Unity.Collections.NativeTextDispose Data; // 0x10
+
+        // ── Methods ──
+        public void Execute(){} // RVA: 0x7FFAC9511A30
     }
 
     public class ReadOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class RewindableAllocator : ValueType
@@ -900,12 +1068,12 @@ namespace ThirdParty.Other.Unity.Collections
         public byte m_reachMaxBlockSize; // 0x31
 
         // ── Methods ──
-        public void Rewind(){} // RVA: 0x7FFD54931A40
-        public void Dispose(){} // RVA: 0x7FFD54931BD0
-        public void TryAllocate(){} // RVA: 0x7FFD54931D20
-        public void Try(){} // RVA: 0x7FFD549321F0 | overloaded x2
-        public void get_Handle(){} // RVA: 0x7FFD4F8402A0
-        public void Try$BurstManaged(){} // RVA: 0x7FFD54932250
+        public void Rewind(){} // RVA: 0x7FFAC9511A40
+        public void Dispose(){} // RVA: 0x7FFAC9511BD0
+        public void TryAllocate(){} // RVA: 0x7FFAC9511D20
+        public void Try(){} // RVA: 0x7FFAC95121F0 | overloaded x2
+        public void get_Handle(){} // RVA: 0x7FFAC44202A0
+        public void Try$BurstManaged(){} // RVA: 0x7FFAC9512250
     }
 
     public class Spinner : ValueType
@@ -913,8 +1081,8 @@ namespace ThirdParty.Other.Unity.Collections
         public int m_Lock; // 0x10
 
         // ── Methods ──
-        public void Acquire(){} // RVA: 0x7FFD5492E5E0
-        public void Release(){} // RVA: 0x7FFD5492E600
+        public void Acquire(){} // RVA: 0x7FFAC950E5E0
+        public void Release(){} // RVA: 0x7FFAC950E600
     }
 
     public class Try_000000E3$BurstDirectCall : Object
@@ -923,19 +1091,19 @@ namespace ThirdParty.Other.Unity.Collections
         public UIntPtr DeferredCompilation; // 0x8
 
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD54930A90
-        public void GetFunctionPointer(){} // RVA: 0x7FFD54930BD0
-        public void Constructor(){} // RVA: 0x7FFD54930D40
-        public void Initialize(){} // RVA: 0x7FFD4E341310
-        public void .cctor(){} // RVA: 0x7FFD54930D40
-        public void Invoke(){} // RVA: 0x7FFD54930E00
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFAC9510A90
+        public void GetFunctionPointer(){} // RVA: 0x7FFAC9510BD0
+        public void Constructor(){} // RVA: 0x7FFAC9510D40
+        public void Initialize(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFAC9510D40
+        public void Invoke(){} // RVA: 0x7FFAC9510E00
     }
 
     public class Try_000000E3$PostfixBurstDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD5337FAB0
-        public void Invoke(){} // RVA: 0x7FFD4E49D370
+        public void .ctor(){} // RVA: 0x7FFAC7F5FAB0
+        public void Invoke(){} // RVA: 0x7FFAC307D370
     }
 
     public class Try_000009DF$BurstDirectCall : Object
@@ -944,19 +1112,19 @@ namespace ThirdParty.Other.Unity.Collections
         public UIntPtr DeferredCompilation; // 0x8
 
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD549323C0
-        public void GetFunctionPointer(){} // RVA: 0x7FFD54932500
-        public void Constructor(){} // RVA: 0x7FFD54932670
-        public void Initialize(){} // RVA: 0x7FFD4E341310
-        public void .cctor(){} // RVA: 0x7FFD54932670
-        public void Invoke(){} // RVA: 0x7FFD54932730
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFAC95123C0
+        public void GetFunctionPointer(){} // RVA: 0x7FFAC9512500
+        public void Constructor(){} // RVA: 0x7FFAC9512670
+        public void Initialize(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFAC9512670
+        public void Invoke(){} // RVA: 0x7FFAC9512730
     }
 
     public class Try_000009DF$PostfixBurstDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD5337FAB0
-        public void Invoke(){} // RVA: 0x7FFD4E49D370
+        public void .ctor(){} // RVA: 0x7FFAC7F5FAB0
+        public void Invoke(){} // RVA: 0x7FFAC307D370
     }
 
     public class Unicode : ValueType
@@ -964,23 +1132,23 @@ namespace ThirdParty.Other.Unity.Collections
         public object ReplacementCharacter;
 
         // ── Methods ──
-        public void IsValidCodePoint(){} // RVA: 0x7FFD54932940
-        public void NotTrailer(){} // RVA: 0x7FFD54932950
-        public void get_ReplacementCharacter(){} // RVA: 0x7FFD53EA36C0
-        public void Utf8ToUcs(){} // RVA: 0x7FFD54932960
-        public void UcsToUtf16(){} // RVA: 0x7FFD54932B50
-        public void Utf8ToUtf16(){} // RVA: 0x7FFD54932BF0
+        public void IsValidCodePoint(){} // RVA: 0x7FFAC9512940
+        public void NotTrailer(){} // RVA: 0x7FFAC9512950
+        public void get_ReplacementCharacter(){} // RVA: 0x7FFAC8A836C0
+        public void Utf8ToUcs(){} // RVA: 0x7FFAC9512960
+        public void UcsToUtf16(){} // RVA: 0x7FFAC9512B50
+        public void Utf8ToUtf16(){} // RVA: 0x7FFAC9512BF0
     }
 
     public class UnmanagedArray`1 : ValueType
     {
-        public UIntPtr Item; // 0x10
-        public int m_length; // 0x18
-        public AllocatorHandle m_allocator; // 0x1C
+        public UIntPtr Item;
+        public int m_length;
+        public AllocatorHandle m_allocator;
 
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void get_Item(){} // RVA: 0x7FFD4E087DE0
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void get_Item(){} // RVA: 0x7FFAC2C67DE0
     }
 
     public class UnsafeQueueBlockHeader : ValueType
@@ -999,28 +1167,45 @@ namespace ThirdParty.Other.Unity.Collections
         public byte* m_CurrentWriteBlockTLS; // 0x28
 
         // ── Methods ──
-        public void GetCurrentWriteBlockTLS(){} // RVA: 0x7FFD54932D80
-        public void SetCurrentWriteBlockTLS(){} // RVA: 0x7FFD54932D90
-        public void AllocateWriteBlockMT(){} // RVA: 0x7FFD4E2ADC40
-        public void AllocateQueue(){} // RVA: 0x7FFD4E2ADC40
-        public void DeallocateQueue(){} // RVA: 0x7FFD54932DA0
+        public void GetCurrentWriteBlockTLS(){} // RVA: 0x7FFAC9512D80
+        public void SetCurrentWriteBlockTLS(){} // RVA: 0x7FFAC9512D90
+        public void AllocateWriteBlockMT(){} // RVA: 0x7FFAC2E8DC40
+        public void AllocateQueue(){} // RVA: 0x7FFAC2E8DC40
+        public void DeallocateQueue(){} // RVA: 0x7FFAC9512DA0
+    }
+
+    public class UnsafeQueueDispose : ValueType
+    {
+        public Unity.Collections.UnsafeQueueData* m_Buffer; // 0x10
+        public AllocatorHandle m_AllocatorLabel; // 0x18
+
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x7FFAC9512F10
+    }
+
+    public class UnsafeQueueDisposeJob : ValueType
+    {
+        public Unity.Collections.UnsafeQueueDispose Data; // 0x10
+
+        // ── Methods ──
+        public void Execute(){} // RVA: 0x7FFAC9512F10
     }
 
     public class UnsafeQueue`1 : ValueType
     {
-        public Unity.Collections.UnsafeQueueData* IsCreated; // 0x10
-        public AllocatorHandle m_AllocatorLabel; // 0x18
+        public Unity.Collections.UnsafeQueueData* IsCreated;
+        public AllocatorHandle m_AllocatorLabel;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-        public void Alloc(){} // RVA: 0x7FFD4E2ADC40
-        public void Free(){} // RVA: 0x7FFD4E2ADC40
-        public void Enqueue(){} // RVA: 0x7FFD4E2ADC40
-        public void TryDequeue(){} // RVA: 0x7FFD4E079F60
-        public void Clear(){} // RVA: 0x7FFD4E090980
-        public void get_IsCreated(){} // RVA: 0x7FFD4E079D00
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void AsParallelWriter(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+        public void Alloc(){} // RVA: 0x7FFAC2E8DC40
+        public void Free(){} // RVA: 0x7FFAC2E8DC40
+        public void Enqueue(){} // RVA: 0x7FFAC2E8DC40
+        public void TryDequeue(){} // RVA: 0x7FFAC2C59F60
+        public void Clear(){} // RVA: 0x7FFAC2C70980
+        public void get_IsCreated(){} // RVA: 0x7FFAC2C59D00
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void AsParallelWriter(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class WriteOnlyAttribute : Attribute
@@ -1030,27 +1215,27 @@ namespace ThirdParty.Other.Unity.Collections
     public class xxHash3 : Object
     {
         // ── Methods ──
-        public void Avx2HashLongInternalLoop(){} // RVA: 0x7FFD4E9F2DD0
-        public void Avx2ScrambleAcc(){} // RVA: 0x7FFD4E9F2DD0
-        public void Avx2Accumulate(){} // RVA: 0x7FFD4E9F2DD0
-        public void Avx2Accumulate512(){} // RVA: 0x7FFD4E9F2DD0
-        public void Hash64Long(){} // RVA: 0x7FFD54932F20
-        public void Hash128Long(){} // RVA: 0x7FFD54932FB0
-        public void ToUint4(){} // RVA: 0x7FFD54933040
-        public void Read64LE(){} // RVA: 0x7FFD4EEF9F60
-        public void Write64LE(){} // RVA: 0x7FFD4F9DB120
-        public void Mul32To64(){} // RVA: 0x7FFD539D6350
-        public void XorShift64(){} // RVA: 0x7FFD543B3F70
-        public void Mul128Fold64(){} // RVA: 0x7FFD54933060
-        public void Avalanche(){} // RVA: 0x7FFD543B3BB0
-        public void Mix2Acc(){} // RVA: 0x7FFD549330C0
-        public void MergeAcc(){} // RVA: 0x7FFD54933120
-        public void DefaultHashLongInternalLoop(){} // RVA: 0x7FFD54933310
-        public void DefaultAccumulate(){} // RVA: 0x7FFD549336A0
-        public void DefaultAccumulate512(){} // RVA: 0x7FFD54933880
-        public void DefaultScrambleAcc(){} // RVA: 0x7FFD549339E0
-        public void Hash64Long$BurstManaged(){} // RVA: 0x7FFD54933AC0
-        public void Hash128Long$BurstManaged(){} // RVA: 0x7FFD54933BE0
+        public void Avx2HashLongInternalLoop(){} // RVA: 0x7FFAC35D2DD0
+        public void Avx2ScrambleAcc(){} // RVA: 0x7FFAC35D2DD0
+        public void Avx2Accumulate(){} // RVA: 0x7FFAC35D2DD0
+        public void Avx2Accumulate512(){} // RVA: 0x7FFAC35D2DD0
+        public void Hash64Long(){} // RVA: 0x7FFAC9512F20
+        public void Hash128Long(){} // RVA: 0x7FFAC9512FB0
+        public void ToUint4(){} // RVA: 0x7FFAC9513040
+        public void Read64LE(){} // RVA: 0x7FFAC3AD9F60
+        public void Write64LE(){} // RVA: 0x7FFAC45BB120
+        public void Mul32To64(){} // RVA: 0x7FFAC85B6350
+        public void XorShift64(){} // RVA: 0x7FFAC8F93F70
+        public void Mul128Fold64(){} // RVA: 0x7FFAC9513060
+        public void Avalanche(){} // RVA: 0x7FFAC8F93BB0
+        public void Mix2Acc(){} // RVA: 0x7FFAC95130C0
+        public void MergeAcc(){} // RVA: 0x7FFAC9513120
+        public void DefaultHashLongInternalLoop(){} // RVA: 0x7FFAC9513310
+        public void DefaultAccumulate(){} // RVA: 0x7FFAC95136A0
+        public void DefaultAccumulate512(){} // RVA: 0x7FFAC9513880
+        public void DefaultScrambleAcc(){} // RVA: 0x7FFAC95139E0
+        public void Hash64Long$BurstManaged(){} // RVA: 0x7FFAC9513AC0
+        public void Hash128Long$BurstManaged(){} // RVA: 0x7FFAC9513BE0
     }
 
 }

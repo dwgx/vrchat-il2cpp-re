@@ -7,7 +7,7 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 {
     public class ControlData : Object
     {
-        public 0x66374F08 eyeControl; // 0x10
+        public 0x6B014F08 eyeControl; // 0x10
         public UnityEngine.Transform leftEye; // 0x18
         public UnityEngine.Transform rightEye; // 0x20
         public float maxEyeUpBoneAngle; // 0x28
@@ -24,8 +24,8 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public RealisticEyeMovements.EyeRotationLimiter rightBoneEyeRotationLimiter; // 0x48
         public RealisticEyeMovements.EyeRotationLimiter leftEyeballEyeRotationLimiter; // 0x50
         public RealisticEyeMovements.EyeRotationLimiter rightEyeballEyeRotationLimiter; // 0x58
-        public F eyelidControl; // 0x60
-        public F eyelidBoneMode; // 0x64
+        public 0x6B014F60 eyelidControl; // 0x60
+        public 0x6B014FB8 eyelidBoneMode; // 0x64
         public bool eyelidsFollowEyesVertically; // 0x68
         public UnityEngine.Transform upperEyeLidLeft; // 0x70
         public UnityEngine.Transform upperEyeLidRight; // 0x78
@@ -50,34 +50,34 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public bool isEyelidBlendshapeLookDownSet; // 0xE3
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFD4F91F0A0
-        public void Equals(){} // RVA: 0x7FFD4F91F3D0
-        public void GetHashCode(){} // RVA: 0x7FFD4F91FAE0
-        public void .ctor(){} // RVA: 0x7FFD4F9207A0
-        public void Initialize(){} // RVA: 0x7FFD4F920CB0
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFD4F920CD0
-        public void GetCachedPtr(){} // RVA: 0x7FFD4F920EF0
-        public void get_name(){} // RVA: 0x7FFD4F921230
-        public void set_name(){} // RVA: 0x7FFD4F921510
-        public void Instantiate(){} // RVA: 0x7FFD4F921790
-        public void ToString(){} // RVA: 0x7FFD4F921AC0
-        public void Instantiate_07E0E98FFE9A(){} // RVA: 0x7FFD4F921B10
-        public void ToString_A72D306FA0CC(){} // RVA: 0x7FFD4F921C20
-        public void UpdateConditionalField(){} // RVA: 0x7FFD4F921C60
-        public void GetIndexedField(){} // RVA: 0x7FFD4F921F90
-        public void RetrieveAndProcessInternalData(){} // RVA: 0x7FFD4F921FD0
-        public void InitializeStaticContext(){} // RVA: 0x7FFD4F922F70
-        public void GetInitializedValue(){} // RVA: 0x7FFD4F9232A0
-        public void ToString_A3675EE847AB(){} // RVA: 0x7FFD4F9241C0
-        public void Destroy(){} // RVA: 0x7FFD4F9243E0
-        public void ProcessIndexedEyeControl(){} // RVA: 0x7FFD4F9250B0
-        public void DestroyImmediate(){} // RVA: 0x7FFD4F925640
-        public void SetIndexedBytesConditional(){} // RVA: 0x7FFD4F926070
-        public void FindObjectsOfType(){} // RVA: 0x7FFD4F926630
-        public void GetIndexedBooleanConditional(){} // RVA: 0x7FFD4F926910
-        public void FindObjectsByType(){} // RVA: 0x7FFD4F920CB0
-        public void SetIndexedByteConditional(){} // RVA: 0x7FFD4F927190
-        public void DontDestroyOnLoad(){} // RVA: 0x7FFD4F9272A0
+        public void GetInstanceID(){} // RVA: 0x7FFAC44FF0A0
+        public void Equals(){} // RVA: 0x7FFAC44FF3D0
+        public void GetHashCode(){} // RVA: 0x7FFAC44FFAE0
+        public void .ctor(){} // RVA: 0x7FFAC45007A0
+        public void Initialize(){} // RVA: 0x7FFAC4500CB0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFAC4500CD0
+        public void GetCachedPtr(){} // RVA: 0x7FFAC4500EF0
+        public void get_name(){} // RVA: 0x7FFAC4501230
+        public void set_name(){} // RVA: 0x7FFAC4501510
+        public void Instantiate(){} // RVA: 0x7FFAC4501790
+        public void ToString(){} // RVA: 0x7FFAC4501AC0
+        public void Instantiate_07E0E98FFE9A(){} // RVA: 0x7FFAC4501B10
+        public void ToString_A72D306FA0CC(){} // RVA: 0x7FFAC4501C20
+        public void UpdateConditionalField(){} // RVA: 0x7FFAC4501C60
+        public void GetIndexedField(){} // RVA: 0x7FFAC4501F90
+        public void RetrieveAndProcessInternalData(){} // RVA: 0x7FFAC4501FD0
+        public void InitializeStaticContext(){} // RVA: 0x7FFAC4502F70
+        public void GetInitializedValue(){} // RVA: 0x7FFAC45032A0
+        public void ToString_A3675EE847AB(){} // RVA: 0x7FFAC45041C0
+        public void Destroy(){} // RVA: 0x7FFAC45043E0
+        public void ProcessIndexedEyeControl(){} // RVA: 0x7FFAC45050B0
+        public void DestroyImmediate(){} // RVA: 0x7FFAC4505640
+        public void SetIndexedBytesConditional(){} // RVA: 0x7FFAC4506070
+        public void FindObjectsOfType(){} // RVA: 0x7FFAC4506630
+        public void GetIndexedBooleanConditional(){} // RVA: 0x7FFAC4506910
+        public void FindObjectsByType(){} // RVA: 0x7FFAC4500CB0
+        public void SetIndexedByteConditional(){} // RVA: 0x7FFAC4507190
+        public void DontDestroyOnLoad(){} // RVA: 0x7FFAC45072A0
     }
 
     public class EyeAndHeadAnimator : MonoBehaviour
@@ -91,7 +91,7 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public float f_374; // 0x2C
         public UnityEngine.Transform f_3A5; // 0x30
         public UnityEngine.Quaternion ÌÏÏÍÍÏÏÎÌÎÍÍÎÏÏÏÌÏÎÌÎÌÍ; // 0x38
-        public F ÎÍÏÍÌÎÌÌÏÍÍÏÍÍÎÏÍÍÏÍÏÏÎ; // 0x48
+        public 0x6B015328 ÎÍÏÍÌÎÌÌÏÍÍÏÍÍÎÏÍÍÏÍÏÏÎ; // 0x48
         public bool useMicroSaccades; // 0x4C
         public bool useMacroSaccades; // 0x4D
         public bool kDrawSightlinesInEditor; // 0x4E
@@ -106,7 +106,7 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public bool ÏÏÌÎÏÏÎÏÎÌÌÏÍÏÏÏÍÍÍÌÍÌÌ; // 0x71
         public bool ÍÎÏÍÍÏÌÍÎÍÎÎÏÌÎÏÌÌÎÍÍÏÏ; // 0x72
         public float ÎÍÍÌÌÏÍÌÍÌÏÍÍÏÎÍÌÎÎÌÌÌÎ; // 0x74
-        public 0x66375380 ÍÌÎÌÌÌÎÍÎÌÍÍÏÍÏÌÌÍÏÌÌÏÏ; // 0x78
+        public 0x6B015380 ÍÌÎÌÌÌÎÍÎÌÍÍÏÍÏÌÌÍÏÌÌÏÏ; // 0x78
         public float ÍÏÍÏÎÍÎÍÌÍÏÍÎÎÎÍÏÌÍÍÍÌÌ; // 0x7C
         public float ÎÏÍÌÏÍÍÍÎÍÍÎÌÍÏÏÌÎÍÍÌÍÍ; // 0x80
         public bool ÏÏÍÎÌÍÏÏÍÍÎÏÎÍÍÌÏÌÍÌÌÎÎ; // 0x84
@@ -196,96 +196,96 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public bool <ÏÍÌÍÍÏÏÏÏÏÌÎÎÌÌÏÌÌÌÌÌÎÎ>k__BackingField; // 0x2C9
         public bool ÏÌÏÍÎÍÌÎÏÎÌÍÌÏÏÏÌÏÍÎÍÍÏ; // 0x2CA
         public bool ÌÎÍÍÏÏÎÍÎÏÎÌÌÍÍÏÌÌÏÍÎÎÏ; // 0x2CB
-        public 0x663753D8 ÎÎÍÌÌÍÌÏÍÌÍÌÍÎÍÌÍÍÌÌÎÎÏ; // 0x2CC
-        public 0x66375488 ÌÎÎÌÎÏÍÎÏÍÌÌÎÏÍÎÏÎÍÍÎÏÎ; // 0x2D0
-        public 0x663754E0 ÌÎÌÎÌÌÎÍÏÎÌÏÎÌÎÍÌÏÏÏÍÎÌ; // 0x2D4
+        public 0x6B0153D8 ÎÎÍÌÌÍÌÏÍÌÍÌÍÎÍÌÍÍÌÌÎÎÏ; // 0x2CC
+        public 0x6B015488 ÌÎÎÌÎÏÍÎÏÍÌÌÎÏÍÎÏÎÍÍÎÏÎ; // 0x2D0
+        public 0x6B0154E0 ÌÎÌÎÌÌÎÍÏÎÌÏÎÌÎÍÌÏÏÏÍÎÌ; // 0x2D4
         public System.Collections.Generic.Dictionary`2<string,RealisticEyeMovements.EyeAndHeadAnimatorForExport> ÎÍÌÏÎÌÏÍÌÎÍÌÎÎÏÏÎÍÍÎÌÍÍ;
         public bool ÌÏÍÍÌÏÎÌÏÎÌÎÏÏÌÍÌÌÌÌÍÍÍ; // 0x2D8
         public VRC.Profiling.ProfilerMarker ÍÏÌÎÏÏÌÏÍÍÌÎÏÍÌÌÌÌÌÌÏÍÌ; // 0x8
 
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F92C8F0
-        public void RaiseCancellation(){} // RVA: 0x7FFD4F92CA50
-        public void set_EnginePower(){} // RVA: 0x7FFD4E36A070
-        public void CancelInvoke_6E11564B52EF(){} // RVA: 0x7FFD4F935570 | overloaded x2
-        public void OnDestroy(){} // RVA: 0x7FFD4F92CCF0
-        public void InvokeRepeating(){} // RVA: 0x7FFD4F92CEC0
-        public void OnApplicationQuit(){} // RVA: 0x7FFD4F92D0C0
-        public void IsInvoking(){} // RVA: 0x7FFD4F92D890
-        public void StartCoroutine(){} // RVA: 0x7FFD4F92DD40
-        public void get_CurrentSteerAngle(){} // RVA: 0x7FFD4E362500
-        public void Update(){} // RVA: 0x7FFD4F92E090
-        public void StartCoroutine_Auto(){} // RVA: 0x7FFD4E84CFA0
-        public void StopCoroutine(){} // RVA: 0x7FFD4F92E280
-        public void OnTriggerStay(){} // RVA: 0x7FFD4E341310
-        public void OnTriggerExit(){} // RVA: 0x7FFD4F92E2C0
-        public void StopAllCoroutines(){} // RVA: 0x7FFD4F92E3A0
-        public void get_useGUILayout(){} // RVA: 0x7FFD4F92F150
-        public void set_onFocusSelectAll(){} // RVA: 0x7FFD4F92F260
-        public void .cctor(){} // RVA: 0x7FFD4F92F270
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7FFD4F92F400
-        public void get_onFocusSelectAll(){} // RVA: 0x7FFD4F294AA0
-        public void InvokeDelayed(){} // RVA: 0x7FFD4F92F410
-        public void Computetime(){} // RVA: 0x7FFD4F92F570
-        public void IsInvoking_520ED276336B(){} // RVA: 0x7FFD4F92F5F0
-        public void OnCollisionExit_F5774FDC51D1(){} // RVA: 0x7FFD4F933010 | overloaded x2
-        public void OnCollisionStay_217BB3527753(){} // RVA: 0x7FFD4F932D90 | overloaded x2
-        public void StartCoroutineManaged2(){} // RVA: 0x7FFD4E341310
-        public void StopCoroutineManaged(){} // RVA: 0x7FFD4F92FD20
-        public void Awake(){} // RVA: 0x7FFD4E341310
-        public void GetScriptClassName(){} // RVA: 0x7FFD4F92FE00
-        public void OnCancellationTokenCreated(){} // RVA: 0x7FFD4F92FFD0
-        public void FixedUpdate(){} // RVA: 0x7FFD4F9305D0
-        public void InitializeAnimatorDependencies(){} // RVA: 0x7FFD4F9306B0
-        public void Computeup(){} // RVA: 0x7FFD4F92F400
-        public void ComputeEyeHeadAnimationPosition_79A9C81D3213(){} // RVA: 0x7FFD4F938D40 | overloaded x2
-        public void Computeup_01CA61583B80(){} // RVA: 0x7FFD4F930E00
-        public void OnApplicationPause(){} // RVA: 0x7FFD4F9313C0
-        public void GetCurrentHealth(){} // RVA: 0x7FFD4E36A040
-        public void set_bakingProgress(){} // RVA: 0x7FFD4E36A050
-        public void GetArrowVelocity(){} // RVA: 0x7FFD4E562100
-        public void OnCollisionEnter(){} // RVA: 0x7FFD4F931F70
-        public void get_onTouchScreenKeyboardStatusChanged(){} // RVA: 0x7FFD4EDD1060
-        public void OnAnimatorIK(){} // RVA: 0x7FFD4F9331A0
-        public void Start(){} // RVA: 0x7FFD4F933450
-        public void SetEyeHeadAnimProperty(){} // RVA: 0x7FFD4F933550
-        public void SetEyeHeadAnimProperty_D35F8BB82557(){} // RVA: 0x7FFD4F933560
-        public void OnDrawGizmos(){} // RVA: 0x7FFD4F9337E0
-        public void OnDisable(){} // RVA: 0x7FFD4F934E80
-        public void Computeup_A3A30D2003E1(){} // RVA: 0x7FFD4F934EE0
-        public void Doop_Multiply(){} // RVA: 0x7FFD4F934FD0
-        public void OnDisable_impl(){} // RVA: 0x7FFD4F9350C0
-        public void OnBecameVisible(){} // RVA: 0x7FFD4F9350E0
-        public void OnBecameInvisible(){} // RVA: 0x7FFD4F9353E0
-        public void OnDisableImpl(){} // RVA: 0x7FFD4F935400
-        public void DoDestroyImmediate_A15(){} // RVA: 0x7FFD4F935480
-        public void OnTriggerEnter(){} // RVA: 0x7FFD4F935660
-        public void GetHeadLookTargetPosition(){} // RVA: 0x7FFD4F935730
-        public void Getposition(){} // RVA: 0x7FFD4F935820
-        public void set_touchpadClicked(){} // RVA: 0x7FFD4EDCC5A0
-        public void set_virtualGreenScreenDepthTolerance(){} // RVA: 0x7FFD4E559A60
-        public void DoRender_7AB(){} // RVA: 0x7FFD4F9359B0
-        public void RenderEyeHeadDebug(){} // RVA: 0x7FFD4F9359D0
-        public void DoRange(){} // RVA: 0x7FFD4F935C80
-        public void GetEyeHeadAnimationState_4B6FF54EF567(){} // RVA: 0x7FFD4F938C00 | overloaded x2
-        public void GetAnimatorHeadLookState(){} // RVA: 0x7FFD4F935F30
-        public void LateUpdate(){} // RVA: 0x7FFD4F935F40
-        public void OnEnable(){} // RVA: 0x7FFD4E341310
-        public void Computebytes(){} // RVA: 0x7FFD4F936200
-        public void UpdateTransform(){} // RVA: 0x7FFD4F9362D0
-        public void SetHeadLookTargetAndState(){} // RVA: 0x7FFD4F92F400
-        public void UpdateHeadLookTargetState(){} // RVA: 0x7FFD4F936EC0
-        public void OnCollisionStay_D2E99F9F7768(){} // RVA: 0x7FFD4F937C90
-        public void GetEyeHeadAnimationState_2E3FFC8A90B9(){} // RVA: 0x7FFD4F9380E0
-        public void ComputedeltaTime(){} // RVA: 0x7FFD4F938330
-        public void GetAnimatorHeadLookState_FD6A53486A9A(){} // RVA: 0x7FFD4F938500
-        public void CalculateLookRotationLimit(){} // RVA: 0x7FFD4F938780
-        public void get_EnginePower(){} // RVA: 0x7FFD4E36A060
-        public void .ctor(){} // RVA: 0x7FFD4F938F40
-        public void Initialize(){} // RVA: 0x7FFD4F939110
-        public void GetTransformPosition(){} // RVA: 0x7FFD4F939170
-        public void CalculateAndLimitRotationAngle(){} // RVA: 0x7FFD4F9393C0
-        public void ComputeParent(){} // RVA: 0x7FFD4F93ACB0
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFAC450C8F0
+        public void RaiseCancellation(){} // RVA: 0x7FFAC450CA50
+        public void set_EnginePower(){} // RVA: 0x7FFAC2F4A070
+        public void CancelInvoke_6E11564B52EF_6E11564B52EF(){} // RVA: 0x7FFAC4515570 | overloaded x2
+        public void OnDestroy(){} // RVA: 0x7FFAC450CCF0
+        public void InvokeRepeating(){} // RVA: 0x7FFAC450CEC0
+        public void OnApplicationQuit(){} // RVA: 0x7FFAC450D0C0
+        public void IsInvoking(){} // RVA: 0x7FFAC450D890
+        public void StartCoroutine(){} // RVA: 0x7FFAC450DD40
+        public void get_CurrentSteerAngle(){} // RVA: 0x7FFAC2F42500
+        public void Update(){} // RVA: 0x7FFAC450E090
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFAC342CFA0
+        public void StopCoroutine(){} // RVA: 0x7FFAC450E280
+        public void OnTriggerStay(){} // RVA: 0x7FFAC2F21310
+        public void OnTriggerExit(){} // RVA: 0x7FFAC450E2C0
+        public void StopAllCoroutines(){} // RVA: 0x7FFAC450E3A0
+        public void get_useGUILayout(){} // RVA: 0x7FFAC450F150
+        public void set_onFocusSelectAll(){} // RVA: 0x7FFAC450F260
+        public void .cctor(){} // RVA: 0x7FFAC450F270
+        public void Internal_CancelInvokeAll(){} // RVA: 0x7FFAC450F400
+        public void get_onFocusSelectAll(){} // RVA: 0x7FFAC3E74AA0
+        public void InvokeDelayed(){} // RVA: 0x7FFAC450F410
+        public void Computetime(){} // RVA: 0x7FFAC450F570
+        public void IsInvoking_520ED276336B(){} // RVA: 0x7FFAC450F5F0
+        public void OnCollisionExit_F5774FDC51D1_F5774FDC51D1(){} // RVA: 0x7FFAC4513010 | overloaded x2
+        public void OnCollisionStay_217BB3527753_217BB3527753(){} // RVA: 0x7FFAC4512D90 | overloaded x2
+        public void StartCoroutineManaged2(){} // RVA: 0x7FFAC2F21310
+        public void StopCoroutineManaged(){} // RVA: 0x7FFAC450FD20
+        public void Awake(){} // RVA: 0x7FFAC2F21310
+        public void GetScriptClassName(){} // RVA: 0x7FFAC450FE00
+        public void OnCancellationTokenCreated(){} // RVA: 0x7FFAC450FFD0
+        public void FixedUpdate(){} // RVA: 0x7FFAC45105D0
+        public void InitializeAnimatorDependencies(){} // RVA: 0x7FFAC45106B0
+        public void Computeup(){} // RVA: 0x7FFAC450F400
+        public void ComputeEyeHeadAnimationPosition_79A9C81D3213_79A9C81D3213(){} // RVA: 0x7FFAC4518D40 | overloaded x2
+        public void Computeup_01CA61583B80(){} // RVA: 0x7FFAC4510E00
+        public void OnApplicationPause(){} // RVA: 0x7FFAC45113C0
+        public void GetCurrentHealth(){} // RVA: 0x7FFAC2F4A040
+        public void set_bakingProgress(){} // RVA: 0x7FFAC2F4A050
+        public void GetArrowVelocity(){} // RVA: 0x7FFAC3142100
+        public void OnCollisionEnter(){} // RVA: 0x7FFAC4511F70
+        public void get_onTouchScreenKeyboardStatusChanged(){} // RVA: 0x7FFAC39B1060
+        public void OnAnimatorIK(){} // RVA: 0x7FFAC45131A0
+        public void Start(){} // RVA: 0x7FFAC4513450
+        public void SetEyeHeadAnimProperty(){} // RVA: 0x7FFAC4513550
+        public void SetEyeHeadAnimProperty_D35F8BB82557(){} // RVA: 0x7FFAC4513560
+        public void OnDrawGizmos(){} // RVA: 0x7FFAC45137E0
+        public void OnDisable(){} // RVA: 0x7FFAC4514E80
+        public void Computeup_A3A30D2003E1(){} // RVA: 0x7FFAC4514EE0
+        public void Doop_Multiply(){} // RVA: 0x7FFAC4514FD0
+        public void OnDisable_impl(){} // RVA: 0x7FFAC45150C0
+        public void OnBecameVisible(){} // RVA: 0x7FFAC45150E0
+        public void OnBecameInvisible(){} // RVA: 0x7FFAC45153E0
+        public void OnDisableImpl(){} // RVA: 0x7FFAC4515400
+        public void DoDestroyImmediate_A15(){} // RVA: 0x7FFAC4515480
+        public void OnTriggerEnter(){} // RVA: 0x7FFAC4515660
+        public void GetHeadLookTargetPosition(){} // RVA: 0x7FFAC4515730
+        public void Getposition(){} // RVA: 0x7FFAC4515820
+        public void set_touchpadClicked(){} // RVA: 0x7FFAC39AC5A0
+        public void set_virtualGreenScreenDepthTolerance(){} // RVA: 0x7FFAC3139A60
+        public void DoRender_7AB(){} // RVA: 0x7FFAC45159B0
+        public void RenderEyeHeadDebug(){} // RVA: 0x7FFAC45159D0
+        public void DoRange(){} // RVA: 0x7FFAC4515C80
+        public void GetEyeHeadAnimationState_4B6FF54EF567_4B6FF54EF567(){} // RVA: 0x7FFAC4518C00 | overloaded x2
+        public void GetAnimatorHeadLookState(){} // RVA: 0x7FFAC4515F30
+        public void LateUpdate(){} // RVA: 0x7FFAC4515F40
+        public void OnEnable(){} // RVA: 0x7FFAC2F21310
+        public void Computebytes(){} // RVA: 0x7FFAC4516200
+        public void UpdateTransform(){} // RVA: 0x7FFAC45162D0
+        public void SetHeadLookTargetAndState(){} // RVA: 0x7FFAC450F400
+        public void UpdateHeadLookTargetState(){} // RVA: 0x7FFAC4516EC0
+        public void OnCollisionStay_D2E99F9F7768(){} // RVA: 0x7FFAC4517C90
+        public void GetEyeHeadAnimationState_2E3FFC8A90B9(){} // RVA: 0x7FFAC45180E0
+        public void ComputedeltaTime(){} // RVA: 0x7FFAC4518330
+        public void GetAnimatorHeadLookState_FD6A53486A9A(){} // RVA: 0x7FFAC4518500
+        public void CalculateLookRotationLimit(){} // RVA: 0x7FFAC4518780
+        public void get_EnginePower(){} // RVA: 0x7FFAC2F4A060
+        public void .ctor(){} // RVA: 0x7FFAC4518F40
+        public void Initialize(){} // RVA: 0x7FFAC4519110
+        public void GetTransformPosition(){} // RVA: 0x7FFAC4519170
+        public void CalculateAndLimitRotationAngle(){} // RVA: 0x7FFAC45193C0
+        public void ComputeParent(){} // RVA: 0x7FFAC451ACB0
     }
 
     public class EyeAndHeadAnimatorForExport : Object
@@ -307,7 +307,7 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public float limitHeadAngle; // 0x4C
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class EyeRotationLimiter : Object
@@ -322,26 +322,26 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public bool isLookDownSet; // 0x51
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFD4F91BBC0
-        public void Equals(){} // RVA: 0x7FFD4F91C170
-        public void GetHashCode(){} // RVA: 0x7FFD4F91C1E0
-        public void op_Implicit(){} // RVA: 0x7FFD4F91C170
-        public void CompareBaseObjects(){} // RVA: 0x7FFD4F91C390
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFD4F91C400
-        public void GetCachedPtr(){} // RVA: 0x7FFD4F91C470
-        public void get_name(){} // RVA: 0x7FFD4F91C500
-        public void set_name(){} // RVA: 0x7FFD4F91C570
-        public void Instantiate(){} // RVA: 0x7FFD4F91C5E0
-        public void .ctor(){} // RVA: 0x7FFD4E341310
-        public void Initialize(){} // RVA: 0x7FFD4F91C7D0
-        public void ToString(){} // RVA: 0x7FFD4F91C980
-        public void NodeTreeFromSortedDictionary(){} // RVA: 0x7FFD4F91C9C0
-        public void ToString_5260B310CAC6(){} // RVA: 0x7FFD4F91CE30
-        public void GetLongFromDelegate(){} // RVA: 0x7FFD4F91C570
-        public void GetBooleanFromDelegate(){} // RVA: 0x7FFD4F91CEF0
-        public void GetIntegerFromDelegate(){} // RVA: 0x7FFD4F91CF80
-        public void FailFast(){} // RVA: 0x7FFD4F91CFF0
-        public void Destroy(){} // RVA: 0x7FFD4F91C470
+        public void GetInstanceID(){} // RVA: 0x7FFAC44FBBC0
+        public void Equals(){} // RVA: 0x7FFAC44FC170
+        public void GetHashCode(){} // RVA: 0x7FFAC44FC1E0
+        public void op_Implicit(){} // RVA: 0x7FFAC44FC170
+        public void CompareBaseObjects(){} // RVA: 0x7FFAC44FC390
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFAC44FC400
+        public void GetCachedPtr(){} // RVA: 0x7FFAC44FC470
+        public void get_name(){} // RVA: 0x7FFAC44FC500
+        public void set_name(){} // RVA: 0x7FFAC44FC570
+        public void Instantiate(){} // RVA: 0x7FFAC44FC5E0
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void Initialize(){} // RVA: 0x7FFAC44FC7D0
+        public void ToString(){} // RVA: 0x7FFAC44FC980
+        public void NodeTreeFromSortedDictionary(){} // RVA: 0x7FFAC44FC9C0
+        public void ToString_5260B310CAC6(){} // RVA: 0x7FFAC44FCE30
+        public void GetLongFromDelegate(){} // RVA: 0x7FFAC44FC570
+        public void GetBooleanFromDelegate(){} // RVA: 0x7FFAC44FCEF0
+        public void GetIntegerFromDelegate(){} // RVA: 0x7FFAC44FCF80
+        public void FailFast(){} // RVA: 0x7FFAC44FCFF0
+        public void Destroy(){} // RVA: 0x7FFAC44FC470
     }
 
     public class EyelidRotationLimiter : Object
@@ -365,25 +365,25 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public bool isLookDownPosSet; // 0x95
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFD4F91D030
-        public void Equals(){} // RVA: 0x7FFD4F91D140
-        public void GetHashCode(){} // RVA: 0x7FFD4F91D400
-        public void op_Implicit(){} // RVA: 0x7FFD4F91D510
-        public void CompareBaseObjects(){} // RVA: 0x7FFD4F91DA30
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFD4F91DB40
-        public void GetCachedPtr(){} // RVA: 0x7FFD4F91E030
-        public void get_name(){} // RVA: 0x7FFD4F91E140
-        public void set_name(){} // RVA: 0x7FFD4F91E260
-        public void Instantiate(){} // RVA: 0x7FFD4F91E2D0
-        public void ToString(){} // RVA: 0x7FFD4F91E3E0
-        public void .ctor_046FF5FBC3B9(){} // RVA: 0x7FFD4F91E500
-        public void GetHashCode_269C910A07D4(){} // RVA: 0x7FFD4F91EA20
-        public void NodeTreeFromSortedDictionary(){} // RVA: 0x7FFD4F91D030
-        public void ToString_D20A7842AE22(){} // RVA: 0x7FFD4F91EB30
-        public void .ctor(){} // RVA: 0x7FFD4E341310
-        public void Initialize(){} // RVA: 0x7FFD4F91EC40
-        public void GetIntegerFromDelegate(){} // RVA: 0x7FFD4F91ED40
-        public void FailFast(){} // RVA: 0x7FFD4F91EDB0
+        public void GetInstanceID(){} // RVA: 0x7FFAC44FD030
+        public void Equals(){} // RVA: 0x7FFAC44FD140
+        public void GetHashCode(){} // RVA: 0x7FFAC44FD400
+        public void op_Implicit(){} // RVA: 0x7FFAC44FD510
+        public void CompareBaseObjects(){} // RVA: 0x7FFAC44FDA30
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFAC44FDB40
+        public void GetCachedPtr(){} // RVA: 0x7FFAC44FE030
+        public void get_name(){} // RVA: 0x7FFAC44FE140
+        public void set_name(){} // RVA: 0x7FFAC44FE260
+        public void Instantiate(){} // RVA: 0x7FFAC44FE2D0
+        public void ToString(){} // RVA: 0x7FFAC44FE3E0
+        public void .ctor_046FF5FBC3B9(){} // RVA: 0x7FFAC44FE500
+        public void GetHashCode_269C910A07D4(){} // RVA: 0x7FFAC44FEA20
+        public void NodeTreeFromSortedDictionary(){} // RVA: 0x7FFAC44FD030
+        public void ToString_D20A7842AE22(){} // RVA: 0x7FFAC44FEB30
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void Initialize(){} // RVA: 0x7FFAC44FEC40
+        public void GetIntegerFromDelegate(){} // RVA: 0x7FFAC44FED40
+        public void FailFast(){} // RVA: 0x7FFAC44FEDB0
     }
 
     public class LookTargetController : MonoBehaviour
@@ -430,44 +430,44 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public UnityEngine.Transform ÏÎÎÎÎÏÏÌÎÎÍÏÌÎÌÌÍÍÏÌÎÌÌ; // 0xF0
         public UnityEngine.Animator ÎÏÎÎÎÎÎÎÌÎÌÍÍÎÍÌÎÌÎÍÍÎÍ; // 0xF8
         public bool ÎÌÎÎÌÏÌÍÍÌÌÍÍÎÏÍÍÎÌÏÎÍÌ; // 0x100
-        public F ÏÎÎÏÍÎÏÏÏÎÏÌÎÏÍÎÍÌÌÏÎÏÍ; // 0x104
+        public 0x6B0155E8 ÏÎÎÏÍÎÏÏÏÎÏÌÎÏÍÎÍÌÌÏÎÏÍ; // 0x104
         public int ÎÎÌÌÎÌÌÍÍÏÎÍÎÍÎÎÏÎÎÏÏÍÌ;
         public int ÍÍÍÍÍÍÌÌÍÏÎÍÌÏÎÌÌÌÍÏÎÌÏ;
         public int ÏÎÍÍÌÌÌÎÌÌÍÎÎÏÎÌÏÍÏÎÎÏÏ; // 0x108
 
         // ── Methods ──
-        public void set_ScaleMode(){} // RVA: 0x7FFD4F93E020
-        public void RaiseCancellation(){} // RVA: 0x7FFD4F93E030
-        public void IsInvoking(){} // RVA: 0x7FFD4F93E4F0
-        public void CancelInvoke(){} // RVA: 0x7FFD4F93E5D0
-        public void Invoke(){} // RVA: 0x7FFD4F93EC60
-        public void InvokeRepeating(){} // RVA: 0x7FFD4F93FB10
-        public void OnEnable(){} // RVA: 0x7FFD4F93FBD0
-        public void DoRange(){} // RVA: 0x7FFD4F93FF80
-        public void StartCoroutine(){} // RVA: 0x7FFD4E341310
-        public void Computevalue(){} // RVA: 0x7FFD4F93FFC0
-        public void Awake(){} // RVA: 0x7FFD4F93FFF0
-        public void Start(){} // RVA: 0x7FFD4E341310
-        public void OnDestroy(){} // RVA: 0x7FFD4F940140
-        public void StopCoroutine(){} // RVA: 0x7FFD4F9403D0
-        public void OnApplicationQuit(){} // RVA: 0x7FFD4F940960
-        public void StopAllCoroutines(){} // RVA: 0x7FFD4F940A70
-        public void get_useGUILayout(){} // RVA: 0x7FFD4F940FC0
-        public void set_useGUILayout(){} // RVA: 0x7FFD4F9413F0
-        public void print(){} // RVA: 0x7FFD4F9422B0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7FFD4F942350
-        public void Internal_IsInvokingAll(){} // RVA: 0x7FFD4F9425A0
-        public void StartCoroutineManaged_51DC8F4F5828(){} // RVA: 0x7FFD4F943130 | overloaded x2
-        public void OnCollisionEnter(){} // RVA: 0x7FFD4F942750
-        public void OnCollisionStay(){} // RVA: 0x7FFD4F9429E0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7FFD4F943070
-        public void StartCoroutineManaged2(){} // RVA: 0x7FFD4F9432D0
-        public void StopCoroutineManaged(){} // RVA: 0x7FFD4F943550
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7FFD4F9435C0
-        public void GetScriptClassName(){} // RVA: 0x7FFD4F93FB10
-        public void LateUpdate(){} // RVA: 0x7FFD4F943740
-        public void .ctor(){} // RVA: 0x7FFD4F944310
-        public void Update(){} // RVA: 0x7FFD4F9443B0
+        public void set_ScaleMode(){} // RVA: 0x7FFAC451E020
+        public void RaiseCancellation(){} // RVA: 0x7FFAC451E030
+        public void IsInvoking(){} // RVA: 0x7FFAC451E4F0
+        public void CancelInvoke(){} // RVA: 0x7FFAC451E5D0
+        public void Invoke(){} // RVA: 0x7FFAC451EC60
+        public void InvokeRepeating(){} // RVA: 0x7FFAC451FB10
+        public void OnEnable(){} // RVA: 0x7FFAC451FBD0
+        public void DoRange(){} // RVA: 0x7FFAC451FF80
+        public void StartCoroutine(){} // RVA: 0x7FFAC2F21310
+        public void Computevalue(){} // RVA: 0x7FFAC451FFC0
+        public void Awake(){} // RVA: 0x7FFAC451FFF0
+        public void Start(){} // RVA: 0x7FFAC2F21310
+        public void OnDestroy(){} // RVA: 0x7FFAC4520140
+        public void StopCoroutine(){} // RVA: 0x7FFAC45203D0
+        public void OnApplicationQuit(){} // RVA: 0x7FFAC4520960
+        public void StopAllCoroutines(){} // RVA: 0x7FFAC4520A70
+        public void get_useGUILayout(){} // RVA: 0x7FFAC4520FC0
+        public void set_useGUILayout(){} // RVA: 0x7FFAC45213F0
+        public void print(){} // RVA: 0x7FFAC45222B0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x7FFAC4522350
+        public void Internal_IsInvokingAll(){} // RVA: 0x7FFAC45225A0
+        public void StartCoroutineManaged_51DC8F4F5828_51DC8F4F5828(){} // RVA: 0x7FFAC4523130 | overloaded x2
+        public void OnCollisionEnter(){} // RVA: 0x7FFAC4522750
+        public void OnCollisionStay(){} // RVA: 0x7FFAC45229E0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x7FFAC4523070
+        public void StartCoroutineManaged2(){} // RVA: 0x7FFAC45232D0
+        public void StopCoroutineManaged(){} // RVA: 0x7FFAC4523550
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7FFAC45235C0
+        public void GetScriptClassName(){} // RVA: 0x7FFAC451FB10
+        public void LateUpdate(){} // RVA: 0x7FFAC4523740
+        public void .ctor(){} // RVA: 0x7FFAC4524310
+        public void Update(){} // RVA: 0x7FFAC45243B0
     }
 
     public class SerializableQuaternion : ValueType
@@ -478,16 +478,16 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public float w; // 0x1C
 
         // ── Methods ──
-        public void FromColorf(){} // RVA: 0x7FFD4F92BA70
-        public void InternalEquals_D45A011958AB(){} // RVA: 0x7FFD4F92BA70 | overloaded x2
-        public void DefaultEquals(){} // RVA: 0x7FFD4F92BA70
-        public void Equals(){} // RVA: 0x7FFD4F92BA70
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F92BA70
-        public void ToString(){} // RVA: 0x7FFD4F947180
-        public void .ctor(){} // RVA: 0x7FFD4E365570
-        public void Initialize(){} // RVA: 0x7FFD4F92BA70
-        public void .ctor_588AE136764B(){} // RVA: 0x7FFD4F92BA70
-        public void HasValue(){} // RVA: 0x7FFD4F92BA70
+        public void FromColorf(){} // RVA: 0x7FFAC450BA70
+        public void InternalEquals_D45A011958AB_D45A011958AB(){} // RVA: 0x7FFAC450BA70 | overloaded x2
+        public void DefaultEquals(){} // RVA: 0x7FFAC450BA70
+        public void Equals(){} // RVA: 0x7FFAC450BA70
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC450BA70
+        public void ToString(){} // RVA: 0x7FFAC4527180
+        public void .ctor(){} // RVA: 0x7FFAC2F45570
+        public void Initialize(){} // RVA: 0x7FFAC450BA70
+        public void .ctor_588AE136764B(){} // RVA: 0x7FFAC450BA70
+        public void HasValue(){} // RVA: 0x7FFAC450BA70
     }
 
     public class SerializableVector3 : ValueType
@@ -497,17 +497,17 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
         public float z; // 0x18
 
         // ── Methods ──
-        public void FromVector3f(){} // RVA: 0x7FFD4F9473D0
-        public void InternalEquals(){} // RVA: 0x7FFD4F9473D0
-        public void DefaultEquals(){} // RVA: 0x7FFD4F9473D0
-        public void Equals(){} // RVA: 0x7FFD4F9473D0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F9473D0
-        public void GetHashCode_D45A011958AB(){} // RVA: 0x7FFD4F9473D0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFD4E364D70
-        public void Initialize(){} // RVA: 0x7FFD4F9473D0
-        public void ToString(){} // RVA: 0x7FFD4F9473F0
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4F9473D0
-        public void FromVector3f_3E9AE12326DF(){} // RVA: 0x7FFD4F9473D0
+        public void FromVector3f(){} // RVA: 0x7FFAC45273D0
+        public void InternalEquals(){} // RVA: 0x7FFAC45273D0
+        public void DefaultEquals(){} // RVA: 0x7FFAC45273D0
+        public void Equals(){} // RVA: 0x7FFAC45273D0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC45273D0
+        public void GetHashCode_D45A011958AB_D45A011958AB(){} // RVA: 0x7FFAC45273D0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAC2F44D70
+        public void Initialize(){} // RVA: 0x7FFAC45273D0
+        public void ToString(){} // RVA: 0x7FFAC45273F0
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC45273D0
+        public void FromVector3f_3E9AE12326DF(){} // RVA: 0x7FFAC45273D0
     }
 
 }

@@ -1,1090 +1,1558 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 450
+// Methods: 294
 
-public class _Open : MulticastDelegate
+public class <NearFieldILDNudgeOffEarDuck>e__FixedBuffer : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C144F0
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C145C0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
+    public float FixedElementField; // 0x10
 }
 
-public class _OpenBindingUI : MulticastDelegate
+public class <NearFieldILDNudgeOnEarBoost>e__FixedBuffer : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C14280
-    public void Invoke(){} // RVA: 0x7FFD4F90CD30
-    public void BeginInvoke(){} // RVA: 0x7FFD54C14350
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
+    public float FixedElementField; // 0x10
 }
 
-public class _OrderedAsyncEnumerator : MoveNextSource
+public class <Nodes>d__18 : Object
 {
-    public Cysharp.Threading.Tasks.Linq.OrderedAsyncEnumerable`1<T> Current;
+    public int System.Collections.Generic.IEnumerator<System.Xml.Linq.XNode>.Current; // 0x10
+    public System.Xml.Linq.XNode System.Collections.IEnumerator.Current; // 0x18
+    public int <>l__initialThreadId; // 0x20
+    public System.Xml.Linq.XContainer <>4__this; // 0x28
+    public System.Xml.Linq.XNode <n>5__2; // 0x30
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC327C740
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC909F3B0
+    public void System.Collections.Generic.IEnumerator<System.Xml.Linq.XNode>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC909F550
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>.GetEnumerator(){} // RVA: 0x7FFAC909F590
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC909F590
+}
+
+public class <OfTypeIterator>d__97`1 : Object
+{
+    public int System.Collections.Generic.IEnumerator<TResult>.Current;
+    public T System.Collections.IEnumerator.Current;
+    public int <>l__initialThreadId;
+    public System.Collections.IEnumerable source;
+    public System.Collections.IEnumerable <>3__source;
+    public System.Collections.IEnumerator <>7__wrap1;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2C70ED0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2C70980
+    public void MoveNext(){} // RVA: 0x7FFAC2C59D00
+    public void <>m__Finally1(){} // RVA: 0x7FFAC2C70980
+    public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0x7FFAC2E8DC40
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC2C70980
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2C58E90
+    public void System.Collections.Generic.IEnumerable<TResult>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+}
+
+public class <OnCollisionEnter>d__10 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public UnityStandardAssets.Effects.Explosive <>4__this; // 0x20
+    public UnityEngine.Collision col; // 0x28
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC2F2F970
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC2F2FDD0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <OnFinishSubmit>d__9 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public UnityEngine.UI.Button <>4__this; // 0x20
+    public float <fadeTime>5__2; // 0x28
+    public float <elapsedTime>5__3; // 0x2C
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC9A52650
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC9A52800
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <OnVideoReadyDelayCoroutine>d__44 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public VRC.SDK3.Video.Components.VRCUnityVideoPlayer <>4__this; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFACBFF6FF0
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFACBFF7150
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <OnVideoReadyDelayCoroutine>d__58 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public VRC.SDK3.Components.Video.VRCDepthkit.VRCDepthkitVideo <>4__this; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC9E75FE0
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC9E76140
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <Parse>d__34 : Object
+{
+    public int System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputControlPath.ParsedPathComponent>.Current; // 0x10
+    public ParsedPathComponent System.Collections.IEnumerator.Current; // 0x18
+    public int <>l__initialThreadId; // 0x68
+    public string path; // 0x70
+    public string <>3__path; // 0x78
+    public PathParser <parser>5__2; // 0x80
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC784F5C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC958FCC0
+    public void System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputControlPath.ParsedPathComponent>.get_Current(){} // RVA: 0x7FFAC5F39B30
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC958FF90
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC958FFD0
+    public void System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputControlPath.ParsedPathComponent>.GetEnumerator(){} // RVA: 0x7FFAC9590040
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC9590040
+}
+
+public class <ParseAndValidateConnectResponseAsync>d__30 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string> <>t__builder; // 0x18
+    public System.IO.Stream stream; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public string expectedSecWebSocketAccept; // 0x40
+    public System.Net.WebSockets.ClientWebSocketOptions options; // 0x48
+    public bool <foundUpgrade>5__2; // 0x50
+    public bool <foundConnection>5__3; // 0x51
+    public bool <foundSecWebSocketAccept>5__4; // 0x52
+    public string <subprotocol>5__5; // 0x58
+    public ConfiguredTaskAwaiter<string> <>u__1; // 0x60
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC9361BD0
+    public void SetStateMachine(){} // RVA: 0x7FFAC9362920
+}
+
+public class <ParseAsync>d__103 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Text.Json.Nodes.JsonNode> <>t__builder; // 0x18
+    public System.IO.Stream utf8Json; // 0x30
+    public System.Text.Json.JsonDocumentOptions documentOptions; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public System.Nullable`1<System.Text.Json.Nodes.JsonNodeOptions> nodeOptions; // 0x48
+    public ConfiguredTaskAwaiter<System.Text.Json.JsonDocument> <>u__1; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC9054040
+    public void SetStateMachine(){} // RVA: 0x7FFAC90543B0
+}
+
+public class <ParseAsyncCore>d__65 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Text.Json.JsonDocument> <>t__builder; // 0x18
+    public System.IO.Stream utf8Json; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Text.Json.JsonDocumentOptions options; // 0x40
+    public ConfiguredTaskAwaiter<System.ArraySegment`1<byte>> <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8FF03A0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8FF0830
+}
+
+public class <ParseAsyncCore>d__67 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Text.Json.JsonDocument> <>t__builder; // 0x18
+    public System.IO.Stream utf8Json; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Text.Json.JsonDocumentOptions options; // 0x40
+    public ConfiguredTaskAwaiter<System.ArraySegment`1<byte>> <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8AA2280
+    public void SetStateMachine(){} // RVA: 0x7FFAC8AA2740
+}
+
+public class <ParseAsyncCoreUnrented>d__66 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Text.Json.JsonDocument> <>t__builder; // 0x18
+    public System.IO.Stream utf8Json; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Text.Json.JsonDocumentOptions options; // 0x40
+    public ConfiguredTaskAwaiter<System.ArraySegment`1<byte>> <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8FF08A0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8FF0E80
+}
+
+public class <ParseCommentAsync>d__16 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public bool setToken; // 0x40
+    public bool <singlelineComment>5__2; // 0x41
+    public int <initialPosition>5__3; // 0x44
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x48
+    public ConfiguredTaskAwaiter<int> <>u__2; // 0x58
+    public ConfiguredTaskAwaiter <>u__3; // 0x68
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8717650
+    public void SetStateMachine(){} // RVA: 0x7FFAC8718110
+}
+
+public class <ParseConstructorAsync>d__25 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x40
+    public int <initialPosition>5__2; // 0x50
+    public int <endPosition>5__3; // 0x54
+    public string <constructorName>5__4; // 0x58
+    public ConfiguredTaskAwaiter <>u__2; // 0x60
+    public ConfiguredTaskAwaiter<int> <>u__3; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8718170
+    public void SetStateMachine(){} // RVA: 0x7FFAC8719110
+}
+
+public class <ParseNumberAsync>d__29 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public 0x6B1C4B08 readType; // 0x40
+    public char <firstChar>5__2; // 0x44
+    public int <initialPosition>5__3; // 0x48
+    public ConfiguredTaskAwaiter <>u__1; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8719170
+    public void SetStateMachine(){} // RVA: 0x7FFAC8719490
+}
+
+public class <ParseNumberNaNAsync>d__26 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object> <>t__builder; // 0x18
+    public 0x6B1C4B08 readType; // 0x30
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public 0x6B1C4B08 <>7__wrap1; // 0x48
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC87194F0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8719860
+}
+
+public class <ParseNumberNegativeInfinityAsync>d__28 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object> <>t__builder; // 0x18
+    public 0x6B1C4B08 readType; // 0x30
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public 0x6B1C4B08 <>7__wrap1; // 0x48
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC87198D0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8719C40
+}
+
+public class <ParseNumberPositiveInfinityAsync>d__27 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object> <>t__builder; // 0x18
+    public 0x6B1C4B08 readType; // 0x30
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public 0x6B1C4B08 <>7__wrap1; // 0x48
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8719CB0
+    public void SetStateMachine(){} // RVA: 0x7FFAC871A020
+}
+
+public class <ParseObjectAsync>d__15 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x40
+    public ConfiguredTaskAwaiter <>u__2; // 0x50
+    public ConfiguredTaskAwaiter<bool> <>u__3; // 0x60
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871A090
+    public void SetStateMachine(){} // RVA: 0x7FFAC871A950
+}
+
+public class <ParsePostValueAsync>d__4 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public bool ignoreComments; // 0x40
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x48
+    public ConfiguredTaskAwaiter <>u__2; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871A9C0
+    public void SetStateMachine(){} // RVA: 0x7FFAC871B320
+}
+
+public class <ParsePropertyAsync>d__31 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public char <quoteChar>5__2; // 0x40
+    public string <propertyName>5__3; // 0x48
+    public ConfiguredTaskAwaiter <>u__1; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871B390
+    public void SetStateMachine(){} // RVA: 0x7FFAC871BDA0
+}
+
+public class <ParseStringAsync>d__18 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public System.Threading.CancellationToken cancellationToken; // 0x30
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x38
+    public char quote; // 0x40
+    public 0x6B1C4B08 readType; // 0x44
+    public ConfiguredTaskAwaiter <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871BE10
+    public void SetStateMachine(){} // RVA: 0x7FFAC871C120
+}
+
+public class <ParseUnicodeAsync>d__12 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<char> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x40
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871C180
+    public void SetStateMachine(){} // RVA: 0x7FFAC871C4B0
+}
+
+public class <ParseUnquotedPropertyAsync>d__33 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public int <initialPosition>5__2; // 0x40
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871C520
+    public void SetStateMachine(){} // RVA: 0x7FFAC871C9F0
+}
+
+public class <ParseValueAsync>d__8 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x40
+    public ConfiguredTaskAwaiter <>u__2; // 0x50
+    public ConfiguredTaskAwaiter<bool> <>u__3; // 0x60
+    public ConfiguredTaskAwaiter<object> <>u__4; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871CA50
+    public void SetStateMachine(){} // RVA: 0x7FFAC871E720
+}
+
+public class <PlayDelayCoroutine>d__38 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public VRC.SDK3.Video.Components.VRCUnityVideoPlayer <>4__this; // 0x20
+    public int <attempts>5__2; // 0x28
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFACBFF7190
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFACBFF7310
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <PlayDelayCoroutine>d__48 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public VRC.SDK3.Components.Video.VRCDepthkit.VRCDepthkitVideo <>4__this; // 0x20
+    public int <attempts>5__2; // 0x28
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC9E76180
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC9E762B0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <PoolCleanupTask>d__6 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public VRC.Core.Pool.PoolManager <>4__this; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFACBF38000
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFACBF38470
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <PostAsync>d__54`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
+    public VRC.Core.ApiModel <>4__this;
+    public System.Collections.Generic.Dictionary`2<string,Token> parameters;
+    public 0x6B0B74C0 priority;
+    public Awaiter<T> <>u__1;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <PrepareAndLoad>d__33 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder <>t__builder; // 0x18
+    public VRC.Localization.LocalizationAssetSource source; // 0x28
+    public VRC.Localization.LocalizationDatabase <>4__this; // 0x30
+    public Awaiter <>u__1; // 0x38
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8233F30
+    public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+}
+
+public class <PrepareAssetAsync>d__10 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public string uniqueKey; // 0x20
+    public bool overwrite; // 0x28
+    public string name; // 0x30
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC82E93E0
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC82E96A0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <PrepareAssetAsync>d__7 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public string uniqueKey; // 0x20
+    public bool overwrite; // 0x28
+    public string name; // 0x30
+    public Mediapipe.Unity.StreamingAssetsResourceManager <>4__this; // 0x38
+    public string <destFilePath>5__2; // 0x40
+    public string <sourceFilePath>5__3; // 0x48
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC82EA1E0
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC82EA4D0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <PrependIterator>d__63`1 : Object
+{
+    public int System.Collections.Generic.IEnumerator<TSource>.Current;
+    public T System.Collections.IEnumerator.Current;
+    public int <>l__initialThreadId;
+    public T element;
+    public T <>3__element;
+    public System.Collections.Generic.IEnumerable`1<T> source;
+    public System.Collections.Generic.IEnumerable`1<T> <>3__source;
+    public System.Collections.Generic.IEnumerator`1<T> <>7__wrap1;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2C70ED0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2C70980
+    public void MoveNext(){} // RVA: 0x7FFAC2C59D00
+    public void <>m__Finally1(){} // RVA: 0x7FFAC2C70980
+    public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7FFAC2E8DC40
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC2C70980
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2C58E90
+    public void System.Collections.Generic.IEnumerable<TSource>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+}
+
+public class <PrivateImplementationDetails> : Object
+{
+    public __StaticArrayInitTypeSize=8192 B3AC89EE9FC6DD6CE1B8349B23557D92E963EFB91DFB57E356869086CF3AB527;
+}
+
+public class <PrivateImplementationDetails>{38D3CEF1-4C5A-4FC9-A92D-E0991034BC1A} : Object
+{
+    public __StaticArrayInitTypeSize=14 $$method0x600014f-1;
+}
+
+public class <ProcessAuthentication>d__48 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Mono.Net.Security.MonoSslAuthenticationOptions options; // 0x30
+    public Mono.Net.Security.MobileAuthenticatedStream <>4__this; // 0x38
+    public bool runSynchronously; // 0x40
+    public System.Threading.CancellationToken cancellationToken; // 0x48
+    public ConfiguredTaskAwaiter<Mono.Net.Security.AsyncProtocolResult> <>u__1; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8E25920
+    public void SetStateMachine(){} // RVA: 0x7FFAC8E26740
+}
+
+public class <ProcessCacheAsync>d__25 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Sentry.Internal.Http.CachingTransport <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellation; // 0x38
+    public ConfiguredTaskAwaiter <>u__1; // 0x40
+    public ConfiguredTaskAwaiter<string> <>u__2; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8BBBF20
+    public void SetStateMachine(){} // RVA: 0x7FFAC8BBC900
+}
+
+public class <ProcessCarriageReturnAsync>d__11 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public System.Threading.Tasks.Task`1<bool> task; // 0x30
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x38
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x40
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871E790
+    public void SetStateMachine(){} // RVA: 0x7FFAC871EAF0
+}
+
+public class <ProcessDeferredEvents>d__34 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public VRC.SDKBase.VRC_EventHandler <>4__this; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFACC077540
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFACC077A60
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <ProcessErrors>d__18 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public VRC.OSCQuery.Android.AndroidDiscovery <>4__this; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC3137340
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC3137660
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <ProcessOperation>d__24 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public System.Threading.CancellationToken cancellationToken; // 0x30
+    public Mono.Net.Security.AsyncProtocolRequest <>4__this; // 0x38
+    public 0x6B12C688 <status>5__2; // 0x40
+    public 0x6B12C688 <newStatus>5__3; // 0x44
+    public ConfiguredTaskAwaiter<System.Nullable`1<int>> <>u__1; // 0x48
+    public ConfiguredTaskAwaiter <>u__2; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8E20040
+    public void SetStateMachine(){} // RVA: 0x7FFAC8E20600
+}
+
+public class <ProcessPipe>d__17 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder <>t__builder; // 0x18
+    public Transmtn.WebsocketPipeline <>4__this; // 0x20
+    public Awaiter <>u__1; // 0x28
+    public WebSocketSharp.WebSocket <socket>5__2; // 0x30
+    public Awaiter <>u__2; // 0x38
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFACC0DC000
+    public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+}
+
+public class <ProcessReadAsync>d__2 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.Threading.CancellationToken cancellationToken; // 0x30
+    public System.Net.BufferedReadStream <>4__this; // 0x38
+    public int size; // 0x40
+    public byte[] buffer; // 0x48
+    public int offset; // 0x50
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC92DDB70
+    public void SetStateMachine(){} // RVA: 0x7FFAC92DDF00
+}
+
+public class <ProcessReadAsync>d__5 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.Threading.CancellationToken cancellationToken; // 0x30
+    public System.Net.FixedSizeReadStream <>4__this; // 0x38
+    public int size; // 0x40
+    public byte[] buffer; // 0x48
+    public int offset; // 0x50
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC92E7C40
+    public void SetStateMachine(){} // RVA: 0x7FFAC92E7FB0
+}
+
+public class <ProcessReadAsync>d__7 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.Threading.CancellationToken cancellationToken; // 0x30
+    public System.Net.MonoChunkStream <>4__this; // 0x38
+    public byte[] buffer; // 0x40
+    public int offset; // 0x48
+    public int size; // 0x4C
+    public byte[] <moreBytes>5__2; // 0x50
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC9303C60
+    public void SetStateMachine(){} // RVA: 0x7FFAC9304170
+}
+
+public class <ProcessWrite>d__34 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public System.Net.WebRequestStream <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public int size; // 0x40
+    public byte[] buffer; // 0x48
+    public int offset; // 0x50
+    public ConfiguredTaskAwaiter <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC931CA10
+    public void SetStateMachine(){} // RVA: 0x7FFAC931D180
+}
+
+public class <PutAsync>d__55`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
+    public VRC.Core.ApiModel <>4__this;
+    public System.Collections.Generic.Dictionary`2<string,Token> parameters;
+    public 0x6B0B74C0 priority;
+    public Awaiter<T> <>u__1;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <QueryPurchases>d__3 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Collections.Generic.List`1<UnityEngine.Purchasing.Interfaces.IGooglePurchase>> <>t__builder; // 0x18
+    public UnityEngine.Purchasing.GoogleQueryPurchasesService <>4__this; // 0x30
+    public System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IEnumerable`1<UnityEngine.Purchasing.Interfaces.IGooglePurchase>[]> <>u__1; // 0x38
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC99BBC10
+    public void SetStateMachine(){} // RVA: 0x7FFAC99BC230
+}
+
+public class <RangeIterator>d__115 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Int32>.Current; // 0x10
+    public int System.Collections.IEnumerator.Current; // 0x14
+    public int <>l__initialThreadId; // 0x18
+    public int start; // 0x1C
+    public int <>3__start; // 0x20
+    public int count; // 0x24
+    public int <>3__count; // 0x28
+    public int <i>5__2; // 0x2C
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC53950A0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC8D3E690
+    public void System.Collections.Generic.IEnumerator<System.Int32>.get_Current(){} // RVA: 0x7FFAC33D5A20
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC8D3E6D0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC8D3E710
+    public void System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator(){} // RVA: 0x7FFAC8D3E760
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC8D3E760
+}
+
+public class <ReadAllAsync>d__48 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public System.Net.WebResponseStream <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public bool resending; // 0x40
+    public System.Net.WebCompletionSource <completion>5__2; // 0x48
+    public System.Threading.CancellationTokenSource <timeoutCts>5__3; // 0x50
+    public System.Threading.Tasks.Task <timeoutTask>5__4; // 0x58
+    public ConfiguredTaskAwaiter<System.Threading.Tasks.Task> <>u__1; // 0x60
+    public ConfiguredTaskAwaiter<byte[]> <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC9324190
+    public void SetStateMachine(){} // RVA: 0x7FFAC93252E0
+}
+
+public class <ReadAllAsyncInner>d__47 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<byte[]> <>t__builder; // 0x18
+    public System.Threading.CancellationToken cancellationToken; // 0x30
+    public System.Net.WebResponseStream <>4__this; // 0x38
+    public long <maximumSize>5__2; // 0x40
+    public System.IO.MemoryStream <ms>5__3; // 0x48
+    public byte[] <buffer>5__4; // 0x50
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC93239A0
+    public void SetStateMachine(){} // RVA: 0x7FFAC9324120
+}
+
+public class <ReadAndMoveToContentAsync>d__12 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x40
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC86F9440
+    public void SetStateMachine(){} // RVA: 0x7FFAC86F98D0
+}
+
+public class <ReadArrayIntoByteArrayAsync>d__5 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<byte[]> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Collections.Generic.List`1<byte> <buffer>5__2; // 0x40
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC86F9940
+    public void SetStateMachine(){} // RVA: 0x7FFAC86F9EE0
+}
+
+public class <ReadAsByteArrayAsync>d__19 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<byte[]> <>t__builder; // 0x18
+    public System.Net.Http.HttpContent <>4__this; // 0x30
+    public ConfiguredTaskAwaiter <>u__1; // 0x38
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8F9D090
+    public void SetStateMachine(){} // RVA: 0x7FFAC8F9D350
+}
+
+public class <ReadAsJsonAsync>d__0 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Text.Json.JsonElement> <>t__builder; // 0x18
+    public System.Net.Http.HttpContent content; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<System.IO.Stream> <>u__1; // 0x40
+    public System.IO.Stream <>7__wrap1; // 0x50
+    public ConfiguredTaskAwaiter<System.Text.Json.JsonDocument> <>u__2; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8BC6240
+    public void SetStateMachine(){} // RVA: 0x7FFAC8BC6B50
+}
+
+public class <ReadAsStreamAsync>d__18 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.IO.Stream> <>t__builder; // 0x18
+    public System.Net.Http.HttpContent <>4__this; // 0x30
+    public ConfiguredTaskAwaiter<System.IO.Stream> <>u__1; // 0x38
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8F9CBD0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8F9D020
+}
+
+public class <ReadAsStringAsync>d__20 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string> <>t__builder; // 0x18
+    public System.Net.Http.HttpContent <>4__this; // 0x30
+    public ConfiguredTaskAwaiter <>u__1; // 0x38
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8F9D3C0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8F9D8A0
+}
+
+public class <ReadAsync>d__16 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public Sentry.Internal.PartialStream <>4__this; // 0x30
+    public int count; // 0x38
+    public byte[] buffer; // 0x40
+    public int offset; // 0x48
+    public System.Threading.CancellationToken cancellationToken; // 0x50
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8BACCF0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8BAD160
+}
+
+public class <ReadAsync>d__28 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.Net.WebReadStream <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public byte[] buffer; // 0x40
+    public int offset; // 0x48
+    public int size; // 0x4C
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x50
+    public ConfiguredTaskAwaiter <>u__2; // 0x60
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC9319A80
+    public void SetStateMachine(){} // RVA: 0x7FFAC931A0B0
+}
+
+public class <ReadAsync>d__40 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.Threading.CancellationToken cancellationToken; // 0x30
+    public byte[] buffer; // 0x38
+    public int offset; // 0x40
+    public int count; // 0x44
+    public System.Net.WebResponseStream <>4__this; // 0x48
+    public System.Net.WebCompletionSource <completion>5__2; // 0x50
+    public int <nbytes>5__3; // 0x58
+    public System.Exception <throwMe>5__4; // 0x60
+    public ConfiguredTaskAwaiter<object> <>u__1; // 0x68
+    public ConfiguredTaskAwaiter<int> <>u__2; // 0x78
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC9322AD0
+    public void SetStateMachine(){} // RVA: 0x7FFAC93237D0
+}
+
+public class <ReadAsyncCore>d__40 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.Threading.Tasks.Task`1<int> readTask; // 0x30
+    public System.IO.Compression.DeflateManagedStream <>4__this; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public byte[] array; // 0x48
+    public int offset; // 0x50
+    public int count; // 0x54
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8F7C8E0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8F7CF50
+}
+
+public class <ReadAsyncCore>d__42 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public int count; // 0x30
+    public int offset; // 0x34
+    public System.Security.Cryptography.CryptoStream <>4__this; // 0x38
+    public byte[] buffer; // 0x40
+    public bool useAsync; // 0x48
+    public System.Threading.CancellationToken cancellationToken; // 0x50
+    public int <bytesToDeliver>5__2; // 0x58
+    public int <currentOutputIndex>5__3; // 0x5C
+    public int <numWholeBlocksInBytes>5__4; // 0x60
+    public byte[] <tempInputBuffer>5__5; // 0x68
+    public byte[] <tempOutputBuffer>5__6; // 0x70
+    public System.Runtime.CompilerServices.ValueTaskAwaiter`1<int> <>u__1; // 0x78
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8407710
+    public void SetStateMachine(){} // RVA: 0x7FFAC8408DD0
+}
+
+public class <ReadAsyncCore>d__5 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
+    public Cysharp.Threading.Tasks.ChannelReader`1<T> <>4__this;
     public System.Threading.CancellationToken cancellationToken;
-    public T[] buffer;
-    public int[] map;
-    public int index;
-    public T <Current>k__BackingField;
+    public Awaiter<bool> <>u__1;
 
     // ── Methods ──
-    public void .ctor(){}
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void CreateSortSource(){} // RVA: 0x7FFD4E079D00
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _Pairwise : MoveNextSource
+public class <ReadAsyncInternal>d__37 : ValueType
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.Security.Cryptography.CryptoStream <>4__this; // 0x30
+    public byte[] buffer; // 0x38
+    public int offset; // 0x40
+    public int count; // 0x44
+    public System.Threading.CancellationToken cancellationToken; // 0x48
+    public System.Threading.SemaphoreSlim <semaphore>5__2; // 0x50
+    public System.Threading.Tasks.ForceAsyncAwaiter <>u__1; // 0x58
+    public System.Runtime.CompilerServices.TaskAwaiter`1<int> <>u__2; // 0x60
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8406F90
+    public void SetStateMachine(){} // RVA: 0x7FFAC84076A0
+}
+
+public class <ReadAsyncInternal>d__66 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.IO.StreamReader <>4__this; // 0x38
+    public System.Memory`1<char> buffer; // 0x40
+    public System.Threading.CancellationToken cancellationToken; // 0x50
+    public int <charsRead>5__2; // 0x58
+    public bool <readToUserBuffer>5__3; // 0x5C
+    public byte[] <tmpByteBuffer>5__4; // 0x60
+    public System.IO.Stream <tmpStream>5__5; // 0x68
+    public int <count>5__6; // 0x70
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x78
+    public int <n>5__7; // 0x88
+    public ConfiguredValueTaskAwaiter<int> <>u__2; // 0x90
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC85C64B0
+    public void SetStateMachine(){} // RVA: 0x7FFAC85C79D0
+}
+
+public class <ReadBufferAsync>d__69 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.IO.StreamReader <>4__this; // 0x30
+    public byte[] <tmpByteBuffer>5__2; // 0x38
+    public System.IO.Stream <tmpStream>5__3; // 0x40
+    public ConfiguredValueTaskAwaiter<int> <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC85C7A20
+    public void SetStateMachine(){} // RVA: 0x7FFAC85C8D70
+}
+
+public class <ReadByteChunkAsync>d__2 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<byte[]> <>t__builder; // 0x18
+    public int expectedLength; // 0x30
+    public System.IO.Stream stream; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public Sentry.Internal.PooledBuffer`1<byte> <buffer>5__2; // 0x48
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8BD1590
+    public void SetStateMachine(){} // RVA: 0x7FFAC8BD1C10
+}
+
+public class <ReadCharsAsync>d__14 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public int relativePosition; // 0x38
+    public bool append; // 0x3C
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public int <charsRequired>5__2; // 0x48
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871EB50
+    public void SetStateMachine(){} // RVA: 0x7FFAC871EEC0
+}
+
+public class <ReadContentFromAsync>d__1 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonReader reader; // 0x30
+    public Newtonsoft.Json.Linq.JContainer <>4__this; // 0x38
+    public Newtonsoft.Json.Linq.JsonLoadSettings settings; // 0x40
+    public System.Threading.CancellationToken cancellationToken; // 0x48
+    public Newtonsoft.Json.IJsonLineInfo <lineInfo>5__2; // 0x50
+    public Newtonsoft.Json.Linq.JContainer <parent>5__3; // 0x58
+    public ConfiguredTaskAwaiter <>u__1; // 0x60
+    public ConfiguredTaskAwaiter<bool> <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC87C63E0
+    public void SetStateMachine(){} // RVA: 0x7FFAC87C7370
+}
+
+public class <ReadDataAsync>d__7 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public bool append; // 0x38
+    public int charsRequired; // 0x3C
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871EF30
+    public void SetStateMachine(){} // RVA: 0x7FFAC871F390
+}
+
+public class <ReadFinishedAsync>d__36 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x40
+    public ConfiguredTaskAwaiter <>u__2; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871F400
+    public void SetStateMachine(){} // RVA: 0x7FFAC871FB60
+}
+
+public class <ReadFromAsync>d__3 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Newtonsoft.Json.Linq.JToken> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonReader reader; // 0x30
+    public Newtonsoft.Json.Linq.JsonLoadSettings settings; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x48
+    public ConfiguredTaskAwaiter<Newtonsoft.Json.Linq.JObject> <>u__2; // 0x58
+    public ConfiguredTaskAwaiter<Newtonsoft.Json.Linq.JArray> <>u__3; // 0x68
+    public ConfiguredTaskAwaiter<Newtonsoft.Json.Linq.JConstructor> <>u__4; // 0x78
+    public ConfiguredTaskAwaiter<Newtonsoft.Json.Linq.JProperty> <>u__5; // 0x88
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC87E13E0
+    public void SetStateMachine(){} // RVA: 0x7FFAC87E2180
+}
+
+public class <ReadFromFinishedAsync>d__5 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x40
+    public ConfiguredTaskAwaiter <>u__2; // 0x50
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC871FBC0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8720350
+}
+
+public class <ReadFromStreamAsync>d__11 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1<System.Text.Json.Serialization.ReadBufferState> <>t__builder; // 0x18
+    public System.Text.Json.Serialization.ReadBufferState <>4__this; // 0x50
+    public System.IO.Stream utf8Json; // 0x68
+    public System.Threading.CancellationToken cancellationToken; // 0x70
+    public bool fillBuffer; // 0x78
+    public System.Text.Json.Serialization.ReadBufferState <bufferState>5__2; // 0x80
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x98
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC905EE20
+    public void SetStateMachine(){} // RVA: 0x7FFAC905F260
+}
+
+public class <ReadFromUnderlyingStreamAsync>d__51 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public System.Threading.Tasks.Task semaphoreLockTask; // 0x38
+    public System.IO.BufferedStream <>4__this; // 0x40
+    public System.Memory`1<byte> buffer; // 0x48
+    public int bytesAlreadySatisfied; // 0x58
+    public System.Threading.CancellationToken cancellationToken; // 0x60
+    public ConfiguredTaskAwaiter <>u__1; // 0x68
+    public int <>7__wrap1; // 0x78
+    public ConfiguredValueTaskAwaiter<int> <>u__2; // 0x80
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC85E3550
+    public void SetStateMachine(){} // RVA: 0x7FFAC85E40C0
+}
+
+public class <ReadHeaders>d__43 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ValueTuple`3<System.Net.WebHeaderCollection,byte[],int>> <>t__builder; // 0x18
+    public System.Threading.CancellationToken cancellationToken; // 0x30
+    public System.IO.Stream stream; // 0x38
+    public System.Net.WebConnectionTunnel <>4__this; // 0x40
+    public byte[] <retBuffer>5__2; // 0x48
+    public int <status>5__3; // 0x50
+    public byte[] <buffer>5__4; // 0x58
+    public System.IO.MemoryStream <ms>5__5; // 0x60
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x68
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC9315390
+    public void SetStateMachine(){} // RVA: 0x7FFAC93160D0
+}
+
+public class <ReadIntoWrappedTypeObjectAsync>d__43 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter <>u__1; // 0x40
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC87203C0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8720BB0
+}
+
+public class <ReadLineAsync>d__0 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<byte[]> <>t__builder; // 0x18
+    public System.IO.Stream stream; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public Sentry.Internal.PooledBuffer`1<byte> <buffer>5__2; // 0x40
+    public System.IO.MemoryStream <result>5__3; // 0x48
+    public int <overreach>5__4; // 0x50
+    public bool <found>5__5; // 0x54
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8BD1C80
+    public void SetStateMachine(){} // RVA: 0x7FFAC8BD24A0
+}
+
+public class <ReadNullCharAsync>d__34 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x40
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8720C10
+    public void SetStateMachine(){} // RVA: 0x7FFAC8720F10
+}
+
+public class <ReadNumberIntoBufferAsync>d__32 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public int <charPos>5__2; // 0x40
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8720F80
+    public void SetStateMachine(){} // RVA: 0x7FFAC8721340
+}
+
+public class <ReadNumberValueAsync>d__38 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public 0x6B1C4B08 readType; // 0x40
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x48
+    public ConfiguredTaskAwaiter <>u__2; // 0x58
+    public ConfiguredTaskAwaiter<object> <>u__3; // 0x68
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC87213A0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8722B50
+}
+
+public class <ReadResponseHeaderLineAsync>d__32 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string> <>t__builder; // 0x18
+    public System.IO.Stream stream; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Text.StringBuilder <sb>5__2; // 0x40
+    public byte[] <arr>5__3; // 0x48
+    public char <prevChar>5__4; // 0x50
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC9362990
+    public void SetStateMachine(){} // RVA: 0x7FFAC93632E0
+}
+
+public class <ReadReverseRdns>d__21 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.Current; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<string,string> System.Collections.IEnumerator.Current; // 0x18
+    public int <>l__initialThreadId; // 0x28
+    public System.Security.Cryptography.X509Certificates.X500DistinguishedName name; // 0x30
+    public System.Security.Cryptography.X509Certificates.X500DistinguishedName <>3__name; // 0x38
+    public System.Collections.Generic.Stack`1<System.Security.Cryptography.DerSequenceReader> <rdnReaders>5__2; // 0x40
+    public System.Security.Cryptography.DerSequenceReader <rdnReader>5__3; // 0x48
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC39FB270
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC9385C50
+    public void System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current(){} // RVA: 0x7FFAC35D3330
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC9386000
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC9386040
+    public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator(){} // RVA: 0x7FFAC9386090
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC9386090
+}
+
+public class <ReadStringIntoBufferAsync>d__9 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public char quote; // 0x40
+    public int <charPos>5__2; // 0x44
+    public int <initialPosition>5__3; // 0x48
+    public int <lastWritePosition>5__4; // 0x4C
+    public int <escapeStartPos>5__5; // 0x50
+    public char <writeChar>5__6; // 0x54
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+    public ConfiguredTaskAwaiter<bool> <>u__2; // 0x68
+    public ConfiguredTaskAwaiter<char> <>u__3; // 0x78
+    public bool <anotherHighSurrogate>5__7; // 0x88
+    public char <highSurrogate>5__8; // 0x8A
+    public ConfiguredTaskAwaiter <>u__4; // 0x90
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8722BC0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8723F00
+}
+
+public class <ReadStringValueAsync>d__37 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public 0x6B1C4B08 readType; // 0x40
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x48
+    public string <expected>5__2; // 0x58
+    public ConfiguredTaskAwaiter <>u__2; // 0x60
+    public ConfiguredTaskAwaiter<object> <>u__3; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8723F60
+    public void SetStateMachine(){} // RVA: 0x7FFAC87257F0
+}
+
+public class <ReadToEndAsync>d__14 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string> <>t__builder; // 0x18
+    public System.IO.TextReader <>4__this; // 0x30
+    public System.Text.StringBuilder <sb>5__2; // 0x38
+    public char[] <chars>5__3; // 0x40
+    public ConfiguredValueTaskAwaiter<int> <>u__1; // 0x48
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC85D02B0
+    public void SetStateMachine(){} // RVA: 0x7FFAC85D0B50
+}
+
+public class <ReadToEndAsync>d__77 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ArraySegment`1<byte>> <>t__builder; // 0x18
+    public System.IO.Stream stream; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public int <written>5__2; // 0x40
+    public byte[] <rented>5__3; // 0x48
+    public int <utf8BomLength>5__4; // 0x50
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8FF0EF0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8FF1DC0
+}
+
+public class <ReadToEndAsync>d__78 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ArraySegment`1<byte>> <>t__builder; // 0x18
+    public System.IO.Stream stream; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public int <written>5__2; // 0x40
+    public byte[] <rented>5__3; // 0x48
+    public int <utf8BomLength>5__4; // 0x50
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x58
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC8AA27B0
+    public void SetStateMachine(){} // RVA: 0x7FFAC8AA37E0
+}
+
+public class <ReadToEndAsyncInternal>d__63 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string> <>t__builder; // 0x18
+    public System.IO.StreamReader <>4__this; // 0x30
+    public System.Text.StringBuilder <sb>5__2; // 0x38
+    public ConfiguredTaskAwaiter<int> <>u__1; // 0x40
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC85C5FC0
+    public void SetStateMachine(){} // RVA: 0x7FFAC85C6440
+}
+
+public class <ReadTokenFromAsync>d__0 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonReader reader; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public Newtonsoft.Json.Linq.JContainer <>4__this; // 0x40
+    public Newtonsoft.Json.Linq.JsonLoadSettings options; // 0x48
+    public int <startDepth>5__2; // 0x50
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x58
+    public ConfiguredTaskAwaiter <>u__2; // 0x68
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC87C73D0
+    public void SetStateMachine(){} // RVA: 0x7FFAC87C7A40
+}
+
+public class <ReaderReadAndAssertAsync>d__2 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x40
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC86F9F50
+    public void SetStateMachine(){} // RVA: 0x7FFAC86FA2B0
+}
+
+public class <ReceiveAsync>d__14 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1<System.Net.WebSockets.ValueWebSocketReceiveResult> <>t__builder; // 0x18
+    public System.Memory`1<byte> buffer; // 0x40
+    public System.Net.WebSockets.WebSocket <>4__this; // 0x50
+    public System.Threading.CancellationToken cancellationToken; // 0x58
+    public ConfiguredTaskAwaiter<System.Net.WebSockets.WebSocketReceiveResult> <>u__1; // 0x60
+    public byte[] <array>5__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC9363F80
+    public void SetStateMachine(){} // RVA: 0x7FFAC9364920
+}
+
+public class <ReceiveAsyncPrivate>d__61`2 : ValueType
+{
+    public int <>1__state;
+    public System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1<T> <>t__builder;
     public System.Threading.CancellationToken cancellationToken;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-    public Awaiter<bool> awaiter;
-    public T prev;
-    public bool isFirst;
-    public System.ValueTuple`2<T,T> <Current>k__BackingField;
+    public System.Net.WebSockets.ManagedWebSocket <>4__this;
+    public U resultGetter;
+    public System.Memory`1<byte> payloadBuffer;
+    public System.Threading.CancellationTokenRegistration <registration>5__2;
+    public MessageHeader <header>5__3;
+    public int <totalBytesReceived>5__4;
+    public ConfiguredTaskAwaiter <>u__1;
+    public ConfiguredValueTaskAwaiter<int> <>u__2;
 
     // ── Methods ──
-    public void .ctor(){}
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void MoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _PerformApplicationPrelaunchCheck : MulticastDelegate
+public class <ReloadLevel>d__7 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F841F80
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C09BF0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _PerformFirmwareUpdate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D0280
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C079D0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _PollNextEvent : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD526E5360
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C07370
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F1B0
-}
-
-public class _PollNextEventPacked : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD526E5360
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C171E0
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F1B0
-}
-
-public class _PollNextEventWithPose : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D90BC0
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C07420
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F450
-}
-
-public class _PollNextOverlayEvent : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D98BD0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0E030
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F1B0
-}
-
-public class _PollNextOverlayEventPacked : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D98BD0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C1B0E0
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F1B0
-}
-
-public class _PostOverlayEvent : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FD981F0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0FB70
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
-}
-
-public class _PostPresentHandoff : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _PropertyContainer : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D0690
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C14910
-    public void EndInvoke(){} // RVA: 0x7FFD4FF78720
-}
-
-public class _Publish : MoveNextSource
-{
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.Linq.Publish`1<T> Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Prev;
-    public System.Threading.CancellationToken Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Next;
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration;
-    public bool isDisposed;
-    public T <Current>k__BackingField;
-    public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Prev>k__BackingField;
-    public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Next>k__BackingField;
-
-    // ── Methods ──
-    public void .ctor(){}
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void Cysharp.Threading.Tasks.ITriggerHandler<TSource>.get_Prev(){} // RVA: 0x7FFD4E078E90
-    public void Cysharp.Threading.Tasks.ITriggerHandler<TSource>.set_Prev(){} // RVA: 0x7FFD4E090A40
-    public void Cysharp.Threading.Tasks.ITriggerHandler<TSource>.get_Next(){} // RVA: 0x7FFD4E078E90
-    public void Cysharp.Threading.Tasks.ITriggerHandler<TSource>.set_Next(){} // RVA: 0x7FFD4E090A40
-    public void MoveNextAsync(){}
-    public void OnCanceled(){} // RVA: 0x7FFD4E090BF0 | overloaded x2
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void OnNext(){} // RVA: 0x7FFD4E2ADC40
-    public void OnCompleted(){} // RVA: 0x7FFD4E090980
-    public void OnError(){} // RVA: 0x7FFD4E090A40
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
-}
-
-public class _Queue : Object
-{
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current;
-    public System.Threading.CancellationToken cancellationToken;
-    public Cysharp.Threading.Tasks.Channel`1<T> channel;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> channelEnumerator;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> sourceEnumerator;
-    public bool channelClosed;
-
-    // ── Methods ──
-    public void .ctor(){}
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void ConsumeAll(){} // RVA: 0x7FFD4E2ADC40
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-}
-
-public class _QueueHasReader : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C15D60
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _Read : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96590
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C14750
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _ReadPathBatch : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96160
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C15250
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _ReadPropertyBatch : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96160
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C14FB0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _ReleaseMirrorTextureD3D11 : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FD9DFD0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0B750
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _ReleaseNativeOverlayHandle : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0ED20
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _ReleaseOverlayView : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FE35E60
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0FAE0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _ReleaseReadOnlyBlock : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C15CD0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _ReleaseSharedGLTexture : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510DA180
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0B8A0
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _ReleaseVideoStreamTextureGL : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92A00
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C08930
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _ReleaseVideoStreamingService : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F841F80
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C08410
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _ReleaseWriteOnlyBlock : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C15960
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _ReloadFromDisk : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E432370
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A810
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _ReloadInfo : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _RemoveApplicationManifest : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F841F80
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C08BE0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _RemoveKeyInSection : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C11DE0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C11EB0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
-}
-
-public class _RemoveNotification : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D0280
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C11070
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _RemoveSection : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FD981F0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C11D30
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
-}
-
-public class _RenderModelHasComponent : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C10B60
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C10C30
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _Repeat : Object
-{
-    public T Current;
-    public int count;
-    public int remaining;
-    public System.Threading.CancellationToken cancellationToken;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-}
-
-public class _RequestScreenshot : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D9CC60
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C11F70
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _ResetZeroPose : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E432370
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A0C0
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _Return : Object
-{
-    public T Current;
-    public System.Threading.CancellationToken cancellationToken;
-    public bool called;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-}
-
-public class _Reverse : MoveNextSource
-{
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current;
-    public System.Threading.CancellationToken cancellationToken;
-    public T[] array;
-    public int index;
-    public T <Current>k__BackingField;
-
-    // ── Methods ──
-    public void .ctor(){}
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-}
-
-public class _RevertWorkingCopy : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _RoomSetupStarting : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _Select : MoveNextSource
-{
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
-    public System.Func`2<U,T> selector;
-    public System.Threading.CancellationToken cancellationToken;
-    public int state;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public System.Action moveNextAction;
-    public T <Current>k__BackingField;
-
-    // ── Methods ──
-    public void .ctor(){}
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void MoveNext(){} // RVA: 0x7FFD4E090980
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-}
-
-public class _SelectAwait : MoveNextSource
-{
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
-    public System.Func`3<U,int,Cysharp.Threading.Tasks.UniTask`1<T>> selector;
-    public System.Threading.CancellationToken cancellationToken;
-    public int state;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public Awaiter<T> awaiter2;
-    public System.Action moveNextAction;
-    public int index;
-    public T <Current>k__BackingField;
-
-    // ── Methods ──
-    public void .ctor(){}
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void MoveNext(){} // RVA: 0x7FFD4E090980
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-}
-
-public class _SelectAwaitWithCancellation : MoveNextSource
-{
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
-    public System.Func`4<U,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> selector;
-    public System.Threading.CancellationToken cancellationToken;
-    public int state;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public Awaiter<T> awaiter2;
-    public System.Action moveNextAction;
-    public int index;
-    public T <Current>k__BackingField;
-
-    // ── Methods ──
-    public void .ctor(){}
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void MoveNext(){} // RVA: 0x7FFD4E090980
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-}
-
-public class _SelectMany : MoveNextSource
-{
-    public System.Action`1<object> Current;
-    public System.Action`1<object> selectedSourceMoveNextCoreDelegate;
-    public System.Action`1<object> selectedEnumeratorDisposeAsyncCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-    public System.Func`2<U,Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>> selector1;
-    public System.Func`3<U,int,Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>> selector2;
-    public System.Func`3<U,V,T> resultSelector;
-    public System.Threading.CancellationToken cancellationToken;
-    public U sourceCurrent;
-    public int sourceIndex;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> sourceEnumerator;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<V> selectedEnumerator;
-    public Awaiter<bool> sourceAwaiter;
-    public Awaiter<bool> selectedAwaiter;
-    public Awaiter selectedDisposeAsyncAwaiter;
-    public T <Current>k__BackingField;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void MoveNextSource(){} // RVA: 0x7FFD4E090980
-    public void MoveNextSelected(){} // RVA: 0x7FFD4E090980
-    public void SourceMoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void SeletedSourceMoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void SelectedEnumeratorDisposeAsyncCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
-}
-
-public class _SelectManyAwait : MoveNextSource
-{
-    public System.Action`1<object> Current;
-    public System.Action`1<object> selectedSourceMoveNextCoreDelegate;
-    public System.Action`1<object> selectedEnumeratorDisposeAsyncCoreDelegate;
-    public System.Action`1<object> selectorAwaitCoreDelegate;
-    public System.Action`1<object> resultSelectorAwaitCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>>> selector1;
-    public System.Func`3<U,int,Cysharp.Threading.Tasks.UniTask`1<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>>> selector2;
-    public System.Func`3<U,V,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Threading.CancellationToken cancellationToken;
-    public U sourceCurrent;
-    public int sourceIndex;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> sourceEnumerator;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<V> selectedEnumerator;
-    public Awaiter<bool> sourceAwaiter;
-    public Awaiter<bool> selectedAwaiter;
-    public Awaiter selectedDisposeAsyncAwaiter;
-    public Awaiter<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>> collectionSelectorAwaiter;
-    public Awaiter<T> resultSelectorAwaiter;
-    public T <Current>k__BackingField;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void MoveNextSource(){} // RVA: 0x7FFD4E090980
-    public void MoveNextSelected(){} // RVA: 0x7FFD4E090980
-    public void SourceMoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void SeletedSourceMoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void SelectedEnumeratorDisposeAsyncCore(){} // RVA: 0x7FFD4E090A10
-    public void SelectorAwaitCore(){} // RVA: 0x7FFD4E090A10
-    public void ResultSelectorAwaitCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
-}
-
-public class _SelectManyAwaitWithCancellation : MoveNextSource
-{
-    public System.Action`1<object> Current;
-    public System.Action`1<object> selectedSourceMoveNextCoreDelegate;
-    public System.Action`1<object> selectedEnumeratorDisposeAsyncCoreDelegate;
-    public System.Action`1<object> selectorAwaitCoreDelegate;
-    public System.Action`1<object> resultSelectorAwaitCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>>> selector1;
-    public System.Func`4<U,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>>> selector2;
-    public System.Func`4<U,V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Threading.CancellationToken cancellationToken;
-    public U sourceCurrent;
-    public int sourceIndex;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> sourceEnumerator;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<V> selectedEnumerator;
-    public Awaiter<bool> sourceAwaiter;
-    public Awaiter<bool> selectedAwaiter;
-    public Awaiter selectedDisposeAsyncAwaiter;
-    public Awaiter<Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V>> collectionSelectorAwaiter;
-    public Awaiter<T> resultSelectorAwaiter;
-    public T <Current>k__BackingField;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void MoveNextSource(){} // RVA: 0x7FFD4E090980
-    public void MoveNextSelected(){} // RVA: 0x7FFD4E090980
-    public void SourceMoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void SeletedSourceMoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void SelectedEnumeratorDisposeAsyncCore(){} // RVA: 0x7FFD4E090A10
-    public void SelectorAwaitCore(){} // RVA: 0x7FFD4E090A10
-    public void ResultSelectorAwaitCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
-}
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public Entry entry; // 0x20
 
-public class _SetActionManifestPath : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F841F80
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C12800
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetApplicationAutoLaunch : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C08A60
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C096F0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetBool : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C11170
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C11240
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
-}
-
-public class _SetCameraTrackingSpace : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E432370
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C089E0
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _SetDashboardOverlaySceneProcess : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92A00
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0EFF0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetDefaultApplicationForMimeType : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C09820
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetDisplayVisibility : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CF6A0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C06740
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _SetDominantHand : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D0280
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C130D0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetExplicitTimingMode : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E432370
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0BB80
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _SetFloat : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C114F0
-    public void Invoke(){} // RVA: 0x7FFD515B3050
-    public void BeginInvoke(){} // RVA: 0x7FFD54C115C0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
-}
-
-public class _SetHeadsetViewBlendRange : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD514776C0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0FED0
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _SetHeadsetViewCropped : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F4DEC20
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0FE50
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _SetHeadsetViewMode : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E432370
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0FDD0
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _SetHeadsetViewSize : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD51475BD0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0FCA0
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _SetInt32 : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C11330
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C11400
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
-}
-
-public class _SetKeyboardPositionForOverlay : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D9A8C0
-    public void Invoke(){} // RVA: 0x7FFD5106DBE0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0F760
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _SetKeyboardTransformAbsolute : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E49D2A0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0F6B0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
-}
-
-public class _SetOverlayAlpha : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D972D0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0CA10
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayColor : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96F70
-    public void Invoke(){} // RVA: 0x7FFD515B31F0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0C850
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayCursor : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0E6E0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayCursorPositionOverride : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0E770
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _SetOverlayCurvature : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D972D0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0CF90
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayFlag : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96C30
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0C600
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayFromFile : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0EAD0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayInputMethod : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92A00
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0E1B0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayIntersectionMask : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D9AA40
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0E510
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _SetOverlayMouseScale : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0E310
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _SetOverlayName : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0C2A0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayPreCurvePitch : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D972D0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0D0F0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayRaw : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D998F0
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0E9D0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayRenderingPid : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92A00
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0C4D0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlaySortOrder : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92A00
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0CCD0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayTexelAspect : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D972D0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0CB70
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayTexture : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0E8A0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _SetOverlayTextureBounds : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0D3B0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _SetOverlayTextureColorSpace : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92A00
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0D250
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayTransformAbsolute : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96DD0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0D5C0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _SetOverlayTransformCursor : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0DAA0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _SetOverlayTransformProjection : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92810
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0DC00
-    public void EndInvoke(){} // RVA: 0x7FFD4FF6EB70
-}
-
-public class _SetOverlayTransformTrackedDeviceComponent : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96DD0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0D900
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetOverlayTransformTrackedDeviceRelative : MulticastDelegate
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96DD0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0D760
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC2F295F0
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC2F29750
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
 }
 
-public class _SetOverlayWidthInMeters : MulticastDelegate
+public class <RemoveComponent>d__2 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D972D0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0CE30
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetSceneColor : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5098C390
-    public void Invoke(){} // RVA: 0x7FFD5098C460
-    public void BeginInvoke(){} // RVA: 0x7FFD54C09EC0
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _SetSkyboxOverride : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D93C10
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0B500
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _SetStageOverride_Async : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D98560
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0BC00
-    public void EndInvoke(){} // RVA: 0x7FFD4FF6EB70
-}
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public UnityEngine.Component targetComponent; // 0x20
 
-public class _SetString : MulticastDelegate
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C116B0
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C11780
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFACC09B900
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFACC09BB00
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
 }
 
-public class _SetTrackingSpace : MulticastDelegate
+public class <RemoveComponentsOfTypeEnumerator>d__1`1 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E432370
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0AB30
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current;
+    public object System.Collections.IEnumerator.Current;
+    public UnityEngine.GameObject target;
+    public T[] <>7__wrap1;
+    public int <>7__wrap2;
 
-public class _SetWorkingCollisionBoundsInfo : MulticastDelegate
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FD9DE20
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A5D0
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
+    public void .ctor(){} // RVA: 0x7FFAC2C70ED0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2C70980
+    public void MoveNext(){} // RVA: 0x7FFAC2C59D00
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2C58E90
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC2C70980
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2C58E90
 }
 
-public class _SetWorkingPerimeter : MulticastDelegate
+public class <RemoveDependencies>d__3 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FD9DE20
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A660
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public UnityEngine.Component targetComponent; // 0x20
+    public System.Type <componentType>5__2; // 0x28
+    public UnityEngine.Component[] <>7__wrap2; // 0x30
+    public int <>7__wrap3; // 0x38
 
-public class _SetWorkingPlayAreaSize : MulticastDelegate
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD514776C0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A530
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFACC09BB40
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFACC09BF80
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
 }
 
-public class _SetWorkingSeatedZeroPoseToRawTrackingPose : MulticastDelegate
+public class <RenderLoop>d__24 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FE1C590
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A6F0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
-}
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public Valve.VR.SteamVR_Render <>4__this; // 0x20
 
-public class _SetWorkingStandingZeroPoseToRawTrackingPose : MulticastDelegate
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FE1C590
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A780
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC8CB0A80
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC8CB0D70
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
 }

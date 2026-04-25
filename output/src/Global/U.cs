@@ -1,7 +1,47 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 145
+// Methods: 239
+
+public class UBI : Object
+{
+    public UbiTweak tweak; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Digests.SkeinEngine engine; // 0x18
+    public byte[] currentBlock; // 0x20
+    public int currentOffset; // 0x28
+    public ulong[] message; // 0x30
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFACBC7FEC0
+    public void Reset(){} // RVA: 0x7FFACBC803C0 | overloaded x2
+    public void Update(){} // RVA: 0x7FFACBC80480
+    public void ProcessBlock(){} // RVA: 0x7FFACBC805E0
+    public void DoFinal(){} // RVA: 0x7FFACBC80760
+}
+
+public class UIActions : ValueType
+{
+    public UnityEngine.InputSystem.DefaultInputActions Navigate; // 0x10
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC38DFE40
+    public void get_Navigate(){} // RVA: 0x7FFAC38E2420
+    public void get_Submit(){} // RVA: 0x7FFAC38DCA50
+    public void get_Cancel(){} // RVA: 0x7FFAC38DFEF0
+    public void get_Point(){} // RVA: 0x7FFAC38E24C0
+    public void get_Click(){} // RVA: 0x7FFAC38DFE20
+    public void get_ScrollWheel(){} // RVA: 0x7FFAC38DFE00
+    public void get_MiddleClick(){} // RVA: 0x7FFAC38DCA90
+    public void get_RightClick(){} // RVA: 0x7FFAC38DC9D0
+    public void get_TrackedDevicePosition(){} // RVA: 0x7FFAC38DFD60
+    public void get_TrackedDeviceOrientation(){} // RVA: 0x7FFAC38DC970
+    public void Get(){} // RVA: 0x7FFAC38E23E0
+    public void Enable(){} // RVA: 0x7FFAC9622D20
+    public void Disable(){} // RVA: 0x7FFAC9622DA0
+    public void get_enabled(){} // RVA: 0x7FFAC9622DE0
+    public void op_Implicit(){} // RVA: 0x7FFAC48AEB50
+    public void SetCallbacks(){} // RVA: 0x7FFAC9622E10
+}
 
 public class UIElementsUpdatePanels : ValueType
 {
@@ -9,20 +49,20 @@ public class UIElementsUpdatePanels : ValueType
 
 public class UIInvisibleGraphic : MaskableGraphic
 {
-    public 0x663697D0 interactibility; // 0xE0
+    public 0x6B0097D0 interactibility; // 0xE0
     public bool interactableOverride; // 0xE4
 
     // ── Methods ──
-    public void Raycast(){} // RVA: 0x7FFD4F7091C0
-    public void Rebuild(){} // RVA: 0x7FFD4E341310
-    public void .ctor(){} // RVA: 0x7FFD4F709250
-    public void OnPopulateMesh(){} // RVA: 0x7FFD4E341310
+    public void Raycast(){} // RVA: 0x7FFAC42E91C0
+    public void Rebuild(){} // RVA: 0x7FFAC2F21310
+    public void .ctor(){} // RVA: 0x7FFAC42E9250
+    public void OnPopulateMesh(){} // RVA: 0x7FFAC2F21310
 }
 
 public class UISearchStateMapping : ValueType
 {
     public UnityEngine.GameObject targetGameObject; // 0x10
-    public 0x663D99D8 requiredSearchStatus; // 0x18
+    public 0x6B0799D8 requiredSearchStatus; // 0x18
     public bool invert; // 0x1C
 }
 
@@ -33,13 +73,27 @@ public class UISoundCollection : ScriptableObject
     public UnityEngine.AudioClip Click; // 0x28
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E54F5F0
+    public void .ctor(){} // RVA: 0x7FFAC312F5F0
 }
 
 public class UISupport : Object
 {
     // ── Methods ──
-    public void Initialize(){} // RVA: 0x7FFD54935DF0
+    public void Initialize(){} // RVA: 0x7FFAC9515DF0
+}
+
+public class UIToolkitOverrideConfig : ValueType
+{
+    public UnityEngine.EventSystems.EventSystem activeEventSystem; // 0x10
+    public bool sendEvents; // 0x18
+    public bool createPanelGameObjectsOnStart; // 0x19
+}
+
+public class UNICODE_STRING : ValueType
+{
+    public ushort Length; // 0x10
+    public ushort MaximumLength; // 0x12
+    public UIntPtr Buffer; // 0x18
 }
 
 public class UQueryMatcher : HierarchyTraversal
@@ -47,12 +101,12 @@ public class UQueryMatcher : HierarchyTraversal
     public System.Collections.Generic.List`1<UnityEngine.UIElements.RuleMatcher> m_Matchers; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341310
-    public void Traverse(){} // RVA: 0x7FFD54F26540
-    public void OnRuleMatchedElement(){} // RVA: 0x7FFD506288B0
-    public void NoProcessResult(){} // RVA: 0x7FFD4E341310
-    public void TraverseRecursive(){} // RVA: 0x7FFD55044150
-    public void Run(){} // RVA: 0x7FFD550443F0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void Traverse(){} // RVA: 0x7FFAC9B06540
+    public void OnRuleMatchedElement(){} // RVA: 0x7FFAC52088B0
+    public void NoProcessResult(){} // RVA: 0x7FFAC2F21310
+    public void TraverseRecursive(){} // RVA: 0x7FFAC9C24150
+    public void Run(){} // RVA: 0x7FFAC9C243F0
 }
 
 public class URPMaterialSwitcher : MonoBehaviour
@@ -60,7 +114,7 @@ public class URPMaterialSwitcher : MonoBehaviour
     public bool children; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341D50
+    public void .ctor(){} // RVA: 0x7FFAC2F21D50
 }
 
 public class UTF32Decoder : DecoderNLS
@@ -69,9 +123,9 @@ public class UTF32Decoder : DecoderNLS
     public int readByteCount; // 0x34
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD538047E0
-    public void Reset(){} // RVA: 0x7FFD538047F0
-    public void get_HasState(){} // RVA: 0x7FFD4EE081F0
+    public void .ctor(){} // RVA: 0x7FFAC83E47E0
+    public void Reset(){} // RVA: 0x7FFAC83E47F0
+    public void get_HasState(){} // RVA: 0x7FFAC39E81F0
 }
 
 public class UTF8Decoder : DecoderNLS
@@ -79,9 +133,9 @@ public class UTF8Decoder : DecoderNLS
     public int HasState; // 0x30
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD538047E0
-    public void Reset(){} // RVA: 0x7FFD5380B020
-    public void get_HasState(){} // RVA: 0x7FFD5380B050
+    public void .ctor(){} // RVA: 0x7FFAC83E47E0
+    public void Reset(){} // RVA: 0x7FFAC83EB020
+    public void get_HasState(){} // RVA: 0x7FFAC83EB050
 }
 
 public class UTF8Encoder : EncoderNLS
@@ -89,9 +143,9 @@ public class UTF8Encoder : EncoderNLS
     public int HasState; // 0x38
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53806D00
-    public void Reset(){} // RVA: 0x7FFD5380AFE0
-    public void get_HasState(){} // RVA: 0x7FFD5380B010
+    public void .ctor(){} // RVA: 0x7FFAC83E6D00
+    public void Reset(){} // RVA: 0x7FFAC83EAFE0
+    public void get_HasState(){} // RVA: 0x7FFAC83EB010
 }
 
 public class UTF8EncodingSealed : UTF8Encoding
@@ -99,15 +153,52 @@ public class UTF8EncodingSealed : UTF8Encoding
     public object Preamble;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5380AE60
-    public void get_Preamble(){} // RVA: 0x7FFD5380AEE0
+    public void .ctor(){} // RVA: 0x7FFAC83EAE60
+    public void get_Preamble(){} // RVA: 0x7FFAC83EAEE0
+}
+
+public class UbiTweak : Object
+{
+    public ulong Type;
+    public ulong First;
+    public ulong Final;
+    public ulong[] tweak; // 0x10
+    public bool extendedPosition; // 0x18
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFACBC7F690
+    public void Reset(){} // RVA: 0x7FFACBC7F850 | overloaded x2
+    public void get_Type(){} // RVA: 0x7FFACBC7F8B0
+    public void set_Type(){} // RVA: 0x7FFACBC7F8E0
+    public void get_First(){} // RVA: 0x7FFACBC7F930
+    public void set_First(){} // RVA: 0x7FFACBC7F970
+    public void get_Final(){} // RVA: 0x7FFACBC7F9D0
+    public void set_Final(){} // RVA: 0x7FFACBC7FA10
+    public void AdvancePosition(){} // RVA: 0x7FFACBC7FA70
+    public void GetWords(){} // RVA: 0x7FFAC2F3C380
+    public void ToString(){} // RVA: 0x7FFACBC7FC30
 }
 
 public class UdonProgramScanner : Object
 {
     // ── Methods ──
-    public void Initialize(){} // RVA: 0x7FFD4F3578D0
-    public void Equals(){} // RVA: 0x7FFD4F357AA0
+    public void Initialize(){} // RVA: 0x7FFAC3F378D0
+    public void Equals(){} // RVA: 0x7FFAC3F37AA0
+}
+
+public class UdonTimeSource : Object
+{
+    public double CurrentTime; // 0x10
+    public long CurrentFrame; // 0x18
+
+    // ── Methods ──
+    public void get_CurrentTime(){} // RVA: 0x7FFAC5873C20
+    public void set_CurrentTime(){} // RVA: 0x7FFAC69C0110
+    public void get_CurrentFrame(){} // RVA: 0x7FFAC2F247C0
+    public void set_CurrentFrame(){} // RVA: 0x7FFAC38920D0
+    public void get_MinimumDelay(){} // RVA: 0x7FFAC9E9F5A0
+    public void UpdateTime(){} // RVA: 0x7FFAC9E9F5B0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
 }
 
 public class UiInputField : MonoBehaviour
@@ -116,7 +207,7 @@ public class UiInputField : MonoBehaviour
     public UnityEngine.GameObject placeholder; // 0x48
     public VRC.Localization.LocalizableString _placeholderText; // 0x50
     public UnityEngine.GameObject textField; // 0x78
-    public 0x6657A488 inputType; // 0x80
+    public 0x6B21A488 inputType; // 0x80
     public bool isDate; // 0x84
     public bool useNumericKeypad; // 0x85
     public UiInputField nextInputField; // 0x88
@@ -126,31 +217,77 @@ public class UiInputField : MonoBehaviour
     public bool ÏÎÍÏÏÎÎÏÎÍÍÌÏÍÎÎÎÌÍÍÎÏÏ; // 0x9D
     public bool ÍÍÌÎÍÌÍÎÎÍÌÎÏÎÍÏÌÌÌÏÌÍÌ; // 0x9E
     public UnityEngine.Events.UnityAction`1<string> ÏÍÍÍÏÌÌÏÍÍÎÎÎÍÎÎÍÏÏÏÏÎÏ; // 0xA0
-    public 0x664E21C0 ÌÌÌÏÌÌÏÏÍÍÎÎÏÎÏÏÎÍÌÏÍÍÏ; // 0xA8
+    public UnityEngine.Events.UnityAction ÌÌÌÏÌÌÏÏÍÍÎÎÏÎÏÏÎÍÌÏÍÍÏ; // 0xA8
     public UnityEngine.UI.Button ÏÏÎÍÍÌÎÍÌÏÍÍÍÍÎÌÏÏÍÏÍÏÍ; // 0xB0
     public string ÍÌÏÍÏÏÎÎÌÏÎÍÍÎÍÎÌÏÍÍÎÌÏ; // 0xB8
 
     // ── Methods ──
-    public void get_source(){} // RVA: 0x7FFD4E90A3D0
-    public void RaiseCancellation(){} // RVA: 0x7FFD4F703340
-    public void get_PointerPose(){} // RVA: 0x7FFD4E3AC0B0
-    public void .ctor(){} // RVA: 0x7FFD4F703440
-    public void Initialize(){} // RVA: 0x7FFD4F7035D0
-    public void InvokeRepeating(){} // RVA: 0x7FFD4E90A3D0
-    public void CancelInvoke(){} // RVA: 0x7FFD4F703600
-    public void PressEdit(){} // RVA: 0x7FFD4F703890
-    public void StartCoroutine(){} // RVA: 0x7FFD4F703FE0
-    public void OnPointerEnter(){} // RVA: 0x7FFD4F7042A0
-    public void OnPointerExit(){} // RVA: 0x7FFD4F7045D0
-    public void Awake(){} // RVA: 0x7FFD4F7045E0
-    public void OnDestroy(){} // RVA: 0x7FFD4E90A3D0
-    public void StopCoroutine(){} // RVA: 0x7FFD4F704FF0
-    public void FixedUpdate(){} // RVA: 0x7FFD4F6A1240
-    public void StopAllCoroutines(){} // RVA: 0x7FFD4F7053B0
-    public void get_useGUILayout(){} // RVA: 0x7FFD4F705600
-    public void set_useGUILayout(){} // RVA: 0x7FFD4F706010
-    public void print(){} // RVA: 0x7FFD4F706770
-    public void OnEnable(){} // RVA: 0x7FFD4F7035D0
+    public void get_source(){} // RVA: 0x7FFAC34EA3D0
+    public void RaiseCancellation(){} // RVA: 0x7FFAC42E3340
+    public void get_PointerPose(){} // RVA: 0x7FFAC2F8C0B0
+    public void .ctor(){} // RVA: 0x7FFAC42E3440
+    public void Initialize(){} // RVA: 0x7FFAC42E35D0
+    public void InvokeRepeating(){} // RVA: 0x7FFAC34EA3D0
+    public void CancelInvoke(){} // RVA: 0x7FFAC42E3600
+    public void PressEdit(){} // RVA: 0x7FFAC42E3890
+    public void StartCoroutine(){} // RVA: 0x7FFAC42E3FE0
+    public void OnPointerEnter(){} // RVA: 0x7FFAC42E42A0
+    public void OnPointerExit(){} // RVA: 0x7FFAC42E45D0
+    public void Awake(){} // RVA: 0x7FFAC42E45E0
+    public void OnDestroy(){} // RVA: 0x7FFAC34EA3D0
+    public void StopCoroutine(){} // RVA: 0x7FFAC42E4FF0
+    public void FixedUpdate(){} // RVA: 0x7FFAC4281240
+    public void StopAllCoroutines(){} // RVA: 0x7FFAC42E53B0
+    public void get_useGUILayout(){} // RVA: 0x7FFAC42E5600
+    public void set_useGUILayout(){} // RVA: 0x7FFAC42E6010
+    public void print(){} // RVA: 0x7FFAC42E6770
+    public void OnEnable(){} // RVA: 0x7FFAC42E35D0
+}
+
+public class Uint16ToBytes : ValueType
+{
+    public ushort Int; // 0x10
+    public byte byte0; // 0x10
+    public byte byte1; // 0x11
+}
+
+public class Uint32ToBytes : ValueType
+{
+    public uint Int; // 0x10
+    public byte byte0; // 0x10
+    public byte byte1; // 0x11
+    public byte byte2; // 0x12
+    public byte byte3; // 0x13
+}
+
+public class Uint64ToBytes : ValueType
+{
+    public ulong Int; // 0x10
+    public byte byte0; // 0x10
+    public byte byte1; // 0x11
+    public byte byte2; // 0x12
+    public byte byte3; // 0x13
+    public byte byte4; // 0x14
+    public byte byte5; // 0x15
+    public byte byte6; // 0x16
+    public byte byte7; // 0x17
+    public byte byte8; // 0x18
+}
+
+public class UnaryExpressionProxy : Object
+{
+    public System.Linq.Expressions.UnaryExpression CanReduce; // 0x10
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC8D727E0
+    public void get_CanReduce(){} // RVA: 0x7FFAC880FE40
+    public void get_DebugView(){} // RVA: 0x7FFAC8D710B0
+    public void get_IsLifted(){} // RVA: 0x7FFAC8D728C0
+    public void get_IsLiftedToNull(){} // RVA: 0x7FFAC8D728E0
+    public void get_Method(){} // RVA: 0x7FFAC3773190
+    public void get_NodeType(){} // RVA: 0x7FFAC84E9CA0
+    public void get_Operand(){} // RVA: 0x7FFAC37735E0
+    public void get_Type(){} // RVA: 0x7FFAC87BB0A0
 }
 
 public class UnboundAnchor : ValueType
@@ -159,37 +296,62 @@ public class UnboundAnchor : ValueType
     public System.Guid Localized; // 0x18
 
     // ── Methods ──
-    public void get_Uuid(){} // RVA: 0x7FFD4FEB27D0
-    public void get_Localized(){} // RVA: 0x7FFD53D4BC40
-    public void get_Localizing(){} // RVA: 0x7FFD53D4BCC0
-    public void get_Pose(){} // RVA: 0x7FFD53D4BD50
-    public void Localize(){} // RVA: 0x7FFD53D4BE80
-    public void BindTo(){} // RVA: 0x7FFD53D4C240
-    public void .ctor(){} // RVA: 0x7FFD51517E80
+    public void get_Uuid(){} // RVA: 0x7FFAC4A927D0
+    public void get_Localized(){} // RVA: 0x7FFAC892BC40
+    public void get_Localizing(){} // RVA: 0x7FFAC892BCC0
+    public void get_Pose(){} // RVA: 0x7FFAC892BD50
+    public void Localize(){} // RVA: 0x7FFAC892BE80
+    public void BindTo(){} // RVA: 0x7FFAC892C240
+    public void .ctor(){} // RVA: 0x7FFAC60F7E80
 }
 
 public class UnboundedChannelReader : ChannelReader`1
 {
-    public System.Threading.Channels.SingleConsumerUnboundedChannel`1<ZLogger.IZLoggerEntry> _parent; // 0x10
-    public System.Threading.Channels.AsyncOperation`1<ZLogger.IZLoggerEntry> _readerSingleton; // 0x18
-    public System.Threading.Channels.AsyncOperation`1<bool> _waiterSingleton; // 0x20
+    public System.Threading.Channels.SingleConsumerUnboundedChannel`1<T> _parent;
+    public System.Threading.Channels.AsyncOperation`1<T> _readerSingleton;
+    public System.Threading.Channels.AsyncOperation`1<bool> _waiterSingleton;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E090A40
-    public void TryRead(){} // RVA: 0x7FFD4E079F60
+    public void .ctor(){} // RVA: 0x7FFAC2C70A40
+    public void TryRead(){} // RVA: 0x7FFAC2C59F60
     public void WaitToReadAsync(){}
 }
 
 public class UnboundedChannelWriter : ChannelWriter`1
 {
-    public System.Threading.Channels.SingleConsumerUnboundedChannel`1<ZLogger.IZLoggerEntry> _parent; // 0x10
+    public System.Threading.Channels.SingleConsumerUnboundedChannel`1<T> _parent;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E090A40
-    public void TryComplete(){} // RVA: 0x7FFD4E079F60
-    public void TryWrite(){} // RVA: 0x7FFD4E2ADC40
+    public void .ctor(){} // RVA: 0x7FFAC2C70A40
+    public void TryComplete(){} // RVA: 0x7FFAC2C59F60
+    public void TryWrite(){} // RVA: 0x7FFAC2E8DC40
     public void WaitToWriteAsync(){}
-    public void WriteAsync(){} // RVA: 0x7FFD4E2ADC40
+    public void WriteAsync(){} // RVA: 0x7FFAC2E8DC40
+}
+
+public class Unchecked : NumericConvertInstruction
+{
+    public object InstructionName;
+
+    // ── Methods ──
+    public void get_InstructionName(){} // RVA: 0x7FFAC8DE6380
+    public void .ctor(){} // RVA: 0x7FFAC8DE6030
+    public void Convert(){} // RVA: 0x7FFAC8DE63C0
+    public void ConvertInt32(){} // RVA: 0x7FFAC8DE67F0
+    public void ConvertInt64(){} // RVA: 0x7FFAC8DE6AD0
+    public void ConvertUInt64(){} // RVA: 0x7FFAC8DE6D80
+    public void ConvertDouble(){} // RVA: 0x7FFAC8DE7050
+}
+
+public class UndeclaredNotation : Object
+{
+    public string name; // 0x10
+    public int lineNo; // 0x18
+    public int linePos; // 0x1C
+    public UndeclaredNotation next; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC9212E30
 }
 
 public class UniTaskLoopRunnerEarlyUpdate : ValueType
@@ -327,16 +489,28 @@ public class UnicodeChar : ValueType
     public int length; // 0x18
 }
 
-public class Union : ValueType
+public class Uniforms : Object
 {
-    public 0x66526F20 m_current; // 0x10
-    public System.Collections.Generic.List`1<UnionCase> m_allocCount; // 0x18
+    public UnityEngine.Rendering.PostProcessing.HableCurve curve; // 0x10
 
     // ── Methods ──
-    public void get_m_current(){} // RVA: 0x7FFD54932260
-    public void set_m_current(){} // RVA: 0x7FFD54932280
-    public void get_m_allocCount(){} // RVA: 0x7FFD549322A0
-    public void set_m_allocCount(){} // RVA: 0x7FFD549322B0
+    public void .ctor(){} // RVA: 0x7FFAC2F22E30
+    public void get_curve(){} // RVA: 0x7FFAC96DED90
+    public void get_toeSegmentA(){} // RVA: 0x7FFAC96DEDD0
+    public void get_toeSegmentB(){} // RVA: 0x7FFAC96DEE30
+    public void get_midSegmentA(){} // RVA: 0x7FFAC96DEE80
+    public void get_midSegmentB(){} // RVA: 0x7FFAC96DEEE0
+    public void get_shoSegmentA(){} // RVA: 0x7FFAC96DEF30
+    public void get_shoSegmentB(){} // RVA: 0x7FFAC96DEF90
+}
+
+public class Union : Object
+{
+    public Newtonsoft.Json.Utilities.FSharpFunction TagReader; // 0x10
+    public System.Collections.Generic.List`1<UnionCase> Cases; // 0x18
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC34EC240
 }
 
 public class UnionCase : Object
@@ -344,11 +518,17 @@ public class UnionCase : Object
     public int Tag; // 0x10
     public string Name; // 0x18
     public System.Reflection.PropertyInfo[] Fields; // 0x20
-    public 0x66526F20 FieldReader; // 0x28
-    public 0x66526F20 Constructor; // 0x30
+    public Newtonsoft.Json.Utilities.FSharpFunction FieldReader; // 0x28
+    public Newtonsoft.Json.Utilities.FSharpFunction Constructor; // 0x30
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53C1C980
+    public void .ctor(){} // RVA: 0x7FFAC87FC980
+}
+
+public class UnityEventHand : UnityEvent`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC8CC1680
 }
 
 public class UnityEventHandlerAsyncEnumerator : MoveNextSource
@@ -365,29 +545,99 @@ public class UnityEventHandlerAsyncEnumerator : MoveNextSource
     public T <Current>k__BackingField;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
+    public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+    public void get_Current(){} // RVA: 0x7FFAC2E8DC40
+    public void set_Current(){} // RVA: 0x7FFAC2E8DC40
     public void MoveNextAsync(){}
-    public void Invoke(){} // RVA: 0x7FFD4E2ADC40
-    public void OnCanceled1(){} // RVA: 0x7FFD4E090A10
-    public void OnCanceled2(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
+    public void Invoke(){} // RVA: 0x7FFAC2E8DC40
+    public void OnCanceled1(){} // RVA: 0x7FFAC2C70A10
+    public void OnCanceled2(){} // RVA: 0x7FFAC2C70A10
+    public void DisposeAsync(){} // RVA: 0x7FFAC2C588A0
+    public void .cctor(){} // RVA: 0x7FFAC2C709B0
+}
+
+public class UnityEventSingleFloat : UnityEvent`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC8CC15F0
+}
+
+public class UnityLogDelegate : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC49781F0
+    public void Invoke(){} // RVA: 0x7FFAC307D370
+    public void BeginInvoke(){} // RVA: 0x7FFAC8875F90
+    public void EndInvoke(){} // RVA: 0x7FFAC2F22CB0
 }
 
 public class UnityObjectKeyComparer`1 : Object
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x7FFD4E2ADC40
-    public void .ctor(){} // RVA: 0x7FFD4E090980
+    public void Compare(){} // RVA: 0x7FFAC2E8DC40
+    public void .ctor(){} // RVA: 0x7FFAC2C70980
+}
+
+public class UnityOpenXR : Object
+{
+    public bool Enabled;
+
+    // ── Methods ──
+    public void SetClientVersion(){} // RVA: 0x7FFAC890CA80
+    public void HookGetInstanceProcAddr(){} // RVA: 0x7FFAC890CC70
+    public void OnInstanceCreate(){} // RVA: 0x7FFAC890CE10
+    public void OnInstanceDestroy(){} // RVA: 0x7FFAC890CFB0
+    public void OnSessionCreate(){} // RVA: 0x7FFAC890D140
+    public void OnAppSpaceChange(){} // RVA: 0x7FFAC890D2D0
+    public void OnSessionStateChange(){} // RVA: 0x7FFAC890D460
+    public void OnSessionBegin(){} // RVA: 0x7FFAC890D600
+    public void OnSessionEnd(){} // RVA: 0x7FFAC890D790
+    public void OnSessionExiting(){} // RVA: 0x7FFAC890D920
+    public void OnSessionDestroy(){} // RVA: 0x7FFAC890DAB0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+}
+
+public class UnityPackage : ApiModel
+{
+    public string assetUrl; // 0x68
+    public string performanceRating; // 0x70
+    public string platform; // 0x78
+    public 0x6B0AD960<VRC.Core.ApiAvatar> scanStatus; // 0x80
+    public string unityVersion; // 0x88
+    public 0x6B0ACE60 variant; // 0x90
+
+    // ── Methods ──
+    public void get_assetUrl(){} // RVA: 0x7FFAC2F9CD50
+    public void set_assetUrl(){} // RVA: 0x7FFAC2F9CD60
+    public void get_performanceRating(){} // RVA: 0x7FFAC2FE9590
+    public void set_performanceRating(){} // RVA: 0x7FFAC2FE95A0
+    public void get_platform(){} // RVA: 0x7FFAC30E5600
+    public void set_platform(){} // RVA: 0x7FFAC30E06F0
+    public void get_scanStatus(){} // RVA: 0x7FFAC35729C0
+    public void set_scanStatus(){} // RVA: 0x7FFAC3572BF0
+    public void get_unityVersion(){} // RVA: 0x7FFAC2F60010
+    public void set_unityVersion(){} // RVA: 0x7FFAC354E300
+    public void get_variant(){} // RVA: 0x7FFAC3220660
+    public void set_variant(){} // RVA: 0x7FFAC34D2750
+    public void .ctor(){} // RVA: 0x7FFACBE66B20
+}
+
+public class UnitySafeFindHandle : SafeFindHandle
+{
+    public UIntPtr Handle; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC85BB540
+    public void get_Handle(){} // RVA: 0x7FFAC2F4F0C0
+    public void get_IsInvalid(){} // RVA: 0x7FFAC65A7D10
+    public void Dispose(){} // RVA: 0x7FFAC85BB5A0
 }
 
 public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1 : Object
 {
     // ── Methods ──
-    public void Get(){} // RVA: 0x7FFD4FC0E2F0
-    public void .ctor(){} // RVA: 0x7FFD4E341310
+    public void Get(){} // RVA: 0x7FFAC47EE2F0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
 }
 
 public class UnityWebRequestAsyncOperationAwaiter : ValueType
@@ -396,11 +646,39 @@ public class UnityWebRequestAsyncOperationAwaiter : ValueType
     public System.Action`1<UnityEngine.AsyncOperation> continuationAction; // 0x18
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4EFD0830
-    public void get_IsCompleted(){} // RVA: 0x7FFD548EED00
-    public void GetResult(){} // RVA: 0x7FFD548F5A50
-    public void OnCompleted(){} // RVA: 0x7FFD548F5CF0
-    public void UnsafeOnCompleted(){} // RVA: 0x7FFD548F5D00
+    public void .ctor(){} // RVA: 0x7FFAC3BB0830
+    public void get_IsCompleted(){} // RVA: 0x7FFAC94CED00
+    public void GetResult(){} // RVA: 0x7FFAC94D5A50
+    public void OnCompleted(){} // RVA: 0x7FFAC94D5CF0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAC94D5D00
+}
+
+public class UnityWebRequestAsyncOperationConfiguredSource : Object
+{
+    public Cysharp.Threading.Tasks.TaskPool`1<UnityWebRequestAsyncOperationConfiguredSource> NextNode;
+    public UnityWebRequestAsyncOperationConfiguredSource nextNode; // 0x10
+    public UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOperation; // 0x18
+    public System.IProgress`1<float> progress; // 0x20
+    public System.Threading.CancellationToken cancellationToken; // 0x28
+    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration; // 0x30
+    public bool cancelImmediately; // 0x48
+    public bool completed; // 0x49
+    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<UnityEngine.Networking.UnityWebRequest> core; // 0x50
+    public System.Action`1<UnityEngine.AsyncOperation> continuationAction; // 0x78
+
+    // ── Methods ──
+    public void get_NextNode(){} // RVA: 0x7FFAC671A9E0
+    public void .cctor(){} // RVA: 0x7FFAC94D5E30
+    public void .ctor(){} // RVA: 0x7FFAC94D5FB0
+    public void Create(){} // RVA: 0x7FFAC94D6070
+    public void GetResult(){} // RVA: 0x7FFAC94D65E0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAC94D6860
+    public void GetStatus(){} // RVA: 0x7FFAC94D6870
+    public void UnsafeGetStatus(){} // RVA: 0x7FFAC94D68C0
+    public void OnCompleted(){} // RVA: 0x7FFAC94D6900
+    public void MoveNext(){} // RVA: 0x7FFAC94D6980
+    public void TryReturn(){} // RVA: 0x7FFAC94D6B80
+    public void Continuation(){} // RVA: 0x7FFAC94D6CF0
 }
 
 public class UnityWebRequestUpdate : ValueType
@@ -410,8 +688,39 @@ public class UnityWebRequestUpdate : ValueType
 public class Unmanaged : ValueType
 {
     // ── Methods ──
-    public void Allocate(){} // RVA: 0x7FFD549310D0
-    public void Free(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
+    public void Allocate(){} // RVA: 0x7FFAC95110D0
+    public void Free(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+}
+
+public class UnmanagedMemory : ValueType
+{
+    public void* isAllocated; // 0x10
+    public int sizeInBytes; // 0x18
+    public int actionCount; // 0x1C
+    public int interactionCount; // 0x20
+    public int bindingCount; // 0x24
+    public int controlCount; // 0x28
+    public int compositeCount; // 0x2C
+    public TriggerState* actionStates; // 0x30
+    public BindingState* bindingStates; // 0x38
+    public InteractionState* interactionStates; // 0x40
+    public float* controlMagnitudes; // 0x48
+    public float* compositeMagnitudes; // 0x50
+    public int* enabledControls; // 0x58
+    public ushort* actionBindingIndicesAndCounts; // 0x60
+    public ushort* actionBindingIndices; // 0x68
+    public int* controlIndexToBindingIndex; // 0x70
+    public ushort* controlGroupingAndComplexity; // 0x78
+    public bool controlGroupingInitialized; // 0x80
+    public ActionMapIndices* mapIndices; // 0x88
+
+    // ── Methods ──
+    public void get_isAllocated(){} // RVA: 0x7FFAC5DC6CA0
+    public void get_sizeInBytes(){} // RVA: 0x7FFAC954CFD0
+    public void Allocate(){} // RVA: 0x7FFAC954D020
+    public void Dispose(){} // RVA: 0x7FFAC954D220
+    public void CopyDataFrom(){} // RVA: 0x7FFAC954D2D0
+    public void Clone(){} // RVA: 0x7FFAC954D410
 }
 
 public class UnmanagedMemoryStreamForModule : UnmanagedMemoryStream
@@ -419,8 +728,44 @@ public class UnmanagedMemoryStreamForModule : UnmanagedMemoryStream
     public System.Reflection.Module module; // 0x68
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD539521F0
-    public void Dispose(){} // RVA: 0x7FFD539522D0
+    public void .ctor(){} // RVA: 0x7FFAC85321F0
+    public void Dispose(){} // RVA: 0x7FFAC85322D0
+}
+
+public class UnmanagedReadOrWrite : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC8976DD0
+    public void Invoke(){} // RVA: 0x7FFAC307D4E0
+}
+
+public class UnsignedIntegerInput : TextValueInput
+{
+    public object parentUnsignedIntegerField;
+    public object allowedCharacters;
+
+    // ── Methods ──
+    public void get_parentUnsignedIntegerField(){} // RVA: 0x7FFAC9B68670
+    public void .ctor(){} // RVA: 0x7FFAC9B686F0
+    public void get_allowedCharacters(){} // RVA: 0x7FFAC9B688B0
+    public void ApplyInputDeviceDelta(){} // RVA: 0x7FFAC9B68910
+    public void ValueToString(){} // RVA: 0x7FFAC9B68B30
+    public void StringToValue(){} // RVA: 0x7FFAC9B68C20
+}
+
+public class UnsignedLongInput : TextValueInput
+{
+    public object parentUnsignedLongField;
+    public object allowedCharacters;
+
+    // ── Methods ──
+    public void get_parentUnsignedLongField(){} // RVA: 0x7FFAC9B697F0
+    public void .ctor(){} // RVA: 0x7FFAC9B69870
+    public void get_allowedCharacters(){} // RVA: 0x7FFAC9B69A30
+    public void ApplyInputDeviceDelta(){} // RVA: 0x7FFAC9B69A90
+    public void ClampToMinMaxULongValue(){} // RVA: 0x7FFAC9B69D60
+    public void ValueToString(){} // RVA: 0x7FFAC9B69E00
+    public void StringToValue(){} // RVA: 0x7FFAC9B69EF0
 }
 
 public class UpdateAllRenderers : ValueType
@@ -466,17 +811,17 @@ public class UpdateCustomRenderTextures : ValueType
 public class UpdateDelegate : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E3C1190
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39CC70
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
+    public void .ctor(){} // RVA: 0x7FFAC2FA1190
+    public void Invoke(){} // RVA: 0x7FFAC2F7CC60
+    public void BeginInvoke(){} // RVA: 0x7FFAC2F7CC70
+    public void EndInvoke(){} // RVA: 0x7FFAC2F22CB0
 }
 
 public class UpdateFunction : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
+    public void .ctor(){} // RVA: 0x7FFAC2F7F980
+    public void Invoke(){} // RVA: 0x7FFAC2F7FA50
 }
 
 public class UpdateGridCellsJob : ValueType
@@ -486,19 +831,28 @@ public class UpdateGridCellsJob : ValueType
     public ParallelWriter<Pair,bool> collisionPairs; // 0x28
 
     // ── Methods ──
-    public void Execute(){} // RVA: 0x7FFD55216D40
-    public void UpdateRecords(){} // RVA: 0x7FFD55216F50
-    public void InsertionSort(){} // RVA: 0x7FFD552173D0
-    public void FindPairs(){} // RVA: 0x7FFD55217520
+    public void Execute(){} // RVA: 0x7FFAC9DF6D40
+    public void UpdateRecords(){} // RVA: 0x7FFAC9DF6F50
+    public void InsertionSort(){} // RVA: 0x7FFAC9DF73D0
+    public void FindPairs(){} // RVA: 0x7FFAC9DF7520
+}
+
+public class UpdateHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC411D4B0
+    public void Invoke(){} // RVA: 0x7FFAC307D370
+    public void BeginInvoke(){} // RVA: 0x7FFAC8C79320
+    public void EndInvoke(){} // RVA: 0x7FFAC2F22CB0
 }
 
 public class UpdateHeadingDelegate : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FC4EE70
-    public void Invoke(){} // RVA: 0x7FFD4FC4EFF0
-    public void BeginInvoke(){} // RVA: 0x7FFD4FC4F030
-    public void EndInvoke(){} // RVA: 0x7FFD4F454000
+    public void .ctor(){} // RVA: 0x7FFAC482EE70
+    public void Invoke(){} // RVA: 0x7FFAC482EFF0
+    public void BeginInvoke(){} // RVA: 0x7FFAC482F030
+    public void EndInvoke(){} // RVA: 0x7FFAC4034000
 }
 
 public class UpdateInputManager : ValueType
@@ -511,206 +865,4 @@ public class UpdateKinect : ValueType
 
 public class UpdateLightProbeProxyVolumes : ValueType
 {
-}
-
-public class UpdateMainGameViewRect : ValueType
-{
-}
-
-public class UpdateMasterServerInterface : ValueType
-{
-}
-
-public class UpdateNetworkManager : ValueType
-{
-}
-
-public class UpdatePreloading : ValueType
-{
-}
-
-public class UpdateRectTransform : ValueType
-{
-}
-
-public class UpdateResolution : ValueType
-{
-}
-
-public class UpdateRootsJob : ValueType
-{
-    public int MAX_EXECUTIONS;
-    public float realTime; // 0x10
-    public float fixedTime; // 0x14
-    public Unity.Collections.NativeArray`1<ChainRoot> roots; // 0x18
-    public int FIXED_TIME_COUNTER_MAX;
-
-    // ── Methods ──
-    public void Execute(){} // RVA: 0x7FFD5526E320
-    public void CalculateShouldUseFixedTime(){} // RVA: 0x7FFD5526E470
-}
-
-public class UpdateShapePositionsJob : ValueType
-{
-    public int SHAPE_BATCH_COUNT;
-    public Unity.Collections.NativeList`1<ushort> activeShapes; // 0x10
-    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x18
-    public Unity.Collections.NativeArray`1<0x664E1038> transformData; // 0x28
-    public Unity.Collections.NativeArray`1<int> transformLookup; // 0x38
-
-    // ── Methods ──
-    public void Execute(){} // RVA: 0x7FFD5521D650
-    public void GetTransform(){} // RVA: 0x7FFD5521D900
-    public void .cctor(){} // RVA: 0x7FFD5521D940
-}
-
-public class UpdateShapesJob : ValueType
-{
-    public Unity.Collections.NativeQueue`1<ushort> shapesToUpdate; // 0x10
-    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x18
-    public Unity.Collections.NativeHashMap`2<UnityEngine.Vector3Int,int> gridMap; // 0x28
-    public Unity.Collections.NativeList`1<GridCell> gridCells; // 0x30
-    public Unity.Collections.NativeList`1<int> cellCache; // 0x38
-
-    // ── Methods ──
-    public void Execute(){} // RVA: 0x7FFD55211530
-    public void RemoveShape(){} // RVA: 0x7FFD55211CD0 | overloaded x2
-    public void AddShape(){} // RVA: 0x7FFD55211ED0 | overloaded x2
-}
-
-public class UpdateStatus : Object
-{
-    public int kWindowSize;
-    public int windowStart; // 0x10
-    public int numWindowLateUpdateMoves; // 0x14
-    public int numWindowFixedUpdateMoves; // 0x18
-    public int numWindows; // 0x1C
-    public int lastFrameUpdated; // 0x20
-    public UnityEngine.Matrix4x4 lastPos; // 0x24
-    public 0x6658B788 <PreferredUpdate>k__BackingField; // 0x64
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341310
-}
-
-public class UpdateStepCount : ValueType
-{
-    public bool value; // 0x10
-    public uint <value>k__BackingField; // 0x14
-
-    // ── Methods ──
-    public void get_value(){} // RVA: 0x7FFD4F8402A0
-    public void set_value(){} // RVA: 0x7FFD4F840230
-    public void OnBeforeUpdate(){} // RVA: 0x7FFD54A9DA10
-    public void OnUpdate(){} // RVA: 0x7FFD54A9DA20
-}
-
-public class UpdateStreamingManager : ValueType
-{
-}
-
-public class UpdateSubstance : ValueType
-{
-}
-
-public class UpdateTextureStreamingManager : ValueType
-{
-}
-
-public class UpdateVideo : ValueType
-{
-}
-
-public class UpdateVideoTextures : ValueType
-{
-}
-
-public class UpdatedEventHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-}
-
-public class UriInfo : Object
-{
-    public string Host; // 0x10
-    public string ScopeId; // 0x18
-    public string String; // 0x20
-    public Offset Offset; // 0x28
-    public string DnsSafeHost; // 0x38
-    public MoreInfo MoreInfo; // 0x40
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341310
-}
-
-public class UserController : ScriptableObject
-{
-    public bool testSteamAccount; // 0x18
-
-    // ── Methods ──
-    public void BackPressed(){} // RVA: 0x7FFD4EDD4E30
-    public void CreateInstance(){} // RVA: 0x7FFD4F68DD60
-    public void Equals(){} // RVA: 0x7FFD4F68DF40
-    public void CreateScriptableObject(){} // RVA: 0x7FFD4F68DFE0
-    public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x7FFD4F68E080
-    public void GetHashCode(){} // RVA: 0x7FFD4F68E120
-    public void ToString(){} // RVA: 0x7FFD4F68E1C0
-    public void GetGameObject_C12(){} // RVA: 0x7FFD4F68E260
-    public void .ctor(){} // RVA: 0x7FFD4E54F5F0
-    public void Initialize(){} // RVA: 0x7FFD4F68E300
-    public void GetGameObject_A97(){} // RVA: 0x7FFD4F68E390
-    public void SetActive_448(){} // RVA: 0x7FFD4F68E430
-}
-
-public class UserDefinedSettings : ValueType
-{
-    public ushort stereoRenderingMode; // 0x10
-    public ushort initializationType; // 0x12
-    public ushort mirrorViewMode; // 0x14
-    public string editorAppKey; // 0x18
-    public string actionManifestPath; // 0x20
-    public string applicationName; // 0x28
-}
-
-public class UserHandle : ValueType
-{
-    public UIntPtr Handle; // 0x10
-
-    // ── Methods ──
-    public void Drop(){} // RVA: 0x7FFD4FD96780
-    public void DisplayName(){} // RVA: 0x7FFD4FD96800
-    public void Id(){} // RVA: 0x7FFD4FD96890
-    public void Status(){} // RVA: 0x7FFD4FD96910
-}
-
-public class UxmlFactory : UxmlFactory`2
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD55011380
-}
-
-public class UxmlObjectFactory`1 : UxmlObjectFactory`2
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E090980
-}
-
-public class UxmlObjectTraits`1 : UxmlObjectTraits`1
-{
-    public UnityEngine.UIElements.UxmlObjectListAttributeDescription`1<UnityEngine.UIElements.SortColumnDescription> m_SortColumnDescriptions;
-
-    // ── Methods ──
-    public void ParseLength(){} // RVA: 0x7FFD4E2ADC40
-    public void Init(){}
-    public void .ctor(){} // RVA: 0x7FFD4E090980
-}
-
-public class UxmlTraits : UxmlTraits
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5227E2C0
-    public void Init(){} // RVA: 0x7FFD5227E440
-    public void ParseChoiceList(){} // RVA: 0x7FFD5227E5D0
 }

@@ -10,8 +10,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Video
         public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
 
         // ── Methods ──
-        public void GetHandle(){} // RVA: 0x7FFD51CFD430
-        public void Equals(){} // RVA: 0x7FFD550B90A0
+        public void GetHandle(){} // RVA: 0x7FFAC68DD430
+        public void Equals(){} // RVA: 0x7FFAC9C990A0
     }
 
 }

@@ -18,7 +18,7 @@ namespace VRC.Core.Networking.Pose
         public int PUPPET_FLAGS;
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFD551FBA30
+        public void .cctor(){} // RVA: 0x7FFAC9DDBA30
     }
 
     public class DirectQuantizedPose : PoseCodec`1
@@ -33,15 +33,15 @@ namespace VRC.Core.Networking.Pose
         public byte[] legacyFaceBytes; // 0x48
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD551FC1A0
-        public void Encode(){} // RVA: 0x7FFD551FC550
-        public void CreateFingers(){} // RVA: 0x7FFD551FCB50
-        public void CreateMuscles(){} // RVA: 0x7FFD551FCC00
-        public void Decode(){} // RVA: 0x7FFD551FCD90
-        public void ReadMuscles(){} // RVA: 0x7FFD551FD480
-        public void ReadFingers(){} // RVA: 0x7FFD551FD6C0
-        public void ReadLegacyFace(){} // RVA: 0x7FFD551FD7F0
-        public void ReadPuppet(){} // RVA: 0x7FFD551FD8D0
+        public void .ctor(){} // RVA: 0x7FFAC9DDC1A0
+        public void Encode(){} // RVA: 0x7FFAC9DDC550
+        public void CreateFingers(){} // RVA: 0x7FFAC9DDCB50
+        public void CreateMuscles(){} // RVA: 0x7FFAC9DDCC00
+        public void Decode(){} // RVA: 0x7FFAC9DDCD90
+        public void ReadMuscles(){} // RVA: 0x7FFAC9DDD480
+        public void ReadFingers(){} // RVA: 0x7FFAC9DDD6C0
+        public void ReadLegacyFace(){} // RVA: 0x7FFAC9DDD7F0
+        public void ReadPuppet(){} // RVA: 0x7FFAC9DDD8D0
     }
 
     public class IPoseRecorder
@@ -49,20 +49,20 @@ namespace VRC.Core.Networking.Pose
         public object UseDirectPoseCodec;
 
         // ── Methods ──
-        public void get_UseDirectPoseCodec(){} // RVA: 0x7FFD4E079D00
-        public void set_UseDirectPoseCodec(){} // RVA: 0x7FFD4E091060
-        public void UpdatePuppetChannelTypes(){} // RVA: 0x7FFD4E090A40
-        public void Decode(){} // RVA: 0x7FFD4E09D7B0
+        public void get_UseDirectPoseCodec(){} // RVA: 0x7FFAC2C59D00
+        public void set_UseDirectPoseCodec(){} // RVA: 0x7FFAC2C71060
+        public void UpdatePuppetChannelTypes(){} // RVA: 0x7FFAC2C70A40
+        public void Decode(){} // RVA: 0x7FFAC2C7D7B0
     }
 
     public class PoseCodec`1 : Object
     {
-        public VRC.Core.Networking.Pose.IPoseRecorder poseRecorder; // 0x10
+        public VRC.Core.Networking.Pose.IPoseRecorder poseRecorder;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E090A40
-        public void Encode(){} // RVA: 0x7FFD4E0837A0
-        public void Decode(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFAC2C70A40
+        public void Encode(){} // RVA: 0x7FFAC2C637A0
+        public void Decode(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class PoseEvent : TweenableValue`1
@@ -103,32 +103,32 @@ namespace VRC.Core.Networking.Pose
         public VRC.Core.Networking.PositionEvent PositionEvent; // 0x110
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD551FE730 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFD551FF350
-        public void get_poseContents(){} // RVA: 0x7FFD5219BEA0
-        public void set_poseContents(){} // RVA: 0x7FFD53F39DB0
-        public void get_IsImmobilized(){} // RVA: 0x7FFD551FF4F0
-        public void get_IsLocomoting(){} // RVA: 0x7FFD551FF500
-        public void get_IsSeated(){} // RVA: 0x7FFD551FF510
-        public void get_InVehicle(){} // RVA: 0x7FFD551FF520
-        public void get_IsGrounded(){} // RVA: 0x7FFD551FF530
-        public void get_IsAFK(){} // RVA: 0x7FFD551FF540
-        public void get_InStation(){} // RVA: 0x7FFD551FF550
-        public void get_IsOwnerIKDisabled(){} // RVA: 0x7FFD551FF560
-        public void get_IsMutingSelf(){} // RVA: 0x7FFD551FF570
-        public void DeepCopy(){} // RVA: 0x7FFD551FF580
-        public void PartialCopy(){} // RVA: 0x7FFD551FF680
-        public void IsEmpty(){} // RVA: 0x7FFD551FFE60
-        public void Contains(){} // RVA: 0x7FFD551FFE70 | overloaded x2
-        public void Remove(){} // RVA: 0x7FFD551FFE80 | overloaded x2
-        public void Add(){} // RVA: 0x7FFD551FFE90 | overloaded x3
-        public void ClearFlags(){} // RVA: 0x7FFD551FFEA0
-        public void get_Contents(){} // RVA: 0x7FFD551FFEB0
-        public void CountOnes(){} // RVA: 0x7FFD551FFF60
-        public void Interpolate(){} // RVA: 0x7FFD551FFF90
-        public void Extrapolate(){} // RVA: 0x7FFD551FFFD0
-        public void DecodeGestureIndexFromNetwork(){} // RVA: 0x7FFD55200050
-        public void DecodeGestureFromNetwork(){} // RVA: 0x7FFD55200060
+        public void .ctor(){} // RVA: 0x7FFAC9DDE730 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFAC9DDF350
+        public void get_poseContents(){} // RVA: 0x7FFAC6D7BEA0
+        public void set_poseContents(){} // RVA: 0x7FFAC8B19DB0
+        public void get_IsImmobilized(){} // RVA: 0x7FFAC9DDF4F0
+        public void get_IsLocomoting(){} // RVA: 0x7FFAC9DDF500
+        public void get_IsSeated(){} // RVA: 0x7FFAC9DDF510
+        public void get_InVehicle(){} // RVA: 0x7FFAC9DDF520
+        public void get_IsGrounded(){} // RVA: 0x7FFAC9DDF530
+        public void get_IsAFK(){} // RVA: 0x7FFAC9DDF540
+        public void get_InStation(){} // RVA: 0x7FFAC9DDF550
+        public void get_IsOwnerIKDisabled(){} // RVA: 0x7FFAC9DDF560
+        public void get_IsMutingSelf(){} // RVA: 0x7FFAC9DDF570
+        public void DeepCopy(){} // RVA: 0x7FFAC9DDF580
+        public void PartialCopy(){} // RVA: 0x7FFAC9DDF680
+        public void IsEmpty(){} // RVA: 0x7FFAC9DDFE60
+        public void Contains(){} // RVA: 0x7FFAC9DDFE70 | overloaded x2
+        public void Remove(){} // RVA: 0x7FFAC9DDFE80 | overloaded x2
+        public void Add(){} // RVA: 0x7FFAC9DDFE90 | overloaded x3
+        public void ClearFlags(){} // RVA: 0x7FFAC9DDFEA0
+        public void get_Contents(){} // RVA: 0x7FFAC9DDFEB0
+        public void CountOnes(){} // RVA: 0x7FFAC9DDFF60
+        public void Interpolate(){} // RVA: 0x7FFAC9DDFF90
+        public void Extrapolate(){} // RVA: 0x7FFAC9DDFFD0
+        public void DecodeGestureIndexFromNetwork(){} // RVA: 0x7FFAC9DE0050
+        public void DecodeGestureFromNetwork(){} // RVA: 0x7FFAC9DE0060
     }
 
     public class QuantizedPose : PoseCodec`1
@@ -143,17 +143,17 @@ namespace VRC.Core.Networking.Pose
         public byte[] legacyFaceBytes; // 0x48
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD552006F0
-        public void Encode(){} // RVA: 0x7FFD55200AA0
-        public void CreateFingers(){} // RVA: 0x7FFD55201330
-        public void CreateMuscles(){} // RVA: 0x7FFD55201400
-        public void Decode(){} // RVA: 0x7FFD552015C0
-        public void ReadHandGestures(){} // RVA: 0x7FFD55201C50
-        public void ReadMuscles(){} // RVA: 0x7FFD55201E10
-        public void ReadFingers(){} // RVA: 0x7FFD552020E0
-        public void ReadEyes(){} // RVA: 0x7FFD552022B0
-        public void ReadLegacyFace(){} // RVA: 0x7FFD552023F0
-        public void ReadPuppet(){} // RVA: 0x7FFD55202570
+        public void .ctor(){} // RVA: 0x7FFAC9DE06F0
+        public void Encode(){} // RVA: 0x7FFAC9DE0AA0
+        public void CreateFingers(){} // RVA: 0x7FFAC9DE1330
+        public void CreateMuscles(){} // RVA: 0x7FFAC9DE1400
+        public void Decode(){} // RVA: 0x7FFAC9DE15C0
+        public void ReadHandGestures(){} // RVA: 0x7FFAC9DE1C50
+        public void ReadMuscles(){} // RVA: 0x7FFAC9DE1E10
+        public void ReadFingers(){} // RVA: 0x7FFAC9DE20E0
+        public void ReadEyes(){} // RVA: 0x7FFAC9DE22B0
+        public void ReadLegacyFace(){} // RVA: 0x7FFAC9DE23F0
+        public void ReadPuppet(){} // RVA: 0x7FFAC9DE2570
     }
 
 }

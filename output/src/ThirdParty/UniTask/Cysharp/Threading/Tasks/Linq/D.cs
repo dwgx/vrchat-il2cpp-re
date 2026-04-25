@@ -11,51 +11,51 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public T defaultValue;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
         public void GetAsyncEnumerator(){}
     }
 
     public class DistinctAwaitWithCancellation`2 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-        public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
         public System.Collections.Generic.IEqualityComparer`1<T> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 
     public class DistinctAwait`2 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-        public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
         public System.Collections.Generic.IEqualityComparer`1<T> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 
     public class DistinctUntilChangedAwaitWithCancellation`2 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-        public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
         public System.Collections.Generic.IEqualityComparer`1<T> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 
     public class DistinctUntilChangedAwait`2 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-        public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
         public System.Collections.Generic.IEqualityComparer`1<T> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 
@@ -65,18 +65,18 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Collections.Generic.IEqualityComparer`1<T> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E099B30
+        public void .ctor(){} // RVA: 0x7FFAC2C79B30
         public void GetAsyncEnumerator(){}
     }
 
     public class DistinctUntilChanged`2 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-        public System.Func`2<U,T> keySelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public System.Func`2<T,T> keySelector;
         public System.Collections.Generic.IEqualityComparer`1<T> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 
@@ -86,18 +86,18 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Collections.Generic.IEqualityComparer`1<T> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E099B30
+        public void .ctor(){} // RVA: 0x7FFAC2C79B30
         public void GetAsyncEnumerator(){}
     }
 
     public class Distinct`2 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-        public System.Func`2<U,T> keySelector;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public System.Func`2<T,T> keySelector;
         public System.Collections.Generic.IEqualityComparer`1<T> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 
@@ -109,7 +109,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Action onCompleted;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09B8C0
+        public void .ctor(){} // RVA: 0x7FFAC2C7B8C0
         public void GetAsyncEnumerator(){}
     }
 

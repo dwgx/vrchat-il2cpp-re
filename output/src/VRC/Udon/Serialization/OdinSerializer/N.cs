@@ -15,12 +15,12 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public bool IsEmpty; // 0x29
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD55413F00 | overloaded x2
-        public void op_Equality(){} // RVA: 0x7FFD55413FD0
-        public void op_Inequality(){} // RVA: 0x7FFD554140A0
-        public void Equals(){} // RVA: 0x7FFD554141A0
-        public void GetHashCode(){} // RVA: 0x7FFD55414350
-        public void .cctor(){} // RVA: 0x7FFD55414460
+        public void .ctor(){} // RVA: 0x7FFAC9FF3F00 | overloaded x2
+        public void op_Equality(){} // RVA: 0x7FFAC9FF3FD0
+        public void op_Inequality(){} // RVA: 0x7FFAC9FF40A0
+        public void Equals(){} // RVA: 0x7FFAC9FF41A0
+        public void GetHashCode(){} // RVA: 0x7FFAC9FF4350
+        public void .cctor(){} // RVA: 0x7FFAC9FF4460
     }
 
     public class NullableFormatter`1 : BaseFormatter`1
@@ -28,10 +28,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> TSerializer;
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFD4E0909B0
-        public void .ctor(){} // RVA: 0x7FFD4E090980
-        public void DeserializeImplementation(){} // RVA: 0x7FFD4E099B30
-        public void SerializeImplementation(){} // RVA: 0x7FFD4E099B30
+        public void .cctor(){} // RVA: 0x7FFAC2C709B0
+        public void .ctor(){} // RVA: 0x7FFAC2C70980
+        public void DeserializeImplementation(){} // RVA: 0x7FFAC2C79B30
+        public void SerializeImplementation(){} // RVA: 0x7FFAC2C79B30
     }
 
 }

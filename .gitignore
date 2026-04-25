@@ -174,3 +174,6 @@ myeasylog.log
 precise_dump_NEW.json
 precise_dump_NEW.cs
 field_types_NEW.json
+
+# === Apr 18 baseline backup (large, reproducible) ===
+data/apr18_baseline/

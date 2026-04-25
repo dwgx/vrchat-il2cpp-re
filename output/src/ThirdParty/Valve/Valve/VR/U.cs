@@ -10,9 +10,9 @@ namespace ThirdParty.Valve.Valve.VR
         public byte[] buffer;
 
         // ── Methods ──
-        public void ToUtf8(){} // RVA: 0x7FFD54C15E10
-        public void .ctor(){} // RVA: 0x7FFD4E341310
-        public void .cctor(){} // RVA: 0x7FFD54C160B0
+        public void ToUtf8(){} // RVA: 0x7FFAC97F5E10
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFAC97F60B0
     }
 
 }

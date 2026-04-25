@@ -11,15 +11,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Haptics
         public float highFrequencyMotorSpeed; // 0x14
 
         // ── Methods ──
-        public void get_lowFrequencyMotorSpeed(){} // RVA: 0x7FFD4FC6C150
-        public void set_lowFrequencyMotorSpeed(){} // RVA: 0x7FFD4FEBB910
-        public void get_highFrequencyMotorSpeed(){} // RVA: 0x7FFD4FEBB900
-        public void set_highFrequencyMotorSpeed(){} // RVA: 0x7FFD4FEBB8F0
-        public void get_isRumbling(){} // RVA: 0x7FFD54A92D60
-        public void PauseHaptics(){} // RVA: 0x7FFD54A92DA0
-        public void ResumeHaptics(){} // RVA: 0x7FFD54A92EA0
-        public void ResetHaptics(){} // RVA: 0x7FFD54A92F50
-        public void SetMotorSpeeds(){} // RVA: 0x7FFD54A93000
+        public void get_lowFrequencyMotorSpeed(){} // RVA: 0x7FFAC484C150
+        public void set_lowFrequencyMotorSpeed(){} // RVA: 0x7FFAC4A9B910
+        public void get_highFrequencyMotorSpeed(){} // RVA: 0x7FFAC4A9B900
+        public void set_highFrequencyMotorSpeed(){} // RVA: 0x7FFAC4A9B8F0
+        public void get_isRumbling(){} // RVA: 0x7FFAC9672D60
+        public void PauseHaptics(){} // RVA: 0x7FFAC9672DA0
+        public void ResumeHaptics(){} // RVA: 0x7FFAC9672EA0
+        public void ResetHaptics(){} // RVA: 0x7FFAC9672F50
+        public void SetMotorSpeeds(){} // RVA: 0x7FFAC9673000
     }
 
     public class IDualMotorRumble
@@ -31,9 +31,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Haptics
     public class IHaptics
     {
         // ── Methods ──
-        public void PauseHaptics(){} // RVA: 0x7FFD4E090980
-        public void ResumeHaptics(){} // RVA: 0x7FFD4E090980
-        public void ResetHaptics(){} // RVA: 0x7FFD4E090980
+        public void PauseHaptics(){} // RVA: 0x7FFAC2C70980
+        public void ResumeHaptics(){} // RVA: 0x7FFAC2C70980
+        public void ResetHaptics(){} // RVA: 0x7FFAC2C70980
     }
 
 }

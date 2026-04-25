@@ -12,7 +12,7 @@ namespace VRC.Core.CameraSystems
         public bool UseOcclusionCulling; // 0x24
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD5515CFB0
+        public void .ctor(){} // RVA: 0x7FFAC9D3CFB0
     }
 
 }

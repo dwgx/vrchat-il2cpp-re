@@ -48,10 +48,10 @@ namespace ThirdParty.Valve.Valve.VR
         public float m11; // 0x3C
 
         // ── Methods ──
-        public void GetPosition(){} // RVA: 0x7FFD54C1FEB0
-        public void IsRotationValid(){} // RVA: 0x7FFD54C1FED0
-        public void GetRotation(){} // RVA: 0x7FFD54C1FF30
-        public void _copysign(){} // RVA: 0x7FFD54C201C0
+        public void GetPosition(){} // RVA: 0x7FFAC97FFEB0
+        public void IsRotationValid(){} // RVA: 0x7FFAC97FFED0
+        public void GetRotation(){} // RVA: 0x7FFAC97FFF30
+        public void _copysign(){} // RVA: 0x7FFAC98001C0
     }
 
     public class HmdMatrix44_t : ValueType

@@ -8,11 +8,11 @@ namespace VRC.SDK3.Internal.EventPortals.Interfaces
     public class IEventPortalManager
     {
         // ── Methods ──
-        public void RegisterEventPortal(){} // RVA: 0x7FFD4E090A40
-        public void UnregisterEventPortal(){} // RVA: 0x7FFD4E090A40
-        public void StartListening(){} // RVA: 0x7FFD4E090980
-        public void StopListening(){} // RVA: 0x7FFD4E090980
-        public void UnregisterAllEventPortals(){} // RVA: 0x7FFD4E090980
+        public void RegisterEventPortal(){} // RVA: 0x7FFAC2C70A40
+        public void UnregisterEventPortal(){} // RVA: 0x7FFAC2C70A40
+        public void StartListening(){} // RVA: 0x7FFAC2C70980
+        public void StopListening(){} // RVA: 0x7FFAC2C70980
+        public void UnregisterAllEventPortals(){} // RVA: 0x7FFAC2C70980
     }
 
 }

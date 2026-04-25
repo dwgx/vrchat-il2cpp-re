@@ -1,33 +1,12 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Internal.Async
 // Classes: 100
-// Methods: 842
+// Methods: 856
 
 namespace VRC.Internal.Async
 {
-    /// <summary>Originally: ÎÏÎÎÍÍÌÏÏÌÌÌÌÌÎÏÏÏÏÍÏÍÌ</summary>
-    public class AsyncStateMachine_0604 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÌÏÏÍÌÍÏÌÌÌÎÎÎÎÏÎÎÍÍÏÍÌÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD56973640
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void DefaultEquals(){} // RVA: 0x7FFD56973C30
-        public void GetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void InternalGetHashCode(){} // RVA: 0x7FFD56974220
-        public void ToString(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD56974810
-        public void GetNetworkValue(){} // RVA: 0x7FFD56974E00
-        public void MoveNext(){} // RVA: 0x7FFD569753F0
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD569759E0
-    }
-
     /// <summary>Originally: ÎÍÏÏÍÏÏÍÌÏÎÌÎÍÎÎÌÎÍÌÍÎÎ</summary>
-    public class AsyncStateMachine_0674 : ValueType
+    public class AsyncStateMachine_0674_0674 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<bool,ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -36,20 +15,20 @@ namespace VRC.Internal.Async
         public Awaiter<System.ValueTuple`2<bool,ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F0590C0
-        public void InternalEquals(){} // RVA: 0x7FFD4F059430
-        public void DefaultEquals(){} // RVA: 0x7FFD4F0597A0
-        public void MoveNext(){} // RVA: 0x7FFD4F059B10
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F059E80
-        public void GetHashCode(){} // RVA: 0x7FFD4F059EB0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F059EE0
-        public void ToString(){} // RVA: 0x7FFD4F05A250
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4F05A280
-        public void SetStateMachine(){} // RVA: 0x7FFD4F05A2B0
+        public void Equals(){} // RVA: 0x7FFAC3C390C0
+        public void InternalEquals(){} // RVA: 0x7FFAC3C39430
+        public void DefaultEquals(){} // RVA: 0x7FFAC3C397A0
+        public void MoveNext(){} // RVA: 0x7FFAC3C39B10
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3C39E80
+        public void GetHashCode(){} // RVA: 0x7FFAC3C39EB0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3C39EE0
+        public void ToString(){} // RVA: 0x7FFAC3C3A250
+        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFAC3C3A280
+        public void SetStateMachine(){} // RVA: 0x7FFAC3C3A2B0
     }
 
     /// <summary>Originally: ÎÎÍÏÌÍÌÎÎÍÏÎÎÌÎÎÌÏÏÎÎÌÌ</summary>
-    public class AsyncStateMachine_0722 : ValueType
+    public class AsyncStateMachine_0722_0722 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -59,17 +38,17 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F19BB00
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4F19C1A0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F19C840
-        public void MoveNext(){} // RVA: 0x7FFD4F19CEE0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC3D7BB00
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC3D7C1A0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3D7C840
+        public void MoveNext(){} // RVA: 0x7FFAC3D7CEE0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÎÍÍÎÏÏÌÎÌÎÏÎÏÏÏÎÌÍÌÌÌ</summary>
-    public class AsyncStateMachine_0D43 : ValueType
+    public class AsyncStateMachine_0D43_0D43 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Collections.Generic.List`1<ÎÎÌÏÎÍÏÍÎÌÍÎÏÌÍÎÎÏÌÏÏÏÍ>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -79,19 +58,19 @@ namespace VRC.Internal.Async
         public Awaiter<System.Collections.Generic.List`1<ÌÌÏÌÏÏÍÏÍÌÎÎÌÌÏÌÌÍÍÌÍÏÌ>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x58
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EBFB380
-        public void InternalEquals(){} // RVA: 0x7FFD4EBFB3B0
-        public void DefaultEquals(){} // RVA: 0x7FFD4EBFB3E0
-        public void GetHashCode(){} // RVA: 0x7FFD4EBFB410
-        public void SetStateMachine(){} // RVA: 0x7FFD4EBFB440
-        public void ToString(){} // RVA: 0x7FFD4EBFB470
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EBFBD10
-        public void MoveNext(){} // RVA: 0x7FFD4EBFBD40
-        public void ValidateStructPointers(){} // RVA: 0x7FFD4EBFC5E0
+        public void Equals(){} // RVA: 0x7FFAC37DB380
+        public void InternalEquals(){} // RVA: 0x7FFAC37DB3B0
+        public void DefaultEquals(){} // RVA: 0x7FFAC37DB3E0
+        public void GetHashCode(){} // RVA: 0x7FFAC37DB410
+        public void SetStateMachine(){} // RVA: 0x7FFAC37DB440
+        public void ToString(){} // RVA: 0x7FFAC37DB470
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC37DBD10
+        public void MoveNext(){} // RVA: 0x7FFAC37DBD40
+        public void ValidateStructPointers(){} // RVA: 0x7FFAC37DC5E0
     }
 
     /// <summary>Originally: ÎÎÎÌÎÍÌÍÍÌÏÌÏÏÍÌÎÌÌÎÍÍÍ</summary>
-    public class AsyncStateMachine_0F3E : ValueType
+    public class AsyncStateMachine_0F3E_0F3E : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<int> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -99,37 +78,40 @@ namespace VRC.Internal.Async
         public Awaiter<int> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4ED82290
-        public void InternalEquals(){} // RVA: 0x7FFD4ED822C0
-        public void SetStateMachine(){} // RVA: 0x7FFD4ED822F0
-        public void MoveNext(){} // RVA: 0x7FFD4ED82320
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4ED82BD0
-        public void GetHashCode(){} // RVA: 0x7FFD4ED83480
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4ED834B0
-        public void ToString(){} // RVA: 0x7FFD4ED834E0
-        public void GetHashCodeOfPtr_B139518BF741(){} // RVA: 0x7FFD4ED83510
+        public void Equals(){} // RVA: 0x7FFAC3962290
+        public void InternalEquals(){} // RVA: 0x7FFAC39622C0
+        public void SetStateMachine(){} // RVA: 0x7FFAC39622F0
+        public void MoveNext(){} // RVA: 0x7FFAC3962320
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3962BD0
+        public void GetHashCode(){} // RVA: 0x7FFAC3963480
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC39634B0
+        public void ToString(){} // RVA: 0x7FFAC39634E0
+        public void GetHashCodeOfPtr_B139518BF741(){} // RVA: 0x7FFAC3963510
     }
 
-    /// <summary>Originally: ÎÏÎÍÌÌÍÏÍÌÍÏÍÍÎÎÎÍÍÌÌÏÌ</summary>
-    public class AsyncStateMachine_0F71 : ValueType
+    /// <summary>Originally: ÎÍÎÍÍÍÍÏÍÎÎÍÌÍÍÏÍÎÍÎÏÌÎ</summary>
+    public class AsyncStateMachine_125C_125C : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÏÌÍÎÎÌÎÏÏÌÏÌÎÏÎÏÍÌÍÎÌÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÎÌÎÎÍÏÌÏÎÌÎÌÌÍÌÎÌÍÍÌÎÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4F7EA650
-        public void MoveNext(){} // RVA: 0x7FFD4F7EA900
-        public void Equals(){} // RVA: 0x7FFD4F7EABA0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFACB5F5050
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB5F58B0
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB5F6110
+        public void ToString(){} // RVA: 0x7FFACB5F6950
+        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFACB5F72F0
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÏÍÌÏÏÌÎÎÏÏÍÏÎÎÌÌÎÏÌÌÍ</summary>
-    public class AsyncStateMachine_1349 : ValueType
+    public class AsyncStateMachine_1349_1349 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ;
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ;
@@ -139,17 +121,17 @@ namespace VRC.Internal.Async
         public Awaiter<System.Collections.Generic.List`1<T>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ;
 
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7FFD4E090A40
-        public void InternalEquals(){} // RVA: 0x7FFD4E090A40
-        public void DefaultEquals(){} // RVA: 0x7FFD4E090980
-        public void Equals(){} // RVA: 0x7FFD4E090A40
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E090980
-        public void GetHashCode(){} // RVA: 0x7FFD4E090A40
-        public void MoveNext(){} // RVA: 0x7FFD4E090980
+        public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+        public void InternalEquals(){} // RVA: 0x7FFAC2C70A40
+        public void DefaultEquals(){} // RVA: 0x7FFAC2C70980
+        public void Equals(){} // RVA: 0x7FFAC2C70A40
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCode(){} // RVA: 0x7FFAC2C70A40
+        public void MoveNext(){} // RVA: 0x7FFAC2C70980
     }
 
     /// <summary>Originally: ÎÍÏÍÎÌÏÎÌÌÏÎÌÍÍÌÏÎÌÎÎÌÎ</summary>
-    public class AsyncStateMachine_13C8 : ValueType
+    public class AsyncStateMachine_13C8_13C8 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -158,20 +140,42 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EA2C270
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void MoveNext(){} // RVA: 0x7FFD569B92B0
-        public void GetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void InternalGetHashCode(){} // RVA: 0x7FFD569B99A0
-        public void ToString(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD569BA090
-        public void InternalEquals(){} // RVA: 0x7FFD569BA780
-        public void SetStateMachine_8126F535A019(){} // RVA: 0x7FFD4EA2C270
-        public void VisitMemberListBinding(){} // RVA: 0x7FFD569BAE60
+        public void Equals(){} // RVA: 0x7FFAC360C270
+        public void SetStateMachine(){} // RVA: 0x7FFAC360C270
+        public void MoveNext(){} // RVA: 0x7FFACB5992B0
+        public void GetHashCode(){} // RVA: 0x7FFAC360C270
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB5999A0
+        public void ToString(){} // RVA: 0x7FFAC360C270
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFACB59A090
+        public void InternalEquals(){} // RVA: 0x7FFACB59A780
+        public void SetStateMachine_8126F535A019(){} // RVA: 0x7FFAC360C270
+        public void VisitMemberListBinding(){} // RVA: 0x7FFACB59AE60
+    }
+
+    /// <summary>Originally: ÎÍÌÎÍÏÌÎÏÌÏÎÍÏÏÎÏÏÍÌÎÍÍ</summary>
+    public class AsyncStateMachine_179E_179E : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÏÏÎÍÏÍÎÌÌÎÎÏÍÏÏÏÎÍÏÍÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public System.Action ÏÏÏÌÍÍÌÍÌÏÍÎÏÏÍÍÎÏÏÏÌÎÏ; // 0x30
+        public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x38
+        public System.ValueTuple`2<bool,string> ÍÍÎÎÎÎÏÍÎÌÍÎÎÎÌÎÏÏÎÎÎÍÍ; // 0x40
+        public Awaiter<System.ValueTuple`2<bool,string>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC37D7070
+        public void InternalEquals(){} // RVA: 0x7FFAC37D7640
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC37D7C20
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC37D8200
     }
 
     /// <summary>Originally: ÎÍÏÍÎÏÍÍÌÏÏÎÌÎÌÌÏÍÏÌÍÍÌ</summary>
-    public class AsyncStateMachine_17EC : ValueType
+    public class AsyncStateMachine_17EC_17EC : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -179,45 +183,87 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD5673FA80
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4E341310
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD567403B0
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB31FA80
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFAC2F21310
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFACB3203B0
+    }
+
+    /// <summary>Originally: ÎÍÎÌÍÎÏÌÌÌÍÍÍÏÌÍÌÍÍÍÌÎÏ</summary>
+    public class AsyncStateMachine_1AD3_1AD3 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÎÏÌÏÍÏÍÏÏÍÍÌÏÍÌÎÍÍÏÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x48
+        public Awaiter<System.Collections.Generic.List`1<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ>> ÍÏÏÍÏÎÎÌÏÎÎÏÍÍÏÍÎÍÎÌÌÌÍ; // 0x58
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFACB3AA990
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFACB3AB370
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB3ABD40
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
+        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFACB3AC720
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+    }
+
+    /// <summary>Originally: ÎÍÍÏÏÏÏÎÏÍÍÏÏÍÏÌÌÏÍÍÏÎÍ</summary>
+    public class AsyncStateMachine_1DA8_1DA8 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<VRC.Localization.LocalizableString> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public Awaiter<long> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC39FE9D0
+        public void SetStateMachine(){} // RVA: 0x7FFAC39FEDD0
+        public void DefaultEquals(){} // RVA: 0x7FFAC39FEE00
+        public void MoveNext(){} // RVA: 0x7FFAC39FEE30
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC39FF240
+        public void GetHashCode(){} // RVA: 0x7FFAC39FF270
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC39FF680
+        public void ToString(){} // RVA: 0x7FFAC39FF6B0
+        public void GetResult(){} // RVA: 0x7FFAC39FF6E0
     }
 
     /// <summary>Originally: ÎÎÏÌÍÎÌÌÌÍÌÌÍÏÍÎÏÍÍÎÌÎÎ</summary>
-    public class AsyncStateMachine_1DAB : ValueType
+    public class AsyncStateMachine_1DAB_1DAB : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<VRC.Core.ApiWorldInstance> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
         public string ÏÍÌÎÏÌÌÎÏÌÍÏÌÍÏÎÎÏÍÍÌÌÍ; // 0x30
         public ÌÎÏÎÏÎÍÌÍÌÎÌÎÎÍÍÌÌÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
-        public System.Nullable`1<0x664D1E38> ÏÍÎÍÌÌÏÎÏÎÎÎÌÏÎÏÏÏÍÏÏÎÍ; // 0x40
+        public System.Nullable`1<0x6B171E38> ÏÍÎÍÌÌÏÎÏÎÎÎÌÏÎÏÏÏÍÏÏÎÍ; // 0x40
         public VRC.Core.ApiWorld ÌÍÌÌÏÍÎÏÌÎÌÌÎÍÍÌÏÎÎÏÍÌÎ; // 0x48
         public ÌÏÎÏÏÎÌÏÎÏÎÌÍÎÏÎÌÌÌÏÏÌÏ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x50
-        public System.Nullable`1<0x66414FF8> ÏÍÏÏÎÌÎÌÌÏÎÎÍÍÏÏÎÎÍÎÌÏÎ; // 0x58
+        public System.Nullable`1<0x6B0B4FF8> ÏÍÏÏÎÌÎÌÌÏÎÎÍÍÏÏÎÎÍÎÌÏÎ; // 0x58
         public string ÎÌÌÍÌÎÍÌÏÍÍÏÎÍÏÌÎÎÍÎÍÌÏ; // 0x60
-        public Awaiter<0x66415260> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x68
+        public Awaiter<0x6B0B5260> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x68
         public Awaiter<VRC.Core.ApiWorldInstance> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x78
 
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFD4F172790
-        public void InternalEquals(){} // RVA: 0x7FFD4F1740D0
-        public void DefaultEquals(){} // RVA: 0x7FFD4F174100
-        public void Equals(){} // RVA: 0x7FFD4F175A60
-        public void SetStateMachine(){} // RVA: 0x7FFD4F1773B0
-        public void GetHashCode(){} // RVA: 0x7FFD4F1773E0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F178D40
+        public void MoveNext(){} // RVA: 0x7FFAC3D52790
+        public void InternalEquals(){} // RVA: 0x7FFAC3D540D0
+        public void DefaultEquals(){} // RVA: 0x7FFAC3D54100
+        public void Equals(){} // RVA: 0x7FFAC3D55A60
+        public void SetStateMachine(){} // RVA: 0x7FFAC3D573B0
+        public void GetHashCode(){} // RVA: 0x7FFAC3D573E0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3D58D40
     }
 
     /// <summary>Originally: ÎÏÍÌÌÎÏÏÏÏÌÌÌÍÍÍÎÎÌÌÌÏÏ</summary>
-    public class AsyncStateMachine_1EA2 : ValueType
+    public class AsyncStateMachine_1EA2_1EA2 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -226,36 +272,42 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E655E00
-        public void InternalEquals(){} // RVA: 0x7FFD4E6566A0
-        public void DefaultEquals(){} // RVA: 0x7FFD4E656F40
-        public void GetHashCode(){} // RVA: 0x7FFD4E6577E0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E658080
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E658920
-        public void MoveNext(){} // RVA: 0x7FFD4E6591C0
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4E659A60
+        public void Equals(){} // RVA: 0x7FFAC3235E00
+        public void InternalEquals(){} // RVA: 0x7FFAC32366A0
+        public void DefaultEquals(){} // RVA: 0x7FFAC3236F40
+        public void GetHashCode(){} // RVA: 0x7FFAC32377E0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3238080
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3238920
+        public void MoveNext(){} // RVA: 0x7FFAC32391C0
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC3239A60
     }
 
-    /// <summary>Originally: ÎÏÎÎÍÍÎÌÍÍÏÌÌÏÎÎÎÍÌÍÏÏÎ</summary>
-    public class AsyncStateMachine_1F6B : ValueType
+    /// <summary>Originally: ÎÍÍÌÏÎÎÎÍÍÌÎÎÍÌÍÌÍÏÍÏÏÌ</summary>
+    public class AsyncStateMachine_256E_256E : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ ÌÍÌÌÏÍÎÏÌÎÌÌÎÍÍÌÏÎÎÏÍÌÎ; // 0x20
+        public ÏÌÏÌÎÏÏÌÎÎÍÎÌÎÌÍÍÎÏÎÏÏÏ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x28
+        public Awaiter<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E090980
-        public void InternalEquals(){} // RVA: 0x7FFD4E090A40
-        public void DefaultEquals(){} // RVA: 0x7FFD4E090A40
-        public void MoveNext(){} // RVA: 0x7FFD4E090980
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E090A40
-        public void GetHashCode(){} // RVA: 0x7FFD4E090980
-        public void SetStateMachine(){} // RVA: 0x7FFD4E090A40
-        public void ToString(){} // RVA: 0x7FFD4E090A40
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4E090A40
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4E090A40
+        public void Equals(){} // RVA: 0x7FFAC37C6180
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC37C6730
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC37C6CE0
+        public void ToString(){} // RVA: 0x7FFAC37C72A0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC37C7860
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
+        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÏÍÏÏÌÌÌÏÍÍÌÏÎÌÍÌÌÍÏÎÏÍ</summary>
-    public class AsyncStateMachine_2609 : ValueType
+    public class AsyncStateMachine_2609_2609 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -264,18 +316,18 @@ namespace VRC.Internal.Async
         public System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`2<bool,string>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EA2C270
-        public void InternalEquals(){} // RVA: 0x7FFD4EA2C270
-        public void MoveNext(){} // RVA: 0x7FFD56C56840
-        public void GetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void InternalGetHashCode(){} // RVA: 0x7FFD56C574B0
-        public void ToString(){} // RVA: 0x7FFD56C580E0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD56C58D10
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
+        public void Equals(){} // RVA: 0x7FFAC360C270
+        public void InternalEquals(){} // RVA: 0x7FFAC360C270
+        public void MoveNext(){} // RVA: 0x7FFACB836840
+        public void GetHashCode(){} // RVA: 0x7FFAC360C270
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB8374B0
+        public void ToString(){} // RVA: 0x7FFACB8380E0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFACB838D10
+        public void SetStateMachine(){} // RVA: 0x7FFAC360C270
     }
 
     /// <summary>Originally: ÎÎÎÍÌÌÌÏÌÍÍÍÍÍÏÎÎÎÎÏÍÍÌ</summary>
-    public class AsyncStateMachine_2648 : ValueType
+    public class AsyncStateMachine_2648_2648 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<string> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -283,19 +335,19 @@ namespace VRC.Internal.Async
         public Awaiter<System.ValueTuple`2<string,bool>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F597B80
-        public void SetStateMachine(){} // RVA: 0x7FFD4F597BB0
-        public void MoveNext(){} // RVA: 0x7FFD4F597BE0
-        public void GetHashCode(){} // RVA: 0x7FFD4F598140
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F598170
-        public void ToString(){} // RVA: 0x7FFD4F5981A0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F5981D0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFD4F598730
-        public void Start(){} // RVA: 0x7FFD4F598C90
+        public void Equals(){} // RVA: 0x7FFAC4177B80
+        public void SetStateMachine(){} // RVA: 0x7FFAC4177BB0
+        public void MoveNext(){} // RVA: 0x7FFAC4177BE0
+        public void GetHashCode(){} // RVA: 0x7FFAC4178140
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC4178170
+        public void ToString(){} // RVA: 0x7FFAC41781A0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC41781D0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAC4178730
+        public void Start(){} // RVA: 0x7FFAC4178C90
     }
 
     /// <summary>Originally: ÎÍÏÏÌÍÌÏÏÎÎÍÍÎÏÌÎÎÏÎÏÌÌ</summary>
-    public class AsyncStateMachine_26A6 : ValueType
+    public class AsyncStateMachine_26A6_26A6 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -303,19 +355,19 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EB93620
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4EB93930
-        public void GetHashCode(){} // RVA: 0x7FFD4EB93C30
-        public void MoveNext(){} // RVA: 0x7FFD4EB93F30
-        public void ToString(){} // RVA: 0x7FFD4EB94230
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void ToString_D3EA4DFC56AD(){} // RVA: 0x7FFD4EB94530
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC3773620
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC3773930
+        public void GetHashCode(){} // RVA: 0x7FFAC3773C30
+        public void MoveNext(){} // RVA: 0x7FFAC3773F30
+        public void ToString(){} // RVA: 0x7FFAC3774230
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void ToString_D3EA4DFC56AD(){} // RVA: 0x7FFAC3774530
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÏÍÍÏÍÌÍÏÌÎÏÎÏÍÏÎÏÎÌÍÎÌ</summary>
-    public class AsyncStateMachine_2759 : ValueType
+    public class AsyncStateMachine_2759_2759 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -325,41 +377,19 @@ namespace VRC.Internal.Async
         public System.Runtime.CompilerServices.ValueTaskAwaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFD4F0D1A60
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4F0D23A0
-        public void Equals(){} // RVA: 0x7FFD4F0D2CF0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F0D3630
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F0D3F70
-        public void GetHashCode(){} // RVA: 0x7FFD4F0D48C0
-        public void ToString(){} // RVA: 0x7FFD4E341310
-    }
-
-    /// <summary>Originally: ÎÏÏÍÍÎÏÍÎÌÌÏÌÍÌÎÎÌÏÌÎÍÏ</summary>
-    public class AsyncStateMachine_2764 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÌÎÎÌÌÍÎÌÏÌÍÍÏÎÍÍÎÍÎÎÎÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x30
-        public ÎÍÍÍÍÌÍÌÍÏÍÏÍÏÏÍÍÎÎÌÌÎÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x38
-        public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
-        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x48
-
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4F59D340
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4F59DAF0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F59E250
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
+        public void MoveNext(){} // RVA: 0x7FFAC3CB1A60
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC3CB23A0
+        public void Equals(){} // RVA: 0x7FFAC3CB2CF0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3CB3630
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3CB3F70
+        public void GetHashCode(){} // RVA: 0x7FFAC3CB48C0
+        public void ToString(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÍÏÌÎÏÎÌÌÌÏÎÌÌÎÏÌÎÌÌÌÍ</summary>
-    public class AsyncStateMachine_2826 : ValueType
+    public class AsyncStateMachine_2826_2826 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -372,18 +402,37 @@ namespace VRC.Internal.Async
         public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x58
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F59FB00
-        public void MoveNext(){} // RVA: 0x7FFD4F5A0840
-        public void DefaultEquals(){} // RVA: 0x7FFD4F5A1590
-        public void GetHashCode(){} // RVA: 0x7FFD4F5A22D0
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F5A3010
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4F5A3D20
+        public void Equals(){} // RVA: 0x7FFAC417FB00
+        public void MoveNext(){} // RVA: 0x7FFAC4180840
+        public void DefaultEquals(){} // RVA: 0x7FFAC4181590
+        public void GetHashCode(){} // RVA: 0x7FFAC41822D0
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC4183010
+        public void HasValidInternalValue(){} // RVA: 0x7FFAC4183D20
+    }
+
+    /// <summary>Originally: ÎÍÍÍÏÎÌÌÏÌÎÌÏÎÍÏÍÍÎÎÎÎÏ</summary>
+    public class AsyncStateMachine_2CF0_2CF0 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÎÌÎÎÍÍÎÍÏÎÍÍÎÌÍÏÍÌÏÌÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFACB6058B0
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFACB605BA0
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB605E90
+        public void MoveNext(){} // RVA: 0x7FFACB606170
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÌÍÎÎÎÎÏÎÌÏÎÎÏÌÏÍÌÌÌÌÎ</summary>
-    public class AsyncStateMachine_2E50 : ValueType
+    public class AsyncStateMachine_2E50_2E50 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ;
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ;
@@ -397,60 +446,82 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ;
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E090980
-        public void InternalEquals(){} // RVA: 0x7FFD4E090A40
-        public void DefaultEquals(){} // RVA: 0x7FFD4E090A40
-        public void SetStateMachine(){} // RVA: 0x7FFD4E090A40
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E090A40
-        public void MoveNext(){} // RVA: 0x7FFD4E090980
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E090980
-        public void GetHashCode(){} // RVA: 0x7FFD4E090A40
+        public void Equals(){} // RVA: 0x7FFAC2C70980
+        public void InternalEquals(){} // RVA: 0x7FFAC2C70A40
+        public void DefaultEquals(){} // RVA: 0x7FFAC2C70A40
+        public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2C70A40
+        public void MoveNext(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCode(){} // RVA: 0x7FFAC2C70A40
     }
 
-    /// <summary>Originally: ÎÏÎÎÎÏÍÌÌÌÏÏÌÏÌÌÌÍÎÌÎÍÎ</summary>
-    public class AsyncStateMachine_32C2 : ValueType
+    /// <summary>Originally: ÎÍÍÏÌÎÏÏÌÎÌÌÏÍÍÎÏÏÏÏÌÍÍ</summary>
+    public class AsyncStateMachine_32DB_32DB : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÌÏÍÌÏÏÎÏÏÌÎÎÎÍÍÍÎÏÏÍÎÏÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÎÏÏÌÏÌÌÌÌÏÏÎÏÏÌÍÍÍÏÏÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EC3EB50
-        public void MoveNext(){} // RVA: 0x7FFD4EC3EF70
-        public void DefaultEquals(){} // RVA: 0x7FFD4EC3F390
-        public void GetHashCode(){} // RVA: 0x7FFD4EC3F7B0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4EC3FBD0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EC3FFF0
-        public void SetStateMachine_B433A3(){} // RVA: 0x7FFD4EC40420
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC32D1780
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void Equals(){} // RVA: 0x7FFAC32D1CE0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC32D2240
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC32D27A0
+    }
+
+    /// <summary>Originally: ÎÍÍÌÎÍÌÌÍÌÍÏÌÍÎÏÍÍÍÎÎÌÍ</summary>
+    public class AsyncStateMachine_330F_330F : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<bool,ÏÍÍÎÏÎÌÍÍÍÎÍÏÌÏÍÌÎÎÌÎÍÍ>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÎÌÏÍÍÎÎÍÏÌÍÍÌÎÎÎÏÍÌÏÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public ÎÎÏÍÍÌÌÏÏÎÎÌÌÏÏÍÏÏÌÏÏÏÏ ÌÍÍÏÎÏÍÏÍÌÍÏÍÎÌÌÏÏÌÍÍÏÌ; // 0x40
+        public Awaiter<ÎÏÌÎÏÌÌÌÌÌÍÎÌÌÎÍÍÏÍÍÎÎÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC3C6ACD0
+        public void InternalEquals(){} // RVA: 0x7FFAC3C6AD00
+        public void DefaultEquals(){} // RVA: 0x7FFAC3C6AD30
+        public void GetHashCode(){} // RVA: 0x7FFAC3C6B4D0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3C6B500
+        public void ToString(){} // RVA: 0x7FFAC3C6B530
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3C6BCB0
+        public void SetStateMachine(){} // RVA: 0x7FFAC3C6BCE0
+        public void MoveNext(){} // RVA: 0x7FFAC3C6BD10
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC3C6C490
     }
 
     /// <summary>Originally: ÎÎÎÍÎÌÎÏÍÍÍÏÍÍÏÎÍÌÍÎÍÌÏ</summary>
-    public class AsyncStateMachine_334F : ValueType
+    public class AsyncStateMachine_334F_334F : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<ÎÏÍÍÍÌÍÏÏÍÎÎÎÎÍÍÍÎÍÏÌÌÌ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
         public ÌÏÏÌÌÏÏÌÍÌÎÌÌÌÍÍÍÎÌÏÎÌÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
-        public System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`8<NextResult<Mediapipe.Detection>,NextResult<0x66572768>,NextResult<0x66572768>,NextResult<0x66572768>,NextResult<0x66572768>,NextResult<0x66572558>,NextResult<Mediapipe.ImageFrame>,System.ValueTuple`1<NextResult<0x66573000>>>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`8<NextResult<Mediapipe.Detection>,NextResult<Mediapipe.NormalizedLandmarkList>,NextResult<Mediapipe.NormalizedLandmarkList>,NextResult<Mediapipe.NormalizedLandmarkList>,NextResult<Mediapipe.NormalizedLandmarkList>,NextResult<Mediapipe.LandmarkList>,NextResult<Mediapipe.ImageFrame>,System.ValueTuple`1<NextResult<Mediapipe.NormalizedRect>>>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F89A210
-        public void InternalEquals(){} // RVA: 0x7FFD4F89A280
-        public void MoveNext(){} // RVA: 0x7FFD4F89B610
-        public void GetHashCode(){} // RVA: 0x7FFD4F89C9A0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F89CA10
-        public void ToString(){} // RVA: 0x7FFD4F89DDA0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F89DE10
-        public void InvokeOnAudioSystemStartedUp(){} // RVA: 0x7FFD4F89F1A0
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4F8A0530
-        public void SetStateMachine(){} // RVA: 0x7FFD4F8A05A0
+        public void Equals(){} // RVA: 0x7FFAC447A210
+        public void InternalEquals(){} // RVA: 0x7FFAC447A280
+        public void MoveNext(){} // RVA: 0x7FFAC447B610
+        public void GetHashCode(){} // RVA: 0x7FFAC447C9A0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC447CA10
+        public void ToString(){} // RVA: 0x7FFAC447DDA0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC447DE10
+        public void InvokeOnAudioSystemStartedUp(){} // RVA: 0x7FFAC447F1A0
+        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFAC4480530
+        public void SetStateMachine(){} // RVA: 0x7FFAC44805A0
     }
 
     /// <summary>Originally: ÎÎÏÍÍÍÎÏÌÎÏÎÍÌÎÎÏÎÍÏÍÌÌ</summary>
-    public class AsyncStateMachine_340E : ValueType
+    public class AsyncStateMachine_340E_340E : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ;
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<U> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ;
@@ -461,20 +532,20 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ;
 
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFD4E090980
-        public void InternalEquals(){} // RVA: 0x7FFD4E090A40
-        public void DefaultEquals(){} // RVA: 0x7FFD4E090A40
-        public void Equals(){} // RVA: 0x7FFD4E090A40
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E090980
-        public void GetHashCode(){} // RVA: 0x7FFD4E090980
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E090A40
-        public void SetStateMachine(){} // RVA: 0x7FFD4E090A40
-        public void ToString(){} // RVA: 0x7FFD4E090A40
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4E090980
+        public void MoveNext(){} // RVA: 0x7FFAC2C70980
+        public void InternalEquals(){} // RVA: 0x7FFAC2C70A40
+        public void DefaultEquals(){} // RVA: 0x7FFAC2C70A40
+        public void Equals(){} // RVA: 0x7FFAC2C70A40
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCode(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2C70A40
+        public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+        public void ToString(){} // RVA: 0x7FFAC2C70A40
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC2C70980
     }
 
     /// <summary>Originally: ÎÍÏÍÏÏÏÍÎÏÌÌÏÍÏÍÎÎÌÎÍÏÌ</summary>
-    public class AsyncStateMachine_3491 : ValueType
+    public class AsyncStateMachine_3491_3491 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -482,57 +553,17 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E9B1520
-        public void InternalEquals(){} // RVA: 0x7FFD4E9B1B00
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E9B20E0
-        public void MoveNext(){} // RVA: 0x7FFD4E9B26C0
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E9B2CD0
-    }
-
-    /// <summary>Originally: ÎÏÎÍÍÎÎÌÍÎÎÍÍÎÏÌÍÏÍÏÏÍÌ</summary>
-    public class AsyncStateMachine_36F9 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x20
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4FB1FFA0
-        public void InternalEquals(){} // RVA: 0x7FFD4FB204B0
-        public void DefaultEquals(){} // RVA: 0x7FFD4FB209E0
-        public void GetHashCode(){} // RVA: 0x7FFD4FB20EF0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4FB21420
-    }
-
-    /// <summary>Originally: ÎÏÎÎÍÏÍÎÍÍÎÎÏÍÎÏÎÍÎÏÏÌÍ</summary>
-    public class AsyncStateMachine_37BD : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÌÍÌÏÎÏÎÎÍÎÎÎÌÌÌÏÏÍÏÍÏÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
-        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x28
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD569339A0
-        public void InternalEquals(){} // RVA: 0x7FFD56933DD0
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD56934200
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD56934640
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD56934A70
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4E341310
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD56934EA0
+        public void Equals(){} // RVA: 0x7FFAC3591520
+        public void InternalEquals(){} // RVA: 0x7FFAC3591B00
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC35920E0
+        public void MoveNext(){} // RVA: 0x7FFAC35926C0
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3592CD0
     }
 
     /// <summary>Originally: ÎÏÌÎÏÌÏÎÏÏÏÏÎÌÌÍÎÍÌÎÏÎÏ</summary>
-    public class AsyncStateMachine_3A1B : ValueType
+    public class AsyncStateMachine_3A1B_3A1B : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -540,37 +571,18 @@ namespace VRC.Internal.Async
         public Awaiter<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD56C8CE30
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD56C8D370
-        public void GetHashCode(){} // RVA: 0x7FFD56C8D8B0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD56C8DE00
-        public void ToString(){} // RVA: 0x7FFD4E341310
-    }
-
-    /// <summary>Originally: ÎÏÎÌÍÏÌÍÌÏÍÎÍÏÍÎÏÍÍÏÍÍÎ</summary>
-    public class AsyncStateMachine_3C6A : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÌÌÎÎÏÍÎÌÏÌÌÏÌÎÏÌÌÌÌÍÏÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
-
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFD569A82B0
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void Equals(){} // RVA: 0x7FFD569A8BE0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD569A9510
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD569A9E40
-        public void ToString(){} // RVA: 0x7FFD569AA770
+        public void Equals(){} // RVA: 0x7FFACB86CE30
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFACB86D370
+        public void GetHashCode(){} // RVA: 0x7FFACB86D8B0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB86DE00
+        public void ToString(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÍÍÎÏÍÎÍÌÎÏÍÌÍÍÍÏÎÏÎÍÍ</summary>
-    public class AsyncStateMachine_3E12 : ValueType
+    public class AsyncStateMachine_3E12_3E12 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -581,59 +593,39 @@ namespace VRC.Internal.Async
         public Awaiter<System.ValueTuple`3<bool,bool,UnityEngine.GameObject>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x60
 
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFD4F4F1F80
-        public void InternalEquals(){} // RVA: 0x7FFD4F4F2620
-        public void DefaultEquals(){} // RVA: 0x7FFD4F4F2650
-        public void Equals(){} // RVA: 0x7FFD4F4F2CC0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F4F2CF0
-        public void GetHashCode(){} // RVA: 0x7FFD4F4F2D20
-        public void SetStateMachine(){} // RVA: 0x7FFD4F4F33C0
-        public void ToString(){} // RVA: 0x7FFD4F4F33F0
-    }
-
-    /// <summary>Originally: ÎÏÏÏÏÎÍÎÎÍÍÌÎÏÍÌÎÏÍÏÎÏÏ</summary>
-    public class AsyncStateMachine_3E50 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public bool ÏÎÎÏÍÎÏÏÏÎÏÌÎÏÍÎÍÌÌÏÎÏÍ; // 0x28
-        public ÍÏÎÌÏÏÏÏÏÍÍÏÎÏÌÏÏÌÎÏÍÌÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD569F3BF0
-        public void InternalEquals(){} // RVA: 0x7FFD569F3FE0
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD569F43D0
-        public void MoveNext(){} // RVA: 0x7FFD569F47B0
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
+        public void MoveNext(){} // RVA: 0x7FFAC40D1F80
+        public void InternalEquals(){} // RVA: 0x7FFAC40D2620
+        public void DefaultEquals(){} // RVA: 0x7FFAC40D2650
+        public void Equals(){} // RVA: 0x7FFAC40D2CC0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC40D2CF0
+        public void GetHashCode(){} // RVA: 0x7FFAC40D2D20
+        public void SetStateMachine(){} // RVA: 0x7FFAC40D33C0
+        public void ToString(){} // RVA: 0x7FFAC40D33F0
     }
 
     /// <summary>Originally: ÎÍÏÏÍÍÌÏÎÏÏÌÌÏÍÏÌÌÏÏÏÌÎ</summary>
-    public class AsyncStateMachine_3F82 : ValueType
+    public class AsyncStateMachine_3F82_3F82 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
         public ÌÍÎÎÎÏÌÏÌÎÌÍÏÍÌÎÍÏÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
         public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x30
-        public 0x664C9250 ÎÌÌÌÎÎÌÍÌÎÍÍÌÌÍÏÏÌÍÍÌÌÏ; // 0x38
-        public System.Collections.Generic.HashSet`1<0x664C8EE0> ÎÍÌÎÏÌÏÏÍÎÌÌÌÎÎÏÌÌÎÌÍÍÎ; // 0x40
+        public ÍÏÎÎÏÎÍÏÎÎÍÍÍÍÍÌÏÌÎÍÎÌÍ ÎÌÌÌÎÎÌÍÌÎÍÍÌÌÍÏÏÌÍÍÌÌÏ; // 0x38
+        public System.Collections.Generic.HashSet`1<0x6B168EE0> ÎÍÌÎÏÌÏÏÍÎÌÌÌÎÎÏÌÌÎÌÍÍÎ; // 0x40
         public Awaiter<System.ValueTuple`2<bool,System.Collections.Generic.HashSet`1<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ>>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4FD4ABB0
-        public void MoveNext(){} // RVA: 0x7FFD4FD4B370
-        public void DefaultEquals(){} // RVA: 0x7FFD4FD4BB30
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC492ABB0
+        public void MoveNext(){} // RVA: 0x7FFAC492B370
+        public void DefaultEquals(){} // RVA: 0x7FFAC492BB30
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÍÏÍÍÌÏÎÌÌÌÎÍÏÌÏÌÌÌÌÏÏÎ</summary>
-    public class AsyncStateMachine_4021 : ValueType
+    public class AsyncStateMachine_4021_4021 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ;
         public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ValueTuple`7<U,V,W,T4,T5,T6,T>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ;
@@ -647,39 +639,62 @@ namespace VRC.Internal.Async
         public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ;
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E090A40
-        public void InternalEquals(){} // RVA: 0x7FFD4E090980
-        public void DefaultEquals(){} // RVA: 0x7FFD4E090A40
-        public void GetHashCode(){} // RVA: 0x7FFD4E090A40
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E090A40
-        public void MoveNext(){} // RVA: 0x7FFD4E090980
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E090A40
-        public void SetStateMachine(){} // RVA: 0x7FFD4E090A40
-        public void ToString(){} // RVA: 0x7FFD4E090980
+        public void Equals(){} // RVA: 0x7FFAC2C70A40
+        public void InternalEquals(){} // RVA: 0x7FFAC2C70980
+        public void DefaultEquals(){} // RVA: 0x7FFAC2C70A40
+        public void GetHashCode(){} // RVA: 0x7FFAC2C70A40
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2C70A40
+        public void MoveNext(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2C70A40
+        public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+        public void ToString(){} // RVA: 0x7FFAC2C70980
+    }
+
+    /// <summary>Originally: ÎÍÍÏÍÌÎÎÍÍÎÎÍÌÌÌÏÍÌÍÌÏÎ</summary>
+    public class AsyncStateMachine_422E_422E : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public VRC.DataModel.Purchasing.ValidationParams ÏÌÏÎÌÍÌÏÏÍÌÌÌÎÏÎÎÍÌÏÎÎÌ; // 0x30
+        public ÎÎÌÌÌÌÎÎÌÍÍÏÍÎÍÌÎÏÌÎÏÌÏ ÌÎÌÍÎÎÍÌÌÍÍÏÏÌÏÌÍÎÌÎÏÌÍ; // 0x38
+        public ÍÏÌÏÎÎÏÍÎÌÌÍÍÌÏÎÏÍÎÍÍÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x40
+        public System.Runtime.CompilerServices.TaskAwaiter`1<VRC.Core.ApiContainer> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC4799CB0
+        public void InternalEquals(){} // RVA: 0x7FFAC4799D20
+        public void DefaultEquals(){} // RVA: 0x7FFAC479A820
+        public void GetHashCode(){} // RVA: 0x7FFAC479B320
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC479B390
+        public void ToString(){} // RVA: 0x7FFAC479B400
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC479BF00
+        public void GetResult(){} // RVA: 0x7FFAC479BF70
+        public void MoveNext(){} // RVA: 0x7FFAC479BFE0
+        public void SetStateMachine(){} // RVA: 0x7FFAC479CAE0
     }
 
     /// <summary>Originally: ÎÎÌÌÏÍÏÍÌÌÍÍÏÎÍÌÍÏÍÍÍÎÌ</summary>
-    public class AsyncStateMachine_42BA : ValueType
+    public class AsyncStateMachine_42BA_42BA : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,0x664E2848> ÌÎÍÌÍÌÍÍÎÌÌÌÍÎÎÌÎÍÎÏÎÏÏ; // 0x30
+        public UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,0x6B182848> ÌÎÍÌÍÌÍÍÎÌÌÌÍÎÎÌÎÍÎÏÎÏÏ; // 0x30
         public string ÍÍÏÎÎÌÍÏÌÏÍÎÏÏÏÍÎÏÏÌÌÏÎ; // 0x38
         public float ÎÏÎÎÌÌÍÏÌÌÎÏÌÍÌÏÏÎÌÏÍÎÏ; // 0x40
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EDBB3E0
-        public void InternalEquals(){} // RVA: 0x7FFD4EDBB410
-        public void DefaultEquals(){} // RVA: 0x7FFD4EDBBFF0
-        public void MoveNext(){} // RVA: 0x7FFD4EDBCBD0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EDBD7B0
-        public void GetHashCode(){} // RVA: 0x7FFD4EDBE390
-        public void SetStateMachine(){} // RVA: 0x7FFD4EDBEF70
+        public void Equals(){} // RVA: 0x7FFAC399B3E0
+        public void InternalEquals(){} // RVA: 0x7FFAC399B410
+        public void DefaultEquals(){} // RVA: 0x7FFAC399BFF0
+        public void MoveNext(){} // RVA: 0x7FFAC399CBD0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC399D7B0
+        public void GetHashCode(){} // RVA: 0x7FFAC399E390
+        public void SetStateMachine(){} // RVA: 0x7FFAC399EF70
     }
 
     /// <summary>Originally: ÎÎÎÌÏÎÎÍÏÎÏÌÌÏÌÏÍÌÎÌÌÏÌ</summary>
-    public class AsyncStateMachine_430A : ValueType
+    public class AsyncStateMachine_430A_430A : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -691,59 +706,70 @@ namespace VRC.Internal.Async
         public System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`2<VRC.Core.ApiWorldInstance,VRC.Core.ApiContainer>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x90
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F823890
-        public void MoveNext(){} // RVA: 0x7FFD4F824310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F824DB0
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC4403890
+        public void MoveNext(){} // RVA: 0x7FFAC4404310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC4404DB0
+        public void HasValidInternalValue(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÎÍÎÏÏÌÏÌÏÍÏÍÏÏÎÍÍÎÍÏÍ</summary>
-    public class AsyncStateMachine_43CB : ValueType
+    public class AsyncStateMachine_43CB_43CB : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
         public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4EF5D180
-        public void GetHashCode(){} // RVA: 0x7FFD4EF5D610
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void CheckPlayablesPlayableHandle(){} // RVA: 0x7FFD4EF5DAA0
-        public void SetConnectedBody(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC3B3D180
+        public void GetHashCode(){} // RVA: 0x7FFAC3B3D610
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void CheckPlayablesPlayableHandle(){} // RVA: 0x7FFAC3B3DAA0
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
     }
 
-    /// <summary>Originally: ÎÏÎÍÍÌÌÌÌÎÏÌÏÌÏÍÍÏÌÍÎÎÍ</summary>
-    public class AsyncStateMachine_4691 : ValueType
+    /// <summary>Originally: ÎÏÌÎÍÏÎÏÍÌÍÎÌÏÌÏÎÏÎÎÏÏÏ</summary>
+    public class AsyncStateMachine_47DA : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<UnityEngine.Texture2D> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÌÌÌÍÏÎÎÌÍÏÏÏÌÌÍÍÍÌÍÎÎÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
-        public UnityEngine.Texture2D ÎÌÎÍÏÌÏÎÌÍÏÍÌÏÎÌÌÎÍÌÌÍÎ; // 0x38
-        public UnityEngine.Rendering.AsyncGPUReadbackRequest ÏÍÏÍÎÍÏÏÏÌÍÏÌÍÏÏÌÏÍÎÎÎÏ; // 0x40
-        public Awaiter<UnityEngine.Rendering.AsyncGPUReadbackRequest> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`3<bool,UnityEngine.Texture2D,0x6B172D00>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public bool ÍÌÎÍÎÍÏÏÌÏÍÏÍÌÌÎÎÌÎÏÌÎÌ; // 0x40
+        public int ÎÌÎÏÎÎÎÍÎÏÌÍÏÎÌÌÌÎÎÍÎÌÍ; // 0x44
+        public ReadOnly<byte> ÏÌÌÎÎÎÌÏÎÏÏÍÏÍÌÏÎÎÍÍÎÏÏ; // 0x48
+        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x58
+        public ImageLoadSettings ÍÏÌÌÏÍÍÍÌÏÌÍÏÍÏÏÌÎÏÍÍÎÌ; // 0x60
+        public 0x6B172D00 ÎÍÏÌÎÍÍÌÎÎÏÏÍÌÌÍÌÎÌÍÌÍÌ; // 0x78
+        public Unity.Collections.NativeArray`1<byte> ÎÍÏÌÎÍÌÎÌÌÎÏÍÎÍÌÍÌÎÍÎÎÏ; // 0x80
+        public ImageResult ÌÌÏÌÏÏÌÎÎÍÍÎÏÎÍÍÏÌÎÎÍÌÍ; // 0x90
+        public ImageInfo ÍÏÍÌÌÎÌÏÌÌÌÎÌÍÌÍÏÍÌÍÏÎÍ; // 0xA4
+        public 0x6B17C078 ÏÌÍÎÎÍÌÏÎÎÏÍÏÌÏÎÎÏÎÍÏÎÍ; // 0xB0
+        public bool ÍÎÎÎÏÌÎÏÎÍÌÌÎÎÏÌÏÏÍÎÎÍÌ; // 0xB4
+        public UnityEngine.Texture2D ÏÍÎÍÎÍÎÌÌÍÌÎÎÌÎÎÍÏÎÏÏÍÌ; // 0xB8
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0xC0
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0xC8
+        public System.Runtime.CompilerServices.TaskAwaiter ÍÏÏÍÏÎÎÌÏÎÎÏÍÍÏÍÎÍÎÌÌÌÍ; // 0xD8
+        public Awaiter<bool> ÍÎÌÍÎÎÍÏÌÍÎÍÌÎÎÌÎÌÌÏÏÌÌ; // 0xE0
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E776D40
-        public void InternalEquals(){} // RVA: 0x7FFD4E776D70
-        public void DefaultEquals(){} // RVA: 0x7FFD4E777560
-        public void GetHashCode(){} // RVA: 0x7FFD4E777D90
-        public void SetStateMachine(){} // RVA: 0x7FFD4E7785C0
-        public void ToString(){} // RVA: 0x7FFD4E7785F0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E778E20
-        public void ToString_772F55A0B9F9(){} // RVA: 0x7FFD4E778E50
-        public void MoveNext(){} // RVA: 0x7FFD4E778E80
+        public void SetStateMachine(){} // RVA: 0x7FFAC48E99B0
+        public void InternalEquals(){} // RVA: 0x7FFAC48E99E0
+        public void MoveNext(){} // RVA: 0x7FFAC48EB300
+        public void Equals(){} // RVA: 0x7FFAC48ECC10
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC48EE490
+        public void GetHashCode(){} // RVA: 0x7FFAC48EE4C0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC48EE4F0
+        public void ToString(){} // RVA: 0x7FFAC48EE520
     }
 
     /// <summary>Originally: ÎÍÏÍÌÍÌÎÌÏÍÏÍÏÍÎÍÌÍÌÏÏÍ</summary>
-    public class AsyncStateMachine_4D18 : ValueType
+    public class AsyncStateMachine_4D18_4D18 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -751,17 +777,17 @@ namespace VRC.Internal.Async
         public int ÌÎÍÌÏÌÎÎÎÎÍÎÌÌÌÎÍÏÍÎÍÍÏ; // 0x3C
         public string[] ÏÏÎÏÌÍÏÍÎÍÏÏÏÏÏÍÏÍÏÌÏÎÌ; // 0x40
         public int ÎÌÍÍÌÍÍÎÍÏÏÏÏÌÏÍÍÏÍÎÌÏÌ; // 0x48
-        public 0x663A0F08 ÏÌÏÌÌÏÍÌÏÍÎÏÏÌÏÎÎÌÍÌÎÍÌ; // 0x4C
+        public 0x6B040F08 ÏÌÏÌÌÏÍÌÏÍÎÏÏÌÏÎÎÌÍÌÎÍÌ; // 0x4C
         public bool ÍÏÏÎÏÍÍÌÏÏÎÏÍÏÎÏÌÍÌÌÎÎÌ; // 0x50
-        public 0x6640D858<VRC.Core.ApiAvatar> ÏÍÎÌÌÍÍÌÏÍÍÌÍÌÎÍÌÎÌÍÏÏÌ; // 0x54
-        public 0x6640D7A8<VRC.Core.ApiAvatar> ÌÎÎÏÏÍÍÍÎÌÍÍÌÎÎÍÌÏÍÍÏÏÎ; // 0x58
-        public 0x6640D800<VRC.Core.ApiAvatar> ÍÌÍÏÎÍÍÎÍÍÍÌÎÍÏÏÌÏÏÍÌÎÍ; // 0x5C
-        public 0x6639AA50 ÌÌÏÎÏÏÍÎÏÎÌÎÏÍÌÍÎÍÏÍÌÎÎ; // 0x60
+        public 0x6B0AD858<VRC.Core.ApiAvatar> ÏÍÎÌÌÍÍÌÏÍÍÌÍÌÎÍÌÎÌÍÏÏÌ; // 0x54
+        public 0x6B0AD7A8<VRC.Core.ApiAvatar> ÌÎÎÏÏÍÍÍÎÌÍÍÌÎÎÍÌÏÍÍÏÏÎ; // 0x58
+        public 0x6B0AD800<VRC.Core.ApiAvatar> ÍÌÍÏÎÍÍÎÍÍÍÌÎÍÏÏÌÏÏÍÌÎÍ; // 0x5C
+        public 0x6B03AA50 ÌÌÏÎÏÏÍÎÏÎÌÎÏÍÌÍÎÍÏÍÌÎÎ; // 0x60
         public string ÏÎÏÎÍÍÌÏÌÌÌÌÎÌÍÍÌÎÏÎÌÍÏ; // 0x68
         public string ÎÌÎÎÍÌÌÍÎÏÎÍÍÎÎÍÍÌÍÎÎÏÎ; // 0x70
         public string ÏÏÎÌÌÏÎÏÎÍÍÌÏÎÎÍÏÏÎÍÎÌÎ; // 0x78
         public string[] ÎÌÌÍÌÏÍÌÎÌÌÌÎÎÍÌÏÏÌÌÎÏÌ; // 0x80
-        public System.Nullable`1<0x6640D8B0<VRC.Core.ApiAvatar>> ÍÌÎÏÎÌÏÌÎÏÏÌÎÎÏÎÌÎÌÌÏÌÌ; // 0x88
+        public System.Nullable`1<0x6B0AD8B0<VRC.Core.ApiAvatar>> ÍÌÎÏÎÌÏÌÎÏÏÌÎÎÏÎÌÎÌÌÏÌÌ; // 0x88
         public System.Collections.Generic.Dictionary`2<string,Token> ÎÎÎÏÍÎÎÌÏÎÍÍÌÏÌÏÌÍÌÏÏÎÎ; // 0x90
         public bool ÍÍÍÌÍÏÍÍÍÎÎÍÌÏÍÌÌÌÌÏÎÎÌ; // 0x98
         public System.Nullable`1<int> ÌÌÏÍÏÎÍÎÏÏÌÍÍÌÏÎÍÏÏÏÌÌÎ; // 0x9C
@@ -770,17 +796,17 @@ namespace VRC.Internal.Async
         public Awaiter<GetAvatarsResult> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0xB8
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EA2C270
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void DefaultEquals(){} // RVA: 0x7FFD4ED54D50
-        public void GetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4ED558F0
-        public void ToString(){} // RVA: 0x7FFD4ED56490
-        public void MoveNext(){} // RVA: 0x7FFD4ED56F80
+        public void Equals(){} // RVA: 0x7FFAC360C270
+        public void SetStateMachine(){} // RVA: 0x7FFAC360C270
+        public void DefaultEquals(){} // RVA: 0x7FFAC3934D50
+        public void GetHashCode(){} // RVA: 0x7FFAC360C270
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC39358F0
+        public void ToString(){} // RVA: 0x7FFAC3936490
+        public void MoveNext(){} // RVA: 0x7FFAC3936F80
     }
 
     /// <summary>Originally: ÎÏÍÌÎÏÌÎÌÏÎÎÎÎÏÌÌÎÎÌÍÏÍ</summary>
-    public class AsyncStateMachine_530B : ValueType
+    public class AsyncStateMachine_530B_530B : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -790,18 +816,18 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4E636550
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E636E10
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E6376B0
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC3216550
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC3216E10
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC32176B0
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void HasValidInternalValue(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÍÏÌÏÌÏÎÌÍÍÏÎÎÍÌÏÍÍÏÍÎÌ</summary>
-    public class AsyncStateMachine_54EE : ValueType
+    public class AsyncStateMachine_54EE_54EE : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -809,18 +835,18 @@ namespace VRC.Internal.Async
         public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD5678B630
-        public void InternalEquals(){} // RVA: 0x7FFD5678B9A0
-        public void MoveNext(){} // RVA: 0x7FFD5678BD10
-        public void GetHashCode(){} // RVA: 0x7FFD5678C080
-        public void InternalGetHashCode(){} // RVA: 0x7FFD5678C3F0
-        public void ToString(){} // RVA: 0x7FFD5678C760
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFACB36B630
+        public void InternalEquals(){} // RVA: 0x7FFACB36B9A0
+        public void MoveNext(){} // RVA: 0x7FFACB36BD10
+        public void GetHashCode(){} // RVA: 0x7FFACB36C080
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB36C3F0
+        public void ToString(){} // RVA: 0x7FFACB36C760
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void HasValidInternalValue(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÍÏÏÎÎÌÎÏÏÌÏÍÍÌÌÏÏÏÌÍÌ</summary>
-    public class AsyncStateMachine_576D : ValueType
+    public class AsyncStateMachine_576D_576D : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<bool,string>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -829,19 +855,19 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EBF5700
-        public void InternalEquals(){} // RVA: 0x7FFD4EBF5D10
-        public void DefaultEquals(){} // RVA: 0x7FFD4EBF5D40
-        public void SetStateMachine(){} // RVA: 0x7FFD4EBF6370
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EBF63A0
-        public void GetHashCode(){} // RVA: 0x7FFD4EBF63D0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EBF6400
-        public void ToString(){} // RVA: 0x7FFD4EBF6A30
-        public void MoveNext(){} // RVA: 0x7FFD4EBF6A60
+        public void Equals(){} // RVA: 0x7FFAC37D5700
+        public void InternalEquals(){} // RVA: 0x7FFAC37D5D10
+        public void DefaultEquals(){} // RVA: 0x7FFAC37D5D40
+        public void SetStateMachine(){} // RVA: 0x7FFAC37D6370
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC37D63A0
+        public void GetHashCode(){} // RVA: 0x7FFAC37D63D0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC37D6400
+        public void ToString(){} // RVA: 0x7FFAC37D6A30
+        public void MoveNext(){} // RVA: 0x7FFAC37D6A60
     }
 
     /// <summary>Originally: ÎÏÌÍÎÎÏÌÍÍÍÏÏÌÍÏÏÏÏÎÌÏÌ</summary>
-    public class AsyncStateMachine_5778 : ValueType
+    public class AsyncStateMachine_5778_5778 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -850,98 +876,40 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD56A7E010
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD56A7E520
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD56A7EA60
-        public void ToString(){} // RVA: 0x7FFD56A7EF90
-        public void ValidateStructPointers(){} // RVA: 0x7FFD56A7F4A0
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFACB65E010
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB65E520
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFACB65EA60
+        public void ToString(){} // RVA: 0x7FFACB65EF90
+        public void ValidateStructPointers(){} // RVA: 0x7FFACB65F4A0
     }
 
     /// <summary>Originally: ÎÏÍÍÌÍÏÌÌÎÏÎÍÍÍÍÎÌÎÍÎÌÌ</summary>
-    public class AsyncStateMachine_5C2E : ValueType
+    public class AsyncStateMachine_5C2E_5C2E : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
         public bool ÌÍÌÌÏÍÍÍÍÎÌÍÍÎÎÍÌÍÌÌÏÌÍ; // 0x28
         public ÌÌÎÍÍÌÌÍÏÍÍÍÏÌÍÍÎÍÍÎÌÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
-        public 0x66594DC0 ÌÏÎÍÍÍÎÌÌÌÍÏÌÎÌÍÌÍÏÎÍÍÎ; // 0x38
+        public 0x6B234DC0 ÌÏÎÍÍÍÎÌÌÌÍÏÌÎÌÍÌÍÏÎÍÍÎ; // 0x38
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD56793E90
-        public void InternalEquals(){} // RVA: 0x7FFD56794370
-        public void DefaultEquals(){} // RVA: 0x7FFD56794850
-        public void MoveNext(){} // RVA: 0x7FFD56794D30
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
-    }
-
-    /// <summary>Originally: ÎÏÎÍÏÎÎÎÏÏÌÎÌÍÌÏÍÎÎÍÏÌÍ</summary>
-    public class AsyncStateMachine_5DE5 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÎÍÌÌÌÍÎÎÌÍÎÍÍÍÎÍÏÍÏÎÌÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
-        public string ÍÌÎÌÏÌÌÌÏÍÎÍÎÍÎÎÍÏÎÏÏÍÍ; // 0x40
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EFE0460
-        public void MoveNext(){} // RVA: 0x7FFD4EFE06C0
-        public void DefaultEquals(){} // RVA: 0x7FFD4EFE0930
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EA2C270
-    }
-
-    /// <summary>Originally: ÎÏÎÍÍÏÌÏÎÎÎÍÍÎÍÎÌÏÏÏÎÌÍ</summary>
-    public class AsyncStateMachine_5F55 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÏÏÍÍÌÌÎÎÌÍÌÍÏÎÎÎÍÏÌÍÎÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD567BB930
-    }
-
-    /// <summary>Originally: ÎÏÏÏÍÏÌÏÍÎÌÍÌÌÎÏÎÏÍÌÌÎÏ</summary>
-    public class AsyncStateMachine_6134 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÏÎÍÏÏÍÏÎÎÍÌÌÌÏÎÏÍÏÎÏÏÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
-        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x38
-        public ÍÌÌÎÏÌÌÎÏÍÎÍÌÍÍÏÏÎÌÍÎÍÌ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x40
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD569C37D0
-        public void InternalEquals(){} // RVA: 0x7FFD569C3830
-        public void DefaultEquals(){} // RVA: 0x7FFD569C3890
-        public void GetHashCode(){} // RVA: 0x7FFD569C3E70
-        public void MoveNext(){} // RVA: 0x7FFD569C4450
-        public void ToString(){} // RVA: 0x7FFD569C4A30
-        public void SetStateMachine(){} // RVA: 0x7FFD569C4A90
+        public void Equals(){} // RVA: 0x7FFACB373E90
+        public void InternalEquals(){} // RVA: 0x7FFACB374370
+        public void DefaultEquals(){} // RVA: 0x7FFACB374850
+        public void MoveNext(){} // RVA: 0x7FFACB374D30
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÍÎÌÌÏÍÍÍÎÎÏÎÎÍÌÌÏÎÏÌÎ</summary>
-    public class AsyncStateMachine_6212 : ValueType
+    public class AsyncStateMachine_6212_6212 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -950,18 +918,18 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EA2C270
-        public void InternalEquals(){} // RVA: 0x7FFD4EA2C270
-        public void DefaultEquals(){} // RVA: 0x7FFD4EA2C270
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EFE30E0
-        public void GetHashCode(){} // RVA: 0x7FFD4EFE3460
-        public void MoveNext(){} // RVA: 0x7FFD4EFE37E0
-        public void ToString(){} // RVA: 0x7FFD4EFE3B70
+        public void Equals(){} // RVA: 0x7FFAC360C270
+        public void InternalEquals(){} // RVA: 0x7FFAC360C270
+        public void DefaultEquals(){} // RVA: 0x7FFAC360C270
+        public void SetStateMachine(){} // RVA: 0x7FFAC360C270
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3BC30E0
+        public void GetHashCode(){} // RVA: 0x7FFAC3BC3460
+        public void MoveNext(){} // RVA: 0x7FFAC3BC37E0
+        public void ToString(){} // RVA: 0x7FFAC3BC3B70
     }
 
     /// <summary>Originally: ÎÏÍÍÎÍÎÍÍÌÎÌÍÎÏÌÏÏÏÌÍÏÌ</summary>
-    public class AsyncStateMachine_6489 : ValueType
+    public class AsyncStateMachine_6489_6489 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -971,17 +939,17 @@ namespace VRC.Internal.Async
         public Awaiter<bool> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x40
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4EF8E590
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4EF8EE40
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EF8F700
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC3B6E590
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC3B6EE40
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3B6F700
     }
 
     /// <summary>Originally: ÎÎÍÏÏÌÍÏÍÍÏÌÍÌÍÍÌÎÏÍÌÎÏ</summary>
-    public class AsyncStateMachine_691D : ValueType
+    public class AsyncStateMachine_691D_691D : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -992,62 +960,20 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E634DD0
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E6353B0
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4E635990
-        public void SetConnectedBody(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4E635F70
-    }
-
-    /// <summary>Originally: ÎÏÏÍÏÎÌÏÍÏÎÎÌÌÍÌÌÏÎÌÍÏÌ</summary>
-    public class AsyncStateMachine_6AF1 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÌÍÎÏÏÌÎÎÌÎÎÌÍÏÌÌÌÏÎÏÎÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EC85FE0
-        public void InternalEquals(){} // RVA: 0x7FFD4EA2C270
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCode(){} // RVA: 0x7FFD4EC86290
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void ToString(){} // RVA: 0x7FFD4EC86540
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EA2C270
-        public void SetStateMachine_496B25FDED1B(){} // RVA: 0x7FFD4EA2C270
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4EA2C270
-        public void MoveNext(){} // RVA: 0x7FFD4EC867E0
-    }
-
-    /// <summary>Originally: ÎÏÏÏÌÍÎÌÌÏÎÏÍÍÎÎÍÍÍÎÎÏÍ</summary>
-    public class AsyncStateMachine_6D8F : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<string,bool>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public bool ÏÎÏÏÎÍÎÏÏÏÌÍÎÏÌÍÏÌÏÌÍÍÍ; // 0x38
-        public VRC.Core.ApiWorldInstance ÎÎÌÏÎÎÌÌÏÎÍÍÌÏÌÏÌÌÌÍÌÎÏ; // 0x40
-        public System.Action`1<string> ÏÌÎÏÎÍÎÌÍÎÎÌÎÏÏÌÏÏÍÍÏÌÌ; // 0x48
-        public Awaiter<System.ValueTuple`2<string,bool>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F5A7CE0
-        public void InternalEquals(){} // RVA: 0x7FFD4F5A7D10
-        public void SetStateMachine(){} // RVA: 0x7FFD4F5A7D40
-        public void GetHashCode(){} // RVA: 0x7FFD4F5A7D70
-        public void MoveNext(){} // RVA: 0x7FFD4F5A7DA0
-        public void ToString(){} // RVA: 0x7FFD4F5A8300
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F5A8330
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4F5A8360
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC3214DD0
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC32153B0
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC3215990
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC3215F70
     }
 
     /// <summary>Originally: ÎÎÍÏÎÏÎÌÌÍÌÍÌÎÍÌÍÍÎÍÏÎÎ</summary>
-    public class AsyncStateMachine_6E1F : ValueType
+    public class AsyncStateMachine_6E1F_6E1F : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<UnityEngine.GameObject> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1065,18 +991,18 @@ namespace VRC.Internal.Async
         public System.Runtime.CompilerServices.ValueTaskAwaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0xF8
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E7528F0
-        public void InternalEquals(){} // RVA: 0x7FFD4E752920
-        public void DefaultEquals(){} // RVA: 0x7FFD4E752950
-        public void GetHashCode(){} // RVA: 0x7FFD4E753CF0
-        public void SetStateMachine(){} // RVA: 0x7FFD4E755090
-        public void ToString(){} // RVA: 0x7FFD4E7550C0
-        public void MoveNext(){} // RVA: 0x7FFD4E756460
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4E757800
+        public void Equals(){} // RVA: 0x7FFAC33328F0
+        public void InternalEquals(){} // RVA: 0x7FFAC3332920
+        public void DefaultEquals(){} // RVA: 0x7FFAC3332950
+        public void GetHashCode(){} // RVA: 0x7FFAC3333CF0
+        public void SetStateMachine(){} // RVA: 0x7FFAC3335090
+        public void ToString(){} // RVA: 0x7FFAC33350C0
+        public void MoveNext(){} // RVA: 0x7FFAC3336460
+        public void HasValidInternalValue(){} // RVA: 0x7FFAC3337800
     }
 
     /// <summary>Originally: ÎÏÍÌÎÏÎÍÌÌÍÌÍÍÍÏÎÍÏÌÌÏÌ</summary>
-    public class AsyncStateMachine_6E38 : ValueType
+    public class AsyncStateMachine_6E38_6E38 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`3<bool,bool,UnityEngine.GameObject>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1086,68 +1012,42 @@ namespace VRC.Internal.Async
         public bool ÍÍÌÌÎÍÏÍÌÍÎÎÍÌÏÍÌÏÌÏÍÌÌ; // 0x50
         public float ÍÍÍÌÍÌÌÍÍÎÍÏÌÎÎÎÎÍÎÌÍÎÌ; // 0x54
         public System.Threading.CancellationTokenSource ÎÏÌÎÎÏÌÎÍÏÌÏÌÍÎÌÎÏÌÎÏÎÎ; // 0x58
-        public Awaiter<System.ValueTuple`2<0x66362138,UnityEngine.GameObject>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x60
+        public Awaiter<System.ValueTuple`2<0x6B002138,UnityEngine.GameObject>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x60
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F51F010
-        public void InternalEquals(){} // RVA: 0x7FFD4F51F040
-        public void DefaultEquals(){} // RVA: 0x7FFD4F51FB20
-        public void GetHashCode(){} // RVA: 0x7FFD4F51FB50
-        public void MoveNext(){} // RVA: 0x7FFD4F51FB80
-        public void SetStateMachine(){} // RVA: 0x7FFD4F520660
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F520690
-        public void ToString(){} // RVA: 0x7FFD4F5211B0
-        public void ValidateStructPointers(){} // RVA: 0x7FFD4F521CC0
+        public void Equals(){} // RVA: 0x7FFAC40FF010
+        public void InternalEquals(){} // RVA: 0x7FFAC40FF040
+        public void DefaultEquals(){} // RVA: 0x7FFAC40FFB20
+        public void GetHashCode(){} // RVA: 0x7FFAC40FFB50
+        public void MoveNext(){} // RVA: 0x7FFAC40FFB80
+        public void SetStateMachine(){} // RVA: 0x7FFAC4100660
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC4100690
+        public void ToString(){} // RVA: 0x7FFAC41011B0
+        public void ValidateStructPointers(){} // RVA: 0x7FFAC4101CC0
     }
 
-    /// <summary>Originally: ÎÏÏÍÌÎÎÎÌÏÌÌÍÌÍÌÏÌÎÍÍÎÍ</summary>
-    public class AsyncStateMachine_6F14 : ValueType
+    /// <summary>Originally: ÎÍÍÌÍÎÏÎÍÍÎÍÏÍÌÌÏÌÎÏÎÎÍ</summary>
+    public class AsyncStateMachine_7146_7146 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public VRC.SDKBase.VRC_PortalMarker ÏÍÌÍÏÏÍÌÌÍÏÎÍÍÎÎÏÎÍÍÍÏÌ; // 0x28
-        public System.Collections.Generic.IReadOnlyList`1<System.ValueTuple`3<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ,ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ,int>> ÌÍÌÌÌÍÎÏÏÌÌÏÍÎÍÏÏÎÌÍÍÏÍ; // 0x30
-        public int ÌÏÍÎÍÍÍÎÍÌÎÌÌÌÍÍÏÎÎÎÎÏÏ; // 0x38
-        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x40
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<LoadingInfoData> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Collections.Generic.List`1<ÍÌÌÍÌÎÌÌÍÎÌÎÏÌÎÍÌÌÎÏÏÎÌ> ÎÍÌÎÍÍÌÌÎÍÎÌÎÎÌÏÍÍÏÌÏÍÌ; // 0x30
+        public LoadingInfoSet ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public Awaiter<UnityEngine.Texture> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4FB08870
-        public void DefaultEquals(){} // RVA: 0x7FFD4FB08E60
-        public void GetHashCode(){} // RVA: 0x7FFD4FB09450
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4FB09A30
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine_B433A3(){} // RVA: 0x7FFD4FB0A020
-        public void SetConnectedBody(){} // RVA: 0x7FFD4E341310
-    }
-
-    /// <summary>Originally: ÎÏÏÍÏÌÌÏÌÍÍÍÍÌÍÏÍÎÎÍÏÌÌ</summary>
-    public class AsyncStateMachine_7013 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public System.Nullable`1<System.DateTime> ÏÌÎÍÍÍÎÎÎÏÍÌÍÌÎÏÎÏÏÌÌÌÌ; // 0x38
-        public System.Nullable`1<System.DateTime> ÏÎÎÌÌÎÌÎÏÌÏÎÍÏÍÎÎÏÏÏÍÍÍ; // 0x48
-        public ÎÌÍÏÍÌÌÍÏÌÍÌÏÌÌÍÌÍÎÍÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x58
-        public System.Action`1<System.Collections.IEnumerable> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x60
-        public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x68
-        public System.Collections.Generic.List`1<ÏÏÍÎÏÌÎÌÌÏÍÏÍÏÎÌÎÏÍÍÌÌÌ> ÌÍÏÏÏÏÏÏÎÏÌÍÎÎÌÍÍÎÍÎÌÏÎ; // 0x70
-        public Awaiter<VRC.Core.ApiLedgerTransactions> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x78
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EA2C270
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void DefaultEquals(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCode(){} // RVA: 0x7FFD4EC95EC0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EC968A0
-        public void ToString(){} // RVA: 0x7FFD4EC97290
-        public void MoveNext(){} // RVA: 0x7FFD4EC97C80
+        public void Equals(){} // RVA: 0x7FFAC428AB80
+        public void InternalEquals(){} // RVA: 0x7FFAC428ABB0
+        public void DefaultEquals(){} // RVA: 0x7FFAC428ABE0
+        public void GetHashCode(){} // RVA: 0x7FFAC428AF70
+        public void MoveNext(){} // RVA: 0x7FFAC428B300
+        public void ToString(){} // RVA: 0x7FFAC428B7E0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC428B810
+        public void SetStateMachine(){} // RVA: 0x7FFAC428BCE0
     }
 
     /// <summary>Originally: ÎÍÏÏÏÍÏÍÎÌÌÍÍÌÏÎÌÌÌÏÎÍÍ</summary>
-    public class AsyncStateMachine_7723 : ValueType
+    public class AsyncStateMachine_7723_7723 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1155,19 +1055,19 @@ namespace VRC.Internal.Async
         public System.Runtime.CompilerServices.ValueTaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4F674680
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F674990
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F674CA0
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4F674FB0
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC4254680
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC4254990
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC4254CA0
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC4254FB0
     }
 
     /// <summary>Originally: ÎÍÏÍÍÍÍÎÎÏÎÍÍÍÍÏÌÍÍÍÎÍÌ</summary>
-    public class AsyncStateMachine_7858 : ValueType
+    public class AsyncStateMachine_7858_7858 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1175,17 +1075,36 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4EC43D30
-        public void GetHashCode(){} // RVA: 0x7FFD4EC44020
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EC44310
-        public void ToString(){} // RVA: 0x7FFD4EC44610
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC3823D30
+        public void GetHashCode(){} // RVA: 0x7FFAC3824020
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3824310
+        public void ToString(){} // RVA: 0x7FFAC3824610
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+    }
+
+    /// <summary>Originally: ÎÎÏÍÎÌÌÏÌÌÎÌÎÎÏÏÏÎÍÏÎÍÍ</summary>
+    public class AsyncStateMachine_7C7B : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÍÍÎÌÌÏÌÌÎÎÎÌÏÎÌÌÍÎÍÏÌÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter<VRC.Localization.LocalizableString> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFACB9A9930
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB9A9D50
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB9AA170
+        public void GetHashCode(){} // RVA: 0x7FFACB9AA590
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFACB9AA9B0
     }
 
     /// <summary>Originally: ÎÎÍÍÏÏÏÏÌÍÌÍÍÎÎÏÎÎÎÎÍÎÍ</summary>
-    public class AsyncStateMachine_7D2C : ValueType
+    public class AsyncStateMachine_7D2C_7D2C : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ;
         public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ValueTuple`6<U,V,W,T4,T5,T>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ;
@@ -1198,18 +1117,18 @@ namespace VRC.Internal.Async
         public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ;
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E090A40
-        public void InternalEquals(){} // RVA: 0x7FFD4E090980
-        public void SetStateMachine(){} // RVA: 0x7FFD4E090A40
-        public void GetHashCode(){} // RVA: 0x7FFD4E090A40
-        public void MoveNext(){} // RVA: 0x7FFD4E090980
-        public void ToString(){} // RVA: 0x7FFD4E090980
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E090A40
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4E090A40
+        public void Equals(){} // RVA: 0x7FFAC2C70A40
+        public void InternalEquals(){} // RVA: 0x7FFAC2C70980
+        public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+        public void GetHashCode(){} // RVA: 0x7FFAC2C70A40
+        public void MoveNext(){} // RVA: 0x7FFAC2C70980
+        public void ToString(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2C70A40
+        public void HasValidInternalValue(){} // RVA: 0x7FFAC2C70A40
     }
 
     /// <summary>Originally: ÎÏÌÏÍÍÍÍÏÏÌÌÌÌÍÍÎÌÏÌÎÏÎ</summary>
-    public class AsyncStateMachine_7F80 : ValueType
+    public class AsyncStateMachine_7F80_7F80 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1217,19 +1136,19 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD569D7530
-        public void InternalEquals(){} // RVA: 0x7FFD569D7720
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD569D7910
-        public void ToString(){} // RVA: 0x7FFD569D7B00
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void ValidateStructPointers(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFACB5B7530
+        public void InternalEquals(){} // RVA: 0x7FFACB5B7720
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB5B7910
+        public void ToString(){} // RVA: 0x7FFACB5B7B00
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void ValidateStructPointers(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÍÏÌÍÎÏÎÌÏÌÍÎÍÍÍÌÍÍÌÎÏÍ</summary>
-    public class AsyncStateMachine_805B : ValueType
+    public class AsyncStateMachine_805B_805B : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Mediapipe.ImageFrame> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1237,20 +1156,20 @@ namespace VRC.Internal.Async
         public System.Runtime.CompilerServices.TaskAwaiter`1<NextResult<Mediapipe.ImageFrame>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F876850
-        public void InternalEquals(){} // RVA: 0x7FFD4F876D70
-        public void DefaultEquals(){} // RVA: 0x7FFD4F877290
-        public void SetStateMachine(){} // RVA: 0x7FFD4F877300
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F877370
-        public void GetHashCode(){} // RVA: 0x7FFD4F877890
-        public void MoveNext(){} // RVA: 0x7FFD4F877900
-        public void ToString(){} // RVA: 0x7FFD4F877E20
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4F877E90
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4F8783B0
+        public void Equals(){} // RVA: 0x7FFAC4456850
+        public void InternalEquals(){} // RVA: 0x7FFAC4456D70
+        public void DefaultEquals(){} // RVA: 0x7FFAC4457290
+        public void SetStateMachine(){} // RVA: 0x7FFAC4457300
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC4457370
+        public void GetHashCode(){} // RVA: 0x7FFAC4457890
+        public void MoveNext(){} // RVA: 0x7FFAC4457900
+        public void ToString(){} // RVA: 0x7FFAC4457E20
+        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFAC4457E90
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC44583B0
     }
 
     /// <summary>Originally: ÎÎÍÏÌÎÎÎÎÏÍÍÏÌÍÍÌÌÏÏÎÏÏ</summary>
-    public class AsyncStateMachine_8098 : ValueType
+    public class AsyncStateMachine_8098_8098 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1262,18 +1181,18 @@ namespace VRC.Internal.Async
         public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x50
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EA48870
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4EA49650
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EA4A440
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4EA4B230
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4EA4C010
+        public void Equals(){} // RVA: 0x7FFAC3628870
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC3629650
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC362A440
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC362B230
+        public void HasValidInternalValue(){} // RVA: 0x7FFAC362C010
     }
 
     /// <summary>Originally: ÎÎÌÏÏÏÍÍÌÎÍÏÏÏÌÏÍÌÏÎÍÎÍ</summary>
-    public class AsyncStateMachine_82C6 : ValueType
+    public class AsyncStateMachine_82C6_82C6 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1281,20 +1200,20 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4EF61F30
-        public void MoveNext(){} // RVA: 0x7FFD4EF62090
-        public void Initialize(){} // RVA: 0x7FFD4EF621F0
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC3B41F30
+        public void MoveNext(){} // RVA: 0x7FFAC3B42090
+        public void Initialize(){} // RVA: 0x7FFAC3B421F0
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÏÍÌÏÌÏÎÍÏÍÏÍÌÌÍÌÌÍÍÌÏÌ</summary>
-    public class AsyncStateMachine_830B : ValueType
+    public class AsyncStateMachine_830B_830B : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1302,18 +1221,40 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E9A30F0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4E9A36E0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC35830F0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC35836E0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+    }
+
+    /// <summary>Originally: ÎÍÍÎÍÎÎÍÌÍÌÍÏÍÏÎÏÎÍÌÎÌÍ</summary>
+    public class AsyncStateMachine_83A6_83A6 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÏÌÎÌÍÎÍÎÎÍÌÏÌÌÌÏÍÍÍÍÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x28
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x40
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFACB8181C0
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB8187F0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFACB818E30
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÏÎÏÎÎÎÌÍÎÎÎÏÌÌÌÍÎÎÏÌÏ</summary>
-    public class AsyncStateMachine_8430 : ValueType
+    public class AsyncStateMachine_8430_8430 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1321,24 +1262,24 @@ namespace VRC.Internal.Async
         public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F06D810
-        public void InternalEquals(){} // RVA: 0x7FFD4F06DD20
-        public void DefaultEquals(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCode(){} // RVA: 0x7FFD4F06E230
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F06E740
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F06EC50
-        public void ToString(){} // RVA: 0x7FFD4EA2C270
-        public void MoveNext(){} // RVA: 0x7FFD4F06F160
+        public void Equals(){} // RVA: 0x7FFAC3C4D810
+        public void InternalEquals(){} // RVA: 0x7FFAC3C4DD20
+        public void DefaultEquals(){} // RVA: 0x7FFAC360C270
+        public void GetHashCode(){} // RVA: 0x7FFAC3C4E230
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3C4E740
+        public void SetStateMachine(){} // RVA: 0x7FFAC360C270
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3C4EC50
+        public void ToString(){} // RVA: 0x7FFAC360C270
+        public void MoveNext(){} // RVA: 0x7FFAC3C4F160
     }
 
     /// <summary>Originally: ÎÎÎÎÎÌÏÌÎÍÍÍÌÌÏÌÎÍÏÎÎÎÌ</summary>
-    public class AsyncStateMachine_8506 : ValueType
+    public class AsyncStateMachine_8506_8506 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
         public ÍÍÌÎÏÎÏÌÏÌÎÏÌÍÎÌÌÏÍÌÏÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
-        public 0x6640D858<VRC.Core.ApiAvatar> ÏÍÎÌÌÍÍÌÏÍÍÌÍÌÎÍÌÎÌÍÏÏÌ; // 0x28
+        public 0x6B0AD858<VRC.Core.ApiAvatar> ÏÍÎÌÌÍÍÌÏÍÍÌÍÌÎÍÌÎÌÍÏÏÌ; // 0x28
         public System.Action`1<System.Collections.Generic.List`1<ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ>> ÏÏÏÌÍÍÌÍÌÏÍÎÏÏÍÍÎÏÏÏÌÎÏ; // 0x30
         public System.Action`1<string> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x38
         public System.Collections.Generic.List`1<ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ> ÏÏÎÍÌÌÌÌÎÌÎÍÍÎÏÎÎÌÎÌÎÌÎ; // 0x40
@@ -1348,17 +1289,17 @@ namespace VRC.Internal.Async
         public Awaiter<System.ValueTuple`3<bool,string,bool>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x58
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4E97DF20
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC355DF20
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÎÌÏÌÏÍÍÍÎÏÌÏÍÌÎÌÎÌÍÏÎ</summary>
-    public class AsyncStateMachine_85BD : ValueType
+    public class AsyncStateMachine_85BD_85BD : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<ÌÏÌÏÏÏÍÎÍÌÎÌÍÎÌÏÌÌÏÏÎÎÍ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1367,18 +1308,43 @@ namespace VRC.Internal.Async
         public Awaiter<ÌÏÌÏÏÏÍÎÍÌÎÌÍÎÌÏÌÌÏÏÎÎÍ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x58
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E6CF4F0
-        public void MoveNext(){} // RVA: 0x7FFD4E6CFE30
-        public void DefaultEquals(){} // RVA: 0x7FFD4E6D07A0
-        public void GetHashCode(){} // RVA: 0x7FFD4E6D10E0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E6D1110
-        public void ToString(){} // RVA: 0x7FFD4E6D1A50
-        public void SetStateMachine(){} // RVA: 0x7FFD4E6D2390
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4E6D23C0
+        public void Equals(){} // RVA: 0x7FFAC32AF4F0
+        public void MoveNext(){} // RVA: 0x7FFAC32AFE30
+        public void DefaultEquals(){} // RVA: 0x7FFAC32B07A0
+        public void GetHashCode(){} // RVA: 0x7FFAC32B10E0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC32B1110
+        public void ToString(){} // RVA: 0x7FFAC32B1A50
+        public void SetStateMachine(){} // RVA: 0x7FFAC32B2390
+        public void HasValidInternalValue(){} // RVA: 0x7FFAC32B23C0
+    }
+
+    /// <summary>Originally: ÎÎÌÏÎÏÍÍÏÍÏÍÌÌÏÍÍÎÌÏÏÍÌ</summary>
+    public class AsyncStateMachine_882F : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÌÌÎÏÎÏÌÍÏÍÌÏÍÌÍÎÎÌÏÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public string ÍÏÏÌÍÏÏÍÏÎÍÎÎÎÎÌÎÍÍÌÌÍÏ; // 0x30
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public object ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ; // 0x40
+        public int ÍÎÌÍÌÍÍÎÎÏÍÎÌÌÎÌÌÎÍÎÍÎÎ; // 0x48
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x50
+
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC48C9CF0
+        public void DefaultEquals(){} // RVA: 0x7FFAC48CA600
+        public void Equals(){} // RVA: 0x7FFAC48CAF20
+        public void MoveNext(){} // RVA: 0x7FFAC48CB840
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        // ── Unresolved (hash) ──
+        public void m_0AA(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÏÍÌÏÌÌÍÌÏÍÍÌÌÎÏÍÏÎÏÏÏÍ</summary>
-    public class AsyncStateMachine_8BD7 : ValueType
+    public class AsyncStateMachine_8BD7_8BD7 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1389,79 +1355,173 @@ namespace VRC.Internal.Async
         public Awaiter<System.ValueTuple`3<bool,bool,UnityEngine.GameObject>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F507480
-        public void InternalEquals(){} // RVA: 0x7FFD4F5074B0
-        public void DefaultEquals(){} // RVA: 0x7FFD4F508010
-        public void SetStateMachine(){} // RVA: 0x7FFD4F508B70
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F508BA0
-        public void GetHashCode(){} // RVA: 0x7FFD4F508BD0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F509730
-        public void MoveNext(){} // RVA: 0x7FFD4F509760
-        public void ToString(){} // RVA: 0x7FFD4F50A2B0
+        public void Equals(){} // RVA: 0x7FFAC40E7480
+        public void InternalEquals(){} // RVA: 0x7FFAC40E74B0
+        public void DefaultEquals(){} // RVA: 0x7FFAC40E8010
+        public void SetStateMachine(){} // RVA: 0x7FFAC40E8B70
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC40E8BA0
+        public void GetHashCode(){} // RVA: 0x7FFAC40E8BD0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC40E9730
+        public void MoveNext(){} // RVA: 0x7FFAC40E9760
+        public void ToString(){} // RVA: 0x7FFAC40EA2B0
     }
 
-    /// <summary>Originally: ÎÏÎÏÏÏÏÎÌÌÎÏÎÎÍÏÍÏÎÏÏÍÎ</summary>
-    public class AsyncStateMachine_9064 : ValueType
+    /// <summary>Originally: ÎÍÍÎÌÍÏÍÌÏÎÍÏÍÎÎÏÍÏÏÏÎÏ</summary>
+    public class AsyncStateMachine_8D8B_8D8B : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Collections.Generic.List`1<Mediapipe.Detection>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÏÌÍÌÍÌÌÎÍÌÍÌÎÍÌÍÏÏÏÍÍÌÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
-        public System.Runtime.CompilerServices.TaskAwaiter`1<NextResult<System.Collections.Generic.List`1<Mediapipe.Detection>>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public string ÍÎÏÌÍÎÍÌÍÎÌÏÌÌÍÍÏÌÌÎÍÏÌ; // 0x38
+        public ÌÍÎÏÏÌÎÎÌÎÎÌÍÏÌÌÌÏÎÏÎÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x40
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F8859E0
-        public void InternalEquals(){} // RVA: 0x7FFD4F885F00
-        public void SetStateMachine(){} // RVA: 0x7FFD4F885F70
-        public void GetHashCode(){} // RVA: 0x7FFD4F885FE0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F886500
-        public void MoveNext(){} // RVA: 0x7FFD4F886A20
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F886F40
+        public void Equals(){} // RVA: 0x7FFAC360C270
+        public void InternalEquals(){} // RVA: 0x7FFAC360C270
+        public void DefaultEquals(){} // RVA: 0x7FFAC3860250
+        public void GetHashCode(){} // RVA: 0x7FFAC360C270
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC360C270
+        public void ToString(){} // RVA: 0x7FFAC3860660
+        public void MoveNext(){} // RVA: 0x7FFAC3860A70
+        public void SetStateMachine_8126F535A019(){} // RVA: 0x7FFAC360C270
+        public void SetStateMachine(){} // RVA: 0x7FFAC360C270
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC3860E70
+    }
+
+    /// <summary>Originally: ÎÍÍÎÎÏÏÌÏÍÍÎÏÎÌÎÎÏÎÌÎÍÎ</summary>
+    public class AsyncStateMachine_9114_9114 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÏÍÎÏÎÎÍÍÏÌÍÏÌÍÌÌÏÏÌÍÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC3A00B60
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3A01D70
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC3A03000
+        public void ToString(){} // RVA: 0x7FFAC3A04240
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC3A054D0
     }
 
     /// <summary>Originally: ÎÎÍÍÍÏÍÎÍÏÌÍÎÍÏÏÎÌÍÎÌÌÎ</summary>
-    public class AsyncStateMachine_9C64 : ValueType
+    public class AsyncStateMachine_9C64_9C64 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
         public ÌÍÎÎÎÏÌÏÌÎÌÍÏÍÌÎÍÏÌÎÏÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
         public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x30
-        public 0x664C9250 ÎÌÌÌÎÎÌÍÌÎÍÍÌÌÍÏÏÌÍÍÌÌÏ; // 0x38
+        public ÍÏÎÎÏÎÍÏÎÎÍÍÍÍÍÌÏÌÎÍÎÌÍ ÎÌÌÌÎÎÌÍÌÎÍÍÌÌÍÏÏÌÍÍÌÌÏ; // 0x38
         public Awaiter<System.ValueTuple`2<bool,System.Collections.Generic.HashSet`1<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ>>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4FD48AF0
-        public void MoveNext(){} // RVA: 0x7FFD4FD49060
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4FD495D0
-        public void ToString(){} // RVA: 0x7FFD4FD49B50
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4FD4A0C0
-        public void GetResult(){} // RVA: 0x7FFD4FD4A630
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC4928AF0
+        public void MoveNext(){} // RVA: 0x7FFAC4929060
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC49295D0
+        public void ToString(){} // RVA: 0x7FFAC4929B50
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC492A0C0
+        public void GetResult(){} // RVA: 0x7FFAC492A630
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC2F21310
     }
 
-    /// <summary>Originally: ÎÏÎÎÍÌÍÌÌÏÌÌÍÍÍÍÍÌÍÏÎÍÍ</summary>
-    public class AsyncStateMachine_A395 : ValueType
+    /// <summary>Originally: ÎÍÎÏÌÍÏÏÌÌÌÎÏÍÍÏÏÎÍÏÍÎÏ</summary>
+    public class AsyncStateMachine_9E61_9E61 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÌÎÍÌÏÏÌÍÌÌÍÏÎÏÎÏÍÏÏÍÍÏÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
-        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ ÌÌÏÍÏÎÍÍÌÍÎÏÌÌÏÌÌÏÌÍÏÍÌ; // 0x40
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÏÍÌÎÏÌÏÍÏÌÍÏÍÏÌÌÍÌÍÏÏÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Threading.CancellationToken ÌÍÎÍÍÌÌÏÎÍÏÌÍÍÍÎÍÌÌÍÌÌÎ; // 0x28
+        public System.Collections.Generic.List`1<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> ÍÌÍÎÍÍÌÍÎÌÍÏÍÌÍÏÎÎÍÍÌÏÍ; // 0x30
+        public Awaiter<System.Collections.Generic.List`1<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFD56C7CB80
-        public void InternalEquals(){} // RVA: 0x7FFD4EA2C270
-        public void DefaultEquals(){} // RVA: 0x7FFD4EA2C270
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void Equals(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD56C7CFD0
+        public void MoveNext(){} // RVA: 0x7FFACB394BD0
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB395BE0
+        public void GetHashCode(){} // RVA: 0x7FFACB396BF0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFACB397BF0
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC2F21310
+    }
+
+    /// <summary>Originally: ÎÍÌÎÏÏÏÎÏÏÎÏÏÏÎÏÍÎÎÌÎÎÏ</summary>
+    public class AsyncStateMachine_A45D_A45D : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Collections.Generic.List`1<ÌÌÏÌÏÏÍÏÍÌÎÎÌÌÏÌÌÍÍÌÍÏÌ>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÎÏÏÎÍÏÍÎÌÌÎÎÏÍÏÏÏÎÍÏÍÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Collections.Generic.IEnumerable`1<string> ÏÏÍÎÎÌÍÍÎÎÎÎÌÏÌÎÍÎÎÌÎÌÍ; // 0x38
+        public System.Collections.Generic.IEnumerable`1<string> ÍÎÍÏÍÌÎÌÏÌÍÌÍÌÍÏÎÎÏÏÌÌÎ; // 0x40
+        public ÍÍÎÎÌÌÎÏÎÎÌÍÌÎÏÎÌÏÌÍÌÍÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x48
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC37DDB90
+        public void InternalEquals(){} // RVA: 0x7FFAC37DDBC0
+        public void DefaultEquals(){} // RVA: 0x7FFAC37DDBF0
+        public void GetHashCode(){} // RVA: 0x7FFAC37DE1E0
+        public void MoveNext(){} // RVA: 0x7FFAC37DE210
+        public void SetStateMachine(){} // RVA: 0x7FFAC37DE800
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC37DE830
+        public void ToString(){} // RVA: 0x7FFAC37DEE20
+        public void ValidateStructPointers(){} // RVA: 0x7FFAC37DEE50
+    }
+
+    /// <summary>Originally: ÎÍÎÎÍÍÌÌÎÎÏÎÌÎÏÍÍÎÎÏÎÍÌ</summary>
+    public class AsyncStateMachine_A5D7_A5D7 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÏÌÏÌÌÌÏÌÍÌÎÎÎÌÎÌÏÍÍÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x38
+        public ÏÌÎÌÎÎÍÍÌÏÍÎÌÎÌÏÌÏÌÌÌÏÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x40
+        public ÍÍÏÍÏÌÏÎÍÍÍÎÍÍÎÍÎÍÎÍÎÏÎ ÏÏÎÏÌÌÍÍÌÎÍÏÏÎÎÎÎÏÏÎÍÌÏ; // 0x48
+        public ÍÎÍÎÎÎÏÎÍÏÌÎÎÍÍÍÎÏÌÍÎÎÏ[] ÍÎÏÌÎÎÍÍÎÎÎÎÌÎÍÏÍÏÎÍÌÌÍ; // 0x78
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x80
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFACB5AB2D0
+        public void InternalEquals(){} // RVA: 0x7FFACB5AB330
+        public void SetStateMachine(){} // RVA: 0x7FFACB5AB390
+        public void GetHashCode(){} // RVA: 0x7FFACB5AB3F0
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB5AC440
+        public void ToString(){} // RVA: 0x7FFACB5AC4A0
+        public void MoveNext(){} // RVA: 0x7FFACB5AD4C0
+        public void HasValidInternalValue(){} // RVA: 0x7FFACB5AE4F0
+    }
+
+    /// <summary>Originally: ÎÎÎÏÏÌÍÌÌÍÍÌÏÌÎÍÎÏÍÎÎÏÎ</summary>
+    public class AsyncStateMachine_AAA1 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<ÍÍÌÍÎÏÎÍÎÌÎÌÌÍÎÏÏÍÏÍÌÍÍ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public VRC.UI.Core.Styles.StyleResource ÍÌÎÏÎÌÌÎÍÍÍÎÌÎÌÎÌÎÍÌÌÌÌ; // 0x30
+        public ÍÍÌÍÎÏÎÍÎÌÎÌÌÍÎÏÏÍÏÍÌÍÍ ÎÎÎÌÌÌÎÎÎÏÏÏÌÌÍÏÌÍÍÎÏÏÍ; // 0x38
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
+        // ── Methods ──
+        public void MoveNext(){} // RVA: 0x7FFACB259E50
+        public void InternalEquals(){} // RVA: 0x7FFACB25A1A0
+        public void DefaultEquals(){} // RVA: 0x7FFACB25A1D0
+        public void Equals(){} // RVA: 0x7FFACB25A520
+        public void SetStateMachine(){} // RVA: 0x7FFACB25A550
+        public void GetHashCode(){} // RVA: 0x7FFACB25A580
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFACB25A8D0
     }
 
     /// <summary>Originally: ÎÎÎÍÌÌÏÌÏÎÏÏÍÍÏÏÍÌÎÌÏÎÌ</summary>
-    public class AsyncStateMachine_AE17 : ValueType
+    public class AsyncStateMachine_AE17_AE17 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1471,114 +1531,82 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EA71760
-        public void InternalEquals(){} // RVA: 0x7FFD4EA71F60
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EA72760
-        public void MoveNext(){} // RVA: 0x7FFD4EA72F60
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4EA73760
-        public void ToString(){} // RVA: 0x7FFD4EA73F60
+        public void Equals(){} // RVA: 0x7FFAC3651760
+        public void InternalEquals(){} // RVA: 0x7FFAC3651F60
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3652760
+        public void MoveNext(){} // RVA: 0x7FFAC3652F60
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC3653760
+        public void ToString(){} // RVA: 0x7FFAC3653F60
     }
 
-    /// <summary>Originally: ÎÏÎÏÌÌÍÎÍÌÏÌÎÏÌÎÍÏÏÏÏÎÌ</summary>
-    public class AsyncStateMachine_AF9F : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÍÎÌÎÎÍÍÎÍÏÎÍÍÎÌÍÏÍÌÏÌÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public System.Threading.CancellationTokenSource ÌÍÎÍÍÌÌÏÎÍÏÌÍÍÍÎÍÌÌÍÌÌÎ; // 0x30
-        public Awaiter<ÎÎÏÎÍÎÎÌÍÏÍÍÍÍÏÎÎÌÍÎÏÏÏ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD56A26FC0
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4E341310
-    }
-
-    /// <summary>Originally: ÎÏÎÍÌÍÏÎÏÏÍÏÌÏÍÏÌÍÍÏÌÍÌ</summary>
-    public class AsyncStateMachine_AFBC : ValueType
+    /// <summary>Originally: ÎÍÎÌÏÌÌÌÏÏÏÎÍÏÎÏÍÍÏÌÍÏÌ</summary>
+    public class AsyncStateMachine_B013_B013 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public AssetPreloader ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
-        public string ÍÏÌÍÏÎÎÍÌÏÌÏÌÎÎÏÍÎÍÏÍÎÍ; // 0x28
-        public Awaiter<VRC.Core.ApiWorld> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
+        public ÌÌÌÏÍÎÍÌÍÍÎÌÌÌÎÎÎÌÍÏÌÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4F05A2E0
-        public void MoveNext(){} // RVA: 0x7FFD4F05A6B0
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F05AA80
-        public void GetHashCode(){} // RVA: 0x7FFD4F05AE50
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F05B220
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC36FDCD0
+        public void DefaultEquals(){} // RVA: 0x7FFAC36FE330
+        public void GetHashCode(){} // RVA: 0x7FFAC36FE990
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC36FEFF0
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
     }
 
-    /// <summary>Originally: ÏÌÌÌÎÍÎÎÌÎÌÏÍÌÌÎÌÍÎÏÎÍÍ</summary>
-    public class AsyncStateMachine_B662 : ValueType
+    /// <summary>Originally: ÎÍÌÏÍÏÍÎÎÏÍÏÍÍÎÍÏÏÌÎÌÏÌ</summary>
+    public class AsyncStateMachine_B663_B663 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<ÏÍÎÎÏÏÍÏÌÌÎÌÌÏÏÎÎÏÏÎÎÏÌ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public VRC.Core.ApiAvatar ÌÏÌÍÌÌÎÏÏÌÎÌÍÏÍÏÍÍÎÎÌÍÍ; // 0x30
-        public 0x6640CE60 ÌÍÏÎÍÍÌÍÍÎÎÏÍÎÏÌÏÍÍÌÌÎÌ; // 0x38
-        public ÎÎÎÏÍÍÌÎÍÍÎÍÎÎÌÍÎÍÎÏÍÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x40
-        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x48
-        public ÏÏÎÎÏÍÌÏÎÍÍÎÍÏÎÏÌÎÌÌÎÎÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x50
-        public bool ÍÍÌÍÌÍÎÎÍÏÌÏÏÍÎÎÏÍÍÏÎÏÏ; // 0x58
-        public ÌÏÎÌÍÎÌÍÌÏÏÎÎÎÏÎÏÍÏÍÎÍÎ ÌÌÍÏÌÍÌÌÍÏÍÌÍÍÍÍÌÍÎÌÎÌÎ; // 0x60
-        public bool ÍÏÌÍÏÏÌÌÏÏÌÍÌÍÎÏÌÎÏÌÍÏÍ; // 0x68
-        public string ÏÌÌÍÍÍÎÏÍÎÍÎÎÍÏÎÌÏÏÍÍÏÎ; // 0x70
-        public ÏÍÎÎÏÏÍÏÌÌÎÌÌÏÏÎÎÏÏÎÎÏÌ ÏÎÌÎÍÎÎÍÎÌÎÎÍÌÍÍÏÌÌÎÎÎÍ; // 0x78
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x80
-        public ÎÍÍÌÌÏÍÎÍÍÏÏÎÏÌÌÌÏÍÌÌÏÎ ÎÌÍÎÎÌÎÍÎÏÏÏÎÌÌÏÍÏÏÏÎÍÎ; // 0x90
-        public System.Runtime.CompilerServices.ValueTaskAwaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x98
-        public Awaiter<ÏÍÎÎÏÏÍÏÌÌÎÌÌÏÏÎÎÏÏÎÎÏÌ> ÍÏÏÍÏÎÎÌÏÎÎÏÍÍÏÍÎÍÎÌÌÌÍ; // 0xA8
-        public Awaiter<0x66366498> ÍÎÌÍÎÎÍÏÌÍÎÍÌÎÎÌÎÌÌÏÏÌÌ; // 0xC0
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÏÍÏÏÎÏÌÎÏÌÌÌÍÌÌÎÍÏÍÎÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public ÌÏÌÏÏÌÌÍÎÍÍÎÌÎÎÎÌÌÌÏÍÏÍ ÎÌÎÍÎÌÎÌÌÎÌÎÎÎÏÌÏÌÏÌÏÍÎ; // 0x28
+        public Awaiter<UnityEngine.GameObject> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4FA392F0
-        public void InternalEquals(){} // RVA: 0x7FFD4FA39320
-        public void SetStateMachine(){} // RVA: 0x7FFD4FA3A4A0
-        public void GetHashCode(){} // RVA: 0x7FFD4FA3A4D0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4FA3A500
-        public void MoveNext(){} // RVA: 0x7FFD4FA3B680
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4FA3C800
-        public void ToString(){} // RVA: 0x7FFD4FA3C830
-        public void GetHashCodeOfPtr_772F55(){} // RVA: 0x7FFD4FA3C860
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC3EC8AF0
+        public void ToString(){} // RVA: 0x7FFAC3EC8FD0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
+        public void LinkConnectedBody(){} // RVA: 0x7FFAC2F21310
+        public void AssignConnectedBody(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÏÍÏÏÏÎÌÍÌÍÏÏÌÌÌÎÌÍÍÍÌÌ</summary>
-    public class AsyncStateMachine_BBBF : ValueType
+    public class AsyncStateMachine_BBBF_BBBF : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<ÎÍÎÍÎÏÍÍÌÏÍÎÍÌÌÏÏÌÌÎÍÌÌ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
         public ÏÍÌÌÎÌÍÍÎÍÌÍÍÌÌÌÍÍÎÍÍÌÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
-        public System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`6<NextResult<System.Collections.Generic.List`1<Mediapipe.Detection>>,NextResult<System.Collections.Generic.List`1<0x66573000>>,NextResult<System.Collections.Generic.List`1<0x66572768>>,NextResult<System.Collections.Generic.List`1<0x66572558>>,NextResult<System.Collections.Generic.List`1<0x66573000>>,NextResult<System.Collections.Generic.List`1<0x66571E78>>>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`6<NextResult<System.Collections.Generic.List`1<Mediapipe.Detection>>,NextResult<System.Collections.Generic.List`1<Mediapipe.NormalizedRect>>,NextResult<System.Collections.Generic.List`1<Mediapipe.NormalizedLandmarkList>>,NextResult<System.Collections.Generic.List`1<Mediapipe.LandmarkList>>,NextResult<System.Collections.Generic.List`1<Mediapipe.NormalizedRect>>,NextResult<System.Collections.Generic.List`1<Mediapipe.ClassificationList>>>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F8A8DA0
-        public void InternalEquals(){} // RVA: 0x7FFD4F8A8E10
-        public void MoveNext(){} // RVA: 0x7FFD4F8A8E80
-        public void GetHashCode(){} // RVA: 0x7FFD4F8A9E10
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F8AADA0
-        public void SetStateMachine(){} // RVA: 0x7FFD4F8AAE10
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F8AAE80
+        public void Equals(){} // RVA: 0x7FFAC4488DA0
+        public void InternalEquals(){} // RVA: 0x7FFAC4488E10
+        public void MoveNext(){} // RVA: 0x7FFAC4488E80
+        public void GetHashCode(){} // RVA: 0x7FFAC4489E10
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC448ADA0
+        public void SetStateMachine(){} // RVA: 0x7FFAC448AE10
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC448AE80
     }
 
     /// <summary>Originally: ÎÎÏÎÎÎÎÍÏÏÌÍÏÎÍÍÎÎÏÏÍÎÌ</summary>
-    public class AsyncStateMachine_BE47 : ValueType
+    public class AsyncStateMachine_BE47_BE47 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<0x66351308,uint>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<0x6AFF1308,uint>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
         public uint ÎÍÏÌÏÏÎÌÏÏÍÍÍÌÌÌÌÎÎÍÌÏÎ; // 0x30
-        public 0x66351468 ÎÎÏÍÌÍÌÎÍÎÏÌÍÎÎÎÏÎÎÏÍÏÌ; // 0x34
+        public 0x6AFF1468 ÎÎÏÍÌÍÌÎÍÎÏÌÍÎÎÎÏÎÎÏÍÏÌ; // 0x34
         public string ÎÎÍÍÌÍÏÌÏÍÎÍÎÌÍÍÏÌÌÌÌÍÌ; // 0x38
         public int ÌÌÎÏÌÌÌÏÌÎÌÏÏÏÎÍÌÏÏÌÌÎÎ; // 0x40
         public bool ÍÍÏÏÌÍÌÎÎÌÌÏÎÏÎÌÌÎÎÏÎÌÎ; // 0x44
@@ -1586,19 +1614,19 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EE95EE0
-        public void InternalEquals(){} // RVA: 0x7FFD4EE95F10
-        public void SetStateMachine(){} // RVA: 0x7FFD4EE95F40
-        public void GetHashCode(){} // RVA: 0x7FFD4EE95F70
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EE95FA0
-        public void ToString(){} // RVA: 0x7FFD4EE96550
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EE96580
-        public void MoveNext(){} // RVA: 0x7FFD4EE96B30
-        public void Start(){} // RVA: 0x7FFD4EE970D0
+        public void Equals(){} // RVA: 0x7FFAC3A75EE0
+        public void InternalEquals(){} // RVA: 0x7FFAC3A75F10
+        public void SetStateMachine(){} // RVA: 0x7FFAC3A75F40
+        public void GetHashCode(){} // RVA: 0x7FFAC3A75F70
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3A75FA0
+        public void ToString(){} // RVA: 0x7FFAC3A76550
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3A76580
+        public void MoveNext(){} // RVA: 0x7FFAC3A76B30
+        public void Start(){} // RVA: 0x7FFAC3A770D0
     }
 
     /// <summary>Originally: ÎÎÏÎÎÍÏÏÍÎÎÌÎÏÏÍÏÍÌÍÏÏÏ</summary>
-    public class AsyncStateMachine_C3BF : ValueType
+    public class AsyncStateMachine_C3BF_C3BF : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1610,43 +1638,38 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFD4F8FF940
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4F900270
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
+        public void MoveNext(){} // RVA: 0x7FFAC44DF940
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC44E0270
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
     }
 
-    /// <summary>Originally: ÏÌÌÍÍÎÌÌÍÍÌÍÍÌÍÍÏÏÏÍÌÍÌ</summary>
-    public class AsyncStateMachine_C42F : ValueType
+    /// <summary>Originally: ÎÍÍÏÌÍÎÌÎÏÎÎÏÌÌÏÏÎÍÍÍÍÌ</summary>
+    public class AsyncStateMachine_C4AB_C4AB : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÏÎÏÎÎÍÌÎÏÌÌÎÏÌÍÏÏÍÍÏÌÌÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
-        public bool ÌÌÏÎÍÎÏÏÌÎÎÏÌÎÌÍÎÎÌÏÎÌÌ; // 0x38
-        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.Dictionary`2<string,string>>> ÎÏÍÏÌÍÎÍÏÌÌÌÍÌÏÏÏÎÌÏÏÎÍ; // 0x40
-        public ÍÎÌÌÏÌÌÏÏÏÍÎÌÎÍÏÎÍÌÌÍÍÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x48
-        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x50
-        public int ÎÏÏÎÍÍÌÍÏÎÍÌÏÎÎÍÌÍÌÎÌÍÏ; // 0x58
-        public VRC.Core.ApiDictContainer ÌÍÎÌÌÏÌÍÎÏÌÌÌÏÌÌÎÏÍÍÎÏÍ; // 0x60
-        public Awaiter<System.Collections.Generic.Dictionary`2<string,string>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x68
-        public Awaiter<System.ValueTuple`2<bool,int>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x80
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public string ÏÍÍÏÌÍÏÌÌÎÎÎÌÍÎÍÌÌÍÎÌÎÏ; // 0x30
+        public ÎÏÍÎÏÎÏÌÏÏÌÎÍÌÎÏÏÌÍÌÎÎÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public ÌÌÎÌÏÌÎÌÍÎÎÍÏÍÍÏÍÏÏÍÎÍÏ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x40
+        public System.Threading.CancellationToken ÏÍÍÏÍÌÎÎÍÏÍÎÌÏÎÍÍÏÍÏÏÏÏ; // 0x48
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x50
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F0A50C0
-        public void InternalEquals(){} // RVA: 0x7FFD4F0A5D50
-        public void DefaultEquals(){} // RVA: 0x7FFD4F0A5DC0
-        public void GetHashCode(){} // RVA: 0x7FFD4F0A6A50
-        public void SetStateMachine(){} // RVA: 0x7FFD4F0A6AC0
-        public void ToString(){} // RVA: 0x7FFD4F0A6B30
-        public void MoveNext(){} // RVA: 0x7FFD4F0A6BA0
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4F0A7890
+        public void SetStateMachine(){} // RVA: 0x7FFAC32568B0
+        public void MoveNext(){} // RVA: 0x7FFAC32568E0
+        public void DefaultEquals(){} // RVA: 0x7FFAC32571D0
+        public void Equals(){} // RVA: 0x7FFAC3257AB0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3257AE0
+        public void GetHashCode(){} // RVA: 0x7FFAC32583E0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3258410
     }
 
     /// <summary>Originally: ÎÍÏÌÌÏÌÌÌÍÌÍÎÏÌÌÎÌÎÎÏÏÎ</summary>
-    public class AsyncStateMachine_CD38 : ValueType
+    public class AsyncStateMachine_CD38_CD38 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1657,64 +1680,41 @@ namespace VRC.Internal.Async
         public Awaiter<VRC.Core.ApiInventoryItem[]> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4F9E8B60
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4F9E93C0
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void ValidateStructPointers(){} // RVA: 0x7FFD4E341310
-        public void SetConnectedBody(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC45C8B60
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC45C93C0
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void ValidateStructPointers(){} // RVA: 0x7FFAC2F21310
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
     }
 
-    /// <summary>Originally: ÎÏÏÏÎÏÎÌÍÎÌÏÎÍÌÍÍÌÎÎÏÏÎ</summary>
-    public class AsyncStateMachine_CE73 : ValueType
+    /// <summary>Originally: ÎÍÎÏÏÌÎÌÏÌÏÏÌÍÌÍÎÏÏÍÌÏÎ</summary>
+    public class AsyncStateMachine_CE2C_CE2C : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÌÍÎÌÏÌÍÏÎÏÎÍÏÏÎÎÌÌÍÍÏÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public ÌÌÏÌÍÍÌÎÏÎÌÏÎÎÎÏÎÏÎÎÏÏÏ[] ÍÍÎÏÎÍÍÌÌÍÍÌÍÎÎÍÌÎÌÏÎÌÏ; // 0x30
-        public int ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ; // 0x38
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x3C
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ ÌÎÍÎÍÍÍÎÌÎÍÍÍÏÌÌÏÏÍÌÎÌÍ; // 0x20
+        public ÌÍÏÏÏÍÌÏÎÎÍÏÍÍÍÌÍÍÍÏÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public System.Nullable`1<int> ÎÎÏÏÌÎÌÎÏÍÍÏÍÌÎÍÌÌÏÍÏÌÎ; // 0x30
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E9C1F30
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4E9C2610
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4E341310
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4E9C2D00
-    }
-
-    /// <summary>Originally: ÎÏÏÌÌÌÌÎÎÏÏÎÌÏÏÌÎÏÏÌÎÌÎ</summary>
-    public class AsyncStateMachine_CFB5 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÍÎÍÌÍÌÎÌÌÍÏÍÏÏÏÏÏÎÍÍÏÍÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public Awaiter<ÍÍÌÍÎÏÎÍÎÌÎÌÌÍÎÏÏÍÏÍÌÍÍ[]> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4EBA1E30
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EBA2500
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EBA2BE0
-        public void MoveNext_B139518BF741(){} // RVA: 0x7FFD4EBA32C0
-        public void SetConnectedBody(){} // RVA: 0x7FFD4E341310
-        public void Equals_6C01874E6DA5(){} // RVA: 0x7FFD4EBA3990
+        public void Equals(){} // RVA: 0x7FFAC330F300
+        public void InternalEquals(){} // RVA: 0x7FFAC330F640
+        public void MoveNext(){} // RVA: 0x7FFAC330F980
+        public void GetHashCode(){} // RVA: 0x7FFAC330FCC0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3310000
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÍÏÎÌÍÎÏÎÏÌÎÌÌÍÍÎÌÍÍÏÌÍ</summary>
-    public class AsyncStateMachine_D03C : ValueType
+    public class AsyncStateMachine_D03C_D03C : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1723,20 +1723,20 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E6D9180
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E6D98D0
-        public void GetHashCode(){} // RVA: 0x7FFD4E6DA020
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E6DA770
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E6DAEC0
-        public void MoveNext(){} // RVA: 0x7FFD4E6DB610
-        public void ValidateStructPointers(){} // RVA: 0x7FFD4E6DBD60
-        public void SetConnectedBody(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC32B9180
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC32B98D0
+        public void GetHashCode(){} // RVA: 0x7FFAC32BA020
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC32BA770
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC32BAEC0
+        public void MoveNext(){} // RVA: 0x7FFAC32BB610
+        public void ValidateStructPointers(){} // RVA: 0x7FFAC32BBD60
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÏÍÏÌÍÍÎÌÍÌÌÌÎÏÍÎÍÌÎÎÍÎ</summary>
-    public class AsyncStateMachine_D1D10 : ValueType
+    public class AsyncStateMachine_D1D10_D1D1 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1759,17 +1759,17 @@ namespace VRC.Internal.Async
         public Awaiter<bool> ÍÎÌÍÎÎÍÏÌÍÎÍÌÎÎÌÎÌÌÏÏÌÌ; // 0x98
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD569AC630
-        public void MoveNext(){} // RVA: 0x7FFD569AC690
-        public void DefaultEquals(){} // RVA: 0x7FFD569B0DA0
-        public void GetHashCode(){} // RVA: 0x7FFD569B0E00
-        public void InternalGetHashCode(){} // RVA: 0x7FFD569B0E60
-        public void SetStateMachine(){} // RVA: 0x7FFD569B0EC0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD569B0F20
+        public void Equals(){} // RVA: 0x7FFACB58C630
+        public void MoveNext(){} // RVA: 0x7FFACB58C690
+        public void DefaultEquals(){} // RVA: 0x7FFACB590DA0
+        public void GetHashCode(){} // RVA: 0x7FFACB590E00
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB590E60
+        public void SetStateMachine(){} // RVA: 0x7FFACB590EC0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFACB590F20
     }
 
     /// <summary>Originally: ÎÎÍÎÏÌÏÍÏÍÌÌÏÍÏÎÏÌÏÏÌÏÎ</summary>
-    public class AsyncStateMachine_D24C : ValueType
+    public class AsyncStateMachine_D24C_D24C : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1777,19 +1777,19 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F239740
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F2399F0
-        public void MoveNext(){} // RVA: 0x7FFD4F239CA0
-        public void ToString(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC3E19740
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3E199F0
+        public void MoveNext(){} // RVA: 0x7FFAC3E19CA0
+        public void ToString(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÏÍÍÏÌÎÏÌÎÏÏÍÏÌÎÎÎÌÏÌÏÎ</summary>
-    public class AsyncStateMachine_D3AB : ValueType
+    public class AsyncStateMachine_D3AB_D3AB : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1802,38 +1802,69 @@ namespace VRC.Internal.Async
         public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x70
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EA2C270
-        public void InternalEquals(){} // RVA: 0x7FFD4F078540
-        public void DefaultEquals(){} // RVA: 0x7FFD4EA2C270
-        public void MoveNext(){} // RVA: 0x7FFD4F079040
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCode(){} // RVA: 0x7FFD4F079B70
+        public void Equals(){} // RVA: 0x7FFAC360C270
+        public void InternalEquals(){} // RVA: 0x7FFAC3C58540
+        public void DefaultEquals(){} // RVA: 0x7FFAC360C270
+        public void MoveNext(){} // RVA: 0x7FFAC3C59040
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC360C270
+        public void SetStateMachine(){} // RVA: 0x7FFAC360C270
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC360C270
+        public void GetHashCode(){} // RVA: 0x7FFAC3C59B70
     }
 
-    /// <summary>Originally: ÎÏÏÌÌÏÎÌÍÏÎÌÌÎÍÏÍÍÎÎÎÏÏ</summary>
-    public class AsyncStateMachine_D58B : ValueType
+    /// <summary>Originally: ÎÏÌÌÏÎÎÍÌÏÌÎÏÌÏÏÍÍÏÏÎÍÏ</summary>
+    public class AsyncStateMachine_D40C : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public System.Nullable`1<int> ÎÎÎÍÏÌÍÏÎÍÌÏÌÍÏÍÌÍÏÌÎÍÎ; // 0x30
-        public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public ÌÍÎÍÌÌÏÍÌÌÎÏÌÏÎÏÎÌÌÌÎÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
+        public System.Threading.CancellationToken ÌÍÎÍÍÌÌÏÎÍÏÌÍÍÍÎÍÌÌÍÌÌÎ; // 0x30
+        public 0x6B234DC0 ÌÏÎÍÍÍÎÌÌÌÍÏÌÎÌÍÌÍÏÎÍÍÎ; // 0x38
+        public bool ÌÍÌÌÏÍÍÍÍÎÌÍÍÎÎÍÌÍÌÌÏÌÍ; // 0x3C
+        public ÍÍÎÍÏÌÌÍÌÎÌÏÌÍÌÎÌÌÏÎÌÍÍ ÏÍÌÍÌÍÎÎÍÎÌÎÍÏÍÍÍÎÍÎÏÎÌ; // 0x40
+        public ÍÌÎÎÏÌÎÏÌÏÌÏÍÎÎÎÏÎÍÍÏÌÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x48
+        public bool ÌÏÌÌÎÍÎÍÏÎÍÌÎÎÎÌÎÍÏÍÍÍÍ; // 0x50
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x58
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E76BD50
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4E76C0D0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E76C460
-        public void ToString(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFACB9BE4F0
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB9BF560
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB9C05F0
+        public void GetHashCode(){} // RVA: 0x7FFACB9C1610
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        // ── Unresolved (hash) ──
+        public void m_58A(){} // RVA: 0x7FFACB9C2660
+    }
+
+    /// <summary>Originally: ÎÍÌÎÏÌÌÌÎÏÌÏÍÏÏÌÎÏÏÎÍÍÍ</summary>
+    public class AsyncStateMachine_D5E9_D5E9 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<ÎÎÏÎÍÎÎÌÍÏÍÍÍÍÏÎÎÌÍÎÏÏÏ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÍÎÏÌÏÍÍÏÎÌÌÏÌÎÏÍÎÍÍÎÌÎ ÏÏÌÎÌÌÏÍÎÏÍÎÎÍÍÏÎÎÏÍÎÎÎ; // 0x30
+        public ÏÏÌÏÎÏÏÎÏÌÌÌÌÍÍÌÏÏÍÌÎÏÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x38
+        public System.Threading.CancellationTokenSource ÌÍÎÍÍÌÌÏÎÍÏÌÍÍÍÎÍÌÌÍÌÌÎ; // 0x40
+        public UnityEngine.Transform ÎÎÎÌÎÍÏÍÏÌÍÌÌÍÌÎÎÍÍÌÍÌÌ; // 0x48
+        public string ÎÍÏÏÍÎÎÌÌÎÏÏÌÍÎÏÌÏÍÌÌÌÌ; // 0x50
+        public UnityEngine.Object ÏÍÍÎÏÎÏÍÌÎÎÏÌÍÌÏÌÎÎÌÍÏÍ; // 0x58
+        public ResourceRequestAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x60
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x70
+
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x7FFACB787F60
+        public void InternalEquals(){} // RVA: 0x7FFACB787F90
+        public void MoveNext(){} // RVA: 0x7FFACB787FC0
+        public void Equals(){} // RVA: 0x7FFACB788830
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB789070
+        public void GetHashCode(){} // RVA: 0x7FFACB7890A0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFACB7898E0
     }
 
     /// <summary>Originally: ÎÎÏÏÏÌÌÏÍÏÎÌÎÍÎÎÏÏÌÏÏÎÍ</summary>
-    public class AsyncStateMachine_D698 : ValueType
+    public class AsyncStateMachine_D698_D698 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1841,53 +1872,67 @@ namespace VRC.Internal.Async
         public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD56D6F660
-        public void InternalEquals(){} // RVA: 0x7FFD56D6FA50
-        public void DefaultEquals(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCode(){} // RVA: 0x7FFD4EA2C270
-        public void SetStateMachine(){} // RVA: 0x7FFD4EA2C270
-        public void ToString(){} // RVA: 0x7FFD4EA2C270
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EA2C270
-        public void MoveNext(){} // RVA: 0x7FFD56D6FE40
+        public void Equals(){} // RVA: 0x7FFACB94F660
+        public void InternalEquals(){} // RVA: 0x7FFACB94FA50
+        public void DefaultEquals(){} // RVA: 0x7FFAC360C270
+        public void GetHashCode(){} // RVA: 0x7FFAC360C270
+        public void SetStateMachine(){} // RVA: 0x7FFAC360C270
+        public void ToString(){} // RVA: 0x7FFAC360C270
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC360C270
+        public void MoveNext(){} // RVA: 0x7FFACB94FE40
     }
 
-    /// <summary>Originally: ÎÏÏÌÎÎÎÍÍÌÍÌÏÍÏÍÏÏÍÏÎÏÏ</summary>
-    public class AsyncStateMachine_DC65 : ValueType
+    /// <summary>Originally: ÎÍÎÍÌÏÍÎÎÏÏÌÌÏÌÏÍÍÍÍÎÌÏ</summary>
+    public class AsyncStateMachine_D6E7_D6E7 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public VRC.Economy.Internal.EconomyStoresManager ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x30
-        public Awaiter<System.Collections.Generic.IReadOnlyList`1<ÍÍÎÍÌÌÏÏÏÎÏÏÍÌÎÍÍÌÌÎÏÎÏ>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x40
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÏÎÍÌÌÍÎÌÍÍÏÏÎÌÍÎÏÍÌÍÎÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
+        public System.Action`2<0x6B0B0820,VRC.Core.ApiContainer> ÏÏÌÎÌÏÎÏÏÏÌÎÌÍÏÍÍÏÍÏÎÎÍ; // 0x28
+        public System.Action`1<ÍÏÏÌÌÏÌÏÌÍÏÏÎÏÎÌÍÏÌÌÍÏÏ> ÍÏÍÎÍÎÎÎÏÏÌÌÎÌÌÏÌÎÏÎÏÏÍ; // 0x30
+        public UnityEngine.Texture2D ÎÎÏÌÏÏÌÎÎÌÏÎÏÏÍÏÍÎÍÍÌÎÎ; // 0x38
+        public Awaiter<UnityEngine.Texture2D> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+        public ÌÏÌÎÍÎÌÌÍÎÎÎÎÌÏÍÏÌÎÌÌÎÌ ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ; // 0x58
+        public Awaiter<System.ValueTuple`2<string,byte[]>> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x60
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E9F8100
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4E9F8E80
-        public void SetConnectedBody(){} // RVA: 0x7FFD4E341310
+        public void MoveNext(){} // RVA: 0x7FFAC343BAC0
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC343C560
+        public void Equals(){} // RVA: 0x7FFAC343CFA0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC343DA40
     }
 
     /// <summary>Originally: ÎÏÌÍÏÌÍÍÍÏÏÍÌÏÌÎÌÎÎÏÌÎÏ</summary>
-    public class AsyncStateMachine_DD40 : ValueType
+    public class AsyncStateMachine_DD40_DD40 : ValueType
     {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ;
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ;
+        public bool ÌÎÍÍÏÌÎÌÎÌÎÌÍÏÍÍÌÍÍÏÎÎÌ;
+        public ÎÍÍÍÏÏÍÍÎÎÍÎÏÍÏÏÎÌÌÎÎÍÌ<T> ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ;
+        public System.Collections.Generic.IEnumerable`1<VRC.Core.ApiFile> ÌÍÎÏÌÎÌÍÌÎÌÏÌÌÌÍÏÎÌÎÎÍÌ;
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ;
+        public System.Collections.Generic.IEnumerator`1<VRC.Core.ApiFile> ÍÍÎÏÎÍÍÌÌÍÍÌÍÎÎÍÌÎÌÏÎÌÏ;
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ;
+        public Awaiter ÍÏÏÍÏÎÎÌÏÎÎÏÍÍÏÍÎÍÎÌÌÌÍ;
+
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFD4E090980
-        public void InternalEquals(){} // RVA: 0x7FFD4E090A40
-        public void DefaultEquals(){} // RVA: 0x7FFD4E090A40
-        public void Equals(){} // RVA: 0x7FFD4E090980
-        public void SetStateMachine(){} // RVA: 0x7FFD4E090A40
-        public void GetHashCode(){} // RVA: 0x7FFD4E090980
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E090A40
-        public void ToString(){} // RVA: 0x7FFD4E090A40
+        public void MoveNext(){} // RVA: 0x7FFAC2C70980
+        public void InternalEquals(){} // RVA: 0x7FFAC2C70A40
+        public void DefaultEquals(){} // RVA: 0x7FFAC2C70A40
+        public void Equals(){} // RVA: 0x7FFAC2C70980
+        public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+        public void GetHashCode(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2C70A40
+        public void ToString(){} // RVA: 0x7FFAC2C70A40
     }
 
     /// <summary>Originally: ÎÍÏÏÎÎÌÏÏÏÎÎÏÌÍÍÎÌÍÎÏÌÍ</summary>
-    public class AsyncStateMachine_DDDD : ValueType
+    public class AsyncStateMachine_DDDD_DDDD : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1898,17 +1943,17 @@ namespace VRC.Internal.Async
         public Awaiter<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x58
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD56C8BC10
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD56C8C520
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFACB86BC10
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFACB86C520
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÌÍÏÌÌÍÌÍÍÍÌÎÍÎÌÏÏÌÌÏÍ</summary>
-    public class AsyncStateMachine_DDFB : ValueType
+    public class AsyncStateMachine_DDFB_DDFB : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<ÌÎÌÎÏÎÍÍÎÏÎÌÎÏÍÏÍÌÏÏÏÏÌ> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -1920,103 +1965,103 @@ namespace VRC.Internal.Async
         public ResourceRequestAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x68
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4ED295D0
-        public void InternalEquals(){} // RVA: 0x7FFD4ED29BC0
-        public void DefaultEquals(){} // RVA: 0x7FFD4ED29BF0
-        public void GetHashCode(){} // RVA: 0x7FFD4ED2A1E0
-        public void SetStateMachine(){} // RVA: 0x7FFD4ED2A7D0
-        public void ToString(){} // RVA: 0x7FFD4ED2A800
-        public void MoveNext(){} // RVA: 0x7FFD4ED2ADF0
-        public void GetResult(){} // RVA: 0x7FFD4ED2B3E0
-        public void GetUnityEngine(){} // RVA: 0x7FFD4ED2B410
-        public void GetUnityEngine_5EB58CA3EBAD(){} // RVA: 0x7FFD4ED2B440
+        public void Equals(){} // RVA: 0x7FFAC39095D0
+        public void InternalEquals(){} // RVA: 0x7FFAC3909BC0
+        public void DefaultEquals(){} // RVA: 0x7FFAC3909BF0
+        public void GetHashCode(){} // RVA: 0x7FFAC390A1E0
+        public void SetStateMachine(){} // RVA: 0x7FFAC390A7D0
+        public void ToString(){} // RVA: 0x7FFAC390A800
+        public void MoveNext(){} // RVA: 0x7FFAC390ADF0
+        public void GetResult(){} // RVA: 0x7FFAC390B3E0
+        public void GetUnityEngine(){} // RVA: 0x7FFAC390B410
+        public void GetUnityEngine_5EB58CA3EBAD(){} // RVA: 0x7FFAC390B440
+    }
+
+    /// <summary>Originally: ÎÍÍÌÍÎÏÎÎÎÌÏÏÎÌÌÍÍÏÌÌÌÍ</summary>
+    public class AsyncStateMachine_E343_E343 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x28
+        public ÏÎÍÎÍÌÌÌÎÌÏÏÏÌÏÏÏÎÎÎÏÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC372F7B0
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC372FC80
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3730150
+        public void ToString(){} // RVA: 0x7FFAC3730620
+        public void MoveNext(){} // RVA: 0x7FFAC3730AF0
+        public void GetResult(){} // RVA: 0x7FFAC3730FB0
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÌÎÍÎÎÍÌÌÎÏÌÍÏÏÌÎÏÏÏÌÌ</summary>
-    public class AsyncStateMachine_E410 : ValueType
+    public class AsyncStateMachine_E410_E410 : ValueType
     {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E090A40
-        public void InternalEquals(){} // RVA: 0x7FFD4E090980
-        public void MoveNext(){} // RVA: 0x7FFD4E090980
-        public void GetHashCode(){} // RVA: 0x7FFD4E090A40
-        public void SetStateMachine(){} // RVA: 0x7FFD4E090A40
-        public void ToString(){} // RVA: 0x7FFD4E090A40
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E090A40
-    }
-
-    /// <summary>Originally: ÎÏÏÍÌÍÍÍÏÏÌÏÌÌÍÏÍÎÍÏÎÍÏ</summary>
-    public class AsyncStateMachine_E4F6 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public 0x664A0CC0 ÎÌÏÏÍÎÎÏÌÌÍÌÎÍÏÍÍÏÍÌÎÏÌ; // 0x28
-        public System.Threading.CancellationToken ÏÏÍÍÎÎÍÌÌÏÌÍÌÍÍÏÌÌÎÎÍÌÏ; // 0x30
-        public 0x664A0218 ÍÌÌÎÌÌÍÍÏÌÏÎÌÍÏÍÏÎÏÎÍÍÎ; // 0x38
-        public 0x66442FF0 ÏÌÏÏÍÍÍÌÎÍÎÌÎÎÌÏÏÍÏÎÏÎÏ; // 0x40
-        public 0x66442F98 ÎÍÏÎÏÍÎÏÏÏÏÎÍÍÏÏÏÎÏÍÎÍÏ; // 0x48
-        public System.DateTime ÌÎÌÌÎÎÍÏÏÎÎÏÌÍÏÏÍÎÌÏÎÍÍ; // 0x50
-        public System.DateTime ÍÌÌÌÍÎÍÍÎÏÎÏÍÎÎÍÎÍÏÎÏÎÎ; // 0x58
-        public bool ÌÍÎÏÏÏÏÌÍÌÍÎÍÌÌÎÌÍÌÏÍÍÍ; // 0x60
-        public object ÏÎÍÏÏÍÏÎÌÎÏÍÏÎÎÏÍÎÎÏÍÍÌ; // 0x68
-        public int ÎÏÍÍÏÎÍÎÎÌÌÍÌÍÌÏÌÎÎÌÏÍÍ; // 0x70
-        public System.Runtime.CompilerServices.TaskAwaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x78
-        public System.Runtime.CompilerServices.ValueTaskAwaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x80
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ;
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ;
+        public string ÍÌÎÌÏÌÌÌÏÍÎÍÎÍÎÎÍÏÎÏÏÍÍ;
+        public ÎÍÍÍÏÏÍÍÎÎÍÎÏÍÏÏÎÌÌÎÎÍÌ<T> ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ;
+        public ÌÎÌÎÌÎÏÎÌÏÍÍÎÎÏÎÍÍÏÍÎÎÏ<T> ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ;
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ;
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ;
 
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4FB40770
-        public void DefaultEquals(){} // RVA: 0x7FFD4FB42950
-        public void MoveNext(){} // RVA: 0x7FFD4FB44B50
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4FB46D80
-        public void Equals(){} // RVA: 0x7FFD4FB48FC0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4FB4B220
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2C70A40
+        public void InternalEquals(){} // RVA: 0x7FFAC2C70980
+        public void MoveNext(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCode(){} // RVA: 0x7FFAC2C70A40
+        public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+        public void ToString(){} // RVA: 0x7FFAC2C70A40
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2C70A40
     }
 
     /// <summary>Originally: ÎÎÏÎÌÌÏÍÎÌÎÎÌÍÎÎÍÎÌÍÍÌÏ</summary>
-    public class AsyncStateMachine_E56A : ValueType
+    public class AsyncStateMachine_E56A_E56A : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<0x66415260> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public System.Nullable`1<0x664D1E38> ÏÍÎÍÌÌÏÎÏÎÎÎÌÏÎÏÏÏÍÏÏÎÍ; // 0x30
-        public Awaiter<0x66415260> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<0x6B0B5260> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public System.Nullable`1<0x6B171E38> ÏÍÎÍÌÌÏÎÏÎÎÎÌÏÎÏÏÏÍÏÏÎÍ; // 0x30
+        public Awaiter<0x6B0B5260> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F16AD10
-        public void InternalEquals(){} // RVA: 0x7FFD4F16AD40
-        public void SetStateMachine(){} // RVA: 0x7FFD4F16AD70
-        public void GetHashCode(){} // RVA: 0x7FFD4F16ADA0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F16B120
-        public void ToString(){} // RVA: 0x7FFD4F16B150
-        public void MoveNext(){} // RVA: 0x7FFD4F16B4D0
-        public void HasValidInternalValue(){} // RVA: 0x7FFD4F16B850
+        public void Equals(){} // RVA: 0x7FFAC3D4AD10
+        public void InternalEquals(){} // RVA: 0x7FFAC3D4AD40
+        public void SetStateMachine(){} // RVA: 0x7FFAC3D4AD70
+        public void GetHashCode(){} // RVA: 0x7FFAC3D4ADA0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3D4B120
+        public void ToString(){} // RVA: 0x7FFAC3D4B150
+        public void MoveNext(){} // RVA: 0x7FFAC3D4B4D0
+        public void HasValidInternalValue(){} // RVA: 0x7FFAC3D4B850
     }
 
-    /// <summary>Originally: ÎÏÏÌÍÌÏÌÌÎÍÎÏÍÌÍÌÌÏÎÏÌÍ</summary>
-    public class AsyncStateMachine_EB7C : ValueType
+    /// <summary>Originally: ÎÍÍÎÏÍÌÌÎÏÎÌÎÍÎÍÍÎÎÏÍÏÌ</summary>
+    public class AsyncStateMachine_E7A2_E7A2 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÎÍÍÏÎÏÍÍÌÌÌÎÎÌÎÏÎÌÍÏÍÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-        public System.Threading.CancellationToken ÎÌÏÏÎÌÌÎÍÍÏÏÍÌÏÌÍÏÌÏÍÌÍ; // 0x30
-        public object ÍÍÎÏÎÍÍÌÌÍÍÌÍÎÎÍÌÎÌÏÎÌÏ; // 0x38
-        public int ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ; // 0x40
-        public Awaiter<System.ValueTuple`2<UnityEngine.GameObject,UnityEngine.GameObject>> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x48
-        public AsyncOperationAwaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x68
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<0x6B0B5260> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÌÎÌÎÎÏÍÌÌÍÎÎÎÎÏÍÌÏÎÍÌÏÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x30
+        public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4EC29820
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EC2A7E0
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4EC2B780
+        public void Equals(){} // RVA: 0x7FFAC3D9B6F0
+        public void InternalEquals(){} // RVA: 0x7FFAC3D9BBA0
+        public void DefaultEquals(){} // RVA: 0x7FFAC3D9C060
+        public void GetHashCode(){} // RVA: 0x7FFAC3D9C500
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3D9C530
+        public void ToString(){} // RVA: 0x7FFAC3D9C560
+        public void MoveNext(){} // RVA: 0x7FFAC3D9C590
+        public void GetCachedPtr(){} // RVA: 0x7FFAC3D9CA10
+        public void SetStateMachine(){} // RVA: 0x7FFAC3D9CA40
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC3D9CA70
     }
 
     /// <summary>Originally: ÎÏÍÍÍÌÌÌÎÍÌÏÌÌÌÏÎÏÎÌÏÌÏ</summary>
-    public class AsyncStateMachine_F0B2 : ValueType
+    public class AsyncStateMachine_F0B2_F0B2 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -2024,17 +2069,36 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4F041E90
-        public void DefaultEquals(){} // RVA: 0x7FFD4F0423A0
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4F0428C0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F042DE0
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC3C21E90
+        public void DefaultEquals(){} // RVA: 0x7FFAC3C223A0
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC3C228C0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3C22DE0
+    }
+
+    /// <summary>Originally: ÎÍÎÍÍÎÎÎÌÌÌÍÌÏÎÍÎÍÌÎÍÏÌ</summary>
+    public class AsyncStateMachine_F0D1_F0D1 : ValueType
+    {
+        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
+        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ValueTuple`2<bool,UnityEngine.Purchasing.Extension.PurchaseFailureDescription>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public ÍÍÎÎÍÌÍÏÎÎÎÎÎÍÍÏÎÌÍÌÎÏÍ ÎÏÌÍÍÍÌÌÍÏÏÏÍÍÏÌÌÏÍÏÎÌÌ; // 0x30
+        public UnityEngine.Purchasing.Product ÌÎÌÍÎÎÍÌÌÍÍÏÏÌÏÌÍÎÌÎÏÌÍ; // 0x38
+        public System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x40
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC3115B60
+        public void InternalEquals(){} // RVA: 0x7FFAC3116C80
+        public void DefaultEquals(){} // RVA: 0x7FFAC3116CF0
+        public void GetHashCode(){} // RVA: 0x7FFAC3116D60
+        public void SetStateMachine(){} // RVA: 0x7FFAC3117E60
+        public void ToString(){} // RVA: 0x7FFAC3117ED0
+        public void MoveNext(){} // RVA: 0x7FFAC3117F40
     }
 
     /// <summary>Originally: ÎÏÌÎÏÌÍÌÎÍÏÎÎÎÌÌÎÏÍÏÌÏÎ</summary>
-    public class AsyncStateMachine_F0EE : ValueType
+    public class AsyncStateMachine_F0EE_F0EE : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -2042,19 +2106,19 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void MoveNext(){} // RVA: 0x7FFD4F41B360
-        public void ToString(){} // RVA: 0x7FFD4F41C310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void AssignConnectedBody(){} // RVA: 0x7FFD4E341310
-        public void SetConnectedBody(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC3FFB360
+        public void ToString(){} // RVA: 0x7FFAC3FFC310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void AssignConnectedBody(){} // RVA: 0x7FFAC2F21310
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÎÎÏÏÏÎÏÏÎÏÎÎÌÏÌÍÍÎÍÏÍÍÎ</summary>
-    public class AsyncStateMachine_F2E2 : ValueType
+    public class AsyncStateMachine_F2E2_F2E2 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -2068,18 +2132,18 @@ namespace VRC.Internal.Async
         public Awaiter<ÏÏÌÎÍÎÏÌÎÍÌÌÎÌÏÍÏÏÍÎÏÎÌ> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x60
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E341310
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E838E30
-        public void GetHashCode(){} // RVA: 0x7FFD4E839220
-        public void MoveNext(){} // RVA: 0x7FFD4E839610
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E839A00
-        public void ToString(){} // RVA: 0x7FFD4E839DF0
+        public void Equals(){} // RVA: 0x7FFAC2F21310
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC3418E30
+        public void GetHashCode(){} // RVA: 0x7FFAC3419220
+        public void MoveNext(){} // RVA: 0x7FFAC3419610
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3419A00
+        public void ToString(){} // RVA: 0x7FFAC3419DF0
     }
 
     /// <summary>Originally: ÎÏÌÎÌÌÎÍÌÌÎÍÎÌÎÌÌÍÍÍÌÌÎ</summary>
-    public class AsyncStateMachine_F595 : ValueType
+    public class AsyncStateMachine_F595_F595 : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -2087,57 +2151,51 @@ namespace VRC.Internal.Async
         public Awaiter<bool> ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD569C8850
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD569C8DA0
-        public void GetHashCode(){} // RVA: 0x7FFD569C92F0
-        public void MoveNext(){} // RVA: 0x7FFD569C9840
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void SetConnectedBody(){} // RVA: 0x7FFD4E341310
-        public void AssignConnectedBody(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFACB5A8850
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFACB5A8DA0
+        public void GetHashCode(){} // RVA: 0x7FFACB5A92F0
+        public void MoveNext(){} // RVA: 0x7FFACB5A9840
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void SetConnectedBody(){} // RVA: 0x7FFAC2F21310
+        public void AssignConnectedBody(){} // RVA: 0x7FFAC2F21310
     }
 
-    /// <summary>Originally: ÎÏÏÏÏÌÏÎÍÏÌÍÏÌÌÍÍÌÎÏÏÌÍ</summary>
-    public class AsyncStateMachine_F5F7 : ValueType
+    /// <summary>Originally: ÎÏÍÍÍÏÏÍÌÌÌÏÎÌÎÍÏÌÎÏÎÌÌ</summary>
+    public class AsyncStateMachine_F87B : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public ÍÎÌÌÎÌÎÌÏÍÌÍÍÍÍÏÌÍÎÏÎÏÎ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x20
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
+        public UnityEngine.Texture2D ÌÎÌÎÎÎÏÏÌÍÏÏÏÍÏÌÌÏÏÍÎÍÏ; // 0x28
+        public ÏÏÌÏÍÌÎÍÍÏÌÏÏÎÎÍÌÍÍÌÏÏÎ ÍÌÎÌÏÌÌÌÏÍÎÍÎÍÎÎÍÏÎÏÏÍÍ; // 0x30
+        public ÏÌÌÎÏÎÏÌÍÏÍÌÏÍÌÍÎÎÌÏÌÍÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x48
+        public bool ÌÏÍÌÎÏÎÌÎÏÍÍÌÏÎÏÎÍÏÎÌÏÍ; // 0x50
+        public bool ÏÌÏÎÏÍÌÍÌÏÏÌÌÏÌÍÏÍÌÏÎÌÍ; // 0x51
+        public int ÌÍÍÌÎÏÌÎÎÌÌÌÏÏÎÎÌÌÎÏÎÍÍ; // 0x54
+        public int ÌÍÏÎÎÏÍÍÎÌÏÎÎÏÎÌÎÍÏÍÍÎÍ; // 0x58
+        public 0x6B17C078 ÌÎÎÏÌÍÏÍÌÍÎÏÍÍÍÏÎÌÌÍÎÏÌ; // 0x5C
+        public int ÍÏÌÌÍÎÏÌÏÎÎÏÏÌÍÎÎÌÍÌÎÏÌ; // 0x60
+        public string ÏÍÌÎÎÎÌÍÎÌÌÏÌÌÎÎÎÎÍÏÎÌÏ; // 0x68
+        public object ÏÎÍÏÏÍÏÎÌÎÏÍÏÎÎÏÍÎÎÏÍÍÌ; // 0x70
+        public int ÎÏÍÍÏÎÍÎÎÌÌÍÌÍÌÏÌÎÎÌÏÍÍ; // 0x78
+        public Unity.Collections.NativeArray`1<byte> ÍÎÌÏÏÎÌÍÌÎÎÍÍÍÍÍÌÌÌÍÏÌÍ; // 0x80
+        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x90
+        public Awaiter ÏÍÏÎÎÍÎÌÌÎÏÏÌÌÍÏÌÏÍÍÎÌÌ; // 0x98
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD56B6BFC0
-        public void InternalEquals(){} // RVA: 0x7FFD56B6C280
-        public void DefaultEquals(){} // RVA: 0x7FFD56B6C540
-        public void GetHashCode(){} // RVA: 0x7FFD56B6C800
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD56B6CAC0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD56B6CD80
-        public void MoveNext(){} // RVA: 0x7FFD56B6D040
-    }
-
-    /// <summary>Originally: ÏÌÌÍÍÎÌÏÎÌÏÏÌÌÌÏÏÎÌÌÍÍÍ</summary>
-    public class AsyncStateMachine_F612 : ValueType
-    {
-        public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
-        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.ValueTuple`2<System.Collections.Generic.Dictionary`2<System.Type,ÏÎÎÌÌÌÌÌÌÌÏÏÌÍÏÌÏÏÍÍÍÏÍ>,System.Collections.Generic.Dictionary`2<System.Type,ÌÏÍÏÍÏÎÌÏÎÎÎÏÌÏÏÌÎÎÎÎÎÏ>>> ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
-        public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x38
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EE83E10
-        public void InternalEquals(){} // RVA: 0x7FFD4EE83E40
-        public void MoveNext(){} // RVA: 0x7FFD4EE83E70
-        public void GetHashCode(){} // RVA: 0x7FFD4EE840A0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EE840D0
-        public void ToString(){} // RVA: 0x7FFD4EE84100
-        public void SetStateMachine(){} // RVA: 0x7FFD4EE84330
-        public void DefaultEquals(){} // RVA: 0x7FFD4EE84360
-        public void SetStateMachine_B433A3(){} // RVA: 0x7FFD4EE84590
+        public void Equals(){} // RVA: 0x7FFAC48C2530
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void MoveNext(){} // RVA: 0x7FFAC48C3A30
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC48C4F80
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC48C6480
+        public void ToString(){} // RVA: 0x7FFAC48C79F0
     }
 
     /// <summary>Originally: ÎÎÍÎÎÍÎÏÎÍÎÌÎÎÌÍÌÏÏÏÌÏÎ</summary>
-    public class AsyncStateMachine_FE4F : ValueType
+    public class AsyncStateMachine_FE4F_FE4F : ValueType
     {
         public int ÍÏÍÎÌÎÏÏÏÍÍÌÎÌÌÎÌÌÌÏÎÍÍ; // 0x10
         public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder ÎÏÏÏÏÍÏÎÎÌÍÌÎÍÏÌÍÎÍÏÏÍÏ; // 0x18
@@ -2145,16 +2203,16 @@ namespace VRC.Internal.Async
         public Awaiter ÌÍÌÍÏÏÎÍÍÎÍÌÌÌÏÎÏÌÌÎÎÌÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4EE3BD60
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4E341310
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4EE3C120
-        public void MoveNext(){} // RVA: 0x7FFD4EE3C4D0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4E341310
-        public void ToString(){} // RVA: 0x7FFD4EE3C880
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4EE3CC30
-        public void SetStateMachine(){} // RVA: 0x7FFD4E341310
+        public void Equals(){} // RVA: 0x7FFAC3A1BD60
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3A1C120
+        public void MoveNext(){} // RVA: 0x7FFAC3A1C4D0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC2F21310
+        public void ToString(){} // RVA: 0x7FFAC3A1C880
+        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFAC3A1CC30
+        public void SetStateMachine(){} // RVA: 0x7FFAC2F21310
     }
 
 }

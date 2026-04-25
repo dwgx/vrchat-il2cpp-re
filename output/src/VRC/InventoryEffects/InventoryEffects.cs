@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.InventoryEffects
-// Classes: 7
-// Methods: 37
+// Classes: 9
+// Methods: 39
 
 namespace VRC.InventoryEffects
 {
@@ -15,17 +15,38 @@ namespace VRC.InventoryEffects
         public UnityEngine.GameObject BackRightRotorBone; // 0x48
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+    }
+
+    public class InventoryEffectAssetReference : Object
+    {
+        public string Key; // 0x10
+        public UnityEngine.Object Asset; // 0x18
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAC34EC240
     }
 
     public class InventoryEffectDescription : ScriptableObject
     {
-        public uestToBeSent.ÏÏÍÍÎÌÌÏÍÎÍ ContentType; // 0x18
-        public System.Collections.Generic.List`1<0x6663C020> Assets; // 0x20
+        public 0x6B2DBF18 ContentType; // 0x18
+        public System.Collections.Generic.List`1<VRC.InventoryEffects.InventoryEffectAssetReference> Assets; // 0x20
 
         // ── Methods ──
-        public void TryGetValue(){} // RVA: 0x7FFD4E07D200
-        public void .ctor(){} // RVA: 0x7FFD4EECC310
+        public void TryGetValue(){} // RVA: 0x7FFAC2C5D200
+        public void .ctor(){} // RVA: 0x7FFAC3AAC310
+    }
+
+    public class InventoryEffectDescriptionKeys : Object
+    {
+        public string PrimaryMaterial;
+        public string ParticleSystem;
+        public string PrimaryObject;
+        public string SecondaryObject;
+        public string PrimaryAudioClip;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class LoadingScreenMap : MonoBehaviour
@@ -40,7 +61,7 @@ namespace VRC.InventoryEffects
         public UnityEngine.Animator Animator; // 0x80
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD5527DE40
+        public void .ctor(){} // RVA: 0x7FFAC9E5DE40
     }
 
     public class LocalPositionTracker : MonoBehaviour
@@ -52,9 +73,9 @@ namespace VRC.InventoryEffects
         public float _elapsedTime; // 0x40
 
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFD4F5F0AC0
-        public void Update(){} // RVA: 0x7FFD5527DEC0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void OnEnable(){} // RVA: 0x7FFAC41D0AC0
+        public void Update(){} // RVA: 0x7FFAC9E5DEC0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class WarpEffect : MonoBehaviour
@@ -64,7 +85,7 @@ namespace VRC.InventoryEffects
         public UnityEngine.Transform _trackedTransform; // 0x28
         public UnityEngine.Animator _animator; // 0x30
         public UnityEngine.AudioSource[] _audioSources; // 0x38
-        public ÍÏÌÍÏÎÏÏÎÌ _currentMode; // 0x40
+        public 0x6B2DC180 _currentMode; // 0x40
         public float _eyeHeight; // 0x44
         public bool _isTeleport; // 0x48
         public bool _isLocal; // 0x49
@@ -88,23 +109,23 @@ namespace VRC.InventoryEffects
         public System.Action`1<VRC.InventoryEffects.WarpEffect> Completed; // 0xC0
 
         // ── Methods ──
-        public void add_Completed(){} // RVA: 0x7FFD5527E0E0
-        public void remove_Completed(){} // RVA: 0x7FFD5527E1E0
-        public void get_AudioSources(){} // RVA: 0x7FFD4E5F0140
-        public void Initialize(){} // RVA: 0x7FFD5527E2E0
-        public void ActivateEffect(){} // RVA: 0x7FFD5527E710
-        public void SetTrackedTransform(){} // RVA: 0x7FFD4E342E90
-        public void SetTrackingScale(){} // RVA: 0x7FFD4EB546A0
-        public void SetAudioEnabled(){} // RVA: 0x7FFD5527EB50
-        public void SetPoseTracking(){} // RVA: 0x7FFD4F584B40
-        public void DeactivateEffect(){} // RVA: 0x7FFD5527EC00
-        public void SetLooping(){} // RVA: 0x7FFD4E36A030
-        public void Update(){} // RVA: 0x7FFD5527ED50
-        public void UpdateTrackedTransform(){} // RVA: 0x7FFD5527F380
-        public void UpdatePoseTracking(){} // RVA: 0x7FFD5527FCA0
-        public void UpdateCachedPoses(){} // RVA: 0x7FFD5527FE30
-        public void IsCompleted(){} // RVA: 0x7FFD5527FF30
-        public void .ctor(){} // RVA: 0x7FFD5527FFD0
+        public void add_Completed(){} // RVA: 0x7FFAC9E5E0E0
+        public void remove_Completed(){} // RVA: 0x7FFAC9E5E1E0
+        public void get_AudioSources(){} // RVA: 0x7FFAC31D0140
+        public void Initialize(){} // RVA: 0x7FFAC9E5E2E0
+        public void ActivateEffect(){} // RVA: 0x7FFAC9E5E710
+        public void SetTrackedTransform(){} // RVA: 0x7FFAC2F22E90
+        public void SetTrackingScale(){} // RVA: 0x7FFAC37346A0
+        public void SetAudioEnabled(){} // RVA: 0x7FFAC9E5EB50
+        public void SetPoseTracking(){} // RVA: 0x7FFAC4164B40
+        public void DeactivateEffect(){} // RVA: 0x7FFAC9E5EC00
+        public void SetLooping(){} // RVA: 0x7FFAC2F4A030
+        public void Update(){} // RVA: 0x7FFAC9E5ED50
+        public void UpdateTrackedTransform(){} // RVA: 0x7FFAC9E5F380
+        public void UpdatePoseTracking(){} // RVA: 0x7FFAC9E5FCA0
+        public void UpdateCachedPoses(){} // RVA: 0x7FFAC9E5FE30
+        public void IsCompleted(){} // RVA: 0x7FFAC9E5FF30
+        public void .ctor(){} // RVA: 0x7FFAC9E5FFD0
     }
 
     public class WarpEffectMap : MonoBehaviour
@@ -113,14 +134,14 @@ namespace VRC.InventoryEffects
         public UnityEngine.Transform TrackedTransform; // 0x28
 
         // ── Methods ──
-        public void get_Parameters(){} // RVA: 0x7FFD4E36F0C0
-        public void get_TrackedTransform(){} // RVA: 0x7FFD4E36F130
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void get_Parameters(){} // RVA: 0x7FFAC2F4F0C0
+        public void get_TrackedTransform(){} // RVA: 0x7FFAC2F4F130
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class WarpEffectParams : ScriptableObject
     {
-        public 0x6663C288 PoseTrackingFlags; // 0x18
+        public 0x6B2DC288 PoseTrackingFlags; // 0x18
         public float PoseTrackingDuration; // 0x1C
         public bool CenterTrackedTransformVertically; // 0x20
         public UnityEngine.Vector3 TrackedTransformLocalOffset; // 0x24
@@ -131,16 +152,16 @@ namespace VRC.InventoryEffects
         public bool UseReplacementShaderForPreview; // 0x50
 
         // ── Methods ──
-        public void get_PoseTrackingFlags(){} // RVA: 0x7FFD4E577800
-        public void get_PoseTrackingDuration(){} // RVA: 0x7FFD4E40E570
-        public void get_CenterTrackedTransformVertically(){} // RVA: 0x7FFD4E42F9D0
-        public void get_TrackedTransformLocalOffset(){} // RVA: 0x7FFD4E39CCA0
-        public void get_TrackedTransformRemoteOffset(){} // RVA: 0x7FFD536EAB40
-        public void get_DelayBeforeShowingAvatar(){} // RVA: 0x7FFD4EA5CE20
-        public void get_DelayBeforeDespawningPlayer(){} // RVA: 0x7FFD4E5080B0
-        public void get_PreviewDistanceFromCamera(){} // RVA: 0x7FFD4E3A7F70
-        public void get_UseReplacementShaderForPreview(){} // RVA: 0x7FFD4E3FB8E0
-        public void .ctor(){} // RVA: 0x7FFD4E54F5F0
+        public void get_PoseTrackingFlags(){} // RVA: 0x7FFAC3157800
+        public void get_PoseTrackingDuration(){} // RVA: 0x7FFAC2FEE570
+        public void get_CenterTrackedTransformVertically(){} // RVA: 0x7FFAC300F9D0
+        public void get_TrackedTransformLocalOffset(){} // RVA: 0x7FFAC2F7CCA0
+        public void get_TrackedTransformRemoteOffset(){} // RVA: 0x7FFAC82CAB40
+        public void get_DelayBeforeShowingAvatar(){} // RVA: 0x7FFAC363CE20
+        public void get_DelayBeforeDespawningPlayer(){} // RVA: 0x7FFAC30E80B0
+        public void get_PreviewDistanceFromCamera(){} // RVA: 0x7FFAC2F87F70
+        public void get_UseReplacementShaderForPreview(){} // RVA: 0x7FFAC2FDB8E0
+        public void .ctor(){} // RVA: 0x7FFAC312F5F0
     }
 
 }

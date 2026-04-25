@@ -20,36 +20,36 @@ namespace ThirdParty.Other.Unity.XR.GoogleVr
         public UnityEngine.InputSystem.Controls.Vector3Control deviceAcceleration; // 0x200
 
         // ── Methods ──
-        public void get_touchpad(){} // RVA: 0x7FFD4E969F30
-        public void set_touchpad(){} // RVA: 0x7FFD4EDC7790
-        public void get_volumeUp(){} // RVA: 0x7FFD4E964330
-        public void set_volumeUp(){} // RVA: 0x7FFD4EDCC050
-        public void get_recentered(){} // RVA: 0x7FFD4E9622B0
-        public void set_recentered(){} // RVA: 0x7FFD4EDCD110
-        public void get_volumeDown(){} // RVA: 0x7FFD4EDECB10
-        public void set_volumeDown(){} // RVA: 0x7FFD4EDEF3F0
-        public void get_recentering(){} // RVA: 0x7FFD4EDE1920
-        public void set_recentering(){} // RVA: 0x7FFD4EDC8050
-        public void get_app(){} // RVA: 0x7FFD4EDE0A30
-        public void set_app(){} // RVA: 0x7FFD4EDEF5C0
-        public void get_home(){} // RVA: 0x7FFD4E818150
-        public void set_home(){} // RVA: 0x7FFD4EDD1270
-        public void get_touchpadClicked(){} // RVA: 0x7FFD4EDD1060
-        public void set_touchpadClicked(){} // RVA: 0x7FFD4EDCC5A0
-        public void get_touchpadTouched(){} // RVA: 0x7FFD4E964EF0
-        public void set_touchpadTouched(){} // RVA: 0x7FFD4E961400
-        public void get_deviceVelocity(){} // RVA: 0x7FFD4E961460
-        public void set_deviceVelocity(){} // RVA: 0x7FFD4E964450
-        public void get_deviceAcceleration(){} // RVA: 0x7FFD4E964790
-        public void set_deviceAcceleration(){} // RVA: 0x7FFD4E96D230
-        public void FinishSetup(){} // RVA: 0x7FFD54939520
-        public void .ctor(){} // RVA: 0x7FFD54936440
+        public void get_touchpad(){} // RVA: 0x7FFAC3549F30
+        public void set_touchpad(){} // RVA: 0x7FFAC39A7790
+        public void get_volumeUp(){} // RVA: 0x7FFAC3544330
+        public void set_volumeUp(){} // RVA: 0x7FFAC39AC050
+        public void get_recentered(){} // RVA: 0x7FFAC35422B0
+        public void set_recentered(){} // RVA: 0x7FFAC39AD110
+        public void get_volumeDown(){} // RVA: 0x7FFAC39CCB10
+        public void set_volumeDown(){} // RVA: 0x7FFAC39CF3F0
+        public void get_recentering(){} // RVA: 0x7FFAC39C1920
+        public void set_recentering(){} // RVA: 0x7FFAC39A8050
+        public void get_app(){} // RVA: 0x7FFAC39C0A30
+        public void set_app(){} // RVA: 0x7FFAC39CF5C0
+        public void get_home(){} // RVA: 0x7FFAC33F8150
+        public void set_home(){} // RVA: 0x7FFAC39B1270
+        public void get_touchpadClicked(){} // RVA: 0x7FFAC39B1060
+        public void set_touchpadClicked(){} // RVA: 0x7FFAC39AC5A0
+        public void get_touchpadTouched(){} // RVA: 0x7FFAC3544EF0
+        public void set_touchpadTouched(){} // RVA: 0x7FFAC3541400
+        public void get_deviceVelocity(){} // RVA: 0x7FFAC3541460
+        public void set_deviceVelocity(){} // RVA: 0x7FFAC3544450
+        public void get_deviceAcceleration(){} // RVA: 0x7FFAC3544790
+        public void set_deviceAcceleration(){} // RVA: 0x7FFAC354D230
+        public void FinishSetup(){} // RVA: 0x7FFAC9519520
+        public void .ctor(){} // RVA: 0x7FFAC9516440
     }
 
     public class DaydreamHMD : XRHMD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD54936440
+        public void .ctor(){} // RVA: 0x7FFAC9516440
     }
 
 }

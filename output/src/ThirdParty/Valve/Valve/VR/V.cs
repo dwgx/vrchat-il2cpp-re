@@ -50,8 +50,8 @@ namespace ThirdParty.Valve.Valve.VR
         public Valve.VR.VRControllerAxis_t rAxis4; // 0x44
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53DA5E20
-        public void Unpack(){} // RVA: 0x7FFD53DA5E50
+        public void .ctor(){} // RVA: 0x7FFAC8985E20
+        public void Unpack(){} // RVA: 0x7FFAC8985E50
     }
 
     public class VREvent_ApplicationLaunch_t : ValueType
@@ -124,7 +124,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VREvent_HDCPError_t : ValueType
     {
-        public 0x665A0448 eCode; // 0x10
+        public 0x6B240448 eCode; // 0x10
     }
 
     public class VREvent_HapticVibration_t : ValueType
@@ -171,7 +171,7 @@ namespace ThirdParty.Valve.Valve.VR
         public ulong overlayHandle; // 0x20
 
         // ── Methods ──
-        public void get_cNewInput(){} // RVA: 0x7FFD54C201F0
+        public void get_cNewInput(){} // RVA: 0x7FFAC98001F0
     }
 
     public class VREvent_MessageOverlay_t : ValueType
@@ -227,7 +227,7 @@ namespace ThirdParty.Valve.Valve.VR
     public class VREvent_Property_t : ValueType
     {
         public ulong container; // 0x10
-        public 0x665A00D8 prop; // 0x18
+        public 0x6B2400D8 prop; // 0x18
     }
 
     public class VREvent_Reserved_t : ValueType
@@ -272,7 +272,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VREvent_ShowUI_t : ValueType
     {
-        public 0x665A03F0 eType; // 0x10
+        public 0x6B2403F0 eType; // 0x10
     }
 
     public class VREvent_SpatialAnchor_t : ValueType
@@ -316,14 +316,14 @@ namespace ThirdParty.Valve.Valve.VR
         public Valve.VR.VREvent_Data_t data; // 0x1C
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD54C20300
-        public void Unpack(){} // RVA: 0x7FFD54C20330
+        public void .ctor(){} // RVA: 0x7FFAC9800300
+        public void Unpack(){} // RVA: 0x7FFAC9800330
     }
 
     public class VRNativeDevice_t : ValueType
     {
         public UIntPtr handle; // 0x10
-        public 0x665A1208 eType; // 0x18
+        public 0x6B241208 eType; // 0x18
     }
 
     public class VROverlayIntersectionMaskPrimitive_Data_t : ValueType
@@ -334,7 +334,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VROverlayIntersectionMaskPrimitive_t : ValueType
     {
-        public 0x665A1158 m_nPrimitiveType; // 0x10
+        public 0x6B241158 m_nPrimitiveType; // 0x10
         public Valve.VR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive; // 0x14
     }
 
@@ -342,7 +342,7 @@ namespace ThirdParty.Valve.Valve.VR
     {
         public Valve.VR.HmdVector3_t vSource; // 0x10
         public Valve.VR.HmdVector3_t vDirection; // 0x1C
-        public 0x665A0028 eOrigin; // 0x28
+        public 0x6B240028 eOrigin; // 0x28
     }
 
     public class VROverlayIntersectionResults_t : ValueType
@@ -399,16 +399,16 @@ namespace ThirdParty.Valve.Valve.VR
     public class VRTextureWithDepth_t : ValueType
     {
         public UIntPtr handle; // 0x10
-        public 0x6659FE70 eType; // 0x18
-        public 0x6659FEC8 eColorSpace; // 0x1C
+        public 0x6B23FE70 eType; // 0x18
+        public 0x6B23FEC8 eColorSpace; // 0x1C
         public Valve.VR.VRTextureDepthInfo_t depth; // 0x20
     }
 
     public class VRTextureWithPoseAndDepth_t : ValueType
     {
         public UIntPtr handle; // 0x10
-        public 0x6659FE70 eType; // 0x18
-        public 0x6659FEC8 eColorSpace; // 0x1C
+        public 0x6B23FE70 eType; // 0x18
+        public 0x6B23FEC8 eColorSpace; // 0x1C
         public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking; // 0x20
         public Valve.VR.VRTextureDepthInfo_t depth; // 0x50
     }
@@ -416,8 +416,8 @@ namespace ThirdParty.Valve.Valve.VR
     public class VRTextureWithPose_t : ValueType
     {
         public UIntPtr handle; // 0x10
-        public 0x6659FE70 eType; // 0x18
-        public 0x6659FEC8 eColorSpace; // 0x1C
+        public 0x6B23FE70 eType; // 0x18
+        public 0x6B23FEC8 eColorSpace; // 0x1C
         public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking; // 0x20
     }
 

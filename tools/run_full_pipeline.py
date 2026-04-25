@@ -50,6 +50,8 @@ COMMUNITY_MAP_PATH      = OUTPUT_DIR / 'community_name_mapping.json'
 STRUCTURAL_PATH         = OUTPUT_DIR / 'structural_matches.json'
 ADDITIONAL_PATH         = OUTPUT_DIR / 'additional_names.json'
 DEEP_ANALYSIS_PATH      = OUTPUT_DIR / 'deep_analysis.json'
+CROSS_VERSION_METHODS_PATH = OUTPUT_DIR / 'cross_version_method_names.json'
+APR25_LIFTED_VOCAB_PATH = DATA_DIR / 'apr25_lifted_vocab.json'
 
 # Outputs
 DEOBF_JSON_PATH   = OUTPUT_DIR / 'deobfuscated_dump.json'
@@ -107,6 +109,7 @@ STAGE_INPUTS = {
         MASTER_VOCAB_PATH, COMMUNITY_MAPPINGS_PATH, SDK_EXTRACTIONS_PATH,
         MOD_NAMES_PATH, MINED_V1_PATH, MINED_V2_PATH, MINED_V3_PATH,
         COMMUNITY_MAP_PATH, STRUCTURAL_PATH, ADDITIONAL_PATH,
+        CROSS_VERSION_METHODS_PATH, APR25_LIFTED_VOCAB_PATH,
     ],
     1: [PRECISE_DUMP, UNIFIED_VOCAB_PATH,
         OUTPUT_DIR / 'va_propagation_names.json',
@@ -360,12 +363,36 @@ def stage0_gather_vocabulary():
 
     stats['mined_names'] = {'total_added': mined_count}
 
-    # ── 6. Community Name Mapping + Structural Matches ────────────────
-    for label, path in [('community_name_mapping', COMMUNITY_MAP_PATH),
-                        ('structural_matches', STRUCTURAL_PATH),
-                        ('additional_names', ADDITIONAL_PATH)]:
+    # ── 6. Cross-Version Method Names ─────────────────────────────────
+    if CROSS_VERSION_METHODS_PATH.exists():
+        print(f'\n  [6/7] Loading cross_version_method_names.json ...')
+        with open(CROSS_VERSION_METHODS_PATH, 'r', encoding='utf-8') as f:
+            cross_version = json.load(f)
+
+        before = len(unified_names)
+        added_methods = 0
+        if isinstance(cross_version, dict):
+            for sig, real_name in cross_version.items():
+                if isinstance(real_name, str) and len(real_name) > 1:
+                    signature_map.setdefault(sig, real_name)
+                    unified_names.add(real_name)
+                    method_names.add(real_name)
+                    added_methods += 1
+
+        added = len(unified_names) - before
+        stats['cross_version_method_names'] = {'added': added, 'methods': added_methods}
+        sources_loaded.append('cross_version_method_names.json')
+        print(f'        +{added:,} names, {added_methods:,} method mappings')
+    else:
+        print(f'\n  [6/7] cross_version_method_names.json - NOT FOUND (skipping)')
+
+    # ── 7. Community Name Mapping + Structural Matches + Apr25 Lift ──
+    stage7_sources = [('community_name_mapping', COMMUNITY_MAP_PATH),
+                      ('structural_matches', STRUCTURAL_PATH),
+                      ('additional_names', ADDITIONAL_PATH)]
+    for label, path in stage7_sources:
         if path.exists():
-            print(f'\n  [6/6] Loading {label}.json ...')
+            print(f'\n  [7/7] Loading {label}.json ...')
             with open(path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
@@ -393,12 +420,87 @@ def stage0_gather_vocabulary():
                                     unified_names.add(real)
                                     signature_map[k] = real
 
+                # Apr25 lifted vocab provides flat/context maps and
+                # cross-version method keys we also want in the merged set.
+                for key in ('field_names', 'class_name_map', 'method_name_map',
+                            'field_name_map', 'cross_version_method_names', 'signature_to_name'):
+                    items = data.get(key, {})
+                    if isinstance(items, dict):
+                        for k, v in items.items():
+                            if isinstance(v, str) and len(v) > 1:
+                                unified_names.add(v)
+                                signature_map[k] = v
+
+                for key, target in (('class_names', class_names),
+                                    ('method_names', method_names),
+                                    ('field_names', field_names)):
+                    items = data.get(key, {})
+                    if isinstance(items, dict):
+                        for value in items.values():
+                            if isinstance(value, str) and len(value) > 1:
+                                target.add(value)
+                    elif isinstance(items, list):
+                        for value in items:
+                            if isinstance(value, str) and len(value) > 1:
+                                target.add(value)
+
             added = len(unified_names) - before
             stats[label] = {'added': added}
             sources_loaded.append(f'{label}.json')
             print(f'        +{added:,} new names')
         else:
-            print(f'\n  [6/6] {label}.json - NOT FOUND (skipping)')
+            print(f'\n  [7/7] {label}.json - NOT FOUND (skipping)')
+
+    apr25_lifted_data = None
+    if APR25_LIFTED_VOCAB_PATH.exists():
+        print(f'\n  [7/7] Loading apr25_lifted_vocab.json ...')
+        with open(APR25_LIFTED_VOCAB_PATH, 'r', encoding='utf-8') as f:
+            apr25_lifted_data = json.load(f)
+    else:
+        print(f'\n  [7/7] apr25_lifted_vocab.json - NOT FOUND, building in memory ...')
+        try:
+            from lift_apr18_to_apr25_vocab import build_lifted_vocab
+            apr25_lifted_data, _, _, _ = build_lifted_vocab()
+        except Exception as e:
+            print(f'        Failed to build Apr25 lifted vocab: {e}')
+
+    if isinstance(apr25_lifted_data, dict):
+        before = len(unified_names)
+        data = apr25_lifted_data
+        for key in ('class_names', 'method_names', 'direct_matches', 'matches'):
+            items = data.get(key, {})
+            if isinstance(items, dict):
+                for k, v in items.items():
+                    if isinstance(v, str) and len(v) > 1:
+                        unified_names.add(v)
+                        signature_map[k] = v
+
+        for key in ('field_names', 'class_name_map', 'method_name_map',
+                    'field_name_map', 'cross_version_method_names', 'signature_to_name'):
+            items = data.get(key, {})
+            if isinstance(items, dict):
+                for k, v in items.items():
+                    if isinstance(v, str) and len(v) > 1:
+                        unified_names.add(v)
+                        signature_map[k] = v
+
+        for key, target in (('class_names', class_names),
+                            ('method_names', method_names),
+                            ('field_names', field_names)):
+            items = data.get(key, {})
+            if isinstance(items, dict):
+                for value in items.values():
+                    if isinstance(value, str) and len(value) > 1:
+                        target.add(value)
+            elif isinstance(items, list):
+                for value in items:
+                    if isinstance(value, str) and len(value) > 1:
+                        target.add(value)
+
+        added = len(unified_names) - before
+        stats['apr25_lifted_vocab'] = {'added': added}
+        sources_loaded.append('apr25_lifted_vocab.json')
+        print(f'        +{added:,} new names')
 
     # ── Filter and Classify ───────────────────────────────────────────
     print(f'\n  Filtering unified vocabulary ...')

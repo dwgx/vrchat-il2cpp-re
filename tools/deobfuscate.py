@@ -337,8 +337,41 @@ class Deobfuscator:
                 if props:
                     self.class_properties[name] = list(set(props))
 
+        self._lifted_vocab = self._load_lifted_vocab()
+        self._lifted_class_names = self._lifted_vocab.get('class_name_map', {})
+        self._lifted_method_names = self._lifted_vocab.get('method_name_map', {})
+        self._lifted_field_names = self._lifted_vocab.get('field_name_map', {})
+
         total_obf = sum(1 for n in self.class_index if is_obf(n))
         print(f'Indexed {len(self.class_index)} classes, {total_obf} obfuscated')
+
+    def _load_lifted_vocab(self) -> dict:
+        base_dir = Path(__file__).resolve().parent.parent
+        path = base_dir / 'data' / 'apr25_lifted_vocab.json'
+        if not path.exists():
+            try:
+                from lift_apr18_to_apr25_vocab import build_lifted_vocab
+                data, _, _, _ = build_lifted_vocab()
+                print(f'  Built lifted Apr25 vocab in-memory '
+                      f'({len(data.get("class_name_map", {}))} classes, '
+                      f'{len(data.get("method_name_map", {}))} methods, '
+                      f'{len(data.get("field_name_map", {}))} fields)')
+                return data
+            except Exception as e:
+                print(f'  Failed to build apr25 lifted vocab in-memory: {e}')
+                return {}
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            if isinstance(data, dict):
+                print(f'  Using apr25_lifted_vocab.json '
+                      f'({len(data.get("class_name_map", {}))} classes, '
+                      f'{len(data.get("method_name_map", {}))} methods, '
+                      f'{len(data.get("field_name_map", {}))} fields)')
+                return data
+        except Exception as e:
+            print(f'  Failed to load apr25_lifted_vocab.json: {e}')
+        return {}
 
     def unique_name(self, base: str, obf_name: str) -> str:
         """Generate unique name with stable hash suffix."""
@@ -410,6 +443,19 @@ class Deobfuscator:
         for k, v in sorted(self.stats.items()):
             if k.startswith('phase1'):
                 print(f'    {k}: {v}')
+
+    def phase0_lifted_names(self):
+        print('\n=== Phase 0: Direct Lifted Names ===')
+        applied = 0
+        for obf_name, semantic_name in self._lifted_class_names.items():
+            if not is_obf(obf_name) or is_obf(semantic_name):
+                continue
+            if obf_name not in self.class_index or obf_name in self.class_map:
+                continue
+            self.class_map[obf_name] = self.unique_name(semantic_name, obf_name)
+            applied += 1
+        self.stats['phase0_lifted'] = applied
+        print(f'  Applied {applied} lifted class names')
 
     # ── Phase 2: Semantic Method Analysis ──────────────────────────────
 
@@ -1746,9 +1792,21 @@ class Deobfuscator:
 
                 new_name = None
 
-                # Try deep analysis semantic name first
+                # Try direct Apr18->Apr25 lift first
                 deep_key = f'{name}::{m}'
-                if deep_key in deep_names:
+                if deep_key in self._lifted_method_names:
+                    candidate = self._lifted_method_names[deep_key]
+                    if candidate and not is_obf(candidate):
+                        if candidate in used_method_names:
+                            long_h = stable_hash(m, 12)
+                            candidate = f'{candidate}_{long_h}'
+                        if candidate not in used_method_names:
+                            new_name = candidate
+                            used_method_names.add(candidate)
+                            method_semantic += 1
+
+                # Try deep analysis semantic name first
+                if not new_name and deep_key in deep_names:
                     new_name = deep_names[deep_key]
                     method_semantic += 1
 
@@ -1995,6 +2053,13 @@ class Deobfuscator:
                     continue
 
                 new_name = None
+
+                lifted_key = f'{name}::{fname}'
+                if lifted_key in self._lifted_field_names:
+                    candidate = self._lifted_field_names[lifted_key]
+                    if candidate and not is_obf(candidate):
+                        new_name = self._unique_field_in_class(candidate, used_in_class)
+                        field_semantic += 1
 
                 # Strategy 1: Obfuscated backing field with accessor match
                 if bk_match:
@@ -2337,6 +2402,7 @@ class Deobfuscator:
     # ── Run All Phases ─────────────────────────────────────────────────
 
     def run(self, output_dir: str):
+        self.phase0_lifted_names()
         self.phase1_compiler_artifacts()
         self.phase6d_community_names()  # Community confirmed = highest priority
         self.phase2_semantic_methods()

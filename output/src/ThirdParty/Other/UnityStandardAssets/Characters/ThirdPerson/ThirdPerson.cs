@@ -12,14 +12,14 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
         public UnityEngine.Transform target; // 0x30
 
         // ── Methods ──
-        public void get_agent(){} // RVA: 0x7FFD4E36F0C0
-        public void set_agent(){} // RVA: 0x7FFD4E36F0D0
-        public void get_character(){} // RVA: 0x7FFD4E36F130
-        public void set_character(){} // RVA: 0x7FFD4E342E90
-        public void Start(){} // RVA: 0x7FFD4E36F140
-        public void Update(){} // RVA: 0x7FFD4E36F2F0
-        public void SetTarget(){} // RVA: 0x7FFD4E36F890
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void get_agent(){} // RVA: 0x7FFAC2F4F0C0
+        public void set_agent(){} // RVA: 0x7FFAC2F4F0D0
+        public void get_character(){} // RVA: 0x7FFAC2F4F130
+        public void set_character(){} // RVA: 0x7FFAC2F22E90
+        public void Start(){} // RVA: 0x7FFAC2F4F140
+        public void Update(){} // RVA: 0x7FFAC2F4F2F0
+        public void SetTarget(){} // RVA: 0x7FFAC2F4F890
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class ThirdPersonCharacter : MonoBehaviour
@@ -46,17 +46,17 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
         public bool m_Crouching; // 0x88
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E36F8F0
-        public void Move(){} // RVA: 0x7FFD4E36FBF0
-        public void ScaleCapsuleForCrouching(){} // RVA: 0x7FFD4E36FF00
-        public void PreventStandingInLowHeadroom(){} // RVA: 0x7FFD4E3704D0
-        public void UpdateAnimator(){} // RVA: 0x7FFD4E3708C0
-        public void HandleAirborneMovement(){} // RVA: 0x7FFD4E370CD0
-        public void HandleGroundedMovement(){} // RVA: 0x7FFD4E370F80
-        public void ApplyExtraTurnRotation(){} // RVA: 0x7FFD4E3711F0
-        public void OnAnimatorMove(){} // RVA: 0x7FFD4E371330
-        public void CheckGroundStatus(){} // RVA: 0x7FFD4E371550
-        public void .ctor(){} // RVA: 0x7FFD4E371920
+        public void Start(){} // RVA: 0x7FFAC2F4F8F0
+        public void Move(){} // RVA: 0x7FFAC2F4FBF0
+        public void ScaleCapsuleForCrouching(){} // RVA: 0x7FFAC2F4FF00
+        public void PreventStandingInLowHeadroom(){} // RVA: 0x7FFAC2F504D0
+        public void UpdateAnimator(){} // RVA: 0x7FFAC2F508C0
+        public void HandleAirborneMovement(){} // RVA: 0x7FFAC2F50CD0
+        public void HandleGroundedMovement(){} // RVA: 0x7FFAC2F50F80
+        public void ApplyExtraTurnRotation(){} // RVA: 0x7FFAC2F511F0
+        public void OnAnimatorMove(){} // RVA: 0x7FFAC2F51330
+        public void CheckGroundStatus(){} // RVA: 0x7FFAC2F51550
+        public void .ctor(){} // RVA: 0x7FFAC2F51920
     }
 
     public class ThirdPersonUserControl : MonoBehaviour
@@ -68,10 +68,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
         public bool m_Jump; // 0x48
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E3719A0
-        public void Update(){} // RVA: 0x7FFD4E371D90
-        public void FixedUpdate(){} // RVA: 0x7FFD4E371E00
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC2F519A0
+        public void Update(){} // RVA: 0x7FFAC2F51D90
+        public void FixedUpdate(){} // RVA: 0x7FFAC2F51E00
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
 }

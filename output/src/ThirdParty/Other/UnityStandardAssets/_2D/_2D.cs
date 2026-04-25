@@ -18,9 +18,9 @@ namespace ThirdParty.Other.UnityStandardAssets._2D
         public UnityEngine.Vector3 m_LookAheadPos; // 0x54
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E37D250
-        public void Update(){} // RVA: 0x7FFD4E37D450
-        public void .ctor(){} // RVA: 0x7FFD4E37DA10
+        public void Start(){} // RVA: 0x7FFAC2F5D250
+        public void Update(){} // RVA: 0x7FFAC2F5D450
+        public void .ctor(){} // RVA: 0x7FFAC2F5DA10
     }
 
     public class CameraFollow : MonoBehaviour
@@ -34,12 +34,12 @@ namespace ThirdParty.Other.UnityStandardAssets._2D
         public UnityEngine.Transform m_Player; // 0x40
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E37DA70
-        public void CheckXMargin(){} // RVA: 0x7FFD4E37DB90
-        public void CheckYMargin(){} // RVA: 0x7FFD4E37DCD0
-        public void Update(){} // RVA: 0x7FFD4E37DE10
-        public void TrackPlayer(){} // RVA: 0x7FFD4E37DE20
-        public void .ctor(){} // RVA: 0x7FFD4E37E690
+        public void Awake(){} // RVA: 0x7FFAC2F5DA70
+        public void CheckXMargin(){} // RVA: 0x7FFAC2F5DB90
+        public void CheckYMargin(){} // RVA: 0x7FFAC2F5DCD0
+        public void Update(){} // RVA: 0x7FFAC2F5DE10
+        public void TrackPlayer(){} // RVA: 0x7FFAC2F5DE20
+        public void .ctor(){} // RVA: 0x7FFAC2F5E690
     }
 
     public class Platformer2DUserControl : MonoBehaviour
@@ -48,10 +48,10 @@ namespace ThirdParty.Other.UnityStandardAssets._2D
         public bool m_Jump; // 0x28
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E37E6F0
-        public void Update(){} // RVA: 0x7FFD4E37E780
-        public void FixedUpdate(){} // RVA: 0x7FFD4E37E7F0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Awake(){} // RVA: 0x7FFAC2F5E6F0
+        public void Update(){} // RVA: 0x7FFAC2F5E780
+        public void FixedUpdate(){} // RVA: 0x7FFAC2F5E7F0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class PlatformerCharacter2D : MonoBehaviour
@@ -71,18 +71,18 @@ namespace ThirdParty.Other.UnityStandardAssets._2D
         public bool m_FacingRight; // 0x60
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E37E920
-        public void FixedUpdate(){} // RVA: 0x7FFD4E37ED10
-        public void Move(){} // RVA: 0x7FFD4E37F110
-        public void Flip(){} // RVA: 0x7FFD4E37F530
-        public void .ctor(){} // RVA: 0x7FFD4E37F6D0
+        public void Awake(){} // RVA: 0x7FFAC2F5E920
+        public void FixedUpdate(){} // RVA: 0x7FFAC2F5ED10
+        public void Move(){} // RVA: 0x7FFAC2F5F110
+        public void Flip(){} // RVA: 0x7FFAC2F5F530
+        public void .ctor(){} // RVA: 0x7FFAC2F5F6D0
     }
 
     public class Restarter : MonoBehaviour
     {
         // ── Methods ──
-        public void OnTriggerEnter2D(){} // RVA: 0x7FFD4E37F730
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void OnTriggerEnter2D(){} // RVA: 0x7FFAC2F5F730
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
 }

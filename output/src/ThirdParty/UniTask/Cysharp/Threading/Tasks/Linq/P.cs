@@ -10,7 +10,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E090A40
+        public void .ctor(){} // RVA: 0x7FFAC2C70A40
         public void GetAsyncEnumerator(){}
     }
 
@@ -24,9 +24,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public bool isCompleted;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E090A40
-        public void Connect(){} // RVA: 0x7FFD4E078E90
-        public void ConsumeEnumerator(){} // RVA: 0x7FFD4E079D00
+        public void .ctor(){} // RVA: 0x7FFAC2C70A40
+        public void Connect(){} // RVA: 0x7FFAC2C58E90
+        public void ConsumeEnumerator(){} // RVA: 0x7FFAC2C59D00
         public void GetAsyncEnumerator(){}
     }
 

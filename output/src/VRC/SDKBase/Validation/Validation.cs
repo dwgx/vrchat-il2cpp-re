@@ -10,19 +10,19 @@ namespace VRC.SDKBase.Validation
         public System.Collections.Generic.Dictionary`2<string,System.Type> _typeCache;
 
         // ── Methods ──
-        public void GetTypeFromName(){} // RVA: 0x7FFD574A0100
-        public void FindDerivedTypes(){} // RVA: 0x7FFD574A0630 | overloaded x2
-        public void FindAssemblyAttributes(){} // RVA: 0x7FFD4E078F80 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFD574A0760
+        public void GetTypeFromName(){} // RVA: 0x7FFACC080100
+        public void FindDerivedTypes(){} // RVA: 0x7FFACC080630 | overloaded x2
+        public void FindAssemblyAttributes(){} // RVA: 0x7FFAC2C58F80 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFACC080760
     }
 
     public class VRCSdkWhitelistAttribute : Attribute
     {
-        public ÌÌÎÏÌÍÌÏÍÏÍ name; // 0x10
+        public 0x6B2E6C58 name; // 0x10
 
         // ── Methods ──
-        public void get_name(){} // RVA: 0x7FFD4E38E5C0
-        public void .ctor(){} // RVA: 0x7FFD4E3440C0
+        public void get_name(){} // RVA: 0x7FFAC2F6E5C0
+        public void .ctor(){} // RVA: 0x7FFAC2F240C0
     }
 
     public class ValidationUtils : Object
@@ -33,23 +33,23 @@ namespace VRC.SDKBase.Validation
         public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Immutable.ImmutableArray`1<UnityEngine.RequireComponent>> _requireComponentsCache; // 0x10
 
         // ── Methods ──
-        public void RemoveIllegalComponents(){} // RVA: 0x7FFD574A0A20 | overloaded x2
-        public void FindIllegalComponents(){} // RVA: 0x7FFD574A1050 | overloaded x2
-        public void IsIllegalComponent(){} // RVA: 0x7FFD574A13A0
-        public void IsEditorOnly(){} // RVA: 0x7FFD574A1510
-        public void GetComponentsInChildrenExcludingEditorOnly(){} // RVA: 0x7FFD574A1660 | overloaded x2
-        public void GetCachedWhitelistedTypes(){} // RVA: 0x7FFD574A1840
-        public void ClearCachedWhitelistedTypes(){} // RVA: 0x7FFD574A18E0
-        public void WhitelistedTypes(){} // RVA: 0x7FFD574A1DA0 | overloaded x2
-        public void AddDerivedClasses(){} // RVA: 0x7FFD574A1F80
-        public void RemoveDependencies(){} // RVA: 0x7FFD574A2210
-        public void RemoveComponent(){} // RVA: 0x7FFD574A2B00
-        public void RemoveComponentsOfType(){} // RVA: 0x7FFD4E0962E0
-        public void FindIllegalShaders(){} // RVA: 0x7FFD574A2D10
-        public void FindIllegalShadersEnumerator(){} // RVA: 0x7FFD574A3050
-        public void ValidateContent(){} // RVA: 0x7FFD574A31C0
-        public void .cctor(){} // RVA: 0x7FFD574A34A0
-        public void <RemoveDependencies>g__NeedsDeletion|17_0(){} // RVA: 0x7FFD574A3760
+        public void RemoveIllegalComponents(){} // RVA: 0x7FFACC080A20 | overloaded x2
+        public void FindIllegalComponents(){} // RVA: 0x7FFACC081050 | overloaded x2
+        public void IsIllegalComponent(){} // RVA: 0x7FFACC0813A0
+        public void IsEditorOnly(){} // RVA: 0x7FFACC081510
+        public void GetComponentsInChildrenExcludingEditorOnly(){} // RVA: 0x7FFACC081660 | overloaded x2
+        public void GetCachedWhitelistedTypes(){} // RVA: 0x7FFACC081840
+        public void ClearCachedWhitelistedTypes(){} // RVA: 0x7FFACC0818E0
+        public void WhitelistedTypes(){} // RVA: 0x7FFACC081DA0 | overloaded x2
+        public void AddDerivedClasses(){} // RVA: 0x7FFACC081F80
+        public void RemoveDependencies(){} // RVA: 0x7FFACC082210
+        public void RemoveComponent(){} // RVA: 0x7FFACC082B00
+        public void RemoveComponentsOfType(){} // RVA: 0x7FFAC2C762E0
+        public void FindIllegalShaders(){} // RVA: 0x7FFACC082D10
+        public void FindIllegalShadersEnumerator(){} // RVA: 0x7FFACC083050
+        public void ValidateContent(){} // RVA: 0x7FFACC0831C0
+        public void .cctor(){} // RVA: 0x7FFACC0834A0
+        public void <RemoveDependencies>g__NeedsDeletion|17_0(){} // RVA: 0x7FFACC083760
     }
 
 }

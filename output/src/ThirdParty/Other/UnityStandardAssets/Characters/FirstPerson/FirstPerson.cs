@@ -30,7 +30,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
         public UnityEngine.Vector2 m_Input; // 0xA0
         public UnityEngine.Vector3 m_MoveDir; // 0xA8
         public UnityEngine.CharacterController m_CharacterController; // 0xB8
-        public Î m_CollisionFlags; // 0xC0
+        public 0x6B2A01C0 m_CollisionFlags; // 0xC0
         public bool m_PreviouslyGrounded; // 0xC4
         public UnityEngine.Vector3 m_OriginalCameraPosition; // 0xC8
         public float m_StepCycle; // 0xD4
@@ -39,18 +39,18 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
         public UnityEngine.AudioSource m_AudioSource; // 0xE0
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E372330
-        public void Update(){} // RVA: 0x7FFD4E3726C0
-        public void PlayLandingSound(){} // RVA: 0x7FFD4E372A40
-        public void FixedUpdate(){} // RVA: 0x7FFD4E372B30
-        public void PlayJumpSound(){} // RVA: 0x7FFD4E373440
-        public void ProgressStepCycle(){} // RVA: 0x7FFD4E373510
-        public void PlayFootStepAudio(){} // RVA: 0x7FFD4E373750
-        public void UpdateCameraPosition(){} // RVA: 0x7FFD4E3739B0
-        public void GetInput(){} // RVA: 0x7FFD4E373ED0
-        public void RotateView(){} // RVA: 0x7FFD4E3742B0
-        public void OnControllerColliderHit(){} // RVA: 0x7FFD4E374380
-        public void .ctor(){} // RVA: 0x7FFD4E374620
+        public void Start(){} // RVA: 0x7FFAC2F52330
+        public void Update(){} // RVA: 0x7FFAC2F526C0
+        public void PlayLandingSound(){} // RVA: 0x7FFAC2F52A40
+        public void FixedUpdate(){} // RVA: 0x7FFAC2F52B30
+        public void PlayJumpSound(){} // RVA: 0x7FFAC2F53440
+        public void ProgressStepCycle(){} // RVA: 0x7FFAC2F53510
+        public void PlayFootStepAudio(){} // RVA: 0x7FFAC2F53750
+        public void UpdateCameraPosition(){} // RVA: 0x7FFAC2F539B0
+        public void GetInput(){} // RVA: 0x7FFAC2F53ED0
+        public void RotateView(){} // RVA: 0x7FFAC2F542B0
+        public void OnControllerColliderHit(){} // RVA: 0x7FFAC2F54380
+        public void .ctor(){} // RVA: 0x7FFAC2F54620
     }
 
     public class HeadBob : MonoBehaviour
@@ -65,9 +65,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
         public UnityEngine.Vector3 m_OriginalCameraPosition; // 0x4C
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E374850
-        public void Update(){} // RVA: 0x7FFD4E374950
-        public void .ctor(){} // RVA: 0x7FFD4E374F20
+        public void Start(){} // RVA: 0x7FFAC2F54850
+        public void Update(){} // RVA: 0x7FFAC2F54950
+        public void .ctor(){} // RVA: 0x7FFAC2F54F20
     }
 
     public class MouseLook : Object
@@ -85,21 +85,21 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
         public bool m_cursorIsLocked; // 0x50
 
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFD4E375070
-        public void LookRotation(){} // RVA: 0x7FFD4E375160
-        public void SetCursorLock(){} // RVA: 0x7FFD4E375A50
-        public void UpdateCursorLock(){} // RVA: 0x7FFD4E375AF0
-        public void InternalLockUpdate(){} // RVA: 0x7FFD4E375B00
-        public void ClampRotationAroundXAxis(){} // RVA: 0x7FFD4E375CC0
-        public void .ctor(){} // RVA: 0x7FFD4E375D80
+        public void Init(){} // RVA: 0x7FFAC2F55070
+        public void LookRotation(){} // RVA: 0x7FFAC2F55160
+        public void SetCursorLock(){} // RVA: 0x7FFAC2F55A50
+        public void UpdateCursorLock(){} // RVA: 0x7FFAC2F55AF0
+        public void InternalLockUpdate(){} // RVA: 0x7FFAC2F55B00
+        public void ClampRotationAroundXAxis(){} // RVA: 0x7FFAC2F55CC0
+        public void .ctor(){} // RVA: 0x7FFAC2F55D80
     }
 
     public class RigidbodyFirstPersonController : MonoBehaviour
     {
         public UnityEngine.Camera Velocity; // 0x20
-        public 0x6651C028 Grounded; // 0x28
+        public MovementSettings Grounded; // 0x28
         public UnityStandardAssets.Characters.FirstPerson.MouseLook Jumping; // 0x30
-        public 0x6651C080 Running; // 0x38
+        public AdvancedSettings Running; // 0x38
         public UnityEngine.Rigidbody m_RigidBody; // 0x40
         public UnityEngine.CapsuleCollider m_Capsule; // 0x48
         public float m_YRotation; // 0x50
@@ -110,19 +110,19 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
         public bool m_IsGrounded; // 0x63
 
         // ── Methods ──
-        public void get_Velocity(){} // RVA: 0x7FFD4E375DB0
-        public void get_Grounded(){} // RVA: 0x7FFD4E375E40
-        public void get_Jumping(){} // RVA: 0x7FFD4E375E50
-        public void get_Running(){} // RVA: 0x7FFD4E375E60
-        public void Start(){} // RVA: 0x7FFD4E375E80
-        public void Update(){} // RVA: 0x7FFD4E376050
-        public void FixedUpdate(){} // RVA: 0x7FFD4E3760D0
-        public void SlopeMultiplier(){} // RVA: 0x7FFD4E376840
-        public void StickToGroundHelper(){} // RVA: 0x7FFD4E376930
-        public void GetInput(){} // RVA: 0x7FFD4E376E70
-        public void RotateView(){} // RVA: 0x7FFD4E377090
-        public void GroundCheck(){} // RVA: 0x7FFD4E3774C0
-        public void .ctor(){} // RVA: 0x7FFD4E377900
+        public void get_Velocity(){} // RVA: 0x7FFAC2F55DB0
+        public void get_Grounded(){} // RVA: 0x7FFAC2F55E40
+        public void get_Jumping(){} // RVA: 0x7FFAC2F55E50
+        public void get_Running(){} // RVA: 0x7FFAC2F55E60
+        public void Start(){} // RVA: 0x7FFAC2F55E80
+        public void Update(){} // RVA: 0x7FFAC2F56050
+        public void FixedUpdate(){} // RVA: 0x7FFAC2F560D0
+        public void SlopeMultiplier(){} // RVA: 0x7FFAC2F56840
+        public void StickToGroundHelper(){} // RVA: 0x7FFAC2F56930
+        public void GetInput(){} // RVA: 0x7FFAC2F56E70
+        public void RotateView(){} // RVA: 0x7FFAC2F57090
+        public void GroundCheck(){} // RVA: 0x7FFAC2F574C0
+        public void .ctor(){} // RVA: 0x7FFAC2F57900
     }
 
 }

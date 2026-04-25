@@ -13,13 +13,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Editor
         public float <frequency>k__BackingField; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD54A92C60
-        public void get_targetFrequency(){} // RVA: 0x7FFD4FEBB8D0
-        public void set_targetFrequency(){} // RVA: 0x7FFD4FEBB8C0
-        public void get_frequency(){} // RVA: 0x7FFD4E46B320
-        public void set_frequency(){} // RVA: 0x7FFD4E46B330
-        public void ProcessSample(){} // RVA: 0x7FFD54A92C80
-        public void Update(){} // RVA: 0x7FFD54A92D20 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAC9672C60
+        public void get_targetFrequency(){} // RVA: 0x7FFAC4A9B8D0
+        public void set_targetFrequency(){} // RVA: 0x7FFAC4A9B8C0
+        public void get_frequency(){} // RVA: 0x7FFAC304B320
+        public void set_frequency(){} // RVA: 0x7FFAC304B330
+        public void ProcessSample(){} // RVA: 0x7FFAC9672C80
+        public void Update(){} // RVA: 0x7FFAC9672D20 | overloaded x2
     }
 
 }

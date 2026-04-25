@@ -1,30 +1,34 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DOTween.DG.Tweening.Plugins.Core
-// Classes: 4
-// Methods: 16
+// Classes: 6
+// Methods: 20
 
 namespace ThirdParty.DOTween.DG.Tweening.Plugins.Core
 {
     public class ABSTweenPlugin`3 : Object
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFD4E090A40
-        public void SetFrom(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFD4E2ADC40
-        public void SetRelativeEndValue(){} // RVA: 0x7FFD4E090A40
-        public void SetChangeValue(){} // RVA: 0x7FFD4E090A40
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFD4E2ADC40
-        public void EvaluateAndApply(){} // RVA: 0x7FFD4E2ADC40
-        public void .ctor(){} // RVA: 0x7FFD4E090980
+        public void Reset(){} // RVA: 0x7FFAC2C70A40
+        public void SetFrom(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x7FFAC2E8DC40
+        public void SetRelativeEndValue(){} // RVA: 0x7FFAC2C70A40
+        public void SetChangeValue(){} // RVA: 0x7FFAC2C70A40
+        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAC2E8DC40
+        public void EvaluateAndApply(){} // RVA: 0x7FFAC2E8DC40
+        public void .ctor(){} // RVA: 0x7FFAC2C70980
     }
 
     public class IPlugSetter`4
     {
         // ── Methods ──
-        public void Getter(){} // RVA: 0x7FFD4E078E90
-        public void Setter(){} // RVA: 0x7FFD4E078E90
-        public void EndValue(){} // RVA: 0x7FFD4E2ADC40
-        public void GetOptions(){} // RVA: 0x7FFD4E2ADC40
+        public void Getter(){} // RVA: 0x7FFAC2C58E90
+        public void Setter(){} // RVA: 0x7FFAC2C58E90
+        public void EndValue(){} // RVA: 0x7FFAC2E8DC40
+        public void GetOptions(){} // RVA: 0x7FFAC2E8DC40
+    }
+
+    public class ITPlugin`4
+    {
     }
 
     public class ITweenPlugin
@@ -53,9 +57,18 @@ namespace ThirdParty.DOTween.DG.Tweening.Plugins.Core
         public System.Collections.Generic.Dictionary`2<System.Type,DG.Tweening.Plugins.Core.ITweenPlugin> _customPlugins; // 0x80
 
         // ── Methods ──
-        public void GetDefaultPlugin(){} // RVA: 0x7FFD4E078A90
-        public void GetCustomPlugin(){} // RVA: 0x7FFD4E078A90
-        public void PurgeAll(){} // RVA: 0x7FFD4FDDE070
+        public void GetDefaultPlugin(){} // RVA: 0x7FFAC2C58A90
+        public void GetCustomPlugin(){} // RVA: 0x7FFAC2C58A90
+        public void PurgeAll(){} // RVA: 0x7FFAC49BE070
+    }
+
+    public class SpecialPluginsUtils : Object
+    {
+        // ── Methods ──
+        public void SetLookAt(){} // RVA: 0x7FFAC49BD790
+        public void SetPunch(){} // RVA: 0x7FFAC49BD9A0
+        public void SetShake(){} // RVA: 0x7FFAC49BDB30
+        public void SetCameraShakePosition(){} // RVA: 0x7FFAC49BDB70
     }
 
 }

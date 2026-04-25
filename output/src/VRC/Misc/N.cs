@@ -11,8 +11,8 @@ namespace VRC.Misc
         public object _normalizedPosition;
 
         // ── Methods ──
-        public void get_normalizedPosition(){} // RVA: 0x7FFD4E078E90
-        public void set_normalizedPosition(){} // RVA: 0x7FFD4E09F3E0
+        public void get_normalizedPosition(){} // RVA: 0x7FFAC2C58E90
+        public void set_normalizedPosition(){} // RVA: 0x7FFAC2C7F3E0
     }
 
 }

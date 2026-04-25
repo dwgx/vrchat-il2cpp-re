@@ -1,15 +1,18 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Internal.Generated
 // Classes: 100
-// Methods: 84
+// Methods: 67
 
 namespace VRC.Internal.Generated
 {
-    /// <summary>Originally: ÍÎÍÏÏÏÌÍÍÎÏÎÌÍÍÎÍÍÎÍÏÎÍ</summary>
-    public class EmptyStruct_03A8 : ValueType
+    /// <summary>Originally: ÌÌÍÍÎÍÎÏÏÎÎÍÌÌÎÌÏÎÌÎÏÏÌ</summary>
+    public class EmptyStruct_0019 : ValueType
     {
-        public System.Collections.Generic.Dictionary`2<System.Type,ÏÎÎÌÌÌÌÌÌÌÏÏÌÍÏÌÏÏÍÍÍÏÍ> ÏÌÍÍÌÏÎÌÎÎÍÎÎÎÌÍÍÏÍÍÎÍÎ; // 0x10
-        public System.Collections.Generic.HashSet`1<System.Type> ÎÏÍÏÎÎÏÌÍÏÌÏÌÎÌÍÍÌÌÏÎÍÏ; // 0x18
+    }
+
+    /// <summary>Originally: ÌÍÍÎÎÍÎÍÏÏÌÏÎÎÍÍÎÌÎÌÎÌÍ</summary>
+    public class EmptyStruct_0479 : ValueType
+    {
     }
 
     /// <summary>Originally: ÌÌÎÎÏÍÍÌÌÎÏÍÎÎÍÍÌÍÌÍÎÍÍ</summary>
@@ -26,6 +29,11 @@ namespace VRC.Internal.Generated
         public bool ÍÌÎÎÌÍÌÎÍÎÍÌÌÌÏÍÎÍÌÏÎÌÎ; // 0x18
     }
 
+    /// <summary>Originally: ÌÎÍÎÍÍÍÎÍÎÎÍÏÎÍÍÍÍÍÎÎÍÍ</summary>
+    public class EmptyStruct_06D9 : ValueType
+    {
+    }
+
     /// <summary>Originally: ÌÏÎÏÏÍÎÏÍÎÌÏÍÎÏÎÎÌÏÍÎÍÍ</summary>
     public class EmptyStruct_07B2 : ValueType
     {
@@ -33,17 +41,7 @@ namespace VRC.Internal.Generated
         public int ÍÌÏÌÎÍÌÏÍÌÌÏÌÏÍÎÍÍÌÍÏÍÏ; // 0x14
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E7F6D50
-    }
-
-    /// <summary>Originally: ÍÎÍÏÎÏÎÌÌÎÎÍÍÌÌÌÏÏÏÎÍÎÌ</summary>
-    public class EmptyStruct_0B4B : ValueType
-    {
-        public float ÍÏÍÏÌÏÍÌÍÏÏÍÍÍÍÌÍÍÏÌÏÌÍ; // 0x10
-        public object ÍÍÌÏÌÌÏÍÍÌÏÌÍÍÏÌÏÍÍÍÌÍÏ; // 0x18
-        public string ÍÎÏÌÏÏÍÎÎÎÎÏÎÌÌÎÏÎÍÏÎÍÍ; // 0x20
-        public string ÎÎÎÌÏÍÏÎÏÎÍÌÏÏÏÍÍÎÍÌÏÌÌ; // 0x28
-        public bool ÌÍÍÏÎÍÏÎÌÎÌÎÍÍÏÍÏÏÌÏÌÏÎ; // 0x30
+        public void .ctor(){} // RVA: 0x7FFAC33D6D50
     }
 
     /// <summary>Originally: ÌÍÍÏÌÌÏÎÎÎÎÌÌÍÍÍÌÌÍÌÎÎÎ</summary>
@@ -55,21 +53,21 @@ namespace VRC.Internal.Generated
         public string ÏÎÏÎÎÍÏÌÌÎÌÎÎÍÌÍÎÏÏÍÍÍÌ; // 0x28
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD56C0A410
-        public void InternalEquals(){} // RVA: 0x7FFD56C0A550
-        public void DefaultEquals(){} // RVA: 0x7FFD56C0A6F0
-        public void GetHashCode(){} // RVA: 0x7FFD56C0A890
-        public void InternalGetHashCode(){} // RVA: 0x7FFD56C0A9C0
-        public void ToString(){} // RVA: 0x7FFD56C0AAF0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD56C0ACA0
-        public void ToString_33B42EE62268(){} // RVA: 0x7FFD56C0ADE0
-        public void ValidateStructPointers(){} // RVA: 0x7FFD56C0AF80
+        public void Equals(){} // RVA: 0x7FFACB7EA410
+        public void InternalEquals(){} // RVA: 0x7FFACB7EA550
+        public void DefaultEquals(){} // RVA: 0x7FFACB7EA6F0
+        public void GetHashCode(){} // RVA: 0x7FFACB7EA890
+        public void InternalGetHashCode(){} // RVA: 0x7FFACB7EA9C0
+        public void ToString(){} // RVA: 0x7FFACB7EAAF0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFACB7EACA0
+        public void ToString_33B42EE62268(){} // RVA: 0x7FFACB7EADE0
+        public void ValidateStructPointers(){} // RVA: 0x7FFACB7EAF80
     }
 
     /// <summary>Originally: ÍÍÏÌÎÌÍÏÎÎÏÍÏÏÏÍÎÏÍÏÍÏÍ</summary>
     public class EmptyStruct_0EE8 : ValueType
     {
-        public 0x664D6400 ÏÎÍÎÌÏÍÌÏÎÎÍÍÎÌÎÏÏÏÍÌÌÎ; // 0x10
+        public ÌÏÌÏÎÏÍÌÍÏÌÌÍÎÏÎÏÌÌÏÏÎÌ ÏÎÍÎÌÏÍÌÏÎÎÍÍÎÌÎÏÏÏÍÌÌÎ; // 0x10
         public string ÎÎÌÎÎÎÍÎÌÎÏÌÌÏÎÌÍÍÎÏÏÌÍ; // 0x18
         public VRC.Localization.LocalizableString ÍÎÌÏÏÎÎÌÎÎÏÌÏÍÌÎÏÎÌÎÎÎÌ; // 0x20
         public bool ÎÎÎÏÏÌÏÎÍÎÏÍÎÍÎÌÏÌÍÎÎÏÌ; // 0x48
@@ -83,48 +81,68 @@ namespace VRC.Internal.Generated
         public UnityEngine.Vector3 ÍÏÍÌÎÎÍÎÎÌÍÎÎÎÍÌÍÌÏÎÍÌÌ; // 0x14
     }
 
-    /// <summary>Originally: ÎÌÍÍÏÏÏÎÏÎÌÏÎÎÌÍÏÎÍÏÌÍÌ</summary>
-    public class EmptyStruct_1C2E : ValueType
+    /// <summary>Originally: ÍÍÏÍÍÌÍÌÍÎÍÌÎÏÌÎÏÌÌÏÏÏÌ</summary>
+    public class EmptyStruct_14A8 : ValueType
     {
-        public ÏÏÌÏÍÌÎÍÍÏÌÏÏÎÎÍÌÍÍÌÏÏÎ ÍÌÎÌÏÌÌÌÏÍÎÍÎÍÎÎÍÏÎÏÏÍÍ; // 0x10
-        public UnityEngine.Texture2D ÌÎÌÎÎÎÏÏÌÍÏÏÏÍÏÌÌÏÏÍÎÍÏ; // 0x28
     }
 
-    /// <summary>Originally: ÍÏÏÍÌÍÎÍÎÏÌÍÏÎÍÌÍÎÏÎÍÎÎ</summary>
-    public class EmptyStruct_1D9B : ValueType
+    /// <summary>Originally: ÍÍÌÎÎÌÎÎÏÍÎÏÏÌÏÍÏÎÌÎÍÌÍ</summary>
+    public class EmptyStruct_150E : ValueType
     {
-        public VRC.Dynamics.ChainId ÌÌÎÏÌÍÌÎÌÌÌÎÍÎÏÍÌÍÎÍÎÏÍ; // 0x10
-        public int ÌÍÍÌÏÌÍÏÍÌÌÏÍÎÌÌÎÌÌÎÎÏÌ; // 0x20
-        public int ÌÌÍÏÎÏÍÍÌÍÏÎÏÌÏÎÏÏÍÏÍÏÏ; // 0x24
     }
 
     /// <summary>Originally: ÌÍÍÍÍÎÌÌÎÍÎÍÍÎÌÎÌÌÍÏÍÎÎ</summary>
-    public class EmptyStruct_1DB9 : ValueType
+    public class EmptyStruct_1DB9_1DB9 : ValueType
     {
         public Mediapipe.Detection ÌÍÍÎÏÏÍÌÎÎÎÎÌÏÎÍÍÎÎÌÍÌÌ; // 0x10
-        public 0x66572768 ÌÍÍÎÍÍÎÎÏÏÍÍÎÎÍÏÎÌÍÏÏÏÎ; // 0x18
-        public 0x66572558 ÍÍÌÏÌÍÌÏÎÍÎÍÍÍÌÎÌÏÍÍÎÌÏ; // 0x20
+        public Mediapipe.NormalizedLandmarkList ÌÍÍÎÍÍÎÎÏÏÍÍÎÎÍÏÎÌÍÏÏÏÎ; // 0x18
+        public Mediapipe.LandmarkList ÍÍÌÏÌÍÌÏÎÍÎÍÍÍÌÎÌÏÍÍÎÌÏ; // 0x20
         public Mediapipe.ImageFrame ÏÎÎÌÏÎÍÎÏÍÏÌÌÎÍÎÍÍÍÏÎÎÍ; // 0x28
-        public 0x66573000 ÌÌÏÌÏÏÏÍÌÎÏÏÎÌÌÎÌÌÏÏÍÍÏ; // 0x30
+        public Mediapipe.NormalizedRect ÌÌÏÌÏÏÏÍÌÎÏÏÎÌÌÎÌÌÏÏÍÍÏ; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4F87AE70
+        public void .ctor(){} // RVA: 0x7FFAC445AE70
+    }
+
+    /// <summary>Originally: ÍÍÍÏÎÌÌÌÍÏÌÎÎÍÌÏÌÎÎÍÎÎÌ</summary>
+    public class EmptyStruct_20F1 : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÍÍÏÏÍÍÍÎÍÎÌÍÌÏÎÍÍÎÌÌÌÏÏ</summary>
+    public class EmptyStruct_2107 : ValueType
+    {
+        public ÌÎÍÏÏÏÎÍÏÎÏÍÏÎÏÏÎÏÍÎÎÎÌ ÎÍÎÎÏÌÌÏÏÍÎÏÎÍÏÎÌÎÍÏÏÎÌ; // 0x10
+        public bool ÎÌÌÏÍÍÏÏÏÏÍÍÌÍÌÌÌÌÍÌÌÍÏ; // 0x18
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAC493A170
+        public void InternalEquals(){} // RVA: 0x7FFAC493A290
+        public void DefaultEquals(){} // RVA: 0x7FFAC493A3B0
+        public void GetHashCode(){} // RVA: 0x7FFAC493A4D0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC493A5F0
+        public void ToString(){} // RVA: 0x7FFAC493A710
+    }
+
+    /// <summary>Originally: ÍÍÌÎÌÏÎÎÌÏÌÍÍÌÍÏÍÎÌÏÎÎÌ</summary>
+    public class EmptyStruct_2293 : ValueType
+    {
     }
 
     /// <summary>Originally: ÌÍÍÎÎÎÍÎÏÏÏÍÏÎÎÍÏÍÌÎÏÏÌ</summary>
-    public class EmptyStruct_23C1 : ValueType
+    public class EmptyStruct_23C1_23C1 : ValueType
     {
         public System.Collections.Generic.List`1<Mediapipe.Detection> ÎÌÌÌÌÏÍÏÎÏÌÎÌÌÏÏÎÍÌÎÎÎÎ; // 0x10
-        public System.Collections.Generic.List`1<0x66572768> ÌÎÏÎÌÌÎÌÍÍÍÎÍÌÍÎÍÌÎÌÎÏÍ; // 0x18
-        public System.Collections.Generic.List`1<0x66573000> ÏÌÍÏÏÌÌÍÎÌÏÎÏÍÎÍÌÌÍÌÌÍÎ; // 0x20
-        public System.Collections.Generic.List`1<0x66573000> ÏÍÍÌÎÍÎÎÍÌÍÏÌÍÌÎÏÎÎÏÌÌÌ; // 0x28
+        public System.Collections.Generic.List`1<Mediapipe.NormalizedLandmarkList> ÌÎÏÎÌÌÎÌÍÍÍÎÍÌÍÎÍÌÎÌÎÏÍ; // 0x18
+        public System.Collections.Generic.List`1<Mediapipe.NormalizedRect> ÏÌÍÏÏÌÌÍÎÌÏÎÏÍÎÍÌÌÍÌÌÍÎ; // 0x20
+        public System.Collections.Generic.List`1<Mediapipe.NormalizedRect> ÏÍÍÌÎÍÎÎÍÌÍÏÌÍÌÎÏÎÎÏÌÌÌ; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4F8B4D00
+        public void .ctor(){} // RVA: 0x7FFAC4494D00
     }
 
     /// <summary>Originally: ÌÏÌÌÍÍÍÍÎÍÍÎÏÍÎÍÎÎÎÎÌÎÏ</summary>
-    public class EmptyStruct_2885 : ValueType
+    public class EmptyStruct_2885_2885 : ValueType
     {
         public string ÏÎÌÏÌÍÌÌÏÍÌÌÎÎÎÌÏÎÎÍÍÍÏ; // 0x10
         public int ÏÏÏÏÏÌÏÌÍÏÌÎÍÏÍÍÎÌÍÍÍÌÍ; // 0x18
@@ -132,17 +150,12 @@ namespace VRC.Internal.Generated
         public string ÏÌÎÍÌÎÏÏÏÍÎÎÍÎÌÏÍÍÎÍÎÏÎ; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4EAB7C80
+        public void .ctor(){} // RVA: 0x7FFAC3697C80
     }
 
-    /// <summary>Originally: ÎÌÌÏÌÌÍÎÎÏÏÍÍÍÏÏÌÏÏÌÌÎÏ</summary>
-    public class EmptyStruct_2A21 : ValueType
+    /// <summary>Originally: ÌÎÌÎÍÏÎÌÍÍÎÌÏÍÍÏÌÍÏÏÍÌÍ</summary>
+    public class EmptyStruct_28A1 : ValueType
     {
-        public float ÎÎÏÎÏÎÌÌÍÌÍÌÎÎÍÎÌÏÎÏÌÍÏ; // 0x10
-        public VRC.Localization.LocalizableString ÎÏÌÎÎÍÌÏÍÌÌÍÌÍÎÏÎÌÍÎÍÏÏ; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD56CFC500
     }
 
     /// <summary>Originally: ÍÌÍÌÏÍÍÏÏÌÍÏÎÏÎÏÌÎÌÏÌÌÌ</summary>
@@ -153,18 +166,8 @@ namespace VRC.Internal.Generated
         public System.Collections.Generic.List`1<System.Action> ÏÌÍÌÍÏÍÏÍÌÌÍÎÎÎÏÌÍÍÌÏÏÏ; // 0x20
     }
 
-    /// <summary>Originally: ÎÌÍÏÎÎÍÏÌÏÌÌÎÌÏÌÍÌÏÏÏÌÍ</summary>
-    public class EmptyStruct_2EF9 : ValueType
-    {
-        public string ÎÎÍÌÏÎÏÎÌÍÎÌÎÍÌÎÍÌÏÌÏÏÍ;
-        public string ÎÍÎÌÍÍÌÌÍÎÎÍÎÏÎÏÏÍÍÏÎÍÍ;
-        public string ÍÏÌÎÌÌÏÎÎÏÍÏÏÎÌÎÍÏÍÍÎÌÎ;
-        public string ÎÏÌÌÎÎÎÏÌÏÌÍÎÏÎÏÌÍÌÎÎÏÎ;
-        public string ÏÍÎÏÍÌÏÍÍÍÎÎÎÍÏÏÍÏÎÎÌÍÏ;
-    }
-
     /// <summary>Originally: ÍÌÏÏÍÏÍÏÌÏÍÌÍÏÎÏÏÌÍÎÎÌÎ</summary>
-    public class EmptyStruct_2FF0 : ValueType
+    public class EmptyStruct_2FF0_2FF0 : ValueType
     {
         public VRC.Localization.LocalizableString ÏÎÌÎÌÍÎÏÌÏÍÌÍÌÍÎÏÎÌÌÏÌÌ; // 0x10
         public VRC.Localization.LocalizableString ÏÏÍÌÏÍÎÍÌÌÍÌÌÍÍÏÏÎÌÌÌÏÏ; // 0x38
@@ -175,25 +178,20 @@ namespace VRC.Internal.Generated
         public bool ÎÍÏÍÎÌÎÌÎÏÌÌÏÍÌÎÎÏÍÍÏÌÍ; // 0x100
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4F781E70
+        public void .ctor(){} // RVA: 0x7FFAC4361E70
     }
 
-    /// <summary>Originally: ÍÏÍÎÏÎÎÌÎÍÏÌÌÍÎÌÏÍÌÏÎÍÌ</summary>
-    public class EmptyStruct_3743 : ValueType
+    /// <summary>Originally: ÌÏÌÍÍÍÏÎÌÎÎÎÎÎÏÌÍÏÌÌÎÌÌ</summary>
+    public class EmptyStruct_3694 : ValueType
     {
-        public UnityEngine.Matrix4x4 ÏÎÍÏÌÏÏÏÍÍÍÍÎÌÎÌÏÌÌÌÌÏÏ; // 0x10
-        public UnityEngine.Bounds ÏÎÍÌÏÎÌÏÍÏÌÎÌÎÍÎÎÍÎÌÍÎÏ; // 0x50
-        public float ÎÌÍÎÏÎÎÍÏÍÏÍÎÌÌÎÏÍÍÍÏÎÎ; // 0x68
-        public UnityEngine.Vector3 ÎÍÏÎÍÍÌÎÌÍÏÏÍÌÏÎÏÏÍÍÌÏÌ; // 0x6C
+        public int ÎÍÎÏÏÌÎÎÏÏÍÌÎÍÌÏÌÏÏÎÍÎÎ; // 0x10
+        public int ÍÏÏÌÌÏÎÌÎÍÏÏÌÌÌÌÏÍÎÎÏÌÌ; // 0x14
+        public int ÌÏÎÏÌÍÎÌÏÏÍÍÍÏÌÌÎÌÏÍÍÏÎ; // 0x18
     }
 
-    /// <summary>Originally: ÎÍÍÌÏÌÍÎÏÌÍÏÍÍÏÎÍÌÌÎÌÌÎ</summary>
-    public class EmptyStruct_3B86 : ValueType
+    /// <summary>Originally: ÍÍÎÍÎÍÎÎÌÏÏÏÌÎÍÏÍÎÎÌÎÏÏ</summary>
+    public class EmptyStruct_37C9 : ValueType
     {
-        public int ÌÎÌÏÎÌÏÏÏÌÎÏÎÌÏÏÎÌÍÍÍÎÍ; // 0x10
-        public float ÏÌÌÍÌÎÎÍÍÍÎÏÎÌÍÏÏÌÌÏÌÏÍ; // 0x14
-        public float ÏÎÏÏÏÎÌÎÎÏÎÏÌÍÏÏÌÍÍÍÎÎÏ; // 0x18
-        public float ÌÏÏÌÌÏÏÎÏÏÍÏÎÌÎÍÏÏÍÏÍÏÌ; // 0x1C
     }
 
     /// <summary>Originally: ÌÌÍÍÏÎÏÌÍÍÍÌÌÎÎÎÌÎÌÌÍÏÎ</summary>
@@ -233,19 +231,6 @@ namespace VRC.Internal.Generated
         public bool ÏÏÍÏÎÏÏÌÌÎÎÍÎÍÎÍÎÏÍÎÎÌÏ; // 0x4C
     }
 
-    /// <summary>Originally: ÍÎÍÎÎÎÏÎÍÏÌÎÎÍÍÍÎÏÌÍÎÎÏ</summary>
-    public class EmptyStruct_42B0 : ValueType
-    {
-        public ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ ÎÍÌÏÌÎÎÍÍÌÍÌÏÍÍÎÎÌÌÎÎÍÎ; // 0x10
-        public ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ ÌÎÌÍÎÎÍÌÌÍÍÏÏÌÏÌÍÎÌÎÏÌÍ; // 0x18
-        public ÍÏÌÌÍÎÍÍÏÍÎÎÎÍÌÍÌÍÎÏÎÌÏ ÏÍÌÏÏÍÏÏÌÍÍÎÌÍÏÍÎÍÍÎÏÍÌ; // 0x20
-        public VRC.Localization.LocalizableString ÍÌÌÍÌÎÌÏÎÏÍÌÌÍÎÎÍÌÏÎÎÎÏ; // 0x28
-        public VRC.Localization.LocalizableString ÌÍÍÌÏÌÏÍÌÍÌÌÏÌÍÍÌÍÎÍÏÎÍ; // 0x50
-        public VRC.Localization.LocalizableString ÍÌÌÎÏÎÏÏÌÏÌÏÌÌÍÏÌÍÌÎÍÌÍ; // 0x78
-        public bool ÏÎÏÍÌÍÏÎÎÍÎÍÏÎÏÏÌÍÍÎÌÍÏ; // 0xA0
-        public bool ÌÍÎÏÏÍÏÏÌÍÎÌÌÍÏÏÎÏÌÏÏÏÎ; // 0xA1
-    }
-
     /// <summary>Originally: ÌÏÎÌÍÎÎÏÌÌÏÍÎÌÌÍÍÎÍÎÏÍÎ</summary>
     public class EmptyStruct_4576 : ValueType
     {
@@ -260,21 +245,33 @@ namespace VRC.Internal.Generated
         public bool ÏÌÌÌÌÏÎÎÏÎÍÌÍÍÌÎÏÏÌÏÏÏÍ; // 0x18
     }
 
-    /// <summary>Originally: ÍÎÍÏÌÎÌÎÍÏÎÍÌÍÏÎÌÌÌÍÍÌÎ</summary>
-    public class EmptyStruct_4E6D : ValueType
+    /// <summary>Originally: ÌÍÍÍÏÌÌÎÍÎÍÏÎÌÌÎÌÎÎÍÏÌÏ</summary>
+    public class EmptyStruct_4B8B : ValueType
     {
-        public int ÌÎÍÏÍÏÎÎÍÌÌÌÍÏÌÌÍÏÎÍÍÏÍ; // 0x10
-        public Photon.Client.EventData ÍÍÍÍÎÏÎÎÏÌÎÎÍÍÏÍÎÏÍÌÏÏÍ; // 0x18
-        public int ÏÏÌÎÏÏÎÎÌÌÎÌÌÏÍÏÌÌÌÏÌÍÏ; // 0x20
+    }
+
+    /// <summary>Originally: ÌÏÏÍÏÌÍÍÍÏÏÌÎÌÎÍÌÎÍÏÌÍÍ</summary>
+    public class EmptyStruct_4CA1 : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÌÎÌÏÎÎÏÏÎÎÍÌÌÍÎÌÌÌÏÌÍÎÏ</summary>
+    public class EmptyStruct_4E15 : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÌÍÌÍÏÎÌÏÎÎÎÍÎÍÍÏÏÌÎÏÏÌÏ</summary>
+    public class EmptyStruct_4E47 : ValueType
+    {
     }
 
     /// <summary>Originally: ÌÌÏÍÎÏÏÏÎÌÎÎÏÌÏÏÍÌÎÍÍÍÏ</summary>
     public class EmptyStruct_506F : ValueType
     {
-        public 0x6635F488 ÌÌÌÎÏÏÎÎÏÌÏÎÌÍÏÎÏÍÎÌÌÌÌ; // 0x10
-        public 0x6635F488 ÌÏÌÍÎÌÍÎÏÎÏÍÏÎÎÎÏÍÏÍÌÍÎ; // 0x14
-        public 0x6635F488 ÌÏÍÎÏÏÌÎÌÌÎÎÏÌÌÌÏÏÍÎÏÌÌ; // 0x18
-        public 0x6635F488 ÌÍÎÌÎÏÍÍÏÍÎÌÎÎÎÍÍÏÌÏÍÎÏ; // 0x1C
+        public 0x6AFFF488 ÌÌÌÎÏÏÎÎÏÌÏÎÌÍÏÎÏÍÎÌÌÌÌ; // 0x10
+        public 0x6AFFF488 ÌÏÌÍÎÌÍÎÏÎÏÍÏÎÎÎÏÍÏÍÌÍÎ; // 0x14
+        public 0x6AFFF488 ÌÏÍÎÏÏÌÎÌÌÎÎÏÌÌÌÏÏÍÎÏÌÌ; // 0x18
+        public 0x6AFFF488 ÌÍÎÌÎÏÍÍÏÍÎÌÎÎÎÍÍÏÌÏÍÎÏ; // 0x1C
         public bool ÎÍÎÌÍÍÏÌÌÏÍÏÎÎÌÏÌÎÎÍÌÍÌ; // 0x20
         public bool ÍÏÏÏÍÏÍÍÏÍÏÏÎÎÏÌÎÌÏÌÌÎÌ; // 0x21
         public bool ÏÍÏÏÎÌÌÏÎÎÏÍÍÎÍÏÌÍÏÍÌÍÌ; // 0x22
@@ -293,29 +290,22 @@ namespace VRC.Internal.Generated
         public bool ÍÎÌÌÎÏÍÏÌÍÌÎÌÌÎÎÍÍÏÏÎÌÍ; // 0x70
     }
 
-    /// <summary>Originally: ÎÌÌÍÏÌÍÌÌÎÌÏÌÌÌÎÎÎÏÍÍÏÎ</summary>
-    public class EmptyStruct_5D2F : ValueType
+    /// <summary>Originally: ÍÍÏÍÎÎÎÍÏÏÌÍÎÌÍÌÏÎÎÌÎÏÍ</summary>
+    public class EmptyStruct_5A82 : ValueType
     {
-        public object ÏÍÏÌÏÍÏÍÎÏÎÍÍÎÍÎÍÌÎÏÍÏÌ;
-        public int ÍÍÍÏÍÌÏÎÏÏÍÎÏÎÍÎÌÏÌÏÍÌÏ;
-
-        // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x7FFD4E079960
-        public void Equals(){} // RVA: 0x7FFD4E079F60 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFD4E097970
     }
 
     /// <summary>Originally: ÌÍÍÍÌÎÎÎÍÌÎÍÍÍÌÎÌÏÏÍÎÍÍ</summary>
     public class EmptyStruct_5D33 : ValueType
     {
         public ÌÍÍÍÌÎÎÎÍÌÎÍÍÍÌÎÌÏÏÍÎÍÍ ÌÏÏÍÍÌÍÍÌÏÏÍÎÍÍÏÍÏÌÍÏÏÌ;
-        public 0x66378348 ÍÎÎÎÏÏÏÏÏÏÍÌÌÎÎÍÎÎÌÏÌÍÌ; // 0x10
+        public 0x6B018348 ÍÎÎÎÏÏÏÏÏÏÍÌÌÎÎÍÎÎÌÏÌÍÌ; // 0x10
         public byte ÏÏÎÌÍÌÏÏÌÍÍÌÌÌÏÌÏÌÏÍÏÍÎ; // 0x11
         public int[] ÌÍÎÏÌÌÏÍÌÌÎÏÏÏÌÏÏÍÍÏÏÍÎ; // 0x18
-        public 0x663782F0 ÍÍÍÎÌÌÏÎÎÏÍÌÍÌÏÏÍÍÍÌÏÍÍ; // 0x20
+        public 0x6B0182F0 ÍÍÍÎÌÌÏÎÎÏÍÌÍÌÏÏÍÍÍÌÏÍÍ; // 0x20
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFD4E341310
+        public void .cctor(){} // RVA: 0x7FFAC2F21310
     }
 
     /// <summary>Originally: ÍÍÏÏÌÌÍÎÌÌÌÌÏÌÎÎÏÎÍÌÌÎÏ</summary>
@@ -327,19 +317,26 @@ namespace VRC.Internal.Generated
         public UnityEngine.Vector3 ÌÎÎÌÎÍÎÌÌÍÌÌÏÏÌÏÏÏÌÌÏÌÍ; // 0x34
     }
 
+    /// <summary>Originally: ÌÍÌÍÍÎÍÏÎÎÍÎÌÍÍÌÌÏÎÍÍÎÍ</summary>
+    public class EmptyStruct_6385 : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÍÍÍÌÏÏÎÍÏÎÍÍÏÏÎÎÍÏÎÎÏÌÎ</summary>
+    public class EmptyStruct_6722 : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÍÍÍÏÍÎÌÏÎÏÍÌÍÍÌÌÏÍÏÎÏÍÌ</summary>
+    public class EmptyStruct_672B : ValueType
+    {
+    }
+
     /// <summary>Originally: ÌÏÍÏÍÍÎÍÌÍÍÌÎÏÏÎÎÎÍÍÌÍÎ</summary>
     public class EmptyStruct_6AFC : ValueType
     {
         public System.Nullable`1<float> ÏÏÌÌÎÌÌÏÌÍÎÍÏÍÏÏÍÏÌÌÍÎÎ; // 0x10
         public System.Nullable`1<float> ÏÎÏÎÎÏÎÍÎÎÍÎÎÎÌÍÌÌÍÌÌÌÍ; // 0x18
-    }
-
-    /// <summary>Originally: ÍÎÏÎÏÌÌÌÍÎÌÏÌÏÍÌÏÎÎÌÌÏÎ</summary>
-    public class EmptyStruct_6B92 : ValueType
-    {
-        public UnityEngine.Terrain ÌÏÌÏÌÏÎÏÏÌÌÎÎÍÎÏÎÌÌÏÍÍÌ; // 0x10
-        public ÍÎÍÎÌÍÌÍÏÎÎÌÌÎÎÎÍÍÌÎÎÌÌ[] ÎÎÍÌÏÌÎÍÌÌÌÏÌÍÎÍÌÍÎÏÌÌÌ; // 0x18
-        public UnityEngine.Mesh[] ÏÍÌÏÌÎÏÍÎÎÍÌÍÍÎÌÍÏÎÏÎÌÌ; // 0x20
     }
 
     /// <summary>Originally: ÌÏÏÌÏÌÏÎÍÌÌÏÍÍÎÎÍÍÌÎÌÌÌ</summary>
@@ -349,41 +346,44 @@ namespace VRC.Internal.Generated
         public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ ÎÌÍÌÌÎÎÏÎÍÎÍÎÍÏÎÍÌÏÌÌÍÏ; // 0x18
     }
 
-    /// <summary>Originally: ÍÎÍÍÍÌÎÏÌÌÌÎÌÌÌÎÏÌÏÏÏÎÌ</summary>
-    public class EmptyStruct_7537 : ValueType
+    /// <summary>Originally: ÌÌÎÌÍÍÌÌÎÌÏÌÍÏÌÏÌÍÌÍÎÌÏ</summary>
+    public class EmptyStruct_7126 : ValueType
     {
-        public System.Nullable`1<UnityEngine.Vector3> ÌÎÏÎÍÌÍÎÎÍÎÎÎÎÌÎÌÏÌÏÎÏÍ; // 0x10
-        public System.Nullable`1<UnityEngine.Quaternion> ÎÌÌÌÌÌÌÌÌÍÏÏÏÌÍÌÎÏÍÌÌÌÌ; // 0x20
-        public System.Nullable`1<UnityEngine.Vector3> ÌÏÌÎÎÎÏÌÍÎÍÎÎÌÌÏÍÌÌÍÏÏÎ; // 0x34
-        public System.Nullable`1<UnityEngine.Quaternion> ÏÏÎÏÎÏÏÏÏÌÌÏÏÎÌÌÎÌÎÌÎÌÍ; // 0x44
-        public UnityEngine.Transform ÌÏÌÏÌÍÏÍÌÏÍÍÏÎÎÍÍÎÎÍÏÎÎ; // 0x58
-        public UnityEngine.Transform ÌÏÏÎÍÏÍÌÌÌÏÎÍÍÏÎÏÌÎÎÏÏÎ; // 0x60
-        public UnityEngine.Transform ÍÌÏÍÌÏÌÍÌÎÎÎÎÌÍÌÎÏÌÌÎÍÌ; // 0x68
-        public uint ÎÎÍÎÌÎÎÍÌÌÏÌÍÌÎÍÏÌÍÎÎÍÌ; // 0x70
-        public bool ÍÎÌÌÎÏÍÏÌÍÌÎÌÌÎÎÍÍÏÏÎÌÍ; // 0x74
     }
 
-    /// <summary>Originally: ÎÌÏÏÎÏÌÏÍÌÏÎÏÌÎÎÏÌÌÍÏÏÍ</summary>
-    public class EmptyStruct_78BA : ValueType
+    /// <summary>Originally: ÌÎÏÏÌÌÏÍÏÏÍÏÍÎÎÏÌÍÍÏÏÏÌ</summary>
+    public class EmptyStruct_71A4 : ValueType
     {
-        public ÌÎÌÌÍÌÏÏÍÎÏÏÏÍÌÌÎÎÍÌÏÎÎ ÎÎÍÌÏÍÎÎÏÌÌÏÌÍÍÍÍÌÍÎÍÌÎ; // 0x10
-        public ÌÏÍÌÏÎÎÏÍÍÏÏÌÎÎÍÌÍÌÌÍÎÌ ÍÍÎÌÏÌÍÍÏÎÍÏÎÌÏÏÎÌÌÎÏÌÌ; // 0x18
     }
 
-    /// <summary>Originally: ÍÏÌÌÏÍÍÎÍÏÍÌÌÎÎÌÏÌÏÏÎÍÍ</summary>
-    public class EmptyStruct_7C00 : ValueType
+    /// <summary>Originally: ÍÍÌÏÎÍÎÎÍÍÌÌÏÍÌÌÍÏÍÏÌÍÏ</summary>
+    public class EmptyStruct_757E : ValueType
     {
-        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite ÎÌÎÍÏÌÌÍÎÎÎÎÌÏÏÎÌÌÏÍÎÎÏ; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4ECFFE40
     }
 
-    /// <summary>Originally: ÍÎÍÌÎÌÌÎÌÍÏÌÏÌÏÏÌÍÌÌÏÏÏ</summary>
-    public class EmptyStruct_838B : ValueType
+    /// <summary>Originally: ÌÏÏÏÏÌÌÏÌÎÎÍÏÎÌÌÏÍÍÏÎÎÎ</summary>
+    public class EmptyStruct_7E8E : ValueType
     {
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.WorldMetadataT ÌÍÌÌÏÍÎÏÌÎÌÌÎÍÍÌÏÎÎÏÍÌÎ; // 0x10
-        public ÍÏÌÏÎÎÎÏÍÏÎÏÌÏÎÎÍÍÍÏÌÍÏ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
+    }
+
+    /// <summary>Originally: ÌÏÎÎÎÌÍÎÏÎÌÌÏÌÌÏÏÌÍÏÍÍÎ</summary>
+    public class EmptyStruct_8769 : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÍÍÌÏÌÎÏÏÍÎÌÏÎÎÍÎÌÍÌÏÎÍÌ</summary>
+    public class EmptyStruct_88A4 : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÌÏÍÍÌÎÌÎÍÍÍÎÏÌÌÍÍÌÎÍÍÏÌ</summary>
+    public class EmptyStruct_8947 : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÍÍÏÏÌÎÎÌÌÎÎÍÏÏÌÍÏÌÏÎÎÎÏ</summary>
+    public class EmptyStruct_8A29 : ValueType
+    {
     }
 
     /// <summary>Originally: ÌÌÎÏÏÎÏÌÎÌÎÍÌÍÍÎÌÏÌÏÌÏÏ</summary>
@@ -393,7 +393,12 @@ namespace VRC.Internal.Generated
         public float ÏÍÏÌÏÍÏÍÎÏÎÍÍÎÍÎÍÌÎÏÍÏÌ; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4EFCF7D0
+        public void .ctor(){} // RVA: 0x7FFAC3BAF7D0
+    }
+
+    /// <summary>Originally: ÌÍÏÎÎÍÏÎÌÌÍÍÏÎÎÏÏÌÌÍÏÌÏ</summary>
+    public class EmptyStruct_8DF2 : ValueType
+    {
     }
 
     /// <summary>Originally: ÌÍÌÌÎÌÎÌÏÍÍÎÎÏÎÎÏÌÍÏÏÍÎ</summary>
@@ -402,25 +407,9 @@ namespace VRC.Internal.Generated
         public VRC.Dynamics.VRCConstraintBase ÏÍÎÏÏÍÎÎÍÍÌÏÌÍÍÎÍÍÏÍÎÏÏ; // 0x10
     }
 
-    /// <summary>Originally: ÎÌÏÌÌÌÍÍÌÌÌÎÌÌÎÍÏÏÌÎÌÎÎ</summary>
-    public class EmptyStruct_9032 : ValueType
+    /// <summary>Originally: ÌÏÍÎÌÏÏÌÏÏÏÏÌÍÏÏÌÍÌÎÍÍÏ</summary>
+    public class EmptyStruct_90FE : ValueType
     {
-        public ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ ÌÎÌÍÎÎÍÌÌÍÍÏÏÌÏÌÍÎÌÎÏÌÍ; // 0x10
-        public int ÌÎÍÎÎÏÌÍÎÏÏÎÏÏÌÌÌÏÎÍÍÌÏ; // 0x18
-        public int ÍÎÍÎÌÎÏÏÎÌÏÎÎÌÌÌÍÏÎÏÍÌÏ; // 0x1C
-        public System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ> ÌÏÎÎÏÏÎÏÌÌÍÎÏÍÌÎÌÍÏÏÍÌÍ; // 0x20
-        public bool ÍÎÎÍÏÍÌÍÍÎÎÏÌÏÏÎÌÌÏÌÏÏÏ; // 0x28
-        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ ÌÌÏÌÎÎÌÌÏÏÍÍÎÎÍÍÏÎÍÏÌÎÌ; // 0x30
-    }
-
-    /// <summary>Originally: ÍÏÍÌÏÏÏÍÌÎÎÌÏÍÌÏÌÎÏÎÍÌÏ</summary>
-    public class EmptyStruct_938C : ValueType
-    {
-        public uint ÌÎÌÏÎÌÏÏÏÌÎÏÎÌÏÏÎÌÍÍÍÎÍ; // 0x10
-        public 0x66569C88 ÏÍÌÌÏÏÏÎÌÏÌÎÌÎÌÏÏÍÌÎÍÌÎ; // 0x14
-        public float ÏÌÌÍÌÎÎÍÍÍÎÏÎÌÍÏÏÌÌÏÌÏÍ; // 0x18
-        public float ÏÎÏÏÏÎÌÎÎÏÎÏÌÍÏÏÌÍÍÍÎÎÏ; // 0x1C
-        public float ÌÏÏÌÌÏÏÎÏÏÍÏÎÌÎÍÏÏÍÏÍÏÌ; // 0x20
     }
 
     /// <summary>Originally: ÌÍÌÍÍÏÌÌÌÍÍÎÍÏÌÏÏÌÎÌÌÍÌ</summary>
@@ -436,47 +425,41 @@ namespace VRC.Internal.Generated
         public string ÍÌÎÌÏÌÌÌÏÍÎÍÎÍÎÎÍÏÎÏÏÍÍ; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4F5CE4B0
-    }
-
-    /// <summary>Originally: ÎÌÍÎÌÍÏÍÌÎÏÍÍÎÏÏÏÍÎÌÏÌÏ</summary>
-    public class EmptyStruct_A274 : ValueType
-    {
-        public bool ÏÏÎÎÏÏÏÎÎÏÌÌÎÎÎÌÏÌÎÍÎÌÏ; // 0x10
+        public void .ctor(){} // RVA: 0x7FFAC41AE4B0
     }
 
     /// <summary>Originally: ÍÌÍÏÏÌÌÍÍÏÍÎÍÏÎÍÏÏÎÎÍÌÍ</summary>
     public class EmptyStruct_A543 : ValueType
     {
         public System.Collections.Generic.List`1<Mediapipe.Detection> ÎÌÌÌÌÏÍÏÎÏÌÎÌÌÏÏÎÍÌÎÎÎÎ; // 0x10
-        public 0x66573000 ÍÍÎÌÎÍÎÏÌÍÎÍÍÎÏÏÍÎÍÌÏÍÏ; // 0x18
-        public 0x66572768 ÎÏÌÍÏÏÌÏÎÌÎÎÌÎÍÎÎÎÏÌÌÏÌ; // 0x20
+        public Mediapipe.NormalizedRect ÍÍÎÌÎÍÎÏÌÍÎÍÍÎÏÏÍÎÍÌÏÍÏ; // 0x18
+        public Mediapipe.NormalizedLandmarkList ÎÏÌÍÏÏÌÏÎÌÎÎÌÎÍÎÎÎÏÌÌÏÌ; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4F88FCC0
+        public void .ctor(){} // RVA: 0x7FFAC446FCC0
+    }
+
+    /// <summary>Originally: ÌÍÏÎÎÎÌÍÏÍÌÍÏÏÎÎÎÌÌÌÏÎÎ</summary>
+    public class EmptyStruct_A80A : ValueType
+    {
+        public string ÏÍÌÎÌÍÌÏÏÎÏÍÎÌÌÎÎÏÎÌÎÏÍ; // 0x10
+        public string ÎÏÏÎÍÏÍÍÎÌÍÏÎÌÍÏÌÎÍÎÌÌÎ; // 0x18
     }
 
     /// <summary>Originally: ÌÏÎÏÍÎÌÏÎÍÎÌÍÏÌÌÌÌÏÌÌÎÍ</summary>
-    public class EmptyStruct_A8A0 : ValueType
+    public class EmptyStruct_A8A0_A8A0 : ValueType
     {
         public string ÌÏÍÏÏÍÍÎÏÍÍÎÏÌÏÎÎÍÏÏÌÏÌ; // 0x10
-        public X ÌÏÍÎÌÍÏÍÌÌÏÍÏÎÎÌÎÎÏÎÍÎÎ; // 0x18
+        public 0x6B02BC70 ÌÏÍÎÌÍÏÍÌÌÏÍÏÎÎÌÎÎÏÎÍÎÎ; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E77C3C0
+        public void .ctor(){} // RVA: 0x7FFAC335C3C0
     }
 
     /// <summary>Originally: ÌÌÍÍÎÌÌÌÌÌÏÏÏÌÍÏÏÌÎÎÌÏÌ</summary>
     public class EmptyStruct_A8FE : ValueType
     {
         public System.Collections.IList ÎÍÏÎÍÏÍÎÏÎÍÎÍÏÎÏÎÌÍÍÍÌÎ; // 0x10
-    }
-
-    /// <summary>Originally: ÍÎÌÏÎÎÏÏÍÏÏÍÌÏÌÌÌÌÍÌÍÎÍ</summary>
-    public class EmptyStruct_AE61 : ValueType
-    {
-        public UnityEngine.Audio.AudioMixerSnapshot ÎÎÏÏÎÌÎÌÏÌÎÍÍÎÌÎÍÌÏÎÎÍÌ; // 0x10
-        public float ÏÏÎÍÌÍÍÍÍÌÏÍÏÍÎÏÍÎÌÍÏÎÌ; // 0x18
     }
 
     /// <summary>Originally: ÌÏÎÏÌÎÍÎÍÎÎÌÌÍÏÍÏÏÏÍÍÏÌ</summary>
@@ -486,15 +469,7 @@ namespace VRC.Internal.Generated
         public bool ÍÌÏÌÍÌÍÌÌÌÌÍÏÎÎÏÏÏÏÏÌÌÌ; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4EC08550
-    }
-
-    /// <summary>Originally: ÎÍÌÎÌÍÎÍÌÌÎÏÎÏÌÏÍÏÏÎÏÍÎ</summary>
-    public class EmptyStruct_B54B : ValueType
-    {
-        public ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ ÌÎÌÍÎÎÍÌÌÍÍÏÏÌÏÌÍÎÌÎÏÌÍ; // 0x10
-        public System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ> ÌÏÎÎÏÏÎÏÌÌÍÎÏÍÌÎÌÍÏÏÍÌÍ; // 0x18
-        public bool ÍÎÎÍÏÍÌÍÍÎÎÏÌÏÏÎÌÌÏÌÏÏÏ; // 0x20
+        public void .ctor(){} // RVA: 0x7FFAC37E8550
     }
 
     /// <summary>Originally: ÌÎÎÌÍÎÎÏÌÏÍÍÎÌÏÎÎÏÍÌÎÍÌ</summary>
@@ -511,36 +486,35 @@ namespace VRC.Internal.Generated
         public System.Collections.Generic.List`1<VRCCore.FooterSection> ÎÏÎÌÌÏÍÌÏÌÎÏÌÎÌÎÏÏÍÏÍÌÎ; // 0x10
     }
 
-    /// <summary>Originally: ÎÌÎÏÌÏÍÏÍÍÍÎÍÌÍÏÎÏÌÌÌÌÌ</summary>
-    public class EmptyStruct_B90A : ValueType
-    {
-        public ÍÏÌÏÏÎÌÍÍÎÌÌÏÌÎÌÏÌÎÎÍÎÌ ÍÌÏÎÎÎÎÎÏÍÎÍÎÌÏÍÎÌÏÍÎÎÍ; // 0x10
-    }
-
     /// <summary>Originally: ÌÏÍÏÎÌÌÌÏÌÍÌÏÎÎÍÍÌÍÍÎÍÏ</summary>
     public class EmptyStruct_BB7B : ValueType
     {
-        public 0x665B2B90 ÍÎÌÎÍÏÌÏÎÏÎÏÏÏÎÎÍÎÏÏÌÎÎ; // 0x10
+        public 0x6B252B90 ÍÎÌÎÍÏÌÏÎÏÎÏÏÏÎÎÍÎÏÏÌÎÎ; // 0x10
         public ÎÍÍÌÌÌÎÍÏÌÍÎÌÏÌÌÍÍÍÏÌÎÌ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x18
     }
 
+    /// <summary>Originally: ÌÎÏÌÍÎÏÍÌÎÌÎÌÌÏÌÎÌÌÎÌÏÍ</summary>
+    public class EmptyStruct_BE6E : ValueType
+    {
+    }
+
     /// <summary>Originally: ÍÍÏÌÏÍÏÍÎÎÌÌÍÍÎÍÎÎÎÌÎÏÌ</summary>
-    public class EmptyStruct_BE89 : ValueType
+    public class EmptyStruct_BE89_BE89 : ValueType
     {
         public VRC.Localization.LocalizableString ÎÍÎÏÏÎÍÎÌÌÌÌÌÎÏÎÌÎÏÍÎÍÍ; // 0x10
         public VRC.Localization.LocalizableString ÌÏÏÎÍÍÎÌÏÍÏÍÎÎÌÎÏÌÎÌÏÌÎ; // 0x38
         public string ÏÎÌÏÎÎÏÍÍÌÍÌÏÌÎÍÍÎÎÍÍÌÍ; // 0x60
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F32F680
-        public void InternalEquals(){} // RVA: 0x7FFD4F330090
-        public void DefaultEquals(){} // RVA: 0x7FFD4F330AA0
-        public void ToString_066F35BA1CC0(){} // RVA: 0x7FFD4F331570 | overloaded x2
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F331510
-        public void .ctor(){} // RVA: 0x7FFD4F331F80
-        public void Initialize(){} // RVA: 0x7FFD4F3314B0
-        public void GetHashCode(){} // RVA: 0x7FFD4F3320C0
-        public void HasValue(){} // RVA: 0x7FFD4F332AD0
+        public void Equals(){} // RVA: 0x7FFAC3F0F680
+        public void InternalEquals(){} // RVA: 0x7FFAC3F10090
+        public void DefaultEquals(){} // RVA: 0x7FFAC3F10AA0
+        public void ToString_066F35BA1CC0_066F35BA1CC0(){} // RVA: 0x7FFAC3F11570 | overloaded x2
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3F11510
+        public void .ctor(){} // RVA: 0x7FFAC3F11F80
+        public void Initialize(){} // RVA: 0x7FFAC3F114B0
+        public void GetHashCode(){} // RVA: 0x7FFAC3F120C0
+        public void HasValue(){} // RVA: 0x7FFAC3F12AD0
     }
 
     /// <summary>Originally: ÌÎÏÎÌÏÍÌÌÌÍÍÍÏÌÌÎÌÌÏÎÏÎ</summary>
@@ -557,49 +531,17 @@ namespace VRC.Internal.Generated
         public float ÌÏÎÌÏÎÎÌÍÌÍÍÍÌÌÎÍÌÎÌÌÍÏ; // 0x44
     }
 
-    /// <summary>Originally: ÍÏÍÎÍÎÏÍÍÎÎÎÌÏÌÏÌÌÌÎÍÍÎ</summary>
-    public class EmptyStruct_C2FE : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4E090980
-        public void InternalEquals(){} // RVA: 0x7FFD4E090980
-        public void DefaultEquals(){} // RVA: 0x7FFD4E090980
-        public void GetHashCode(){} // RVA: 0x7FFD4E090980
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E090980
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-        public void Initialize(){} // RVA: 0x7FFD4E090980
-        public void ToString(){} // RVA: 0x7FFD4E090980
-        public void .ctor_115679931B85(){} // RVA: 0x7FFD4E090980
-        public void HasValue(){} // RVA: 0x7FFD4E090980
-    }
-
-    /// <summary>Originally: ÎÌÏÏÌÏÍÎÏÏÍÏÎÍÍÍÌÏÌÎÍÍÌ</summary>
-    public class EmptyStruct_C40D : ValueType
-    {
-        public bool ÏÎÏÏÍÏÎÎÌÍÏÌÌÍÏÍÍÏÍÏÍÏÌ; // 0x10
-        public bool ÏÎÎÎÎÏÍÍÌÍÎÎÌÏÍÎÍÏÎÎÍÍÌ; // 0x11
-    }
-
-    /// <summary>Originally: ÍÏÏÏÌÌÎÏÎÌÍÌÎÌÌÏÍÏÏÍÍÍÏ</summary>
-    public class EmptyStruct_C47F : ValueType
-    {
-        public bool ÌÎÌÎÎÎÍÍÏÎÏÍÎÎÏÌÌÏÏÍÎÌÏ; // 0x10
-        public bool ÍÌÌÌÌÌÍÌÍÎÍÍÌÎÎÎÌÌÍÌÏÏÎ; // 0x11
-        public 0x66575BA8 ÌÎÏÎÎÎÍÍÍÎÍÍÍÏÍÏÏÍÌÏÌÏÌ; // 0x14
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F85C4D0
-        public void InternalEquals(){} // RVA: 0x7FFD4F85C540
-        public void DefaultEquals(){} // RVA: 0x7FFD4F85C540
-        public void GetHashCode(){} // RVA: 0x7FFD4F85C5B0
-        public void .ctor(){} // RVA: 0x7FFD4F85C600
-        public void Initialize(){} // RVA: 0x7FFD4F85C5B0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F85C610
-    }
-
     /// <summary>Originally: ÌÌÍÌÎÌÎÍÌÏÏÌÎÎÌÏÎÍÏÍÍÍÏ</summary>
     public class EmptyStruct_C63C : ValueType
     {
+    }
+
+    /// <summary>Originally: ÌÌÏÎÏÎÌÍÎÎÏÍÌÏÎÏÍÌÌÍÌÎÏ</summary>
+    public class EmptyStruct_C839 : ValueType
+    {
+        public ÏÏÌÌÍÏÍÏÌÎÌÎÌÍÏÌÎÎÌÍÌÍÌ ÏÌÏÍÏÏÌÌÏÎÍÌÎÍÌÎÌÌÌÍÎÏÍ; // 0x10
+        public ÍÌÌÏÍÍÎÏÏÍÍÍÎÌÎÌÏÎÎÏÏÍÍ ÏÍÎÌÍÌÌÍÎÍÎÏÍÌÌÎÏÌÍÍÍÍÍ; // 0x18
+        public int[] ÌÍÌÌÎÌÏÍÎÏÏÎÌÌÍÍÌÎÌÎÍÍÎ; // 0x20
     }
 
     /// <summary>Originally: ÌÏÏÎÍÌÌÍÍÌÎÌÍÍÌÏÍÎÌÌÏÏÎ</summary>
@@ -608,11 +550,14 @@ namespace VRC.Internal.Generated
         public UnityEngine.Vector3 ÏÏÏÍÍÍÎÎÍÎÏÎÍÍÏÌÌÎÏÏÎÌÌ; // 0x10
     }
 
-    /// <summary>Originally: ÍÎÎÌÏÌÎÍÎÎÍÌÍÎÎÏÌÏÏÏÌÍÌ</summary>
-    public class EmptyStruct_CC49 : ValueType
+    /// <summary>Originally: ÌÍÏÌÏÌÌÎÌÎÌÏÎÍÎÏÍÏÍÍÏÎÎ</summary>
+    public class EmptyStruct_CF46 : ValueType
     {
-        public ÌÎÌÌÍÌÏÏÍÎÏÏÏÍÌÌÎÎÍÌÏÎÎ ÎÎÍÌÏÍÎÎÏÌÌÏÌÍÍÍÍÌÍÎÍÌÎ; // 0x10
-        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ ÎÌÍÌÌÎÎÏÎÍÎÍÎÍÏÎÍÌÏÌÌÍÏ; // 0x18
+    }
+
+    /// <summary>Originally: ÌÌÌÍÌÎÎÌÏÌÌÎÎÍÎÌÌÎÌÍÌÏÏ</summary>
+    public class EmptyStruct_CFCD : ValueType
+    {
     }
 
     /// <summary>Originally: ÍÌÍÌÌÏÍÏÍÎÎÍÎÌÎÍÍÍÏÎÍÌÍ</summary>
@@ -622,17 +567,9 @@ namespace VRC.Internal.Generated
         public int ÍÍÎÏÍÌÍÏÏÏÌÍÌÍÎÏÌÎÏÎÎÌÍ; // 0x18
     }
 
-    /// <summary>Originally: ÍÎÎÎÏÏÍÎÎÌÍÌÍÍÌÌÌÍÏÏÏÎÌ</summary>
-    public class EmptyStruct_D327 : ValueType
+    /// <summary>Originally: ÌÎÌÏÍÍÌÏÌÎÌÍÎÌÎÏÏÎÎÌÍÍÎ</summary>
+    public class EmptyStruct_D208 : ValueType
     {
-        public float ÏÎÏÏÍÏÎÎÌÍÏÌÌÍÏÍÍÏÍÏÍÏÌ; // 0x10
-        public float ÏÎÎÎÎÏÍÍÌÍÎÎÌÏÍÎÍÏÎÎÍÍÌ; // 0x14
-    }
-
-    /// <summary>Originally: ÍÏÌÌÎÎÎÌÎÏÌÏÎÍÎÏÎÌÍÍÏÎÌ</summary>
-    public class EmptyStruct_D471 : ValueType
-    {
-        public bool ÎÌÎÌÌÌÏÌÎÌÎÍÏÎÎÎÎÍÏÌÍÌÌ; // 0x10
     }
 
     /// <summary>Originally: ÌÎÎÎÌÎÏÏÎÏÏÎÍÎÌÍÍÌÌÍÌÌÍ</summary>
@@ -645,18 +582,11 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÌÍÏÍÏÍÏÎÌÍÎÌÏÏÏÍÍÌÎÍÍÍÎ</summary>
     public class EmptyStruct_D9CB : ValueType
     {
-        public 0x6638A720 ÍÌÌÎÎÎÍÌÍÎÏÍÏÌÎÎÏÌÍÌÍÏÌ; // 0x10
+        public 0x6B02A720 ÍÌÌÎÎÎÍÌÍÎÏÍÏÌÎÎÏÌÍÌÍÏÌ; // 0x10
         public bool ÍÍÌÏÌÌÏÍÍÌÏÌÍÍÏÌÏÍÍÍÌÍÏ; // 0x14
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E78D8C0
-    }
-
-    /// <summary>Originally: ÍÎÍÍÏÌÏÌÍÍÎÎÎÍÎÎÎÍÍÏÏÏÏ</summary>
-    public class EmptyStruct_DABF : ValueType
-    {
-        public ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ ÎÍÌÎÌÍÍÍÎÍÏÎÎÍÏÍÏÎÎÎÍÏÍ; // 0x10
-        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.IList`1<ÎÎÏÌÍÌÌÍÍÌÏÎÍÍÏÍÌÎÌÍÎÍÏ>> ÎÌÎÎÎÏÌÏÌÌÏÏÏÌÎÍÍÎÍÍÌÌÏ; // 0x18
+        public void .ctor(){} // RVA: 0x7FFAC336D8C0
     }
 
     /// <summary>Originally: ÍÍÍÏÍÎÌÎÍÌÏÍÎÌÎÌÌÏÍÌÌÏÏ</summary>
@@ -669,35 +599,24 @@ namespace VRC.Internal.Generated
     }
 
     /// <summary>Originally: ÌÍÍÌÌÎÍÎÎÍÍÎÍÎÌÌÏÎÎÍÍÍÍ</summary>
-    public class EmptyStruct_DD0F : ValueType
+    public class EmptyStruct_DD0F_DD0F : ValueType
     {
         public int ÌÎÍÌÏÌÎÎÎÎÍÎÌÌÌÎÍÏÍÎÍÍÏ; // 0x10
         public bool ÎÏÏÏÎÌÏÏÌÏÏÏÌÎÌÎÏÍÏÎÌÏÌ; // 0x14
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F015E30
-        public void InternalEquals(){} // RVA: 0x7FFD4E341310
-        public void DefaultEquals(){} // RVA: 0x7FFD4F015E40
-        public void .ctor(){} // RVA: 0x7FFD4F015E50
-        public void Initialize(){} // RVA: 0x7FFD4F015E40
-        public void GetHashCode(){} // RVA: 0x7FFD4E341310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F015E30
-        public void ToString(){} // RVA: 0x7FFD4E341310
-        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFD4F015E60
-        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFD4F015E40
-        public void .ctor_87000D98259D(){} // RVA: 0x7FFD4F015E70
-        public void GetTransform_5AE(){} // RVA: 0x7FFD4F015E40
-    }
-
-    /// <summary>Originally: ÎÍÌÎÌÍÌÎÌÍÏÏÍÍÌÎÍÏÎÍÌÏÎ</summary>
-    public class EmptyStruct_DE36 : ValueType
-    {
-        public 0x664DB9F0 ÌÎÏÎÎÏÌÎÌÍÎÏÏÌÌÍÌÍÌÏÎÎÍ; // 0x10
-        public float ÎÎÌÍÏÏÎÏÎÌÌÍÌÏÌÍÌÎÍÎÌÍÎ; // 0x14
-        public float ÌÌÍÌÎÎÎÏÎÏÌÎÌÌÍÍÍÎÎÍÎÏÎ; // 0x18
-        public UnityEngine.Color ÏÌÌÍÌÎÌÍÎÏÍÎÍÍÏÍÍÎÌÍÌÌÍ; // 0x1C
-        public float ÍÍÌÏÏÌÏÏÎÎÏÍÏÏÍÎÌÎÌÏÏÍÍ; // 0x2C
-        public 0x664DBAF8 ÎÌÌÍÌÌÌÎÍÏÏÏÌÏÏÍÌÎÌÏÏÏÌ; // 0x30
+        public void Equals(){} // RVA: 0x7FFAC3BF5E30
+        public void InternalEquals(){} // RVA: 0x7FFAC2F21310
+        public void DefaultEquals(){} // RVA: 0x7FFAC3BF5E40
+        public void .ctor(){} // RVA: 0x7FFAC3BF5E50
+        public void Initialize(){} // RVA: 0x7FFAC3BF5E40
+        public void GetHashCode(){} // RVA: 0x7FFAC2F21310
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC3BF5E30
+        public void ToString(){} // RVA: 0x7FFAC2F21310
+        public void GetSecondPointerOffsetInt(){} // RVA: 0x7FFAC3BF5E60
+        public void GetNetworkValueAtOffset44(){} // RVA: 0x7FFAC3BF5E40
+        public void .ctor_87000D98259D(){} // RVA: 0x7FFAC3BF5E70
+        public void GetTransform_5AE(){} // RVA: 0x7FFAC3BF5E40
     }
 
     /// <summary>Originally: ÌÍÏÍÍÎÎÍÍÍÌÎÏÎÍÍÍÎÍÍÍÏÎ</summary>
@@ -706,29 +625,19 @@ namespace VRC.Internal.Generated
         public UnityEngine.UI.RawImage ÏÎÍÎÌÏÍÌÏÎÎÍÍÎÌÎÏÏÏÍÌÌÎ; // 0x10
     }
 
-    /// <summary>Originally: ÍÏÎÌÎÌÏÎÌÍÏÎÌÎÎÎÏÍÎÎÎÎÍ</summary>
-    public class EmptyStruct_E449 : ValueType
-    {
-        public string ÍÏÌÎÏÍÌÌÎÌÎÎÍÍÎÎÏÎÎÌÏÎÌ; // 0x10
-        public N ÌÌÍÎÌÌÏÍÍÍÏÎÎÎÌÍÏÌÏÏÍÍÌ; // 0x18
-        public bool ÏÎÏÍÍÏÍÌÍÎÌÏÏÍÍÍÏÌÏÏÏÏÎ; // 0x1C
-        public bool ÌÎÌÌÍÌÍÌÍÏÌÍÎÌÎÏÏÌÍÌÏÌÌ; // 0x1D
-        public bool ÏÏÌÍÎÌÌÎÏÎÌÍÏÎÍÎÌÍÎÌÌÍÌ; // 0x1E
-    }
-
     /// <summary>Originally: ÍÌÌÏÍÎÎÎÎÍÍÏÏÌÎÌÎÌÍÏÎÎÍ</summary>
-    public class EmptyStruct_E5DE : ValueType
+    public class EmptyStruct_E5DE_E5DE : ValueType
     {
         public string ÍÌÍÌÍÍÎÏÏÏÏÍÌÏÌÍÌÌÏÍÍÌÍ; // 0x10
         public System.DateTimeOffset ÏÌÎÍÎÌÍÌÏÏÎÌÏÍÍÎÍÌÍÎÌÍÍ; // 0x18
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F0E1A60
-        public void InternalEquals(){} // RVA: 0x7FFD4F0E1B60
-        public void DefaultEquals(){} // RVA: 0x7FFD4F0E1C60
-        public void GetHashCode(){} // RVA: 0x7FFD4F0E1D60
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F0E1E60
-        public void ToString(){} // RVA: 0x7FFD4F0E1F60
+        public void Equals(){} // RVA: 0x7FFAC3CC1A60
+        public void InternalEquals(){} // RVA: 0x7FFAC3CC1B60
+        public void DefaultEquals(){} // RVA: 0x7FFAC3CC1C60
+        public void GetHashCode(){} // RVA: 0x7FFAC3CC1D60
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC3CC1E60
+        public void ToString(){} // RVA: 0x7FFAC3CC1F60
     }
 
     /// <summary>Originally: ÍÍÏÍÏÌÏÎÍÍÍÎÍÍÎÍÎÍÎÍÎÏÎ</summary>
@@ -751,8 +660,13 @@ namespace VRC.Internal.Generated
         public int ÍÍÍÍÏÌÎÎÎÍÍÌÎÍÍÎÏÏÎÍÌÎÏ; // 0x18
     }
 
+    /// <summary>Originally: ÍÍÌÎÎÌÎÍÌÏÎÌÍÍÍÌÏÌÌÏÎÏÎ</summary>
+    public class EmptyStruct_EDDF : ValueType
+    {
+    }
+
     /// <summary>Originally: ÍÌÎÌÌÏÎÌÎÍÌÎÌÌÏÍÏÍÌÍÌÍÌ</summary>
-    public class EmptyStruct_EE86 : ValueType
+    public class EmptyStruct_EE86_EE86 : ValueType
     {
         public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<VRC.Localization.LocalizableString> ÌÌÎÎÎÌÏÍÍÎÎÍÏÎÍÏÎÌÌÎÍÌÏ; // 0x10
         public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<System.Collections.IList> ÌÌÎÎÌÌÏÌÎÌÍÌÌÌÌÏÎÍÌÎÏÏÏ; // 0x18
@@ -765,40 +679,35 @@ namespace VRC.Internal.Generated
         public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<System.Collections.IList> ÌÍÌÎÍÎÏÎÏÎÌÏÌÍÍÏÍÍÏÎÎÌÍ; // 0x90
         public int ÌÍÌÎÌÍÍÏÍÍÌÍÎÍÎÏÌÎÎÏÎÎÎ; // 0x98
         public bool ÎÍÏÎÏÍÌÌÌÌÌÏÏÎÍÍÍÍÍÏÏÏÌ; // 0x9C
-        public 0x663CDCC8 ÌÌÍÎÌÌÏÍÍÍÏÎÎÎÌÍÏÌÏÏÍÍÌ; // 0xA0
+        public 0x6B06DCC8 ÌÌÍÎÌÌÏÍÍÍÏÎÎÎÌÍÏÌÏÏÍÍÌ; // 0xA0
         public bool ÍÏÏÎÍÎÍÏÍÏÍÍÌÎÍÎÌÏÍÌÏÍÍ; // 0xA4
         public bool ÎÍÌÍÎÌÌÌÌÌÍÌÌÌÍÌÎÏÎÏÍÍÏ; // 0xA5
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD567C4C80
+        public void .ctor(){} // RVA: 0x7FFACB3A4C80
     }
 
     /// <summary>Originally: ÌÏÎÎÌÏÎÏÍÏÍÏÍÍÌÌÎÎÎÍÏÎÍ</summary>
-    public class EmptyStruct_EE90 : ValueType
+    public class EmptyStruct_EE90_EE90 : ValueType
     {
         public string ÏÏÍÌÎÏÌÎÌÍÍÎÍÏÏÍÏÎÍÏÍÏÍ; // 0x10
         public string ÌÎÎÏÍÍÌÍÌÏÌÍÎÏÎÌÍÌÍÍÎÍÎ; // 0x18
         public float ÎÍÌÌÏÎÎÎÏÍÍÍÌÌÏÍÍÍÍÌÍÍÌ; // 0x20
-        public 0x663565E0 ÎÍÏÏÏÎÍÍÍÏÏÏÍÏÍÍÎÏÎÎÏÍÏ; // 0x24
-        public 0x663565E0 ÍÎÌÏÍÌÏÎÌÏÌÍÌÍÏÎÎÏÏÌÎÌÎ; // 0x28
+        public 0x6AFF65E0 ÎÍÏÏÏÎÍÍÍÏÏÏÍÏÍÍÎÏÎÎÏÍÏ; // 0x24
+        public 0x6AFF65E0 ÍÎÌÏÍÌÏÎÌÏÌÍÌÍÏÎÎÏÏÌÎÌÎ; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4EAC4A80
+        public void .ctor(){} // RVA: 0x7FFAC36A4A80
     }
 
-    /// <summary>Originally: ÍÏÏÎÎÎÏÌÏÌÎÍÍÌÌÎÏÎÏÏÌÎÌ</summary>
-    public class EmptyStruct_EF17 : ValueType
+    /// <summary>Originally: ÌÌÍÍÏÌÍÍÍÏÎÏÎÍÏÎÍÏÎÏÏÌÌ</summary>
+    public class EmptyStruct_EFE3 : ValueType
     {
-        public int ÍÍÍÏÍÌÏÎÏÏÍÎÏÎÍÎÌÏÌÏÍÌÏ; // 0x10
-        public lay ÌÌÍÎÌÌÏÍÍÍÏÎÎÎÌÍÏÌÏÏÍÍÌ; // 0x14
     }
 
-    /// <summary>Originally: ÍÎÏÏÎÎÏÎÍÌÍÎÌÏÍÎÌÌÍÏÏÏÎ</summary>
-    public class EmptyStruct_F040 : ValueType
+    /// <summary>Originally: ÌÎÍÏÏÎÍÌÎÍÎÏÌÍÏÍÎÌÌÍÌÍÌ</summary>
+    public class EmptyStruct_F896 : ValueType
     {
-        public System.Reflection.MemberInfo ÍÏÎÎÌÍÏÎÍÍÏÏÍÏÏÍÎÍÎÌÍÍÍ; // 0x10
-        public bool ÏÏÏÎÌÌÏÌÌÏÏÏÌÏÏÏÍÎÌÌÍÎÌ; // 0x18
-        public System.Type ÎÌÏÍÎÌÍÎÏÏÏÍÌÎÎÏÎÌÌÏÌÌÏ; // 0x20
     }
 
     /// <summary>Originally: ÌÍÎÏÎÎÌÍÍÏÌÌÏÏÎÏÎÍÍÍÌÎÎ</summary>
@@ -807,17 +716,8 @@ namespace VRC.Internal.Generated
         public VRC.SDK3.Components.VRCPlayerObject[] ÌÏÎÎÏÌÍÍÎÎÏÌÍÍÍÍÍÌÏÍÎÏÌ; // 0x10
     }
 
-    /// <summary>Originally: ÍÏÌÍÍÍÏÌÏÌÌÏÏÌÍÏÍÍÎÏÎÍÍ</summary>
-    public class EmptyStruct_FC19 : ValueType
-    {
-        public ÏÌÌÌÎÍÌÏÎÌÌÏÎÍÌÏÎÎÍÎÌÍÌ ÌÎÍÎÍÍÍÎÌÎÍÍÍÏÌÌÏÏÍÌÎÌÍ; // 0x10
-        public ÎÍÍÎÎÍÌÎÌÍÏÎÎÌÍÎÏÌÌÍÍÏÌ ÌÍÏÌÌÏÏÌÌÎÎÍÌÍÎÏÎÎÏÎÏÍÍ; // 0x18
-        public float ÍÍÍÌÍÌÌÍÍÎÍÏÌÎÎÎÎÍÎÌÍÎÌ; // 0x20
-        public ÌÍÏÏÏÍÌÏÎÎÍÏÍÍÍÌÍÍÍÏÍÎÍ ÌÏÎÏÍÌÌÏÌÏÍÌÍÎÍÎÏÍÏÌÌÍÌ; // 0x28
-    }
-
     /// <summary>Originally: ÌÍÌÌÌÎÎÎÌÍÎÎÎÍÎÏÍÍÌÌÌÌÏ</summary>
-    public class EmptyStruct_FE31 : ValueType
+    public class EmptyStruct_FE31_FE31 : ValueType
     {
         public ÍÏÎÍÍÌÎÎÍÌÎÎÌÎÌÌÍÏÎÌÍÍÏ ÍÏÎÎÎÌÎÍÌÍÍÎÍÍÎÎÌÍÍÏÎÌÏ; // 0x10
         public float ÍÏÎÌÏÍÎÍÍÏÎÎÎÎÎÌÍÍÌÏÏÏÍ; // 0x18
@@ -825,34 +725,20 @@ namespace VRC.Internal.Generated
         public bool ÍÏÌÏÎÌÍÏÎÍÍÏÍÏÏÎÍÎÎÌÌÏÏ; // 0x20
 
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFD4F4DED70
-        public void .ctor(){} // RVA: 0x7FFD4F4DEF70
-        public void Initialize(){} // RVA: 0x7FFD4F4DF090
-        public void GetHashCode(){} // RVA: 0x7FFD4F4DF2A0
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4F4DF4A0
-        public void ToString(){} // RVA: 0x7FFD4F4DF6A0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFD4F4DF8A0
-        public void ToString_756C5A78B6D9(){} // RVA: 0x7FFD4F4DFAA0
-        public void ValidateStructPointers(){} // RVA: 0x7FFD4F4DFCA0
-        public void UpdateRealtimeTimestamp(){} // RVA: 0x7FFD4F4DFEA0
-    }
-
-    /// <summary>Originally: ÍÎÌÏÌÌÎÎÎÎÏÌÍÏÌÏÍÍÌÎÌÎÎ</summary>
-    public class EmptyStruct_FEB0 : ValueType
-    {
-        public bool ÎÏÌÏÏÎÎÌÍÌÌÏÎÏÎÍÎÏÎÎÍÌÏ; // 0x10
-        public float ÏÏÌÎÎÌÍÏÏÌÏÌÏÎÍÎÎÎÍÍÍÍÎ; // 0x14
-        public float ÌÎÌÎÎÏÌÎÌÏÏÏÎÎÌÌÎÎÍÍÏÏÎ; // 0x18
-        public bool ÌÌÌÎÎÌÎÏÎÌÎÏÍÍÌÎÌÏÏÏÍÌÌ; // 0x1C
+        public void Equals(){} // RVA: 0x7FFAC40BED70
+        public void .ctor(){} // RVA: 0x7FFAC40BEF70
+        public void Initialize(){} // RVA: 0x7FFAC40BF090
+        public void GetHashCode(){} // RVA: 0x7FFAC40BF2A0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC40BF4A0
+        public void ToString(){} // RVA: 0x7FFAC40BF6A0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAC40BF8A0
+        public void ToString_756C5A78B6D9(){} // RVA: 0x7FFAC40BFAA0
+        public void ValidateStructPointers(){} // RVA: 0x7FFAC40BFCA0
+        public void UpdateRealtimeTimestamp(){} // RVA: 0x7FFAC40BFEA0
     }
 
     /// <summary>Originally: ÌÌÍÎÏÌÍÌÍÏÏÎÏÏÎÌÏÏÍÍÏÍÌ</summary>
     public class EmptyType_13C2
-    {
-    }
-
-    /// <summary>Originally: ÍÏÍÍÌÍÏÌÏÏÍÍÌÎÏÏÍÌÏÎÎÏÍ</summary>
-    public class EmptyType_1E73
     {
     }
 
@@ -861,10 +747,28 @@ namespace VRC.Internal.Generated
     {
     }
 
+    /// <summary>Originally: ÌÎÏÎÎÍÏÌÏÏÌÌÏÌÎÎÍÌÏÎÍÏÍ</summary>
+    public class EmptyType_5DE2 : Object
+    {
+        public string ÌÎÌÍÎÌÎÍÍÎÎÍÍÏÎÌÍÎÍÍÏÏÏ;
+        public string ÏÎÌÏÍÎÍÍÌÎÍÌÍÏÌÎÍÏÏÍÌÏÎ;
+        public string ÌÏÎÏÌÏÎÌÍÌÏÏÎÌÍÏÎÌÍÌÎÎÏ;
+    }
+
     /// <summary>Originally: ÌÏÌÎÌÎÍÍÍÌÎÌÌÍÎÏÌÎÍÎÎÍÎ</summary>
     public class EmptyType_739E
     {
         public string ÏÍÏÌÏÎÏÏÌÍÍÎÏÎÍÍÎÎÌÎÎÌÎ;
+    }
+
+    /// <summary>Originally: ÍÍÎÏÎÎÍÌÍÎÎÌÏÏÏÌÎÍÏÎÍÏÍ</summary>
+    public class EmptyType_73C8 : Object
+    {
+        public string ÎÍÍÏÍÌÌÎÏÎÎÎÍÏÎÌÍÍÌÍÌÍÌ;
+        public string ÌÌÍÎÌÌÍÎÎÍÍÏÌÍÍÏÍÎÏÎÏÎÏ;
+        public string ÌÍÍÌÏÍÏÍÌÍÎÎÍÌÍÏÏÏÌÌÏÏÍ;
+        public string ÍÍÎÌÍÍÌÎÌÌÌÌÏÎÎÎÍÌÍÍÌÌÏ;
+        public string ÌÎÏÍÌÍÍÎÌÌÌÍÌÍÎÌÏÏÏÌÏÌÌ;
     }
 
     /// <summary>Originally: ÍÍÍÌÏÍÎÎÎÍÏÎÍÌÏÎÍÎÍÍÍÍÍ</summary>
@@ -872,34 +776,22 @@ namespace VRC.Internal.Generated
     {
     }
 
-    /// <summary>Originally: ÎÌÍÎÎÌÌÌÎÌÌÏÍÌÎÍÍÎÍÏÎÎÏ</summary>
-    public class EmptyType_82E1
-    {
-    }
-
-    /// <summary>Originally: ÍÏÏÌÍÏÎÏÏÎÏÌÍÎÌÍÏÏÎÏÎÏÍ</summary>
-    public class EmptyType_8505
-    {
-        public string ÏÍÏÌÏÎÏÏÌÍÍÎÏÎÍÍÎÎÌÎÎÌÎ;
-    }
-
     /// <summary>Originally: ÍÍÎÏÍÏÎÎÎÎÍÍÏÏÍÌÌÎÏÌÏÌÎ</summary>
     public class EmptyType_8587
     {
     }
 
-    /// <summary>Originally: ÎÌÏÏÌÌÎÌÎÏÌÍÎÍÍÎÌÍÏÍÏÌÍ</summary>
-    public class EmptyType_97A1
+    /// <summary>Originally: ÌÌÏÍÏÌÌÎÌÏÍÏÍÎÍÌÌÏÏÏÍÌÏ</summary>
+    public class EmptyType_9701 : Object
     {
+        public string ÍÎÍÏÏÌÍÍÏÌÌÎÏÏÍÏÏÍÎÎÏÍÏ;
+        public string ÎÌÍÎÌÎÍÌÏÍÏÎÌÎÏÎÎÎÏÌÍÌÌ;
+        public string ÎÍÏÌÏÍÎÏÎÍÏÏÏÌÏÍÌÎÏÍÏÍÌ;
+        public string ÍÌÍÍÌÍÎÌÌÏÍÍÌÌÎÏÌÍÎÌÏÌÍ;
     }
 
     /// <summary>Originally: ÌÎÎÌÏÌÎÍÍÎÍÎÌÌÎÎÍÏÎÏÍÍÍ</summary>
     public class EmptyType_B3CF
-    {
-    }
-
-    /// <summary>Originally: ÍÎÍÌÏÏÏÌÏÍÌÍÌÏÎÍÎÌÎÏÍÏÌ</summary>
-    public class EmptyType_BC88
     {
     }
 
@@ -915,11 +807,6 @@ namespace VRC.Internal.Generated
 
     /// <summary>Originally: ÌÏÌÍÏÍÍÎÍÎÎÏÌÎÍÏÍÍÍÎÌÎÌ</summary>
     public class EmptyType_F432
-    {
-    }
-
-    /// <summary>Originally: ÍÏÏÎÎÌÏÌÏÎÍÏÏÍÏÍÏÍÎÏÍÏÍ</summary>
-    public class EmptyType_FAF6
     {
     }
 

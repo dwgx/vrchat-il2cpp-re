@@ -1,35 +1,159 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 549
+// Methods: 275
+
+public class SCNetworkReachabilityCallback : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC45B4250
+    public void Invoke(){} // RVA: 0x7FFAC307D4E0
+}
+
+public class SCNetworkReachabilityContext : ValueType
+{
+    public UIntPtr version; // 0x10
+    public UIntPtr info; // 0x18
+    public UIntPtr retain; // 0x20
+    public UIntPtr release; // 0x28
+    public UIntPtr copyDescription; // 0x30
+}
+
+public class SECURITY_ATTRIBUTES : ValueType
+{
+    public uint nLength; // 0x10
+    public UIntPtr lpSecurityDescriptor; // 0x18
+    public 0x6B0BAB68 bInheritHandle; // 0x20
+}
+
+public class SM2P256V1Holder : X9ECParametersHolder
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC53FA0
+    public void .cctor(){} // RVA: 0x7FFACBC540F0
+}
+
+public class SM2P256V1LookupTable : Object
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBB02D70
+}
+
+public class SMAALuts : Object
+{
+    public UnityEngine.Texture2D area; // 0x10
+    public UnityEngine.Texture2D search; // 0x18
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+}
+
+public class SPKey : Object
+{
+    public System.Uri UsesProxy; // 0x10
+    public System.Uri proxy; // 0x18
+    public bool use_connect; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC84C0F70
+    public void get_UsesProxy(){} // RVA: 0x7FFAC9309730
+    public void GetHashCode(){} // RVA: 0x7FFAC9309780
+    public void Equals(){} // RVA: 0x7FFAC9309850
+}
+
+public class SR : Object
+{
+    // ── Methods ──
+    public void GetString(){} // RVA: 0x7FFAC44F81E0 | overloaded x3
+    public void Format(){} // RVA: 0x7FFAC838C340 | overloaded x4
+    public void GetResourceString(){} // RVA: 0x7FFAC44F81E0
+}
+
+public class STOutput : Object
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Prime; // 0x10
+    public byte[] PrimeSeed; // 0x18
+    public int PrimeGenCounter; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Prime(){} // RVA: 0x7FFAC2F3C380
+    public void get_PrimeSeed(){} // RVA: 0x7FFAC2F247C0
+    public void get_PrimeGenCounter(){} // RVA: 0x7FFAC30DBBE0
+}
+
+public class SYSTEMTIME : ValueType
+{
+    public ushort Year; // 0x10
+    public ushort Month; // 0x12
+    public ushort DayOfWeek; // 0x14
+    public ushort Day; // 0x16
+    public ushort Hour; // 0x18
+    public ushort Minute; // 0x1A
+    public ushort Second; // 0x1C
+    public ushort Milliseconds; // 0x1E
+
+    // ── Methods ──
+    public void Equals(){} // RVA: 0x7FFAC838A180
+}
+
+public class SafeDeflateStreamHandle : SafeHandle
+{
+    public object IsInvalid;
+
+    // ── Methods ──
+    public void get_IsInvalid(){} // RVA: 0x7FFAC353FA50
+    public void .ctor(){} // RVA: 0x7FFAC83B9EF0
+    public void ReleaseHandle(){} // RVA: 0x7FFAC9461820
+}
 
 public class SafeModeOptions : Object
 {
-    public 0x665CFD00 nestedTweenFailureBehaviour; // 0x10
+    public 0x6B26FD00 nestedTweenFailureBehaviour; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341310
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+}
+
+public class Sample : Object
+{
+    public ulong Timestamp; // 0x10
+    public int ThreadId; // 0x18
+    public int StackId; // 0x1C
+
+    // ── Methods ──
+    public void WriteTo(){} // RVA: 0x7FFAC8B74850
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
 }
 
 public class SampleFramesHandler : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F53D4B0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
+    public void .ctor(){} // RVA: 0x7FFAC411D4B0
+    public void Invoke(){} // RVA: 0x7FFAC307D370
 }
 
 public class SaveableInventoryGroupData : ValueType
 {
-    public string name; // 0x10
-    public string[] ids; // 0x18
+    public string name;
+    public string[] ids;
 }
 
 public class SavedSearches : Object
 {
-    public System.Collections.Generic.List`1<0x664CF130> Searches; // 0x10
+    public System.Collections.Generic.List`1<VRC.DataModel.SearchParameters> Searches; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341310
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
 }
 
 public class Scanbeam : Object
@@ -38,7 +162,19 @@ public class Scanbeam : Object
     public Scanbeam Next; // 0x18
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341310
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+}
+
+public class SceneCaptureCompleteData : ValueType
+{
+    public ulong RequestId; // 0x10
+    public int Result; // 0x18
+}
+
+public class SceneCaptureRequestInternal : ValueType
+{
+    public int requestByteCount; // 0x10
+    public string request; // 0x18
 }
 
 public class ScheduledFrameEvent : ValueType
@@ -49,14 +185,14 @@ public class ScheduledFrameEvent : ValueType
     public long eventId; // 0x28
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5529F630
+    public void .ctor(){} // RVA: 0x7FFAC9E7F630
 }
 
 public class ScheduledFrameEventComparer : Object
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x7FFD5529F770
-    public void .ctor(){} // RVA: 0x7FFD4E341310
+    public void Compare(){} // RVA: 0x7FFAC9E7F770
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
 }
 
 public class ScheduledTimeEvent : ValueType
@@ -67,14 +203,14 @@ public class ScheduledTimeEvent : ValueType
     public long eventId; // 0x28
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5529F570
+    public void .ctor(){} // RVA: 0x7FFAC9E7F570
 }
 
 public class ScheduledTimeEventComparer : Object
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x7FFD5529F6F0
-    public void .ctor(){} // RVA: 0x7FFD4E341310
+    public void Compare(){} // RVA: 0x7FFAC9E7F6F0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
 }
 
 public class Scheduler : Object
@@ -86,34 +222,105 @@ public class Scheduler : Object
     public System.Threading.ManualResetEvent changed; // 0x28
 
     // ── Methods ──
-    public void InitScheduler(){} // RVA: 0x7FFD53AF7F50
-    public void WakeupScheduler(){} // RVA: 0x7FFD53AF8100
-    public void SchedulerThread(){} // RVA: 0x7FFD53AF8170
-    public void get_Instance(){} // RVA: 0x7FFD53AF83F0
-    public void .ctor(){} // RVA: 0x7FFD53AF8450
-    public void Remove(){} // RVA: 0x7FFD53AF8730
-    public void Change(){} // RVA: 0x7FFD53AF8880
-    public void Add(){} // RVA: 0x7FFD53AF8BB0
-    public void InternalRemove(){} // RVA: 0x7FFD53AF8C90
-    public void TimerCB(){} // RVA: 0x7FFD53AF8CC0
-    public void FireTimer(){} // RVA: 0x7FFD53AF8D40
-    public void RunSchedulerLoop(){} // RVA: 0x7FFD53AF8E10
-    public void .cctor(){} // RVA: 0x7FFD53AF9210
+    public void InitScheduler(){} // RVA: 0x7FFAC86D7F50
+    public void WakeupScheduler(){} // RVA: 0x7FFAC86D8100
+    public void SchedulerThread(){} // RVA: 0x7FFAC86D8170
+    public void get_Instance(){} // RVA: 0x7FFAC86D83F0
+    public void .ctor(){} // RVA: 0x7FFAC86D8450
+    public void Remove(){} // RVA: 0x7FFAC86D8730
+    public void Change(){} // RVA: 0x7FFAC86D8880
+    public void Add(){} // RVA: 0x7FFAC86D8BB0
+    public void InternalRemove(){} // RVA: 0x7FFAC86D8C90
+    public void TimerCB(){} // RVA: 0x7FFAC86D8CC0
+    public void FireTimer(){} // RVA: 0x7FFAC86D8D40
+    public void RunSchedulerLoop(){} // RVA: 0x7FFAC86D8E10
+    public void .cctor(){} // RVA: 0x7FFAC86D9210
+}
+
+public class SchemaDatatypeMap : Object
+{
+    public string Name; // 0x10
+    public System.Xml.Schema.DatatypeImplementation ParentIndex; // 0x18
+    public int parentIndex; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0 | overloaded x2
+    public void op_Explicit(){} // RVA: 0x7FFAC38DFDA0
+    public void get_Name(){} // RVA: 0x7FFAC2F3C380
+    public void get_ParentIndex(){} // RVA: 0x7FFAC30DBBE0
+    public void CompareTo(){} // RVA: 0x7FFAC92836A0
+}
+
+public class SchemaScope : Object
+{
+    public 0x6B1CB2D8 CurrentPropertyName; // 0x10
+    public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchemaModel> ArrayItemCount; // 0x18
+    public System.Collections.Generic.Dictionary`2<string,bool> IsUniqueArray; // 0x20
+    public string UniqueArrayItems; // 0x28
+    public int CurrentItemWriter; // 0x30
+    public bool Schemas; // 0x34
+    public System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> RequiredProperties; // 0x38
+    public Newtonsoft.Json.Linq.JTokenWriter TokenType; // 0x40
+
+    // ── Methods ──
+    public void get_CurrentPropertyName(){} // RVA: 0x7FFAC2F4F130
+    public void set_CurrentPropertyName(){} // RVA: 0x7FFAC2F22E90
+    public void get_ArrayItemCount(){} // RVA: 0x7FFAC2F7CCD0
+    public void set_ArrayItemCount(){} // RVA: 0x7FFAC2F7CCE0
+    public void get_IsUniqueArray(){} // RVA: 0x7FFAC2F57C20
+    public void get_UniqueArrayItems(){} // RVA: 0x7FFAC31D0140
+    public void get_CurrentItemWriter(){} // RVA: 0x7FFAC2F9E740
+    public void set_CurrentItemWriter(){} // RVA: 0x7FFAC2F49200
+    public void get_Schemas(){} // RVA: 0x7FFAC2F247C0
+    public void get_RequiredProperties(){} // RVA: 0x7FFAC2F4F0C0
+    public void get_TokenType(){} // RVA: 0x7FFAC2F6E5C0
+    public void .ctor(){} // RVA: 0x7FFAC8741830
+    public void GetRequiredProperties(){} // RVA: 0x7FFAC8741E50
+}
+
+public class SchemeJson : ValueType
+{
+    public string name; // 0x10
+    public string bindingGroup; // 0x18
+    public DeviceJson[] devices; // 0x20
+
+    // ── Methods ──
+    public void ToScheme(){} // RVA: 0x7FFAC957A4E0
+    public void ToJson(){} // RVA: 0x7FFAC957AAF0 | overloaded x2
+    public void ToSchemes(){} // RVA: 0x7FFAC957AC60
 }
 
 public class Scope : Object
 {
-    public bool Parent; // 0x10
-    public System.IDisposable State; // 0x18
-    public System.IDisposable _disposable1; // 0x20
-    public System.IDisposable[] _disposable; // 0x28
+    public Microsoft.Extensions.Logging.LoggerFactoryScopeProvider Parent; // 0x10
+    public bool State; // 0x18
+    public Scope <Parent>k__BackingField; // 0x20
+    public object <State>k__BackingField; // 0x28
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD537623F0
-    public void get_Parent(){} // RVA: 0x7FFD4E36F0C0
-    public void get_State(){} // RVA: 0x7FFD4E36F130
-    public void ToString(){} // RVA: 0x7FFD537624F0
-    public void Dispose(){} // RVA: 0x7FFD5376A1A0
+    public void .ctor(){} // RVA: 0x7FFAC83423F0
+    public void get_Parent(){} // RVA: 0x7FFAC2F4F0C0
+    public void get_State(){} // RVA: 0x7FFAC2F4F130
+    public void ToString(){} // RVA: 0x7FFAC83424F0
+    public void Dispose(){} // RVA: 0x7FFAC834A1A0
+}
+
+public class ScopeSnapshot : Object
+{
+    public Sentry.SentryOptions _options; // 0x10
+    public System.Collections.Generic.KeyValuePair`2<Sentry.Scope,Sentry.ISentryClient>[] _snapshot; // 0x18
+    public Sentry.Internal.SentryScopeManager _scopeManager; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC3000E00
+    public void Dispose(){} // RVA: 0x7FFAC8BB2D40
+}
+
+public class ScopedProfile : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
 }
 
 public class ScriptRunBehaviourFixedUpdate : ValueType
@@ -144,10 +351,23 @@ public class ScriptRunDelayedTasks : ValueType
 {
 }
 
+public class ScrollEvent : UnityEvent`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC9C5CC80
+}
+
 public class ScrollRectEvent : UnityEvent`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD55083780
+    public void .ctor(){} // RVA: 0x7FFAC9C63780
+}
+
+public class ScrollerSlider : Slider
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC9B56490
+    public void SliderNormalizeValue(){} // RVA: 0x7FFAC9B56530
 }
 
 public class SealedPrefab : MonoBehaviour
@@ -155,1130 +375,659 @@ public class SealedPrefab : MonoBehaviour
     public UnityEngine.Object[] allowedToReference; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341D50
+    public void .ctor(){} // RVA: 0x7FFAC2F21D50
 }
 
 public class SealedPrefabAllowSerializeAttribute : Attribute
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341310
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
 }
 
-public class SecurePlayerPrefs : Object
+public class SearchParams : ApiModel
 {
-    // ── Methods ──
-    public void SetString(){} // RVA: 0x7FFD56E4F480
-    public void GetString(){} // RVA: 0x7FFD56E4F630 | overloaded x2
-    public void HasKey(){} // RVA: 0x7FFD56E4F6D0
-    public void DeleteKey(){} // RVA: 0x7FFD56E4F730
-    public void GenerateMD5(){} // RVA: 0x7FFD56E4F790
-}
-
-public class SecureStringAllocator : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D01B0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-}
-
-public class Segment : Object
-{
-    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int>>[] Capacity; // 0x10
-    public int FreezeOffset; // 0x18
-    public System.Collections.Concurrent.PaddedHeadAndTail _headAndTail; // 0x1C
-    public bool _preservedForObservation; // 0x19C
-    public bool _frozenForEnqueues; // 0x19D
-    public Segment<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int>> _nextSegment; // 0x1A0
+    public string searchQuery; // 0x68
+    public string searchTags; // 0x70
+    public string searchContent; // 0x78
+    public string searchInFields; // 0x80
+    public string sortBy; // 0x88
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD51D00ED0
-    public void get_Capacity(){} // RVA: 0x7FFD4E930620
-    public void get_FreezeOffset(){} // RVA: 0x7FFD51D00770
-    public void EnsureFrozenForEnqueues(){} // RVA: 0x7FFD51D00FB0
-    public void TryDequeue(){} // RVA: 0x7FFD51D010B0
-    public void TryPeek(){} // RVA: 0x7FFD51D012F0
-    public void TryEnqueue(){} // RVA: 0x7FFD51D014D0
+    public void get_searchQuery(){} // RVA: 0x7FFAC2F9CD50
+    public void set_searchQuery(){} // RVA: 0x7FFAC2F9CD60
+    public void get_searchTags(){} // RVA: 0x7FFAC2FE9590
+    public void set_searchTags(){} // RVA: 0x7FFAC2FE95A0
+    public void get_searchContent(){} // RVA: 0x7FFAC30E5600
+    public void set_searchContent(){} // RVA: 0x7FFAC30E06F0
+    public void get_searchInFields(){} // RVA: 0x7FFAC32EF410
+    public void set_searchInFields(){} // RVA: 0x7FFAC34D4AA0
+    public void get_sortBy(){} // RVA: 0x7FFAC2F60010
+    public void set_sortBy(){} // RVA: 0x7FFAC354E300
+    public void .ctor(){} // RVA: 0x7FFACBE79520
 }
 
-public class SegmentState : ValueType
+public class SecP128R1Holder : X9ECParametersHolder
 {
-    public Internal.PaddingFor32 _pad0;
-    public int _first;
-    public int _lastCopy;
-    public Internal.PaddingFor32 _pad1;
-    public int _firstCopy;
-    public int _last;
-    public Internal.PaddingFor32 _pad2;
-}
-
-public class Select : Object
-{
-    public UnityEngine.InputSystem.Utilities.SelectManyObservable`2<U,T> m_Observable;
-    public System.IObserver`1<T> m_Observer;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E099B30
-    public void OnCompleted(){} // RVA: 0x7FFD4E090980
-    public void OnError(){} // RVA: 0x7FFD4E090A40
-    public void OnNext(){} // RVA: 0x7FFD4E2ADC40
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC4F240
+    public void .cctor(){} // RVA: 0x7FFACBC4F3D0
 }
 
-public class SelectionEvent : UnityEvent`1
+public class SecP128R1LookupTable : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54BA7000
-}
-
-public class SendMouseEvents : ValueType
-{
-}
-
-public class SendNetworkEventDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD57414670
-    public void Invoke(){} // RVA: 0x7FFD515B3C60
-    public void BeginInvoke(){} // RVA: 0x7FFD574147F0
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class SerializableContainer : Object
-{
-    public string name; // 0x10
-    public byte[] data; // 0x18
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP128R1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341310
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBA83D70
 }
 
-public class SerializableVector3 : Object
+public class SecP160K1Holder : X9ECParametersHolder
 {
-    public float Value; // 0x10
-    public float Y; // 0x14
-    public float Z; // 0x18
-
-    // ── Methods ──
-    public void ToNumerics(){} // RVA: 0x7FFD4EB56D20
-    public void .ctor(){} // RVA: 0x7FFD4EB56D40
-    public void Initialize(){} // RVA: 0x7FFD4EB56D20
-    public void op_Implicit(){} // RVA: 0x7FFD4EB56D20
-    public void CompareBaseObjects(){} // RVA: 0x7FFD4EB56D20
-    public void IsNativeObjectAlive(){} // RVA: 0x7FFD4EB56D20
-    public void GetCachedPtr(){} // RVA: 0x7FFD4EB56D20
-    public void set_Value(){} // RVA: 0x7FFD4EB56D20
-    public void get_Value(){} // RVA: 0x7FFD4EB56D20
-    public void Instantiate(){} // RVA: 0x7FFD4EB56D20
-}
-
-public class SerializationCallback : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){}
-    public void Invoke(){}
-    public void BeginInvoke(){} // RVA: 0x7FFD4E2ADC40
-    public void EndInvoke(){} // RVA: 0x7FFD4E099B30
-}
-
-public class SerializationDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510DD190
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD4EEF0620
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class SerializedState : ValueType
-{
-    public 0x664AEA20 lastUpdateType; // 0x10
-    public UpdateStepCount playerUpdateStepCount; // 0x14
-}
-
-public class ServiceAccessor : Object
-{
-    public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite CallSite; // 0x10
-    public System.Func`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope,object> RealizedService; // 0x18
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void get_CallSite(){} // RVA: 0x7FFD4E35C380
-    public void set_CallSite(){} // RVA: 0x7FFD4E342E30
-    public void get_RealizedService(){} // RVA: 0x7FFD4E3447C0
-    public void set_RealizedService(){} // RVA: 0x7FFD4E3A7E80
-    public void .ctor(){} // RVA: 0x7FFD4E341310
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC4F470
+    public void .cctor(){} // RVA: 0x7FFACBC4F950
 }
 
-public class ServiceCollectionDebugView : Object
+public class SecP160K1LookupTable : Object
 {
-}
-
-public class ServiceDescriptorCacheItem : ValueType
-{
-    public Microsoft.Extensions.DependencyInjection.ServiceDescriptor Last; // 0x10
-    public System.Collections.Generic.List`1<Microsoft.Extensions.DependencyInjection.ServiceDescriptor> Count; // 0x18
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160K1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void get_Last(){} // RVA: 0x7FFD5374F000
-    public void get_Count(){} // RVA: 0x7FFD5374F0A0
-    public void get_Item(){} // RVA: 0x7FFD5374F100
-    public void GetSlot(){} // RVA: 0x7FFD5374F220
-    public void Add(){} // RVA: 0x7FFD5374F390
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBA89150
 }
 
-public class ServiceProviderDebugView : Object
+public class SecP160R1Holder : X9ECParametersHolder
 {
-}
-
-public class ServiceProviderEngineScopeDebugView : Object
-{
-}
-
-public class SessionStateChanged : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD550AE2C0
-    public void Invoke(){} // RVA: 0x7FFD4F90CD30
-}
-
-public class SetAnimatorBoolDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5746E130
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD5746E2B0
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class SetClassValueAction : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){}
-    public void Invoke(){} // RVA: 0x7FFD4E2ADC40
-}
-
-public class SetElementProperty : Property`2
-{
-    public T Name;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x7FFD4E078E90
-    public void .ctor(){} // RVA: 0x7FFD4E090980
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC4F9F0
+    public void .cctor(){} // RVA: 0x7FFACBC4FB80
 }
 
-public class SetOnInvokeMres : ManualResetEventSlim
+public class SecP160R1LookupTable : Object
 {
-    public object InvokeMayRunArbitraryCode;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53B06AB0
-    public void Invoke(){} // RVA: 0x7FFD53ADB010
-    public void get_InvokeMayRunArbitraryCode(){} // RVA: 0x7FFD4E341320
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBA8B4E0
 }
 
-public class SetStructValueAction : MulticastDelegate
+public class SecP160R2Holder : X9ECParametersHolder
 {
-    // ── Methods ──
-    public void .ctor(){}
-    public void Invoke(){} // RVA: 0x7FFD4E2ADC40
-}
-
-public class Settings : Object
-{
-    public string _containerName; // 0x10
-    public System.Collections.Generic.Dictionary`2<string,object> _data; // 0x18
-    public object _dataLock; // 0x20
-    public bool _hasWrittenToStorage; // 0x28
-    public int _lastTimeWrittenToStorage; // 0x2C
-    public int WRITE_TO_STORAGE_DELAY_MS;
-    public string _tempCachePath; // 0x30
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5726A320
-    public void Get(){} // RVA: 0x7FFD4E2ADC40
-    public void Save(){} // RVA: 0x7FFD4E2ADC40
-    public void LoadFromStorage(){} // RVA: 0x7FFD5726A600
-    public void GetSettingsFilePath(){} // RVA: 0x7FFD5726AB80
-    public void WriteToStorage(){} // RVA: 0x7FFD5726AC10
-    public void <Save>b__9_0(){} // RVA: 0x7FFD4E090980
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC4FC20
+    public void .cctor(){} // RVA: 0x7FFACBC4FDB0
 }
 
-public class ShaderAssetList : ScriptableObject
+public class SecP160R2LookupTable : Object
 {
-    public UnityEngine.Shader[] Shaders; // 0x18
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R2Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E54F5F0
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBA90480
 }
 
-public class ShaderHandleErrors : ValueType
+public class SecP192K1Holder : X9ECParametersHolder
 {
-}
-
-public class Shape : Object
-{
-    public UnityEngine.Transform id; // 0x10
-    public UnityEngine.Transform transform1; // 0x18
-    public 0x665BD508 shapeType; // 0x20
-    public UnityEngine.Vector3 center; // 0x24
-    public float radius; // 0x30
-    public float height; // 0x34
-    public UnityEngine.Vector3 axis; // 0x38
-    public float maxSize; // 0x44
-    public bool isReceiver; // 0x48
-    public bool isCollider; // 0x49
-    public System.Action`1<Shape> OnEnter; // 0x50
-    public System.Action`1<Shape> OnExit; // 0x58
-    public System.Action OnIdUpdated; // 0x60
-    public ushort _id; // 0x68
-    public VRC.Dynamics.DynamicsComponent component; // 0x70
-    public ushort NullId;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void get_id(){} // RVA: 0x7FFD513F9440
-    public void set_id(){} // RVA: 0x7FFD5521B2D0
-    public void .ctor(){} // RVA: 0x7FFD5521B2F0
-    public void .cctor(){} // RVA: 0x7FFD5521B3A0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC4FE50
+    public void .cctor(){} // RVA: 0x7FFACBC50330
 }
 
-public class ShapeCache : ValueType
+public class SecP192K1LookupTable : Object
 {
-    public Cinemachine.ConfinerOven m_confinerOven; // 0x10
-    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.Vector2>> m_OriginalPath; // 0x18
-    public UnityEngine.Matrix4x4 m_DeltaWorldToBaked; // 0x20
-    public UnityEngine.Matrix4x4 m_DeltaBakedToWorld; // 0x60
-    public float m_aspectRatio; // 0xA0
-    public float m_maxWindowSize; // 0xA4
-    public float m_skeletonPadding; // 0xA8
-    public float m_maxComputationTimePerFrameInSeconds; // 0xAC
-    public UnityEngine.Matrix4x4 m_bakedToWorld; // 0xB0
-    public UnityEngine.Collider2D m_boundingShape2D; // 0xF0
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192K1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void Invalidate(){} // RVA: 0x7FFD4FC23630
-    public void ValidateCache(){} // RVA: 0x7FFD4FC237D0
-    public void IsValid(){} // RVA: 0x7FFD4FC24340
-    public void CalculateDeltaTransformationMatrix(){} // RVA: 0x7FFD4FC24620
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBA95260
 }
 
-public class ShapeData : ValueType
+public class SecP192R1Holder : X9ECParametersHolder
 {
-    public 0x665BD508 shapeType; // 0x10
-    public UnityEngine.Vector3 center; // 0x14
-    public float radius; // 0x20
-    public float height; // 0x24
-    public UnityEngine.Vector3 axis; // 0x28
-    public float maxSize; // 0x34
-    public bool isReceiver; // 0x38
-    public bool isCollider; // 0x39
-    public UnityEngine.Bounds bounds; // 0x3C
-    public UnityEngine.Vector3Int boundsMin; // 0x54
-    public UnityEngine.Vector3Int boundsMax; // 0x60
-    public UnityEngine.Vector3Int nextBoundsMin; // 0x6C
-    public UnityEngine.Vector3Int nextBoundsMax; // 0x78
-    public Unity.Mathematics.float3 velocity; // 0x84
-    public Unity.Mathematics.float3 angularNormal; // 0x90
-    public float angularSpeed; // 0x9C
-    public Unity.Mathematics.float3 lastPosition; // 0xA0
-    public Unity.Mathematics.quaternion lastRotation; // 0xAC
-    public Unity.Mathematics.float3 outPos0; // 0xBC
-    public Unity.Mathematics.float3 outPos1; // 0xC8
-    public float outRadius; // 0xD4
-    public int collisionCount; // 0xD8
-    public float VelocityLerpSpeed;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void ToCollisionShape(){} // RVA: 0x7FFD5521B3E0
-    public void GetMidpoint(){} // RVA: 0x7FFD5521B420
-    public void GetClosestPoint(){} // RVA: 0x7FFD5521B4C0
-    public void CalcVelocityAtPoint(){} // RVA: 0x7FFD5521B730
-    public void UpdateShape(){} // RVA: 0x7FFD5521BA10
-    public void GetTransformLossyScale(){} // RVA: 0x7FFD5521CD80
-    public void UpdateVelocity(){} // RVA: 0x7FFD5521CFD0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC503D0
+    public void .cctor(){} // RVA: 0x7FFACBC50560
 }
 
-public class ShapeModule : ValueType
+public class SecP192R1LookupTable : Object
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192R1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4ECFFE40
-    public void get_enabled(){} // RVA: 0x7FFD54D6ACC0
-    public void set_enabled(){} // RVA: 0x7FFD54D6AD10
-    public void get_shapeType(){} // RVA: 0x7FFD54D6AD70
-    public void set_shapeType(){} // RVA: 0x7FFD54D6ADC0
-    public void get_randomDirectionAmount(){} // RVA: 0x7FFD54D6AE20
-    public void set_randomDirectionAmount(){} // RVA: 0x7FFD54D6AE70
-    public void get_sphericalDirectionAmount(){} // RVA: 0x7FFD54D6AED0
-    public void set_sphericalDirectionAmount(){} // RVA: 0x7FFD54D6AF20
-    public void get_randomPositionAmount(){} // RVA: 0x7FFD54D6AF80
-    public void set_randomPositionAmount(){} // RVA: 0x7FFD54D6AFD0
-    public void get_alignToDirection(){} // RVA: 0x7FFD54D6B030
-    public void set_alignToDirection(){} // RVA: 0x7FFD54D6B080
-    public void get_radius(){} // RVA: 0x7FFD54D6B0E0
-    public void set_radius(){} // RVA: 0x7FFD54D6B130
-    public void get_radiusMode(){} // RVA: 0x7FFD54D6B190
-    public void set_radiusMode(){} // RVA: 0x7FFD54D6B1E0
-    public void get_radiusSpread(){} // RVA: 0x7FFD54D6B240
-    public void set_radiusSpread(){} // RVA: 0x7FFD54D6B290
-    public void get_radiusSpeed(){} // RVA: 0x7FFD54D6B2F0
-    public void set_radiusSpeed(){} // RVA: 0x7FFD54D6B360
-    public void get_radiusSpeedMultiplier(){} // RVA: 0x7FFD54D6B3C0
-    public void set_radiusSpeedMultiplier(){} // RVA: 0x7FFD54D6B410
-    public void get_radiusThickness(){} // RVA: 0x7FFD54D6B470
-    public void set_radiusThickness(){} // RVA: 0x7FFD54D6B4C0
-    public void get_angle(){} // RVA: 0x7FFD54D6B520
-    public void set_angle(){} // RVA: 0x7FFD54D6B570
-    public void get_length(){} // RVA: 0x7FFD54D6B5D0
-    public void set_length(){} // RVA: 0x7FFD54D6B620
-    public void get_boxThickness(){} // RVA: 0x7FFD54D6B680
-    public void set_boxThickness(){} // RVA: 0x7FFD54D6B6F0
-    public void get_meshShapeType(){} // RVA: 0x7FFD54D6B750
-    public void set_meshShapeType(){} // RVA: 0x7FFD54D6B7A0
-    public void get_mesh(){} // RVA: 0x7FFD54D6B800
-    public void set_mesh(){} // RVA: 0x7FFD54D6B850
-    public void get_meshRenderer(){} // RVA: 0x7FFD54D6B8B0
-    public void set_meshRenderer(){} // RVA: 0x7FFD54D6B900
-    public void get_skinnedMeshRenderer(){} // RVA: 0x7FFD54D6B960
-    public void set_skinnedMeshRenderer(){} // RVA: 0x7FFD54D6B9B0
-    public void get_sprite(){} // RVA: 0x7FFD54D6BA10
-    public void set_sprite(){} // RVA: 0x7FFD54D6BA60
-    public void get_spriteRenderer(){} // RVA: 0x7FFD54D6BAC0
-    public void set_spriteRenderer(){} // RVA: 0x7FFD54D6BB10
-    public void get_useMeshMaterialIndex(){} // RVA: 0x7FFD54D6BB70
-    public void set_useMeshMaterialIndex(){} // RVA: 0x7FFD54D6BBC0
-    public void get_meshMaterialIndex(){} // RVA: 0x7FFD54D6BC20
-    public void set_meshMaterialIndex(){} // RVA: 0x7FFD54D6BC70
-    public void get_useMeshColors(){} // RVA: 0x7FFD54D6BCD0
-    public void set_useMeshColors(){} // RVA: 0x7FFD54D6BD20
-    public void get_normalOffset(){} // RVA: 0x7FFD54D6BD80
-    public void set_normalOffset(){} // RVA: 0x7FFD54D6BDD0
-    public void get_meshSpawnMode(){} // RVA: 0x7FFD54D6BE30
-    public void set_meshSpawnMode(){} // RVA: 0x7FFD54D6BE80
-    public void get_meshSpawnSpread(){} // RVA: 0x7FFD54D6BEE0
-    public void set_meshSpawnSpread(){} // RVA: 0x7FFD54D6BF30
-    public void get_meshSpawnSpeed(){} // RVA: 0x7FFD54D6BF90
-    public void set_meshSpawnSpeed(){} // RVA: 0x7FFD54D6C000
-    public void get_meshSpawnSpeedMultiplier(){} // RVA: 0x7FFD54D6C060
-    public void set_meshSpawnSpeedMultiplier(){} // RVA: 0x7FFD54D6C0B0
-    public void get_arc(){} // RVA: 0x7FFD54D6C110
-    public void set_arc(){} // RVA: 0x7FFD54D6C160
-    public void get_arcMode(){} // RVA: 0x7FFD54D6C1C0
-    public void set_arcMode(){} // RVA: 0x7FFD54D6C210
-    public void get_arcSpread(){} // RVA: 0x7FFD54D6C270
-    public void set_arcSpread(){} // RVA: 0x7FFD54D6C2C0
-    public void get_arcSpeed(){} // RVA: 0x7FFD54D6C320
-    public void set_arcSpeed(){} // RVA: 0x7FFD54D6C390
-    public void get_arcSpeedMultiplier(){} // RVA: 0x7FFD54D6C3F0
-    public void set_arcSpeedMultiplier(){} // RVA: 0x7FFD54D6C440
-    public void get_donutRadius(){} // RVA: 0x7FFD54D6C4A0
-    public void set_donutRadius(){} // RVA: 0x7FFD54D6C4F0
-    public void get_position(){} // RVA: 0x7FFD54D6C550
-    public void set_position(){} // RVA: 0x7FFD54D6C5C0
-    public void get_rotation(){} // RVA: 0x7FFD54D6C620
-    public void set_rotation(){} // RVA: 0x7FFD54D6C690
-    public void get_scale(){} // RVA: 0x7FFD54D6C6F0
-    public void set_scale(){} // RVA: 0x7FFD54D6C760
-    public void get_texture(){} // RVA: 0x7FFD54D6C7C0
-    public void set_texture(){} // RVA: 0x7FFD54D6C810
-    public void get_textureClipChannel(){} // RVA: 0x7FFD54D6C870
-    public void set_textureClipChannel(){} // RVA: 0x7FFD54D6C8C0
-    public void get_textureClipThreshold(){} // RVA: 0x7FFD54D6C920
-    public void set_textureClipThreshold(){} // RVA: 0x7FFD54D6C970
-    public void get_textureColorAffectsParticles(){} // RVA: 0x7FFD54D6C9D0
-    public void set_textureColorAffectsParticles(){} // RVA: 0x7FFD54D6CA20
-    public void get_textureAlphaAffectsParticles(){} // RVA: 0x7FFD54D6CA80
-    public void set_textureAlphaAffectsParticles(){} // RVA: 0x7FFD54D6CAD0
-    public void get_textureBilinearFiltering(){} // RVA: 0x7FFD54D6CB30
-    public void set_textureBilinearFiltering(){} // RVA: 0x7FFD54D6CB80
-    public void get_textureUVChannel(){} // RVA: 0x7FFD54D6CBE0
-    public void set_textureUVChannel(){} // RVA: 0x7FFD54D6CC30
-    public void get_enabled_Injected(){} // RVA: 0x7FFD54D6ACC0
-    public void set_enabled_Injected(){} // RVA: 0x7FFD54D6AD10
-    public void get_shapeType_Injected(){} // RVA: 0x7FFD54D6AD70
-    public void set_shapeType_Injected(){} // RVA: 0x7FFD54D6ADC0
-    public void get_randomDirectionAmount_Injected(){} // RVA: 0x7FFD54D6AE20
-    public void set_randomDirectionAmount_Injected(){} // RVA: 0x7FFD54D6AE70
-    public void get_sphericalDirectionAmount_Injected(){} // RVA: 0x7FFD54D6AED0
-    public void set_sphericalDirectionAmount_Injected(){} // RVA: 0x7FFD54D6AF20
-    public void get_randomPositionAmount_Injected(){} // RVA: 0x7FFD54D6AF80
-    public void set_randomPositionAmount_Injected(){} // RVA: 0x7FFD54D6AFD0
-    public void get_alignToDirection_Injected(){} // RVA: 0x7FFD54D6B030
-    public void set_alignToDirection_Injected(){} // RVA: 0x7FFD54D6B080
-    public void get_radius_Injected(){} // RVA: 0x7FFD54D6B0E0
-    public void set_radius_Injected(){} // RVA: 0x7FFD54D6B130
-    public void get_radiusMode_Injected(){} // RVA: 0x7FFD54D6B190
-    public void set_radiusMode_Injected(){} // RVA: 0x7FFD54D6B1E0
-    public void get_radiusSpread_Injected(){} // RVA: 0x7FFD54D6B240
-    public void set_radiusSpread_Injected(){} // RVA: 0x7FFD54D6B290
-    public void get_radiusSpeed_Injected(){} // RVA: 0x7FFD54D6CC90
-    public void set_radiusSpeed_Injected(){} // RVA: 0x7FFD54D6CCF0
-    public void get_radiusSpeedMultiplier_Injected(){} // RVA: 0x7FFD54D6B3C0
-    public void set_radiusSpeedMultiplier_Injected(){} // RVA: 0x7FFD54D6B410
-    public void get_radiusThickness_Injected(){} // RVA: 0x7FFD54D6B470
-    public void set_radiusThickness_Injected(){} // RVA: 0x7FFD54D6B4C0
-    public void get_angle_Injected(){} // RVA: 0x7FFD54D6B520
-    public void set_angle_Injected(){} // RVA: 0x7FFD54D6B570
-    public void get_length_Injected(){} // RVA: 0x7FFD54D6B5D0
-    public void set_length_Injected(){} // RVA: 0x7FFD54D6B620
-    public void get_boxThickness_Injected(){} // RVA: 0x7FFD54D6CD50
-    public void set_boxThickness_Injected(){} // RVA: 0x7FFD54D6CDB0
-    public void get_meshShapeType_Injected(){} // RVA: 0x7FFD54D6B750
-    public void set_meshShapeType_Injected(){} // RVA: 0x7FFD54D6B7A0
-    public void get_mesh_Injected(){} // RVA: 0x7FFD54D6B800
-    public void set_mesh_Injected(){} // RVA: 0x7FFD54D6B850
-    public void get_meshRenderer_Injected(){} // RVA: 0x7FFD54D6B8B0
-    public void set_meshRenderer_Injected(){} // RVA: 0x7FFD54D6B900
-    public void get_skinnedMeshRenderer_Injected(){} // RVA: 0x7FFD54D6B960
-    public void set_skinnedMeshRenderer_Injected(){} // RVA: 0x7FFD54D6B9B0
-    public void get_sprite_Injected(){} // RVA: 0x7FFD54D6BA10
-    public void set_sprite_Injected(){} // RVA: 0x7FFD54D6BA60
-    public void get_spriteRenderer_Injected(){} // RVA: 0x7FFD54D6BAC0
-    public void set_spriteRenderer_Injected(){} // RVA: 0x7FFD54D6BB10
-    public void get_useMeshMaterialIndex_Injected(){} // RVA: 0x7FFD54D6BB70
-    public void set_useMeshMaterialIndex_Injected(){} // RVA: 0x7FFD54D6BBC0
-    public void get_meshMaterialIndex_Injected(){} // RVA: 0x7FFD54D6BC20
-    public void set_meshMaterialIndex_Injected(){} // RVA: 0x7FFD54D6BC70
-    public void get_useMeshColors_Injected(){} // RVA: 0x7FFD54D6BCD0
-    public void set_useMeshColors_Injected(){} // RVA: 0x7FFD54D6BD20
-    public void get_normalOffset_Injected(){} // RVA: 0x7FFD54D6BD80
-    public void set_normalOffset_Injected(){} // RVA: 0x7FFD54D6BDD0
-    public void get_meshSpawnMode_Injected(){} // RVA: 0x7FFD54D6BE30
-    public void set_meshSpawnMode_Injected(){} // RVA: 0x7FFD54D6BE80
-    public void get_meshSpawnSpread_Injected(){} // RVA: 0x7FFD54D6BEE0
-    public void set_meshSpawnSpread_Injected(){} // RVA: 0x7FFD54D6BF30
-    public void get_meshSpawnSpeed_Injected(){} // RVA: 0x7FFD54D6CE10
-    public void set_meshSpawnSpeed_Injected(){} // RVA: 0x7FFD54D6CE70
-    public void get_meshSpawnSpeedMultiplier_Injected(){} // RVA: 0x7FFD54D6C060
-    public void set_meshSpawnSpeedMultiplier_Injected(){} // RVA: 0x7FFD54D6C0B0
-    public void get_arc_Injected(){} // RVA: 0x7FFD54D6C110
-    public void set_arc_Injected(){} // RVA: 0x7FFD54D6C160
-    public void get_arcMode_Injected(){} // RVA: 0x7FFD54D6C1C0
-    public void set_arcMode_Injected(){} // RVA: 0x7FFD54D6C210
-    public void get_arcSpread_Injected(){} // RVA: 0x7FFD54D6C270
-    public void set_arcSpread_Injected(){} // RVA: 0x7FFD54D6C2C0
-    public void get_arcSpeed_Injected(){} // RVA: 0x7FFD54D6CED0
-    public void set_arcSpeed_Injected(){} // RVA: 0x7FFD54D6CF30
-    public void get_arcSpeedMultiplier_Injected(){} // RVA: 0x7FFD54D6C3F0
-    public void set_arcSpeedMultiplier_Injected(){} // RVA: 0x7FFD54D6C440
-    public void get_donutRadius_Injected(){} // RVA: 0x7FFD54D6C4A0
-    public void set_donutRadius_Injected(){} // RVA: 0x7FFD54D6C4F0
-    public void get_position_Injected(){} // RVA: 0x7FFD54D6CF90
-    public void set_position_Injected(){} // RVA: 0x7FFD54D6CFF0
-    public void get_rotation_Injected(){} // RVA: 0x7FFD54D6D050
-    public void set_rotation_Injected(){} // RVA: 0x7FFD54D6D0B0
-    public void get_scale_Injected(){} // RVA: 0x7FFD54D6D110
-    public void set_scale_Injected(){} // RVA: 0x7FFD54D6D170
-    public void get_texture_Injected(){} // RVA: 0x7FFD54D6C7C0
-    public void set_texture_Injected(){} // RVA: 0x7FFD54D6C810
-    public void get_textureClipChannel_Injected(){} // RVA: 0x7FFD54D6C870
-    public void set_textureClipChannel_Injected(){} // RVA: 0x7FFD54D6C8C0
-    public void get_textureClipThreshold_Injected(){} // RVA: 0x7FFD54D6C920
-    public void set_textureClipThreshold_Injected(){} // RVA: 0x7FFD54D6C970
-    public void get_textureColorAffectsParticles_Injected(){} // RVA: 0x7FFD54D6C9D0
-    public void set_textureColorAffectsParticles_Injected(){} // RVA: 0x7FFD54D6CA20
-    public void get_textureAlphaAffectsParticles_Injected(){} // RVA: 0x7FFD54D6CA80
-    public void set_textureAlphaAffectsParticles_Injected(){} // RVA: 0x7FFD54D6CAD0
-    public void get_textureBilinearFiltering_Injected(){} // RVA: 0x7FFD54D6CB30
-    public void set_textureBilinearFiltering_Injected(){} // RVA: 0x7FFD54D6CB80
-    public void get_textureUVChannel_Injected(){} // RVA: 0x7FFD54D6CBE0
-    public void set_textureUVChannel_Injected(){} // RVA: 0x7FFD54D6CC30
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBA9A200
 }
 
-public class SharedBool : Object
+public class SecP224K1Holder : X9ECParametersHolder
 {
-    public bool Value; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD539C5F00
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC50600
+    public void .cctor(){} // RVA: 0x7FFACBC50AE0
 }
 
-public class SharedInt : Object
+public class SecP224K1LookupTable : Object
 {
-    public int Value; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224K1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD539C5EF0
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBA9EF40
 }
 
-public class SharedLong : Object
+public class SecP224R1Holder : X9ECParametersHolder
 {
-    public long Value; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F83EFB0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC50B80
+    public void .cctor(){} // RVA: 0x7FFACBC50D10
 }
 
-public class SharedStatic`1 : ValueType
+public class SecP224R1LookupTable : Object
 {
-    public void* Data; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Data(){} // RVA: 0x7FFD4E078E90
-    public void GetOrCreate(){} // RVA: 0x7FFD4E2ADC40
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAA40C0
 }
 
-public class SharedStatics : Object
+public class SecP256K1Holder : X9ECParametersHolder
 {
-}
-
-public class SignalSource : Object
-{
-    public Cinemachine.CinemachineImpulseDefinition SignalDuration; // 0x10
-    public UnityEngine.Vector3 m_Velocity; // 0x18
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FC77880
-    public void get_SignalDuration(){} // RVA: 0x7FFD4FC778F0
-    public void GetSignal(){} // RVA: 0x7FFD4FC77910
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC50DB0
+    public void .cctor(){} // RVA: 0x7FFACBC51290
 }
 
-public class SimpleScheduledItem : VisualElementScheduledItem`1
+public class SecP256K1LookupTable : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD55014450
-    public void PerformTimerUpdate(){} // RVA: 0x7FFD550144B0
-}
-
-public class SingleAnchorDelegatePair : ValueType
-{
-    public OVRSpatialAnchor Anchor; // 0x10
-    public System.Action`2<OVRSpatialAnchor,bool> Delegate; // 0x18
-}
-
-public class SingleConsumerUnboundedChannelReader : ChannelReader`1
-{
-    public System.Action`1<object> Completion; // 0x10
-    public Cysharp.Threading.Tasks.SingleConsumerUnboundedChannel`1<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> parent; // 0x18
-    public System.Threading.CancellationToken cancellationToken; // 0x20
-    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration; // 0x28
-    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<bool> core; // 0x40
-    public bool isWaiting; // 0x68
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E090A40
-    public void get_Completion(){} // RVA: 0x7FFD4E0788A0
-    public void TryRead(){} // RVA: 0x7FFD4E079F60
-    public void WaitToReadAsync(){}
-    public void SingalContinuation(){} // RVA: 0x7FFD4E090980
-    public void SingalCancellation(){} // RVA: 0x7FFD4E090BF0
-    public void SingalCompleted(){} // RVA: 0x7FFD4E090A40
-    public void ReadAllAsync(){}
-    public void Cysharp.Threading.Tasks.IUniTaskSource<System.Boolean>.GetResult(){} // RVA: 0x7FFD4E07AB80
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFD4E090B70
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){}
-    public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){}
-    public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7FFD4E079960
-    public void CancellationCallback(){} // RVA: 0x7FFD4E090A10
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAA9C40
 }
 
-public class SingleConsumerUnboundedChannelWriter : ChannelWriter`1
+public class SecP256R1Holder : X9ECParametersHolder
 {
-    public Cysharp.Threading.Tasks.SingleConsumerUnboundedChannel`1<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> parent; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E090A40
-    public void TryWrite(){} // RVA: 0x7FFD4E2ADC40
-    public void TryComplete(){} // RVA: 0x7FFD4E079F60
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC51330
+    public void .cctor(){} // RVA: 0x7FFACBC514C0
 }
 
-public class SingleProducerSingleConsumerQueue_DebugView : Object
+public class SecP256R1LookupTable : Object
 {
-}
-
-public class SingleRange : ValueType
-{
-    public char First; // 0x10
-    public char Last; // 0x12
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256R1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD51510B90
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAAEC80
 }
 
-public class SingleRangeComparer : Object
+public class SecP384R1Holder : X9ECParametersHolder
 {
-    public SingleRangeComparer Instance;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E341310
-    public void Compare(){} // RVA: 0x7FFD547C89F0
-    public void .cctor(){} // RVA: 0x7FFD547C8A50
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC51560
+    public void .cctor(){} // RVA: 0x7FFACBC516F0
 }
 
-public class SizeBySpeedModule : ValueType
+public class SecP384R1LookupTable : Object
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP384R1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4ECFFE40
-    public void get_enabled(){} // RVA: 0x7FFD54D767C0
-    public void set_enabled(){} // RVA: 0x7FFD54D76810
-    public void get_size(){} // RVA: 0x7FFD54D76870
-    public void set_size(){} // RVA: 0x7FFD54D768E0
-    public void get_sizeMultiplier(){} // RVA: 0x7FFD54D76940
-    public void set_sizeMultiplier(){} // RVA: 0x7FFD54D76990
-    public void get_x(){} // RVA: 0x7FFD54D769F0
-    public void set_x(){} // RVA: 0x7FFD54D76A60
-    public void get_xMultiplier(){} // RVA: 0x7FFD54D76AC0
-    public void set_xMultiplier(){} // RVA: 0x7FFD54D76B10
-    public void get_y(){} // RVA: 0x7FFD54D76B70
-    public void set_y(){} // RVA: 0x7FFD54D76BE0
-    public void get_yMultiplier(){} // RVA: 0x7FFD54D76C40
-    public void set_yMultiplier(){} // RVA: 0x7FFD54D76C90
-    public void get_z(){} // RVA: 0x7FFD54D76CF0
-    public void set_z(){} // RVA: 0x7FFD54D76D60
-    public void get_zMultiplier(){} // RVA: 0x7FFD54D76DC0
-    public void set_zMultiplier(){} // RVA: 0x7FFD54D76E10
-    public void get_separateAxes(){} // RVA: 0x7FFD54D76E70
-    public void set_separateAxes(){} // RVA: 0x7FFD54D76EC0
-    public void get_range(){} // RVA: 0x7FFD54D76F20
-    public void set_range(){} // RVA: 0x7FFD54D76F80
-    public void get_enabled_Injected(){} // RVA: 0x7FFD54D767C0
-    public void set_enabled_Injected(){} // RVA: 0x7FFD54D76810
-    public void get_size_Injected(){} // RVA: 0x7FFD54D76FE0
-    public void set_size_Injected(){} // RVA: 0x7FFD54D77040
-    public void get_sizeMultiplier_Injected(){} // RVA: 0x7FFD54D76940
-    public void set_sizeMultiplier_Injected(){} // RVA: 0x7FFD54D76990
-    public void get_x_Injected(){} // RVA: 0x7FFD54D770A0
-    public void set_x_Injected(){} // RVA: 0x7FFD54D77100
-    public void get_xMultiplier_Injected(){} // RVA: 0x7FFD54D76AC0
-    public void set_xMultiplier_Injected(){} // RVA: 0x7FFD54D76B10
-    public void get_y_Injected(){} // RVA: 0x7FFD54D77160
-    public void set_y_Injected(){} // RVA: 0x7FFD54D771C0
-    public void get_yMultiplier_Injected(){} // RVA: 0x7FFD54D76C40
-    public void set_yMultiplier_Injected(){} // RVA: 0x7FFD54D76C90
-    public void get_z_Injected(){} // RVA: 0x7FFD54D77220
-    public void set_z_Injected(){} // RVA: 0x7FFD54D77280
-    public void get_zMultiplier_Injected(){} // RVA: 0x7FFD54D76DC0
-    public void set_zMultiplier_Injected(){} // RVA: 0x7FFD54D76E10
-    public void get_separateAxes_Injected(){} // RVA: 0x7FFD54D76E70
-    public void set_separateAxes_Injected(){} // RVA: 0x7FFD54D76EC0
-    public void get_range_Injected(){} // RVA: 0x7FFD54D772E0
-    public void set_range_Injected(){} // RVA: 0x7FFD54D77340
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAB3AF0
 }
 
-public class SizeGroup : Object
+public class SecP521R1Holder : X9ECParametersHolder
 {
-    public System.Collections.Generic.Stack`1<int[]> Count; // 0x10
-    public int LowWaterMark; // 0x18
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void get_Count(){} // RVA: 0x7FFD4E079960
-    public void TryGetArray(){} // RVA: 0x7FFD4E078E90
-    public void ReturnArray(){} // RVA: 0x7FFD4E090A40
-    public void Cleanup(){} // RVA: 0x7FFD4E079960
-    public void Contains(){} // RVA: 0x7FFD4E079F60
-    public void .ctor(){} // RVA: 0x7FFD4E090980
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC51790
+    public void .cctor(){} // RVA: 0x7FFACBC51920
 }
 
-public class SizeOverLifetimeModule : ValueType
+public class SecP521R1LookupTable : Object
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP521R1Curve Size; // 0x10
+    public uint[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4ECFFE40
-    public void get_enabled(){} // RVA: 0x7FFD54D75D60
-    public void set_enabled(){} // RVA: 0x7FFD54D75DB0
-    public void get_size(){} // RVA: 0x7FFD54D75E10
-    public void set_size(){} // RVA: 0x7FFD54D75E80
-    public void get_sizeMultiplier(){} // RVA: 0x7FFD54D75EE0
-    public void set_sizeMultiplier(){} // RVA: 0x7FFD54D75F30
-    public void get_x(){} // RVA: 0x7FFD54D75F90
-    public void set_x(){} // RVA: 0x7FFD54D76000
-    public void get_xMultiplier(){} // RVA: 0x7FFD54D76060
-    public void set_xMultiplier(){} // RVA: 0x7FFD54D760B0
-    public void get_y(){} // RVA: 0x7FFD54D76110
-    public void set_y(){} // RVA: 0x7FFD54D76180
-    public void get_yMultiplier(){} // RVA: 0x7FFD54D761E0
-    public void set_yMultiplier(){} // RVA: 0x7FFD54D76230
-    public void get_z(){} // RVA: 0x7FFD54D76290
-    public void set_z(){} // RVA: 0x7FFD54D76300
-    public void get_zMultiplier(){} // RVA: 0x7FFD54D76360
-    public void set_zMultiplier(){} // RVA: 0x7FFD54D763B0
-    public void get_separateAxes(){} // RVA: 0x7FFD54D76410
-    public void set_separateAxes(){} // RVA: 0x7FFD54D76460
-    public void get_enabled_Injected(){} // RVA: 0x7FFD54D75D60
-    public void set_enabled_Injected(){} // RVA: 0x7FFD54D75DB0
-    public void get_size_Injected(){} // RVA: 0x7FFD54D764C0
-    public void set_size_Injected(){} // RVA: 0x7FFD54D76520
-    public void get_sizeMultiplier_Injected(){} // RVA: 0x7FFD54D75EE0
-    public void set_sizeMultiplier_Injected(){} // RVA: 0x7FFD54D75F30
-    public void get_x_Injected(){} // RVA: 0x7FFD54D76580
-    public void set_x_Injected(){} // RVA: 0x7FFD54D765E0
-    public void get_xMultiplier_Injected(){} // RVA: 0x7FFD54D76060
-    public void set_xMultiplier_Injected(){} // RVA: 0x7FFD54D760B0
-    public void get_y_Injected(){} // RVA: 0x7FFD54D76640
-    public void set_y_Injected(){} // RVA: 0x7FFD54D766A0
-    public void get_yMultiplier_Injected(){} // RVA: 0x7FFD54D761E0
-    public void set_yMultiplier_Injected(){} // RVA: 0x7FFD54D76230
-    public void get_z_Injected(){} // RVA: 0x7FFD54D76700
-    public void set_z_Injected(){} // RVA: 0x7FFD54D76760
-    public void get_zMultiplier_Injected(){} // RVA: 0x7FFD54D76360
-    public void set_zMultiplier_Injected(){} // RVA: 0x7FFD54D763B0
-    public void get_separateAxes_Injected(){} // RVA: 0x7FFD54D76410
-    public void set_separateAxes_Injected(){} // RVA: 0x7FFD54D76460
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAB9060
 }
 
-public class SkinChangedDelegate : MulticastDelegate
+public class SecT113R1Holder : X9ECParametersHolder
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-}
-
-public class SlabAllocator : ValueType
-{
-    public AllocatorHandle Handle; // 0x10
-    public Block SlabSizeInBytes; // 0x18
-    public int Log2SlabSizeInBytes; // 0x38
-    public Unity.Collections.FixedList4096Bytes`1<int> Occupied; // 0x40
-    public long budgetInBytes; // 0x1040
-    public long allocatedBytes; // 0x1048
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void get_Handle(){} // RVA: 0x7FFD4F840210
-    public void get_SlabSizeInBytes(){} // RVA: 0x7FFD5492FB60
-    public void Try(){} // RVA: 0x7FFD5492FD90 | overloaded x2
-    public void Dispose(){} // RVA: 0x7FFD4E341310
-    public void Try$BurstManaged(){} // RVA: 0x7FFD5492FDF0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC519C0
+    public void .cctor(){} // RVA: 0x7FFACBC51B50
 }
 
-public class SliderEvent : UnityEvent`1
+public class SecT113R1LookupTable : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5508A3A0
-}
-
-public class Slot : ValueType
-{
-    public int hashCode; // 0x10
-    public int next; // 0x14
-    public UnityEngine.Texture value; // 0x18
-}
-
-public class SortedListKeyEnumerator : Object
-{
-    public System.Collections.Generic.SortedList`2<U,T> Current;
-    public int System.Collections.IEnumerator.Current;
-    public int _version;
-    public U _currentKey;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E090A40
-    public void Dispose(){} // RVA: 0x7FFD4E090980
-    public void MoveNext(){} // RVA: 0x7FFD4E079D00
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E078E90
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4E090980
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAC0A80
 }
 
-public class SortedListValueEnumerator : Object
+public class SecT113R2Holder : X9ECParametersHolder
 {
-    public System.Collections.Generic.SortedList`2<U,T> Current;
-    public int System.Collections.IEnumerator.Current;
-    public int _version;
-    public T _currentValue;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E090A40
-    public void Dispose(){} // RVA: 0x7FFD4E090980
-    public void MoveNext(){} // RVA: 0x7FFD4E079D00
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E078E90
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4E090980
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC51BF0
+    public void .cctor(){} // RVA: 0x7FFACBC51D80
 }
 
-public class SorterGenericArray : ValueType
+public class SecT113R2LookupTable : Object
 {
-    public System.Array keys; // 0x10
-    public System.Array items; // 0x18
-    public System.Collections.IComparer comparer; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R2Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53A875F0
-    public void SwapIfGreaterWithItems(){} // RVA: 0x7FFD53A87770
-    public void Swap(){} // RVA: 0x7FFD53A878F0
-    public void Sort(){} // RVA: 0x7FFD53A879E0
-    public void IntrospectiveSort(){} // RVA: 0x7FFD53A879F0
-    public void IntroSort(){} // RVA: 0x7FFD53A87AE0
-    public void PickPivotAndPartition(){} // RVA: 0x7FFD53A87BC0
-    public void Heapsort(){} // RVA: 0x7FFD53A87D70
-    public void DownHeap(){} // RVA: 0x7FFD53A87E30
-    public void InsertionSort(){} // RVA: 0x7FFD53A88080
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAC3260
 }
 
-public class SorterObjectArray : ValueType
+public class SecT131R1Holder : X9ECParametersHolder
 {
-    public object[] keys; // 0x10
-    public object[] items; // 0x18
-    public System.Collections.IComparer comparer; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53A866F0
-    public void SwapIfGreaterWithItems(){} // RVA: 0x7FFD53A86870
-    public void Swap(){} // RVA: 0x7FFD53A86A80
-    public void Sort(){} // RVA: 0x7FFD53A86C20
-    public void IntrospectiveSort(){} // RVA: 0x7FFD53A86C30
-    public void IntroSort(){} // RVA: 0x7FFD53A86D00
-    public void PickPivotAndPartition(){} // RVA: 0x7FFD53A86DE0
-    public void Heapsort(){} // RVA: 0x7FFD53A86F80
-    public void DownHeap(){} // RVA: 0x7FFD53A87040
-    public void InsertionSort(){} // RVA: 0x7FFD53A87360
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC51E20
+    public void .cctor(){} // RVA: 0x7FFACBC51FB0
 }
 
-public class SortingData : Object
+public class SecT131R1LookupTable : Object
 {
-    public IJobSortable source; // 0x10
-    public SortingData parentDependency; // 0x18
-    public System.Collections.Generic.List`1<SortingData> dependencies; // 0x20
-    public bool visited; // 0x28
-    public int executionGroup; // 0x2C
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5526E640
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAC8A50
 }
 
-public class SortingGroupsUpdate : ValueType
+public class SecT131R2Holder : X9ECParametersHolder
 {
-}
-
-public class Sounds : ValueType
-{
-    public UnityEngine.AudioClip hover; // 0x10
-    public UnityEngine.AudioClip click; // 0x18
-    public UnityEngine.AudioClip deny; // 0x20
-    public UnityEngine.AudioClip back; // 0x28
-}
-
-public class SparseArray`1 : Object
-{
-    public WorkStealingQueue[] Current; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E090ED0
-    public void get_Current(){} // RVA: 0x7FFD4E078E90
-    public void Add(){} // RVA: 0x7FFD4E2ADC40
-    public void Remove(){} // RVA: 0x7FFD4E2ADC40
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC52050
+    public void .cctor(){} // RVA: 0x7FFACBC521E0
 }
 
-public class SpecialCharacter : ValueType
+public class SecT131R2LookupTable : Object
 {
-    public TMPro.TMP_Character character; // 0x10
-    public TMPro.TMP_FontAsset fontAsset; // 0x18
-    public UnityEngine.Material material; // 0x20
-    public int materialIndex; // 0x28
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R2Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54BBFFE0
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBACB100
 }
 
-public class Spectrum : Object
+public class SecT163K1Holder : X9ECParametersHolder
 {
-    public int Item; // 0x10
-    public System.Collections.Generic.List`1<Point> points; // 0x18
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void GetInstanceID(){} // RVA: 0x7FFD4EF4F3D0
-    public void .ctor(){} // RVA: 0x7FFD4EF4FA30
-    public void Initialize(){} // RVA: 0x7FFD4EF4FAF0
-    public void set_Item(){} // RVA: 0x7FFD4EF50150
-    public void get_Item(){} // RVA: 0x7FFD4EF507B0
-    public void IsNativeObjectAlive(){} // RVA: 0x7FFD4EF50DF0
-    public void GetCachedPtr(){} // RVA: 0x7FFD4EF51450
-    public void get_name(){} // RVA: 0x7FFD4EF51AB0
-    public void set_name(){} // RVA: 0x7FFD4EF52110
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC52280
+    public void .cctor(){} // RVA: 0x7FFACBC523D0
 }
 
-public class SpriteAtlasManagerUpdate : ValueType
+public class SecT163K1LookupTable : Object
 {
-}
-
-public class Sprites : ValueType
-{
-    public UnityEngine.Sprite micOn; // 0x10
-    public UnityEngine.Sprite micOff; // 0x18
-    public UnityEngine.Sprite micOnOutline; // 0x20
-    public UnityEngine.Sprite micOffOutline; // 0x28
-    public UnityEngine.Sprite friendRequest; // 0x30
-    public UnityEngine.Sprite invite; // 0x38
-    public UnityEngine.Sprite inviteResponse; // 0x40
-    public UnityEngine.Sprite requestInvite; // 0x48
-    public UnityEngine.Sprite requestInviteResponse; // 0x50
-    public UnityEngine.Sprite gesturesOn; // 0x58
-    public UnityEngine.Sprite gesturesOff; // 0x60
-    public UnityEngine.Sprite system; // 0x68
-    public UnityEngine.Sprite group; // 0x70
-    public UnityEngine.Sprite preload; // 0x78
-    public UnityEngine.Sprite notification; // 0x80
-    public UnityEngine.Sprite gift; // 0x88
-    public UnityEngine.Sprite boop; // 0x90
-}
-
-public class Sse : Object
-{
-    public object IsSseSupported;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163K1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void get_IsSseSupported(){} // RVA: 0x7FFD4E341320
-    public void SHUFFLE(){} // RVA: 0x7FFD5492D5D0
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAD0450
 }
 
-public class Sse2 : Object
+public class SecT163R1Holder : X9ECParametersHolder
 {
-    // ── Methods ──
-    public void add_epi64(){} // RVA: 0x7FFD5492D600
-    public void mul_epu32(){} // RVA: 0x7FFD5492D620
-    public void slli_epi64(){} // RVA: 0x7FFD5492D640
-    public void srli_epi64(){} // RVA: 0x7FFD5492D6E0
-    public void xor_si128(){} // RVA: 0x7FFD5492D7A0
-    public void shuffle_epi32(){} // RVA: 0x7FFD5492D7C0
-}
-
-public class StackAllocator : ValueType
-{
-    public AllocatorHandle Handle; // 0x10
-    public Block m_storage; // 0x18
-    public long m_top; // 0x38
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void get_Handle(){} // RVA: 0x7FFD4F840210
-    public void Try(){} // RVA: 0x7FFD5492F570 | overloaded x2
-    public void Dispose(){} // RVA: 0x7FFD4E341310
-    public void Try$BurstManaged(){} // RVA: 0x7FFD5492F5D0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC52470
+    public void .cctor(){} // RVA: 0x7FFACBC52600
 }
 
-public class State : ValueType
+public class SecT163R1LookupTable : Object
 {
-    public <Accumulators>e__FixedBuffer Accumulators; // 0x10
-    public <Secret>e__FixedBuffer Secret; // 0x50
-    public <Buffer>e__FixedBuffer Buffer; // 0x110
-    public uint BufferedCount; // 0x210
-    public ulong StripesProcessedInCurrentBlock; // 0x218
-    public ulong TotalLength; // 0x220
-    public ulong Seed; // 0x228
-}
-
-public class StateChangeMonitorListener : ValueType
-{
-    public UnityEngine.InputSystem.InputControl control; // 0x10
-    public UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor monitor; // 0x18
-    public long monitorIndex; // 0x20
-    public uint groupIndex; // 0x28
-}
-
-public class StateChangeMonitorTimeout : ValueType
-{
-    public UnityEngine.InputSystem.InputControl control; // 0x10
-    public double time; // 0x18
-    public UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor monitor; // 0x20
-    public long monitorIndex; // 0x28
-    public int timerIndex; // 0x30
-}
-
-public class StateChangeMonitorsForDevice : ValueType
-{
-    public BitRegion[] count; // 0x10
-    public StateChangeMonitorListener[] listeners; // 0x18
-    public UnityEngine.InputSystem.DynamicBitfield signalled; // 0x20
-    public bool needToUpdateOrderingOfMonitors; // 0x40
-    public bool needToCompactArrays; // 0x41
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void get_count(){} // RVA: 0x7FFD4E70C4C0
-    public void Add(){} // RVA: 0x7FFD54A3DBE0
-    public void Remove(){} // RVA: 0x7FFD54A3DF10
-    public void Clear(){} // RVA: 0x7FFD54A3DFE0
-    public void CompactArrays(){} // RVA: 0x7FFD54A3E080
-    public void RemoveAt(){} // RVA: 0x7FFD54A3E0E0
-    public void SortMonitorsByIndex(){} // RVA: 0x7FFD54A3E290
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAD29E0
 }
 
-public class StateChanged : MulticastDelegate
+public class SecT163R2Holder : X9ECParametersHolder
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5132D920
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-}
-
-public class StateEventBuffer : ValueType
-{
-    public UnityEngine.InputSystem.LowLevel.StateEvent stateEvent; // 0x10
-    public int kMaxSize;
-    public 0x664A6EB8 data; // 0x29
-}
-
-public class StaticGetter`1 : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){}
-    public void Invoke(){} // RVA: 0x7FFD4E2ADC40
-}
-
-public class StaticTypeReinitAttribute : Attribute
-{
-    public System.Type reinitType; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E342E30
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC526A0
+    public void .cctor(){} // RVA: 0x7FFACBC52830
 }
 
-public class StationOccupantDelegate : MulticastDelegate
+public class SecT163R2LookupTable : Object
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R2Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D24A0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39CC70
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAD5040
 }
 
-public class StationOccupiedDelegate : MulticastDelegate
+public class SecT193R1Holder : X9ECParametersHolder
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4EF032D0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39CC70
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC528D0
+    public void .cctor(){} // RVA: 0x7FFACBC52A60
 }
 
-public class StatusDelegate : MulticastDelegate
+public class SecT193R1LookupTable : Object
 {
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E432370
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBADA460
 }
 
-public class SteamVR_Utils : Object
+public class SecT193R2Holder : X9ECParametersHolder
 {
-    public string secretKey;
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
 
     // ── Methods ──
-    public void IsValid(){} // RVA: 0x7FFD54053DB0 | overloaded x2
-    public void Slerp(){} // RVA: 0x7FFD54053E20
-    public void Lerp(){} // RVA: 0x7FFD54054000 | overloaded x3
-    public void InverseLerp(){} // RVA: 0x7FFD540540A0 | overloaded x3
-    public void Saturate(){} // RVA: 0x7FFD540540D0 | overloaded x2
-    public void Abs(){} // RVA: 0x7FFD54054130 | overloaded x2
-    public void _copysign(){} // RVA: 0x7FFD54054170
-    public void GetRotation(){} // RVA: 0x7FFD540541B0
-    public void GetPosition(){} // RVA: 0x7FFD540543C0
-    public void GetScale(){} // RVA: 0x7FFD540543F0
-    public void GetLossyScale(){} // RVA: 0x7FFD54054570
-    public void GetBadMD5Hash(){} // RVA: 0x7FFD54054670 | overloaded x2
-    public void GetBadMD5HashFromFile(){} // RVA: 0x7FFD54054920
-    public void SanitizePath(){} // RVA: 0x7FFD54054990
-    public void FindType(){} // RVA: 0x7FFD54054AC0
-    public void CallSystemFn(){} // RVA: 0x7FFD54054C10
-    public void TakeStereoScreenshot(){} // RVA: 0x7FFD54054DB0
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC52B00
+    public void .cctor(){} // RVA: 0x7FFACBC52C90
 }
 
-public class StringCache : ValueType
+public class SecT193R2LookupTable : Object
 {
-    public VRC.Core.Pool.ObjectPool`1<System.Collections.Generic.Dictionary`2<System.ReadOnlyMemory`1<char>,string>> CachePool;
-    public VRC.Core.Pool.PooledObject`1<System.Collections.Generic.Dictionary`2<System.ReadOnlyMemory`1<char>,string>> Cache; // 0x10
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R2Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FEC1C40
-    public void Create(){} // RVA: 0x7FFD5722B250
-    public void Dispose(){} // RVA: 0x7FFD5722B4C0
-    public void Get(){} // RVA: 0x7FFD5722B500
-    public void .cctor(){} // RVA: 0x7FFD5722B6D0
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBADCB30
+}
+
+public class SecT233K1Holder : X9ECParametersHolder
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC52D30
+    public void .cctor(){} // RVA: 0x7FFACBC52E80
+}
+
+public class SecT233K1LookupTable : Object
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233K1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAE1DC0
+}
+
+public class SecT233R1Holder : X9ECParametersHolder
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC52F20
+    public void .cctor(){} // RVA: 0x7FFACBC530B0
+}
+
+public class SecT233R1LookupTable : Object
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233R1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAE4360
+}
+
+public class SecT239K1Holder : X9ECParametersHolder
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC53150
+    public void .cctor(){} // RVA: 0x7FFACBC532A0
+}
+
+public class SecT239K1LookupTable : Object
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT239K1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAE93B0
+}
+
+public class SecT283K1Holder : X9ECParametersHolder
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC53340
+    public void .cctor(){} // RVA: 0x7FFACBC53490
+}
+
+public class SecT283K1LookupTable : Object
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283K1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAEEDB0
+}
+
+public class SecT283R1Holder : X9ECParametersHolder
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC53530
+    public void .cctor(){} // RVA: 0x7FFACBC536C0
+}
+
+public class SecT283R1LookupTable : Object
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283R1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAF13C0
+}
+
+public class SecT409K1Holder : X9ECParametersHolder
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC53760
+    public void .cctor(){} // RVA: 0x7FFACBC538B0
+}
+
+public class SecT409K1LookupTable : Object
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409K1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAF64E0
+}
+
+public class SecT409R1Holder : X9ECParametersHolder
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC53950
+    public void .cctor(){} // RVA: 0x7FFACBC53AE0
+}
+
+public class SecT409R1LookupTable : Object
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Curve Size; // 0x10
+    public ulong[] m_table; // 0x18
+    public int m_size; // 0x20
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
+    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
+    public void Lookup(){} // RVA: 0x7FFACBAF8980
+}
+
+public class SecT571K1Holder : X9ECParametersHolder
+{
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void CreateParameters(){} // RVA: 0x7FFACBC53B80
+    public void .cctor(){} // RVA: 0x7FFACBC53CD0
 }

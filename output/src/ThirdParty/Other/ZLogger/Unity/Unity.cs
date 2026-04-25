@@ -11,17 +11,17 @@ namespace ThirdParty.Other.ZLogger.Unity
         public ZLogger.Unity.ZLoggerUnityDebugOptions options; // 0x10
         public ZLogger.IZLoggerFormatter formatter; // 0x18
         public bool <IsPostingToUnity>k__BackingField;
-        public System.Collections.Generic.Dictionary`2<0x664D9630,0x664D9318> StackTraceLogTypeMappings; // 0x8
+        public System.Collections.Generic.Dictionary`2<0x6B179630,0x6B179318> StackTraceLogTypeMappings; // 0x8
 
         // ── Methods ──
-        public void get_IsPostingToUnity(){} // RVA: 0x7FFD55280410
-        public void set_IsPostingToUnity(){} // RVA: 0x7FFD55280470
-        public void SetupStackTraceLogTypeMappings(){} // RVA: 0x7FFD552804D0
-        public void .ctor(){} // RVA: 0x7FFD55280800
-        public void DisposeAsync(){} // RVA: 0x7FFD4F3D3780
-        public void Post(){} // RVA: 0x7FFD552808F0
-        public void FormatToString(){} // RVA: 0x7FFD55281190
-        public void .cctor(){} // RVA: 0x7FFD552814C0
+        public void get_IsPostingToUnity(){} // RVA: 0x7FFAC9E60410
+        public void set_IsPostingToUnity(){} // RVA: 0x7FFAC9E60470
+        public void SetupStackTraceLogTypeMappings(){} // RVA: 0x7FFAC9E604D0
+        public void .ctor(){} // RVA: 0x7FFAC9E60800
+        public void DisposeAsync(){} // RVA: 0x7FFAC3FB3780
+        public void Post(){} // RVA: 0x7FFAC9E608F0
+        public void FormatToString(){} // RVA: 0x7FFAC9E61190
+        public void .cctor(){} // RVA: 0x7FFAC9E614C0
     }
 
     public class ZLoggerUnityDebugLoggerProvider : Object
@@ -31,11 +31,11 @@ namespace ThirdParty.Other.ZLogger.Unity
         public Microsoft.Extensions.Logging.IExternalScopeProvider scopeProvider; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD552815B0
-        public void CreateLogger(){} // RVA: 0x7FFD552817B0
-        public void Dispose(){} // RVA: 0x7FFD55281860
-        public void DisposeAsync(){} // RVA: 0x7FFD552818E0
-        public void SetScopeProvider(){} // RVA: 0x7FFD4E36F0D0
+        public void .ctor(){} // RVA: 0x7FFAC9E615B0
+        public void CreateLogger(){} // RVA: 0x7FFAC9E617B0
+        public void Dispose(){} // RVA: 0x7FFAC9E61860
+        public void DisposeAsync(){} // RVA: 0x7FFAC9E618E0
+        public void SetScopeProvider(){} // RVA: 0x7FFAC2F4F0D0
     }
 
     public class ZLoggerUnityDebugOptions : ZLoggerOptions
@@ -43,16 +43,16 @@ namespace ThirdParty.Other.ZLogger.Unity
         public bool PrettyStacktrace; // 0x38
 
         // ── Methods ──
-        public void get_PrettyStacktrace(){} // RVA: 0x7FFD4E5F95D0
-        public void set_PrettyStacktrace(){} // RVA: 0x7FFD4E5F95C0
-        public void .ctor(){} // RVA: 0x7FFD552801A0
+        public void get_PrettyStacktrace(){} // RVA: 0x7FFAC31D95D0
+        public void set_PrettyStacktrace(){} // RVA: 0x7FFAC31D95C0
+        public void .ctor(){} // RVA: 0x7FFAC9E601A0
     }
 
     public class ZLoggerUnityExtensions : Object
     {
         // ── Methods ──
-        public void AddZLoggerUnityDebug(){} // RVA: 0x7FFD552801B0
-        public void AsUnityLogType(){} // RVA: 0x7FFD55280310
+        public void AddZLoggerUnityDebug(){} // RVA: 0x7FFAC9E601B0
+        public void AsUnityLogType(){} // RVA: 0x7FFAC9E60310
     }
 
 }

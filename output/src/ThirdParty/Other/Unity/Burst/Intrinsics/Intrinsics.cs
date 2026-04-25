@@ -1,14 +1,18 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Burst.Intrinsics
-// Classes: 10
+// Classes: 13
 // Methods: 25
 
 namespace ThirdParty.Other.Unity.Burst.Intrinsics
 {
+    public class BurstTargetCpuAttribute : Attribute
+    {
+    }
+
     public class Common : Object
     {
         // ── Methods ──
-        public void umul128(){} // RVA: 0x7FFD5492CBF0
+        public void umul128(){} // RVA: 0x7FFAC950CBF0
     }
 
     public class DoGetCSRTrampoline_0000012A$BurstDirectCall : Object
@@ -17,19 +21,19 @@ namespace ThirdParty.Other.Unity.Burst.Intrinsics
         public UIntPtr DeferredCompilation; // 0x8
 
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD5492DD70
-        public void GetFunctionPointer(){} // RVA: 0x7FFD5492DEB0
-        public void Constructor(){} // RVA: 0x7FFD5492E020
-        public void Initialize(){} // RVA: 0x7FFD4E341310
-        public void .cctor(){} // RVA: 0x7FFD5492E020
-        public void Invoke(){} // RVA: 0x7FFD5492E0E0
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFAC950DD70
+        public void GetFunctionPointer(){} // RVA: 0x7FFAC950DEB0
+        public void Constructor(){} // RVA: 0x7FFAC950E020
+        public void Initialize(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFAC950E020
+        public void Invoke(){} // RVA: 0x7FFAC950E0E0
     }
 
     public class DoGetCSRTrampoline_0000012A$PostfixBurstDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD5098C080
-        public void Invoke(){} // RVA: 0x7FFD4E39FA50
+        public void .ctor(){} // RVA: 0x7FFAC556C080
+        public void Invoke(){} // RVA: 0x7FFAC2F7FA50
     }
 
     public class DoSetCSRTrampoline_00000129$BurstDirectCall : Object
@@ -38,19 +42,27 @@ namespace ThirdParty.Other.Unity.Burst.Intrinsics
         public UIntPtr DeferredCompilation; // 0x8
 
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD5492D810
-        public void GetFunctionPointer(){} // RVA: 0x7FFD5492D950
-        public void Constructor(){} // RVA: 0x7FFD5492DAC0
-        public void Initialize(){} // RVA: 0x7FFD4E341310
-        public void .cctor(){} // RVA: 0x7FFD5492DAC0
-        public void Invoke(){} // RVA: 0x7FFD5492DB80
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFAC950D810
+        public void GetFunctionPointer(){} // RVA: 0x7FFAC950D950
+        public void Constructor(){} // RVA: 0x7FFAC950DAC0
+        public void Initialize(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFAC950DAC0
+        public void Invoke(){} // RVA: 0x7FFAC950DB80
     }
 
     public class DoSetCSRTrampoline_00000129$PostfixBurstDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E432370
-        public void Invoke(){} // RVA: 0x7FFD4E39CC60
+        public void .ctor(){} // RVA: 0x7FFAC3012370
+        public void Invoke(){} // RVA: 0x7FFAC2F7CC60
+    }
+
+    public class V128DebugView : Object
+    {
+    }
+
+    public class V256DebugView : Object
+    {
     }
 
     public class V64DebugView : Object
@@ -60,12 +72,12 @@ namespace ThirdParty.Other.Unity.Burst.Intrinsics
     public class X86 : Object
     {
         // ── Methods ──
-        public void BurstIntrinsicSetCSRFromManaged(){} // RVA: 0x7FFD4E341310
-        public void BurstIntrinsicGetCSRFromManaged(){} // RVA: 0x7FFD4E919180
-        public void DoSetCSRTrampoline(){} // RVA: 0x7FFD5492CC80
-        public void DoGetCSRTrampoline(){} // RVA: 0x7FFD5492CEA0
-        public void DoSetCSRTrampoline$BurstManaged(){} // RVA: 0x7FFD4E9F2DD0
-        public void DoGetCSRTrampoline$BurstManaged(){} // RVA: 0x7FFD51B532B0
+        public void BurstIntrinsicSetCSRFromManaged(){} // RVA: 0x7FFAC2F21310
+        public void BurstIntrinsicGetCSRFromManaged(){} // RVA: 0x7FFAC34F9180
+        public void DoSetCSRTrampoline(){} // RVA: 0x7FFAC950CC80
+        public void DoGetCSRTrampoline(){} // RVA: 0x7FFAC950CEA0
+        public void DoSetCSRTrampoline$BurstManaged(){} // RVA: 0x7FFAC35D2DD0
+        public void DoGetCSRTrampoline$BurstManaged(){} // RVA: 0x7FFAC67332B0
     }
 
     public class v128 : ValueType
@@ -278,7 +290,7 @@ namespace ThirdParty.Other.Unity.Burst.Intrinsics
         public Unity.Burst.Intrinsics.v128 Hi128; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4FD9E290 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAC497E290 | overloaded x2
     }
 
     public class v64 : ValueType
