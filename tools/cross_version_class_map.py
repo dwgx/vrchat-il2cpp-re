@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import sys
 import time
 from bisect import bisect_right
@@ -13,6 +14,9 @@ from collections import defaultdict
 from pathlib import Path
 
 from extract_precise_dump import DumpReader
+
+# Beebyte obf strings: 3+ chars from U+00CC..U+00CF
+OBF_RE = re.compile(r'[Ì-Ï]{3,}')
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -68,6 +72,7 @@ def flatten_classes(data: dict) -> list[dict[str, object]]:
             if not va:
                 continue
             fullname = f"{namespace}.{name}" if namespace else name
+            fields_list = cls.get("fields") or []
             items.append(
                 {
                     "namespace": namespace or "",
@@ -76,6 +81,8 @@ def flatten_classes(data: dict) -> list[dict[str, object]]:
                     "va": va,
                     "va_hex": fmt_va(va),
                     "method_pointers": cls.get("method_pointers") or {},
+                    "field_count": len(fields_list),
+                    "parent": cls.get("parent") or "",
                 }
             )
     return items
@@ -145,9 +152,18 @@ def build_class_hashes(
                 if method_hash:
                     hashes.add(method_hash)
 
+        # Method-name signature: stable C# compiler-generated names
+        # like '.ctor', '<Foo>b__0_1' that survive Beebyte string
+        # re-seeding (filter out any obf-looking names).
+        name_sig: tuple[str, ...] = ()
+        if isinstance(method_ptrs, dict):
+            stable = sorted(n for n in method_ptrs.keys() if not OBF_RE.search(n))
+            name_sig = tuple(stable)
+
         record = dict(cls)
         record["hashes"] = hashes
         record["method_count"] = len(hashes)
+        record["name_sig"] = name_sig
         out.append(record)
         if hashes:
             stats["classes_with_hashes"] += 1
@@ -186,12 +202,46 @@ def map_classes(
     result: dict[str, dict[str, object]] = {}
     mapped_scores: list[float] = []
     unmapped_names: list[str] = []
+    name_fp_used = 0
+
+    # Build name-signature → list[new_idx] index for fallback matching.
+    # Key: (namespace, name, field_count, name_sig)
+    name_sig_index: dict[tuple, list[int]] = defaultdict(list)
+    for nidx, ncls in enumerate(new_classes):
+        sig = ncls.get("name_sig") or ()
+        if sig:
+            ns = ncls.get("namespace") or ""
+            nm = ncls.get("name") or ""
+            fc = ncls.get("field_count", 0)
+            name_sig_index[(ns, nm, fc, sig)].append(nidx)
 
     started = time.time()
     for index, old_cls in enumerate(old_classes, start=1):
         old_hashes = old_cls["hashes"]
         old_size = len(old_hashes)
         if old_size == 0:
+            # Fallback: name-signature-only match for closure classes
+            # whose method bodies are too short to fingerprint reliably.
+            sig = old_cls.get("name_sig") or ()
+            if sig:
+                ns = old_cls.get("namespace") or ""
+                nm = old_cls.get("name") or ""
+                fc = old_cls.get("field_count", 0)
+                cands = name_sig_index.get((ns, nm, fc, sig)) or []
+                if len(cands) == 1:
+                    new_idx = cands[0]
+                    new_cls = new_classes[new_idx]
+                    result[str(old_cls["va_hex"])] = {
+                        "new_va": str(new_cls["va_hex"]),
+                        "score": 1.0,
+                        "shared": len(sig),
+                        "old_methods": 0,
+                        "new_methods": 0,
+                        "match_kind": "name_sig",
+                    }
+                    mapped_scores.append(1.0)
+                    name_fp_used += 1
+                    continue
             if len(unmapped_names) < 12:
                 unmapped_names.append(str(old_cls["fullname"]))
             continue
@@ -226,10 +276,33 @@ def map_classes(
                 "shared": best_shared,
                 "old_methods": old_size,
                 "new_methods": new_sizes[best_idx],
+                "match_kind": "body_hash",
             }
             mapped_scores.append(best_score)
-        elif len(unmapped_names) < 12:
-            unmapped_names.append(str(old_cls["fullname"]))
+        else:
+            # Hash match failed — try name-signature fallback.
+            sig = old_cls.get("name_sig") or ()
+            ns = old_cls.get("namespace") or ""
+            cands = []
+            if sig:
+                nm = old_cls.get("name") or ""
+                fc = old_cls.get("field_count", 0)
+                cands = name_sig_index.get((ns, nm, fc, sig)) or []
+            if len(cands) == 1:
+                new_idx = cands[0]
+                new_cls = new_classes[new_idx]
+                result[str(old_cls["va_hex"])] = {
+                    "new_va": str(new_cls["va_hex"]),
+                    "score": 1.0,
+                    "shared": len(sig),
+                    "old_methods": old_size,
+                    "new_methods": new_sizes[new_idx],
+                    "match_kind": "name_sig",
+                }
+                mapped_scores.append(1.0)
+                name_fp_used += 1
+            elif len(unmapped_names) < 12:
+                unmapped_names.append(str(old_cls["fullname"]))
 
         if index % 5000 == 0 or index == len(old_classes):
             elapsed = time.time() - started
@@ -240,6 +313,7 @@ def map_classes(
         "mapped": len(result),
         "unmapped": len(old_classes) - len(result),
         "avg_jaccard": (sum(mapped_scores) / len(mapped_scores)) if mapped_scores else 0.0,
+        "name_sig_fallback": name_fp_used,
         "unmapped_samples": unmapped_names[:8],
     }
     return result, stats

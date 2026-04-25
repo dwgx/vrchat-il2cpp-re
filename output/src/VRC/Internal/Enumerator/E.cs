@@ -114,7 +114,7 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÌÏÌÎÏÏÏÎÌÌÍÍÎÏÏÎÍÌÎÏÎÏÏ</summary>
     public class Enumerator_0494 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current;
         public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──
@@ -1076,7 +1076,7 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÌÏÎÏÏÌÏÎÎÎÍÍÏÌÌÌÌÎÎÏÎÍÍ</summary>
     public class Enumerator_6154 : Object
     {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
+        public int System.Collections.Generic.IEnumerator<System.Object>.Current;
         public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──

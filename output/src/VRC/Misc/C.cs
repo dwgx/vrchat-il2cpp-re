@@ -19,7 +19,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÌÌÎÎÌÌÏÏÍÏÎÌÌÍÎÍÌÍÎÍ</summary>
     public class CloneSibling_59C7 : Object
     {
-        public object _59C7;
+        public ÍÌÏÍÏÍÎÍÍÌÏÌÏÍÎÏÍÎÏÌÎÎÌ<T> _59C7;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
