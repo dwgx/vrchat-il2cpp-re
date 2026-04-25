@@ -1,0 +1,2008 @@
+[
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_F0B",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_FDE",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_CEE",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_1FF",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_C17",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_077",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_ECC",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_F8A",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_399",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_2EB",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_16B",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_F16",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_6BE",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_CF1",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_177",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_25F",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_29F",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_EBA",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_950",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_700",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_6F0",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_AC6",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_05C",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_143",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_067",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_18F",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_59D",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_103",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_DFB",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_F7F",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_C46",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_612",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_A3C",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_ADA",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_8C5",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_E3A",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_C26",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_CB8",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_A22",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_F26",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_542",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_CCB",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_665",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_0C5",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_48D",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_15F",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "NetworkItemSiblingSibling_AAE2",
+    "hash": "m_543",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "GetInstanceID",
+      "GetInstanceID",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "op_Implicit",
+      "get_name",
+      "set_name",
+      "set_name"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "VRC_MainSibling_9171",
+    "hash": "m_5E5",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "GetColliderComponents",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "GetLastServiceDescriptor",
+      "RemoveAt",
+      "GetInstanceID",
+      "IsInvoking",
+      "set_textElement",
+      "StartCoroutine"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRC_MainSibling_9171",
+    "hash": "m_E73",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "GetColliderComponents",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "GetLastServiceDescriptor",
+      "RemoveAt",
+      "GetInstanceID",
+      "IsInvoking",
+      "set_textElement",
+      "StartCoroutine"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRC_MainSibling_9171",
+    "hash": "m_BDB",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "GetColliderComponents",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "GetLastServiceDescriptor",
+      "RemoveAt",
+      "GetInstanceID",
+      "IsInvoking",
+      "set_textElement",
+      "StartCoroutine"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRC_MainSibling_9171",
+    "hash": "m_CBC",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "GetColliderComponents",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "GetLastServiceDescriptor",
+      "RemoveAt",
+      "GetInstanceID",
+      "IsInvoking",
+      "set_textElement",
+      "StartCoroutine"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "BaseClass3Sibling_7A02",
+    "hash": "m_F32",
+    "readable_neighbors": [
+      "ContainsChild",
+      "ContainsChild_05F",
+      "ContainsChild_69F",
+      "ContainsChild_9BB",
+      "DelegateToField16",
+      "ContainsChild_ADF",
+      "DelegateToField16_B25",
+      "PausePlayback",
+      "ResumePlayback",
+      "StopPlayback"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "ComplexComponent_7316",
+    "hash": "m_B5F",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "LateUpdate",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "OnApplicationQuit",
+      "IsInvoking",
+      "StartCoroutine",
+      "OnDestroy"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRCUiManagerSibling_0842",
+    "hash": "m_A4B",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "Equals",
+      "GetHashCode",
+      "GetTargets",
+      "RouteUIRequest",
+      "IsNativeObjectAlive",
+      "GetCachedPtr",
+      "get_name",
+      "set_name",
+      "Instantiate"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "VRCUiManagerSibling_0842",
+    "hash": "m_144",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "Equals",
+      "GetHashCode",
+      "GetTargets",
+      "RouteUIRequest",
+      "IsNativeObjectAlive",
+      "GetCachedPtr",
+      "get_name",
+      "set_name",
+      "Instantiate"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "UIRectTransformDimensionsChBefSibling_259E",
+    "hash": "m_882",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "Enable",
+      "Equals",
+      "op_Implicit",
+      "CompareBaseObjects",
+      "IsNativeObjectAlive",
+      "GetCachedPtr",
+      "get_name",
+      "set_name",
+      "Instantiate"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "PointerEnterPointerExitHandlerImpl_5DE3",
+    "hash": "m_1EB",
+    "readable_neighbors": [
+      "UpdateActive",
+      "GetInstanceID",
+      "Start",
+      "InternalGetHashCode",
+      ".ctor",
+      "Initialize",
+      "UpdateActive_1EB",
+      "Start_AD3",
+      "DontDestroyOnLoad",
+      "GetInstanceID_BFD"
+    ],
+    "parent": "PointerEnterPointerExitHandler_AE24"
+  },
+  {
+    "class": "ComplexComponentImplImpl_A47B",
+    "hash": "m_BC3",
+    "readable_neighbors": [
+      "LateUpdate",
+      "OnDisable",
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnEnable",
+      "Initialize",
+      "UpdateFontAsset",
+      "Awake_CDB",
+      "Start"
+    ],
+    "parent": "ComplexComponentImpl_A727"
+  },
+  {
+    "class": "ComplexComponent_8C61",
+    "hash": "m_BCF",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_infiniteClipApplyFootIK",
+      "Awake",
+      "Invoke",
+      "InvokeRepeating",
+      "CancelInvoke",
+      "IsInvoking",
+      "StartCoroutine",
+      "LateUpdate"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "ComplexComponent_CF71",
+    "hash": "m_FEC",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "IsInvoking",
+      "CancelInvoke",
+      "Invoke",
+      "StartCoroutine",
+      "GetCurrentTextCue",
+      "set_categories",
+      "OnApplicationQuit_A2C",
+      "StartCoroutine_D84"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "PlayerRectTransformDimensionsChCalculateLayout_4181",
+    "hash": "m_433",
+    "readable_neighbors": [
+      "Awake_842",
+      "get_gameObject",
+      "InitializeRectTransformDefaults",
+      ".ctor",
+      "get_tilt",
+      "SetLineWidth",
+      "OnTransformChildrenChanged",
+      "FixedUpdate",
+      "GetLanguage",
+      "NeedsSync"
+    ],
+    "parent": "PointerEnterPointerExit_D99E"
+  },
+  {
+    "class": "ComplexComponent_29A6",
+    "hash": "m_3E1",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "IsInvoking",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "StepBackwardAndProcessLastEntry",
+      "OnEnable",
+      "StartCoroutine",
+      "FixedUpdate"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "PlayerControllerColliderHitHandler_1F75",
+    "hash": "m_BED",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_swapBumpers",
+      "CancelInvoke",
+      "OnDestroy",
+      "OnControllerColliderHit_BED",
+      "get_autoAmbientProbeBaking",
+      "get_LogCaptureStartStop",
+      "StartCoroutine",
+      "Reset"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "LifecycleComponent_4959",
+    "hash": "m_DB3",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "GetStatus",
+      "NotifySelectedCipherSuite",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetSessionId",
+      "IsInvoking",
+      "StartCoroutine",
+      "OnEnable"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "AnimatedTextureBaseImpl_0682",
+    "hash": "m_455",
+    "readable_neighbors": [
+      "LinkConnectedBody",
+      "GetTwoFactorAuthMethods",
+      "GetTwoFactorAuthMethods_556",
+      "GetTwoFactorAuthMethods_51A",
+      "GetTwoFactorAuthMethods_49D",
+      "GetTwoFactorAuthMethods_941",
+      "GetTwoFactorAuthMethods_64E",
+      "SetActive_629",
+      "SetActive_629_846",
+      "SetFrameWeight"
+    ],
+    "parent": "AnimatedTextureBase_F53F"
+  },
+  {
+    "class": "ComplexComponentSiblingSibling_7550",
+    "hash": "m_326",
+    "readable_neighbors": [
+      "ContainsChild",
+      "ContainsChild_3AC",
+      "ContainsChild_F47",
+      "ContainsChild_3A0",
+      "FetchLastServiceDescriptor",
+      "SelectLastServiceDescriptor",
+      "ReadLastServiceDescriptor",
+      "GetLastServiceDescriptor",
+      "AcquireLastServiceDescriptor",
+      "LoadLastServiceDescriptor"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "BaseClass3Impl_F471",
+    "hash": "m_C4F",
+    "readable_neighbors": [
+      "get_layout",
+      "set_rotation",
+      "GetBufferedTimes",
+      "op_Implicit",
+      "CompareBaseObjects",
+      "get_destination",
+      "GetMaxHealth",
+      "get_Loop",
+      "set_Loop",
+      "GetBufferedTimes_54A"
+    ],
+    "parent": "BaseClass3_8EDF"
+  },
+  {
+    "class": "UdonUnregisterEventHandlerRegisterEventHandl_2C20",
+    "hash": "m_CB0",
+    "readable_neighbors": [
+      "UpdateHandlerState",
+      "DoPlay",
+      "DoResetReplacementSha",
+      ".cctor",
+      "ClearEventHandler",
+      "FindGameObject",
+      "TryGetEventHandlerValue",
+      "ReadEventHandlerParticleLifetime",
+      "ReadEventHandlerParticleLifetime_553",
+      "GetUnityEngine"
+    ],
+    "parent": "VRC_EventDispatcher"
+  },
+  {
+    "class": "VRCUiManager",
+    "hash": "m_6EB",
+    "readable_neighbors": [
+      "Awake_068",
+      "RaiseCancellation_742",
+      "GetFormat",
+      "SetUIElementProperties",
+      "GetLastServiceDescriptor",
+      "OnDisable",
+      "GetFormat_D0B",
+      "CopyTextureRegion",
+      "UpdateUiManagerValues",
+      "CopyTextureRegion_E0F"
+    ],
+    "parent": "UIManager"
+  },
+  {
+    "class": "MajorSystem_13C5",
+    "hash": "m_8F1",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "IsInvoking",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "CancelInvoke_5EA",
+      "IsInvoking_D25",
+      "StartCoroutine",
+      "StartCoroutine_0D9"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_16C",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_17C",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_8B8",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_36F",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_652",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_EA9",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_4E5",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_910",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_74D",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Secondary",
+    "hash": "m_4E5",
+    "readable_neighbors": [
+      "get_destroyCancellationToken",
+      "RaiseCancellation",
+      "get_DebounceTimeError",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "ProcessNetworkDisposal",
+      "IsInvoking",
+      "StartCoroutine",
+      "DrawGizmoLine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "Major148m_82E5",
+    "hash": "m_800",
+    "readable_neighbors": [
+      "GetInstanceID",
+      "Equals",
+      "GetHashCode",
+      "op_Implicit",
+      "CompareBaseObjects",
+      "IsNativeObjectAlive",
+      "GetCachedPtr",
+      "get_name",
+      "set_name",
+      "Instantiate"
+    ],
+    "parent": "Object"
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_742",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_DEE",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_A4B",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_CE5",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_101",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_84E",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_47A",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_B95",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_F2E",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "VRCUiManagerSiblingSibling_39B9",
+    "hash": "m_144",
+    "readable_neighbors": [
+      "UpdateUIManagerReference",
+      "RaiseCancellation",
+      "GetFormat",
+      "ContainsChild",
+      "GetPlaybackRate",
+      "OnDisable",
+      "ForwardUiCall",
+      "Enable",
+      "ContainsChild_ADF",
+      "GetColliderComponents"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "BaseClass4Impl_C690",
+    "hash": "m_E89",
+    "readable_neighbors": [
+      ".ctor",
+      "Initialize",
+      "set_isTextObjectScaleStatic",
+      "set_isTextObjectScaleStatic_8D3",
+      "Initialize_559",
+      "GetInstanceID",
+      "GetCachedIntValue02",
+      "GetCachedInt1",
+      "EnsureStaticCache",
+      "get_Invariant"
+    ],
+    "parent": "BaseClass4_1C5B"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_E3F",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_B74",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_57A",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_347",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_A51",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_678",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_1AE",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_A63",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_57A",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_839",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_5E5",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_F09",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_E73",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_758",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_53E",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_DB9",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_4AA",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_691",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_89C",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_DCC",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_950",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_9A2",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "VRC_Main",
+    "hash": "m_F7A",
+    "readable_neighbors": [
+      "GetMainCamera",
+      "ConvertSliceAndInvokeReceiver",
+      "get_NetworkStatusListener",
+      "CancelInvoke",
+      "Invoke",
+      "InvokeRepeating",
+      "GetInstanceID",
+      "IsInvoking",
+      "InitializeStateC",
+      "StartCoroutine"
+    ],
+    "parent": "MonoBehaviour"
+  },
+  {
+    "class": "AnimatedTextureBaseImpl_2356",
+    "hash": "m_805",
+    "readable_neighbors": [
+      "Initialize",
+      "GetLanguage",
+      "GetPlatform",
+      "Initialize_C32",
+      ".ctor",
+      "Update",
+      "CompareBaseObjects",
+      "Start",
+      "GetBufferedTimes",
+      "get_MaskTag"
+    ],
+    "parent": "AnimatedTextureBase_F53F"
+  },
+  {
+    "class": "ComplexComponentSibling_EFBF",
+    "hash": "m_CD6",
+    "readable_neighbors": [
+      "ContainsChild",
+      "ContainsChild_822",
+      "ContainsChild_4CE",
+      "ContainsChild_A89",
+      "ContainsChild_4A8",
+      "ContainsChild_CC5",
+      "ProcessComponent1",
+      "GetLastServiceDescriptor",
+      "Return",
+      "InitializeComplexSibling"
+    ],
+    "parent": ""
+  },
+  {
+    "class": "NetworkReadyHandler_6881",
+    "hash": "m_59C",
+    "readable_neighbors": [
+      "get_ValidExpressions",
+      "set_ValidExpressions",
+      "GetLanguage",
+      "ComputeParent",
+      "GetTypeCode",
+      "OnDestroy_004",
+      "Awake_4ED",
+      "Start",
+      "OnDestroy_453",
+      "LateUpdate_B7E"
+    ],
+    "parent": "NetworkReadyHandler_68D0"
+  }
+]

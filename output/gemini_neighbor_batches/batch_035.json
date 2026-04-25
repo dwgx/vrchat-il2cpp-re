@@ -1,0 +1,421 @@
+[
+ {
+  "class": "VRCNetworkBehaviourSibling_BF59",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Initialize",
+   "TryGetValue",
+   "GetInstanceID",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetInstanceID",
+   "Initialize",
+   "set_name",
+   "CompareBaseObjects",
+   "Initialize",
+   "GetInstanceID",
+   "CompareBaseObjects",
+   "Initialize",
+   "Instantiate",
+   "Equals",
+   "CompareBaseObjects",
+   "GetHashCode",
+   "ToString",
+   "Initialize",
+   "Destroy",
+   "IsNativeObjectAlive",
+   "DestroyImmediate",
+   "Initialize",
+   "CompareBaseObjects",
+   "Initialize",
+   "DestroyImmediate",
+   "DontDestroyOnLoad",
+   "CompareBaseObjects",
+   "GetName"
+  ],
+  "hash_keys": [
+   "VRCNetworkBehaviourSibling_BF59::m_795",
+   "VRCNetworkBehaviourSibling_BF59::m_8B5",
+   "VRCNetworkBehaviourSibling_BF59::m_A70",
+   "VRCNetworkBehaviourSibling_BF59::m_EBC",
+   "VRCNetworkBehaviourSibling_BF59::m_A43",
+   "VRCNetworkBehaviourSibling_BF59::m_ACC",
+   "VRCNetworkBehaviourSibling_BF59::m_1C7",
+   "VRCNetworkBehaviourSibling_BF59::m_E4D",
+   "VRCNetworkBehaviourSibling_BF59::m_961",
+   "VRCNetworkBehaviourSibling_BF59::m_317"
+  ],
+  "total": 112,
+  "named_pct": "90%"
+ },
+ {
+  "class": "SpecialEffectBaseImplImpl_EADB",
+  "parent": "ÎÍÏÎÎÏÍÏÌÍÍÍÌÎÌÏÍÎÎÌÍÏÎ",
+  "known_methods": [
+   "SetEnabled_508",
+   "InternalGetHashCode",
+   "AppendString",
+   "DoSetPositionAndRotation_Injected_B2B",
+   "Initialize"
+  ],
+  "hash_keys": [
+   "SpecialEffectBaseImplImpl_EADB::m_F29",
+   "SpecialEffectBaseImplImpl_EADB::m_B58",
+   "SpecialEffectBaseImplImpl_EADB::m_86E",
+   "SpecialEffectBaseImplImpl_EADB::m_5C8",
+   "SpecialEffectBaseImplImpl_EADB::m_4E8",
+   "SpecialEffectBaseImplImpl_EADB::m_C5C",
+   "SpecialEffectBaseImplImpl_EADB::m_2DC",
+   "SpecialEffectBaseImplImpl_EADB::m_D9A"
+  ],
+  "total": 15,
+  "named_pct": "38%"
+ },
+ {
+  "class": "LifecycleComponent_5100",
+  "parent": "MonoBehaviour",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "RaiseCancellation",
+   "IsInvoking",
+   "GetSpineMapping",
+   "Invoke",
+   "InvokeRepeating",
+   "CancelInvoke",
+   "Awake",
+   "StartCoroutine",
+   "Update",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "set_body",
+   "Initialize",
+   "get_useGUILayout",
+   "set_useGUILayout",
+   "print",
+   "Internal_CancelInvokeAll",
+   "Internal_IsInvokingAll",
+   "InvokeDelayed",
+   "OnTriggerEnter",
+   "OnTriggerStay",
+   "IsObjectMonoBehaviour",
+   "StartCoroutineManaged",
+   "NeedsSync",
+   "StopCoroutineManaged",
+   "StopCoroutineFromEnumeratorManaged",
+   "GetScriptClassName",
+   "OnTriggerStay",
+   "TransformPoint"
+  ],
+  "hash_keys": [
+   "LifecycleComponent_5100::m_5DC",
+   "LifecycleComponent_5100::m_E5F",
+   "LifecycleComponent_5100::m_FFE"
+  ],
+  "total": 42,
+  "named_pct": "91%"
+ },
+ {
+  "class": "Unknown10m_16D6",
+  "parent": "ÏÎÏÎÎÍÌÎÏÌÌÎÏÌÍÏÏÍÍÏÌÌÍ",
+  "known_methods": [
+   "AsUdonLong",
+   "Initialize",
+   "CheckDistance",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "get_nonStreamingTextureMemory",
+   "MoveNext",
+   "set_name"
+  ],
+  "hash_keys": [
+   "Unknown10m_16D6::m_586"
+  ],
+  "total": 10,
+  "named_pct": "88%"
+ },
+ {
+  "class": "ComplexComponentSibling_19D1",
+  "parent": "",
+  "known_methods": [
+   "Rewrite",
+   "ContainsChild",
+   "Enable"
+  ],
+  "hash_keys": [
+   "ComplexComponentSibling_19D1::m_3E1"
+  ],
+  "total": 5,
+  "named_pct": "75%"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_BFCA",
+  "parent": "ÏÌÏÌÍÍÍÍÍÏÍÏÌÌÍÌÌÍÎÏÌÍÏ",
+  "known_methods": [
+   "GetGameObject_DFA",
+   "Initialize",
+   "SetGlobalState",
+   "CalculateSize",
+   "Sequence",
+   "CaluclateAerodynamicEffect",
+   "CleanupData",
+   "OnEnable"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImpl_BFCA::m_4A4",
+   "AnimatedTextureBaseImpl_BFCA::m_0F9",
+   "AnimatedTextureBaseImpl_BFCA::m_571",
+   "AnimatedTextureBaseImpl_BFCA::m_08C",
+   "AnimatedTextureBaseImpl_BFCA::m_76B",
+   "AnimatedTextureBaseImpl_BFCA::m_CD4",
+   "AnimatedTextureBaseImpl_BFCA::m_E5D",
+   "AnimatedTextureBaseImpl_BFCA::m_A87"
+  ],
+  "total": 20,
+  "named_pct": "50%"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_55AE",
+  "parent": "ÏÌÏÌÍÍÍÍÍÏÍÏÌÌÍÌÌÍÎÏÌÍÏ",
+  "known_methods": [
+   "IsPlaybackActive",
+   "set_element",
+   "get_FileId",
+   "GetPlatform",
+   "get_ValidExpressions",
+   "set_ValidExpressions",
+   "Initialize",
+   "Enable",
+   "GetFrameCount",
+   "GetLanguage",
+   "GetBufferedTimes",
+   "UpdateTextureAsync",
+   "StartCoroutine",
+   "GetSessionId",
+   "SetLoopMode"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImpl_55AE::m_175"
+  ],
+  "total": 18,
+  "named_pct": "93%"
+ },
+ {
+  "class": "ExtrapolateInterpolate_592D",
+  "parent": "TweenableValue`1",
+  "known_methods": [
+   "get_Time",
+   "set_Time",
+   "get_Time",
+   "get_Time",
+   "BaseCopy",
+   "Initialize",
+   "get_Time",
+   "get_Time",
+   "get_Time",
+   "get_Time",
+   "ComputeVolume",
+   "get_Time",
+   "get_Time",
+   "get_Time"
+  ],
+  "hash_keys": [
+   "ExtrapolateInterpolate_592D::m_2E7",
+   "ExtrapolateInterpolate_592D::m_785",
+   "ExtrapolateInterpolate_592D::m_2A7"
+  ],
+  "total": 22,
+  "named_pct": "82%"
+ },
+ {
+  "class": "BaseClass136ImplImpl_6EBD",
+  "parent": "ÌÏÎÍÏÌÎÏÎÎÏÌÏÍÎÎÎÌÏÍÌÏÏ",
+  "known_methods": [
+   "GetPlatform",
+   "Cleanup",
+   "set_element",
+   "Initialize",
+   "InitializeTrackedResourceTypes",
+   "InitializeTrackedResource"
+  ],
+  "hash_keys": [
+   "BaseClass136ImplImpl_6EBD::m_FFF"
+  ],
+  "total": 9,
+  "named_pct": "85%"
+ },
+ {
+  "class": "Configure_4111",
+  "parent": "AbstractPurchasingModule",
+  "known_methods": [
+   "RegisterStore",
+   "Initialize",
+   "Dispose",
+   "InitializeConfiguration"
+  ],
+  "hash_keys": [
+   "Configure_4111::m_631",
+   "Configure_4111::m_656"
+  ],
+  "total": 9,
+  "named_pct": "66%"
+ },
+ {
+  "class": "BaseClass7Impl_DF83",
+  "parent": "ÎÍÍÍÏÎÍÎÌÌÎÎÎÌÍÌÍÏÌÌÏÍÌ",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "FormatValueTuple",
+   "Initialize",
+   "SolveTrigonometric",
+   "ReadWorldRotation",
+   "InvokeRepeating",
+   "CancelInvoke",
+   "ReadQuaternionState"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_DF83::m_B4E"
+  ],
+  "total": 12,
+  "named_pct": "88%"
+ },
+ {
+  "class": "PIDControllerSiblingSiblingSibSibling_290B",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "Initialize",
+   "CompareBaseObjects",
+   "CompositionMethod",
+   "get_name",
+   "set_name",
+   "Reset",
+   "Instantiate",
+   "GetHashCode",
+   "ToString",
+   "StopCoroutine",
+   "RegisterEvents",
+   "SetPidControlActive",
+   "Destroy",
+   "DestroyImmediate",
+   "FindObjectsOfType",
+   "FindObjectsByType"
+  ],
+  "hash_keys": [
+   "PIDControllerSiblingSiblingSibSibling_290B::m_BE8",
+   "PIDControllerSiblingSiblingSibSibling_290B::m_671"
+  ],
+  "total": 27,
+  "named_pct": "90%"
+ },
+ {
+  "class": "Close_02D4",
+  "parent": "ÌÍÌÍÎÍÏÍÍÍÏÏÌÎÏÏÌÌÎÍÎÌÌ",
+  "known_methods": [
+   "RaiseCancellation",
+   "DoToCoroutine",
+   "InvokeRepeating",
+   "GetCachedPtr",
+   "Start",
+   "CollapseItemByIndex",
+   "OnApplicationPause",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "OnBecameInvisible",
+   "Initialize",
+   "ReadTransformState",
+   "InitializeStatics"
+  ],
+  "hash_keys": [
+   "Close_02D4::m_287",
+   "Close_02D4::m_232",
+   "Close_02D4::m_48E"
+  ],
+  "total": 24,
+  "named_pct": "81%"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_732A",
+  "parent": "ÏÌÏÌÍÍÍÍÍÏÍÏÌÌÍÌÌÍÎÏÌÍÏ",
+  "known_methods": [
+   "get_EffectBundleID",
+   "InitializeRuntimeTypeInfo",
+   "InitializeMaterialBindings",
+   "get_MaskTag",
+   "GetCurrentTexture",
+   "Initialize",
+   "AttachAnimationHandle",
+   "SetInternalAnimatedTextureValue2",
+   "DoFindRelativeTransformWithPath_53D",
+   "InitializeUnityBindings",
+   "InitializeUvData",
+   "MarkFrameDirty",
+   "CheckAndProcessAnotherUpdateCondition",
+   "ResolveFrameDispatcher",
+   "Start",
+   "Initialize_ctrlKeyboardf15",
+   "CreateAnimationContext",
+   "Equals",
+   "HandlePlaybackException",
+   "InitializeMeshBuffers",
+   "FadeOutAsync",
+   "DoInternal_FromEulerRad_Injected_3D9",
+   "ApplyLoopWrap",
+   "AccumulateFrameDelay",
+   "InitializeMetadataCache",
+   "InitializeVertexLayout",
+   "get_AnimationStyle",
+   "AttachFrameProvider",
+   "SetPlaybackState",
+   "set_AnimationStyle"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImpl_732A::m_3B3",
+   "AnimatedTextureBaseImpl_732A::m_C9E",
+   "AnimatedTextureBaseImpl_732A::m_0F9",
+   "AnimatedTextureBaseImpl_732A::m_3C7"
+  ],
+  "total": 44,
+  "named_pct": "89%"
+ },
+ {
+  "class": "LifecycleComponent_17C7",
+  "parent": "MonoBehaviour",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "RaiseCancellation",
+   "IsInvoking",
+   "CancelInvoke",
+   "Invoke",
+   "GetLanguage",
+   "UpdateLifecycleState",
+   "AddSubtraction",
+   "StartCoroutine",
+   "GetIKSolver",
+   "GetBufferedTimes",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "OnDisable",
+   "get_Progress",
+   "get_useGUILayout",
+   "set_useGUILayout",
+   "SetProgress",
+   "SetCurrentSocket",
+   "Internal_IsInvokingAll",
+   "InvokeDelayed",
+   "Cleanup",
+   "IsObjectMonoBehaviour",
+   "StartCoroutineManaged",
+   "GetPlatform",
+   "StopCoroutineManaged",
+   "Initialize",
+   "OnCancellationTokenCreated"
+  ],
+  "hash_keys": [
+   "LifecycleComponent_17C7::m_FD5"
+  ],
+  "total": 32,
+  "named_pct": "96%"
+ }
+]

@@ -1,0 +1,10 @@
+{
+ "VRC_MainSiblingSibling_D4AF::m_4DD": "Initialize",
+ "VRC_MainSiblingSibling_D4AF::m_F8E": "SetActive",
+ "VRC_MainSiblingSibling_D4AF::m_986": "Dispose",
+ "VRC_Secondary::m_103": "Update",
+ "Range::m_930": "Initialize",
+ "MatchmakingArguments::m_CFC": "Create",
+ "VRCImageSaver::m_1DD": "GetProgress",
+ "VRCSentryBuildTimeConfiguration::m_20A": "ApplySettings"
+}

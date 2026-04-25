@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_3CC": "InitializeStateA",
+ "VRC_Main::m_518": "InitializeStateB",
+ "VRC_Main::m_F11": "InitializeStateC",
+ "VRC_Main::m_570": "InitializeStateD",
+ "VRC_Main::m_F09": "UpdateState",
+ "VRC_Main::m_61B": "ReleaseTemporaryRenderTexture",
+ "VRC_Main::m_BDF": "ProcessStateUpdate",
+ "VRC_Main::m_A90": "HandleExceptionStateA",
+ "VRC_Main::m_175": "HandleExceptionStateB",
+ "VRC_Main::m_604": "HandleExceptionStateC"
+}

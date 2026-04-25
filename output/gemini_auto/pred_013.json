@@ -1,0 +1,14 @@
+```json
+{
+  "ComplexComponentImplImpl_9851": "CollisionTriggerHandler",
+  "LifecycleComponentSibling_1CD5": "ServiceDescriptorResolver",
+  "BaseClass3Impl_8964": "AudioShaderController",
+  "BaseClass3Impl_2BDE": "TransformStateManager",
+  "SpecialEffectBase_50E7": "FeaturedAvatarContent",
+  "MajorSystem_13C5": "TransformRotationSync",
+  "Service39m_705A": "AvatarExpressionData",
+  "PointerEnterPointerExitImplImpl_A9A2": "CanvasRoundedRectUI",
+  "VRC_Secondary": "NetworkPhysBoneController",
+  "AnimatedTextureBaseImpl_3187": "EffectTextureBinding"
+}
+```

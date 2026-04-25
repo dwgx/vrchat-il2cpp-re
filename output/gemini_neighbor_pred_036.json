@@ -1,0 +1,27 @@
+MCP issues detected. Run /mcp list for status.```json
+{
+  "LifecycleComponentImplImpl_A2C4::m_C90": "Update",
+  "LifecycleComponentImplImpl_A2C4::m_B04": "Awake",
+  "LifecycleComponentImplImpl_A2C4::m_1E1": "OnEnable",
+  "Type16m1f_AA5C::m_69A": "ProcessTransform",
+  "PlayerNetSibling_733B::m_4C6": "UpdatePlayerState",
+  "PlayerNetSibling_733B::m_EA5": "SyncNetworkData",
+  "Unknown11m_7BC8::m_A89": "UpdateTransform",
+  "BaseClass21Impl_232E::m_CD8": "UpdateInternalState",
+  "PointerPreCullHandler_2B6A::m_428": "ProcessPreCull",
+  "LifecycleComponentSibling_15ED::m_BDF": "UpdateMuscleAnimation",
+  "Static26m_8809::m_F3C": "InitializeAudio",
+  "Static26m_8809::m_D77": "ProcessMotion",
+  "Static26m_8809::m_0B8": "UpdateUI",
+  "BaseClass16Impl_6412::m_370": "UpdatePosition",
+  "BaseClass16Impl_6412::m_8F3": "SetMirroredState",
+  "BaseClass16Impl_6412::m_788": "ProcessDirection",
+  "BaseClass16Impl_6412::m_8C0": "CalculateTransform",
+  "BaseClass16Impl_6412::m_86B": "SyncState",
+  "BaseClass7Impl_051B::m_8B8": "UpdateAchievementProgress",
+  "BaseClass7Impl_051B::m_CF4": "GetUnlockStatus",
+  "BaseClass7Impl_051B::m_370": "ProcessBackup",
+  "BaseClass7Impl_051B::m_3DF": "SyncLifecycle",
+  "UIRectTransformDimensionsChBeforeTransform_C3EE::m_B91": "UpdateRectTransform"
+}
+```

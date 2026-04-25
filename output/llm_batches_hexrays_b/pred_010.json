@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_E97": "InitializeState",
+ "VRC_Main::m_593": "ResetState",
+ "VRC_Main::m_6D6": "ComputeDataA",
+ "VRC_Main::m_077": "ComputeDataB",
+ "VRC_Main::m_295": "ComputeDataC",
+ "VRC_Main::m_BD1": "ComputeDataD",
+ "VRC_Main::m_FBB": "ComputeDataE",
+ "VRC_Main::m_0F4": "ComputeDataF",
+ "VRC_Main::m_223": "ExecuteSafe",
+ "VRC_Main::m_68B": "ProcessData"
+}

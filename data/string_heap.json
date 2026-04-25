@@ -1,0 +1,20 @@
+{
+ "start": "0x133663bd",
+ "end": "0x13366bbd",
+ "size": 2048,
+ "count": 3,
+ "strings": [
+  [
+   1921,
+   " t"
+  ],
+  [
+   1972,
+   "Assembly-CSharp.dll"
+  ],
+  [
+   1992,
+   "<Module>"
+  ]
+ ]
+}

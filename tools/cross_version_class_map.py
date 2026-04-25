@@ -21,8 +21,8 @@ OBF_RE = re.compile(r'[Ì-Ï]{3,}')
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DEFAULT_DUMP_OLD = BASE_DIR / "tools" / "process_dump.dmp"
-DEFAULT_DUMP_NEW = BASE_DIR / "tools" / "process_kernel.dmp"
+DEFAULT_DUMP_OLD = BASE_DIR / "tools" / "VRChat_139620_20260418_180023_full.dmp"
+DEFAULT_DUMP_NEW = BASE_DIR / "tools" / "VRChat_kernel_full.dmp"
 DEFAULT_PRECISE_OLD = BASE_DIR / "data" / "precise_dump.json"
 DEFAULT_PRECISE_NEW = BASE_DIR / "precise_dump_NEW.json"
 DEFAULT_OUTPUT = BASE_DIR / "data" / "class_map_old_to_new.json"

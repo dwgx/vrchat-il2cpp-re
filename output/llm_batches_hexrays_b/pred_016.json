@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_1C0": "GetIsReady",
+ "VRC_Main::m_796": "UpdateThreadSafeState",
+ "VRC_Main::m_93D": "ExecuteVirtualDelegate",
+ "VRC_Main::m_9E0": "AllocateZeroedStateFrame",
+ "VRC_Main::m_C0B": "InitializeStatics",
+ "VRC_Main::m_13F": "InvokeVirtualAction",
+ "VRC_Main::m_103": "AllocateObject",
+ "VRC_Main::m_EA3": "ExecuteAction",
+ "VRC_Main::m_134": "CallVirtualMethod",
+ "VRC_Main::m_96D": "TryExecuteOrAllocateFrame"
+}

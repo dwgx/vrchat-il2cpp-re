@@ -1,0 +1,252 @@
+[
+ {
+  "key": "PhysicsDescriptionPurchase_F172::m_25B",
+  "class": "PhysicsDescriptionPurchase_F172",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "PhysicsDescriptionPurchase_F172::m_406",
+  "class": "PhysicsDescriptionPurchase_F172",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "PhysicsDescriptionPurchase_F172::m_323",
+  "class": "PhysicsDescriptionPurchase_F172",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "PhysicsDescriptionPurchase_F172::m_330",
+  "class": "PhysicsDescriptionPurchase_F172",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "PhysicsDescriptionPurchase_F172::m_3AA",
+  "class": "PhysicsDescriptionPurchase_F172",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "PhysicsDescriptionPurchase_F172::m_061",
+  "class": "PhysicsDescriptionPurchase_F172",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "PhysicsDescriptionPurchase_F172::m_A6E",
+  "class": "PhysicsDescriptionPurchase_F172",
+  "pseudocode": "__int64 __fastcall sub_180195D10(__int64 a1)\n{\n  return sub_182BFE0C0(a1 + 16);\n}\n"
+ },
+ {
+  "key": "PhysicsDescriptionPurchase_F172::m_349",
+  "class": "PhysicsDescriptionPurchase_F172",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "AnimatedTextureBaseImplSibling_2503::m_0A5",
+  "class": "AnimatedTextureBaseImplSibling_2503",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "AnimatedTextureBaseImplSibling_2503::m_DF7",
+  "class": "AnimatedTextureBaseImplSibling_2503",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "AnimatedTextureBaseImplSibling_2503::m_414",
+  "class": "AnimatedTextureBaseImplSibling_2503",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "UIReceiveAnalyticsSessionIdLauSibling_C37C::m_0FB",
+  "class": "UIReceiveAnalyticsSessionIdLauSibling_C37C",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "UIReceiveAnalyticsSessionIdLauSibling_C37C::m_918",
+  "class": "UIReceiveAnalyticsSessionIdLauSibling_C37C",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "UIReceiveAnalyticsSessionIdLauSibling_C37C::m_0A5",
+  "class": "UIReceiveAnalyticsSessionIdLauSibling_C37C",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "UIReceiveAnalyticsSessionIdLauSibling_C37C::m_D72",
+  "class": "UIReceiveAnalyticsSessionIdLauSibling_C37C",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "UIReceiveAnalyticsSessionIdLauSibling_C37C::m_EA4",
+  "class": "UIReceiveAnalyticsSessionIdLauSibling_C37C",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136Impl_649A::m_A71",
+  "class": "BaseClass136Impl_649A",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "LifecycleComponentSiblingSibling_EB25::m_259",
+  "class": "LifecycleComponentSiblingSibling_EB25",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "LifecycleComponentSiblingSibling_EB25::m_59C",
+  "class": "LifecycleComponentSiblingSibling_EB25",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass5SiblingSibling_84EF::m_E69",
+  "class": "BaseClass5SiblingSibling_84EF",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "Static2m_F481::m_B79",
+  "class": "Static2m_F481",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "Static2m_F481::m_AEF",
+  "class": "Static2m_F481",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "gameObject_7FC8::m_85E",
+  "class": "gameObject_7FC8",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "gameObject_7FC8::m_8A9",
+  "class": "gameObject_7FC8",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "LifecycleComponentSibling_E24A::m_F64",
+  "class": "LifecycleComponentSibling_E24A",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "LifecycleComponentSibling_E24A::m_981",
+  "class": "LifecycleComponentSibling_E24A",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "LifecycleComponentSibling_E24A::m_704",
+  "class": "LifecycleComponentSibling_E24A",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "Type2m1f_33D0::m_326",
+  "class": "Type2m1f_33D0",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "Static15m_2CD0::m_F30",
+  "class": "Static15m_2CD0",
+  "pseudocode": "__int64 __fastcall sub_180185A20(__int64 a1)\n{\n  return sub_182BCCCD0(a1 + 16);\n}\n"
+ },
+ {
+  "key": "NetworkDisposeAsyncImplSibling_3E50::m_F2C",
+  "class": "NetworkDisposeAsyncImplSibling_3E50",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "NetworkDisposeAsyncImplSibling_3E50::m_DFB",
+  "class": "NetworkDisposeAsyncImplSibling_3E50",
+  "pseudocode": "__int64 __fastcall sub_18017E610(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017C0D0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "AnimatedTextureBaseImplSibling_7786::m_502",
+  "class": "AnimatedTextureBaseImplSibling_7786",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "ComplexComponentSiblingSibling_9542::m_EB7",
+  "class": "ComplexComponentSiblingSibling_9542",
+  "pseudocode": "__int64 __fastcall sub_18017E610(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017C0D0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "Type3m2f_8310::m_E69",
+  "class": "Type3m2f_8310",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136Impl_9E78::m_546",
+  "class": "BaseClass136Impl_9E78",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136Impl_9E78::m_6A4",
+  "class": "BaseClass136Impl_9E78",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136Impl_9E78::m_64C",
+  "class": "BaseClass136Impl_9E78",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136Impl_9E78::m_973",
+  "class": "BaseClass136Impl_9E78",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136Impl_9E78::m_D6D",
+  "class": "BaseClass136Impl_9E78",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136Impl_9E78::m_2E7",
+  "class": "BaseClass136Impl_9E78",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136ImplSibling_D3C9::m_C1C",
+  "class": "BaseClass136ImplSibling_D3C9",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136ImplSibling_D3C9::m_561",
+  "class": "BaseClass136ImplSibling_D3C9",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136ImplSibling_D3C9::m_D2B",
+  "class": "BaseClass136ImplSibling_D3C9",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass136ImplSibling_D3C9::m_FA8",
+  "class": "BaseClass136ImplSibling_D3C9",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass4ImplSibling_2FE4::m_132",
+  "class": "BaseClass4ImplSibling_2FE4",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "LifecycleComponentSibling_212F::m_C20",
+  "class": "LifecycleComponentSibling_212F",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass4SiblingSiblingSibling_1047::m_C1C",
+  "class": "BaseClass4SiblingSiblingSibling_1047",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass4SiblingSiblingSibling_1047::m_E69",
+  "class": "BaseClass4SiblingSiblingSibling_1047",
+  "pseudocode": "__int64 __fastcall sub_180195630(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18018FF50(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass4SiblingSiblingSibling_1047::m_87A",
+  "class": "BaseClass4SiblingSiblingSibling_1047",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ },
+ {
+  "key": "BaseClass4SiblingSiblingSibling_1047::m_C1C",
+  "class": "BaseClass4SiblingSiblingSibling_1047",
+  "pseudocode": "__int64 __fastcall sub_18017E9B0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  return sub_18017D3F0(a1 + 16, a2, a3, a4);\n}\n"
+ }
+]

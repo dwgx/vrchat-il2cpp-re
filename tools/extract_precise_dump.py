@@ -3,7 +3,7 @@
 extract_precise_dump.py - Extract IL2CPP type/method/field data from memory dump
 using EXACT runtime Il2CppClass structs (not heuristic string grouping).
 
-Discovered managed Il2CppClass layout (a 2026-04-18 dump):
+Discovered managed Il2CppClass layout (VRChat 2026-04-18 dump):
   +0x00: Il2CppImage* image
   +0x10: const char* name
   +0x18: const char* namespaceString
@@ -47,8 +47,8 @@ except ImportError:
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-DUMP_PATH = r"tools/process_NEW.dmp"
-OUTPUT_DIR = r"<project_root>\il2cpp_full_dump"
+DUMP_PATH = r"D:\WorkSpace\VRChat\VRChat_Data\VRChat_NEW_full.dmp"
+OUTPUT_DIR = r"D:\WorkSpace\VRChat\VRChat_Data\il2cpp_dump_tools\il2cpp_full_dump"
 
 # Managed class struct offsets
 OFF_IMAGE    = 0x00
@@ -409,7 +409,7 @@ def generate_cs_stub(types_by_ns):
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Extract IL2CPP type/method/field data from a target process memory dump."
+        description="Extract IL2CPP type/method/field data from a VRChat memory dump."
     )
     parser.add_argument(
         "dump_path",

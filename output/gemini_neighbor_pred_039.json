@@ -1,0 +1,19 @@
+MCP issues detected. Run /mcp list for status.```json
+{
+  "Service22m_0D44": "ServiceDescriptor",
+  "Struct6f_A4AF": "WindowInputState",
+  "Static14m_4629": "UnityObjectWrapper",
+  "LifecycleComponentImpl_3E03": "LifecycleManager",
+  "NetworkItemSiblingSiblingSibling_DBD6": "CancellableObject",
+  "PointerBackPressedSibling_2351": "UIBackPressHandler",
+  "UIDescriptionPurchase_5BDD": "PurchaseDescriptionLayout",
+  "BaseClass4Impl_0D6A": "ScopedValueController",
+  "UpdateComponentImplSibling_6ED3": "NetworkUnityObjectWrapper",
+  "BaseClass4Impl_1D41": "ObjectStateResolver",
+  "LifecycleComponentImpl_E60A": "ProfilerRecorderComponent",
+  "AnimatedTextureBaseImpl_D945": "TextureSheetBinding",
+  "PointerDownBeginDrag_AD98": "BeginDragController",
+  "SetLayoutHorizontalSetLayoutVertical_3827": "DynamicLightingBody",
+  "BaseClass21Impl_4ADD": "ToggleBindingHandler"
+}
+```

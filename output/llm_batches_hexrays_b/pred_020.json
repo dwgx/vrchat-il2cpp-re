@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_12A": "InitializeSystemA",
+ "VRC_Main::m_E70": "InitializeSystemB",
+ "VRC_Main::m_BDB": "UpdateStateA",
+ "VRC_Main::m_10D": "UpdateStateB",
+ "VRC_Main::m_10A": "InvokeCallback",
+ "VRC_Main::m_E2E": "ProcessEvent",
+ "VRC_Main::m_814": "ExecuteTaskA",
+ "VRC_Main::m_186": "ExecuteTaskB",
+ "VRC_Main::m_FCD": "ExecuteTaskC",
+ "VRC_Main::m_F41": "ExecuteTaskD"
+}

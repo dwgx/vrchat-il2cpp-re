@@ -1,0 +1,12 @@
+{
+ "BaseClass136ImplImplSibling_BE8B::m_9E9": "GetValue",
+ "LocalizationManagerSibling_4BBA::m_2EF": "GetLocalizedText",
+ "AsyncStateMachine_1734::m_B13": "MoveNext",
+ "NetworkItemSiblingSiblingSibliSibling_E49B::m_ADA": "GetLast",
+ "NetworkItemSiblingSibling_6734::m_374": "GetItem",
+ "AsyncStateMachine_4F88::m_58A": "MoveNext",
+ "BaseClass5SiblingSibling_A43C::m_E69": "GetChild",
+ "BaseClass6ImplRelated_A3B5::m_61E": "GetOffset",
+ "BaseClass7Impl_781A::m_6BE": "GetComponent",
+ "AsyncStateMachine_ADC3::m_639": "MoveNext"
+}

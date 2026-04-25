@@ -1,0 +1,12 @@
+{
+ "VRCUiManager::m_AFE": "Awake",
+ "VRCUiManager::m_CA3": "Update",
+ "VRC_Main::m_6C9": "Start",
+ "VRC_Main::m_11A": "GetDeltaTime",
+ "VRC_Main::m_955": "GetDeltaTime",
+ "VRC_Main::m_213": "FixedUpdate",
+ "VRC_Main::m_3C0": "LateUpdate",
+ "VRC_Main::m_4A4": "OnEnable",
+ "VRC_Main::m_D51": "OnDisable",
+ "VRC_Main::m_EFE": "OnDestroy"
+}

@@ -1,0 +1,2644 @@
+[
+  {
+    "va": "0x33E7C3D0",
+    "origName": "ÌÌÌÌÍÌÎÏÍÍÍÍÌÎÏÌÌÌÏÎÍÏÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431da3d300",
+        "go": null
+      }
+    ],
+    "deobf_name": "ComplexComponentSibling_554F",
+    "method_count": 32,
+    "field_count": 7
+  },
+  {
+    "va": "0x33659600",
+    "origName": "ÌÌÌÍÍÎÏÎÌÎÌÏÌÍÍÎÎÍÌÍÏÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSibling_B7AE",
+    "method_count": 19,
+    "field_count": 11,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3341F6C0",
+    "origName": "ÌÌÌÎÌÏÎÍÎÍÌÎÍÏÍÍÌÍÌÏÎÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSibling_A1F8",
+    "method_count": 9,
+    "field_count": 4,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x336BD380",
+    "origName": "ÌÌÌÏÌÏÏÎÌÏÎÌÍÍÏÍÍÏÍÌÍÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_530A",
+    "method_count": 13,
+    "field_count": 5,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x334A4510",
+    "origName": "ÌÌÌÏÎÍÍÎÎÎÏÎÏÌÍÎÏÎÌÎÎÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_77BA",
+    "method_count": 22,
+    "field_count": 9,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x333DEB50",
+    "origName": "ÌÌÍÍÌÍÏÎÌÏÎÎÎÌÌÎÍÎÏÏÍÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_7D6A",
+    "method_count": 23,
+    "field_count": 23,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339D4ED0",
+    "origName": "ÌÌÍÍÍÍÍÏÏÌÏÏÎÌÏÍÍÍÏÍÌÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_EBB6",
+    "method_count": 8,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3397F150",
+    "origName": "ÌÌÍÍÎÍÌÎÏÌÌÎÏÎÌÏÏÌÌÍÏÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_3A74",
+    "method_count": 6,
+    "field_count": 3,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3409E320",
+    "origName": "ÌÌÎÍÏÍÌÍÍÏÏÎÌÎÌÍÍÏÏÍÎÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSibling_62D7",
+    "method_count": 31,
+    "field_count": 8,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x3387C6E0",
+    "origName": "ÌÌÎÎÎÍÎÌÌÍÍÌÎÌÍÌÌÏÎÍÌÏÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_A1E3",
+    "method_count": 64,
+    "field_count": 41,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3198A3F0",
+    "origName": "ÌÌÏÍÍÌÎÏÏÌÏÌÎÍÍÍÏÏÌÌÍÏÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibling_CFF4",
+    "method_count": 14,
+    "field_count": 0,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x33AE6A30",
+    "origName": "ÌÍÌÌÍÌÎÍÍÏÌÎÎÍÌÌÏÏÌÍÏÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_CDF3",
+    "method_count": 28,
+    "field_count": 23,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33414030",
+    "origName": "ÌÍÌÍÌÏÏÍÏÏÏÍÎÏÎÏÍÏÏÍÍÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_BB45",
+    "method_count": 15,
+    "field_count": 7,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33BE72B0",
+    "origName": "ÌÍÌÍÏÏÏÏÏÌÍÌÏÎÎÏÌÎÏÌÎÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_01ED",
+    "method_count": 42,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x344B7E10",
+    "origName": "ÌÍÌÏÌÍÌÌÌÌÏÌÎÏÍÍÍÎÍÎÎÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_7748",
+    "method_count": 1,
+    "field_count": 0,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x34156790",
+    "origName": "ÌÍÍÌÌÍÎÌÌÌÎÎÎÎÎÌÍÍÌÏÏÏÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431e82e880",
+        "go": "native:0x431e8ce800"
+      }
+    ],
+    "deobf_name": "ComplexComponentSibling_3DCD",
+    "method_count": 27,
+    "field_count": 8
+  },
+  {
+    "va": "0x33A17210",
+    "origName": "ÌÍÍÍÌÌÍÏÌÏÏÌÎÎÏÎÏÍÏÌÏÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_7D1D",
+    "method_count": 9,
+    "field_count": 6,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339771B0",
+    "origName": "ÌÍÍÎÏÍÎÌÍÎÍÏÏÌÎÎÏÌÏÏÎÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_5784",
+    "method_count": 16,
+    "field_count": 6,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339B5C50",
+    "origName": "ÌÍÍÏÌÎÎÍÍÎÌÎÍÌÍÎÎÌÌÌÍÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_1B00",
+    "method_count": 82,
+    "field_count": 42,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x336EDA60",
+    "origName": "ÌÍÏÌÎÏÌÏÌÌÌÏÏÏÎÌÌÍÌÍÍÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_4345",
+    "method_count": 27,
+    "field_count": 45,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3198A9F0",
+    "origName": "ÌÍÏÍÎÏÎÏÍÎÌÍÏÏÌÏÍÌÌÌÌÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_AB2D",
+    "method_count": 6,
+    "field_count": 3,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33CA98B0",
+    "origName": "ÌÍÏÏÎÏÎÎÍÎÍÎÌÍÌÍÍÏÍÌÌÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_2DF4",
+    "method_count": 22,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x336EC030",
+    "origName": "ÌÎÌÌÌÍÌÏÌÏÍÎÎÌÌÌÏÌÎÍÍÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_368B",
+    "method_count": 38,
+    "field_count": 50,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33640840",
+    "origName": "ÌÎÌÎÍÎÏÏÎÍÎÍÏÍÌÌÍÌÍÍÍÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_2A92",
+    "method_count": 6,
+    "field_count": 6,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x30BA84B0",
+    "origName": "ÌÎÍÌÍÍÌÏÍÎÌÎÏÎÏÎÍÍÌÏÏÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_8CA1",
+    "method_count": 12,
+    "field_count": 2,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x33639BE0",
+    "origName": "ÌÎÍÌÍÏÎÎÏÏÎÌÎÌÏÏÏÍÏÌÎÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_E30E",
+    "method_count": 16,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x338F5B40",
+    "origName": "ÌÎÍÍÎÎÌÎÎÌÌÍÏÍÎÎÎÏÎÌÎÌÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_B2F0",
+    "method_count": 27,
+    "field_count": 26,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3395C030",
+    "origName": "ÌÎÍÍÏÍÌÎÌÌÌÎÎÏÍÎÍÌÏÍÌÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_20D6",
+    "method_count": 28,
+    "field_count": 30,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A373E0",
+    "origName": "ÌÎÍÎÎÍÏÏÏÌÍÌÌÌÎÎÎÎÌÍÌÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_B5C6",
+    "method_count": 22,
+    "field_count": 14,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33AA6410",
+    "origName": "ÌÎÍÏÍÎÍÌÏÏÍÏÏÏÍÎÏÍÎÍÌÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_4D7D",
+    "method_count": 22,
+    "field_count": 16,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x315D3760",
+    "origName": "ÌÎÍÏÍÏÌÍÌÎÎÌÎÌÍÏÏÎÍÍÎÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_D439",
+    "method_count": 0,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3362A130",
+    "origName": "ÌÎÍÏÍÏÌÍÌÎÎÌÎÌÍÏÏÎÍÍÎÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_D439",
+    "method_count": 8,
+    "field_count": 7,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3341DAE0",
+    "origName": "ÌÎÎÌÏÌÏÍÌÏÌÍÌÌÌÏÏÎÍÍÏÎÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_5C43",
+    "method_count": 8,
+    "field_count": 3,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x319BC170",
+    "origName": "ÌÎÎÍÍÎÍÏÌÏÌÍÎÎÍÌÏÎÎÎÍÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_D4F7",
+    "method_count": 16,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3376F1F0",
+    "origName": "ÌÎÎÎÎÍÍÌÏÍÏÌÎÏÍÎÍÏÌÏÏÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_9844",
+    "method_count": 110,
+    "field_count": 158,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x319BD950",
+    "origName": "ÌÎÏÌÎÎÏÎÌÍÍÌÎÎÍÌÏÍÍÎÍÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_16A2",
+    "method_count": 11,
+    "field_count": 5,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3474B150",
+    "origName": "ÌÎÏÏÎÍÍÌÍÍÏÍÎÍÏÎÍÍÌÌÎÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibling_0EE5",
+    "method_count": 16,
+    "field_count": 7,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33CFA960",
+    "origName": "ÌÏÌÌÌÍÏÎÍÏÌÍÍÎÌÍÎÏÍÎÏÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_E9A6",
+    "method_count": 8,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x340FC990",
+    "origName": "ÌÏÌÌÏÍÏÌÌÍÎÌÎÌÌÌÏÏÎÎÌÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_0B4F",
+    "method_count": 24,
+    "field_count": 3,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x3387E410",
+    "origName": "ÌÏÌÎÍÏÌÌÏÌÍÏÎÌÌÌÍÎÌÏÏÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_3CB1",
+    "method_count": 16,
+    "field_count": 29,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x30B88030",
+    "origName": "ÌÏÌÏÍÍÍÍÎÌÏÌÍÍÌÏÎÌÌÎÍÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_D3AD",
+    "method_count": 112,
+    "field_count": 39,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x33466FB0",
+    "origName": "ÌÏÌÏÎÏÎÎÏÏÍÏÌÌÌÎÎÏÌÍÍÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_A3F9",
+    "method_count": 9,
+    "field_count": 2,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x3341EE90",
+    "origName": "ÌÏÌÏÏÎÎÏÌÏÍÍÏÎÍÎÌÏÏÎÎÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_FAF0",
+    "method_count": 8,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x34665F90",
+    "origName": "ÌÏÍÎÏÍÍÍÏÏÌÌÍÍÍÌÏÏÎÍÍÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_3D17",
+    "method_count": 14,
+    "field_count": 14,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339D71D0",
+    "origName": "ÌÏÎÍÏÎÎÌÍÌÏÎÍÍÍÌÌÌÌÍÌÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_F423",
+    "method_count": 14,
+    "field_count": 4,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33BCE5A0",
+    "origName": "ÌÏÎÏÏÍÍÍÌÍÏÌÌÍÎÍÍÌÎÍÏÎÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_C317",
+    "method_count": 16,
+    "field_count": 15,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x333D0ED0",
+    "origName": "ÌÏÏÍÍÏÏÌÌÏÏÏÏÌÏÌÍÍÎÏÌÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_9333",
+    "method_count": 128,
+    "field_count": 158,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x33A176A0",
+    "origName": "ÍÌÌÌÎÏÌÏÌÎÍÌÎÌÎÍÏÍÍÌÏÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_C19B",
+    "method_count": 17,
+    "field_count": 9,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x333A8CD0",
+    "origName": "ÍÌÌÎÎÍÎÍÎÏÌÎÍÎÎÏÏÏÌÌÏÏÏ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x7b1eb2a0",
+        "go": "native:0x42c9e0ba00"
+      }
+    ],
+    "deobf_name": "ComplexComponent_833B",
+    "method_count": 127,
+    "field_count": 74
+  },
+  {
+    "va": "0x33C2C710",
+    "origName": "ÍÌÌÏÎÏÍÍÍÍÍÍÌÎÌÏÌÎÍÏÍÎÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_FD0F",
+    "method_count": 14,
+    "field_count": 3,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33CC4CA0",
+    "origName": "ÍÌÍÌÌÎÎÌÍÏÏÏÏÍÌÍÎÏÍÎÍÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_A24C",
+    "method_count": 22,
+    "field_count": 5,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3390C030",
+    "origName": "ÍÌÍÌÎÍÎÎÏÌÏÍÍÏÍÏÏÌÍÌÏÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_5985",
+    "method_count": 29,
+    "field_count": 31,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33AADBF0",
+    "origName": "ÍÌÍÎÍÍÌÌÎÎÏÍÏÍÎÎÌÌÍÍÏÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_D3E7",
+    "method_count": 17,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33C64030",
+    "origName": "ÍÌÍÎÎÍÌÍÏÏÍÍÏÎÌÏÎÏÍÏÏÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_2744",
+    "method_count": 16,
+    "field_count": 12,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33633470",
+    "origName": "ÍÌÎÌÎÎÍÏÏÏÍÍÏÌÌÏÍÎÏÍÏÎÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_AC46",
+    "method_count": 28,
+    "field_count": 24,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x34115040",
+    "origName": "ÍÌÎÌÎÎÏÎÍÏÍÎÌÏÍÍÍÍÌÌÏÍÏ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x4320dc0b90",
+        "go": "native:0x431e878300"
+      }
+    ],
+    "deobf_name": "ComplexComponentSibling_4467",
+    "method_count": 59,
+    "field_count": 12
+  },
+  {
+    "va": "0x3387C030",
+    "origName": "ÍÌÎÍÎÏÏÍÎÌÌÍÎÌÏÏÍÎÎÍÏÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_40CC",
+    "method_count": 10,
+    "field_count": 4,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3399DE80",
+    "origName": "ÍÌÎÎÍÌÎÌÍÏÏÎÌÌÎÍÎÎÎÎÍÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_7C19",
+    "method_count": 16,
+    "field_count": 19,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33C4F170",
+    "origName": "ÍÌÎÎÍÍÌÎÏÎÏÍÌÌÎÍÌÎÌÌÏÍÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431e09d3c0",
+        "go": "native:0x33ffdf00"
+      }
+    ],
+    "deobf_name": "ComplexComponent_A32A",
+    "method_count": 65,
+    "field_count": 12
+  },
+  {
+    "va": "0x319BEE90",
+    "origName": "ÍÌÎÎÍÍÍÌÌÍÏÌÎÍÍÎÌÍÍÍÌÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_BE19",
+    "method_count": 12,
+    "field_count": 7,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x33AAD4D0",
+    "origName": "ÍÌÎÎÎÍÌÌÌÍÎÏÏÎÍÎÌÏÍÌÎÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_0A7E",
+    "method_count": 2,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33756DF0",
+    "origName": "ÍÌÏÎÏÍÌÏÌÎÌÎÌÎÏÌÏÍÌÍÎÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_865E",
+    "method_count": 17,
+    "field_count": 23,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3374E6B0",
+    "origName": "ÍÌÏÏÎÎÎÎÏÍÎÌÏÎÎÌÏÏÏÌÎÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_C1DA",
+    "method_count": 18,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33454670",
+    "origName": "ÍÍÌÍÌÏÍÍÍÏÍÎÍÌÎÍÌÏÍÌÌÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_C07B",
+    "method_count": 14,
+    "field_count": 7,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x30B91390",
+    "origName": "ÍÍÌÍÍÌÏÎÎÎÎÏÍÏÏÎÌÍÍÍÌÏÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_9004",
+    "method_count": 128,
+    "field_count": 134,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x3387DFA0",
+    "origName": "ÍÍÌÍÍÎÎÎÍÎÎÍÏÏÏÏÌÌÌÌÏÎÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431d6c67e0",
+        "go": "native:0x42ca57d300"
+      }
+    ],
+    "deobf_name": "ComplexComponent_FB64",
+    "method_count": 80,
+    "field_count": 38
+  },
+  {
+    "va": "0x3366E860",
+    "origName": "ÍÍÌÍÎÎÏÌÍÌÌÌÏÌÎÏÏÎÍÎÎÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_170B",
+    "method_count": 10,
+    "field_count": 5,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x335E2460",
+    "origName": "ÍÍÌÎÌÎÎÌÎÎÍÏÎÎÎÏÎÎÏÏÎÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_ADBF",
+    "method_count": 17,
+    "field_count": 11,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x335E1820",
+    "origName": "ÍÍÍÌÌÌÎÏÎÍÎÏÌÍÌÎÍÍÍÌÍÏÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_4B5F",
+    "method_count": 22,
+    "field_count": 7,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x338EC030",
+    "origName": "ÍÍÍÌÎÍÍÌÍÎÌÎÏÌÎÍÏÎÌÎÌÌÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_44BC",
+    "method_count": 14,
+    "field_count": 9,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33CED4B0",
+    "origName": "ÍÍÍÍÍÎÌÎÎÏÎÌÌÏÏÏÏÌÌÌÌÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_FFFB",
+    "method_count": 93,
+    "field_count": 160,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x33787240",
+    "origName": "ÍÍÍÎÎÏÎÌÎÏÍÌÏÎÍÍÏÎÍÎÎÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_AAC7",
+    "method_count": 56,
+    "field_count": 78,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x33A34C20",
+    "origName": "ÍÍÍÎÏÌÎÌÎÍÏÎÍÍÎÍÍÍÏÏÏÏÏ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431d5ba840",
+        "go": "native:0x42c9e0bb80"
+      }
+    ],
+    "deobf_name": "ComplexComponent_A759",
+    "method_count": 56,
+    "field_count": 11
+  },
+  {
+    "va": "0x3404F100",
+    "origName": "ÍÍÎÌÏÎÌÍÎÍÎÏÏÍÏÌÎÏÌÌÌÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_4EAF",
+    "method_count": 14,
+    "field_count": 3,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x3389C510",
+    "origName": "ÍÍÎÎÍÎÌÍÎÎÌÎÎÌÌÏÎÏÎÌÌÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_344D",
+    "method_count": 16,
+    "field_count": 25,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33AE6000",
+    "origName": "ÍÍÏÎÏÎÎÏÍÌÍÌÎÌÌÍÍÎÏÏÌÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_725E",
+    "method_count": 26,
+    "field_count": 20,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3404F810",
+    "origName": "ÍÍÏÏÎÎÌÎÎÏÏÌÌÏÍÍÏÍÏÌÌÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_ECE2",
+    "method_count": 44,
+    "field_count": 20,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x339D6AB0",
+    "origName": "ÍÍÏÏÎÎÏÏÍÌÌÏÌÎÏÌÎÏÌÏÎÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_73B5",
+    "method_count": 26,
+    "field_count": 55,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x340DE9C0",
+    "origName": "ÍÍÏÏÎÏÌÎÌÍÏÏÍÌÌÏÎÍÏÎÍÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_153B",
+    "method_count": 17,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x34831B50",
+    "origName": "ÍÎÌÌÍÍÏÎÎÏÌÎÎÏÎÎÍÌÏÏÎÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_3CB0",
+    "method_count": 10,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339BEAC0",
+    "origName": "ÍÎÌÍÎÍÎÏÎÎÍÏÍÍÏÏÍÏÏÏÍÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSibling_520E",
+    "method_count": 33,
+    "field_count": 13,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33CC4030",
+    "origName": "ÍÎÍÍÎÍÌÌÌÍÌÎÎÌÌÏÏÎÌÎÎÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_EE5A",
+    "method_count": 27,
+    "field_count": 59,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3403C6C0",
+    "origName": "ÍÎÍÎÌÎÏÍÍÏÎÎÎÎÎÎÎÍÍÎÎÏÍ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431e59caf0",
+        "go": null
+      }
+    ],
+    "deobf_name": "ComplexComponentSiblingSibling_788F",
+    "method_count": 47,
+    "field_count": 18
+  },
+  {
+    "va": "0x338178E0",
+    "origName": "ÍÎÍÏÍÌÍÏÎÎÍÍÌÏÏÏÍÎÎÍÍÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_5229",
+    "method_count": 51,
+    "field_count": 37,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x334EA260",
+    "origName": "ÍÎÎÌÌÎÌÏÎÎÍÏÍÍÏÎÎÎÏÏÌÍÍ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431e503930",
+        "go": "native:0x377ae850"
+      }
+    ],
+    "deobf_name": "ComplexComponent_6109",
+    "method_count": 61,
+    "field_count": 83
+  },
+  {
+    "va": "0x33A75550",
+    "origName": "ÍÎÎÌÍÍÌÌÍÌÌÍÏÎÎÍÍÍÌÎÍÎÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x4340489cf0",
+        "go": "native:0x3498f9b0"
+      }
+    ],
+    "deobf_name": "ComplexComponent_1CF2",
+    "method_count": 65,
+    "field_count": 28
+  },
+  {
+    "va": "0x33C9D5D0",
+    "origName": "ÍÎÎÌÍÎÎÏÍÌÏÎÎÌÍÍÌÌÍÌÏÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_E917",
+    "method_count": 31,
+    "field_count": 23,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x34665A90",
+    "origName": "ÍÎÎÌÍÎÏÌÌÏÌÍÎÏÎÍÏÎÍÎÏÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_1FCE",
+    "method_count": 9,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33C4FAD0",
+    "origName": "ÍÎÎÍÎÌÏÌÏÎÎÏÎÎÍÏÎÌÍÎÍÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_A23A",
+    "method_count": 70,
+    "field_count": 88,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x334A4BE0",
+    "origName": "ÍÎÏÌÎÌÌÏÏÍÎÍÎÏÏÎÎÎÌÎÏÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_74AC",
+    "method_count": 7,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x334C4030",
+    "origName": "ÍÎÏÌÎÏÍÌÎÎÎÍÍÏÍÏÏÍÏÍÎÏÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_ED9E",
+    "method_count": 25,
+    "field_count": 11,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x333CB3A0",
+    "origName": "ÍÎÏÎÌÍÍÎÍÍÎÏÌÏÎÍÏÍÍÌÍÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_9CAE",
+    "method_count": 64,
+    "field_count": 27,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x333FD0F0",
+    "origName": "ÍÎÏÎÎÌÏÎÍÎÏÏÍÍÏÌÍÏÏÌÎÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_ADA6",
+    "method_count": 16,
+    "field_count": 11,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3336AE50",
+    "origName": "ÍÎÏÏÎÍÍÏÎÍÌÏÌÏÎÎÏÎÏÌÏÍÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431d6c4900",
+        "go": "native:0x42ca2bf420"
+      }
+    ],
+    "deobf_name": "ComplexComponent_C566",
+    "method_count": 105,
+    "field_count": 69
+  },
+  {
+    "va": "0x31A10520",
+    "origName": "ÍÎÏÏÏÏÍÏÎÌÎÍÍÏÎÏÌÎÏÎÌÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_DC26",
+    "method_count": 29,
+    "field_count": 25,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x31A29D00",
+    "origName": "ÍÏÌÏÌÏÌÎÎÎÌÏÏÍÌÍÌÏÍÍÎÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_9D18",
+    "method_count": 22,
+    "field_count": 8,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x3368CFD0",
+    "origName": "ÍÏÌÏÏÌÎÏÍÌÌÎÎÏÌÍÌÏÍÏÌÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_3FBF",
+    "method_count": 3,
+    "field_count": 0,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33997480",
+    "origName": "ÍÏÍÌÍÎÎÌÌÌÍÏÎÍÎÏÎÌÎÌÏÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_BE2D",
+    "method_count": 29,
+    "field_count": 15,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33BE4D60",
+    "origName": "ÍÏÍÌÏÌÌÌÎÏÎÌÏÏÍÎÏÎÍÍÎÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_F89B",
+    "method_count": 15,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3411C030",
+    "origName": "ÍÏÍÍÌÏÎÌÍÎÌÎÎÍÌÎÍÎÍÎÍÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_40DA",
+    "method_count": 62,
+    "field_count": 18,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x33A16E40",
+    "origName": "ÍÏÍÍÏÎÌÎÏÏÏÌÍÍÌÍÍÏÏÏÌÌÏ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x43369305b0",
+        "go": "native:0x42808be480"
+      }
+    ],
+    "deobf_name": "ComplexComponent_8D2F",
+    "method_count": 109,
+    "field_count": 37
+  },
+  {
+    "va": "0x333FCFB0",
+    "origName": "ÍÏÍÎÌÍÎÌÌÌÏÌÏÏÌÍÏÍÌÌÌÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSibling_4D22",
+    "method_count": 3,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x338D5F50",
+    "origName": "ÍÏÍÏÌÌÎÌÏÏÍÌÎÍÎÏÎÍÌÌÌÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_EAF1",
+    "method_count": 16,
+    "field_count": 20,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33389370",
+    "origName": "ÍÏÍÏÍÍÏÎÍÏÍÌÍÏÎÍÎÏÏÎÎÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSibliRelated_CE47",
+    "method_count": 9,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x333FFBF0",
+    "origName": "ÍÏÍÏÍÎÎÌÌÍÎÏÍÍÍÍÍÎÏÍÌÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_62E8",
+    "method_count": 70,
+    "field_count": 150,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x334E85D0",
+    "origName": "ÍÏÎÌÌÍÍÍÏÌÏÍÏÏÌÌÎÌÏÍÏÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_A5C0",
+    "method_count": 35,
+    "field_count": 27,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x335FA520",
+    "origName": "ÍÏÎÌÍÍÎÍÎÏÍÎÎÌÏÍÍÏÌÎÍÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_442E",
+    "method_count": 16,
+    "field_count": 10,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3343E520",
+    "origName": "ÍÏÎÍÍÌÌÏÏÏÏÎÎÎÏÏÏÏÌÏÌÍÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x4336adbe40",
+        "go": "native:0x4280863400"
+      }
+    ],
+    "deobf_name": "ComplexComponent_150F",
+    "method_count": 78,
+    "field_count": 33
+  },
+  {
+    "va": "0x339FF100",
+    "origName": "ÍÏÎÎÎÎÍÏÏÎÌÎÎÍÌÌÏÎÌÌÎÎÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_C916",
+    "method_count": 31,
+    "field_count": 34,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A1E9F0",
+    "origName": "ÍÏÎÏÏÌÎÌÏÎÏÌÎÏÏÏÏÌÌÎÍÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_B3A8",
+    "method_count": 21,
+    "field_count": 19,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x333B3080",
+    "origName": "ÍÏÏÍÍÍÎÎÍÍÏÎÍÏÏÍÍÍÍÍÏÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_84EA",
+    "method_count": 8,
+    "field_count": 6,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x31A12A20",
+    "origName": "ÍÏÏÍÎÍÌÏÌÏÌÎÎÎÌÏÏÌÍÎÏÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_D812",
+    "method_count": 10,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33638EF0",
+    "origName": "ÎÌÌÌÌÍÌÏÍÌÌÏÍÎÌÎÌÍÎÏÍÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_69C4",
+    "method_count": 2,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x336A4500",
+    "origName": "ÎÌÌÌÎÎÌÏÌÌÏÏÍÎÍÌÎÍÍÎÌÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_17A4",
+    "method_count": 5,
+    "field_count": 0,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x333D07B0",
+    "origName": "ÎÌÌÍÌÌÌÏÏÍÍÎÌÍÍÎÍÍÎÌÍÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_564E",
+    "method_count": 17,
+    "field_count": 9,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x34981150",
+    "origName": "ÎÌÌÏÌÍÍÍÏÍÍÏÌÌÌÌÍÎÏÏÌÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_E019",
+    "method_count": 65,
+    "field_count": 22,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x337BD740",
+    "origName": "ÎÌÌÏÎÌÏÎÏÍÍÍÎÌÏÍÍÌÎÏÎÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_E4BB",
+    "method_count": 29,
+    "field_count": 66,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x31A13100",
+    "origName": "ÎÌÍÌÎÎÎÍÎÌÌÌÍÎÍÌÎÌÏÏÍÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_186A",
+    "method_count": 13,
+    "field_count": 2,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x31641BB0",
+    "origName": "ÎÌÍÏÌÌÌÎÍÌÎÎÎÌÎÌÎÎÎÏÌÍÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431d9d8f00",
+        "go": "native:0x42ca263800"
+      }
+    ],
+    "deobf_name": "ComplexComponent_6B80",
+    "method_count": 90,
+    "field_count": 128
+  },
+  {
+    "va": "0x33CEC1B0",
+    "origName": "ÎÌÎÌÎÎÍÍÎÎÎÌÎÍÌÍÍÍÌÏÎÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_E9BC",
+    "method_count": 9,
+    "field_count": 3,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339B60C0",
+    "origName": "ÎÌÎÎÎÌÏÌÏÏÍÏÍÍÌÌÌÎÍÍÏÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_BD04",
+    "method_count": 16,
+    "field_count": 19,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33BE5860",
+    "origName": "ÎÌÎÏÌÍÏÎÏÎÏÌÌÌÍÌÌÌÍÎÏÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_00AD",
+    "method_count": 17,
+    "field_count": 5,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33C26A60",
+    "origName": "ÎÌÏÌÍÍÎÏÍÌÍÏÏÍÏÏÌÍÌÍÎÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_7490",
+    "method_count": 8,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A6C1B0",
+    "origName": "ÎÌÏÌÎÌÌÏÌÍÌÌÏÍÌÌÎÍÌÎÎÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_A4F0",
+    "method_count": 26,
+    "field_count": 13,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x338F4030",
+    "origName": "ÎÌÏÌÎÎÌÌÍÌÏÌÏÎÌÎÏÎÌÎÌÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_83F0",
+    "method_count": 15,
+    "field_count": 4,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x349AABF0",
+    "origName": "ÎÌÏÍÍÌÌÍÎÌÌÍÍÎÎÏÌÎÍÎÏÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_0178",
+    "method_count": 6,
+    "field_count": 0,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x33AB4A30",
+    "origName": "ÎÌÏÍÏÍÏÌÌÍÍÍÌÍÎÏÌÌÍÌÌÌÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_C1D0",
+    "method_count": 16,
+    "field_count": 26,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x340FDF30",
+    "origName": "ÎÍÌÎÌÏÎÍÏÎÌÌÏÍÍÍÏÎÍÍÎÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_011A",
+    "method_count": 13,
+    "field_count": 3,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x3383EA50",
+    "origName": "ÎÍÌÎÏÏÏÌÎÌÎÌÏÍÍÌÏÏÍÏÍÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_1B9E",
+    "method_count": 15,
+    "field_count": 7,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A6F910",
+    "origName": "ÎÍÌÏÎÌÌÏÎÏÎÎÍÎÌÎÌÍÌÌÏÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_1A13",
+    "method_count": 20,
+    "field_count": 11,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33638350",
+    "origName": "ÎÍÍÌÍÌÍÌÍÎÎÎÌÍÍÌÏÌÍÌÍÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_91E9",
+    "method_count": 26,
+    "field_count": 17,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339B6800",
+    "origName": "ÎÍÍÌÎÌÎÌÍÍÏÎÏÌÏÎÎÏÌÌÍÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_4156",
+    "method_count": 16,
+    "field_count": 10,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33E85F70",
+    "origName": "ÎÍÍÍÌÏÌÍÌÌÏÍÎÎÎÍÎÍÎÍÎÌÎ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x439c413640",
+        "go": "native:0x439c435e20"
+      }
+    ],
+    "deobf_name": "ComplexComponentSiblingSibling_61FD",
+    "method_count": 21,
+    "field_count": 5
+  },
+  {
+    "va": "0x33EF5210",
+    "origName": "ÎÍÍÍÏÌÎÎÎÍÌÍÎÏÏÍÎÏÏÏÍÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_9AB6",
+    "method_count": 4,
+    "field_count": 2,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x338D5B40",
+    "origName": "ÎÍÍÏÌÌÎÌÌÎÏÍÌÎÏÏÏÎÏÍÎÏÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x4336982140",
+        "go": "native:0x42808d7d60"
+      }
+    ],
+    "deobf_name": "ComplexComponent_8437",
+    "method_count": 103,
+    "field_count": 44
+  },
+  {
+    "va": "0x33588030",
+    "origName": "ÎÍÎÌÎÎÍÍÎÏÎÌÎÍÌÎÎÏÏÌÍÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_7D75",
+    "method_count": 35,
+    "field_count": 42,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33976B00",
+    "origName": "ÎÍÎÌÏÌÌÏÏÎÎÌÏÎÎÍÍÏÌÎÌÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_CA94",
+    "method_count": 18,
+    "field_count": 20,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33FD7720",
+    "origName": "ÎÍÎÎÍÎÎÍÍÍÏÍÎÎÍÌÏÍÌÏÎÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_7873",
+    "method_count": 16,
+    "field_count": 15,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x3343E830",
+    "origName": "ÎÍÎÏÍÏÍÎÍÏÏÍÌÌÌÎÏÏÍÏÏÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_63C4",
+    "method_count": 16,
+    "field_count": 3,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x336ECA70",
+    "origName": "ÎÍÏÌÏÌÎÌÍÎÏÌÍÌÌÌÌÎÍÏÏÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_1231",
+    "method_count": 18,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339F57E0",
+    "origName": "ÎÍÏÎÍÏÌÍÏÍÎÏÍÎÏÏÌÍÌÏÎÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_39CA",
+    "method_count": 33,
+    "field_count": 24,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33C0EB50",
+    "origName": "ÎÎÌÌÎÍÎÎÏÎÌÎÎÌÍÌÏÍÏÍÎÏÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_49B2",
+    "method_count": 33,
+    "field_count": 40,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x336A41C0",
+    "origName": "ÎÎÌÍÏÌÏÌÎÎÎÎÎÎÎÌÌÏÏÌÏÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_7BB9",
+    "method_count": 182,
+    "field_count": 78,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x33A14F20",
+    "origName": "ÎÎÌÏÏÍÏÎÏÎÌÏÌÌÌÍÌÍÏÎÏÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_0343",
+    "method_count": 38,
+    "field_count": 19,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33EE6920",
+    "origName": "ÎÎÍÍÌÏÏÎÍÏÎÌÍÌÌÌÍÎÌÏÍÌÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x433b751b60",
+        "go": null
+      }
+    ],
+    "deobf_name": "ComplexComponentSibling_BB9B",
+    "method_count": 16,
+    "field_count": 3
+  },
+  {
+    "va": "0x3370C710",
+    "origName": "ÎÎÎÌÍÏÏÎÌÎÍÍÏÏÌÎÎÏÍÍÍÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_7AA1",
+    "method_count": 39,
+    "field_count": 23,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33631310",
+    "origName": "ÎÎÎÍÍÍÍÌÌÎÏÎÏÌÎÎÌÏÏÍÏÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_3626",
+    "method_count": 19,
+    "field_count": 7,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33CC46E0",
+    "origName": "ÎÎÏÌÍÏÍÎÍÎÏÎÌÌÎÍÍÎÌÍÌÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_8235",
+    "method_count": 11,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33519500",
+    "origName": "ÎÏÌÍÏÍÌÍÍÎÌÍÍÏÌÍÌÏÏÌÎÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_C8B1",
+    "method_count": 2,
+    "field_count": 0,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x333DE430",
+    "origName": "ÎÏÌÎÏÍÎÎÌÌÍÌÌÎÍÎÏÍÎÍÍÍÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_A37D",
+    "method_count": 16,
+    "field_count": 7,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x31A12C30",
+    "origName": "ÎÏÌÏÏÍÍÍÏÎÎÌÍÎÎÎÏÌÌÌÎÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_72BD",
+    "method_count": 52,
+    "field_count": 25,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x337C6710",
+    "origName": "ÎÏÍÌÌÎÌÌÌÎÏÎÎÌÏÎÌÌÍÌÏÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_ECD6",
+    "method_count": 13,
+    "field_count": 2,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33CABBD0",
+    "origName": "ÎÏÍÌÍÍÎÍÎÎÎÍÏÌÍÌÌÌÌÏÍÌÏ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431dc6c900",
+        "go": "native:0x42ca6cb600"
+      }
+    ],
+    "deobf_name": "ComplexComponent_0E6C",
+    "method_count": 60,
+    "field_count": 17
+  },
+  {
+    "va": "0x33EF5090",
+    "origName": "ÎÏÍÍÍÎÍÏÎÏÏÎÏÌÏÏÌÍÌÍÎÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_CA4D",
+    "method_count": 10,
+    "field_count": 3,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x3372CED0",
+    "origName": "ÎÏÎÌÍÎÍÏÏÏÎÌÌÌÍÏÌÎÌÌÌÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSiblingSibling_8B20",
+    "method_count": 12,
+    "field_count": 4,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x33CA8030",
+    "origName": "ÎÏÎÍÎÌÏÍÌÎÎÎÎÌÍÌÍÎÏÎÏÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_E2C8",
+    "method_count": 21,
+    "field_count": 19,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33C272E0",
+    "origName": "ÎÏÎÍÏÎÎÌÏÌÍÎÏÏÌÎÏÎÎÎÍÏÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_CE36",
+    "method_count": 21,
+    "field_count": 14,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33CC5540",
+    "origName": "ÎÏÎÎÍÎÎÎÏÍÎÎÌÏÍÎÎÍÎÎÌÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_B5AE",
+    "method_count": 25,
+    "field_count": 13,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A6E550",
+    "origName": "ÎÏÎÎÏÏÌÎÍÏÍÌÎÍÍÌÌÍÍÎÏÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_34A9",
+    "method_count": 13,
+    "field_count": 4,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339B5230",
+    "origName": "ÎÏÎÏÌÍÌÌÏÍÏÏÎÏÍÏÎÍÏÌÎÌÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_4CE8",
+    "method_count": 15,
+    "field_count": 3,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x340FDC30",
+    "origName": "ÎÏÎÏÍÎÌÌÎÎÎÎÍÌÍÍÏÏÍÌÌÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibling_4BA7",
+    "method_count": 24,
+    "field_count": 1,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x341DF210",
+    "origName": "ÎÏÏÌÏÎÍÏÍÍÎÏÏÎÌÍÏÏÏÎÎÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_FEED",
+    "method_count": 5,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33837620",
+    "origName": "ÎÏÏÎÍÍÏÎÍÌÏÏÍÌÌÍÍÏÍÏÌÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_E482",
+    "method_count": 7,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x340577F0",
+    "origName": "ÎÏÏÏÏÎÏÌÎÏÌÌÏÏÏÏÍÎÎÎÎÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_A94A",
+    "method_count": 21,
+    "field_count": 7,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x33836F60",
+    "origName": "ÏÌÌÌÍÏÏÎÌÎÏÎÍÏÏÏÏÍÍÏÍÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSibling_7B0F",
+    "method_count": 48,
+    "field_count": 31,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A76F10",
+    "origName": "ÏÌÌÌÏÍÍÎÎÏÏÎÏÌÍÏÏÍÌÌÌÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_F6B5",
+    "method_count": 33,
+    "field_count": 21,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3404EED0",
+    "origName": "ÏÌÌÍÎÏÎÏÌÍÎÎÎÌÏÎÌÍÌÏÏÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_EFA2",
+    "method_count": 10,
+    "field_count": 2,
+    "vtable_methods": [
+      "`ǘf",
+      "ÎÏÍÏÌÌÏÌÌÌÎÏÌÎÍÌÌÏÏÎÌÍÍ"
+    ]
+  },
+  {
+    "va": "0x33ACC030",
+    "origName": "ÏÌÍÎÎÏÎÎÍÏÌÌÌÌÎÎÎÍÏÎÎÏÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_3054",
+    "method_count": 24,
+    "field_count": 19,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3379DFB0",
+    "origName": "ÏÌÍÏÏÎÌÍÍÍÏÏÎÍÍÍÌÏÏÏÎÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_B87A",
+    "method_count": 32,
+    "field_count": 39,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A1D9E0",
+    "origName": "ÏÌÎÍÏÎÌÌÍÎÏÌÏÌÌÏÍÏÏÎÌÌÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_6796",
+    "method_count": 28,
+    "field_count": 18,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33380AD0",
+    "origName": "ÏÌÎÎÎÏÎÏÎÎÏÍÎÌÎÏÏÎÏÎÎÏÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_4AB1",
+    "method_count": 84,
+    "field_count": 75,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x3370C030",
+    "origName": "ÏÌÎÏÌÌÎÎÍÍÍÎÌÍÍÏÌÍÍÏÎÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_F8A0",
+    "method_count": 21,
+    "field_count": 7,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33CEEC20",
+    "origName": "ÏÌÎÏÎÍÎÌÎÍÍÏÎÏÎÎÍÏÌÌÌÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_EEF8",
+    "method_count": 26,
+    "field_count": 26,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x31A29950",
+    "origName": "ÏÌÎÏÏÏÏÌÎÏÎÏÌÍÌÏÌÌÌÍÏÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_D19C",
+    "method_count": 117,
+    "field_count": 92,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x334D2F00",
+    "origName": "ÏÌÏÍÍÍÏÌÍÌÎÏÎÍÍÏÌÏÍÌÏÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_024A",
+    "method_count": 18,
+    "field_count": 5,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x336CF070",
+    "origName": "ÏÌÏÍÏÌÏÌÌÍÌÍÍÏÌÍÌÍÏÌÏÎÌ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x7b166000",
+        "go": "native:0x42c9f95c80"
+      }
+    ],
+    "deobf_name": "ComplexComponent_3634",
+    "method_count": 63,
+    "field_count": 40
+  },
+  {
+    "va": "0x349C3E70",
+    "origName": "ÏÌÏÏÌÏÎÎÎÏÌÌÎÎÍÎÌÌÏÎÏÌÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_CC4A",
+    "method_count": 4,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x31A29AD0",
+    "origName": "ÏÍÌÌÏÎÌÌÏÍÎÌÌÍÎÍÏÌÎÏÎÎÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblImpl_5142",
+    "method_count": 21,
+    "field_count": 4,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A170D0",
+    "origName": "ÏÍÌÌÏÎÌÎÏÍÍÏÍÍÎÏÌÎÏÌÏÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_CE3E",
+    "method_count": 8,
+    "field_count": 3,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x338D6090",
+    "origName": "ÏÍÌÏÌÌÎÏÎÌÌÍÎÍÍÍÌÎÍÍÏÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_0C37",
+    "method_count": 12,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x34992F40",
+    "origName": "ÏÍÍÌÏÎÎÌÌÌÎÎÏÏÎÏÌÎÌÎÍÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_897E",
+    "method_count": 43,
+    "field_count": 13,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x336322A0",
+    "origName": "ÏÍÎÌÌÌÍÌÍÌÌÎÎÎÌÏÏÎÌÎÍÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_E0D5",
+    "method_count": 28,
+    "field_count": 39,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3385CC10",
+    "origName": "ÏÍÎÏÍÍÍÍÏÌÎÍÏÏÏÍÌÏÌÎÌÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_7804",
+    "method_count": 32,
+    "field_count": 36,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3374D540",
+    "origName": "ÏÍÏÎÍÍÎÍÌÌÎÏÌÌÏÍÎÌÍÍÎÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_D297",
+    "method_count": 9,
+    "field_count": 2,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x339D64C0",
+    "origName": "ÏÍÏÎÎÌÍÍÎÍÎÏÏÏÍÍÏÌÌÌÎÎÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_3ADB",
+    "method_count": 60,
+    "field_count": 16,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x3411DD80",
+    "origName": "ÏÍÏÏÏÎÏÏÏÍÌÍÌÏÍÎÌÏÌÎÌÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSibling_4424",
+    "method_count": 14,
+    "field_count": 6,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x33561010",
+    "origName": "ÏÎÌÍÏÌÌÏÏÍÎÌÏÏÌÏÍÌÌÍÎÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_6171",
+    "method_count": 8,
+    "field_count": 8,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x335F8030",
+    "origName": "ÏÎÌÎÌÌÌÎÍÌÎÍÍÏÌÌÍÎÎÎÍÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_B4FB",
+    "method_count": 18,
+    "field_count": 9,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33C2E0B0",
+    "origName": "ÏÎÌÎÎÍÏÌÌÍÎÍÏÎÏÏÏÍÏÎÍÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_4E66",
+    "method_count": 10,
+    "field_count": 2,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x337858F0",
+    "origName": "ÏÎÍÌÏÌÏÍÏÏÏÏÍÍÍÍÏÌÌÌÎÌÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_4D52",
+    "method_count": 10,
+    "field_count": 5,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A6F2D0",
+    "origName": "ÏÎÍÍÌÏÌÏÏÌÌÏÎÏÍÍÏÍÎÍÍÌÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_9A42",
+    "method_count": 16,
+    "field_count": 10,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x34006560",
+    "origName": "ÏÎÍÏÏÏÏÏÎÌÏÏÌÌÌÍÌÌÌÎÌÎÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSiblingSiblingSibling_5903",
+    "method_count": 17,
+    "field_count": 4,
+    "vtable_methods": [
+      "System",
+      "System"
+    ]
+  },
+  {
+    "va": "0x33A6EFD0",
+    "origName": "ÏÎÎÌÍÍÏÌÎÎÌÎÏÏÍÍÍÍÍÏÎÌÎ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x43315f33c0",
+        "go": "native:0x42808be7f0"
+      }
+    ],
+    "deobf_name": "ComplexComponent_4A6B",
+    "method_count": 57,
+    "field_count": 15
+  },
+  {
+    "va": "0x333A99E0",
+    "origName": "ÏÎÎÎÍÎÏÌÌÍÍÍÏÍÍÎÏÏÎÌÌÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_8F65",
+    "method_count": 14,
+    "field_count": 3,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x333812D0",
+    "origName": "ÏÎÎÏÏÎÎÎÏÏÏÍÏÎÏÎÎÌÎÏÍÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_C4E0",
+    "method_count": 92,
+    "field_count": 121,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x3374F840",
+    "origName": "ÏÎÏÍÌÍÍÏÏÏÌÎÍÏÌÌÌÍÎÏÏÍÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_96FC",
+    "method_count": 27,
+    "field_count": 35,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33AEEF20",
+    "origName": "ÏÎÏÍÍÍÍÍÏÍÌÏÎÌÏÌÏÍÍÏÍÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_78D3",
+    "method_count": 3,
+    "field_count": 1,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3336B9E0",
+    "origName": "ÏÎÏÍÍÏÍÌÌÏÌÌÏÍÌÍÏÏÎÌÍÏÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_8270",
+    "method_count": 64,
+    "field_count": 72,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x336A4A30",
+    "origName": "ÏÏÌÌÎÏÏÎÏÏÌÌÎÌÎÎÎÍÎÎÏÎÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_1447",
+    "method_count": 30,
+    "field_count": 16,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x337A4030",
+    "origName": "ÏÏÌÍÍÌÌÏÍÌÏÎÌÏÌÍÎÎÏÌÎÍÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_D6E3",
+    "method_count": 24,
+    "field_count": 13,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33757620",
+    "origName": "ÏÏÌÍÎÎÍÎÎÌÎÍÏÎÎÌÎÏÍÏÌÎÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_6646",
+    "method_count": 71,
+    "field_count": 21,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3397EF30",
+    "origName": "ÏÏÌÎÏÎÏÌÏÎÎÌÍÏÍÏÍÍÍÎÍÎÍ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x7af32400",
+        "go": "native:0x42c9f29840"
+      }
+    ],
+    "deobf_name": "ComplexComponent_58E5",
+    "method_count": 54,
+    "field_count": 39
+  },
+  {
+    "va": "0x33519C50",
+    "origName": "ÏÏÌÎÏÏÍÏÏÏÌÍÎÏÏÍÎÏÏÏÏÌÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_6AA9",
+    "method_count": 37,
+    "field_count": 26,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33757930",
+    "origName": "ÏÏÌÏÍÏÎÏÍÍÍÍÍÎÌÍÌÎÍÌÏÌÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_01FB",
+    "method_count": 142,
+    "field_count": 49,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x336F5930",
+    "origName": "ÏÏÌÏÎÏÏÏÏÏÍÏÏÎÍÌÏÎÎÌÍÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_58F8",
+    "method_count": 10,
+    "field_count": 5,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x335A0930",
+    "origName": "ÏÏÍÌÍÌÎÍÌÌÎÏÍÎÎÌÏÍÍÎÏÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_0261",
+    "method_count": 2,
+    "field_count": 2,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33C04720",
+    "origName": "ÏÏÍÍÍÌÌÍÏÌÎÎÌÌÍÏÏÏÎÎÏÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_627D",
+    "method_count": 13,
+    "field_count": 2,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33A1F6B0",
+    "origName": "ÏÏÍÍÎÏÎÍÎÎÎÏÏÌÏÏÎÏÎÏÎÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibSibling_DA0F",
+    "method_count": 19,
+    "field_count": 4,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x337873C0",
+    "origName": "ÏÏÍÎÍÎÏÌÏÎÌÏÌÍÍÌÏÌÏÎÏÌÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_0C68",
+    "method_count": 10,
+    "field_count": 2,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33BEE740",
+    "origName": "ÏÏÍÏÌÎÍÏÍÏÏÎÍÍÍÌÎÏÍÏÎÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_FFD1",
+    "method_count": 11,
+    "field_count": 4,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33434030",
+    "origName": "ÏÏÍÏÍÍÌÎÍÍÌÍÏÍÌÏÍÏÌÌÏÏÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplImpl_03E9",
+    "method_count": 11,
+    "field_count": 2,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x334D2330",
+    "origName": "ÏÏÎÍÎÌÍÍÌÌÍÌÌÍÌÌÌÍÌÌÎÎÍ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImplSiblingSibling_3EBD",
+    "method_count": 29,
+    "field_count": 19,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x3376E320",
+    "origName": "ÏÏÎÎÌÏÎÏÏÍÍÏÏÌÍÏÎÌÎÍÏÎÏ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_CDAC",
+    "method_count": 51,
+    "field_count": 49,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33560E10",
+    "origName": "ÏÏÎÏÌÏÌÎÎÎÌÍÌÎÏÌÌÍÎÏÌÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponent_F583",
+    "method_count": 79,
+    "field_count": 26,
+    "vtable_methods": [
+      "UnityEngine",
+      "UnityEngine"
+    ]
+  },
+  {
+    "va": "0x33AB4670",
+    "origName": "ÏÏÏÌÎÏÌÏÎÍÎÏÌÎÎÎÍÌÌÎÏÌÎ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x431d38f000",
+        "go": "native:0x42c9f1fc50"
+      }
+    ],
+    "deobf_name": "ComplexComponent_E3CB",
+    "method_count": 149,
+    "field_count": 69
+  },
+  {
+    "va": "0x3389C030",
+    "origName": "ÏÏÏÍÏÏÏÎÎÌÌÎÍÏÌÌÌÍÏÍÎÏÏ",
+    "ns": "",
+    "instances": 1,
+    "details": [
+      {
+        "ptr": "0x4336b9dc60",
+        "go": "native:0x42808db290"
+      }
+    ],
+    "deobf_name": "ComplexComponent_29DA",
+    "method_count": 93,
+    "field_count": 33
+  },
+  {
+    "va": "0x3408E930",
+    "origName": "ÏÏÏÏÌÎÍÌÍÌÍÎÌÎÏÌÌÍÏÎÏÍÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_7723",
+    "method_count": 70,
+    "field_count": 5,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x31A2B8B0",
+    "origName": "ÏÏÏÏÍÎÌÎÍÎÎÏÌÎÏÏÏÏÏÍÎÌÌ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentImpl_FE3A",
+    "method_count": 15,
+    "field_count": 5,
+    "vtable_methods": []
+  },
+  {
+    "va": "0x33C4F360",
+    "origName": "ÏÏÏÏÍÏÌÍÌÏÏÍÏÎÎÎÍÏÌÍÏÏÎ",
+    "ns": "",
+    "instances": 0,
+    "details": [],
+    "deobf_name": "ComplexComponentSibling_8891",
+    "method_count": 7,
+    "field_count": 2,
+    "vtable_methods": []
+  }
+]

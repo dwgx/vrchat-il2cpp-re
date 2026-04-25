@@ -1,0 +1,7 @@
+{
+  "VRC_Main::m_541": "ReadTransformPosition",
+  "VRC_Main::m_60E": "GetCameraClearFlagsAndBackground",
+  "VRC_Main::m_FC9": "SetBehaviourEnabled",
+  "VRC_Main::m_13E": "CheckAsyncGPUReadbackSupport",
+  "PlayerNet::m_4C6": "GetBehaviourEnabled"
+}

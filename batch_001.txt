@@ -1,0 +1,2702 @@
+[
+  {
+    "key": "<>c::m_FA4",
+    "class": "<>c",
+    "obf": "ÎÌÏÎÏÌÏÏÎÏÏÍÏÌÏÎÏÏÎÌÎÎÏ",
+    "va": "0x7ffd4f41ad60",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "<>c::m_FB1",
+    "class": "<>c",
+    "obf": "ÍÌÎÎÏÌÏÏÍÏÎÏÌÌÌÏÌÌÍÍÍÎÏ",
+    "va": "0x7ffd4f41a820",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "<>c::m_FD1",
+    "class": "<>c",
+    "obf": "ÌÍÎÍÎÍÌÍÎÏÌÏÏÎÍÍÍÎÎÏÍÍÎ",
+    "va": "0x7ffd4f2b4650",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "<>c::m_FF3",
+    "class": "<>c",
+    "obf": "ÍÎÍÍÌÍÏÏÏÌÍÌÏÏÍÏÌÌÍÍÎÍÏ",
+    "va": "0x7ffd4fb9b220",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "<>c::m_FFD",
+    "class": "<>c",
+    "obf": "ÍÌÌÏÌÍÌÍÍÎÏÍÎÍÎÏÍÎÏÌÌÌÏ",
+    "va": "0x7ffd5692d800",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "<>c::m_FFE",
+    "class": "<>c",
+    "obf": "ÍÍÏÏÌÏÏÏÍÍÌÏÎÎÏÍÏÎÍÏÏÌÍ",
+    "va": "0x7ffd4f2b45c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "AppSettings::m_E5E",
+    "class": "AppSettings",
+    "obf": "ÌÍÏÏÏÏÎÎÎÏÎÎÎÏÏÍÎÌÌÌÎÍÍ",
+    "va": "0x7ffd4f95ecc0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "AssetCache::m_1B5",
+    "class": "AssetCache",
+    "obf": "ÍÎÌÎÌÌÎÎÌÌÍÍÍÍÌÌÌÏÍÌÎÎÍ",
+    "va": "0x7ffd4fa70950",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "AssetCache::m_F3F",
+    "class": "AssetCache",
+    "obf": "ÌÎÍÎÎÎÌÎÌÎÏÏÎÍÌÏÍÌÌÍÍÍÎ",
+    "va": "0x7ffd4fa709c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "AssetPreloader::m_23F",
+    "class": "AssetPreloader",
+    "obf": "ÏÏÏÌÎÌÍÎÏÎÍÎÏÏÍÎÍÌÏÍÍÏÏ",
+    "va": "0x7ffd4f045540",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "AssetPreloader::m_C7F",
+    "class": "AssetPreloader",
+    "obf": "ÌÎÌÌÌÌÍÎÏÌÌÏÏÏÎÏÎÏÏÍÎÍÌ",
+    "va": "0x7ffd4f046910",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "AvatarProxySettings::m_739",
+    "class": "AvatarProxySettings",
+    "obf": "ÍÍÏÌÏÍÎÏÌÌÏÌÍÌÌÏÌÏÍÌÌÌÏ",
+    "va": "0x7ffd4eb649e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "AvatarProxySettings::m_83A",
+    "class": "AvatarProxySettings",
+    "obf": "ÌÏÎÎÎÌÍÍÎÌÎÏÎÍÏÍÏÌÍÎÎÏÎ",
+    "va": "0x7ffd4eb641d0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "ConnectionHandler::m_02B",
+    "class": "ConnectionHandler",
+    "obf": "ÎÌÎÎÎÌÍÌÍÎÌÏÎÎÎÎÎÎÍÌÏÍÍ",
+    "va": "0x7ffd4f9927c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "ControlData::m_07E",
+    "class": "ControlData",
+    "obf": "ÏÏÏÌÏÌÎÍÌÍÎÎÏÍÍÌÌÌÍÎÏÌÍ",
+    "va": "0x7ffd4f921b10",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "ControlData::m_A36",
+    "class": "ControlData",
+    "obf": "ÏÏÎÌÌÍÌÌÌÍÏÏÍÏÌÏÌÍÌÏÌÍÏ",
+    "va": "0x7ffd4f9241c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "ControlData::m_A72",
+    "class": "ControlData",
+    "obf": "ÌÍÍÏÌÌÍÏÍÌÌÌÏÍÏÎÌÍÏÍÏÍÎ",
+    "va": "0x7ffd4f921c20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "CustomEmojiParticleSystemList::m_764",
+    "class": "CustomEmojiParticleSystemList",
+    "obf": "ÌÌÍÏÎÏÌÌÍÌÌÎÎÌÍÎÌÎÏÎÎÍÍ",
+    "va": "0x7ffd4f7daeb0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EconomyStoresManager::m_72D",
+    "class": "EconomyStoresManager",
+    "obf": "ÌÎÍÌÎÎÎÌÎÌÍÌÍÎÏÌÌÏÎÍÌÌÎ",
+    "va": "0x7ffd4e9f34f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EconomyStoresManager::m_BE4",
+    "class": "EconomyStoresManager",
+    "obf": "ÍÌÏÎÏÏÍÌÌÏÎÎÌÍÏÎÏÍÏÍÎÌÍ",
+    "va": "0x7ffd4e9f43b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EventReplicator`2::m_89F",
+    "class": "EventReplicator`2",
+    "obf": "ÍÌÌÍÌÏÏÌÏÌÍÏÎÍÌÌÏÍÍÌÍÌÍ",
+    "va": "0x7ffd5106f4d0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EventReplicator`2::m_C7E",
+    "class": "EventReplicator`2",
+    "obf": "ÍÎÍÍÏÎÍÏÎÏÎÏÌÌÌÌÎÎÏÎÍÏÎ",
+    "va": "0x7ffd5106f8e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyeAndHeadAnimator::m_01C",
+    "class": "EyeAndHeadAnimator",
+    "obf": "ÌÎÏÌÏÎÌÎÌÎÍÍÍÌÏÏÎÏÏÍÍÏÍ",
+    "va": "0x7ffd4f930e00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyeAndHeadAnimator::m_2E3",
+    "class": "EyeAndHeadAnimator",
+    "obf": "ÌÌÏÍÍÎÎÍÎÏÌÏÏÍÍÌÏÌÎÌÌÏÌ",
+    "va": "0x7ffd4f9380e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyeAndHeadAnimator::m_520",
+    "class": "EyeAndHeadAnimator",
+    "obf": "ÎÌÎÍÌÎÌÏÍÏÏÏÍÏÍÏÍÌÌÎÍÍÎ",
+    "va": "0x7ffd4f92f5f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyeAndHeadAnimator::m_A3A",
+    "class": "EyeAndHeadAnimator",
+    "obf": "ÏÍÌÌÎÌÌÍÎÍÍÍÌÎÎÌÌÍÏÏÍÎÎ",
+    "va": "0x7ffd4f934ee0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyeAndHeadAnimator::m_D2E",
+    "class": "EyeAndHeadAnimator",
+    "obf": "ÎÌÍÍÍÍÌÎÍÏÍÎÏÏÎÎÎÍÏÌÎÌÍ",
+    "va": "0x7ffd4f937c90",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyeAndHeadAnimator::m_D35",
+    "class": "EyeAndHeadAnimator",
+    "obf": "ÌÎÎÍÍÌÎÎÏÎÍÍÏÍÍÌÍÎÍÏÌÏÎ",
+    "va": "0x7ffd4f933560",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyeAndHeadAnimator::m_FD6",
+    "class": "EyeAndHeadAnimator",
+    "obf": "ÍÌÌÌÏÌÏÍÍÌÌÎÍÌÏÏÌÍÎÎÏÏÎ",
+    "va": "0x7ffd4f938500",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyeRotationLimiter::m_526",
+    "class": "EyeRotationLimiter",
+    "obf": "ÌÌÏÌÍÍÏÍÍÏÌÏÏÏÏÌÌÏÍÍÏÍÏ",
+    "va": "0x7ffd4f91ce30",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyelidRotationLimiter::m_046",
+    "class": "EyelidRotationLimiter",
+    "obf": "ÌÌÍÍÏÎÎÎÎÍÌÍÍÎÍÎÎÌÎÎÎÌÌ",
+    "va": "0x7ffd4f91e500",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyelidRotationLimiter::m_269",
+    "class": "EyelidRotationLimiter",
+    "obf": "ÌÍÏÏÎÏÎÏÏÎÏÏÌÍÍÌÍÎÎÍÌÌÌ",
+    "va": "0x7ffd4f91ea20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "EyelidRotationLimiter::m_D20",
+    "class": "EyelidRotationLimiter",
+    "obf": "ÌÎÎÏÍÌÌÍÎÌÏÎÍÌÌÏÍÍÍÏÌÏÏ",
+    "va": "0x7ffd4f91eb30",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "GalleryPhotosView::m_5C3",
+    "class": "GalleryPhotosView",
+    "obf": "ÍÌÌÎÌÎÍÎÍÌÎÏÎÎÏÎÍÌÏÏÎÍÏ",
+    "va": "0x7ffd568c4180",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "GalleryPhotosView::m_96A",
+    "class": "GalleryPhotosView",
+    "obf": "ÌÌÏÍÎÌÏÎÌÌÍÏÏÍÌÏÌÍÍÎÏÎÌ",
+    "va": "0x7ffd568c3300",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "GiftDisplayReferences::m_53F",
+    "class": "GiftDisplayReferences",
+    "obf": "ÏÎÌÏÌÌÏÍÎÏÌÏÍÏÏÏÌÎÎÎÌÌÎ",
+    "va": "0x7ffd4f9f82f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "LoadingInfoSet::m_482",
+    "class": "LoadingInfoSet",
+    "obf": "ÏÍÍÏÎÎÍÍÌÍÌÍÏÎÎÌÍÏÎÏÎÍÌ",
+    "va": "0x7ffd4f6a9c10",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "LoadingInfoSet::m_532",
+    "class": "LoadingInfoSet",
+    "obf": "ÍÌÌÍÎÎÍÌÌÍÎÎÌÏÍÎÌÏÌÏÍÌÍ",
+    "va": "0x7ffd4f6a9da0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "LocalizationManager::m_43D",
+    "class": "LocalizationManager",
+    "obf": "ÎÏÍÍÏÏÍÌÍÏÏÌÌÌÎÌÎÎÎÎÎÌÏ",
+    "va": "0x7ffd4fae5bb0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "LocalizationManager::m_AFC",
+    "class": "LocalizationManager",
+    "obf": "ÎÍÌÍÎÎÎÎÌÍÍÎÎÎÍÎÌÏÍÍÌÌÏ",
+    "va": "0x7ffd4fae9280",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "MatchmakingArguments::m_59D",
+    "class": "MatchmakingArguments",
+    "obf": "ÏÍÎÍÍÌÏÏÎÌÌÏÌÌÎÌÌÏÎÌÍÍÎ",
+    "va": "0x7ffd4f9ac970",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "MatchmakingArguments::m_CFC",
+    "class": "MatchmakingArguments",
+    "obf": "ÍÍÎÏÌÎÍÎÌÍÍÎÌÎÏÏÌÏÍÎÍÌÎ",
+    "va": "0x7ffd4f9acc20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_131",
+    "class": "NetworkManager",
+    "obf": "ÌÌÌÎÌÏÎÌÍÎÎÌÌÍÌÌÎÌÎÌÎÏÎ",
+    "va": "0x7ffd4edd58b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_16A",
+    "class": "NetworkManager",
+    "obf": "ÌÎÎÏÍÍÏÏÍÏÌÌÏÏÌÍÍÎÎÍÏÌÏ",
+    "va": "0x7ffd4f4c2c00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_2C0",
+    "class": "NetworkManager",
+    "obf": "ÎÏÌÎÎÍÌÌÏÎÌÏÎÎÏÎÍÍÏÏÌÍÎ",
+    "va": "0x7ffd4f4cb030",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_2C5",
+    "class": "NetworkManager",
+    "obf": "ÎÍÌÏÎÌÌÌÌÌÌÎÍÍÌÏÏÌÏÌÏÏÍ",
+    "va": "0x7ffd4f4bfb90",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_332",
+    "class": "NetworkManager",
+    "obf": "ÎÌÏÌÌÌÍÍÌÎÍÏÌÏÎÏÍÎÍÎÍÍÍ",
+    "va": "0x7ffd4f4cc7e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_3EA",
+    "class": "NetworkManager",
+    "obf": "ÍÏÍÎÏÍÎÎÌÍÏÏÍÏÌÏÍÎÏÎÎÏÎ",
+    "va": "0x7ffd4f4bc5f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_432",
+    "class": "NetworkManager",
+    "obf": "ÎÌÌÎÌÌÏÌÌÎÌÌÎÏÎÎÎÎÎÎÎÌÏ",
+    "va": "0x7ffd4f4cb990",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_4B6",
+    "class": "NetworkManager",
+    "obf": "ÌÌÎÎÏÎÎÏÏÌÌÍÍÌÌÍÍÌÍÎÏÌÎ",
+    "va": "0x7ffd4f4b1210",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_6F7",
+    "class": "NetworkManager",
+    "obf": "ÏÌÎÎÏÌÍÌÎÌÏÌÏÍÎÍÏÌÏÏÎÎÌ",
+    "va": "0x7ffd4f4bfa80",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_706",
+    "class": "NetworkManager",
+    "obf": "ÎÏÏÍÏÎÎÏÌÏÌÌÌÏÎÌÌÎÎÎÌÏÌ",
+    "va": "0x7ffd4f4d01b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_72E",
+    "class": "NetworkManager",
+    "obf": "ÌÏÍÍÌÎÏÎÍÏÏÎÎÌÍÍÍÌÎÏÎÏÍ",
+    "va": "0x7ffd4f4cb8b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_78F",
+    "class": "NetworkManager",
+    "obf": "ÌÍÏÏÏÏÎÌÎÎÎÍÎÍÎÍÎÍÎÌÏÌÎ",
+    "va": "0x7ffd4f4c7150",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_82B",
+    "class": "NetworkManager",
+    "obf": "ÍÌÎÏÍÏÏÍÍÏÎÏÍÎÎÎÎÌÏÎÏÍÏ",
+    "va": "0x7ffd4f4cfb10",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_84C",
+    "class": "NetworkManager",
+    "obf": "ÎÏÍÍÌÏÍÌÏÌÏÎÌÍÎÏÎÏÌÎÍÎÏ",
+    "va": "0x7ffd4f4cc8e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_92C",
+    "class": "NetworkManager",
+    "obf": "ÌÎÏÎÍÎÌÏÎÎÏÌÎÎÏÏÎÏÏÍÍÌÏ",
+    "va": "0x7ffd4f4c2070",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_949",
+    "class": "NetworkManager",
+    "obf": "ÎÌÏÏÎÍÍÌÍÏÍÏÌÌÏÍÏÎÍÏÏÎÎ",
+    "va": "0x7ffd4f4d0580",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_B1E",
+    "class": "NetworkManager",
+    "obf": "ÍÏÏÏÍÏÎÍÌÍÏÍÍÍÍÌÏÏÌÏÏÍÎ",
+    "va": "0x7ffd4f4c99a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_C1F",
+    "class": "NetworkManager",
+    "obf": "ÌÎÎÎÏÏÏÏÎÎÏÏÍÌÍÍÏÍÌÌÍÏÏ",
+    "va": "0x7ffd4f4ce620",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_C8A",
+    "class": "NetworkManager",
+    "obf": "ÎÍÌÏÍÌÍÍÍÍÏÍÌÎÍÌÏÎÌÍÍÌÎ",
+    "va": "0x7ffd4f4cb040",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_CA2",
+    "class": "NetworkManager",
+    "obf": "ÍÍÌÏÏÏÎÌÌÏÌÌÍÏÌÍÌÎÌÎÍÎÍ",
+    "va": "0x7ffd4f4aebe0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_F11",
+    "class": "NetworkManager",
+    "obf": "ÏÌÌÍÍÌÏÌÏÍÌÏÏÌÌÎÏÎÎÎÎÎÌ",
+    "va": "0x7ffd4f4d1070",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_F63",
+    "class": "NetworkManager",
+    "obf": "ÍÏÍÍÎÎÎÏÎÎÎÎÍÍÌÌÎÍÍÏÎÎÌ",
+    "va": "0x7ffd4f4bfb70",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "NetworkManager::m_FA8",
+    "class": "NetworkManager",
+    "obf": "ÍÌÍÏÏÌÍÏÍÎÏÏÏÍÎÍÌÍÌÍÌÍÌ",
+    "va": "0x7ffd4edd3d30",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "OVRLipSync::m_8FF",
+    "class": "OVRLipSync",
+    "obf": "ÏÎÏÏÍÏÍÏÌÍÍÍÍÍÌÍÍÌÌÎÎÎÍ",
+    "va": "0x7ffd4ee93070",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "OVRLipSyncContext::m_932",
+    "class": "OVRLipSyncContext",
+    "obf": "ÎÌÌÍÍÎÌÎÎÎÍÍÎÌÌÏÌÎÌÏÎÏÍ",
+    "va": "0x7ffd4ee98180",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "OpusCodec::m_121",
+    "class": "OpusCodec",
+    "obf": "ÏÌÍÏÍÏÏÌÎÌÌÏÏÏÌÏÎÍÎÌÎÌÎ",
+    "va": "0x7ffd4e4fc350",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "OpusCodec::m_9C6",
+    "class": "OpusCodec",
+    "obf": "ÎÎÌÎÌÌÍÌÎÌÏÌÍÌÎÎÎÍÍÍÍÎÌ",
+    "va": "0x7ffd4e4fc680",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "OscView::m_A2D",
+    "class": "OscView",
+    "obf": "ÍÍÏÌÍÍÎÍÌÍÎÏÏÎÌÏÏÌÌÌÎÍÏ",
+    "va": "0x7ffd4f2c47c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "OscView::m_EAA",
+    "class": "OscView",
+    "obf": "ÌÏÌÍÍÍÌÏÍÍÏÏÏÎÎÎÌÌÌÏÎÎÎ",
+    "va": "0x7ffd4f2c7d70",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PIDController::m_B43",
+    "class": "PIDController",
+    "obf": "ÍÎÌÌÏÏÍÍÍÎÏÏÏÌÎÏÍÍÌÌÍÍÍ",
+    "va": "0x7ffd4ea98ba0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PhysSoundAudioContainer::m_8DD",
+    "class": "PhysSoundAudioContainer",
+    "obf": "ÌÏÌÎÍÎÏÏÏÍÎÏÏÍÎÌÍÏÎÌÌÎÎ",
+    "va": "0x7ffd4f952ea0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PhysSoundAudioContainer::m_A8F",
+    "class": "PhysSoundAudioContainer",
+    "obf": "ÏÍÍÏÎÌÍÌÌÌÌÌÏÍÍÎÎÌÌÌÍÍÌ",
+    "va": "0x7ffd4f9530d0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PhysSoundMaterial::m_6DF",
+    "class": "PhysSoundMaterial",
+    "obf": "ÍÏÍÏÏÍÍÍÍÏÍÎÏÍÎÏÏÌÍÎÌÎÏ",
+    "va": "0x7ffd4f94b9e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PhysSoundObject::m_1AA",
+    "class": "PhysSoundObject",
+    "obf": "ÎÍÌÌÎÏÍÎÌÌÎÏÏÏÌÌÎÏÎÌÌÏÏ",
+    "va": "0x7ffd4f951440",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PhysSoundObject::m_AD1",
+    "class": "PhysSoundObject",
+    "obf": "ÌÍÎÏÍÌÌÎÎÎÏÎÌÍÍÏÌÍÌÏÌÏÎ",
+    "va": "0x7ffd4f94fe60",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PictureManager::m_934",
+    "class": "PictureManager",
+    "obf": "ÎÌÍÌÎÏÍÍÌÏÍÏÎÎÍÌÏÌÎÏÍÎÍ",
+    "va": "0x7ffd4f6c0d80",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PictureManager::m_A7E",
+    "class": "PictureManager",
+    "obf": "ÌÍÏÍÎÍÎÏÏÎÌÏÎÏÎÌÍÌÌÎÏÌÌ",
+    "va": "0x7ffd4f6c1050",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerModComponentHealth::m_465",
+    "class": "PlayerModComponentHealth",
+    "obf": "ÏÍÏÌÌÌÏÌÌÍÌÍÎÎÍÍÏÌÍÏÌÏÌ",
+    "va": "0x7ffd4f2eb8a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerModComponentHealth::m_DC0",
+    "class": "PlayerModComponentHealth",
+    "obf": "ÎÍÏÎÎÏÍÍÌÌÌÎÎÍÍÍÎÎÎÏÏÌÏ",
+    "va": "0x7ffd4f2fafd0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_063",
+    "class": "PlayerNet",
+    "obf": "ÏÎÏÏÌÏÏÏÌÏÏÍÍÌÌÌÎÎÌÏÏÌÎ",
+    "va": "0x7ffd4ea61ba0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_091",
+    "class": "PlayerNet",
+    "obf": "ÌÎÏÎÏÎÏÎÏÎÌÍÍÎÍÏÌÌÎÏÏÎÎ",
+    "va": "0x7ffd4ea62b40",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_132",
+    "class": "PlayerNet",
+    "obf": "ÎÌÍÌÌÎÍÎÌÏÎÍÌÏÍÍÎÌÏÎÏÍÎ",
+    "va": "0x7ffd4ea62710",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_17A",
+    "class": "PlayerNet",
+    "obf": "ÏÍÎÌÍÎÎÌÎÍÍÌÎÍÏÏÏÏÍÍÏÍÏ",
+    "va": "0x7ffd4ea613c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_296",
+    "class": "PlayerNet",
+    "obf": "ÎÎÏÌÍÎÎÏÍÏÎÏÍÎÏÍÏÍÌÏÎÌÍ",
+    "va": "0x7ffd4ea62a80",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_2B9",
+    "class": "PlayerNet",
+    "obf": "ÎÍÍÎÍÌÍÎÍÎÌÏÏÌÍÌÏÍÏÍÌÎÎ",
+    "va": "0x7ffd4ea61ca0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_343",
+    "class": "PlayerNet",
+    "obf": "ÎÌÍÍÎÍÍÎÏÎÎÏÍÌÌÍÌÍÏÍÏÌÏ",
+    "va": "0x7ffd4ea5dd80",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_36F",
+    "class": "PlayerNet",
+    "obf": "ÌÏÎÎÌÍÏÍÍÌÌÍÏÍÏÌÌÎÎÍÌÎÏ",
+    "va": "0x7ffd4ea5dae0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_38F",
+    "class": "PlayerNet",
+    "obf": "ÎÏÏÎÌÍÏÏÎÌÍÎÏÍÏÍÏÌÎÏÎÌÏ",
+    "va": "0x7ffd4ea61850",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_420",
+    "class": "PlayerNet",
+    "obf": "ÎÍÏÍÏÍÍÍÎÌÏÌÍÏÎÌÌÌÎÏÏÎÏ",
+    "va": "0x7ffd4ea61ce0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_4C6",
+    "class": "PlayerNet",
+    "obf": "ÌÍÌÍÌÎÏÏÎÏÌÎÍÏÍÍÌÌÌÏÍÎÏ",
+    "va": "0x7ffd4ea5de20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_541",
+    "class": "PlayerNet",
+    "obf": "ÌÍÏÌÏÎÍÏÏÎÌÍÎÌÎÏÎÏÎÏÍÏÍ",
+    "va": "0x7ffd4ea5db00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_551",
+    "class": "PlayerNet",
+    "obf": "ÎÏÎÏÍÏÍÍÌÌÏÍÌÍÍÌÏÎÎÎÍÍÍ",
+    "va": "0x7ffd4ea61570",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_61A",
+    "class": "PlayerNet",
+    "obf": "ÏÍÍÌÌÍÎÎÎÏÍÏÎÌÏÌÏÌÍÏÏÍÍ",
+    "va": "0x7ffd4ea62730",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_639",
+    "class": "PlayerNet",
+    "obf": "ÍÎÍÍÏÏÍÌÎÎÍÍÏÏÌÏÍÎÎÏÎÌÎ",
+    "va": "0x7ffd4ea62660",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_6D4",
+    "class": "PlayerNet",
+    "obf": "ÎÏÏÏÌÍÍÏÍÎÍÏÏÍÌÌÍÌÍÎÌÍÎ",
+    "va": "0x7ffd4ea626a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_7A8",
+    "class": "PlayerNet",
+    "obf": "ÍÏÍÌÌÍÍÍÌÏÎÎÎÏÎÏÌÌÍÌÌÍÌ",
+    "va": "0x7ffd4ea61820",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_8E3",
+    "class": "PlayerNet",
+    "obf": "ÌÎÍÍÏÏÌÎÏÏÌÍÌÎÍÍÏÎÍÌÌÌÍ",
+    "va": "0x7ffd4ea61a30",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_91A",
+    "class": "PlayerNet",
+    "obf": "ÏÍÍÌÏÍÎÎÎÌÎÎÌÎÌÎÍÎÌÎÌÏÌ",
+    "va": "0x7ffd4ea601b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_A26",
+    "class": "PlayerNet",
+    "obf": "ÏÍÍÍÎÏÌÎÍÏÏÍÍÎÍÍÎÏÎÎÍÎÎ",
+    "va": "0x7ffd4ea62680",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_AC4",
+    "class": "PlayerNet",
+    "obf": "ÍÏÏÎÍÍÎÏÎÌÍÎÏÌÍÏÍÌÏÎÌÌÍ",
+    "va": "0x7ffd4ea5e580",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_ADB",
+    "class": "PlayerNet",
+    "obf": "ÏÌÌÎÎÌÏÍÌÍÍÎÏÍÌÌÏÌÏÌÌÏÏ",
+    "va": "0x7ffd4ea62370",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_B04",
+    "class": "PlayerNet",
+    "obf": "ÏÎÎÍÌÍÌÏÎÍÌÍÌÏÏÌÌÏÍÎÎÌÍ",
+    "va": "0x7ffd4ea5dd20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_C35",
+    "class": "PlayerNet",
+    "obf": "ÏÌÎÍÌÌÏÍÍÏÌÍÍÍÎÍÌÎÌÎÏÏÎ",
+    "va": "0x7ffd4ea62aa0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_C71",
+    "class": "PlayerNet",
+    "obf": "ÌÍÍÍÌÌÌÌÍÍÏÏÏÌÎÍÏÎÌÌÎÏÌ",
+    "va": "0x7ffd4ea61a70",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_CD6",
+    "class": "PlayerNet",
+    "obf": "ÎÍÎÎÏÎÍÍÏÏÏÏÍÏÎÍÌÏÎÌÏÍÌ",
+    "va": "0x7ffd4ea62270",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_D55",
+    "class": "PlayerNet",
+    "obf": "ÏÌÍÍÎÌÎÏÎÍÏÎÍÎÎÏÍÎÌÌÍÎÏ",
+    "va": "0x7ffd4ea628c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_DA7",
+    "class": "PlayerNet",
+    "obf": "ÏÎÌÍÎÏÏÎÎÌÏÌÌÍÍÏÍÎÍÎÌÏÍ",
+    "va": "0x7ffd4ea61d60",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PlayerNet::m_F24",
+    "class": "PlayerNet",
+    "obf": "ÌÏÏÏÏÍÏÎÌÏÏÎÍÏÎÎÎÎÏÍÏÎÎ",
+    "va": "0x7ffd4ea5db70",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PoseAV3Update::m_14A",
+    "class": "PoseAV3Update",
+    "obf": "ÏÏÏÍÌÍÏÎÌÍÌÎÌÎÎÍÏÌÍÍÍÍÏ",
+    "va": "0x7ffd4e608f00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "ProfilerMarker::m_293",
+    "class": "ProfilerMarker",
+    "obf": "ÏÏÍÍÎÌÍÌÍÏÌÌÏÎÏÎÌÍÎÍÌÎÏ",
+    "va": "0x7ffd4fb8e230",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "PromotionDataManager::m_C63",
+    "class": "PromotionDataManager",
+    "obf": "ÌÌÏÍÍÎÍÎÍÎÎÌÎÎÌÎÏÍÏÍÎÍÌ",
+    "va": "0x7ffd4ec75de0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "Range::m_930",
+    "class": "Range",
+    "obf": "ÌÎÎÍÏÍÎÍÎÍÌÍÍÏÎÍÌÌÎÏÍÏÏ",
+    "va": "0x7ffd4f959060",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "Range::m_C0F",
+    "class": "Range",
+    "obf": "ÌÎÌÎÍÌÌÎÌÍÎÍÌÎÍÍÌÍÏÌÏÌÌ",
+    "va": "0x7ffd4f958fd0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "Range::m_C45",
+    "class": "Range",
+    "obf": "ÎÍÏÌÎÏÏÏÌÎÍÌÎÍÍÎÍÍÎÍÏÏÍ",
+    "va": "0x7ffd4f9590a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "ResolutionStruct::m_390",
+    "class": "ResolutionStruct",
+    "obf": "ÌÌÌÏÏÏÍÏÏÌÌÍÏÍÎÌÎÍÏÌÏÍÌ",
+    "va": "0x7ffd4f843170",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "SharableContentData::m_41D",
+    "class": "SharableContentData",
+    "obf": "ÌÍÌÎÏÌÎÍÏÍÎÎÍÎÎÌÍÌÎÍÏÌÍ",
+    "va": "0x7ffd4f8cbe50",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "SharableContentData::m_9FE",
+    "class": "SharableContentData",
+    "obf": "ÌÏÏÌÌÌÌÌÍÌÎÎÎÌÎÎÌÍÌÏÌÍÏ",
+    "va": "0x7ffd4f8cce80",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "StyleElement::m_7F9",
+    "class": "StyleElement",
+    "obf": "ÌÎÏÍÏÌÏÌÍÏÏÌÎÌÍÎÎÍÏÍÏÏÍ",
+    "va": "0x7ffd5666bf50",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "StyleElement::m_D8A",
+    "class": "StyleElement",
+    "obf": "ÏÌÍÍÎÏÏÎÍÍÎÎÏÌÍÎÎÏÌÍÌÍÏ",
+    "va": "0x7ffd5666c300",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "UIBinaryAlert::m_EAC",
+    "class": "UIBinaryAlert",
+    "obf": "ÏÍÏÌÍÍÏÍÏÏÌÍÏÎÍÏÍÎÎÍÏÍÍ",
+    "va": "0x7ffd56a66b20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCCertificatePolicy::m_E00",
+    "class": "VRCCertificatePolicy",
+    "obf": "ÏÌÏÍÎÏÏÍÌÍÏÎÏÏÍÎÌÌÍÏÎÍÌ",
+    "va": "0x7ffd4ee00bc0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCEventPortalManagerInternal::m_1E6",
+    "class": "VRCEventPortalManagerInternal",
+    "obf": "ÌÏÏÌÌÌÍÍÌÌÍÎÏÌÏÍÏÎÎÏÍÌÌ",
+    "va": "0x7ffd4fb004e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCEventPortalManagerInternal::m_402",
+    "class": "VRCEventPortalManagerInternal",
+    "obf": "ÎÌÍÏÎÍÌÍÍÏÍÎÍÍÌÍÌÍÌÎÏÍÍ",
+    "va": "0x7ffd4fb01270",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCImageSaver::m_1DD",
+    "class": "VRCImageSaver",
+    "obf": "ÎÍÎÌÍÏÎÍÌÍÍÍÎÌÎÍÌÏÍÏÏÌÏ",
+    "va": "0x7ffd4fad9370",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCImageSaver::m_5D5",
+    "class": "VRCImageSaver",
+    "obf": "ÍÍÌÎÏÎÍÏÎÍÏÏÏÍÏÌÎÍÌÏÍÍÎ",
+    "va": "0x7ffd4fad9eb0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCImageSaver::m_A59",
+    "class": "VRCImageSaver",
+    "obf": "ÍÌÍÌÍÏÍÏÍÎÍÎÍÌÍÏÍÏÏÍÎÎÌ",
+    "va": "0x7ffd4fad8dd0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCInitializeVRSDK::m_592",
+    "class": "VRCInitializeVRSDK",
+    "obf": "ÍÏÏÌÏÌÎÌÌÌÎÍÌÎÌÍÎÌÏÍÌÏÍ",
+    "va": "0x7ffd4f6646a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCInitializeVRSDK::m_91F",
+    "class": "VRCInitializeVRSDK",
+    "obf": "ÍÌÏÌÍÎÎÏÌÌÎÍÌÏÏÌÍÌÍÍÎÏÌ",
+    "va": "0x7ffd4f6645c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCInitializeVRSDK::m_C55",
+    "class": "VRCInitializeVRSDK",
+    "obf": "ÍÎÍÌÎÎÍÌÎÏÏÎÌÍÏÌÏÍÍÏÏÎÎ",
+    "va": "0x7ffd4f664520",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_01B",
+    "class": "VRCMotionState",
+    "obf": "ÏÌÏÏÌÏÏÍÏÏÍÏÌÍÏÍÎÏÎÏÍÎÏ",
+    "va": "0x7ffd4efb8920",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_06D",
+    "class": "VRCMotionState",
+    "obf": "ÏÍÌÎÌÍÏÍÍÍÌÍÍÍÌÍÏÍÍÍÌÎÍ",
+    "va": "0x7ffd4efb5a20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_0DE",
+    "class": "VRCMotionState",
+    "obf": "ÍÍÎÌÌÎÎÌÌÏÎÏÌÏÏÌÌÏÏÎÏÌÎ",
+    "va": "0x7ffd4efadb50",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_11D",
+    "class": "VRCMotionState",
+    "obf": "ÍÎÎÎÍÍÎÌÏÍÏÍÏÏÏÏÌÌÎÌÎÎÌ",
+    "va": "0x7ffd4efb7aa0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_120",
+    "class": "VRCMotionState",
+    "obf": "ÍÏÎÍÎÎÎÍÏÏÎÎÏÎÎÌÏÏÎÍÌÍÍ",
+    "va": "0x7ffd4efb2d20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_235",
+    "class": "VRCMotionState",
+    "obf": "ÎÎÎÎÍÍÎÏÎÎÏÎÌÎÏÏÏÏÍÌÌÍÏ",
+    "va": "0x7ffd4efb89b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_3B0",
+    "class": "VRCMotionState",
+    "obf": "ÍÎÏÎÍÏÎÎÎÏÎÌÏÏÎÍÏÏÌÎÍÏÎ",
+    "va": "0x7ffd4efb8e20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_49A",
+    "class": "VRCMotionState",
+    "obf": "ÎÍÌÍÍÍÍÌÎÍÍÎÎÌÎÌÌÌÌÌÌÍÏ",
+    "va": "0x7ffd4efae640",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_8C4",
+    "class": "VRCMotionState",
+    "obf": "ÏÍÌÎÍÍÎÎÍÎÏÌÌÍÏÏÍÏÎÍÎÎÎ",
+    "va": "0x7ffd4efb8e80",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_B36",
+    "class": "VRCMotionState",
+    "obf": "ÎÌÌÎÌÌÎÎÏÌÍÎÌÍÎÎÍÎÍÏÍÎÍ",
+    "va": "0x7ffd4efb9e90",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_C7F",
+    "class": "VRCMotionState",
+    "obf": "ÍÎÏÍÏÎÎÏÌÎÍÏÌÎÎÌÏÏÍÏÌÌÌ",
+    "va": "0x7ffd4efb92f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_D52",
+    "class": "VRCMotionState",
+    "obf": "ÍÏÍÎÍÎÎÍÍÏÌÎÏÍÏÏÌÍÌÌÎÍÍ",
+    "va": "0x7ffd4efb9990",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCMotionState::m_FDF",
+    "class": "VRCMotionState",
+    "obf": "ÍÌÍÏÏÏÏÍÎÏÎÌÌÎÍÏÎÎÎÏÍÍÌ",
+    "va": "0x7ffd4efb8980",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCOscDollyPointMessage::m_B9B",
+    "class": "VRCOscDollyPointMessage",
+    "obf": "ÎÍÍÌÌÌÎÍÎÎÎÌÏÍÎÎÌÌÍÎÏÍÍ",
+    "va": "0x7ffd4e77c080",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_3FF",
+    "class": "VRCPlayer",
+    "obf": "ÏÌÌÎÏÌÏÎÎÏÍÎÏÎÌÍÏÏÌÏÌÍÌ",
+    "va": "0x7ffd4f551c80",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_438",
+    "class": "VRCPlayer",
+    "obf": "ÌÎÎÌÍÎÌÎÍÎÌÌÏÎÌÍÎÎÏÍÎÌÌ",
+    "va": "0x7ffd4f5512f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_461",
+    "class": "VRCPlayer",
+    "obf": "ÎÏÎÌÍÎÎÍÍÍÌÌÌÍÏÍÌÍÎÍÍÎÌ",
+    "va": "0x7ffd4f54f020",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_672",
+    "class": "VRCPlayer",
+    "obf": "ÏÏÏÍÍÎÏÍÏÏÍÏÍÎÏÍÌÏÏÎÎÌÏ",
+    "va": "0x7ffd4f554540",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_73F",
+    "class": "VRCPlayer",
+    "obf": "ÎÎÍÏÌÎÍÏÏÍÍÏÏÎÍÎÏÏÌÍÌÏÏ",
+    "va": "0x7ffd4f55e6b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_7F8",
+    "class": "VRCPlayer",
+    "obf": "ÏÍÌÍÍÎÌÍÏÍÏÍÌÍÌÌÏÌÍÍÌÍÍ",
+    "va": "0x7ffd4f55e450",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_874",
+    "class": "VRCPlayer",
+    "obf": "ÍÎÌÍÎÏÍÎÎÎÎÌÎÍÌÎÍÎÎÍÎÍÏ",
+    "va": "0x7ffd4f5563f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_8D6",
+    "class": "VRCPlayer",
+    "obf": "ÎÍÌÏÌÏÍÎÌÎÌÌÍÏÎÍÎÍÍÎÌÍÍ",
+    "va": "0x7ffd4f551240",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_A11",
+    "class": "VRCPlayer",
+    "obf": "ÎÌÌÏÎÍÍÎÍÍÏÏÎÏÍÌÍÎÍÎÌÍÏ",
+    "va": "0x7ffd4f55dd00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_AA8",
+    "class": "VRCPlayer",
+    "obf": "ÌÎÍÎÌÍÌÎÍÎÍÎÌÌÍÎÌÍÏÍÎÌÍ",
+    "va": "0x7ffd4f558a20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_DEF",
+    "class": "VRCPlayer",
+    "obf": "ÍÍÏÎÌÌÍÎÏÎÏÎÎÌÍÍÍÏÎÍÌÌÏ",
+    "va": "0x7ffd4f55e320",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_DFA",
+    "class": "VRCPlayer",
+    "obf": "ÌÍÏÍÎÌÌÏÍÎÍÏÏÎÌÌÌÍÏÌÏÍÏ",
+    "va": "0x7ffd4f5522c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_E5D",
+    "class": "VRCPlayer",
+    "obf": "ÍÍÎÌÌÎÏÏÌÏÏÍÏÏÍÍÎÎÏÍÌÎÏ",
+    "va": "0x7ffd4f55ca90",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_F1B",
+    "class": "VRCPlayer",
+    "obf": "ÎÏÌÎÌÎÌÌÎÎÌÎÎÍÎÎÎÎÌÌÎÍÍ",
+    "va": "0x7ffd4f556040",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_FA4",
+    "class": "VRCPlayer",
+    "obf": "ÌÌÎÍÏÎÎÍÏÌÍÌÏÌÏÏÍÎÏÌÍÏÏ",
+    "va": "0x7ffd4f54add0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPlayer::m_FC1",
+    "class": "VRCPlayer",
+    "obf": "ÍÌÌÍÍÏÎÎÎÎÏÍÌÌÏÏÎÎÌÎÍÎÌ",
+    "va": "0x7ffd4f54fa00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCPrideCampaign::m_890",
+    "class": "VRCPrideCampaign",
+    "obf": "ÎÎÎÏÍÍÌÎÎÌÎÏÎÍÌÏÌÍÎÌÍÍÌ",
+    "va": "0x7ffd4fb1cf70",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCSentryBuildTimeConfiguration::m_20A",
+    "class": "VRCSentryBuildTimeConfiguration",
+    "obf": "ÌÏÍÌÌÍÌÎÏÏÌÌÍÎÎÍÌÏÌÍÏÌÏ",
+    "va": "0x7ffd4fb926a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCSentryBuildTimeConfiguration::m_8AA",
+    "class": "VRCSentryBuildTimeConfiguration",
+    "obf": "ÏÍÌÍÎÌÏÎÏÏÎÍÏÍÌÌÏÌÏÎÍÍÌ",
+    "va": "0x7ffd4fb924e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUdonAnalytics::m_175",
+    "class": "VRCUdonAnalytics",
+    "obf": "ÏÍÎÌÍÍÌÍÌÏÌÍÍÏÎÎÌÏÍÎÏÍÌ",
+    "va": "0x7ffd4fae1520",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUdonMovieCapture::m_175",
+    "class": "VRCUdonMovieCapture",
+    "obf": "ÏÍÎÌÍÍÌÍÌÏÌÍÍÏÎÎÌÏÍÎÏÍÌ",
+    "va": "0x7ffd4fadff10",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUdonMovieCapture::m_333",
+    "class": "VRCUdonMovieCapture",
+    "obf": "ÏÎÏÌÎÍÏÏÎÍÍÏÎÎÍÌÎÏÍÌÏÏÌ",
+    "va": "0x7ffd4fae0110",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_037",
+    "class": "VRCUiManager",
+    "obf": "ÌÎÍÎÏÍÍÍÎÎÌÎÍÏÌÏÏÍÌÍÎÎÏ",
+    "va": "0x7ffd4ec1f1c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_068",
+    "class": "VRCUiManager",
+    "obf": "ÍÎÍÎÏÎÏÎÎÎÌÎÌÏÌÌÏÏÎÎÍÍÌ",
+    "va": "0x7ffd4ec0b630",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_06F",
+    "class": "VRCUiManager",
+    "obf": "ÍÍÍÌÏÎÌÎÏÍÎÎÏÍÍÎÌÎÌÎÎÌÍ",
+    "va": "0x7ffd4ec1da00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_082",
+    "class": "VRCUiManager",
+    "obf": "ÌÏÍÎÍÌÎÎÌÍÌÌÏÏÎÌÏÌÎÎÎÏÎ",
+    "va": "0x7ffd4ec10880",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_101",
+    "class": "VRCUiManager",
+    "obf": "ÍÍÌÍÏÏÌÌÏÌÎÏÍÍÍÌÍÎÏÍÍÎÌ",
+    "va": "0x7ffd4ec17ce0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_1DF",
+    "class": "VRCUiManager",
+    "obf": "ÍÎÎÏÌÍÎÌÌÏÍÍÏÌÌÏÌÎÏÎÌÏÍ",
+    "va": "0x7ffd4ec19460",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_1EF",
+    "class": "VRCUiManager",
+    "obf": "ÎÏÌÌÏÌÌÏÏÏÌÏÍÏÍÌÍÌÎÎÍÌÌ",
+    "va": "0x7ffd4ec14660",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_25C",
+    "class": "VRCUiManager",
+    "obf": "ÎÏÏÎÌÎÎÏÍÏÎÌÌÍÏÌÌÎÌÌÎÏÌ",
+    "va": "0x7ffd4ec0e590",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_26F",
+    "class": "VRCUiManager",
+    "obf": "ÍÏÎÎÍÌÌÏÌÌÏÏÎÌÌÍÌÎÍÎÍÍÏ",
+    "va": "0x7ffd4ec0ebf0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_286",
+    "class": "VRCUiManager",
+    "obf": "ÎÌÎÏÍÏÍÏÌÍÏÎÏÏÍÌÏÍÍÎÌÌÌ",
+    "va": "0x7ffd4ec15800",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_2C9",
+    "class": "VRCUiManager",
+    "obf": "ÎÏÌÏÏÎÍÏÎÌÎÍÍÎÏÌÌÏÏÍÌÎÍ",
+    "va": "0x7ffd4ec17ab0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_2F0",
+    "class": "VRCUiManager",
+    "obf": "ÌÏÏÏÍÍÏÍÌÎÌÍÏÎÍÍÍÏÌÍÏÌÍ",
+    "va": "0x7ffd4ec1f0b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_372",
+    "class": "VRCUiManager",
+    "obf": "ÍÌÎÍÏÎÌÌÌÎÎÎÍÏÌÌÌÍÍÍÎÎÏ",
+    "va": "0x7ffd4ec1aac0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_3F2",
+    "class": "VRCUiManager",
+    "obf": "ÌÏÎÍÌÌÍÏÎÏÌÍÎÌÎÌÏÍÎÏÎÎÍ",
+    "va": "0x7ffd4ec13d40",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_49A",
+    "class": "VRCUiManager",
+    "obf": "ÍÎÍÌÌÏÎÏÍÏÏÌÍÍÌÍÎÎÌÎÍÌÌ",
+    "va": "0x7ffd4ec0eda0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_4A7",
+    "class": "VRCUiManager",
+    "obf": "ÍÎÎÎÏÏÎÏÏÏÌÍÌÎÍÍÍÌÎÌÌÎÏ",
+    "va": "0x7ffd4ec158a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_55B",
+    "class": "VRCUiManager",
+    "obf": "ÏÎÍÏÌÎÏÏÍÍÏÎÍÌÎÌÏÏÌÎÎÎÎ",
+    "va": "0x7ffd4ec17ad0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_57E",
+    "class": "VRCUiManager",
+    "obf": "ÎÍÏÏÍÍÌÍÌÏÏÎÏÍÍÍÍÍÎÎÍÍÎ",
+    "va": "0x7ffd4ec1c140",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_645",
+    "class": "VRCUiManager",
+    "obf": "ÎÏÍÍÎÎÏÍÌÍÍÏÍÏÌÏÎÎÏÏÍÎÌ",
+    "va": "0x7ffd4ec1d990",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_6EB",
+    "class": "VRCUiManager",
+    "obf": "ÎÎÍÏÍÏÎÌÍÏÏÍÎÌÎÎÍÍÏÌÍÌÍ",
+    "va": "0x7ffd4ec0ff70",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_6EB",
+    "class": "VRCUiManager",
+    "obf": "ÏÏÌÎÏÍÍÏÍÍÍÌÌÌÏÌÌÎÏÎÎÍÍ",
+    "va": "0x7ffd4ec11b30",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_7DF",
+    "class": "VRCUiManager",
+    "obf": "ÌÍÍÎÍÏÍÏÌÎÏÍÏÌÏÍÍÎÌÌÏÌÎ",
+    "va": "0x7ffd4ec18c70",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_830",
+    "class": "VRCUiManager",
+    "obf": "ÌÎÎÌÌÏÎÍÌÍÎÎÍÍÌÎÏÍÌÍÍÌÎ",
+    "va": "0x7ffd4ec10720",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_910",
+    "class": "VRCUiManager",
+    "obf": "ÎÎÏÍÌÎÍÏÎÌÎÏÌÏÍÌÌÎÌÍÌÌÏ",
+    "va": "0x7ffd4ec0f060",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_911",
+    "class": "VRCUiManager",
+    "obf": "ÏÎÎÌÍÌÍÏÏÍÍÎÏÎÎÏÎÌÏÌÌÌÍ",
+    "va": "0x7ffd4ec15d30",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_9BA",
+    "class": "VRCUiManager",
+    "obf": "ÌÌÍÏÏÌÌÎÎÏÍÎÎÌÌÎÎÌÍÎÍÎÎ",
+    "va": "0x7ffd4ec16700",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_A4B",
+    "class": "VRCUiManager",
+    "obf": "ÎÏÍÎÌÏÏÏÌÎÏÏÍÍÏÌÎÎÌÍÍÌÎ",
+    "va": "0x7ffd4ec1c2b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_A4B",
+    "class": "VRCUiManager",
+    "obf": "ÌÏÌÍÎÌÏÌÍÌÍÎÍÍÎÏÏÌÍÌÎÏÌ",
+    "va": "0x7ffd4ec1e230",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_A65",
+    "class": "VRCUiManager",
+    "obf": "ÏÌÎÌÎÍÎÎÏÍÎÏÏÎÌÍÍÍÌÍÎÏÌ",
+    "va": "0x7ffd4ec0d7f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_A79",
+    "class": "VRCUiManager",
+    "obf": "ÎÏÏÌÎÌÍÌÍÌÏÏÏÎÍÏÏÎÌÌÏÏÎ",
+    "va": "0x7ffd4ec16230",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_A93",
+    "class": "VRCUiManager",
+    "obf": "ÎÏÏÏÏÏÏÎÏÎÏÍÍÏÎÎÌÌÎÎÏÎÌ",
+    "va": "0x7ffd4ec1e450",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_AFE",
+    "class": "VRCUiManager",
+    "obf": "ÍÌÏÌÌÏÎÎÏÌÎÍÏÌÍÎÎÎÎÌÍÎÎ",
+    "va": "0x7ffd4ec196e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_B12",
+    "class": "VRCUiManager",
+    "obf": "ÎÏÏÍÍÍÏÌÍÍÎÍÎÌÏÌÍÍÏÌÏÎÏ",
+    "va": "0x7ffd4ec1bca0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_B33",
+    "class": "VRCUiManager",
+    "obf": "ÎÎÏÌÏÌÎÌÎÍÎÏÎÍÌÍÏÌÍÏÎÎÍ",
+    "va": "0x7ffd4ec0fa50",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_BB1",
+    "class": "VRCUiManager",
+    "obf": "ÏÍÍÎÍÎÍÌÏÏÏÎÎÏÎÎÌÏÍÎÌÍÌ",
+    "va": "0x7ffd4ec106c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_BBC",
+    "class": "VRCUiManager",
+    "obf": "ÌÌÎÍÌÍÏÌÏÎÎÍÎÌÎÏÍÌÎÍÍÍÎ",
+    "va": "0x7ffd4ec1f480",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_C57",
+    "class": "VRCUiManager",
+    "obf": "ÎÌÎÎÍÏÍÍÏÍÍÏÍÏÏÌÍÏÍÍÏÌÏ",
+    "va": "0x7ffd4ec1c0c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_C5D",
+    "class": "VRCUiManager",
+    "obf": "ÎÍÏÍÎÎÏÏÏÏÎÍÍÏÏÎÌÍÎÍÎÍÎ",
+    "va": "0x7ffd4ec17b60",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_C66",
+    "class": "VRCUiManager",
+    "obf": "ÌÌÏÎÏÏÎÏÎÌÌÍÌÏÏÎÌÏÎÏÍÌÌ",
+    "va": "0x7ffd4ec186c0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_CA3",
+    "class": "VRCUiManager",
+    "obf": "ÌÎÎÎÎÎÌÎÌÎÌÌÏÍÍÍÏÌÌÎÎÎÌ",
+    "va": "0x7ffd4ec1ca40",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_D0B",
+    "class": "VRCUiManager",
+    "obf": "ÌÎÎÌÎÌÍÏÏÌÍÍÏÎÌÎÍÎÏÏÎÍÎ",
+    "va": "0x7ffd4ec0bd00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_D2E",
+    "class": "VRCUiManager",
+    "obf": "ÌÍÌÎÎÎÍÎÍÌÌÌÎÎÍÌÏÌÏÍÍÍÏ",
+    "va": "0x7ffd4ec0d3e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_D38",
+    "class": "VRCUiManager",
+    "obf": "ÎÎÎÎÏÏÌÍÍÏÏÎÌÌÌÏÎÍÍÏÌÌÏ",
+    "va": "0x7ffd4ec12f00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_D7D",
+    "class": "VRCUiManager",
+    "obf": "ÌÏÍÌÎÏÏÏÎÎÏÍÌÏÎÍÌÏÌÎÌÍÏ",
+    "va": "0x7ffd4ec19830",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_DA1",
+    "class": "VRCUiManager",
+    "obf": "ÎÌÍÎÏÌÌÎÎÍÏÎÏÌÌÎÌÎÌÎÎÏÌ",
+    "va": "0x7ffd4ec0e8d0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_DC7",
+    "class": "VRCUiManager",
+    "obf": "ÎÍÍÍÍÏÌÏÎÎÏÍÎÏÏÍÏÎÍÎÏÍÌ",
+    "va": "0x7ffd4ec19880",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_E0F",
+    "class": "VRCUiManager",
+    "obf": "ÌÍÎÏÎÏÌÍÎÍÎÌÍÏÎÏÍÎÌÍÎÌÏ",
+    "va": "0x7ffd4ec0be40",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_E52",
+    "class": "VRCUiManager",
+    "obf": "ÏÎÎÎÌÎÏÌÎÌÌÌÍÎÍÎÏÍÌÌÎÌÎ",
+    "va": "0x7ffd4ec12400",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_EBD",
+    "class": "VRCUiManager",
+    "obf": "ÌÍÌÍÌÍÍÎÍÍÌÌÍÏÏÎÎÎÏÎÍÍÌ",
+    "va": "0x7ffd4ec13b10",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_ECA",
+    "class": "VRCUiManager",
+    "obf": "ÍÌÍÌÎÏÍÎÌÎÌÏÎÌÍÌÎÎÌÌÍÏÎ",
+    "va": "0x7ffd4ec17eb0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_F00",
+    "class": "VRCUiManager",
+    "obf": "ÎÏÌÍÎÏÏÏÏÎÏÍÎÌÍÎÏÎÌÎÎÍÏ",
+    "va": "0x7ffd4ec1f520",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_F15",
+    "class": "VRCUiManager",
+    "obf": "ÍÏÎÎÌÌÍÌÌÏÏÍÎÎÍÍÍÎÏÌÌÍÌ",
+    "va": "0x7ffd4ec12e00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_F25",
+    "class": "VRCUiManager",
+    "obf": "ÏÍÎÎÏÌÎÏÍÌÌÌÍÌÍÌÌÏÌÎÌÍÏ",
+    "va": "0x7ffd4ec1c320",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_F2E",
+    "class": "VRCUiManager",
+    "obf": "ÌÎÍÏÏÌÎÍÏÍÎÌÍÎÍÍÏÌÏÍÌÏÏ",
+    "va": "0x7ffd4ec1b820",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_F6B",
+    "class": "VRCUiManager",
+    "obf": "ÌÍÎÏÎÌÏÏÌÌÌÍÏÍÍÍÏÍÍÌÎÎÌ",
+    "va": "0x7ffd4ec14f50",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_F7A",
+    "class": "VRCUiManager",
+    "obf": "ÌÏÏÏÍÏÎÍÌÌÎÎÏÏÌÌÌÍÏÏÍÍÏ",
+    "va": "0x7ffd4ec1e130",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_F90",
+    "class": "VRCUiManager",
+    "obf": "ÌÍÏÎÌÍÎÎÍÍÏÌÎÍÏÍÍÌÍÏÌÎÌ",
+    "va": "0x7ffd4ec1a260",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRCUiManager::m_FEF",
+    "class": "VRCUiManager",
+    "obf": "ÌÏÎÌÎÏÍÌÌÌÎÍÏÏÎÌÏÌÍÌÍÍÍ",
+    "va": "0x7ffd4ec12020",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Interactable::m_00B",
+    "class": "VRC_Interactable",
+    "obf": "ÏÎÏÎÍÌÌÏÎÌÎÌÏÏÌÌÍÍÍÎÏÍÏ",
+    "va": "0x7ffd4f8c62d0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Interactable::m_AED",
+    "class": "VRC_Interactable",
+    "obf": "ÌÎÏÌÍÍÌÎÎÎÍÏÎÎÎÎÏÎÎÌÌÍÎ",
+    "va": "0x7ffd4f8c5f20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_005",
+    "class": "VRC_Main",
+    "obf": "ÌÍÍÍÍÏÏÎÏÏÏÍÍÎÎÎÌÏÌÍÌÏÎ",
+    "va": "0x7ffd4eddd370",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_00C",
+    "class": "VRC_Main",
+    "obf": "ÏÍÎÏÍÍÍÏÌÍÏÎÌÍÏÌÎÌÌÌÌÌÌ",
+    "va": "0x7ffd4eddf3d0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_021",
+    "class": "VRC_Main",
+    "obf": "ÏÍÎÏÏÍÍÌÏÏÍÌÏÎÍÌÌÍÎÌÏÍÏ",
+    "va": "0x7ffd4eddd9f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_038",
+    "class": "VRC_Main",
+    "obf": "ÍÎÎÌÌÌÎÎÎÎÍÌÎÌÎÏÏÏÌÏÌÎÍ",
+    "va": "0x7ffd4edc82f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_04E",
+    "class": "VRC_Main",
+    "obf": "ÌÍÎÎÌÌÎÏÍÌÎÏÌÍÍÎÍÎÍÎÏÌÏ",
+    "va": "0x7ffd4edecce0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_055",
+    "class": "VRC_Main",
+    "obf": "ÏÍÎÏÎÎÎÍÌÏÍÍÎÍÎÍÌÌÏÌÎÏÏ",
+    "va": "0x7ffd4edece70",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_05E",
+    "class": "VRC_Main",
+    "obf": "ÎÏÌÍÍÍÌÏÏÎÍÏÌÍÎÍÌÍÏÏÌÎÌ",
+    "va": "0x7ffd4edec670",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_061",
+    "class": "VRC_Main",
+    "obf": "ÏÎÎÎÌÎÌÌÎÍÍÎÍÏÎÌÏÍÍÏÍÏÌ",
+    "va": "0x7ffd4edecad0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_06F",
+    "class": "VRC_Main",
+    "obf": "ÍÍÎÏÍÎÍÎÍÏÏÍÎÎÏÍÍÏÎÍÎÎÏ",
+    "va": "0x7ffd4eddfae0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_077",
+    "class": "VRC_Main",
+    "obf": "ÌÎÌÎÏÌÏÌÏÎÏÏÎÌÏÍÏÍÌÍÍÌÌ",
+    "va": "0x7ffd4edd8970",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_080",
+    "class": "VRC_Main",
+    "obf": "ÏÎÌÍÌÍÍÌÌÎÏÍÎÌÍÌÏÏÌÎÏÍÍ",
+    "va": "0x7ffd4edceeb0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_081",
+    "class": "VRC_Main",
+    "obf": "ÏÍÍÍÏÌÍÌÏÏÎÎÌÏÌÌÏÌÏÍÌÌÏ",
+    "va": "0x7ffd4ede2320",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_08D",
+    "class": "VRC_Main",
+    "obf": "ÎÏÌÍÌÍÌÎÍÎÍÌÏÎÏÏÎÌÎÏÏÍÍ",
+    "va": "0x7ffd4edee3f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0A0",
+    "class": "VRC_Main",
+    "obf": "ÏÌÏÏÎÎÌÏÏÍÌÎÏÍÍÎÎÎÏÏÏÌÌ",
+    "va": "0x7ffd4edda990",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0D3",
+    "class": "VRC_Main",
+    "obf": "ÎÌÍÎÏÌÎÎÎÍÎÎÍÎÎÎÎÎÎÎÌÍÌ",
+    "va": "0x7ffd4edef110",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0D6",
+    "class": "VRC_Main",
+    "obf": "ÌÎÍÎÌÎÍÍÌÍÍÌÎÌÍÎÌÍÎÎÌÎÎ",
+    "va": "0x7ffd4edda660",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0E5",
+    "class": "VRC_Main",
+    "obf": "ÍÍÍÏÌÌÏÏÍÎÍÍÎÌÎÏÏÏÍÍÌÌÍ",
+    "va": "0x7ffd4edd6b20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0E7",
+    "class": "VRC_Main",
+    "obf": "ÏÎÎÌÎÏÌÎÏÎÍÍÏÎÏÌÌÎÎÎÌÍÌ",
+    "va": "0x7ffd4edd5f30",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0E8",
+    "class": "VRC_Main",
+    "obf": "ÏÌÏÎÍÏÍÎÌÌÍÌÌÍÍÏÍÍÏÎÍÎÍ",
+    "va": "0x7ffd4eddfd00",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0F1",
+    "class": "VRC_Main",
+    "obf": "ÌÏÌÎÍÍÌÏÌÌÏÌÏÍÏÎÌÎÌÏÌÎÌ",
+    "va": "0x7ffd4edde390",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0F4",
+    "class": "VRC_Main",
+    "obf": "ÌÍÎÍÎÍÏÎÌÌÌÌÌÎÏÎÎÌÌÏÍÏÏ",
+    "va": "0x7ffd4edd93b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0F9",
+    "class": "VRC_Main",
+    "obf": "ÎÍÎÍÎÍÏÌÌÎÏÍÏÌÏÌÏÏÎÏÏÎÌ",
+    "va": "0x7ffd4edd2090",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_0F9",
+    "class": "VRC_Main",
+    "obf": "ÎÌÏÏÍÎÍÌÍÌÍÏÍÍÎÌÌÎÍÎÌÍÌ",
+    "va": "0x7ffd4edd20d0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_103",
+    "class": "VRC_Main",
+    "obf": "ÎÎÍÍÎÌÎÏÎÏÎÌÍÏÏÌÏÎÎÏÍÍÎ",
+    "va": "0x7ffd4ede8d10",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_10A",
+    "class": "VRC_Main",
+    "obf": "ÍÎÍÏÎÏÌÎÎÍÎÌÏÏÍÎÏÎÌÎÍÎÎ",
+    "va": "0x7ffd4edefb40",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_10D",
+    "class": "VRC_Main",
+    "obf": "ÏÍÏÌÍÏÍÎÌÍÌÏÍÎÌÎÎÍÎÎÏÌÌ",
+    "va": "0x7ffd4edef850",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_11A",
+    "class": "VRC_Main",
+    "obf": "ÏÌÌÌÎÎÌÎÎÌÏÎÍÏÏÏÏÍÌÌÏÍÏ",
+    "va": "0x7ffd4edc87d0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_11E",
+    "class": "VRC_Main",
+    "obf": "ÏÌÍÍÍÍÌÎÏÌÍÏÍÎÎÏÏÎÌÍÍÍÌ",
+    "va": "0x7ffd4ede33f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_127",
+    "class": "VRC_Main",
+    "obf": "ÎÍÎÎÎÌÍÍÍÍÍÏÎÍÎÍÏÍÌÌÍÍÏ",
+    "va": "0x7ffd4ede9860",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_12A",
+    "class": "VRC_Main",
+    "obf": "ÍÌÌÍÏÌÌÌÌÏÌÍÏÏÏÍÎÎÎÏÌÎÍ",
+    "va": "0x7ffd4edef0f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_132",
+    "class": "VRC_Main",
+    "obf": "ÌÌÏÌÏÌÌÏÍÎÎÏÌÍÍÏÌÌÏÎÌÌÎ",
+    "va": "0x7ffd4edd2910",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_134",
+    "class": "VRC_Main",
+    "obf": "ÏÎÌÎÍÏÍÎÎÎÏÏÍÌÏÎÍÏÍÍÌÎÍ",
+    "va": "0x7ffd4ede9260",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_136",
+    "class": "VRC_Main",
+    "obf": "ÏÌÎÎÏÎÌÍÏÍÏÎÏÍÎÌÌÍÏÍÏÏÌ",
+    "va": "0x7ffd4edce560",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_137",
+    "class": "VRC_Main",
+    "obf": "ÏÎÍÌÌÌÌÎÌÏÏÏÌÎÎÎÍÌÍÍÍÍÎ",
+    "va": "0x7ffd4ede4c40",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_13D",
+    "class": "VRC_Main",
+    "obf": "ÎÌÎÎÌÎÎÎÍÏÏÌÍÏÍÏÏÌÎÌÏÌÌ",
+    "va": "0x7ffd4edcb290",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_13E",
+    "class": "VRC_Main",
+    "obf": "ÏÏÏÍÎÏÎÌÌÍÎÍÏÎÍÎÎÎÍÏÌÏÎ",
+    "va": "0x7ffd4edd28b0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_13F",
+    "class": "VRC_Main",
+    "obf": "ÌÌÏÌÎÎÏÍÏÎÌÌÌÌÏÍÏÏÌÏÌÍÏ",
+    "va": "0x7ffd4ede8c50",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_149",
+    "class": "VRC_Main",
+    "obf": "ÏÍÍÌÍÌÏÏÎÍÌÏÌÌÎÌÏÏÍÏÎÎÎ",
+    "va": "0x7ffd4ede6eb0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_165",
+    "class": "VRC_Main",
+    "obf": "ÎÏÍÏÌÏÌÌÌÍÏÎÍÍÎÏÍÎÍÍÎÍÏ",
+    "va": "0x7ffd4edcf090",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_166",
+    "class": "VRC_Main",
+    "obf": "ÏÍÍÏÌÍÌÌÌÏÍÌÏÍÍÏÎÍÌÎÍÎÏ",
+    "va": "0x7ffd4eddb640",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_16D",
+    "class": "VRC_Main",
+    "obf": "ÎÎÌÌÎÍÏÌÎÍÏÌÍÎÎÏÎÎÏÍÏÌÏ",
+    "va": "0x7ffd4edd0710",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_175",
+    "class": "VRC_Main",
+    "obf": "ÎÌÏÍÏÌÏÎÎÍÌÏÎÎÍÎÍÎÍÌÎÌÌ",
+    "va": "0x7ffd4edd21f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_17C",
+    "class": "VRC_Main",
+    "obf": "ÍÏÍÍÎÍÌÌÌÌÏÍÍÌÍÌÍÏÌÌÍÌÎ",
+    "va": "0x7ffd4eddbc90",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_17E",
+    "class": "VRC_Main",
+    "obf": "ÎÍÏÌÏÍÌÍÍÌÌÌÎÍÎÎÍÏÌÎÏÍÍ",
+    "va": "0x7ffd4edeee70",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_182",
+    "class": "VRC_Main",
+    "obf": "ÎÌÌÏÍÍÎÏÎÎÏÏÎÍÌÌÏÏÌÏÍÏÏ",
+    "va": "0x7ffd4ede0ff0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_186",
+    "class": "VRC_Main",
+    "obf": "ÏÍÌÏÍÌÎÎÌÍÍÌÌÏÍÌÍÍÍÏÍÎÌ",
+    "va": "0x7ffd4edf06a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_18A",
+    "class": "VRC_Main",
+    "obf": "ÍÎÌÎÍÍÍÏÍÏÌÌÏÌÌÌÏÍÌÎÌÎÌ",
+    "va": "0x7ffd4eddfa20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_190",
+    "class": "VRC_Main",
+    "obf": "ÌÌÏÏÍÍÌÏÏÌÌÌÍÎÌÍÏÍÍÍÌÍÏ",
+    "va": "0x7ffd4edd5e10",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_190",
+    "class": "VRC_Main",
+    "obf": "ÌÌÎÎÏÎÌÎÌÏÏÎÏÍÎÍÏÌÎÏÍÎÎ",
+    "va": "0x7ffd4edd72a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_193",
+    "class": "VRC_Main",
+    "obf": "ÎÍÍÍÌÏÌÎÍÌÏÎÌÌÌÏÏÎÎÍÍÍÌ",
+    "va": "0x7ffd4edce130",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_19C",
+    "class": "VRC_Main",
+    "obf": "ÌÌÎÏÌÎÍÏÏÎÏÌÌÌÍÎÌÎÍÏÏÌÍ",
+    "va": "0x7ffd4edd7f30",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_19C",
+    "class": "VRC_Main",
+    "obf": "ÎÏÎÏÌÍÎÌÌÏÌÏÎÌÌÏÌÍÌÎÎÍÌ",
+    "va": "0x7ffd4ede8200",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1AE",
+    "class": "VRC_Main",
+    "obf": "ÌÍÏÍÍÎÏÌÏÌÍÎÌÎÌÌÌÌÎÍÎÏÎ",
+    "va": "0x7ffd4edd71e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1BA",
+    "class": "VRC_Main",
+    "obf": "ÍÍÏÏÍÌÍÎÍÎÎÏÌÌÏÍÌÍÏÎÎÌÎ",
+    "va": "0x7ffd4edd2550",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1BD",
+    "class": "VRC_Main",
+    "obf": "ÍÍÍÍÌÎÍÌÏÏÎÍÍÎÏÌÍÎÌÌÍÏÍ",
+    "va": "0x7ffd4edc8a90",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1C0",
+    "class": "VRC_Main",
+    "obf": "ÍÏÍÌÍÌÎÌÍÏÎÎÌÍÎÌÎÍÍÍÍÎÎ",
+    "va": "0x7ffd4ede7960",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1C1",
+    "class": "VRC_Main",
+    "obf": "ÎÌÌÎÌÏÏÎÏÏÍÌÎÌÍÍÌÏÎÎÎÏÍ",
+    "va": "0x7ffd4edd3e80",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1C4",
+    "class": "VRC_Main",
+    "obf": "ÎÌÏÍÍÏÏÏÏÏÍÎÏÏÏÍÌÍÎÎÍÍÏ",
+    "va": "0x7ffd4edd8260",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1C6",
+    "class": "VRC_Main",
+    "obf": "ÏÍÎÏÌÌÌÍÌÌÌÏÌÏÍÌÍÎÍÎÌÏÎ",
+    "va": "0x7ffd4ede9640",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1C8",
+    "class": "VRC_Main",
+    "obf": "ÌÎÎÏÌÏÎÏÏÎÎÍÌÌÏÏÎÌÍÌÎÎÌ",
+    "va": "0x7ffd4edd4950",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1D9",
+    "class": "VRC_Main",
+    "obf": "ÌÏÎÏÍÍÎÏÎÏÌÌÎÏÎÏÍÍÏÌÏÎÎ",
+    "va": "0x7ffd4eddb730",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1E3",
+    "class": "VRC_Main",
+    "obf": "ÌÍÎÏÌÏÍÏÎÏÌÌÏÏÎÎÌÍÎÌÎÍÍ",
+    "va": "0x7ffd4edeeec0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1EC",
+    "class": "VRC_Main",
+    "obf": "ÌÎÏÎÎÎÎÍÎÌÍÏÌÎÎÍÎÎÍÌÏÏÏ",
+    "va": "0x7ffd4eddf0e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1EE",
+    "class": "VRC_Main",
+    "obf": "ÎÍÎÌÎÌÍÌÌÌÏÎÎÌÎÌÍÌÌÌÌÌÏ",
+    "va": "0x7ffd4edddd60",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_1FC",
+    "class": "VRC_Main",
+    "obf": "ÌÌÍÎÍÌÏÌÍÌÌÏÏÌÏÍÏÏÍÌÏÎÌ",
+    "va": "0x7ffd4edcb760",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_205",
+    "class": "VRC_Main",
+    "obf": "ÎÏÍÌÎÍÎÏÏÏÎÏÍÍÏÏÏÌÌÌÌÍÍ",
+    "va": "0x7ffd4edd7ba0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_207",
+    "class": "VRC_Main",
+    "obf": "ÌÌÏÍÏÍÏÎÌÏÌÍÍÏÎÍÌÌÌÏÍÏÌ",
+    "va": "0x7ffd4edcb0f0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_207",
+    "class": "VRC_Main",
+    "obf": "ÎÍÌÎÏÏÎÍÎÎÏÏÍÏÎÍÌÌÏÌÌÏÎ",
+    "va": "0x7ffd4edf9370",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_20F",
+    "class": "VRC_Main",
+    "obf": "ÏÍÍÏÎÏÎÌÏÌÏÍÌÍÌÎÎÎÎÍÏÏÌ",
+    "va": "0x7ffd4edcf0a0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_210",
+    "class": "VRC_Main",
+    "obf": "ÏÏÍÍÏÌÎÎÍÏÍÌÎÎÏÍÏÌÍÌÎÏÎ",
+    "va": "0x7ffd4edce980",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_213",
+    "class": "VRC_Main",
+    "obf": "ÍÌÍÎÎÎÌÍÏÍÍÎÌÎÎÌÎÍÍÍÎÏÌ",
+    "va": "0x7ffd4edc8d20",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_223",
+    "class": "VRC_Main",
+    "obf": "ÏÍÏÎÎÌÎÏÎÌÍÎÏÏÌÎÌÌÍÌÌÏÌ",
+    "va": "0x7ffd4edd95d0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  },
+  {
+    "key": "VRC_Main::m_227",
+    "class": "VRC_Main",
+    "obf": "ÏÍÍÎÌÍÎÍÎÏÌÎÌÌÍÌÎÍÍÎÍÎÎ",
+    "va": "0x7ffd4edea8e0",
+    "pseudocode": "",
+    "strings": [],
+    "callee_names": []
+  }
+]
