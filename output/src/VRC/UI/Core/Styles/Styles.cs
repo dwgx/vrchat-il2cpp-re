@@ -7,6 +7,8 @@ namespace VRC.UI.Core.Styles
 {
     public class StyleClass : MonoBehaviour
     {
+        public string ÍÌÎÌÏÌÎÏÏÎÎÎÌÎÍÏÏÎÍÏÏÍÍ; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E36F0C0
         public void RaiseCancellation(){} // RVA: 0x7FFD4E36F0C0
@@ -20,9 +22,53 @@ namespace VRC.UI.Core.Styles
 
     public class StyleElement : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_912;
+        public System.Collections.Generic.Dictionary`2<int,0x665C8718> _destroyCancellationToken;
+        public System.Collections.Generic.Dictionary`2<int,long> _useGUILayout; // 0x8
+        public bool f_912; // 0x20
+        public string ÍÌÎÌÏÌÌÌÏÍÎÍÎÍÎÎÍÏÎÏÏÍÍ; // 0x28
+        public string ÍÌÎÌÏÌÎÏÏÎÎÎÌÎÍÏÏÎÍÏÏÍÍ; // 0x30
+        public UnityEngine.UI.Selectable ÎÌÌÍÌÌÌÎÍÌÏÍÏÏÎÎÌÌÍÎÏÎÎ; // 0x38
+        public System.Collections.Generic.HashSet`1<int> ÏÏÏÎÍÎÎÏÏÌÎÎÌÎÍÎÍÏÎÌÎÏÏ; // 0x40
+        public long ÌÏÏÍÏÌÌÏÏÌÎÎÏÎÍÏÎÌÏÏÏÏÍ; // 0x48
+        public int ÌÍÌÌÍÏÏÏÍÎÍÎÏÌÌÍÏÎÏÍÏÍÎ; // 0x50
+        public VRC.UI.Core.Styles.StyleElement ÌÌÏÎÏÎÌÎÎÍÌÌÌÌÌÍÎÌÌÎÎÎÎ; // 0x58
+        public System.Collections.Generic.List`1<VRC.UI.Core.Styles.StyleElement> ÌÌÎÏÏÍÍÎÌÍÏÎÍÏÍÎÍÏÍÏÎÍÌ; // 0x60
+        public VRC.UI.Core.Styles.StyleEngine ÏÏÏÏÍÍÌÌÎÍÌÍÎÍÍÎÌÌÍÎÏÎÏ; // 0x68
+        public System.Collections.Generic.List`1<0x665C82A0> ÎÏÍÏÎÏÌÌÎÏÌÍÌÍÌÍÎÎÏÏÍÏÌ; // 0x70
+        public bool ÏÎÍÌÎÏÌÎÏÍÌÎÏÏÌÎÍÍÍÌÏÏÎ; // 0x78
+        public bool ÌÎÏÍÏÍÎÌÌÎÍÍÍÏÍÌÍÍÍÏÍÌÌ; // 0x79
+        public 0x665C8350 ÏÍÎÏÍÏÎÌÏÌÏÍÍÏÍÍÏÎÎÌÍÎÌ; // 0x80
+        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<int,0x665C87C8>> ÍÍÎÎÌÎÍÌÎÍÍÌÌÏÍÏÌÏÎÍÌÍÌ; // 0x88
+        public bool ÌÎÍÍÏÌÍÌÎÌÌÌÌÎÏÌÎÏÌÏÏÌÌ; // 0x90
+        public 0x665C82A0 ÎÍÎÍÍÍÏÍÎÌÎÍÌÌÌÌÎÍÌÏÏÌÎ; // 0x98
+        public 0x665C82A0 ÌÎÍÍÌÌÌÌÎÍÌÍÍÎÏÏÏÎÎÎÍÏÌ; // 0xA0
+        public 0x665C8198 ÏÌÎÎÎÌÌÏÏÎÌÏÌÏÌÍÌÏÍÎÏÎÎ; // 0xA8
+        public 0x665C8198 ÎÍÍÌÎÏÏÌÍÍÏÏÎÌÏÏÍÎÍÍÎÎÎ; // 0xB0
+        public System.Collections.Generic.List`1<0x665C8820> ÍÍÍÏÍÏÎÍÎÌÍÎÌÌÌÌÎÍÌÌÏÏÏ; // 0x10
+        public bool ÎÏÎÍÌÎÌÏÏÍÎÍÍÏÍÎÌÎÏÏÎÌÏ; // 0xB8
+        public System.Collections.Generic.List`1<UnityEngine.Component> ÎÏÎÍÏÍÍÌÎÌÎÏÎÍÏÏÏÎÎÍÏÍÏ; // 0xC0
+        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.Component>> ÎÎÍÍÌÎÎÍÏÍÍÎÌÌÎÍÍÌÎÌÏÌÏ; // 0xC8
+        public System.Collections.Generic.List`1<ÍÌÏÎÏÍÏÏÏÌÎÍÏÍÏÏÌÎÍÎÎÍÎ> ÍÍÏÏÍÏÌÍÏÍÏÏÌÌÍÎÌÎÍÌÍÎÎ; // 0x18
+        public bool ÌÍÌÌÎÍÌÏÏÍÎÍÎÏÎÍÍÏÏÍÏÌÏ; // 0xD0
+        public bool ÌÏÍÏÌÍÍÍÎÎÌÌÍÍÎÎÍÎÍÎÍÍÍ; // 0xD1
+        public UnityEngine.Canvas ÏÌÍÍÎÎÌÎÍÏÌÍÎÏÍÌÏÏÎÏÌÍÍ; // 0xD8
+        public System.Collections.Generic.List`1<UnityEngine.EventSystems.IPointerDownHandler> ÍÎÌÌÏÌÎÍÌÍÌÏÍÎÎÏÌÎÏÍÍÌÎ; // 0x20
+        public System.Collections.Generic.List`1<UnityEngine.EventSystems.IPointerClickHandler> ÍÍÏÎÏÌÌÎÍÍÏÎÏÍÍÍÍÎÌÌÎÍÏ; // 0x28
+        public System.Collections.Generic.List`1<UnityEngine.EventSystems.IDragHandler> ÏÎÎÌÍÌÏÏÌÌÎÎÌÍÌÌÎÌÍÌÌÍÌ; // 0x30
+        public bool ÍÎÏÌÌÌÏÌÎÏÏÍÌÏÍÏÌÏÌÏÍÍÌ; // 0xE0
+        public bool ÍÏÌÎÏÌÌÏÍÎÏÎÏÌÏÍÌÌÌÌÍÍÍ; // 0xE1
+        public bool ÌÌÌÍÍÌÏÍÍÎÍÎÎÌÏÏÏÌÍÌÏÎÌ; // 0xE2
+        public bool ÍÎÏÍÌÏÏÍÌÏÌÍÌÍÌÍÏÏÌÏÎÏÌ; // 0xE3
+        public System.Collections.Generic.Dictionary`2<int,ÎÌÌÍÎÎÏÍÌÌÌÎÍÏÌÏÏÎÍÎÍÌÌ> ÍÍÌÌÎÍÌÏÏÏÌÍÎÎÌÏÏÍÌÏÎÍÏ; // 0xE8
+        public System.Collections.Generic.Dictionary`2<int,0x665C89D8> ÏÎÍÎÎÍÍÍÎÎÍÍÎÎÍÏÎÏÏÏÎÎÌ; // 0xF0
+        public 0x665C80E8 ÍÏÍÍÏÏÎÏÍÏÍÎÏÏÎÎÍÍÍÍÏÌÍ; // 0x38
+        public 0x665C80E8 ÎÍÌÍÎÏÍÎÌÌÎÌÌÍÎÌÏÌÏÏÌÍÍ; // 0x48
+        public 0x665C80E8 ÎÌÍÌÌÎÍÌÌÏÏÌÏÎÍÎÎÏÏÍÍÍÌ; // 0x58
+        public 0x665C80E8 ÏÏÏÌÎÏÍÎÏÏÍÎÌÎÎÌÌÏÏÌÎÏÎ; // 0x68
+        public 0x665C80E8 ÌÍÍÌÍÍÎÎÎÌÍÍÌÏÏÍÌÎÌÏÌÎÏ; // 0x78
+        public EventFunction`1<ÌÏÍÏÎÎÍÌÏÏÍÎÌÎÏÏÍÌÏÍÌÌÌ> ÏÎÏÍÏÏÏÏÏÎÎÍÌÏÏÌÎÎÌÏÍÎÎ; // 0x88
+        public EventFunction`1<ÌÏÍÏÎÎÍÌÏÏÍÎÌÎÏÏÍÌÏÍÌÌÌ> ÍÎÎÏÏÍÎÍÍÏÍÍÍÏÎÍÍÎÎÍÏÌÍ; // 0x90
+        public string ÎÏÎÏÌÏÏÍÎÏÏÎÏÏÌÏÏÎÍÎÏÎÍ; // 0xF8
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD5666A870
@@ -99,7 +145,19 @@ namespace VRC.UI.Core.Styles
 
     public class StyleEngine : MonoBehaviour
     {
-        public object _styleEngine;
+        public VRC.UI.Core.Styles.StyleResource _styleEngine; // 0x20
+        public System.Collections.Generic.Dictionary`2<int,0x665C8C40> ÌÍÎÍÎÏÏÌÎÏÍÌÌÌÏÎÏÍÏÏÏÌÍ;
+        public System.Collections.Generic.List`1<0x665C8D48> ÌÍÍÍÏÏÌÏÌÍÍÌÌÏÏÌÌÍÏÎÎÎÍ; // 0x8
+        public ÍÍÌÍÎÏÎÍÎÌÎÌÌÍÎÏÏÍÏÍÌÍÍ ÌÌÏÍÌÎÎÍÍÏÏÏÏÎÌÎÍÎÏÍÌÎÎ; // 0x28
+        public bool ÎÌÎÎÍÍÍÏÎÎÌÎÌÏÌÎÎÌÎÌÍÍÎ; // 0x30
+        public System.DateTime ÌÏÌÍÎÎÎÌÏÎÌÏÌÌÏÌÎÍÍÏÍÌÏ; // 0x38
+        public bool <ÌÍÌÎÍÌÏÍÌÍÍÎÎÍÌÏÍÎÏÏÌÎÌ>k__BackingField; // 0x40
+        public System.Collections.Generic.List`1<0x665C82A0> ÌÎÍÍÏÏÌÌÌÍÍÌÍÎÌÌÎÌÏÎÍÏÎ; // 0x48
+        public System.Collections.Generic.HashSet`1<VRC.UI.Core.Styles.StyleElement> ÎÌÎÌÍÎÏÌÍÎÏÍÏÎÏÍÎÌÎÍÍÍÌ; // 0x50
+        public bool ÎÎÌÎÏÎÍÏÍÍÏÌÏÍÌÏÍÎÍÏÎÍÌ; // 0x58
+        public System.Collections.Generic.HashSet`1<VRC.UI.Core.Styles.StyleElement> ÎÍÌÎÌÌÌÌÏÍÏÌÍÏÍÍÌÌÌÍÏÏÏ; // 0x60
+        public int ÌÌÍÏÎÍÏÌÍÍÍÎÏÍÏÎÍÎÍÏÌÎÎ; // 0x68
+        public System.Collections.Generic.List`1<VRC.UI.Core.Styles.StyleElement> ÎÌÎÍÍÏÌÏÏÏÍÎÎÎÌÍÍÌÍÏÎÌÎ; // 0x70
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E2ADC40
@@ -139,6 +197,9 @@ namespace VRC.UI.Core.Styles
 
     public class StyleResource : ScriptableObject
     {
+        public System.Collections.Generic.List`1<0x665C9D18> resources; // 0x18
+        public System.Collections.Generic.List`1<VRC.UI.Core.Styles.StyleResource> includes; // 0x20
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD5669B680
         public void CreateInstance(){} // RVA: 0x7FFD5669B780

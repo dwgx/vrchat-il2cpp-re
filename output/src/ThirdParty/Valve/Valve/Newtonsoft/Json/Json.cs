@@ -14,7 +14,14 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonConvert : Object
     {
-        public object DefaultSettings;
+        public System.Func`1<0x665A4EE0> DefaultSettings;
+        public string True; // 0x8
+        public string False; // 0x10
+        public string Null; // 0x18
+        public string Undefined; // 0x20
+        public string PositiveInfinity; // 0x28
+        public string NegativeInfinity; // 0x30
+        public string NaN; // 0x38
 
         // ── Methods ──
         public void get_DefaultSettings(){} // RVA: 0x7FFD550C48E0
@@ -29,25 +36,37 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonSerializer : Object
     {
-        public object ReferenceResolver;
-        public object Binder;
-        public object TraceWriter;
-        public object EqualityComparer;
-        public object TypeNameHandling;
-        public object TypeNameAssemblyFormat;
-        public object PreserveReferencesHandling;
-        public object ReferenceLoopHandling;
-        public object MissingMemberHandling;
-        public object NullValueHandling;
-        public object DefaultValueHandling;
-        public object ObjectCreationHandling;
-        public object ConstructorHandling;
-        public object MetadataPropertyHandling;
-        public object Converters;
-        public object ContractResolver;
-        public object Context;
-        public object Formatting;
-        public object CheckAdditionalContent;
+        public 0x665A54B8 ReferenceResolver; // 0x10
+        public 0x664335B0 Binder; // 0x14
+        public 0x665A5358 TraceWriter; // 0x18
+        public 0x665A53B0 EqualityComparer; // 0x1C
+        public 0x665A5250 TypeNameHandling; // 0x20
+        public 0x665A5300 TypeNameAssemblyFormat; // 0x24
+        public 0x665A52A8 PreserveReferencesHandling; // 0x28
+        public 0x665A4598 ReferenceLoopHandling; // 0x2C
+        public 0x665A4438 MissingMemberHandling; // 0x30
+        public 0x665A51F8 NullValueHandling; // 0x34
+        public 0x665A49B8 DefaultValueHandling; // 0x38
+        public 0x665A6E80 ObjectCreationHandling; // 0x40
+        public 0x665A6F30 ConstructorHandling; // 0x48
+        public System.Collections.IEqualityComparer MetadataPropertyHandling; // 0x50
+        public System.Runtime.Serialization.SerializationBinder Converters; // 0x58
+        public System.Runtime.Serialization.StreamingContext ContractResolver; // 0x60
+        public 0x665A6ED8 Context; // 0x70
+        public System.Nullable`1<0x665A46A0> Formatting; // 0x78
+        public System.Nullable`1<0x665A4490> CheckAdditionalContent; // 0x80
+        public System.Nullable`1<0x665A4540> _dateTimeZoneHandling; // 0x88
+        public System.Nullable`1<0x665A44E8> _dateParseHandling; // 0x90
+        public System.Nullable`1<0x665A45F0> _floatFormatHandling; // 0x98
+        public System.Nullable`1<0x665A4648> _floatParseHandling; // 0xA0
+        public System.Nullable`1<0x665A5460> _stringEscapeHandling; // 0xA8
+        public System.Globalization.CultureInfo _culture; // 0xB0
+        public System.Nullable`1<int> _maxDepth; // 0xB8
+        public bool _maxDepthSet; // 0xC0
+        public System.Nullable`1<bool> _checkAdditionalContent; // 0xC1
+        public string _dateFormatString; // 0xC8
+        public bool _dateFormatStringSet; // 0xD0
+        public System.EventHandler`1<0x665A6DD0> Error; // 0xD8
 
         // ── Methods ──
         public void add_Error(){} // RVA: 0x7FFD550CCA40

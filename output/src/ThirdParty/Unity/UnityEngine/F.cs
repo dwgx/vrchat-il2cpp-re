@@ -45,9 +45,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Font : Object
     {
-        public object material;
-        public object dynamic;
-        public object fontSize;
+        public System.Action`1<UnityEngine.Font> material;
+        public FontTextureRebuildCallback dynamic; // 0x18
 
         // ── Methods ──
         public void add_textureRebuilt(){} // RVA: 0x7FFD54E6B740

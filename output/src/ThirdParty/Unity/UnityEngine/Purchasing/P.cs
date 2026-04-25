@@ -7,11 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class PayoutDefinition : Object
     {
-        public object type;
-        public object typeString;
-        public object subtype;
-        public object quantity;
-        public object data;
+        public ÌÍÎÎÎ type; // 0x10
+        public string typeString; // 0x18
+        public double subtype; // 0x20
+        public string quantity; // 0x28
+        public int data;
+        public int MaxDataLength;
 
         // ── Methods ──
         public void get_type(){} // RVA: 0x7FFD4E38E5C0
@@ -27,14 +28,13 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class Product : Object
     {
-        public object definition;
-        public object metadata;
-        public object availableToPurchase;
-        public object transactionID;
-        public object appleOriginalTransactionID;
-        public object appleProductIsRestored;
-        public object hasReceipt;
-        public object receipt;
+        public UnityEngine.Purchasing.ProductDefinition definition; // 0x10
+        public UnityEngine.Purchasing.ProductMetadata metadata; // 0x18
+        public bool availableToPurchase; // 0x20
+        public string transactionID; // 0x28
+        public string appleOriginalTransactionID; // 0x30
+        public bool appleProductIsRestored; // 0x38
+        public string hasReceipt; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DCCA50 | overloaded x2
@@ -59,7 +59,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductCatalog : Object
     {
-        public object allProducts;
+        public 0x665DD900 allProducts;
+        public bool enableCodelessAutoInitialization; // 0x10
+        public System.Collections.Generic.List`1<0x665DD850> products; // 0x18
 
         // ── Methods ──
         public void get_allProducts(){} // RVA: 0x7FFD4E3447C0
@@ -72,8 +74,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductCollection : Object
     {
-        public object set;
-        public object all;
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.Purchasing.Product> set; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.Purchasing.Product> all; // 0x18
+        public System.Collections.Generic.HashSet`1<UnityEngine.Purchasing.Product> <set>k__BackingField; // 0x20
+        public UnityEngine.Purchasing.Product[] <all>k__BackingField; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DCCB30
@@ -87,11 +91,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductDefinition : Object
     {
-        public object id;
-        public object storeSpecificId;
-        public object type;
-        public object enabled;
-        public object payouts;
+        public string id; // 0x10
+        public string storeSpecificId; // 0x18
+        public 0x66622450 type; // 0x20
+        public bool enabled; // 0x24
+        public System.Collections.Generic.List`1<UnityEngine.Purchasing.PayoutDefinition> payouts; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DCD740 | overloaded x4
@@ -117,6 +121,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductDetailsQueryResponse : Object
     {
+        public System.Collections.Concurrent.ConcurrentBag`1<System.ValueTuple`2<UnityEngine.Purchasing.Models.IGoogleBillingResult,System.Collections.Generic.IEnumerable`1<UnityEngine.AndroidJavaObject>>> m_Responses; // 0x10
+
         // ── Methods ──
         public void Finalize(){} // RVA: 0x7FFD54DE0100
         public void AddResponse(){} // RVA: 0x7FFD54DE03F0
@@ -128,6 +134,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductDetailsResponseConsolidator : Object
     {
+        public int m_NumberReceivedCallbacks; // 0x10
+        public System.Action`1<UnityEngine.Purchasing.Interfaces.IProductDetailsQueryResponse> m_OnProductDetailsResponseConsolidated; // 0x18
+        public UnityEngine.Purchasing.Interfaces.IProductDetailsQueryResponse m_Responses; // 0x20
+        public Uniject.IUtil m_Util; // 0x28
+        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE1280
         public void Consolidate(){} // RVA: 0x7FFD54DE1570
@@ -135,6 +147,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductDetailsResponseListener : AndroidJavaProxy
     {
+        public System.Action`2<UnityEngine.Purchasing.Models.IGoogleBillingResult,System.Collections.Generic.List`1<UnityEngine.AndroidJavaObject>> m_OnProductDetailsResponse; // 0x20
+        public Uniject.IUtil m_Util; // 0x28
+        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DDEE40
         public void onProductDetailsResponse(){} // RVA: 0x7FFD54DDEFD0
@@ -142,11 +158,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ProductMetadata : Object
     {
-        public object localizedPriceString;
-        public object localizedTitle;
-        public object localizedDescription;
-        public object isoCurrencyCode;
-        public object localizedPrice;
+        public string localizedPriceString; // 0x10
+        public string localizedTitle; // 0x18
+        public string localizedDescription; // 0x20
+        public string isoCurrencyCode; // 0x28
+        public System.Decimal localizedPrice; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310 | overloaded x3
@@ -170,7 +186,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class PurchaseEventArgs : Object
     {
-        public object purchasedProduct;
+        public UnityEngine.Purchasing.Product purchasedProduct; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -180,8 +196,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class PurchasingFactory : Object
     {
-        public object storeName;
-        public object service;
+        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Purchasing.Extension.IStoreConfiguration> storeName; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Purchasing.IStoreExtension> service; // 0x18
+        public UnityEngine.Purchasing.Extension.IStore m_Store; // 0x20
+        public UnityEngine.Purchasing.Extension.ICatalogProvider m_CatalogProvider; // 0x28
+        public string <storeName>k__BackingField; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DCDBC0
@@ -197,8 +216,20 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class PurchasingManager : Object
     {
-        public object useTransactionLog;
-        public object products;
+        public UnityEngine.Purchasing.Extension.IStore useTransactionLog; // 0x10
+        public UnityEngine.Purchasing.IInternalStoreListener products; // 0x18
+        public UnityEngine.ILogger m_Logger; // 0x20
+        public UnityEngine.Purchasing.TransactionLog m_TransactionLog; // 0x28
+        public string m_StoreName; // 0x30
+        public bool m_logUnavailableProducts; // 0x38
+        public UnityEngine.Purchasing.IUnityServicesInitializationChecker m_UnityServicesInitializationChecker; // 0x40
+        public System.Action m_AdditionalProductsCallback; // 0x48
+        public System.Action`1<0x666220E0> m_AdditionalProductsFailCallback; // 0x50
+        public System.Action`2<0x666220E0,string> m_AdditionalProductsDetailedFailCallback; // 0x58
+        public System.Collections.Generic.HashSet`1<string> purchasesProcessedInSession; // 0x60
+        public bool <useTransactionLog>k__BackingField; // 0x68
+        public UnityEngine.Purchasing.ProductCollection <products>k__BackingField; // 0x70
+        public bool initialized; // 0x78
 
         // ── Methods ──
         public void get_useTransactionLog(){} // RVA: 0x7FFD4E409570

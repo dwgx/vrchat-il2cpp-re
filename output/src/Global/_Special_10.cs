@@ -446,7 +446,14 @@ public class _GetWorkingStandingZeroPoseToRawTrackingPose : MulticastDelegate
 
 public class _GroupBy : MoveNextSource
 {
-    public object Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
+    public System.Func`2<U,V> keySelector;
+    public System.Func`2<U,W> elementSelector;
+    public System.Func`3<V,System.Collections.Generic.IEnumerable`1<W>,T> resultSelector;
+    public System.Collections.Generic.IEqualityComparer`1<V> comparer;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<V,W>> groupEnumerator;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -460,7 +467,16 @@ public class _GroupBy : MoveNextSource
 
 public class _GroupByAwait : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<V>> keySelector;
+    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<W>> elementSelector;
+    public System.Func`3<V,System.Collections.Generic.IEnumerable`1<W>,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+    public System.Collections.Generic.IEqualityComparer`1<V> comparer;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<V,W>> groupEnumerator;
+    public Awaiter<T> awaiter;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -474,7 +490,16 @@ public class _GroupByAwait : MoveNextSource
 
 public class _GroupByAwaitWithCancellation : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<V>> keySelector;
+    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> elementSelector;
+    public System.Func`4<V,System.Collections.Generic.IEnumerable`1<W>,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+    public System.Collections.Generic.IEqualityComparer`1<V> comparer;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<V,W>> groupEnumerator;
+    public Awaiter<T> awaiter;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -488,7 +513,18 @@ public class _GroupByAwaitWithCancellation : MoveNextSource
 
 public class _GroupJoin : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
+    public System.Func`2<U,W> outerKeySelector;
+    public System.Func`2<V,W> innerKeySelector;
+    public System.Func`3<U,System.Collections.Generic.IEnumerable`1<V>,T> resultSelector;
+    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Linq.ILookup`2<W,V> lookup;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+    public Awaiter<bool> awaiter;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -504,7 +540,23 @@ public class _GroupJoin : MoveNextSource
 
 public class _GroupJoinAwait : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public System.Action`1<object> ResultSelectCoreDelegate;
+    public System.Action`1<object> OuterKeySelectCoreDelegate;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
+    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
+    public System.Func`2<V,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
+    public System.Func`3<U,System.Collections.Generic.IEnumerable`1<V>,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Linq.ILookup`2<W,V> lookup;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+    public U outerValue;
+    public Awaiter<bool> awaiter;
+    public Awaiter<W> outerKeyAwaiter;
+    public Awaiter<T> resultAwaiter;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -522,7 +574,23 @@ public class _GroupJoinAwait : MoveNextSource
 
 public class _GroupJoinAwaitWithCancellation : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public System.Action`1<object> ResultSelectCoreDelegate;
+    public System.Action`1<object> OuterKeySelectCoreDelegate;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
+    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
+    public System.Func`3<V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
+    public System.Func`4<U,System.Collections.Generic.IEnumerable`1<V>,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Linq.ILookup`2<W,V> lookup;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+    public U outerValue;
+    public Awaiter<bool> awaiter;
+    public Awaiter<W> outerKeyAwaiter;
+    public Awaiter<T> resultAwaiter;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -630,6 +698,12 @@ public class _ImportFromBufferToWorking : MulticastDelegate
 
 public class _Intersect : AsyncEnumeratorBase`2
 {
+    public System.Action`1<object> HashSetAsyncCoreDelegate;
+    public System.Collections.Generic.IEqualityComparer`1<T> comparer;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> second;
+    public System.Collections.Generic.HashSet`1<T> set;
+    public Awaiter<System.Collections.Generic.HashSet`1<T>> awaiter;
+
     // ── Methods ──
     public void .ctor(){}
     public void OnFirstIteration(){} // RVA: 0x7FFD4E079D00
@@ -793,7 +867,21 @@ public class _IsViewingPermitted : MulticastDelegate
 
 public class _Join : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
+    public System.Func`2<U,W> outerKeySelector;
+    public System.Func`2<V,W> innerKeySelector;
+    public System.Func`3<U,V,T> resultSelector;
+    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Linq.ILookup`2<W,V> lookup;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+    public Awaiter<bool> awaiter;
+    public U currentOuterValue;
+    public System.Collections.Generic.IEnumerator`1<V> valueEnumerator;
+    public bool continueNext;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -809,7 +897,25 @@ public class _Join : MoveNextSource
 
 public class _JoinAwait : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public System.Action`1<object> OuterSelectCoreDelegate;
+    public System.Action`1<object> ResultSelectCoreDelegate;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
+    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
+    public System.Func`2<V,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
+    public System.Func`3<U,V,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Linq.ILookup`2<W,V> lookup;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+    public Awaiter<bool> awaiter;
+    public U currentOuterValue;
+    public System.Collections.Generic.IEnumerator`1<V> valueEnumerator;
+    public Awaiter<T> resultAwaiter;
+    public Awaiter<W> outerKeyAwaiter;
+    public bool continueNext;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -827,7 +933,25 @@ public class _JoinAwait : MoveNextSource
 
 public class _JoinAwaitWithCancellation : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public System.Action`1<object> OuterSelectCoreDelegate;
+    public System.Action`1<object> ResultSelectCoreDelegate;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
+    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
+    public System.Func`3<V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
+    public System.Func`4<U,V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
+    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Linq.ILookup`2<W,V> lookup;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+    public Awaiter<bool> awaiter;
+    public U currentOuterValue;
+    public System.Collections.Generic.IEnumerator`1<V> valueEnumerator;
+    public Awaiter<T> resultAwaiter;
+    public Awaiter<W> outerKeyAwaiter;
+    public bool continueNext;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -944,7 +1068,14 @@ public class _LockGLSharedTextureForAccess : MulticastDelegate
 
 public class _Merge : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public int length;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T>[] enumerators;
+    public 0x664EFB00<T>[] states;
+    public System.Collections.Generic.Queue`1<System.ValueTuple`3<T,System.Exception,bool>> queuedResult;
+    public System.Threading.CancellationToken cancellationToken;
+    public int moveNextCompleted;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void get_Current(){} // RVA: 0x7FFD4E2ADC40
@@ -960,7 +1091,7 @@ public class _Merge : MoveNextSource
 
 public class _Never : Object
 {
-    public object Current;
+    public System.Threading.CancellationToken Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090BF0

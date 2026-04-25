@@ -7,6 +7,26 @@ namespace VRC.OSCQuery
 {
     public class Attributes : Object
     {
+        public System.Collections.Generic.Dictionary`2<System.Type,string> _oscTypeLookup;
+        public string CONTENTS;
+        public string HOST_INFO;
+        public string FULL_PATH;
+        public string TYPE;
+        public string ACCESS;
+        public string CLIPMODE;
+        public string CRITICAL;
+        public string DESCRIPTION;
+        public string EXTENDED_TYPE;
+        public string HTML;
+        public string OVERLOADS;
+        public string RANGE;
+        public string TAGS;
+        public string UNIT;
+        public string VALUE;
+        public string SERVICE_OSCJSON_TCP;
+        public string SERVICE_OSC_UDP;
+        public string EXPLORER; // 0x8
+
         // ── Methods ──
         public void OSCTypeFor(){} // RVA: 0x7FFD5513E0A0 | overloaded x2
         public void .cctor(){} // RVA: 0x7FFD5513E220
@@ -14,6 +34,9 @@ namespace VRC.OSCQuery
 
     public class Extensions : Object
     {
+        public 0x66602840 _client;
+        public 0x66499F70 DefaultLoopbackEndpoint; // 0x8
+
         // ── Methods ──
         public void SkipLast(){} // RVA: 0x7FFD4E088090
         public void GetAvailableTcpPort(){} // RVA: 0x7FFD5513EAA0
@@ -26,6 +49,12 @@ namespace VRC.OSCQuery
 
     public class HostInfo : Object
     {
+        public string name; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,bool> extensions; // 0x18
+        public string oscIP; // 0x20
+        public int oscPort; // 0x28
+        public string oscTransport; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55140AE0
         public void ToString(){} // RVA: 0x7FFD55140D90
@@ -47,8 +76,13 @@ namespace VRC.OSCQuery
 
     public class OSCQueryNode : Object
     {
-        public object ParentPath;
-        public object Name;
+        public string ParentPath; // 0x10
+        public string Name; // 0x18
+        public 0x66629930 Access; // 0x20
+        public System.Collections.Generic.Dictionary`2<string,VRC.OSCQuery.OSCQueryNode> Contents; // 0x28
+        public string OscType; // 0x30
+        public object[] Value; // 0x38
+        public Newtonsoft.Json.JsonSerializerSettings WriteSettings;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3A7E80 | overloaded x2
@@ -61,6 +95,8 @@ namespace VRC.OSCQuery
 
     public class OSCQueryRootNode : OSCQueryNode
     {
+        public System.Collections.Generic.Dictionary`2<string,VRC.OSCQuery.OSCQueryNode> _pathLookup; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55145870
         public void GetNodeWithPath(){} // RVA: 0x7FFD551459C0
@@ -73,16 +109,23 @@ namespace VRC.OSCQuery
 
     public class OSCQueryService : Object
     {
-        public object TcpPort;
-        public object OscPort;
-        public object ServerName;
-        public object HostIP;
-        public object OscIP;
-        public object Logger;
-        public object LocalIp;
-        public object Discovery;
-        public object HostInfo;
-        public object RootNode;
+        public int TcpPort; // 0x10
+        public 0x66499EC0 OscPort; // 0x18
+        public 0x66499EC0 ServerName; // 0x20
+        public Microsoft.Extensions.Logging.ILogger`1<VRC.OSCQuery.OSCQueryService> HostIP;
+        public 0x66499EC0 OscIP; // 0x28
+        public int Logger;
+        public int LocalIp;
+        public string Discovery;
+        public string HostInfo; // 0x8
+        public string RootNode; // 0x10
+        public System.Collections.Generic.HashSet`1<string> MatchedNames; // 0x18
+        public VRC.OSCQuery.IDiscovery _discovery; // 0x30
+        public System.Action`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> OnOscServiceAdded; // 0x38
+        public System.Action`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> OnOscQueryServiceAdded; // 0x40
+        public ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÍÍÏÌÌÎÌÍÍÍÍ _http; // 0x48
+        public VRC.OSCQuery.HostInfo _hostInfo; // 0x50
+        public VRC.OSCQuery.OSCQueryRootNode _rootNode; // 0x58
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55148980 | overloaded x2

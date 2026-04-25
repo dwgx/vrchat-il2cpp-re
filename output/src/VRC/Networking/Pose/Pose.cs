@@ -7,6 +7,8 @@ namespace VRC.Networking.Pose
 {
     public class PoseAV2Update : PoseRemoteUpdate
     {
+        public VRC.Profiling.ProfilerMarker ÎÏÎÏÌÌÌÌÌÍÎÎÍÍÎÎÎÌÏÍÏÎÍ; // 0x28
+
         // ── Methods ──
         public void SampleProfilerBegin(){} // RVA: 0x7FFD4E6089D0
         public void CaptureProfilerSample(){} // RVA: 0x7FFD4E6089D0
@@ -22,6 +24,8 @@ namespace VRC.Networking.Pose
 
     public class PoseAV3Update : PoseRemoteUpdate
     {
+        public VRC.Profiling.ProfilerMarker ÎÏÎÏÌÌÌÌÌÍÎÎÍÍÎÎÎÌÏÍÏÎÍ; // 0x28
+
         // ── Methods ──
         public void UpdatePoseProfile(){} // RVA: 0x7FFD4E608D30
         public void BeginPoseUpdateProfilingSample(){} // RVA: 0x7FFD4E608D30
@@ -38,6 +42,9 @@ namespace VRC.Networking.Pose
 
     public class PoseLocalUpdate : MonoBehaviour
     {
+        public ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ ÌÌÌÍÏÍÎÍÏÏÌÌÍÎÎÏÍÎÎÍÍÍÏ; // 0x20
+        public VRC.Profiling.ProfilerMarker ÍÏÌÏÍÌÌÎÌÌÎÎÍÌÎÌÎÎÍÎÎÍÍ; // 0x28
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E609150
         public void RaiseCancellation(){} // RVA: 0x7FFD4E609280
@@ -53,7 +60,7 @@ namespace VRC.Networking.Pose
 
     public class PoseRemoteUpdate : MonoBehaviour
     {
-        public object _poseRemoteUpdate;
+        public ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ _poseRemoteUpdate; // 0x20
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E608580

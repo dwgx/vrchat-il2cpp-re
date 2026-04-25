@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.IO.Enumeration
 {
     public class FileSystemEnumerableFactory : Object
     {
+        public char[] s_unixEscapeChars;
+
         // ── Methods ──
         public void NormalizeInputs(){} // RVA: 0x7FFD53A21340
         public void MatchesPattern(){} // RVA: 0x7FFD53A21AA0
@@ -21,8 +23,12 @@ namespace ThirdParty.DotNet.System.IO.Enumeration
 
     public class FileSystemEnumerable`1 : Object
     {
-        public object ShouldIncludePredicate;
-        public object ShouldRecursePredicate;
+        public DelegateEnumerator<System.IO.FileInfo> ShouldIncludePredicate; // 0x10
+        public FindTransform<System.IO.FileInfo> ShouldRecursePredicate; // 0x18
+        public System.IO.EnumerationOptions _options; // 0x20
+        public string _directory; // 0x28
+        public FindPredicate<System.IO.FileInfo> <ShouldIncludePredicate>k__BackingField; // 0x30
+        public FindPredicate<System.IO.FileInfo> <ShouldRecursePredicate>k__BackingField; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
@@ -35,8 +41,18 @@ namespace ThirdParty.DotNet.System.IO.Enumeration
 
     public class FileSystemEnumerator`1 : CriticalFinalizerObject
     {
-        public object Current;
-        public object System.Collections.IEnumerator.Current;
+        public string Current; // 0x10
+        public string System.Collections.IEnumerator.Current; // 0x18
+        public System.IO.EnumerationOptions _options; // 0x20
+        public object _lock; // 0x28
+        public ЦW* _entry; // 0x30
+        public System.IO.FileInfo _current; // 0x38
+        public UIntPtr _buffer; // 0x40
+        public int _bufferLength; // 0x48
+        public UIntPtr _directoryHandle; // 0x50
+        public string _currentPath; // 0x58
+        public bool _lastEntryFound; // 0x60
+        public System.Collections.Generic.Queue`1<System.ValueTuple`2<UIntPtr,string>> _pending; // 0x68
 
         // ── Methods ──
         public void GetDataUWP(){} // RVA: 0x7FFD5109EED0
@@ -66,6 +82,9 @@ namespace ThirdParty.DotNet.System.IO.Enumeration
 
     public class FileSystemName : Object
     {
+        public char[] s_wildcardChars;
+        public char[] s_simpleWildcardChars; // 0x8
+
         // ── Methods ──
         public void TranslateWin32Expression(){} // RVA: 0x7FFD53A23950
         public void MatchesWin32Expression(){} // RVA: 0x7FFD53A23D30

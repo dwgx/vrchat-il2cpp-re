@@ -7,11 +7,34 @@ namespace ThirdParty.DotNet.System.Net.WebSockets
 {
     public class ManagedWebSocket : WebSocket
     {
-        public object StateUpdateLock;
-        public object ReceiveAsyncLock;
-        public object CloseStatus;
-        public object CloseStatusDescription;
-        public object State;
+        public 0x6642CB20 StateUpdateLock;
+        public System.Text.UTF8Encoding ReceiveAsyncLock; // 0x8
+        public 0x664A21B8[] CloseStatus; // 0x10
+        public 0x664A21B8[] CloseStatusDescription; // 0x18
+        public 0x664A21B8[] State; // 0x20
+        public 0x664A21B8[] s_validCloseStates; // 0x28
+        public System.Threading.Tasks.Task`1<0x664A2160> s_cachedCloseTask; // 0x30
+        public System.IO.Stream _stream; // 0x10
+        public bool _isServer; // 0x18
+        public string _subprotocol; // 0x20
+        public System.Threading.Timer _keepAliveTimer; // 0x28
+        public System.Threading.CancellationTokenSource _abortSource; // 0x30
+        public System.Memory`1<byte> _receiveBuffer; // 0x38
+        public 0x664A13F8 _utf8TextState; // 0x48
+        public System.Threading.SemaphoreSlim _sendFrameAsyncLock; // 0x50
+        public 0x664A21B8 _state; // 0x58
+        public bool _disposed; // 0x5C
+        public bool _sentCloseFrame; // 0x5D
+        public bool _receivedCloseFrame; // 0x5E
+        public System.Nullable`1<0x664A2000> _closeStatus; // 0x60
+        public string _closeStatusDescription; // 0x68
+        public 0x664A14A8 _lastReceiveHeader; // 0x70
+        public int _receiveBufferOffset; // 0x88
+        public int _receiveBufferCount; // 0x8C
+        public int _receivedMaskOffsetOffset; // 0x90
+        public byte[] _sendBuffer; // 0x98
+        public bool _lastSendWasFragment; // 0xA0
+        public System.Threading.Tasks.Task _lastReceiveAsync; // 0xA8
 
         // ── Methods ──
         public void CreateFromConnectedStream(){} // RVA: 0x7FFD54770370
@@ -63,8 +86,8 @@ namespace ThirdParty.DotNet.System.Net.WebSockets
 
     public class ValueWebSocketReceiveResult : ValueType
     {
-        public object EndOfMessage;
-        public object MessageType;
+        public uint EndOfMessage; // 0x10
+        public 0x664A2108 MessageType; // 0x14
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54783350

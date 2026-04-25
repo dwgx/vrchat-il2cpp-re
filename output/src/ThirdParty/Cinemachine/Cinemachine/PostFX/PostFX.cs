@@ -7,7 +7,15 @@ namespace ThirdParty.Cinemachine.Cinemachine.PostFX
 {
     public class CinemachinePostProcessing : CinemachineExtension
     {
-        public object IsValid;
+        public float IsValid;
+        public bool m_FocusTracksTarget; // 0x30
+        public 0x6658CBD0 m_FocusTracking; // 0x34
+        public UnityEngine.Transform m_FocusTarget; // 0x38
+        public float m_FocusOffset; // 0x40
+        public UnityEngine.Rendering.PostProcessing.PostProcessProfile m_Profile; // 0x48
+        public string sVolumeOwnerName; // 0x8
+        public System.Collections.Generic.List`1<UnityEngine.Rendering.PostProcessing.PostProcessVolume> sVolumes; // 0x10
+        public System.Collections.Generic.Dictionary`2<Cinemachine.CinemachineBrain,UnityEngine.Rendering.PostProcessing.PostProcessLayer> mBrainToLayer; // 0x18
 
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x7FFD4FC94D40

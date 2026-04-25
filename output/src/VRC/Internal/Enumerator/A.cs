@@ -8,8 +8,14 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÏÌÌÍÎÎÏÍÍÍÌÌÎÍÍÌÍÎÌÍÍÍ</summary>
     public class ApiInfoPushSystemEnumerator_9F94 : Object
     {
-        public object System.Collections.Generic.IEnumerator<VRC.Core.ApiInfoPushSystem>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<VRC.Core.ApiInfoPushSystem>.Current; // 0x10
+        public VRC.Core.ApiInfoPushSystem System.Collections.IEnumerator.Current; // 0x18
+        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ; // 0x20
+        public System.Collections.Generic.IEnumerable`1<VRC.Core.ApiInfoPushSystem> ÏÍÌÌÍÍÏÏÎÏÎÍÏÏÎÏÌÎÌÏÍÌÍ; // 0x28
+        public System.Collections.Generic.IEnumerable`1<VRC.Core.ApiInfoPushSystem> ÌÌÌÏÏÌÍÍÎÎÎÌÍÎÍÌÎÏÎÎÏÏÏ; // 0x30
+        public System.Collections.Generic.List`1<string> ÌÌÎÍÏÏÏÎÍÍÏÍÍÏÍÏÍÍÍÍÌÌÍ; // 0x38
+        public System.Collections.Generic.List`1<string> ÏÏÏÍÎÍÎÏÌÌÏÎÌÎÎÌÏÍÍÎÌÌÎ; // 0x40
+        public System.Collections.Generic.IEnumerator`1<VRC.Core.ApiInfoPushSystem> ÍÍÎÏÎÍÍÌÌÍÍÌÍÎÎÍÌÎÌÏÎÌÏ; // 0x48
 
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4EC04A30

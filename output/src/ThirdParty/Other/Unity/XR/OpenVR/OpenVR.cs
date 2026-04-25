@@ -7,11 +7,11 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 {
     public class HandedViveTracker : ViveTracker
     {
-        public object grip;
-        public object gripPressed;
-        public object primary;
-        public object trackpadPressed;
-        public object triggerPressed;
+        public UnityEngine.InputSystem.Controls.AxisControl grip; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl gripPressed; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl primary; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl trackpadPressed; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl triggerPressed; // 0x1E0
 
         // ── Methods ──
         public void get_grip(){} // RVA: 0x7FFD4E9622B0
@@ -37,17 +37,17 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRControllerWMR : XRController
     {
-        public object deviceVelocity;
-        public object deviceAngularVelocity;
-        public object touchpadClick;
-        public object touchpadTouch;
-        public object gripPressed;
-        public object triggerPressed;
-        public object menu;
-        public object trigger;
-        public object grip;
-        public object touchpad;
-        public object joystick;
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceVelocity; // 0x1B0
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularVelocity; // 0x1B8
+        public UnityEngine.InputSystem.Controls.ButtonControl touchpadClick; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl touchpadTouch; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl gripPressed; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl triggerPressed; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl menu; // 0x1E0
+        public UnityEngine.InputSystem.Controls.AxisControl trigger; // 0x1E8
+        public UnityEngine.InputSystem.Controls.AxisControl grip; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector2Control touchpad; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector2Control joystick; // 0x200
 
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x7FFD4E969F30
@@ -84,6 +84,17 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVREvents : Object
     {
+        public Unity.XR.OpenVR.OpenVREvents instance;
+        public Unity.XR.OpenVR.OpenVREvent[] events; // 0x10
+        public int[] eventIndicies; // 0x18
+        public Valve.VR.VREvent_t vrEvent; // 0x20
+        public uint vrEventSize; // 0x60
+        public bool preloadedEvents; // 0x64
+        public int maxEventsPerUpdate;
+        public bool debugLogAllEvents; // 0x8
+        public bool enabled; // 0x9
+        public bool exiting; // 0x65
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD54C27E50
         public void IsInitialized(){} // RVA: 0x7FFD54C27F20
@@ -101,14 +112,14 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRHMD : XRHMD
     {
-        public object deviceVelocity;
-        public object deviceAngularVelocity;
-        public object leftEyeVelocity;
-        public object leftEyeAngularVelocity;
-        public object rightEyeVelocity;
-        public object rightEyeAngularVelocity;
-        public object centerEyeVelocity;
-        public object centerEyeAngularVelocity;
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceVelocity; // 0x1E0
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularVelocity; // 0x1E8
+        public UnityEngine.InputSystem.Controls.Vector3Control leftEyeVelocity; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector3Control leftEyeAngularVelocity; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector3Control rightEyeVelocity; // 0x200
+        public UnityEngine.InputSystem.Controls.Vector3Control rightEyeAngularVelocity; // 0x208
+        public UnityEngine.InputSystem.Controls.Vector3Control centerEyeVelocity; // 0x210
+        public UnityEngine.InputSystem.Controls.Vector3Control centerEyeAngularVelocity; // 0x218
 
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x7FFD4E818150
@@ -145,8 +156,14 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRLoader : XRLoaderHelper
     {
-        public object displaySubsystem;
-        public object inputSubsystem;
+        public System.Collections.Generic.List`1<UnityEngine.XR.XRDisplaySubsystemDescriptor> displaySubsystem;
+        public System.Collections.Generic.List`1<UnityEngine.XR.XRInputSubsystemDescriptor> inputSubsystem; // 0x8
+        public bool running; // 0x20
+        public System.IO.FileInfo watcherFile; // 0x28
+        public System.Threading.Thread watcherThread; // 0x30
+        public string mirrorViewPath;
+        public Unity.XR.OpenVR.OpenVRSettings settings; // 0x38
+        public UnityEngine.Events.UnityEvent[] events; // 0x40
 
         // ── Methods ──
         public void get_displaySubsystem(){} // RVA: 0x7FFD54C2B370
@@ -175,17 +192,17 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVROculusTouchController : XRControllerWithRumble
     {
-        public object thumbstick;
-        public object trigger;
-        public object grip;
-        public object primaryButton;
-        public object secondaryButton;
-        public object gripPressed;
-        public object triggerPressed;
-        public object thumbstickClicked;
-        public object thumbstickTouched;
-        public object deviceVelocity;
-        public object deviceAngularVelocity;
+        public UnityEngine.InputSystem.Controls.Vector2Control thumbstick; // 0x1B0
+        public UnityEngine.InputSystem.Controls.AxisControl trigger; // 0x1B8
+        public UnityEngine.InputSystem.Controls.AxisControl grip; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl primaryButton; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl secondaryButton; // 0x1D0
+        public UnityEngine.InputSystem.Controls.ButtonControl gripPressed; // 0x1D8
+        public UnityEngine.InputSystem.Controls.ButtonControl triggerPressed; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl thumbstickClicked; // 0x1E8
+        public UnityEngine.InputSystem.Controls.ButtonControl thumbstickTouched; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceVelocity; // 0x1F8
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularVelocity; // 0x200
 
         // ── Methods ──
         public void get_thumbstick(){} // RVA: 0x7FFD4E969F30
@@ -216,6 +233,21 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRSettings : ScriptableObject
     {
+        public bool PromptToUpgradePackage; // 0x18
+        public bool PromptToUpgradePreviewPackages; // 0x19
+        public string SkipPromptForVersion; // 0x20
+        public 0x665A4120 StereoRenderingMode; // 0x28
+        public 0x665A4178 InitializationType; // 0x2C
+        public string EditorAppKey; // 0x30
+        public string ActionManifestFileRelativeFilePath; // 0x38
+        public 0x665A41D0 MirrorView; // 0x40
+        public bool DisableOpenVREvents; // 0x44
+        public bool PreInit; // 0x45
+        public string StreamingAssetsFolderName;
+        public string ActionManifestFileName;
+        public bool HasCopiedDefaults; // 0x46
+        public Unity.XR.OpenVR.OpenVRSettings s_Settings;
+
         // ── Methods ──
         public void GetStreamingSteamVRPath(){} // RVA: 0x7FFD54C2CE40
         public void CreateDirectory(){} // RVA: 0x7FFD54C2CFE0
@@ -239,8 +271,8 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class ViveTracker : TrackedDevice
     {
-        public object deviceVelocity;
-        public object deviceAngularVelocity;
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceVelocity; // 0x1B0
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularVelocity; // 0x1B8
 
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x7FFD4E969F30
@@ -253,16 +285,16 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class ViveWand : XRControllerWithRumble
     {
-        public object grip;
-        public object gripPressed;
-        public object primary;
-        public object trackpadPressed;
-        public object trackpadTouched;
-        public object trackpad;
-        public object trigger;
-        public object triggerPressed;
-        public object deviceVelocity;
-        public object deviceAngularVelocity;
+        public UnityEngine.InputSystem.Controls.AxisControl grip; // 0x1B0
+        public UnityEngine.InputSystem.Controls.ButtonControl gripPressed; // 0x1B8
+        public UnityEngine.InputSystem.Controls.ButtonControl primary; // 0x1C0
+        public UnityEngine.InputSystem.Controls.ButtonControl trackpadPressed; // 0x1C8
+        public UnityEngine.InputSystem.Controls.ButtonControl trackpadTouched; // 0x1D0
+        public UnityEngine.InputSystem.Controls.Vector2Control trackpad; // 0x1D8
+        public UnityEngine.InputSystem.Controls.AxisControl trigger; // 0x1E0
+        public UnityEngine.InputSystem.Controls.ButtonControl triggerPressed; // 0x1E8
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceVelocity; // 0x1F0
+        public UnityEngine.InputSystem.Controls.Vector3Control deviceAngularVelocity; // 0x1F8
 
         // ── Methods ──
         public void get_grip(){} // RVA: 0x7FFD4E969F30

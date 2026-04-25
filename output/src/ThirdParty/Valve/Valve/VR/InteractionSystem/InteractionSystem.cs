@@ -7,12 +7,24 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 {
     public class AllowTeleportWhileAttachedToHand : MonoBehaviour
     {
+        public bool teleportAllowed; // 0x20
+        public bool overrideHoverLock; // 0x21
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD540B6450
     }
 
     public class ArcheryTarget : MonoBehaviour
     {
+        public UnityEngine.Events.UnityEvent onTakeDamage; // 0x20
+        public bool onceOnly; // 0x28
+        public UnityEngine.Transform targetCenter; // 0x30
+        public UnityEngine.Transform baseTransform; // 0x38
+        public UnityEngine.Transform fallenDownTransform; // 0x40
+        public float fallTime; // 0x48
+        public float targetRadius;
+        public bool targetEnabled; // 0x4C
+
         // ── Methods ──
         public void ApplyDamage(){} // RVA: 0x7FFD5411DD20
         public void FireExposure(){} // RVA: 0x7FFD5411DD20
@@ -23,6 +35,30 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Arrow : MonoBehaviour
     {
+        public UnityEngine.ParticleSystem glintParticle; // 0x20
+        public UnityEngine.Rigidbody arrowHeadRB; // 0x28
+        public UnityEngine.Rigidbody shaftRB; // 0x30
+        public UnityEngine.PhysicMaterial targetPhysMaterial; // 0x38
+        public UnityEngine.Vector3 prevPosition; // 0x40
+        public UnityEngine.Quaternion prevRotation; // 0x4C
+        public UnityEngine.Vector3 prevVelocity; // 0x5C
+        public UnityEngine.Vector3 prevHeadPosition; // 0x68
+        public Valve.VR.InteractionSystem.SoundPlayOneshot fireReleaseSound; // 0x78
+        public Valve.VR.InteractionSystem.SoundPlayOneshot airReleaseSound; // 0x80
+        public Valve.VR.InteractionSystem.SoundPlayOneshot hitTargetSound; // 0x88
+        public Valve.VR.InteractionSystem.PlaySound hitGroundSound; // 0x90
+        public bool inFlight; // 0x98
+        public bool released; // 0x99
+        public bool hasSpreadFire; // 0x9A
+        public int travelledFrames; // 0x9C
+        public UnityEngine.GameObject scaleParentObject; // 0xA0
+        public float initialMass; // 0xA8
+        public float initialDrag; // 0xAC
+        public float initialAngularDrag; // 0xB0
+        public ÎÏÎÍÍÌÎÌÍÌÍÌÏÌÍ initialInterpolation; // 0xB4
+        public ÎÍÏÎÌÏÍÎÏÎÎÎÏÏÌÌ initialCollisionDetection; // 0xB8
+        public bool initialUseGravity; // 0xBC
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5411E2E0
         public void Start(){} // RVA: 0x7FFD5411E570
@@ -38,6 +74,25 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ArrowHand : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.Hand hand; // 0x20
+        public Valve.VR.InteractionSystem.Longbow bow; // 0x28
+        public UnityEngine.GameObject currentArrow; // 0x30
+        public UnityEngine.GameObject arrowPrefab; // 0x38
+        public UnityEngine.Transform arrowNockTransform; // 0x40
+        public float nockDistance; // 0x48
+        public float lerpCompleteDistance; // 0x4C
+        public float rotationLerpThreshold; // 0x50
+        public float positionLerpThreshold; // 0x54
+        public bool allowArrowSpawn; // 0x58
+        public bool nocked; // 0x59
+        public 0x6656BBD0 nockedWithType; // 0x5C
+        public bool inNockRange; // 0x60
+        public bool arrowLerpComplete; // 0x61
+        public Valve.VR.InteractionSystem.SoundPlayOneshot arrowSpawnSound; // 0x68
+        public Valve.VR.InteractionSystem.AllowTeleportWhileAttachedToHand allowTeleport; // 0x70
+        public int maxArrowCount; // 0x78
+        public System.Collections.Generic.List`1<UnityEngine.GameObject> arrowList; // 0x80
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54121E50
         public void OnAttachedToHand(){} // RVA: 0x7FFD54121FB0
@@ -62,6 +117,22 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Balloon : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.Hand hand; // 0x20
+        public UnityEngine.GameObject popPrefab; // 0x28
+        public float maxVelocity; // 0x30
+        public float lifetime; // 0x34
+        public bool burstOnLifetimeEnd; // 0x38
+        public UnityEngine.GameObject lifetimeEndParticlePrefab; // 0x40
+        public Valve.VR.InteractionSystem.SoundPlayOneshot lifetimeEndSound; // 0x48
+        public float destructTime; // 0x50
+        public float releaseTime; // 0x54
+        public Valve.VR.InteractionSystem.SoundPlayOneshot collisionSound; // 0x58
+        public float lastSoundTime; // 0x60
+        public float soundDelay; // 0x64
+        public UnityEngine.Rigidbody balloonRigidbody; // 0x68
+        public bool bParticlesSpawned; // 0x70
+        public float s_flLastDeathSound;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54124480
         public void Update(){} // RVA: 0x7FFD54124640
@@ -76,6 +147,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class BalloonColliders : MonoBehaviour
     {
+        public UnityEngine.GameObject[] colliders; // 0x20
+        public UnityEngine.Vector3[] colliderLocalPositions; // 0x28
+        public UnityEngine.Quaternion[] colliderLocalRotations; // 0x30
+        public UnityEngine.Rigidbody rb; // 0x38
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD541257E0
         public void OnEnable(){} // RVA: 0x7FFD54125D90
@@ -86,6 +162,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class BalloonHapticBump : MonoBehaviour
     {
+        public UnityEngine.GameObject physParent; // 0x20
+
         // ── Methods ──
         public void OnCollisionEnter(){} // RVA: 0x7FFD541266D0
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -93,6 +171,22 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class BalloonSpawner : MonoBehaviour
     {
+        public float minSpawnTime; // 0x20
+        public float maxSpawnTime; // 0x24
+        public float nextSpawnTime; // 0x28
+        public UnityEngine.GameObject balloonPrefab; // 0x30
+        public bool autoSpawn; // 0x38
+        public bool spawnAtStartup; // 0x39
+        public bool playSounds; // 0x3A
+        public Valve.VR.InteractionSystem.SoundPlayOneshot inflateSound; // 0x40
+        public Valve.VR.InteractionSystem.SoundPlayOneshot stretchSound; // 0x48
+        public bool sendSpawnMessageToParent; // 0x50
+        public float scale; // 0x54
+        public UnityEngine.Transform spawnDirectionTransform; // 0x58
+        public float spawnForce; // 0x60
+        public bool attachBalloon; // 0x64
+        public 0x6656D2D8 color; // 0x68
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54126910
         public void Update(){} // RVA: 0x7FFD54126A30
@@ -103,6 +197,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class BodyCollider : MonoBehaviour
     {
+        public UnityEngine.Transform head; // 0x20
+        public UnityEngine.CapsuleCollider capsuleCollider; // 0x28
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540DB090
         public void FixedUpdate(){} // RVA: 0x7FFD540DB120
@@ -111,11 +208,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ChaperoneInfo : MonoBehaviour
     {
-        public object initialized;
-        public object playAreaSizeX;
-        public object playAreaSizeZ;
-        public object roomscale;
-        public object instance;
+        public bool initialized; // 0x20
+        public float playAreaSizeX; // 0x24
+        public float playAreaSizeZ; // 0x28
+        public bool roomscale; // 0x2C
+        public 0x6656A6D8 instance;
+        public Valve.VR.InteractionSystem.ChaperoneInfo _instance; // 0x8
 
         // ── Methods ──
         public void get_initialized(){} // RVA: 0x7FFD4E42F9D0
@@ -135,6 +233,47 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class CircularDrive : MonoBehaviour
     {
+        public 0x6656B4F0 axisOfRotation; // 0x20
+        public UnityEngine.Collider childCollider; // 0x28
+        public Valve.VR.InteractionSystem.LinearMapping linearMapping; // 0x30
+        public bool hoverLock; // 0x38
+        public bool limited; // 0x39
+        public UnityEngine.Vector2 frozenDistanceMinMaxThreshold; // 0x3C
+        public UnityEngine.Events.UnityEvent onFrozenDistanceThreshold; // 0x48
+        public float minAngle; // 0x50
+        public bool freezeOnMin; // 0x54
+        public UnityEngine.Events.UnityEvent onMinAngle; // 0x58
+        public float maxAngle; // 0x60
+        public bool freezeOnMax; // 0x64
+        public UnityEngine.Events.UnityEvent onMaxAngle; // 0x68
+        public bool forceStart; // 0x70
+        public float startAngle; // 0x74
+        public bool rotateGameObject; // 0x78
+        public bool debugPath; // 0x79
+        public int dbgPathLimit; // 0x7C
+        public UnityEngine.TextMesh debugText; // 0x80
+        public float outAngle; // 0x88
+        public UnityEngine.Quaternion start; // 0x8C
+        public UnityEngine.Vector3 worldPlaneNormal; // 0x9C
+        public UnityEngine.Vector3 localPlaneNormal; // 0xA8
+        public UnityEngine.Vector3 lastHandProjected; // 0xB4
+        public UnityEngine.Color red; // 0xC0
+        public UnityEngine.Color green; // 0xD0
+        public UnityEngine.GameObject[] dbgHandObjects; // 0xE0
+        public UnityEngine.GameObject[] dbgProjObjects; // 0xE8
+        public UnityEngine.GameObject dbgObjectsParent; // 0xF0
+        public int dbgObjectCount; // 0xF8
+        public int dbgObjectIndex; // 0xFC
+        public bool driving; // 0x100
+        public float minMaxAngularThreshold; // 0x104
+        public bool frozen; // 0x108
+        public float frozenAngle; // 0x10C
+        public UnityEngine.Vector3 frozenHandWorldPos; // 0x110
+        public UnityEngine.Vector2 frozenSqDistanceMinMaxThreshold; // 0x11C
+        public Valve.VR.InteractionSystem.Hand handHoverLocked; // 0x128
+        public Valve.VR.InteractionSystem.Interactable interactable; // 0x130
+        public 0x6656BBD0 grabbedWithType; // 0x138
+
         // ── Methods ──
         public void Freeze(){} // RVA: 0x7FFD540DB450
         public void UnFreeze(){} // RVA: 0x7FFD540DB520
@@ -157,6 +296,15 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ComplexThrowable : MonoBehaviour
     {
+        public float attachForce; // 0x20
+        public float attachForceDamper; // 0x24
+        public 0x6656B5F8 attachMode; // 0x28
+        public 0x6656BC28 attachmentFlags; // 0x2C
+        public System.Collections.Generic.List`1<Valve.VR.InteractionSystem.Hand> holdingHands; // 0x30
+        public System.Collections.Generic.List`1<UnityEngine.Rigidbody> holdingBodies; // 0x38
+        public System.Collections.Generic.List`1<UnityEngine.Vector3> holdingPoints; // 0x40
+        public System.Collections.Generic.List`1<UnityEngine.Rigidbody> rigidBodies; // 0x48
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540DEAD0
         public void Update(){} // RVA: 0x7FFD540DEB50
@@ -171,8 +319,27 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ControllerButtonHints : MonoBehaviour
     {
-        public object usingMaterial;
-        public object initialized;
+        public UnityEngine.Material usingMaterial; // 0x20
+        public UnityEngine.Material initialized; // 0x28
+        public UnityEngine.Color flashColor; // 0x30
+        public UnityEngine.GameObject textHintPrefab; // 0x40
+        public Valve.VR.SteamVR_Action_Vibration hapticFlash; // 0x48
+        public bool autoSetWithControllerRangeOfMotion; // 0x50
+        public bool debugHints; // 0x51
+        public Valve.VR.SteamVR_RenderModel renderModel; // 0x58
+        public Valve.VR.InteractionSystem.Player player; // 0x60
+        public System.Collections.Generic.List`1<UnityEngine.MeshRenderer> renderers; // 0x68
+        public System.Collections.Generic.List`1<UnityEngine.MeshRenderer> flashingRenderers; // 0x70
+        public float startTime; // 0x78
+        public float tickCount; // 0x7C
+        public System.Collections.Generic.Dictionary`2<Valve.VR.ISteamVR_Action_In_Source,0x6656CF10> actionHintInfos; // 0x80
+        public UnityEngine.Transform textHintParent; // 0x88
+        public int colorID; // 0x90
+        public bool <initialized>k__BackingField; // 0x94
+        public UnityEngine.Vector3 centerPosition; // 0x98
+        public Action renderModelLoadedAction; // 0xA8
+        public 0x66569C88 inputSource; // 0xB0
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.Transform> componentTransformMap; // 0xB8
 
         // ── Methods ──
         public void get_usingMaterial(){} // RVA: 0x7FFD4E36F0C0
@@ -212,6 +379,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ControllerHoverHighlight : MonoBehaviour
     {
+        public UnityEngine.Material highLightMaterial; // 0x20
+        public bool fireHapticsOnHightlight; // 0x28
+        public Valve.VR.InteractionSystem.Hand hand; // 0x30
+        public Valve.VR.InteractionSystem.RenderModel renderModel; // 0x38
+        public Action renderModelLoadedAction; // 0x40
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540E04C0
         public void OnHandInitialized(){} // RVA: 0x7FFD540E0550
@@ -231,7 +404,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class DebugUI : MonoBehaviour
     {
-        public object instance;
+        public Valve.VR.InteractionSystem.Player instance; // 0x20
+        public Valve.VR.InteractionSystem.DebugUI _instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD540E16C0
@@ -249,6 +423,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class DestroyOnParticleSystemDeath : MonoBehaviour
     {
+        public UnityEngine.ParticleSystem particles; // 0x20
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540E1A10
         public void CheckParticleSystem(){} // RVA: 0x7FFD540E1AD0
@@ -257,6 +433,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class DestroyOnTriggerEnter : MonoBehaviour
     {
+        public string tagFilter; // 0x20
+        public bool useTag; // 0x28
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD540E1BD0
         public void OnTriggerEnter(){} // RVA: 0x7FFD540E1BF0
@@ -265,6 +444,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class DistanceHaptics : MonoBehaviour
     {
+        public UnityEngine.Transform firstTransform; // 0x20
+        public UnityEngine.Transform secondTransform; // 0x28
+        public UnityEngine.AnimationCurve distanceIntensityCurve; // 0x30
+        public UnityEngine.AnimationCurve pulseIntervalCurve; // 0x38
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD540E1E90
         public void .ctor(){} // RVA: 0x7FFD540E1F30
@@ -285,7 +469,10 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Equippable : MonoBehaviour
     {
-        public object attachedHandType;
+        public UnityEngine.Transform[] attachedHandType; // 0x20
+        public 0x6656BAC8 defaultHand; // 0x28
+        public UnityEngine.Vector3 initialScale; // 0x2C
+        public Valve.VR.InteractionSystem.Interactable interactable; // 0x38
 
         // ── Methods ──
         public void get_attachedHandType(){} // RVA: 0x7FFD540E24F0
@@ -303,6 +490,13 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class FallbackCameraController : MonoBehaviour
     {
+        public float speed; // 0x20
+        public float shiftSpeed; // 0x24
+        public bool showInstructions; // 0x28
+        public UnityEngine.Vector3 startEulerAngles; // 0x2C
+        public UnityEngine.Vector3 startMousePosition; // 0x38
+        public float realTime; // 0x44
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD540E2B60
         public void Update(){} // RVA: 0x7FFD540E2BC0
@@ -312,6 +506,18 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class FireSource : MonoBehaviour
     {
+        public UnityEngine.GameObject fireParticlePrefab; // 0x20
+        public bool startActive; // 0x28
+        public UnityEngine.GameObject fireObject; // 0x30
+        public UnityEngine.ParticleSystem customParticles; // 0x38
+        public bool isBurning; // 0x40
+        public float burnTime; // 0x44
+        public float ignitionDelay; // 0x48
+        public float ignitionTime; // 0x4C
+        public Valve.VR.InteractionSystem.Hand hand; // 0x50
+        public UnityEngine.AudioSource ignitionSound; // 0x58
+        public bool canSpreadFromThisSource; // 0x60
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD541276E0
         public void Update(){} // RVA: 0x7FFD541276F0
@@ -323,15 +529,51 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Hand : MonoBehaviour
     {
-        public object AttachedObjects;
-        public object hoverLocked;
-        public object isActive;
-        public object isPoseValid;
-        public object hoveringInteractable;
-        public object currentAttachedObject;
-        public object currentAttachedObjectInfo;
-        public object currentAttachedTeleportManager;
-        public object skeleton;
+        public 0x6656BC28 AttachedObjects;
+        public Valve.VR.InteractionSystem.Hand hoverLocked; // 0x20
+        public 0x66569C88 isActive; // 0x28
+        public Valve.VR.SteamVR_Behaviour_Pose isPoseValid; // 0x30
+        public Valve.VR.SteamVR_Action_Boolean hoveringInteractable; // 0x38
+        public Valve.VR.SteamVR_Action_Boolean currentAttachedObject; // 0x40
+        public Valve.VR.SteamVR_Action_Vibration currentAttachedObjectInfo; // 0x48
+        public Valve.VR.SteamVR_Action_Boolean currentAttachedTeleportManager; // 0x50
+        public bool skeleton; // 0x58
+        public UnityEngine.Transform hoverSphereTransform; // 0x60
+        public float hoverSphereRadius; // 0x68
+        public UnityEngine.LayerMask hoverLayerMask; // 0x6C
+        public float hoverUpdateInterval; // 0x70
+        public bool useControllerHoverComponent; // 0x74
+        public string controllerHoverComponent; // 0x78
+        public float controllerHoverRadius; // 0x80
+        public bool useFingerJointHover; // 0x84
+        public 0x66567AD8 fingerJointHover; // 0x88
+        public float fingerJointHoverRadius; // 0x8C
+        public UnityEngine.Transform objectAttachmentPoint; // 0x90
+        public UnityEngine.Camera noSteamVRFallbackCamera; // 0x98
+        public float noSteamVRFallbackMaxDistanceNoItem; // 0xA0
+        public float noSteamVRFallbackMaxDistanceWithItem; // 0xA4
+        public float noSteamVRFallbackInteractorDistance; // 0xA8
+        public UnityEngine.GameObject renderModelPrefab; // 0xB0
+        public System.Collections.Generic.List`1<Valve.VR.InteractionSystem.RenderModel> renderModels; // 0xB8
+        public Valve.VR.InteractionSystem.RenderModel mainRenderModel; // 0xC0
+        public Valve.VR.InteractionSystem.RenderModel hoverhighlightRenderModel; // 0xC8
+        public bool showDebugText; // 0xD0
+        public bool spewDebugText; // 0xD1
+        public bool showDebugInteractables; // 0xD2
+        public System.Collections.Generic.List`1<0x6656BC80> attachedObjects; // 0xD8
+        public bool <hoverLocked>k__BackingField; // 0xE0
+        public Valve.VR.InteractionSystem.Interactable _hoveringInteractable; // 0xE8
+        public UnityEngine.TextMesh debugText; // 0xF0
+        public int prevOverlappingColliders; // 0xF8
+        public int ColliderArraySize;
+        public UnityEngine.Collider[] overlappingColliders; // 0x100
+        public Valve.VR.InteractionSystem.Player playerInstance; // 0x108
+        public UnityEngine.GameObject applicationLostFocusObject; // 0x110
+        public Action inputFocusAction; // 0x118
+        public float MaxVelocityChange;
+        public float VelocityMagic;
+        public float AngularVelocityMagic;
+        public float MaxAngularVelocityChange;
 
         // ── Methods ──
         public void get_AttachedObjects(){} // RVA: 0x7FFD540E3670
@@ -408,6 +650,27 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class HandCollider : MonoBehaviour
     {
+        public UnityEngine.Rigidbody rigidbody; // 0x20
+        public Valve.VR.InteractionSystem.HandPhysics hand; // 0x28
+        public UnityEngine.LayerMask collisionMask; // 0x30
+        public UnityEngine.Collider[] colliders; // 0x38
+        public 0x6656BE90 fingerColliders; // 0x40
+        public UnityEngine.PhysicMaterial physicMaterial_lowfriction;
+        public UnityEngine.PhysicMaterial physicMaterial_highfriction; // 0x8
+        public float scale; // 0x48
+        public UnityEngine.Vector3 center; // 0x4C
+        public UnityEngine.Vector3 targetPosition; // 0x58
+        public UnityEngine.Quaternion targetRotation; // 0x64
+        public float MaxVelocityChange;
+        public float VelocityMagic;
+        public float AngularVelocityMagic;
+        public float MaxAngularVelocityChange;
+        public bool collidersInRadius; // 0x74
+        public float minCollisionEnergy;
+        public float maxCollisionEnergy;
+        public float minCollisionHapticsTime;
+        public float lastCollisionHapticsTime; // 0x78
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540F55E0
         public void Start(){} // RVA: 0x7FFD540F56C0
@@ -425,6 +688,29 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class HandPhysics : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.HandCollider handColliderPrefab; // 0x20
+        public Valve.VR.InteractionSystem.HandCollider handCollider; // 0x28
+        public UnityEngine.LayerMask clearanceCheckMask; // 0x30
+        public Valve.VR.InteractionSystem.Hand hand; // 0x38
+        public float handResetDistance;
+        public float collisionReenableClearanceRadius;
+        public bool initialized; // 0x40
+        public bool collisionsEnabled; // 0x41
+        public UnityEngine.Matrix4x4 wristToRoot; // 0x44
+        public UnityEngine.Matrix4x4 rootToArmature; // 0x84
+        public UnityEngine.Matrix4x4 wristToArmature; // 0xC4
+        public UnityEngine.Vector3 targetPosition; // 0x104
+        public UnityEngine.Quaternion targetRotation; // 0x110
+        public int wristBone;
+        public int rootBone;
+        public UnityEngine.Collider[] clearanceBuffer; // 0x120
+        public UnityEngine.Transform wrist; // 0x128
+        public int thumbBone;
+        public int indexBone;
+        public int middleBone;
+        public int ringBone;
+        public int pinkyBone;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD540F74E0
         public void FixedUpdate(){} // RVA: 0x7FFD540F7BB0
@@ -439,6 +725,14 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class HapticRack : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.LinearMapping linearMapping; // 0x20
+        public int teethCount; // 0x28
+        public int minimumPulseDuration; // 0x2C
+        public int maximumPulseDuration; // 0x30
+        public UnityEngine.Events.UnityEvent onPulse; // 0x38
+        public Valve.VR.InteractionSystem.Hand hand; // 0x40
+        public int previousToothIndex; // 0x48
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540FA0A0
         public void OnHandHoverBegin(){} // RVA: 0x7FFD4E369200
@@ -457,6 +751,22 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class HoverButton : MonoBehaviour
     {
+        public UnityEngine.Transform movingPart; // 0x20
+        public UnityEngine.Vector3 localMoveDistance; // 0x28
+        public float engageAtPercent; // 0x34
+        public float disengageAtPercent; // 0x38
+        public 0x6656BE38 onButtonDown; // 0x40
+        public 0x6656BE38 onButtonUp; // 0x48
+        public 0x6656BE38 onButtonIsPressed; // 0x50
+        public bool engaged; // 0x58
+        public bool buttonDown; // 0x59
+        public bool buttonUp; // 0x5A
+        public UnityEngine.Vector3 startPosition; // 0x5C
+        public UnityEngine.Vector3 endPosition; // 0x68
+        public UnityEngine.Vector3 handEnteredPosition; // 0x74
+        public bool hovering; // 0x80
+        public Valve.VR.InteractionSystem.Hand lastHoveredHand; // 0x88
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD540FA500
         public void HandHoverUpdate(){} // RVA: 0x7FFD540FA7D0
@@ -467,6 +777,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class IgnoreHovering : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.Hand onlyIgnoreHand; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
@@ -479,7 +791,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class InputModule : BaseInputModule
     {
-        public object instance;
+        public UnityEngine.GameObject instance; // 0x58
+        public Valve.VR.InteractionSystem.InputModule _instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD540FB150
@@ -493,10 +806,37 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Interactable : MonoBehaviour
     {
-        public object hoveringHand;
-        public object isDestroying;
-        public object isHovering;
-        public object wasHovering;
+        public Valve.VR.SteamVR_ActionSet hoveringHand; // 0x20
+        public bool isDestroying; // 0x28
+        public bool isHovering; // 0x29
+        public bool wasHovering; // 0x2A
+        public int handAnimationOnPickup; // 0x2C
+        public 0x66567A28 setRangeOfMotionOnPickup; // 0x30
+        public 0x6656C150 onAttachedToHand; // 0x38
+        public 0x6656C1A8 onDetachedFromHand; // 0x40
+        public bool useHandObjectAttachmentPoint; // 0x48
+        public bool attachEaseIn; // 0x49
+        public UnityEngine.AnimationCurve snapAttachEaseInCurve; // 0x50
+        public float snapAttachEaseInTime; // 0x58
+        public bool snapAttachEaseInCompleted; // 0x5C
+        public Valve.VR.SteamVR_Skeleton_Poser skeletonPoser; // 0x60
+        public bool handFollowTransform; // 0x68
+        public bool highlightOnHover; // 0x69
+        public UnityEngine.MeshRenderer[] highlightRenderers; // 0x70
+        public UnityEngine.MeshRenderer[] existingRenderers; // 0x78
+        public UnityEngine.GameObject highlightHolder; // 0x80
+        public UnityEngine.SkinnedMeshRenderer[] highlightSkinnedRenderers; // 0x88
+        public UnityEngine.SkinnedMeshRenderer[] existingSkinnedRenderers; // 0x90
+        public UnityEngine.Material highlightMat;
+        public UnityEngine.GameObject[] hideHighlight; // 0x98
+        public int hoverPriority; // 0xA0
+        public Valve.VR.InteractionSystem.Hand attachedToHand; // 0xA8
+        public System.Collections.Generic.List`1<Valve.VR.InteractionSystem.Hand> hoveringHands; // 0xB0
+        public bool <isDestroying>k__BackingField; // 0xB8
+        public bool <isHovering>k__BackingField; // 0xB9
+        public bool <wasHovering>k__BackingField; // 0xBA
+        public float blendToPoseTime; // 0xBC
+        public float releasePoseBlendTime; // 0xC0
 
         // ── Methods ──
         public void add_onAttachedToHand(){} // RVA: 0x7FFD540FB7C0
@@ -528,7 +868,17 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class InteractableDebug : MonoBehaviour
     {
-        public object isThrowable;
+        public Valve.VR.InteractionSystem.Hand isThrowable; // 0x20
+        public float simulateReleasesForXSecondsAroundRelease; // 0x28
+        public float simulateReleasesEveryXSeconds; // 0x2C
+        public bool setPositionsForSimulations; // 0x30
+        public UnityEngine.Renderer[] selfRenderers; // 0x38
+        public UnityEngine.Collider[] colliders; // 0x40
+        public UnityEngine.Color lastColor; // 0x48
+        public Valve.VR.InteractionSystem.Throwable throwable; // 0x58
+        public bool onlyColorOnChange;
+        public UnityEngine.Rigidbody rigidbody; // 0x60
+        public bool isSimulation; // 0x68
 
         // ── Methods ──
         public void get_isThrowable(){} // RVA: 0x7FFD540FEB00
@@ -548,6 +898,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class InteractableHoverEvents : MonoBehaviour
     {
+        public UnityEngine.Events.UnityEvent onHandHoverBegin; // 0x20
+        public UnityEngine.Events.UnityEvent onHandHoverEnd; // 0x28
+        public UnityEngine.Events.UnityEvent onAttachedToHand; // 0x30
+        public UnityEngine.Events.UnityEvent onDetachedFromHand; // 0x38
+
         // ── Methods ──
         public void OnHandHoverBegin(){} // RVA: 0x7FFD54100460
         public void OnHandHoverEnd(){} // RVA: 0x7FFD54100480
@@ -558,19 +913,42 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ItemPackage : MonoBehaviour
     {
+        public string name; // 0x20
+        public 0x6656C308 packageType; // 0x28
+        public UnityEngine.GameObject itemPrefab; // 0x30
+        public UnityEngine.GameObject otherHandItemPrefab; // 0x38
+        public UnityEngine.GameObject previewPrefab; // 0x40
+        public UnityEngine.GameObject fadedPreviewPrefab; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class ItemPackageReference : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.ItemPackage itemPackage; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class ItemPackageSpawner : MonoBehaviour
     {
-        public object itemPackage;
+        public Valve.VR.InteractionSystem.ItemPackage itemPackage; // 0x20
+        public bool useItemPackagePreview; // 0x28
+        public bool useFadedPreview; // 0x29
+        public UnityEngine.GameObject previewObject; // 0x30
+        public bool requireGrabActionToTake; // 0x38
+        public bool requireReleaseActionToReturn; // 0x39
+        public bool showTriggerHint; // 0x3A
+        public 0x6656BC28 attachmentFlags; // 0x3C
+        public bool takeBackItem; // 0x40
+        public bool acceptDifferentItems; // 0x41
+        public UnityEngine.GameObject spawnedItem; // 0x48
+        public bool itemIsSpawned; // 0x50
+        public UnityEngine.Events.UnityEvent pickupEvent; // 0x58
+        public UnityEngine.Events.UnityEvent dropEvent; // 0x60
+        public bool justPickedUpItem; // 0x68
 
         // ── Methods ──
         public void get_itemPackage(){} // RVA: 0x7FFD4E36F0C0
@@ -594,6 +972,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearAnimation : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.LinearMapping linearMapping; // 0x20
+        public UnityEngine.Animation animation; // 0x28
+        public UnityEngine.AnimationState animState; // 0x30
+        public float animLength; // 0x38
+        public float lastValue; // 0x3C
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD541025C0
         public void Update(){} // RVA: 0x7FFD54102A70
@@ -602,6 +986,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearAnimator : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.LinearMapping linearMapping; // 0x20
+        public UnityEngine.Animator animator; // 0x28
+        public float currentLinearMapping; // 0x30
+        public int framesUnchanged; // 0x34
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54102AD0
         public void Update(){} // RVA: 0x7FFD54102D80
@@ -610,6 +999,13 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearAudioPitch : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.LinearMapping linearMapping; // 0x20
+        public UnityEngine.AnimationCurve pitchCurve; // 0x28
+        public float minPitch; // 0x30
+        public float maxPitch; // 0x34
+        public bool applyContinuously; // 0x38
+        public UnityEngine.AudioSource audioSource; // 0x40
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54102EB0
         public void Update(){} // RVA: 0x7FFD54103100
@@ -619,6 +1015,10 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearBlendshape : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.LinearMapping linearMapping; // 0x20
+        public UnityEngine.SkinnedMeshRenderer skinnedMesh; // 0x28
+        public float lastValue; // 0x30
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54103330
         public void Update(){} // RVA: 0x7FFD54103580
@@ -627,6 +1027,10 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearDisplacement : MonoBehaviour
     {
+        public UnityEngine.Vector3 displacement; // 0x20
+        public Valve.VR.InteractionSystem.LinearMapping linearMapping; // 0x30
+        public UnityEngine.Vector3 initialPosition; // 0x38
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54103660
         public void Update(){} // RVA: 0x7FFD54103850
@@ -635,6 +1039,21 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearDrive : MonoBehaviour
     {
+        public UnityEngine.Transform startPosition; // 0x20
+        public UnityEngine.Transform endPosition; // 0x28
+        public Valve.VR.InteractionSystem.LinearMapping linearMapping; // 0x30
+        public bool repositionGameObject; // 0x38
+        public bool maintainMomemntum; // 0x39
+        public float momemtumDampenRate; // 0x3C
+        public 0x6656BC28 attachmentFlags; // 0x40
+        public float initialMappingOffset; // 0x44
+        public int numMappingChangeSamples; // 0x48
+        public float[] mappingChangeSamples; // 0x50
+        public float prevMapping; // 0x58
+        public float mappingChangeRate; // 0x5C
+        public int sampleCount; // 0x60
+        public Valve.VR.InteractionSystem.Interactable interactable; // 0x68
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54103A30
         public void Start(){} // RVA: 0x7FFD54103B50
@@ -650,12 +1069,60 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearMapping : MonoBehaviour
     {
+        public float value; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class Longbow : MonoBehaviour
     {
+        public 0x6656D540 currentHandGuess; // 0x20
+        public float timeOfPossibleHandSwitch; // 0x24
+        public float timeBeforeConfirmingHandSwitch; // 0x28
+        public bool possibleHandSwitch; // 0x2C
+        public UnityEngine.Transform pivotTransform; // 0x30
+        public UnityEngine.Transform handleTransform; // 0x38
+        public Valve.VR.InteractionSystem.Hand hand; // 0x40
+        public Valve.VR.InteractionSystem.ArrowHand arrowHand; // 0x48
+        public UnityEngine.Transform nockTransform; // 0x50
+        public UnityEngine.Transform nockRestTransform; // 0x58
+        public bool autoSpawnArrowHand; // 0x60
+        public Valve.VR.InteractionSystem.ItemPackage arrowHandItemPackage; // 0x68
+        public UnityEngine.GameObject arrowHandPrefab; // 0x70
+        public bool nocked; // 0x78
+        public bool pulled; // 0x79
+        public float minPull;
+        public float maxPull;
+        public float nockDistanceTravelled; // 0x7C
+        public float hapticDistanceThreshold; // 0x80
+        public float lastTickDistance; // 0x84
+        public float bowPullPulseStrengthLow;
+        public float bowPullPulseStrengthHigh;
+        public UnityEngine.Vector3 bowLeftVector; // 0x88
+        public float arrowMinVelocity; // 0x94
+        public float arrowMaxVelocity; // 0x98
+        public float arrowVelocity; // 0x9C
+        public float minStrainTickTime; // 0xA0
+        public float maxStrainTickTime; // 0xA4
+        public float nextStrainTick; // 0xA8
+        public bool lerpBackToZeroRotation; // 0xAC
+        public float lerpStartTime; // 0xB0
+        public float lerpDuration; // 0xB4
+        public UnityEngine.Quaternion lerpStartRotation; // 0xB8
+        public float nockLerpStartTime; // 0xC8
+        public UnityEngine.Quaternion nockLerpStartRotation; // 0xCC
+        public float drawOffset; // 0xDC
+        public Valve.VR.InteractionSystem.LinearMapping bowDrawLinearMapping; // 0xE0
+        public UnityEngine.Vector3 lateUpdatePos; // 0xE8
+        public UnityEngine.Quaternion lateUpdateRot; // 0xF4
+        public Valve.VR.InteractionSystem.SoundBowClick drawSound; // 0x108
+        public float drawTension; // 0x110
+        public Valve.VR.InteractionSystem.SoundPlayOneshot arrowSlideSound; // 0x118
+        public Valve.VR.InteractionSystem.SoundPlayOneshot releaseSound; // 0x120
+        public Valve.VR.InteractionSystem.SoundPlayOneshot nockSound; // 0x128
+        public Action newPosesAppliedAction; // 0x130
+
         // ── Methods ──
         public void OnAttachedToHand(){} // RVA: 0x7FFD4E369200
         public void HandAttachedUpdate(){} // RVA: 0x7FFD54128120
@@ -678,6 +1145,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ModalThrowable : Throwable
     {
+        public UnityEngine.Transform gripOffset; // 0xC0
+        public UnityEngine.Transform pinchOffset; // 0xC8
+
         // ── Methods ──
         public void HandHoverUpdate(){} // RVA: 0x7FFD54104BA0
         public void HandAttachedUpdate(){} // RVA: 0x7FFD54104C90
@@ -686,6 +1156,28 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class PlaySound : MonoBehaviour
     {
+        public UnityEngine.AudioClip[] waveFile; // 0x20
+        public bool stopOnPlay; // 0x28
+        public bool disableOnEnd; // 0x29
+        public bool looping; // 0x2A
+        public bool stopOnEnd; // 0x2B
+        public bool playOnAwakeWithDelay; // 0x2C
+        public bool useRandomVolume; // 0x2D
+        public float volMin; // 0x30
+        public float volMax; // 0x34
+        public bool useRandomPitch; // 0x38
+        public float pitchMin; // 0x3C
+        public float pitchMax; // 0x40
+        public bool useRetriggerTime; // 0x44
+        public float timeInitial; // 0x48
+        public float timeMin; // 0x4C
+        public float timeMax; // 0x50
+        public bool useRandomSilence; // 0x54
+        public float percentToNotPlay; // 0x58
+        public float delayOffsetTime; // 0x5C
+        public UnityEngine.AudioSource audioSource; // 0x60
+        public UnityEngine.AudioClip clip; // 0x68
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54107D00
         public void Play(){} // RVA: 0x7FFD54107FE0
@@ -700,15 +1192,16 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Player : MonoBehaviour
     {
-        public object instance;
-        public object handCount;
-        public object leftHand;
-        public object rightHand;
-        public object scale;
-        public object hmdTransform;
-        public object eyeHeight;
-        public object feetPositionGuess;
-        public object bodyDirectionGuess;
+        public UnityEngine.Transform instance; // 0x20
+        public UnityEngine.Transform[] handCount; // 0x28
+        public Valve.VR.InteractionSystem.Hand[] leftHand; // 0x30
+        public UnityEngine.Collider rightHand; // 0x38
+        public UnityEngine.GameObject scale; // 0x40
+        public UnityEngine.GameObject hmdTransform; // 0x48
+        public UnityEngine.Transform eyeHeight; // 0x50
+        public Valve.VR.SteamVR_Action_Boolean feetPositionGuess; // 0x58
+        public bool bodyDirectionGuess; // 0x60
+        public Valve.VR.InteractionSystem.Player _instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54105020
@@ -733,7 +1226,23 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class RenderModel : MonoBehaviour
     {
-        public object GetSkeletonRangeOfMotion;
+        public UnityEngine.GameObject GetSkeletonRangeOfMotion; // 0x20
+        public UnityEngine.GameObject handInstance; // 0x28
+        public UnityEngine.Renderer[] handRenderers; // 0x30
+        public bool displayHandByDefault; // 0x38
+        public Valve.VR.SteamVR_Behaviour_Skeleton handSkeleton; // 0x40
+        public UnityEngine.Animator handAnimator; // 0x48
+        public string animatorParameterStateName; // 0x50
+        public int handAnimatorStateId; // 0x58
+        public UnityEngine.GameObject controllerPrefab; // 0x60
+        public UnityEngine.GameObject controllerInstance; // 0x68
+        public UnityEngine.Renderer[] controllerRenderers; // 0x70
+        public Valve.VR.SteamVR_RenderModel controllerRenderModel; // 0x78
+        public bool displayControllerByDefault; // 0x80
+        public UnityEngine.Material delayedSetMaterial; // 0x88
+        public System.Action onControllerLoaded; // 0x90
+        public Action renderModelLoadedAction; // 0x98
+        public 0x66569C88 inputSource; // 0xA0
 
         // ── Methods ──
         public void add_onControllerLoaded(){} // RVA: 0x7FFD54108910
@@ -781,6 +1290,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SeeThru : MonoBehaviour
     {
+        public UnityEngine.Material seeThruMaterial; // 0x20
+        public UnityEngine.GameObject seeThru; // 0x28
+        public Valve.VR.InteractionSystem.Interactable interactable; // 0x30
+        public UnityEngine.Renderer sourceRenderer; // 0x38
+        public UnityEngine.Renderer destRenderer; // 0x40
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5410C950
         public void OnEnable(){} // RVA: 0x7FFD5410DB50
@@ -800,6 +1315,24 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SnapTurn : MonoBehaviour
     {
+        public float snapAngle; // 0x20
+        public bool showTurnAnimation; // 0x24
+        public UnityEngine.AudioSource snapTurnSource; // 0x28
+        public UnityEngine.AudioClip rotateSound; // 0x30
+        public UnityEngine.GameObject rotateRightFX; // 0x38
+        public UnityEngine.GameObject rotateLeftFX; // 0x40
+        public Valve.VR.SteamVR_Action_Boolean snapLeftAction; // 0x48
+        public Valve.VR.SteamVR_Action_Boolean snapRightAction; // 0x50
+        public bool fadeScreen; // 0x58
+        public float fadeTime; // 0x5C
+        public UnityEngine.Color screenFadeColor; // 0x60
+        public float distanceFromFace; // 0x70
+        public UnityEngine.Vector3 additionalOffset; // 0x74
+        public float teleportLastActiveTime;
+        public bool canRotate; // 0x80
+        public float canTurnEverySeconds; // 0x84
+        public UnityEngine.Coroutine rotateCoroutine; // 0x88
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5412A450
         public void AllOff(){} // RVA: 0x7FFD5412A460
@@ -813,6 +1346,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SoundBowClick : MonoBehaviour
     {
+        public UnityEngine.AudioClip bowClick; // 0x20
+        public UnityEngine.AnimationCurve pitchTensionCurve; // 0x28
+        public float minPitch; // 0x30
+        public float maxPitch; // 0x34
+        public UnityEngine.AudioSource thisAudioSource; // 0x38
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5412A2C0
         public void PlayBowTensionClicks(){} // RVA: 0x7FFD5412A350
@@ -821,6 +1360,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SoundDeparent : MonoBehaviour
     {
+        public bool destroyAfterPlayOnce; // 0x20
+        public UnityEngine.AudioSource thisAudioSource; // 0x28
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5410E670
         public void Start(){} // RVA: 0x7FFD5410E700
@@ -829,6 +1371,14 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SoundPlayOneshot : MonoBehaviour
     {
+        public UnityEngine.AudioClip[] waveFiles; // 0x20
+        public UnityEngine.AudioSource thisAudioSource; // 0x28
+        public float volMin; // 0x30
+        public float volMax; // 0x34
+        public float pitchMin; // 0x38
+        public float pitchMax; // 0x3C
+        public bool playOnAwake; // 0x40
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5410E910
         public void Play(){} // RVA: 0x7FFD5410E9B0
@@ -839,6 +1389,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SpawnAndAttachAfterControllerIsTracking : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.Hand hand; // 0x20
+        public UnityEngine.GameObject itemPrefab; // 0x28
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5410EDF0
         public void Update(){} // RVA: 0x7FFD5410EE80
@@ -847,6 +1400,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SpawnAndAttachToHand : MonoBehaviour
     {
+        public Valve.VR.InteractionSystem.Hand hand; // 0x20
+        public UnityEngine.GameObject prefab; // 0x28
+
         // ── Methods ──
         public void SpawnAndAttach(){} // RVA: 0x7FFD5410F160
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -854,7 +1410,86 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Teleport : MonoBehaviour
     {
-        public object instance;
+        public Valve.VR.SteamVR_Action_Boolean instance; // 0x20
+        public UnityEngine.LayerMask traceLayerMask; // 0x28
+        public UnityEngine.LayerMask floorFixupTraceLayerMask; // 0x2C
+        public float floorFixupMaximumTraceDistance; // 0x30
+        public UnityEngine.Material areaVisibleMaterial; // 0x38
+        public UnityEngine.Material areaLockedMaterial; // 0x40
+        public UnityEngine.Material areaHighlightedMaterial; // 0x48
+        public UnityEngine.Material pointVisibleMaterial; // 0x50
+        public UnityEngine.Material pointLockedMaterial; // 0x58
+        public UnityEngine.Material pointHighlightedMaterial; // 0x60
+        public UnityEngine.Transform destinationReticleTransform; // 0x68
+        public UnityEngine.Transform invalidReticleTransform; // 0x70
+        public UnityEngine.GameObject playAreaPreviewCorner; // 0x78
+        public UnityEngine.GameObject playAreaPreviewSide; // 0x80
+        public UnityEngine.Color pointerValidColor; // 0x88
+        public UnityEngine.Color pointerInvalidColor; // 0x98
+        public UnityEngine.Color pointerLockedColor; // 0xA8
+        public bool showPlayAreaMarker; // 0xB8
+        public float teleportFadeTime; // 0xBC
+        public float meshFadeTime; // 0xC0
+        public float arcDistance; // 0xC4
+        public UnityEngine.Transform onActivateObjectTransform; // 0xC8
+        public UnityEngine.Transform onDeactivateObjectTransform; // 0xD0
+        public float activateObjectTime; // 0xD8
+        public float deactivateObjectTime; // 0xDC
+        public UnityEngine.AudioSource pointerAudioSource; // 0xE0
+        public UnityEngine.AudioSource loopingAudioSource; // 0xE8
+        public UnityEngine.AudioSource headAudioSource; // 0xF0
+        public UnityEngine.AudioSource reticleAudioSource; // 0xF8
+        public UnityEngine.AudioClip teleportSound; // 0x100
+        public UnityEngine.AudioClip pointerStartSound; // 0x108
+        public UnityEngine.AudioClip pointerLoopSound; // 0x110
+        public UnityEngine.AudioClip pointerStopSound; // 0x118
+        public UnityEngine.AudioClip goodHighlightSound; // 0x120
+        public UnityEngine.AudioClip badHighlightSound; // 0x128
+        public bool debugFloor; // 0x130
+        public bool showOffsetReticle; // 0x131
+        public UnityEngine.Transform offsetReticleTransform; // 0x138
+        public UnityEngine.MeshRenderer floorDebugSphere; // 0x140
+        public UnityEngine.LineRenderer floorDebugLine; // 0x148
+        public UnityEngine.LineRenderer pointerLineRenderer; // 0x150
+        public UnityEngine.GameObject teleportPointerObject; // 0x158
+        public UnityEngine.Transform pointerStartTransform; // 0x160
+        public Valve.VR.InteractionSystem.Hand pointerHand; // 0x168
+        public Valve.VR.InteractionSystem.Player player; // 0x170
+        public Valve.VR.InteractionSystem.TeleportArc teleportArc; // 0x178
+        public bool visible; // 0x180
+        public Valve.VR.InteractionSystem.TeleportMarkerBase[] teleportMarkers; // 0x188
+        public Valve.VR.InteractionSystem.TeleportMarkerBase pointedAtTeleportMarker; // 0x190
+        public Valve.VR.InteractionSystem.TeleportMarkerBase teleportingToMarker; // 0x198
+        public UnityEngine.Vector3 pointedAtPosition; // 0x1A0
+        public UnityEngine.Vector3 prevPointedAtPosition; // 0x1AC
+        public bool teleporting; // 0x1B8
+        public float currentFadeTime; // 0x1BC
+        public float meshAlphaPercent; // 0x1C0
+        public float pointerShowStartTime; // 0x1C4
+        public float pointerHideStartTime; // 0x1C8
+        public bool meshFading; // 0x1CC
+        public float fullTintAlpha; // 0x1D0
+        public float invalidReticleMinScale; // 0x1D4
+        public float invalidReticleMaxScale; // 0x1D8
+        public float invalidReticleMinScaleDistance; // 0x1DC
+        public float invalidReticleMaxScaleDistance; // 0x1E0
+        public UnityEngine.Vector3 invalidReticleScale; // 0x1E4
+        public UnityEngine.Quaternion invalidReticleTargetRotation; // 0x1F0
+        public UnityEngine.Transform playAreaPreviewTransform; // 0x200
+        public UnityEngine.Transform[] playAreaPreviewCorners; // 0x208
+        public UnityEngine.Transform[] playAreaPreviewSides; // 0x210
+        public float loopingAudioMaxVolume; // 0x218
+        public UnityEngine.Coroutine hintCoroutine; // 0x220
+        public bool originalHoverLockState; // 0x228
+        public Valve.VR.InteractionSystem.Interactable originalHoveringInteractable; // 0x230
+        public Valve.VR.InteractionSystem.AllowTeleportWhileAttachedToHand allowTeleportWhileAttached; // 0x238
+        public UnityEngine.Vector3 startingFeetOffset; // 0x240
+        public bool movedFeetFarEnough; // 0x24C
+        public Action chaperoneInfoInitializedAction; // 0x250
+        public Event`1<float> ChangeScene;
+        public Event`1<Valve.VR.InteractionSystem.TeleportMarkerBase> Player; // 0x8
+        public Event`1<Valve.VR.InteractionSystem.TeleportMarkerBase> PlayerPre; // 0x10
+        public Valve.VR.InteractionSystem.Teleport _instance; // 0x18
 
         // ── Methods ──
         public void ChangeSceneAction(){} // RVA: 0x7FFD5412CEF0
@@ -895,6 +1530,25 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportArc : MonoBehaviour
     {
+        public int segmentCount; // 0x20
+        public float thickness; // 0x24
+        public float arcDuration; // 0x28
+        public float segmentBreak; // 0x2C
+        public float arcSpeed; // 0x30
+        public UnityEngine.Material material; // 0x38
+        public int traceLayerMask; // 0x40
+        public UnityEngine.LineRenderer[] lineRenderers; // 0x48
+        public float arcTimeOffset; // 0x50
+        public float prevThickness; // 0x54
+        public int prevSegmentCount; // 0x58
+        public bool showArc; // 0x5C
+        public UnityEngine.Vector3 startPos; // 0x60
+        public UnityEngine.Vector3 projectileVelocity; // 0x6C
+        public bool useGravity; // 0x78
+        public UnityEngine.Transform arcObjectsTransfrom; // 0x80
+        public bool arcInvalid; // 0x88
+        public float scale; // 0x8C
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54137510
         public void Update(){} // RVA: 0x7FFD54137570
@@ -913,7 +1567,13 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportArea : TeleportMarkerBase
     {
-        public object meshBounds;
+        public UnityEngine.Bounds meshBounds; // 0x28
+        public UnityEngine.MeshRenderer areaMesh; // 0x40
+        public int tintColorId; // 0x48
+        public UnityEngine.Color visibleTintColor; // 0x4C
+        public UnityEngine.Color highlightedTintColor; // 0x5C
+        public UnityEngine.Color lockedTintColor; // 0x6C
+        public bool highlighted; // 0x7C
 
         // ── Methods ──
         public void get_meshBounds(){} // RVA: 0x7FFD4FF91360
@@ -933,7 +1593,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportMarkerBase : MonoBehaviour
     {
-        public object showReticle;
+        public bool showReticle; // 0x20
+        public bool markerActive; // 0x21
 
         // ── Methods ──
         public void get_showReticle(){} // RVA: 0x7FFD4E426850
@@ -949,7 +1610,31 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportPoint : TeleportMarkerBase
     {
-        public object showReticle;
+        public 0x6656DA68 showReticle; // 0x28
+        public string title; // 0x30
+        public string switchToScene; // 0x38
+        public UnityEngine.Color titleVisibleColor; // 0x40
+        public UnityEngine.Color titleHighlightedColor; // 0x50
+        public UnityEngine.Color titleLockedColor; // 0x60
+        public bool playerSpawnPoint; // 0x70
+        public bool gotReleventComponents; // 0x71
+        public UnityEngine.MeshRenderer markerMesh; // 0x78
+        public UnityEngine.MeshRenderer switchSceneIcon; // 0x80
+        public UnityEngine.MeshRenderer moveLocationIcon; // 0x88
+        public UnityEngine.MeshRenderer lockedIcon; // 0x90
+        public UnityEngine.MeshRenderer pointIcon; // 0x98
+        public UnityEngine.Transform lookAtJointTransform; // 0xA0
+        public UnityEngine.Animation animation; // 0xA8
+        public UnityEngine.UI.Text titleText; // 0xB0
+        public Valve.VR.InteractionSystem.Player player; // 0xB8
+        public UnityEngine.Vector3 lookAtPosition; // 0xC0
+        public int tintColorID; // 0xCC
+        public UnityEngine.Color tintColor; // 0xD0
+        public UnityEngine.Color titleColor; // 0xE0
+        public float fullTitleAlpha; // 0xF0
+        public string switchSceneAnimation;
+        public string moveLocationAnimation;
+        public string lockedAnimation;
 
         // ── Methods ──
         public void get_showReticle(){} // RVA: 0x7FFD4E341320
@@ -977,6 +1662,28 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Throwable : MonoBehaviour
     {
+        public 0x6656BC28 attachmentFlags; // 0x20
+        public UnityEngine.Transform attachmentOffset; // 0x28
+        public float catchingSpeedThreshold; // 0x30
+        public 0x6656CB48 releaseVelocityStyle; // 0x34
+        public float releaseVelocityTimeOffset; // 0x38
+        public float scaleReleaseVelocity; // 0x3C
+        public float scaleReleaseVelocityThreshold; // 0x40
+        public UnityEngine.AnimationCurve scaleReleaseVelocityCurve; // 0x48
+        public bool restoreOriginalParent; // 0x50
+        public Valve.VR.InteractionSystem.VelocityEstimator velocityEstimator; // 0x58
+        public bool attached; // 0x60
+        public float attachTime; // 0x64
+        public UnityEngine.Vector3 attachPosition; // 0x68
+        public UnityEngine.Quaternion attachRotation; // 0x74
+        public UnityEngine.Transform attachEaseInTransform; // 0x88
+        public UnityEngine.Events.UnityEvent onPickUp; // 0x90
+        public UnityEngine.Events.UnityEvent onDetachFromHand; // 0x98
+        public 0x6656BE38 onHeldUpdate; // 0xA0
+        public ÎÏÎÍÍÌÎÌÍÌÍÌÏÌÍ hadInterpolation; // 0xA8
+        public UnityEngine.Rigidbody rigidbody; // 0xB0
+        public Valve.VR.InteractionSystem.Interactable interactable; // 0xB8
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5410F320
         public void OnHandHoverBegin(){} // RVA: 0x7FFD5410F5B0
@@ -994,6 +1701,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class UIElement : MonoBehaviour
     {
+        public 0x6656B758 onHandClick; // 0x20
+        public Valve.VR.InteractionSystem.Hand currentHand; // 0x28
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54110CB0
         public void OnHandHoverBegin(){} // RVA: 0x7FFD54110E00
@@ -1005,6 +1715,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Unparent : MonoBehaviour
     {
+        public UnityEngine.Transform oldParent; // 0x20
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD541115D0
         public void Update(){} // RVA: 0x7FFD54111880
@@ -1014,6 +1726,17 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Util : Object
     {
+        public float FeetToMeters;
+        public float FeetToCentimeters;
+        public float InchesToMeters;
+        public float InchesToCentimeters;
+        public float MetersToFeet;
+        public float MetersToInches;
+        public float CentimetersToFeet;
+        public float CentimetersToInches;
+        public float KilometersToMiles;
+        public float MilesToKilometers;
+
         // ── Methods ──
         public void RemapNumber(){} // RVA: 0x7FFD541119B0
         public void RemapNumberClamped(){} // RVA: 0x7FFD541119D0
@@ -1061,6 +1784,14 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class VelocityEstimator : MonoBehaviour
     {
+        public int velocityAverageFrames; // 0x20
+        public int angularVelocityAverageFrames; // 0x24
+        public bool estimateOnAwake; // 0x28
+        public UnityEngine.Coroutine routine; // 0x30
+        public int sampleCount; // 0x38
+        public UnityEngine.Vector3[] velocitySamples; // 0x40
+        public UnityEngine.Vector3[] angularVelocitySamples; // 0x48
+
         // ── Methods ──
         public void BeginEstimatingVelocity(){} // RVA: 0x7FFD541148D0
         public void FinishEstimatingVelocity(){} // RVA: 0x7FFD541149F0

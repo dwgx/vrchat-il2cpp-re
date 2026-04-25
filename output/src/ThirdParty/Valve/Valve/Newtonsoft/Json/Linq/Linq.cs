@@ -7,6 +7,9 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 {
     public class JEnumerable`1 : ValueType
     {
+        public Valve.Newtonsoft.Json.Linq.JEnumerable`1<T> Empty;
+        public System.Collections.Generic.IEnumerable`1<T> _enumerable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
@@ -18,17 +21,19 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Linq
 
     public class JToken : Object
     {
-        public object Parent;
-        public object Root;
-        public object Type;
-        public object HasValues;
-        public object Next;
-        public object Previous;
-        public object Path;
-        public object First;
-        public object Last;
-        public object Valve.Newtonsoft.Json.IJsonLineInfo.LineNumber;
-        public object Valve.Newtonsoft.Json.IJsonLineInfo.LinePosition;
+        public 0x665A7E50 Parent; // 0x10
+        public Valve.Newtonsoft.Json.Linq.JToken Root; // 0x18
+        public Valve.Newtonsoft.Json.Linq.JToken Type; // 0x20
+        public object HasValues; // 0x28
+        public 0x665A82C8[] Next;
+        public 0x665A82C8[] Previous; // 0x8
+        public 0x665A82C8[] Path; // 0x10
+        public 0x665A82C8[] First; // 0x18
+        public 0x665A82C8[] Last; // 0x20
+        public 0x665A82C8[] Valve.Newtonsoft.Json.IJsonLineInfo.LineNumber; // 0x28
+        public 0x665A82C8[] Valve.Newtonsoft.Json.IJsonLineInfo.LinePosition; // 0x30
+        public 0x665A82C8[] DateTimeTypes; // 0x38
+        public 0x665A82C8[] BytesTypes; // 0x40
 
         // ── Methods ──
         public void get_Parent(){} // RVA: 0x7FFD4E35C380

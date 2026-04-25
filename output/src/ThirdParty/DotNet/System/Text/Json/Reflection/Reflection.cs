@@ -7,6 +7,30 @@ namespace ThirdParty.DotNet.System.Text.Json.Reflection
 {
     public class ReflectionExtensions : Object
     {
+        public string ImmutableArrayGenericTypeName;
+        public string ImmutableListGenericTypeName;
+        public string ImmutableListGenericInterfaceTypeName;
+        public string ImmutableStackGenericTypeName;
+        public string ImmutableStackGenericInterfaceTypeName;
+        public string ImmutableQueueGenericTypeName;
+        public string ImmutableQueueGenericInterfaceTypeName;
+        public string ImmutableSortedSetGenericTypeName;
+        public string ImmutableHashSetGenericTypeName;
+        public string ImmutableSetGenericInterfaceTypeName;
+        public string ImmutableDictionaryGenericTypeName;
+        public string ImmutableDictionaryGenericInterfaceTypeName;
+        public string ImmutableSortedDictionaryGenericTypeName;
+        public string ImmutableArrayTypeName;
+        public string ImmutableListTypeName;
+        public string ImmutableStackTypeName;
+        public string ImmutableQueueTypeName;
+        public string ImmutableSortedSetTypeName;
+        public string ImmutableHashSetTypeName;
+        public string ImmutableDictionaryTypeName;
+        public string ImmutableSortedDictionaryTypeName;
+        public string CreateRangeMethodName;
+        public System.Type s_nullableType;
+
         // ── Methods ──
         public void GetCompatibleGenericBaseClass(){} // RVA: 0x7FFD544784F0
         public void GetCompatibleGenericInterface(){} // RVA: 0x7FFD54478660

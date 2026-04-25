@@ -7,8 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Editor
 {
     public class SampleFrequencyCalculator : ValueType
     {
-        public object targetFrequency;
-        public object frequency;
+        public double targetFrequency; // 0x10
+        public int frequency; // 0x18
+        public float <targetFrequency>k__BackingField; // 0x1C
+        public float <frequency>k__BackingField; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54A92C60

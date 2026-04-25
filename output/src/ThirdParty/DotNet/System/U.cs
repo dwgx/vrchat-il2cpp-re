@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System
 {
     public class UInt16 : ValueType
     {
+        public ushort m_value; // 0x10
+        public ushort MaxValue;
+        public ushort MinValue;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD5392F000 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD5392EF20 | overloaded x2
@@ -35,6 +39,10 @@ namespace ThirdParty.DotNet.System
 
     public class UInt32 : ValueType
     {
+        public uint m_value; // 0x10
+        public uint MaxValue;
+        public uint MinValue;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD50017830 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD50017E90 | overloaded x2
@@ -63,6 +71,10 @@ namespace ThirdParty.DotNet.System
 
     public class UInt64 : ValueType
     {
+        public ulong m_value; // 0x10
+        public ulong MaxValue;
+        public ulong MinValue;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD50017A00 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD512A61F0 | overloaded x2
@@ -92,6 +104,7 @@ namespace ThirdParty.DotNet.System
     public class UIntPtr : ValueType
     {
         public object Size;
+        public void* _pointer; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F9DB120 | overloaded x3
@@ -120,42 +133,42 @@ namespace ThirdParty.DotNet.System
 
     public class Uri : Object
     {
-        public object IsImplicitFile;
-        public object IsUncOrDosPath;
-        public object IsDosPath;
-        public object IsUncPath;
-        public object HostType;
-        public object Syntax;
-        public object IsNotAbsoluteUri;
-        public object AllowIdn;
-        public object UserDrivenParsing;
-        public object SecuredPathIndex;
-        public object AbsolutePath;
-        public object PrivateAbsolutePath;
-        public object AbsoluteUri;
-        public object LocalPath;
-        public object Authority;
-        public object HostNameType;
-        public object IsDefaultPort;
-        public object IsFile;
-        public object IsLoopback;
-        public object PathAndQuery;
-        public object Segments;
-        public object IsUnc;
-        public object Host;
-        public object InitializeLock;
-        public object Port;
-        public object Query;
-        public object Fragment;
-        public object Scheme;
-        public object OriginalStringSwitched;
-        public object OriginalString;
-        public object DnsSafeHost;
-        public object IdnHost;
-        public object IsAbsoluteUri;
-        public object UserEscaped;
-        public object UserInfo;
-        public object HasAuthority;
+        public string IsImplicitFile;
+        public string IsUncOrDosPath; // 0x8
+        public string IsDosPath; // 0x10
+        public string IsUncPath; // 0x18
+        public string HostType; // 0x20
+        public string Syntax; // 0x28
+        public string IsNotAbsoluteUri; // 0x30
+        public string AllowIdn; // 0x38
+        public string UserDrivenParsing; // 0x40
+        public string SecuredPathIndex; // 0x48
+        public string AbsolutePath; // 0x50
+        public string PrivateAbsolutePath; // 0x58
+        public string AbsoluteUri; // 0x60
+        public int LocalPath;
+        public int Authority;
+        public int HostNameType;
+        public string IsDefaultPort; // 0x10
+        public string IsFile; // 0x18
+        public System.UriParser IsLoopback; // 0x20
+        public string PathAndQuery; // 0x28
+        public 0x6648EEC0 Segments; // 0x30
+        public UriInfo IsUnc; // 0x38
+        public bool Host; // 0x40
+        public bool InitializeLock; // 0x68
+        public bool Port; // 0x69
+        public 0x6648F288 Query; // 0x6C
+        public bool Fragment; // 0x70
+        public bool Scheme; // 0x71
+        public 0x6648F180 OriginalStringSwitched;
+        public bool OriginalString; // 0x72
+        public object DnsSafeHost; // 0x78
+        public 0x6648F230 IdnHost;
+        public char IsAbsoluteUri;
+        public char UserEscaped;
+        public char[] UserInfo; // 0x80
+        public char[] HasAuthority; // 0x88
 
         // ── Methods ──
         public void get_IsImplicitFile(){} // RVA: 0x7FFD546BFAF0
@@ -284,11 +297,48 @@ namespace ThirdParty.DotNet.System
 
     public class UriParser : Object
     {
-        public object SchemeName;
-        public object DefaultPort;
-        public object ShouldUseLegacyV2Quirks;
-        public object Flags;
-        public object IsSimple;
+        public 0x6648F5F8 SchemeName;
+        public System.Collections.Generic.Dictionary`2<string,System.UriParser> DefaultPort;
+        public System.Collections.Generic.Dictionary`2<string,System.UriParser> ShouldUseLegacyV2Quirks; // 0x8
+        public 0x6648F5F8 Flags; // 0x10
+        public 0x6648F5F8 IsSimple; // 0x14
+        public bool m_UpdatableFlagsUsed; // 0x18
+        public 0x6648F5F8 c_UpdatableFlags;
+        public int m_Port; // 0x1C
+        public string m_Scheme; // 0x20
+        public int NoDefaultPort;
+        public int c_InitialTableSize;
+        public System.UriParser HttpUri; // 0x10
+        public System.UriParser HttpsUri; // 0x18
+        public System.UriParser WsUri; // 0x20
+        public System.UriParser WssUri; // 0x28
+        public System.UriParser FtpUri; // 0x30
+        public System.UriParser FileUri; // 0x38
+        public System.UriParser GopherUri; // 0x40
+        public System.UriParser NntpUri; // 0x48
+        public System.UriParser NewsUri; // 0x50
+        public System.UriParser MailToUri; // 0x58
+        public System.UriParser UuidUri; // 0x60
+        public System.UriParser TelnetUri; // 0x68
+        public System.UriParser LdapUri; // 0x70
+        public System.UriParser NetTcpUri; // 0x78
+        public System.UriParser NetPipeUri; // 0x80
+        public System.UriParser VsMacrosUri; // 0x88
+        public 0x6648F440 s_QuirksVersion; // 0x90
+        public int c_MaxCapacity;
+        public 0x6648F5F8 UnknownV1SyntaxFlags;
+        public 0x6648F5F8 HttpSyntaxFlags; // 0x94
+        public 0x6648F5F8 FtpSyntaxFlags;
+        public 0x6648F5F8 FileSyntaxFlags; // 0x98
+        public 0x6648F5F8 VsmacrosSyntaxFlags;
+        public 0x6648F5F8 GopherSyntaxFlags;
+        public 0x6648F5F8 NewsSyntaxFlags;
+        public 0x6648F5F8 NntpSyntaxFlags;
+        public 0x6648F5F8 TelnetSyntaxFlags;
+        public 0x6648F5F8 LdapSyntaxFlags;
+        public 0x6648F5F8 MailtoSyntaxFlags;
+        public 0x6648F5F8 NetPipeSyntaxFlags;
+        public 0x6648F5F8 NetTcpSyntaxFlags;
 
         // ── Methods ──
         public void get_SchemeName(){} // RVA: 0x7FFD4E36F0C0

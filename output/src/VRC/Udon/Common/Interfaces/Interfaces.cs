@@ -35,7 +35,7 @@ namespace VRC.Udon.Common.Interfaces
 
     public class IUdonComponentGetterModule
     {
-        public object GetterType;
+        public <>c<T> GetterType;
 
         // ── Methods ──
         public void get_GetterType(){} // RVA: 0x7FFD4E078E90
@@ -123,7 +123,7 @@ namespace VRC.Udon.Common.Interfaces
 
     public class IUdonSyncTarget
     {
-        public object SyncMetadataTable;
+        public <>c<T> SyncMetadataTable;
 
         // ── Methods ──
         public void get_SyncMetadataTable(){} // RVA: 0x7FFD4E078E90
@@ -137,7 +137,7 @@ namespace VRC.Udon.Common.Interfaces
 
     public class IUdonVariableTable
     {
-        public object VariableSymbols;
+        public U VariableSymbols;
 
         // ── Methods ──
         public void get_VariableSymbols(){} // RVA: 0x7FFD4E078E90

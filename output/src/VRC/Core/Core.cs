@@ -7,9 +7,25 @@ namespace VRC.Core
 {
     public class API : Object
     {
-        public object ClientGameServerVersion;
-        public object DeviceID;
-        public object IsVRCClient;
+        public string ClientGameServerVersion;
+        public string DeviceID;
+        public string IsVRCClient;
+        public string releaseApiUrl;
+        public string _apiStore; // 0x8
+        public bool _allowRoaming; // 0x10
+        public int _clientGameServerVersion; // 0x14
+        public string _clientVersion; // 0x18
+        public 0x6640C360 _apiOnlineMode; // 0x20
+        public float RESPONSE_CACHE_LIFETIME;
+        public string LOG_CATEGORY;
+        public System.Collections.Generic.Dictionary`2<string,EndpointAccessEntry> EndpointAccessTimes; // 0x28
+        public int MAX_RETRY_COUNT;
+        public float RETRY_DELAY_SECONDS;
+        public VRC.Core.FavoriteArea Favorites; // 0x30
+        public int _lastRequestId; // 0x38
+        public System.Collections.Generic.Dictionary`2<string,BestHTTP.HTTPRequest> _activeRequests; // 0x40
+        public System.Collections.Generic.List`1<System.Collections.Generic.IReadOnlyDictionary`2<string,Token>> _offlineQueries; // 0x48
+        public bool <IsVRCClient>k__BackingField; // 0x50
 
         // ── Methods ──
         public void get_ClientGameServerVersion(){} // RVA: 0x7FFD5727A1A0
@@ -65,9 +81,9 @@ namespace VRC.Core
 
     public class APICalendarEntryUserInterest : ApiModel
     {
-        public object isFollowing;
-        public object createdAt;
-        public object updatedAt;
+        public bool isFollowing; // 0x68
+        public System.DateTime createdAt; // 0x70
+        public System.DateTime updatedAt; // 0x78
 
         // ── Methods ──
         public void get_isFollowing(){} // RVA: 0x7FFD4E409570
@@ -81,28 +97,28 @@ namespace VRC.Core
 
     public class APICampaignInfo : ApiModel
     {
-        public object campaignActive;
-        public object dataAvailable;
-        public object endDate;
-        public object globalGiftCount;
-        public object globalGiftGoal;
-        public object globalGiftGoalSuccess;
-        public object globalParticipantCount;
-        public object lastRefreshTime;
-        public object localPurchaseCount;
-        public object name;
-        public object description;
-        public object participatingFriends;
-        public object rewards;
-        public object startDate;
-        public object globalDollarsGoal;
-        public object globalDollarsRaised;
-        public object globalPurchaseCount;
-        public object includeGiftDrops;
-        public object includeGifts;
-        public object includeSubscriptions;
-        public object slug;
-        public object uDidIt;
+        public bool campaignActive; // 0x68
+        public bool dataAvailable; // 0x69
+        public System.DateTime endDate; // 0x70
+        public int globalGiftCount; // 0x78
+        public int globalGiftGoal; // 0x7C
+        public bool globalGiftGoalSuccess; // 0x80
+        public int globalParticipantCount; // 0x84
+        public string lastRefreshTime; // 0x88
+        public int localPurchaseCount; // 0x90
+        public string name; // 0x98
+        public string description; // 0xA0
+        public System.Collections.Generic.List`1<string> participatingFriends; // 0xA8
+        public System.Collections.Generic.List`1<VRC.Core.ApiCampaignReward> rewards; // 0xB0
+        public System.DateTime startDate; // 0xB8
+        public int globalDollarsGoal; // 0xC0
+        public int globalDollarsRaised; // 0xC4
+        public int globalPurchaseCount; // 0xC8
+        public bool includeGiftDrops; // 0xCC
+        public bool includeGifts; // 0xCD
+        public bool includeSubscriptions; // 0xCE
+        public string slug; // 0xD0
+        public bool uDidIt; // 0xD8
 
         // ── Methods ──
         public void get_campaignActive(){} // RVA: 0x7FFD4E409570
@@ -160,16 +176,19 @@ namespace VRC.Core
 
     public class APIEmoji : ApiModel
     {
-        public object fileId;
-        public object imageUrl;
-        public object animationStyle;
-        public object maskTag;
-        public object animated;
-        public object frames;
-        public object framesOverTime;
-        public object loopStyle;
-        public object assetBundleId;
-        public object premium;
+        public string fileId; // 0x68
+        public string imageUrl; // 0x70
+        public string animationStyle; // 0x78
+        public string maskTag; // 0x80
+        public bool animated; // 0x88
+        public int frames; // 0x8C
+        public int framesOverTime; // 0x90
+        public string loopStyle; // 0x98
+        public string assetBundleId; // 0xA0
+        public bool premium; // 0xA8
+        public string endpoint;
+        public string LOOP_STYLE_LINEAR;
+        public string LOOP_STYLE_PINGPONG;
 
         // ── Methods ──
         public void get_fileId(){} // RVA: 0x7FFD4E3BCD50
@@ -200,40 +219,40 @@ namespace VRC.Core
 
     public class APIGroup : ApiModel
     {
-        public object ownerId;
-        public object name;
-        public object shortCode;
-        public object discriminator;
-        public object description;
-        public object iconUrl;
-        public object bannerUrl;
-        public object memberCount;
-        public object onlineMemberCount;
-        public object memberCountSyncedAt;
-        public object privacy;
-        public object joinState;
-        public object myMember;
-        public object createdAt;
-        public object updatedAt;
-        public object membershipStatus;
-        public object bannerId;
-        public object iconId;
-        public object rules;
-        public object initialRoleIds;
-        public object isSystemGroup;
-        public object isVerified;
-        public object galleries;
-        public object tags;
-        public object isSearchable;
-        public object sizeQuality;
-        public object activityQuality;
-        public object engagementQuality;
-        public object contentQuality;
-        public object roles;
-        public object links;
-        public object languages;
-        public object lastPostCreatedAt;
-        public object storeId;
+        public string ownerId; // 0x68
+        public string name; // 0x70
+        public string shortCode; // 0x78
+        public string discriminator; // 0x80
+        public string description; // 0x88
+        public string iconUrl; // 0x90
+        public string bannerUrl; // 0x98
+        public int memberCount; // 0xA0
+        public int onlineMemberCount; // 0xA4
+        public string memberCountSyncedAt; // 0xA8
+        public string privacy; // 0xB0
+        public string joinState; // 0xB8
+        public VRC.Core.APIGroupMember myMember; // 0xC0
+        public System.DateTime createdAt; // 0xC8
+        public System.DateTime updatedAt; // 0xD0
+        public string membershipStatus; // 0xD8
+        public string bannerId; // 0xE0
+        public string iconId; // 0xE8
+        public string rules; // 0xF0
+        public System.Collections.Generic.List`1<string> initialRoleIds; // 0xF8
+        public bool isSystemGroup; // 0x100
+        public bool isVerified; // 0x101
+        public System.Collections.Generic.List`1<GalleryObject> galleries; // 0x108
+        public System.Collections.Generic.List`1<string> tags; // 0x110
+        public bool isSearchable; // 0x118
+        public int sizeQuality; // 0x11C
+        public int activityQuality; // 0x120
+        public int engagementQuality; // 0x124
+        public int contentQuality; // 0x128
+        public System.Collections.Generic.List`1<VRC.Core.APIGroupRole> roles; // 0x130
+        public System.Collections.Generic.List`1<string> links; // 0x138
+        public System.Collections.Generic.List`1<string> languages; // 0x140
+        public System.DateTime lastPostCreatedAt; // 0x148
+        public string storeId; // 0x150
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57336030 | overloaded x2
@@ -332,15 +351,15 @@ namespace VRC.Core
 
     public class APIGroupAnnouncement : ApiModel
     {
-        public object groupId;
-        public object authorId;
-        public object title;
-        public object text;
-        public object imageUrl;
-        public object visibility;
-        public object createdAt;
-        public object updatedAt;
-        public object roleIds;
+        public string groupId; // 0x68
+        public string authorId; // 0x70
+        public string title; // 0x78
+        public string text; // 0x80
+        public string imageUrl; // 0x88
+        public string visibility; // 0x90
+        public System.DateTime createdAt; // 0x98
+        public System.DateTime updatedAt; // 0xA0
+        public System.Collections.Generic.List`1<string> roleIds; // 0xA8
 
         // ── Methods ──
         public void get_groupId(){} // RVA: 0x7FFD4E3BCD50
@@ -367,38 +386,41 @@ namespace VRC.Core
 
     public class APIGroupList : ApiModel
     {
+        public string ownerId; // 0x68
+        public System.Collections.Generic.List`1<VRC.Core.APIGroup> groups; // 0x70
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5733EFD0 | overloaded x2
     }
 
     public class APIGroupMember : ApiModel
     {
-        public object groupId;
-        public object userId;
-        public object roleIds;
-        public object mRoleIds;
-        public object permissions;
-        public object memberVisibility;
-        public object membershipStatus;
-        public object isRepresenting;
-        public object mutualGroup;
-        public object name;
-        public object ownerId;
-        public object shortCode;
-        public object discriminator;
-        public object iconUrl;
-        public object bannerUrl;
-        public object privacy;
-        public object visibility;
-        public object isSubscribedToAnnouncements;
-        public object isSubscribedToEventAnnouncements;
-        public object memberCount;
-        public object joinedAt;
-        public object bannedAt;
-        public object lastPostReadAt;
-        public object lastPostCreatedAt;
-        public object user;
-        public object group;
+        public string groupId; // 0x68
+        public string userId; // 0x70
+        public System.Collections.Generic.List`1<string> roleIds; // 0x78
+        public System.Collections.Generic.List`1<string> mRoleIds; // 0x80
+        public System.Collections.Generic.List`1<string> permissions; // 0x88
+        public string memberVisibility; // 0x90
+        public string membershipStatus; // 0x98
+        public bool isRepresenting; // 0xA0
+        public bool mutualGroup; // 0xA1
+        public string name; // 0xA8
+        public string ownerId; // 0xB0
+        public string shortCode; // 0xB8
+        public string discriminator; // 0xC0
+        public string iconUrl; // 0xC8
+        public string bannerUrl; // 0xD0
+        public string privacy; // 0xD8
+        public string visibility; // 0xE0
+        public bool isSubscribedToAnnouncements; // 0xE8
+        public bool isSubscribedToEventAnnouncements; // 0xE9
+        public int memberCount; // 0xEC
+        public System.DateTime joinedAt; // 0xF0
+        public System.DateTime bannedAt; // 0xF8
+        public System.DateTime lastPostReadAt; // 0x100
+        public System.DateTime lastPostCreatedAt; // 0x108
+        public VRC.Core.APIUser user; // 0x110
+        public VRC.Core.APIGroup group; // 0x118
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5733F8B0
@@ -462,8 +484,8 @@ namespace VRC.Core
 
     public class APIGroupMemberList : ApiModel
     {
-        public object groupId;
-        public object members;
+        public string groupId; // 0x68
+        public System.Collections.Generic.List`1<VRC.Core.APIGroupMember> members; // 0x70
 
         // ── Methods ──
         public void get_groupId(){} // RVA: 0x7FFD4E3BCD50
@@ -475,18 +497,18 @@ namespace VRC.Core
 
     public class APIGroupRole : ApiModel
     {
-        public object groupId;
-        public object name;
-        public object description;
-        public object isSelfAssignable;
-        public object requiresTwoFactor;
-        public object isManagementRole;
-        public object requiresPurchase;
-        public object createdAt;
-        public object updatedAt;
-        public object defaultRole;
-        public object order;
-        public object permissions;
+        public string groupId; // 0x68
+        public string name; // 0x70
+        public string description; // 0x78
+        public bool isSelfAssignable; // 0x80
+        public bool requiresTwoFactor; // 0x81
+        public bool isManagementRole; // 0x82
+        public bool requiresPurchase; // 0x83
+        public System.DateTime createdAt; // 0x88
+        public System.DateTime updatedAt; // 0x90
+        public bool defaultRole; // 0x98
+        public int order; // 0x9C
+        public System.Collections.Generic.List`1<string> permissions; // 0xA0
 
         // ── Methods ──
         public void get_groupId(){} // RVA: 0x7FFD4E3BCD50
@@ -518,8 +540,8 @@ namespace VRC.Core
 
     public class APIGroupRoleList : ApiModel
     {
-        public object groupId;
-        public object roles;
+        public string groupId; // 0x68
+        public System.Collections.Generic.List`1<VRC.Core.APIGroupRole> roles; // 0x70
 
         // ── Methods ──
         public void get_groupId(){} // RVA: 0x7FFD4E3BCD50
@@ -531,16 +553,17 @@ namespace VRC.Core
 
     public class APISticker : ApiModel
     {
-        public object fileId;
-        public object imageUrl;
-        public object specialEffect;
-        public object animationStyle;
-        public object maskTag;
-        public object animated;
-        public object frames;
-        public object framesOverTime;
-        public object loopStyle;
-        public object assetBundleId;
+        public string fileId; // 0x68
+        public string imageUrl; // 0x70
+        public string specialEffect; // 0x78
+        public string animationStyle; // 0x80
+        public string maskTag; // 0x88
+        public bool animated; // 0x90
+        public int frames; // 0x94
+        public int framesOverTime; // 0x98
+        public string loopStyle; // 0xA0
+        public string assetBundleId; // 0xA8
+        public string endpoint;
 
         // ── Methods ──
         public void get_fileId(){} // RVA: 0x7FFD4E3BCD50
@@ -569,9 +592,10 @@ namespace VRC.Core
 
     public class APITutorial : ApiModel
     {
-        public object IsTutorialCompleted;
-        public object CompletedAnyTutorial;
-        public object TutorialKey;
+        public string IsTutorialCompleted;
+        public bool CompletedAnyTutorial; // 0x68
+        public bool TutorialKey; // 0x69
+        public string <TutorialKey>k__BackingField; // 0x70
 
         // ── Methods ──
         public void get_IsTutorialCompleted(){} // RVA: 0x7FFD4E409570
@@ -586,14 +610,17 @@ namespace VRC.Core
 
     public class APIUIColorPalette : ApiModel
     {
-        public object ownerId;
-        public object name;
-        public object highlights;
-        public object icons;
-        public object buttons;
-        public object backgrounds;
-        public object text;
-        public object subtext;
+        public string ownerId; // 0x68
+        public string name; // 0x70
+        public string highlights; // 0x78
+        public string icons; // 0x80
+        public string buttons; // 0x88
+        public string backgrounds; // 0x90
+        public string text; // 0x98
+        public string subtext; // 0xA0
+        public string endpoint;
+        public string endpoint_current;
+        public System.Collections.Generic.Dictionary`2<string,VRC.Core.APIUIColorPalette> _fakeApi;
 
         // ── Methods ──
         public void get_ownerId(){} // RVA: 0x7FFD4E3BCD50
@@ -623,120 +650,92 @@ namespace VRC.Core
 
     public class APIUser : ApiModel
     {
-        public object blob;
-        public object displayName;
-        public object username;
-        public object pronouns;
-        public object bio;
-        public object bioLinks;
-        public object location;
-        public object avatarId;
-        public object fallbackId;
-        public object hasEmail;
-        public object isBoopingEnabled;
-        public object hasBirthday;
-        public object isFriend;
-        public object friendKey;
-        public object friendRequestStatus;
-        public object last_login;
-        public object last_activity;
-        public object date_joined;
-        public object developerType;
-        public object events;
-        public object acceptedTOSVersion;
-        public object queuedInstance;
-        public object queuedInstancePosition;
-        public object acceptedPrivacyVersion;
-        public object currentAvatarImageUrl;
-        public object currentAvatarThumbnailImageUrl;
-        public object currentAvatarTags;
-        public object authToken;
-        public object emailVerified;
-        public object hasPendingEmail;
-        public object obfuscatedPendingEmail;
-        public object friendIDs;
-        public object currentAvatarAssetUrl;
-        public object steamDetails;
-        public object travelingToLocation;
-        public object obfuscatedEmail;
-        public object unsubscribe;
-        public object hasLoggedInFromClient;
-        public object pastDisplayNames;
-        public object homeLocation;
-        public object tags;
-        public object status;
-        public object statusDescription;
-        public object badges;
-        public object statusHistory;
-        public object state;
-        public object allowAvatarCopying;
-        public object hasSharedConnectionsOptOut;
-        public object hasDiscordFriendsOptOut;
-        public object userIcon;
-        public object profilePicOverride;
-        public object note;
-        public object iconUrl;
-        public object thumbnailUrl;
-        public object hideContentFilterSettings;
-        public object contentFilters;
-        public object userLanguageCode;
-        public object ageVerified;
-        public object isAdult;
-        public object ageVerificationStatus;
-        public object discordId;
-        public object hasAcceptedDiscordSocialSDKPerms;
-        public object last_platform;
-        public object platform;
-        public object last_mobile;
-        public object twoFactorAuthEnabled;
-        public object twoFactorAuthMethods;
-        public object LanguageTagsDictionary;
-        public object languagesDisplayNames;
-        public object LanguagesShortNames;
-        public object ShouldSeeInstanceByStatus;
-        public object IsOnMobile;
-        public object profilePicImageUrl;
-        public object profilePicThumbnailImageUrl;
-        public object IsAccountVerified;
-        public object hasNoPowers;
-        public object hasScriptingAccess;
-        public object hasModerationPowers;
-        public object hasVIPAccess;
-        public object hasSuperPowers;
-        public object canPublishWorldsAndAvatars;
-        public object canPublishAllContent;
-        public object canPublishAvatars;
-        public object canPublishWorlds;
-        public object canPublishProps;
-        public object isUntrusted;
-        public object isNewUser;
-        public object isEarlyAdopter;
-        public object isSupporter;
-        public object hasBasicTrustLevel;
-        public object hasKnownTrustLevel;
-        public object hasTrustedTrustLevel;
-        public object hasVeteranTrustLevel;
-        public object hasLegendTrustLevel;
-        public object hasNegativeTrustLevel;
-        public object hasVeryNegativeTrustLevel;
-        public object hasFeedbackAccess;
-        public object showSocialRank;
-        public object showModTag;
-        public object canSetStatusOffline;
-        public object statusIsSetToOffline;
-        public object statusIsSetToJoinMe;
-        public object statusIsSetToAskMe;
-        public object statusIsSetToDoNotDisturb;
-        public object statusDefaultDescriptionDisplayString;
-        public object statusDescriptionDisplayString;
-        public object statusValue;
-        public object CurrentLocation;
-        public object canSeeAllUsersStatus;
-        public object IsLoggedIn;
-        public object IsSelf;
-        public object CurrentUser;
-        public object HasRequestedToBeFriend;
-        public object HasFriendRequestPending;
+        public float blob;
+        public float displayName;
+        public int username;
+        public int pronouns;
+        public string bio;
+        public string bioLinks;
+        public string location;
+        public string avatarId;
+        public string fallbackId;
+        public string hasEmail;
+        public string isBoopingEnabled;
+        public string hasBirthday;
+        public string isFriend;
+        public string friendKey;
+        public string friendRequestStatus; // 0x68
+        public string last_login; // 0x70
+        public string last_activity; // 0x78
+        public string date_joined; // 0x80
+        public string developerType; // 0x88
+        public System.Collections.Generic.List`1<string> events; // 0x90
+        public string acceptedTOSVersion; // 0x98
+        public string queuedInstance; // 0xA0
+        public string queuedInstancePosition; // 0xA8
+        public bool acceptedPrivacyVersion; // 0xB0
+        public bool currentAvatarImageUrl; // 0xB1
+        public bool currentAvatarThumbnailImageUrl; // 0xB2
+        public bool currentAvatarTags; // 0xB3
+        public string authToken; // 0xB8
+        public string emailVerified; // 0xC0
+        public string hasPendingEmail; // 0xC8
+        public string obfuscatedPendingEmail; // 0xD0
+        public string friendIDs; // 0xD8
+        public 0x664124A8 currentAvatarAssetUrl; // 0xE0
+        public System.Collections.Generic.List`1<VRC.Core.VRCEvent> steamDetails; // 0xE8
+        public int travelingToLocation; // 0xF0
+        public string obfuscatedEmail; // 0xF8
+        public int unsubscribe; // 0x100
+        public int hasLoggedInFromClient; // 0x104
+        public string pastDisplayNames; // 0x108
+        public string homeLocation; // 0x110
+        public System.Collections.Generic.List`1<string> tags; // 0x118
+        public string status; // 0x120
+        public bool statusDescription; // 0x128
+        public bool badges; // 0x129
+        public string statusHistory; // 0x130
+        public System.Collections.Generic.List`1<string> state; // 0x138
+        public string allowAvatarCopying; // 0x140
+        public System.Collections.Generic.Dictionary`2<string,object> hasSharedConnectionsOptOut; // 0x148
+        public string hasDiscordFriendsOptOut; // 0x150
+        public string userIcon; // 0x158
+        public bool profilePicOverride; // 0x160
+        public bool note; // 0x161
+        public System.Collections.Generic.List`1<string> iconUrl; // 0x168
+        public string thumbnailUrl; // 0x170
+        public System.Collections.Generic.List`1<string> hideContentFilterSettings; // 0x178
+        public string contentFilters; // 0x180
+        public string userLanguageCode; // 0x188
+        public System.Collections.Generic.List`1<VRC.Core.ApiBadge> ageVerified; // 0x190
+        public System.Collections.Generic.List`1<string> isAdult; // 0x198
+        public string ageVerificationStatus; // 0x1A0
+        public bool discordId; // 0x1A8
+        public bool hasAcceptedDiscordSocialSDKPerms; // 0x1A9
+        public bool last_platform; // 0x1AA
+        public string platform; // 0x1B0
+        public string last_mobile; // 0x1B8
+        public string twoFactorAuthEnabled; // 0x1C0
+        public string twoFactorAuthMethods; // 0x1C8
+        public string LanguageTagsDictionary; // 0x1D0
+        public bool languagesDisplayNames; // 0x1D8
+        public System.Collections.Generic.List`1<string> LanguagesShortNames; // 0x1E0
+        public string ShouldSeeInstanceByStatus; // 0x1E8
+        public bool IsOnMobile; // 0x1F0
+        public bool profilePicImageUrl; // 0x1F1
+        public string profilePicThumbnailImageUrl; // 0x1F8
+        public string IsAccountVerified; // 0x200
+        public bool hasNoPowers; // 0x208
+        public string hasScriptingAccess; // 0x210
+        public string hasModerationPowers; // 0x218
+        public string hasVIPAccess; // 0x220
+        public bool hasSuperPowers; // 0x228
+        public System.Collections.Generic.Dictionary`2<string,object> canPublishWorldsAndAvatars; // 0x230
+        public System.Collections.Generic.Dictionary`2<string,string> canPublishAllContent;
+        public System.Collections.Generic.List`1<string> canPublishAvatars; // 0x238
+        public System.Collections.Generic.List`1<string> canPublishWorlds; // 0x240
+        public System.Collections.Hashtable canPublishProps; // 0x8
+        public VRC.Core.APIUser isUntrusted; // 0x10
 
         // ── Methods ──
         public void ShouldCache(){} // RVA: 0x7FFD572F7F60
@@ -990,12 +989,12 @@ namespace VRC.Core
 
     public class ApiAdminAssetBundle : ApiModel
     {
-        public object name;
-        public object description;
-        public object imageUrl;
-        public object tags;
-        public object assetVersion;
-        public object unityPackages;
+        public string name; // 0x68
+        public string description; // 0x70
+        public string imageUrl; // 0x78
+        public System.Collections.Generic.List`1<string> tags; // 0x80
+        public int assetVersion; // 0x88
+        public System.Collections.Generic.List`1<0x6640CD58> unityPackages; // 0x90
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1023,9 +1022,9 @@ namespace VRC.Core
 
     public class ApiAuthContinue : ApiModel
     {
-        public object continueToken;
-        public object requestedFields;
-        public object reservedName;
+        public string continueToken; // 0x68
+        public string[] requestedFields; // 0x70
+        public ReservedName reservedName; // 0x78
 
         // ── Methods ──
         public void get_continueToken(){} // RVA: 0x7FFD4E3BCD50
@@ -1039,22 +1038,24 @@ namespace VRC.Core
 
     public class ApiAvatar : ApiContentModel`1
     {
-        public object impostorUrl;
-        public object variant;
-        public object impostorUnityVersion;
-        public object unityPackages;
-        public object created_at;
-        public object updated_at;
-        public object attribution;
-        public object offlineAnalysisScanStatus;
-        public object performanceRating;
-        public object styles;
-        public object productId;
-        public object publishedListings;
-        public object lowestPrice;
-        public object highestPrice;
-        public object acknowledgements;
-        public object LoadError;
+        public System.Collections.Generic.Dictionary`2<0x6640FC18,string> impostorUrl; // 0xD8
+        public string variant; // 0xE0
+        public 0x6640CE60 impostorUnityVersion; // 0xE8
+        public string unityPackages; // 0xF0
+        public System.Collections.Generic.List`1<0x6640CEB8> created_at; // 0xF8
+        public System.DateTime updated_at; // 0x100
+        public System.DateTime attribution; // 0x108
+        public x offlineAnalysisScanStatus; // 0x110
+        public 0x6640D960<VRC.Core.ApiAvatar> performanceRating; // 0x118
+        public string styles; // 0x120
+        public System.Collections.Generic.Dictionary`2<string,string> productId; // 0x128
+        public string publishedListings; // 0x130
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> lowestPrice; // 0x138
+        public System.Nullable`1<int> highestPrice; // 0x140
+        public System.Nullable`1<int> acknowledgements; // 0x148
+        public string LoadError; // 0x150
+        public string <LoadError>k__BackingField; // 0x158
+        public string AvatarsEndpoint;
 
         // ── Methods ──
         public void get_impostorUrl(){} // RVA: 0x7FFD4E3C2900
@@ -1103,8 +1104,9 @@ namespace VRC.Core
 
     public class ApiAvatarModeration : ApiModel
     {
-        public object moderationType;
-        public object targetAvatarId;
+        public float moderationType;
+        public 0x6640D070 targetAvatarId; // 0x68
+        public string <targetAvatarId>k__BackingField; // 0x70
 
         // ── Methods ──
         public void get_moderationType(){} // RVA: 0x7FFD4FBDAB50
@@ -1124,15 +1126,15 @@ namespace VRC.Core
 
     public class ApiBadge : ApiModel
     {
-        public object badgeId;
-        public object showcased;
-        public object badgeName;
-        public object badgeDescription;
-        public object badgeImageUrl;
-        public object hidden;
-        public object assignedAt;
-        public object updatedAt;
-        public object assignedBy;
+        public string badgeId; // 0x68
+        public bool showcased; // 0x70
+        public string badgeName; // 0x78
+        public string badgeDescription; // 0x80
+        public string badgeImageUrl; // 0x88
+        public bool hidden; // 0x90
+        public System.DateTime assignedAt; // 0x98
+        public System.DateTime updatedAt; // 0xA0
+        public string assignedBy; // 0xA8
 
         // ── Methods ──
         public void get_badgeId(){} // RVA: 0x7FFD4E3BCD50
@@ -1158,8 +1160,10 @@ namespace VRC.Core
 
     public class ApiCache : Object
     {
-        public object Count;
-        public object NextExpiryTTL;
+        public System.Func`1<long> Count;
+        public System.Collections.Generic.Dictionary`2<string,CacheEntry> NextExpiryTTL; // 0x8
+        public VRC.Core.PriorityQueue`1<CacheEntry> expiryQueue; // 0x10
+        public UnityEngine.WaitForSeconds CleanupDelay; // 0x18
 
         // ── Methods ──
         public void DefaultTimeProvider(){} // RVA: 0x7FFD57288760
@@ -1188,8 +1192,8 @@ namespace VRC.Core
 
     public class ApiCampaignAnonymizationStatus : ApiModel
     {
-        public object isAnonymized;
-        public object anonymizedName;
+        public bool isAnonymized; // 0x68
+        public string anonymizedName; // 0x70
 
         // ── Methods ──
         public void get_isAnonymized(){} // RVA: 0x7FFD4E409570
@@ -1201,11 +1205,11 @@ namespace VRC.Core
 
     public class ApiCampaignContributor : ApiModel
     {
-        public object userId;
-        public object displayName;
-        public object giftCount;
-        public object isAnonymized;
-        public object isSelf;
+        public string userId; // 0x68
+        public string displayName; // 0x70
+        public int giftCount; // 0x78
+        public bool isAnonymized; // 0x7C
+        public bool isSelf; // 0x7D
 
         // ── Methods ──
         public void get_userId(){} // RVA: 0x7FFD4E3BCD50
@@ -1223,9 +1227,9 @@ namespace VRC.Core
 
     public class ApiCampaignReward : ApiModel
     {
-        public object isUnlocked;
-        public object imageUrl;
-        public object progression;
+        public bool isUnlocked; // 0x68
+        public string imageUrl; // 0x70
+        public 0x6640D648 progression; // 0x78
 
         // ── Methods ──
         public void get_isUnlocked(){} // RVA: 0x7FFD4E409570
@@ -1239,7 +1243,8 @@ namespace VRC.Core
 
     public class ApiCertificateVerifier : CertificateHandler
     {
-        public object Instance;
+        public VRC.Core.ApiCertificateVerifier Instance;
+        public string[] publicKeys; // 0x8
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD5728B7E0
@@ -1253,16 +1258,18 @@ namespace VRC.Core
 
     public class ApiContainer : Object
     {
-        public object Cookies;
-        public object Populated;
-        public object PassedValidation;
-        public object Code;
-        public object Text;
-        public object Data;
-        public object DataTimestamp;
-        public object CreatedAt;
-        public object Error;
-        public object Model;
+        public System.Collections.Generic.Dictionary`2<string,string> Cookies; // 0x10
+        public bool Populated; // 0x18
+        public bool PassedValidation; // 0x19
+        public int Code; // 0x1C
+        public string Text; // 0x20
+        public object Data; // 0x28
+        public float DataTimestamp; // 0x30
+        public string CreatedAt; // 0x38
+        public string Error; // 0x40
+        public VRC.Core.ApiModel Model; // 0x48
+        public System.Action`1<VRC.Core.ApiContainer> OnError; // 0x50
+        public System.Action`1<VRC.Core.ApiContainer> OnSuccess; // 0x58
 
         // ── Methods ──
         public void get_Cookies(){} // RVA: 0x7FFD4E35C380
@@ -1294,24 +1301,26 @@ namespace VRC.Core
 
     public class ApiContentModel`1 : ApiModel
     {
-        public object VERSION;
-        public object name;
-        public object imageUrl;
-        public object authorName;
-        public object authorId;
-        public object assetUrl;
-        public object description;
-        public object tags;
-        public object thumbnailImageUrl;
-        public object version;
-        public object releaseStatus;
-        public object featured;
-        public object unityPackageUpdated;
-        public object unityVersion;
-        public object apiVersion;
-        public object platform;
-        public object assetVersion;
-        public object IsLocal;
+        public VRC.Core.AssetVersion VERSION;
+        public VRC.Core.AssetVersion name; // 0x8
+        public float imageUrl;
+        public float authorName;
+        public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiProp> authorId; // 0x10
+        public string assetUrl; // 0x68
+        public string description; // 0x70
+        public string tags; // 0x78
+        public string thumbnailImageUrl; // 0x80
+        public string version; // 0x88
+        public string releaseStatus; // 0x90
+        public System.Collections.Generic.List`1<string> featured; // 0x98
+        public string unityPackageUpdated; // 0xA0
+        public int unityVersion; // 0xA8
+        public string apiVersion; // 0xB0
+        public bool platform; // 0xB8
+        public bool assetVersion; // 0xB9
+        public string IsLocal; // 0xC0
+        public int <apiVersion>k__BackingField; // 0xC8
+        public string <platform>k__BackingField; // 0xD0
 
         // ── Methods ──
         public void get_VERSION(){} // RVA: 0x7FFD4E078A90
@@ -1369,10 +1378,10 @@ namespace VRC.Core
 
     public class ApiDictContainer : ApiContainer
     {
-        public object cacheLifetime;
-        public object ExpiryTime;
-        public object requiredFields;
-        public object ResponseDictionary;
+        public float cacheLifetime; // 0x60
+        public System.Nullable`1<long> ExpiryTime; // 0x68
+        public string[] requiredFields; // 0x78
+        public System.Collections.Generic.IReadOnlyDictionary`2<string,Token> ResponseDictionary;
 
         // ── Methods ──
         public void get_cacheLifetime(){} // RVA: 0x7FFD4E451E10
@@ -1394,9 +1403,9 @@ namespace VRC.Core
 
     public class ApiDroneSkin : ApiModel
     {
-        public object name;
-        public object assetBundleId;
-        public object viewfinderAssetBundleId;
+        public string name; // 0x68
+        public string assetBundleId; // 0x70
+        public string viewfinderAssetBundleId; // 0x78
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1410,18 +1419,16 @@ namespace VRC.Core
 
     public class ApiEconomyStore : ApiModel
     {
-        public object SellerId;
-        public object SellerDisplayName;
-        public object WorldId;
-        public object GroupId;
-        public object StoreStatus;
-        public object DisplayName;
-        public object Description;
-        public object Tags;
-        public object Listings;
-        public object ListingIDs;
-        public object IsGroupStore;
-        public object IsWorldStore;
+        public string SellerId; // 0x68
+        public string SellerDisplayName; // 0x70
+        public string WorldId; // 0x78
+        public string GroupId; // 0x80
+        public 0x6640DC78 StoreStatus; // 0x88
+        public string DisplayName; // 0x90
+        public string Description; // 0x98
+        public System.Collections.Generic.List`1<string> Tags; // 0xA0
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> Listings; // 0xA8
+        public System.Collections.Generic.List`1<string> ListingIDs; // 0xB0
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5728C270
@@ -1454,14 +1461,14 @@ namespace VRC.Core
 
     public class ApiFile : ApiModel
     {
-        public object name;
-        public object order;
-        public object ownerId;
-        public object mimeType;
-        public object extension;
-        public object versions;
-        public object IsInitialized;
-        public object IsPendingInit;
+        public string name; // 0x68
+        public System.Nullable`1<int> order; // 0x70
+        public string ownerId; // 0x78
+        public string mimeType; // 0x80
+        public string extension; // 0x88
+        public System.Collections.Generic.List`1<0x6640E0F0> versions; // 0x90
+        public bool IsInitialized; // 0x98
+        public bool IsPendingInit; // 0x99
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1531,17 +1538,17 @@ namespace VRC.Core
 
     public class ApiGroupGalleryImage : ApiModel
     {
-        public object name;
-        public object groupId;
-        public object galleryId;
-        public object fileId;
-        public object imageUrl;
-        public object createdAt;
-        public object approved;
-        public object approvedAt;
-        public object approvedByUserId;
-        public object submittedByUserId;
-        public object file;
+        public string name; // 0x68
+        public string groupId; // 0x70
+        public string galleryId; // 0x78
+        public string fileId; // 0x80
+        public string imageUrl; // 0x88
+        public System.DateTime createdAt; // 0x90
+        public bool approved; // 0x98
+        public System.DateTime approvedAt; // 0xA0
+        public string approvedByUserId; // 0xA8
+        public string submittedByUserId; // 0xB0
+        public VRC.Core.ApiFile file; // 0xB8
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1571,6 +1578,9 @@ namespace VRC.Core
 
     public class ApiImage : ApiFile
     {
+        public int MAX_IMAGES;
+        public string endpoint;
+
         // ── Methods ──
         public void ShouldCache(){} // RVA: 0x7FFD4E341320
         public void FetchList(){} // RVA: 0x7FFD57297680
@@ -1580,18 +1590,20 @@ namespace VRC.Core
 
     public class ApiInfoPushSystem : ApiModel
     {
-        public object isEnabled;
-        public object releaseStatus;
-        public object tags;
-        public object requireClientTags;
-        public object priority;
-        public object startDate;
-        public object endDate;
-        public object createdAt;
-        public object updatedAt;
-        public object hash;
-        public object originalManifestId;
-        public object data;
+        public float isEnabled;
+        public bool releaseStatus; // 0x68
+        public string tags; // 0x70
+        public System.Collections.Generic.List`1<string> requireClientTags; // 0x78
+        public System.Collections.Generic.List`1<string> priority; // 0x80
+        public int startDate; // 0x88
+        public System.DateTime endDate; // 0x90
+        public System.DateTime createdAt; // 0x98
+        public System.DateTime updatedAt; // 0xA0
+        public System.DateTime hash; // 0xA8
+        public string originalManifestId; // 0xB0
+        public string data; // 0xB8
+        public Data <data>k__BackingField; // 0xC0
+        public string ENDPOINT;
 
         // ── Methods ──
         public void get_isEnabled(){} // RVA: 0x7FFD4E409570
@@ -1626,8 +1638,8 @@ namespace VRC.Core
 
     public class ApiInventoryBundle : ApiModel
     {
-        public object inventoryItemsToInstantiate;
-        public object notificationDetails;
+        public System.Collections.Generic.List`1<string> inventoryItemsToInstantiate; // 0x68
+        public ApiBundleDropNotificationDetails notificationDetails; // 0x70
 
         // ── Methods ──
         public void get_inventoryItemsToInstantiate(){} // RVA: 0x7FFD4E3BCD50
@@ -1639,18 +1651,19 @@ namespace VRC.Core
 
     public class ApiInventoryBundleDrop : ApiModel
     {
-        public object name;
-        public object authorId;
-        public object targetGroup;
-        public object templateIds;
-        public object startDropDate;
-        public object endDropDate;
-        public object dropExpiryDate;
-        public object status;
-        public object tags;
-        public object created_at;
-        public object updated_at;
-        public object notificationDetails;
+        public string name;
+        public string authorId; // 0x68
+        public string targetGroup; // 0x70
+        public string templateIds; // 0x78
+        public System.Collections.Generic.List`1<string> startDropDate; // 0x80
+        public System.DateTime endDropDate; // 0x88
+        public System.DateTime dropExpiryDate; // 0x90
+        public System.DateTime status; // 0x98
+        public string tags; // 0xA0
+        public System.Collections.Generic.List`1<string> created_at; // 0xA8
+        public System.DateTime updated_at; // 0xB0
+        public System.DateTime notificationDetails; // 0xB8
+        public ApiBundleDropNotificationDetails <notificationDetails>k__BackingField; // 0xC0
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1683,45 +1696,57 @@ namespace VRC.Core
 
     public class ApiInventoryItem : ApiModel
     {
-        public object templateId;
-        public object name;
-        public object description;
-        public object imageUrl;
-        public object attribution;
-        public object flags;
-        public object tags;
-        public object collections;
-        public object itemType;
-        public object holderId;
-        public object firstAncestor;
-        public object firstAncestorHolderId;
-        public object expiryDate;
-        public object created_at;
-        public object updated_at;
-        public object template_created_at;
-        public object template_updated_at;
-        public object isArchived;
-        public object isSeen;
-        public object last_equipped_at;
-        public object equipSlots;
-        public object equipSlot;
-        public object quantity;
-        public object quantifiable;
-        public object defaultAttributes;
-        public object userAttributes;
-        public object validateUserAttributes;
-        public object notificationDetails;
-        public object status;
-        public object metadata;
-        public object Instantiatable;
-        public object Consumable;
-        public object Archivable;
-        public object Trashable;
-        public object Cloneable;
-        public object Equippable;
-        public object Equipped;
-        public object IsUserGenerated;
-        public object IsTemplate;
+        public string templateId;
+        public string name; // 0x68
+        public string description; // 0x70
+        public string imageUrl; // 0x78
+        public string attribution; // 0x80
+        public x flags; // 0x88
+        public System.Collections.Generic.List`1<string> tags; // 0x90
+        public System.Collections.Generic.List`1<string> collections; // 0x98
+        public System.Collections.Generic.List`1<string> itemType; // 0xA0
+        public string holderId; // 0xA8
+        public string firstAncestor; // 0xB0
+        public string firstAncestorHolderId; // 0xB8
+        public string expiryDate; // 0xC0
+        public System.DateTime created_at; // 0xC8
+        public System.DateTime updated_at; // 0xD0
+        public System.DateTime template_created_at; // 0xD8
+        public System.DateTime template_updated_at; // 0xE0
+        public System.DateTime isArchived; // 0xE8
+        public bool isSeen; // 0xF0
+        public bool last_equipped_at; // 0xF1
+        public System.DateTime equipSlots; // 0xF8
+        public System.Collections.Generic.List`1<string> equipSlot; // 0x100
+        public string quantity; // 0x108
+        public int quantifiable; // 0x110
+        public bool defaultAttributes; // 0x114
+        public System.Collections.Generic.Dictionary`2<string,0x6640EEB0> userAttributes; // 0x118
+        public System.Collections.Generic.Dictionary`2<string,object> validateUserAttributes; // 0x120
+        public bool notificationDetails; // 0x128
+        public ApiBundleDropNotificationDetails status; // 0x130
+        public string metadata; // 0x138
+        public VRC.Core.ApiModel Instantiatable; // 0x140
+        public string Consumable;
+        public string Archivable;
+        public string Trashable;
+        public string Cloneable;
+        public string Equippable;
+        public string Equipped;
+        public string IsUserGenerated;
+        public string IsTemplate;
+        public string FLAG_QUANTIFIABLE;
+        public string FLAG_QUANTIFIABLE_ALLOW_ZERO;
+        public string FLAG_PREMIUM;
+        public string FLAG_VRC_PLUS_EXCLUSIVE;
+        public string ITEM_TYPE_STICKER;
+        public string ITEM_TYPE_EMOJI;
+        public string ITEM_TYPE_BUNDLE;
+        public string ITEM_TYPE_PROP;
+        public string ITEM_TYPE_DRONE_SKIN;
+        public string ITEM_TYPE_PORTAL_SKIN;
+        public string ITEM_TYPE_WARP_EFFECT;
+        public string ITEM_TYPE_LOADING_SCREEN;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5729A140
@@ -1815,7 +1840,11 @@ namespace VRC.Core
 
     public class ApiInventoryJweToken : ApiModel
     {
-        public object token;
+        public string token; // 0x68
+        public string ENDPOINT_SPAWN;
+        public string ENDPOINT_CLONE_DIRECT;
+        public string ENDPOINT_CLONE_PEDESTAL;
+        public string ENDPOINT_CLONE_TOKEN;
 
         // ── Methods ──
         public void get_token(){} // RVA: 0x7FFD4E3BCD50
@@ -1829,23 +1858,22 @@ namespace VRC.Core
 
     public class ApiLedgerTransaction : ApiModel
     {
-        public object Amount;
-        public object RunningBalance;
-        public object Date;
-        public object ListingDisplayName;
-        public object ListingID;
-        public object ListingType;
-        public object Platform;
-        public object PurchaseId;
-        public object Reason;
-        public object ReasonLabel;
-        public object ToUserId;
-        public object ToUserDisplayName;
-        public object FromUserId;
-        public object FromUserDisplayName;
-        public object TransactionId;
-        public object TransactionLineId;
-        public object id;
+        public int Amount; // 0x68
+        public int RunningBalance; // 0x6C
+        public System.DateTime Date; // 0x70
+        public string ListingDisplayName; // 0x78
+        public string ListingID; // 0x80
+        public string ListingType; // 0x88
+        public string Platform; // 0x90
+        public string PurchaseId; // 0x98
+        public int Reason; // 0xA0
+        public 0x6640F9B0 ReasonLabel; // 0xA8
+        public string ToUserId; // 0xB0
+        public string ToUserDisplayName; // 0xB8
+        public string FromUserId; // 0xC0
+        public string FromUserDisplayName; // 0xC8
+        public long TransactionId; // 0xD0
+        public long TransactionLineId; // 0xD8
 
         // ── Methods ──
         public void get_Amount(){} // RVA: 0x7FFD4FBDAB50
@@ -1886,9 +1914,9 @@ namespace VRC.Core
 
     public class ApiLedgerTransactions : ApiModel
     {
-        public object StartDate;
-        public object EndDate;
-        public object Transactions;
+        public System.DateTime StartDate; // 0x68
+        public System.DateTime EndDate; // 0x70
+        public System.Collections.Generic.List`1<VRC.Core.ApiLedgerTransaction> Transactions; // 0x78
 
         // ── Methods ──
         public void get_StartDate(){} // RVA: 0x7FFD4E3BCD50
@@ -1902,8 +1930,7 @@ namespace VRC.Core
 
     public class ApiListContainer : ApiContainer
     {
-        public object ResponseList;
-        public object TotalCount;
+        public int ResponseList; // 0x60
 
         // ── Methods ──
         public void get_ResponseList(){} // RVA: 0x7FFD572ED040
@@ -1915,8 +1942,8 @@ namespace VRC.Core
 
     public class ApiLoadingScreen : ApiModel
     {
-        public object name;
-        public object assetBundleId;
+        public string name; // 0x68
+        public string assetBundleId; // 0x70
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1928,12 +1955,14 @@ namespace VRC.Core
 
     public class ApiMessage : ApiModel
     {
-        public object slot;
-        public object message;
-        public object messageType;
-        public object updatedAt;
-        public object remainingCooldownMinutes;
-        public object canBeUpdated;
+        public System.Collections.Generic.Dictionary`2<!,string> slot;
+        public int message;
+        public int messageType; // 0x68
+        public string updatedAt; // 0x70
+        public string remainingCooldownMinutes; // 0x78
+        public System.DateTime canBeUpdated; // 0x80
+        public int <remainingCooldownMinutes>k__BackingField; // 0x88
+        public bool <canBeUpdated>k__BackingField; // 0x8C
 
         // ── Methods ──
         public void get_slot(){} // RVA: 0x7FFD4FBDAB50
@@ -1960,15 +1989,31 @@ namespace VRC.Core
 
     public class ApiModel : Object
     {
-        public object id;
-        public object ExpiryTime;
-        public object Populated;
-        public object FailedValidation;
-        public object Endpoint;
-        public object FieldsMissingFromOriginalResponse;
-        public object FieldsLockedForNetworkUpdates;
-        public object RequiredProperties;
-        public object TargetProperties;
+        public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiContainer> id;
+        public int ExpiryTime;
+        public int Populated; // 0x8
+        public Unity.Profiling.ProfilerMarker FailedValidation; // 0x10
+        public string Endpoint; // 0x10
+        public System.Nullable`1<long> FieldsMissingFromOriginalResponse; // 0x18
+        public bool FieldsLockedForNetworkUpdates; // 0x28
+        public bool RequiredProperties; // 0x29
+        public string TargetProperties; // 0x30
+        public string _cacheIdInput; // 0x38
+        public string _cacheId; // 0x40
+        public System.Text.StringBuilder _cacheIdBuilder; // 0x18
+        public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.HashSet`1<string>> _missingFieldCache; // 0x20
+        public System.Collections.Generic.HashSet`1<string> <FieldsMissingFromOriginalResponse>k__BackingField; // 0x48
+        public System.Collections.Generic.HashSet`1<string> <FieldsLockedForNetworkUpdates>k__BackingField; // 0x50
+        public 0x6640FC18 supportedPlatforms; // 0x58
+        public int RESPONSE_FIELDS_HASH_OFFSET;
+        public int RESPONSE_FIELDS_HASH_MULTIPLIER;
+        public System.Type modelContainerType; // 0x60
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Reflection.MethodInfo> CreateFromJsonCache; // 0x28
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.ReadOnlyMemory`1<char>,object>> EnumValuesCache; // 0x30
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<string>> _requiredProperties; // 0x38
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Reflection.PropertyInfo>> _targetProperties; // 0x40
+        public System.Collections.Generic.Dictionary`2<System.Reflection.PropertyInfo,string> PropertyApiFieldNames; // 0x48
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<string,System.Reflection.PropertyInfo>> foundProperties; // 0x50
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD4E35C380
@@ -2043,7 +2088,7 @@ namespace VRC.Core
 
     public class ApiModelListContainer`1 : ApiListContainer
     {
-        public object ResponseModels;
+        public System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiModeration> ResponseModels; // 0x68
 
         // ── Methods ──
         public void get_ResponseModels(){} // RVA: 0x7FFD4E078E90
@@ -2054,18 +2099,20 @@ namespace VRC.Core
 
     public class ApiModeration : ApiModel
     {
-        public object moderationType;
-        public object moderatorUserId;
-        public object moderatorDisplayName;
-        public object targetUserId;
-        public object targetDisplayName;
-        public object reasonMessage;
-        public object details;
-        public object created;
-        public object expires;
-        public object isPermanent;
-        public object worldId;
-        public object instanceId;
+        public float moderationType;
+        public 0x66410198 moderatorUserId; // 0x68
+        public string moderatorDisplayName; // 0x70
+        public string targetUserId; // 0x78
+        public string targetDisplayName; // 0x80
+        public string reasonMessage; // 0x88
+        public string details; // 0x90
+        public System.Collections.Generic.Dictionary`2<string,object> created; // 0x98
+        public System.DateTime expires; // 0xA0
+        public System.DateTime isPermanent; // 0xA8
+        public System.Nullable`1<0x664101F0> worldId; // 0xB0
+        public bool instanceId; // 0xB8
+        public string <worldId>k__BackingField; // 0xC0
+        public string <instanceId>k__BackingField; // 0xC8
 
         // ── Methods ──
         public void get_moderationType(){} // RVA: 0x7FFD4FBDAB50
@@ -2106,24 +2153,21 @@ namespace VRC.Core
 
     public class ApiMutualFriend : ApiModel
     {
-        public object id;
-        public object displayName;
-        public object status;
-        public object statusDescription;
-        public object currentAvatarImageUrl;
-        public object avatarThumbnail;
-        public object currentAvatarTags;
-        public object profilePicOverride;
-        public object userIcon;
-        public object world;
-        public object instance;
-        public object instanceType;
-        public object travelingToWorld;
-        public object travelingToInstance;
-        public object platform;
-        public object groups;
-        public object profilePicImageUrl;
-        public object profilePicThumbnailImageUrl;
+        public string id; // 0x68
+        public string displayName; // 0x70
+        public string status; // 0x78
+        public string statusDescription; // 0x80
+        public string currentAvatarImageUrl; // 0x88
+        public string[] avatarThumbnail; // 0x90
+        public string currentAvatarTags; // 0x98
+        public string profilePicOverride; // 0xA0
+        public string userIcon; // 0xA8
+        public string world; // 0xB0
+        public string instance; // 0xB8
+        public string instanceType; // 0xC0
+        public string travelingToWorld; // 0xC8
+        public string travelingToInstance; // 0xD0
+        public string[] platform; // 0xD8
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD4E35C380
@@ -2166,19 +2210,18 @@ namespace VRC.Core
 
     public class ApiMutualGroup : ApiModel
     {
-        public object id;
-        public object name;
-        public object discriminator;
-        public object ownerId;
-        public object privacy;
-        public object memberCount;
-        public object shortCode;
-        public object description;
-        public object bannerId;
-        public object bannerUrl;
-        public object iconId;
-        public object iconUrl;
-        public object lastPostCreatedAt;
+        public string id; // 0x68
+        public string name; // 0x70
+        public string discriminator; // 0x78
+        public string ownerId; // 0x80
+        public int privacy; // 0x88
+        public string memberCount; // 0x90
+        public string shortCode; // 0x98
+        public string description; // 0xA0
+        public string bannerId; // 0xA8
+        public string bannerUrl; // 0xB0
+        public string iconId; // 0xB8
+        public string iconUrl; // 0xC0
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD4E35C380
@@ -2213,12 +2256,13 @@ namespace VRC.Core
 
     public class ApiPlayerModeration : ApiModel
     {
-        public object moderationType;
-        public object targetUserId;
-        public object targetDisplayName;
-        public object sourceUserId;
-        public object sourceDisplayName;
-        public object created;
+        public float moderationType;
+        public 0x664105B8 targetUserId; // 0x68
+        public string targetDisplayName; // 0x70
+        public string sourceUserId; // 0x78
+        public string sourceDisplayName; // 0x80
+        public string created; // 0x88
+        public System.DateTime <created>k__BackingField; // 0x90
 
         // ── Methods ──
         public void get_moderationType(){} // RVA: 0x7FFD4FBDAB50
@@ -2248,8 +2292,8 @@ namespace VRC.Core
 
     public class ApiPortalSkin : ApiModel
     {
-        public object name;
-        public object assetBundleId;
+        public string name; // 0x68
+        public string assetBundleId; // 0x70
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -2261,15 +2305,15 @@ namespace VRC.Core
 
     public class ApiPrint : ApiModel
     {
-        public object note;
-        public object authorId;
-        public object authorName;
-        public object worldId;
-        public object worldName;
-        public object ownerId;
-        public object timestamp;
-        public object files;
-        public object createdAt;
+        public string note; // 0x68
+        public string authorId; // 0x70
+        public string authorName; // 0x78
+        public string worldId; // 0x80
+        public string worldName; // 0x88
+        public string ownerId; // 0x90
+        public System.DateTime timestamp; // 0x98
+        public 0x664107C8 files; // 0xA0
+        public System.DateTime createdAt; // 0xA8
 
         // ── Methods ──
         public void get_note(){} // RVA: 0x7FFD4E3BCD50
@@ -2301,60 +2345,59 @@ namespace VRC.Core
 
     public class ApiProduct : ApiModel
     {
-        public object Type;
-        public object CreatedAt;
-        public object UpdatedAt;
-        public object SellerId;
-        public object AvatarId;
-        public object SellerDisplayName;
-        public object Name;
-        public object Description;
-        public object Subtitle;
-        public object ProductImageId;
-        public object ProductImageUrl;
-        public object attribution;
-        public object LicenseId;
-        public object Tags;
-        public object SoldByVrc;
-        public object UntilDate;
-        public object PurchaseToken;
-        public object IsVoided;
-        public object ParentListings;
-        public object ProductTypeLabel;
-        public object Quantifiable;
-        public object GroupId;
-        public object GroupRoleId;
-        public object GroupAccess;
-        public object GroupAccessRemove;
-        public object InventoryItemTemplateId;
-        public object InventoryItemType;
-        public object InventoryItemQuantity;
-        public object AssetDisabled;
-        public object ListingID;
-        public object ListingType;
-        public object Products;
-        public object ProductIDs;
-        public object HydratedProducts;
-        public object Active;
-        public object SubscriberExclusive;
-        public object Price;
-        public object VrcPlusDiscountPrice;
-        public object AvailableToPurchaseUntilDate;
-        public object CollaboratorUserId;
-        public object CollaboratorUserDisplayName;
-        public object Stock;
-        public object StoreIDs;
-        public object Duration;
-        public object DurationType;
-        public object Archived;
-        public object Permanent;
-        public object Instant;
-        public object Stackable;
-        public object Recurrable;
-        public object Refundable;
-        public object BuyerRefundable;
-        public object ContextPreventsPurchase;
-        public object ListingVariants;
+        public 0x66415158 Type; // 0x68
+        public System.DateTime CreatedAt; // 0x70
+        public System.DateTime UpdatedAt; // 0x78
+        public string SellerId; // 0x80
+        public string AvatarId; // 0x88
+        public string SellerDisplayName; // 0x90
+        public string Name; // 0x98
+        public string Description; // 0xA0
+        public string Subtitle; // 0xA8
+        public string ProductImageId; // 0xB0
+        public x ProductImageUrl; // 0xB8
+        public string attribution; // 0xC0
+        public System.Collections.Generic.List`1<string> LicenseId; // 0xC8
+        public bool Tags; // 0xD0
+        public System.DateTime SoldByVrc; // 0xD8
+        public System.Collections.Generic.Dictionary`2<string,object> UntilDate; // 0xE0
+        public bool PurchaseToken; // 0xE8
+        public System.Collections.Generic.List`1<string> IsVoided; // 0xF0
+        public string ParentListings; // 0xF8
+        public bool ProductTypeLabel; // 0x100
+        public string Quantifiable; // 0x108
+        public string GroupId; // 0x110
+        public bool GroupRoleId; // 0x118
+        public bool GroupAccess; // 0x119
+        public string GroupAccessRemove; // 0x120
+        public string InventoryItemTemplateId; // 0x128
+        public int InventoryItemType; // 0x130
+        public bool InventoryItemQuantity; // 0x134
+        public string AssetDisabled; // 0x138
+        public 0x664151B0 ListingID; // 0x140
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> ListingType; // 0x148
+        public System.Collections.Generic.List`1<string> Products; // 0x150
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> ProductIDs; // 0x158
+        public bool HydratedProducts; // 0x160
+        public bool Active; // 0x161
+        public int SubscriberExclusive; // 0x164
+        public int Price; // 0x168
+        public System.DateTime VrcPlusDiscountPrice; // 0x170
+        public string AvailableToPurchaseUntilDate; // 0x178
+        public string CollaboratorUserId; // 0x180
+        public System.Nullable`1<int> CollaboratorUserDisplayName; // 0x188
+        public System.Collections.Generic.List`1<string> Stock; // 0x190
+        public int StoreIDs; // 0x198
+        public 0x66415208 Duration; // 0x19C
+        public bool DurationType; // 0x1A0
+        public bool Archived; // 0x1A1
+        public bool Permanent; // 0x1A2
+        public bool Instant; // 0x1A3
+        public bool Stackable; // 0x1A4
+        public bool Recurrable; // 0x1A5
+        public bool Refundable; // 0x1A6
+        public bool BuyerRefundable; // 0x1A7
+        public System.Collections.Generic.List`1<VRC.Core.ApiProductVariant> ContextPreventsPurchase; // 0x1A8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD572E21E0
@@ -2476,9 +2519,9 @@ namespace VRC.Core
 
     public class ApiProductPurchaseStatus : ApiModel
     {
-        public object ProductId;
-        public object LicenseId;
-        public object Expiry;
+        public string ProductId; // 0x68
+        public string LicenseId; // 0x70
+        public System.DateTime Expiry; // 0x78
 
         // ── Methods ──
         public void get_ProductId(){} // RVA: 0x7FFD4E3BCD50
@@ -2493,11 +2536,11 @@ namespace VRC.Core
 
     public class ApiProductVariant : ApiModel
     {
-        public object ListingVariantID;
-        public object Quantity;
-        public object UnitPriceTokens;
-        public object NonRefundable;
-        public object EffectiveFrom;
+        public string ListingVariantID; // 0x68
+        public int Quantity; // 0x70
+        public int UnitPriceTokens; // 0x74
+        public bool NonRefundable; // 0x78
+        public System.DateTime EffectiveFrom; // 0x80
 
         // ── Methods ──
         public void get_ListingVariantID(){} // RVA: 0x7FFD4E3BCD50
@@ -2515,13 +2558,14 @@ namespace VRC.Core
 
     public class ApiProp : ApiContentModel`1
     {
-        public object _created_at;
-        public object _updated_at;
-        public object unityPackages;
-        public object spawnType;
-        public object worldPlacementMask;
-        public object scaleWithAvatar;
-        public object BundleSignature;
+        public System.DateTime _created_at; // 0xD8
+        public System.DateTime _updated_at; // 0xE0
+        public System.Collections.Generic.List`1<0x66410E50> unityPackages; // 0xE8
+        public int spawnType; // 0xF0
+        public int worldPlacementMask; // 0xF4
+        public bool scaleWithAvatar; // 0xF8
+        public string BundleSignature;
+        public string <BundleSignature>k__BackingField; // 0x100
 
         // ── Methods ──
         public void get__created_at(){} // RVA: 0x7FFD4E960F70
@@ -2548,8 +2592,8 @@ namespace VRC.Core
 
     public class ApiPropItemMetadata : ApiModel
     {
-        public object propId;
-        public object worldPlacementMask;
+        public string propId; // 0x68
+        public int worldPlacementMask; // 0x70
 
         // ── Methods ──
         public void get_propId(){} // RVA: 0x7FFD4E3BCD50
@@ -2561,86 +2605,84 @@ namespace VRC.Core
 
     public class ApiPurchase : ApiModel
     {
-        public object ListingId;
-        public object ListingDisplayName;
-        public object ListingImageId;
-        public object ListingImageUrl;
-        public object ListingType;
-        public object ListingVariantId;
-        public object SellerId;
-        public object SellerDisplayName;
-        public object BuyerId;
-        public object BuyerDisplayName;
-        public object ReceiverId;
-        public object ReceiverDisplayName;
-        public object id;
-        public object Price;
-        public object Quantity;
-        public object Duration;
-        public object DurationType;
-        public object PurchaseDate;
-        public object PurchaseStartDate;
-        public object PurchaseEndDate;
-        public object PurchaseActive;
-        public object PurchaseLatest;
-        public object Products;
-        public object IsStackable;
-        public object IsRecurrable;
-        public object PurchaseToken;
-        public object IsVoided;
-        public object IsGift;
-        public object PurchaseUnitPrice;
-        public object IsRefundable;
-        public object StackDurationType;
-        public object StackDuration;
-        public object StackPrice;
-        public object StackQuantity;
-        public object StackQuantityConsumed;
-        public object StackQuantityConsumedAtPurchase;
-        public object StackQuantityUnconsumed;
-        public object StackQuantityUnconsumedAtPurchase;
-        public object TiliaTransactionId;
-        public object WillRecur;
-        public object ListingCurrentlyAvailable;
-        public object CreatedAtDate;
-        public object PurchaseID;
-        public object UpdatedAtDate;
-        public object PurchaseOriginalEndDate;
-        public object BuyerIP;
-        public object IsRecur;
-        public object IsUnityLocalTest;
-        public object LicenseID;
-        public object PurchaseStacks;
-        public object PurchaseTiliaFee;
-        public object PurchaseType;
-        public object PurchaseValue;
-        public object PurchaseVrcFee;
-        public object RefundStatus;
-        public object SellerIP;
-        public object StackTiliaFee;
-        public object StackValue;
-        public object StackVrcFee;
-        public object StackQuantityVoided;
-        public object VoidedBy;
-        public object VoidedByAdmin;
-        public object VoidedOnDate;
-        public object PurchaseTiliaFeeBasedOnStack;
-        public object PurchaseTiliaFeeDrift;
-        public object PurchaseVrcFeeBasedOnStack;
-        public object Refunded;
-        public object RefundedBy;
-        public object RefundedByAdmin;
-        public object RefundedOnDate;
-        public object RefundedStacks;
-        public object RefundReason;
-        public object RefundReasonType;
-        public object RefundTiliaTransactionId;
-        public object RefundTokenComponents;
-        public object RefundTokens;
-        public object RefundTokenSources;
-        public object RefundType;
-        public object VoidedStacks;
-        public object VoidedCompletely;
+        public string ListingId; // 0x68
+        public string ListingDisplayName; // 0x70
+        public string ListingImageId; // 0x78
+        public 0x664151B0 ListingImageUrl; // 0x80
+        public string ListingType; // 0x88
+        public string ListingVariantId; // 0x90
+        public string SellerId; // 0x98
+        public string SellerDisplayName; // 0xA0
+        public string BuyerId; // 0xA8
+        public string BuyerDisplayName; // 0xB0
+        public string ReceiverId; // 0xB8
+        public int ReceiverDisplayName; // 0xC0
+        public int id; // 0xC4
+        public int Price; // 0xC8
+        public 0x66415208 Quantity; // 0xCC
+        public System.DateTime Duration; // 0xD0
+        public System.DateTime DurationType; // 0xD8
+        public System.DateTime PurchaseDate; // 0xE0
+        public bool PurchaseStartDate; // 0xE8
+        public bool PurchaseEndDate; // 0xE9
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> PurchaseActive; // 0xF0
+        public bool PurchaseLatest; // 0xF8
+        public bool Products; // 0xF9
+        public System.Collections.Generic.Dictionary`2<string,object> IsStackable; // 0x100
+        public bool IsRecurrable; // 0x108
+        public bool PurchaseToken; // 0x109
+        public int IsVoided; // 0x10C
+        public bool IsGift; // 0x110
+        public string PurchaseUnitPrice; // 0x118
+        public int IsRefundable; // 0x120
+        public int StackDurationType; // 0x124
+        public int StackDuration; // 0x128
+        public int StackPrice; // 0x12C
+        public int StackQuantity; // 0x130
+        public int StackQuantityConsumed; // 0x134
+        public int StackQuantityConsumedAtPurchase; // 0x138
+        public string StackQuantityUnconsumed; // 0x140
+        public bool StackQuantityUnconsumedAtPurchase; // 0x148
+        public bool TiliaTransactionId; // 0x149
+        public System.DateTime WillRecur; // 0x150
+        public string ListingCurrentlyAvailable; // 0x158
+        public System.DateTime CreatedAtDate; // 0x160
+        public System.DateTime PurchaseID; // 0x168
+        public string UpdatedAtDate; // 0x170
+        public bool PurchaseOriginalEndDate; // 0x178
+        public bool BuyerIP; // 0x179
+        public string IsRecur; // 0x180
+        public System.Collections.Generic.List`1<string> IsUnityLocalTest; // 0x188
+        public int LicenseID; // 0x190
+        public string PurchaseStacks; // 0x198
+        public int PurchaseTiliaFee; // 0x1A0
+        public int PurchaseType; // 0x1A4
+        public string PurchaseValue; // 0x1A8
+        public string PurchaseVrcFee; // 0x1B0
+        public int RefundStatus; // 0x1B8
+        public int SellerIP; // 0x1BC
+        public int StackTiliaFee; // 0x1C0
+        public bool StackValue; // 0x1C4
+        public string StackVrcFee; // 0x1C8
+        public bool StackQuantityVoided; // 0x1D0
+        public System.DateTime VoidedBy; // 0x1D8
+        public int VoidedByAdmin; // 0x1E0
+        public int VoidedOnDate; // 0x1E4
+        public int PurchaseTiliaFeeBasedOnStack; // 0x1E8
+        public bool PurchaseTiliaFeeDrift; // 0x1EC
+        public string PurchaseVrcFeeBasedOnStack; // 0x1F0
+        public bool Refunded; // 0x1F8
+        public System.DateTime RefundedBy; // 0x200
+        public System.Collections.Generic.List`1<string> RefundedByAdmin; // 0x208
+        public string RefundedOnDate; // 0x210
+        public string RefundedStacks; // 0x218
+        public string RefundReason; // 0x220
+        public object RefundReasonType; // 0x228
+        public int RefundTiliaTransactionId; // 0x230
+        public object RefundTokenComponents; // 0x238
+        public string RefundTokens; // 0x240
+        public System.Collections.Generic.List`1<string> RefundTokenSources; // 0x248
+        public bool RefundType; // 0x250
 
         // ── Methods ──
         public void get_ListingId(){} // RVA: 0x7FFD4E3BCD50
@@ -2813,14 +2855,14 @@ namespace VRC.Core
 
     public class ApiReport : ApiModel
     {
-        public object type;
-        public object category;
-        public object reason;
-        public object contentId;
-        public object description;
-        public object details;
-        public object contentName;
-        public object contentThumbnailImageUrl;
+        public string type; // 0x68
+        public string category; // 0x70
+        public string reason; // 0x78
+        public string contentId; // 0x80
+        public string description; // 0x88
+        public 0x664115E0 details; // 0x90
+        public string contentName; // 0x98
+        public string contentThumbnailImageUrl; // 0xA0
 
         // ── Methods ──
         public void get_type(){} // RVA: 0x7FFD4E3BCD50
@@ -2847,9 +2889,9 @@ namespace VRC.Core
 
     public class ApiSharedConnectionCounts : ApiModel
     {
-        public object CacheLifetime;
-        public object friends;
-        public object groups;
+        public float CacheLifetime;
+        public int friends; // 0x68
+        public int groups; // 0x6C
 
         // ── Methods ──
         public void get_CacheLifetime(){} // RVA: 0x7FFD57346AF0
@@ -2864,24 +2906,21 @@ namespace VRC.Core
 
     public class ApiStoreShelf : ApiModel
     {
-        public object ShelfTitle;
-        public object ShelfDescription;
-        public object ShelfLayout;
-        public object UpdatedAt;
-        public object CreatedAt;
-        public object ListingIds;
-        public object ShelfVisibility;
-        public object StoreId;
-        public object SellerId;
-        public object HighlightListingId;
-        public object ShelfTabBackgroundImageId;
-        public object ShelfTabBackgroundImageUrl;
-        public object ShelfBackgroundImageId;
-        public object ShelfBackgroundImageUrl;
-        public object ShelfIconImageId;
-        public object ShelfIconImageUrl;
-        public object Listings;
-        public object HighlightListing;
+        public string ShelfTitle; // 0x68
+        public string ShelfDescription; // 0x70
+        public string ShelfLayout; // 0x78
+        public System.DateTime UpdatedAt; // 0x80
+        public System.DateTime CreatedAt; // 0x88
+        public System.Collections.Generic.List`1<string> ListingIds; // 0x90
+        public string ShelfVisibility; // 0x98
+        public string StoreId; // 0xA0
+        public string SellerId; // 0xA8
+        public string HighlightListingId; // 0xB0
+        public string ShelfTabBackgroundImageId; // 0xB8
+        public string ShelfTabBackgroundImageUrl; // 0xC0
+        public string ShelfBackgroundImageId; // 0xC8
+        public System.Collections.Generic.List`1<VRC.Core.ApiProduct> ShelfBackgroundImageUrl; // 0xD0
+        public VRC.Core.ApiProduct ShelfIconImageId; // 0xD8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57341300
@@ -2922,21 +2961,20 @@ namespace VRC.Core
 
     public class ApiTransaction : ApiModel
     {
-        public object ListingID;
-        public object Name;
-        public object SellerId;
-        public object FromUserDisplayName;
-        public object SellerDisplayName;
-        public object BuyerId;
-        public object BuyerDisplayName;
-        public object Type;
-        public object Date;
-        public object Amount;
-        public object RunningBalance;
-        public object ImageId;
-        public object PurchaseId;
-        public object TiliaRef;
-        public object TransactionImageUrl;
+        public string ListingID; // 0x68
+        public string Name; // 0x70
+        public string SellerId; // 0x78
+        public string FromUserDisplayName; // 0x80
+        public string SellerDisplayName; // 0x88
+        public string BuyerId; // 0x90
+        public string BuyerDisplayName; // 0x98
+        public string Type; // 0xA0
+        public System.DateTime Date; // 0xA8
+        public int Amount; // 0xB0
+        public int RunningBalance; // 0xB4
+        public string ImageId; // 0xB8
+        public string PurchaseId; // 0xC0
+        public string TiliaRef; // 0xC8
 
         // ── Methods ──
         public void get_ListingID(){} // RVA: 0x7FFD4E3BCD50
@@ -2974,9 +3012,9 @@ namespace VRC.Core
 
     public class ApiUserPermission : ApiModel
     {
-        public object ownerId;
-        public object name;
-        public object data;
+        public string ownerId; // 0x68
+        public string name; // 0x70
+        public System.Collections.Generic.Dictionary`2<string,object> data; // 0x78
 
         // ── Methods ──
         public void get_ownerId(){} // RVA: 0x7FFD4E3BCD50
@@ -2990,6 +3028,10 @@ namespace VRC.Core
 
     public class ApiUserPermissions : Object
     {
+        public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiUserPermission> permissions; // 0x10
+        public int MAX_USER_ICONS;
+        public int MAX_USER_IMAGES;
+
         // ── Methods ──
         public void GetPermission_UserIcon(){} // RVA: 0x7FFD5730F720
         public void GetPermission_InvitePhotos(){} // RVA: 0x7FFD5730F7A0
@@ -3008,15 +3050,15 @@ namespace VRC.Core
 
     public class ApiVRChatProductDetails : ApiModel
     {
-        public object enabled;
-        public object productType;
-        public object Product;
-        public object endpoint;
-        public object stores;
-        public object subscriptionInfo;
-        public object giftInfo;
-        public object tokenInfo;
-        public object description;
+        public bool enabled; // 0x68
+        public string productType; // 0x70
+        public System.Nullable`1<0x66413A50> Product; // 0x78
+        public string endpoint; // 0x80
+        public System.Collections.Generic.Dictionary`2<string,ApiVRChatProductStore> stores; // 0x88
+        public 0x664139F8 subscriptionInfo; // 0x90
+        public 0x66413948 giftInfo; // 0x98
+        public 0x664139A0 tokenInfo; // 0xA0
+        public string description; // 0xA8
 
         // ── Methods ──
         public void get_enabled(){} // RVA: 0x7FFD4E409570
@@ -3041,8 +3083,8 @@ namespace VRC.Core
 
     public class ApiViewfinderSkin : ApiModel
     {
-        public object name;
-        public object assetBundleId;
+        public string name; // 0x68
+        public string assetBundleId; // 0x70
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -3054,8 +3096,8 @@ namespace VRC.Core
 
     public class ApiWarpEffectSkin : ApiModel
     {
-        public object name;
-        public object assetBundleId;
+        public string name; // 0x68
+        public string assetBundleId; // 0x70
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -3067,55 +3109,54 @@ namespace VRC.Core
 
     public class ApiWorld : ApiModel
     {
-        public object VERSION;
-        public object name;
-        public object imageUrl;
-        public object thumbnailImageUrl;
-        public object authorName;
-        public object releaseStatus;
-        public object capacity;
-        public object recommendedCapacity;
-        public object occupants;
-        public object publicOccupants;
-        public object privateOccupants;
-        public object authorId;
-        public object createdAt;
-        public object assetUrl;
-        public object description;
-        public object tags;
-        public object urlList;
-        public object unityPackageUrl;
-        public object version;
-        public object unityVersion;
-        public object apiVersion;
-        public object latestAssetVersion;
-        public object created_at;
-        public object updated_at;
-        public object publicationDate;
-        public object labsPublicationDate;
-        public object udonProducts;
-        public object storeId;
-        public object platform;
-        public object worldInstances;
-        public object isAdminApproved;
-        public object IsCommunityLabsWorld;
-        public object IsPublicPublishedWorld;
-        public object IsInternalWorld;
-        public object unityPackageUpdated;
-        public object organization;
-        public object shouldAddToAuthor;
-        public object favoriteId;
-        public object favorites;
-        public object visits;
-        public object popularity;
-        public object heat;
-        public object detailed;
-        public object defaultContentSettings;
-        public object assetVersion;
-        public object BundleSignature;
-        public object isCurated;
-        public object publicTags;
-        public object IsLocal;
+        public VRC.Core.AssetVersion VERSION;
+        public VRC.Core.AssetVersion name; // 0x8
+        public float imageUrl;
+        public float thumbnailImageUrl;
+        public string authorName;
+        public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiWorld> releaseStatus; // 0x10
+        public string capacity; // 0x68
+        public string recommendedCapacity; // 0x70
+        public string occupants; // 0x78
+        public string publicOccupants; // 0x80
+        public string privateOccupants; // 0x88
+        public int authorId; // 0x90
+        public int createdAt; // 0x94
+        public int assetUrl; // 0x98
+        public int description; // 0x9C
+        public int tags; // 0xA0
+        public string urlList; // 0xA8
+        public System.DateTime unityPackageUrl; // 0xB0
+        public string version; // 0xB8
+        public string unityVersion; // 0xC0
+        public System.Collections.Generic.List`1<string> apiVersion; // 0xC8
+        public System.Collections.Generic.List`1<string> latestAssetVersion; // 0xD0
+        public string created_at; // 0xD8
+        public int updated_at; // 0xE0
+        public string publicationDate; // 0xE8
+        public int labsPublicationDate; // 0xF0
+        public int udonProducts; // 0xF4
+        public System.DateTime storeId; // 0xF8
+        public System.DateTime platform; // 0x100
+        public System.DateTime worldInstances; // 0x108
+        public System.DateTime isAdminApproved; // 0x110
+        public System.Collections.Generic.List`1<string> IsCommunityLabsWorld; // 0x118
+        public string IsPublicPublishedWorld; // 0x120
+        public string IsInternalWorld; // 0x128
+        public System.Collections.Generic.List`1<VRC.Core.ApiWorldInstance> unityPackageUpdated; // 0x130
+        public bool organization; // 0x138
+        public string shouldAddToAuthor; // 0x140
+        public bool favoriteId; // 0x148
+        public string favorites; // 0x150
+        public int visits; // 0x158
+        public int popularity; // 0x15C
+        public int heat; // 0x160
+        public int detailed; // 0x164
+        public bool defaultContentSettings; // 0x168
+        public System.Collections.Generic.Dictionary`2<string,bool> assetVersion; // 0x170
+        public string BundleSignature; // 0x178
+        public bool isCurated; // 0x180
+        public System.Text.RegularExpressions.Regex publicTags; // 0x18
 
         // ── Methods ──
         public void get_VERSION(){} // RVA: 0x7FFD573119F0
@@ -3237,45 +3278,47 @@ namespace VRC.Core
 
     public class ApiWorldInstance : ApiModel
     {
-        public object location;
-        public object name;
-        public object shortName;
-        public object secureName;
-        public object displayName;
-        public object worldId;
-        public object instanceId;
-        public object instanceCode;
-        public object world;
-        public object type;
-        public object ownerId;
-        public object tags;
-        public object count;
-        public object capacity;
-        public object recommendedCapacity;
-        public object platforms;
-        public object nonce;
-        public object clientVersion;
-        public object gameServerVersion;
-        public object region;
-        public object active;
-        public object queueEnabled;
-        public object hasCapacityForYou;
-        public object queueSize;
-        public object closedAt;
-        public object hardClose;
-        public object ageGate;
-        public object contentSettings;
-        public object IsClosed;
-        public object IsAgeGated;
-        public object playerPersistenceEnabled;
-        public object calendarEntryId;
-        public object users;
-        public object ShouldSeeInstanceByType;
-        public object roleIds;
-        public object roleRestricted;
+        public float location;
+        public int name;
+        public string shortName; // 0x68
+        public string secureName; // 0x70
+        public string displayName; // 0x78
+        public string worldId; // 0x80
+        public string instanceId; // 0x88
+        public string instanceCode; // 0x90
+        public string world; // 0x98
+        public string type; // 0xA0
+        public VRC.Core.ApiWorld ownerId; // 0xA8
+        public 0x66414FF8 tags; // 0xB0
+        public string count; // 0xB8
+        public System.Collections.Generic.List`1<string> capacity; // 0xC0
+        public int recommendedCapacity; // 0xC8
+        public int platforms; // 0xCC
+        public int nonce; // 0xD0
+        public System.Collections.Generic.Dictionary`2<string,int> clientVersion; // 0xD8
+        public string gameServerVersion; // 0xE0
+        public string region; // 0xE8
+        public int active; // 0xF0
+        public 0x66415260 queueEnabled; // 0xF4
+        public bool hasCapacityForYou; // 0xF8
+        public bool queueSize; // 0xF9
+        public bool closedAt; // 0xFA
+        public int hardClose; // 0xFC
+        public System.DateTime ageGate; // 0x100
+        public bool contentSettings; // 0x108
+        public bool IsClosed; // 0x109
+        public System.Collections.Generic.Dictionary`2<string,bool> IsAgeGated; // 0x110
+        public bool playerPersistenceEnabled; // 0x118
+        public string calendarEntryId; // 0x120
+        public System.Collections.Generic.List`1<VRC.Core.APIUser> users; // 0x128
+        public System.Collections.Generic.List`1<string> ShouldSeeInstanceByType; // 0x130
+        public bool roleIds; // 0x138
+        public string roleRestricted; // 0x140
         public object groupAccessType;
-        public object id;
-        public object ProbablyExistsOnAPI;
+        public bool id; // 0x8
+        public System.Nullable`1<long> ProbablyExistsOnAPI; // 0x10
+        public long MinPostIntervalSeconds;
+        public long MaxPostDelaySeconds;
 
         // ── Methods ──
         public void get_location(){} // RVA: 0x7FFD4E3BCD50
@@ -3384,9 +3427,9 @@ namespace VRC.Core
 
     public class AssetVersion : Object
     {
-        public object UnityVersion;
-        public object UnityVersionObj;
-        public object ApiVersion;
+        public string UnityVersion; // 0x10
+        public VRC.Core.UnityVersion UnityVersionObj; // 0x18
+        public int ApiVersion; // 0x2C
 
         // ── Methods ──
         public void get_UnityVersion(){} // RVA: 0x7FFD57331E10
@@ -3400,6 +3443,10 @@ namespace VRC.Core
 
     public class BaseConfig : Object
     {
+        public System.Collections.Generic.Dictionary`2<string,object> config; // 0x10
+        public System.Collections.Generic.IReadOnlyList`1<object> EmptyList;
+        public System.Collections.Generic.IReadOnlyDictionary`2<string,object> EmptyDictionary; // 0x8
+
         // ── Methods ──
         public void GetValue(){} // RVA: 0x7FFD573479E0
         public void Init(){} // RVA: 0x7FFD57347A90
@@ -3423,9 +3470,10 @@ namespace VRC.Core
 
     public class ConfigManager : Object
     {
-        public object LocalConfig;
-        public object WorldConfig;
-        public object RemoteConfig;
+        public string LocalConfig;
+        public VRC.Core.Config.Interfaces.IReadWriteConfig WorldConfig;
+        public VRC.Core.Config.Interfaces.IReadWriteConfig RemoteConfig; // 0x8
+        public VRC.Core.Config.Interfaces.IReadOnlyConfig <RemoteConfig>k__BackingField; // 0x10
 
         // ── Methods ──
         public void get_LocalConfig(){} // RVA: 0x7FFD57348D40
@@ -3442,6 +3490,9 @@ namespace VRC.Core
 
     public class ExtensionMethods : Object
     {
+        public System.Collections.Generic.Stack`1<int> _componentIndices; // 0xFFFF
+        public System.Text.StringBuilder _cachedStringBuilder;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD573527B0
         public void GetOrAddComponent(){} // RVA: 0x7FFD4E2ADC40
@@ -3459,11 +3510,16 @@ namespace VRC.Core
 
     public class FavoriteArea : AreaBase
     {
-        public object Endpoint;
-        public object Worlds;
-        public object VRCPlusWorlds;
-        public object Avatars;
-        public object Friends;
+        public System.Collections.Generic.Dictionary`2<0x66414F48,int> Endpoint;
+        public System.Collections.Generic.Dictionary`2<0x66414F48,int> Worlds; // 0x8
+        public System.Collections.Generic.Dictionary`2<0x66414F48,int> VRCPlusWorlds; // 0x10
+        public System.Collections.Generic.Dictionary`2<0x66414F48,string> Avatars; // 0x18
+        public System.Collections.Generic.IReadOnlyList`1<System.Collections.Generic.IReadOnlyDictionary`2<string,string>> Friends; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,int> DefaultListSorting; // 0x18
+        public System.Collections.Generic.List`1<VRC.Core.FavoriteListModel> _worlds; // 0x20
+        public System.Collections.Generic.List`1<VRC.Core.FavoriteListModel> _vrcPlusWorlds; // 0x28
+        public System.Collections.Generic.List`1<VRC.Core.FavoriteListModel> _avatars; // 0x30
+        public System.Collections.Generic.List`1<VRC.Core.FavoriteListModel> _friends; // 0x38
 
         // ── Methods ──
         public void get_Endpoint(){} // RVA: 0x7FFD573287B0
@@ -3499,16 +3555,19 @@ namespace VRC.Core
 
     public class FavoriteListModel : ApiModel
     {
-        public object Endpoint;
-        public object ownerId;
-        public object ownerDisplayName;
-        public object name;
-        public object displayName;
-        public object type;
-        public object visibility;
-        public object tags;
-        public object requiresSubscription;
-        public object Favorites;
+        public int Endpoint;
+        public int ownerId;
+        public string ownerDisplayName; // 0x68
+        public string name; // 0x70
+        public string displayName; // 0x78
+        public string type; // 0x80
+        public 0x66414F48 visibility; // 0x88
+        public 0x66414E98 tags; // 0x8C
+        public System.Collections.Generic.List`1<string> requiresSubscription; // 0x90
+        public bool Favorites; // 0x98
+        public System.Collections.Generic.List`1<0x66416700> _favorites; // 0xA0
+        public System.Collections.Generic.Dictionary`2<string,0x66416700> _favoritesById; // 0xA8
+        public System.Collections.Generic.Dictionary`2<string,0x66416700> _favoritesByContentId; // 0xB0
 
         // ── Methods ──
         public void get_Endpoint(){} // RVA: 0x7FFD573414A0
@@ -3551,6 +3610,18 @@ namespace VRC.Core
 
     public class GC : Object
     {
+        public int ÎÏÏÏÎÎÌÌÎÍÎÎÍÌÍÍÍÍÎÎÏÌÍ;
+        public float ÌÍÎÍÍÍÍÍÌÍÎÌÏÏÎÌÍÎÏÎÌÏÏ;
+        public int ÏÌÎÎÎÏÏÏÍÍÌÎÏÏÍÎÎÏÍÏÍÏÌ;
+        public string ÍÎÌÍÍÏÎÎÌÍÌÎÌÏÍÌÎÍÍÎÌÏÎ;
+        public object ÏÍÎÏÎÌÍÍÍÌÎÏÍÏÏÏÎÍÏÌÍÌÏ;
+        public float ÌÏÍÌÏÏÎÎÏÎÏÎÎÍÍÏÎÌÌÏÏÌÎ; // 0x8
+        public int ÍÌÌÎÎÎÎÌÎÏÌÏÏÏÏÏÌÏÎÎÌÏÍ; // 0xC
+        public VRC.Profiling.ProfilerMarker ÏÎÏÌÍÍÌÍÏÏÎÌÏÎÏÌÎÎÏÍÏÎÌ; // 0x10
+        public VRC.Profiling.ProfilerMarker ÍÌÍÎÌÎÏÌÏÌÌÍÎÎÌÏÍÍÌÌÏÎÌ; // 0x20
+        public VRC.Profiling.ProfilerMarker ÍÏÍÌÏÎÏÎÎÏÏÏÎÎÎÍÌÍÌÎÎÍÌ; // 0x30
+        public VRC.Profiling.ProfilerMarker ÎÌÏÌÏÍÎÌÌÍÎÍÎÌÎÍÍÎÌÎÍÍÍ; // 0x40
+
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD4EDC4840
         public void Equals(){} // RVA: 0x7FFD4EDC4900
@@ -3578,7 +3649,7 @@ namespace VRC.Core
 
     public class LazySingleton`1 : MonoBehaviour
     {
-        public object Instance;
+        public System.Lazy`1<T> Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD4E2ADC40
@@ -3589,6 +3660,9 @@ namespace VRC.Core
 
     public class LocalConfig : BaseConfig
     {
+        public string configPath; // 0x18
+        public bool autosave; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57349470
         public void SetValue(){} // RVA: 0x7FFD573495B0
@@ -3598,6 +3672,8 @@ namespace VRC.Core
 
     public class MemoryEqualityComparer`1 : Object
     {
+        public VRC.Core.MemoryEqualityComparer`1<char> Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void Equals(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -3607,7 +3683,7 @@ namespace VRC.Core
 
     public class NullLogger : Object
     {
-        public object IsEnabled;
+        public <>c IsEnabled;
 
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0x7FFD4E341320
@@ -3624,6 +3700,16 @@ namespace VRC.Core
 
     public class PipelineManager : MonoBehaviour
     {
+        public System.Collections.Generic.Dictionary`2<0x66644F20,string> BlueprintIdPrefixMap;
+        public bool launchedFromSDKPipeline; // 0x20
+        public bool completedSDKPipeline; // 0x21
+        public string blueprintId; // 0x28
+        public VRC.Core.APIUser user; // 0x30
+        public 0x66644F20 contentType; // 0x38
+        public string assetBundleUnityVersion; // 0x40
+        public 0x66644F78 fallbackStatus; // 0x48
+        public ÍÏÎÎÍÏÎÏÎÍÌÏÍÎÏÍÍÏ owned; // 0x4C
+
         // ── Methods ──
         public void IsMyContent(){} // RVA: 0x7FFD56E4DED0
         public void AssignId(){} // RVA: 0x7FFD56E4E1A0 | overloaded x2
@@ -3637,8 +3723,9 @@ namespace VRC.Core
 
     public class PriorityQueue`1 : Object
     {
-        public object Data;
-        public object Count;
+        public System.Collections.Generic.List`1<ÌÏÎÎÎÌÍÎÌÍÍÎÎÍÍÌÎÍÎÏÏÌÎ> Data; // 0x10
+        public System.Collections.Generic.List`1<ÌÏÎÎÎÌÍÎÌÍÍÎÎÍÍÌÎÍÎÏÏÌÎ> Count; // 0x18
+        public ReverseComparer<ÌÏÎÎÎÌÍÎÌÍÍÎÎÍÍÌÎÍÎÏÏÌÎ> reverseComparer;
 
         // ── Methods ──
         public void get_Data(){} // RVA: 0x7FFD4E078E90
@@ -3665,9 +3752,12 @@ namespace VRC.Core
 
     public class UnityEventFilter : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_918;
+        public System.Collections.Generic.HashSet`1<System.Type> _name;
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<System.Type,ÌÏÍÏÍÏÎÌÏÎÎÎÏÌÏÏÌÎÎÎÎÎÏ>> _hideFlags; // 0x8
+        public System.Lazy`1<System.Collections.Generic.Dictionary`2<System.Type,ÏÎÎÌÌÌÌÌÌÌÏÏÌÍÏÌÏÏÍÍÍÏÍ>> f_918; // 0x10
+        public System.Lazy`1<string> ÍÍÌÏÍÎÌÎÍÏÎÎÌÎÎÍÏÌÌÍÎÏÏ; // 0x18
+        public System.Collections.Generic.Dictionary`2<System.Type,ÌÏÍÏÍÏÎÌÏÎÎÎÏÌÏÏÌÎÎÎÎÎÏ> ÌÏÌÌÎÏÏÏÌÏÌÏÌÎÌÍÎÎÌÏÌÍÍ; // 0x20
+        public System.Collections.Generic.HashSet`1<string> ÎÏÏÍÏÏÌÍÌÎÌÏÏÏÏÎÎÌÍÌÌÏÏ; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EE7BBF0
@@ -3692,6 +3782,13 @@ namespace VRC.Core
 
     public class UnityVersion : ValueType
     {
+        public System.Text.RegularExpressions.Regex versionRegex;
+        public int major; // 0x10
+        public int minor; // 0x14
+        public int update; // 0x18
+        public int revision; // 0x1C
+        public bool patch; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57354C70
         public void CompareTo(){} // RVA: 0x7FFD57354C90
@@ -3703,6 +3800,10 @@ namespace VRC.Core
 
     public class UpdateDelegator : Object
     {
+        public object _queueLock;
+        public VRC.Core.PriorityQueue`1<QueuedJob> _jobQueue; // 0x8
+        public int MaxJobsPerFrame;
+
         // ── Methods ──
         public void Dispatch(){} // RVA: 0x7FFD57355940
         public void DispatchAfter(){} // RVA: 0x7FFD57355C60
@@ -3713,7 +3814,8 @@ namespace VRC.Core
 
     public class VRCCertificatePolicy : Object
     {
-        public object _vRCCertificatePolicy;
+        public VRC.Core.VRCCertificatePolicy _vRCCertificatePolicy;
+        public System.Net.ICertificatePolicy ÎÌÎÍÍÎÏÏÍÍÎÍÌÌÌÏÎÍÏÍÏÍÎ; // 0x8
 
         // ── Methods ──
         public void CheckValidationResult(){} // RVA: 0x7FFD4EDFEDD0
@@ -3737,13 +3839,13 @@ namespace VRC.Core
 
     public class VRCEvent : ApiModel
     {
-        public object name;
-        public object description;
-        public object imageUrl;
-        public object authorName;
-        public object authorId;
-        public object startTime;
-        public object venueId;
+        public string name; // 0x68
+        public string description; // 0x70
+        public string imageUrl; // 0x78
+        public string authorName; // 0x80
+        public string authorId; // 0x88
+        public string startTime; // 0x90
+        public string venueId; // 0x98
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -3767,10 +3869,17 @@ namespace VRC.Core
 
     public class VRCLogger : Object
     {
-        public object IsPathOverridden;
-        public object LogFileNamePrefix;
-        public object LogFilePath;
-        public object GlobalLogger;
+        public bool IsPathOverridden;
+        public Microsoft.Extensions.Logging.ILoggerFactory LogFileNamePrefix; // 0x8
+        public ÍÏÎÍÍÎÏÍÎÎ LogFilePath; // 0x10
+        public System.Collections.Concurrent.ConcurrentDictionary`2<string,Microsoft.Extensions.Logging.ILogger> GlobalLogger; // 0x18
+        public string _logFilePathOverride; // 0x20
+        public System.Lazy`1<string> <LogFileNamePrefix>k__BackingField; // 0x28
+        public Microsoft.Extensions.Logging.ILogger _globalLogger; // 0x30
+        public VRC.Core.ZLoggerHandlerLogger _zLoggerHandler; // 0x38
+        public ÏÌÌÌÏÏÏÏ.ÌÍÏÍÎÏÌÎÍÍÎÍÎÍÏÌ UnityLogPrefixFormat; // 0x40
+        public ÏÌÌÌÏÏÏÏ.ÌÍÏÍÎÏÌÎÍÍÎÍÎÍÏÌ LogFilePrefixFormat; // 0x50
+        public LogCallback OnMessageLogged; // 0x60
 
         // ── Methods ──
         public void get_IsPathOverridden(){} // RVA: 0x7FFD55283F80
@@ -3805,7 +3914,10 @@ namespace VRC.Core
 
     public class ZLoggerHandlerLogger : Object
     {
-        public object UnityHandler;
+        public System.Action`3<string,object[],0x664D9630> UnityHandler; // 0x10
+        public UnityEngine.ILogHandler _unityHandler;
+        public Unity.Profiling.ProfilerMarker _profilerMarkerLogFormat; // 0x8
+        public Unity.Profiling.ProfilerMarker _profilerMarkerLogException; // 0x10
 
         // ── Methods ──
         public void get_UnityHandler(){} // RVA: 0x7FFD5528ADB0

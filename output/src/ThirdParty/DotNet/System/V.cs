@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System
 {
     public class ValueTuple`1 : ValueType
     {
-        public object System.Runtime.CompilerServices.ITuple.Length;
+        public NextResult<0x66573000> System.Runtime.CompilerServices.ITuple.Length; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -26,11 +26,15 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public SortingData Item1; // 0x10
+        public SortingData Item2; // 0x18
     }
 
     public class ValueTuple`3 : ValueType
     {
-        public object System.Runtime.CompilerServices.ITuple.Length;
+        public int System.Runtime.CompilerServices.ITuple.Length; // 0x10
+        public System.ValueTuple`2<bool,UnityEngine.GameObject> Item2; // 0x18
+        public bool Item3; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -50,7 +54,10 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`4 : ValueType
     {
-        public object System.Runtime.CompilerServices.ITuple.Length;
+        public object System.Runtime.CompilerServices.ITuple.Length; // 0x10
+        public string Item2; // 0x18
+        public string Item3; // 0x20
+        public int Item4; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -70,7 +77,11 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`5 : ValueType
     {
-        public object System.Runtime.CompilerServices.ITuple.Length;
+        public UIntPtr System.Runtime.CompilerServices.ITuple.Length; // 0x10
+        public int Item2; // 0x18
+        public UIntPtr Item3; // 0x20
+        public int Item4; // 0x28
+        public bool Item5; // 0x2C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -90,7 +101,12 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`6 : ValueType
     {
-        public object System.Runtime.CompilerServices.ITuple.Length;
+        public NextResult<System.Collections.Generic.List`1<Mediapipe.Detection>> System.Runtime.CompilerServices.ITuple.Length; // 0x10
+        public NextResult<System.Collections.Generic.List`1<0x66573000>> Item2; // 0x20
+        public NextResult<System.Collections.Generic.List`1<0x66572768>> Item3; // 0x30
+        public NextResult<System.Collections.Generic.List`1<0x66572558>> Item4; // 0x40
+        public NextResult<System.Collections.Generic.List`1<0x66573000>> Item5; // 0x50
+        public NextResult<System.Collections.Generic.List`1<0x66571E78>> Item6; // 0x60
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -110,7 +126,13 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`7 : ValueType
     {
-        public object System.Runtime.CompilerServices.ITuple.Length;
+        public 0x66634828 System.Runtime.CompilerServices.ITuple.Length; // 0x10
+        public System.Type Item2; // 0x18
+        public string Item3; // 0x20
+        public 0x66634930 Item4; // 0x28
+        public string Item5; // 0x30
+        public System.Type Item6; // 0x38
+        public int Item7; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -130,7 +152,14 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`8 : ValueType
     {
-        public object System.Runtime.CompilerServices.ITuple.Length;
+        public NextResult<Mediapipe.Detection> System.Runtime.CompilerServices.ITuple.Length; // 0x10
+        public NextResult<0x66572768> Item2; // 0x20
+        public NextResult<0x66572768> Item3; // 0x30
+        public NextResult<0x66572768> Item4; // 0x40
+        public NextResult<0x66572768> Item5; // 0x50
+        public NextResult<0x66572558> Item6; // 0x60
+        public NextResult<Mediapipe.ImageFrame> Item7; // 0x70
+        public System.ValueTuple`1<NextResult<0x66573000>> Rest; // 0x80
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -163,11 +192,10 @@ namespace ThirdParty.DotNet.System
 
     public class Version : Object
     {
-        public object Major;
-        public object Minor;
-        public object Build;
-        public object Revision;
-        public object DefaultFormatFieldCount;
+        public int Major; // 0x10
+        public int Minor; // 0x14
+        public int Build; // 0x18
+        public int Revision; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A7B4F0 | overloaded x6

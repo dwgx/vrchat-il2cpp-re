@@ -7,6 +7,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class MethodInfoFormatter`1 : BaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<string> StringSerializer;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Type> TypeSerializer;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Type[]> TypeArraySerializer;
+
         // ── Methods ──
         public void DeserializeImplementation(){} // RVA: 0x7FFD4E099B30
         public void SerializeImplementation(){} // RVA: 0x7FFD4E099B30
@@ -17,7 +21,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
-        public object SerializedType;
+        public bool SerializedType;
 
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x7FFD51953D60
@@ -35,6 +39,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MultiDimensionalArrayFormatter`2 : BaseFormatter`1
     {
+        public string RANKS_NAME;
+        public char RANKS_SEPARATOR;
+        public int ArrayRank;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> ValueReaderWriter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void GetUninitializedObject(){} // RVA: 0x7FFD4E2ADC40

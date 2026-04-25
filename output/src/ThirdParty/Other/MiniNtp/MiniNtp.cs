@@ -13,6 +13,9 @@ namespace ThirdParty.Other.MiniNtp
 
     public class NtpTimestamp : ValueType
     {
+        public uint Seconds; // 0x10
+        public uint Fractions; // 0x14
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C380D0 | overloaded x2
         public void ToBigEndianBytes(){} // RVA: 0x7FFD53C38260
@@ -24,6 +27,9 @@ namespace ThirdParty.Other.MiniNtp
 
     public class TimeConstants : Object
     {
+        public System.DateTime Epoch1900;
+        public System.DateTime Epoch2036; // 0x8
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53C38430
     }

@@ -7,11 +7,16 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 {
     public class BlockingCollection`1 : Object
     {
-        public object IsAddingCompleted;
-        public object IsCompleted;
-        public object Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
+        public System.Collections.Concurrent.IProducerConsumerCollection`1<System.ValueTuple`2<System.Func`1<object>,System.Threading.Tasks.TaskCompletionSource`1<object>>> IsAddingCompleted; // 0x10
+        public int IsCompleted; // 0x18
+        public int Count;
+        public System.Threading.SemaphoreSlim System.Collections.ICollection.IsSynchronized; // 0x20
+        public System.Threading.SemaphoreSlim System.Collections.ICollection.SyncRoot; // 0x28
+        public bool _isDisposed; // 0x30
+        public System.Threading.CancellationTokenSource _consumersCancellationTokenSource; // 0x38
+        public System.Threading.CancellationTokenSource _producersCancellationTokenSource; // 0x40
+        public int _currentAdders; // 0x48
+        public int COMPLETE_ADDING_ON_MASK;
 
         // ── Methods ──
         public void get_IsAddingCompleted(){} // RVA: 0x7FFD4E079D00
@@ -36,6 +41,8 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class CDSCollectionETWBCLProvider : EventSource
     {
+        public System.Collections.Concurrent.CDSCollectionETWBCLProvider Log;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539C5E30
         public void ConcurrentStack_FastPushFailed(){} // RVA: 0x7FFD4E9F2DD0
@@ -46,11 +53,9 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class ConcurrentBag`1 : Object
     {
-        public object Count;
-        public object DangerousCount;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object GlobalQueuesLock;
+        public System.Threading.ThreadLocal`1<WorkStealingQueue<T>> Count;
+        public WorkStealingQueue<T> DangerousCount;
+        public long System.Collections.ICollection.IsSynchronized;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -79,22 +84,16 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class ConcurrentDictionary`2 : Object
     {
-        public object Item;
-        public object Count;
-        public object IsEmpty;
-        public object Keys;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys;
-        public object Values;
-        public object System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values;
-        public object System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
-        public object System.Collections.IDictionary.IsFixedSize;
-        public object System.Collections.IDictionary.IsReadOnly;
-        public object System.Collections.IDictionary.Keys;
-        public object System.Collections.IDictionary.Values;
-        public object System.Collections.IDictionary.Item;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object DefaultConcurrencyLevel;
+        public Tables<System.Type,{> Item; // 0x10
+        public System.Collections.Generic.IEqualityComparer`1<System.Type> Count; // 0x18
+        public bool IsEmpty; // 0x20
+        public int Keys; // 0x24
+        public System.Collections.Generic.KeyValuePair`2<System.Type,{>[] System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys; // 0x28
+        public int Values; // 0x30
+        public int System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values; // 0x34
+        public int System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
+        public int System.Collections.IDictionary.IsFixedSize;
+        public bool System.Collections.IDictionary.IsReadOnly;
 
         // ── Methods ──
         public void IsValueWriteAtomic(){} // RVA: 0x7FFD5080CE10
@@ -165,10 +164,9 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class ConcurrentQueue`1 : Object
     {
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object IsEmpty;
-        public object Count;
+        public object System.Collections.ICollection.IsSynchronized; // 0x10
+        public Segment<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int>> System.Collections.ICollection.SyncRoot; // 0x18
+        public Segment<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int>> IsEmpty; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5088C630
@@ -196,9 +194,8 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class ConcurrentStack`1 : Object
     {
-        public object Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
+        public Node<T> Count;
+        public int System.Collections.ICollection.IsSynchronized;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -224,9 +221,9 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class OrderablePartitioner`1 : Partitioner`1
     {
-        public object KeysOrderedInEachPartition;
-        public object KeysOrderedAcrossPartitions;
-        public object KeysNormalized;
+        public bool KeysOrderedInEachPartition; // 0x10
+        public bool KeysOrderedAcrossPartitions; // 0x11
+        public bool KeysNormalized; // 0x12
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51B00530
@@ -239,6 +236,8 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class PaddedHeadAndTail : ValueType
     {
+        public int Head; // 0x90
+        public int Tail; // 0x110
     }
 
     public class Partitioner : Object
@@ -260,7 +259,8 @@ namespace ThirdParty.DotNet.System.Collections.Concurrent
 
     public class SingleProducerSingleConsumerQueue`1 : Object
     {
-        public object IsEmpty;
+        public Segment<ZLogger.IZLoggerEntry> IsEmpty; // 0x10
+        public Segment<ZLogger.IZLoggerEntry> _tail; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980

@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Playables
 {
     public class CameraPlayable : ValueType
     {
+        public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void GetHandle(){} // RVA: 0x7FFD51CFD430
         public void Equals(){} // RVA: 0x7FFD54D1F7B0
@@ -14,6 +16,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Playables
 
     public class MaterialEffectPlayable : ValueType
     {
+        public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void GetHandle(){} // RVA: 0x7FFD51CFD430
         public void Equals(){} // RVA: 0x7FFD54D1F870
@@ -21,6 +25,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Playables
 
     public class TextureMixerPlayable : ValueType
     {
+        public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void GetHandle(){} // RVA: 0x7FFD51CFD430
         public void Equals(){} // RVA: 0x7FFD54D1F930
@@ -28,6 +34,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Playables
 
     public class TexturePlayableOutput : ValueType
     {
+        public UnityEngine.Playables.PlayableOutputHandle m_Handle; // 0x10
+
         // ── Methods ──
         public void GetHandle(){} // RVA: 0x7FFD51CFD430
     }

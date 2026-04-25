@@ -32,7 +32,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Interfaces
 
     public class IGoogleLastKnownProductService
     {
-        public object LastKnownOldProductId;
+        public <>c<T> LastKnownOldProductId;
         public object LastKnownProductId;
         public object LastKnownProrationMode;
 

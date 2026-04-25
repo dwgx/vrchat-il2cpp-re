@@ -37,6 +37,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class EnumSerializer`1 : Serializer`1
     {
+        public int SizeOf_T;
+
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x7FFD4E2ADC40
         public void WriteValue(){} // RVA: 0x7FFD4E2ADC40

@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 {
     public class BMPAlloc : ValueType
     {
+        public UnityEngine.UIElements.UIR.BMPAlloc Invalid;
+        public int page; // 0x10
+        public ushort pageLine; // 0x14
+        public byte bitIndex; // 0x16
+        public 0x66489198 ownedState; // 0x17
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD54F0BB00
         public void IsValid(){} // RVA: 0x7FFD54F0BB20
@@ -16,8 +22,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BaseShaderInfoStorage : Object
     {
-        public object texture;
-        public object disposed;
+        public int texture;
+        public Unity.Profiling.ProfilerMarker disposed; // 0x8
+        public Unity.Profiling.ProfilerMarker s_MarkerGetTextureData; // 0x10
+        public Unity.Profiling.ProfilerMarker s_MarkerUpdateTexture; // 0x18
+        public bool <disposed>k__BackingField; // 0x10
 
         // ── Methods ──
         public void get_texture(){} // RVA: 0x7FFD4E078E90
@@ -41,6 +50,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BasicNode`1 : LinkedPoolItem`1
     {
+        public UnityEngine.UIElements.UIR.BasicNode`1<T> next;
+        public T data;
+
         // ── Methods ──
         public void AppendTo(){} // RVA: 0x7FFD4E090A40
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -48,21 +60,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class DrawBufferRange : ValueType
     {
+        public int firstIndex; // 0x10
+        public int indexCount; // 0x14
+        public int minIndexVal; // 0x18
+        public int vertsReferenced; // 0x1C
     }
 
     public class GfxUpdateBufferRange : ValueType
     {
+        public uint offsetFromWriteStart; // 0x10
+        public uint size; // 0x14
+        public object source; // 0x18
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public UnityEngine.UIElements.UIR.BasicNode`1<T> poolNext; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
     }
 
     public class LinkedPool`1 : Object
     {
-        public object Count;
+        public System.Func`1<UnityEngine.UIElements.UIR.BasicNode`1<T>> Count; // 0x10
+        public System.Action`1<UnityEngine.UIElements.UIR.BasicNode`1<T>> m_ResetAction; // 0x18
+        public int m_Limit; // 0x20
+        public UnityEngine.UIElements.UIR.BasicNode`1<T> m_PoolFirst; // 0x28
+        public int <Count>k__BackingField; // 0x30
 
         // ── Methods ──
         public void .ctor(){}
@@ -75,7 +100,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class NativePagedList`1 : Object
     {
-        public object disposed;
+        public int disposed;
+        public System.Collections.Generic.List`1<Unity.Collections.NativeArray`1<T>> m_Pages;
+        public Unity.Collections.NativeArray`1<T> m_CurrentPage;
+        public int m_CurrentPageCount;
+        public System.Collections.Generic.List`1<Unity.Collections.NativeSlice`1<T>> m_Enumerator;
+        public bool <disposed>k__BackingField;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -89,8 +119,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class Page : Object
     {
-        public object disposed;
-        public object isEmpty;
+        public bool disposed; // 0x10
+        public DataSet`1<0x664808C8> isEmpty; // 0x18
+        public DataSet`1<ushort> indices; // 0x20
+        public UnityEngine.UIElements.UIR.Page next; // 0x28
+        public int framesEmpty; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54EF8300
@@ -102,8 +135,49 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class RenderChainVEData : ValueType
     {
-        public object lastClosingOrLastCommand;
-        public object isIgnoringDynamicColorHint;
+        public UnityEngine.UIElements.VisualElement lastClosingOrLastCommand; // 0x10
+        public UnityEngine.UIElements.VisualElement isIgnoringDynamicColorHint; // 0x18
+        public UnityEngine.UIElements.VisualElement groupTransformAncestor; // 0x20
+        public UnityEngine.UIElements.VisualElement boneTransformAncestor; // 0x28
+        public UnityEngine.UIElements.VisualElement prevDirty; // 0x30
+        public UnityEngine.UIElements.VisualElement nextDirty; // 0x38
+        public s flags; // 0x40
+        public int hierarchyDepth; // 0x44
+        public 0x66488900 dirtiedValues; // 0x48
+        public uint dirtyID; // 0x4C
+        public 0x664880C0 firstCommand; // 0x50
+        public 0x664880C0 lastCommand; // 0x58
+        public 0x664880C0 firstClosingCommand; // 0x60
+        public 0x664880C0 lastClosingCommand; // 0x68
+        public bool isInChain; // 0x70
+        public bool isHierarchyHidden; // 0x71
+        public bool localFlipsWinding; // 0x72
+        public bool localTransformScaleZero; // 0x73
+        public bool worldFlipsWinding; // 0x74
+        public bool worldTransformScaleZero; // 0x75
+        public 0x664893A8 clipMethod; // 0x78
+        public int childrenStencilRef; // 0x7C
+        public int childrenMaskDepth; // 0x80
+        public bool disableNudging; // 0x84
+        public 0x66487A38 data; // 0x88
+        public 0x66487A38 closingData; // 0x90
+        public UnityEngine.Matrix4x4 verticesSpace; // 0x98
+        public int displacementUVStart; // 0xD8
+        public int displacementUVEnd; // 0xDC
+        public UnityEngine.UIElements.UIR.BMPAlloc transformID; // 0xE0
+        public UnityEngine.UIElements.UIR.BMPAlloc clipRectID; // 0xE8
+        public UnityEngine.UIElements.UIR.BMPAlloc opacityID; // 0xF0
+        public UnityEngine.UIElements.UIR.BMPAlloc textCoreSettingsID; // 0xF8
+        public UnityEngine.UIElements.UIR.BMPAlloc colorID; // 0x100
+        public UnityEngine.UIElements.UIR.BMPAlloc backgroundColorID; // 0x108
+        public UnityEngine.UIElements.UIR.BMPAlloc borderLeftColorID; // 0x110
+        public UnityEngine.UIElements.UIR.BMPAlloc borderTopColorID; // 0x118
+        public UnityEngine.UIElements.UIR.BMPAlloc borderRightColorID; // 0x120
+        public UnityEngine.UIElements.UIR.BMPAlloc borderBottomColorID; // 0x128
+        public UnityEngine.UIElements.UIR.BMPAlloc tintColorID; // 0x130
+        public float compositeOpacity; // 0x138
+        public UnityEngine.Color backgroundColor; // 0x13C
+        public UnityEngine.UIElements.UIR.BasicNode`1<0x66488A60> textures; // 0x150
 
         // ── Methods ──
         public void get_lastClosingOrLastCommand(){} // RVA: 0x7FFD54F06750
@@ -114,7 +188,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class ShaderInfoStorage`1 : BaseShaderInfoStorage
     {
-        public object texture;
+        public int texture;
+        public int m_MaxSize;
+        public 0x664DC078 m_Format;
+        public System.Func`2<UnityEngine.Color,T> m_Convert;
+        public 0x664807C0 m_Allocator;
+        public UnityEngine.Texture2D m_Texture;
+        public Unity.Collections.NativeArray`1<T> m_Texels;
 
         // ── Methods ──
         public void .ctor(){}
@@ -129,7 +209,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TempAllocator`1 : Object
     {
-        public object disposed;
+        public int disposed;
+        public int m_ExcessMaxCapacity;
+        public 0x66488D20<T> m_Pool;
+        public System.Collections.Generic.List`1<0x66488D20<T>> m_Excess;
+        public int m_NextExcessSize;
+        public bool <disposed>k__BackingField;
 
         // ── Methods ──
         public void .ctor(){}
@@ -143,14 +228,43 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class UIRenderDevice : Object
     {
-        public object maxVerticesPerPage;
-        public object breakBatches;
-        public object defaultShaderInfoTexFloat;
-        public object defaultShaderInfoTexARGB8;
-        public object vertexTexturingIsAvailable;
-        public object shaderModelIs35;
-        public object fullyCreated;
-        public object disposed;
+        public bool maxVerticesPerPage; // 0x10
+        public UIntPtr breakBatches; // 0x18
+        public UIntPtr defaultShaderInfoTexFloat; // 0x20
+        public UnityEngine.UIElements.UIR.Page defaultShaderInfoTexARGB8; // 0x28
+        public uint vertexTexturingIsAvailable; // 0x30
+        public uint shaderModelIs35; // 0x34
+        public float fullyCreated; // 0x38
+        public System.Collections.Generic.List`1<System.Collections.Generic.List`1<0x66487AE8>> disposed; // 0x40
+        public System.Collections.Generic.List`1<System.Collections.Generic.List`1<0x66487A90>> m_Updates; // 0x48
+        public uint[] m_Fences; // 0x50
+        public UnityEngine.MaterialPropertyBlock m_StandardMatProps; // 0x58
+        public uint m_FrameIndex; // 0x60
+        public uint m_NextUpdateID; // 0x64
+        public 0x66487BF0 m_DrawStats; // 0x68
+        public UnityEngine.UIElements.UIR.LinkedPool`1<0x66487A38> m_MeshHandles; // 0x90
+        public 0x66488068 m_DrawParams; // 0x98
+        public 0x66488ED8 m_TextureSlotManager; // 0xA0
+        public System.Collections.Generic.LinkedList`1<0x66487B40> m_DeviceFreeQueue;
+        public int m_ActiveDeviceCount; // 0x8
+        public bool m_SubscribedToNotifications; // 0xC
+        public bool m_SynchronousFree; // 0xD
+        public int s_GradientSettingsTexID; // 0x10
+        public int s_ShaderInfoTexID; // 0x14
+        public int s_TransformsPropID; // 0x18
+        public int s_ClipRectsPropID; // 0x1C
+        public Unity.Profiling.ProfilerMarker s_MarkerAllocate; // 0x20
+        public Unity.Profiling.ProfilerMarker s_MarkerFree; // 0x28
+        public Unity.Profiling.ProfilerMarker s_MarkerAdvanceFrame; // 0x30
+        public Unity.Profiling.ProfilerMarker s_MarkerFence; // 0x38
+        public Unity.Profiling.ProfilerMarker s_MarkerBeforeDraw; // 0x40
+        public System.Nullable`1<bool> s_VertexTexturingIsAvailable; // 0x48
+        public System.Nullable`1<bool> s_ShaderModelIs35; // 0x4A
+        public uint <maxVerticesPerPage>k__BackingField; // 0xA8
+        public bool <breakBatches>k__BackingField; // 0xAC
+        public UnityEngine.Texture2D s_DefaultShaderInfoTexFloat; // 0x50
+        public UnityEngine.Texture2D s_DefaultShaderInfoTexARGB8; // 0x58
+        public bool <disposed>k__BackingField; // 0xAD
 
         // ── Methods ──
         public void get_maxVerticesPerPage(){} // RVA: 0x7FFD4ED255C0
@@ -197,6 +311,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class Utility : Object
     {
+        public System.Action`1<bool> GraphicsResourcesRecreate;
+        public System.Action EngineUpdate; // 0x8
+        public System.Action FlushPendingResources; // 0x10
+        public System.Action`1<UnityEngine.Camera> RegisterIntermediateRenderers; // 0x18
+        public System.Action`1<UIntPtr> RenderNodeAdd; // 0x20
+        public System.Action`1<UIntPtr> RenderNodeExecute; // 0x28
+        public System.Action`1<UIntPtr> RenderNodeCleanup; // 0x30
+        public Unity.Profiling.ProfilerMarker s_MarkerRaiseEngineUpdate; // 0x38
+
         // ── Methods ──
         public void SetVectorArray(){} // RVA: 0x7FFD54EEB0D0 | overloaded x2
         public void add_GraphicsResourcesRecreate(){} // RVA: 0x7FFD54EE9E70

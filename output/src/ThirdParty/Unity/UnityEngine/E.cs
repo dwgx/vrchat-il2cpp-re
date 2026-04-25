@@ -56,30 +56,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Event : Object
     {
-        public object rawType;
-        public object mousePosition;
-        public object delta;
-        public object pointerType;
-        public object button;
-        public object modifiers;
-        public object pressure;
-        public object twist;
-        public object tilt;
-        public object penStatus;
-        public object clickCount;
-        public object character;
-        public object keyCode;
-        public object displayIndex;
-        public object type;
-        public object commandName;
-        public object shift;
-        public object control;
-        public object alt;
-        public object command;
-        public object current;
-        public object isKey;
-        public object isMouse;
-        public object isDirectManipulationDevice;
+        public UIntPtr rawType; // 0x10
+        public UnityEngine.Event mousePosition;
+        public UnityEngine.Event delta; // 0x8
 
         // ── Methods ──
         public void get_rawType(){} // RVA: 0x7FFD54D25250
@@ -141,9 +120,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class EventInterests : ValueType
     {
-        public object wantsMouseMove;
-        public object wantsMouseEnterLeaveWindow;
-        public object wantsLessLayoutEvents;
+        public bool wantsMouseMove; // 0x10
+        public bool wantsMouseEnterLeaveWindow; // 0x11
+        public bool wantsLessLayoutEvents; // 0x12
 
         // ── Methods ──
         public void get_wantsMouseMove(){} // RVA: 0x7FFD4FD7DDF0
@@ -181,12 +160,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ExposedReference`1 : ValueType
     {
+        public UnityEngine.PropertyName exposedName; // 0x10
+        public UnityEngine.Object defaultValue; // 0x18
+
         // ── Methods ──
         public void Resolve(){} // RVA: 0x7FFD4E2ADC40
     }
 
     public class ExpressionEvaluator : Object
     {
+        public 0x664DA130 s_Random;
+        public System.Collections.Generic.Dictionary`2<string,0x664DA238> s_Operators; // 0x10
+
         // ── Methods ──
         public void Evaluate(){} // RVA: 0x7FFD4E07D5A0
         public void EvaluateTokens(){} // RVA: 0x7FFD4E2ADC40

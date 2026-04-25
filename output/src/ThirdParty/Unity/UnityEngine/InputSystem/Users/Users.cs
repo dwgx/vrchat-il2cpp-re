@@ -7,20 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
 {
     public class InputUser : ValueType
     {
-        public object valid;
-        public object index;
-        public object id;
-        public object platformUserAccountHandle;
-        public object platformUserAccountName;
-        public object platformUserAccountId;
-        public object pairedDevices;
-        public object lostDevices;
-        public object actions;
-        public object controlScheme;
-        public object controlSchemeMatch;
-        public object hasMissingRequiredDevices;
-        public object all;
-        public object listenForUnpairedDeviceActivity;
+        public uint valid;
+        public Unity.Profiling.ProfilerMarker index;
+        public Unity.Profiling.ProfilerMarker id; // 0x8
+        public uint platformUserAccountHandle; // 0x10
+        public 0x664AA770 platformUserAccountName; // 0x10
 
         // ── Methods ──
         public void get_valid(){} // RVA: 0x7FFD54A5BA90
@@ -92,8 +83,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
 
     public class InputUserAccountHandle : ValueType
     {
-        public object apiName;
-        public object handle;
+        public string apiName; // 0x10
+        public ulong handle; // 0x18
 
         // ── Methods ──
         public void get_apiName(){} // RVA: 0x7FFD4EEF9F60
@@ -108,18 +99,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
 
     public class InputUserSettings : Object
     {
-        public object customBindings;
-        public object invertMouseX;
-        public object invertMouseY;
-        public object mouseSmoothing;
-        public object mouseSensitivity;
-        public object invertStickX;
-        public object invertStickY;
-        public object swapSticks;
-        public object swapBumpers;
-        public object swapTriggers;
-        public object swapDpadAndLeftStick;
-        public object vibrationStrength;
+        public string customBindings; // 0x10
+        public bool invertMouseX; // 0x18
+        public bool invertMouseY; // 0x19
+        public System.Nullable`1<float> mouseSmoothing; // 0x1C
+        public System.Nullable`1<float> mouseSensitivity; // 0x24
+        public bool invertStickX; // 0x2C
+        public bool invertStickY; // 0x2D
+        public bool swapSticks; // 0x2E
+        public bool swapBumpers; // 0x2F
+        public bool swapTriggers; // 0x30
+        public bool swapDpadAndLeftStick; // 0x31
+        public float vibrationStrength; // 0x34
+        public string m_CustomBindings; // 0x38
 
         // ── Methods ──
         public void get_customBindings(){} // RVA: 0x7FFD4E35C380

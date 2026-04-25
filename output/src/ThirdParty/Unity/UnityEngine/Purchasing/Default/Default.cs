@@ -17,15 +17,15 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Default
 
     public class WinProductDescription : Object
     {
-        public object platformSpecificID;
-        public object price;
-        public object title;
-        public object description;
-        public object ISOCurrencyCode;
-        public object priceDecimal;
-        public object receipt;
-        public object transactionID;
-        public object consumable;
+        public string platformSpecificID; // 0x10
+        public string price; // 0x18
+        public string title; // 0x20
+        public string description; // 0x28
+        public string ISOCurrencyCode; // 0x30
+        public System.Decimal priceDecimal; // 0x38
+        public string receipt; // 0x48
+        public string transactionID; // 0x50
+        public bool consumable; // 0x58
 
         // ── Methods ──
         public void set_platformSpecificID(){} // RVA: 0x7FFD4E342E30

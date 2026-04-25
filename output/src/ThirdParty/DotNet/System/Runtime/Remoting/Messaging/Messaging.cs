@@ -7,14 +7,22 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 {
     public class AsyncResult : Object
     {
-        public object AsyncState;
-        public object AsyncWaitHandle;
-        public object CompletedSynchronously;
-        public object IsCompleted;
-        public object EndInvokeCalled;
-        public object AsyncDelegate;
-        public object NextSink;
-        public object CallMessage;
+        public object AsyncState; // 0x10
+        public System.Threading.WaitHandle AsyncWaitHandle; // 0x18
+        public object CompletedSynchronously; // 0x20
+        public UIntPtr IsCompleted; // 0x28
+        public object EndInvokeCalled; // 0x30
+        public bool AsyncDelegate; // 0x38
+        public bool NextSink; // 0x39
+        public bool CallMessage; // 0x3A
+        public object async_callback; // 0x40
+        public System.Threading.ExecutionContext current; // 0x48
+        public System.Threading.ExecutionContext original; // 0x50
+        public long add_time; // 0x58
+        public System.Runtime.Remoting.Messaging.MonoMethodMessage call_message; // 0x60
+        public 0x66431DA0 message_ctrl; // 0x68
+        public 0x66431D48 reply_message; // 0x70
+        public System.Threading.WaitCallback orig_cb; // 0x78
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -41,9 +49,15 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class LogicalCallContext : Object
     {
-        public object HasInfo;
-        public object HasUserData;
-        public object Datastore;
+        public System.Type HasInfo;
+        public string HasUserData;
+        public System.Collections.Hashtable Datastore; // 0x10
+        public 0x66431668 m_RemotingData; // 0x18
+        public 0x66431610 m_SecurityData; // 0x20
+        public object m_HostContext; // 0x28
+        public bool m_IsCorrelationMgr; // 0x30
+        public 0x66431C40[] _sendHeaders; // 0x38
+        public 0x66431C40[] _recvHeaders; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538A9C70 | overloaded x2
@@ -60,22 +74,19 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 
     public class MonoMethodMessage : Object
     {
-        public object Properties;
-        public object ArgCount;
-        public object Args;
-        public object LogicalCallContext;
-        public object MethodBase;
-        public object MethodName;
-        public object MethodSignature;
-        public object TypeName;
-        public object Uri;
-        public object Exception;
-        public object OutArgCount;
-        public object OutArgs;
-        public object ReturnValue;
-        public object System.Runtime.Remoting.Messaging.IInternalMessage.TargetIdentity;
-        public object AsyncResult;
-        public object CallType;
+        public System.Reflection.RuntimeMethodInfo Properties; // 0x10
+        public object[] ArgCount; // 0x18
+        public string[] Args; // 0x20
+        public byte[] LogicalCallContext; // 0x28
+        public System.Runtime.Remoting.Messaging.LogicalCallContext MethodBase; // 0x30
+        public object MethodName; // 0x38
+        public System.Exception MethodSignature; // 0x40
+        public System.Runtime.Remoting.Messaging.AsyncResult TypeName; // 0x48
+        public 0x664321C0 Uri; // 0x50
+        public string Exception; // 0x58
+        public 0x66431FB0 OutArgCount; // 0x60
+        public m OutArgs; // 0x68
+        public System.Type[] ReturnValue; // 0x70
 
         // ── Methods ──
         public void InitMessage(){} // RVA: 0x7FFD538BA5C0

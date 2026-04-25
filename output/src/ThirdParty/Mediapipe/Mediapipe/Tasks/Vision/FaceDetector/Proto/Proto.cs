@@ -7,16 +7,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceDetector.Proto
 {
     public class FaceDetectorGraphOptions : Object
     {
-        public object Parser;
-        public object Descriptor;
-        public object pb::Google.Protobuf.IMessage.Descriptor;
-        public object BaseOptions;
-        public object MinDetectionConfidence;
-        public object HasMinDetectionConfidence;
-        public object MinSuppressionThreshold;
-        public object HasMinSuppressionThreshold;
-        public object NumFaces;
-        public object HasNumFaces;
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.FaceDetector.Proto.FaceDetectorGraphOptions> Parser;
+        public 0x6658E800 Descriptor; // 0x10
+        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions BaseOptions; // 0x20
+        public float MinDetectionConfidence; // 0x8
+        public float HasMinDetectionConfidence; // 0x28
+        public float MinSuppressionThreshold; // 0xC
+        public float HasMinSuppressionThreshold; // 0x2C
+        public int NumFaces; // 0x10
+        public int HasNumFaces; // 0x30
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53731550

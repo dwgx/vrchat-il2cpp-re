@@ -7,12 +7,13 @@ namespace ThirdParty.Other.PlatformSupport.Collections.ObjectModel
 {
     public class ObservableDictionary`2 : Object
     {
-        public object Dictionary;
-        public object Keys;
-        public object Values;
-        public object Item;
-        public object Count;
-        public object IsReadOnly;
+        public string Dictionary;
+        public string Keys;
+        public string Values;
+        public string Item;
+        public System.Collections.Generic.IDictionary`2<U,T> Count;
+        public 0x663E3488 IsReadOnly;
+        public 0x66495E20 PropertyChanged;
 
         // ── Methods ──
         public void get_Dictionary(){} // RVA: 0x7FFD4E078E90

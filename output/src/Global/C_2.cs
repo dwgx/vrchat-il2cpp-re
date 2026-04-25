@@ -5,13 +5,16 @@
 
 public class CustomBlendable : ValueType
 {
+    public UnityEngine.Object m_Custom; // 0x10
+    public float m_Weight; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFCF7D0
 }
 
 public class CustomDataModule : ValueType
 {
-    public object enabled;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -39,7 +42,7 @@ public class CustomDataModule : ValueType
 
 public class CustomEmojiParticleSystemList : ScriptableObject
 {
-    public object Count;
+    public EmojiParticleSystem[] Count; // 0x18
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4F7DA6F0
@@ -59,6 +62,9 @@ public class CustomEmojiParticleSystemList : ScriptableObject
 
 public class CustomStyleAccess : Object
 {
+    public System.Collections.Generic.Dictionary`2<string,0x66489928> m_CustomProperties; // 0x10
+    public float m_DpiScaling; // 0x18
+
     // ── Methods ──
     public void SetContext(){} // RVA: 0x7FFD4FDD0960
     public void TryGetValue(){} // RVA: 0x7FFD550150C0 | overloaded x8
@@ -68,6 +74,9 @@ public class CustomStyleAccess : Object
 
 public class CustomTriggerTarget : Object
 {
+    public UnityEngine.GameObject TriggerObject; // 0x10
+    public string CustomName; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5748B1F0
 }

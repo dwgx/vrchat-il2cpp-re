@@ -7,8 +7,11 @@ namespace VRC.Udon.ClientBindings
 {
     public class UdonClientInterface : Object
     {
-        public object DebugLogging;
-        public object LightReservedLayerMask;
+        public VRC.Udon.Common.Interfaces.IUdonVMFactory DebugLogging; // 0x10
+        public VRC.Udon.ClientBindings.UdonVMTimeSource LightReservedLayerMask; // 0x18
+        public VRC.Udon.Common.Interfaces.IUdonSecurityFilter`1<UnityEngine.Object> filter; // 0x20
+        public VRC.Udon.Common.Interfaces.IUdonWrapperFactory wrapperFactory; // 0x28
+        public bool <DebugLogging>k__BackingField; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5529D250 | overloaded x2
@@ -24,6 +27,12 @@ namespace VRC.Udon.ClientBindings
 
     public class UdonEventScheduler : Object
     {
+        public long _nextEventId; // 0x10
+        public 0x66643710 _timeSource; // 0x18
+        public System.Action`1<ÌÏÌÍÏ> OnEventScheduled; // 0x20
+        public System.Collections.Generic.Dictionary`2<ÌÏÌÍÏ,System.Collections.Generic.SortedSet`1<ScheduledTimeEvent>> _timeEventQueues; // 0x28
+        public System.Collections.Generic.Dictionary`2<ÌÏÌÍÏ,System.Collections.Generic.SortedSet`1<ScheduledFrameEvent>> _frameEventQueues; // 0x30
+
         // ── Methods ──
         public void add_OnEventScheduled(){} // RVA: 0x7FFD5529D810
         public void remove_OnEventScheduled(){} // RVA: 0x7FFD5529D910
@@ -41,7 +50,9 @@ namespace VRC.Udon.ClientBindings
 
     public class UdonVMTimeSource : Object
     {
-        public object CurrentTime;
+        public long CurrentTime;
+        public System.Timers.Timer _timer; // 0x10
+        public long <CurrentTime>k__BackingField; // 0x18
 
         // ── Methods ──
         public void get_CurrentTime(){} // RVA: 0x7FFD4E3447C0

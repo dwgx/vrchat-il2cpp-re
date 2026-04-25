@@ -7,7 +7,33 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class AimController : MonoBehaviour
     {
-        public object pivot;
+        public RootMotion.FinalIK.AimIK pivot; // 0x20
+        public float weight; // 0x28
+        public UnityEngine.Transform target; // 0x30
+        public float targetSwitchSmoothTime; // 0x38
+        public float weightSmoothTime; // 0x3C
+        public bool smoothTurnTowardsTarget; // 0x40
+        public float maxRadiansDelta; // 0x44
+        public float maxMagnitudeDelta; // 0x48
+        public float slerpSpeed; // 0x4C
+        public UnityEngine.Vector3 pivotOffsetFromRoot; // 0x50
+        public float minDistance; // 0x5C
+        public UnityEngine.Vector3 offset; // 0x60
+        public float maxRootAngle; // 0x6C
+        public bool turnToTarget; // 0x70
+        public float turnToTargetTime; // 0x74
+        public bool useAnimatedAimDirection; // 0x78
+        public UnityEngine.Vector3 animatedAimDirection; // 0x7C
+        public UnityEngine.Transform lastTarget; // 0x88
+        public float switchWeight; // 0x90
+        public float switchWeightV; // 0x94
+        public float weightV; // 0x98
+        public UnityEngine.Vector3 lastPosition; // 0x9C
+        public UnityEngine.Vector3 dir; // 0xA8
+        public bool lastSmoothTowardsTarget; // 0xB4
+        public bool turningToTarget; // 0xB5
+        public float turnToTargetMlp; // 0xB8
+        public float turnToTargetMlpV; // 0xBC
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4AB580
@@ -21,6 +47,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class AimIK : IK
     {
+        public RootMotion.FinalIK.IKSolverAim solver; // 0x40
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -33,6 +61,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class AimPoser : MonoBehaviour
     {
+        public float angleBuffer; // 0x20
+        public 0x665217D0[] poses; // 0x28
+
         // ── Methods ──
         public void GetPose(){} // RVA: 0x7FFD4E4AD3E0
         public void SetPoseActive(){} // RVA: 0x7FFD4E4AD4F0
@@ -41,6 +72,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Amplifier : OffsetModifier
     {
+        public 0x665218D8[] bodies; // 0x38
+
         // ── Methods ──
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4AD9B0
         public void .ctor(){} // RVA: 0x7FFD4E349920
@@ -48,6 +81,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ArmIK : IK
     {
+        public RootMotion.FinalIK.IKSolverArm solver; // 0x40
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -59,6 +94,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class BipedIK : SolverManager
     {
+        public RootMotion.BipedReferences references; // 0x40
+        public RootMotion.FinalIK.BipedIKSolvers solvers; // 0x48
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -89,8 +127,16 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class BipedIKSolvers : Object
     {
-        public object limbs;
-        public object ikSolvers;
+        public RootMotion.FinalIK.IKSolverLimb limbs; // 0x10
+        public RootMotion.FinalIK.IKSolverLimb ikSolvers; // 0x18
+        public RootMotion.FinalIK.IKSolverLimb leftHand; // 0x20
+        public RootMotion.FinalIK.IKSolverLimb rightHand; // 0x28
+        public RootMotion.FinalIK.IKSolverFABRIK spine; // 0x30
+        public RootMotion.FinalIK.IKSolverLookAt lookAt; // 0x38
+        public RootMotion.FinalIK.IKSolverAim aim; // 0x40
+        public RootMotion.FinalIK.Constraints pelvis; // 0x48
+        public RootMotion.FinalIK.IKSolverLimb[] _limbs; // 0x50
+        public RootMotion.FinalIK.IKSolver[] _ikSolvers; // 0x58
 
         // ── Methods ──
         public void get_limbs(){} // RVA: 0x7FFD4E3F68E0
@@ -101,6 +147,13 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class BodyTilt : OffsetModifier
     {
+        public float tiltSpeed; // 0x38
+        public float tiltSensitivity; // 0x3C
+        public RootMotion.FinalIK.OffsetPose poseLeft; // 0x40
+        public RootMotion.FinalIK.OffsetPose poseRight; // 0x48
+        public float tiltAngle; // 0x50
+        public UnityEngine.Vector3 lastForward; // 0x54
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4AE220
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4AE330
@@ -109,6 +162,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class CCDIK : IK
     {
+        public RootMotion.FinalIK.IKSolverCCD solver; // 0x40
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -120,7 +175,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Constraint : Object
     {
-        public object isValid;
+        public UnityEngine.Transform isValid; // 0x10
+        public float weight; // 0x18
 
         // ── Methods ──
         public void get_isValid(){} // RVA: 0x7FFD4E3F73B0
@@ -130,6 +186,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintPosition : Constraint
     {
+        public UnityEngine.Vector3 position; // 0x20
+
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0x7FFD4E3F7480
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
@@ -137,7 +195,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintPositionOffset : Constraint
     {
-        public object positionChanged;
+        public UnityEngine.Vector3 positionChanged; // 0x20
+        public UnityEngine.Vector3 defaultLocalPosition; // 0x2C
+        public UnityEngine.Vector3 lastLocalPosition; // 0x38
+        public bool initiated; // 0x44
 
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0x7FFD4E3F75F0
@@ -147,6 +208,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintRotation : Constraint
     {
+        public UnityEngine.Quaternion rotation; // 0x20
+
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0x7FFD4E3F7AF0
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
@@ -154,7 +217,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintRotationOffset : Constraint
     {
-        public object rotationChanged;
+        public UnityEngine.Quaternion rotationChanged; // 0x20
+        public UnityEngine.Quaternion defaultRotation; // 0x30
+        public UnityEngine.Quaternion defaultLocalRotation; // 0x40
+        public UnityEngine.Quaternion lastLocalRotation; // 0x50
+        public UnityEngine.Quaternion defaultTargetLocalRotation; // 0x60
+        public bool initiated; // 0x70
 
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0x7FFD4E3F7C70
@@ -164,6 +232,15 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Constraints : Object
     {
+        public UnityEngine.Transform transform; // 0x10
+        public UnityEngine.Transform target; // 0x18
+        public UnityEngine.Vector3 positionOffset; // 0x20
+        public UnityEngine.Vector3 position; // 0x2C
+        public float positionWeight; // 0x38
+        public UnityEngine.Vector3 rotationOffset; // 0x3C
+        public UnityEngine.Vector3 rotation; // 0x48
+        public float rotationWeight; // 0x54
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E3F8180
         public void Initiate(){} // RVA: 0x7FFD4E3F8250
@@ -173,6 +250,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class EditorIK : MonoBehaviour
     {
+        public RootMotion.FinalIK.IK ik; // 0x20
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4AE740
         public void Update(){} // RVA: 0x7FFD4E4AE860
@@ -181,6 +260,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FABRIK : IK
     {
+        public RootMotion.FinalIK.IKSolverFABRIK solver; // 0x40
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -192,6 +273,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FABRIKChain : Object
     {
+        public RootMotion.FinalIK.FABRIK ik; // 0x10
+        public float pull; // 0x18
+        public float pin; // 0x1C
+        public int[] children; // 0x20
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E413B50
         public void Initiate(){} // RVA: 0x7FFD4E413CE0
@@ -203,6 +289,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FABRIKRoot : IK
     {
+        public RootMotion.FinalIK.IKSolverFABRIKRoot solver; // 0x40
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -214,6 +302,16 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FBBIKArmBending : MonoBehaviour
     {
+        public RootMotion.FinalIK.FullBodyBipedIK ik; // 0x20
+        public UnityEngine.Vector3 bendDirectionOffsetLeft; // 0x28
+        public UnityEngine.Vector3 bendDirectionOffsetRight; // 0x34
+        public UnityEngine.Vector3 characterSpaceBendOffsetLeft; // 0x40
+        public UnityEngine.Vector3 characterSpaceBendOffsetRight; // 0x4C
+        public UnityEngine.Quaternion leftHandTargetRotation; // 0x58
+        public UnityEngine.Quaternion rightHandTargetRotation; // 0x68
+        public bool initiated; // 0x78
+        public 0x66520018 OnPostArmBend; // 0x80
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x7FFD4E4144B0
         public void OnPostFBBIK(){} // RVA: 0x7FFD4E414FB0
@@ -223,6 +321,54 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FBBIKHeadEffector : MonoBehaviour
     {
+        public RootMotion.FinalIK.FullBodyBipedIK ik; // 0x20
+        public float positionWeight; // 0x28
+        public float bodyWeight; // 0x2C
+        public float thighWeight; // 0x30
+        public bool handsPullBody; // 0x34
+        public float rotationWeight; // 0x38
+        public float bodyClampWeight; // 0x3C
+        public float headClampWeight; // 0x40
+        public float bendWeight; // 0x44
+        public 0x6651FA98[] bendBones; // 0x48
+        public float CCDWeight; // 0x50
+        public float roll; // 0x54
+        public float damper; // 0x58
+        public UnityEngine.Transform[] CCDBones; // 0x60
+        public float postStretchWeight; // 0x68
+        public float maxStretch; // 0x6C
+        public float stretchDamper; // 0x70
+        public bool fixHead; // 0x74
+        public UnityEngine.Transform[] stretchBones; // 0x78
+        public UnityEngine.Vector3 chestDirection; // 0x80
+        public float chestDirectionWeight; // 0x8C
+        public UnityEngine.Transform[] chestBones; // 0x90
+        public 0x66520018 OnPostHeadEffectorFK; // 0x98
+        public UnityEngine.Vector3 offset; // 0xA0
+        public UnityEngine.Vector3 headToBody; // 0xAC
+        public UnityEngine.Vector3 shoulderCenterToHead; // 0xB8
+        public UnityEngine.Vector3 headToLeftThigh; // 0xC4
+        public UnityEngine.Vector3 headToRightThigh; // 0xD0
+        public UnityEngine.Vector3 leftShoulderPos; // 0xDC
+        public UnityEngine.Vector3 rightShoulderPos; // 0xE8
+        public float shoulderDist; // 0xF4
+        public float leftShoulderDist; // 0xF8
+        public float rightShoulderDist; // 0xFC
+        public UnityEngine.Quaternion chestRotation; // 0x100
+        public UnityEngine.Quaternion headRotationRelativeToRoot; // 0x110
+        public UnityEngine.Quaternion[] ccdDefaultLocalRotations; // 0x120
+        public UnityEngine.Vector3 headLocalPosition; // 0x128
+        public UnityEngine.Quaternion headLocalRotation; // 0x134
+        public UnityEngine.Vector3[] stretchLocalPositions; // 0x148
+        public UnityEngine.Quaternion[] stretchLocalRotations; // 0x150
+        public UnityEngine.Vector3[] chestLocalPositions; // 0x158
+        public UnityEngine.Quaternion[] chestLocalRotations; // 0x160
+        public int bendBonesCount; // 0x168
+        public int ccdBonesCount; // 0x16C
+        public int stretchBonesCount; // 0x170
+        public int chestBonesCount; // 0x174
+        public bool _isVRCAvatarMainIK; // 0x178
+
         // ── Methods ──
         public void VRCInitialize(){} // RVA: 0x7FFD4E415690
         public void VRCSetAvatarMainIK(){} // RVA: 0x7FFD4E4156A0
@@ -245,6 +391,30 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FBIKChain : Object
     {
+        public float pin; // 0x10
+        public float pull; // 0x14
+        public float push; // 0x18
+        public float pushParent; // 0x1C
+        public float reach; // 0x20
+        public 0x6651FBA0 reachSmoothing; // 0x24
+        public 0x6651FBA0 pushSmoothing; // 0x28
+        public 0x6651FFC0[] nodes; // 0x30
+        public int[] children; // 0x38
+        public 0x6651FB48[] childConstraints; // 0x40
+        public RootMotion.FinalIK.IKConstraintBend bendConstraint; // 0x48
+        public float rootLength; // 0x50
+        public bool initiated; // 0x54
+        public float length; // 0x58
+        public float distance; // 0x5C
+        public 0x6651FF10 p; // 0x60
+        public float reachForce; // 0x68
+        public float pullParentSum; // 0x6C
+        public float[] crossFades; // 0x70
+        public float sqrMag1; // 0x78
+        public float sqrMag2; // 0x7C
+        public float sqrMagDif; // 0x80
+        public float maxLimbLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E41C710 | overloaded x2
         public void SetNodes(){} // RVA: 0x7FFD4E41CA00
@@ -269,7 +439,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FingerRig : SolverManager
     {
-        public object initiated;
+        public float initiated; // 0x40
+        public 0x6651EFF0[] fingers; // 0x48
+        public bool <initiated>k__BackingField; // 0x50
 
         // ── Methods ──
         public void get_initiated(){} // RVA: 0x7FFD4E3FB8E0
@@ -290,6 +462,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FullBodyBipedIK : IK
     {
+        public bool _isVRCAvatarMainIK; // 0x40
+        public RootMotion.BipedReferences references; // 0x48
+        public RootMotion.FinalIK.IKSolverFullBodyBiped solver; // 0x50
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -311,6 +487,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GenericPoser : Poser
     {
+        public 0x665211F8[] maps; // 0x58
+
         // ── Methods ──
         public void AutoMapping(){} // RVA: 0x7FFD4E4A02B0
         public void InitiatePoser(){} // RVA: 0x7FFD4E4A0840
@@ -323,7 +501,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Grounder : MonoBehaviour
     {
-        public object initiated;
+        public float initiated; // 0x20
+        public RootMotion.FinalIK.Grounding solver; // 0x28
+        public 0x6651F0A0 OnPreGrounder; // 0x30
+        public 0x6651F0A0 OnPostGrounder; // 0x38
+        public bool <initiated>k__BackingField; // 0x40
 
         // ── Methods ──
         public void ResetPosition(){} // RVA: 0x7FFD4E090980
@@ -340,6 +522,16 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderBipedIK : Grounder
     {
+        public RootMotion.FinalIK.BipedIK ik; // 0x48
+        public float spineBend; // 0x50
+        public float spineSpeed; // 0x54
+        public UnityEngine.Transform[] feet; // 0x58
+        public UnityEngine.Quaternion[] footRotations; // 0x60
+        public UnityEngine.Vector3 animatedPelvisLocalPosition; // 0x68
+        public UnityEngine.Vector3 solvedPelvisLocalPosition; // 0x74
+        public UnityEngine.Vector3 spineOffset; // 0x80
+        public float lastWeight; // 0x8C
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -357,6 +549,14 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderFBBIK : Grounder
     {
+        public RootMotion.FinalIK.FullBodyBipedIK ik; // 0x48
+        public float spineBend; // 0x50
+        public float spineSpeed; // 0x54
+        public 0x6651F1A8[] spine; // 0x58
+        public UnityEngine.Transform[] feet; // 0x60
+        public UnityEngine.Vector3 spineOffset; // 0x68
+        public bool firstSolve; // 0x74
+
         // ── Methods ──
         public void OpenTutorial(){} // RVA: 0x7FFD4E341310
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -376,6 +576,21 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderIK : Grounder
     {
+        public RootMotion.FinalIK.IK[] legs; // 0x48
+        public UnityEngine.Transform pelvis; // 0x50
+        public UnityEngine.Transform characterRoot; // 0x58
+        public float rootRotationWeight; // 0x60
+        public float rootRotationSpeed; // 0x64
+        public float maxRootRotationAngle; // 0x68
+        public UnityEngine.Transform[] feet; // 0x70
+        public UnityEngine.Quaternion[] footRotations; // 0x78
+        public UnityEngine.Vector3 animatedPelvisLocalPosition; // 0x80
+        public UnityEngine.Vector3 solvedPelvisLocalPosition; // 0x8C
+        public int solvedFeet; // 0x98
+        public bool solved; // 0x9C
+        public float lastWeight; // 0xA0
+        public UnityEngine.Rigidbody characterRootRigidbody; // 0xA8
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -393,6 +608,36 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderQuadruped : Grounder
     {
+        public RootMotion.FinalIK.Grounding forelegSolver; // 0x48
+        public float rootRotationWeight; // 0x50
+        public float minRootRotation; // 0x54
+        public float maxRootRotation; // 0x58
+        public float rootRotationSpeed; // 0x5C
+        public float maxLegOffset; // 0x60
+        public float maxForeLegOffset; // 0x64
+        public float maintainHeadRotationWeight; // 0x68
+        public UnityEngine.Transform characterRoot; // 0x70
+        public UnityEngine.Transform pelvis; // 0x78
+        public UnityEngine.Transform lastSpineBone; // 0x80
+        public UnityEngine.Transform head; // 0x88
+        public RootMotion.FinalIK.IK[] legs; // 0x90
+        public RootMotion.FinalIK.IK[] forelegs; // 0x98
+        public UnityEngine.Vector3 gravity; // 0xA0
+        public 0x6651F2B0[] feet; // 0xB0
+        public UnityEngine.Vector3 animatedPelvisLocalPosition; // 0xB8
+        public UnityEngine.Quaternion animatedPelvisLocalRotation; // 0xC4
+        public UnityEngine.Quaternion animatedHeadLocalRotation; // 0xD4
+        public UnityEngine.Vector3 solvedPelvisLocalPosition; // 0xE4
+        public UnityEngine.Quaternion solvedPelvisLocalRotation; // 0xF0
+        public UnityEngine.Quaternion solvedHeadLocalRotation; // 0x100
+        public int solvedFeet; // 0x110
+        public bool solved; // 0x114
+        public float angle; // 0x118
+        public UnityEngine.Transform forefeetRoot; // 0x120
+        public UnityEngine.Quaternion headRotation; // 0x128
+        public float lastWeight; // 0x138
+        public UnityEngine.Rigidbody characterRootRigidbody; // 0x140
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -416,6 +661,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderVRIK : Grounder
     {
+        public RootMotion.FinalIK.VRIK ik; // 0x48
+        public UnityEngine.Transform[] feet; // 0x50
+
         // ── Methods ──
         public void OpenTutorial(){} // RVA: 0x7FFD4E341310
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -434,14 +682,30 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Grounding : Object
     {
-        public object legs;
-        public object pelvis;
-        public object isGrounded;
-        public object root;
-        public object rootHit;
-        public object rootGrounded;
-        public object up;
-        public object useRootRotation;
+        public UnityEngine.LayerMask legs; // 0x10
+        public float pelvis; // 0x14
+        public float isGrounded; // 0x18
+        public float root; // 0x1C
+        public float rootHit; // 0x20
+        public float rootGrounded; // 0x24
+        public float up; // 0x28
+        public float useRootRotation; // 0x2C
+        public float footRotationSpeed; // 0x30
+        public float maxFootRotationAngle; // 0x34
+        public bool rotateSolver; // 0x38
+        public float pelvisSpeed; // 0x3C
+        public float pelvisDamper; // 0x40
+        public float lowerPelvisWeight; // 0x44
+        public float liftPelvisWeight; // 0x48
+        public float rootSphereCastRadius; // 0x4C
+        public bool overstepFallsDown; // 0x50
+        public 0x6651F3B8 quality; // 0x54
+        public 0x6651F410[] <legs>k__BackingField; // 0x58
+        public 0x6651F468 <pelvis>k__BackingField; // 0x60
+        public bool <isGrounded>k__BackingField; // 0x68
+        public UnityEngine.Transform <root>k__BackingField; // 0x70
+        public UnityEngine.RaycastHit <rootHit>k__BackingField; // 0x78
+        public bool initiated; // 0xA4
 
         // ── Methods ──
         public void get_legs(){} // RVA: 0x7FFD4E409500
@@ -472,6 +736,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class HandPoser : Poser
     {
+        public UnityEngine.Transform[] children; // 0x58
+        public UnityEngine.Transform _poseRoot; // 0x60
+        public UnityEngine.Transform[] poseChildren; // 0x68
+        public UnityEngine.Vector3[] defaultLocalPositions; // 0x70
+        public UnityEngine.Quaternion[] defaultLocalRotations; // 0x78
+
         // ── Methods ──
         public void AutoMapping(){} // RVA: 0x7FFD4E4A1290
         public void InitiatePoser(){} // RVA: 0x7FFD4E4A1500
@@ -483,7 +753,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class HitReaction : OffsetModifier
     {
-        public object inProgress;
+        public 0x66521AE8[] inProgress; // 0x38
+        public 0x66521B98[] boneHitPoints; // 0x40
 
         // ── Methods ──
         public void get_inProgress(){} // RVA: 0x7FFD4E4AE9A0
@@ -494,6 +765,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class HitReactionVRIK : OffsetModifierVRIK
     {
+        public UnityEngine.AnimationCurve[] offsetCurves; // 0x38
+        public 0x66521CF8[] positionOffsets; // 0x40
+        public 0x66521DA8[] rotationOffsets; // 0x48
+
         // ── Methods ──
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4B03B0
         public void Hit(){} // RVA: 0x7FFD4E4B0480
@@ -514,7 +789,24 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKConstraintBend : Object
     {
-        public object initiated;
+        public UnityEngine.Transform initiated; // 0x10
+        public UnityEngine.Transform bone2; // 0x18
+        public UnityEngine.Transform bone3; // 0x20
+        public UnityEngine.Transform bendGoal; // 0x28
+        public UnityEngine.Vector3 direction; // 0x30
+        public UnityEngine.Quaternion rotationOffset; // 0x3C
+        public float weight; // 0x4C
+        public UnityEngine.Vector3 defaultLocalDirection; // 0x50
+        public UnityEngine.Vector3 defaultChildDirection; // 0x5C
+        public float clampF; // 0x68
+        public int chainIndex1; // 0x6C
+        public int nodeIndex1; // 0x70
+        public int chainIndex2; // 0x74
+        public int nodeIndex2; // 0x78
+        public int chainIndex3; // 0x7C
+        public int nodeIndex3; // 0x80
+        public bool <initiated>k__BackingField; // 0x84
+        public bool limbOrientationsSet; // 0x85
 
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E420920
@@ -532,7 +824,38 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKEffector : Object
     {
-        public object isEndEffector;
+        public UnityEngine.Transform isEndEffector; // 0x10
+        public UnityEngine.Transform target; // 0x18
+        public float positionWeight; // 0x20
+        public float rotationWeight; // 0x24
+        public UnityEngine.Vector3 position; // 0x28
+        public UnityEngine.Quaternion rotation; // 0x34
+        public UnityEngine.Vector3 positionOffset; // 0x44
+        public bool <isEndEffector>k__BackingField; // 0x50
+        public bool effectChildNodes; // 0x51
+        public float maintainRelativePositionWeight; // 0x54
+        public UnityEngine.Transform[] childBones; // 0x58
+        public UnityEngine.Transform planeBone1; // 0x60
+        public UnityEngine.Transform planeBone2; // 0x68
+        public UnityEngine.Transform planeBone3; // 0x70
+        public UnityEngine.Quaternion planeRotationOffset; // 0x78
+        public float posW; // 0x88
+        public float rotW; // 0x8C
+        public UnityEngine.Vector3[] localPositions; // 0x90
+        public bool usePlaneNodes; // 0x98
+        public UnityEngine.Quaternion animatedPlaneRotation; // 0x9C
+        public UnityEngine.Vector3 animatedPosition; // 0xAC
+        public bool firstUpdate; // 0xB8
+        public int chainIndex; // 0xBC
+        public int nodeIndex; // 0xC0
+        public int plane1ChainIndex; // 0xC4
+        public int plane1NodeIndex; // 0xC8
+        public int plane2ChainIndex; // 0xCC
+        public int plane2NodeIndex; // 0xD0
+        public int plane3ChainIndex; // 0xD4
+        public int plane3NodeIndex; // 0xD8
+        public int[] childChainIndexes; // 0xE0
+        public int[] childNodeIndexes; // 0xE8
 
         // ── Methods ──
         public void GetNode(){} // RVA: 0x7FFD4E423770
@@ -553,7 +876,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKExecutionOrder : MonoBehaviour
     {
-        public object animatePhysics;
+        public RootMotion.FinalIK.IK[] animatePhysics; // 0x20
+        public UnityEngine.Animator animator; // 0x28
+        public bool fixedFrame; // 0x30
 
         // ── Methods ──
         public void get_animatePhysics(){} // RVA: 0x7FFD4E4104C0
@@ -577,6 +902,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKMappingBone : IKMapping
     {
+        public UnityEngine.Transform bone; // 0x10
+        public float maintainRotationWeight; // 0x18
+        public 0x6651FD00 boneMap; // 0x20
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E42A050
         public void .ctor(){} // RVA: 0x7FFD4E42A250 | overloaded x2
@@ -589,6 +918,18 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKMappingLimb : IKMapping
     {
+        public UnityEngine.Transform parentBone; // 0x10
+        public UnityEngine.Transform bone1; // 0x18
+        public UnityEngine.Transform bone2; // 0x20
+        public UnityEngine.Transform bone3; // 0x28
+        public float maintainRotationWeight; // 0x30
+        public float weight; // 0x34
+        public bool updatePlaneRotations; // 0x38
+        public 0x6651FD00 boneMapParent; // 0x40
+        public 0x6651FD00 boneMap1; // 0x48
+        public 0x6651FD00 boneMap2; // 0x50
+        public 0x6651FD00 boneMap3; // 0x58
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E42A5D0
         public void GetBoneMap(){} // RVA: 0x7FFD4E42A670
@@ -604,6 +945,21 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKMappingSpine : IKMapping
     {
+        public UnityEngine.Transform[] spineBones; // 0x10
+        public UnityEngine.Transform leftUpperArmBone; // 0x18
+        public UnityEngine.Transform rightUpperArmBone; // 0x20
+        public UnityEngine.Transform leftThighBone; // 0x28
+        public UnityEngine.Transform rightThighBone; // 0x30
+        public int iterations; // 0x38
+        public float twistWeight; // 0x3C
+        public int rootNodeIndex; // 0x40
+        public 0x6651FD00[] spine; // 0x48
+        public 0x6651FD00 leftUpperArm; // 0x50
+        public 0x6651FD00 rightUpperArm; // 0x58
+        public 0x6651FD00 leftThigh; // 0x60
+        public 0x6651FD00 rightThigh; // 0x68
+        public bool useFABRIK; // 0x70
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E42C5C0
         public void .ctor(){} // RVA: 0x7FFD4E42D040 | overloaded x2
@@ -621,7 +977,15 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolver : Object
     {
-        public object initiated;
+        public UnityEngine.Vector3 initiated; // 0x10
+        public float IKPositionWeight; // 0x1C
+        public bool <initiated>k__BackingField; // 0x20
+        public 0x66520018 OnPreInitiate; // 0x28
+        public 0x66520018 OnPostInitiate; // 0x30
+        public 0x66520018 OnPreUpdate; // 0x38
+        public 0x66520018 OnPostUpdate; // 0x40
+        public bool firstInitiation; // 0x48
+        public UnityEngine.Transform root; // 0x50
 
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E079F60 | overloaded x2
@@ -649,10 +1013,19 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverAim : IKSolverHeuristic
     {
-        public object transformAxis;
-        public object transformPoleAxis;
-        public object minBones;
-        public object localDirection;
+        public UnityEngine.Transform transformAxis; // 0x88
+        public UnityEngine.Vector3 transformPoleAxis; // 0x90
+        public UnityEngine.Vector3 minBones; // 0x9C
+        public UnityEngine.Vector3 localDirection; // 0xA8
+        public float poleWeight; // 0xB4
+        public UnityEngine.Transform poleTarget; // 0xB8
+        public float clampWeight; // 0xC0
+        public int clampSmoothing; // 0xC4
+        public 0x66520070 OnPreIteration; // 0xC8
+        public float step; // 0xD0
+        public UnityEngine.Vector3 clampedIKPosition; // 0xD4
+        public RootMotion.FinalIK.RotationLimit transformLimit; // 0xE0
+        public UnityEngine.Transform lastTransform; // 0xE8
 
         // ── Methods ──
         public void GetAngle(){} // RVA: 0x7FFD4E4324C0
@@ -670,6 +1043,18 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverArm : IKSolver
     {
+        public float IKRotationWeight; // 0x58
+        public UnityEngine.Quaternion IKRotation; // 0x5C
+        public 0x6651FF10 chest; // 0x70
+        public 0x6651FF10 shoulder; // 0x78
+        public 0x6651FF10 upperArm; // 0x80
+        public 0x6651FF10 forearm; // 0x88
+        public 0x6651FF10 hand; // 0x90
+        public bool isLeft; // 0x98
+        public 0x665207A8 arm; // 0xA0
+        public UnityEngine.Vector3[] positions; // 0xA8
+        public UnityEngine.Quaternion[] rotations; // 0xB0
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E435250
         public void SetChain(){} // RVA: 0x7FFD4E435940
@@ -687,6 +1072,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverCCD : IKSolverHeuristic
     {
+        public 0x66520070 OnPreIteration; // 0x88
+
         // ── Methods ──
         public void FadeOutBoneWeights(){} // RVA: 0x7FFD4E437690
         public void OnInitiate(){} // RVA: 0x7FFD4E437730
@@ -697,7 +1084,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFABRIK : IKSolverHeuristic
     {
-        public object boneLengthCanBeZero;
+        public 0x66520070 boneLengthCanBeZero; // 0x88
+        public bool[] limitedBones; // 0x90
+        public UnityEngine.Vector3[] solverLocalPositions; // 0x98
 
         // ── Methods ──
         public void SolveForward(){} // RVA: 0x7FFD4E438C40
@@ -729,6 +1118,13 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFABRIKRoot : IKSolver
     {
+        public int iterations; // 0x58
+        public float rootPin; // 0x5C
+        public RootMotion.FinalIK.FABRIKChain[] chains; // 0x60
+        public bool zeroWeightApplied; // 0x68
+        public bool[] isRoot; // 0x70
+        public UnityEngine.Vector3 rootDefaultPosition; // 0x78
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E43D610
         public void StoreDefaultLocalState(){} // RVA: 0x7FFD4E43DF90
@@ -745,6 +1141,22 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFullBody : IKSolver
     {
+        public int iterations; // 0x58
+        public RootMotion.FinalIK.FBIKChain[] chain; // 0x60
+        public RootMotion.FinalIK.IKEffector[] effectors; // 0x68
+        public RootMotion.FinalIK.IKMappingSpine spineMapping; // 0x70
+        public RootMotion.FinalIK.IKMappingBone[] boneMappings; // 0x78
+        public RootMotion.FinalIK.IKMappingLimb[] limbMappings; // 0x80
+        public bool FABRIKPass; // 0x88
+        public 0x66520018 OnPreRead; // 0x90
+        public 0x66520018 OnPreSolve; // 0x98
+        public 0x66520070 OnPreIteration; // 0xA0
+        public 0x66520070 OnPostIteration; // 0xA8
+        public 0x66520018 OnPreBend; // 0xB0
+        public 0x66520018 OnPostSolve; // 0xB8
+        public 0x66520018 OnStoreDefaultLocalState; // 0xC0
+        public 0x66520018 OnFixTransforms; // 0xC8
+
         // ── Methods ──
         public void GetEffector(){} // RVA: 0x7FFD4E43EE70
         public void GetChain(){} // RVA: 0x7FFD4E43F010
@@ -767,25 +1179,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFullBodyBiped : IKSolverFullBody
     {
-        public object bodyEffector;
-        public object leftShoulderEffector;
-        public object rightShoulderEffector;
-        public object leftThighEffector;
-        public object rightThighEffector;
-        public object leftHandEffector;
-        public object rightHandEffector;
-        public object leftFootEffector;
-        public object rightFootEffector;
-        public object leftArmChain;
-        public object rightArmChain;
-        public object leftLegChain;
-        public object rightLegChain;
-        public object leftArmMapping;
-        public object rightArmMapping;
-        public object leftLegMapping;
-        public object rightLegMapping;
-        public object headMapping;
-        public object pullBodyOffset;
+        public UnityEngine.Transform bodyEffector; // 0xD0
+        public float leftShoulderEffector; // 0xD8
+        public float rightShoulderEffector; // 0xDC
+        public float leftThighEffector; // 0xE0
+        public UnityEngine.Vector3 rightThighEffector; // 0xE4
+        public UnityEngine.Vector3 leftHandEffector; // 0xF0
 
         // ── Methods ──
         public void get_bodyEffector(){} // RVA: 0x7FFD4E441010
@@ -836,11 +1235,14 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverHeuristic : IKSolver
     {
-        public object minBones;
-        public object boneLengthCanBeZero;
-        public object allowCommonParent;
-        public object localDirection;
-        public object positionOffset;
+        public UnityEngine.Transform minBones; // 0x58
+        public float boneLengthCanBeZero; // 0x60
+        public int allowCommonParent; // 0x64
+        public bool localDirection; // 0x68
+        public bool positionOffset; // 0x69
+        public 0x6651FF68[] bones; // 0x70
+        public UnityEngine.Vector3 lastLocalDirection; // 0x78
+        public float chainLength; // 0x84
 
         // ── Methods ──
         public void SetChain(){} // RVA: 0x7FFD4E445ED0
@@ -865,6 +1267,18 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverLeg : IKSolver
     {
+        public float IKRotationWeight; // 0x58
+        public UnityEngine.Quaternion IKRotation; // 0x5C
+        public 0x6651FF10 pelvis; // 0x70
+        public 0x6651FF10 thigh; // 0x78
+        public 0x6651FF10 calf; // 0x80
+        public 0x6651FF10 foot; // 0x88
+        public 0x6651FF10 toe; // 0x90
+        public 0x665208B0 leg; // 0x98
+        public UnityEngine.Vector3 heelOffset; // 0xA0
+        public UnityEngine.Vector3[] positions; // 0xB0
+        public UnityEngine.Quaternion[] rotations; // 0xB8
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4E448190
         public void SetChain(){} // RVA: 0x7FFD4E435940
@@ -882,7 +1296,22 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverLimb : IKSolverTrigonometric
     {
-        public object axisDirections;
+        public reDisplay axisDirections; // 0xA8
+        public 0x665204E8 bendModifier; // 0xAC
+        public float maintainRotationWeight; // 0xB0
+        public float bendModifierWeight; // 0xB4
+        public UnityEngine.Transform bendGoal; // 0xB8
+        public bool maintainBendFor1Frame; // 0xC0
+        public bool maintainRotationFor1Frame; // 0xC1
+        public UnityEngine.Quaternion defaultRootRotation; // 0xC4
+        public UnityEngine.Quaternion parentDefaultRotation; // 0xD4
+        public UnityEngine.Quaternion bone3RotationBeforeSolve; // 0xE4
+        public UnityEngine.Quaternion maintainRotation; // 0xF4
+        public UnityEngine.Quaternion bone3DefaultRotation; // 0x104
+        public UnityEngine.Vector3 _bendNormal; // 0x114
+        public UnityEngine.Vector3 animationNormal; // 0x120
+        public 0x66520540[] axisDirectionsLeft; // 0x130
+        public 0x66520540[] axisDirectionsRight; // 0x138
 
         // ── Methods ──
         public void MaintainRotation(){} // RVA: 0x7FFD4E44A390
@@ -898,12 +1327,22 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverLookAt : IKSolver
     {
-        public object spineIsValid;
-        public object spineIsEmpty;
-        public object headIsValid;
-        public object headIsEmpty;
-        public object eyesIsValid;
-        public object eyesIsEmpty;
+        public UnityEngine.Transform spineIsValid; // 0x58
+        public 0x665205F0[] spineIsEmpty; // 0x60
+        public 0x665205F0 headIsValid; // 0x68
+        public 0x665205F0[] headIsEmpty; // 0x70
+        public float eyesIsValid; // 0x78
+        public float eyesIsEmpty; // 0x7C
+        public float eyesWeight; // 0x80
+        public float clampWeight; // 0x84
+        public float clampWeightHead; // 0x88
+        public float clampWeightEyes; // 0x8C
+        public int clampSmoothing; // 0x90
+        public UnityEngine.AnimationCurve spineWeightCurve; // 0x98
+        public UnityEngine.Vector3 spineTargetOffset; // 0xA0
+        public UnityEngine.Vector3[] spineForwards; // 0xB0
+        public UnityEngine.Vector3[] headForwards; // 0xB8
+        public UnityEngine.Vector3[] eyeForward; // 0xC0
 
         // ── Methods ──
         public void SetLookAtWeight(){} // RVA: 0x7FFD4E44D3A0 | overloaded x6
@@ -931,6 +1370,16 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverTrigonometric : IKSolver
     {
+        public UnityEngine.Transform target; // 0x58
+        public float IKRotationWeight; // 0x60
+        public UnityEngine.Quaternion IKRotation; // 0x64
+        public UnityEngine.Vector3 bendNormal; // 0x74
+        public 0x665206A0 bone1; // 0x80
+        public 0x665206A0 bone2; // 0x88
+        public 0x665206A0 bone3; // 0x90
+        public UnityEngine.Vector3 weightIKPosition; // 0x98
+        public bool directHierarchy; // 0xA4
+
         // ── Methods ──
         public void SetBendGoalPosition(){} // RVA: 0x7FFD4E451790
         public void SetBendPlaneToCurrent(){} // RVA: 0x7FFD4E451AA0
@@ -959,7 +1408,44 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverVR : IKSolver
     {
-        public object rootBone;
+        public UnityEngine.Transform[] rootBone; // 0x58
+        public bool hasChest; // 0x60
+        public bool hasNeck; // 0x61
+        public bool hasShoulders; // 0x62
+        public bool hasToes; // 0x63
+        public bool hasLegs; // 0x64
+        public bool hasUpperChest; // 0x65
+        public UnityEngine.Vector3[] readPositions; // 0x68
+        public UnityEngine.Quaternion[] readRotations; // 0x70
+        public UnityEngine.Vector3[] solvedPositions; // 0x78
+        public UnityEngine.Quaternion[] solvedRotations; // 0x80
+        public UnityEngine.Quaternion[] defaultLocalRotations; // 0x88
+        public UnityEngine.Vector3[] defaultLocalPositions; // 0x90
+        public UnityEngine.Vector3 rootV; // 0x98
+        public UnityEngine.Vector3 rootVelocity; // 0xA4
+        public UnityEngine.Vector3 bodyOffset; // 0xB0
+        public int supportLegIndex; // 0xBC
+        public int lastLOD; // 0xC0
+        public int LOD; // 0xC4
+        public bool plantFeet; // 0xC8
+        public 0x66520A68 <rootBone>k__BackingField; // 0xD0
+        public 0x66520960 spine; // 0xD8
+        public 0x665207A8 leftArm; // 0xE0
+        public 0x665207A8 rightArm; // 0xE8
+        public 0x665208B0 leftLeg; // 0xF0
+        public 0x665208B0 rightLeg; // 0xF8
+        public 0x66520908 locomotion; // 0x100
+        public 0x665208B0[] legs; // 0x108
+        public 0x665207A8[] arms; // 0x110
+        public UnityEngine.Vector3 headPosition; // 0x118
+        public UnityEngine.Vector3 headDeltaPosition; // 0x124
+        public UnityEngine.Vector3 raycastOriginPelvis; // 0x130
+        public UnityEngine.Vector3 lastOffset; // 0x13C
+        public UnityEngine.Vector3 debugPos1; // 0x148
+        public UnityEngine.Vector3 debugPos2; // 0x154
+        public UnityEngine.Vector3 debugPos3; // 0x160
+        public UnityEngine.Vector3 debugPos4; // 0x16C
+        public bool vrcLateSolve; // 0x178
 
         // ── Methods ──
         public void SetToReferences(){} // RVA: 0x7FFD4E4564F0
@@ -1000,6 +1486,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Inertia : OffsetModifier
     {
+        public 0x66521EB0[] bodies; // 0x38
+        public 0x66521FB8[] limits; // 0x40
+
         // ── Methods ──
         public void ResetBodies(){} // RVA: 0x7FFD4E4B1D60
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4B1E00
@@ -1008,11 +1497,42 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionEffector : Object
     {
-        public object effectorType;
-        public object isPaused;
-        public object interactionObject;
-        public object inInteraction;
-        public object progress;
+        public 0x66520330 effectorType; // 0x10
+        public bool isPaused; // 0x14
+        public RootMotion.FinalIK.InteractionObject interactionObject; // 0x18
+        public RootMotion.FinalIK.Poser inInteraction; // 0x20
+        public RootMotion.FinalIK.IKEffector progress; // 0x28
+        public float timer; // 0x30
+        public float length; // 0x34
+        public float weight; // 0x38
+        public float fadeInSpeed; // 0x3C
+        public float defaultPositionWeight; // 0x40
+        public float defaultRotationWeight; // 0x44
+        public float defaultPull; // 0x48
+        public float defaultReach; // 0x4C
+        public float defaultPush; // 0x50
+        public float defaultPushParent; // 0x54
+        public float defaultBendGoalWeight; // 0x58
+        public float resetTimer; // 0x5C
+        public bool positionWeightUsed; // 0x60
+        public bool rotationWeightUsed; // 0x61
+        public bool pullUsed; // 0x62
+        public bool reachUsed; // 0x63
+        public bool pushUsed; // 0x64
+        public bool pushParentUsed; // 0x65
+        public bool bendGoalWeightUsed; // 0x66
+        public bool pickedUp; // 0x67
+        public bool defaults; // 0x68
+        public bool pickUpOnPostFBBIK; // 0x69
+        public UnityEngine.Vector3 pickUpPosition; // 0x6C
+        public UnityEngine.Vector3 pausePositionRelative; // 0x78
+        public UnityEngine.Quaternion pickUpRotation; // 0x84
+        public UnityEngine.Quaternion pauseRotationRelative; // 0x94
+        public RootMotion.FinalIK.InteractionTarget interactionTarget; // 0xA8
+        public UnityEngine.Transform target; // 0xB0
+        public System.Collections.Generic.List`1<bool> triggered; // 0xB8
+        public RootMotion.FinalIK.InteractionSystem interactionSystem; // 0xC0
+        public bool started; // 0xC8
 
         // ── Methods ──
         public void get_effectorType(){} // RVA: 0x7FFD4E38E5C0
@@ -1039,6 +1559,15 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionLookAt : Object
     {
+        public RootMotion.FinalIK.LookAtIK ik; // 0x10
+        public float lerpSpeed; // 0x18
+        public float weightSpeed; // 0x1C
+        public bool isPaused; // 0x20
+        public UnityEngine.Transform lookAtTarget; // 0x28
+        public float stopLookTime; // 0x30
+        public float weight; // 0x34
+        public bool firstFBBIKSolve; // 0x38
+
         // ── Methods ──
         public void Look(){} // RVA: 0x7FFD4E494120
         public void OnFixTransforms(){} // RVA: 0x7FFD4E494380
@@ -1050,10 +1579,15 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionObject : MonoBehaviour
     {
-        public object length;
-        public object lastUsedInteractionSystem;
-        public object lookAtTarget;
-        public object targetsRoot;
+        public UnityEngine.Transform length; // 0x20
+        public UnityEngine.Transform lastUsedInteractionSystem; // 0x28
+        public UnityEngine.Transform lookAtTarget; // 0x30
+        public 0x66520D80[] targetsRoot; // 0x38
+        public 0x66520DD8[] multipliers; // 0x40
+        public 0x66520C20[] events; // 0x48
+        public float <length>k__BackingField; // 0x50
+        public RootMotion.FinalIK.InteractionSystem <lastUsedInteractionSystem>k__BackingField; // 0x58
+        public RootMotion.FinalIK.InteractionTarget[] targets; // 0x60
 
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -1085,9 +1619,30 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionSystem : MonoBehaviour
     {
-        public object inInteraction;
-        public object ik;
-        public object triggersInRange;
+        public string inInteraction; // 0x20
+        public float ik; // 0x28
+        public float triggersInRange; // 0x2C
+        public float resetToDefaultsSpeed; // 0x30
+        public UnityEngine.Collider characterCollider; // 0x38
+        public UnityEngine.Transform FPSCamera; // 0x40
+        public UnityEngine.LayerMask camRaycastLayers; // 0x48
+        public float camRaycastDistance; // 0x4C
+        public System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> <triggersInRange>k__BackingField; // 0x50
+        public System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> inContact; // 0x58
+        public System.Collections.Generic.List`1<int> bestRangeIndexes; // 0x60
+        public 0x66520E88 OnInteractionStart; // 0x68
+        public 0x66520E88 OnInteractionPause; // 0x70
+        public 0x66520E88 OnInteractionPickUp; // 0x78
+        public 0x66520E88 OnInteractionResume; // 0x80
+        public 0x66520E88 OnInteractionStop; // 0x88
+        public 0x66520EE0 OnInteractionEvent; // 0x90
+        public UnityEngine.RaycastHit raycastHit; // 0x98
+        public RootMotion.FinalIK.FullBodyBipedIK fullBody; // 0xC8
+        public RootMotion.FinalIK.InteractionLookAt lookAt; // 0xD0
+        public RootMotion.FinalIK.InteractionEffector[] interactionEffectors; // 0xD8
+        public bool initiated; // 0xE0
+        public UnityEngine.Collider lastCollider; // 0xE8
+        public UnityEngine.Collider c; // 0xF0
 
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
@@ -1149,6 +1704,17 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionTarget : MonoBehaviour
     {
+        public 0x66520330 effectorType; // 0x20
+        public 0x66520F90[] multipliers; // 0x28
+        public float interactionSpeedMlp; // 0x30
+        public UnityEngine.Transform pivot; // 0x38
+        public UnityEngine.Vector3 twistAxis; // 0x40
+        public float twistWeight; // 0x4C
+        public float swingWeight; // 0x50
+        public bool rotateOnce; // 0x54
+        public UnityEngine.Quaternion defaultLocalRotation; // 0x58
+        public UnityEngine.Transform lastPivot; // 0x68
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1166,6 +1732,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionTrigger : MonoBehaviour
     {
+        public 0x66521148[] ranges; // 0x20
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1179,6 +1747,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LegIK : IK
     {
+        public RootMotion.FinalIK.IKSolverLeg solver; // 0x40
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1190,6 +1760,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LimbIK : IK
     {
+        public RootMotion.FinalIK.IKSolverLimb solver; // 0x40
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1201,7 +1773,26 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LookAtController : MonoBehaviour
     {
-        public object pivot;
+        public RootMotion.FinalIK.LookAtIK pivot; // 0x20
+        public UnityEngine.Transform target; // 0x28
+        public float weight; // 0x30
+        public UnityEngine.Vector3 offset; // 0x34
+        public float targetSwitchSmoothTime; // 0x40
+        public float weightSmoothTime; // 0x44
+        public bool smoothTurnTowardsTarget; // 0x48
+        public float maxRadiansDelta; // 0x4C
+        public float maxMagnitudeDelta; // 0x50
+        public float slerpSpeed; // 0x54
+        public UnityEngine.Vector3 pivotOffsetFromRoot; // 0x58
+        public float minDistance; // 0x64
+        public float maxRootAngle; // 0x68
+        public UnityEngine.Transform lastTarget; // 0x70
+        public float switchWeight; // 0x78
+        public float switchWeightV; // 0x7C
+        public float weightV; // 0x80
+        public UnityEngine.Vector3 lastPosition; // 0x84
+        public UnityEngine.Vector3 dir; // 0x90
+        public bool lastSmoothTowardsTarget; // 0x9C
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4B2790
@@ -1214,6 +1805,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LookAtIK : IK
     {
+        public RootMotion.FinalIK.IKSolverLookAt solver; // 0x40
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1225,7 +1818,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class OffsetModifier : MonoBehaviour
     {
-        public object deltaTime;
+        public float deltaTime; // 0x20
+        public RootMotion.FinalIK.FullBodyBipedIK ik; // 0x28
+        public float lastTime; // 0x30
 
         // ── Methods ──
         public void get_deltaTime(){} // RVA: 0x7FFD4E4B4140
@@ -1240,7 +1835,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class OffsetModifierVRIK : MonoBehaviour
     {
-        public object deltaTime;
+        public float deltaTime; // 0x20
+        public RootMotion.FinalIK.VRIK ik; // 0x28
+        public float lastTime; // 0x30
 
         // ── Methods ──
         public void get_deltaTime(){} // RVA: 0x7FFD4E4B4140
@@ -1254,6 +1851,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class OffsetPose : MonoBehaviour
     {
+        public 0x66522170[] effectorLinks; // 0x20
+
         // ── Methods ──
         public void Apply(){} // RVA: 0x7FFD4E4B5A60 | overloaded x2
         public void .ctor(){} // RVA: 0x7FFD4E4B5B20
@@ -1261,6 +1860,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class PenetrationAvoidance : OffsetModifier
     {
+        public 0x66522278[] avoiders; // 0x38
+
         // ── Methods ──
         public void OnModifyOffset(){} // RVA: 0x7FFD4E4B6190
         public void .ctor(){} // RVA: 0x7FFD4E349920
@@ -1268,6 +1869,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Poser : SolverManager
     {
+        public UnityEngine.Transform poseRoot; // 0x40
+        public float weight; // 0x48
+        public float localRotationWeight; // 0x4C
+        public float localPositionWeight; // 0x50
+        public bool initiated; // 0x54
+
         // ── Methods ──
         public void AutoMapping(){} // RVA: 0x7FFD4E090980
         public void UpdateManual(){} // RVA: 0x7FFD4E4A21C0
@@ -1282,8 +1889,22 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RagdollUtility : MonoBehaviour
     {
-        public object isRagdoll;
-        public object ikUsed;
+        public RootMotion.FinalIK.IK isRagdoll; // 0x20
+        public float ikUsed; // 0x28
+        public bool applyIkOnRagdoll; // 0x2C
+        public float applyVelocity; // 0x30
+        public float applyAngularVelocity; // 0x34
+        public UnityEngine.Animator animator; // 0x38
+        public 0x66521358[] rigidbones; // 0x40
+        public 0x665213B0[] children; // 0x48
+        public bool enableRagdollFlag; // 0x50
+        public ÌÍÌÎÎÎÌÏÏÏÍÌÌÏÏÎÌÏÎ animatorUpdateMode; // 0x54
+        public RootMotion.FinalIK.IK[] allIKComponents; // 0x58
+        public bool[] fixTransforms; // 0x60
+        public float ragdollWeight; // 0x68
+        public float ragdollWeightV; // 0x6C
+        public bool fixedFrame; // 0x70
+        public bool[] disabledIKComponents; // 0x78
 
         // ── Methods ──
         public void EnableRagdoll(){} // RVA: 0x7FFD4E4A2280
@@ -1308,11 +1929,29 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Recoil : OffsetModifier
     {
-        public object isFinished;
-        public object primaryHandEffector;
-        public object secondaryHandEffector;
-        public object primaryHand;
-        public object secondaryHand;
+        public RootMotion.FinalIK.AimIK isFinished; // 0x38
+        public bool primaryHandEffector; // 0x40
+        public 0x665223D8 secondaryHandEffector; // 0x44
+        public bool primaryHand; // 0x48
+        public UnityEngine.AnimationCurve secondaryHand; // 0x50
+        public float magnitudeRandom; // 0x58
+        public UnityEngine.Vector3 rotationRandom; // 0x5C
+        public UnityEngine.Vector3 handRotationOffset; // 0x68
+        public float blendTime; // 0x74
+        public 0x66522380[] offsets; // 0x78
+        public UnityEngine.Quaternion rotationOffset; // 0x80
+        public float magnitudeMlp; // 0x90
+        public float endTime; // 0x94
+        public UnityEngine.Quaternion handRotation; // 0x98
+        public UnityEngine.Quaternion secondaryHandRelativeRotation; // 0xA8
+        public UnityEngine.Quaternion randomRotation; // 0xB8
+        public float length; // 0xC8
+        public bool initiated; // 0xCC
+        public float blendWeight; // 0xD0
+        public float w; // 0xD4
+        public UnityEngine.Quaternion primaryHandRotation; // 0xD8
+        public bool handRotationsSet; // 0xE8
+        public UnityEngine.Vector3 aimIKAxis; // 0xEC
 
         // ── Methods ──
         public void get_isFinished(){} // RVA: 0x7FFD4E4B6B60
@@ -1331,9 +1970,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimit : MonoBehaviour
     {
-        public object secondaryAxis;
-        public object crossAxis;
-        public object defaultLocalRotationOverride;
+        public UnityEngine.Vector3 secondaryAxis; // 0x20
+        public UnityEngine.Quaternion crossAxis; // 0x2C
+        public bool defaultLocalRotationOverride; // 0x3C
+        public bool initiated; // 0x3D
+        public bool applicationQuit; // 0x3E
+        public bool defaultLocalRotationSet; // 0x3F
 
         // ── Methods ──
         public void SetDefaultLocalRotation(){} // RVA: 0x7FFD4E4A5E10 | overloaded x2
@@ -1356,6 +1998,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitAngle : RotationLimit
     {
+        public float limit; // 0x40
+        public float twistLimit; // 0x44
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1368,6 +2013,13 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitHinge : RotationLimit
     {
+        public bool useLimits; // 0x40
+        public float min; // 0x44
+        public float max; // 0x48
+        public float zeroAxisDisplayOffset; // 0x4C
+        public UnityEngine.Quaternion lastRotation; // 0x50
+        public float lastAngle; // 0x60
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1380,6 +2032,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitPolygonal : RotationLimit
     {
+        public float twistLimit; // 0x40
+        public int smoothIterations; // 0x44
+        public 0x66521618[] points; // 0x48
+        public UnityEngine.Vector3[] P; // 0x50
+        public 0x665215C0[] reachCones; // 0x58
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1401,6 +2059,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitSpline : RotationLimit
     {
+        public float twistLimit; // 0x40
+        public UnityEngine.AnimationCurve spline; // 0x48
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1414,6 +2075,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ShoulderRotator : MonoBehaviour
     {
+        public float weight; // 0x20
+        public float offset; // 0x24
+        public RootMotion.FinalIK.FullBodyBipedIK ik; // 0x28
+        public bool skip; // 0x30
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4B9490
         public void RotateShoulders(){} // RVA: 0x7FFD4E4B9660
@@ -1425,6 +2091,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class TrigonometricIK : IK
     {
+        public RootMotion.FinalIK.IKSolverTrigonometric solver; // 0x40
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1436,6 +2104,18 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class TwistRelaxer : MonoBehaviour
     {
+        public RootMotion.FinalIK.IK ik; // 0x20
+        public UnityEngine.Transform parent; // 0x28
+        public UnityEngine.Transform child; // 0x30
+        public float weight; // 0x38
+        public float parentChildCrossfade; // 0x3C
+        public float twistAngleOffset; // 0x40
+        public UnityEngine.Vector3 twistAxis; // 0x44
+        public UnityEngine.Vector3 axis; // 0x50
+        public UnityEngine.Vector3 axisRelativeToParentDefault; // 0x5C
+        public UnityEngine.Vector3 axisRelativeToChildDefault; // 0x68
+        public bool _inited; // 0x74
+
         // ── Methods ──
         public void Relax(){} // RVA: 0x7FFD4E48EA40
         public void Init(){} // RVA: 0x7FFD4E48FBA0
@@ -1448,6 +2128,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class VRIK : IK
     {
+        public 0x6651F938 references; // 0x40
+        public RootMotion.FinalIK.IKSolverVR solver; // 0x48
+        public bool _isVRCAvatarMainIK; // 0x50
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0x7FFD4E341310
         public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
@@ -1473,6 +2157,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class VRIKLODController : MonoBehaviour
     {
+        public UnityEngine.Renderer LODRenderer; // 0x20
+        public float LODDistance; // 0x28
+        public bool allowCulled; // 0x2C
+        public RootMotion.FinalIK.VRIK ik; // 0x30
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E4BFCA0
         public void Update(){} // RVA: 0x7FFD4E4BFD30
@@ -1482,7 +2171,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class VRIKRootController : MonoBehaviour
     {
-        public object pelvisTargetRight;
+        public UnityEngine.Vector3 pelvisTargetRight; // 0x20
+        public UnityEngine.Transform pelvisTarget; // 0x30
+        public UnityEngine.Transform leftFootTarget; // 0x38
+        public UnityEngine.Transform rightFootTarget; // 0x40
+        public RootMotion.FinalIK.VRIK ik; // 0x48
 
         // ── Methods ──
         public void get_pelvisTargetRight(){} // RVA: 0x7FFD4E3A7EE0

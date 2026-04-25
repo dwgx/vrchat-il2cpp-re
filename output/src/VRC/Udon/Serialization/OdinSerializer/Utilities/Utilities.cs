@@ -7,9 +7,12 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 {
     public class Cache`1 : Object
     {
-        public object MaxCacheSize;
-        public object IsFree;
-        public object VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.Value;
+        public System.Threading.SpinLock MaxCacheSize;
+        public bool IsFree; // 0x4
+        public object[] VRC.Udon.Serialization.OdinSerializer.Utilities.ICache.Value; // 0x8
+        public bool isFree; // 0x10
+        public int maxCacheSize; // 0x10
+        public VRC.Udon.Serialization.OdinSerializer.SerializationContext Value; // 0x18
 
         // ── Methods ──
         public void get_MaxCacheSize(){} // RVA: 0x7FFD4E079990
@@ -27,7 +30,7 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class DoubleLookupDictionary`3 : Dictionary`2
     {
-        public object Item;
+        public System.Collections.Generic.IEqualityComparer`1<V> Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30 | overloaded x2
@@ -43,7 +46,7 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class EmitUtilities : Object
     {
-        public object CanEmit;
+        public System.Reflection.Assembly CanEmit;
 
         // ── Methods ──
         public void get_CanEmit(){} // RVA: 0x7FFD4E341320
@@ -73,6 +76,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class FastTypeComparer : Object
     {
+        public VRC.Udon.Serialization.OdinSerializer.Utilities.FastTypeComparer Instance;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD5545A270
         public void GetHashCode(){} // RVA: 0x7FFD4E5C13D0
@@ -89,6 +94,21 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class Flags : Object
     {
+        public 0x66438780 AnyVisibility;
+        public 0x66438780 InstancePublic;
+        public 0x66438780 InstancePrivate;
+        public 0x66438780 InstanceAnyVisibility;
+        public 0x66438780 StaticPublic;
+        public 0x66438780 StaticPrivate;
+        public 0x66438780 StaticAnyVisibility;
+        public 0x66438780 InstancePublicDeclaredOnly;
+        public 0x66438780 InstancePrivateDeclaredOnly;
+        public 0x66438780 InstanceAnyDeclaredOnly;
+        public 0x66438780 StaticPublicDeclaredOnly;
+        public 0x66438780 StaticPrivateDeclaredOnly;
+        public 0x66438780 StaticAnyDeclaredOnly;
+        public 0x66438780 StaticInstanceAnyVisibility;
+        public 0x66438780 AllMembers;
     }
 
     public class GarbageFreeIterators : Object
@@ -100,7 +120,7 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ICache
     {
-        public object Value;
+        public <>c<T> Value;
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x7FFD4E078E90
@@ -119,7 +139,7 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class IImmutableList`1
     {
-        public object Item;
+        public int Item;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD4E2ADC40
@@ -127,14 +147,7 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList : Object
     {
-        public object Count;
-        public object IsFixedSize;
-        public object IsReadOnly;
-        public object IsSynchronized;
-        public object SyncRoot;
-        public object System.Collections.IList.Item;
-        public object System.Collections.Generic.IList<System.Object>.Item;
-        public object Item;
+        public System.Collections.IList Count; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5545A380
@@ -168,15 +181,7 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList`1 : Object
     {
-        public object Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.IList.IsFixedSize;
-        public object System.Collections.IList.IsReadOnly;
-        public object IsReadOnly;
-        public object System.Collections.IList.Item;
-        public object System.Collections.Generic.IList<T>.Item;
-        public object Item;
+        public System.Collections.Generic.IList`1<T> Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -213,15 +218,7 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList`2 : Object
     {
-        public object Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.IList.IsFixedSize;
-        public object System.Collections.IList.IsReadOnly;
-        public object IsReadOnly;
-        public object System.Collections.IList.Item;
-        public object System.Collections.Generic.IList<TElement>.Item;
-        public object Item;
+        public U Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -265,15 +262,9 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasFieldInfo : FieldInfo
     {
-        public object AliasedField;
-        public object Module;
-        public object MetadataToken;
-        public object Name;
-        public object DeclaringType;
-        public object ReflectedType;
-        public object FieldType;
-        public object FieldHandle;
-        public object Attributes;
+        public string AliasedField;
+        public System.Reflection.FieldInfo Module; // 0x10
+        public string MetadataToken; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5545B1E0 | overloaded x2
@@ -294,14 +285,9 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasMethodInfo : MethodInfo
     {
-        public object AliasedMethod;
-        public object ReturnTypeCustomAttributes;
-        public object MethodHandle;
-        public object Attributes;
-        public object ReturnType;
-        public object DeclaringType;
-        public object Name;
-        public object ReflectedType;
+        public string AliasedMethod;
+        public System.Reflection.MethodInfo ReturnTypeCustomAttributes; // 0x10
+        public string MethodHandle; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5545B1E0 | overloaded x2
@@ -323,16 +309,9 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasPropertyInfo : PropertyInfo
     {
-        public object AliasedProperty;
-        public object Module;
-        public object MetadataToken;
-        public object Name;
-        public object DeclaringType;
-        public object ReflectedType;
-        public object PropertyType;
-        public object Attributes;
-        public object CanRead;
-        public object CanWrite;
+        public string AliasedProperty;
+        public System.Reflection.PropertyInfo Module; // 0x10
+        public string MetadataToken; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5545B1E0 | overloaded x2
@@ -394,6 +373,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ReferenceEqualityComparer`1 : Object
     {
+        public VRC.Udon.Serialization.OdinSerializer.Utilities.ReferenceEqualityComparer`1<T> Default;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E2ADC40
         public void GetHashCode(){} // RVA: 0x7FFD4E2ADC40
@@ -410,6 +391,31 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class TypeExtensions : Object
     {
+        public System.Func`3<float,float,bool> FloatEqualityComparerFunc;
+        public System.Func`3<double,double,bool> DoubleEqualityComparerFunc; // 0x8
+        public System.Func`3<UnityEngine.Quaternion,UnityEngine.Quaternion,bool> QuaternionEqualityComparerFunc; // 0x10
+        public object GenericConstraintsSatisfaction_LOCK; // 0x18
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Type> GenericConstraintsSatisfactionInferredParameters; // 0x20
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Type> GenericConstraintsSatisfactionResolvedMap; // 0x28
+        public System.Collections.Generic.HashSet`1<System.Type> GenericConstraintsSatisfactionProcessedParams; // 0x30
+        public System.Collections.Generic.HashSet`1<System.Type> GenericConstraintsSatisfactionTypesToCheck; // 0x38
+        public System.Collections.Generic.List`1<System.Type> GenericConstraintsSatisfactionTypesToCheck_ToAdd; // 0x40
+        public System.Type GenericListInterface; // 0x48
+        public System.Type GenericCollectionInterface; // 0x50
+        public object WeaklyTypedTypeCastDelegates_LOCK; // 0x58
+        public object StronglyTypedTypeCastDelegates_LOCK; // 0x60
+        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<System.Type,System.Type,System.Func`2<object,object>> WeaklyTypedTypeCastDelegates; // 0x68
+        public VRC.Udon.Serialization.OdinSerializer.Utilities.DoubleLookupDictionary`3<System.Type,System.Type,System.Delegate> StronglyTypedTypeCastDelegates; // 0x70
+        public System.Type[] TwoLengthTypeArray_Cached; // 0x78
+        public System.Collections.Generic.Stack`1<System.Type> GenericArgumentsContainsTypes_ArgsToCheckCached; // 0x80
+        public System.Collections.Generic.HashSet`1<string> ReservedCSharpKeywords; // 0x88
+        public System.Collections.Generic.Dictionary`2<string,string> TypeNameAlternatives; // 0x90
+        public object CachedNiceNames_LOCK; // 0x98
+        public System.Collections.Generic.Dictionary`2<System.Type,string> CachedNiceNames; // 0xA0
+        public System.Type VoidPointerType; // 0xA8
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.HashSet`1<System.Type>> PrimitiveImplicitCasts; // 0xB0
+        public System.Collections.Generic.HashSet`1<System.Type> ExplicitCastIntegrals; // 0xB8
+
         // ── Methods ──
         public void GetCachedNiceName(){} // RVA: 0x7FFD5544AAF0
         public void CreateNiceName(){} // RVA: 0x7FFD5544AD80
@@ -469,6 +475,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class UnityExtensions : Object
     {
+        public VRC.Udon.Serialization.OdinSerializer.Utilities.ValueGetter`2<UnityEngine.Object,UIntPtr> UnityObjectCachedPtrFieldGetter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55458720
         public void SafeIsUnityNull(){} // RVA: 0x7FFD554588E0
@@ -476,6 +484,9 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class UnityVersion : Object
     {
+        public int Major;
+        public int Minor; // 0x4
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5545B6B0
         public void EnsureLoaded(){} // RVA: 0x7FFD4E341310

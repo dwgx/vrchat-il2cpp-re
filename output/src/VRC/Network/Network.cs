@@ -8,12 +8,43 @@ namespace VRC.Network
     /// <summary>Originally: ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ</summary>
     public class FlatBufferNetworkSerializer : NetworkReadyHandler_68D0
     {
-        public object _typeId;
-        public object _useDirectPoseCodec;
-        public object f_150;
-        public object f_2A1;
-        public object f_DD3;
-        public object f_3DB;
+        public int _typeId;
+        public VRC.Core.Networking.ConcurrentLimitedCapacityList`1<VRC.Core.Networking.Pose.PoseEvent> _useDirectPoseCodec; // 0x58
+        public ÏÎÏÏÎÍÌÎÌÏÍÏÏÎÎÏÎÍÎÌÎÎÍ f_150; // 0x60
+        public ÌÎÎÌÎÌÏÍÌÎÎÌÏÌÌÎÌÎÎÌÏÌÍ f_2A1; // 0x68
+        public ÌÌÍÌÌÏÎÎÏÎÌÏÍÏÍÌÌÌÌÏÎÌÍ f_DD3; // 0x70
+        public UnityEngine.Animator f_3DB; // 0x78
+        public ÏÌÎÍÏÎÌÌÎÍÍÎÌÏÌÏÌÎÍÌÎÌÎ ÎÏÌÍÎÎÎÍÎÎÏÌÌÍÍÏÏÏÎÎÌÎÌ; // 0x80
+        public ÏÏÏÎÍÏÎÏÍÎÎÌÏÍÎÍÍÍÎÍÎÌÎ ÍÎÍÍÎÏÌÎÌÌÍÍÍÎÍÌÌÍÎÌÍÌÌ; // 0x88
+        public ÎÎÏÌÏÎÌÏÌÌÎÏÎÍÎÌÏÌÌÍÏÍÌ ÍÌÍÏÍÏÎÎÎÌÎÎÎÎÎÎÌÍÎÏÎÌÏ; // 0x90
+        public ÏÍÍÏÎÍÏÎÍÏÌÍÍÏÎÏÍÎÎÎÏÏÏ ÎÏÎÍÏÏÍÌÌÏÎÏÌÌÌÍÎÎÎÎÎÎÌ; // 0x98
+        public ÍÍÎÎÍÎÎÏÍÌÏÏÌÎÍÍÎÎÍÏÌÏÎ ÍÍÎÎÌÏÌÍÏÌÎÌÍÌÎÌÎÌÍÏÎÌÎ; // 0xA0
+        public ÍÌÌÏÍÎÎÍÍÏÌÎÏÏÎÍÍÏÎÌÌÌÎ ÏÌÌÎÏÏÍÏÎÌÏÌÏÎÍÌÎÏÎÍÍÎÏ; // 0xA8
+        public UnityEngine.Transform ÏÏÌÎÌÍÍÏÍÏÏÌÌÏÎÍÌÏÌÎÍÎÎ; // 0xB0
+        public VRC.Core.Networking.Pose.PoseEvent ÌÍÍÏÌÎÏÌÍÍÎÌÎÎÏÏÎÍÌÌÌÌÎ; // 0xB8
+        public UnityEngine.HumanPose ÍÎÌÍÎÌÎÍÍÎÎÎÌÌÏÏÍÌÎÌÎÍÍ; // 0xC0
+        public ÍÏÌÍÌ ÍÌÏÏÌÏÏÎÎÌÌÌÎÍÎÍÎÍÏÏÎÎÏ; // 0xE8
+        public ÌÎÌÎÏÏÍÏÍÎÍÏÍÏÍÏÌÌÍÏÌÌÌ ÏÏÏÎÌÎÏÍÏÍÍÎÌÍÌÌÍÎÍÏÏÍÍ; // 0xF0
+        public float ÍÍÌÏÎÎÎÍÌÍÏÎÎÏÍÌÎÌÍÍÏÏÌ; // 0xF8
+        public float ÎÍÍÏÎÌÏÍÌÍÏÍÏÍÎÎÍÌÌÎÍÎÌ;
+        public bool ÎÎÏÌÌÎÌÎÎÏÌÌÎÌÎÌÎÏÎÍÏÎÎ; // 0xFC
+        public VRC.Core.Networking.Pose.PoseCodec`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.PoseRecorder> ÎÎÏÌÍÌÌÎÍÌÍÌÏÌÎÎÎÌÍÌÍÌÌ; // 0x100
+        public VRC.Core.Networking.Pose.PoseCodec`1<Google.FlatBuffers8.ByteBuffer> ÌÌÌÌÎÌÍÎÏÎÌÌÎÏÌÌÍÎÍÏÍÏÎ; // 0x108
+        public bool <ÍÍÌÎÎÍÍÌÏÍÎÎÍÏÌÎÏÍÎÎÎÌÎ>k__BackingField; // 0x110
+        public VRC.Core.Networking.Pose.PoseEvent ÍÎÌÏÎÏÎÎÍÎÍÎÏÏÏÌÌÏÎÏÏÌÍ; // 0x118
+        public VRC.Core.Networking.Pose.PoseEvent ÏÏÌÌÏÎÍÎÏÏÏÌÌÌÏÍÏÍÎÍÌÍÎ; // 0x120
+        public ÍÌÌÍÎÌÎÍÌÎÌÍÎÎÌÌÌÏÎÌÍÌÏ ÏÍÌÏÏÌÎÏÌÍÏÍÎÎÎÍÍÌÍÌÎÏÎ; // 0x128
+        public UnityEngine.Object ÏÎÌÏÌÎÍÍÏÌÍÏÍÎÍÍÎÍÌÌÏÌÏ; // 0x130
+        public VRC.Profiling.ProfilerMarker ÎÏÎÏÌÌÌÌÌÍÎÎÍÍÎÎÎÌÏÍÏÎÍ; // 0x138
+        public VRC.Profiling.ProfilerMarker ÍÏÏÏÏÌÎÎÌÍÍÏÌÌÍÏÍÍÎÎÏÌÏ; // 0x148
+        public VRC.Profiling.ProfilerMarker ÏÌÏÍÌÎÏÌÍÏÌÍÎÏÎÍÌÏÍÌÎÌÎ; // 0x158
+        public VRC.Profiling.ProfilerMarker ÎÎÏÌÌÌÏÌÌÎÏÎÍÌÏÎÏÍÏÌÏÎÍ; // 0x168
+        public VRC.Profiling.ProfilerMarker ÎÎÎÎÎÎÏÏÏÎÏÌÍÍÌÏÎÎÌÎÍÏÎ; // 0x178
+        public VRC.Profiling.ProfilerMarker ÌÍÍÍÎÎÏÎÍÏÌÎÎÌÎÎÏÌÌÎÍÏÎ; // 0x188
+        public VRC.Profiling.ProfilerMarker ÎÍÌÏÌÍÍÎÍÌÎÎÍÎÍÏÌÍÌÍÌÏÍ; // 0x198
+        public VRC.Profiling.ProfilerMarker ÏÎÏÍÎÌÌÌÌÏÏÌÎÎÌÎÌÍÏÌÏÍÏ; // 0x1A8
+        public VRC.Profiling.ProfilerMarker ÍÏÎÌÌÍÍÌÎÍÍÌÍÍÎÌÌÏÍÎÍÍÍ; // 0x1B8
+        public VRC.Profiling.ProfilerMarker ÍÌÌÎÎÍÏÎÌÏÍÌÏÌÏÌÎÏÎÎÏÎÎ; // 0x1C8
 
         // ── Methods ──
         public void Decode(){} // RVA: 0x7FFD4E607D50 | overloaded x3
@@ -63,8 +94,34 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÏÏÍÏÏÍÎÍÌÎÎÏÏÎÌÍÎÎÎÎÏ</summary>
     public class NetworkCancelRPCComponent_3006 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public UnityEngine.Animator _destroyCancellationToken; // 0x20
+        public ÏÌÎÍÏÎÌÌÎÍÍÎÌÏÌÏÌÎÍÌÎÌÎ _useGUILayout; // 0x28
+        public ÌÌÍÌÌÏÎÎÏÎÌÏÍÏÍÌÌÌÌÏÎÌÍ ÌÏÏÍÌÌÍÎÎÍÌÍÌÏÎÍÌÍÎÌÍÌÏ; // 0x30
+        public ÏÎÏÏÎÍÌÎÌÏÍÏÏÎÎÏÎÍÎÌÎÎÍ ÎÎÎÍÌÎÏÎÏÎÏÏÏÏÏÌÏÎÏÍÎÍÍ; // 0x38
+        public bool ÎÎÏÎÌÎÌÎÎÍÏÌÌÏÏÍÏÏÌÌÎÏÎ; // 0x40
+        public bool ÌÎÍÎÌÍÌÌÌÍÌÎÏÌÏÌÍÌÌÍÎÍÏ; // 0x41
+        public float ÎÎÍÏÏÌÍÎÏÌÌÎÌÍÏÌÏÌÌÎÌÏÍ; // 0x44
+        public float ÌÎÌÏÏÏÏÎÌÎÎÎÌÎÌÏÎÎÌÎÏÏÌ; // 0x48
+        public UnityEngine.AnimatorTransitionInfo ÏÍÌÏÍÏÎÏÍÍÍÍÌÎÌÍÏÎÍÎÏÍÎ; // 0x4C
+        public int ÌÍÍÏÍÍÌÍÍÍÍÎÎÎÍÎÌÍÌÎÌÏÌ; // 0x6C
+        public int ÎÏÎÎÌÎÍÍÏÏÌÏÏÌÏÌÏÏÏÏÏÌÍ; // 0x70
+        public float ÎÌÎÍÎÏÏÏÍÌÍÎÍÌÍÍÍÏÏÎÏÏÏ; // 0x74
+        public float ÍÏÍÍÎÎÍÏÎÍÎÎÍÎÍÏÏÏÍÍÏÍÍ; // 0x78
+        public float ÎÍÍÎÌÍÏÎÍÌÍÍÍÍÏÌÍÏÎÌÎÏÍ; // 0x7C
+        public float ÍÎÌÎÎÏÌÏÎÍÏÍÌÏÌÎÏÏÌÎÏÍÏ; // 0x80
+        public bool ÍÏÏÎÎÍÍÍÎÍÍÍÍÌÏÍÏÏÎÍÍÎÌ; // 0x84
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ ÎÎÏÍÍÎÎÏÌÎÍÌÎÎÎÌÍÏÏÎÌÌÎ; // 0x88
+        public ÍÏÎÍÍÌÎÍÌÌÎÏÌÎÌÏÏÌÌÌÎÏÏ ÍÎÌÎÌÎÍÍÎÌÍÌÏÎÎÍÌÌÏÌÌÍÏ; // 0x90
+        public ÍÌÌÏÍÎÎÍÍÏÌÎÏÏÎÍÍÏÎÌÌÌÎ ÍÎÎÌÎÍÌÎÏÍÎÌÌÍÎÌÎÍÌÎÎÎÍ; // 0x98
+        public ÍÌÎÍÌÌÎÌÏÍÏÍÍÏÍÎÎÏÌÌÎÌÏ ÎÏÌÏÎÏÍÌÍÌÍÎÍÏÏÏÌÍÏÌÎÌÎ; // 0xA0
+        public ÎÌÎÌÏÎÏÍÎÏÌÍÏÏÌÏÌÌÎÎÌÏÍ ÍÍÏÎÏÍÌÌÍÏÍÍÍÏÏÌÏÏÏÎÌÍÍ; // 0xA8
+        public bool ÏÌÍÍÎÏÎÎÎÎÏÎÏÎÌÌÍÏÏÍÎÏÌ; // 0xB0
+        public bool ÎÌÍÎÏÎÏÍÎÎÌÏÏÏÌÏÎÌÍÌÎÍÍ; // 0xB1
+        public bool ÍÎÎÏÍÎÍÎÍÌÌÏÌÏÍÍÌÎÌÌÍÎÏ; // 0xB2
+        public int ÍÍÏÎÌÎÎÍÌÏÍÎÍÏÌÌÌÏÏÌÍÌÏ; // 0xB4
+        public int ÌÏÍÏÎÌÍÏÍÏÍÌÏÏÌÏÏÎÏÌÍÍÍ; // 0xB8
+        public float ÌÏÏÏÎÏÎÏÎÌÎÌÌÍÏÌÍÍÎÌÏÎÍ; // 0xBC
+        public System.Action ÍÍÏÍÎÎÏÏÏÍÏÎÎÍÏÌÏÍÎÏÌÌÌ; // 0xC0
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EF9C330
@@ -100,6 +157,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÎÌÎÏÎÎÎÍÌÎÌÏÏÏÍÏÍÎÏÏÎÍ</summary>
     public class NetworkDeserializeImplementationSerializeImplem_C9A8 : BaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<string> ÍÌÏÏÎÍÍÍÍÌÌÍÎÏÍÎÌÌÌÍÌÎÎ;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FB720E0
         public void SerializeImplementation(){} // RVA: 0x7FFD4FB72140
@@ -160,14 +219,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÍÍÌÌÏÍÎÍÍÏÏÎÏÌÌÌÏÍÌÌÏÎ</summary>
     public class NetworkDisposeAsyncImpl_B240 : NetworkDisposeAsync_9716
     {
-        public object f_803;
-        public object f_052;
-        public object f_3E8;
-        public object f_226;
-        public object f_539;
-        public object f_F94;
-        public object f_315;
-        public object f_0F5;
+        public 0x6640CE60 f_803; // 0x28
+        public System.Nullable`1<System.ValueTuple`2<string,0x66366498>> f_052; // 0x30
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FA70AF0
@@ -242,10 +295,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÏÌÍÏÏÌÍÌÌÏÍÌÏÍÎÏÎÌÌÏÍ</summary>
     public class NetworkDisposeAsyncSibling_BBCE
     {
-        public object f_226;
-        public object f_539;
-        public object f_F94;
-        public object f_E56;
+        public int f_226;
+        public System.Collections.Generic.KeyValuePair`2<string,object> f_539;
+        public LogValues`3<U,V,T> f_F94;
+        public int f_E56;
 
         // ── Methods ──
         public void ForwardCallArgs(){} // RVA: 0x7FFD4E079960
@@ -260,8 +313,12 @@ namespace VRC.Network
     /// <summary>Originally: ÏÎÎÌÏÏÌÍÎÏÌÎÎÌÌÏÍÍÏÍÎÍÍ</summary>
     public class NetworkDisposeAsync_2F8D : Object
     {
-        public object _name;
-        public object _hideFlags;
+        public 0x664A1B88 _name; // 0x10
+        public System.Threading.CancellationTokenSource _hideFlags; // 0x18
+        public System.Collections.Concurrent.ConcurrentQueue`1<byte[]> ÍÏÎÎÌÎÍÍÎÍÏÌÍÌÎÍÍÏÍÍÍÌÌ; // 0x20
+        public 0x66637F80 ÏÌÌÎÍÍÎÍÍÎÎÌÌÌÌÌÎÍÌÌÏÎÌ; // 0x28
+        public int ÎÎÏÍÍÏÎÏÌÌÍÍÏÍÌÏÍÏÌÎÌÍÌ; // 0x30
+        public bool <ÏÎÌÌÍÎÍÌÍÌÎÎÍÏÌÏÌÍÎÍÎÏÎ>k__BackingField; // 0x34
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F9CC340
@@ -283,12 +340,9 @@ namespace VRC.Network
     /// <summary>Originally: ÍÏÍÍÌÎÏÎÍÍÌÏÍÍÎÌÎÎÌÎÎÏÍ</summary>
     public class NetworkDisposeAsync_9716 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_226;
-        public object f_539;
-        public object f_F94;
-        public object f_E56;
+        public ÎÎÎÏÍÍÌÎÍÍÎÍÎÎÌÍÎÍÎÏÍÎÏ _name; // 0x10
+        public System.WeakReference`1<ÌÍÌÌÏÍÌÎÌÏÏÍÌÍÎÌÍÏÍÍÏÍÌ> _hideFlags; // 0x18
+        public bool f_226; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -312,6 +366,10 @@ namespace VRC.Network
     /// <summary>Originally: ÎÌÏÍÍÍÎÍÍÏÌÎÏÏÍÏÍÎÏÏÎÍÎ</summary>
     public class NetworkEnableMeshRPCSetPresetRPCComponent_033F : MonoBehaviour
     {
+        public UnityEngine.Light ÏÏÏÍÌÎÎÍÍÏÍÌÌÎÍÌÎÌÌÍÍÍÏ; // 0x20
+        public System.Collections.Generic.List`1<ÎÍÌÎÌÍÌÎÌÍÏÏÍÍÌÎÍÏÎÍÌÏÎ> ÏÍÏÍÎÌÌÌÍÌÏÍÍÍÌÌÎÎÎÏÍÌÎ; // 0x28
+        public int ÍÏÍÌÏÌÏÌÍÌÎÍÍÍÏÏÌÍÎÏÎÍÌ; // 0x30
+
         // ── Methods ──
         public void Use(){} // RVA: 0x7FFD4EA9C180
         public void SetPresetRPC(){} // RVA: 0x7FFD4EA9C4B0
@@ -333,6 +391,23 @@ namespace VRC.Network
     /// <summary>Originally: ÎÎÍÍÎÌÌÎÍÏÌÌÏÎÎÏÍÎÏÍÏÎÍ</summary>
     public class NetworkEnumeratorContainsSibling_8DE4 : Object
     {
+        public int ÍÌÌÌÎÌÏÏÏÎÌÍÏÎÌÎÎÍÎÌÏÍÌ;
+        public System.IFormatProvider ÏÏÍÎÏÌÍÍÌÎÍÏÌÌÌÎÌÏÏÍÌÍÏ; // 0x8
+        public System.Collections.Generic.IDictionary`2<System.Type,ÏÍÏÌÍÌÌÎÍÏÍÏÏÌÍÏÏÍÌÏÌÎÌ> ÎÌÏÎÏÍÏÏÍÏÍÎÏÎÎÏÍÏÏÎÍÍÍ; // 0x10
+        public System.Collections.Generic.IDictionary`2<System.Type,ÏÍÏÌÍÌÌÎÍÏÍÏÏÌÍÏÏÍÌÏÌÎÌ> ÍÏÎÍÍÍÏÏÎÌÎÎÎÏÍÎÌÍÌÌÎÎÌ; // 0x18
+        public System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,ÌÏÍÌÎÏÌÎÌÎÍÌÌÌÍÍÏÎÍÍÎÌÏ>> ÌÎÍÎÌÌÎÏÍÏÏÍÎÍÍÌÌÌÎÍÏÎÌ; // 0x20
+        public System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,ÌÏÍÌÎÏÌÎÌÎÍÌÌÌÍÍÏÎÍÍÎÌÏ>> ÏÍÎÍÌÏÎÏÏÍÏÌÌÎÍÍÎÌÎÌÌÏÎ; // 0x28
+        public System.Collections.Generic.IDictionary`2<System.Type,ÍÏÏÍÎÎÏÌÏÎÏÏÏÎÏÏÍÍÍÏÎÏÌ> ÏÌÏÎÍÎÏÍÌÏÍÌÌÌÎÍÏÌÍÏÌÍÏ; // 0x30
+        public object ÏÎÏÌÌÍÍÌÍÏÏÌÏÏÌÎÌÎÎÎÍÌÏ; // 0x38
+        public System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,System.Reflection.MethodInfo>> ÍÎÍÎÎÌÌÌÌÌÎÎÌÎÌÎÏÍÎÎÌÎÎ; // 0x40
+        public object ÍÍÎÌÎÏÏÎÎÎÍÌÏÎÏÌÎÍÎÍÏÏÏ; // 0x48
+        public System.Collections.Generic.IDictionary`2<System.Type,ÏÏÏÏÏÍÏÌÎÏÎÎÌÌÎÍÍÌÏÌÏÌÌ> ÏÍÌÎÌÎÏÌÎÏÍÎÌÏÎÏÍÌÍÏÍÎÎ; // 0x50
+        public object ÌÍÏÌÌÏÌÌÍÌÌÏÎÌÌÍÌÌÎÏÌÍÏ; // 0x58
+        public System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IList`1<ÍÎÏÏÎÎÏÎÍÌÍÎÌÏÍÎÌÌÍÏÏÏÎ>> ÍÎÎÎÌÍÍÌÏÌÎÍÎÍÎÏÎÌÍÌÍÏÏ; // 0x60
+        public object ÍÎÎÏÌÎÏÍÎÎÌÍÎÎÍÌÍÍÌÍÎÍÌ; // 0x68
+        public ÎÎÍÏÎÎÌÍÎÎÏÏÎÌÎÌÏÌÌÍÌÏÌ ÏÌÎÌÌÎÎÍÌÏÌÏÌÎÎÎÍÌÏÎÏÎÍ; // 0x70
+        public object ÌÎÏÎÎÌÎÏÏÌÏÏÍÌÌÎÏÏÍÍÌÏÏ; // 0x78
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EEF08B0
         public void MoveNext(){} // RVA: 0x7FFD4EEF1A50
@@ -418,9 +493,14 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÏÌÎÎÌÌÍÌÎÍÍÌÎÍÏÍÎÌÌ</summary>
     public class NetworkItemSiblingSiblingSibling_3955 : NetworkItemSiblingSiblingSibling_8C0A
     {
-        public object f_6F9;
-        public object f_54C;
-        public object f_6F4;
+        public TMPro.TextMeshProUGUI f_6F9; // 0x40
+        public TMPro.TextMeshProUGUI f_54C; // 0x48
+        public UnityEngine.GameObject f_6F4; // 0x50
+        public VRC.DataModel.KeyboardData _keyboardData; // 0x58
+        public bool _manualTrigger; // 0x60
+        public string ÏÍÏÎÍÎÌÌÌÏÏÍÍÏÎÍÌÎÍÌÎÎÏ; // 0x68
+        public UnityEngine.UI.Button ÎÌÏÏÏÍÌÎÏÏÎÎÍÏÌÌÍÍÏÏÏÏÎ; // 0x70
+        public UnityEngine.UI.Button ÌÌÍÎÏÏÎÏÌÌÏÏÌÍÌÏÎÎÎÌÌÍÍ; // 0x78
 
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x7FFD56BE5660
@@ -505,9 +585,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÏÏÎÎÏÎÌÏÎÍÍÎÎÏÍÎÍÏÌÎ</summary>
     public class NetworkItemSiblingSiblingSibling_8ADD : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_F2F;
+        public UnityEngine.UI.Button _destroyCancellationToken; // 0x20
+        public UnityEngine.GameObject _useGUILayout; // 0x28
+        public VRC.UI.Core.Styles.StyleElement f_F2F; // 0x30
+        public bool ÎÏÎÎÍÌÍÍÌÎÌÎÏÌÏÎÏÍÎÎÌÌÎ; // 0x38
+        public ÍÍÏÏÏÎÎÏÎÌÏÎÍÍÎÎÏÍÎÍÏÌÎ[] ÌÎÎÌÌÎÏÎÏÌÎÌÎÌÍÏÌÎÏÍÎÍÏ; // 0x40
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD56D63E80
@@ -528,8 +610,10 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÏÎÎÌÍÌÍÍÌÌÏÌÏÍÍÍÏÎÍÎÌ</summary>
     public class NetworkItemSiblingSiblingSibling_8C0A : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
+        public System.Action _destroyCancellationToken; // 0x20
+        public System.Action`1<string> _useGUILayout; // 0x28
+        public System.Action`1<string> ÎÎÎÏÍÌÏÍÎÏÎÍÌÎÎÏÏÎÍÌÏÎÍ; // 0x30
+        public System.Action ÎÌÎÍÎÏÏÍÏÎÌÎÌÎÏÍÍÌÏÎÍÎÎ; // 0x38
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4FCD5B30
@@ -555,9 +639,24 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÌÎÌÎÍÏÍÏÎÏÌÌÎÍÎÌÌÏÌÌÌ</summary>
     public class NetworkItemSiblingSiblingSibling_90C4 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_C33;
+        public 0x6637D258 _name; // 0x10
+        public bool _hideFlags; // 0x12
+        public string f_C33; // 0x18
+        public ÍÍÎÎÌÏÌÌÏÏÏÌÍÏÎÎÍÎÏÌÍÎÏ ÎÍÌÏÌÎÍÏÌÌÍÍÍÏÍÌÌÎÌÍÎÏÏ; // 0x20
+        public ÍÍÎÎÌÏÌÌÏÏÏÌÍÏÎÎÍÎÏÌÍÎÏ ÌÌÍÏÎÏÎÌÍÌÌÎÎÎÌÌÏÍÎÍÌÍÎ; // 0x28
+        public long ÍÌÌÏÎÍÍÎÌÍÏÏÎÎÍÏÏÌÎÍÍÍÎ; // 0x30
+        public long ÏÌÏÏÎÌÎÏÏÏÎÍÌÏÍÏÎÍÌÌÌÌÌ; // 0x38
+        public float ÎÍÍÎÏÏÎÌÏÍÌÌÏÌÍÍÏÌÏÏÍÍÍ; // 0x40
+        public System.Nullable`1<float> ÍÎÍÍÎÏÏÌÎÎÎÎÏÏÏÏÍÌÏÌÏÌÌ; // 0x44
+        public float ÍÎÎÍÌÎÍÌÌÌÎÍÎÌÌÏÌÌÎÏÏÏÎ; // 0x4C
+        public float ÏÎÏÏÏÎÎÍÍÏÌÏÌÍÏÏÌÍÍÍÌÌÏ; // 0x50
+        public float ÏÍÌÎÎÌÏÏÌÌÏÏÏÏÌÍÎÎÌÎÌÌÍ; // 0x54
+        public float ÏÎÍÎÌÌÌÏÏÍÍÌÌÍÌÏÌÎÎÌÎÍÍ; // 0x58
+        public float ÎÎÏÎÎÏÎÏÎÌÎÎÍÍÍÏÏÎÎÎÏÎÎ; // 0x5C
+        public float ÎÌÍÎÏÏÍÍÍÏÏÍÌÏÍÍÍÏÌÍÎÍÌ; // 0x60
+        public float ÎÏÍÏÏÏÌÏÎÍÏÌÏÏÌÏÏÎÍÏÍÌÎ; // 0x64
+        public System.Nullable`1<float> ÌÎÏÏÍÌÌÏÌÌÏÌÌÎÌÏÌÏÍÎÎÏÏ; // 0x68
+        public System.Nullable`1<float> ÏÏÍÌÍÌÎÏÏÏÎÏÍÏÎÍÍÏÌÌÌÏÌ; // 0x70
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FABACC0
@@ -594,6 +693,9 @@ namespace VRC.Network
     /// <summary>Originally: ÎÌÏÌÎÌÌÎÏÌÍÍÍÌÍÍÌÌÌÎÌÍÎ</summary>
     public class NetworkItemSiblingSiblingSibling_A5CE : Object
     {
+        public Unity.Profiling.ProfilerRecorder ÎÏÏÌÌÎÌÍÎÌÎÍÍÎÌÏÌÏÍÍÎÍÌ; // 0x10
+        public ÌÌÌÏÍÎÌÍÌÏÎÍÍÏÍÍÌÌÌÎÍÎÎ ÎÏÍÎÍÎÌÏÎÏÏÏÌÎÍÍÌÏÏÌÌÍÍ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FA173E0
         public void Equals(){} // RVA: 0x7FFD4FA17450
@@ -615,6 +717,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÎÎÎÌÌÌÎÍÎÎÏÍÌÌÎÎÌÍÍÍÌÏ</summary>
     public class NetworkItemSiblingSiblingSibling_B743 : Object
     {
+        public System.Collections.Generic.List`1<object> ÎÍÏÍÎÏÌÏÎÌÍÏÍÍÎÌÎÎÎÌÏÎÎ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F355030
         public void Equals(){} // RVA: 0x7FFD4F99B770 | overloaded x5
@@ -637,8 +741,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÌÏÏÏÎÏÎÌÌÏÍÍÎÎÍÏÏÎÍÎÏ</summary>
     public class NetworkItemSiblingSiblingSibling_C4BF : Object
     {
-        public object _name;
-        public object _hideFlags;
+        public System.Nullable`1<float> _name;
+        public System.Collections.Generic.Dictionary`2<string,ÏÌÌÎÌÎÍÏÍÏÎÏÌÌÎÍÎÌÌÏÌÌÌ> _hideFlags; // 0x8
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FAB4CA0
@@ -673,7 +777,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÍÎÏÏÎÌÌÏÍÎÎÎÎÌÎÌÍÎÍÌÌ</summary>
     public class NetworkItemSiblingSiblingSibling_C8FC : Object
     {
-        public object _c8FC;
+        public System.Collections.Generic.List`1<int> _c8FC;
+        public System.Collections.Generic.Dictionary`2<int,T> ÌÏÏÎÏÏÌÌÍÏÍÍÎÎÎÎÍÎÏÌÍÏÎ;
 
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD4E092E60
@@ -697,6 +802,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÏÏÎÌÍÏÎÎÏÏÍÌÏÏÌÍÌÌÌÏÏ</summary>
     public class NetworkItemSiblingSiblingSibling_D04E : Object
     {
+        public System.Collections.Generic.Dictionary`2<System.Reflection.MethodInfo,System.Reflection.ParameterInfo[]> ÎÎÌÏÏÎÌÍÍÎÌÎÌÌÌÏÍÌÍÎÌÌÏ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E4D4560
         public void Equals(){} // RVA: 0x7FFD4E4D47E0 | overloaded x4
@@ -732,6 +839,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÎÏÎÌÍÌÏÏÎÏÌÌÍÌÏÏÏÏÌÌÌÍ</summary>
     public class NetworkItemSiblingSiblingSibling_DBD6 : Object
     {
+        public System.Random ÍÏÏÏÍÍÎÎÏÍÌÏÍÍÍÍÍÍÌÎÎÍÌ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F355650
         public void GetHashCode_513365B2C634(){} // RVA: 0x7FFD4F355AF0 | overloaded x2
@@ -759,21 +868,7 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÏÎÎÏÍÎÌÎÏÌÍÍÏÌÏÏÌÌÎÌÌ</summary>
     public class NetworkItemSiblingSibling_4E3A : ValueType
     {
-        public object f_E21;
-        public object f_F49;
-        public object f_8E5;
-        public object f_EF7;
-        public object f_42A;
-        public object f_6C6;
-        public object f_23E;
-        public object f_9DF;
-        public object f_640;
-        public object f_99E;
-        public object f_DB5;
-        public object f_C63;
-        public object f_401;
-        public object f_A5F;
-        public object f_D31;
+        public ÏÏÍÍÎÏÌÎÎÏÎÏÎÌÏÌÏÍÎÎÌÏÏ f_E21; // 0x10
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4ED0F6A0
@@ -810,6 +905,12 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÏÌÌÍÎÏÍÏÏÏÏÍÎÏÌÏÏÍÌÌ</summary>
     public class NetworkItemSiblingSibling_5241 : ValueType
     {
+        public string ÌÍÏÏÍÏÍÏÎÎÏÍÌÎÏÏÍÎÎÏÏÍÍ; // 0x10
+        public VRC.Localization.LocalizableString ÏÎÌÏÌÍÌÌÏÍÌÌÎÎÎÌÏÎÎÍÍÍÏ; // 0x18
+        public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<System.Collections.Generic.IList`1<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ>> ÎÍÏÏÏÍÌÍÌÌÌÎÍÏÍÍÍÏÍÍÏÍÌ; // 0x40
+        public ÍÌÏÍÏÍÎÍÍÌÏÌÏÍÎÏÍÎÏÌÎÎÌ<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ> ÎÎÎÎÌÍÏÍÎÎÌÍÍÌÎÍÍÍÌÏÎÎÍ; // 0x48
+        public int ÍÌÌÍÎÏÎÍÌÏÌÏÏÎÏÏÏÏÍÍÍÎÌ; // 0x50
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD56A7F9E0
         public void InternalEquals(){} // RVA: 0x7FFD56A7FB10
@@ -838,10 +939,11 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÎÏÍÌÍÍÎÏÎÎÎÏÎÏÌÏÍÍÏÎÍ</summary>
     public class NetworkItemSiblingSibling_A471 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_EBE;
-        public object f_FC8;
+        public System.Collections.Generic.Dictionary`2<string,string> _name;
+        public string _hideFlags; // 0x10
+        public string f_EBE; // 0x18
+        public string[] f_FC8; // 0x20
+        public System.Collections.Generic.Dictionary`2<string,string> ÌÎÏÌÌÏÌÎÌÎÏÎÌÎÏÍÏÎÎÍÌÎÏ; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD566537D0
@@ -873,29 +975,7 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÏÍÍÌÍÍÏÏÎÏÎÎÌÎÌÎÍÏÏÏÏ</summary>
     public class NetworkItemSiblingSibling_C2BF : ValueType
     {
-        public object f_BED;
-        public object f_B79;
-        public object f_B91;
-        public object f_8DD;
-        public object f_FE6;
-        public object f_F7E;
-        public object f_B6F;
-        public object f_29A;
-        public object f_A03;
-        public object f_032;
-        public object f_A9F;
-        public object f_CFC;
-        public object f_DD0;
-        public object f_DDE;
-        public object f_065;
-        public object f_6EF;
-        public object f_F6C;
-        public object f_5CB;
-        public object f_28A;
-        public object f_CC1;
-        public object f_13B;
-        public object f_B4B;
-        public object f_D31;
+        public ÏÏÍÍÎÏÌÎÎÏÎÏÎÌÏÌÏÍÎÎÌÏÏ f_BED; // 0x10
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4ECF9890
@@ -942,6 +1022,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÌÌÌÍÍÏÍÏÏÍÎÌÎÌÏÎÏÌÍÎÍ</summary>
     public class NetworkItemSiblingSibling_D57F : ValueType
     {
+        public ÌÌÌÏÍÎÌÍÌÏÎÍÍÏÍÍÌÌÌÎÍÎÎ ÎÏÍÎÍÎÌÏÎÏÏÏÌÎÍÍÌÏÏÌÌÍÍ; // 0x10
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4FA81800
         public void InternalEquals(){} // RVA: 0x7FFD4FA81830
@@ -961,6 +1043,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÏÌÎÌÎÏÏÍÏÌÌÎÌÍÏÎÎÍÌÌÌÏ</summary>
     public class NetworkItemSiblingSibling_F6EF : ValueType
     {
+        public ÌÌÌÏÍÎÌÍÌÏÎÍÍÏÍÍÌÌÌÎÍÎÎ ÎÏÍÎÍÎÌÏÎÏÏÏÌÎÍÍÌÏÏÌÌÍÍ; // 0x10
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4FA81900
         public void InternalEquals(){} // RVA: 0x7FFD4FA818B0
@@ -978,8 +1062,10 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÎÍÎÍÌÏÌÍÏÏÏÏÏÌÍÏÏÎÎÏÍ</summary>
     public class NetworkItemSibling_0C0E : Object
     {
-        public object _name;
-        public object _hideFlags;
+        public string _name;
+        public string _hideFlags;
+        public System.Nullable`1<bool> ÌÎÎÌÍÌÎÎÍÎÌÎÍÌÏÍÏÎÏÏÌÏÍ; // 0x10
+        public string <ÏÍÌÎÍÌÎÎÌÎÎÏÌÏÏÍÍÎÏÌÏÎÌ>k__BackingField; // 0x18
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -999,23 +1085,7 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÌÎÌÌÎÏÏÏÌÍÎÌÏÌÌÌÎÌÍÎÎ</summary>
     public class NetworkItemSibling_33D1 : ValueType
     {
-        public object f_524;
-        public object f_D67;
-        public object f_611;
-        public object f_742;
-        public object f_CBB;
-        public object f_1A8;
-        public object f_821;
-        public object f_96B;
-        public object f_1DF;
-        public object f_3FA;
-        public object f_6FA;
-        public object f_9EE;
-        public object f_A15;
-        public object f_A98;
-        public object f_985;
-        public object f_54F;
-        public object f_D31;
+        public ÏÏÍÍÎÏÌÎÎÏÎÏÎÌÏÌÏÍÎÎÌÏÏ f_524; // 0x10
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4ED09310
@@ -1057,9 +1127,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÎÍÌÌÎÌÏÏÍÌÍÎÎÎÍÏÍÌÏÍÎ</summary>
     public class NetworkItemSibling_50DD : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_53C;
+        public string _name;
+        public ÍÌÎÍÌÌÎÌÏÏÍÌÍÎÎÎÍÏÍÌÏÍÎ _hideFlags;
+        public string f_53C; // 0x10
+        public VRC.Localization.LocalizableString <ÌÎÏÏÍÍÌÍÎÎÎÏÌÌÌÍÍÌÍÍÌÎÌ>k__BackingField; // 0x18
+        public System.TimeZoneInfo <ÌÍÎÎÏÏÍÌÌÎÍÏÌÏÏÏÏÌÍÍÌÌÏ>k__BackingField; // 0x40
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FCCEEF0 | overloaded x3
@@ -1078,7 +1150,10 @@ namespace VRC.Network
     /// <summary>Originally: ÎÌÍÌÏÌÏÌÍÎÏÎÏÎÎÌÌÍÍÏÏÎÍ</summary>
     public class NetworkItemSibling_7524 : ValueType
     {
-        public object _7524;
+        public ÏÌÍÍÏÌÍÎÏÍÏÍÌÎÎÍÎÌÌÍÎÌÍ _7524; // 0x10
+        public UnityEngine.Vector4 ÎÎÍÎÏÌÍÎÎÏÍÌÎÎÎÎÎÌÌÏÏÏÌ; // 0x20
+        public float ÎÌÎÌÌÏÌÌÍÍÌÎÎÍÌÌÌÏÎÌÍÍÏ; // 0x30
+        public float ÍÍÌÏÍÏÏÎÏÍÌÎÎÎÌÎÎÏÏÏÌÌÎ; // 0x34
 
         // ── Methods ──
         public void set_normalColor(){} // RVA: 0x7FFD4F92BA60
@@ -1097,7 +1172,8 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÌÎÏÎÌÍÏÎÏÍÏÍÎÏÎÌÎÌÏÌ</summary>
     public class NetworkItemSibling_8AC1 : Object
     {
-        public object _8AC1;
+        public object _8AC1; // 0x10
+        public int ÌÌÍÌÍÌÍÌÏÎÌÌÏÍÍÌÎÎÌÌÍÌÎ; // 0x18
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EDC5B80
@@ -1121,6 +1197,9 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÍÏÌÍÍÏÌÍÍÌÎÌÌÌÌÎÌÍÏÎÏ</summary>
     public class NetworkItemSibling_F266 : ValueType
     {
+        public UnityEngine.Animations.AnimatorControllerPlayable ÏÏÏÎÏÌÍÎÏÏÌÏÎÍÍÏÎÍÏÌÎÎÍ; // 0x10
+        public UnityEngine.Playables.PlayableHandle ÏÌÌÎÍÍÍÎÎÎÏÎÌÏÌÏÍÏÏÏÏÏÏ; // 0x20
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD4E6E0400
         public void InternalEquals(){} // RVA: 0x7FFD4E6E0450
@@ -1141,6 +1220,22 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÌÏÍÎÌÍÌÏÎÍÍÏÍÍÌÌÌÎÍÎÎ</summary>
     public class NetworkItemSibling_FEF9 : Object
     {
+        public ulong ÌÎÍÌÏÌÎÎÎÎÍÎÌÌÌÎÍÏÍÎÍÍÏ; // 0x10
+        public float ÍÌÎÌÎÎÏÏÍÌÎÍÌÏÏÍÎÌÌÍÌÍÎ; // 0x18
+        public float ÏÎÏÏÏÎÎÍÍÏÌÏÌÍÏÏÌÍÍÍÌÌÏ; // 0x1C
+        public float ÍÎÍÎÍÏÍÌÎÌÍÌÏÍÌÍÍÌÍÍÍÎÏ; // 0x20
+        public float ÌÎÏÏÍÌÌÏÌÌÏÌÌÎÌÏÌÏÍÎÎÏÏ; // 0x24
+        public float ÏÏÍÌÍÌÎÏÏÏÎÏÍÏÎÍÍÏÌÌÌÏÌ; // 0x28
+        public float ÎÎÌÏÏÎÏÌÏÏÍÏÌÎÍÍÏÌÏÎÎÎÎ; // 0x2C
+        public float ÎÎÌÎÏÎÍÍÌÌÎÌÎÌÍÏÍÏÏÍÌÍÍ; // 0x30
+        public float ÎÌÌÏÎÏÏÌÍÌÎÎÌÎÎÍÎÍÍÏÍÌÏ; // 0x34
+        public float ÎÍÌÍÍÌÍÌÌÍÍÌÎÏÎÌÏÍÎÎÎÍÎ; // 0x38
+        public float ÏÍÏÎÌÎÏÌÍÌÌÌÎÏÌÌÍÏÌÎÏÍÎ; // 0x3C
+        public float ÌÍÏÏÍÎÍÏÏÎÌÍÎÎÏÌÎÎÏÍÍÎÎ; // 0x40
+        public float ÎÌÍÎÍÎÌÍÍÎÎÍÏÏÍÏÎÏÌÌÌÍÍ; // 0x44
+        public float ÌÌÌÎÎÍÎÎÍÏÎÏÎÍÎÎÎÏÏÎÎÍÍ; // 0x48
+        public float ÍÏÏÍÎÌÌÎÌÎÎÌÌÏÏÌÏÎÏÎÍÏÏ; // 0x4C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FA812F0 | overloaded x4
         public void get_scale(){} // RVA: 0x7FFD4E80AB80
@@ -1175,7 +1270,7 @@ namespace VRC.Network
     /// <summary>Originally: ÎÍÎÎÍÏÎÌÌÏÎÏÌÏÍÌÎÎÏÍÌÏÏ</summary>
     public class NetworkReadyHandlerImplSibling_5AC4
     {
-        public object f_83C;
+        public <>c<T> f_83C;
         public object f_392;
         public object f_45B;
         public object f_DD3;
@@ -1190,14 +1285,17 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÏÌÌÏÍÎÏÎÌÌÏÎÎÏÌÎÍÏÍÎ</summary>
     public class NetworkReadyHandlerImpl_C904 : NetworkReadyHandler_68D0
     {
-        public object f_3DB;
-        public object f_C05;
-        public object f_93E;
-        public object f_AAB;
-        public object f_617;
-        public object f_5AB;
-        public object f_ABC;
-        public object f_8D0;
+        public float f_3DB;
+        public int f_C05;
+        public float f_93E; // 0x58
+        public bool f_AAB; // 0x5C
+        public ÌÌÎÎÌÍÍÎÌÌÎÌÍÍÏÏÍÍÎÏÌÎÎ f_617; // 0x60
+        public ÍÏÍÍÌÍÍÍÍÍÌÎÎÏÎÌÎÍÌÍÏÍÏ f_5AB; // 0x68
+        public System.Collections.Generic.List`1<ÌÏÏÏÍÏÎÌÍÎÏÏÍÏÎÎÍÍÎÏÌÍÎ> f_ABC; // 0x70
+        public System.Collections.Generic.Dictionary`2<0x665B17A0,VRC.Profiling.ProfilerMarker> f_8D0;
+        public ÏÏÏÏÌÌÏÍÎÏÎÌÌÏÎÎÏÌÎÍÏÍÎ ÍÎÍÏÍÎÍÏÍÌÌÎÏÍÍÌÎÌÏÌÍÌÏ; // 0x8
+        public VRC.Profiling.ProfilerMarker ÍÌÍÍÏÍÍÌÌÏÌÌÎÌÌÏÌÌÌÎÎÌÍ; // 0x78
+        public VRC.Profiling.ProfilerMarker ÌÍÌÌÎÏÎÎÎÏÎÎÌÌÌÍÏÎÎÌÌÎÎ; // 0x88
 
         // ── Methods ──
         public void get_ValidExpressions(){} // RVA: 0x7FFD4F263370
@@ -1254,11 +1352,21 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÌÍÎÌÌÍÏÏÍÍÍÎÍÌÍÎÎÎÍÏÎ</summary>
     public class NetworkReadyHandler_202B : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_8D0;
-        public object f_03E;
-        public object f_648;
+        public System.Collections.Generic.List`1<string> _destroyCancellationToken; // 0x20
+        public System.Collections.Generic.HashSet`1<VRC.SDKBase.VRC_Trigger> _useGUILayout;
+        public VRC.SDKBase.VRC_Trigger f_8D0; // 0x28
+        public VRC.SDKBase.VRC_DataStorage f_03E; // 0x30
+        public UnityEngine.Collider f_648; // 0x38
+        public bool hasTimerTriggers; // 0x40
+        public bool hasColliderTriggers; // 0x41
+        public bool hasKeyTriggers; // 0x42
+        public bool ÍÍÌÏÍÏÏÎÌÏÍÍÎÎÌÏÌÎÎÎÍÏÏ; // 0x43
+        public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> ÌÎÍÌÏÍÍÏÎÌÌÏÌÌÌÎÏÎÍÎÎÌÏ; // 0x48
+        public int ÏÏÌÎÌÌÏÏÏÎÎÌÎÏÎÏÏÍÍÍÎÎÍ; // 0x50
+        public bool ÍÌÍÍÌÍÏÌÏÌÌÍÎÏÍÏÎÌÎÍÏÏÏ; // 0x54
+        public System.Collections.Generic.HashSet`1<ÏÏÎÌÌÍÍÍÌÌÌÏÏÌÌÌÏÍÌÌÏÏÌ> ÏÎÏÌÍÎÌÎÍÏÏÌÏÎÌÎÍÌÌÏÏÍÌ; // 0x58
+        public VRC.SDKBase.VRC_EventHandler ÎÌÌÌÏÎÎÎÍÍÎÎÍÌÎÏÌÍÎÏÏÌÍ; // 0x60
+        public System.Collections.Generic.List`1<TriggerEvent> ÎÏÎÌÌÍÎÍÍÎÌÎÌÍÌÏÏÎÌÎÍÌÍ; // 0x68
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F62A190
@@ -1304,6 +1412,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÌÎÍÍÌÌÌÏÌÌÎÏÏÎÍÌÎÎÎÍÍ</summary>
     public class NetworkReadyHandler_55A3 : WorldProximityExitStation_FE46
     {
+        public VRC.Udon.ProgramSources.SerializedUdonProgramAsset ÍÏÌÌÍÍÎÏÏÎÍÎÎÏÏÌÍÎÏÌÍÎÍ;
+
         // ── Methods ──
         public void __Clone__SystemObject(){} // RVA: 0x7FFD4F5EC520
         public void set_ValidExpressions(){} // RVA: 0x7FFD4F5ECA00
@@ -1318,14 +1428,44 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÎÍÏÎÌÌÎÍÍÎÌÏÌÏÌÎÍÌÎÌÎ</summary>
     public class NetworkReadyHandler_6881 : NetworkReadyHandler_68D0
     {
-        public object f_3DB;
-        public object f_C03;
-        public object f_410;
-        public object f_800;
-        public object f_972;
-        public object f_092;
-        public object f_8D0;
-        public object f_ABC;
+        public System.Lazy`1<System.Collections.Immutable.ImmutableArray`1<ÌÌÎÍ>> f_3DB;
+        public bool f_C03; // 0x58
+        public ÎÍÌÌÌÍÎÎÌÍÎÍÍÍÎÍÏÍÏÎÌÌÎ f_410; // 0x60
+        public UnityEngine.GameObject f_800; // 0x68
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ f_972; // 0x70
+        public UnityEngine.Animator f_092; // 0x78
+        public ÏÏÏÎÍÏÎÏÍÎÎÌÏÍÎÍÍÍÎÍÎÌÎ f_8D0; // 0x80
+        public ÌÌÍÎÍÏÏÌÎÏÍÏÌÏÏÏÏÌÎÌÍÍÌ f_ABC; // 0x88
+        public ÏÍÍÏÎÍÏÎÍÏÌÍÍÏÎÏÍÎÎÎÏÏÏ ÎÍÏÏÍÌÌÌÍÏÍÍÍÌÌÌÏÎÌÏÏÏÌ; // 0x90
+        public ÏÎÌÌÍÌÍÎÌÌÏÏÏÌÏÏÌÏÌÏÍÎÌ ÏÌÍÌÏÍÏÎÏÎÌÏÎÏÏÏÎÍÍÌÏÎÍ; // 0x98
+        public ÎÎÏÌÏÎÌÏÌÌÎÏÎÍÎÌÏÌÌÍÏÍÌ ÏÎÎÏÌÎÎÌÍÌÍÏÌÍÍÍÍÌÏÎÌÍÎ; // 0xA0
+        public ÏÍÎÌÍÏÎÌÍÎÎÎÌÎÎÎÏÎÌÌÏÏÎ ÎÌÌÍÎÎÌÎÎÎÎÌÍÍÏÏÍÎÍÎÏÍÍ; // 0xA8
+        public ÍÍÎÎÍÎÎÏÍÌÏÏÌÎÍÍÎÎÍÏÌÏÎ ÌÍÎÏÍÌÌÎÌÎÏÍÏÏÏÏÌÍÌÏÌÍÏ; // 0xB0
+        public ÎÍÍÌÎÏÌÍÏÎÍÍÌÎÌÏÏÎÏÍÍÏÍ ÌÎÏÍÍÌÎÏÍÍÎÌÍÏÌÌÏÍÎÌÍÍÏ; // 0xB8
+        public ÌÍÍÏÎÍÍÍÏÌÍÍÏÏÍÌÌÏÌÏÍÌÎ ÏÏÏÌÍÏÌÍÌÌÎÌÌÏÏÍÍÏÍÌÍÍÎ; // 0xC0
+        public ÌÌÍÌÌÏÎÎÏÎÌÏÍÏÍÌÌÌÌÏÎÌÍ ÏÍÏÎÏÍÎÌÎÍÏÍÍÍÌÏÍÏÌÌÌÏÎ; // 0xC8
+        public UnityEngine.Transform ÍÍÏÌÏÍÍÍÍÎÍÌÎÏÍÏÎÌÎÌÍÌÏ; // 0xD0
+        public UnityEngine.Transform ÍÏÏÎÎÌÏÍÌÍÌÍÍÏÏÌÌÌÎÍÌÌÏ; // 0xD8
+        public bool ÎÌÏÍÌÌÏÌÎÏÌÏÌÎÎÌÏÏÍÎÌÏÌ; // 0xE0
+        public ÏÎÏÌÎÏÍÌÍÎÏÌÌÌÍÎÏÏÍÏÏÏÍ ÌÌÌÌÏÌÎÎÎÎÌÏÏÎÌÍÏÏÎÎÎÍÏ; // 0xE8
+        public ÏÎÏÏÎÍÌÎÌÏÍÏÏÎÎÏÎÍÎÌÎÎÍ ÌÎÏÏÌÏÏÌÌÎÏÎÌÌÏÏÍÎÍÍÏÍÌ; // 0xF0
+        public ÌÎÎÌÎÌÏÍÌÎÎÌÏÌÌÎÌÎÎÌÏÌÍ ÎÏÌÌÎÎÌÍÍÍÎÌÎÍÍÍÍÎÏÏÌÎÎ; // 0xF8
+        public bool ÏÏÏÏÌÎÎÎÌÏÎÏÌÍÌÏÏÏÍÏÎÍÎ; // 0x100
+        public bool ÍÏÏÍÎÌÍÏÎÍÍÎÏÏÏÎÎÎÏÌÏÎÍ; // 0x101
+        public ÌÏÌÎÍÏÏÏÍÍÏÌÏÎÌÎÏÌÏÎÌÏÎ ÏÎÍÌÏÍÌÌÎÏÏÎÏÌÎÏÌÏÌÏÏÎÍ; // 0x108
+        public RootMotion.FinalIK.IKExecutionOrder ÏÍÎÍÏÍÌÌÌÍÎÎÌÌÍÍÎÏÌÍÍÍÎ; // 0x110
+        public RootMotion.FinalIK.VRIK ÎÍÏÏÍÌÍÎÌÏÌÌÍÎÎÏÎÎÍÏÌÌÍ; // 0x118
+        public RootMotion.FinalIK.FullBodyBipedIK ÎÎÏÎÏÎÌÍÍÏÍÎÌÌÌÌÍÏÎÎÎÌÏ; // 0x120
+        public ÍÌÌÏÍÎÎÍÍÏÌÎÏÏÎÍÍÏÎÌÌÌÎ ÏÌÌÎÏÏÍÏÎÌÏÌÏÎÍÌÎÏÎÍÍÎÏ; // 0x128
+        public bool ÎÌÍÌÍÏÌÌÏÌÍÏÏÎÍÎÎÍÌÌÏÍÍ; // 0x130
+        public VRC.Profiling.ProfilerMarker ÍÌÎÌÎÍÎÏÌÏÌÌÌÎÍÎÎÌÎÎÌÏÍ; // 0x8
+        public bool <ÏÏÏÎÍÍÏÎÌÍÌÎÍÌÎÎÎÏÎÌÍÌÍ>k__BackingField; // 0x131
+        public System.Collections.Generic.Dictionary`2<ÌÌÎÍ,UnityEngine.Quaternion> ÌÏÍÏÍÌÍÏÌÌÎÍÍÌÏÌÏÏÎÌÎÎÌ; // 0x138
+        public System.Collections.Generic.Dictionary`2<ÌÌÎÍ,UnityEngine.Vector3> ÍÍÎÌÏÌÎÌÏÍÏÌÌÌÌÏÏÎÏÏÏÏÍ; // 0x140
+        public float ÎÎÍÍÌÏÍÎÌÌÎÎÎÎÌÌÌÏÌÍÏÏÍ; // 0x148
+        public bool ÌÍÏÍÌÍÏÎÏÎÏÌÎÌÌÏÍÌÌÌÌÏÌ; // 0x14C
+        public bool ÌÎÏÌÎÏÍÌÍÌÌÌÍÏÍÏÍÏÌÍÍÍÏ; // 0x14D
+        public bool ÍÎÏÎÎÏÏÏÏÍÏÏÎÏÎÌÍÍÎÏÎÎÏ; // 0x14E
 
         // ── Methods ──
         public void get_ValidExpressions(){} // RVA: 0x7FFD4F033210
@@ -1376,20 +1516,15 @@ namespace VRC.Network
     /// <summary>Originally: ÎÎÍÏÏÎÌÎÎÌÎÌÎÌÍÏÍÌÍÌÎÏÍ</summary>
     public class NetworkReadyHandler_68D0 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_1FA;
-        public object f_5B8;
-        public object f_AB7;
-        public object f_F88;
-        public object f_B1A;
-        public object f_B11;
-        public object f_8CE;
-        public object f_7DA;
-        public object f_48B;
-        public object f_C4C;
-        public object f_46C;
-        public object f_8DE;
+        public bool _destroyCancellationToken;
+        public bool _useGUILayout; // 0x20
+        public ÍÌÍÍÍÍÎÍÏÍÎÎÎÌÏÌÎÎÌÍÏÎÏ f_1FA; // 0x28
+        public float f_5B8; // 0x30
+        public VRC.SDKBase.VRC_EventHandler f_AB7; // 0x38
+        public ÎÍÏÎÎÌÏÏÎÏÍÌÌÍÎÌÍÍÍÎÌÎÌ f_F88; // 0x40
+        public bool f_B1A; // 0x48
+        public bool f_B11; // 0x49
+        public ÎÎÌÏÏÏÎÌÏÌÌÏÍÍÏÌÌÍÏÎÍÏÍ f_8CE; // 0x50
 
         // ── Methods ──
         public void get_ValidExpressions(){} // RVA: 0x7FFD4E42F9D0
@@ -1428,7 +1563,18 @@ namespace VRC.Network
     /// <summary>Originally: ÍÏÏÍÎÏÎÎÎÏÍÎÏÏÏÎÍÍÌÏÎÌÍ</summary>
     public class NetworkReadyHandler_D4BC : MonoBehaviour
     {
-        public object _d4BC;
+        public UnityEngine.CanvasGroup _d4BC; // 0x20
+        public UnityEngine.UI.RawImage ÌÎÎÏÏÌÍÍÎÎÏÏÏÍÌÎÏÏÍÏÏÎÍ; // 0x28
+        public UnityEngine.UI.RawImage ÏÌÎÏÌÍÌÏÍÌÌÍÌÎÍÍÏÍÍÍÌÍÏ; // 0x30
+        public UnityEngine.GameObject invalidAvatarGraphics; // 0x38
+        public UnityEngine.Texture2D loadingTexture; // 0x40
+        public ÏÏÏÎÍÏÎÏÍÎÎÌÏÍÎÍÍÍÎÍÎÌÎ ÍÌÎÏÍÎÎÍÌÌÍÏÌÎÏÎÍÌÌÍÏÌÌ; // 0x48
+        public VRC.SDKBase.VRC_AvatarPedestal ÍÌÌÎÍÍÍÎÏÎÏÌÌÎÏÏÍÌÌÍÏÎÎ; // 0x50
+        public VRC.Core.ApiAvatar ÌÏÌÍÌÌÎÏÏÌÎÌÍÏÍÏÍÍÎÎÌÍÍ; // 0x58
+        public bool ÍÌÏÎÌÏÏÌÏÏÍÌÌÏÏÌÍÍÌÏÍÎÎ; // 0x60
+        public string ÌÏÍÎÍÎÎÏÍÏÌÍÍÏÎÌÍÎÍÍÎÏÏ; // 0x68
+        public ÎÌÍÍÏÏÏÎÏÎÌÏÎÎÌÍÏÎÍÏÌÍÌ ÎÍÏÌÍÌÌÌÎÏÍÌÍÍÌÏÎÎÍÎÌÌÌ; // 0x70
+        public bool ÎÌÏÏÍÌÎÌÎÎÏÌÌÎÎÍÍÏÏÌÍÍÏ; // 0x90
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F5790E0
@@ -1462,19 +1608,17 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÏÏÍÏÎÌÍÎÏÏÍÏÎÎÍÍÎÏÌÍÎ</summary>
     public class NetworkShouldBroadcastInstigator_AC3B : Object
     {
-        public object _shouldBroadcast;
-        public object _store;
-        public object _sender;
-        public object _instigator;
-        public object _serialize;
-        public object _time;
-        public object f_007;
-        public object f_3AF;
-        public object f_6A9;
-        public object f_078;
-        public object f_01E;
-        public object f_A8C;
-        public object f_54D;
+        public int _shouldBroadcast; // 0x10
+        public int _store; // 0x14
+        public int _sender; // 0x18
+        public 0x665B1900 _instigator; // 0x20
+        public string _serialize; // 0x28
+        public float _time; // 0x30
+        public float f_007; // 0x34
+        public object[] f_3AF; // 0x38
+        public 0x665B17F8 f_6A9; // 0x40
+        public byte[] f_078; // 0x48
+        public int f_01E; // 0x50
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F26BAF0
@@ -1511,9 +1655,7 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÏÍÏÏÍÌÌÌÍÌÌÎÏÌÌÏÍÏÏÏÏ</summary>
     public class NetworkSyncableRelatedRelated_1244 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_2F6;
+        public System.Collections.Generic.List`1<int> _name; // 0x10
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F5E42F0
@@ -1534,6 +1676,10 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÎÌÍÍÏÏÍÌÍÎÌÍÍÌÍÏÏÏÌÍÍ</summary>
     public class NetworkSyncableRelatedRelated_4E56 : Object
     {
+        public System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,ÏÎÍÌÌÌÏÌÍÍÎÎÍÍÎÍÌÍÏÏÏÍÍ> ÍÎÍÌÌÍÎÍÏÌÌÏÍÌÏÍÌÏÌÍÏÎÌ; // 0x10
+        public System.Collections.Generic.List`1<ÏÎÍÌÌÌÏÌÍÍÎÎÍÍÎÍÌÍÏÏÏÍÍ> ÎÎÏÏÎÎÏÍÎÏÎÌÌÌÍÌÎÏÏÍÎÏÎ; // 0x18
+        public ÏÎÎÍÌÍÏÌÍÎÎÌÍÎÌÍÍÍÏÎÌÍÎ ÎÍÍÍÎÏÏÍÍÌÍÎÌÌÏÍÎÎÏÏÏÏÌ; // 0x20
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F9978D0
         public void Equals(){} // RVA: 0x7FFD4F997A20
@@ -1562,6 +1708,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÌÍÏÎÎÏÎÌÍÎÍÎÎÏÍÍÌÌÎÌÌ</summary>
     public class NetworkSyncableRelated_B4DB : Object
     {
+        public System.Collections.Generic.HashSet`1<UnityEngine.Events.UnityAction`3<U,V,T>> ÎÎÏÍÎÎÎÏÌÍÌÌÎÍÎÎÍÌÌÎÏÎÏ;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
         public void Equals(){} // RVA: 0x7FFD4E090980
@@ -1581,9 +1729,10 @@ namespace VRC.Network
     /// <summary>Originally: ÎÎÎÌÏÍÍÌÌÍÌÎÏÌÏÌÏÏÎÎÏÎÍ</summary>
     public class NetworkSyncableSiblingSibling_03BC : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_943;
+        public VRC.Profiling.ProfilerMarker _name; // 0x10
+        public VRC.Profiling.ProfilerMarker _hideFlags; // 0x20
+        public ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ f_943; // 0x30
+        public bool <ÏÌÎÎÍÎÌÍÎÎÌÌÌÍÎÌÏÎÌÍÌÏÍ>k__BackingField; // 0x38
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E5F95A0
@@ -1621,6 +1770,13 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÎÎÌÎÍÌÏÍÏÍÎÏÏÏÍÌÌÏÍÍÏ</summary>
     public class NetworkSyncableSibling_19B1 : MonoBehaviour
     {
+        public UnityEngine.GameObject lockIcon; // 0x20
+        public UnityEngine.GameObject checkIcon; // 0x28
+        public UnityEngine.GameObject preUnlockTexts; // 0x30
+        public UnityEngine.GameObject postUnlockTexts; // 0x38
+        public ÌÎÍÏÎÌÌÍÍÌÍÎÍÌÌÎÌÍÏÎÎÍÍ icon; // 0x40
+        public UnityEngine.CanvasGroup canvasGroup; // 0x48
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD566BC560
         public void RaiseCancellation(){} // RVA: 0x7FFD566BC600
@@ -1636,9 +1792,22 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÏÍÎÎÍÎÍÌÎÌÏÏÎÍÌÎÌÏÏÌÎ</summary>
     public class NetworkSyncableSibling_5A19 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_943;
+        public VRC.Profiling.ProfilerMarker _name; // 0x10
+        public VRC.Profiling.ProfilerMarker _hideFlags; // 0x20
+        public VRC.Profiling.ProfilerMarker f_943; // 0x30
+        public ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ <ÏÌÌÎÏÎÎÌÎÍÍÎÍÎÌÏÎÎÍÏÍÌÎ>k__BackingField; // 0x40
+        public bool <ÏÌÎÎÍÎÌÍÎÎÌÌÌÍÎÌÏÎÌÍÌÏÍ>k__BackingField; // 0x48
+        public UnityEngine.Animations.AnimationScriptPlayable ÎÎÌÏÌÏÏÏÎÏÍÏÌÌÌÌÌÏÍÍÏÍÍ; // 0x50
+        public bool ÍÌÏÏÌÎÌÏÎÌÏÌÌÏÏÎÍÏÍÏÌÍÏ; // 0x60
+        public bool ÏÎÏÌÍÏÏÏÍÍÍÍÏÍÎÌÌÏÏÎÍÌÌ; // 0x61
+        public bool ÌÍÍÎÎÎÏÍÌÌÌÌÎÍÏÍÎÌÏÎÌÌÏ; // 0x62
+        public Unity.Collections.NativeArray`1<float> ÎÌÍÌÌÏÎÌÎÌÍÎÌÏÎÏÌÌÏÍÍÎÍ; // 0x68
+        public Unity.Collections.NativeArray`1<float> ÏÎÌÏÌÌÎÎÌÎÍÌÏÎÎÏÏÌÏÌÌÎÌ; // 0x78
+        public Unity.Collections.NativeArray`1<float> ÏÍÎÏÌÏÏÍÎÎÍÏÌÎÌÎÌÌÎÌÏÍÍ; // 0x88
+        public Unity.Collections.NativeArray`1<UnityEngine.Animations.MuscleHandle> ÍÌÎÏÍÎÌÎÎÍÍÏÎÏÏÌÏÎÎÎÎÌÍ; // 0x98
+        public Unity.Collections.NativeArray`1<int> ÎÌÌÏÌÏÌÏÏÎÍÏÌÌÏÌÍÍÎÍÌÍÏ; // 0xA8
+        public Unity.Collections.NativeArray`1<int> ÍÍÏÎÏÎÌÍÏÌÏÍÎÍÎÎÏÏÎÍÏÍÏ; // 0xB8
+        public Unity.Collections.NativeArray`1<int> ÏÍÏÎÏÎÌÌÌÏÏÌÎÎÍÎÎÏÏÎÎÏÏ; // 0xC8
 
         // ── Methods ──
         public void set_hidden(){} // RVA: 0x7FFD4E3F8D40
@@ -1682,6 +1851,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÌÏÏÌÏÏÎÎÍÍÎÍÍÌÏÎÎÌÌÏÏ</summary>
     public class NetworkSyncableSibling_BA61 : MonoBehaviour
     {
+        public ÌÎÌÍÎÌÌÍÏÏÍÍÍÎÍÌÍÎÎÎÍÏÎ ÎÌÏÎÌÎÎÌÎÎÍÎÎÌÎÎÌÌÍÏÍÍÎ; // 0x20
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F632540
         public void RaiseCancellation(){} // RVA: 0x7FFD4F6326E0
@@ -1745,7 +1916,17 @@ namespace VRC.Network
     /// <summary>Originally: ÎÌÎÍÍÍÏÎÌÏÏÍÏÏÌÌÎÎÎÏÍÏÏ</summary>
     public class NetworkSyncable_13B8 : NetworkReadyHandler_68D0
     {
-        public object _typeId;
+        public System.Collections.Generic.List`1<VRC.Dynamics.VRCPhysBoneBase> _typeId; // 0x58
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ ÎÌÍÌÌÎÎÏÎÍÎÍÎÍÏÎÍÌÏÌÌÍÏ; // 0x60
+        public bool ÏÎÍÍÍÎÌÏÌÎÌÍÎÌÌÎÌÎÏÎÌÏÌ; // 0x68
+        public System.Collections.Generic.List`1<ÍÏÏÍÌÍÎÍÎÏÌÍÏÎÍÌÍÎÏÎÍÎÎ> ÎÏÌÎÎÎÍÍÏÌÎÎÎÍÍÍÌÌÎÎÎÏÏ; // 0x70
+        public System.Collections.Generic.List`1<ÏÏÏÌÎÍÏÍÍÍÍÎÌÏÎÍÍÎÍÎÎÏÌ> ÏÏÏÏÍÏÍÏÏÌÍÌÌÏÌÌÌÏÍÏÎÏÍ; // 0x78
+        public byte[] ÏÎÍÍÍÎÍÍÎÏÍÌÎÍÏÎÏÌÍÌÍÎÍ; // 0x80
+        public byte[] ÎÎÏÌÍÎÍÌÏÍÎÏÏÍÎÏÍÍÎÍÏÏÌ; // 0x88
+        public ÎÏÍÍÌÍÏÎÎÌÏÍÍÍÏÍÏÌÌÏÌÌÌ ÎÌÌÌÎÍÌÍÏÌÍÏÌÍÏÌÍÎÌÏÏÏÎ; // 0x90
+        public ÎÏÍÍÌÍÏÎÎÌÏÍÍÍÏÍÏÌÌÏÌÌÌ ÍÌÌÏÍÏÏÌÌÍÏÏÍÌÌÍÏÍÌÎÍÍÍ; // 0x98
+        public bool ÍÌÍÏÎÍÍÏÌÍÏÎÍÎÎÎÍÍÎÏÌÌÍ; // 0xA0
+        public bool ÍÏÏÎÌÌÎÏÏÍÎÍÌÌÍÌÎÌÏÍÍÎÍ; // 0xA1
 
         // ── Methods ──
         public void SerializedName(){} // RVA: 0x7FFD4EEC4B50
@@ -1789,12 +1970,14 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÎÎÍÍÏÏÍÏÍÎÎÌÍÏÌÎÏÍÎÎÎ</summary>
     public class NetworkSyncable_656B : NetworkReadyHandler_68D0
     {
-        public object _uniqueHash;
-        public object _typeId;
-        public object f_8D0;
-        public object f_ABC;
-        public object f_DDB;
-        public object f_ADC;
+        public bool _uniqueHash; // 0x58
+        public VRC.Udon.UdonBehaviour _typeId; // 0x60
+        public ÍÎÎÎÍÎÍÏÏÌÎÍÎÏÏÏÎÏÏÎÏÎÎ[] f_8D0; // 0x68
+        public VRC.Core.Networking.LimitedCapacityList`1<ÏÎÌÍÍÎÎÎÍÍÏÌÌÌÏÏÍÌÏÎÏÌÏ> f_ABC; // 0x70
+        public ÏÎÌÍÍÎÎÎÍÍÏÌÌÌÏÏÍÌÏÎÏÌÏ f_DDB; // 0x78
+        public bool f_ADC; // 0x80
+        public ÏÎÌÍÍÎÎÎÍÍÏÌÌÌÏÏÍÌÏÎÏÌÏ ÍÌÍÍÌÌÏÎÏÍÍÏÌÏÌÍÌÍÏÍÎÍÌ; // 0x88
+        public System.Collections.Generic.Dictionary`2<ÍÎÎÎÍÎÍÏÏÌÎÍÎÏÏÏÎÏÏÎÏÎÎ,int> ÎÏÍÎÎÏÎÍÌÏÌÌÏÌÍÎÏÍÍÎÍÌÍ; // 0x90
 
         // ── Methods ──
         public void Encode(){} // RVA: 0x7FFD4E5E5CA0 | overloaded x2
@@ -1846,8 +2029,9 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÌÌÌÌÍÏÏÍÏÎÍÍÏÎÍÌÌÍÍÏÎ</summary>
     public class NetworkSyncable_8A3D : NetworkReadyHandler_68D0
     {
-        public object _uniqueHash;
-        public object _typeId;
+        public VRC.SDK3.Components.VRCObjectPool _uniqueHash; // 0x58
+        public byte[] _typeId; // 0x60
+        public bool ÎÏÌÍÍÎÏÍÏÏÍÎÌÏÏÎÏÎÌÍÏÎÍ; // 0x68
 
         // ── Methods ──
         public void get_ValidExpressions(){} // RVA: 0x7FFD4F5B1A70
@@ -1882,9 +2066,14 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÎÏÍÏÌÎÏÍÍÌÎÍÍÏÍÏÍÎÍÍÎ</summary>
     public class NetworkSyncable_D45C : NetworkReadyHandler_68D0
     {
-        public object _typeId;
-        public object f_8D0;
-        public object f_ABC;
+        public UnityEngine.Animator _typeId; // 0x58
+        public UnityEngine.Animation f_8D0; // 0x60
+        public bool f_ABC; // 0x68
+        public VRC.Core.Networking.LimitedCapacityList`1<VRC.Core.Networking.Tween.AnimationEvent> ÍÍÌÍÏÍÌÏÍÍÌÏÌÍÌÎÍÍÍÏÌÍÏ; // 0x70
+        public VRC.Core.Networking.LimitedCapacityList`1<VRC.Core.Networking.Tween.AnimatorEvent> ÌÌÌÎÍÎÎÎÌÎÍÌÌÎÏÌÏÌÏÍÍÏÏ; // 0x78
+        public float ÏÍÍÌÍÍÎÏÏÏÏÌÍÏÏÍÎÍÎÏÍÍÍ; // 0x80
+        public VRC.Core.Networking.Tween.AnimationEvent ÏÏÌÎÍÏÌÌÏÏÏÍÏÌÎÍÏÌÎÎÎÌÌ; // 0x88
+        public VRC.Core.Networking.Tween.AnimatorEvent ÌÌÍÌÌÎÌÍÏÎÍÎÍÎÎÌÌÏÏÏÌÍÏ; // 0x90
 
         // ── Methods ──
         public void Encode(){} // RVA: 0x7FFD4F5FFC60 | overloaded x2
@@ -1920,6 +2109,14 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÏÍÍÌÍÏÏÍÍÌÎÏÏÍÍÍÍÌÍÍÎ</summary>
     public class OVRLipSyncContextCannedSibling_7B88 : LifecycleComponent_9959
     {
+        public UnityEngine.Transform ÌÎÏÌÌÌÍÌÍÌÏÏÏÌÍÍÏÍÌÏÌÎÌ; // 0x28
+        public UnityEngine.UI.Graphic ÎÌÎÍÏÏÍÎÏÍÏÎÍÎÍÍÍÎÌÏÍÌÍ; // 0x30
+        public UnityEngine.UI.Graphic ÍÏÏÍÎÎÍÍÎÍÍÌÍÌÏÌÏÎÏÌÏÎÍ; // 0x38
+        public UnityEngine.UI.Graphic ÏÎÍÏÌÌÏÌÌÍÏÌÍÌÌÎÏÍÏÎÏÏÏ; // 0x40
+        public UnityEngine.UI.Graphic ÏÍÎÌÌÍÍÍÏÌÌÏÏÏÍÍÎÏÏÏÎÎÌ; // 0x48
+        public UnityEngine.UI.Graphic ÌÏÌÏÏÎÎÌÎÍÏÍÌÍÌÎÍÌÏÌÌÍÌ; // 0x50
+        public UnityEngine.UI.Graphic ÎÌÌÏÎÌÏÌÎÌÎÏÎÌÍÎÏÎÎÎÌÎÎ; // 0x58
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F10A490
         public void RaiseCancellation(){} // RVA: 0x7FFD4F10AD20
@@ -1935,6 +2132,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÌÌÎÍÌÌÎÏÎÌÌÏÍÍÍÍÏÍÍÍÌÌ</summary>
     public class OVRLipSyncSiblingSibling_69E1 : LifecycleComponentSibling_D6FE
     {
+        public UnityEngine.UI.RawImage captchaImage; // 0x148
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4F79B060
         public void Initialize_5162BAECEAA6(){} // RVA: 0x7FFD4F79B060
@@ -1948,6 +2147,15 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÎÏÎÌÏÍÎÏÌÌÎÏÏÎÍÌÏÎÌÎÎ</summary>
     public class OVRLipSyncSibling_B774 : MonoBehaviour
     {
+        public UnityEngine.RuntimeAnimatorController ÏÍÍÎÏÌÍÌÎÏÌÎÌÏÍÎÌÏÎÌÎÏÎ; // 0x20
+        public UnityEngine.Transform ÍÏÏÍÎÍÍÎÎÍÌÍÏÍÌÎÌÌÏÍÎÎÍ; // 0x28
+        public UnityEngine.Transform ÏÌÌÏÎÏÎÏÍÌÏÏÏÍÍÍÌÌÏÏÎÏÎ; // 0x30
+        public UnityEngine.Transform ÍÍÎÎÌÌÍÎÌÍÌÎÍÎÍÎÏÏÏÍÏÏÌ; // 0x38
+        public UnityEngine.Animator ÏÍÍÍÌÍÏÌÏÎÏÏÍÌÎÎÎÌÌÎÏÌÌ; // 0x40
+        public RootMotion.FinalIK.VRIK ÍÌÍÏÏÏÎÌÏÏÌÏÌÌÍÍÎÍÌÏÎÌÎ; // 0x48
+        public float ÌÌÍÎÍÍÌÎÏÏÏÌÎÍÎÏÏÍÏÌÎÌÍ; // 0x50
+        public float ÎÏÌÌÏÏÏÍÎÍÎÍÏÎÌÏÍÌÎÎÍÌÍ; // 0x54
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F015E80
         public void RaiseCancellation(){} // RVA: 0x7FFD4F016FA0
@@ -1976,6 +2184,11 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÎÌÍÏÎÌÍÎÎÎÌÎÎÎÏÎÌÌÏÏÎ</summary>
     public class OVRLipSyncSibling_E227 : MonoBehaviour
     {
+        public UnityEngine.Vector3 ÍÎÎÍÎÌÏÏÏÎÍÎÍÌÌÏÍÎÎÎÏÌÍ; // 0x20
+        public UnityEngine.Transform ÍÍÏÏÎÎÏÎÌÎÌÍÍÏÌÎÎÍÍÍÍÌÌ; // 0x30
+        public bool ÍÍÎÏÏÍÍÍÍÎÍÏÏÎÏÏÏÏÍÍÎÏÏ; // 0x38
+        public UnityEngine.Vector3 ÍÎÎÍÏÎÍÎÏÍÎÌÎÎÎÎÌÏÏÌÍÌÏ; // 0x3C
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EF97640
         public void RaiseCancellation(){} // RVA: 0x7FFD4EF978E0
@@ -1992,11 +2205,12 @@ namespace VRC.Network
     /// <summary>Originally: ÍÏÍÏÎÏÎÍÏÎÎÌÍÍÌÌÏÏÎÎÌÏÌ</summary>
     public class PhotonConnectionHandlerSiblingSibling_3076 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_E90;
-        public object f_5F1;
-        public object f_2A4;
+        public string _name; // 0x10
+        public ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ _hideFlags; // 0x18
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> f_E90; // 0x20
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_5F1; // 0x28
+        public string f_2A4; // 0x30
+        public bool <ÍÎÍÎÎÌÏÏÏÍÍÍÌÎÍÎÎÎÏÍÏÍÏ>k__BackingField; // 0x38
 
         // ── Methods ──
         public void SetCurrentSocket(){} // RVA: 0x7FFD4E36F0D0
@@ -2059,11 +2273,10 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÎÌÎÌÏÎÏÌÌÌÏÎÏÍÌÏÏÍÍÍÍ</summary>
     public class PhotonConnectionHandlerSiblingSibling_B6DC : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_BB5;
-        public object f_4BC;
-        public object f_2A4;
+        public string _name; // 0x10
+        public string _hideFlags; // 0x18
+        public string f_BB5; // 0x20
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> f_4BC; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EC2D1D0
@@ -2089,20 +2302,17 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÏÏÌÍÌÌÍÌÌÎÌÌÌÍÎÎÍÍÎÏÏ</summary>
     public class PhotonConnectionHandlerSibling_CE19 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_01E;
-        public object f_2C9;
-        public object f_FBB;
-        public object f_86D;
-        public object f_E90;
-        public object f_3EE;
-        public object f_7EC;
-        public object f_E91;
-        public object f_0B2;
-        public object f_990;
-        public object f_6C6;
-        public object f_257;
+        public ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ _name; // 0x10
+        public ÏÎÏÍÌÎÌÍÎÏÍÌÎÎÎÏÌÌÏÏÌÍÍ _hideFlags; // 0x18
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_01E; // 0x20
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_2C9; // 0x28
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_FBB; // 0x30
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_86D; // 0x38
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_E90; // 0x40
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_3EE; // 0x48
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_7EC; // 0x50
+        public System.Action`1<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> f_E91; // 0x58
+        public System.Action`1<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> f_0B2; // 0x60
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E426850
@@ -2144,11 +2354,17 @@ namespace VRC.Network
     /// <summary>Originally: ÌÎÌÎÎÏÍÌÌÍÎÎÎÎÏÍÌÏÎÍÌÏÍ</summary>
     public class PhotonConnectionHandler_0081 : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_0AD;
-        public object f_B5B;
-        public object f_586;
+        public string _destroyCancellationToken;
+        public int _useGUILayout;
+        public ÌÎÌÎÎÏÍÌÌÍÎÎÎÎÏÍÌÏÎÍÌÏÍ f_0AD;
+        public VRC.Localization.LocalizableString f_B5B; // 0x20
+        public 0x66377E78 f_586; // 0x48
+        public System.Nullable`1<float> ÌÌÌÏÎÍÏÎÎÌÎÏÏÍÍÏÌÎÍÌÎÌÎ; // 0x4C
+        public float ÏÏÏÎÌÍÎÍÎÏÎÍÌÎÌÍÌÎÌÏÍÌÍ;
+        public System.Nullable`1<0x66415260> ÎÏÌÏÏÎÎÍÏÌÍÌÍÌÌÏÏÏÍÏÌÍÌ; // 0x54
+        public int ÍÌÎÏÏÌÏÎÍÍÏÏÏÎÏÍÍÍÎÎÍÍÎ;
+        public string ÏÍÍÎÍÎÌÍÍÍÍÏÏÏÎÎÏÎÌÎÎÎÏ;
+        public bool ÍÏÍÏÍÍÌÎÍÍÏÌÍÍÎÍÏÏÏÍÌÏÏ; // 0x5C
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F1B0D30
@@ -2214,6 +2430,8 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÌÏÌÍÏÍÎÍÌÌÏÎÍÏÍÌÏÏÎÎÎ</summary>
     public class PhotonConnectionHandler_AB56 : List`1
     {
+        public ÏÌÌÎÍÏÏÍÎÍÌÌÏÏÏÏÎÎÌÏÌÎÌ ÎÌÍÌÎÏÍÎÎÍÏÎÏÌÍÏÌÎÍÎÏÎÍ; // 0x28
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x7FFD4E341310
         public void HandlePhotonConnection(){} // RVA: 0x7FFD4E341310
@@ -2240,7 +2458,7 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÌÍÌÌÏÍÌÎÌÎÎÎÏÏÎÏÎÍÏÌÌ</summary>
     public class PhotonMasterHandlerSiblingSibling_87E7
     {
-        public object f_6ED;
+        public <>c<T> f_6ED;
         public object f_31E;
         public object f_E08;
 
@@ -2255,9 +2473,10 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÏÌÎÏÍÌÏÌÌÏÍÌÍÎÎÏÏÌÍÎÏ</summary>
     public class PhotonMasterHandlerSibling_32EF : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_E08;
+        public ÏÍÎÎÎÌÏÍÎÎÎÌÌÏÎÍÏÍÍÎÏÍÌ<ÌÎÏÌÏÏÏÎÍÌÍÌÍÍÍÎÏÌÌÎÏÏÎ> _name; // 0x10
+        public ÏÍÎÎÎÌÏÍÎÎÎÌÌÏÎÍÏÍÍÎÏÍÌ<ÌÎÏÌÏÏÏÎÍÌÍÌÍÍÍÎÏÌÌÎÏÏÎ> _hideFlags; // 0x18
+        public ÏÍÎÎÎÌÏÍÎÎÎÌÌÏÎÍÏÍÍÎÏÍÌ<ÌÎÏÌÏÏÏÎÍÌÍÌÍÍÍÎÏÌÌÎÏÏÎ> f_E08; // 0x20
+        public System.Action ÏÍÌÌÍÍÍÌÎÎÌÌÏÌÎÏÌÎÎÌÌÍÏ; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -2291,6 +2510,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÍÍÌÎÏÍÏÍÎÍÏÌÏÎÎÏÌÌÍÌÏ</summary>
     public class PhotonMasterHandler_B82D : List`1
     {
+        public ÏÌÌÎÍÏÏÍÎÍÌÌÏÏÏÏÎÎÌÏÌÎÌ ÎÌÍÌÎÏÍÎÎÍÏÎÏÌÍÏÌÎÍÎÏÎÍ; // 0x28
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x7FFD4F98D300
         public void OnMasterClientSwitched(){} // RVA: 0x7FFD4F98D5B0
@@ -2309,6 +2530,18 @@ namespace VRC.Network
     /// <summary>Originally: ÎÎÎÎÌÍÏÌÌÎÍÍÎÍÏÌÌÌÌÍÌÎÏ</summary>
     public class PhotonRoomHandler_25C7 : ConnectionHandler
     {
+        public ÎÎÎÎÌÍÏÌÌÎÍÍÎÍÏÌÌÌÌÍÌÎÏ ÍÎÍÏÍÎÍÏÍÌÌÎÏÍÍÌÎÌÏÌÍÌÏ;
+        public int ÌÏÌÍÏÎÏÎÎÌÌÏÏÎÏÌÎÍÏÏÌÍÌ; // 0x58
+        public int ÏÎÏÌÌÍÎÎÍÏÌÍÏÏÍÌÏÍÍÏÎÎÌ; // 0x5C
+        public int ÏÎÍÍÌÍÍÎÎÏÎÍÌÏÍÏÏÍÌÌÍÏÍ; // 0x60
+        public int ÍÎÌÍÏÎÏÍÎÌÏÍÍÍÎÏÍÌÌÌÌÎÍ; // 0x64
+        public VRC.Profiling.ProfilerMarker ÏÏÌÌÍÏÎÏÍÍÍÌÍÌÌÎÎÍÌÌÏÌÏ; // 0x8
+        public VRC.Profiling.ProfilerMarker ÎÏÏÎÏÏÏÏÏÎÌÏÍÌÎÎÏÏÎÎÎÎÍ; // 0x18
+        public VRC.Profiling.ProfilerMarker ÏÎÌÌÎÏÏÎÎÍÏÏÍÍÏÍÎÏÏÎÍÏÏ; // 0x28
+        public int ÎÍÍÎÏÏÌÎÍÎÎÎÌÏÍÍÍÏÏÏÏÌÎ; // 0x38
+        public bool ÍÍÎÎÎÎÎÏÏÌÍÎÌÎÎÌÍÌÎÎÏÍÌ; // 0x3C
+        public int ÏÍÌÎÍÎÎÎÎÍÌÌÍÎÎÎÌÏÍÍÎÎÎ;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E341310
         public void OnJoinedRoom(){} // RVA: 0x7FFD4E341310
@@ -2354,6 +2587,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÏÌÎÏÎÏÎÌÌÌÍÎÏÍÍÎÌÎÍÏÍÌ</summary>
     public class PhotonRoomHandler_F649 : List`1
     {
+        public ÏÌÌÎÍÏÏÍÎÍÌÌÏÏÏÏÎÎÌÏÌÎÌ ÎÌÍÌÎÏÍÎÎÍÏÎÏÌÍÏÌÎÍÎÏÎÍ; // 0x28
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x7FFD4F98A8B0
         public void Contains(){} // RVA: 0x7FFD4F98AB30
@@ -2375,7 +2610,10 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÌÎÍÏÎÏÏÌÎÌÏÍÎÏÍÌÌÎÏÍÎ</summary>
     public class VRCNetworkBehaviour : NetworkReadyHandler_68D0
     {
-        public object _typeId;
+        public VRC.SDKBase.VRC_DataStorage _typeId; // 0x58
+        public System.Collections.Generic.Dictionary`2<string,int> ÌÌÎÎÎÍÍÍÍÌÏÏÎÍÎÎÏÏÌÌÍÌÎ; // 0x60
+        public UnityEngine.Animator ÎÎÍÌÌÎÎÌÍÌÎÏÍÎÌÎÏÌÍÌÍÎÏ; // 0x68
+        public bool ÎÏÌÍÍÎÏÍÏÏÍÎÌÏÏÎÏÎÌÍÏÎÍ; // 0x70
 
         // ── Methods ──
         public void ComputegameObject(){} // RVA: 0x7FFD4F625AB0
@@ -2413,10 +2651,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÎÏÏÎÎÏÍÌÌÍÍÏÌÎÎÎÌÎÍÎÍ</summary>
     public class VRCNetworkBehaviourBase : NetworkReadyHandler_68D0
     {
-        public object _typeId;
-        public object f_8D0;
-        public object f_BB3;
-        public object f_08A;
+        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ _typeId; // 0x58
+        public int f_8D0;
+        public System.Collections.Generic.List`1<ÎÏÏÎÏÏÎÍÍÎÌÌÏÏÏÌÌÌÌÌÍÏÍ> f_BB3; // 0x60
+        public System.Collections.Generic.HashSet`1<uint> f_08A; // 0x68
+        public bool ÌÌÎÍÎÎÎÌÎÏÎÌÏÍÌÏÌÍÌÌÏÌÌ; // 0x70
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E5B5650
@@ -2488,6 +2727,10 @@ namespace VRC.Network
     /// <summary>Originally: ÎÎÏÌÌÏÎÏÏÏÍÍÏÍÎÍÎÍÍÌÍÎÏ</summary>
     public class VRCNetworkBehaviourSiblinRelated_E2BA : ValueType
     {
+        public ushort ÌÍÍÍÎÌÏÏÎÍÌÏÍÌÍÏÍÌÏÍÍÍÎ; // 0x10
+        public ushort ÍÎÍÏÍÎÎÎÍÏÎÎÎÌÎÏÎÎÎÎÏÌÏ; // 0x12
+        public ushort ÍÎÏÏÌÎÎÌÎÌÌÏÌÌÏÌÏÍÏÌÍÌÎ; // 0x14
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F9B0620
         public void InternalEquals(){} // RVA: 0x7FFD4F9B06E0
@@ -2528,14 +2771,16 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÍÌÌÍÎÎÍÏÎÍÏÍÎÌÌÌÎÎÌÎ</summary>
     public class VRCNetworkBehaviourSiblingSibling_1CFA : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_09A;
-        public object f_986;
-        public object f_A6E;
-        public object f_823;
-        public object f_E4A;
-        public object f_DFC;
+        public ÎÎÎÏÌÌÍÏÎÍÎÌÎÌÌÏÌÌÍÌÎÏÏ _name; // 0x10
+        public int _hideFlags; // 0x18
+        public ÌÌÍÎÎÌÌÌÌÍÍÏÌÍÍÎÍÏÌÏÏÌÏ f_09A; // 0x20
+        public bool f_986; // 0x28
+        public bool f_A6E; // 0x29
+        public string f_823; // 0x30
+        public string f_E4A; // 0x38
+        public bool f_DFC; // 0x40
+        public Photon.Client.PhotonHashtable <ÏÌÌÏÏÏÏÏÌÎÎÌÎÌÍÍÌÍÎÏÌÌÎ>k__BackingField; // 0x48
+        public object ÏÎÍÏÌÌÎÌÎÎÏÌÎÎÏÍÏÍÎÌÌÍÌ; // 0x50
 
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD4E577800
@@ -2582,7 +2827,9 @@ namespace VRC.Network
     /// <summary>Originally: ÏÎÍÍÎÏÌÍÌÏÏÌÎÏÍÏÌÌÎÏÍÌÎ</summary>
     public class VRCNetworkBehaviourSiblingSibling_A760 : Object
     {
-        public object _a760;
+        public string _a760;
+        public T ÏÏÍÌÎÏÍÍÍÍÏÎÍÌÍÍÌÎÍÍÏÌÏ;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<T> ÏÏÎÎÍÌÏÎÌÌÎÏÏÌÌÎÏÏÎÌÏÏÌ;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E2ADC40
@@ -2604,16 +2851,7 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÌÎÍÎÌÏÌÎÎÎÏÌÍÍÍÌÏÏÌÏÌ</summary>
     public class VRCNetworkBehaviourSiblingSibling_C4B5 : ValueType
     {
-        public object f_867;
-        public object f_865;
-        public object f_DE7;
-        public object f_645;
-        public object f_9C6;
-        public object f_06D;
-        public object f_FD9;
-        public object f_9D1;
-        public object f_426;
-        public object f_D31;
+        public ÏÏÍÍÎÏÌÎÎÏÎÏÎÌÏÌÏÍÎÎÌÏÏ f_867; // 0x10
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4ED025C0

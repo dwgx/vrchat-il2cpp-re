@@ -7,7 +7,8 @@ namespace ThirdParty.DotNet.System.Dynamic.Utils
 {
     public class CacheDict`2 : Object
     {
-        public object Item;
+        public int Item;
+        public Entry<U,T>[] _entries;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -43,6 +44,8 @@ namespace ThirdParty.DotNet.System.Dynamic.Utils
 
     public class EmptyReadOnlyCollection`1 : Object
     {
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<T> Instance;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
     }

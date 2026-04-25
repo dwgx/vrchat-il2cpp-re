@@ -7,7 +7,7 @@ namespace VRC.Economy
 {
     public class IProduct
     {
-        public object ID;
+        public <>c<T> ID;
         public object Name;
         public object Description;
         public object Buyer;
@@ -22,6 +22,21 @@ namespace VRC.Economy
 
     public class Store : Object
     {
+        public System.Action _clearStore;
+        public System.Action`1<string> _openGroupPage; // 0x8
+        public System.Action`1<string> _openGroupStorePage; // 0x10
+        public System.Action _openWorldStorePage; // 0x18
+        public System.Action`1<string> _openGroupListing; // 0x20
+        public System.Action`3<string,string,string> _openMarketplaceStore; // 0x28
+        public System.Action`1<string> _openListing; // 0x30
+        public System.Action`2<VRC.Udon.Common.Interfaces.IUdonEventReceiver,VRC.Economy.IProduct> _sendProductEvent; // 0x38
+        public System.Action`2<VRC.Udon.Common.Interfaces.IUdonEventReceiver,VRC.SDKBase.VRCPlayerApi> _listPurchases; // 0x40
+        public System.Action`1<VRC.Udon.Common.Interfaces.IUdonEventReceiver> _listAvailableProducts; // 0x48
+        public System.Func`3<VRC.SDKBase.VRCPlayerApi,VRC.Economy.IProduct,bool> _doesPlayerOwnProduct; // 0x50
+        public System.Func`2<VRC.Economy.IProduct,bool> _doesAnyPlayerOwnProduct; // 0x58
+        public System.Func`2<VRC.Economy.IProduct,VRC.SDKBase.VRCPlayerApi[]> _getPlayersWhoOwnProduct; // 0x60
+        public System.Action`2<VRC.Udon.Common.Interfaces.IUdonEventReceiver,VRC.Economy.IProduct> _listProductOwners; // 0x68
+
         // ── Methods ──
         public void ClearStore(){} // RVA: 0x7FFD57401360
         public void OpenGroupPage(){} // RVA: 0x7FFD574013C0
@@ -41,12 +56,12 @@ namespace VRC.Economy
 
     public class UdonProduct : ScriptableObject
     {
-        public object ID;
-        public object Name;
-        public object Description;
-        public object Image;
-        public object Purchased;
-        public object Buyer;
+        public string ID; // 0x18
+        public string Name; // 0x20
+        public string Description; // 0x28
+        public UnityEngine.Texture2D Image; // 0x30
+        public bool Purchased; // 0x38
+        public VRC.SDKBase.VRCPlayerApi Buyer; // 0x40
 
         // ── Methods ──
         public void get_ID(){} // RVA: 0x7FFD4E3447C0
@@ -71,8 +86,8 @@ namespace VRC.Economy
 
     public class UdonProductsCategory : ScriptableObject
     {
-        public object Name;
-        public object Products;
+        public string Name; // 0x18
+        public VRC.Economy.UdonProduct[] Products; // 0x20
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4E3447C0

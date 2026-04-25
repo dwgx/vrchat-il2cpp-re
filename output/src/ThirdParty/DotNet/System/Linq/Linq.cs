@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Linq
 {
     public class Buffer`1 : ValueType
     {
+        public float[] items; // 0x10
+        public int count; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void ToArray(){} // RVA: 0x7FFD4E078E90
@@ -14,6 +17,8 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class EmptyEnumerable`1 : Object
     {
+        public 0x66414C30[] Instance;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
     }
@@ -96,6 +101,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class EnumerableSorter`2 : EnumerableSorter`1
     {
+        public System.Func`2<System.Collections.Generic.KeyValuePair`2<int,byte[]>,int> keySelector; // 0x10
+        public System.Collections.Generic.IComparer`1<int> comparer; // 0x18
+        public bool descending; // 0x20
+        public System.Linq.EnumerableSorter`1<System.Collections.Generic.KeyValuePair`2<int,byte[]>> next; // 0x28
+        public int[] keys; // 0x30
+
         // ── Methods ──
         public void .ctor(){}
         public void ComputeKeys(){} // RVA: 0x7FFD4E097970
@@ -104,6 +115,11 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class GroupedEnumerable`3 : Object
     {
+        public System.Collections.Generic.IEnumerable`1<0x66414C30> source; // 0x10
+        public System.Func`2<0x66414C30,string> keySelector; // 0x18
+        public System.Func`2<0x66414C30,0x66414C30> elementSelector; // 0x20
+        public System.Collections.Generic.IEqualityComparer`1<string> comparer; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09B8C0
         public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
@@ -112,6 +128,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class GroupedEnumerable`4 : Object
     {
+        public System.Collections.Generic.IEnumerable`1<U> source;
+        public System.Func`2<U,V> keySelector;
+        public System.Func`2<U,W> elementSelector;
+        public System.Collections.Generic.IEqualityComparer`1<V> comparer;
+        public System.Func`3<V,System.Collections.Generic.IEnumerable`1<W>,T> resultSelector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09BB70
         public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
@@ -120,7 +142,7 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class IGrouping`2
     {
-        public object Key;
+        public int Key;
 
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7FFD4E2ADC40
@@ -128,7 +150,7 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class ILookup`2
     {
-        public object Item;
+        public int Item;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD4E2ADC40
@@ -142,7 +164,7 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class IdentityFunction`1 : Object
     {
-        public object Instance;
+        public LambdaSignature`1<T> Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD4E078A90
@@ -150,7 +172,10 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Lookup`2 : Object
     {
-        public object Item;
+        public System.Collections.Generic.IEqualityComparer`1<string> Item; // 0x10
+        public Grouping<string,0x66414C30>[] groupings; // 0x18
+        public Grouping<string,0x66414C30> lastGrouping; // 0x20
+        public int count; // 0x28
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E08B1A0
@@ -166,6 +191,8 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`1 : Object
     {
+        public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<int,byte[]>> source; // 0x10
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x7FFD4E078E90
         public void GetEnumerableSorter(){} // RVA: 0x7FFD4E078F40
@@ -176,6 +203,11 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`2 : OrderedEnumerable`1
     {
+        public System.Linq.OrderedEnumerable`1<System.Collections.Generic.KeyValuePair`2<int,byte[]>> parent; // 0x18
+        public System.Func`2<System.Collections.Generic.KeyValuePair`2<int,byte[]>,int> keySelector; // 0x20
+        public System.Collections.Generic.IComparer`1<int> comparer; // 0x28
+        public bool descending; // 0x30
+
         // ── Methods ──
         public void .ctor(){}
         public void GetEnumerableSorter(){} // RVA: 0x7FFD4E078F40
@@ -183,6 +215,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Set`1 : Object
     {
+        public int[] buckets; // 0x10
+        public 0x6654A4F0<VRC.Core.ApiWorldInstance>[] slots; // 0x18
+        public int count; // 0x20
+        public int freeList; // 0x24
+        public System.Collections.Generic.IEqualityComparer`1<VRC.Core.ApiWorldInstance> comparer; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Add(){} // RVA: 0x7FFD4E2ADC40

@@ -7,6 +7,9 @@ namespace ThirdParty.DOTween.DG.Tweening
 {
     public class Color2 : ValueType
     {
+        public UnityEngine.Color ca; // 0x10
+        public UnityEngine.Color cb; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FD9E290
         public void op_Addition(){} // RVA: 0x7FFD4FD9E2A0
@@ -16,8 +19,35 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class DOTween : Object
     {
-        public object logBehaviour;
-        public object debugStoreTargetId;
+        public string logBehaviour;
+        public bool debugStoreTargetId; // 0x8
+        public 0x665CFD00 nestedTweenFailureBehaviour; // 0xC
+        public bool showUnityEditorReport; // 0x10
+        public float timeScale; // 0x14
+        public bool useSmoothDeltaTime; // 0x18
+        public float maxSmoothUnscaledTime; // 0x1C
+        public 0x665CFEB8 rewindCallbackMode; // 0x20
+        public 0x665CE390 _logBehaviour; // 0x24
+        public System.Func`3<0x664D9630,object,bool> onWillLog; // 0x28
+        public bool drawGizmos; // 0x30
+        public bool debugMode; // 0x31
+        public bool _fooDebugStoreTargetId; // 0x32
+        public 0x665CE4F0 defaultUpdateType; // 0x34
+        public bool defaultTimeScaleIndependent; // 0x38
+        public 0x665CC0D8 defaultAutoPlay; // 0x3C
+        public bool defaultAutoKill; // 0x40
+        public 0x665CC7B8 defaultLoopType; // 0x44
+        public bool defaultRecyclable; // 0x48
+        public 0x665CC448 defaultEaseType; // 0x4C
+        public float defaultEaseOvershootOrAmplitude; // 0x50
+        public float defaultEasePeriod; // 0x54
+        public DG.Tweening.Core.DOTweenComponent instance; // 0x58
+        public int maxActiveTweenersReached; // 0x60
+        public int maxActiveSequencesReached; // 0x64
+        public DG.Tweening.Core.SafeModeReport safeModeReport; // 0x68
+        public System.Collections.Generic.List`1<0x665CC1E0> GizmosDelegates; // 0x78
+        public bool initialized; // 0x80
+        public bool isQuitting; // 0x81
 
         // ── Methods ──
         public void get_logBehaviour(){} // RVA: 0x7FFD4FD9E750
@@ -189,6 +219,8 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class DOTweenModuleUtils : Object
     {
+        public bool _initialized;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD4FDD0A00
         public void Preserver(){} // RVA: 0x7FFD4FDD0C70
@@ -271,12 +303,56 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class Tween : ABSSequentiable
     {
-        public object isRelative;
-        public object active;
-        public object fullPosition;
-        public object hasLoops;
-        public object playedOnce;
-        public object position;
+        public float isRelative; // 0x28
+        public bool active; // 0x2C
+        public object fullPosition; // 0x30
+        public string hasLoops; // 0x38
+        public int playedOnce; // 0x40
+        public object position; // 0x48
+        public 0x665CE4F0 updateType; // 0x50
+        public bool isIndependentUpdate; // 0x54
+        public 0x665CC1E0 onPlay; // 0x58
+        public 0x665CC1E0 onPause; // 0x60
+        public 0x665CC1E0 onRewind; // 0x68
+        public 0x665CC1E0 onUpdate; // 0x70
+        public 0x665CC1E0 onStepComplete; // 0x78
+        public 0x665CC1E0 onComplete; // 0x80
+        public 0x665CC1E0 onKill; // 0x88
+        public DG.Tweening.TweenCallback`1<int> onWaypointChange; // 0x90
+        public bool isFrom; // 0x98
+        public bool isBlendable; // 0x99
+        public bool isRecyclable; // 0x9A
+        public bool isSpeedBased; // 0x9B
+        public bool autoKill; // 0x9C
+        public float duration; // 0xA0
+        public int loops; // 0xA4
+        public 0x665CC7B8 loopType; // 0xA8
+        public float delay; // 0xAC
+        public bool <isRelative>k__BackingField; // 0xB0
+        public 0x665CC448 easeType; // 0xB4
+        public 0x665CC290 customEase; // 0xB8
+        public float easeOvershootOrAmplitude; // 0xC0
+        public float easePeriod; // 0xC4
+        public string debugTargetId; // 0xC8
+        public System.Type typeofT1; // 0xD0
+        public System.Type typeofT2; // 0xD8
+        public System.Type typeofTPlugOptions; // 0xE0
+        public bool <active>k__BackingField; // 0xE8
+        public bool isSequenced; // 0xE9
+        public 0x665CC810 sequenceParent; // 0xF0
+        public int activeId; // 0xF8
+        public 0x665CFDB0 specialStartupMode; // 0xFC
+        public bool creationLocked; // 0x100
+        public bool startupDone; // 0x101
+        public bool <playedOnce>k__BackingField; // 0x102
+        public float <position>k__BackingField; // 0x104
+        public float fullDuration; // 0x108
+        public int completedLoops; // 0x10C
+        public bool isPlaying; // 0x110
+        public bool isComplete; // 0x111
+        public float elapsedDelay; // 0x114
+        public bool delayComplete; // 0x118
+        public int miscInt; // 0x11C
 
         // ── Methods ──
         public void get_isRelative(){} // RVA: 0x7FFD4F6071E0
@@ -391,6 +467,9 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class Tweener : Tween
     {
+        public bool hasManuallySetStartValue; // 0x120
+        public bool isFromAllowed; // 0x121
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FDBD1A0
         public void ChangeStartValue(){} // RVA: 0x7FFD4E08CCB0

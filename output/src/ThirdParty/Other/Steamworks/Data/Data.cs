@@ -7,7 +7,7 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class ActiveBeaconsUpdated_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000D4E0
@@ -16,7 +16,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class AppResumingFromSuspend_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000B950
@@ -25,7 +25,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class AvailableBeaconLocationsUpdated_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000D3D0
@@ -34,7 +34,12 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ClientGameServerDeny_t : ValueType
     {
-        public object CallbackType;
+        public uint CallbackType; // 0x10
+        public uint GameServerIP; // 0x14
+        public ushort GameServerPort; // 0x18
+        public ushort Secure; // 0x1A
+        public uint Reason; // 0x1C
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50008CB0
@@ -43,7 +48,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class Connection : ValueType
     {
-        public object Id;
+        public uint Id; // 0x10
 
         // ── Methods ──
         public void get_Id(){} // RVA: 0x7FFD4F840210
@@ -56,7 +61,17 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ConnectionInfo : ValueType
     {
-        public object State;
+        public Steamworks.Data.NetIdentity State; // 0x10
+        public long userData; // 0x98
+        public Steamworks.Data.Socket listenSocket; // 0xA0
+        public Steamworks.Data.NetAddress address; // 0xA4
+        public ushort pad; // 0xB6
+        public Steamworks.Data.SteamNetworkingPOPID popRemote; // 0xB8
+        public Steamworks.Data.SteamNetworkingPOPID popRelay; // 0xBC
+        public 0x665EDC88 state; // 0xC0
+        public int endReason; // 0xC4
+        public string endDebug; // 0xC8
+        public string connectionDescription; // 0xD0
 
         // ── Methods ──
         public void get_State(){} // RVA: 0x7FFD500181F0
@@ -64,7 +79,10 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class DownloadItemResult_t : ValueType
     {
-        public object CallbackType;
+        public Steamworks.AppId CallbackType; // 0x10
+        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x18
+        public 0x665ED600 Result; // 0x20
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD500126B0
@@ -73,7 +91,15 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class DurationControl_t : ValueType
     {
-        public object CallbackType;
+        public 0x665ED600 CallbackType; // 0x10
+        public Steamworks.AppId Appid; // 0x14
+        public bool Applicable; // 0x18
+        public int CsecsLast5h; // 0x1C
+        public ÍÏÍÎÌÏÌÌÏÌÍÏÍÎÍÌÎÏÎÏ Progress; // 0x20
+        public 0x665ED8C0 Otification; // 0x24
+        public int CsecsToday; // 0x28
+        public int CsecsRemaining; // 0x2C
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50009860
@@ -82,7 +108,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class FriendRichPresenceUpdate_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public Steamworks.AppId AppID; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000A1F0
@@ -91,7 +119,10 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class GameConnectedClanChatMsg_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public ulong SteamIDUser; // 0x18
+        public int MessageID; // 0x20
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000A520
@@ -100,7 +131,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class GameConnectedFriendChatMsg_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public int MessageID; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000AA70
@@ -109,11 +142,14 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class GameId : ValueType
     {
+        public ulong Value; // 0x10
     }
 
     public class GameLobbyJoinRequested_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public ulong SteamIDFriend; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50009EC0
@@ -122,7 +158,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class GameOverlayActivated_t : ValueType
     {
-        public object CallbackType;
+        public byte CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50009A80
@@ -131,7 +168,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class GameRichPresenceJoinRequested_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public byte[] Connect; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void ConnectUTF8(){} // RVA: 0x7FFD5000A300
@@ -141,7 +180,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class GameServerChangeRequested_t : ValueType
     {
-        public object CallbackType;
+        public byte[] CallbackType; // 0x10
+        public byte[] Password; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void ServerUTF8(){} // RVA: 0x7FFD50009B90
@@ -152,7 +193,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class GameWebCallback_t : ValueType
     {
-        public object CallbackType;
+        public byte[] CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void URLUTF8(){} // RVA: 0x7FFD50009420
@@ -162,7 +204,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class GamepadTextInputDismissed_t : ValueType
     {
-        public object CallbackType;
+        public bool CallbackType; // 0x10
+        public uint SubmittedText; // 0x14
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000B840
@@ -171,7 +215,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class GetAuthSessionTicketResponse_t : ValueType
     {
-        public object CallbackType;
+        public uint CallbackType; // 0x10
+        public 0x665ED600 Result; // 0x14
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50009310
@@ -180,6 +226,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HSteamNetPollGroup : ValueType
     {
+        public uint Value; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50006C00
         public void GetHashCode(){} // RVA: 0x7FFD4F840210
@@ -189,6 +237,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class HSteamPipe : ValueType
     {
+        public int Value; // 0x10
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x7FFD50006C10
         public void ToString(){} // RVA: 0x7FFD50017850
@@ -201,7 +251,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class IPCountry_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000B2F0
@@ -210,6 +260,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class InputActionSetHandle_t : ValueType
     {
+        public ulong Value; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50007610
         public void GetHashCode(){} // RVA: 0x7FFD500071C0
@@ -219,6 +271,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class InputAnalogActionHandle_t : ValueType
     {
+        public ulong Value; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50007610
         public void GetHashCode(){} // RVA: 0x7FFD500071C0
@@ -228,6 +282,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class InputDigitalActionHandle_t : ValueType
     {
+        public ulong Value; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50007610
         public void GetHashCode(){} // RVA: 0x7FFD500071C0
@@ -237,6 +293,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class InputHandle_t : ValueType
     {
+        public ulong Value; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50007610
         public void GetHashCode(){} // RVA: 0x7FFD500071C0
@@ -246,7 +304,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ItemInstalled_t : ValueType
     {
-        public object CallbackType;
+        public Steamworks.AppId CallbackType; // 0x10
+        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD500125A0
@@ -255,7 +315,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class LicensesUpdated_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50008ED0
@@ -264,7 +324,11 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class LobbyChatMsg_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public ulong SteamIDUser; // 0x18
+        public byte ChatEntryType; // 0x20
+        public uint ChatID; // 0x24
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000C0C0
@@ -273,7 +337,11 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class LobbyChatUpdate_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public ulong SteamIDUserChanged; // 0x18
+        public ulong SteamIDMakingChange; // 0x20
+        public uint GfChatMemberStateChange; // 0x28
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000BFB0
@@ -282,7 +350,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class LobbyCreated_t : ValueType
     {
-        public object CallbackType;
+        public 0x665ED600 CallbackType; // 0x10
+        public ulong SteamIDLobby; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000C4F0
@@ -291,7 +361,10 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class LobbyDataUpdate_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public ulong SteamIDMember; // 0x18
+        public byte Success; // 0x20
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000BEA0
@@ -300,7 +373,11 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class LobbyEnter_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public uint GfChatPermissions; // 0x18
+        public bool Locked; // 0x1C
+        public uint EChatRoomEnterResponse; // 0x20
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000BD90
@@ -309,7 +386,11 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class LobbyGameCreated_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public ulong SteamIDGameServer; // 0x18
+        public uint IP; // 0x20
+        public ushort Port; // 0x24
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000C1D0
@@ -318,7 +399,10 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class LobbyInvite_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public ulong SteamIDLobby; // 0x18
+        public ulong GameID; // 0x20
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000BC80
@@ -327,7 +411,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class LowBatteryPower_t : ValueType
     {
-        public object CallbackType;
+        public byte CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000B400
@@ -336,7 +421,10 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class MicroTxnAuthorizationResponse_t : ValueType
     {
-        public object CallbackType;
+        public uint CallbackType; // 0x10
+        public ulong OrderID; // 0x18
+        public byte Authorized; // 0x20
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD500090F0
@@ -345,7 +433,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class NetAddress : ValueType
     {
-        public object Cleared;
+        public IPV4 Cleared; // 0x10
+        public ushort port; // 0x20
 
         // ── Methods ──
         public void InternalClear(){} // RVA: 0x7FFD50017060
@@ -358,13 +447,19 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class NetIdentity : ValueType
     {
+        public ÏÍÍÌÏÏÏÌÍÍÏÌÍÌÍÏÍÌÍÍÌÏÌ type; // 0x10
+        public int size; // 0x14
+        public ulong steamid; // 0x18
+        public Steamworks.Data.NetAddress netaddress; // 0x18
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50016EF0
     }
 
     public class OverlayBrowserProtocolNavigation_t : ValueType
     {
-        public object CallbackType;
+        public byte[] CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void RgchURIUTF8(){} // RVA: 0x7FFD5000B0D0
@@ -374,7 +469,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class P2PSessionConnectFail_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public byte P2PSessionError; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD500106D0
@@ -383,7 +480,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class P2PSessionRequest_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD500105C0
@@ -392,7 +490,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class PersonaStateChange_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public int ChangeFlags; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50009970
@@ -401,7 +501,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class PlaybackStatusHasChanged_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50010A00
@@ -410,6 +510,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class PublishedFileId : ValueType
     {
+        public ulong Value; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50007610
         public void GetHashCode(){} // RVA: 0x7FFD500071C0
@@ -419,7 +521,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStoragePublishedFileSubscribed_t : ValueType
     {
-        public object CallbackType;
+        public Steamworks.Data.PublishedFileId CallbackType; // 0x10
+        public Steamworks.AppId AppID; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000E2B0
@@ -428,7 +532,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class RemoteStoragePublishedFileUnsubscribed_t : ValueType
     {
-        public object CallbackType;
+        public Steamworks.Data.PublishedFileId CallbackType; // 0x10
+        public Steamworks.AppId AppID; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000E3C0
@@ -437,7 +543,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ScreenshotReady_t : ValueType
     {
-        public object CallbackType;
+        public uint CallbackType; // 0x10
+        public 0x665ED600 Result; // 0x14
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD500107E0
@@ -446,7 +554,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ScreenshotRequested_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD500108F0
@@ -455,13 +563,15 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class Socket : ValueType
     {
+        public uint Id; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50006C00
     }
 
     public class SteamInventoryDefinitionUpdate_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50015240
@@ -470,7 +580,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamInventoryFullUpdate_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50015130
@@ -479,7 +590,10 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamNetConnectionStatusChangedCallback_t : ValueType
     {
-        public object CallbackType;
+        public Steamworks.Data.Connection CallbackType; // 0x10
+        public Steamworks.Data.ConnectionInfo Nfo; // 0x18
+        public 0x665EDC88 OldState; // 0x2D0
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50015DF0
@@ -488,7 +602,11 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamNetworkingFakeIPResult_t : ValueType
     {
-        public object CallbackType;
+        public 0x665ED600 CallbackType; // 0x10
+        public Steamworks.Data.NetIdentity Dentity; // 0x14
+        public uint IP; // 0x9C
+        public ushort[] Ports; // 0xA0
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50016DE0
@@ -497,6 +615,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamNetworkingPOPID : ValueType
     {
+        public uint Value; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50006C00
         public void GetHashCode(){} // RVA: 0x7FFD4F840210
@@ -506,7 +626,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamParentalSettingsChanged_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD500158A0
@@ -515,7 +635,12 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamRelayNetworkStatus_t : ValueType
     {
-        public object CallbackType;
+        public Left CallbackType; // 0x10
+        public int PingMeasurementInProgress; // 0x14
+        public Left AvailNetworkConfig; // 0x18
+        public Left AvailAnyRelay; // 0x1C
+        public byte[] DebugMsg; // 0x20
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50016010
@@ -524,7 +649,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamRemotePlaySessionConnected_t : ValueType
     {
-        public object CallbackType;
+        public uint CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD500159B0
@@ -533,7 +659,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamRemotePlaySessionDisconnected_t : ValueType
     {
-        public object CallbackType;
+        public uint CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50015AC0
@@ -542,7 +669,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamServerConnectFailure_t : ValueType
     {
-        public object CallbackType;
+        public 0x665ED600 CallbackType; // 0x10
+        public bool StillRetrying; // 0x14
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50008A90
@@ -551,7 +680,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamServersConnected_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50008980
@@ -560,7 +689,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamServersDisconnected_t : ValueType
     {
-        public object CallbackType;
+        public 0x665ED600 CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50008BA0
@@ -569,7 +699,7 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class SteamShutdown_t : ValueType
     {
-        public object CallbackType;
+        public int CallbackType;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000B620
@@ -578,7 +708,11 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class UserAchievementIconFetched_t : ValueType
     {
-        public object CallbackType;
+        public Steamworks.Data.GameId CallbackType; // 0x10
+        public byte[] AchievementName; // 0x18
+        public bool Achieved; // 0x20
+        public int IconHandle; // 0x24
+        public int _datasize;
 
         // ── Methods ──
         public void AchievementNameUTF8(){} // RVA: 0x7FFD5000FA10
@@ -588,7 +722,12 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class UserAchievementStored_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public bool GroupAchievement; // 0x18
+        public byte[] AchievementName; // 0x20
+        public uint CurProgress; // 0x28
+        public uint MaxProgress; // 0x2C
+        public int _datasize;
 
         // ── Methods ──
         public void AchievementNameUTF8(){} // RVA: 0x7FFD5000F2A0
@@ -598,7 +737,10 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class UserStatsReceived_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public 0x665ED600 Result; // 0x18
+        public ulong SteamIDUser; // 0x1C
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000F080
@@ -607,7 +749,9 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class UserStatsStored_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public 0x665ED600 Result; // 0x18
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000F190
@@ -616,7 +760,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class UserStatsUnloaded_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD5000F900
@@ -625,7 +770,10 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class ValidateAuthTicketResponse_t : ValueType
     {
-        public object CallbackType;
+        public ulong CallbackType; // 0x10
+        public ÎÌÎÏÏÎÌÌÏÎÎÍÎÎÌÏÌÏÌÏÌÌ AuthSessionResponse; // 0x18
+        public ulong OwnerSteamID; // 0x1C
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50008FE0
@@ -634,7 +782,8 @@ namespace ThirdParty.Other.Steamworks.Data
 
     public class VolumeHasChanged_t : ValueType
     {
-        public object CallbackType;
+        public float CallbackType; // 0x10
+        public int _datasize;
 
         // ── Methods ──
         public void get_CallbackType(){} // RVA: 0x7FFD50010B10

@@ -13,6 +13,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleAcknowledgePurchaseListener : AndroidJavaProxy
     {
+        public System.Action`1<UnityEngine.Purchasing.Models.IGoogleBillingResult> m_OnAcknowledgePurchaseResponse; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DDC430
         public void onAcknowledgePurchaseResponse(){} // RVA: 0x7FFD54DDC4F0
@@ -20,6 +22,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleCachedQueryProductDetailsService : Object
     {
+        public System.Collections.Generic.Dictionary`2<string,UnityEngine.AndroidJavaObject> m_CachedQueriedProductDetails; // 0x10
+
         // ── Methods ──
         public void Finalize(){} // RVA: 0x7FFD54DD5F00
         public void GetCachedQueriedProducts(){} // RVA: 0x7FFD54DD60C0
@@ -31,6 +35,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleConnectionRetryPolicy : Object
     {
+        public int m_BaseRetryDelay; // 0x10
+        public int m_MaxRetryDelay; // 0x14
+        public int m_ExponentialFactor; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FCD1250
         public void Invoke(){} // RVA: 0x7FFD54E03000
@@ -39,6 +47,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleConsumeResponseListener : AndroidJavaProxy
     {
+        public System.Action`1<UnityEngine.Purchasing.Models.IGoogleBillingResult> m_OnConsumeResponse; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DDC590
         public void onConsumeResponse(){} // RVA: 0x7FFD54DDC650
@@ -46,6 +56,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleFetchPurchases : Object
     {
+        public UnityEngine.Purchasing.Interfaces.IGooglePlayStoreService m_GooglePlayStoreService; // 0x10
+        public UnityEngine.Purchasing.Extension.IStoreCallback m_StoreCallback; // 0x18
+        public Uniject.IUtil m_Util; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54010300
         public void SetStoreCallback(){} // RVA: 0x7FFD4E3A7E80
@@ -63,6 +77,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleFinishTransactionService : Object
     {
+        public UnityEngine.Purchasing.Interfaces.IGoogleBillingClient m_BillingClient; // 0x10
+        public UnityEngine.Purchasing.Interfaces.IGoogleQueryPurchasesService m_GoogleQueryPurchasesService; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
         public void FinishTransaction(){} // RVA: 0x7FFD54DD69A0
@@ -72,9 +89,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleLastKnownProductService : Object
     {
-        public object LastKnownOldProductId;
-        public object LastKnownProductId;
-        public object LastKnownProrationMode;
+        public string LastKnownOldProductId; // 0x10
+        public string LastKnownProductId; // 0x18
+        public System.Nullable`1<0x665DB750> LastKnownProrationMode; // 0x20
 
         // ── Methods ──
         public void get_LastKnownOldProductId(){} // RVA: 0x7FFD4E35C380
@@ -88,6 +105,14 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePlayConfiguration : Object
     {
+        public System.Action m_InitializationConnectionLister; // 0x10
+        public UnityEngine.Purchasing.Interfaces.IGooglePlayStoreService m_GooglePlayStoreService; // 0x18
+        public System.Action`1<UnityEngine.Purchasing.Product> m_DeferredPurchaseAction; // 0x20
+        public System.Action`1<UnityEngine.Purchasing.Product> m_DeferredProrationUpgradeDowngradeSubscriptionAction; // 0x28
+        public System.Action`1<int> m_QueryProductDetailsFailedListener; // 0x30
+        public bool m_FetchPurchasesAtInitialize; // 0x38
+        public bool m_FetchPurchasesExcludeDeferred; // 0x39
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE32D0
         public void NotifyInitializationConnectionFailed(){} // RVA: 0x7FFD4E623950
@@ -100,6 +125,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePlayProductCallback : Object
     {
+        public UnityEngine.Purchasing.IGooglePlayConfigurationInternal m_GooglePlayConfigurationInternal; // 0x10
+
         // ── Methods ──
         public void SetStoreConfiguration(){} // RVA: 0x7FFD4E342E30
         public void NotifyQueryProductDetailsFailed(){} // RVA: 0x7FFD54DE3510
@@ -108,6 +135,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePlayPurchaseCallback : Object
     {
+        public UnityEngine.Purchasing.Extension.IStoreCallback m_StoreCallback; // 0x10
+        public UnityEngine.Purchasing.IGooglePlayConfigurationInternal m_GooglePlayConfigurationInternal; // 0x18
+        public Uniject.IUtil m_Util; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E36F0D0
         public void SetStoreCallback(){} // RVA: 0x7FFD4E342E30
@@ -120,6 +151,15 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePlayStore : AbstractStore
     {
+        public UnityEngine.Purchasing.IGooglePlayStoreRetrieveProductsService m_RetrieveProductsService; // 0x10
+        public UnityEngine.Purchasing.IGooglePlayStorePurchaseService m_StorePurchaseService; // 0x18
+        public UnityEngine.Purchasing.IGoogleFetchPurchases m_FetchPurchases; // 0x20
+        public UnityEngine.Purchasing.IGooglePlayStoreFinishTransactionService m_FinishTransactionService; // 0x28
+        public UnityEngine.Purchasing.Interfaces.IGooglePurchaseCallback m_GooglePurchaseCallback; // 0x30
+        public UnityEngine.Purchasing.IGooglePlayStoreExtensionsInternal m_GooglePlayStoreExtensions; // 0x38
+        public UnityEngine.Purchasing.IGooglePlayConfigurationInternal m_GooglePlayConfigurationInternal; // 0x40
+        public Uniject.IUtil m_Util; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE3C10
         public void Initialize(){} // RVA: 0x7FFD54DE3F10
@@ -133,6 +173,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePlayStoreExtensions : Object
     {
+        public UnityEngine.Purchasing.Interfaces.IGooglePlayStoreService m_GooglePlayStoreService; // 0x10
+        public UnityEngine.Purchasing.Interfaces.IGooglePurchaseStateEnumProvider m_GooglePurchaseStateEnumProvider; // 0x18
+        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x20
+        public UnityEngine.ILogger m_Logger; // 0x28
+        public UnityEngine.Purchasing.Extension.IStoreCallback m_StoreCallback; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE44D0
         public void SetStoreCallback(){} // RVA: 0x7FFD4E36F890
@@ -144,6 +190,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePlayStoreFinishTransactionService : Object
     {
+        public System.Collections.Generic.HashSet`1<string> m_ProcessedPurchaseToken; // 0x10
+        public UnityEngine.Purchasing.Interfaces.IGooglePlayStoreService m_GooglePlayStoreService; // 0x18
+        public UnityEngine.Purchasing.Extension.IStoreCallback m_StoreCallback; // 0x20
+        public int m_RetryCount; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE63C0
         public void SetStoreCallback(){} // RVA: 0x7FFD4E36F0D0
@@ -155,6 +206,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePlayStorePurchaseService : Object
     {
+        public UnityEngine.Purchasing.Interfaces.IGooglePlayStoreService m_GooglePlayStoreService; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void Purchase(){} // RVA: 0x7FFD54DE6DA0
@@ -162,6 +215,14 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePlayStoreRetrieveProductsService : Object
     {
+        public UnityEngine.Purchasing.Interfaces.IGooglePlayStoreService m_GooglePlayStoreService; // 0x10
+        public UnityEngine.Purchasing.IGoogleFetchPurchases m_GoogleFetchPurchases; // 0x18
+        public UnityEngine.Purchasing.Extension.IStoreCallback m_StoreCallback; // 0x20
+        public UnityEngine.Purchasing.IGooglePlayConfigurationInternal m_GooglePlayConfigurationInternal; // 0x28
+        public UnityEngine.Purchasing.IGooglePlayStoreExtensions m_GooglePlayStoreExtensions; // 0x30
+        public bool m_HasInitiallyRetrievedProducts; // 0x38
+        public bool m_RetrieveProductsFailed; // 0x39
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE6E00
         public void SetStoreCallback(){} // RVA: 0x7FFD4E36F0D0
@@ -177,6 +238,22 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePlayStoreService : Object
     {
+        public int m_CurrentConnectionAttempts; // 0x10
+        public int m_MaxConnectionAttempts; // 0x14
+        public UnityEngine.Purchasing.Interfaces.IGoogleBillingClient m_BillingClient; // 0x18
+        public UnityEngine.Purchasing.Interfaces.IBillingClientStateListener m_BillingClientStateListener; // 0x20
+        public UnityEngine.Purchasing.Interfaces.IQueryProductDetailsService m_QueryProductDetailsService; // 0x28
+        public System.Collections.Concurrent.ConcurrentQueue`1<UnityEngine.Purchasing.Models.ProductDescriptionQuery> m_ProductsToQuery; // 0x30
+        public System.Collections.Concurrent.ConcurrentQueue`1<System.Action`1<System.Collections.Generic.List`1<UnityEngine.Purchasing.Interfaces.IGooglePurchase>>> m_OnPurchaseSucceededQueue; // 0x38
+        public UnityEngine.Purchasing.Interfaces.IGooglePurchaseService m_GooglePurchaseService; // 0x40
+        public UnityEngine.Purchasing.Interfaces.IGoogleFinishTransactionService m_GoogleFinishTransactionService; // 0x48
+        public UnityEngine.Purchasing.Interfaces.IGoogleQueryPurchasesService m_GoogleQueryPurchasesService; // 0x50
+        public UnityEngine.Purchasing.Interfaces.IGoogleLastKnownProductService m_GoogleLastKnownProductService; // 0x58
+        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x60
+        public UnityEngine.ILogger m_Logger; // 0x68
+        public UnityEngine.Purchasing.Stores.Util.IRetryPolicy m_RetryPolicy; // 0x70
+        public Uniject.IUtil m_Util; // 0x78
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DD7A10
         public void InitConnectionWithGooglePlay(){} // RVA: 0x7FFD54DD7F50
@@ -202,12 +279,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleProductMetadata : ProductMetadata
     {
-        public object originalJson;
-        public object subscriptionPeriod;
-        public object freeTrialPeriod;
-        public object introductoryPrice;
-        public object introductoryPricePeriod;
-        public object introductoryPriceCycles;
+        public string originalJson; // 0x40
+        public string subscriptionPeriod; // 0x48
+        public string freeTrialPeriod; // 0x50
+        public string introductoryPrice; // 0x58
+        public string introductoryPricePeriod; // 0x60
+        public int introductoryPriceCycles; // 0x68
 
         // ── Methods ──
         public void get_originalJson(){} // RVA: 0x7FFD4E3BE740
@@ -222,6 +299,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePurchaseService : Object
     {
+        public UnityEngine.Purchasing.Interfaces.IGoogleBillingClient m_BillingClient; // 0x10
+        public UnityEngine.Purchasing.Interfaces.IGooglePurchaseCallback m_GooglePurchaseCallback; // 0x18
+        public UnityEngine.Purchasing.Interfaces.IQueryProductDetailsService m_QueryProductDetailsService; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E420E00
         public void Purchase(){} // RVA: 0x7FFD54DD9FC0
@@ -238,6 +319,13 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePurchaseUpdatedListener : AndroidJavaProxy
     {
+        public UnityEngine.Purchasing.Interfaces.IGoogleLastKnownProductService m_LastKnownProductService; // 0x20
+        public UnityEngine.Purchasing.Interfaces.IGooglePurchaseCallback m_GooglePurchaseCallback; // 0x28
+        public UnityEngine.Purchasing.Interfaces.IGooglePurchaseBuilder m_PurchaseBuilder; // 0x30
+        public UnityEngine.Purchasing.IGoogleCachedQueryProductDetailsService m_GoogleCachedQueryProductDetailsService; // 0x38
+        public UnityEngine.Purchasing.Interfaces.IGooglePurchaseStateEnumProvider m_GooglePurchaseStateEnumProvider; // 0x40
+        public UnityEngine.Purchasing.Interfaces.IGoogleQueryPurchasesService m_GoogleQueryPurchasesService; // 0x48
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DDCB00
         public void SetGoogleQueryPurchaseService(){} // RVA: 0x7FFD4E3BC740
@@ -260,6 +348,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GooglePurchasesResponseListener : AndroidJavaProxy
     {
+        public System.Action`2<UnityEngine.Purchasing.Models.IGoogleBillingResult,System.Collections.Generic.IEnumerable`1<UnityEngine.AndroidJavaObject>> m_OnQueryPurchasesResponse; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DDC6F0
         public void onQueryPurchasesResponse(){} // RVA: 0x7FFD54DDC7B0
@@ -267,6 +357,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class GoogleQueryPurchasesService : Object
     {
+        public UnityEngine.Purchasing.Interfaces.IGoogleBillingClient m_BillingClient; // 0x10
+        public UnityEngine.Purchasing.Interfaces.IGooglePurchaseBuilder m_PurchaseBuilder; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
         public void QueryPurchases(){} // RVA: 0x7FFD54DDB0D0

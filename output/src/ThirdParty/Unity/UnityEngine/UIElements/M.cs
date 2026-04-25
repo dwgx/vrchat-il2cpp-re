@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Manipulator : Object
     {
-        public object target;
+        public UnityEngine.UIElements.VisualElement target; // 0x10
 
         // ── Methods ──
         public void RegisterCallbacksOnTarget(){} // RVA: 0x7FFD4E090980
@@ -26,21 +26,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
-        public object modifiers;
-        public object mousePosition;
-        public object localMousePosition;
-        public object mouseDelta;
-        public object clickCount;
-        public object button;
-        public object pressedButtons;
-        public object shiftKey;
-        public object ctrlKey;
-        public object commandKey;
-        public object altKey;
-        public object UnityEngine.UIElements.IMouseEventInternal.triggeredByOS;
-        public object UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse;
-        public object UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent;
-        public object currentTarget;
+        public 0x665DF588 modifiers;
+        public UnityEngine.Vector2 mousePosition;
+        public UnityEngine.Vector2 localMousePosition;
+        public UnityEngine.Vector2 mouseDelta;
+        public int clickCount;
+        public int button;
+        public int pressedButtons;
+        public bool shiftKey;
+        public bool ctrlKey;
+        public 0x6647DDD0 commandKey;
 
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x7FFD4E079960
@@ -86,7 +81,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseManipulator : Manipulator
     {
-        public object activators;
+        public System.Collections.Generic.List`1<0x6647F9A8> activators; // 0x18
+        public 0x6647F9A8 m_currentActivator; // 0x20
 
         // ── Methods ──
         public void get_activators(){} // RVA: 0x7FFD4E3447C0
@@ -98,7 +94,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MultiColumnController : Object
     {
-        public object header;
+        public UnityEngine.PropertyName header;
+        public UnityEngine.PropertyName bindableElementPropertyName; // 0x4
+        public string baseUssClassName; // 0x8
+        public string k_HeaderContainerViewDataKey; // 0x10
+        public string headerContainerUssClassName; // 0x18
+        public string rowContainerUssClassName; // 0x20
+        public string cellUssClassName; // 0x28
+        public string cellLabelUssClassName; // 0x30
+        public string k_HeaderViewDataKey; // 0x38
+        public System.Action columnSortingChanged; // 0x10
+        public System.Action`2<0x6647D4E0,UnityEngine.UIElements.Column> headerContextMenuPopulateEvent; // 0x18
+        public UnityEngine.UIElements.BaseVerticalCollectionView m_View; // 0x20
+        public UnityEngine.UIElements.VisualElement m_HeaderContainer; // 0x28
+        public 0x6648ACC0 m_MultiColumnHeader; // 0x30
 
         // ── Methods ──
         public void add_columnSortingChanged(){} // RVA: 0x7FFD54F69E30
@@ -135,8 +144,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MultiColumnTreeViewController : BaseTreeViewController
     {
-        public object columnController;
-        public object header;
+        public UnityEngine.UIElements.MultiColumnController columnController; // 0x58
 
         // ── Methods ──
         public void get_columnController(){} // RVA: 0x7FFD4E409500

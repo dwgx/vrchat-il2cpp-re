@@ -7,16 +7,8 @@ namespace ThirdParty.Other.OVRSimpleJSON
 {
     public class JSONLazyCreator : JSONNode
     {
-        public object Tag;
-        public object Item;
-        public object Item;
-        public object AsInt;
-        public object AsFloat;
-        public object AsDouble;
-        public object AsLong;
-        public object AsBool;
-        public object AsArray;
-        public object AsObject;
+        public OVRSimpleJSON.JSONNode Tag; // 0x10
+        public string Item; // 0x18
 
         // ── Methods ──
         public void get_Tag(){} // RVA: 0x7FFD4EACE2C0
@@ -47,31 +39,12 @@ namespace ThirdParty.Other.OVRSimpleJSON
 
     public class JSONNode : Object
     {
-        public object Tag;
-        public object Item;
-        public object Item;
-        public object Value;
-        public object Count;
-        public object IsNumber;
-        public object IsString;
-        public object IsBoolean;
-        public object IsNull;
-        public object IsArray;
-        public object IsObject;
-        public object Inline;
-        public object Children;
-        public object DeepChildren;
-        public object Linq;
-        public object Keys;
-        public object Values;
-        public object AsDouble;
-        public object AsInt;
-        public object AsFloat;
-        public object AsBool;
-        public object AsLong;
-        public object AsArray;
-        public object AsObject;
-        public object EscapeBuilder;
+        public bool Tag;
+        public bool Item; // 0x1
+        public System.Text.StringBuilder Item; // 0xFFFF
+        public 0x6650DDF8 Value; // 0x4
+        public 0x6650DDF8 Count; // 0x8
+        public 0x6650DDF8 IsNumber; // 0xC
 
         // ── Methods ──
         public void get_Tag(){} // RVA: 0x7FFD4E079960

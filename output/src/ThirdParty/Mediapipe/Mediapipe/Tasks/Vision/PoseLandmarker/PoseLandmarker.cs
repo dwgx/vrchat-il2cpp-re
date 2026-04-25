@@ -7,6 +7,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 {
     public class PoseLandmarker : BaseVisionTaskApi
     {
+        public 0x66577BA0 _packetCallback; // 0x20
+        public 0x66573000 _normalizedRect; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53710170
         public void CreateFromOptions(){} // RVA: 0x7FFD537102A0
@@ -21,14 +24,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 
     public class PoseLandmarkerOptions : Object
     {
-        public object baseOptions;
-        public object runningMode;
-        public object numPoses;
-        public object minPoseDetectionConfidence;
-        public object minPosePresenceConfidence;
-        public object minTrackingConfidence;
-        public object outputSegmentationMasks;
-        public object resultCallback;
+        public Mediapipe.Tasks.Core.BaseOptions baseOptions; // 0x10
+        public 0x66575EC0 runningMode; // 0x18
+        public int numPoses; // 0x1C
+        public float minPoseDetectionConfidence; // 0x20
+        public float minPosePresenceConfidence; // 0x24
+        public float minTrackingConfidence; // 0x28
+        public bool outputSegmentationMasks; // 0x2C
+        public 0x66575FC8 resultCallback; // 0x30
 
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x7FFD4E35C380
@@ -46,6 +49,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker
 
     public class PoseLandmarkerResult : ValueType
     {
+        public System.Collections.Generic.List`1<0x66578438> poseLandmarks; // 0x10
+        public System.Collections.Generic.List`1<0x665783E0> poseWorldLandmarks; // 0x18
+        public System.Collections.Generic.List`1<Mediapipe.Image> segmentationMasks; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F88FCC0
         public void Alloc(){} // RVA: 0x7FFD53712310

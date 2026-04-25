@@ -7,8 +7,11 @@ namespace VRC.SDK3.Internal
 {
     public class BestInstancesListener : Object
     {
-        public object requestedPopulationBracket;
-        public object _bestInstancesListener;
+        public string requestedPopulationBracket;
+        public VRC.Udon.Common.Interfaces.IUdonEventReceiver _bestInstancesListener; // 0x10
+        public string <ÏÏÏÎÎÌÍÍÏÌÎÌÍÌÎÍÌÍÏÎÌÏÍ>k__BackingField; // 0x18
+        public string[] <ÍÏÏÏÍÏÎÍÌÏÏÎÎÌÏÍÎÌÏÏÍÌÏ>k__BackingField; // 0x20
+        public string[] resultInstances; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FAFDF60
@@ -28,6 +31,8 @@ namespace VRC.SDK3.Internal
 
     public class ChangeSettings : Object
     {
+        public string ÎÌÏÍÎÌÍÌÏÌÏÌÏÎÌÎÎÍÌÍÏÏÍ;
+
         // ── Methods ──
         public void SetComfortMode(){} // RVA: 0x7FFD4FAFE670
         public void GetComfortMode(){} // RVA: 0x7FFD4FAFE730
@@ -56,7 +61,9 @@ namespace VRC.SDK3.Internal
 
     public class PedestalPreviewListener : Object
     {
-        public object target;
+        public string target;
+        public VRC.Udon.Common.Interfaces.IUdonEventReceiver ÌÏÎÍÌÌÎÎÍÍÍÏÌÎÍÌÌÌÏÌÎÏÎ; // 0x10
+        public VRC.SDK3.Components.VRCAvatarPedestal <ÍÎÎÎÍÌÍÎÏÎÌÌÌÎÏÏÎÍÌÏÍÍÎ>k__BackingField; // 0x18
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FB1B7A0
@@ -75,9 +82,10 @@ namespace VRC.SDK3.Internal
 
     public class PlatformChecker : Object
     {
-        public object udonEventReceiver;
-        public object worldID;
-        public object isUnavailableOnThisPlatform;
+        public string udonEventReceiver;
+        public VRC.Udon.Common.Interfaces.IUdonEventReceiver worldID; // 0x10
+        public string isUnavailableOnThisPlatform; // 0x18
+        public bool <ÏÌÎÍÌÏÌÏÍÏÌÌÍÏÌÏÌÌÏÏÏÌÌ>k__BackingField; // 0x20
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FB25830
@@ -100,12 +108,22 @@ namespace VRC.SDK3.Internal
 
     public class VRCBestInstances : Object
     {
+        public string ÎÌÏÍÎÌÍÌÏÌÏÌÏÎÌÎÎÍÌÍÏÏÍ;
+
         // ── Methods ──
         public void GetBestInstances(){} // RVA: 0x7FFD4FAFDEC0
     }
 
     public class VRCEventPortalManagerInternal : Object
     {
+        public string ÎÏÎÏÎÍÍÍÏÎÎÎÌÎÏÏÏÌÌÌÎÎÎ;
+        public string ÌÍÍÎÏÏÍÏÌÎÌÍÎÏÎÏÌÏÌÍÍÌÍ;
+        public System.Collections.Generic.List`1<VRC.SDKBase.VRC_PortalMarker> ÌÎÌÍÎÏÍÍÏÏÍÎÎÎÌÎÎÏÎÏÏÌÌ; // 0x10
+        public System.Threading.CancellationTokenSource ÍÌÎÍÎÌÌÏÎÌÏÌÎÎÍÌÍÎÍÏÍÌÌ; // 0x18
+        public System.Threading.CancellationTokenSource ÏÍÏÌÌÌÏÎÏÏÌÏÍÏÏÍÏÌÍÏÍÍÏ; // 0x20
+        public System.Collections.Generic.IReadOnlyList`1<System.ValueTuple`3<ÎÎÏÍÏÌÏÌÎÎÏÎÎÍÍÎÎÎÍÏÍÍÏ,ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ,int>> ÏÏÎÎÎÌÍÎÍÌÏÎÎÎÎÎÌÍÏÍÌÍÏ; // 0x28
+        public bool ÎÎÎÏÎÏÎÍÎÍÌÎÌÍÌÎÏÎÌÎÎÍÎ; // 0x30
+
         // ── Methods ──
         public void StartListening(){} // RVA: 0x7FFD4FAFEE30
         public void UnregisterEventPortal(){} // RVA: 0x7FFD4FAFF080
@@ -132,6 +150,8 @@ namespace VRC.SDK3.Internal
 
     public class VRCExperiments : Object
     {
+        public string ÎÎÎÏÎÍÏÎÍÌÌÍÎÎÏÌÎÍÌÌÎÌÎ;
+
         // ── Methods ──
         public void IsInExperimentSegment(){} // RVA: 0x7FFD4FB1A250
         public void GetExperimentPayload(){} // RVA: 0x7FFD4FB1A580 | overloaded x4
@@ -139,12 +159,16 @@ namespace VRC.SDK3.Internal
 
     public class VRCInternalAvatarPedestal : Object
     {
+        public string ÎÌÏÍÎÌÍÌÏÌÏÌÏÎÌÎÎÍÌÍÏÏÍ;
+
         // ── Methods ──
         public void GetPedestalListener(){} // RVA: 0x7FFD4FB1B710
     }
 
     public class VRCOpenMenu : Object
     {
+        public string ÎÏÍÎÌÍÏÍÍÎÎÌÎÍÍÎÏÍÌÌÌÌÏ;
+
         // ── Methods ──
         public void OpenFriendsList(){} // RVA: 0x7FFD4FB1A650
         public void OpenMassGifting(){} // RVA: 0x7FFD4FB1A710
@@ -154,15 +178,13 @@ namespace VRC.SDK3.Internal
 
     public class VRCPrideCampaign : Object
     {
-        public object LastRefreshTimestampUTC;
-        public object IsCampaignActive;
-        public object GlobalDollarsGoal;
-        public object GlobalDollarsRaised;
-        public object GlobalParticipantCount;
-        public object LocalGiftsCount;
-        public object FriendParticipantCount;
-        public object FriendParticipantNames;
-        public object FriendParticipantIcons;
+        public string LastRefreshTimestampUTC;
+        public int IsCampaignActive;
+        public System.Threading.CancellationTokenSource GlobalDollarsGoal;
+        public ÍÍÍÏÍÏÎÍÌÏÍÌÏÏÎÎÍÏÌÌÌÏÌ GlobalDollarsRaised; // 0x8
+        public string[] GlobalParticipantCount; // 0x10
+        public UnityEngine.Sprite[] LocalGiftsCount; // 0x18
+        public System.DateTime FriendParticipantCount; // 0x20
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4FB1C2E0
@@ -186,6 +208,10 @@ namespace VRC.SDK3.Internal
 
     public class VRCUrlConstructor : Object
     {
+        public string ÏÏÍÎÏÏÍÍÍÏÎÏÎÎÎÌÎÌÍÎÎÌÏ;
+        public string ÎÎÏÍÍÏÌÏÌÎÎÎÎÍÍÎÎÎÎÎÌÌÌ;
+        public string ÌÏÍÏÌÎÎÍÎÌÎÎÍÍÏÏÌÎÎÏÌÏÌ;
+
         // ── Methods ──
         public void GetUrl(){} // RVA: 0x7FFD4FB24580
         public void GetAllowlistedUrl(){} // RVA: 0x7FFD4FB24680
@@ -194,12 +220,16 @@ namespace VRC.SDK3.Internal
 
     public class VRCUserFirstJoin : Object
     {
+        public string ÎÌÏÍÎÌÍÌÏÌÏÌÏÎÌÎÎÍÌÍÏÏÍ;
+
         // ── Methods ──
         public void GetIsNewUser(){} // RVA: 0x7FFD4FB24FC0
     }
 
     public class VRCWorldPlatformChecker : Object
     {
+        public string ÎÌÏÍÎÌÍÌÏÌÏÌÏÎÌÎÎÍÌÍÏÏÍ;
+
         // ── Methods ──
         public void GetPlatformChecker(){} // RVA: 0x7FFD4FB257A0
     }

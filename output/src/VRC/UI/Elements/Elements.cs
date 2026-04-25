@@ -7,15 +7,16 @@ namespace VRC.UI.Elements
 {
     public class MainMenuPlacementData : Object
     {
-        public object MenuPlacementZDepthVR;
-        public object ZDepthMovementSpeedMultiplier;
-        public object ScaleContainer;
-        public object LastLocalRotation;
-        public object LastLocalLookRotation;
-        public object MMDimensions;
-        public object VrPosition;
-        public object VrScale;
-        public object DesktopPosition;
+        public UnityEngine.Transform MenuPlacementZDepthVR; // 0x10
+        public float ZDepthMovementSpeedMultiplier;
+        public float ScaleContainer;
+        public float LastLocalRotation;
+        public float LastLocalLookRotation; // 0x18
+        public UnityEngine.Quaternion MMDimensions; // 0x1C
+        public System.Nullable`1<UnityEngine.Quaternion> VrPosition; // 0x2C
+        public UnityEngine.Vector2 VrScale; // 0x40
+        public UnityEngine.Vector3 DesktopPosition; // 0x48
+        public UnityEngine.Vector3 <ÎÎÌÌÏÍÏÍÌÌÌÌÌÏÏÍÏÍÏÍÍÌÍ>k__BackingField; // 0x54
 
         // ── Methods ──
         public void get_MMDimensions(){} // RVA: 0x7FFD55032650
@@ -44,9 +45,25 @@ namespace VRC.UI.Elements
 
     public class QuickMenuPlacer : Object
     {
-        public object MotionSmoothingEnabled;
-        public object IsAttachedToHand;
-        public object DesktopScale;
+        public UnityEngine.Transform MotionSmoothingEnabled; // 0x10
+        public UnityEngine.Transform IsAttachedToHand; // 0x18
+        public UnityEngine.Vector3 DesktopScale; // 0x20
+        public UnityEngine.Vector3 _vrTwoHandedMenuPosL; // 0x2C
+        public UnityEngine.Vector3 _vrTwoHandedMenuRotL; // 0x38
+        public UnityEngine.Vector3 _vrTwoHandedMenuPosR; // 0x44
+        public UnityEngine.Vector3 _vrTwoHandedMenuRotR; // 0x50
+        public UnityEngine.Vector3 _vrTwoHandedMenuScale; // 0x5C
+        public UnityEngine.Vector3 _vrOneHandedMenuPos; // 0x68
+        public UnityEngine.Vector3 _vrOneHandedMenuRot; // 0x74
+        public UnityEngine.Vector3 _vrOneHandedMenuScale; // 0x80
+        public bool _menuWasPlaced; // 0x8C
+        public bool _wasAttachedToHand; // 0x8D
+        public bool <ÎÎÎÏÏÌÏÏÍÎÎÎÌÌÏÌÍÏÏÍÎÏÍ>k__BackingField; // 0x8E
+        public float SMOOTHING_SPEED;
+        public float SMOOTHING_MAX_DISTANCE;
+        public float SMOOTHING_MAX_ANGLE;
+        public float QM_WIDTH;
+        public float QM_HEIGHT;
 
         // ── Methods ──
         public void get_IsDataHighConfidence(){} // RVA: 0x7FFD4F223D30

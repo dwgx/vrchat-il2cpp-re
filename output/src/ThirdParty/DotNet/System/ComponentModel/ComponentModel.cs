@@ -7,28 +7,18 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class BindingList`1 : Collection`1
     {
-        public object ItemTypeHasDefaultConstructor;
-        public object RaiseListChangedEvents;
-        public object AddingNewHandled;
-        public object AllowNew;
-        public object System.ComponentModel.IBindingList.AllowNew;
-        public object AllowEdit;
-        public object System.ComponentModel.IBindingList.AllowEdit;
-        public object AllowRemove;
-        public object System.ComponentModel.IBindingList.AllowRemove;
-        public object System.ComponentModel.IBindingList.SupportsChangeNotification;
-        public object SupportsChangeNotificationCore;
-        public object System.ComponentModel.IBindingList.SupportsSearching;
-        public object SupportsSearchingCore;
-        public object System.ComponentModel.IBindingList.SupportsSorting;
-        public object SupportsSortingCore;
-        public object System.ComponentModel.IBindingList.IsSorted;
-        public object IsSortedCore;
-        public object System.ComponentModel.IBindingList.SortProperty;
-        public object SortPropertyCore;
-        public object System.ComponentModel.IBindingList.SortDirection;
-        public object SortDirectionCore;
-        public object System.ComponentModel.IRaiseItemChangedEvents.RaisesItemChangedEvents;
+        public int ItemTypeHasDefaultConstructor;
+        public bool RaiseListChangedEvents;
+        public bool AddingNewHandled;
+        public 0x66495218 AllowNew;
+        public 0x66495E20 System.ComponentModel.IBindingList.AllowNew;
+        public 0x66492E58 AllowEdit;
+        public 0x66494B90 System.ComponentModel.IBindingList.AllowEdit;
+        public int AllowRemove;
+        public bool System.ComponentModel.IBindingList.AllowRemove;
+        public bool System.ComponentModel.IBindingList.SupportsChangeNotification;
+        public bool SupportsChangeNotificationCore;
+        public bool System.ComponentModel.IBindingList.SupportsSearching;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2

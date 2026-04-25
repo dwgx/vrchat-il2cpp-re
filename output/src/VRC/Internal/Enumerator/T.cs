@@ -8,8 +8,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÎÌÌÏÎÎÌÍÍÏÍÎÌÎÍÏÏÍÎÏÎÍ</summary>
     public class TEnumerator_32EC : Object
     {
-        public object System.Collections.Generic.IEnumerator<T>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public U System.Collections.Generic.IEnumerator<T>.Current;
+        public T System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4E090980
@@ -34,8 +34,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÌÎÌÎÌÎÏÎÌÌÌÏÍÌÏÌÎÎÌÏÎÏ</summary>
     public class TEnumerator_386A : Object
     {
-        public object System.Collections.Generic.IEnumerator<T>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public U System.Collections.Generic.IEnumerator<T>.Current;
+        public T System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4E090980
@@ -57,8 +57,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÏÎÏÍÍÎÏÍÍÏÌÎÌÍÏÎÏÎÏÍÍÍÎ</summary>
     public class TEnumerator_4608 : Object
     {
-        public object System.Collections.Generic.IEnumerator<T>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public U System.Collections.Generic.IEnumerator<T>.Current;
+        public T System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD4E090980
@@ -81,8 +81,8 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÍÍÌÌÎÎÌÏÍÍÏÏÌÌÌÍÎÏÍÏÍÍÏ</summary>
     public class TEnumerator_A3B2 : Object
     {
-        public object System.Collections.Generic.IEnumerator<T>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public U System.Collections.Generic.IEnumerator<T>.Current;
+        public T System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980
@@ -109,8 +109,15 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÍÎÌÍÏÌÍÌÎÍÎÏÌÌÎÍÏÏÏÏÌÍ</summary>
     public class TSourceEnumerator_5A44 : Object
     {
-        public object System.Collections.Generic.IEnumerator<TSource>.Current;
-        public object System.Collections.IEnumerator.Current;
+        public int System.Collections.Generic.IEnumerator<TSource>.Current;
+        public U System.Collections.IEnumerator.Current;
+        public int ÌÍÎÎÎÏÍÌÍÌÏÎÌÎÌÍÌÍÍÏÌÌÌ;
+        public System.Collections.Generic.IEnumerable`1<U> ÏÏÎÎÏÌÍÌÍÌÍÏÍÏÎÌÎÌÍÏÍÌÍ;
+        public System.Collections.Generic.IEnumerable`1<U> ÏÌÏÍÌÎÌÌÏÌÏÍÌÎÍÌÎÍÍÍÌÌÌ;
+        public System.Func`2<U,T> ÌÍÍÎÌÌÌÎÍÏÏÏÌÍÍÌÎÍÌÍÏÏÍ;
+        public System.Func`2<U,T> ÏÌÎÎÎÍÍÌÏÍÎÏÌÎÎÌÌÍÏÍÍÌÌ;
+        public System.Collections.Generic.HashSet`1<T> ÎÍÍÎÏÏÍÍÎÏÍÌÏÍÌÌÏÎÏÍÍÎÎ;
+        public System.Collections.Generic.IEnumerator`1<U> ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E090980

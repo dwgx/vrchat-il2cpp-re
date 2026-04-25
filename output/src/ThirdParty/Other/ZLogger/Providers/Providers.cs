@@ -7,11 +7,8 @@ namespace ThirdParty.Other.ZLogger.Providers
 {
     public class SharedFileStream : Stream
     {
-        public object CanRead;
-        public object CanSeek;
-        public object CanWrite;
-        public object Length;
-        public object Position;
+        public System.IO.FileStream CanRead; // 0x28
+        public 0x664275E0 CanSeek; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750DB10
@@ -32,6 +29,10 @@ namespace ThirdParty.Other.ZLogger.Providers
 
     public class ZLoggerFileLoggerProvider : Object
     {
+        public ZLogger.Providers.ZLoggerFileOptions options; // 0x10
+        public ZLogger.AsyncStreamLineMessageWriter streamWriter; // 0x18
+        public Microsoft.Extensions.Logging.IExternalScopeProvider scopeProvider; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750E250
         public void CreateLogger(){} // RVA: 0x7FFD5750E4B0
@@ -42,7 +43,7 @@ namespace ThirdParty.Other.ZLogger.Providers
 
     public class ZLoggerFileOptions : ZLoggerOptions
     {
-        public object FileShared;
+        public bool FileShared; // 0x38
 
         // ── Methods ──
         public void get_FileShared(){} // RVA: 0x7FFD4E5F95D0

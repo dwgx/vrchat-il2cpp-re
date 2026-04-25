@@ -7,9 +7,8 @@ namespace ThirdParty.DotNet.System.Diagnostics.Tracing
 {
     public class EventSource : Object
     {
-        public object Guid;
-        public object Name;
-        public object Settings;
+        public string Guid; // 0x10
+        public 0x6643D008 Name; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539AF930 | overloaded x4

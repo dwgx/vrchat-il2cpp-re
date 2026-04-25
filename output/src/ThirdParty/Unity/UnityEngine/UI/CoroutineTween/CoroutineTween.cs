@@ -19,6 +19,9 @@ namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 
     public class TweenRunner`1 : Object
     {
+        public UnityEngine.MonoBehaviour m_CoroutineContainer;
+        public System.Collections.IEnumerator m_Tween;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E2ADC40
         public void Init(){} // RVA: 0x7FFD4E090A40

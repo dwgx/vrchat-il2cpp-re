@@ -20,6 +20,14 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class JSONStore : AbstractStore
     {
+        public UnityEngine.Purchasing.Extension.IStoreCallback unity; // 0x10
+        public UnityEngine.Purchasing.INativeStore m_Store; // 0x18
+        public UnityEngine.Purchasing.StandardPurchasingModule m_Module; // 0x20
+        public UnityEngine.ILogger m_Logger; // 0x28
+        public Stores.Util.JsonProductDescriptionsDeserializer m_ProductDescriptionsDeserializer; // 0x30
+        public UnityEngine.Purchasing.Extension.PurchaseFailureDescription m_LastPurchaseFailureDescription; // 0x38
+        public 0x665DDB10 m_LastPurchaseErrorCode; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DF4780
         public void SetNativeStore(){} // RVA: 0x7FFD4E3A7E80
@@ -37,6 +45,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class JavaBridge : AndroidJavaProxy
     {
+        public UnityEngine.Purchasing.IUnityCallback forwardTo; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE7DB0
     }

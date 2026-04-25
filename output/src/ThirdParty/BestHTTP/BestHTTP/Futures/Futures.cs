@@ -25,9 +25,14 @@ namespace ThirdParty.BestHTTP.BestHTTP.Futures
 
     public class Future`1 : Object
     {
-        public object state;
-        public object value;
-        public object error;
+        public % state;
+        public T value;
+        public System.Exception error;
+        public System.Func`1<T> _processFunc;
+        public System.Collections.Generic.List`1<BestHTTP.Futures.FutureValueCallback`1<T>> _itemCallbacks;
+        public System.Collections.Generic.List`1<BestHTTP.Futures.FutureValueCallback`1<T>> _successCallbacks;
+        public System.Collections.Generic.List`1<0x66409EF0> _errorCallbacks;
+        public System.Collections.Generic.List`1<BestHTTP.Futures.FutureCallback`1<T>> _complationCallbacks;
 
         // ── Methods ──
         public void get_state(){} // RVA: 0x7FFD4E079960
@@ -54,9 +59,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.Futures
 
     public class IFuture`1
     {
-        public object state;
-        public object value;
-        public object error;
+        public System.Collections.Immutable.SecureObjectPool`2<System.Collections.Generic.Stack`1<System.Collections.Immutable.RefAsValueType`1<Node<T>>>,Enumerator<T>> state;
+        public Builder<T> value;
+        public int error;
 
         // ── Methods ──
         public void get_state(){} // RVA: 0x7FFD4E079960

@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Debug : Object
     {
-        public object unityLogger;
-        public object isDebugBuild;
+        public UnityEngine.ILogger unityLogger;
+        public UnityEngine.ILogger isDebugBuild; // 0x8
 
         // ── Methods ──
         public void get_unityLogger(){} // RVA: 0x7FFD54C7F6D0
@@ -47,7 +47,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class DefaultExecutionOrder : Attribute
     {
-        public object order;
+        public int order; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -56,7 +56,27 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class DetailPrototype : Object
     {
-        public object prototype;
+        public UnityEngine.Color prototype;
+        public UnityEngine.Color DefaultDryColor; // 0x10
+        public UnityEngine.GameObject m_Prototype; // 0x10
+        public UnityEngine.Texture2D m_PrototypeTexture; // 0x18
+        public UnityEngine.Color m_HealthyColor; // 0x20
+        public UnityEngine.Color m_DryColor; // 0x30
+        public float m_MinWidth; // 0x40
+        public float m_MaxWidth; // 0x44
+        public float m_MinHeight; // 0x48
+        public float m_MaxHeight; // 0x4C
+        public int m_NoiseSeed; // 0x50
+        public float m_NoiseSpread; // 0x54
+        public float m_Density; // 0x58
+        public float m_HoleEdgePadding; // 0x5C
+        public int m_RenderMode; // 0x60
+        public int m_UsePrototypeMesh; // 0x64
+        public int m_UseInstancing; // 0x68
+        public int m_UseDensityScaling; // 0x6C
+        public float m_AlignToGround; // 0x70
+        public float m_PositionJitter; // 0x74
+        public float m_TargetCoverage; // 0x78
 
         // ── Methods ──
         public void get_prototype(){} // RVA: 0x7FFD510E4750
@@ -74,12 +94,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Display : Object
     {
-        public object renderingWidth;
-        public object renderingHeight;
-        public object systemWidth;
-        public object systemHeight;
-        public object colorBuffer;
-        public object main;
+        public UIntPtr renderingWidth; // 0x10
+        public UnityEngine.Display[] renderingHeight;
+        public UnityEngine.Display systemWidth; // 0x8
+        public int systemHeight; // 0x10
+        public DisplaysUpdatedDelegate colorBuffer; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F83EFB0 | overloaded x2

@@ -7,6 +7,8 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Serialization
 {
     public class CachedAttributeGetter`1 : Object
     {
+        public Valve.Newtonsoft.Json.Utilities.ThreadSafeStore`2<object,T> TypeAttributeCache;
+
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0x7FFD4E2ADC40
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -14,12 +16,17 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Serialization
 
     public class DefaultContractResolver : Object
     {
-        public object Instance;
-        public object DefaultMembersSearchFlags;
-        public object SerializeCompilerGeneratedMembers;
-        public object IgnoreSerializableInterface;
-        public object IgnoreSerializableAttribute;
-        public object NamingStrategy;
+        public 0x665A6E80 Instance;
+        public 0x665A4908[] DefaultMembersSearchFlags; // 0x8
+        public object SerializeCompilerGeneratedMembers; // 0x10
+        public 0x665A68A8 IgnoreSerializableInterface; // 0x18
+        public 0x665A68A8 IgnoreSerializableAttribute; // 0x10
+        public bool NamingStrategy; // 0x18
+        public 0x66438780 <DefaultMembersSearchFlags>k__BackingField; // 0x1C
+        public bool <SerializeCompilerGeneratedMembers>k__BackingField; // 0x20
+        public bool <IgnoreSerializableInterface>k__BackingField; // 0x21
+        public bool <IgnoreSerializableAttribute>k__BackingField; // 0x22
+        public 0x665A7A88 <NamingStrategy>k__BackingField; // 0x28
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD550F9110
@@ -76,6 +83,10 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Serialization
 
     public class JsonFormatterConverter : Object
     {
+        public 0x665A7820 _reader; // 0x10
+        public 0x665A7400 _contract; // 0x18
+        public 0x665A7560 _member; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD551073D0
         public void GetTokenValue(){} // RVA: 0x7FFD4E2ADC40
@@ -92,8 +103,10 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Serialization
 
     public class JsonTypeReflector : Object
     {
-        public object FullyTrusted;
-        public object ReflectionDelegateFactory;
+        public System.Nullable`1<bool> FullyTrusted;
+        public Valve.Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,System.Func`2<object[],object>> ReflectionDelegateFactory; // 0x8
+        public Valve.Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,System.Type> AssociatedMetadataTypesCache; // 0x10
+        public 0x665A63D8 _metadataTypeAttributeReflectionObject; // 0x18
 
         // ── Methods ──
         public void GetCachedAttribute(){} // RVA: 0x7FFD4E2ADC40

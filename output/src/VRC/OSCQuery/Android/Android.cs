@@ -7,7 +7,23 @@ namespace VRC.OSCQuery.Android
 {
     public class AndroidDiscovery : Object
     {
-        public object MulticastLockStatus;
+        public float MulticastLockStatus; // 0x10
+        public bool stopAcquiringLock; // 0x14
+        public bool _multicastLockStatus; // 0x15
+        public UnityEngine.AndroidJavaObject multicastLock; // 0x18
+        public UnityEngine.AndroidJavaObject discoveryJava; // 0x20
+        public UnityEngine.AndroidJavaObject activityContext; // 0x28
+        public VRC.OSCQuery.Android.JavaBridge javaBridge; // 0x30
+        public bool advertisingReady; // 0x38
+        public System.Action`1<bool> MulticastLockStatusChanged; // 0x40
+        public System.Collections.Generic.Queue`1<string> errors; // 0x48
+        public System.Collections.Generic.HashSet`1<string> _requiredPermissions; // 0x50
+        public string multicastPermission; // 0x58
+        public System.Collections.Generic.HashSet`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> _oscQueryServices; // 0x60
+        public System.Collections.Generic.HashSet`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> _oscServices; // 0x68
+        public System.Collections.Generic.Queue`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> _profilesToAdvertise; // 0x70
+        public System.Action`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> OnOscServiceAdded; // 0x78
+        public System.Action`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> OnOscQueryServiceAdded; // 0x80
 
         // ── Methods ──
         public void getMulticastLock(){} // RVA: 0x7FFD4E554A40
@@ -37,6 +53,8 @@ namespace VRC.OSCQuery.Android
 
     public class JavaBridge : AndroidJavaProxy
     {
+        public System.Action`1<ÎÏÌÍÎÏÌÍÎÍÎÏÎ.ÌÌÍÏÎÎÌÏÌÎ> OnServiceProfileFound; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E557A50
         public void OnJavaServiceInfo(){} // RVA: 0x7FFD4E557AC0

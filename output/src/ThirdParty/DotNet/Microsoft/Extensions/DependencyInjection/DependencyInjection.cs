@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 {
     public class CallSiteJsonFormatter : CallSiteVisitor`2
     {
+        public Microsoft.Extensions.DependencyInjection.CallSiteJsonFormatter Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53744B30
         public void Format(){} // RVA: 0x7FFD53744BE0
@@ -21,6 +23,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class DependencyInjectionEventSource : EventSource
     {
+        public Microsoft.Extensions.DependencyInjection.DependencyInjectionEventSource Log;
+        public System.Collections.Generic.List`1<System.WeakReference`1<Microsoft.Extensions.DependencyInjection.ServiceProvider>> _providers; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53746000
         public void CallSiteBuilt(){} // RVA: 0x7FFD53746920 | overloaded x2
@@ -38,7 +43,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class FromKeyedServicesAttribute : Attribute
     {
-        public object Key;
+        public System.Diagnostics.DiagNode`1<System.Collections.Generic.KeyValuePair`2<string,string>> Key; // 0x10
 
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7FFD4E35C380
@@ -88,9 +93,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceCollection : Object
     {
-        public object Count;
-        public object IsReadOnly;
-        public object Item;
+        public System.Collections.Generic.List`1<Microsoft.Extensions.DependencyInjection.ServiceDescriptor> Count; // 0x10
+        public bool IsReadOnly; // 0x18
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD53740F30
@@ -121,16 +125,12 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceDescriptor : Object
     {
-        public object Lifetime;
-        public object ServiceKey;
-        public object ServiceType;
-        public object ImplementationType;
-        public object KeyedImplementationType;
-        public object ImplementationInstance;
-        public object KeyedImplementationInstance;
-        public object ImplementationFactory;
-        public object KeyedImplementationFactory;
-        public object IsKeyedService;
+        public ÎÌÌÏÍÌÏÌÌÍÌÏÏÎÎÌÎÍÎÌ.ÎÏÎÍÌÌÌÎÌÎ Lifetime; // 0x10
+        public object ServiceKey; // 0x18
+        public System.Type ServiceType; // 0x20
+        public System.Type ImplementationType; // 0x28
+        public object KeyedImplementationType; // 0x30
+        public object ImplementationInstance; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53742050 | overloaded x6
@@ -161,11 +161,15 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceProvider : Object
     {
-        public object CallSiteFactory;
-        public object Root;
-        public object VerifyOpenGenericServiceTrimmability;
-        public object DisableDynamicEngine;
-        public object VerifyAotCompatibility;
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator CallSiteFactory; // 0x10
+        public System.Func`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceAccessor> Root; // 0x18
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine VerifyOpenGenericServiceTrimmability; // 0x20
+        public bool DisableDynamicEngine; // 0x28
+        public System.Collections.Concurrent.ConcurrentDictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceAccessor> VerifyAotCompatibility; // 0x30
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory <CallSiteFactory>k__BackingField; // 0x38
+        public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope <Root>k__BackingField; // 0x40
+        public bool <VerifyOpenGenericServiceTrimmability>k__BackingField;
+        public bool <DisableDynamicEngine>k__BackingField; // 0x1
 
         // ── Methods ──
         public void get_CallSiteFactory(){} // RVA: 0x7FFD4E5F0140
@@ -191,8 +195,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceProviderOptions : Object
     {
-        public object ValidateScopes;
-        public object ValidateOnBuild;
+        public Microsoft.Extensions.DependencyInjection.ServiceProviderOptions ValidateScopes;
+        public bool ValidateOnBuild; // 0x10
+        public bool <ValidateOnBuild>k__BackingField; // 0x11
 
         // ── Methods ──
         public void get_ValidateScopes(){} // RVA: 0x7FFD4E40B5E0

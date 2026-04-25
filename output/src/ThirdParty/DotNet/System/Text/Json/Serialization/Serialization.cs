@@ -7,10 +7,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 {
     public class ConfigurationList`1 : Object
     {
-        public object IsReadOnly;
-        public object Item;
-        public object Count;
-        public object DebuggerDisplay;
+        public System.Collections.Generic.List`1<T> IsReadOnly;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -55,25 +52,14 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter : Object
     {
-        public object Type;
-        public object ConverterStrategy;
-        public object SupportsCreateObjectDelegate;
-        public object CanPopulate;
-        public object CanUseDirectReadOrWrite;
-        public object CanHaveMetadata;
-        public object CanBePolymorphic;
-        public object RequiresReadAhead;
-        public object UsesDefaultHandleNull;
-        public object HandleNullOnRead;
-        public object HandleNullOnWrite;
-        public object SourceConverterForCastingConverter;
-        public object ElementType;
-        public object KeyType;
-        public object IsValueType;
-        public object IsInternalConverter;
-        public object IsInternalConverterForNumberType;
-        public object ConstructorIsParameterized;
-        public object ConstructorInfo;
+        public bool Type; // 0x10
+        public bool ConverterStrategy; // 0x11
+        public bool SupportsCreateObjectDelegate; // 0x12
+        public bool CanPopulate; // 0x13
+        public bool CanUseDirectReadOrWrite; // 0x14
+        public bool CanHaveMetadata; // 0x15
+        public System.Reflection.ConstructorInfo CanBePolymorphic; // 0x18
+        public bool RequiresReadAhead; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5447CE90
@@ -163,10 +149,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
-        public object KeyType;
-        public object ElementType;
-        public object HandleNull;
-        public object Type;
+        public System.Type KeyType; // 0x28
+        public System.Text.Json.Serialization.JsonConverter`1<T> ElementType; // 0x30
 
         // ── Methods ──
         public void ReadCore(){} // RVA: 0x7FFD4E27B230
@@ -223,8 +207,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
-        public object ElementType;
-        public object KeyType;
+        public System.Text.Json.Serialization.JsonConverter`1<V> ElementType; // 0x38
+        public System.Text.Json.Serialization.JsonConverter`1<T> KeyType; // 0x40
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E09B8C0
@@ -271,6 +255,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonStringEnumConverter`1 : JsonConverterFactory
     {
+        public 0x66534B20 _namingPolicy;
+        public 0x6653AF28 _converterOptions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E096500 | overloaded x2
         public void CanConvert(){} // RVA: 0x7FFD4E079F60
@@ -279,8 +266,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ReferenceHandler : Object
     {
-        public object Preserve;
-        public object IgnoreCycles;
+        public 0x66538010 Preserve; // 0x10
+        public System.Text.Json.Serialization.ReferenceHandler IgnoreCycles;
+        public System.Text.Json.Serialization.ReferenceHandler <IgnoreCycles>k__BackingField; // 0x8
 
         // ── Methods ──
         public void get_Preserve(){} // RVA: 0x7FFD5447F2B0

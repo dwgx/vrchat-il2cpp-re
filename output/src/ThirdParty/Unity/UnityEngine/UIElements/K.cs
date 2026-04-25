@@ -7,15 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class KeyboardEventBase`1 : EventBase`1
     {
-        public object modifiers;
-        public object character;
-        public object keyCode;
-        public object shiftKey;
-        public object ctrlKey;
-        public object commandKey;
-        public object altKey;
-        public object functionKey;
-        public object actionKey;
+        public 0x665DF588 modifiers;
+        public char character;
+        public 0x664DD1A8 keyCode;
 
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x7FFD4E079960
@@ -38,6 +32,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class KeyboardTextEditorEventHandler : TextEditorEventHandler
     {
+        public UnityEngine.Event m_ImguiEvent; // 0x20
+        public bool m_Changed; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54F593E0
         public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7FFD54F59530

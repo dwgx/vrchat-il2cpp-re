@@ -19,7 +19,7 @@ namespace VRC.Udon
 
     public class AbstractUdonBehaviourEventProxy : MonoBehaviour
     {
-        public object EventReceiver;
+        public VRC.Udon.UdonBehaviour EventReceiver; // 0x20
 
         // ── Methods ──
         public void get_EventReceiver(){} // RVA: 0x7FFD4E36F0C0
@@ -93,23 +93,46 @@ namespace VRC.Udon
 
     public class UdonBehaviour : AbstractUdonBehaviour
     {
-        public object SyncMethod;
-        public object HasDoneStart;
-        public object HasError;
-        public object SyncIsContinuous;
-        public object SyncIsManual;
-        public object OnInit;
-        public object RequestSerializationHook;
-        public object DisableInteractive;
-        public object IsNetworkingSupported;
-        public object IsInteractive;
-        public object UpdateOrder;
-        public object DisableEventProcessing;
-        public object ProgramId;
-        public object ProgramSize;
-        public object IsInitialized;
-        public object InteractionText;
-        public object SyncMetadataTable;
+        public VRC.Udon.Common.Interfaces.IUdonVariableTable SyncMethod; // 0x40
+        public bool HasDoneStart; // 0x48
+        public bool HasError; // 0x49
+        public bool SyncIsContinuous; // 0x4A
+        public bool SyncIsManual; // 0x4B
+        public 0x665AEE60 OnInit; // 0x4C
+        public VRC.Udon.AbstractSerializedUdonProgramAsset RequestSerializationHook; // 0x50
+        public System.Action`2<VRC.Udon.UdonBehaviour,0x6662FCE0> DisableInteractive;
+        public System.Action`1<VRC.Udon.UdonBehaviour> IsNetworkingSupported; // 0x8
+        public bool IsInteractive; // 0x58
+        public string UpdateOrder;
+        public bool DisableEventProcessing; // 0x59
+        public int ProgramId; // 0x5C
+        public VRC.Udon.UdonManager ProgramSize; // 0x60
+        public 0x6662FCE0 IsInitialized; // 0x68
+        public ÎÏÍÏÏÎÌÌ.Î InteractionText; // 0x70
+        public bool SyncMetadataTable; // 0x78
+        public string _categoryName; // 0x80
+        public bool _hasError; // 0x88
+        public bool _hasDoneStart; // 0x89
+        public bool _initialized; // 0x8A
+        public bool _isNetworkingSupported; // 0x8B
+        public bool _hasInteractiveEvents; // 0x8C
+        public bool _hasUpdateEvent; // 0x8D
+        public bool _hasLateUpdateEvent; // 0x8E
+        public bool _hasFixedUpdateEvent; // 0x8F
+        public bool _hasPostLateUpdateEvent; // 0x90
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<uint>> _eventTable; // 0x98
+        public System.Collections.Generic.Dictionary`2<System.ValueTuple`2<string,string>,string> _symbolNameCache; // 0xA0
+        public Unity.Profiling.ProfilerMarker _managedUpdateProfilerMarker; // 0x10
+        public Unity.Profiling.ProfilerMarker _managedLateUpdateProfilerMarker; // 0x18
+        public Unity.Profiling.ProfilerMarker _managedFixedUpdateProfilerMarker; // 0x20
+        public Unity.Profiling.ProfilerMarker _postLateUpdateProfilerMarker; // 0x28
+        public System.Collections.Generic.SortedDictionary`2<uint,System.ValueTuple`2<uint,uint>> _variableToChangeEvent; // 0xA8
+        public System.Collections.Generic.List`1<VRC.Udon.AbstractUdonBehaviourEventProxy> _eventProxies; // 0xB0
+        public string serializedPublicVariablesBytesString; // 0xB8
+        public System.Collections.Generic.List`1<UnityEngine.Object> publicVariablesUnityEngineObjects; // 0xC0
+        public 0x66583B70 publicVariablesSerializationDataFormat; // 0xC8
+        public Unity.Profiling.ProfilerMarker _preloadUdonProgramProfilerMarker; // 0xD0
+        public Unity.Profiling.ProfilerMarker _initializeUdonContentProfilerMarker; // 0xD8
 
         // ── Methods ──
         public void get_SyncMethod(){} // RVA: 0x7FFD552A96D0
@@ -238,12 +261,16 @@ namespace VRC.Udon
     /// <summary>Originally: ÎÍÌÎÎÏÌÌÏÌÍÏÎÏÎÌÌÌÍÍÌÏÏ</summary>
     public class UdonBehaviourResultBytes_CF3F : Object
     {
-        public object _result;
-        public object _url;
-        public object _errorCode;
-        public object _error;
-        public object _udonBehaviour;
-        public object _resultBytes;
+        public float _result;
+        public int _url;
+        public float _errorCode;
+        public System.Threading.CancellationTokenSource _error; // 0x10
+        public string _udonBehaviour; // 0x18
+        public byte[] _resultBytes; // 0x20
+        public string <ÌÌÌÏÎÎÍÎÎÎÎÌÍÎÌÌÌÏÌÌÌÌÏ>k__BackingField; // 0x28
+        public int <ÏÎÌÏÎÍÍÎÎÎÍÍÍÍÌÌÎÎÎÌÎÎÍ>k__BackingField; // 0x30
+        public VRC.SDKBase.VRCUrl <ÍÌÍÏÌÌÎÎÎÌÏÏÍÍÎÍÍÎÌÌÏÌÎ>k__BackingField; // 0x38
+        public VRC.Udon.Common.Interfaces.IUdonEventReceiver <ÎÌÍÏÎÍÏÌÌÏÎÌÏÏÌÏÏÏÏÎÍÌÍ>k__BackingField; // 0x40
 
         // ── Methods ──
         public void GetSessionId(){} // RVA: 0x7FFD4E5F0140
@@ -273,14 +300,16 @@ namespace VRC.Udon
     /// <summary>Originally: ÍÌÎÍÍÎÍÏÌÍÍÎÎÍÎÌÎÏÌÏÎÌÏ</summary>
     public class UdonDisableEventProcessing_A521 : AbstractUdonBehaviour
     {
-        public object _disableInteractive;
-        public object _syncMethod;
-        public object _disableEventProcessing;
-        public object _syncMetadataTable;
-        public object _interactionText;
-        public object _isNetworkingSupported;
-        public object f_71F;
-        public object f_297;
+        public bool _disableInteractive; // 0x40
+        public bool _syncMethod; // 0x41
+        public bool _disableEventProcessing; // 0x42
+        public string _syncMetadataTable; // 0x48
+        public 0x665AEE60 _interactionText; // 0x50
+        public 0x665C1448[] _isNetworkingSupported; // 0x58
+        public System.Collections.Generic.Dictionary`2<uint,string> f_71F; // 0x60
+        public System.Collections.Generic.Dictionary`2<string,uint> f_297; // 0x68
+        public System.Collections.Generic.Dictionary`2<string,object> ÍÏÎÏÏÏÎÏÍÏÌÏÍÎÍÎÎÏÌÍÏÍÎ; // 0x70
+        public ÌÍÎÍÏÌÌÏÎÎÎÌÎÍÍÍÎÎÌÌÏÍÏ <ÌÌÌÍÎÌÍÍÎÌÎÌÎÌÌÍÏÍÌÌÏÎÌ>k__BackingField; // 0x78
 
         // ── Methods ──
         public void RunEvent(){} // RVA: 0x7FFD4E2ADC40 | overloaded x10
@@ -331,15 +360,71 @@ namespace VRC.Udon
 
     public class UdonManager : MonoBehaviour
     {
-        public object HasLoaded;
-        public object Instance;
-        public object SignatureVerificationFailed;
-        public object SignatureVerificationSuccess;
-        public object SignatureVerificationSkipped;
-        public object WorldSignatureVerificationEnabled;
-        public object IsSceneLoading;
-        public object DebugLogging;
-        public object LightReservedLayerMask;
+        public System.Action`1<0x6662FCE0> HasLoaded;
+        public System.Action Instance; // 0x8
+        public VRC.Udon.UdonBehaviour SignatureVerificationFailed; // 0x20
+        public bool SignatureVerificationSuccess; // 0x28
+        public VRC.Udon.UdonManager SignatureVerificationSkipped; // 0x10
+        public 0x66604A48 WorldSignatureVerificationEnabled; // 0x18
+        public bool IsSceneLoading; // 0x29
+        public bool DebugLogging; // 0x2A
+        public System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>>> LightReservedLayerMask; // 0x30
+        public System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour> _udonBehavioursToRegister; // 0x38
+        public System.Threading.ThreadLocal`1<int> _udonRunProgramDepth; // 0x40
+        public System.Collections.Generic.SortedSet`1<VRC.Udon.UdonBehaviour> _updateUdonBehaviours; // 0x48
+        public System.Collections.Generic.SortedSet`1<VRC.Udon.UdonBehaviour> _lateUpdateUdonBehaviours; // 0x50
+        public System.Collections.Generic.SortedSet`1<VRC.Udon.UdonBehaviour> _fixedUpdateUdonBehaviours; // 0x58
+        public System.Collections.Generic.SortedSet`1<VRC.Udon.UdonBehaviour> _postLateUpdateUdonBehaviours; // 0x60
+        public System.Collections.Generic.Queue`1<System.ValueTuple`2<VRC.Udon.UdonBehaviour,bool>> _updateUdonBehavioursRegistrationQueue; // 0x68
+        public System.Collections.Generic.Queue`1<System.ValueTuple`2<VRC.Udon.UdonBehaviour,bool>> _lateUpdateUdonBehavioursRegistrationQueue; // 0x70
+        public System.Collections.Generic.Queue`1<System.ValueTuple`2<VRC.Udon.UdonBehaviour,bool>> _fixedUpdateUdonBehavioursRegistrationQueue; // 0x78
+        public System.Collections.Generic.Queue`1<System.ValueTuple`2<VRC.Udon.UdonBehaviour,bool>> _postLateUpdateUdonBehavioursRegistrationQueue; // 0x80
+        public PostLateUpdater _postLateUpdater; // 0x88
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.HashSet`1<VRC.Udon.UdonBehaviour>> _inputUdonBehaviours; // 0x90
+        public System.Collections.Generic.Queue`1<System.ValueTuple`3<VRC.Udon.UdonBehaviour,string,bool>> _inputUpdateUdonBehavioursRegistrationQueue; // 0x98
+        public string UDON_EVENT_ONPLAYERRESPAWN;
+        public string UDON_EVENT_ONPLAYERDATAUPDATED;
+        public string UDON_EVENT_ONPLAYERRESTORED;
+        public string UDON_EVENT_ONINSTANCERESTORED;
+        public string UDON_EVENT_ONDESERIALIZATION;
+        public string UDON_EVENT_ONSCREENUPDATE;
+        public int UDON_MAX_RUNPROGRAM_DEPTH;
+        public string UDON_EVENT_ONPOSTSERIALIZATION;
+        public string UDON_EVENT_ONPRESERIALIZATION;
+        public string UDON_EVENT_ONPERSISTENCEUSAGEUPDATED;
+        public string UDON_EVENT_ONPLAYERDATASTORAGEEXCEEDED;
+        public string UDON_EVENT_ONPLAYERDATASTORAGEWARNING;
+        public string UDON_EVENT_ONPLAYEROBJECTSTORAGEEXCEEDED;
+        public string UDON_EVENT_ONPLAYEROBJECTSTORAGEWARNING;
+        public string UDON_EVENT_ONINSTANCESTORAGEEXCEEDED;
+        public string UDON_EVENT_ONINSTANCESTORAGEWARNING;
+        public System.Collections.Generic.HashSet`1<string> _inputActionNames; // 0xA0
+        public string UDON_INPUT_JUMP;
+        public string UDON_INPUT_USE;
+        public string UDON_INPUT_GRAB;
+        public string UDON_INPUT_DROP;
+        public string UDON_MOVE_VERTICAL;
+        public string UDON_MOVE_HORIZONTAL;
+        public string UDON_LOOK_VERTICAL;
+        public string UDON_LOOK_HORIZONTAL;
+        public string UDON_EVENT_ONINPUTMETHODCHANGED;
+        public string UDON_EVENT_ONLANGUAGECHANGED;
+        public string UDON_EVENT_ONVRCPLUSMASSGIFT;
+        public ÍÎÌÎÌÎÍÍÎÌÌÏÍÎÎÎÌÎ _udonTimeSource; // 0xA8
+        public VRC.Udon.Security.Interfaces.IUdonSecurityBlacklist`1<UnityEngine.Object> _blacklist; // 0xB0
+        public VRC.Udon.ClientBindings.Interfaces.IUdonClientInterface _udonClientInterface; // 0xB8
+        public ÎÏÍÏÏÎÌÌ.ÌÍÎÍÌÎÌÎÌÍÏÏÍÎÏ _udonEventScheduler; // 0xC0
+        public int _signatureVerificationFailed; // 0xC8
+        public int _signatureVerificationSuccess; // 0xCC
+        public int _signatureVerificationSkipped; // 0xD0
+        public bool <WorldSignatureVerificationEnabled>k__BackingField; // 0xD4
+        public VerifyKey _signatureVerificationKey; // 0xD8
+        public System.Collections.Concurrent.ConcurrentDictionary`2<VRC.Udon.Security.IUdonSignatureHolder,byte> _verificationCache; // 0xE0
+        public System.Collections.Generic.List`1<VRC.Udon.IUdonTriggerEventConsumer> _triggerEventConsumers; // 0xE8
+        public Unity.Profiling.ProfilerMarker _preloadProfilerMarker; // 0xF0
+        public Unity.Profiling.ProfilerMarker _initializeProfilerMarker; // 0xF8
+        public bool <IsSceneLoading>k__BackingField; // 0x100
+        public System.Collections.Generic.List`1<VRC.Udon.UdonBehaviour> UdonBehavioursInScene; // 0x108
 
         // ── Methods ──
         public void add_OnUdonProgramLoaded(){} // RVA: 0x7FFD552B52E0
@@ -424,39 +509,56 @@ namespace VRC.Udon
     /// <summary>Originally: ÏÌÌÎÍÏÏÍÎÍÌÌÏÏÏÏÎÎÌÏÌÎÌ</summary>
     public class UdonOperationResponseDisconnectMessage_331A : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_112;
-        public object f_D26;
-        public object f_91C;
-        public object f_8F2;
-        public object f_4A9;
-        public object f_5FC;
-        public object f_265;
-        public object f_CAD;
-        public object f_EB2;
-        public object f_C83;
-        public object f_764;
-        public object f_BB8;
-        public object f_FD6;
-        public object f_58F;
-        public object f_005;
-        public object f_849;
-        public object f_3C3;
-        public object f_730;
-        public object f_76D;
-        public object f_986;
-        public object f_A6E;
-        public object f_754;
-        public object f_0E1;
-        public object f_68C;
-        public object f_360;
-        public object f_F78;
-        public object f_F32;
-        public object f_32A;
-        public object f_05E;
-        public object f_0FB;
-        public object f_A39;
+        public Photon.Client.PhotonPeer _name; // 0x10
+        public string _hideFlags; // 0x18
+        public 0x665CA6B8 f_112; // 0x20
+        public int f_D26; // 0x24
+        public int f_91C; // 0x28
+        public Photon.Realtime.AppSettings f_8F2; // 0x30
+        public 0x66377F28 f_4A9; // 0x38
+        public ÍÏÍÎÏÍÍÎÏÌÍÎÌÎÏÏÌÌÌÍÎÎÌ f_5FC; // 0x40
+        public 0x66377F80 f_265; // 0x48
+        public string f_CAD; // 0x50
+        public ÍÎÌÏÌÍÏÍÏÎÌÎÎÌÍÍÌÍÍÏÍÌÏ f_EB2; // 0x58
+        public string f_C83; // 0x60
+        public string f_764; // 0x68
+        public System.Func`3<string,0x66377ED0,string> f_BB8; // 0x70
+        public 0x66377ED0 f_FD6; // 0x78
+        public 0x66377D70 f_58F; // 0x7C
+        public Photon.Realtime.ConnectionHandler f_005; // 0x80
+        public System.Action`2<0x66377D70,0x66377D70> f_849; // 0x88
+        public System.Action`1<Photon.Client.EventData> f_3C3; // 0x90
+        public System.Action`2<bool,object> f_730; // 0x98
+        public System.Action`1<Photon.Client.OperationResponse> f_76D; // 0xA0
+        public ÎÏÌÏÌÍÏÍÎÍÌÌÏÎÍÏÍÌÏÏÎÎÎ f_986; // 0xA8
+        public ÍÏÌÎÏÎÏÎÌÌÌÍÎÏÍÍÎÌÎÍÏÍÌ f_A6E; // 0xB0
+        public ÌÌÍÍÌÎÏÍÏÍÎÍÏÌÏÎÎÏÌÌÍÌÏ f_754; // 0xB8
+        public ÌÎÏÍÎÌÌÍÍÌÍÍÍÎÍÏÍÎÏÏÌÏÌ f_0E1; // 0xC0
+        public ÍÌÏÌÌÏÌÌÏÍÍÌÏÏÌÏÍÎÍÎÏÍÏ f_68C; // 0xC8
+        public 0x66377E78 f_360; // 0xD0
+        public ÍÍÏÎÎÍÌÏÏÎÍÎÎÎÍÍÏÏÌÍÏÍÏ f_F78; // 0xD8
+        public ÎÌÌÍÌÎÍÍÎÏÌÌÍÌÎÎÌÎÌÌÍÎÎ f_F32; // 0xE0
+        public ÎÌÌÍÌÎÍÍÎÏÌÌÍÌÎÎÌÎÌÌÍÎÎ f_32A; // 0xE8
+        public System.Collections.Generic.List`1<ÎÏÏÍÌÌÍÏÏÎÎÏÏÍÎÎÎÌÍÎÎÎÍ> f_05E; // 0xF0
+        public ÏÏÏÍÌÌÍÎÎÍÏÎÍÏÍÎÌÌÌÎÎÌÎ f_0FB; // 0xF8
+        public ÎÎÎÏÌÌÍÏÎÍÎÌÎÌÌÏÌÌÍÌÎÏÏ f_A39; // 0x100
+        public int <ÏÌÏÏÏÎÌÎÍÎÎÍÌÏÏÍÍÏÎÌÍÎÎ>k__BackingField; // 0x108
+        public int <ÎÌÏÌÎÎÎÍÎÍÎÏÎÎÎÎÏÌÏÌÎÏÍ>k__BackingField; // 0x10C
+        public int <ÍÏÌÎÍÎÏÏÌÏÍÌÎÌÏÏÍÏÌÌÏÍÍ>k__BackingField; // 0x110
+        public 0x66377E20 ÌÎÎÍÎÎÎÍÏÍÌÎÌÏÌÍÌÎÏÏÎÏÏ; // 0x114
+        public ÍÍÎÎÎÏÏÏÎÏÌÍÏÍÍÌÏÌÏÍÏÎÎ ÎÍÌÏÍÏÏÏÍÎÌÌÎÎÌÎÌÎÏÎÎÌÍ; // 0x118
+        public Photon.Client.OperationResponse ÏÏÏÍÏÏÏÏÍÎÌÏÏÌÌÌÏÏÏÍÍÎÌ; // 0x120
+        public int ÌÍÎÍÎÍÍÎÏÍÍÎÌÏÌÏÍÎÎÍÍÌÏ;
+        public string[] ÎÍÏÎÌÎÎÍÍÍÏÎÎÍÏÍÎÎÌÏÎÏÏ; // 0x128
+        public string <ÏÍÏÏÏÏÏÌÎÍÏÌÍÍÎÌÎÎÍÏÍÌÌ>k__BackingField; // 0x130
+        public string <ÌÍÎÏÏÎÌÏÍÏÌÎÍÏÏÍÌÍÏÎÍÏÍ>k__BackingField; // 0x138
+        public ÎÏÏÌÏÌÍÏÍÍÎÍÎÌÍÎÌÏÌÌÍÍÍ ÎÏÎÌÎÏÌÌÍÏÏÌÎÏÌÍÌÎÍÌÍÏÏ; // 0x140
+        public System.Collections.Generic.Queue`1<ÎÍÍÎÍÎÏÍÍÏÍÌÌÎÍÍÏÏÌÎÍÎÎ> ÏÏÎÏÏÏÏÌÍÍÏÌÎÌÏÏÎÍÏÏÌÌÌ; // 0x148
+        public System.Collections.Generic.HashSet`1<object> ÎÏÍÌÌÍÏÍÎÏÏÍÌÎÌÎÍÎÎÍÎÏÌ; // 0x150
+        public 0x66379268 ÏÍÎÏÍÎÎÏÎÏÏÍÏÏÌÍÎÎÎÍÌÍÏ; // 0x158
+        public ÌÍÎÌÍÍÏÏÍÌÍÎÌÍÍÌÍÏÏÏÌÍÍ ÏÌÎÌÍÌÍÌÎÏÏÍÌÏÏÎÏÌÏÏÍÍÌ; // 0x160
+        public Photon.Client.Pool`1<Photon.Client.ParameterDictionary> ÌÏÎÌÎÎÍÏÏÌÌÎÍÏÎÍÍÏÎÏÍÎÏ; // 0x168
+        public string ÍÏÎÏÏÌÌÌÍÍÏÌÏÌÎÏÏÍÍÍÎÌÍ;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F9B0AA0
@@ -600,9 +702,11 @@ namespace VRC.Udon
     /// <summary>Originally: ÌÎÌÍÎÏÍÍÍÌÍÏÌÎÌÏÎÌÌÍÍÎÍ</summary>
     public class UdonOperationResponseStatusChanged_6550 : UdonOperationResponseDisconnectMessage_331A
     {
-        public object f_F85;
-        public object f_324;
-        public object f_973;
+        public ÌÎÌÍÎÏÍÍÍÌÍÏÌÎÌÏÎÌÌÍÍÎÍ f_F85;
+        public bool f_324; // 0x170
+        public System.Collections.Generic.Queue`1<Photon.Client.EventData> f_973; // 0x178
+        public Unity.Profiling.ProfilerMarker ÍÎÏÍÌÍÍÎÍÎÍÌÏÍÍÏÎÎÎÎÍÏÎ; // 0x180
+        public System.Collections.Generic.Dictionary`2<int,Unity.Profiling.ProfilerMarker> ÏÌÏÏÍÎÎÏÏÎÍÏÌÏÎÌÍÍÍÍÍÏÎ; // 0x188
 
         // ── Methods ──
         public void set_IsSimulationEnabled(){} // RVA: 0x7FFD4EE048C0
@@ -628,7 +732,12 @@ namespace VRC.Udon
     /// <summary>Originally: ÍÏÍÍÌÍÍÍÍÍÌÎÎÏÎÌÎÍÌÍÏÍÏ</summary>
     public class UdonUnregisterEventHandlerRegisterEventHandl_2C20 : VRC_EventDispatcher
     {
-        public object _2C20;
+        public ÍÏÍÍÌÍÍÍÍÍÌÎÎÏÎÌÎÍÌÍÏÍÏ _2C20;
+        public System.Collections.Generic.HashSet`1<VRC.SDKBase.VRC_EventHandler> ÌÍÌÏÌÏÌÏÍÎÏÍÏÌÎÌÏÏÍÍÎÌÏ; // 0x8
+        public string[] ÍÍÏÍÍÎÎÎÎÍÎÌÎÎÎÌÏÍÏÏÍÍÍ; // 0x10
+        public System.Collections.Generic.HashSet`1<0x665B17A0> ÌÌÍÎÌÎÎÎÎÏÍÏÏÍÏÏÍÎÏÎÍÍÌ; // 0x18
+        public System.Collections.Generic.HashSet`1<0x665B17A0> ÎÎÎÎÍÎÎÎÍÎÎÌÌÌÏÏÎÎÎÎÌÍÏ; // 0x20
+        public System.Collections.Generic.HashSet`1<0x665B17A0> ÍÌÏÍÍÍÍÌÌÌÍÍÍÌÍÏÎÌÎÏÎÍÏ; // 0x28
 
         // ── Methods ──
         public void UpdateHandlerState(){} // RVA: 0x7FFD4F256AA0

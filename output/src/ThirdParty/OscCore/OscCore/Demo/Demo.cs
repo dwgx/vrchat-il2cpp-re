@@ -7,6 +7,16 @@ namespace ThirdParty.OscCore.OscCore.Demo
 {
     public class MonitorToDebugText : MonoBehaviour
     {
+        public int k_LineCount;
+        public int k_LastIndex;
+        public System.Text.StringBuilder k_StringBuilder;
+        public OscCore.OscReceiver Receiver; // 0x20
+        public UnityEngine.TextMesh IpAddressText; // 0x28
+        public UnityEngine.TextMesh RecentValueText; // 0x30
+        public int m_ReplaceLineIndex; // 0x38
+        public bool m_Dirty; // 0x3C
+        public string[] m_ReceivedAsString; // 0x40
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD53DBE690
         public void Update(){} // RVA: 0x7FFD53DBE8F0

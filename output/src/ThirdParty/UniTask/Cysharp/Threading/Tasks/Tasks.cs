@@ -14,7 +14,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncLazy : Object
     {
-        public object Task;
+        public System.Action`1<object> Task;
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask> taskFactory; // 0x10
+        public Cysharp.Threading.Tasks.UniTaskCompletionSource completionSource; // 0x18
+        public Awaiter awaiter; // 0x20
+        public object syncLock; // 0x30
+        public bool initialized; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5489B1B0 | overloaded x2
@@ -28,7 +33,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncLazy`1 : Object
     {
-        public object Task;
+        public System.Action`1<object> Task;
+        public System.Func`1<Cysharp.Threading.Tasks.UniTask`1<T>> taskFactory;
+        public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<T> completionSource;
+        public Awaiter<T> awaiter;
+        public object syncLock;
+        public bool initialized;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -42,7 +52,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncReactiveProperty`1 : Object
     {
-        public object Value;
+        public Cysharp.Threading.Tasks.TriggerEvent`1<T> Value;
+        public T latestValue;
+        public bool isValueType;
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x7FFD4E2ADC40
@@ -59,6 +71,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncUnit : ValueType
     {
+        public Cysharp.Threading.Tasks.AsyncUnit Default;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD4E919180
         public void Equals(){} // RVA: 0x7FFD4E426850
@@ -68,6 +82,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncUnityEventHandler`1 : Object
     {
+        public System.Action`1<object> cancellationCallback;
+        public UnityEngine.Events.UnityAction`1<T> action;
+        public UnityEngine.Events.UnityEvent`1<T> unityEvent;
+        public System.Threading.CancellationToken cancellationToken;
+        public System.Threading.CancellationTokenRegistration registration;
+        public bool isDisposed;
+        public bool callOnce;
+        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<T> core;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void OnInvokeAsync(){} // RVA: 0x7FFD4E2ADC40
@@ -91,8 +114,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AutoResetUniTaskCompletionSource : Object
     {
-        public object NextNode;
-        public object Task;
+        public Cysharp.Threading.Tasks.TaskPool`1<Cysharp.Threading.Tasks.AutoResetUniTaskCompletionSource> NextNode;
+        public Cysharp.Threading.Tasks.AutoResetUniTaskCompletionSource Task; // 0x10
+        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<Cysharp.Threading.Tasks.AsyncUnit> core; // 0x18
+        public short version; // 0x40
 
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0
@@ -115,8 +140,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AutoResetUniTaskCompletionSource`1 : Object
     {
-        public object NextNode;
-        public object Task;
+        public Cysharp.Threading.Tasks.TaskPool`1<Cysharp.Threading.Tasks.AutoResetUniTaskCompletionSource`1<UnityEngine.Networking.UnityWebRequest>> NextNode;
+        public Cysharp.Threading.Tasks.AutoResetUniTaskCompletionSource`1<UnityEngine.Networking.UnityWebRequest> Task; // 0x10
+        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<UnityEngine.Networking.UnityWebRequest> core; // 0x18
+        public short version; // 0x40
 
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x7FFD4E078E90
@@ -140,6 +167,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AwaiterActions : Object
     {
+        public System.Action`1<object> InvokeContinuationDelegate;
+
         // ── Methods ──
         public void Continuation(){} // RVA: 0x7FFD548B5F40
         public void .cctor(){} // RVA: 0x7FFD548B5FB0
@@ -147,6 +176,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class CancellationTokenEqualityComparer : Object
     {
+        public System.Collections.Generic.IEqualityComparer`1<System.Threading.CancellationToken> Default;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD5489BE20
         public void GetHashCode(){} // RVA: 0x7FFD5489BE80
@@ -156,6 +187,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class CancellationTokenExtensions : Object
     {
+        public System.Action`1<object> cancellationTokenCallback;
+        public System.Action`1<object> disposeCallback; // 0x8
+
         // ── Methods ──
         public void ToCancellationToken(){} // RVA: 0x7FFD4E2ADC40 | overloaded x4
         public void ToCancellationTokenCore(){} // RVA: 0x7FFD5489C220
@@ -170,6 +204,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class CancellationTokenSourceExtensions : Object
     {
+        public System.Action`1<object> CancelCancellationTokenSourceStateDelegate;
+
         // ── Methods ──
         public void CancelCancellationTokenSourceState(){} // RVA: 0x7FFD5489D360
         public void CancelAfterSlim(){} // RVA: 0x7FFD5489D5B0 | overloaded x2
@@ -185,7 +221,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class ChannelReader`1 : Object
     {
-        public object Completion;
+        public System.Collections.Generic.IEnumerable`1<Cysharp.Threading.Tasks.UniTask`1<T>> Completion;
 
         // ── Methods ──
         public void TryRead(){} // RVA: 0x7FFD4E079F60
@@ -214,8 +250,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class Channel`2 : Object
     {
-        public object Reader;
-        public object Writer;
+        public Cysharp.Threading.Tasks.ChannelReader`1<T> Reader; // 0x10
+        public Cysharp.Threading.Tasks.ChannelWriter`1<T> Writer; // 0x18
 
         // ── Methods ──
         public void get_Reader(){} // RVA: 0x7FFD4E35C380
@@ -267,7 +303,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class IAsyncReactiveProperty`1
     {
-        public object Value;
+        public int Value;
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x7FFD4E2ADC40
@@ -326,7 +362,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class IReadOnlyAsyncReactiveProperty`1
     {
-        public object Value;
+        public U Value;
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x7FFD4E2ADC40
@@ -354,7 +390,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class ITaskPoolNode`1
     {
-        public object NextNode;
+        public <>c<T> NextNode;
 
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x7FFD4E078E90
@@ -362,8 +398,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class ITriggerHandler`1
     {
-        public object Prev;
-        public object Next;
+        public U Prev;
+        public T Next;
 
         // ── Methods ──
         public void OnNext(){} // RVA: 0x7FFD4E2ADC40
@@ -384,7 +420,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class IUniTaskAsyncEnumerator`1
     {
-        public object Current;
+        public int Current;
 
         // ── Methods ──
         public void get_Current(){} // RVA: 0x7FFD4E2ADC40
@@ -422,6 +458,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class MoveNextSource : Object
     {
+        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<bool> completionSource; // 0x10
+
         // ── Methods ──
         public void GetResult(){} // RVA: 0x7FFD548A05E0
         public void GetStatus(){} // RVA: 0x7FFD548A0630
@@ -434,11 +472,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class PlayerLoopHelper : Object
     {
-        public object UnitySynchronizationContext;
-        public object MainThreadId;
-        public object ApplicationDataPath;
-        public object IsMainThread;
-        public object IsEditorApplicationQuitting;
+        public Cysharp.Threading.Tasks.Internal.ContinuationQueue UnitySynchronizationContext;
+        public Cysharp.Threading.Tasks.Internal.PlayerLoopRunner MainThreadId; // 0x8
+        public int ApplicationDataPath; // 0x10
+        public string IsMainThread; // 0x18
+        public System.Threading.SynchronizationContext IsEditorApplicationQuitting; // 0x20
+        public Cysharp.Threading.Tasks.Internal.ContinuationQueue[] yielders; // 0x28
+        public Cysharp.Threading.Tasks.Internal.PlayerLoopRunner[] runners; // 0x30
+        public bool <IsEditorApplicationQuitting>k__BackingField; // 0x38
 
         // ── Methods ──
         public void get_UnitySynchronizationContext(){} // RVA: 0x7FFD548A0810
@@ -464,6 +505,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class PlayerLoopTimer : Object
     {
+        public System.Threading.CancellationToken cancellationToken; // 0x10
+        public System.Action`1<object> timerCallback; // 0x18
+        public object state; // 0x20
+        public 0x6653D918 playerLoopTiming; // 0x28
+        public bool periodic; // 0x2C
+        public bool isRunning; // 0x2D
+        public bool tryStop; // 0x2E
+        public bool isDisposed; // 0x2F
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD548A4A40
         public void Create(){} // RVA: 0x7FFD548A4B50
@@ -485,7 +535,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class ReadOnlyAsyncReactiveProperty`1 : Object
     {
-        public object Value;
+        public Cysharp.Threading.Tasks.TriggerEvent`1<T> Value;
+        public T latestValue;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
+        public bool isValueType;
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x7FFD4E2ADC40
@@ -502,6 +555,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
+        public System.Collections.Generic.Queue`1<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> items; // 0x20
+        public SingleConsumerUnboundedChannelReader<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> readerSource; // 0x28
+        public Cysharp.Threading.Tasks.UniTaskCompletionSource completedTaskSource; // 0x30
+        public Cysharp.Threading.Tasks.UniTask completedTask; // 0x38
+        public System.Exception completionError; // 0x48
+        public bool closed; // 0x50
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
     }
@@ -514,6 +574,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class SwitchToMainThreadAwaitable : ValueType
     {
+        public 0x6653D918 playerLoopTiming; // 0x10
+        public System.Threading.CancellationToken cancellationToken; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD515124C0
         public void GetAwaiter(){} // RVA: 0x7FFD548B67F0
@@ -527,6 +590,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool : Object
     {
+        public int MaxPoolSize;
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Func`1<int>> sizes; // 0x8
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD548A58B0
         public void SetMaxPoolSize(){} // RVA: 0x7FFD548A5AA0
@@ -536,7 +602,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        public object Size;
+        public int Size; // 0x10
+        public int size; // 0x14
+        public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoid`1<0x664D2938> root; // 0x18
 
         // ── Methods ──
         public void get_Size(){} // RVA: 0x7FFD4F8402A0
@@ -546,6 +614,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskTracker : Object
     {
+        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Cysharp.Threading.Tasks.IUniTaskSource,System.ValueTuple`4<string,int,System.DateTime,string>>> listPool;
+        public Cysharp.Threading.Tasks.Internal.WeakDictionary`2<Cysharp.Threading.Tasks.IUniTaskSource,System.ValueTuple`4<string,int,System.DateTime,string>> tracking; // 0x8
+        public bool dirty; // 0x10
+
         // ── Methods ──
         public void TrackActiveTask(){} // RVA: 0x7FFD4E341310
         public void RemoveTracking(){} // RVA: 0x7FFD4E341310
@@ -585,6 +657,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TimeoutController : Object
     {
+        public System.Action`1<object> CancelCancellationTokenSourceStateDelegate;
+        public System.Threading.CancellationTokenSource timeoutSource; // 0x10
+        public System.Threading.CancellationTokenSource linkedSource; // 0x18
+        public Cysharp.Threading.Tasks.PlayerLoopTimer timer; // 0x20
+        public bool isDisposed; // 0x28
+        public 0x665410C8 delayType; // 0x2C
+        public 0x6653D918 delayTiming; // 0x30
+        public System.Threading.CancellationTokenSource originalLinkCancellationTokenSource; // 0x38
+
         // ── Methods ──
         public void CancelCancellationTokenSourceState(){} // RVA: 0x7FFD548A65E0
         public void .ctor(){} // RVA: 0x7FFD548A6810 | overloaded x2
@@ -597,6 +678,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> head;
+        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> iteratingHead;
+        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x7FFD4E090A40
         public void SetResult(){} // RVA: 0x7FFD4E2ADC40
@@ -609,7 +694,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask : ValueType
     {
-        public object Status;
+        public Cysharp.Threading.Tasks.IUniTaskSource Status; // 0x10
+        public short token; // 0x18
+        public Cysharp.Threading.Tasks.UniTask CanceledUniTask;
+        public Cysharp.Threading.Tasks.UniTask CompletedTask; // 0x10
 
         // ── Methods ──
         public void ToCoroutine(){} // RVA: 0x7FFD548A77A0
@@ -666,6 +754,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCancelableAsyncEnumerable`1 : ValueType
     {
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> enumerable;
+        public System.Threading.CancellationToken cancellationToken;
+
         // ── Methods ──
         public void .ctor(){}
         public void GetAsyncEnumerator(){} // RVA: 0x7FFD4E2ADC40
@@ -673,7 +764,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource : Object
     {
-        public object Task;
+        public System.Threading.CancellationToken Task; // 0x10
+        public 0x66541A68 exception; // 0x18
+        public object gate; // 0x20
+        public System.Action`1<object> singleContinuation; // 0x28
+        public object singleState; // 0x30
+        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Action`1<object>,object>> secondaryContinuationList; // 0x38
+        public int intStatus; // 0x40
+        public bool handled; // 0x44
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -691,6 +789,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSourceCoreShared : Object
     {
+        public System.Action`1<object> s_sentinel;
+
         // ── Methods ──
         public void CompletionSentinel(){} // RVA: 0x7FFD548B7C60
         public void .cctor(){} // RVA: 0x7FFD548B7CB0
@@ -698,7 +798,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public object Version;
+        public System.ValueTuple`3<bool,UnityEngine.Texture2D,0x664D2D00> Version; // 0x10
+        public object error; // 0x28
+        public short version; // 0x30
+        public bool hasUnhandledError; // 0x32
+        public int completedCount; // 0x34
+        public System.Action`1<object> continuation; // 0x38
+        public object continuationState; // 0x40
 
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD521B9730
@@ -717,7 +823,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
-        public object Task;
+        public System.Threading.CancellationToken Task; // 0x10
+        public long result; // 0x18
+        public 0x66541A68 exception; // 0x20
+        public object gate; // 0x28
+        public System.Action`1<object> singleContinuation; // 0x30
+        public object singleState; // 0x38
+        public System.Collections.Generic.List`1<System.ValueTuple`2<System.Action`1<object>,object>> secondaryContinuationList; // 0x40
+        public int intStatus; // 0x48
+        public bool handled; // 0x4C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -765,6 +879,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskScheduler : Object
     {
+        public System.Action`1<System.Exception> UnobservedTaskException;
+        public bool PropagateOperationCanceledException; // 0x8
+        public 0x664D9630 UnobservedExceptionWriteLogType; // 0xC
+        public bool DispatchUnityMainThread; // 0x10
+        public System.Threading.SendOrPostCallback handleExceptionInvoke; // 0x18
+
         // ── Methods ──
         public void add_UnobservedTaskException(){} // RVA: 0x7FFD548E92F0
         public void remove_UnobservedTaskException(){} // RVA: 0x7FFD548E9450
@@ -775,6 +895,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskSynchronizationContext : SynchronizationContext
     {
+        public int MaxArrayLength;
+        public int InitialSize;
+        public System.Threading.SpinLock gate;
+        public bool dequing; // 0x4
+        public int actionListCount; // 0x8
+        public Callback[] actionList; // 0x10
+        public int waitingListCount; // 0x18
+        public Callback[] waitingList; // 0x20
+        public int opCount; // 0x28
+
         // ── Methods ──
         public void Send(){} // RVA: 0x7FFD5107C990
         public void Post(){} // RVA: 0x7FFD548E9B40
@@ -801,7 +931,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
-        public object Status;
+        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ>>> Status; // 0x10
+        public System.ValueTuple`2<bool,System.Collections.Generic.IList`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ>> result; // 0x18
+        public short token; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -846,6 +978,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UnityEventHandlerAsyncEnumerable`1 : Object
     {
+        public UnityEngine.Events.UnityEvent`1<T> unityEvent;
+        public System.Threading.CancellationToken cancellationToken1;
+
         // ── Methods ──
         public void .ctor(){}
         public void GetAsyncEnumerator(){}
@@ -853,13 +988,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UnityWebRequestException : Exception
     {
-        public object UnityWebRequest;
-        public object Result;
-        public object Error;
-        public object Text;
-        public object ResponseCode;
-        public object ResponseHeaders;
-        public object Message;
+        public UnityEngine.Networking.UnityWebRequest UnityWebRequest; // 0x90
+        public 0x6662E268 Result; // 0x98
+        public string Error; // 0xA0
+        public string Text; // 0xA8
+        public long ResponseCode; // 0xB0
+        public System.Collections.Generic.Dictionary`2<string,string> ResponseHeaders; // 0xB8
+        public string Message; // 0xC0
 
         // ── Methods ──
         public void get_UnityWebRequest(){} // RVA: 0x7FFD4E70F640
@@ -874,6 +1009,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class WhenEachEnumerable`1 : Object
     {
+        public System.Collections.Generic.IEnumerable`1<Cysharp.Threading.Tasks.UniTask`1<T>> source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void GetAsyncEnumerator(){}
@@ -881,10 +1018,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class WhenEachResult`1 : ValueType
     {
-        public object Result;
-        public object Exception;
-        public object IsCompletedSuccessfully;
-        public object IsFaulted;
+        public T Result;
+        public System.Exception Exception;
 
         // ── Methods ──
         public void get_Result(){} // RVA: 0x7FFD4E2ADC40
@@ -899,6 +1034,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class YieldAwaitable : ValueType
     {
+        public 0x6653D918 timing; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E78D8B0
         public void GetAwaiter(){} // RVA: 0x7FFD4F840210

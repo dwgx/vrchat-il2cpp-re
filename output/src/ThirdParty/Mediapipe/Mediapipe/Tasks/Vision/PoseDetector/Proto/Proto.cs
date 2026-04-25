@@ -7,16 +7,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseDetector.Proto
 {
     public class PoseDetectorGraphOptions : Object
     {
-        public object Parser;
-        public object Descriptor;
-        public object pb::Google.Protobuf.IMessage.Descriptor;
-        public object BaseOptions;
-        public object MinDetectionConfidence;
-        public object HasMinDetectionConfidence;
-        public object MinSuppressionThreshold;
-        public object HasMinSuppressionThreshold;
-        public object NumPoses;
-        public object HasNumPoses;
+        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.PoseDetector.Proto.PoseDetectorGraphOptions> Parser;
+        public 0x6658E800 Descriptor; // 0x10
+        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public Mediapipe.Tasks.Core.Proto.BaseOptions BaseOptions; // 0x20
+        public float MinDetectionConfidence; // 0x8
+        public float HasMinDetectionConfidence; // 0x28
+        public float MinSuppressionThreshold; // 0xC
+        public float HasMinSuppressionThreshold; // 0x2C
+        public int NumPoses; // 0x10
+        public int HasNumPoses; // 0x30
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53717130

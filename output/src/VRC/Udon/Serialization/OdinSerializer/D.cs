@@ -32,7 +32,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
     public class DefaultLoggers : Object
     {
         public object DefaultLogger;
-        public object UnityLogger;
+        public VRC.Udon.Serialization.OdinSerializer.ILogger UnityLogger; // 0x8
 
         // ── Methods ──
         public void get_DefaultLogger(){} // RVA: 0x7FFD5540A9B0
@@ -42,6 +42,17 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DefaultSerializationBinder : TwoWaySerializationBinder
     {
+        public object ASSEMBLY_LOOKUP_LOCK;
+        public System.Collections.Generic.Dictionary`2<string,System.Reflection.Assembly> assemblyNameLookUp; // 0x8
+        public System.Collections.Generic.Dictionary`2<string,System.Type> customTypeNameToTypeBindings; // 0x10
+        public object TYPETONAME_LOCK; // 0x18
+        public System.Collections.Generic.Dictionary`2<System.Type,string> nameMap; // 0x20
+        public object NAMETOTYPE_LOCK; // 0x28
+        public System.Collections.Generic.Dictionary`2<string,System.Type> typeMap; // 0x30
+        public object ASSEMBLY_REGISTER_QUEUE_LOCK; // 0x38
+        public System.Collections.Generic.List`1<System.Reflection.Assembly> assembliesQueuedForRegister; // 0x40
+        public System.Collections.Generic.List`1<0x6641E420> assemblyLoadEventsQueuedForRegister; // 0x48
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5540AF60
         public void RegisterAllQueuedAssembliesRepeating(){} // RVA: 0x7FFD5540BC30
@@ -69,6 +80,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DelegateFormatter`1 : BaseFormatter`1
     {
+        public System.Type DelegateType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void DeserializeImplementation(){} // RVA: 0x7FFD4E099B30
@@ -78,6 +91,12 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DerivedDictionaryFormatter`3 : BaseFormatter`1
     {
+        public bool KeyIsValueType;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Collections.Generic.IEqualityComparer`1<V>> EqualityComparerSerializer;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<V> KeyReaderWriter;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> ValueReaderWriter;
+        public System.Reflection.ConstructorInfo ComparerConstructor;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -88,13 +107,14 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DeserializationContext : Object
     {
-        public object Binder;
-        public object StringReferenceResolver;
-        public object GuidReferenceResolver;
-        public object IndexReferenceResolver;
-        public object StreamingContext;
-        public object FormatterConverter;
-        public object Config;
+        public VRC.Udon.Serialization.OdinSerializer.SerializationConfig Binder; // 0x10
+        public System.Collections.Generic.Dictionary`2<int,object> StringReferenceResolver; // 0x18
+        public System.Runtime.Serialization.StreamingContext GuidReferenceResolver; // 0x20
+        public System.Runtime.Serialization.IFormatterConverter IndexReferenceResolver; // 0x30
+        public VRC.Udon.Serialization.OdinSerializer.TwoWaySerializationBinder StreamingContext; // 0x38
+        public VRC.Udon.Serialization.OdinSerializer.IExternalStringReferenceResolver FormatterConverter; // 0x40
+        public VRC.Udon.Serialization.OdinSerializer.IExternalGuidReferenceResolver Config; // 0x48
+        public VRC.Udon.Serialization.OdinSerializer.IExternalIndexReferenceResolver <IndexReferenceResolver>k__BackingField; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5540F410 | overloaded x4
@@ -120,6 +140,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DictionaryFormatter`2 : BaseFormatter`1
     {
+        public bool KeyIsValueType;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Collections.Generic.IEqualityComparer`1<U>> EqualityComparerSerializer;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<U> KeyReaderWriter;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> ValueReaderWriter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -130,6 +155,16 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DictionaryKeyUtility : Object
     {
+        public System.Collections.Generic.Dictionary`2<System.Type,bool> GetSupportedDictionaryKeyTypesResults;
+        public System.Collections.Generic.HashSet`1<System.Type> BaseSupportedDictionaryKeyTypes; // 0x8
+        public System.Collections.Generic.HashSet`1<char> AllowedSpecialKeyStrChars; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider> TypeToKeyPathProviders; // 0x18
+        public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider> IDToKeyPathProviders; // 0x20
+        public System.Collections.Generic.Dictionary`2<VRC.Udon.Serialization.OdinSerializer.IDictionaryKeyPathProvider,string> ProviderToID; // 0x28
+        public System.Collections.Generic.Dictionary`2<object,string> ObjectsToTempKeys; // 0x30
+        public System.Collections.Generic.Dictionary`2<string,object> TempKeysToObjects; // 0x38
+        public long tempKeyCounter; // 0x40
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55430D20
         public void LogInvalidKeyPathProvider(){} // RVA: 0x7FFD55432D50
@@ -143,6 +178,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DoubleLookupDictionaryFormatter`3 : BaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<U> PrimaryReaderWriter;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Collections.Generic.Dictionary`2<V,T>> InnerReaderWriter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void .ctor(){} // RVA: 0x7FFD4E090980

@@ -7,28 +7,55 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 {
     public class Socket : Object
     {
-        public object OSSupportsIPv4;
-        public object OSSupportsIPv6;
-        public object Handle;
-        public object AddressFamily;
-        public object SocketType;
-        public object ProtocolType;
-        public object ExclusiveAddressUse;
-        public object ReceiveTimeout;
-        public object SendTimeout;
-        public object DontFragment;
-        public object DualMode;
-        public object IsDualMode;
-        public object InternalSyncObject;
-        public object CleanedUp;
-        public object Available;
-        public object IsBound;
-        public object LocalEndPoint;
-        public object Blocking;
-        public object Connected;
-        public object NoDelay;
-        public object RemoteEndPoint;
-        public object FamilyHint;
+        public System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> OSSupportsIPv4;
+        public System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> OSSupportsIPv6; // 0x8
+        public System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> Handle; // 0x10
+        public TaskSocketAsyncEventArgs`1<System.Net.Sockets.Socket> AddressFamily; // 0x18
+        public 0x664A0320 SocketType; // 0x20
+        public System.Threading.Tasks.Task`1<int> ProtocolType; // 0x28
+        public 0x664A0270 ExclusiveAddressUse; // 0x10
+        public object ReceiveTimeout; // 0x30
+        public bool SendTimeout; // 0x38
+        public bool DontFragment; // 0x39
+        public bool DualMode; // 0x3A
+        public bool IsDualMode; // 0x3B
+        public bool InternalSyncObject; // 0x3C
+        public bool CleanedUp; // 0x3D
+        public int Available;
+        public int IsBound;
+        public string LocalEndPoint;
+        public bool Blocking; // 0x18
+        public bool Connected; // 0x19
+        public bool NoDelay; // 0x1A
+        public int RemoteEndPoint; // 0x1C
+        public 0x664A06E8 FamilyHint; // 0x20
+        public 0x664A0C68 socketType; // 0x24
+        public 0x664A0950 protocolType; // 0x28
+        public 0x664A0E78 m_Handle; // 0x30
+        public 0x6649A968 seed_endpoint; // 0x38
+        public System.Threading.SemaphoreSlim ReadSem; // 0x40
+        public System.Threading.SemaphoreSlim WriteSem; // 0x48
+        public bool is_blocking; // 0x50
+        public bool is_bound; // 0x51
+        public bool is_connected; // 0x52
+        public int m_IntCleanedUp; // 0x54
+        public bool connect_in_progress; // 0x58
+        public int ID; // 0x5C
+        public 0x6641E4D0 AcceptAsyncCallback; // 0x40
+        public 0x6648F758 BeginAcceptCallback; // 0x48
+        public 0x6648F758 BeginAcceptReceiveCallback; // 0x50
+        public 0x6641E4D0 ConnectAsyncCallback; // 0x58
+        public 0x6648F758 BeginConnectCallback; // 0x60
+        public 0x6641E4D0 DisconnectAsyncCallback; // 0x68
+        public 0x6648F758 BeginDisconnectCallback; // 0x70
+        public 0x6641E4D0 ReceiveAsyncCallback; // 0x78
+        public 0x6648F758 BeginReceiveCallback; // 0x80
+        public 0x6648F758 BeginReceiveGenericCallback; // 0x88
+        public 0x6641E4D0 ReceiveFromAsyncCallback; // 0x90
+        public 0x6648F758 BeginReceiveFromCallback; // 0x98
+        public 0x6641E4D0 SendAsyncCallback; // 0xA0
+        public 0x6648F758 BeginSendGenericCallback; // 0xA8
+        public 0x6641E4D0 SendToAsyncCallback; // 0xB0
 
         // ── Methods ──
         public void ConnectAsync(){} // RVA: 0x7FFD54750F60
@@ -166,20 +193,30 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class SocketAsyncEventArgs : EventArgs
     {
-        public object AcceptSocket;
-        public object BytesTransferred;
-        public object LastOperation;
-        public object RemoteEndPoint;
-        public object SendPacketsSendSize;
-        public object SocketError;
-        public object SocketFlags;
-        public object UserToken;
-        public object CurrentSocket;
-        public object Buffer;
-        public object MemoryBuffer;
-        public object Offset;
-        public object Count;
-        public object BufferList;
+        public bool AcceptSocket; // 0x10
+        public int BytesTransferred; // 0x14
+        public 0x6649A968 LastOperation; // 0x18
+        public System.Net.Sockets.Socket RemoteEndPoint; // 0x20
+        public 0x664A0F80 SendPacketsSendSize; // 0x28
+        public System.Exception SocketError; // 0x30
+        public System.Net.Sockets.Socket SocketFlags; // 0x38
+        public int UserToken; // 0x40
+        public bool CurrentSocket; // 0x44
+        public 0x664A0A00 Buffer; // 0x48
+        public 0x664A0798 MemoryBuffer; // 0x50
+        public 0x664A0A58[] Offset; // 0x60
+        public 0x664A0D70 Count; // 0x68
+        public int BufferList; // 0x6C
+        public 0x664A0AB0 <SocketError>k__BackingField; // 0x70
+        public 0x664A0B08 <SocketFlags>k__BackingField; // 0x74
+        public object <UserToken>k__BackingField; // 0x78
+        public System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> Completed; // 0x80
+        public System.Memory`1<byte> _buffer; // 0x88
+        public int _offset; // 0x98
+        public int _count; // 0x9C
+        public bool _bufferIsExplicitArray; // 0xA0
+        public System.Collections.Generic.IList`1<System.ArraySegment`1<byte>> _bufferList; // 0xA8
+        public System.Collections.Generic.List`1<System.ArraySegment`1<byte>> _bufferListInternal; // 0xB0
 
         // ── Methods ──
         public void get_AcceptSocket(){} // RVA: 0x7FFD4E5F0140

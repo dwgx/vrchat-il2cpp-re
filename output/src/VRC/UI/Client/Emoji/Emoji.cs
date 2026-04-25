@@ -7,31 +7,26 @@ namespace VRC.UI.Client.Emoji
 {
     public class EmojiCategoryList : ScriptableObject
     {
+        public System.Collections.Generic.List`1<VRC.UI.Client.Emoji.EmojiDataList> Categories; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
     }
 
     public class EmojiData : ScriptableObject
     {
-        public object ID;
-        public object OwnerID;
-        public object FileId;
-        public object IsBuiltIn;
-        public object DisplayTexture;
-        public object FullResolutionTexture;
-        public object Sprite;
-        public object IsAnimated;
-        public object IsPremium;
-        public object LoadFrom;
-        public object Frames;
-        public object FPS;
-        public object LoopStyle;
-        public object MaskTag;
-        public object AnimationStyle;
-        public object OwnerCanUseAnimatedEmoji;
-        public object EffectBundleID;
-        public object IsSpecialFX;
-        public object SpawnablePrefabName;
+        public string ID; // 0x18
+        public string OwnerID; // 0x20
+        public UnityEngine.Sprite FileId; // 0x28
+        public string IsBuiltIn; // 0x30
+        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> DisplayTexture; // 0x38
+        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> FullResolutionTexture; // 0x40
+        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Sprite> Sprite; // 0x48
+        public string IsAnimated; // 0x50
+        public string IsPremium; // 0x58
+        public string LoadFrom; // 0x60
+        public string Frames; // 0x68
+        public bool FPS; // 0x70
 
         // ── Methods ──
         public void get_IsSpecialFX(){} // RVA: 0x7FFD4E341320
@@ -73,6 +68,10 @@ namespace VRC.UI.Client.Emoji
 
     public class EmojiDataList : ScriptableObject
     {
+        public string Name; // 0x18
+        public UnityEngine.Sprite Icon; // 0x20
+        public System.Collections.Generic.List`1<VRC.UI.Client.Emoji.EmojiData> Data; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
     }

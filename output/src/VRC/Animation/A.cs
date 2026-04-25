@@ -35,8 +35,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÏÍÌÌÍÏÏÎÎÏÏÍÎÎÎÌÍÎÎÎÍ</summary>
     public class AnimatedTextureBaseIImpl_435E : AnimatedTextureBaseImplSibling_D61D
     {
-        public object f_A8B;
-        public object f_11D;
+        public int f_A8B; // 0x20
+        public int f_11D; // 0x24
 
         // ── Methods ──
         public void SetInputSource(){} // RVA: 0x7FFD4F5874D0
@@ -56,14 +56,14 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÍÏÏÎÏÎÏÎÎÍÍÍÏÌÏÏÍÎÌÏÌ</summary>
     public class AnimatedTextureBaseIImpl_7BA6 : AnimatedTextureBaseImplSibling_98A6
     {
-        public object f_837;
-        public object f_925;
-        public object f_7E3;
-        public object f_305;
-        public object f_7D9;
-        public object f_786;
-        public object f_4AF;
-        public object f_813;
+        public 0x664D0F18 f_837; // 0x60
+        public 0x664D0F18 f_925; // 0x64
+        public bool f_7E3; // 0x68
+        public UnityEngine.Vector2 f_305; // 0x6C
+        public UnityEngine.Vector2 f_7D9; // 0x74
+        public float f_786; // 0x7C
+        public 0x664D0FC8 f_4AF; // 0x80
+        public 0x664D1020 f_813; // 0x84
 
         // ── Methods ──
         public void set_YawInput(){} // RVA: 0x7FFD4E36A110
@@ -106,10 +106,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÏÌÏÏÌÌÌÏÏÏÍÎÍÏÌÏÏÏÍÏÍ</summary>
     public class AnimatedTextureBaseImplImpl_1133 : AnimatedTextureBaseImpl_CE19
     {
-        public object f_0A9;
-        public object f_F79;
-        public object f_559;
-        public object f_455;
+        public ÎÌÍÏÎÍÎÎÏÎÌÍÏÌÍÌÎÍÌÌÌÍÏ f_0A9; // 0xB8
 
         // ── Methods ──
         public void CreateAnimatedTextureTask(){} // RVA: 0x7FFD4E990820
@@ -134,10 +131,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÍÍÏÍÎÎÍÎÏÌÌÎÍÎÎÌÌÎÌÍÍ</summary>
     public class AnimatedTextureBaseImplImpl_16C2 : AnimatedTextureBaseImpl_CE19
     {
-        public object f_0A9;
-        public object f_F79;
-        public object f_559;
-        public object f_455;
+        public ÏÌÍÏÎÌÌÌÎÌÌÏÌÍÏÎÏÍÍÌÍÍÏ f_0A9; // 0xB8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E8E11D0
@@ -162,7 +156,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÍÏÎÏÎÏÎÍÎÏÍÌÏÏÍÏÏÏÍÎÏ</summary>
     public class AnimatedTextureBaseImplImpl_5608 : AnimatedTextureBaseImpl_CE19
     {
-        public object _5608;
+        public ÌÏÎÌÍÍÌÌÌÏÏÍÎÎÌÏÎÍÏÍÌÌÎ _5608; // 0xB8
 
         // ── Methods ──
         public void get_PointerPose(){} // RVA: 0x7FFD4E3AC0B0
@@ -180,10 +174,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÎÏÏÌÏÎÍÌÌÍÌÍÎÍÌÌÍÏÌÏÍÎ</summary>
     public class AnimatedTextureBaseImplImpl_7C92 : AnimatedTextureBaseImpl_CE19
     {
-        public object f_0A9;
-        public object f_F79;
-        public object f_559;
-        public object f_455;
+        public string f_0A9;
+        public ÌÍÌÍÍÎÍÏÌÏÏÏÌÏÏÍÎÍÌÍÎÏÎ f_F79; // 0xB8
 
         // ── Methods ──
         public void UpdateVideoTexture(){} // RVA: 0x7FFD4E341320
@@ -208,7 +200,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÌÏÏÌÌÎÏÌÌÌÎÎÎÎÎÏÍÏÎÎÎ</summary>
     public class AnimatedTextureBaseImplImpl_DFBA : AnimatedTextureBaseImpl_CE19
     {
-        public object _dFBA;
+        public ÏÎÌÏÏÍÎÌÍÏÏÌÌÏÏÌÍÌÌÎÎÏÎ _dFBA; // 0xB8
 
         // ── Methods ──
         public void UpdateTexture(){} // RVA: 0x7FFD4E943D00
@@ -229,7 +221,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÏÌÍÌÌÍÍÌÏÎÍÍÏÍÌÎÌÍÎÍÏ</summary>
     public class AnimatedTextureBaseImplRelated_7BEC
     {
-        public object f_E90;
+        public <>c<T> f_E90;
         public object f_5F1;
 
         // ── Methods ──
@@ -252,10 +244,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÌÎÎÍÌÌÏÍÌÌÍÏÎÌÍÌÏÍÍÏÍ</summary>
     public class AnimatedTextureBaseImplSiRelated_C970 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_AE5;
-        public object f_946;
+        public long _name; // 0x10
+        public long _hideFlags; // 0x18
+        public long f_AE5; // 0x20
+        public long f_946; // 0x28
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -278,9 +270,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÎÌÍÏÍÏÏÎÎÍÍÎÌÌÏÎÌÌÎÌÌÍ</summary>
     public class AnimatedTextureBaseImplSiRelated_F8B1 : ValueType
     {
-        public object f_4B1;
-        public object f_F5C;
-        public object f_318;
+        public ÎÍÌÏÏÌÎÍÎÍÌÎÎÍÍÏÎÎÍÏÍÌÍ f_4B1; // 0x10
+        public int f_F5C; // 0x14
+        public byte[] f_318; // 0x18
 
         // ── Methods ──
         public void ToHashCode(){} // RVA: 0x7FFD4F840210
@@ -307,24 +299,23 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÏÎÍÍÍÌÌÌÍÎÎÏÏÌÌÎÍÍÎÎÌ</summary>
     public class AnimatedTextureBaseImplSiblingSibling_4A34 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_E3D;
-        public object f_93F;
-        public object f_03F;
-        public object f_A0E;
-        public object f_439;
-        public object f_AF7;
-        public object f_AD2;
-        public object f_8D9;
-        public object f_CD5;
-        public object f_505;
-        public object f_8F7;
-        public object f_84F;
-        public object f_24D;
-        public object f_1EF;
-        public object f_F6B;
-        public object f_7D1;
+        public 0x664CA7A0 _name; // 0x10
+        public string _hideFlags; // 0x18
+        public string f_E3D; // 0x20
+        public string f_93F; // 0x28
+        public bool f_03F; // 0x30
+        public int f_A0E; // 0x34
+        public string f_439; // 0x38
+        public object f_AF7; // 0x40
+        public UnityEngine.Vector2 f_AD2; // 0x48
+        public float f_8D9; // 0x50
+        public bool f_CD5; // 0x54
+        public UnityEngine.Texture2D f_505; // 0x58
+        public UnityEngine.Texture2D f_8F7; // 0x60
+        public UnityEngine.Texture2D f_84F; // 0x68
+        public int f_24D; // 0x70
+        public 0x664CA7F8 f_1EF; // 0x74
+        public ÎÍÎÏÌÍÍÌÏÍÏÌÏÌÏÌÍÌÏÍÌÍÍ f_F6B; // 0x78
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4FCB9F50
@@ -376,8 +367,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÍÏÍÌÏÍÏÍÎÎÍÍÎÏÌÌÎÍÏÎÎÏ</summary>
     public class AnimatedTextureBaseImplSiblingSibling_4C3C : LifecycleComponent_38FD
     {
-        public object f_B11;
-        public object f_606;
+        public bool f_B11; // 0x48
 
         // ── Methods ──
         public void get_hidden(){} // RVA: 0x7FFD4E3F8D30
@@ -397,10 +387,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÏÎÎÌÎÏÌÍÍÏÏÌÏÌÍÎÎÌÍÍÏ</summary>
     public class AnimatedTextureBaseImplSiblingSibling_5B53
     {
-        public object f_E70;
-        public object f_C13;
-        public object f_60C;
-        public object f_4DD;
+        public int f_E70;
+        public System.Collections.Generic.KeyValuePair`2<string,object> f_C13;
+        public LogValues`3<U,V,T> f_60C;
+        public int f_4DD;
         public object f_E2F;
         public object f_825;
         public object f_17E;
@@ -428,10 +418,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÍÏÍÌÌÌÌÌÎÌÏÍÌÏÌÏÎÌÍÎÏ</summary>
     public class AnimatedTextureBaseImplSiblingSibling_86B8 : ValueType
     {
-        public object f_B11;
-        public object f_E2A;
-        public object f_A78;
-        public object f_1C1;
+        public bool f_B11; // 0x10
+        public bool f_E2A; // 0x11
+        public ÎÍÏÏÏÏÍÍÏÍÎÏÏÌÏÏÎÌÏÍÏÎÍ<System.Collections.Generic.List`1<ÍÌÌÍÎÎÎÍÎÎÍÍÏÎÎÍÏÎÏÏÍÏÎ>> f_A78; // 0x18
+        public ÍÌÌÍÎÎÎÍÎÎÍÍÏÎÎÍÏÎÏÏÍÏÎ f_1C1; // 0x20
 
         // ── Methods ──
         public void IsValid(){} // RVA: 0x7FFD4FD7DDF0
@@ -451,15 +441,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÎÌÍÍÎÏÎÍÏÍÌÌÎÏÏÍÏÌÌÌÏÍ</summary>
     public class AnimatedTextureBaseImplSiblingSibling_A6ED : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_790;
-        public object f_D7A;
-        public object f_1AA;
-        public object f_7D2;
-        public object f_840;
-        public object f_498;
-        public object f_531;
+        public k _name; // 0x10
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<UnityEngine.Texture2D> _hideFlags; // 0x18
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E3447C0
@@ -485,10 +468,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÏÌÌÎÎÎÌÍÏÍÎÍÌÌÏÌÌÏÏÎÍ</summary>
     public class AnimatedTextureBaseImplSiblingSibling_E497 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_DB6;
-        public object f_4B5;
+        public string _name; // 0x10
+        public VRC.Localization.LocalizableString _hideFlags; // 0x18
+        public ÌÍÎÏÌÍÏÌÏÌÌÏÏÌÍÏÍÎÍÍÌÏÌ f_DB6; // 0x40
+        public ÏÏÏÏÎÎÌÍÎÌÌÍÏÎÏÍÍÏÎÍÌÎÎ f_4B5; // 0x48
 
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4E342E30
@@ -614,10 +597,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÍÌÎÏÎÏÍÌÌÎÍÏÏÌÏÍÎÍÍÎÌÌ</summary>
     public class AnimatedTextureBaseImplSibling_09F1
     {
-        public object f_C13;
-        public object f_D29;
-        public object f_C7C;
-        public object f_506;
+        public int f_C13;
+        public System.Collections.Generic.KeyValuePair`2<string,object> f_D29;
+        public LogValues`3<U,V,T> f_C7C;
+        public int f_506;
 
         // ── Methods ──
         public void ResetAnimatedTexture(){} // RVA: 0x7FFD4E0788A0
@@ -629,47 +612,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ</summary>
     public class AnimatedTextureBaseImplSibling_0D84
     {
-        public object f_7D3;
-        public object f_C47;
-        public object f_4BA;
-        public object f_439;
-        public object f_C13;
-        public object f_C4D;
-        public object f_5B4;
-        public object f_5F1;
-        public object f_462;
-        public object f_05E;
-        public object f_21A;
-        public object f_FCF;
-        public object f_234;
-        public object f_9A8;
-        public object f_6C6;
-        public object f_9BB;
-        public object f_742;
-        public object f_9E6;
-        public object f_A23;
-        public object f_603;
-        public object f_3CF;
-        public object f_049;
-        public object f_7AC;
-        public object f_162;
-        public object f_4EF;
-        public object f_F78;
-        public object f_B0E;
-        public object f_368;
-        public object f_C24;
-        public object f_EB3;
-        public object f_95B;
-        public object f_E90;
-        public object f_33B;
-        public object f_617;
-        public object f_34D;
-        public object f_38B;
-        public object f_80A;
-        public object f_6F2;
-        public object f_793;
-        public object f_4BC;
-        public object f_247;
+        public System.Action`1<System.Collections.Generic.Dictionary`2<0x664CD3A0,bool>> f_7D3;
 
         // ── Methods ──
         public void GetLast(){} // RVA: 0x7FFD4E078E90
@@ -737,7 +680,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÎÌÎÏÍÍÎÍÏÎÏÏÎÎÎÍÎÌÍÏÏ</summary>
     public class AnimatedTextureBaseImplSibling_0DBA
     {
-        public object f_E70;
+        public <>c<T> f_E70;
         public object f_3E7;
         public object f_3E1;
         public object f_7E9;
@@ -752,17 +695,17 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÌÎÍÎÌÌÍÎÎÎÎÌÏÍÏÌÎÌÌÎÌ</summary>
     public class AnimatedTextureBaseImplSibling_1267 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_21A;
-        public object f_421;
-        public object f_49D;
-        public object f_F5C;
-        public object f_8F7;
-        public object f_F0E;
-        public object f_D2D;
-        public object f_AF7;
-        public object f_AE6;
+        public string _name; // 0x10
+        public string _hideFlags; // 0x18
+        public ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ f_21A; // 0x20
+        public string f_421; // 0x28
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ f_49D; // 0x30
+        public System.DateTime f_F5C; // 0x38
+        public UnityEngine.Texture2D f_8F7; // 0x40
+        public 0x664CDCE8 f_F0E; // 0x48
+        public byte[] f_D2D; // 0x50
+        public ÍÏÏÌÌÏÌÏÌÍÏÏÎÏÎÌÍÏÌÌÍÏÏ f_AF7; // 0x58
+        public bool f_AE6; // 0x60
 
         // ── Methods ──
         public void SetCurrentSocket(){} // RVA: 0x7FFD4E36F0D0
@@ -800,7 +743,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÎÍÌÌÏÏÏÎÏÏÍÌÎÍÍÌÌÎÏÎÏ</summary>
     public class AnimatedTextureBaseImplSibling_1763
     {
-        public object f_7D3;
+        public <>c<T> f_7D3;
         public object f_D90;
         public object f_A27;
         public object f_D19;
@@ -847,8 +790,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÌÍÍÌÍÎÎÍÏÏÍÍÎÌÏÏÎÍÍÎÌ</summary>
     public class AnimatedTextureBaseImplSibling_197E : PhotonConnectionHandlerSiblingSibling_B6DC
     {
-        public object f_E90;
-        public object f_5F1;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_E90; // 0x30
+        public string f_5F1; // 0x38
 
         // ── Methods ──
         public void GetPlatform(){} // RVA: 0x7FFD4E5F95E0
@@ -865,19 +808,16 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÌÏÎÎÌÍÎÎÏÏÎÌÌÎÏÏÎÎÎÎÍ</summary>
     public class AnimatedTextureBaseImplSibling_1B80 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_9F6;
-        public object f_786;
-        public object f_3E4;
-        public object f_BD0;
-        public object f_1AA;
-        public object f_DBC;
-        public object f_6F0;
-        public object f_C75;
-        public object f_CF2;
-        public object f_D20;
-        public object f_C0D;
+        public string _name; // 0x10
+        public string _hideFlags; // 0x18
+        public string f_9F6; // 0x20
+        public System.DateTime f_786; // 0x28
+        public VRC.Localization.LocalizableString f_3E4; // 0x30
+        public int f_BD0; // 0x58
+        public int f_1AA; // 0x5C
+        public string f_DBC; // 0x60
+        public string f_6F0; // 0x68
+        public 0x664D6400 f_C75; // 0x70
 
         // ── Methods ──
         public void GetTargets(){} // RVA: 0x7FFD4E3DF370
@@ -914,7 +854,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÎÌÌÌÎÏÌÌÌÍÌÏÌÌÍÏÏÍÏÎÍ</summary>
     public class AnimatedTextureBaseImplSibling_20A8
     {
-        public object f_E70;
+        public <>c<T> f_E70;
         public object f_C13;
         public object f_193;
         public object f_5B4;
@@ -949,10 +889,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÌÏÏÏÏÍÍÏÏÍÎÍÎÍÎÎÏÎÌÌÍ</summary>
     public class AnimatedTextureBaseImplSibling_2503
     {
-        public object f_E70;
-        public object f_1B7;
-        public object f_840;
-        public object f_C0D;
+        public int f_E70;
+        public System.Collections.Generic.KeyValuePair`2<string,object> f_1B7;
+        public LogValues`3<U,V,T> f_840;
+        public int f_C0D;
         public object f_5B8;
         public object f_BAB;
         public object f_E1E;
@@ -1018,10 +958,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÌÍÏÏÎÏÎÍÍÌÏÌÎÏÎÍÍÍÏÌÏÎ</summary>
     public class AnimatedTextureBaseImplSibling_36DA
     {
-        public object f_E70;
-        public object f_C0D;
-        public object f_840;
-        public object f_CF2;
+        public int f_E70;
+        public System.Collections.Generic.KeyValuePair`2<string,object> f_C0D;
+        public LogValues`3<U,V,T> f_840;
+        public int f_CF2;
         public object f_D20;
         public object f_9F6;
         public object f_BD0;
@@ -1274,12 +1214,11 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÌÌÌÍÏÎÎÍÌÎÎÍÍÌÎÎÍÎÏÌÌ</summary>
     public class AnimatedTextureBaseImplSibling_4F7C : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_E57;
-        public object f_17D;
-        public object f_CD8;
-        public object f_7E9;
+        public VRC.Core.ApiProp _name; // 0x10
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> _hideFlags; // 0x18
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_E57; // 0x20
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<ÏÌÌÌÎÍÌÏÎÌÌÏÎÍÌÏÎÎÍÎÌÍÌ> f_17D; // 0x28
+        public ÏÌÍÍÍÌÏÎÏÍÏÎÌÍÌÍÌÍÎÎÎÌÍ f_CD8; // 0x30
 
         // ── Methods ──
         public void GetPlatform(){} // RVA: 0x7FFD4E5F95E0
@@ -1482,6 +1421,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÍÌÎÎÏÌÏÌÎÍÍÌÎÎÌÎÎÌÏÎÌÍ</summary>
     public class AnimatedTextureBaseImplSibling_6C09 : Object
     {
+        public string[] ÌÍÎÏÌÎÌÎÌÌÎÍÌÌÌÍÎÏÍÌÏÎÌ; // 0x10
+        public bool ÎÎÍÏÎÌÌÏÍÌÎÌÌÎÍÌÍÌÍÍÍÏÍ; // 0x18
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E8D4280
         public void Equals(){} // RVA: 0x7FFD4E8D4430
@@ -1582,7 +1524,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÌÍÏÏÍÏÎÏÏÎÎÏÏÌÏÏÌÏÎÌÎ</summary>
     public class AnimatedTextureBaseImplSibling_8464
     {
-        public object f_E70;
+        public <>c<T> f_E70;
         public object f_C13;
         public object f_840;
         public object f_C46;
@@ -1674,7 +1616,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÌÌÌÍÏÏÍÏÌÏÌÏÌÌÏÎÎÌÎÍÎ</summary>
     public class AnimatedTextureBaseImplSibling_873E
     {
-        public object f_088;
+        public <>c<T> f_088;
         public object f_A14;
         public object f_4C4;
         public object f_88F;
@@ -1689,13 +1631,13 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÎÍÏÎÎÌÏÍÌÏÌÏÏÍÎÌÌÏÌÎÏÌ</summary>
     public class AnimatedTextureBaseImplSibling_98A6 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_F0D;
-        public object f_AAF;
-        public object f_650;
-        public object f_CFA;
-        public object f_51E;
+        public string _name; // 0x10
+        public VRC.Localization.LocalizableString _hideFlags; // 0x18
+        public float f_F0D; // 0x40
+        public float f_AAF; // 0x44
+        public System.Func`2<float,bool> f_650; // 0x48
+        public System.Func`2<float,bool> f_CFA; // 0x50
+        public float f_51E; // 0x58
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FAF4BC0
@@ -1730,10 +1672,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÎÍÌÌÍÏÏÌÏÌÎÏÏÌÏÌÍÌÏÍÍ</summary>
     public class AnimatedTextureBaseImplSibling_A723
     {
-        public object f_C13;
-        public object f_3E4;
-        public object f_BAB;
-        public object f_8C0;
+        public int f_C13;
+        public System.Collections.Generic.KeyValuePair`2<string,object> f_3E4;
+        public LogValues`3<U,V,T> f_BAB;
+        public int f_8C0;
         public object f_042;
         public object f_590;
         public object f_29D;
@@ -1875,19 +1817,16 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÍÎÌÎÌÍÏÏÎÍÌÌÍÌÏÍÏÏÌÎÎÏ</summary>
     public class AnimatedTextureBaseImplSibling_BD37 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_825;
-        public object f_60C;
-        public object f_5F3;
-        public object f_39F;
-        public object f_17E;
-        public object f_748;
-        public object f_4DD;
-        public object f_E2F;
-        public object f_82D;
-        public object f_630;
-        public object f_07F;
+        public string _name;
+        public Discord.Sdk.UserHandle _hideFlags; // 0x10
+        public string f_825; // 0x18
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_60C; // 0x20
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_5F3; // 0x28
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_39F; // 0x30
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_17E; // 0x38
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_748; // 0x40
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_4DD; // 0x48
+        public 0x664D6400 f_E2F; // 0x50
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E8DD180
@@ -2317,11 +2256,11 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÏÎÍÍÌÌÎÌÏÎÍÎÌÍÏÎÏÍÏÏÎ</summary>
     public class AnimatedTextureBaseImplSibling_C8B4 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_45C;
-        public object f_920;
-        public object f_363;
+        public VRC.Localization.LocalizableString _name; // 0x10
+        public ÏÏÏÏÎÎÌÍÎÌÌÍÏÎÏÍÍÏÎÍÌÎÎ _hideFlags; // 0x38
+        public ÌÍÌÏÏÌÎÌÎÌÌÌÍÏÌÎÎÍÌÎÏÍÏ f_45C; // 0x40
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÏÎÍÎÍÌÎÎÏÏÍÏÌÌÎÏÎÌÌÏÌÍÌ>> f_920; // 0x48
+        public string f_363; // 0x50
 
         // ── Methods ──
         public void GetBufferedTimes(){} // RVA: 0x7FFD4E3BE740
@@ -2346,15 +2285,15 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÌÌÎÏÏÎÎÍÎÌÏÌÍÏÌÍÍÎÌÍÏÍ</summary>
     public class AnimatedTextureBaseImplSibling_D354 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_E40;
-        public object f_B44;
-        public object f_C67;
-        public object f_41F;
-        public object f_681;
-        public object f_F3D;
-        public object f_1F6;
+        public string _name; // 0x10
+        public string _hideFlags; // 0x18
+        public string f_E40; // 0x20
+        public string f_B44; // 0x28
+        public string f_C67; // 0x30
+        public int f_41F; // 0x38
+        public string f_681; // 0x40
+        public int f_F3D; // 0x48
+        public int f_1F6; // 0x4C
 
         // ── Methods ──
         public void GetLanguage(){} // RVA: 0x7FFD4E36F130
@@ -2402,10 +2341,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÌÍÌÎÍÍÎÏÌÌÍÌÎÎÌÎÌÌÍÎÎ</summary>
     public class AnimatedTextureBaseImplSibling_D61D : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_7B5;
-        public object f_F79;
+        public string _name; // 0x10
+        public 0x66378450 _hideFlags; // 0x18
+        public ÎÌÌÍÌÎÍÍÎÏÌÌÍÌÎÎÌÎÌÌÍÎÎ f_7B5;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F99CCA0
@@ -2428,7 +2366,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÎÏÏÍÏÌÎÌÏÎÎÎÍÍÏÌÍÏÎÏÏ</summary>
     public class AnimatedTextureBaseImplSibling_DAE7
     {
-        public object f_B23;
+        public <>c<T> f_B23;
         public object f_E7E;
         public object f_8D9;
 
@@ -2441,18 +2379,17 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÌÌÍÍÎÎÏÌÏÏÏÌÍÌÎÏÎÎÎÏÍ</summary>
     public class AnimatedTextureBaseImplSibling_DCF3 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_1AA;
-        public object f_BD0;
-        public object f_786;
-        public object f_640;
-        public object f_EF4;
-        public object f_DBC;
-        public object f_57A;
-        public object f_D04;
-        public object f_3D9;
-        public object f_09B;
+        public string _name; // 0x10
+        public string _hideFlags; // 0x18
+        public int f_1AA; // 0x20
+        public System.DateTime f_BD0; // 0x28
+        public int f_786; // 0x30
+        public VRC.Localization.LocalizableString f_640; // 0x38
+        public int f_EF4; // 0x60
+        public string f_DBC; // 0x68
+        public string f_57A; // 0x70
+        public string f_D04; // 0x78
+        public string f_3D9; // 0x80
 
         // ── Methods ──
         public void InitPayloadEncryption(){} // RVA: 0x7FFD4E8F4AA0
@@ -2549,7 +2486,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÎÍÍÍÎÍÍÌÍÍÌÍÌÍÎÏÏÏÌÍÌ</summary>
     public class AnimatedTextureBaseImplSibling_EB01 : Object
     {
-        public object _eB01;
+        public ÏÏÎÍÍÏÎÌÌÎÎÍÍÍÏÏÎÌÍÎÎÍÍ _eB01; // 0x10
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E35C380
@@ -2571,7 +2508,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÍÌÍÏÍÍÎÍÌÍÎÎÎÌÏÌÍÎÎÏÎÌ</summary>
     public class AnimatedTextureBaseImplSibling_EFE7
     {
-        public object f_9FC;
+        public <>c<T> f_9FC;
         public object f_F70;
         public object f_C13;
         public object f_840;
@@ -2598,22 +2535,22 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÎÎÍÍÍÍÏÍÍÏÎÏÍÏÏÏÏÏÏÏÎ</summary>
     public class AnimatedTextureBaseImplSibling_F815 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_AEA;
-        public object f_489;
-        public object f_5EA;
-        public object f_2B3;
-        public object f_39D;
-        public object f_551;
-        public object f_934;
-        public object f_064;
-        public object f_7BD;
-        public object f_01A;
-        public object f_8D6;
-        public object f_6CF;
-        public object f_18E;
-        public object f_2FB;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> _name; // 0x10
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> _hideFlags; // 0x18
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_AEA; // 0x20
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_489; // 0x28
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_5EA; // 0x30
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_2B3; // 0x38
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_39D; // 0x40
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_551; // 0x48
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_934; // 0x50
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_064; // 0x58
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_7BD; // 0x60
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_01A; // 0x68
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_8D6; // 0x70
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_6CF; // 0x78
+        public string f_18E; // 0x80
+        public System.Collections.Generic.List`1<string> f_2FB; // 0x88
 
         // ── Methods ──
         public void GetPlatform(){} // RVA: 0x7FFD4E5F95E0
@@ -2647,11 +2584,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÎÍÏÌÎÌÌÌÏÎÍÎÌÏÍÏÌÍÍÏÏ</summary>
     public class AnimatedTextureBaseImpl_007D : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_C13;
-        public object f_3E7;
-        public object f_3E1;
-        public object f_7E9;
+        public ÎÍÌÌÍÍÌÏÍÌÍÌÌÎÍÍÌÎÌÍÏÍÏ f_E70; // 0x20
+        public ÌÌÍÏÏÎÎÏÎÍÍÌÍÌÍÏÌÎÏÏÍÏÏ f_C13; // 0x28
+        public ÍÍÎÍÍÍÎÍÍÌÍÍÌÍÌÍÎÏÏÏÌÍÌ f_3E7; // 0x30
 
         // ── Methods ──
         public void Update(){} // RVA: 0x7FFD4E8DE3B0
@@ -2676,17 +2611,12 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÏÍÌÌÎÌÎÌÍÎÍÍÎÎÎÌÏÎÎÏÌ</summary>
     public class AnimatedTextureBaseImpl_0161 : AnimatedTextureBase_F53F
     {
-        public object f_C13;
-        public object f_3E4;
-        public object f_BAB;
-        public object f_2B5;
-        public object f_8C0;
-        public object f_AB4;
-        public object f_590;
-        public object f_29D;
-        public object f_BD0;
-        public object f_999;
-        public object f_042;
+        public VRC.Localization.LocalizableString f_C13; // 0x20
+        public 0x664CCCC0 f_3E4; // 0x48
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.IList> f_BAB; // 0x50
+        public System.Collections.IList f_2B5; // 0x58
+        public ÌÍÏÍÎÏÌÎÌÎÏÎÍÌÌÏÏÌÍÌÍÍÎ f_8C0; // 0x60
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_AB4; // 0x68
 
         // ── Methods ──
         public void GetStatus(){} // RVA: 0x7FFD4E3E20C0
@@ -2737,112 +2667,81 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÍÌÎÏÎÏÌÏÌÎÏÌÍÎÌÌÏÍÌÏÏÎ</summary>
     public class AnimatedTextureBaseImpl_0682 : AnimatedTextureBase_F53F
     {
-        public object f_3A0;
-        public object f_E70;
-        public object f_C13;
-        public object f_A09;
-        public object f_7ED;
-        public object f_837;
-        public object f_6E9;
-        public object f_D06;
-        public object f_45B;
-        public object f_E71;
-        public object f_60C;
-        public object f_A5D;
-        public object f_BD8;
-        public object f_825;
-        public object f_EC0;
-        public object f_7A5;
-        public object f_5CA;
-        public object f_A07;
-        public object f_B63;
-        public object f_3D5;
-        public object f_508;
-        public object f_A6B;
-        public object f_17E;
-        public object f_748;
-        public object f_BA0;
-        public object f_4DD;
-        public object f_865;
-        public object f_E2F;
-        public object f_82D;
-        public object f_630;
-        public object f_232;
-        public object f_933;
-        public object f_0AF;
-        public object f_C60;
-        public object f_789;
-        public object f_C47;
-        public object f_F88;
-        public object f_EEC;
-        public object f_0A3;
-        public object f_5F3;
-        public object f_39F;
-        public object f_EB9;
-        public object f_049;
-        public object f_07F;
-        public object f_126;
-        public object f_EBB;
-        public object f_8F7;
-        public object f_BC4;
-        public object f_6C7;
-        public object f_4A7;
-        public object f_DFB;
-        public object f_3E6;
-        public object f_F13;
-        public object f_88C;
-        public object f_B75;
-        public object f_1B7;
-        public object f_65E;
-        public object f_DB3;
-        public object f_DF3;
-        public object f_ADD;
-        public object f_EB3;
-        public object f_D20;
-        public object f_F7E;
-        public object f_233;
-        public object f_ABA;
-        public object f_200;
-        public object f_7E9;
-        public object f_2DA;
-        public object f_732;
-        public object f_A03;
-        public object f_65E;
-        public object f_46E;
-        public object f_DC5;
-        public object f_4E0;
-        public object f_5C8;
-        public object f_976;
-        public object f_01A;
-        public object f_756;
-        public object f_C70;
-        public object f_525;
-        public object f_9DB;
-        public object f_8A9;
-        public object f_9D5;
-        public object f_CF7;
-        public object f_7E4;
-        public object f_823;
-        public object f_F27;
-        public object f_9C6;
-        public object f_918;
-        public object f_4AC;
-        public object f_5E6;
-        public object f_721;
-        public object f_468;
-        public object f_730;
-        public object f_1C7;
-        public object f_3B6;
-        public object f_4F8;
-        public object f_DBA;
-        public object f_0F5;
-        public object f_785;
-        public object f_909;
-        public object f_B2E;
-        public object f_52D;
-        public object f_1F2;
-        public object f_288;
-        public object f_BA0;
+        public ÌÍÏÍÌÌÏÌÍÌÏÌÎÍÏÍÍÏÌÍÍÏÌ f_3A0; // 0x20
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<VRC.Core.ApiWorldInstance> f_E70; // 0x28
+        public string f_C13;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_A09; // 0x30
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_7ED; // 0x38
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_837; // 0x40
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_6E9; // 0x48
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_D06; // 0x50
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_45B; // 0x58
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_E71; // 0x60
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_60C; // 0x68
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_A5D; // 0x70
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_BD8; // 0x78
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_825; // 0x80
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_EC0; // 0x88
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_7A5; // 0x90
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_5CA; // 0x98
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<float> f_A07; // 0xA0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_B63; // 0xA8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_3D5; // 0xB0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_508; // 0xB8
+        public UnityEngine.Color f_A6B;
+        public UnityEngine.Color f_17E; // 0x10
+        public UnityEngine.Color f_748; // 0x20
+        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Texture2D> f_BA0; // 0xC0
+        public 0x664D6400 f_4DD; // 0xC8
+        public 0x664D6400 f_865; // 0xD0
+        public 0x664D6400 f_E2F; // 0xD8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_82D; // 0xE0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_630; // 0xE8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_232; // 0xF0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_933; // 0xF8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_0AF; // 0x100
+        public bool f_C60; // 0x108
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_789; // 0x110
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ> f_C47; // 0x118
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ> f_F88; // 0x120
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_EEC; // 0x128
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_0A3; // 0x130
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_5F3; // 0x138
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_39F; // 0x140
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_EB9; // 0x148
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_049; // 0x150
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_07F; // 0x158
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_126; // 0x160
+        public 0x66616690 f_EBB; // 0x168
+        public 0x66616690 f_8F7; // 0x170
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x665B2B90> f_BC4; // 0x178
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<0x665B2B90> f_6C7; // 0x180
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_4A7; // 0x188
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_DFB; // 0x190
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_3E6; // 0x198
+        public 0x66616690 f_F13; // 0x1A0
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> f_88C; // 0x1A8
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<bool> f_B75; // 0x1B0
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<bool> f_1B7; // 0x1B8
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<bool> f_65E; // 0x1C0
+        public string f_DB3; // 0x1C8
+        public string f_DF3; // 0x1D0
+        public string f_ADD; // 0x1D8
+        public string f_EB3; // 0x1E0
+        public 0x664D6400 f_D20; // 0x1E8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<string>> f_F7E; // 0x1F0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÍÌÍÏÍÍÎÍÌÍÎÎÎÌÏÌÍÎÎÏÎÌ>> f_233; // 0x1F8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<string>> f_ABA; // 0x200
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_200; // 0x208
+        public int f_7E9;
+        public System.Threading.SemaphoreSlim f_2DA; // 0x30
+        public int f_732;
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<ÌÏÌÍÍÌÍÏÏÍÎÍÌÏÎÏÏÌÍÍÏÍÌ> f_A03; // 0x210
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ>> f_65E; // 0x218
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÌÎÌÏÍÌÎÌÎÌÎÎÏÏÍÌÌÎÎÌÏÌÎ>> f_46E; // 0x220
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<ÌÍÏÍÍÎÎÍÍÌÏÎÍÎÍÌÏÎÌÌÌÏÌ> f_DC5; // 0x228
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÏÌÍÎÏÌÌÏÏÌÏÏÌÎÌÏÍÌÎÏÍÌÎ>> f_4E0; // 0x230
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.List`1<ÍÌÎÌÌÌÎÏÌÌÌÍÌÏÌÌÍÏÏÍÏÎÍ>> f_5C8; // 0x238
 
         // ── Methods ──
         public void LinkConnectedBody(){} // RVA: 0x7FFD4E341310
@@ -3102,9 +3001,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÍÌÎÌÍÍÏÎÏÎÌÍÏÌÍÌÌÏÎÍÌ</summary>
     public class AnimatedTextureBaseImpl_0C1B : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_C13;
-        public object f_3E7;
+        public ÍÍÎÍÍÍÎÍÍÌÍÍÌÍÌÍÎÏÏÏÌÍÌ f_E70; // 0x20
+        public ÍÏÏÌÍÏÎÏÏÎÏÌÍÎÌÍÏÏÎÏÎÏÍ f_C13; // 0x28
 
         // ── Methods ──
         public void Initialize_ctrlKeyboardf15(){} // RVA: 0x7FFD4E7288E0
@@ -3126,26 +3024,14 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÎÎÌÏÍÏÌÏÌÌÎÍÏÏÎÌÍÍÌÎÎ</summary>
     public class AnimatedTextureBaseImpl_2356 : AnimatedTextureBase_F53F
     {
-        public object f_7D3;
-        public object f_D90;
-        public object f_A27;
-        public object f_D19;
-        public object f_64E;
-        public object f_C74;
-        public object f_2FB;
-        public object f_D54;
-        public object f_33E;
-        public object f_F48;
-        public object f_AB3;
-        public object f_B7C;
-        public object f_ABE;
-        public object f_DD2;
-        public object f_5D3;
-        public object f_7AF;
-        public object f_E24;
-        public object f_67B;
-        public object f_C28;
-        public object f_322;
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<UnityEngine.Texture2D> f_7D3; // 0x20
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<UnityEngine.Texture2D> f_D90; // 0x28
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<UnityEngine.Texture2D> f_A27; // 0x30
+        public System.Collections.Generic.List`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ> f_D19; // 0x38
+        public ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ f_64E; // 0x40
+        public bool f_C74; // 0x48
+        public string f_2FB; // 0x50
+        public 0x665C2E68 f_D54; // 0x58
 
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4E9178E0
@@ -3229,17 +3115,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÍÏÌÏÌÌÎÍÏÏÎÏÎÎÏÎÎÎÎÏÌ</summary>
     public class AnimatedTextureBaseImpl_3187 : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_47A;
-        public object f_C13;
-        public object f_840;
-        public object f_067;
-        public object f_C6F;
-        public object f_2FB;
-        public object f_489;
-        public object f_2B3;
-        public object f_C2F;
-        public object f_13D;
+        public ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ f_E70; // 0x20
 
         // ── Methods ──
         public void get_EffectBundleID(){} // RVA: 0x7FFD4E8CEA10
@@ -3267,7 +3143,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÌÍÍÏÏÌÎÍÍÏÏÍÌÌÏÎÎÎÎÌÎÏ</summary>
     public class AnimatedTextureBaseImpl_49C1 : AnimatedTextureBase_F53F
     {
-        public object _49C1;
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.Generic.List`1<UnityEngine.Object>> _49C1; // 0x20
 
         // ── Methods ──
         public void CreateManagedTextureHandle(){} // RVA: 0x7FFD4E36F0C0
@@ -3305,23 +3181,14 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÍÏÏÎÍÎÎÍÌÏÌÎÌÏÍÏÏÍÏÎÏÎ</summary>
     public class AnimatedTextureBaseImpl_792A : AnimatedTextureBase_F53F
     {
-        public object f_D29;
-        public object f_C7A;
-        public object f_E70;
-        public object f_C13;
-        public object f_A27;
-        public object f_3DB;
-        public object f_612;
-        public object f_0AB;
-        public object f_2FB;
-        public object f_6F5;
-        public object f_A23;
-        public object f_3D8;
-        public object f_FD1;
-        public object f_C6F;
-        public object f_160;
-        public object f_673;
-        public object f_0B1;
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<UnityEngine.Texture2D> f_D29; // 0x20
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<UnityEngine.Texture2D> f_C7A; // 0x28
+        public System.Collections.Generic.List`1<ÎÏÎÎÎÎÏÏÍÍÏÎÌÍÎÎÎÍÍÏÏÏÏ> f_E70; // 0x30
+        public System.Collections.Generic.List`1<ÎÏÎÎÎÎÏÏÍÍÏÎÌÍÎÎÎÍÍÏÏÏÏ> f_C13; // 0x38
+        public System.Collections.Generic.List`1<string> f_A27; // 0x40
+        public ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ f_3DB; // 0x48
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> f_612; // 0x50
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ f_0AB; // 0x58
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F7D0230
@@ -3366,22 +3233,13 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÏÍÏÎÍÎÌÎÍÌÍÌÍÎÎÎÏÎÌÏÌÏ</summary>
     public class AnimatedTextureBaseImpl_79B4 : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_5B4;
-        public object f_C13;
-        public object f_C6A;
-        public object f_BB4;
-        public object f_3CB;
-        public object f_56C;
-        public object f_6F4;
-        public object f_FB0;
-        public object f_685;
-        public object f_A11;
-        public object f_BFE;
-        public object f_7BD;
-        public object f_434;
-        public object f_5F9;
-        public object f_F79;
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<VRC.Localization.LocalizableString> f_E70; // 0x20
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<UnityEngine.Color> f_5B4; // 0x28
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<UnityEngine.Color> f_C13; // 0x30
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<UnityEngine.Color> f_C6A; // 0x38
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<UnityEngine.Color> f_BB4; // 0x40
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<UnityEngine.Color> f_3CB; // 0x48
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<UnityEngine.Color> f_56C; // 0x50
 
         // ── Methods ──
         public void GetBufferedTimes(){} // RVA: 0x7FFD4E3BE740
@@ -3416,12 +3274,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÌÍÎÍÍÌÏÍÏÏÏÌÍÏÍÍÍÍÍÍÍ</summary>
     public class AnimatedTextureBaseImpl_7FF3 : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_9CE;
-        public object f_779;
-        public object f_F79;
-        public object f_5F7;
-        public object f_728;
+        public 0x664D6400 f_E70; // 0x20
 
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4E8C7EF0
@@ -3446,46 +3299,28 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÎÏÍÎÍÎÎÍÎÍÏÍÍÏÎÍÎÎÌÍÍÏ</summary>
     public class AnimatedTextureBaseImpl_8F61 : AnimatedTextureBase_F53F
     {
-        public object f_3A0;
-        public object f_7DA;
-        public object f_E70;
-        public object f_C13;
-        public object f_24E;
-        public object f_193;
-        public object f_840;
-        public object f_F83;
-        public object f_6A3;
-        public object f_16B;
-        public object f_739;
-        public object f_A27;
-        public object f_8FE;
-        public object f_6F1;
-        public object f_DD5;
-        public object f_FA4;
-        public object f_C7A;
-        public object f_D29;
-        public object f_A36;
-        public object f_287;
-        public object f_A96;
-        public object f_8B4;
-        public object f_612;
-        public object f_416;
-        public object f_2FB;
-        public object f_136;
-        public object f_71D;
-        public object f_A7D;
-        public object f_B05;
-        public object f_CA3;
-        public object f_5F6;
-        public object f_234;
-        public object f_AC0;
-        public object f_4F8;
-        public object f_F48;
-        public object f_12A;
-        public object f_DE2;
-        public object f_A36;
-        public object f_FFD;
-        public object f_1F3;
+        public ÎÏÌÎÍÏÌÏÎÏÌÍÏÌÍÌÏÌÍÌÏÏÏ f_3A0; // 0x20
+        public 0x664D6400 f_7DA; // 0x28
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<UnityEngine.Texture2D> f_E70; // 0x30
+        public 0x664D6400 f_C13; // 0x38
+        public 0x664D6400 f_24E; // 0x40
+        public 0x664D6400 f_193; // 0x48
+        public bool f_840; // 0x50
+        public System.Collections.Generic.List`1<ÎÏÎÎÎÎÏÏÍÍÏÎÌÍÎÎÎÍÍÏÏÏÏ> f_F83; // 0x58
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.Generic.List`1<ÌÏÌÍÏÏÍÏÎÏÏÎÎÏÏÌÏÏÌÏÎÌÎ>> f_6A3; // 0x60
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÌÏÎÎÏÌÏÏÍÎÌÌÌÍÏÎÍÎÍÌÎÍÌ> f_16B; // 0x68
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.Generic.List`1<ÍÌÌÍÎÎÎÍÎÎÍÍÏÎÎÍÏÎÏÏÍÏÎ>> f_739; // 0x70
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.Generic.List`1<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ>> f_A27; // 0x78
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÍÍÎÌÏÍÍÌÌÍÎÍÌÎÏÎÎÌÌÎÍÎÌ> f_8FE; // 0x80
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<VRC.Core.APIGroupMemberList> f_6F1; // 0x88
+        public int f_DD5; // 0x90
+        public ÌÎÍÏÎÏÍÏÍÌÍÍÏÏÎÎÎÌÌÌÏÌÏ f_FA4; // 0x98
+        public System.Collections.Generic.List`1<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> f_C7A; // 0xA0
+        public System.Collections.Generic.List`1<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> f_D29; // 0xA8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<string> f_A36; // 0xB0
+        public int f_287;
+        public System.Action f_A96; // 0xB8
+        public System.Collections.Generic.Dictionary`2<string,VRC.Core.ApiFile> f_8B4; // 0xC0
 
         // ── Methods ──
         public void MarkTargetReady(){} // RVA: 0x7FFD4E8F2690
@@ -3573,90 +3408,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÌÎÎÏÍÍÌÎÍÌÍÎÏÏÏÏÎÍÏÎÍÌ</summary>
     public class AnimatedTextureBaseImpl_937F : AnimatedTextureBase_F53F
     {
-        public object f_247;
-        public object f_0C8;
-        public object f_F59;
-        public object f_E70;
-        public object f_125;
-        public object f_BD2;
-        public object f_7D3;
-        public object f_5F1;
-        public object f_C47;
-        public object f_4BA;
-        public object f_439;
-        public object f_C13;
-        public object f_C4D;
-        public object f_5B4;
-        public object f_462;
-        public object f_B11;
-        public object f_05E;
-        public object f_21A;
-        public object f_815;
-        public object f_C4C;
-        public object f_9A8;
-        public object f_6C6;
-        public object f_840;
-        public object f_9BB;
-        public object f_742;
-        public object f_9E6;
-        public object f_A23;
-        public object f_603;
-        public object f_3CF;
-        public object f_049;
-        public object f_7AC;
-        public object f_162;
-        public object f_4EF;
-        public object f_F78;
-        public object f_EB3;
-        public object f_95B;
-        public object f_E90;
-        public object f_C0D;
-        public object f_9CE;
-        public object f_3E8;
-        public object f_49D;
-        public object f_BE3;
-        public object f_FCF;
-        public object f_234;
-        public object f_31E;
-        public object f_668;
-        public object f_617;
-        public object f_34D;
-        public object f_38B;
-        public object f_80A;
-        public object f_6F2;
-        public object f_793;
-        public object f_4BC;
-        public object f_E0F;
-        public object f_7A7;
-        public object f_421;
-        public object f_0A3;
-        public object f_484;
-        public object f_B8B;
-        public object f_E57;
-        public object f_406;
-        public object f_63F;
-        public object f_FFD;
-        public object f_5D3;
-        public object f_F66;
-        public object f_5EC;
-        public object f_AFF;
-        public object f_30B;
-        public object f_F48;
-        public object f_B0E;
-        public object f_368;
-        public object f_C24;
-        public object f_4F8;
-        public object f_89B;
-        public object f_2FB;
-        public object f_C74;
-        public object f_32F;
-        public object f_701;
-        public object f_6E4;
-        public object f_F83;
-        public object f_B7B;
-        public object f_B85;
-        public object f_2BB;
-        public object f_33B;
+        public ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ f_247; // 0x20
+        public ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ f_0C8; // 0x28
+        public System.Action`1<System.Collections.Generic.Dictionary`2<0x664CD3A0,bool>> f_F59; // 0x30
 
         // ── Methods ──
         public void StopAllCoroutines(){} // RVA: 0x7FFD4EE78F50
@@ -3784,21 +3538,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÍÍÍÏÏÏÎÎÏÍÎÌÍÌÍÍÎÏÍÍÌ</summary>
     public class AnimatedTextureBaseImpl_9667 : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_C13;
-        public object f_217;
-        public object f_2FB;
-        public object f_C74;
-        public object f_0C8;
-        public object f_F59;
-        public object f_4F8;
-        public object f_7F9;
-        public object f_037;
-        public object f_6AA;
-        public object f_B11;
-        public object f_47B;
-        public object f_C0D;
-        public object f_AAE;
+        public 0x664D6400 f_E70; // 0x20
 
         // ── Methods ──
         public void ProcessKeyboardInput(){} // RVA: 0x7FFD4E943400
@@ -3832,49 +3572,15 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÎÎÌÌÎÍÏÏÍÍÎÎÏÌÎÍÍÎÌÍÍ</summary>
     public class AnimatedTextureBaseImpl_9C79 : AnimatedTextureBase_F53F
     {
-        public object f_247;
-        public object f_603;
-        public object f_049;
-        public object f_3CF;
-        public object f_7AC;
-        public object f_162;
-        public object f_4EF;
-        public object f_F78;
-        public object f_B0E;
-        public object f_EB3;
-        public object f_7D3;
-        public object f_5F1;
-        public object f_C47;
-        public object f_4BA;
-        public object f_439;
-        public object f_C13;
-        public object f_C4D;
-        public object f_05E;
-        public object f_21A;
-        public object f_FCF;
-        public object f_234;
-        public object f_6C6;
-        public object f_9BB;
-        public object f_368;
-        public object f_C24;
-        public object f_742;
-        public object f_9E6;
-        public object f_A23;
-        public object f_99E;
-        public object f_9A8;
-        public object f_95B;
-        public object f_E90;
-        public object f_617;
-        public object f_34D;
-        public object f_38B;
-        public object f_80A;
-        public object f_5B4;
-        public object f_462;
-        public object f_6F2;
-        public object f_793;
-        public object f_80C;
-        public object f_4BC;
-        public object f_33B;
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<object> f_247; // 0x20
+        public ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ f_603; // 0x28
+        public int f_049; // 0x30
+        public 0x664D6400 f_3CF; // 0x38
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.IList> f_7AC; // 0x40
+        public bool f_162; // 0x48
+        public System.Collections.Generic.List`1<object> f_4EF; // 0x50
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÌÎÏÍÌÏÏÍÏÌÌÍÏÌÍÏÍÍÌÏÍÍÏ> f_F78; // 0x58
+        public bool f_B0E; // 0x60
 
         // ── Methods ──
         public void DoAddIfNotPresent(){} // RVA: 0x7FFD4E99AD40
@@ -3980,8 +3686,9 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÍÏÍÌÌÏÌÍÌÏÌÎÍÏÍÍÏÌÍÍÏÌ</summary>
     public class AnimatedTextureBaseImpl_A0FB : AnimatedTextureBase_F53F
     {
-        public object f_8CE;
-        public object f_50A;
+        public int f_8CE;
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<System.Collections.Generic.List`1<ÌÍÌÏÏÌÏÍÌÏÏÎÌÎÎÌÎÎÏÏÎÍÌ>> f_50A; // 0x20
+        public System.Collections.Generic.List`1<ÏÏÍÌÍÎÏÎÌÌÌÎÌÎÏÍÌÌÌÏÎÌÌ> ÏÏÍÍÌÌÏÏÏÏÍÏÍÎÌÏÏÎÍÌÎÍÍ; // 0x28
 
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E9AEF10
@@ -4048,29 +3755,11 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÎÏÌÌÍÌÏÏÌÍÌÌÍÎÌÌÍÌÍÏÏ</summary>
     public class AnimatedTextureBaseImpl_CA24 : AnimatedTextureBase_F53F
     {
-        public object f_8F7;
-        public object f_95B;
-        public object f_E70;
-        public object f_3C5;
-        public object f_40D;
-        public object f_BA0;
-        public object f_BD9;
-        public object f_49D;
-        public object f_21A;
-        public object f_421;
-        public object f_F5C;
-        public object f_7DA;
-        public object f_B37;
-        public object f_835;
-        public object f_2FB;
-        public object f_728;
-        public object f_237;
-        public object f_B96;
-        public object f_DF7;
-        public object f_6BE;
-        public object f_5A8;
-        public object f_3D3;
-        public object f_9DA;
+        public 0x664D6400 f_8F7; // 0x20
+        public 0x664D6400 f_95B; // 0x28
+        public ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ f_E70; // 0x30
+        public ÎÏÏÍÍÍÏÎÎÏÎÎÎÎÍÌÎÌÍÍÌÏÏ f_3C5; // 0x38
+        public bool f_40D; // 0x40
 
         // ── Methods ──
         public void UpdateTexture(){} // RVA: 0x7FFD4E93EEE0
@@ -4124,49 +3813,17 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÍÌÏÌÎÌÎÏÏÏÏÎÏÍÏÍÌÍÍÎÌ</summary>
     public class AnimatedTextureBaseImpl_CE19 : AnimatedTextureBase_F53F
     {
-        public object f_BAD;
-        public object f_E70;
-        public object f_C13;
-        public object f_840;
-        public object f_9CE;
-        public object f_EA3;
-        public object f_9DF;
-        public object f_DB7;
-        public object f_5FC;
-        public object f_E2C;
-        public object f_675;
-        public object f_A31;
-        public object f_ED8;
-        public object f_55F;
-        public object f_172;
-        public object f_D1E;
-        public object f_A26;
-        public object f_AF4;
-        public object f_491;
-        public object f_7A4;
-        public object f_088;
-        public object f_A14;
-        public object f_4C4;
-        public object f_88F;
-        public object f_BF0;
-        public object f_A80;
-        public object f_FCF;
-        public object f_876;
-        public object f_3CC;
-        public object f_0C4;
-        public object f_0B7;
-        public object f_A2D;
-        public object f_464;
-        public object f_D41;
-        public object f_122;
-        public object f_2A5;
-        public object f_F9F;
-        public object f_AAF;
-        public object f_78A;
-        public object f_CCA;
-        public object f_4F8;
-        public object f_0D4;
-        public object f_AAE;
+        public 0x664D6400 f_BAD; // 0x20
+        public ÍÍÌÎÏÍÍÏÏÏÎÏÍÍÌÌÎÍÌÍÍÍÏ<UnityEngine.Sprite> f_E70; // 0x28
+        public VRC.Localization.LocalizableString f_C13; // 0x30
+        public VRC.Localization.LocalizableString f_840; // 0x58
+        public bool f_9CE; // 0x80
+        public string f_EA3; // 0x88
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> f_9DF; // 0x90
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÍÎÏÎÌÌÌÎÍÏÎÌÏÎÍÏÌÏÏÌÎÍÌ> f_DB7; // 0x98
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_5FC; // 0xA0
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<int> f_E2C; // 0xA8
+        public System.Action f_675; // 0xB0
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4F9EA6C0
@@ -4239,12 +3896,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÎÌÍÍÌÌÌÏÏÍÎÎÌÏÎÍÏÍÌÌÎ</summary>
     public class AnimatedTextureBaseImpl_DA57 : AnimatedTextureBase_F53F
     {
-        public object f_5DE;
-        public object f_9C7;
-        public object f_E4D;
-        public object f_12F;
-        public object f_632;
-        public object f_CF7;
+        public string f_5DE; // 0x20
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<ÌÏÎÏÏÍÏÌÎÌÏÎÎÎÍÍÏÌÍÏÎÏÏ> f_9C7; // 0x28
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<System.Collections.Generic.IList`1<ÎÏÌÏÏÎÍÏÍÌÏÏÍÌÏÌÍÎÍÌÌÏÌ>> f_E4D; // 0x30
+        public bool f_12F; // 0x38
 
         // ── Methods ──
         public void FormatDbNullValue(){} // RVA: 0x7FFD4F9E7EA0
@@ -4273,43 +3928,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÎÎÍÏÌÎÏÏÌÌÏÌÌÏÎÏÌÌÌÌÍÏ</summary>
     public class AnimatedTextureBaseImpl_DFC3 : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_47B;
-        public object f_3E4;
-        public object f_324;
-        public object f_528;
-        public object f_12F;
-        public object f_E6E;
-        public object f_D2B;
-        public object f_C0D;
-        public object f_B34;
-        public object f_1B7;
-        public object f_4B1;
-        public object f_9BD;
-        public object f_D80;
-        public object f_145;
-        public object f_9B0;
-        public object f_EC9;
-        public object f_B2B;
-        public object f_26E;
-        public object f_E8E;
-        public object f_14C;
-        public object f_C06;
-        public object f_2FB;
-        public object f_A16;
-        public object f_5B8;
-        public object f_F9F;
-        public object f_E2C;
-        public object f_71E;
-        public object f_0D1;
-        public object f_70A;
-        public object f_785;
-        public object f_D05;
-        public object f_B66;
-        public object f_CA1;
-        public object f_9B9;
-        public object f_395;
-        public object f_8F3;
+        public 0x664D6400 f_E70; // 0x20
+        public 0x664D6400 f_47B; // 0x28
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_3E4; // 0x30
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> f_324; // 0x38
 
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x7FFD4E92F810
@@ -4381,15 +4003,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÏÎÏÌÌÍÍÌÍÌÎÎÏÍÍÌÍÍÍÌÎÌ</summary>
     public class AnimatedTextureBaseImpl_E09B : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_C13;
-        public object f_6CB;
-        public object f_C0D;
-        public object f_B34;
-        public object f_539;
-        public object f_728;
-        public object f_45B;
-        public object f_65B;
+        public 0x664D6400 f_E70; // 0x20
+        public 0x664D6400 f_C13; // 0x28
 
         // ── Methods ──
         public void Play(){} // RVA: 0x7FFD4E919140
@@ -4418,18 +4033,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÏÍÍÎÌÍÍÌÍÌÍÏÏÍÏÏÍÏÏÍÎ</summary>
     public class AnimatedTextureBaseImpl_ED23 : AnimatedTextureBase_F53F
     {
-        public object f_0DA;
-        public object f_438;
-        public object f_389;
-        public object f_8DF;
-        public object f_2CA;
-        public object f_7DD;
-        public object f_59E;
-        public object f_EBF;
-        public object f_379;
-        public object f_B73;
-        public object f_B34;
-        public object f_C0D;
+        public System.Collections.Generic.List`1<ÎÏÎÎÎÎÏÏÍÍÏÎÌÍÎÎÎÍÍÏÏÏÏ> f_0DA; // 0x20
+        public 0x664D6400 f_438; // 0x28
+        public 0x664D6400 f_389; // 0x30
+        public ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ f_8DF; // 0x38
 
         // ── Methods ──
         public void GetPlatform(){} // RVA: 0x7FFD4E5F95E0
@@ -4482,15 +4089,10 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÎÏÌÍÍÏÍÏÍÍÌÎÌÎÎÎÏÍÌÌÍÏ</summary>
     public class AnimatedTextureBaseImpl_F5DC : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_C13;
-        public object f_C0D;
-        public object f_B34;
-        public object f_728;
-        public object f_539;
-        public object f_6CB;
-        public object f_C6F;
-        public object f_D28;
+        public 0x664D6400 f_E70; // 0x20
+        public 0x664D6400 f_C13; // 0x28
+        public ÎÍÍÌÏÍÏÏÎÍÍÎÎÏÏÍÌÏÍÎÎÌÏ f_C0D; // 0x30
+        public ÌÏÌÍÏÏÍÏÎÏÏÎÎÏÏÌÏÏÌÏÎÌÎ f_B34; // 0x38
 
         // ── Methods ──
         public void Contains(){} // RVA: 0x7FFD4E341310
@@ -4526,16 +4128,12 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÌÌÍÌÍÍÌÌÌÍÎÎÎÌÍÌÏÏÎÌÏÏ</summary>
     public class AnimatedTextureBaseImpl_F6C5 : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_D15;
-        public object f_1B7;
-        public object f_840;
-        public object f_C0D;
-        public object f_5B8;
-        public object f_BAB;
-        public object f_E1E;
-        public object f_AC0;
-        public object f_1D8;
+        public VRC.Localization.LocalizableString f_E70; // 0x20
+        public VRC.Localization.LocalizableString f_D15; // 0x48
+        public 0x664D6400 f_1B7; // 0x70
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÍÍÍÎÎÏÏÏÌÏÎÌÌÌÌÌÏÌÍÍÌÎÏ>> f_840; // 0x78
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÌÌÌÍÎÌÎÍÏÎÏÎÍÏÍÌÏÏÍÎÍÎÏ>> f_C0D; // 0x80
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<System.Collections.Generic.List`1<ÎÌÏÌÏÏÍÌÍÌÍÌÌÎÏÏÎÌÎÌÏÏÍ>> f_5B8; // 0x88
 
         // ── Methods ──
         public void GetVideoTracks(){} // RVA: 0x7FFD4E380010
@@ -4567,32 +4165,8 @@ namespace VRC.Animation
     /// <summary>Originally: ÎÏÌÏÍÍÎÌÌÎÏÏÌÏÎÏÌÍÍÎÌÏÏ</summary>
     public class AnimatedTextureBaseImpl_FE93 : AnimatedTextureBase_F53F
     {
-        public object f_E70;
-        public object f_88F;
-        public object f_609;
-        public object f_C13;
-        public object f_C75;
-        public object f_B07;
-        public object f_B0B;
-        public object f_4CF;
-        public object f_AED;
-        public object f_CF2;
-        public object f_1AA;
-        public object f_AAF;
-        public object f_6D0;
-        public object f_30C;
-        public object f_C0D;
-        public object f_7A3;
-        public object f_04C;
-        public object f_0AA;
-        public object f_58D;
-        public object f_9E1;
-        public object f_3A9;
-        public object f_415;
-        public object f_DEB;
-        public object f_07D;
-        public object f_4F8;
-        public object f_4DB;
+        public ÎÎÏÏÌÍÏÍÏÌÍÏÎÌÍÏÌÍÎÍÍÍÏ<ÌÏÌÏÏÏÎÌÍÌÍÍÌÌÌÍÌÌÌÎÍÍÍ> f_E70; // 0x20
+        public ÎÎÌÏÌÌÎÌÍÏÌÌÍÌÏÏÌÍÍÍÏÎÌ<UnityEngine.Texture2D> f_88F; // 0x28
 
         // ── Methods ──
         public void EvaluateVertexBlend(){} // RVA: 0x7FFD4EA172A0
@@ -4641,7 +4215,7 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÍÌÏÌÏÌÍÍÌÎÍÎÎÎÍÏÍÌÌÍÏÍ</summary>
     public class AnimatedTextureBaseSibling_20EA
     {
-        public object f_88A;
+        public <>c<T> f_88A;
         public object f_8C7;
 
         // ── Methods ──

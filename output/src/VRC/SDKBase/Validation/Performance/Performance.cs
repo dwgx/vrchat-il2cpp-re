@@ -7,7 +7,10 @@ namespace VRC.SDKBase.Validation.Performance
 {
     public class AvatarPerformance : Object
     {
-        public object ShouldIgnoreComponent;
+        public 0x665B2B90 ShouldIgnoreComponent;
+        public 0x665B2B90 AvatarPerformanceRatingMinimumToDisplayMin; // 0x4
+        public 0x665B2B90 AvatarPerformanceRatingMinimumToDisplayMax; // 0x8
+        public IgnoreDelegate <ShouldIgnoreComponent>k__BackingField; // 0x10
 
         // ── Methods ──
         public void get_ShouldIgnoreComponent(){} // RVA: 0x7FFD574A4570
@@ -28,6 +31,8 @@ namespace VRC.SDKBase.Validation.Performance
 
     public class PerformanceFilterSet : ScriptableObject
     {
+        public VRC.SDKBase.Validation.Performance.Filters.AbstractPerformanceFilter[] performanceFilters; // 0x18
+
         // ── Methods ──
         public void ApplyPerformanceFilters(){} // RVA: 0x7FFD574A62C0
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0

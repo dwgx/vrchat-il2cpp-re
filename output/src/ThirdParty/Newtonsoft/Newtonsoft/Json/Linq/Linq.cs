@@ -22,7 +22,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class IJEnumerable`1
     {
-        public object Item;
+        public <>c<T> Item;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD4E078F40
@@ -30,27 +30,11 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JContainer : JToken
     {
-        public object ChildrenTokens;
-        public object HasValues;
-        public object First;
-        public object Last;
-        public object System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Item;
-        public object System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.IsReadOnly;
-        public object System.Collections.IList.IsFixedSize;
-        public object System.Collections.IList.IsReadOnly;
-        public object System.Collections.IList.Item;
-        public object Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.ComponentModel.IBindingList.AllowEdit;
-        public object System.ComponentModel.IBindingList.AllowNew;
-        public object System.ComponentModel.IBindingList.AllowRemove;
-        public object System.ComponentModel.IBindingList.IsSorted;
-        public object System.ComponentModel.IBindingList.SortDirection;
-        public object System.ComponentModel.IBindingList.SortProperty;
-        public object System.ComponentModel.IBindingList.SupportsChangeNotification;
-        public object System.ComponentModel.IBindingList.SupportsSearching;
-        public object System.ComponentModel.IBindingList.SupportsSorting;
+        public 0x66494B90 ChildrenTokens; // 0x30
+        public 0x66492E58 HasValues; // 0x38
+        public 0x66497D10 First; // 0x40
+        public object Last; // 0x48
+        public bool System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Item; // 0x50
 
         // ── Methods ──
         public void ReadTokenFromAsync(){} // RVA: 0x7FFD53BE03E0
@@ -156,7 +140,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JEnumerable`1 : ValueType
     {
-        public object Item;
+        public Newtonsoft.Json.Linq.JEnumerable`1<T> Item;
+        public System.Collections.Generic.IEnumerable`1<T> _enumerable;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -170,20 +155,21 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 
     public class JToken : Object
     {
-        public object EqualityComparer;
-        public object Parent;
-        public object Root;
-        public object Type;
-        public object HasValues;
-        public object Next;
-        public object Previous;
-        public object Path;
-        public object Item;
-        public object First;
-        public object Last;
-        public object Newtonsoft.Json.Linq.IJEnumerable<Newtonsoft.Json.Linq.JToken>.Item;
-        public object Newtonsoft.Json.IJsonLineInfo.LineNumber;
-        public object Newtonsoft.Json.IJsonLineInfo.LinePosition;
+        public 0x6652B228 EqualityComparer;
+        public Newtonsoft.Json.Linq.JContainer Parent; // 0x10
+        public Newtonsoft.Json.Linq.JToken Root; // 0x18
+        public Newtonsoft.Json.Linq.JToken Type; // 0x20
+        public object HasValues; // 0x28
+        public 0x6652B2D8[] Next; // 0x8
+        public 0x6652B2D8[] Previous; // 0x10
+        public 0x6652B2D8[] Path; // 0x18
+        public 0x6652B2D8[] Item; // 0x20
+        public 0x6652B2D8[] First; // 0x28
+        public 0x6652B2D8[] Last; // 0x30
+        public 0x6652B2D8[] Newtonsoft.Json.Linq.IJEnumerable<Newtonsoft.Json.Linq.JToken>.Item; // 0x38
+        public 0x6652B2D8[] Newtonsoft.Json.IJsonLineInfo.LineNumber; // 0x40
+        public 0x6652B2D8[] Newtonsoft.Json.IJsonLineInfo.LinePosition; // 0x48
+        public 0x6652B2D8[] BytesTypes; // 0x50
 
         // ── Methods ──
         public void WriteToAsync(){} // RVA: 0x7FFD53BF3330 | overloaded x2
