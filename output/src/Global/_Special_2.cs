@@ -415,7 +415,7 @@ public class <>c__DisplayClass23_0 : Object
 
 public class <>c__DisplayClass24_0 : Object
 {
-    public object localService; // 0x10
+    public FieldDescription<V,V,T> localService; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -456,7 +456,7 @@ public class <>c__DisplayClass25_0`1 : Object
 
 public class <>c__DisplayClass26_0 : Object
 {
-    public object arg; // 0x10
+    public T arg; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
