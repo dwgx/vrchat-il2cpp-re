@@ -7,9 +7,57 @@ namespace ThirdParty.Other.AmplitudeSDKWrapper
 {
     public class AmplitudeWrapper : Object
     {
-        public object Logger;
-        public object Instance;
-        public object Experiments;
+        public string Logger;
+        public int Instance;
+        public int Experiments;
+        public int EVENT_MAX_COUNT;
+        public int EVENT_REMOVE_BATCH_SIZE;
+        public int EVENT_UPLOAD_PERIOD_MILLISECONDS;
+        public int EVENT_MIN_DELAY_BETWEEN_UPLOADS;
+        public string EXPERIMENT_URL;
+        public string EXPERIMENT_API_KEY;
+        public string EXPERIMENT_API_DEV_KEY;
+        public string EXPERIMENT_ERROR_MESSAGE;
+        public long SESSION_TIMEOUT_MILLIS_PC;
+        public long SESSION_TIMEOUT_MILLIS_MOBILE;
+        public long MIN_TIME_BETWEEN_SESSIONS_MILLIS;
+        public string SETTINGS_CONTAINER;
+        public string SETTINGS_KEY_USER_ID;
+        public string SETTINGS_SESSION_LAST_ACTIVE_TIME;
+        public string SETTINGS_KEY_PREVIOUS_SESSION_ID;
+        public int UPLOAD_RETRY_DELAY_MS;
+        public int MAX_EVENTS_PER_SESSION;
+        public string _apiKey; // 0x10
+        public string _userId; // 0x18
+        public string _deviceId; // 0x20
+        public AmplitudeSDKWrapper.DeviceInfo _deviceInfo; // 0x28
+        public string _buildVersionString; // 0x30
+        public long _sessionId; // 0x38
+        public System.Collections.Generic.Dictionary`2<string,object> _userProperties; // 0x40
+        public object _paramLock; // 0x48
+        public int _lastEventId; // 0x50
+        public int _isUploading; // 0x54
+        public int _isUpdateScheduled; // 0x58
+        public AmplitudeSDKWrapper.DatabaseHelper _dbHelper; // 0x60
+        public int _isCacheSaveScheduled; // 0x68
+        public Settings _settings; // 0x70
+        public bool _trackSession; // 0x78
+        public bool _sessionOpen; // 0x79
+        public AmplitudeSDKWrapper.LimitedConcurrencyLevelTaskScheduler _httpQueue; // 0x80
+        public AmplitudeSDKWrapper.LimitedConcurrencyLevelTaskScheduler _logQueue; // 0x88
+        public object _serverUpdateLock; // 0x90
+        public int _serverUpdateScheduledTime; // 0x98
+        public int _serverUpdateDelayMs; // 0x9C
+        public int _serverUpdateBatchSize; // 0xA0
+        public bool _isAppExiting; // 0xA4
+        public long _sessionTimeoutMS; // 0xA8
+        public bool _hasSentSuccessfullyAtLeastOnce; // 0xB0
+        public bool _eventLimitPerSessionReached; // 0xB1
+        public int _eventCountThisSession; // 0xB4
+        public VRC.Core.IVRCLogger <Logger>k__BackingField;
+        public System.Action OnExperimentsUpdated; // 0x8
+        public AmplitudeSDKWrapper.AmplitudeWrapper <Instance>k__BackingField; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,ExperimentSegment> <Experiments>k__BackingField; // 0x18
 
         // ── Methods ──
         public void get_Logger(){} // RVA: 0x7FFD57264A80
@@ -68,6 +116,10 @@ namespace ThirdParty.Other.AmplitudeSDKWrapper
 
     public class DatabaseHelper : Object
     {
+        public object objectLock; // 0x10
+        public System.Collections.Generic.List`1<System.Collections.Generic.IReadOnlyDictionary`2<string,object>> RecordedEvents; // 0x18
+        public string _cachePath; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5726D430
         public void AddEvent(){} // RVA: 0x7FFD5726D630
@@ -82,6 +134,12 @@ namespace ThirdParty.Other.AmplitudeSDKWrapper
 
     public class DeviceInfo : Object
     {
+        public string _osName; // 0x10
+        public string _deviceModel; // 0x18
+        public string _deviceName; // 0x20
+        public string _systemLanguage; // 0x28
+        public string _platform; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5726EB70
         public void GetOsName(){} // RVA: 0x7FFD4E35C380
@@ -95,6 +153,10 @@ namespace ThirdParty.Other.AmplitudeSDKWrapper
 
     public class LimitedConcurrencyLevelTaskScheduler : Object
     {
+        public System.Collections.Generic.LinkedList`1<System.Action> _tasks; // 0x10
+        public int _maxDegreeOfParallelism; // 0x18
+        public int _delegatesQueuedOrRunning; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5726F150
         public void QueueTask(){} // RVA: 0x7FFD5726F250

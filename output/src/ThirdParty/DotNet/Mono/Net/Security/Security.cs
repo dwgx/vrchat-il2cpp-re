@@ -7,19 +7,16 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 {
     public class MobileTlsContext : Object
     {
-        public object Options;
-        public object Parent;
-        public object Settings;
-        public object IsAuthenticated;
-        public object IsServer;
-        public object TargetHost;
-        public object ServerName;
-        public object AskForClientCertificate;
-        public object EnabledProtocols;
-        public object ClientCertificates;
-        public object LocalServerCertificate;
-        public object LocalClientCertificate;
-        public object RemoteCertificate;
+        public 0x6648CA50 Options; // 0x10
+        public 0x6648CE18 Parent; // 0x18
+        public 0x6648CD10 Settings; // 0x20
+        public bool IsAuthenticated; // 0x28
+        public string IsServer; // 0x30
+        public string TargetHost; // 0x38
+        public bool ServerName; // 0x40
+        public 0x66491280 AskForClientCertificate; // 0x44
+        public 0x66491EE0 EnabledProtocols; // 0x48
+        public 0x6642DEB8 ClientCertificates; // 0x50
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54247E30

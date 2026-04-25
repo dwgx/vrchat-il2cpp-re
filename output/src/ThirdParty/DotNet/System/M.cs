@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System
 {
     public class MarshalByRefObject : Object
     {
-        public object ObjectIdentity;
+        public object ObjectIdentity; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -19,7 +19,7 @@ namespace ThirdParty.DotNet.System
 
     public class Marvin : Object
     {
-        public object DefaultSeed;
+        public ulong DefaultSeed;
 
         // ── Methods ──
         public void ComputeHash32(){} // RVA: 0x7FFD53A53130 | overloaded x2
@@ -32,6 +32,9 @@ namespace ThirdParty.DotNet.System
 
     public class Math : Object
     {
+        public double doubleRoundLimit;
+        public double[] roundPower10Double; // 0x8
+
         // ── Methods ──
         public void Abs(){} // RVA: 0x7FFD53A54F10 | overloaded x7
         public void ThrowAbsOverflow(){} // RVA: 0x7FFD53A53950
@@ -92,8 +95,10 @@ namespace ThirdParty.DotNet.System
 
     public class Memory`1 : ValueType
     {
-        public object Length;
-        public object Span;
+        public U Length; // 0x10
+        public int Span; // 0x18
+        public int _length; // 0x1C
+        public int RemoveFlagsBitMask;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970 | overloaded x4
@@ -110,12 +115,23 @@ namespace ThirdParty.DotNet.System
 
     public class MonoAsyncCall : Object
     {
+        public <>c msg; // 0x10
+        public UIntPtr cb_method; // 0x18
+        public System.Action`1<ÍÎÌÌÍÎÎÏÎÍÌÏÌÍÍÎÎÍÎÌÌÏÍ> cb_target; // 0x20
+        public System.Func`2<ÍÎÌÌÍÎÎÏÎÍÌÏÌÍÍÎÎÍÎÌÌÏÍ,int> state; // 0x28
+        public System.Func`2<ÍÎÌÌÍÎÎÏÎÍÌÏÌÍÍÎÎÍÎÌÌÏÍ,bool> res; // 0x30
+        public System.Action`1<UnityEngine.Camera> out_args; // 0x38
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class MonoCustomAttrs : Object
     {
+        public System.Reflection.Assembly corlib;
+        public System.Collections.Generic.Dictionary`2<System.Type,System.AttributeUsageAttribute> usage_cache; // 0xFFFF
+        public System.AttributeUsageAttribute DefaultAttributeUsage; // 0x8
+
         // ── Methods ──
         public void IsUserCattrProvider(){} // RVA: 0x7FFD53ABDA70
         public void GetCustomAttributesInternal(){} // RVA: 0x7FFD53ABDD10
@@ -142,12 +158,17 @@ namespace ThirdParty.DotNet.System
 
     public class MonoTypeInfo : Object
     {
+        public string full_name; // 0x10
+        public System.Reflection.RuntimeConstructorInfo default_ctor; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class MulticastDelegate : Delegate
     {
+        public System.Delegate[] delegates; // 0x78
+
         // ── Methods ──
         public void GetObjectData(){} // RVA: 0x7FFD53ABC000
         public void DynamicInvokeImpl(){} // RVA: 0x7FFD53AC1C80

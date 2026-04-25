@@ -7,6 +7,10 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 {
     public class CinemachineDebug : Object
     {
+        public System.Collections.Generic.HashSet`1<UnityEngine.Object> mClients;
+        public OnGUIDelegate OnGUIHandlers; // 0x8
+        public System.Collections.Generic.List`1<System.Text.StringBuilder> mAvailableStringBuilders; // 0x10
+
         // ── Methods ──
         public void ReleaseScreenPos(){} // RVA: 0x7FFD4FC977E0
         public void GetScreenPos(){} // RVA: 0x7FFD4FC97890
@@ -17,6 +21,10 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class Damper : Object
     {
+        public float Epsilon;
+        public float kNegligibleResidual;
+        public float kLogNegligibleResidual;
+
         // ── Methods ──
         public void DecayConstant(){} // RVA: 0x7FFD4FC98FA0
         public void DecayedRemainder(){} // RVA: 0x7FFD4FC98FD0
@@ -46,9 +54,10 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class GaussianWindow1d`1 : Object
     {
-        public object Sigma;
-        public object KernelSize;
-        public object BufferLength;
+        public UnityEngine.Vector2[] Sigma; // 0x10
+        public float[] KernelSize; // 0x18
+        public int BufferLength; // 0x20
+        public float <Sigma>k__BackingField; // 0x24
 
         // ── Methods ──
         public void get_Sigma(){} // RVA: 0x7FFD4E08D880
@@ -69,7 +78,15 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class HeadingTracker : Object
     {
-        public object FilterSize;
+        public Item[] FilterSize; // 0x10
+        public int mTop; // 0x18
+        public int mBottom; // 0x1C
+        public int mCount; // 0x20
+        public UnityEngine.Vector3 mHeadingSum; // 0x24
+        public float mWeightSum; // 0x30
+        public float mWeightTime; // 0x34
+        public UnityEngine.Vector3 mLastGoodHeading; // 0x38
+        public float mDecayExponent;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC99480
@@ -84,6 +101,12 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class PositionPredictor : Object
     {
+        public UnityEngine.Vector3 m_Velocity; // 0x10
+        public UnityEngine.Vector3 m_SmoothDampVelocity; // 0x1C
+        public UnityEngine.Vector3 m_Pos; // 0x28
+        public bool m_HavePos; // 0x34
+        public float Smoothing; // 0x38
+
         // ── Methods ──
         public void IsEmpty(){} // RVA: 0x7FFD4FC98C50
         public void ApplyTransformDelta(){} // RVA: 0x7FFD4FC98C60
@@ -123,6 +146,8 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class UnityVectorExtensions : Object
     {
+        public float Epsilon;
+
         // ── Methods ──
         public void IsNaN(){} // RVA: 0x7FFD4FC9B140 | overloaded x2
         public void ClosestPointOnSegment(){} // RVA: 0x7FFD4FC9B260 | overloaded x2

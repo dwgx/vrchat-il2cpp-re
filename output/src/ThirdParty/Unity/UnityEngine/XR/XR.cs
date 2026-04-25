@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 {
     public class Bone : ValueType
     {
-        public object deviceId;
-        public object featureIndex;
+        public ulong deviceId; // 0x10
+        public uint featureIndex; // 0x18
 
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x7FFD505F9A30
@@ -19,8 +19,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class Eyes : ValueType
     {
-        public object deviceId;
-        public object featureIndex;
+        public ulong deviceId; // 0x10
+        public uint featureIndex; // 0x18
 
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x7FFD505F9A30
@@ -31,8 +31,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class Hand : ValueType
     {
-        public object deviceId;
-        public object featureIndex;
+        public ulong deviceId; // 0x10
+        public uint featureIndex; // 0x18
 
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x7FFD505F9A30
@@ -43,12 +43,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputDevice : ValueType
     {
-        public object deviceId;
-        public object isValid;
-        public object name;
-        public object manufacturer;
-        public object serialNumber;
-        public object characteristics;
+        public System.Collections.Generic.List`1<UnityEngine.XR.XRInputSubsystem> deviceId;
+        public ulong isValid; // 0x10
+        public bool name; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD550BFAD0
@@ -69,6 +66,11 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputDevices : Object
     {
+        public System.Collections.Generic.List`1<UnityEngine.XR.InputDevice> s_InputDeviceList;
+        public System.Action`1<UnityEngine.XR.InputDevice> deviceConnected; // 0x8
+        public System.Action`1<UnityEngine.XR.InputDevice> deviceDisconnected; // 0x10
+        public System.Action`1<UnityEngine.XR.InputDevice> deviceConfigChanged; // 0x18
+
         // ── Methods ──
         public void GetDeviceAtXRNode(){} // RVA: 0x7FFD550C0720
         public void GetDevicesAtXRNode(){} // RVA: 0x7FFD550C07A0
@@ -99,8 +101,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputFeatureUsage : ValueType
     {
-        public object name;
-        public object internalType;
+        public string name; // 0x10
+        public 0x66628F38 internalType; // 0x18
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD505F9A30
@@ -111,7 +113,7 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputFeatureUsage`1 : ValueType
     {
-        public object name;
+        public string name; // 0x10
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E078E90
@@ -123,6 +125,11 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputTracking : Object
     {
+        public System.Action`1<UnityEngine.XR.XRNodeState> trackingAcquired;
+        public System.Action`1<UnityEngine.XR.XRNodeState> trackingLost; // 0x8
+        public System.Action`1<UnityEngine.XR.XRNodeState> nodeAdded; // 0x10
+        public System.Action`1<UnityEngine.XR.XRNodeState> nodeRemoved; // 0x18
+
         // ── Methods ──
         public void InvokeTrackingEvent(){} // RVA: 0x7FFD550BCF50
         public void GetLocalPosition(){} // RVA: 0x7FFD550BD110
@@ -138,14 +145,15 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class MeshGenerationResult : ValueType
     {
-        public object MeshId;
-        public object Mesh;
-        public object MeshCollider;
-        public object Status;
-        public object Attributes;
-        public object Position;
-        public object Rotation;
-        public object Scale;
+        public UnityEngine.XR.MeshId MeshId; // 0x10
+        public UnityEngine.Mesh Mesh; // 0x20
+        public UnityEngine.MeshCollider MeshCollider; // 0x28
+        public ÏÎÏÎÏÍÎÌÍÍÍÏÍÎÍÍÎÎÎÌ.ÏÍÏÍÏ Status; // 0x30
+        public 0x66629778 Attributes; // 0x34
+        public ulong Position; // 0x38
+        public UnityEngine.Vector3 Rotation; // 0x40
+        public UnityEngine.Quaternion Scale; // 0x4C
+        public UnityEngine.Vector3 <Scale>k__BackingField; // 0x5C
 
         // ── Methods ──
         public void get_MeshId(){} // RVA: 0x7FFD4E6E0590
@@ -162,6 +170,10 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class MeshId : ValueType
     {
+        public UnityEngine.XR.MeshId s_InvalidId;
+        public ulong m_SubId1; // 0x10
+        public ulong m_SubId2; // 0x18
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD550C2610
         public void GetHashCode(){} // RVA: 0x7FFD54CC7070
@@ -171,6 +183,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRDevice : Object
     {
+        public System.Action`1<string> deviceLoaded;
+
         // ── Methods ──
         public void GetNativePtr(){} // RVA: 0x7FFD550BC7C0
         public void DisableAutoXRCameraTracking(){} // RVA: 0x7FFD550BC810
@@ -181,7 +195,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRDisplaySubsystem : IntegratedSubsystem`1
     {
-        public object scaleOfAllRenderTargets;
+        public System.Action`1<bool> scaleOfAllRenderTargets; // 0x20
+        public UnityEngine.HDROutputSettings m_HDROutputSettings; // 0x28
 
         // ── Methods ──
         public void InvokeDisplayFocusChanged(){} // RVA: 0x7FFD54C65210
@@ -198,6 +213,10 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRInputSubsystem : IntegratedSubsystem`1
     {
+        public System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated; // 0x20
+        public System.Action`1<UnityEngine.XR.XRInputSubsystem> boundaryChanged; // 0x28
+        public System.Collections.Generic.List`1<ulong> m_DeviceIdsCache; // 0x30
+
         // ── Methods ──
         public void TryRecenter(){} // RVA: 0x7FFD550C20C0
         public void TrySetTrackingOriginMode(){} // RVA: 0x7FFD550C2110
@@ -231,9 +250,16 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRNodeState : ValueType
     {
-        public object uniqueID;
-        public object nodeType;
-        public object tracked;
+        public 0x66628DD8 uniqueID; // 0x10
+        public ÏÎÏÎÏÍÎÌÍÍÍÏÍÎÍÍÎÎÎÌ.ÍÏÎÍÍÏ nodeType; // 0x14
+        public UnityEngine.Vector3 tracked; // 0x18
+        public UnityEngine.Quaternion m_Rotation; // 0x24
+        public UnityEngine.Vector3 m_Velocity; // 0x34
+        public UnityEngine.Vector3 m_AngularVelocity; // 0x40
+        public UnityEngine.Vector3 m_Acceleration; // 0x4C
+        public UnityEngine.Vector3 m_AngularAcceleration; // 0x58
+        public int m_Tracked; // 0x64
+        public ulong m_UniqueID; // 0x68
 
         // ── Methods ──
         public void set_uniqueID(){} // RVA: 0x7FFD4F669140

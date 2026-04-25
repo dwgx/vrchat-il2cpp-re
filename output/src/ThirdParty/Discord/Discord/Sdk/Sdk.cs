@@ -7,6 +7,9 @@ namespace ThirdParty.Discord.Discord.Sdk
 {
     public class Activity : Object
     {
+        public Activity self; // 0x10
+        public int disposed_; // 0x18
+
         // ── Methods ──
         public void Finalize(){} // RVA: 0x7FFD4FD99B80
         public void .ctor(){} // RVA: 0x7FFD4FD99C80
@@ -24,6 +27,8 @@ namespace ThirdParty.Discord.Discord.Sdk
 
     public class NativeMethods : Object
     {
+        public System.Action`1<System.Exception> UnhandledException;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4FD94500
         public void __Init(){} // RVA: 0x7FFD4E341310
@@ -39,6 +44,9 @@ namespace ThirdParty.Discord.Discord.Sdk
 
     public class UserHandle : Object
     {
+        public UserHandle self; // 0x10
+        public int disposed_; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F840710
         public void Finalize(){} // RVA: 0x7FFD4FD9B980

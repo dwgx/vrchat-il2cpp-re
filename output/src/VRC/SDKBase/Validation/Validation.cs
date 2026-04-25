@@ -7,6 +7,8 @@ namespace VRC.SDKBase.Validation
 {
     public class TypeUtils : Object
     {
+        public System.Collections.Generic.Dictionary`2<string,System.Type> _typeCache;
+
         // ── Methods ──
         public void GetTypeFromName(){} // RVA: 0x7FFD574A0100
         public void FindDerivedTypes(){} // RVA: 0x7FFD574A0630 | overloaded x2
@@ -16,7 +18,7 @@ namespace VRC.SDKBase.Validation
 
     public class VRCSdkWhitelistAttribute : Attribute
     {
-        public object name;
+        public ÌÌÎÏÌÍÌÏÍÏÍ name; // 0x10
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E38E5C0
@@ -25,6 +27,11 @@ namespace VRC.SDKBase.Validation
 
     public class ValidationUtils : Object
     {
+        public System.Collections.Generic.List`1<UnityEngine.Component> _componentCache;
+        public string EDITOR_ONLY_TAG;
+        public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.HashSet`1<System.Type>> _whitelistCache; // 0x8
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Immutable.ImmutableArray`1<UnityEngine.RequireComponent>> _requireComponentsCache; // 0x10
+
         // ── Methods ──
         public void RemoveIllegalComponents(){} // RVA: 0x7FFD574A0A20 | overloaded x2
         public void FindIllegalComponents(){} // RVA: 0x7FFD574A1050 | overloaded x2

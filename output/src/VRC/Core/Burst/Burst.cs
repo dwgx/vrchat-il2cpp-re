@@ -7,7 +7,8 @@ namespace VRC.Core.Burst
 {
     public class DisposableJobHandle : ValueType
     {
-        public object IsCompleted;
+        public Unity.Jobs.JobHandle IsCompleted; // 0x10
+        public System.Collections.Generic.List`1<VRC.Core.Burst.DisposableJobHandle> _knownDisposableJobHandles;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57467600

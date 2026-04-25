@@ -21,6 +21,8 @@ namespace VRC.Core.Networking.FlatBuffers
 
     public class SparseOffset8 : Object
     {
+        public byte Value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5518E090
         public void op_Implicit(){} // RVA: 0x7FFD5518E150 | overloaded x4

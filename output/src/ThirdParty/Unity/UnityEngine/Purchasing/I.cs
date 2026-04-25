@@ -184,7 +184,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class IStoreController
     {
-        public object products;
+        public <>c<T> products;
 
         // ── Methods ──
         public void get_products(){} // RVA: 0x7FFD4E078E90

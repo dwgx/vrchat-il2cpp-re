@@ -20,6 +20,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GenericCollectionFormatter`2 : BaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> valueReaderWriter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -30,13 +32,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GlobalSerializationConfig : Object
     {
-        public object Instance;
-        public object Logger;
-        public object EditorSerializationFormat;
-        public object BuildSerializationFormat;
-        public object LoggingPolicy;
-        public object ErrorHandlingPolicy;
-        public object HasInstanceLoaded;
+        public VRC.Udon.Serialization.OdinSerializer.GlobalSerializationConfig Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD553DE850
@@ -53,6 +49,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GradientAlphaKeyFormatter : MinimalBaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD554388C0
         public void Write(){} // RVA: 0x7FFD55438980
@@ -62,6 +60,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GradientColorKeyFormatter : MinimalBaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<UnityEngine.Color> ColorSerializer;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer; // 0x8
+
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD55438BA0
         public void Write(){} // RVA: 0x7FFD55438C70
@@ -71,6 +72,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GradientFormatter : MinimalBaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<UnityEngine.GradientAlphaKey[]> AlphaKeysSerializer;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<UnityEngine.GradientColorKey[]> ColorKeysSerializer; // 0x8
+        public System.Reflection.PropertyInfo ModeProperty; // 0x10
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<object> EnumSerializer; // 0x18
+
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0x7FFD55438F40
         public void Read(){} // RVA: 0x7FFD55438FC0

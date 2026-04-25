@@ -7,12 +7,11 @@ namespace ThirdParty.DotNet.System.Dynamic
 {
     public class DynamicMetaObject : Object
     {
-        public object Expression;
-        public object Restrictions;
-        public object Value;
-        public object HasValue;
-        public object RuntimeType;
-        public object LimitType;
+        public System.Dynamic.DynamicMetaObject[] Expression;
+        public object Restrictions; // 0x8
+        public object Value; // 0x10
+        public System.Linq.Expressions.Expression HasValue; // 0x18
+        public 0x66557178 RuntimeType; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD542180F0 | overloaded x2
@@ -76,10 +75,8 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class GetMemberBinder : DynamicMetaObjectBinder
     {
-        public object ReturnType;
-        public object Name;
-        public object IgnoreCase;
-        public object IsStandardBinder;
+        public string ReturnType; // 0x18
+        public bool Name; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54224CD0

@@ -5,6 +5,10 @@
 
 public class StringSerializer : ValueType
 {
+    public string _serializedText; // 0x10
+    public int _currentTokenStartIndex; // 0x18
+    public 0x6641D768 _state; // 0x1C
+
     // ── Methods ──
     public void GetSerializedString(){} // RVA: 0x7FFD53924A60
     public void GetDeserializedTimeZoneInfo(){} // RVA: 0x7FFD53925600
@@ -31,8 +35,7 @@ public class StructGetter`2 : MulticastDelegate
 
 public class SubEmittersModule : ValueType
 {
-    public object enabled;
-    public object subEmittersCount;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -74,6 +77,10 @@ public class SubmitEvent : UnityEvent`1
 
 public class Subscription : Object
 {
+    public object gate;
+    public Cysharp.Threading.Tasks.Internal.AsyncSubject`1<T> parent;
+    public System.IObserver`1<T> unsubscribeTarget;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -81,13 +88,26 @@ public class Subscription : Object
 
 public class SwitchFullInputReport : ValueType
 {
+    public int kSize;
+    public byte ExpectedReportId;
+    public byte reportId; // 0x10
+    public byte buttons0; // 0x13
+    public byte buttons1; // 0x14
+    public byte buttons2; // 0x15
+    public byte left0; // 0x16
+    public byte left1; // 0x17
+    public byte left2; // 0x18
+    public byte right0; // 0x19
+    public byte right1; // 0x1A
+    public byte right2; // 0x1B
+
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x7FFD54A77FF0
 }
 
 public class SwitchHIDGenericInputReport : ValueType
 {
-    public object Format;
+    public byte Format; // 0x10
 
     // ── Methods ──
     public void get_Format(){} // RVA: 0x7FFD54A782A0
@@ -95,14 +115,24 @@ public class SwitchHIDGenericInputReport : ValueType
 
 public class SwitchInputOnlyReport : ValueType
 {
+    public int kSize;
+    public byte buttons0; // 0x10
+    public byte buttons1; // 0x11
+    public byte hat; // 0x12
+    public byte leftX; // 0x13
+    public byte leftY; // 0x14
+    public byte rightX; // 0x15
+    public byte rightY; // 0x16
+
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x7FFD54A77A00
 }
 
 public class SwitchMagicOutputHIDBluetooth : ValueType
 {
-    public object Type;
-    public object typeStatic;
+    public int Type;
+    public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+    public SwitchMagicOutputReport report; // 0x18
 
     // ── Methods ──
     public void get_Type(){} // RVA: 0x7FFD54A782B0
@@ -112,8 +142,9 @@ public class SwitchMagicOutputHIDBluetooth : ValueType
 
 public class SwitchMagicOutputHIDUSB : ValueType
 {
-    public object Type;
-    public object typeStatic;
+    public int Type;
+    public UnityEngine.InputSystem.LowLevel.InputDeviceCommand typeStatic; // 0x10
+    public SwitchMagicOutputReport report; // 0x18
 
     // ── Methods ──
     public void get_Type(){} // RVA: 0x7FFD54A782B0
@@ -123,24 +154,32 @@ public class SwitchMagicOutputHIDUSB : ValueType
 
 public class SwitchMagicOutputReport : ValueType
 {
+    public int kSize;
+    public byte ExpectedReplyInputReportId;
+    public byte reportType; // 0x10
+    public byte commandId; // 0x11
 }
 
 public class SwitchSimpleInputReport : ValueType
 {
+    public int kSize;
+    public byte ExpectedReportId;
+    public byte reportId; // 0x10
+    public byte buttons0; // 0x11
+    public byte buttons1; // 0x12
+    public byte hat; // 0x13
+    public ushort leftX; // 0x14
+    public ushort leftY; // 0x16
+    public ushort rightX; // 0x18
+    public ushort rightY; // 0x1A
+
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x7FFD54A77CE0
 }
 
 public class SyncHashtable : Hashtable
 {
-    public object Count;
-    public object IsReadOnly;
-    public object IsFixedSize;
-    public object IsSynchronized;
-    public object Item;
-    public object SyncRoot;
-    public object Keys;
-    public object Values;
+    public System.Collections.Hashtable Count; // 0x50
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539C4920 | overloaded x2
@@ -168,6 +207,8 @@ public class SyncHashtable : Hashtable
 
 public class SyncTextReader : TextReader
 {
+    public System.IO.TextReader _in; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539EFD30
     public void Close(){} // RVA: 0x7FFD539EFDD0
@@ -182,9 +223,7 @@ public class SyncTextReader : TextReader
 
 public class SyncTextWriter : TextWriter
 {
-    public object Encoding;
-    public object FormatProvider;
-    public object NewLine;
+    public System.IO.TextWriter Encoding; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539F29D0
@@ -203,10 +242,16 @@ public class SyncTextWriter : TextWriter
 
 public class SyncTile : ValueType
 {
+    public UnityEngine.Vector3Int m_Position; // 0x10
+    public UnityEngine.Tilemaps.TileBase m_Tile; // 0x20
+    public UnityEngine.Tilemaps.TileData m_TileData; // 0x28
 }
 
 public class SyncTileCallbackSettings : ValueType
 {
+    public bool hasSyncTileCallback; // 0x10
+    public bool hasPositionsChangedCallback; // 0x11
+    public bool isBufferSyncTile; // 0x12
 }
 
 public class SynchronizeInputs : ValueType
@@ -219,10 +264,12 @@ public class SynchronizeState : ValueType
 
 public class SynchronousAsyncResult : Object
 {
-    public object IsCompleted;
-    public object AsyncWaitHandle;
-    public object AsyncState;
-    public object CompletedSynchronously;
+    public object IsCompleted; // 0x10
+    public bool AsyncWaitHandle; // 0x18
+    public System.Threading.ManualResetEvent AsyncState; // 0x20
+    public 0x66435CE0 CompletedSynchronously; // 0x28
+    public bool _endXxxCalled; // 0x30
+    public int _bytesRead; // 0x34
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A0AC90 | overloaded x3
@@ -237,6 +284,8 @@ public class SynchronousAsyncResult : Object
 
 public class SystemController : ScriptableObject
 {
+    public bool testSteamAccount; // 0x18
+
     // ── Methods ──
     public void BackPressed(){} // RVA: 0x7FFD4EDD4E30
     public void CreateInstance(){} // RVA: 0x7FFD4F68D6D0

@@ -7,10 +7,38 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class XmlBaseConverter : XmlValueConverter
     {
-        public object SchemaType;
-        public object TypeCode;
-        public object XmlTypeName;
-        public object DefaultClrType;
+        public 0x664C5260 SchemaType; // 0x10
+        public 0x664C55D0 TypeCode; // 0x18
+        public System.Type XmlTypeName; // 0x20
+        public System.Type DefaultClrType;
+        public System.Type IEnumerableType; // 0x8
+        public System.Type IListType; // 0x10
+        public System.Type ObjectArrayType; // 0x18
+        public System.Type StringArrayType; // 0x20
+        public System.Type XmlAtomicValueArrayType; // 0x28
+        public System.Type DecimalType; // 0x30
+        public System.Type Int32Type; // 0x38
+        public System.Type Int64Type; // 0x40
+        public System.Type StringType; // 0x48
+        public System.Type XmlAtomicValueType; // 0x50
+        public System.Type ObjectType; // 0x58
+        public System.Type ByteType; // 0x60
+        public System.Type Int16Type; // 0x68
+        public System.Type SByteType; // 0x70
+        public System.Type UInt16Type; // 0x78
+        public System.Type UInt32Type; // 0x80
+        public System.Type UInt64Type; // 0x88
+        public System.Type XPathItemType; // 0x90
+        public System.Type DoubleType; // 0x98
+        public System.Type SingleType; // 0xA0
+        public System.Type DateTimeType; // 0xA8
+        public System.Type DateTimeOffsetType; // 0xB0
+        public System.Type BooleanType; // 0xB8
+        public System.Type ByteArrayType; // 0xC0
+        public System.Type XmlQualifiedNameType; // 0xC8
+        public System.Type UriType; // 0xD0
+        public System.Type TimeSpanType; // 0xD8
+        public System.Type XPathNavigatorType; // 0xE0
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5457E520 | overloaded x4
@@ -92,6 +120,8 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 
     public class XmlListConverter : XmlBaseConverter
     {
+        public System.Xml.Schema.XmlValueConverter atomicConverter; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5459EB20 | overloaded x3
         public void Create(){} // RVA: 0x7FFD5459EB80

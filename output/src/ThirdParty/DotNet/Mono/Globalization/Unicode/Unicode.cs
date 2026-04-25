@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 {
     public class CodePointIndexer : Object
     {
+        public TableRange[] ranges; // 0x10
+        public int TotalCount; // 0x18
+        public int defaultIndex; // 0x1C
+        public int defaultCP; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537B1530
         public void ToIndex(){} // RVA: 0x7FFD537B1720
@@ -14,12 +19,19 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 
     public class Contraction : Object
     {
+        public int Index; // 0x10
+        public char[] Source; // 0x18
+        public string Replacement; // 0x20
+        public byte[] SortKey; // 0x28
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537B17D0
     }
 
     public class ContractionComparer : Object
     {
+        public Mono.Globalization.Unicode.ContractionComparer Instance;
+
         // ── Methods ──
         public void Compare(){} // RVA: 0x7FFD537B18D0
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -28,13 +40,34 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 
     public class Level2Map : Object
     {
+        public byte Source; // 0x10
+        public byte Replace; // 0x11
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537B1A70
     }
 
     public class MSCompatUnicodeTable : Object
     {
-        public object IsReady;
+        public int IsReady;
+        public byte* ignorableFlags; // 0x8
+        public byte* categories; // 0x10
+        public byte* level1; // 0x18
+        public byte* level2; // 0x20
+        public byte* level3; // 0x28
+        public byte* cjkCHScategory; // 0x30
+        public byte* cjkCHTcategory; // 0x38
+        public byte* cjkJAcategory; // 0x40
+        public byte* cjkKOcategory; // 0x48
+        public byte* cjkCHSlv1; // 0x50
+        public byte* cjkCHTlv1; // 0x58
+        public byte* cjkJAlv1; // 0x60
+        public byte* cjkKOlv1; // 0x68
+        public byte* cjkKOlv2; // 0x70
+        public char[] tailoringArr; // 0x78
+        public Mono.Globalization.Unicode.TailoringInfo[] tailoringInfos; // 0x80
+        public object forLock; // 0x88
+        public bool isReady; // 0x90
 
         // ── Methods ──
         public void GetTailoringInfo(){} // RVA: 0x7FFD537B1A80
@@ -62,12 +95,33 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 
     public class MSCompatUnicodeTableUtil : Object
     {
+        public Mono.Globalization.Unicode.CodePointIndexer Ignorable;
+        public Mono.Globalization.Unicode.CodePointIndexer Category; // 0x8
+        public Mono.Globalization.Unicode.CodePointIndexer Level1; // 0x10
+        public Mono.Globalization.Unicode.CodePointIndexer Level2; // 0x18
+        public Mono.Globalization.Unicode.CodePointIndexer Level3; // 0x20
+        public Mono.Globalization.Unicode.CodePointIndexer CjkCHS; // 0x28
+        public Mono.Globalization.Unicode.CodePointIndexer Cjk; // 0x30
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD537B4180
     }
 
     public class SimpleCollator : Object
     {
+        public Mono.Globalization.Unicode.SimpleCollator invariant;
+        public System.Globalization.TextInfo textInfo; // 0x10
+        public Mono.Globalization.Unicode.CodePointIndexer cjkIndexer; // 0x18
+        public Mono.Globalization.Unicode.Contraction[] contractions; // 0x20
+        public Mono.Globalization.Unicode.Level2Map[] level2Maps; // 0x28
+        public byte[] unsafeFlags; // 0x30
+        public byte* cjkCatTable; // 0x38
+        public byte* cjkLv1Table; // 0x40
+        public byte* cjkLv2Table; // 0x48
+        public Mono.Globalization.Unicode.CodePointIndexer cjkLv2Indexer; // 0x50
+        public int lcid; // 0x58
+        public bool frenchSort; // 0x5C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537B5000
         public void SetCJKTable(){} // RVA: 0x7FFD537B5560
@@ -111,6 +165,11 @@ namespace ThirdParty.DotNet.Mono.Globalization.Unicode
 
     public class TailoringInfo : Object
     {
+        public int LCID; // 0x10
+        public int TailoringIndex; // 0x14
+        public int TailoringCount; // 0x18
+        public bool FrenchSort; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD52112960
     }

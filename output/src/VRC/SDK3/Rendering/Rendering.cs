@@ -7,13 +7,8 @@ namespace VRC.SDK3.Rendering
 {
     public class VRCAsyncGPUReadbackRequest : Object
     {
-        public object done;
-        public object hasError;
-        public object width;
-        public object height;
-        public object depth;
-        public object layerCount;
-        public object layerDataSize;
+        public UnityEngine.Rendering.AsyncGPUReadbackRequest done; // 0x10
+        public VRC.Udon.Common.Interfaces.IUdonEventReceiver hasError; // 0x20
 
         // ── Methods ──
         public void get_done(){} // RVA: 0x7FFD4E7A1B60

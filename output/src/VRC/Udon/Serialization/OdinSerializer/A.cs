@@ -19,6 +19,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class AnimationCurveFormatter : MinimalBaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<UnityEngine.Keyframe[]> KeyframeSerializer;
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<0x664D9058> WrapModeSerializer; // 0x8
+
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0x7FFD4E919180
         public void Read(){} // RVA: 0x7FFD554373F0
@@ -29,6 +32,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ArchitectureInfo : Object
     {
+        public bool Architecture_Supports_Unaligned_Float32_Reads;
+        public bool Architecture_Supports_All_Unaligned_ReadWrites; // 0x1
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55409B80
         public void SetRuntimePlatform(){} // RVA: 0x7FFD55409C20
@@ -36,6 +42,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ArrayFormatterLocator : Object
     {
+        public System.Collections.Generic.Dictionary`2<System.Type,VRC.Udon.Serialization.OdinSerializer.IFormatter> FormatterInstances;
+
         // ── Methods ──
         public void TryGetFormatter(){} // RVA: 0x7FFD55401D00
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -44,6 +52,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ArrayFormatter`1 : BaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> valueReaderWriter;
+
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0x7FFD4E078E90
         public void DeserializeImplementation(){} // RVA: 0x7FFD4E099B30
@@ -54,6 +64,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ArrayListFormatter : BaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<object> ObjectSerializer;
+
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0x7FFD4E919180
         public void DeserializeImplementation(){} // RVA: 0x7FFD554079D0

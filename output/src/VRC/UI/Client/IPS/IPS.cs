@@ -7,7 +7,8 @@ namespace VRC.UI.Client.IPS
 {
     public class IpsProvidedContentLoader`2 : Object
     {
-        public object PagedData;
+        public ÌÍÎÏÌÍÏÌÏÌÌÏÏÌÍÏÍÎÍÍÌÏÌ PagedData;
+        public int PAGE_SIZE;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E078E90

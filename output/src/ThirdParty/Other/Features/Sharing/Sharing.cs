@@ -7,10 +7,12 @@ namespace ThirdParty.Other.Features.Sharing
 {
     public class SharableContentData : Object
     {
-        public object Key;
-        public object Content;
-        public object OwnerID;
-        public object Hidden;
+        public bool Key; // 0x10
+        public 0x664D00A8 Content; // 0x18
+        public object OwnerID; // 0x20
+        public string Hidden; // 0x28
+        public bool <ÌÏÏÎÌÎÍÏÌÌÌÏÍÏÌÏÏÎÌÌÏÎÍ>k__BackingField; // 0x30
+        public 0x665CC810 _resetSequence; // 0x38
 
         // ── Methods ──
         public void set_Key(){} // RVA: 0x7FFD4E3A7E80

@@ -7,9 +7,21 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class CastInstruction : Instruction
     {
-        public object ConsumedStack;
-        public object ProducedStack;
-        public object InstructionName;
+        public System.Linq.Expressions.Interpreter.CastInstruction ConsumedStack;
+        public System.Linq.Expressions.Interpreter.CastInstruction ProducedStack; // 0x8
+        public System.Linq.Expressions.Interpreter.CastInstruction InstructionName; // 0x10
+        public System.Linq.Expressions.Interpreter.CastInstruction s_DateTime; // 0x18
+        public System.Linq.Expressions.Interpreter.CastInstruction s_Decimal; // 0x20
+        public System.Linq.Expressions.Interpreter.CastInstruction s_Double; // 0x28
+        public System.Linq.Expressions.Interpreter.CastInstruction s_Int16; // 0x30
+        public System.Linq.Expressions.Interpreter.CastInstruction s_Int32; // 0x38
+        public System.Linq.Expressions.Interpreter.CastInstruction s_Int64; // 0x40
+        public System.Linq.Expressions.Interpreter.CastInstruction s_SByte; // 0x48
+        public System.Linq.Expressions.Interpreter.CastInstruction s_Single; // 0x50
+        public System.Linq.Expressions.Interpreter.CastInstruction s_String; // 0x58
+        public System.Linq.Expressions.Interpreter.CastInstruction s_UInt16; // 0x60
+        public System.Linq.Expressions.Interpreter.CastInstruction s_UInt32; // 0x68
+        public System.Linq.Expressions.Interpreter.CastInstruction s_UInt64; // 0x70
 
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x7FFD4E433AF0
@@ -21,7 +33,9 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class HybridReferenceDictionary`2 : Object
     {
-        public object Item;
+        public System.Collections.Generic.KeyValuePair`2<U,T>[] Item;
+        public System.Collections.Generic.Dictionary`2<U,T> _dict;
+        public int ArraySize;
 
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x7FFD4E2ADC40
@@ -36,13 +50,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class Instruction : Object
     {
-        public object ConsumedStack;
-        public object ProducedStack;
-        public object ConsumedContinuations;
-        public object ProducedContinuations;
-        public object StackBalance;
-        public object ContinuationsBalance;
-        public object InstructionName;
+        public int ConsumedStack;
 
         // ── Methods ──
         public void get_ConsumedStack(){} // RVA: 0x7FFD4E919180
@@ -62,10 +70,35 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class InstructionList : Object
     {
-        public object Count;
-        public object CurrentStackDepth;
-        public object CurrentContinuationsDepth;
-        public object MaxStackDepth;
+        public System.Collections.Generic.List`1<System.Linq.Expressions.Interpreter.Instruction> Count; // 0x10
+        public System.Collections.Generic.List`1<object> CurrentStackDepth; // 0x18
+        public int CurrentContinuationsDepth; // 0x20
+        public int MaxStackDepth; // 0x24
+        public int _currentContinuationsDepth; // 0x28
+        public int _maxContinuationDepth; // 0x2C
+        public int _runtimeLabelCount; // 0x30
+        public System.Collections.Generic.List`1<0x6654EA60> _labels; // 0x38
+        public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<int,object>> _debugCookies; // 0x40
+        public int PushIntMinCachedValue;
+        public int PushIntMaxCachedValue;
+        public int CachedObjectCount;
+        public System.Linq.Expressions.Interpreter.Instruction s_null;
+        public System.Linq.Expressions.Interpreter.Instruction s_true; // 0x8
+        public System.Linq.Expressions.Interpreter.Instruction s_false; // 0x10
+        public System.Linq.Expressions.Interpreter.Instruction[] s_Ints; // 0x18
+        public System.Linq.Expressions.Interpreter.Instruction[] s_loadObjectCached; // 0x20
+        public int LocalInstrCacheSize;
+        public System.Linq.Expressions.Interpreter.Instruction[] s_loadLocal; // 0x28
+        public System.Linq.Expressions.Interpreter.Instruction[] s_loadLocalBoxed; // 0x30
+        public System.Linq.Expressions.Interpreter.Instruction[] s_loadLocalFromClosure; // 0x38
+        public System.Linq.Expressions.Interpreter.Instruction[] s_loadLocalFromClosureBoxed; // 0x40
+        public System.Linq.Expressions.Interpreter.Instruction[] s_assignLocal; // 0x48
+        public System.Linq.Expressions.Interpreter.Instruction[] s_storeLocal; // 0x50
+        public System.Linq.Expressions.Interpreter.Instruction[] s_assignLocalBoxed; // 0x58
+        public System.Linq.Expressions.Interpreter.Instruction[] s_storeLocalBoxed; // 0x60
+        public System.Linq.Expressions.Interpreter.Instruction[] s_assignLocalToClosure; // 0x68
+        public System.Collections.Generic.Dictionary`2<System.Reflection.FieldInfo,System.Linq.Expressions.Interpreter.Instruction> s_loadFields; // 0x70
+        public 0x6654EA08[] s_emptyRuntimeLabels; // 0x78
 
         // ── Methods ──
         public void Emit(){} // RVA: 0x7FFD541D46E0
@@ -183,8 +216,7 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class IntSwitchInstruction`1 : Instruction
     {
-        public object InstructionName;
-        public object ConsumedStack;
+        public System.Collections.Generic.Dictionary`2<T,int> InstructionName;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -195,8 +227,11 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LabelInfo : Object
     {
-        public object HasDefinitions;
-        public object HasMultipleDefinitions;
+        public 0x6654CA68 HasDefinitions; // 0x10
+        public 0x6654EA60 HasMultipleDefinitions; // 0x18
+        public object _definitions; // 0x20
+        public System.Collections.Generic.List`1<0x665516B8> _references; // 0x28
+        public bool _acrossBlockJump; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541DD140
@@ -216,7 +251,15 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LightCompiler : Object
     {
-        public object Instructions;
+        public System.Linq.Expressions.Interpreter.InstructionList Instructions; // 0x10
+        public 0x66553238 _locals; // 0x18
+        public System.Collections.Generic.List`1<0x66552478> _debugInfos; // 0x20
+        public System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<0x6654CA68,System.Linq.Expressions.Interpreter.LabelInfo> _treeLabels; // 0x28
+        public 0x665516B8 _labelBlock; // 0x30
+        public System.Collections.Generic.Stack`1<System.Linq.Expressions.ParameterExpression> _exceptionForRethrowStack; // 0x38
+        public System.Linq.Expressions.Interpreter.LightCompiler _parent; // 0x40
+        public System.Linq.Expressions.StackGuard _guard; // 0x48
+        public 0x66553188[] s_emptyLocals;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD541E43D0 | overloaded x2
@@ -311,7 +354,11 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class LightLambda : Object
     {
-        public object DebugView;
+        public int DebugView;
+        public System.Runtime.CompilerServices.IStrongBox[] _closure; // 0x10
+        public 0x66551558 _interpreter; // 0x18
+        public System.Dynamic.Utils.CacheDict`2<System.Type,System.Func`2<System.Linq.Expressions.Interpreter.LightLambda,System.Delegate>> _runCache;
+        public 0x66552840 _delegateCreator; // 0x20
 
         // ── Methods ──
         public void Run0(){} // RVA: 0x7FFD4E2ADC40
@@ -393,8 +440,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 
     public class QuoteInstruction : Instruction
     {
-        public object ProducedStack;
-        public object InstructionName;
+        public System.Linq.Expressions.Expression ProducedStack; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,0x66553130> InstructionName; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240

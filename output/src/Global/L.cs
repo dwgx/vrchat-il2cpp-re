@@ -5,11 +5,15 @@
 
 public class Label : ValueType
 {
+    public string name; // 0x10
+    public UnityEngine.Texture2D icon; // 0x18
 }
 
 public class LambdaSignature`1 : Object
 {
-    public object Instance;
+    public LambdaSignature`1<T> Instance;
+    public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression> Parameters;
+    public 0x6654CA68 ReturnLabel;
 
     // ── Methods ──
     public void get_Instance(){} // RVA: 0x7FFD4E078A90
@@ -18,6 +22,21 @@ public class LambdaSignature`1 : Object
 
 public class LayoutJson : ValueType
 {
+    public string name; // 0x10
+    public string extend; // 0x18
+    public string[] extendMultiple; // 0x20
+    public string format; // 0x28
+    public string beforeRender; // 0x30
+    public string runInBackground; // 0x38
+    public string[] commonUsages; // 0x40
+    public string displayName; // 0x48
+    public string description; // 0x50
+    public string type; // 0x58
+    public string variant; // 0x60
+    public bool isGenericTypeOfDevice; // 0x68
+    public bool hideInUI; // 0x69
+    public ControlItemJson[] controls; // 0x70
+
     // ── Methods ──
     public void ToLayout(){} // RVA: 0x7FFD54AB19A0
     public void FromLayout(){} // RVA: 0x7FFD54AB2670
@@ -25,15 +44,21 @@ public class LayoutJson : ValueType
 
 public class LayoutJsonNameAndDescriptorOnly : ValueType
 {
+    public string name; // 0x10
+    public string extend; // 0x18
+    public string[] extendMultiple; // 0x20
+    public MatcherJson device; // 0x28
 }
 
 public class LayoutMatcher : ValueType
 {
+    public UnityEngine.InputSystem.Utilities.InternedString layoutName; // 0x10
+    public UnityEngine.InputSystem.Layouts.InputDeviceMatcher deviceMatcher; // 0x20
 }
 
 public class LayoutNotFoundException : Exception
 {
-    public object layout;
+    public string layout; // 0x90
 
     // ── Methods ──
     public void get_layout(){} // RVA: 0x7FFD4E70F640
@@ -42,6 +67,10 @@ public class LayoutNotFoundException : Exception
 
 public class LazyCAttrData : Object
 {
+    public System.Reflection.Assembly assembly; // 0x10
+    public UIntPtr data; // 0x18
+    public uint data_length; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -56,7 +85,9 @@ public class LegacyFixedAnimationUpdate : ValueType
 
 public class LegacySignalSource : Object
 {
-    public object SignalDuration;
+    public Cinemachine.CinemachineImpulseDefinition SignalDuration; // 0x10
+    public UnityEngine.Vector3 m_Velocity; // 0x18
+    public float m_StartTimeOffset; // 0x24
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC77B20
@@ -66,24 +97,15 @@ public class LegacySignalSource : Object
 
 public class LifetimeByEmitterSpeedModule : ValueType
 {
+    public UnityEngine.ParticleSystem m_ParticleSystem; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
 }
 
 public class LightsModule : ValueType
 {
-    public object enabled;
-    public object ratio;
-    public object useRandomDistribution;
-    public object light;
-    public object useParticleColor;
-    public object sizeAffectsRange;
-    public object alphaAffectsIntensity;
-    public object range;
-    public object rangeMultiplier;
-    public object intensity;
-    public object intensityMultiplier;
-    public object maxLights;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -139,22 +161,7 @@ public class LightsModule : ValueType
 
 public class LimitVelocityOverLifetimeModule : ValueType
 {
-    public object enabled;
-    public object limitX;
-    public object limitXMultiplier;
-    public object limitY;
-    public object limitYMultiplier;
-    public object limitZ;
-    public object limitZMultiplier;
-    public object limit;
-    public object limitMultiplier;
-    public object dampen;
-    public object separateAxes;
-    public object space;
-    public object drag;
-    public object dragMultiplier;
-    public object multiplyDragByParticleSize;
-    public object multiplyDragByParticleVelocity;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -226,18 +233,26 @@ public class LimitVelocityOverLifetimeModule : ValueType
 
 public class LineSegment : ValueType
 {
+    public UnityEngine.Vector3 Point1; // 0x10
+    public UnityEngine.Vector3 Point2; // 0x1C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E34ADF0
 }
 
 public class LinkImage : Object
 {
+    public string url; // 0x10
+    public UnityEngine.Texture texture; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class Linked1CancellationTokenSource : CancellationTokenSource
 {
+    public System.Threading.CancellationTokenRegistration _reg1; // 0x40
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53ADEE00
     public void Dispose(){} // RVA: 0x7FFD53ADEF80
@@ -245,6 +260,9 @@ public class Linked1CancellationTokenSource : CancellationTokenSource
 
 public class Linked2CancellationTokenSource : CancellationTokenSource
 {
+    public System.Threading.CancellationTokenRegistration _reg1; // 0x40
+    public System.Threading.CancellationTokenRegistration _reg2; // 0x58
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53ADEFC0
     public void Dispose(){} // RVA: 0x7FFD53ADF230
@@ -252,6 +270,9 @@ public class Linked2CancellationTokenSource : CancellationTokenSource
 
 public class LinkedNCancellationTokenSource : CancellationTokenSource
 {
+    public System.Action`1<object> s_linkedTokenCancelDelegate;
+    public System.Threading.CancellationTokenRegistration[] _linkingRegistrations; // 0x40
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53ADF280
     public void Dispose(){} // RVA: 0x7FFD53ADF4B0
@@ -260,18 +281,26 @@ public class LinkedNCancellationTokenSource : CancellationTokenSource
 
 public class LinkedSlot : Object
 {
+    public LinkedSlot<int> Next; // 0x10
+    public LinkedSlot<int> Previous; // 0x18
+    public LinkedSlotVolatile<int>[] SlotArray; // 0x20
+    public int Value; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
 }
 
 public class LinkedSlotVolatile : ValueType
 {
+    public LinkedSlot<int> Value; // 0x10
 }
 
 public class ListBuilder`1 : ValueType
 {
-    public object Item;
-    public object Count;
+    public System.Reflection.PropertyInfo[] Item; // 0x10
+    public System.Reflection.PropertyInfo Count; // 0x18
+    public int _count; // 0x20
+    public int _capacity; // 0x24
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -284,12 +313,12 @@ public class ListBuilder`1 : ValueType
 
 public class ListDummy`1 : Object
 {
+    public T[] Items;
 }
 
 public class ListElementProperty : Property`2
 {
-    public object Index;
-    public object Name;
+    public int Index;
 
     // ── Methods ──
     public void get_Index(){} // RVA: 0x7FFD4E079960
@@ -299,7 +328,9 @@ public class ListElementProperty : Property`2
 
 public class ListIterator`1 : ValueType
 {
-    public object Current;
+    public bool Current;
+    public System.Collections.Generic.List`1<T> list;
+    public Enumerator<T> enumerator;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -311,8 +342,7 @@ public class ListIterator`1 : ValueType
 
 public class ListOfTWrapper`1 : Object
 {
-    public object Count;
-    public object Item;
+    public System.Collections.Generic.IList`1<T> Count;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -324,13 +354,15 @@ public class ListOfTWrapper`1 : Object
 
 public class ListPoolImpl`1 : Object
 {
+    public VRC.Core.Pool.ObjectPool`1<System.Collections.Generic.List`1<VRC.SDKBase.INetworkID>> Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
 }
 
 public class ListQueryMatcher`1 : UQueryMatcher
 {
-    public object matches;
+    public System.Collections.Generic.List`1<T> matches;
 
     // ── Methods ──
     public void get_matches(){} // RVA: 0x7FFD4E078E90
@@ -342,8 +374,7 @@ public class ListQueryMatcher`1 : UQueryMatcher
 
 public class ListWrapper`1 : ValueType
 {
-    public object Count;
-    public object Item;
+    public System.Collections.Generic.IReadOnlyList`1<System.Collections.Generic.IReadOnlyDictionary`2<string,object>> Count; // 0x10
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -355,6 +386,9 @@ public class ListWrapper`1 : ValueType
 
 public class LiteralList : ValueType
 {
+    public System.Collections.Generic.List`1<string> literals; // 0x10
+    public System.IO.Hashing.XxHash3 xxhash; // 0xFFFF
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
     public void GetHashCode(){} // RVA: 0x7FFD5750CCD0
@@ -363,10 +397,10 @@ public class LiteralList : ValueType
 
 public class LoadOptions : ValueType
 {
-    public object StorageLocation;
-    public object MaxAnchorCount;
-    public object Timeout;
-    public object Uuids;
+    public 0x6650B148 StorageLocation; // 0x10
+    public int MaxAnchorCount; // 0x14
+    public double Timeout; // 0x18
+    public System.Collections.Generic.IReadOnlyList`1<System.Guid> Uuids; // 0x20
 
     // ── Methods ──
     public void get_StorageLocation(){} // RVA: 0x7FFD4F840210
@@ -382,6 +416,12 @@ public class LoadOptions : ValueType
 
 public class LoadingInfoData : ScriptableObject
 {
+    public string _textureName; // 0x18
+    public float weight; // 0x20
+    public bool isAnnouncement; // 0x24
+    public System.Collections.Generic.List`1<string> paragraphs; // 0x28
+    public UnityEngine.Texture _loadedTexture; // 0x30
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x7FFD4F6A4850
     public void CreateInstance(){} // RVA: 0x7FFD4F6A49F0
@@ -396,6 +436,17 @@ public class LoadingInfoData : ScriptableObject
 
 public class LoadingInfoSet : ScriptableObject
 {
+    public System.Collections.Generic.List`1<LoadingInfoData> loadingInfos; // 0x18
+    public LoadingInfoData announcementLoadingInfo; // 0x20
+    public LoadingInfoData twoFactorAuthenticationLoadingInfo; // 0x28
+    public LoadingInfoData communityLabsLoadingInfo; // 0x30
+    public System.Collections.Generic.List`1<int> loadingInfoCyclesBeforeRepeat; // 0x38
+    public int cyclesBeforeRepeat;
+    public bool displayCommunityLabsInfo; // 0x40
+    public System.Collections.Generic.List`1<UnityEngine.UI.Text> texts; // 0x48
+    public System.Collections.Generic.List`1<string> announcementsSeen;
+    public LoadingInfoData _currentLoadingInfoData; // 0x50
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x7FFD4F6A6D40
     public void CreateInstance(){} // RVA: 0x7FFD4F6A75B0
@@ -420,12 +471,21 @@ public class LoadingInfoSet : ScriptableObject
 
 public class LocalMinima : Object
 {
+    public long Y; // 0x10
+    public TEdge LeftBound; // 0x18
+    public TEdge RightBound; // 0x20
+    public LocalMinima Next; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class LockedStack : Object
 {
+    public 0x665C6FB8<Transmtn.DTO.Notifications.Notification>[][] _arrays; // 0x10
+    public int _count; // 0x18
+    public uint _firstStackItemMS; // 0x1C
+
     // ── Methods ──
     public void TryPush(){} // RVA: 0x7FFD4E079F60
     public void TryPop(){} // RVA: 0x7FFD4E078E90
@@ -442,8 +502,9 @@ public class LogCallback : MulticastDelegate
 
 public class LogValues`1 : ValueType
 {
-    public object Item;
-    public object Count;
+    public System.Func`3<LogValues`1<T>,System.Exception,string> Item;
+    public Microsoft.Extensions.Logging.LogValuesFormatter Count;
+    public T _value0;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -457,8 +518,10 @@ public class LogValues`1 : ValueType
 
 public class LogValues`2 : ValueType
 {
-    public object Item;
-    public object Count;
+    public System.Func`3<LogValues`2<U,T>,System.Exception,string> Item;
+    public Microsoft.Extensions.Logging.LogValuesFormatter Count;
+    public U _value0;
+    public T _value1;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -472,8 +535,11 @@ public class LogValues`2 : ValueType
 
 public class LogValues`3 : ValueType
 {
-    public object Count;
-    public object Item;
+    public System.Func`3<LogValues`3<U,V,T>,System.Exception,string> Count;
+    public Microsoft.Extensions.Logging.LogValuesFormatter Item;
+    public U _value0;
+    public V _value1;
+    public T _value2;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -487,8 +553,12 @@ public class LogValues`3 : ValueType
 
 public class LogValues`4 : ValueType
 {
-    public object Count;
-    public object Item;
+    public System.Func`3<LogValues`4<U,V,W,T>,System.Exception,string> Count;
+    public Microsoft.Extensions.Logging.LogValuesFormatter Item;
+    public U _value0;
+    public V _value1;
+    public W _value2;
+    public T _value3;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -503,8 +573,13 @@ public class LogValues`4 : ValueType
 
 public class LogValues`5 : ValueType
 {
-    public object Count;
-    public object Item;
+    public System.Func`3<LogValues`5<U,V,W,T4,T>,System.Exception,string> Count;
+    public Microsoft.Extensions.Logging.LogValuesFormatter Item;
+    public U _value0;
+    public V _value1;
+    public W _value2;
+    public T4 _value3;
+    public T _value4;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -519,8 +594,14 @@ public class LogValues`5 : ValueType
 
 public class LogValues`6 : ValueType
 {
-    public object Count;
-    public object Item;
+    public System.Func`3<LogValues`6<U,V,W,T4,T5,T>,System.Exception,string> Count;
+    public Microsoft.Extensions.Logging.LogValuesFormatter Item;
+    public U _value0;
+    public V _value1;
+    public W _value2;
+    public T4 _value3;
+    public T5 _value4;
+    public T _value5;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -543,8 +624,8 @@ public class LoggerFactoryDebugView : Object
 
 public class Lookup`2 : Object
 {
-    public object Item;
-    public object Count;
+    public Lookup`2<U,T> Item;
+    public System.Collections.Generic.Dictionary`2<U,Grouping`2<U,T>> Count;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -568,6 +649,11 @@ public class LowMemoryCallback : MulticastDelegate
 
 public class LowerCaseMapping : ValueType
 {
+    public char ChMin; // 0x10
+    public char ChMax; // 0x12
+    public int LcOp; // 0x14
+    public int Data; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD547C89D0
 }

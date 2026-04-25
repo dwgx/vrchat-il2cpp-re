@@ -8,17 +8,40 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÌÏÎÎÎÎÎÌÍÏÌÍÏÍÏÎÎÌÍÏÌ</summary>
     public class LightManager : MonoBehaviour
     {
-        public object _lightReservedLayerMask;
-        public object _useGUILayout;
-        public object f_839;
-        public object f_9F6;
-        public object f_9EB;
-        public object f_EA4;
-        public object f_B07;
-        public object f_DD3;
-        public object f_2E6;
-        public object f_096;
-        public object f_99A;
+        public ÏÌÍÎÏÌÎÌÎÎÎÎÍÏÍÎÎÏÎÌÍÌÍ _lightReservedLayerMask; // 0x20
+        public 0x66389750 _useGUILayout; // 0x78
+        public bool f_839; // 0x7C
+        public bool f_9F6; // 0x7D
+        public UnityEngine.GameObject f_9EB; // 0x80
+        public UnityEngine.Transform f_EA4; // 0x88
+        public UnityEngine.Transform f_B07; // 0x90
+        public UnityEngine.MeshFilter f_DD3; // 0x98
+        public UnityEngine.AudioSource f_2E6; // 0xA0
+        public UnityEngine.AudioClip f_096; // 0xA8
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ f_99A; // 0xB0
+        public UnityEngine.GameObject ÌÎÍÏÎÌÏÏÎÌÌÍÍÍÍÍÎÍÎÌÍÍÏ; // 0xB8
+        public UnityEngine.Transform ÎÎÌÏÏÌÏÎÏÏÏÎÍÏÎÍÍÌÎÌÍÎÎ; // 0xC0
+        public int ÌÏÌÎÍÏÏÍÍÍÌÍÏÍÍÌÍÏÌÌÌÏÎ; // 0xC8
+        public bool ÏÏÎÍÌÌÍÍÏÏÎÌÍÌÏÎÌÌÎÍÎÎÏ; // 0xCC
+        public bool ÏÎÌÍÎÍÌÍÌÏÏÏÎÍÌÎÏÍÎÏÏÌÏ; // 0xCD
+        public 0x663897A8 ÌÌÎÏÍÌÏÏÏÏÍÏÍÍÏÍÎÏÎÏÍÏÎ; // 0xD0
+        public UnityEngine.Vector3 ÌÌÏÏÌÎÏÍÌÎÍÏÍÍÍÍÎÌÏÏÌÌÎ; // 0xD4
+        public float ÌÍÌÌÎÏÎÍÎÌÎÏÎÎÏÌÏÏÍÎÌÏÌ; // 0xE0
+        public DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions> ÎÏÎÎÌÍÍÏÌÎÍÏÏÏÏÎÍÍÏÎÏÌÏ; // 0xE8
+        public ÏÌÎÌÍÎÌÏÏÎÏÎÍÌÌÍÏÍÍÌÏÏÎ<bool> <ÍÌÎÍÌÌÍÏÎÎÍÍÎÎÎÎÎÎÏÏÎÏÎ>k__BackingField; // 0xF0
+        public ÌÌÎÎÍÎÏÎÏÎÎÎÌÏÎÏÌÌÌÎÏÍÍ selector; // 0xF8
+        public UnityEngine.Vector3 ÎÏÍÌÏÏÌÏÎÌÌÏÏÏÍÍÏÌÎÏÎÏÏ; // 0x100
+        public float ÌÍÎÎÏÎÎÏÌÏÌÍÍÎÏÏÏÎÌÌÍÏÌ; // 0x10C
+        public float ÎÏÍÎÍÎÎÎÍÍÍÏÍÌÌÍÏÎÎÎÏÎÍ;
+        public float ÏÌÎÍÍÎÏÏÎÌÍÎÏÎÏÍÏÌÌÍÏÎÍ;
+        public float ÏÏÏÎÍÎÍÍÍÏÍÍÍÎÏÏÍÍÌÌÎÏÎ;
+        public ÍÌÌÏÍÏÎÎÎÏÎÏÏÏÏÌÎÍÌÎÏÍÌ ÍÎÎÏÍÌÌÌÍÍÎÌÏÍÌÏÍÍÏÌÌÏÎ; // 0x110
+        public VRC.Udon.ClientBindings.Interfaces.IUdonClientInterface ÎÍÍÎÍÏÏÏÌÎÌÌÏÌÏÎÌÎÍÏÌÍÏ; // 0x118
+        public VRC.Udon.Security.Interfaces.IUdonSecurityWhitelist`1<UnityEngine.Object> ÍÌÍÎÏÌÎÎÍÍÏÍÌÏÏÌÎÌÍÏÌÌÎ; // 0x120
+        public System.Collections.Generic.HashSet`1<System.Type> ÌÎÏÎÎÏÌÏÎÎÍÌÍÏÏÏÍÍÍÍÏÍÏ;
+        public bool <ÍÏÎÎÎÍÎÏÌÌÌÍÎÍÎÍÎÌÏÌÍÌÌ>k__BackingField; // 0x128
+        public System.Collections.Concurrent.ConcurrentDictionary`2<VRC.Udon.Security.IUdonSignatureHolder,bool> ÌÌÏÎÏÏÎÌÏÏÍÍÎÍÏÎÍÎÏÏÏÏÎ; // 0x130
+        public System.Nullable`1<VerifyKey> ÏÏÍÍÏÏÎÏÎÎÎÎÌÎÎÏÏÍÍÌÏÍÍ; // 0x138
 
         // ── Methods ──
         public void VRC.Udon.Security.IUdonSignatureVerifier.VerifySignature(){} // RVA: 0x7FFD4E74CA00
@@ -113,6 +136,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÏÌÌÏÌÌÏÍÍÌÏÏÌÏÍÎÍÎÏÍÏ</summary>
     public class List1Derived_5A8D : List`1
     {
+        public ÏÌÌÎÍÏÏÍÎÍÌÌÏÏÏÏÎÎÌÏÌÎÌ ÎÌÍÌÎÏÍÎÎÍÏÎÏÌÍÏÌÎÍÎÏÎÍ; // 0x28
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x7FFD4F990C40
         public void Contains(){} // RVA: 0x7FFD4F990FC0
@@ -144,6 +169,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÍÎÌÌÍÍÌÍÍÍÎÍÏÍÎÏÏÌÏÌ</summary>
     public class List1Derived_B854 : List`1
     {
+        public ÏÌÌÎÍÏÏÍÎÍÌÌÏÏÏÏÎÎÌÏÌÎÌ ÎÌÍÌÎÏÍÎÎÍÏÎÏÌÍÏÌÎÍÎÏÎÍ; // 0x28
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x7FFD4F98F370
         public void Contains(){} // RVA: 0x7FFD4F98F660

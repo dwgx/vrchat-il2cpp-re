@@ -7,6 +7,9 @@ namespace VRC.Core.Networking.Tween
 {
     public class AnimationEvent : TweenableValue`1
     {
+        public bool IsPlaying; // 0x40
+        public 0x665644E0[] States; // 0x48
+
         // ── Methods ──
         public void DeepCopy(){} // RVA: 0x7FFD551F2970
         public void Interpolate(){} // RVA: 0x7FFD551F2D60
@@ -16,6 +19,9 @@ namespace VRC.Core.Networking.Tween
 
     public class AnimatorEvent : TweenableValue`1
     {
+        public 0x66564590[] Layers; // 0x40
+        public 0x665645E8[] Parameters; // 0x48
+
         // ── Methods ──
         public void DeepCopy(){} // RVA: 0x7FFD551F3730
         public void Interpolate(){} // RVA: 0x7FFD551F3D40
@@ -31,6 +37,8 @@ namespace VRC.Core.Networking.Tween
 
     public class TweenFunctions : Object
     {
+        public bool TolerateOutOfBounds;
+
         // ── Methods ──
         public void PoseTween(){} // RVA: 0x7FFD551F4CA0
         public void CubicBezierTween(){} // RVA: 0x7FFD551F6F00 | overloaded x2
@@ -48,7 +56,13 @@ namespace VRC.Core.Networking.Tween
 
     public class TweenableValue`1 : Object
     {
-        public object Time;
+        public float Time; // 0x10
+        public float Delta; // 0x14
+        public ÏÎÌÍÍÎÎÎÍÍÏÌÌÌÏÏÍÌÏÎÏÌÏ A; // 0x18
+        public ÏÎÌÍÍÎÎÎÍÍÏÌÌÌÏÏÍÌÏÎÏÌÏ B; // 0x20
+        public ÏÎÌÍÍÎÎÎÍÍÏÌÌÌÏÏÍÌÏÎÏÌÏ C; // 0x28
+        public ÏÎÌÍÍÎÎÎÍÍÏÌÌÌÏÏÍÌÏÎÏÌÏ D; // 0x30
+        public bool tweenSuccess; // 0x38
 
         // ── Methods ──
         public void get_Time(){} // RVA: 0x7FFD4E08D880

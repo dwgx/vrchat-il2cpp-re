@@ -5,10 +5,20 @@
 
 public class BakeTextureOutput : ValueType
 {
+    public UnityEngine.Texture2D vertices; // 0x10
+    public UnityEngine.Texture2D indices; // 0x18
 }
 
 public class BakedSolution : Object
 {
+    public float m_FrustumSizeIntSpace; // 0x10
+    public AspectStretcher m_AspectStretcher; // 0x14
+    public bool m_HasBones; // 0x20
+    public double m_SqrPolygonDiagonal; // 0x28
+    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<IntPoint>> m_OriginalPolygon; // 0x30
+    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<IntPoint>> m_Solution; // 0x38
+    public double k_ClipperEpsilon;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC6B2A0
     public void IsValid(){} // RVA: 0x7FFD4FC6B3D0
@@ -23,11 +33,24 @@ public class BakedSolution : Object
 
 public class BakingStateCache : ValueType
 {
+    public ClipperOffset offsetter; // 0x10
+    public System.Collections.Generic.List`1<PolygonSolution> solutions; // 0x18
+    public PolygonSolution rightCandidate; // 0x20
+    public PolygonSolution leftCandidate; // 0x30
+    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<IntPoint>> maxCandidate; // 0x40
+    public float stepSize; // 0x48
+    public float maxFrustumHeight; // 0x4C
+    public float userSetMaxFrustumHeight; // 0x50
+    public float theoriticalMaxFrustumHeight; // 0x54
+    public float currentFrustumHeight; // 0x58
+    public float bakeTime; // 0x5C
 }
 
 public class BaseVisualElementScheduledItem : ScheduledItem
 {
-    public object element;
+    public UnityEngine.UIElements.VisualElement element; // 0x38
+    public bool isScheduled; // 0x40
+    public 0x66486F38 m_Activator; // 0x48
 
     // ── Methods ──
     public void get_element(){} // RVA: 0x7FFD4E5F0140
@@ -50,15 +73,19 @@ public class BatchModeUpdate : ValueType
 
 public class BinderState : Object
 {
+    public int[] m_argsMap; // 0x10
+    public int m_originalSize; // 0x18
+    public bool m_isParamArray; // 0x1C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A95550
 }
 
 public class BindingSyntax : ValueType
 {
-    public object valid;
-    public object bindingIndex;
-    public object binding;
+    public UnityEngine.InputSystem.InputActionMap valid; // 0x10
+    public UnityEngine.InputSystem.InputAction bindingIndex; // 0x18
+    public int binding; // 0x20
 
     // ── Methods ──
     public void get_valid(){} // RVA: 0x7FFD5495F330
@@ -90,7 +117,8 @@ public class BindingSyntax : ValueType
 
 public class BitRegion : ValueType
 {
-    public object isEmpty;
+    public uint isEmpty; // 0x10
+    public uint sizeInBits; // 0x14
 
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x7FFD5498A470
@@ -100,6 +128,11 @@ public class BitRegion : ValueType
 
 public class BlendshapesConfig : Object
 {
+    public UnityEngine.SkinnedMeshRenderer skinnedMeshRenderer; // 0x10
+    public int blendShapeCount; // 0x18
+    public string[] blendshapeNames; // 0x20
+    public float[] blendshapeWeights; // 0x28
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4F92A230
     public void Equals(){} // RVA: 0x7FFD4F92A430
@@ -116,15 +149,24 @@ public class BlendshapesConfig : Object
 
 public class BlendshapesConfigForExport : Object
 {
+    public string skinnedMeshRendererPath; // 0x10
+    public int blendShapeCount; // 0x18
+    public string[] blendshapeNames; // 0x20
+    public float[] blendshapeWeights; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class Block : ValueType
 {
-    public object Bytes;
-    public object AllocatedBytes;
-    public object Alignment;
+    public Range Bytes; // 0x10
+    public int AllocatedBytes; // 0x20
+    public int Alignment; // 0x24
+    public byte Log2Alignment; // 0x28
+    public byte Padding0; // 0x29
+    public ushort Padding1; // 0x2A
+    public uint Padding2; // 0x2C
 
     // ── Methods ──
     public void get_Bytes(){} // RVA: 0x7FFD5492F3E0
@@ -137,7 +179,50 @@ public class Block : ValueType
 
 public class Bone : ValueType
 {
-    public object isSimulated;
+    public int isSimulated; // 0x10
+    public int parentIndex; // 0x14
+    public bool isEndBone; // 0x18
+    public 0x665BFB30 simulatedType; // 0x1C
+    public int boneChainIndex; // 0x20
+    public Unity.Mathematics.quaternion localPoseRotation; // 0x24
+    public Unity.Mathematics.float3 localBoneVector; // 0x34
+    public Unity.Mathematics.float3 localPoseBoneVector; // 0x40
+    public Unity.Mathematics.float3 originalLocalPosition; // 0x4C
+    public Unity.Mathematics.quaternion originalLocalRotation; // 0x58
+    public Unity.Mathematics.float3 originalLocalVector; // 0x68
+    public float originalLocalBoneLength; // 0x74
+    public float globalRestLength; // 0x78
+    public Unity.Mathematics.float3 originalRootEndpoint; // 0x7C
+    public Unity.Mathematics.float3 originalLocalGravityNormal; // 0x88
+    public Unity.Mathematics.float3 beginPoint; // 0x94
+    public Unity.Mathematics.float3 endPoint; // 0xA0
+    public Unity.Mathematics.float3 prevVelocity; // 0xAC
+    public Unity.Mathematics.float3 immobileEndpoint; // 0xB8
+    public Unity.Mathematics.float3 prevEndPoint; // 0xC4
+    public Unity.Mathematics.float3 prevVector; // 0xD0
+    public Unity.Mathematics.quaternion prevLocalRotation; // 0xDC
+    public float totalRestLength; // 0xEC
+    public float totalLength; // 0xF0
+    public float totalMinRestLength; // 0xF4
+    public float totalMaxRestLength; // 0xF8
+    public 0x665BFB88 grabStatus; // 0xFC
+    public float pull; // 0x100
+    public float spring; // 0x104
+    public float stiffness; // 0x108
+    public float gravity; // 0x10C
+    public float gravityFalloff; // 0x110
+    public float immobile; // 0x114
+    public float radiusBegin; // 0x118
+    public float radiusEnd; // 0x11C
+    public float globalRadiusBegin; // 0x120
+    public float globalRadiusEnd; // 0x124
+    public Unity.Mathematics.float2 maxAngle; // 0x128
+    public Unity.Mathematics.float3 limitAxisX; // 0x130
+    public Unity.Mathematics.float3 limitAxisY; // 0x13C
+    public Unity.Mathematics.float3 limitRotation; // 0x148
+    public float stretchMotion; // 0x154
+    public float stretch; // 0x158
+    public float squish; // 0x15C
 
     // ── Methods ──
     public void get_isSimulated(){} // RVA: 0x7FFD55262AC0
@@ -166,6 +251,10 @@ public class BoolEvent : UnityEvent`1
 
 public class BoundedChannelReader : ChannelReader`1
 {
+    public System.Threading.Channels.BoundedChannel`1<T> _parent;
+    public System.Threading.Channels.AsyncOperation`1<T> _readerSingleton;
+    public System.Threading.Channels.AsyncOperation`1<bool> _waiterSingleton;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void TryRead(){} // RVA: 0x7FFD4E079F60
@@ -175,6 +264,10 @@ public class BoundedChannelReader : ChannelReader`1
 
 public class BoundedChannelWriter : ChannelWriter`1
 {
+    public System.Threading.Channels.BoundedChannel`1<T> _parent;
+    public System.Threading.Channels.VoidAsyncOperationWithData`1<T> _writerSingleton;
+    public System.Threading.Channels.AsyncOperation`1<bool> _waiterSingleton;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void TryComplete(){} // RVA: 0x7FFD4E079F60
@@ -185,6 +278,8 @@ public class BoundedChannelWriter : ChannelWriter`1
 
 public class BoxAvoidance : Object
 {
+    public System.Func`2<T,int> _wrapper;
+
     // ── Methods ──
     public void ToInt(){} // RVA: 0x7FFD4E2ADC40
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -198,7 +293,12 @@ public class BrainEvent : UnityEvent`1
 
 public class BrainFrame : Object
 {
-    public object Active;
+    public int Active; // 0x10
+    public Cinemachine.CinemachineBlend blend; // 0x18
+    public Cinemachine.CinemachineBlend workingBlend; // 0x20
+    public Cinemachine.BlendSourceVirtualCamera workingBlendSource; // 0x28
+    public float deltaTimeOverride; // 0x30
+    public float blendStartPosition; // 0x34
 
     // ── Methods ──
     public void get_Active(){} // RVA: 0x7FFD4FC175C0
@@ -207,7 +307,11 @@ public class BrainFrame : Object
 
 public class Bucket : Object
 {
-    public object Id;
+    public int Id;
+    public T[][] _buffers;
+    public int _poolId;
+    public System.Threading.SpinLock _lock;
+    public int _index;
 
     // ── Methods ──
     public void .ctor(){}
@@ -218,6 +322,8 @@ public class Bucket : Object
 
 public class BufferedAsyncEnumerable : Object
 {
+    public System.Collections.Generic.List`1<T> _buffer;
+
     // ── Methods ──
     public void GetAsyncEnumerator(){}
     public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -225,6 +331,17 @@ public class BufferedAsyncEnumerable : Object
 
 public class BufferedAudioStream : Object
 {
+    public bool VerboseLogging;
+    public UnityEngine.AudioSource audio; // 0x10
+    public float[] audioBuffer; // 0x18
+    public int writePos; // 0x20
+    public float bufferLengthSeconds;
+    public int sampleRate;
+    public int bufferSize;
+    public float playbackDelayTimeSeconds;
+    public float playbackDelayRemaining; // 0x24
+    public float remainingBufferTime; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53C384F0
     public void Update(){} // RVA: 0x7FFD53C386E0
@@ -234,10 +351,7 @@ public class BufferedAudioStream : Object
 
 public class Builder : Object
 {
-    public object Capacity;
-    public object Count;
-    public object Item;
-    public object System.Collections.Generic.ICollection<T>.IsReadOnly;
+    public int Capacity; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -271,13 +385,11 @@ public class BuiltInUriParser : UriParser
 
 public class Burst : ValueType
 {
-    public object time;
-    public object count;
-    public object minCount;
-    public object maxCount;
-    public object cycleCount;
-    public object repeatInterval;
-    public object probability;
+    public float time; // 0x10
+    public MinMaxCurve count; // 0x18
+    public int minCount; // 0x38
+    public float maxCount; // 0x3C
+    public float cycleCount; // 0x40
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54D709D0 | overloaded x5
@@ -299,6 +411,9 @@ public class Burst : ValueType
 
 public class BurstCompilerHelper : Object
 {
+    public IsBurstEnabledDelegate IsBurstEnabledImpl;
+    public bool IsBurstGenerated; // 0x8
+
     // ── Methods ──
     public void IsBurstEnabled(){} // RVA: 0x7FFD54926440
     public void DiscardedMethod(){} // RVA: 0x7FFD4FDDD6A0
@@ -309,6 +424,9 @@ public class BurstCompilerHelper : Object
 
 public class Button : ValueType
 {
+    public UnityEngine.UI.RawImage icon; // 0x10
+    public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ text; // 0x18
+    public string previousText; // 0x20
 }
 
 public class ButtonClickedEvent : UnityEvent
@@ -319,10 +437,16 @@ public class ButtonClickedEvent : UnityEvent
 
 public class ButtonState : Object
 {
+    public 0x665ABE98 m_Button; // 0x10
+    public MouseButtonEventData m_EventData; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4F6F7180
 }
 
 public class bucket : ValueType
 {
+    public object key; // 0x10
+    public object val; // 0x18
+    public int hash_coll; // 0x20
 }

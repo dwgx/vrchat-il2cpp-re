@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 {
     public class AllocFreeConcurrentStack`1 : Object
     {
-        public object ThreadLocalStack;
+        public System.Type ThreadLocalStack;
 
         // ── Methods ──
         public void TryAdd(){} // RVA: 0x7FFD4E2ADC40
@@ -18,10 +18,7 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class DictionaryEnumerator`2 : Object
     {
-        public object Entry;
-        public object Key;
-        public object Value;
-        public object Current;
+        public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<U,T>> Entry;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -35,7 +32,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class DisposableEnumeratorAdapter`2 : ValueType
     {
-        public object Current;
+        public System.Collections.Generic.IEnumerator`1<string> Current; // 0x10
+        public Enumerator<string> _enumeratorStruct; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -63,8 +61,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class IOrderedCollection`1
     {
-        public object Count;
-        public object Item;
+        public int Count;
+        public System.Runtime.CompilerServices.AsyncIteratorMethodBuilder Item;
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -91,6 +89,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray : Object
     {
+        public byte[] TwoElementArray;
+
         // ── Methods ──
         public void CreateBuilder(){} // RVA: 0x7FFD4E07E8C0
         public void .cctor(){} // RVA: 0x7FFD53E74A70
@@ -98,21 +98,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
-        public object System.Collections.Generic.IList<T>.Item;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
-        public object System.Collections.Generic.ICollection<T>.Count;
-        public object System.Collections.Generic.IReadOnlyCollection<T>.Count;
-        public object System.Collections.Generic.IReadOnlyList<T>.Item;
-        public object System.Collections.IList.IsFixedSize;
-        public object System.Collections.IList.IsReadOnly;
-        public object System.Collections.ICollection.Count;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.IList.Item;
-        public object Item;
-        public object Length;
-        public object IsDefault;
-        public object System.Collections.Immutable.IImmutableArray.Array;
+        public System.Collections.Immutable.ImmutableArray`1<UnityEngine.RequireComponent> System.Collections.Generic.IList<T>.Item;
+        public UnityEngine.RequireComponent[] System.Collections.Generic.ICollection<T>.IsReadOnly; // 0x10
 
         // ── Methods ──
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0x7FFD4E2ADC40
@@ -171,24 +158,11 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableDictionary`2 : Object
     {
-        public object Count;
-        public object IsEmpty;
-        public object ValueComparer;
-        public object Keys;
-        public object Values;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Values;
-        public object Origin;
-        public object Item;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Item;
-        public object System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
-        public object System.Collections.IDictionary.IsFixedSize;
-        public object System.Collections.IDictionary.IsReadOnly;
-        public object System.Collections.IDictionary.Keys;
-        public object System.Collections.IDictionary.Values;
-        public object System.Collections.IDictionary.Item;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.ICollection.IsSynchronized;
+        public System.Collections.Immutable.ImmutableDictionary`2<U,T> Count;
+        public System.Action`1<System.Collections.Generic.KeyValuePair`2<int,HashBucket<U,T>>> IsEmpty;
+        public int ValueComparer;
+        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<U,T>> Keys;
+        public Comparers<U,T> Values;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -254,13 +228,12 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableHashSet`1 : Object
     {
-        public object Count;
-        public object IsEmpty;
-        public object KeyComparer;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object Origin;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
+        public System.Collections.Immutable.ImmutableHashSet`1<string> Count;
+        public System.Action`1<System.Collections.Generic.KeyValuePair`2<int,HashBucket<string>>> IsEmpty; // 0x8
+        public System.Collections.Generic.IEqualityComparer`1<string> KeyComparer; // 0x10
+        public int System.Collections.ICollection.SyncRoot; // 0x18
+        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> System.Collections.ICollection.IsSynchronized; // 0x20
+        public System.Collections.Generic.IEqualityComparer`1<HashBucket<string>> Origin; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -298,17 +271,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableList`1 : Object
     {
-        public object IsEmpty;
-        public object Count;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object Item;
-        public object System.Collections.Immutable.IOrderedCollection<T>.Item;
-        public object System.Collections.Generic.IList<T>.Item;
-        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
-        public object System.Collections.IList.IsFixedSize;
-        public object System.Collections.IList.IsReadOnly;
-        public object System.Collections.IList.Item;
+        public System.Collections.Immutable.ImmutableList`1<T> IsEmpty;
+        public Node<T> Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -356,24 +320,11 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableSortedDictionary`2 : Object
     {
-        public object ValueComparer;
-        public object IsEmpty;
-        public object Count;
-        public object Keys;
-        public object Values;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Keys;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Values;
-        public object System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly;
-        public object KeyComparer;
-        public object Item;
-        public object System.Collections.Generic.IDictionary<TKey,TValue>.Item;
-        public object System.Collections.IDictionary.IsFixedSize;
-        public object System.Collections.IDictionary.IsReadOnly;
-        public object System.Collections.IDictionary.Keys;
-        public object System.Collections.IDictionary.Values;
-        public object System.Collections.IDictionary.Item;
-        public object System.Collections.ICollection.SyncRoot;
-        public object System.Collections.ICollection.IsSynchronized;
+        public System.Collections.Immutable.ImmutableSortedDictionary`2<U,T> ValueComparer;
+        public Node<U,T> IsEmpty;
+        public int Count;
+        public System.Collections.Generic.IComparer`1<U> Keys;
+        public System.Collections.Generic.IEqualityComparer`1<T> Values;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30 | overloaded x2
@@ -434,11 +385,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class KeysOrValuesCollectionAccessor`3 : Object
     {
-        public object IsReadOnly;
-        public object Count;
-        public object Dictionary;
-        public object System.Collections.ICollection.IsSynchronized;
-        public object System.Collections.ICollection.SyncRoot;
+        public System.Collections.Immutable.IImmutableDictionary`2<U,T> IsReadOnly; // 0x10
+        public System.Collections.Generic.IEnumerable`1<T> Count; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -459,6 +407,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class RefAsValueType`1 : ValueType
     {
+        public Node<string> Value; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     }
@@ -485,7 +435,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SecurePooledObject`1 : Object
     {
-        public object Owner;
+        public System.Collections.Generic.Stack`1<System.Collections.Immutable.RefAsValueType`1<Node<string>>> Owner; // 0x10
+        public int _owner; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -498,11 +449,13 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SortedInt32KeyNode`1 : Object
     {
-        public object IsEmpty;
-        public object Height;
-        public object Left;
-        public object Right;
-        public object Value;
+        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> IsEmpty;
+        public int Height; // 0x10
+        public HashBucket<string> Left; // 0x18
+        public bool Right; // 0x28
+        public byte Value; // 0x29
+        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> _left; // 0x30
+        public System.Collections.Immutable.SortedInt32KeyNode`1<HashBucket<string>> _right; // 0x38
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2

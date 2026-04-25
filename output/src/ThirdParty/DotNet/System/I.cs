@@ -13,7 +13,7 @@ namespace ThirdParty.DotNet.System
 
     public class IAsyncResult
     {
-        public object IsCompleted;
+        public <>c<T> IsCompleted;
         public object AsyncWaitHandle;
         public object AsyncState;
         public object CompletedSynchronously;
@@ -142,8 +142,7 @@ namespace ThirdParty.DotNet.System
 
     public class Index : ValueType
     {
-        public object Value;
-        public object IsFromEnd;
+        public int Value; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E78D8B0 | overloaded x2
@@ -160,6 +159,10 @@ namespace ThirdParty.DotNet.System
 
     public class Int16 : ValueType
     {
+        public short m_value; // 0x10
+        public short MaxValue;
+        public short MinValue;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD53A4F060 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD5392EF20 | overloaded x2
@@ -188,6 +191,10 @@ namespace ThirdParty.DotNet.System
 
     public class Int32 : ValueType
     {
+        public int m_value; // 0x10
+        public int MaxValue;
+        public int MinValue;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD500178F0 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD50017E90 | overloaded x2
@@ -216,6 +223,10 @@ namespace ThirdParty.DotNet.System
 
     public class Int64 : ValueType
     {
+        public long m_value; // 0x10
+        public long MaxValue;
+        public long MinValue;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD53A51640 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD512A61F0 | overloaded x2
@@ -244,7 +255,8 @@ namespace ThirdParty.DotNet.System
 
     public class IntPtr : ValueType
     {
-        public object Size;
+        public void* Size; // 0x10
+        public UIntPtr Zero;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53ABD520 | overloaded x4

@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System
 {
     public class SByte : ValueType
     {
+        public sbyte m_value; // 0x10
+        public sbyte MaxValue;
+        public sbyte MinValue;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD53A68900 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD5392CD20 | overloaded x2
@@ -35,6 +39,9 @@ namespace ThirdParty.DotNet.System
 
     public class SequencePosition : ValueType
     {
+        public object _object; // 0x10
+        public int _integer; // 0x18
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E77C3C0
         public void GetObject(){} // RVA: 0x7FFD4EEF9F60
@@ -51,6 +58,15 @@ namespace ThirdParty.DotNet.System
 
     public class Single : ValueType
     {
+        public float m_value; // 0x10
+        public float MinValue;
+        public float Epsilon;
+        public float MaxValue;
+        public float PositiveInfinity;
+        public float NegativeInfinity;
+        public float NaN;
+        public float NegativeZero;
+
         // ── Methods ──
         public void IsFinite(){} // RVA: 0x7FFD53A69A30
         public void IsInfinity(){} // RVA: 0x7FFD53A69A50
@@ -103,9 +119,8 @@ namespace ThirdParty.DotNet.System
 
     public class Span`1 : ValueType
     {
-        public object Item;
-        public object Length;
-        public object IsEmpty;
+        public System.ByReference`1<System.Collections.Generic.KeyValuePair`2<string,int>> Item; // 0x10
+        public int Length; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC0B650 | overloaded x4
@@ -128,8 +143,13 @@ namespace ThirdParty.DotNet.System
 
     public class String : Object
     {
-        public object Length;
-        public object Chars;
+        public int Length;
+        public int Chars;
+        public int PROBABILISTICMAP_BLOCK_INDEX_SHIFT;
+        public int PROBABILISTICMAP_SIZE;
+        public int _stringLength; // 0x10
+        public char _firstChar; // 0x14
+        public string Empty;
 
         // ── Methods ──
         public void EqualsHelper(){} // RVA: 0x7FFD537DB200
@@ -252,12 +272,10 @@ namespace ThirdParty.DotNet.System
 
     public class StringComparer : Object
     {
-        public object InvariantCulture;
-        public object InvariantCultureIgnoreCase;
-        public object CurrentCulture;
-        public object CurrentCultureIgnoreCase;
-        public object Ordinal;
-        public object OrdinalIgnoreCase;
+        public System.CultureAwareComparer InvariantCulture;
+        public System.CultureAwareComparer InvariantCultureIgnoreCase; // 0x8
+        public System.OrdinalCaseSensitiveComparer CurrentCulture; // 0x10
+        public System.OrdinalIgnoreCaseComparer CurrentCultureIgnoreCase; // 0x18
 
         // ── Methods ──
         public void get_InvariantCulture(){} // RVA: 0x7FFD53A6CA80

@@ -14,7 +14,7 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XContainer : XNode
     {
-        public object LastNode;
+        public object LastNode; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD544BAF30 | overloaded x2
@@ -46,9 +46,7 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XDocument : XContainer
     {
-        public object Declaration;
-        public object NodeType;
-        public object Root;
+        public ÍÌÎÎÌÎÎÌÍÏÏÏÍÍÌÍÎ.ÎÌÍÍÎÌÏÏÍÏÍÏÏÌÍÌÍ Declaration; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD544C0240 | overloaded x4
@@ -72,6 +70,8 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XHashtable`1 : Object
     {
+        public XHashtableState<T> _state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970
         public void TryGetValue(){}
@@ -80,6 +80,8 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XNode : XObject
     {
+        public System.Xml.Linq.XNode next; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void Remove(){} // RVA: 0x7FFD544C60B0
@@ -93,12 +95,8 @@ namespace ThirdParty.DotNet.System.Xml.Linq
 
     public class XObject : Object
     {
-        public object BaseUri;
-        public object NodeType;
-        public object Parent;
-        public object System.Xml.IXmlLineInfo.LineNumber;
-        public object System.Xml.IXmlLineInfo.LinePosition;
-        public object HasBaseUri;
+        public System.Xml.Linq.XContainer BaseUri; // 0x10
+        public object NodeType; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310

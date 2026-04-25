@@ -7,6 +7,8 @@ namespace ThirdParty.Valve.Valve.VR
 {
     public class Utils : Object
     {
+        public byte[] buffer;
+
         // ── Methods ──
         public void ToUtf8(){} // RVA: 0x7FFD54C15E10
         public void .ctor(){} // RVA: 0x7FFD4E341310

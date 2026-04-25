@@ -452,6 +452,9 @@ def main() -> int:
 
         if key in output["classes"]:
             duplicate_keys += 1
+            # Disambiguate by appending va so we don't lose data on
+            # fullname collisions (e.g. multiple <>c__DisplayClass).
+            key = f"{key}@0x{va:X}"
 
         output["classes"][key] = {
             "va": f"0x{va:X}",

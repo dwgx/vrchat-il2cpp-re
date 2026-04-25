@@ -7,7 +7,7 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 {
     public class DnsObject : Object
     {
-        public object CreationTime;
+        public System.DateTime CreationTime; // 0x10
 
         // ── Methods ──
         public void get_CreationTime(){} // RVA: 0x7FFD4E35C380
@@ -22,6 +22,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsOptionRegistry : Object
     {
+        public System.Collections.Generic.Dictionary`2<ÍÍ.ÏÎÎÍÍÍÍÍÍÏÎÍÏÍÌ,System.Func`1<ÍÍ.ÍÍÎÎÎÍÎÎÏÍÌÌÍ>> Options;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53672970
         public void Register(){} // RVA: 0x7FFD4E0909B0
@@ -29,6 +31,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class ResourceRegistry : Object
     {
+        public System.Collections.Generic.Dictionary`2<0x665E8CC8,System.Func`1<ÍÍ.ÎÏÎÎÎÎÍÌ>> Records;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD536821A0
         public void Register(){} // RVA: 0x7FFD4E0909B0

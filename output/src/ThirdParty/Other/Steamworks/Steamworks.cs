@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Steamworks
 {
     public class AppId : ValueType
     {
+        public uint Value; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD50006C00
         public void op_Implicit(){} // RVA: 0x7FFD50006C10
@@ -14,8 +16,10 @@ namespace ThirdParty.Other.Steamworks
 
     public class ConnectionManager : Object
     {
-        public object Interface;
-        public object ConnectionInfo;
+        public orPlus Interface; // 0x10
+        public Steamworks.Data.ConnectionInfo ConnectionInfo; // 0x18
+        public bool Connected; // 0x2D0
+        public bool Connecting; // 0x2D1
 
         // ── Methods ──
         public void get_Interface(){} // RVA: 0x7FFD4E35C380
@@ -28,8 +32,14 @@ namespace ThirdParty.Other.Steamworks
 
     public class Dispatch : Object
     {
-        public object ClientPipe;
-        public object ServerPipe;
+        public System.Action`3<ÍÌÏÌÎÏÎÏÏÎ,string,bool> ClientPipe;
+        public System.Action`1<System.Exception> ServerPipe; // 0x8
+        public Steamworks.Data.HSteamPipe <ClientPipe>k__BackingField; // 0x10
+        public Steamworks.Data.HSteamPipe <ServerPipe>k__BackingField; // 0x14
+        public bool runningFrame; // 0x18
+        public System.Collections.Generic.List`1<System.Action`1<UIntPtr>> actionsToCall; // 0x20
+        public System.Collections.Generic.Dictionary`2<ulong,ResultCallback> ResultCallbacks; // 0x28
+        public System.Collections.Generic.Dictionary`2<ÍÌÏÌÎÏÎÏÏÎ,System.Collections.Generic.List`1<Callback>> Callbacks; // 0x30
 
         // ── Methods ──
         public void SteamAPI_ManualDispatch_Init(){} // RVA: 0x7FFD4FFEB8B0
@@ -52,6 +62,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class Helpers : Object
     {
+        public byte[][] BufferPool;
+        public int BufferPoolIndex; // 0x8
+
         // ── Methods ──
         public void TakeMemory(){} // RVA: 0x7FFD50007620
         public void TakeBuffer(){} // RVA: 0x7FFD50007670
@@ -287,7 +300,10 @@ namespace ThirdParty.Other.Steamworks
 
     public class SocketManager : Object
     {
-        public object Interface;
+        public faceMirror Interface; // 0x10
+        public System.Collections.Generic.HashSet`1<Steamworks.Data.Connection> Connecting; // 0x18
+        public System.Collections.Generic.HashSet`1<Steamworks.Data.Connection> Connected; // 0x20
+        public Steamworks.Data.HSteamNetPollGroup pollGroup; // 0x28
 
         // ── Methods ──
         public void get_Interface(){} // RVA: 0x7FFD4E35C380
@@ -299,9 +315,7 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamApps : SteamSharedClass`1
     {
-        public object Internal;
-        public object CurrentBetaName;
-        public object CommandLine;
+        public System.Action Internal;
 
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x7FFD4FFF7150
@@ -324,10 +338,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamClient : Object
     {
-        public object IsValid;
-        public object SteamId;
-        public object Name;
-        public object AppId;
+        public bool IsValid;
+        public System.Collections.Generic.List`1<Steamworks.SteamClass> SteamId; // 0x8
+        public Steamworks.AppId Name; // 0x10
 
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD4FFF7620
@@ -345,6 +358,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamClientClass`1 : SteamClass
     {
+        public Steamworks.SteamInterface Interface;
+
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD4E091060
         public void SetInterface(){} // RVA: 0x7FFD4E091580
@@ -354,7 +369,16 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamFriends : SteamClientClass`1
     {
-        public object Internal;
+        public System.Collections.Generic.Dictionary`2<string,string> Internal;
+        public System.Action`3<0x665EEB50,string,string> OnChatMessage; // 0x8
+        public System.Action`3<0x665EEB50,string,string> OnClanChatMessage; // 0x10
+        public System.Action`1<0x665EEB50> OnPersonaStateChange; // 0x18
+        public System.Action`2<0x665EEB50,string> OnGameRichPresenceJoinRequested; // 0x20
+        public System.Action`1<bool> OnGameOverlayActivated; // 0x28
+        public System.Action`2<string,string> OnGameServerChangeRequested; // 0x30
+        public System.Action`2<0x665F4198,ÏÎÎÏÍÍ> OnGameLobbyJoinRequested; // 0x38
+        public System.Action`1<0x665EEB50> OnFriendRichPresenceUpdate; // 0x40
+        public System.Action`1<string> OnOverlayBrowserProtocol; // 0x48
 
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x7FFD4FFF83B0
@@ -369,6 +393,11 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamInput : SteamClientClass`1
     {
+        public Steamworks.Data.InputHandle_t[] queryArray;
+        public System.Collections.Generic.Dictionary`2<string,Steamworks.Data.InputDigitalActionHandle_t> DigitalHandles; // 0x8
+        public System.Collections.Generic.Dictionary`2<string,Steamworks.Data.InputAnalogActionHandle_t> AnalogHandles; // 0x10
+        public System.Collections.Generic.Dictionary`2<string,Steamworks.Data.InputActionSetHandle_t> ActionSets; // 0x18
+
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD4FFFA420
         public void .ctor(){} // RVA: 0x7FFD4FFFA4B0
@@ -377,7 +406,11 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamInterface : Object
     {
-        public object IsServer;
+        public UIntPtr IsServer; // 0x10
+        public UIntPtr SelfGlobal; // 0x18
+        public UIntPtr SelfServer; // 0x20
+        public UIntPtr SelfClient; // 0x28
+        public bool <IsServer>k__BackingField; // 0x30
 
         // ── Methods ──
         public void GetUserInterfacePointer(){} // RVA: 0x7FFD4E919180
@@ -390,9 +423,11 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamInventory : SteamSharedClass`1
     {
-        public object Internal;
-        public object Items;
-        public object Definitions;
+        public System.Action`1<0x665EEC58> Internal;
+        public System.Action Items; // 0x8
+        public 0x665EEC00[] Definitions; // 0x10
+        public ÎÌÍÎÌÌÎÍÏÌÌÎÎÍÍ[] <Definitions>k__BackingField; // 0x18
+        public System.Collections.Generic.Dictionary`2<int,ÎÌÍÎÌÌÎÍÏÌÌÎÎÍÍ> _defMap; // 0x20
 
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x7FFD4FFFA920
@@ -409,7 +444,18 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamMatchmaking : SteamClientClass`1
     {
-        public object Internal;
+        public System.Action`2<0x665EEB50,0x665F4198> Internal;
+        public System.Action`1<0x665F4198> OnLobbyEntered; // 0x8
+        public System.Action`2<0x665ED600,0x665F4198> OnLobbyCreated; // 0x10
+        public System.Action`4<0x665F4198,uint,ushort,ÏÎÎÏÍÍ> OnLobbyGameCreated; // 0x18
+        public System.Action`1<0x665F4198> OnLobbyDataChanged; // 0x20
+        public System.Action`2<0x665F4198,0x665EEB50> OnLobbyMemberDataChanged; // 0x28
+        public System.Action`2<0x665F4198,0x665EEB50> OnLobbyMemberJoined; // 0x30
+        public System.Action`2<0x665F4198,0x665EEB50> OnLobbyMemberLeave; // 0x38
+        public System.Action`2<0x665F4198,0x665EEB50> OnLobbyMemberDisconnected; // 0x40
+        public System.Action`3<0x665F4198,0x665EEB50,0x665EEB50> OnLobbyMemberKicked; // 0x48
+        public System.Action`3<0x665F4198,0x665EEB50,0x665EEB50> OnLobbyMemberBanned; // 0x50
+        public System.Action`3<0x665F4198,0x665EEB50,string> OnChatMessage; // 0x58
 
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x7FFD4FFFB900
@@ -428,6 +474,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamMusic : SteamClientClass`1
     {
+        public System.Action OnPlaybackChanged;
+        public System.Action`1<float> OnVolumeChanged; // 0x8
+
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD4FFFD0C0
         public void InstallEvents(){} // RVA: 0x7FFD4FFFD150
@@ -436,6 +485,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamNetworking : SteamSharedClass`1
     {
+        public System.Action`1<ÏÎÎÏÍÍ> OnP2PSessionRequest;
+        public System.Action`2<ÏÎÎÏÍÍ,ÏÏÏÍÎÏÌÍÎÍÎÍÎÎÎÎÎÍÌÌ> OnP2PConnectionFailed; // 0x8
+
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD4FFFD750
         public void InstallEvents(){} // RVA: 0x7FFD4FFFD7E0
@@ -444,7 +496,10 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamNetworkingSockets : SteamSharedClass`1
     {
-        public object Internal;
+        public System.Collections.Generic.Dictionary`2<uint,Steamworks.SocketManager> Internal;
+        public System.Collections.Generic.Dictionary`2<uint,Steamworks.ConnectionManager> ConnectionInterfaces; // 0x8
+        public System.Action`2<Steamworks.Data.Connection,Steamworks.Data.ConnectionInfo> OnConnectionStatusChanged; // 0x10
+        public System.Action`1<Steamworks.Data.NetAddress> OnFakeIPResult; // 0x18
 
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x7FFD4FFFDDD0
@@ -460,8 +515,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamNetworkingUtils : SteamSharedClass`1
     {
-        public object Internal;
-        public object Status;
+        public System.Action`2<ypeToggleOn,string> Internal;
+        public Left Status; // 0x8
+        public System.Collections.Concurrent.ConcurrentQueue`1<DebugMessage> debugMessages; // 0x10
 
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x7FFD4FFFEF60
@@ -475,6 +531,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamParental : SteamSharedClass`1
     {
+        public System.Action OnSettingsChanged;
+
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD4FFFF990
         public void InstallEvents(){} // RVA: 0x7FFD4FFFFA20
@@ -483,6 +541,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamParties : SteamClientClass`1
     {
+        public System.Action OnBeaconLocationsUpdated;
+        public System.Action OnActiveBeaconsUpdated; // 0x8
+
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD4FFFFDA0
         public void InstallEvents(){} // RVA: 0x7FFD4FFFFE30
@@ -491,6 +552,9 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamRemotePlay : SteamClientClass`1
     {
+        public System.Action`1<ÏÌÏÌÍÎÏ.ÌÌÍÍ> OnSessionConnected;
+        public System.Action`1<ÏÌÏÌÍÎÏ.ÌÌÍÍ> OnSessionDisconnected; // 0x8
+
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD50000410
         public void InstallEvents(){} // RVA: 0x7FFD500004A0
@@ -506,6 +570,10 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamScreenshots : SteamClientClass`1
     {
+        public System.Action OnScreenshotRequested;
+        public System.Action`1<0x665F4248> OnScreenshotReady; // 0x8
+        public System.Action`1<0x665ED600> OnScreenshotFailed; // 0x10
+
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD50000B40
         public void InstallEvents(){} // RVA: 0x7FFD50000BD0
@@ -514,7 +582,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamSharedClass`1 : SteamClass
     {
-        public object Interface;
+        public Steamworks.SteamInterface Interface;
+        public Steamworks.SteamInterface InterfaceServer; // 0x8
 
         // ── Methods ──
         public void get_Interface(){} // RVA: 0x7FFD4E078A90
@@ -526,6 +595,11 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamUGC : SteamSharedClass`1
     {
+        public System.Action`1<0x665ED600> OnDownloadItemResult;
+        public System.Action`2<Steamworks.AppId,Steamworks.Data.PublishedFileId> OnItemSubscribed; // 0x8
+        public System.Action`2<Steamworks.AppId,Steamworks.Data.PublishedFileId> OnItemUnsubscribed; // 0x10
+        public System.Action`2<Steamworks.AppId,Steamworks.Data.PublishedFileId> OnItemInstalled; // 0x18
+
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD500011F0
         public void InstallEvents(){} // RVA: 0x7FFD50001280
@@ -534,9 +608,19 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamUser : SteamClientClass`1
     {
-        public object Internal;
-        public object SampleRate;
-        public object OptimalSampleRate;
+        public System.Collections.Generic.Dictionary`2<string,string> Internal;
+        public System.Action SampleRate; // 0x8
+        public System.Action OptimalSampleRate; // 0x10
+        public System.Action OnSteamServersDisconnected; // 0x18
+        public System.Action OnClientGameServerDeny; // 0x20
+        public System.Action OnLicensesUpdated; // 0x28
+        public System.Action`3<ÏÎÎÏÍÍ,ÏÎÎÏÍÍ,ÎÌÎÏÏÎÌÌÏÎÎÍÎÎÌÏÌÏÌÏÌÌ> OnValidateAuthTicketResponse; // 0x30
+        public System.Action`1<Steamworks.Data.GetAuthSessionTicketResponse_t> OnGetAuthSessionTicketResponse; // 0x38
+        public System.Action`3<Steamworks.AppId,ulong,bool> OnMicroTxnAuthorizationResponse; // 0x40
+        public System.Action`1<string> OnGameWebCallback; // 0x48
+        public System.Action`1<0x665F40E8> OnDurationControl; // 0x50
+        public byte[] readBuffer; // 0x58
+        public uint sampleRate; // 0x60
 
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x7FFD50001D60
@@ -554,8 +638,12 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamUserStats : SteamClientClass`1
     {
-        public object Internal;
-        public object StatsRecieved;
+        public bool Internal;
+        public System.Action`2<string,int> StatsRecieved; // 0x8
+        public System.Action`2<ÏÎÎÏÍÍ,0x665ED600> OnUserStatsReceived; // 0x10
+        public System.Action`1<0x665ED600> OnUserStatsStored; // 0x18
+        public System.Action`3<0x665F4090,int,int> OnAchievementProgress; // 0x20
+        public System.Action`1<ÏÎÎÏÍÍ> OnUserStatsUnloaded; // 0x28
 
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x7FFD50004530
@@ -568,8 +656,12 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamUtils : SteamSharedClass`1
     {
-        public object Internal;
-        public object IsRunningOnSteamDeck;
+        public System.Action Internal;
+        public System.Action`1<int> IsRunningOnSteamDeck; // 0x8
+        public System.Action OnSteamShutdown; // 0x10
+        public System.Action`1<bool> OnGamepadTextInputDismissed; // 0x18
+        public System.Action OnAppResumingFromSuspend; // 0x20
+        public ÎÎÎÍÏÌÏÏÍÍÏÍÏ overlayNotificationPosition; // 0x28
 
         // ── Methods ──
         public void get_Internal(){} // RVA: 0x7FFD50005740
@@ -593,6 +685,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class Utility : Object
     {
+        public byte[] readBuffer;
+
         // ── Methods ──
         public void ToType(){} // RVA: 0x7FFD50008720 | overloaded x2
         public void Swap(){} // RVA: 0x7FFD50008790

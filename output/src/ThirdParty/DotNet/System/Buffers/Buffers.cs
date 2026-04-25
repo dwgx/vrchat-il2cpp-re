@@ -7,9 +7,8 @@ namespace ThirdParty.DotNet.System.Buffers
 {
     public class ArrayBufferWriter`1 : Object
     {
-        public object WrittenMemory;
-        public object WrittenCount;
-        public object FreeCapacity;
+        public byte[] WrittenMemory; // 0x10
+        public int WrittenCount; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -26,6 +25,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPoolEventSource : EventSource
     {
+        public System.Buffers.ArrayPoolEventSource Log;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539C66B0
         public void BufferRented(){} // RVA: 0x7FFD539C6740
@@ -38,7 +39,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
-        public object Shared;
+        public System.Buffers.ArrayPool`1<0x66560128> Shared;
 
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x7FFD4E078A90
@@ -59,7 +60,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
-        public object Id;
+        public Bucket<0x665C6FB8<Transmtn.DTO.Notifications.Notification>>[] Id; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092E60
@@ -70,7 +71,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class DefaultArrayPool`1 : ArrayPool`1
     {
-        public object Id;
+        public T[] Id;
+        public Bucket<T>[] _buckets;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092E60 | overloaded x2
@@ -89,7 +91,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class MemoryHandle : ValueType
     {
-        public object Pointer;
+        public void* Pointer; // 0x10
+        public System.Runtime.InteropServices.GCHandle _handle; // 0x18
+        public 0x66440AD0 _pinnable; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539C6B20
@@ -99,7 +103,7 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class MemoryManager`1 : Object
     {
-        public object Memory;
+        public int Memory;
 
         // ── Methods ──
         public void get_Memory(){} // RVA: 0x7FFD4E2ADC40
@@ -110,9 +114,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequenceSegment`1 : Object
     {
-        public object Memory;
-        public object Next;
-        public object RunningIndex;
+        public System.ReadOnlyMemory`1<T> Memory;
+        public System.Buffers.ReadOnlySequenceSegment`1<T> Next;
+        public long RunningIndex;
 
         // ── Methods ──
         public void get_Memory(){} // RVA: 0x7FFD4E2ADC40
@@ -122,6 +126,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequence`1 : ValueType
     {
+        public System.SequencePosition _sequenceStart;
+        public System.SequencePosition _sequenceEnd;
+        public System.Buffers.ReadOnlySequence`1<T> Empty;
     }
 
     public class SpanAction`2 : MulticastDelegate
@@ -133,10 +140,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class StandardFormat : ValueType
     {
-        public object Symbol;
-        public object Precision;
-        public object HasPrecision;
-        public object IsDefault;
+        public byte Symbol; // 0x10
+        public byte Precision; // 0x11
 
         // ── Methods ──
         public void get_Symbol(){} // RVA: 0x7FFD4FD7DDF0
@@ -155,7 +160,12 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
-        public object Id;
+        public int[] Id; // 0x10
+        public PerCoreLockedStacks<0x665C6FB8<Transmtn.DTO.Notifications.Notification>>[] _buckets; // 0x18
+        public 0x665C6FB8<Transmtn.DTO.Notifications.Notification>[][] t_tlsBuckets; // 0xFFFF
+        public int _callbackCreated; // 0x20
+        public bool s_trimBuffers;
+        public System.Runtime.CompilerServices.ConditionalWeakTable`2<0x665C6FB8<Transmtn.DTO.Notifications.Notification>[][],object> s_allTlsBuckets; // 0x8
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980

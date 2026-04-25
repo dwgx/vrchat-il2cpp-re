@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 {
     public class AsyncOperation : Object
     {
+        public System.Action`1<object> s_availableSentinel;
+        public System.Action`1<object> s_completedSentinel; // 0x8
+
         // ── Methods ──
         public void AvailableSentinel(){} // RVA: 0x7FFD4E341310
         public void CompletedSentinel(){} // RVA: 0x7FFD4E341310
@@ -19,11 +22,19 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class AsyncOperation`1 : AsyncOperation
     {
-        public object Next;
-        public object CancellationToken;
-        public object ValueTask;
-        public object ValueTaskOfT;
-        public object IsCompleted;
+        public System.Threading.CancellationTokenRegistration Next; // 0x10
+        public bool CancellationToken; // 0x28
+        public bool ValueTask; // 0x29
+        public int ValueTaskOfT; // 0x2C
+        public bool IsCompleted; // 0x30
+        public 0x66435CE0 _error; // 0x38
+        public System.Action`1<object> _continuation; // 0x40
+        public object _continuationState; // 0x48
+        public object _schedulingContext; // 0x50
+        public System.Threading.ExecutionContext _executionContext; // 0x58
+        public short _currentId; // 0x60
+        public System.Threading.Channels.AsyncOperation`1<bool> <Next>k__BackingField; // 0x68
+        public System.Threading.CancellationToken <CancellationToken>k__BackingField; // 0x70
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -53,8 +64,8 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class BoundedChannelOptions : ChannelOptions
     {
-        public object Capacity;
-        public object FullMode;
+        public int Capacity; // 0x18
+        public Î FullMode; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5449E5A0
@@ -65,7 +76,17 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class BoundedChannel`1 : Channel`1
     {
-        public object SyncObj;
+        public Î SyncObj;
+        public System.Action`1<T> _itemDropped;
+        public System.Threading.Channels.TaskCompletionSource _completion;
+        public int _bufferedCapacity;
+        public System.Collections.Generic.Deque`1<T> _items;
+        public System.Collections.Generic.Deque`1<System.Threading.Channels.AsyncOperation`1<T>> _blockedReaders;
+        public System.Collections.Generic.Deque`1<System.Threading.Channels.VoidAsyncOperationWithData`1<T>> _blockedWriters;
+        public System.Threading.Channels.AsyncOperation`1<bool> _waitingReadersTail;
+        public System.Threading.Channels.AsyncOperation`1<bool> _waitingWritersTail;
+        public bool _runContinuationsAsynchronously;
+        public System.Exception _doneWriting;
 
         // ── Methods ──
         public void get_SyncObj(){} // RVA: 0x7FFD4E078E90
@@ -81,9 +102,9 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class ChannelOptions : Object
     {
-        public object SingleWriter;
-        public object SingleReader;
-        public object AllowSynchronousContinuations;
+        public bool SingleWriter; // 0x10
+        public bool SingleReader; // 0x11
+        public bool AllowSynchronousContinuations; // 0x12
 
         // ── Methods ──
         public void set_SingleWriter(){} // RVA: 0x7FFD4E40B5F0
@@ -104,6 +125,11 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class ChannelUtilities : Object
     {
+        public System.Exception s_doneWritingSentinel;
+        public System.Threading.Tasks.Task`1<bool> s_trueTask; // 0x8
+        public System.Threading.Tasks.Task`1<bool> s_falseTask; // 0x10
+        public System.Threading.Tasks.Task s_neverCompletingTask; // 0x18
+
         // ── Methods ──
         public void Complete(){} // RVA: 0x7FFD5449E680
         public void QueueWaiter(){} // RVA: 0x7FFD5449E850
@@ -133,8 +159,8 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class Channel`2 : Object
     {
-        public object Reader;
-        public object Writer;
+        public System.Threading.Channels.ChannelReader`1<ZLogger.IZLoggerEntry> Reader; // 0x10
+        public System.Threading.Channels.ChannelWriter`1<ZLogger.IZLoggerEntry> Writer; // 0x18
 
         // ── Methods ──
         public void get_Reader(){} // RVA: 0x7FFD4E35C380
@@ -146,7 +172,12 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
-        public object SyncObj;
+        public System.Threading.Channels.TaskCompletionSource SyncObj; // 0x20
+        public System.Collections.Concurrent.SingleProducerSingleConsumerQueue`1<ZLogger.IZLoggerEntry> _items; // 0x28
+        public bool _runContinuationsAsynchronously; // 0x30
+        public System.Exception _doneWriting; // 0x38
+        public System.Threading.Channels.AsyncOperation`1<ZLogger.IZLoggerEntry> _blockedReader; // 0x40
+        public System.Threading.Channels.AsyncOperation`1<bool> _waitingReader; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E091060
@@ -168,7 +199,12 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class UnboundedChannel`1 : Channel`1
     {
-        public object SyncObj;
+        public System.Threading.Channels.TaskCompletionSource SyncObj; // 0x20
+        public System.Collections.Concurrent.ConcurrentQueue`1<ZLogger.IZLoggerEntry> _items; // 0x28
+        public System.Collections.Generic.Deque`1<System.Threading.Channels.AsyncOperation`1<ZLogger.IZLoggerEntry>> _blockedReaders; // 0x30
+        public bool _runContinuationsAsynchronously; // 0x38
+        public System.Threading.Channels.AsyncOperation`1<bool> _waitingReadersTail; // 0x40
+        public System.Exception _doneWriting; // 0x48
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E091060
@@ -177,7 +213,7 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 
     public class VoidAsyncOperationWithData`1 : AsyncOperation`1
     {
-        public object Item;
+        public T Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

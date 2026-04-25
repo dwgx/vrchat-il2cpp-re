@@ -7,7 +7,7 @@ namespace ThirdParty.Photon.Photon.Client.Encryption
 {
     public class ICryptoProvider
     {
-        public object PublicKey;
+        public <>c<T> PublicKey;
 
         // ── Methods ──
         public void get_PublicKey(){} // RVA: 0x7FFD4E078E90

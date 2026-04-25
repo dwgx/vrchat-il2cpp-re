@@ -7,7 +7,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Environments.Internal
 {
     public class Environments : Object
     {
-        public object Current;
+        public string Current; // 0x10
 
         // ── Methods ──
         public void get_Current(){} // RVA: 0x7FFD4E35C380
@@ -17,7 +17,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Environments.Internal
 
     public class IEnvironments
     {
-        public object Current;
+        public <>c<T> Current;
 
         // ── Methods ──
         public void get_Current(){} // RVA: 0x7FFD4E078E90

@@ -7,6 +7,12 @@ namespace VRC.Udon.Common
 {
     public class UdonHeap : Object
     {
+        public uint DEFAULT_CAPACITY;
+        public uint MAXIMUM_CAPACITY;
+        public System.Runtime.CompilerServices.IStrongBox[] _heap; // 0x10
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Type> _strongBoxOfTypeCache; // 0x18
+        public System.Collections.Generic.Dictionary`2<System.Type,System.Type> _strongBoxOfTContainedTypeCache; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552A0E70 | overloaded x3
         public void CheckHeapBounds(){} // RVA: 0x7FFD506E5FC0
@@ -27,13 +33,18 @@ namespace VRC.Udon.Common
 
     public class UdonInputEventArgs : ValueType
     {
+        public ÏÍÌÎÏÏ.Ï eventType; // 0x10
+        public bool boolValue; // 0x14
+        public float floatValue; // 0x18
+        public 0x6662F5A8 handType; // 0x1C
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552A1980 | overloaded x2
     }
 
     public class UdonVariableTable : Object
     {
-        public object VariableSymbols;
+        public System.Collections.Generic.Dictionary`2<string,0x666300A8> VariableSymbols; // 0x10
 
         // ── Methods ──
         public void get_VariableSymbols(){} // RVA: 0x7FFD552A67F0
@@ -48,10 +59,8 @@ namespace VRC.Udon.Common
 
     public class UdonVariable`1 : Object
     {
-        public object SymbolName;
-        public object Value;
-        public object VRC.Udon.Common.Interfaces.IUdonVariable.Value;
-        public object DeclaredType;
+        public string SymbolName;
+        public T Value;
 
         // ── Methods ──
         public void get_SymbolName(){} // RVA: 0x7FFD4E078E90

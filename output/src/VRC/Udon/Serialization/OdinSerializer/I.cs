@@ -192,7 +192,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class IOverridesSerializationPolicy
     {
-        public object SerializationPolicy;
+        public <>c<T> SerializationPolicy;
         public object OdinSerializesUnityFields;
 
         // ── Methods ──
@@ -227,7 +227,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ISupportsPrefabSerialization
     {
-        public object SerializationData;
+        public int SerializationData;
 
         // ── Methods ──
         public void get_SerializationData(){}

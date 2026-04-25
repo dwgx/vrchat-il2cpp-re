@@ -13,6 +13,20 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GoogleBillingClient : Object
     {
+        public 0x66619290 s_AndroidProductClassName;
+        public 0x66619290 s_AndroidQueryProductDetailsParamsClassName; // 0x8
+        public 0x66619290 s_BillingFlowParamsClass; // 0x10
+        public 0x66619290 s_ProductDetailsParamsClass; // 0x18
+        public 0x66619290 s_SubscriptionUpdateParamsClass; // 0x20
+        public 0x66619290 s_ConsumeParamsClass; // 0x28
+        public 0x66619290 s_AcknowledgePurchaseParamsClass; // 0x30
+        public 0x66619290 s_BillingClientClass; // 0x38
+        public UnityEngine.AndroidJavaObject m_BillingClient; // 0x10
+        public string m_ObfuscatedAccountId; // 0x18
+        public string m_ObfuscatedProfileId; // 0x20
+        public Uniject.IUtil m_Util; // 0x28
+        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x30
+
         // ── Methods ──
         public void GetProductParamsClass(){} // RVA: 0x7FFD54E08E50
         public void GetQueryProductDetailsParamsParamsClass(){} // RVA: 0x7FFD54E08F60
@@ -41,8 +55,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GoogleBillingResult : Object
     {
-        public object responseCode;
-        public object debugMessage;
+        public 0x665DF3D0 responseCode; // 0x10
+        public string debugMessage; // 0x18
 
         // ── Methods ──
         public void get_responseCode(){} // RVA: 0x7FFD4E38E5C0
@@ -65,14 +79,16 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GooglePurchase : Object
     {
-        public object isAcknowledged;
-        public object purchaseState;
-        public object skus;
-        public object receipt;
-        public object signature;
-        public object originalJson;
-        public object purchaseToken;
-        public object sku;
+        public bool isAcknowledged; // 0x10
+        public int purchaseState; // 0x14
+        public System.Collections.Generic.List`1<string> skus; // 0x18
+        public string receipt; // 0x20
+        public string signature; // 0x28
+        public string originalJson; // 0x30
+        public string purchaseToken; // 0x38
+        public string sku; // 0x40
+        public string <obfuscatedAccountId>k__BackingField; // 0x48
+        public string <obfuscatedProfileId>k__BackingField; // 0x50
 
         // ── Methods ──
         public void get_isAcknowledged(){} // RVA: 0x7FFD4E40B5E0
@@ -91,6 +107,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GooglePurchaseStateEnum : Object
     {
+        public System.Nullable`1<int> s_Purchased;
+        public System.Nullable`1<int> s_Pending; // 0x8
+
         // ── Methods ──
         public void GetPurchaseStateJavaObject(){} // RVA: 0x7FFD54E0D5B0
         public void Purchased(){} // RVA: 0x7FFD54E0D620
@@ -107,7 +126,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class IGoogleBillingResult
     {
-        public object responseCode;
+        public <>c<T> responseCode;
         public object debugMessage;
 
         // ── Methods ──
@@ -117,6 +136,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class ProductDescriptionQuery : Object
     {
+        public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Purchasing.ProductDefinition> products; // 0x10
+        public System.Action`2<System.Collections.Generic.List`1<UnityEngine.Purchasing.Extension.ProductDescription>,UnityEngine.Purchasing.Models.IGoogleBillingResult> onProductsReceived; // 0x18
+        public System.Action`2<0x665DF320,0x665DF3D0> onRetrieveProductsFailed; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E420E00
     }

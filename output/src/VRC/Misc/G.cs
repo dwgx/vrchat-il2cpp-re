@@ -8,6 +8,12 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÏÍÏÍÏÍÍÏÍÌÌÏÏÍÎÏÌÏÌÍ</summary>
     public class GalleryPhotosViewSibling_8B99 : MonoBehaviour
     {
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ cost; // 0x20
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ bundleSize; // 0x28
+        public ÌÏÎÌÌÌÎÍÎÎÏÌÏÌÎÌÎÌÍÎÎÌÌ discount; // 0x30
+        public UnityEngine.GameObject discountPanel; // 0x38
+        public UnityEngine.UI.Button button; // 0x40
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD566CA070
         public void RaiseCancellation(){} // RVA: 0x7FFD566CA330
@@ -53,7 +59,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÎÎÌÍÌÎÏÏÏÎÎÏÌÌÎÏÍÎÎÌÌ</summary>
     public class gameObject_7FC8
     {
-        public object _gameObject;
+        public <>c<T> _gameObject;
         public object f_589;
         public object f_035;
         public object f_634;
@@ -212,7 +218,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÏÏÌÎÌÌÌÌÍÎÌÌÌÎÎÍÎÏÍÎÏ</summary>
     public class gameObject_C715
     {
-        public object _gameObject;
+        public <>c<T> _gameObject;
 
         // ── Methods ──
         public void set_gameObject(){} // RVA: 0x7FFD4E078E90
@@ -249,7 +255,7 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÍÏÎÎÌÏÍÌÍÏÍÏÌÎÌÍÏÏÌÎÌ</summary>
     public class gameObjecttransform_15ED
     {
-        public object _gameObject;
+        public <>c<T> _gameObject;
         public object _transform;
         public object f_E76;
 

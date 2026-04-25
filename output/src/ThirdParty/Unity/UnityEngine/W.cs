@@ -19,14 +19,19 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WaitForSeconds : YieldInstruction
     {
+        public float m_Seconds; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E46B330
     }
 
     public class WebCamDevice : ValueType
     {
-        public object name;
-        public object isFrontFacing;
+        public string name; // 0x10
+        public string isFrontFacing; // 0x18
+        public int m_Flags; // 0x20
+        public ÍÍÍÎÏÌÎÍÌÌÍÌ m_Kind; // 0x24
+        public UnityEngine.Resolution[] m_Resolutions; // 0x28
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD505F9A30

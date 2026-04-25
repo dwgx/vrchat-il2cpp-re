@@ -31,6 +31,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AppendPrepend`1 : Object
     {
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+        public T element;
+        public bool append;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void GetAsyncEnumerator(){}
@@ -48,8 +52,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
-        public object SourceCurrent;
-        public object Current;
+        public System.Action`1<object> SourceCurrent;
+        public System.Action`1<object> Current; // 0x8
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source; // 0x38
+        public System.Threading.CancellationToken cancellationToken; // 0x40
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator; // 0x48
+        public Awaiter<bool> sourceMoveNext; // 0x50
+        public Awaiter<bool> resultAwaiter; // 0x60
+        public T <SourceCurrent>k__BackingField; // 0x70
+        public T <Current>k__BackingField; // 0x78
 
         // ── Methods ──
         public void .ctor(){}
@@ -74,8 +85,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
-        public object SourceCurrent;
-        public object Current;
+        public System.Action`1<object> SourceCurrent;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current; // 0x38
+        public System.Threading.CancellationToken cancellationToken; // 0x40
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator; // 0x48
+        public Awaiter<bool> sourceMoveNext; // 0x50
+        public T <Current>k__BackingField; // 0x60
 
         // ── Methods ──
         public void .ctor(){}
@@ -93,6 +108,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncSelectorEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
+        public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
+        public System.Collections.Generic.IComparer`1<T> comparer;
+        public bool descending;
+        public Cysharp.Threading.Tasks.Linq.AsyncEnumerableSorter`1<U> next;
+        public T[] keys;
+
         // ── Methods ──
         public void .ctor(){}
         public void ComputeKeysAsync(){}
@@ -101,6 +122,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncSelectorWithCancellationEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
+        public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> keySelector;
+        public System.Collections.Generic.IComparer`1<T> comparer;
+        public bool descending;
+        public Cysharp.Threading.Tasks.Linq.AsyncEnumerableSorter`1<U> next;
+        public System.Threading.CancellationToken cancellationToken;
+        public T[] keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void ComputeKeysAsync(){}

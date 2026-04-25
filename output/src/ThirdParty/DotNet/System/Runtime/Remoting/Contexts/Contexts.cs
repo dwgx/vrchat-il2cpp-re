@@ -7,15 +7,21 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Contexts
 {
     public class Context : Object
     {
-        public object DefaultContext;
-        public object ContextID;
-        public object ContextProperties;
-        public object IsDefaultContext;
-        public object NeedsContextSink;
-        public object HasGlobalDynamicSinks;
-        public object HasDynamicSinks;
-        public object HasExitSinks;
-        public object MyLocalStore;
+        public int DefaultContext; // 0x10
+        public int ContextID; // 0x14
+        public object ContextProperties; // 0x18
+        public object IsDefaultContext; // 0x20
+        public object[] NeedsContextSink;
+        public 0x66431DF8 HasGlobalDynamicSinks; // 0x8
+        public 0x66431DF8 HasDynamicSinks; // 0x28
+        public 0x66431DF8 HasExitSinks; // 0x30
+        public System.Collections.Generic.List`1<4{> MyLocalStore; // 0x38
+        public int global_count; // 0x10
+        public 0x66422A40 _localDataStore; // 0x40
+        public System.LocalDataStoreMgr _localDataStoreMgr; // 0x18
+        public 0x664305E8 global_dynamic_properties; // 0x20
+        public 0x664305E8 context_dynamic_properties; // 0x48
+        public 0x66430640 callback_object; // 0x50
 
         // ── Methods ──
         public void RegisterContext(){} // RVA: 0x7FFD5389E240

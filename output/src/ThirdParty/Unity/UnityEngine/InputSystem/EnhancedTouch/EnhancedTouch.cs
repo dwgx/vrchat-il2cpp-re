@@ -7,7 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 {
     public class EnhancedTouchSupport : Object
     {
-        public object enabled;
+        public int enabled;
+        public 0x664A9068 s_UpdateMode; // 0x4
 
         // ── Methods ──
         public void get_enabled(){} // RVA: 0x7FFD54A87320
@@ -23,13 +24,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class Finger : Object
     {
-        public object screen;
-        public object index;
-        public object isActive;
-        public object screenPosition;
-        public object lastTouch;
-        public object currentTouch;
-        public object touchHistory;
+        public UnityEngine.InputSystem.Touchscreen screen; // 0x10
+        public int index; // 0x18
+        public UnityEngine.InputSystem.LowLevel.InputStateHistory`1<UnityEngine.InputSystem.LowLevel.TouchState> isActive; // 0x20
 
         // ── Methods ──
         public void get_screen(){} // RVA: 0x7FFD4E35C380
@@ -48,35 +45,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class Touch : ValueType
     {
-        public object valid;
-        public object finger;
-        public object phase;
-        public object began;
-        public object inProgress;
-        public object ended;
-        public object touchId;
-        public object pressure;
-        public object radius;
-        public object startTime;
-        public object time;
-        public object screen;
-        public object screenPosition;
-        public object startScreenPosition;
-        public object delta;
-        public object tapCount;
-        public object isTap;
-        public object displayIndex;
-        public object isInProgress;
-        public object updateStepCount;
-        public object uniqueId;
-        public object state;
-        public object extraData;
-        public object history;
-        public object activeTouches;
-        public object fingers;
-        public object activeFingers;
-        public object screens;
-        public object maxHistoryLengthPerFinger;
+        public UnityEngine.InputSystem.EnhancedTouch.Finger valid; // 0x10
+        public Record<UnityEngine.InputSystem.LowLevel.TouchState> finger; // 0x18
+        public 0x664ABF80 phase;
 
         // ── Methods ──
         public void get_valid(){} // RVA: 0x7FFD54A89990
@@ -128,8 +99,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class TouchHistory : ValueType
     {
-        public object Count;
-        public object Item;
+        public UnityEngine.InputSystem.LowLevel.InputStateHistory`1<UnityEngine.InputSystem.LowLevel.TouchState> Count; // 0x10
+        public UnityEngine.InputSystem.EnhancedTouch.Finger Item; // 0x18
+        public int m_Count; // 0x20
+        public int m_StartIndex; // 0x24
+        public uint m_Version; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54A8CD60
@@ -142,8 +116,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class TouchSimulation : MonoBehaviour
     {
-        public object simulatedTouchscreen;
-        public object instance;
+        public UnityEngine.InputSystem.Touchscreen simulatedTouchscreen; // 0x20
+        public int instance; // 0x28
+        public UnityEngine.InputSystem.Pointer[] m_Pointers; // 0x30
+        public UnityEngine.Vector2[] m_CurrentPositions; // 0x38
+        public int[] m_CurrentDisplayIndices; // 0x40
+        public UnityEngine.InputSystem.Controls.ButtonControl[] m_Touches; // 0x48
+        public int[] m_TouchIds; // 0x50
+        public int m_LastTouchId; // 0x58
+        public System.Action`2<UnityEngine.InputSystem.InputDevice,0x664A7AC0> m_OnDeviceChange; // 0x60
+        public System.Action`2<UnityEngine.InputSystem.LowLevel.InputEventPtr,UnityEngine.InputSystem.InputDevice> m_OnEvent; // 0x68
+        public UnityEngine.InputSystem.EnhancedTouch.TouchSimulation s_Instance;
 
         // ── Methods ──
         public void get_simulatedTouchscreen(){} // RVA: 0x7FFD4E36F0C0

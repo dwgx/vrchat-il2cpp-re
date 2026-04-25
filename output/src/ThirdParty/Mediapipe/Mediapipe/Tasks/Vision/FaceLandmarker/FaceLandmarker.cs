@@ -7,6 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 {
     public class FaceLandmarker : BaseVisionTaskApi
     {
+        public 0x66577BA0 _packetCallback; // 0x20
+        public 0x66573000 _normalizedRect; // 0x28
+        public System.Collections.Generic.List`1<Mediapipe.Tasks.Vision.FaceGeometry.Proto.FaceGeometry> _faceGeometriesForRead; // 0x30
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537203D0
         public void CreateFromOptions(){} // RVA: 0x7FFD53720560
@@ -18,15 +22,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 
     public class FaceLandmarkerOptions : Object
     {
-        public object baseOptions;
-        public object runningMode;
-        public object numFaces;
-        public object minFaceDetectionConfidence;
-        public object minFacePresenceConfidence;
-        public object minTrackingConfidence;
-        public object outputFaceBlendshapes;
-        public object outputFaceTransformationMatrixes;
-        public object resultCallback;
+        public Mediapipe.Tasks.Core.BaseOptions baseOptions; // 0x10
+        public 0x66575EC0 runningMode; // 0x18
+        public int numFaces; // 0x1C
+        public float minFaceDetectionConfidence; // 0x20
+        public float minFacePresenceConfidence; // 0x24
+        public float minTrackingConfidence; // 0x28
+        public bool outputFaceBlendshapes; // 0x2C
+        public bool outputFaceTransformationMatrixes; // 0x2D
+        public 0x66576B78 resultCallback; // 0x30
 
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x7FFD4E35C380
@@ -45,6 +49,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 
     public class FaceLandmarkerResult : ValueType
     {
+        public System.Collections.Generic.List`1<0x66578438> faceLandmarks; // 0x10
+        public System.Collections.Generic.List`1<0x66578178> faceBlendshapes; // 0x18
+        public System.Collections.Generic.List`1<UnityEngine.Matrix4x4> facialTransformationMatrixes; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F88FCC0
         public void Alloc(){} // RVA: 0x7FFD53722400

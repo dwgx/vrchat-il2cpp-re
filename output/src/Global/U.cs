@@ -9,6 +9,9 @@ public class UIElementsUpdatePanels : ValueType
 
 public class UIInvisibleGraphic : MaskableGraphic
 {
+    public 0x663697D0 interactibility; // 0xE0
+    public bool interactableOverride; // 0xE4
+
     // ── Methods ──
     public void Raycast(){} // RVA: 0x7FFD4F7091C0
     public void Rebuild(){} // RVA: 0x7FFD4E341310
@@ -18,10 +21,17 @@ public class UIInvisibleGraphic : MaskableGraphic
 
 public class UISearchStateMapping : ValueType
 {
+    public UnityEngine.GameObject targetGameObject; // 0x10
+    public 0x663D99D8 requiredSearchStatus; // 0x18
+    public bool invert; // 0x1C
 }
 
 public class UISoundCollection : ScriptableObject
 {
+    public UnityEngine.AudioClip MoveOver; // 0x18
+    public UnityEngine.AudioClip MoveOff; // 0x20
+    public UnityEngine.AudioClip Click; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E54F5F0
 }
@@ -34,6 +44,8 @@ public class UISupport : Object
 
 public class UQueryMatcher : HierarchyTraversal
 {
+    public System.Collections.Generic.List`1<UnityEngine.UIElements.RuleMatcher> m_Matchers; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void Traverse(){} // RVA: 0x7FFD54F26540
@@ -45,13 +57,16 @@ public class UQueryMatcher : HierarchyTraversal
 
 public class URPMaterialSwitcher : MonoBehaviour
 {
+    public bool children; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341D50
 }
 
 public class UTF32Decoder : DecoderNLS
 {
-    public object HasState;
+    public int HasState; // 0x30
+    public int readByteCount; // 0x34
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD538047E0
@@ -61,7 +76,7 @@ public class UTF32Decoder : DecoderNLS
 
 public class UTF8Decoder : DecoderNLS
 {
-    public object HasState;
+    public int HasState; // 0x30
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD538047E0
@@ -71,7 +86,7 @@ public class UTF8Decoder : DecoderNLS
 
 public class UTF8Encoder : EncoderNLS
 {
-    public object HasState;
+    public int HasState; // 0x38
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53806D00
@@ -97,7 +112,23 @@ public class UdonProgramScanner : Object
 
 public class UiInputField : MonoBehaviour
 {
-    public object _uiInputField;
+    public VRC.Localization.LocalizableString _uiInputField; // 0x20
+    public UnityEngine.GameObject placeholder; // 0x48
+    public VRC.Localization.LocalizableString _placeholderText; // 0x50
+    public UnityEngine.GameObject textField; // 0x78
+    public 0x6657A488 inputType; // 0x80
+    public bool isDate; // 0x84
+    public bool useNumericKeypad; // 0x85
+    public UiInputField nextInputField; // 0x88
+    public SubmitEvent onEndEdit; // 0x90
+    public int ÌÎÍÎÍÎÏÍÎÏÏÎÏÎÌÍÎÌÎÍÏÍÍ; // 0x98
+    public bool ÎÍÍÎÎÍÌÏÎÏÏÍÌÌÏÎÎÌÎÎÍÍÎ; // 0x9C
+    public bool ÏÎÍÏÏÎÎÏÎÍÍÌÏÍÎÎÎÌÍÍÎÏÏ; // 0x9D
+    public bool ÍÍÌÎÍÌÍÎÎÍÌÎÏÎÍÏÌÌÌÏÌÍÌ; // 0x9E
+    public UnityEngine.Events.UnityAction`1<string> ÏÍÍÍÏÌÌÏÍÍÎÎÎÍÎÎÍÏÏÏÏÎÏ; // 0xA0
+    public 0x664E21C0 ÌÌÌÏÌÌÏÏÍÍÎÎÏÎÏÏÎÍÌÏÍÍÏ; // 0xA8
+    public UnityEngine.UI.Button ÏÏÎÍÍÌÎÍÌÏÍÍÍÍÎÌÏÏÍÏÍÏÍ; // 0xB0
+    public string ÍÌÏÍÏÏÎÎÌÏÎÍÍÎÍÎÌÏÍÍÎÌÏ; // 0xB8
 
     // ── Methods ──
     public void get_source(){} // RVA: 0x7FFD4E90A3D0
@@ -124,10 +155,8 @@ public class UiInputField : MonoBehaviour
 
 public class UnboundAnchor : ValueType
 {
-    public object Uuid;
-    public object Localized;
-    public object Localizing;
-    public object Pose;
+    public OVRSpace Uuid; // 0x10
+    public System.Guid Localized; // 0x18
 
     // ── Methods ──
     public void get_Uuid(){} // RVA: 0x7FFD4FEB27D0
@@ -141,6 +170,10 @@ public class UnboundAnchor : ValueType
 
 public class UnboundedChannelReader : ChannelReader`1
 {
+    public System.Threading.Channels.SingleConsumerUnboundedChannel`1<ZLogger.IZLoggerEntry> _parent; // 0x10
+    public System.Threading.Channels.AsyncOperation`1<ZLogger.IZLoggerEntry> _readerSingleton; // 0x18
+    public System.Threading.Channels.AsyncOperation`1<bool> _waiterSingleton; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void TryRead(){} // RVA: 0x7FFD4E079F60
@@ -149,6 +182,8 @@ public class UnboundedChannelReader : ChannelReader`1
 
 public class UnboundedChannelWriter : ChannelWriter`1
 {
+    public System.Threading.Channels.SingleConsumerUnboundedChannel`1<ZLogger.IZLoggerEntry> _parent; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void TryComplete(){} // RVA: 0x7FFD4E079F60
@@ -287,12 +322,15 @@ public class UniTaskLoopRunnerYieldUpdate : ValueType
 
 public class UnicodeChar : ValueType
 {
+    public int unicode; // 0x10
+    public int stringIndex; // 0x14
+    public int length; // 0x18
 }
 
 public class Union : ValueType
 {
-    public object m_current;
-    public object m_allocCount;
+    public 0x66526F20 m_current; // 0x10
+    public System.Collections.Generic.List`1<UnionCase> m_allocCount; // 0x18
 
     // ── Methods ──
     public void get_m_current(){} // RVA: 0x7FFD54932260
@@ -303,13 +341,28 @@ public class Union : ValueType
 
 public class UnionCase : Object
 {
+    public int Tag; // 0x10
+    public string Name; // 0x18
+    public System.Reflection.PropertyInfo[] Fields; // 0x20
+    public 0x66526F20 FieldReader; // 0x28
+    public 0x66526F20 Constructor; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53C1C980
 }
 
 public class UnityEventHandlerAsyncEnumerator : MoveNextSource
 {
-    public object Current;
+    public System.Action`1<object> Current;
+    public System.Action`1<object> cancel2;
+    public UnityEngine.Events.UnityEvent`1<T> unityEvent;
+    public System.Threading.CancellationToken cancellationToken1;
+    public System.Threading.CancellationToken cancellationToken2;
+    public UnityEngine.Events.UnityAction`1<T> unityAction;
+    public System.Threading.CancellationTokenRegistration registration1;
+    public System.Threading.CancellationTokenRegistration registration2;
+    public bool isDisposed;
+    public T <Current>k__BackingField;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -339,7 +392,8 @@ public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1 : Object
 
 public class UnityWebRequestAsyncOperationAwaiter : ValueType
 {
-    public object IsCompleted;
+    public UnityEngine.Networking.UnityWebRequestAsyncOperation IsCompleted; // 0x10
+    public System.Action`1<UnityEngine.AsyncOperation> continuationAction; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFD0830
@@ -362,6 +416,8 @@ public class Unmanaged : ValueType
 
 public class UnmanagedMemoryStreamForModule : UnmanagedMemoryStream
 {
+    public System.Reflection.Module module; // 0x68
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539521F0
     public void Dispose(){} // RVA: 0x7FFD539522D0
@@ -425,6 +481,10 @@ public class UpdateFunction : MulticastDelegate
 
 public class UpdateGridCellsJob : ValueType
 {
+    public Unity.Collections.NativeList`1<GridCell> gridCells; // 0x10
+    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x18
+    public ParallelWriter<Pair,bool> collisionPairs; // 0x28
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD55216D40
     public void UpdateRecords(){} // RVA: 0x7FFD55216F50
@@ -479,6 +539,12 @@ public class UpdateResolution : ValueType
 
 public class UpdateRootsJob : ValueType
 {
+    public int MAX_EXECUTIONS;
+    public float realTime; // 0x10
+    public float fixedTime; // 0x14
+    public Unity.Collections.NativeArray`1<ChainRoot> roots; // 0x18
+    public int FIXED_TIME_COUNTER_MAX;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD5526E320
     public void CalculateShouldUseFixedTime(){} // RVA: 0x7FFD5526E470
@@ -486,6 +552,12 @@ public class UpdateRootsJob : ValueType
 
 public class UpdateShapePositionsJob : ValueType
 {
+    public int SHAPE_BATCH_COUNT;
+    public Unity.Collections.NativeList`1<ushort> activeShapes; // 0x10
+    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x18
+    public Unity.Collections.NativeArray`1<0x664E1038> transformData; // 0x28
+    public Unity.Collections.NativeArray`1<int> transformLookup; // 0x38
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD5521D650
     public void GetTransform(){} // RVA: 0x7FFD5521D900
@@ -494,6 +566,12 @@ public class UpdateShapePositionsJob : ValueType
 
 public class UpdateShapesJob : ValueType
 {
+    public Unity.Collections.NativeQueue`1<ushort> shapesToUpdate; // 0x10
+    public Unity.Collections.NativeArray`1<ShapeData> shapeData; // 0x18
+    public Unity.Collections.NativeHashMap`2<UnityEngine.Vector3Int,int> gridMap; // 0x28
+    public Unity.Collections.NativeList`1<GridCell> gridCells; // 0x30
+    public Unity.Collections.NativeList`1<int> cellCache; // 0x38
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD55211530
     public void RemoveShape(){} // RVA: 0x7FFD55211CD0 | overloaded x2
@@ -502,13 +580,23 @@ public class UpdateShapesJob : ValueType
 
 public class UpdateStatus : Object
 {
+    public int kWindowSize;
+    public int windowStart; // 0x10
+    public int numWindowLateUpdateMoves; // 0x14
+    public int numWindowFixedUpdateMoves; // 0x18
+    public int numWindows; // 0x1C
+    public int lastFrameUpdated; // 0x20
+    public UnityEngine.Matrix4x4 lastPos; // 0x24
+    public 0x6658B788 <PreferredUpdate>k__BackingField; // 0x64
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class UpdateStepCount : ValueType
 {
-    public object value;
+    public bool value; // 0x10
+    public uint <value>k__BackingField; // 0x14
 
     // ── Methods ──
     public void get_value(){} // RVA: 0x7FFD4F8402A0
@@ -546,12 +634,21 @@ public class UpdatedEventHandler : MulticastDelegate
 
 public class UriInfo : Object
 {
+    public string Host; // 0x10
+    public string ScopeId; // 0x18
+    public string String; // 0x20
+    public Offset Offset; // 0x28
+    public string DnsSafeHost; // 0x38
+    public MoreInfo MoreInfo; // 0x40
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class UserController : ScriptableObject
 {
+    public bool testSteamAccount; // 0x18
+
     // ── Methods ──
     public void BackPressed(){} // RVA: 0x7FFD4EDD4E30
     public void CreateInstance(){} // RVA: 0x7FFD4F68DD60
@@ -569,10 +666,18 @@ public class UserController : ScriptableObject
 
 public class UserDefinedSettings : ValueType
 {
+    public ushort stereoRenderingMode; // 0x10
+    public ushort initializationType; // 0x12
+    public ushort mirrorViewMode; // 0x14
+    public string editorAppKey; // 0x18
+    public string actionManifestPath; // 0x20
+    public string applicationName; // 0x28
 }
 
 public class UserHandle : ValueType
 {
+    public UIntPtr Handle; // 0x10
+
     // ── Methods ──
     public void Drop(){} // RVA: 0x7FFD4FD96780
     public void DisplayName(){} // RVA: 0x7FFD4FD96800
@@ -594,6 +699,8 @@ public class UxmlObjectFactory`1 : UxmlObjectFactory`2
 
 public class UxmlObjectTraits`1 : UxmlObjectTraits`1
 {
+    public UnityEngine.UIElements.UxmlObjectListAttributeDescription`1<UnityEngine.UIElements.SortColumnDescription> m_SortColumnDescriptions;
+
     // ── Methods ──
     public void ParseLength(){} // RVA: 0x7FFD4E2ADC40
     public void Init(){}

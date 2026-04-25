@@ -7,8 +7,10 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class ParticleCollisionEvent : ValueType
     {
-        public object velocity;
-        public object colliderComponent;
+        public UnityEngine.Vector3 velocity; // 0x10
+        public UnityEngine.Vector3 colliderComponent; // 0x1C
+        public UnityEngine.Vector3 m_Velocity; // 0x28
+        public int m_ColliderInstanceID; // 0x34
 
         // ── Methods ──
         public void get_velocity(){} // RVA: 0x7FFD54C50D10
@@ -307,6 +309,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PenData : ValueType
     {
+        public UnityEngine.Vector2 position; // 0x10
+        public UnityEngine.Vector2 tilt; // 0x18
+        public 0x66639160 penStatus; // 0x20
+        public float twist; // 0x24
+        public float pressure; // 0x28
+        public 0x666391B8 contactType; // 0x2C
+        public UnityEngine.Vector2 deltaPos; // 0x30
     }
 
     public class PhysicMaterial : Object
@@ -334,13 +343,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics : Object
     {
-        public object gravity;
-        public object bounceThreshold;
-        public object simulationMode;
-        public object defaultMaxAngularSpeed;
-        public object invokeCollisionCallbacks;
-        public object defaultPhysicsScene;
-        public object reuseCollisionCallbacks;
+        public System.Action`2<UnityEngine.PhysicsScene,Unity.Collections.NativeArray`1<0x66600480>> gravity;
+        public System.Action`2<UnityEngine.PhysicsScene,Unity.Collections.NativeArray`1<0x66600480>> bounceThreshold; // 0x8
+        public ContactEventDelegate simulationMode; // 0x10
+        public UnityEngine.Collision defaultMaxAngularSpeed; // 0x18
 
         // ── Methods ──
         public void OnSceneContactModify(){} // RVA: 0x7FFD54DA83A0
@@ -436,24 +442,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics2D : Object
     {
-        public object defaultPhysicsScene;
-        public object velocityIterations;
-        public object positionIterations;
-        public object gravity;
-        public object queriesHitTriggers;
-        public object queriesStartInColliders;
-        public object callbacksOnDisable;
-        public object reuseCollisionCallbacks;
-        public object velocityThreshold;
-        public object maxLinearCorrection;
-        public object maxAngularCorrection;
-        public object maxTranslationSpeed;
-        public object maxRotationSpeed;
-        public object baumgarteScale;
-        public object baumgarteTOIScale;
-        public object timeToSleep;
-        public object linearSleepTolerance;
-        public object angularSleepTolerance;
+        public System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> defaultPhysicsScene;
 
         // ── Methods ──
         public void get_defaultPhysicsScene(){} // RVA: 0x7FFD51B532B0
@@ -614,6 +603,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PhysicsScene : ValueType
     {
+        public int m_Handle; // 0x10
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD54DBFBF0
         public void op_Equality(){} // RVA: 0x7FFD54CD7FA0
@@ -667,6 +658,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PhysicsShape2D : ValueType
     {
+        public ÍÍÍÌÎÎÌÎÌÎÎÌÎÎÍÍÌÍÏ m_ShapeType; // 0x10
+        public float m_Radius; // 0x14
+        public int m_VertexStartIndex; // 0x18
+        public int m_VertexCount; // 0x1C
+        public int m_UseAdjacentStart; // 0x20
+        public int m_UseAdjacentEnd; // 0x24
+        public UnityEngine.Vector2 m_AdjacentStart; // 0x28
+        public UnityEngine.Vector2 m_AdjacentEnd; // 0x30
     }
 
     public class PhysicsUpdateBehaviour2D : Behaviour
@@ -677,9 +676,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Plane : ValueType
     {
-        public object normal;
-        public object distance;
-        public object flipped;
+        public int normal;
+        public UnityEngine.Vector3 distance; // 0x10
+        public float flipped; // 0x1C
 
         // ── Methods ──
         public void get_normal(){} // RVA: 0x7FFD54C31DA0
@@ -787,7 +786,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Pose : ValueType
     {
-        public object identity;
+        public UnityEngine.Vector3 identity; // 0x10
+        public UnityEngine.Quaternion rotation; // 0x1C
+        public UnityEngine.Pose k_Identity;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD52626E60
@@ -848,6 +849,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PropertyName : ValueType
     {
+        public int id; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E78D8B0 | overloaded x2
         public void IsNullOrEmpty(){} // RVA: 0x7FFD54CD7F90

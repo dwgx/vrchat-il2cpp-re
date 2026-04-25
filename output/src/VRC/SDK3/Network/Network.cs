@@ -7,16 +7,40 @@ namespace VRC.SDK3.Network
 {
     public class Stats : Object
     {
-        public object ThroughputPercentage;
-        public object RoundTripVariance;
-        public object RoundTripTime;
-        public object BytesInMax;
-        public object BytesInAverage;
-        public object BytesOutMax;
-        public object BytesOutAverage;
-        public object HitchesPerNetworkTick;
-        public object Suffering;
-        public object TimeInRoom;
+        public System.Func`1<float> ThroughputPercentage;
+        public System.Func`1<float> RoundTripVariance; // 0x8
+        public System.Func`1<int> RoundTripTime; // 0x10
+        public System.Func`1<int> BytesInMax; // 0x18
+        public System.Func`1<float> BytesInAverage; // 0x20
+        public System.Func`1<int> BytesOutMax; // 0x28
+        public System.Func`1<float> BytesOutAverage; // 0x30
+        public System.Func`1<float> HitchesPerNetworkTick; // 0x38
+        public System.Func`1<float> Suffering; // 0x40
+        public System.Func`1<float> TimeInRoom; // 0x48
+        public System.Func`2<UnityEngine.GameObject,int> _Group; // 0x50
+        public System.Func`2<UnityEngine.GameObject,float> _ReceiveInterval; // 0x58
+        public System.Func`2<UnityEngine.GameObject,float> _GroupDelay; // 0x60
+        public System.Func`2<UnityEngine.GameObject,float> _FinalDelay; // 0x68
+        public System.Func`2<UnityEngine.GameObject,bool> _Sleeping; // 0x70
+        public System.Func`2<UnityEngine.GameObject,int> _Size; // 0x78
+        public System.Func`2<UnityEngine.GameObject,float> _BytesPerSecondAverage; // 0x80
+        public System.Func`2<UnityEngine.GameObject,int> _TotalBytes; // 0x88
+        public System.Func`2<UnityEngine.GameObject,float> _UpdateInterval; // 0x90
+        public System.Func`2<UnityEngine.GameObject,int> _ReliableEventsInOutboundQueue; // 0x98
+        public System.Func`2<UnityEngine.GameObject,float> _LastSendTime; // 0xA0
+        public System.Func`2<UnityEngine.GameObject,float> _LastReceiveTime; // 0xA8
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,int> _PlayerGroup; // 0xB0
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,float> _PlayerReceiveInterval; // 0xB8
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,float> _PlayerGroupDelay; // 0xC0
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,float> _PlayerFinalDelay; // 0xC8
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,bool> _PlayerSleeping; // 0xD0
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,int> _PlayerSize; // 0xD8
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,float> _PlayerBytesPerSecondAverage; // 0xE0
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,int> _PlayerTotalBytes; // 0xE8
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,float> _PlayerUpdateInterval; // 0xF0
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,int> _PlayerReliableEventsInOutboundQueue; // 0xF8
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,float> _PlayerLastSendTime; // 0x100
+        public System.Func`2<VRC.SDKBase.VRCPlayerApi,float> _PlayerLastReceiveTime; // 0x108
 
         // ── Methods ──
         public void get_ThroughputPercentage(){} // RVA: 0x7FFD5742DCB0
@@ -45,6 +69,8 @@ namespace VRC.SDK3.Network
 
     public class VRCNetworkBehaviour : VRCNetworkBehaviour
     {
+        public System.Action`1<VRC.SDK3.Network.VRCNetworkBehaviour> OnNetworkBehaviourAwake;
+
         // ── Methods ──
         public void NetworkConfigure(){} // RVA: 0x7FFD4E090980
         public void add_OnNetworkBehaviourAwake(){} // RVA: 0x7FFD5742D9F0

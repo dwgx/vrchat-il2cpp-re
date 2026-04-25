@@ -14,7 +14,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
 
     public class AsyncDestroyTrigger : MonoBehaviour
     {
-        public object CancellationToken;
+        public bool CancellationToken; // 0x20
+        public bool called; // 0x21
+        public System.Threading.CancellationTokenSource cancellationTokenSource; // 0x28
 
         // ── Methods ──
         public void get_CancellationToken(){} // RVA: 0x7FFD549040D0
@@ -26,6 +28,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
 
     public class AsyncStartTrigger : AsyncTriggerBase`1
     {
+        public bool called; // 0x40
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54904840
         public void StartAsync(){} // RVA: 0x7FFD549048D0
@@ -34,6 +38,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
 
     public class AsyncTriggerBase`1 : MonoBehaviour
     {
+        public Cysharp.Threading.Tasks.TriggerEvent`1<Cysharp.Threading.Tasks.AsyncUnit> triggerEvent; // 0x20
+        public bool calledAwake; // 0x38
+        public bool calledDestroy; // 0x39
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4E090980
         public void OnDestroy(){} // RVA: 0x7FFD4E090980
@@ -132,9 +140,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Triggers
 
     public class AsyncTriggerHandler`1 : Object
     {
-        public object CancellationToken;
-        public object Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
-        public object Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
+        public System.Action`1<object> CancellationToken;
+        public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<T> Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
+        public System.Threading.CancellationToken Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
+        public System.Threading.CancellationTokenRegistration registration;
+        public bool isDisposed;
+        public bool callOnce;
+        public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<T> core;
+        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev>k__BackingField;
+        public Cysharp.Threading.Tasks.ITriggerHandler`1<T> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Next>k__BackingField;
 
         // ── Methods ──
         public void Cysharp.Threading.Tasks.Triggers.IAsyncOneShotTrigger.OneShotAsync(){} // RVA: 0x7FFD4E0788A0

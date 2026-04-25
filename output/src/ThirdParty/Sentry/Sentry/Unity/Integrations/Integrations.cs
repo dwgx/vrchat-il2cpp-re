@@ -7,14 +7,9 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 {
     public class ApplicationAdapter : Object
     {
-        public object ActiveSceneName;
-        public object IsEditor;
-        public object ProductName;
-        public object Version;
-        public object BuildGUID;
-        public object UnityVersion;
-        public object PersistentDataPath;
-        public object Platform;
+        public Sentry.Unity.Integrations.ApplicationAdapter ActiveSceneName;
+        public LogCallback IsEditor; // 0x10
+        public System.Action ProductName; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53F3F9A0
@@ -63,6 +58,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class SceneManagerIntegration : Object
     {
+        public Sentry.Unity.ISceneManager _sceneManager; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
         public void Register(){} // RVA: 0x7FFD53F40510
@@ -70,6 +67,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class SessionIntegration : Object
     {
+        public Sentry.Unity.SentryMonoBehaviour _sentryMonoBehaviour; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void Register(){} // RVA: 0x7FFD53F40ED0
@@ -77,6 +76,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class UnityBadGatewayExceptionFilter : Object
     {
+        public string Message;
+
         // ── Methods ──
         public void Filter(){} // RVA: 0x7FFD53F41240
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -84,6 +85,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class UnityBeforeSceneLoadIntegration : Object
     {
+        public Sentry.Unity.Integrations.IApplication _application; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53F41370
         public void Register(){} // RVA: 0x7FFD53F41440
@@ -91,6 +94,14 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class UnityLogHandlerIntegration : Object
     {
+        public Sentry.Unity.ErrorTimeDebounce ErrorTimeDebounce; // 0x10
+        public Sentry.Unity.LogTimeDebounce LogTimeDebounce; // 0x18
+        public Sentry.Unity.WarningTimeDebounce WarningTimeDebounce; // 0x20
+        public Sentry.Unity.Integrations.IApplication _application; // 0x28
+        public 0x664F7458 _hub; // 0x30
+        public Sentry.Unity.SentryUnityOptions _sentryOptions; // 0x38
+        public UnityEngine.ILogHandler _unityLogHandler; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53F415B0
         public void Register(){} // RVA: 0x7FFD53F41830
@@ -105,6 +116,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class UnitySocketExceptionFilter : Object
     {
+        public string Message;
+
         // ── Methods ──
         public void Filter(){} // RVA: 0x7FFD53F427F0
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -112,6 +125,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 
     public class UnityWebExceptionFilter : Object
     {
+        public string Message;
+
         // ── Methods ──
         public void Filter(){} // RVA: 0x7FFD53F42950
         public void .ctor(){} // RVA: 0x7FFD4E341310

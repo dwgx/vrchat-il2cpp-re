@@ -7,6 +7,22 @@ namespace ThirdParty.BestHTTP.BestHTTP.JSON
 {
     public class Json : Object
     {
+        public object DummySyncRootObject;
+        public int TOKEN_NONE;
+        public int TOKEN_CURLY_OPEN;
+        public int TOKEN_CURLY_CLOSE;
+        public int TOKEN_SQUARED_OPEN;
+        public int TOKEN_SQUARED_CLOSE;
+        public int TOKEN_COLON;
+        public int TOKEN_COMMA;
+        public int TOKEN_STRING;
+        public int TOKEN_NUMBER;
+        public int TOKEN_TRUE;
+        public int TOKEN_FALSE;
+        public int TOKEN_NULL;
+        public Unity.Profiling.ProfilerMarker _encodeProfilerMarker; // 0x8
+        public Unity.Profiling.ProfilerMarker _decodeProfilerMarker; // 0x10
+
         // ── Methods ──
         public void Decode(){} // RVA: 0x7FFD57228020 | overloaded x4
         public void Encode(){} // RVA: 0x7FFD4E089730 | overloaded x3

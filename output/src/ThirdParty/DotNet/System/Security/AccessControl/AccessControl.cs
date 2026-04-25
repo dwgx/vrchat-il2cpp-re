@@ -7,14 +7,11 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 {
     public class CommonAcl : GenericAcl
     {
-        public object BinaryLength;
-        public object Count;
-        public object IsCanonical;
-        public object IsContainer;
-        public object IsDS;
-        public object IsAefa;
-        public object Revision;
-        public object Item;
+        public bool BinaryLength; // 0x10
+        public bool Count; // 0x11
+        public bool IsCanonical; // 0x12
+        public bool IsContainer; // 0x13
+        public 0x6642F250 IsDS; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53879280 | overloaded x3
@@ -61,12 +58,9 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class GenericAcl : Object
     {
-        public object BinaryLength;
-        public object Count;
-        public object IsSynchronized;
-        public object Item;
-        public object Revision;
-        public object SyncRoot;
+        public byte BinaryLength;
+        public byte Count; // 0x1
+        public int IsSynchronized; // 0x4
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5387D870
@@ -87,7 +81,8 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class NativeObjectSecurity : CommonObjectSecurity
     {
-        public object ResourceType;
+        public ExceptionFromErrorCode ResourceType; // 0x28
+        public 0x6642F300 resource_type; // 0x30
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5387E900 | overloaded x4
@@ -105,11 +100,9 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class ObjectSecurity : Object
     {
-        public object AccessControlSectionsModified;
-        public object AccessRulesModified;
-        public object IsContainer;
-        public object IsDS;
-        public object OwnerModified;
+        public 0x6642EC20 AccessControlSectionsModified; // 0x10
+        public z AccessRulesModified; // 0x18
+        public 0x66427690 IsContainer; // 0x20
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538805D0 | overloaded x2

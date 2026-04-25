@@ -7,7 +7,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Device
 {
     public class IUserIdentifierProvider
     {
-        public object UserId;
+        public <>c<T> UserId;
 
         // ── Methods ──
         public void get_UserId(){} // RVA: 0x7FFD4E078E90
@@ -16,6 +16,10 @@ namespace ThirdParty.Other.Unity.Services.Core.Device
 
     public class InstallationId : Object
     {
+        public string Identifier; // 0x10
+        public Unity.Services.Core.Device.IUserIdentifierProvider UnityAdsIdentifierProvider; // 0x18
+        public Unity.Services.Core.Device.IUserIdentifierProvider UnityAnalyticsIdentifierProvider; // 0x20
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B11020
         public void CreateIdentifier(){} // RVA: 0x7FFD54B11140
@@ -26,7 +30,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Device
 
     public class UnityAdsIdentifier : Object
     {
-        public object UserId;
+        public <>c UserId;
 
         // ── Methods ──
         public void get_UserId(){} // RVA: 0x7FFD4E919180

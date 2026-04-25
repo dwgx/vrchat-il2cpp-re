@@ -183,7 +183,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MaterialPropertyBlock : Object
     {
-        public object isEmpty;
+        public UIntPtr isEmpty; // 0x10
 
         // ── Methods ──
         public void GetIntImpl(){} // RVA: 0x7FFD54C96550
@@ -276,6 +276,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Mathf : ValueType
     {
+        public float Epsilon;
+
         // ── Methods ──
         public void ClosestPowerOfTwo(){} // RVA: 0x7FFD54CD0D00
         public void IsPowerOfTwo(){} // RVA: 0x7FFD54CD0D50
@@ -337,17 +339,24 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Matrix4x4 : ValueType
     {
-        public object rotation;
-        public object lossyScale;
-        public object isIdentity;
-        public object determinant;
-        public object decomposeProjection;
-        public object inverse;
-        public object transpose;
-        public object Item;
-        public object Item;
-        public object zero;
-        public object identity;
+        public float rotation; // 0x10
+        public float lossyScale; // 0x14
+        public float isIdentity; // 0x18
+        public float determinant; // 0x1C
+        public float decomposeProjection; // 0x20
+        public float inverse; // 0x24
+        public float transpose; // 0x28
+        public float Item; // 0x2C
+        public float Item; // 0x30
+        public float zero; // 0x34
+        public float identity; // 0x38
+        public float m32; // 0x3C
+        public float m03; // 0x40
+        public float m13; // 0x44
+        public float m23; // 0x48
+        public float m33; // 0x4C
+        public UnityEngine.Matrix4x4 zeroMatrix;
+        public UnityEngine.Matrix4x4 identityMatrix; // 0x40
 
         // ── Methods ──
         public void GetRotation(){} // RVA: 0x7FFD54CCA6E0
@@ -675,8 +684,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MonoBehaviour : Behaviour
     {
-        public object destroyCancellationToken;
-        public object useGUILayout;
+        public System.Threading.CancellationTokenSource destroyCancellationToken; // 0x18
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD54CE2420
@@ -707,12 +715,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Motion : Object
     {
-        public object averageDuration;
-        public object averageAngularSpeed;
-        public object averageSpeed;
-        public object apparentSpeed;
-        public object isLooping;
-        public object isHumanMotion;
+        public bool averageDuration; // 0x18
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C52D50

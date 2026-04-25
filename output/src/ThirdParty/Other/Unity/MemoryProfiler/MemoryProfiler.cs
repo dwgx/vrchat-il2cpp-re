@@ -14,6 +14,8 @@ namespace ThirdParty.Other.Unity.MemoryProfiler
 
     public class MetadataCollect : Object
     {
+        public bool disposed; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54AC5AC0
         public void CollectMetadata(){} // RVA: 0x7FFD4E090A40
@@ -22,6 +24,10 @@ namespace ThirdParty.Other.Unity.MemoryProfiler
 
     public class MetadataInjector : Object
     {
+        public Unity.MemoryProfiler.DefaultMetadataCollect DefaultCollector;
+        public long CollectorCount; // 0x8
+        public byte DefaultCollectorInjected; // 0x10
+
         // ── Methods ──
         public void PlayerInitMetadata(){} // RVA: 0x7FFD54AC5680
         public void InitializeMetadataCollection(){} // RVA: 0x7FFD54AC58B0

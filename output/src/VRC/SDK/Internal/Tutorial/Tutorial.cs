@@ -7,6 +7,12 @@ namespace VRC.SDK.Internal.Tutorial
 {
     public class DistanceEnabler : MonoBehaviour
     {
+        public float enableDistance; // 0x20
+        public UnityEngine.GameObject objectToEnable; // 0x28
+        public UnityEngine.GameObject objectToDisable; // 0x30
+        public bool gotObjectToEnable; // 0x38
+        public bool gotObjectToDisable; // 0x39
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4FAE25E0
         public void FixedUpdate(){} // RVA: 0x7FFD4FAE2750
@@ -41,6 +47,10 @@ namespace VRC.SDK.Internal.Tutorial
 
     public class VRCAnalytics : Object
     {
+        public System.Action`2<string,System.Collections.Generic.Dictionary`2<string,object>> _Send;
+        public System.Action`1<System.Collections.Generic.Dictionary`2<string,object>> _SetUserProperties; // 0x8
+        public Action`5<string,string,System.Nullable`1<bool>,int,float> _SendCustomWorldEvent; // 0x10
+
         // ── Methods ──
         public void Send(){} // RVA: 0x7FFD4FAE34C0 | overloaded x2
         public void SetUserProperties(){} // RVA: 0x7FFD4FAE3530
@@ -50,6 +60,15 @@ namespace VRC.SDK.Internal.Tutorial
 
     public class VRCAvatarCalibrator : MonoBehaviour
     {
+        public string blueprintId; // 0x20
+        public bool grantBlueprintAccess; // 0x28
+        public UnityEngine.Transform Placement; // 0x30
+        public bool ChangeAvatarsOnUse; // 0x38
+        public float scale; // 0x3C
+        public float userEyeHeight; // 0x40
+        public UnityEngine.GameObject Instance; // 0x48
+        public InstantiationDelegate Instantiate;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD4FAE3640
         public void SwitchAvatar(){} // RVA: 0x7FFD4FAE3B20

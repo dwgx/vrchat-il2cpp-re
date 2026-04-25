@@ -8,13 +8,63 @@ namespace VRC.Animation
     /// <summary>Originally: ÌÌÍÌÌÏÎÎÏÎÌÏÍÏÍÌÌÌÌÏÎÌÍ</summary>
     public class VRCMotionState : MonoBehaviour
     {
-        public object _destroyCancellationToken;
-        public object _useGUILayout;
-        public object f_CC3;
-        public object f_639;
-        public object f_2F3;
-        public object f_FBF;
-        public object f_8D0;
+        public bool _destroyCancellationToken; // 0x20
+        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ _useGUILayout; // 0x28
+        public UnityEngine.Animator f_CC3; // 0x30
+        public ÏÏÏÎÍÏÎÏÍÎÎÌÏÍÎÍÍÍÎÍÎÌÎ f_639; // 0x38
+        public ÏÍÏÏÌÏÍÎÏÏÍÌÏÍÍÎÎÍÍÌÏÌÎ f_2F3; // 0x40
+        public ÏÎÏÏÎÍÌÎÌÏÍÏÏÎÎÏÎÍÎÌÎÎÍ f_FBF; // 0x48
+        public ÌÏÌÎÍÏÏÏÍÍÏÌÏÎÌÎÏÌÏÎÌÏÎ f_8D0; // 0x50
+        public bool ÌÏÍÍÎÎÍÏÍÎÌÍÍÏÎÌÍÍÎÎÏÍÍ; // 0x58
+        public bool ÍÎÌÎÌÍÍÍÌÌÏÏÎÎÎÏÏÎÌÏÏÏÏ; // 0x59
+        public ÍÌÌÏÍÎÎÍÍÏÌÎÏÏÎÍÍÏÎÌÌÌÎ ÏÌÍÏÎÍÏÏÌÍÎÏÍÌÎÏÏÌÏÌÏÌÌ; // 0x60
+        public ÌÎÍÍÎÌÎÌÌÎÍÎÏÏÍÎÎÌÏÌÎÎÌ ÍÏÌÍÌÏÌÌÏÎÏÎÌÌÌÎÌÏÌÏÎÌÏ; // 0x68
+        public 0x66352FE8 ÏÌÎÌÎÍÎÍÎÏÍÌÎÎÍÌÌÎÌÏÌÎÎ; // 0x70
+        public UnityEngine.Animator ÌÌÏÎÍÌÎÍÎÍÎÍÏÎÏÎÏÎÍÎÌÍÌ; // 0x78
+        public bool ÎÎÎÍÎÎÏÌÎÌÎÍÌÎÍÌÍÌÌÌÎÌÎ; // 0x80
+        public bool ÍÌÍÍÎÍÎÌÎÎÏÌÎÍÌÍÎÏÌÌÎÏÌ; // 0x81
+        public bool ÎÍÎÌÎÏÎÎÍÍÏÌÍÌÎÎÏÏÎÏÏÌÏ; // 0x82
+        public UnityEngine.GameObject ÌÏÌÌÍÌÎÏÍÍÎÍÎÌÎÍÎÏÌÍÎÍÍ; // 0x88
+        public UnityEngine.GameObject ÍÌÏÎÍÏÌÎÏÌÎÎÏÎÍÌÌÎÌÏÍÎÍ; // 0x90
+        public UnityEngine.GameObject ÍÍÍÍÌÎÎÌÎÎÌÍÌÍÏÍÌÍÎÎÌÎÎ; // 0x98
+        public UnityEngine.GameObject ÌÌÎÌÎÍÏÌÍÎÍÍÌÏÍÍÎÎÌÏÍÌÎ; // 0xA0
+        public UnityEngine.GameObject ÏÌÍÌÍÏÍÏÍÏÌÍÎÏÎÌÌÏÎÎÏÌÍ; // 0xA8
+        public UnityEngine.GameObject ÍÎÏÎÎÎÏÎÏÎÎÎÎÌÍÏÍÌÏÍÎÍÍ; // 0xB0
+        public UnityEngine.Vector3 ÎÍÌÌÎÏÌÏÍÍÏÌÏÍÎÍÎÌÍÏÌÎÍ; // 0xB8
+        public float ÏÏÏÏÌÌÌÍÍÏÏÍÏÏÎÏÌÍÌÏÌÏÎ; // 0xC4
+        public bool ÏÎÌÎÍÍÎÍÏÎÍÌÏÏÎÌÍÎÏÌÌÍÎ; // 0xC8
+        public ÌÍÌÏÍÌÏÍÎÌÏÏÎÏÌÎÍÏÌÌÌÌÌ ÎÏÏÏÎÌÏÌÌÍÌÍÍÍÏÏÍÍÍÌÌÌÍ; // 0xD0
+        public ÌÍÌÏÍÌÏÍÎÌÏÏÎÏÌÎÍÏÌÌÌÌÌ ÌÏÏÎÏÏÌÍÌÌÏÌÍÏÌÏÎÎÏÏÌÏÌ; // 0xD8
+        public ÏÌÎÍÏÎÌÌÎÍÍÎÌÏÌÏÌÎÍÌÎÌÎ ÍÎÏÏÏÍÏÎÎÍÍÍÎÏÏÎÌÎÌÏÏÍÎ; // 0xE0
+        public ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ ÌÌÏÌÍÌÏÏÌÍÍÍÎÍÌÏÌÌÏÌÌÍÌ; // 0xE8
+        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÏÍÍÏÎÌÎÏÌÎÏÎÏÌÌÍÌÌÎÌÏÌÍ; // 0xF0
+        public ÌÏÌÍÎÍÏÏÌÎÏÌÌÏÎÎÎÏÍÏÎÎÍ ÌÍÎÍÎÎÎÌÏÍÍÎÌÌÏÌÏÌÌÎÍÍÍ; // 0xF8
+        public UnityEngine.Transform ÎÎÌÍÏÎÍÌÎÏÍÏÏÍÎÎÏÏÏÌÍÎÌ; // 0x100
+        public UnityEngine.Transform ÌÎÍÍÌÏÎÌÏÍÍÍÌÏÍÍÍÌÍÎÏÎÌ; // 0x108
+        public float ÍÏÎÍÍÏÍÏÎÌÌÍÎÌÏÌÏÍÌÌÏÍÎ; // 0x110
+        public float ÎÌÍÎÍÏÍÎÏÎÎÏÍÎÍÌÍÎÍÍÏÏÏ; // 0x114
+        public float ÎÌÎÍÎÏÌÏÏÌÍÌÍÍÌÌÎÏÌÎÎÎÌ; // 0x118
+        public float ÏÌÌÏÍÌÎÍÌÌÏÎÎÎÏÌÏÎÌÍÏÍÌ; // 0x11C
+        public float ÎÏÌÌÏÌÎÍÏÌÏÎÌÌÌÏÍÎÏÌÎÎÏ; // 0x120
+        public float ÌÎÍÌÎÏÌÎÏÏÌÏÌÏÌÎÍÍÌÌÎÌÌ; // 0x124
+        public bool ÍÎÏÎÌÏÏÍÌÏÎÍÌÎÎÎÌÎÌÌÎÏÎ; // 0x128
+        public float ÍÏÎÏÌÍÌÍÌÎÌÍÍÍÌÏÎÌÎÎÎÌÍ; // 0x12C
+        public UnityEngine.Transform ÎÎÏÍÌÍÍÏÎÌÎÏÍÎÍÍÎÌÎÍÎÎÌ; // 0x130
+        public UnityEngine.Transform ÎÏÌÎÏÌÍÏÌÌÍÎÌÌÎÌÏÌÎÎÏÍÏ; // 0x138
+        public UnityEngine.Vector3 ÌÍÌÍÏÏÌÏÍÏÏÏÏÌÍÍÏÍÎÎÎÎÏ; // 0x140
+        public UnityEngine.Quaternion ÌÏÏÍÎÍÍÌÎÎÏÍÍÎÎÌÏÎÎÏÏÍÎ; // 0x14C
+        public UnityEngine.Transform ÎÍÏÍÎÎÍÍÏÌÏÏÍÍÍÎÌÎÌÍÌÎÏ; // 0x160
+        public UnityEngine.Vector3 ÌÏÏÌÍÎÍÏÎÌÌÌÌÎÌÎÏÍÎÌÌÍÌ; // 0x168
+        public UnityEngine.Quaternion ÎÏÍÌÍÎÍÌÏÌÏÏÌÏÏÌÏÏÍÏÌÍÏ; // 0x174
+        public bool ÏÎÍÍÍÏÎÍÏÏÍÎÎÍÍÌÎÎÍÍÎÍÏ; // 0x184
+        public bool ÍÎÌÏÌÏÎÏÎÌÎÌÌÎÏÌÎÎÎÎÏÌÍ; // 0x185
+        public bool ÏÎÏÏÌÍÍÎÏÎÌÎÎÏÍÎÏÎÌÍÎÌÎ; // 0x186
+        public bool ÍÏÎÎÏÍÏÌÍÎÍÏÌÍÍÎÍÌÌÎÌÏÍ; // 0x187
+        public float ÍÍÍÌÏÌÎÎÍÎÏÍÏÌÌÏÎÎÌÍÌÎÏ; // 0x188
+        public bool ÌÍÍÍÍÎÌÎÏÏÎÏÌÎÏÏÏÏÍÏÎÎÎ; // 0x18C
+        public bool ÍÏÎÎÌÍÌÍÏÍÍÌÏÏÎÏÏÎÏÌÎÍÍ; // 0x18D
+        public ÏÎÏÍÌÎÏÍÌÏÏÎÌÎÌÏÍÎÌÌÍÎÏ ÎÏÎÎÎÎÎÎÏÌÏÎÎÌÎÎÎÍÌÌÏÌÏ; // 0x18E
+        public bool ÎÌÏÍÎÍÏÌÏÌÍÎÎÌÍÍÍÍÍÏÍÍÍ; // 0x195
 
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EFAD2D0
@@ -100,9 +150,22 @@ namespace VRC.Animation
     /// <summary>Originally: ÍÌÌÏÌÌÏÌÌÌÏÌÍÍÌÌÎÎÌÌÍÏÎ</summary>
     public class VRCMotionStateSibling_3B68 : Object
     {
-        public object _name;
-        public object _hideFlags;
-        public object f_8D0;
+        public ÌÎÎÌÏÍÍÎÎÍÏÌÍÍÌÎÎÎÏÍÌÏÌ _name; // 0x10
+        public bool _hideFlags; // 0x18
+        public System.Threading.CancellationTokenSource f_8D0; // 0x20
+        public ÎÏÍÌÍÌÏÌÍÏÏÎÏÏÌÍÍÎÎÎÍÏÌ ÌÎÍÍÍÍÌÏÎÍÌÎÎÍÏÌÎÍÏÎÌÌÏ; // 0x28
+        public ÏÍÏÍÍÌÏÎÏÌÍÌÏÏÍÎÏÌÍÍÎÎÏ ÌÏÎÏÍÎÎÏÎÍÌÏÎÎÌÏÎÍÍÍÎÎÎ; // 0x30
+        public ÏÎÏÏÎÎÎÎÌÌÍÍÏÏÍÍÌÍÌÌÌÏÌ ÎÎÎÌÏÍÍÏÍÍÎÏÌÍÎÏÏÌÎÏÎÌÎ; // 0x38
+        public System.Nullable`1<ulong> ÏÏÌÏÏÍÎÎÏÎÍÍÎÏÏÌÌÍÏÌÍÌÎ; // 0x40
+        public System.Nullable`1<ulong> ÎÎÌÎÎÎÏÏÏÍÏÍÏÏÏÌÍÏÌÏÌÍÎ; // 0x50
+        public System.Nullable`1<ulong> ÏÎÏÌÎÍÌÎÏÍÌÌÍÎÍÏÍÍÏÎÍÎÎ; // 0x60
+        public System.Nullable`1<ulong> ÍÍÌÎÏÌÌÍÏÍÍÎÎÎÏÏÍÌÏÌÏÍÎ; // 0x70
+        public 0x664D9370 ÌÎÍÏÏÏÍÎÍÏÏÌÎÎÏÏÍÏÏÎÎÎÎ; // 0x80
+        public System.Threading.Thread ÎÌÌÌÍÍÏÌÎÏÏÍÌÏÎÍÌÌÍÎÏÏÍ; // 0x88
+        public System.Collections.Concurrent.BlockingCollection`1<System.ValueTuple`2<System.Func`1<object>,System.Threading.Tasks.TaskCompletionSource`1<object>>> ÎÏÏÎÌÏÎÎÌÌÌÏÏÍÏÏÌÏÎÍÎÍÏ; // 0x90
+        public int ÌÎÍÏÎÌÏÍÏÍÍÍÌÌÍÎÎÎÍÎÌÎÍ;
+        public long ÏÌÏÌÌÌÌÎÎÍÎÍÏÎÍÍÍÏÌÏÎÌÎ; // 0x98
+        public VRC.Profiling.ProfilerMarker ÌÎÍÏÌÏÌÌÏÎÌÌÍÍÎÍÌÎÍÍÏÍÎ;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F094470

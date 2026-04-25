@@ -5,6 +5,8 @@
 
 public class SafeModeOptions : Object
 {
+    public 0x665CFD00 nestedTweenFailureBehaviour; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -18,22 +20,34 @@ public class SampleFramesHandler : MulticastDelegate
 
 public class SaveableInventoryGroupData : ValueType
 {
+    public string name; // 0x10
+    public string[] ids; // 0x18
 }
 
 public class SavedSearches : Object
 {
+    public System.Collections.Generic.List`1<0x664CF130> Searches; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class Scanbeam : Object
 {
+    public long Y; // 0x10
+    public Scanbeam Next; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class ScheduledFrameEvent : ValueType
 {
+    public VRC.Udon.Common.Interfaces.IUdonEventReceiver udonEventReceiver; // 0x10
+    public string eventName; // 0x18
+    public long eventFrame; // 0x20
+    public long eventId; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5529F630
 }
@@ -47,6 +61,11 @@ public class ScheduledFrameEventComparer : Object
 
 public class ScheduledTimeEvent : ValueType
 {
+    public VRC.Udon.Common.Interfaces.IUdonEventReceiver udonEventReceiver; // 0x10
+    public string eventName; // 0x18
+    public double eventTime; // 0x20
+    public long eventId; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5529F570
 }
@@ -60,7 +79,11 @@ public class ScheduledTimeEventComparer : Object
 
 public class Scheduler : Object
 {
-    public object Instance;
+    public Scheduler Instance;
+    public bool needReSort; // 0x10
+    public System.Collections.Generic.List`1<System.Threading.Timer> list; // 0x18
+    public long current_next_run; // 0x20
+    public System.Threading.ManualResetEvent changed; // 0x28
 
     // ── Methods ──
     public void InitScheduler(){} // RVA: 0x7FFD53AF7F50
@@ -80,8 +103,10 @@ public class Scheduler : Object
 
 public class Scope : Object
 {
-    public object Parent;
-    public object State;
+    public bool Parent; // 0x10
+    public System.IDisposable State; // 0x18
+    public System.IDisposable _disposable1; // 0x20
+    public System.IDisposable[] _disposable; // 0x28
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD537623F0
@@ -127,6 +152,8 @@ public class ScrollRectEvent : UnityEvent`1
 
 public class SealedPrefab : MonoBehaviour
 {
+    public UnityEngine.Object[] allowedToReference; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341D50
 }
@@ -156,8 +183,12 @@ public class SecureStringAllocator : MulticastDelegate
 
 public class Segment : Object
 {
-    public object Capacity;
-    public object FreezeOffset;
+    public Slot<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int>>[] Capacity; // 0x10
+    public int FreezeOffset; // 0x18
+    public System.Collections.Concurrent.PaddedHeadAndTail _headAndTail; // 0x1C
+    public bool _preservedForObservation; // 0x19C
+    public bool _frozenForEnqueues; // 0x19D
+    public Segment<Cysharp.Threading.Tasks.Internal.StateTuple`3<WhenAnyPromise,Awaiter,int>> _nextSegment; // 0x1A0
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD51D00ED0
@@ -171,10 +202,20 @@ public class Segment : Object
 
 public class SegmentState : ValueType
 {
+    public Internal.PaddingFor32 _pad0;
+    public int _first;
+    public int _lastCopy;
+    public Internal.PaddingFor32 _pad1;
+    public int _firstCopy;
+    public int _last;
+    public Internal.PaddingFor32 _pad2;
 }
 
 public class Select : Object
 {
+    public UnityEngine.InputSystem.Utilities.SelectManyObservable`2<U,T> m_Observable;
+    public System.IObserver`1<T> m_Observer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void OnCompleted(){} // RVA: 0x7FFD4E090980
@@ -203,13 +244,18 @@ public class SendNetworkEventDelegate : MulticastDelegate
 
 public class SerializableContainer : Object
 {
+    public string name; // 0x10
+    public byte[] data; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class SerializableVector3 : Object
 {
-    public object Value;
+    public float Value; // 0x10
+    public float Y; // 0x14
+    public float Z; // 0x18
 
     // ── Methods ──
     public void ToNumerics(){} // RVA: 0x7FFD4EB56D20
@@ -244,12 +290,14 @@ public class SerializationDelegate : MulticastDelegate
 
 public class SerializedState : ValueType
 {
+    public 0x664AEA20 lastUpdateType; // 0x10
+    public UpdateStepCount playerUpdateStepCount; // 0x14
 }
 
 public class ServiceAccessor : Object
 {
-    public object CallSite;
-    public object RealizedService;
+    public Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCallSite CallSite; // 0x10
+    public System.Func`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope,object> RealizedService; // 0x18
 
     // ── Methods ──
     public void get_CallSite(){} // RVA: 0x7FFD4E35C380
@@ -265,9 +313,8 @@ public class ServiceCollectionDebugView : Object
 
 public class ServiceDescriptorCacheItem : ValueType
 {
-    public object Last;
-    public object Count;
-    public object Item;
+    public Microsoft.Extensions.DependencyInjection.ServiceDescriptor Last; // 0x10
+    public System.Collections.Generic.List`1<Microsoft.Extensions.DependencyInjection.ServiceDescriptor> Count; // 0x18
 
     // ── Methods ──
     public void get_Last(){} // RVA: 0x7FFD5374F000
@@ -310,7 +357,7 @@ public class SetClassValueAction : MulticastDelegate
 
 public class SetElementProperty : Property`2
 {
-    public object Name;
+    public T Name;
 
     // ── Methods ──
     public void get_Name(){} // RVA: 0x7FFD4E078E90
@@ -336,6 +383,14 @@ public class SetStructValueAction : MulticastDelegate
 
 public class Settings : Object
 {
+    public string _containerName; // 0x10
+    public System.Collections.Generic.Dictionary`2<string,object> _data; // 0x18
+    public object _dataLock; // 0x20
+    public bool _hasWrittenToStorage; // 0x28
+    public int _lastTimeWrittenToStorage; // 0x2C
+    public int WRITE_TO_STORAGE_DELAY_MS;
+    public string _tempCachePath; // 0x30
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5726A320
     public void Get(){} // RVA: 0x7FFD4E2ADC40
@@ -348,6 +403,8 @@ public class Settings : Object
 
 public class ShaderAssetList : ScriptableObject
 {
+    public UnityEngine.Shader[] Shaders; // 0x18
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E54F5F0
 }
@@ -358,7 +415,22 @@ public class ShaderHandleErrors : ValueType
 
 public class Shape : Object
 {
-    public object id;
+    public UnityEngine.Transform id; // 0x10
+    public UnityEngine.Transform transform1; // 0x18
+    public 0x665BD508 shapeType; // 0x20
+    public UnityEngine.Vector3 center; // 0x24
+    public float radius; // 0x30
+    public float height; // 0x34
+    public UnityEngine.Vector3 axis; // 0x38
+    public float maxSize; // 0x44
+    public bool isReceiver; // 0x48
+    public bool isCollider; // 0x49
+    public System.Action`1<Shape> OnEnter; // 0x50
+    public System.Action`1<Shape> OnExit; // 0x58
+    public System.Action OnIdUpdated; // 0x60
+    public ushort _id; // 0x68
+    public VRC.Dynamics.DynamicsComponent component; // 0x70
+    public ushort NullId;
 
     // ── Methods ──
     public void get_id(){} // RVA: 0x7FFD513F9440
@@ -369,6 +441,17 @@ public class Shape : Object
 
 public class ShapeCache : ValueType
 {
+    public Cinemachine.ConfinerOven m_confinerOven; // 0x10
+    public System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.Vector2>> m_OriginalPath; // 0x18
+    public UnityEngine.Matrix4x4 m_DeltaWorldToBaked; // 0x20
+    public UnityEngine.Matrix4x4 m_DeltaBakedToWorld; // 0x60
+    public float m_aspectRatio; // 0xA0
+    public float m_maxWindowSize; // 0xA4
+    public float m_skeletonPadding; // 0xA8
+    public float m_maxComputationTimePerFrameInSeconds; // 0xAC
+    public UnityEngine.Matrix4x4 m_bakedToWorld; // 0xB0
+    public UnityEngine.Collider2D m_boundingShape2D; // 0xF0
+
     // ── Methods ──
     public void Invalidate(){} // RVA: 0x7FFD4FC23630
     public void ValidateCache(){} // RVA: 0x7FFD4FC237D0
@@ -378,6 +461,30 @@ public class ShapeCache : ValueType
 
 public class ShapeData : ValueType
 {
+    public 0x665BD508 shapeType; // 0x10
+    public UnityEngine.Vector3 center; // 0x14
+    public float radius; // 0x20
+    public float height; // 0x24
+    public UnityEngine.Vector3 axis; // 0x28
+    public float maxSize; // 0x34
+    public bool isReceiver; // 0x38
+    public bool isCollider; // 0x39
+    public UnityEngine.Bounds bounds; // 0x3C
+    public UnityEngine.Vector3Int boundsMin; // 0x54
+    public UnityEngine.Vector3Int boundsMax; // 0x60
+    public UnityEngine.Vector3Int nextBoundsMin; // 0x6C
+    public UnityEngine.Vector3Int nextBoundsMax; // 0x78
+    public Unity.Mathematics.float3 velocity; // 0x84
+    public Unity.Mathematics.float3 angularNormal; // 0x90
+    public float angularSpeed; // 0x9C
+    public Unity.Mathematics.float3 lastPosition; // 0xA0
+    public Unity.Mathematics.quaternion lastRotation; // 0xAC
+    public Unity.Mathematics.float3 outPos0; // 0xBC
+    public Unity.Mathematics.float3 outPos1; // 0xC8
+    public float outRadius; // 0xD4
+    public int collisionCount; // 0xD8
+    public float VelocityLerpSpeed;
+
     // ── Methods ──
     public void ToCollisionShape(){} // RVA: 0x7FFD5521B3E0
     public void GetMidpoint(){} // RVA: 0x7FFD5521B420
@@ -390,51 +497,7 @@ public class ShapeData : ValueType
 
 public class ShapeModule : ValueType
 {
-    public object enabled;
-    public object shapeType;
-    public object randomDirectionAmount;
-    public object sphericalDirectionAmount;
-    public object randomPositionAmount;
-    public object alignToDirection;
-    public object radius;
-    public object radiusMode;
-    public object radiusSpread;
-    public object radiusSpeed;
-    public object radiusSpeedMultiplier;
-    public object radiusThickness;
-    public object angle;
-    public object length;
-    public object boxThickness;
-    public object meshShapeType;
-    public object mesh;
-    public object meshRenderer;
-    public object skinnedMeshRenderer;
-    public object sprite;
-    public object spriteRenderer;
-    public object useMeshMaterialIndex;
-    public object meshMaterialIndex;
-    public object useMeshColors;
-    public object normalOffset;
-    public object meshSpawnMode;
-    public object meshSpawnSpread;
-    public object meshSpawnSpeed;
-    public object meshSpawnSpeedMultiplier;
-    public object arc;
-    public object arcMode;
-    public object arcSpread;
-    public object arcSpeed;
-    public object arcSpeedMultiplier;
-    public object donutRadius;
-    public object position;
-    public object rotation;
-    public object scale;
-    public object texture;
-    public object textureClipChannel;
-    public object textureClipThreshold;
-    public object textureColorAffectsParticles;
-    public object textureAlphaAffectsParticles;
-    public object textureBilinearFiltering;
-    public object textureUVChannel;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -622,25 +685,31 @@ public class ShapeModule : ValueType
 
 public class SharedBool : Object
 {
+    public bool Value; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539C5F00
 }
 
 public class SharedInt : Object
 {
+    public int Value; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD539C5EF0
 }
 
 public class SharedLong : Object
 {
+    public long Value; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4F83EFB0
 }
 
 public class SharedStatic`1 : ValueType
 {
-    public object Data;
+    public void* Data; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -654,7 +723,8 @@ public class SharedStatics : Object
 
 public class SignalSource : Object
 {
-    public object SignalDuration;
+    public Cinemachine.CinemachineImpulseDefinition SignalDuration; // 0x10
+    public UnityEngine.Vector3 m_Velocity; // 0x18
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC77880
@@ -671,11 +741,18 @@ public class SimpleScheduledItem : VisualElementScheduledItem`1
 
 public class SingleAnchorDelegatePair : ValueType
 {
+    public OVRSpatialAnchor Anchor; // 0x10
+    public System.Action`2<OVRSpatialAnchor,bool> Delegate; // 0x18
 }
 
 public class SingleConsumerUnboundedChannelReader : ChannelReader`1
 {
-    public object Completion;
+    public System.Action`1<object> Completion; // 0x10
+    public Cysharp.Threading.Tasks.SingleConsumerUnboundedChannel`1<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> parent; // 0x18
+    public System.Threading.CancellationToken cancellationToken; // 0x20
+    public System.Threading.CancellationTokenRegistration cancellationTokenRegistration; // 0x28
+    public Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1<bool> core; // 0x40
+    public bool isWaiting; // 0x68
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -696,6 +773,8 @@ public class SingleConsumerUnboundedChannelReader : ChannelReader`1
 
 public class SingleConsumerUnboundedChannelWriter : ChannelWriter`1
 {
+    public Cysharp.Threading.Tasks.SingleConsumerUnboundedChannel`1<ÏÎÎÏÏÎÍÏÌÎÎÎÍÍÎÏÌÍÌÏÎÏÍ> parent; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void TryWrite(){} // RVA: 0x7FFD4E2ADC40
@@ -708,12 +787,17 @@ public class SingleProducerSingleConsumerQueue_DebugView : Object
 
 public class SingleRange : ValueType
 {
+    public char First; // 0x10
+    public char Last; // 0x12
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD51510B90
 }
 
 public class SingleRangeComparer : Object
 {
+    public SingleRangeComparer Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void Compare(){} // RVA: 0x7FFD547C89F0
@@ -722,17 +806,7 @@ public class SingleRangeComparer : Object
 
 public class SizeBySpeedModule : ValueType
 {
-    public object enabled;
-    public object size;
-    public object sizeMultiplier;
-    public object x;
-    public object xMultiplier;
-    public object y;
-    public object yMultiplier;
-    public object z;
-    public object zMultiplier;
-    public object separateAxes;
-    public object range;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -784,7 +858,8 @@ public class SizeBySpeedModule : ValueType
 
 public class SizeGroup : Object
 {
-    public object Count;
+    public System.Collections.Generic.Stack`1<int[]> Count; // 0x10
+    public int LowWaterMark; // 0x18
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -797,16 +872,7 @@ public class SizeGroup : Object
 
 public class SizeOverLifetimeModule : ValueType
 {
-    public object enabled;
-    public object size;
-    public object sizeMultiplier;
-    public object x;
-    public object xMultiplier;
-    public object y;
-    public object yMultiplier;
-    public object z;
-    public object zMultiplier;
-    public object separateAxes;
+    public UnityEngine.ParticleSystem enabled; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -861,8 +927,12 @@ public class SkinChangedDelegate : MulticastDelegate
 
 public class SlabAllocator : ValueType
 {
-    public object Handle;
-    public object SlabSizeInBytes;
+    public AllocatorHandle Handle; // 0x10
+    public Block SlabSizeInBytes; // 0x18
+    public int Log2SlabSizeInBytes; // 0x38
+    public Unity.Collections.FixedList4096Bytes`1<int> Occupied; // 0x40
+    public long budgetInBytes; // 0x1040
+    public long allocatedBytes; // 0x1048
 
     // ── Methods ──
     public void get_Handle(){} // RVA: 0x7FFD4F840210
@@ -880,12 +950,17 @@ public class SliderEvent : UnityEvent`1
 
 public class Slot : ValueType
 {
+    public int hashCode; // 0x10
+    public int next; // 0x14
+    public UnityEngine.Texture value; // 0x18
 }
 
 public class SortedListKeyEnumerator : Object
 {
-    public object Current;
-    public object System.Collections.IEnumerator.Current;
+    public System.Collections.Generic.SortedList`2<U,T> Current;
+    public int System.Collections.IEnumerator.Current;
+    public int _version;
+    public U _currentKey;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -898,8 +973,10 @@ public class SortedListKeyEnumerator : Object
 
 public class SortedListValueEnumerator : Object
 {
-    public object Current;
-    public object System.Collections.IEnumerator.Current;
+    public System.Collections.Generic.SortedList`2<U,T> Current;
+    public int System.Collections.IEnumerator.Current;
+    public int _version;
+    public T _currentValue;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -912,6 +989,10 @@ public class SortedListValueEnumerator : Object
 
 public class SorterGenericArray : ValueType
 {
+    public System.Array keys; // 0x10
+    public System.Array items; // 0x18
+    public System.Collections.IComparer comparer; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A875F0
     public void SwapIfGreaterWithItems(){} // RVA: 0x7FFD53A87770
@@ -927,6 +1008,10 @@ public class SorterGenericArray : ValueType
 
 public class SorterObjectArray : ValueType
 {
+    public object[] keys; // 0x10
+    public object[] items; // 0x18
+    public System.Collections.IComparer comparer; // 0x20
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A866F0
     public void SwapIfGreaterWithItems(){} // RVA: 0x7FFD53A86870
@@ -942,6 +1027,12 @@ public class SorterObjectArray : ValueType
 
 public class SortingData : Object
 {
+    public IJobSortable source; // 0x10
+    public SortingData parentDependency; // 0x18
+    public System.Collections.Generic.List`1<SortingData> dependencies; // 0x20
+    public bool visited; // 0x28
+    public int executionGroup; // 0x2C
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5526E640
 }
@@ -952,11 +1043,15 @@ public class SortingGroupsUpdate : ValueType
 
 public class Sounds : ValueType
 {
+    public UnityEngine.AudioClip hover; // 0x10
+    public UnityEngine.AudioClip click; // 0x18
+    public UnityEngine.AudioClip deny; // 0x20
+    public UnityEngine.AudioClip back; // 0x28
 }
 
 public class SparseArray`1 : Object
 {
-    public object Current;
+    public WorkStealingQueue[] Current; // 0x10
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -967,13 +1062,19 @@ public class SparseArray`1 : Object
 
 public class SpecialCharacter : ValueType
 {
+    public TMPro.TMP_Character character; // 0x10
+    public TMPro.TMP_FontAsset fontAsset; // 0x18
+    public UnityEngine.Material material; // 0x20
+    public int materialIndex; // 0x28
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54BBFFE0
 }
 
 public class Spectrum : Object
 {
-    public object Item;
+    public int Item; // 0x10
+    public System.Collections.Generic.List`1<Point> points; // 0x18
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4EF4F3D0
@@ -993,6 +1094,23 @@ public class SpriteAtlasManagerUpdate : ValueType
 
 public class Sprites : ValueType
 {
+    public UnityEngine.Sprite micOn; // 0x10
+    public UnityEngine.Sprite micOff; // 0x18
+    public UnityEngine.Sprite micOnOutline; // 0x20
+    public UnityEngine.Sprite micOffOutline; // 0x28
+    public UnityEngine.Sprite friendRequest; // 0x30
+    public UnityEngine.Sprite invite; // 0x38
+    public UnityEngine.Sprite inviteResponse; // 0x40
+    public UnityEngine.Sprite requestInvite; // 0x48
+    public UnityEngine.Sprite requestInviteResponse; // 0x50
+    public UnityEngine.Sprite gesturesOn; // 0x58
+    public UnityEngine.Sprite gesturesOff; // 0x60
+    public UnityEngine.Sprite system; // 0x68
+    public UnityEngine.Sprite group; // 0x70
+    public UnityEngine.Sprite preload; // 0x78
+    public UnityEngine.Sprite notification; // 0x80
+    public UnityEngine.Sprite gift; // 0x88
+    public UnityEngine.Sprite boop; // 0x90
 }
 
 public class Sse : Object
@@ -1017,7 +1135,9 @@ public class Sse2 : Object
 
 public class StackAllocator : ValueType
 {
-    public object Handle;
+    public AllocatorHandle Handle; // 0x10
+    public Block m_storage; // 0x18
+    public long m_top; // 0x38
 
     // ── Methods ──
     public void get_Handle(){} // RVA: 0x7FFD4F840210
@@ -1028,19 +1148,39 @@ public class StackAllocator : ValueType
 
 public class State : ValueType
 {
+    public <Accumulators>e__FixedBuffer Accumulators; // 0x10
+    public <Secret>e__FixedBuffer Secret; // 0x50
+    public <Buffer>e__FixedBuffer Buffer; // 0x110
+    public uint BufferedCount; // 0x210
+    public ulong StripesProcessedInCurrentBlock; // 0x218
+    public ulong TotalLength; // 0x220
+    public ulong Seed; // 0x228
 }
 
 public class StateChangeMonitorListener : ValueType
 {
+    public UnityEngine.InputSystem.InputControl control; // 0x10
+    public UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor monitor; // 0x18
+    public long monitorIndex; // 0x20
+    public uint groupIndex; // 0x28
 }
 
 public class StateChangeMonitorTimeout : ValueType
 {
+    public UnityEngine.InputSystem.InputControl control; // 0x10
+    public double time; // 0x18
+    public UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor monitor; // 0x20
+    public long monitorIndex; // 0x28
+    public int timerIndex; // 0x30
 }
 
 public class StateChangeMonitorsForDevice : ValueType
 {
-    public object count;
+    public BitRegion[] count; // 0x10
+    public StateChangeMonitorListener[] listeners; // 0x18
+    public UnityEngine.InputSystem.DynamicBitfield signalled; // 0x20
+    public bool needToUpdateOrderingOfMonitors; // 0x40
+    public bool needToCompactArrays; // 0x41
 
     // ── Methods ──
     public void get_count(){} // RVA: 0x7FFD4E70C4C0
@@ -1061,6 +1201,9 @@ public class StateChanged : MulticastDelegate
 
 public class StateEventBuffer : ValueType
 {
+    public UnityEngine.InputSystem.LowLevel.StateEvent stateEvent; // 0x10
+    public int kMaxSize;
+    public 0x664A6EB8 data; // 0x29
 }
 
 public class StaticGetter`1 : MulticastDelegate
@@ -1072,6 +1215,8 @@ public class StaticGetter`1 : MulticastDelegate
 
 public class StaticTypeReinitAttribute : Attribute
 {
+    public System.Type reinitType; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
 }
@@ -1103,6 +1248,8 @@ public class StatusDelegate : MulticastDelegate
 
 public class SteamVR_Utils : Object
 {
+    public string secretKey;
+
     // ── Methods ──
     public void IsValid(){} // RVA: 0x7FFD54053DB0 | overloaded x2
     public void Slerp(){} // RVA: 0x7FFD54053E20
@@ -1125,6 +1272,9 @@ public class SteamVR_Utils : Object
 
 public class StringCache : ValueType
 {
+    public VRC.Core.Pool.ObjectPool`1<System.Collections.Generic.Dictionary`2<System.ReadOnlyMemory`1<char>,string>> CachePool;
+    public VRC.Core.Pool.PooledObject`1<System.Collections.Generic.Dictionary`2<System.ReadOnlyMemory`1<char>,string>> Cache; // 0x10
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FEC1C40
     public void Create(){} // RVA: 0x7FFD5722B250

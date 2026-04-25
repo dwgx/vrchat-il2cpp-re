@@ -7,6 +7,14 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class QueryProductDetailsService : Object
     {
+        public UnityEngine.Purchasing.Interfaces.IGoogleBillingClient m_BillingClient; // 0x10
+        public UnityEngine.Purchasing.IGoogleCachedQueryProductDetailsService m_GoogleCachedQueryProductDetailsService; // 0x18
+        public UnityEngine.Purchasing.Interfaces.IProductDetailsConverter m_ProductDetailsConverter; // 0x20
+        public UnityEngine.Purchasing.Stores.Util.IRetryPolicy m_RetryPolicy; // 0x28
+        public UnityEngine.Purchasing.Interfaces.IGoogleProductCallback m_GoogleProductCallback; // 0x30
+        public Uniject.IUtil m_Util; // 0x38
+        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x40
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53230260
         public void QueryAsyncProduct(){} // RVA: 0x7FFD54DE1920 | overloaded x3

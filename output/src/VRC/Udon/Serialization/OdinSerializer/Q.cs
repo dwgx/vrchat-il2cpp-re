@@ -7,6 +7,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class QuaternionFormatter : MinimalBaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD5543A870
         public void Write(){} // RVA: 0x7FFD5543A9A0
@@ -16,6 +18,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class QueueFormatter`2 : BaseFormatter`1
     {
+        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> TSerializer;
+        public bool IsPlainQueue;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void .ctor(){} // RVA: 0x7FFD4E090980

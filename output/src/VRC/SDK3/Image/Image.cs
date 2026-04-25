@@ -35,8 +35,11 @@ namespace VRC.SDK3.Image
 
     public class VRCImageDownloader : Object
     {
-        public object StartDownload;
-        public object HasAnyQueuedDownloads;
+        public bool StartDownload; // 0x10
+        public System.Collections.Generic.List`1<VRC.SDK3.Image.IVRCImageDownload> HasAnyQueuedDownloads; // 0x18
+        public System.Collections.Generic.List`1<VRC.SDK3.Image.IVRCImageDownload> _imageDownloadQueue;
+        public System.Func`5<VRC.SDKBase.VRCUrl,UnityEngine.Material,VRC.Udon.Common.Interfaces.IUdonEventReceiver,0x665C2418,VRC.SDK3.Image.IVRCImageDownload> <StartDownload>k__BackingField; // 0x8
+        public System.Func`1<bool> CanBypassDelay; // 0x10
 
         // ── Methods ──
         public void get_StartDownload(){} // RVA: 0x7FFD57422820

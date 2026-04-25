@@ -7,7 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Scale : ValueType
     {
-        public object value;
+        public UnityEngine.Vector3 value; // 0x10
+        public bool m_IsNone; // 0x1C
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5501D480
@@ -23,10 +24,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ScheduledItem : Object
     {
-        public object startMs;
-        public object delayMs;
-        public object intervalMs;
-        public object endTimeMs;
+        public System.Func`1<bool> startMs; // 0x10
+        public System.Func`1<bool> delayMs;
+        public System.Func`1<bool> intervalMs; // 0x8
+        public long endTimeMs; // 0x18
+        public long <delayMs>k__BackingField; // 0x20
+        public long <intervalMs>k__BackingField; // 0x28
+        public long <endTimeMs>k__BackingField; // 0x30
 
         // ── Methods ──
         public void get_startMs(){} // RVA: 0x7FFD4E3447C0
@@ -46,10 +50,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SortColumnDescription : Object
     {
-        public object columnName;
-        public object columnIndex;
-        public object column;
-        public object direction;
+        public int columnName; // 0x10
+        public string columnIndex; // 0x18
+        public 0x66478890 column; // 0x20
+        public UnityEngine.UIElements.Column direction; // 0x28
+        public System.Action`1<UnityEngine.UIElements.SortColumnDescription> changed; // 0x30
 
         // ── Methods ──
         public void get_columnName(){} // RVA: 0x7FFD4E3447C0
@@ -67,8 +72,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SortColumnDescriptions : Object
     {
-        public object Count;
-        public object IsReadOnly;
+        public System.Collections.Generic.IList`1<UnityEngine.UIElements.SortColumnDescription> Count; // 0x10
+        public System.Action IsReadOnly; // 0x18
 
         // ── Methods ──
         public void add_changed(){} // RVA: 0x7FFD54F6F870
@@ -89,10 +94,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StartDragArgs : ValueType
     {
-        public object title;
-        public object visualMode;
-        public object genericData;
-        public object unityObjectReferences;
+        public string title; // 0x10
+        public 0x6647A9E8 visualMode; // 0x18
+        public System.Collections.Hashtable genericData; // 0x20
+        public System.Collections.Generic.IEnumerable`1<UnityEngine.Object> unityObjectReferences; // 0x28
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54F91E30
@@ -107,6 +112,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleDataRef`1 : ValueType
     {
+        public RefCounted<T> m_Ref;
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0x7FFD4E2ADC40
         public void Release(){} // RVA: 0x7FFD4E090980
@@ -122,8 +129,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
-        public object value;
-        public object keyword;
+        public T value;
+        public 0x66482448 keyword;
 
         // ── Methods ──
         public void get_value(){} // RVA: 0x7FFD4E2ADC40
@@ -139,6 +146,25 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StylePropertyAnimationSystem : Object
     {
+        public long m_CurrentTimeMs; // 0x10
+        public 0x66483100 m_Floats; // 0x18
+        public 0x66483158 m_Ints; // 0x20
+        public 0x664831B0 m_Lengths; // 0x28
+        public 0x66483208 m_Colors; // 0x30
+        public 0x664832B8 m_Backgrounds; // 0x38
+        public Y m_FontDefinitions; // 0x40
+        public 0x66483368 m_Fonts; // 0x48
+        public Z m_TextShadows; // 0x50
+        public 0x66483418 m_Scale; // 0x58
+        public 0x66483470 m_Rotate; // 0x60
+        public 0x664834C8 m_Translate; // 0x68
+        public 0x66483520 m_TransformOrigin; // 0x70
+        public 0x66483578 m_BackgroundPosition; // 0x78
+        public 0x664835D0 m_BackgroundRepeat; // 0x80
+        public ^ m_BackgroundSize; // 0x88
+        public System.Collections.Generic.List`1<Values> m_AllValues; // 0x90
+        public System.Collections.Generic.Dictionary`2<0x66489770,Values> m_PropertyToValues; // 0x98
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55021960
         public void GetOrCreate(){} // RVA: 0x7FFD4E2ADC40
@@ -154,8 +180,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StylePropertyName : ValueType
     {
-        public object id;
-        public object name;
+        public 0x66489770 id; // 0x10
+        public string name; // 0x18
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD4F840210
@@ -172,6 +198,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StylePropertyNameCollection : ValueType
     {
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StylePropertyName> propertiesList; // 0x10
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4ECFFE40
         public void GetEnumerator(){} // RVA: 0x7FFD54FB1F60
@@ -181,13 +209,24 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleSheet : ScriptableObject
     {
-        public object importedWithErrors;
-        public object importedWithWarnings;
-        public object rules;
-        public object complexSelectors;
-        public object flattenedRecursiveImports;
-        public object contentHash;
-        public object isDefaultStyleSheet;
+        public bool importedWithErrors; // 0x18
+        public bool importedWithWarnings; // 0x19
+        public 0x66483998[] rules; // 0x20
+        public 0x664838E8[] complexSelectors; // 0x28
+        public float[] flattenedRecursiveImports; // 0x30
+        public 0x66489878[] contentHash; // 0x38
+        public UnityEngine.Color[] isDefaultStyleSheet; // 0x40
+        public string[] strings; // 0x48
+        public UnityEngine.Object[] assets; // 0x50
+        public 0x66483BA8[] imports; // 0x58
+        public System.Collections.Generic.List`1<UnityEngine.UIElements.StyleSheet> m_FlattenedImportedStyleSheets; // 0x60
+        public int m_ContentHash; // 0x68
+        public 0x664898D0[] scalableImages; // 0x70
+        public System.Collections.Generic.Dictionary`2<string,0x664838E8> orderedNameSelectors; // 0x78
+        public System.Collections.Generic.Dictionary`2<string,0x664838E8> orderedTypeSelectors; // 0x80
+        public System.Collections.Generic.Dictionary`2<string,0x664838E8> orderedClassSelectors; // 0x88
+        public bool m_IsDefaultStyleSheet; // 0x90
+        public string kCustomPropertyMarker;
 
         // ── Methods ──
         public void get_importedWithErrors(){} // RVA: 0x7FFD54C48D80
@@ -236,6 +275,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleValueCollection : Object
     {
+        public System.Collections.Generic.List`1<0x66489D48> m_Values; // 0x10
+
         // ── Methods ──
         public void GetStyleLength(){} // RVA: 0x7FFD5501C3B0
         public void GetStyleFloat(){} // RVA: 0x7FFD5501C460
@@ -259,7 +300,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleValueHandle : ValueType
     {
-        public object valueType;
+        public 0x66483E10 valueType; // 0x10
+        public int valueIndex; // 0x14
 
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x7FFD543B3F90
