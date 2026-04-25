@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IL2CPP Memory-Dump Toolkit</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --bg-2: #161b22;
+    --border: #30363d;
+    --fg: #e6edf3;
+    --fg-2: #7d8590;
+    --accent: #58a6ff;
+    --accent-2: #3fb950;
+    --warn: #d29922;
+    --danger: #f85149;
+    --code-bg: #1f2428;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    background: var(--bg-2);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 24px 32px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 12px;
+    font-size: 2.4em;
+    font-weight: 600;
+  }
+  header p { margin: 4px 0; color: var(--fg-2); }
+  header a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  header a:hover { border-bottom-color: var(--accent); }
+  main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  section h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  section h3 {
+    font-size: 1.15em;
+    font-weight: 600;
+    margin: 20px 0 8px;
+  }
+  ul { padding-left: 24px; }
+  li { margin: 4px 0; }
+  code, pre {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: 0.92em;
+  }
+  code {
+    background: var(--code-bg);
+    padding: 1px 6px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+  pre {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 16px;
+    overflow-x: auto;
+    line-height: 1.5;
+  }
+  pre code {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin: 16px 0;
+  }
+  .stat {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 18px;
+  }
+  .stat .label { font-size: 0.8em; color: var(--fg-2); text-transform: uppercase; letter-spacing: 0.04em; }
+  .stat .value { font-size: 1.6em; font-weight: 600; margin-top: 4px; }
+  .stat .sub { font-size: 0.85em; color: var(--fg-2); margin-top: 2px; }
+  .notice {
+    background: rgba(210, 153, 34, 0.08);
+    border: 1px solid rgba(210, 153, 34, 0.4);
+    border-left-width: 4px;
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin-bottom: 16px;
+  }
+  .notice strong { color: var(--warn); }
+  .pipeline {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px;
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    font-size: 0.88em;
+    line-height: 1.7;
+    color: var(--fg-2);
+    white-space: pre;
+    overflow-x: auto;
+  }
+  .pipeline span { color: var(--fg); }
+  footer {
+    border-top: 1px solid var(--border);
+    background: var(--bg-2);
+    padding: 24px;
+    text-align: center;
+    color: var(--fg-2);
+    font-size: 0.88em;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .badge {
+    display: inline-block;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 0.78em;
+    color: var(--fg-2);
+    margin: 0 4px;
+  }
+  .commit-list {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+  .commit-list li {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border);
+    font-family: ui-monospace, monospace;
+    font-size: 0.9em;
+    margin: 0;
+  }
+  .commit-list li:last-child { border-bottom: none; }
+  .commit-list .sha { color: var(--accent-2); margin-right: 12px; }
+  .commit-list .msg { color: var(--fg); }
+  .commit-list .pct { color: var(--accent); margin-left: 8px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>IL2CPP Memory-Dump Toolkit</h1>
+  <p>Offline analysis of IL2CPP-compiled Unity application minidumps.</p>
+  <p>
+    <span class="badge">v1.0</span>
+    <span class="badge">Python 3.10+</span>
+    <span class="badge">Volatility 3</span>
+    <span class="badge">MIT License</span>
+  </p>
+  <p style="margin-top: 16px;">
+    <a href="https://github.com/dwgx/vrchat-il2cpp-re">GitHub repository →</a>
+  </p>
+</header>
+
+<main>
+
+<section>
+  <div class="notice">
+    <strong>Scope:</strong> This toolkit ships <em>no</em> third-party game files,
+    binaries, or copyrighted source. Users supply their own minidump produced
+    from software they legitimately own. See
+    <a href="https://github.com/dwgx/vrchat-il2cpp-re/blob/master/NOTICE.md" style="color: var(--accent);">NOTICE.md</a>
+    for the full provenance statement and DMCA contact.
+  </div>
+</section>
+
+<section>
+  <h2>What it does</h2>
+  <p>
+    A pipeline of Python utilities that read MDMP minidumps and Windows
+    complete kernel dumps, walk the live <code>Il2CppClass</code> structures
+    inside, and output class / method / field metadata in a form a developer
+    can browse offline.
+  </p>
+  <p>
+    Designed for the case where a Unity title uses Beebyte string
+    obfuscation: the tools recover layout (offsets, types, parents) without
+    relying on readable name strings, then optionally cross-map two dumps
+    taken across a build update so that prior vocabulary survives a
+    re-seed.
+  </p>
+</section>
+
+<section>
+  <h2>Pipeline</h2>
+  <div class="pipeline">Windows Complete Memory Dump (MEMORY.DMP) — produced by the user
+   ↓
+<span>kerneldump_to_minidump.py</span>     extract one process to MDMP via Volatility 3
+   ↓
+<span>extract_precise_dump.py --auto-heap</span>   scan all user-mode regions for Il2CppClass
+   ↓
+<span>extract_field_types_from_dump.py</span>      resolve (name, type, offset) per FieldInfo
+   ↓
+<span>cross_version_class_map.py</span>            method-body hash + name-sig matching
+   ↓
+<span>merge_field_types.py</span>                  apply types to deobfuscated dump
+   ↓
+<span>generate_source_tree.py</span>               namespace-organised C# source tree</div>
+</section>
+
+<section>
+  <h2>Reference run</h2>
+  <p>
+    Coverage achieved on a representative dump from a Unity 2022.3 IL2CPP
+    title with Beebyte obfuscation, after lifting an earlier-baseline
+    vocabulary across a build update via cross-version class mapping:
+  </p>
+  <div class="stats">
+    <div class="stat">
+      <div class="label">Classes</div>
+      <div class="value">104,797</div>
+      <div class="sub">obf 0% · semantic 89.96%</div>
+    </div>
+    <div class="stat">
+      <div class="label">Methods</div>
+      <div class="value">544,667</div>
+      <div class="sub">semantic 99.99%</div>
+    </div>
+    <div class="stat">
+      <div class="label">Fields</div>
+      <div class="value">235,947</div>
+      <div class="sub">renamed 87.57%</div>
+    </div>
+    <div class="stat">
+      <div class="label">Field Types</div>
+      <div class="value">91.07%</div>
+      <div class="sub">214,888 typed</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Progression of the reference run</h2>
+  <ul class="commit-list">
+    <li><span class="sha">bb247b2</span><span class="msg">Field types via name-based merge</span><span class="pct">78.23%</span></li>
+    <li><span class="sha">38849d1</span><span class="msg">Offline minidump extraction (VA-match)</span><span class="pct">90.85%</span></li>
+    <li><span class="sha">8ab37d9</span><span class="msg">BSOD-based kernel-dump pipeline (tooling)</span></li>
+    <li><span class="sha">8568ada</span><span class="msg">Cross-version method-body fingerprint</span><span class="pct">92.46%</span></li>
+    <li><span class="sha">87a1be2</span><span class="msg">Name-sig + field-count fingerprint</span><span class="pct">92.47%</span></li>
+    <li><span class="sha">0921939</span><span class="msg">Full migration to new baseline</span><span class="pct">91.07% types · 99.99% methods</span></li>
+    <li><span class="sha">04a4892</span><span class="msg">v1.0 — public release with NOTICE</span></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Requirements</h2>
+  <pre><code>pip install volatility3 frida psutil</code></pre>
+  <p>
+    Tested on Windows 11 (build 26200), Python 3.12, Volatility 3 2.27,
+    Frida 17.7. Targets MDMP minidumps containing the standard
+    <code>MEMORY_LIST_STREAM_64</code> stream.
+  </p>
+</section>
+
+<section>
+  <h2>Out of scope</h2>
+  <ul>
+    <li>No process injection, no in-memory patching of running games.</li>
+    <li>No anti-cheat circumvention.</li>
+    <li>No redistribution of game executables, libraries, or assets.</li>
+    <li>No publication of obfuscation-name dictionaries belonging to any specific title.</li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  Source: <a href="https://github.com/dwgx/vrchat-il2cpp-re">github.com/dwgx/vrchat-il2cpp-re</a>
+  · <a href="https://github.com/dwgx/vrchat-il2cpp-re/blob/master/LICENSE">MIT License</a>
+  · <a href="https://github.com/dwgx/vrchat-il2cpp-re/blob/master/NOTICE.md">DMCA / takedown</a>
+</footer>
+
+</body>
+</html>
