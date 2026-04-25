@@ -7,11 +7,14 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 {
     public class CommonAcl : GenericAcl
     {
-        public bool BinaryLength; // 0x10
-        public bool Count; // 0x11
-        public bool IsCanonical; // 0x12
-        public bool IsContainer; // 0x13
-        public de.nPolicy IsDS; // 0x18
+        public object BinaryLength;
+        public object Count;
+        public object IsCanonical;
+        public object IsContainer;
+        public object IsDS;
+        public object IsAefa;
+        public object Revision;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53879280 | overloaded x3
@@ -58,9 +61,12 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
 
     public class GenericAcl : Object
     {
-        public byte BinaryLength;
-        public byte Count; // 0x1
-        public int IsSynchronized; // 0x4
+        public object BinaryLength;
+        public object Count;
+        public object IsSynchronized;
+        public object Item;
+        public object Revision;
+        public object SyncRoot;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5387D870

@@ -7,8 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class ScriptingStoreCallback : Object
     {
-        public ra.__0 products; // 0x10
-        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ m_Util; // 0x18
+        public object products;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
@@ -22,29 +21,20 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ScriptingUnityCallback : Object
     {
-        public ing.PersistAcrossSceneLoads forwardTo; // 0x10
-        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ util; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
     }
 
     public class StandardPurchasingModule : AbstractPurchasingModule
     {
-        public string util; // 0x18
-        public ing.ealTime logger; // 0x20
-        public object storeInstance; // 0x28
-        public ing.p telemetryMetricsInstanceWrapper;
-        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ telemetryDiagnosticsInstanceWrapper; // 0x30
-        public Identifiers appStore; // 0x38
-        public mapResolution useFakeStoreUIMode; // 0x40
-        public ÌÍÏÏÏ.49CD08E395F1704FA3F9B047CEA369CBF35299449D4DF081 useFakeStoreAlways; // 0x48
-        public ÌÍÏÏÏ.? <telemetryDiagnosticsInstanceWrapper>k__BackingField; // 0x50
-        public URA.DateTime<ing.encoderHintsAndroid,string> AndroidStoreNameMap; // 0x8
-        public ing.encoderHintsAndroid <appStore>k__BackingField; // 0x58
-        public ing.? <useFakeStoreUIMode>k__BackingField; // 0x5C
-        public bool <useFakeStoreAlways>k__BackingField; // 0x60
-        public ing.ageSequence windowsStore; // 0x68
+        public object util;
+        public object logger;
+        public object storeInstance;
+        public object telemetryMetricsInstanceWrapper;
+        public object telemetryDiagnosticsInstanceWrapper;
+        public object appStore;
+        public object useFakeStoreUIMode;
+        public object useFakeStoreAlways;
 
         // ── Methods ──
         public void get_util(){} // RVA: 0x7FFD4E5F95E0
@@ -90,7 +80,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreConfiguration : Object
     {
-        public ing.encoderHintsAndroid androidStore; // 0x10
+        public object androidStore;
 
         // ── Methods ──
         public void get_androidStore(){} // RVA: 0x7FFD4E38E5C0
@@ -101,10 +91,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreListenerProxy : Object
     {
-        public ing.? m_Analytics; // 0x10
-        public ing.? m_ForwardTo; // 0x18
-        public ing.? m_Extensions; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DD05F0
         public void OnInitialized(){} // RVA: 0x7FFD54DD06F0
@@ -116,10 +102,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class SubscriptionManager : Object
     {
-        public string receipt; // 0x10
-        public string productId; // 0x18
-        public string intro_json; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DFE6E0
         public void getSubscriptionInfo(){} // RVA: 0x7FFD54DFE820

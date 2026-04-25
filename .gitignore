@@ -153,3 +153,24 @@ output/ida_strings_v2_names.json
 output/callgraph_method_names_native.json
 output/ida_method_string_names_native.json
 output/llm_strong_class_names.json
+
+# === Memory dumps (5GB+ each) ===
+tools/VRChat_*.dmp
+tools/kernel_minidump_work/
+
+# === Volatility outputs ===
+il2cpp_full_dump/
+
+# === BSOD trigger binaries (Sysinternals signed) ===
+tools/bsod/NotMyFault*.exe
+tools/procdump/*.exe
+tools/processhacker/
+tools/systeminformer/
+
+# === Volatility temp ===
+myeasylog.log
+
+# === Backup precise dumps ===
+precise_dump_NEW.json
+precise_dump_NEW.cs
+field_types_NEW.json

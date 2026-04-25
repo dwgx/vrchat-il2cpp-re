@@ -7,12 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class WinRTStore : AbstractStore
     {
-        public ardDir.waysDir win8; // 0x10
-        public ra.__0 callback; // 0x18
-        public ÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ.ÏÍÍÍÏÎÎÎÍÍÏÌÌÌÌÎÎÌÎÏ util; // 0x20
-        public Identifiers logger; // 0x28
-        public bool m_CanReceivePurchases; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54E04080
         public void Initialize(){} // RVA: 0x7FFD4E3A7E80

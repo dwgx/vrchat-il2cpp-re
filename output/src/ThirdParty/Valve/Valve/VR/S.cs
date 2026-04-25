@@ -7,34 +7,35 @@ namespace ThirdParty.Valve.Valve.VR
 {
     public class SpatialAnchorPose_t : ValueType
     {
-        public hPosePacked mAnchorToAbsoluteTracking; // 0x10
     }
 
     public class SteamVR : Object
     {
-        public aphy<bool> active;
-        public bool enabled; // 0x2
-        public object instance; // 0x8
-        public ctionSetSize usingNativeSupport; // 0x10
-        public t_skeletalTransformSpace settings; // 0x18
-        public merator hmd; // 0x10
-        public object compositor; // 0x18
-        public NBool overlay; // 0x20
-        public bool initializing; // 0x20
-        public bool calibrating; // 0x21
-        public bool outOfRange; // 0x22
-        public bool[] sceneWidth; // 0x28
-        public float sceneHeight; // 0x28
-        public float aspect; // 0x2C
-        public float fieldOfView; // 0x30
-        public float tanHalfFov; // 0x34
-        public tionX textureBounds; // 0x38
-        public ApplicationType[] eyes; // 0x40
-        public reateUdonShortArray[] hmd_TrackingSystemName; // 0x48
-        public lyTransform hmd_ActualTrackingSystemName; // 0x50
-        public bool hmd_ModelNumber; // 0x30
-        public string hmd_SerialNumber;
-        public string hmd_Type;
+        public object active;
+        public object enabled;
+        public object instance;
+        public object usingNativeSupport;
+        public object settings;
+        public object hmd;
+        public object compositor;
+        public object overlay;
+        public object initializing;
+        public object calibrating;
+        public object outOfRange;
+        public object sceneWidth;
+        public object sceneHeight;
+        public object aspect;
+        public object fieldOfView;
+        public object tanHalfFov;
+        public object textureBounds;
+        public object eyes;
+        public object hmd_TrackingSystemName;
+        public object hmd_ActualTrackingSystemName;
+        public object hmd_ModelNumber;
+        public object hmd_SerialNumber;
+        public object hmd_Type;
+        public object hmd_SecondsFromVsyncToPhotons;
+        public object hmd_DisplayFrequency;
 
         // ── Methods ──
         public void get_active(){} // RVA: 0x7FFD540B0060
@@ -112,10 +113,15 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action : Object
     {
-        public string fullPath; // 0x10
-        public bool handle; // 0x18
-        public bool actionSet;
-        public string direction; // 0x20
+        public object fullPath;
+        public object handle;
+        public object actionSet;
+        public object direction;
+        public object setActive;
+        public object active;
+        public object activeBinding;
+        public object lastActive;
+        public object lastActiveBinding;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -157,9 +163,15 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ActionSet : Object
     {
-        public string allActions; // 0x10
-        public Metadatas nonVisualInActions; // 0x18
-        public bool visualActions; // 0x20
+        public object allActions;
+        public object nonVisualInActions;
+        public object visualActions;
+        public object poseActions;
+        public object skeletonActions;
+        public object outActionArray;
+        public object fullPath;
+        public object usage;
+        public object handle;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -199,13 +211,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ActionSet_Manager : Object
     {
-        public uint rawActiveActionSetArray;
-        public bool changed; // 0x4
-        public int currentArraySize; // 0x8
-        public URA.DateTime<int,tivated[]> poolActiveActionSetArrays; // 0x10
-        public int lastFrameUpdated; // 0x18
-        public string debugActiveSetListText; // 0x20
-        public bool updateDebugTextInBuilds; // 0x28
+        public object rawActiveActionSetArray;
 
         // ── Methods ──
         public void get_rawActiveActionSetArray(){} // RVA: 0x7FFD5405D710
@@ -275,8 +281,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_In_Source_Map`1 : SteamVR_Action_Source_Map`1
     {
-        public URA.woDigitYearMax<int> updatingSources;
-
         // ── Methods ──
         public void IsUpdating(){} // RVA: 0x7FFD51DC2240
         public void OnAccessSource(){} // RVA: 0x7FFD51DC22F0
@@ -471,8 +475,39 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Skeleton : SteamVR_Action_Pose_Base`2
     {
-        public int bonePositions;
-        public R_12x12 boneRotations;
+        public object bonePositions;
+        public object boneRotations;
+        public object lastBonePositions;
+        public object lastBoneRotations;
+        public object rangeOfMotion;
+        public object skeletalTransformSpace;
+        public object summaryDataType;
+        public object skeletalTrackingLevel;
+        public object thumbCurl;
+        public object indexCurl;
+        public object middleCurl;
+        public object ringCurl;
+        public object pinkyCurl;
+        public object thumbIndexSplay;
+        public object indexMiddleSplay;
+        public object middleRingSplay;
+        public object ringPinkySplay;
+        public object lastThumbCurl;
+        public object lastIndexCurl;
+        public object lastMiddleCurl;
+        public object lastRingCurl;
+        public object lastPinkyCurl;
+        public object lastThumbIndexSplay;
+        public object lastIndexMiddleSplay;
+        public object lastMiddleRingSplay;
+        public object lastRingPinkySplay;
+        public object fingerCurls;
+        public object fingerSplays;
+        public object lastFingerCurls;
+        public object lastFingerSplays;
+        public object poseChanged;
+        public object onlyUpdateSummaryData;
+        public object boneCount;
 
         // ── Methods ──
         public void add_onActiveChange(){} // RVA: 0x7FFD540697E0
@@ -588,13 +623,10 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Source_Map : Object
     {
-        public string fullPath; // 0x10
-        public ulong handle; // 0x18
-        public PayloadVector actionSet; // 0x20
-        public ePayloadVectorBlock direction; // 0x28
-        public reateUdon action; // 0x30
-        public string inLowered;
-        public string outLowered; // 0x8
+        public object fullPath;
+        public object handle;
+        public object actionSet;
+        public object direction;
 
         // ── Methods ──
         public void get_fullPath(){} // RVA: 0x7FFD4E35C380
@@ -616,7 +648,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action_Source_Map`1 : SteamVR_Action_Source_Map
     {
-        public T1717690640[] Item;
+        public object Item;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD51DC3D80
@@ -737,10 +769,15 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Action`2 : SteamVR_Action
     {
-        public dString Item; // 0x28
-        public bool fullPath; // 0x30
-        public uint handle;
-        public ÌÎÎÏÏÎÎÎÎÍÍÍÍÎÎÏÎÎÌÏÎ[] actionSet; // 0x8
+        public object Item;
+        public object fullPath;
+        public object handle;
+        public object actionSet;
+        public object direction;
+        public object active;
+        public object lastActive;
+        public object activeBinding;
+        public object lastActiveBinding;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD51DC4030
@@ -770,223 +807,223 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Actions : Object
     {
-        public or global_Safe_Mode;
-        public eld global_Pose; // 0x8
-        public ckingField global_SkeletonLeftHand; // 0x10
-        public ckingField global_SkeletonRightHand; // 0x18
-        public or global_HeadsetOnHead; // 0x20
-        public or global_Menu; // 0x28
-        public or global_Quick_Menu; // 0x30
-        public or global_Action_Menu; // 0x38
-        public or global_Main_Menu; // 0x40
-        public or global_Interact; // 0x48
-        public or global_Grab; // 0x50
-        public tartWrappedLong global_Move; // 0x58
-        public or global_Jump; // 0x60
-        public tartWrappedLong global_Rotate; // 0x68
-        public or global_Mic; // 0x70
-        public or global_Gesture_Toggle; // 0x78
-        public or global_Stick_Click; // 0x80
-        public rify global_Trigger_Axis; // 0x88
-        public rify global_Grip_Axis; // 0x90
-        public or global_Udon_Menu; // 0x98
-        public or global_Drop; // 0xA0
-        public or global_Nameplates; // 0xA8
-        public or global_HUD; // 0xB0
-        public or global_Chatbox; // 0xB8
-        public or global_Face_Mirror; // 0xC0
-        public or global_Personal_Mirror; // 0xC8
-        public or global_Personal_Mirror_Lock; // 0xD0
-        public or global_Earmuffs; // 0xD8
-        public or global_Camera; // 0xE0
-        public or global_Stream_Camera; // 0xE8
-        public or global_Avatar_Debug_Screen; // 0xF0
-        public or global_OSC_Debug_Screen; // 0xF8
-        public or global_Confirm_FBT_Calibration; // 0x100
-        public or global_Start_Move; // 0x108
-        public or global_Start_Rotate; // 0x110
-        public or global_Continue_Move; // 0x118
-        public or global_Continue_Rotate; // 0x120
-        public or global_No_Gesture_After_Move; // 0x128
-        public or global_No_Gesture_After_Rotate; // 0x130
-        public or global_Gesture_Activator_Thumb; // 0x138
-        public or global_Gesture_Activator_Thumb_Inner_Upper; // 0x140
-        public or global_Gesture_Activator_Thumb_Inner_Lower; // 0x148
-        public or global_Gesture_Activator_Thumb_Outer; // 0x150
-        public or global_Gesture_Activator_Index; // 0x158
-        public or global_Gesture_Activator_Grip; // 0x160
-        public rify global_Gesture_Trigger_Axis; // 0x168
-        public rify global_Gesture_Grip_Axis; // 0x170
-        public tartWrappedLong global_Gesture_Activator_Stick_Deflection; // 0x178
-        public or global_Gesture_Direct_Neutral_Left; // 0x180
-        public or global_Gesture_Direct_Fist_Left; // 0x188
-        public or global_Gesture_Direct_Open_Left; // 0x190
-        public or global_Gesture_Direct_Peace_Left; // 0x198
-        public or global_Gesture_Direct_Horns_Left; // 0x1A0
-        public or global_Gesture_Direct_Finger_Gun_Left; // 0x1A8
-        public or global_Gesture_Direct_Thumbs_Up_Left; // 0x1B0
-        public or global_Gesture_Direct_Point_Left; // 0x1B8
-        public or global_Gesture_Direct_Neutral_Right; // 0x1C0
-        public or global_Gesture_Direct_Fist_Right; // 0x1C8
-        public or global_Gesture_Direct_Open_Right; // 0x1D0
-        public or global_Gesture_Direct_Peace_Right; // 0x1D8
-        public or global_Gesture_Direct_Horns_Right; // 0x1E0
-        public or global_Gesture_Direct_Finger_Gun_Right; // 0x1E8
-        public or global_Gesture_Direct_Thumbs_Up_Right; // 0x1F0
-        public or global_Gesture_Direct_Point_Right; // 0x1F8
-        public tartWrappedLong global_Gesture_Wheel_Left; // 0x200
-        public or global_Gesture_Wheel_Select_Left; // 0x208
-        public rify global_Gesture_Wheel_Soft_Select_Left; // 0x210
-        public rify global_Gesture_Wheel_Weight_Left; // 0x218
-        public or global_Gesture_Wheel_Direct_Left; // 0x220
-        public or global_Gesture_Wheel_Direct_Stay_Left; // 0x228
-        public or global_Gesture_Wheel_Cancel_Left; // 0x230
-        public or global_Gesture_Wheel_Cancel_Open_Left; // 0x238
-        public or global_Gesture_Wheel_Held_Left; // 0x240
-        public tartWrappedLong global_Gesture_Wheel_Right; // 0x248
-        public or global_Gesture_Wheel_Select_Right; // 0x250
-        public rify global_Gesture_Wheel_Soft_Select_Right; // 0x258
-        public rify global_Gesture_Wheel_Weight_Right; // 0x260
-        public or global_Gesture_Wheel_Direct_Right; // 0x268
-        public or global_Gesture_Wheel_Direct_Stay_Right; // 0x270
-        public or global_Gesture_Wheel_Cancel_Right; // 0x278
-        public or global_Gesture_Wheel_Cancel_Open_Right; // 0x280
-        public or global_Gesture_Wheel_Held_Right; // 0x288
-        public or global_Disable_Gesture_Tracked; // 0x290
-        public or global_Disable_Gesture_Wheel_Move_Left; // 0x298
-        public or global_Disable_Gesture_Wheel_Rotate_Left; // 0x2A0
-        public or global_Disable_Gesture_Wheel_Move_Right; // 0x2A8
-        public or global_Disable_Gesture_Wheel_Rotate_Right; // 0x2B0
-        public or global_Physbone_Grab_Left; // 0x2B8
-        public or global_Physbone_Freeze_Left; // 0x2C0
-        public or global_Physbone_Grab_Right; // 0x2C8
-        public or global_Physbone_Freeze_Right; // 0x2D0
-        public tartWrappedLong global_Scroll; // 0x2D8
-        public edStringT global_Haptic; // 0x2E0
-        public or one_Hand_Interact; // 0x2E8
-        public or one_Hand_Grab; // 0x2F0
-        public tartWrappedLong one_Hand_Move_Rotate; // 0x2F8
-        public or one_Hand_Jump; // 0x300
-        public or one_Hand_Mic; // 0x308
-        public or one_Hand_Gesture_Toggle; // 0x310
-        public or one_Hand_Stick_Click; // 0x318
-        public rify one_Hand_Trigger_Axis; // 0x320
-        public rify one_Hand_Grip_Axis; // 0x328
-        public or one_Hand_Udon_Menu; // 0x330
-        public or one_Hand_Drop; // 0x338
-        public or one_Hand_Start_Move_Rotate; // 0x340
-        public or one_Hand_Continue_Move_Rotate; // 0x348
-        public or one_Hand_No_Gesture_After_Move_Rotate; // 0x350
-        public or one_Hand_Menu; // 0x358
-        public or one_Hand_Nameplates; // 0x360
-        public or one_Hand_HUD; // 0x368
-        public or one_Hand_Chatbox; // 0x370
-        public or one_Hand_Face_Mirror; // 0x378
-        public or one_Hand_Personal_Mirror; // 0x380
-        public or one_Hand_Personal_Mirror_Lock; // 0x388
-        public or one_Hand_Earmuffs; // 0x390
-        public or one_Hand_Camera; // 0x398
-        public or one_Hand_Stream_Camera; // 0x3A0
-        public or one_Hand_Avatar_Debug_Screen; // 0x3A8
-        public or one_Hand_OSC_Debug_Screen; // 0x3B0
-        public or one_Hand_Confirm_FBT_Calibration; // 0x3B8
-        public or one_Hand_Gesture_Activator_Thumb; // 0x3C0
-        public or one_Hand_Gesture_Activator_Thumb_Inner_Upper; // 0x3C8
-        public or one_Hand_Gesture_Activator_Thumb_Inner_Lower; // 0x3D0
-        public or one_Hand_Gesture_Activator_Thumb_Outer; // 0x3D8
-        public or one_Hand_Gesture_Activator_Index; // 0x3E0
-        public or one_Hand_Gesture_Activator_Grip; // 0x3E8
-        public rify one_Hand_Gesture_Trigger_Axis; // 0x3F0
-        public rify one_Hand_Gesture_Grip_Axis; // 0x3F8
-        public tartWrappedLong one_Hand_Gesture_Activator_Stick_Deflection; // 0x400
-        public tartWrappedLong one_Hand_Gesture_Wheel_Left; // 0x408
-        public or one_Hand_Gesture_Wheel_Select_Left; // 0x410
-        public rify one_Hand_Gesture_Wheel_Soft_Select_Left; // 0x418
-        public rify one_Hand_Gesture_Wheel_Weight_Left; // 0x420
-        public or one_Hand_Gesture_Wheel_Direct_Left; // 0x428
-        public or one_Hand_Gesture_Wheel_Direct_Stay_Left; // 0x430
-        public or one_Hand_Gesture_Wheel_Cancel_Left; // 0x438
-        public or one_Hand_Gesture_Wheel_Cancel_Open_Left; // 0x440
-        public or one_Hand_Gesture_Wheel_Held_Left; // 0x448
-        public tartWrappedLong one_Hand_Gesture_Wheel_Right; // 0x450
-        public or one_Hand_Gesture_Wheel_Select_Right; // 0x458
-        public rify one_Hand_Gesture_Wheel_Soft_Select_Right; // 0x460
-        public rify one_Hand_Gesture_Wheel_Weight_Right; // 0x468
-        public or one_Hand_Gesture_Wheel_Direct_Right; // 0x470
-        public or one_Hand_Gesture_Wheel_Direct_Stay_Right; // 0x478
-        public or one_Hand_Gesture_Wheel_Cancel_Right; // 0x480
-        public or one_Hand_Gesture_Wheel_Cancel_Open_Right; // 0x488
-        public or one_Hand_Gesture_Wheel_Held_Right; // 0x490
-        public or one_Hand_Disable_Gesture_Wheel_Move_Left; // 0x498
-        public or one_Hand_Disable_Gesture_Wheel_Rotate_Left; // 0x4A0
-        public or one_Hand_Disable_Gesture_Wheel_Move_Right; // 0x4A8
-        public or one_Hand_Disable_Gesture_Wheel_Rotate_Right; // 0x4B0
-        public or one_Hand_Reserve_bool; // 0x4B8
-        public rify one_Hand_Reserve_vector1; // 0x4C0
-        public tartWrappedLong one_Hand_Reserve_vector2; // 0x4C8
-        public or menu_Confirm; // 0x4D0
-        public or menu_Back; // 0x4D8
-        public or menu_Tab; // 0x4E0
-        public tartWrappedLong menu_Scroll; // 0x4E8
-        public or menu_Quick_Menu_Close; // 0x4F0
-        public or menu_Drag; // 0x4F8
-        public tartWrappedLong action_Menu_Axis; // 0x500
-        public or action_Menu_Select; // 0x508
-        public or action_Menu_Gesture_Activator_Thumb; // 0x510
-        public or action_Menu_Gesture_Activator_Thumb_Inner_Upper; // 0x518
-        public or action_Menu_Gesture_Activator_Thumb_Inner_Lower; // 0x520
-        public or action_Menu_Gesture_Activator_Thumb_Outer; // 0x528
-        public or action_Menu_Gesture_Activator_Index; // 0x530
-        public or action_Menu_Gesture_Activator_Grip; // 0x538
-        public rify action_Menu_Gesture_Trigger_Axis; // 0x540
-        public rify action_Menu_Gesture_Grip_Axis; // 0x548
-        public tartWrappedLong action_Menu_Gesture_Activator_Stick_Deflection; // 0x550
-        public tartWrappedLong action_Menu_Gesture_Wheel_Left; // 0x558
-        public or action_Menu_Gesture_Wheel_Select_Left; // 0x560
-        public rify action_Menu_Gesture_Wheel_Soft_Select_Left; // 0x568
-        public rify action_Menu_Gesture_Wheel_Weight_Left; // 0x570
-        public or action_Menu_Gesture_Wheel_Direct_Left; // 0x578
-        public or action_Menu_Gesture_Wheel_Direct_Stay_Left; // 0x580
-        public or action_Menu_Gesture_Wheel_Cancel_Left; // 0x588
-        public or action_Menu_Gesture_Wheel_Cancel_Open_Left; // 0x590
-        public or action_Menu_Gesture_Wheel_Held_Left; // 0x598
-        public tartWrappedLong action_Menu_Gesture_Wheel_Right; // 0x5A0
-        public or action_Menu_Gesture_Wheel_Select_Right; // 0x5A8
-        public rify action_Menu_Gesture_Wheel_Soft_Select_Right; // 0x5B0
-        public rify action_Menu_Gesture_Wheel_Weight_Right; // 0x5B8
-        public or action_Menu_Gesture_Wheel_Direct_Right; // 0x5C0
-        public or action_Menu_Gesture_Wheel_Direct_Stay_Right; // 0x5C8
-        public or action_Menu_Gesture_Wheel_Cancel_Right; // 0x5D0
-        public or action_Menu_Gesture_Wheel_Cancel_Open_Right; // 0x5D8
-        public or action_Menu_Gesture_Wheel_Held_Right; // 0x5E0
-        public or action_Menu_Disable_Gesture_Wheel_Move_Left; // 0x5E8
-        public or action_Menu_Disable_Gesture_Wheel_Rotate_Left; // 0x5F0
-        public or action_Menu_Disable_Gesture_Wheel_Move_Right; // 0x5F8
-        public or action_Menu_Disable_Gesture_Wheel_Rotate_Right; // 0x600
-        public or action_Menu_Reserve_bool; // 0x608
-        public rify action_Menu_Reserve_vector1; // 0x610
-        public tartWrappedLong action_Menu_Reserve_vector2; // 0x618
-        public or action_Menu_Grab; // 0x620
-        public or action_Menu_Drop; // 0x628
-        public tartWrappedLong drone_Left_Joystick; // 0x630
-        public tartWrappedLong drone_Right_Joystick; // 0x638
-        public or drone_Self_Leveling_Mod; // 0x640
-        public or drone_Hold_Altitude_Mod; // 0x648
-        public or drone_Toggle_FPV; // 0x650
-        public or drone_Flip; // 0x658
-        public or drone_Take_Picture; // 0x660
-        public or drone_Cycle_Flight_Preset; // 0x668
-        public or drone_Toggle_Self_Leveling; // 0x670
-        public or drone_Respawn; // 0x678
-        public or drone_Select_Flight_Preset_Micro; // 0x680
-        public or drone_Select_Flight_Preset_Cinematic; // 0x688
-        public or drone_Select_Flight_Preset_Racing; // 0x690
-        public or drone_Select_Flight_Preset_Freestyle; // 0x698
-        public object Global; // 0x6A0
-        public <>9__6_7 One_Hand; // 0x6A8
-        public ÎÍÏÏÌÍÍÏÎ Menu; // 0x6B0
-        public object Action_Menu; // 0x6B8
-        public ÏÌÍÏÎÍÎÍÌÌÎÏÌÏÏÍÌ Drone; // 0x6C0
+        public object global_Safe_Mode;
+        public object global_Pose;
+        public object global_SkeletonLeftHand;
+        public object global_SkeletonRightHand;
+        public object global_HeadsetOnHead;
+        public object global_Menu;
+        public object global_Quick_Menu;
+        public object global_Action_Menu;
+        public object global_Main_Menu;
+        public object global_Interact;
+        public object global_Grab;
+        public object global_Move;
+        public object global_Jump;
+        public object global_Rotate;
+        public object global_Mic;
+        public object global_Gesture_Toggle;
+        public object global_Stick_Click;
+        public object global_Trigger_Axis;
+        public object global_Grip_Axis;
+        public object global_Udon_Menu;
+        public object global_Drop;
+        public object global_Nameplates;
+        public object global_HUD;
+        public object global_Chatbox;
+        public object global_Face_Mirror;
+        public object global_Personal_Mirror;
+        public object global_Personal_Mirror_Lock;
+        public object global_Earmuffs;
+        public object global_Camera;
+        public object global_Stream_Camera;
+        public object global_Avatar_Debug_Screen;
+        public object global_OSC_Debug_Screen;
+        public object global_Confirm_FBT_Calibration;
+        public object global_Start_Move;
+        public object global_Start_Rotate;
+        public object global_Continue_Move;
+        public object global_Continue_Rotate;
+        public object global_No_Gesture_After_Move;
+        public object global_No_Gesture_After_Rotate;
+        public object global_Gesture_Activator_Thumb;
+        public object global_Gesture_Activator_Thumb_Inner_Upper;
+        public object global_Gesture_Activator_Thumb_Inner_Lower;
+        public object global_Gesture_Activator_Thumb_Outer;
+        public object global_Gesture_Activator_Index;
+        public object global_Gesture_Activator_Grip;
+        public object global_Gesture_Trigger_Axis;
+        public object global_Gesture_Grip_Axis;
+        public object global_Gesture_Activator_Stick_Deflection;
+        public object global_Gesture_Direct_Neutral_Left;
+        public object global_Gesture_Direct_Fist_Left;
+        public object global_Gesture_Direct_Open_Left;
+        public object global_Gesture_Direct_Peace_Left;
+        public object global_Gesture_Direct_Horns_Left;
+        public object global_Gesture_Direct_Finger_Gun_Left;
+        public object global_Gesture_Direct_Thumbs_Up_Left;
+        public object global_Gesture_Direct_Point_Left;
+        public object global_Gesture_Direct_Neutral_Right;
+        public object global_Gesture_Direct_Fist_Right;
+        public object global_Gesture_Direct_Open_Right;
+        public object global_Gesture_Direct_Peace_Right;
+        public object global_Gesture_Direct_Horns_Right;
+        public object global_Gesture_Direct_Finger_Gun_Right;
+        public object global_Gesture_Direct_Thumbs_Up_Right;
+        public object global_Gesture_Direct_Point_Right;
+        public object global_Gesture_Wheel_Left;
+        public object global_Gesture_Wheel_Select_Left;
+        public object global_Gesture_Wheel_Soft_Select_Left;
+        public object global_Gesture_Wheel_Weight_Left;
+        public object global_Gesture_Wheel_Direct_Left;
+        public object global_Gesture_Wheel_Direct_Stay_Left;
+        public object global_Gesture_Wheel_Cancel_Left;
+        public object global_Gesture_Wheel_Cancel_Open_Left;
+        public object global_Gesture_Wheel_Held_Left;
+        public object global_Gesture_Wheel_Right;
+        public object global_Gesture_Wheel_Select_Right;
+        public object global_Gesture_Wheel_Soft_Select_Right;
+        public object global_Gesture_Wheel_Weight_Right;
+        public object global_Gesture_Wheel_Direct_Right;
+        public object global_Gesture_Wheel_Direct_Stay_Right;
+        public object global_Gesture_Wheel_Cancel_Right;
+        public object global_Gesture_Wheel_Cancel_Open_Right;
+        public object global_Gesture_Wheel_Held_Right;
+        public object global_Disable_Gesture_Tracked;
+        public object global_Disable_Gesture_Wheel_Move_Left;
+        public object global_Disable_Gesture_Wheel_Rotate_Left;
+        public object global_Disable_Gesture_Wheel_Move_Right;
+        public object global_Disable_Gesture_Wheel_Rotate_Right;
+        public object global_Physbone_Grab_Left;
+        public object global_Physbone_Freeze_Left;
+        public object global_Physbone_Grab_Right;
+        public object global_Physbone_Freeze_Right;
+        public object global_Scroll;
+        public object global_Haptic;
+        public object one_Hand_Interact;
+        public object one_Hand_Grab;
+        public object one_Hand_Move_Rotate;
+        public object one_Hand_Jump;
+        public object one_Hand_Mic;
+        public object one_Hand_Gesture_Toggle;
+        public object one_Hand_Stick_Click;
+        public object one_Hand_Trigger_Axis;
+        public object one_Hand_Grip_Axis;
+        public object one_Hand_Udon_Menu;
+        public object one_Hand_Drop;
+        public object one_Hand_Start_Move_Rotate;
+        public object one_Hand_Continue_Move_Rotate;
+        public object one_Hand_No_Gesture_After_Move_Rotate;
+        public object one_Hand_Menu;
+        public object one_Hand_Nameplates;
+        public object one_Hand_HUD;
+        public object one_Hand_Chatbox;
+        public object one_Hand_Face_Mirror;
+        public object one_Hand_Personal_Mirror;
+        public object one_Hand_Personal_Mirror_Lock;
+        public object one_Hand_Earmuffs;
+        public object one_Hand_Camera;
+        public object one_Hand_Stream_Camera;
+        public object one_Hand_Avatar_Debug_Screen;
+        public object one_Hand_OSC_Debug_Screen;
+        public object one_Hand_Confirm_FBT_Calibration;
+        public object one_Hand_Gesture_Activator_Thumb;
+        public object one_Hand_Gesture_Activator_Thumb_Inner_Upper;
+        public object one_Hand_Gesture_Activator_Thumb_Inner_Lower;
+        public object one_Hand_Gesture_Activator_Thumb_Outer;
+        public object one_Hand_Gesture_Activator_Index;
+        public object one_Hand_Gesture_Activator_Grip;
+        public object one_Hand_Gesture_Trigger_Axis;
+        public object one_Hand_Gesture_Grip_Axis;
+        public object one_Hand_Gesture_Activator_Stick_Deflection;
+        public object one_Hand_Gesture_Wheel_Left;
+        public object one_Hand_Gesture_Wheel_Select_Left;
+        public object one_Hand_Gesture_Wheel_Soft_Select_Left;
+        public object one_Hand_Gesture_Wheel_Weight_Left;
+        public object one_Hand_Gesture_Wheel_Direct_Left;
+        public object one_Hand_Gesture_Wheel_Direct_Stay_Left;
+        public object one_Hand_Gesture_Wheel_Cancel_Left;
+        public object one_Hand_Gesture_Wheel_Cancel_Open_Left;
+        public object one_Hand_Gesture_Wheel_Held_Left;
+        public object one_Hand_Gesture_Wheel_Right;
+        public object one_Hand_Gesture_Wheel_Select_Right;
+        public object one_Hand_Gesture_Wheel_Soft_Select_Right;
+        public object one_Hand_Gesture_Wheel_Weight_Right;
+        public object one_Hand_Gesture_Wheel_Direct_Right;
+        public object one_Hand_Gesture_Wheel_Direct_Stay_Right;
+        public object one_Hand_Gesture_Wheel_Cancel_Right;
+        public object one_Hand_Gesture_Wheel_Cancel_Open_Right;
+        public object one_Hand_Gesture_Wheel_Held_Right;
+        public object one_Hand_Disable_Gesture_Wheel_Move_Left;
+        public object one_Hand_Disable_Gesture_Wheel_Rotate_Left;
+        public object one_Hand_Disable_Gesture_Wheel_Move_Right;
+        public object one_Hand_Disable_Gesture_Wheel_Rotate_Right;
+        public object one_Hand_Reserve_bool;
+        public object one_Hand_Reserve_vector1;
+        public object one_Hand_Reserve_vector2;
+        public object menu_Confirm;
+        public object menu_Back;
+        public object menu_Tab;
+        public object menu_Scroll;
+        public object menu_Quick_Menu_Close;
+        public object menu_Drag;
+        public object action_Menu_Axis;
+        public object action_Menu_Select;
+        public object action_Menu_Gesture_Activator_Thumb;
+        public object action_Menu_Gesture_Activator_Thumb_Inner_Upper;
+        public object action_Menu_Gesture_Activator_Thumb_Inner_Lower;
+        public object action_Menu_Gesture_Activator_Thumb_Outer;
+        public object action_Menu_Gesture_Activator_Index;
+        public object action_Menu_Gesture_Activator_Grip;
+        public object action_Menu_Gesture_Trigger_Axis;
+        public object action_Menu_Gesture_Grip_Axis;
+        public object action_Menu_Gesture_Activator_Stick_Deflection;
+        public object action_Menu_Gesture_Wheel_Left;
+        public object action_Menu_Gesture_Wheel_Select_Left;
+        public object action_Menu_Gesture_Wheel_Soft_Select_Left;
+        public object action_Menu_Gesture_Wheel_Weight_Left;
+        public object action_Menu_Gesture_Wheel_Direct_Left;
+        public object action_Menu_Gesture_Wheel_Direct_Stay_Left;
+        public object action_Menu_Gesture_Wheel_Cancel_Left;
+        public object action_Menu_Gesture_Wheel_Cancel_Open_Left;
+        public object action_Menu_Gesture_Wheel_Held_Left;
+        public object action_Menu_Gesture_Wheel_Right;
+        public object action_Menu_Gesture_Wheel_Select_Right;
+        public object action_Menu_Gesture_Wheel_Soft_Select_Right;
+        public object action_Menu_Gesture_Wheel_Weight_Right;
+        public object action_Menu_Gesture_Wheel_Direct_Right;
+        public object action_Menu_Gesture_Wheel_Direct_Stay_Right;
+        public object action_Menu_Gesture_Wheel_Cancel_Right;
+        public object action_Menu_Gesture_Wheel_Cancel_Open_Right;
+        public object action_Menu_Gesture_Wheel_Held_Right;
+        public object action_Menu_Disable_Gesture_Wheel_Move_Left;
+        public object action_Menu_Disable_Gesture_Wheel_Rotate_Left;
+        public object action_Menu_Disable_Gesture_Wheel_Move_Right;
+        public object action_Menu_Disable_Gesture_Wheel_Rotate_Right;
+        public object action_Menu_Reserve_bool;
+        public object action_Menu_Reserve_vector1;
+        public object action_Menu_Reserve_vector2;
+        public object action_Menu_Grab;
+        public object action_Menu_Drop;
+        public object drone_Left_Joystick;
+        public object drone_Right_Joystick;
+        public object drone_Self_Leveling_Mod;
+        public object drone_Hold_Altitude_Mod;
+        public object drone_Toggle_FPV;
+        public object drone_Flip;
+        public object drone_Take_Picture;
+        public object drone_Cycle_Flight_Preset;
+        public object drone_Toggle_Self_Leveling;
+        public object drone_Respawn;
+        public object drone_Select_Flight_Preset_Micro;
+        public object drone_Select_Flight_Preset_Cinematic;
+        public object drone_Select_Flight_Preset_Racing;
+        public object drone_Select_Flight_Preset_Freestyle;
+        public object Global;
+        public object One_Hand;
+        public object Menu;
+        public object Action_Menu;
+        public object Drone;
 
         // ── Methods ──
         public void get_global_Safe_Mode(){} // RVA: 0x7FFD54073B90
@@ -1215,13 +1252,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ActivateActionSetOnLoad : MonoBehaviour
     {
-        public PayloadVector actionSet; // 0x20
-        public 2EA1BA7A405A72DE forSources; // 0x28
-        public bool disableAllOtherActionSets; // 0x2C
-        public bool activateOnStart; // 0x2D
-        public bool deactivateOnDestroy; // 0x2E
-        public int initialPriority; // 0x30
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5408E8B0
         public void OnDestroy(){} // RVA: 0x7FFD5408E920
@@ -1230,17 +1260,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour : MonoBehaviour
     {
-        public string instance;
-        public bool forcingInitialization;
-        public s _instance; // 0x8
-        public bool initializeSteamVROnAwake; // 0x20
-        public bool doNotDestroy; // 0x21
-        public astVelocity steamvr_render; // 0x28
-        public bool isPlaying; // 0x10
-        public bool initializing; // 0x11
-        public ts initializeCoroutine; // 0x30
-        public bool loadedOpenVRDeviceSuccess; // 0x38
-        public int lastFrameCount; // 0x14
+        public object instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD540B49B0
@@ -1264,18 +1284,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Boolean : MonoBehaviour
     {
-        public or isActive; // 0x20
-        public 2EA1BA7A405A72DE actionSet; // 0x28
-        public sUdonUShortArray onChange; // 0x30
-        public __MetadataCompatible|3_0 onChangeEvent; // 0x38
-        public sUdonUShortArray onUpdate; // 0x40
-        public atible|3_0 onUpdateEvent; // 0x48
-        public sUdonUShortArray onPress; // 0x50
-        public gViews onPressEvent; // 0x58
-        public sUdonUShortArray onPressDown; // 0x60
-        public ersistenceID onPressDownEvent; // 0x68
-        public sUdonUShortArray onPressUp; // 0x70
-        public t_NetworkCallingViews onPressUpEvent; // 0x78
+        public object isActive;
+        public object actionSet;
 
         // ── Methods ──
         public void add_onChangeEvent(){} // RVA: 0x7FFD5408EA80
@@ -1311,23 +1321,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Pose : MonoBehaviour
     {
-        public eld isValid; // 0x20
-        public 2EA1BA7A405A72DE isActive; // 0x28
-        public object origin; // 0x30
-        public rtArray onTransformUpdated; // 0x38
-        public rtArray onTransformChanged; // 0x40
-        public object onConnectedChanged; // 0x48
-        public r2Array onTrackingChanged; // 0x50
-        public rtArrayVerify onDeviceIndexChanged; // 0x58
-        public atible|3_0 onTransformUpdatedEvent; // 0x60
-        public __MetadataCompatible|3_0 onTransformChangedEvent; // 0x68
-        public bjectMetadataPair onConnectedChangedEvent; // 0x70
-        public Pair onTrackingChangedEvent; // 0x78
-        public .Networking.Tween onDeviceIndexChangedEvent; // 0x80
-        public bool broadcastDeviceChanges; // 0x88
-        public int deviceIndex; // 0x8C
-        public eValueWithoutEvents historyBuffer; // 0x90
-        public int lastFrameUpdated; // 0x98
+        public object isValid;
+        public object isActive;
 
         // ── Methods ──
         public void get_isValid(){} // RVA: 0x7FFD54090410
@@ -1377,14 +1372,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Single : MonoBehaviour
     {
-        public rify isActive; // 0x20
-        public 2EA1BA7A405A72DE inputSource; // 0x28
-        public ctor2ArrayT onChange; // 0x30
-        public ctor2ArrayT onUpdate; // 0x38
-        public ctor2ArrayT onAxis; // 0x40
-        public __MetadataCompatible|3_0 onChangeEvent; // 0x48
-        public atible|3_0 onUpdateEvent; // 0x50
-        public tePhysBoneGrab onAxisEvent; // 0x58
+        public object isActive;
 
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x7FFD54092640
@@ -1407,40 +1395,55 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Skeleton : MonoBehaviour
     {
-        public ckingField skeletonAvailable; // 0x20
-        public 2EA1BA7A405A72DE isActive; // 0x28
-        public rm fingerCurls; // 0x2C
-        public object thumbCurl; // 0x30
-        public object indexCurl; // 0x38
-        public bool middleCurl; // 0x40
-        public bool ringCurl; // 0x41
-        public float pinkyCurl; // 0x44
-        public object root; // 0x48
-        public object wrist; // 0x50
-        public object indexMetacarpal; // 0x58
-        public tor3Array indexProximal; // 0x60
-        public r3ArrayT indexMiddle; // 0x68
-        public atible|3_0 indexDistal; // 0x70
-        public atible|3_0 indexTip; // 0x78
-        public __MetadataCompatible|3_0 middleMetacarpal; // 0x80
-        public bjectMetadataPair middleProximal; // 0x88
-        public Pair middleMiddle; // 0x90
-        public omNetwork middleDistal; // 0x98
-        public anEvent middleTip; // 0xA0
-        public rify pinkyMetacarpal; // 0xA8
-        public anEvent pinkyProximal; // 0xB0
-        public tion1 pinkyMiddle; // 0xB8
-        public ?[] pinkyDistal; // 0xC0
-        public ?[] pinkyTip; // 0xC8
-        public ?[] ringMetacarpal; // 0xD0
-        public ?[] ringProximal; // 0xD8
-        public ?[] ringMiddle; // 0xE0
-        public ts ringDistal; // 0xE8
-        public ts ringTip; // 0xF0
-        public ts thumbMetacarpal; // 0xF8
-        public ?[] thumbProximal; // 0x100
-        public aphy<rm> thumbMiddle; // 0x108
-        public R_12x12 thumbDistal;
+        public object skeletonAvailable;
+        public object isActive;
+        public object fingerCurls;
+        public object thumbCurl;
+        public object indexCurl;
+        public object middleCurl;
+        public object ringCurl;
+        public object pinkyCurl;
+        public object root;
+        public object wrist;
+        public object indexMetacarpal;
+        public object indexProximal;
+        public object indexMiddle;
+        public object indexDistal;
+        public object indexTip;
+        public object middleMetacarpal;
+        public object middleProximal;
+        public object middleMiddle;
+        public object middleDistal;
+        public object middleTip;
+        public object pinkyMetacarpal;
+        public object pinkyProximal;
+        public object pinkyMiddle;
+        public object pinkyDistal;
+        public object pinkyTip;
+        public object ringMetacarpal;
+        public object ringProximal;
+        public object ringMiddle;
+        public object ringDistal;
+        public object ringTip;
+        public object thumbMetacarpal;
+        public object thumbProximal;
+        public object thumbMiddle;
+        public object thumbDistal;
+        public object thumbTip;
+        public object thumbAux;
+        public object indexAux;
+        public object middleAux;
+        public object ringAux;
+        public object pinkyAux;
+        public object proximals;
+        public object middles;
+        public object distals;
+        public object tips;
+        public object auxs;
+        public object skeletalTrackingLevel;
+        public object isBlending;
+        public object actionSet;
+        public object direction;
 
         // ── Methods ──
         public void get_skeletonAvailable(){} // RVA: 0x7FFD54093190
@@ -1538,38 +1541,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_SkeletonCustom : SteamVR_Behaviour_Skeleton
     {
-        public object _wrist; // 0x110
-        public object _thumbMetacarpal; // 0x118
-        public object _thumbProximal; // 0x120
-        public object _thumbMiddle; // 0x128
-        public object _thumbDistal; // 0x130
-        public object _thumbTip; // 0x138
-        public object _thumbAux; // 0x140
-        public object _indexMetacarpal; // 0x148
-        public object _indexProximal; // 0x150
-        public object _indexMiddle; // 0x158
-        public object _indexDistal; // 0x160
-        public object _indexTip; // 0x168
-        public object _indexAux; // 0x170
-        public object _middleMetacarpal; // 0x178
-        public object _middleProximal; // 0x180
-        public object _middleMiddle; // 0x188
-        public object _middleDistal; // 0x190
-        public object _middleTip; // 0x198
-        public object _middleAux; // 0x1A0
-        public object _ringMetacarpal; // 0x1A8
-        public object _ringProximal; // 0x1B0
-        public object _ringMiddle; // 0x1B8
-        public object _ringDistal; // 0x1C0
-        public object _ringTip; // 0x1C8
-        public object _ringAux; // 0x1D0
-        public object _pinkyMetacarpal; // 0x1D8
-        public object _pinkyProximal; // 0x1E0
-        public object _pinkyMiddle; // 0x1E8
-        public object _pinkyDistal; // 0x1F0
-        public object _pinkyTip; // 0x1F8
-        public object _pinkyAux; // 0x200
-
         // ── Methods ──
         public void AssignBonesArray(){} // RVA: 0x7FFD5409A500
         public void .ctor(){} // RVA: 0x7FFD5409ADB0
@@ -1595,14 +1566,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Vector2 : MonoBehaviour
     {
-        public tartWrappedLong isActive; // 0x20
-        public 2EA1BA7A405A72DE inputSource; // 0x28
-        public y onChange; // 0x30
-        public y onUpdate; // 0x38
-        public y onAxis; // 0x40
-        public __MetadataCompatible|3_0 onChangeEvent; // 0x48
-        public atible|3_0 onUpdateEvent; // 0x50
-        public tePhysBoneGrab onAxisEvent; // 0x58
+        public object isActive;
 
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x7FFD54092640
@@ -1625,14 +1589,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Behaviour_Vector3 : MonoBehaviour
     {
-        public gVerify isActive; // 0x20
-        public 2EA1BA7A405A72DE inputSource; // 0x28
-        public r4Array onChange; // 0x30
-        public r4Array onUpdate; // 0x38
-        public r4Array onAxis; // 0x40
-        public __MetadataCompatible|3_0 onChangeEvent; // 0x48
-        public atible|3_0 onUpdateEvent; // 0x50
-        public tePhysBoneGrab onAxisEvent; // 0x58
+        public object isActive;
 
         // ── Methods ──
         public void get_isActive(){} // RVA: 0x7FFD54092640
@@ -1655,15 +1612,13 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Camera : MonoBehaviour
     {
-        public object head; // 0x20
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ offset; // 0x28
-        public object origin; // 0x30
-        public bool camera; // 0x38
-        public mePatterns.MES_SIZE ears;
-        public string sceneResolutionScale;
-        public string baseName;
-        public string headSuffix;
-        public string originSuffix;
+        public object head;
+        public object offset;
+        public object origin;
+        public object camera;
+        public object ears;
+        public object sceneResolutionScale;
+        public object baseName;
 
         // ── Methods ──
         public void get_head(){} // RVA: 0x7FFD4E36F0C0
@@ -1708,10 +1663,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Ears : MonoBehaviour
     {
-        public _onActiveBindingChange vrcam; // 0x20
-        public bool usingSpeakers; // 0x28
-        public R_12x12 offset; // 0x2C
-
         // ── Methods ──
         public void OnNewPosesApplied(){} // RVA: 0x7FFD540BA890
         public void OnEnable(){} // RVA: 0x7FFD540BAC60
@@ -1721,23 +1672,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Events : Object
     {
-        public ed<bool> Calibrating;
-        public astChanged<int,bool> DeviceConnected; // 0x8
-        public ed<?,float,bool> Fade; // 0x10
-        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE FadeReady; // 0x18
-        public ed<bool> HideRenderModels; // 0x20
-        public ed<bool> Initializing; // 0x28
-        public ed<bool> InputFocus; // 0x30
-        public ed<bool> Loading; // 0x38
-        public ed<float> LoadingFadeIn; // 0x40
-        public ed<float> LoadingFadeOut; // 0x48
-        public ed<fications[]> NewPoses; // 0x50
-        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE NewPosesApplied; // 0x58
-        public ed<bool> Initialized; // 0x60
-        public ed<bool> OutOfRange; // 0x68
-        public astChanged<onnected,bool> RenderModelLoaded; // 0x70
-        public URA.DateTime<opy,ed<?>> systemEvents; // 0x78
-
         // ── Methods ──
         public void CalibratingAction(){} // RVA: 0x7FFD540BB0E0
         public void DeviceConnectedAction(){} // RVA: 0x7FFD540BB190
@@ -1761,24 +1695,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ExternalCamera : MonoBehaviour
     {
-        public eld cameraPose; // 0x20
-        public 2EA1BA7A405A72DE cameraInputSource; // 0x28
-        public er config; // 0x2C
-        public string configPath; // 0x78
-        public bool autoEnableDisableActionSet; // 0x80
-        public Inherited.? watcher; // 0x88
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ cam; // 0x90
-        public object target; // 0x98
-        public BuffersImpl clipQuad; // 0xA0
-        public atrix_Injected clipMaterial; // 0xA8
-        public PayloadVector activatedActionSet; // 0xB0
-        public 2EA1BA7A405A72DE activatedInputSource; // 0xB8
-        public atrix_Injected colorMat; // 0xC0
-        public atrix_Injected alphaMat; // 0xC8
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ[] cameras; // 0xD0
-        public dRecorder[] cameraRects; // 0xD8
-        public float sceneResolutionScale; // 0xE0
-
         // ── Methods ──
         public void ReadConfig(){} // RVA: 0x7FFD540BCC50
         public void SetupPose(){} // RVA: 0x7FFD540BD690
@@ -1797,8 +1713,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_ExternalCamera_LegacyManager : Object
     {
-        public int hasCamera;
-        public ÎÌÍÏÏÌÍÏ newPosesAction; // 0x8
+        public object hasCamera;
 
         // ── Methods ──
         public void get_hasCamera(){} // RVA: 0x7FFD540C1240
@@ -1810,13 +1725,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Fade : MonoBehaviour
     {
-        public object currentColor; // 0x20
-        public object targetColor; // 0x30
-        public object deltaColor; // 0x40
-        public bool fadeOverlay; // 0x50
-        public atrix_Injected fadeMaterial;
-        public int fadeMaterialColorID; // 0x8
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD540C1620
         public void View(){} // RVA: 0x7FFD540C16F0
@@ -1830,14 +1738,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Frustum : MonoBehaviour
     {
-        public ingPinkySplay index; // 0x20
-        public float fovLeft; // 0x24
-        public float fovRight; // 0x28
-        public float fovTop; // 0x2C
-        public float fovBottom; // 0x30
-        public float nearZ; // 0x34
-        public float farZ; // 0x38
-
         // ── Methods ──
         public void UpdateModel(){} // RVA: 0x7FFD540C2280
         public void OnDeviceConnected(){} // RVA: 0x7FFD540C2CB0
@@ -1848,17 +1748,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_IK : MonoBehaviour
     {
-        public object target; // 0x20
-        public object start; // 0x28
-        public object joint; // 0x30
-        public object end; // 0x38
-        public object poleVector; // 0x40
-        public object upVector; // 0x48
-        public float blendPct; // 0x50
-        public object startXform; // 0x58
-        public object jointXform; // 0x60
-        public object endXform; // 0x68
-
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0x7FFD540C3290
         public void Solve(){} // RVA: 0x7FFD540C4BC0
@@ -1867,40 +1756,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Input : Object
     {
-        public string isStartupFrame;
-        public string localizationKeyName;
-        public bool fileInitialized;
-        public bool initialized; // 0x1
-        public bool preInitialized; // 0x2
-        public ecoveredID actionFile; // 0x8
-        public string actionFileHash; // 0x10
-        public ÎÌÍÏÏÌÍÏ onNonVisualActionsUpdated; // 0x18
-        public erializationRecoveryID onPosesUpdated; // 0x20
-        public ID onSkeletonsUpdated; // 0x28
-        public bool initializing; // 0x30
-        public int startupFrame; // 0x34
-        public PayloadVector[] actionSets; // 0x38
-        public reateUdon[] actions; // 0x40
-        public onentInfoT[] actionsIn; // 0x48
-        public TypeId>k__BackingField[] actionsOut; // 0x50
-        public or[] actionsBoolean; // 0x58
-        public rify[] actionsSingle; // 0x60
-        public tartWrappedLong[] actionsVector2; // 0x68
-        public gVerify[] actionsVector3; // 0x70
-        public eld[] actionsPose; // 0x78
-        public ckingField[] actionsSkeleton; // 0x80
-        public edStringT[] actionsVibration; // 0x88
-        public onentInfoT[] actionsNonPoseNonSkeletonIn; // 0x90
-        public URA.DateTime<string,PayloadVector> actionSetsByPath; // 0x98
-        public URA.DateTime<string,PayloadVector> actionSetsByPathLowered; // 0xA0
-        public URA.DateTime<string,reateUdon> actionsByPath; // 0xA8
-        public URA.DateTime<string,reateUdon> actionsByPathLowered; // 0xB0
-        public URA.DateTime<string,PayloadVector> actionSetsByPathCache; // 0xB8
-        public URA.DateTime<string,reateUdon> actionsByPathCache; // 0xC0
-        public URA.DateTime<string,reateUdon> actionsByNameCache; // 0xC8
-        public URA.DateTime<string,PayloadVector> actionSetsByNameCache; // 0xD0
-        public uint sizeVRActiveActionSet_t; // 0xD8
-        public tivated[] setCache; // 0xE0
+        public object isStartupFrame;
 
         // ── Methods ──
         public void add_onNonVisualActionsUpdated(){} // RVA: 0x7FFD5409C560
@@ -1981,15 +1837,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Input_ActionFile : Object
     {
-        public URA.woDigitYearMax<tanceStorageIdDelegate> actions; // 0x10
-        public URA.woDigitYearMax<tanceRestoredDelegate> action_sets; // 0x18
-        public URA.woDigitYearMax<Filter> default_bindings; // 0x20
-        public URA.woDigitYearMax<URA.DateTime<string,string>> localization; // 0x28
-        public string filePath; // 0x30
-        public URA.woDigitYearMax<ID> localizationHelperList; // 0x38
-        public string findString_appKeyStart;
-        public string findString_appKeyEnd;
-
         // ── Methods ──
         public void InitializeHelperLists(){} // RVA: 0x7FFD540A3D00
         public void SaveHelperLists(){} // RVA: 0x7FFD540A43B0
@@ -2464,47 +2311,18 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Input_BindingFile : Object
     {
-        public string app_key; // 0x10
-        public URA.DateTime<string,yClass73_1> bindings; // 0x18
-        public string controller_type; // 0x20
-        public string description; // 0x28
-        public string name; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD540A92D0
     }
 
     public class SteamVR_Input_Generator_Names : Object
     {
-        public string fullActionsClassName;
-        public string actionsClassName;
-        public string preinitializeMethodName;
-        public string actionsFieldName;
-        public string actionsInFieldName;
-        public string actionsOutFieldName;
-        public string actionsVibrationFieldName;
-        public string actionsPoseFieldName;
-        public string actionsBooleanFieldName;
-        public string actionsSingleFieldName;
-        public string actionsVector2FieldName;
-        public string actionsVector3FieldName;
-        public string actionsSkeletonFieldName;
-        public string actionsNonPoseNonSkeletonIn;
-        public string actionSetsFieldName;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class SteamVR_Input_Source : Object
     {
-        public int numSources;
-        public ulong[] inputSourceHandlesBySource; // 0x8
-        public URA.DateTime<ulong,2EA1BA7A405A72DE> inputSourceSourcesByHandle; // 0x10
-        public object enumType; // 0x18
-        public object descriptionType; // 0x20
-        public 2EA1BA7A405A72DE[] allSources; // 0x28
-
         // ── Methods ──
         public void GetHandle(){} // RVA: 0x7FFD540AAA30
         public void GetSource(){} // RVA: 0x7FFD540AAAE0
@@ -2516,40 +2334,9 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_LoadLevel : MonoBehaviour
     {
-        public teOriginTrackedDeviceInfo loading;
-        public string progress; // 0x20
-        public string progressTexture; // 0x28
-        public string internalProcessArgs; // 0x30
-        public bool loadAdditive; // 0x38
-        public bool loadAsync; // 0x39
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField loadingScreen; // 0x40
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField progressBarEmpty; // 0x48
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField progressBarFull; // 0x50
-        public float loadingScreenWidthInMeters; // 0x58
-        public float progressBarWidthInMeters; // 0x5C
-        public float loadingScreenDistance; // 0x60
-        public object loadingScreenTransform; // 0x68
-        public object progressBarTransform; // 0x70
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField front; // 0x78
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField back; // 0x80
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField left; // 0x88
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField right; // 0x90
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField top; // 0x98
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField bottom; // 0xA0
-        public object backgroundColor; // 0xA8
-        public bool showGrid; // 0xB8
-        public float fadeOutTime; // 0xBC
-        public float fadeInTime; // 0xC0
-        public float postLoadSettleTime; // 0xC4
-        public float loadingScreenFadeInTime; // 0xC8
-        public float loadingScreenFadeOutTime; // 0xCC
-        public float fadeRate; // 0xD0
-        public float alpha; // 0xD4
-        public ntaxFlags async; // 0xD8
-        public Offset renderTexture; // 0xE0
-        public ulong loadingScreenOverlayHandle; // 0xE8
-        public ulong progressBarOverlayHandle; // 0xF0
-        public bool autoTriggerOnEnable; // 0xF8
+        public object loading;
+        public object progress;
+        public object progressTexture;
 
         // ── Methods ──
         public void get_loading(){} // RVA: 0x7FFD540C52B0
@@ -2567,23 +2354,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Menu : MonoBehaviour
     {
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField texture; // 0x20
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField scale; // 0x28
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField logo; // 0x30
-        public float logoHeight; // 0x38
-        public float menuOffset; // 0x3C
-        public tionX scaleLimits; // 0x40
-        public float scaleRate; // 0x48
-        public TrackingChanged overlay; // 0x50
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ overlayCam; // 0x58
-        public get_boundingBoxMode uvOffset; // 0x60
-        public float distance; // 0x70
-        public float <scale>k__BackingField; // 0x74
-        public string scaleLimitX; // 0x78
-        public string scaleLimitY; // 0x80
-        public string scaleRateText; // 0x88
-        public eOffset savedCursorLockState; // 0x90
-        public bool savedCursorVisible; // 0x94
+        public object texture;
+        public object scale;
 
         // ── Methods ──
         public void get_texture(){} // RVA: 0x7FFD540C8070
@@ -2602,15 +2374,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Overlay : MonoBehaviour
     {
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField instance; // 0x20
-        public float key; // 0x28
-        public float distance; // 0x2C
-        public float alpha; // 0x30
-        public get_boundingBoxMode uvOffset; // 0x34
-        public tionX mouseScale; // 0x44
-        public eDataCompressed inputMethod; // 0x4C
-        public TrackingChanged <instance>k__BackingField;
-        public ulong handle; // 0x50
+        public object instance;
+        public object key;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD540CABE0
@@ -2626,14 +2391,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_PlayArea : MonoBehaviour
     {
-        public float borderThickness; // 0x20
-        public float wireframeHeight; // 0x24
-        public bool drawWireframeWhenSelectedOnly; // 0x28
-        public bool drawInGame; // 0x29
-        public object size; // 0x2C
-        public object color; // 0x30
-        public amut[] vertices; // 0x40
-
         // ── Methods ──
         public void GetBounds(){} // RVA: 0x7FFD540CBA40
         public void BuildMesh(){} // RVA: 0x7FFD540CBD50
@@ -2647,18 +2404,9 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Render : MonoBehaviour
     {
-        public ctiveOrigin eye; // 0x20
-        public string instance; // 0x28
-        public kedDeviceActivityLevel pauseRendering;
-        public bool isQuitting; // 0x4
-        public _onActiveBindingChange[] cameras; // 0x30
-        public fications[] poses; // 0x38
-        public fications[] gamePoses; // 0x40
-        public bool _pauseRendering; // 0x5
-        public s waitForEndOfFrame; // 0x48
-        public aphy<bool> doesPathExist; // 0x50
-        public float timeScale; // 0x54
-        public ?[] screenshotTypes; // 0x58
+        public object eye;
+        public object instance;
+        public object pauseRendering;
 
         // ── Methods ──
         public void get_eye(){} // RVA: 0x7FFD540CD680
@@ -2690,26 +2438,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_RenderModel : MonoBehaviour
     {
-        public ingPinkySplay renderModelName; // 0x20
-        public 2EA1BA7A405A72DE initializedAttachPoints; // 0x24
-        public string modelOverrideWarning;
-        public string modelOverride; // 0x28
-        public ojectionMatrix_Injected shader; // 0x30
-        public bool verbose; // 0x38
-        public bool createComponents; // 0x39
-        public bool updateDynamically; // 0x3A
-        public s_Matrix34_Array controllerModeState; // 0x3B
-        public string k_localTransformName;
-        public string <renderModelName>k__BackingField; // 0x40
-        public bool <initializedAttachPoints>k__BackingField; // 0x48
-        public URA.DateTime<string,?> componentAttachPoints; // 0x50
-        public URA.woDigitYearMax<terialIndex> meshRenderers; // 0x58
-        public mePatterns.MES_SIZE models;
-        public mePatterns.MES_SIZE materials; // 0x8
-        public ÎÌÍÏÏÌÍÏ deviceConnectedAction; // 0x60
-        public ÎÌÍÏÏÌÍÏ hideRenderModelsAction; // 0x68
-        public ÎÌÍÏÏÌÍÏ modelSkinSettingsHaveChangedAction; // 0x70
-        public URA.DateTime<int,string> nameCache; // 0x78
+        public object renderModelName;
+        public object initializedAttachPoints;
 
         // ── Methods ──
         public void get_renderModelName(){} // RVA: 0x7FFD4E3BE740
@@ -2745,12 +2475,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_RingBuffer`1 : Object
     {
-        public bool UseDateTimeForTicks;
-        public T1717691200[] buffer;
-        public int currentIndex;
-        public T1717691200 lastElement;
-        public bool cleared;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
         public void Add(){} // RVA: 0x7FFD4E2ADC40
@@ -2763,26 +2487,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Settings : ScriptableObject
     {
-        public t_skeletalTransformSpace instance;
-        public bool trackingSpace; // 0x18
-        public bool lockPhysicsUpdateRateToRenderFrequency; // 0x19
-        public kedDeviceProperty trackingSpaceOrigin; // 0x1C
-        public string actionsFilePath; // 0x20
-        public string steamVRInputPath; // 0x28
-        public datingSourceOnAccess inputUpdateMode; // 0x30
-        public datingSourceOnAccess poseUpdateMode; // 0x34
-        public bool activateFirstActionSetOnStart; // 0x38
-        public string editorAppKey; // 0x40
-        public bool autoEnableVR; // 0x48
-        public bool legacyMixedRealityCamera; // 0x49
-        public eld mixedRealityCameraPose; // 0x50
-        public 2EA1BA7A405A72DE mixedRealityCameraInputSource; // 0x58
-        public bool mixedRealityActionSetAutoEnable; // 0x5C
-        public BuffersImpl previewHandLeft; // 0x60
-        public BuffersImpl previewHandRight; // 0x68
-        public string previewLeftDefaultAssetName;
-        public string previewRightDefaultAssetName;
-        public string defaultSettingsAssetName;
+        public object instance;
+        public object trackingSpace;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD540D7580
@@ -2800,12 +2506,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Skeleton_Pose : ScriptableObject
     {
-        public e=95 leftHand; // 0x18
-        public e=95 rightHand; // 0x20
-        public int leftHandInputSource;
-        public int rightHandInputSource;
-        public bool applyToSkeletonRoot; // 0x28
-
         // ── Methods ──
         public void GetHand(){} // RVA: 0x7FFD540ABCE0 | overloaded x2
         public void .ctor(){} // RVA: 0x7FFD540ABD00
@@ -2813,25 +2513,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Skeleton_Poser : MonoBehaviour
     {
-        public bool blendPoseCount; // 0x20
-        public bool blendEditorExpanded; // 0x21
-        public string[] poseNames; // 0x28
-        public BuffersImpl overridePreviewLeftHandPrefab; // 0x30
-        public BuffersImpl overridePreviewRightHandPrefab; // 0x38
-        public 7 skeletonMainPose; // 0x40
-        public URA.woDigitYearMax<7> skeletonAdditionalPoses; // 0x48
-        public bool showLeftPreview; // 0x50
-        public bool showRightPreview; // 0x51
-        public BuffersImpl previewLeftInstance; // 0x58
-        public BuffersImpl previewRightInstance; // 0x60
-        public int previewPoseSelection; // 0x68
-        public URA.woDigitYearMax<eBinding> blendingBehaviours; // 0x70
-        public tion1 blendedSnapshotL; // 0x78
-        public tion1 blendedSnapshotR; // 0x80
-        public ?[] blendPoses; // 0x88
-        public int boneCount; // 0x90
-        public bool poseUpdatedThisFrame; // 0x94
-        public float scale; // 0x98
+        public object blendPoseCount;
 
         // ── Methods ──
         public void get_blendPoseCount(){} // RVA: 0x7FFD540AC520
@@ -2857,15 +2539,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_Skybox : MonoBehaviour
     {
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField front; // 0x20
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField back; // 0x28
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField left; // 0x30
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField right; // 0x38
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField top; // 0x40
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField bottom; // 0x48
-        public TransformSpace StereoCellSize; // 0x50
-        public float StereoIpdMm; // 0x54
-
         // ── Methods ──
         public void SetTextureByIndex(){} // RVA: 0x7FFD540D7D90
         public void GetTextureByIndex(){} // RVA: 0x7FFD540D7E20
@@ -2878,8 +2551,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_SphericalProjection : MonoBehaviour
     {
-        public atrix_Injected material;
-
         // ── Methods ──
         public void Set(){} // RVA: 0x7FFD540D8480
         public void OnRenderImage(){} // RVA: 0x7FFD540D8A70
@@ -2888,10 +2559,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_TrackedCamera : Object
     {
-        public ?[] distorted;
-        public ?[] undistorted; // 0x8
-        public Type[] videostreams; // 0x10
-
         // ── Methods ──
         public void Distorted(){} // RVA: 0x7FFD540D8B00
         public void Undistorted(){} // RVA: 0x7FFD540D8CA0
@@ -2902,10 +2569,7 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_TrackedObject : MonoBehaviour
     {
-        public ingPinkySplay isValid; // 0x20
-        public object origin; // 0x28
-        public bool <isValid>k__BackingField; // 0x30
-        public ÎÌÍÏÏÌÍÏ newPosesAction; // 0x38
+        public object isValid;
 
         // ── Methods ──
         public void get_isValid(){} // RVA: 0x7FFD4E367450
@@ -2920,8 +2584,6 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class SteamVR_TrackingReferenceManager : MonoBehaviour
     {
-        public URA.DateTime<uint,rCurls> trackingReferences; // 0x20
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD540DAA10
         public void OnDisable(){} // RVA: 0x7FFD540DAAF0

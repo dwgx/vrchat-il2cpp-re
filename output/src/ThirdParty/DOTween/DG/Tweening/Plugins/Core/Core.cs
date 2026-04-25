@@ -33,25 +33,6 @@ namespace ThirdParty.DOTween.DG.Tweening.Plugins.Core
 
     public class PluginsManager : Object
     {
-        public verFeatureFlagsAvailable>k__BackingField.ield _floatPlugin;
-        public verFeatureFlagsAvailable>k__BackingField.ield _doublePlugin; // 0x8
-        public verFeatureFlagsAvailable>k__BackingField.ield _intPlugin; // 0x10
-        public verFeatureFlagsAvailable>k__BackingField.ield _uintPlugin; // 0x18
-        public verFeatureFlagsAvailable>k__BackingField.ield _longPlugin; // 0x20
-        public verFeatureFlagsAvailable>k__BackingField.ield _ulongPlugin; // 0x28
-        public verFeatureFlagsAvailable>k__BackingField.ield _vector2Plugin; // 0x30
-        public verFeatureFlagsAvailable>k__BackingField.ield _vector3Plugin; // 0x38
-        public verFeatureFlagsAvailable>k__BackingField.ield _vector4Plugin; // 0x40
-        public verFeatureFlagsAvailable>k__BackingField.ield _quaternionPlugin; // 0x48
-        public verFeatureFlagsAvailable>k__BackingField.ield _colorPlugin; // 0x50
-        public verFeatureFlagsAvailable>k__BackingField.ield _rectPlugin; // 0x58
-        public verFeatureFlagsAvailable>k__BackingField.ield _rectOffsetPlugin; // 0x60
-        public verFeatureFlagsAvailable>k__BackingField.ield _stringPlugin; // 0x68
-        public verFeatureFlagsAvailable>k__BackingField.ield _vector3ArrayPlugin; // 0x70
-        public verFeatureFlagsAvailable>k__BackingField.ield _color2Plugin; // 0x78
-        public int _MaxCustomPlugins;
-        public URA.DateTime<?,verFeatureFlagsAvailable>k__BackingField.ield> _customPlugins; // 0x80
-
         // ── Methods ──
         public void GetDefaultPlugin(){} // RVA: 0x7FFD4E078A90
         public void GetCustomPlugin(){} // RVA: 0x7FFD4E078A90

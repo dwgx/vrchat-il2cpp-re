@@ -36,10 +36,7 @@ namespace VRC.Udon.Security
 
     public class UnityEngineObjectSecurityBlacklist : Object
     {
-        public URA.onsDepth<?> LightReservedLayerMask; // 0x10
-        public URA.DateTime<?,bool> _safeTypeCache; // 0x18
-        public dle<int> _dontDestroyOnLoadHandle; // 0x20
-        public int <LightReservedLayerMask>k__BackingField; // 0x28
+        public object LightReservedLayerMask;
 
         // ── Methods ──
         public void IsBlacklisted(){} // RVA: 0x7FFD552C5F80 | overloaded x2
@@ -57,9 +54,7 @@ namespace VRC.Udon.Security
 
     public class UnityEngineObjectSecurityWhitelist : Object
     {
-        public URA.onsDepth<?> LightReservedLayerMask; // 0x10
-        public URA.DateTime<?,bool> _safeTypeCache; // 0x18
-        public int <LightReservedLayerMask>k__BackingField; // 0x20
+        public object LightReservedLayerMask;
 
         // ── Methods ──
         public void ApplyFilter(){} // RVA: 0x7FFD552C6F40 | overloaded x2

@@ -7,14 +7,17 @@ namespace VRC.SDK3.Video.Components.AVPro
 {
     public class VRCAVProVideoPlayer : BaseVRCVideoPlayer
     {
-        public n<yBakeCurrentOffsetsRuntime.akeCurrentOffsets,dRotation.enWorldPosition> Initialize;
-        public bool VideoURL; // 0x38
-        public ellSize.t AutoPlay; // 0x40
-        public bool MaximumResolution; // 0x48
-        public bool Initialized; // 0x49
-        public int UseLowLatency; // 0x4C
-        public bool Loop; // 0x50
-        public dRotation.enWorldPosition IsPlaying; // 0x58
+        public object Initialize;
+        public object VideoURL;
+        public object AutoPlay;
+        public object MaximumResolution;
+        public object Initialized;
+        public object UseLowLatency;
+        public object Loop;
+        public object IsPlaying;
+        public object IsReady;
+        public object VideoWidth;
+        public object VideoHeight;
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x7FFD57417350
@@ -46,11 +49,11 @@ namespace VRC.SDK3.Video.Components.AVPro
 
     public class VRCAVProVideoScreen : MonoBehaviour
     {
-        public ileFullDirectoryInformation<yBakeCurrentOffsetsRuntime.nsform> Initialize;
-        public yBakeCurrentOffsetsRuntime.akeCurrentOffsets VideoPlayer; // 0x20
-        public int MaterialIndex; // 0x28
-        public string TextureProperty; // 0x30
-        public bool UseSharedMaterial; // 0x38
+        public object Initialize;
+        public object VideoPlayer;
+        public object MaterialIndex;
+        public object TextureProperty;
+        public object UseSharedMaterial;
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x7FFD57417B00

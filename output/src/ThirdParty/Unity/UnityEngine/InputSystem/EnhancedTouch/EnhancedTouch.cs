@@ -7,8 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 {
     public class EnhancedTouchSupport : Object
     {
-        public int enabled;
-        public _6 s_UpdateMode; // 0x4
+        public object enabled;
 
         // ── Methods ──
         public void get_enabled(){} // RVA: 0x7FFD54A87320
@@ -24,9 +23,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class Finger : Object
     {
-        public ilAddress.rstBarrelButton screen; // 0x10
-        public int index; // 0x18
-        public Device.dynamicOriginRange<Device.ingOptions> isActive; // 0x20
+        public object screen;
+        public object index;
+        public object isActive;
+        public object screenPosition;
+        public object lastTouch;
+        public object currentTouch;
+        public object touchHistory;
 
         // ── Methods ──
         public void get_screen(){} // RVA: 0x7FFD4E35C380
@@ -45,9 +48,35 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class Touch : ValueType
     {
-        public rol.ÍÏÏÎÎÍÎÌÎÏÍÎÌÏ valid; // 0x10
-        public n<Device.ingOptions> finger; // 0x18
-        public _BackingField phase;
+        public object valid;
+        public object finger;
+        public object phase;
+        public object began;
+        public object inProgress;
+        public object ended;
+        public object touchId;
+        public object pressure;
+        public object radius;
+        public object startTime;
+        public object time;
+        public object screen;
+        public object screenPosition;
+        public object startScreenPosition;
+        public object delta;
+        public object tapCount;
+        public object isTap;
+        public object displayIndex;
+        public object isInProgress;
+        public object updateStepCount;
+        public object uniqueId;
+        public object state;
+        public object extraData;
+        public object history;
+        public object activeTouches;
+        public object fingers;
+        public object activeFingers;
+        public object screens;
+        public object maxHistoryLengthPerFinger;
 
         // ── Methods ──
         public void get_valid(){} // RVA: 0x7FFD54A89990
@@ -99,11 +128,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class TouchHistory : ValueType
     {
-        public Device.dynamicOriginRange<Device.ingOptions> Count; // 0x10
-        public rol.ÍÏÏÎÎÍÎÌÎÏÍÎÌÏ Item; // 0x18
-        public int m_Count; // 0x20
-        public int m_StartIndex; // 0x24
-        public uint m_Version; // 0x28
+        public object Count;
+        public object Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54A8CD60
@@ -116,17 +142,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class TouchSimulation : MonoBehaviour
     {
-        public ilAddress.rstBarrelButton simulatedTouchscreen; // 0x20
-        public int instance; // 0x28
-        public ilAddress.7680D2C6B73ABF19738EF5186[] m_Pointers; // 0x30
-        public tionX[] m_CurrentPositions; // 0x38
-        public int[] m_CurrentDisplayIndices; // 0x40
-        public _1.ceControlChangedValue[] m_Touches; // 0x48
-        public int[] m_TouchIds; // 0x50
-        public int m_LastTouchId; // 0x58
-        public rectoryInformation<ilAddress.ActionProperty,ilAddress.Index> m_OnDeviceChange; // 0x60
-        public rectoryInformation<Device.ckingField,ilAddress.ActionProperty> m_OnEvent; // 0x68
-        public rol.ndex s_Instance;
+        public object simulatedTouchscreen;
+        public object instance;
 
         // ── Methods ──
         public void get_simulatedTouchscreen(){} // RVA: 0x7FFD4E36F0C0

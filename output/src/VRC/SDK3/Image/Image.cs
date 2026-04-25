@@ -35,11 +35,8 @@ namespace VRC.SDK3.Image
 
     public class VRCImageDownloader : Object
     {
-        public bool StartDownload; // 0x10
-        public URA.woDigitYearMax<backScreenDPI.edTransform> HasAnyQueuedDownloads; // 0x18
-        public URA.woDigitYearMax<backScreenDPI.edTransform> _imageDownloadQueue;
-        public ?<ellSize.t,atrix_Injected,pNeighbor,backScreenDPI.ÍÍÌÎÌÎÏÏÏÏÏ,backScreenDPI.edTransform> <StartDownload>k__BackingField; // 0x8
-        public ormation<bool> CanBypassDelay; // 0x10
+        public object StartDownload;
+        public object HasAnyQueuedDownloads;
 
         // ── Methods ──
         public void get_StartDownload(){} // RVA: 0x7FFD57422820

@@ -7,55 +7,28 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 {
     public class Socket : Object
     {
-        public tTable<rt.ponseLength> OSSupportsIPv4;
-        public tTable<rt.ponseLength> OSSupportsIPv6; // 0x8
-        public tTable<rt.ponseLength> Handle; // 0x10
-        public ?<rt.Converter> AddressFamily; // 0x18
-        public fRemove SocketType; // 0x20
-        public utes.?<int> ProtocolType; // 0x28
-        public esCallback ExclusiveAddressUse; // 0x10
-        public object ReceiveTimeout; // 0x30
-        public bool SendTimeout; // 0x38
-        public bool DontFragment; // 0x39
-        public bool DualMode; // 0x3A
-        public bool IsDualMode; // 0x3B
-        public bool InternalSyncObject; // 0x3C
-        public bool CleanedUp; // 0x3D
-        public int Available;
-        public int IsBound;
-        public string LocalEndPoint;
-        public bool Blocking; // 0x18
-        public bool Connected; // 0x19
-        public bool NoDelay; // 0x1A
-        public int RemoteEndPoint; // 0x1C
-        public rt.sInput FamilyHint; // 0x20
-        public rt.ry socketType; // 0x24
-        public rt.yAddressFromString protocolType; // 0x28
-        public rt.t m_Handle; // 0x30
-        public ialized.move_ErrorsChanged seed_endpoint; // 0x38
-        public sageKind.StringComparison ReadSem; // 0x40
-        public sageKind.StringComparison WriteSem; // 0x48
-        public bool is_blocking; // 0x50
-        public bool is_bound; // 0x51
-        public bool is_connected; // 0x52
-        public int m_IntCleanedUp; // 0x54
-        public bool connect_in_progress; // 0x58
-        public int ID; // 0x5C
-        public ileVolumeNameInformation AcceptAsyncCallback; // 0x40
-        public et_InternalLocalCertificate BeginAcceptCallback; // 0x48
-        public et_InternalLocalCertificate BeginAcceptReceiveCallback; // 0x50
-        public ileVolumeNameInformation ConnectAsyncCallback; // 0x58
-        public et_InternalLocalCertificate BeginConnectCallback; // 0x60
-        public ileVolumeNameInformation DisconnectAsyncCallback; // 0x68
-        public et_InternalLocalCertificate BeginDisconnectCallback; // 0x70
-        public ileVolumeNameInformation ReceiveAsyncCallback; // 0x78
-        public et_InternalLocalCertificate BeginReceiveCallback; // 0x80
-        public et_InternalLocalCertificate BeginReceiveGenericCallback; // 0x88
-        public ileVolumeNameInformation ReceiveFromAsyncCallback; // 0x90
-        public et_InternalLocalCertificate BeginReceiveFromCallback; // 0x98
-        public ileVolumeNameInformation SendAsyncCallback; // 0xA0
-        public et_InternalLocalCertificate BeginSendGenericCallback; // 0xA8
-        public ileVolumeNameInformation SendToAsyncCallback; // 0xB0
+        public object OSSupportsIPv4;
+        public object OSSupportsIPv6;
+        public object Handle;
+        public object AddressFamily;
+        public object SocketType;
+        public object ProtocolType;
+        public object ExclusiveAddressUse;
+        public object ReceiveTimeout;
+        public object SendTimeout;
+        public object DontFragment;
+        public object DualMode;
+        public object IsDualMode;
+        public object InternalSyncObject;
+        public object CleanedUp;
+        public object Available;
+        public object IsBound;
+        public object LocalEndPoint;
+        public object Blocking;
+        public object Connected;
+        public object NoDelay;
+        public object RemoteEndPoint;
+        public object FamilyHint;
 
         // ── Methods ──
         public void ConnectAsync(){} // RVA: 0x7FFD54750F60
@@ -193,30 +166,20 @@ namespace ThirdParty.DotNet.System.Net.Sockets
 
     public class SocketAsyncEventArgs : EventArgs
     {
-        public bool AcceptSocket; // 0x10
-        public int BytesTransferred; // 0x14
-        public ialized.move_ErrorsChanged LastOperation; // 0x18
-        public rt.Converter RemoteEndPoint; // 0x20
-        public rt.? SendPacketsSendSize; // 0x28
-        public ÏÏÍÍÎÎ SocketError; // 0x30
-        public rt.Converter SocketFlags; // 0x38
-        public int UserToken; // 0x40
-        public bool CurrentSocket; // 0x44
-        public rt.tings Buffer; // 0x48
-        public rt.? MemoryBuffer; // 0x50
-        public rt._ThrowOnError[] Offset; // 0x60
-        public rt.dersLength Count; // 0x68
-        public int BufferList; // 0x6C
-        public rt.onseLength <SocketError>k__BackingField; // 0x70
-        public rt.rker <SocketFlags>k__BackingField; // 0x74
-        public object <UserToken>k__BackingField; // 0x78
-        public tTable<rt.ponseLength> Completed; // 0x80
-        public d<byte> _buffer; // 0x88
-        public int _offset; // 0x98
-        public int _count; // 0x9C
-        public bool _bufferIsExplicitArray; // 0xA0
-        public URA.?<on<byte>> _bufferList; // 0xA8
-        public URA.woDigitYearMax<on<byte>> _bufferListInternal; // 0xB0
+        public object AcceptSocket;
+        public object BytesTransferred;
+        public object LastOperation;
+        public object RemoteEndPoint;
+        public object SendPacketsSendSize;
+        public object SocketError;
+        public object SocketFlags;
+        public object UserToken;
+        public object CurrentSocket;
+        public object Buffer;
+        public object MemoryBuffer;
+        public object Offset;
+        public object Count;
+        public object BufferList;
 
         // ── Methods ──
         public void get_AcceptSocket(){} // RVA: 0x7FFD4E5F0140

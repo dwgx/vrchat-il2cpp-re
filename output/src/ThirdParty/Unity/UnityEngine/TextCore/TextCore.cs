@@ -7,27 +7,26 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 {
     public class FaceInfo : ValueType
     {
-        public int faceIndex; // 0x10
-        public string familyName; // 0x18
-        public string styleName; // 0x20
-        public int pointSize; // 0x28
-        public float scale; // 0x2C
-        public int lineHeight; // 0x30
-        public float ascentLine; // 0x34
-        public float capLine; // 0x38
-        public float meanLine; // 0x3C
-        public float baseline; // 0x40
-        public float descentLine; // 0x44
-        public float superscriptOffset; // 0x48
-        public float superscriptSize; // 0x4C
-        public float subscriptOffset; // 0x50
-        public float subscriptSize; // 0x54
-        public float underlineOffset; // 0x58
-        public float underlineThickness; // 0x5C
-        public float strikethroughOffset; // 0x60
-        public float strikethroughThickness; // 0x64
-        public float tabWidth; // 0x68
-        public float m_TabWidth; // 0x6C
+        public object faceIndex;
+        public object familyName;
+        public object styleName;
+        public object pointSize;
+        public object scale;
+        public object lineHeight;
+        public object ascentLine;
+        public object capLine;
+        public object meanLine;
+        public object baseline;
+        public object descentLine;
+        public object superscriptOffset;
+        public object superscriptSize;
+        public object subscriptOffset;
+        public object subscriptSize;
+        public object underlineOffset;
+        public object underlineThickness;
+        public object strikethroughOffset;
+        public object strikethroughThickness;
+        public object tabWidth;
 
         // ── Methods ──
         public void get_faceIndex(){} // RVA: 0x7FFD543B3F90
@@ -72,12 +71,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class Glyph : Object
     {
-        public uint index; // 0x10
-        public e._TryInitializePackageAsync|0>d metrics; // 0x14
-        public e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d glyphRect; // 0x28
-        public float scale; // 0x38
-        public int atlasIndex; // 0x3C
-        public e.c>g__InitializePackageAsync|2>d m_ClassDefinitionType; // 0x40
+        public object index;
+        public object metrics;
+        public object glyphRect;
+        public object scale;
+        public object atlasIndex;
 
         // ── Methods ──
         public void get_index(){} // RVA: 0x7FFD54C71CE0
@@ -95,11 +93,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class GlyphMetrics : ValueType
     {
-        public float width; // 0x10
-        public float height; // 0x14
-        public float horizontalBearingX; // 0x18
-        public float horizontalBearingY; // 0x1C
-        public float horizontalAdvance; // 0x20
+        public object width;
+        public object height;
+        public object horizontalBearingX;
+        public object horizontalBearingY;
+        public object horizontalAdvance;
 
         // ── Methods ──
         public void get_width(){} // RVA: 0x7FFD4E364D20
@@ -114,11 +112,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class GlyphRect : ValueType
     {
-        public int x; // 0x10
-        public int y; // 0x14
-        public int width; // 0x18
-        public int height; // 0x1C
-        public e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d zero;
+        public object x;
+        public object y;
+        public object width;
+        public object height;
+        public object zero;
 
         // ── Methods ──
         public void get_x(){} // RVA: 0x7FFD543B3F90

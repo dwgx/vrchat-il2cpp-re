@@ -20,14 +20,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class JSONStore : AbstractStore
     {
-        public ra.__0 unity; // 0x10
-        public ing.elfAndInterCollisionIndices m_Store; // 0x18
-        public ing.p m_Module; // 0x20
-        public Identifiers m_Logger; // 0x28
-        public et_ScanHiddenCameras.canFrequency m_ProductDescriptionsDeserializer; // 0x30
-        public ra.pAnchorPos>b__4 m_LastPurchaseFailureDescription; // 0x38
-        public ing.ighth m_LastPurchaseErrorCode; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DF4780
         public void SetNativeStore(){} // RVA: 0x7FFD4E3A7E80
@@ -45,8 +37,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class JavaBridge : AndroidJavaProxy
     {
-        public ing.PersistAcrossSceneLoads forwardTo; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DE7DB0
     }

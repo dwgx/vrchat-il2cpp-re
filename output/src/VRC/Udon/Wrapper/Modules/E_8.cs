@@ -1615,10 +1615,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalBestInstancesListener : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB76F50
@@ -1639,10 +1636,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalChangeSettings : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB79940
@@ -1668,10 +1662,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalEventPortalsVRCEventPortalManager : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD5528BCF0
@@ -1728,10 +1719,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalPedestalPreviewListener : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB805B0
@@ -1751,10 +1739,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalPlatformChecker : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB89580
@@ -1776,10 +1761,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalToolsVRCInternalUserInterests : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB87F60
@@ -1800,10 +1782,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCBestInstances : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB787A0
@@ -1820,10 +1799,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCChatBubbleVisibility : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB7BB70
@@ -1844,10 +1820,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCComfortMode : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB7D140
@@ -1869,10 +1842,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCExperiments : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB7E840
@@ -1889,10 +1859,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCInternalAvatarPedestal : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB81D00
@@ -1909,10 +1876,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCOpenMenu : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB7FC10
@@ -1926,10 +1890,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCPrideCampaign : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB82E90
@@ -1951,10 +1912,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCUrlConstructor : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB85040
@@ -1969,10 +1927,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCUrlLauncher : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB85DF0
@@ -1989,10 +1944,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCUserFirstJoin : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB86EC0
@@ -2009,10 +1961,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDK3InternalVRCWorldPlatformChecker : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public pertyBlock _componentGetter; // 0x20
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x28
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB8AEA0

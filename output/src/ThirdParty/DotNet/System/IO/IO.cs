@@ -22,10 +22,6 @@ namespace ThirdParty.DotNet.System.IO
 
     public class DisableMediaInsertionPrompt : ValueType
     {
-        public bool _disableSuccess; // 0x10
-        public uint _oldMode; // 0x14
-        public bool useUWPFallback;
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD539D72B0
         public void Dispose(){} // RVA: 0x7FFD539D7330
@@ -33,16 +29,16 @@ namespace ThirdParty.DotNet.System.IO
 
     public class EnumerationOptions : Object
     {
-        public Inherited.? Compatible;
-        public Inherited.? CompatibleRecursive; // 0x8
-        public Inherited.? Default; // 0x10
-        public bool RecurseSubdirectories; // 0x10
-        public bool IgnoreInaccessible; // 0x11
-        public int BufferSize; // 0x14
-        public Inherited.1460699808ED5F8D48C6B09EED448CDAE597EBF52B010901CD6F75A767B047 AttributesToSkip; // 0x18
-        public Inherited.Pointer MatchType; // 0x1C
-        public Inherited.entSourceAttribute MatchCasing; // 0x20
-        public bool ReturnSpecialDirectories; // 0x24
+        public object Compatible;
+        public object CompatibleRecursive;
+        public object Default;
+        public object RecurseSubdirectories;
+        public object IgnoreInaccessible;
+        public object BufferSize;
+        public object AttributesToSkip;
+        public object MatchType;
+        public object MatchCasing;
+        public object ReturnSpecialDirectories;
 
         // ── Methods ──
         public void get_Compatible(){} // RVA: 0x7FFD539F8C30
@@ -87,24 +83,13 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileStream : Stream
     {
-        public int CanRead;
-        public byte[] CanWrite;
-        public object CanSeek; // 0x8
-        public byte[] Name; // 0x28
-        public string Length; // 0x30
-        public 01B30335EAF483F59E5EDCB41DF7C4807E1B.6F96387473C649F557670B8A92E175272491DFC646754F4A9D Position; // 0x38
-        public bool SafeFileHandle; // 0x40
-        public long append_startpos; // 0x48
-        public Inherited.nAppX access; // 0x50
-        public bool owner; // 0x54
-        public bool async; // 0x55
-        public bool canseek; // 0x56
-        public bool anonymous; // 0x57
-        public bool buf_dirty; // 0x58
-        public int buf_size; // 0x5C
-        public int buf_length; // 0x60
-        public int buf_offset; // 0x64
-        public long buf_start; // 0x68
+        public object CanRead;
+        public object CanWrite;
+        public object CanSeek;
+        public object Name;
+        public object Length;
+        public object Position;
+        public object SafeFileHandle;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A127A0 | overloaded x12
@@ -149,11 +134,21 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileSystemInfo : MarshalByRefObject
     {
-        public D48C6B09EED448CDAE597EBF52B010901CD6F75A767B047 Attributes; // 0x18
-        public int ExistsCore; // 0x3C
-        public string CreationTimeCore; // 0x40
-        public string LastAccessTimeCore; // 0x48
-        public string LastWriteTimeCore; // 0x50
+        public object Attributes;
+        public object ExistsCore;
+        public object CreationTimeCore;
+        public object LastAccessTimeCore;
+        public object LastWriteTimeCore;
+        public object LengthCore;
+        public object NormalizedPath;
+        public object FullName;
+        public object Name;
+        public object Exists;
+        public object CreationTimeUtc;
+        public object LastAccessTime;
+        public object LastAccessTimeUtc;
+        public object LastWriteTime;
+        public object LastWriteTimeUtc;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539FC3C0 | overloaded x2
@@ -185,8 +180,13 @@ namespace ThirdParty.DotNet.System.IO
 
     public class MonoIO : Object
     {
-        public UIntPtr ConsoleOutput;
-        public bool ConsoleInput; // 0x8
+        public object ConsoleOutput;
+        public object ConsoleInput;
+        public object ConsoleError;
+        public object VolumeSeparatorChar;
+        public object DirectorySeparatorChar;
+        public object AltDirectorySeparatorChar;
+        public object PathSeparator;
 
         // ── Methods ──
         public void GetException(){} // RVA: 0x7FFD53A17110 | overloaded x2
@@ -224,16 +224,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class Path : Object
     {
-        public char[] StringComparison;
-        public char IsCaseSensitive; // 0x8
-        public char IsWindows; // 0xA
-        public char PathSeparator; // 0xC
-        public string DirectorySeparatorStr; // 0x10
-        public char VolumeSeparatorChar; // 0x18
-        public char[] PathSeparatorChars; // 0x20
-        public bool dirEqualsVolume; // 0x28
-        public char[] trimEndCharsWindows; // 0x30
-        public char[] trimEndCharsUnix; // 0x38
+        public object StringComparison;
+        public object IsCaseSensitive;
+        public object IsWindows;
 
         // ── Methods ──
         public void ChangeExtension(){} // RVA: 0x7FFD53A18D20
@@ -271,7 +264,7 @@ namespace ThirdParty.DotNet.System.IO
 
     public class PathInternal : Object
     {
-        public bool IsCaseSensitive;
+        public object IsCaseSensitive;
 
         // ── Methods ──
         public void IsValidDriveChar(){} // RVA: 0x7FFD539DFDC0
@@ -299,10 +292,14 @@ namespace ThirdParty.DotNet.System.IO
 
     public class Stream : MarshalByRefObject
     {
-        public Inherited.? CanRead;
-        public int CanSeek;
-        public _bucket CanTimeout; // 0x18
-        public sageKind.StringComparison CanWrite; // 0x20
+        public object CanRead;
+        public object CanSeek;
+        public object CanTimeout;
+        public object CanWrite;
+        public object Length;
+        public object Position;
+        public object ReadTimeout;
+        public object WriteTimeout;
 
         // ── Methods ──
         public void EnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x7FFD53A05D10
@@ -465,11 +462,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class TextWriter : MarshalByRefObject
     {
-        public Inherited.endency FormatProvider;
-        public char[] Encoding; // 0x8
-        public char[] NewLine; // 0x18
-        public string CoreNewLineStr; // 0x20
-        public nalGetValue _internalFormatProvider; // 0x28
+        public object FormatProvider;
+        public object Encoding;
+        public object NewLine;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539F0D30 | overloaded x2
@@ -491,15 +486,12 @@ namespace ThirdParty.DotNet.System.IO
 
     public class UnmanagedMemoryStream : Stream
     {
-        public annelDataStore.tionLevelActivator CanRead; // 0x28
-        public IntPtr CanSeek; // 0x30
-        public long CanWrite; // 0x38
-        public long Length; // 0x40
-        public long Position; // 0x48
-        public long PositionPointer; // 0x50
-        public Inherited.nAppX _access; // 0x58
-        public bool _isOpen; // 0x5C
-        public utes.?<int> _lastReadTask; // 0x60
+        public object CanRead;
+        public object CanSeek;
+        public object CanWrite;
+        public object Length;
+        public object Position;
+        public object PositionPointer;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD539F3B20 | overloaded x3

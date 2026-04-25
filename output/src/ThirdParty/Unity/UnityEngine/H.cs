@@ -7,10 +7,6 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class HDROutputSettings : Object
     {
-        public int m_DisplayIndex; // 0x10
-        public <UseKindFlags>k__BackingField[] displays;
-        public <UseKindFlags>k__BackingField _mainDisplay; // 0x8
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4EABFBB0
         public void .cctor(){} // RVA: 0x7FFD54C91DF0
@@ -24,9 +20,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Hash128 : ValueType
     {
-        public ulong u64_0; // 0x10
-        public ulong u64_1; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC7CA00
         public void CompareTo(){} // RVA: 0x7FFD54CC7090 | overloaded x2
@@ -44,10 +37,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HelpURLAttribute : Attribute
     {
-        public string m_Url; // 0x10
-        public bool m_Dispatcher; // 0x18
-        public string m_DispatchingFieldName; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CDABF0
     }
@@ -133,9 +122,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanBone : ValueType
     {
-        public string boneName; // 0x10
-        public string humanName; // 0x18
-        public Array limit; // 0x20
+        public object boneName;
+        public object humanName;
 
         // ── Methods ──
         public void get_boneName(){} // RVA: 0x7FFD505F9A30
@@ -146,11 +134,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanLimit : ValueType
     {
-        public amut useDefaultValues; // 0x10
-        public amut min; // 0x1C
-        public amut max; // 0x28
-        public float center; // 0x34
-        public int axisLength; // 0x38
+        public object useDefaultValues;
+        public object min;
+        public object max;
+        public object center;
+        public object axisLength;
 
         // ── Methods ──
         public void get_useDefaultValues(){} // RVA: 0x7FFD54C34E20
@@ -167,10 +155,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanPose : ValueType
     {
-        public amut bodyPosition; // 0x10
-        public R_12x12 bodyRotation; // 0x1C
-        public float[] muscles; // 0x30
-
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD54C516A0
     }

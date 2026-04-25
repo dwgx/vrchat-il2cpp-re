@@ -13,10 +13,6 @@ public class QuaternionSurrogate : Object
 
 public class QueueSegment : Object
 {
-    public sageKind._internal[] nodes; // 0x10
-    public int indexes; // 0x18
-    public lizationHolder Next; // 0x20
-
     // ── Methods ──
     public void GetIndexes(){} // RVA: 0x7FFD53AF0B70
     public void CompareExchangeIndexes(){} // RVA: 0x7FFD53AF0B90
@@ -36,17 +32,10 @@ public class QueuedJob : ValueType
 
 public class QuickButton : ValueType
 {
-    public BuffersImpl gameObject; // 0x10
-    public ePathName117.ÎÌÍÍÎÏÌ icon; // 0x18
-    public object tooltip; // 0x20
-    public object button; // 0x28
 }
 
 public class QuoteVisitor : ExpressionVisitor
 {
-    public URA.DateTime<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current,int> _definedParameters; // 0x10
-    public URA.onsDepth<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current> _hoistedParameters; // 0x18
-
     // ── Methods ──
     public void VisitParameter(){} // RVA: 0x7FFD541F6AF0
     public void VisitBlock(){} // RVA: 0x7FFD541F6BA0

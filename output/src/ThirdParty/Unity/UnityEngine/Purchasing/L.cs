@@ -7,8 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class LegacyAnalyticsAdapter : Object
     {
-        public ing.ÌÌ m_LegacyAnalytics; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
         public void SendTransactionEvent(){} // RVA: 0x7FFD54DCA720
@@ -17,9 +15,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class LegacyAnalyticsWrapper : Object
     {
-        public bool m_AnalyticsAdapter; // 0x10
-        public ing.? m_LegacyAdapter; // 0x18
-        public ing.? m_EmptyAdapter; // 0x20
+        public object m_AnalyticsAdapter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DCAB00
@@ -39,8 +35,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class LifecycleNotifier : MonoBehaviour
     {
-        public ÎÌÍÏÏÌÍÏ OnDestroyCallback; // 0x20
-
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x7FFD4E6232C0
         public void .ctor(){} // RVA: 0x7FFD4E341D50

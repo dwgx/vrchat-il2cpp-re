@@ -5,8 +5,6 @@
 
 public class Kernel32 : Object
 {
-    public bool useUWPFallback;
-
     // ── Methods ──
     public void CopyFileUWP(){} // RVA: 0x7FFD537A77D0
     public void CopyFile(){} // RVA: 0x7FFD537A79F0
@@ -50,14 +48,10 @@ public class Kernel32 : Object
 
 public class KeyCollection : Object
 {
-    public URA.DateTime<numeratorObject.posed,rs> _dictionary; // 0x10
 }
 
 public class KeyComparer`1 : Object
 {
-    public Pair<System.String,T>>.get_Current<T1717697648> Default;
-    public URA.ndar_data<T1717697648> actualComparer;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
     public void Compare(){} // RVA: 0x7FFD4E2ADC40
@@ -66,7 +60,7 @@ public class KeyComparer`1 : Object
 
 public class KeyEnumerator : ValueType
 {
-    public URA.saAbbrevEnglishEraNames<URA.mes<T1717724480,byte>> Current;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -77,8 +71,8 @@ public class KeyEnumerator : ValueType
 
 public class KeyIterator : ValueType
 {
-    public int System.Collections.IEnumerator.Current;
-    public Ease_Out.ÍÍÏÍÌÍÍÌÌÏÍÏÌÍÍÍÍÍÌÌ<T1717720768,T1717720784> Current;
+    public object System.Collections.IEnumerator.Current;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -92,7 +86,11 @@ public class KeyIterator : ValueType
 
 public class KeyList : Object
 {
-    public URA.yKey<T1717598208,T1717598224> Count;
+    public object Count;
+    public object IsReadOnly;
+    public object System.Collections.ICollection.IsSynchronized;
+    public object System.Collections.ICollection.SyncRoot;
+    public object Item;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -117,8 +115,6 @@ public class KeyList : Object
 
 public class KeyValuePairComparer : Comparer`1
 {
-    public URA.ndar_data<T1717597968> keyComparer;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void Compare(){} // RVA: 0x7FFD4E2ADC40
@@ -126,7 +122,8 @@ public class KeyValuePairComparer : Comparer`1
 
 public class KeyValuePairProperty : Property`2
 {
-    public T1717740272 Name;
+    public object Name;
+    public object Key;
 
     // ── Methods ──
     public void get_Name(){} // RVA: 0x7FFD4E078E90
@@ -136,5 +133,4 @@ public class KeyValuePairProperty : Property`2
 
 public class Keywords : Object
 {
-    public esCore.alendarId ServiceProviderInitialized;
 }

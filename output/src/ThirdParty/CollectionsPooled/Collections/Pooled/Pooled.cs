@@ -13,12 +13,16 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledList`1 : Object
     {
-        public erDecimalDigits.?<T1717742944> Capacity;
+        public object Capacity;
         public object Count;
-        public T1717742944[] System.Collections.IList.IsFixedSize;
-        public int System.Collections.Generic.ICollection<T>.IsReadOnly;
-        public int System.Collections.IList.IsReadOnly;
-        public bool System.Collections.ICollection.Count;
+        public object System.Collections.IList.IsFixedSize;
+        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
+        public object System.Collections.IList.IsReadOnly;
+        public object System.Collections.ICollection.Count;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object Item;
+        public object System.Collections.IList.Item;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x2
@@ -60,18 +64,8 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledSet`1 : Object
     {
-        public erDecimalDigits.?<int> Count;
-        public erDecimalDigits.?<D_NM<T1717742992>> System.Collections.Generic.ICollection<T>.IsReadOnly;
-        public int[] _buckets;
-        public D_NM<T1717742992>[] _slots;
-        public int _size;
-        public int _count;
-        public int _lastIndex;
-        public int _freeList;
-        public URA.hEraNames<T1717742992> _comparer;
-        public int _version;
-        public bool _clearOnFree;
-        public externalClaims.resent _siInfo;
+        public object Count;
+        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x3
@@ -100,12 +94,9 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledStack`1 : Object
     {
-        public erDecimalDigits.?<T1717743024> Count;
+        public object Count;
         public object System.Collections.ICollection.IsSynchronized;
-        public T1717743024[] System.Collections.ICollection.SyncRoot;
-        public int _size;
-        public int _version;
-        public bool _clearOnFree;
+        public object System.Collections.ICollection.SyncRoot;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x2

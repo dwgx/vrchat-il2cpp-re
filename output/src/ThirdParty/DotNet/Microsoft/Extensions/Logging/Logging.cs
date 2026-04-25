@@ -13,8 +13,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class EventId : ValueType
     {
-        public int Id; // 0x10
-        public string Name; // 0x18
+        public object Id;
+        public object Name;
 
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x7FFD5375FDC0
@@ -84,11 +84,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LogValuesFormatter : Object
     {
-        public string OriginalFormat;
-        public char[] ValueNames;
-        public URA.woDigitYearMax<string> _valueNames; // 0x10
-        public string _format; // 0x18
-        public string <OriginalFormat>k__BackingField; // 0x20
+        public object OriginalFormat;
+        public object ValueNames;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537638E0
@@ -108,10 +105,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class Logger : Object
     {
-        public string Loggers; // 0x10
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.phamapResolution[] MessageLoggers; // 0x18
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.?[] ScopeLoggers; // 0x20
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.solution[] <ScopeLoggers>k__BackingField; // 0x28
+        public object Loggers;
+        public object MessageLoggers;
+        public object ScopeLoggers;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
@@ -131,8 +127,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerExternalScopeProvider : Object
     {
-        public sageKind.GCCollectionMode<ult> _currentScope; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537621A0
         public void ForEachScope(){} // RVA: 0x7FFD4E2ADC40
@@ -142,15 +136,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFactory : Object
     {
-        public JapaneseLangName.erns<string,ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ÏÎÏÌÎÍÌÍÏÌÌÎÎÎ> _loggers; // 0x10
-        public URA.woDigitYearMax<m_Density> _providerRegistrations; // 0x18
-        public object _sync; // 0x20
-        public bool _disposed; // 0x28
-        public Names _changeTokenRegistration; // 0x30
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal _filterOptions; // 0x38
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile _scopeProvider; // 0x40
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.itter _factoryOptions; // 0x48
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53767750 | overloaded x6
         public void Create(){} // RVA: 0x7FFD53767E70
@@ -172,7 +157,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFactoryOptions : Object
     {
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.latmapDistance ActivityTrackingOptions; // 0x10
+        public object ActivityTrackingOptions;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -181,9 +166,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFactoryScopeProvider : Object
     {
-        public sageKind.GCCollectionMode<ult> _currentScope; // 0x10
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.latmapDistance _activityTrackingOption; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53769E40
         public void ForEachScope(){} // RVA: 0x7FFD4E2ADC40
@@ -194,9 +176,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFilterOptions : Object
     {
-        public bool CaptureScopes; // 0x10
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject MinLevel; // 0x14
-        public URA.woDigitYearMax<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.SplatDatabasePrefix> Rules; // 0x18
+        public object CaptureScopes;
+        public object MinLevel;
+        public object Rules;
+        public object RulesInternal;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5376BC30
@@ -209,10 +192,10 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggerFilterRule : Object
     {
-        public string ProviderName; // 0x10
-        public string CategoryName; // 0x18
-        public aphy<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject> LogLevel; // 0x20
-        public rmation<string,string,ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject,bool> Filter; // 0x28
+        public object ProviderName;
+        public object CategoryName;
+        public object LogLevel;
+        public object Filter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5376BCF0
@@ -248,8 +231,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class Logger`1 : Object
     {
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.Identifiers _logger;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Microsoft.Extensions.Logging.ILogger.BeginScope(){} // RVA: 0x7FFD4E2ADC40
@@ -261,7 +242,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class LoggingBuilder : Object
     {
-        public ute.? Services; // 0x10
+        public object Services;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -288,7 +269,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class NullExternalScopeProvider : Object
     {
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile Instance;
+        public object Instance;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -306,8 +287,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class ScopeLogger : ValueType
     {
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.Identifiers Logger; // 0x10
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile ExternalScopeProvider; // 0x18
+        public object Logger;
+        public object ExternalScopeProvider;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F5CE4B0

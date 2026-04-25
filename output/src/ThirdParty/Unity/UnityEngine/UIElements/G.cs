@@ -7,10 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class GroupBoxUtility : Object
     {
-        public URA.DateTime<ÎÏÌÎÎÎÌÌÌ.etVisualMode,ÎÏÌÎÎÎÌÌÌ.?> s_GroupManagers;
-        public URA.DateTime<ÎÏÌÎÎÎÌÌÌ.r,ÎÏÌÎÎÎÌÌÌ.?> s_GroupOptionManagerCache; // 0x8
-        public object k_GenericGroupBoxType; // 0x10
-
         // ── Methods ──
         public void RegisterGroupBoxOption(){} // RVA: 0x7FFD4E2ADC40
         public void UnregisterGroupBoxOption(){} // RVA: 0x7FFD4E2ADC40

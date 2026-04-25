@@ -7,8 +7,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 {
     public class ConfigureNamedOptions`1 : Object
     {
-        public string Name; // 0x10
-        public ileFullDirectoryInformation<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal> Action; // 0x18
+        public object Name;
+        public object Action;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E099B30
@@ -19,7 +19,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class ConfigureOptions`1 : Object
     {
-        public ileFullDirectoryInformation<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal> Action; // 0x10
+        public object Action;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -96,16 +96,12 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class Options : Object
     {
-        public string DefaultName;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5376D960
     }
 
     public class OptionsCache`1 : Object
     {
-        public JapaneseLangName.erns<string,dle<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal>> _cache; // 0x10
-
         // ── Methods ──
         public void GetOrAdd(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
         public void TryGetValue(){} // RVA: 0x7FFD4E07D200
@@ -115,10 +111,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class OptionsFactory`1 : Object
     {
-        public ce.tFaceInfo<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.itter>[] _setups; // 0x10
-        public ce.Value_Internal<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.itter>[] _postConfigures; // 0x18
-        public ce.?<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.itter>[] _validations; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60 | overloaded x2
         public void Create(){} // RVA: 0x7FFD4E2ADC40
@@ -127,8 +119,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class OptionsManager`1 : Object
     {
-        public ce.tGlyphWithUnicodeValue_Internal<T1717744304> Value;
-        public ce.de<T1717744304> _cache;
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -144,10 +135,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class OptionsMonitor`1 : Object
     {
-        public ce.etGlyphWithIndexValue<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal> CurrentValue; // 0x10
-        public ce.tGlyphWithUnicodeValue_Internal<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal> _factory; // 0x18
-        public URA.woDigitYearMax<Names> _registrations; // 0x20
-        public rectoryInformation<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.esolutionInternal,string> _onChange; // 0x28
+        public object CurrentValue;
 
         // ── Methods ──
         public void add__onChange(){} // RVA: 0x7FFD4E090A40
@@ -163,9 +151,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 
     public class UnnamedOptionsManager`1 : Object
     {
-        public ce.tGlyphWithUnicodeValue_Internal<ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.itter> Value; // 0x10
-        public object _syncObj; // 0x18
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.itter _value; // 0x20
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40

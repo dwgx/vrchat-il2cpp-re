@@ -37,9 +37,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RuleMatcher : ValueType
     {
-        public ÎÏÌÎÎÎÌÌÌ.inter sheet; // 0x10
-        public ÎÏÌÎÎÎÌÌÌ._InlineTextShadow complexSelector; // 0x18
-
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD55044120
     }

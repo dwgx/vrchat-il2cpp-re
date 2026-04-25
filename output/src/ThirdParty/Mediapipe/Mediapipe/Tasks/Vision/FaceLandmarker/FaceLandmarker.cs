@@ -7,10 +7,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 {
     public class FaceLandmarker : BaseVisionTaskApi
     {
-        public dFieldNumber _packetCallback; // 0x20
-        public etBestGrabbingType.Name _normalizedRect; // 0x28
-        public URA.woDigitYearMax<_HasRightX.ltValue> _faceGeometriesForRead; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537203D0
         public void CreateFromOptions(){} // RVA: 0x7FFD53720560
@@ -22,15 +18,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 
     public class FaceLandmarkerOptions : Object
     {
-        public lIdFieldNumber.rdio baseOptions; // 0x10
-        public e.ÍÍÏÏÎÎÍÍÍÏÎÏÍÎÍÏÌÏÌÏÌÍÌ runningMode; // 0x18
-        public int numFaces; // 0x1C
-        public float minFaceDetectionConfidence; // 0x20
-        public float minFacePresenceConfidence; // 0x24
-        public float minTrackingConfidence; // 0x28
-        public bool outputFaceBlendshapes; // 0x2C
-        public bool outputFaceTransformationMatrixes; // 0x2D
-        public maxDefaultValue resultCallback; // 0x30
+        public object baseOptions;
+        public object runningMode;
+        public object numFaces;
+        public object minFaceDetectionConfidence;
+        public object minFacePresenceConfidence;
+        public object minTrackingConfidence;
+        public object outputFaceBlendshapes;
+        public object outputFaceTransformationMatrixes;
+        public object resultCallback;
 
         // ── Methods ──
         public void get_baseOptions(){} // RVA: 0x7FFD4E35C380
@@ -49,10 +45,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 
     public class FaceLandmarkerResult : ValueType
     {
-        public URA.woDigitYearMax<gBox.ypoints> faceLandmarks; // 0x10
-        public URA.woDigitYearMax<gBox.set_Mask> faceBlendshapes; // 0x18
-        public URA.woDigitYearMax<tSizeBias> facialTransformationMatrixes; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F88FCC0
         public void Alloc(){} // RVA: 0x7FFD53722400

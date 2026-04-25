@@ -33,8 +33,14 @@ public class Action : Object
 
 public class ActionEventPtr : ValueType
 {
-    public ilAddress.icate action; // 0x10
-    public IntPtr phase; // 0x18
+    public object action;
+    public object phase;
+    public object control;
+    public object interaction;
+    public object time;
+    public object startTime;
+    public object duration;
+    public object valueSizeInBytes;
 
     // ── Methods ──
     public void get_action(){} // RVA: 0x7FFD54982A60
@@ -52,7 +58,7 @@ public class ActionEventPtr : ValueType
 
 public class ActionQueryMatcher : UQueryMatcher
 {
-    public ileFullDirectoryInformation<T1717596656> callBack;
+    public object callBack;
 
     // ── Methods ──
     public void get_callBack(){} // RVA: 0x7FFD4E078E90
@@ -62,13 +68,6 @@ public class ActionQueryMatcher : UQueryMatcher
 
 public class ActionSettings : ValueType
 {
-    public object m_Action; // 0x10
-    public object m_Target; // 0x18
-    public int m_BoostAmount; // 0x20
-    public float m_StartTime; // 0x24
-    public amera m_Mode; // 0x28
-    public ield m_Event; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC738D0
     public void Invoke(){} // RVA: 0x7FFD4FC73A40
@@ -76,9 +75,6 @@ public class ActionSettings : ValueType
 
 public class Action`1 : Action
 {
-    public ed<T1717691008> _event;
-    public rScript.?<T1717691008> action;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void Enable(){} // RVA: 0x7FFD4E091060
@@ -86,9 +82,6 @@ public class Action`1 : Action
 
 public class Action`2 : Action
 {
-    public astChanged<T1717691024,T1717691040> _event;
-    public rScript.<GetCachedEnumData>b__2_2<T1717691024,T1717691040> action;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void Enable(){} // RVA: 0x7FFD4E091060
@@ -96,9 +89,6 @@ public class Action`2 : Action
 
 public class Action`3 : Action
 {
-    public ed<T1717691056,T1717691072,T1717691088> _event;
-    public rScript.GetCachedEnumData>b__2_3<T1717691056,T1717691072,T1717691088> action;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void Enable(){} // RVA: 0x7FFD4E091060
@@ -186,13 +176,14 @@ public class AddEventAdapter : MulticastDelegate
 
 public class AdjustmentRule : Object
 {
-    public DependencyInjector DateStart; // 0x10
-    public DependencyInjector DateEnd; // 0x18
-    public ializable.GetObjectData DaylightDelta; // 0x20
-    public k DaylightTransitionStart; // 0x28
-    public k DaylightTransitionEnd; // 0x40
-    public ializable.GetObjectData BaseUtcOffsetDelta; // 0x58
-    public bool NoDaylightTransitions; // 0x60
+    public object DateStart;
+    public object DateEnd;
+    public object DaylightDelta;
+    public object DaylightTransitionStart;
+    public object DaylightTransitionEnd;
+    public object BaseUtcOffsetDelta;
+    public object NoDaylightTransitions;
+    public object HasDaylightSaving;
 
     // ── Methods ──
     public void get_DateStart(){} // RVA: 0x7FFD4E35C380
@@ -220,8 +211,11 @@ public class AlignOfHelper`1 : ValueType
 
 public class AllocatorHandle : ValueType
 {
-    public ushort TableEntry; // 0x10
-    public ushort Value; // 0x12
+    public object TableEntry;
+    public object Value;
+    public object Handle;
+    public object ToAllocator;
+    public object IsAutoDispose;
 
     // ── Methods ──
     public void get_TableEntry(){} // RVA: 0x7FFD5492F030
@@ -246,8 +240,6 @@ public class AllowedAsciiCodePoints : ValueType
 
 public class AlphaButtonClickMask : MonoBehaviour
 {
-    public ePathName117.ÎÌÍÍÎÏÌ _image; // 0x20
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD4E341330
     public void IsRaycastLocationValid(){} // RVA: 0x7FFD4E341780
@@ -260,32 +252,17 @@ public class AnalyticsCoreStatsUpdate : ValueType
 
 public class Anchors : ValueType
 {
-    public object friendIcon; // 0x10
-    public object friendCapsule; // 0x18
-    public object friendStats; // 0x20
 }
 
 public class AnimatedButton : Object
 {
-    public ÎÏÍÎÎÍÎÌÌÎÎÍÎÎÍÎÏ Button; // 0x10
-    public float InAnimationDuration; // 0x18
-    public float OutAnimationDuration; // 0x1C
-    public float ScaleAnimationDuration; // 0x20
-    public 16 OutPosition; // 0x28
-    public 16 InPosition; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class AnimationDataSet`2 : ValueType
 {
-    public ÎÏÌÎÎÎÌÌÌ.omLeftRadius[] capacity;
-    public tor.exSort[] properties;
-    public T1717596432[] timing;
-    public T1717596448[] style;
-    public int count;
-    public URA.DateTime<Left,int> indices;
+    public object capacity;
 
     // ── Methods ──
     public void get_capacity(){} // RVA: 0x7FFD4E079960
@@ -302,8 +279,6 @@ public class AnimationDataSet`2 : ValueType
 
 public class AnonymousProgress`1 : Object
 {
-    public ileFullDirectoryInformation<T1717654352> action;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void Report(){} // RVA: 0x7FFD4E2ADC40
@@ -318,9 +293,9 @@ public class AnyKeyObj : Object
 
 public class ApiBundleDropNotificationDetails : ApiModel
 {
-    public string title; // 0x68
-    public string body; // 0x70
-    public string imageUrl; // 0x78
+    public object title;
+    public object body;
+    public object imageUrl;
 
     // ── Methods ──
     public void get_title(){} // RVA: 0x7FFD4E3BCD50
@@ -341,7 +316,7 @@ public class ApiRequestData : ValueType
 
 public class ApiVRChatProductStore : ApiModel
 {
-    public string planId; // 0x68
+    public object planId;
 
     // ── Methods ──
     public void get_planId(){} // RVA: 0x7FFD4E3BCD50
@@ -351,10 +326,6 @@ public class ApiVRChatProductStore : ApiModel
 
 public class Appearance : Object
 {
-    public object pathColor; // 0x10
-    public object inactivePathColor; // 0x20
-    public float width; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC659F0
 }
@@ -378,54 +349,15 @@ public class Array : ValueType
 
 public class Array16`1 : ValueType
 {
-    public T1717728144 f0;
-    public T1717728144 f1;
-    public T1717728144 f2;
-    public T1717728144 f3;
-    public T1717728144 f4;
-    public T1717728144 f5;
-    public T1717728144 f6;
-    public T1717728144 f7;
-    public T1717728144 f8;
-    public T1717728144 f9;
-    public T1717728144 f10;
-    public T1717728144 f11;
-    public T1717728144 f12;
-    public T1717728144 f13;
-    public T1717728144 f14;
-    public T1717728144 f15;
 }
 
 public class Array256`1 : ValueType
 {
-    public To<T1717728160> f0;
-    public To<T1717728160> f1;
-    public To<T1717728160> f2;
-    public To<T1717728160> f3;
-    public To<T1717728160> f4;
-    public To<T1717728160> f5;
-    public To<T1717728160> f6;
-    public To<T1717728160> f7;
-    public To<T1717728160> f8;
-    public To<T1717728160> f9;
-    public To<T1717728160> f10;
-    public To<T1717728160> f11;
-    public To<T1717728160> f12;
-    public To<T1717728160> f13;
-    public To<T1717728160> f14;
-    public To<T1717728160> f15;
 }
 
 public class Array32768`1 : ValueType
 {
-    public aderValue<T1717728192> Length;
-    public aderValue<T1717728192> f1;
-    public aderValue<T1717728192> f2;
-    public aderValue<T1717728192> f3;
-    public aderValue<T1717728192> f4;
-    public aderValue<T1717728192> f5;
-    public aderValue<T1717728192> f6;
-    public aderValue<T1717728192> f7;
+    public object Length;
 
     // ── Methods ──
     public void get_Length(){} // RVA: 0x7FFD4E079960
@@ -434,29 +366,11 @@ public class Array32768`1 : ValueType
 
 public class Array4096`1 : ValueType
 {
-    public EntityTagHeaderValue<T1717728176> f0;
-    public EntityTagHeaderValue<T1717728176> f1;
-    public EntityTagHeaderValue<T1717728176> f2;
-    public EntityTagHeaderValue<T1717728176> f3;
-    public EntityTagHeaderValue<T1717728176> f4;
-    public EntityTagHeaderValue<T1717728176> f5;
-    public EntityTagHeaderValue<T1717728176> f6;
-    public EntityTagHeaderValue<T1717728176> f7;
-    public EntityTagHeaderValue<T1717728176> f8;
-    public EntityTagHeaderValue<T1717728176> f9;
-    public EntityTagHeaderValue<T1717728176> f10;
-    public EntityTagHeaderValue<T1717728176> f11;
-    public EntityTagHeaderValue<T1717728176> f12;
-    public EntityTagHeaderValue<T1717728176> f13;
-    public EntityTagHeaderValue<T1717728176> f14;
-    public EntityTagHeaderValue<T1717728176> f15;
 }
 
 public class ArrayEnumerator : Object
 {
-    public ÌÎÍÏÍÎ Current; // 0x10
-    public int _index; // 0x18
-    public int _endIndex; // 0x1C
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A864A0
@@ -469,8 +383,7 @@ public class ArrayEnumerator : Object
 public class ArrayPoolImpl`1 : Object
 {
     public object ObjectType;
-    public URA.DateTime<int,Of<T1717581200>> CountInactive;
-    public ultNameByTypeAndIndex<T1717581200> Instance;
+    public object CountInactive;
 
     // ── Methods ──
     public void get_ObjectType(){} // RVA: 0x7FFD4E078E90
@@ -500,9 +413,7 @@ public class AsciiPreescapedData : ValueType
 
 public class AspectStretcher : ValueType
 {
-    public float Aspect; // 0x10
-    public float m_InverseAspect; // 0x14
-    public float m_CenterX; // 0x18
+    public object Aspect;
 
     // ── Methods ──
     public void get_Aspect(){} // RVA: 0x7FFD4FC6C150
@@ -513,8 +424,7 @@ public class AspectStretcher : ValueType
 
 public class AssetBundleRequestAwaiter : ValueType
 {
-    public getType IsCompleted; // 0x10
-    public ileFullDirectoryInformation<ntaxFlags> continuationAction; // 0x18
+    public object IsCompleted;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFD0830
@@ -526,18 +436,9 @@ public class AssetBundleRequestAwaiter : ValueType
 
 public class AssetPreloader : Object
 {
-    public re _name; // 0x10
-    public URA.woDigitYearMax<string> _hideFlags; // 0x18
-    public URA.DateTime<string,ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ThumbnailImageUrl>k__BackingField> f_4F2; // 0x20
-    public bool <ÏÏÎÎÎÎÍÎÎÌÏÎÌÍÍÌÏÏÌÍÍÎÏ>k__BackingField; // 0x28
-    public ?<mePatterns.eseCalendarDTFI> <ÏÌÎÌÍÎÍÏÎÌÏÍÍÎÏÍÍÍÌÍÍÌÌ>k__BackingField; // 0x30
-    public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ThumbnailImageUrl>k__BackingField> ÍÏÎÎÎÍÌÎÎÌÏÎÍÌÏÌÎÎÎÍÎÎÍ; // 0x38
-    public string ÍÍÏÎÍÎÌÍÌÏÌÏÏÎÎÍÍÌÌÌÌÍÌ;
-    public ?<URA.saAbbrevMonthNames<ÏÎÎÏÎÍÏÏÎÌÏÍÍÎÌÏÍÏÏÌÌ>> <ÌÍÍÍÌÍÏÍÎÌÏÍÏÎÌÏÏÎÎÍÌÍÌ>k__BackingField; // 0x40
-    public URA.woDigitYearMax<ÏÎÎÏÎÍÏÏÎÌÏÍÍÎÌÏÍÏÏÌÌ> ÎÍÍÏÎÎÏÌÌÌÎÏÍÍÎÏÎÌÎÏÌÏÎ; // 0x48
-    public URA.onsDepth<string> ÍÌÏÏÌÏÌÎÏÍÎÌÎÍÌÌÌÏÌÎÎÍÎ; // 0x50
-    public URA.DateTime<string,sageKind._internal> ÏÍÏÏÎÌÎÍÌÍÌÌÌÍÎÍÏÍÏÎÏÎÏ; // 0x58
-    public int ÎÏÍÌÌÏÍÏÎÍÌÏÍÏÌÎÏÎÏÌÍÍÎ;
+    public object _name;
+    public object _hideFlags;
+    public object f_4F2;
 
     // ── Methods ──
     public void Finalize(){} // RVA: 0x7FFD4F043300
@@ -579,16 +480,7 @@ public class AssetPreloader : Object
 
 public class AsyncInstantiateOperationConfiguredSource`1 : Object
 {
-    public eObjectDelegate.ion<d<T1717670784>> NextNode;
-    public d<T1717670784> nextNode;
-    public ncePoint_Injected<T1717670784> asyncOperation;
-    public e<float> progress;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public sageKind.sition cancellationTokenRegistration;
-    public bool cancelImmediately;
-    public bool completed;
-    public eObjectDelegate.ataProperty>k__BackingField<T1717670784[]> core;
-    public ileFullDirectoryInformation<ntaxFlags> continuationAction;
+    public object NextNode;
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD4E078E90
@@ -607,8 +499,7 @@ public class AsyncInstantiateOperationConfiguredSource`1 : Object
 
 public class AsyncOperationAwaiter : ValueType
 {
-    public ntaxFlags IsCompleted; // 0x10
-    public ileFullDirectoryInformation<ntaxFlags> continuationAction; // 0x18
+    public object IsCompleted;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFD0830
@@ -620,15 +511,9 @@ public class AsyncOperationAwaiter : ValueType
 
 public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public ileFullDirectoryInformation<object> Current;
-    public alueConverter`3.567CC<T1717671184> Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
-    public sageKind.TICMAP_SIZE Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
-    public sageKind.sition registration;
-    public bool called;
-    public bool isDisposed;
-    public T1717671184 <Current>k__BackingField;
-    public eObjectDelegate.eationHandlingForProperty<T1717671184> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev>k__BackingField;
-    public eObjectDelegate.eationHandlingForProperty<T1717671184> <Cysharp.Threading.Tasks.ITriggerHandler<T>.Next>k__BackingField;
+    public object Current;
+    public object Cysharp.Threading.Tasks.ITriggerHandler<T>.Prev;
+    public object Cysharp.Threading.Tasks.ITriggerHandler<T>.Next;
 
     // ── Methods ──
     public void .ctor(){}
@@ -650,8 +535,6 @@ public class AsyncTriggerEnumerator : MoveNextSource
 
 public class AsyncUnitSource : Object
 {
-    public eObjectDelegate.nverter source; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
     public void GetResult(){} // RVA: 0x7FFD548AB5F0
@@ -667,9 +550,6 @@ public class AsyncUploadTimeSlicedUpdate : ValueType
 
 public class AsyncWriter : Object
 {
-    public passOperationBack<T1717629280> enumerator;
-    public eObjectDelegate.ataProperty>k__BackingField<eObjectDelegate.b__1> core;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -683,11 +563,6 @@ public class AsyncWriter : Object
 
 public class AttachExternalCancellationSource`1 : Object
 {
-    public ileFullDirectoryInformation<object> cancellationCallbackDelegate;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public sageKind.sition tokenRegistration;
-    public eObjectDelegate.ataProperty>k__BackingField<T1717670160> core;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     public void RunTask(){} // RVA: 0x7FFD4E2ADC40
@@ -702,8 +577,8 @@ public class AttachExternalCancellationSource`1 : Object
 
 public class AttributeInfo : Object
 {
-    public n Usage; // 0x10
-    public int InheritanceLevel; // 0x18
+    public object Usage;
+    public object InheritanceLevel;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FCAC310
@@ -724,19 +599,12 @@ public class AudioFixedUpdate : ValueType
 
 public class AutoDolly : ValueType
 {
-    public bool m_Enabled; // 0x10
-    public float m_PositionOffset; // 0x14
-    public int m_SearchRadius; // 0x18
-    public int m_SearchResolution; // 0x1C
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC53600
 }
 
 public class AutoScope : ValueType
 {
-    public UIntPtr m_Ptr; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54C6F2D0
     public void Dispose(){} // RVA: 0x7FFD4E510DB0
@@ -744,24 +612,13 @@ public class AutoScope : ValueType
 
 public class AvailableDevice : ValueType
 {
-    public criptorSizeDeviceCommandType.t_activeTouches description; // 0x10
-    public int deviceId; // 0x48
-    public bool isNative; // 0x4C
-    public bool isRemoved; // 0x4D
 }
 
 public class AvatarCullingMonitor : Object
 {
-    public float AvatarScreenSizeAboveTriggerThreshold; // 0x10
-    public float AvatarKindValidForExecution; // 0x14
-    public ?[] AvatarCullableShouldRun; // 0x18
-    public object _owningPlayer; // 0x20
-    public bool _hasOwningPlayer; // 0x28
-    public bool _isBoundToAvatarKind; // 0x29
-    public aphy<bool> _hasValidAvatarKind; // 0x2A
-    public bool _isBoundToAvatarScreenSize; // 0x2C
-    public bool _aboveTriggerThreshold; // 0x2D
-    public ÎÌÍÏÏÌÍÏ _cullingChangedCallback; // 0x30
+    public object AvatarScreenSizeAboveTriggerThreshold;
+    public object AvatarKindValidForExecution;
+    public object AvatarCullableShouldRun;
 
     // ── Methods ──
     public void get_AvatarCullableShouldRun(){} // RVA: 0x7FFD4EF76C40
@@ -785,12 +642,6 @@ public class AvatarCullingMonitor : Object
 
 public class AvatarOscConfig : Object
 {
-    public string id; // 0x10
-    public string name; // 0x18
-    public int hash; // 0x20
-    public URA.woDigitYearMax<ÍÎÌÌÌÏÌÏÍÏ> parameters; // 0x28
-    public URA.onsDepth<?> _supportedTypes; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFDF1A0 | overloaded x2
     public void GetByName(){} // RVA: 0x7FFD4EFDF080
@@ -822,7 +673,7 @@ public class Avx2 : Object
 
 public class Awaiter : ValueType
 {
-    public eObjectDelegate.kingField<8BCA7B5CC287C51E0E3E<URA.woDigitYearMax<?>,URA.woDigitYearMax<?>>> IsCompleted; // 0x10
+    public object IsCompleted;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -844,8 +695,6 @@ public class AwakeDelegate : MulticastDelegate
 
 public class AwakeMonitor : Object
 {
-    public alueConverter`3.567CC<T1717671200> trigger;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void MoveNext(){} // RVA: 0x7FFD4E079D00

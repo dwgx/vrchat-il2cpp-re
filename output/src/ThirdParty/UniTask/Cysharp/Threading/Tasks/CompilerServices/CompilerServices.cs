@@ -7,8 +7,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 {
     public class AsyncUniTaskMethodBuilder : ValueType
     {
-        public er<T>.OnTextSelectionAsync.SubmitEventHandler<T>.OnSubmitAsync Task; // 0x10
-        public ÏÏÍÍÎÎ ex; // 0x18
+        public object Task;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4F3D3780
@@ -23,9 +22,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
-        public er<T>.OnTextSelectionAsync.mitAsync<URA.woDigitYearMax<ÌÌÌÏÎÌÌÏÎÍÌÌÍÏÌÍÎÎÌÏÍ>> Task; // 0x10
-        public ÏÏÍÍÎÎ ex; // 0x18
-        public URA.woDigitYearMax<ÌÌÌÏÎÌÌÏÎÍÌÌÍÏÌÍÎÎÌÏÍ> result; // 0x20
+        public object Task;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E2ADC40
@@ -40,7 +37,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoidMethodBuilder : ValueType
     {
-        public er<T>.OnTextSelectionAsync.ectEventHandler<T>.OnSelectAsync Task; // 0x10
+        public object Task;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E919180
@@ -55,11 +52,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoid`1 : Object
     {
-        public eObjectDelegate.ion<er<T>.OnTextSelectionAsync.EventHandlerAsyncEnumerable<T1717672288>> ReturnAction;
-        public ÎÌÍÏÏÌÍÏ MoveNext;
-        public T1717672288 NextNode;
-        public ÎÌÍÏÏÌÍÏ <MoveNext>k__BackingField;
-        public er<T>.OnTextSelectionAsync.EventHandlerAsyncEnumerable<T1717672288> nextNode;
+        public object ReturnAction;
+        public object MoveNext;
+        public object NextNode;
 
         // ── Methods ──
         public void get_ReturnAction(){} // RVA: 0x7FFD4E078E90
@@ -78,12 +73,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTask`1 : Object
     {
-        public eObjectDelegate.ion<er<T>.OnTextSelectionAsync.egistration1<?>> MoveNext;
-        public ÎÌÍÏÏÌÍÏ NextNode; // 0x10
-        public ÎÌÍÏÏÌÍÏ Task; // 0x18
-        public object stateMachine; // 0x20
-        public eObjectDelegate.ataProperty>k__BackingField<eObjectDelegate.b__1> core; // 0x80
-        public er<T>.OnTextSelectionAsync.egistration1<?> nextNode; // 0xA8
+        public object MoveNext;
+        public object NextNode;
+        public object Task;
 
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x7FFD4E3447C0
@@ -105,12 +97,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTask`2 : Object
     {
-        public eObjectDelegate.ion<er<T>.OnTextSelectionAsync.merable`1<T1717672368,T1717672384>> MoveNext;
-        public ÎÌÍÏÏÌÍÏ NextNode;
-        public ÎÌÍÏÏÌÍÏ Task;
-        public T1717672368 stateMachine;
-        public eObjectDelegate.ataProperty>k__BackingField<T1717672384> core;
-        public er<T>.OnTextSelectionAsync.merable`1<T1717672368,T1717672384> nextNode;
+        public object MoveNext;
+        public object NextNode;
+        public object Task;
 
         // ── Methods ──
         public void get_MoveNext(){} // RVA: 0x7FFD4E3447C0

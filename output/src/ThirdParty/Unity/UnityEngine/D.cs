@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Debug : Object
     {
-        public Identifiers unityLogger;
-        public Identifiers isDebugBuild; // 0x8
+        public object unityLogger;
+        public object isDebugBuild;
 
         // ── Methods ──
         public void get_unityLogger(){} // RVA: 0x7FFD54C7F6D0
@@ -47,7 +47,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class DefaultExecutionOrder : Attribute
     {
-        public int order; // 0x10
+        public object order;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
@@ -57,26 +57,6 @@ namespace ThirdParty.Unity.UnityEngine
     public class DetailPrototype : Object
     {
         public object prototype;
-        public object DefaultDryColor; // 0x10
-        public BuffersImpl m_Prototype; // 0x10
-        public ector m_PrototypeTexture; // 0x18
-        public object m_HealthyColor; // 0x20
-        public object m_DryColor; // 0x30
-        public float m_MinWidth; // 0x40
-        public float m_MaxWidth; // 0x44
-        public float m_MinHeight; // 0x48
-        public float m_MaxHeight; // 0x4C
-        public int m_NoiseSeed; // 0x50
-        public float m_NoiseSpread; // 0x54
-        public float m_Density; // 0x58
-        public float m_HoleEdgePadding; // 0x5C
-        public int m_RenderMode; // 0x60
-        public int m_UsePrototypeMesh; // 0x64
-        public int m_UseInstancing; // 0x68
-        public int m_UseDensityScaling; // 0x6C
-        public float m_AlignToGround; // 0x70
-        public float m_PositionJitter; // 0x74
-        public float m_TargetCoverage; // 0x78
 
         // ── Methods ──
         public void get_prototype(){} // RVA: 0x7FFD510E4750
@@ -94,11 +74,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Display : Object
     {
-        public UIntPtr renderingWidth; // 0x10
-        public 4[] renderingHeight;
-        public 4 systemWidth; // 0x8
-        public int systemHeight; // 0x10
-        public mBinaryReader colorBuffer; // 0x18
+        public object renderingWidth;
+        public object renderingHeight;
+        public object systemWidth;
+        public object systemHeight;
+        public object colorBuffer;
+        public object main;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F83EFB0 | overloaded x2

@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.AI
 {
     public class NavMesh : Object
     {
-        public BundleTagAtIndex avoidancePredictionTime;
+        public object avoidancePredictionTime;
 
         // ── Methods ──
         public void Internal_CallOnNavMeshPreUpdate(){} // RVA: 0x7FFD54C32AB0
@@ -206,13 +206,12 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshBuildSource : ValueType
     {
-        public tSizeBias transform; // 0x10
-        public amut size; // 0x50
-        public delay.AddMonitorCallback shape; // 0x5C
-        public int area; // 0x60
-        public int sourceObject; // 0x64
-        public int component; // 0x68
-        public int m_GenerateLinks; // 0x6C
+        public object transform;
+        public object size;
+        public object shape;
+        public object area;
+        public object sourceObject;
+        public object component;
 
         // ── Methods ──
         public void get_transform(){} // RVA: 0x7FFD54C34AF0
@@ -295,9 +294,6 @@ namespace ThirdParty.Unity.UnityEngine.AI
 
     public class NavMeshTriangulation : ValueType
     {
-        public amut[] vertices; // 0x10
-        public int[] indices; // 0x18
-        public int[] areas; // 0x20
     }
 
     public class OffMeshLink : Behaviour

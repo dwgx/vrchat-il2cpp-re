@@ -7,11 +7,12 @@ namespace ThirdParty.DotNet.System.Dynamic
 {
     public class DynamicMetaObject : Object
     {
-        public tBeBoolean.rrectNumberOfArgumentsForMembers[] Expression;
-        public object Restrictions; // 0x8
-        public object Value; // 0x10
-        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.Update HasValue; // 0x18
-        public tBeBoolean.rPropertyInfo RuntimeType; // 0x20
+        public object Expression;
+        public object Restrictions;
+        public object Value;
+        public object HasValue;
+        public object RuntimeType;
+        public object LimitType;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD542180F0 | overloaded x2
@@ -75,8 +76,10 @@ namespace ThirdParty.DotNet.System.Dynamic
 
     public class GetMemberBinder : DynamicMetaObjectBinder
     {
-        public string ReturnType; // 0x18
-        public bool Name; // 0x20
+        public object ReturnType;
+        public object Name;
+        public object IgnoreCase;
+        public object IsStandardBinder;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54224CD0

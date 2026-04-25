@@ -195,21 +195,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Image : VisualElement
     {
-        public rder image; // 0x3C8
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField sprite; // 0x3D0
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField vectorImage; // 0x3D8
-        public ÎÏÌÎÎÎÌÌÌ.alue sourceRect; // 0x3E0
-        public dRecorder uv; // 0x3E8
-        public object scaleMode; // 0x3F8
-        public bool tintColor; // 0x408
-        public bool m_ScaleModeIsInline; // 0x409
-        public bool m_TintColorIsInline; // 0x40A
-        public string ussClassName;
-        public ÎÏÌÎÎÎÌÌÌ.ement<ector> s_ImageProperty; // 0x8
-        public ÎÏÌÎÎÎÌÌÌ.ement<ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField> s_SpriteProperty; // 0x10
-        public ÎÏÌÎÎÎÌÌÌ.ement<ÎÏÌÎÎÎÌÌÌ.alue> s_VectorImageProperty; // 0x18
-        public ÎÏÌÎÎÎÌÌÌ.ement<string> s_ScaleModeProperty; // 0x20
-        public ÎÏÌÎÎÎÌÌÌ.ement<?> s_TintColorProperty; // 0x28
+        public object image;
+        public object sprite;
+        public object vectorImage;
+        public object sourceRect;
+        public object uv;
+        public object scaleMode;
+        public object tintColor;
 
         // ── Methods ──
         public void get_image(){} // RVA: 0x7FFD4EDE1CA0
@@ -249,24 +241,58 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class InlineStyleAccess : StyleValueCollection
     {
-        public tor.lElementAnimationSystem UnityEngine.UIElements.IStyle.backgroundColor;
-        public URA.woDigitYearMax<tor.ateList> UnityEngine.UIElements.IStyle.borderBottomColor; // 0x18
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius UnityEngine.UIElements.IStyle.borderBottomLeftRadius; // 0x20
-        public bool UnityEngine.UIElements.IStyle.borderBottomRightRadius; // 0x28
-        public ÎÏÌÎÎÎÌÌÌ.ttomRightRadius UnityEngine.UIElements.IStyle.borderBottomWidth; // 0x30
-        public bool UnityEngine.UIElements.IStyle.borderLeftColor; // 0x50
-        public ÎÏÌÎÎÎÌÌÌ.lements.IStyle.set_borderRightColor UnityEngine.UIElements.IStyle.borderLeftWidth; // 0x54
-        public bool UnityEngine.UIElements.IStyle.borderRightColor; // 0x74
-        public ÎÏÌÎÎÎÌÌÌ.et_borderRightColor UnityEngine.UIElements.IStyle.borderRightWidth; // 0x78
-        public bool UnityEngine.UIElements.IStyle.borderTopColor; // 0x90
-        public ÎÏÌÎÎÎÌÌÌ.UnityEngine.UIElements.IStyle.set_borderRightColor UnityEngine.UIElements.IStyle.borderTopLeftRadius; // 0x94
-        public bool UnityEngine.UIElements.IStyle.borderTopRightRadius; // 0xB0
-        public ÎÏÌÎÎÎÌÌÌ.le.set_borderLeftWidth UnityEngine.UIElements.IStyle.borderTopWidth; // 0xB4
-        public bool UnityEngine.UIElements.IStyle.bottom; // 0xD0
-        public ÎÏÌÎÎÎÌÌÌ.rLeftWidth UnityEngine.UIElements.IStyle.color; // 0xD4
-        public bool UnityEngine.UIElements.IStyle.display; // 0xE8
-        public ÎÏÌÎÎÎÌÌÌ.LeftRadius UnityEngine.UIElements.IStyle.flexBasis; // 0xEC
-        public eDataInterface UnityEngine.UIElements.IStyle.flexDirection; // 0x108
+        public object UnityEngine.UIElements.IStyle.backgroundColor;
+        public object UnityEngine.UIElements.IStyle.borderBottomColor;
+        public object UnityEngine.UIElements.IStyle.borderBottomLeftRadius;
+        public object UnityEngine.UIElements.IStyle.borderBottomRightRadius;
+        public object UnityEngine.UIElements.IStyle.borderBottomWidth;
+        public object UnityEngine.UIElements.IStyle.borderLeftColor;
+        public object UnityEngine.UIElements.IStyle.borderLeftWidth;
+        public object UnityEngine.UIElements.IStyle.borderRightColor;
+        public object UnityEngine.UIElements.IStyle.borderRightWidth;
+        public object UnityEngine.UIElements.IStyle.borderTopColor;
+        public object UnityEngine.UIElements.IStyle.borderTopLeftRadius;
+        public object UnityEngine.UIElements.IStyle.borderTopRightRadius;
+        public object UnityEngine.UIElements.IStyle.borderTopWidth;
+        public object UnityEngine.UIElements.IStyle.bottom;
+        public object UnityEngine.UIElements.IStyle.color;
+        public object UnityEngine.UIElements.IStyle.display;
+        public object UnityEngine.UIElements.IStyle.flexBasis;
+        public object UnityEngine.UIElements.IStyle.flexDirection;
+        public object UnityEngine.UIElements.IStyle.flexGrow;
+        public object UnityEngine.UIElements.IStyle.flexShrink;
+        public object UnityEngine.UIElements.IStyle.fontSize;
+        public object UnityEngine.UIElements.IStyle.height;
+        public object UnityEngine.UIElements.IStyle.left;
+        public object UnityEngine.UIElements.IStyle.marginBottom;
+        public object UnityEngine.UIElements.IStyle.marginLeft;
+        public object UnityEngine.UIElements.IStyle.marginRight;
+        public object UnityEngine.UIElements.IStyle.marginTop;
+        public object UnityEngine.UIElements.IStyle.maxHeight;
+        public object UnityEngine.UIElements.IStyle.maxWidth;
+        public object UnityEngine.UIElements.IStyle.minWidth;
+        public object UnityEngine.UIElements.IStyle.opacity;
+        public object UnityEngine.UIElements.IStyle.overflow;
+        public object UnityEngine.UIElements.IStyle.paddingBottom;
+        public object UnityEngine.UIElements.IStyle.paddingLeft;
+        public object UnityEngine.UIElements.IStyle.paddingRight;
+        public object UnityEngine.UIElements.IStyle.paddingTop;
+        public object UnityEngine.UIElements.IStyle.position;
+        public object UnityEngine.UIElements.IStyle.right;
+        public object UnityEngine.UIElements.IStyle.top;
+        public object UnityEngine.UIElements.IStyle.unityBackgroundImageTintColor;
+        public object UnityEngine.UIElements.IStyle.unityFont;
+        public object UnityEngine.UIElements.IStyle.unityFontDefinition;
+        public object UnityEngine.UIElements.IStyle.visibility;
+        public object UnityEngine.UIElements.IStyle.width;
+        public object ve;
+        public object UnityEngine.UIElements.IStyle.cursor;
+        public object UnityEngine.UIElements.IStyle.textShadow;
+        public object UnityEngine.UIElements.IStyle.backgroundSize;
+        public object UnityEngine.UIElements.IStyle.transformOrigin;
+        public object UnityEngine.UIElements.IStyle.translate;
+        public object UnityEngine.UIElements.IStyle.rotate;
+        public object UnityEngine.UIElements.IStyle.scale;
 
         // ── Methods ──
         public void UnityEngine.UIElements.IStyle.set_backgroundColor(){} // RVA: 0x7FFD54FF9010

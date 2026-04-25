@@ -13,7 +13,12 @@ namespace ThirdParty.Other.Unity.Profiling
 
     public class ProfilerCategory : ValueType
     {
-        public ushort Name; // 0x10
+        public object Name;
+        public object Render;
+        public object Scripts;
+        public object Vr;
+        public object Memory;
+        public object Internal;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FEE85F0
@@ -29,8 +34,6 @@ namespace ThirdParty.Other.Unity.Profiling
 
     public class ProfilerMarker : ValueType
     {
-        public UIntPtr m_Ptr; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C6F2A0 | overloaded x2
         public void Auto(){} // RVA: 0x7FFD4E510D50
@@ -38,8 +41,9 @@ namespace ThirdParty.Other.Unity.Profiling
 
     public class ProfilerRecorder : ValueType
     {
-        public ulong Valid; // 0x10
-        public ÍÍÌÏÍÎÍÏÍÏÌÏÍÌÍÌÎ LastValueAsDouble;
+        public object Valid;
+        public object LastValueAsDouble;
+        public object Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54C6F330

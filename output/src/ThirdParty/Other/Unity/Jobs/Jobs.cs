@@ -7,8 +7,6 @@ namespace ThirdParty.Other.Unity.Jobs
 {
     public class EarlyInitHelpers : Object
     {
-        public URA.woDigitYearMax<Value> s_PendingDelegates;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5492E3A0
         public void FlushEarlyInits(){} // RVA: 0x7FFD5492E3B0
@@ -45,8 +43,7 @@ namespace ThirdParty.Other.Unity.Jobs
 
     public class JobHandle : ValueType
     {
-        public ulong IsCompleted; // 0x10
-        public int version; // 0x18
+        public object IsCompleted;
 
         // ── Methods ──
         public void Complete(){} // RVA: 0x7FFD54C6E5D0

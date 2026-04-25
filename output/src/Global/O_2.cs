@@ -64,29 +64,6 @@ public class ObjectValueCollection : Object
 
 public class OculusSpatializerUnity : MonoBehaviour
 {
-    public object layerMask; // 0x20
-    public bool visualizeRoom; // 0x24
-    public bool ÏÍÎÎÏÎÍÎÍÏÌÌÌÏÌÏÎÍÏÌÍÏÎ; // 0x25
-    public int raysPerSecond; // 0x28
-    public float roomInterpSpeed; // 0x2C
-    public float maxWallDistance; // 0x30
-    public int rayCacheSize; // 0x34
-    public bool dynamicReflectionsEnabled; // 0x38
-    public float ÌÏÏÍÌÎÏÍÏÍÏÎÌÎÎÎÏÍÏÌÌÏÌ; // 0x3C
-    public float ÎÌÌÍÏÎÍÌÎÌÌÍÌÍÍÎÌÌÌÌÍÍÎ; // 0x40
-    public BuffersImpl ÌÏÎÍÌÍÍÎÍÎÎÎÏÍÎÏÌÎÍÎÌÍÎ; // 0x48
-    public rical[] ÏÍÍÌÍÎÎÏÌÏÏÏÌÌÍÌÎÏÌÏÌÌÏ; // 0x50
-    public float[] ÍÏÎÎÎÌÎÍÌÍÍÍÍÏÎÍÎÍÌÍÏÏÎ; // 0x58
-    public float[] ÍÏÍÍÎÌÌÍÎÌÍÍÍÍÍÏÌÌÏÏÌÍÏ; // 0x60
-    public int ÌÎÎÎÌÍÍÎÌÏÎÌÍÏÍÍÌÌÍÏÎÍÌ;
-    public amut[] ÏÍÎÍÎÏÏÌÍÍÏÎÌÍÍÌÎÌÍÌÌÌÏ; // 0x68
-    public amut[] ÌÌÌÍÎÍÏÎÏÍÎÎÍÎÏÏÍÌÎÍÌÍÏ; // 0x70
-    public InDuration ÏÎÏÏÍÎÍÌÍÌÍÍÏÏÎÌÍÏÏÎÌÎÌ; // 0x78
-    public ?[] ÎÏÌÏÏÍÍÌÌÏÍÍÍÎÎÎÎÌÏÎÏÏÍ; // 0x80
-    public e ÌÌÎÏÏÍÎÏÎÍÌÍÏÍÌÌÌÍÌÍÌÍÍ;
-    public object ÌÎÌÍÌÎÍÏÍÏÏÏÌÎÍÎÏÎÍÏÍÎÍ; // 0x8
-    public string ÌÍÏÎÎÌÍÎÍÏÎÍÎÏÍÎÍÎÎÎÏÍÍ;
-
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4EEA4B30
     public void RaiseCancellation(){} // RVA: 0x7FFD4EEA4B70
@@ -119,10 +96,6 @@ public class Offset : ValueType
 
 public class OffsetAndRule : Object
 {
-    public int Year; // 0x10
-    public ializable.GetObjectData Offset; // 0x18
-    public ositionInfo Rule; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53923240
 }
@@ -207,11 +180,6 @@ public class OnPhotoModeStoppedCallback : MulticastDelegate
 
 public class OnScreenDeviceInfo : ValueType
 {
-    public Device.ckingField eventPtr; // 0x10
-    public ÍÎÏÎÎ.ÌÌ<byte> buffer; // 0x18
-    public ilAddress.ActionProperty device; // 0x28
-    public _deviceLostEvent.ChangedEvent firstControl; // 0x30
-
     // ── Methods ──
     public void AddControl(){} // RVA: 0x7FFD54A7A350
     public void RemoveControl(){} // RVA: 0x7FFD54A7A450
@@ -264,11 +232,6 @@ public class OnVideoModeStoppedCallback : MulticastDelegate
 
 public class OnlyValueChangedProgress`1 : Object
 {
-    public ileFullDirectoryInformation<T1717654368> action;
-    public URA.hEraNames<T1717654368> comparer;
-    public bool isFirstCall;
-    public T1717654368 latestValue;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void Report(){} // RVA: 0x7FFD4E2ADC40
@@ -276,10 +239,10 @@ public class OnlyValueChangedProgress`1 : Object
 
 public class Option : Object
 {
-    public itTypeSize=876 OptionText; // 0x10
-    public itTypeSize=876 Tooltip; // 0x38
-    public object Value; // 0x60
-    public ormation<bool> IsEnabled; // 0x68
+    public object OptionText;
+    public object Tooltip;
+    public object Value;
+    public object IsEnabled;
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4E9FB780
@@ -302,8 +265,8 @@ public class Option : Object
 
 public class OptionData : Object
 {
-    public string text; // 0x10
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField image; // 0x18
+    public object text;
+    public object image;
 
     // ── Methods ──
     public void get_text(){} // RVA: 0x7FFD4E35C380
@@ -315,7 +278,7 @@ public class OptionData : Object
 
 public class OptionDataList : Object
 {
-    public URA.woDigitYearMax<Src> options; // 0x10
+    public object options;
 
     // ── Methods ──
     public void get_options(){} // RVA: 0x7FFD4E35C380
@@ -413,15 +376,6 @@ public class OptionsWindowsUWP : PlatformOptions
 
 public class OpusCodec : Object
 {
-    public int ÏÏÍÍÎÏÍÍÏÌÎÍÍÎÌÌÎÍÎÎÏÌÏ;
-    public ÎÍÏÍÏÌÏ ÍÏÏÌÏÌÌÎÍÎÏÏÍÏÎÏÌÌÎÍÏÌÎ; // 0x10
-    public ÎÎÎÍÎ ÏÏÏÌÍÏÎÌÎÏÎÏÍÌÌÎÎÏÎÎÏÏÏ; // 0x18
-    public int ÌÎÏÍÎÎÌÌÎÎÏÍÌÏÍÏÌÎÌÍÏÍÍ; // 0x20
-    public int ÍÎÍÎÎÍÏÌÎÎÌÌÎÍÎÌÎÍÎÏÍÏÏ; // 0x24
-    public int ÎÍÍÌÌÏÎÎÌÏÌÍÍÍÌÍÏÍÏÎÎÎÏ; // 0x28
-    public Ï ÏÍÌÍÌÏÏÏÌÏÏÏÍÎÍÍÍÏÏÎÍÍÎ; // 0x2C
-    public bool ÌÍÌÍÍÏÍÏÍÍÌÍÌÌÍÍÌÍÍÍÏÌÏ; // 0x30
-
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4E4FB160
     public void Equals(){} // RVA: 0x7FFD4E4FB1F0
@@ -445,46 +399,12 @@ public class OpusCodec : Object
 
 public class Orbit : ValueType
 {
-    public float m_Height; // 0x10
-    public float m_Radius; // 0x14
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E364D10
 }
 
 public class OscView : Object
 {
-    public bool dirty; // 0x10
-    public ÏÌ parent; // 0x18
-    public string pathName; // 0x20
-    public object currentViewObject; // 0x28
-    public object queuedType; // 0x30
-    public object appliedType; // 0x34
-    public float queuedValue; // 0x38
-    public float receivedTime; // 0x3C
-    public float minValue; // 0x40
-    public float maxValue; // 0x44
-    public ePathName117.? valueDisplay; // 0x48
-    public ePathName117.? minDisplay; // 0x50
-    public ePathName117.? maxDisplay; // 0x58
-    public ePathName117.ÎÌÍÍÎÏÌ pulse; // 0x60
-    public BuffersImpl checkMark; // 0x68
-    public 16 fill; // 0x70
-    public object pointDisplay; // 0x78
-    public object axisDisplay; // 0x80
-    public object sibling; // 0x88
-    public object valueBG; // 0x90
-    public URA.woDigitYearMax<16> fills; // 0x98
-    public URA.woDigitYearMax<ePathName117.?> minDisplays; // 0xA0
-    public URA.woDigitYearMax<ePathName117.?> maxDisplays; // 0xA8
-    public URA.woDigitYearMax<ePathName117.?> valueDisplays; // 0xB0
-    public float[] queuedValues; // 0xB8
-    public float[] minValues; // 0xC0
-    public float[] maxValues; // 0xC8
-    public float firstValue; // 0xD0
-    public float secondValue; // 0xD4
-    public int numValuesReceived; // 0xD8
-
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4F2C1DF0
     public void Equals(){} // RVA: 0x7FFD4F2C1E00
@@ -506,43 +426,24 @@ public class OscView : Object
 
 public class OutPt : Object
 {
-    public int Idx; // 0x10
-    public lfFrustumHeight Pt; // 0x18
-    public Speed Next; // 0x28
-    public Speed Prev; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class OutRec : Object
 {
-    public int Idx; // 0x10
-    public bool IsHole; // 0x14
-    public bool IsOpen; // 0x15
-    public SetCartPosition FirstLeft; // 0x18
-    public Speed Pts; // 0x20
-    public Speed BottomPt; // 0x28
-    public hCache PolyNode; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class OutputEventArgs : ValueType
 {
-    public etBestGrabbingType.ionEnabled<T1717692464> packet;
-    public long timestampMicrosecond;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E0961B0
 }
 
 public class OutputParameter : Object
 {
-    public string address; // 0x10
-    public string type; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4EFE0310
 }

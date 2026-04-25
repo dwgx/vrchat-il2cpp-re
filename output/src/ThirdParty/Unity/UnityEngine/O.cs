@@ -7,10 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Object : Object
     {
-        public UIntPtr name; // 0x10
-        public int hideFlags;
-        public string objectIsNullMessage;
-        public string cloneDestroyedMessage;
+        public object name;
+        public object hideFlags;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD54CE5BD0
@@ -53,10 +51,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ObjectDispatcher : Object
     {
-        public UIntPtr m_Ptr; // 0x10
-        public ation<?[],UIntPtr,UIntPtr,int,int,ileFullDirectoryInformation<dingBoxMode>> s_TypeDispatch;
-        public ileStandardInformation<UIntPtr,UIntPtr,UIntPtr,UIntPtr,UIntPtr,UIntPtr,int,ileFullDirectoryInformation<olutionMode>> s_TransformDispatch; // 0x8
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54CD65D0
     }

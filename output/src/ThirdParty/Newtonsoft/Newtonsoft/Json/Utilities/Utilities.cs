@@ -7,8 +7,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 {
     public class AotHelper : Object
     {
-        public bool s_alwaysFalse;
-
         // ── Methods ──
         public void Ensure(){} // RVA: 0x7FFD53B72E20
         public void EnsureType(){} // RVA: 0x7FFD4E0909B0
@@ -20,10 +18,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class AsyncUtils : Object
     {
-        public utes.?<bool> False;
-        public utes.?<bool> True; // 0x8
-        public utes.Line CompletedTask; // 0x10
-
         // ── Methods ──
         public void ToAsync(){} // RVA: 0x7FFD53B73060
         public void CancelIfRequestedAsync(){} // RVA: 0x7FFD4E087ED0 | overloaded x2
@@ -36,11 +30,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class BidirectionalDictionary`2 : Object
     {
-        public URA.X_CALENDARS<T1717644880,T1717644896> _firstToSecond;
-        public URA.X_CALENDARS<T1717644896,T1717644880> _secondToFirst;
-        public string _duplicateFirstErrorMessage;
-        public string _duplicateSecondErrorMessage;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09B8C0 | overloaded x3
         public void Set(){} // RVA: 0x7FFD4E2ADC40
@@ -71,9 +60,13 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class CollectionWrapper`1 : Object
     {
-        public mePatterns.eseCalendarDTFI Count;
-        public URA.tCalendarData<T1717645104> IsReadOnly;
+        public object Count;
+        public object IsReadOnly;
         public object System.Collections.IList.IsFixedSize;
+        public object System.Collections.IList.Item;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object UnderlyingCollection;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x2
@@ -114,10 +107,19 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DictionaryWrapper`2 : Object
     {
-        public mePatterns.ears GenericDictionary;
-        public URA.X_CALENDARS<T1717645216,T1717645232> Keys;
-        public URA.DayNames<T1717645216,T1717645232> Values;
+        public object GenericDictionary;
+        public object Keys;
+        public object Values;
         public object Item;
+        public object Count;
+        public object IsReadOnly;
+        public object System.Collections.IDictionary.Item;
+        public object System.Collections.IDictionary.IsFixedSize;
+        public object System.Collections.IDictionary.Keys;
+        public object System.Collections.IDictionary.Values;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object UnderlyingDictionary;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x3
@@ -153,7 +155,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DynamicProxyMetaObject`1 : DynamicMetaObject
     {
-        public rnToTarget.g<T1717645504> NoArgs;
+        public object NoArgs;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -203,11 +205,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class EnumUtils : Object
     {
-        public char EnumSeparatorChar;
-        public string EnumSeparatorString;
-        public rnToTarget.ltFloatParseHandling<rnToTarget.?<?,eckAdditionalContent.eference>,rnToTarget.rameters> ValuesAndNamesPerEnum;
-        public eckAdditionalContent.ultMaxDepth _camelCaseNamingStrategy; // 0x8
-
         // ── Methods ──
         public void InitializeValuesAndNames(){} // RVA: 0x7FFD53B84C50
         public void GetFlagsValues(){} // RVA: 0x7FFD4E2ADC40
@@ -224,22 +221,16 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
     public class FSharpUtils : Object
     {
         public object Instance;
-        public rnToTarget.rategyInstance>k__BackingField FSharpCoreAssembly; // 0x8
-        public m.jectMapInfo IsUnion; // 0x10
-        public object GetUnionCases; // 0x18
-        public m.ormation PreComputeUnionTagReader; // 0x20
-        public rnToTarget.?<object,object> PreComputeUnionReader; // 0x28
-        public rnToTarget.?<object,object> PreComputeUnionConstructor; // 0x30
-        public rnToTarget.?<object,object> GetUnionCaseInfoDeclaringType; // 0x38
-        public rnToTarget.?<object,object> GetUnionCaseInfoName; // 0x40
-        public rnToTarget.?<object,object> GetUnionCaseInfoTag; // 0x48
-        public n<object,object> GetUnionCaseInfoFields; // 0x50
-        public n<object,object> <GetUnionCaseInfoName>k__BackingField; // 0x58
-        public n<object,object> <GetUnionCaseInfoTag>k__BackingField; // 0x60
-        public rnToTarget.?<object,object> <GetUnionCaseInfoFields>k__BackingField; // 0x68
-        public string FSharpSetTypeName;
-        public string FSharpListTypeName;
-        public string FSharpMapTypeName;
+        public object FSharpCoreAssembly;
+        public object IsUnion;
+        public object GetUnionCases;
+        public object PreComputeUnionTagReader;
+        public object PreComputeUnionReader;
+        public object PreComputeUnionConstructor;
+        public object GetUnionCaseInfoDeclaringType;
+        public object GetUnionCaseInfoName;
+        public object GetUnionCaseInfoTag;
+        public object GetUnionCaseInfoFields;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53B86B60
@@ -275,7 +266,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
     {
-        public rnToTarget.Input>k__BackingField Instance;
+        public object Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD53B8E570
@@ -325,8 +316,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ReflectionUtils : Object
     {
-        public ?[] EmptyTypes;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53B903F0
         public void IsVirtual(){} // RVA: 0x7FFD53B904C0
@@ -373,12 +362,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StringUtils : Object
     {
-        public string CarriageReturnLineFeed;
-        public string Empty;
-        public char CarriageReturn;
-        public char LineFeed;
-        public char Tab;
-
         // ── Methods ──
         public void IsNullOrEmpty(){} // RVA: 0x7FFD53B966C0
         public void FormatWith(){} // RVA: 0x7FFD53B96E40 | overloaded x5
@@ -402,15 +385,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StructMultiKey`2 : ValueType
     {
-        public T1717646096 Value1;
-        public T1717646112 Value2;
     }
 
     public class ThreadSafeStore`2 : Object
     {
-        public JapaneseLangName.erns<T1717646128,T1717646144> _concurrentStore;
-        public n<T1717646128,T1717646144> _creator;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD520C44C0
         public void Get(){} // RVA: 0x7FFD520C46F0

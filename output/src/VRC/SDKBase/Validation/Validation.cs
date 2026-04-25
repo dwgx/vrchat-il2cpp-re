@@ -7,8 +7,6 @@ namespace VRC.SDKBase.Validation
 {
     public class TypeUtils : Object
     {
-        public URA.DateTime<string,?> _typeCache;
-
         // ── Methods ──
         public void GetTypeFromName(){} // RVA: 0x7FFD574A0100
         public void FindDerivedTypes(){} // RVA: 0x7FFD574A0630 | overloaded x2
@@ -18,7 +16,7 @@ namespace VRC.SDKBase.Validation
 
     public class VRCSdkWhitelistAttribute : Attribute
     {
-        public idewaysFriction name; // 0x10
+        public object name;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E38E5C0
@@ -27,11 +25,6 @@ namespace VRC.SDKBase.Validation
 
     public class ValidationUtils : Object
     {
-        public URA.woDigitYearMax<led> _componentCache;
-        public string EDITOR_ONLY_TAG;
-        public URA.DateTime<string,URA.onsDepth<?>> _whitelistCache; // 0x8
-        public URA.DateTime<?,fset2096.ctions.KVPair<TKey,TValue>>.GetEnumerator<GetBaseVertexImpl>> _requireComponentsCache; // 0x10
-
         // ── Methods ──
         public void RemoveIllegalComponents(){} // RVA: 0x7FFD574A0A20 | overloaded x2
         public void FindIllegalComponents(){} // RVA: 0x7FFD574A1050 | overloaded x2

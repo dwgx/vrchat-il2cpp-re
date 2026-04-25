@@ -7,11 +7,6 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 {
     public class BidirectionalDictionary`2 : Object
     {
-        public URA.X_CALENDARS<T1717702576,T1717702592> _firstToSecond;
-        public URA.X_CALENDARS<T1717702592,T1717702576> _secondToFirst;
-        public string _duplicateFirstErrorMessage;
-        public string _duplicateSecondErrorMessage;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09B8C0 | overloaded x2
         public void Set(){} // RVA: 0x7FFD4E2ADC40
@@ -37,9 +32,13 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class CollectionWrapper`1 : Object
     {
-        public mePatterns.eseCalendarDTFI Count;
-        public URA.tCalendarData<T1717702704> IsReadOnly;
+        public object Count;
+        public object IsReadOnly;
         public object System.Collections.IList.IsFixedSize;
+        public object System.Collections.IList.Item;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object UnderlyingCollection;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E2ADC40
@@ -70,9 +69,18 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class DictionaryWrapper`2 : Object
     {
-        public mePatterns.ears Keys;
-        public URA.X_CALENDARS<T1717702816,T1717702832> Values;
+        public object Keys;
+        public object Values;
         public object Item;
+        public object Count;
+        public object IsReadOnly;
+        public object System.Collections.IDictionary.Item;
+        public object System.Collections.IDictionary.IsFixedSize;
+        public object System.Collections.IDictionary.Keys;
+        public object System.Collections.IDictionary.Values;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
+        public object UnderlyingDictionary;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -106,7 +114,7 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
     {
-        public _FTheta.Input>k__BackingField Instance;
+        public object Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD550F0660
@@ -139,8 +147,6 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class ReflectionUtils : Object
     {
-        public ?[] EmptyTypes;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD550F2640
         public void IsVirtual(){} // RVA: 0x7FFD550F2710
@@ -196,10 +202,6 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
-        public object _lock;
-        public URA.DateTime<T1717703280,T1717703296> _store;
-        public n<T1717703280,T1717703296> _creator;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Get(){} // RVA: 0x7FFD4E2ADC40

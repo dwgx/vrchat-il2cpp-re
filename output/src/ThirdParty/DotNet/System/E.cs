@@ -7,8 +7,6 @@ namespace ThirdParty.DotNet.System
 {
     public class Empty : Object
     {
-        public ÏÌÌÏÎÌÌÍÏÎÏÌÎÏÏÏÍÍÍÌ Value;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void ToString(){} // RVA: 0x7FFD53A956B0
@@ -18,17 +16,12 @@ namespace ThirdParty.DotNet.System
 
     public class EmptyArray`1 : Object
     {
-        public numeratorObject.NullAttribute[] Value;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
     }
 
     public class Enum : ValueType
     {
-        public char[] enumSeperatorCharArray;
-        public string enumSeperator;
-
         // ── Methods ──
         public void GetCachedValuesAndNames(){} // RVA: 0x7FFD53A95810
         public void InternalFormattedHexString(){} // RVA: 0x7FFD53A95D80
@@ -82,9 +75,24 @@ namespace ThirdParty.DotNet.System
 
     public class Environment : Object
     {
-        public string CurrentDirectory;
-        public string CurrentManagedThreadId;
-        public engthLimit HasShutdownStarted; // 0x8
+        public object CurrentDirectory;
+        public object CurrentManagedThreadId;
+        public object HasShutdownStarted;
+        public object MachineName;
+        public object NewLine;
+        public object Platform;
+        public object OSVersion;
+        public object StackTrace;
+        public object SystemDirectory;
+        public object TickCount;
+        public object UserDomainName;
+        public object UserName;
+        public object Version;
+        public object Is64BitOperatingSystem;
+        public object Is64BitProcess;
+        public object ProcessorCount;
+        public object IsRunningOnWindows;
+        public object IsUnix;
 
         // ── Methods ──
         public void GetResourceString(){} // RVA: 0x7FFD53AB5060 | overloaded x2
@@ -135,8 +143,6 @@ namespace ThirdParty.DotNet.System
 
     public class EventArgs : Object
     {
-        public ingTables Empty;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void .cctor(){} // RVA: 0x7FFD53A34A20
@@ -152,23 +158,15 @@ namespace ThirdParty.DotNet.System
     public class Exception : Object
     {
         public object Message;
-        public string Data; // 0x10
-        public string InnerException; // 0x18
-        public mePatterns.ears TargetSite; // 0x20
-        public ÏÏÍÍÎÎ StackTrace; // 0x28
-        public string HelpLink; // 0x30
-        public object Source; // 0x38
-        public string RemoteStackTrace; // 0x40
-        public string HResult; // 0x48
-        public int IsTransient; // 0x50
-        public object _dynamicMethods; // 0x58
-        public int _HResult; // 0x60
-        public string _source; // 0x68
-        public externalClaims.? _safeSerializationManager; // 0x70
-        public ernal_index_icall.parable`1[] captured_traces; // 0x78
-        public UIntPtr[] native_trace_ips; // 0x80
-        public int caught_in_unmanaged; // 0x88
-        public int _COMPlusExceptionCode;
+        public object Data;
+        public object InnerException;
+        public object TargetSite;
+        public object StackTrace;
+        public object HelpLink;
+        public object Source;
+        public object RemoteStackTrace;
+        public object HResult;
+        public object IsTransient;
 
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD53A9C6C0

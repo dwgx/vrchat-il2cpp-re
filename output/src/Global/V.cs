@@ -81,46 +81,18 @@ public class VFXUpdate : ValueType
 
 public class VRCAnimationPreset : ScriptableObject
 {
-    public ColliderDistance2D locomotion; // 0x18
-    public ColliderDistance2D idle; // 0x20
-    public ColliderDistance2D hands; // 0x28
-    public ColliderDistance2D face; // 0x30
-    public ColliderDistance2D actions; // 0x38
-    public ColliderDistance2D tpose; // 0x40
-    public ColliderDistance2D sitting; // 0x48
-    public ColliderDistance2D ikpose; // 0x50
-    public ColliderDistance2D locomotionOff; // 0x58
-    public r[] builtInClips; // 0x60
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E54F5F0
 }
 
 public class VRCApplicationSetup : MonoBehaviour
 {
-    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.yDictionary<System.String,System.Object>.get_Values _destroyCancellationToken;
-    public string _useGUILayout; // 0x20
-    public string f_3D2; // 0x28
-    public int f_2F3; // 0x30
-    public long f_BFE; // 0x38
-    public string f_4BC; // 0x40
-    public string ÏÎÍÎÎÌÍÍÎÍÌÌÎÏÍÍÏÌÍÏÎÎÌ; // 0x48
-    public string ÍÌÍÎÌÍÏÎÍÌÏÏÏÎÍÌÍÌÍÏÍÏÌ; // 0x50
-    public bool ÏÍÎÏÎÍÍÌÏÏÌÌÌÌÌÏÏÎÎÍÏÎÍ; // 0x58
-    public bool ÌÏÎÏÏÏÏÍÌÏÍÎÎÍÏÏÏÌÍÎÍÎÌ; // 0x59
-    public bool ÏÎÌÌÍÏÌÎÌÌÏÏÏÏÎÎÎÎÍÎÌÍÌ; // 0x5A
-    public string ÍÌÌÎÍÎÎÏÌÍÍÎÏÍÎÍÍÌÍÎÏÏÌ;
-    public string <ÏÎÍÏÍÌÏÎÌÍÍÏÌÍÎÍÏÎÍÏÍÎÌ>k__BackingField; // 0x60
-    public dle<int> ÏÌÏÏÍÍÌÏÎÎÌÎÌÎÎÍÍÌÌÌÎÌÍ; // 0x68
-    public string <ÎÌÏÎÌÎÍÎÏÎÍÍÏÏÌÍÎÏÏÏÍÍÎ>k__BackingField; // 0x70
-    public bool ÍÌÍÍÎÌÌÍÏÎÏÍÍÏÍÎÎÍÍÎÍÏÌ; // 0x78
-    public bool ÏÎÍÌÎÌÎÌÌÏÌÍÍÏÏÎÌÌÎÍÍÌÎ; // 0x4
-    public BuffersImpl[] ÍÍÎÏÏÍÌÏÎÌÎÏÍÎÎÎÎÏÏÌÌÍÍ; // 0x80
-    public string ÍÎÌÌÏÍÌÌÍÏÎÎÎÍÎÍÎÌÌÌÎÏÌ; // 0x88
-    public ÏÌÍ ÌÏÌÎÏÏÎÍÌÏÎÏÏÍÌÎÌÌÎÎÎÍÎ; // 0x8
-    public bool ÌÍÎÌÍÎÏÌÏÍÍÎÏÍÍÍÌÏÏÏÍÍÏ; // 0x10
-    public string ÏÌÍÌÍÌÍÎÎÎÌÎÎÎÎÌÎÍÌÏÌÌÌ;
-    public int ÌÌÎÎÍÍÏÎÍÎÏÌÏÎÏÍÏÏÏÏÎÎÍ;
+    public object _destroyCancellationToken;
+    public object _useGUILayout;
+    public object f_3D2;
+    public object f_2F3;
+    public object f_BFE;
+    public object f_4BC;
 
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F4A5A10
@@ -185,10 +157,6 @@ public class VRCConstraintsUpdate : ValueType
 
 public class VRCFlowUserContextTracker : Object
 {
-    public string ÌÎÍÌÌÌÏÌÍÏÍÌÍÌÍÎÏÏÌÍÌÍÍ;
-    public string ÏÌÎÌÍÍÍÌÍÌÌÍÏÍÌÏÎÌÎÌÏÍÌ;
-    public ÍÌÌÏÏÌÎÍÌÍÎÌÎÍ ÎÍÎÍÍÏÌÍÎÏÌÏÍÍÎÎÏÍÌÍÏÍÍ;
-
     // ── Methods ──
     public void Initialize(){} // RVA: 0x7FFD4F1C5A40
     public void Equals(){} // RVA: 0x7FFD4F1C5AE0
@@ -198,17 +166,12 @@ public class VRCFlowUserContextTracker : Object
 
 public class VRCHandData : ValueType
 {
-    public bool IsLeft; // 0x10
-    public object TrackingData; // 0x18
-    public object InputData; // 0x60
 }
 
 public class VRCInitializeVRSDK : MonoBehaviour
 {
-    public bool _destroyCancellationToken;
-    public bool _useGUILayout; // 0x1
-    public bool ÎÎÎÍÏÏÍÏÌÍÌÍÏÏÍÌÍÍÎÏÎÍÏ; // 0x20
-    public bool ÌÌÌÍÎÍÌÎÌÏÎÏÎÌÌÌÌÎÌÌÌÍÎ; // 0x2
+    public object _destroyCancellationToken;
+    public object _useGUILayout;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -236,14 +199,6 @@ public class VRCInitializeVRSDK : MonoBehaviour
 
 public class VRCInputBindingPreset : ScriptableObject
 {
-    public object joyButtonLeftAction; // 0x18
-    public object joyButtonRightAction; // 0x1C
-    public object aButtonLeftAction; // 0x20
-    public object aButtonRightAction; // 0x24
-    public bool useLongPress; // 0x28
-    public bool useLightGrip; // 0x29
-    public bool useDoubleTap; // 0x2A
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E54F5F0
 }
@@ -256,14 +211,13 @@ public class VRCProjectSettings : MonoBehaviour
 
 public class VRCTime : Object
 {
-    public float _name;
-    public float _hideFlags; // 0x4
-    public float f_0D4; // 0x8
-    public float f_348; // 0xC
-    public int f_184; // 0x10
-    public long f_157; // 0x18
-    public ArgCount.rtEndMustBeOrdered<DependencyInjector> f_E36; // 0x20
-    public ArgCount.rtEndMustBeOrdered<DependencyInjector> ÏÏÍÏÎÍÏÌÍÍÌÌÍÎÎÌÏÍÎÏÎÍÎ; // 0x28
+    public object _name;
+    public object _hideFlags;
+    public object f_0D4;
+    public object f_348;
+    public object f_184;
+    public object f_157;
+    public object f_E36;
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4F230450
@@ -280,8 +234,6 @@ public class VRCTime : Object
 
 public class VRCUrlLauncher : VRCCustomAction
 {
-    public ellSize.t[] urls; // 0x20
-
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD4F7F07B0 | overloaded x3
     public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -311,7 +263,10 @@ public class ValidDelegate : MulticastDelegate
 
 public class ValueCollection : Object
 {
-    public URA.DateTime<BuffersImpl,URA.onsDepth<er.Order>> Count; // 0x10
+    public object Count;
+    public object System.Collections.Generic.ICollection<TValue>.IsReadOnly;
+    public object System.Collections.ICollection.IsSynchronized;
+    public object System.Collections.ICollection.SyncRoot;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD514E1FC0
@@ -332,7 +287,11 @@ public class ValueCollection : Object
 
 public class ValueList : Object
 {
-    public URA.yKey<T1717598240,T1717598256> Count;
+    public object Count;
+    public object IsReadOnly;
+    public object System.Collections.ICollection.IsSynchronized;
+    public object System.Collections.ICollection.SyncRoot;
+    public object Item;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -357,10 +316,6 @@ public class ValueList : Object
 
 public class ValueTaskSourceAsTask : Task`1
 {
-    public ileFullDirectoryInformation<object> s_completionAction;
-    public aitUntilCountOrTimeoutAsync<bool> _source; // 0x58
-    public short _token; // 0x60
-
     // ── Methods ──
     public void .ctor(){}
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -381,16 +336,13 @@ public class Values : Object
 
 public class ValuesAndNames : Object
 {
-    public ulong[] Values; // 0x10
-    public string[] Names; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E90C240
 }
 
 public class ValuesDiscrete`1 : Values`1
 {
-    public nalInformation<T1717596560,T1717596560,bool> SameFunc;
+    public object SameFunc;
 
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x7FFD4E078E90
@@ -409,11 +361,8 @@ public class ValuesMerger : MulticastDelegate
 
 public class Values`1 : Values
 {
-    public long isEmpty; // 0x10
-    public e<T1717596560> SameFunc; // 0x18
-    public e<T1717596560> m_NextFrameEventsState; // 0x20
-    public tyEngine.UIElements.IStyle.set_overflow<ngine.UIElements.IStyle.get_transformOrigin<T1717596560>,.get_translate<T1717596560>> running; // 0x28
-    public tyEngine.UIElements.IStyle.set_overflow<IStyle.set_translate<T1717596560>,T1717596560> completed; // 0x58
+    public object isEmpty;
+    public object SameFunc;
 
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x7FFD4E079D00
@@ -450,8 +399,6 @@ public class VcamActivatedEvent : UnityEvent`2
 
 public class VcamExtraState : Object
 {
-    public dUInt64.hakeRotation mProfileCopy; // 0x10
-
     // ── Methods ──
     public void AddPointToDebugPath(){} // RVA: 0x7FFD4E341310
     public void ApplyDistanceSmoothing(){} // RVA: 0x7FFD4FC20BE0
@@ -478,9 +425,6 @@ public class Vector3Surrogate : Object
 
 public class Vector3andSpace : Object
 {
-    public amut value; // 0x10
-    public ÏÏÏÌÌÏÍÍÌÎÎÍÌÌÍÎÎ space; // 0x1C
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4F7FADB0
 }
@@ -495,13 +439,34 @@ public class Vector4Surrogate : Object
 
 public class VectorSizeHelper : ValueType
 {
-    public ackingField.rTask<T1717590224> _placeholder;
-    public byte _byte;
 }
 
 public class VelocityOverLifetimeModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object x;
+    public object y;
+    public object z;
+    public object xMultiplier;
+    public object yMultiplier;
+    public object zMultiplier;
+    public object orbitalX;
+    public object orbitalY;
+    public object orbitalZ;
+    public object orbitalXMultiplier;
+    public object orbitalYMultiplier;
+    public object orbitalZMultiplier;
+    public object orbitalOffsetX;
+    public object orbitalOffsetY;
+    public object orbitalOffsetZ;
+    public object orbitalOffsetXMultiplier;
+    public object orbitalOffsetYMultiplier;
+    public object orbitalOffsetZMultiplier;
+    public object radial;
+    public object radialMultiplier;
+    public object speedModifier;
+    public object speedModifierMultiplier;
+    public object space;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -605,7 +570,7 @@ public class VelocityOverLifetimeModule : ValueType
 
 public class VerifyKey : ValueType
 {
-    public byte[] Key; // 0x10
+    public object Key;
 
     // ── Methods ──
     public void get_Key(){} // RVA: 0x7FFD4EEF9F60
@@ -614,8 +579,6 @@ public class VerifyKey : ValueType
 
 public class VideoCaptureResult : ValueType
 {
-    public lphaMin resultType; // 0x10
-    public long hResult; // 0x18
 }
 
 public class VideoEntry : Object
@@ -626,36 +589,18 @@ public class VideoEntry : Object
 
 public class ViewfinderSkinMap : MonoBehaviour
 {
-    public ure Renderer; // 0x20
-    public stfix Animator; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341D50
 }
 
 public class VisualElementScheduledItem`1 : BaseVisualElementScheduledItem
 {
-    public T1717596256 updateEvent;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
 }
 
 public class VrcDataElement : Object
 {
-    public string name; // 0x10
-    public object mirror; // 0x18
-    public eSize type; // 0x1C
-    public glesLength serializeComponent; // 0x20
-    public bool valueBool; // 0x28
-    public int valueInt; // 0x2C
-    public float valueFloat; // 0x30
-    public string valueString; // 0x38
-    public byte[] valueSerializedBytes; // 0x40
-    public bool modified; // 0x48
-    public bool added; // 0x49
-    public ellSize.tAssetBundleSizeLimit dataStorage; // 0x50
-
     // ── Methods ──
     public void Serialize(){} // RVA: 0x7FFD4E2ADC40
     public void Deserialize(){} // RVA: 0x7FFD4E079F60

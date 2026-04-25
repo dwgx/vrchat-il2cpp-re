@@ -7,8 +7,13 @@ namespace VRC.SDK3.Rendering
 {
     public class VRCAsyncGPUReadbackRequest : Object
     {
-        public ons.ze done; // 0x10
-        public pNeighbor hasError; // 0x20
+        public object done;
+        public object hasError;
+        public object width;
+        public object height;
+        public object depth;
+        public object layerCount;
+        public object layerDataSize;
 
         // ── Methods ──
         public void get_done(){} // RVA: 0x7FFD4E7A1B60

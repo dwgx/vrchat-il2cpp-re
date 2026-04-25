@@ -7,9 +7,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.Core
 {
     public class BaseVisionTaskApi : Object
     {
-        public lIdFieldNumber.t_HasConfidence runningMode; // 0x10
-        public e.ÍÍÏÏÎÎÍÍÍÏÎÏÍÎÍÏÌÏÌÏÌÍÌ <runningMode>k__BackingField; // 0x18
-        public bool _isClosed; // 0x1C
+        public object runningMode;
 
         // ── Methods ──
         public void get_runningMode(){} // RVA: 0x7FFD4E577800
@@ -25,9 +23,6 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.Core
 
     public class ImageProcessingOptions : ValueType
     {
-        public aphy<gBox.ber> regionOfInterest; // 0x10
-        public int rotationDegrees; // 0x24
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53710150
     }

@@ -7,10 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.SubsystemsImplementation
 {
     public class SubsystemDescriptorStore : Object
     {
-        public URA.woDigitYearMax<dateMode> s_IntegratedDescriptors;
-        public URA.woDigitYearMax<ount.TargetAudioSource> s_StandaloneDescriptors; // 0x8
-        public URA.woDigitYearMax<_targetCameraAlpha> s_DeprecatedDescriptors; // 0x10
-
         // ── Methods ──
         public void InitializeManagedDescriptor(){} // RVA: 0x7FFD54E12510
         public void ClearManagedDescriptors(){} // RVA: 0x7FFD54E125F0

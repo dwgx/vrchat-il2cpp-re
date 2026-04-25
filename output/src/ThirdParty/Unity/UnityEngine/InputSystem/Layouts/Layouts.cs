@@ -7,29 +7,29 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 {
     public class InputControlAttribute : PropertyAttribute
     {
-        public string layout; // 0x10
-        public string variants; // 0x18
-        public string name; // 0x20
-        public string format; // 0x28
-        public string usage; // 0x30
-        public string[] usages; // 0x38
-        public string parameters; // 0x40
-        public string processors; // 0x48
-        public string alias; // 0x50
-        public string[] aliases; // 0x58
-        public string useStateFrom; // 0x60
-        public uint bit; // 0x68
-        public uint offset; // 0x6C
-        public uint sizeInBits; // 0x70
-        public int arraySize; // 0x74
-        public string displayName; // 0x78
-        public string shortDisplayName; // 0x80
-        public bool noisy; // 0x88
-        public bool synthetic; // 0x89
-        public bool dontReset; // 0x8A
-        public object defaultState; // 0x90
-        public object minValue; // 0x98
-        public object maxValue; // 0xA0
+        public object layout;
+        public object variants;
+        public object name;
+        public object format;
+        public object usage;
+        public object usages;
+        public object parameters;
+        public object processors;
+        public object alias;
+        public object aliases;
+        public object useStateFrom;
+        public object bit;
+        public object offset;
+        public object sizeInBits;
+        public object arraySize;
+        public object displayName;
+        public object shortDisplayName;
+        public object noisy;
+        public object synthetic;
+        public object dontReset;
+        public object defaultState;
+        public object minValue;
+        public object maxValue;
 
         // ── Methods ──
         public void get_layout(){} // RVA: 0x7FFD4E35C380
@@ -83,24 +83,27 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputControlLayout : Object
     {
-        public 2.uestResetCommand DefaultVariant;
-        public string name;
-        public 2.uestResetCommand displayName; // 0x10
-        public object type; // 0x20
-        public 2.uestResetCommand variants; // 0x28
-        public 2.Code stateFormat; // 0x38
-        public int stateSizeInBytes; // 0x3C
-        public aphy<bool> baseLayouts; // 0x40
-        public 2.and<2.uestResetCommand> appliedOverrides; // 0x48
-        public 2.and<2.uestResetCommand> commonUsages; // 0x68
-        public 2.uestResetCommand[] controls; // 0x88
-        public s[] updateBeforeRender; // 0x90
-        public string isDeviceLayout; // 0x98
-        public string isControlLayout; // 0xA0
-        public tf32 isOverride; // 0xA8
-        public tEyeRotation isGenericTypeOfDevice; // 0x10
-        public ÏÏÏÎÍÌÎÎÍÏÎÌÌÎÍÌÎÏÎÌ hideInUI; // 0x50
-        public int isNoisy; // 0x58
+        public object DefaultVariant;
+        public object name;
+        public object displayName;
+        public object type;
+        public object variants;
+        public object stateFormat;
+        public object stateSizeInBytes;
+        public object baseLayouts;
+        public object appliedOverrides;
+        public object commonUsages;
+        public object controls;
+        public object updateBeforeRender;
+        public object isDeviceLayout;
+        public object isControlLayout;
+        public object isOverride;
+        public object isGenericTypeOfDevice;
+        public object hideInUI;
+        public object isNoisy;
+        public object canRunInBackground;
+        public object Item;
+        public object cache;
 
         // ── Methods ──
         public void get_DefaultVariant(){} // RVA: 0x7FFD54AA8B30
@@ -154,17 +157,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputControlLayoutAttribute : Attribute
     {
-        public object stateType; // 0x10
-        public string stateFormat; // 0x18
-        public string[] commonUsages; // 0x20
-        public string variants; // 0x28
-        public bool isNoisy; // 0x30
-        public aphy<bool> canRunInBackground; // 0x31
-        public aphy<bool> updateBeforeRender; // 0x33
-        public bool isGenericTypeOfDevice; // 0x35
-        public string displayName; // 0x38
-        public string description; // 0x40
-        public bool hideInUI; // 0x48
+        public object stateType;
+        public object stateFormat;
+        public object commonUsages;
+        public object variants;
+        public object isNoisy;
+        public object canRunInBackground;
+        public object updateBeforeRender;
+        public object isGenericTypeOfDevice;
+        public object displayName;
+        public object description;
+        public object hideInUI;
 
         // ── Methods ──
         public void get_stateType(){} // RVA: 0x7FFD4E35C380
@@ -194,14 +197,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceBuilder : ValueType
     {
-        public ilAddress.ActionProperty instance; // 0x10
-        public object m_LayoutCacheRef; // 0x18
-        public URA.DateTime<string,s> m_ChildControlOverrides; // 0x20
-        public URA.woDigitYearMax<uint> m_StateOffsetToControlMap; // 0x28
-        public em.MarkAborted.izeDefaultCase m_StringBuilder; // 0x30
-        public uint kSizeForControlUsingStateFromOtherControl;
-        public criptorSizeDeviceCommandType.in s_Instance;
-        public int s_InstanceRef; // 0x28
+        public object instance;
 
         // ── Methods ──
         public void Setup(){} // RVA: 0x7FFD549702D0
@@ -236,13 +232,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceDescription : ValueType
     {
-        public string interfaceName; // 0x10
-        public string deviceClass; // 0x18
-        public string manufacturer; // 0x20
-        public string product; // 0x28
-        public string serial; // 0x30
-        public string version; // 0x38
-        public string capabilities; // 0x40
+        public object interfaceName;
+        public object deviceClass;
+        public object manufacturer;
+        public object product;
+        public object serial;
+        public object version;
+        public object capabilities;
+        public object empty;
 
         // ── Methods ──
         public void get_interfaceName(){} // RVA: 0x7FFD4EEF9F60
@@ -281,13 +278,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceMatcher : ValueType
     {
-        public URA.mes<2.uestResetCommand,object>[] empty; // 0x10
-        public 2.uestResetCommand patterns;
-        public 2.uestResetCommand kDeviceClassKey; // 0x10
-        public 2.uestResetCommand kManufacturerKey; // 0x20
-        public 2.uestResetCommand kManufacturerContainsKey; // 0x30
-        public 2.uestResetCommand kProductKey; // 0x40
-        public 2.uestResetCommand kVersionKey; // 0x50
+        public object empty;
+        public object patterns;
 
         // ── Methods ──
         public void get_empty(){} // RVA: 0x7FFD4FC6C2F0

@@ -23,12 +23,7 @@ public class _OpenBindingUI : MulticastDelegate
 
 public class _OrderedAsyncEnumerator : MoveNextSource
 {
-    public dLighting.t<T1717635504> Current;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public T1717635504[] buffer;
-    public int[] map;
-    public int index;
-    public T1717635504 <Current>k__BackingField;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){}
@@ -41,14 +36,7 @@ public class _OrderedAsyncEnumerator : MoveNextSource
 
 public class _Pairwise : MoveNextSource
 {
-    public ileFullDirectoryInformation<object> Current;
-    public eObjectDelegate.fo<T1717635632> source;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public eObjectDelegate.o<T1717635632> enumerator;
-    public peInfoResolverChain<bool> awaiter;
-    public T1717635632 prev;
-    public bool isFirst;
-    public 8BCA7B5CC287C51E0E3E<T1717635632,T1717635632> <Current>k__BackingField;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){}
@@ -153,14 +141,9 @@ public class _PropertyContainer : MulticastDelegate
 
 public class _Publish : MoveNextSource
 {
-    public ileFullDirectoryInformation<object> Current;
-    public dLighting.oy_Injected<T1717635680> Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Prev;
-    public sageKind.TICMAP_SIZE Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Next;
-    public sageKind.sition cancellationTokenRegistration;
-    public bool isDisposed;
-    public T1717635680 <Current>k__BackingField;
-    public eObjectDelegate.eationHandlingForProperty<T1717635680> <Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Prev>k__BackingField;
-    public eObjectDelegate.eationHandlingForProperty<T1717635680> <Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Next>k__BackingField;
+    public object Current;
+    public object Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Prev;
+    public object Cysharp.Threading.Tasks.ITriggerHandler<TSource>.Next;
 
     // ── Methods ──
     public void .ctor(){}
@@ -181,12 +164,7 @@ public class _Publish : MoveNextSource
 
 public class _Queue : Object
 {
-    public eObjectDelegate.fo<T1717635760> Current;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public eObjectDelegate.rpList<T1717635760> channel;
-    public eObjectDelegate.o<T1717635760> channelEnumerator;
-    public eObjectDelegate.o<T1717635760> sourceEnumerator;
-    public bool channelClosed;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){}
@@ -369,10 +347,7 @@ public class _RenderModelHasComponent : MulticastDelegate
 
 public class _Repeat : Object
 {
-    public T1717635792 Current;
-    public int count;
-    public int remaining;
-    public sageKind.TICMAP_SIZE cancellationToken;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -401,9 +376,7 @@ public class _ResetZeroPose : MulticastDelegate
 
 public class _Return : Object
 {
-    public T1717635824 Current;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public bool called;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -414,11 +387,7 @@ public class _Return : Object
 
 public class _Reverse : MoveNextSource
 {
-    public eObjectDelegate.fo<T1717635872> Current;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public T1717635872[] array;
-    public int index;
-    public T1717635872 <Current>k__BackingField;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){}
@@ -448,14 +417,7 @@ public class _RoomSetupStarting : MulticastDelegate
 
 public class _Select : MoveNextSource
 {
-    public eObjectDelegate.fo<T1717635904> Current;
-    public n<T1717635904,T1717635920> selector;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public int state;
-    public eObjectDelegate.o<T1717635904> enumerator;
-    public peInfoResolverChain<bool> awaiter;
-    public ÎÌÍÏÏÌÍÏ moveNextAction;
-    public T1717635920 <Current>k__BackingField;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){}
@@ -468,16 +430,7 @@ public class _Select : MoveNextSource
 
 public class _SelectAwait : MoveNextSource
 {
-    public eObjectDelegate.fo<T1717636096> Current;
-    public nalInformation<T1717636096,int,eObjectDelegate.kingField<T1717636112>> selector;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public int state;
-    public eObjectDelegate.o<T1717636096> enumerator;
-    public peInfoResolverChain<bool> awaiter;
-    public peInfoResolverChain<T1717636112> awaiter2;
-    public ÎÌÍÏÏÌÍÏ moveNextAction;
-    public int index;
-    public T1717636112 <Current>k__BackingField;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){}
@@ -490,16 +443,7 @@ public class _SelectAwait : MoveNextSource
 
 public class _SelectAwaitWithCancellation : MoveNextSource
 {
-    public eObjectDelegate.fo<T1717636224> Current;
-    public rmation<T1717636224,int,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717636240>> selector;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public int state;
-    public eObjectDelegate.o<T1717636224> enumerator;
-    public peInfoResolverChain<bool> awaiter;
-    public peInfoResolverChain<T1717636240> awaiter2;
-    public ÎÌÍÏÏÌÍÏ moveNextAction;
-    public int index;
-    public T1717636240 <Current>k__BackingField;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){}
@@ -512,22 +456,7 @@ public class _SelectAwaitWithCancellation : MoveNextSource
 
 public class _SelectMany : MoveNextSource
 {
-    public ileFullDirectoryInformation<object> Current;
-    public ileFullDirectoryInformation<object> selectedSourceMoveNextCoreDelegate;
-    public ileFullDirectoryInformation<object> selectedEnumeratorDisposeAsyncCoreDelegate;
-    public eObjectDelegate.fo<T1717636336> source;
-    public n<T1717636336,eObjectDelegate.fo<T1717636352>> selector1;
-    public nalInformation<T1717636336,int,eObjectDelegate.fo<T1717636352>> selector2;
-    public nalInformation<T1717636336,T1717636352,T1717636368> resultSelector;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public T1717636336 sourceCurrent;
-    public int sourceIndex;
-    public eObjectDelegate.o<T1717636336> sourceEnumerator;
-    public eObjectDelegate.o<T1717636352> selectedEnumerator;
-    public peInfoResolverChain<bool> sourceAwaiter;
-    public peInfoResolverChain<bool> selectedAwaiter;
-    public peInfoResolverChain selectedDisposeAsyncAwaiter;
-    public T1717636368 <Current>k__BackingField;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -545,26 +474,7 @@ public class _SelectMany : MoveNextSource
 
 public class _SelectManyAwait : MoveNextSource
 {
-    public ileFullDirectoryInformation<object> Current;
-    public ileFullDirectoryInformation<object> selectedSourceMoveNextCoreDelegate;
-    public ileFullDirectoryInformation<object> selectedEnumeratorDisposeAsyncCoreDelegate;
-    public ileFullDirectoryInformation<object> selectorAwaitCoreDelegate;
-    public ileFullDirectoryInformation<object> resultSelectorAwaitCoreDelegate;
-    public eObjectDelegate.fo<T1717636480> source;
-    public n<T1717636480,eObjectDelegate.kingField<eObjectDelegate.fo<T1717636496>>> selector1;
-    public nalInformation<T1717636480,int,eObjectDelegate.kingField<eObjectDelegate.fo<T1717636496>>> selector2;
-    public nalInformation<T1717636480,T1717636496,eObjectDelegate.kingField<T1717636512>> resultSelector;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public T1717636480 sourceCurrent;
-    public int sourceIndex;
-    public eObjectDelegate.o<T1717636480> sourceEnumerator;
-    public eObjectDelegate.o<T1717636496> selectedEnumerator;
-    public peInfoResolverChain<bool> sourceAwaiter;
-    public peInfoResolverChain<bool> selectedAwaiter;
-    public peInfoResolverChain selectedDisposeAsyncAwaiter;
-    public peInfoResolverChain<eObjectDelegate.fo<T1717636496>> collectionSelectorAwaiter;
-    public peInfoResolverChain<T1717636512> resultSelectorAwaiter;
-    public T1717636512 <Current>k__BackingField;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -584,26 +494,7 @@ public class _SelectManyAwait : MoveNextSource
 
 public class _SelectManyAwaitWithCancellation : MoveNextSource
 {
-    public ileFullDirectoryInformation<object> Current;
-    public ileFullDirectoryInformation<object> selectedSourceMoveNextCoreDelegate;
-    public ileFullDirectoryInformation<object> selectedEnumeratorDisposeAsyncCoreDelegate;
-    public ileFullDirectoryInformation<object> selectorAwaitCoreDelegate;
-    public ileFullDirectoryInformation<object> resultSelectorAwaitCoreDelegate;
-    public eObjectDelegate.fo<T1717636624> source;
-    public nalInformation<T1717636624,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<eObjectDelegate.fo<T1717636640>>> selector1;
-    public rmation<T1717636624,int,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<eObjectDelegate.fo<T1717636640>>> selector2;
-    public rmation<T1717636624,T1717636640,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717636656>> resultSelector;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public T1717636624 sourceCurrent;
-    public int sourceIndex;
-    public eObjectDelegate.o<T1717636624> sourceEnumerator;
-    public eObjectDelegate.o<T1717636640> selectedEnumerator;
-    public peInfoResolverChain<bool> sourceAwaiter;
-    public peInfoResolverChain<bool> selectedAwaiter;
-    public peInfoResolverChain selectedDisposeAsyncAwaiter;
-    public peInfoResolverChain<eObjectDelegate.fo<T1717636640>> collectionSelectorAwaiter;
-    public peInfoResolverChain<T1717636656> resultSelectorAwaiter;
-    public T1717636656 <Current>k__BackingField;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40

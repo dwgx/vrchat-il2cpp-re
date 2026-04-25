@@ -13,8 +13,6 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ClassInterfaceAttribute : Attribute
     {
-        public annelDataStore.eAttribute _val; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
     }
@@ -41,8 +39,6 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ComVisibleAttribute : Attribute
     {
-        public bool _val; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E40B5F0
     }
@@ -55,12 +51,12 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ErrorWrapper : Object
     {
-        public int m_ErrorCode; // 0x10
     }
 
     public class GCHandle : ValueType
     {
-        public UIntPtr IsAllocated; // 0x10
+        public object IsAllocated;
+        public object Target;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538F76E0 | overloaded x3
@@ -97,7 +93,6 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ListViewA`1 : Object
     {
-        public h8.<.cctor>b__7_10[] _items; // 0x10
     }
 
     public class ListViewB`1 : Object
@@ -106,11 +101,6 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class Marshal : Object
     {
-        public int SystemMaxDBCSCharSize;
-        public int SystemDefaultCharSize; // 0x4
-        public URA.DateTime<8BCA7B5CC287C51E0E3E<?,string>,annelDataStore.ionType> MarshalerInstanceCache; // 0x8
-        public object MarshalerInstanceCacheLock; // 0x10
-
         // ── Methods ──
         public void AllocCoTaskMem(){} // RVA: 0x7FFD538F7DC0
         public void AllocHGlobal(){} // RVA: 0x7FFD538F7DE0 | overloaded x2
@@ -182,10 +172,9 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class OSPlatform : ValueType
     {
-        public string Linux; // 0x10
-        public annelDataStore.reateInstanceFromMessage OSX;
-        public annelDataStore.reateInstanceFromMessage Windows; // 0x8
-        public annelDataStore.reateInstanceFromMessage <Windows>k__BackingField; // 0x10
+        public object Linux;
+        public object OSX;
+        public object Windows;
 
         // ── Methods ──
         public void get_Linux(){} // RVA: 0x7FFD538F4C60
@@ -220,9 +209,8 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class RuntimeInformation : Object
     {
-        public annelDataStore.tivate FrameworkDescription;
-        public annelDataStore.tivate OSDescription; // 0x4
-        public annelDataStore.reateInstanceFromMessage _osPlatform; // 0x8
+        public object FrameworkDescription;
+        public object OSDescription;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD538F6A10
@@ -235,12 +223,8 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class SafeHandle : CriticalFinalizerObject
     {
-        public UIntPtr IsClosed; // 0x10
-        public int IsInvalid; // 0x18
-        public bool _ownsHandle; // 0x1C
-        public bool _fullyInitialized; // 0x1D
-        public int RefCount_Mask;
-        public int RefCount_One;
+        public object IsClosed;
+        public object IsInvalid;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538F6250

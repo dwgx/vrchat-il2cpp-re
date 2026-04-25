@@ -7,21 +7,15 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Contexts
 {
     public class Context : Object
     {
-        public int DefaultContext; // 0x10
-        public int ContextID; // 0x14
-        public object ContextProperties; // 0x18
-        public object IsDefaultContext; // 0x20
-        public object[] NeedsContextSink;
-        public _HasPrivateKey.anizationSid HasGlobalDynamicSinks; // 0x8
-        public _HasPrivateKey.anizationSid HasDynamicSinks; // 0x28
-        public _HasPrivateKey.anizationSid HasExitSinks; // 0x30
-        public URA.woDigitYearMax<CS1SHA512SignatureDescription._HWND> MyLocalStore; // 0x38
-        public int global_count; // 0x10
-        public ce _localDataStore; // 0x40
-        public D_MNd _localDataStoreMgr; // 0x18
-        public CS1SHA512SignatureDescription.CRYPT_DELETEKEYSET global_dynamic_properties; // 0x20
-        public CS1SHA512SignatureDescription.CRYPT_DELETEKEYSET context_dynamic_properties; // 0x48
-        public CS1SHA512SignatureDescription.TABLE callback_object; // 0x50
+        public object DefaultContext;
+        public object ContextID;
+        public object ContextProperties;
+        public object IsDefaultContext;
+        public object NeedsContextSink;
+        public object HasGlobalDynamicSinks;
+        public object HasDynamicSinks;
+        public object HasExitSinks;
+        public object MyLocalStore;
 
         // ── Methods ──
         public void RegisterContext(){} // RVA: 0x7FFD5389E240

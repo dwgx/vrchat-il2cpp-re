@@ -16,11 +16,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BaseShaderInfoStorage : Object
     {
-        public int texture;
-        public object disposed; // 0x8
-        public object s_MarkerGetTextureData; // 0x10
-        public object s_MarkerUpdateTexture; // 0x18
-        public bool <disposed>k__BackingField; // 0x10
+        public object texture;
+        public object disposed;
 
         // ── Methods ──
         public void get_texture(){} // RVA: 0x7FFD4E078E90
@@ -44,9 +41,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BasicNode`1 : LinkedPoolItem`1
     {
-        public rsor.pdateScrollOffset<T1717597232> next;
-        public T1717597232 data;
-
         // ── Methods ──
         public void AppendTo(){} // RVA: 0x7FFD4E090A40
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -54,34 +48,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class DrawBufferRange : ValueType
     {
-        public int firstIndex; // 0x10
-        public int indexCount; // 0x14
-        public int minIndexVal; // 0x18
-        public int vertsReferenced; // 0x1C
     }
 
     public class GfxUpdateBufferRange : ValueType
     {
-        public uint offsetFromWriteStart; // 0x10
-        public uint size; // 0x14
-        public object source; // 0x18
     }
 
     public class LinkedPoolItem`1 : Object
     {
-        public T1717597200 poolNext;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
     }
 
     public class LinkedPool`1 : Object
     {
-        public ormation<T1717597216> Count;
-        public ileFullDirectoryInformation<T1717597216> m_ResetAction;
-        public int m_Limit;
-        public T1717597216 m_PoolFirst;
-        public int <Count>k__BackingField;
+        public object Count;
 
         // ── Methods ──
         public void .ctor(){}
@@ -94,12 +75,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class NativePagedList`1 : Object
     {
-        public int disposed;
-        public URA.woDigitYearMax<ÍÎÏÎÎ.ÌÌ<T1717597264>> m_Pages;
-        public ÍÎÏÎÎ.ÌÌ<T1717597264> m_CurrentPage;
-        public int m_CurrentPageCount;
-        public URA.woDigitYearMax<ÍÎÏÎÎ.ÎÎÌ<T1717597264>> m_Enumerator;
-        public bool <disposed>k__BackingField;
+        public object disposed;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -113,11 +89,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class Page : Object
     {
-        public bool disposed; // 0x10
-        public xt<ÎÏÌÎÎÎÌÌÌ..UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse> isEmpty; // 0x18
-        public xt<ushort> indices; // 0x20
-        public rsor.lineIndex next; // 0x28
-        public int framesEmpty; // 0x30
+        public object disposed;
+        public object isEmpty;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54EF8300
@@ -141,13 +114,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class ShaderInfoStorage`1 : BaseShaderInfoStorage
     {
-        public int texture;
-        public int m_MaxSize;
-        public x m_Format;
-        public n<?,T1717597280> m_Convert;
-        public ÎÏÌÎÎÎÌÌÌ._altKey m_Allocator;
-        public ector m_Texture;
-        public ÍÎÏÎÎ.ÌÌ<T1717597280> m_Texels;
+        public object texture;
 
         // ── Methods ──
         public void .ctor(){}
@@ -162,12 +129,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TempAllocator`1 : Object
     {
-        public int disposed;
-        public int m_ExcessMaxCapacity;
-        public lineIndex<T1717597312> m_Pool;
-        public URA.woDigitYearMax<lineIndex<T1717597312>> m_Excess;
-        public int m_NextExcessSize;
-        public bool <disposed>k__BackingField;
+        public object disposed;
 
         // ── Methods ──
         public void .ctor(){}
@@ -181,43 +143,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class UIRenderDevice : Object
     {
-        public bool maxVerticesPerPage; // 0x10
-        public UIntPtr breakBatches; // 0x18
-        public UIntPtr defaultShaderInfoTexFloat; // 0x20
-        public rsor.lineIndex defaultShaderInfoTexARGB8; // 0x28
-        public uint vertexTexturingIsAvailable; // 0x30
-        public uint shaderModelIs35; // 0x34
-        public float fullyCreated; // 0x38
-        public URA.woDigitYearMax<URA.woDigitYearMax<.ITextSelection.get_selectAllOnFocus>> disposed; // 0x40
-        public URA.woDigitYearMax<URA.woDigitYearMax<ction.get_tripleClickSelectsLine>> m_Updates; // 0x48
-        public uint[] m_Fences; // 0x50
-        public le m_StandardMatProps; // 0x58
-        public uint m_FrameIndex; // 0x60
-        public uint m_NextUpdateID; // 0x64
-        public lection.get_selectAllOnMouseUp m_DrawStats; // 0x68
-        public rsor.ments.ITextEdition.AcceptCharacter<rsor.t_maxLength> m_MeshHandles; // 0x90
-        public rsor.veFocusToCompositeRoot>k__BackingField m_DrawParams; // 0x98
-        public rsor.gleElementNameAndClassQuery m_TextureSlotManager; // 0xA0
-        public URA.antCultureString<ion.get_selectAllOnFocus> m_DeviceFreeQueue;
-        public int m_ActiveDeviceCount; // 0x8
-        public bool m_SubscribedToNotifications; // 0xC
-        public bool m_SynchronousFree; // 0xD
-        public int s_GradientSettingsTexID; // 0x10
-        public int s_ShaderInfoTexID; // 0x14
-        public int s_TransformsPropID; // 0x18
-        public int s_ClipRectsPropID; // 0x1C
-        public object s_MarkerAllocate; // 0x20
-        public object s_MarkerFree; // 0x28
-        public object s_MarkerAdvanceFrame; // 0x30
-        public object s_MarkerFence; // 0x38
-        public object s_MarkerBeforeDraw; // 0x40
-        public aphy<bool> s_VertexTexturingIsAvailable; // 0x48
-        public aphy<bool> s_ShaderModelIs35; // 0x4A
-        public uint <maxVerticesPerPage>k__BackingField; // 0xA8
-        public bool <breakBatches>k__BackingField; // 0xAC
-        public ector s_DefaultShaderInfoTexFloat; // 0x50
-        public ector s_DefaultShaderInfoTexARGB8; // 0x58
-        public bool <disposed>k__BackingField; // 0xAD
+        public object maxVerticesPerPage;
+        public object breakBatches;
+        public object defaultShaderInfoTexFloat;
+        public object defaultShaderInfoTexARGB8;
+        public object vertexTexturingIsAvailable;
+        public object shaderModelIs35;
+        public object fullyCreated;
+        public object disposed;
 
         // ── Methods ──
         public void get_maxVerticesPerPage(){} // RVA: 0x7FFD4ED255C0
@@ -264,15 +197,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class Utility : Object
     {
-        public ileFullDirectoryInformation<bool> GraphicsResourcesRecreate;
-        public ÎÌÍÏÏÌÍÏ EngineUpdate; // 0x8
-        public ÎÌÍÏÏÌÍÏ FlushPendingResources; // 0x10
-        public ileFullDirectoryInformation<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> RegisterIntermediateRenderers; // 0x18
-        public ileFullDirectoryInformation<UIntPtr> RenderNodeAdd; // 0x20
-        public ileFullDirectoryInformation<UIntPtr> RenderNodeExecute; // 0x28
-        public ileFullDirectoryInformation<UIntPtr> RenderNodeCleanup; // 0x30
-        public object s_MarkerRaiseEngineUpdate; // 0x38
-
         // ── Methods ──
         public void SetVectorArray(){} // RVA: 0x7FFD54EEB0D0 | overloaded x2
         public void add_GraphicsResourcesRecreate(){} // RVA: 0x7FFD54EE9E70

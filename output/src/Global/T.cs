@@ -21,25 +21,6 @@ public class TCategoryName : Object
 
 public class TEdge : Object
 {
-    public lfFrustumHeight Bot; // 0x10
-    public lfFrustumHeight Curr; // 0x20
-    public lfFrustumHeight Top; // 0x30
-    public lfFrustumHeight Delta; // 0x40
-    public double Dx; // 0x50
-    public _cornerAngleTreshold PolyTyp; // 0x58
-    public CalculateDeltaTransformationMatrix Side; // 0x5C
-    public int WindDelta; // 0x60
-    public int WindCnt; // 0x64
-    public int WindCnt2; // 0x68
-    public int OutIdx; // 0x6C
-    public m_OriginalPath Next; // 0x70
-    public m_OriginalPath Prev; // 0x78
-    public m_OriginalPath NextInLML; // 0x80
-    public m_OriginalPath NextInAEL; // 0x88
-    public m_OriginalPath PrevInAEL; // 0x90
-    public m_OriginalPath NextInSEL; // 0x98
-    public m_OriginalPath PrevInSEL; // 0xA0
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -78,50 +59,30 @@ public class TYPE2 : Object
 
 public class TabbedCanvasContent : ValueType
 {
-    public object button; // 0x10
-    public pad canvas; // 0x18
-    public ePathName117.OpenVRLaunchOption_Bool layout; // 0x20
 }
 
 public class TabbedContent : ValueType
 {
-    public object button; // 0x10
-    public BuffersImpl content; // 0x18
 }
 
 public class TableEntry : ValueType
 {
-    public UIntPtr function; // 0x10
-    public UIntPtr state; // 0x18
 }
 
 public class TableRange : ValueType
 {
-    public int Start; // 0x10
-    public int End; // 0x14
-    public int Count; // 0x18
-    public int IndexStart; // 0x1C
-    public int IndexEnd; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD537B17B0
 }
 
 public class Tables : Object
 {
-    public tyles<numeratorObject.NullPassthrough,numeratorObject.NullAttribute>[] _buckets; // 0x10
-    public object[] _locks; // 0x18
-    public int[] _countPerLock; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD51DF8200
 }
 
 public class Take : Object
 {
-    public yPermissionCheck<T1717602176> m_Observer;
-    public int m_Remaining;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void OnCompleted(){} // RVA: 0x7FFD4E090980
@@ -135,16 +96,10 @@ public class TangoUpdate : ValueType
 
 public class Target : ValueType
 {
-    public object target; // 0x10
-    public float weight; // 0x18
-    public float radius; // 0x1C
 }
 
 public class TaskNode : Task`1
 {
-    public object Prev; // 0x58
-    public object Next; // 0x60
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53AE47E0
     public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x7FFD53AE4860
@@ -153,9 +108,6 @@ public class TaskNode : Task`1
 
 public class TaskSocketAsyncEventArgs`1 : SocketAsyncEventArgs
 {
-    public ArgCount.rializationSetValue<T1717598592> _builder;
-    public bool _accessed;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
     public void GetCompletionResponsibility(){} // RVA: 0x7FFD4E2ADC40
@@ -176,13 +128,13 @@ public class TeleportDelegate : MulticastDelegate
 
 public class TestClass : ValueType
 {
-    public int value; // 0x10
 }
 
 public class TextBackingContainer : ValueType
 {
-    public uint[] Capacity; // 0x10
-    public int Count; // 0x18
+    public object Capacity;
+    public object Count;
+    public object Item;
 
     // ── Methods ──
     public void get_Capacity(){} // RVA: 0x7FFD512A6060
@@ -196,23 +148,16 @@ public class TextBackingContainer : ValueType
 
 public class TextInputBase : VisualElement
 {
-    public ÎÏÌÎÎÎÌÌÌ.yle.get_minWidth textElement;
-    public ÎÏÌÎÎÎÌÌÌ.ÎÏÌÌÍÌÎÎÎÏÍÍ>k__BackingField textSelection;
-    public ÎÏÌÎÎÎÌÌÌ.omLeftRadius textEdition;
-    public string originalText;
-    public string isReadOnly;
-    public string maxLength;
-    public string maskChar;
-    public string isPasswordField;
-    public string isDragging;
-    public string text;
-    public string innerViewportUssClassName;
-    public string innerContentContainerUssClassName;
-    public bool <isDragging>k__BackingField;
-    public tionX scrollOffset;
-    public bool m_ScrollViewWasClamped;
-    public tionX lastCursorPos;
-    public ÎÏÌÎÎÎÌÌÌ.bel m_VerticalScrollerVisibility;
+    public object textElement;
+    public object textSelection;
+    public object textEdition;
+    public object originalText;
+    public object isReadOnly;
+    public object maxLength;
+    public object maskChar;
+    public object isPasswordField;
+    public object isDragging;
+    public object text;
 
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x7FFD4E078E90
@@ -259,7 +204,9 @@ public class TextSelectionEvent : UnityEvent`3
 
 public class TextValueInput : TextInputBase
 {
-    public string textValueFieldParent;
+    public object textValueFieldParent;
+    public object allowedCharacters;
+    public object formatString;
 
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x7FFD4E078E90
@@ -284,7 +231,23 @@ public class TextureChangedCallback : MulticastDelegate
 
 public class TextureSheetAnimationModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object mode;
+    public object timeMode;
+    public object fps;
+    public object numTilesX;
+    public object numTilesY;
+    public object animation;
+    public object rowMode;
+    public object frameOverTime;
+    public object frameOverTimeMultiplier;
+    public object startFrame;
+    public object startFrameMultiplier;
+    public object cycleCount;
+    public object rowIndex;
+    public object uvChannelMask;
+    public object spriteCount;
+    public object speedRange;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -370,8 +333,6 @@ public class ThreadedLoadingDebug : ValueType
 
 public class ThrowObservable`1 : Object
 {
-    public ÏÏÍÍÎÎ value;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void Subscribe(){} // RVA: 0x7FFD4E078F40
@@ -395,8 +356,8 @@ public class TimeEventHandler : MulticastDelegate
 
 public class TimeRange : ValueType
 {
-    public float IsEmpty; // 0x10
-    public float Empty; // 0x14
+    public object IsEmpty;
+    public object Empty;
 
     // ── Methods ──
     public void get_IsEmpty(){} // RVA: 0x7FFD4FC71510
@@ -421,13 +382,7 @@ public class TimerStateScheduledItem : VisualElementScheduledItem`1
 
 public class ToCoroutineEnumerator`1 : Object
 {
-    public bool Current;
-    public ileFullDirectoryInformation<T1717670192> resultHandler;
-    public ileFullDirectoryInformation<ÏÏÍÍÎÎ> exceptionHandler;
-    public bool isStarted;
-    public eObjectDelegate.kingField<T1717670192> task;
-    public object current;
-    public .Messaging.IInternalMessage.TargetIdentity.eDictionary exception;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -439,25 +394,12 @@ public class ToCoroutineEnumerator`1 : Object
 
 public class ToRemoveData : ValueType
 {
-    public ÍÏÎÎÌÍÍ.T_CAPACITY comp; // 0x10
-    public ÍÏÎÎÌÍÍ.arker chainId; // 0x18
-    public int executionGroup; // 0x28
-    public gSmoothFactor shape; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD55263B40
 }
 
 public class ToUniTaskObserver`1 : Object
 {
-    public ileFullDirectoryInformation<object> callback;
-    public eObjectDelegate.opertyObjectCreationHandling<T1717670560> promise;
-    public n.eading.Tasks.IAsyncValueChangedEventHandler<T>.OnValueChangedAsync disposable;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public sageKind.sition registration;
-    public bool hasValue;
-    public T1717670560 latestValue;
-
     // ── Methods ──
     public void .ctor(){}
     public void OnCanceled(){} // RVA: 0x7FFD4E090A10
@@ -476,14 +418,14 @@ public class ToggleEvent : UnityEvent`1
 public class Token : ValueType
 {
     public object Type;
-    public object IsNull; // 0x8
-    public mePatterns.? Boolean; // 0x10
-    public oRegistry<char> Number; // 0x10
-    public string String; // 0x10
-    public double StringInstance; // 0x18
-    public bool Array; // 0x18
-    public 1 Object; // 0x20
-    public A_PSS_SHA_256 Value; // 0x21
+    public object IsNull;
+    public object Boolean;
+    public object Number;
+    public object String;
+    public object StringInstance;
+    public object Array;
+    public object Object;
+    public object Value;
 
     // ── Methods ──
     public void get_Type(){} // RVA: 0x7FFD4E40B5E0
@@ -519,10 +461,6 @@ public class Token : ValueType
 
 public class TokenHashValue : Object
 {
-    public string tokenString; // 0x10
-    public 1 tokenType; // 0x18
-    public int tokenValue; // 0x1C
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD531EAE30
 }
@@ -539,8 +477,6 @@ public class TrackAssetUpgrade : Object
 
 public class TrackedPose : ValueType
 {
-    public amut Position; // 0x10
-    public R_12x12 Rotation; // 0x1C
 }
 
 public class TrackingData : ValueType
@@ -551,7 +487,28 @@ public class TrackingData : ValueType
 
 public class TrailModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object mode;
+    public object ratio;
+    public object lifetime;
+    public object lifetimeMultiplier;
+    public object minVertexDistance;
+    public object textureMode;
+    public object textureScale;
+    public object worldSpace;
+    public object dieWithParticles;
+    public object sizeAffectsWidth;
+    public object sizeAffectsLifetime;
+    public object inheritParticleColor;
+    public object colorOverLifetime;
+    public object widthOverTrail;
+    public object widthOverTrailMultiplier;
+    public object colorOverTrail;
+    public object generateLightingData;
+    public object ribbonCount;
+    public object shadowBias;
+    public object splitSubEmitterRibbons;
+    public object attachRibbonsToTransform;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -647,29 +604,13 @@ public class TrailModule : ValueType
 
 public class Trails : ValueType
 {
-    public URA.woDigitYearMax<get_boundingBoxMode> positions; // 0x10
-    public URA.woDigitYearMax<int> frontPositions; // 0x18
-    public URA.woDigitYearMax<int> backPositions; // 0x20
-    public URA.woDigitYearMax<int> positionCounts; // 0x28
-    public URA.woDigitYearMax<float> textureOffsets; // 0x30
-    public int maxTrailCount; // 0x38
-    public int maxPositionsPerTrailCount; // 0x3C
-
     // ── Methods ──
     public void Allocate(){} // RVA: 0x7FFD54D71E70
 }
 
 public class TransformData : ValueType
 {
-    public es.ap lossyScale;
-    public es._14 localToWorld; // 0x10
-    public es.ap position; // 0x50
-    public es.eout rotation; // 0x5C
-    public es.ap localPosition; // 0x6C
-    public es.eout localRotation; // 0x78
-    public es.ap localScale; // 0x88
-    public es.ap prevLocalPosition; // 0x94
-    public es.eout prevLocalRotation; // 0xA0
+    public object lossyScale;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD55262E00
@@ -682,24 +623,16 @@ public class TransformData : ValueType
 
 public class TransformJobData : ValueType
 {
-    public UIntPtr TransformAccessArray;
-    public int IsReadOnly;
 }
 
 public class TransformNoiseParams : ValueType
 {
-    public object X; // 0x10
-    public object Y; // 0x1C
-    public object Z; // 0x28
-
     // ── Methods ──
     public void GetValueAt(){} // RVA: 0x7FFD4FC6D530
 }
 
 public class TransformParallelForLoopStruct`1 : ValueType
 {
-    public ÌÌÎÍÍÌÎÍÎÍÏÎÍÍÍÏÌÎÏÏÍÌÏ<UIntPtr> jobReflectionData;
-
     // ── Methods ──
     public void Initialize(){} // RVA: 0x7FFD4E0909B0
     public void Execute(){} // RVA: 0x7FFD4E099720
@@ -708,10 +641,6 @@ public class TransformParallelForLoopStruct`1 : ValueType
 
 public class TransformState : ValueType
 {
-    public nityVectorPositive identity;
-    public es.ap position; // 0x10
-    public es.eout rotation; // 0x1C
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD52626E60
     public void ToMatrix(){} // RVA: 0x7FFD55262BD0
@@ -729,10 +658,6 @@ public class TransformSurrogate : Object
 
 public class TransientBuildData : ValueType
 {
-    public URA.woDigitYearMax<?> trackList; // 0x10
-    public URA.woDigitYearMax<?> clipList; // 0x18
-    public URA.woDigitYearMax<?> markerList; // 0x20
-
     // ── Methods ──
     public void Create(){} // RVA: 0x7FFD54BE5D10
     public void Clear(){} // RVA: 0x7FFD54BE6060
@@ -740,12 +665,6 @@ public class TransientBuildData : ValueType
 
 public class TransitionEventsFrameState : Object
 {
-    public cy.gContentId<URA.ge<ÎÏÌÎÎÎÌÌÌ.?>> k_EventQueuePool;
-    public URA.DateTime<Left,.set_opacity> elementPropertyStateDelta;
-    public URA.DateTime<Left,URA.ge<ÎÏÌÎÎÎÌÌÌ.?>> elementPropertyQueuedEvents;
-    public ÎÏÌÎÎÎÌÌÌ.Stopped panel;
-    public int m_ChangesCount;
-
     // ── Methods ──
     public void GetPooledQueue(){} // RVA: 0x7FFD4E078A90
     public void RegisterChange(){} // RVA: 0x7FFD4E090980
@@ -758,19 +677,16 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionParams : ValueType
 {
-    public ias m_BlendHint; // 0x10
-    public bool m_InheritPosition; // 0x14
-    public er`3 m_OnCameraLive; // 0x18
 }
 
 public class TransitionTime : ValueType
 {
-    public DependencyInjector TimeOfDay; // 0x10
-    public byte Month; // 0x18
-    public byte Week; // 0x19
-    public byte Day; // 0x1A
-    public DE589703127976B7C5C2009E8DB37632123F45FA2B87F2E DayOfWeek; // 0x1C
-    public bool IsFixedDateRule; // 0x20
+    public object TimeOfDay;
+    public object Month;
+    public object Week;
+    public object Day;
+    public object DayOfWeek;
+    public object IsFixedDateRule;
 
     // ── Methods ──
     public void get_TimeOfDay(){} // RVA: 0x7FFD4EEF9F60
@@ -792,11 +708,8 @@ public class TransitionTime : ValueType
 
 public class TreePage : Object
 {
-    public tyles<T1717647584>[] InUseCount;
-    public int[] PageId;
-    public int _inUseCount;
-    public int _pageId;
-    public int _nextFreeSlotLine;
+    public object InUseCount;
+    public object PageId;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -819,7 +732,14 @@ public class TriggerEvent : UnityEvent
 
 public class TriggerModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object inside;
+    public object outside;
+    public object enter;
+    public object exit;
+    public object colliderQueryMode;
+    public object radiusScale;
+    public object colliderCount;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -874,9 +794,6 @@ public class TryFunction : MulticastDelegate
 
 public class Try_000000AB$BurstDirectCall : Object
 {
-    public UIntPtr Pointer;
-    public UIntPtr DeferredCompilation; // 0x8
-
     // ── Methods ──
     public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD5492F5E0
     public void GetFunctionPointer(){} // RVA: 0x7FFD5492F720
@@ -895,9 +812,6 @@ public class Try_000000AB$PostfixBurstDelegate : MulticastDelegate
 
 public class Try_000000B9$BurstDirectCall : Object
 {
-    public UIntPtr Pointer;
-    public UIntPtr DeferredCompilation; // 0x8
-
     // ── Methods ──
     public void GetFunctionPointerDiscard(){} // RVA: 0x7FFD5492FE00
     public void GetFunctionPointer(){} // RVA: 0x7FFD5492FF40
@@ -922,8 +836,6 @@ public class TypeCollections : Object
 
 public class TypeConstructorVisitor : Object
 {
-    public object TypeConstructor; // 0x10
-
     // ── Methods ──
     public void Visit(){} // RVA: 0x7FFD4E090980
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -931,9 +843,7 @@ public class TypeConstructorVisitor : Object
 
 public class TypeConstructor`1 : Object
 {
-    public ormation<T1717740800> Unity.Properties.TypeUtility.ITypeConstructor.CanBeInstantiated;
-    public ormation<T1717740800> m_ImplicitConstructor;
-    public ?<T1717740800> m_OverrideConstructor;
+    public object Unity.Properties.TypeUtility.ITypeConstructor.CanBeInstantiated;
 
     // ── Methods ──
     public void Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated(){} // RVA: 0x7FFD4E079D00

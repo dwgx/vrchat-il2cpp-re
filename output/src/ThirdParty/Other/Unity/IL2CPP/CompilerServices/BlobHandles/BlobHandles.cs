@@ -7,8 +7,8 @@ namespace ThirdParty.Other.Unity.IL2CPP.CompilerServices.BlobHandles
 {
     public class Il2CppSetOptionAttribute : Attribute
     {
-        public InverseSwizzle.te__SystemVoid Option; // 0x10
-        public object Value; // 0x18
+        public object Option;
+        public object Value;
 
         // ── Methods ──
         public void set_Option(){} // RVA: 0x7FFD4E3440C0

@@ -14,8 +14,6 @@ namespace ThirdParty.DotNet.Microsoft.Win32.SafeHandles
 
     public class SafeHandleCache`1 : Object
     {
-        public T1717582032 s_invalidHandle;
-
         // ── Methods ──
         public void IsCachedInvalidHandle(){} // RVA: 0x7FFD4E079DE0
     }

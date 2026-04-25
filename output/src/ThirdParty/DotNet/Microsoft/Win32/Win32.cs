@@ -7,35 +7,12 @@ namespace ThirdParty.DotNet.Microsoft.Win32
 {
     public class Registry : Object
     {
-        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C CurrentUser;
-        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C LocalMachine; // 0x8
-        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C ClassesRoot; // 0x10
-        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C Users; // 0x18
-        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C PerformanceData; // 0x20
-        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C CurrentConfig; // 0x28
-        public 91DE96906C2FB70018166887D85BEB84B7957.73A2D0827C DynData; // 0x30
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD537D5A30
     }
 
     public class RegistryKey : MarshalByRefObject
     {
-        public UIntPtr HKEY_CLASSES_ROOT;
-        public UIntPtr HKEY_CURRENT_USER; // 0x8
-        public UIntPtr HKEY_LOCAL_MACHINE; // 0x10
-        public UIntPtr HKEY_USERS; // 0x18
-        public UIntPtr HKEY_PERFORMANCE_DATA; // 0x20
-        public UIntPtr HKEY_CURRENT_CONFIG; // 0x28
-        public UIntPtr HKEY_DYN_DATA; // 0x30
-        public string[] s_hkeyNames; // 0x38
-        public 01B30335EAF483F59E5EDCB41DF7C4807E1B.B2E7212421547E53B _hkey; // 0x18
-        public string _keyName; // 0x20
-        public bool _remoteKey; // 0x28
-        public B247ED2023 _state; // 0x2C
-        public 91DE96906C2FB70018166887D85BEB84B7957.5039C44C37F526BDCE2E00200BE _checkMode; // 0x30
-        public 91DE96906C2FB70018166887D85BEB84B7957.3318A5A76F5FC0E725883F81ED29DAD7E32947BA8779AA3DE37F _regView; // 0x34
-
         // ── Methods ──
         public void ClosePerfDataKey(){} // RVA: 0x7FFD537D5E00
         public void OpenBaseKeyCore(){} // RVA: 0x7FFD537D5E60

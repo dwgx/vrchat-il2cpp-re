@@ -31,10 +31,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AppendPrepend`1 : Object
     {
-        public eObjectDelegate.fo<T1717621472> source;
-        public T1717621472 element;
-        public bool append;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void GetAsyncEnumerator(){}
@@ -52,15 +48,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
-        public ileFullDirectoryInformation<object> SourceCurrent;
-        public ileFullDirectoryInformation<object> Current; // 0x8
-        public eObjectDelegate.fo<T1717638672> source; // 0x38
-        public sageKind.TICMAP_SIZE cancellationToken; // 0x40
-        public eObjectDelegate.o<T1717638672> enumerator; // 0x48
-        public peInfoResolverChain<bool> sourceMoveNext; // 0x50
-        public peInfoResolverChain<bool> resultAwaiter; // 0x60
-        public T1717638672 <SourceCurrent>k__BackingField; // 0x70
-        public T1717638672 <Current>k__BackingField; // 0x78
+        public object SourceCurrent;
+        public object Current;
 
         // ── Methods ──
         public void .ctor(){}
@@ -85,12 +74,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
-        public ileFullDirectoryInformation<object> SourceCurrent;
-        public eObjectDelegate.fo<T1717638544> Current; // 0x38
-        public sageKind.TICMAP_SIZE cancellationToken; // 0x40
-        public eObjectDelegate.o<T1717638544> enumerator; // 0x48
-        public peInfoResolverChain<bool> sourceMoveNext; // 0x50
-        public T1717638544 <Current>k__BackingField; // 0x60
+        public object SourceCurrent;
+        public object Current;
 
         // ── Methods ──
         public void .ctor(){}
@@ -108,12 +93,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncSelectorEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
-        public n<T1717635344,eObjectDelegate.kingField<T1717635360>> keySelector;
-        public URA.ndar_data<T1717635360> comparer;
-        public bool descending;
-        public dLighting.rsalMode<T1717635344> next;
-        public T1717635360[] keys;
-
         // ── Methods ──
         public void .ctor(){}
         public void ComputeKeysAsync(){}
@@ -122,13 +101,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncSelectorWithCancellationEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
-        public nalInformation<T1717635408,sageKind.TICMAP_SIZE,eObjectDelegate.kingField<T1717635424>> keySelector;
-        public URA.ndar_data<T1717635424> comparer;
-        public bool descending;
-        public dLighting.rsalMode<T1717635408> next;
-        public sageKind.TICMAP_SIZE cancellationToken;
-        public T1717635424[] keys;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void ComputeKeysAsync(){}

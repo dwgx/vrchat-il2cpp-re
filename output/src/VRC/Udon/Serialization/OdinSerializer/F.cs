@@ -7,24 +7,12 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class FormatterEmitter : Object
     {
-        public int helperFormatterNameId;
-        public string PRE_EMITTED_ASSEMBLY_NAME;
-        public string RUNTIME_EMITTED_ASSEMBLY_NAME;
-
         // ── Methods ──
         public void GetEmittedFormatter(){} // RVA: 0x7FFD55408D20
     }
 
     public class FormatterLocator : Object
     {
-        public object StrongFormatters_LOCK;
-        public object WeakFormatters_LOCK; // 0x8
-        public URA.DateTime<?,CanonicalExplicitAceCount> FormatterInstances; // 0x10
-        public yNumberHandling.ay<?,CullingUpdateMarker,CanonicalExplicitAceCount> StrongTypeFormatterMap; // 0x18
-        public yNumberHandling.ay<?,CullingUpdateMarker,CanonicalExplicitAceCount> WeakTypeFormatterMap; // 0x20
-        public URA.woDigitYearMax<imator> FormatterLocators; // 0x28
-        public URA.woDigitYearMax<VolumetricText> FormatterInfos; // 0x30
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55402710
         public void add_FormatterResolve(){} // RVA: 0x7FFD55403BF0
@@ -39,13 +27,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class FormatterUtilities : Object
     {
-        public yNumberHandling.ay<CullingUpdateMarker,?,m.Int64[]> MemberArrayCache;
-        public yNumberHandling.ay<CullingUpdateMarker,?,URA.DateTime<string,m.Int64>> MemberMapCache; // 0x8
-        public object LOCK; // 0x10
-        public URA.onsDepth<?> PrimitiveArrayTypes; // 0x18
-        public m.WmiGuidObject UnityObjectRuntimeErrorStringField; // 0x20
-        public string UnityObjectRuntimeErrorString;
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD55410130
         public void GetSerializableMembersMap(){} // RVA: 0x7FFD55410CD0

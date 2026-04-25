@@ -129,9 +129,6 @@ namespace ThirdParty.DotNet.System
 
     public class AppContext : Object
     {
-        public URA.DateTime<string,alue> s_switchMap;
-        public bool s_defaultsInitialized; // 0x8
-
         // ── Methods ──
         public void InitializeDefaultSwitchValues(){} // RVA: 0x7FFD53A88240
         public void TryGetSwitch(){} // RVA: 0x7FFD53A88440
@@ -140,10 +137,6 @@ namespace ThirdParty.DotNet.System
 
     public class AppContextDefaultValues : Object
     {
-        public string SwitchEnforceJapaneseEraYearRanges;
-        public string SwitchFormatJapaneseFirstYearAsANumber; // 0x8
-        public string SwitchEnforceLegacyJapaneseDateParsing; // 0x10
-
         // ── Methods ──
         public void PopulateDefaultValues(){} // RVA: 0x7FFD4E341310
         public void TryGetSwitchOverride(){} // RVA: 0x7FFD53AB2DA0
@@ -152,36 +145,13 @@ namespace ThirdParty.DotNet.System
 
     public class AppContextSwitches : Object
     {
-        public bool SetActorAsReferenceWhenCopyingClaimsIdentity;
-        public bool NoAsyncCurrentCulture; // 0x1
-        public bool EnforceJapaneseEraYearRanges; // 0x2
-        public bool FormatJapaneseFirstYearAsANumber; // 0x3
-        public bool EnforceLegacyJapaneseDateParsing; // 0x4
     }
 
     public class AppDomain : MarshalByRefObject
     {
-        public UIntPtr CurrentDomain; // 0x18
-        public string IsHomogenous;
-        public URA.DateTime<string,object> IsFullyTrusted; // 0xFFFFFFFF
-        public URA.DateTime<string,object> assembly_resolve_in_progress; // 0xFFFFFFFF
-        public URA.DateTime<string,object> assembly_resolve_in_progress_refonly; // 0xFFFFFFFF
-        public object _evidence; // 0x20
-        public object _granted; // 0x28
-        public int _principalPolicy; // 0x30
-        public mationBypassAccessCheck AssemblyLoad; // 0x38
-        public neFromLocalMachine AssemblyResolve; // 0x40
-        public cjkIndexer DomainUnload; // 0x48
-        public cjkIndexer ProcessExit; // 0x50
-        public neFromLocalMachine ResourceResolve; // 0x58
-        public neFromLocalMachine TypeResolve; // 0x60
-        public lean UnhandledException; // 0x68
-        public tTable<.Messaging.IInternalMessage.TargetIdentity.ge.Uri> FirstChanceException; // 0x70
-        public object _domain_manager; // 0x78
-        public neFromLocalMachine ReflectionOnlyAssemblyResolve; // 0x80
-        public object _activation; // 0x88
-        public object _applicationIdentity; // 0x90
-        public URA.woDigitYearMax<string> compatibility_switch; // 0x98
+        public object CurrentDomain;
+        public object IsHomogenous;
+        public object IsFullyTrusted;
 
         // ── Methods ──
         public void IsAppXModel(){} // RVA: 0x7FFD4E341320
@@ -232,33 +202,6 @@ namespace ThirdParty.DotNet.System
 
     public class AppDomainSetup : Object
     {
-        public string application_base; // 0x10
-        public string application_name; // 0x18
-        public string cache_path; // 0x20
-        public string configuration_file; // 0x28
-        public string dynamic_base; // 0x30
-        public string license_file; // 0x38
-        public string private_bin_path; // 0x40
-        public string private_bin_path_probe; // 0x48
-        public string shadow_copy_directories; // 0x50
-        public string shadow_copy_files; // 0x58
-        public bool publisher_policy; // 0x60
-        public bool path_changed; // 0x61
-        public int loader_optimization; // 0x64
-        public bool disallow_binding_redirects; // 0x68
-        public bool disallow_code_downloads; // 0x69
-        public object _activationArguments; // 0x70
-        public object domain_initializer; // 0x78
-        public object application_trust; // 0x80
-        public string[] domain_initializer_args; // 0x88
-        public bool disallow_appbase_probe; // 0x90
-        public byte[] configuration_bytes; // 0x98
-        public byte[] serialized_non_primitives; // 0xA0
-        public string manager_assembly; // 0xA8
-        public string manager_type; // 0xB0
-        public string[] partial_visible_assemblies; // 0xB8
-        public string <TargetFrameworkName>k__BackingField; // 0xC0
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
@@ -272,7 +215,7 @@ namespace ThirdParty.DotNet.System
 
     public class ArgumentException : SystemException
     {
-        public string Message; // 0x90
+        public object Message;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5392A5F0 | overloaded x6
@@ -387,10 +330,13 @@ namespace ThirdParty.DotNet.System
 
     public class ArraySegment`1 : ValueType
     {
-        public on<BuffersImpl> Empty;
-        public BuffersImpl[] Array; // 0x10
-        public int Offset; // 0x18
-        public int Count; // 0x1C
+        public object Empty;
+        public object Array;
+        public object Offset;
+        public object Count;
+        public object System.Collections.Generic.IList<T>.Item;
+        public object System.Collections.Generic.IReadOnlyList<T>.Item;
+        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
 
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x7FFD4E2ADC40
@@ -473,10 +419,8 @@ namespace ThirdParty.DotNet.System
 
     public class AttributeUsageAttribute : Attribute
     {
-        public rmation AllowMultiple; // 0x10
-        public bool Inherited; // 0x14
-        public bool _inherited; // 0x15
-        public n Default;
+        public object AllowMultiple;
+        public object Inherited;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5392B0F0

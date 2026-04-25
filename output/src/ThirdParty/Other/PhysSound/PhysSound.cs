@@ -7,14 +7,6 @@ namespace ThirdParty.Other.PhysSound
 {
     public class PhysSoundAudioContainer : Object
     {
-        public int KeyIndex; // 0x10
-        public t SlideAudio; // 0x18
-        public object mat; // 0x20
-        public float targetVolume; // 0x28
-        public float baseVol; // 0x2C
-        public float basePitch; // 0x30
-        public float basePitchRand; // 0x34
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F9519D0
         public void Equals(){} // RVA: 0x7FFD4F951B80
@@ -36,10 +28,6 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundAudioSet : Object
     {
-        public int Key; // 0x10
-        public URA.woDigitYearMax<ies> Impacts; // 0x18
-        public ies Slide; // 0x20
-
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4F94BC40
         public void Equals(){} // RVA: 0x7FFD4F94BC50
@@ -61,20 +49,6 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundMaterial : ScriptableObject
     {
-        public int MaterialTypeKey; // 0x18
-        public int FallbackTypeIndex; // 0x1C
-        public int FallbackTypeKey; // 0x20
-        public HeadAnimatorForExport RelativeVelocityThreshold; // 0x24
-        public float PitchRandomness; // 0x2C
-        public float SlidePitchMod; // 0x30
-        public float SlideVolMultiplier; // 0x34
-        public float ImpactNormalBias; // 0x38
-        public object CollisionMask; // 0x3C
-        public bool UseCollisionVelocity; // 0x40
-        public bool ScaleImpactVolume; // 0x41
-        public URA.woDigitYearMax<sform> AudioSets; // 0x48
-        public URA.DateTime<int,sform> audioSetDic; // 0x50
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F949E90
         public void .ctor(){} // RVA: 0x7FFD4F94A310
@@ -97,22 +71,6 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundObject : PhysSoundBase
     {
-        public object SoundMaterial; // 0x20
-        public t ImpactAudio; // 0x28
-        public float ÎÎÍÎÏÌÌÏÌÍÌÍÌÎÌÌÏÌÍÍÏÍÍ; // 0x30
-        public float ÏÎÌÌÎÌÍÍÌÍÎÍÎÎÏÍÌÏÏÏÎÏÌ; // 0x34
-        public bool AutoCreateSources; // 0x38
-        public bool PlayClipAtPoint; // 0x39
-        public URA.woDigitYearMax<ÎÌÏÏÏÎÎÌÏ> AudioContainers; // 0x40
-        public URA.DateTime<int,ÎÌÏÏÏÎÎÌÏ> ÌÍÌÎÍÏÌÏÏÌÎÎÎÎÌÎÌÏÍÎÎÌÌ; // 0x48
-        public amut ÎÌÏÍÍÎÏÌÎÍÎÏÎÏÏÎÍÍÌÏÎÌÌ; // 0x50
-        public bool ÍÍÎÎÏÏÍÏÏÍÏÎÌÍÏÌÏÍÏÏÍÎÏ; // 0x5C
-        public Touched ÎÍÍÎÎÎÌÌÎÏÏÎÏÎÌÎÏÏÍÌÎÎÎ; // 0x60
-        public nfluence ÌÌÍÏÏÍÎÌÌÎÌÌÏÌÎÌÎÌÏÏÍÏÎ; // 0x68
-        public bool ÎÏÌÌÌÍÍÍÏÌÍÌÎÍÎÎÎÌÎÌÌÌÎ; // 0x70
-        public float ÌÌÍÏÎÏÌÎÎÏÏÎÌÌÌÌÍÏÏÏÏÌÏ; // 0x74
-        public float ÏÎÎÌÌÍÌÌÍÌÏÌÎÌÌÏÎÎÎÎÎÌÏ;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F94C260
         public void OnCollisionEnter2D(){} // RVA: 0x7FFD4F94C3A0
@@ -143,12 +101,6 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundTerrain : PhysSoundBase
     {
-        public ÎÍÏÎÎÎÍÎ Terrain; // 0x20
-        public URA.woDigitYearMax<?> SoundMaterials; // 0x28
-        public URA.DateTime<int,ÍÍÎÏÏÎÏÌÎÏÌÌÏÌÏÎÍÌÏÏ> ÏÏÏÏÍÎÍÏÌÎÏÍÌÌÏÍÌÍÍÎÎÍÌ; // 0x30
-        public acter ÌÎÍÎÍÎÍÌÍÌÌÏÎÎÌÎÏÍÏÍÏÌÎ; // 0x38
-        public amut ÌÍÌÎÎÏÏÌÎÎÎÎÏÍÏÏÌÏÏÌÎÌÌ; // 0x40
-
         // ── Methods ──
         public void Computetransform(){} // RVA: 0x7FFD4F956B80
         public void CalculateMaxTerrainParameter(){} // RVA: 0x7FFD4F956E80
@@ -167,9 +119,6 @@ namespace ThirdParty.Other.PhysSound
 
     public class Range : ValueType
     {
-        public float Min; // 0x10
-        public float Max; // 0x14
-
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFD4F958F60
         public void InternalEquals(){} // RVA: 0x7FFD4F958F80

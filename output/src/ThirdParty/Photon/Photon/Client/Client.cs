@@ -51,12 +51,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class EventData : Object
     {
-        public byte Item; // 0x10
-        public Ease_Out.ÎÍ Sender; // 0x18
-        public byte CustomData; // 0x20
-        public int sender; // 0x24
-        public byte CustomDataKey; // 0x28
-        public object customData; // 0x30
+        public object Item;
+        public object Sender;
+        public object CustomData;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DF2B00
@@ -128,16 +125,12 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NonAllocDictionary`2 : Object
     {
-        public uint[] Keys;
-        public int System.Collections.Generic.IDictionary<K,V>.Values;
-        public int System.Collections.Generic.IDictionary<K,V>.Keys;
-        public int Count;
-        public uint IsReadOnly;
-        public int[] Item;
-        public tyles<T1717720864,T1717720880>[] _nodes;
-        public bool isReadOnly;
-        public URA.tCalendarData<T1717720864> keys;
-        public URA.tCalendarData<T1717720880> values;
+        public object Keys;
+        public object System.Collections.Generic.IDictionary<K,V>.Values;
+        public object System.Collections.Generic.IDictionary<K,V>.Keys;
+        public object Count;
+        public object IsReadOnly;
+        public object Item;
 
         // ── Methods ──
         public void get_Keys(){} // RVA: 0x7FFD4E2ADC40
@@ -169,10 +162,7 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class OperationResponse : Object
     {
-        public byte Item; // 0x10
-        public short ReturnCode; // 0x12
-        public string DebugMessage; // 0x18
-        public Ease_Out.ÎÍ Parameters; // 0x20
+        public object Item;
 
         // ── Methods ──
         public void get_Item(){} // RVA: 0x7FFD53DF26D0
@@ -183,8 +173,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class ParameterDictionary : Object
     {
-        public Ease_Out.ÍÍÏÍÌÍÍÌÌÏÍÏÌÍÍÍÍÍÌÌ<byte,object> Item; // 0x10
-        public ÎÌÍÌÌÏÎ.ÎÍÎÍÎÌÎÎÏÎÌÌÎÎÏÍÎÏÏÌ Count; // 0x18
+        public object Item;
+        public object Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DCF5E0 | overloaded x2
@@ -204,7 +194,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonHashtable : Dictionary`2
     {
-        public object[] Item;
+        public object Item;
+        public object Item;
+        public object Item;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53DC00E0
@@ -219,55 +211,42 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonPeer : Object
     {
-        public bool ClientSdkIdShifted;
-        public bool Version;
-        public int UseAck2;
-        public Ease_Out.? SerializationProtocolType; // 0x10
-        public byte SocketImplementation; // 0x14
-        public string SocketErrorCode;
-        public bool Listener; // 0x8
-        public bool PeerState; // 0x15
-        public bool ReuseEventInstance; // 0x16
-        public bool UseByteArraySlicePoolForEvents; // 0x17
-        public bool WrapIncomingStructs; // 0x18
-        public Ease_Out.ÏÌÏÎ QuickResendAttempts; // 0x1C
-        public URA.DateTime<Ease_Out.?,?> DisconnectTimeout; // 0x20
-        public object CrcEnabled; // 0x28
-        public Ease_Out.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject ServerAddress; // 0x30
-        public Ease_Out.ÌÎÏÎÎÏ UsedProtocol; // 0x38
-        public bool TransportProtocol; // 0x40
-        public bool IsSimulationEnabled; // 0x41
-        public bool NetworkSimulationSettings; // 0x42
-        public bool MaximumTransferUnit; // 0x43
-        public int IsEncryptionAvailable; // 0x44
-        public byte PayloadEncryptorType; // 0x48
-        public int EncryptorType; // 0x4C
-        public int ServerTimeInMilliseconds; // 0x50
-        public int EnableServerTracing; // 0x54
-        public bool ConnectionTime; // 0x58
-        public int BytesIn; // 0x5C
-        public byte BytesOut; // 0x60
-        public Ease_Out.? ByteCountCurrentDispatch; // 0x61
-        public int ByteCountLastOperation; // 0xC
-        public int PacketLossByCrc; // 0x64
-        public bool PacketLossByChallenge; // 0x10
-        public bool CountDiscarded; // 0x68
-        public byte[] DeltaUnreliableNumber; // 0x70
-        public object QueuedOutgoingCommands; // 0x78
-        public byte[] Stats; // 0x80
-        public object encryptorType; // 0x88
-        public object Encryptor; // 0x90
-        public Ease_Out.? TrafficRecorder; // 0x98
-        public bool <EnableServerTracing>k__BackingField; // 0xA0
-        public bool PingUsedAsInit; // 0xA1
-        public int <CountDiscarded>k__BackingField; // 0xA4
-        public int <DeltaUnreliableNumber>k__BackingField; // 0xA8
-        public Ease_Out.? <Stats>k__BackingField; // 0xB0
-        public bool TrafficStatsEnabled; // 0xB8
-        public Ease_Out.? peerBase; // 0xC0
-        public object sendOutgoingLockObject; // 0xC8
-        public object dispatchLockObject; // 0xD0
-        public object enqueueLock; // 0xD8
+        public object ClientSdkIdShifted;
+        public object Version;
+        public object UseAck2;
+        public object SerializationProtocolType;
+        public object SocketImplementation;
+        public object SocketErrorCode;
+        public object Listener;
+        public object PeerState;
+        public object ReuseEventInstance;
+        public object UseByteArraySlicePoolForEvents;
+        public object WrapIncomingStructs;
+        public object QuickResendAttempts;
+        public object DisconnectTimeout;
+        public object CrcEnabled;
+        public object ServerAddress;
+        public object UsedProtocol;
+        public object TransportProtocol;
+        public object IsSimulationEnabled;
+        public object NetworkSimulationSettings;
+        public object MaximumTransferUnit;
+        public object IsEncryptionAvailable;
+        public object PayloadEncryptorType;
+        public object EncryptorType;
+        public object ServerTimeInMilliseconds;
+        public object EnableServerTracing;
+        public object ConnectionTime;
+        public object BytesIn;
+        public object BytesOut;
+        public object ByteCountCurrentDispatch;
+        public object ByteCountLastOperation;
+        public object PacketLossByCrc;
+        public object PacketLossByChallenge;
+        public object CountDiscarded;
+        public object DeltaUnreliableNumber;
+        public object QueuedOutgoingCommands;
+        public object Stats;
 
         // ── Methods ──
         public void get_ClientSdkIdShifted(){} // RVA: 0x7FFD53DD6FA0
@@ -338,19 +317,19 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonSocket : Object
     {
-        public Ease_Out.? Listener; // 0x10
-        public Ease_Out.? MTU; // 0x18
-        public bool State; // 0x19
-        public Ease_Out.ÏÏ SocketErrorCode; // 0x1C
-        public int Connected; // 0x20
-        public string ServerAddress; // 0x28
-        public string ProxyServerAddress; // 0x30
-        public string ServerIpAddress; // 0x38
-        public string ServerPort; // 0x40
-        public int AddressResolvedAsIpv6; // 0x48
-        public bool UrlProtocol; // 0x4C
-        public string UrlPath; // 0x50
-        public string SerializationProtocol; // 0x58
+        public object Listener;
+        public object MTU;
+        public object State;
+        public object SocketErrorCode;
+        public object Connected;
+        public object ServerAddress;
+        public object ProxyServerAddress;
+        public object ServerIpAddress;
+        public object ServerPort;
+        public object AddressResolvedAsIpv6;
+        public object UrlProtocol;
+        public object UrlPath;
+        public object SerializationProtocol;
 
         // ── Methods ──
         public void get_Listener(){} // RVA: 0x7FFD53DDA5C0
@@ -390,10 +369,6 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Pool`1 : Object
     {
-        public ormation<T1717720928> createFunction;
-        public URA.ge<T1717720928> pool;
-        public ileFullDirectoryInformation<T1717720928> resetFunction;
-
         // ── Methods ──
         public void .ctor(){}
         public void CreatePoolItems(){} // RVA: 0x7FFD4E090ED0
@@ -430,11 +405,7 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SendOptions : ValueType
     {
-        public Ease_Out.? Reliability;
-        public Ease_Out.? SendUnreliable; // 0x8
-        public Ease_Out.? DeliveryMode; // 0x10
-        public bool Encrypt; // 0x14
-        public byte Channel; // 0x15
+        public object Reliability;
 
         // ── Methods ──
         public void get_Reliability(){} // RVA: 0x7FFD53DF37A0

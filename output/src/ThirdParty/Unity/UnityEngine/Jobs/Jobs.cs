@@ -23,7 +23,9 @@ namespace ThirdParty.Unity.UnityEngine.Jobs
 
     public class TransformAccessArray : ValueType
     {
-        public UIntPtr isCreated; // 0x10
+        public object isCreated;
+        public object Item;
+        public object length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CFBF10 | overloaded x2

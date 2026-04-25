@@ -22,10 +22,6 @@ namespace ThirdParty.Other.Unity.MemoryProfiler
 
     public class MetadataInjector : Object
     {
-        public etNames.ts DefaultCollector;
-        public long CollectorCount; // 0x8
-        public byte DefaultCollectorInjected; // 0x10
-
         // ── Methods ──
         public void PlayerInitMetadata(){} // RVA: 0x7FFD54AC5680
         public void InitializeMetadataCollection(){} // RVA: 0x7FFD54AC58B0

@@ -7,8 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Profiling
 {
     public class CustomSampler : Sampler
     {
-        public arSpace.MoveTowardsAngle s_InvalidCustomSampler;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54CFB4A0
         public void .cctor(){} // RVA: 0x7FFD54CFB4F0
@@ -29,9 +27,6 @@ namespace ThirdParty.Unity.UnityEngine.Profiling
 
     public class Sampler : Object
     {
-        public UIntPtr m_Ptr; // 0x10
-        public arSpace.amp01 s_InvalidSampler;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void .cctor(){} // RVA: 0x7FFD54CFB400

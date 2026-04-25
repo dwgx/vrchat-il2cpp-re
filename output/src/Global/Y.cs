@@ -5,12 +5,7 @@
 
 public class YieldPromise : Object
 {
-    public eObjectDelegate.ion<anBeNull> NextNode;
-    public anBeNull nextNode; // 0x10
-    public sageKind.TICMAP_SIZE cancellationToken; // 0x18
-    public sageKind.sition cancellationTokenRegistration; // 0x20
-    public bool cancelImmediately; // 0x38
-    public eObjectDelegate.ataProperty>k__BackingField<object> core; // 0x40
+    public object NextNode;
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0

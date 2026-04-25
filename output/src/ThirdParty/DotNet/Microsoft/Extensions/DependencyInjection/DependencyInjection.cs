@@ -7,8 +7,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 {
     public class CallSiteJsonFormatter : CallSiteVisitor`2
     {
-        public ute.m.Collections.Immutable.dll Instance;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53744B30
         public void Format(){} // RVA: 0x7FFD53744BE0
@@ -23,9 +21,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class DependencyInjectionEventSource : EventSource
     {
-        public ute.ocFreeConcurrentStack`1 Log;
-        public URA.woDigitYearMax<numValuesAndNames<ute.SetTimeWindow>> _providers; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53746000
         public void CallSiteBuilt(){} // RVA: 0x7FFD53746920 | overloaded x2
@@ -43,7 +38,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class FromKeyedServicesAttribute : Attribute
     {
-        public object Key; // 0x10
+        public object Key;
 
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7FFD4E35C380
@@ -93,8 +88,9 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceCollection : Object
     {
-        public URA.woDigitYearMax<ute.portsPacking> Count; // 0x10
-        public bool IsReadOnly; // 0x18
+        public object Count;
+        public object IsReadOnly;
+        public object Item;
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD53740F30
@@ -125,12 +121,16 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceDescriptor : Object
     {
-        public ute.? Lifetime; // 0x10
-        public object ServiceKey; // 0x18
-        public object ServiceType; // 0x20
-        public object ImplementationType; // 0x28
-        public object KeyedImplementationType; // 0x30
-        public object ImplementationInstance; // 0x38
+        public object Lifetime;
+        public object ServiceKey;
+        public object ServiceType;
+        public object ImplementationType;
+        public object KeyedImplementationType;
+        public object ImplementationInstance;
+        public object KeyedImplementationInstance;
+        public object ImplementationFactory;
+        public object KeyedImplementationFactory;
+        public object IsKeyedService;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53742050 | overloaded x6
@@ -161,15 +161,11 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceProvider : Object
     {
-        public numeratorObject.ons.Immutable.ISecurePooledObjectUser.PoolUserId CallSiteFactory; // 0x10
-        public n<numeratorObject.posed,stem.Collections.Generic.ICollection<T>.get_Count> Root; // 0x18
-        public numeratorObject.? VerifyOpenGenericServiceTrimmability; // 0x20
-        public bool DisableDynamicEngine; // 0x28
-        public JapaneseLangName.erns<numeratorObject.posed,stem.Collections.Generic.ICollection<T>.get_Count> VerifyAotCompatibility; // 0x30
-        public numeratorObject.e <CallSiteFactory>k__BackingField; // 0x38
-        public numeratorObject.? <Root>k__BackingField; // 0x40
-        public bool <VerifyOpenGenericServiceTrimmability>k__BackingField;
-        public bool <DisableDynamicEngine>k__BackingField; // 0x1
+        public object CallSiteFactory;
+        public object Root;
+        public object VerifyOpenGenericServiceTrimmability;
+        public object DisableDynamicEngine;
+        public object VerifyAotCompatibility;
 
         // ── Methods ──
         public void get_CallSiteFactory(){} // RVA: 0x7FFD4E5F0140
@@ -195,9 +191,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 
     public class ServiceProviderOptions : Object
     {
-        public ute.fNotInitialized ValidateScopes;
-        public bool ValidateOnBuild; // 0x10
-        public bool <ValidateOnBuild>k__BackingField; // 0x11
+        public object ValidateScopes;
+        public object ValidateOnBuild;
 
         // ── Methods ──
         public void get_ValidateScopes(){} // RVA: 0x7FFD4E40B5E0

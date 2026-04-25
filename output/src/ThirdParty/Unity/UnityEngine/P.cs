@@ -7,10 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class ParticleCollisionEvent : ValueType
     {
-        public amut velocity; // 0x10
-        public amut colliderComponent; // 0x1C
-        public amut m_Velocity; // 0x28
-        public int m_ColliderInstanceID; // 0x34
+        public object velocity;
+        public object colliderComponent;
 
         // ── Methods ──
         public void get_velocity(){} // RVA: 0x7FFD54C50D10
@@ -309,13 +307,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PenData : ValueType
     {
-        public tionX position; // 0x10
-        public tionX tilt; // 0x18
-        public aycast.PopulateRaycastCommand penStatus; // 0x20
-        public float twist; // 0x24
-        public float pressure; // 0x28
-        public and contactType; // 0x2C
-        public tionX deltaPos; // 0x30
     }
 
     public class PhysicMaterial : Object
@@ -343,10 +334,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics : Object
     {
-        public rectoryInformation<njected,ÍÎÏÎÎ.ÌÌ<ightLittleIntermediate>> gravity;
-        public rectoryInformation<njected,ÍÎÏÎÎ.ÌÌ<ightLittleIntermediate>> bounceThreshold; // 0x8
-        public tRingDistal simulationMode; // 0x10
-        public ÍÏÎÍÏÏÏÏÌÏÍ>k__BackingField defaultMaxAngularSpeed; // 0x18
+        public object gravity;
+        public object bounceThreshold;
+        public object simulationMode;
+        public object defaultMaxAngularSpeed;
+        public object invokeCollisionCallbacks;
+        public object defaultPhysicsScene;
+        public object reuseCollisionCallbacks;
 
         // ── Methods ──
         public void OnSceneContactModify(){} // RVA: 0x7FFD54DA83A0
@@ -442,7 +436,24 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics2D : Object
     {
-        public URA.woDigitYearMax<nfluence> defaultPhysicsScene;
+        public object defaultPhysicsScene;
+        public object velocityIterations;
+        public object positionIterations;
+        public object gravity;
+        public object queriesHitTriggers;
+        public object queriesStartInColliders;
+        public object callbacksOnDisable;
+        public object reuseCollisionCallbacks;
+        public object velocityThreshold;
+        public object maxLinearCorrection;
+        public object maxAngularCorrection;
+        public object maxTranslationSpeed;
+        public object maxRotationSpeed;
+        public object baumgarteScale;
+        public object baumgarteTOIScale;
+        public object timeToSleep;
+        public object linearSleepTolerance;
+        public object angularSleepTolerance;
 
         // ── Methods ──
         public void get_defaultPhysicsScene(){} // RVA: 0x7FFD51B532B0
@@ -656,14 +667,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PhysicsShape2D : ValueType
     {
-        public oor m_ShapeType; // 0x10
-        public float m_Radius; // 0x14
-        public int m_VertexStartIndex; // 0x18
-        public int m_VertexCount; // 0x1C
-        public int m_UseAdjacentStart; // 0x20
-        public int m_UseAdjacentEnd; // 0x24
-        public tionX m_AdjacentStart; // 0x28
-        public tionX m_AdjacentEnd; // 0x30
     }
 
     public class PhysicsUpdateBehaviour2D : Behaviour
@@ -674,9 +677,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Plane : ValueType
     {
-        public int normal;
-        public amut distance; // 0x10
-        public float flipped; // 0x1C
+        public object normal;
+        public object distance;
+        public object flipped;
 
         // ── Methods ──
         public void get_normal(){} // RVA: 0x7FFD54C31DA0
@@ -784,9 +787,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Pose : ValueType
     {
-        public amut identity; // 0x10
-        public R_12x12 rotation; // 0x1C
-        public object k_Identity;
+        public object identity;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD52626E60
@@ -847,8 +848,6 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PropertyName : ValueType
     {
-        public int id; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E78D8B0 | overloaded x2
         public void IsNullOrEmpty(){} // RVA: 0x7FFD54CD7F90

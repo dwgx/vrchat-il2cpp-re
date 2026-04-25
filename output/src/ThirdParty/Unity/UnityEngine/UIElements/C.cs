@@ -7,11 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class CallbackEventHandler : Object
     {
-        public bool isIMGUIContainer; // 0x10
-        public ÎÏÌÎÎÎÌÌÌ.? m_CallbackRegistry; // 0x18
-        public string ExecuteDefaultActionName;
-        public string ExecuteDefaultActionAtTargetName;
-
         // ── Methods ──
         public void RegisterCallback(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
         public void AddEventCategories(){} // RVA: 0x7FFD4E090980
@@ -33,8 +28,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ChangeEvent`1 : EventBase`1
     {
-        public T1717595504 previousValue;
-        public T1717595504 newValue;
+        public object previousValue;
+        public object newValue;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -50,11 +45,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ClampedDragger`1 : Clickable
     {
-        public ÎÌÍÏÏÌÍÏ dragDirection;
-        public ÎÌÍÏÏÌÍÏ slider;
-        public ÍÏÏÌÏÎ<T1717594224> startMousePosition;
-        public ÎÏÌÎÎÎÌÌÌ.?<T1717594224> delta;
-        public tionX <startMousePosition>k__BackingField;
+        public object dragDirection;
+        public object slider;
+        public object startMousePosition;
+        public object delta;
 
         // ── Methods ──
         public void add_dragging(){} // RVA: 0x7FFD4E090A40
@@ -75,15 +69,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Clickable : PointerManipulator
     {
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.?> active; // 0x38
-        public ÎÌÍÏÏÌÍÏ lastMousePosition; // 0x40
-        public long acceptClicksIfDisabled; // 0x48
-        public long invokePolicy; // 0x50
-        public bool <active>k__BackingField; // 0x58
-        public tionX <lastMousePosition>k__BackingField; // 0x5C
-        public int m_ActivePointerId; // 0x64
-        public bool m_AcceptClicksIfDisabled; // 0x68
-        public ÎÏÌÎÎÎÌÌÌ.dFloat m_Repeater; // 0x70
+        public object active;
+        public object lastMousePosition;
+        public object acceptClicksIfDisabled;
+        public object invokePolicy;
 
         // ── Methods ──
         public void add_clickedWithEventInfo(){} // RVA: 0x7FFD54E9FF00
@@ -124,10 +113,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CollectionViewController : Object
     {
-        public ÎÏÌÎÎÎÌÌÌ.? itemsSource; // 0x10
-        public mePatterns.eseCalendarDTFI view; // 0x18
-        public ÎÌÍÏÏÌÍÏ itemsSourceChanged; // 0x20
-        public rectoryInformation<int,int> itemIndexChanged; // 0x28
+        public object itemsSource;
+        public object view;
 
         // ── Methods ──
         public void add_itemsSourceChanged(){} // RVA: 0x7FFD54EA9BB0
@@ -161,7 +148,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CollectionVirtualizationController : Object
     {
-        public ÎÏÌÎÎÎÌÌÌ.ÎÏÌÌÍÌÎÎÎÏÍÍ>k__BackingField firstVisibleIndex; // 0x10
+        public object firstVisibleIndex;
+        public object visibleItemCount;
+        public object activeItems;
 
         // ── Methods ──
         public void get_firstVisibleIndex(){} // RVA: 0x7FFD4E079960
@@ -185,30 +174,30 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Column : Object
     {
-        public string name;
-        public string title; // 0x10
-        public string icon; // 0x18
-        public ÎÏÌÎÎÎÌÌÌ.ÍÍÌÍ index; // 0x20
-        public bool displayIndex; // 0x40
-        public ÎÏÌÎÎÎÌÌÌ.CertificationValidator>k__BackingField visibleIndex; // 0x44
-        public ÎÏÌÎÎÎÌÌÌ.CertificationValidator>k__BackingField visible; // 0x4C
-        public ÎÏÌÎÎÎÌÌÌ.CertificationValidator>k__BackingField width; // 0x54
-        public float minWidth; // 0x5C
-        public bool maxWidth; // 0x60
-        public bool desiredWidth; // 0x61
-        public bool sortable; // 0x62
-        public bool stretchable; // 0x63
-        public ormation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> optional; // 0x68
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> resizable; // 0x70
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> makeHeader; // 0x78
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> bindHeader; // 0x80
-        public ormation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> unbindHeader; // 0x88
-        public rectoryInformation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius,int> destroyHeader; // 0x90
-        public rectoryInformation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius,int> makeCell; // 0x98
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> bindCell; // 0xA0
-        public ÎÏÌÎÎÎÌÌÌ.Exception_EndPositionNotReached unbindCell; // 0xA8
-        public rectoryInformation<ÎÏÌÎÎÎÌÌÌ.?,ÎÏÌÎÎÎÌÌÌ.tem.Int32>.get_Current> destroyCell; // 0xB0
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.?> collection; // 0xB8
+        public object name;
+        public object title;
+        public object icon;
+        public object index;
+        public object displayIndex;
+        public object visibleIndex;
+        public object visible;
+        public object width;
+        public object minWidth;
+        public object maxWidth;
+        public object desiredWidth;
+        public object sortable;
+        public object stretchable;
+        public object optional;
+        public object resizable;
+        public object makeHeader;
+        public object bindHeader;
+        public object unbindHeader;
+        public object destroyHeader;
+        public object makeCell;
+        public object bindCell;
+        public object unbindCell;
+        public object destroyCell;
+        public object collection;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E35C380
@@ -260,21 +249,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Columns : Object
     {
-        public URA.?<ÎÏÌÎÎÎÌÌÌ.?> primaryColumnName; // 0x10
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.?> reorderable; // 0x18
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.?> resizable; // 0x20
-        public bool resizePreview; // 0x28
-        public kingField displayList; // 0x2C
-        public bool visibleList; // 0x30
-        public bool stretchMode; // 0x31
-        public bool Count; // 0x32
-        public string IsReadOnly; // 0x38
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.hanged> Item; // 0x40
-        public rectoryInformation<ÎÏÌÎÎÎÌÌÌ.?,int> Item; // 0x48
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.?> columnRemoved; // 0x50
-        public rectoryInformation<ÎÏÌÎÎÎÌÌÌ.?,ÎÏÌÎÎÎÌÌÌ.tem.Int32>.get_Current> columnChanged; // 0x58
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.?> columnResized; // 0x60
-        public formation<ÎÏÌÎÎÎÌÌÌ.?,int,int> columnReordered; // 0x68
+        public object primaryColumnName;
+        public object reorderable;
+        public object resizable;
+        public object resizePreview;
+        public object displayList;
+        public object visibleList;
+        public object stretchMode;
+        public object Count;
+        public object IsReadOnly;
+        public object Item;
+        public object Item;
 
         // ── Methods ──
         public void get_primaryColumnName(){} // RVA: 0x7FFD4E5F0140
@@ -326,7 +311,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CommandEventBase`1 : EventBase`1
     {
-        public string commandName;
+        public object commandName;
 
         // ── Methods ──
         public void get_commandName(){} // RVA: 0x7FFD4E078E90
@@ -542,8 +527,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ComputedTransitionUtils : Object
     {
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.able> s_ComputedTransitionsBuffer;
-
         // ── Methods ──
         public void UpdateComputedTransitions(){} // RVA: 0x7FFD54FF5320
         public void HasTransitionProperty(){} // RVA: 0x7FFD54FF53D0
@@ -560,11 +543,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CreationContext : ValueType
     {
-        public ÎÏÌÎÎÎÌÌÌ.tate target;
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius visualTreeAsset; // 0x10
-        public ÎÏÌÎÎÎÌÌÌ.nt slotInsertionPoints; // 0x18
-        public URA.DateTime<string,ÎÏÌÎÎÎÌÌÌ.omLeftRadius> attributeOverrides; // 0x20
-        public URA.woDigitYearMax<ingBox> <attributeOverrides>k__BackingField; // 0x28
+        public object target;
+        public object visualTreeAsset;
+        public object slotInsertionPoints;
+        public object attributeOverrides;
 
         // ── Methods ──
         public void get_target(){} // RVA: 0x7FFD4EEF9F60
@@ -583,9 +565,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Cursor : ValueType
     {
-        public ector texture; // 0x10
-        public tionX hotspot; // 0x18
-        public int defaultCursorId; // 0x20
+        public object texture;
+        public object hotspot;
+        public object defaultCursorId;
 
         // ── Methods ──
         public void get_texture(){} // RVA: 0x7FFD4EEF9F60
@@ -602,7 +584,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CustomStyleProperty`1 : ValueType
     {
-        public string name;
+        public object name;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E078E90

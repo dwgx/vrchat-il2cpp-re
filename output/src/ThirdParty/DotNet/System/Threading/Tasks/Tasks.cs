@@ -26,16 +26,12 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class Box`1 : Object
     {
-        public T1717587184 Value;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     }
 
     public class ContinuationResultTaskFromResultTask`2 : Task`1
     {
-        public utes.?<T1717588320> m_antecedent;
-
         // ── Methods ──
         public void .ctor(){}
         public void InnerInvoke(){} // RVA: 0x7FFD4E090980
@@ -43,8 +39,6 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class ContinuationResultTaskFromTask`1 : Task`1
     {
-        public utes.Line m_antecedent;
-
         // ── Methods ──
         public void .ctor(){}
         public void InnerInvoke(){} // RVA: 0x7FFD4E090980
@@ -52,8 +46,6 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
-        public utes.?<utes.Line> m_antecedent; // 0x50
-
         // ── Methods ──
         public void .ctor(){}
         public void InnerInvoke(){} // RVA: 0x7FFD4E090980
@@ -61,8 +53,7 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class DebuggerSupport : Object
     {
-        public URA.hEraName<int,utes.Line> LoggingOn;
-        public object s_activeTasksLock; // 0x8
+        public object LoggingOn;
 
         // ── Methods ──
         public void get_LoggingOn(){} // RVA: 0x7FFD4E341320
@@ -89,9 +80,6 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class Parallel : Object
     {
-        public int s_forkJoinContextID;
-        public utes.FlashScreen s_defaultParallelOptions; // 0x8
-
         // ── Methods ──
         public void CheckTimeoutReached(){} // RVA: 0x7FFD53AFAF80
         public void ComputeTimeoutPoint(){} // RVA: 0x7FFD53AFAFB0
@@ -117,8 +105,6 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class ParallelLoopResult : ValueType
     {
-        public bool _completed; // 0x10
-        public aphy<long> _lowestBreakIteration; // 0x18
     }
 
     public class ParallelLoopState : Object
@@ -188,8 +174,7 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class SynchronizationContextTaskScheduler : TaskScheduler
     {
-        public sageKind.ironmentVariable_native MaximumConcurrencyLevel; // 0x18
-        public sageKind.st s_postCallback;
+        public object MaximumConcurrencyLevel;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537EBCC0
@@ -201,44 +186,35 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class Task : Object
     {
-        public int Options;
-        public int IsWaitNotificationEnabledOrNotRanToCompletion; // 0x10
-        public formation ShouldNotifyDebuggerOfWaitCompletion; // 0x18
-        public object IsWaitNotificationEnabled; // 0x20
-        public utes.b Id; // 0x28
-        public utes.Line CurrentId; // 0x30
-        public int InternalCurrent; // 0x38
-        public int CurrentStackGuard;
-        public int Exception;
-        public int Status;
-        public int IsCanceled;
-        public int IsCancellationRequested;
-        public int CancellationToken;
-        public int IsCancellationAcknowledged;
-        public int IsCompleted;
-        public int IsCompletedSuccessfully;
-        public int CreationOptions;
-        public int System.IAsyncResult.AsyncWaitHandle;
-        public int AsyncState;
-        public int System.IAsyncResult.CompletedSynchronously;
-        public int ExecutingTaskScheduler;
-        public int Factory;
-        public int CompletedTask;
-        public object CompletedEvent; // 0x40
-        public object ExceptionRecorded; // 0x8
-        public bool IsFaulted; // 0x10
-        public time`1 CapturedContext; // 0x48
-        public ileFullDirectoryInformation<object> IsExceptionObservedByParent; // 0x18
-        public utes.Line IsDelegateInvoked; // 0xFFFFFFFF
-        public utes.ocessor t_stackGuard; // 0xFFFFFFFF
-        public ormation<time`1> s_createContingentProperties; // 0x20
-        public utes.Callback <Factory>k__BackingField; // 0x28
-        public utes.Line <CompletedTask>k__BackingField; // 0x30
-        public rmation<utes.Line> s_IsExceptionObservedByParentPredicate; // 0x38
-        public sageKind.st s_ecCallback; // 0x40
-        public rmation<object> s_IsTaskContinuationNullPredicate; // 0x48
-        public URA.DateTime<int,utes.Line> s_currentActiveTasks; // 0x50
-        public object s_activeTasksLock; // 0x58
+        public object Options;
+        public object IsWaitNotificationEnabledOrNotRanToCompletion;
+        public object ShouldNotifyDebuggerOfWaitCompletion;
+        public object IsWaitNotificationEnabled;
+        public object Id;
+        public object CurrentId;
+        public object InternalCurrent;
+        public object CurrentStackGuard;
+        public object Exception;
+        public object Status;
+        public object IsCanceled;
+        public object IsCancellationRequested;
+        public object CancellationToken;
+        public object IsCancellationAcknowledged;
+        public object IsCompleted;
+        public object IsCompletedSuccessfully;
+        public object CreationOptions;
+        public object System.IAsyncResult.AsyncWaitHandle;
+        public object AsyncState;
+        public object System.IAsyncResult.CompletedSynchronously;
+        public object ExecutingTaskScheduler;
+        public object Factory;
+        public object CompletedTask;
+        public object CompletedEvent;
+        public object ExceptionRecorded;
+        public object IsFaulted;
+        public object CapturedContext;
+        public object IsExceptionObservedByParent;
+        public object IsDelegateInvoked;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53AFD7B0 | overloaded x7
@@ -354,7 +330,7 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class TaskCompletionSource`1 : Object
     {
-        public utes.?<qualSByteLiftedToNull> Task; // 0x10
+        public object Task;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD51E025B0 | overloaded x4
@@ -376,10 +352,7 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class TaskFactory : Object
     {
-        public sageKind.TICMAP_SIZE Scheduler; // 0x10
-        public utes.b m_defaultScheduler; // 0x18
-        public utes.3 m_defaultCreationOptions; // 0x20
-        public utes.1Threshold m_defaultContinuationOptions; // 0x24
+        public object Scheduler;
 
         // ── Methods ──
         public void GetDefaultScheduler(){} // RVA: 0x7FFD537EA370
@@ -395,11 +368,6 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class TaskFactory`1 : Object
     {
-        public sageKind.TICMAP_SIZE m_defaultCancellationToken; // 0x10
-        public utes.b m_defaultScheduler; // 0x18
-        public utes.3 m_defaultCreationOptions; // 0x20
-        public utes.1Threshold m_defaultContinuationOptions; // 0x24
-
         // ── Methods ──
         public void GetDefaultScheduler(){} // RVA: 0x7FFD4E078F40
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -412,12 +380,6 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class TaskReplicator : Object
     {
-        public utes.b _scheduler; // 0x10
-        public bool _stopOnFirstFailure; // 0x18
-        public JapaneseLangName.me<ExitDoublewideMode> _pendingReplicas; // 0x20
-        public JapaneseLangName.me<ÏÏÍÍÎÎ> _exceptions; // 0x28
-        public bool _stopReplicating; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53AFBF20
         public void Run(){} // RVA: 0x7FFD4E099CB0
@@ -426,12 +388,12 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class TaskScheduler : Object
     {
-        public ArgCount.ent<utes.b,object> MaximumConcurrencyLevel;
-        public utes.b RequiresAtomicStartTransition; // 0x8
-        public int Default; // 0x10
-        public int Current; // 0x10
-        public tTable<utes.CompleteWithCallback> InternalCurrent; // 0x18
-        public sageKind.? Id; // 0x20
+        public object MaximumConcurrencyLevel;
+        public object RequiresAtomicStartTransition;
+        public object Default;
+        public object Current;
+        public object InternalCurrent;
+        public object Id;
 
         // ── Methods ──
         public void QueueTask(){} // RVA: 0x7FFD4E090A40
@@ -471,8 +433,9 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class Task`1 : Task
     {
-        public utes.?<utes.on> Result; // 0x50
-        public utes.yPcChar<utes.?<utes.on>> ResultOnSuccess;
+        public object Result;
+        public object ResultOnSuccess;
+        public object Factory;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD52067050 | overloaded x8
@@ -491,7 +454,7 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class ThreadPoolTaskScheduler : TaskScheduler
     {
-        public sageKind.atFlags RequiresAtomicStartTransition;
+        public object RequiresAtomicStartTransition;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD537EC1B0
@@ -505,8 +468,7 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class UnwrapPromise`1 : Task`1
     {
-        public byte InvokeMayRunArbitraryCode; // 0x58
-        public bool _lookForOce; // 0x59
+        public object InvokeMayRunArbitraryCode;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E096500
@@ -521,11 +483,9 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class ValueTask : ValueType
     {
-        public utes.Line CompletedTask;
-        public utes.Line IsCompleted; // 0x8
-        public object IsCompletedSuccessfully; // 0x10
-        public short _token; // 0x18
-        public bool _continueOnCapturedContext; // 0x1A
+        public object CompletedTask;
+        public object IsCompleted;
+        public object IsCompletedSuccessfully;
 
         // ── Methods ──
         public void get_CompletedTask(){} // RVA: 0x7FFD53AF9A90
@@ -544,11 +504,9 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 
     public class ValueTask`1 : ValueType
     {
-        public utes.?<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> IsCompleted;
-        public object IsCompletedSuccessfully; // 0x10
-        public ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ Result; // 0x18
-        public short _token; // 0x20
-        public bool _continueOnCapturedContext; // 0x22
+        public object IsCompleted;
+        public object IsCompletedSuccessfully;
+        public object Result;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5248FAC0 | overloaded x4

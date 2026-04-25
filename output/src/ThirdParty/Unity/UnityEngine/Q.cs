@@ -7,7 +7,24 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class QualitySettings : Object
     {
-        public rectoryInformation<int,int> pixelLightCount;
+        public object pixelLightCount;
+        public object shadowCascades;
+        public object shadowDistance;
+        public object shadowResolution;
+        public object shadowCascade2Split;
+        public object shadowCascade4Split;
+        public object lodBias;
+        public object maximumLODLevel;
+        public object particleRaycastBudget;
+        public object vSyncCount;
+        public object antiAliasing;
+        public object resolutionScalingFixedDPIFactor;
+        public object count;
+        public object streamingMipmapsMemoryBudget;
+        public object streamingMipmapsMaxLevelReduction;
+        public object maxQueuedFrames;
+        public object names;
+        public object activeColorSpace;
 
         // ── Methods ──
         public void OnActiveQualityLevelChanged(){} // RVA: 0x7FFD54C924E0
@@ -51,12 +68,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Quaternion : ValueType
     {
-        public float Item; // 0x10
-        public float identity; // 0x14
-        public float eulerAngles; // 0x18
-        public float normalized; // 0x1C
-        public R_12x12 identityQuaternion;
-        public float kEpsilon;
+        public object Item;
+        public object identity;
+        public object eulerAngles;
+        public object normalized;
 
         // ── Methods ──
         public void FromToRotation(){} // RVA: 0x7FFD54CCF530

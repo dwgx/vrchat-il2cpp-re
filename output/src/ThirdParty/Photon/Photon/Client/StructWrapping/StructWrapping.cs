@@ -7,9 +7,6 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 {
     public class StructWrapper : Object
     {
-        public ÎÌÍÌÌÏÎ.ÌÍÎÏÍÏÎÌÍÌÌÏÎ wrappedType; // 0x10
-        public object ttype; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53E00B90
         public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -25,12 +22,6 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapperPool`1 : StructWrapperPool
     {
-        public int GROWBY;
-        public object tType;
-        public ÎÌÍÌÌÏÎ.ÌÍÎÏÍÏÎÌÍÌÌÏÎ wType;
-        public URA.leEastFrench<ÎÌÍÌÌÏÎ.ÍÎÌÌÌÏÍÍÌ<T1717720960>> pool;
-        public bool isStaticPool;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E091060
         public void Acquire(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -39,11 +30,6 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapperPools : Object
     {
-        public ÎÌÍÌÌÏÎ.ÍÎÌÌÌÏÍÍÌ<byte>[] mappedByteWrappers;
-        public ÎÌÍÌÌÏÎ.ÍÎÌÌÌÏÍÍÌ<bool>[] mappedBoolWrappers; // 0x8
-        public URA.DateTime<?,ÎÌÍÌÌÏÎ.?> pools; // 0x10
-        public URA.woDigitYearMax<Names> used; // 0x18
-
         // ── Methods ──
         public void GetPoolForType(){} // RVA: 0x7FFD4E078E90
         public void Acquire(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
@@ -61,10 +47,7 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapper`1 : StructWrapper
     {
-        public ÎÌÍÌÌÏÎ.?<T1717720944> ReturnPool;
-        public ÎÌÍÌÌÏÎ.ÏÏÍÏÏÍÎÍÍÎÏÎÌÎÏÏ pooling;
-        public T1717720944 value;
-        public ÎÌÍÌÌÏÎ.?<T1717720944> staticPool;
+        public object ReturnPool;
 
         // ── Methods ──
         public void get_ReturnPool(){} // RVA: 0x7FFD4E078E90

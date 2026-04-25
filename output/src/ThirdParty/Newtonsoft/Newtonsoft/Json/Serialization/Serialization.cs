@@ -7,8 +7,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 {
     public class CachedAttributeGetter`1 : Object
     {
-        public rnToTarget.ltFloatParseHandling<object,T1717646160> TypeAttributeCache;
-
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0x7FFD4E2ADC40
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -16,18 +14,15 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class DefaultContractResolver : Object
     {
-        public eckAdditionalContent.iteEndAsync Instance;
-        public string[] DynamicCodeGeneration; // 0x8
-        public ex.IKSolverAim[] DefaultMembersSearchFlags; // 0x10
-        public ex.etOffset SerializeCompilerGeneratedMembers; // 0x10
-        public rnToTarget.ltFloatParseHandling<?,eckAdditionalContent.terAsync>d__9> IgnoreSerializableInterface; // 0x18
-        public m.unt IgnoreSerializableAttribute; // 0x20
-        public bool IgnoreIsSpecifiedMembers; // 0x24
-        public bool IgnoreShouldSerializeMembers; // 0x25
-        public bool NamingStrategy; // 0x26
-        public bool <IgnoreIsSpecifiedMembers>k__BackingField; // 0x27
-        public bool <IgnoreShouldSerializeMembers>k__BackingField; // 0x28
-        public eckAdditionalContent.eference <NamingStrategy>k__BackingField; // 0x30
+        public object Instance;
+        public object DynamicCodeGeneration;
+        public object DefaultMembersSearchFlags;
+        public object SerializeCompilerGeneratedMembers;
+        public object IgnoreSerializableInterface;
+        public object IgnoreSerializableAttribute;
+        public object IgnoreIsSpecifiedMembers;
+        public object IgnoreShouldSerializeMembers;
+        public object NamingStrategy;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD53B98E20
@@ -168,10 +163,6 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonFormatterConverter : Object
     {
-        public eckAdditionalContent.DecimalZero _reader; // 0x10
-        public eckAdditionalContent.>b__27_0 _contract; // 0x18
-        public eckAdditionalContent.tibleValue _member; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53BABA50
         public void GetTokenValue(){} // RVA: 0x7FFD4E2ADC40
@@ -195,19 +186,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonTypeReflector : Object
     {
-        public aphy<bool> DynamicCodeGeneration;
-        public aphy<bool> FullyTrusted; // 0x2
-        public string ReflectionDelegateFactory;
-        public string RefPropertyName;
-        public string TypePropertyName;
-        public string ValuePropertyName;
-        public string ArrayValuesPropertyName;
-        public string ShouldSerializePrefix;
-        public string SpecifiedPostfix;
-        public string ConcurrentDictionaryTypeName;
-        public rnToTarget.ltFloatParseHandling<?,n<object[],object>> CreatorCache; // 0x8
-        public rnToTarget.ltFloatParseHandling<?,?> AssociatedMetadataTypesCache; // 0x10
-        public rnToTarget.tructorHandling _metadataTypeAttributeReflectionObject; // 0x18
+        public object DynamicCodeGeneration;
+        public object FullyTrusted;
+        public object ReflectionDelegateFactory;
 
         // ── Methods ──
         public void GetCachedAttribute(){} // RVA: 0x7FFD4E2ADC40

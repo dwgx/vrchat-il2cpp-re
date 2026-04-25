@@ -5,11 +5,6 @@
 
 public class ONSPAmbisonicsNative : MonoBehaviour
 {
-    public t ÌÎÏÏÍÌÏÍÏÌÍÏÌÌÏÌÎÍÎÎÍÎÍ; // 0x20
-    public int ÎÌÎÎÎÌÏÌÎÏÌÌÌÌÎÌÍÍÍÌÍÍÌ;
-    public int ÏÌÍÍÏÍÎÏÎÌÏÍÏÌÏÎÏÍÌÎÌÍÌ; // 0x4
-    public object ÌÌÏÍÌÏÏÎÍÎÌÌÌÏÎÍÍÎÌÎÎÍÌ; // 0x28
-
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EF36FF0
     public void RaiseCancellation(){} // RVA: 0x7FFD4EF37470
@@ -25,16 +20,14 @@ public class ONSPAmbisonicsNative : MonoBehaviour
 
 public class ONSPAudioSource : MonoBehaviour
 {
-    public string _destroyCancellationToken;
-    public bool _useGUILayout; // 0x20
-    public float f_9A6; // 0x24
-    public bool f_7DA; // 0x28
-    public float f_CCF; // 0x2C
-    public float f_294; // 0x30
-    public float f_269; // 0x34
-    public float f_88D; // 0x38
-    public bool enableRfl; // 0x3C
-    public ÏÏÍÎÌÌÌÏÏÏÏÍÏÌÌÏÍÍÌÌ ÎÎÎÎÏÎÍÎÍÏÏÌÍÍÌÎÍÍÍÍÎÍÎ;
+    public object _destroyCancellationToken;
+    public object _useGUILayout;
+    public object f_9A6;
+    public object f_7DA;
+    public object f_CCF;
+    public object f_294;
+    public object f_269;
+    public object f_88D;
 
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F7F0A50
@@ -76,11 +69,6 @@ public class ONSPAudioSource : MonoBehaviour
 
 public class ONSPReflectionZone : MonoBehaviour
 {
-    public ield.onstructor mixerSnapshot; // 0x20
-    public float fadeTime; // 0x28
-    public URA.leEastFrench<ÏÍÏÍÌÎÎÌÎÌ> ÏÏÌÍÎÍÍÌÎÌÎÌÍÏÌÍÎÍÏÎÍÍÏ;
-    public ÏÍÏÍÌÎÎÌÎÌ ÍÌÍÍÎÏÍÍÌÎÏÍÍÌÏÌÎÏÍÎÎÌÏ; // 0x8
-
     // ── Methods ──
     public void OnTriggerExit(){} // RVA: 0x7FFD4EEA39E0
     public void .cctor(){} // RVA: 0x7FFD4EEA3A70
@@ -103,8 +91,7 @@ public class ONSPReflectionZone : MonoBehaviour
 
 public class ONSPSettings : ScriptableObject
 {
-    public int Instance; // 0x18
-    public object instance;
+    public object Instance;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4F7F3720
@@ -119,9 +106,6 @@ public class ONSPSettings : ScriptableObject
 
 public class OVRAudioSourceTest : MonoBehaviour
 {
-    public float period; // 0x20
-    public float nextActionTime; // 0x24
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD53D4D6D0
     public void Update(){} // RVA: 0x7FFD53D4D890
@@ -138,13 +122,7 @@ public class OVRAutoDestroyInMRC : MonoBehaviour
 
 public class OVRBody : MonoBehaviour
 {
-    public phore BodyState; // 0x20
-    public ?[] _boneRotations; // 0x38
-    public ?[] _boneTranslations; // 0x40
-    public bool _dataChangedSinceLastQuery; // 0x48
-    public bool _hasData; // 0x49
-    public ey>k__BackingField BodyTrackingPermission;
-    public ileFullDirectoryInformation<string> _onPermissionGranted; // 0x50
+    public object BodyState;
 
     // ── Methods ──
     public void get_BodyState(){} // RVA: 0x7FFD53CB7600
@@ -165,11 +143,6 @@ public class OVRBody : MonoBehaviour
 
 public class OVRBoundary : Object
 {
-    public int cachedVector3fSize;
-    public ame cachedGeometryNativeBuffer; // 0x8
-    public float[] cachedGeometryManagedBuffer; // 0x10
-    public URA.woDigitYearMax<amut> cachedGeometryList; // 0x10
-
     // ── Methods ──
     public void GetConfigured(){} // RVA: 0x7FFD53CB8120
     public void TestNode(){} // RVA: 0x7FFD53CB8330
@@ -184,17 +157,6 @@ public class OVRBoundary : Object
 
 public class OVRCameraComposition : OVRComposition
 {
-    public BuffersImpl cameraFramePlaneObject; // 0x40
-    public float cameraFramePlaneDistance; // 0x48
-    public bool hasCameraDeviceOpened; // 0x4C
-    public ansformType cameraDevice; // 0x50
-    public object boundaryMesh; // 0x58
-    public float boundaryMeshTopY; // 0x60
-    public float boundaryMeshBottomY; // 0x64
-    public ata boundaryMeshType; // 0x68
-    public >d__15 cameraFrameCompositionManager; // 0x70
-    public bool nullcameraRigWarningDisplayed; // 0x78
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53CACD30
     public void Cleanup(){} // RVA: 0x7FFD53CADA60
@@ -206,34 +168,17 @@ public class OVRCameraComposition : OVRComposition
 
 public class OVRCameraRig : MonoBehaviour
 {
-    public object leftEyeCamera; // 0x20
-    public object rightEyeCamera; // 0x28
-    public object trackingSpace; // 0x30
-    public object leftEyeAnchor; // 0x38
-    public object centerEyeAnchor; // 0x40
-    public object rightEyeAnchor; // 0x48
-    public object leftHandAnchor; // 0x50
-    public object rightHandAnchor; // 0x58
-    public object leftControllerAnchor; // 0x60
-    public ileFullDirectoryInformation<__4> rightControllerAnchor; // 0x68
-    public ileFullDirectoryInformation<?> trackerAnchor; // 0x70
-    public bool usePerEyeCameras; // 0x78
-    public bool useFixedUpdateForTracking; // 0x79
-    public bool disableEyeAnchorCameras; // 0x7A
-    public bool _skipUpdate; // 0x7B
-    public string trackingSpaceName; // 0x80
-    public string trackerAnchorName; // 0x88
-    public string leftEyeAnchorName; // 0x90
-    public string centerEyeAnchorName; // 0x98
-    public string rightEyeAnchorName; // 0xA0
-    public string leftHandAnchorName; // 0xA8
-    public string rightHandAnchorName; // 0xB0
-    public string leftControllerAnchorName; // 0xB8
-    public string rightControllerAnchorName; // 0xC0
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _centerEyeCamera; // 0xC8
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _leftEyeCamera; // 0xD0
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _rightEyeCamera; // 0xD8
-    public tSizeBias _previousTrackingSpaceTransform; // 0xE0
+    public object leftEyeCamera;
+    public object rightEyeCamera;
+    public object trackingSpace;
+    public object leftEyeAnchor;
+    public object centerEyeAnchor;
+    public object rightEyeAnchor;
+    public object leftHandAnchor;
+    public object rightHandAnchor;
+    public object leftControllerAnchor;
+    public object rightControllerAnchor;
+    public object trackerAnchor;
 
     // ── Methods ──
     public void get_leftEyeCamera(){} // RVA: 0x7FFD53CB9710
@@ -277,9 +222,6 @@ public class OVRCameraRig : MonoBehaviour
 
 public class OVRChromaticAberration : MonoBehaviour
 {
-    public onTracker toggleButton; // 0x20
-    public bool chromatic; // 0x24
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD53D4DE80
     public void Update(){} // RVA: 0x7FFD53D4DF30
@@ -288,11 +230,6 @@ public class OVRChromaticAberration : MonoBehaviour
 
 public class OVRComposition : Object
 {
-    public bool cameraInTrackingSpace; // 0x10
-    public __4 cameraRig; // 0x18
-    public bool usingLastAttachedNodePose; // 0x20
-    public tion lastAttachedNodePose; // 0x24
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53CB0F30
     public void CompositionMethod(){} // RVA: 0x7FFD4E079960
@@ -318,22 +255,6 @@ public class OVRCompositionUtil : Object
 
 public class OVRControllerHelper : MonoBehaviour
 {
-    public BuffersImpl m_modelOculusTouchQuestAndRiftSLeftController; // 0x20
-    public BuffersImpl m_modelOculusTouchQuestAndRiftSRightController; // 0x28
-    public BuffersImpl m_modelOculusTouchRiftLeftController; // 0x30
-    public BuffersImpl m_modelOculusTouchRiftRightController; // 0x38
-    public BuffersImpl m_modelOculusTouchQuest2LeftController; // 0x40
-    public BuffersImpl m_modelOculusTouchQuest2RightController; // 0x48
-    public ÍÏÍÌÍ m_controller; // 0x50
-    public stfix m_animator; // 0x58
-    public BuffersImpl m_activeController; // 0x60
-    public bool m_controllerModelsInitialized; // 0x68
-    public bool m_hasInputFocus; // 0x69
-    public bool m_hasInputFocusPrev; // 0x6A
-    public _24 activeControllerType; // 0x6C
-    public bool m_prevControllerConnected; // 0x70
-    public bool m_prevControllerConnectedCached; // 0x71
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD53D4E070
     public void InitializeControllerModels(){} // RVA: 0x7FFD53D4E0E0
@@ -345,12 +266,6 @@ public class OVRControllerHelper : MonoBehaviour
 
 public class OVRControllerTest : MonoBehaviour
 {
-    public ePathName117.? uiText; // 0x20
-    public URA.woDigitYearMax<xpressionWeights_29> monitors; // 0x28
-    public em.MarkAborted.izeDefaultCase data; // 0x30
-    public string prevConnected;
-    public xpressionWeights_29 controllers; // 0x8
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD53D4F270
     public void Update(){} // RVA: 0x7FFD53D51880
@@ -360,13 +275,6 @@ public class OVRControllerTest : MonoBehaviour
 
 public class OVRCubemapCapture : MonoBehaviour
 {
-    public bool autoTriggerAfterLaunch; // 0x20
-    public float autoTriggerDelay; // 0x24
-    public float autoTriggerElapse; // 0x28
-    public Flag triggeredByKey; // 0x2C
-    public string pathName; // 0x30
-    public int cubemapSize; // 0x38
-
     // ── Methods ──
     public void Update(){} // RVA: 0x7FFD53D53EF0
     public void TriggerCubemapCapture(){} // RVA: 0x7FFD53D54170
@@ -385,7 +293,7 @@ public class OVRCursor : MonoBehaviour
 
 public class OVRCustomSkeleton : OVRSkeleton
 {
-    public URA.woDigitYearMax<?> CustomBones; // 0xC0
+    public object CustomBones;
 
     // ── Methods ──
     public void get_CustomBones(){} // RVA: 0x7FFD4E3AC120
@@ -397,16 +305,6 @@ public class OVRCustomSkeleton : OVRSkeleton
 
 public class OVRDebugHeadController : MonoBehaviour
 {
-    public bool AllowPitchLook; // 0x20
-    public bool AllowYawLook; // 0x21
-    public bool InvertPitch; // 0x22
-    public float GamePad_PitchDegreesPerSec; // 0x24
-    public float GamePad_YawDegreesPerSec; // 0x28
-    public bool AllowMovement; // 0x2C
-    public float ForwardSpeed; // 0x30
-    public float StrafeSpeed; // 0x34
-    public __4 CameraRig; // 0x38
-
     // ── Methods ──
     public void Awake(){} // RVA: 0x7FFD53CC1E50
     public void Start(){} // RVA: 0x7FFD4E341310
@@ -416,35 +314,6 @@ public class OVRDebugHeadController : MonoBehaviour
 
 public class OVRDebugInfo : MonoBehaviour
 {
-    public BuffersImpl debugUIManager; // 0x20
-    public BuffersImpl debugUIObject; // 0x28
-    public BuffersImpl riftPresent; // 0x30
-    public BuffersImpl fps; // 0x38
-    public BuffersImpl ipd; // 0x40
-    public BuffersImpl fov; // 0x48
-    public BuffersImpl height; // 0x50
-    public BuffersImpl depth; // 0x58
-    public BuffersImpl resolutionEyeTexture; // 0x60
-    public BuffersImpl latencies; // 0x68
-    public BuffersImpl texts; // 0x70
-    public string strRiftPresent; // 0x78
-    public string strFPS; // 0x80
-    public string strIPD; // 0x88
-    public string strFOV; // 0x90
-    public string strHeight; // 0x98
-    public string strDepth; // 0xA0
-    public string strResolutionEyeTexture; // 0xA8
-    public string strLatencies; // 0xB0
-    public float updateInterval; // 0xB8
-    public float accum; // 0xBC
-    public int frames; // 0xC0
-    public float timeLeft; // 0xC4
-    public bool initUIComponent; // 0xC8
-    public bool isInited; // 0xC9
-    public float offsetY; // 0xCC
-    public float riftPresentTimeout; // 0xD0
-    public bool showVRVars; // 0xD4
-
     // ── Methods ──
     public void Awake(){} // RVA: 0x7FFD53D55350
     public void Update(){} // RVA: 0x7FFD53D557C0
@@ -474,11 +343,6 @@ public class OVRDeserialize : Object
 
 public class OVRDirectComposition : OVRCameraComposition
 {
-    public BuffersImpl previousMainCameraObject; // 0x80
-    public BuffersImpl directCompositionCameraGameObject; // 0x88
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ directCompositionCamera; // 0x90
-    public Offset boundaryMeshMaskTexture; // 0x98
-
     // ── Methods ──
     public void CompositionMethod(){} // RVA: 0x7FFD4E433AF0
     public void .ctor(){} // RVA: 0x7FFD53CB2660
@@ -489,12 +353,15 @@ public class OVRDirectComposition : OVRCameraComposition
 
 public class OVRDisplay : Object
 {
-    public bool acceleration; // 0x10
-    public eUrlPath[] angularAcceleration; // 0x18
-    public bool velocity; // 0x20
-    public int angularVelocity; // 0x24
-    public int latency; // 0x28
-    public ÎÌÍÏÏÌÍÏ appFramerate; // 0x30
+    public object acceleration;
+    public object angularAcceleration;
+    public object velocity;
+    public object angularVelocity;
+    public object latency;
+    public object appFramerate;
+    public object recommendedMSAALevel;
+    public object displayFrequenciesAvailable;
+    public object displayFrequency;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53CC2D80
@@ -551,15 +418,6 @@ public class OVRExtensions : Object
 
 public class OVRExternalComposition : OVRComposition
 {
-    public BuffersImpl previousMainCameraObject; // 0x40
-    public BuffersImpl foregroundCameraGameObject; // 0x48
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ foregroundCamera; // 0x50
-    public BuffersImpl backgroundCameraGameObject; // 0x58
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ backgroundCamera; // 0x60
-    public object audioDataLock; // 0x68
-    public URA.woDigitYearMax<float> cachedAudioData; // 0x70
-    public int cachedChannels; // 0x78
-
     // ── Methods ──
     public void CompositionMethod(){} // RVA: 0x7FFD4E919180
     public void .ctor(){} // RVA: 0x7FFD53CB3FE0
@@ -572,19 +430,8 @@ public class OVRExternalComposition : OVRComposition
 
 public class OVREyeGaze : MonoBehaviour
 {
-    public Transport EyeTrackingEnabled; // 0x20
-    public float Confidence; // 0x24
-    public float ConfidenceThreshold; // 0x28
-    public bool ApplyPosition; // 0x2C
-    public bool ApplyRotation; // 0x2D
-    public etries _currentEyeGazesState; // 0x30
-    public object ReferenceFrame; // 0x40
-    public ort TrackingMode; // 0x48
-    public R_12x12 _initialRotationOffset; // 0x4C
-    public object _viewTransform; // 0x60
-    public ey>k__BackingField EyeTrackingPermission;
-    public ileFullDirectoryInformation<string> _onPermissionGranted; // 0x68
-    public bool _lastEyeDataValid; // 0x70
+    public object EyeTrackingEnabled;
+    public object Confidence;
 
     // ── Methods ──
     public void get_EyeTrackingEnabled(){} // RVA: 0x7FFD53CC4C30
@@ -606,11 +453,11 @@ public class OVREyeGaze : MonoBehaviour
 
 public class OVRFaceExpressions : MonoBehaviour
 {
-    public bool FaceTrackingEnabled; // 0x20
-    public bool ValidExpressions; // 0x21
-    public ects EyeFollowingBlendshapesValid; // 0x28
-    public ey>k__BackingField Item;
-    public ileFullDirectoryInformation<string> Count; // 0x48
+    public object FaceTrackingEnabled;
+    public object ValidExpressions;
+    public object EyeFollowingBlendshapesValid;
+    public object Item;
+    public object Count;
 
     // ── Methods ──
     public void get_FaceTrackingEnabled(){} // RVA: 0x7FFD53CC63F0
@@ -640,16 +487,6 @@ public class OVRFaceExpressions : MonoBehaviour
 
 public class OVRGLTFAccessor : Object
 {
-    public int byteOffset; // 0x10
-    public int byteLength; // 0x14
-    public int byteStride; // 0x18
-    public int bufferId; // 0x1C
-    public int bufferLength; // 0x20
-    public int additionalOffset; // 0x24
-    public _BackingField dataType; // 0x28
-    public ld componentType; // 0x2C
-    public int dataCount; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53CC74B0
     public void GetDataCount(){} // RVA: 0x7FFD4E39CCD0
@@ -671,18 +508,6 @@ public class OVRGLTFAccessor : Object
 
 public class OVRGLTFAnimatinonNode : Object
 {
-    public nternal.Extensions m_intputNodeType; // 0x10
-    public Input.nentTypes m_jsonData; // 0x18
-    public object m_binaryChunk; // 0x20
-    public BuffersImpl m_gameObj; // 0x38
-    public DictionaryOrNull m_inputNodeState; // 0x40
-    public URA.woDigitYearMax<amut> m_translations; // 0x50
-    public URA.woDigitYearMax<R_12x12> m_rotations; // 0x58
-    public URA.woDigitYearMax<amut> m_scales; // 0x60
-    public URA.DateTime<nternal.Extensions,int> InputNodeKeyFrames;
-    public URA.woDigitYearMax<int> ThumbStickKeyFrames; // 0x8
-    public tionX[] CardDirections; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53CCA0B0
     public void AddChannel(){} // RVA: 0x7FFD53CCA770
@@ -700,20 +525,6 @@ public class OVRGLTFAnimatinonNode : Object
 
 public class OVRGLTFLoader : Object
 {
-    public Input.nentTypes m_jsonData; // 0x10
-    public Inherited.? m_glbStream; // 0x18
-    public object m_binaryChunk; // 0x20
-    public URA.woDigitYearMax<BuffersImpl> m_Nodes; // 0x38
-    public URA.DateTime<nternal.Extensions,otNullValue> m_AnimationNodes; // 0x40
-    public ojectionMatrix_Injected m_Shader; // 0x48
-    public ojectionMatrix_Injected m_AlphaBlendShader; // 0x50
-    public object m_TextureQuality; // 0x58
-    public float m_TextureMipmapBias; // 0x5C
-    public amut GLTFToUnitySpace;
-    public amut GLTFToUnityTangent; // 0xC
-    public get_boundingBoxMode GLTFToUnitySpace_Rotation; // 0x18
-    public URA.DateTime<string,nternal.Extensions> InputNodeNameMap; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53CCD000 | overloaded x2
     public void LoadGLB(){} // RVA: 0x7FFD53CCD0E0
@@ -742,23 +553,11 @@ public class OVRGLTFLoader : Object
 
 public class OVRGazePointer : OVRCursor
 {
-    public object hidden; // 0x20
-    public bool currentScale; // 0x28
-    public float instance; // 0x2C
-    public float visibilityStrength; // 0x30
-    public bool SelectionProgress; // 0x34
-    public float depthScaleMultiplier; // 0x38
-    public bool matchNormalOnPhysicsColliders; // 0x3C
-    public object rayTransform; // 0x40
-    public bool <hidden>k__BackingField; // 0x48
-    public float <currentScale>k__BackingField; // 0x4C
-    public float depth; // 0x50
-    public float hideUntilTime; // 0x54
-    public int positionSetsThisFrame; // 0x58
-    public float lastShowRequestTime; // 0x5C
-    public float lastHideRequestTime; // 0x60
-    public nsformPose progressIndicator; // 0x68
-    public Internal _instance;
+    public object hidden;
+    public object currentScale;
+    public object instance;
+    public object visibilityStrength;
+    public object SelectionProgress;
 
     // ── Methods ──
     public void get_hidden(){} // RVA: 0x7FFD4E3F8D30
@@ -789,14 +588,15 @@ public class OVRGearVrControllerTest : MonoBehaviour
 
 public class OVRGrabbable : MonoBehaviour
 {
-    public bool allowOffhandGrab; // 0x20
-    public bool isGrabbed; // 0x21
-    public bool snapPosition; // 0x22
-    public object snapOrientation; // 0x28
-    public riteCharacterUnicode[] snapOffset; // 0x30
-    public bool grabbedBy; // 0x38
-    public riteCharacterUnicode grabbedTransform; // 0x40
-    public nMode grabbedRigidbody; // 0x48
+    public object allowOffhandGrab;
+    public object isGrabbed;
+    public object snapPosition;
+    public object snapOrientation;
+    public object snapOffset;
+    public object grabbedBy;
+    public object grabbedTransform;
+    public object grabbedRigidbody;
+    public object grabPoints;
 
     // ── Methods ──
     public void get_allowOffhandGrab(){} // RVA: 0x7FFD4E42F9D0
@@ -818,26 +618,7 @@ public class OVRGrabbable : MonoBehaviour
 
 public class OVRGrabber : MonoBehaviour
 {
-    public float grabbedObject; // 0x20
-    public float grabEnd; // 0x24
-    public bool m_parentHeldObject; // 0x28
-    public bool m_moveHandPosition; // 0x29
-    public object m_gripTransform; // 0x30
-    public riteCharacterUnicode[] m_grabVolumes; // 0x38
-    public ÍÏÍÌÍ m_controller; // 0x40
-    public object m_parentTransform; // 0x48
-    public BuffersImpl m_player; // 0x50
-    public bool m_grabVolumeEnabled; // 0x58
-    public amut m_lastPos; // 0x5C
-    public R_12x12 m_lastRot; // 0x68
-    public R_12x12 m_anchorOffsetRotation; // 0x78
-    public amut m_anchorOffsetPosition; // 0x88
-    public float m_prevFlex; // 0x94
-    public eComponentType m_grabbedObj; // 0x98
-    public amut m_grabbedObjectPosOff; // 0xA0
-    public R_12x12 m_grabbedObjectRotOff; // 0xAC
-    public URA.DateTime<eComponentType,int> m_grabCandidates; // 0xC0
-    public bool m_operatingWithoutOVRCameraRig; // 0xC8
+    public object grabbedObject;
 
     // ── Methods ──
     public void get_grabbedObject(){} // RVA: 0x7FFD4E96DFB0
@@ -863,18 +644,6 @@ public class OVRGrabber : MonoBehaviour
 
 public class OVRGridCube : MonoBehaviour
 {
-    public Flag GridKey; // 0x20
-    public BuffersImpl CubeGrid; // 0x28
-    public bool CubeGridOn; // 0x30
-    public bool CubeSwitchColorOld; // 0x31
-    public bool CubeSwitchColor; // 0x32
-    public int gridSizeX; // 0x34
-    public int gridSizeY; // 0x38
-    public int gridSizeZ; // 0x3C
-    public float gridScale; // 0x40
-    public float cubeScale; // 0x44
-    public __4 CameraController; // 0x48
-
     // ── Methods ──
     public void Update(){} // RVA: 0x7FFD53D5EFA0
     public void SetOVRCameraController(){} // RVA: 0x7FFD53D5EFB0
@@ -886,19 +655,15 @@ public class OVRGridCube : MonoBehaviour
 
 public class OVRHand : MonoBehaviour
 {
-    public ÌÎ IsDataValid; // 0x20
-    public object IsDataHighConfidence; // 0x28
-    public BuffersImpl IsTracked; // 0x30
-    public est IsSystemGestureInProgress; // 0x38
-    public bool IsPointerPoseValid; // 0xB0
-    public bool PointerPose; // 0xB1
-    public bool HandScale; // 0xB2
-    public bool HandConfidence; // 0xB3
-    public bool IsDominantHand; // 0xB4
-    public object <PointerPose>k__BackingField; // 0xB8
-    public float <HandScale>k__BackingField; // 0xC0
-    public SystemActivated <HandConfidence>k__BackingField; // 0xC4
-    public bool <IsDominantHand>k__BackingField; // 0xC8
+    public object IsDataValid;
+    public object IsDataHighConfidence;
+    public object IsTracked;
+    public object IsSystemGestureInProgress;
+    public object IsPointerPoseValid;
+    public object PointerPose;
+    public object HandScale;
+    public object HandConfidence;
+    public object IsDominantHand;
 
     // ── Methods ──
     public void get_IsDataValid(){} // RVA: 0x7FFD4F6071E0
@@ -937,22 +702,6 @@ public class OVRHand : MonoBehaviour
 
 public class OVRHandTest : MonoBehaviour
 {
-    public ePathName117.? uiText; // 0x20
-    public URA.woDigitYearMax<xpressionWeights_29> monitors; // 0x28
-    public em.MarkAborted.izeDefaultCase data; // 0x30
-    public est hs_LH; // 0x38
-    public est hs_RH; // 0xB0
-    public reConfiguration.virtualGreenScreenType skel_LH; // 0x128
-    public reConfiguration.virtualGreenScreenType skel_RH; // 0x148
-    public object mesh_LH; // 0x168
-    public object mesh_RH; // 0x170
-    public bool result_skel_LH; // 0x178
-    public bool result_skel_RH; // 0x179
-    public bool result_mesh_LH; // 0x17A
-    public bool result_mesh_RH; // 0x17B
-    public string prevConnected;
-    public xpressionWeights_29 controllers; // 0x8
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD53D606C0
     public void Update(){} // RVA: 0x7FFD53D60BD0
@@ -962,11 +711,6 @@ public class OVRHandTest : MonoBehaviour
 
 public class OVRHaptics : Object
 {
-    public 0[] Channels;
-    public 0 LeftChannel; // 0x8
-    public 0 RightChannel; // 0x10
-    public ?[] m_outputs; // 0x18
-
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD53CD3D90
     public void Process(){} // RVA: 0x7FFD53CD41A0
@@ -974,9 +718,9 @@ public class OVRHaptics : Object
 
 public class OVRHapticsClip : Object
 {
-    public int Count; // 0x10
-    public int Capacity; // 0x14
-    public byte[] Samples; // 0x18
+    public object Count;
+    public object Capacity;
+    public object Samples;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E38E5C0
@@ -993,24 +737,6 @@ public class OVRHapticsClip : Object
 
 public class OVRHeadsetEmulator : MonoBehaviour
 {
-    public ts opMode; // 0x20
-    public bool resetHmdPoseOnRelease; // 0x24
-    public bool resetHmdPoseByMiddleMouseButton; // 0x25
-    public Flag[] activateKeys; // 0x28
-    public Flag[] pitchKeys; // 0x30
-    public kingField manager; // 0x38
-    public float MOUSE_SCALE_X;
-    public float MOUSE_SCALE_X_PITCH;
-    public float MOUSE_SCALE_Y;
-    public float MOUSE_SCALE_HEIGHT;
-    public float MAX_ROLL;
-    public bool lastFrameEmulationActivated; // 0x40
-    public amut recordedHeadPoseRelativeOffsetTranslation; // 0x44
-    public amut recordedHeadPoseRelativeOffsetRotation; // 0x50
-    public bool hasSentEvent; // 0x5C
-    public bool emulatorHasInitialized; // 0x5D
-    public eOffset previousCursorLockMode; // 0x60
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD4E341310
     public void Update(){} // RVA: 0x7FFD53CD7050
@@ -1021,24 +747,7 @@ public class OVRHeadsetEmulator : MonoBehaviour
 
 public class OVRInput : Object
 {
-    public float pluginSupportsActiveController;
-    public float AXIS_DEADZONE_THRESHOLD; // 0x4
-    public URA.woDigitYearMax<tchHint> controllers; // 0x8
-    public ÍÏÍÌÍ activeControllerType; // 0x10
-    public ÍÏÍÌÍ connectedControllerTypes; // 0x14
-    public veClientHelloMessage stepType; // 0x18
-    public int fixedUpdateCount; // 0x1C
-    public bool _pluginSupportsActiveController; // 0x20
-    public bool _pluginSupportsActiveControllerCached; // 0x21
-    public object _pluginSupportsActiveControllerMinVersion; // 0x28
-    public int NUM_HAPTIC_CHANNELS; // 0x30
-    public ?[] hapticInfos; // 0x38
-    public float OPENVR_MAX_HAPTIC_AMPLITUDE; // 0x40
-    public float HAPTIC_VIBRATION_DURATION_SECONDS; // 0x44
-    public string OPENVR_TOUCH_NAME; // 0x48
-    public string OPENVR_VIVE_CONTROLLER_NAME; // 0x50
-    public string OPENVR_WINDOWSMR_CONTROLLER_NAME; // 0x58
-    public TryGetFullPath[] openVRControllerDetails; // 0x60
+    public object pluginSupportsActiveController;
 
     // ── Methods ──
     public void get_pluginSupportsActiveController(){} // RVA: 0x7FFD53CD7B50
@@ -1093,9 +802,6 @@ public class OVRInput : Object
 
 public class OVRKtxTexture : Object
 {
-    public uint KTX_TTF_BC7_RGBA;
-    public uint KTX_TTF_ASTC_4x4_RGBA;
-
     // ── Methods ──
     public void Load(){} // RVA: 0x7FFD53CE1F30
     public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -1109,12 +815,6 @@ public class OVRLayerAttribute : PropertyAttribute
 
 public class OVRLipSync : MonoBehaviour
 {
-    public int ÍÏÍÎÍÏÍÏÎÏÎÌÎÏÍÎÍÏÍÌÏÌÏ;
-    public int ÌÍÏÌÎÌÌÏÎÌÍÌÌÏÏÍÌÌÎÎÏÎÍ; // 0x4
-    public string ÎÍÌÌÌÍÏÎÍÏÎÍÎÎÏÌÍÏÎÏÎÎÌ;
-    public ÌÌÎÏÍÎÍÎÍÌÍÌÌÏÍÍÍÏÌÌÏÌ ÎÌÎÌÏÌÍÍÎÏÍÍÌÍÎÌÏÍÎÌÎÎÌ; // 0x8
-    public ÍÎÌÏÍÎÏÏÌÏÌÌÌÌÏ ÍÍÏÏÏÏÎÏÎÍÍÌÎÌÌÍÍÌÎÌÌÌÌ; // 0x10
-
     // ── Methods ──
     public void OnDestroy(){} // RVA: 0x7FFD4EE90D10
     public void RaiseCancellation(){} // RVA: 0x7FFD4EE90EA0
@@ -1149,19 +849,6 @@ public class OVRLipSync : MonoBehaviour
 
 public class OVRLipSyncContext : LifecycleComponent_1D15
 {
-    public bool enableKeyboardInput; // 0x50
-    public bool enableTouchInput; // 0x51
-    public bool audioLoopback; // 0x52
-    public Flag loopbackKey; // 0x54
-    public bool showVisemes; // 0x58
-    public Flag debugVisemesKey; // 0x5C
-    public bool skipAudioSource; // 0x60
-    public float gain; // 0x64
-    public bool ÏÌÍÏÍÍÎÍÎÌÌÎÌÏÏÌÎÌÍÏÎÌÌ; // 0x68
-    public Flag debugLaughterKey; // 0x6C
-    public bool showLaughter; // 0x70
-    public float laughterScore; // 0x74
-
     // ── Methods ──
     public void ComputeKeyDownInt(){} // RVA: 0x7FFD4EE97680
     public void ToggleAudioProcessing(){} // RVA: 0x7FFD4EE97A40
@@ -1186,8 +873,6 @@ public class OVRLipSyncContext : LifecycleComponent_1D15
 
 public class OVRLipSyncContextCanned : LifecycleComponent_1D15
 {
-    public object currentSequence; // 0x50
-
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EE9BE40
     public void RaiseCancellation(){} // RVA: 0x7FFD4EE9C030
@@ -1200,22 +885,6 @@ public class OVRLipSyncContextCanned : LifecycleComponent_1D15
 
 public class OVRLipSyncContextMorphTarget : MonoBehaviour
 {
-    public ure skinnedMeshRenderer; // 0x20
-    public int[] visemeToBlendTargets; // 0x28
-    public bool enableVisemeTestKeys; // 0x30
-    public bool ÌÍÎÏÏÌÏÎÎÍÌÌÍÎÏÎÌÌÌÏÏÏÍ; // 0x31
-    public bool ÎÍÏÎÍÏÎÏÍÎÌÌÏÍÎÏÎÎÌÏÎÎÎ; // 0x32
-    public int ÎÏÎÏÍÏÏÍÎÏÎÎÏÎÏÎÎÏÌÌÏÎÌ; // 0x34
-    public float[] ÏÏÏÏÍÌÍÍÎÎÏÌÏÎÌÏÎÎÎÎÎÎÍ; // 0x38
-    public Flag[] ÍÍÍÎÏÎÍÌÌÎÍÌÍÎÌÌÌÎÍÏÍÎÌ; // 0x40
-    public Flag laughterKey; // 0x48
-    public int laughterBlendTarget; // 0x4C
-    public float laughterThreshold; // 0x50
-    public float laughterMultiplier; // 0x54
-    public int smoothAmount; // 0x58
-    public object ÍÏÍÎÏÏÎÏÍÏÍÎÎÍÍÏÌÎÎÏÎÌÍ; // 0x60
-    public object ÌÎÍÍÍÌÌÏÌÍÏÏÏÌÎÎÌÏÌÎÌÏÍ; // 0x68
-
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EE9CA60
     public void RaiseCancellation(){} // RVA: 0x7FFD4EE9D9E0
@@ -1239,12 +908,6 @@ public class OVRLipSyncContextMorphTarget : MonoBehaviour
 
 public class OVRLipSyncContextTextureFlip : MonoBehaviour
 {
-    public atrix_Injected material; // 0x20
-    public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField[] Textures; // 0x28
-    public int smoothAmount; // 0x30
-    public object ÍÏÍÎÏÏÎÏÍÏÍÎÎÍÍÏÌÎÎÏÎÌÍ; // 0x38
-    public ÌÍÎÍÎÎÌÌÏÍÍÌÍÌÍÎÏÍÍÎÍ ÎÌÏÍÏÏÌÍÏÎÎÎÌÌÎÍÎÍÌÎÏÏÎ; // 0x40
-
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EE9FC30
     public void RaiseCancellation(){} // RVA: 0x7FFD4EE9FDC0
@@ -1262,9 +925,6 @@ public class OVRLipSyncContextTextureFlip : MonoBehaviour
 
 public class OVRLipSyncSequence : ScriptableObject
 {
-    public URA.woDigitYearMax<ÌÍÎÍÎÎÌÌÏÍÍÌÍÌÍÎÏÍÍÎÍ> entries; // 0x18
-    public float length; // 0x20
-
     // ── Methods ──
     public void Equals(){} // RVA: 0x7FFD4EEA34F0
     public void CreateInstance(){} // RVA: 0x7FFD4EEA35A0
@@ -1277,136 +937,85 @@ public class OVRLipSyncSequence : ScriptableObject
 
 public class OVRManager : MonoBehaviour
 {
-    public kingField instance;
-    public ion display; // 0x8
-    public sionStatus tracker; // 0x10
-    public ckFrame boundary; // 0x18
-    public 1 runtimeSettings; // 0x20
-    public gerPinch profile; // 0x28
-    public URA.bbrevEraNames<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> isHmdPresent; // 0x20
-    public float audioOutId; // 0x28
-    public ÎÌÍÏÏÌÍÏ audioInId; // 0x30
-    public ÎÌÍÏÏÌÍÏ hasVrFocus; // 0x38
-    public ÎÌÍÏÏÌÍÏ hasInputFocus; // 0x40
-    public ÎÌÍÏÏÌÍÏ chromatic; // 0x48
-    public ÎÌÍÏÏÌÍÏ monoscopic; // 0x50
-    public ÎÌÍÏÏÌÍÏ colorGamut; // 0x58
-    public ÎÌÍÏÏÌÍÏ nativeColorGamut; // 0x60
-    public ÎÌÍÏÏÌÍÏ headPoseRelativeOffsetRotation; // 0x68
-    public ÎÌÍÏÏÌÍÏ headPoseRelativeOffsetTranslation; // 0x70
-    public ÎÌÍÏÏÌÍÏ eyeFovPremultipliedAlphaModeEnabled; // 0x78
-    public ÎÌÍÏÏÌÍÏ OVRMixedRealityCaptureConfiguration.enableMixedReality; // 0x80
-    public ÎÌÍÏÏÌÍÏ OVRMixedRealityCaptureConfiguration.extraHiddenLayers; // 0x88
-    public rectoryInformation<float,float> OVRMixedRealityCaptureConfiguration.extraVisibleLayers; // 0x90
-    public BothDirectoryInformation<ulong,bool,ation_4,ce> OVRMixedRealityCaptureConfiguration.dynamicCullingMask; // 0x98
-    public ation<ulong,bool,ation_4,ce,tion_,bool> OVRMixedRealityCaptureConfiguration.compositionMethod; // 0xA0
-    public ileFullDirectoryInformation<ulong> OVRMixedRealityCaptureConfiguration.externalCompositionBackdropColorRift; // 0xA8
-    public rectoryInformation<ulong,bool> OVRMixedRealityCaptureConfiguration.externalCompositionBackdropColorQuest; // 0xB0
-    public BothDirectoryInformation<ulong,ation_4,bool,ce> OVRMixedRealityCaptureConfiguration.capturingCameraDevice; // 0xB8
-    public BothDirectoryInformation<ulong,bool,ce,bjects> OVRMixedRealityCaptureConfiguration.flipCameraFrameHorizontally; // 0xC0
-    public rectoryInformation<ulong,bool> OVRMixedRealityCaptureConfiguration.flipCameraFrameVertically; // 0xC8
-    public ÎÌÍÏÏÌÍÏ OVRMixedRealityCaptureConfiguration.handPoseStateLatency; // 0xD0
-    public bool OVRMixedRealityCaptureConfiguration.sandwichCompositionRenderLatency; // 0xD8
-    public bool OVRMixedRealityCaptureConfiguration.sandwichCompositionBufferedFrames; // 0xD9
-    public bool OVRMixedRealityCaptureConfiguration.chromaKeyColor; // 0xDA
-    public bool OVRMixedRealityCaptureConfiguration.chromaKeySimilarity; // 0xDB
-    public bool OVRMixedRealityCaptureConfiguration.chromaKeySmoothRange; // 0xDC
-    public bool OVRMixedRealityCaptureConfiguration.chromaKeySpillRange; // 0xDD
-    public bool OVRMixedRealityCaptureConfiguration.useDynamicLighting; // 0xDE
-    public bool OVRMixedRealityCaptureConfiguration.depthQuality; // 0x2C
-    public bool OVRMixedRealityCaptureConfiguration.dynamicLightingSmoothFactor; // 0x2D
-    public object OVRMixedRealityCaptureConfiguration.dynamicLightingDepthVariationClampingValue; // 0x30
-    public float OVRMixedRealityCaptureConfiguration.virtualGreenScreenType; // 0x34
-    public float OVRMixedRealityCaptureConfiguration.virtualGreenScreenTopY; // 0x38
-    public amut OVRMixedRealityCaptureConfiguration.virtualGreenScreenBottomY; // 0x3C
-    public amut OVRMixedRealityCaptureConfiguration.virtualGreenScreenApplyDepthCulling; // 0x48
-    public int OVRMixedRealityCaptureConfiguration.virtualGreenScreenDepthTolerance; // 0x54
-    public bool OVRMixedRealityCaptureConfiguration.mrcActivationMode; // 0x58
-    public bool OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject; // 0x59
-    public ime currentHandTrackingFeatureEnabled; // 0x5C
-    public object currentHandTrackingFeatureFidelity; // 0x60
-    public object xrApi; // 0x64
-    public bool xrInstance; // 0x68
-    public object xrSession; // 0x6C
-    public object vsyncCount; // 0x7C
-    public ansformType batteryLevel; // 0x8C
-    public bool batteryTemperature; // 0x90
-    public bool batteryStatus; // 0x91
-    public float volumeLevel; // 0x94
-    public float suggestedCpuPerfLevel; // 0x98
-    public int suggestedGpuPerfLevel; // 0x9C
-    public object cpuLevel; // 0xA0
-    public float gpuLevel; // 0xB0
-    public float isPowerSavingActive; // 0xB4
-    public float eyeTextureFormat; // 0xB8
-    public bool eyeTrackedFoveatedRenderingSupported; // 0xBC
-    public ionType eyeTrackedFoveatedRenderingEnabled; // 0xC0
-    public float foveatedRenderingLevel; // 0xC4
-    public float fixedFoveatedRenderingSupported; // 0xC8
-    public ata fixedFoveatedRenderingLevel; // 0xCC
-    public float useDynamicFixedFoveatedRendering; // 0xD0
-    public float tiledMultiResSupported; // 0xD4
-    public bool tiledMultiResLevel; // 0xD8
-    public float gpuUtilSupported; // 0xDC
-    public uaternion gpuUtilLevel; // 0xE0
-    public nData systemHeadsetType; // 0xE8
-    public bool trackingOriginType; // 0xF0
-    public bool isSupportedPlatform; // 0xF1
-    public bool isUserPresent; // 0xF2
-    public ranslations utilitiesVersion; // 0xF8
-    public ranslations pluginVersion; // 0x100
-    public ranslations sdkVersion; // 0x108
-    public ranslations faceTrackingFeatureFidelityGroup; // 0x110
-    public ranslations bodyTrackingFeatureFidelityGroup; // 0x118
-    public ranslations passthroughFeatureFidelityGroup; // 0x120
-    public ranslations gaseBasedFoveatedRenderingFeatureFidelityGroup; // 0x128
-    public mationSampler handTrackingFeatureEnabled; // 0x130
-    public rNode handTrackingFeatureFidelity; // 0x134
-    public mationSampler <currentHandTrackingFeatureEnabled>k__BackingField; // 0x138
-    public rNode <currentHandTrackingFeatureFidelity>k__BackingField; // 0x13C
-    public bool requestBodyTrackingPermissionOnStartup; // 0x140
-    public bool requestFaceTrackingPermissionOnStartup; // 0x141
-    public bool requestEyeTrackingPermissionOnStartup; // 0x142
-    public string OCULUS_UNITY_NAME_STR; // 0xE0
-    public string OPENVR_UNITY_NAME_STR; // 0xE8
-    public naryChunk loadedXRDevice; // 0xF0
-    public amut OpenVRTouchRotationOffsetEulerLeft; // 0xF4
-    public amut OpenVRTouchRotationOffsetEulerRight; // 0x100
-    public amut OpenVRTouchPositionOffsetLeft; // 0x10C
-    public amut OpenVRTouchPositionOffsetRight; // 0x118
-    public bool m_SpaceWarpEnabled; // 0x124
-    public object m_AppSpaceTransform; // 0x128
-    public t_xMax m_CachedDepthTextureMode; // 0x130
-    public bool _localDimming; // 0x143
-    public C3 _trackingOriginType; // 0x144
-    public bool usePositionTracking; // 0x148
-    public bool useRotationTracking; // 0x149
-    public bool useIPDInPositionTracking; // 0x14A
-    public bool resetTrackerOnLoad; // 0x14B
-    public bool AllowRecenter; // 0x14C
-    public bool LateControllerUpdate; // 0x14D
-    public bool LateLatching; // 0x14E
-    public bool <isSupportedPlatform>k__BackingField; // 0x14F
-    public bool _isUserPresentCached; // 0x134
-    public bool _isUserPresent; // 0x135
-    public bool _wasUserPresent; // 0x136
-    public bool prevAudioOutIdIsCached; // 0x137
-    public bool prevAudioInIdIsCached; // 0x138
-    public string prevAudioOutId; // 0x140
-    public string prevAudioInId; // 0x148
-    public bool wasPositionTracked; // 0x150
-    public rm eventDataBuffer; // 0x158
-    public string UnityAlphaOrBetaVersionWarningMessage; // 0x168
-    public bool OVRManagerinitialized; // 0x170
-    public URA.onsDepth<ntouch8pressure> featureFidelityGetFeatureStateErrorDumped; // 0x150
-    public bool multipleMainCameraWarningPresented; // 0x171
-    public bool suppressUnableToFindMainCameraMessage; // 0x172
-    public numValuesAndNames<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ> lastFoundMainCamera; // 0x178
-    public bool staticMixedRealityCaptureInitialized; // 0x180
-    public bool staticPrevEnableMixedRealityCapture; // 0x181
-    public ayer staticMrcSettings; // 0x188
-    public bool suppressDisableMixedRealityBecauseOfNoMainCameraWarning; // 0x190
-    public e _passthroughInitializationState; // 0x194
+    public object instance;
+    public object display;
+    public object tracker;
+    public object boundary;
+    public object runtimeSettings;
+    public object profile;
+    public object isHmdPresent;
+    public object audioOutId;
+    public object audioInId;
+    public object hasVrFocus;
+    public object hasInputFocus;
+    public object chromatic;
+    public object monoscopic;
+    public object colorGamut;
+    public object nativeColorGamut;
+    public object headPoseRelativeOffsetRotation;
+    public object headPoseRelativeOffsetTranslation;
+    public object eyeFovPremultipliedAlphaModeEnabled;
+    public object OVRMixedRealityCaptureConfiguration.enableMixedReality;
+    public object OVRMixedRealityCaptureConfiguration.extraHiddenLayers;
+    public object OVRMixedRealityCaptureConfiguration.extraVisibleLayers;
+    public object OVRMixedRealityCaptureConfiguration.dynamicCullingMask;
+    public object OVRMixedRealityCaptureConfiguration.compositionMethod;
+    public object OVRMixedRealityCaptureConfiguration.externalCompositionBackdropColorRift;
+    public object OVRMixedRealityCaptureConfiguration.externalCompositionBackdropColorQuest;
+    public object OVRMixedRealityCaptureConfiguration.capturingCameraDevice;
+    public object OVRMixedRealityCaptureConfiguration.flipCameraFrameHorizontally;
+    public object OVRMixedRealityCaptureConfiguration.flipCameraFrameVertically;
+    public object OVRMixedRealityCaptureConfiguration.handPoseStateLatency;
+    public object OVRMixedRealityCaptureConfiguration.sandwichCompositionRenderLatency;
+    public object OVRMixedRealityCaptureConfiguration.sandwichCompositionBufferedFrames;
+    public object OVRMixedRealityCaptureConfiguration.chromaKeyColor;
+    public object OVRMixedRealityCaptureConfiguration.chromaKeySimilarity;
+    public object OVRMixedRealityCaptureConfiguration.chromaKeySmoothRange;
+    public object OVRMixedRealityCaptureConfiguration.chromaKeySpillRange;
+    public object OVRMixedRealityCaptureConfiguration.useDynamicLighting;
+    public object OVRMixedRealityCaptureConfiguration.depthQuality;
+    public object OVRMixedRealityCaptureConfiguration.dynamicLightingSmoothFactor;
+    public object OVRMixedRealityCaptureConfiguration.dynamicLightingDepthVariationClampingValue;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenType;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenTopY;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenBottomY;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenApplyDepthCulling;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenDepthTolerance;
+    public object OVRMixedRealityCaptureConfiguration.mrcActivationMode;
+    public object OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject;
+    public object currentHandTrackingFeatureEnabled;
+    public object currentHandTrackingFeatureFidelity;
+    public object xrApi;
+    public object xrInstance;
+    public object xrSession;
+    public object vsyncCount;
+    public object batteryLevel;
+    public object batteryTemperature;
+    public object batteryStatus;
+    public object volumeLevel;
+    public object suggestedCpuPerfLevel;
+    public object suggestedGpuPerfLevel;
+    public object cpuLevel;
+    public object gpuLevel;
+    public object isPowerSavingActive;
+    public object eyeTextureFormat;
+    public object eyeTrackedFoveatedRenderingSupported;
+    public object eyeTrackedFoveatedRenderingEnabled;
+    public object foveatedRenderingLevel;
+    public object fixedFoveatedRenderingSupported;
+    public object fixedFoveatedRenderingLevel;
+    public object useDynamicFixedFoveatedRendering;
+    public object tiledMultiResSupported;
+    public object tiledMultiResLevel;
+    public object gpuUtilSupported;
+    public object gpuUtilLevel;
+    public object systemHeadsetType;
+    public object trackingOriginType;
+    public object isSupportedPlatform;
+    public object isUserPresent;
+    public object utilitiesVersion;
+    public object pluginVersion;
+    public object sdkVersion;
 
     // ── Methods ──
     public void get_instance(){} // RVA: 0x7FFD53CE22B0
@@ -1638,10 +1247,8 @@ public class OVRManager : MonoBehaviour
 
 public class OVRMesh : MonoBehaviour
 {
-    public d IsInitialized; // 0x20
-    public ion Mesh; // 0x28
-    public object _mesh; // 0x30
-    public bool <IsInitialized>k__BackingField; // 0x38
+    public object IsInitialized;
+    public object Mesh;
 
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0x7FFD4E5F95D0
@@ -1675,18 +1282,10 @@ public class OVRMeshJobs : Object
 
 public class OVRMeshRenderer : MonoBehaviour
 {
-    public pHasVrFocus IsInitialized; // 0x20
-    public d IsDataValid; // 0x28
-    public dle IsDataHighConfidence; // 0x30
-    public GetAppLatencyTimings ShouldUseSystemGestureMaterial; // 0x38
-    public tencyTimings _systemGestureBehavior; // 0x3C
-    public atrix_Injected _systemGestureMaterial; // 0x40
-    public atrix_Injected _originalMaterial; // 0x48
-    public ure _skinnedMeshRenderer; // 0x50
-    public bool <IsInitialized>k__BackingField; // 0x58
-    public bool <IsDataValid>k__BackingField; // 0x59
-    public bool <IsDataHighConfidence>k__BackingField; // 0x5A
-    public bool <ShouldUseSystemGestureMaterial>k__BackingField; // 0x5B
+    public object IsInitialized;
+    public object IsDataValid;
+    public object IsDataHighConfidence;
+    public object ShouldUseSystemGestureMaterial;
 
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0x7FFD4E55F600
@@ -1707,14 +1306,6 @@ public class OVRMeshRenderer : MonoBehaviour
 
 public class OVRMixedReality : Object
 {
-    public bool useFakeExternalCamera;
-    public amut fakeCameraFloorLevelPosition; // 0x4
-    public amut fakeCameraEyeLevelPosition; // 0x10
-    public R_12x12 fakeCameraRotation; // 0x1C
-    public float fakeCameraFov; // 0x2C
-    public float fakeCameraAspect; // 0x30
-    public PreciseStartupTime currentComposition; // 0x38
-
     // ── Methods ──
     public void Update(){} // RVA: 0x7FFD53CF3E00
     public void Cleanup(){} // RVA: 0x7FFD53CF4750
@@ -1814,35 +1405,34 @@ public class OVRMixedRealityCaptureConfiguration
 
 public class OVRMixedRealityCaptureSettings : ScriptableObject
 {
-    public bool OVRMixedRealityCaptureConfiguration.enableMixedReality; // 0x18
-    public object OVRMixedRealityCaptureConfiguration.extraHiddenLayers; // 0x1C
-    public object OVRMixedRealityCaptureConfiguration.extraVisibleLayers; // 0x20
-    public bool OVRMixedRealityCaptureConfiguration.dynamicCullingMask; // 0x24
-    public ime OVRMixedRealityCaptureConfiguration.compositionMethod; // 0x28
-    public object OVRMixedRealityCaptureConfiguration.externalCompositionBackdropColorRift; // 0x2C
-    public object OVRMixedRealityCaptureConfiguration.externalCompositionBackdropColorQuest; // 0x3C
-    public ansformType OVRMixedRealityCaptureConfiguration.capturingCameraDevice; // 0x4C
-    public bool OVRMixedRealityCaptureConfiguration.flipCameraFrameHorizontally; // 0x50
-    public bool OVRMixedRealityCaptureConfiguration.flipCameraFrameVertically; // 0x51
-    public float OVRMixedRealityCaptureConfiguration.handPoseStateLatency; // 0x54
-    public float OVRMixedRealityCaptureConfiguration.sandwichCompositionRenderLatency; // 0x58
-    public int OVRMixedRealityCaptureConfiguration.sandwichCompositionBufferedFrames; // 0x5C
-    public object OVRMixedRealityCaptureConfiguration.chromaKeyColor; // 0x60
-    public float OVRMixedRealityCaptureConfiguration.chromaKeySimilarity; // 0x70
-    public float OVRMixedRealityCaptureConfiguration.chromaKeySmoothRange; // 0x74
-    public float OVRMixedRealityCaptureConfiguration.chromaKeySpillRange; // 0x78
-    public bool OVRMixedRealityCaptureConfiguration.useDynamicLighting; // 0x7C
-    public ionType OVRMixedRealityCaptureConfiguration.depthQuality; // 0x80
-    public float OVRMixedRealityCaptureConfiguration.dynamicLightingSmoothFactor; // 0x84
-    public float OVRMixedRealityCaptureConfiguration.dynamicLightingDepthVariationClampingValue; // 0x88
-    public ata OVRMixedRealityCaptureConfiguration.virtualGreenScreenType; // 0x8C
-    public float OVRMixedRealityCaptureConfiguration.virtualGreenScreenTopY; // 0x90
-    public float OVRMixedRealityCaptureConfiguration.virtualGreenScreenBottomY; // 0x94
-    public bool OVRMixedRealityCaptureConfiguration.virtualGreenScreenApplyDepthCulling; // 0x98
-    public float OVRMixedRealityCaptureConfiguration.virtualGreenScreenDepthTolerance; // 0x9C
-    public uaternion OVRMixedRealityCaptureConfiguration.mrcActivationMode; // 0xA0
-    public nData OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject; // 0xA8
-    public string configFileName;
+    public object OVRMixedRealityCaptureConfiguration.enableMixedReality;
+    public object OVRMixedRealityCaptureConfiguration.extraHiddenLayers;
+    public object OVRMixedRealityCaptureConfiguration.extraVisibleLayers;
+    public object OVRMixedRealityCaptureConfiguration.dynamicCullingMask;
+    public object OVRMixedRealityCaptureConfiguration.compositionMethod;
+    public object OVRMixedRealityCaptureConfiguration.externalCompositionBackdropColorRift;
+    public object OVRMixedRealityCaptureConfiguration.externalCompositionBackdropColorQuest;
+    public object OVRMixedRealityCaptureConfiguration.capturingCameraDevice;
+    public object OVRMixedRealityCaptureConfiguration.flipCameraFrameHorizontally;
+    public object OVRMixedRealityCaptureConfiguration.flipCameraFrameVertically;
+    public object OVRMixedRealityCaptureConfiguration.handPoseStateLatency;
+    public object OVRMixedRealityCaptureConfiguration.sandwichCompositionRenderLatency;
+    public object OVRMixedRealityCaptureConfiguration.sandwichCompositionBufferedFrames;
+    public object OVRMixedRealityCaptureConfiguration.chromaKeyColor;
+    public object OVRMixedRealityCaptureConfiguration.chromaKeySimilarity;
+    public object OVRMixedRealityCaptureConfiguration.chromaKeySmoothRange;
+    public object OVRMixedRealityCaptureConfiguration.chromaKeySpillRange;
+    public object OVRMixedRealityCaptureConfiguration.useDynamicLighting;
+    public object OVRMixedRealityCaptureConfiguration.depthQuality;
+    public object OVRMixedRealityCaptureConfiguration.dynamicLightingSmoothFactor;
+    public object OVRMixedRealityCaptureConfiguration.dynamicLightingDepthVariationClampingValue;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenType;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenTopY;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenBottomY;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenApplyDepthCulling;
+    public object OVRMixedRealityCaptureConfiguration.virtualGreenScreenDepthTolerance;
+    public object OVRMixedRealityCaptureConfiguration.mrcActivationMode;
+    public object OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject;
 
     // ── Methods ──
     public void OVRMixedRealityCaptureConfiguration.get_enableMixedReality(){} // RVA: 0x7FFD4E35C4E0
@@ -1908,11 +1498,6 @@ public class OVRMixedRealityCaptureSettings : ScriptableObject
 
 public class OVRMixedRealityCaptureTest : MonoBehaviour
 {
-    public bool inited; // 0x20
-    public object currentMode; // 0x24
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ defaultExternalCamera; // 0x28
-    public traHiddenLayers defaultFov; // 0x30
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD53D673B0
     public void Initialize(){} // RVA: 0x7FFD53D67560
@@ -1923,8 +1508,6 @@ public class OVRMixedRealityCaptureTest : MonoBehaviour
 
 public class OVRModeParms : MonoBehaviour
 {
-    public onTracker resetButton; // 0x20
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD53D68A10
     public void Update(){} // RVA: 0x7FFD53D68AE0
@@ -1934,9 +1517,6 @@ public class OVRModeParms : MonoBehaviour
 
 public class OVRMonoscopic : MonoBehaviour
 {
-    public onTracker toggleButton; // 0x20
-    public bool monoscopic; // 0x24
-
     // ── Methods ──
     public void Update(){} // RVA: 0x7FFD53D68C60
     public void .ctor(){} // RVA: 0x7FFD4F70E420
@@ -1944,72 +1524,17 @@ public class OVRMonoscopic : MonoBehaviour
 
 public class OVRNetwork : Object
 {
-    public int MaxBufferLength;
-    public int MaxPayloadLength;
-    public uint FrameHeaderMagicIdentifier;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class OVROverlay : MonoBehaviour
 {
-    public sample previewInEditor; // 0x20
-    public bool layerId; // 0x24
-    public bool layout; // 0x25
-    public dRecorder texturesPerStage; // 0x28
-    public dRecorder OpenVROverlayKey; // 0x38
-    public dRecorder destRectLeft; // 0x48
-    public dRecorder destRectRight; // 0x58
-    public bool invertTextureRects; // 0x68
-    public alizeMixedRealityCapture textureRectMatrix; // 0x6C
-    public bool overrideTextureRectMatrix; // 0xAC
-    public bool overridePerLayerColorScaleAndOffset; // 0xAD
-    public get_boundingBoxMode colorScale; // 0xB0
-    public get_boundingBoxMode colorOffset; // 0xC0
-    public bool useExpensiveSuperSample; // 0xD0
-    public bool useExpensiveSharpen; // 0xD1
-    public bool hidden; // 0xD2
-    public bool isExternalSurface; // 0xD3
-    public int externalSurfaceWidth; // 0xD4
-    public int externalSurfaceHeight; // 0xD8
-    public int compositionDepth; // 0xDC
-    public int layerCompositionDepth; // 0xE0
-    public bool noDepthBufferTesting; // 0xE4
-    public D_BYTE layerTextureFormat; // 0xE8
-    public unt currentOverlayShape; // 0xEC
-    public unt prevOverlayShape; // 0xF0
-    public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField[] textures; // 0xF8
-    public bool isAlphaPremultiplied; // 0x100
-    public bool useBicubicFiltering; // 0x101
-    public bool useLegacyCubemapRotation; // 0x102
-    public bool useEfficientSupersample; // 0x103
-    public bool useEfficientSharpen; // 0x104
-    public bool _previewInEditor; // 0x105
-    public UIntPtr[] texturePtrs; // 0x108
-    public UIntPtr externalSurfaceObject; // 0x110
-    public urceData externalSurfaceObjectCreated; // 0x118
-    public bool isOverridePending; // 0x120
-    public int maxInstances;
-    public ctTextureQuality[] instances;
-    public int <layerId>k__BackingField; // 0x124
-    public atrix_Injected tex2DMaterial; // 0x8
-    public atrix_Injected cubeMaterial; // 0x10
-    public ceChannelCount[] layerTextures; // 0x128
-    public micLightingSmoothFactor layerDesc; // 0x130
-    public int stageCount; // 0x180
-    public int layerIndex; // 0x184
-    public annelDataStore.essage layerIdHandle; // 0x188
-    public UIntPtr layerIdPtr; // 0x190
-    public int frameIndex; // 0x198
-    public int prevFrameIndex; // 0x19C
-    public rical rend; // 0x1A0
-    public ulong OpenVROverlayHandle; // 0x1A8
-    public get_boundingBoxMode OpenVRUVOffsetAndScale; // 0x1B0
-    public tionX OpenVRMouseScale; // 0x1C0
-    public naryChunk constructedOverlayXRDevice; // 0x1C8
-    public bool xrDeviceConstructed; // 0x1CC
-    public object trackingVolumeTransform; // 0x1D0
+    public object previewInEditor;
+    public object layerId;
+    public object layout;
+    public object texturesPerStage;
+    public object OpenVROverlayKey;
 
     // ── Methods ──
     public void get_previewInEditor(){} // RVA: 0x7FFD4F9EA2C0
@@ -2050,29 +1575,6 @@ public class OVROverlay : MonoBehaviour
 
 public class OVROverlayMeshGenerator : MonoBehaviour
 {
-    public object _Mesh; // 0x20
-    public URA.woDigitYearMax<amut> _Verts; // 0x28
-    public URA.woDigitYearMax<tionX> _UV; // 0x30
-    public URA.woDigitYearMax<int> _Tris; // 0x38
-    public ctTextureQuality _Overlay; // 0x40
-    public n _MeshFilter; // 0x48
-    public dUpObject _MeshCollider; // 0x50
-    public terialIndex _MeshRenderer; // 0x58
-    public object _CameraRoot; // 0x60
-    public object _Transform; // 0x68
-    public unt _LastShape; // 0x70
-    public amut _LastPosition; // 0x74
-    public R_12x12 _LastRotation; // 0x80
-    public amut _LastScale; // 0x90
-    public dRecorder _LastDestRectLeft; // 0x9C
-    public dRecorder _LastDestRectRight; // 0xAC
-    public dRecorder _LastSrcRectLeft; // 0xBC
-    public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField _LastTexture; // 0xD0
-    public bool _Awake; // 0xD8
-    public amut[] BottomLeft;
-    public amut[] RightVector; // 0x8
-    public amut[] UpVector; // 0x10
-
     // ── Methods ──
     public void Awake(){} // RVA: 0x7FFD53CFB070
     public void SetOverlay(){} // RVA: 0x7FFD4E369200
@@ -2096,40 +1598,11 @@ public class OVROverlayMeshGenerator : MonoBehaviour
 
 public class OVRPassthroughLayer : MonoBehaviour
 {
-    public pluginSupportsActiveController textureOpacity; // 0x20
-    public sample edgeRenderingEnabled; // 0x24
-    public int edgeColor; // 0x28
-    public bool colorMapEditorType; // 0x2C
-    public bool overlayShape; // 0x2D
-    public get_boundingBoxMode colorScale; // 0x30
-    public get_boundingBoxMode colorOffset; // 0x40
-    public rimaryIndexTrigger colorMapEditorType_; // 0x50
-    public ightShadowCasterMode colorMapEditorGradient; // 0x58
-    public ightShadowCasterMode colorMapEditorGradientOld; // 0x60
-    public float colorMapEditorContrast; // 0x68
-    public float colorMapEditorContrast_; // 0x6C
-    public float colorMapEditorBrightness; // 0x70
-    public float colorMapEditorBrightness_; // 0x74
-    public float colorMapEditorPosterize; // 0x78
-    public float colorMapEditorPosterize_; // 0x7C
-    public float colorMapEditorSaturation; // 0x80
-    public float colorMapEditorSaturation_; // 0x84
-    public __4 cameraRig; // 0x88
-    public bool cameraRigInitialized; // 0x90
-    public BuffersImpl auxGameObject; // 0x98
-    public ctTextureQuality passthroughOverlay; // 0xA0
-    public URA.DateTime<BuffersImpl,mbstickUp> surfaceGameObjects; // 0xA8
-    public URA.woDigitYearMax<eft> deferredSurfaceGameObjects; // 0xB0
-    public URA.woDigitYearMax<ickDown> serializedSurfaceGeometry; // 0xB8
-    public float textureOpacity_; // 0xC0
-    public bool edgeRenderingEnabled_; // 0xC4
-    public object edgeColor_; // 0xC8
-    public p colorMapType; // 0xD8
-    public byte[] colorMapData; // 0xE0
-    public byte[] tmpColorMapData; // 0xE8
-    public annelDataStore.essage colorMapDataHandle; // 0xF0
-    public bool styleDirty; // 0xF8
-    public ightShadowCasterMode colorMapNeutralGradient;
+    public object textureOpacity;
+    public object edgeRenderingEnabled;
+    public object edgeColor;
+    public object colorMapEditorType;
+    public object overlayShape;
 
     // ── Methods ──
     public void AddSurfaceGeometry(){} // RVA: 0x7FFD53CFE3A0
@@ -2176,11 +1649,6 @@ public class OVRPassthroughLayer : MonoBehaviour
 
 public class OVRPermissionsRequester : Object
 {
-    public ileFullDirectoryInformation<string> PermissionGranted;
-    public string FaceTrackingPermission;
-    public string EyeTrackingPermission;
-    public string BodyTrackingPermission;
-
     // ── Methods ──
     public void add_PermissionGranted(){} // RVA: 0x7FFD53D02D20
     public void remove_PermissionGranted(){} // RVA: 0x7FFD53D02E50
@@ -2193,11 +1661,6 @@ public class OVRPermissionsRequester : Object
 
 public class OVRPlatformMenu : MonoBehaviour
 {
-    public onTracker inputCode; // 0x20
-    public ickDown shortPressHandler; // 0x24
-    public ormation<bool> OnShortPress; // 0x28
-    public URA.leEastFrench<string> sceneStack;
-
     // ── Methods ──
     public void HandleBackButtonState(){} // RVA: 0x7FFD53D03730
     public void Awake(){} // RVA: 0x7FFD53D037D0
@@ -2210,44 +1673,7 @@ public class OVRPlatformMenu : MonoBehaviour
 
 public class OVRPlayerController : MonoBehaviour
 {
-    public float InitialYRotation; // 0x20
-    public float Damping; // 0x24
-    public float BackAndSideDampen; // 0x28
-    public float JumpForce; // 0x2C
-    public float RotationAmount; // 0x30
-    public float RotationRatchet; // 0x34
-    public bool SnapRotation; // 0x38
-    public bool RotateAroundGuardianCenter; // 0x39
-    public int FixedSpeedSteps; // 0x3C
-    public bool HmdResetsY; // 0x40
-    public bool HmdRotatesY; // 0x41
-    public float GravityModifier; // 0x44
-    public bool useProfileData; // 0x48
-    public float CameraHeight; // 0x4C
-    public ileFullDirectoryInformation<?> TransformUpdated; // 0x50
-    public bool Teleported; // 0x58
-    public ÎÌÍÏÏÌÍÏ CameraUpdated; // 0x60
-    public ÎÌÍÏÏÌÍÏ PreCharacterMove; // 0x68
-    public bool EnableLinearMovement; // 0x70
-    public bool EnableRotation; // 0x71
-    public bool RotationEitherThumbstick; // 0x72
-    public ProcessAnimationJobStruct`1 Controller; // 0x78
-    public __4 CameraRig; // 0x80
-    public float MoveScale; // 0x88
-    public amut MoveThrottle; // 0x8C
-    public float FallSpeed; // 0x98
-    public aphy<tion> InitialPose; // 0x9C
-    public float <InitialYRotation>k__BackingField; // 0xBC
-    public float MoveScaleMultiplier; // 0xC0
-    public float RotationScaleMultiplier; // 0xC4
-    public bool SkipMouseRotation; // 0xC8
-    public bool HaltUpdateMovement; // 0xC9
-    public bool prevHatLeft; // 0xCA
-    public bool prevHatRight; // 0xCB
-    public float SimulationRate; // 0xCC
-    public float buttonRotation; // 0xD0
-    public bool ReadyToSnapTurn; // 0xD4
-    public bool playerControllerEnabled; // 0xD5
+    public object InitialYRotation;
 
     // ── Methods ──
     public void add_TransformUpdated(){} // RVA: 0x7FFD53D6BAF0
@@ -2282,39 +1708,68 @@ public class OVRPlayerController : MonoBehaviour
 
 public class OVRPlugin : Object
 {
-    public bool version;
+    public object version;
     public object nativeSDKVersion;
-    public object initialized; // 0x8
-    public object nativeXrApi; // 0x10
-    public int chromatic; // 0x18
-    public int monoscopic;
-    public int rotation;
-    public int position;
-    public int useIPDInPositionTracking;
-    public int positionSupported;
-    public int positionTracked;
-    public int powerSaving;
-    public aphy<pe> hmdPresent; // 0x1C
-    public Module userPresent; // 0x28
-    public ce headphonesPresent; // 0x30
-    public string recommendedMSAALevel; // 0x40
-    public Module systemRegion; // 0x48
-    public ce audioOutId; // 0x50
-    public string audioInId; // 0x60
-    public bool hasVrFocus; // 0x68
-    public bool hasInputFocus; // 0x69
-    public ector shouldQuit; // 0x70
-    public ector shouldRecenter; // 0x78
-    public ector productName; // 0x80
-    public ame latency; // 0x88
-    public float[] eyeDepth; // 0x90
-    public lityCaptureConfiguration.flipCameraFrameVertically eyeHeight; // 0x98
-    public reConfiguration.virtualGreenScreenType batteryLevel; // 0x298
-    public tureConfiguration.virtualGreenScreenTopY batteryTemperature; // 0x2B8
-    public BlitRect suggestedCpuPerfLevel; // 0xF00
-    public metryTransforms suggestedGpuPerfLevel; // 0x1018
-    public string cpuLevel;
-    public object gpuLevel; // 0x1068
+    public object initialized;
+    public object nativeXrApi;
+    public object chromatic;
+    public object monoscopic;
+    public object rotation;
+    public object position;
+    public object useIPDInPositionTracking;
+    public object positionSupported;
+    public object positionTracked;
+    public object powerSaving;
+    public object hmdPresent;
+    public object userPresent;
+    public object headphonesPresent;
+    public object recommendedMSAALevel;
+    public object systemRegion;
+    public object audioOutId;
+    public object audioInId;
+    public object hasVrFocus;
+    public object hasInputFocus;
+    public object shouldQuit;
+    public object shouldRecenter;
+    public object productName;
+    public object latency;
+    public object eyeDepth;
+    public object eyeHeight;
+    public object batteryLevel;
+    public object batteryTemperature;
+    public object suggestedCpuPerfLevel;
+    public object suggestedGpuPerfLevel;
+    public object cpuLevel;
+    public object gpuLevel;
+    public object vsyncCount;
+    public object systemVolume;
+    public object ipd;
+    public object occlusionMesh;
+    public object batteryStatus;
+    public object foveatedRenderingSupported;
+    public object eyeTrackedFoveatedRenderingSupported;
+    public object eyeTrackedFoveatedRenderingEnabled;
+    public object fixedFoveatedRenderingSupported;
+    public object foveatedRenderingLevel;
+    public object fixedFoveatedRenderingLevel;
+    public object useDynamicFixedFoveatedRendering;
+    public object tiledMultiResSupported;
+    public object tiledMultiResLevel;
+    public object gpuUtilSupported;
+    public object gpuUtilLevel;
+    public object systemDisplayFrequenciesAvailable;
+    public object systemDisplayFrequency;
+    public object eyeFovPremultipliedAlphaModeEnabled;
+    public object AsymmetricFovEnabled;
+    public object EyeTextureArrayEnabled;
+    public object localDimmingSupported;
+    public object localDimming;
+    public object bodyTrackingSupported;
+    public object bodyTrackingEnabled;
+    public object faceTrackingEnabled;
+    public object faceTrackingSupported;
+    public object eyeTrackingEnabled;
+    public object eyeTrackingSupported;
 
     // ── Methods ──
     public void get_version(){} // RVA: 0x7FFD53D03C70
@@ -2576,10 +2031,6 @@ public class OVRPlugin : Object
 
 public class OVRPointerVisualizer : MonoBehaviour
 {
-    public object rayTransform; // 0x20
-    public acktrace linePointer; // 0x28
-    public float rayDrawDistance; // 0x30
-
     // ── Methods ──
     public void Update(){} // RVA: 0x7FFD53D3D650
     public void .ctor(){} // RVA: 0x7FFD53D3D980
@@ -2610,9 +2061,6 @@ public class OVRProfile : Object
 
 public class OVRProgressIndicator : MonoBehaviour
 {
-    public terialIndex progressImage; // 0x20
-    public float currentProgress; // 0x28
-
     // ── Methods ──
     public void Awake(){} // RVA: 0x7FFD53D700F0
     public void Update(){} // RVA: 0x7FFD53D70150
@@ -2621,11 +2069,9 @@ public class OVRProgressIndicator : MonoBehaviour
 
 public class OVRRaycaster : GraphicRaycaster
 {
-    public BuffersImpl canvas; // 0x48
-    public int eventCamera; // 0x50
-    public pad sortOrderPriority; // 0x58
-    public URA.woDigitYearMax<ColorScaleAndOffset> m_RaycastResults; // 0x60
-    public URA.woDigitYearMax<ColorScaleAndOffset> s_SortedGraphics;
+    public object canvas;
+    public object eventCamera;
+    public object sortOrderPriority;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53D70250
@@ -2645,8 +2091,6 @@ public class OVRRaycaster : GraphicRaycaster
 
 public class OVRResetOrientation : MonoBehaviour
 {
-    public onTracker resetButton; // 0x20
-
     // ── Methods ──
     public void Update(){} // RVA: 0x7FFD53D72D70
     public void .ctor(){} // RVA: 0x7FFD53D72E50
@@ -2654,9 +2098,6 @@ public class OVRResetOrientation : MonoBehaviour
 
 public class OVRResources : MonoBehaviour
 {
-    public object resourceBundle;
-    public URA.woDigitYearMax<string> assetNames; // 0x8
-
     // ── Methods ──
     public void Load(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
     public void SetResourceBundle(){} // RVA: 0x7FFD53D3E200
@@ -2665,19 +2106,6 @@ public class OVRResources : MonoBehaviour
 
 public class OVRRuntimeController : MonoBehaviour
 {
-    public ÍÏÍÌÍ m_controller; // 0x20
-    public ojectionMatrix_Injected m_controllerModelShader; // 0x28
-    public bool m_supportAnimation; // 0x30
-    public BuffersImpl m_controllerObject; // 0x38
-    public string leftControllerModelPath;
-    public string rightControllerModelPath; // 0x8
-    public string m_controllerModelPath; // 0x40
-    public bool m_modelSupported; // 0x48
-    public bool m_hasInputFocus; // 0x49
-    public bool m_hasInputFocusPrev; // 0x4A
-    public bool m_controllerConnectedPrev; // 0x4B
-    public URA.DateTime<nternal.Extensions,otNullValue> m_animationNodes; // 0x50
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD53D72EA0
     public void Update(){} // RVA: 0x7FFD53D732C0
@@ -2693,8 +2121,6 @@ public class OVRRuntimeController : MonoBehaviour
 
 public class OVRRuntimeSettings : ScriptableObject
 {
-    public object colorSpace; // 0x18
-
     // ── Methods ──
     public void GetRuntimeSettings(){} // RVA: 0x7FFD53D3E3F0
     public void .ctor(){} // RVA: 0x7FFD53D3E550
@@ -2708,12 +2134,8 @@ public class OVRSandwichComposition : Object
 
 public class OVRSceneAnchor : MonoBehaviour
 {
-    public ation_4 Space; // 0x20
-    public ce Uuid; // 0x28
-    public R_12x12 RotateY180;
-    public aphy<cInitializeMixedRealityCapture> _pose; // 0x38
-    public URA.DateTime<ation_4,int> AnchorReferenceCountDictionary; // 0x10
-    public URA.woDigitYearMax<Rotations_4> SceneAnchorsList; // 0x18
+    public object Space;
+    public object Uuid;
 
     // ── Methods ──
     public void get_Space(){} // RVA: 0x7FFD4E36F0C0
@@ -2733,25 +2155,7 @@ public class OVRSceneAnchor : MonoBehaviour
 
 public class OVRSceneManager : MonoBehaviour
 {
-    public Rotations_4 Verbose; // 0x20
-    public Rotations_4 VolumePrefab; // 0x28
-    public URA.woDigitYearMax<lags> PrefabOverrides; // 0x30
-    public bool VerboseLogging; // 0x38
-    public int MaxSceneAnchorUpdatesPerFrame; // 0x3C
-    public ÎÌÍÏÏÌÍÏ SceneModelLoadedSuccessfully; // 0x40
-    public ÎÌÍÏÏÌÍÏ NoSceneModelToLoad; // 0x48
-    public ÎÌÍÏÏÌÍÏ SceneCaptureReturnedWithoutError; // 0x50
-    public ÎÌÍÏÏÌÍÏ UnexpectedErrorWithSceneCapture; // 0x58
-    public Bones_44 RoomLayout; // 0x60
-    public URA.DateTime<ce,int> _orderedRoomGuids; // 0x68
-    public ation<rmals> _wallOrderComparer; // 0x70
-    public URA.woDigitYearMax<ce> _uuidsToQuery; // 0x78
-    public ones_47 _currentQueryMode; // 0x80
-    public ulong _sceneCaptureRequestId; // 0x88
-    public URA.onsDepth<ulong> _individualRequestIds; // 0x90
-    public URA.DateTime<ation_4,orMapEditorType> _pendingLocatable; // 0x98
-    public __4 _cameraRig; // 0xA0
-    public int _sceneAnchorUpdateIndex; // 0xA8
+    public object Verbose;
 
     // ── Methods ──
     public void get_Verbose(){} // RVA: 0x7FFD53D3F430
@@ -2780,8 +2184,7 @@ public class OVRSceneManager : MonoBehaviour
 
 public class OVRSceneModelLoader : MonoBehaviour
 {
-    public ions_21 SceneManager; // 0x20
-    public bool _sceneCaptureRequested; // 0x28
+    public object SceneManager;
 
     // ── Methods ──
     public void get_SceneManager(){} // RVA: 0x7FFD4E36F0C0
@@ -2798,8 +2201,9 @@ public class OVRSceneModelLoader : MonoBehaviour
 
 public class OVRScenePlane : MonoBehaviour
 {
-    public float Width; // 0x20
-    public float Height; // 0x24
+    public object Width;
+    public object Height;
+    public object Dimensions;
 
     // ── Methods ──
     public void get_Width(){} // RVA: 0x7FFD4E36A080
@@ -2815,9 +2219,6 @@ public class OVRScenePlane : MonoBehaviour
 
 public class OVRScenePlaneMeshFilter : MonoBehaviour
 {
-    public n _meshFilter; // 0x20
-    public object _mesh; // 0x28
-
     // ── Methods ──
     public void Start(){} // RVA: 0x7FFD53D46380
     public void CreateMeshFromBoundary(){} // RVA: 0x7FFD53D46510
@@ -2826,10 +2227,6 @@ public class OVRScenePlaneMeshFilter : MonoBehaviour
 
 public class OVRScenePrefabOverride : Object
 {
-    public Rotations_4 Prefab; // 0x10
-    public string ClassificationLabel; // 0x18
-    public int _editorClassificationIndex; // 0x20
-
     // ── Methods ──
     public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFD4E341310
     public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFD53D467A0
@@ -2839,15 +2236,6 @@ public class OVRScenePrefabOverride : Object
 
 public class OVRSceneSampleController : MonoBehaviour
 {
-    public Flag quitKey; // 0x20
-    public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField fadeInTexture; // 0x28
-    public float speedRotationIncrement; // 0x30
-    public meraDevicePreferredDepthQuality playerController; // 0x38
-    public __4 cameraController; // 0x40
-    public string layerName; // 0x48
-    public bool visionMode; // 0x50
-    public ose gridCube; // 0x58
-
     // ── Methods ──
     public void Awake(){} // RVA: 0x7FFD53D744C0
     public void Start(){} // RVA: 0x7FFD53D74800
@@ -2860,9 +2248,10 @@ public class OVRSceneSampleController : MonoBehaviour
 
 public class OVRSceneVolume : MonoBehaviour
 {
-    public float Width; // 0x20
-    public float Height; // 0x24
-    public float Depth; // 0x28
+    public object Width;
+    public object Height;
+    public object Depth;
+    public object Dimensions;
 
     // ── Methods ──
     public void get_Width(){} // RVA: 0x7FFD4E36A080
@@ -2879,18 +2268,8 @@ public class OVRSceneVolume : MonoBehaviour
 
 public class OVRScreenFade : MonoBehaviour
 {
-    public tVideoBufferType instance;
-    public float currentAlpha; // 0x20
-    public object fadeColor; // 0x24
-    public bool fadeOnStart; // 0x34
-    public int renderQueue; // 0x38
-    public float explicitFadeAlpha; // 0x3C
-    public float animatedFadeAlpha; // 0x40
-    public float uiFadeAlpha; // 0x44
-    public terialIndex fadeRenderer; // 0x48
-    public n fadeMesh; // 0x50
-    public atrix_Injected fadeMaterial; // 0x58
-    public bool isFading; // 0x60
+    public object instance;
+    public object currentAlpha;
 
     // ── Methods ──
     public void get_instance(){} // RVA: 0x7FFD53D752E0
@@ -2911,7 +2290,7 @@ public class OVRScreenFade : MonoBehaviour
 
 public class OVRSemanticClassification : MonoBehaviour
 {
-    public URA.woDigitYearMax<string> Labels; // 0x20
+    public object Labels;
 
     // ── Methods ──
     public void get_Labels(){} // RVA: 0x7FFD4E36F0C0
@@ -2923,27 +2302,13 @@ public class OVRSemanticClassification : MonoBehaviour
 
 public class OVRSkeleton : MonoBehaviour
 {
-    public dRealityCaptureConfiguration.virtualGreenScreenType IsInitialized; // 0x20
-    public ovrp_SetDefaultExternalCamera IsDataValid; // 0x28
-    public bool IsDataHighConfidence; // 0x30
-    public bool Bones; // 0x31
-    public bool BindPoses; // 0x32
-    public bool Capsules; // 0x33
-    public BuffersImpl SkeletonChangedCount; // 0x38
-    public BuffersImpl _bindPosesGO; // 0x40
-    public BuffersImpl _capsulesGO; // 0x48
-    public URA.woDigitYearMax<tHmdColorDesc> _bones; // 0x50
-    public URA.woDigitYearMax<tHmdColorDesc> _bindPoses; // 0x58
-    public URA.woDigitYearMax<e> _capsules; // 0x60
-    public RealityCaptureConfiguration.virtualGreenScreenTopY _skeleton; // 0x68
-    public R_12x12 wristFixupRotation; // 0x88
-    public bool <IsInitialized>k__BackingField; // 0x98
-    public bool <IsDataValid>k__BackingField; // 0x99
-    public bool <IsDataHighConfidence>k__BackingField; // 0x9A
-    public URA.?<tHmdColorDesc> <Bones>k__BackingField; // 0xA0
-    public URA.?<tHmdColorDesc> <BindPoses>k__BackingField; // 0xA8
-    public URA.?<e> <Capsules>k__BackingField; // 0xB0
-    public int <SkeletonChangedCount>k__BackingField; // 0xB8
+    public object IsInitialized;
+    public object IsDataValid;
+    public object IsDataHighConfidence;
+    public object Bones;
+    public object BindPoses;
+    public object Capsules;
+    public object SkeletonChangedCount;
 
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0x7FFD4E7BA7F0
@@ -2981,27 +2346,10 @@ public class OVRSkeleton : MonoBehaviour
 
 public class OVRSkeletonRenderer : MonoBehaviour
 {
-    public p_Media_SetPlatformInitialized IsInitialized; // 0x20
-    public GetAppLatencyTimings IsDataValid; // 0x28
-    public tencyTimings IsDataHighConfidence; // 0x2C
-    public bool ShouldUseSystemGestureMaterial; // 0x30
-    public atrix_Injected _skeletonMaterial; // 0x38
-    public atrix_Injected _skeletonDefaultMaterial; // 0x40
-    public atrix_Injected _capsuleMaterial; // 0x48
-    public atrix_Injected _capsuleDefaultMaterial; // 0x50
-    public atrix_Injected _systemGestureMaterial; // 0x58
-    public atrix_Injected _systemGestureDefaultMaterial; // 0x60
-    public float LINE_RENDERER_WIDTH;
-    public URA.woDigitYearMax<rp_GetNativeXrApiType> _boneVisualizations; // 0x68
-    public URA.woDigitYearMax<ovPremultipliedAlphaMode> _capsuleVisualizations; // 0x70
-    public dle _ovrSkeleton; // 0x78
-    public BuffersImpl _skeletonGO; // 0x80
-    public float _scale; // 0x88
-    public R_12x12 _capsuleRotationOffset;
-    public bool <IsInitialized>k__BackingField; // 0x8C
-    public bool <IsDataValid>k__BackingField; // 0x8D
-    public bool <IsDataHighConfidence>k__BackingField; // 0x8E
-    public bool <ShouldUseSystemGestureMaterial>k__BackingField; // 0x8F
+    public object IsInitialized;
+    public object IsDataValid;
+    public object IsDataHighConfidence;
+    public object ShouldUseSystemGestureMaterial;
 
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0x7FFD4E3A9520
@@ -3024,7 +2372,8 @@ public class OVRSkeletonRenderer : MonoBehaviour
 
 public class OVRSpace : ValueType
 {
-    public ulong Handle; // 0x10
+    public object Handle;
+    public object Valid;
 
     // ── Methods ──
     public void get_Handle(){} // RVA: 0x7FFD4EEF9F60
@@ -3045,17 +2394,11 @@ public class OVRSpaceQuery : Object
 
 public class OVRSpatialAnchor : MonoBehaviour
 {
-    public bool Space; // 0x20
-    public ulong Uuid; // 0x28
-    public ation_4 Created; // 0x30
-    public ce PendingCreation; // 0x38
-    public URA.DateTime<ce,ion_30> Localized;
-    public URA.DateTime<ulong,ion_30> CreationRequests; // 0x8
-    public URA.DateTime<ulong,on_61> SingleAnchorCompletionDelegates; // 0x10
-    public URA.DateTime<ulong,rectoryInformation<s,bool>> LocalizationDelegates; // 0x18
-    public URA.DateTime<ulong,ileFullDirectoryInformation<s[]>> Queries; // 0x20
-    public URA.woDigitYearMax<s> UnboundAnchorBuffer; // 0x28
-    public tion_[] ComponentTypeBuffer; // 0x30
+    public object Space;
+    public object Uuid;
+    public object Created;
+    public object PendingCreation;
+    public object Localized;
 
     // ── Methods ──
     public void get_Space(){} // RVA: 0x7FFD4E5F95E0
@@ -3092,12 +2435,6 @@ public class OVRSpatialAnchor : MonoBehaviour
 
 public class OVRSpectatorModeDomeTest : MonoBehaviour
 {
-    public bool inited; // 0x20
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ defaultExternalCamera; // 0x28
-    public traHiddenLayers defaultFov; // 0x30
-    public object SpectatorAnchor; // 0x40
-    public object Head; // 0x48
-
     // ── Methods ──
     public void Awake(){} // RVA: 0x7FFD4E341310
     public void Start(){} // RVA: 0x7FFD53D7E880
@@ -3114,11 +2451,6 @@ public class OVRSpectatorModeDomeTest : MonoBehaviour
 
 public class OVRSystemPerfMetrics : Object
 {
-    public int TcpListeningPort;
-    public int PayloadTypeMetrics;
-    public int MaxBufferLength;
-    public int MaxMessageLength;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -3163,32 +2495,6 @@ public class OVRTracker : Object
 
 public class OVRVignette : MonoBehaviour
 {
-    public string QUADRATIC_FALLOFF;
-    public ojectionMatrix_Injected VignetteShader; // 0x20
-    public rp_CreateSpatialAnchor MeshComplexity; // 0x28
-    public allbacks Falloff; // 0x2C
-    public float VignetteFieldOfView; // 0x30
-    public float VignetteAspectRatio; // 0x34
-    public float VignetteFalloffDegrees; // 0x38
-    public object VignetteColor; // 0x3C
-    public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ _Camera; // 0x50
-    public n _OpaqueMeshFilter; // 0x58
-    public n _TransparentMeshFilter; // 0x60
-    public terialIndex _OpaqueMeshRenderer; // 0x68
-    public terialIndex _TransparentMeshRenderer; // 0x70
-    public object _OpaqueMesh; // 0x78
-    public object _TransparentMesh; // 0x80
-    public atrix_Injected _OpaqueMaterial; // 0x88
-    public atrix_Injected _TransparentMaterial; // 0x90
-    public int _ShaderScaleAndOffset0Property; // 0x98
-    public int _ShaderScaleAndOffset1Property; // 0x9C
-    public get_boundingBoxMode[] _TransparentScaleAndOffset0; // 0xA0
-    public get_boundingBoxMode[] _TransparentScaleAndOffset1; // 0xA8
-    public get_boundingBoxMode[] _OpaqueScaleAndOffset0; // 0xB0
-    public get_boundingBoxMode[] _OpaqueScaleAndOffset1; // 0xB8
-    public bool _OpaqueVignetteVisible; // 0xC0
-    public bool _TransparentVignetteVisible; // 0xC1
-
     // ── Methods ──
     public void GetTriangleCount(){} // RVA: 0x7FFD53D814F0
     public void BuildMeshes(){} // RVA: 0x7FFD53D81530
@@ -3211,8 +2517,6 @@ public class OVRVignette : MonoBehaviour
 
 public class OVRWaitCursor : MonoBehaviour
 {
-    public amut rotateSpeeds; // 0x20
-
     // ── Methods ──
     public void Update(){} // RVA: 0x7FFD53D848F0
     public void .ctor(){} // RVA: 0x7FFD53D849F0

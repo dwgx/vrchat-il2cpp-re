@@ -7,9 +7,6 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Compiler
 {
     public class DelegateHelpers : Object
     {
-        public alBlockSizes _DelegateCache;
-        public int MaximumArity;
-
         // ── Methods ──
         public void MakeDelegateType(){} // RVA: 0x7FFD54211EF0
         public void NextTypeInfo(){} // RVA: 0x7FFD542125E0 | overloaded x2

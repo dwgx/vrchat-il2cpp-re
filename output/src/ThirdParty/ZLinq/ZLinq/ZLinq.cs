@@ -22,8 +22,8 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class PooledArray`1 : ValueType
     {
-        public eObjectDelegate.kingField<E<?,ÌÌÌÏÎÌÌÏÎÍÌÌÍÏÌÍÎÎÌÏÍ,int>>[] Memory; // 0x10
-        public int ArraySegment; // 0x18
+        public object Memory;
+        public object ArraySegment;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970
@@ -127,8 +127,6 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class ValueEnumerable`2 : ValueType
     {
-        public RC.Dynamics.PhysBoneManager.Grab>.Current.edGlobalCollisionState<RC.Dynamics.PhysBoneManager.Grab>.Current.RequiredHideFlags<ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ>,ÏÍÎÌÏÎÍÏÌÍÍÍÍÎÍÌÌÌÏÎÏ,string> Enumerator; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void Cast(){} // RVA: 0x7FFD4E2ADC40
@@ -137,8 +135,7 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class ValueEnumerator`2 : ValueType
     {
-        public T1717716112 Current;
-        public T1717716128 current;
+        public object Current;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

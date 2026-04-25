@@ -17,9 +17,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Length : ValueType
     {
-        public float value;
-        public float unit; // 0x10
-        public object m_Unit; // 0x14
+        public object value;
+        public object unit;
 
         // ── Methods ──
         public void Percent(){} // RVA: 0x7FFD5501C9C0
