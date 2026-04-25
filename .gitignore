@@ -177,3 +177,7 @@ field_types_NEW.json
 
 # === Apr 18 baseline backup (large, reproducible) ===
 data/apr18_baseline/
+
+# === Empty LLM prediction cache (waiting for API quota) ===
+data/llm_field_predictions.json
+temp/
