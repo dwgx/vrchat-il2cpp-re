@@ -7,13 +7,12 @@ namespace ThirdParty.Other.PlatformSupport.Collections.ObjectModel
 {
     public class ObservableDictionary`2 : Object
     {
-        public string Dictionary;
-        public string Keys;
-        public string Values;
-        public string Item;
-        public URA.X_CALENDARS<T1717579600,T1717579616> Count;
-        public ÎÎÍÌÏÌÎÌÌÎÌÌÎÍÍÌÌÍ.? IsReadOnly;
-        public pacity.InvalidBasicConstraints PropertyChanged;
+        public object Dictionary;
+        public object Keys;
+        public object Values;
+        public object Item;
+        public object Count;
+        public object IsReadOnly;
 
         // ── Methods ──
         public void get_Dictionary(){} // RVA: 0x7FFD4E078E90

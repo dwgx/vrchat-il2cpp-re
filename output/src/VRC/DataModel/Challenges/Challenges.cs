@@ -19,12 +19,12 @@ namespace VRC.DataModel.Challenges
 
     public class ChallengeUpdateEvent : ChallengeEvent
     {
-        public string Icon; // 0x10
-        public string ID; // 0x18
-        public object Progress; // 0x20
-        public object Status; // 0x28
-        public object Title; // 0x30
-        public string ProgressCriteria; // 0x38
+        public object Icon;
+        public object ID;
+        public object Progress;
+        public object Status;
+        public object Title;
+        public object ProgressCriteria;
 
         // ── Methods ──
         public void GetPlatform(){} // RVA: 0x7FFD4E5F95E0

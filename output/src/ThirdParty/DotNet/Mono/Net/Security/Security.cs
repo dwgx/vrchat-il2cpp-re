@@ -7,16 +7,19 @@ namespace ThirdParty.DotNet.Mono.Net.Security
 {
     public class MobileTlsContext : Object
     {
-        public geInfo.tants Options; // 0x10
-        public geInfo.anged Parent; // 0x18
-        public geInfo.ransformAllocToVertexData Settings; // 0x20
-        public bool IsAuthenticated; // 0x28
-        public string IsServer; // 0x30
-        public string TargetHost; // 0x38
-        public bool ServerName; // 0x40
-        public ntsAreVisible.Info AskForClientCertificate; // 0x44
-        public line.alized EnabledProtocols; // 0x48
-        public line.? ClientCertificates; // 0x50
+        public object Options;
+        public object Parent;
+        public object Settings;
+        public object IsAuthenticated;
+        public object IsServer;
+        public object TargetHost;
+        public object ServerName;
+        public object AskForClientCertificate;
+        public object EnabledProtocols;
+        public object ClientCertificates;
+        public object LocalServerCertificate;
+        public object LocalClientCertificate;
+        public object RemoteCertificate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54247E30

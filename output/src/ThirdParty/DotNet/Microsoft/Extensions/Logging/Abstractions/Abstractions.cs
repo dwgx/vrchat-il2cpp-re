@@ -7,12 +7,12 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 {
     public class LogEntry`1 : ValueType
     {
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.MixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject LogLevel;
-        public string Category;
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.et_LongDatePattern EventId;
-        public T1717739328 State;
-        public ÏÏÍÍÎÎ Exception;
-        public nalInformation<T1717739328,ÏÏÍÍÎÎ,string> Formatter;
+        public object LogLevel;
+        public object Category;
+        public object EventId;
+        public object State;
+        public object Exception;
+        public object Formatter;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -26,7 +26,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 
     public class NullLogger : Object
     {
-        public ialTilt.sion Instance;
+        public object Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD53765490
@@ -39,8 +39,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 
     public class NullLogger`1 : Object
     {
-        public ialTilt.?<T1717739408> Instance;
-
         // ── Methods ──
         public void BeginScope(){} // RVA: 0x7FFD4E2ADC40
         public void Log(){} // RVA: 0x7FFD4E2ADC40

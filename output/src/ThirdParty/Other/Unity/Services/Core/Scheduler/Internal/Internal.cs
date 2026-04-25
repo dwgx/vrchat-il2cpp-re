@@ -7,14 +7,6 @@ namespace ThirdParty.Other.Unity.Services.Core.Scheduler.Internal
 {
     public class ActionScheduler : Object
     {
-        public FromEnumeratorManaged.ncellationTokenSource SchedulerLoopSystem; // 0x10
-        public Acceleration.F4A51022B2C23B72C2C355B9697096350E2300A2CB1500819D2D7 m_TimeProvider; // 0x38
-        public object m_Lock; // 0x40
-        public Acceleration.eSpoutName<Acceleration.ACE00E81ACCDDBCB7A6E733B9AEAAED2CE72D195B0605C0486C87A6C1613> m_ScheduledActions; // 0x48
-        public URA.DateTime<long,Acceleration.ACE00E81ACCDDBCB7A6E733B9AEAAED2CE72D195B0605C0486C87A6C1613> m_IdScheduledInvocationMap; // 0x50
-        public URA.woDigitYearMax<Acceleration.ACE00E81ACCDDBCB7A6E733B9AEAAED2CE72D195B0605C0486C87A6C1613> m_ExpiredActions; // 0x58
-        public long m_NextId; // 0x60
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B1D8E0 | overloaded x2
         public void ExecuteExpiredActions(){} // RVA: 0x7FFD54B1DDE0
@@ -43,10 +35,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Scheduler.Internal
     public class MinimumBinaryHeap`1 : MinimumBinaryHeap
     {
         public object Count;
-        public URA.ndar_data<T1717745712> Min;
-        public int m_MinimumCapacity;
-        public T1717745712[] m_HeapArray;
-        public int <Count>k__BackingField;
+        public object Min;
 
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -70,9 +59,6 @@ namespace ThirdParty.Other.Unity.Services.Core.Scheduler.Internal
 
     public class ScheduledInvocation : Object
     {
-        public ÎÌÍÏÏÌÍÏ Action; // 0x10
-        public DependencyInjector InvocationTime; // 0x18
-        public long ActionId; // 0x20
     }
 
     public class ScheduledInvocationComparer : Object

@@ -7,8 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class NavigationEventBase`1 : EventBase`1
     {
-        public illingServiceDisconnected modifiers;
-        public ÎÏÌÎÎÎÌÌÌ.chScrollBehavior shiftKey;
+        public object modifiers;
+        public object shiftKey;
+        public object altKey;
+        public object deviceType;
 
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x7FFD4E079960

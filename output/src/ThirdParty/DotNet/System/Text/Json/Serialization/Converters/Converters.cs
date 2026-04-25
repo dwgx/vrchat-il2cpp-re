@@ -20,8 +20,11 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class CastingConverter`1 : JsonConverter`1
     {
-        public ngCommas.IKSolverAim KeyType;
-        public bool ElementType;
+        public object KeyType;
+        public object ElementType;
+        public object HandleNull;
+        public object SupportsCreateObjectDelegate;
+        public object SourceConverterForCastingConverter;
 
         // ── Methods ──
         public void get_KeyType(){} // RVA: 0x7FFD4E078E90
@@ -79,15 +82,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class EnumConverter`1 : JsonConverter`1
     {
-        public t_AllowMultiple s_enumTypeCode;
-        public bool s_isSignedEnum;
-        public string ValueSeparator;
-        public bleInterface.zation _converterOptions;
-        public inDataView.gCommaNotAllowedBeforeObjectEnd _namingPolicy;
-        public JapaneseLangName.erns<ulong,inDataView.inString> _nameCacheForWriting;
-        public JapaneseLangName.erns<string,T1717653488> _nameCacheForReading;
-        public int NameCacheSizeSoftLimit;
-
         // ── Methods ──
         public void CanConvert(){} // RVA: 0x7FFD4E079F60
         public void .ctor(){} // RVA: 0x7FFD4E093960 | overloaded x2
@@ -104,8 +98,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpListConverter`2 : IEnumerableDefaultConverter`2
     {
-        public n<URA.bbrevEraNames<T1717653184>,T1717653168> _listConstructor;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void Add(){} // RVA: 0x7FFD4E099B30
@@ -115,7 +107,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpMapConverter`3 : DictionaryDefaultConverter`3
     {
-        public n<URA.bbrevEraNames<t<T1717653216,T1717653232>>,T1717653200> CanHaveIdMetadata;
+        public object CanHaveIdMetadata;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -127,9 +119,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpOptionConverter`2 : JsonConverter`1
     {
-        public ngCommas.get_transformPoleAxis<T1717653296> ConverterStrategy;
-        public n<T1717653280,T1717653296> ElementType;
-        public n<T1717653296,T1717653280> HandleNull;
+        public object ConverterStrategy;
+        public object ElementType;
+        public object HandleNull;
 
         // ── Methods ──
         public void get_ConverterStrategy(){} // RVA: 0x7FFD4E079D00
@@ -144,8 +136,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpSetConverter`2 : IEnumerableDefaultConverter`2
     {
-        public n<URA.bbrevEraNames<T1717653264>,T1717653248> _setConstructor;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void Add(){} // RVA: 0x7FFD4E099B30
@@ -155,9 +145,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpValueOptionConverter`2 : JsonConverter`1
     {
-        public ngCommas.get_transformPoleAxis<T1717653328> ConverterStrategy;
-        public eadOnlyFields<T1717653312,T1717653328> ElementType;
-        public n<T1717653328,T1717653312> HandleNull;
+        public object ConverterStrategy;
+        public object ElementType;
+        public object HandleNull;
 
         // ── Methods ──
         public void get_ConverterStrategy(){} // RVA: 0x7FFD4E079D00
@@ -220,7 +210,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IEnumerableConverter`1 : JsonCollectionConverter`2
     {
-        public bool RuntimeType;
+        public object RuntimeType;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E099B30
@@ -242,7 +232,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IEnumerableOfTConverter`2 : IEnumerableDefaultConverter`2
     {
-        public bool RuntimeType;
+        public object RuntimeType;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E099B30
@@ -278,7 +268,7 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IReadOnlyDictionaryOfTKeyTValueConverter`3 : DictionaryDefaultConverter`3
     {
-        public bool RuntimeType;
+        public object RuntimeType;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E2ADC40
@@ -345,8 +335,11 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
-        public ngCommas.get_transformPoleAxis<T1717652144> Converter;
-        public bool ConverterStrategy;
+        public object Converter;
+        public object ConverterStrategy;
+        public object KeyType;
+        public object ElementType;
+        public object ConstructorIsParameterized;
 
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x7FFD4E078E90
@@ -369,10 +362,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class KeyValuePairConverter`2 : SmallObjectWithParameterizedConstructorConverter`5
     {
-        public string _keyName;
-        public string _valueName;
-        public m.nformation s_constructorInfo;
-
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD4E099B30
         public void TryLookupConstructorParameter(){} // RVA: 0x7FFD4E07D680
@@ -429,8 +418,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class NullableConverter`1 : JsonConverter`1
     {
-        public ngCommas.get_transformPoleAxis<T1717653504> _elementConverter;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
         public void Read(){} // RVA: 0x7FFD4E2ADC40
@@ -536,8 +523,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class UnsupportedTypeConverter`1 : JsonConverter`1
     {
-        public string _errorMessage;
-
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD4E2ADC40
         public void Write(){} // RVA: 0x7FFD4E2ADC40

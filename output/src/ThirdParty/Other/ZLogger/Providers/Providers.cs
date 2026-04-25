@@ -7,8 +7,11 @@ namespace ThirdParty.Other.ZLogger.Providers
 {
     public class SharedFileStream : Stream
     {
-        public Inherited.eFactory CanRead; // 0x28
-        public sageKind.ndle CanSeek; // 0x30
+        public object CanRead;
+        public object CanSeek;
+        public object CanWrite;
+        public object Length;
+        public object Position;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750DB10
@@ -29,10 +32,6 @@ namespace ThirdParty.Other.ZLogger.Providers
 
     public class ZLoggerFileLoggerProvider : Object
     {
-        public object options; // 0x10
-        public object streamWriter; // 0x18
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ellingPresetMobile scopeProvider; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5750E250
         public void CreateLogger(){} // RVA: 0x7FFD5750E4B0
@@ -43,7 +42,7 @@ namespace ThirdParty.Other.ZLogger.Providers
 
     public class ZLoggerFileOptions : ZLoggerOptions
     {
-        public bool FileShared; // 0x38
+        public object FileShared;
 
         // ── Methods ──
         public void get_FileShared(){} // RVA: 0x7FFD4E5F95D0

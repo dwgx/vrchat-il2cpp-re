@@ -45,8 +45,6 @@ namespace VRC.SDK3.Network
 
     public class VRCNetworkBehaviour : VRCNetworkBehaviour
     {
-        public ileFullDirectoryInformation<ene.ext> OnNetworkBehaviourAwake;
-
         // ── Methods ──
         public void NetworkConfigure(){} // RVA: 0x7FFD4E090980
         public void add_OnNetworkBehaviourAwake(){} // RVA: 0x7FFD5742D9F0

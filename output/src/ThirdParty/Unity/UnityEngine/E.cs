@@ -56,9 +56,30 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Event : Object
     {
-        public UIntPtr rawType; // 0x10
-        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE mousePosition;
-        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE delta; // 0x8
+        public object rawType;
+        public object mousePosition;
+        public object delta;
+        public object pointerType;
+        public object button;
+        public object modifiers;
+        public object pressure;
+        public object twist;
+        public object tilt;
+        public object penStatus;
+        public object clickCount;
+        public object character;
+        public object keyCode;
+        public object displayIndex;
+        public object type;
+        public object commandName;
+        public object shift;
+        public object control;
+        public object alt;
+        public object command;
+        public object current;
+        public object isKey;
+        public object isMouse;
+        public object isDirectManipulationDevice;
 
         // ── Methods ──
         public void get_rawType(){} // RVA: 0x7FFD54D25250
@@ -160,18 +181,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ExposedReference`1 : ValueType
     {
-        public object exposedName; // 0x10
-        public object defaultValue; // 0x18
-
         // ── Methods ──
         public void Resolve(){} // RVA: 0x7FFD4E2ADC40
     }
 
     public class ExpressionEvaluator : Object
     {
-        public xCount s_Random;
-        public URA.DateTime<string,509_chain_free> s_Operators; // 0x10
-
         // ── Methods ──
         public void Evaluate(){} // RVA: 0x7FFD4E07D5A0
         public void EvaluateTokens(){} // RVA: 0x7FFD4E2ADC40

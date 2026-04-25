@@ -7,12 +7,7 @@ namespace ThirdParty.DotNet.System.IO.Pipes
 {
     public class PipeCompletionSource`1 : TaskCompletionSource`1
     {
-        public sageKind.nlyCollection Overlapped;
-        public sageKind.sition _cancellationRegistration;
-        public int _errorCode;
-        public IntPtr _overlapped;
-        public erDecimalDigits.DecimalSeparator _pinnedMemory;
-        public int _state;
+        public object Overlapped;
 
         // ── Methods ──
         public void .ctor(){}

@@ -37,7 +37,13 @@ import sys
 import json
 import time
 import os
+from bisect import bisect_right
 from collections import defaultdict
+
+try:
+    import numpy as np
+except ImportError:
+    np = None
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -68,6 +74,9 @@ FI_NAME      = 0x10
 # Heap scan range
 HEAP_VA_START = 0x30000000
 HEAP_VA_END   = 0x3E000000
+USER_VA_LIMIT = 0x0000800000000000
+AUTO_MIN_RANGE_SIZE = 0x1000
+AUTO_SCAN_CHUNK_SIZE = 64 * 1024 * 1024
 
 CLASS_SIZE = 0x180  # minimum class struct size
 
@@ -98,12 +107,32 @@ class DumpReader:
             sz = struct.unpack_from("<Q", mm, e + 8)[0]
             self.va_map.append((vs, sz, cur))
             cur += sz
+        self.va_map.sort()
+        self.va_starts = [vs for vs, _, _ in self.va_map]
 
     def v2f(self, va):
-        for vs, sz, fo in self.va_map:
-            if vs <= va < vs + sz:
-                return fo + (va - vs)
+        idx = bisect_right(self.va_starts, va) - 1
+        if idx < 0:
+            return None
+        vs, sz, fo = self.va_map[idx]
+        if vs <= va < vs + sz:
+            return fo + (va - vs)
         return None
+
+    def iter_user_ranges(self, min_size=AUTO_MIN_RANGE_SIZE):
+        for vs, sz, fo in self.va_map:
+            if sz < min_size:
+                continue
+            if not (0 < vs < USER_VA_LIMIT):
+                continue
+            end = vs + sz
+            if end <= vs:
+                continue
+            if end > USER_VA_LIMIT:
+                sz = USER_VA_LIMIT - vs
+                if sz < min_size:
+                    continue
+            yield vs, sz, fo
 
     def ok(self, va):
         return va and 0 < va < 0x7FFFFFFFFFFF and self.v2f(va) is not None
@@ -177,6 +206,93 @@ def find_all_classes(dr):
                 ns = ""
 
         classes.append(va)
+
+    elapsed = time.time() - t0
+    print(f"    Found {len(classes)} Il2CppClass entries ({elapsed:.1f}s)")
+    return classes
+
+
+def _validate_class_candidate(dr, va):
+    name_ptr = dr.ru64(va + OFF_NAME)
+    if not name_ptr or not dr.ok(name_ptr):
+        return False
+    name = dr.rstr(name_ptr, 128)
+    if not name or not name.isprintable():
+        return False
+
+    ns_ptr = dr.ru64(va + OFF_NS)
+    if ns_ptr and dr.ok(ns_ptr):
+        ns = dr.rstr(ns_ptr, 128) or ""
+        if ns and not ns.isprintable():
+            return False
+    return True
+
+
+def _scan_range_for_classes_numpy(dr, range_start, range_size, file_off, chunk_size=AUTO_SCAN_CHUNK_SIZE):
+    classes = []
+    remaining = range_size - CLASS_SIZE
+    if remaining <= 0:
+        return classes
+
+    for chunk_off in range(0, remaining, chunk_size):
+        candidate_bytes = min(chunk_size, remaining - chunk_off)
+        if candidate_bytes <= 0:
+            break
+
+        candidate_count = candidate_bytes // 8
+        if candidate_count <= 0:
+            continue
+
+        window_bytes = candidate_count * 8 + OFF_CAST + 8
+        qword_count = window_bytes // 8
+        qwords = np.frombuffer(
+            dr.mm,
+            dtype="<u8",
+            count=qword_count,
+            offset=file_off + chunk_off,
+        )
+        offsets = np.arange(candidate_count, dtype=np.uint64) * 8
+        base_vas = np.uint64(range_start + chunk_off) + offsets
+        mask = (qwords[OFF_ELEM // 8:OFF_ELEM // 8 + candidate_count] == base_vas)
+        mask &= (qwords[OFF_CAST // 8:OFF_CAST // 8 + candidate_count] == base_vas)
+
+        for idx in np.flatnonzero(mask):
+            va = int(base_vas[idx])
+            if _validate_class_candidate(dr, va):
+                classes.append(va)
+
+    return classes
+
+
+def find_all_classes_auto(dr):
+    """Scan every user-mode Memory64List range for Il2CppClass self references."""
+    if np is None:
+        raise RuntimeError("--auto-heap requires numpy")
+
+    ranges = list(dr.iter_user_ranges())
+    total_bytes = sum(sz for _, sz, _ in ranges)
+    print(
+        f"[+] Auto-scanning {len(ranges):,} user-mode ranges "
+        f">= {AUTO_MIN_RANGE_SIZE} bytes ({total_bytes / 1024 / 1024 / 1024:.2f} GiB)..."
+    )
+
+    t0 = time.time()
+    classes = []
+    scanned = 0
+    next_report = 512 * 1024 * 1024
+
+    for i, (vs, sz, fo) in enumerate(ranges, 1):
+        classes.extend(_scan_range_for_classes_numpy(dr, vs, sz, fo))
+        scanned += sz
+        if scanned >= next_report or i == len(ranges):
+            elapsed = time.time() - t0
+            rate = (scanned / 1024 / 1024) / elapsed if elapsed else 0.0
+            print(
+                f"    {i:,}/{len(ranges):,} ranges, "
+                f"{scanned / 1024 / 1024 / 1024:.2f}/{total_bytes / 1024 / 1024 / 1024:.2f} GiB, "
+                f"{len(classes):,} classes, {rate:.1f} MiB/s"
+            )
+            next_report += 512 * 1024 * 1024
 
     elapsed = time.time() - t0
     print(f"    Found {len(classes)} Il2CppClass entries ({elapsed:.1f}s)")
@@ -306,6 +422,21 @@ def parse_args():
         default=OUTPUT_DIR,
         help=f"Output directory for precise_dump artifacts (default: {OUTPUT_DIR})",
     )
+    parser.add_argument(
+        "--auto-heap",
+        action="store_true",
+        help="Scan all user-mode Memory64List ranges instead of the fixed heap VA window",
+    )
+    parser.add_argument(
+        "--output-json",
+        default=None,
+        help="Explicit path for precise_dump JSON output",
+    )
+    parser.add_argument(
+        "--output-cs",
+        default=None,
+        help="Explicit path for precise_dump C# stub output",
+    )
     return parser.parse_args()
 
 
@@ -323,7 +454,7 @@ def main():
     print(f"    {len(dr.va_map)} VA ranges loaded")
 
     # Phase 1: Find all classes
-    class_vas = find_all_classes(dr)
+    class_vas = find_all_classes_auto(dr) if args.auto_heap else find_all_classes(dr)
 
     # Phase 2: Read class info
     print(f"\n[+] Reading class details...")
@@ -398,16 +529,18 @@ def main():
         },
     }
 
-    os.makedirs(output_dir, exist_ok=True)
+    json_path = args.output_json or os.path.join(output_dir, "precise_dump.json")
+    cs_path = args.output_cs or os.path.join(output_dir, "precise_dump.cs")
 
-    json_path = os.path.join(output_dir, "precise_dump.json")
+    os.makedirs(os.path.dirname(json_path) or output_dir, exist_ok=True)
+    os.makedirs(os.path.dirname(cs_path) or output_dir, exist_ok=True)
+
     print(f"\n[+] Writing {json_path}...")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(json_out, f, indent=2, ensure_ascii=False)
     print(f"    {os.path.getsize(json_path) / 1024 / 1024:.1f}MB")
 
     # Phase 5: C# stubs
-    cs_path = os.path.join(output_dir, "precise_dump.cs")
     print(f"[+] Writing {cs_path}...")
     cs = generate_cs_stub(types_by_ns)
     with open(cs_path, "w", encoding="utf-8") as f:

@@ -7,11 +7,6 @@ namespace ThirdParty.DotNet.System.Buffers.Text
 {
     public class Utf8Formatter : Object
     {
-        public uint[] DayAbbreviations;
-        public uint[] DayAbbreviationsLowercase; // 0x8
-        public uint[] MonthAbbreviations; // 0x10
-        public uint[] MonthAbbreviationsLowercase; // 0x18
-
         // ── Methods ──
         public void TryFormat(){} // RVA: 0x7FFD539CDF10 | overloaded x16
         public void TryFormatDateTimeG(){} // RVA: 0x7FFD539C8E70
@@ -45,9 +40,6 @@ namespace ThirdParty.DotNet.System.Buffers.Text
 
     public class Utf8Parser : Object
     {
-        public int[] s_daysToMonth365;
-        public int[] s_daysToMonth366; // 0x8
-
         // ── Methods ──
         public void TryParse(){} // RVA: 0x7FFD53E87360 | overloaded x14
         public void TryParseNormalAsFloatingPoint(){} // RVA: 0x7FFD53E81520

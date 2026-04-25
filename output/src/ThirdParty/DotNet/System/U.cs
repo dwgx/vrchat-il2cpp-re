@@ -7,10 +7,6 @@ namespace ThirdParty.DotNet.System
 {
     public class UInt16 : ValueType
     {
-        public ushort m_value; // 0x10
-        public ushort MaxValue;
-        public ushort MinValue;
-
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD5392F000 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD5392EF20 | overloaded x2
@@ -39,10 +35,6 @@ namespace ThirdParty.DotNet.System
 
     public class UInt32 : ValueType
     {
-        public uint m_value; // 0x10
-        public uint MaxValue;
-        public uint MinValue;
-
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD50017830 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD50017E90 | overloaded x2
@@ -71,10 +63,6 @@ namespace ThirdParty.DotNet.System
 
     public class UInt64 : ValueType
     {
-        public ulong m_value; // 0x10
-        public ulong MaxValue;
-        public ulong MinValue;
-
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD50017A00 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD512A61F0 | overloaded x2
@@ -104,7 +92,6 @@ namespace ThirdParty.DotNet.System
     public class UIntPtr : ValueType
     {
         public object Size;
-        public IntPtr _pointer; // 0x10
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4F9DB120 | overloaded x3
@@ -133,42 +120,42 @@ namespace ThirdParty.DotNet.System
 
     public class Uri : Object
     {
-        public string IsImplicitFile;
-        public string IsUncOrDosPath; // 0x8
-        public string IsDosPath; // 0x10
-        public string IsUncPath; // 0x18
-        public string HostType; // 0x20
-        public string Syntax; // 0x28
-        public string IsNotAbsoluteUri; // 0x30
-        public string AllowIdn; // 0x38
-        public string UserDrivenParsing; // 0x40
-        public string SecuredPathIndex; // 0x48
-        public string AbsolutePath; // 0x50
-        public string PrivateAbsolutePath; // 0x58
-        public string AbsoluteUri; // 0x60
-        public int LocalPath;
-        public int Authority;
-        public int HostNameType;
-        public string IsDefaultPort; // 0x10
-        public string IsFile; // 0x18
-        public icateChain IsLoopback; // 0x20
-        public string PathAndQuery; // 0x28
-        public tf32 Segments; // 0x30
-        public ate IsUnc; // 0x38
-        public bool Host; // 0x40
-        public bool InitializeLock; // 0x68
-        public bool Port; // 0x69
-        public oninfo Query; // 0x6C
-        public bool Fragment; // 0x70
-        public bool Scheme; // 0x71
-        public allback OriginalStringSwitched;
-        public bool OriginalString; // 0x72
-        public object DnsSafeHost; // 0x78
-        public lClientCertificate IdnHost;
-        public char IsAbsoluteUri;
-        public char UserEscaped;
-        public char[] UserInfo; // 0x80
-        public char[] HasAuthority; // 0x88
+        public object IsImplicitFile;
+        public object IsUncOrDosPath;
+        public object IsDosPath;
+        public object IsUncPath;
+        public object HostType;
+        public object Syntax;
+        public object IsNotAbsoluteUri;
+        public object AllowIdn;
+        public object UserDrivenParsing;
+        public object SecuredPathIndex;
+        public object AbsolutePath;
+        public object PrivateAbsolutePath;
+        public object AbsoluteUri;
+        public object LocalPath;
+        public object Authority;
+        public object HostNameType;
+        public object IsDefaultPort;
+        public object IsFile;
+        public object IsLoopback;
+        public object PathAndQuery;
+        public object Segments;
+        public object IsUnc;
+        public object Host;
+        public object InitializeLock;
+        public object Port;
+        public object Query;
+        public object Fragment;
+        public object Scheme;
+        public object OriginalStringSwitched;
+        public object OriginalString;
+        public object DnsSafeHost;
+        public object IdnHost;
+        public object IsAbsoluteUri;
+        public object UserEscaped;
+        public object UserInfo;
+        public object HasAuthority;
 
         // ── Methods ──
         public void get_IsImplicitFile(){} // RVA: 0x7FFD546BFAF0

@@ -7,48 +7,16 @@ namespace ThirdParty.DotNet.System.Globalization
 {
     public class Calendar : Object
     {
-        public long MinSupportedDateTime;
-        public long MaxSupportedDateTime;
-        public long ID;
-        public long BaseCalendarID;
-        public long AlgorithmType;
-        public int IsReadOnly;
-        public int CurrentEraValue;
-        public int Eras;
-        public int DaysInYearBeforeMinSupportedYear;
-        public int TwoDigitYearMax;
-        public int DaysPer4Years;
-        public int DaysPer100Years;
-        public int DaysPer400Years;
-        public int DaysTo10000;
-        public long MaxMillis;
-        public int CAL_GREGORIAN;
-        public int CAL_GREGORIAN_US;
-        public int CAL_JAPAN;
-        public int CAL_TAIWAN;
-        public int CAL_KOREA;
-        public int CAL_HIJRI;
-        public int CAL_THAI;
-        public int CAL_HEBREW;
-        public int CAL_GREGORIAN_ME_FRENCH;
-        public int CAL_GREGORIAN_ARABIC;
-        public int CAL_GREGORIAN_XLIT_ENGLISH;
-        public int CAL_GREGORIAN_XLIT_FRENCH;
-        public int CAL_JULIAN;
-        public int CAL_JAPANESELUNISOLAR;
-        public int CAL_CHINESELUNISOLAR;
-        public int CAL_SAKA;
-        public int CAL_LUNAR_ETO_CHN;
-        public int CAL_LUNAR_ETO_KOR;
-        public int CAL_LUNAR_ETO_ROKUYOU;
-        public int CAL_KOREANLUNISOLAR;
-        public int CAL_TAIWANLUNISOLAR;
-        public int CAL_PERSIAN;
-        public int CAL_UMALQURA;
-        public int m_currentEraValue; // 0x10
-        public bool m_isReadOnly; // 0x14
-        public int CurrentEra;
-        public int twoDigitYearMax; // 0x18
+        public object MinSupportedDateTime;
+        public object MaxSupportedDateTime;
+        public object ID;
+        public object BaseCalendarID;
+        public object AlgorithmType;
+        public object IsReadOnly;
+        public object CurrentEraValue;
+        public object Eras;
+        public object DaysInYearBeforeMinSupportedYear;
+        public object TwoDigitYearMax;
 
         // ── Methods ──
         public void get_MinSupportedDateTime(){} // RVA: 0x7FFD5397FEE0
@@ -99,30 +67,6 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CalendarData : Object
     {
-        public int MAX_CALENDARS;
-        public string sNativeName; // 0x10
-        public string[] saShortDates; // 0x18
-        public string[] saYearMonths; // 0x20
-        public string[] saLongDates; // 0x28
-        public string sMonthDay; // 0x30
-        public string[] saEraNames; // 0x38
-        public string[] saAbbrevEraNames; // 0x40
-        public string[] saAbbrevEnglishEraNames; // 0x48
-        public string[] saDayNames; // 0x50
-        public string[] saAbbrevDayNames; // 0x58
-        public string[] saSuperShortDayNames; // 0x60
-        public string[] saMonthNames; // 0x68
-        public string[] saAbbrevMonthNames; // 0x70
-        public string[] saMonthGenitiveNames; // 0x78
-        public string[] saAbbrevMonthGenitiveNames; // 0x80
-        public string[] saLeapYearMonthNames; // 0x88
-        public int iTwoDigitYearMax; // 0x90
-        public int iCurrentEra; // 0x94
-        public bool bUseUserOverrides; // 0x98
-        public 0.NT_TYPE_BOOLEAN Invariant;
-        public string[] HEBREW_MONTH_NAMES; // 0x8
-        public string[] HEBREW_LEAP_MONTH_NAMES; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53982690 | overloaded x2
         public void .cctor(){} // RVA: 0x7FFD53981350
@@ -139,19 +83,8 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CompareInfo : Object
     {
-        public 0.gManifestResourceException Name;
-        public 0.gManifestResourceException UseManagedCollation;
-        public 0.gManifestResourceException ValidHashCodeOfStringMaskOffFlags;
-        public 0.gManifestResourceException ValidSortkeyCtorMaskOffFlags;
-        public 0.AManaged Invariant;
-        public string m_name; // 0x10
-        public string _sortName; // 0x18
-        public 0.Mitigations m_SortVersion; // 0x20
-        public int culture; // 0x28
-        public 0.nternal collator; // 0x30
-        public URA.DateTime<string,0.nternal> collators; // 0x8
-        public bool managedCollation; // 0x10
-        public bool managedCollationChecked; // 0x11
+        public object Name;
+        public object UseManagedCollation;
 
         // ── Methods ──
         public void InvariantIndexOf(){} // RVA: 0x7FFD539638A0
@@ -209,27 +142,23 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CultureData : Object
     {
-        public string Invariant; // 0x10
-        public string LongTimes; // 0x18
-        public string ShortTimes; // 0x20
-        public string[] SISO639LANGNAME; // 0x28
-        public string[] IFIRSTDAYOFWEEK; // 0x30
-        public int IFIRSTWEEKOFYEAR; // 0x38
-        public int SAM1159; // 0x3C
-        public int[] SPM2359; // 0x40
-        public 0.NT_TYPE_BOOLEAN[] TimeSeparator; // 0x48
-        public string CalendarIds; // 0x50
-        public string IsInvariantCulture; // 0x58
-        public bool CultureName; // 0x60
-        public int SCOMPAREINFO; // 0x64
-        public int STEXTINFO; // 0x68
-        public int IsRightToLeft; // 0x6C
-        public int SLIST; // 0x70
-        public int UseUserOverride; // 0x74
-        public int iDefaultEbcdicCodePage; // 0x78
-        public bool isRightToLeft; // 0x7C
-        public string sListSeparator; // 0x80
-        public 0.s s_Invariant;
+        public object Invariant;
+        public object LongTimes;
+        public object ShortTimes;
+        public object SISO639LANGNAME;
+        public object IFIRSTDAYOFWEEK;
+        public object IFIRSTWEEKOFYEAR;
+        public object SAM1159;
+        public object SPM2359;
+        public object TimeSeparator;
+        public object CalendarIds;
+        public object IsInvariantCulture;
+        public object CultureName;
+        public object SCOMPAREINFO;
+        public object STEXTINFO;
+        public object IsRightToLeft;
+        public object SLIST;
+        public object UseUserOverride;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E409510
@@ -284,46 +213,37 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CultureInfo : Object
     {
-        public 0.T_I8 _cultureData;
-        public object _isInherited; // 0x8
-        public 0.T_I8 InvariantCulture; // 0x10
-        public bool CurrentCulture; // 0x10
-        public int CurrentUICulture; // 0x14
-        public int Territory; // 0x18
-        public int _name; // 0x1C
-        public int IetfLanguageTag; // 0x20
-        public int LCID; // 0x24
-        public bool Name; // 0x28
-        public 0.d NativeName; // 0x30
-        public 0.tOfUserTypes Calendar; // 0x38
-        public 0.GetDeclaringTypeInternal Parent; // 0x40
-        public string TextInfo; // 0x48
-        public string ThreeLetterISOLanguageName; // 0x50
-        public string TwoLetterISOLanguageName; // 0x58
-        public string CompareInfo; // 0x60
-        public string IsNeutralCulture; // 0x68
-        public string NumberFormat; // 0x70
-        public string DateTimeFormat; // 0x78
-        public string[] DisplayName; // 0x80
-        public 0.AManaged EnglishName; // 0x88
-        public IntPtr InstalledUICulture; // 0x90
-        public int IsReadOnly; // 0x98
-        public 0.ÏÏÌÏÎÌÍÌÎÍÎÍÏÌÌÏÌÎÌÎÌ CalendarType; // 0xA0
-        public 0.T_I8 DefaultThreadCurrentCulture; // 0xA8
-        public bool DefaultThreadCurrentUICulture; // 0xB0
-        public byte[] SortName; // 0xB8
-        public 0.s UserDefaultUICulture; // 0xC0
-        public bool UserDefaultCulture; // 0xC8
-        public int HasInvariantCultureName;
-        public int CalendarTypeBits;
-        public int LOCALE_INVARIANT;
-        public string MSG_READONLY;
-        public 0.T_I8 s_DefaultThreadCurrentUICulture; // 0x18
-        public 0.T_I8 s_DefaultThreadCurrentCulture; // 0x20
-        public URA.DateTime<int,0.T_I8> shared_by_number; // 0x28
-        public URA.DateTime<string,0.T_I8> shared_by_name; // 0x30
-        public 0.T_I8 s_UserPreferredCultureInfoInAppX; // 0x38
-        public bool IsTaiwanSku; // 0x40
+        public object _cultureData;
+        public object _isInherited;
+        public object InvariantCulture;
+        public object CurrentCulture;
+        public object CurrentUICulture;
+        public object Territory;
+        public object _name;
+        public object IetfLanguageTag;
+        public object LCID;
+        public object Name;
+        public object NativeName;
+        public object Calendar;
+        public object Parent;
+        public object TextInfo;
+        public object ThreeLetterISOLanguageName;
+        public object TwoLetterISOLanguageName;
+        public object CompareInfo;
+        public object IsNeutralCulture;
+        public object NumberFormat;
+        public object DateTimeFormat;
+        public object DisplayName;
+        public object EnglishName;
+        public object InstalledUICulture;
+        public object IsReadOnly;
+        public object CalendarType;
+        public object DefaultThreadCurrentCulture;
+        public object DefaultThreadCurrentUICulture;
+        public object SortName;
+        public object UserDefaultUICulture;
+        public object UserDefaultCulture;
+        public object HasInvariantCultureName;
 
         // ── Methods ──
         public void get__cultureData(){} // RVA: 0x7FFD4E3AC120
@@ -400,88 +320,57 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class DateTimeFormatInfo : Object
     {
-        public 0.tOfUserTypes CultureName;
-        public 0.s Culture; // 0x10
-        public string LanguageName; // 0x18
-        public string InvariantInfo; // 0x20
-        public 0.AManaged CurrentInfo; // 0x28
-        public 0.T_I8 AMDesignator; // 0x30
-        public string Calendar; // 0x38
-        public string OptionalCalendars; // 0x40
-        public string EraNames; // 0x48
-        public string AbbreviatedEraNames; // 0x50
-        public string AbbreviatedEnglishEraNames; // 0x58
-        public string DateSeparator; // 0x60
-        public string FullDateTimePattern; // 0x68
-        public string LongDatePattern; // 0x70
-        public string LongTimePattern;
-        public string MonthDayPattern;
-        public string PMDesignator;
-        public 0.ÏÏÌÏÎÌÍÌÎÍÎÍÏÌÌÏÌÎÌÎÌ RFC1123Pattern; // 0x78
-        public int ShortDatePattern; // 0x80
-        public int ShortTimePattern; // 0x84
-        public string SortableDateTimePattern; // 0x88
-        public string[] GeneralShortTimePattern; // 0x90
-        public string[] GeneralLongTimePattern; // 0x98
-        public string[] DateTimeOffsetPattern; // 0xA0
-        public string[] TimeSeparator; // 0xA8
-        public string[] UniversalSortableDateTimePattern; // 0xB0
-        public string[] YearMonthPattern; // 0xB8
-        public string[] AbbreviatedDayNames; // 0xC0
-        public string[] DayNames; // 0xC8
-        public string AbbreviatedMonthNames; // 0xD0
-        public string MonthNames; // 0xD8
-        public string HasSpacesInMonthNames; // 0xE0
-        public string HasSpacesInDayNames; // 0xE8
-        public string AllYearMonthPatterns; // 0xF0
-        public string[] AllShortDatePatterns; // 0xF8
-        public string[] AllShortTimePatterns; // 0x100
-        public string[] AllLongDatePatterns; // 0x108
-        public string[] AllLongTimePatterns; // 0x110
-        public string[] UnclonedYearMonthPatterns; // 0x118
-        public string[] UnclonedShortDatePatterns; // 0x120
-        public string[] UnclonedLongDatePatterns; // 0x128
-        public string[] UnclonedShortTimePatterns; // 0x130
-        public 0.tions[] UnclonedLongTimePatterns; // 0x138
-        public int IsReadOnly;
-        public bool MonthGenitiveNames; // 0x140
-        public 0.e>5__3 FullTimeSpanPositivePattern; // 0x144
-        public char[] FullTimeSpanNegativePattern; // 0x8
-        public string CompareInfo;
-        public string FormatFlags;
-        public string HasForceTwoDigitYears; // 0x148
-        public string HasYearMonthAdjustment; // 0x150
-        public 0.o InvalidDateTimeStyles;
-        public dEventAdapter[] _dtfiTokenHash; // 0x158
-        public int TOKEN_HASH_SIZE;
-        public int SECOND_PRIME;
-        public string dateSeparatorOrTimeZoneOffset;
-        public string invariantDateSeparator;
-        public string invariantTimeSeparator;
-        public string IgnorablePeriod;
-        public string IgnorableComma;
-        public string CJKYearSuff;
-        public string CJKMonthSuff;
-        public string CJKDaySuff;
-        public string KoreanYearSuff;
-        public string KoreanMonthSuff;
-        public string KoreanDaySuff;
-        public string KoreanHourSuff;
-        public string KoreanMinuteSuff;
-        public string KoreanSecondSuff;
-        public string CJKHourSuff;
-        public string ChineseHourSuff;
-        public string CJKMinuteSuff;
-        public string CJKSecondSuff;
-        public string JapaneseEraStart;
-        public string LocalTimeMark;
-        public string GMTName;
-        public string ZuluName;
-        public string KoreanLangName;
-        public string JapaneseLangName;
-        public string EnglishLangName;
-        public 0.tOfUserTypes s_jajpDTFI; // 0x10
-        public 0.tOfUserTypes s_zhtwDTFI; // 0x18
+        public object CultureName;
+        public object Culture;
+        public object LanguageName;
+        public object InvariantInfo;
+        public object CurrentInfo;
+        public object AMDesignator;
+        public object Calendar;
+        public object OptionalCalendars;
+        public object EraNames;
+        public object AbbreviatedEraNames;
+        public object AbbreviatedEnglishEraNames;
+        public object DateSeparator;
+        public object FullDateTimePattern;
+        public object LongDatePattern;
+        public object LongTimePattern;
+        public object MonthDayPattern;
+        public object PMDesignator;
+        public object RFC1123Pattern;
+        public object ShortDatePattern;
+        public object ShortTimePattern;
+        public object SortableDateTimePattern;
+        public object GeneralShortTimePattern;
+        public object GeneralLongTimePattern;
+        public object DateTimeOffsetPattern;
+        public object TimeSeparator;
+        public object UniversalSortableDateTimePattern;
+        public object YearMonthPattern;
+        public object AbbreviatedDayNames;
+        public object DayNames;
+        public object AbbreviatedMonthNames;
+        public object MonthNames;
+        public object HasSpacesInMonthNames;
+        public object HasSpacesInDayNames;
+        public object AllYearMonthPatterns;
+        public object AllShortDatePatterns;
+        public object AllShortTimePatterns;
+        public object AllLongDatePatterns;
+        public object AllLongTimePatterns;
+        public object UnclonedYearMonthPatterns;
+        public object UnclonedShortDatePatterns;
+        public object UnclonedLongDatePatterns;
+        public object UnclonedShortTimePatterns;
+        public object UnclonedLongTimePatterns;
+        public object IsReadOnly;
+        public object MonthGenitiveNames;
+        public object FullTimeSpanPositivePattern;
+        public object FullTimeSpanNegativePattern;
+        public object CompareInfo;
+        public object FormatFlags;
+        public object HasForceTwoDigitYears;
+        public object HasYearMonthAdjustment;
 
         // ── Methods ──
         public void get_CultureName(){} // RVA: 0x7FFD5396A2A0
@@ -584,7 +473,7 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class GlobalizationMode : Object
     {
-        public bool Invariant;
+        public object Invariant;
 
         // ── Methods ──
         public void get_Invariant(){} // RVA: 0x7FFD5397FE40
@@ -594,10 +483,12 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class GregorianCalendar : Calendar
     {
-        public 0.vStdcall MinSupportedDateTime; // 0x20
-        public int[] MaxSupportedDateTime;
-        public int[] AlgorithmType; // 0x8
-        public 0.ÏÏÌÏÎÌÍÌÎÍÎÍÏÌÌÏÌÎÌÎÌ ID; // 0x10
+        public object MinSupportedDateTime;
+        public object MaxSupportedDateTime;
+        public object AlgorithmType;
+        public object ID;
+        public object Eras;
+        public object TwoDigitYearMax;
 
         // ── Methods ──
         public void OnDeserialized(){} // RVA: 0x7FFD53984870
@@ -647,42 +538,34 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class NumberFormatInfo : Object
     {
-        public 0.d InvariantInfo;
-        public int[] CurrencyDecimalDigits; // 0x10
-        public int[] CurrencyDecimalSeparator; // 0x18
-        public int[] IsReadOnly; // 0x20
-        public string CurrencyGroupSizes; // 0x28
-        public string NumberGroupSizes; // 0x30
-        public string PercentGroupSizes; // 0x38
-        public string CurrencyGroupSeparator; // 0x40
-        public string CurrencySymbol; // 0x48
-        public string CurrentInfo; // 0x50
-        public string NaNSymbol; // 0x58
-        public string CurrencyNegativePattern; // 0x60
-        public string NumberNegativePattern; // 0x68
-        public string PercentPositivePattern; // 0x70
-        public string PercentNegativePattern; // 0x78
-        public string NegativeInfinitySymbol; // 0x80
-        public string NegativeSign; // 0x88
-        public string NumberDecimalDigits; // 0x90
-        public string NumberDecimalSeparator; // 0x98
-        public string[] NumberGroupSeparator; // 0xA0
-        public int CurrencyPositivePattern; // 0xA8
-        public int PositiveInfinitySymbol; // 0xAC
-        public int PositiveSign; // 0xB0
-        public int PercentDecimalDigits; // 0xB4
-        public int PercentDecimalSeparator; // 0xB8
-        public int PercentGroupSeparator; // 0xBC
-        public int PercentSymbol; // 0xC0
-        public int PerMilleSymbol; // 0xC4
-        public int percentDecimalDigits; // 0xC8
-        public int digitSubstitution; // 0xCC
-        public bool isReadOnly; // 0xD0
-        public bool m_useUserOverride; // 0xD1
-        public bool m_isInvariant; // 0xD2
-        public bool validForParseAsNumber; // 0xD3
-        public bool validForParseAsCurrency; // 0xD4
-        public 0.s InvalidNumberStyles;
+        public object InvariantInfo;
+        public object CurrencyDecimalDigits;
+        public object CurrencyDecimalSeparator;
+        public object IsReadOnly;
+        public object CurrencyGroupSizes;
+        public object NumberGroupSizes;
+        public object PercentGroupSizes;
+        public object CurrencyGroupSeparator;
+        public object CurrencySymbol;
+        public object CurrentInfo;
+        public object NaNSymbol;
+        public object CurrencyNegativePattern;
+        public object NumberNegativePattern;
+        public object PercentPositivePattern;
+        public object PercentNegativePattern;
+        public object NegativeInfinitySymbol;
+        public object NegativeSign;
+        public object NumberDecimalDigits;
+        public object NumberDecimalSeparator;
+        public object NumberGroupSeparator;
+        public object CurrencyPositivePattern;
+        public object PositiveInfinitySymbol;
+        public object PositiveSign;
+        public object PercentDecimalDigits;
+        public object PercentDecimalSeparator;
+        public object PercentGroupSeparator;
+        public object PercentSymbol;
+        public object PerMilleSymbol;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5398D240 | overloaded x2
@@ -729,10 +612,8 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class SortKey : Object
     {
-        public string OriginalString; // 0x10
-        public byte[] KeyData; // 0x18
-        public 0.gManifestResourceException options; // 0x20
-        public int lcid; // 0x24
+        public object OriginalString;
+        public object KeyData;
 
         // ── Methods ──
         public void Compare(){} // RVA: 0x7FFD53994020
@@ -750,18 +631,12 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class TextInfo : Object
     {
-        public string Invariant; // 0x10
-        public bool CultureName; // 0x18
-        public string IsReadOnly; // 0x20
-        public 0.s ListSeparator; // 0x28
-        public string IsAsciiCasingSameAsInvariant; // 0x30
-        public aphy<bool> IsRightToLeft; // 0x38
-        public 0.GetDeclaringTypeInternal s_Invariant;
-        public string customCultureName; // 0x40
-        public int m_nDataItem; // 0x48
-        public bool m_useUserOverride; // 0x4C
-        public int m_win32LangID; // 0x50
-        public int wordSeparatorMask;
+        public object Invariant;
+        public object CultureName;
+        public object IsReadOnly;
+        public object ListSeparator;
+        public object IsAsciiCasingSameAsInvariant;
+        public object IsRightToLeft;
 
         // ── Methods ──
         public void get_Invariant(){} // RVA: 0x7FFD5398F0C0

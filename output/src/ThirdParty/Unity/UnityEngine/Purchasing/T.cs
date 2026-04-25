@@ -7,9 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class TransactionLog : Object
     {
-        public Identifiers logger; // 0x10
-        public string persistentDataPath; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DD0A00
         public void HasRecordOf(){} // RVA: 0x7FFD54DD0B70

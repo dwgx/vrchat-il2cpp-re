@@ -7,9 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.UI.Collections
 {
     public class IndexedSet`1 : Object
     {
-        public URA.woDigitYearMax<T1717703584> Count;
-        public URA.DateTime<T1717703584,int> Capacity;
-        public int IsReadOnly;
+        public object Count;
+        public object Capacity;
+        public object IsReadOnly;
+        public object Item;
 
         // ── Methods ──
         public void Add(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2

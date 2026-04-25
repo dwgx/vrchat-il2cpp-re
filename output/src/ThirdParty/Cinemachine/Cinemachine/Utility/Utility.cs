@@ -7,10 +7,6 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 {
     public class CinemachineDebug : Object
     {
-        public URA.onsDepth<?> mClients;
-        public ons OnGUIHandlers; // 0x8
-        public URA.woDigitYearMax<em.MarkAborted.izeDefaultCase> mAvailableStringBuilders; // 0x10
-
         // ── Methods ──
         public void ReleaseScreenPos(){} // RVA: 0x7FFD4FC977E0
         public void GetScreenPos(){} // RVA: 0x7FFD4FC97890
@@ -21,10 +17,6 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class Damper : Object
     {
-        public float Epsilon;
-        public float kNegligibleResidual;
-        public float kLogNegligibleResidual;
-
         // ── Methods ──
         public void DecayConstant(){} // RVA: 0x7FFD4FC98FA0
         public void DecayedRemainder(){} // RVA: 0x7FFD4FC98FD0
@@ -54,10 +46,9 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class GaussianWindow1d`1 : Object
     {
-        public tionX[] Sigma; // 0x10
-        public float[] KernelSize; // 0x18
-        public int BufferLength; // 0x20
-        public float <Sigma>k__BackingField; // 0x24
+        public object Sigma;
+        public object KernelSize;
+        public object BufferLength;
 
         // ── Methods ──
         public void get_Sigma(){} // RVA: 0x7FFD4E08D880
@@ -78,15 +69,7 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class HeadingTracker : Object
     {
-        public ?[] FilterSize; // 0x10
-        public int mTop; // 0x18
-        public int mBottom; // 0x1C
-        public int mCount; // 0x20
-        public amut mHeadingSum; // 0x24
-        public float mWeightSum; // 0x30
-        public float mWeightTime; // 0x34
-        public amut mLastGoodHeading; // 0x38
-        public float mDecayExponent;
+        public object FilterSize;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FC99480
@@ -101,12 +84,6 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class PositionPredictor : Object
     {
-        public amut m_Velocity; // 0x10
-        public amut m_SmoothDampVelocity; // 0x1C
-        public amut m_Pos; // 0x28
-        public bool m_HavePos; // 0x34
-        public float Smoothing; // 0x38
-
         // ── Methods ──
         public void IsEmpty(){} // RVA: 0x7FFD4FC98C50
         public void ApplyTransformDelta(){} // RVA: 0x7FFD4FC98C60
@@ -146,8 +123,6 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class UnityVectorExtensions : Object
     {
-        public float Epsilon;
-
         // ── Methods ──
         public void IsNaN(){} // RVA: 0x7FFD4FC9B140 | overloaded x2
         public void ClosestPointOnSegment(){} // RVA: 0x7FFD4FC9B260 | overloaded x2

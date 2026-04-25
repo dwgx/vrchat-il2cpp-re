@@ -160,16 +160,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class InspectorNameAttribute : PropertyAttribute
     {
-        public string displayName; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class IntegratedSubsystem : Object
     {
-        public UIntPtr running; // 0x10
-        public targetCameraAlpha valid; // 0x18
+        public object running;
+        public object valid;
 
         // ── Methods ──
         public void SetHandle(){} // RVA: 0x7FFD54E11190
@@ -184,7 +182,7 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class IntegratedSubsystemDescriptor : Object
     {
-        public UIntPtr id; // 0x10
+        public object id;
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD54E115E0

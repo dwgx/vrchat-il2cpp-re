@@ -7,11 +7,14 @@ namespace VRC.SDK3.Video.Components.Base
 {
     public class BaseVRCVideoPlayer : MonoBehaviour
     {
-        public ileFullDirectoryInformation<ata.tIndex> InitializeBase;
-        public float SyncIndexTimeSet; // 0x20
-        public float SyncIndexPosition; // 0x24
-        public URA.woDigitYearMax<platMaterialPropertyBlock> Loop; // 0x28
-        public bool IsPlaying; // 0x30
+        public object InitializeBase;
+        public object SyncIndexTimeSet;
+        public object SyncIndexPosition;
+        public object Loop;
+        public object IsPlaying;
+        public object IsReady;
+        public object VideoWidth;
+        public object VideoHeight;
 
         // ── Methods ──
         public void get_InitializeBase(){} // RVA: 0x7FFD57417FD0

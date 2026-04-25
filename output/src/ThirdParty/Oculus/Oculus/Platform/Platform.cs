@@ -7,8 +7,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 {
     public class AbuseReportOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C38CC0
         public void SetPreventPeopleChooser(){} // RVA: 0x7FFD53C38D70
@@ -19,8 +17,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class AdvancedAbuseReportOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C38FF0
         public void SetDeveloperDefinedContext(){} // RVA: 0x7FFD53C390A0
@@ -44,8 +40,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class ApplicationOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C39860
         public void SetDeeplinkMessage(){} // RVA: 0x7FFD53C39910
@@ -59,8 +53,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class AvatarEditorOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C39FD0
         public void SetSourceOverride(){} // RVA: 0x7FFD53C3A080
@@ -70,10 +62,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class CAPI : Object
     {
-        public string DLL_NAME;
-        public em.MarkAborted.e nativeStringEncoding;
-        public int VoipFilterBufferSize;
-
         // ── Methods ──
         public void ArrayOfStructsToIntPtr(){} // RVA: 0x7FFD53C3B5F0
         public void DictionaryToOVRKeyValuePairs(){} // RVA: 0x7FFD53C3BB90 | overloaded x2
@@ -1274,13 +1262,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Callback : Object
     {
-        public URA.DateTime<ulong,NextImage.?> requestIDsToRequests;
-        public URA.DateTime<ÏÏÍÍÌÌÎÍ,ld> notificationCallbacks; // 0x8
-        public bool hasRegisteredRoomInviteNotificationHandler; // 0x10
-        public URA.woDigitYearMax<NextImage.ÎÏÏÌÌÏÎÎÌÏÌÌÍÎ> pendingRoomInviteNotifications; // 0x18
-        public bool hasRegisteredJoinIntentNotificationHandler; // 0x20
-        public NextImage.ÎÏÏÌÌÏÎÎÌÏÌÌÍÎ latestPendingJoinIntentNotifications; // 0x28
-
         // ── Methods ──
         public void SetNotificationCallback(){} // RVA: 0x7FFD53C3A2B0 | overloaded x2
         public void AddRequest(){} // RVA: 0x7FFD53C3A430
@@ -1295,8 +1276,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class CallbackRunner : MonoBehaviour
     {
-        public bool IsPersistantBetweenSceneLoads; // 0x20
-
         // ── Methods ──
         public void ovr_UnityResetTestPlatform(){} // RVA: 0x7FFD53C3B180
         public void Awake(){} // RVA: 0x7FFD53C3B1F0
@@ -1308,8 +1287,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class ChallengeOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C6A520
         public void SetDescription(){} // RVA: 0x7FFD53C6A5D0
@@ -1328,10 +1305,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Core : Object
     {
-        public bool IsPlatformInitialized;
-        public bool LogMessages; // 0x1
-        public string PlatformUninitializedError; // 0x8
-
         // ── Methods ──
         public void IsInitialized(){} // RVA: 0x7FFD53C7ABC0
         public void ForceInitialized(){} // RVA: 0x7FFD53C7AC20
@@ -1345,8 +1318,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class GroupPresenceOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C6B060
         public void SetDeeplinkMessageOverride(){} // RVA: 0x7FFD53C6B110
@@ -1377,8 +1348,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class InviteOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C6B7C0
         public void AddSuggestedUser(){} // RVA: 0x7FFD53C6B870
@@ -1389,8 +1358,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class MatchmakingOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C6BAF0
         public void SetCreateRoomDataStore(){} // RVA: 0x7FFD53C6BBA0
@@ -1409,10 +1376,10 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message : Object
     {
-        public ÏÏÍÍÌÌÎÍ Type; // 0x10
-        public ulong IsError; // 0x18
-        public Full.ÍÎÎÍÏ RequestID; // 0x20
-        public ovr_ProductArray_GetSize HandleExtraMessageTypes;
+        public object Type;
+        public object IsError;
+        public object RequestID;
+        public object HandleExtraMessageTypes;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C6C8A0
@@ -1513,7 +1480,7 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
-        public T1717704096 Data;
+        public object Data;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090BF0
@@ -1523,8 +1490,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class MultiplayerErrorOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C79EC0
         public void SetErrorKey(){} // RVA: 0x7FFD53C79F70
@@ -1534,8 +1499,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class NetSyncOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C7A120
         public void SetVoipGroup(){} // RVA: 0x7FFD53C7A1D0
@@ -1547,8 +1510,9 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Packet : Object
     {
-        public ulong SenderID; // 0x10
-        public UIntPtr Size; // 0x18
+        public object SenderID;
+        public object Size;
+        public object Policy;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C7A600
@@ -1570,10 +1534,10 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class PlatformSettings : ScriptableObject
     {
-        public string AppID; // 0x18
-        public string MobileAppID; // 0x20
-        public bool UseStandalonePlatform; // 0x28
-        public NextImage.SessionId_Native Instance;
+        public object AppID;
+        public object MobileAppID;
+        public object UseStandalonePlatform;
+        public object Instance;
 
         // ── Methods ──
         public void get_AppID(){} // RVA: 0x7FFD53C93A60
@@ -1589,8 +1553,7 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Request : Object
     {
-        public object RequestID; // 0x10
-        public ulong <RequestID>k__BackingField; // 0x18
+        public object RequestID;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4ECB20D0
@@ -1603,8 +1566,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Request`1 : Request
     {
-        public ?<T1717704112> callback_;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090BF0
         public void OnComplete(){} // RVA: 0x7FFD4E078F40
@@ -1613,8 +1574,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class RichPresenceOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C942C0
         public void SetApiName(){} // RVA: 0x7FFD53C94370
@@ -1633,8 +1592,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class RoomOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C94E00
         public void SetDataStore(){} // RVA: 0x7FFD53C94EB0
@@ -1651,8 +1608,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class RosterOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C95660
         public void AddSuggestedUser(){} // RVA: 0x7FFD53C95710
@@ -1688,8 +1643,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class UserOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C960E0
         public void SetMaxUsers(){} // RVA: 0x7FFD53C96190
@@ -1702,12 +1655,7 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class VoipAudioSourceHiLevel : MonoBehaviour
     {
-        public int senderID; // 0x20
-        public t audioSource; // 0x28
-        public float peakAmplitude; // 0x30
-        public NextImage._LeaderboardEntry_GetExtraData pcmSource; // 0x38
-        public int audioSystemPlaybackFrequency;
-        public bool verboseLogging; // 0x4
+        public object senderID;
 
         // ── Methods ──
         public void set_senderID(){} // RVA: 0x7FFD53C96580
@@ -1723,8 +1671,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class VoipOptions : Object
     {
-        public UIntPtr Handle; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53C97570
         public void SetBitrateForNewConnections(){} // RVA: 0x7FFD53C97620
@@ -1735,8 +1681,6 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class VoipPCMSourceNative : Object
     {
-        public ulong senderID; // 0x10
-
         // ── Methods ──
         public void GetPCM(){} // RVA: 0x7FFD53C97890
         public void SetSenderID(){} // RVA: 0x7FFD4F83EFB0

@@ -7,8 +7,7 @@ namespace VRC.DebugUI
 {
     public class DebugUIPageData : Object
     {
-        public URA.DateTime<int,?> _debugUIPageData;
-        public URA.ap<?,ÌÌÏÎÍÌÎÎÏÏÌÌÏÌÎ> <ÏÍÎÏÍÎÍÌÍÍÎÏÍÏÌÍÌÎÌÍÎÌÏ>k__BackingField; // 0x8
+        public object _debugUIPageData;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EAA16B0

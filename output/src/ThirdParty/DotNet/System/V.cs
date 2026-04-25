@@ -7,7 +7,7 @@ namespace ThirdParty.DotNet.System
 {
     public class ValueTuple`1 : ValueType
     {
-        public xBoundariesIndices<etBestGrabbingType.Name> System.Runtime.CompilerServices.ITuple.Length; // 0x10
+        public object System.Runtime.CompilerServices.ITuple.Length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -26,8 +26,6 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
-        public UIntPtr Item1; // 0x10
-        public string Item2; // 0x18
     }
 
     public class ValueTuple`3 : ValueType
@@ -72,11 +70,7 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`5 : ValueType
     {
-        public UIntPtr System.Runtime.CompilerServices.ITuple.Length; // 0x10
-        public int Item2; // 0x18
-        public UIntPtr Item3; // 0x20
-        public int Item4; // 0x28
-        public bool Item5; // 0x2C
+        public object System.Runtime.CompilerServices.ITuple.Length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -96,12 +90,7 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`6 : ValueType
     {
-        public xBoundariesIndices<URA.woDigitYearMax<etBestGrabbingType.d_GazeOn>> System.Runtime.CompilerServices.ITuple.Length; // 0x10
-        public xBoundariesIndices<URA.woDigitYearMax<etBestGrabbingType.Name>> Item2; // 0x20
-        public xBoundariesIndices<URA.woDigitYearMax<etBestGrabbingType.StdString>> Item3; // 0x30
-        public xBoundariesIndices<URA.woDigitYearMax<etBestGrabbingType.oglevel>> Item4; // 0x40
-        public xBoundariesIndices<URA.woDigitYearMax<etBestGrabbingType.Name>> Item5; // 0x50
-        public xBoundariesIndices<URA.woDigitYearMax<etBestGrabbingType.?>> Item6; // 0x60
+        public object System.Runtime.CompilerServices.ITuple.Length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -121,13 +110,7 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`7 : ValueType
     {
-        public T1717585168 System.Runtime.CompilerServices.ITuple.Length;
-        public T1717585184 Item2;
-        public T1717585200 Item3;
-        public T1717585216 Item4;
-        public T1717585232 Item5;
-        public T1717585248 Item6;
-        public T1717585264 Item7;
+        public object System.Runtime.CompilerServices.ITuple.Length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -147,14 +130,7 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`8 : ValueType
     {
-        public xBoundariesIndices<etBestGrabbingType.d_GazeOn> System.Runtime.CompilerServices.ITuple.Length; // 0x10
-        public xBoundariesIndices<etBestGrabbingType.StdString> Item2; // 0x20
-        public xBoundariesIndices<etBestGrabbingType.StdString> Item3; // 0x30
-        public xBoundariesIndices<etBestGrabbingType.StdString> Item4; // 0x40
-        public xBoundariesIndices<etBestGrabbingType.StdString> Item5; // 0x50
-        public xBoundariesIndices<etBestGrabbingType.oglevel> Item6; // 0x60
-        public xBoundariesIndices<etBestGrabbingType.d> Item7; // 0x70
-        public 94A3DC0EDC472CB13D08BCA7B5CC287C51E0E3E<xBoundariesIndices<etBestGrabbingType.Name>> Rest; // 0x80
+        public object System.Runtime.CompilerServices.ITuple.Length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -187,10 +163,11 @@ namespace ThirdParty.DotNet.System
 
     public class Version : Object
     {
-        public int Major; // 0x10
-        public int Minor; // 0x14
-        public int Build; // 0x18
-        public int Revision; // 0x1C
+        public object Major;
+        public object Minor;
+        public object Build;
+        public object Revision;
+        public object DefaultFormatFieldCount;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A7B4F0 | overloaded x6

@@ -23,7 +23,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Rendering
 
     public class ScriptableRuntimeReflectionSystemSettings : Object
     {
-        public rConnectionEvents.g Internal_ScriptableRuntimeReflectionSystemSettings_system;
+        public object Internal_ScriptableRuntimeReflectionSystemSettings_system;
+        public object Internal_ScriptableRuntimeReflectionSystemSettings_instance;
 
         // ── Methods ──
         public void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(){} // RVA: 0x7FFD54D1FA80
@@ -34,7 +35,7 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Rendering
 
     public class ScriptableRuntimeReflectionSystemWrapper : Object
     {
-        public rConnectionEvents.ctionEvent implementation; // 0x10
+        public object implementation;
 
         // ── Methods ──
         public void get_implementation(){} // RVA: 0x7FFD4E35C380

@@ -14,14 +14,7 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonConvert : Object
     {
-        public ormation<l.siteShoulder> DefaultSettings;
-        public string True; // 0x8
-        public string False; // 0x10
-        public string Null; // 0x18
-        public string Undefined; // 0x20
-        public string PositiveInfinity; // 0x28
-        public string NegativeInfinity; // 0x30
-        public string NaN; // 0x38
+        public object DefaultSettings;
 
         // ── Methods ──
         public void get_DefaultSettings(){} // RVA: 0x7FFD550C48E0
@@ -36,37 +29,25 @@ namespace ThirdParty.Valve.Valve.Newtonsoft.Json
 
     public class JsonSerializer : Object
     {
-        public l.hts ReferenceResolver; // 0x10
-        public ri.operties Binder; // 0x14
-        public l.istAlign TraceWriter; // 0x18
-        public l._rightLegMapping EqualityComparer; // 0x1C
-        public l.ay TypeNameHandling; // 0x20
-        public l.eadMapping TypeNameAssemblyFormat; // 0x24
-        public l.leftLegMapping PreserveReferencesHandling; // 0x28
-        public l.aneRotationOffset ReferenceLoopHandling; // 0x2C
-        public l.chainIndex2 MissingMemberHandling; // 0x30
-        public l.rcCharacterSpaceBendOffsetLeft NullValueHandling; // 0x34
-        public l.mPoleAxis DefaultValueHandling; // 0x38
-        public eControlBarClose.iteEndAsync ObjectCreationHandling; // 0x40
-        public eControlBarClose.dentAsync ConstructorHandling; // 0x48
-        public mePatterns.djustment MetadataPropertyHandling; // 0x50
-        public externalClaims.or<System.Security.Claims.Claim>.Current Converters; // 0x58
-        public externalClaims.nvoySinks ContractResolver; // 0x60
-        public eControlBarClose.eAsync Context; // 0x70
-        public aphy<l.ateTokenTypeMap> Formatting; // 0x78
-        public aphy<l.entationsSet> CheckAdditionalContent; // 0x80
-        public aphy<l.ToBone> _dateTimeZoneHandling; // 0x88
-        public aphy<l._isEndEffector> _dateParseHandling; // 0x90
-        public aphy<l.?> _floatFormatHandling; // 0x98
-        public aphy<l.intainRelativePositionWeight> _floatParseHandling; // 0xA0
-        public aphy<l.OffsetRight> _stringEscapeHandling; // 0xA8
-        public 0.T_I8 _culture; // 0xB0
-        public aphy<int> _maxDepth; // 0xB8
-        public bool _maxDepthSet; // 0xC0
-        public aphy<bool> _checkAdditionalContent; // 0xC1
-        public string _dateFormatString; // 0xC8
-        public bool _dateFormatStringSet; // 0xD0
-        public tTable<eControlBarClose.ize> Error; // 0xD8
+        public object ReferenceResolver;
+        public object Binder;
+        public object TraceWriter;
+        public object EqualityComparer;
+        public object TypeNameHandling;
+        public object TypeNameAssemblyFormat;
+        public object PreserveReferencesHandling;
+        public object ReferenceLoopHandling;
+        public object MissingMemberHandling;
+        public object NullValueHandling;
+        public object DefaultValueHandling;
+        public object ObjectCreationHandling;
+        public object ConstructorHandling;
+        public object MetadataPropertyHandling;
+        public object Converters;
+        public object ContractResolver;
+        public object Context;
+        public object Formatting;
+        public object CheckAdditionalContent;
 
         // ── Methods ──
         public void add_Error(){} // RVA: 0x7FFD550CCA40

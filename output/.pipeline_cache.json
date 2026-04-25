@@ -12,14 +12,14 @@
       "structural_matches.json": "d079e725d67401d833d0e34a1a17f20ddea7ce6a61049d0be77c787d9671eb0b",
       "additional_names.json": "9655a096c2483413f7d71dbc31265347d00bca8b3efb9c978f4a6b3a9f3cdd13"
     },
-    "output_hash": "fd433b9586bb72eabc40e35b390cea78708463d443b93c3d477ae6077cb06fef",
-    "timestamp": "2026-04-25 02:15:11",
+    "output_hash": "19aa540dcf30abf9889cf610b6e1cf44a428ef0b6cc7978fc5188006113436de",
+    "timestamp": "2026-04-25 09:24:54",
     "completed": true
   },
   "stage_1": {
     "input_hashes": {
       "precise_dump.json": "b2bf1bd3fbc75371b674b543a3ecd6aaf3e4fbbb14343bc1836a914894973f3b",
-      "unified_vocabulary.json": "fd433b9586bb72eabc40e35b390cea78708463d443b93c3d477ae6077cb06fef",
+      "unified_vocabulary.json": "19aa540dcf30abf9889cf610b6e1cf44a428ef0b6cc7978fc5188006113436de",
       "va_propagation_names.json": "cbde7403a8a921b97066afe975a1bfa0bc3b1752fc124ff63c93da668603619f",
       "callgraph_method_names.json": "9eb20febb55326e93fc813d981286be77b63af835a7d5b9ceb9fee141b3ea9a2",
       "string_api_method_names.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
@@ -27,7 +27,7 @@
       "llm_predicted_names.json": "3317d2d121dff21a12817deb3997197e0b5b85560ad50b3f797da0d036fd5b75"
     },
     "output_hash": "639709589f5dc8a8643b37f66a99a9f9b58c1578eca27a4e0266f6430c4b2e01",
-    "timestamp": "2026-04-25 02:15:16",
+    "timestamp": "2026-04-25 09:24:58",
     "completed": true
   },
   "stage_2": {
@@ -40,7 +40,7 @@
       "photon_protocol_analysis.md": "c5dab07b8a8e185f39db37bf9b5f6c06c02b2988c1a8476402c4e0bf3d2e5421"
     },
     "output_hash": "639709589f5dc8a8643b37f66a99a9f9b58c1578eca27a4e0266f6430c4b2e01",
-    "timestamp": "2026-04-25 02:15:17",
+    "timestamp": "2026-04-25 09:24:58",
     "completed": true
   },
   "stage_3": {
@@ -48,7 +48,7 @@
       "deobfuscated_dump.json": "639709589f5dc8a8643b37f66a99a9f9b58c1578eca27a4e0266f6430c4b2e01"
     },
     "output_hash": null,
-    "timestamp": "2026-04-25 02:15:17",
+    "timestamp": "2026-04-25 09:25:00",
     "completed": true
   },
   "stage_4": {
@@ -56,8 +56,8 @@
       "deobfuscated_dump.json": "639709589f5dc8a8643b37f66a99a9f9b58c1578eca27a4e0266f6430c4b2e01",
       "name_mapping.json": "f00869ff5df8fe963f69eeaed4f6f1f01484cbf9b85d80bba3cf207ae89c18d2"
     },
-    "output_hash": "d46c81f5d22a21a79abdaff71dc4b3485c8ec50ddfddc2352095c65b07f38d4a",
-    "timestamp": "2026-04-25 02:15:18",
+    "output_hash": "7311991f03ad53ba448ac326c937a098b9a2e6a785b480be4179cc898e5492db",
+    "timestamp": "2026-04-25 09:25:00",
     "completed": true
   }
 }

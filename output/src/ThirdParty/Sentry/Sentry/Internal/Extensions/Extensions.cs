@@ -32,14 +32,7 @@ namespace ThirdParty.Sentry.Sentry.Internal.Extensions
 
     public class JsonExtensions : Object
     {
-        public ngCommas.IKSolverAim[] JsonPreserveReferences;
-        public URA.woDigitYearMax<ngCommas.IKSolverAim> CustomConverters; // 0x8
-        public bool <JsonPreserveReferences>k__BackingField; // 0x10
-        public inDataView.CannotBeObjectOrArray SerializerOptions; // 0x18
-        public inDataView.CannotBeObjectOrArray AltSerializerOptions; // 0x20
-        public URA.woDigitYearMax<ngCommas.ptions> DefaultSerializerContexts; // 0x28
-        public URA.woDigitYearMax<ngCommas.ptions> ReferencePreservingSerializerContexts; // 0x30
-        public URA.woDigitYearMax<n<inDataView.CannotBeObjectOrArray,ngCommas.ptions>> JsonSerializerContextBuilders; // 0x38
+        public object JsonPreserveReferences;
 
         // ── Methods ──
         public void get_JsonPreserveReferences(){} // RVA: 0x7FFD53FE6C80
@@ -92,8 +85,6 @@ namespace ThirdParty.Sentry.Sentry.Internal.Extensions
 
     public class MiscExtensions : Object
     {
-        public ializable.GetObjectData MaxTimeout;
-
         // ── Methods ──
         public void Pipe(){} // RVA: 0x7FFD4E2ADC40
         public void NullIfDefault(){} // RVA: 0x7FFD4E2ADC40

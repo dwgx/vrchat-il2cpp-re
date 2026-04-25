@@ -7,17 +7,17 @@ namespace ThirdParty.Other.Unity.XR.GoogleVr
 {
     public class DaydreamController : XRController
     {
-        public _1.lSenseHIDUSBInputReport touchpad; // 0x1B0
-        public _1.ceControlChangedValue volumeUp; // 0x1B8
-        public _1.ceControlChangedValue recentered; // 0x1C0
-        public _1.ceControlChangedValue volumeDown; // 0x1C8
-        public _1.ceControlChangedValue recentering; // 0x1D0
-        public _1.ceControlChangedValue app; // 0x1D8
-        public _1.ceControlChangedValue home; // 0x1E0
-        public _1.ceControlChangedValue touchpadClicked; // 0x1E8
-        public _1.ceControlChangedValue touchpadTouched; // 0x1F0
-        public _1.utReport deviceVelocity; // 0x1F8
-        public _1.utReport deviceAcceleration; // 0x200
+        public object touchpad;
+        public object volumeUp;
+        public object recentered;
+        public object volumeDown;
+        public object recentering;
+        public object app;
+        public object home;
+        public object touchpadClicked;
+        public object touchpadTouched;
+        public object deviceVelocity;
+        public object deviceAcceleration;
 
         // ── Methods ──
         public void get_touchpad(){} // RVA: 0x7FFD4E969F30

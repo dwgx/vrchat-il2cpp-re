@@ -7,10 +7,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry.Proto
 {
     public class FaceGeometry : Object
     {
-        public gBox.itionBlend<_HasRightX.ltValue> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public _HasRightX.Label pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public etBestGrabbingType.exName Mesh; // 0x20
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object Mesh;
+        public object PoseTransformMatrix;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD5372A9C0
@@ -35,9 +36,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry.Proto
 
     public class FaceGeometryGraphOptions : Object
     {
-        public gBox.itionBlend<_HasRightX.MergeFields> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public tion.r pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object GeometryPipelineOptions;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD5372C120
@@ -60,7 +62,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry.Proto
 
     public class Mesh3DReflection : Object
     {
-        public ate.ination Descriptor;
+        public object Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD5372CFD0

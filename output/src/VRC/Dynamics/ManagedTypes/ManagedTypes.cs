@@ -7,13 +7,10 @@ namespace VRC.Dynamics.ManagedTypes
 {
     public class VRCAimConstraintBase : VRCWorldUpConstraintBase
     {
-        public bool PositionMode; // 0x3A0
-        public bool RotationMode; // 0x3A1
-        public bool ScaleMode; // 0x3A2
-        public amut UsesWorldUpTransform; // 0x3A4
-        public amut UpAxis; // 0x3B0
-        public VoipAttenuation WorldUp; // 0x3BC
-        public amut WorldUpVector; // 0x3C0
+        public object PositionMode;
+        public object RotationMode;
+        public object ScaleMode;
+        public object UsesWorldUpTransform;
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180
@@ -33,8 +30,10 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCLookAtConstraintBase : VRCWorldUpConstraintBase
     {
-        public float PositionMode; // 0x3A0
-        public bool RotationMode; // 0x3A4
+        public object PositionMode;
+        public object RotationMode;
+        public object ScaleMode;
+        public object UsesWorldUpTransform;
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180
@@ -52,14 +51,9 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCParentConstraintBase : VRCConstraintBase
     {
-        public amut PositionMode; // 0x380
-        public bool RotationMode; // 0x38C
-        public bool ScaleMode; // 0x38D
-        public bool AffectsPositionZ; // 0x38E
-        public amut RotationAtRest; // 0x390
-        public bool AffectsRotationX; // 0x39C
-        public bool AffectsRotationY; // 0x39D
-        public bool AffectsRotationZ; // 0x39E
+        public object PositionMode;
+        public object RotationMode;
+        public object ScaleMode;
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E446CB0
@@ -75,11 +69,9 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCPositionConstraintBase : VRCConstraintBase
     {
-        public amut PositionMode; // 0x380
-        public amut RotationMode; // 0x38C
-        public bool ScaleMode; // 0x398
-        public bool AffectsPositionY; // 0x399
-        public bool AffectsPositionZ; // 0x39A
+        public object PositionMode;
+        public object RotationMode;
+        public object ScaleMode;
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E433AF0
@@ -94,11 +86,9 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCRotationConstraintBase : VRCConstraintBase
     {
-        public amut PositionMode; // 0x380
-        public amut RotationMode; // 0x38C
-        public bool ScaleMode; // 0x398
-        public bool AffectsRotationY; // 0x399
-        public bool AffectsRotationZ; // 0x39A
+        public object PositionMode;
+        public object RotationMode;
+        public object ScaleMode;
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180
@@ -113,11 +103,9 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCScaleConstraintBase : VRCConstraintBase
     {
-        public amut PositionMode; // 0x380
-        public amut RotationMode; // 0x38C
-        public bool ScaleMode; // 0x398
-        public bool AffectsScaleY; // 0x399
-        public bool AffectsScaleZ; // 0x39A
+        public object PositionMode;
+        public object RotationMode;
+        public object ScaleMode;
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180
@@ -132,9 +120,9 @@ namespace VRC.Dynamics.ManagedTypes
 
     public class VRCWorldUpConstraintBase : VRCConstraintBase
     {
-        public amut PositionMode; // 0x380
-        public amut ScaleMode; // 0x38C
-        public object UsesWorldUpTransform; // 0x398
+        public object PositionMode;
+        public object ScaleMode;
+        public object UsesWorldUpTransform;
 
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x7FFD4E919180

@@ -7,8 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class ObjectListPool`1 : Object
     {
-        public ÎÏÌÎÎÎÌÌÌ.gContentId<URA.woDigitYearMax<T1717597072>> pool;
-
         // ── Methods ──
         public void Get(){} // RVA: 0x7FFD4E078A90
         public void Release(){} // RVA: 0x7FFD4E090A10
@@ -17,9 +15,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
-        public URA.leEastFrench<T1717596128> maxSize;
-        public int m_MaxSize;
-        public ormation<T1717596128> CreateFunc;
+        public object maxSize;
 
         // ── Methods ──
         public void get_maxSize(){} // RVA: 0x7FFD4E079960

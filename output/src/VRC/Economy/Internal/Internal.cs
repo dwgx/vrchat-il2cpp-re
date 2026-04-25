@@ -7,13 +7,10 @@ namespace VRC.Economy.Internal
 {
     public class EconomyStoresManager : Object
     {
-        public string _name;
-        public string _hideFlags;
-        public ?<bool> f_918; // 0x10
-        public aphy<DependencyInjector> f_E1F; // 0x18
-        public URA.saAbbrevMonthNames<?> ÏÏÎÎÍÎÌÍÎÌÍÎÎÏÎÌÌÍÎÍÎÍÌ; // 0x28
-        public dle<string> ÍÏÏÎÎÌÏÌÎÌÎÍÌÏÍÏÍÍÌÎÍÍÎ;
-        public ÏÎÌÏÎÍÌÌÌÌÌÍÎ <ÏÎÌÌÏÏÌÌÏÌÎÍÌÍÍÎÎÌÎÏÏÍÎ>k__BackingField; // 0x30
+        public object _name;
+        public object _hideFlags;
+        public object f_918;
+        public object f_E1F;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E9F2F00

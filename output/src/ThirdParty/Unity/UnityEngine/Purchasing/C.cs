@@ -7,10 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class ConfigurationBuilder : Object
     {
-        public bool useCatalogProvider; // 0x10
-        public bool logUnavailableProducts; // 0x11
-        public URA.onsDepth<ing.ÍÏÌÌÌÍÏÎÏÍÏÎÍÏÍÍÌÌÌÏ> products; // 0x18
-        public ing.in factory; // 0x20
+        public object useCatalogProvider;
+        public object logUnavailableProducts;
+        public object products;
+        public object factory;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54DCB340
@@ -24,10 +24,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class CoreServicesEnvironmentSubject : Object
     {
-        public ing.ÍÌÌÍÌÌÏÌÍÎÌÌ s_Instance;
-        public string m_LastKnownEnvironment; // 0x10
-        public URA.woDigitYearMax<ing.ÎÎÍÌÌÎÌÏÏÌÏÌÏÎÏÏÍÏ> m_Observers; // 0x18
-
         // ── Methods ──
         public void Instance(){} // RVA: 0x7FFD54DCB9D0
         public void SubscribeToUpdatesAndGetCurrent(){} // RVA: 0x7FFD54DCBB50

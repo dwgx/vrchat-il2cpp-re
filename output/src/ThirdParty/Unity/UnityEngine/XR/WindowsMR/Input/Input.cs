@@ -7,10 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
 {
     public class HololensHand : XRController
     {
-        public _1.utReport deviceVelocity; // 0x1B0
-        public _1.ceControlChangedValue airTap; // 0x1B8
-        public _1.Index sourceLossRisk; // 0x1C0
-        public _1.utReport sourceLossMitigationDirection; // 0x1C8
+        public object deviceVelocity;
+        public object airTap;
+        public object sourceLossRisk;
+        public object sourceLossMitigationDirection;
 
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x7FFD4E969F30
@@ -27,7 +27,7 @@ namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
 
     public class WMRHMD : XRHMD
     {
-        public _1.ceControlChangedValue userPresence; // 0x1E0
+        public object userPresence;
 
         // ── Methods ──
         public void get_userPresence(){} // RVA: 0x7FFD4E818150
@@ -38,23 +38,23 @@ namespace ThirdParty.Unity.UnityEngine.XR.WindowsMR.Input
 
     public class WMRSpatialController : XRControllerWithRumble
     {
-        public _1.lSenseHIDUSBInputReport joystick; // 0x1B0
-        public _1.lSenseHIDUSBInputReport touchpad; // 0x1B8
-        public _1.Index grip; // 0x1C0
-        public _1.ceControlChangedValue gripPressed; // 0x1C8
-        public _1.ceControlChangedValue menu; // 0x1D0
-        public _1.Index trigger; // 0x1D8
-        public _1.ceControlChangedValue triggerPressed; // 0x1E0
-        public _1.ceControlChangedValue joystickClicked; // 0x1E8
-        public _1.ceControlChangedValue touchpadClicked; // 0x1F0
-        public _1.ceControlChangedValue touchpadTouched; // 0x1F8
-        public _1.utReport deviceVelocity; // 0x200
-        public _1.utReport deviceAngularVelocity; // 0x208
-        public _1.Index batteryLevel; // 0x210
-        public _1.Index sourceLossRisk; // 0x218
-        public _1.utReport sourceLossMitigationDirection; // 0x220
-        public _1.utReport pointerPosition; // 0x228
-        public _1.? pointerRotation; // 0x230
+        public object joystick;
+        public object touchpad;
+        public object grip;
+        public object gripPressed;
+        public object menu;
+        public object trigger;
+        public object triggerPressed;
+        public object joystickClicked;
+        public object touchpadClicked;
+        public object touchpadTouched;
+        public object deviceVelocity;
+        public object deviceAngularVelocity;
+        public object batteryLevel;
+        public object sourceLossRisk;
+        public object sourceLossMitigationDirection;
+        public object pointerPosition;
+        public object pointerRotation;
 
         // ── Methods ──
         public void get_joystick(){} // RVA: 0x7FFD4E969F30

@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
 {
     public class XRConfigurationDataAttribute : Attribute
     {
-        public string displayName; // 0x10
-        public string buildSettingsKey; // 0x18
+        public object displayName;
+        public object buildSettingsKey;
 
         // ── Methods ──
         public void get_displayName(){} // RVA: 0x7FFD4E35C380
@@ -20,13 +20,10 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
 
     public class XRGeneralSettings : ScriptableObject
     {
-        public string Manager;
-        public clippingSoftness_Injected.rentMesh Instance; // 0x8
-        public clippingSoftness_Injected.rting AssignedSettings; // 0x18
-        public bool InitManagerOnStart; // 0x20
-        public clippingSoftness_Injected.rting m_XRManager; // 0x28
-        public bool m_ProviderIntialized; // 0x30
-        public bool m_ProviderStarted; // 0x31
+        public object Manager;
+        public object Instance;
+        public object AssignedSettings;
+        public object InitManagerOnStart;
 
         // ── Methods ──
         public void get_Manager(){} // RVA: 0x7FFD4E3447C0
@@ -62,8 +59,6 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
 
     public class XRLoaderHelper : XRLoader
     {
-        public URA.DateTime<?,operty> m_SubsystemInstanceMap; // 0x18
-
         // ── Methods ──
         public void GetLoadedSubsystem(){} // RVA: 0x7FFD4E2ADC40
         public void StartSubsystem(){} // RVA: 0x7FFD4E090980
@@ -78,25 +73,20 @@ namespace ThirdParty.Unity.UnityEngine.XR.Management
 
     public class XRManagementAnalytics : Object
     {
-        public int kMaxEventsPerHour;
-        public int kMaxNumberOfElements;
-        public string kVendorKey;
-        public string kEventBuild;
-        public bool s_Initialized;
-
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7FFD54C04730
     }
 
     public class XRManagerSettings : ScriptableObject
     {
-        public bool automaticLoading; // 0x18
-        public bool automaticRunning; // 0x19
-        public bool loaders; // 0x1A
-        public bool activeLoaders; // 0x1B
-        public URA.woDigitYearMax<clippingSoftness_Injected.?> isInitializationComplete; // 0x20
-        public URA.onsDepth<clippingSoftness_Injected.?> activeLoader; // 0x28
-        public clippingSoftness_Injected.? currentLoaders; // 0x30
+        public object automaticLoading;
+        public object automaticRunning;
+        public object loaders;
+        public object activeLoaders;
+        public object isInitializationComplete;
+        public object activeLoader;
+        public object currentLoaders;
+        public object registeredLoaders;
 
         // ── Methods ──
         public void get_automaticLoading(){} // RVA: 0x7FFD4FA1A190

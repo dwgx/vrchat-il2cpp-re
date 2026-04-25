@@ -23,7 +23,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class ComponentRegistry : Object
     {
-        public URA.DateTime<int,a.d> ComponentTypeHashToInstance; // 0x10
+        public object ComponentTypeHashToInstance;
 
         // ── Methods ──
         public void get_ComponentTypeHashToInstance(){} // RVA: 0x7FFD4E35C380
@@ -36,9 +36,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreDiagnostics : Object
     {
-        public a.em Instance;
-        public URA.X_CALENDARS<string,string> DiagnosticsComponentProvider; // 0x10
-        public odeState.nodeType <DiagnosticsComponentProvider>k__BackingField; // 0x18
+        public object Instance;
+        public object DiagnosticsComponentProvider;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD54B17180
@@ -57,8 +56,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreMetrics : Object
     {
-        public a.CQuery Instance;
-        public URA.X_CALENDARS<?,odeState.cceleration> <AllPackageMetrics>k__BackingField; // 0x10
+        public object Instance;
 
         // ── Methods ──
         public void set_Instance(){} // RVA: 0x7FFD54B17320
@@ -67,8 +65,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CorePackageRegistry : Object
     {
-        public a.ngularAcceleration Instance;
-        public a.er Registry; // 0x10
+        public object Instance;
+        public object Registry;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD54B11C80
@@ -82,9 +80,6 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistration : ValueType
     {
-        public a.er m_Registry; // 0x10
-        public int m_PackageHash; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E77C3C0
         public void DependsOn(){} // RVA: 0x7FFD4E2ADC40
@@ -94,13 +89,12 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistry : Object
     {
-        public a.mbTouch Instance;
-        public string Type; // 0x10
-        public playableAsset.tputs Options; // 0x18
-        public playableAsset.lTime PackageRegistry; // 0x20
-        public a.er ComponentRegistry; // 0x28
-        public a.ameraPosition ServiceRegistry; // 0x30
-        public a.>k__BackingField <ServiceRegistry>k__BackingField; // 0x38
+        public object Instance;
+        public object Type;
+        public object Options;
+        public object PackageRegistry;
+        public object ComponentRegistry;
+        public object ServiceRegistry;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD54B11FA0
@@ -122,9 +116,6 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistryInitializer : Object
     {
-        public a.mbTouch m_Registry; // 0x10
-        public URA.woDigitYearMax<int> m_SortedPackageTypeHashes; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E90C240
         public void InitializeRegistryAsync(){} // RVA: 0x7FFD54B124B0
@@ -132,11 +123,6 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class DependencyTree : Object
     {
-        public URA.DateTime<int,a.kingOriginUpdatedEvent> PackageTypeHashToInstance; // 0x10
-        public URA.DateTime<int,int> ComponentTypeHashToPackageTypeHash; // 0x18
-        public URA.DateTime<int,URA.woDigitYearMax<int>> PackageTypeHashToComponentTypeHashDependencies; // 0x20
-        public URA.DateTime<int,a.d> ComponentTypeHashToInstance; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E389A50 | overloaded x2
     }
@@ -154,10 +140,6 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class DependencyTreeInitializeOrderSorter : ValueType
     {
-        public a.isplaySubsystem Tree; // 0x10
-        public URA.tCalendarData<int> Target; // 0x18
-        public URA.DateTime<int,GetSupportedTrackingOriginModes> m_PackageTypeHashExplorationHistory; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B15DB0
         public void SortRegisteredPackagesIntoTarget(){} // RVA: 0x7FFD54B15EB0
@@ -186,7 +168,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class HashException : Exception
     {
-        public int Hash; // 0x90
+        public object Hash;
 
         // ── Methods ──
         public void get_Hash(){} // RVA: 0x7FFD4E640660
@@ -235,7 +217,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class LockedComponentRegistry : Object
     {
-        public a.ameraPosition Registry; // 0x10
+        public object Registry;
 
         // ── Methods ──
         public void get_Registry(){} // RVA: 0x7FFD4E35C380
@@ -247,7 +229,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class LockedPackageRegistry : Object
     {
-        public a.er Registry; // 0x10
+        public object Registry;
+        public object Tree;
 
         // ── Methods ──
         public void get_Registry(){} // RVA: 0x7FFD4E35C380
@@ -261,7 +244,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class MissingComponent : Object
     {
-        public object IntendedType; // 0x10
+        public object IntendedType;
 
         // ── Methods ──
         public void get_IntendedType(){} // RVA: 0x7FFD4E35C380
@@ -270,16 +253,13 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class PackageInitializationInfo : Object
     {
-        public object PackageType; // 0x10
-        public double InitializationTimeInSeconds; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class PackageRegistry : Object
     {
-        public a.isplaySubsystem Tree; // 0x10
+        public object Tree;
 
         // ── Methods ──
         public void get_Tree(){} // RVA: 0x7FFD4E35C380
@@ -294,16 +274,13 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class ServiceRegistry : Object
     {
-        public URA.DateTime<int,object> <ServiceTypeHashToInstance>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B170C0
     }
 
     public class TaskAsyncOperation : AsyncOperationBase
     {
-        public utes.b IsCompleted;
-        public utes.Line m_Task; // 0x10
+        public object IsCompleted;
 
         // ── Methods ──
         public void get_IsCompleted(){} // RVA: 0x7FFD4F878C20
@@ -319,12 +296,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class UnityServicesInternal : Object
     {
-        public playableAsset.ReferenceValue State; // 0x10
-        public bool Registry; // 0x14
-        public utes.s<object> m_Initialization; // 0x18
-        public a.mbTouch <Registry>k__BackingField; // 0x20
-        public a.CQuery <Metrics>k__BackingField; // 0x28
-        public a.em <Diagnostics>k__BackingField; // 0x30
+        public object State;
+        public object Registry;
 
         // ── Methods ──
         public void get_State(){} // RVA: 0x7FFD4E38E5C0

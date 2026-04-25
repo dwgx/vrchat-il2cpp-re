@@ -161,19 +161,12 @@ public class JObject : Object
 
 public class JobScheduleParameters : ValueType
 {
-    public ÍÏÌÏÌÏÌÏÍÎÌÎÌÏÏÏÎ.ÎÎ Dependency; // 0x10
-    public int ScheduleMode; // 0x20
-    public UIntPtr ReflectionData; // 0x28
-    public UIntPtr JobDataPtr; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54C6F1E0
 }
 
 public class JobStruct`1 : ValueType
 {
-    public ÌÌÎÍÍÌÎÍÎÍÏÎÍÍÍÏÌÎÏÏÍÌÏ<UIntPtr> jobReflectionData;
-
     // ── Methods ──
     public void Initialize(){} // RVA: 0x7FFD4E0909B0
     public void Execute(){} // RVA: 0x7FFD4E099720
@@ -182,16 +175,10 @@ public class JobStruct`1 : ValueType
 
 public class Join : Object
 {
-    public Speed OutPt1; // 0x10
-    public Speed OutPt2; // 0x18
-    public lfFrustumHeight OffPt; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class JointData : ValueType
 {
-    public object Type; // 0x10
-    public object Pose; // 0x14
 }

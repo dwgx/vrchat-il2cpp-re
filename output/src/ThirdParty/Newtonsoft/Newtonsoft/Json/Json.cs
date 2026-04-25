@@ -26,18 +26,18 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json
 
     public class JsonContainerAttribute : Attribute
     {
-        public string Id; // 0x10
-        public string Title; // 0x18
-        public string Description; // 0x20
-        public object ItemConverterType; // 0x28
-        public object[] ItemConverterParameters; // 0x30
-        public eckAdditionalContent.eference NamingStrategyType; // 0x38
-        public aphy<bool> NamingStrategyParameters; // 0x40
-        public aphy<bool> NamingStrategyInstance; // 0x42
-        public aphy<ex._rightLegMapping> IsReference; // 0x44
-        public aphy<ex.hts> ItemIsReference; // 0x4C
-        public object ItemReferenceLoopHandling; // 0x58
-        public object[] ItemTypeNameHandling; // 0x60
+        public object Id;
+        public object Title;
+        public object Description;
+        public object ItemConverterType;
+        public object ItemConverterParameters;
+        public object NamingStrategyType;
+        public object NamingStrategyParameters;
+        public object NamingStrategyInstance;
+        public object IsReference;
+        public object ItemIsReference;
+        public object ItemReferenceLoopHandling;
+        public object ItemTypeNameHandling;
 
         // ── Methods ──
         public void get_Id(){} // RVA: 0x7FFD4E35C380
@@ -69,14 +69,7 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json
 
     public class JsonConvert : Object
     {
-        public ormation<ex.siteShoulder> DefaultSettings;
-        public string True; // 0x8
-        public string False; // 0x10
-        public string Null; // 0x18
-        public string Undefined; // 0x20
-        public string PositiveInfinity; // 0x28
-        public string NegativeInfinity; // 0x30
-        public string NaN; // 0x38
+        public object DefaultSettings;
 
         // ── Methods ──
         public void get_DefaultSettings(){} // RVA: 0x7FFD53B0A3D0
@@ -129,10 +122,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json
 
     public class JsonObjectAttribute : JsonContainerAttribute
     {
-        public ex.KRoot MemberSerialization; // 0x68
-        public aphy<ex.ay> MissingMemberHandling; // 0x6C
-        public aphy<ex.aIndex> ItemNullValueHandling; // 0x74
-        public aphy<ex.leftLegMapping> ItemRequired; // 0x7C
+        public object MemberSerialization;
+        public object MissingMemberHandling;
+        public object ItemNullValueHandling;
+        public object ItemRequired;
 
         // ── Methods ──
         public void get_MemberSerialization(){} // RVA: 0x7FFD4FBDAB50
@@ -148,37 +141,36 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json
 
     public class JsonSerializer : Object
     {
-        public ex.hts ReferenceResolver; // 0x10
-        public ex.seWristRot Binder; // 0x14
-        public ex.istAlign SerializationBinder; // 0x18
-        public ex._rightLegMapping TraceWriter; // 0x1C
-        public ex.ay EqualityComparer; // 0x20
-        public ex.eadMapping TypeNameHandling; // 0x24
-        public ex.leftLegMapping TypeNameAssemblyFormat; // 0x28
-        public ex.aneRotationOffset TypeNameAssemblyFormatHandling; // 0x2C
-        public ex.chainIndex2 PreserveReferencesHandling; // 0x30
-        public ex.rcCharacterSpaceBendOffsetLeft ReferenceLoopHandling; // 0x34
-        public ex.mPoleAxis MissingMemberHandling; // 0x38
-        public eckAdditionalContent.iteEndAsync NullValueHandling; // 0x40
-        public eckAdditionalContent.dentAsync DefaultValueHandling; // 0x48
-        public mePatterns.djustment ObjectCreationHandling; // 0x50
-        public eckAdditionalContent.ndWriterAsync ConstructorHandling; // 0x58
-        public externalClaims.nvoySinks MetadataPropertyHandling; // 0x60
-        public eckAdditionalContent.eAsync Converters; // 0x70
-        public aphy<ex.ateTokenTypeMap> ContractResolver; // 0x78
-        public aphy<ex.entationsSet> Context; // 0x80
-        public aphy<ex.ToBone> Formatting; // 0x88
-        public aphy<ex._isEndEffector> DateFormatHandling; // 0x90
-        public aphy<ex.?> DateTimeZoneHandling; // 0x98
-        public aphy<ex.intainRelativePositionWeight> DateParseHandling; // 0xA0
-        public aphy<ex.OffsetRight> FloatParseHandling; // 0xA8
-        public 0.T_I8 FloatFormatHandling; // 0xB0
-        public aphy<int> StringEscapeHandling; // 0xB8
-        public bool DateFormatString; // 0xC0
-        public aphy<bool> Culture; // 0xC1
-        public string MaxDepth; // 0xC8
-        public bool CheckAdditionalContent; // 0xD0
-        public tTable<eckAdditionalContent.ize> Error; // 0xD8
+        public object ReferenceResolver;
+        public object Binder;
+        public object SerializationBinder;
+        public object TraceWriter;
+        public object EqualityComparer;
+        public object TypeNameHandling;
+        public object TypeNameAssemblyFormat;
+        public object TypeNameAssemblyFormatHandling;
+        public object PreserveReferencesHandling;
+        public object ReferenceLoopHandling;
+        public object MissingMemberHandling;
+        public object NullValueHandling;
+        public object DefaultValueHandling;
+        public object ObjectCreationHandling;
+        public object ConstructorHandling;
+        public object MetadataPropertyHandling;
+        public object Converters;
+        public object ContractResolver;
+        public object Context;
+        public object Formatting;
+        public object DateFormatHandling;
+        public object DateTimeZoneHandling;
+        public object DateParseHandling;
+        public object FloatParseHandling;
+        public object FloatFormatHandling;
+        public object StringEscapeHandling;
+        public object DateFormatString;
+        public object Culture;
+        public object MaxDepth;
+        public object CheckAdditionalContent;
 
         // ── Methods ──
         public void add_Error(){} // RVA: 0x7FFD53B1AFA0

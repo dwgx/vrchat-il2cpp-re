@@ -18,9 +18,6 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
-        public URA.woDigitYearMax<ÌÎÎÏÍÎÌÎÌÍÍÏÍÍÏÍÌÏ<T1717740912>> m_PropertiesList; // 0x18
-        public URA.DateTime<string,ÌÎÎÏÍÎÌÎÌÍÍÏÍÍÏÍÌÏ<T1717740912>> m_PropertiesHash; // 0x20
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
         public void AddProperty(){} // RVA: 0x7FFD4E090A40
@@ -30,9 +27,7 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class DelegateProperty`2 : Property`2
     {
-        public ?<T1717739824,T1717739840> Name;
-        public ?<T1717739824,T1717739840> m_Setter;
-        public string <Name>k__BackingField;
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4E078E90
@@ -83,8 +78,6 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBag`2 : PropertyBag`1
     {
-        public ÌÏÎÌÌÎÌÍÎÍÍÏÏÍÌÍÏ<URA.woDigitYearMax<T1717740416>,T1717740416> m_Property; // 0x18
-
         // ── Methods ──
         public void Unity.Properties.IConstructorWithCount<TList>.InstantiateWithCount(){} // RVA: 0x7FFD4E087DE0
         public void InstantiateWithCount(){} // RVA: 0x7FFD4E087DE0
@@ -93,17 +86,12 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class KeyValueCollectionPropertyBag`3 : PropertyBag`1
     {
-        public ?<T1717740304,T1717740320,T1717740336> m_KeyValuePairProperty;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5150D040
     }
 
     public class KeyValuePairPropertyBag`2 : PropertyBag`1
     {
-        public ÎÍÎÏÍÎÏÌÍÏÌÏÍÍÎÏÍÌÌ>k__BackingField<URA.mes<T1717740384,T1717740400>,T1717740384> s_KeyProperty;
-        public ÎÍÎÏÍÎÏÌÍÏÌÏÍÍÎÏÍÌÌ>k__BackingField<URA.mes<T1717740384,T1717740400>,T1717740400> s_ValueProperty;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -128,7 +116,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
-        public object Unity.Properties.IConstructor.InstantiationKind; // 0x10
+        public object Unity.Properties.IConstructor.InstantiationKind;
+        public object InstantiationKind;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD51B53EE0
@@ -157,7 +146,7 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
-        public URA.woDigitYearMax<lP256R1> Name; // 0x10
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4E078E90
@@ -172,14 +161,7 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ReflectedMemberProperty`2 : Property`2
     {
-        public ÍÏÎÏÏÍÍÌÎÌÏÌÌÎÌÏÏÍÍ Name;
-        public bool m_IsStructContainerType;
-        public ÎÍÍÌÏÎÌÎÎÎ<T1717740048,T1717740064> m_GetStructValueAction;
-        public ÌÍÎÎÍÌÍÍÍÎÎÏÌÍÎÏÌÍÌÎÍÌÎ<T1717740048,T1717740064> m_SetStructValueAction;
-        public ?<T1717740048,T1717740064> m_GetClassValueAction;
-        public ?<T1717740048,T1717740064> m_SetClassValueAction;
-        public string <Name>k__BackingField;
-        public bool <IsReadOnly>k__BackingField;
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4E078E90
@@ -188,31 +170,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class SetPropertyBagBase`2 : PropertyBag`1
     {
-        public Î<T1717740496,T1717740512> m_Property;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5150D040
     }
 
     public class TypeTraits`1 : Object
     {
-        public bool IsValueType;
-        public bool IsPrimitive;
-        public bool IsInterface;
-        public bool IsAbstract;
-        public bool IsArray;
-        public bool IsEnum;
-        public bool IsNullable;
-        public bool IsObject;
-        public bool IsString;
-        public bool IsContainer;
-        public bool CanBeNull;
-        public bool IsAbstractOrInterface;
-        public bool <CanBeNull>k__BackingField;
-        public bool <IsPrimitiveOrString>k__BackingField;
-        public bool <IsAbstractOrInterface>k__BackingField;
-        public bool <IsUnityObject>k__BackingField;
-        public bool <IsLazyLoadReference>k__BackingField;
+        public object IsValueType;
+        public object IsPrimitive;
+        public object IsInterface;
+        public object IsAbstract;
+        public object IsArray;
+        public object IsEnum;
+        public object IsNullable;
+        public object IsObject;
+        public object IsString;
+        public object IsContainer;
+        public object CanBeNull;
+        public object IsAbstractOrInterface;
 
         // ── Methods ──
         public void get_IsValueType(){} // RVA: 0x7FFD4E079D30
@@ -232,12 +207,6 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeUtility : Object
     {
-        public JapaneseLangName.erns<?,?> s_TypeConstructors;
-        public m.jectMapInfo s_CreateTypeConstructor; // 0x8
-        public JapaneseLangName.erns<?,string> s_CachedResolvedName; // 0x10
-        public cy.gContentId<em.MarkAborted.izeDefaultCase> s_Builders; // 0x18
-        public object syncedPoolObject; // 0x20
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54DC3700
         public void GetTypeDisplayName(){} // RVA: 0x7FFD54DC3F30 | overloaded x2

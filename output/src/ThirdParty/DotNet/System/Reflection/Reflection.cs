@@ -136,22 +136,12 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class AssemblyName : Object
     {
-        public string Name; // 0x10
-        public string CultureInfo; // 0x18
-        public int Flags; // 0x20
-        public int FullName; // 0x24
-        public int Version; // 0x28
-        public int IsPublicKeyValid; // 0x2C
-        public 0.T_I8 cultureinfo; // 0x30
-        public m.ring flags; // 0x38
-        public _UnclonedYearMonthPatterns.llLongTimePatterns hashalg; // 0x3C
-        public m.rnal keypair; // 0x40
-        public byte[] publicKey; // 0x48
-        public byte[] keyToken; // 0x50
-        public _UnclonedYearMonthPatterns.nclonedShortDatePatterns versioncompat; // 0x58
-        public object version; // 0x60
-        public m.tEnd processor_architecture; // 0x68
-        public m.fo contentType; // 0x6C
+        public object Name;
+        public object CultureInfo;
+        public object Flags;
+        public object FullName;
+        public object Version;
+        public object IsPublicKeyValid;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5394C1A0 | overloaded x3
@@ -213,8 +203,7 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class ConstructorInfo : MethodBase
     {
-        public string MemberType;
-        public string TypeConstructorName; // 0x8
+        public object MemberType;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -229,10 +218,10 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class CustomAttributeData : Object
     {
-        public m.nformation Constructor; // 0x10
-        public URA.?<m.tType> ConstructorArguments; // 0x18
-        public URA.?<m.dTable> NamedArguments; // 0x20
-        public object AttributeType; // 0x28
+        public object Constructor;
+        public object ConstructorArguments;
+        public object NamedArguments;
+        public object AttributeType;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E420E00 | overloaded x4
@@ -260,11 +249,10 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class CustomAttributeNamedArgument : ValueType
     {
-        public m.tType TypedValue; // 0x10
-        public bool IsField; // 0x20
-        public string MemberName; // 0x28
-        public object MemberInfo; // 0x30
-        public m.Int64 _lazyMemberInfo; // 0x38
+        public object TypedValue;
+        public object IsField;
+        public object MemberName;
+        public object MemberInfo;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53947320 | overloaded x3
@@ -281,8 +269,8 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class CustomAttributeTypedArgument : ValueType
     {
-        public object ArgumentType; // 0x10
-        public object Value; // 0x18
+        public object ArgumentType;
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53947CA0 | overloaded x2
@@ -298,7 +286,7 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class DefaultMemberAttribute : Attribute
     {
-        public string MemberName; // 0x10
+        public object MemberName;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -307,7 +295,9 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class EventInfo : MemberInfo
     {
-        public eofChar MemberType; // 0x10
+        public object MemberType;
+        public object AddMethod;
+        public object EventHandlerType;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -503,8 +493,6 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class Missing : Object
     {
-        public m.c.IList<T>.get_Item Value;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFD53941260
@@ -513,9 +501,11 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class Module : Object
     {
-        public m.eadInt16 Assembly;
-        public m.eadInt16 FullyQualifiedName; // 0x8
-        public m.unt Name;
+        public object Assembly;
+        public object FullyQualifiedName;
+        public object Name;
+        public object ModuleVersionId;
+        public object ScopeName;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -542,20 +532,11 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class MonoPropertyInfo : ValueType
     {
-        public object parent; // 0x10
-        public object declaring_type; // 0x18
-        public string name; // 0x20
-        public m.jectMapInfo get_method; // 0x28
-        public m.jectMapInfo set_method; // 0x30
-        public m.? attrs; // 0x38
     }
 
     public class ObfuscationAttribute : Attribute
     {
-        public bool Exclude; // 0x10
-        public bool <Exclude>k__BackingField; // 0x11
-        public bool <ApplyToMembers>k__BackingField; // 0x12
-        public string <Feature>k__BackingField; // 0x18
+        public object Exclude;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53941D80
@@ -564,13 +545,16 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class ParameterInfo : Object
     {
-        public m.ectInfoIdCount Attributes; // 0x10
-        public object Member; // 0x18
-        public object Name; // 0x20
-        public m.Int64 ParameterType; // 0x28
-        public string Position; // 0x30
-        public int IsIn; // 0x38
-        public int IsOptional;
+        public object Attributes;
+        public object Member;
+        public object Name;
+        public object ParameterType;
+        public object Position;
+        public object IsIn;
+        public object IsOptional;
+        public object IsOut;
+        public object DefaultValue;
+        public object HasDefaultValue;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -633,16 +617,13 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeAssembly : Assembly
     {
-        public UIntPtr ManifestModule; // 0x10
-        public object ReflectionOnly; // 0x18
-        public faceIsIUnknown CodeBase; // 0x20
-        public object EscapedCodeBase; // 0x28
-        public object FullName; // 0x30
-        public object MonoAssembly; // 0x38
-        public object Location; // 0x40
-        public object _denied; // 0x48
-        public bool fromByteArray; // 0x50
-        public string assemblyName; // 0x58
+        public object ManifestModule;
+        public object ReflectionOnly;
+        public object CodeBase;
+        public object EscapedCodeBase;
+        public object FullName;
+        public object MonoAssembly;
+        public object Location;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53950B90
@@ -683,9 +664,18 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeConstructorInfo : ConstructorInfo
     {
-        public UIntPtr Module; // 0x10
-        public string BindingFlags; // 0x18
-        public object ReflectedTypeInternal; // 0x20
+        public object Module;
+        public object BindingFlags;
+        public object ReflectedTypeInternal;
+        public object MethodHandle;
+        public object Attributes;
+        public object CallingConvention;
+        public object ContainsGenericParameters;
+        public object ReflectedType;
+        public object DeclaringType;
+        public object Name;
+        public object IsSecurityCritical;
+        public object MetadataToken;
 
         // ── Methods ──
         public void get_Module(){} // RVA: 0x7FFD53956A20
@@ -723,8 +713,13 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeEventInfo : EventInfo
     {
-        public UIntPtr Module; // 0x18
-        public UIntPtr BindingFlags; // 0x20
+        public object Module;
+        public object BindingFlags;
+        public object ReflectedTypeInternal;
+        public object DeclaringType;
+        public object ReflectedType;
+        public object Name;
+        public object MetadataToken;
 
         // ── Methods ──
         public void get_event_info(){} // RVA: 0x7FFD53952350
@@ -753,11 +748,16 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeFieldInfo : RtFieldInfo
     {
-        public UIntPtr BindingFlags; // 0x10
-        public object Module; // 0x18
-        public string ReflectedTypeInternal; // 0x20
-        public object Attributes; // 0x28
-        public m.peofSByte FieldHandle; // 0x30
+        public object BindingFlags;
+        public object Module;
+        public object ReflectedTypeInternal;
+        public object Attributes;
+        public object FieldHandle;
+        public object FieldType;
+        public object ReflectedType;
+        public object DeclaringType;
+        public object Name;
+        public object MetadataToken;
 
         // ── Methods ──
         public void get_BindingFlags(){} // RVA: 0x7FFD4E919180
@@ -796,9 +796,23 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeMethodInfo : MethodInfo
     {
-        public UIntPtr BindingFlags; // 0x10
-        public string Module; // 0x18
-        public object ReflectedTypeInternal; // 0x20
+        public object BindingFlags;
+        public object Module;
+        public object ReflectedTypeInternal;
+        public object ReturnParameter;
+        public object ReturnType;
+        public object ReturnTypeCustomAttributes;
+        public object MetadataToken;
+        public object MethodHandle;
+        public object Attributes;
+        public object CallingConvention;
+        public object ReflectedType;
+        public object DeclaringType;
+        public object Name;
+        public object IsGenericMethodDefinition;
+        public object IsGenericMethod;
+        public object ContainsGenericParameters;
+        public object IsSecurityCritical;
 
         // ── Methods ──
         public void get_BindingFlags(){} // RVA: 0x7FFD4E919180
@@ -859,13 +873,11 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeModule : Module
     {
-        public UIntPtr Assembly; // 0x10
-        public m.ormation Name; // 0x18
-        public string ScopeName; // 0x20
-        public string ModuleVersionId; // 0x28
-        public string FullyQualifiedName; // 0x30
-        public bool is_resource; // 0x38
-        public int token; // 0x3C
+        public object Assembly;
+        public object Name;
+        public object ScopeName;
+        public object ModuleVersionId;
+        public object FullyQualifiedName;
 
         // ── Methods ──
         public void get_Assembly(){} // RVA: 0x7FFD4E3447C0
@@ -890,7 +902,8 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeParameterInfo : ParameterInfo
     {
-        public annelDataStore.essage.get_TargetIdentity DefaultValue; // 0x40
+        public object DefaultValue;
+        public object HasDefaultValue;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53958530 | overloaded x3
@@ -908,11 +921,17 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimePropertyInfo : PropertyInfo
     {
-        public UIntPtr BindingFlags; // 0x10
-        public UIntPtr Module; // 0x18
-        public m.tor ReflectedTypeInternal; // 0x20
-        public m.ureStringToGlobalAllocUnicode Attributes; // 0x50
-        public gate CanRead; // 0x58
+        public object BindingFlags;
+        public object Module;
+        public object ReflectedTypeInternal;
+        public object Attributes;
+        public object CanRead;
+        public object CanWrite;
+        public object PropertyType;
+        public object ReflectedType;
+        public object DeclaringType;
+        public object Name;
+        public object MetadataToken;
 
         // ── Methods ──
         public void get_property_info(){} // RVA: 0x7FFD53959990
@@ -953,7 +972,8 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class TypeInfo : Type
     {
-        public m.unt DeclaredFields;
+        public object DeclaredFields;
+        public object ImplementedInterfaces;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53946700

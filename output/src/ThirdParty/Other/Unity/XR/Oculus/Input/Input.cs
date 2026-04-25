@@ -7,15 +7,15 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 {
     public class GearVRTrackedController : XRController
     {
-        public _1.lSenseHIDUSBInputReport touchpad; // 0x1B0
-        public _1.Index trigger; // 0x1B8
-        public _1.ceControlChangedValue back; // 0x1C0
-        public _1.ceControlChangedValue triggerPressed; // 0x1C8
-        public _1.ceControlChangedValue touchpadClicked; // 0x1D0
-        public _1.ceControlChangedValue touchpadTouched; // 0x1D8
-        public _1.utReport deviceAngularVelocity; // 0x1E0
-        public _1.utReport deviceAcceleration; // 0x1E8
-        public _1.utReport deviceAngularAcceleration; // 0x1F0
+        public object touchpad;
+        public object trigger;
+        public object back;
+        public object triggerPressed;
+        public object touchpadClicked;
+        public object touchpadTouched;
+        public object deviceAngularVelocity;
+        public object deviceAcceleration;
+        public object deviceAngularAcceleration;
 
         // ── Methods ──
         public void get_touchpad(){} // RVA: 0x7FFD4E969F30
@@ -42,19 +42,19 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusHMD : XRHMD
     {
-        public _1.ceControlChangedValue userPresence; // 0x1E0
-        public _1.utReport deviceAngularVelocity; // 0x1E8
-        public _1.utReport deviceAcceleration; // 0x1F0
-        public _1.utReport deviceAngularAcceleration; // 0x1F8
-        public _1.utReport leftEyeAngularVelocity; // 0x200
-        public _1.utReport leftEyeAcceleration; // 0x208
-        public _1.utReport leftEyeAngularAcceleration; // 0x210
-        public _1.utReport rightEyeAngularVelocity; // 0x218
-        public _1.utReport rightEyeAcceleration; // 0x220
-        public _1.utReport rightEyeAngularAcceleration; // 0x228
-        public _1.utReport centerEyeAngularVelocity; // 0x230
-        public _1.utReport centerEyeAcceleration; // 0x238
-        public _1.utReport centerEyeAngularAcceleration; // 0x240
+        public object userPresence;
+        public object deviceAngularVelocity;
+        public object deviceAcceleration;
+        public object deviceAngularAcceleration;
+        public object leftEyeAngularVelocity;
+        public object leftEyeAcceleration;
+        public object leftEyeAngularAcceleration;
+        public object rightEyeAngularVelocity;
+        public object rightEyeAcceleration;
+        public object rightEyeAngularAcceleration;
+        public object centerEyeAngularVelocity;
+        public object centerEyeAcceleration;
+        public object centerEyeAngularAcceleration;
 
         // ── Methods ──
         public void get_userPresence(){} // RVA: 0x7FFD4E818150
@@ -89,8 +89,8 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusHMDExtended : OculusHMD
     {
-        public _1.ceControlChangedValue back; // 0x248
-        public _1.lSenseHIDUSBInputReport touchpad; // 0x250
+        public object back;
+        public object touchpad;
 
         // ── Methods ──
         public void get_back(){} // RVA: 0x7FFD4EDC6830
@@ -103,9 +103,9 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusRemote : InputDevice
     {
-        public _1.ceControlChangedValue back; // 0x190
-        public _1.ceControlChangedValue start; // 0x198
-        public _1.lSenseHIDUSBInputReport touchpad; // 0x1A0
+        public object back;
+        public object start;
+        public object touchpad;
 
         // ── Methods ──
         public void get_back(){} // RVA: 0x7FFD4E960F60
@@ -120,23 +120,23 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusTouchController : XRControllerWithRumble
     {
-        public _1.lSenseHIDUSBInputReport thumbstick; // 0x1B0
-        public _1.Index trigger; // 0x1B8
-        public _1.Index grip; // 0x1C0
-        public _1.ceControlChangedValue primaryButton; // 0x1C8
-        public _1.ceControlChangedValue secondaryButton; // 0x1D0
-        public _1.ceControlChangedValue gripPressed; // 0x1D8
-        public _1.ceControlChangedValue start; // 0x1E0
-        public _1.ceControlChangedValue thumbstickClicked; // 0x1E8
-        public _1.ceControlChangedValue primaryTouched; // 0x1F0
-        public _1.ceControlChangedValue secondaryTouched; // 0x1F8
-        public _1.Index triggerTouched; // 0x200
-        public _1.ceControlChangedValue triggerPressed; // 0x208
-        public _1.ceControlChangedValue thumbstickTouched; // 0x210
-        public _1.utReport deviceVelocity; // 0x218
-        public _1.utReport deviceAngularVelocity; // 0x220
-        public _1.utReport deviceAcceleration; // 0x228
-        public _1.utReport deviceAngularAcceleration; // 0x230
+        public object thumbstick;
+        public object trigger;
+        public object grip;
+        public object primaryButton;
+        public object secondaryButton;
+        public object gripPressed;
+        public object start;
+        public object thumbstickClicked;
+        public object primaryTouched;
+        public object secondaryTouched;
+        public object triggerTouched;
+        public object triggerPressed;
+        public object thumbstickTouched;
+        public object deviceVelocity;
+        public object deviceAngularVelocity;
+        public object deviceAcceleration;
+        public object deviceAngularAcceleration;
 
         // ── Methods ──
         public void get_thumbstick(){} // RVA: 0x7FFD4E969F30
@@ -179,8 +179,8 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusTrackingReference : TrackedDevice
     {
-        public _1.tTriggerButton trackingState; // 0x1B0
-        public _1.ceControlChangedValue isTracked; // 0x1B8
+        public object trackingState;
+        public object isTracked;
 
         // ── Methods ──
         public void get_trackingState(){} // RVA: 0x7FFD4E969F30

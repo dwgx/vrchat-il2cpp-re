@@ -13,10 +13,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Intersect`1 : Object
     {
-        public eObjectDelegate.fo<T1717631872> first;
-        public eObjectDelegate.fo<T1717631872> second;
-        public URA.hEraNames<T1717631872> comparer;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E09AF60
         public void GetAsyncEnumerator(){}

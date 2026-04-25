@@ -7,8 +7,6 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
     public class AsyncIteratorMethodBuilder : ValueType
     {
-        public ArgCount.safeTypeForwarders _methodBuilder; // 0x10
-
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD53E73350
         public void MoveNext(){} // RVA: 0x7FFD4E090A40
@@ -17,7 +15,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class AsyncMethodBuilderAttribute : Attribute
     {
-        public object BuilderType; // 0x10
+        public object BuilderType;
 
         // ── Methods ──
         public void get_BuilderType(){} // RVA: 0x7FFD4E35C380
@@ -26,9 +24,6 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class AsyncMethodBuilderCore : ValueType
     {
-        public ArgCount..Runtime.Serialization m_stateMachine; // 0x10
-        public ÎÌÍÏÏÌÍÏ m_defaultContextAction; // 0x18
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E090A10
         public void SetStateMachine(){} // RVA: 0x7FFD538FE530
@@ -42,10 +37,6 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class AsyncTaskCache : Object
     {
-        public utes.?<bool> TrueTask;
-        public utes.?<bool> FalseTask; // 0x8
-        public utes.?<int>[] Int32Tasks; // 0x10
-
         // ── Methods ──
         public void CreateInt32Tasks(){} // RVA: 0x7FFD538FE1A0
         public void CreateCacheableTask(){} // RVA: 0x7FFD4E2ADC40
@@ -54,8 +45,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class AsyncTaskMethodBuilder : ValueType
     {
-        public utes.?<utes.on> Task;
-        public ArgCount.rializationSetValue<utes.on> m_builder; // 0x10
+        public object Task;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD51C6A7D0
@@ -70,9 +60,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public utes.?<lEffectAsset.get_visualEffectAsset[]> Task;
-        public ArgCount.tClrAssemblyName m_coreState; // 0x10
-        public utes.?<lEffectAsset.get_visualEffectAsset[]> m_task; // 0x20
+        public object Task;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E2ADC40
@@ -88,9 +76,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class AsyncValueTaskMethodBuilder : ValueType
     {
-        public ArgCount.safeTypeForwarders Task; // 0x10
-        public bool _haveResult; // 0x28
-        public bool _useBuilder; // 0x29
+        public object Task;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD52E53140
@@ -104,10 +90,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class AsyncValueTaskMethodBuilder`1 : ValueType
     {
-        public ArgCount.rializationSetValue<T1717589248> Task;
-        public T1717589248 _result;
-        public bool _haveResult;
-        public bool _useBuilder;
+        public object Task;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD4E2ADC40
@@ -121,9 +104,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class AsyncVoidMethodBuilder : ValueType
     {
-        public sageKind.ironmentVariable_native Task; // 0x10
-        public ArgCount.tClrAssemblyName m_coreState; // 0x18
-        public utes.Line m_task; // 0x28
+        public object Task;
 
         // ── Methods ──
         public void Create(){} // RVA: 0x7FFD538FDC40
@@ -138,9 +119,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CallSite : Object
     {
-        public instructions.untimeLabel<?,n<ArgCount.AllCaseBodiesMustHaveSameType,ArgCount.er>> Binder;
-        public ArgCount.AllCaseBodiesMustHaveSameType _binder; // 0x10
-        public bool _match; // 0x18
+        public object Binder;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
@@ -150,8 +129,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CallSiteBinder : Object
     {
-        public URA.DateTime<?,object> UpdateLabel; // 0x10
-        public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.ator<TResult>.Current <UpdateLabel>k__BackingField;
+        public object UpdateLabel;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -183,10 +161,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CallSite`1 : CallSite
     {
-        public T1717688256 Update;
-        public T1717688256[] Rules;
-        public T1717688256 s_cachedUpdate;
-        public T1717688256 s_cachedNoMatch;
+        public object Update;
 
         // ── Methods ──
         public void get_Update(){} // RVA: 0x7FFD4E2ADC40
@@ -219,14 +194,6 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
-        public int INITIAL_SIZE;
-        public float LOAD_FACTOR;
-        public float COMPACT_FACTOR;
-        public float EXPAND_FACTOR;
-        public ArgCount.ializingEvent[] data;
-        public object _lock;
-        public int size;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void Finalize(){} // RVA: 0x7FFD4E090980
@@ -244,8 +211,6 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
-        public tterServices<utes.Line> m_configuredTaskAwaiter; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E096500
         public void GetAwaiter(){} // RVA: 0x7FFD4E2ADC40
@@ -253,8 +218,6 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredValueTaskAwaitable`1 : ValueType
     {
-        public utes.xitAttributeMode<bool> _value; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
         public void GetAwaiter(){} // RVA: 0x7FFD4E2ADC40
@@ -271,7 +234,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class DateTimeConstantAttribute : CustomConstantAttribute
     {
-        public DependencyInjector Value; // 0x10
+        public object Value;
 
         // ── Methods ──
         public void get_Value(){} // RVA: 0x7FFD538FC1D0
@@ -279,7 +242,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class DecimalConstantAttribute : Attribute
     {
-        public ltiple Value; // 0x10
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD538FC220
@@ -294,11 +257,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class DefaultInterpolatedStringHandler : ValueType
     {
-        public nalGetValue Text; // 0x10
-        public char[] _arrayToReturnToPool; // 0x18
-        public HaveRegistry<char> _chars; // 0x20
-        public int _pos; // 0x30
-        public bool _hasCustomFormatter; // 0x34
+        public object Text;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD575030F0
@@ -331,8 +290,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class FixedBufferAttribute : Attribute
     {
-        public object ElementType; // 0x10
-        public int Length; // 0x18
+        public object ElementType;
+        public object Length;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FCAC310
@@ -387,8 +346,6 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class InterpolatedStringHandlerArgumentAttribute : Attribute
     {
-        public string[] <Arguments>k__BackingField; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD552800E0
     }
@@ -403,25 +360,27 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class NullableAttribute : Attribute
     {
-        public byte[] NullableFlags; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
     }
 
     public class NullableContextAttribute : Attribute
     {
-        public byte Flag; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E40B5F0
     }
 
     public class ReadOnlyCollectionBuilder`1 : Object
     {
-        public T1717688512[] Capacity;
-        public int Count;
-        public int Item;
+        public object Capacity;
+        public object Count;
+        public object Item;
+        public object System.Collections.Generic.ICollection<T>.IsReadOnly;
+        public object System.Collections.IList.IsReadOnly;
+        public object System.Collections.IList.IsFixedSize;
+        public object System.Collections.IList.Item;
+        public object System.Collections.ICollection.IsSynchronized;
+        public object System.Collections.ICollection.SyncRoot;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0 | overloaded x2
@@ -461,9 +420,6 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class RuleCache`1 : Object
     {
-        public T1717688528[] _rules;
-        public object _cacheLock;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void GetRules(){} // RVA: 0x7FFD4E078E90
@@ -508,7 +464,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class StrongBox`1 : Object
     {
-        public T1717688560 System.Runtime.CompilerServices.IStrongBox.Value;
+        public object System.Runtime.CompilerServices.IStrongBox.Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -524,7 +480,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter : ValueType
     {
-        public utes.Line IsCompleted; // 0x10
+        public object IsCompleted;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -541,7 +497,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
-        public utes.?<utes.on> IsCompleted; // 0x10
+        public object IsCompleted;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -577,8 +533,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ValueTaskAwaiter : ValueType
     {
-        public ileFullDirectoryInformation<object> IsCompleted;
-        public utes.rUp _value; // 0x10
+        public object IsCompleted;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FEC1C40
@@ -591,7 +546,7 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ValueTaskAwaiter`1 : ValueType
     {
-        public utes.xitAttributeMode<bool> IsCompleted; // 0x10
+        public object IsCompleted;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40

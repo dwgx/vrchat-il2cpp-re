@@ -81,20 +81,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
-        public URA.woDigitYearMax<T1717594592> m_Fields;
-        public bool m_ShouldUpdateDisplay;
-        public bool m_ForceUpdateDisplay;
-        public int m_PropertyIndex;
-        public string ussClassName;
-        public string labelUssClassName;
-        public string inputUssClassName;
-        public string spacerUssClassName;
-        public string multilineVariantUssClassName;
-        public string fieldGroupUssClassName;
-        public string fieldUssClassName;
-        public string firstFieldVariantUssClassName;
-        public string twoLinesVariantUssClassName;
-
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x7FFD4E078E90
         public void DescribeFields(){} // RVA: 0x7FFD4E078E90
@@ -115,8 +101,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
-        public ÎÏÌÎÎÎÌÌÌ.bledInHierarchy m_Value; // 0x80
-
         // ── Methods ──
         public void Init(){}
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -124,35 +108,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
-        public string visualInput;
-        public string rawValue; // 0x8
-        public string value; // 0x10
-        public string labelElement; // 0x18
-        public string label; // 0x20
-        public string showMixedValue; // 0x28
-        public string mixedValueLabel; // 0x30
-        public string UnityEngine.UIElements.IEditableElement.editingStarted; // 0x38
-        public string UnityEngine.UIElements.IEditableElement.editingEnded; // 0x40
-        public object serializedPropertyCopyName; // 0x48
-        public ÎÏÌÎÎÎÌÌÌ.ement<float> s_LabelWidthRatioProperty; // 0x50
-        public ÎÏÌÎÎÎÌÌÌ.ement<float> s_LabelExtraPaddingProperty; // 0x58
-        public ÎÏÌÎÎÎÌÌÌ.ement<float> s_LabelBaseMinWidthProperty; // 0x60
-        public ÎÏÌÎÎÎÌÌÌ.ement<float> s_LabelExtraContextWidthProperty; // 0x68
-        public float m_LabelWidthRatio; // 0x3D8
-        public float m_LabelExtraPadding; // 0x3DC
-        public float m_LabelBaseMinWidth; // 0x3E0
-        public float m_LabelExtraContextWidth; // 0x3E4
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_VisualInput; // 0x3E8
-        public nformation m_Value; // 0x3F0
-        public n<nformation,nformation> onValidateValue; // 0x3F8
-        public ÎÏÌÎÎÎÌÌÌ.? <labelElement>k__BackingField; // 0x400
-        public bool m_ShowMixedValue; // 0x408
-        public ÎÏÌÎÎÎÌÌÌ.? m_MixedValueLabel; // 0x410
-        public bool m_SkipValidation; // 0x418
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_CachedContextWidthElement; // 0x420
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_CachedInspectorElement; // 0x428
-        public ÎÌÍÏÏÌÍÏ <UnityEngine.UIElements.IEditableElement.editingStarted>k__BackingField; // 0x430
-        public ÎÌÍÏÏÌÍÏ <UnityEngine.UIElements.IEditableElement.editingEnded>k__BackingField; // 0x438
+        public object visualInput;
+        public object rawValue;
+        public object value;
+        public object labelElement;
+        public object label;
+        public object showMixedValue;
+        public object mixedValueLabel;
+        public object UnityEngine.UIElements.IEditableElement.editingStarted;
+        public object UnityEngine.UIElements.IEditableElement.editingEnded;
 
         // ── Methods ──
         public void get_visualInput(){} // RVA: 0x7FFD530A2120
@@ -192,17 +156,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BasePopupField`2 : BaseField`1
     {
-        public URA.woDigitYearMax<T1717594720> textElement;
-        public ÎÏÌÎÎÎÌÌÌ.yle.get_minWidth choices;
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius m_ArrowElement;
-        public n<T1717594720,string> m_FormatSelectedValueCallback;
-        public n<T1717594720,string> m_FormatListItemCallback;
-        public ormation<ÎÏÌÎÎÎÌÌÌ.op> createMenuCallback;
-        public string ussClassName;
-        public string textUssClassName;
-        public string arrowUssClassName;
-        public string labelUssClassName;
-        public string inputUssClassName;
+        public object textElement;
+        public object choices;
 
         // ── Methods ──
         public void get_textElement(){} // RVA: 0x7FFD531BC460
@@ -224,31 +179,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseSlider`1 : BaseField`1
     {
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius dragContainer;
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius dragElement;
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius trackElement;
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius dragBorderElement;
-        public ÎÏÌÎÎÎÌÌÌ.on inputTextField;
-        public bool lowValue;
-        public T1717594768 highValue;
-        public T1717594768 pageSize;
-        public float showInputField;
-        public bool clamped;
-        public bool clampedDragger;
-        public ÎÏÌÎÎÎÌÌÌ.?<T1717594768> value;
-        public dRecorder direction;
-        public ÎÏÌÎÎÎÌÌÌ.? inverted;
-        public bool m_Inverted;
-        public string ussClassName;
-        public string labelUssClassName;
-        public string inputUssClassName;
-        public string horizontalVariantUssClassName;
-        public string verticalVariantUssClassName;
-        public string dragContainerUssClassName;
-        public string trackerUssClassName;
-        public string draggerUssClassName;
-        public string draggerBorderUssClassName;
-        public string textFieldClassName;
+        public object dragContainer;
+        public object dragElement;
+        public object trackElement;
+        public object dragBorderElement;
+        public object inputTextField;
+        public object lowValue;
+        public object highValue;
+        public object pageSize;
+        public object showInputField;
+        public object clamped;
+        public object clampedDragger;
+        public object value;
+        public object direction;
+        public object inverted;
 
         // ── Methods ──
         public void get_dragContainer(){} // RVA: 0x7FFD4E078E90
@@ -320,13 +264,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseTreeViewController : CollectionViewController
     {
-        public URA.DateTime<int,ÎÏÌÎÎÎÌÌÌ.rable> baseTreeView; // 0x30
-        public URA.woDigitYearMax<int> itemsSource; // 0x38
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.wAlternatingRowBackgrounds> m_ItemWrappers; // 0x40
-        public URA.onsDepth<int> m_TreeItemIdsWithItemWrappers; // 0x48
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.wAlternatingRowBackgrounds> m_WrapperInsertionList; // 0x50
-        public object K_ExpandItemByIndex;
-        public object k_CreateWrappers; // 0x8
+        public object baseTreeView;
+        public object itemsSource;
 
         // ── Methods ──
         public void get_baseTreeView(){} // RVA: 0x7FFD54EA6040
@@ -370,7 +309,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
-        public leScroll<T1717595216> uxmlName; // 0x10
+        public object uxmlName;
+        public object uxmlNamespace;
+        public object uxmlQualifiedName;
+        public object uxmlType;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -383,7 +325,7 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlTraits : Object
     {
-        public bool canHaveAnyAttribute; // 0x10
+        public object canHaveAnyAttribute;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E64C870
@@ -393,50 +335,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
     public class BaseVerticalCollectionView : BindableElement
     {
         public object itemsSource;
-        public object contentContainer; // 0x8
-        public ileFullDirectoryInformation<URA.bbrevEraNames<object>> selectionType; // 0x3D8
-        public ileFullDirectoryInformation<URA.bbrevEraNames<object>> selectedIndex; // 0x3E0
-        public ileFullDirectoryInformation<URA.bbrevEraNames<int>> selectedIndices; // 0x3E8
-        public rectoryInformation<int,int> selectedIds; // 0x3F0
-        public ÎÌÍÏÏÌÍÏ activeItems; // 0x3F8
-        public ÎÌÍÏÏÌÍÏ scrollView; // 0x400
-        public n<ÎÏÌÎÎÎÌÌÌ.tomProperties,bool> dragger; // 0x408
-        public n<ÎÏÌÎÎÎÌÌÌ.perty,ÎÏÌÎÎÎÌÌÌ.m_VectorImage> virtualizationController; // 0x410
-        public n<ÎÏÌÎÎÎÌÌÌ.SourceRect,ÎÏÌÎÎÎÌÌÌ.rovider> viewController; // 0x418
-        public n<ÎÏÌÎÎÎÌÌÌ.SourceRect,ÎÏÌÎÎÎÌÌÌ.rovider> showBorder; // 0x420
-        public ÎÏÌÎÎÎÌÌÌ.led reorderable; // 0x428
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.ÎÍÏÌÏÎÏÏÍÏÎÎÍÏÌÍÍÍÎ> horizontalScrollingEnabled; // 0x10
-        public bool showAlternatingRowBackgrounds; // 0x42C
-        public ÎÏÌÎÎÎÌÌÌ.? virtualizationMethod; // 0x430
-        public int fixedItemHeight; // 0x18
-        public float lastHeight; // 0x434
-        public bool m_ItemHeightIsInline; // 0x438
-        public ÎÏÌÎÎÎÌÌÌ.? m_VirtualizationMethod; // 0x43C
-        public ÎÏÌÎÎÎÌÌÌ.ÎÏÌÌÍÌÎÎÎÏÍÍ>k__BackingField m_ScrollView; // 0x440
-        public ÎÏÌÎÎÎÌÌÌ.? m_ViewController; // 0x448
-        public ÎÏÌÎÎÎÌÌÌ.ÍÎÍÌÏÎÎÍÍÏÍÏÏÏÏÍÍÏÍÏÍ m_VirtualizationController; // 0x450
-        public ÎÏÌÎÎÎÌÌÌ.ld m_NavigationManipulator; // 0x458
-        public ÎÏÌÎÎÎÌÌÌ.? serializedVirtualizationData; // 0x460
-        public URA.woDigitYearMax<int> m_SelectedIds; // 0x468
-        public URA.woDigitYearMax<int> m_SelectedIndices; // 0x470
-        public URA.woDigitYearMax<object> m_SelectedItems; // 0x478
-        public float m_LastHeight; // 0x480
-        public bool m_IsRangeSelectionDirectionUp; // 0x484
-        public ÎÏÌÎÎÎÌÌÌ.egisterValueChangedCallback m_Dragger; // 0x488
-        public ÎÏÌÎÎÎÌÌÌ.ement<int> s_ItemHeightProperty; // 0x20
-        public rectoryInformation<int,int> m_ItemIndexChangedCallback; // 0x490
-        public ÎÌÍÏÏÌÍÏ m_ItemsSourceChangedCallback; // 0x498
-        public string ussClassName; // 0x28
-        public string borderUssClassName; // 0x30
-        public string itemUssClassName; // 0x38
-        public string dragHoverBarUssClassName; // 0x40
-        public string dragHoverMarkerUssClassName; // 0x48
-        public string itemDragHoverUssClassName; // 0x50
-        public string itemSelectedVariantUssClassName; // 0x58
-        public string itemAlternativeBackgroundUssClassName; // 0x60
-        public string listScrollViewUssClassName; // 0x68
-        public string backgroundFillUssClassName; // 0x70
-        public amut m_TouchDownPosition; // 0x4A0
+        public object contentContainer;
+        public object selectionType;
+        public object selectedIndex;
+        public object selectedIndices;
+        public object selectedIds;
+        public object activeItems;
+        public object scrollView;
+        public object dragger;
+        public object virtualizationController;
+        public object viewController;
+        public object showBorder;
+        public object reorderable;
+        public object horizontalScrollingEnabled;
+        public object showAlternatingRowBackgrounds;
+        public object virtualizationMethod;
+        public object fixedItemHeight;
+        public object lastHeight;
 
         // ── Methods ──
         public void HasCanStartDrag(){} // RVA: 0x7FFD54EB6850
@@ -642,8 +557,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindableElement : VisualElement
     {
-        public ÎÏÌÎÎÎÌÌÌ.eSetMinHeight binding; // 0x3C8
-        public string bindingPath; // 0x3D0
+        public object binding;
+        public object bindingPath;
 
         // ── Methods ──
         public void get_binding(){} // RVA: 0x7FFD4EDE0A20

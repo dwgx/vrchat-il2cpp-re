@@ -7,8 +7,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class BaseDataReader : BaseDataReaderWriter
     {
-        public rASCIIFast CurrentNodeId; // 0x20
-        public Inherited.? CurrentNodeDepth; // 0x28
+        public object CurrentNodeId;
+        public object CurrentNodeDepth;
+        public object CurrentNodeName;
+        public object Stream;
+        public object Context;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553DE9A0
@@ -52,8 +55,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseDataReaderWriter : Object
     {
-        public arker[] Binder; // 0x10
-        public int IsInArrayNode; // 0x18
+        public object Binder;
+        public object IsInArrayNode;
+        public object NodeDepth;
+        public object NodesArray;
+        public object CurrentNode;
 
         // ── Methods ──
         public void get_Binder(){} // RVA: 0x7FFD553DF2A0
@@ -73,8 +79,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseDataWriter : BaseDataReaderWriter
     {
-        public ionsAlreadyBoundToContext Stream; // 0x20
-        public Inherited.? Context; // 0x28
+        public object Stream;
+        public object Context;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553DFF20
@@ -129,14 +135,7 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
-        public EscapeFlags<ellSize.t>[] SerializedType;
-        public EscapeFlags<ellSize.t>[] OnSerializedCallbacks; // 0x8
-        public EscapeFlags<ellSize.t>[] OnDeserializingCallbacks; // 0x10
-        public EscapeFlags<ellSize.t>[] OnDeserializedCallbacks; // 0x18
-        public bool IsValueType; // 0x20
-        public bool ImplementsISerializationCallbackReceiver; // 0x21
-        public bool ImplementsIDeserializationCallback; // 0x22
-        public bool ImplementsIObjectReference; // 0x23
+        public object SerializedType;
 
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD5316FAD0
@@ -157,16 +156,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BinaryDataReader : BaseDataReader
     {
-        public URA.DateTime<?,formation> PrimitiveFromByteMethods;
-        public byte[] internalBufferBackup; // 0x30
-        public byte[] buffer; // 0x38
-        public int bufferIndex; // 0x40
-        public int bufferEnd; // 0x44
-        public aphy<LinePlane> peekedEntryType; // 0x48
-        public llSpriteVertexBuffers peekedBinaryEntryType; // 0x4A
-        public string peekedEntryName; // 0x50
-        public URA.DateTime<int,?> types; // 0x58
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553E04C0 | overloaded x2
         public void Dispose(){} // RVA: 0x7FFD4E341310
@@ -226,15 +215,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BinaryDataWriter : BaseDataWriter
     {
-        public URA.DateTime<?,formation> PrimitiveGetBytesMethods;
-        public URA.DateTime<?,int> PrimitiveSizes; // 0x8
-        public byte[] small_buffer; // 0x30
-        public byte[] buffer; // 0x38
-        public int bufferIndex; // 0x40
-        public URA.DateTime<?,int> types; // 0x48
-        public bool CompressStringsTo8BitWhenPossible; // 0x50
-        public URA.DateTime<?,rectoryInformation<ray,object>> PrimitiveArrayWriters; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD553E5E90 | overloaded x2
         public void BeginArrayNode(){} // RVA: 0x7FFD553E6100
@@ -308,8 +288,6 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BoundsFormatter : MinimalBaseFormatter`1
     {
-        public tSupportedException_ConstructorMaxOf64Parameters<amut> Vector3Serializer;
-
         // ── Methods ──
         public void Read(){} // RVA: 0x7FFD55437A50
         public void Write(){} // RVA: 0x7FFD55437B50
@@ -320,10 +298,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
     public class Buffer`1 : Object
     {
         public object Count;
-        public URA.woDigitYearMax<ingCriteria<T1717697328>> Array;
-        public int IsFree;
-        public T1717697328[] array;
-        public bool isFree;
+        public object Array;
+        public object IsFree;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090ED0

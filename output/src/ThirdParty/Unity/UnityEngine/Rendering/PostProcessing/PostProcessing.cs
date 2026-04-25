@@ -7,19 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class AmbientOcclusion : PostProcessEffectSettings
     {
-        public dUInt64.? mode; // 0x30
-        public dUInt64.536 intensity; // 0x38
-        public dUInt64.0DC4FB04967ED4959F99075D69 color; // 0x40
-        public dUInt64.D39DE20128DDED0DC4FB04967ED4959F99075D69 ambientOnly; // 0x48
-        public dUInt64.536 noiseFilterTolerance; // 0x50
-        public dUInt64.536 blurTolerance; // 0x58
-        public dUInt64.536 upsampleTolerance; // 0x60
-        public dUInt64.536 thicknessModifier; // 0x68
-        public dUInt64.536 zBias; // 0x70
-        public dUInt64.536 directLightingStrength; // 0x78
-        public dUInt64.536 radius; // 0x80
-        public dUInt64.ray quality; // 0x88
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54AC6320
         public void .ctor(){} // RVA: 0x7FFD54AC66D0
@@ -27,14 +14,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class AutoExposure : PostProcessEffectSettings
     {
-        public dUInt64.59F99075D69 filtering; // 0x30
-        public dUInt64.536 minLuminance; // 0x38
-        public dUInt64.536 maxLuminance; // 0x40
-        public dUInt64.536 keyValue; // 0x48
-        public dUInt64.oolMasks eyeAdaptation; // 0x50
-        public dUInt64.536 speedUp; // 0x58
-        public dUInt64.536 speedDown; // 0x60
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54AC7450
         public void .ctor(){} // RVA: 0x7FFD54AC7610
@@ -42,17 +21,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class Bloom : PostProcessEffectSettings
     {
-        public dUInt64.536 intensity; // 0x30
-        public dUInt64.536 threshold; // 0x38
-        public dUInt64.536 softKnee; // 0x40
-        public dUInt64.536 clamp; // 0x48
-        public dUInt64.536 diffusion; // 0x50
-        public dUInt64.536 anamorphicRatio; // 0x58
-        public dUInt64.0DC4FB04967ED4959F99075D69 color; // 0x60
-        public dUInt64.D39DE20128DDED0DC4FB04967ED4959F99075D69 fastMode; // 0x68
-        public dUInt64.4F8501620F878432D5C04331AD1AE47F977A83BA41A5 dirtTexture; // 0x70
-        public dUInt64.536 dirtIntensity; // 0x78
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54AC8E70
         public void .ctor(){} // RVA: 0x7FFD54AC8EB0
@@ -60,10 +28,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ChromaticAberration : PostProcessEffectSettings
     {
-        public dUInt64.4F8501620F878432D5C04331AD1AE47F977A83BA41A5 spectralLut; // 0x30
-        public dUInt64.536 intensity; // 0x38
-        public dUInt64.D39DE20128DDED0DC4FB04967ED4959F99075D69 fastMode; // 0x40
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54ACAD10
         public void .ctor(){} // RVA: 0x7FFD54ACAD50
@@ -71,46 +35,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ColorGrading : PostProcessEffectSettings
     {
-        public dUInt64.DnsAndConnect gradingMode; // 0x30
-        public dUInt64.4F8501620F878432D5C04331AD1AE47F977A83BA41A5 externalLut; // 0x38
-        public dUInt64.Loop tonemapper; // 0x40
-        public dUInt64.536 toneCurveToeStrength; // 0x48
-        public dUInt64.536 toneCurveToeLength; // 0x50
-        public dUInt64.536 toneCurveShoulderStrength; // 0x58
-        public dUInt64.536 toneCurveShoulderLength; // 0x60
-        public dUInt64.536 toneCurveShoulderAngle; // 0x68
-        public dUInt64.536 toneCurveGamma; // 0x70
-        public dUInt64.4F8501620F878432D5C04331AD1AE47F977A83BA41A5 ldrLut; // 0x78
-        public dUInt64.536 ldrLutContribution; // 0x80
-        public dUInt64.536 temperature; // 0x88
-        public dUInt64.536 tint; // 0x90
-        public dUInt64.0DC4FB04967ED4959F99075D69 colorFilter; // 0x98
-        public dUInt64.536 hueShift; // 0xA0
-        public dUInt64.536 saturation; // 0xA8
-        public dUInt64.536 brightness; // 0xB0
-        public dUInt64.536 postExposure; // 0xB8
-        public dUInt64.536 contrast; // 0xC0
-        public dUInt64.536 mixerRedOutRedIn; // 0xC8
-        public dUInt64.536 mixerRedOutGreenIn; // 0xD0
-        public dUInt64.536 mixerRedOutBlueIn; // 0xD8
-        public dUInt64.536 mixerGreenOutRedIn; // 0xE0
-        public dUInt64.536 mixerGreenOutGreenIn; // 0xE8
-        public dUInt64.536 mixerGreenOutBlueIn; // 0xF0
-        public dUInt64.536 mixerBlueOutRedIn; // 0xF8
-        public dUInt64.536 mixerBlueOutGreenIn; // 0x100
-        public dUInt64.536 mixerBlueOutBlueIn; // 0x108
-        public dUInt64.D409BB22F8D897F949D2311D885ADAA890981B67A0 lift; // 0x110
-        public dUInt64.D409BB22F8D897F949D2311D885ADAA890981B67A0 gamma; // 0x118
-        public dUInt64.D409BB22F8D897F949D2311D885ADAA890981B67A0 gain; // 0x120
-        public dUInt64.9D2311D885ADAA890981B67A0 masterCurve; // 0x128
-        public dUInt64.9D2311D885ADAA890981B67A0 redCurve; // 0x130
-        public dUInt64.9D2311D885ADAA890981B67A0 greenCurve; // 0x138
-        public dUInt64.9D2311D885ADAA890981B67A0 blueCurve; // 0x140
-        public dUInt64.9D2311D885ADAA890981B67A0 hueVsHueCurve; // 0x148
-        public dUInt64.9D2311D885ADAA890981B67A0 hueVsSatCurve; // 0x150
-        public dUInt64.9D2311D885ADAA890981B67A0 satVsSatCurve; // 0x158
-        public dUInt64.9D2311D885ADAA890981B67A0 lumVsSatCurve; // 0x160
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54ACB6F0
         public void .ctor(){} // RVA: 0x7FFD54ACB7B0
@@ -118,14 +42,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ColorUtilities : Object
     {
-        public float logC_cut;
-        public float logC_a;
-        public float logC_b;
-        public float logC_c;
-        public float logC_d;
-        public float logC_e;
-        public float logC_f;
-
         // ── Methods ──
         public void StandardIlluminantY(){} // RVA: 0x7FFD54AFDC90
         public void CIExyToLMS(){} // RVA: 0x7FFD54AFDCC0
@@ -141,11 +57,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class DepthOfField : PostProcessEffectSettings
     {
-        public dUInt64.536 focusDistance; // 0x30
-        public dUInt64.536 aperture; // 0x38
-        public dUInt64.536 focalLength; // 0x40
-        public dUInt64.sIn kernelSize; // 0x48
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54AD2A60
         public void .ctor(){} // RVA: 0x7FFD54AD2AD0
@@ -153,17 +64,12 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class DisplayNameAttribute : Attribute
     {
-        public string displayName; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30
     }
 
     public class Dithering : Object
     {
-        public int m_NoiseTextureIndex; // 0x10
-        public object m_Random; // 0x18
-
         // ── Methods ──
         public void Render(){} // RVA: 0x7FFD54AD4920
         public void .ctor(){} // RVA: 0x7FFD54AD4BF0
@@ -171,18 +77,12 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class FastApproximateAntialiasing : Object
     {
-        public bool fastMode; // 0x10
-        public bool keepAlpha; // 0x11
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
     }
 
     public class Fog : Object
     {
-        public bool enabled; // 0x10
-        public bool excludeSkybox; // 0x11
-
         // ── Methods ──
         public void GetCameraFlags(){} // RVA: 0x7FFD4E433AF0
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54AD4CA0
@@ -192,11 +92,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class Grain : PostProcessEffectSettings
     {
-        public dUInt64.D39DE20128DDED0DC4FB04967ED4959F99075D69 colored; // 0x30
-        public dUInt64.536 intensity; // 0x38
-        public dUInt64.536 size; // 0x40
-        public dUInt64.536 lumContrib; // 0x48
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54ACAD10
         public void .ctor(){} // RVA: 0x7FFD54AD53D0
@@ -204,12 +99,10 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class HableCurve : Object
     {
-        public float whitePoint; // 0x10
-        public float inverseWhitePoint; // 0x14
-        public float x0; // 0x18
-        public float x1; // 0x1C
-        public rn[] m_Segments; // 0x20
-        public lendableLocalRotateBy>b__0 uniforms; // 0x28
+        public object whitePoint;
+        public object inverseWhitePoint;
+        public object x0;
+        public object x1;
 
         // ── Methods ──
         public void get_whitePoint(){} // RVA: 0x7FFD4E46B320
@@ -237,14 +130,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class HistogramMonitor : Monitor
     {
-        public int width; // 0x20
-        public int height; // 0x24
-        public ctor channel; // 0x28
-        public ataStartIndex m_Data; // 0x30
-        public int k_NumBins;
-        public int k_ThreadGroupSizeX;
-        public int k_ThreadGroupSizeY;
-
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x7FFD54AE5820
         public void NeedsHalfRes(){} // RVA: 0x7FFD4E426850
@@ -265,13 +150,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class LensDistortion : PostProcessEffectSettings
     {
-        public dUInt64.536 intensity; // 0x30
-        public dUInt64.536 intensityX; // 0x38
-        public dUInt64.536 intensityY; // 0x40
-        public dUInt64.536 centerX; // 0x48
-        public dUInt64.536 centerY; // 0x50
-        public dUInt64.536 scale; // 0x58
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54AD6390
         public void .ctor(){} // RVA: 0x7FFD54AD6450
@@ -279,10 +157,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class LightMeterMonitor : Monitor
     {
-        public int width; // 0x20
-        public int height; // 0x24
-        public bool showCurves; // 0x28
-
         // ── Methods ──
         public void ShaderResourcesAvailable(){} // RVA: 0x7FFD54AE62B0
         public void Render(){} // RVA: 0x7FFD54AE6420
@@ -291,10 +165,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class LogHistogram : Object
     {
-        public int data;
-        public int rangeMax;
-        public int k_Bins;
-        public ataStartIndex <data>k__BackingField; // 0x10
+        public object data;
 
         // ── Methods ──
         public void get_data(){} // RVA: 0x7FFD4E35C380
@@ -307,17 +178,12 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class MaxAttribute : Attribute
     {
-        public float max; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E46B330
     }
 
     public class MeshUtilities : Object
     {
-        public URA.DateTime<?,?> s_Primitives;
-        public URA.DateTime<?,?> s_ColliderPrimitives; // 0x8
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54AFF750
         public void GetColliderMesh(){} // RVA: 0x7FFD54AFFB30
@@ -327,25 +193,19 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class MinAttribute : Attribute
     {
-        public float min; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E46B330
     }
 
     public class MinMaxAttribute : Attribute
     {
-        public float min; // 0x10
-        public float max; // 0x14
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4EF4F3C0
     }
 
     public class Monitor : Object
     {
-        public Offset output; // 0x10
-        public bool requested; // 0x18
+        public object output;
 
         // ── Methods ──
         public void get_output(){} // RVA: 0x7FFD4E35C380
@@ -362,9 +222,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class MotionBlur : PostProcessEffectSettings
     {
-        public dUInt64.536 shutterAngle; // 0x30
-        public dUInt64.00C3B7BBC1397D39DE20128DDED0DC4FB04967ED4959F99075D69 sampleCount; // 0x38
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54AD6C00
         public void .ctor(){} // RVA: 0x7FFD54AD6D00
@@ -372,22 +229,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class MultiScaleVO : Object
     {
-        public float[] m_SampleThickness; // 0x10
-        public float[] m_InvThicknessTable; // 0x18
-        public float[] m_SampleWeightTable; // 0x20
-        public int[] m_Widths; // 0x28
-        public int[] m_Heights; // 0x30
-        public int[] m_ScaledWidths; // 0x38
-        public int[] m_ScaledHeights; // 0x40
-        public dUInt64.Array m_Settings; // 0x48
-        public dUInt64.onStart m_PropertySheet; // 0x50
-        public dUInt64.MoveZ>b__1 m_Resources; // 0x58
-        public Offset m_AmbientOnlyAO; // 0x60
-        public ded m_R8Format; // 0x68
-        public ded m_R16Format; // 0x6C
-        public bool float4Texture; // 0x70
-        public ons.get_disableInPlaceEditing[] m_MRT; // 0x78
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54AD7FF0
         public void GetCameraFlags(){} // RVA: 0x7FFD4E433AF0
@@ -415,8 +256,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride : Object
     {
-        public bool overrideState; // 0x10
-
         // ── Methods ──
         public void Interp(){}
         public void GetHash(){} // RVA: 0x7FFD4E079960
@@ -429,8 +268,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
-        public T1717722800 value;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
         public void Interp(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -442,21 +279,15 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessAttribute : Attribute
     {
-        public object renderer; // 0x10
-        public dUInt64.ards eventType; // 0x18
-        public string menuItem; // 0x20
-        public bool allowInSceneView; // 0x28
-        public bool builtinEffect; // 0x29
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54AC61C0 | overloaded x2
     }
 
     public class PostProcessBundle : Object
     {
-        public dUInt64.gZag32 attribute; // 0x10
-        public dUInt64.urnKilledTotExceptFor settings; // 0x18
-        public dUInt64.OrId renderer; // 0x20
+        public object attribute;
+        public object settings;
+        public object renderer;
 
         // ── Methods ──
         public void get_attribute(){} // RVA: 0x7FFD4E35C380
@@ -473,16 +304,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessDebug : MonoBehaviour
     {
-        public dUInt64.othRewindAll postProcessLayer; // 0x20
-        public dUInt64.othRewindAll m_PreviousPostProcessLayer; // 0x28
-        public bool lightMeter; // 0x30
-        public bool histogram; // 0x31
-        public bool waveform; // 0x32
-        public bool vectorscope; // 0x33
-        public dUInt64.CommandsCalls debugOverlay; // 0x34
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ m_CurrentCamera; // 0x38
-        public ons.WorldCorners m_CmdAfterEverything; // 0x40
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD54AEA0D0
         public void OnDisable(){} // RVA: 0x7FFD54AEA210
@@ -497,17 +318,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessDebugLayer : Object
     {
-        public dUInt64.rray debugOverlayTarget; // 0x10
-        public dUInt64.y debugOverlayActive; // 0x18
-        public dUInt64.r debugOverlay; // 0x20
-        public dUInt64.encryptedSize vectorscope; // 0x28
-        public URA.DateTime<dUInt64.IntArray,dUInt64.th> m_Monitors; // 0x30
-        public int frameWidth; // 0x38
-        public int frameHeight; // 0x3C
-        public Offset <debugOverlayTarget>k__BackingField; // 0x40
-        public bool <debugOverlayActive>k__BackingField; // 0x48
-        public dUInt64.CommandsCalls <debugOverlay>k__BackingField; // 0x4C
-        public unch overlaySettings; // 0x50
+        public object debugOverlayTarget;
+        public object debugOverlayActive;
+        public object debugOverlay;
 
         // ── Methods ──
         public void get_debugOverlayTarget(){} // RVA: 0x7FFD4E3BE740
@@ -532,8 +345,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer : Object
     {
-        public bool m_ResetHistory; // 0x10
-
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD4E341310
         public void GetCameraFlags(){} // RVA: 0x7FFD4E919180
@@ -552,7 +363,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
-        public T1717722848 settings;
+        public object settings;
 
         // ── Methods ──
         public void get_settings(){} // RVA: 0x7FFD4E2ADC40
@@ -563,10 +374,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectSettings : ScriptableObject
     {
-        public bool active; // 0x18
-        public dUInt64.D39DE20128DDED0DC4FB04967ED4959F99075D69 enabled; // 0x20
-        public UnicodeCategory.pacingCombiningMark<dUInt64.RemoteCertificateChainErrors> parameters; // 0x28
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD54AECAE0
         public void OnDisable(){} // RVA: 0x7FFD54AED180
@@ -586,43 +393,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessLayer : MonoBehaviour
     {
-        public object sortedBundles; // 0x20
-        public object cameraDepthFlags; // 0x28
-        public bool haveBundlesBeenInited; // 0x2C
-        public bool finalBlitToCameraTarget; // 0x2D
-        public edLoops antialiasingMode; // 0x30
-        public dUInt64.s>k__BackingField temporalAntialiasing; // 0x38
-        public dUInt64.DispatchDuration>k__BackingField subpixelMorphologicalAntialiasing; // 0x40
-        public dUInt64.SendOutgoingCommandsCalls fastApproximateAntialiasing; // 0x48
-        public dUInt64.oingCommandsCalls fog; // 0x50
-        public dUInt64.? dithering; // 0x58
-        public dUInt64.tTypeSize=97 debugLayer; // 0x60
-        public dUInt64.MoveZ>b__1 m_Resources; // 0x68
-        public dUInt64.MoveZ>b__1 m_OldResources; // 0x70
-        public bool m_ShowToolkit; // 0x78
-        public bool m_ShowCustomSorter; // 0x79
-        public bool breakBeforeColorGrading; // 0x7A
-        public URA.woDigitYearMax<edDelay> m_BeforeTransparentBundles; // 0x80
-        public URA.woDigitYearMax<edDelay> m_BeforeStackBundles; // 0x88
-        public URA.woDigitYearMax<edDelay> m_AfterStackBundles; // 0x90
-        public URA.DateTime<dUInt64.ards,URA.woDigitYearMax<edDelay>> <sortedBundles>k__BackingField; // 0x98
-        public t_xMax <cameraDepthFlags>k__BackingField; // 0xA0
-        public bool <haveBundlesBeenInited>k__BackingField; // 0xA4
-        public URA.DateTime<?,dUInt64.5C04331AD1AE47F977A83BA41A5> m_Bundles; // 0xA8
-        public dUInt64.able m_PropertySheetFactory; // 0xB0
-        public ons.WorldCorners m_LegacyCmdBufferBeforeReflections; // 0xB8
-        public ons.WorldCorners m_LegacyCmdBufferBeforeLighting; // 0xC0
-        public ons.WorldCorners m_LegacyCmdBufferOpaque; // 0xC8
-        public ons.WorldCorners m_LegacyCmdBuffer; // 0xD0
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ m_Camera; // 0xD8
-        public dUInt64.DOResize m_CurrentContext; // 0xE0
-        public dUInt64.etion m_LogHistogram; // 0xE8
-        public bool m_SettingsUpdateNeeded; // 0xF0
-        public bool m_IsRenderingInSceneView; // 0xF1
-        public dUInt64.ogNestedTween m_TargetPool; // 0xF8
-        public bool m_NaNKilled; // 0x100
-        public URA.woDigitYearMax<dUInt64.OrId> m_ActiveEffects; // 0x108
-        public URA.woDigitYearMax<ons.get_disableInPlaceEditing> m_Targets; // 0x110
+        public object sortedBundles;
+        public object cameraDepthFlags;
+        public object haveBundlesBeenInited;
 
         // ── Methods ──
         public void get_sortedBundles(){} // RVA: 0x7FFD4E96DFB0
@@ -671,14 +444,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessManager : Object
     {
-        public dUInt64.ps instance;
-        public int k_MaxLayerCount;
-        public URA.DateTime<int,URA.woDigitYearMax<dUInt64.LookAt>b__0>> m_SortedVolumes; // 0x10
-        public URA.woDigitYearMax<dUInt64.LookAt>b__0> m_Volumes; // 0x18
-        public URA.DateTime<int,bool> m_SortNeeded; // 0x20
-        public URA.woDigitYearMax<dUInt64.urnKilledTotExceptFor> m_BaseSettings; // 0x28
-        public URA.woDigitYearMax<riteCharacterUnicode> m_TempColliders; // 0x30
-        public URA.DateTime<?,dUInt64.gZag32> settingsTypes; // 0x38
+        public object instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54AF73F0
@@ -701,9 +467,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessProfile : ScriptableObject
     {
-        public URA.woDigitYearMax<dUInt64.urnKilledTotExceptFor> settings; // 0x18
-        public bool isDirty; // 0x20
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD54AFAA00
         public void AddSettings(){} // RVA: 0x7FFD54AFAD70 | overloaded x3
@@ -716,35 +479,27 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessRenderContext : Object
     {
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ camera; // 0x10
-        public ons.WorldCorners command; // 0x18
-        public ons.get_disableInPlaceEditing source; // 0x20
-        public ons.get_disableInPlaceEditing destination; // 0x48
-        public ded sourceFormat; // 0x70
-        public bool flip; // 0x74
-        public dUInt64.MoveZ>b__1 resources; // 0x78
-        public dUInt64.able propertySheets; // 0x80
-        public URA.DateTime<string,object> userData; // 0x88
-        public dUInt64.tTypeSize=97 debugLayer; // 0x90
-        public int width; // 0x98
-        public int height; // 0x9C
-        public bool stereoActive; // 0xA0
-        public int xrActiveEye; // 0xA4
-        public int numberOfEyes; // 0xA8
-        public d stereoRenderingMode; // 0xAC
-        public int screenWidth; // 0xB0
-        public int screenHeight; // 0xB4
-        public bool isSceneView; // 0xB8
-        public edLoops antialiasing; // 0xBC
-        public dUInt64.s>k__BackingField temporalAntialiasing; // 0xC0
-        public dUInt64.onStart uberSheet; // 0xC8
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField autoExposureTexture; // 0xD0
-        public dUInt64.etion logHistogram; // 0xD8
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField logLut; // 0xE0
-        public dUInt64.odyLengthSerialized autoExposure; // 0xE8
-        public int bloomBufferNameID; // 0xF0
-        public bool physicalCamera; // 0xF4
-        public ode m_sourceDescriptor; // 0xF8
+        public object camera;
+        public object command;
+        public object source;
+        public object destination;
+        public object sourceFormat;
+        public object flip;
+        public object resources;
+        public object propertySheets;
+        public object userData;
+        public object debugLayer;
+        public object width;
+        public object height;
+        public object stereoActive;
+        public object xrActiveEye;
+        public object numberOfEyes;
+        public object stereoRenderingMode;
+        public object screenWidth;
+        public object screenHeight;
+        public object isSceneView;
+        public object antialiasing;
+        public object temporalAntialiasing;
 
         // ── Methods ──
         public void get_camera(){} // RVA: 0x7FFD4E35C380
@@ -801,27 +556,15 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessResources : ScriptableObject
     {
-        public ector[] blueNoise64; // 0x18
-        public ector[] blueNoise256; // 0x20
-        public >b__1 smaaLuts; // 0x28
-        public object shaders; // 0x30
-        public object computeShaders; // 0x38
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0
     }
 
     public class PostProcessVolume : MonoBehaviour
     {
-        public dUInt64.hakeRotation profile; // 0x20
-        public bool profileRef; // 0x28
-        public float previousLayer; // 0x2C
-        public float weight; // 0x30
-        public float priority; // 0x34
-        public int m_PreviousLayer; // 0x38
-        public float m_PreviousPriority; // 0x3C
-        public URA.woDigitYearMax<riteCharacterUnicode> m_TempColliders; // 0x40
-        public dUInt64.hakeRotation m_InternalProfile; // 0x48
+        public object profile;
+        public object profileRef;
+        public object previousLayer;
 
         // ── Methods ──
         public void get_profile(){} // RVA: 0x7FFD54AFC480
@@ -838,8 +581,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PropertySheet : Object
     {
-        public le properties; // 0x10
-        public atrix_Injected material; // 0x18
+        public object properties;
+        public object material;
 
         // ── Methods ──
         public void get_properties(){} // RVA: 0x7FFD4E35C380
@@ -855,8 +598,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PropertySheetFactory : Object
     {
-        public URA.DateTime<ojectionMatrix_Injected,dUInt64.onStart> m_Sheets; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B00410
         public void Get(){} // RVA: 0x7FFD54B00620 | overloaded x2
@@ -865,22 +606,28 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class RuntimeUtilities : Object
     {
-        public ector whiteTexture;
-        public apIndex whiteTexture3D; // 0x8
-        public ector blackTexture; // 0x10
-        public apIndex blackTexture3D; // 0x18
-        public ector transparentTexture; // 0x20
-        public apIndex transparentTexture3D; // 0x28
-        public URA.DateTime<int,ector> fullscreenTriangle; // 0x30
-        public dUInt64.MoveZ>b__1 copyStdMaterial; // 0x38
-        public object copyStdFromDoubleWideMaterial; // 0x40
-        public atrix_Injected copyMaterial; // 0x48
-        public atrix_Injected copyFromTexArrayMaterial; // 0x50
-        public atrix_Injected copySheet; // 0x58
-        public atrix_Injected copyFromTexArraySheet; // 0x60
-        public dUInt64.onStart scriptableRenderPipelineActive; // 0x68
-        public dUInt64.onStart supportsDeferredShading; // 0x70
-        public URA.bbrevEraNames<?> supportsDepthNormals; // 0x78
+        public object whiteTexture;
+        public object whiteTexture3D;
+        public object blackTexture;
+        public object blackTexture3D;
+        public object transparentTexture;
+        public object transparentTexture3D;
+        public object fullscreenTriangle;
+        public object copyStdMaterial;
+        public object copyStdFromDoubleWideMaterial;
+        public object copyMaterial;
+        public object copyFromTexArrayMaterial;
+        public object copySheet;
+        public object copyFromTexArraySheet;
+        public object scriptableRenderPipelineActive;
+        public object supportsDeferredShading;
+        public object supportsDepthNormals;
+        public object isSinglePassStereoEnabled;
+        public object isVREnabled;
+        public object isAndroidOpenGL;
+        public object isWebNonWebGPU;
+        public object defaultHDRRenderTextureFormat;
+        public object isLinearColorSpace;
 
         // ── Methods ──
         public void get_whiteTexture(){} // RVA: 0x7FFD54B00C50
@@ -941,12 +688,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ScalableAO : Object
     {
-        public Offset m_Result; // 0x10
-        public dUInt64.onStart m_PropertySheet; // 0x18
-        public dUInt64.Array m_Settings; // 0x20
-        public ons.get_disableInPlaceEditing[] m_MRT; // 0x28
-        public int[] m_SampleCount; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ADDF20
         public void GetCameraFlags(){} // RVA: 0x7FFD4EA8FE20
@@ -960,14 +701,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ScreenSpaceReflections : PostProcessEffectSettings
     {
-        public dUInt64.tgoingCalls preset; // 0x30
-        public dUInt64.00C3B7BBC1397D39DE20128DDED0DC4FB04967ED4959F99075D69 maximumIterationCount; // 0x38
-        public dUInt64.alled resolution; // 0x40
-        public dUInt64.536 thickness; // 0x48
-        public dUInt64.536 maximumMarchDistance; // 0x50
-        public dUInt64.536 distanceFade; // 0x58
-        public dUInt64.536 vignette; // 0x60
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54ADFD80
         public void .ctor(){} // RVA: 0x7FFD54ADFF70
@@ -975,152 +708,12 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ShaderIDs : Object
     {
-        public int MainTex;
-        public int Jitter; // 0x4
-        public int Sharpness; // 0x8
-        public int FinalBlendParameters; // 0xC
-        public int HistoryTex; // 0x10
-        public int SMAA_Flip; // 0x14
-        public int SMAA_Flop; // 0x18
-        public int AOParams; // 0x1C
-        public int AOColor; // 0x20
-        public int OcclusionTexture1; // 0x24
-        public int OcclusionTexture2; // 0x28
-        public int SAOcclusionTexture; // 0x2C
-        public int MSVOcclusionTexture; // 0x30
-        public int DepthCopy; // 0x34
-        public int LinearDepth; // 0x38
-        public int LowDepth1; // 0x3C
-        public int LowDepth2; // 0x40
-        public int LowDepth3; // 0x44
-        public int LowDepth4; // 0x48
-        public int TiledDepth1; // 0x4C
-        public int TiledDepth2; // 0x50
-        public int TiledDepth3; // 0x54
-        public int TiledDepth4; // 0x58
-        public int Occlusion1; // 0x5C
-        public int Occlusion2; // 0x60
-        public int Occlusion3; // 0x64
-        public int Occlusion4; // 0x68
-        public int Combined1; // 0x6C
-        public int Combined2; // 0x70
-        public int Combined3; // 0x74
-        public int SSRResolveTemp; // 0x78
-        public int Noise; // 0x7C
-        public int Test; // 0x80
-        public int Resolve; // 0x84
-        public int History; // 0x88
-        public int ViewMatrix; // 0x8C
-        public int InverseViewMatrix; // 0x90
-        public int ScreenSpaceProjectionMatrix; // 0x94
-        public int Params2; // 0x98
-        public int FogColor; // 0x9C
-        public int FogParams; // 0xA0
-        public int VelocityScale; // 0xA4
-        public int MaxBlurRadius; // 0xA8
-        public int RcpMaxBlurRadius; // 0xAC
-        public int VelocityTex; // 0xB0
-        public int Tile2RT; // 0xB4
-        public int Tile4RT; // 0xB8
-        public int Tile8RT; // 0xBC
-        public int TileMaxOffs; // 0xC0
-        public int TileMaxLoop; // 0xC4
-        public int TileVRT; // 0xC8
-        public int NeighborMaxTex; // 0xCC
-        public int LoopCount; // 0xD0
-        public int DepthOfFieldTemp; // 0xD4
-        public int DepthOfFieldTex; // 0xD8
-        public int Distance; // 0xDC
-        public int LensCoeff; // 0xE0
-        public int MaxCoC; // 0xE4
-        public int RcpMaxCoC; // 0xE8
-        public int RcpAspect; // 0xEC
-        public int CoCTex; // 0xF0
-        public int TaaParams; // 0xF4
-        public int AutoExposureTex; // 0xF8
-        public int HistogramBuffer; // 0xFC
-        public int Params; // 0x100
-        public int ScaleOffsetRes; // 0x104
-        public int BloomTex; // 0x108
-        public int SampleScale; // 0x10C
-        public int Threshold; // 0x110
-        public int ColorIntensity; // 0x114
-        public int Bloom_DirtTex; // 0x118
-        public int Bloom_Settings; // 0x11C
-        public int Bloom_Color; // 0x120
-        public int Bloom_DirtTileOffset; // 0x124
-        public int ChromaticAberration_Amount; // 0x128
-        public int ChromaticAberration_SpectralLut; // 0x12C
-        public int Distortion_CenterScale; // 0x130
-        public int Distortion_Amount; // 0x134
-        public int Lut2D; // 0x138
-        public int Lut3D; // 0x13C
-        public int Lut3D_Params; // 0x140
-        public int Lut2D_Params; // 0x144
-        public int UserLut2D_Params; // 0x148
-        public int PostExposure; // 0x14C
-        public int ColorBalance; // 0x150
-        public int ColorFilter; // 0x154
-        public int HueSatCon; // 0x158
-        public int Brightness; // 0x15C
-        public int ChannelMixerRed; // 0x160
-        public int ChannelMixerGreen; // 0x164
-        public int ChannelMixerBlue; // 0x168
-        public int Lift; // 0x16C
-        public int InvGamma; // 0x170
-        public int Gain; // 0x174
-        public int Curves; // 0x178
-        public int CustomToneCurve; // 0x17C
-        public int ToeSegmentA; // 0x180
-        public int ToeSegmentB; // 0x184
-        public int MidSegmentA; // 0x188
-        public int MidSegmentB; // 0x18C
-        public int ShoSegmentA; // 0x190
-        public int ShoSegmentB; // 0x194
-        public int Vignette_Color; // 0x198
-        public int Vignette_Center; // 0x19C
-        public int Vignette_Settings; // 0x1A0
-        public int Vignette_Mask; // 0x1A4
-        public int Vignette_Opacity; // 0x1A8
-        public int Vignette_Mode; // 0x1AC
-        public int Grain_Params1; // 0x1B0
-        public int Grain_Params2; // 0x1B4
-        public int GrainTex; // 0x1B8
-        public int Phase; // 0x1BC
-        public int GrainNoiseParameters; // 0x1C0
-        public int LumaInAlpha; // 0x1C4
-        public int DitheringTex; // 0x1C8
-        public int Dithering_Coords; // 0x1CC
-        public int From; // 0x1D0
-        public int To; // 0x1D4
-        public int Interp; // 0x1D8
-        public int TargetColor; // 0x1DC
-        public int HalfResFinalCopy; // 0x1E0
-        public int WaveformSource; // 0x1E4
-        public int WaveformBuffer; // 0x1E8
-        public int VectorscopeBuffer; // 0x1EC
-        public int RenderViewportScaleFactor; // 0x1F0
-        public int UVTransform; // 0x1F4
-        public int DepthSlice; // 0x1F8
-        public int UVScaleOffset; // 0x1FC
-        public int PosScaleOffset; // 0x200
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54B078A0
     }
 
     public class Spline : Object
     {
-        public int k_Precision;
-        public float k_Step;
-        public ÍÎÌÍÍÌÌÎÏÏ curve; // 0x10
-        public bool m_Loop; // 0x18
-        public float m_ZeroValue; // 0x1C
-        public float m_Range; // 0x20
-        public ÍÎÌÍÍÌÌÎÏÏ m_InternalLoopingCurve; // 0x28
-        public int frameCount; // 0x30
-        public float[] cachedData; // 0x38
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B0B0E0
         public void Cache(){} // RVA: 0x7FFD54B0B210
@@ -1130,8 +723,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class SubpixelMorphologicalAntialiasing : Object
     {
-        public es quality; // 0x10
-
         // ── Methods ──
         public void IsSupported(){} // RVA: 0x7FFD54AE2640
         public void Render(){} // RVA: 0x7FFD54AE2690
@@ -1140,9 +731,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TargetPool : Object
     {
-        public URA.woDigitYearMax<int> m_Pool; // 0x10
-        public int m_Current; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B0B6E0
         public void Get(){} // RVA: 0x7FFD54B0B7D0 | overloaded x2
@@ -1151,20 +739,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TemporalAntialiasing : Object
     {
-        public float jitter; // 0x10
-        public float sampleIndex; // 0x14
-        public float stationaryBlending; // 0x18
-        public float motionBlending; // 0x1C
-        public nalInformation<ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ,tionX,tSizeBias> jitteredMatrixFunc; // 0x20
-        public tionX <jitter>k__BackingField; // 0x28
-        public ons.get_disableInPlaceEditing[] m_Mrt; // 0x30
-        public bool m_ResetHistory; // 0x38
-        public int k_SampleCount;
-        public int <sampleIndex>k__BackingField; // 0x3C
-        public int k_NumEyes;
-        public int k_NumHistoryTextures;
-        public Offset[][] m_HistoryTextures; // 0x40
-        public int[] m_HistoryPingPong; // 0x48
+        public object jitter;
+        public object sampleIndex;
 
         // ── Methods ──
         public void get_jitter(){} // RVA: 0x7FFD4F7C2620
@@ -1187,10 +763,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TextureFormatUtilities : Object
     {
-        public URA.DateTime<int,ded> s_FormatAliasMap;
-        public URA.DateTime<int,bool> s_SupportedRenderTextureFormats; // 0x8
-        public URA.DateTime<int,bool> s_SupportedTextureFormats; // 0x10
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD54B0BA10
         public void IsObsolete(){} // RVA: 0x7FFD54B0CBD0
@@ -1200,12 +772,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TextureLerper : Object
     {
-        public dUInt64.y instance;
-        public ons.WorldCorners m_Command; // 0x10
-        public dUInt64.able m_PropertySheets; // 0x18
-        public dUInt64.MoveZ>b__1 m_Resources; // 0x20
-        public URA.woDigitYearMax<Offset> m_Recycled; // 0x28
-        public URA.woDigitYearMax<Offset> m_Actives; // 0x30
+        public object instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54B0D150
@@ -1219,20 +786,12 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TrackballAttribute : Attribute
     {
-        public object mode; // 0x10
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3440C0
     }
 
     public class VectorscopeMonitor : Monitor
     {
-        public int size; // 0x20
-        public float exposure; // 0x24
-        public ataStartIndex m_Data; // 0x28
-        public int k_ThreadGroupSizeX;
-        public int k_ThreadGroupSizeY;
-
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x7FFD54AE7150
         public void NeedsHalfRes(){} // RVA: 0x7FFD4E426850
@@ -1243,16 +802,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class Vignette : PostProcessEffectSettings
     {
-        public dUInt64.etPoolForType mode; // 0x30
-        public dUInt64.0DC4FB04967ED4959F99075D69 color; // 0x38
-        public dUInt64.59F99075D69 center; // 0x40
-        public dUInt64.536 intensity; // 0x48
-        public dUInt64.536 smoothness; // 0x50
-        public dUInt64.536 roundness; // 0x58
-        public dUInt64.D39DE20128DDED0DC4FB04967ED4959F99075D69 rounded; // 0x60
-        public dUInt64.4F8501620F878432D5C04331AD1AE47F977A83BA41A5 mask; // 0x68
-        public dUInt64.536 opacity; // 0x70
-
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7FFD54AE4B80
         public void .ctor(){} // RVA: 0x7FFD54AE4CE0
@@ -1260,13 +809,6 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class WaveformMonitor : Monitor
     {
-        public float exposure; // 0x20
-        public int height; // 0x24
-        public ataStartIndex m_Data; // 0x28
-        public int k_ThreadGroupSize;
-        public int k_ThreadGroupSizeX;
-        public int k_ThreadGroupSizeY;
-
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x7FFD54AE7150
         public void NeedsHalfRes(){} // RVA: 0x7FFD4E426850

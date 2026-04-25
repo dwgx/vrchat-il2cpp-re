@@ -7,9 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 {
     public class Bone : ValueType
     {
-        public uint parentBoneIndex; // 0x10
-        public amut position; // 0x14
-        public R_12x12 rotation; // 0x20
+        public object parentBoneIndex;
+        public object position;
+        public object rotation;
 
         // ── Methods ──
         public void get_parentBoneIndex(){} // RVA: 0x7FFD4F840210
@@ -22,9 +22,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class BoneControl : InputControl`1
     {
-        public _1.tTriggerButton parentBoneIndex; // 0x140
-        public _1.utReport position; // 0x148
-        public _1.? rotation; // 0x150
+        public object parentBoneIndex;
+        public object position;
+        public object rotation;
 
         // ── Methods ──
         public void get_parentBoneIndex(){} // RVA: 0x7FFD4E3AC5F0
@@ -41,13 +41,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class Eyes : ValueType
     {
-        public amut leftEyePosition; // 0x10
-        public R_12x12 leftEyeRotation; // 0x1C
-        public amut rightEyePosition; // 0x2C
-        public R_12x12 rightEyeRotation; // 0x38
-        public amut fixationPoint; // 0x48
-        public float leftEyeOpenAmount; // 0x54
-        public float rightEyeOpenAmount; // 0x58
+        public object leftEyePosition;
+        public object leftEyeRotation;
+        public object rightEyePosition;
+        public object rightEyeRotation;
+        public object fixationPoint;
+        public object leftEyeOpenAmount;
+        public object rightEyeOpenAmount;
 
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0x7FFD5072B520
@@ -68,13 +68,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class EyesControl : InputControl`1
     {
-        public _1.utReport leftEyePosition; // 0x198
-        public _1.? leftEyeRotation; // 0x1A0
-        public _1.utReport rightEyePosition; // 0x1A8
-        public _1.? rightEyeRotation; // 0x1B0
-        public _1.utReport fixationPoint; // 0x1B8
-        public _1.Index leftEyeOpenAmount; // 0x1C0
-        public _1.Index rightEyeOpenAmount; // 0x1C8
+        public object leftEyePosition;
+        public object leftEyeRotation;
+        public object rightEyePosition;
+        public object rightEyeRotation;
+        public object fixationPoint;
+        public object leftEyeOpenAmount;
+        public object rightEyeOpenAmount;
 
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0x7FFD4E961C80
@@ -99,12 +99,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class PoseControl : InputControl`1
     {
-        public _1.ceControlChangedValue isTracked; // 0x178
-        public _1.tTriggerButton trackingState; // 0x180
-        public _1.utReport position; // 0x188
-        public _1.? rotation; // 0x190
-        public _1.utReport velocity; // 0x198
-        public _1.utReport angularVelocity; // 0x1A0
+        public object isTracked;
+        public object trackingState;
+        public object position;
+        public object rotation;
+        public object velocity;
+        public object angularVelocity;
 
         // ── Methods ──
         public void get_isTracked(){} // RVA: 0x7FFD4E78D860
@@ -128,14 +128,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class PoseState : ValueType
     {
-        public int format;
-        public 2.Code s_Format;
-        public bool isTracked; // 0x10
-        public oducts.metry trackingState; // 0x14
-        public amut position; // 0x18
-        public R_12x12 rotation; // 0x24
-        public amut velocity; // 0x34
-        public amut angularVelocity; // 0x40
+        public object format;
 
         // ── Methods ──
         public void get_format(){} // RVA: 0x7FFD54A52560
@@ -145,21 +138,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class TrackedPoseDriver : MonoBehaviour
     {
-        public ch7deltadown trackingType; // 0x20
-        public object updateType; // 0x24
-        public bool ignoreTrackingState; // 0x28
-        public ilAddress.Providers positionInput; // 0x30
-        public ilAddress.Providers rotationInput; // 0x48
-        public ilAddress.Providers trackingStateInput; // 0x60
-        public amut positionAction; // 0x78
-        public R_12x12 rotationAction; // 0x84
-        public touch7deltaleft m_CurrentTrackingState; // 0x94
-        public bool m_RotationBound; // 0x98
-        public bool m_PositionBound; // 0x99
-        public bool m_TrackingStateBound; // 0x9A
-        public bool m_IsFirstUpdate; // 0x9B
-        public ilAddress.s m_PositionAction; // 0xA0
-        public ilAddress.s m_RotationAction; // 0xA8
+        public object trackingType;
+        public object updateType;
+        public object ignoreTrackingState;
+        public object positionInput;
+        public object rotationInput;
+        public object trackingStateInput;
+        public object positionAction;
+        public object rotationAction;
 
         // ── Methods ──
         public void get_trackingType(){} // RVA: 0x7FFD4E4FBBE0
@@ -232,12 +218,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class XRHMD : TrackedDevice
     {
-        public _1.utReport leftEyePosition; // 0x1B0
-        public _1.? leftEyeRotation; // 0x1B8
-        public _1.utReport rightEyePosition; // 0x1C0
-        public _1.? rightEyeRotation; // 0x1C8
-        public _1.utReport centerEyePosition; // 0x1D0
-        public _1.? centerEyeRotation; // 0x1D8
+        public object leftEyePosition;
+        public object leftEyeRotation;
+        public object rightEyePosition;
+        public object rightEyeRotation;
+        public object centerEyePosition;
+        public object centerEyeRotation;
 
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0x7FFD4E969F30
@@ -258,12 +244,6 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class XRLayoutBuilder : Object
     {
-        public string parentLayout; // 0x10
-        public string interfaceName; // 0x18
-        public deltaleft.rlTouchscreentouch8press descriptor; // 0x20
-        public string[] poseSubControlNames;
-        public deltaleft.ntouch8pressure[] poseSubControlTypes; // 0x8
-
         // ── Methods ──
         public void GetSizeOfFeature(){} // RVA: 0x7FFD54A56500
         public void SanitizeString(){} // RVA: 0x7FFD54A565C0

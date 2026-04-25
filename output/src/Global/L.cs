@@ -5,15 +5,11 @@
 
 public class Label : ValueType
 {
-    public string name; // 0x10
-    public ector icon; // 0x18
 }
 
 public class LambdaSignature`1 : Object
 {
-    public otedExpressionMustBeLambda<T1717688352> Instance;
-    public UnicodeCategory.pacingCombiningMark<iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.eneric.IEnumerator<TElement>.Current> Parameters;
-    public iggers.IAsyncOnCollisionEnter2DHandler.OnCollisionEnter2DAsync.ator<TResult>.Current ReturnLabel;
+    public object Instance;
 
     // ── Methods ──
     public void get_Instance(){} // RVA: 0x7FFD4E078A90
@@ -22,21 +18,6 @@ public class LambdaSignature`1 : Object
 
 public class LayoutJson : ValueType
 {
-    public string name; // 0x10
-    public string extend; // 0x18
-    public string[] extendMultiple; // 0x20
-    public string format; // 0x28
-    public string beforeRender; // 0x30
-    public string runInBackground; // 0x38
-    public string[] commonUsages; // 0x40
-    public string displayName; // 0x48
-    public string description; // 0x50
-    public string type; // 0x58
-    public string variant; // 0x60
-    public bool isGenericTypeOfDevice; // 0x68
-    public bool hideInUI; // 0x69
-    public yExternal[] controls; // 0x70
-
     // ── Methods ──
     public void ToLayout(){} // RVA: 0x7FFD54AB19A0
     public void FromLayout(){} // RVA: 0x7FFD54AB2670
@@ -44,21 +25,15 @@ public class LayoutJson : ValueType
 
 public class LayoutJsonNameAndDescriptorOnly : ValueType
 {
-    public string name; // 0x10
-    public string extend; // 0x18
-    public string[] extendMultiple; // 0x20
-    public iveTouches device; // 0x28
 }
 
 public class LayoutMatcher : ValueType
 {
-    public 2.uestResetCommand layoutName; // 0x10
-    public criptorSizeDeviceCommandType.nt deviceMatcher; // 0x20
 }
 
 public class LayoutNotFoundException : Exception
 {
-    public string layout; // 0x90
+    public object layout;
 
     // ── Methods ──
     public void get_layout(){} // RVA: 0x7FFD4E70F640
@@ -81,9 +56,7 @@ public class LegacyFixedAnimationUpdate : ValueType
 
 public class LegacySignalSource : Object
 {
-    public EXTERNAL_INDEX_REF_SIG._BackingField SignalDuration; // 0x10
-    public amut m_Velocity; // 0x18
-    public float m_StartTimeOffset; // 0x24
+    public object SignalDuration;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC77B20
@@ -93,15 +66,24 @@ public class LegacySignalSource : Object
 
 public class LifetimeByEmitterSpeedModule : ValueType
 {
-    public InDuration m_ParticleSystem; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
 }
 
 public class LightsModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object ratio;
+    public object useRandomDistribution;
+    public object light;
+    public object useParticleColor;
+    public object sizeAffectsRange;
+    public object alphaAffectsIntensity;
+    public object range;
+    public object rangeMultiplier;
+    public object intensity;
+    public object intensityMultiplier;
+    public object maxLights;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -157,7 +139,22 @@ public class LightsModule : ValueType
 
 public class LimitVelocityOverLifetimeModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object limitX;
+    public object limitXMultiplier;
+    public object limitY;
+    public object limitYMultiplier;
+    public object limitZ;
+    public object limitZMultiplier;
+    public object limit;
+    public object limitMultiplier;
+    public object dampen;
+    public object separateAxes;
+    public object space;
+    public object drag;
+    public object dragMultiplier;
+    public object multiplyDragByParticleSize;
+    public object multiplyDragByParticleVelocity;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -235,17 +232,12 @@ public class LineSegment : ValueType
 
 public class LinkImage : Object
 {
-    public string url; // 0x10
-    public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField texture; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class Linked1CancellationTokenSource : CancellationTokenSource
 {
-    public sageKind.sition _reg1; // 0x40
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53ADEE00
     public void Dispose(){} // RVA: 0x7FFD53ADEF80
@@ -253,9 +245,6 @@ public class Linked1CancellationTokenSource : CancellationTokenSource
 
 public class Linked2CancellationTokenSource : CancellationTokenSource
 {
-    public sageKind.sition _reg1; // 0x40
-    public sageKind.sition _reg2; // 0x58
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53ADEFC0
     public void Dispose(){} // RVA: 0x7FFD53ADF230
@@ -263,9 +252,6 @@ public class Linked2CancellationTokenSource : CancellationTokenSource
 
 public class LinkedNCancellationTokenSource : CancellationTokenSource
 {
-    public ileFullDirectoryInformation<object> s_linkedTokenCancelDelegate;
-    public sageKind.sition[] _linkingRegistrations; // 0x40
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53ADF280
     public void Dispose(){} // RVA: 0x7FFD53ADF4B0
@@ -274,11 +260,6 @@ public class LinkedNCancellationTokenSource : CancellationTokenSource
 
 public class LinkedSlot : Object
 {
-    public lizingForUnload<T1717586832> Next;
-    public lizingForUnload<T1717586832> Previous;
-    public ingForUnload<T1717586832>[] SlotArray;
-    public T1717586832 Value;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
 }
@@ -289,10 +270,8 @@ public class LinkedSlotVolatile : ValueType
 
 public class ListBuilder`1 : ValueType
 {
-    public m.jectMapInfo[] Item; // 0x10
-    public m.jectMapInfo Count; // 0x18
-    public int _count; // 0x20
-    public int _capacity; // 0x24
+    public object Item;
+    public object Count;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -309,7 +288,8 @@ public class ListDummy`1 : Object
 
 public class ListElementProperty : Property`2
 {
-    public int Index;
+    public object Index;
+    public object Name;
 
     // ── Methods ──
     public void get_Index(){} // RVA: 0x7FFD4E079960
@@ -319,9 +299,7 @@ public class ListElementProperty : Property`2
 
 public class ListIterator`1 : ValueType
 {
-    public bool Current;
-    public URA.woDigitYearMax<T1717697792> list;
-    public eDeviceInformation<T1717697792> enumerator;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -333,7 +311,8 @@ public class ListIterator`1 : ValueType
 
 public class ListOfTWrapper`1 : Object
 {
-    public URA.?<T1717734528> Count;
+    public object Count;
+    public object Item;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -345,15 +324,13 @@ public class ListOfTWrapper`1 : Object
 
 public class ListPoolImpl`1 : Object
 {
-    public onfigSettings.gContentId<URA.woDigitYearMax<T1717581440>> Pool;
-
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
 }
 
 public class ListQueryMatcher`1 : UQueryMatcher
 {
-    public URA.woDigitYearMax<T1717596640> matches;
+    public object matches;
 
     // ── Methods ──
     public void get_matches(){} // RVA: 0x7FFD4E078E90
@@ -365,7 +342,8 @@ public class ListQueryMatcher`1 : UQueryMatcher
 
 public class ListWrapper`1 : ValueType
 {
-    public URA.saAbbrevMonthNames<T1717579936> Count;
+    public object Count;
+    public object Item;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -385,10 +363,10 @@ public class LiteralList : ValueType
 
 public class LoadOptions : ValueType
 {
-    public tLocation_7 StorageLocation; // 0x10
-    public int MaxAnchorCount; // 0x14
-    public double Timeout; // 0x18
-    public URA.saAbbrevMonthNames<ce> Uuids; // 0x20
+    public object StorageLocation;
+    public object MaxAnchorCount;
+    public object Timeout;
+    public object Uuids;
 
     // ── Methods ──
     public void get_StorageLocation(){} // RVA: 0x7FFD4F840210
@@ -404,12 +382,6 @@ public class LoadOptions : ValueType
 
 public class LoadingInfoData : ScriptableObject
 {
-    public string _textureName; // 0x18
-    public float weight; // 0x20
-    public bool isAnnouncement; // 0x24
-    public URA.woDigitYearMax<string> paragraphs; // 0x28
-    public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField _loadedTexture; // 0x30
-
     // ── Methods ──
     public void Equals(){} // RVA: 0x7FFD4F6A4850
     public void CreateInstance(){} // RVA: 0x7FFD4F6A49F0
@@ -424,17 +396,6 @@ public class LoadingInfoData : ScriptableObject
 
 public class LoadingInfoSet : ScriptableObject
 {
-    public URA.woDigitYearMax<ityVariant> loadingInfos; // 0x18
-    public ityVariant announcementLoadingInfo; // 0x20
-    public ityVariant twoFactorAuthenticationLoadingInfo; // 0x28
-    public ityVariant communityLabsLoadingInfo; // 0x30
-    public URA.woDigitYearMax<int> loadingInfoCyclesBeforeRepeat; // 0x38
-    public int cyclesBeforeRepeat;
-    public bool displayCommunityLabsInfo; // 0x40
-    public URA.woDigitYearMax<ePathName117.?> texts; // 0x48
-    public URA.woDigitYearMax<string> announcementsSeen;
-    public ityVariant _currentLoadingInfoData; // 0x50
-
     // ── Methods ──
     public void Equals(){} // RVA: 0x7FFD4F6A6D40
     public void CreateInstance(){} // RVA: 0x7FFD4F6A75B0
@@ -459,21 +420,12 @@ public class LoadingInfoSet : ScriptableObject
 
 public class LocalMinima : Object
 {
-    public long Y; // 0x10
-    public m_OriginalPath LeftBound; // 0x18
-    public m_OriginalPath RightBound; // 0x20
-    public ngShape2D Next; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class LockedStack : Object
 {
-    public T1717592576[][] _arrays;
-    public int _count;
-    public uint _firstStackItemMS;
-
     // ── Methods ──
     public void TryPush(){} // RVA: 0x7FFD4E079F60
     public void TryPop(){} // RVA: 0x7FFD4E078E90
@@ -490,9 +442,8 @@ public class LogCallback : MulticastDelegate
 
 public class LogValues`1 : ValueType
 {
-    public nalInformation<ÌÌÏÏÍÏÌÏÍÌÍÌÌÏÍÍÎÎÌ<T1717737600>,ÏÏÍÍÎÎ,string> Item;
-    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 Count;
-    public T1717737600 _value0;
+    public object Item;
+    public object Count;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -506,10 +457,8 @@ public class LogValues`1 : ValueType
 
 public class LogValues`2 : ValueType
 {
-    public nalInformation<et_useMask<T1717737680,T1717737696>,ÏÏÍÍÎÎ,string> Item;
-    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 Count;
-    public T1717737680 _value0;
-    public T1717737696 _value1;
+    public object Item;
+    public object Count;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -523,11 +472,8 @@ public class LogValues`2 : ValueType
 
 public class LogValues`3 : ValueType
 {
-    public nalInformation<?<T1717737808,T1717737824,T1717737840>,ÏÏÍÍÎÎ,string> Count;
-    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 Item;
-    public T1717737808 _value0;
-    public T1717737824 _value1;
-    public T1717737840 _value2;
+    public object Count;
+    public object Item;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -541,12 +487,8 @@ public class LogValues`3 : ValueType
 
 public class LogValues`4 : ValueType
 {
-    public nalInformation<rawBeforeTransparent<T1717737984,T1717738000,T1717738016,T1717738032>,ÏÏÍÍÎÎ,string> Count;
-    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 Item;
-    public T1717737984 _value0;
-    public T1717738000 _value1;
-    public T1717738016 _value2;
-    public T1717738032 _value3;
+    public object Count;
+    public object Item;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -561,13 +503,8 @@ public class LogValues`4 : ValueType
 
 public class LogValues`5 : ValueType
 {
-    public nalInformation<?<T1717738208,T1717738224,T1717738240,T1717738256,T1717738272>,ÏÏÍÍÎÎ,string> Count;
-    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 Item;
-    public T1717738208 _value0;
-    public T1717738224 _value1;
-    public T1717738240 _value2;
-    public T1717738256 _value3;
-    public T1717738272 _value4;
+    public object Count;
+    public object Item;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -582,14 +519,8 @@ public class LogValues`5 : ValueType
 
 public class LogValues`6 : ValueType
 {
-    public nalInformation<Transparent<T1717738480,T1717738496,T1717738512,T1717738528,T1717738544,T1717738560>,ÏÏÍÍÎÎ,string> Count;
-    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.6665 Item;
-    public T1717738480 _value0;
-    public T1717738496 _value1;
-    public T1717738512 _value2;
-    public T1717738528 _value3;
-    public T1717738544 _value4;
-    public T1717738560 _value5;
+    public object Count;
+    public object Item;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -612,8 +543,8 @@ public class LoggerFactoryDebugView : Object
 
 public class Lookup`2 : Object
 {
-    public m<T1717639760,T1717639776> Item;
-    public URA.DateTime<T1717639760,6G16B16_SInt<T1717639760,T1717639776>> Count;
+    public object Item;
+    public object Count;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -637,11 +568,6 @@ public class LowMemoryCallback : MulticastDelegate
 
 public class LowerCaseMapping : ValueType
 {
-    public char ChMin; // 0x10
-    public char ChMax; // 0x12
-    public int LcOp; // 0x14
-    public int Data; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD547C89D0
 }

@@ -7,11 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.HID
 {
     public class HID : InputDevice
     {
-        public string QueryHIDReportDescriptorDeviceCommandType;
-        public string QueryHIDReportDescriptorSizeDeviceCommandType;
-        public bool QueryHIDParsedReportDescriptorDeviceCommandType; // 0x190
-        public ager hidDescriptor; // 0x198
-        public object k_HIDParseDescriptorFallback;
+        public object QueryHIDReportDescriptorDeviceCommandType;
+        public object QueryHIDReportDescriptorSizeDeviceCommandType;
+        public object QueryHIDParsedReportDescriptorDeviceCommandType;
+        public object hidDescriptor;
 
         // ── Methods ──
         public void get_QueryHIDReportDescriptorDeviceCommandType(){} // RVA: 0x7FFD54A7D640
@@ -35,7 +34,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.HID
 
     public class HIDSupport : Object
     {
-        public lback[] supportedHIDUsages;
+        public object supportedHIDUsages;
 
         // ── Methods ──
         public void get_supportedHIDUsages(){} // RVA: 0x7FFD54A86CA0

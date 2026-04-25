@@ -7,26 +7,6 @@ namespace VRC.OSCQuery
 {
     public class Attributes : Object
     {
-        public URA.DateTime<?,string> _oscTypeLookup;
-        public string CONTENTS;
-        public string HOST_INFO;
-        public string FULL_PATH;
-        public string TYPE;
-        public string ACCESS;
-        public string CLIPMODE;
-        public string CRITICAL;
-        public string DESCRIPTION;
-        public string EXTENDED_TYPE;
-        public string HTML;
-        public string OVERLOADS;
-        public string RANGE;
-        public string TAGS;
-        public string UNIT;
-        public string VALUE;
-        public string SERVICE_OSCJSON_TCP;
-        public string SERVICE_OSC_UDP;
-        public string EXPLORER; // 0x8
-
         // ── Methods ──
         public void OSCTypeFor(){} // RVA: 0x7FFD5513E0A0 | overloaded x2
         public void .cctor(){} // RVA: 0x7FFD5513E220
@@ -34,9 +14,6 @@ namespace VRC.OSCQuery
 
     public class Extensions : Object
     {
-        public eHeaderAsync>d__29.nContinuation _client;
-        public ialized.ndex DefaultLoopbackEndpoint; // 0x8
-
         // ── Methods ──
         public void SkipLast(){} // RVA: 0x7FFD4E088090
         public void GetAvailableTcpPort(){} // RVA: 0x7FFD5513EAA0
@@ -49,12 +26,6 @@ namespace VRC.OSCQuery
 
     public class HostInfo : Object
     {
-        public string name; // 0x10
-        public URA.DateTime<string,bool> extensions; // 0x18
-        public string oscIP; // 0x20
-        public int oscPort; // 0x28
-        public string oscTransport; // 0x30
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55140AE0
         public void ToString(){} // RVA: 0x7FFD55140D90
@@ -76,13 +47,8 @@ namespace VRC.OSCQuery
 
     public class OSCQueryNode : Object
     {
-        public string ParentPath; // 0x10
-        public string Name; // 0x18
-        public et_EnableBurstSafetyChecks Access; // 0x20
-        public URA.DateTime<string,gate.MultiplyPow10> Contents; // 0x28
-        public string OscType; // 0x30
-        public object[] Value; // 0x38
-        public ex.siteShoulder WriteSettings;
+        public object ParentPath;
+        public object Name;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E3A7E80 | overloaded x2
@@ -95,8 +61,6 @@ namespace VRC.OSCQuery
 
     public class OSCQueryRootNode : OSCQueryNode
     {
-        public URA.DateTime<string,gate.MultiplyPow10> _pathLookup; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55145870
         public void GetNodeWithPath(){} // RVA: 0x7FFD551459C0
@@ -109,23 +73,16 @@ namespace VRC.OSCQuery
 
     public class OSCQueryService : Object
     {
-        public int TcpPort; // 0x10
-        public ialized.lsProvider OscPort; // 0x18
-        public ialized.lsProvider ServerName; // 0x20
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.et_stencilReference<gate.9> HostIP;
-        public ialized.lsProvider OscIP; // 0x28
-        public int Logger;
-        public int LocalIp;
-        public string Discovery;
-        public string HostInfo; // 0x8
-        public string RootNode; // 0x10
-        public URA.onsDepth<string> MatchedNames; // 0x18
-        public gate.4 _discovery; // 0x30
-        public ileFullDirectoryInformation<gate.4> OnOscServiceAdded; // 0x38
-        public ileFullDirectoryInformation<gate.4> OnOscQueryServiceAdded; // 0x40
-        public gate.tyChecks _http; // 0x48
-        public gate.eBurstCompilationSynchronously _hostInfo; // 0x50
-        public gate.nternal _rootNode; // 0x58
+        public object TcpPort;
+        public object OscPort;
+        public object ServerName;
+        public object HostIP;
+        public object OscIP;
+        public object Logger;
+        public object LocalIp;
+        public object Discovery;
+        public object HostInfo;
+        public object RootNode;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD55148980 | overloaded x2

@@ -33,19 +33,6 @@ namespace ThirdParty.DotNet.System
 
     public class Guid : ValueType
     {
-        public ce Empty;
-        public int _a; // 0x10
-        public short _b; // 0x14
-        public short _c; // 0x16
-        public byte _d; // 0x18
-        public byte _e; // 0x19
-        public byte _f; // 0x1A
-        public byte _g; // 0x1B
-        public byte _h; // 0x1C
-        public byte _i; // 0x1D
-        public byte _j; // 0x1E
-        public byte _k; // 0x1F
-
         // ── Methods ──
         public void NewGuid(){} // RVA: 0x7FFD53A49FE0
         public void .ctor(){} // RVA: 0x7FFD53A4A490 | overloaded x6

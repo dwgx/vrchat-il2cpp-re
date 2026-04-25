@@ -7,14 +7,6 @@ namespace ThirdParty.DotNet.System
 {
     public class Boolean : ValueType
     {
-        public bool m_value; // 0x10
-        public int True;
-        public int False;
-        public string TrueLiteral;
-        public string FalseLiteral;
-        public string TrueString;
-        public string FalseString; // 0x8
-
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x7FFD5392CB90
         public void ToString(){} // RVA: 0x7FFD5392CC00 | overloaded x2
@@ -73,10 +65,6 @@ namespace ThirdParty.DotNet.System
 
     public class Byte : ValueType
     {
-        public byte m_value; // 0x10
-        public byte MaxValue;
-        public byte MinValue;
-
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFD5392DE60 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD5392CD20 | overloaded x2

@@ -13,9 +13,6 @@ namespace ThirdParty.OscCore.OscCore
 
     public class Constant : Object
     {
-        public byte[] BundlePrefixBytes;
-        public long BundlePrefixLong; // 0x8
-
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FFD53DB4390
     }
@@ -29,10 +26,8 @@ namespace ThirdParty.OscCore.OscCore
 
     public class MessageHandlerBase : MonoBehaviour
     {
-        public stantiated.ructor.CanBeInstantiated Receiver; // 0x20
-        public string Address; // 0x28
-        public stantiated.<hasSerializedFieldAttribute>5__7 m_ActionPair; // 0x30
-        public bool m_Registered; // 0x38
+        public object Receiver;
+        public object Address;
 
         // ── Methods ──
         public void get_Receiver(){} // RVA: 0x7FFD4E36F0C0
@@ -48,12 +43,6 @@ namespace ThirdParty.OscCore.OscCore
 
     public class MidiMessage : ValueType
     {
-        public int data; // 0x10
-        public byte PortId; // 0x10
-        public byte Status; // 0x11
-        public byte Data1; // 0x12
-        public byte Data2; // 0x13
-
         // ── Methods ──
         public void ToString(){} // RVA: 0x7FFD53DBC950
         public void Equals(){} // RVA: 0x7FFD53DBCBC0 | overloaded x2
@@ -62,9 +51,6 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscActionPair : Object
     {
-        public ileFullDirectoryInformation<stantiated.tyType> ValueRead; // 0x10
-        public ÎÌÍÏÏÌÍÏ MainThreadQueued; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DB6360
         public void op_Addition(){} // RVA: 0x7FFD53DB64B0
@@ -73,10 +59,6 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscAddressMethods : Object
     {
-        public int defaultSize;
-        public URA.DateTime<ellSize_Injected.InstallEvents>b__3_3,stantiated.<hasSerializedFieldAttribute>5__7> HandleToValue; // 0x10
-        public URA.DateTime<string,ellSize_Injected.ap_Injected> SourceToBlob; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DBCD20
         public void Add(){} // RVA: 0x7FFD53DBD1A0 | overloaded x2
@@ -88,17 +70,6 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscAddressSpace : Object
     {
-        public int k_DefaultPatternCapacity;
-        public int k_DefaultCapacity;
-        public em.MarkAborted.izeDefaultCase escapedStringBuilder; // 0x10
-        public URA.onsDepth<char> specialRegexCharacters; // 0x18
-        public stantiated.? AddressToMethod; // 0x20
-        public int PatternCount; // 0x28
-        public tor.neStore[] Patterns; // 0x30
-        public stantiated.<hasSerializedFieldAttribute>5__7[] PatternMethods; // 0x38
-        public URA.ge<int> FreedPatternIndices; // 0x40
-        public URA.DateTime<string,int> PatternStringToIndex; // 0x48
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DB6730
         public void TryAddMethod(){} // RVA: 0x7FFD53DB6CC0
@@ -110,9 +81,8 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscBlobMessageHandler : MessageHandlerBase
     {
-        public stantiated.ectionPropertyBag Buffer; // 0x40
-        public byte[] LastReceivedBlobLength; // 0x48
-        public int <LastReceivedBlobLength>k__BackingField; // 0x50
+        public object Buffer;
+        public object LastReceivedBlobLength;
 
         // ── Methods ──
         public void get_Buffer(){} // RVA: 0x7FFD4E3BC730
@@ -132,22 +102,8 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscClient : Object
     {
-        public rt.Converter Writer; // 0x10
-        public stantiated.? Destination; // 0x18
-        public ialized.ndex <Destination>k__BackingField; // 0x20
-        public uint k_Int32TypeTagBytes;
-        public uint k_Float32TypeTagBytes;
-        public uint k_StringTypeTagBytes;
-        public uint k_BlobTypeTagBytes;
-        public uint k_Int64TypeTagBytes;
-        public uint k_Float64TypeTagBytes;
-        public uint k_Color32TypeTagBytes;
-        public uint k_MidiTypeTagBytes;
-        public uint k_CharTypeTagBytes;
-        public uint k_TrueTypeTagBytes;
-        public uint k_FalseTypeTagBytes;
-        public uint k_NilTypeTagBytes;
-        public uint k_InfinitumTypeTagBytes;
+        public object Writer;
+        public object Destination;
 
         // ── Methods ──
         public void get_Writer(){} // RVA: 0x7FFD4E3447C0
@@ -194,9 +150,6 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
-        public stantiated.yBag`1 OnMessageReceived; // 0x40
-        public bool m_Value; // 0x48
-
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x7FFD4E090980
         public void .ctor(){} // RVA: 0x7FFD4E090980
@@ -204,20 +157,7 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageValues : Object
     {
-        public int ElementCount;
-        public byte[] m_SharedBuffer; // 0x10
-        public IntPtr SharedBufferPtr; // 0x18
-        public byte[] m_SwapBuffer32; // 0x20
-        public IntPtr SwapBuffer32Ptr; // 0x28
-        public IntPtr SwapBuffer32UintPtr; // 0x30
-        public IntPtr SwapBufferColor32Ptr; // 0x38
-        public annelDataStore.essage m_Swap32Handle; // 0x40
-        public byte[] m_SwapBuffer64; // 0x48
-        public IntPtr SwapBuffer64Ptr; // 0x50
-        public annelDataStore.essage m_Swap64Handle; // 0x58
-        public stantiated.istPropertyBag[] Tags; // 0x60
-        public int[] Offsets; // 0x68
-        public int <ElementCount>k__BackingField; // 0x70
+        public object ElementCount;
 
         // ── Methods ──
         public void ReadBlobElement(){} // RVA: 0x7FFD53DB4670
@@ -241,13 +181,6 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscParser : Object
     {
-        public int MaxElementsPerMessage;
-        public int MaxBlobSize;
-        public byte[] Buffer; // 0x10
-        public IntPtr BufferPtr; // 0x18
-        public IntPtr BufferLongPtr; // 0x20
-        public stantiated.tyType MessageValues; // 0x28
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DB8540
         public void Parse(){} // RVA: 0x7FFD53DB8730 | overloaded x2
@@ -263,9 +196,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscReceiver : MonoBehaviour
     {
-        public int Port; // 0x20
-        public bool Running; // 0x24
-        public stantiated.? Server; // 0x28
+        public object Port;
+        public object Running;
+        public object Server;
 
         // ── Methods ──
         public void get_Port(){} // RVA: 0x7FFD4E4FBBE0
@@ -286,9 +219,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscSender : MonoBehaviour
     {
-        public string IpAddress; // 0x20
-        public int Port; // 0x28
-        public stantiated.? Client; // 0x30
+        public object IpAddress;
+        public object Port;
+        public object Client;
 
         // ── Methods ──
         public void get_IpAddress(){} // RVA: 0x7FFD4E36F0C0
@@ -307,24 +240,11 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscServer : Object
     {
-        public URA.DateTime<ileFullDirectoryInformation<stantiated.tyType>,stantiated.<hasSerializedFieldAttribute>5__7> Running;
-        public stantiated.ÎÌ Port; // 0x10
-        public bool AddressSpace; // 0x18
-        public bool Parser; // 0x19
-        public byte[] LastBundleTimestamp; // 0x20
-        public annelDataStore.essage m_BufferHandle; // 0x28
-        public IntPtr m_BufferPtr; // 0x30
-        public ÎÌÍÏÏÌÍÏ[] m_MainThreadQueue; // 0x38
-        public int m_MainThreadCount; // 0x40
-        public URA.DateTime<int,string> m_ByteLengthToStringBuffer; // 0x48
-        public URA.onsDepth<stantiated.eateArrayPropertyBag> m_MonitorCallbacks; // 0x50
-        public URA.woDigitYearMax<stantiated.<hasSerializedFieldAttribute>5__7> m_PatternMatchedMethods; // 0x58
-        public bool <Running>k__BackingField; // 0x60
-        public URA.DateTime<int,stantiated.?> PortToServer; // 0x8
-        public int <Port>k__BackingField; // 0x64
-        public stantiated.? <AddressSpace>k__BackingField; // 0x68
-        public stantiated.ÏÌÏÍÎÍÏÌÌÌÏÍÎÍÍÍÌÎÏÌ <Parser>k__BackingField; // 0x70
-        public enerateMessage.ogramCounter <LastBundleTimestamp>k__BackingField; // 0x78
+        public object Running;
+        public object Port;
+        public object AddressSpace;
+        public object Parser;
+        public object LastBundleTimestamp;
 
         // ── Methods ──
         public void set_Running(){} // RVA: 0x7FFD4E36A030
@@ -356,14 +276,8 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscSocket : Object
     {
-        public rt.Converter Port; // 0x10
-        public sageKind.nVideos Server; // 0x18
-        public bool m_Disposed; // 0x20
-        public bool m_Started; // 0x21
-        public sageKind.pacting m_ThreadWakeup; // 0x28
-        public bool m_CloseRequested; // 0x30
-        public int <Port>k__BackingField; // 0x34
-        public stantiated.? <Server>k__BackingField; // 0x38
+        public object Port;
+        public object Server;
 
         // ── Methods ──
         public void get_Port(){} // RVA: 0x7FFD4EEFEDC0
@@ -391,20 +305,7 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscWriter : Object
     {
-        public byte[] Length; // 0x10
-        public IntPtr m_BufferPtr; // 0x18
-        public annelDataStore.essage m_BufferHandle; // 0x20
-        public IntPtr m_BufferMidiPtr; // 0x28
-        public float[] m_FloatSwap; // 0x30
-        public IntPtr m_FloatSwapPtr; // 0x38
-        public annelDataStore.essage m_FloatSwapHandle; // 0x40
-        public double[] m_DoubleSwap; // 0x48
-        public IntPtr m_DoubleSwapPtr; // 0x50
-        public annelDataStore.essage m_DoubleSwapHandle; // 0x58
-        public ?[] m_Color32Swap; // 0x60
-        public IntPtr m_Color32SwapPtr; // 0x68
-        public annelDataStore.essage m_Color32SwapHandle; // 0x70
-        public int m_Length; // 0x78
+        public object Length;
 
         // ── Methods ──
         public void get_Length(){} // RVA: 0x7FFD4F9B6EF0
@@ -420,28 +321,10 @@ namespace ThirdParty.OscCore.OscCore
 
     public class PropertyOutput : MonoBehaviour
     {
-        public stantiated.2 Sender; // 0x20
-        public string SourceComponent; // 0x28
-        public BuffersImpl Property; // 0x30
-        public led Field; // 0x38
-        public bool m_MemberIsProperty; // 0x40
-        public string m_PropertyName; // 0x48
-        public string m_PropertyTypeName; // 0x50
-        public stantiated.dMember m_SendVector2Elements; // 0x58
-        public stantiated.ropertyMembers m_SendVector3Elements; // 0x59
-        public bool m_PreviousBooleanValue; // 0x5A
-        public int m_PreviousIntValue; // 0x5C
-        public long m_PreviousLongValue; // 0x60
-        public double m_PreviousDoubleValue; // 0x68
-        public float m_PreviousSingleValue; // 0x70
-        public string m_PreviousStringValue; // 0x78
-        public object m_PreviousColorValue; // 0x80
-        public tionX m_PreviousVec2Value; // 0x90
-        public amut m_PreviousVec3Value; // 0x98
-        public bool m_HasSender; // 0xA4
-        public m.Int64 m_MemberInfo; // 0xA8
-        public m.ber m_Property; // 0xB0
-        public m.WmiGuidObject m_Field; // 0xB8
+        public object Sender;
+        public object SourceComponent;
+        public object Property;
+        public object Field;
 
         // ── Methods ──
         public void get_Sender(){} // RVA: 0x7FFD4E36F0C0
@@ -471,9 +354,6 @@ namespace ThirdParty.OscCore.OscCore
 
     public class Utils : Object
     {
-        public URA.woDigitYearMax<char> k_TempChars;
-        public em.MarkAborted.izeDefaultCase k_Builder; // 0x8
-
         // ── Methods ──
         public void ValidateAddress(){} // RVA: 0x7FFD53DBD990
         public void ReplaceInvalidAddressCharacters(){} // RVA: 0x7FFD53DBDC00

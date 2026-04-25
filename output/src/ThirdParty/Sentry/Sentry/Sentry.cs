@@ -7,8 +7,6 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class DefaultSentryScopeStateProcessor : Object
     {
-        public char[] TrimFilter;
-
         // ── Methods ──
         public void Apply(){} // RVA: 0x7FFD53E57290
         public void .ctor(){} // RVA: 0x7FFD4E341310
@@ -17,8 +15,8 @@ namespace ThirdParty.Sentry.Sentry
 
     public class HttpStatusCodeRange : ValueType
     {
-        public int Start; // 0x10
-        public int End; // 0x14
+        public object Start;
+        public object End;
 
         // ── Methods ──
         public void get_Start(){} // RVA: 0x7FFD4F840210
@@ -105,92 +103,92 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryOptions : Object
     {
-        public URA.DateTime<string,string> ScopeStackContainer; // 0x10
-        public tor.F_SIGNED_CERT_IN_CHAIN InstallationId;
-        public ield.ssionDenied IsGlobalModeEnabled; // 0x18
-        public dle<string> ScopeObserver; // 0x20
-        public aphy<bool> EnableScopeSync; // 0x28
-        public RGBA_ETC2_SRGB.ChangedAwaitWithCancellation`2 Transport; // 0x30
-        public bool ClientReportRecorder; // 0x38
-        public k SentryStackTraceFactory; // 0x40
-        public dle<IsPerformanceMonitoringEnabled.eforeSendTransaction>b__0> SentryVersion; // 0x48
-        public dle<?> ExceptionProcessors; // 0x50
-        public int TransactionProcessors; // 0x58
-        public URA.woDigitYearMax<8BCA7B5CC287C51E0E3E<?,dle<ntract>>> EventProcessors; // 0x60
-        public URA.woDigitYearMax<GetEventId> EventProcessorsProviders; // 0x68
-        public URA.woDigitYearMax<8BCA7B5CC287C51E0E3E<?,dle<qualityContract>>> TransactionProcessorsProviders; // 0x70
-        public URA.woDigitYearMax<ormation<URA.bbrevEraNames<qualityContract>>> ExceptionProcessorsProviders; // 0x78
-        public URA.woDigitYearMax<ormation<URA.bbrevEraNames<GetEventId>>> Integrations; // 0x80
-        public URA.woDigitYearMax<ormation<URA.bbrevEraNames<ntract>>> ExceptionFilters; // 0x88
-        public syncFileIO TagFilters; // 0x90
-        public URA.woDigitYearMax<icTypeExtensions> BackgroundWorker; // 0x98
-        public URA.tCalendarData<RGBA_ETC2_SRGB.ts> SentryHttpClientFactory; // 0xA0
-        public ield SentryScopeStateProcessor; // 0xA8
-        public ngField.em.Collections.Generic.IEnumerator<System.IConvertible>.get_Current InAppExclude; // 0xB0
-        public RGBA_ETC2_SRGB.1 InAppInclude; // 0xB8
-        public URA.woDigitYearMax<IsPerformanceMonitoringEnabled.Frames> SendDefaultPii; // 0xC0
-        public URA.woDigitYearMax<IsPerformanceMonitoringEnabled.Frames> IsEnvironmentUser; // 0xC8
-        public bool ServerName; // 0xD0
-        public bool AttachStacktrace; // 0xD1
-        public string MaxBreadcrumbs; // 0xD8
-        public bool SampleRate; // 0xE0
-        public int Release; // 0xE4
-        public aphy<float> Distribution; // 0xE8
-        public string Environment; // 0xF0
-        public string Dsn; // 0xF8
-        public string ParsedDsn; // 0x100
-        public string BeforeSendInternal; // 0x108
-        public RGBA_ETC2_SRGB.electManyAwait>b__314_0 BeforeSendTransactionInternal; // 0x110
-        public dle<string> BeforeBreadcrumbInternal; // 0x118
-        public nalInformation<RGBA_ETC2_SRGB.?,RGBA_ETC2_SRGB.tAsync>d__38`1,RGBA_ETC2_SRGB.?> MaxQueueItems; // 0x120
-        public nalInformation<RGBA_ETC2_SRGB.DiagnosticsMeters,RGBA_ETC2_SRGB.tAsync>d__38`1,RGBA_ETC2_SRGB.DiagnosticsMeters> MaxCacheItems; // 0x128
-        public nalInformation<RGBA_ETC2_SRGB.<AnyAsync>d__1`1,RGBA_ETC2_SRGB.tAsync>d__38`1,RGBA_ETC2_SRGB.<AnyAsync>d__1`1> ShutdownTimeout; // 0x130
-        public int FlushTimeout; // 0x138
-        public int DecompressionMethods; // 0x13C
-        public ializable.GetObjectData RequestBodyCompressionLevel; // 0x140
-        public ializable.GetObjectData RequestBodyCompressionBuffered; // 0x148
-        public ialized.tGrandParent SendClientReports; // 0x150
-        public rtsAdvancedSorting.Attribute HttpProxy; // 0x154
-        public bool CreateHttpMessageHandler; // 0x158
-        public bool ConfigureClient; // 0x159
-        public ialized.AddingCompleted Debug; // 0x160
-        public ormation<eHeaderAsync>d__29.?> DiagnosticLevel; // 0x168
-        public ileFullDirectoryInformation<eHeaderAsync>d__29.nContinuation> DiagnosticLogger; // 0x170
-        public bool ReportAssembliesMode; // 0x178
-        public RGBA_ETC2_SRGB.>d__23`1 DeduplicateMode; // 0x17A
-        public riteTo>b__2_0 CacheDirectoryPath; // 0x180
-        public RGBA_ETC2_SRGB.9__318_0 CaptureFailedRequests; // 0x188
-        public RGBA_ETC2_SRGB.Zip>b__471_0 FailedRequestStatusCodes; // 0x18C
-        public string FailedRequestTargets; // 0x190
-        public bool FileSystem; // 0x198
-        public URA.?<RGBA_ETC2_SRGB.107> DisableFileWrite; // 0x1A0
-        public dle<URA.?<RGBA_ETC2_SRGB.ts>> InitCacheFlushTimeout; // 0x1A8
-        public IsPerformanceMonitoringEnabled.ReportRecorder>b__0 DefaultTags; // 0x1B0
-        public bool IsPerformanceMonitoringEnabled; // 0x1B8
-        public ializable.GetObjectData IsProfilingEnabled; // 0x1C0
-        public aphy<bool> EnableTracing; // 0x1C8
-        public aphy<double> TracesSampleRate; // 0x1D0
-        public aphy<double> ProfilesSampleRate; // 0x1E0
-        public n<RGBA_ETC2_SRGB.nueTrace,aphy<double>> TracesSampler; // 0x1F0
-        public URA.?<RGBA_ETC2_SRGB.ts> TracePropagationTargets; // 0x1F8
-        public IsPerformanceMonitoringEnabled.rent TransactionProfilerFactory; // 0x200
-        public aphy<RGBA_ETC2_SRGB.aitAsync>d__5`3> StackTraceMode; // 0x208
-        public URA.woDigitYearMax<Internal.ICloneable<Sentry.Protocol.OperatingSystem>.Clone.Sentry.Internal.IUpdatable<Sentry.Protocol.OperatingSystem>.UpdateFrom> MaxAttachmentSize; // 0x210
-        public long DetectStartupTime; // 0x218
-        public RGBA_ETC2_SRGB.nter AutoSessionTrackingInterval; // 0x220
-        public ializable.GetObjectData AutoSessionTracking; // 0x228
-        public bool UseAsyncFileIO; // 0x230
-        public bool CrashedLastRun; // 0x231
-        public ormation<bool> Instrumenter; // 0x238
-        public RGBA_ETC2_SRGB.eratorCurrent JsonPreserveReferences; // 0x240
-        public ToStatsdType NetworkStatusListener; // 0x248
-        public n<string,swordRequiredToKickSession.igitalHandles> AssemblyReader; // 0x250
-        public RGBA_ETC2_SRGB.? ExperimentalMetrics; // 0x258
-        public string SpotlightUrl; // 0x260
-        public bool EnableSpotlight; // 0x268
-        public IsPerformanceMonitoringEnabled._AutoSessionTracking SettingLocator; // 0x270
-        public bool InitNativeSdks; // 0x278
-        public URA.woDigitYearMax<ileFullDirectoryInformation<RGBA_ETC2_SRGB.`2>> PostInitCallbacks; // 0x280
+        public object ScopeStackContainer;
+        public object InstallationId;
+        public object IsGlobalModeEnabled;
+        public object ScopeObserver;
+        public object EnableScopeSync;
+        public object Transport;
+        public object ClientReportRecorder;
+        public object SentryStackTraceFactory;
+        public object SentryVersion;
+        public object ExceptionProcessors;
+        public object TransactionProcessors;
+        public object EventProcessors;
+        public object EventProcessorsProviders;
+        public object TransactionProcessorsProviders;
+        public object ExceptionProcessorsProviders;
+        public object Integrations;
+        public object ExceptionFilters;
+        public object TagFilters;
+        public object BackgroundWorker;
+        public object SentryHttpClientFactory;
+        public object SentryScopeStateProcessor;
+        public object InAppExclude;
+        public object InAppInclude;
+        public object SendDefaultPii;
+        public object IsEnvironmentUser;
+        public object ServerName;
+        public object AttachStacktrace;
+        public object MaxBreadcrumbs;
+        public object SampleRate;
+        public object Release;
+        public object Distribution;
+        public object Environment;
+        public object Dsn;
+        public object ParsedDsn;
+        public object BeforeSendInternal;
+        public object BeforeSendTransactionInternal;
+        public object BeforeBreadcrumbInternal;
+        public object MaxQueueItems;
+        public object MaxCacheItems;
+        public object ShutdownTimeout;
+        public object FlushTimeout;
+        public object DecompressionMethods;
+        public object RequestBodyCompressionLevel;
+        public object RequestBodyCompressionBuffered;
+        public object SendClientReports;
+        public object HttpProxy;
+        public object CreateHttpMessageHandler;
+        public object ConfigureClient;
+        public object Debug;
+        public object DiagnosticLevel;
+        public object DiagnosticLogger;
+        public object ReportAssembliesMode;
+        public object DeduplicateMode;
+        public object CacheDirectoryPath;
+        public object CaptureFailedRequests;
+        public object FailedRequestStatusCodes;
+        public object FailedRequestTargets;
+        public object FileSystem;
+        public object DisableFileWrite;
+        public object InitCacheFlushTimeout;
+        public object DefaultTags;
+        public object IsPerformanceMonitoringEnabled;
+        public object IsProfilingEnabled;
+        public object EnableTracing;
+        public object TracesSampleRate;
+        public object ProfilesSampleRate;
+        public object TracesSampler;
+        public object TracePropagationTargets;
+        public object TransactionProfilerFactory;
+        public object StackTraceMode;
+        public object MaxAttachmentSize;
+        public object DetectStartupTime;
+        public object AutoSessionTrackingInterval;
+        public object AutoSessionTracking;
+        public object UseAsyncFileIO;
+        public object CrashedLastRun;
+        public object Instrumenter;
+        public object JsonPreserveReferences;
+        public object NetworkStatusListener;
+        public object AssemblyReader;
+        public object ExperimentalMetrics;
+        public object SpotlightUrl;
+        public object EnableSpotlight;
+        public object SettingLocator;
+        public object InitNativeSdks;
+        public object PostInitCallbacks;
 
         // ── Methods ──
         public void get_ScopeStackContainer(){} // RVA: 0x7FFD4E3447C0
@@ -413,7 +411,10 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentrySdk : Object
     {
-        public RGBA_ETC2_SRGB.`2 CurrentOptions;
+        public object CurrentOptions;
+        public object LastEventId;
+        public object IsEnabled;
+        public object Metrics;
 
         // ── Methods ──
         public void get_CurrentOptions(){} // RVA: 0x7FFD53F67A80
@@ -456,7 +457,7 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SentryValues`1 : Object
     {
-        public URA.bbrevEraNames<T1717641712> Values;
+        public object Values;
 
         // ── Methods ──
         public void get_Values(){} // RVA: 0x7FFD4E078E90
@@ -466,9 +467,7 @@ namespace ThirdParty.Sentry.Sentry
 
     public class SubstringOrRegexPattern : Object
     {
-        public tor.neStore Regex; // 0x10
-        public string _substring; // 0x18
-        public meZone _stringComparison; // 0x20
+        public object Regex;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2

@@ -7,12 +7,6 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 {
     public class ITilemap : Object
     {
-        public ÏÍÍÎÏÏÌÏÍ.? s_Instance;
-        public ÏÍÍÎÏÏÌÏÍ.ingField m_Tilemap; // 0x10
-        public bool m_AddToList; // 0x18
-        public int m_RefreshCount; // 0x1C
-        public ÍÎÏÎÎ.ÌÌ<lutionZ> m_RefreshPos; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341310
         public void RefreshTile(){} // RVA: 0x7FFD54E6BCC0
@@ -23,12 +17,12 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class Tile : TileBase
     {
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField sprite; // 0x18
-        public object color; // 0x20
-        public tSizeBias transform; // 0x30
-        public BuffersImpl gameObject; // 0x70
-        public ÏÍÍÎÏÏÌÏÍ.unContinuationsAsynchronously flags; // 0x78
-        public object colliderType; // 0x7C
+        public object sprite;
+        public object color;
+        public object transform;
+        public object gameObject;
+        public object flags;
+        public object colliderType;
 
         // ── Methods ──
         public void get_sprite(){} // RVA: 0x7FFD50CC1130
@@ -49,10 +43,6 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class TileAnimationData : ValueType
     {
-        public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField[] m_AnimatedSprites; // 0x10
-        public float m_AnimationSpeed; // 0x18
-        public float m_AnimationStartTime; // 0x1C
-        public ÏÍÍÎÏÏÌÏÍ.yReserveCompletionIfCancelable m_Flags; // 0x20
     }
 
     public class TileBase : ScriptableObject
@@ -71,21 +61,16 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class TileChangeData : ValueType
     {
-        public lutionZ m_Position; // 0x10
-        public object m_TileAsset; // 0x20
-        public object m_Color; // 0x28
-        public tSizeBias m_Transform; // 0x38
     }
 
     public class TileData : ValueType
     {
-        public int sprite; // 0x10
-        public object color; // 0x14
-        public tSizeBias transform; // 0x24
-        public int gameObject; // 0x64
-        public ÏÍÍÎÏÏÌÏÍ.unContinuationsAsynchronously flags; // 0x68
-        public object colliderType; // 0x6C
-        public ÏÍÍÎÏÏÌÏÍ.acity Default;
+        public object sprite;
+        public object color;
+        public object transform;
+        public object gameObject;
+        public object flags;
+        public object colliderType;
 
         // ── Methods ──
         public void set_sprite(){} // RVA: 0x7FFD54E71A40
@@ -100,19 +85,22 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class TileDataNative : ValueType
     {
-        public int m_Sprite; // 0x10
-        public object m_Color; // 0x14
-        public tSizeBias m_Transform; // 0x24
-        public int m_GameObject; // 0x64
-        public ÏÍÍÎÏÏÌÏÍ.unContinuationsAsynchronously m_Flags; // 0x68
-        public object m_ColliderType; // 0x6C
     }
 
     public class Tilemap : GridLayout
     {
-        public rectoryInformation<ÏÍÍÎÏÏÌÏÍ.ingField,inel[]> bufferSyncTile;
-        public rectoryInformation<ÏÍÍÎÏÏÌÏÍ.ingField,ÍÎÏÎÎ.ÌÌ<lutionZ>> layoutGrid; // 0x8
-        public bool cellBounds; // 0x18
+        public object bufferSyncTile;
+        public object layoutGrid;
+        public object cellBounds;
+        public object localBounds;
+        public object localFrameBounds;
+        public object animationFrameRate;
+        public object color;
+        public object origin;
+        public object size;
+        public object tileAnchor;
+        public object orientation;
+        public object orientationMatrix;
 
         // ── Methods ──
         public void add_tilemapTileChanged(){} // RVA: 0x7FFD54E6CA10

@@ -22,10 +22,6 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ExponentialRetryPolicy : Object
     {
-        public int m_BaseRetryDelay; // 0x10
-        public int m_MaxRetryDelay; // 0x14
-        public int m_ExponentialFactor; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FCD1250
         public void Invoke(){} // RVA: 0x7FFD54E02200

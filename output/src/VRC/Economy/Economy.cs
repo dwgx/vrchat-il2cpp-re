@@ -71,8 +71,8 @@ namespace VRC.Economy
 
     public class UdonProductsCategory : ScriptableObject
     {
-        public string Name; // 0x18
-        public lEffectAsset.buteForOutputEvent_Internal[] Products; // 0x20
+        public object Name;
+        public object Products;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4E3447C0

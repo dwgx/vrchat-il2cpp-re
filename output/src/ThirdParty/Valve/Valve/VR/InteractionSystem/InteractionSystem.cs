@@ -7,24 +7,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 {
     public class AllowTeleportWhileAttachedToHand : MonoBehaviour
     {
-        public bool teleportAllowed; // 0x20
-        public bool overrideHoverLock; // 0x21
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD540B6450
     }
 
     public class ArcheryTarget : MonoBehaviour
     {
-        public rScript.<GetCachedEnumData>b__2_5 onTakeDamage; // 0x20
-        public bool onceOnly; // 0x28
-        public object targetCenter; // 0x30
-        public object baseTransform; // 0x38
-        public object fallenDownTransform; // 0x40
-        public float fallTime; // 0x48
-        public float targetRadius;
-        public bool targetEnabled; // 0x4C
-
         // ── Methods ──
         public void ApplyDamage(){} // RVA: 0x7FFD5411DD20
         public void FireExposure(){} // RVA: 0x7FFD5411DD20
@@ -35,30 +23,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Arrow : MonoBehaviour
     {
-        public InDuration glintParticle; // 0x20
-        public Touched arrowHeadRB; // 0x28
-        public Touched shaftRB; // 0x30
-        public th targetPhysMaterial; // 0x38
-        public amut prevPosition; // 0x40
-        public R_12x12 prevRotation; // 0x4C
-        public amut prevVelocity; // 0x5C
-        public amut prevHeadPosition; // 0x68
-        public Source_Map.n fireReleaseSound; // 0x78
-        public Source_Map.n airReleaseSound; // 0x80
-        public Source_Map.n hitTargetSound; // 0x88
-        public Source_Map._DefaultBinding hitGroundSound; // 0x90
-        public bool inFlight; // 0x98
-        public bool released; // 0x99
-        public bool hasSpreadFire; // 0x9A
-        public int travelledFrames; // 0x9C
-        public BuffersImpl scaleParentObject; // 0xA0
-        public float initialMass; // 0xA8
-        public float initialDrag; // 0xAC
-        public float initialAngularDrag; // 0xB0
-        public kAtPositionInternal_Injected initialInterpolation; // 0xB4
-        public imeAnimatorController initialCollisionDetection; // 0xB8
-        public bool initialUseGravity; // 0xBC
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5411E2E0
         public void Start(){} // RVA: 0x7FFD5411E570
@@ -74,25 +38,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ArrowHand : MonoBehaviour
     {
-        public Source_Map.ÌÎ hand; // 0x20
-        public Source_Map.meraMask bow; // 0x28
-        public BuffersImpl currentArrow; // 0x30
-        public BuffersImpl arrowPrefab; // 0x38
-        public object arrowNockTransform; // 0x40
-        public float nockDistance; // 0x48
-        public float lerpCompleteDistance; // 0x4C
-        public float rotationLerpThreshold; // 0x50
-        public float positionLerpThreshold; // 0x54
-        public bool allowArrowSpawn; // 0x58
-        public bool nocked; // 0x59
-        public Source_Map.lastAxis nockedWithType; // 0x5C
-        public bool inNockRange; // 0x60
-        public bool arrowLerpComplete; // 0x61
-        public Source_Map.n arrowSpawnSound; // 0x68
-        public Source_Map.blendPct allowTeleport; // 0x70
-        public int maxArrowCount; // 0x78
-        public URA.woDigitYearMax<BuffersImpl> arrowList; // 0x80
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54121E50
         public void OnAttachedToHand(){} // RVA: 0x7FFD54121FB0
@@ -117,22 +62,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Balloon : MonoBehaviour
     {
-        public Source_Map.ÌÎ hand; // 0x20
-        public BuffersImpl popPrefab; // 0x28
-        public float maxVelocity; // 0x30
-        public float lifetime; // 0x34
-        public bool burstOnLifetimeEnd; // 0x38
-        public BuffersImpl lifetimeEndParticlePrefab; // 0x40
-        public Source_Map.n lifetimeEndSound; // 0x48
-        public float destructTime; // 0x50
-        public float releaseTime; // 0x54
-        public Source_Map.n collisionSound; // 0x58
-        public float lastSoundTime; // 0x60
-        public float soundDelay; // 0x64
-        public Touched balloonRigidbody; // 0x68
-        public bool bParticlesSpawned; // 0x70
-        public float s_flLastDeathSound;
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54124480
         public void Update(){} // RVA: 0x7FFD54124640
@@ -147,11 +76,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class BalloonColliders : MonoBehaviour
     {
-        public BuffersImpl[] colliders; // 0x20
-        public amut[] colliderLocalPositions; // 0x28
-        public R_12x12[] colliderLocalRotations; // 0x30
-        public Touched rb; // 0x38
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD541257E0
         public void OnEnable(){} // RVA: 0x7FFD54125D90
@@ -162,8 +86,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class BalloonHapticBump : MonoBehaviour
     {
-        public BuffersImpl physParent; // 0x20
-
         // ── Methods ──
         public void OnCollisionEnter(){} // RVA: 0x7FFD541266D0
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -171,22 +93,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class BalloonSpawner : MonoBehaviour
     {
-        public float minSpawnTime; // 0x20
-        public float maxSpawnTime; // 0x24
-        public float nextSpawnTime; // 0x28
-        public BuffersImpl balloonPrefab; // 0x30
-        public bool autoSpawn; // 0x38
-        public bool spawnAtStartup; // 0x39
-        public bool playSounds; // 0x3A
-        public Source_Map.n inflateSound; // 0x40
-        public Source_Map.n stretchSound; // 0x48
-        public bool sendSpawnMessageToParent; // 0x50
-        public float scale; // 0x54
-        public object spawnDirectionTransform; // 0x58
-        public float spawnForce; // 0x60
-        public bool attachBalloon; // 0x64
-        public ialNumber color; // 0x68
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54126910
         public void Update(){} // RVA: 0x7FFD54126A30
@@ -197,9 +103,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class BodyCollider : MonoBehaviour
     {
-        public object head; // 0x20
-        public ovrp_Media_DestroyCustomCameraAnchor capsuleCollider; // 0x28
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540DB090
         public void FixedUpdate(){} // RVA: 0x7FFD540DB120
@@ -208,12 +111,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ChaperoneInfo : MonoBehaviour
     {
-        public bool initialized; // 0x20
-        public float playAreaSizeX; // 0x24
-        public float playAreaSizeZ; // 0x28
-        public bool roomscale; // 0x2C
-        public 5EC78E8E02279FB1266932E3468A575B0EB9818985DBE9468B991CCE instance;
-        public Source_Map.ng _instance; // 0x8
+        public object initialized;
+        public object playAreaSizeX;
+        public object playAreaSizeZ;
+        public object roomscale;
+        public object instance;
 
         // ── Methods ──
         public void get_initialized(){} // RVA: 0x7FFD4E42F9D0
@@ -233,47 +135,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class CircularDrive : MonoBehaviour
     {
-        public yData axisOfRotation; // 0x20
-        public riteCharacterUnicode childCollider; // 0x28
-        public Source_Map.itializeHelperLists>b__0 linearMapping; // 0x30
-        public bool hoverLock; // 0x38
-        public bool limited; // 0x39
-        public tionX frozenDistanceMinMaxThreshold; // 0x3C
-        public rScript.<GetCachedEnumData>b__2_5 onFrozenDistanceThreshold; // 0x48
-        public float minAngle; // 0x50
-        public bool freezeOnMin; // 0x54
-        public rScript.<GetCachedEnumData>b__2_5 onMinAngle; // 0x58
-        public float maxAngle; // 0x60
-        public bool freezeOnMax; // 0x64
-        public rScript.<GetCachedEnumData>b__2_5 onMaxAngle; // 0x68
-        public bool forceStart; // 0x70
-        public float startAngle; // 0x74
-        public bool rotateGameObject; // 0x78
-        public bool debugPath; // 0x79
-        public int dbgPathLimit; // 0x7C
-        public ED54E9924CA80D32FD85A52A959E03 debugText; // 0x80
-        public float outAngle; // 0x88
-        public R_12x12 start; // 0x8C
-        public amut worldPlaneNormal; // 0x9C
-        public amut localPlaneNormal; // 0xA8
-        public amut lastHandProjected; // 0xB4
-        public object red; // 0xC0
-        public object green; // 0xD0
-        public BuffersImpl[] dbgHandObjects; // 0xE0
-        public BuffersImpl[] dbgProjObjects; // 0xE8
-        public BuffersImpl dbgObjectsParent; // 0xF0
-        public int dbgObjectCount; // 0xF8
-        public int dbgObjectIndex; // 0xFC
-        public bool driving; // 0x100
-        public float minMaxAngularThreshold; // 0x104
-        public bool frozen; // 0x108
-        public float frozenAngle; // 0x10C
-        public amut frozenHandWorldPos; // 0x110
-        public tionX frozenSqDistanceMinMaxThreshold; // 0x11C
-        public Source_Map.ÌÎ handHoverLocked; // 0x128
-        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0x130
-        public Source_Map.lastAxis grabbedWithType; // 0x138
-
         // ── Methods ──
         public void Freeze(){} // RVA: 0x7FFD540DB450
         public void UnFreeze(){} // RVA: 0x7FFD540DB520
@@ -296,15 +157,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ComplexThrowable : MonoBehaviour
     {
-        public float attachForce; // 0x20
-        public float attachForceDamper; // 0x24
-        public tFingerForBone attachMode; // 0x28
-        public x attachmentFlags; // 0x2C
-        public URA.woDigitYearMax<Source_Map.ÌÎ> holdingHands; // 0x30
-        public URA.woDigitYearMax<Touched> holdingBodies; // 0x38
-        public URA.woDigitYearMax<amut> holdingPoints; // 0x40
-        public URA.woDigitYearMax<Touched> rigidBodies; // 0x48
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540DEAD0
         public void Update(){} // RVA: 0x7FFD540DEB50
@@ -319,27 +171,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ControllerButtonHints : MonoBehaviour
     {
-        public atrix_Injected usingMaterial; // 0x20
-        public atrix_Injected initialized; // 0x28
-        public object flashColor; // 0x30
-        public BuffersImpl textHintPrefab; // 0x40
-        public edStringT hapticFlash; // 0x48
-        public bool autoSetWithControllerRangeOfMotion; // 0x50
-        public bool debugHints; // 0x51
-        public onnected renderModel; // 0x58
-        public Source_Map.Î player; // 0x60
-        public URA.woDigitYearMax<terialIndex> renderers; // 0x68
-        public URA.woDigitYearMax<terialIndex> flashingRenderers; // 0x70
-        public float startTime; // 0x78
-        public float tickCount; // 0x7C
-        public URA.DateTime<Id,shot> actionHintInfos; // 0x80
-        public object textHintParent; // 0x88
-        public int colorID; // 0x90
-        public bool <initialized>k__BackingField; // 0x94
-        public amut centerPosition; // 0x98
-        public ÎÌÍÏÏÌÍÏ renderModelLoadedAction; // 0xA8
-        public 2EA1BA7A405A72DE inputSource; // 0xB0
-        public URA.DateTime<string,?> componentTransformMap; // 0xB8
+        public object usingMaterial;
+        public object initialized;
 
         // ── Methods ──
         public void get_usingMaterial(){} // RVA: 0x7FFD4E36F0C0
@@ -379,12 +212,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ControllerHoverHighlight : MonoBehaviour
     {
-        public atrix_Injected highLightMaterial; // 0x20
-        public bool fireHapticsOnHightlight; // 0x28
-        public Source_Map.ÌÎ hand; // 0x30
-        public Source_Map.nAxis renderModel; // 0x38
-        public ÎÌÍÏÏÌÍÏ renderModelLoadedAction; // 0x40
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540E04C0
         public void OnHandInitialized(){} // RVA: 0x7FFD540E0550
@@ -404,8 +231,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class DebugUI : MonoBehaviour
     {
-        public Source_Map.Î instance; // 0x20
-        public Source_Map.inkyDistal _instance;
+        public object instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD540E16C0
@@ -423,8 +249,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class DestroyOnParticleSystemDeath : MonoBehaviour
     {
-        public InDuration particles; // 0x20
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540E1A10
         public void CheckParticleSystem(){} // RVA: 0x7FFD540E1AD0
@@ -433,9 +257,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class DestroyOnTriggerEnter : MonoBehaviour
     {
-        public string tagFilter; // 0x20
-        public bool useTag; // 0x28
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD540E1BD0
         public void OnTriggerEnter(){} // RVA: 0x7FFD540E1BF0
@@ -444,11 +265,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class DistanceHaptics : MonoBehaviour
     {
-        public object firstTransform; // 0x20
-        public object secondTransform; // 0x28
-        public ÍÎÌÍÍÌÌÎÏÏ distanceIntensityCurve; // 0x30
-        public ÍÎÌÍÍÌÌÎÏÏ pulseIntervalCurve; // 0x38
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD540E1E90
         public void .ctor(){} // RVA: 0x7FFD540E1F30
@@ -469,10 +285,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Equippable : MonoBehaviour
     {
-        public ?[] attachedHandType; // 0x20
-        public Source_Map.eleton_FingerSplayIndexEnum defaultHand; // 0x28
-        public amut initialScale; // 0x2C
-        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0x38
+        public object attachedHandType;
 
         // ── Methods ──
         public void get_attachedHandType(){} // RVA: 0x7FFD540E24F0
@@ -490,13 +303,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class FallbackCameraController : MonoBehaviour
     {
-        public float speed; // 0x20
-        public float shiftSpeed; // 0x24
-        public bool showInstructions; // 0x28
-        public amut startEulerAngles; // 0x2C
-        public amut startMousePosition; // 0x38
-        public float realTime; // 0x44
-
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFD540E2B60
         public void Update(){} // RVA: 0x7FFD540E2BC0
@@ -506,18 +312,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class FireSource : MonoBehaviour
     {
-        public BuffersImpl fireParticlePrefab; // 0x20
-        public bool startActive; // 0x28
-        public BuffersImpl fireObject; // 0x30
-        public InDuration customParticles; // 0x38
-        public bool isBurning; // 0x40
-        public float burnTime; // 0x44
-        public float ignitionDelay; // 0x48
-        public float ignitionTime; // 0x4C
-        public Source_Map.ÌÎ hand; // 0x50
-        public t ignitionSound; // 0x58
-        public bool canSpreadFromThisSource; // 0x60
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD541276E0
         public void Update(){} // RVA: 0x7FFD541276F0
@@ -529,51 +323,15 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Hand : MonoBehaviour
     {
-        public x AttachedObjects;
-        public Source_Map.ÌÎ hoverLocked; // 0x20
-        public 2EA1BA7A405A72DE isActive; // 0x28
-        public dStageParamsOffset isPoseValid; // 0x30
-        public or hoveringInteractable; // 0x38
-        public or currentAttachedObject; // 0x40
-        public edStringT currentAttachedObjectInfo; // 0x48
-        public or currentAttachedTeleportManager; // 0x50
-        public bool skeleton; // 0x58
-        public object hoverSphereTransform; // 0x60
-        public float hoverSphereRadius; // 0x68
-        public object hoverLayerMask; // 0x6C
-        public float hoverUpdateInterval; // 0x70
-        public bool useControllerHoverComponent; // 0x74
-        public string controllerHoverComponent; // 0x78
-        public float controllerHoverRadius; // 0x80
-        public bool useFingerJointHover; // 0x84
-        public mSyncPlayable fingerJointHover; // 0x88
-        public float fingerJointHoverRadius; // 0x8C
-        public object objectAttachmentPoint; // 0x90
-        public ÌÎÌÏÍÏÌÏÌÌÌÌÏÌÌÌÌÎÎÎÍ noSteamVRFallbackCamera; // 0x98
-        public float noSteamVRFallbackMaxDistanceNoItem; // 0xA0
-        public float noSteamVRFallbackMaxDistanceWithItem; // 0xA4
-        public float noSteamVRFallbackInteractorDistance; // 0xA8
-        public BuffersImpl renderModelPrefab; // 0xB0
-        public URA.woDigitYearMax<Source_Map.nAxis> renderModels; // 0xB8
-        public Source_Map.nAxis mainRenderModel; // 0xC0
-        public Source_Map.nAxis hoverhighlightRenderModel; // 0xC8
-        public bool showDebugText; // 0xD0
-        public bool spewDebugText; // 0xD1
-        public bool showDebugInteractables; // 0xD2
-        public URA.woDigitYearMax<_auxs> attachedObjects; // 0xD8
-        public bool <hoverLocked>k__BackingField; // 0xE0
-        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ _hoveringInteractable; // 0xE8
-        public ED54E9924CA80D32FD85A52A959E03 debugText; // 0xF0
-        public int prevOverlappingColliders; // 0xF8
-        public int ColliderArraySize;
-        public riteCharacterUnicode[] overlappingColliders; // 0x100
-        public Source_Map.Î playerInstance; // 0x108
-        public BuffersImpl applicationLostFocusObject; // 0x110
-        public ÎÌÍÏÏÌÍÏ inputFocusAction; // 0x118
-        public float MaxVelocityChange;
-        public float VelocityMagic;
-        public float AngularVelocityMagic;
-        public float MaxAngularVelocityChange;
+        public object AttachedObjects;
+        public object hoverLocked;
+        public object isActive;
+        public object isPoseValid;
+        public object hoveringInteractable;
+        public object currentAttachedObject;
+        public object currentAttachedObjectInfo;
+        public object currentAttachedTeleportManager;
+        public object skeleton;
 
         // ── Methods ──
         public void get_AttachedObjects(){} // RVA: 0x7FFD540E3670
@@ -650,27 +408,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class HandCollider : MonoBehaviour
     {
-        public Touched rigidbody; // 0x20
-        public Source_Map._BackingField hand; // 0x28
-        public object collisionMask; // 0x30
-        public riteCharacterUnicode[] colliders; // 0x38
-        public atedEvent fingerColliders; // 0x40
-        public th physicMaterial_lowfriction;
-        public th physicMaterial_highfriction; // 0x8
-        public float scale; // 0x48
-        public amut center; // 0x4C
-        public amut targetPosition; // 0x58
-        public R_12x12 targetRotation; // 0x64
-        public float MaxVelocityChange;
-        public float VelocityMagic;
-        public float AngularVelocityMagic;
-        public float MaxAngularVelocityChange;
-        public bool collidersInRadius; // 0x74
-        public float minCollisionEnergy;
-        public float maxCollisionEnergy;
-        public float minCollisionHapticsTime;
-        public float lastCollisionHapticsTime; // 0x78
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540F55E0
         public void Start(){} // RVA: 0x7FFD540F56C0
@@ -688,29 +425,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class HandPhysics : MonoBehaviour
     {
-        public Source_Map.ionBlend handColliderPrefab; // 0x20
-        public Source_Map.ionBlend handCollider; // 0x28
-        public object clearanceCheckMask; // 0x30
-        public Source_Map.ÌÎ hand; // 0x38
-        public float handResetDistance;
-        public float collisionReenableClearanceRadius;
-        public bool initialized; // 0x40
-        public bool collisionsEnabled; // 0x41
-        public tSizeBias wristToRoot; // 0x44
-        public tSizeBias rootToArmature; // 0x84
-        public tSizeBias wristToArmature; // 0xC4
-        public amut targetPosition; // 0x104
-        public R_12x12 targetRotation; // 0x110
-        public int wristBone;
-        public int rootBone;
-        public riteCharacterUnicode[] clearanceBuffer; // 0x120
-        public object wrist; // 0x128
-        public int thumbBone;
-        public int indexBone;
-        public int middleBone;
-        public int ringBone;
-        public int pinkyBone;
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD540F74E0
         public void FixedUpdate(){} // RVA: 0x7FFD540F7BB0
@@ -725,14 +439,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class HapticRack : MonoBehaviour
     {
-        public Source_Map.itializeHelperLists>b__0 linearMapping; // 0x20
-        public int teethCount; // 0x28
-        public int minimumPulseDuration; // 0x2C
-        public int maximumPulseDuration; // 0x30
-        public rScript.<GetCachedEnumData>b__2_5 onPulse; // 0x38
-        public Source_Map.ÌÎ hand; // 0x40
-        public int previousToothIndex; // 0x48
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD540FA0A0
         public void OnHandHoverBegin(){} // RVA: 0x7FFD4E369200
@@ -751,22 +457,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class HoverButton : MonoBehaviour
     {
-        public object movingPart; // 0x20
-        public amut localMoveDistance; // 0x28
-        public float engageAtPercent; // 0x34
-        public float disengageAtPercent; // 0x38
-        public Source_Map.RangeOfMotionBlend onButtonDown; // 0x40
-        public Source_Map.RangeOfMotionBlend onButtonUp; // 0x48
-        public Source_Map.RangeOfMotionBlend onButtonIsPressed; // 0x50
-        public bool engaged; // 0x58
-        public bool buttonDown; // 0x59
-        public bool buttonUp; // 0x5A
-        public amut startPosition; // 0x5C
-        public amut endPosition; // 0x68
-        public amut handEnteredPosition; // 0x74
-        public bool hovering; // 0x80
-        public Source_Map.ÌÎ lastHoveredHand; // 0x88
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD540FA500
         public void HandHoverUpdate(){} // RVA: 0x7FFD540FA7D0
@@ -777,8 +467,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class IgnoreHovering : MonoBehaviour
     {
-        public Source_Map.ÌÎ onlyIgnoreHand; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
@@ -791,8 +479,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class InputModule : BaseInputModule
     {
-        public BuffersImpl instance; // 0x58
-        public Source_Map.p _instance;
+        public object instance;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD540FB150
@@ -806,37 +493,10 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Interactable : MonoBehaviour
     {
-        public PayloadVector hoveringHand; // 0x20
-        public bool isDestroying; // 0x28
-        public bool isHovering; // 0x29
-        public bool wasHovering; // 0x2A
-        public int handAnimationOnPickup; // 0x2C
-        public veStationsBytes setRangeOfMotionOnPickup; // 0x30
-        public GetVector2ActionFromPath onAttachedToHand; // 0x38
-        public GetVector3ActionFromPath onDetachedFromHand; // 0x40
-        public bool useHandObjectAttachmentPoint; // 0x48
-        public bool attachEaseIn; // 0x49
-        public ÍÎÌÍÍÌÌÎÏÏ snapAttachEaseInCurve; // 0x50
-        public float snapAttachEaseInTime; // 0x58
-        public bool snapAttachEaseInCompleted; // 0x5C
-        public anEvent skeletonPoser; // 0x60
-        public bool handFollowTransform; // 0x68
-        public bool highlightOnHover; // 0x69
-        public terialIndex[] highlightRenderers; // 0x70
-        public terialIndex[] existingRenderers; // 0x78
-        public BuffersImpl highlightHolder; // 0x80
-        public ure[] highlightSkinnedRenderers; // 0x88
-        public ure[] existingSkinnedRenderers; // 0x90
-        public atrix_Injected highlightMat;
-        public BuffersImpl[] hideHighlight; // 0x98
-        public int hoverPriority; // 0xA0
-        public Source_Map.ÌÎ attachedToHand; // 0xA8
-        public URA.woDigitYearMax<Source_Map.ÌÎ> hoveringHands; // 0xB0
-        public bool <isDestroying>k__BackingField; // 0xB8
-        public bool <isHovering>k__BackingField; // 0xB9
-        public bool <wasHovering>k__BackingField; // 0xBA
-        public float blendToPoseTime; // 0xBC
-        public float releasePoseBlendTime; // 0xC0
+        public object hoveringHand;
+        public object isDestroying;
+        public object isHovering;
+        public object wasHovering;
 
         // ── Methods ──
         public void add_onAttachedToHand(){} // RVA: 0x7FFD540FB7C0
@@ -868,17 +528,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class InteractableDebug : MonoBehaviour
     {
-        public Source_Map.ÌÎ isThrowable; // 0x20
-        public float simulateReleasesForXSecondsAroundRelease; // 0x28
-        public float simulateReleasesEveryXSeconds; // 0x2C
-        public bool setPositionsForSimulations; // 0x30
-        public rical[] selfRenderers; // 0x38
-        public riteCharacterUnicode[] colliders; // 0x40
-        public object lastColor; // 0x48
-        public Source_Map.tValues throwable; // 0x58
-        public bool onlyColorOnChange;
-        public Touched rigidbody; // 0x60
-        public bool isSimulation; // 0x68
+        public object isThrowable;
 
         // ── Methods ──
         public void get_isThrowable(){} // RVA: 0x7FFD540FEB00
@@ -898,11 +548,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class InteractableHoverEvents : MonoBehaviour
     {
-        public rScript.<GetCachedEnumData>b__2_5 onHandHoverBegin; // 0x20
-        public rScript.<GetCachedEnumData>b__2_5 onHandHoverEnd; // 0x28
-        public rScript.<GetCachedEnumData>b__2_5 onAttachedToHand; // 0x30
-        public rScript.<GetCachedEnumData>b__2_5 onDetachedFromHand; // 0x38
-
         // ── Methods ──
         public void OnHandHoverBegin(){} // RVA: 0x7FFD54100460
         public void OnHandHoverEnd(){} // RVA: 0x7FFD54100480
@@ -913,42 +558,19 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ItemPackage : MonoBehaviour
     {
-        public string name; // 0x20
-        public itializeFile packageType; // 0x28
-        public BuffersImpl itemPrefab; // 0x30
-        public BuffersImpl otherHandItemPrefab; // 0x38
-        public BuffersImpl previewPrefab; // 0x40
-        public BuffersImpl fadedPreviewPrefab; // 0x48
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class ItemPackageReference : MonoBehaviour
     {
-        public Source_Map.ryBeenModified itemPackage; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class ItemPackageSpawner : MonoBehaviour
     {
-        public Source_Map.ryBeenModified itemPackage; // 0x20
-        public bool useItemPackagePreview; // 0x28
-        public bool useFadedPreview; // 0x29
-        public BuffersImpl previewObject; // 0x30
-        public bool requireGrabActionToTake; // 0x38
-        public bool requireReleaseActionToReturn; // 0x39
-        public bool showTriggerHint; // 0x3A
-        public x attachmentFlags; // 0x3C
-        public bool takeBackItem; // 0x40
-        public bool acceptDifferentItems; // 0x41
-        public BuffersImpl spawnedItem; // 0x48
-        public bool itemIsSpawned; // 0x50
-        public rScript.<GetCachedEnumData>b__2_5 pickupEvent; // 0x58
-        public rScript.<GetCachedEnumData>b__2_5 dropEvent; // 0x60
-        public bool justPickedUpItem; // 0x68
+        public object itemPackage;
 
         // ── Methods ──
         public void get_itemPackage(){} // RVA: 0x7FFD4E36F0C0
@@ -972,12 +594,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearAnimation : MonoBehaviour
     {
-        public Source_Map.itializeHelperLists>b__0 linearMapping; // 0x20
-        public usInEvent>b__10_0 animation; // 0x28
-        public 821 animState; // 0x30
-        public float animLength; // 0x38
-        public float lastValue; // 0x3C
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD541025C0
         public void Update(){} // RVA: 0x7FFD54102A70
@@ -986,11 +602,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearAnimator : MonoBehaviour
     {
-        public Source_Map.itializeHelperLists>b__0 linearMapping; // 0x20
-        public stfix animator; // 0x28
-        public float currentLinearMapping; // 0x30
-        public int framesUnchanged; // 0x34
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54102AD0
         public void Update(){} // RVA: 0x7FFD54102D80
@@ -999,13 +610,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearAudioPitch : MonoBehaviour
     {
-        public Source_Map.itializeHelperLists>b__0 linearMapping; // 0x20
-        public ÍÎÌÍÍÌÌÎÏÏ pitchCurve; // 0x28
-        public float minPitch; // 0x30
-        public float maxPitch; // 0x34
-        public bool applyContinuously; // 0x38
-        public t audioSource; // 0x40
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54102EB0
         public void Update(){} // RVA: 0x7FFD54103100
@@ -1015,10 +619,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearBlendshape : MonoBehaviour
     {
-        public Source_Map.itializeHelperLists>b__0 linearMapping; // 0x20
-        public ure skinnedMesh; // 0x28
-        public float lastValue; // 0x30
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54103330
         public void Update(){} // RVA: 0x7FFD54103580
@@ -1027,10 +627,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearDisplacement : MonoBehaviour
     {
-        public amut displacement; // 0x20
-        public Source_Map.itializeHelperLists>b__0 linearMapping; // 0x30
-        public amut initialPosition; // 0x38
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54103660
         public void Update(){} // RVA: 0x7FFD54103850
@@ -1039,21 +635,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearDrive : MonoBehaviour
     {
-        public object startPosition; // 0x20
-        public object endPosition; // 0x28
-        public Source_Map.itializeHelperLists>b__0 linearMapping; // 0x30
-        public bool repositionGameObject; // 0x38
-        public bool maintainMomemntum; // 0x39
-        public float momemtumDampenRate; // 0x3C
-        public x attachmentFlags; // 0x40
-        public float initialMappingOffset; // 0x44
-        public int numMappingChangeSamples; // 0x48
-        public float[] mappingChangeSamples; // 0x50
-        public float prevMapping; // 0x58
-        public float mappingChangeRate; // 0x5C
-        public int sampleCount; // 0x60
-        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0x68
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54103A30
         public void Start(){} // RVA: 0x7FFD54103B50
@@ -1069,60 +650,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class LinearMapping : MonoBehaviour
     {
-        public float value; // 0x20
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E341D50
     }
 
     public class Longbow : MonoBehaviour
     {
-        public ld currentHandGuess; // 0x20
-        public float timeOfPossibleHandSwitch; // 0x24
-        public float timeBeforeConfirmingHandSwitch; // 0x28
-        public bool possibleHandSwitch; // 0x2C
-        public object pivotTransform; // 0x30
-        public object handleTransform; // 0x38
-        public Source_Map.ÌÎ hand; // 0x40
-        public Source_Map.OfRange arrowHand; // 0x48
-        public object nockTransform; // 0x50
-        public object nockRestTransform; // 0x58
-        public bool autoSpawnArrowHand; // 0x60
-        public Source_Map.ryBeenModified arrowHandItemPackage; // 0x68
-        public BuffersImpl arrowHandPrefab; // 0x70
-        public bool nocked; // 0x78
-        public bool pulled; // 0x79
-        public float minPull;
-        public float maxPull;
-        public float nockDistanceTravelled; // 0x7C
-        public float hapticDistanceThreshold; // 0x80
-        public float lastTickDistance; // 0x84
-        public float bowPullPulseStrengthLow;
-        public float bowPullPulseStrengthHigh;
-        public amut bowLeftVector; // 0x88
-        public float arrowMinVelocity; // 0x94
-        public float arrowMaxVelocity; // 0x98
-        public float arrowVelocity; // 0x9C
-        public float minStrainTickTime; // 0xA0
-        public float maxStrainTickTime; // 0xA4
-        public float nextStrainTick; // 0xA8
-        public bool lerpBackToZeroRotation; // 0xAC
-        public float lerpStartTime; // 0xB0
-        public float lerpDuration; // 0xB4
-        public R_12x12 lerpStartRotation; // 0xB8
-        public float nockLerpStartTime; // 0xC8
-        public R_12x12 nockLerpStartRotation; // 0xCC
-        public float drawOffset; // 0xDC
-        public Source_Map.itializeHelperLists>b__0 bowDrawLinearMapping; // 0xE0
-        public amut lateUpdatePos; // 0xE8
-        public R_12x12 lateUpdateRot; // 0xF4
-        public Source_Map.ActionSet drawSound; // 0x108
-        public float drawTension; // 0x110
-        public Source_Map.n arrowSlideSound; // 0x118
-        public Source_Map.n releaseSound; // 0x120
-        public Source_Map.n nockSound; // 0x128
-        public ÎÌÍÏÏÌÍÏ newPosesAppliedAction; // 0x130
-
         // ── Methods ──
         public void OnAttachedToHand(){} // RVA: 0x7FFD4E369200
         public void HandAttachedUpdate(){} // RVA: 0x7FFD54128120
@@ -1145,9 +678,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class ModalThrowable : Throwable
     {
-        public object gripOffset; // 0xC0
-        public object pinchOffset; // 0xC8
-
         // ── Methods ──
         public void HandHoverUpdate(){} // RVA: 0x7FFD54104BA0
         public void HandAttachedUpdate(){} // RVA: 0x7FFD54104C90
@@ -1156,28 +686,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class PlaySound : MonoBehaviour
     {
-        public ies[] waveFile; // 0x20
-        public bool stopOnPlay; // 0x28
-        public bool disableOnEnd; // 0x29
-        public bool looping; // 0x2A
-        public bool stopOnEnd; // 0x2B
-        public bool playOnAwakeWithDelay; // 0x2C
-        public bool useRandomVolume; // 0x2D
-        public float volMin; // 0x30
-        public float volMax; // 0x34
-        public bool useRandomPitch; // 0x38
-        public float pitchMin; // 0x3C
-        public float pitchMax; // 0x40
-        public bool useRetriggerTime; // 0x44
-        public float timeInitial; // 0x48
-        public float timeMin; // 0x4C
-        public float timeMax; // 0x50
-        public bool useRandomSilence; // 0x54
-        public float percentToNotPlay; // 0x58
-        public float delayOffsetTime; // 0x5C
-        public t audioSource; // 0x60
-        public ies clip; // 0x68
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54107D00
         public void Play(){} // RVA: 0x7FFD54107FE0
@@ -1192,16 +700,15 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Player : MonoBehaviour
     {
-        public object instance; // 0x20
-        public ?[] handCount; // 0x28
-        public Source_Map.ÌÎ[] leftHand; // 0x30
-        public riteCharacterUnicode rightHand; // 0x38
-        public BuffersImpl scale; // 0x40
-        public BuffersImpl hmdTransform; // 0x48
-        public object eyeHeight; // 0x50
-        public or feetPositionGuess; // 0x58
-        public bool bodyDirectionGuess; // 0x60
-        public Source_Map.Î _instance;
+        public object instance;
+        public object handCount;
+        public object leftHand;
+        public object rightHand;
+        public object scale;
+        public object hmdTransform;
+        public object eyeHeight;
+        public object feetPositionGuess;
+        public object bodyDirectionGuess;
 
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7FFD54105020
@@ -1226,23 +733,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class RenderModel : MonoBehaviour
     {
-        public BuffersImpl GetSkeletonRangeOfMotion; // 0x20
-        public BuffersImpl handInstance; // 0x28
-        public rical[] handRenderers; // 0x30
-        public bool displayHandByDefault; // 0x38
-        public viousIndex handSkeleton; // 0x40
-        public stfix handAnimator; // 0x48
-        public string animatorParameterStateName; // 0x50
-        public int handAnimatorStateId; // 0x58
-        public BuffersImpl controllerPrefab; // 0x60
-        public BuffersImpl controllerInstance; // 0x68
-        public rical[] controllerRenderers; // 0x70
-        public onnected controllerRenderModel; // 0x78
-        public bool displayControllerByDefault; // 0x80
-        public atrix_Injected delayedSetMaterial; // 0x88
-        public ÎÌÍÏÏÌÍÏ onControllerLoaded; // 0x90
-        public ÎÌÍÏÏÌÍÏ renderModelLoadedAction; // 0x98
-        public 2EA1BA7A405A72DE inputSource; // 0xA0
+        public object GetSkeletonRangeOfMotion;
 
         // ── Methods ──
         public void add_onControllerLoaded(){} // RVA: 0x7FFD54108910
@@ -1290,12 +781,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SeeThru : MonoBehaviour
     {
-        public atrix_Injected seeThruMaterial; // 0x20
-        public BuffersImpl seeThru; // 0x28
-        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0x30
-        public rical sourceRenderer; // 0x38
-        public rical destRenderer; // 0x40
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5410C950
         public void OnEnable(){} // RVA: 0x7FFD5410DB50
@@ -1315,24 +800,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SnapTurn : MonoBehaviour
     {
-        public float snapAngle; // 0x20
-        public bool showTurnAnimation; // 0x24
-        public t snapTurnSource; // 0x28
-        public ies rotateSound; // 0x30
-        public BuffersImpl rotateRightFX; // 0x38
-        public BuffersImpl rotateLeftFX; // 0x40
-        public or snapLeftAction; // 0x48
-        public or snapRightAction; // 0x50
-        public bool fadeScreen; // 0x58
-        public float fadeTime; // 0x5C
-        public object screenFadeColor; // 0x60
-        public float distanceFromFace; // 0x70
-        public amut additionalOffset; // 0x74
-        public float teleportLastActiveTime;
-        public bool canRotate; // 0x80
-        public float canTurnEverySeconds; // 0x84
-        public ts rotateCoroutine; // 0x88
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5412A450
         public void AllOff(){} // RVA: 0x7FFD5412A460
@@ -1346,12 +813,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SoundBowClick : MonoBehaviour
     {
-        public ies bowClick; // 0x20
-        public ÍÎÌÍÍÌÌÎÏÏ pitchTensionCurve; // 0x28
-        public float minPitch; // 0x30
-        public float maxPitch; // 0x34
-        public t thisAudioSource; // 0x38
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5412A2C0
         public void PlayBowTensionClicks(){} // RVA: 0x7FFD5412A350
@@ -1360,9 +821,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SoundDeparent : MonoBehaviour
     {
-        public bool destroyAfterPlayOnce; // 0x20
-        public t thisAudioSource; // 0x28
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5410E670
         public void Start(){} // RVA: 0x7FFD5410E700
@@ -1371,14 +829,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SoundPlayOneshot : MonoBehaviour
     {
-        public ies[] waveFiles; // 0x20
-        public t thisAudioSource; // 0x28
-        public float volMin; // 0x30
-        public float volMax; // 0x34
-        public float pitchMin; // 0x38
-        public float pitchMax; // 0x3C
-        public bool playOnAwake; // 0x40
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5410E910
         public void Play(){} // RVA: 0x7FFD5410E9B0
@@ -1389,9 +839,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SpawnAndAttachAfterControllerIsTracking : MonoBehaviour
     {
-        public Source_Map.ÌÎ hand; // 0x20
-        public BuffersImpl itemPrefab; // 0x28
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5410EDF0
         public void Update(){} // RVA: 0x7FFD5410EE80
@@ -1400,9 +847,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class SpawnAndAttachToHand : MonoBehaviour
     {
-        public Source_Map.ÌÎ hand; // 0x20
-        public BuffersImpl prefab; // 0x28
-
         // ── Methods ──
         public void SpawnAndAttach(){} // RVA: 0x7FFD5410F160
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -1410,86 +854,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Teleport : MonoBehaviour
     {
-        public or instance; // 0x20
-        public object traceLayerMask; // 0x28
-        public object floorFixupTraceLayerMask; // 0x2C
-        public float floorFixupMaximumTraceDistance; // 0x30
-        public atrix_Injected areaVisibleMaterial; // 0x38
-        public atrix_Injected areaLockedMaterial; // 0x40
-        public atrix_Injected areaHighlightedMaterial; // 0x48
-        public atrix_Injected pointVisibleMaterial; // 0x50
-        public atrix_Injected pointLockedMaterial; // 0x58
-        public atrix_Injected pointHighlightedMaterial; // 0x60
-        public object destinationReticleTransform; // 0x68
-        public object invalidReticleTransform; // 0x70
-        public BuffersImpl playAreaPreviewCorner; // 0x78
-        public BuffersImpl playAreaPreviewSide; // 0x80
-        public object pointerValidColor; // 0x88
-        public object pointerInvalidColor; // 0x98
-        public object pointerLockedColor; // 0xA8
-        public bool showPlayAreaMarker; // 0xB8
-        public float teleportFadeTime; // 0xBC
-        public float meshFadeTime; // 0xC0
-        public float arcDistance; // 0xC4
-        public object onActivateObjectTransform; // 0xC8
-        public object onDeactivateObjectTransform; // 0xD0
-        public float activateObjectTime; // 0xD8
-        public float deactivateObjectTime; // 0xDC
-        public t pointerAudioSource; // 0xE0
-        public t loopingAudioSource; // 0xE8
-        public t headAudioSource; // 0xF0
-        public t reticleAudioSource; // 0xF8
-        public ies teleportSound; // 0x100
-        public ies pointerStartSound; // 0x108
-        public ies pointerLoopSound; // 0x110
-        public ies pointerStopSound; // 0x118
-        public ies goodHighlightSound; // 0x120
-        public ies badHighlightSound; // 0x128
-        public bool debugFloor; // 0x130
-        public bool showOffsetReticle; // 0x131
-        public object offsetReticleTransform; // 0x138
-        public terialIndex floorDebugSphere; // 0x140
-        public acktrace floorDebugLine; // 0x148
-        public acktrace pointerLineRenderer; // 0x150
-        public BuffersImpl teleportPointerObject; // 0x158
-        public object pointerStartTransform; // 0x160
-        public Source_Map.ÌÎ pointerHand; // 0x168
-        public Source_Map.Î player; // 0x170
-        public Source_Map.erModels>5__3 teleportArc; // 0x178
-        public bool visible; // 0x180
-        public Source_Map.itorAppKey[] teleportMarkers; // 0x188
-        public Source_Map.itorAppKey pointedAtTeleportMarker; // 0x190
-        public Source_Map.itorAppKey teleportingToMarker; // 0x198
-        public amut pointedAtPosition; // 0x1A0
-        public amut prevPointedAtPosition; // 0x1AC
-        public bool teleporting; // 0x1B8
-        public float currentFadeTime; // 0x1BC
-        public float meshAlphaPercent; // 0x1C0
-        public float pointerShowStartTime; // 0x1C4
-        public float pointerHideStartTime; // 0x1C8
-        public bool meshFading; // 0x1CC
-        public float fullTintAlpha; // 0x1D0
-        public float invalidReticleMinScale; // 0x1D4
-        public float invalidReticleMaxScale; // 0x1D8
-        public float invalidReticleMinScaleDistance; // 0x1DC
-        public float invalidReticleMaxScaleDistance; // 0x1E0
-        public amut invalidReticleScale; // 0x1E4
-        public R_12x12 invalidReticleTargetRotation; // 0x1F0
-        public object playAreaPreviewTransform; // 0x200
-        public ?[] playAreaPreviewCorners; // 0x208
-        public ?[] playAreaPreviewSides; // 0x210
-        public float loopingAudioMaxVolume; // 0x218
-        public ts hintCoroutine; // 0x220
-        public bool originalHoverLockState; // 0x228
-        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ originalHoveringInteractable; // 0x230
-        public Source_Map.blendPct allowTeleportWhileAttached; // 0x238
-        public amut startingFeetOffset; // 0x240
-        public bool movedFeetFarEnough; // 0x24C
-        public ÎÌÍÏÏÌÍÏ chaperoneInfoInitializedAction; // 0x250
-        public ed<float> ChangeScene;
-        public ed<Source_Map.itorAppKey> Player; // 0x8
-        public ed<Source_Map.itorAppKey> PlayerPre; // 0x10
-        public Source_Map.icles.Aeroplane _instance; // 0x18
+        public object instance;
 
         // ── Methods ──
         public void ChangeSceneAction(){} // RVA: 0x7FFD5412CEF0
@@ -1530,25 +895,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportArc : MonoBehaviour
     {
-        public int segmentCount; // 0x20
-        public float thickness; // 0x24
-        public float arcDuration; // 0x28
-        public float segmentBreak; // 0x2C
-        public float arcSpeed; // 0x30
-        public atrix_Injected material; // 0x38
-        public int traceLayerMask; // 0x40
-        public acktrace[] lineRenderers; // 0x48
-        public float arcTimeOffset; // 0x50
-        public float prevThickness; // 0x54
-        public int prevSegmentCount; // 0x58
-        public bool showArc; // 0x5C
-        public amut startPos; // 0x60
-        public amut projectileVelocity; // 0x6C
-        public bool useGravity; // 0x78
-        public object arcObjectsTransfrom; // 0x80
-        public bool arcInvalid; // 0x88
-        public float scale; // 0x8C
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD54137510
         public void Update(){} // RVA: 0x7FFD54137570
@@ -1567,13 +913,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportArea : TeleportMarkerBase
     {
-        public stments meshBounds; // 0x28
-        public terialIndex areaMesh; // 0x40
-        public int tintColorId; // 0x48
-        public object visibleTintColor; // 0x4C
-        public object highlightedTintColor; // 0x5C
-        public object lockedTintColor; // 0x6C
-        public bool highlighted; // 0x7C
+        public object meshBounds;
 
         // ── Methods ──
         public void get_meshBounds(){} // RVA: 0x7FFD4FF91360
@@ -1593,8 +933,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportMarkerBase : MonoBehaviour
     {
-        public bool showReticle; // 0x20
-        public bool markerActive; // 0x21
+        public object showReticle;
 
         // ── Methods ──
         public void get_showReticle(){} // RVA: 0x7FFD4E426850
@@ -1610,31 +949,7 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class TeleportPoint : TeleportMarkerBase
     {
-        public R_TrackedCamera showReticle; // 0x28
-        public string title; // 0x30
-        public string switchToScene; // 0x38
-        public object titleVisibleColor; // 0x40
-        public object titleHighlightedColor; // 0x50
-        public object titleLockedColor; // 0x60
-        public bool playerSpawnPoint; // 0x70
-        public bool gotReleventComponents; // 0x71
-        public terialIndex markerMesh; // 0x78
-        public terialIndex switchSceneIcon; // 0x80
-        public terialIndex moveLocationIcon; // 0x88
-        public terialIndex lockedIcon; // 0x90
-        public terialIndex pointIcon; // 0x98
-        public object lookAtJointTransform; // 0xA0
-        public usInEvent>b__10_0 animation; // 0xA8
-        public ePathName117.? titleText; // 0xB0
-        public Source_Map.Î player; // 0xB8
-        public amut lookAtPosition; // 0xC0
-        public int tintColorID; // 0xCC
-        public object tintColor; // 0xD0
-        public object titleColor; // 0xE0
-        public float fullTitleAlpha; // 0xF0
-        public string switchSceneAnimation;
-        public string moveLocationAnimation;
-        public string lockedAnimation;
+        public object showReticle;
 
         // ── Methods ──
         public void get_showReticle(){} // RVA: 0x7FFD4E341320
@@ -1662,28 +977,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Throwable : MonoBehaviour
     {
-        public x attachmentFlags; // 0x20
-        public object attachmentOffset; // 0x28
-        public float catchingSpeedThreshold; // 0x30
-        public Source_Map.mVR_Input_BindingFile_Source_Input releaseVelocityStyle; // 0x34
-        public float releaseVelocityTimeOffset; // 0x38
-        public float scaleReleaseVelocity; // 0x3C
-        public float scaleReleaseVelocityThreshold; // 0x40
-        public ÍÎÌÍÍÌÌÎÏÏ scaleReleaseVelocityCurve; // 0x48
-        public bool restoreOriginalParent; // 0x50
-        public Source_Map.oser velocityEstimator; // 0x58
-        public bool attached; // 0x60
-        public float attachTime; // 0x64
-        public amut attachPosition; // 0x68
-        public R_12x12 attachRotation; // 0x74
-        public object attachEaseInTransform; // 0x88
-        public rScript.<GetCachedEnumData>b__2_5 onPickUp; // 0x90
-        public rScript.<GetCachedEnumData>b__2_5 onDetachFromHand; // 0x98
-        public Source_Map.RangeOfMotionBlend onHeldUpdate; // 0xA0
-        public kAtPositionInternal_Injected hadInterpolation; // 0xA8
-        public Touched rigidbody; // 0xB0
-        public Source_Map.ÍÎÍÎÍÎÎÏÎÌÏÍ interactable; // 0xB8
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5410F320
         public void OnHandHoverBegin(){} // RVA: 0x7FFD5410F5B0
@@ -1701,9 +994,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class UIElement : MonoBehaviour
     {
-        public l onHandClick; // 0x20
-        public Source_Map.ÌÎ currentHand; // 0x28
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD54110CB0
         public void OnHandHoverBegin(){} // RVA: 0x7FFD54110E00
@@ -1715,8 +1005,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Unparent : MonoBehaviour
     {
-        public object oldParent; // 0x20
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD541115D0
         public void Update(){} // RVA: 0x7FFD54111880
@@ -1726,17 +1014,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class Util : Object
     {
-        public float FeetToMeters;
-        public float FeetToCentimeters;
-        public float InchesToMeters;
-        public float InchesToCentimeters;
-        public float MetersToFeet;
-        public float MetersToInches;
-        public float CentimetersToFeet;
-        public float CentimetersToInches;
-        public float KilometersToMiles;
-        public float MilesToKilometers;
-
         // ── Methods ──
         public void RemapNumber(){} // RVA: 0x7FFD541119B0
         public void RemapNumberClamped(){} // RVA: 0x7FFD541119D0
@@ -1784,14 +1061,6 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 
     public class VelocityEstimator : MonoBehaviour
     {
-        public int velocityAverageFrames; // 0x20
-        public int angularVelocityAverageFrames; // 0x24
-        public bool estimateOnAwake; // 0x28
-        public ts routine; // 0x30
-        public int sampleCount; // 0x38
-        public amut[] velocitySamples; // 0x40
-        public amut[] angularVelocitySamples; // 0x48
-
         // ── Methods ──
         public void BeginEstimatingVelocity(){} // RVA: 0x7FFD541148D0
         public void FinishEstimatingVelocity(){} // RVA: 0x7FFD541149F0

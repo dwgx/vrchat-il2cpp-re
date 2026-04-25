@@ -13,7 +13,7 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class Debugger : Object
     {
-        public string IsAttached;
+        public object IsAttached;
 
         // ── Methods ──
         public void get_IsAttached(){} // RVA: 0x7FFD539AD780
@@ -27,9 +27,8 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class DiagEnumerator`1 : ValueType
     {
-        public ernal_index_icall.nentTypeHashToInstance<T1717743664> Current;
-        public ernal_index_icall.nentTypeHashToInstance<T1717743664> System.Collections.IEnumerator.Current;
-        public ernal_index_icall.nentTypeHashToInstance<T1717743664> _currentNode;
+        public object Current;
+        public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -43,17 +42,12 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class DiagNode`1 : Object
     {
-        public T1717743648 Value;
-        public ernal_index_icall.nentTypeHashToInstance<T1717743648> Next;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     }
 
     public class ExceptionExtensions : Object
     {
-        public m.WmiGuidObject stackTraceString;
-
         // ── Methods ──
         public void SetStackTracesString(){} // RVA: 0x7FFD5400A650
         public void Demystify(){} // RVA: 0x7FFD4E2ADC40
@@ -63,17 +57,6 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class StackFrame : Object
     {
-        public int OFFSET_UNKNOWN;
-        public int ilOffset; // 0x10
-        public int nativeOffset; // 0x14
-        public long methodAddress; // 0x18
-        public uint methodIndex; // 0x20
-        public m.countEnterpriseAdminsSid methodBase; // 0x28
-        public string fileName; // 0x30
-        public int lineNumber; // 0x38
-        public int columnNumber; // 0x3C
-        public string internalMethodName; // 0x40
-
         // ── Methods ──
         public void get_frame_info(){} // RVA: 0x7FFD539AD8F0
         public void .ctor(){} // RVA: 0x7FFD539AD9B0 | overloaded x3
@@ -92,13 +75,7 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class StackTrace : Object
     {
-        public int FrameCount;
-        public string prefix;
-        public ernal_index_icall.Name[] frames; // 0x10
-        public ernal_index_icall.parable`1[] captured_traces; // 0x18
-        public bool debug_info; // 0x20
-        public bool isAotidSet;
-        public string aotid; // 0x8
+        public object FrameCount;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x11
@@ -138,8 +115,7 @@ namespace ThirdParty.DotNet.System.Diagnostics
 
     public class SynchronizedList`1 : Object
     {
-        public URA.woDigitYearMax<T1717743632> Count;
-        public uint _version;
+        public object Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980

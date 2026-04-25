@@ -7,35 +7,34 @@ namespace ThirdParty.Other.Transmtn.DTO.Notifications
 {
     public class Notification : Object
     {
-        public string id; // 0x10
-        public int version; // 0x18
-        public string type; // 0x20
-        public string descriptor; // 0x28
-        public string category; // 0x30
-        public bool isSystem; // 0x38
-        public string senderUserId; // 0x40
-        public string senderUsername; // 0x48
-        public string receiverUserId; // 0x50
-        public string relatedNotificationsId; // 0x58
-        public itTypeSize=876 title; // 0x60
-        public itTypeSize=876 message; // 0x88
-        public string imageUrl; // 0xB0
-        public string link; // 0xB8
-        public itTypeSize=876 linkText; // 0xC0
-        public URA.DateTime<string,string> data; // 0xE8
-        public URA.DateTime<string,object>[] responses; // 0xF0
-        public DependencyInjector expiresAt; // 0xF8
-        public aphy<int> expiryAfterSeen; // 0x100
-        public bool requireSeen; // 0x108
-        public bool seen; // 0x109
-        public bool ignoreDND; // 0x10A
-        public bool canDelete; // 0x10B
-        public DependencyInjector createdAt; // 0x110
-        public DependencyInjector updatedAt; // 0x118
-        public DependencyInjector notificationType; // 0x120
-        public set1744 created_at; // 0x128
-        public object payload; // 0x130
-        public t<string,object>[] _notificationDataTuples;
+        public object id;
+        public object version;
+        public object type;
+        public object descriptor;
+        public object category;
+        public object isSystem;
+        public object senderUserId;
+        public object senderUsername;
+        public object receiverUserId;
+        public object relatedNotificationsId;
+        public object title;
+        public object message;
+        public object imageUrl;
+        public object link;
+        public object linkText;
+        public object data;
+        public object responses;
+        public object expiresAt;
+        public object expiryAfterSeen;
+        public object requireSeen;
+        public object seen;
+        public object ignoreDND;
+        public object canDelete;
+        public object createdAt;
+        public object updatedAt;
+        public object notificationType;
+        public object created_at;
+        public object payload;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD574FEA40 | overloaded x2

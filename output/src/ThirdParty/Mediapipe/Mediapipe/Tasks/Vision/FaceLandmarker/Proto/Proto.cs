@@ -7,9 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 {
     public class FaceBlendshapesGraphOptions : Object
     {
-        public gBox.itionBlend<et_Executor.t> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public nceFieldNumber.rdio pb::Google.Protobuf.IMessage.Descriptor; // 0x18
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object BaseOptions;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53723B60
@@ -32,15 +33,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 
     public class FaceLandmarkerGraphOptions : Object
     {
-        public gBox.itionBlend<et_Executor.r_> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public nceFieldNumber.rdio BaseOptions; // 0x20
-        public ionId.ns FaceDetectorGraphOptions; // 0x28
-        public et_Executor.rgeFields FaceLandmarksDetectorGraphOptions; // 0x30
-        public float MinTrackingConfidence; // 0x8
-        public float HasMinTrackingConfidence; // 0x38
-        public _HasRightX.MergeFields FaceGeometryGraphOptions; // 0x40
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object BaseOptions;
+        public object FaceDetectorGraphOptions;
+        public object FaceLandmarksDetectorGraphOptions;
+        public object MinTrackingConfidence;
+        public object HasMinTrackingConfidence;
+        public object FaceGeometryGraphOptions;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD537256A0
@@ -73,15 +74,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker.Proto
 
     public class FaceLandmarksDetectorGraphOptions : Object
     {
-        public gBox.itionBlend<et_Executor.rgeFields> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public nceFieldNumber.rdio BaseOptions; // 0x20
-        public float MinDetectionConfidence; // 0x8
-        public float HasMinDetectionConfidence; // 0x28
-        public bool SmoothLandmarks; // 0xC
-        public bool HasSmoothLandmarks; // 0x2C
-        public et_Executor.t FaceBlendshapesGraphOptions; // 0x30
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object BaseOptions;
+        public object MinDetectionConfidence;
+        public object HasMinDetectionConfidence;
+        public object SmoothLandmarks;
+        public object HasSmoothLandmarks;
+        public object FaceBlendshapesGraphOptions;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53727860

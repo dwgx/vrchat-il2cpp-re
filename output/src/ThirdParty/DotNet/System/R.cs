@@ -7,15 +7,6 @@ namespace ThirdParty.DotNet.System
 {
     public class Random : Object
     {
-        public int MBIG;
-        public int MSEED;
-        public int MZ;
-        public int _inext; // 0x10
-        public int _inextp; // 0x14
-        public int[] _seedArray; // 0x18
-        public object t_threadRandom; // 0xFFFFFFFF
-        public object s_globalRandom;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A67650 | overloaded x2
         public void Sample(){} // RVA: 0x7FFD53A67880
@@ -31,8 +22,8 @@ namespace ThirdParty.DotNet.System
 
     public class Range : ValueType
     {
-        public ÏÏÍÏÏÍÌÏÏÌÎÍÏÍÌÌÏ Start; // 0x10
-        public ÏÏÍÏÏÍÌÏÏÌÎÍÏÍÌÌÏ End; // 0x14
+        public object Start;
+        public object End;
 
         // ── Methods ──
         public void get_Start(){} // RVA: 0x7FFD4F840210
@@ -44,10 +35,10 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlyMemory`1 : ValueType
     {
-        public object Empty; // 0x10
-        public int Length; // 0x18
-        public int IsEmpty; // 0x1C
-        public int Span;
+        public object Empty;
+        public object Length;
+        public object IsEmpty;
+        public object Span;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090A40 | overloaded x3
@@ -67,8 +58,10 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
-        public et<string> Item; // 0x10
-        public int Length; // 0x18
+        public object Item;
+        public object Length;
+        public object IsEmpty;
+        public object Empty;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E097970 | overloaded x4
@@ -103,7 +96,7 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeFieldHandle : ValueType
     {
-        public UIntPtr Value; // 0x10
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53AC2B30 | overloaded x2
@@ -118,7 +111,7 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeMethodHandle : ValueType
     {
-        public UIntPtr Value; // 0x10
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53AC3050 | overloaded x2
@@ -132,27 +125,31 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeType : TypeInfo
     {
-        public r Module;
-        public r Assembly; // 0x8
-        public r TypeHandle; // 0x10
-        public r BaseType; // 0x18
-        public r UnderlyingSystemType; // 0x20
-        public ?[] IsEnum; // 0x28
-        public nalInformation<?,?[],?> GenericParameterAttributes; // 0x30
-        public m.unt IsSzArray;
-        public m.unt IsGenericTypeDefinition;
-        public m.unt IsGenericParameter;
-        public m.unt GenericParameterPosition;
-        public m.unt IsGenericType;
-        public m.unt IsConstructedGenericType;
-        public m.unt MemberType;
-        public m.unt ReflectedType;
-        public m.unt MetadataToken;
-        public r ContainsGenericParameters; // 0x38
-        public IsContextful GUID; // 0x18
-        public object DeclaringMethod; // 0x20
-        public m.FreeBSTR AssemblyQualifiedName; // 0x28
-        public int DeclaringType;
+        public object Module;
+        public object Assembly;
+        public object TypeHandle;
+        public object BaseType;
+        public object UnderlyingSystemType;
+        public object IsEnum;
+        public object GenericParameterAttributes;
+        public object IsSzArray;
+        public object IsGenericTypeDefinition;
+        public object IsGenericParameter;
+        public object GenericParameterPosition;
+        public object IsGenericType;
+        public object IsConstructedGenericType;
+        public object MemberType;
+        public object ReflectedType;
+        public object MetadataToken;
+        public object ContainsGenericParameters;
+        public object GUID;
+        public object DeclaringMethod;
+        public object AssemblyQualifiedName;
+        public object DeclaringType;
+        public object Name;
+        public object Namespace;
+        public object FullName;
+        public object IsSZArray;
 
         // ── Methods ──
         public void GetType(){} // RVA: 0x7FFD53A9FEB0
@@ -298,7 +295,7 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeTypeHandle : ValueType
     {
-        public UIntPtr Value; // 0x10
+        public object Value;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53AC36E0 | overloaded x3

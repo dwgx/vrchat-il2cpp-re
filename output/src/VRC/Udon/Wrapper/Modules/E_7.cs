@@ -2882,9 +2882,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCInstantiate : Object
     {
-        public dle<URA.DateTime<string,int>> Name; // 0x10
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x18
-        public et_realtimeLightmapScaleOffset_Injected _filter; // 0x20
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB75EC0

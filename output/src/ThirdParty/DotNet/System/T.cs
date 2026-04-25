@@ -38,29 +38,17 @@ namespace ThirdParty.DotNet.System
 
     public class TimeSpan : ValueType
     {
-        public long Ticks;
-        public double Days;
-        public long Hours;
-        public double Milliseconds;
-        public long Minutes;
-        public double Seconds;
-        public long TotalDays;
-        public double TotalHours;
-        public long TotalMilliseconds;
-        public double TotalMinutes;
-        public int TotalSeconds;
-        public int MillisPerMinute;
-        public int MillisPerHour;
-        public int MillisPerDay;
-        public long MaxSeconds;
-        public long MinSeconds;
-        public long MaxMilliSeconds;
-        public long MinMilliSeconds;
-        public long TicksPerTenthSecond;
-        public ializable.GetObjectData Zero;
-        public ializable.GetObjectData MaxValue; // 0x8
-        public ializable.GetObjectData MinValue; // 0x10
-        public long _ticks; // 0x10
+        public object Ticks;
+        public object Days;
+        public object Hours;
+        public object Milliseconds;
+        public object Minutes;
+        public object Seconds;
+        public object TotalDays;
+        public object TotalHours;
+        public object TotalMilliseconds;
+        public object TotalMinutes;
+        public object TotalSeconds;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A6EE80 | overloaded x4
@@ -113,35 +101,15 @@ namespace ThirdParty.DotNet.System
 
     public class TimeZoneInfo : Object
     {
-        public string HaveRegistry;
-        public string Id;
-        public string DisplayName;
-        public string StandardName;
-        public string DaylightName;
-        public string BaseUtcOffset;
-        public string SupportsDaylightSavingTime;
-        public string Local;
-        public string Utc;
-        public string LastEntryValue;
-        public int MaxKeyLength;
-        public dle<bool> lazyHaveRegistry;
-        public uint TIME_ZONE_ID_INVALID;
-        public uint ERROR_NO_MORE_ITEMS;
-        public string _id; // 0x10
-        public string _displayName; // 0x18
-        public string _standardDisplayName; // 0x20
-        public string _daylightDisplayName; // 0x28
-        public ializable.GetObjectData _baseUtcOffset; // 0x30
-        public bool _supportsDaylightSavingTime; // 0x38
-        public ositionInfo[] _adjustmentRules; // 0x40
-        public string UtcId;
-        public string LocalId;
-        public F5C5AE2947D800794ECD5F752EE8381073C2E5D0D095FDA040F541702F3 s_utcTimeZone; // 0x8
-        public Template s_cachedData; // 0x10
-        public DependencyInjector s_maxDateOnly; // 0x18
-        public DependencyInjector s_minDateOnly; // 0x20
-        public ializable.GetObjectData MaxOffset; // 0x28
-        public ializable.GetObjectData MinOffset; // 0x30
+        public object HaveRegistry;
+        public object Id;
+        public object DisplayName;
+        public object StandardName;
+        public object DaylightName;
+        public object BaseUtcOffset;
+        public object SupportsDaylightSavingTime;
+        public object Local;
+        public object Utc;
 
         // ── Methods ──
         public void GetAdjustmentRules(){} // RVA: 0x7FFD539116A0
@@ -237,8 +205,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
-        public utes.Token<utes.on> Item1; // 0x10
-        public utes.Line Item2; // 0x18
+        public object Item1;
+        public object Item2;
+        public object System.Runtime.CompilerServices.ITuple.Length;
 
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x7FFD4E2ADC40
@@ -257,9 +226,10 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`3 : Object
     {
-        public T1717584720 Item1;
-        public T1717584736 Item2;
-        public T1717584752 Item3;
+        public object Item1;
+        public object Item2;
+        public object Item3;
+        public object System.Runtime.CompilerServices.ITuple.Length;
 
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x7FFD4E2ADC40
@@ -279,10 +249,11 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`4 : Object
     {
-        public T1717584768 Item1;
-        public T1717584784 Item2;
-        public T1717584800 Item3;
-        public T1717584816 Item4;
+        public object Item1;
+        public object Item2;
+        public object Item3;
+        public object Item4;
+        public object System.Runtime.CompilerServices.ITuple.Length;
 
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x7FFD4E2ADC40
@@ -303,16 +274,74 @@ namespace ThirdParty.DotNet.System
 
     public class Type : MemberInfo
     {
-        public m.? IsSerializable;
-        public char ContainsGenericParameters; // 0x8
-        public ?[] IsVisible; // 0x10
-        public object MemberType; // 0x18
-        public m.UInt32 Namespace; // 0x20
-        public m.UInt32 AssemblyQualifiedName; // 0x28
-        public m.UInt32 FullName; // 0x30
-        public m.unt Assembly;
-        public d Module; // 0x10
-        public string IsNested;
+        public object IsSerializable;
+        public object ContainsGenericParameters;
+        public object IsVisible;
+        public object MemberType;
+        public object Namespace;
+        public object AssemblyQualifiedName;
+        public object FullName;
+        public object Assembly;
+        public object Module;
+        public object IsNested;
+        public object DeclaringType;
+        public object DeclaringMethod;
+        public object ReflectedType;
+        public object UnderlyingSystemType;
+        public object IsArray;
+        public object IsByRef;
+        public object IsPointer;
+        public object IsConstructedGenericType;
+        public object IsGenericParameter;
+        public object IsGenericMethodParameter;
+        public object IsGenericType;
+        public object IsGenericTypeDefinition;
+        public object IsSZArray;
+        public object IsVariableBoundArray;
+        public object HasElementType;
+        public object GenericTypeArguments;
+        public object GenericParameterPosition;
+        public object GenericParameterAttributes;
+        public object Attributes;
+        public object IsAbstract;
+        public object IsImport;
+        public object IsSealed;
+        public object IsSpecialName;
+        public object IsClass;
+        public object IsNestedAssembly;
+        public object IsNestedFamANDAssem;
+        public object IsNestedFamily;
+        public object IsNestedFamORAssem;
+        public object IsNestedPrivate;
+        public object IsNestedPublic;
+        public object IsNotPublic;
+        public object IsPublic;
+        public object IsAutoLayout;
+        public object IsExplicitLayout;
+        public object IsLayoutSequential;
+        public object IsAnsiClass;
+        public object IsAutoClass;
+        public object IsUnicodeClass;
+        public object IsCOMObject;
+        public object IsContextful;
+        public object IsCollectible;
+        public object IsEnum;
+        public object IsMarshalByRef;
+        public object IsPrimitive;
+        public object IsValueType;
+        public object IsSignatureType;
+        public object IsSecurityCritical;
+        public object IsSecuritySafeCritical;
+        public object IsSecurityTransparent;
+        public object TypeHandle;
+        public object GUID;
+        public object BaseType;
+        public object DefaultBinder;
+        public object IsSzArray;
+        public object IsInterface;
+        public object FullNameOrDefault;
+        public object InternalNameIfAvailable;
+        public object NameOrDefault;
 
         // ── Methods ──
         public void IsEnumDefined(){} // RVA: 0x7FFD53A71560
@@ -461,9 +490,7 @@ namespace ThirdParty.DotNet.System
 
     public class TypedReference : ValueType
     {
-        public d IsNull; // 0x10
-        public UIntPtr Value; // 0x18
-        public UIntPtr Type; // 0x20
+        public object IsNull;
 
         // ── Methods ──
         public void MakeTypedReference(){} // RVA: 0x7FFD53AAF850

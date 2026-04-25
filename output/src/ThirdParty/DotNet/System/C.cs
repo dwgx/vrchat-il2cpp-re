@@ -13,16 +13,6 @@ namespace ThirdParty.DotNet.System
 
     public class Char : ValueType
     {
-        public char m_value; // 0x10
-        public char MaxValue;
-        public char MinValue;
-        public byte[] s_categoryForLatin1;
-        public int UNICODE_PLANE00_END;
-        public int UNICODE_PLANE01_START;
-        public int UNICODE_PLANE16_END;
-        public int HIGH_SURROGATE_START;
-        public int LOW_SURROGATE_END;
-
         // ── Methods ──
         public void IsLatin1(){} // RVA: 0x7FFD5392EDE0
         public void IsAscii(){} // RVA: 0x7FFD5392EDF0
@@ -85,9 +75,8 @@ namespace ThirdParty.DotNet.System
 
     public class CharEnumerator : Object
     {
-        public string System.Collections.IEnumerator.Current; // 0x10
-        public int Current; // 0x18
-        public char _currentElement; // 0x1C
+        public object System.Collections.IEnumerator.Current;
+        public object Current;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53932DD0 | overloaded x2
@@ -105,12 +94,6 @@ namespace ThirdParty.DotNet.System
 
     public class Convert : Object
     {
-        public sbyte[] s_decodingMap;
-        public ?[] ConvertTypes; // 0x8
-        public object EnumType; // 0x10
-        public char[] base64Table; // 0x18
-        public object DBNull; // 0x20
-
         // ── Methods ──
         public void TryDecodeFromUtf16(){} // RVA: 0x7FFD53932E00
         public void Decode(){} // RVA: 0x7FFD53933170
@@ -165,10 +148,6 @@ namespace ThirdParty.DotNet.System
 
     public class CultureAwareComparer : StringComparer
     {
-        public 0.gManifestResourceException ValidCompareMaskOffFlags;
-        public 0.AManaged _compareInfo; // 0x10
-        public 0.gManifestResourceException _options; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53A6D940 | overloaded x3
         public void Compare(){} // RVA: 0x7FFD53A6DC40

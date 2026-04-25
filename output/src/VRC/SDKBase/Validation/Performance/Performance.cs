@@ -28,8 +28,6 @@ namespace VRC.SDKBase.Validation.Performance
 
     public class PerformanceFilterSet : ScriptableObject
     {
-        public sitionOnly[] performanceFilters; // 0x18
-
         // ── Methods ──
         public void ApplyPerformanceFilters(){} // RVA: 0x7FFD574A62C0
         public void .ctor(){} // RVA: 0x7FFD4E54F5F0

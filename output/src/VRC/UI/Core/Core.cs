@@ -7,10 +7,6 @@ namespace VRC.UI.Core
 {
     public class FoldoutStateService : Object
     {
-        public string ÍÌÌÎÏÏÏÌÎÏÌÏÌÎÏÎÏÏÏÌÎÎÎ;
-        public URA.onsDepth<int> ÏÌÌÍÍÌÏÏÍÎÍÌÏÌÎÎÌÏÍÎÍÌÎ;
-        public URA.DateTime<int,ÏÏÎÏÍÎÍÏÌÎÏÎ<bool>> ÎÌÎÍÎÎÍÏÌÎÏÎÌÎÍÎÎÌÏÏÌÌÎ; // 0x8
-
         // ── Methods ──
         public void StaticInitialize(){} // RVA: 0x7FFD56DBC180
         public void Equals(){} // RVA: 0x7FFD56DBC280
@@ -21,7 +17,7 @@ namespace VRC.UI.Core
 
     public class UIElement : MonoBehaviour
     {
-        public nableAutomaticResync _uIElement; // 0x20
+        public object _uIElement;
 
         // ── Methods ──
         public void SetCurrentSocket(){} // RVA: 0x7FFD4E36F0D0
@@ -37,7 +33,7 @@ namespace VRC.UI.Core
 
     public class UIManager : MonoBehaviour
     {
-        public _1.AutoPlay _uIManager;
+        public object _uIManager;
 
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD56658CC0

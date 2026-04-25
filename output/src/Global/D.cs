@@ -13,38 +13,10 @@ public class DESEncryption : Object
 
 public class DYNAMIC_TIME_ZONE_INFORMATION : ValueType
 {
-    public 7627802C21F7681A2553BBC40FDD07FCA3F52FAB662EE65B6F90 TZI; // 0x10
-    public string TimeZoneKeyName; // 0xC0
-    public byte DynamicDaylightTimeDisabled; // 0xC8
 }
 
 public class Data : ValueType
 {
-    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ce_code <name>k__BackingField; // 0x68
-    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ce_code <shortName>k__BackingField; // 0x70
-    public string <template>k__BackingField; // 0x78
-    public string <thumbnailImageUrl>k__BackingField; // 0x80
-    public string <imageUrl>k__BackingField; // 0x88
-    public string <iconImageUrl>k__BackingField; // 0x90
-    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ce_code <description>k__BackingField; // 0x98
-    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ce_code <tooltipDescription>k__BackingField; // 0xA0
-    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ce_code <taglineText>k__BackingField; // 0xA8
-    public string <version>k__BackingField; // 0xB0
-    public bool <isNew>k__BackingField; // 0xB8
-    public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.rSize <onPressed>k__BackingField; // 0xC0
-    public string <disclaimerText>k__BackingField; // 0xC8
-    public string <worldTag>k__BackingField; // 0xD0
-    public object <contentList>k__BackingField; // 0xD8
-    public URA.woDigitYearMax<ateListArray> <domainList>k__BackingField; // 0xE0
-    public ss53_2 <search>k__BackingField; // 0xE8
-    public sedOneTimePasswordSupported <ipsQuery>k__BackingField; // 0xF0
-    public ield <article>k__BackingField; // 0xF8
-    public URA.woDigitYearMax<cribedToMarketingEmails>k__BackingField> <categories>k__BackingField; // 0x100
-    public string <experimentKey>k__BackingField; // 0x108
-    public string <segment>k__BackingField; // 0x110
-    public Verified <promotion>k__BackingField; // 0x118
-    public string <featuredAvatarCategoryId>k__BackingField; // 0x120
-    public URA.woDigitYearMax<string> <listingIds>k__BackingField; // 0x128
 }
 
 public class DataElementDelegate : MulticastDelegate
@@ -58,18 +30,7 @@ public class DataElementDelegate : MulticastDelegate
 
 public class DataSet`1 : Object
 {
-    public bool disposed;
-    public ueWithoutNotify<T1717597184> gpuData;
-    public ÍÎÏÎÎ.ÌÌ<T1717597184> cpuData;
-    public ÍÎÏÎÎ.ÌÌ<rsor.rIndexChange> updateRanges;
-    public rsor.electingManipulator allocator;
-    public uint m_UpdateRangePoolSize;
-    public uint m_ElemStride;
-    public uint m_UpdateRangeMin;
-    public uint m_UpdateRangeMax;
-    public uint m_UpdateRangesEnqueued;
-    public uint m_UpdateRangesBatchStart;
-    public bool m_UpdateRangesSaturated;
+    public object disposed;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -92,8 +53,6 @@ public class DataStorageShadow : Object
 
 public class DataTokenFormatter : BaseFormatter`1
 {
-    public tSupportedException_ConstructorMaxOf64Parameters<object> _referenceReaderWriter;
-
     // ── Methods ──
     public void DeserializeImplementation(){} // RVA: 0x7FFD552A7A60
     public void SerializeImplementation(){} // RVA: 0x7FFD552A8190
@@ -121,10 +80,6 @@ public class DeactivateObjectLabelDelegate : MulticastDelegate
 
 public class DebugImageInfo : Object
 {
-    public ParentSpan>b__3_1.utdownSource Image; // 0x10
-    public aphy<long> StartAddress; // 0x18
-    public aphy<long> EndAddress; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53F25910
     public void ContainsAddress(){} // RVA: 0x7FFD53F25A50
@@ -136,7 +91,9 @@ public class DebugMessage : ValueType
 
 public class DebugView : Object
 {
-    public nitialRentSize<T1717649392> Json;
+    public object Json;
+    public object Path;
+    public object Value;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -151,15 +108,12 @@ public class DebuggerProxy : Object
 
 public class DecCalc : ValueType
 {
-    public uint High; // 0x10
-    public uint Low; // 0x14
-    public uint Mid; // 0x18
-    public uint IsNegative; // 0x1C
-    public ulong Scale; // 0x18
-    public uint[] Low64;
-    public ulong[] s_ulongPowers10; // 0x8
-    public double[] s_doublePowers10; // 0x10
-    public s[] PowerOvflValues; // 0x18
+    public object High;
+    public object Low;
+    public object Mid;
+    public object IsNegative;
+    public object Scale;
+    public object Low64;
 
     // ── Methods ──
     public void get_High(){} // RVA: 0x7FFD4F8402A0
@@ -228,9 +182,6 @@ public class DefaultComparer`1 : ValueType
 
 public class DefaultDecoder : Decoder
 {
-    public em.MarkAborted.ION_4_7 m_encoding; // 0x20
-    public bool m_hasInitializedEncoding; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD538157B0 | overloaded x2
     public void GetRealObject(){} // RVA: 0x7FFD53815AF0
@@ -241,10 +192,6 @@ public class DefaultDecoder : Decoder
 
 public class DefaultEncoder : Encoder
 {
-    public em.MarkAborted.ION_4_7 m_encoding; // 0x20
-    public bool m_hasInitializedEncoding; // 0x28
-    public char charLeftOver; // 0x2A
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53815150 | overloaded x2
     public void GetRealObject(){} // RVA: 0x7FFD53815520
@@ -263,10 +210,6 @@ public class DeferBindingResolutionWrapper : Object
 
 public class DeferPromise : Object
 {
-    public ormation<eObjectDelegate.eNonPublicAccessors> factory; // 0x10
-    public eObjectDelegate.eNonPublicAccessors task; // 0x18
-    public peInfoResolverChain awaiter; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
     public void GetResult(){} // RVA: 0x7FFD548B1460
@@ -277,11 +220,6 @@ public class DeferPromise : Object
 
 public class DeferPromiseWithState`1 : Object
 {
-    public n<T1717659216,eObjectDelegate.eNonPublicAccessors> factory;
-    public T1717659216 argument;
-    public eObjectDelegate.eNonPublicAccessors task;
-    public peInfoResolverChain awaiter;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     public void GetResult(){} // RVA: 0x7FFD4E090B70
@@ -292,11 +230,6 @@ public class DeferPromiseWithState`1 : Object
 
 public class DeferPromiseWithState`2 : Object
 {
-    public n<T1717659232,eObjectDelegate.kingField<T1717659248>> factory;
-    public T1717659232 argument;
-    public eObjectDelegate.kingField<T1717659248> task;
-    public peInfoResolverChain<T1717659248> awaiter;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
     public void GetResult(){} // RVA: 0x7FFD4E2ADC40
@@ -308,10 +241,6 @@ public class DeferPromiseWithState`2 : Object
 
 public class DeferPromise`1 : Object
 {
-    public ormation<eObjectDelegate.kingField<T1717659200>> factory;
-    public eObjectDelegate.kingField<T1717659200> task;
-    public peInfoResolverChain<T1717659200> awaiter;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void GetResult(){} // RVA: 0x7FFD4E2ADC40
@@ -323,15 +252,7 @@ public class DeferPromise`1 : Object
 
 public class DelayFramePromise : Object
 {
-    public eObjectDelegate.ion<_GetDictionaryValueConverter|127_0> NextNode;
-    public _GetDictionaryValueConverter|127_0 nextNode; // 0x10
-    public int initialFrame; // 0x18
-    public int delayFrameCount; // 0x1C
-    public sageKind.TICMAP_SIZE cancellationToken; // 0x20
-    public sageKind.sition cancellationTokenRegistration; // 0x28
-    public bool cancelImmediately; // 0x40
-    public int currentFrameCount; // 0x44
-    public eObjectDelegate.ataProperty>k__BackingField<eObjectDelegate.b__1> core; // 0x48
+    public object NextNode;
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0
@@ -348,15 +269,7 @@ public class DelayFramePromise : Object
 
 public class DelayIgnoreTimeScalePromise : Object
 {
-    public eObjectDelegate.ion<_missingProperty> NextNode;
-    public _missingProperty nextNode; // 0x10
-    public float delayFrameTimeSpan; // 0x18
-    public float elapsed; // 0x1C
-    public int initialFrame; // 0x20
-    public sageKind.TICMAP_SIZE cancellationToken; // 0x28
-    public sageKind.sition cancellationTokenRegistration; // 0x30
-    public bool cancelImmediately; // 0x48
-    public eObjectDelegate.ataProperty>k__BackingField<object> core; // 0x50
+    public object NextNode;
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0
@@ -373,9 +286,7 @@ public class DelayIgnoreTimeScalePromise : Object
 
 public class DelayPromise : Object
 {
-    public sageKind.TICMAP_SIZE NextNode; // 0x58
-    public sageKind.sition Registration; // 0x60
-    public sageKind.lized Timer; // 0x78
+    public object NextNode;
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0
@@ -392,14 +303,7 @@ public class DelayPromise : Object
 
 public class DelayRealtimePromise : Object
 {
-    public eObjectDelegate.ion<d> NextNode;
-    public d nextNode; // 0x10
-    public long delayTimeSpanTicks; // 0x18
-    public n.ctionEventConverter stopwatch; // 0x20
-    public sageKind.TICMAP_SIZE cancellationToken; // 0x28
-    public sageKind.sition cancellationTokenRegistration; // 0x30
-    public bool cancelImmediately; // 0x48
-    public eObjectDelegate.ataProperty>k__BackingField<eObjectDelegate.b__1> core; // 0x50
+    public object NextNode;
 
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x7FFD51B3A9E0
@@ -416,8 +320,6 @@ public class DelayRealtimePromise : Object
 
 public class DelegateEnumerator : FileSystemEnumerator`1
 {
-    public cPartitions.eft<string> _enumerable; // 0x70
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void TransformEntry(){} // RVA: 0x7FFD4E2ADC40
@@ -431,9 +333,6 @@ public class DeliverIosPlatformEvents : ValueType
 
 public class DeltaStateEventBuffer : ValueType
 {
-    public Device.itivity>k__BackingField stateEvent; // 0x10
-    public int kMaxSize;
-    public object data; // 0x2D
 }
 
 public class DeserializationDelegate : MulticastDelegate
@@ -475,10 +374,6 @@ public class Development : Object
 
 public class DeviceArray : ValueType
 {
-    public bool m_HaveValue; // 0x10
-    public int m_DeviceCount; // 0x14
-    public ilAddress.ActionProperty[] m_DeviceArray; // 0x18
-
     // ── Methods ──
     public void IndexOf(){} // RVA: 0x7FFD54946E90
     public void Remove(){} // RVA: 0x7FFD54946F30
@@ -488,13 +383,6 @@ public class DeviceArray : ValueType
 
 public class DeviceDescriptionJson : ValueType
 {
-    public string interface; // 0x10
-    public string type; // 0x18
-    public string product; // 0x20
-    public string serial; // 0x28
-    public string version; // 0x30
-    public string manufacturer; // 0x38
-    public string capabilities; // 0x40
 }
 
 public class DeviceJson : ValueType
@@ -534,12 +422,14 @@ public class DictationResultDelegate : MulticastDelegate
 
 public class DictionaryEnumerator : Object
 {
-    public URA.saAbbrevEnglishEraNames<URA.mes<numeratorObject.NullPassthrough,numeratorObject.NullAttribute>> _enumerator; // 0x10
 }
 
 public class DictionaryEnumerator`2 : ValueType
 {
-    public URA.saAbbrevEnglishEraNames<URA.mes<T1717702752,T1717702768>> Entry;
+    public object Entry;
+    public object Key;
+    public object Value;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -553,9 +443,7 @@ public class DictionaryEnumerator`2 : ValueType
 
 public class DictionaryIterator`2 : ValueType
 {
-    public URA.DateTime<T1717697824,T1717697840> Current;
-    public eDeviceInformation<T1717697824,T1717697840> enumerator;
-    public bool isNull;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -567,17 +455,13 @@ public class DictionaryIterator`2 : ValueType
 
 public class DictionaryPoolImpl`2 : Object
 {
-    public onfigSettings.gContentId<URA.DateTime<T1717581616,T1717581632>> Pool;
-
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
 }
 
 public class DictionaryValueIterator`2 : ValueType
 {
-    public URA.DateTime<T1717697856,T1717697872> Current;
-    public eDeviceInformation<T1717697856,T1717697872> enumerator;
-    public bool isNull;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -589,8 +473,6 @@ public class DictionaryValueIterator`2 : ValueType
 
 public class DictionaryWrapper`1 : ValueType
 {
-    public URA.DayNames<string,T1717579904> Dictionary;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
@@ -650,8 +532,6 @@ public class DisplaysUpdatedDelegate : MulticastDelegate
 
 public class DisposeHandle : Object
 {
-    public RGBA_ETC2_SRGB.`2 _localHub; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
     public void Dispose(){} // RVA: 0x7FFD53F6AEE0
@@ -659,9 +539,6 @@ public class DisposeHandle : Object
 
 public class DisposingLoggerFactory : Object
 {
-    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.? _loggerFactory; // 0x10
-    public ute.SetTimeWindow _serviceProvider; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E90C240
     public void Dispose(){} // RVA: 0x7FFD53769D40
@@ -671,8 +548,7 @@ public class DisposingLoggerFactory : Object
 
 public class DoubleBuffers : ValueType
 {
-    public IntPtr valid; // 0x10
-    public int deviceCount; // 0x18
+    public object valid;
 
     // ── Methods ──
     public void get_valid(){} // RVA: 0x7FFD511E6CA0
@@ -685,16 +561,13 @@ public class DoubleBuffers : ValueType
 
 public class DoublePoint : ValueType
 {
-    public double X; // 0x10
-    public double Y; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC7BDB0 | overloaded x3
 }
 
 public class DpadAxisControl : AxisControl
 {
-    public int component; // 0x130
+    public object component;
 
     // ── Methods ──
     public void get_component(){} // RVA: 0x7FFD4E7DC1B0
@@ -718,10 +591,10 @@ public class DropdownEvent : UnityEvent`1
 
 public class DropdownItem : MonoBehaviour
 {
-    public ypointLabel.rAtlasTextures text; // 0x20
-    public ePathName117.ÎÌÍÍÎÏÌ image; // 0x28
-    public 16 rectTransform; // 0x30
-    public ePathName117.ÍÏÎÍÏÌÏÎÏÎÎÏÎÏÎÏÏÏÏÏ toggle; // 0x38
+    public object text;
+    public object image;
+    public object rectTransform;
+    public object toggle;
 
     // ── Methods ──
     public void get_text(){} // RVA: 0x7FFD4E36F0C0
@@ -739,25 +612,13 @@ public class DropdownItem : MonoBehaviour
 
 public class DualSenseHIDBluetoothInputReport : ValueType
 {
-    public int ExpectedReportId;
-    public byte reportId; // 0x10
-    public byte leftStickX; // 0x12
-    public byte leftStickY; // 0x13
-    public byte rightStickX; // 0x14
-    public byte rightStickY; // 0x15
-    public byte leftTrigger; // 0x16
-    public byte rightTrigger; // 0x17
-    public byte buttons0; // 0x19
-    public byte buttons1; // 0x1A
-    public byte buttons2; // 0x1B
-
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x7FFD54A90F00
 }
 
 public class DualSenseHIDGenericInputReport : ValueType
 {
-    public byte Format; // 0x10
+    public object Format;
 
     // ── Methods ──
     public void get_Format(){} // RVA: 0x7FFD54A782A0
@@ -765,19 +626,6 @@ public class DualSenseHIDGenericInputReport : ValueType
 
 public class DualSenseHIDMinimalInputReport : ValueType
 {
-    public int ExpectedSize1;
-    public int ExpectedSize2; // 0x4
-    public byte reportId; // 0x10
-    public byte leftStickX; // 0x11
-    public byte leftStickY; // 0x12
-    public byte rightStickX; // 0x13
-    public byte rightStickY; // 0x14
-    public byte buttons0; // 0x15
-    public byte buttons1; // 0x16
-    public byte buttons2; // 0x17
-    public byte leftTrigger; // 0x18
-    public byte rightTrigger; // 0x19
-
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x7FFD54A90F50
     public void .cctor(){} // RVA: 0x7FFD54A90FA0
@@ -785,33 +633,13 @@ public class DualSenseHIDMinimalInputReport : ValueType
 
 public class DualSenseHIDUSBInputReport : ValueType
 {
-    public int ExpectedReportId;
-    public byte reportId; // 0x10
-    public byte leftStickX; // 0x11
-    public byte leftStickY; // 0x12
-    public byte rightStickX; // 0x13
-    public byte rightStickY; // 0x14
-    public byte leftTrigger; // 0x15
-    public byte rightTrigger; // 0x16
-    public byte buttons0; // 0x18
-    public byte buttons1; // 0x19
-    public byte buttons2; // 0x1A
-
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x7FFD54A90EB0
 }
 
 public class DualShock4HIDGenericInputReport : ValueType
 {
-    public byte Format; // 0x10
-    public byte leftStickY; // 0x11
-    public byte rightStickX; // 0x12
-    public byte rightStickY; // 0x13
-    public byte buttons0; // 0x14
-    public byte buttons1; // 0x15
-    public byte buttons2; // 0x16
-    public byte leftTrigger; // 0x17
-    public byte rightTrigger; // 0x18
+    public object Format;
 
     // ── Methods ──
     public void get_Format(){} // RVA: 0x7FFD54A782A0
@@ -826,42 +654,6 @@ public class DummyJob : ValueType
 
 public class DynamicBone : MonoBehaviour
 {
-    public ÎÌÍÏÏÌÍÏ ÎÎÌÍÌÌÍÏÍÌÎÏÏÍÏÏÌÌÍÌÌÏÍ; // 0x20
-    public ÎÌÍÏÏÌÍÏ ÎÏÎÌÌÎÏÎÌÍÏÌÏÎÌÎÏÏÎÍÌÏÎ; // 0x28
-    public object m_Root; // 0x30
-    public float m_UpdateRate; // 0x38
-    public float m_Damping; // 0x3C
-    public ÍÎÌÍÍÌÌÎÏÏ m_DampingDistrib; // 0x40
-    public float m_Elasticity; // 0x48
-    public ÍÎÌÍÍÌÌÎÏÏ m_ElasticityDistrib; // 0x50
-    public float m_Stiffness; // 0x58
-    public ÍÎÌÍÍÌÌÎÏÏ m_StiffnessDistrib; // 0x60
-    public float m_Inert; // 0x68
-    public ÍÎÌÍÍÌÌÎÏÏ m_InertDistrib; // 0x70
-    public float m_Radius; // 0x78
-    public ÍÎÌÍÍÌÌÎÏÏ m_RadiusDistrib; // 0x80
-    public float m_EndLength; // 0x88
-    public amut m_EndOffset; // 0x8C
-    public amut m_Gravity; // 0x98
-    public amut m_Force; // 0xA4
-    public URA.woDigitYearMax<?> m_Colliders; // 0xB0
-    public URA.woDigitYearMax<?> m_Exclusions; // 0xB8
-    public object m_FreezeAxis; // 0xC0
-    public bool m_DistantDisable; // 0xC4
-    public object m_ReferenceObject; // 0xC8
-    public float m_DistanceToObject; // 0xD0
-    public amut ÏÏÌÍÍÍÌÏÍÌÎÌÎÌÌÎÏÍÏÎÍÍÌ; // 0xD4
-    public amut ÌÎÍÎÏÎÏÌÎÎÏÎÎÌÌÏÌÏÎÏÍÌÎ; // 0xE0
-    public amut ÌÎÌÏÏÎÍÎÌÎÎÏÍÏÎÍÎÍÎÎÍÌÍ; // 0xEC
-    public float ÏÍÍÎÍÏÍÍÏÍÌÎÎÏÌÏÏÍÎÏÌÍÍ; // 0xF8
-    public float ÍÌÎÎÌÍÎÎÍÏÏÏÎÍÍÌÎÌÍÎÍÎÍ; // 0xFC
-    public float ÏÌÌÎÎÍÍÏÍÏÎÏÏÎÍÌÍÏÍÍÌÎÌ; // 0x100
-    public float ÍÎÍÏÎÎÌÎÍÎÏÎÌÍÏÎÏÌÏÍÌÎÎ; // 0x104
-    public bool ÏÏÌÍÍÌÍÍÌÍÎÍÌÎÏÎÌÌÍÎÏÏÌ; // 0x108
-    public URA.woDigitYearMax<?> ÏÏÍÎÎÌÎÌÏÏÎÏÎÌÎÏÎÎÏÎÌÏÌ; // 0x110
-    public float ÌÍÍÎÏÌÏÏÏÍÍÎÍÍÎÌÎÏÌÏÏÌÏ; // 0x118
-    public bool ÏÏÍÏÏÎÎÌÍÍÏÏÍÌÎÏÌÎÏÏÏÏÏ; // 0x11C
-
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E4C60E0
     public void RaiseCancellation(){} // RVA: 0x7FFD4E4C6130
@@ -894,12 +686,6 @@ public class DynamicBone : MonoBehaviour
 
 public class DynamicBoneCollider : MonoBehaviour
 {
-    public amut m_Center; // 0x20
-    public float m_Radius; // 0x2C
-    public float m_Height; // 0x30
-    public object m_Direction; // 0x34
-    public object m_Bound; // 0x38
-
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4E4CE380
     public void RaiseCancellation(){} // RVA: 0x7FFD4E4CE480
@@ -919,13 +705,9 @@ public class DynamicBoneCollider : MonoBehaviour
 
 public class DynamicPartitionEnumerator_Abstract`2 : Object
 {
-    public URA.saAbbrevEnglishEraNames<T1717590848> HasNoElementsLeft; // 0x10
-    public int Current;
-    public lanks System.Collections.IEnumerator.Current; // 0x18
-    public lanks _localOffset; // 0x20
-    public int _doublingCountdown; // 0x28
-    public int _maxChunkSize; // 0x2C
-    public anStyles _sharedIndex; // 0x30
+    public object HasNoElementsLeft;
+    public object Current;
+    public object System.Collections.IEnumerator.Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -941,8 +723,7 @@ public class DynamicPartitionEnumerator_Abstract`2 : Object
 
 public class DynamicPartitionerForIEnumerable`1 : OrderablePartitioner`1
 {
-    public URA.bbrevEraNames<T1717590864> SupportsDynamicPartitions;
-    public bool _useSingleChunking;
+    public object SupportsDynamicPartitions;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E097970

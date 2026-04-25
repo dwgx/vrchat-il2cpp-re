@@ -7,9 +7,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
 {
     public class AICharacterControl : MonoBehaviour
     {
-        public delay.? agent; // 0x20
-        public 3PropertyTag.ctionPropertyTag character; // 0x28
-        public object target; // 0x30
+        public object agent;
+        public object character;
 
         // ── Methods ──
         public void get_agent(){} // RVA: 0x7FFD4E36F0C0
@@ -24,27 +23,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
 
     public class ThirdPersonCharacter : MonoBehaviour
     {
-        public float m_MovingTurnSpeed; // 0x20
-        public float m_StationaryTurnSpeed; // 0x24
-        public float m_JumpPower; // 0x28
-        public float m_GravityMultiplier; // 0x2C
-        public float m_RunCycleLegOffset; // 0x30
-        public float m_MoveSpeedMultiplier; // 0x34
-        public float m_AnimSpeedMultiplier; // 0x38
-        public float m_GroundCheckDistance; // 0x3C
-        public Touched m_Rigidbody; // 0x40
-        public stfix m_Animator; // 0x48
-        public bool m_IsGrounded; // 0x50
-        public float m_OrigGroundCheckDistance; // 0x54
-        public float k_Half;
-        public float m_TurnAmount; // 0x58
-        public float m_ForwardAmount; // 0x5C
-        public amut m_GroundNormal; // 0x60
-        public float m_CapsuleHeight; // 0x6C
-        public amut m_CapsuleCenter; // 0x70
-        public ovrp_Media_DestroyCustomCameraAnchor m_Capsule; // 0x80
-        public bool m_Crouching; // 0x88
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E36F8F0
         public void Move(){} // RVA: 0x7FFD4E36FBF0
@@ -61,12 +39,6 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.ThirdPerson
 
     public class ThirdPersonUserControl : MonoBehaviour
     {
-        public 3PropertyTag.ctionPropertyTag m_Character; // 0x20
-        public object m_Cam; // 0x28
-        public amut m_CamForward; // 0x30
-        public amut m_Move; // 0x3C
-        public bool m_Jump; // 0x48
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD4E3719A0
         public void Update(){} // RVA: 0x7FFD4E371D90

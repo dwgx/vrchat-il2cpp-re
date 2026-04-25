@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.OnScreen
 {
     public class OnScreenButton : OnScreenControl
     {
-        public string controlPathInternal; // 0x38
+        public object controlPathInternal;
 
         // ── Methods ──
         public void OnPointerUp(){} // RVA: 0x7FFD54A78F00
@@ -19,11 +19,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.OnScreen
 
     public class OnScreenControl : MonoBehaviour
     {
-        public ilAddress.ressedThisFrame controlPath; // 0x20
-        public _deviceLostEvent.ChangedEvent control; // 0x28
-        public Device.ckingField controlPathInternal; // 0x30
-        public int HasAnyActive;
-        public 2.and<t_uiInputModule> s_OnScreenDevices; // 0x8
+        public object controlPath;
+        public object control;
+        public object controlPathInternal;
+        public object HasAnyActive;
 
         // ── Methods ──
         public void get_controlPath(){} // RVA: 0x7FFD4E3F5BC0
@@ -43,20 +42,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.OnScreen
 
     public class OnScreenStick : OnScreenControl
     {
-        public string movementRange;
-        public float dynamicOriginRange; // 0x38
-        public float useIsolatedInputActions; // 0x3C
-        public string controlPathInternal; // 0x40
-        public eChanges behaviour; // 0x48
-        public bool m_UseIsolatedInputActions; // 0x4C
-        public ilAddress.s m_PointerDownAction; // 0x50
-        public ilAddress.s m_PointerMoveAction; // 0x58
-        public amut m_StartPos; // 0x60
-        public tionX m_PointerDownPos; // 0x6C
-        public URA.woDigitYearMax<moryFailure.priteMesh> m_RaycastResults; // 0x78
-        public moryFailure.String,Valve.Newtonsoft.Json.Linq.JToken>>.IsReadOnly m_PointerEventData; // 0x80
-        public _1.? m_TouchControl; // 0x88
-        public bool m_IsIsolationActive; // 0x90
+        public object movementRange;
+        public object dynamicOriginRange;
+        public object useIsolatedInputActions;
+        public object controlPathInternal;
+        public object behaviour;
 
         // ── Methods ──
         public void OnPointerDown(){} // RVA: 0x7FFD54A7BF50 | overloaded x2

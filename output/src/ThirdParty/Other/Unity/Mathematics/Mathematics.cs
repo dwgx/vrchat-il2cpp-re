@@ -7,10 +7,6 @@ namespace ThirdParty.Other.Unity.Mathematics
 {
     public class bool3 : ValueType
     {
-        public bool x; // 0x10
-        public bool y; // 0x11
-        public bool z; // 0x12
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4FD7DE30
         public void Equals(){} // RVA: 0x7FFD54ABCD20 | overloaded x2
@@ -20,10 +16,6 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float2 : ValueType
     {
-        public float x; // 0x10
-        public float y; // 0x14
-        public es.gine.XR zero;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E364D10
         public void op_Multiply(){} // RVA: 0x7FFD54ABCED0
@@ -35,10 +27,11 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float3 : ValueType
     {
-        public float yxxy; // 0x10
-        public float zzyz; // 0x14
-        public float xyz; // 0x18
-        public es.ap yzx;
+        public object yxxy;
+        public object zzyz;
+        public object xyz;
+        public object yzx;
+        public object zxy;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABD1D0 | overloaded x2
@@ -62,11 +55,6 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float3x3 : ValueType
     {
-        public es.ap c0; // 0x10
-        public es.ap c1; // 0x1C
-        public es.ap c2; // 0x28
-        public es.owedCodePointsBitmap identity;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABE340 | overloaded x4
         public void op_Multiply(){} // RVA: 0x7FFD54ABD840
@@ -78,11 +66,20 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float4 : ValueType
     {
-        public float xyzx; // 0x10
-        public float yzxy; // 0x14
-        public float yzxz; // 0x18
-        public float yzxw; // 0x1C
-        public es.ointsBitmap zxyy;
+        public object xyzx;
+        public object yzxy;
+        public object yzxz;
+        public object yzxw;
+        public object zxyy;
+        public object zxyz;
+        public object zwxy;
+        public object wzyx;
+        public object wwwx;
+        public object wwww;
+        public object xyz;
+        public object yxw;
+        public object zwx;
+        public object wzy;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABE6A0 | overloaded x3
@@ -113,13 +110,6 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float4x4 : ValueType
     {
-        public es.ointsBitmap c0; // 0x10
-        public es.ointsBitmap c1; // 0x20
-        public es.ointsBitmap c2; // 0x30
-        public es.ointsBitmap c3; // 0x40
-        public es._14 identity;
-        public es._14 zero; // 0x40
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54ABEF60 | overloaded x2
         public void Equals(){} // RVA: 0x7FFD54ABF1D0 | overloaded x2
@@ -202,9 +192,6 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class quaternion : ValueType
     {
-        public es.ointsBitmap value; // 0x10
-        public es.eout identity;
-
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x7FFD4E6E0590 | overloaded x3
         public void .ctor(){} // RVA: 0x7FFD54AC0640 | overloaded x4
@@ -226,9 +213,6 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class uint2 : ValueType
     {
-        public uint x; // 0x10
-        public uint y; // 0x14
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E7F6D50
         public void op_Multiply(){} // RVA: 0x7FFD54AC1EB0
@@ -239,10 +223,6 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class uint3 : ValueType
     {
-        public uint x; // 0x10
-        public uint y; // 0x14
-        public uint z; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5263A020
         public void op_Multiply(){} // RVA: 0x7FFD54AC2150
@@ -256,11 +236,6 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class uint4 : ValueType
     {
-        public uint x; // 0x10
-        public uint y; // 0x14
-        public uint z; // 0x18
-        public uint w; // 0x1C
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54AC24B0 | overloaded x2
         public void op_Multiply(){} // RVA: 0x7FFD54AC24C0

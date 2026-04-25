@@ -7,12 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class VectorImage : ScriptableObject
     {
-        public int width; // 0x18
-        public ector height; // 0x20
-        public ÎÏÌÎÎÎÌÌÌ.ss[] vertices; // 0x28
-        public ushort[] indices; // 0x30
-        public ÎÏÌÎÎÎÌÌÌ.ningFactor[] settings; // 0x38
-        public tionX size; // 0x40
+        public object width;
+        public object height;
 
         // ── Methods ──
         public void get_width(){} // RVA: 0x7FFD4E5080B0
@@ -22,15 +18,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VerticalVirtualizationController`1 : CollectionVirtualizationController
     {
-        public cy.gContentId<T1717594384> activeItems; // 0x18
-        public ÎÏÌÎÎÎÌÌÌ.? itemsCount; // 0x20
-        public URA.woDigitYearMax<T1717594384> firstVisibleItem; // 0x28
-        public T1717594384 lastVisibleItem; // 0x30
-        public int visibleItemCount; // 0x38
-        public URA.woDigitYearMax<int> serializedData; // 0x40
-        public n<T1717594384,bool> firstVisibleIndex; // 0x48
-        public URA.woDigitYearMax<T1717594384> lastHeight; // 0x50
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius alwaysRebindOnRefresh; // 0x58
+        public object activeItems;
+        public object itemsCount;
+        public object firstVisibleItem;
+        public object lastVisibleItem;
+        public object visibleItemCount;
+        public object serializedData;
+        public object firstVisibleIndex;
+        public object lastHeight;
+        public object alwaysRebindOnRefresh;
 
         // ── Methods ──
         public void get_activeItems(){} // RVA: 0x7FFD4E078E90
@@ -71,77 +67,138 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElement : Focusable
     {
-        public int resolvedStyle; // 0x30
-        public int UnityEngine.UIElements.IResolvedStyle.backgroundColor; // 0x34
-        public uint UnityEngine.UIElements.IResolvedStyle.borderBottomColor;
-        public URA.woDigitYearMax<string> UnityEngine.UIElements.IResolvedStyle.borderBottomLeftRadius; // 0x8
-        public object UnityEngine.UIElements.IResolvedStyle.borderBottomRightRadius; // 0x10
-        public string UnityEngine.UIElements.IResolvedStyle.borderBottomWidth; // 0x18
-        public string UnityEngine.UIElements.IResolvedStyle.borderLeftColor; // 0x38
-        public URA.woDigitYearMax<string> UnityEngine.UIElements.IResolvedStyle.borderLeftWidth; // 0x40
-        public URA.woDigitYearMax<URA.mes<?,object>> UnityEngine.UIElements.IResolvedStyle.borderRightColor; // 0x48
-        public ÎÏÌÎÎÎÌÌÌ.t UnityEngine.UIElements.IResolvedStyle.borderRightWidth; // 0x50
-        public string UnityEngine.UIElements.IResolvedStyle.borderTopColor; // 0x58
-        public ÎÏÌÎÎÎÌÌÌ.gerMouseEvent UnityEngine.UIElements.IResolvedStyle.borderTopLeftRadius; // 0x60
-        public dRecorder UnityEngine.UIElements.IResolvedStyle.borderTopRightRadius; // 0x64
-        public dRecorder UnityEngine.UIElements.IResolvedStyle.borderTopWidth; // 0x74
-        public rsor.UnityEngine.UIElements.IUIElementsUtility.MakeCurrentIMGUIContainerDirty UnityEngine.UIElements.IResolvedStyle.bottom; // 0x88
-        public dRecorder UnityEngine.UIElements.IResolvedStyle.color; // 0x1D0
-        public dRecorder UnityEngine.UIElements.IResolvedStyle.display; // 0x1E0
-        public ÎÏÌÎÎÎÌÌÌ.t UnityEngine.UIElements.IResolvedStyle.flexDirection;
-        public dRecorder UnityEngine.UIElements.IResolvedStyle.flexGrow; // 0x1F0
-        public ÎÏÌÎÎÎÌÌÌ.t UnityEngine.UIElements.IResolvedStyle.flexShrink;
-        public tSizeBias UnityEngine.UIElements.IResolvedStyle.height; // 0x200
-        public tSizeBias UnityEngine.UIElements.IResolvedStyle.left; // 0x240
-        public dRecorder UnityEngine.UIElements.IResolvedStyle.marginBottom; // 0x280
-        public dRecorder UnityEngine.UIElements.IResolvedStyle.marginLeft; // 0x290
-        public bool UnityEngine.UIElements.IResolvedStyle.marginRight; // 0x2A0
-        public dRecorder UnityEngine.UIElements.IResolvedStyle.marginTop; // 0x20
-        public ÎÏÌÎÎÎÌÌÌ.ta UnityEngine.UIElements.IResolvedStyle.minHeight; // 0x2A4
-        public ÎÏÌÎÎÎÌÌÌ.ta UnityEngine.UIElements.IResolvedStyle.minWidth; // 0x2A8
-        public ÎÏÌÎÎÎÌÌÌ.ta UnityEngine.UIElements.IResolvedStyle.opacity; // 0x2AC
-        public int UnityEngine.UIElements.IResolvedStyle.paddingBottom; // 0x2B0
-        public ÎÏÌÎÎÎÌÌÌ.? UnityEngine.UIElements.IResolvedStyle.paddingLeft; // 0x2B4
-        public ÎÏÍÏÍÎÎÎÎÌÍÎÏÌÌÌÎ UnityEngine.UIElements.IResolvedStyle.paddingRight; // 0x2B8
-        public ÎÏÌÎÎÎÌÌÌ.taPosition UnityEngine.UIElements.IResolvedStyle.paddingTop; // 0x2C0
-        public ÎÏÌÎÎÎÌÌÌ.Engine.UIElements.IStyle.transformOrigin UnityEngine.UIElements.IResolvedStyle.right; // 0x318
-        public int UnityEngine.UIElements.IResolvedStyle.scale; // 0x320
-        public uint UnityEngine.UIElements.IResolvedStyle.top; // 0x324
-        public int UnityEngine.UIElements.IResolvedStyle.transformOrigin; // 0x328
-        public bool UnityEngine.UIElements.IResolvedStyle.translate; // 0x32C
-        public ÎÏÌÎÎÎÌÌÌ.tyIdFromString UnityEngine.UIElements.IResolvedStyle.unityBackgroundImageTintColor; // 0x330
-        public ÎÏÌÎÎÎÌÌÌ.tyIdFromString UnityEngine.UIElements.IResolvedStyle.unitySliceLeft; // 0x334
-        public ileFullDirectoryInformation<ÎÏÌÎÎÎÌÌÌ.yEngine.UIElements.IMouseEventInternal.sourcePointerEvent> UnityEngine.UIElements.IResolvedStyle.unitySliceRight; // 0x338
-        public object UnityEngine.UIElements.IResolvedStyle.unitySliceScale; // 0x30
-        public ertTransitionFunction>b__12_16 UnityEngine.UIElements.IResolvedStyle.unityTextOutlineColor; // 0x340
-        public atrix_Injected UnityEngine.UIElements.IResolvedStyle.unityTextOutlineWidth; // 0x38
-        public atrix_Injected UnityEngine.UIElements.IResolvedStyle.visibility; // 0x348
-        public URA.woDigitYearMax<ileDrawChainBegin.ax> UnityEngine.UIElements.IResolvedStyle.width; // 0x350
-        public uint hasRunningAnimations; // 0x40
-        public uint hasCompletedAnimations; // 0x358
-        public uint UnityEngine.UIElements.IStylePropertyAnimations.runningAnimationCount; // 0x35C
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius UnityEngine.UIElements.IStylePropertyAnimations.completedAnimationCount; // 0x360
-        public int styleAnimation; // 0x368
-        public int isCompositeRoot; // 0x36C
-        public int isHierarchyDisplayed; // 0x370
-        public int viewDataKey; // 0x374
-        public string enableViewDataPersistence;
-        public TopElementUnderPointer userData; // 0x378
-        public bool canGrabFocus; // 0x380
-        public bool focusController; // 0x381
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius usageHints; // 0x388
-        public ÎÏÌÎÎÎÌÌÌ.omLeftRadius renderHints; // 0x390
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> transform; // 0x48
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.omLeftRadius> UnityEngine.UIElements.ITransform.position; // 0x398
-        public ÎÏÌÎÎÎÌÌÌ.opped UnityEngine.UIElements.ITransform.scale; // 0x3A0
-        public ÎÏÌÎÎÎÌÌÌ.nt isLayoutManual; // 0x3A8
-        public se scaledPixelsPerPoint; // 0x50
-        public ÎÏÌÎÎÎÌÌÌ.lidateElement layout; // 0x3B0
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.inter> contentRect; // 0x3B8
-        public tor.neStore paddingRect; // 0x58
-        public object isBoundingBoxDirty; // 0x60
-        public URA.DateTime<?,utCubic> isWorldBoundingBoxDirty; // 0x68
-        public utCubic isWorldBoundingBoxOrDependenciesDirty; // 0x3C0
+        public object resolvedStyle;
+        public object UnityEngine.UIElements.IResolvedStyle.backgroundColor;
+        public object UnityEngine.UIElements.IResolvedStyle.borderBottomColor;
+        public object UnityEngine.UIElements.IResolvedStyle.borderBottomLeftRadius;
+        public object UnityEngine.UIElements.IResolvedStyle.borderBottomRightRadius;
+        public object UnityEngine.UIElements.IResolvedStyle.borderBottomWidth;
+        public object UnityEngine.UIElements.IResolvedStyle.borderLeftColor;
+        public object UnityEngine.UIElements.IResolvedStyle.borderLeftWidth;
+        public object UnityEngine.UIElements.IResolvedStyle.borderRightColor;
+        public object UnityEngine.UIElements.IResolvedStyle.borderRightWidth;
+        public object UnityEngine.UIElements.IResolvedStyle.borderTopColor;
+        public object UnityEngine.UIElements.IResolvedStyle.borderTopLeftRadius;
+        public object UnityEngine.UIElements.IResolvedStyle.borderTopRightRadius;
+        public object UnityEngine.UIElements.IResolvedStyle.borderTopWidth;
+        public object UnityEngine.UIElements.IResolvedStyle.bottom;
+        public object UnityEngine.UIElements.IResolvedStyle.color;
+        public object UnityEngine.UIElements.IResolvedStyle.display;
+        public object UnityEngine.UIElements.IResolvedStyle.flexDirection;
+        public object UnityEngine.UIElements.IResolvedStyle.flexGrow;
+        public object UnityEngine.UIElements.IResolvedStyle.flexShrink;
+        public object UnityEngine.UIElements.IResolvedStyle.height;
+        public object UnityEngine.UIElements.IResolvedStyle.left;
+        public object UnityEngine.UIElements.IResolvedStyle.marginBottom;
+        public object UnityEngine.UIElements.IResolvedStyle.marginLeft;
+        public object UnityEngine.UIElements.IResolvedStyle.marginRight;
+        public object UnityEngine.UIElements.IResolvedStyle.marginTop;
+        public object UnityEngine.UIElements.IResolvedStyle.minHeight;
+        public object UnityEngine.UIElements.IResolvedStyle.minWidth;
+        public object UnityEngine.UIElements.IResolvedStyle.opacity;
+        public object UnityEngine.UIElements.IResolvedStyle.paddingBottom;
+        public object UnityEngine.UIElements.IResolvedStyle.paddingLeft;
+        public object UnityEngine.UIElements.IResolvedStyle.paddingRight;
+        public object UnityEngine.UIElements.IResolvedStyle.paddingTop;
+        public object UnityEngine.UIElements.IResolvedStyle.right;
+        public object UnityEngine.UIElements.IResolvedStyle.scale;
+        public object UnityEngine.UIElements.IResolvedStyle.top;
+        public object UnityEngine.UIElements.IResolvedStyle.transformOrigin;
+        public object UnityEngine.UIElements.IResolvedStyle.translate;
+        public object UnityEngine.UIElements.IResolvedStyle.unityBackgroundImageTintColor;
+        public object UnityEngine.UIElements.IResolvedStyle.unitySliceLeft;
+        public object UnityEngine.UIElements.IResolvedStyle.unitySliceRight;
+        public object UnityEngine.UIElements.IResolvedStyle.unitySliceScale;
+        public object UnityEngine.UIElements.IResolvedStyle.unityTextOutlineColor;
+        public object UnityEngine.UIElements.IResolvedStyle.unityTextOutlineWidth;
+        public object UnityEngine.UIElements.IResolvedStyle.visibility;
+        public object UnityEngine.UIElements.IResolvedStyle.width;
+        public object hasRunningAnimations;
+        public object hasCompletedAnimations;
+        public object UnityEngine.UIElements.IStylePropertyAnimations.runningAnimationCount;
+        public object UnityEngine.UIElements.IStylePropertyAnimations.completedAnimationCount;
+        public object styleAnimation;
+        public object isCompositeRoot;
+        public object isHierarchyDisplayed;
+        public object viewDataKey;
+        public object enableViewDataPersistence;
+        public object userData;
+        public object canGrabFocus;
+        public object focusController;
+        public object usageHints;
+        public object renderHints;
+        public object transform;
+        public object UnityEngine.UIElements.ITransform.position;
+        public object UnityEngine.UIElements.ITransform.scale;
+        public object isLayoutManual;
+        public object scaledPixelsPerPoint;
+        public object layout;
+        public object contentRect;
+        public object paddingRect;
+        public object isBoundingBoxDirty;
+        public object isWorldBoundingBoxDirty;
+        public object isWorldBoundingBoxOrDependenciesDirty;
+        public object boundingBox;
+        public object worldBoundingBox;
+        public object boundingBoxInParentSpace;
+        public object worldBound;
+        public object localBound;
+        public object rect;
+        public object isWorldTransformDirty;
+        public object isWorldTransformInverseDirty;
+        public object isWorldTransformInverseOrDependenciesDirty;
+        public object worldTransform;
+        public object worldTransformRef;
+        public object worldTransformInverse;
+        public object isWorldClipDirty;
+        public object worldClip;
+        public object worldClipMinusGroup;
+        public object worldClipIsInfinite;
+        public object pseudoStates;
+        public object containedPointerIds;
+        public object pickingMode;
+        public object name;
+        public object classList;
+        public object fullTypeName;
+        public object typeName;
+        public object yogaNode;
+        public object computedStyle;
+        public object hasInlineStyle;
+        public object styleInitialized;
+        public object isParentEnabledInHierarchy;
+        public object enabledInHierarchy;
+        public object enabledSelf;
+        public object languageDirection;
+        public object localLanguageDirection;
+        public object visible;
+        public object generateVisualContent;
+        public object requireMeasureFunction;
+        public object subRenderTargetMode;
+        public object defaultMaterial;
+        public object nextParentWithEventCallback;
+        public object eventCallbackCategories;
+        public object eventCallbackParentCategories;
+        public object isEventCallbackParentCategoriesDirty;
+        public object experimental;
+        public object UnityEngine.UIElements.IExperimentalFeatures.animation;
+        public object hierarchy;
+        public object isRootVisualContainer;
+        public object disableClipping;
+        public object parent;
+        public object elementPanel;
+        public object panel;
+        public object contentContainer;
+        public object visualTreeAssetSource;
+        public object Item;
+        public object childCount;
+        public object positionWithLayout;
+        public object hasDefaultRotationAndScale;
+        public object schedule;
+        public object style;
+        public object customStyle;
+        public object styleSheets;
+        public object tooltip;
+        public object typeData;
 
         // ── Methods ──
         public void get_resolvedStyle(){} // RVA: 0x7FFD4F9181E0
@@ -449,14 +506,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementAsset : UxmlAsset
     {
-        public string ruleIndex; // 0x30
-        public int classes; // 0x38
-        public string stylesheetPaths; // 0x40
-        public ÎÏÌÎÎÎÌÌÌ.? hasStylesheetPaths; // 0x48
-        public string[] stylesheets; // 0x50
-        public URA.woDigitYearMax<string> hasStylesheets; // 0x58
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.inter> skipClone; // 0x60
-        public bool m_SkipClone; // 0x68
+        public object ruleIndex;
+        public object classes;
+        public object stylesheetPaths;
+        public object hasStylesheetPaths;
+        public object stylesheets;
+        public object hasStylesheets;
+        public object skipClone;
 
         // ── Methods ──
         public void get_ruleIndex(){} // RVA: 0x7FFD54CFE3E0
@@ -472,20 +528,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeAsset : ScriptableObject
     {
-        public string importedWithErrors;
-        public bool importedWithWarnings; // 0x18
-        public bool templateDependencies; // 0x19
-        public URA.DateTime<string,ÎÏÌÎÎÎÌÌÌ.omLeftRadius> stylesheets; // 0x8
-        public URA.woDigitYearMax<urrentTimeMs> visualElementAssets; // 0x20
-        public ÎÏÌÎÎÎÌÌÌ.inter templateAssets; // 0x28
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.ta> uxmlObjectEntries; // 0x30
-        public URA.woDigitYearMax<ÎÏÌÎÎÎÌÌÌ.nual> uxmlObjectIds; // 0x38
-        public URA.woDigitYearMax<Definitions> slots; // 0x40
-        public URA.woDigitYearMax<int> contentContainerId; // 0x48
-        public URA.woDigitYearMax<?> contentHash; // 0x50
-        public URA.woDigitYearMax<_Lengths> m_Slots; // 0x58
-        public int m_ContentContainerId; // 0x60
-        public int m_ContentHash; // 0x64
+        public object importedWithErrors;
+        public object importedWithWarnings;
+        public object templateDependencies;
+        public object stylesheets;
+        public object visualElementAssets;
+        public object templateAssets;
+        public object uxmlObjectEntries;
+        public object uxmlObjectIds;
+        public object slots;
+        public object contentContainerId;
+        public object contentHash;
 
         // ── Methods ──
         public void get_importedWithErrors(){} // RVA: 0x7FFD54C48D80
@@ -530,9 +583,6 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeUpdater : Object
     {
-        public ÎÏÌÎÎÎÌÌÌ.opped m_Panel; // 0x10
-        public extFieldChanged m_UpdaterArray; // 0x18
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54EE8A00
         public void Dispose(){} // RVA: 0x7FFD54EE8C90

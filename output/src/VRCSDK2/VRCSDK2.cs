@@ -13,13 +13,6 @@ namespace VRCSDK2
 
     public class VRCDebugCommand : MonoBehaviour
     {
-        public string Command; // 0x20
-        public int ParamInt; // 0x28
-        public float ParamFloat; // 0x2C
-        public string ParamString; // 0x30
-        public object ParamObject; // 0x38
-        public ShadowZeroAlloc OnAwake;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5740EA40
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -40,9 +33,6 @@ namespace VRCSDK2
 
     public class VRC_AddDamage : MonoBehaviour
     {
-        public float damageAmount; // 0x20
-        public object Initialize;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57402C30
         public void ProvideEvents(){} // RVA: 0x7FFD57402C90
@@ -59,19 +49,8 @@ namespace VRCSDK2
 
     public class VRC_AudioBank : MonoBehaviour
     {
-        public Nonce Current; // 0x20
-        public Property CurrentIdx; // 0x24
-        public t Source; // 0x28
-        public float MinPitchRange; // 0x30
-        public float MaxPitchRange; // 0x34
-        public t_compositionCursorPos OnPlay; // 0x38
-        public t_compositionCursorPos OnStop; // 0x40
-        public t_compositionCursorPos OnChange; // 0x48
-        public ies[] Clips; // 0x50
-        public int[] playOrder; // 0x58
-        public int current; // 0x60
-        public float remainingTime; // 0x64
-        public object rng; // 0x68
+        public object Current;
+        public object CurrentIdx;
 
         // ── Methods ──
         public void get_Current(){} // RVA: 0x7FFD5740F0E0
@@ -94,9 +73,6 @@ namespace VRCSDK2
 
     public class VRC_AvatarDescriptor : VRC_AvatarDescriptor
     {
-        public ationSpeed CustomStandingAnims; // 0xB8
-        public ationSpeed CustomSittingAnims; // 0xC0
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57401C90
     }
@@ -109,12 +85,6 @@ namespace VRCSDK2
 
     public class VRC_AvatarVariations : MonoBehaviour
     {
-        public AudioData[] categories; // 0x20
-        public bool initialized; // 0x28
-        public string currentVariationSpec; // 0x30
-        public URA.woDigitYearMax<terialIndex> initialMeshes; // 0x38
-        public atrix_Injected[] initialMaterials; // 0x40
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD57401CA0
         public void RecordInitialState(){} // RVA: 0x7FFD57401CD0
@@ -138,8 +108,7 @@ namespace VRCSDK2
 
     public class VRC_CustomRendererBehaviour : MonoBehaviour
     {
-        public bool Renderer; // 0x20
-        public rical _renderer; // 0x28
+        public object Renderer;
 
         // ── Methods ──
         public void get_Renderer(){} // RVA: 0x7FFD57410BF0
@@ -262,16 +231,7 @@ namespace VRCSDK2
     public class VRC_ObjectSync : VRCNetworkBehaviour
     {
         public object useGravity;
-        public enerVolume isKinematic; // 0x8
-        public bool SynchronizePhysics; // 0x20
-        public bool AllowCollisionTransfer; // 0x21
-        public gnoreListenerPause TeleportHandler; // 0x10
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up> RespawnHandler; // 0x18
-        public n<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up,bool> GetUseGravity; // 0x20
-        public n<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up,bool> GetIsKinematic; // 0x28
-        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up,bool> SetUseGravity; // 0x30
-        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up,bool> SetIsKinematic; // 0x38
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up> DiscontinuityHandler; // 0x40
+        public object isKinematic;
 
         // ── Methods ──
         public void get_useGravity(){} // RVA: 0x7FFD57403EA0
@@ -316,10 +276,6 @@ namespace VRCSDK2
 
     public class VRC_PlayerMods : MonoBehaviour
     {
-        public bool isRoomPlayerMods; // 0x20
-        public URA.woDigitYearMax<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.ffects> playerMods; // 0x28
-        public object Initialize;
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD5740B790
         public void AddMod(){} // RVA: 0x7FFD5740B7F0
@@ -354,14 +310,6 @@ namespace VRCSDK2
 
     public class VRC_SceneResetPosition : MonoBehaviour
     {
-        public object Position; // 0x20
-        public bool RemoveVelocity; // 0x28
-        public Touched rigidbody; // 0x30
-        public ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.up sync; // 0x38
-        public amut initialPosition; // 0x40
-        public R_12x12 initialRotation; // 0x4C
-        public amut initialScale; // 0x5C
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5740C1B0
         public void ResetPosition(){} // RVA: 0x7FFD5740C4A0
@@ -371,13 +319,6 @@ namespace VRCSDK2
 
     public class VRC_SceneSmoothShift : MonoBehaviour
     {
-        public ÍÎÌÍÍÌÌÎÏÏ ShiftInterpolationCurve; // 0x20
-        public float ShiftSpeed; // 0x28
-        public object ShiftStart; // 0x30
-        public object ShiftEnd; // 0x38
-        public float TargetPosition; // 0x40
-        public float ShiftPosition; // 0x44
-
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFD5740D8A0
         public void OnValidate(){} // RVA: 0x7FFD5740DA60
@@ -412,9 +353,6 @@ namespace VRCSDK2
 
     public class VRC_StationApi : MonoBehaviour
     {
-        public t_diffusion IsStationOccupiedDelegate;
-        public n GetStationOccupant; // 0x8
-
         // ── Methods ──
         public void IsStationOccupied(){} // RVA: 0x7FFD5740E490
         public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -422,14 +360,6 @@ namespace VRCSDK2
 
     public class VRC_StationInput : MonoBehaviour
     {
-        public ellSize.artCorner controllingPlayer; // 0x20
-        public tionX inputLeftAnalog; // 0x28
-        public tionX inputRightAnalog; // 0x30
-        public bool inputUseButton; // 0x38
-        public object UpdateInputs;
-        public liderExpand Initialize; // 0x8
-        public URA.woDigitYearMax<s> customInputs; // 0x40
-
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFD57405600
         public void Update(){} // RVA: 0x7FFD57405660
@@ -472,29 +402,6 @@ namespace VRCSDK2
 
     public class VRC_SyncVideoStream : VRCNetworkBehaviour
     {
-        public bool AllowNonOwnerControl; // 0x20
-        public string VideoSearchRoot; // 0x28
-        public int MaxStreamQuality; // 0x30
-        public bool AutoStart; // 0x34
-        public set_bypassEffects[] Videos; // 0x38
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Play;
-        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,int> _PlayIndex; // 0x8
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Stop; // 0x10
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Pause; // 0x18
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Next; // 0x20
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Previous; // 0x28
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Shuffle; // 0x30
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _Clear; // 0x38
-        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,string> _AddURL; // 0x40
-        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,float> _FastForwardSeconds; // 0x48
-        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,float> _RewindSeconds; // 0x50
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _LocalResync; // 0x58
-        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,tOutputData> _SetSyncType; // 0x60
-        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,float> _SetSyncMinutes; // 0x68
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> _ShowSearch; // 0x70
-        public rectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects,float> _SetMaxQuality; // 0x78
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects> Initialize; // 0x80
-
         // ── Methods ──
         public void Play(){} // RVA: 0x7FFD574070D0
         public void PlayIndex(){} // RVA: 0x7FFD57407130
@@ -561,11 +468,7 @@ namespace VRCSDK2
 
     public class VRC_VideoScreen : MonoBehaviour
     {
-        public ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects Initialize; // 0x20
-        public int _materialIndex; // 0x28
-        public string _textureProperty; // 0x30
-        public bool _useSharedMaterial; // 0x38
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.inVolume> <Initialize>k__BackingField;
+        public object Initialize;
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x7FFD57409180
@@ -576,9 +479,7 @@ namespace VRCSDK2
 
     public class VRC_VideoSpeaker : MonoBehaviour
     {
-        public ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ._bypassListenerEffects Initialize; // 0x20
-        public alizerFloat _channelType; // 0x28
-        public ileFullDirectoryInformation<ÎÌÎÍÎÍÏÌÌÎÌÍÌÏÌ.tor> <Initialize>k__BackingField;
+        public object Initialize;
 
         // ── Methods ──
         public void get_Initialize(){} // RVA: 0x7FFD57409390

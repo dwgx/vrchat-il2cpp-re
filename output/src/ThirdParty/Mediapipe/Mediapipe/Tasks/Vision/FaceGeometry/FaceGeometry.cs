@@ -7,7 +7,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry
 {
     public class GeometryPipelineCalculatorReflection : Object
     {
-        public ate.ination Descriptor;
+        public object Descriptor;
 
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x7FFD53728C10

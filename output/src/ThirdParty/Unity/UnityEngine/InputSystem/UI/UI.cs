@@ -7,7 +7,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 {
     public class BaseInputOverride : BaseInput
     {
-        public string compositionString; // 0x20
+        public object compositionString;
 
         // ── Methods ──
         public void get_compositionString(){} // RVA: 0x7FFD4E36F0C0
@@ -16,7 +16,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class ExtendedAxisEventData : AxisEventData
     {
-        public ilAddress.ActionProperty device; // 0x30
+        public object device;
 
         // ── Methods ──
         public void get_device(){} // RVA: 0x7FFD4E5F95E0
@@ -27,13 +27,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class ExtendedPointerEventData : PointerEventData
     {
-        public ilAddress.ressedThisFrame control; // 0x180
-        public ilAddress.ActionProperty device; // 0x188
-        public int touchId; // 0x190
-        public gControlLayout.DeviceNameUnique pointerType; // 0x194
-        public int uiToolkitPointerId; // 0x198
-        public amut trackedDevicePosition; // 0x19C
-        public R_12x12 trackedDeviceOrientation; // 0x1A8
+        public object control;
+        public object device;
+        public object touchId;
+        public object pointerType;
+        public object uiToolkitPointerId;
+        public object trackedDevicePosition;
+        public object trackedDeviceOrientation;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD53DB0190
@@ -61,7 +61,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class ExtendedSubmitCancelEventData : BaseEventData
     {
-        public ilAddress.ActionProperty device; // 0x20
+        public object device;
 
         // ── Methods ──
         public void get_device(){} // RVA: 0x7FFD4E36F0C0
@@ -79,48 +79,32 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class InputSystemUIInputModule : BaseInputModule
     {
-        public float deselectOnBackgroundClick;
-        public float pointerBehavior; // 0x58
-        public float cursorLockBehavior; // 0x5C
-        public float localMultiPlayerRoot; // 0x60
-        public object scrollDeltaPerTick; // 0x68
-        public ilAddress.ch0indirectTouch moveRepeatDelay;
-        public ilAddress.adLength moveRepeatRate; // 0x70
-        public ilAddress.operty explictlyIgnoreFocus; // 0x78
-        public ilAddress.operty shouldIgnoreFocus; // 0x80
-        public ilAddress.operty repeatRate; // 0x88
-        public ilAddress.operty repeatDelay; // 0x90
-        public ilAddress.operty xrTrackingOrigin; // 0x98
-        public ilAddress.operty trackedDeviceDragThresholdMultiplier; // 0xA0
-        public ilAddress.operty point; // 0xA8
-        public ilAddress.operty scrollWheel; // 0xB0
-        public ilAddress.operty leftClick; // 0xB8
-        public ilAddress.operty middleClick; // 0xC0
-        public bool rightClick; // 0xC8
-        public gControlLayout.sRecursive move; // 0xCC
-        public get_compensateForScreenOrientation submit; // 0xD0
-        public float cancel; // 0xD4
-        public URA.DateTime<ilAddress.s,_2> trackedDeviceOrientation; // 0x8
-        public bool trackedDevicePosition; // 0xD8
-        public bool trackedDeviceSelect; // 0xD9
-        public ileFullDirectoryInformation<et> actionsAsset; // 0xE0
-        public ileFullDirectoryInformation<et> sendPointerHoverToParent; // 0xE8
-        public ileFullDirectoryInformation<et> m_OnSubmitCancelDelegate; // 0xF0
-        public ileFullDirectoryInformation<et> m_OnLeftClickDelegate; // 0xF8
-        public ileFullDirectoryInformation<et> m_OnRightClickDelegate; // 0x100
-        public ileFullDirectoryInformation<et> m_OnMiddleClickDelegate; // 0x108
-        public ileFullDirectoryInformation<et> m_OnScrollWheelDelegate; // 0x110
-        public ileFullDirectoryInformation<et> m_OnTrackedDevicePositionDelegate; // 0x118
-        public ileFullDirectoryInformation<et> m_OnTrackedDeviceOrientationDelegate; // 0x120
-        public ileFullDirectoryInformation<object> m_OnControlsChangedDelegate; // 0x128
-        public int m_CurrentPointerId; // 0x130
-        public int m_CurrentPointerIndex; // 0x134
-        public gControlLayout.DeviceNameUnique m_CurrentPointerType; // 0x138
-        public 2.and<int> m_PointerIds; // 0x140
-        public 2.and<gControlLayout.ressPoint> m_PointerStates; // 0x150
-        public gControlLayout.et_defaultDeadzoneMin m_NavigationState; // 0x380
-        public gControlLayout.get_defaultButtonPressPoint m_SubmitCancelState; // 0x3A8
-        public BuffersImpl m_LocalMultiPlayerRoot; // 0x3B8
+        public object deselectOnBackgroundClick;
+        public object pointerBehavior;
+        public object cursorLockBehavior;
+        public object localMultiPlayerRoot;
+        public object scrollDeltaPerTick;
+        public object moveRepeatDelay;
+        public object moveRepeatRate;
+        public object explictlyIgnoreFocus;
+        public object shouldIgnoreFocus;
+        public object repeatRate;
+        public object repeatDelay;
+        public object xrTrackingOrigin;
+        public object trackedDeviceDragThresholdMultiplier;
+        public object point;
+        public object scrollWheel;
+        public object leftClick;
+        public object middleClick;
+        public object rightClick;
+        public object move;
+        public object submit;
+        public object cancel;
+        public object trackedDeviceOrientation;
+        public object trackedDevicePosition;
+        public object trackedDeviceSelect;
+        public object actionsAsset;
+        public object sendPointerHoverToParent;
 
         // ── Methods ──
         public void get_deselectOnBackgroundClick(){} // RVA: 0x7FFD4F14B010
@@ -231,7 +215,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class MultiplayerEventSystem : EventSystem
     {
-        public BuffersImpl playerRoot; // 0x60
+        public object playerRoot;
 
         // ── Methods ──
         public void get_playerRoot(){} // RVA: 0x7FFD4E3DF370
@@ -245,33 +229,22 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class NavigationModel : ValueType
     {
-        public tionX move; // 0x10
-        public int consecutiveMoveCount; // 0x18
-        public moryFailure.in lastMoveDirection; // 0x1C
-        public float lastMoveTime; // 0x20
-        public moryFailure.en>>.Remove eventData; // 0x28
-        public ilAddress.ActionProperty device; // 0x30
-
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD54A71B40
     }
 
     public class PointerModel : ValueType
     {
-        public bool pointerType; // 0x10
-        public ÏÏÏÌÍÏÏÎÏÍÌÌÌÌÌÍÎÍÍÌ screenPosition; // 0x18
-        public ÏÏÏÌÍÏÏÎÏÍÌÌÌÌÌÍÎÍÍÌ worldPosition; // 0xB0
-        public ÏÏÏÌÍÏÏÎÏÍÌÌÌÌÌÍÎÍÍÌ worldOrientation; // 0x148
-        public gControlLayout.trolLayouts scrollDelta; // 0x1E0
-        public tionX pressure; // 0x1E8
-        public tionX azimuthAngle; // 0x1F0
-        public amut altitudeAngle; // 0x1F8
-        public R_12x12 twist; // 0x204
-        public float radius; // 0x214
-        public float m_AzimuthAngle; // 0x218
-        public float m_AltitudeAngle; // 0x21C
-        public float m_Twist; // 0x220
-        public tionX m_Radius; // 0x224
+        public object pointerType;
+        public object screenPosition;
+        public object worldPosition;
+        public object worldOrientation;
+        public object scrollDelta;
+        public object pressure;
+        public object azimuthAngle;
+        public object altitudeAngle;
+        public object twist;
+        public object radius;
 
         // ── Methods ──
         public void get_pointerType(){} // RVA: 0x7FFD54A71B90
@@ -300,21 +273,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class SubmitCancelModel : ValueType
     {
-        public moryFailure..Newtonsoft.Json.Linq.JToken>.Values eventData; // 0x10
-        public ilAddress.ActionProperty device; // 0x18
     }
 
     public class TrackedDeviceRaycaster : BaseRaycaster
     {
-        public URA.woDigitYearMax<Current> eventCamera; // 0x28
-        public 2.and<gControlLayout.e> blockingMask;
-        public URA.woDigitYearMax<Current> checkFor3DOcclusion; // 0x18
-        public bool checkFor2DOcclusion; // 0x30
-        public bool ignoreReversedGraphics; // 0x31
-        public bool maxDistance; // 0x32
-        public float canvas; // 0x34
-        public object m_BlockingMask; // 0x38
-        public pad m_Canvas; // 0x40
+        public object eventCamera;
+        public object blockingMask;
+        public object checkFor3DOcclusion;
+        public object checkFor2DOcclusion;
+        public object ignoreReversedGraphics;
+        public object maxDistance;
+        public object canvas;
 
         // ── Methods ──
         public void get_eventCamera(){} // RVA: 0x7FFD54A726A0
@@ -341,25 +310,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class VirtualMouseInput : MonoBehaviour
     {
-        public uchSchemeIndex cursorTransform; // 0x20
-        public ePathName117.hInputPathName124 cursorSpeed; // 0x28
-        public 16 cursorMode; // 0x30
-        public float cursorGraphic; // 0x38
-        public float scrollSpeed; // 0x3C
-        public ilAddress.Providers virtualMouse; // 0x40
-        public ilAddress.Providers stickAction; // 0x58
-        public ilAddress.Providers leftButtonAction; // 0x70
-        public ilAddress.Providers rightButtonAction; // 0x88
-        public ilAddress.Providers middleButtonAction; // 0xA0
-        public ilAddress.Providers forwardButtonAction; // 0xB8
-        public ilAddress.Providers backButtonAction; // 0xD0
-        public pad scrollWheelAction; // 0xE8
-        public ilAddress.ÏÏÌÍÏÍÌÍ m_VirtualMouse; // 0xF0
-        public ilAddress.ÏÏÌÍÏÍÌÍ m_SystemMouse; // 0xF8
-        public ÎÌÍÏÏÌÍÏ m_AfterInputUpdateDelegate; // 0x100
-        public ileFullDirectoryInformation<et> m_ButtonActionTriggeredDelegate; // 0x108
-        public double m_LastTime; // 0x110
-        public tionX m_LastStickValue; // 0x118
+        public object cursorTransform;
+        public object cursorSpeed;
+        public object cursorMode;
+        public object cursorGraphic;
+        public object scrollSpeed;
+        public object virtualMouse;
+        public object stickAction;
+        public object leftButtonAction;
+        public object rightButtonAction;
+        public object middleButtonAction;
+        public object forwardButtonAction;
+        public object backButtonAction;
+        public object scrollWheelAction;
 
         // ── Methods ──
         public void get_cursorTransform(){} // RVA: 0x7FFD4E5F95E0

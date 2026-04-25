@@ -7,66 +7,36 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 {
     public class FontAsset : TextAsset
     {
-        public string fontAssetCreationEditorSettings; // 0x38
-        public SessionKey.ssetFile_DeleteByName sourceFontFile; // 0x40
-        public IsWithinBudget atlasPopulationMode; // 0x98
-        public string faceInfo; // 0xA0
-        public SessionKey.uManager familyNameHashCode; // 0xA8
-        public bool styleNameHashCode; // 0xAC
-        public e.ToInstance glyphTable; // 0xB0
-        public int glyphLookupTable; // 0x110
-        public int characterTable; // 0x114
-        public URA.woDigitYearMax<e.ypeHash> characterLookupTable; // 0x118
-        public URA.DateTime<uint,e.ypeHash> atlasTexture; // 0x120
-        public URA.woDigitYearMax<SessionKey.ag> atlasTextures; // 0x128
-        public URA.DateTime<uint,SessionKey.ag> atlasTextureCount; // 0x130
-        public ector isMultiAtlasTexturesEnabled; // 0x138
-        public ector[] clearDynamicDataOnBuild; // 0x140
-        public int atlasWidth; // 0x148
-        public bool atlasHeight; // 0x14C
-        public bool atlasPadding; // 0x14D
-        public int atlasRenderMode; // 0x150
-        public int usedGlyphRects; // 0x154
-        public int freeGlyphRects; // 0x158
-        public tPackageJObject.izablePackage fontFeatureTable; // 0x15C
-        public URA.woDigitYearMax<e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d> fallbackFontAssetTable; // 0x160
-        public URA.woDigitYearMax<e.InitializeRegistryAsync>g__TryInitializePackageAsync|0>d> fontWeightTable; // 0x168
-        public SessionKey.chSession regularStyleWeight; // 0x170
-        public URA.woDigitYearMax<SessionKey.ownloadById> regularStyleSpacing; // 0x178
-        public SessionKey.le_DeleteById[] boldStyleWeight; // 0x180
-        public float boldStyleSpacing; // 0x188
-        public float italicStyleSlant; // 0x18C
-        public float tabMultiple; // 0x190
-        public float m_BoldStyleSpacing; // 0x194
-        public byte m_ItalicStyleSlant; // 0x198
-        public byte m_TabMultiple; // 0x199
-        public bool IsFontAssetLookupTablesDirty; // 0x19A
-        public object k_ReadFontAssetDefinitionMarker;
-        public object k_AddSynthesizedCharactersMarker; // 0x8
-        public object k_TryAddCharacterMarker; // 0x10
-        public object k_TryAddCharactersMarker; // 0x18
-        public object k_UpdateGlyphAdjustmentRecordsMarker; // 0x20
-        public object k_UpdateDiacriticalMarkAdjustmentRecordsMarker; // 0x28
-        public object k_ClearFontAssetDataMarker; // 0x30
-        public object k_UpdateFontAssetDataMarker; // 0x38
-        public object k_TryAddGlyphMarker; // 0x40
-        public string s_DefaultMaterialSuffix; // 0x48
-        public URA.onsDepth<int> k_SearchedFontAssetLookup; // 0x50
-        public URA.woDigitYearMax<SessionKey.ownloadById> k_FontAssets_FontFeaturesUpdateQueue; // 0x58
-        public URA.onsDepth<int> k_FontAssets_FontFeaturesUpdateQueueLookup; // 0x60
-        public URA.woDigitYearMax<ector> k_FontAssets_AtlasTexturesUpdateQueue; // 0x68
-        public URA.onsDepth<int> k_FontAssets_AtlasTexturesUpdateQueueLookup; // 0x70
-        public URA.woDigitYearMax<e.ypeHash> m_GlyphsToRender; // 0x1A0
-        public URA.woDigitYearMax<e.ypeHash> m_GlyphsRendered; // 0x1A8
-        public URA.woDigitYearMax<uint> m_GlyphIndexList; // 0x1B0
-        public URA.woDigitYearMax<uint> m_GlyphIndexListNewlyAdded; // 0x1B8
-        public URA.woDigitYearMax<uint> m_GlyphsToAdd; // 0x1C0
-        public URA.onsDepth<uint> m_GlyphsToAddLookup; // 0x1C8
-        public URA.woDigitYearMax<SessionKey.ag> m_CharactersToAdd; // 0x1D0
-        public URA.onsDepth<uint> m_CharactersToAddLookup; // 0x1D8
-        public URA.woDigitYearMax<uint> s_MissingCharacterList; // 0x1E0
-        public URA.onsDepth<uint> m_MissingUnicodesFromFontFile; // 0x1E8
-        public uint[] k_GlyphIndexArray; // 0x78
+        public object fontAssetCreationEditorSettings;
+        public object sourceFontFile;
+        public object atlasPopulationMode;
+        public object faceInfo;
+        public object familyNameHashCode;
+        public object styleNameHashCode;
+        public object glyphTable;
+        public object glyphLookupTable;
+        public object characterTable;
+        public object characterLookupTable;
+        public object atlasTexture;
+        public object atlasTextures;
+        public object atlasTextureCount;
+        public object isMultiAtlasTexturesEnabled;
+        public object clearDynamicDataOnBuild;
+        public object atlasWidth;
+        public object atlasHeight;
+        public object atlasPadding;
+        public object atlasRenderMode;
+        public object usedGlyphRects;
+        public object freeGlyphRects;
+        public object fontFeatureTable;
+        public object fallbackFontAssetTable;
+        public object fontWeightTable;
+        public object regularStyleWeight;
+        public object regularStyleSpacing;
+        public object boldStyleWeight;
+        public object boldStyleSpacing;
+        public object italicStyleSlant;
+        public object tabMultiple;
 
         // ── Methods ──
         public void get_fontAssetCreationEditorSettings(){} // RVA: 0x7FFD54E1D820
@@ -178,17 +148,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class SpriteAsset : TextAsset
     {
-        public URA.DateTime<int,int> faceInfo; // 0x38
-        public URA.DateTime<uint,int> spriteSheet; // 0x40
-        public e.ToInstance spriteCharacterTable; // 0x48
-        public ÎÎÏÏÍÎÎÍÏÍÌ>k__BackingField spriteCharacterLookupTable; // 0xA8
-        public URA.woDigitYearMax<SessionKey.nsecure> spriteGlyphTable; // 0xB0
-        public URA.DateTime<uint,SessionKey.nsecure> m_SpriteCharacterLookup; // 0xB8
-        public URA.woDigitYearMax<SessionKey.ing_StartMatch> m_SpriteGlyphTable; // 0xC0
-        public URA.DateTime<uint,SessionKey.ing_StartMatch> m_SpriteGlyphLookup; // 0xC8
-        public URA.woDigitYearMax<SessionKey.hmaking_EnqueueRoom2> fallbackSpriteAssets; // 0xD0
-        public bool m_IsSpriteAssetLookupTablesDirty; // 0xD8
-        public URA.onsDepth<int> k_searchedSpriteAssets;
+        public object faceInfo;
+        public object spriteSheet;
+        public object spriteCharacterTable;
+        public object spriteCharacterLookupTable;
+        public object spriteGlyphTable;
 
         // ── Methods ──
         public void get_faceInfo(){} // RVA: 0x7FFD54E2FC10
@@ -218,11 +182,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextAsset : ScriptableObject
     {
-        public string version; // 0x18
-        public int instanceID; // 0x20
-        public int hashCode; // 0x24
-        public atrix_Injected material; // 0x28
-        public int materialHashCode; // 0x30
+        public object version;
+        public object instanceID;
+        public object hashCode;
+        public object material;
+        public object materialHashCode;
 
         // ── Methods ──
         public void get_version(){} // RVA: 0x7FFD50CC1130
@@ -239,14 +203,6 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextColorGradient : ScriptableObject
     {
-        public SessionKey.cationArrayPage colorMode; // 0x18
-        public object topLeft; // 0x1C
-        public object topRight; // 0x2C
-        public object bottomLeft; // 0x3C
-        public object bottomRight; // 0x4C
-        public SessionKey.cationArrayPage k_DefaultColorMode;
-        public object k_DefaultColor;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54B5A5B0 | overloaded x3
         public void .cctor(){} // RVA: 0x7FFD54E31E50
@@ -254,9 +210,6 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextGeneratorUtilities : Object
     {
-        public tionX largePositiveVector2;
-        public tionX largeNegativeVector2; // 0x8
-
         // ── Methods ──
         public void Approximately(){} // RVA: 0x7FFD54E5A440
         public void HexCharsToColor(){} // RVA: 0x7FFD54E5AB00 | overloaded x2
@@ -299,25 +252,6 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextInfo : Object
     {
-        public tionX s_InfinityVectorPositive;
-        public tionX s_InfinityVectorNegative; // 0x8
-        public int characterCount; // 0x10
-        public int spriteCount; // 0x14
-        public int spaceCount; // 0x18
-        public int wordCount; // 0x1C
-        public int linkCount; // 0x20
-        public int lineCount; // 0x24
-        public int pageCount; // 0x28
-        public int materialCount; // 0x2C
-        public SessionKey.ification_MarkAsRead[] textElementInfo; // 0x30
-        public SessionKey.sageWithCloudStorageUpdateResponse[] wordInfo; // 0x38
-        public SessionKey.EnqueueRoom[] linkInfo; // 0x40
-        public SessionKey.lidation[] lineInfo; // 0x48
-        public SessionKey.lementDecl[] pageInfo; // 0x50
-        public SessionKey._Enqueue[] meshInfo; // 0x58
-        public bool isDirty; // 0x60
-        public bool hasMultipleColors; // 0x61
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD54E624D0
         public void Clear(){} // RVA: 0x7FFD54E627B0
@@ -330,12 +264,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
-        public T1717704224[] Count;
-        public int current;
-        public T1717704224 m_DefaultItem;
-        public int m_Capacity;
-        public int m_RolloverSize;
-        public int m_Count;
+        public object Count;
+        public object current;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092E60 | overloaded x3
@@ -353,25 +283,23 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextSettings : ScriptableObject
     {
-        public string version; // 0x18
-        public SessionKey.ownloadById defaultFontAsset; // 0x20
-        public string defaultFontAssetPath; // 0x28
-        public URA.woDigitYearMax<SessionKey.ownloadById> fallbackFontAssets; // 0x30
-        public bool matchMaterialPreset; // 0x38
-        public int missingCharacterUnicode; // 0x3C
-        public bool clearDynamicDataOnBuild; // 0x40
-        public SessionKey.hmaking_EnqueueRoom2 defaultSpriteAsset; // 0x48
-        public string defaultSpriteAssetPath; // 0x50
-        public URA.woDigitYearMax<SessionKey.hmaking_EnqueueRoom2> fallbackSpriteAssets; // 0x58
-        public uint missingSpriteCharacterUnicode; // 0x60
-        public SessionKey.geWithShareMediaResult defaultStyleSheet; // 0x68
-        public string styleSheetsResourcePath; // 0x70
-        public string defaultColorGradientPresetsPath; // 0x78
-        public SessionKey.essageWithSystemVoipState lineBreakingRules; // 0x80
-        public bool useModernHangulLineBreakingRules; // 0x88
-        public bool displayWarnings; // 0x89
-        public URA.DateTime<int,SessionKey.ownloadById> m_FontLookup; // 0x90
-        public URA.woDigitYearMax<ithRoomList> m_FontReferences; // 0x98
+        public object version;
+        public object defaultFontAsset;
+        public object defaultFontAssetPath;
+        public object fallbackFontAssets;
+        public object matchMaterialPreset;
+        public object missingCharacterUnicode;
+        public object clearDynamicDataOnBuild;
+        public object defaultSpriteAsset;
+        public object defaultSpriteAssetPath;
+        public object fallbackSpriteAssets;
+        public object missingSpriteCharacterUnicode;
+        public object defaultStyleSheet;
+        public object styleSheetsResourcePath;
+        public object defaultColorGradientPresetsPath;
+        public object lineBreakingRules;
+        public object useModernHangulLineBreakingRules;
+        public object displayWarnings;
 
         // ── Methods ──
         public void get_version(){} // RVA: 0x7FFD4E3447C0
@@ -416,8 +344,7 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextStyleSheet : ScriptableObject
     {
-        public URA.woDigitYearMax<SessionKey.sult> styles; // 0x18
-        public URA.DateTime<int,SessionKey.sult> m_StyleLookupDictionary; // 0x20
+        public object styles;
 
         // ── Methods ──
         public void get_styles(){} // RVA: 0x7FFD50CC1130

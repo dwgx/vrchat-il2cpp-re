@@ -676,14 +676,7 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineInput : Object
     {
-        public URA.onsDepth<ormation<bool>> Name; // 0x10
-        public int _lastFreezeInputCheckFrame; // 0x18
-        public ÍÍ _lastFreezeState; // 0x1C
-        public bool _lastShouldFreeze; // 0x20
-        public dle<URA.DateTime<string,int>> _parameterCounts; // 0x28
-        public dle<URA.DateTime<string,xture.Tracing>> _functionDelegates; // 0x30
-        public pertyBlock _componentGetter; // 0x38
-        public caleOffset_Injected<?> _filter; // 0x40
+        public object Name;
 
         // ── Methods ──
         public void get_Name(){} // RVA: 0x7FFD4FB72500

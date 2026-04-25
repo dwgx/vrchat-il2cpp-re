@@ -7,25 +7,9 @@ namespace VRC.Core
 {
     public class API : Object
     {
-        public string ClientGameServerVersion;
-        public string DeviceID;
-        public string IsVRCClient;
-        public string releaseApiUrl;
-        public string _apiStore; // 0x8
-        public bool _allowRoaming; // 0x10
-        public int _clientGameServerVersion; // 0x14
-        public string _clientVersion; // 0x18
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.m.String,BestHTTP.JSON.Json.Token>.get_Values _apiOnlineMode; // 0x20
-        public float RESPONSE_CACHE_LIFETIME;
-        public string LOG_CATEGORY;
-        public URA.DateTime<string,String,System.Object>>.Contains> EndpointAccessTimes; // 0x28
-        public int MAX_RETRY_COUNT;
-        public float RETRY_DELAY_SECONDS;
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.rl Favorites; // 0x30
-        public int _lastRequestId; // 0x38
-        public URA.DateTime<string,ÏÏÎÏÍÏÌÎÏÍÏ.ÌÏÍÍÍ> _activeRequests; // 0x40
-        public URA.woDigitYearMax<URA.DayNames<string,_TA_ECDSA_SHA_1>> _offlineQueries; // 0x48
-        public bool <IsVRCClient>k__BackingField; // 0x50
+        public object ClientGameServerVersion;
+        public object DeviceID;
+        public object IsVRCClient;
 
         // ── Methods ──
         public void get_ClientGameServerVersion(){} // RVA: 0x7FFD5727A1A0
@@ -81,9 +65,9 @@ namespace VRC.Core
 
     public class APICalendarEntryUserInterest : ApiModel
     {
-        public bool isFollowing; // 0x68
-        public DependencyInjector createdAt; // 0x70
-        public DependencyInjector updatedAt; // 0x78
+        public object isFollowing;
+        public object createdAt;
+        public object updatedAt;
 
         // ── Methods ──
         public void get_isFollowing(){} // RVA: 0x7FFD4E409570
@@ -176,19 +160,16 @@ namespace VRC.Core
 
     public class APIEmoji : ApiModel
     {
-        public string fileId; // 0x68
-        public string imageUrl; // 0x70
-        public string animationStyle; // 0x78
-        public string maskTag; // 0x80
-        public bool animated; // 0x88
-        public int frames; // 0x8C
-        public int framesOverTime; // 0x90
-        public string loopStyle; // 0x98
-        public string assetBundleId; // 0xA0
-        public bool premium; // 0xA8
-        public string endpoint;
-        public string LOOP_STYLE_LINEAR;
-        public string LOOP_STYLE_PINGPONG;
+        public object fileId;
+        public object imageUrl;
+        public object animationStyle;
+        public object maskTag;
+        public object animated;
+        public object frames;
+        public object framesOverTime;
+        public object loopStyle;
+        public object assetBundleId;
+        public object premium;
 
         // ── Methods ──
         public void get_fileId(){} // RVA: 0x7FFD4E3BCD50
@@ -219,40 +200,40 @@ namespace VRC.Core
 
     public class APIGroup : ApiModel
     {
-        public string ownerId; // 0x68
-        public string name; // 0x70
-        public string shortCode; // 0x78
-        public string discriminator; // 0x80
-        public string description; // 0x88
-        public string iconUrl; // 0x90
-        public string bannerUrl; // 0x98
-        public int memberCount; // 0xA0
-        public int onlineMemberCount; // 0xA4
-        public string memberCountSyncedAt; // 0xA8
-        public string privacy; // 0xB0
-        public string joinState; // 0xB8
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.rms myMember; // 0xC0
-        public DependencyInjector createdAt; // 0xC8
-        public DependencyInjector updatedAt; // 0xD0
-        public string membershipStatus; // 0xD8
-        public string bannerId; // 0xE0
-        public string iconId; // 0xE8
-        public string rules; // 0xF0
-        public URA.woDigitYearMax<string> initialRoleIds; // 0xF8
-        public bool isSystemGroup; // 0x100
-        public bool isVerified; // 0x101
-        public URA.woDigitYearMax<ng> galleries; // 0x108
-        public URA.woDigitYearMax<string> tags; // 0x110
-        public bool isSearchable; // 0x118
-        public int sizeQuality; // 0x11C
-        public int activityQuality; // 0x120
-        public int engagementQuality; // 0x124
-        public int contentQuality; // 0x128
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.BackingField> roles; // 0x130
-        public URA.woDigitYearMax<string> links; // 0x138
-        public URA.woDigitYearMax<string> languages; // 0x140
-        public DependencyInjector lastPostCreatedAt; // 0x148
-        public string storeId; // 0x150
+        public object ownerId;
+        public object name;
+        public object shortCode;
+        public object discriminator;
+        public object description;
+        public object iconUrl;
+        public object bannerUrl;
+        public object memberCount;
+        public object onlineMemberCount;
+        public object memberCountSyncedAt;
+        public object privacy;
+        public object joinState;
+        public object myMember;
+        public object createdAt;
+        public object updatedAt;
+        public object membershipStatus;
+        public object bannerId;
+        public object iconId;
+        public object rules;
+        public object initialRoleIds;
+        public object isSystemGroup;
+        public object isVerified;
+        public object galleries;
+        public object tags;
+        public object isSearchable;
+        public object sizeQuality;
+        public object activityQuality;
+        public object engagementQuality;
+        public object contentQuality;
+        public object roles;
+        public object links;
+        public object languages;
+        public object lastPostCreatedAt;
+        public object storeId;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57336030 | overloaded x2
@@ -351,15 +332,15 @@ namespace VRC.Core
 
     public class APIGroupAnnouncement : ApiModel
     {
-        public string groupId; // 0x68
-        public string authorId; // 0x70
-        public string title; // 0x78
-        public string text; // 0x80
-        public string imageUrl; // 0x88
-        public string visibility; // 0x90
-        public DependencyInjector createdAt; // 0x98
-        public DependencyInjector updatedAt; // 0xA0
-        public URA.woDigitYearMax<string> roleIds; // 0xA8
+        public object groupId;
+        public object authorId;
+        public object title;
+        public object text;
+        public object imageUrl;
+        public object visibility;
+        public object createdAt;
+        public object updatedAt;
+        public object roleIds;
 
         // ── Methods ──
         public void get_groupId(){} // RVA: 0x7FFD4E3BCD50
@@ -386,41 +367,38 @@ namespace VRC.Core
 
     public class APIGroupList : ApiModel
     {
-        public string ownerId; // 0x68
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.<pastDisplayNames>k__BackingField> groups; // 0x70
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5733EFD0 | overloaded x2
     }
 
     public class APIGroupMember : ApiModel
     {
-        public string groupId; // 0x68
-        public string userId; // 0x70
-        public URA.woDigitYearMax<string> roleIds; // 0x78
-        public URA.woDigitYearMax<string> mRoleIds; // 0x80
-        public URA.woDigitYearMax<string> permissions; // 0x88
-        public string memberVisibility; // 0x90
-        public string membershipStatus; // 0x98
-        public bool isRepresenting; // 0xA0
-        public bool mutualGroup; // 0xA1
-        public string name; // 0xA8
-        public string ownerId; // 0xB0
-        public string shortCode; // 0xB8
-        public string discriminator; // 0xC0
-        public string iconUrl; // 0xC8
-        public string bannerUrl; // 0xD0
-        public string privacy; // 0xD8
-        public string visibility; // 0xE0
-        public bool isSubscribedToAnnouncements; // 0xE8
-        public bool isSubscribedToEventAnnouncements; // 0xE9
-        public int memberCount; // 0xEC
-        public DependencyInjector joinedAt; // 0xF0
-        public DependencyInjector bannedAt; // 0xF8
-        public DependencyInjector lastPostReadAt; // 0x100
-        public DependencyInjector lastPostCreatedAt; // 0x108
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.reated user; // 0x110
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.<pastDisplayNames>k__BackingField group; // 0x118
+        public object groupId;
+        public object userId;
+        public object roleIds;
+        public object mRoleIds;
+        public object permissions;
+        public object memberVisibility;
+        public object membershipStatus;
+        public object isRepresenting;
+        public object mutualGroup;
+        public object name;
+        public object ownerId;
+        public object shortCode;
+        public object discriminator;
+        public object iconUrl;
+        public object bannerUrl;
+        public object privacy;
+        public object visibility;
+        public object isSubscribedToAnnouncements;
+        public object isSubscribedToEventAnnouncements;
+        public object memberCount;
+        public object joinedAt;
+        public object bannedAt;
+        public object lastPostReadAt;
+        public object lastPostCreatedAt;
+        public object user;
+        public object group;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5733F8B0
@@ -484,8 +462,8 @@ namespace VRC.Core
 
     public class APIGroupMemberList : ApiModel
     {
-        public string groupId; // 0x68
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.rms> members; // 0x70
+        public object groupId;
+        public object members;
 
         // ── Methods ──
         public void get_groupId(){} // RVA: 0x7FFD4E3BCD50
@@ -497,18 +475,18 @@ namespace VRC.Core
 
     public class APIGroupRole : ApiModel
     {
-        public string groupId; // 0x68
-        public string name; // 0x70
-        public string description; // 0x78
-        public bool isSelfAssignable; // 0x80
-        public bool requiresTwoFactor; // 0x81
-        public bool isManagementRole; // 0x82
-        public bool requiresPurchase; // 0x83
-        public DependencyInjector createdAt; // 0x88
-        public DependencyInjector updatedAt; // 0x90
-        public bool defaultRole; // 0x98
-        public int order; // 0x9C
-        public URA.woDigitYearMax<string> permissions; // 0xA0
+        public object groupId;
+        public object name;
+        public object description;
+        public object isSelfAssignable;
+        public object requiresTwoFactor;
+        public object isManagementRole;
+        public object requiresPurchase;
+        public object createdAt;
+        public object updatedAt;
+        public object defaultRole;
+        public object order;
+        public object permissions;
 
         // ── Methods ──
         public void get_groupId(){} // RVA: 0x7FFD4E3BCD50
@@ -540,8 +518,8 @@ namespace VRC.Core
 
     public class APIGroupRoleList : ApiModel
     {
-        public string groupId; // 0x68
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.BackingField> roles; // 0x70
+        public object groupId;
+        public object roles;
 
         // ── Methods ──
         public void get_groupId(){} // RVA: 0x7FFD4E3BCD50
@@ -553,17 +531,16 @@ namespace VRC.Core
 
     public class APISticker : ApiModel
     {
-        public string fileId; // 0x68
-        public string imageUrl; // 0x70
-        public string specialEffect; // 0x78
-        public string animationStyle; // 0x80
-        public string maskTag; // 0x88
-        public bool animated; // 0x90
-        public int frames; // 0x94
-        public int framesOverTime; // 0x98
-        public string loopStyle; // 0xA0
-        public string assetBundleId; // 0xA8
-        public string endpoint;
+        public object fileId;
+        public object imageUrl;
+        public object specialEffect;
+        public object animationStyle;
+        public object maskTag;
+        public object animated;
+        public object frames;
+        public object framesOverTime;
+        public object loopStyle;
+        public object assetBundleId;
 
         // ── Methods ──
         public void get_fileId(){} // RVA: 0x7FFD4E3BCD50
@@ -592,10 +569,9 @@ namespace VRC.Core
 
     public class APITutorial : ApiModel
     {
-        public string IsTutorialCompleted;
-        public bool CompletedAnyTutorial; // 0x68
-        public bool TutorialKey; // 0x69
-        public string <TutorialKey>k__BackingField; // 0x70
+        public object IsTutorialCompleted;
+        public object CompletedAnyTutorial;
+        public object TutorialKey;
 
         // ── Methods ──
         public void get_IsTutorialCompleted(){} // RVA: 0x7FFD4E409570
@@ -610,17 +586,14 @@ namespace VRC.Core
 
     public class APIUIColorPalette : ApiModel
     {
-        public string ownerId; // 0x68
-        public string name; // 0x70
-        public string highlights; // 0x78
-        public string icons; // 0x80
-        public string buttons; // 0x88
-        public string backgrounds; // 0x90
-        public string text; // 0x98
-        public string subtext; // 0xA0
-        public string endpoint;
-        public string endpoint_current;
-        public URA.DateTime<string,ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.riginalError> _fakeApi;
+        public object ownerId;
+        public object name;
+        public object highlights;
+        public object icons;
+        public object buttons;
+        public object backgrounds;
+        public object text;
+        public object subtext;
 
         // ── Methods ──
         public void get_ownerId(){} // RVA: 0x7FFD4E3BCD50
@@ -650,92 +623,120 @@ namespace VRC.Core
 
     public class APIUser : ApiModel
     {
-        public float blob;
-        public float displayName;
-        public int username;
-        public int pronouns;
-        public string bio;
-        public string bioLinks;
-        public string location;
-        public string avatarId;
-        public string fallbackId;
-        public string hasEmail;
-        public string isBoopingEnabled;
-        public string hasBirthday;
-        public string isFriend;
-        public string friendKey;
-        public string friendRequestStatus; // 0x68
-        public string last_login; // 0x70
-        public string last_activity; // 0x78
-        public string date_joined; // 0x80
-        public string developerType; // 0x88
-        public URA.woDigitYearMax<string> events; // 0x90
-        public string acceptedTOSVersion; // 0x98
-        public string queuedInstance; // 0xA0
-        public string queuedInstancePosition; // 0xA8
-        public bool acceptedPrivacyVersion; // 0xB0
-        public bool currentAvatarImageUrl; // 0xB1
-        public bool currentAvatarThumbnailImageUrl; // 0xB2
-        public bool currentAvatarTags; // 0xB3
-        public string authToken; // 0xB8
-        public string emailVerified; // 0xC0
-        public string hasPendingEmail; // 0xC8
-        public string obfuscatedPendingEmail; // 0xD0
-        public string friendIDs; // 0xD8
-        public seCancelSubscriptionInfo currentAvatarAssetUrl; // 0xE0
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.k__BackingField> steamDetails; // 0xE8
-        public int travelingToLocation; // 0xF0
-        public string obfuscatedEmail; // 0xF8
-        public int unsubscribe; // 0x100
-        public int hasLoggedInFromClient; // 0x104
-        public string pastDisplayNames; // 0x108
-        public string homeLocation; // 0x110
-        public URA.woDigitYearMax<string> tags; // 0x118
-        public string status; // 0x120
-        public bool statusDescription; // 0x128
-        public bool badges; // 0x129
-        public string statusHistory; // 0x130
-        public URA.woDigitYearMax<string> state; // 0x138
-        public string allowAvatarCopying; // 0x140
-        public URA.DateTime<string,object> hasSharedConnectionsOptOut; // 0x148
-        public string hasDiscordFriendsOptOut; // 0x150
-        public string userIcon; // 0x158
-        public bool profilePicOverride; // 0x160
-        public bool note; // 0x161
-        public URA.woDigitYearMax<string> iconUrl; // 0x168
-        public string thumbnailUrl; // 0x170
-        public URA.woDigitYearMax<string> hideContentFilterSettings; // 0x178
-        public string contentFilters; // 0x180
-        public string userLanguageCode; // 0x188
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.eBlocks> ageVerified; // 0x190
-        public URA.woDigitYearMax<string> isAdult; // 0x198
-        public string ageVerificationStatus; // 0x1A0
-        public bool discordId; // 0x1A8
-        public bool hasAcceptedDiscordSocialSDKPerms; // 0x1A9
-        public bool last_platform; // 0x1AA
-        public string platform; // 0x1B0
-        public string last_mobile; // 0x1B8
-        public string twoFactorAuthEnabled; // 0x1C0
-        public string twoFactorAuthMethods; // 0x1C8
-        public string LanguageTagsDictionary; // 0x1D0
-        public bool languagesDisplayNames; // 0x1D8
-        public URA.woDigitYearMax<string> LanguagesShortNames; // 0x1E0
-        public string ShouldSeeInstanceByStatus; // 0x1E8
-        public bool IsOnMobile; // 0x1F0
-        public bool profilePicImageUrl; // 0x1F1
-        public string profilePicThumbnailImageUrl; // 0x1F8
-        public string IsAccountVerified; // 0x200
-        public bool hasNoPowers; // 0x208
-        public string hasScriptingAccess; // 0x210
-        public string hasModerationPowers; // 0x218
-        public string hasVIPAccess; // 0x220
-        public bool hasSuperPowers; // 0x228
-        public URA.DateTime<string,object> canPublishWorldsAndAvatars; // 0x230
-        public URA.DateTime<string,string> canPublishAllContent;
-        public URA.woDigitYearMax<string> canPublishAvatars; // 0x238
-        public URA.woDigitYearMax<string> canPublishWorlds; // 0x240
-        public mePatterns.MES_SIZE canPublishProps; // 0x8
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.reated isUntrusted; // 0x10
+        public object blob;
+        public object displayName;
+        public object username;
+        public object pronouns;
+        public object bio;
+        public object bioLinks;
+        public object location;
+        public object avatarId;
+        public object fallbackId;
+        public object hasEmail;
+        public object isBoopingEnabled;
+        public object hasBirthday;
+        public object isFriend;
+        public object friendKey;
+        public object friendRequestStatus;
+        public object last_login;
+        public object last_activity;
+        public object date_joined;
+        public object developerType;
+        public object events;
+        public object acceptedTOSVersion;
+        public object queuedInstance;
+        public object queuedInstancePosition;
+        public object acceptedPrivacyVersion;
+        public object currentAvatarImageUrl;
+        public object currentAvatarThumbnailImageUrl;
+        public object currentAvatarTags;
+        public object authToken;
+        public object emailVerified;
+        public object hasPendingEmail;
+        public object obfuscatedPendingEmail;
+        public object friendIDs;
+        public object currentAvatarAssetUrl;
+        public object steamDetails;
+        public object travelingToLocation;
+        public object obfuscatedEmail;
+        public object unsubscribe;
+        public object hasLoggedInFromClient;
+        public object pastDisplayNames;
+        public object homeLocation;
+        public object tags;
+        public object status;
+        public object statusDescription;
+        public object badges;
+        public object statusHistory;
+        public object state;
+        public object allowAvatarCopying;
+        public object hasSharedConnectionsOptOut;
+        public object hasDiscordFriendsOptOut;
+        public object userIcon;
+        public object profilePicOverride;
+        public object note;
+        public object iconUrl;
+        public object thumbnailUrl;
+        public object hideContentFilterSettings;
+        public object contentFilters;
+        public object userLanguageCode;
+        public object ageVerified;
+        public object isAdult;
+        public object ageVerificationStatus;
+        public object discordId;
+        public object hasAcceptedDiscordSocialSDKPerms;
+        public object last_platform;
+        public object platform;
+        public object last_mobile;
+        public object twoFactorAuthEnabled;
+        public object twoFactorAuthMethods;
+        public object LanguageTagsDictionary;
+        public object languagesDisplayNames;
+        public object LanguagesShortNames;
+        public object ShouldSeeInstanceByStatus;
+        public object IsOnMobile;
+        public object profilePicImageUrl;
+        public object profilePicThumbnailImageUrl;
+        public object IsAccountVerified;
+        public object hasNoPowers;
+        public object hasScriptingAccess;
+        public object hasModerationPowers;
+        public object hasVIPAccess;
+        public object hasSuperPowers;
+        public object canPublishWorldsAndAvatars;
+        public object canPublishAllContent;
+        public object canPublishAvatars;
+        public object canPublishWorlds;
+        public object canPublishProps;
+        public object isUntrusted;
+        public object isNewUser;
+        public object isEarlyAdopter;
+        public object isSupporter;
+        public object hasBasicTrustLevel;
+        public object hasKnownTrustLevel;
+        public object hasTrustedTrustLevel;
+        public object hasVeteranTrustLevel;
+        public object hasLegendTrustLevel;
+        public object hasNegativeTrustLevel;
+        public object hasVeryNegativeTrustLevel;
+        public object hasFeedbackAccess;
+        public object showSocialRank;
+        public object showModTag;
+        public object canSetStatusOffline;
+        public object statusIsSetToOffline;
+        public object statusIsSetToJoinMe;
+        public object statusIsSetToAskMe;
+        public object statusIsSetToDoNotDisturb;
+        public object statusDefaultDescriptionDisplayString;
+        public object statusDescriptionDisplayString;
+        public object statusValue;
+        public object CurrentLocation;
+        public object canSeeAllUsersStatus;
+        public object IsLoggedIn;
+        public object IsSelf;
+        public object CurrentUser;
+        public object HasRequestedToBeFriend;
+        public object HasFriendRequestPending;
 
         // ── Methods ──
         public void ShouldCache(){} // RVA: 0x7FFD572F7F60
@@ -989,12 +990,12 @@ namespace VRC.Core
 
     public class ApiAdminAssetBundle : ApiModel
     {
-        public string name; // 0x68
-        public string description; // 0x70
-        public string imageUrl; // 0x78
-        public URA.woDigitYearMax<string> tags; // 0x80
-        public int assetVersion; // 0x88
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ext> unityPackages; // 0x90
+        public object name;
+        public object description;
+        public object imageUrl;
+        public object tags;
+        public object assetVersion;
+        public object unityPackages;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1038,24 +1039,22 @@ namespace VRC.Core
 
     public class ApiAvatar : ApiContentModel`1
     {
-        public URA.DateTime<?,string> impostorUrl; // 0xD8
-        public string variant; // 0xE0
-        public ptionHelper impostorUnityVersion; // 0xE8
-        public string unityPackages; // 0xF0
-        public URA.woDigitYearMax<sedTCPStream> created_at; // 0xF8
-        public DependencyInjector updated_at; // 0x100
-        public DependencyInjector attribution; // 0x108
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ubscription_start_time>k__BackingField offlineAnalysisScanStatus; // 0x110
-        public ry<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.Data> performanceRating; // 0x118
-        public string styles; // 0x120
-        public URA.DateTime<string,string> productId; // 0x128
-        public string publishedListings; // 0x130
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ift> lowestPrice; // 0x138
-        public aphy<int> highestPrice; // 0x140
-        public aphy<int> acknowledgements; // 0x148
-        public string LoadError; // 0x150
-        public string <LoadError>k__BackingField; // 0x158
-        public string AvatarsEndpoint;
+        public object impostorUrl;
+        public object variant;
+        public object impostorUnityVersion;
+        public object unityPackages;
+        public object created_at;
+        public object updated_at;
+        public object attribution;
+        public object offlineAnalysisScanStatus;
+        public object performanceRating;
+        public object styles;
+        public object productId;
+        public object publishedListings;
+        public object lowestPrice;
+        public object highestPrice;
+        public object acknowledgements;
+        public object LoadError;
 
         // ── Methods ──
         public void get_impostorUrl(){} // RVA: 0x7FFD4E3C2900
@@ -1104,9 +1103,8 @@ namespace VRC.Core
 
     public class ApiAvatarModeration : ApiModel
     {
-        public float moderationType;
-        public IsPowerOfTwo targetAvatarId; // 0x68
-        public string <targetAvatarId>k__BackingField; // 0x70
+        public object moderationType;
+        public object targetAvatarId;
 
         // ── Methods ──
         public void get_moderationType(){} // RVA: 0x7FFD4FBDAB50
@@ -1126,15 +1124,15 @@ namespace VRC.Core
 
     public class ApiBadge : ApiModel
     {
-        public string badgeId; // 0x68
-        public bool showcased; // 0x70
-        public string badgeName; // 0x78
-        public string badgeDescription; // 0x80
-        public string badgeImageUrl; // 0x88
-        public bool hidden; // 0x90
-        public DependencyInjector assignedAt; // 0x98
-        public DependencyInjector updatedAt; // 0xA0
-        public string assignedBy; // 0xA8
+        public object badgeId;
+        public object showcased;
+        public object badgeName;
+        public object badgeDescription;
+        public object badgeImageUrl;
+        public object hidden;
+        public object assignedAt;
+        public object updatedAt;
+        public object assignedBy;
 
         // ── Methods ──
         public void get_badgeId(){} // RVA: 0x7FFD4E3BCD50
@@ -1160,10 +1158,8 @@ namespace VRC.Core
 
     public class ApiCache : Object
     {
-        public ormation<long> Count;
-        public URA.DateTime<string,sToGet> NextExpiryTTL; // 0x8
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.d__169<sToGet> expiryQueue; // 0x10
-        public itializeImpl CleanupDelay; // 0x18
+        public object Count;
+        public object NextExpiryTTL;
 
         // ── Methods ──
         public void DefaultTimeProvider(){} // RVA: 0x7FFD57288760
@@ -1192,8 +1188,8 @@ namespace VRC.Core
 
     public class ApiCampaignAnonymizationStatus : ApiModel
     {
-        public bool isAnonymized; // 0x68
-        public string anonymizedName; // 0x70
+        public object isAnonymized;
+        public object anonymizedName;
 
         // ── Methods ──
         public void get_isAnonymized(){} // RVA: 0x7FFD4E409570
@@ -1205,11 +1201,11 @@ namespace VRC.Core
 
     public class ApiCampaignContributor : ApiModel
     {
-        public string userId; // 0x68
-        public string displayName; // 0x70
-        public int giftCount; // 0x78
-        public bool isAnonymized; // 0x7C
-        public bool isSelf; // 0x7D
+        public object userId;
+        public object displayName;
+        public object giftCount;
+        public object isAnonymized;
+        public object isSelf;
 
         // ── Methods ──
         public void get_userId(){} // RVA: 0x7FFD4E3BCD50
@@ -1227,9 +1223,9 @@ namespace VRC.Core
 
     public class ApiCampaignReward : ApiModel
     {
-        public bool isUnlocked; // 0x68
-        public string imageUrl; // 0x70
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.seCookieHeader>b__61_0 progression; // 0x78
+        public object isUnlocked;
+        public object imageUrl;
+        public object progression;
 
         // ── Methods ──
         public void get_isUnlocked(){} // RVA: 0x7FFD4E409570
@@ -1257,18 +1253,16 @@ namespace VRC.Core
 
     public class ApiContainer : Object
     {
-        public URA.DateTime<string,string> Cookies; // 0x10
-        public bool Populated; // 0x18
-        public bool PassedValidation; // 0x19
-        public int Code; // 0x1C
-        public string Text; // 0x20
-        public object Data; // 0x28
-        public float DataTimestamp; // 0x30
-        public string CreatedAt; // 0x38
-        public string Error; // 0x40
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.tBundleId>k__BackingField Model; // 0x48
-        public ileFullDirectoryInformation<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.InSlot>b__0> OnError; // 0x50
-        public ileFullDirectoryInformation<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.InSlot>b__0> OnSuccess; // 0x58
+        public object Cookies;
+        public object Populated;
+        public object PassedValidation;
+        public object Code;
+        public object Text;
+        public object Data;
+        public object DataTimestamp;
+        public object CreatedAt;
+        public object Error;
+        public object Model;
 
         // ── Methods ──
         public void get_Cookies(){} // RVA: 0x7FFD4E35C380
@@ -1300,26 +1294,24 @@ namespace VRC.Core
 
     public class ApiContentModel`1 : ApiModel
     {
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.et_canPublishWorlds VERSION;
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.et_canPublishWorlds name; // 0x8
-        public float imageUrl;
-        public float authorName;
-        public URA.DateTime<string,ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.et_pages> authorId; // 0x10
-        public string assetUrl; // 0x68
-        public string description; // 0x70
-        public string tags; // 0x78
-        public string thumbnailImageUrl; // 0x80
-        public string version; // 0x88
-        public string releaseStatus; // 0x90
-        public URA.woDigitYearMax<string> featured; // 0x98
-        public string unityPackageUpdated; // 0xA0
-        public int unityVersion; // 0xA8
-        public string apiVersion; // 0xB0
-        public bool platform; // 0xB8
-        public bool assetVersion; // 0xB9
-        public string IsLocal; // 0xC0
-        public int <apiVersion>k__BackingField; // 0xC8
-        public string <platform>k__BackingField; // 0xD0
+        public object VERSION;
+        public object name;
+        public object imageUrl;
+        public object authorName;
+        public object authorId;
+        public object assetUrl;
+        public object description;
+        public object tags;
+        public object thumbnailImageUrl;
+        public object version;
+        public object releaseStatus;
+        public object featured;
+        public object unityPackageUpdated;
+        public object unityVersion;
+        public object apiVersion;
+        public object platform;
+        public object assetVersion;
+        public object IsLocal;
 
         // ── Methods ──
         public void get_VERSION(){} // RVA: 0x7FFD4E078A90
@@ -1377,10 +1369,10 @@ namespace VRC.Core
 
     public class ApiDictContainer : ApiContainer
     {
-        public float cacheLifetime; // 0x60
-        public aphy<long> ExpiryTime; // 0x68
-        public string[] requiredFields; // 0x78
-        public URA.DayNames<string,_TA_ECDSA_SHA_1> ResponseDictionary;
+        public object cacheLifetime;
+        public object ExpiryTime;
+        public object requiredFields;
+        public object ResponseDictionary;
 
         // ── Methods ──
         public void get_cacheLifetime(){} // RVA: 0x7FFD4E451E10
@@ -1402,9 +1394,9 @@ namespace VRC.Core
 
     public class ApiDroneSkin : ApiModel
     {
-        public string name; // 0x68
-        public string assetBundleId; // 0x70
-        public string viewfinderAssetBundleId; // 0x78
+        public object name;
+        public object assetBundleId;
+        public object viewfinderAssetBundleId;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1418,16 +1410,18 @@ namespace VRC.Core
 
     public class ApiEconomyStore : ApiModel
     {
-        public string SellerId; // 0x68
-        public string SellerDisplayName; // 0x70
-        public string WorldId; // 0x78
-        public string GroupId; // 0x80
-        public ÏÍÏÍÍ StoreStatus; // 0x88
-        public string DisplayName; // 0x90
-        public string Description; // 0x98
-        public URA.woDigitYearMax<string> Tags; // 0xA0
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ift> Listings; // 0xA8
-        public URA.woDigitYearMax<string> ListingIDs; // 0xB0
+        public object SellerId;
+        public object SellerDisplayName;
+        public object WorldId;
+        public object GroupId;
+        public object StoreStatus;
+        public object DisplayName;
+        public object Description;
+        public object Tags;
+        public object Listings;
+        public object ListingIDs;
+        public object IsGroupStore;
+        public object IsWorldStore;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5728C270
@@ -1460,14 +1454,14 @@ namespace VRC.Core
 
     public class ApiFile : ApiModel
     {
-        public string name; // 0x68
-        public aphy<int> order; // 0x70
-        public string ownerId; // 0x78
-        public string mimeType; // 0x80
-        public string extension; // 0x88
-        public URA.woDigitYearMax<?> versions; // 0x90
-        public bool IsInitialized; // 0x98
-        public bool IsPendingInit; // 0x99
+        public object name;
+        public object order;
+        public object ownerId;
+        public object mimeType;
+        public object extension;
+        public object versions;
+        public object IsInitialized;
+        public object IsPendingInit;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1537,17 +1531,17 @@ namespace VRC.Core
 
     public class ApiGroupGalleryImage : ApiModel
     {
-        public string name; // 0x68
-        public string groupId; // 0x70
-        public string galleryId; // 0x78
-        public string fileId; // 0x80
-        public string imageUrl; // 0x88
-        public DependencyInjector createdAt; // 0x90
-        public bool approved; // 0x98
-        public DependencyInjector approvedAt; // 0xA0
-        public string approvedByUserId; // 0xA8
-        public string submittedByUserId; // 0xB0
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.? file; // 0xB8
+        public object name;
+        public object groupId;
+        public object galleryId;
+        public object fileId;
+        public object imageUrl;
+        public object createdAt;
+        public object approved;
+        public object approvedAt;
+        public object approvedByUserId;
+        public object submittedByUserId;
+        public object file;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1577,9 +1571,6 @@ namespace VRC.Core
 
     public class ApiImage : ApiFile
     {
-        public int MAX_IMAGES;
-        public string endpoint;
-
         // ── Methods ──
         public void ShouldCache(){} // RVA: 0x7FFD4E341320
         public void FetchList(){} // RVA: 0x7FFD57297680
@@ -1589,20 +1580,18 @@ namespace VRC.Core
 
     public class ApiInfoPushSystem : ApiModel
     {
-        public float isEnabled;
-        public bool releaseStatus; // 0x68
-        public string tags; // 0x70
-        public URA.woDigitYearMax<string> requireClientTags; // 0x78
-        public URA.woDigitYearMax<string> priority; // 0x80
-        public int startDate; // 0x88
-        public DependencyInjector endDate; // 0x90
-        public DependencyInjector createdAt; // 0x98
-        public DependencyInjector updatedAt; // 0xA0
-        public DependencyInjector hash; // 0xA8
-        public string originalManifestId; // 0xB0
-        public string data; // 0xB8
-        public object <data>k__BackingField; // 0xC0
-        public string ENDPOINT;
+        public object isEnabled;
+        public object releaseStatus;
+        public object tags;
+        public object requireClientTags;
+        public object priority;
+        public object startDate;
+        public object endDate;
+        public object createdAt;
+        public object updatedAt;
+        public object hash;
+        public object originalManifestId;
+        public object data;
 
         // ── Methods ──
         public void get_isEnabled(){} // RVA: 0x7FFD4E409570
@@ -1637,8 +1626,8 @@ namespace VRC.Core
 
     public class ApiInventoryBundle : ApiModel
     {
-        public URA.woDigitYearMax<string> inventoryItemsToInstantiate; // 0x68
-        public _BackingField notificationDetails; // 0x70
+        public object inventoryItemsToInstantiate;
+        public object notificationDetails;
 
         // ── Methods ──
         public void get_inventoryItemsToInstantiate(){} // RVA: 0x7FFD4E3BCD50
@@ -1650,19 +1639,18 @@ namespace VRC.Core
 
     public class ApiInventoryBundleDrop : ApiModel
     {
-        public string name;
-        public string authorId; // 0x68
-        public string targetGroup; // 0x70
-        public string templateIds; // 0x78
-        public URA.woDigitYearMax<string> startDropDate; // 0x80
-        public DependencyInjector endDropDate; // 0x88
-        public DependencyInjector dropExpiryDate; // 0x90
-        public DependencyInjector status; // 0x98
-        public string tags; // 0xA0
-        public URA.woDigitYearMax<string> created_at; // 0xA8
-        public DependencyInjector updated_at; // 0xB0
-        public DependencyInjector notificationDetails; // 0xB8
-        public _BackingField <notificationDetails>k__BackingField; // 0xC0
+        public object name;
+        public object authorId;
+        public object targetGroup;
+        public object templateIds;
+        public object startDropDate;
+        public object endDropDate;
+        public object dropExpiryDate;
+        public object status;
+        public object tags;
+        public object created_at;
+        public object updated_at;
+        public object notificationDetails;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1695,57 +1683,45 @@ namespace VRC.Core
 
     public class ApiInventoryItem : ApiModel
     {
-        public string templateId;
-        public string name; // 0x68
-        public string description; // 0x70
-        public string imageUrl; // 0x78
-        public string attribution; // 0x80
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ubscription_start_time>k__BackingField flags; // 0x88
-        public URA.woDigitYearMax<string> tags; // 0x90
-        public URA.woDigitYearMax<string> collections; // 0x98
-        public URA.woDigitYearMax<string> itemType; // 0xA0
-        public string holderId; // 0xA8
-        public string firstAncestor; // 0xB0
-        public string firstAncestorHolderId; // 0xB8
-        public string expiryDate; // 0xC0
-        public DependencyInjector created_at; // 0xC8
-        public DependencyInjector updated_at; // 0xD0
-        public DependencyInjector template_created_at; // 0xD8
-        public DependencyInjector template_updated_at; // 0xE0
-        public DependencyInjector isArchived; // 0xE8
-        public bool isSeen; // 0xF0
-        public bool last_equipped_at; // 0xF1
-        public DependencyInjector equipSlots; // 0xF8
-        public URA.woDigitYearMax<string> equipSlot; // 0x100
-        public string quantity; // 0x108
-        public int quantifiable; // 0x110
-        public bool defaultAttributes; // 0x114
-        public URA.DateTime<string,balGiftCount> userAttributes; // 0x118
-        public URA.DateTime<string,object> validateUserAttributes; // 0x120
-        public bool notificationDetails; // 0x128
-        public _BackingField status; // 0x130
-        public string metadata; // 0x138
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.tBundleId>k__BackingField Instantiatable; // 0x140
-        public string Consumable;
-        public string Archivable;
-        public string Trashable;
-        public string Cloneable;
-        public string Equippable;
-        public string Equipped;
-        public string IsUserGenerated;
-        public string IsTemplate;
-        public string FLAG_QUANTIFIABLE;
-        public string FLAG_QUANTIFIABLE_ALLOW_ZERO;
-        public string FLAG_PREMIUM;
-        public string FLAG_VRC_PLUS_EXCLUSIVE;
-        public string ITEM_TYPE_STICKER;
-        public string ITEM_TYPE_EMOJI;
-        public string ITEM_TYPE_BUNDLE;
-        public string ITEM_TYPE_PROP;
-        public string ITEM_TYPE_DRONE_SKIN;
-        public string ITEM_TYPE_PORTAL_SKIN;
-        public string ITEM_TYPE_WARP_EFFECT;
-        public string ITEM_TYPE_LOADING_SCREEN;
+        public object templateId;
+        public object name;
+        public object description;
+        public object imageUrl;
+        public object attribution;
+        public object flags;
+        public object tags;
+        public object collections;
+        public object itemType;
+        public object holderId;
+        public object firstAncestor;
+        public object firstAncestorHolderId;
+        public object expiryDate;
+        public object created_at;
+        public object updated_at;
+        public object template_created_at;
+        public object template_updated_at;
+        public object isArchived;
+        public object isSeen;
+        public object last_equipped_at;
+        public object equipSlots;
+        public object equipSlot;
+        public object quantity;
+        public object quantifiable;
+        public object defaultAttributes;
+        public object userAttributes;
+        public object validateUserAttributes;
+        public object notificationDetails;
+        public object status;
+        public object metadata;
+        public object Instantiatable;
+        public object Consumable;
+        public object Archivable;
+        public object Trashable;
+        public object Cloneable;
+        public object Equippable;
+        public object Equipped;
+        public object IsUserGenerated;
+        public object IsTemplate;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD5729A140
@@ -1853,22 +1829,23 @@ namespace VRC.Core
 
     public class ApiLedgerTransaction : ApiModel
     {
-        public int Amount; // 0x68
-        public int RunningBalance; // 0x6C
-        public DependencyInjector Date; // 0x70
-        public string ListingDisplayName; // 0x78
-        public string ListingID; // 0x80
-        public string ListingType; // 0x88
-        public string Platform; // 0x90
-        public string PurchaseId; // 0x98
-        public int Reason; // 0xA0
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ce_code ReasonLabel; // 0xA8
-        public string ToUserId; // 0xB0
-        public string ToUserDisplayName; // 0xB8
-        public string FromUserId; // 0xC0
-        public string FromUserDisplayName; // 0xC8
-        public long TransactionId; // 0xD0
-        public long TransactionLineId; // 0xD8
+        public object Amount;
+        public object RunningBalance;
+        public object Date;
+        public object ListingDisplayName;
+        public object ListingID;
+        public object ListingType;
+        public object Platform;
+        public object PurchaseId;
+        public object Reason;
+        public object ReasonLabel;
+        public object ToUserId;
+        public object ToUserDisplayName;
+        public object FromUserId;
+        public object FromUserDisplayName;
+        public object TransactionId;
+        public object TransactionLineId;
+        public object id;
 
         // ── Methods ──
         public void get_Amount(){} // RVA: 0x7FFD4FBDAB50
@@ -1909,9 +1886,9 @@ namespace VRC.Core
 
     public class ApiLedgerTransactions : ApiModel
     {
-        public DependencyInjector StartDate; // 0x68
-        public DependencyInjector EndDate; // 0x70
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.lug> Transactions; // 0x78
+        public object StartDate;
+        public object EndDate;
+        public object Transactions;
 
         // ── Methods ──
         public void get_StartDate(){} // RVA: 0x7FFD4E3BCD50
@@ -1925,7 +1902,8 @@ namespace VRC.Core
 
     public class ApiListContainer : ApiContainer
     {
-        public int ResponseList; // 0x60
+        public object ResponseList;
+        public object TotalCount;
 
         // ── Methods ──
         public void get_ResponseList(){} // RVA: 0x7FFD572ED040
@@ -1937,8 +1915,8 @@ namespace VRC.Core
 
     public class ApiLoadingScreen : ApiModel
     {
-        public string name; // 0x68
-        public string assetBundleId; // 0x70
+        public object name;
+        public object assetBundleId;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -1950,14 +1928,12 @@ namespace VRC.Core
 
     public class ApiMessage : ApiModel
     {
-        public URA.DateTime<ÏÏÍÍÌÌÎÍ,string> slot;
-        public int message;
-        public int messageType; // 0x68
-        public string updatedAt; // 0x70
-        public string remainingCooldownMinutes; // 0x78
-        public DependencyInjector canBeUpdated; // 0x80
-        public int <remainingCooldownMinutes>k__BackingField; // 0x88
-        public bool <canBeUpdated>k__BackingField; // 0x8C
+        public object slot;
+        public object message;
+        public object messageType;
+        public object updatedAt;
+        public object remainingCooldownMinutes;
+        public object canBeUpdated;
 
         // ── Methods ──
         public void get_slot(){} // RVA: 0x7FFD4FBDAB50
@@ -1984,31 +1960,15 @@ namespace VRC.Core
 
     public class ApiModel : Object
     {
-        public URA.DateTime<string,ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.InSlot>b__0> id;
-        public int ExpiryTime;
-        public int Populated; // 0x8
-        public object FailedValidation; // 0x10
-        public string Endpoint; // 0x10
-        public aphy<long> FieldsMissingFromOriginalResponse; // 0x18
-        public bool FieldsLockedForNetworkUpdates; // 0x28
-        public bool RequiredProperties; // 0x29
-        public string TargetProperties; // 0x30
-        public string _cacheIdInput; // 0x38
-        public string _cacheId; // 0x40
-        public em.MarkAborted.izeDefaultCase _cacheIdBuilder; // 0x18
-        public URA.DateTime<int,URA.onsDepth<string>> _missingFieldCache; // 0x20
-        public URA.onsDepth<string> <FieldsMissingFromOriginalResponse>k__BackingField; // 0x48
-        public URA.onsDepth<string> <FieldsLockedForNetworkUpdates>k__BackingField; // 0x50
-        public object supportedPlatforms; // 0x58
-        public int RESPONSE_FIELDS_HASH_OFFSET;
-        public int RESPONSE_FIELDS_HASH_MULTIPLIER;
-        public object modelContainerType; // 0x60
-        public URA.DateTime<?,m.jectMapInfo> CreateFromJsonCache; // 0x28
-        public URA.DateTime<?,URA.DateTime<oRegistry<char>,object>> EnumValuesCache; // 0x30
-        public URA.DateTime<?,URA.woDigitYearMax<string>> _requiredProperties; // 0x38
-        public URA.DateTime<?,URA.woDigitYearMax<m.ber>> _targetProperties; // 0x40
-        public URA.DateTime<m.ber,string> PropertyApiFieldNames; // 0x48
-        public URA.DateTime<?,URA.DateTime<string,m.ber>> foundProperties; // 0x50
+        public object id;
+        public object ExpiryTime;
+        public object Populated;
+        public object FailedValidation;
+        public object Endpoint;
+        public object FieldsMissingFromOriginalResponse;
+        public object FieldsLockedForNetworkUpdates;
+        public object RequiredProperties;
+        public object TargetProperties;
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD4E35C380
@@ -2083,7 +2043,7 @@ namespace VRC.Core
 
     public class ApiModelListContainer`1 : ApiListContainer
     {
-        public URA.saAbbrevMonthNames<T1717580816> ResponseModels;
+        public object ResponseModels;
 
         // ── Methods ──
         public void get_ResponseModels(){} // RVA: 0x7FFD4E078E90
@@ -2094,20 +2054,18 @@ namespace VRC.Core
 
     public class ApiModeration : ApiModel
     {
-        public float moderationType;
-        public IsPowerOfTwo moderatorUserId; // 0x68
-        public string moderatorDisplayName; // 0x70
-        public string targetUserId; // 0x78
-        public string targetDisplayName; // 0x80
-        public string reasonMessage; // 0x88
-        public string details; // 0x90
-        public URA.DateTime<string,object> created; // 0x98
-        public DependencyInjector expires; // 0xA0
-        public DependencyInjector isPermanent; // 0xA8
-        public aphy<>k__BackingField> worldId; // 0xB0
-        public bool instanceId; // 0xB8
-        public string <worldId>k__BackingField; // 0xC0
-        public string <instanceId>k__BackingField; // 0xC8
+        public object moderationType;
+        public object moderatorUserId;
+        public object moderatorDisplayName;
+        public object targetUserId;
+        public object targetDisplayName;
+        public object reasonMessage;
+        public object details;
+        public object created;
+        public object expires;
+        public object isPermanent;
+        public object worldId;
+        public object instanceId;
 
         // ── Methods ──
         public void get_moderationType(){} // RVA: 0x7FFD4FBDAB50
@@ -2148,21 +2106,24 @@ namespace VRC.Core
 
     public class ApiMutualFriend : ApiModel
     {
-        public string id; // 0x68
-        public string displayName; // 0x70
-        public string status; // 0x78
-        public string statusDescription; // 0x80
-        public string currentAvatarImageUrl; // 0x88
-        public string[] avatarThumbnail; // 0x90
-        public string currentAvatarTags; // 0x98
-        public string profilePicOverride; // 0xA0
-        public string userIcon; // 0xA8
-        public string world; // 0xB0
-        public string instance; // 0xB8
-        public string instanceType; // 0xC0
-        public string travelingToWorld; // 0xC8
-        public string travelingToInstance; // 0xD0
-        public string[] platform; // 0xD8
+        public object id;
+        public object displayName;
+        public object status;
+        public object statusDescription;
+        public object currentAvatarImageUrl;
+        public object avatarThumbnail;
+        public object currentAvatarTags;
+        public object profilePicOverride;
+        public object userIcon;
+        public object world;
+        public object instance;
+        public object instanceType;
+        public object travelingToWorld;
+        public object travelingToInstance;
+        public object platform;
+        public object groups;
+        public object profilePicImageUrl;
+        public object profilePicThumbnailImageUrl;
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD4E35C380
@@ -2205,18 +2166,19 @@ namespace VRC.Core
 
     public class ApiMutualGroup : ApiModel
     {
-        public string id; // 0x68
-        public string name; // 0x70
-        public string discriminator; // 0x78
-        public string ownerId; // 0x80
-        public int privacy; // 0x88
-        public string memberCount; // 0x90
-        public string shortCode; // 0x98
-        public string description; // 0xA0
-        public string bannerId; // 0xA8
-        public string bannerUrl; // 0xB0
-        public string iconId; // 0xB8
-        public string iconUrl; // 0xC0
+        public object id;
+        public object name;
+        public object discriminator;
+        public object ownerId;
+        public object privacy;
+        public object memberCount;
+        public object shortCode;
+        public object description;
+        public object bannerId;
+        public object bannerUrl;
+        public object iconId;
+        public object iconUrl;
+        public object lastPostCreatedAt;
 
         // ── Methods ──
         public void get_id(){} // RVA: 0x7FFD4E35C380
@@ -2251,13 +2213,12 @@ namespace VRC.Core
 
     public class ApiPlayerModeration : ApiModel
     {
-        public float moderationType;
-        public IsPowerOfTwo targetUserId; // 0x68
-        public string targetDisplayName; // 0x70
-        public string sourceUserId; // 0x78
-        public string sourceDisplayName; // 0x80
-        public string created; // 0x88
-        public DependencyInjector <created>k__BackingField; // 0x90
+        public object moderationType;
+        public object targetUserId;
+        public object targetDisplayName;
+        public object sourceUserId;
+        public object sourceDisplayName;
+        public object created;
 
         // ── Methods ──
         public void get_moderationType(){} // RVA: 0x7FFD4FBDAB50
@@ -2287,8 +2248,8 @@ namespace VRC.Core
 
     public class ApiPortalSkin : ApiModel
     {
-        public string name; // 0x68
-        public string assetBundleId; // 0x70
+        public object name;
+        public object assetBundleId;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -2300,15 +2261,15 @@ namespace VRC.Core
 
     public class ApiPrint : ApiModel
     {
-        public string note; // 0x68
-        public string authorId; // 0x70
-        public string authorName; // 0x78
-        public string worldId; // 0x80
-        public string worldName; // 0x88
-        public string ownerId; // 0x90
-        public DependencyInjector timestamp; // 0x98
-        public s files; // 0xA0
-        public DependencyInjector createdAt; // 0xA8
+        public object note;
+        public object authorId;
+        public object authorName;
+        public object worldId;
+        public object worldName;
+        public object ownerId;
+        public object timestamp;
+        public object files;
+        public object createdAt;
 
         // ── Methods ──
         public void get_note(){} // RVA: 0x7FFD4E3BCD50
@@ -2340,59 +2301,60 @@ namespace VRC.Core
 
     public class ApiProduct : ApiModel
     {
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.t_verification_uri Type; // 0x68
-        public DependencyInjector CreatedAt; // 0x70
-        public DependencyInjector UpdatedAt; // 0x78
-        public string SellerId; // 0x80
-        public string AvatarId; // 0x88
-        public string SellerDisplayName; // 0x90
-        public string Name; // 0x98
-        public string Description; // 0xA0
-        public string Subtitle; // 0xA8
-        public string ProductImageId; // 0xB0
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ubscription_start_time>k__BackingField ProductImageUrl; // 0xB8
-        public string attribution; // 0xC0
-        public URA.woDigitYearMax<string> LicenseId; // 0xC8
-        public bool Tags; // 0xD0
-        public DependencyInjector SoldByVrc; // 0xD8
-        public URA.DateTime<string,object> UntilDate; // 0xE0
-        public bool PurchaseToken; // 0xE8
-        public URA.woDigitYearMax<string> IsVoided; // 0xF0
-        public string ParentListings; // 0xF8
-        public bool ProductTypeLabel; // 0x100
-        public string Quantifiable; // 0x108
-        public string GroupId; // 0x110
-        public bool GroupRoleId; // 0x118
-        public bool GroupAccess; // 0x119
-        public string GroupAccessRemove; // 0x120
-        public string InventoryItemTemplateId; // 0x128
-        public int InventoryItemType; // 0x130
-        public bool InventoryItemQuantity; // 0x134
-        public string AssetDisabled; // 0x138
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.eyString ListingID; // 0x140
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ift> ListingType; // 0x148
-        public URA.woDigitYearMax<string> Products; // 0x150
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ift> ProductIDs; // 0x158
-        public bool HydratedProducts; // 0x160
-        public bool Active; // 0x161
-        public int SubscriberExclusive; // 0x164
-        public int Price; // 0x168
-        public DependencyInjector VrcPlusDiscountPrice; // 0x170
-        public string AvailableToPurchaseUntilDate; // 0x178
-        public string CollaboratorUserId; // 0x180
-        public aphy<int> CollaboratorUserDisplayName; // 0x188
-        public URA.woDigitYearMax<string> Stock; // 0x190
-        public int StoreIDs; // 0x198
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ._BackingField Duration; // 0x19C
-        public bool DurationType; // 0x1A0
-        public bool Archived; // 0x1A1
-        public bool Permanent; // 0x1A2
-        public bool Instant; // 0x1A3
-        public bool Stackable; // 0x1A4
-        public bool Recurrable; // 0x1A5
-        public bool Refundable; // 0x1A6
-        public bool BuyerRefundable; // 0x1A7
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.__BackingField> ContextPreventsPurchase; // 0x1A8
+        public object Type;
+        public object CreatedAt;
+        public object UpdatedAt;
+        public object SellerId;
+        public object AvatarId;
+        public object SellerDisplayName;
+        public object Name;
+        public object Description;
+        public object Subtitle;
+        public object ProductImageId;
+        public object ProductImageUrl;
+        public object attribution;
+        public object LicenseId;
+        public object Tags;
+        public object SoldByVrc;
+        public object UntilDate;
+        public object PurchaseToken;
+        public object IsVoided;
+        public object ParentListings;
+        public object ProductTypeLabel;
+        public object Quantifiable;
+        public object GroupId;
+        public object GroupRoleId;
+        public object GroupAccess;
+        public object GroupAccessRemove;
+        public object InventoryItemTemplateId;
+        public object InventoryItemType;
+        public object InventoryItemQuantity;
+        public object AssetDisabled;
+        public object ListingID;
+        public object ListingType;
+        public object Products;
+        public object ProductIDs;
+        public object HydratedProducts;
+        public object Active;
+        public object SubscriberExclusive;
+        public object Price;
+        public object VrcPlusDiscountPrice;
+        public object AvailableToPurchaseUntilDate;
+        public object CollaboratorUserId;
+        public object CollaboratorUserDisplayName;
+        public object Stock;
+        public object StoreIDs;
+        public object Duration;
+        public object DurationType;
+        public object Archived;
+        public object Permanent;
+        public object Instant;
+        public object Stackable;
+        public object Recurrable;
+        public object Refundable;
+        public object BuyerRefundable;
+        public object ContextPreventsPurchase;
+        public object ListingVariants;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD572E21E0
@@ -2514,9 +2476,9 @@ namespace VRC.Core
 
     public class ApiProductPurchaseStatus : ApiModel
     {
-        public string ProductId; // 0x68
-        public string LicenseId; // 0x70
-        public DependencyInjector Expiry; // 0x78
+        public object ProductId;
+        public object LicenseId;
+        public object Expiry;
 
         // ── Methods ──
         public void get_ProductId(){} // RVA: 0x7FFD4E3BCD50
@@ -2531,11 +2493,11 @@ namespace VRC.Core
 
     public class ApiProductVariant : ApiModel
     {
-        public string ListingVariantID; // 0x68
-        public int Quantity; // 0x70
-        public int UnitPriceTokens; // 0x74
-        public bool NonRefundable; // 0x78
-        public DependencyInjector EffectiveFrom; // 0x80
+        public object ListingVariantID;
+        public object Quantity;
+        public object UnitPriceTokens;
+        public object NonRefundable;
+        public object EffectiveFrom;
 
         // ── Methods ──
         public void get_ListingVariantID(){} // RVA: 0x7FFD4E3BCD50
@@ -2553,14 +2515,13 @@ namespace VRC.Core
 
     public class ApiProp : ApiContentModel`1
     {
-        public DependencyInjector _created_at; // 0xD8
-        public DependencyInjector _updated_at; // 0xE0
-        public URA.woDigitYearMax<sedTCPStream> unityPackages; // 0xE8
-        public int spawnType; // 0xF0
-        public int worldPlacementMask; // 0xF4
-        public bool scaleWithAvatar; // 0xF8
-        public string BundleSignature;
-        public string <BundleSignature>k__BackingField; // 0x100
+        public object _created_at;
+        public object _updated_at;
+        public object unityPackages;
+        public object spawnType;
+        public object worldPlacementMask;
+        public object scaleWithAvatar;
+        public object BundleSignature;
 
         // ── Methods ──
         public void get__created_at(){} // RVA: 0x7FFD4E960F70
@@ -2587,8 +2548,8 @@ namespace VRC.Core
 
     public class ApiPropItemMetadata : ApiModel
     {
-        public string propId; // 0x68
-        public int worldPlacementMask; // 0x70
+        public object propId;
+        public object worldPlacementMask;
 
         // ── Methods ──
         public void get_propId(){} // RVA: 0x7FFD4E3BCD50
@@ -2600,84 +2561,86 @@ namespace VRC.Core
 
     public class ApiPurchase : ApiModel
     {
-        public string ListingId; // 0x68
-        public string ListingDisplayName; // 0x70
-        public string ListingImageId; // 0x78
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.eyString ListingImageUrl; // 0x80
-        public string ListingType; // 0x88
-        public string ListingVariantId; // 0x90
-        public string SellerId; // 0x98
-        public string SellerDisplayName; // 0xA0
-        public string BuyerId; // 0xA8
-        public string BuyerDisplayName; // 0xB0
-        public string ReceiverId; // 0xB8
-        public int ReceiverDisplayName; // 0xC0
-        public int id; // 0xC4
-        public int Price; // 0xC8
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ._BackingField Quantity; // 0xCC
-        public DependencyInjector Duration; // 0xD0
-        public DependencyInjector DurationType; // 0xD8
-        public DependencyInjector PurchaseDate; // 0xE0
-        public bool PurchaseStartDate; // 0xE8
-        public bool PurchaseEndDate; // 0xE9
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ift> PurchaseActive; // 0xF0
-        public bool PurchaseLatest; // 0xF8
-        public bool Products; // 0xF9
-        public URA.DateTime<string,object> IsStackable; // 0x100
-        public bool IsRecurrable; // 0x108
-        public bool PurchaseToken; // 0x109
-        public int IsVoided; // 0x10C
-        public bool IsGift; // 0x110
-        public string PurchaseUnitPrice; // 0x118
-        public int IsRefundable; // 0x120
-        public int StackDurationType; // 0x124
-        public int StackDuration; // 0x128
-        public int StackPrice; // 0x12C
-        public int StackQuantity; // 0x130
-        public int StackQuantityConsumed; // 0x134
-        public int StackQuantityConsumedAtPurchase; // 0x138
-        public string StackQuantityUnconsumed; // 0x140
-        public bool StackQuantityUnconsumedAtPurchase; // 0x148
-        public bool TiliaTransactionId; // 0x149
-        public DependencyInjector WillRecur; // 0x150
-        public string ListingCurrentlyAvailable; // 0x158
-        public DependencyInjector CreatedAtDate; // 0x160
-        public DependencyInjector PurchaseID; // 0x168
-        public string UpdatedAtDate; // 0x170
-        public bool PurchaseOriginalEndDate; // 0x178
-        public bool BuyerIP; // 0x179
-        public string IsRecur; // 0x180
-        public URA.woDigitYearMax<string> IsUnityLocalTest; // 0x188
-        public int LicenseID; // 0x190
-        public string PurchaseStacks; // 0x198
-        public int PurchaseTiliaFee; // 0x1A0
-        public int PurchaseType; // 0x1A4
-        public string PurchaseValue; // 0x1A8
-        public string PurchaseVrcFee; // 0x1B0
-        public int RefundStatus; // 0x1B8
-        public int SellerIP; // 0x1BC
-        public int StackTiliaFee; // 0x1C0
-        public bool StackValue; // 0x1C4
-        public string StackVrcFee; // 0x1C8
-        public bool StackQuantityVoided; // 0x1D0
-        public DependencyInjector VoidedBy; // 0x1D8
-        public int VoidedByAdmin; // 0x1E0
-        public int VoidedOnDate; // 0x1E4
-        public int PurchaseTiliaFeeBasedOnStack; // 0x1E8
-        public bool PurchaseTiliaFeeDrift; // 0x1EC
-        public string PurchaseVrcFeeBasedOnStack; // 0x1F0
-        public bool Refunded; // 0x1F8
-        public DependencyInjector RefundedBy; // 0x200
-        public URA.woDigitYearMax<string> RefundedByAdmin; // 0x208
-        public string RefundedOnDate; // 0x210
-        public string RefundedStacks; // 0x218
-        public string RefundReason; // 0x220
-        public object RefundReasonType; // 0x228
-        public int RefundTiliaTransactionId; // 0x230
-        public object RefundTokenComponents; // 0x238
-        public string RefundTokens; // 0x240
-        public URA.woDigitYearMax<string> RefundTokenSources; // 0x248
-        public bool RefundType; // 0x250
+        public object ListingId;
+        public object ListingDisplayName;
+        public object ListingImageId;
+        public object ListingImageUrl;
+        public object ListingType;
+        public object ListingVariantId;
+        public object SellerId;
+        public object SellerDisplayName;
+        public object BuyerId;
+        public object BuyerDisplayName;
+        public object ReceiverId;
+        public object ReceiverDisplayName;
+        public object id;
+        public object Price;
+        public object Quantity;
+        public object Duration;
+        public object DurationType;
+        public object PurchaseDate;
+        public object PurchaseStartDate;
+        public object PurchaseEndDate;
+        public object PurchaseActive;
+        public object PurchaseLatest;
+        public object Products;
+        public object IsStackable;
+        public object IsRecurrable;
+        public object PurchaseToken;
+        public object IsVoided;
+        public object IsGift;
+        public object PurchaseUnitPrice;
+        public object IsRefundable;
+        public object StackDurationType;
+        public object StackDuration;
+        public object StackPrice;
+        public object StackQuantity;
+        public object StackQuantityConsumed;
+        public object StackQuantityConsumedAtPurchase;
+        public object StackQuantityUnconsumed;
+        public object StackQuantityUnconsumedAtPurchase;
+        public object TiliaTransactionId;
+        public object WillRecur;
+        public object ListingCurrentlyAvailable;
+        public object CreatedAtDate;
+        public object PurchaseID;
+        public object UpdatedAtDate;
+        public object PurchaseOriginalEndDate;
+        public object BuyerIP;
+        public object IsRecur;
+        public object IsUnityLocalTest;
+        public object LicenseID;
+        public object PurchaseStacks;
+        public object PurchaseTiliaFee;
+        public object PurchaseType;
+        public object PurchaseValue;
+        public object PurchaseVrcFee;
+        public object RefundStatus;
+        public object SellerIP;
+        public object StackTiliaFee;
+        public object StackValue;
+        public object StackVrcFee;
+        public object StackQuantityVoided;
+        public object VoidedBy;
+        public object VoidedByAdmin;
+        public object VoidedOnDate;
+        public object PurchaseTiliaFeeBasedOnStack;
+        public object PurchaseTiliaFeeDrift;
+        public object PurchaseVrcFeeBasedOnStack;
+        public object Refunded;
+        public object RefundedBy;
+        public object RefundedByAdmin;
+        public object RefundedOnDate;
+        public object RefundedStacks;
+        public object RefundReason;
+        public object RefundReasonType;
+        public object RefundTiliaTransactionId;
+        public object RefundTokenComponents;
+        public object RefundTokens;
+        public object RefundTokenSources;
+        public object RefundType;
+        public object VoidedStacks;
+        public object VoidedCompletely;
 
         // ── Methods ──
         public void get_ListingId(){} // RVA: 0x7FFD4E3BCD50
@@ -2850,14 +2813,14 @@ namespace VRC.Core
 
     public class ApiReport : ApiModel
     {
-        public string type; // 0x68
-        public string category; // 0x70
-        public string reason; // 0x78
-        public string contentId; // 0x80
-        public string description; // 0x88
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.rType>k__BackingField details; // 0x90
-        public string contentName; // 0x98
-        public string contentThumbnailImageUrl; // 0xA0
+        public object type;
+        public object category;
+        public object reason;
+        public object contentId;
+        public object description;
+        public object details;
+        public object contentName;
+        public object contentThumbnailImageUrl;
 
         // ── Methods ──
         public void get_type(){} // RVA: 0x7FFD4E3BCD50
@@ -2884,9 +2847,9 @@ namespace VRC.Core
 
     public class ApiSharedConnectionCounts : ApiModel
     {
-        public float CacheLifetime;
-        public int friends; // 0x68
-        public int groups; // 0x6C
+        public object CacheLifetime;
+        public object friends;
+        public object groups;
 
         // ── Methods ──
         public void get_CacheLifetime(){} // RVA: 0x7FFD57346AF0
@@ -2901,21 +2864,24 @@ namespace VRC.Core
 
     public class ApiStoreShelf : ApiModel
     {
-        public string ShelfTitle; // 0x68
-        public string ShelfDescription; // 0x70
-        public string ShelfLayout; // 0x78
-        public DependencyInjector UpdatedAt; // 0x80
-        public DependencyInjector CreatedAt; // 0x88
-        public URA.woDigitYearMax<string> ListingIds; // 0x90
-        public string ShelfVisibility; // 0x98
-        public string StoreId; // 0xA0
-        public string SellerId; // 0xA8
-        public string HighlightListingId; // 0xB0
-        public string ShelfTabBackgroundImageId; // 0xB8
-        public string ShelfTabBackgroundImageUrl; // 0xC0
-        public string ShelfBackgroundImageId; // 0xC8
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ift> ShelfBackgroundImageUrl; // 0xD0
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ift ShelfIconImageId; // 0xD8
+        public object ShelfTitle;
+        public object ShelfDescription;
+        public object ShelfLayout;
+        public object UpdatedAt;
+        public object CreatedAt;
+        public object ListingIds;
+        public object ShelfVisibility;
+        public object StoreId;
+        public object SellerId;
+        public object HighlightListingId;
+        public object ShelfTabBackgroundImageId;
+        public object ShelfTabBackgroundImageUrl;
+        public object ShelfBackgroundImageId;
+        public object ShelfBackgroundImageUrl;
+        public object ShelfIconImageId;
+        public object ShelfIconImageUrl;
+        public object Listings;
+        public object HighlightListing;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD57341300
@@ -2956,20 +2922,21 @@ namespace VRC.Core
 
     public class ApiTransaction : ApiModel
     {
-        public string ListingID; // 0x68
-        public string Name; // 0x70
-        public string SellerId; // 0x78
-        public string FromUserDisplayName; // 0x80
-        public string SellerDisplayName; // 0x88
-        public string BuyerId; // 0x90
-        public string BuyerDisplayName; // 0x98
-        public string Type; // 0xA0
-        public DependencyInjector Date; // 0xA8
-        public int Amount; // 0xB0
-        public int RunningBalance; // 0xB4
-        public string ImageId; // 0xB8
-        public string PurchaseId; // 0xC0
-        public string TiliaRef; // 0xC8
+        public object ListingID;
+        public object Name;
+        public object SellerId;
+        public object FromUserDisplayName;
+        public object SellerDisplayName;
+        public object BuyerId;
+        public object BuyerDisplayName;
+        public object Type;
+        public object Date;
+        public object Amount;
+        public object RunningBalance;
+        public object ImageId;
+        public object PurchaseId;
+        public object TiliaRef;
+        public object TransactionImageUrl;
 
         // ── Methods ──
         public void get_ListingID(){} // RVA: 0x7FFD4E3BCD50
@@ -3041,15 +3008,15 @@ namespace VRC.Core
 
     public class ApiVRChatProductDetails : ApiModel
     {
-        public bool enabled; // 0x68
-        public string productType; // 0x70
-        public aphy<t_verification_uri> Product; // 0x78
-        public string endpoint; // 0x80
-        public URA.DateTime<string,nsumedAtPurchase> stores; // 0x88
-        public object subscriptionInfo; // 0x90
-        public kQuantityConsumed giftInfo; // 0x98
-        public Consumed tokenInfo; // 0xA0
-        public string description; // 0xA8
+        public object enabled;
+        public object productType;
+        public object Product;
+        public object endpoint;
+        public object stores;
+        public object subscriptionInfo;
+        public object giftInfo;
+        public object tokenInfo;
+        public object description;
 
         // ── Methods ──
         public void get_enabled(){} // RVA: 0x7FFD4E409570
@@ -3074,8 +3041,8 @@ namespace VRC.Core
 
     public class ApiViewfinderSkin : ApiModel
     {
-        public string name; // 0x68
-        public string assetBundleId; // 0x70
+        public object name;
+        public object assetBundleId;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -3087,8 +3054,8 @@ namespace VRC.Core
 
     public class ApiWarpEffectSkin : ApiModel
     {
-        public string name; // 0x68
-        public string assetBundleId; // 0x70
+        public object name;
+        public object assetBundleId;
 
         // ── Methods ──
         public void get_name(){} // RVA: 0x7FFD4E3BCD50
@@ -3100,54 +3067,55 @@ namespace VRC.Core
 
     public class ApiWorld : ApiModel
     {
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.et_canPublishWorlds VERSION;
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.et_canPublishWorlds name; // 0x8
-        public float imageUrl;
-        public float thumbnailImageUrl;
-        public string authorName;
-        public URA.DateTime<string,ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ThumbnailImageUrl>k__BackingField> releaseStatus; // 0x10
-        public string capacity; // 0x68
-        public string recommendedCapacity; // 0x70
-        public string occupants; // 0x78
-        public string publicOccupants; // 0x80
-        public string privateOccupants; // 0x88
-        public int authorId; // 0x90
-        public int createdAt; // 0x94
-        public int assetUrl; // 0x98
-        public int description; // 0x9C
-        public int tags; // 0xA0
-        public string urlList; // 0xA8
-        public DependencyInjector unityPackageUrl; // 0xB0
-        public string version; // 0xB8
-        public string unityVersion; // 0xC0
-        public URA.woDigitYearMax<string> apiVersion; // 0xC8
-        public URA.woDigitYearMax<string> latestAssetVersion; // 0xD0
-        public string created_at; // 0xD8
-        public int updated_at; // 0xE0
-        public string publicationDate; // 0xE8
-        public int labsPublicationDate; // 0xF0
-        public int udonProducts; // 0xF4
-        public DependencyInjector storeId; // 0xF8
-        public DependencyInjector platform; // 0x100
-        public DependencyInjector worldInstances; // 0x108
-        public DependencyInjector isAdminApproved; // 0x110
-        public URA.woDigitYearMax<string> IsCommunityLabsWorld; // 0x118
-        public string IsPublicPublishedWorld; // 0x120
-        public string IsInternalWorld; // 0x128
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.?> unityPackageUpdated; // 0x130
-        public bool organization; // 0x138
-        public string shouldAddToAuthor; // 0x140
-        public bool favoriteId; // 0x148
-        public string favorites; // 0x150
-        public int visits; // 0x158
-        public int popularity; // 0x15C
-        public int heat; // 0x160
-        public int detailed; // 0x164
-        public bool defaultContentSettings; // 0x168
-        public URA.DateTime<string,bool> assetVersion; // 0x170
-        public string BundleSignature; // 0x178
-        public bool isCurated; // 0x180
-        public tor.neStore publicTags; // 0x18
+        public object VERSION;
+        public object name;
+        public object imageUrl;
+        public object thumbnailImageUrl;
+        public object authorName;
+        public object releaseStatus;
+        public object capacity;
+        public object recommendedCapacity;
+        public object occupants;
+        public object publicOccupants;
+        public object privateOccupants;
+        public object authorId;
+        public object createdAt;
+        public object assetUrl;
+        public object description;
+        public object tags;
+        public object urlList;
+        public object unityPackageUrl;
+        public object version;
+        public object unityVersion;
+        public object apiVersion;
+        public object latestAssetVersion;
+        public object created_at;
+        public object updated_at;
+        public object publicationDate;
+        public object labsPublicationDate;
+        public object udonProducts;
+        public object storeId;
+        public object platform;
+        public object worldInstances;
+        public object isAdminApproved;
+        public object IsCommunityLabsWorld;
+        public object IsPublicPublishedWorld;
+        public object IsInternalWorld;
+        public object unityPackageUpdated;
+        public object organization;
+        public object shouldAddToAuthor;
+        public object favoriteId;
+        public object favorites;
+        public object visits;
+        public object popularity;
+        public object heat;
+        public object detailed;
+        public object defaultContentSettings;
+        public object assetVersion;
+        public object BundleSignature;
+        public object isCurated;
+        public object publicTags;
+        public object IsLocal;
 
         // ── Methods ──
         public void get_VERSION(){} // RVA: 0x7FFD573119F0
@@ -3269,47 +3237,45 @@ namespace VRC.Core
 
     public class ApiWorldInstance : ApiModel
     {
-        public float location;
-        public int name;
-        public string shortName; // 0x68
-        public string secureName; // 0x70
-        public string displayName; // 0x78
-        public string worldId; // 0x80
-        public string instanceId; // 0x88
-        public string instanceCode; // 0x90
-        public string world; // 0x98
-        public string type; // 0xA0
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ThumbnailImageUrl>k__BackingField ownerId; // 0xA8
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ACHE_TIME tags; // 0xB0
-        public string count; // 0xB8
-        public URA.woDigitYearMax<string> capacity; // 0xC0
-        public int recommendedCapacity; // 0xC8
-        public int platforms; // 0xCC
-        public int nonce; // 0xD0
-        public URA.DateTime<string,int> clientVersion; // 0xD8
-        public string gameServerVersion; // 0xE0
-        public string region; // 0xE8
-        public int active; // 0xF0
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ty>k__BackingField queueEnabled; // 0xF4
-        public bool hasCapacityForYou; // 0xF8
-        public bool queueSize; // 0xF9
-        public bool closedAt; // 0xFA
-        public int hardClose; // 0xFC
-        public DependencyInjector ageGate; // 0x100
-        public bool contentSettings; // 0x108
-        public bool IsClosed; // 0x109
-        public URA.DateTime<string,bool> IsAgeGated; // 0x110
-        public bool playerPersistenceEnabled; // 0x118
-        public string calendarEntryId; // 0x120
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.reated> users; // 0x128
-        public URA.woDigitYearMax<string> ShouldSeeInstanceByType; // 0x130
-        public bool roleIds; // 0x138
-        public string roleRestricted; // 0x140
+        public object location;
+        public object name;
+        public object shortName;
+        public object secureName;
+        public object displayName;
+        public object worldId;
+        public object instanceId;
+        public object instanceCode;
+        public object world;
+        public object type;
+        public object ownerId;
+        public object tags;
+        public object count;
+        public object capacity;
+        public object recommendedCapacity;
+        public object platforms;
+        public object nonce;
+        public object clientVersion;
+        public object gameServerVersion;
+        public object region;
+        public object active;
+        public object queueEnabled;
+        public object hasCapacityForYou;
+        public object queueSize;
+        public object closedAt;
+        public object hardClose;
+        public object ageGate;
+        public object contentSettings;
+        public object IsClosed;
+        public object IsAgeGated;
+        public object playerPersistenceEnabled;
+        public object calendarEntryId;
+        public object users;
+        public object ShouldSeeInstanceByType;
+        public object roleIds;
+        public object roleRestricted;
         public object groupAccessType;
-        public bool id; // 0x8
-        public aphy<long> ProbablyExistsOnAPI; // 0x10
-        public long MinPostIntervalSeconds;
-        public long MaxPostDelaySeconds;
+        public object id;
+        public object ProbablyExistsOnAPI;
 
         // ── Methods ──
         public void get_location(){} // RVA: 0x7FFD4E3BCD50
@@ -3434,10 +3400,6 @@ namespace VRC.Core
 
     public class BaseConfig : Object
     {
-        public URA.DateTime<string,object> config; // 0x10
-        public URA.saAbbrevMonthNames<object> EmptyList;
-        public URA.DayNames<string,object> EmptyDictionary; // 0x8
-
         // ── Methods ──
         public void GetValue(){} // RVA: 0x7FFD573479E0
         public void Init(){} // RVA: 0x7FFD57347A90
@@ -3480,9 +3442,6 @@ namespace VRC.Core
 
     public class ExtensionMethods : Object
     {
-        public URA.leEastFrench<int> _componentIndices; // 0xFFFFFFFF
-        public em.MarkAborted.izeDefaultCase _cachedStringBuilder;
-
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFD573527B0
         public void GetOrAddComponent(){} // RVA: 0x7FFD4E2ADC40
@@ -3540,19 +3499,16 @@ namespace VRC.Core
 
     public class FavoriteListModel : ApiModel
     {
-        public int Endpoint;
-        public int ownerId;
-        public string ownerDisplayName; // 0x68
-        public string name; // 0x70
-        public string displayName; // 0x78
-        public string type; // 0x80
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.tenceDataForWorlds visibility; // 0x88
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.ersistenceDataExistsForWorld tags; // 0x8C
-        public URA.woDigitYearMax<string> requiresSubscription; // 0x90
-        public bool Favorites; // 0x98
-        public URA.woDigitYearMax<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.capacity> _favorites; // 0xA0
-        public URA.DateTime<string,ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.capacity> _favoritesById; // 0xA8
-        public URA.DateTime<string,ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.capacity> _favoritesByContentId; // 0xB0
+        public object Endpoint;
+        public object ownerId;
+        public object ownerDisplayName;
+        public object name;
+        public object displayName;
+        public object type;
+        public object visibility;
+        public object tags;
+        public object requiresSubscription;
+        public object Favorites;
 
         // ── Methods ──
         public void get_Endpoint(){} // RVA: 0x7FFD573414A0
@@ -3595,18 +3551,6 @@ namespace VRC.Core
 
     public class GC : Object
     {
-        public int ÎÍÌÏÏÎÏÍÍÌÌÌÌÌÎÍÎÎÎÌÎÏÎ;
-        public float ÎÌÍÎÏÎÌÏÏÌÍÎÍÍÎÏÌÍÌÎÏÎÍ;
-        public int ÍÌÍÍÌÎÍÍÏÌÍÎÌÎÍÎÌÎÌÌÏÏÏ;
-        public string ÏÌÌÎÎÎÏÌÎÍÎÏÌÏÏÏÌÏÎÏÎÍÏ;
-        public object ÏÍÍÏÌÎÍÎÍÌÏÎÎÌÌÎÎÍÎÎÍÎÎ;
-        public float ÎÌÌÌÍÌÎÏÎÏÏÍÍÏÎÍÏÎÍÏÎÌÎ; // 0x8
-        public int ÌÎÏÏÍÌÎÌÌÌÏÍÏÏÎÏÍÍÌÏÎÏÏ; // 0xC
-        public object ÍÌÏÎÏÏÌÌÍÏÍÌÏÌÎÌÏÍÍÎÍÏÏ; // 0x10
-        public object ÌÍÎÌÍÌÏÌÎÍÏÌÍÎÍÍÌÌÏÏÍÌÎ; // 0x20
-        public object ÏÏÍÌÌÍÏÍÌÏÎÏÍÍÌÏÍÍÎÎÌÌÎ; // 0x30
-        public object ÎÌÎÏÍÏÌÍÍÌÌÎÌÏÏÎÏÍÌÎÍÍÍ; // 0x40
-
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD4EDC4840
         public void Equals(){} // RVA: 0x7FFD4EDC4900
@@ -3634,7 +3578,7 @@ namespace VRC.Core
 
     public class LazySingleton`1 : MonoBehaviour
     {
-        public dle<T1717581008> Instance;
+        public object Instance;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD4E2ADC40
@@ -3654,8 +3598,6 @@ namespace VRC.Core
 
     public class MemoryEqualityComparer`1 : Object
     {
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.nc>d__168<T1717581024> Instance;
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E090980
         public void Equals(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
@@ -3682,16 +3624,6 @@ namespace VRC.Core
 
     public class PipelineManager : MonoBehaviour
     {
-        public URA.DateTime<2_FE_LONGS,string> BlueprintIdPrefixMap;
-        public bool launchedFromSDKPipeline; // 0x20
-        public bool completedSDKPipeline; // 0x21
-        public string blueprintId; // 0x28
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.reated user; // 0x30
-        public 2_FE_LONGS contentType; // 0x38
-        public string assetBundleUnityVersion; // 0x40
-        public le fallbackStatus; // 0x48
-        public cellLayout owned; // 0x4C
-
         // ── Methods ──
         public void IsMyContent(){} // RVA: 0x7FFD56E4DED0
         public void AssignId(){} // RVA: 0x7FFD56E4E1A0 | overloaded x2
@@ -3705,9 +3637,8 @@ namespace VRC.Core
 
     public class PriorityQueue`1 : Object
     {
-        public URA.woDigitYearMax<T1717581056> Data;
-        public URA.woDigitYearMax<T1717581056> Count;
-        public eCaptcha<T1717581056> reverseComparer;
+        public object Data;
+        public object Count;
 
         // ── Methods ──
         public void get_Data(){} // RVA: 0x7FFD4E078E90
@@ -3734,12 +3665,9 @@ namespace VRC.Core
 
     public class UnityEventFilter : Object
     {
-        public URA.onsDepth<?> _name;
-        public dle<URA.DateTime<?,?>> _hideFlags; // 0x8
-        public dle<URA.DateTime<?,?>> f_918; // 0x10
-        public dle<string> ÏÌÎÍÏÍÎÎÍÍÏÌÎÎÎÍÍÌÏÏÏÏÌ; // 0x18
-        public URA.DateTime<?,?> ÎÎÌÎÎÌÌÍÌÎÏÎÏÍÏÍÌÍÍÎÏÍÎ; // 0x20
-        public URA.onsDepth<string> ÌÍÎÎÍÍÏÌÎÌÍÎÌÍÏÌÏÎÌÍÎÎÍ; // 0x28
+        public object _name;
+        public object _hideFlags;
+        public object f_918;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4EE7BBF0
@@ -3775,10 +3703,6 @@ namespace VRC.Core
 
     public class UpdateDelegator : Object
     {
-        public object _queueLock;
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.d__169<etionSource> _jobQueue; // 0x8
-        public int MaxJobsPerFrame;
-
         // ── Methods ──
         public void Dispatch(){} // RVA: 0x7FFD57355940
         public void DispatchAfter(){} // RVA: 0x7FFD57355C60
@@ -3789,8 +3713,7 @@ namespace VRC.Core
 
     public class VRCCertificatePolicy : Object
     {
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.? _vRCCertificatePolicy;
-        public ialized.ed ÍÍÎÎÎÏÎÏÎÍÎÏÍÏÏÍÍÍÏÎÏÏÎ; // 0x8
+        public object _vRCCertificatePolicy;
 
         // ── Methods ──
         public void CheckValidationResult(){} // RVA: 0x7FFD4EDFEDD0
@@ -3844,17 +3767,10 @@ namespace VRC.Core
 
     public class VRCLogger : Object
     {
-        public bool IsPathOverridden;
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.? LogFileNamePrefix; // 0x8
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.SetRequestHeader LogFilePath; // 0x10
-        public JapaneseLangName.erns<string,ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.Identifiers> GlobalLogger; // 0x18
-        public string _logFilePathOverride; // 0x20
-        public dle<string> <LogFileNamePrefix>k__BackingField; // 0x28
-        public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.Identifiers _globalLogger; // 0x30
-        public ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.? _zLoggerHandler; // 0x38
-        public object UnityLogPrefixFormat; // 0x40
-        public object LogFilePrefixFormat; // 0x50
-        public e OnMessageLogged; // 0x60
+        public object IsPathOverridden;
+        public object LogFileNamePrefix;
+        public object LogFilePath;
+        public object GlobalLogger;
 
         // ── Methods ──
         public void get_IsPathOverridden(){} // RVA: 0x7FFD55283F80
@@ -3889,10 +3805,7 @@ namespace VRC.Core
 
     public class ZLoggerHandlerLogger : Object
     {
-        public formation<string,object[],?> UnityHandler; // 0x10
-        public ode _unityHandler;
-        public object _profilerMarkerLogFormat; // 0x8
-        public object _profilerMarkerLogException; // 0x10
+        public object UnityHandler;
 
         // ── Methods ──
         public void get_UnityHandler(){} // RVA: 0x7FFD5528ADB0

@@ -7,7 +7,8 @@ namespace ThirdParty.Other.ProfanityFilter
 {
     public class AllowList : Object
     {
-        public URA.woDigitYearMax<string> ToList; // 0x10
+        public object ToList;
+        public object Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E4C1900
@@ -21,8 +22,7 @@ namespace ThirdParty.Other.ProfanityFilter
 
     public class ProfanityBase : Object
     {
-        public URA.woDigitYearMax<string> Count; // 0x10
-        public string[] _wordList; // 0x18
+        public object Count;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E4C2390 | overloaded x3
@@ -34,7 +34,7 @@ namespace ThirdParty.Other.ProfanityFilter
 
     public class ProfanityFilter : ProfanityBase
     {
-        public ootLength.onstraint AllowList; // 0x20
+        public object AllowList;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E4C3020 | overloaded x3

@@ -18,23 +18,16 @@ public class SampleFramesHandler : MulticastDelegate
 
 public class SaveableInventoryGroupData : ValueType
 {
-    public string name; // 0x10
-    public string[] ids; // 0x18
 }
 
 public class SavedSearches : Object
 {
-    public URA.woDigitYearMax<ÎÌ.nGroupValue> Searches; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class Scanbeam : Object
 {
-    public long Y; // 0x10
-    public stanceAlongPath Next; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -163,9 +156,8 @@ public class SecureStringAllocator : MulticastDelegate
 
 public class Segment : Object
 {
-    public rn<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> Capacity; // 0x10
-    public ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ[] FreezeOffset; // 0x18
-    public arp<ÎÏÍÍÍÌÎÍÏÌÎÎÌÌÏÎÏÍÏ> _state; // 0x20
+    public object Capacity;
+    public object FreezeOffset;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD51D00ED0
@@ -179,20 +171,10 @@ public class Segment : Object
 
 public class SegmentState : ValueType
 {
-    public nsitivityYRelativeOnly.aseOffset _pad0;
-    public int _first;
-    public int _lastCopy;
-    public nsitivityYRelativeOnly.aseOffset _pad1;
-    public int _firstCopy;
-    public int _last;
-    public nsitivityYRelativeOnly.aseOffset _pad2;
 }
 
 public class Select : Object
 {
-    public 2.ffer<T1717602112,T1717602128> m_Observable;
-    public yPermissionCheck<T1717602128> m_Observer;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E099B30
     public void OnCompleted(){} // RVA: 0x7FFD4E090980
@@ -221,18 +203,13 @@ public class SendNetworkEventDelegate : MulticastDelegate
 
 public class SerializableContainer : Object
 {
-    public string name; // 0x10
-    public byte[] data; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class SerializableVector3 : Object
 {
-    public float Value; // 0x10
-    public float Y; // 0x14
-    public float Z; // 0x18
+    public object Value;
 
     // ── Methods ──
     public void ToNumerics(){} // RVA: 0x7FFD4EB56D20
@@ -267,14 +244,12 @@ public class SerializationDelegate : MulticastDelegate
 
 public class SerializedState : ValueType
 {
-    public Device.tClick lastUpdateType; // 0x10
-    public kingMask playerUpdateStepCount; // 0x14
 }
 
 public class ServiceAccessor : Object
 {
-    public numeratorObject.NullAttribute CallSite; // 0x10
-    public n<numeratorObject.?,object> RealizedService; // 0x18
+    public object CallSite;
+    public object RealizedService;
 
     // ── Methods ──
     public void get_CallSite(){} // RVA: 0x7FFD4E35C380
@@ -290,8 +265,9 @@ public class ServiceCollectionDebugView : Object
 
 public class ServiceDescriptorCacheItem : ValueType
 {
-    public ute.portsPacking Last; // 0x10
-    public URA.woDigitYearMax<ute.portsPacking> Count; // 0x18
+    public object Last;
+    public object Count;
+    public object Item;
 
     // ── Methods ──
     public void get_Last(){} // RVA: 0x7FFD5374F000
@@ -334,7 +310,7 @@ public class SetClassValueAction : MulticastDelegate
 
 public class SetElementProperty : Property`2
 {
-    public T1717740480 Name;
+    public object Name;
 
     // ── Methods ──
     public void get_Name(){} // RVA: 0x7FFD4E078E90
@@ -360,14 +336,6 @@ public class SetStructValueAction : MulticastDelegate
 
 public class Settings : Object
 {
-    public string _containerName; // 0x10
-    public URA.DateTime<string,object> _data; // 0x18
-    public object _dataLock; // 0x20
-    public bool _hasWrittenToStorage; // 0x28
-    public int _lastTimeWrittenToStorage; // 0x2C
-    public int WRITE_TO_STORAGE_DELAY_MS;
-    public string _tempCachePath; // 0x30
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5726A320
     public void Get(){} // RVA: 0x7FFD4E2ADC40
@@ -380,8 +348,6 @@ public class Settings : Object
 
 public class ShaderAssetList : ScriptableObject
 {
-    public ojectionMatrix_Injected[] Shaders; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E54F5F0
 }
@@ -392,22 +358,7 @@ public class ShaderHandleErrors : ValueType
 
 public class Shape : Object
 {
-    public object id; // 0x10
-    public object transform1; // 0x18
-    public cationCallback shapeType; // 0x20
-    public amut center; // 0x24
-    public float radius; // 0x30
-    public float height; // 0x34
-    public amut axis; // 0x38
-    public float maxSize; // 0x44
-    public bool isReceiver; // 0x48
-    public bool isCollider; // 0x49
-    public ileFullDirectoryInformation<gSmoothFactor> OnEnter; // 0x50
-    public ileFullDirectoryInformation<gSmoothFactor> OnExit; // 0x58
-    public ÎÌÍÏÏÌÍÏ OnIdUpdated; // 0x60
-    public ushort _id; // 0x68
-    public ÍÏÎÎÌÍÍ.ions component; // 0x70
-    public ushort NullId;
+    public object id;
 
     // ── Methods ──
     public void get_id(){} // RVA: 0x7FFD513F9440
@@ -418,17 +369,6 @@ public class Shape : Object
 
 public class ShapeCache : ValueType
 {
-    public EXTERNAL_INDEX_REF_SIG.e m_confinerOven; // 0x10
-    public URA.woDigitYearMax<URA.woDigitYearMax<tionX>> m_OriginalPath; // 0x18
-    public tSizeBias m_DeltaWorldToBaked; // 0x20
-    public tSizeBias m_DeltaBakedToWorld; // 0x60
-    public float m_aspectRatio; // 0xA0
-    public float m_maxWindowSize; // 0xA4
-    public float m_skeletonPadding; // 0xA8
-    public float m_maxComputationTimePerFrameInSeconds; // 0xAC
-    public tSizeBias m_bakedToWorld; // 0xB0
-    public eRetain m_boundingShape2D; // 0xF0
-
     // ── Methods ──
     public void Invalidate(){} // RVA: 0x7FFD4FC23630
     public void ValidateCache(){} // RVA: 0x7FFD4FC237D0
@@ -438,30 +378,6 @@ public class ShapeCache : ValueType
 
 public class ShapeData : ValueType
 {
-    public cationCallback shapeType; // 0x10
-    public amut center; // 0x14
-    public float radius; // 0x20
-    public float height; // 0x24
-    public amut axis; // 0x28
-    public float maxSize; // 0x34
-    public bool isReceiver; // 0x38
-    public bool isCollider; // 0x39
-    public stments bounds; // 0x3C
-    public lutionZ boundsMin; // 0x54
-    public lutionZ boundsMax; // 0x60
-    public lutionZ nextBoundsMin; // 0x6C
-    public lutionZ nextBoundsMax; // 0x78
-    public es.ap velocity; // 0x84
-    public es.ap angularNormal; // 0x90
-    public float angularSpeed; // 0x9C
-    public es.ap lastPosition; // 0xA0
-    public es.eout lastRotation; // 0xAC
-    public es.ap outPos0; // 0xBC
-    public es.ap outPos1; // 0xC8
-    public float outRadius; // 0xD4
-    public int collisionCount; // 0xD8
-    public float VelocityLerpSpeed;
-
     // ── Methods ──
     public void ToCollisionShape(){} // RVA: 0x7FFD5521B3E0
     public void GetMidpoint(){} // RVA: 0x7FFD5521B420
@@ -474,7 +390,51 @@ public class ShapeData : ValueType
 
 public class ShapeModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object shapeType;
+    public object randomDirectionAmount;
+    public object sphericalDirectionAmount;
+    public object randomPositionAmount;
+    public object alignToDirection;
+    public object radius;
+    public object radiusMode;
+    public object radiusSpread;
+    public object radiusSpeed;
+    public object radiusSpeedMultiplier;
+    public object radiusThickness;
+    public object angle;
+    public object length;
+    public object boxThickness;
+    public object meshShapeType;
+    public object mesh;
+    public object meshRenderer;
+    public object skinnedMeshRenderer;
+    public object sprite;
+    public object spriteRenderer;
+    public object useMeshMaterialIndex;
+    public object meshMaterialIndex;
+    public object useMeshColors;
+    public object normalOffset;
+    public object meshSpawnMode;
+    public object meshSpawnSpread;
+    public object meshSpawnSpeed;
+    public object meshSpawnSpeedMultiplier;
+    public object arc;
+    public object arcMode;
+    public object arcSpread;
+    public object arcSpeed;
+    public object arcSpeedMultiplier;
+    public object donutRadius;
+    public object position;
+    public object rotation;
+    public object scale;
+    public object texture;
+    public object textureClipChannel;
+    public object textureClipThreshold;
+    public object textureColorAffectsParticles;
+    public object textureAlphaAffectsParticles;
+    public object textureBilinearFiltering;
+    public object textureUVChannel;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -680,7 +640,7 @@ public class SharedLong : Object
 
 public class SharedStatic`1 : ValueType
 {
-    public IntPtr Data; // 0x10
+    public object Data;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E2ADC40
@@ -694,8 +654,7 @@ public class SharedStatics : Object
 
 public class SignalSource : Object
 {
-    public EXTERNAL_INDEX_REF_SIG._BackingField SignalDuration; // 0x10
-    public amut m_Velocity; // 0x18
+    public object SignalDuration;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4FC77880
@@ -712,18 +671,11 @@ public class SimpleScheduledItem : VisualElementScheduledItem`1
 
 public class SingleAnchorDelegatePair : ValueType
 {
-    public ion_30 Anchor; // 0x10
-    public rectoryInformation<ion_30,bool> Delegate; // 0x18
 }
 
 public class SingleConsumerUnboundedChannelReader : ChannelReader`1
 {
-    public ileFullDirectoryInformation<object> Completion;
-    public eObjectDelegate.ttribute<T1717653968> parent;
-    public sageKind.TICMAP_SIZE cancellationToken;
-    public sageKind.sition cancellationTokenRegistration;
-    public eObjectDelegate.ataProperty>k__BackingField<bool> core;
-    public bool isWaiting;
+    public object Completion;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -744,8 +696,6 @@ public class SingleConsumerUnboundedChannelReader : ChannelReader`1
 
 public class SingleConsumerUnboundedChannelWriter : ChannelWriter`1
 {
-    public eObjectDelegate.ttribute<T1717653936> parent;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void TryWrite(){} // RVA: 0x7FFD4E2ADC40
@@ -758,17 +708,12 @@ public class SingleProducerSingleConsumerQueue_DebugView : Object
 
 public class SingleRange : ValueType
 {
-    public char First; // 0x10
-    public char Last; // 0x12
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD51510B90
 }
 
 public class SingleRangeComparer : Object
 {
-    public eCallback Instance;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
     public void Compare(){} // RVA: 0x7FFD547C89F0
@@ -777,7 +722,17 @@ public class SingleRangeComparer : Object
 
 public class SizeBySpeedModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object size;
+    public object sizeMultiplier;
+    public object x;
+    public object xMultiplier;
+    public object y;
+    public object yMultiplier;
+    public object z;
+    public object zMultiplier;
+    public object separateAxes;
+    public object range;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -829,8 +784,7 @@ public class SizeBySpeedModule : ValueType
 
 public class SizeGroup : Object
 {
-    public URA.leEastFrench<T1717581184[]> Count;
-    public int LowWaterMark;
+    public object Count;
 
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7FFD4E079960
@@ -843,7 +797,16 @@ public class SizeGroup : Object
 
 public class SizeOverLifetimeModule : ValueType
 {
-    public InDuration enabled; // 0x10
+    public object enabled;
+    public object size;
+    public object sizeMultiplier;
+    public object x;
+    public object xMultiplier;
+    public object y;
+    public object yMultiplier;
+    public object z;
+    public object zMultiplier;
+    public object separateAxes;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4ECFFE40
@@ -898,12 +861,8 @@ public class SkinChangedDelegate : MulticastDelegate
 
 public class SlabAllocator : ValueType
 {
-    public ield Handle; // 0x10
-    public ÏÎÏÏÌÍÎÏÏÌÏÎÏÍÏÎÏÏ SlabSizeInBytes; // 0x18
-    public int Log2SlabSizeInBytes; // 0x38
-    public ÍÎÏÎÎ.Values<int> Occupied; // 0x40
-    public long budgetInBytes; // 0x1040
-    public long allocatedBytes; // 0x1048
+    public object Handle;
+    public object SlabSizeInBytes;
 
     // ── Methods ──
     public void get_Handle(){} // RVA: 0x7FFD4F840210
@@ -921,17 +880,12 @@ public class SliderEvent : UnityEvent`1
 
 public class Slot : ValueType
 {
-    public int hashCode; // 0x10
-    public int next; // 0x14
-    public object value; // 0x18
 }
 
 public class SortedListKeyEnumerator : Object
 {
-    public URA.yKey<T1717598144,T1717598160> Current;
-    public int System.Collections.IEnumerator.Current;
-    public int _version;
-    public T1717598144 _currentKey;
+    public object Current;
+    public object System.Collections.IEnumerator.Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -944,10 +898,8 @@ public class SortedListKeyEnumerator : Object
 
 public class SortedListValueEnumerator : Object
 {
-    public URA.yKey<T1717598176,T1717598192> Current;
-    public int System.Collections.IEnumerator.Current;
-    public int _version;
-    public T1717598192 _currentValue;
+    public object Current;
+    public object System.Collections.IEnumerator.Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -960,10 +912,6 @@ public class SortedListValueEnumerator : Object
 
 public class SorterGenericArray : ValueType
 {
-    public ÌÎÍÏÍÎ keys; // 0x10
-    public ÌÎÍÏÍÎ items; // 0x18
-    public mePatterns.eTwoDigitYears comparer; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A875F0
     public void SwapIfGreaterWithItems(){} // RVA: 0x7FFD53A87770
@@ -979,10 +927,6 @@ public class SorterGenericArray : ValueType
 
 public class SorterObjectArray : ValueType
 {
-    public object[] keys; // 0x10
-    public object[] items; // 0x18
-    public mePatterns.eTwoDigitYears comparer; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD53A866F0
     public void SwapIfGreaterWithItems(){} // RVA: 0x7FFD53A86870
@@ -998,12 +942,6 @@ public class SorterObjectArray : ValueType
 
 public class SortingData : Object
 {
-    public chMaterialPreset source; // 0x10
-    public gSpriteCharacterUnicode parentDependency; // 0x18
-    public URA.woDigitYearMax<gSpriteCharacterUnicode> dependencies; // 0x20
-    public bool visited; // 0x28
-    public int executionGroup; // 0x2C
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5526E640
 }
@@ -1014,15 +952,11 @@ public class SortingGroupsUpdate : ValueType
 
 public class Sounds : ValueType
 {
-    public ies hover; // 0x10
-    public ies click; // 0x18
-    public ies deny; // 0x20
-    public ies back; // 0x28
 }
 
 public class SparseArray`1 : Object
 {
-    public _method[] Current; // 0x10
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090ED0
@@ -1033,19 +967,13 @@ public class SparseArray`1 : Object
 
 public class SpecialCharacter : ValueType
 {
-    public ypointLabel.arker character; // 0x10
-    public ypointLabel.urces fontAsset; // 0x18
-    public atrix_Injected material; // 0x20
-    public int materialIndex; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD54BBFFE0
 }
 
 public class Spectrum : Object
 {
-    public int Item; // 0x10
-    public URA.woDigitYearMax<?> points; // 0x18
+    public object Item;
 
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4EF4F3D0
@@ -1065,23 +993,6 @@ public class SpriteAtlasManagerUpdate : ValueType
 
 public class Sprites : ValueType
 {
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField micOn; // 0x10
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField micOff; // 0x18
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField micOnOutline; // 0x20
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField micOffOutline; // 0x28
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField friendRequest; // 0x30
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField invite; // 0x38
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField inviteResponse; // 0x40
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField requestInvite; // 0x48
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField requestInviteResponse; // 0x50
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField gesturesOn; // 0x58
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField gesturesOff; // 0x60
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField system; // 0x68
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField group; // 0x70
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField preload; // 0x78
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField notification; // 0x80
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField gift; // 0x88
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField boop; // 0x90
 }
 
 public class Sse : Object
@@ -1106,9 +1017,7 @@ public class Sse2 : Object
 
 public class StackAllocator : ValueType
 {
-    public ield Handle; // 0x10
-    public ÏÎÏÏÌÍÎÏÏÌÏÎÏÍÏÎÏÏ m_storage; // 0x18
-    public long m_top; // 0x38
+    public object Handle;
 
     // ── Methods ──
     public void get_Handle(){} // RVA: 0x7FFD4F840210
@@ -1123,28 +1032,15 @@ public class State : ValueType
 
 public class StateChangeMonitorListener : ValueType
 {
-    public ilAddress.ressedThisFrame control; // 0x10
-    public Device.eckFor2DOcclusion monitor; // 0x18
-    public long monitorIndex; // 0x20
-    public uint groupIndex; // 0x28
 }
 
 public class StateChangeMonitorTimeout : ValueType
 {
-    public ilAddress.ressedThisFrame control; // 0x10
-    public double time; // 0x18
-    public Device.eckFor2DOcclusion monitor; // 0x20
-    public long monitorIndex; // 0x28
-    public int timerIndex; // 0x30
 }
 
 public class StateChangeMonitorsForDevice : ValueType
 {
-    public edOrCanceled[] count; // 0x10
-    public sescrolldown[] listeners; // 0x18
-    public ilAddress.Touchscreentouch5deltadown signalled; // 0x20
-    public bool needToUpdateOrderingOfMonitors; // 0x40
-    public bool needToCompactArrays; // 0x41
+    public object count;
 
     // ── Methods ──
     public void get_count(){} // RVA: 0x7FFD4E70C4C0
@@ -1165,9 +1061,6 @@ public class StateChanged : MulticastDelegate
 
 public class StateEventBuffer : ValueType
 {
-    public Device.? stateEvent; // 0x10
-    public int kMaxSize;
-    public object data; // 0x29
 }
 
 public class StaticGetter`1 : MulticastDelegate
@@ -1179,8 +1072,6 @@ public class StaticGetter`1 : MulticastDelegate
 
 public class StaticTypeReinitAttribute : Attribute
 {
-    public object reinitType; // 0x10
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E342E30
 }
@@ -1212,8 +1103,6 @@ public class StatusDelegate : MulticastDelegate
 
 public class SteamVR_Utils : Object
 {
-    public string secretKey;
-
     // ── Methods ──
     public void IsValid(){} // RVA: 0x7FFD54053DB0 | overloaded x2
     public void Slerp(){} // RVA: 0x7FFD54053E20

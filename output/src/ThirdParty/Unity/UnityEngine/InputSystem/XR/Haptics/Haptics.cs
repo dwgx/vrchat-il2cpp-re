@@ -7,8 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 {
     public class BufferedRumble : ValueType
     {
-        public Initialize_ctrlTouchscreentouch8radiusy.tialize_ctrlTouchscreentouch9press capabilities; // 0x10
-        public ilAddress.ActionProperty device; // 0x28
+        public object capabilities;
+        public object device;
 
         // ── Methods ──
         public void get_capabilities(){} // RVA: 0x7FFD54A5AEF0
@@ -21,10 +21,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class GetCurrentHapticStateCommand : ValueType
     {
-        public int Type;
-        public Device.formUserAccount typeStatic; // 0x10
-        public uint currentState; // 0x18
-        public uint samplesAvailable; // 0x1C
+        public object Type;
+        public object typeStatic;
+        public object currentState;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A5B2E0
@@ -35,14 +34,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class GetHapticCapabilitiesCommand : ValueType
     {
-        public int Type;
-        public Device.formUserAccount typeStatic; // 0x10
-        public uint capabilities; // 0x18
-        public bool supportsImpulse; // 0x1C
-        public bool supportsBuffer; // 0x1D
-        public uint frequencyHz; // 0x20
-        public uint maxBufferSize; // 0x24
-        public uint optimalBufferSize; // 0x28
+        public object Type;
+        public object typeStatic;
+        public object capabilities;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A5B380
@@ -53,12 +47,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class SendBufferedHapticCommand : ValueType
     {
-        public int Type;
-        public int typeStatic;
-        public Device.formUserAccount baseCommand; // 0x10
-        public int channel; // 0x18
-        public int bufferSize; // 0x1C
-        public eft buffer; // 0x20
+        public object Type;
+        public object typeStatic;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A5B3F0
@@ -68,11 +58,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class SendHapticImpulseCommand : ValueType
     {
-        public int Type;
-        public Device.formUserAccount typeStatic; // 0x10
-        public int channel; // 0x18
-        public float amplitude; // 0x1C
-        public float duration; // 0x20
+        public object Type;
+        public object typeStatic;
 
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7FFD54A5B5A0

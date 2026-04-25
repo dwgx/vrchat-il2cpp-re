@@ -7,8 +7,7 @@ namespace VRC.Networking
 {
     public class SerializationRecoveryHandler : Object
     {
-        public ÏÎÍÍÌÌÏÏÏÍÍÌÎÌÍÌ.ÎÏÎÌÎÌÍ _serializationRecoveryHandler;
-        public URA.DateTime<int,?> ÌÎÌÏÍÏÏÌÎÎÍÎÏÌÏÌÌÌÍÌÎÍÏ; // 0x10
+        public object _serializationRecoveryHandler;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E5C1600
@@ -26,7 +25,7 @@ namespace VRC.Networking
 
     public class UdonClientImageDownloader : Object
     {
-        public dle<string> _udonClientImageDownloader;
+        public object _udonClientImageDownloader;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E5ED850
@@ -45,7 +44,7 @@ namespace VRC.Networking
 
     public class UdonClientStringDownloader : Object
     {
-        public dle<string> _udonClientStringDownloader;
+        public object _udonClientStringDownloader;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7FFD4E5EF0D0

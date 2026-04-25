@@ -7,8 +7,7 @@ namespace ThirdParty.Other.Unity.Services.Core
 {
     public class ExternalUserIdProperty : Object
     {
-        public ileFullDirectoryInformation<string> UserId; // 0x10
-        public string m_UserId; // 0x18
+        public object UserId;
 
         // ── Methods ──
         public void get_UserId(){} // RVA: 0x7FFD4E3447C0
@@ -26,7 +25,7 @@ namespace ThirdParty.Other.Unity.Services.Core
 
     public class InitializationOptions : Object
     {
-        public URA.X_CALENDARS<string,object> Values; // 0x10
+        public object Values;
 
         // ── Methods ──
         public void get_Values(){} // RVA: 0x7FFD4E35C380
@@ -47,9 +46,10 @@ namespace ThirdParty.Other.Unity.Services.Core
 
     public class UnityServices : Object
     {
-        public playableAsset.PlayableGraphOutputs Instance;
-        public utes.s<object> InstantiationCompletion; // 0x8
-        public playableAsset.e State; // 0x10
+        public object Instance;
+        public object InstantiationCompletion;
+        public object State;
+        public object ExternalUserId;
 
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7FFD54B10780
@@ -63,8 +63,8 @@ namespace ThirdParty.Other.Unity.Services.Core
 
     public class UnityThreadUtils : Object
     {
-        public int UnityThreadScheduler;
-        public utes.b IsRunningOnUnityThread; // 0x8
+        public object UnityThreadScheduler;
+        public object IsRunningOnUnityThread;
 
         // ── Methods ──
         public void set_UnityThreadScheduler(){} // RVA: 0x7FFD54B10CC0

@@ -19,25 +19,18 @@ public class PCMSetPositionCallback : MulticastDelegate
 
 public class PagedGroupResult : Object
 {
-    public URA.saAbbrevMonthNames<ÌÌÌÍÍÎÍÌÏÌÏÌÍÍÏ.<pastDisplayNames>k__BackingField> Groups; // 0x10
-    public string NextCursor; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class Pair : ValueType
 {
-    public ushort shapeA; // 0x10
-    public bool isReceiverA; // 0x12
-    public ushort shapeB; // 0x14
-    public bool isReceiverB; // 0x16
 }
 
 public class PairIterator : ValueType
 {
-    public int System.Collections.IEnumerator.Current;
-    public Ease_Out.ÍÍÏÍÌÍÍÌÌÏÍÏÌÍÍÍÍÍÌÌ<T1717720800,T1717720816> Current;
+    public object System.Collections.IEnumerator.Current;
+    public object Current;
 
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
@@ -57,8 +50,6 @@ public class PanicFunction_ : MulticastDelegate
 
 public class ParallelForJobStruct`1 : ValueType
 {
-    public ÌÌÎÍÍÌÎÍÎÍÏÎÍÍÍÏÌÎÏÏÍÌÏ<UIntPtr> jobReflectionData;
-
     // ── Methods ──
     public void Initialize(){} // RVA: 0x7FFD4E0909B0
     public void Execute(){} // RVA: 0x7FFD4E099720
@@ -67,14 +58,11 @@ public class ParallelForJobStruct`1 : ValueType
 
 public class ParallelWriter : ValueType
 {
-    public IntPtr m_Buffer;
-    public int m_ThreadIndex;
 }
 
 public class Parameter : Object
 {
-    public string hash; // 0x10
-    public int _hash; // 0x18
+    public object hash;
 
     // ── Methods ──
     public void get_hash(){} // RVA: 0x7FFD57434ED0
@@ -84,13 +72,6 @@ public class Parameter : Object
 
 public class ParameterConfig : Object
 {
-    public string name; // 0x10
-    public ÍÎÍÍÍÍÎÏÍÎÌÌÏÌÍÎÎÍ input; // 0x18
-    public object output; // 0x20
-    public string stringType; // 0x28
-    public object parameterType; // 0x30
-    public int hash; // 0x34
-
     // ── Methods ──
     public void Initialize(){} // RVA: 0x7FFD4EFDF910
     public void GetDefaultAddressFor(){} // RVA: 0x7FFD4EFDFD50
@@ -126,10 +107,7 @@ public class ParameterEnumerator : ValueType
 
 public class ParameterOverride : ValueType
 {
-    public string objectType; // 0x10
-    public string parameter; // 0x18
-    public ilAddress.__BackingField bindingMask; // 0x20
-    public 2.me value; // 0x78
+    public object objectType;
 
     // ── Methods ──
     public void get_objectType(){} // RVA: 0x7FFD54952D70
@@ -147,9 +125,6 @@ public class ParameterizedConstructorDelegate`5 : MulticastDelegate
 
 public class ParentHash : ValueType
 {
-    public int m_Hash; // 0x10
-    public int m_ParentHash; // 0x14
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E7F6D50
 }
@@ -168,23 +143,22 @@ public class PartBinding : ValueType
 
 public class Particle : ValueType
 {
-    public amut lifetime; // 0x10
-    public amut position; // 0x1C
-    public amut velocity; // 0x28
-    public amut animatedVelocity; // 0x34
-    public amut totalVelocity; // 0x40
-    public amut remainingLifetime; // 0x4C
-    public amut startLifetime; // 0x58
-    public amut startColor; // 0x64
-    public object randomSeed; // 0x70
-    public uint axisOfRotation; // 0x74
-    public uint startSize; // 0x78
-    public float startSize3D; // 0x7C
-    public float rotation; // 0x80
-    public int rotation3D; // 0x84
-    public float angularVelocity; // 0x88
-    public float angularVelocity3D; // 0x8C
-    public uint m_Flags; // 0x90
+    public object lifetime;
+    public object position;
+    public object velocity;
+    public object animatedVelocity;
+    public object totalVelocity;
+    public object remainingLifetime;
+    public object startLifetime;
+    public object startColor;
+    public object randomSeed;
+    public object axisOfRotation;
+    public object startSize;
+    public object startSize3D;
+    public object rotation;
+    public object rotation3D;
+    public object angularVelocity;
+    public object angularVelocity3D;
 
     // ── Methods ──
     public void set_lifetime(){} // RVA: 0x7FFD4E36A090
@@ -233,8 +207,8 @@ public class ParticleSystemEndUpdateAll : ValueType
 
 public class PassthroughCapabilities : Object
 {
-    public bool SupportsPassthrough; // 0x10
-    public bool SupportsColorPassthrough; // 0x11
+    public object SupportsPassthrough;
+    public object SupportsColorPassthrough;
 
     // ── Methods ──
     public void get_SupportsPassthrough(){} // RVA: 0x7FFD4E40B5E0
@@ -244,8 +218,6 @@ public class PassthroughCapabilities : Object
 
 public class PerCoreLockedStacks : Object
 {
-    public n<T1717592560>[] _perCoreStacks;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090980
     public void TryPush(){} // RVA: 0x7FFD4E090A40
@@ -255,10 +227,6 @@ public class PerCoreLockedStacks : Object
 
 public class PerTypeValues`1 : Object
 {
-    public bool IsReferenceOrContainsReferences;
-    public T1717725632[] EmptyArray;
-    public UIntPtr ArrayAdjustment;
-
     // ── Methods ──
     public void MeasureArrayAdjustment(){} // RVA: 0x7FFD4E078A90
     public void .cctor(){} // RVA: 0x7FFD4E0909B0
@@ -270,25 +238,10 @@ public class PerformanceAnalyticsUpdate : ValueType
 
 public class PersonalMirrorIcons : ValueType
 {
-    public ector mirror; // 0x10
-    public ector mirrorOpacity; // 0x18
-    public ector mirrorScale; // 0x20
-    public ector mirrorTracking; // 0x28
-    public ector mirrorVisibility; // 0x30
-    public ector mirrorReset; // 0x38
-    public ector mirrorPlus; // 0x40
-    public ector mirrorMinus; // 0x48
-    public ector faceMirror; // 0x50
-    public ector faceOpacity; // 0x58
-    public ector facePosition; // 0x60
-    public ector faceScale; // 0x68
-    public ector faceReset; // 0x70
 }
 
 public class PhotoCaptureResult : ValueType
 {
-    public lphaMin resultType; // 0x10
-    public long hResult; // 0x18
 }
 
 public class PhraseRecognizedDelegate : MulticastDelegate
@@ -300,19 +253,6 @@ public class PhraseRecognizedDelegate : MulticastDelegate
 
 public class PhysBoneJob : ValueType
 {
-    public float currentTime; // 0x10
-    public es.ap distanceCullOrigin; // 0x14
-    public ÍÎÏÎÎ.ÌÌ<int> chainIndices; // 0x20
-    public ÍÎÏÎÎ.ÌÌ<tCursorPositionFromStringIndexUsingCharacterHeight> roots; // 0x30
-    public ÍÎÏÎÎ.ÌÌ<ingArray> chains; // 0x40
-    public ÍÎÏÎÎ.ÌÌ<radius> bones; // 0x50
-    public ÍÎÏÎÎ.ÌÌ<rdLeastSignificantDecimal> transformAccess; // 0x60
-    public ÍÎÏÎÎ.ÌÌ<t_font> transformData; // 0x70
-    public ÍÎÏÎÎ.ÌÌ<?> shapeData; // 0x80
-    public ÍÎÏÎÎ.ÌÌ<Size> errorBuffer; // 0x90
-    public int FABRIK_MAX_ITERATIONS;
-    public float FABRIK_SOLVED_MARGIN;
-
     // ── Methods ──
     public void Execute(){} // RVA: 0x7FFD55263D00
     public void InitializeChain(){} // RVA: 0x7FFD55265590
@@ -411,15 +351,10 @@ public class PictureManager : Object
 
 public class PinchData : ValueType
 {
-    public float Distance; // 0x10
-    public float Amount; // 0x14
-    public amut Center; // 0x18
 }
 
 public class PinnedArray`1 : ValueType
 {
-    public annelDataStore.essage _handle;
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E090A40
     public void Dispose(){} // RVA: 0x7FFD4E090980
@@ -434,10 +369,6 @@ public class PipelineSaver : MonoBehaviour
 
 public class PlatformAsset : Object
 {
-    public ÌÏÏÏÎÍÍÏÎÎÏÌÌÎÌÌ Platform; // 0x10
-    public ÍÍÍÍÌÌÏÍÌÌÏÏÏÏÎÎÌÌÏÎ>k__BackingField Icon; // 0x18
-    public object Color; // 0x20
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
@@ -454,18 +385,6 @@ public class PlatformOptions : Object
 
 public class PlaybackState : ValueType
 {
-    public float m_AccumulatedDt; // 0x10
-    public float m_StartDelay; // 0x14
-    public float m_PlaybackTime; // 0x18
-    public int m_RingBufferIndex; // 0x1C
-    public object m_Emission; // 0x20
-    public Ï m_Initial; // 0x38
-    public gSmoothFactor m_Shape; // 0x78
-    public ndex m_Force; // 0xD4
-    public ÍÏÎÍÏÏÏÏÌÏÍ>k__BackingField m_Collision; // 0x114
-    public NameAlternatives m_Noise; // 0x154
-    public 4E58B42A7F61FD0EEE1D89B5120B m_Lights; // 0x158
-    public 7367E4FB0766E2CBC3ACF5AB42B4E98348E58E5A789845D4FCCDB63D2AEE m_Trail; // 0x16C
 }
 
 public class PlayerCleanupCachedData : ValueType
@@ -478,13 +397,9 @@ public class PlayerEmitCanvasGeometry : ValueType
 
 public class PlayerModComponentHealth : NetworkReadyHandler_68D0
 {
-    public float f_3DB; // 0x58
-    public float f_ABC; // 0x5C
-    public object f_8D0; // 0x60
-    public ixerGroup ÏÏÎÌÌÍÏÏÎÏÏÎÍÎÏÍÍÌÍÌÍÍÌ; // 0x68
-    public bool ÎÌÌÏÏÎÍÏÏÎÎÍÏÌÍÏÌÏÌÌÎÌÌ; // 0x6C
-    public ÏÍÌÌÎÌÌÌ ÌÌÎÎÏÍÎÏÍÎÏÍÏÌÌÌÏÏÍÏÎÍÏ; // 0x70
-    public ts ÍÎÏÍÍÎÎÎÎÍÏÏÌÏÎÌÍÌÌÌÎÌÎ; // 0x78
+    public object f_3DB;
+    public object f_ABC;
+    public object f_8D0;
 
     // ── Methods ──
     public void print(){} // RVA: 0x7FFD4F2EB600
@@ -520,11 +435,6 @@ public class PlayerModComponentHealth : NetworkReadyHandler_68D0
 
 public class PlayerModComponentJump : MonoBehaviour
 {
-    public ÎÎÎÌÍÌÌÏÍÎÎÎÏÏÎÎÏÌÍÏ ÏÎÎÎÎÌÌÎÎÏÎÍÎÎÌÏÎÌÏÍÎÎÍ; // 0x20
-    public float ÏÎÎÍÎÏÏÍÏÍÎÍÍÍÌÍÏÎÌÏÍÎÏ; // 0x28
-    public float ÎÌÎÎÎÍÎÌÍÏÍÌÌÏÍÌÍÌÌÌÍÎÌ; // 0x2C
-    public bool ÌÌÏÍÎÌÌÏÎÌÌÌÏÎÎÎÍÎÏÍÌÌÎ; // 0x30
-
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F2F03F0
     public void RaiseCancellation(){} // RVA: 0x7FFD4F2F0520
@@ -542,15 +452,6 @@ public class PlayerModComponentJump : MonoBehaviour
 
 public class PlayerModComponentSpeed : MonoBehaviour
 {
-    public ÎÎÎÌÍÌÌÏÍÎÎÎÏÏÎÎÏÌÍÏ ÏÏÌÏÌÌÌÏÍÏÏÎÌÎÌÌÍÎÌÏÌÍÎ; // 0x20
-    public float ÎÌÏÌÌÎÌÍÏÏÍÌÏÍÌÎÏÎÌÌÏÏÍ; // 0x28
-    public float ÍÏÍÎÍÎÍÎÏÌÏÍÎÏÍÏÌÍÏÏÍÍÏ; // 0x2C
-    public float ÏÏÍÌÌÌÏÎÍÍÍÎÏÌÎÎÍÏÍÏÍÎÍ; // 0x30
-    public float ÎÌÍÎÎÍÍÍÌÏÌÍÎÎÌÍÏÌÏÏÌÍÏ; // 0x34
-    public float ÍÎÌÌÌÎÍÎÎÏÌÌÍÎÌÎÏÏÍÏÏÏÌ; // 0x38
-    public float ÏÏÏÌÌÌÏÎÌÎÎÍÏÌÎÍÏÎÏÌÏÏÌ; // 0x3C
-    public bool ÍÏÎÍÌÌÌÍÍÏÏÎÍÏÎÏÌÏÍÎÍÍÍ; // 0x40
-
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x7FFD4F2F1150
     public void RaiseCancellation(){} // RVA: 0x7FFD4F2F12A0
@@ -570,11 +471,6 @@ public class PlayerModComponentSpeed : MonoBehaviour
 
 public class PlayerModComponentVoice : MonoBehaviour
 {
-    public float ÏÍÎÏÍÏÌÍÎÌÎÏÏÏÎÍÏÏÎÍÌÎÎ; // 0x20
-    public float ÌÏÎÏÏÍÏÌÍÏÍÎÎÎÌÏÎÎÍÍÍÌÌ; // 0x24
-    public bool ÍÎÎÌÏÎÎÎÎÎÏÏÎÎÎÍÍÏÌÏÍÌÎ; // 0x28
-    public object ÎÎÏÍÏÍÏÍÎÌÌÍÍÌÎÍÌÌÌÎÏÍÎ; // 0x30
-
     // ── Methods ──
     public void OnDestroy(){} // RVA: 0x7FFD4F2F2EE0
     public void RaiseCancellation(){} // RVA: 0x7FFD4F2F2EF0
@@ -612,9 +508,6 @@ public class PlayerUpdateCanvases : ValueType
 
 public class Point : Object
 {
-    public float frequency; // 0x10
-    public float data; // 0x14
-
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x7FFD4EF4F270
     public void Equals(){} // RVA: 0x7FFD4EF4F270
@@ -631,14 +524,10 @@ public class PollHtcsPlayerConnection : ValueType
 
 public class PollNextEventUnion : ValueType
 {
-    public e pPollNextEvent; // 0x10
-    public object pPollNextEventPacked; // 0x10
 }
 
 public class PollNextOverlayEventUnion : ValueType
 {
-    public heckForBlocking pPollNextOverlayEvent; // 0x10
-    public ull pPollNextOverlayEventPacked; // 0x10
 }
 
 public class PollPlayerConnection : ValueType
@@ -647,13 +536,12 @@ public class PollPlayerConnection : ValueType
 
 public class PolyNode : Object
 {
-    public hCache ChildCount; // 0x10
-    public URA.woDigitYearMax<lfFrustumHeight> Contour; // 0x18
-    public int Childs; // 0x20
-    public Solution Parent; // 0x24
-    public gShape2D IsHole; // 0x28
-    public URA.woDigitYearMax<hCache> IsOpen; // 0x30
-    public bool <IsOpen>k__BackingField; // 0x38
+    public object ChildCount;
+    public object Contour;
+    public object Childs;
+    public object Parent;
+    public object IsHole;
+    public object IsOpen;
 
     // ── Methods ──
     public void IsHoleNode(){} // RVA: 0x7FFD4FC7C110
@@ -672,7 +560,7 @@ public class PolyNode : Object
 
 public class PolyTree : PolyNode
 {
-    public URA.woDigitYearMax<hCache> Total; // 0x40
+    public object Total;
 
     // ── Methods ──
     public void Clear(){} // RVA: 0x7FFD4FC7BDD0
@@ -683,12 +571,6 @@ public class PolyTree : PolyNode
 
 public class PolyfillExtensions : Object
 {
-    public JapaneseLangName.erns<m.?,m.ngField> parameterCache;
-    public JapaneseLangName.erns<m.ber,m.ngField> propertyCache; // 0x8
-    public JapaneseLangName.erns<m.itValueA,m.ngField> eventCache; // 0x10
-    public JapaneseLangName.erns<m.WmiGuidObject,m.ngField> fieldCache; // 0x18
-    public long TicksPerMicrosecond;
-
     // ── Methods ──
     public void GetNullabilityInfo(){} // RVA: 0x7FFD53E488F0 | overloaded x5
     public void GetNullability(){} // RVA: 0x7FFD53E48AA0 | overloaded x5
@@ -744,8 +626,7 @@ public class PolyfillExtensions : Object
 
 public class PolygonSolution : ValueType
 {
-    public URA.woDigitYearMax<URA.woDigitYearMax<lfFrustumHeight>> IsNull; // 0x10
-    public float frustumHeight; // 0x18
+    public object IsNull;
 
     // ── Methods ──
     public void StateChanged(){} // RVA: 0x7FFD4FC6C1E0
@@ -761,33 +642,18 @@ public class PopupTextElement : TextElement
 
 public class PortalSkinMap : MonoBehaviour
 {
-    public stfix Animator; // 0x20
-    public terialIndex ThumbnailRenderer; // 0x28
-    public float DespawnDuration; // 0x30
-    public object PortalUIOverridePosition; // 0x38
-    public object PortalPlatformBadgesOverridePosition; // 0x40
-    public object PortalLabsBadgeOverridePosition; // 0x48
-    public float PreviewScale; // 0x50
-    public amut PreviewOffset; // 0x54
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5527DC40
 }
 
 public class Pose : Object
 {
-    public ÍÏÎÎÌÍÍ.arker chainId; // 0x10
-    public bool prevIsAnimated; // 0x20
-    public URA.woDigitYearMax<ntAssetInternal> prevData; // 0x28
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD5526E9E0
 }
 
 public class PostLateUpdater : MonoBehaviour
 {
-    public er.therRotation udonManager; // 0x20
-
     // ── Methods ──
     public void LateUpdate(){} // RVA: 0x7FFD552A7A40
     public void .ctor(){} // RVA: 0x7FFD4E341D50
@@ -795,8 +661,6 @@ public class PostLateUpdater : MonoBehaviour
 
 public class PrecompiledLayout : ValueType
 {
-    public ormation<ilAddress.ActionProperty> factoryMethod; // 0x10
-    public string metadata; // 0x18
 }
 
 public class PresentAfterDraw : ValueType
@@ -809,18 +673,12 @@ public class PresentBeforeUpdate : ValueType
 
 public class PresetSaveData : Object
 {
-    public int SelectedPreset; // 0x10
-    public URA.DateTime<int,ÍÍÏ> Presets; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD4E341310
 }
 
 public class PreviousInfo : ValueType
 {
-    public int Code; // 0x10
-    public IntPtr SortKey; // 0x18
-
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFD537BB310
 }
@@ -864,6 +722,4 @@ public class ProfilerSynchronizeStats : ValueType
 
 public class ProviderRegistration : ValueType
 {
-    public ÏÎÏÍÍÌÏÍÌÌÍÍÌÎÎÎÌÎÌÍÎÌÍ.ÏÍÌÎÎÌÌ Provider; // 0x10
-    public bool ShouldDispose; // 0x18
 }

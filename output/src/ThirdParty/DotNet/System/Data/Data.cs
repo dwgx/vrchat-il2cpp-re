@@ -7,9 +7,6 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class DataCommonEventSource : EventSource
     {
-        public rtable.AllowPreEpoch Log;
-        public long s_nextScopeId; // 0x8
-
         // ── Methods ──
         public void Trace(){} // RVA: 0x7FFD4E2ADC40 | overloaded x7
         public void EnterScope(){} // RVA: 0x7FFD4E2ADC40 | overloaded x5
@@ -282,20 +279,15 @@ namespace ThirdParty.DotNet.System.Data
 
     public class Index : Object
     {
-        public rtable.eric.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove HasRemoteAggregate; // 0x10
-        public rtable.e[] ObjectID; // 0x18
-        public ation<rtable.42B862C3F1CA138CB3B89> RecordStates; // 0x20
-        public rtable.notAddColumn3 RowFilter; // 0x28
-        public Names HasDuplicates; // 0x30
-        public Collection RecordCount; // 0x38
-        public int RefCount; // 0x40
-        public int DoListChanged; // 0x44
-        public rtable.reUserSet<rtable.DeletedRowInaccessible> Table; // 0x48
-        public bool _suspendEvents; // 0x50
-        public bool _isSharable; // 0x51
-        public bool _hasRemoteAggregate; // 0x52
-        public int s_objectTypeCount;
-        public int _objectID; // 0x54
+        public object HasRemoteAggregate;
+        public object ObjectID;
+        public object RecordStates;
+        public object RowFilter;
+        public object HasDuplicates;
+        public object RecordCount;
+        public object RefCount;
+        public object DoListChanged;
+        public object Table;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD542E6640 | overloaded x3
@@ -352,10 +344,7 @@ namespace ThirdParty.DotNet.System.Data
 
     public class Listeners`1 : Object
     {
-        public URA.woDigitYearMax<T1717647824> HasListeners;
-        public n<T1717647824,T1717647824,bool> _filter;
-        public int _objectID;
-        public int _listenerReaderCount;
+        public object HasListeners;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFD4E092BC0
@@ -369,15 +358,9 @@ namespace ThirdParty.DotNet.System.Data
 
     public class RBTree`1 : Object
     {
-        public tingFormat<T1717647616>[] Count;
-        public int[] HasDuplicates;
-        public int Item;
-        public int _nextFreePageLine;
-        public int root;
-        public int _version;
-        public int _inUseNodeCount;
-        public int _inUseSatelliteTreeCount;
-        public rtable.ues _accessMethod;
+        public object Count;
+        public object HasDuplicates;
+        public object Item;
 
         // ── Methods ──
         public void CompareNode(){} // RVA: 0x7FFD4E2ADC40

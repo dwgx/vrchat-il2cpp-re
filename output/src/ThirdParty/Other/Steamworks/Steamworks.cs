@@ -28,14 +28,8 @@ namespace ThirdParty.Other.Steamworks
 
     public class Dispatch : Object
     {
-        public formation<nment,string,bool> ClientPipe;
-        public ileFullDirectoryInformation<ÏÏÍÍÎÎ> ServerPipe; // 0x8
-        public on.nLocationsUpdated <ClientPipe>k__BackingField; // 0x10
-        public on.nLocationsUpdated <ServerPipe>k__BackingField; // 0x14
-        public bool runningFrame; // 0x18
-        public URA.woDigitYearMax<ileFullDirectoryInformation<UIntPtr>> actionsToCall; // 0x20
-        public URA.DateTime<ulong,maxDefaultValue> ResultCallbacks; // 0x28
-        public URA.DateTime<nment,URA.woDigitYearMax<?>> Callbacks; // 0x30
+        public object ClientPipe;
+        public object ServerPipe;
 
         // ── Methods ──
         public void SteamAPI_ManualDispatch_Init(){} // RVA: 0x7FFD4FFEB8B0
@@ -330,9 +324,10 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamClient : Object
     {
-        public bool IsValid;
-        public URA.woDigitYearMax<iter> SteamId; // 0x8
-        public ÎÍÎÎÌÎÍÌÏÎ Name; // 0x10
+        public object IsValid;
+        public object SteamId;
+        public object Name;
+        public object AppId;
 
         // ── Methods ──
         public void Init(){} // RVA: 0x7FFD4FFF7620
@@ -350,8 +345,6 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamClientClass`1 : SteamClass
     {
-        public eadcrumbsForLogType Interface;
-
         // ── Methods ──
         public void InitializeInterface(){} // RVA: 0x7FFD4E091060
         public void SetInterface(){} // RVA: 0x7FFD4E091580
@@ -521,8 +514,7 @@ namespace ThirdParty.Other.Steamworks
 
     public class SteamSharedClass`1 : SteamClass
     {
-        public eadcrumbsForLogType Interface;
-        public eadcrumbsForLogType InterfaceServer;
+        public object Interface;
 
         // ── Methods ──
         public void get_Interface(){} // RVA: 0x7FFD4E078A90
@@ -601,8 +593,6 @@ namespace ThirdParty.Other.Steamworks
 
     public class Utility : Object
     {
-        public byte[] readBuffer;
-
         // ── Methods ──
         public void ToType(){} // RVA: 0x7FFD50008720 | overloaded x2
         public void Swap(){} // RVA: 0x7FFD50008790

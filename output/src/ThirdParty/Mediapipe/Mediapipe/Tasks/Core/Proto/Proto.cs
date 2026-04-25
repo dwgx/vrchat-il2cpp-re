@@ -7,10 +7,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 {
     public class Acceleration : Object
     {
-        public gBox.itionBlend<nceFieldNumber.riginCustom_Injected> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public object pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public ntOnLine Xnnpack; // 0x20
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object Xnnpack;
+        public object Gpu;
+        public object Tflite;
+        public object Nnapi;
+        public object DelegateCase;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53734220
@@ -41,15 +45,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class BaseOptions : Object
     {
-        public gBox.itionBlend<nceFieldNumber.rdio> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public nceFieldNumber.k ModelAsset; // 0x20
-        public bool UseStreamMode; // 0x8
-        public bool HasUseStreamMode; // 0x28
-        public nceFieldNumber.riginCustom_Injected Acceleration; // 0x30
-        public object GpuOrigin; // 0xC
-        public object HasGpuOrigin; // 0x38
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object ModelAsset;
+        public object UseStreamMode;
+        public object HasUseStreamMode;
+        public object Acceleration;
+        public object GpuOrigin;
+        public object HasGpuOrigin;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53736530
@@ -82,14 +86,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core.Proto
 
     public class ExternalFile : Object
     {
-        public gBox.itionBlend<nceFieldNumber.k> Parser;
-        public gBox.ra Descriptor; // 0x10
-        public gBox.mumDistance pb::Google.Protobuf.IMessage.Descriptor; // 0x8
-        public gBox.mumDistance FileContent; // 0x18
-        public string HasFileContent; // 0x10
-        public string FileName; // 0x20
-        public nceFieldNumber.et_Landmark HasFileName; // 0x28
-        public nceFieldNumber.kFieldNumber FileDescriptorMeta; // 0x30
+        public object Parser;
+        public object Descriptor;
+        public object pb::Google.Protobuf.IMessage.Descriptor;
+        public object FileContent;
+        public object HasFileContent;
+        public object FileName;
+        public object HasFileName;
+        public object FileDescriptorMeta;
+        public object FilePointerMeta;
 
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x7FFD53738100
