@@ -8,25 +8,25 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class Aggregate : Object
     {
         // ── Methods ──
-        public void AggregateAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
-        public void AggregateAwaitAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
-        public void AggregateAwaitWithCancellationAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x3
+        public void AggregateAsync(){} // RVA: 0x7FFAC2E8DC40 | overloaded x3
+        public void AggregateAwaitAsync(){} // RVA: 0x7FFAC2E8DC40 | overloaded x3
+        public void AggregateAwaitWithCancellationAsync(){} // RVA: 0x7FFAC2E8DC40 | overloaded x3
     }
 
     public class All : Object
     {
         // ── Methods ──
-        public void AllAsync(){} // RVA: 0x7FFD4E2ADC40
-        public void AllAwaitAsync(){} // RVA: 0x7FFD4E2ADC40
-        public void AllAwaitWithCancellationAsync(){} // RVA: 0x7FFD4E2ADC40
+        public void AllAsync(){} // RVA: 0x7FFAC2E8DC40
+        public void AllAwaitAsync(){} // RVA: 0x7FFAC2E8DC40
+        public void AllAwaitWithCancellationAsync(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class Any : Object
     {
         // ── Methods ──
-        public void AnyAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void AnyAwaitAsync(){} // RVA: 0x7FFD4E2ADC40
-        public void AnyAwaitWithCancellationAsync(){} // RVA: 0x7FFD4E2ADC40
+        public void AnyAsync(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void AnyAwaitAsync(){} // RVA: 0x7FFAC2E8DC40
+        public void AnyAwaitWithCancellationAsync(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class AppendPrepend`1 : Object
@@ -36,7 +36,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public bool append;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
         public void GetAsyncEnumerator(){}
     }
 
@@ -44,66 +44,66 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     {
         // ── Methods ──
         public void ComputeKeysAsync(){}
-        public void CompareKeys(){} // RVA: 0x7FFD4E080290
+        public void CompareKeys(){} // RVA: 0x7FFAC2C60290
         public void SortAsync(){}
-        public void QuickSort(){} // RVA: 0x7FFD52957900
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void QuickSort(){} // RVA: 0x7FFAC7537900
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
         public System.Action`1<object> SourceCurrent;
-        public System.Action`1<object> Current; // 0x8
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source; // 0x38
-        public System.Threading.CancellationToken cancellationToken; // 0x40
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator; // 0x48
-        public Awaiter<bool> sourceMoveNext; // 0x50
-        public Awaiter<bool> resultAwaiter; // 0x60
-        public T <SourceCurrent>k__BackingField; // 0x70
-        public T <Current>k__BackingField; // 0x78
+        public System.Action`1<object> Current;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+        public System.Threading.CancellationToken cancellationToken;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+        public Awaiter<bool> sourceMoveNext;
+        public Awaiter<T> resultAwaiter;
+        public U <SourceCurrent>k__BackingField;
+        public V <Current>k__BackingField;
 
         // ── Methods ──
         public void .ctor(){}
-        public void TransformAsync(){} // RVA: 0x7FFD4E2ADC40
-        public void TrySetCurrentCore(){} // RVA: 0x7FFD4E2ADC40
-        public void get_SourceCurrent(){} // RVA: 0x7FFD4E2ADC40
-        public void set_SourceCurrent(){} // RVA: 0x7FFD4E2ADC40
-        public void ActionCompleted(){} // RVA: 0x7FFD4E2ADC40
+        public void TransformAsync(){} // RVA: 0x7FFAC2E8DC40
+        public void TrySetCurrentCore(){} // RVA: 0x7FFAC2E8DC40
+        public void get_SourceCurrent(){} // RVA: 0x7FFAC2E8DC40
+        public void set_SourceCurrent(){} // RVA: 0x7FFAC2E8DC40
+        public void ActionCompleted(){} // RVA: 0x7FFAC2E8DC40
         public void WaitAwaitCallback(){}
         public void IterateFinished(){}
-        public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-        public void set_Current(){} // RVA: 0x7FFD4E2ADC40
+        public void get_Current(){} // RVA: 0x7FFAC2E8DC40
+        public void set_Current(){} // RVA: 0x7FFAC2E8DC40
         public void MoveNextAsync(){}
-        public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-        public void TryMoveNextCore(){} // RVA: 0x7FFD4E2ADC40
-        public void UnwarapTask(){} // RVA: 0x7FFD4E2ADC40
-        public void MoveNextCallBack(){} // RVA: 0x7FFD4E090A10
-        public void SetCurrentCallBack(){} // RVA: 0x7FFD4E090A10
-        public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-        public void .cctor(){} // RVA: 0x7FFD4E0909B0
+        public void SourceMoveNext(){} // RVA: 0x7FFAC2C70980
+        public void TryMoveNextCore(){} // RVA: 0x7FFAC2E8DC40
+        public void UnwarapTask(){} // RVA: 0x7FFAC2E8DC40
+        public void MoveNextCallBack(){} // RVA: 0x7FFAC2C70A10
+        public void SetCurrentCallBack(){} // RVA: 0x7FFAC2C70A10
+        public void DisposeAsync(){} // RVA: 0x7FFAC2C588A0
+        public void .cctor(){} // RVA: 0x7FFAC2C709B0
     }
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
         public System.Action`1<object> SourceCurrent;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Current; // 0x38
-        public System.Threading.CancellationToken cancellationToken; // 0x40
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator; // 0x48
-        public Awaiter<bool> sourceMoveNext; // 0x50
-        public T <Current>k__BackingField; // 0x60
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
+        public System.Threading.CancellationToken cancellationToken;
+        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
+        public Awaiter<bool> sourceMoveNext;
+        public T <Current>k__BackingField;
 
         // ── Methods ──
         public void .ctor(){}
         public void TryMoveNextCore(){}
-        public void get_SourceCurrent(){} // RVA: 0x7FFD4E2ADC40
-        public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-        public void set_Current(){} // RVA: 0x7FFD4E2ADC40
+        public void get_SourceCurrent(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Current(){} // RVA: 0x7FFAC2E8DC40
+        public void set_Current(){} // RVA: 0x7FFAC2E8DC40
         public void MoveNextAsync(){}
-        public void OnFirstIteration(){} // RVA: 0x7FFD4E079D00
-        public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-        public void MoveNextCallBack(){} // RVA: 0x7FFD4E090A10
-        public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-        public void .cctor(){} // RVA: 0x7FFD4E0909B0
+        public void OnFirstIteration(){} // RVA: 0x7FFAC2C59D00
+        public void SourceMoveNext(){} // RVA: 0x7FFAC2C70980
+        public void MoveNextCallBack(){} // RVA: 0x7FFAC2C70A10
+        public void DisposeAsync(){} // RVA: 0x7FFAC2C588A0
+        public void .cctor(){} // RVA: 0x7FFAC2C709B0
     }
 
     public class AsyncSelectorEnumerableSorter`2 : AsyncEnumerableSorter`1
@@ -117,7 +117,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         // ── Methods ──
         public void .ctor(){}
         public void ComputeKeysAsync(){}
-        public void CompareKeys(){} // RVA: 0x7FFD4E080290
+        public void CompareKeys(){} // RVA: 0x7FFAC2C60290
     }
 
     public class AsyncSelectorWithCancellationEnumerableSorter`2 : AsyncEnumerableSorter`1
@@ -130,17 +130,17 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public T[] keys;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
         public void ComputeKeysAsync(){}
-        public void CompareKeys(){} // RVA: 0x7FFD4E080290
+        public void CompareKeys(){} // RVA: 0x7FFAC2C60290
     }
 
     public class Average : Object
     {
         // ── Methods ──
-        public void AverageAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x20
-        public void AverageAwaitAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x10
-        public void AverageAwaitWithCancellationAsync(){} // RVA: 0x7FFD4E2ADC40 | overloaded x10
+        public void AverageAsync(){} // RVA: 0x7FFAC2E8DC40 | overloaded x20
+        public void AverageAwaitAsync(){} // RVA: 0x7FFAC2E8DC40 | overloaded x10
+        public void AverageAwaitWithCancellationAsync(){} // RVA: 0x7FFAC2E8DC40 | overloaded x10
     }
 
 }

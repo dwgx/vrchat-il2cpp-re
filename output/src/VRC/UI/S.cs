@@ -6,20 +6,20 @@
 namespace VRC.UI
 {
     /// <summary>Originally: ÍÎÎÍÏÌÎÍÏÍÏÌÏÎÍÌÏÎÏÌÏÍÎ</summary>
-    public class ScrollRectDerived_3950 : ScrollRect
+    public class ScrollRectDerived_3950_3950 : ScrollRect
     {
         public ÌÎÏÏÏÌÌÌÏÎÎÎÍÍÎÏÌÌÌÍÎÍÌ ÎÎÎÌÌÍÏÏÎÍÎÏÌÏÏÌÍÎÎÌÌÍÍ; // 0x130
 
         // ── Methods ──
-        public void get_content(){} // RVA: 0x7FFD4F6F9440
-        public void .ctor(){} // RVA: 0x7FFD4F6F98C0
-        public void Initialize(){} // RVA: 0x7FFD4F6F98D0
-        public void set_horizontal(){} // RVA: 0x7FFD4F6F9D50
-        public void get_vertical(){} // RVA: 0x7FFD4F6F9EB0
-        public void set_vertical(){} // RVA: 0x7FFD4F6FA010
-        public void set_payload(){} // RVA: 0x7FFD4EDC79B0
-        public void set_movementType(){} // RVA: 0x7FFD4EDC79B0
-        public void Update(){} // RVA: 0x7FFD4F6FA170
+        public void get_content(){} // RVA: 0x7FFAC42D9440
+        public void .ctor(){} // RVA: 0x7FFAC42D98C0
+        public void Initialize(){} // RVA: 0x7FFAC42D98D0
+        public void set_horizontal(){} // RVA: 0x7FFAC42D9D50
+        public void get_vertical(){} // RVA: 0x7FFAC42D9EB0
+        public void set_vertical(){} // RVA: 0x7FFAC42DA010
+        public void set_payload(){} // RVA: 0x7FFAC39A79B0
+        public void set_movementType(){} // RVA: 0x7FFAC39A79B0
+        public void Update(){} // RVA: 0x7FFAC42DA170
     }
 
 }

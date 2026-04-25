@@ -14,9 +14,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public float vol; // 0x34
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD5413BD80
-        public void Update(){} // RVA: 0x7FFD5413C090
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC8D1BD80
+        public void Update(){} // RVA: 0x7FFAC8D1C090
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class BuggyBuddy : MonoBehaviour
@@ -50,11 +50,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public UnityEngine.Transform centerOfMass; // 0xC8
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD5413C140
-        public void Update(){} // RVA: 0x7FFD5413C4F0
-        public void FixedUpdate(){} // RVA: 0x7FFD5413D140
-        public void FindAngle(){} // RVA: 0x7FFD5413D1D0
-        public void .ctor(){} // RVA: 0x7FFD5413D3A0
+        public void Start(){} // RVA: 0x7FFAC8D1C140
+        public void Update(){} // RVA: 0x7FFAC8D1C4F0
+        public void FixedUpdate(){} // RVA: 0x7FFAC8D1D140
+        public void FindAngle(){} // RVA: 0x7FFAC8D1D1D0
+        public void .ctor(){} // RVA: 0x7FFAC8D1D3A0
     }
 
     public class BuggyController : MonoBehaviour
@@ -86,20 +86,20 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public float buzztimer; // 0xF4
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD5413D420
-        public void Update(){} // RVA: 0x7FFD5413D7B0
-        public void DoReset(){} // RVA: 0x7FFD5413E310
-        public void DoBuzz(){} // RVA: 0x7FFD5413E3B0
-        public void .ctor(){} // RVA: 0x7FFD5413E450
+        public void Start(){} // RVA: 0x7FFAC8D1D420
+        public void Update(){} // RVA: 0x7FFAC8D1D7B0
+        public void DoReset(){} // RVA: 0x7FFAC8D1E310
+        public void DoBuzz(){} // RVA: 0x7FFAC8D1E3B0
+        public void .ctor(){} // RVA: 0x7FFAC8D1E450
     }
 
     public class ButtonEffect : MonoBehaviour
     {
         // ── Methods ──
-        public void OnButtonDown(){} // RVA: 0x7FFD54145490
-        public void OnButtonUp(){} // RVA: 0x7FFD54145510
-        public void ColorSelf(){} // RVA: 0x7FFD54145540
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void OnButtonDown(){} // RVA: 0x7FFAC8D25490
+        public void OnButtonUp(){} // RVA: 0x7FFAC8D25510
+        public void ColorSelf(){} // RVA: 0x7FFAC8D25540
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class ButtonExample : MonoBehaviour
@@ -108,10 +108,10 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public UnityEngine.GameObject prefab; // 0x28
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD54145660
-        public void OnButtonDown(){} // RVA: 0x7FFD54145720
-        public void DoPlant(){} // RVA: 0x7FFD541457D0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC8D25660
+        public void OnButtonDown(){} // RVA: 0x7FFAC8D25720
+        public void DoPlant(){} // RVA: 0x7FFAC8D257D0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class ControllerHintsExample : MonoBehaviour
@@ -120,46 +120,46 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public UnityEngine.Coroutine textHintCoroutine; // 0x28
 
         // ── Methods ──
-        public void ShowButtonHints(){} // RVA: 0x7FFD541464B0
-        public void ShowTextHints(){} // RVA: 0x7FFD541465E0
-        public void DisableHints(){} // RVA: 0x7FFD54146710
-        public void TestButtonHints(){} // RVA: 0x7FFD54146850
-        public void TestTextHints(){} // RVA: 0x7FFD541468F0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void ShowButtonHints(){} // RVA: 0x7FFAC8D264B0
+        public void ShowTextHints(){} // RVA: 0x7FFAC8D265E0
+        public void DisableHints(){} // RVA: 0x7FFAC8D26710
+        public void TestButtonHints(){} // RVA: 0x7FFAC8D26850
+        public void TestTextHints(){} // RVA: 0x7FFAC8D268F0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class CustomSkeletonHelper : MonoBehaviour
     {
-        public 0x6656E358 wrist; // 0x20
-        public 0x6656E408[] fingers; // 0x28
-        public 0x6656E3B0[] thumbs; // 0x30
+        public Retargetable wrist; // 0x20
+        public Finger[] fingers; // 0x28
+        public Thumb[] thumbs; // 0x30
 
         // ── Methods ──
-        public void Update(){} // RVA: 0x7FFD54147210
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Update(){} // RVA: 0x7FFAC8D27210
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class FloppyHand : MonoBehaviour
     {
         public float fingerFlexAngle; // 0x20
         public Valve.VR.SteamVR_Action_Single squeezyAction; // 0x28
-        public 0x66569C88 inputSource; // 0x30
-        public 0x6656E510[] fingers; // 0x38
+        public 0x6B209C88 inputSource; // 0x30
+        public Finger[] fingers; // 0x38
         public UnityEngine.Vector3 constforce; // 0x40
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD54147A70
-        public void Update(){} // RVA: 0x7FFD54147BD0
-        public void .ctor(){} // RVA: 0x7FFD54147F10
+        public void Start(){} // RVA: 0x7FFAC8D27A70
+        public void Update(){} // RVA: 0x7FFAC8D27BD0
+        public void .ctor(){} // RVA: 0x7FFAC8D27F10
     }
 
     public class FlowerPlanted : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD541499A0
-        public void Plant(){} // RVA: 0x7FFD541499A0
-        public void DoPlant(){} // RVA: 0x7FFD54149A50
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC8D299A0
+        public void Plant(){} // RVA: 0x7FFAC8D299A0
+        public void DoPlant(){} // RVA: 0x7FFAC8D29A50
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class Grenade : MonoBehaviour
@@ -170,9 +170,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public Valve.VR.InteractionSystem.Interactable interactable; // 0x30
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD541416B0
-        public void OnCollisionEnter(){} // RVA: 0x7FFD54141740
-        public void .ctor(){} // RVA: 0x7FFD54141E20
+        public void Start(){} // RVA: 0x7FFAC8D216B0
+        public void OnCollisionEnter(){} // RVA: 0x7FFAC8D21740
+        public void .ctor(){} // RVA: 0x7FFAC8D21E20
     }
 
     public class InteractableExample : MonoBehaviour
@@ -182,22 +182,22 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public UnityEngine.Vector3 oldPosition; // 0x30
         public UnityEngine.Quaternion oldRotation; // 0x3C
         public float attachTime; // 0x4C
-        public 0x6656BC28 attachmentFlags; // 0x50
+        public 0x6B20BC28 attachmentFlags; // 0x50
         public Valve.VR.InteractionSystem.Interactable interactable; // 0x58
         public bool lastHovering; // 0x60
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD5414A900
-        public void OnHandHoverBegin(){} // RVA: 0x7FFD5414ABB0
-        public void OnHandHoverEnd(){} // RVA: 0x7FFD5414AC70
-        public void HandHoverUpdate(){} // RVA: 0x7FFD5414AD10
-        public void OnAttachedToHand(){} // RVA: 0x7FFD5414B220
-        public void OnDetachedFromHand(){} // RVA: 0x7FFD5414B360
-        public void HandAttachedUpdate(){} // RVA: 0x7FFD5414B450
-        public void Update(){} // RVA: 0x7FFD5414B5D0
-        public void OnHandFocusAcquired(){} // RVA: 0x7FFD4E341310
-        public void OnHandFocusLost(){} // RVA: 0x7FFD4E341310
-        public void .ctor(){} // RVA: 0x7FFD5414B720
+        public void Awake(){} // RVA: 0x7FFAC8D2A900
+        public void OnHandHoverBegin(){} // RVA: 0x7FFAC8D2ABB0
+        public void OnHandHoverEnd(){} // RVA: 0x7FFAC8D2AC70
+        public void HandHoverUpdate(){} // RVA: 0x7FFAC8D2AD10
+        public void OnAttachedToHand(){} // RVA: 0x7FFAC8D2B220
+        public void OnDetachedFromHand(){} // RVA: 0x7FFAC8D2B360
+        public void HandAttachedUpdate(){} // RVA: 0x7FFAC8D2B450
+        public void Update(){} // RVA: 0x7FFAC8D2B5D0
+        public void OnHandFocusAcquired(){} // RVA: 0x7FFAC2F21310
+        public void OnHandFocusLost(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFAC8D2B720
     }
 
     public class JoeJeff : MonoBehaviour
@@ -224,18 +224,18 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public float jumpTimer; // 0xB0
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD54141E80
-        public void Update(){} // RVA: 0x7FFD54142070
-        public void FixRotation(){} // RVA: 0x7FFD54142240
-        public void OnAnimatorMove(){} // RVA: 0x7FFD541425D0
-        public void Move(){} // RVA: 0x7FFD54142A60
-        public void UpdateAnimator(){} // RVA: 0x7FFD54142D20
-        public void ApplyExtraTurnRotation(){} // RVA: 0x7FFD54143070
-        public void CheckGrounded(){} // RVA: 0x7FFD541431B0
-        public void FixedUpdate(){} // RVA: 0x7FFD54143640
-        public void HandleGroundedMovement(){} // RVA: 0x7FFD54143930
-        public void Jump(){} // RVA: 0x7FFD54143950
-        public void .ctor(){} // RVA: 0x7FFD54143C00
+        public void Start(){} // RVA: 0x7FFAC8D21E80
+        public void Update(){} // RVA: 0x7FFAC8D22070
+        public void FixRotation(){} // RVA: 0x7FFAC8D22240
+        public void OnAnimatorMove(){} // RVA: 0x7FFAC8D225D0
+        public void Move(){} // RVA: 0x7FFAC8D22A60
+        public void UpdateAnimator(){} // RVA: 0x7FFAC8D22D20
+        public void ApplyExtraTurnRotation(){} // RVA: 0x7FFAC8D23070
+        public void CheckGrounded(){} // RVA: 0x7FFAC8D231B0
+        public void FixedUpdate(){} // RVA: 0x7FFAC8D23640
+        public void HandleGroundedMovement(){} // RVA: 0x7FFAC8D23930
+        public void Jump(){} // RVA: 0x7FFAC8D23950
+        public void .ctor(){} // RVA: 0x7FFAC8D23C00
     }
 
     public class JoeJeffController : MonoBehaviour
@@ -249,13 +249,13 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public UnityEngine.Vector3 movement; // 0x50
         public bool jump; // 0x5C
         public float glow; // 0x60
-        public 0x66569C88 hand; // 0x64
+        public 0x6B209C88 hand; // 0x64
         public Valve.VR.InteractionSystem.Interactable interactable; // 0x68
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD54143C70
-        public void Update(){} // RVA: 0x7FFD54143D00
-        public void .ctor(){} // RVA: 0x7FFD541444B0
+        public void Start(){} // RVA: 0x7FFAC8D23C70
+        public void Update(){} // RVA: 0x7FFAC8D23D00
+        public void .ctor(){} // RVA: 0x7FFAC8D244B0
     }
 
     public class JoeJeffGestures : MonoBehaviour
@@ -267,10 +267,10 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public bool lastPeaceSignState; // 0x28
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD54144680
-        public void Update(){} // RVA: 0x7FFD54144710
-        public void PeaceSignRecognized(){} // RVA: 0x7FFD54144CC0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Awake(){} // RVA: 0x7FFAC8D24680
+        public void Update(){} // RVA: 0x7FFAC8D24710
+        public void PeaceSignRecognized(){} // RVA: 0x7FFAC8D24CC0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class LockToPoint : MonoBehaviour
@@ -282,9 +282,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public Valve.VR.InteractionSystem.Interactable interactable; // 0x38
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD5413F3E0
-        public void FixedUpdate(){} // RVA: 0x7FFD5413F500
-        public void .ctor(){} // RVA: 0x7FFD54140170
+        public void Start(){} // RVA: 0x7FFAC8D1F3E0
+        public void FixedUpdate(){} // RVA: 0x7FFAC8D1F500
+        public void .ctor(){} // RVA: 0x7FFAC8D20170
     }
 
     public class Planting : MonoBehaviour
@@ -294,12 +294,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public UnityEngine.GameObject prefabToPlant; // 0x30
 
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFD5414B770
-        public void OnDisable(){} // RVA: 0x7FFD5414BA30
-        public void OnPlantActionChange(){} // RVA: 0x7FFD5414BBC0
-        public void Plant(){} // RVA: 0x7FFD5414BC70
-        public void DoPlant(){} // RVA: 0x7FFD5414BD20
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void OnEnable(){} // RVA: 0x7FFAC8D2B770
+        public void OnDisable(){} // RVA: 0x7FFAC8D2BA30
+        public void OnPlantActionChange(){} // RVA: 0x7FFAC8D2BBC0
+        public void Plant(){} // RVA: 0x7FFAC8D2BC70
+        public void DoPlant(){} // RVA: 0x7FFAC8D2BD20
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class ProceduralHats : MonoBehaviour
@@ -308,12 +308,12 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public float hatSwitchTime; // 0x28
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD54144D00
-        public void OnEnable(){} // RVA: 0x7FFD54144D10
-        public void HatSwitcher(){} // RVA: 0x7FFD54144DC0
-        public void ChooseHat(){} // RVA: 0x7FFD54144E60
-        public void SwitchToHat(){} // RVA: 0x7FFD54144EE0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC8D24D00
+        public void OnEnable(){} // RVA: 0x7FFAC8D24D10
+        public void HatSwitcher(){} // RVA: 0x7FFAC8D24DC0
+        public void ChooseHat(){} // RVA: 0x7FFAC8D24E60
+        public void SwitchToHat(){} // RVA: 0x7FFAC8D24EE0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class RenderModelChangerUI : UIElement
@@ -323,20 +323,20 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public Valve.VR.InteractionSystem.Sample.SkeletonUIOptions ui; // 0x40
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD5414CBC0
-        public void OnButtonClick(){} // RVA: 0x7FFD5414CDA0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Awake(){} // RVA: 0x7FFAC8D2CBC0
+        public void OnButtonClick(){} // RVA: 0x7FFAC8D2CDA0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class SkeletonUIOptions : MonoBehaviour
     {
         // ── Methods ──
-        public void AnimateHandWithController(){} // RVA: 0x7FFD5414D020
-        public void AnimateHandWithoutController(){} // RVA: 0x7FFD5414D190
-        public void ShowController(){} // RVA: 0x7FFD5414D300
-        public void SetRenderModel(){} // RVA: 0x7FFD5414D450
-        public void HideController(){} // RVA: 0x7FFD5414D5E0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void AnimateHandWithController(){} // RVA: 0x7FFAC8D2D020
+        public void AnimateHandWithoutController(){} // RVA: 0x7FFAC8D2D190
+        public void ShowController(){} // RVA: 0x7FFAC8D2D300
+        public void SetRenderModel(){} // RVA: 0x7FFAC8D2D450
+        public void HideController(){} // RVA: 0x7FFAC8D2D5E0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class SquishyToy : MonoBehaviour
@@ -349,9 +349,9 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public UnityEngine.Rigidbody rigidbody; // 0x48
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD5414E9E0
-        public void Update(){} // RVA: 0x7FFD5414ED30
-        public void .ctor(){} // RVA: 0x7FFD5414F360
+        public void Start(){} // RVA: 0x7FFAC8D2E9E0
+        public void Update(){} // RVA: 0x7FFAC8D2ED30
+        public void .ctor(){} // RVA: 0x7FFAC8D2F360
     }
 
     public class TargetHitEffect : MonoBehaviour
@@ -362,8 +362,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public bool destroyOnTargetCollision; // 0x31
 
         // ── Methods ──
-        public void OnCollisionEnter(){} // RVA: 0x7FFD5414D730
-        public void .ctor(){} // RVA: 0x7FFD5414E100
+        public void OnCollisionEnter(){} // RVA: 0x7FFAC8D2D730
+        public void .ctor(){} // RVA: 0x7FFAC8D2E100
     }
 
     public class TargetMeasurement : MonoBehaviour
@@ -378,8 +378,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public float lastDistance; // 0x50
 
         // ── Methods ──
-        public void Update(){} // RVA: 0x7FFD5414E150
-        public void .ctor(){} // RVA: 0x7FFD5414E990
+        public void Update(){} // RVA: 0x7FFAC8D2E150
+        public void .ctor(){} // RVA: 0x7FFAC8D2E990
     }
 
     public class WheelDust : MonoBehaviour
@@ -395,11 +395,11 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public float emitTimer; // 0x50
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD54140D20
-        public void Update(){} // RVA: 0x7FFD54140E60
-        public void emitter(){} // RVA: 0x7FFD541410E0
-        public void DoEmit(){} // RVA: 0x7FFD54141180
-        public void .ctor(){} // RVA: 0x7FFD54141500
+        public void Start(){} // RVA: 0x7FFAC8D20D20
+        public void Update(){} // RVA: 0x7FFAC8D20E60
+        public void emitter(){} // RVA: 0x7FFAC8D210E0
+        public void DoEmit(){} // RVA: 0x7FFAC8D21180
+        public void .ctor(){} // RVA: 0x7FFAC8D21500
     }
 
     public class trackCam : MonoBehaviour
@@ -408,8 +408,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public bool negative; // 0x24
 
         // ── Methods ──
-        public void Update(){} // RVA: 0x7FFD541401C0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Update(){} // RVA: 0x7FFAC8D201C0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class trackObj : MonoBehaviour
@@ -419,8 +419,8 @@ namespace ThirdParty.Valve.Valve.VR.InteractionSystem.Sample
         public bool negative; // 0x2C
 
         // ── Methods ──
-        public void Update(){} // RVA: 0x7FFD541407D0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Update(){} // RVA: 0x7FFAC8D207D0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
 }

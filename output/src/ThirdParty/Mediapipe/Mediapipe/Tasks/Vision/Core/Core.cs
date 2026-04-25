@@ -8,19 +8,19 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.Core
     public class BaseVisionTaskApi : Object
     {
         public Mediapipe.Tasks.Core.TaskRunner runningMode; // 0x10
-        public 0x66575EC0 <runningMode>k__BackingField; // 0x18
+        public 0x6B215EC0 <runningMode>k__BackingField; // 0x18
         public bool _isClosed; // 0x1C
 
         // ── Methods ──
-        public void get_runningMode(){} // RVA: 0x7FFD4E577800
-        public void .ctor(){} // RVA: 0x7FFD5370F3B0
-        public void ProcessImageData(){} // RVA: 0x7FFD5370F690
-        public void ProcessVideoData(){} // RVA: 0x7FFD5370F750
-        public void SendLiveStreamData(){} // RVA: 0x7FFD5370F810
-        public void ResetNormalizedRect(){} // RVA: 0x7FFD5370F9F0
-        public void ConfigureNormalizedRect(){} // RVA: 0x7FFD5370FA30
-        public void Close(){} // RVA: 0x7FFD5370FE00
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFD5370FF30
+        public void get_runningMode(){} // RVA: 0x7FFAC3157800
+        public void .ctor(){} // RVA: 0x7FFAC82EF3B0
+        public void ProcessImageData(){} // RVA: 0x7FFAC82EF690
+        public void ProcessVideoData(){} // RVA: 0x7FFAC82EF750
+        public void SendLiveStreamData(){} // RVA: 0x7FFAC82EF810
+        public void ResetNormalizedRect(){} // RVA: 0x7FFAC82EF9F0
+        public void ConfigureNormalizedRect(){} // RVA: 0x7FFAC82EFA30
+        public void Close(){} // RVA: 0x7FFAC82EFE00
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC82EFF30
     }
 
     public class ImageProcessingOptions : ValueType
@@ -29,7 +29,7 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.Core
         public int rotationDegrees; // 0x24
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53710150
+        public void .ctor(){} // RVA: 0x7FFAC82F0150
     }
 
 }

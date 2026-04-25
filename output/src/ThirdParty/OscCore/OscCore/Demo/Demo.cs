@@ -18,12 +18,12 @@ namespace ThirdParty.OscCore.OscCore.Demo
         public string[] m_ReceivedAsString; // 0x40
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD53DBE690
-        public void Update(){} // RVA: 0x7FFD53DBE8F0
-        public void Monitor(){} // RVA: 0x7FFD53DBEAE0
-        public void BuildMultiLine(){} // RVA: 0x7FFD53DBEC40
-        public void .ctor(){} // RVA: 0x7FFD53DBEDD0
-        public void .cctor(){} // RVA: 0x7FFD53DBEEA0
+        public void Awake(){} // RVA: 0x7FFAC899E690
+        public void Update(){} // RVA: 0x7FFAC899E8F0
+        public void Monitor(){} // RVA: 0x7FFAC899EAE0
+        public void BuildMultiLine(){} // RVA: 0x7FFAC899EC40
+        public void .ctor(){} // RVA: 0x7FFAC899EDD0
+        public void .cctor(){} // RVA: 0x7FFAC899EEA0
     }
 
 }

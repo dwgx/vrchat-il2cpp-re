@@ -15,9 +15,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Ball
         public UnityEngine.Rigidbody m_Rigidbody; // 0x30
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E36E210
-        public void Move(){} // RVA: 0x7FFD4E36E310
-        public void .ctor(){} // RVA: 0x7FFD4E36E730
+        public void Start(){} // RVA: 0x7FFAC2F4E210
+        public void Move(){} // RVA: 0x7FFAC2F4E310
+        public void .ctor(){} // RVA: 0x7FFAC2F4E730
     }
 
     public class BallUserControl : MonoBehaviour
@@ -29,10 +29,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Ball
         public bool jump; // 0x4C
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E36E790
-        public void Update(){} // RVA: 0x7FFD4E36EB20
-        public void FixedUpdate(){} // RVA: 0x7FFD4E36F070
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Awake(){} // RVA: 0x7FFAC2F4E790
+        public void Update(){} // RVA: 0x7FFAC2F4EB20
+        public void FixedUpdate(){} // RVA: 0x7FFAC2F4F070
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
 }

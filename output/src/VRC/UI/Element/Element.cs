@@ -8,19 +8,19 @@ namespace VRC.UI.Element
     public class BoolEvent : UnityEvent`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD56CFC5E0
+        public void .ctor(){} // RVA: 0x7FFACB8DC5E0
     }
 
     public class FloatEvent : UnityEvent`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD56CF8C70
+        public void .ctor(){} // RVA: 0x7FFACB8D8C70
     }
 
     public class ObjectEvent : UnityEvent`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD56CF0C80
+        public void .ctor(){} // RVA: 0x7FFACB8D0C80
     }
 
 }

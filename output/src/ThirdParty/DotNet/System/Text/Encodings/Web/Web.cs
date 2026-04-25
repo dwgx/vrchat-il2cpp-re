@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Text.Encodings.Web
-// Classes: 9
-// Methods: 55
+// Classes: 10
+// Methods: 57
 
 namespace ThirdParty.DotNet.System.Text.Encodings.Web
 {
@@ -10,13 +10,13 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
         public <Bitmap>e__FixedBuffer Bitmap; // 0x10
 
         // ── Methods ──
-        public void AllowChar(){} // RVA: 0x7FFD53EA44E0
-        public void ForbidChar(){} // RVA: 0x7FFD53EA4500
-        public void ForbidHtmlCharacters(){} // RVA: 0x7FFD53EA4520
-        public void ForbidUndefinedCharacters(){} // RVA: 0x7FFD543EC600
-        public void IsCharAllowed(){} // RVA: 0x7FFD53EA4800
-        public void IsCodePointAllowed(){} // RVA: 0x7FFD53EA4820
-        public void _GetIndexAndOffset(){} // RVA: 0x7FFD53EA4840
+        public void AllowChar(){} // RVA: 0x7FFAC8A844E0
+        public void ForbidChar(){} // RVA: 0x7FFAC8A84500
+        public void ForbidHtmlCharacters(){} // RVA: 0x7FFAC8A84520
+        public void ForbidUndefinedCharacters(){} // RVA: 0x7FFAC8FCC600
+        public void IsCharAllowed(){} // RVA: 0x7FFAC8A84800
+        public void IsCodePointAllowed(){} // RVA: 0x7FFAC8A84820
+        public void _GetIndexAndOffset(){} // RVA: 0x7FFAC8A84840
     }
 
     public class AsciiByteMap : ValueType
@@ -24,8 +24,8 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
         public <Buffer>e__FixedBuffer Buffer; // 0x10
 
         // ── Methods ──
-        public void InsertAsciiChar(){} // RVA: 0x7FFD53EA44A0
-        public void TryLookup(){} // RVA: 0x7FFD53EA44C0
+        public void InsertAsciiChar(){} // RVA: 0x7FFAC8A844A0
+        public void TryLookup(){} // RVA: 0x7FFAC8A844C0
     }
 
     public class DefaultJavaScriptEncoder : JavaScriptEncoder
@@ -35,14 +35,14 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
         public System.Text.Encodings.Web.OptimizedInboxTextEncoder _innerEncoder; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD543EDBA0 | overloaded x2
-        public void EncodeCore(){} // RVA: 0x7FFD543EDDD0
-        public void EncodeUtf8Core(){} // RVA: 0x7FFD543EDE30
-        public void FindFirstCharacterToEncode(){} // RVA: 0x7FFD543EDEC0 | overloaded x2
-        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x7FFD543EDF50
-        public void TryEncodeUnicodeScalar(){} // RVA: 0x7FFD543EDF80
-        public void WillEncode(){} // RVA: 0x7FFD543EE0C0
-        public void .cctor(){} // RVA: 0x7FFD543EE120
+        public void .ctor(){} // RVA: 0x7FFAC8FCDBA0 | overloaded x2
+        public void EncodeCore(){} // RVA: 0x7FFAC8FCDDD0
+        public void EncodeUtf8Core(){} // RVA: 0x7FFAC8FCDE30
+        public void FindFirstCharacterToEncode(){} // RVA: 0x7FFAC8FCDEC0 | overloaded x2
+        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x7FFAC8FCDF50
+        public void TryEncodeUnicodeScalar(){} // RVA: 0x7FFAC8FCDF80
+        public void WillEncode(){} // RVA: 0x7FFAC8FCE0C0
+        public void .cctor(){} // RVA: 0x7FFAC8FCE120
     }
 
     public class JavaScriptEncoder : TextEncoder
@@ -50,8 +50,8 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
         public object Default;
 
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7FFD543EEEF0
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void get_Default(){} // RVA: 0x7FFAC8FCEEF0
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class OptimizedInboxTextEncoder : Object
@@ -62,15 +62,15 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
         public System.Text.Encodings.Web.ScalarEscaperBase _scalarEscaper; // 0x2420
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD543EC770
-        public void FindFirstCharacterToEncode(){} // RVA: 0x7FFD543EC980
-        public void TryEncodeUnicodeScalar(){} // RVA: 0x7FFD543ECA10
-        public void Encode(){} // RVA: 0x7FFD543ECB60
-        public void EncodeUtf8(){} // RVA: 0x7FFD543ECF70
-        public void GetIndexOfFirstByteToEncode(){} // RVA: 0x7FFD543ED450
-        public void GetIndexOfFirstCharToEncode(){} // RVA: 0x7FFD543ED680
-        public void IsScalarValueAllowed(){} // RVA: 0x7FFD53EA5C50
-        public void _AssertThisNotNull(){} // RVA: 0x7FFD543ED8A0
+        public void .ctor(){} // RVA: 0x7FFAC8FCC770
+        public void FindFirstCharacterToEncode(){} // RVA: 0x7FFAC8FCC980
+        public void TryEncodeUnicodeScalar(){} // RVA: 0x7FFAC8FCCA10
+        public void Encode(){} // RVA: 0x7FFAC8FCCB60
+        public void EncodeUtf8(){} // RVA: 0x7FFAC8FCCF70
+        public void GetIndexOfFirstByteToEncode(){} // RVA: 0x7FFAC8FCD450
+        public void GetIndexOfFirstCharToEncode(){} // RVA: 0x7FFAC8FCD680
+        public void IsScalarValueAllowed(){} // RVA: 0x7FFAC8A85C50
+        public void _AssertThisNotNull(){} // RVA: 0x7FFAC8FCD8A0
     }
 
     public class ScalarEscaperBase : Object
@@ -78,31 +78,31 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
         // ── Methods ──
         public void EncodeUtf16(){}
         public void EncodeUtf8(){}
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class SpanUtility : Object
     {
         // ── Methods ──
-        public void IsValidIndex(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void TryWriteUInt64LittleEndian(){} // RVA: 0x7FFD53EA76B0
-        public void AreValidIndexAndLength(){} // RVA: 0x7FFD53EA7770
+        public void IsValidIndex(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void TryWriteUInt64LittleEndian(){} // RVA: 0x7FFAC8A876B0
+        public void AreValidIndexAndLength(){} // RVA: 0x7FFAC8A87770
     }
 
     public class TextEncoder : Object
     {
         // ── Methods ──
-        public void TryEncodeUnicodeScalar(){} // RVA: 0x7FFD543EEF50 | overloaded x2
-        public void TryEncodeUnicodeScalarUtf8(){} // RVA: 0x7FFD543EEFE0
-        public void FindFirstCharacterToEncode(){} // RVA: 0x7FFD543F0180 | overloaded x2
-        public void WillEncode(){} // RVA: 0x7FFD4E07A310
-        public void EncodeUtf8(){} // RVA: 0x7FFD543EF350
-        public void EncodeUtf8Core(){} // RVA: 0x7FFD543EF660
-        public void Encode(){} // RVA: 0x7FFD543EF9B0
-        public void EncodeCore(){} // RVA: 0x7FFD543EFCC0
-        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x7FFD543F01F0
-        public void ThrowArgumentException_MaxOutputCharsPerInputChar(){} // RVA: 0x7FFD543F0430
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void TryEncodeUnicodeScalar(){} // RVA: 0x7FFAC8FCEF50 | overloaded x2
+        public void TryEncodeUnicodeScalarUtf8(){} // RVA: 0x7FFAC8FCEFE0
+        public void FindFirstCharacterToEncode(){} // RVA: 0x7FFAC8FD0180 | overloaded x2
+        public void WillEncode(){} // RVA: 0x7FFAC2C5A310
+        public void EncodeUtf8(){} // RVA: 0x7FFAC8FCF350
+        public void EncodeUtf8Core(){} // RVA: 0x7FFAC8FCF660
+        public void Encode(){} // RVA: 0x7FFAC8FCF9B0
+        public void EncodeCore(){} // RVA: 0x7FFAC8FCFCC0
+        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x7FFAC8FD01F0
+        public void ThrowArgumentException_MaxOutputCharsPerInputChar(){} // RVA: 0x7FFAC8FD0430
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class TextEncoderSettings : Object
@@ -110,11 +110,18 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
         public System.Text.Encodings.Web.AllowedBmpCodePointsBitmap _allowedCodePointsBitmap; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD543F04A0
-        public void AllowRange(){} // RVA: 0x7FFD543F04D0
-        public void AllowRanges(){} // RVA: 0x7FFD543F0530
-        public void GetAllowedCodePoints(){} // RVA: 0x7FFD543F05A0
-        public void GetAllowedCodePointsBitmap(){} // RVA: 0x7FFD543F0650
+        public void .ctor(){} // RVA: 0x7FFAC8FD04A0
+        public void AllowRange(){} // RVA: 0x7FFAC8FD04D0
+        public void AllowRanges(){} // RVA: 0x7FFAC8FD0530
+        public void GetAllowedCodePoints(){} // RVA: 0x7FFAC8FD05A0
+        public void GetAllowedCodePointsBitmap(){} // RVA: 0x7FFAC8FD0650
+    }
+
+    public class ThrowHelper : Object
+    {
+        // ── Methods ──
+        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x7FFAC8A89170
+        public void GetArgumentName(){} // RVA: 0x7FFAC8A891D0
     }
 
 }

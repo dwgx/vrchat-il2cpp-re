@@ -11,7 +11,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E099B30
+        public void .ctor(){} // RVA: 0x7FFAC2C79B30
         public void GetAsyncEnumerator(){}
     }
 
@@ -21,7 +21,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E099B30
+        public void .ctor(){} // RVA: 0x7FFAC2C79B30
         public void GetAsyncEnumerator(){}
     }
 
@@ -31,7 +31,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`4<T,int,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E099B30
+        public void .ctor(){} // RVA: 0x7FFAC2C79B30
         public void GetAsyncEnumerator(){}
     }
 
@@ -41,7 +41,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`3<T,int,Cysharp.Threading.Tasks.UniTask`1<bool>> predicate;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E099B30
+        public void .ctor(){} // RVA: 0x7FFAC2C79B30
         public void GetAsyncEnumerator(){}
     }
 
@@ -51,7 +51,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`3<T,int,bool> predicate;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E099B30
+        public void .ctor(){} // RVA: 0x7FFAC2C79B30
         public void GetAsyncEnumerator(){}
     }
 
@@ -61,7 +61,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`2<T,bool> predicate;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E099B30
+        public void .ctor(){} // RVA: 0x7FFAC2C79B30
         public void GetAsyncEnumerator(){}
     }
 

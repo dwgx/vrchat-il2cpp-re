@@ -10,8 +10,8 @@ namespace VRC.SDKBase.Validation.Attributes
         public System.Type type; // 0x10
 
         // ── Methods ──
-        public void get_type(){} // RVA: 0x7FFD4E35C380
-        public void .ctor(){} // RVA: 0x7FFD4E342E30
+        public void get_type(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFAC2F22E30
     }
 
 }

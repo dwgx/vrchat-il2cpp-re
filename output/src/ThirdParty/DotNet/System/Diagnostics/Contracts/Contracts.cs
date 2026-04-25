@@ -8,7 +8,7 @@ namespace ThirdParty.DotNet.System.Diagnostics.Contracts
     public class Contract : Object
     {
         // ── Methods ──
-        public void ForAll(){} // RVA: 0x7FFD4E07A350
+        public void ForAll(){} // RVA: 0x7FFAC2C5A350
     }
 
 }

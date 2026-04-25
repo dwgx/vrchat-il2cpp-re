@@ -8,9 +8,9 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.XR.Interaction
     public class BasePoseProvider : MonoBehaviour
     {
         // ── Methods ──
-        public void GetPoseFromProvider(){} // RVA: 0x7FFD54E10A60
-        public void TryGetPoseFromProvider(){} // RVA: 0x7FFD54E10A90
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void GetPoseFromProvider(){} // RVA: 0x7FFAC99F0A60
+        public void TryGetPoseFromProvider(){} // RVA: 0x7FFAC99F0A90
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
 }

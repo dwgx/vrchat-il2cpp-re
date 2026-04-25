@@ -11,8 +11,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public int end; // 0x14
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD548DC0B0
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFD548DC0C0
+        public void .ctor(){} // RVA: 0x7FFAC94BC0B0
+        public void GetAsyncEnumerator(){} // RVA: 0x7FFAC94BC0C0
     }
 
     public class Repeat`1 : Object
@@ -21,7 +21,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public int count;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
         public void GetAsyncEnumerator(){}
     }
 
@@ -30,7 +30,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public T value;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
         public void GetAsyncEnumerator(){}
     }
 
@@ -39,7 +39,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E090A40
+        public void .ctor(){} // RVA: 0x7FFAC2C70A40
         public void GetAsyncEnumerator(){}
     }
 

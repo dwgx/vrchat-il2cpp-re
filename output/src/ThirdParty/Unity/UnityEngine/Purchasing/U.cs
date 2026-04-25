@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Purchasing
-// Classes: 12
-// Methods: 70
+// Classes: 15
+// Methods: 78
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
@@ -10,7 +10,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public object Name;
 
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFD54DEA4C0
+        public void get_Name(){} // RVA: 0x7FFAC99CA4C0
     }
 
     public class UDPBindings : Object
@@ -19,13 +19,13 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public System.Action`2<bool,string> m_RetrieveProductsCallbackCache; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD54DEA570
-        public void Initialize(){} // RVA: 0x7FFD54DEA690
-        public void Purchase(){} // RVA: 0x7FFD54DEC590 | overloaded x2
-        public void RetrieveProducts(){} // RVA: 0x7FFD54DEC550 | overloaded x2
-        public void FinishTransaction(){} // RVA: 0x7FFD54DEC5D0 | overloaded x2
-        public void OnInventoryQueried(){} // RVA: 0x7FFD54DEB3D0
-        public void StringPropertyToDictionary(){} // RVA: 0x7FFD54DEC610
+        public void .ctor(){} // RVA: 0x7FFAC99CA570
+        public void Initialize(){} // RVA: 0x7FFAC99CA690
+        public void Purchase(){} // RVA: 0x7FFAC99CC590 | overloaded x2
+        public void RetrieveProducts(){} // RVA: 0x7FFAC99CC550 | overloaded x2
+        public void FinishTransaction(){} // RVA: 0x7FFAC99CC5D0 | overloaded x2
+        public void OnInventoryQueried(){} // RVA: 0x7FFAC99CB3D0
+        public void StringPropertyToDictionary(){} // RVA: 0x7FFAC99CC610
     }
 
     public class UDPImpl : JSONStore
@@ -37,14 +37,14 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public System.Action`1<UnityEngine.Purchasing.Product> m_DeferredCallback; // 0x68
 
         // ── Methods ──
-        public void SetNativeStore(){} // RVA: 0x7FFD4E3BC740
-        public void Initialize(){} // RVA: 0x7FFD4E342E30
-        public void RetrieveProducts(){} // RVA: 0x7FFD54DEC870
-        public void Purchase(){} // RVA: 0x7FFD54DECAB0
-        public void OnPurchaseDeferred(){} // RVA: 0x7FFD54DECCC0
-        public void FinishTransaction(){} // RVA: 0x7FFD54DECE00
-        public void DictionaryToStringProperty(){} // RVA: 0x7FFD54DECE90
-        public void .ctor(){} // RVA: 0x7FFD54DED070
+        public void SetNativeStore(){} // RVA: 0x7FFAC2F9C740
+        public void Initialize(){} // RVA: 0x7FFAC2F22E30
+        public void RetrieveProducts(){} // RVA: 0x7FFAC99CC870
+        public void Purchase(){} // RVA: 0x7FFAC99CCAB0
+        public void OnPurchaseDeferred(){} // RVA: 0x7FFAC99CCCC0
+        public void FinishTransaction(){} // RVA: 0x7FFAC99CCE00
+        public void DictionaryToStringProperty(){} // RVA: 0x7FFAC99CCE90
+        public void .ctor(){} // RVA: 0x7FFAC99CD070
     }
 
     public class UDPReflectionUtils : Object
@@ -54,10 +54,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public string[] k_whiteListedAssemblies; // 0x10
 
         // ── Methods ──
-        public void GetTypeByName(){} // RVA: 0x7FFD54DEE000
-        public void GetAllAssemblies(){} // RVA: 0x7FFD54DEE6F0
-        public void GetTypes(){} // RVA: 0x7FFD54DEE750
-        public void .cctor(){} // RVA: 0x7FFD54DEE890
+        public void GetTypeByName(){} // RVA: 0x7FFAC99CE000
+        public void GetAllAssemblies(){} // RVA: 0x7FFAC99CE6F0
+        public void GetTypes(){} // RVA: 0x7FFAC99CE750
+        public void .cctor(){} // RVA: 0x7FFAC99CE890
     }
 
     public class UIFakeStore : FakeStore
@@ -68,23 +68,23 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public UnityEngine.GameObject m_EventSystem; // 0x88
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD54DF78D0
-        public void StartUI(){} // RVA: 0x7FFD54DF78E0 | overloaded x2
-        public void InstantiateDialog(){} // RVA: 0x7FFD54DF7B60
-        public void GetOrCreateFakeStoreWindow(){} // RVA: 0x7FFD54DF7E90
-        public void AddLifeCycleNotifierAndSetDestroyCallback(){} // RVA: 0x7FFD54DF8120
-        public void EnsureEventSystemCreated(){} // RVA: 0x7FFD54DF8220
-        public void ConfigureDialogWindow(){} // RVA: 0x7FFD54DF8330
-        public void ConfigureDialogWindowCallbacks(){} // RVA: 0x7FFD54DF84D0
-        public void CreateEventSystem(){} // RVA: 0x7FFD54DF8720
-        public void CreatePurchaseQuestion(){} // RVA: 0x7FFD54DF8990
-        public void CreateRetrieveProductsQuestion(){} // RVA: 0x7FFD54DF8A00
-        public void OkayButtonClicked(){} // RVA: 0x7FFD54DF8DF0
-        public void CancelButtonClicked(){} // RVA: 0x7FFD54DF8EA0
-        public void DropdownValueChanged(){} // RVA: 0x7FFD4F9B63A0
-        public void CloseDialog(){} // RVA: 0x7FFD54DF8F30
-        public void IsShowingDialog(){} // RVA: 0x7FFD5360E650
-        public void <AddLifeCycleNotifierAndSetDestroyCallback>b__14_0(){} // RVA: 0x7FFD4F8EB460
+        public void .ctor(){} // RVA: 0x7FFAC99D78D0
+        public void StartUI(){} // RVA: 0x7FFAC99D78E0 | overloaded x2
+        public void InstantiateDialog(){} // RVA: 0x7FFAC99D7B60
+        public void GetOrCreateFakeStoreWindow(){} // RVA: 0x7FFAC99D7E90
+        public void AddLifeCycleNotifierAndSetDestroyCallback(){} // RVA: 0x7FFAC99D8120
+        public void EnsureEventSystemCreated(){} // RVA: 0x7FFAC99D8220
+        public void ConfigureDialogWindow(){} // RVA: 0x7FFAC99D8330
+        public void ConfigureDialogWindowCallbacks(){} // RVA: 0x7FFAC99D84D0
+        public void CreateEventSystem(){} // RVA: 0x7FFAC99D8720
+        public void CreatePurchaseQuestion(){} // RVA: 0x7FFAC99D8990
+        public void CreateRetrieveProductsQuestion(){} // RVA: 0x7FFAC99D8A00
+        public void OkayButtonClicked(){} // RVA: 0x7FFAC99D8DF0
+        public void CancelButtonClicked(){} // RVA: 0x7FFAC99D8EA0
+        public void DropdownValueChanged(){} // RVA: 0x7FFAC45963A0
+        public void CloseDialog(){} // RVA: 0x7FFAC99D8F30
+        public void IsShowingDialog(){} // RVA: 0x7FFAC81EE650
+        public void <AddLifeCycleNotifierAndSetDestroyCallback>b__14_0(){} // RVA: 0x7FFAC44CB460
     }
 
     public class UIFakeStoreDropdown : Object
@@ -94,11 +94,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public UnityEngine.Vector2 scrollPosition; // 0x20
 
         // ── Methods ──
-        public void DoPopup(){} // RVA: 0x7FFD54DF9120
-        public void OnOptionSelected(){} // RVA: 0x7FFD54DF93C0
-        public void SetOptions(){} // RVA: 0x7FFD54DF9450
-        public void SetSelectionAction(){} // RVA: 0x7FFD4E3A7E80
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void DoPopup(){} // RVA: 0x7FFAC99D9120
+        public void OnOptionSelected(){} // RVA: 0x7FFAC99D93C0
+        public void SetOptions(){} // RVA: 0x7FFAC99D9450
+        public void SetSelectionAction(){} // RVA: 0x7FFAC2F87E80
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class UIFakeStoreWindow : MonoBehaviour
@@ -118,17 +118,29 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public float k_MenuScreenRatio;
 
         // ── Methods ──
-        public void OnGUI(){} // RVA: 0x7FFD54DF9520
-        public void CreateCenteredWindowRect(){} // RVA: 0x7FFD54DF9810
-        public void DoMainGUI(){} // RVA: 0x7FFD54DF99A0
-        public void DoDropDown(){} // RVA: 0x7FFD54DF9BB0
-        public void OnOkClicked(){} // RVA: 0x7FFD52B76580
-        public void OnCancelClicked(){} // RVA: 0x7FFD54DF9BC0
-        public void ConfigureMainDialogText(){} // RVA: 0x7FFD54B181D0
-        public void ConfigureDropdownOptions(){} // RVA: 0x7FFD54DF9BE0
-        public void OnDropdown(){} // RVA: 0x7FFD54DF9E20
-        public void AssignCallbacks(){} // RVA: 0x7FFD54DF9EA0
-        public void .ctor(){} // RVA: 0x7FFD54DF9FC0
+        public void OnGUI(){} // RVA: 0x7FFAC99D9520
+        public void CreateCenteredWindowRect(){} // RVA: 0x7FFAC99D9810
+        public void DoMainGUI(){} // RVA: 0x7FFAC99D99A0
+        public void DoDropDown(){} // RVA: 0x7FFAC99D9BB0
+        public void OnOkClicked(){} // RVA: 0x7FFAC7756580
+        public void OnCancelClicked(){} // RVA: 0x7FFAC99D9BC0
+        public void ConfigureMainDialogText(){} // RVA: 0x7FFAC96F81D0
+        public void ConfigureDropdownOptions(){} // RVA: 0x7FFAC99D9BE0
+        public void OnDropdown(){} // RVA: 0x7FFAC99D9E20
+        public void AssignCallbacks(){} // RVA: 0x7FFAC99D9EA0
+        public void .ctor(){} // RVA: 0x7FFAC99D9FC0
+    }
+
+    public class UdpIapBridgeInterface : Object
+    {
+        public System.Type s_typeCache;
+
+        // ── Methods ──
+        public void GetClassType(){} // RVA: 0x7FFAC99CF950
+        public void GetInitMethod(){} // RVA: 0x7FFAC99CFA90
+        public void GetPurchaseMethod(){} // RVA: 0x7FFAC99CFB70
+        public void GetRetrieveProductsMethod(){} // RVA: 0x7FFAC99CFC50
+        public void GetFinishTransactionMethod(){} // RVA: 0x7FFAC99CFD30
     }
 
     public class UnifiedReceipt : Object
@@ -138,31 +150,38 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public string TransactionID; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class UnifiedReceiptFormatter : Object
     {
         // ── Methods ──
-        public void FormatUnifiedReceipt(){} // RVA: 0x7FFD54DD1F60
+        public void FormatUnifiedReceipt(){} // RVA: 0x7FFAC99B1F60
     }
 
     public class UnityActivity : Object
     {
-        public 0x66619290 s_UnityPlayerClass;
+        public UnityEngine.AndroidJavaClass s_UnityPlayerClass;
 
         // ── Methods ──
-        public void GetUnityPlayerClass(){} // RVA: 0x7FFD54DD5CA0
-        public void GetCurrentActivity(){} // RVA: 0x7FFD54DD5DB0
+        public void GetUnityPlayerClass(){} // RVA: 0x7FFAC99B5CA0
+        public void GetCurrentActivity(){} // RVA: 0x7FFAC99B5DB0
     }
 
     public class UnityPurchasing : Object
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFD54DD12D0 | overloaded x2
-        public void GenerateUnityAnalytics(){} // RVA: 0x7FFD54DD11E0
-        public void GenerateLegacyUnityAnalytics(){} // RVA: 0x7FFD54DD1220
-        public void FetchAndMergeProducts(){} // RVA: 0x7FFD54DD18E0
+        public void Initialize(){} // RVA: 0x7FFAC99B12D0 | overloaded x2
+        public void GenerateUnityAnalytics(){} // RVA: 0x7FFAC99B11E0
+        public void GenerateLegacyUnityAnalytics(){} // RVA: 0x7FFAC99B1220
+        public void FetchAndMergeProducts(){} // RVA: 0x7FFAC99B18E0
+    }
+
+    public class UnityPurchasingCallback : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAC89E85C0
+        public void Invoke(){} // RVA: 0x7FFAC89E86A0
     }
 
     public class UnityServicesInitializationChecker : Object
@@ -170,10 +189,18 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public UnityEngine.ILogger m_Logger; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E342E30
-        public void CheckAndLogWarning(){} // RVA: 0x7FFD54DCC020
-        public void IsUninitialized(){} // RVA: 0x7FFD54DCC0E0
-        public void LogWarning(){} // RVA: 0x7FFD54DCC1A0
+        public void .ctor(){} // RVA: 0x7FFAC2F22E30
+        public void CheckAndLogWarning(){} // RVA: 0x7FFAC99AC020
+        public void IsUninitialized(){} // RVA: 0x7FFAC99AC0E0
+        public void LogWarning(){} // RVA: 0x7FFAC99AC1A0
+    }
+
+    public class UserInfoInterface : Object
+    {
+        public System.Type s_typeCache;
+
+        // ── Methods ──
+        public void GetClassType(){} // RVA: 0x7FFAC99CFE10
     }
 
 }

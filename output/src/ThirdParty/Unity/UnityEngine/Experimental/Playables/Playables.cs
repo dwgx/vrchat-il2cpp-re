@@ -10,8 +10,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Playables
         public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
 
         // ── Methods ──
-        public void GetHandle(){} // RVA: 0x7FFD51CFD430
-        public void Equals(){} // RVA: 0x7FFD54D1F7B0
+        public void GetHandle(){} // RVA: 0x7FFAC68DD430
+        public void Equals(){} // RVA: 0x7FFAC98FF7B0
     }
 
     public class MaterialEffectPlayable : ValueType
@@ -19,8 +19,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Playables
         public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
 
         // ── Methods ──
-        public void GetHandle(){} // RVA: 0x7FFD51CFD430
-        public void Equals(){} // RVA: 0x7FFD54D1F870
+        public void GetHandle(){} // RVA: 0x7FFAC68DD430
+        public void Equals(){} // RVA: 0x7FFAC98FF870
     }
 
     public class TextureMixerPlayable : ValueType
@@ -28,8 +28,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Playables
         public UnityEngine.Playables.PlayableHandle m_Handle; // 0x10
 
         // ── Methods ──
-        public void GetHandle(){} // RVA: 0x7FFD51CFD430
-        public void Equals(){} // RVA: 0x7FFD54D1F930
+        public void GetHandle(){} // RVA: 0x7FFAC68DD430
+        public void Equals(){} // RVA: 0x7FFAC98FF930
     }
 
     public class TexturePlayableOutput : ValueType
@@ -37,7 +37,7 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Playables
         public UnityEngine.Playables.PlayableOutputHandle m_Handle; // 0x10
 
         // ── Methods ──
-        public void GetHandle(){} // RVA: 0x7FFD51CFD430
+        public void GetHandle(){} // RVA: 0x7FFAC68DD430
     }
 
 }

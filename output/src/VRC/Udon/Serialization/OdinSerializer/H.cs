@@ -10,11 +10,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
         public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> TSerializer;
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFD4E0909B0
-        public void .ctor(){} // RVA: 0x7FFD4E090980
-        public void GetUninitializedObject(){} // RVA: 0x7FFD4E078E90
-        public void DeserializeImplementation(){} // RVA: 0x7FFD4E099B30
-        public void SerializeImplementation(){} // RVA: 0x7FFD4E099B30
+        public void .cctor(){} // RVA: 0x7FFAC2C709B0
+        public void .ctor(){} // RVA: 0x7FFAC2C70980
+        public void GetUninitializedObject(){} // RVA: 0x7FFAC2C58E90
+        public void DeserializeImplementation(){} // RVA: 0x7FFAC2C79B30
+        public void SerializeImplementation(){} // RVA: 0x7FFAC2C79B30
     }
 
 }

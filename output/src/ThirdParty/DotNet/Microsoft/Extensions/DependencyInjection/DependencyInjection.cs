@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
-// Classes: 18
-// Methods: 110
+// Classes: 20
+// Methods: 113
 
 namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 {
@@ -10,15 +10,15 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
         public Microsoft.Extensions.DependencyInjection.CallSiteJsonFormatter Instance;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53744B30
-        public void Format(){} // RVA: 0x7FFD53744BE0
-        public void VisitConstructor(){} // RVA: 0x7FFD53744DB0
-        public void VisitCallSiteMain(){} // RVA: 0x7FFD53744FE0
-        public void VisitConstant(){} // RVA: 0x7FFD53745510
-        public void VisitServiceProvider(){} // RVA: 0x7FFD4E919180
-        public void VisitIEnumerable(){} // RVA: 0x7FFD53745590
-        public void VisitFactory(){} // RVA: 0x7FFD53745810
-        public void .cctor(){} // RVA: 0x7FFD53745890
+        public void .ctor(){} // RVA: 0x7FFAC8324B30
+        public void Format(){} // RVA: 0x7FFAC8324BE0
+        public void VisitConstructor(){} // RVA: 0x7FFAC8324DB0
+        public void VisitCallSiteMain(){} // RVA: 0x7FFAC8324FE0
+        public void VisitConstant(){} // RVA: 0x7FFAC8325510
+        public void VisitServiceProvider(){} // RVA: 0x7FFAC34F9180
+        public void VisitIEnumerable(){} // RVA: 0x7FFAC8325590
+        public void VisitFactory(){} // RVA: 0x7FFAC8325810
+        public void .cctor(){} // RVA: 0x7FFAC8325890
     }
 
     public class DependencyInjectionEventSource : EventSource
@@ -27,26 +27,26 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
         public System.Collections.Generic.List`1<System.WeakReference`1<Microsoft.Extensions.DependencyInjection.ServiceProvider>> _providers; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53746000
-        public void CallSiteBuilt(){} // RVA: 0x7FFD53746920 | overloaded x2
-        public void ServiceResolved(){} // RVA: 0x7FFD4E9F2DD0 | overloaded x2
-        public void DynamicMethodBuilt(){} // RVA: 0x7FFD4E9F2DD0 | overloaded x2
-        public void ScopeDisposed(){} // RVA: 0x7FFD53746470
-        public void ServiceRealizationFailed(){} // RVA: 0x7FFD4E9F2DD0 | overloaded x2
-        public void ServiceProviderBuilt(){} // RVA: 0x7FFD53746960 | overloaded x2
-        public void ServiceProviderDescriptors(){} // RVA: 0x7FFD53746760
-        public void ServiceProviderDisposed(){} // RVA: 0x7FFD53746BF0
-        public void WriteServiceProviderBuilt(){} // RVA: 0x7FFD53746E60
-        public void AppendServiceDescriptor(){} // RVA: 0x7FFD53746EE0
-        public void .cctor(){} // RVA: 0x7FFD53747290
+        public void .ctor(){} // RVA: 0x7FFAC8326000
+        public void CallSiteBuilt(){} // RVA: 0x7FFAC8326920 | overloaded x2
+        public void ServiceResolved(){} // RVA: 0x7FFAC35D2DD0 | overloaded x2
+        public void DynamicMethodBuilt(){} // RVA: 0x7FFAC35D2DD0 | overloaded x2
+        public void ScopeDisposed(){} // RVA: 0x7FFAC8326470
+        public void ServiceRealizationFailed(){} // RVA: 0x7FFAC35D2DD0 | overloaded x2
+        public void ServiceProviderBuilt(){} // RVA: 0x7FFAC8326960 | overloaded x2
+        public void ServiceProviderDescriptors(){} // RVA: 0x7FFAC8326760
+        public void ServiceProviderDisposed(){} // RVA: 0x7FFAC8326BF0
+        public void WriteServiceProviderBuilt(){} // RVA: 0x7FFAC8326E60
+        public void AppendServiceDescriptor(){} // RVA: 0x7FFAC8326EE0
+        public void .cctor(){} // RVA: 0x7FFAC8327290
     }
 
     public class FromKeyedServicesAttribute : Attribute
     {
-        public System.Diagnostics.DiagNode`1<System.Collections.Generic.KeyValuePair`2<string,string>> Key; // 0x10
+        public object Key; // 0x10
 
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7FFD4E35C380
+        public void get_Key(){} // RVA: 0x7FFAC2F3C380
     }
 
     public class IServiceCollection
@@ -72,7 +72,7 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
     public class ISupportRequiredService
     {
         // ── Methods ──
-        public void GetRequiredService(){} // RVA: 0x7FFD4E078F40
+        public void GetRequiredService(){} // RVA: 0x7FFAC2C58F40
     }
 
     public class KeyedService : Object
@@ -80,15 +80,21 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
         public object AnyKey;
 
         // ── Methods ──
-        public void get_AnyKey(){} // RVA: 0x7FFD53740DE0
-        public void .cctor(){} // RVA: 0x7FFD53740E40
+        public void get_AnyKey(){} // RVA: 0x7FFAC8320DE0
+        public void .cctor(){} // RVA: 0x7FFAC8320E40
+    }
+
+    public class LoggingServiceCollectionExtensions : Object
+    {
+        // ── Methods ──
+        public void AddLogging(){} // RVA: 0x7FFAC8346370
     }
 
     public class OptionsServiceCollectionExtensions : Object
     {
         // ── Methods ──
-        public void AddOptions(){} // RVA: 0x7FFD5376D260
-        public void Configure(){} // RVA: 0x7FFD4E089600 | overloaded x2
+        public void AddOptions(){} // RVA: 0x7FFAC834D260
+        public void Configure(){} // RVA: 0x7FFAC2C69600 | overloaded x2
     }
 
     public class ServiceCollection : Object
@@ -97,35 +103,41 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
         public bool IsReadOnly; // 0x18
 
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7FFD53740F30
-        public void get_IsReadOnly(){} // RVA: 0x7FFD4E35C4E0
-        public void get_Item(){} // RVA: 0x7FFD53740F80
-        public void set_Item(){} // RVA: 0x7FFD53741000
-        public void Clear(){} // RVA: 0x7FFD53741090
-        public void Contains(){} // RVA: 0x7FFD53741110
-        public void CopyTo(){} // RVA: 0x7FFD537411C0
-        public void Remove(){} // RVA: 0x7FFD53741240
-        public void GetEnumerator(){} // RVA: 0x7FFD537412B0
-        public void System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(){} // RVA: 0x7FFD537413A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD537412B0
-        public void IndexOf(){} // RVA: 0x7FFD53741400
-        public void Insert(){} // RVA: 0x7FFD53741480
-        public void RemoveAt(){} // RVA: 0x7FFD53741500
-        public void CheckReadOnly(){} // RVA: 0x7FFD53741570
-        public void ThrowReadOnlyException(){} // RVA: 0x7FFD53741590
-        public void .ctor(){} // RVA: 0x7FFD53741600
+        public void get_Count(){} // RVA: 0x7FFAC8320F30
+        public void get_IsReadOnly(){} // RVA: 0x7FFAC2F3C4E0
+        public void get_Item(){} // RVA: 0x7FFAC8320F80
+        public void set_Item(){} // RVA: 0x7FFAC8321000
+        public void Clear(){} // RVA: 0x7FFAC8321090
+        public void Contains(){} // RVA: 0x7FFAC8321110
+        public void CopyTo(){} // RVA: 0x7FFAC83211C0
+        public void Remove(){} // RVA: 0x7FFAC8321240
+        public void GetEnumerator(){} // RVA: 0x7FFAC83212B0
+        public void System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(){} // RVA: 0x7FFAC83213A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC83212B0
+        public void IndexOf(){} // RVA: 0x7FFAC8321400
+        public void Insert(){} // RVA: 0x7FFAC8321480
+        public void RemoveAt(){} // RVA: 0x7FFAC8321500
+        public void CheckReadOnly(){} // RVA: 0x7FFAC8321570
+        public void ThrowReadOnlyException(){} // RVA: 0x7FFAC8321590
+        public void .ctor(){} // RVA: 0x7FFAC8321600
+    }
+
+    public class ServiceCollectionContainerBuilderExtensions : Object
+    {
+        // ── Methods ──
+        public void BuildServiceProvider(){} // RVA: 0x7FFAC8327560 | overloaded x2
     }
 
     public class ServiceCollectionServiceExtensions : Object
     {
         // ── Methods ──
-        public void AddSingleton(){} // RVA: 0x7FFD4E2ADC40 | overloaded x4
-        public void Add(){} // RVA: 0x7FFD53741A10
+        public void AddSingleton(){} // RVA: 0x7FFAC2E8DC40 | overloaded x4
+        public void Add(){} // RVA: 0x7FFAC8321A10
     }
 
     public class ServiceDescriptor : Object
     {
-        public ÎÌÌÏÍÌÏÌÌÍÌÏÏÎÎÌÎÍÎÌ.ÎÏÎÍÌÌÌÎÌÎ Lifetime; // 0x10
+        public 0x6B2D8978 Lifetime; // 0x10
         public object ServiceKey; // 0x18
         public System.Type ServiceType; // 0x20
         public System.Type ImplementationType; // 0x28
@@ -133,26 +145,26 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
         public object ImplementationInstance; // 0x38
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53742050 | overloaded x6
-        public void get_Lifetime(){} // RVA: 0x7FFD4E38E5C0
-        public void get_ServiceKey(){} // RVA: 0x7FFD4E3447C0
-        public void get_ServiceType(){} // RVA: 0x7FFD4E36F0C0
-        public void get_ImplementationType(){} // RVA: 0x7FFD53742110
-        public void get_KeyedImplementationType(){} // RVA: 0x7FFD53742130
-        public void get_ImplementationInstance(){} // RVA: 0x7FFD53742150
-        public void get_KeyedImplementationInstance(){} // RVA: 0x7FFD53742170
-        public void get_ImplementationFactory(){} // RVA: 0x7FFD53742190
-        public void get_KeyedImplementationFactory(){} // RVA: 0x7FFD53742210
-        public void get_IsKeyedService(){} // RVA: 0x7FFD4FC80B40
-        public void ToString(){} // RVA: 0x7FFD53742290
-        public void GetImplementationType(){} // RVA: 0x7FFD537427D0
-        public void Transient(){} // RVA: 0x7FFD537429C0
-        public void Scoped(){} // RVA: 0x7FFD53742A50
-        public void Singleton(){} // RVA: 0x7FFD53742AF0 | overloaded x4
-        public void DescribeKeyed(){} // RVA: 0x7FFD53742D70 | overloaded x2
-        public void Describe(){} // RVA: 0x7FFD53742C40
-        public void ThrowKeyedDescriptor(){} // RVA: 0x7FFD53742EA0
-        public void ThrowNonKeyedDescriptor(){} // RVA: 0x7FFD53742F10
+        public void .ctor(){} // RVA: 0x7FFAC8322050 | overloaded x6
+        public void get_Lifetime(){} // RVA: 0x7FFAC2F6E5C0
+        public void get_ServiceKey(){} // RVA: 0x7FFAC2F247C0
+        public void get_ServiceType(){} // RVA: 0x7FFAC2F4F0C0
+        public void get_ImplementationType(){} // RVA: 0x7FFAC8322110
+        public void get_KeyedImplementationType(){} // RVA: 0x7FFAC8322130
+        public void get_ImplementationInstance(){} // RVA: 0x7FFAC8322150
+        public void get_KeyedImplementationInstance(){} // RVA: 0x7FFAC8322170
+        public void get_ImplementationFactory(){} // RVA: 0x7FFAC8322190
+        public void get_KeyedImplementationFactory(){} // RVA: 0x7FFAC8322210
+        public void get_IsKeyedService(){} // RVA: 0x7FFAC4860B40
+        public void ToString(){} // RVA: 0x7FFAC8322290
+        public void GetImplementationType(){} // RVA: 0x7FFAC83227D0
+        public void Transient(){} // RVA: 0x7FFAC83229C0
+        public void Scoped(){} // RVA: 0x7FFAC8322A50
+        public void Singleton(){} // RVA: 0x7FFAC8322AF0 | overloaded x4
+        public void DescribeKeyed(){} // RVA: 0x7FFAC8322D70 | overloaded x2
+        public void Describe(){} // RVA: 0x7FFAC8322C40
+        public void ThrowKeyedDescriptor(){} // RVA: 0x7FFAC8322EA0
+        public void ThrowNonKeyedDescriptor(){} // RVA: 0x7FFAC8322F10
     }
 
     public class ServiceKeyAttribute : Attribute
@@ -172,25 +184,25 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
         public bool <DisableDynamicEngine>k__BackingField; // 0x1
 
         // ── Methods ──
-        public void get_CallSiteFactory(){} // RVA: 0x7FFD4E5F0140
-        public void get_Root(){} // RVA: 0x7FFD4E3BE740
-        public void get_VerifyOpenGenericServiceTrimmability(){} // RVA: 0x7FFD53747670
-        public void get_DisableDynamicEngine(){} // RVA: 0x7FFD537476D0
-        public void get_VerifyAotCompatibility(){} // RVA: 0x7FFD4E426850
-        public void .ctor(){} // RVA: 0x7FFD53747730
-        public void GetService(){} // RVA: 0x7FFD53748B40 | overloaded x2
-        public void IsDisposed(){} // RVA: 0x7FFD4E516BA0
-        public void Dispose(){} // RVA: 0x7FFD53748920
-        public void DisposeAsync(){} // RVA: 0x7FFD53748950
-        public void DisposeCore(){} // RVA: 0x7FFD537489A0
-        public void OnCreate(){} // RVA: 0x7FFD53748A20
-        public void OnResolve(){} // RVA: 0x7FFD53748B10
-        public void ValidateService(){} // RVA: 0x7FFD53748C70
-        public void CreateServiceAccessor(){} // RVA: 0x7FFD53748E00
-        public void ReplaceServiceAccessor(){} // RVA: 0x7FFD53749350
-        public void GetEngine(){} // RVA: 0x7FFD53749580
-        public void .cctor(){} // RVA: 0x7FFD53749620
-        public void <GetEngine>g__CreateDynamicEngine|36_0(){} // RVA: 0x7FFD53749720
+        public void get_CallSiteFactory(){} // RVA: 0x7FFAC31D0140
+        public void get_Root(){} // RVA: 0x7FFAC2F9E740
+        public void get_VerifyOpenGenericServiceTrimmability(){} // RVA: 0x7FFAC8327670
+        public void get_DisableDynamicEngine(){} // RVA: 0x7FFAC83276D0
+        public void get_VerifyAotCompatibility(){} // RVA: 0x7FFAC3006850
+        public void .ctor(){} // RVA: 0x7FFAC8327730
+        public void GetService(){} // RVA: 0x7FFAC8328B40 | overloaded x2
+        public void IsDisposed(){} // RVA: 0x7FFAC30F6BA0
+        public void Dispose(){} // RVA: 0x7FFAC8328920
+        public void DisposeAsync(){} // RVA: 0x7FFAC8328950
+        public void DisposeCore(){} // RVA: 0x7FFAC83289A0
+        public void OnCreate(){} // RVA: 0x7FFAC8328A20
+        public void OnResolve(){} // RVA: 0x7FFAC8328B10
+        public void ValidateService(){} // RVA: 0x7FFAC8328C70
+        public void CreateServiceAccessor(){} // RVA: 0x7FFAC8328E00
+        public void ReplaceServiceAccessor(){} // RVA: 0x7FFAC8329350
+        public void GetEngine(){} // RVA: 0x7FFAC8329580
+        public void .cctor(){} // RVA: 0x7FFAC8329620
+        public void <GetEngine>g__CreateDynamicEngine|36_0(){} // RVA: 0x7FFAC8329720
     }
 
     public class ServiceProviderOptions : Object
@@ -200,16 +212,16 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
         public bool <ValidateOnBuild>k__BackingField; // 0x11
 
         // ── Methods ──
-        public void get_ValidateScopes(){} // RVA: 0x7FFD4E40B5E0
-        public void get_ValidateOnBuild(){} // RVA: 0x7FFD4EB91DA0
-        public void .ctor(){} // RVA: 0x7FFD4E341310
-        public void .cctor(){} // RVA: 0x7FFD53749900
+        public void get_ValidateScopes(){} // RVA: 0x7FFAC2FEB5E0
+        public void get_ValidateOnBuild(){} // RVA: 0x7FFAC3771DA0
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFAC8329900
     }
 
     public class ServiceProviderServiceExtensions : Object
     {
         // ── Methods ──
-        public void GetRequiredService(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
+        public void GetRequiredService(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
     }
 
 }

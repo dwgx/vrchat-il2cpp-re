@@ -10,7 +10,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E090A40
+        public void .ctor(){} // RVA: 0x7FFAC2C70A40
         public void GetAsyncEnumerator(){}
     }
 

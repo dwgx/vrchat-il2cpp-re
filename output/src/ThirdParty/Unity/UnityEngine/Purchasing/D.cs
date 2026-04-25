@@ -14,7 +14,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public System.Action`2<bool,int> Callback; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
 }

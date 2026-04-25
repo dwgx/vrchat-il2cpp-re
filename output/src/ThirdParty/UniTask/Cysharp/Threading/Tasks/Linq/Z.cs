@@ -12,7 +12,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`4<U,V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 
@@ -23,7 +23,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`3<U,V,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 
@@ -34,7 +34,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Func`3<U,V,T> resultSelector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 

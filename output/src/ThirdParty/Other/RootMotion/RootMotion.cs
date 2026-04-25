@@ -1,36 +1,36 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.RootMotion
-// Classes: 22
-// Methods: 214
+// Classes: 26
+// Methods: 240
 
 namespace ThirdParty.Other.RootMotion
 {
     public class AvatarUtility : Object
     {
         // ── Methods ──
-        public void GetPostRotation(){} // RVA: 0x7FFD4E380AF0
-        public void GetIKGoalTQ(){} // RVA: 0x7FFD4E380E10
-        public void HumanIDFromAvatarIKGoal(){} // RVA: 0x7FFD4E381990
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void GetPostRotation(){} // RVA: 0x7FFAC2F60AF0
+        public void GetIKGoalTQ(){} // RVA: 0x7FFAC2F60E10
+        public void HumanIDFromAvatarIKGoal(){} // RVA: 0x7FFAC2F61990
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class AxisTools : Object
     {
         // ── Methods ──
-        public void ToVector3(){} // RVA: 0x7FFD4E388B70
-        public void ToAxis(){} // RVA: 0x7FFD4E388C60
-        public void GetAxisToPoint(){} // RVA: 0x7FFD4E388CB0
-        public void GetAxisToDirection(){} // RVA: 0x7FFD4E388E20
-        public void GetAxisVectorToPoint(){} // RVA: 0x7FFD4E389000
-        public void GetAxisVectorToDirection(){} // RVA: 0x7FFD4E389250 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void ToVector3(){} // RVA: 0x7FFAC2F68B70
+        public void ToAxis(){} // RVA: 0x7FFAC2F68C60
+        public void GetAxisToPoint(){} // RVA: 0x7FFAC2F68CB0
+        public void GetAxisToDirection(){} // RVA: 0x7FFAC2F68E20
+        public void GetAxisVectorToPoint(){} // RVA: 0x7FFAC2F69000
+        public void GetAxisVectorToDirection(){} // RVA: 0x7FFAC2F69250 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class Baker : MonoBehaviour
     {
         public int isBaking; // 0x20
         public float bakingProgress; // 0x24
-        public 0x6651C6B0 clipLength; // 0x28
+        public 0x6B1BC6B0 clipLength; // 0x28
         public UnityEngine.AnimationClip[] animationClips; // 0x30
         public string[] animationStates; // 0x38
         public bool loop; // 0x40
@@ -44,48 +44,124 @@ namespace ThirdParty.Other.RootMotion
         public float <clipLength>k__BackingField; // 0x78
 
         // ── Methods ──
-        public void OpenUserManual(){} // RVA: 0x7FFD4E341310
-        public void OpenScriptReference(){} // RVA: 0x7FFD4E341310
-        public void SupportGroup(){} // RVA: 0x7FFD4E341310
-        public void ASThread(){} // RVA: 0x7FFD4E341310
-        public void get_isBaking(){} // RVA: 0x7FFD4E36A020
-        public void set_isBaking(){} // RVA: 0x7FFD4E36A030
-        public void get_bakingProgress(){} // RVA: 0x7FFD4E36A040
-        public void set_bakingProgress(){} // RVA: 0x7FFD4E36A050
-        public void GetCharacterRoot(){} // RVA: 0x7FFD4E078E90
-        public void OnStartBaking(){} // RVA: 0x7FFD4E090980
-        public void OnSetLoopFrame(){} // RVA: 0x7FFD4E09E480
-        public void OnSetCurves(){} // RVA: 0x7FFD4E090A40
+        public void OpenUserManual(){} // RVA: 0x7FFAC2F21310
+        public void OpenScriptReference(){} // RVA: 0x7FFAC2F21310
+        public void SupportGroup(){} // RVA: 0x7FFAC2F21310
+        public void ASThread(){} // RVA: 0x7FFAC2F21310
+        public void get_isBaking(){} // RVA: 0x7FFAC2F4A020
+        public void set_isBaking(){} // RVA: 0x7FFAC2F4A030
+        public void get_bakingProgress(){} // RVA: 0x7FFAC2F4A040
+        public void set_bakingProgress(){} // RVA: 0x7FFAC2F4A050
+        public void GetCharacterRoot(){} // RVA: 0x7FFAC2C58E90
+        public void OnStartBaking(){} // RVA: 0x7FFAC2C70980
+        public void OnSetLoopFrame(){} // RVA: 0x7FFAC2C7E480
+        public void OnSetCurves(){} // RVA: 0x7FFAC2C70A40
         public void OnSetKeyframes(){}
-        public void get_clipLength(){} // RVA: 0x7FFD4E36A0E0
-        public void set_clipLength(){} // RVA: 0x7FFD4E36A0F0
-        public void BakeClip(){} // RVA: 0x7FFD4E341310
-        public void StartBaking(){} // RVA: 0x7FFD4E341310
-        public void StopBaking(){} // RVA: 0x7FFD4E341310
-        public void .ctor(){} // RVA: 0x7FFD4E37F890
+        public void get_clipLength(){} // RVA: 0x7FFAC2F4A0E0
+        public void set_clipLength(){} // RVA: 0x7FFAC2F4A0F0
+        public void BakeClip(){} // RVA: 0x7FFAC2F21310
+        public void StartBaking(){} // RVA: 0x7FFAC2F21310
+        public void StopBaking(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFAC2F5F890
+    }
+
+    public class BakerHumanoidQT : Object
+    {
+        public UnityEngine.Transform transform; // 0x10
+        public string Qx; // 0x18
+        public string Qy; // 0x20
+        public string Qz; // 0x28
+        public string Qw; // 0x30
+        public string Tx; // 0x38
+        public string Ty; // 0x40
+        public string Tz; // 0x48
+        public UnityEngine.AnimationCurve rotX; // 0x50
+        public UnityEngine.AnimationCurve rotY; // 0x58
+        public UnityEngine.AnimationCurve rotZ; // 0x60
+        public UnityEngine.AnimationCurve rotW; // 0x68
+        public UnityEngine.AnimationCurve posX; // 0x70
+        public UnityEngine.AnimationCurve posY; // 0x78
+        public UnityEngine.AnimationCurve posZ; // 0x80
+        public 0x6B29C648 goal; // 0x88
+        public UnityEngine.Quaternion lastQ; // 0x8C
+        public bool lastQSet; // 0x9C
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAC2F625C0 | overloaded x2
+        public void Reset(){} // RVA: 0x7FFAC2F62990
+        public void SetIKKeyframes(){} // RVA: 0x7FFAC2F62EB0
+        public void SetKeyframes(){} // RVA: 0x7FFAC2F631A0
+        public void MoveLastKeyframes(){} // RVA: 0x7FFAC2F632A0
+        public void SetLoopFrame(){} // RVA: 0x7FFAC2F63340
+        public void MoveLastKeyframe(){} // RVA: 0x7FFAC2F633D0
+        public void MultiplyLength(){} // RVA: 0x7FFAC2F634B0
+        public void SetCurves(){} // RVA: 0x7FFAC2F635B0
+    }
+
+    public class BakerMuscle : Object
+    {
+        public UnityEngine.AnimationCurve curve; // 0x10
+        public int muscleIndex; // 0x18
+        public string propertyName; // 0x20
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAC2F63E20
+        public void MuscleNameToPropertyName(){} // RVA: 0x7FFAC2F63F00
+        public void MultiplyLength(){} // RVA: 0x7FFAC2F634B0
+        public void SetCurves(){} // RVA: 0x7FFAC2F650A0
+        public void Reset(){} // RVA: 0x7FFAC2F65330
+        public void SetKeyframe(){} // RVA: 0x7FFAC2F65410
+        public void SetLoopFrame(){} // RVA: 0x7FFAC2F65450
+    }
+
+    public class BakerTransform : Object
+    {
+        public UnityEngine.Transform transform; // 0x10
+        public UnityEngine.AnimationCurve posX; // 0x18
+        public UnityEngine.AnimationCurve posY; // 0x20
+        public UnityEngine.AnimationCurve posZ; // 0x28
+        public UnityEngine.AnimationCurve rotX; // 0x30
+        public UnityEngine.AnimationCurve rotY; // 0x38
+        public UnityEngine.AnimationCurve rotZ; // 0x40
+        public UnityEngine.AnimationCurve rotW; // 0x48
+        public string relativePath; // 0x50
+        public bool recordPosition; // 0x58
+        public UnityEngine.Vector3 relativePosition; // 0x5C
+        public bool isRootNode; // 0x68
+        public UnityEngine.Quaternion relativeRotation; // 0x6C
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAC2F65460
+        public void SetRelativeSpace(){} // RVA: 0x7FFAC2F65590
+        public void SetCurves(){} // RVA: 0x7FFAC2F655B0
+        public void AddRootMotionCurves(){} // RVA: 0x7FFAC2F65A30
+        public void Reset(){} // RVA: 0x7FFAC2F65E60
+        public void ReduceKeyframes(){} // RVA: 0x7FFAC2F66340
+        public void SetKeyframes(){} // RVA: 0x7FFAC2F66680
+        public void AddLoopFrame(){} // RVA: 0x7FFAC2F66B00
     }
 
     public class BakerUtilities : Object
     {
         // ── Methods ──
-        public void ReduceKeyframes(){} // RVA: 0x7FFD4E3819D0
-        public void GetReducedKeyframes(){} // RVA: 0x7FFD4E381A50
-        public void SetLoopFrame(){} // RVA: 0x7FFD4E381E30
-        public void SetTangentMode(){} // RVA: 0x7FFD4E341310
-        public void EnsureQuaternionContinuity(){} // RVA: 0x7FFD4E381FF0
+        public void ReduceKeyframes(){} // RVA: 0x7FFAC2F619D0
+        public void GetReducedKeyframes(){} // RVA: 0x7FFAC2F61A50
+        public void SetLoopFrame(){} // RVA: 0x7FFAC2F61E30
+        public void SetTangentMode(){} // RVA: 0x7FFAC2F21310
+        public void EnsureQuaternionContinuity(){} // RVA: 0x7FFAC2F61FF0
     }
 
     public class BipedLimbOrientations : Object
     {
-        public 0x6651CAD0 UMA; // 0x10
-        public 0x6651CAD0 MaxBiped; // 0x18
-        public 0x6651CAD0 leftLeg; // 0x20
-        public 0x6651CAD0 rightLeg; // 0x28
+        public LimbOrientation UMA; // 0x10
+        public LimbOrientation MaxBiped; // 0x18
+        public LimbOrientation leftLeg; // 0x20
+        public LimbOrientation rightLeg; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E389A50
-        public void get_UMA(){} // RVA: 0x7FFD4E389BA0
-        public void get_MaxBiped(){} // RVA: 0x7FFD4E38A010
+        public void .ctor(){} // RVA: 0x7FFAC2F69A50
+        public void get_UMA(){} // RVA: 0x7FFAC2F69BA0
+        public void get_MaxBiped(){} // RVA: 0x7FFAC2F6A010
     }
 
     public class BipedNaming : Object
@@ -110,30 +186,30 @@ namespace ThirdParty.Other.RootMotion
         public string[] foot; // 0x88
 
         // ── Methods ──
-        public void GetBonesOfType(){} // RVA: 0x7FFD4E38A4C0
-        public void GetBonesOfSide(){} // RVA: 0x7FFD4E38A6C0
-        public void GetBonesOfTypeAndSide(){} // RVA: 0x7FFD4E38A8C0
-        public void GetFirstBoneOfTypeAndSide(){} // RVA: 0x7FFD4E38A940
-        public void GetNamingMatch(){} // RVA: 0x7FFD4E38A9E0
-        public void GetBoneType(){} // RVA: 0x7FFD4E38ABD0
-        public void GetBoneSide(){} // RVA: 0x7FFD4E38AD20
-        public void GetBone(){} // RVA: 0x7FFD4E38ADB0
-        public void isLeft(){} // RVA: 0x7FFD4E38AE40
-        public void isRight(){} // RVA: 0x7FFD4E38B0F0
-        public void isSpine(){} // RVA: 0x7FFD4E38B3A0
-        public void isHead(){} // RVA: 0x7FFD4E38B570
-        public void isArm(){} // RVA: 0x7FFD4E38B740
-        public void isLeg(){} // RVA: 0x7FFD4E38B910
-        public void isTail(){} // RVA: 0x7FFD4E38BAE0
-        public void isEye(){} // RVA: 0x7FFD4E38BCB0
-        public void isTypeExclude(){} // RVA: 0x7FFD4E38BE80
-        public void matchesNaming(){} // RVA: 0x7FFD4E38BFD0
-        public void excludesNaming(){} // RVA: 0x7FFD4E38C0E0
-        public void matchesLastLetter(){} // RVA: 0x7FFD4E38C160
-        public void LastLetterIs(){} // RVA: 0x7FFD4E38C260
-        public void firstLetter(){} // RVA: 0x7FFD4E38C2D0
-        public void lastLetter(){} // RVA: 0x7FFD4E38C330
-        public void .cctor(){} // RVA: 0x7FFD4E38C3A0
+        public void GetBonesOfType(){} // RVA: 0x7FFAC2F6A4C0
+        public void GetBonesOfSide(){} // RVA: 0x7FFAC2F6A6C0
+        public void GetBonesOfTypeAndSide(){} // RVA: 0x7FFAC2F6A8C0
+        public void GetFirstBoneOfTypeAndSide(){} // RVA: 0x7FFAC2F6A940
+        public void GetNamingMatch(){} // RVA: 0x7FFAC2F6A9E0
+        public void GetBoneType(){} // RVA: 0x7FFAC2F6ABD0
+        public void GetBoneSide(){} // RVA: 0x7FFAC2F6AD20
+        public void GetBone(){} // RVA: 0x7FFAC2F6ADB0
+        public void isLeft(){} // RVA: 0x7FFAC2F6AE40
+        public void isRight(){} // RVA: 0x7FFAC2F6B0F0
+        public void isSpine(){} // RVA: 0x7FFAC2F6B3A0
+        public void isHead(){} // RVA: 0x7FFAC2F6B570
+        public void isArm(){} // RVA: 0x7FFAC2F6B740
+        public void isLeg(){} // RVA: 0x7FFAC2F6B910
+        public void isTail(){} // RVA: 0x7FFAC2F6BAE0
+        public void isEye(){} // RVA: 0x7FFAC2F6BCB0
+        public void isTypeExclude(){} // RVA: 0x7FFAC2F6BE80
+        public void matchesNaming(){} // RVA: 0x7FFAC2F6BFD0
+        public void excludesNaming(){} // RVA: 0x7FFAC2F6C0E0
+        public void matchesLastLetter(){} // RVA: 0x7FFAC2F6C160
+        public void LastLetterIs(){} // RVA: 0x7FFAC2F6C260
+        public void firstLetter(){} // RVA: 0x7FFAC2F6C2D0
+        public void lastLetter(){} // RVA: 0x7FFAC2F6C330
+        public void .cctor(){} // RVA: 0x7FFAC2F6C3A0
     }
 
     public class BipedReferences : Object
@@ -157,30 +233,30 @@ namespace ThirdParty.Other.RootMotion
         public UnityEngine.Transform[] eyes; // 0x90
 
         // ── Methods ──
-        public void get_isFilled(){} // RVA: 0x7FFD4E38E6C0
-        public void get_isEmpty(){} // RVA: 0x7FFD4E38EFC0
-        public void IsEmpty(){} // RVA: 0x7FFD4E38EFE0
-        public void Contains(){} // RVA: 0x7FFD4E38F8F0
-        public void AutoDetectReferences(){} // RVA: 0x7FFD4E390670
-        public void DetectReferencesByNaming(){} // RVA: 0x7FFD4E3909E0
-        public void AssignHumanoidReferences(){} // RVA: 0x7FFD4E391850
-        public void SetupError(){} // RVA: 0x7FFD4E3922F0
-        public void SetupWarning(){} // RVA: 0x7FFD4E392470
-        public void IsNeckBone(){} // RVA: 0x7FFD4E392560
-        public void AddBoneToEyes(){} // RVA: 0x7FFD4E3927D0
-        public void AddBoneToSpine(){} // RVA: 0x7FFD4E3929B0
-        public void DetectLimb(){} // RVA: 0x7FFD4E392DE0
-        public void AddBoneToHierarchy(){} // RVA: 0x7FFD4E3930B0
-        public void LimbError(){} // RVA: 0x7FFD4E393200
-        public void LimbWarning(){} // RVA: 0x7FFD4E393B00
-        public void SpineError(){} // RVA: 0x7FFD4E393F00
-        public void SpineWarning(){} // RVA: 0x7FFD4E341320
-        public void EyesError(){} // RVA: 0x7FFD4E3944C0
-        public void EyesWarning(){} // RVA: 0x7FFD4E341320
-        public void RootHeightWarning(){} // RVA: 0x7FFD4E394790
-        public void FacingAxisWarning(){} // RVA: 0x7FFD4E394BC0
-        public void GetVerticalOffset(){} // RVA: 0x7FFD4E395030
-        public void .ctor(){} // RVA: 0x7FFD4E395190
+        public void get_isFilled(){} // RVA: 0x7FFAC2F6E6C0
+        public void get_isEmpty(){} // RVA: 0x7FFAC2F6EFC0
+        public void IsEmpty(){} // RVA: 0x7FFAC2F6EFE0
+        public void Contains(){} // RVA: 0x7FFAC2F6F8F0
+        public void AutoDetectReferences(){} // RVA: 0x7FFAC2F70670
+        public void DetectReferencesByNaming(){} // RVA: 0x7FFAC2F709E0
+        public void AssignHumanoidReferences(){} // RVA: 0x7FFAC2F71850
+        public void SetupError(){} // RVA: 0x7FFAC2F722F0
+        public void SetupWarning(){} // RVA: 0x7FFAC2F72470
+        public void IsNeckBone(){} // RVA: 0x7FFAC2F72560
+        public void AddBoneToEyes(){} // RVA: 0x7FFAC2F727D0
+        public void AddBoneToSpine(){} // RVA: 0x7FFAC2F729B0
+        public void DetectLimb(){} // RVA: 0x7FFAC2F72DE0
+        public void AddBoneToHierarchy(){} // RVA: 0x7FFAC2F730B0
+        public void LimbError(){} // RVA: 0x7FFAC2F73200
+        public void LimbWarning(){} // RVA: 0x7FFAC2F73B00
+        public void SpineError(){} // RVA: 0x7FFAC2F73F00
+        public void SpineWarning(){} // RVA: 0x7FFAC2F21320
+        public void EyesError(){} // RVA: 0x7FFAC2F744C0
+        public void EyesWarning(){} // RVA: 0x7FFAC2F21320
+        public void RootHeightWarning(){} // RVA: 0x7FFAC2F74790
+        public void FacingAxisWarning(){} // RVA: 0x7FFAC2F74BC0
+        public void GetVerticalOffset(){} // RVA: 0x7FFAC2F75030
+        public void .ctor(){} // RVA: 0x7FFAC2F75190
     }
 
     public class Comments : MonoBehaviour
@@ -188,7 +264,7 @@ namespace ThirdParty.Other.RootMotion
         public string text; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class DemoGUIMessage : MonoBehaviour
@@ -197,8 +273,8 @@ namespace ThirdParty.Other.RootMotion
         public UnityEngine.Color color; // 0x28
 
         // ── Methods ──
-        public void OnGUI(){} // RVA: 0x7FFD4E3952C0
-        public void .ctor(){} // RVA: 0x7FFD4E395450
+        public void OnGUI(){} // RVA: 0x7FFAC2F752C0
+        public void .ctor(){} // RVA: 0x7FFAC2F75450
     }
 
     public class GenericBaker : Baker
@@ -208,35 +284,35 @@ namespace ThirdParty.Other.RootMotion
         public UnityEngine.Transform rootNode; // 0x90
         public UnityEngine.Transform[] ignoreList; // 0x98
         public UnityEngine.Transform[] bakePositionList; // 0xA0
-        public 0x6651C970[] children; // 0xA8
-        public 0x6651C970 rootChild; // 0xB0
+        public RootMotion.BakerTransform[] children; // 0xA8
+        public RootMotion.BakerTransform rootChild; // 0xB0
         public int rootChildIndex; // 0xB8
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E37FB30
-        public void GetCharacterRoot(){} // RVA: 0x7FFD4E380010
-        public void OnStartBaking(){} // RVA: 0x7FFD4E380020
-        public void OnSetLoopFrame(){} // RVA: 0x7FFD4E3801D0
-        public void OnSetCurves(){} // RVA: 0x7FFD4E3805E0
-        public void OnSetKeyframes(){} // RVA: 0x7FFD4E380670
-        public void IsIgnored(){} // RVA: 0x7FFD4E380700
-        public void BakePosition(){} // RVA: 0x7FFD4E380890
-        public void .ctor(){} // RVA: 0x7FFD4E380A20
+        public void Awake(){} // RVA: 0x7FFAC2F5FB30
+        public void GetCharacterRoot(){} // RVA: 0x7FFAC2F60010
+        public void OnStartBaking(){} // RVA: 0x7FFAC2F60020
+        public void OnSetLoopFrame(){} // RVA: 0x7FFAC2F601D0
+        public void OnSetCurves(){} // RVA: 0x7FFAC2F605E0
+        public void OnSetKeyframes(){} // RVA: 0x7FFAC2F60670
+        public void IsIgnored(){} // RVA: 0x7FFAC2F60700
+        public void BakePosition(){} // RVA: 0x7FFAC2F60890
+        public void .ctor(){} // RVA: 0x7FFAC2F60A20
     }
 
     public class Hierarchy : Object
     {
         // ── Methods ──
-        public void HierarchyIsValid(){} // RVA: 0x7FFD4E3954A0
-        public void ContainsDuplicate(){} // RVA: 0x7FFD4E395520
-        public void IsAncestor(){} // RVA: 0x7FFD4E3956D0
-        public void ContainsChild(){} // RVA: 0x7FFD4E395A00
-        public void AddAncestors(){} // RVA: 0x7FFD4E395C90
-        public void GetAncestor(){} // RVA: 0x7FFD4E396220
-        public void GetFirstCommonAncestor(){} // RVA: 0x7FFD4E396800 | overloaded x2
-        public void GetFirstCommonAncestorRecursive(){} // RVA: 0x7FFD4E396A10
-        public void IsCommonAncestor(){} // RVA: 0x7FFD4E396CC0
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void HierarchyIsValid(){} // RVA: 0x7FFAC2F754A0
+        public void ContainsDuplicate(){} // RVA: 0x7FFAC2F75520
+        public void IsAncestor(){} // RVA: 0x7FFAC2F756D0
+        public void ContainsChild(){} // RVA: 0x7FFAC2F75A00
+        public void AddAncestors(){} // RVA: 0x7FFAC2F75C90
+        public void GetAncestor(){} // RVA: 0x7FFAC2F76220
+        public void GetFirstCommonAncestor(){} // RVA: 0x7FFAC2F76800 | overloaded x2
+        public void GetFirstCommonAncestorRecursive(){} // RVA: 0x7FFAC2F76A10
+        public void IsCommonAncestor(){} // RVA: 0x7FFAC2F76CC0
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class HumanoidBaker : Baker
@@ -244,30 +320,30 @@ namespace ThirdParty.Other.RootMotion
         public bool bakeHandIK; // 0x80
         public float IKKeyReductionError; // 0x84
         public int muscleFrameRateDiv; // 0x88
-        public 0x6651C918[] bakerMuscles; // 0x90
-        public 0x6651C8C0 rootQT; // 0x98
-        public 0x6651C8C0 leftFootQT; // 0xA0
-        public 0x6651C8C0 rightFootQT; // 0xA8
-        public 0x6651C8C0 leftHandQT; // 0xB0
-        public 0x6651C8C0 rightHandQT; // 0xB8
+        public RootMotion.BakerMuscle[] bakerMuscles; // 0x90
+        public RootMotion.BakerHumanoidQT rootQT; // 0x98
+        public RootMotion.BakerHumanoidQT leftFootQT; // 0xA0
+        public RootMotion.BakerHumanoidQT rightFootQT; // 0xA8
+        public RootMotion.BakerHumanoidQT leftHandQT; // 0xB0
+        public RootMotion.BakerHumanoidQT rightHandQT; // 0xB8
         public float[] muscles; // 0xC0
         public UnityEngine.HumanPose pose; // 0xC8
-        public ÍÏÌÍÌ handler; // 0xF0
+        public UnityEngine.HumanPoseHandler handler; // 0xF0
         public UnityEngine.Vector3 bodyPosition; // 0xF8
         public UnityEngine.Quaternion bodyRotation; // 0x104
         public int mN; // 0x114
         public UnityEngine.Quaternion lastBodyRotation; // 0x118
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E386E90
-        public void OnDestroy(){} // RVA: 0x7FFD4E387A20
-        public void GetCharacterRoot(){} // RVA: 0x7FFD4E387A40
-        public void OnStartBaking(){} // RVA: 0x7FFD4E387AA0
-        public void OnSetLoopFrame(){} // RVA: 0x7FFD4E387BD0
-        public void OnSetCurves(){} // RVA: 0x7FFD4E387EF0
-        public void OnSetKeyframes(){} // RVA: 0x7FFD4E3881B0
-        public void UpdateHumanPose(){} // RVA: 0x7FFD4E388960
-        public void .ctor(){} // RVA: 0x7FFD4E388A50
+        public void Awake(){} // RVA: 0x7FFAC2F66E90
+        public void OnDestroy(){} // RVA: 0x7FFAC2F67A20
+        public void GetCharacterRoot(){} // RVA: 0x7FFAC2F67A40
+        public void OnStartBaking(){} // RVA: 0x7FFAC2F67AA0
+        public void OnSetLoopFrame(){} // RVA: 0x7FFAC2F67BD0
+        public void OnSetCurves(){} // RVA: 0x7FFAC2F67EF0
+        public void OnSetKeyframes(){} // RVA: 0x7FFAC2F681B0
+        public void UpdateHumanPose(){} // RVA: 0x7FFAC2F68960
+        public void .ctor(){} // RVA: 0x7FFAC2F68A50
     }
 
     public class InspectorComment : PropertyAttribute
@@ -276,43 +352,43 @@ namespace ThirdParty.Other.RootMotion
         public string color; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E397160 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAC2F77160 | overloaded x2
     }
 
     public class Interp : Object
     {
         // ── Methods ──
-        public void Float(){} // RVA: 0x7FFD4E3972B0
-        public void V3(){} // RVA: 0x7FFD4E3978D0
-        public void LerpValue(){} // RVA: 0x7FFD4E397980
-        public void None(){} // RVA: 0x7FFD4E397AA0
-        public void InOutCubic(){} // RVA: 0x7FFD4E397AB0
-        public void InOutQuintic(){} // RVA: 0x7FFD4E397AE0
-        public void InQuintic(){} // RVA: 0x7FFD4E397B30
-        public void InQuartic(){} // RVA: 0x7FFD4E397B50
-        public void InCubic(){} // RVA: 0x7FFD4E397B70
-        public void InQuadratic(){} // RVA: 0x7FFD4E397B90
-        public void OutQuintic(){} // RVA: 0x7FFD4E397BA0
-        public void OutQuartic(){} // RVA: 0x7FFD4E397C10
-        public void OutCubic(){} // RVA: 0x7FFD4E397C70
-        public void OutInCubic(){} // RVA: 0x7FFD4E397CB0
-        public void OutInQuartic(){} // RVA: 0x7FFD4E397CF0
-        public void BackInCubic(){} // RVA: 0x7FFD4E397D30
-        public void BackInQuartic(){} // RVA: 0x7FFD4E397D60
-        public void OutBackCubic(){} // RVA: 0x7FFD4E397DA0
-        public void OutBackQuartic(){} // RVA: 0x7FFD4E397DE0
-        public void OutElasticSmall(){} // RVA: 0x7FFD4E397E30
-        public void OutElasticBig(){} // RVA: 0x7FFD4E397EB0
-        public void InElasticSmall(){} // RVA: 0x7FFD4E397F30
-        public void InElasticBig(){} // RVA: 0x7FFD4E397F90
-        public void InSine(){} // RVA: 0x7FFD4E397FF0
-        public void OutSine(){} // RVA: 0x7FFD4E398040
-        public void InOutSine(){} // RVA: 0x7FFD4E398080
-        public void InElastic(){} // RVA: 0x7FFD4E3980E0
-        public void OutElastic(){} // RVA: 0x7FFD4E3981B0
-        public void InBack(){} // RVA: 0x7FFD4E398270
-        public void OutBack(){} // RVA: 0x7FFD4E3982A0
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void Float(){} // RVA: 0x7FFAC2F772B0
+        public void V3(){} // RVA: 0x7FFAC2F778D0
+        public void LerpValue(){} // RVA: 0x7FFAC2F77980
+        public void None(){} // RVA: 0x7FFAC2F77AA0
+        public void InOutCubic(){} // RVA: 0x7FFAC2F77AB0
+        public void InOutQuintic(){} // RVA: 0x7FFAC2F77AE0
+        public void InQuintic(){} // RVA: 0x7FFAC2F77B30
+        public void InQuartic(){} // RVA: 0x7FFAC2F77B50
+        public void InCubic(){} // RVA: 0x7FFAC2F77B70
+        public void InQuadratic(){} // RVA: 0x7FFAC2F77B90
+        public void OutQuintic(){} // RVA: 0x7FFAC2F77BA0
+        public void OutQuartic(){} // RVA: 0x7FFAC2F77C10
+        public void OutCubic(){} // RVA: 0x7FFAC2F77C70
+        public void OutInCubic(){} // RVA: 0x7FFAC2F77CB0
+        public void OutInQuartic(){} // RVA: 0x7FFAC2F77CF0
+        public void BackInCubic(){} // RVA: 0x7FFAC2F77D30
+        public void BackInQuartic(){} // RVA: 0x7FFAC2F77D60
+        public void OutBackCubic(){} // RVA: 0x7FFAC2F77DA0
+        public void OutBackQuartic(){} // RVA: 0x7FFAC2F77DE0
+        public void OutElasticSmall(){} // RVA: 0x7FFAC2F77E30
+        public void OutElasticBig(){} // RVA: 0x7FFAC2F77EB0
+        public void InElasticSmall(){} // RVA: 0x7FFAC2F77F30
+        public void InElasticBig(){} // RVA: 0x7FFAC2F77F90
+        public void InSine(){} // RVA: 0x7FFAC2F77FF0
+        public void OutSine(){} // RVA: 0x7FFAC2F78040
+        public void InOutSine(){} // RVA: 0x7FFAC2F78080
+        public void InElastic(){} // RVA: 0x7FFAC2F780E0
+        public void OutElastic(){} // RVA: 0x7FFAC2F781B0
+        public void InBack(){} // RVA: 0x7FFAC2F78270
+        public void OutBack(){} // RVA: 0x7FFAC2F782A0
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class LargeHeader : PropertyAttribute
@@ -321,49 +397,49 @@ namespace ThirdParty.Other.RootMotion
         public string color; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E398430 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAC2F78430 | overloaded x2
     }
 
     public class LayerMaskExtensions : Object
     {
         // ── Methods ──
-        public void Contains(){} // RVA: 0x7FFD4E398580
-        public void Create(){} // RVA: 0x7FFD4E3985A0 | overloaded x2
-        public void NamesToMask(){} // RVA: 0x7FFD4E3985F0
-        public void LayerNumbersToMask(){} // RVA: 0x7FFD4E3985A0
-        public void Inverse(){} // RVA: 0x7FFD4E3986A0
-        public void AddToMask(){} // RVA: 0x7FFD4E3986B0
-        public void RemoveFromMask(){} // RVA: 0x7FFD4E398770
-        public void MaskToNames(){} // RVA: 0x7FFD4E398830
-        public void MaskToNumbers(){} // RVA: 0x7FFD4E398930
-        public void MaskToString(){} // RVA: 0x7FFD4E398A60 | overloaded x2
+        public void Contains(){} // RVA: 0x7FFAC2F78580
+        public void Create(){} // RVA: 0x7FFAC2F785A0 | overloaded x2
+        public void NamesToMask(){} // RVA: 0x7FFAC2F785F0
+        public void LayerNumbersToMask(){} // RVA: 0x7FFAC2F785A0
+        public void Inverse(){} // RVA: 0x7FFAC2F786A0
+        public void AddToMask(){} // RVA: 0x7FFAC2F786B0
+        public void RemoveFromMask(){} // RVA: 0x7FFAC2F78770
+        public void MaskToNames(){} // RVA: 0x7FFAC2F78830
+        public void MaskToNumbers(){} // RVA: 0x7FFAC2F78930
+        public void MaskToString(){} // RVA: 0x7FFAC2F78A60 | overloaded x2
     }
 
     public class QuaTools : Object
     {
         // ── Methods ──
-        public void Lerp(){} // RVA: 0x7FFD4E398C20
-        public void Slerp(){} // RVA: 0x7FFD4E398CE0
-        public void LinearBlend(){} // RVA: 0x7FFD4E398DA0
-        public void SphericalBlend(){} // RVA: 0x7FFD4E398EE0
-        public void FromToAroundAxis(){} // RVA: 0x7FFD4E399020
-        public void RotationToLocalSpace(){} // RVA: 0x7FFD4E399240
-        public void FromToRotation(){} // RVA: 0x7FFD4E3994A0
-        public void GetAxis(){} // RVA: 0x7FFD4E399720
-        public void ClampRotation(){} // RVA: 0x7FFD4E3999E0
-        public void ClampAngle(){} // RVA: 0x7FFD4E399CB0
-        public void MatchRotation(){} // RVA: 0x7FFD4E399E10
-        public void ToBiPolar(){} // RVA: 0x7FFD4E39A2E0 | overloaded x2
+        public void Lerp(){} // RVA: 0x7FFAC2F78C20
+        public void Slerp(){} // RVA: 0x7FFAC2F78CE0
+        public void LinearBlend(){} // RVA: 0x7FFAC2F78DA0
+        public void SphericalBlend(){} // RVA: 0x7FFAC2F78EE0
+        public void FromToAroundAxis(){} // RVA: 0x7FFAC2F79020
+        public void RotationToLocalSpace(){} // RVA: 0x7FFAC2F79240
+        public void FromToRotation(){} // RVA: 0x7FFAC2F794A0
+        public void GetAxis(){} // RVA: 0x7FFAC2F79720
+        public void ClampRotation(){} // RVA: 0x7FFAC2F799E0
+        public void ClampAngle(){} // RVA: 0x7FFAC2F79CB0
+        public void MatchRotation(){} // RVA: 0x7FFAC2F79E10
+        public void ToBiPolar(){} // RVA: 0x7FFAC2F7A2E0 | overloaded x2
     }
 
     public class Singleton`1 : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMasterSettings instance;
+        public T instance;
 
         // ── Methods ──
-        public void get_instance(){} // RVA: 0x7FFD4E2ADC40
-        public void Awake(){} // RVA: 0x7FFD4E090980
-        public void .ctor(){} // RVA: 0x7FFD4E090980
+        public void get_instance(){} // RVA: 0x7FFAC2E8DC40
+        public void Awake(){} // RVA: 0x7FFAC2C70980
+        public void .ctor(){} // RVA: 0x7FFAC2C70980
     }
 
     public class SolverManager : MonoBehaviour
@@ -378,21 +454,30 @@ namespace ThirdParty.Other.RootMotion
         public bool skipSolverUpdate; // 0x3A
 
         // ── Methods ──
-        public void Disable(){} // RVA: 0x7FFD4E39A330
-        public void InitiateSolver(){} // RVA: 0x7FFD4E341310
-        public void UpdateSolver(){} // RVA: 0x7FFD4E341310
-        public void FixTransforms(){} // RVA: 0x7FFD4E341310
-        public void OnDisable(){} // RVA: 0x7FFD4E39A430
-        public void Start(){} // RVA: 0x7FFD4E39A4D0
-        public void get_animatePhysics(){} // RVA: 0x7FFD4E39A4E0
-        public void Initiate(){} // RVA: 0x7FFD4E39A700
-        public void Update(){} // RVA: 0x7FFD4E39A780
-        public void FindAnimatorRecursive(){} // RVA: 0x7FFD4E39A880
-        public void get_isAnimated(){} // RVA: 0x7FFD4E39AC50
-        public void FixedUpdate(){} // RVA: 0x7FFD4E39ADD0
-        public void LateUpdate(){} // RVA: 0x7FFD4E39AE20
-        public void UpdateSolverExternal(){} // RVA: 0x7FFD4E39AF30
-        public void .ctor(){} // RVA: 0x7FFD4E39B060
+        public void Disable(){} // RVA: 0x7FFAC2F7A330
+        public void InitiateSolver(){} // RVA: 0x7FFAC2F21310
+        public void UpdateSolver(){} // RVA: 0x7FFAC2F21310
+        public void FixTransforms(){} // RVA: 0x7FFAC2F21310
+        public void OnDisable(){} // RVA: 0x7FFAC2F7A430
+        public void Start(){} // RVA: 0x7FFAC2F7A4D0
+        public void get_animatePhysics(){} // RVA: 0x7FFAC2F7A4E0
+        public void Initiate(){} // RVA: 0x7FFAC2F7A700
+        public void Update(){} // RVA: 0x7FFAC2F7A780
+        public void FindAnimatorRecursive(){} // RVA: 0x7FFAC2F7A880
+        public void get_isAnimated(){} // RVA: 0x7FFAC2F7AC50
+        public void FixedUpdate(){} // RVA: 0x7FFAC2F7ADD0
+        public void LateUpdate(){} // RVA: 0x7FFAC2F7AE20
+        public void UpdateSolverExternal(){} // RVA: 0x7FFAC2F7AF30
+        public void .ctor(){} // RVA: 0x7FFAC2F7B060
+    }
+
+    public class TQ : Object
+    {
+        public UnityEngine.Vector3 t; // 0x10
+        public UnityEngine.Quaternion q; // 0x1C
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAC2F60AD0
     }
 
     public class TriggerEventBroadcaster : MonoBehaviour
@@ -400,24 +485,24 @@ namespace ThirdParty.Other.RootMotion
         public UnityEngine.GameObject target; // 0x20
 
         // ── Methods ──
-        public void OnTriggerEnter(){} // RVA: 0x7FFD4E39B0B0
-        public void OnTriggerStay(){} // RVA: 0x7FFD4E39B1D0
-        public void OnTriggerExit(){} // RVA: 0x7FFD4E39B2F0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void OnTriggerEnter(){} // RVA: 0x7FFAC2F7B0B0
+        public void OnTriggerStay(){} // RVA: 0x7FFAC2F7B1D0
+        public void OnTriggerExit(){} // RVA: 0x7FFAC2F7B2F0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class V3Tools : Object
     {
         // ── Methods ──
-        public void Lerp(){} // RVA: 0x7FFD4E39B410
-        public void Slerp(){} // RVA: 0x7FFD4E39B4E0
-        public void ExtractVertical(){} // RVA: 0x7FFD4E39B5D0
-        public void ExtractHorizontal(){} // RVA: 0x7FFD4E39B790
-        public void ClampDirection(){} // RVA: 0x7FFD4E39BD50 | overloaded x3
-        public void LineToPlane(){} // RVA: 0x7FFD4E39BFD0
-        public void PointToPlane(){} // RVA: 0x7FFD4E39C150
-        public void TransformPointUnscaled(){} // RVA: 0x7FFD4E39C370
-        public void InverseTransformPointUnscaled(){} // RVA: 0x7FFD4E39C650
+        public void Lerp(){} // RVA: 0x7FFAC2F7B410
+        public void Slerp(){} // RVA: 0x7FFAC2F7B4E0
+        public void ExtractVertical(){} // RVA: 0x7FFAC2F7B5D0
+        public void ExtractHorizontal(){} // RVA: 0x7FFAC2F7B790
+        public void ClampDirection(){} // RVA: 0x7FFAC2F7BD50 | overloaded x3
+        public void LineToPlane(){} // RVA: 0x7FFAC2F7BFD0
+        public void PointToPlane(){} // RVA: 0x7FFAC2F7C150
+        public void TransformPointUnscaled(){} // RVA: 0x7FFAC2F7C370
+        public void InverseTransformPointUnscaled(){} // RVA: 0x7FFAC2F7C650
     }
 
     public class Warning : Object
@@ -425,7 +510,7 @@ namespace ThirdParty.Other.RootMotion
         public bool logged;
 
         // ── Methods ──
-        public void Log(){} // RVA: 0x7FFD4E39CA70 | overloaded x2
+        public void Log(){} // RVA: 0x7FFAC2F7CA70 | overloaded x2
     }
 
 }

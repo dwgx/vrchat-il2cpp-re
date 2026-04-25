@@ -10,7 +10,7 @@ namespace VRC.SDKBase.Source
         public object Proximity;
 
         // ── Methods ──
-        public void get_Proximity(){} // RVA: 0x7FFD4E08D880
+        public void get_Proximity(){} // RVA: 0x7FFAC2C6D880
     }
 
 }

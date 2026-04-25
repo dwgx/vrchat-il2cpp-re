@@ -7,7 +7,7 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 {
     public class ActivateTrigger : MonoBehaviour
     {
-        public 0x665195E0 action; // 0x20
+        public 0x6B1B95E0 action; // 0x20
         public UnityEngine.Object target; // 0x28
         public UnityEngine.GameObject source; // 0x30
         public int triggerCount; // 0x38
@@ -15,18 +15,18 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public InstantiationDelegate Instantiate;
 
         // ── Methods ──
-        public void DoActivateTrigger(){} // RVA: 0x7FFD4E342080
-        public void OnTriggerEnter(){} // RVA: 0x7FFD4E342900
-        public void .ctor(){} // RVA: 0x7FFD4E342910
+        public void DoActivateTrigger(){} // RVA: 0x7FFAC2F22080
+        public void OnTriggerEnter(){} // RVA: 0x7FFAC2F22900
+        public void .ctor(){} // RVA: 0x7FFAC2F22910
     }
 
     public class AutoMobileShaderSwitch : MonoBehaviour
     {
-        public 0x66519740 m_ReplacementList; // 0x20
+        public ReplacementList m_ReplacementList; // 0x20
 
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFD4E341310
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void OnEnable(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class CameraRefocus : Object
@@ -38,11 +38,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public bool m_Refocus; // 0x3C
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E342D70
-        public void ChangeCamera(){} // RVA: 0x7FFD4E342E30
-        public void ChangeParent(){} // RVA: 0x7FFD4E342E90
-        public void GetFocusPoint(){} // RVA: 0x7FFD4E342EF0
-        public void SetFocusPoint(){} // RVA: 0x7FFD4E3431C0
+        public void .ctor(){} // RVA: 0x7FFAC2F22D70
+        public void ChangeCamera(){} // RVA: 0x7FFAC2F22E30
+        public void ChangeParent(){} // RVA: 0x7FFAC2F22E90
+        public void GetFocusPoint(){} // RVA: 0x7FFAC2F22EF0
+        public void SetFocusPoint(){} // RVA: 0x7FFAC2F231C0
     }
 
     public class CurveControlledBob : Object
@@ -58,9 +58,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public float m_Time; // 0x3C
 
         // ── Methods ──
-        public void Setup(){} // RVA: 0x7FFD4E343260
-        public void DoHeadBob(){} // RVA: 0x7FFD4E343410
-        public void .ctor(){} // RVA: 0x7FFD4E343660
+        public void Setup(){} // RVA: 0x7FFAC2F23260
+        public void DoHeadBob(){} // RVA: 0x7FFAC2F23410
+        public void .ctor(){} // RVA: 0x7FFAC2F23660
     }
 
     public class DragRigidbody : MonoBehaviour
@@ -74,10 +74,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public UnityEngine.SpringJoint m_SpringJoint; // 0x20
 
         // ── Methods ──
-        public void Update(){} // RVA: 0x7FFD4E343870
-        public void DragObject(){} // RVA: 0x7FFD4E343EC0
-        public void FindCamera(){} // RVA: 0x7FFD4E343F80
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Update(){} // RVA: 0x7FFAC2F23870
+        public void DragObject(){} // RVA: 0x7FFAC2F23EC0
+        public void FindCamera(){} // RVA: 0x7FFAC2F23F80
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class DynamicShadowSettings : MonoBehaviour
@@ -95,9 +95,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public float m_OriginalStrength; // 0x4C
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E344810
-        public void Update(){} // RVA: 0x7FFD4E344880
-        public void .ctor(){} // RVA: 0x7FFD4E344E70
+        public void Start(){} // RVA: 0x7FFAC2F24810
+        public void Update(){} // RVA: 0x7FFAC2F24880
+        public void .ctor(){} // RVA: 0x7FFAC2F24E70
     }
 
     public class FOVKick : Object
@@ -110,12 +110,12 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public UnityEngine.AnimationCurve IncreaseCurve; // 0x28
 
         // ── Methods ──
-        public void Setup(){} // RVA: 0x7FFD4E345170
-        public void CheckStatus(){} // RVA: 0x7FFD4E345370
-        public void ChangeCamera(){} // RVA: 0x7FFD4E342E30
-        public void FOVKickUp(){} // RVA: 0x7FFD4E3454E0
-        public void FOVKickDown(){} // RVA: 0x7FFD4E345580
-        public void .ctor(){} // RVA: 0x7FFD4E345620
+        public void Setup(){} // RVA: 0x7FFAC2F25170
+        public void CheckStatus(){} // RVA: 0x7FFAC2F25370
+        public void ChangeCamera(){} // RVA: 0x7FFAC2F22E30
+        public void FOVKickUp(){} // RVA: 0x7FFAC2F254E0
+        public void FOVKickDown(){} // RVA: 0x7FFAC2F25580
+        public void .ctor(){} // RVA: 0x7FFAC2F25620
     }
 
     public class FPSCounter : MonoBehaviour
@@ -128,9 +128,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public UnityEngine.UI.Text m_Text; // 0x30
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E345AD0
-        public void Update(){} // RVA: 0x7FFD4E345BA0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC2F25AD0
+        public void Update(){} // RVA: 0x7FFAC2F25BA0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class FollowTarget : MonoBehaviour
@@ -139,8 +139,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public UnityEngine.Vector3 offset; // 0x28
 
         // ── Methods ──
-        public void LateUpdate(){} // RVA: 0x7FFD4E344EF0
-        public void .ctor(){} // RVA: 0x7FFD4E345110
+        public void LateUpdate(){} // RVA: 0x7FFAC2F24EF0
+        public void .ctor(){} // RVA: 0x7FFAC2F25110
     }
 
     public class LerpControlledBob : Object
@@ -150,9 +150,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public float m_Offset; // 0x18
 
         // ── Methods ──
-        public void Offset(){} // RVA: 0x7FFD4E345CF0
-        public void DoBobCycle(){} // RVA: 0x7FFD4E345D00
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void Offset(){} // RVA: 0x7FFAC2F25CF0
+        public void DoBobCycle(){} // RVA: 0x7FFAC2F25D00
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class ObjectResetter : MonoBehaviour
@@ -163,10 +163,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public UnityEngine.Rigidbody Rigidbody; // 0x48
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E3460A0
-        public void DelayedReset(){} // RVA: 0x7FFD4E346380
-        public void ResetCoroutine(){} // RVA: 0x7FFD4E346440
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC2F260A0
+        public void DelayedReset(){} // RVA: 0x7FFAC2F26380
+        public void ResetCoroutine(){} // RVA: 0x7FFAC2F26440
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class ParticleSystemDestroyer : MonoBehaviour
@@ -177,23 +177,23 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public bool m_EarlyStop; // 0x2C
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E346AD0
-        public void Stop(){} // RVA: 0x7FFD4E346B70
-        public void .ctor(){} // RVA: 0x7FFD4E346B80
+        public void Start(){} // RVA: 0x7FFAC2F26AD0
+        public void Stop(){} // RVA: 0x7FFAC2F26B70
+        public void .ctor(){} // RVA: 0x7FFAC2F26B80
     }
 
     public class PlatformSpecificContent : MonoBehaviour
     {
-        public 0x66519D70 m_BuildTargetGroup; // 0x20
+        public 0x6B1B9D70 m_BuildTargetGroup; // 0x20
         public UnityEngine.GameObject[] m_Content; // 0x28
         public UnityEngine.MonoBehaviour[] m_MonoBehaviours; // 0x30
         public bool m_ChildrenOfThisObject; // 0x38
 
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFD4E347370
-        public void CheckEnableContent(){} // RVA: 0x7FFD4E347370
-        public void EnableContent(){} // RVA: 0x7FFD4E347390
-        public void .ctor(){} // RVA: 0x7FFD4E347930
+        public void OnEnable(){} // RVA: 0x7FFAC2F27370
+        public void CheckEnableContent(){} // RVA: 0x7FFAC2F27370
+        public void EnableContent(){} // RVA: 0x7FFAC2F27390
+        public void .ctor(){} // RVA: 0x7FFAC2F27930
     }
 
     public class SimpleMouseRotator : MonoBehaviour
@@ -210,9 +210,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public UnityEngine.Quaternion m_OriginalRotation; // 0x58
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E347A80
-        public void Update(){} // RVA: 0x7FFD4E347B40
-        public void .ctor(){} // RVA: 0x7FFD4E348390
+        public void Start(){} // RVA: 0x7FFAC2F27A80
+        public void Update(){} // RVA: 0x7FFAC2F27B40
+        public void .ctor(){} // RVA: 0x7FFAC2F28390
     }
 
     public class SmoothFollow : MonoBehaviour
@@ -224,21 +224,21 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public float heightDamping; // 0x34
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E341310
-        public void LateUpdate(){} // RVA: 0x7FFD4E348400
-        public void .ctor(){} // RVA: 0x7FFD4E348F30
+        public void Start(){} // RVA: 0x7FFAC2F21310
+        public void LateUpdate(){} // RVA: 0x7FFAC2F28400
+        public void .ctor(){} // RVA: 0x7FFAC2F28F30
     }
 
     public class TimedObjectActivator : MonoBehaviour
     {
-        public s entries; // 0x20
+        public Entries entries; // 0x20
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E348F90
-        public void Activate(){} // RVA: 0x7FFD4E3490C0
-        public void Deactivate(){} // RVA: 0x7FFD4E349160
-        public void ReloadLevel(){} // RVA: 0x7FFD4E349200
-        public void .ctor(){} // RVA: 0x7FFD4E3492A0
+        public void Awake(){} // RVA: 0x7FFAC2F28F90
+        public void Activate(){} // RVA: 0x7FFAC2F290C0
+        public void Deactivate(){} // RVA: 0x7FFAC2F29160
+        public void ReloadLevel(){} // RVA: 0x7FFAC2F29200
+        public void .ctor(){} // RVA: 0x7FFAC2F292A0
     }
 
     public class TimedObjectDestructor : MonoBehaviour
@@ -247,14 +247,14 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public bool m_DetachChildren; // 0x24
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E349790
-        public void DestroyNow(){} // RVA: 0x7FFD4E3497E0
-        public void .ctor(){} // RVA: 0x7FFD4E349920
+        public void Awake(){} // RVA: 0x7FFAC2F29790
+        public void DestroyNow(){} // RVA: 0x7FFAC2F297E0
+        public void .ctor(){} // RVA: 0x7FFAC2F29920
     }
 
     public class WaypointCircuit : MonoBehaviour
     {
-        public 0x6651A190 Length; // 0x20
+        public WaypointList Length; // 0x20
         public bool Waypoints; // 0x28
         public int numPoints; // 0x2C
         public UnityEngine.Vector3[] points; // 0x30
@@ -272,18 +272,18 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public UnityEngine.Vector3 P3; // 0x80
 
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7FFD4E349970
-        public void set_Length(){} // RVA: 0x7FFD4E349980
-        public void get_Waypoints(){} // RVA: 0x7FFD4E349990
-        public void Awake(){} // RVA: 0x7FFD4E3499B0
-        public void GetRoutePoint(){} // RVA: 0x7FFD4E349A00
-        public void GetRoutePosition(){} // RVA: 0x7FFD4E349B60
-        public void CatmullRom(){} // RVA: 0x7FFD4E349F00
-        public void CachePositionsAndDistances(){} // RVA: 0x7FFD4E34A1C0
-        public void OnDrawGizmos(){} // RVA: 0x7FFD4E34A6D0
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFD4E34A6E0
-        public void DrawGizmos(){} // RVA: 0x7FFD4E34A6F0
-        public void .ctor(){} // RVA: 0x7FFD4E34ABF0
+        public void get_Length(){} // RVA: 0x7FFAC2F29970
+        public void set_Length(){} // RVA: 0x7FFAC2F29980
+        public void get_Waypoints(){} // RVA: 0x7FFAC2F29990
+        public void Awake(){} // RVA: 0x7FFAC2F299B0
+        public void GetRoutePoint(){} // RVA: 0x7FFAC2F29A00
+        public void GetRoutePosition(){} // RVA: 0x7FFAC2F29B60
+        public void CatmullRom(){} // RVA: 0x7FFAC2F29F00
+        public void CachePositionsAndDistances(){} // RVA: 0x7FFAC2F2A1C0
+        public void OnDrawGizmos(){} // RVA: 0x7FFAC2F2A6D0
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAC2F2A6E0
+        public void DrawGizmos(){} // RVA: 0x7FFAC2F2A6F0
+        public void .ctor(){} // RVA: 0x7FFAC2F2ABF0
     }
 
     public class WaypointProgressTracker : MonoBehaviour
@@ -293,11 +293,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public float progressPoint; // 0x2C
         public float lookAheadForSpeedOffset; // 0x30
         public float lookAheadForSpeedFactor; // 0x34
-        public 0x6651A298 progressStyle; // 0x38
+        public 0x6B1BA298 progressStyle; // 0x38
         public float pointToPointThreshold; // 0x3C
-        public 0x6651A1E8 <targetPoint>k__BackingField; // 0x40
-        public 0x6651A1E8 <speedPoint>k__BackingField; // 0x58
-        public 0x6651A1E8 <progressPoint>k__BackingField; // 0x70
+        public RoutePoint <targetPoint>k__BackingField; // 0x40
+        public RoutePoint <speedPoint>k__BackingField; // 0x58
+        public RoutePoint <progressPoint>k__BackingField; // 0x70
         public UnityEngine.Transform target; // 0x88
         public float progressDistance; // 0x90
         public int progressNum; // 0x94
@@ -305,17 +305,17 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
         public float speed; // 0xA4
 
         // ── Methods ──
-        public void get_targetPoint(){} // RVA: 0x7FFD4E34AE10
-        public void set_targetPoint(){} // RVA: 0x7FFD4E34AE30
-        public void get_speedPoint(){} // RVA: 0x7FFD4E34AE50
-        public void set_speedPoint(){} // RVA: 0x7FFD4E34AE70
-        public void get_progressPoint(){} // RVA: 0x7FFD4E34AE90
-        public void set_progressPoint(){} // RVA: 0x7FFD4E34AEB0
-        public void Start(){} // RVA: 0x7FFD4E34AED0
-        public void Reset(){} // RVA: 0x7FFD4E34B0C0
-        public void Update(){} // RVA: 0x7FFD4E34B310
-        public void OnDrawGizmos(){} // RVA: 0x7FFD4E34BF00
-        public void .ctor(){} // RVA: 0x7FFD4E34C3D0
+        public void get_targetPoint(){} // RVA: 0x7FFAC2F2AE10
+        public void set_targetPoint(){} // RVA: 0x7FFAC2F2AE30
+        public void get_speedPoint(){} // RVA: 0x7FFAC2F2AE50
+        public void set_speedPoint(){} // RVA: 0x7FFAC2F2AE70
+        public void get_progressPoint(){} // RVA: 0x7FFAC2F2AE90
+        public void set_progressPoint(){} // RVA: 0x7FFAC2F2AEB0
+        public void Start(){} // RVA: 0x7FFAC2F2AED0
+        public void Reset(){} // RVA: 0x7FFAC2F2B0C0
+        public void Update(){} // RVA: 0x7FFAC2F2B310
+        public void OnDrawGizmos(){} // RVA: 0x7FFAC2F2BF00
+        public void .ctor(){} // RVA: 0x7FFAC2F2C3D0
     }
 
 }

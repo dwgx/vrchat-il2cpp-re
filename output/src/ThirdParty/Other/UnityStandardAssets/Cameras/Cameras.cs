@@ -10,19 +10,19 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public UnityEngine.Transform Target; // 0x20
         public bool m_AutoTargetPlayer; // 0x28
         public bool m_AutoTargetLocalPlayer; // 0x29
-        public 0x6651C130 m_UpdateType; // 0x2C
+        public 0x6B1BC130 m_UpdateType; // 0x2C
         public UnityEngine.Rigidbody targetRigidbody; // 0x30
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E377E20
-        public void FixedUpdate(){} // RVA: 0x7FFD4E3781E0
-        public void LateUpdate(){} // RVA: 0x7FFD4E3783D0
-        public void ManualUpdate(){} // RVA: 0x7FFD4E3785C0
-        public void FollowTarget(){} // RVA: 0x7FFD4E09E480
-        public void FindAndTargetPlayer(){} // RVA: 0x7FFD4E3787B0
-        public void SetTarget(){} // RVA: 0x7FFD4E36F0D0
-        public void get_Target(){} // RVA: 0x7FFD4E36F0C0
-        public void .ctor(){} // RVA: 0x7FFD4E378BB0
+        public void Start(){} // RVA: 0x7FFAC2F57E20
+        public void FixedUpdate(){} // RVA: 0x7FFAC2F581E0
+        public void LateUpdate(){} // RVA: 0x7FFAC2F583D0
+        public void ManualUpdate(){} // RVA: 0x7FFAC2F585C0
+        public void FollowTarget(){} // RVA: 0x7FFAC2C7E480
+        public void FindAndTargetPlayer(){} // RVA: 0x7FFAC2F587B0
+        public void SetTarget(){} // RVA: 0x7FFAC2F4F0D0
+        public void get_Target(){} // RVA: 0x7FFAC2F4F0C0
+        public void .ctor(){} // RVA: 0x7FFAC2F58BB0
     }
 
     public class AutoCam : PivotBasedCameraRig
@@ -41,8 +41,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public UnityEngine.Vector3 m_RollUp; // 0x80
 
         // ── Methods ──
-        public void FollowTarget(){} // RVA: 0x7FFD4E378D80
-        public void .ctor(){} // RVA: 0x7FFD4E379850
+        public void FollowTarget(){} // RVA: 0x7FFAC2F58D80
+        public void .ctor(){} // RVA: 0x7FFAC2F59850
     }
 
     public class FreeLookCam : PivotBasedCameraRig
@@ -62,12 +62,12 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public UnityEngine.Quaternion m_TransformTargetRot; // 0x94
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E379920
-        public void Update(){} // RVA: 0x7FFD4E379BD0
-        public void OnDisable(){} // RVA: 0x7FFD4E379CD0
-        public void FollowTarget(){} // RVA: 0x7FFD4E379D60
-        public void HandleRotationMovement(){} // RVA: 0x7FFD4E37A070
-        public void .ctor(){} // RVA: 0x7FFD4E37A870
+        public void Awake(){} // RVA: 0x7FFAC2F59920
+        public void Update(){} // RVA: 0x7FFAC2F59BD0
+        public void OnDisable(){} // RVA: 0x7FFAC2F59CD0
+        public void FollowTarget(){} // RVA: 0x7FFAC2F59D60
+        public void HandleRotationMovement(){} // RVA: 0x7FFAC2F5A070
+        public void .ctor(){} // RVA: 0x7FFAC2F5A870
     }
 
     public class HandHeldCam : LookatTarget
@@ -78,8 +78,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public float m_TrackingBias; // 0x7C
 
         // ── Methods ──
-        public void FollowTarget(){} // RVA: 0x7FFD4E37A8E0
-        public void .ctor(){} // RVA: 0x7FFD4E37AC80
+        public void FollowTarget(){} // RVA: 0x7FFAC2F5A8E0
+        public void .ctor(){} // RVA: 0x7FFAC2F5AC80
     }
 
     public class LookatTarget : AbstractTargetFollower
@@ -91,9 +91,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public UnityEngine.Vector3 m_FollowVelocity; // 0x60
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E37ACF0
-        public void FollowTarget(){} // RVA: 0x7FFD4E37ADC0
-        public void .ctor(){} // RVA: 0x7FFD4E37B830
+        public void Start(){} // RVA: 0x7FFAC2F5ACF0
+        public void FollowTarget(){} // RVA: 0x7FFAC2F5ADC0
+        public void .ctor(){} // RVA: 0x7FFAC2F5B830
     }
 
     public class PivotBasedCameraRig : AbstractTargetFollower
@@ -103,8 +103,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public UnityEngine.Vector3 m_LastTargetPosition; // 0x48
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E37B880
-        public void .ctor(){} // RVA: 0x7FFD4E378BB0
+        public void Awake(){} // RVA: 0x7FFAC2F5B880
+        public void .ctor(){} // RVA: 0x7FFAC2F58BB0
     }
 
     public class ProtectCameraFromWallClip : MonoBehaviour
@@ -123,14 +123,14 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public float m_CurrentDist; // 0x58
         public UnityEngine.Ray m_Ray; // 0x5C
         public UnityEngine.RaycastHit[] m_Hits; // 0x78
-        public 0x6651C3F0 m_RayHitComparer; // 0x80
+        public RayHitComparer m_RayHitComparer; // 0x80
 
         // ── Methods ──
-        public void get_protecting(){} // RVA: 0x7FFD4E377C20
-        public void set_protecting(){} // RVA: 0x7FFD4E37BAC0
-        public void Start(){} // RVA: 0x7FFD4E37BAD0
-        public void LateUpdate(){} // RVA: 0x7FFD4E37BD80
-        public void .ctor(){} // RVA: 0x7FFD4E37C910
+        public void get_protecting(){} // RVA: 0x7FFAC2F57C20
+        public void set_protecting(){} // RVA: 0x7FFAC2F5BAC0
+        public void Start(){} // RVA: 0x7FFAC2F5BAD0
+        public void LateUpdate(){} // RVA: 0x7FFAC2F5BD80
+        public void .ctor(){} // RVA: 0x7FFAC2F5C910
     }
 
     public class TargetFieldOfView : AbstractTargetFollower
@@ -144,11 +144,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Cameras
         public UnityEngine.Transform m_LastTarget; // 0x58
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E37CAF0
-        public void FollowTarget(){} // RVA: 0x7FFD4E37CBA0
-        public void SetTarget(){} // RVA: 0x7FFD4E37CE60
-        public void MaxBoundsExtent(){} // RVA: 0x7FFD4E37CED0
-        public void .ctor(){} // RVA: 0x7FFD4E37D1F0
+        public void Start(){} // RVA: 0x7FFAC2F5CAF0
+        public void FollowTarget(){} // RVA: 0x7FFAC2F5CBA0
+        public void SetTarget(){} // RVA: 0x7FFAC2F5CE60
+        public void MaxBoundsExtent(){} // RVA: 0x7FFAC2F5CED0
+        public void .ctor(){} // RVA: 0x7FFAC2F5D1F0
     }
 
 }

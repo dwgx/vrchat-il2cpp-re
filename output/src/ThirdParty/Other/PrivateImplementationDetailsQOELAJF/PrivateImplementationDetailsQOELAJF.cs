@@ -10,7 +10,7 @@ namespace ThirdParty.Other.PrivateImplementationDetailsQOELAJF
         public $ArrayType$131 $$field-0;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class ArrayCopy192 : Object
@@ -19,7 +19,7 @@ namespace ThirdParty.Other.PrivateImplementationDetailsQOELAJF
         public $ArrayType$195 $$field-1; // 0xC3
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class ArrayCopy64 : Object
@@ -165,7 +165,7 @@ namespace ThirdParty.Other.PrivateImplementationDetailsQOELAJF
         public $ArrayType$67 $$field-138; // 0x241E
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
 }

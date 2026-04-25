@@ -22,7 +22,7 @@ namespace ThirdParty.Valve.Valve.VR
         public ushort unWidth; // 0x10
         public ushort unHeight; // 0x12
         public UIntPtr rubTextureMapData; // 0x18
-        public 0x665A1310 format; // 0x20
+        public 0x6B241310 format; // 0x20
         public ushort unMipLevels; // 0x24
     }
 
@@ -31,12 +31,12 @@ namespace ThirdParty.Valve.Valve.VR
         public ushort unWidth; // 0x10
         public ushort unHeight; // 0x12
         public UIntPtr rubTextureMapData; // 0x14
-        public 0x665A1310 format; // 0x1C
+        public 0x6B241310 format; // 0x1C
         public ushort unMipLevels; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD54C20360
-        public void Unpack(){} // RVA: 0x7FFD54C20390
+        public void .ctor(){} // RVA: 0x7FFAC9800360
+        public void Unpack(){} // RVA: 0x7FFAC9800390
     }
 
     public class RenderModel_Vertex_t : ValueType
@@ -65,8 +65,8 @@ namespace ThirdParty.Valve.Valve.VR
         public int diffuseTextureId; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53DA5F10
-        public void Unpack(){} // RVA: 0x7FFD53DA5F40
+        public void .ctor(){} // RVA: 0x7FFAC8985F10
+        public void Unpack(){} // RVA: 0x7FFAC8985F40
     }
 
 }

@@ -375,57 +375,57 @@ namespace ThirdParty.Valve.Valve.VR
         public COpenVRContext _OpenVRInternal_ModuleContext; // 0x8
 
         // ── Methods ──
-        public void InitInternal(){} // RVA: 0x7FFD54C1FAC0
-        public void InitInternal2(){} // RVA: 0x7FFD54C1FB00
-        public void ShutdownInternal(){} // RVA: 0x7FFD54C1FB80
-        public void IsHmdPresent(){} // RVA: 0x7FFD54C1FBB0
-        public void IsRuntimeInstalled(){} // RVA: 0x7FFD54C1FBE0
-        public void RuntimePath(){} // RVA: 0x7FFD54C23FC0
-        public void GetStringForHmdError(){} // RVA: 0x7FFD54C24100
-        public void GetGenericInterface(){} // RVA: 0x7FFD54C1FDC0
-        public void IsInterfaceVersionValid(){} // RVA: 0x7FFD54C1FE20
-        public void GetInitToken(){} // RVA: 0x7FFD54C1FE80
-        public void get_VRToken(){} // RVA: 0x7FFD54C24190
-        public void set_VRToken(){} // RVA: 0x7FFD54C241D0
-        public void get_OpenVRInternal_ModuleContext(){} // RVA: 0x7FFD54C24210
-        public void get_System(){} // RVA: 0x7FFD54C24310
-        public void get_Chaperone(){} // RVA: 0x7FFD54C24340
-        public void get_ChaperoneSetup(){} // RVA: 0x7FFD54C24370
-        public void get_Compositor(){} // RVA: 0x7FFD54C243A0
-        public void get_HeadsetView(){} // RVA: 0x7FFD54C243D0
-        public void get_Overlay(){} // RVA: 0x7FFD54C24400
-        public void get_OverlayView(){} // RVA: 0x7FFD54C24430
-        public void get_RenderModels(){} // RVA: 0x7FFD54C24460
-        public void get_ExtendedDisplay(){} // RVA: 0x7FFD54C24490
-        public void get_Settings(){} // RVA: 0x7FFD54C244C0
-        public void get_Applications(){} // RVA: 0x7FFD54C244F0
-        public void get_Screenshots(){} // RVA: 0x7FFD54C24520
-        public void get_TrackedCamera(){} // RVA: 0x7FFD54C24550
-        public void get_Input(){} // RVA: 0x7FFD54C24580
-        public void get_IOBuffer(){} // RVA: 0x7FFD54C245B0
-        public void get_SpatialAnchors(){} // RVA: 0x7FFD54C245E0
-        public void get_Notifications(){} // RVA: 0x7FFD54C24610
-        public void get_Debug(){} // RVA: 0x7FFD54C24640
-        public void Init(){} // RVA: 0x7FFD54C24670
-        public void Shutdown(){} // RVA: 0x7FFD54C1FB80
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void InitInternal(){} // RVA: 0x7FFAC97FFAC0
+        public void InitInternal2(){} // RVA: 0x7FFAC97FFB00
+        public void ShutdownInternal(){} // RVA: 0x7FFAC97FFB80
+        public void IsHmdPresent(){} // RVA: 0x7FFAC97FFBB0
+        public void IsRuntimeInstalled(){} // RVA: 0x7FFAC97FFBE0
+        public void RuntimePath(){} // RVA: 0x7FFAC9803FC0
+        public void GetStringForHmdError(){} // RVA: 0x7FFAC9804100
+        public void GetGenericInterface(){} // RVA: 0x7FFAC97FFDC0
+        public void IsInterfaceVersionValid(){} // RVA: 0x7FFAC97FFE20
+        public void GetInitToken(){} // RVA: 0x7FFAC97FFE80
+        public void get_VRToken(){} // RVA: 0x7FFAC9804190
+        public void set_VRToken(){} // RVA: 0x7FFAC98041D0
+        public void get_OpenVRInternal_ModuleContext(){} // RVA: 0x7FFAC9804210
+        public void get_System(){} // RVA: 0x7FFAC9804310
+        public void get_Chaperone(){} // RVA: 0x7FFAC9804340
+        public void get_ChaperoneSetup(){} // RVA: 0x7FFAC9804370
+        public void get_Compositor(){} // RVA: 0x7FFAC98043A0
+        public void get_HeadsetView(){} // RVA: 0x7FFAC98043D0
+        public void get_Overlay(){} // RVA: 0x7FFAC9804400
+        public void get_OverlayView(){} // RVA: 0x7FFAC9804430
+        public void get_RenderModels(){} // RVA: 0x7FFAC9804460
+        public void get_ExtendedDisplay(){} // RVA: 0x7FFAC9804490
+        public void get_Settings(){} // RVA: 0x7FFAC98044C0
+        public void get_Applications(){} // RVA: 0x7FFAC98044F0
+        public void get_Screenshots(){} // RVA: 0x7FFAC9804520
+        public void get_TrackedCamera(){} // RVA: 0x7FFAC9804550
+        public void get_Input(){} // RVA: 0x7FFAC9804580
+        public void get_IOBuffer(){} // RVA: 0x7FFAC98045B0
+        public void get_SpatialAnchors(){} // RVA: 0x7FFAC98045E0
+        public void get_Notifications(){} // RVA: 0x7FFAC9804610
+        public void get_Debug(){} // RVA: 0x7FFAC9804640
+        public void Init(){} // RVA: 0x7FFAC9804670
+        public void Shutdown(){} // RVA: 0x7FFAC97FFB80
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class OpenVRInterop : Object
     {
         // ── Methods ──
-        public void InitInternal(){} // RVA: 0x7FFD54C1FAC0
-        public void InitInternal2(){} // RVA: 0x7FFD54C1FB00
-        public void ShutdownInternal(){} // RVA: 0x7FFD54C1FB80
-        public void IsHmdPresent(){} // RVA: 0x7FFD54C1FBB0
-        public void IsRuntimeInstalled(){} // RVA: 0x7FFD54C1FBE0
-        public void RuntimePath(){} // RVA: 0x7FFD54C1FC10
-        public void GetRuntimePath(){} // RVA: 0x7FFD54C1FCC0
-        public void GetStringForHmdError(){} // RVA: 0x7FFD54C1FD90
-        public void GetGenericInterface(){} // RVA: 0x7FFD54C1FDC0
-        public void IsInterfaceVersionValid(){} // RVA: 0x7FFD54C1FE20
-        public void GetInitToken(){} // RVA: 0x7FFD54C1FE80
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void InitInternal(){} // RVA: 0x7FFAC97FFAC0
+        public void InitInternal2(){} // RVA: 0x7FFAC97FFB00
+        public void ShutdownInternal(){} // RVA: 0x7FFAC97FFB80
+        public void IsHmdPresent(){} // RVA: 0x7FFAC97FFBB0
+        public void IsRuntimeInstalled(){} // RVA: 0x7FFAC97FFBE0
+        public void RuntimePath(){} // RVA: 0x7FFAC97FFC10
+        public void GetRuntimePath(){} // RVA: 0x7FFAC97FFCC0
+        public void GetStringForHmdError(){} // RVA: 0x7FFAC97FFD90
+        public void GetGenericInterface(){} // RVA: 0x7FFAC97FFDC0
+        public void IsInterfaceVersionValid(){} // RVA: 0x7FFAC97FFE20
+        public void GetInitToken(){} // RVA: 0x7FFAC97FFE80
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
 }

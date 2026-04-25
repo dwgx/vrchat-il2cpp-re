@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Sentry.Sentry.Unity.Integrations
-// Classes: 9
-// Methods: 50
+// Classes: 10
+// Methods: 53
 
 namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 {
@@ -12,22 +12,28 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
         public System.Action ProductName; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53F3F9A0
-        public void add_LogMessageReceived(){} // RVA: 0x7FFD53F3FBF0
-        public void remove_LogMessageReceived(){} // RVA: 0x7FFD53F3FCE0
-        public void add_Quitting(){} // RVA: 0x7FFD53F3FDD0
-        public void remove_Quitting(){} // RVA: 0x7FFD53F3FEC0
-        public void get_ActiveSceneName(){} // RVA: 0x7FFD53F3FFB0
-        public void get_IsEditor(){} // RVA: 0x7FFD53F40040
-        public void get_ProductName(){} // RVA: 0x7FFD53F40090
-        public void get_Version(){} // RVA: 0x7FFD53F40110
-        public void get_BuildGUID(){} // RVA: 0x7FFD53F40190
-        public void get_UnityVersion(){} // RVA: 0x7FFD53F40210
-        public void get_PersistentDataPath(){} // RVA: 0x7FFD53F40290
-        public void get_Platform(){} // RVA: 0x7FFD53F40310
-        public void OnLogMessageReceived(){} // RVA: 0x7FFD53F40390
-        public void OnQuitting(){} // RVA: 0x7FFD4E6233B0
-        public void .cctor(){} // RVA: 0x7FFD53F403B0
+        public void .ctor(){} // RVA: 0x7FFAC8B1F9A0
+        public void add_LogMessageReceived(){} // RVA: 0x7FFAC8B1FBF0
+        public void remove_LogMessageReceived(){} // RVA: 0x7FFAC8B1FCE0
+        public void add_Quitting(){} // RVA: 0x7FFAC8B1FDD0
+        public void remove_Quitting(){} // RVA: 0x7FFAC8B1FEC0
+        public void get_ActiveSceneName(){} // RVA: 0x7FFAC8B1FFB0
+        public void get_IsEditor(){} // RVA: 0x7FFAC8B20040
+        public void get_ProductName(){} // RVA: 0x7FFAC8B20090
+        public void get_Version(){} // RVA: 0x7FFAC8B20110
+        public void get_BuildGUID(){} // RVA: 0x7FFAC8B20190
+        public void get_UnityVersion(){} // RVA: 0x7FFAC8B20210
+        public void get_PersistentDataPath(){} // RVA: 0x7FFAC8B20290
+        public void get_Platform(){} // RVA: 0x7FFAC8B20310
+        public void OnLogMessageReceived(){} // RVA: 0x7FFAC8B20390
+        public void OnQuitting(){} // RVA: 0x7FFAC32033B0
+        public void .cctor(){} // RVA: 0x7FFAC8B203B0
+    }
+
+    public class ApplicationNotRespondingException : Exception
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAC8B1F930 | overloaded x3
     }
 
     public class IApplication
@@ -42,18 +48,18 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
         public object Platform;
 
         // ── Methods ──
-        public void add_LogMessageReceived(){} // RVA: 0x7FFD4E090A40
-        public void remove_LogMessageReceived(){} // RVA: 0x7FFD4E090A40
-        public void add_Quitting(){} // RVA: 0x7FFD4E090A40
-        public void remove_Quitting(){} // RVA: 0x7FFD4E090A40
-        public void get_ActiveSceneName(){} // RVA: 0x7FFD4E078E90
-        public void get_IsEditor(){} // RVA: 0x7FFD4E079D00
-        public void get_ProductName(){} // RVA: 0x7FFD4E078E90
-        public void get_Version(){} // RVA: 0x7FFD4E078E90
-        public void get_BuildGUID(){} // RVA: 0x7FFD4E078E90
-        public void get_UnityVersion(){} // RVA: 0x7FFD4E078E90
-        public void get_PersistentDataPath(){} // RVA: 0x7FFD4E078E90
-        public void get_Platform(){} // RVA: 0x7FFD4E079960
+        public void add_LogMessageReceived(){} // RVA: 0x7FFAC2C70A40
+        public void remove_LogMessageReceived(){} // RVA: 0x7FFAC2C70A40
+        public void add_Quitting(){} // RVA: 0x7FFAC2C70A40
+        public void remove_Quitting(){} // RVA: 0x7FFAC2C70A40
+        public void get_ActiveSceneName(){} // RVA: 0x7FFAC2C58E90
+        public void get_IsEditor(){} // RVA: 0x7FFAC2C59D00
+        public void get_ProductName(){} // RVA: 0x7FFAC2C58E90
+        public void get_Version(){} // RVA: 0x7FFAC2C58E90
+        public void get_BuildGUID(){} // RVA: 0x7FFAC2C58E90
+        public void get_UnityVersion(){} // RVA: 0x7FFAC2C58E90
+        public void get_PersistentDataPath(){} // RVA: 0x7FFAC2C58E90
+        public void get_Platform(){} // RVA: 0x7FFAC2C59960
     }
 
     public class SceneManagerIntegration : Object
@@ -61,8 +67,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
         public Sentry.Unity.ISceneManager _sceneManager; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E342E30 | overloaded x2
-        public void Register(){} // RVA: 0x7FFD53F40510
+        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x2
+        public void Register(){} // RVA: 0x7FFAC8B20510
     }
 
     public class SessionIntegration : Object
@@ -70,8 +76,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
         public Sentry.Unity.SentryMonoBehaviour _sentryMonoBehaviour; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E342E30
-        public void Register(){} // RVA: 0x7FFD53F40ED0
+        public void .ctor(){} // RVA: 0x7FFAC2F22E30
+        public void Register(){} // RVA: 0x7FFAC8B20ED0
     }
 
     public class UnityBadGatewayExceptionFilter : Object
@@ -79,8 +85,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
         public string Message;
 
         // ── Methods ──
-        public void Filter(){} // RVA: 0x7FFD53F41240
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void Filter(){} // RVA: 0x7FFAC8B21240
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class UnityBeforeSceneLoadIntegration : Object
@@ -88,8 +94,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
         public Sentry.Unity.Integrations.IApplication _application; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53F41370
-        public void Register(){} // RVA: 0x7FFD53F41440
+        public void .ctor(){} // RVA: 0x7FFAC8B21370
+        public void Register(){} // RVA: 0x7FFAC8B21440
     }
 
     public class UnityLogHandlerIntegration : Object
@@ -98,20 +104,20 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
         public Sentry.Unity.LogTimeDebounce LogTimeDebounce; // 0x18
         public Sentry.Unity.WarningTimeDebounce WarningTimeDebounce; // 0x20
         public Sentry.Unity.Integrations.IApplication _application; // 0x28
-        public 0x664F7458 _hub; // 0x30
+        public Sentry.IHub _hub; // 0x30
         public Sentry.Unity.SentryUnityOptions _sentryOptions; // 0x38
         public UnityEngine.ILogHandler _unityLogHandler; // 0x40
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53F415B0
-        public void Register(){} // RVA: 0x7FFD53F41830
-        public void LogException(){} // RVA: 0x7FFD53F41B20
-        public void CaptureException(){} // RVA: 0x7FFD53F41C50
-        public void LogFormat(){} // RVA: 0x7FFD53F42040
-        public void CaptureLogFormat(){} // RVA: 0x7FFD53F421E0
-        public void OnQuitting(){} // RVA: 0x7FFD53F42590
-        public void ToEventTagType(){} // RVA: 0x7FFD53F42790
-        public void ToBreadcrumbLevel(){} // RVA: 0x7FFD53F427C0
+        public void .ctor(){} // RVA: 0x7FFAC8B215B0
+        public void Register(){} // RVA: 0x7FFAC8B21830
+        public void LogException(){} // RVA: 0x7FFAC8B21B20
+        public void CaptureException(){} // RVA: 0x7FFAC8B21C50
+        public void LogFormat(){} // RVA: 0x7FFAC8B22040
+        public void CaptureLogFormat(){} // RVA: 0x7FFAC8B221E0
+        public void OnQuitting(){} // RVA: 0x7FFAC8B22590
+        public void ToEventTagType(){} // RVA: 0x7FFAC8B22790
+        public void ToBreadcrumbLevel(){} // RVA: 0x7FFAC8B227C0
     }
 
     public class UnitySocketExceptionFilter : Object
@@ -119,8 +125,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
         public string Message;
 
         // ── Methods ──
-        public void Filter(){} // RVA: 0x7FFD53F427F0
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void Filter(){} // RVA: 0x7FFAC8B227F0
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class UnityWebExceptionFilter : Object
@@ -128,8 +134,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Integrations
         public string Message;
 
         // ── Methods ──
-        public void Filter(){} // RVA: 0x7FFD53F42950
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void Filter(){} // RVA: 0x7FFAC8B22950
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
 }

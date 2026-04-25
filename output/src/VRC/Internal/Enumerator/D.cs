@@ -18,22 +18,22 @@ namespace VRC.Internal.Enumerator
         public Enumerator<V> ÌÏÍÍÌÍÎÌÌÍÏÎÎÍÏÏÏÌÌÏÏÌÎ;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFD4E078E90
-        public void GetEnumerator(){} // RVA: 0x7FFD4E090980
-        public void get_Current(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.Generic.IEnumerator<(DataType,BoundType)>.get_Current(){} // RVA: 0x7FFD4E2ADC40
-        public void .ctor(){} // RVA: 0x7FFD4E090ED0
-        public void MoveNext(){} // RVA: 0x7FFD4E079D00
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFD4E090980
-        public void get_name(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void System.Collections.Generic.IEnumerable<(DataType,BoundType)>.GetEnumerator(){} // RVA: 0x7FFD4E078E90
-        public void Instantiate(){} // RVA: 0x7FFD4E090980
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFD4E078E90
-        public void Equals(){} // RVA: 0x7FFD4E090980
-        public void GetHashCode(){} // RVA: 0x7FFD4E078E90
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFD4E090980
-        public void ToString(){} // RVA: 0x7FFD4E078E90
+        public void GetInstanceID(){} // RVA: 0x7FFAC2C58E90
+        public void GetEnumerator(){} // RVA: 0x7FFAC2C70980
+        public void get_Current(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.Generic.IEnumerator<(DataType,BoundType)>.get_Current(){} // RVA: 0x7FFAC2E8DC40
+        public void .ctor(){} // RVA: 0x7FFAC2C70ED0
+        public void MoveNext(){} // RVA: 0x7FFAC2C59D00
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC2C70980
+        public void get_name(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void System.Collections.Generic.IEnumerable<(DataType,BoundType)>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
+        public void Instantiate(){} // RVA: 0x7FFAC2C70980
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2C58E90
+        public void Equals(){} // RVA: 0x7FFAC2C70980
+        public void GetHashCode(){} // RVA: 0x7FFAC2C58E90
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2C70980
+        public void ToString(){} // RVA: 0x7FFAC2C58E90
     }
 
 }

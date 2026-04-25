@@ -11,9 +11,9 @@ namespace VRC.SDKBase.Source.Validation.Performance.Scanners
         public string TypeInfo; // 0x28
 
         // ── Methods ──
-        public void get_type(){} // RVA: 0x7FFD4E36F0C0
-        public void set_type(){} // RVA: 0x7FFD574BF4E0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void get_type(){} // RVA: 0x7FFAC2F4F0C0
+        public void set_type(){} // RVA: 0x7FFACC09F4E0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
 }

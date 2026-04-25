@@ -14,35 +14,35 @@ namespace VRC.SDK.Internal.Tutorial
         public bool gotObjectToDisable; // 0x39
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4FAE25E0
-        public void FixedUpdate(){} // RVA: 0x7FFD4FAE2750
-        public void OnDrawGizmos(){} // RVA: 0x7FFD4FAE2B10
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC46C25E0
+        public void FixedUpdate(){} // RVA: 0x7FFAC46C2750
+        public void OnDrawGizmos(){} // RVA: 0x7FFAC46C2B10
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class TutorialHelpers : MonoBehaviour
     {
         // ── Methods ──
-        public void ShowLocomotionControls(){} // RVA: 0x7FFD4FAE2C90
-        public void Force3PLocomotionSetting(){} // RVA: 0x7FFD4FAE2F10
-        public void MoveHaptic(){} // RVA: 0x7FFD4FAE2F70
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void ShowLocomotionControls(){} // RVA: 0x7FFAC46C2C90
+        public void Force3PLocomotionSetting(){} // RVA: 0x7FFAC46C2F10
+        public void MoveHaptic(){} // RVA: 0x7FFAC46C2F70
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class TutorialHelpers3 : MonoBehaviour
     {
         // ── Methods ──
-        public void Force3PLocomotionSetting(){} // RVA: 0x7FFD4FAE31C0
-        public void SetComfortTurning(){} // RVA: 0x7FFD4FAE3230
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Force3PLocomotionSetting(){} // RVA: 0x7FFAC46C31C0
+        public void SetComfortTurning(){} // RVA: 0x7FFAC46C3230
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class TutorialInit : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4FAE32A0
-        public void Initialize(){} // RVA: 0x7FFD4FAE32A0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC46C32A0
+        public void Initialize(){} // RVA: 0x7FFAC46C32A0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class VRCAnalytics : Object
@@ -52,10 +52,10 @@ namespace VRC.SDK.Internal.Tutorial
         public Action`5<string,string,System.Nullable`1<bool>,int,float> _SendCustomWorldEvent; // 0x10
 
         // ── Methods ──
-        public void Send(){} // RVA: 0x7FFD4FAE34C0 | overloaded x2
-        public void SetUserProperties(){} // RVA: 0x7FFD4FAE3530
-        public void SendCustomWorldEvent(){} // RVA: 0x7FFD4FAE3590
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void Send(){} // RVA: 0x7FFAC46C34C0 | overloaded x2
+        public void SetUserProperties(){} // RVA: 0x7FFAC46C3530
+        public void SendCustomWorldEvent(){} // RVA: 0x7FFAC46C3590
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class VRCAvatarCalibrator : MonoBehaviour
@@ -70,10 +70,10 @@ namespace VRC.SDK.Internal.Tutorial
         public InstantiationDelegate Instantiate;
 
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4FAE3640
-        public void SwitchAvatar(){} // RVA: 0x7FFD4FAE3B20
-        public void UpdateHeight(){} // RVA: 0x7FFD4FAE3C80
-        public void .ctor(){} // RVA: 0x7FFD4FAE3DA0
+        public void Awake(){} // RVA: 0x7FFAC46C3640
+        public void SwitchAvatar(){} // RVA: 0x7FFAC46C3B20
+        public void UpdateHeight(){} // RVA: 0x7FFAC46C3C80
+        public void .ctor(){} // RVA: 0x7FFAC46C3DA0
     }
 
 }

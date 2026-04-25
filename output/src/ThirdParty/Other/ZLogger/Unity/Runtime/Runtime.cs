@@ -13,11 +13,11 @@ namespace ThirdParty.Other.ZLogger.Unity.Runtime
         public bool displayFilenames; // 0x18
 
         // ── Methods ──
-        public void CleanupStackTrace(){} // RVA: 0x7FFD55281E20
-        public void BeautifyType(){} // RVA: 0x7FFD55282590
-        public void IgnoreLine(){} // RVA: 0x7FFD55282BE0
-        public void AppendHyperLink(){} // RVA: 0x7FFD55282CA0
-        public void .cctor(){} // RVA: 0x7FFD55283070
+        public void CleanupStackTrace(){} // RVA: 0x7FFAC9E61E20
+        public void BeautifyType(){} // RVA: 0x7FFAC9E62590
+        public void IgnoreLine(){} // RVA: 0x7FFAC9E62BE0
+        public void AppendHyperLink(){} // RVA: 0x7FFAC9E62CA0
+        public void .cctor(){} // RVA: 0x7FFAC9E63070
     }
 
 }

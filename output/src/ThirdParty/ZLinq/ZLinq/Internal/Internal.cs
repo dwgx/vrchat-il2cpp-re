@@ -13,129 +13,129 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
         public int _pos; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD57501E60
-        public void AppendFormatted(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void ToStringAndClear(){} // RVA: 0x7FFD57501FA0
-        public void Clear(){} // RVA: 0x7FFD57502100
-        public void GrowThenCopyString(){} // RVA: 0x7FFD575021B0
-        public void Grow(){} // RVA: 0x7FFD575022F0 | overloaded x2
-        public void GrowCore(){} // RVA: 0x7FFD57502300
-        public void MathClamp(){} // RVA: 0x7FFD575025F0
-        public void ThrowMinMaxException(){} // RVA: 0x7FFD4E2ADC40
+        public void .ctor(){} // RVA: 0x7FFACC0E1E60
+        public void AppendFormatted(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void ToStringAndClear(){} // RVA: 0x7FFACC0E1FA0
+        public void Clear(){} // RVA: 0x7FFACC0E2100
+        public void GrowThenCopyString(){} // RVA: 0x7FFACC0E21B0
+        public void Grow(){} // RVA: 0x7FFACC0E22F0 | overloaded x2
+        public void GrowCore(){} // RVA: 0x7FFACC0E2300
+        public void MathClamp(){} // RVA: 0x7FFACC0E25F0
+        public void ThrowMinMaxException(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class DictionarySlim`2 : Object
     {
         public System.Collections.Generic.IEqualityComparer`1<U> comparer;
-        public 0x665C6E58<U,T>[] entries;
+        public Entry<U,T>[] entries;
         public int[] buckets;
         public int bucketsLength;
         public int entryIndex;
         public int resizeThreshold;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E090A40
-        public void GetValueRefOrAddDefault(){} // RVA: 0x7FFD4E2ADC40
-        public void Resize(){} // RVA: 0x7FFD4E090980
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E2ADC40
-        public void GetBucketIndex(){} // RVA: 0x7FFD4E0800D0
-        public void GetEnumerator(){} // RVA: 0x7FFD4E2ADC40
-        public void Dispose(){} // RVA: 0x7FFD4E090980
+        public void .ctor(){} // RVA: 0x7FFAC2C70A40
+        public void GetValueRefOrAddDefault(){} // RVA: 0x7FFAC2E8DC40
+        public void Resize(){} // RVA: 0x7FFAC2C70980
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2E8DC40
+        public void GetBucketIndex(){} // RVA: 0x7FFAC2C600D0
+        public void GetEnumerator(){} // RVA: 0x7FFAC2E8DC40
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
     }
 
     public class EnumeratorHelper : Object
     {
         // ── Methods ──
-        public void TryGetSliceRange(){} // RVA: 0x7FFD57501DC0
-        public void TryGetSlice(){} // RVA: 0x7FFD4E2ADC40
-        public void TryConsumeGetAt(){} // RVA: 0x7FFD4E07CD30 | overloaded x2
-        public void TryConsumeGetFirst(){} // RVA: 0x7FFD4E07A350
-        public void TryConsumeGetLast(){} // RVA: 0x7FFD4E07A350
-        public void TryConsumeGetFromLast(){} // RVA: 0x7FFD4E07CD30
+        public void TryGetSliceRange(){} // RVA: 0x7FFACC0E1DC0
+        public void TryGetSlice(){} // RVA: 0x7FFAC2E8DC40
+        public void TryConsumeGetAt(){} // RVA: 0x7FFAC2C5CD30 | overloaded x2
+        public void TryConsumeGetFirst(){} // RVA: 0x7FFAC2C5A350
+        public void TryConsumeGetLast(){} // RVA: 0x7FFAC2C5A350
+        public void TryConsumeGetFromLast(){} // RVA: 0x7FFAC2C5CD30
     }
 
     public class HashSetSlim`1 : Object
     {
-        public System.Collections.Generic.IEqualityComparer`1<Transmtn.DTO.Notifications.Notification> comparer; // 0x10
-        public 0x665C6FB8<Transmtn.DTO.Notifications.Notification>[] entries; // 0x18
-        public int[] buckets; // 0x20
-        public int bucketsLength; // 0x28
-        public int entryIndex; // 0x2C
-        public int resizeThreshold; // 0x30
+        public System.Collections.Generic.IEqualityComparer`1<T> comparer;
+        public Entry<T>[] entries;
+        public int[] buckets;
+        public int bucketsLength;
+        public int entryIndex;
+        public int resizeThreshold;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E092BC0 | overloaded x2
-        public void Add(){} // RVA: 0x7FFD4E2ADC40
-        public void Resize(){} // RVA: 0x7FFD4E090980
-        public void Remove(){} // RVA: 0x7FFD4E2ADC40
-        public void InternalGetHashCode(){} // RVA: 0x7FFD4E2ADC40
-        public void GetBucketIndex(){} // RVA: 0x7FFD4E0800D0
-        public void Dispose(){} // RVA: 0x7FFD4E090980
+        public void .ctor(){} // RVA: 0x7FFAC2C72BC0 | overloaded x2
+        public void Add(){} // RVA: 0x7FFAC2E8DC40
+        public void Resize(){} // RVA: 0x7FFAC2C70980
+        public void Remove(){} // RVA: 0x7FFAC2E8DC40
+        public void InternalGetHashCode(){} // RVA: 0x7FFAC2E8DC40
+        public void GetBucketIndex(){} // RVA: 0x7FFAC2C600D0
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
     }
 
     public class InlineArray16`1 : ValueType
     {
-        public System.Collections.Generic.KeyValuePair`2<string,int> item0; // 0x10
-        public System.Collections.Generic.KeyValuePair`2<string,int> item1; // 0x20
-        public System.Collections.Generic.KeyValuePair`2<string,int> item2; // 0x30
-        public System.Collections.Generic.KeyValuePair`2<string,int> item3; // 0x40
-        public System.Collections.Generic.KeyValuePair`2<string,int> item4; // 0x50
-        public System.Collections.Generic.KeyValuePair`2<string,int> item5; // 0x60
-        public System.Collections.Generic.KeyValuePair`2<string,int> item6; // 0x70
-        public System.Collections.Generic.KeyValuePair`2<string,int> item7; // 0x80
-        public System.Collections.Generic.KeyValuePair`2<string,int> item8; // 0x90
-        public System.Collections.Generic.KeyValuePair`2<string,int> item9; // 0xA0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item10; // 0xB0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item11; // 0xC0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item12; // 0xD0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item13; // 0xE0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item14; // 0xF0
-        public System.Collections.Generic.KeyValuePair`2<string,int> item15; // 0x100
+        public T item0;
+        public T item1;
+        public T item2;
+        public T item3;
+        public T item4;
+        public T item5;
+        public T item6;
+        public T item7;
+        public T item8;
+        public T item9;
+        public T item10;
+        public T item11;
+        public T item12;
+        public T item13;
+        public T item14;
+        public T item15;
 
         // ── Methods ──
-        public void AsSpan(){} // RVA: 0x7FFD4E2ADC40
+        public void AsSpan(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class InlineArray27`1 : ValueType
     {
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] Item; // 0x10
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item1; // 0x18
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item2; // 0x20
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item3; // 0x28
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item4; // 0x30
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item5; // 0x38
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item6; // 0x40
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item7; // 0x48
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item8; // 0x50
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item9; // 0x58
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item10; // 0x60
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item11; // 0x68
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item12; // 0x70
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item13; // 0x78
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item14; // 0x80
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item15; // 0x88
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item16; // 0x90
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item17; // 0x98
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item18; // 0xA0
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item19; // 0xA8
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item20; // 0xB0
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item21; // 0xB8
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item22; // 0xC0
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item23; // 0xC8
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item24; // 0xD0
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item25; // 0xD8
-        public System.Collections.Generic.KeyValuePair`2<string,int>[] item26; // 0xE0
+        public T Item;
+        public T item1;
+        public T item2;
+        public T item3;
+        public T item4;
+        public T item5;
+        public T item6;
+        public T item7;
+        public T item8;
+        public T item9;
+        public T item10;
+        public T item11;
+        public T item12;
+        public T item13;
+        public T item14;
+        public T item15;
+        public T item16;
+        public T item17;
+        public T item18;
+        public T item19;
+        public T item20;
+        public T item21;
+        public T item22;
+        public T item23;
+        public T item24;
+        public T item25;
+        public T item26;
 
         // ── Methods ──
-        public void get_Item(){} // RVA: 0x7FFD4E087DE0
-        public void AsSpan(){} // RVA: 0x7FFD4E2ADC40
+        public void get_Item(){} // RVA: 0x7FFAC2C67DE0
+        public void AsSpan(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class InlineArrayMarshal : Object
     {
         // ── Methods ──
-        public void AsSpan(){} // RVA: 0x7FFD4E2ADC40
-        public void ElementRef(){} // RVA: 0x7FFD4E088090
+        public void AsSpan(){} // RVA: 0x7FFAC2E8DC40
+        public void ElementRef(){} // RVA: 0x7FFAC2C68090
     }
 
     public class RandomShared : Object
@@ -143,87 +143,87 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
         public System.Threading.ThreadLocal`1<System.Random> Shared;
 
         // ── Methods ──
-        public void Shuffle(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFD57502670
+        public void Shuffle(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFACC0E2670
     }
 
     public class RefBox`1 : Object
     {
-        public ZLinq.Internal.ValueQueue`1<int> value; // 0x10
-        public bool isDisposed; // 0x28
+        public T value;
+        public bool isDisposed;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-        public void GetValueRef(){} // RVA: 0x7FFD4E078E90
-        public void Dispose(){} // RVA: 0x7FFD4E090980
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+        public void GetValueRef(){} // RVA: 0x7FFAC2C58E90
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
     }
 
     public class RentedArrayBox`1 : Object
     {
-        public Transmtn.DTO.Notifications.Notification[] Length; // 0x10
-        public int Span; // 0x18
-        public ZLinq.Internal.RentedArrayBox`1<Transmtn.DTO.Notifications.Notification> Empty;
+        public T[] Length;
+        public int Span;
+        public ZLinq.Internal.RentedArrayBox`1<T> Empty;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E097970
-        public void get_Length(){} // RVA: 0x7FFD4E079960
-        public void get_Span(){} // RVA: 0x7FFD4E2ADC40
-        public void UnsafeGetAt(){} // RVA: 0x7FFD4E087DE0
-        public void Dispose(){} // RVA: 0x7FFD4E090980
-        public void .cctor(){} // RVA: 0x7FFD4E0909B0
+        public void .ctor(){} // RVA: 0x7FFAC2C77970
+        public void get_Length(){} // RVA: 0x7FFAC2C59960
+        public void get_Span(){} // RVA: 0x7FFAC2E8DC40
+        public void UnsafeGetAt(){} // RVA: 0x7FFAC2C67DE0
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void .cctor(){} // RVA: 0x7FFAC2C709B0
     }
 
     public class SegmentedArrayProvider`1 : ValueType
     {
-        public System.Span`1<System.Collections.Generic.KeyValuePair`2<string,int>> Count; // 0x10
-        public int countInCurrentSegment; // 0x20
-        public System.Span`1<System.Collections.Generic.KeyValuePair`2<string,int>> initialBuffer; // 0x28
-        public ZLinq.Internal.InlineArray27`1<System.Collections.Generic.KeyValuePair`2<string,int>[]> segments; // 0x38
-        public int segmentsCount; // 0x110
-        public int countInFinishedSegments; // 0x114
+        public System.Span`1<T> Count;
+        public int countInCurrentSegment;
+        public System.Span`1<T> initialBuffer;
+        public ZLinq.Internal.InlineArray27`1<T[]> segments;
+        public int segmentsCount;
+        public int countInFinishedSegments;
 
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7FFD4E079960
-        public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-        public void GetSpan(){} // RVA: 0x7FFD4E2ADC40
-        public void Advance(){} // RVA: 0x7FFD4E090ED0
-        public void Expand(){} // RVA: 0x7FFD4E090980
-        public void CopyToAndClear(){} // RVA: 0x7FFD4E2ADC40
+        public void get_Count(){} // RVA: 0x7FFAC2C59960
+        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+        public void GetSpan(){} // RVA: 0x7FFAC2E8DC40
+        public void Advance(){} // RVA: 0x7FFAC2C70ED0
+        public void Expand(){} // RVA: 0x7FFAC2C70980
+        public void CopyToAndClear(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class SingleSpan : Object
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFD4E2ADC40
+        public void Create(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class Throws : Object
     {
         // ── Methods ──
-        public void ArgumentOutOfRange(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void MoreThanOneElement(){} // RVA: 0x7FFD57502BF0
-        public void MoreThanOneMatch(){} // RVA: 0x7FFD57502C40
-        public void NoElements(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-        public void NoMatch(){} // RVA: 0x7FFD4E2ADC40
-        public void NotSupportedType(){} // RVA: 0x7FFD57502CE0
-        public void IfNull(){} // RVA: 0x7FFD4E2ADC40
+        public void ArgumentOutOfRange(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void MoreThanOneElement(){} // RVA: 0x7FFACC0E2BF0
+        public void MoreThanOneMatch(){} // RVA: 0x7FFACC0E2C40
+        public void NoElements(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+        public void NoMatch(){} // RVA: 0x7FFAC2E8DC40
+        public void NotSupportedType(){} // RVA: 0x7FFACC0E2CE0
+        public void IfNull(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class ValueQueue`1 : ValueType
     {
-        public int[] Count; // 0x10
-        public int head; // 0x18
-        public int tail; // 0x1C
-        public int size; // 0x20
+        public T[] Count;
+        public int head;
+        public int tail;
+        public int size;
 
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7FFD4E079960
-        public void .ctor(){} // RVA: 0x7FFD4E090ED0
-        public void Enqueue(){} // RVA: 0x7FFD4E2ADC40
-        public void Dequeue(){} // RVA: 0x7FFD4E2ADC40
-        public void Throw(){} // RVA: 0x7FFD4E0909B0
-        public void Grow(){} // RVA: 0x7FFD4E090980
-        public void Dispose(){} // RVA: 0x7FFD4E090980
+        public void get_Count(){} // RVA: 0x7FFAC2C59960
+        public void .ctor(){} // RVA: 0x7FFAC2C70ED0
+        public void Enqueue(){} // RVA: 0x7FFAC2E8DC40
+        public void Dequeue(){} // RVA: 0x7FFAC2E8DC40
+        public void Throw(){} // RVA: 0x7FFAC2C709B0
+        public void Grow(){} // RVA: 0x7FFAC2C70980
+        public void Dispose(){} // RVA: 0x7FFAC2C70980
     }
 
 }

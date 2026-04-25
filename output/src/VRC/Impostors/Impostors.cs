@@ -34,32 +34,32 @@ namespace VRC.Impostors
         public System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<int,UnityEngine.Vector3>> ÏÌÎÏÌÌÌÍÌÌÎÎÍÏÍÌÌÌÌÍÌÌÏ; // 0xC0
 
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EEADB80
-        public void RaiseCancellation(){} // RVA: 0x7FFD4EEADDD0
-        public void Awake(){} // RVA: 0x7FFD4EEAE280
-        public void .ctor(){} // RVA: 0x7FFD4EEAE500
-        public void Initialize(){} // RVA: 0x7FFD4EEAE680
-        public void InvokeRepeating(){} // RVA: 0x7FFD4EEAE940
-        public void CancelInvoke(){} // RVA: 0x7FFD4EEAEDF0
-        public void IsInvoking(){} // RVA: 0x7FFD4EEAF660
-        public void StartCoroutine(){} // RVA: 0x7FFD4EEAF6F0
-        public void FixedUpdate(){} // RVA: 0x7FFD4EEB00E0
-        public void OnApplicationPause(){} // RVA: 0x7FFD4EEB0AC0
-        public void StartCoroutine_Auto(){} // RVA: 0x7FFD4EEB0F70
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFD4EEB1210
-        public void OnDestroy(){} // RVA: 0x7FFD4EEB1410
-        public void StopCoroutine(){} // RVA: 0x7FFD4EEB1610
-        public void StopAllCoroutines(){} // RVA: 0x7FFD4EEB1800
-        public void get_useGUILayout(){} // RVA: 0x7FFD4EEB1CB0
-        public void set_useGUILayout(){} // RVA: 0x7FFD4EEB1CD0
-        public void print(){} // RVA: 0x7FFD4EEB1CF0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7FFD4EEB1E40
-        public void Internal_IsInvokingAll(){} // RVA: 0x7FFD4EEB20E0
-        public void InvokeDelayed(){} // RVA: 0x7FFD4EEB2940
-        public void OnTriggerStay(){} // RVA: 0x7FFD4EEB2BE0
-        public void OnTriggerExit(){} // RVA: 0x7FFD4EEB1CD0
-        public void .cctor(){} // RVA: 0x7FFD4EEB3150
-        public void StartCoroutineManaged(){} // RVA: 0x7FFD4EEB3710
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFAC3A8DB80
+        public void RaiseCancellation(){} // RVA: 0x7FFAC3A8DDD0
+        public void Awake(){} // RVA: 0x7FFAC3A8E280
+        public void .ctor(){} // RVA: 0x7FFAC3A8E500
+        public void Initialize(){} // RVA: 0x7FFAC3A8E680
+        public void InvokeRepeating(){} // RVA: 0x7FFAC3A8E940
+        public void CancelInvoke(){} // RVA: 0x7FFAC3A8EDF0
+        public void IsInvoking(){} // RVA: 0x7FFAC3A8F660
+        public void StartCoroutine(){} // RVA: 0x7FFAC3A8F6F0
+        public void FixedUpdate(){} // RVA: 0x7FFAC3A900E0
+        public void OnApplicationPause(){} // RVA: 0x7FFAC3A90AC0
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFAC3A90F70
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAC3A91210
+        public void OnDestroy(){} // RVA: 0x7FFAC3A91410
+        public void StopCoroutine(){} // RVA: 0x7FFAC3A91610
+        public void StopAllCoroutines(){} // RVA: 0x7FFAC3A91800
+        public void get_useGUILayout(){} // RVA: 0x7FFAC3A91CB0
+        public void set_useGUILayout(){} // RVA: 0x7FFAC3A91CD0
+        public void print(){} // RVA: 0x7FFAC3A91CF0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x7FFAC3A91E40
+        public void Internal_IsInvokingAll(){} // RVA: 0x7FFAC3A920E0
+        public void InvokeDelayed(){} // RVA: 0x7FFAC3A92940
+        public void OnTriggerStay(){} // RVA: 0x7FFAC3A92BE0
+        public void OnTriggerExit(){} // RVA: 0x7FFAC3A91CD0
+        public void .cctor(){} // RVA: 0x7FFAC3A93150
+        public void StartCoroutineManaged(){} // RVA: 0x7FFAC3A93710
     }
 
     public class ImpostorAvatar : MonoBehaviour
@@ -73,24 +73,24 @@ namespace VRC.Impostors
         public VRC.Impostors.Impostor[] ÏÌÌÎÍÏÍÎÎÍÍÏÍÏÍÍÍÏÌÏÏÏÎ; // 0x50
 
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFD4EEB3C80
-        public void RaiseCancellation(){} // RVA: 0x7FFD4EEB3E00
-        public void IsInvoking(){} // RVA: 0x7FFD4EEB4000
-        public void OnEnable(){} // RVA: 0x7FFD4EEB45F0
-        public void Awake(){} // RVA: 0x7FFD4EEB4770
-        public void OnDestroy(){} // RVA: 0x7FFD4EEB4780
-        public void CancelInvoke(){} // RVA: 0x7FFD4EEB4A50
-        public void LateUpdate(){} // RVA: 0x7FFD4EEB4AF0
-        public void StartCoroutine(){} // RVA: 0x7FFD4EEB5070
-        public void OnApplicationPause(){} // RVA: 0x7FFD4EEB5110
-        public void AccesscullingMask(){} // RVA: 0x7FFD4EEB5520
-        public void StartCoroutine_Auto(){} // RVA: 0x7FFD4EEB5930
-        public void StopCoroutine(){} // RVA: 0x7FFD4EEB5960
-        public void .ctor(){} // RVA: 0x7FFD4EEB5B50
-        public void Initialize(){} // RVA: 0x7FFD4EEB5BA0
-        public void OnDisable(){} // RVA: 0x7FFD4EEB5E60
-        public void Start(){} // RVA: 0x7FFD4EEB5FE0
-        public void set_useGUILayout(){} // RVA: 0x7FFD4EEB6630
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFAC3A93C80
+        public void RaiseCancellation(){} // RVA: 0x7FFAC3A93E00
+        public void IsInvoking(){} // RVA: 0x7FFAC3A94000
+        public void OnEnable(){} // RVA: 0x7FFAC3A945F0
+        public void Awake(){} // RVA: 0x7FFAC3A94770
+        public void OnDestroy(){} // RVA: 0x7FFAC3A94780
+        public void CancelInvoke(){} // RVA: 0x7FFAC3A94A50
+        public void LateUpdate(){} // RVA: 0x7FFAC3A94AF0
+        public void StartCoroutine(){} // RVA: 0x7FFAC3A95070
+        public void OnApplicationPause(){} // RVA: 0x7FFAC3A95110
+        public void AccesscullingMask(){} // RVA: 0x7FFAC3A95520
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFAC3A95930
+        public void StopCoroutine(){} // RVA: 0x7FFAC3A95960
+        public void .ctor(){} // RVA: 0x7FFAC3A95B50
+        public void Initialize(){} // RVA: 0x7FFAC3A95BA0
+        public void OnDisable(){} // RVA: 0x7FFAC3A95E60
+        public void Start(){} // RVA: 0x7FFAC3A95FE0
+        public void set_useGUILayout(){} // RVA: 0x7FFAC3A96630
     }
 
 }

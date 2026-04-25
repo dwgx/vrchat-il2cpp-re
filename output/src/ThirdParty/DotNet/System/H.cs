@@ -1,24 +1,25 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 1
-// Methods: 2
+// Classes: 2
+// Methods: 6
 
 namespace ThirdParty.DotNet.System
 {
     public class HashCode : Object
     {
-        public uint s_seed;
-        public uint _v1; // 0x10
-        public uint _v2; // 0x14
-        public uint _v3; // 0x18
-        public uint _v4; // 0x1C
-        public uint _queue1; // 0x20
-        public uint _queue2; // 0x24
-        public uint _queue3; // 0x28
-        public uint _length; // 0x2C
+        // ── Methods ──
+        public void Combine(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
+    }
+
+    public class HexConverter : Object
+    {
+        public object CharToHexLookup;
 
         // ── Methods ──
-        public void Combine(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
+        public void ToCharUpper(){} // RVA: 0x7FFAC8A89640
+        public void FromChar(){} // RVA: 0x7FFAC8A89660
+        public void IsHexChar(){} // RVA: 0x7FFAC8A897B0
+        public void get_CharToHexLookup(){} // RVA: 0x7FFAC8A897D0
     }
 
 }

@@ -15,10 +15,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public UnityEngine.SphereCollider m_Sphere; // 0x38
 
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFD4E34C440
-        public void FixedUpdate(){} // RVA: 0x7FFD4E34C520
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFD4E34CF20
-        public void .ctor(){} // RVA: 0x7FFD4E34DC60
+        public void OnEnable(){} // RVA: 0x7FFAC2F2C440
+        public void FixedUpdate(){} // RVA: 0x7FFAC2F2C520
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAC2F2CF20
+        public void .ctor(){} // RVA: 0x7FFAC2F2DC60
     }
 
     public class ExplosionFireAndDebris : MonoBehaviour
@@ -30,9 +30,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public InstantiationDelegate Instantiate;
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E34DCC0
-        public void AddFire(){} // RVA: 0x7FFD4E34DD60
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC2F2DCC0
+        public void AddFire(){} // RVA: 0x7FFAC2F2DD60
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class ExplosionPhysicsForce : MonoBehaviour
@@ -40,8 +40,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public float explosionForce; // 0x20
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E34EE40
-        public void .ctor(){} // RVA: 0x7FFD4E34EEE0
+        public void Start(){} // RVA: 0x7FFAC2F2EE40
+        public void .ctor(){} // RVA: 0x7FFAC2F2EEE0
     }
 
     public class Explosive : MonoBehaviour
@@ -56,10 +56,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public InstantiationDelegate Instantiate;
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E34F630
-        public void OnCollisionEnter(){} // RVA: 0x7FFD4E34F6C0
-        public void Reset(){} // RVA: 0x7FFD4E34F7C0
-        public void .ctor(){} // RVA: 0x7FFD4E34F7D0
+        public void Start(){} // RVA: 0x7FFAC2F2F630
+        public void OnCollisionEnter(){} // RVA: 0x7FFAC2F2F6C0
+        public void Reset(){} // RVA: 0x7FFAC2F2F7C0
+        public void .ctor(){} // RVA: 0x7FFAC2F2F7D0
     }
 
     public class ExtinguishableParticleSystem : MonoBehaviour
@@ -68,9 +68,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public UnityEngine.ParticleSystem[] m_Systems; // 0x28
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E34FE10
-        public void Extinguish(){} // RVA: 0x7FFD4E34FEC0
-        public void .ctor(){} // RVA: 0x7FFD4E349920
+        public void Start(){} // RVA: 0x7FFAC2F2FE10
+        public void Extinguish(){} // RVA: 0x7FFAC2F2FEC0
+        public void .ctor(){} // RVA: 0x7FFAC2F29920
     }
 
     public class FireLight : MonoBehaviour
@@ -80,10 +80,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public UnityEngine.Light m_Light; // 0x28
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E34FFC0
-        public void Update(){} // RVA: 0x7FFD4E350090
-        public void Extinguish(){} // RVA: 0x7FFD4E350540
-        public void .ctor(){} // RVA: 0x7FFD4E3505B0
+        public void Start(){} // RVA: 0x7FFAC2F2FFC0
+        public void Update(){} // RVA: 0x7FFAC2F30090
+        public void Extinguish(){} // RVA: 0x7FFAC2F30540
+        public void .ctor(){} // RVA: 0x7FFAC2F305B0
     }
 
     public class Hose : MonoBehaviour
@@ -96,8 +96,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public float m_Power; // 0x40
 
         // ── Methods ──
-        public void Update(){} // RVA: 0x7FFD4E350600
-        public void .ctor(){} // RVA: 0x7FFD4E350A30
+        public void Update(){} // RVA: 0x7FFAC2F30600
+        public void .ctor(){} // RVA: 0x7FFAC2F30A30
     }
 
     public class ParticleSystemMultiplier : MonoBehaviour
@@ -105,8 +105,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public float multiplier; // 0x20
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E350A90
-        public void .ctor(){} // RVA: 0x7FFD4E349920
+        public void Start(){} // RVA: 0x7FFAC2F30A90
+        public void .ctor(){} // RVA: 0x7FFAC2F29920
     }
 
     public class SmokeParticles : MonoBehaviour
@@ -114,8 +114,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public UnityEngine.AudioClip[] extinguishSounds; // 0x20
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E350E70
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC2F30E70
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class WaterHoseParticles : MonoBehaviour
@@ -126,9 +126,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Effects
         public UnityEngine.ParticleSystem m_ParticleSystem; // 0x30
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E351000
-        public void OnParticleCollision(){} // RVA: 0x7FFD4E351090
-        public void .ctor(){} // RVA: 0x7FFD4E351420
+        public void Start(){} // RVA: 0x7FFAC2F31000
+        public void OnParticleCollision(){} // RVA: 0x7FFAC2F31090
+        public void .ctor(){} // RVA: 0x7FFAC2F31420
     }
 
 }

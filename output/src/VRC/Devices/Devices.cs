@@ -8,8 +8,8 @@ namespace VRC.Devices
     public class DeviceConfig : Object
     {
         // ── Methods ──
-        public void GetStore(){} // RVA: 0x7FFD4E433AF0
-        public void GetDevice(){} // RVA: 0x7FFD4E433AF0
+        public void GetStore(){} // RVA: 0x7FFAC3013AF0
+        public void GetDevice(){} // RVA: 0x7FFAC3013AF0
     }
 
 }

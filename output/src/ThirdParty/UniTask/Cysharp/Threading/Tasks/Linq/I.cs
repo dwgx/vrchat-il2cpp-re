@@ -8,7 +8,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class IAsyncWriter`1
     {
         // ── Methods ──
-        public void YieldAsync(){} // RVA: 0x7FFD4E2ADC40
+        public void YieldAsync(){} // RVA: 0x7FFAC2E8DC40
     }
 
     public class Intersect`1 : Object
@@ -18,7 +18,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Collections.Generic.IEqualityComparer`1<T> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09AF60
+        public void .ctor(){} // RVA: 0x7FFAC2C7AF60
         public void GetAsyncEnumerator(){}
     }
 

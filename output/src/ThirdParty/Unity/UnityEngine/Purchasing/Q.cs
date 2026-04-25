@@ -16,16 +16,16 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
         public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x40
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD53230260
-        public void QueryAsyncProduct(){} // RVA: 0x7FFD54DE1920 | overloaded x3
-        public void QueryAsyncProductWithRetries(){} // RVA: 0x7FFD54DE1B50
-        public void TryQueryAsyncProductWithRetries(){} // RVA: 0x7FFD54DE1C20
-        public void ShouldRetryQuery(){} // RVA: 0x7FFD54DE1E90
-        public void AreAllProductDetailsCached(){} // RVA: 0x7FFD54DE1F20
-        public void GetCachedProductDetails(){} // RVA: 0x7FFD54DE2180
-        public void QueryInAppsAsync(){} // RVA: 0x7FFD54DE2360
-        public void QuerySubsAsync(){} // RVA: 0x7FFD54DE26F0
-        public void QueryProductDetails(){} // RVA: 0x7FFD54DE2A80
+        public void .ctor(){} // RVA: 0x7FFAC7E10260
+        public void QueryAsyncProduct(){} // RVA: 0x7FFAC99C1920 | overloaded x3
+        public void QueryAsyncProductWithRetries(){} // RVA: 0x7FFAC99C1B50
+        public void TryQueryAsyncProductWithRetries(){} // RVA: 0x7FFAC99C1C20
+        public void ShouldRetryQuery(){} // RVA: 0x7FFAC99C1E90
+        public void AreAllProductDetailsCached(){} // RVA: 0x7FFAC99C1F20
+        public void GetCachedProductDetails(){} // RVA: 0x7FFAC99C2180
+        public void QueryInAppsAsync(){} // RVA: 0x7FFAC99C2360
+        public void QuerySubsAsync(){} // RVA: 0x7FFAC99C26F0
+        public void QueryProductDetails(){} // RVA: 0x7FFAC99C2A80
     }
 
 }

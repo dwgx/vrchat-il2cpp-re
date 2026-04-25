@@ -11,7 +11,7 @@ namespace VRC.UI.Elements.Analytics
         public System.Collections.Generic.List`1<Entry> Entries; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD56CD5290
+        public void .ctor(){} // RVA: 0x7FFACB8B5290
     }
 
 }

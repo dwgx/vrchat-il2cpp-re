@@ -10,17 +10,17 @@ namespace ThirdParty.Other.Unity.Services.Core.Environments.Internal
         public string Current; // 0x10
 
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFD4E35C380
-        public void set_Current(){} // RVA: 0x7FFD4E342E30
-        public void .ctor(){} // RVA: 0x7FFD4E341310
+        public void get_Current(){} // RVA: 0x7FFAC2F3C380
+        public void set_Current(){} // RVA: 0x7FFAC2F22E30
+        public void .ctor(){} // RVA: 0x7FFAC2F21310
     }
 
     public class IEnvironments
     {
-        public <>c<T> Current;
+        public object Current;
 
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFD4E078E90
+        public void get_Current(){} // RVA: 0x7FFAC2C58E90
     }
 
 }

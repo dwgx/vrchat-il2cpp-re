@@ -1,1109 +1,1918 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 453
+// Methods: 216
 
-public class _GetProjectionMatrix : MulticastDelegate
+public class <MatchValueWithTrailingSeparatorAsync>d__20 : ValueType
 {
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonTextReader <>4__this; // 0x30
+    public string value; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x48
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D8EBC0
-    public void Invoke(){} // RVA: 0x7FFD53D8EC90
-    public void BeginInvoke(){} // RVA: 0x7FFD54C06200
-    public void EndInvoke(){} // RVA: 0x7FFD53D8EDB0
+    public void MoveNext(){} // RVA: 0x7FFAC87170B0
+    public void SetStateMachine(){} // RVA: 0x7FFAC87175E0
 }
 
-public class _GetProjectionRaw : MulticastDelegate
+public class <MaxAsync>d__0`1 : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D8EE20
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C062C0
-    public void EndInvoke(){} // RVA: 0x7FFD52280C00
-}
-
-public class _GetPropErrorNameFromEnum : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D01B0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C072F0
-    public void EndInvoke(){} // RVA: 0x7FFD4FF78720
-}
-
-public class _GetRawZeroPoseToStandingAbsoluteTrackingPose : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510C5800
-    public void Invoke(){} // RVA: 0x7FFD510C58D0
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F260
-}
-
-public class _GetRecommendedRenderTargetSize : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5130DF60
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C06160
-    public void EndInvoke(){} // RVA: 0x7FFD4EF36FD0
-}
-
-public class _GetRenderModelCount : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5098C080
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetRenderModelErrorNameFromEnum : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D01B0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C10E80
-    public void EndInvoke(){} // RVA: 0x7FFD4FF78720
-}
-
-public class _GetRenderModelName : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92DD0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C10440
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetRenderModelOriginalPath : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96590
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C10DA0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetRenderModelThumbnailURL : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96590
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C10CC0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetResourceFullPath : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D98560
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C12590
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetRuntimeVersion : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4EEF07E0
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4FF78720
-}
-
-public class _GetSceneApplicationState : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5098C080
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetSceneApplicationStateNameFromEnum : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D01B0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C09C70
-    public void EndInvoke(){} // RVA: 0x7FFD4FF78720
-}
-
-public class _GetScreenshotPropertyFilename : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D908D0
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C121A0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetScreenshotPropertyType : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510DA250
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C120F0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetSeatedZeroPoseToStandingAbsoluteTrackingPose : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510C5800
-    public void Invoke(){} // RVA: 0x7FFD510C58D0
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F260
-}
-
-public class _GetSettingsErrorNameFromEnum : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D01B0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C110F0
-    public void EndInvoke(){} // RVA: 0x7FFD4FF78720
-}
-
-public class _GetSkeletalActionData : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96160
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C12F70
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetSkeletalBoneData : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C13390
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C13610
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetSkeletalBoneDataCompressed : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C092A0
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C137E0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetSkeletalReferenceTransforms : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C13390
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C13460
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetSkeletalSummaryData : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96DD0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C13710
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetSkeletalTrackingLevel : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C13560
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetSortedTrackedDeviceIndicesOfClass : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D8F810
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C068A0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetSpatialAnchorDescriptor : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D95140
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C14C80
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetSpatialAnchorPose : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D90150
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C14BB0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetStartingApplication : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D93C10
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C09B60
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetString : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C11B60
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C11C30
-    public void EndInvoke(){} // RVA: 0x7FFD4FE1C700
-}
-
-public class _GetStringTrackedDeviceProperty : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D908D0
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C07200
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetTimeSinceLastVsync : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D8F2C0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C06530
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F450
-}
-
-public class _GetTrackedDeviceActivityLevel : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D0280
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C06970
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetTrackedDeviceClass : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D0280
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C06BC0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetTrackedDeviceIndexForControllerRole : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D0280
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C06AC0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetTrackingSpace : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5098C080
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetTransformForOverlayCoordinates : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D98A00
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0DEB0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetUint64TrackedDeviceProperty : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D902F0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C06F30
-    public void EndInvoke(){} // RVA: 0x7FFD522C1C40
-}
-
-public class _GetVideoStreamFrameBuffer : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D922F0
-    public void Invoke(){} // RVA: 0x7FFD510E1930
-    public void BeginInvoke(){} // RVA: 0x7FFD54C08490
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _GetVideoStreamTextureD3D11 : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92600
-    public void Invoke(){} // RVA: 0x7FFD510E1930
-    public void BeginInvoke(){} // RVA: 0x7FFD54C086D0
-    public void EndInvoke(){} // RVA: 0x7FFD4FF6EB70
-}
-
-public class _GetVideoStreamTextureGL : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D92810
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C08810
-    public void EndInvoke(){} // RVA: 0x7FFD4FF6EB70
-}
-
-public class _GetVideoStreamTextureSize : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D91C20
-    public void Invoke(){} // RVA: 0x7FFD51080E20
-    public void BeginInvoke(){} // RVA: 0x7FFD54C085D0
-    public void EndInvoke(){} // RVA: 0x7FFD53D91DE0
-}
-
-public class _GetVulkanDeviceExtensionsRequired : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96160
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0BAD0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetVulkanInstanceExtensionsRequired : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D93C10
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0BA40
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _GetWindowBounds : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D91780
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C07AE0
-    public void EndInvoke(){} // RVA: 0x7FFD52280C00
-}
-
-public class _GetWorkingCollisionBoundsInfo : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5210BC10
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A2F0
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F1B0
-}
-
-public class _GetWorkingPlayAreaRect : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510A2610
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A260
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F1B0
-}
-
-public class _GetWorkingPlayAreaSize : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D8F2C0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A1C0
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F450
-}
-
-public class _GetWorkingSeatedZeroPoseToRawTrackingPose : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510A2610
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A410
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F1B0
-}
-
-public class _GetWorkingStandingZeroPoseToRawTrackingPose : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510A2610
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0A4A0
-    public void EndInvoke(){} // RVA: 0x7FFD53D8F1B0
-}
-
-public class _GroupBy : MoveNextSource
-{
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> Current;
-    public System.Func`2<U,V> keySelector;
-    public System.Func`2<U,W> elementSelector;
-    public System.Func`3<V,System.Collections.Generic.IEnumerable`1<W>,T> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<V> comparer;
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
     public System.Threading.CancellationToken cancellationToken;
-    public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<V,W>> groupEnumerator;
-    public T <Current>k__BackingField;
+    public T <value>5__2;
+    public System.Collections.Generic.Comparer`1<T> <comparer>5__3;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__4;
+    public object <>7__wrap4;
+    public int <>7__wrap5;
+    public T <>7__wrap6;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E078E90
-    public void set_Current(){} // RVA: 0x7FFD4E090A40
-    public void MoveNextAsync(){}
-    public void CreateLookup(){} // RVA: 0x7FFD4E079D00
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _GroupByAwait : MoveNextSource
+public class <MaxAsync>d__12 : ValueType
 {
-    public System.Action`1<object> Current;
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<float> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<float> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public float <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<float> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public Awaiter<bool> <>u__1; // 0x60
+    public Awaiter <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94AF900
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B0190
+}
+
+public class <MaxAsync>d__13`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<float> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,float> selector;
+    public float <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAsync>d__16 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<double> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<double> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public double <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<double> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public Awaiter<bool> <>u__1; // 0x60
+    public Awaiter <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B01C0
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B0A50
+}
+
+public class <MaxAsync>d__17`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<double> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,double> selector;
+    public double <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAsync>d__1`2 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
     public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<V>> keySelector;
-    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<W>> elementSelector;
-    public System.Func`3<V,System.Collections.Generic.IEnumerable`1<W>,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<V> comparer;
     public System.Threading.CancellationToken cancellationToken;
-    public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<V,W>> groupEnumerator;
-    public Awaiter<T> awaiter;
-    public T <Current>k__BackingField;
+    public System.Func`2<U,T> selector;
+    public T <value>5__2;
+    public System.Collections.Generic.Comparer`1<T> <comparer>5__3;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> <e>5__4;
+    public object <>7__wrap4;
+    public int <>7__wrap5;
+    public T <>7__wrap6;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E078E90
-    public void set_Current(){} // RVA: 0x7FFD4E090A40
-    public void MoveNextAsync(){}
-    public void CreateLookup(){} // RVA: 0x7FFD4E079D00
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _GroupByAwaitWithCancellation : MoveNextSource
+public class <MaxAsync>d__20 : ValueType
 {
-    public System.Action`1<object> Current;
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Decimal> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Decimal> source; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public System.Decimal <value>5__2; // 0x48
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Decimal> <e>5__3; // 0x58
+    public object <>7__wrap3; // 0x60
+    public int <>7__wrap4; // 0x68
+    public Awaiter<bool> <>u__1; // 0x70
+    public Awaiter <>u__2; // 0x80
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B0A80
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B13D0
+}
+
+public class <MaxAsync>d__21`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Decimal> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Decimal> selector;
+    public System.Decimal <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAsync>d__24 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<int>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<int>> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Nullable`1<int> <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<int>> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public System.Nullable`1<int> <>7__wrap5; // 0x5C
+    public Awaiter<bool> <>u__1; // 0x68
+    public Awaiter <>u__2; // 0x78
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B1400
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B1C70
+}
+
+public class <MaxAsync>d__25`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<int>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<int>> selector;
+    public System.Nullable`1<int> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<int> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAsync>d__28 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<long>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<long>> source; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public System.Nullable`1<long> <value>5__2; // 0x48
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<long>> <e>5__3; // 0x58
+    public object <>7__wrap3; // 0x60
+    public int <>7__wrap4; // 0x68
+    public System.Nullable`1<long> <>7__wrap5; // 0x70
+    public Awaiter<bool> <>u__1; // 0x80
+    public Awaiter <>u__2; // 0x90
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B1CA0
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B2540
+}
+
+public class <MaxAsync>d__29`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<long>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<long>> selector;
+    public System.Nullable`1<long> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<long> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAsync>d__32 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<float>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<float>> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Nullable`1<float> <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<float>> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public System.Nullable`1<float> <>7__wrap5; // 0x5C
+    public Awaiter<bool> <>u__1; // 0x68
+    public Awaiter <>u__2; // 0x78
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B2570
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B2E00
+}
+
+public class <MaxAsync>d__33`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<float>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<float>> selector;
+    public System.Nullable`1<float> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<float> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAsync>d__36 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<double>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<double>> source; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public System.Nullable`1<double> <value>5__2; // 0x48
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<double>> <e>5__3; // 0x58
+    public object <>7__wrap3; // 0x60
+    public int <>7__wrap4; // 0x68
+    public System.Nullable`1<double> <>7__wrap5; // 0x70
+    public Awaiter<bool> <>u__1; // 0x80
+    public Awaiter <>u__2; // 0x90
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B2E30
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B36E0
+}
+
+public class <MaxAsync>d__37`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<double>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<double>> selector;
+    public System.Nullable`1<double> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<double> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAsync>d__4 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<int> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public int <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<int> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public Awaiter<bool> <>u__1; // 0x60
+    public Awaiter <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B3710
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B3F90
+}
+
+public class <MaxAsync>d__40 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<System.Decimal>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<System.Decimal>> source; // 0x40
+    public System.Threading.CancellationToken cancellationToken; // 0x48
+    public System.Nullable`1<System.Decimal> <value>5__2; // 0x50
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<System.Decimal>> <e>5__3; // 0x68
+    public object <>7__wrap3; // 0x70
+    public int <>7__wrap4; // 0x78
+    public System.Nullable`1<System.Decimal> <>7__wrap5; // 0x80
+    public Awaiter<bool> <>u__1; // 0x98
+    public Awaiter <>u__2; // 0xA8
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B3FC0
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B49A0
+}
+
+public class <MaxAsync>d__41`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<System.Decimal>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<System.Decimal>> selector;
+    public System.Nullable`1<System.Decimal> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<System.Decimal> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAsync>d__5`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<int> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,int> selector;
+    public int <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAsync>d__8 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<long> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<long> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public long <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<long> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public Awaiter<bool> <>u__1; // 0x60
+    public Awaiter <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B49D0
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B5250
+}
+
+public class <MaxAsync>d__9`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<long> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,long> selector;
+    public long <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitAsync>d__10`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<long> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<long>> selector;
+    public long <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<long> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitAsync>d__14`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<float> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<float>> selector;
+    public float <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<float> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitAsync>d__18`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<double> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<double>> selector;
+    public double <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<double> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitAsync>d__22`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Decimal> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Decimal>> selector;
+    public System.Decimal <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<System.Decimal> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitAsync>d__26`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<int>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<int>>> selector;
+    public System.Nullable`1<int> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<int> <>7__wrap5;
+    public Awaiter<System.Nullable`1<int>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitAsync>d__2`2 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
     public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
-    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<V>> keySelector;
-    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> elementSelector;
-    public System.Func`4<V,System.Collections.Generic.IEnumerable`1<W>,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<V> comparer;
     public System.Threading.CancellationToken cancellationToken;
-    public System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<V,W>> groupEnumerator;
-    public Awaiter<T> awaiter;
-    public T <Current>k__BackingField;
+    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<T>> selector;
+    public T <value>5__2;
+    public System.Collections.Generic.Comparer`1<T> <comparer>5__3;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> <e>5__4;
+    public object <>7__wrap4;
+    public int <>7__wrap5;
+    public T <>7__wrap6;
+    public Awaiter<T> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E078E90
-    public void set_Current(){} // RVA: 0x7FFD4E090A40
-    public void MoveNextAsync(){}
-    public void CreateLookup(){} // RVA: 0x7FFD4E079D00
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _GroupJoin : MoveNextSource
+public class <MaxAwaitAsync>d__30`1 : ValueType
 {
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`2<U,W> outerKeySelector;
-    public System.Func`2<V,W> innerKeySelector;
-    public System.Func`3<U,System.Collections.Generic.IEnumerable`1<V>,T> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<long>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
     public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public T <Current>k__BackingField;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<long>>> selector;
+    public System.Nullable`1<long> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<long> <>7__wrap5;
+    public Awaiter<System.Nullable`1<long>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void CreateLookup(){} // RVA: 0x7FFD4E079D00
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void MoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _GroupJoinAwait : MoveNextSource
+public class <MaxAwaitAsync>d__34`1 : ValueType
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> ResultSelectCoreDelegate;
-    public System.Action`1<object> OuterKeySelectCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
-    public System.Func`2<V,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
-    public System.Func`3<U,System.Collections.Generic.IEnumerable`1<V>,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<float>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
     public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public U outerValue;
-    public Awaiter<bool> awaiter;
-    public Awaiter<W> outerKeyAwaiter;
-    public Awaiter<T> resultAwaiter;
-    public T <Current>k__BackingField;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<float>>> selector;
+    public System.Nullable`1<float> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<float> <>7__wrap5;
+    public Awaiter<System.Nullable`1<float>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void CreateLookup(){} // RVA: 0x7FFD4E079D00
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void MoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void OuterKeySelectCore(){} // RVA: 0x7FFD4E090A10
-    public void ResultSelectCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _GroupJoinAwaitWithCancellation : MoveNextSource
+public class <MaxAwaitAsync>d__38`1 : ValueType
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> ResultSelectCoreDelegate;
-    public System.Action`1<object> OuterKeySelectCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
-    public System.Func`3<V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
-    public System.Func`4<U,System.Collections.Generic.IEnumerable`1<V>,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<double>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
     public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public U outerValue;
-    public Awaiter<bool> awaiter;
-    public Awaiter<W> outerKeyAwaiter;
-    public Awaiter<T> resultAwaiter;
-    public T <Current>k__BackingField;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<double>>> selector;
+    public System.Nullable`1<double> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<double> <>7__wrap5;
+    public Awaiter<System.Nullable`1<double>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void CreateLookup(){} // RVA: 0x7FFD4E079D00
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void MoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void OuterKeySelectCore(){} // RVA: 0x7FFD4E090A10
-    public void ResultSelectCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _HandleToString : MulticastDelegate
+public class <MaxAwaitAsync>d__42`1 : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96590
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C154A0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _HasCamera : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510DA250
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C07DF0
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _HasReaders : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D7AA0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C14990
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _HideKeyboard : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _HideMirrorWindow : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _HideOverlay : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F841F80
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0DDB0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _HideWorkingSetPreview : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E39F980
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _HookScreenshot : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D93C10
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C12060
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _IdentifyApplication : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510DA250
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C09100
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _ImportFromBufferToWorking : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD54C0A9B0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0AA80
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _Intersect : AsyncEnumeratorBase`2
-{
-    public System.Action`1<object> HashSetAsyncCoreDelegate;
-    public System.Collections.Generic.IEqualityComparer`1<T> comparer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> second;
-    public System.Collections.Generic.HashSet`1<T> set;
-    public Awaiter<System.Collections.Generic.HashSet`1<T>> awaiter;
-
-    // ── Methods ──
-    public void .ctor(){}
-    public void OnFirstIteration(){} // RVA: 0x7FFD4E079D00
-    public void HashSetAsyncCore(){} // RVA: 0x7FFD4E090A10
-    public void TryMoveNextCore(){}
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
-}
-
-public class _IsActiveDashboardOverlay : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D7AA0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0EF70
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsApplicationInstalled : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D7AA0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C08C60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsCurrentSceneFocusAppLoading : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsDashboardVisible : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsDisplayOnDesktop : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsEnabled : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D00E0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C12780
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsFullscreen : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsHoverTargetOverlay : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D7AA0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0E490
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsInputAvailable : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsMirrorWindowVisible : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsMotionSmoothingEnabled : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsMotionSmoothingSupported : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsOverlayVisible : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D7AA0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0DE30
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsSteamVRDrawingControllers : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsTrackedDeviceConnected : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D00E0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C06C40
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsUsingLegacyInput : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510CAD40
-    public void Invoke(){} // RVA: 0x7FFD4E39FA50
-    public void BeginInvoke(){} // RVA: 0x7FFD4E39FA60
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _IsViewingPermitted : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510D7AA0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0FC20
-    public void EndInvoke(){} // RVA: 0x7FFD4EF03450
-}
-
-public class _Join : MoveNextSource
-{
-    public System.Action`1<object> Current;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`2<U,W> outerKeySelector;
-    public System.Func`2<V,W> innerKeySelector;
-    public System.Func`3<U,V,T> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<System.Decimal>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
     public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public U currentOuterValue;
-    public System.Collections.Generic.IEnumerator`1<V> valueEnumerator;
-    public bool continueNext;
-    public T <Current>k__BackingField;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<System.Decimal>>> selector;
+    public System.Nullable`1<System.Decimal> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<System.Decimal> <>7__wrap5;
+    public Awaiter<System.Nullable`1<System.Decimal>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void CreateInnerHashSet(){} // RVA: 0x7FFD4E079D00
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void MoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _JoinAwait : MoveNextSource
+public class <MaxAwaitAsync>d__6`1 : ValueType
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> OuterSelectCoreDelegate;
-    public System.Action`1<object> ResultSelectCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
-    public System.Func`2<V,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
-    public System.Func`3<U,V,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<int> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
     public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public U currentOuterValue;
-    public System.Collections.Generic.IEnumerator`1<V> valueEnumerator;
-    public Awaiter<T> resultAwaiter;
-    public Awaiter<W> outerKeyAwaiter;
-    public bool continueNext;
-    public T <Current>k__BackingField;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<int>> selector;
+    public int <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<int> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void CreateInnerHashSet(){} // RVA: 0x7FFD4E079D00
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void MoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void OuterSelectCore(){} // RVA: 0x7FFD4E090A10
-    public void ResultSelectCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _JoinAwaitWithCancellation : MoveNextSource
+public class <MaxAwaitWithCancellationAsync>d__11`1 : ValueType
 {
-    public System.Action`1<object> Current;
-    public System.Action`1<object> OuterSelectCoreDelegate;
-    public System.Action`1<object> ResultSelectCoreDelegate;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> outer;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<V> inner;
-    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> outerKeySelector;
-    public System.Func`3<V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<W>> innerKeySelector;
-    public System.Func`4<U,V,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> resultSelector;
-    public System.Collections.Generic.IEqualityComparer`1<W> comparer;
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<long> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
     public System.Threading.CancellationToken cancellationToken;
-    public System.Linq.ILookup`2<W,V> lookup;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> enumerator;
-    public Awaiter<bool> awaiter;
-    public U currentOuterValue;
-    public System.Collections.Generic.IEnumerator`1<V> valueEnumerator;
-    public Awaiter<T> resultAwaiter;
-    public Awaiter<W> outerKeyAwaiter;
-    public bool continueNext;
-    public T <Current>k__BackingField;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<long>> selector;
+    public long <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<long> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E2ADC40
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void CreateInnerHashSet(){} // RVA: 0x7FFD4E079D00
-    public void SourceMoveNext(){} // RVA: 0x7FFD4E090980
-    public void MoveNextCore(){} // RVA: 0x7FFD4E090A10
-    public void OuterSelectCore(){} // RVA: 0x7FFD4E090A10
-    public void ResultSelectCore(){} // RVA: 0x7FFD4E090A10
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _LaunchApplication : MulticastDelegate
+public class <MaxAwaitWithCancellationAsync>d__15`1 : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F841F80
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C08E20
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _LaunchApplicationFromMimeType : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C08F70
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _LaunchDashboardOverlay : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4F841F80
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C09000
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _LaunchInternalProcess : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D97AB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C09CF0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _LaunchTemplateApplication : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D98560
-    public void Invoke(){} // RVA: 0x7FFD4EC5F780
-    public void BeginInvoke(){} // RVA: 0x7FFD54C08EA0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _LoadIntoTextureD3D11_Async : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510DA250
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C10320
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _LoadRenderModel_Async : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD5337FAB0
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C10010
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _LoadSharedResource : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D96160
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C124E0
-    public void EndInvoke(){} // RVA: 0x7FFD4F8420D0
-}
-
-public class _LoadTextureD3D11_Async : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD53D95140
-    public void Invoke(){} // RVA: 0x7FFD4E49D4E0
-    public void BeginInvoke(){} // RVA: 0x7FFD54C10260
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _LoadTexture_Async : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD510DA250
-    public void Invoke(){} // RVA: 0x7FFD4E49D370
-    public void BeginInvoke(){} // RVA: 0x7FFD54C10130
-    public void EndInvoke(){} // RVA: 0x7FFD4FE35FD0
-}
-
-public class _LockGLSharedTextureForAccess : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4FD9DFD0
-    public void Invoke(){} // RVA: 0x7FFD4E39CC60
-    public void BeginInvoke(){} // RVA: 0x7FFD54C0B940
-    public void EndInvoke(){} // RVA: 0x7FFD4E342CB0
-}
-
-public class _Merge : MoveNextSource
-{
-    public System.Action`1<object> Current;
-    public int length;
-    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T>[] enumerators;
-    public 0x664EFB00<T>[] states;
-    public System.Collections.Generic.Queue`1<System.ValueTuple`3<T,System.Exception,bool>> queuedResult;
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<float> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
     public System.Threading.CancellationToken cancellationToken;
-    public int moveNextCompleted;
-    public T <Current>k__BackingField;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<float>> selector;
+    public float <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<float> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
 
     // ── Methods ──
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void set_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void .ctor(){}
-    public void MoveNextAsync(){}
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void GetResultAt(){} // RVA: 0x7FFD4E2ADC40 | overloaded x2
-    public void HasQueuedResult(){} // RVA: 0x7FFD4E079D00
-    public void IsCompletedAll(){} // RVA: 0x7FFD4E079D00
-    public void .cctor(){} // RVA: 0x7FFD4E0909B0
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _Never : Object
+public class <MaxAwaitWithCancellationAsync>d__19`1 : ValueType
 {
-    public System.Threading.CancellationToken Current;
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<double> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<double>> selector;
+    public double <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<double> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFD4E090BF0
-    public void get_Current(){} // RVA: 0x7FFD4E2ADC40
-    public void MoveNextAsync(){}
-    public void DisposeAsync(){} // RVA: 0x7FFD4E0788A0
-    public void <MoveNextAsync>b__4_0(){} // RVA: 0x7FFD4E090A40
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
 }
 
-public class _OfType : AsyncEnumeratorBase`2
+public class <MaxAwaitWithCancellationAsync>d__23`1 : ValueType
 {
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Decimal> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Decimal>> selector;
+    public System.Decimal <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<System.Decimal> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
     // ── Methods ──
-    public void .ctor(){}
-    public void TryMoveNextCore(){}
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitWithCancellationAsync>d__27`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<int>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<int>>> selector;
+    public System.Nullable`1<int> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<int> <>7__wrap5;
+    public Awaiter<System.Nullable`1<int>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitWithCancellationAsync>d__31`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<long>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<long>>> selector;
+    public System.Nullable`1<long> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<long> <>7__wrap5;
+    public Awaiter<System.Nullable`1<long>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitWithCancellationAsync>d__35`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<float>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<float>>> selector;
+    public System.Nullable`1<float> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<float> <>7__wrap5;
+    public Awaiter<System.Nullable`1<float>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitWithCancellationAsync>d__39`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<double>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<double>>> selector;
+    public System.Nullable`1<double> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<double> <>7__wrap5;
+    public Awaiter<System.Nullable`1<double>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitWithCancellationAsync>d__3`2 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> selector;
+    public T <value>5__2;
+    public System.Collections.Generic.Comparer`1<T> <comparer>5__3;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> <e>5__4;
+    public object <>7__wrap4;
+    public int <>7__wrap5;
+    public T <>7__wrap6;
+    public Awaiter<T> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitWithCancellationAsync>d__43`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<System.Decimal>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<System.Decimal>>> selector;
+    public System.Nullable`1<System.Decimal> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<System.Decimal> <>7__wrap5;
+    public Awaiter<System.Nullable`1<System.Decimal>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MaxAwaitWithCancellationAsync>d__7`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<int> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<int>> selector;
+    public int <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<int> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MidiEnumerator>d__25 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public VRC.SDK3.Midi.VRCMidiPlayer <>4__this; // 0x20
+    public VRC.SDK3.Midi.MidiFile midiAsset; // 0x28
+    public float <maxEndTime>5__2; // 0x30
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFACBFFBAD0
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFACBFFC7A0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <MinAsync>d__0`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public T <value>5__2;
+    public System.Collections.Generic.Comparer`1<T> <comparer>5__3;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__4;
+    public object <>7__wrap4;
+    public int <>7__wrap5;
+    public T <>7__wrap6;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__12 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<float> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<float> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public float <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<float> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public Awaiter<bool> <>u__1; // 0x60
+    public Awaiter <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B6730
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B6FC0
+}
+
+public class <MinAsync>d__13`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<float> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,float> selector;
+    public float <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__16 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<double> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<double> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public double <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<double> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public Awaiter<bool> <>u__1; // 0x60
+    public Awaiter <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B6FF0
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B7880
+}
+
+public class <MinAsync>d__17`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<double> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,double> selector;
+    public double <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__1`2 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<U,T> selector;
+    public T <value>5__2;
+    public System.Collections.Generic.Comparer`1<T> <comparer>5__3;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> <e>5__4;
+    public object <>7__wrap4;
+    public int <>7__wrap5;
+    public T <>7__wrap6;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__20 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Decimal> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Decimal> source; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public System.Decimal <value>5__2; // 0x48
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Decimal> <e>5__3; // 0x58
+    public object <>7__wrap3; // 0x60
+    public int <>7__wrap4; // 0x68
+    public Awaiter<bool> <>u__1; // 0x70
+    public Awaiter <>u__2; // 0x80
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B78B0
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B8200
+}
+
+public class <MinAsync>d__21`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Decimal> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Decimal> selector;
+    public System.Decimal <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__24 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<int>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<int>> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Nullable`1<int> <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<int>> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public System.Nullable`1<int> <>7__wrap5; // 0x5C
+    public Awaiter<bool> <>u__1; // 0x68
+    public Awaiter <>u__2; // 0x78
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B8230
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B8AA0
+}
+
+public class <MinAsync>d__25`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<int>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<int>> selector;
+    public System.Nullable`1<int> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<int> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__28 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<long>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<long>> source; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public System.Nullable`1<long> <value>5__2; // 0x48
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<long>> <e>5__3; // 0x58
+    public object <>7__wrap3; // 0x60
+    public int <>7__wrap4; // 0x68
+    public System.Nullable`1<long> <>7__wrap5; // 0x70
+    public Awaiter<bool> <>u__1; // 0x80
+    public Awaiter <>u__2; // 0x90
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B8AD0
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B9370
+}
+
+public class <MinAsync>d__29`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<long>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<long>> selector;
+    public System.Nullable`1<long> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<long> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__32 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<float>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<float>> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Nullable`1<float> <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<float>> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public System.Nullable`1<float> <>7__wrap5; // 0x5C
+    public Awaiter<bool> <>u__1; // 0x68
+    public Awaiter <>u__2; // 0x78
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B93A0
+    public void SetStateMachine(){} // RVA: 0x7FFAC94B9C30
+}
+
+public class <MinAsync>d__33`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<float>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<float>> selector;
+    public System.Nullable`1<float> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<float> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__36 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<double>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<double>> source; // 0x38
+    public System.Threading.CancellationToken cancellationToken; // 0x40
+    public System.Nullable`1<double> <value>5__2; // 0x48
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<double>> <e>5__3; // 0x58
+    public object <>7__wrap3; // 0x60
+    public int <>7__wrap4; // 0x68
+    public System.Nullable`1<double> <>7__wrap5; // 0x70
+    public Awaiter<bool> <>u__1; // 0x80
+    public Awaiter <>u__2; // 0x90
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94B9C60
+    public void SetStateMachine(){} // RVA: 0x7FFAC94BA510
+}
+
+public class <MinAsync>d__37`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<double>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<double>> selector;
+    public System.Nullable`1<double> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<double> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__4 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<int> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<int> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public int <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<int> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public Awaiter<bool> <>u__1; // 0x60
+    public Awaiter <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94BA540
+    public void SetStateMachine(){} // RVA: 0x7FFAC94BADC0
+}
+
+public class <MinAsync>d__40 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<System.Decimal>> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<System.Nullable`1<System.Decimal>> source; // 0x40
+    public System.Threading.CancellationToken cancellationToken; // 0x48
+    public System.Nullable`1<System.Decimal> <value>5__2; // 0x50
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<System.Nullable`1<System.Decimal>> <e>5__3; // 0x68
+    public object <>7__wrap3; // 0x70
+    public int <>7__wrap4; // 0x78
+    public System.Nullable`1<System.Decimal> <>7__wrap5; // 0x80
+    public Awaiter<bool> <>u__1; // 0x98
+    public Awaiter <>u__2; // 0xA8
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94BADF0
+    public void SetStateMachine(){} // RVA: 0x7FFAC94BB7D0
+}
+
+public class <MinAsync>d__41`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<System.Decimal>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,System.Nullable`1<System.Decimal>> selector;
+    public System.Nullable`1<System.Decimal> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<System.Decimal> <>7__wrap5;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__5`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<int> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,int> selector;
+    public int <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAsync>d__8 : ValueType
+{
+    public int <>1__state; // 0x10
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<long> <>t__builder; // 0x18
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<long> source; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public long <value>5__2; // 0x40
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<long> <e>5__3; // 0x48
+    public object <>7__wrap3; // 0x50
+    public int <>7__wrap4; // 0x58
+    public Awaiter<bool> <>u__1; // 0x60
+    public Awaiter <>u__2; // 0x70
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC94BB800
+    public void SetStateMachine(){} // RVA: 0x7FFAC94BC080
+}
+
+public class <MinAsync>d__9`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<long> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,long> selector;
+    public long <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<bool> <>u__1;
+    public Awaiter <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__10`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<long> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<long>> selector;
+    public long <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<long> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__14`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<float> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<float>> selector;
+    public float <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<float> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__18`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<double> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<double>> selector;
+    public double <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<double> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__22`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Decimal> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Decimal>> selector;
+    public System.Decimal <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<System.Decimal> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__26`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<int>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<int>>> selector;
+    public System.Nullable`1<int> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<int> <>7__wrap5;
+    public Awaiter<System.Nullable`1<int>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__2`2 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<U,Cysharp.Threading.Tasks.UniTask`1<T>> selector;
+    public T <value>5__2;
+    public System.Collections.Generic.Comparer`1<T> <comparer>5__3;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> <e>5__4;
+    public object <>7__wrap4;
+    public int <>7__wrap5;
+    public T <>7__wrap6;
+    public Awaiter<T> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__30`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<long>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<long>>> selector;
+    public System.Nullable`1<long> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<long> <>7__wrap5;
+    public Awaiter<System.Nullable`1<long>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__34`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<float>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<float>>> selector;
+    public System.Nullable`1<float> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<float> <>7__wrap5;
+    public Awaiter<System.Nullable`1<float>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__38`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<double>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<double>>> selector;
+    public System.Nullable`1<double> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<double> <>7__wrap5;
+    public Awaiter<System.Nullable`1<double>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__42`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<System.Decimal>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<System.Decimal>>> selector;
+    public System.Nullable`1<System.Decimal> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<System.Decimal> <>7__wrap5;
+    public Awaiter<System.Nullable`1<System.Decimal>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitAsync>d__6`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<int> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`2<T,Cysharp.Threading.Tasks.UniTask`1<int>> selector;
+    public int <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<int> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__11`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<long> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<long>> selector;
+    public long <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<long> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__15`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<float> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<float>> selector;
+    public float <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<float> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__19`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<double> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<double>> selector;
+    public double <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<double> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__23`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Decimal> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Decimal>> selector;
+    public System.Decimal <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<System.Decimal> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__27`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<int>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<int>>> selector;
+    public System.Nullable`1<int> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<int> <>7__wrap5;
+    public Awaiter<System.Nullable`1<int>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__31`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<long>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<long>>> selector;
+    public System.Nullable`1<long> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<long> <>7__wrap5;
+    public Awaiter<System.Nullable`1<long>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__35`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<float>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<float>>> selector;
+    public System.Nullable`1<float> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<float> <>7__wrap5;
+    public Awaiter<System.Nullable`1<float>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__39`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<double>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<double>>> selector;
+    public System.Nullable`1<double> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<double> <>7__wrap5;
+    public Awaiter<System.Nullable`1<double>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__3`2 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<T> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<U> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<U,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<T>> selector;
+    public T <value>5__2;
+    public System.Collections.Generic.Comparer`1<T> <comparer>5__3;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<U> <e>5__4;
+    public object <>7__wrap4;
+    public int <>7__wrap5;
+    public T <>7__wrap6;
+    public Awaiter<T> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__43`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<System.Nullable`1<System.Decimal>> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<System.Decimal>>> selector;
+    public System.Nullable`1<System.Decimal> <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public System.Nullable`1<System.Decimal> <>7__wrap5;
+    public Awaiter<System.Nullable`1<System.Decimal>> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MinAwaitWithCancellationAsync>d__7`1 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<int> <>t__builder;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
+    public System.Threading.CancellationToken cancellationToken;
+    public System.Func`3<T,System.Threading.CancellationToken,Cysharp.Threading.Tasks.UniTask`1<int>> selector;
+    public int <value>5__2;
+    public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> <e>5__3;
+    public object <>7__wrap3;
+    public int <>7__wrap4;
+    public Awaiter<int> <>u__1;
+    public Awaiter<bool> <>u__2;
+    public Awaiter <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <Module>
+{
+}
+
+public class <MouseDragOutsideRect>d__194 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public UnityEngine.EventSystems.PointerEventData eventData; // 0x20
+    public VRC.SDK3.Components.VRCUrlInputField <>4__this; // 0x28
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFACC041EB0
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFACC0422B0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <MouseDragOutsideRect>d__199 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public UnityEngine.EventSystems.PointerEventData eventData; // 0x20
+    public UnityEngine.UI.InputField <>4__this; // 0x28
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC9C47A70
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC9C47E70
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <MouseDragOutsideRect>d__294 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+    public TMPro.TMP_InputField <>4__this; // 0x20
+    public UnityEngine.EventSystems.PointerEventData eventData; // 0x28
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC97873D0
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC9787730
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <MoveHaptic>d__2 : Object
+{
+    public int System.Collections.Generic.IEnumerator<System.Object>.Current; // 0x10
+    public object System.Collections.IEnumerator.Current; // 0x18
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAC2F240C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void MoveNext(){} // RVA: 0x7FFAC46C2FB0
+    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAC2F247C0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC46C3180
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2F247C0
+}
+
+public class <MoveNextAsync>d__7 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> <>t__builder;
+    public _ToUniTaskAsyncEnumerableTask<T> <>4__this;
+    public System.Runtime.CompilerServices.TaskAwaiter`1<T> <>u__1;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MoveNextAsync>d__9 : ValueType
+{
+    public int <>1__state;
+    public Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1<bool> <>t__builder;
+    public _Reverse<T> <>4__this;
+    public Awaiter<T[]> <>u__1;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC2C70980
+    public void SetStateMachine(){} // RVA: 0x7FFAC2C70A40
+}
+
+public class <MoveToContentFromNonContentAsync>d__14 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> <>t__builder; // 0x18
+    public Newtonsoft.Json.JsonReader <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public ConfiguredTaskAwaiter<bool> <>u__1; // 0x40
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC86F9070
+    public void SetStateMachine(){} // RVA: 0x7FFAC86F93D0
+}
+
+public class <MyGetResponseAsync>d__243 : ValueType
+{
+    public int <>1__state; // 0x10
+    public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Net.HttpWebResponse> <>t__builder; // 0x18
+    public System.Net.HttpWebRequest <>4__this; // 0x30
+    public System.Threading.CancellationToken cancellationToken; // 0x38
+    public System.Net.WebCompletionSource <completion>5__2; // 0x40
+    public System.Net.WebOperation <operation>5__3; // 0x48
+    public System.Net.WebException <throwMe>5__4; // 0x50
+    public System.Net.HttpWebResponse <response>5__5; // 0x58
+    public System.Net.WebResponseStream <stream>5__6; // 0x60
+    public bool <redirect>5__7; // 0x68
+    public bool <mustReadAll>5__8; // 0x69
+    public System.Net.WebOperation <ntlm>5__9; // 0x70
+    public System.Net.BufferOffsetSize <writeBuffer>5__10; // 0x78
+    public ConfiguredTaskAwaiter<System.Net.WebRequestStream> <>u__1; // 0x80
+    public ConfiguredTaskAwaiter <>u__2; // 0x90
+    public System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.WebResponseStream> <>u__3; // 0xA0
+    public ConfiguredTaskAwaiter<System.ValueTuple`5<System.Net.HttpWebResponse,bool,bool,System.Net.BufferOffsetSize,System.Net.WebOperation>> <>u__4; // 0xA8
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x7FFAC92FB300
+    public void SetStateMachine(){} // RVA: 0x7FFAC92FCFD0
+}
+
+public class <NearFieldGlobalBoostGain>e__FixedBuffer : ValueType
+{
+    public float FixedElementField; // 0x10
 }

@@ -15,7 +15,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Collections.Generic.IEqualityComparer`1<W> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09BCE0
+        public void .ctor(){} // RVA: 0x7FFAC2C7BCE0
         public void GetAsyncEnumerator(){}
     }
 
@@ -29,7 +29,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Collections.Generic.IEqualityComparer`1<W> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09BCE0
+        public void .ctor(){} // RVA: 0x7FFAC2C7BCE0
         public void GetAsyncEnumerator(){}
     }
 
@@ -43,7 +43,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
         public System.Collections.Generic.IEqualityComparer`1<W> comparer;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E09BCE0
+        public void .ctor(){} // RVA: 0x7FFAC2C7BCE0
         public void GetAsyncEnumerator(){}
     }
 

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.TextCore.LowLevel
-// Classes: 12
-// Methods: 67
+// Classes: 13
+// Methods: 68
 
 namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 {
@@ -17,35 +17,41 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Glyph> s_GlyphLookupDictionary; // 0x38
 
         // ── Methods ──
-        public void InitializeFontEngine(){} // RVA: 0x7FFD54E1A650
-        public void InitializeFontEngine_Internal(){} // RVA: 0x7FFD54E1A6D0
-        public void LoadFontFace(){} // RVA: 0x7FFD54E1AA60 | overloaded x4
-        public void LoadFontFace_With_Size_And_FaceIndex_Internal(){} // RVA: 0x7FFD54E1A7D0
-        public void LoadFontFace_With_Size_FromFont_Internal(){} // RVA: 0x7FFD54E1A8E0
-        public void LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal(){} // RVA: 0x7FFD54E1A9F0
-        public void LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal(){} // RVA: 0x7FFD54E1AB10
-        public void TryGetSystemFontReference(){} // RVA: 0x7FFD54E1AB80
-        public void TryGetSystemFontReference_Internal(){} // RVA: 0x7FFD54E1AC30
-        public void GetFaceInfo(){} // RVA: 0x7FFD54E1ACA0
-        public void GetFaceInfo_Internal(){} // RVA: 0x7FFD54E1ADA0
-        public void GetGlyphIndex(){} // RVA: 0x7FFD54E1ADF0
-        public void TryGetGlyphWithUnicodeValue(){} // RVA: 0x7FFD54E1AE40
-        public void TryGetGlyphWithUnicodeValue_Internal(){} // RVA: 0x7FFD54E1B070
-        public void TryGetGlyphWithIndexValue(){} // RVA: 0x7FFD54E1B0E0
-        public void TryGetGlyphWithIndexValue_Internal(){} // RVA: 0x7FFD54E1B310
-        public void SetTextureUploadMode(){} // RVA: 0x7FFD54E1B380
-        public void TryAddGlyphToTexture(){} // RVA: 0x7FFD54E1B3D0
-        public void TryAddGlyphToTexture_Internal(){} // RVA: 0x7FFD54E1BBA0
-        public void TryAddGlyphsToTexture(){} // RVA: 0x7FFD54E1BC20
-        public void TryAddGlyphsToTexture_Internal(){} // RVA: 0x7FFD54E1C960
-        public void GetGlyphPairAdjustmentTable(){} // RVA: 0x7FFD54E1C9F0
-        public void GetGlyphPairAdjustmentRecords(){} // RVA: 0x7FFD54E1CBA0
-        public void PopulatePairAdjustmentRecordMarshallingArray_from_KernTable(){} // RVA: 0x7FFD54E1CDA0
-        public void GetPairAdjustmentRecordsFromMarshallingArray(){} // RVA: 0x7FFD54E1CE00
-        public void GenericListToMarshallingArray(){} // RVA: 0x7FFD4E090C80
-        public void SetMarshallingArraySize(){} // RVA: 0x7FFD4E096370
-        public void ResetAtlasTexture(){} // RVA: 0x7FFD54E1CE50
-        public void .cctor(){} // RVA: 0x7FFD54E1CEA0
+        public void InitializeFontEngine(){} // RVA: 0x7FFAC99FA650
+        public void InitializeFontEngine_Internal(){} // RVA: 0x7FFAC99FA6D0
+        public void LoadFontFace(){} // RVA: 0x7FFAC99FAA60 | overloaded x4
+        public void LoadFontFace_With_Size_And_FaceIndex_Internal(){} // RVA: 0x7FFAC99FA7D0
+        public void LoadFontFace_With_Size_FromFont_Internal(){} // RVA: 0x7FFAC99FA8E0
+        public void LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal(){} // RVA: 0x7FFAC99FA9F0
+        public void LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal(){} // RVA: 0x7FFAC99FAB10
+        public void TryGetSystemFontReference(){} // RVA: 0x7FFAC99FAB80
+        public void TryGetSystemFontReference_Internal(){} // RVA: 0x7FFAC99FAC30
+        public void GetFaceInfo(){} // RVA: 0x7FFAC99FACA0
+        public void GetFaceInfo_Internal(){} // RVA: 0x7FFAC99FADA0
+        public void GetGlyphIndex(){} // RVA: 0x7FFAC99FADF0
+        public void TryGetGlyphWithUnicodeValue(){} // RVA: 0x7FFAC99FAE40
+        public void TryGetGlyphWithUnicodeValue_Internal(){} // RVA: 0x7FFAC99FB070
+        public void TryGetGlyphWithIndexValue(){} // RVA: 0x7FFAC99FB0E0
+        public void TryGetGlyphWithIndexValue_Internal(){} // RVA: 0x7FFAC99FB310
+        public void SetTextureUploadMode(){} // RVA: 0x7FFAC99FB380
+        public void TryAddGlyphToTexture(){} // RVA: 0x7FFAC99FB3D0
+        public void TryAddGlyphToTexture_Internal(){} // RVA: 0x7FFAC99FBBA0
+        public void TryAddGlyphsToTexture(){} // RVA: 0x7FFAC99FBC20
+        public void TryAddGlyphsToTexture_Internal(){} // RVA: 0x7FFAC99FC960
+        public void GetGlyphPairAdjustmentTable(){} // RVA: 0x7FFAC99FC9F0
+        public void GetGlyphPairAdjustmentRecords(){} // RVA: 0x7FFAC99FCBA0
+        public void PopulatePairAdjustmentRecordMarshallingArray_from_KernTable(){} // RVA: 0x7FFAC99FCDA0
+        public void GetPairAdjustmentRecordsFromMarshallingArray(){} // RVA: 0x7FFAC99FCE00
+        public void GenericListToMarshallingArray(){} // RVA: 0x7FFAC2C70C80
+        public void SetMarshallingArraySize(){} // RVA: 0x7FFAC2C76370
+        public void ResetAtlasTexture(){} // RVA: 0x7FFAC99FCE50
+        public void .cctor(){} // RVA: 0x7FFAC99FCEA0
+    }
+
+    public class FontEngineUtilities : ValueType
+    {
+        // ── Methods ──
+        public void MaxValue(){} // RVA: 0x7FFAC99FD240
     }
 
     public class FontReference : ValueType
@@ -62,10 +68,10 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public UnityEngine.TextCore.LowLevel.GlyphValueRecord glyphValueRecord; // 0x14
 
         // ── Methods ──
-        public void get_glyphIndex(){} // RVA: 0x7FFD543B3F90
-        public void get_glyphValueRecord(){} // RVA: 0x7FFD54E1D3D0
-        public void GetHashCode(){} // RVA: 0x7FFD54E1D3E0
-        public void Equals(){} // RVA: 0x7FFD54E1D4B0 | overloaded x2
+        public void get_glyphIndex(){} // RVA: 0x7FFAC8F93F90
+        public void get_glyphValueRecord(){} // RVA: 0x7FFAC99FD3D0
+        public void GetHashCode(){} // RVA: 0x7FFAC99FD3E0
+        public void Equals(){} // RVA: 0x7FFAC99FD4B0 | overloaded x2
     }
 
     public class GlyphAnchorPoint : ValueType
@@ -74,8 +80,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public float yCoordinate; // 0x14
 
         // ── Methods ──
-        public void get_xCoordinate(){} // RVA: 0x7FFD4E364D20
-        public void get_yCoordinate(){} // RVA: 0x7FFD4E364D30
+        public void get_xCoordinate(){} // RVA: 0x7FFAC2F44D20
+        public void get_yCoordinate(){} // RVA: 0x7FFAC2F44D30
     }
 
     public class GlyphMarshallingStruct : ValueType
@@ -85,21 +91,21 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public UnityEngine.TextCore.GlyphRect glyphRect; // 0x28
         public float scale; // 0x38
         public int atlasIndex; // 0x3C
-        public 0x666321A8 classDefinitionType; // 0x40
+        public 0x6B2D21A8 classDefinitionType; // 0x40
     }
 
     public class GlyphPairAdjustmentRecord : ValueType
     {
         public UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord firstAdjustmentRecord; // 0x10
         public UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord secondAdjustmentRecord; // 0x24
-        public 0x666325C8 featureLookupFlags; // 0x38
+        public 0x6B2D25C8 featureLookupFlags; // 0x38
 
         // ── Methods ──
-        public void get_firstAdjustmentRecord(){} // RVA: 0x7FFD54E1D540
-        public void get_secondAdjustmentRecord(){} // RVA: 0x7FFD54E1A5E0
-        public void get_featureLookupFlags(){} // RVA: 0x7FFD520AFE60
-        public void GetHashCode(){} // RVA: 0x7FFD54E1D550
-        public void Equals(){} // RVA: 0x7FFD54E1D640 | overloaded x2
+        public void get_firstAdjustmentRecord(){} // RVA: 0x7FFAC99FD540
+        public void get_secondAdjustmentRecord(){} // RVA: 0x7FFAC99FA5E0
+        public void get_featureLookupFlags(){} // RVA: 0x7FFAC6C8FE60
+        public void GetHashCode(){} // RVA: 0x7FFAC99FD550
+        public void Equals(){} // RVA: 0x7FFAC99FD640 | overloaded x2
     }
 
     public class GlyphValueRecord : ValueType
@@ -110,15 +116,15 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public float yAdvance; // 0x1C
 
         // ── Methods ──
-        public void get_xPlacement(){} // RVA: 0x7FFD4E364D20
-        public void set_xPlacement(){} // RVA: 0x7FFD4FEBB910
-        public void get_yPlacement(){} // RVA: 0x7FFD4E364D30
-        public void set_yPlacement(){} // RVA: 0x7FFD4FEBB8F0
-        public void get_xAdvance(){} // RVA: 0x7FFD4E364CF0
-        public void get_yAdvance(){} // RVA: 0x7FFD4E364D00
-        public void op_Addition(){} // RVA: 0x7FFD54E1D260
-        public void GetHashCode(){} // RVA: 0x7FFD54E1D280
-        public void Equals(){} // RVA: 0x7FFD54E1D350 | overloaded x2
+        public void get_xPlacement(){} // RVA: 0x7FFAC2F44D20
+        public void set_xPlacement(){} // RVA: 0x7FFAC4A9B910
+        public void get_yPlacement(){} // RVA: 0x7FFAC2F44D30
+        public void set_yPlacement(){} // RVA: 0x7FFAC4A9B8F0
+        public void get_xAdvance(){} // RVA: 0x7FFAC2F44CF0
+        public void get_yAdvance(){} // RVA: 0x7FFAC2F44D00
+        public void op_Addition(){} // RVA: 0x7FFAC99FD260
+        public void GetHashCode(){} // RVA: 0x7FFAC99FD280
+        public void Equals(){} // RVA: 0x7FFAC99FD350 | overloaded x2
     }
 
     public class LigatureSubstitutionRecord : ValueType
@@ -127,8 +133,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public uint ligatureGlyphID; // 0x18
 
         // ── Methods ──
-        public void get_componentGlyphIDs(){} // RVA: 0x7FFD505F9A30
-        public void get_ligatureGlyphID(){} // RVA: 0x7FFD5195D9A0
+        public void get_componentGlyphIDs(){} // RVA: 0x7FFAC51D9A30
+        public void get_ligatureGlyphID(){} // RVA: 0x7FFAC653D9A0
     }
 
     public class MarkPositionAdjustment : ValueType
@@ -137,8 +143,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public float yPositionAdjustment; // 0x14
 
         // ── Methods ──
-        public void get_xPositionAdjustment(){} // RVA: 0x7FFD4E364D20
-        public void get_yPositionAdjustment(){} // RVA: 0x7FFD4E364D30
+        public void get_xPositionAdjustment(){} // RVA: 0x7FFAC2F44D20
+        public void get_yPositionAdjustment(){} // RVA: 0x7FFAC2F44D30
     }
 
     public class MarkToBaseAdjustmentRecord : ValueType
@@ -149,10 +155,10 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public UnityEngine.TextCore.LowLevel.MarkPositionAdjustment markPositionAdjustment; // 0x20
 
         // ── Methods ──
-        public void get_baseGlyphID(){} // RVA: 0x7FFD543B3F90
-        public void get_baseGlyphAnchorPoint(){} // RVA: 0x7FFD54D5FAC0
-        public void get_markGlyphID(){} // RVA: 0x7FFD519BDBB0
-        public void get_markPositionAdjustment(){} // RVA: 0x7FFD54D97900
+        public void get_baseGlyphID(){} // RVA: 0x7FFAC8F93F90
+        public void get_baseGlyphAnchorPoint(){} // RVA: 0x7FFAC993FAC0
+        public void get_markGlyphID(){} // RVA: 0x7FFAC659DBB0
+        public void get_markPositionAdjustment(){} // RVA: 0x7FFAC9977900
     }
 
     public class MarkToMarkAdjustmentRecord : ValueType
@@ -163,10 +169,10 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public UnityEngine.TextCore.LowLevel.MarkPositionAdjustment combiningMarkPositionAdjustment; // 0x20
 
         // ── Methods ──
-        public void get_baseMarkGlyphID(){} // RVA: 0x7FFD543B3F90
-        public void get_baseMarkGlyphAnchorPoint(){} // RVA: 0x7FFD54D5FAC0
-        public void get_combiningMarkGlyphID(){} // RVA: 0x7FFD519BDBB0
-        public void get_combiningMarkPositionAdjustment(){} // RVA: 0x7FFD54D97900
+        public void get_baseMarkGlyphID(){} // RVA: 0x7FFAC8F93F90
+        public void get_baseMarkGlyphAnchorPoint(){} // RVA: 0x7FFAC993FAC0
+        public void get_combiningMarkGlyphID(){} // RVA: 0x7FFAC659DBB0
+        public void get_combiningMarkPositionAdjustment(){} // RVA: 0x7FFAC9977900
     }
 
     public class MultipleSubstitutionRecord : ValueType

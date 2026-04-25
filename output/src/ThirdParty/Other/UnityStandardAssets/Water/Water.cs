@@ -8,16 +8,16 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
     public class Displace : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFD4E351890
-        public void OnEnable(){} // RVA: 0x7FFD4E351A80
-        public void OnDisable(){} // RVA: 0x7FFD4E351B50
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Awake(){} // RVA: 0x7FFAC2F31890
+        public void OnEnable(){} // RVA: 0x7FFAC2F31A80
+        public void OnDisable(){} // RVA: 0x7FFAC2F31B50
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class GerstnerDisplace : Displace
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class MeshContainer : Object
@@ -27,8 +27,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
         public UnityEngine.Vector3[] normals; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFD4E351C20
-        public void Update(){} // RVA: 0x7FFD4E351D60
+        public void .ctor(){} // RVA: 0x7FFAC2F31C20
+        public void Update(){} // RVA: 0x7FFAC2F31D60
     }
 
     public class PlanarReflection : MonoBehaviour
@@ -44,22 +44,22 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
         public System.Collections.Generic.Dictionary`2<UnityEngine.Camera,bool> m_HelperCameras; // 0x60
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E351E80
-        public void CreateReflectionCameraFor(){} // RVA: 0x7FFD4E352090
-        public void SetStandardCameraParameter(){} // RVA: 0x7FFD4E3529C0
-        public void CreateTextureFor(){} // RVA: 0x7FFD4E352B50
-        public void RenderHelpCameras(){} // RVA: 0x7FFD4E352CE0
-        public void LateUpdate(){} // RVA: 0x7FFD4E352FF0
-        public void WaterTileBeingRendered(){} // RVA: 0x7FFD4E353040
-        public void OnEnable(){} // RVA: 0x7FFD4E353230
-        public void OnDisable(){} // RVA: 0x7FFD4E353300
-        public void RenderReflectionFor(){} // RVA: 0x7FFD4E3533D0
-        public void SaneCameraSettings(){} // RVA: 0x7FFD4E3546B0
-        public void CalculateObliqueMatrix(){} // RVA: 0x7FFD4E354800
-        public void CalculateReflectionMatrix(){} // RVA: 0x7FFD4E354A00
-        public void Sgn(){} // RVA: 0x7FFD4E354B70
-        public void CameraSpacePlane(){} // RVA: 0x7FFD4E354BA0
-        public void .ctor(){} // RVA: 0x7FFD4E354F90
+        public void Start(){} // RVA: 0x7FFAC2F31E80
+        public void CreateReflectionCameraFor(){} // RVA: 0x7FFAC2F32090
+        public void SetStandardCameraParameter(){} // RVA: 0x7FFAC2F329C0
+        public void CreateTextureFor(){} // RVA: 0x7FFAC2F32B50
+        public void RenderHelpCameras(){} // RVA: 0x7FFAC2F32CE0
+        public void LateUpdate(){} // RVA: 0x7FFAC2F32FF0
+        public void WaterTileBeingRendered(){} // RVA: 0x7FFAC2F33040
+        public void OnEnable(){} // RVA: 0x7FFAC2F33230
+        public void OnDisable(){} // RVA: 0x7FFAC2F33300
+        public void RenderReflectionFor(){} // RVA: 0x7FFAC2F333D0
+        public void SaneCameraSettings(){} // RVA: 0x7FFAC2F346B0
+        public void CalculateObliqueMatrix(){} // RVA: 0x7FFAC2F34800
+        public void CalculateReflectionMatrix(){} // RVA: 0x7FFAC2F34A00
+        public void Sgn(){} // RVA: 0x7FFAC2F34B70
+        public void CameraSpacePlane(){} // RVA: 0x7FFAC2F34BA0
+        public void .ctor(){} // RVA: 0x7FFAC2F34F90
     }
 
     public class SpecularLighting : MonoBehaviour
@@ -68,14 +68,14 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
         public UnityStandardAssets.Water.WaterBase m_WaterBase; // 0x28
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E355060
-        public void Update(){} // RVA: 0x7FFD4E3552B0
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC2F35060
+        public void Update(){} // RVA: 0x7FFAC2F352B0
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class Water : MonoBehaviour
     {
-        public 0x6651AA80 waterMode; // 0x20
+        public 0x6B1BAA80 waterMode; // 0x20
         public bool disablePixelLights; // 0x24
         public int textureSize; // 0x28
         public float clipPlaneOffset; // 0x2C
@@ -85,42 +85,42 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
         public System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera> m_RefractionCameras; // 0x40
         public UnityEngine.RenderTexture m_ReflectionTexture; // 0x48
         public UnityEngine.RenderTexture m_RefractionTexture; // 0x50
-        public 0x6651AA80 m_HardwareWaterSupport; // 0x58
+        public 0x6B1BAA80 m_HardwareWaterSupport; // 0x58
         public int m_OldReflectionTextureSize; // 0x5C
         public int m_OldRefractionTextureSize; // 0x60
         public bool s_InsideWater;
 
         // ── Methods ──
-        public void OnWillRenderObject(){} // RVA: 0x7FFD4E355770
-        public void OnDisable(){} // RVA: 0x7FFD4E3565E0
-        public void Update(){} // RVA: 0x7FFD4E356C30
-        public void UpdateCameraModes(){} // RVA: 0x7FFD4E357100
-        public void CreateWaterObjects(){} // RVA: 0x7FFD4E357680
-        public void GetWaterMode(){} // RVA: 0x7FFD4E358A00
-        public void FindHardwareWaterSupport(){} // RVA: 0x7FFD4E358A10
-        public void CameraSpacePlane(){} // RVA: 0x7FFD4E358D00
-        public void CalculateReflectionMatrix(){} // RVA: 0x7FFD4E3590F0
-        public void .ctor(){} // RVA: 0x7FFD4E359210
+        public void OnWillRenderObject(){} // RVA: 0x7FFAC2F35770
+        public void OnDisable(){} // RVA: 0x7FFAC2F365E0
+        public void Update(){} // RVA: 0x7FFAC2F36C30
+        public void UpdateCameraModes(){} // RVA: 0x7FFAC2F37100
+        public void CreateWaterObjects(){} // RVA: 0x7FFAC2F37680
+        public void GetWaterMode(){} // RVA: 0x7FFAC2F38A00
+        public void FindHardwareWaterSupport(){} // RVA: 0x7FFAC2F38A10
+        public void CameraSpacePlane(){} // RVA: 0x7FFAC2F38D00
+        public void CalculateReflectionMatrix(){} // RVA: 0x7FFAC2F390F0
+        public void .ctor(){} // RVA: 0x7FFAC2F39210
     }
 
     public class WaterBase : MonoBehaviour
     {
         public UnityEngine.Material sharedMaterial; // 0x20
-        public 0x6651AB30 waterQuality; // 0x28
+        public 0x6B1BAB30 waterQuality; // 0x28
         public bool edgeBlend; // 0x2C
 
         // ── Methods ──
-        public void UpdateShader(){} // RVA: 0x7FFD4E3593B0
-        public void WaterTileBeingRendered(){} // RVA: 0x7FFD4E359860
-        public void Update(){} // RVA: 0x7FFD4E359980
-        public void .ctor(){} // RVA: 0x7FFD4E359A60
+        public void UpdateShader(){} // RVA: 0x7FFAC2F393B0
+        public void WaterTileBeingRendered(){} // RVA: 0x7FFAC2F39860
+        public void Update(){} // RVA: 0x7FFAC2F39980
+        public void .ctor(){} // RVA: 0x7FFAC2F39A60
     }
 
     public class WaterBasic : MonoBehaviour
     {
         // ── Methods ──
-        public void Update(){} // RVA: 0x7FFD4E351520
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Update(){} // RVA: 0x7FFAC2F31520
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
     public class WaterTile : MonoBehaviour
@@ -129,10 +129,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Water
         public UnityStandardAssets.Water.WaterBase waterBase; // 0x28
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFD4E359AB0
-        public void AcquireComponents(){} // RVA: 0x7FFD4E359AC0
-        public void OnWillRenderObject(){} // RVA: 0x7FFD4E35A230
-        public void .ctor(){} // RVA: 0x7FFD4E341D50
+        public void Start(){} // RVA: 0x7FFAC2F39AB0
+        public void AcquireComponents(){} // RVA: 0x7FFAC2F39AC0
+        public void OnWillRenderObject(){} // RVA: 0x7FFAC2F3A230
+        public void .ctor(){} // RVA: 0x7FFAC2F21D50
     }
 
 }
