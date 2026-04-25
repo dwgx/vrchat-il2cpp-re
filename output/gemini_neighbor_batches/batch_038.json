@@ -1,0 +1,353 @@
+[
+ {
+  "class": "ComplexComponentImplImpl_A2BB",
+  "parent": "ÌÎÎÏÎÌÍÏÌÌÍÌÏÏÎÍÏÏÌÏÍÏÍ",
+  "known_methods": [
+   "LateUpdate",
+   "OnDestroy",
+   "OnApplicationPause",
+   "OnApplicationQuit",
+   "OnBecameVisible",
+   "OnBecameInvisible",
+   "Initialize",
+   "UpdateFontAsset",
+   "Start",
+   "FixedUpdate",
+   "GetCachedPtr",
+   "Update",
+   "Internal_CancelInvokeAll",
+   "OnCollisionEnter"
+  ],
+  "hash_keys": [
+   "ComplexComponentImplImpl_A2BB::m_953",
+   "ComplexComponentImplImpl_A2BB::m_897"
+  ],
+  "total": 24,
+  "named_pct": "87%"
+ },
+ {
+  "class": "UpdateComponentImpl_18F4",
+  "parent": "ÎÏÏÏÎÍÍÌÎÎÍÌÌÌÍÏÏÎÎÍÎÏÏ",
+  "known_methods": [
+   "SyncTransform",
+   "ReadComponentUpdatePosition",
+   "ApplyComponentUpdatePosition",
+   "GetBufferedTimes",
+   "ApplyTransform",
+   "GetUnityEngine",
+   "DrawHorizontalScrollbar",
+   "ApplyComponentUpdateRotationOffset",
+   "DoHorizontalToVertica",
+   "GetIKSolver",
+   "OnDestroy",
+   "Start",
+   "GetLanguage",
+   "Update",
+   "LateUpdate",
+   "OnDisable",
+   "GetSessionId",
+   "OnApplicationPause",
+   "OnApplicationQuit",
+   "Initialize",
+   "OnCollisionStay",
+   "OnCollisionExit",
+   "OnTriggerEnter",
+   "OnTriggerStay",
+   "OnTriggerExit"
+  ],
+  "hash_keys": [
+   "UpdateComponentImpl_18F4::m_0BB",
+   "UpdateComponentImpl_18F4::m_795",
+   "UpdateComponentImpl_18F4::m_C41",
+   "UpdateComponentImpl_18F4::m_AD8",
+   "UpdateComponentImpl_18F4::m_434",
+   "UpdateComponentImpl_18F4::m_8F5"
+  ],
+  "total": 35,
+  "named_pct": "80%"
+ },
+ {
+  "class": "PointerEnterPointerExitHandlerImpl_F801",
+  "parent": "ÌÎÍÏÏÏÎÌÎÍÏÍÏÌÎÎÏÏÎÍÌÍÏ",
+  "known_methods": [
+   "get_destroyCancellationToken",
+   "RaiseCancellation",
+   "Initialize",
+   "TryReadBounds",
+   "IsValidForNetworkSync",
+   "StartCoroutine",
+   "Update",
+   "InvokeCallbacks",
+   "UpdatelocalPositio",
+   "ResetPointerStateFromValue"
+  ],
+  "hash_keys": [
+   "PointerEnterPointerExitHandlerImpl_F801::m_B4B",
+   "PointerEnterPointerExitHandlerImpl_F801::m_8A6"
+  ],
+  "total": 17,
+  "named_pct": "83%"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_D288",
+  "parent": "ÏÌÏÌÍÍÍÍÍÏÍÏÌÌÍÌÌÍÎÏÌÍÏ",
+  "known_methods": [
+   "get_FileId",
+   "Initialize",
+   "Initialize_ctrlKeyboardf15"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImpl_D288::m_D38"
+  ],
+  "total": 11,
+  "named_pct": "75%"
+ },
+ {
+  "class": "Type16m1f_2563",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "Initialize",
+   "get_anisoLevel"
+  ],
+  "hash_keys": [
+   "Type16m1f_2563::m_92A"
+  ],
+  "total": 16,
+  "named_pct": "92%"
+ },
+ {
+  "class": "PlayerReleaseHandle_25C7",
+  "parent": "SafeHandleZeroOrMinusOneIsInvalid",
+  "known_methods": [
+   "get_IsInvalid",
+   "Initialize",
+   "ResetHandleState",
+   "DoLookRotation_Injected_D62",
+   "ComputeRoot",
+   "EnsureReleaseHandleStatics",
+   "DoRecentering",
+   "Equals",
+   "get_destroyCancellationToken"
+  ],
+  "hash_keys": [
+   "PlayerReleaseHandle_25C7::m_810",
+   "PlayerReleaseHandle_25C7::m_A71"
+  ],
+  "total": 14,
+  "named_pct": "81%"
+ },
+ {
+  "class": "EffectBundleIDIsSpecialFX_EDFC",
+  "parent": "ÎÌÍÌÏÌÎÌÎÏÏÏÏÎÏÍÏÍÌÍÍÎÌ",
+  "known_methods": [
+   "set_EffectBundleID",
+   "Awake",
+   "FormatDbNullValue",
+   "set_IsSpecialFX",
+   "get_PointerPose",
+   "Initialize",
+   "GetLanguage",
+   "Equals"
+  ],
+  "hash_keys": [
+   "EffectBundleIDIsSpecialFX_EDFC::m_171"
+  ],
+  "total": 13,
+  "named_pct": "88%"
+ },
+ {
+  "class": "BaseClass7Impl_4B08",
+  "parent": "ÌÌÏÌÎÍÍÏÏÍÎÎÌÌÍÏÏÏÍÎÏÏÌ",
+  "known_methods": [
+   "GetHandlerAtIndex",
+   "Getrect_Injected",
+   "GetPlaybackQualityStats",
+   "SetInternalComponentValue",
+   "Initialize",
+   "GetLanguage",
+   "GetGameObject_DFA",
+   "StartCoroutine",
+   "GetProcessedValue",
+   "StopCoroutine",
+   "UpdateActive",
+   "CancelInvoke",
+   "StartCoroutineManaged"
+  ],
+  "hash_keys": [
+   "BaseClass7Impl_4B08::m_FAF"
+  ],
+  "total": 20,
+  "named_pct": "92%"
+ },
+ {
+  "class": "UIObservableListImpl_A05A",
+  "parent": "ÎÌÎÏÍÏÎÎÌÎÎÎÎÌÎÎÌÍÍÍÏÌÏ",
+  "known_methods": [
+   "IndexOf",
+   "get_ObservableList",
+   "set_ObservableList",
+   "OnEnable",
+   "OnDisable",
+   "ComputegameObject",
+   "Initialize"
+  ],
+  "hash_keys": [
+   "UIObservableListImpl_A05A::m_5EE",
+   "UIObservableListImpl_A05A::m_B40",
+   "UIObservableListImpl_A05A::m_19D",
+   "UIObservableListImpl_A05A::m_F17"
+  ],
+  "total": 15,
+  "named_pct": "63%"
+ },
+ {
+  "class": "LifecycleComponentImpl_404E",
+  "parent": "ÍÌÎÌÎÎÍÍÍÍÎÍÍÎÌÏÍÍÌÎÍÏÎ",
+  "known_methods": [
+   "OnDestroy",
+   "GetGameObject_348",
+   "CancelInvoke",
+   "Initialize"
+  ],
+  "hash_keys": [
+   "LifecycleComponentImpl_404E::m_E8B",
+   "LifecycleComponentImpl_404E::m_543",
+   "LifecycleComponentImpl_404E::m_526"
+  ],
+  "total": 12,
+  "named_pct": "57%"
+ },
+ {
+  "class": "ComplexComponentImplImpl_AD99",
+  "parent": "ÌÎÎÏÎÌÍÏÌÌÍÌÏÏÎÍÏÏÌÏÍÏÍ",
+  "known_methods": [
+   "LateUpdate",
+   "Start",
+   "OnDestroy",
+   "OnApplicationQuit",
+   "OnBecameVisible",
+   "FixedUpdate",
+   "UpdateFontAsset",
+   "OnTriggerExit",
+   "OnApplicationPause",
+   "Initialize",
+   "OnCollisionEnter",
+   "OnCollisionStay",
+   "OnCollisionExit",
+   "OnTriggerStay",
+   "GetUnityEngine",
+   "OnTriggerEnter",
+   "DefaultEquals"
+  ],
+  "hash_keys": [
+   "ComplexComponentImplImpl_AD99::m_8CC"
+  ],
+  "total": 29,
+  "named_pct": "94%"
+ },
+ {
+  "class": "floatVal_29F7",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "GetSkeletonType",
+   "IsValid",
+   "GetCachedPtr",
+   "Initialize",
+   "Instantiate",
+   "ToString",
+   "SetConnectedBody",
+   "DoesParentExists",
+   "MarkLayoutForRebuild",
+   "Destroy",
+   "DestroyImmediate",
+   "GetGameObject",
+   "FindObjectsOfType",
+   "FindObjectsByType",
+   "DontDestroyOnLoad"
+  ],
+  "hash_keys": [
+   "floatVal_29F7::m_163"
+  ],
+  "total": 28,
+  "named_pct": "95%"
+ },
+ {
+  "class": "LifecycleComponentSiblingSibling_3BE5",
+  "parent": "ÍÎÏÌÌÏÏÎÌÍÍÌÎÏÏÏÌÏÍÏÏÏÏ",
+  "known_methods": [
+   "CancelInvoke",
+   "RaiseCancellation",
+   "IsInvoking",
+   "get_type",
+   "Enable",
+   "Computepersistent",
+   "__GetValue__SystemInt32__SystemObject",
+   "Updateposition_Inj",
+   "OnDisable",
+   "Initialize",
+   "__GetComponents__SystemType__UnityEngineComponentArray"
+  ],
+  "hash_keys": [
+   "LifecycleComponentSiblingSibling_3BE5::m_A8F"
+  ],
+  "total": 15,
+  "named_pct": "91%"
+ },
+ {
+  "class": "LifecycleComponentSibling_F1D5",
+  "parent": "",
+  "known_methods": [
+   "ReadLastServiceDescriptor",
+   "MarshalDebugViewValue",
+   "FetchLastServiceDescriptor",
+   "GetLastServiceDescriptor",
+   "ResolveLastServiceDescriptor",
+   "ContainsChild",
+   "Enable",
+   "SetMessageAndClearFlag",
+   "UnboxThunk",
+   "WriteValue"
+  ],
+  "hash_keys": [
+   "LifecycleComponentSibling_F1D5::m_E9A"
+  ],
+  "total": 17,
+  "named_pct": "90%"
+ },
+ {
+  "class": "BaseClass16Impl_B03F",
+  "parent": "ÌÎÎÍÍÏÍÌÎÌÌÍÎÌÌÌÌÎÍÎÎÎÎ",
+  "known_methods": [
+   "InitializeStatics",
+   "DoGetIsLoadedInternal_2E5",
+   "ConfigureLoadingState",
+   "DrawHorizontalScrollbar",
+   "InvokeWithZero",
+   "InvalidSelector",
+   "Internal_GetSpriteBounds",
+   "OnCollisionExit"
+  ],
+  "hash_keys": [
+   "BaseClass16Impl_B03F::m_C66",
+   "BaseClass16Impl_B03F::m_CF4",
+   "BaseClass16Impl_B03F::m_DD4"
+  ],
+  "total": 16,
+  "named_pct": "72%"
+ }
+]

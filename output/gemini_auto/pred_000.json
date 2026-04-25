@@ -1,0 +1,8 @@
+```json
+{
+  "AnimatedTextureBaseImpl_937F::m_330": "UpdateFrame",
+  "AnimatedTextureBaseImpl_937F::m_259": "RenderTexture",
+  "AnimatedTextureBaseImpl_937F::m_9A8": "InitializePlayback",
+  "BaseClass16Impl_C741::m_E2B": "UpdateSpriteBounds"
+}
+```

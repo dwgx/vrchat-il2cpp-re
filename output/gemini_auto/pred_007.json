@@ -1,0 +1,19 @@
+```json
+{
+  "BaseClass3Impl_8BCD": "LayerCallbackController",
+  "VRC_MainSibling_0495": "PayloadManager",
+  "LifecycleComponentImpl_56A6": "LifecycleComponent",
+  "PhotonConnectionHandler_DE2B": "BufferedCollisionHandler",
+  "BaseClass16Impl_A082": "UIComponentLoader",
+  "WorldSpawn_F00B": "WorldSpawner",
+  "Service29m_EF04": "AvatarService",
+  "BaseClass3ImplSibling_80E0": "UILayoutNode",
+  "ComplexComponent_B308": "IKOverlayComponent",
+  "ComplexComponent_5FD1": "AppSettingsManager",
+  "ComplexComponentSibling_3824": "OVRTelemetryManager",
+  "ComplexComponentSibling_BDAB": "ApplicationQuitHandler",
+  "BaseClass7Impl_876F": "PlaybackQualityMonitor",
+  "LifecycleComponent_D88C": "CollisionTriggerComponent",
+  "LifecycleComponentSiImpl_53FD": "GameObjectActivator"
+}
+```

@@ -1,0 +1,11 @@
+{
+  "VRC_Main::m_FBC": "InitializeState",
+  "LifecycleComponentSibling_FD32::m_69E": "UpdateLifecycle",
+  "AvatarPickupUseDownPickup_640A::m_863": "ProcessPickupState",
+  "BaseClass3Impl_65CA::m_CFF": "GetUdonComponent",
+  "Type16m1f_AA5C::m_69A": "ProcessChildTransforms",
+  "Unknown11m_7BC8::m_A89": "ReadTransformState",
+  "BaseClass21Impl_232E::m_CD8": "UpdateStateData",
+  "AnimatedTextureBaseImplImpl_9422::m_096": "CreateAnimatedTexture",
+  "ComplexComponentImpl_DC2C::m_CD3": "UpdateDC2C"
+}

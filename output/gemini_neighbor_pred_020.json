@@ -1,0 +1,19 @@
+MCP issues detected. Run /mcp list for status.```json
+{
+  "BaseClass16Impl_1D76": "ScrollbarOperationState",
+  "BaseClass16Impl_2C27": "VisualTransformController",
+  "EffectmaterialForRenderingGetMaterial_5E1C": "TextMaterialRebuilder",
+  "LifecycleComponentImpl_5409": "LifecycleComponent",
+  "Service54m_1317": "ServiceDescriptorWriter",
+  "Type20m3f_4262": "OvrSpaceNativeObject",
+  "BaseClass7Impl_A458": "FloatPropertyInterpolator",
+  "BaseClass3Impl_8BCD": "LayerCallbackController",
+  "VRC_MainSibling_0495": "MainPayloadBehaviour",
+  "LifecycleComponentImpl_56A6": "BasicLifecycleBehaviour",
+  "PhotonConnectionHandler_DE2B": "PhotonCollisionBehaviour",
+  "BaseClass16Impl_A082": "ComponentLoadStatus",
+  "WorldSpawn_F00B": "WorldSpawnController",
+  "Service29m_EF04": "AvatarSessionController",
+  "BaseClass3ImplSibling_80E0": "UILayoutDebugWriter"
+}
+```

@@ -1,0 +1,216 @@
+== Handles ==
+0x2a4 type=Event name='' tid=None creator=None
+0x590 type=Semaphore name='' tid=None creator=None
+0x5a0 type=Semaphore name='' tid=None creator=None
+0x5b0 type=Semaphore name='' tid=None creator=None
+0x5c0 type=Semaphore name='' tid=None creator=None
+0x5d0 type=Semaphore name='' tid=None creator=None
+0x5e0 type=Semaphore name='' tid=None creator=None
+0x5f0 type=Semaphore name='' tid=None creator=None
+0x600 type=Semaphore name='' tid=None creator=None
+0x610 type=Semaphore name='' tid=None creator=None
+0x620 type=Semaphore name='' tid=None creator=None
+0x630 type=Semaphore name='' tid=None creator=None
+0x644 type=Semaphore name='' tid=None creator=None
+0x654 type=Semaphore name='' tid=None creator=None
+0x664 type=Semaphore name='' tid=None creator=None
+0x674 type=Semaphore name='' tid=None creator=None
+0x684 type=Semaphore name='' tid=None creator=None
+0x694 type=Semaphore name='' tid=None creator=None
+0x6a4 type=Semaphore name='' tid=None creator=None
+0x6b4 type=Semaphore name='' tid=None creator=None
+0x6c8 type=Semaphore name='' tid=None creator=None
+0x6d8 type=Semaphore name='' tid=None creator=None
+0x6e8 type=Semaphore name='' tid=None creator=None
+0x6f8 type=Semaphore name='' tid=None creator=None
+
+== Aggregated Waits ==
+
+== Outstanding Waits ==
+
+== Latest Wait Per Thread ==
+
+== VERSION Waits ==
+
+== Thread Snapshot ==
+tid=2176 state=running rip=0x7ff83b8a1ad4 rcx=0x5d0 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=7260 state=running rip=0x7ff83b8a1ad4 rcx=0x6c8 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=11080 state=running rip=0x7ff83b8a1ad4 rcx=0x620 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=26920 state=running rip=0x7ff83b8a1ad4 rcx=0x5b0 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=35888 state=running rip=0x7ff83b8a1ad4 rcx=0x6b4 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=36004 state=running rip=0x7ff83b8a1ad4 rcx=0x674 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=36720 state=running rip=0x7ff83b8a1ad4 rcx=0x6d8 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=125224 state=running rip=0x7ff83b8a1ad4 rcx=0x5c0 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=149512 state=running rip=0x7ff8392c13e4 rcx=0x9d7980 rdx=0xf3cb90 r8=0x20c000
+  USER32.dll+0xdaca
+  USER32.dll+0x6c54b
+  USER32.dll+0x2b387
+  USER32.dll+0x2cc86
+  USER32.dll+0x60702
+  ntdll.dll+0x1cde4
+  ntdll.dll+0x1cca4
+  USER32.dll+0x41915
+  USER32.dll+0x6015f
+  USER32.dll+0x8db50
+tid=152692 state=running rip=0x7ff83b8a1ad4 rcx=0x590 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=152832 state=running rip=0x7ff83b8a5704 rcx=0x18 rdx=0x5a8810 r8=0x10
+  ntdll.dll+0x75e0e
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=153776 state=running rip=0x7ff83b8a5704 rcx=0x18 rdx=0x541390 r8=0x10
+  ntdll.dll+0x75e0e
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+  frida-agent.dll+0x27f804
+  frida-agent.dll+0xff9bac
+  frida-agent.dll+0x1db7a8
+  frida-agent.dll+0x1db9c0
+  frida-agent.dll+0x1db7a8
+tid=157480 state=running rip=0x7ff83b8a1ad4 rcx=0x5f0 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=159472 state=running rip=0x7ff83b8a1ad4 rcx=0x6a4 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=161628 state=running rip=0x7ff83b8a1ad4 rcx=0x6e8 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=162756 state=running rip=0x7ff83b8a1ad4 rcx=0x664 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=162768 state=running rip=0x7ff83b8a1ad4 rcx=0x684 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=163948 state=running rip=0x7ff83b8a1ad4 rcx=0x694 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=165348 state=running rip=0x7ff83b8a1ad4 rcx=0x654 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=165992 state=running rip=0x7ff83b8a1ad4 rcx=0x2a4 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  VERSION.dll+0x5daa0c
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=166552 state=running rip=0x7ff83b8a1ad4 rcx=0x600 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=166600 state=running rip=0x7ff83b8a1ad4 rcx=0x644 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=168024 state=running rip=0x7ff83b8a1ad4 rcx=0x5e0 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=168348 state=running rip=0x7ff83b8a1ad4 rcx=0x6f8 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=168516 state=running rip=0x7ff83b8a1ad4 rcx=0x5a0 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=168636 state=running rip=0x7ff83b8a1ad4 rcx=0x630 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+tid=168820 state=running rip=0x7ff83b8a1ad4 rcx=0x610 rdx=0x0 r8=0x0
+  KERNELBASE.dll+0x3bc5f
+  UnityPlayer.dll+0x5b7370
+  UnityPlayer.dll+0x6b92a3
+  KERNEL32.DLL+0x2e8d7
+  ntdll.dll+0x8c40c
+
+== VERSION Disasm ==
+base=0x7fff55670000 target=0x7fff55b3186a previous=VERSION.dll+0x4c1868: adc al, 0xb1
+VERSION.dll+0x4c1868: adc al, 0xb1  ; previous-ending-at-target
+>> VERSION.dll+0x4c186a: adc dword ptr [rax], eax
+VERSION.dll+0x4c186c: mov rcx, qword ptr [rbp - 0x68]
+VERSION.dll+0x4c1870: call rbx
+VERSION.dll+0x4c1872: lea rcx, [rbp - 0x60]
+VERSION.dll+0x4c1876: call 0x7fff55c4c9d0
+VERSION.dll+0x4c187b: nop
+VERSION.dll+0x4c187c: add rsp, 0x58
+VERSION.dll+0x4c1880: pop rbx
+VERSION.dll+0x4c1881: pop rsi
+VERSION.dll+0x4c1882: pop rdi

@@ -1,0 +1,21 @@
+MCP issues detected. Run /mcp list for status.```json
+{
+  "ComplexComponent_4764::m_844": "InitializeComponent",
+  "gameObject_877B::m_91A": "CopyTo",
+  "PIDControllerSiblingSiblingSibling_2E92::m_35C": "Evaluate",
+  "NetworkSyncableSibling_DA24::m_9D6": "UpdateSync",
+  "UdonUnregisterEventHandlerRegisterEventHandl_2C20::m_683": "MoveNext",
+  "UpdateComponentSibling_31A5::m_B1A": "GetCount",
+  "LifecycleComponentSibling_D1C9::m_A8F": "Invoke",
+  "BaseClass16Impl_1D76::m_8F3": "Execute",
+  "BaseClass136Impl_B8EC::m_5BE": "CopyTo",
+  "ComplexComponent_B308::m_471": "ResolveInterfaceMethod",
+  "Static3m_0CDA::m_620": "CopyTo",
+  "Static3m_0CDA::m_9B1": "CopyTo",
+  "Static3m_0CDA::m_0B8": "CopyTo",
+  "VRC_MainSibling_0495::m_A95": "InvokeMethod",
+  "VRC_MainSibling_0495::m_0F5": "InvokeMethod",
+  "VRC_MainSibling_0495::m_BCC": "InvokeMethod",
+  "VRC_MainSibling_0495::m_A43": "InvokeMethod"
+}
+```

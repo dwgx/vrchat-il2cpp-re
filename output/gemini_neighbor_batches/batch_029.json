@@ -1,0 +1,456 @@
+[
+ {
+  "class": "ComplexComponentSibling_F021",
+  "parent": "",
+  "known_methods": [
+   "AcquireLastServiceDescriptor",
+   "LoadLastServiceDescriptor",
+   "QueryLastServiceDescriptor",
+   "GetLastServiceDescriptor",
+   "CollectLastServiceDescriptor",
+   "ResolveLastServiceDescriptor",
+   "ReturnLastServiceDescriptor",
+   "SelectLastServiceDescriptor",
+   "FetchLastServiceDescriptor",
+   "ReadLastServiceDescriptor",
+   "DelegateCall",
+   "IsNativeSupportEnabled",
+   "IsNativeSupportEnabled",
+   "ContainsChild",
+   "WriteValue",
+   "SnapForObservation",
+   "Equals",
+   "OnWriteResume",
+   "Return"
+  ],
+  "hash_keys": [
+   "ComplexComponentSibling_F021::m_3EC"
+  ],
+  "total": 30,
+  "named_pct": "95%"
+ },
+ {
+  "class": "Static14m_EE19",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "Initialize",
+   "ToString"
+  ],
+  "hash_keys": [
+   "Static14m_EE19::m_282"
+  ],
+  "total": 14,
+  "named_pct": "92%"
+ },
+ {
+  "class": "PIDControllerSiblingSiblingSibling_8F85",
+  "parent": "ÏÍÏÍÏÎÎÌÎÏÏÍÏÏÍÍÍÎÎÏÎÏÏ",
+  "known_methods": [
+   "__GetComponentInChildren__SystemType__UnityEngineComponent",
+   "Initialize",
+   "get_name",
+   "GetCachedPtr",
+   "Instantiate",
+   "Update",
+   "GetTypeCode",
+   "__GetValue__SystemInt32Array__SystemObject"
+  ],
+  "hash_keys": [
+   "PIDControllerSiblingSiblingSibling_8F85::m_382",
+   "PIDControllerSiblingSiblingSibling_8F85::m_676",
+   "PIDControllerSiblingSiblingSibling_8F85::m_CA5"
+  ],
+  "total": 13,
+  "named_pct": "72%"
+ },
+ {
+  "class": "TexturetextSibling_8BB2",
+  "parent": "",
+  "known_methods": [
+   "ContainsChild",
+   "GetPlaybackRate",
+   "SetResult",
+   "DelegateCall",
+   "RemoveAt"
+  ],
+  "hash_keys": [
+   "TexturetextSibling_8BB2::m_E89"
+  ],
+  "total": 8,
+  "named_pct": "83%"
+ },
+ {
+  "class": "Static23m_3835",
+  "parent": "Object",
+  "known_methods": [
+   "GetInstanceID",
+   "Equals",
+   "Initialize",
+   "CompareBaseObjects",
+   "ToString",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "GetHashCode",
+   "ToString",
+   "ProcessEndpointDataExtended",
+   "Destroy",
+   "GetCachedPointer",
+   "DestroyImmediate",
+   "GetCachedPointerCurrent"
+  ],
+  "hash_keys": [
+   "Static23m_3835::m_7EA",
+   "Static23m_3835::m_1AB",
+   "Static23m_3835::m_E19",
+   "Static23m_3835::m_15A",
+   "Static23m_3835::m_409"
+  ],
+  "total": 23,
+  "named_pct": "76%"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_2356",
+  "parent": "ÏÌÏÌÍÍÍÍÍÏÍÏÌÌÍÌÌÍÎÏÌÍÏ",
+  "known_methods": [
+   "Initialize",
+   "GetLanguage",
+   "GetPlatform",
+   "CompareBaseObjects",
+   "Start",
+   "GetBufferedTimes",
+   "get_MaskTag",
+   "Equals",
+   "SetCurrentSocket",
+   "Initialize_ctrlKeyboardf15",
+   "set_element",
+   "AddUnitNode",
+   "GetInstanceID",
+   "get_EffectBundleID",
+   "get_AnimationStyle",
+   "AddSubtraction",
+   "GetSessionId",
+   "SetOverlay"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImpl_2356::m_9F2",
+   "AnimatedTextureBaseImpl_2356::m_BD2",
+   "AnimatedTextureBaseImpl_2356::m_25E",
+   "AnimatedTextureBaseImpl_2356::m_E39",
+   "AnimatedTextureBaseImpl_2356::m_051",
+   "AnimatedTextureBaseImpl_2356::m_5A4"
+  ],
+  "total": 35,
+  "named_pct": "75%"
+ },
+ {
+  "class": "LifecycleComponentSibling_FD32",
+  "parent": "ÏÎÎÍÍÎÎÌÎÏÍÌÎÏÎÍÏÍÏÎÎÍÍ",
+  "known_methods": [
+   "GetColliderComponents",
+   "op_Implicit",
+   "Awake",
+   "OnEnable",
+   "Update",
+   "IsInvoking",
+   "LateUpdate",
+   "OnDisable"
+  ],
+  "hash_keys": [
+   "LifecycleComponentSibling_FD32::m_69E"
+  ],
+  "total": 11,
+  "named_pct": "88%"
+ },
+ {
+  "class": "VRC_SecondarySiblingSibling_3F8B",
+  "parent": "Object",
+  "known_methods": [
+   "GetMaxDampTime",
+   "Equals",
+   "GetHashCode",
+   "op_Implicit",
+   "CompareBaseObjects",
+   "IsNativeObjectAlive",
+   "GetCachedPtr",
+   "get_name",
+   "set_name",
+   "Instantiate",
+   "ToString",
+   "SetCurrentSocket",
+   "DontDestroyOnLoad",
+   "get_hideFlags",
+   "StopAllCoroutines",
+   "CallUIManagerMethodWithManyArgs",
+   "set_useGUILayout",
+   "print",
+   "Destroy",
+   "set_AssemblyReader",
+   "DestroyImmediate",
+   "get_Stats",
+   "FindObjectsOfType",
+   "Doop_Multiply",
+   "FindObjectsByType",
+   "StartCoroutineManaged2",
+   "StopCoroutineManaged",
+   "StopCoroutineFromEnumeratorManaged",
+   "set_hideFlags",
+   "AddSubtraction"
+  ],
+  "hash_keys": [
+   "VRC_SecondarySiblingSibling_3F8B::m_E3B",
+   "VRC_SecondarySiblingSibling_3F8B::m_029",
+   "VRC_SecondarySiblingSibling_3F8B::m_35F",
+   "VRC_SecondarySiblingSibling_3F8B::m_34B",
+   "VRC_SecondarySiblingSibling_3F8B::m_B87",
+   "VRC_SecondarySiblingSibling_3F8B::m_FA2"
+  ],
+  "total": 93,
+  "named_pct": "93%"
+ },
+ {
+  "class": "AvatarPickupUseDownPickup_640A",
+  "parent": "VRC_Interactable",
+  "known_methods": [
+   "set_captureMethod",
+   "set_lifetime",
+   "SetVolume",
+   "set_IsInteractive",
+   "set_startLifetime",
+   "get_rawName",
+   "Getclip",
+   "GetMaxHealth",
+   "get_RollInput",
+   "GetVideoTracks",
+   "set_AreaWidth",
+   "set_RollInput",
+   "get_DisableInteractive",
+   "ProcessInteractableState",
+   "GetVideoDisplayRate",
+   "SetTrackingScale",
+   "get_StopAfterSecondsElapsed",
+   "Initialize",
+   "set_LostPackagesOut",
+   "set_bakingProgress",
+   "set_EnginePower",
+   "CalculateInitialOffset",
+   "set_minRegionArea",
+   "BeginProfiler",
+   "set_AreaHeight",
+   "BeginProfiler_A19",
+   "Equals",
+   "GetCurrentHealth",
+   "ComputeIsPressed",
+   "get_voxelSize"
+  ],
+  "hash_keys": [
+   "AvatarPickupUseDownPickup_640A::m_005",
+   "AvatarPickupUseDownPickup_640A::m_24F",
+   "AvatarPickupUseDownPickup_640A::m_866",
+   "AvatarPickupUseDownPickup_640A::m_A28",
+   "AvatarPickupUseDownPickup_640A::m_532",
+   "AvatarPickupUseDownPickup_640A::m_948",
+   "AvatarPickupUseDownPickup_640A::m_FD8",
+   "AvatarPickupUseDownPickup_640A::m_CD9",
+   "AvatarPickupUseDownPickup_640A::m_F95",
+   "AvatarPickupUseDownPickup_640A::m_2CE"
+  ],
+  "total": 70,
+  "named_pct": "80%"
+ },
+ {
+  "class": "LifecycleComponentImplImpl_4E5B",
+  "parent": "ÍÌÌÍÏÍÏÎÍÎÍÍÏÌÌÏÌÍÎÍÍÌÎ",
+  "known_methods": [
+   "Initialize",
+   "GetCachedPtr",
+   "CaptureLifecycleState"
+  ],
+  "hash_keys": [
+   "LifecycleComponentImplImpl_4E5B::m_FE6"
+  ],
+  "total": 10,
+  "named_pct": "75%"
+ },
+ {
+  "class": "PlayerShouldActivateModuleIsModuleSupported_4623",
+  "parent": "PointerInputModule",
+  "known_methods": [
+   "GetPointerData",
+   "RemovePointerData",
+   "set_body",
+   "CopyFromTo",
+   "StateForMouseButton",
+   "StartPickedUp",
+   "GetMaterial",
+   "GetLastPointerEventData",
+   "set_IsConfigured",
+   "GetSpineMapping",
+   "ClearSelection",
+   "ApplyTransform",
+   "get_clipLength",
+   "set_clipLength",
+   "AlignPlayerModuleRotation",
+   "get_disablePoster",
+   "set_YawInput",
+   "UpdatePlayerModuleRotation",
+   "CompositionMethod",
+   "get_counterRotationStrength",
+   "Initialize",
+   "SetPlayerModuleActive",
+   "SetPlayerModuleEnabled",
+   "ProcessRenderingCommandBuffer",
+   "SetGlobalTextureImpl",
+   "StartPlayerModuleOpenVr",
+   "CopyTexture",
+   "get_localScale",
+   "ProcessTransform"
+  ],
+  "hash_keys": [
+   "PlayerShouldActivateModuleIsModuleSupported_4623::m_237",
+   "PlayerShouldActivateModuleIsModuleSupported_4623::m_FE9",
+   "PlayerShouldActivateModuleIsModuleSupported_4623::m_202"
+  ],
+  "total": 48,
+  "named_pct": "90%"
+ },
+ {
+  "class": "ComplexComponentSibling_9DA3",
+  "parent": "",
+  "known_methods": [
+   "MarshalValueToNative",
+   "DelegateCall",
+   "LoadLastServiceDescriptor",
+   "GetLastServiceDescriptor",
+   "ResolveLastServiceDescriptor",
+   "InvokeDelegate1",
+   "InvokeDelegate2",
+   "InvokeDelegate3",
+   "InvokeDelegate4",
+   "InvokeDelegate5",
+   "InvokeDelegate6",
+   "Insert",
+   "InvokeHandler1",
+   "InvokeHandler2",
+   "InvokeHandler3",
+   "InvokeHandler4",
+   "InvokeHandler5",
+   "InvokeHandler6",
+   "InvokeHandler7",
+   "InvokeHandler8",
+   "Enable",
+   "InvokeHandler9",
+   "InvokeHandler10",
+   "InvokeHandler11",
+   "InvokeHandler12",
+   "InvokeHandler13"
+  ],
+  "hash_keys": [
+   "ComplexComponentSibling_9DA3::m_348",
+   "ComplexComponentSibling_9DA3::m_11C",
+   "ComplexComponentSibling_9DA3::m_C0C",
+   "ComplexComponentSibling_9DA3::m_3D9",
+   "ComplexComponentSibling_9DA3::m_0CA",
+   "ComplexComponentSibling_9DA3::m_B78",
+   "ComplexComponentSibling_9DA3::m_2AE",
+   "ComplexComponentSibling_9DA3::m_506",
+   "ComplexComponentSibling_9DA3::m_2D1",
+   "ComplexComponentSibling_9DA3::m_2E0"
+  ],
+  "total": 43,
+  "named_pct": "72%"
+ },
+ {
+  "class": "NetworkItemSiblingSibling_C2BF",
+  "parent": "ValueType",
+  "known_methods": [
+   "Equals",
+   "InternalEquals",
+   "DefaultEquals",
+   "GetHashCode",
+   "InternalGetHashCode",
+   "ToString",
+   "GetHashCodeOfPtr",
+   "CreateNetworkItem",
+   "GetEngineStatus",
+   "FindObjectsOfType",
+   "GetInstanceID",
+   "set_name",
+   "set_Singleton",
+   "Initialize",
+   "OnCollisionStay",
+   "GetTransform_DEB",
+   "DispatchRequest",
+   "InitializeCachedMethods",
+   "BuildValuePayload",
+   "CreateManagedObject"
+  ],
+  "hash_keys": [
+   "NetworkItemSiblingSibling_C2BF::m_33A",
+   "NetworkItemSiblingSibling_C2BF::m_37B",
+   "NetworkItemSiblingSibling_C2BF::m_C08",
+   "NetworkItemSiblingSibling_C2BF::m_1CB"
+  ],
+  "total": 39,
+  "named_pct": "83%"
+ },
+ {
+  "class": "AnimatedTextureBaseImplSibling_076D",
+  "parent": "",
+  "known_methods": [
+   "GetLast",
+   "ThrowValueMarshalError",
+   "InvokeAnimatedTextureCallback",
+   "WriteValue",
+   "UpdateAnimatedTexture1",
+   "UpdateAnimatedTexture2",
+   "ContainsChild",
+   "RemoveAt",
+   "GetPlaybackRate",
+   "ElementAt",
+   "Equals"
+  ],
+  "hash_keys": [
+   "AnimatedTextureBaseImplSibling_076D::m_C52",
+   "AnimatedTextureBaseImplSibling_076D::m_88E"
+  ],
+  "total": 53,
+  "named_pct": "84%"
+ },
+ {
+  "class": "ComplexComponentImplImpl_F396",
+  "parent": "ÌÎÎÏÎÌÍÏÌÌÍÌÏÏÎÍÏÏÌÏÍÏÍ",
+  "known_methods": [
+   "LateUpdate",
+   "OnDestroy",
+   "OnApplicationPause",
+   "FixedUpdate",
+   "OnDisable",
+   "Update",
+   "Initialize",
+   "OnBecameVisible",
+   "OnBecameInvisible",
+   "OnCollisionEnter",
+   "OnCollisionStay",
+   "OnCollisionExit",
+   "OnTriggerStay",
+   "OnTriggerExit"
+  ],
+  "hash_keys": [
+   "ComplexComponentImplImpl_F396::m_518"
+  ],
+  "total": 19,
+  "named_pct": "93%"
+ }
+]

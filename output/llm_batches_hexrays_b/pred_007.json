@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_1BA": "Method1BA",
+ "VRC_Main::m_132": "CheckAsyncGPUReadbackSupport",
+ "VRC_Main::m_61D": "CheckAsyncGPUReadbackSupport",
+ "VRC_Main::m_2FF": "Method2FF",
+ "VRC_Main::m_1FD": "Method1FD",
+ "VRC_Main::m_BE7": "MethodBE7",
+ "VRC_Main::m_1C1": "Method1C1",
+ "VRC_Main::m_C3D": "MethodC3D",
+ "VRC_Main::m_9DF": "Method9DF",
+ "VRC_Main::m_1C8": "Method1C8"
+}

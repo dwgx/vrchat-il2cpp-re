@@ -34,7 +34,7 @@ from extract_precise_dump import DumpReader
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DEFAULT_DUMP = BASE_DIR / "tools" / "process_dump.dmp"
+DEFAULT_DUMP = BASE_DIR / "tools" / "VRChat_139620_20260418_180023_full.dmp"
 DEFAULT_PRECISE = BASE_DIR / "data" / "precise_dump.json"
 DEFAULT_OUT = BASE_DIR / "output" / "field_types.json"
 DEFAULT_STRING_BASE = 0x66DDE040

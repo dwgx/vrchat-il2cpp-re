@@ -24,10 +24,16 @@ SOFTWARE.
 
 ---
 
-This license covers the source code in this repository only. The
-software is intended for educational and research use on memory
-dumps the user has produced from their own legitimately-acquired
-software running on their own machine. The user is solely
-responsible for ensuring their use complies with the End User
-License Agreement of any third-party software involved and with
-applicable local law.
+This license covers the original Python source code authored for
+this repository. The repository content also includes derived
+metadata (class/method/field names, layout offsets) extracted by the
+repository owner from their own legitimately-acquired copy of an
+IL2CPP-compiled Unity application running on their own machine. Such
+derived metadata is published here for educational and research
+purposes only.
+
+The repository owner is not affiliated with any game studio. The
+intent of this repository is to document a memory-dump-based
+analysis methodology, not to enable circumvention of any access
+control or to facilitate cheating, modification, or redistribution
+of any third-party software.

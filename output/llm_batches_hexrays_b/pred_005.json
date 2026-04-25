@@ -1,0 +1,12 @@
+{
+ "VRC_Main::m_193": "InitializeNetworkState",
+ "VRC_Main::m_2EC": "HandleConnectionEvent",
+ "VRC_Main::m_210": "ProcessIncomingData",
+ "VRC_Main::m_F2F": "InitializeMetadata",
+ "VRC_Main::m_165": "InitializeRuntimeData",
+ "VRC_Main::m_20F": "InitializeGlobalState",
+ "VRC_Main::m_F4F": "InitializeCache",
+ "VRC_Main::m_A49": "InitializeSettings",
+ "VRC_Main::m_C31": "WrapException",
+ "VRC_Main::m_AA9": "HandleException"
+}

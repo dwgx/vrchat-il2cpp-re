@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VRChat IL2CPP 逆向工程仪表盘</title>
+<style>
+  :root {
+    --bg: #0a0e17;
+    --card: #111827;
+    --card-border: #1e293b;
+    --accent: #3b82f6;
+    --accent2: #8b5cf6;
+    --accent3: #06b6d4;
+    --accent4: #10b981;
+    --accent5: #f59e0b;
+    --accent6: #ef4444;
+    --text: #e2e8f0;
+    --text-dim: #94a3b8;
+    --text-bright: #f8fafc;
+    --glow: rgba(59,130,246,0.15);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: 'Segoe UI', -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  /* Hero */
+  .hero {
+    position: relative;
+    padding: 60px 40px 40px;
+    text-align: center;
+    background: linear-gradient(180deg, #0f172a 0%, var(--bg) 100%);
+    border-bottom: 1px solid var(--card-border);
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(ellipse at 50% 30%, rgba(59,130,246,0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 60%, rgba(139,92,246,0.06) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  .hero h1 {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: var(--text-bright);
+    letter-spacing: -0.5px;
+    position: relative;
+  }
+  .hero h1 span { color: var(--accent); }
+  .hero .subtitle {
+    color: var(--text-dim);
+    font-size: 1.1em;
+    margin-top: 8px;
+    position: relative;
+  }
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .hero-stat {
+    text-align: center;
+  }
+  .hero-stat .num {
+    font-size: 2.2em;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+  }
+  .hero-stat .label {
+    font-size: 0.85em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* Nav tabs */
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 20px;
+    background: var(--card);
+    border-bottom: 1px solid var(--card-border);
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav button {
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.2s;
+  }
+  .nav button:hover { color: var(--text); background: rgba(255,255,255,0.05); }
+  .nav button.active {
+    color: var(--accent);
+    background: var(--glow);
+    border-color: rgba(59,130,246,0.3);
+  }
+
+  /* Content */
+  .content { max-width: 1400px; margin: 0 auto; padding: 30px 20px; }
+  .section { display: none; }
+  .section.active { display: block; }
+  .section-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text-bright);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-title .icon { font-size: 1.2em; }
+
+  /* Cards */
+  .grid { display: grid; gap: 16px; }
+  .grid-2 { grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+  .grid-3 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .grid-4 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 24px;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: rgba(59,130,246,0.3); }
+  .card h3 {
+    font-size: 1.05em;
+    font-weight: 600;
+    color: var(--text-bright);
+    margin-bottom: 12px;
+  }
+  .card p { color: var(--text-dim); font-size: 0.9em; }
+
+  /* Progress bars */
+  .progress-bar {
+    height: 8px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 8px 0;
+  }
+  .progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 1s ease;
+  }
+  .pf-blue { background: linear-gradient(90deg, var(--accent), var(--accent3)); }
+  .pf-purple { background: linear-gradient(90deg, var(--accent2), #c084fc); }
+  .pf-green { background: linear-gradient(90deg, var(--accent4), #34d399); }
+  .pf-amber { background: linear-gradient(90deg, var(--accent5), #fbbf24); }
+
+  /* Stat row */
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    font-size: 0.9em;
+  }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-row .val { font-weight: 600; color: var(--text-bright); }
+
+  /* Tags */
+  .tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 0.78em;
+    font-weight: 500;
+    margin: 2px;
+  }
+  .tag-blue { background: rgba(59,130,246,0.15); color: #60a5fa; }
+  .tag-purple { background: rgba(139,92,246,0.15); color: #a78bfa; }
+  .tag-green { background: rgba(16,185,129,0.15); color: #34d399; }
+  .tag-amber { background: rgba(245,158,11,0.15); color: #fbbf24; }
+  .tag-red { background: rgba(239,68,68,0.15); color: #f87171; }
+  .tag-cyan { background: rgba(6,182,212,0.15); color: #22d3ee; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; font-size: 0.88em; }
+  th {
+    text-align: left;
+    padding: 10px 12px;
+    color: var(--text-dim);
+    font-weight: 500;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--card-border);
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+    color: var(--text);
+  }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+  .mono { font-family: 'Cascadia Code', 'Fira Code', monospace; font-size: 0.9em; }
+
+  /* Flow diagrams (ASCII art) */
+  .flow-box {
+    background: #0d1117;
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 20px;
+    overflow-x: auto;
+    font-family: 'Cascadia Code', 'Fira Code', monospace;
+    font-size: 0.82em;
+    line-height: 1.7;
+    color: var(--text-dim);
+    white-space: pre;
+  }
+  .flow-box .hl { color: var(--accent); font-weight: 600; }
+  .flow-box .ok { color: var(--accent4); }
+  .flow-box .fail { color: var(--accent6); }
+  .flow-box .warn { color: var(--accent5); }
+  .flow-box .dim { color: #475569; }
+
+  /* Timeline */
+  .timeline { position: relative; padding-left: 30px; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 10px; top: 0; bottom: 0;
+    width: 2px;
+    background: var(--card-border);
+  }
+  .tl-item {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  .tl-item::before {
+    content: '';
+    position: absolute;
+    left: -24px; top: 6px;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--bg);
+  }
+  .tl-item.done::before { background: var(--accent4); }
+  .tl-item.blocked::before { background: var(--accent6); }
+  .tl-item .tl-title { font-weight: 600; color: var(--text-bright); font-size: 0.95em; }
+  .tl-item .tl-desc { color: var(--text-dim); font-size: 0.85em; margin-top: 2px; }
+
+  /* Donut chart (CSS only) */
+  .donut-wrap { display: flex; align-items: center; gap: 24px; }
+  .donut {
+    width: 120px; height: 120px;
+    border-radius: 50%;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .donut-center {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--text-bright);
+  }
+  .donut-legend { font-size: 0.85em; }
+  .donut-legend div { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+  .donut-legend .dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* Collapsible */
+  details { margin-bottom: 8px; }
+  details summary {
+    cursor: pointer;
+    padding: 10px 16px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    color: var(--text-bright);
+    font-weight: 500;
+    font-size: 0.92em;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  details summary::before { content: '\25B6'; font-size: 0.7em; transition: transform 0.2s; }
+  details[open] summary::before { transform: rotate(90deg); }
+  details summary:hover { background: rgba(255,255,255,0.04); }
+  details .detail-body { padding: 16px; border: 1px solid var(--card-border); border-top: none; border-radius: 0 0 8px 8px; }
+
+  /* Badges */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 0.75em;
+    font-weight: 600;
+  }
+  .badge-ok { background: rgba(16,185,129,0.15); color: #34d399; }
+  .badge-warn { background: rgba(245,158,11,0.15); color: #fbbf24; }
+  .badge-err { background: rgba(239,68,68,0.15); color: #f87171; }
+  .badge-info { background: rgba(59,130,246,0.15); color: #60a5fa; }
+
+  @media (max-width: 768px) {
+    .hero { padding: 30px 16px; }
+    .hero h1 { font-size: 1.6em; }
+    .hero-stats { gap: 20px; }
+    .hero-stat .num { font-size: 1.6em; }
+    .content { padding: 16px 12px; }
+    .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+    .nav { gap: 2px; }
+    .nav button { padding: 6px 12px; font-size: 0.8em; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== HERO ==================== -->
+<div class="hero">
+  <h1>VRChat <span>IL2CPP</span> 逆向工程</h1>
+  <div class="subtitle">GameAssembly.dll (216MB) | IL2CPP v29.1 | Unity 2022.3.x | Beebyte 混淆</div>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="num">97.7%</div><div class="label">已解析标识符</div></div>
+    <div class="hero-stat"><div class="num">42,548</div><div class="label">类</div></div>
+    <div class="hero-stat"><div class="num">253,787</div><div class="label">方法</div></div>
+    <div class="hero-stat"><div class="num">7,918</div><div class="label">词汇表</div></div>
+    <div class="hero-stat"><div class="num">52</div><div class="label">工具脚本</div></div>
+  </div>
+</div>
+
+<!-- ==================== NAV ==================== -->
+<div class="nav">
+  <button class="active" onclick="show('overview')">概览</button>
+  <button onclick="show('pipeline')">流水线</button>
+  <button onclick="show('tools')">工具</button>
+  <button onclick="show('network')">网络/Photon</button>
+  <button onclick="show('eac')">EAC/认证</button>
+  <button onclick="show('data')">数据文件</button>
+  <button onclick="show('external')">外部仓库</button>
+</div>
+
+<div class="content">
+
+<!-- ==================== OVERVIEW ==================== -->
+<div id="overview" class="section active">
+  <div class="section-title"><span class="icon">&#x1F4CA;</span> 项目概览</div>
+
+  <div class="grid grid-4" style="margin-bottom:24px">
+    <div class="card">
+      <h3>类</h3>
+      <div style="font-size:2em;font-weight:700;color:var(--accent)">42,548</div>
+      <div class="progress-bar"><div class="progress-fill pf-blue" style="width:88.8%"></div></div>
+      <div class="stat-row"><span>完全语义化</span><span class="val">37,788 (88.8%)</span></div>
+      <div class="stat-row"><span>按模式命名</span><span class="val">4,760 (11.2%)</span></div>
+      <div class="stat-row"><span>仍被混淆</span><span class="val" style="color:var(--accent4)">0 (0%)</span></div>
+    </div>
+    <div class="card">
+      <h3>方法</h3>
+      <div style="font-size:2em;font-weight:700;color:var(--accent2)">253,787</div>
+      <div class="progress-bar"><div class="progress-fill pf-purple" style="width:96.95%"></div></div>
+      <div class="stat-row"><span>已命名</span><span class="val">246,049 (96.95%)</span></div>
+      <div class="stat-row"><span>已混淆</span><span class="val">7,738 (3.05%)</span></div>
+      <div class="stat-row"><span>位于 781 个类中</span><span class="val">全局命名空间</span></div>
+    </div>
+    <div class="card">
+      <h3>字段</h3>
+      <div style="font-size:2em;font-weight:700;color:var(--accent4)">40,930</div>
+      <div class="progress-bar"><div class="progress-fill pf-green" style="width:100%"></div></div>
+      <div class="stat-row"><span>已命名</span><span class="val" style="color:var(--accent4)">40,930 (100%)</span></div>
+      <div class="stat-row"><span>已混淆</span><span class="val">0</span></div>
+    </div>
+    <div class="card">
+      <h3>命名空间</h3>
+      <div style="font-size:2em;font-weight:700;color:var(--accent5)">475</div>
+      <div style="margin-top:12px">
+        <div class="stat-row"><span>VRC.*</span><span class="val">2,030 类</span></div>
+        <div class="stat-row"><span>第三方</span><span class="val">24,996 类</span></div>
+        <div class="stat-row"><span>全局</span><span class="val">14,290 类</span></div>
+        <div class="stat-row"><span>其他</span><span class="val">1,232 类</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>去混淆成果</h3>
+      <table>
+        <tr><td>已应用类映射</td><td class="val" style="text-align:right">5,562</td></tr>
+        <tr><td>&nbsp;&nbsp;- 语义映射</td><td class="val" style="text-align:right">4,537</td></tr>
+        <tr><td>&nbsp;&nbsp;- 通用模式映射</td><td class="val" style="text-align:right">1,025</td></tr>
+        <tr><td>方法名映射</td><td class="val" style="text-align:right">59,849</td></tr>
+        <tr><td>字段名映射</td><td class="val" style="text-align:right">8,099</td></tr>
+        <tr><td style="font-weight:600;color:var(--text-bright)">重命名标识符总数</td><td class="val" style="text-align:right;color:var(--accent)">73,510</td></tr>
+        <tr><td>已确认结构匹配</td><td class="val" style="text-align:right">20</td></tr>
+        <tr><td>社区已知名称</td><td class="val" style="text-align:right">1,828</td></tr>
+        <tr><td>词汇签名</td><td class="val" style="text-align:right">6,959</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3>混淆器：Beebyte Obfuscator</h3>
+      <p style="margin-bottom:12px">会把类、方法和字段重命名为 <code class="mono" style="color:var(--accent5)">ÌÍÎÏ</code> 形式的字符串（U+00CC-00CF，23 个字符），同时还会改动 IL2CPP 结构体布局。</p>
+      <div style="margin-bottom:8px;font-weight:600;color:var(--text-bright)">非标准偏移：</div>
+      <table>
+        <tr><td>FieldInfo</td><td class="mono">+0xA0</td><td class="tag tag-amber">不是 +0x88</td></tr>
+        <tr><td>field_count</td><td class="mono">+0x124</td><td class="tag tag-amber">不是 +0x122</td></tr>
+        <tr><td>MethodInfo code ptr</td><td class="mono">+0x00 &amp; +0x08</td><td class="tag tag-amber">重复</td></tr>
+        <tr><td>IL2CPP exports</td><td colspan="2">共 264 个，只有 3 个未混淆</td></tr>
+      </table>
+      <p style="margin-top:12px">正则：<code class="mono" style="color:var(--accent3)">^[\u00CC\u00CD\u00CE\u00CF]{3,}$</code></p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>模式命名类分布（前 10）</h3>
+    <div class="grid grid-2" style="gap:8px">
+      <div>
+        <div class="stat-row"><span>LifecycleComponent</span><span class="val">654</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-blue" style="width:100%"></div></div>
+      </div>
+      <div>
+        <div class="stat-row"><span>AsyncStateMachine</span><span class="val">612</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-purple" style="width:93%"></div></div>
+      </div>
+      <div>
+        <div class="stat-row"><span>Enumerator</span><span class="val">350</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-green" style="width:53%"></div></div>
+      </div>
+      <div>
+        <div class="stat-row"><span>EmptyType</span><span class="val">335</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-amber" style="width:51%"></div></div>
+      </div>
+      <div>
+        <div class="stat-row"><span>EmptyStruct</span><span class="val">293</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-blue" style="width:45%"></div></div>
+      </div>
+      <div>
+        <div class="stat-row"><span>UpdateComponent</span><span class="val">152</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-purple" style="width:23%"></div></div>
+      </div>
+      <div>
+        <div class="stat-row"><span>FBaseImpl</span><span class="val">133</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-green" style="width:20%"></div></div>
+      </div>
+      <div>
+        <div class="stat-row"><span>Delegate</span><span class="val">111</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-amber" style="width:17%"></div></div>
+      </div>
+      <div>
+        <div class="stat-row"><span>LifecycleComponentSibling</span><span class="val">80</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-blue" style="width:12%"></div></div>
+      </div>
+      <div>
+        <div class="stat-row"><span>ComplexComponentImpl</span><span class="val">80</span></div>
+        <div class="progress-bar"><div class="progress-fill pf-purple" style="width:12%"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>工作区大小</h3>
+    <div class="grid grid-4" style="gap:8px">
+      <div class="stat-row"><span>dumps/</span><span class="val">7.4 GB</span></div>
+      <div class="stat-row"><span>ida/</span><span class="val">5.0 GB</span></div>
+      <div class="stat-row"><span>external/</span><span class="val">4.9 GB</span></div>
+      <div class="stat-row"><span>output/</span><span class="val">132 MB</span></div>
+      <div class="stat-row"><span>data/</span><span class="val">170 MB</span></div>
+      <div class="stat-row"><span>metadata/</span><span class="val">107 MB</span></div>
+      <div class="stat-row"><span>archive/</span><span class="val">130 MB</span></div>
+      <div class="stat-row"><span>tools/</span><span class="val">860 KB</span></div>
+    </div>
+    <div class="stat-row" style="margin-top:8px;padding-top:8px;border-top:1px solid var(--card-border)"><span style="font-weight:600">总计</span><span class="val" style="color:var(--accent)">~17.4 GB</span></div>
+  </div>
+</div>
+
+<!-- ==================== PIPELINE ==================== -->
+<div id="pipeline" class="section">
+  <div class="section-title"><span class="icon">&#x2699;</span> 去混淆流水线</div>
+
+  <div class="card" style="margin-bottom:20px">
+    <h3>流水线架构</h3>
+    <div class="flow-box"><span class="hl">precise_dump.json</span> <span class="dim">（从内存转储中提取的原始 IL2CPP 结构）</span>
+    |
+    <span class="hl">run_full_pipeline.py</span> <span class="dim">（总控脚本）</span>
+    |
+    +-- <span class="ok">阶段 0</span>: 合并所有名称来源 --> <span class="hl">unified_vocabulary.json</span>
+    |     来源：社区映射（3 个仓库）+ 模组 + SDK + 挖掘名称 + 手动补充
+    |     结果：<span class="warn">7,918 个唯一名称</span>
+    |
+    +-- <span class="ok">阶段 1</span>: <span class="hl">deobfuscate.py</span>（8 阶段重命名引擎）
+    |     阶段 1：词汇匹配（直接 + 签名）
+    |     阶段 2：字符串引用分析（IDA 交叉引用）
+    |     阶段 3：二进制分析（Capstone 调用图）
+    |     阶段 4：结构指纹（继承、字段、方法）
+    |     阶段 5：模组源码模式匹配
+    |     阶段 6：社区映射结构匹配
+    |     阶段 7：回退结构命名
+    |     阶段 8：最终清理 + 一致性修正
+    |     结果：<span class="warn">共重命名 73,510 个标识符</span>
+    |
+    +-- <span class="ok">阶段 2</span>: 交叉验证（Photon、SDK、结构匹配）
+    |     结果：<span class="warn">20 个高置信度确认匹配</span>
+    |
+    +-- <span class="ok">阶段 3</span>: 生成输出
+    |     deobfuscated_dump.json (42 MB)
+    |     deobfuscated_dump.cs (23 MB)
+    |     name_mapping.json (8 MB)
+    |     src/ 目录树（1,137 个 C# 文件）
+    |
+    +-- <span class="ok">阶段 4</span>: 生成 IDA 脚本
+          ida_apply_names.py（8.5 MB，133K 次重命名）</div>
+  </div>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>词汇来源</h3>
+      <table>
+        <thead><tr><th>来源</th><th>名称数</th><th>类型</th></tr></thead>
+        <tbody>
+          <tr><td>VRChat-Deobfuscation-Maps</td><td class="val">2,052</td><td><span class="tag tag-blue">社区</span></td></tr>
+          <tr><td>EWorldTools-Maps</td><td class="val">2,479</td><td><span class="tag tag-blue">社区</span></td></tr>
+          <tr><td>lilfluff-Maps</td><td class="val">2,390</td><td><span class="tag tag-blue">社区</span></td></tr>
+          <tr><td>模组源码挖掘（v1-v3）</td><td class="val">~800</td><td><span class="tag tag-purple">挖掘</span></td></tr>
+          <tr><td>IL2CPP-SDK 提取结果</td><td class="val">~400</td><td><span class="tag tag-green">SDK</span></td></tr>
+          <tr><td>IDA 字符串交叉引用</td><td class="val">140K+</td><td><span class="tag tag-cyan">二进制</span></td></tr>
+          <tr><td>结构指纹</td><td class="val">20</td><td><span class="tag tag-amber">结构</span></td></tr>
+          <tr><td>手动补充</td><td class="val">~150</td><td><span class="tag tag-red">手动</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>常用命令</h3>
+      <div style="font-family:monospace;font-size:0.85em;line-height:2">
+        <div><span class="tag tag-green">完整</span> <code>python tools/run_full_pipeline.py</code></div>
+        <div><span class="tag tag-blue">快速</span> <code>python tools/run_full_pipeline.py --skip-binary</code></div>
+        <div><span class="tag tag-amber">阶段</span> <code>python tools/run_full_pipeline.py --stage 0,1</code></div>
+        <div><span class="tag tag-purple">快捷</span> <code>python tools/quick_update.py</code></div>
+        <div><span class="tag tag-cyan">字段</span> <code>python tools/extract_field_types_v2.py</code></div>
+        <div><span class="tag tag-red">演练</span> <code>python tools/run_full_pipeline.py --dry-run</code></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>输出文件</h3>
+    <table>
+      <thead><tr><th>文件</th><th>大小</th><th>说明</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">deobfuscated_dump.json</td><td>42 MB</td><td>完整的类、方法、字段重命名数据库</td></tr>
+        <tr><td class="mono">deobfuscated_dump.cs</td><td>23 MB</td><td>带重命名符号的 C# 存根定义</td></tr>
+        <tr><td class="mono">name_mapping.json</td><td>8.1 MB</td><td>混淆名到真实名的双向映射</td></tr>
+        <tr><td class="mono">unified_vocabulary.json</td><td>1.1 MB</td><td>汇总命名词汇（7,918 个名称）</td></tr>
+        <tr><td class="mono">field_types.json</td><td>11 MB</td><td>运行时提取的字段类型（93K 字段）</td></tr>
+        <tr><td class="mono">ida_apply_names.py</td><td>8.5 MB</td><td>包含 133K 次重命名的 IDA Pro 脚本</td></tr>
+        <tr><td class="mono">src/</td><td>30 MB</td><td>1,137 个整理后的 C# 源文件</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ==================== TOOLS ==================== -->
+<div id="tools" class="section">
+  <div class="section-title"><span class="icon">&#x1F527;</span> 工具脚本（52 个文件）</div>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <h3><span class="tag tag-blue">核心流水线</span> 去混淆引擎</h3>
+      <table>
+        <tr><td class="mono">run_full_pipeline.py</td><td>49K</td><td>总控脚本（5 个阶段）</td></tr>
+        <tr><td class="mono">deobfuscate.py</td><td>61K</td><td>8 阶段重命名引擎</td></tr>
+        <tr><td class="mono">quick_update.py</td><td>19K</td><td>快速增量更新</td></tr>
+        <tr><td class="mono">generate_source_tree.py</td><td>16K</td><td>C# 源码树生成器</td></tr>
+        <tr><td class="mono">structural_matcher.py</td><td>14K</td><td>结构指纹匹配</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-green">提取</span> 数据提取与分析</h3>
+      <table>
+        <tr><td class="mono">extract_precise_dump.py</td><td>13K</td><td>从内存提取 IL2CPP 转储</td></tr>
+        <tr><td class="mono">extract_string_refs.py</td><td>8.5K</td><td>从 ASM 中提取字符串引用</td></tr>
+        <tr><td class="mono">deep_binary_analysis.py</td><td>18K</td><td>Capstone 调用图 + 字符串</td></tr>
+        <tr><td class="mono">extract_field_types_v2.py/js</td><td>9K</td><td>通过 Frida 提取字段类型</td></tr>
+        <tr><td class="mono">extract_field_types_metadata.py</td><td>9.2K</td><td>从 metadata 提取字段类型</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-purple">社区</span> 名称来源整合</h3>
+      <table>
+        <tr><td class="mono">match_community_maps.py</td><td>9.3K</td><td>社区去混淆映射匹配器</td></tr>
+        <tr><td class="mono">merge_community_maps.py</td><td>12K</td><td>合并多个来源</td></tr>
+        <tr><td class="mono">deep_mine_sources.py</td><td>20K</td><td>从模组源码挖掘名称</td></tr>
+        <tr><td class="mono">deep_mine_v2.py / v3.py</td><td>47K</td><td>迭代式挖掘 v2/v3</td></tr>
+        <tr><td class="mono">add_manual_names.py</td><td>11K</td><td>手动补充 VRChat 专用名称</td></tr>
+        <tr><td class="mono">identify_by_fields.py</td><td>20K</td><td>基于字段的识别</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-cyan">运行时</span> Frida 与运行时工具</h3>
+      <table>
+        <tr><td class="mono">bridge.py / bridge.js</td><td>16K</td><td>Frida 桥接器（shellcode trampoline）</td></tr>
+        <tr><td class="mono">frida_session.py</td><td>6.7K</td><td>会话管理</td></tr>
+        <tr><td class="mono">vrc_frida_lib.js</td><td>15K</td><td>共享 Frida 工具库</td></tr>
+        <tr><td class="mono">vrc_frida_config.json</td><td>2.8K</td><td>运行时 RVA 配置</td></tr>
+        <tr><td class="mono">identify_components_v2.js</td><td>12K</td><td>运行时组件识别</td></tr>
+        <tr><td class="mono">frida_auto_gohome.py</td><td>12K</td><td>通过 Frida 自动执行 GoHome</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-red">认证/EAC</span> 认证与追踪</h3>
+      <table>
+        <tr><td class="mono">trace_auth_flow.js</td><td>27K</td><td>完整认证流程追踪（EOS+Steam+Photon）</td></tr>
+        <tr><td class="mono">trace_offline_check.js</td><td>5.7K</td><td>离线模式检查追踪</td></tr>
+        <tr><td class="mono">hook_eos_anticheat.js</td><td>3.9K</td><td>EOS 反作弊 Hook</td></tr>
+        <tr><td class="mono">hook_steam_init.js</td><td>1.9K</td><td>Steam 初始化 Hook</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-amber">补丁</span> 二进制修补与部署</h3>
+      <table>
+        <tr><td class="mono">patch_ga_binary.py</td><td>26K</td><td>GameAssembly.dll 修补</td></tr>
+        <tr><td class="mono">patch_offline.py</td><td>14K</td><td>离线模式修补</td></tr>
+        <tr><td class="mono">patch_eossdk.py</td><td>7.3K</td><td>EOS SDK 修补</td></tr>
+        <tr><td class="mono">patch_steam_api.py</td><td>4.2K</td><td>Steam API 修补</td></tr>
+        <tr><td class="mono">deploy_to_steam.py</td><td>5.7K</td><td>部署到 Steam 目录</td></tr>
+        <tr><td class="mono">launch_bypass.exe</td><td>4.5K</td><td>EAC 启动绕过</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3><span class="tag tag-blue">IDA</span> IDA Pro 脚本（位于 ida/ 与 output/）</h3>
+    <table>
+      <tr><td class="mono">ida/apply_names.py</td><td>16K</td><td>把去混淆后的名称应用到 IDA 数据库</td></tr>
+      <tr><td class="mono">ida/apply_strings.py</td><td>11K</td><td>应用字符串引用</td></tr>
+      <tr><td class="mono">ida/apply_types.py</td><td>18K</td><td>应用类型信息</td></tr>
+      <tr><td class="mono">output/ida_apply_names.py</td><td>8.5 MB</td><td>生成结果：供 IDA 使用的 133K 次重命名</td></tr>
+    </table>
+    <p style="margin-top:8px;color:var(--accent5)">这些 IDA 脚本应只在 IDA Pro 内手动运行，不要自动化执行。</p>
+  </div>
+</div>
+
+<!-- ==================== NETWORK/PHOTON ==================== -->
+<div id="network" class="section">
+  <div class="section-title"><span class="icon">&#x1F310;</span> 网络层与 Photon 协议</div>
+
+  <div class="card" style="margin-bottom:20px">
+    <h3>网络架构栈</h3>
+    <div class="flow-box"><span class="hl">应用层</span>             VRCPlayer / NetworkManager / UdonBehaviour
+         |
+<span class="hl">序列化</span>           FlatBufferSerializerCodec（8-bit + 32-bit FlatBuffers）
+         |
+<span class="hl">事件层</span>           VRCPhotonEvent / IFlatBufferNetworkSerializer
+         |
+<span class="hl">Photon 协议</span>      Photon.Client（EventData、OperationResponse、PhotonPeer）
+         |
+<span class="hl">传输层</span>           EnetPeer（UDP）/ TPeer（TCP）/ PhotonClientWebSocket（WSS）
+         |
+<span class="hl">加密</span>             PhotonEncryptorPlugin（原生 DLL）</div>
+  </div>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>Photon OpCodes（操作）</h3>
+      <table>
+        <thead><tr><th>代码</th><th>名称</th><th>方向</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">231</td><td>AuthenticateOnce</td><td><span class="tag tag-green">C->S</span></td></tr>
+          <tr><td class="mono">230</td><td>Authenticate</td><td><span class="tag tag-green">C->S</span></td></tr>
+          <tr><td class="mono">229</td><td>JoinLobby</td><td><span class="tag tag-green">C->S</span></td></tr>
+          <tr><td class="mono">226</td><td>JoinRoom</td><td><span class="tag tag-green">C->S</span></td></tr>
+          <tr><td class="mono">227</td><td>CreateRoom</td><td><span class="tag tag-green">C->S</span></td></tr>
+          <tr><td class="mono">253</td><td>RaiseEvent</td><td><span class="tag tag-cyan">C<->S</span></td></tr>
+          <tr><td class="mono">252</td><td>SetProperties</td><td><span class="tag tag-cyan">C<->S</span></td></tr>
+          <tr><td class="mono">254</td><td>Leave</td><td><span class="tag tag-green">C->S</span></td></tr>
+          <tr><td class="mono">219</td><td>WebRPC</td><td><span class="tag tag-green">C->S</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>VRChat 自定义事件（RaiseEvent 253）</h3>
+      <table>
+        <thead><tr><th>代码</th><th>名称</th><th>传输</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">1</td><td>语音（USpeak/Opus）</td><td><span class="tag tag-amber">不可靠</span></td></tr>
+          <tr><td class="mono">6</td><td>ProcessEvent（RPC）</td><td><span class="tag tag-blue">广播</span></td></tr>
+          <tr><td class="mono">7</td><td>UnreliableSerialization</td><td><span class="tag tag-amber">不可靠</span></td></tr>
+          <tr><td class="mono">9</td><td>ReliableSerialization</td><td><span class="tag tag-green">可靠</span></td></tr>
+          <tr><td class="mono">33</td><td>ExecutiveAction（模组）</td><td><span class="tag tag-red">服务端</span></td></tr>
+          <tr><td class="mono">34</td><td>RatelimitValueSync</td><td><span class="tag tag-red">服务端</span></td></tr>
+          <tr><td class="mono">40</td><td>UserRecordUpdate</td><td><span class="tag tag-red">服务端</span></td></tr>
+          <tr><td class="mono">60</td><td>PhysBonesPermissions</td><td><span class="tag tag-cyan">混合</span></td></tr>
+          <tr><td class="mono">202</td><td>Instantiate（VRCPlayer）</td><td><span class="tag tag-green">可靠</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>连接时序</h3>
+    <div class="flow-box"><span class="dim">1.</span> <span class="hl">PhotonConnectionHandler_92CA.Start()</span>
+   <span class="dim">|</span>  连接到 Photon Name Server
+   <span class="dim">|</span>  _BeginConnectionToPhoton_d__68 协程
+   <span class="dim">v</span>
+<span class="dim">2.</span> <span class="hl">AuthenticateOnce</span> (OpCode 231)
+   <span class="dim">|</span>  发送：VRChat API token + Steam ticket + EAC 会话数据
+   <span class="dim">|</span>  服务端 webhook --> api.vrchat.cloud 校验
+   <span class="dim">v</span>
+<span class="dim">3.</span> <span class="ok">OnCustomAuthenticationResponse</span>
+   <span class="dim">|</span>  服务端返回 AuthCookie（包含 EAC 状态）
+   <span class="dim">v</span>
+<span class="dim">4.</span> <span class="hl">OnConnectedToMaster</span> --> JoinLobby (229)
+   <span class="dim">v</span>
+<span class="dim">5.</span> <span class="hl">JoinRoom</span> (OpCode 226)
+   <span class="dim">|</span>  服务端 BeforeJoin hook 检查 AuthCookie
+   <span class="dim">|</span>  EAC 有效？--> <span class="ok">允许</span>  |  EAC 缺失？--> <span class="fail">Fail("")</span>
+   <span class="dim">v</span>
+<span class="dim">6.</span> <span class="ok">OnJoinedRoom</span> --> 实例化 VRCPlayer（事件 202）
+   <span class="dim">|</span>  PastEvents (3) --> SyncEvents (4) --> SyncFinished (5)
+   <span class="dim">v</span>
+<span class="dim">7.</span> <span class="hl">持续通信</span>：Voice(1) + Unreliable(7) + Reliable(9)</div>
+  </div>
+
+  <div class="grid grid-2" style="margin-top:16px">
+    <div class="card">
+      <h3>关键网络类（已识别）</h3>
+      <table>
+        <thead><tr><th>类</th><th>方法数</th><th>角色</th></tr></thead>
+        <tbody>
+          <tr><td>NetworkManager</td><td>263</td><td>中央协调器</td></tr>
+          <tr><td>VRCNetworkingClient</td><td>141</td><td>主要 IPhotonPeerListener</td></tr>
+          <tr><td>VRCPhotonRoomCallbacks</td><td>109</td><td>房间生命周期处理器</td></tr>
+          <tr><td>VRCPhotonConnectionManager</td><td>72</td><td>连接状态机</td></tr>
+          <tr><td>VRCPhotonAuthHandler</td><td>46</td><td>认证流程处理器</td></tr>
+          <tr><td>VRCPhotonMasterHandler</td><td>27</td><td>主客户端处理器</td></tr>
+          <tr><td>FlatBufferSerializerCodec</td><td>-</td><td>序列化编解码器</td></tr>
+          <tr><td>PhotonPeer</td><td>65</td><td>主 peer 连接</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>ModNetworkEvent 类型（事件 33）</h3>
+      <table>
+        <thead><tr><th>代码</th><th>动作</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>执行管理动作</td></tr>
+          <tr><td>2</td><td>告警</td></tr>
+          <tr><td>4</td><td>踢出</td></tr>
+          <tr><td>6</td><td>公开封禁</td></tr>
+          <tr><td>8</td><td>关闭麦克风</td></tr>
+          <tr><td>11</td><td>跳转到实例</td></tr>
+          <tr><td>12</td><td>传送用户</td></tr>
+          <tr><td>22</td><td>屏蔽用户</td></tr>
+          <tr><td>23</td><td>禁言用户</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>速率限制（由事件 34 服务器下发）</h3>
+    <div class="grid grid-3" style="gap:4px">
+      <div class="stat-row"><span>Voice (USpeak)</span><span class="val">60/s</span></div>
+      <div class="stat-row"><span>UnreliableSerialization</span><span class="val">500/s</span></div>
+      <div class="stat-row"><span>ProcessEvent (RPC)</span><span class="val">400/s</span></div>
+      <div class="stat-row"><span>ReliableSerialization</span><span class="val">75/s</span></div>
+      <div class="stat-row"><span>OwnershipTransfer</span><span class="val">90/s</span></div>
+      <div class="stat-row"><span>OwnershipRequest</span><span class="val">20/s</span></div>
+      <div class="stat-row"><span>SyncEvents</span><span class="val">200/s</span></div>
+      <div class="stat-row"><span>SyncFinished</span><span class="val">50/s</span></div>
+      <div class="stat-row"><span>ExecutiveAction</span><span class="val">2/s</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== EAC/AUTH ==================== -->
+<div id="eac" class="section">
+  <div class="section-title"><span class="icon">&#x1F512;</span> EAC / 认证分析</div>
+
+  <div class="card" style="margin-bottom:20px">
+    <h3>四令牌认证链</h3>
+    <div class="flow-box"><span class="hl">令牌 1：Steam App Ticket</span>
+  来源：SteamAPI_ISteamUser_GetAuthSessionTicket
+  使用方：VRChat API（api.vrchat.cloud）     传输：HTTPS POST
+  状态：<span class="ok">无 EAC 也可正常工作</span>
+         |
+         v
+<span class="hl">令牌 2：VRChat API Token</span>
+  来源：VRChat API 登录响应（JWT）
+  使用方：Photon Custom Auth                 传输：Photon OpCode 231
+  状态：<span class="ok">无 EAC 也可正常工作</span>
+         |
+         v
+<span class="hl">令牌 3：Photon Auth Token</span>
+  来源：PlatformOptions.GetKeyServerAuthToken（RVA 0x112A080）
+  使用方：Photon Name Server                 传输：OpCode 231（AuthenticateOnce）
+  状态：<span class="ok">无 EAC 也可正常工作</span>
+         |
+         v
+<span class="hl">令牌 4：EAC Session Token</span>
+  来源：EOS SDK AddNotifyMessageToServer 回调
+  使用方：Photon 服务端插件 / VRChat 后端
+  状态：<span class="fail">绕过模式下缺失，导致加入房间被拒</span></div>
+  </div>
+
+  <div class="card" style="margin-bottom:20px">
+    <h3>服务端校验时间线</h3>
+    <div class="flow-box"><span class="dim">[+0.0s]</span>  生成 Steam ticket（仅客户端本地）
+<span class="dim">[+0.2s]</span>  VRChat API 登录（HTTPS）-- 令牌 1 --> 令牌 2            <span class="ok">[正常]</span>
+<span class="dim">[+0.3s]</span>  EOS_AntiCheatClient_BeginSession                      <span class="fail">[绕过下未调用]</span>
+<span class="dim">[+1-3s]</span>  AddNotifyMessageToServer 回调触发                      <span class="fail">[绕过下永不触发]</span>
+<span class="dim">[+5s]</span>    Photon Connect（AuthenticateOnce，OpCode 231）
+          发送令牌 2 + 令牌 3（由 GetKeyServerAuthToken 组装）
+          服务端 webhook 对接 VRChat API 进行校验                      <span class="ok">[正常]</span>
+<span class="dim">[+22s]</span>   OnCustomAuthenticationResponse -- Photon 认证成功     <span class="ok">[正常]</span>
+<span class="dim">[+22s]</span>   OnConnectedToMaster
+<span class="dim">[+23s]</span>   JoinRoom（OpCode 226）
+          服务端检查：auth? <span class="ok">是</span>    EAC session? <span class="fail">否（绕过）</span>
+          --> 空错误拒绝：<span class="fail">Failed to join...due to ''</span></div>
+  </div>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>EOS 反作弊协议</h3>
+      <div class="flow-box" style="font-size:0.78em"><span class="hl">客户端</span>                              <span class="hl">服务端</span>
+  |                                      |
+  |-- BeginSession ------------------>   |-- RegisterClient
+  |                                      |   （开始超时计时）
+  |                                      |
+  |<-- opaque message（完整性）------   |-- AddNotifyMessageToClient
+  |-- ReceiveMsg                         |
+  |                                      |
+  |-- opaque message（响应）--------->   |-- ReceiveMessageFromClient
+  |   （AddNotifyMessageToServer）       |   （校验完整性）
+  |                                      |
+  |  ... 持续交换消息 ...                 |
+  |                                      |
+  | （如果客户端停止发送）               |-- AuthenticationFailed
+  |                                      |-- ClientActionRequired: REMOVE</div>
+      <p style="margin-top:12px">这些消息由 EOS SDK 在内部进行<strong>不透明、加密、签名</strong>处理，无法伪造。</p>
+    </div>
+    <div class="card">
+      <h3>攻击向量分析</h3>
+      <table>
+        <thead><tr><th>方案</th><th>可行性</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>伪造 EOS 消息</td>
+            <td><span class="badge badge-err">不可行</span><br><small>由 SDK 加密并签名</small></td>
+          </tr>
+          <tr>
+            <td>运行真实 EAC + Frida</td>
+            <td><span class="badge badge-err">受阻</span><br><small>内核驱动会阻止注入</small></td>
+          </tr>
+          <tr>
+            <td>在 EAC 下运行 MelonLoader</td>
+            <td><span class="badge badge-ok">最可行</span><br><small>可用 Harmony Hook，EAC 正常运行</small></td>
+          </tr>
+          <tr>
+            <td>注入 AuthCookie</td>
+            <td><span class="badge badge-warn">理论上可行</span><br><small>中间人篡改 Photon webhook 响应</small></td>
+          </tr>
+          <tr>
+            <td>双会话代理</td>
+            <td><span class="badge badge-warn">已修补</span><br><small>vrc-eac-emulator 方案（2025 年 5 月）</small></td>
+          </tr>
+          <tr>
+            <td>EAC 内核绕过</td>
+            <td><span class="badge badge-err">高风险</span><br><small>需要 Hypervisor 级别手段，极其复杂</small></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>关键代码位置（RVA）</h3>
+    <table>
+      <thead><tr><th>函数</th><th>RVA</th><th>作用</th></tr></thead>
+      <tbody>
+        <tr><td>VRCFlowManager.AuthenticateWithSteam</td><td class="mono">0x1F1A8A0</td><td>发起 Steam -> VRChat API 登录</td></tr>
+        <tr><td>PlatformOptions.GetKeyServerAuthToken</td><td class="mono">0x112A080</td><td>组装 Photon 认证密钥</td></tr>
+        <tr><td>PhotonConnectionHandler.OnConnectedToMaster</td><td class="mono">0x19572F0</td><td>Photon 已连接</td></tr>
+        <tr><td>PhotonConnectionHandler.OnCustomAuthFailed</td><td class="mono">0x1956DE0</td><td>认证被拒</td></tr>
+        <tr><td>PhotonRoomHandler.OnCustomAuthResponse</td><td class="mono">0x1A99BE0</td><td>认证成功（房间级）</td></tr>
+        <tr><td>OnOperationResponse (LoadBalancing)</td><td class="mono">0x2149830</td><td>所有 Photon 操作响应</td></tr>
+        <tr><td>OnOperationResponse (VRCNetworkingPeer)</td><td class="mono">0x15A2500</td><td>VRC 层操作处理</td></tr>
+        <tr><td>VRCFlowManager.GoHome</td><td class="mono">m_935</td><td>GoHome 方法（已混淆）</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>已有方案：vrc-eac-emulator</h3>
+    <p>Linux-Windows 代理架构（已于 2025 年 5 月被修补）：</p>
+    <div class="flow-box" style="font-size:0.8em"><span class="hl">Windows</span>                    <span class="hl">Linux/Wine</span>
+  VRChat.exe                   真实 EAC 客户端
+  Hook EOSSDK DLL              （完整性检查较弱）
+       |                             |
+       |<---- TCP:7777 + HTTP:7778 --|
+       |      （代理 EAC 消息）      |
+       |                             |
+  服务端看到有效消息           Linux 端生成消息
+  可加入房间 <span class="ok">可用</span>             Wine 环境被检测到 <span class="fail">已修补</span></div>
+    <p style="margin-top:8px"><strong>结论：</strong>服务端 EAC <em>可以</em> 被真实消息满足。难点在于怎样拿到不会阻断分析工具的真实 EAC。</p>
+  </div>
+</div>
+
+<!-- ==================== DATA FILES ==================== -->
+<div id="data" class="section">
+  <div class="section-title"><span class="icon">&#x1F4C1;</span> 数据文件与输出</div>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>data/（中间产物，170 MB）</h3>
+      <table>
+        <thead><tr><th>文件</th><th>大小</th><th>用途</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">precise_dump.json</td><td>36 MB</td><td>IL2CPP 转储基准真值</td></tr>
+          <tr><td class="mono">precise_dump.cs</td><td>22 MB</td><td>C# 存根（去混淆前）</td></tr>
+          <tr><td class="mono">full_dump_with_methods.json</td><td>11 MB</td><td>完整转储 + 方法细节</td></tr>
+          <tr><td class="mono">metadata_strings.json</td><td>11 MB</td><td>190 万条 metadata 字符串</td></tr>
+          <tr><td class="mono">ida_analysis.json</td><td>83 MB</td><td>IDA Pro 分析结果</td></tr>
+          <tr><td class="mono">method_string_refs.json</td><td>562 KB</td><td>方法 -> 字符串映射</td></tr>
+          <tr><td class="mono">deep_mapping.json</td><td>147 KB</td><td>语义映射</td></tr>
+          <tr><td class="mono">final_mapping.json</td><td>368 KB</td><td>最终汇总映射</td></tr>
+          <tr><td class="mono">il2cpp_export_map.json</td><td>41 KB</td><td>264 个导出函数</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>output/（最终产物，132 MB）</h3>
+      <table>
+        <thead><tr><th>文件</th><th>大小</th><th>用途</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">deobfuscated_dump.json</td><td>42 MB</td><td>完整重命名数据库</td></tr>
+          <tr><td class="mono">deobfuscated_dump.cs</td><td>23 MB</td><td>C# 存根（已重命名）</td></tr>
+          <tr><td class="mono">field_types.json</td><td>11 MB</td><td>93K 个运行时字段类型</td></tr>
+          <tr><td class="mono">name_mapping.json</td><td>8.1 MB</td><td>双向映射</td></tr>
+          <tr><td class="mono">ida_string_refs.json</td><td>5.9 MB</td><td>140K+ 字符串交叉引用</td></tr>
+          <tr><td class="mono">all_community_mappings.json</td><td>4.6 MB</td><td>合并后的社区映射</td></tr>
+          <tr><td class="mono">unified_vocabulary.json</td><td>1.1 MB</td><td>7,918 个汇总名称</td></tr>
+          <tr><td class="mono">ida_apply_names.py</td><td>8.5 MB</td><td>IDA 脚本（133K 次重命名）</td></tr>
+          <tr><td class="mono">src/（1,137 个文件）</td><td>30 MB</td><td>整理后的 C# 源码树</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>dumps/（内存转储，7.4 GB）</h3>
+      <table>
+        <tbody>
+          <tr><td class="mono">VRChat_20852_full.dmp</td><td>3.6 GB</td><td>离线会话（分析用）</td></tr>
+          <tr><td class="mono">VRChat_33100_full.dmp</td><td>3.8 GB</td><td>在线会话（参考用）</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:8px;color:var(--text-dim)">通过 <code>take_new_dump.py</code> 抓取，由 <code>extract_precise_dump.py</code> 用于 IL2CPP 结构扫描。</p>
+    </div>
+    <div class="card">
+      <h3>metadata/（107 MB）</h3>
+      <table>
+        <tbody>
+          <tr><td class="mono">global-metadata-decrypted.dat</td><td>36 MB</td><td>已解密 metadata</td></tr>
+          <tr><td class="mono">global-metadata-fixed.dat</td><td>36 MB</td><td>已修正偏移</td></tr>
+          <tr><td class="mono">global-metadata-patched.dat</td><td>36 MB</td><td>已为离线模式打补丁</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>ida/（IDA Pro，5.0 GB）</h3>
+      <table>
+        <tbody>
+          <tr><td class="mono">ga_analysis.i64</td><td>2.7 GB</td><td>IDA 数据库</td></tr>
+          <tr><td class="mono">ga_analysis.asm</td><td>2.4 GB</td><td>完整反汇编</td></tr>
+          <tr><td class="mono">apply_*.py（3 个文件）</td><td>45 KB</td><td>IDAPython 脚本</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>分析报告（output/）</h3>
+      <table>
+        <tbody>
+          <tr><td class="mono">coverage_report.md</td><td>14 KB</td><td>覆盖率指标</td></tr>
+          <tr><td class="mono">network_layer_analysis.md</td><td>29 KB</td><td>Photon 层分析结果</td></tr>
+          <tr><td class="mono">photon_protocol_analysis.md</td><td>21 KB</td><td>协议逆向分析</td></tr>
+          <tr><td class="mono">eac_auth_analysis.md</td><td>16 KB</td><td>EAC 认证分析</td></tr>
+          <tr><td class="mono">il2cpp_tools_analysis.md</td><td>17 KB</td><td>工具能力分析</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== EXTERNAL REPOS ==================== -->
+<div id="external" class="section">
+  <div class="section-title"><span class="icon">&#x1F4E6;</span> 外部仓库（36+ 个仓库，4.9 GB）</div>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <h3><span class="tag tag-blue">去混淆映射</span> 4 个仓库，2.2 MB</h3>
+      <table>
+        <thead><tr><th>仓库</th><th>名称数</th><th>构建版本</th></tr></thead>
+        <tbody>
+          <tr><td>VRChat-Deobfuscation-Maps</td><td class="val">2,052</td><td>1105</td></tr>
+          <tr><td>lilfluff-Maps</td><td class="val">2,390</td><td>1219</td></tr>
+          <tr><td>EWorldTools-Maps</td><td class="val">2,479</td><td>1275</td></tr>
+          <tr><td>LavaGang-Maps</td><td class="val">-</td><td>-</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-green">IL2CPP 工具</span> 11 个工具，3.1 GB</h3>
+      <table>
+        <tbody>
+          <tr><td>Il2CppInspector / Redux</td><td>完整逆向工具 + GUI</td></tr>
+          <tr><td>Il2CppDumper</td><td>标准内存转储工具</td></tr>
+          <tr><td>Cpp2IL</td><td>C++ IL2CPP 反编译器</td></tr>
+          <tr><td>Il2CppInterop</td><td>BepInEx 类型重建</td></tr>
+          <tr><td>Beebyte-Deobfuscator</td><td>算法参考实现</td></tr>
+          <tr><td>IL2CPP-SDK</td><td>SDK 提取</td></tr>
+          <tr><td>IL2CPP_Resolver</td><td>符号解析</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-cyan">运行时工具</span> 7 个工具，1.6 GB</h3>
+      <table>
+        <tbody>
+          <tr><td>il2cpp-frida-mcp</td><td>MCP：Claude <-> Frida <-> IL2CPP</td></tr>
+          <tr><td>frida-il2cpp-bridge</td><td>Frida IL2CPP 桥接库</td></tr>
+          <tr><td>Il2CppRuntimeDumper</td><td>Windows DLL 运行时转储工具</td></tr>
+          <tr><td>Il2CppInspectorPro</td><td>游戏内 ImGui 检查器</td></tr>
+          <tr><td>Il2CppHookScripts</td><td>完整的 Frida Hook 集合</td></tr>
+          <tr><td>UnityExplorer</td><td>运行时 Unity 浏览器</td></tr>
+          <tr><td>RuntimeUnityEditor</td><td>运行时编辑器/检查器</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-purple">VRChat 模组</span> 7 个仓库，28 MB</h3>
+      <table>
+        <tbody>
+          <tr><td>VRCMods</td><td>社区修改项目</td></tr>
+          <tr><td>ReModCE</td><td>模组框架 + 示例</td></tr>
+          <tr><td>VRChat-Internal-Base</td><td>内部 API 参考</td></tr>
+          <tr><td>vrchat_dumper</td><td>转储工具（16 条识别规则）</td></tr>
+          <tr><td>loukylor-VRC-Mods</td><td>模组集合</td></tr>
+          <tr><td>PlayerRotater</td><td>简单模组（名称引用）</td></tr>
+          <tr><td>VRCMelonAssistant</td><td>ML 助手</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-red">逆向客户端</span> 4 个仓库，205 MB</h3>
+      <table>
+        <tbody>
+          <tr><td>AbyssClient</td><td>Abyss 客户端逆向</td></tr>
+          <tr><td>MunchenClient</td><td>Munchen 客户端源码</td></tr>
+          <tr><td>Void-Public</td><td>Void 客户端公开版</td></tr>
+          <tr><td>VRTool-Reversed</td><td>VRTool 逆向</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3><span class="tag tag-amber">其他</span></h3>
+      <table>
+        <tbody>
+          <tr><td>MelonLoader v0.7.2</td><td>38 MB，模组加载器框架</td></tr>
+          <tr><td>Protocol Docs</td><td>144 KB，网络协议规范</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <h3>归档（历史脚本，130 MB）</h3>
+    <div class="grid grid-3" style="gap:8px">
+      <div>
+        <div class="stat-row"><span><span class="tag tag-blue">阶段 1</span> 注入</span><span class="val">28 个脚本</span></div>
+        <p style="font-size:0.8em;color:var(--text-dim)">最初的 Frida 注入实验</p>
+      </div>
+      <div>
+        <div class="stat-row"><span><span class="tag tag-green">阶段 2</span> 转储</span><span class="val">19 个脚本</span></div>
+        <p style="font-size:0.8em;color:var(--text-dim)">内存转储迭代过程</p>
+      </div>
+      <div>
+        <div class="stat-row"><span><span class="tag tag-purple">阶段 3</span> 分析</span><span class="val">15 个脚本</span></div>
+        <p style="font-size:0.8em;color:var(--text-dim)">分析细化过程</p>
+      </div>
+      <div>
+        <div class="stat-row"><span><span class="tag tag-amber">阶段 4</span> 元数据</span><span class="val">4 个脚本</span></div>
+        <p style="font-size:0.8em;color:var(--text-dim)">元数据补丁处理</p>
+      </div>
+      <div>
+        <div class="stat-row"><span><span class="tag tag-cyan">阶段 5</span> 步骤</span><span class="val">6 个脚本</span></div>
+        <p style="font-size:0.8em;color:var(--text-dim)">逐步探索记录</p>
+      </div>
+      <div>
+        <div class="stat-row"><span><span class="tag tag-red">早期输出</span></span><span class="val">128 MB</span></div>
+        <p style="font-size:0.8em;color:var(--text-dim)">早期去混淆快照</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /content -->
+
+<div style="text-align:center;padding:40px 20px;color:var(--text-dim);font-size:0.85em;border-top:1px solid var(--card-border)">
+  VRChat IL2CPP 逆向工程工作区 &mdash; 生成于 2026-04-09<br>
+  GameAssembly.dll (216 MB) | IL2CPP v29.1 | Unity 2022.3.x | Beebyte 混淆<br>
+  <span style="color:var(--accent)">97.7%</span> 标识符已解析 | <span style="color:var(--accent4)">73,510</span> 次重命名已应用 | <span style="color:var(--accent2)">7,918</span> 条词汇
+</div>
+
+<script>
+function show(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// Animate progress bars on scroll
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('.progress-fill').forEach(bar => {
+        const w = bar.style.width;
+        bar.style.width = '0%';
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => { bar.style.width = w; });
+        });
+      });
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.card').forEach(c => observer.observe(c));
+</script>
+</body>
+</html>

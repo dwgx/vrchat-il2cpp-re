@@ -1,0 +1,810 @@
+{
+  "MajorSystem_13C5::m_763": {
+    "name": "GetSimulationMode",
+    "updated_callees": []
+  },
+  "MajorSystem_13C5::m_93C": {
+    "name": "UpdateHumanTransformPose",
+    "updated_callees": [
+      "SetSharedMaterial"
+    ]
+  },
+  "MajorSystem_13C5::m_A31": {
+    "name": "Print",
+    "updated_callees": [
+      "ToString",
+      "Print"
+    ]
+  },
+  "MajorSystem_13C5::m_A93": {
+    "name": "RotateTransform",
+    "updated_callees": []
+  },
+  "MajorSystem_13C5::m_BE0": {
+    "name": "InterpolateTransformPose",
+    "updated_callees": [
+      "SetSharedMaterial"
+    ]
+  },
+  "MajorSystem_13C5::m_D97": {
+    "name": "SetLocalRotation",
+    "updated_callees": []
+  },
+  "MajorSystem_13C5::m_E54": {
+    "name": "GetAnimatorInteger",
+    "updated_callees": []
+  },
+  "MajorSystem_13C5::m_FDD": {
+    "name": "OnDisable",
+    "updated_callees": [
+      "SetAnimatedProperties",
+      "Equals"
+    ]
+  },
+  "Mono10m_CDA1::m_F0B": {
+    "name": "SetActive",
+    "updated_callees": []
+  },
+  "Mono11m_400E::m_490": {
+    "name": "CreateQuaternionFromEulerRadians",
+    "updated_callees": []
+  },
+  "Mono11m_5330::m_025": {
+    "name": "RandomizeValue",
+    "updated_callees": []
+  },
+  "Mono12m_D645::m_3B0": {
+    "name": "GetTransform",
+    "updated_callees": []
+  },
+  "Mono14m_2970::m_D5D": {
+    "name": "GetTexture",
+    "updated_callees": []
+  },
+  "Mono8m_5562::m_9B1": {
+    "name": "UpdateAnchoredPosition",
+    "updated_callees": []
+  },
+  "NetworkDisposeAsyncImplSibling_3E50::m_20A": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "NetworkDisposeAsyncImplSibling_3E50::m_C8D": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "NetworkDisposeAsyncImplSibling_56AC::m_3AA": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "NetworkDisposeAsyncImplSibling_56AC::m_C8D": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "NetworkDisposeAsyncImplSibling_56AC::m_EF4": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "NetworkDisposeAsyncImplSibling_56AC::m_FBF": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkDisposeAsyncSibling_BBCE::m_C8D": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "NetworkEnumeratorContainsSibling_B68B::m_0DC": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkEnumeratorContainsSibling_B68B::m_31C": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibliSibling_E49B::m_0BA": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibliSibling_E49B::m_2A0": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibliSibling_E49B::m_394": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibliSibling_E49B::m_628": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibliSibling_E49B::m_7AE": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibliSibling_E49B::m_AA3": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibliSibling_E49B::m_FF6": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibling_3955::m_800": {
+    "name": "StartNewProfilerRecorder",
+    "updated_callees": [
+      "StartNew"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibling_712E::m_2E0": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "NetworkItemSiblingSiblingSibling_8C0A::m_628": {
+    "name": "IsInvoking",
+    "updated_callees": [
+      "CompareBaseObjects"
+    ]
+  },
+  "NetworkItemSiblingSibling_5241::m_9D8": {
+    "name": "StartNewProfilerRecorder",
+    "updated_callees": [
+      "StartNew"
+    ]
+  },
+  "NetworkItemSibling_33D1::m_010": {
+    "name": "GetShaderPropertyId",
+    "updated_callees": []
+  },
+  "NetworkItemSibling_33D1::m_589": {
+    "name": "ComputeShaderPropertyHash",
+    "updated_callees": []
+  },
+  "NetworkItemSibling_33D1::m_C3B": {
+    "name": "HasMatchingShaderProperty",
+    "updated_callees": []
+  },
+  "NetworkManager::m_4B6": {
+    "name": "ReadPhysicMaterialState",
+    "updated_callees": [
+      "SetAnimatedProperties",
+      "LocalToCellInterpolated"
+    ]
+  },
+  "NetworkManager::m_949": {
+    "name": "GetTransform_355",
+    "updated_callees": [
+      "Destroy"
+    ]
+  },
+  "NetworkSyncableRelated_B4DB::m_FEA": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkSyncableSibling_7FE1::m_07B": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "NetworkSyncable_13B8::m_96A": {
+    "name": "Start",
+    "updated_callees": [
+      "ConvertToSingle"
+    ]
+  },
+  "NetworkSyncable_8A3D::m_02F": {
+    "name": "Start",
+    "updated_callees": []
+  },
+  "NetworkSyncable_DD31::m_D8D": {
+    "name": "OnEnable",
+    "updated_callees": []
+  },
+  "NetworkSyncable_DD31::m_F21": {
+    "name": "MoveNextAsyncState",
+    "updated_callees": [
+      "MoveNext"
+    ]
+  },
+  "NetworkSyncable_F9B6::m_1FC": {
+    "name": "FindRelativeTransform",
+    "updated_callees": []
+  },
+  "OVRLipSyncContext::m_932": {
+    "name": "SetAnimatedProperties",
+    "updated_callees": [
+      "SetAnimatedProperties"
+    ]
+  },
+  "OVRLipSyncSibling_DFF0::m_B63": {
+    "name": "ComputeLipSyncHash",
+    "updated_callees": [
+      "GetHashCode"
+    ]
+  },
+  "PIDController::m_B43": {
+    "name": "SetAnchoredPosition",
+    "updated_callees": []
+  },
+  "PIDControllerSiblingSiblingSibSibling_290B::m_268": {
+    "name": "SetConnectedBody",
+    "updated_callees": []
+  },
+  "PIDControllerSiblingSiblingSibSibling_290B::m_DDE": {
+    "name": "SetPidControlActive",
+    "updated_callees": [
+      "GetMuscleHandles"
+    ]
+  },
+  "PIDControllerSiblingSiblingSibling_2E92::m_35C": {
+    "name": "GetTransform",
+    "updated_callees": []
+  },
+  "PIDControllerSiblingSiblingSibling_2E92::m_676": {
+    "name": "SetActive",
+    "updated_callees": []
+  },
+  "PIDControllerSiblingSiblingSibling_881D::m_79D": {
+    "name": "GetComponentsInChildren",
+    "updated_callees": [
+      "GetComponentsInChildren"
+    ]
+  },
+  "PIDControllerSiblingSiblingSibling_9139::m_036": {
+    "name": "ReleaseTemporaryRenderTexture",
+    "updated_callees": [
+      "GetBackgroundColor",
+      "CreateSettings"
+    ]
+  },
+  "PIDControllerSiblingSiblingSibling_E0AE::m_D2C": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PIDControllerSiblingSiblingSibling_F918::m_676": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PIDControllerSiblingSiblingSibling_F918::m_D2C": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhotonConnectionHandlerSiblingSibling_3076::m_80D": {
+    "name": "AddUnitNode",
+    "updated_callees": []
+  },
+  "PhotonConnectionHandlerSiblingSibling_9D6D::m_552": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhotonConnectionHandlerSiblingSibling_9D6D::m_715": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhotonConnectionHandlerSiblingSibling_9D6D::m_744": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhotonConnectionHandlerSiblingSibling_9D6D::m_A5C": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhotonConnectionHandlerSiblingSibling_9D6D::m_B09": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhotonConnectionHandlerSiblingSibling_9D6D::m_D63": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhotonConnectionHandlerSiblingSibling_9D6D::m_E94": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhotonConnectionHandlerSiblingSibling_9D6D::m_F82": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "PhotonConnectionHandler_DE2B::m_035": {
+    "name": "SetUseGUILayout",
+    "updated_callees": []
+  },
+  "PhotonMasterHandler_09FB::m_A18": {
+    "name": "SetPhotonMasterActive",
+    "updated_callees": [
+      "HasVideo"
+    ]
+  },
+  "PhotonMasterHandler_09FB::m_C19": {
+    "name": "SetLocalScale",
+    "updated_callees": []
+  },
+  "PhotonMasterHandler_09FB::m_FAF": {
+    "name": "ResolveGameObject",
+    "updated_callees": []
+  },
+  "PhotonRoomHandler_25C7::m_369": {
+    "name": "SetConnectedBody",
+    "updated_callees": []
+  },
+  "PhotonRoomHandler_25C7::m_CA5": {
+    "name": "SetConnectedBody",
+    "updated_callees": []
+  },
+  "PhysSoundAudioContainer::m_8DD": {
+    "name": "Instantiate",
+    "updated_callees": []
+  },
+  "PhysicsDescriptionPurchase_F172::m_2EC": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_2FC": {
+    "name": "ValidateRangePositionInfoMarshalling",
+    "updated_callees": []
+  },
+  "PhysicsDescriptionPurchase_F172::m_30C": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_400": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_44E": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_46D": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_6F2": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_A1C": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_A7C": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_B7E": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_BE7": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_CA8": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_D62": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_E31": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PhysicsDescriptionPurchase_F172::m_E8D": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PictureManager::m_083": {
+    "name": "SetConnectedBody",
+    "updated_callees": []
+  },
+  "PictureManager::m_934": {
+    "name": "BuildNodeTreeFromSortedDictionary",
+    "updated_callees": [
+      "NodeTreeFromSortedDictionary"
+    ]
+  },
+  "PictureManager::m_A7E": {
+    "name": "GetPosition",
+    "updated_callees": []
+  },
+  "PlayerCustomInputTextEdited_1259::m_5A1": {
+    "name": "GetGameObject",
+    "updated_callees": []
+  },
+  "PlayerLeftHandlerImpl_734E::m_613": {
+    "name": "ReadColliderState",
+    "updated_callees": []
+  },
+  "PlayerLeftHandler_4F25::m_337": {
+    "name": "SetLocalScale",
+    "updated_callees": []
+  },
+  "PlayerModComponentHealth::m_913": {
+    "name": "GetCurrentHealth",
+    "updated_callees": []
+  },
+  "PlayerModComponentHealth::m_DC0": {
+    "name": "ComputeHealthHash",
+    "updated_callees": [
+      "GetHashCode"
+    ]
+  },
+  "PlayerNetSibling_DAA5::m_917": {
+    "name": "Instantiate",
+    "updated_callees": []
+  },
+  "PlayerRectTransformDimensionsCSibling_A401::m_52D": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "PointerBackPressed_5C11::m_240": {
+    "name": "SetConnectedBody",
+    "updated_callees": []
+  },
+  "PointerDeselectSubmitHandler_4E7B::m_436": {
+    "name": "GetGameObject",
+    "updated_callees": []
+  },
+  "PointerDownBeginDragHandler_0060::m_825": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "PointerEnterHandler_D2EE::m_CEF": {
+    "name": "StartNewProfilerRecorder",
+    "updated_callees": [
+      "StartNew"
+    ]
+  },
+  "PointerEnterPointerEImpl_AA84::m_D14": {
+    "name": "GetKeyDown",
+    "updated_callees": []
+  },
+  "PointerEnterPointerExitHandler_109A::m_486": {
+    "name": "GetPadding",
+    "updated_callees": [
+      "GetPadding"
+    ]
+  },
+  "PointerEnterPointerExitImplImpl_1F12::m_847": {
+    "name": "GetSendDefaultPii",
+    "updated_callees": []
+  },
+  "PointerEnterPointerExitImplSibling_3328::m_A63": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "PointerEnterPointerExitSibling_20DB::m_2B6": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "PointerEnterPointerExitSibling_20DB::m_B04": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "PointerEnterPointerExit_5D10::m_509": {
+    "name": "Start",
+    "updated_callees": [
+      "StartCoroutine"
+    ]
+  },
+  "PointerInitializePotentialDragBeginDragHandler_F5D8::m_F9D": {
+    "name": "SetConnectedBody",
+    "updated_callees": []
+  },
+  "PointerPreCullHandlerImpl_BFE5::m_173": {
+    "name": "StopCoroutine",
+    "updated_callees": []
+  },
+  "PointerPreCullHandler_2B6A::m_92A": {
+    "name": "SetConnectedBody",
+    "updated_callees": []
+  },
+  "PointerSubmitAuthenticationCodeIOpenTwoFactorAu_6951::m_98C": {
+    "name": "CancelInvoke",
+    "updated_callees": [
+      "CancelInvoke"
+    ]
+  },
+  "PointerSubmitAuthenticationCodeIOpenTwoFactorAu_6951::m_9A2": {
+    "name": "OnEnable",
+    "updated_callees": []
+  },
+  "SelectHandler_2312::m_80D": {
+    "name": "OnCancellationTokenCreated",
+    "updated_callees": [
+      "ParseStandardFormat"
+    ]
+  },
+  "Service21m_6C06::m_017": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service21m_6C06::m_90B": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service21m_6C06::m_959": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service21m_6C06::m_9BF": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service21m_6C06::m_A52": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service21m_6C06::m_AAB": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service21m_6C06::m_C8B": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service21m_935A::m_AF2": {
+    "name": "SetOverlay",
+    "updated_callees": []
+  },
+  "Service22m_0D44::m_0E9": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service22m_0D44::m_150": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service22m_0D44::m_223": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service22m_0D44::m_6DB": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "Service22m_0D44::m_791": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service22m_0D44::m_84D": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "Service22m_0D44::m_887": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service22m_0D44::m_A24": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service28m_F0BA::m_251": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service28m_F0BA::m_38C": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service28m_F0BA::m_4FC": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "Service28m_F0BA::m_51A": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service28m_F0BA::m_552": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service28m_F0BA::m_68E": {
+    "name": "ValidateRangePositionInfoMarshalling",
+    "updated_callees": []
+  },
+  "Service28m_F0BA::m_6D3": {
+    "name": "ValidateRangePositionInfoMarshalling",
+    "updated_callees": []
+  },
+  "Service28m_F0BA::m_7C4": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service28m_F0BA::m_8F9": {
+    "name": "ValidateRangePositionInfoMarshalling",
+    "updated_callees": []
+  },
+  "Service28m_F0BA::m_92A": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service28m_F0BA::m_A22": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "Service28m_F0BA::m_C1E": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "Service28m_F0BA::m_CE1": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "Service28m_F0BA::m_DB6": {
+    "name": "ValidateRangePositionInfoMarshalling",
+    "updated_callees": []
+  },
+  "Service28m_F0BA::m_EAF": {
+    "name": "RunOnThreadPool",
+    "updated_callees": [
+      "RunOnThreadPool"
+    ]
+  },
+  "Service30m_701C::m_262": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service30m_701C::m_31B": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  },
+  "Service30m_701C::m_32F": {
+    "name": "GetLastServiceDescriptor",
+    "updated_callees": [
+      "GetLastServiceDescriptor"
+    ]
+  }
+}

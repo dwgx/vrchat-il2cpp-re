@@ -1,0 +1,85 @@
+{
+  "description": "VRChat Frida runtime analysis configuration - known addresses and offsets",
+  "last_updated": "2026-04-09",
+  "dump_session": {
+    "ga_base": "0x7FFB4D4F0000",
+    "notes": "ASLR: GA base changes every launch. Update after restart."
+  },
+  "heap_addresses": {
+    "FM_KLASS_VA": {
+      "value": "0x33757620",
+      "description": "FlowManager (VRCFlowManager) Il2CppClass heap VA, stable across sessions"
+    }
+  },
+  "rva": {
+    "_comment": "All RVAs are relative to GameAssembly.dll base",
+    "GOHOME": {
+      "value": "0x1924340",
+      "method": "VRCFlowManager.m_935 (GoHome)",
+      "description": "Triggers world navigation, confirmed via vtable+0x298 call from init function"
+    },
+    "FM_AWAKE": {
+      "value": "0x1921E50",
+      "method": "VRCFlowManager.Awake"
+    },
+    "FM_INIT_WORLD_JOIN": {
+      "value": "0x1921EF0",
+      "method": "VRCFlowManager.m_A16 (InitWorldJoin)",
+      "description": "Calls init function at 0x18F1740 for startup world join"
+    },
+    "INIT_FUNCTION": {
+      "value": "0x18F1740",
+      "description": "Init function called by FM_INIT_WORLD_JOIN"
+    },
+    "ON_CONNECTED_MASTER_34AB": {
+      "value": "0x19572F0",
+      "description": "OnConnectedToMaster callback (obfuscated name 34AB)"
+    },
+    "ON_CONNECTED_MASTER_E3E5": {
+      "value": "0x211A830",
+      "description": "OnConnectedToMaster callback (obfuscated name E3E5)"
+    },
+    "SET_CONNECT_ERROR": {
+      "value": "0x1943BC0",
+      "description": "Sets connection error state"
+    },
+    "ERROR_STATE_SETTER": {
+      "value": "0x18E76C0",
+      "description": "Error state setter function"
+    },
+    "JOIN_MOVENEXT": {
+      "value": "0x191A720",
+      "description": "Join coroutine MoveNext (state machine step)"
+    },
+    "FM_INIT_CLEANUP": {
+      "value": "0x1921F60",
+      "method": "VRCFlowManager.m_C93 (InitCleanup?)",
+      "description": "Possibly init cleanup, called from m_A16 when +0x159 flag is set"
+    }
+  },
+  "global_cache_offsets": {
+    "StartCoroutineManaged2_cache": {
+      "value": "0xC5E1100",
+      "description": "RIP-relative global storing cached MonoBehaviour.StartCoroutine func ptr"
+    }
+  },
+  "il2cpp_section_delta": "0x1200",
+  "beebyte_il2cpp_class_offsets": {
+    "_comment": "Modified Il2CppClass struct layout (differs from standard IL2CPP v29.1)",
+    "name": "0x58",
+    "namespace": "0x18",
+    "methods": "0x78",
+    "fields": "0xA0",
+    "static_fields": "0xB8",
+    "method_count": "0x120",
+    "property_count": "0x122",
+    "field_count": "0x124"
+  },
+  "beebyte_method_info_offsets": {
+    "_comment": "MethodInfo has code pointer duplicated at +0x00 and +0x08",
+    "code": "0x00",
+    "code_dup": "0x08",
+    "name": "0x18",
+    "declaring_class": "0x28"
+  }
+}

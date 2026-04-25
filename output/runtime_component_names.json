@@ -1,0 +1,265 @@
+{
+  "generated_by": "identify_components_v2.py",
+  "timestamp": "2026-04-09 09:31:02",
+  "method": "Dynamic class resolution + scene traversal + static/heap scan",
+  "stats": {
+    "gos_visited": 62,
+    "total_matches": 153,
+    "unique_classes": 13,
+    "high_confidence": 8,
+    "medium_confidence": 5,
+    "new_discoveries": 13
+  },
+  "identifications": [
+    {
+      "deobf_name": "ComplexComponent_D3AD",
+      "va": "0x30b88030",
+      "gameObject": "Profile",
+      "all_gameObjects": [
+        "Profile",
+        "Stickers",
+        "Emoji",
+        "Menu_ChangeAudioInputDevice",
+        "WingMenu",
+        "Explore",
+        "Stickers_Filter",
+        "Items_Filter",
+        "Menu_QM_ClockMode",
+        "Modal_QM_HoveredPrint",
+        "Groups",
+        "Emotes",
+        "Wing_Menu_Worlds_Filter",
+        "RootPage",
+        "Wing_Menu_Worlds",
+        "Wing_Menu_Groups",
+        "Items",
+        "Modal_QM_HoveredSticker",
+        "Menu_QM_GiftVRCPlus",
+        "Wing_AvatarsFilter",
+        "Modal_HoveredUser",
+        "Avatars",
+        "Friends",
+        "Menu_QM_Emojis",
+        "Wing_EmojisFilter",
+        "Modal_QM_HoveredProp"
+      ],
+      "instance_count": 73,
+      "suggested_name": "Profile",
+      "confidence": "medium",
+      "instance_ptrs": [
+        "0x432d613000",
+        "0x432d613280",
+        "0x432d613500",
+        "0x432dae8000",
+        "0x432dae8140"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponentImpl_D812",
+      "va": "0x31a12a20",
+      "gameObject": "Collections",
+      "all_gameObjects": [
+        "Collections",
+        "Banners",
+        "Profile",
+        "Options",
+        "ItemCounter"
+      ],
+      "instance_count": 14,
+      "suggested_name": "Collections",
+      "confidence": "medium",
+      "instance_ptrs": [
+        "0x432e0a8380",
+        "0x432e0a8620",
+        "0x432e3cc8c0",
+        "0x432e3cca80",
+        "0x432e3ccee0"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponentImpl_186A",
+      "va": "0x31a13100",
+      "gameObject": "VerticalLayoutGroup",
+      "all_gameObjects": [
+        "VerticalLayoutGroup",
+        "Grid"
+      ],
+      "instance_count": 2,
+      "suggested_name": "VerticalLayoutGroup",
+      "confidence": "medium",
+      "instance_ptrs": [
+        "0x432e0a88c0",
+        "0x432e3cc460"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponent_9CAE",
+      "va": "0x333cb3a0",
+      "gameObject": "PlayableController",
+      "all_gameObjects": [
+        "PlayableController"
+      ],
+      "instance_count": 1,
+      "suggested_name": "PlayableController",
+      "confidence": "high",
+      "instance_ptrs": [
+        "0x434d268440"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponent_9333",
+      "va": "0x333d0ed0",
+      "gameObject": "USpeak",
+      "all_gameObjects": [
+        "USpeak"
+      ],
+      "instance_count": 1,
+      "suggested_name": "USpeak",
+      "confidence": "high",
+      "instance_ptrs": [
+        "0x4349418540"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponentImplSibling_A1F8",
+      "va": "0x3341f6c0",
+      "gameObject": "Icon_Attribute_Platform",
+      "all_gameObjects": [
+        "Icon_Attribute_Platform"
+      ],
+      "instance_count": 1,
+      "suggested_name": "Icon_Attribute_Platform",
+      "confidence": "high",
+      "instance_ptrs": [
+        "0x4347e90c80"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponentImpl_A5C0",
+      "va": "0x334e85d0",
+      "gameObject": "GridLayoutGroup",
+      "all_gameObjects": [
+        "GridLayoutGroup",
+        "QM_Grid_Emoji",
+        "QM_List_BlockedByUsersInWorld",
+        "QM_Grid_Users",
+        "QM_Grid_InstanceGroup",
+        "Friends Content",
+        "Friend Requests",
+        "QM_List_UsersInWorld",
+        "Invites",
+        "Group Content",
+        "Other",
+        "QM_Grid_UserAvatars",
+        "Group",
+        "QM_Grid_RepresentedGroups",
+        "QM_Grid_BlockedUsers",
+        "VerticalLayoutGroup",
+        "ContentWarnings",
+        "Options",
+        "QM_Grid_Stickers",
+        "QM_EmojiGrid",
+        "QM_Grid_DisconnectedUsers",
+        "QM_List_BlockedUsersInWorld",
+        "QM_Grid_Prints",
+        "QM_Grid_BlockedByUsers"
+      ],
+      "instance_count": 54,
+      "suggested_name": "GridLayoutGroup",
+      "confidence": "medium",
+      "instance_ptrs": [
+        "0x432d8d0170",
+        "0x432e3be450",
+        "0x432e3be5c0",
+        "0x4334b81450",
+        "0x4334b815c0"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponent_AAC7",
+      "va": "0x33787240",
+      "gameObject": "LeftEffector",
+      "all_gameObjects": [
+        "LeftEffector",
+        "RightEffector"
+      ],
+      "instance_count": 2,
+      "suggested_name": "LeftEffector",
+      "confidence": "medium",
+      "instance_ptrs": [
+        "0x4350acb900",
+        "0x4350acbd80"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponent_A759",
+      "va": "0x33a34c20",
+      "gameObject": "_Application 427c6355-bc3e-43f7-8a96-e64105afb70c",
+      "all_gameObjects": [
+        "_Application 427c6355-bc3e-43f7-8a96-e64105afb70c"
+      ],
+      "instance_count": 1,
+      "suggested_name": "_Application 427c6355-bc3e-43f7-8a96-e64105afb70c",
+      "confidence": "high",
+      "instance_ptrs": [
+        "0x432d1a8880"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponent_1CF2",
+      "va": "0x33a75550",
+      "gameObject": "TutorialManager",
+      "all_gameObjects": [
+        "TutorialManager"
+      ],
+      "instance_count": 1,
+      "suggested_name": "TutorialManager",
+      "confidence": "high",
+      "instance_ptrs": [
+        "0x434dbe9c60"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponent_A32A",
+      "va": "0x33c4f170",
+      "gameObject": "_Application 427c6355-bc3e-43f7-8a96-e64105afb70c",
+      "all_gameObjects": [
+        "_Application 427c6355-bc3e-43f7-8a96-e64105afb70c"
+      ],
+      "instance_count": 1,
+      "suggested_name": "_Application 427c6355-bc3e-43f7-8a96-e64105afb70c",
+      "confidence": "high",
+      "instance_ptrs": [
+        "0x432e31dcc0"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponent_A23A",
+      "va": "0x33c4fad0",
+      "gameObject": "HeadAndHandIK",
+      "all_gameObjects": [
+        "HeadAndHandIK"
+      ],
+      "instance_count": 1,
+      "suggested_name": "HeadAndHandIK",
+      "confidence": "high",
+      "instance_ptrs": [
+        "0x4350936960"
+      ]
+    },
+    {
+      "deobf_name": "ComplexComponent_FFFB",
+      "va": "0x33ced4b0",
+      "gameObject": "HeadAndHandIK",
+      "all_gameObjects": [
+        "HeadAndHandIK"
+      ],
+      "instance_count": 1,
+      "suggested_name": "HeadAndHandIK",
+      "confidence": "high",
+      "instance_ptrs": [
+        "0x435090e540"
+      ]
+    }
+  ]
+}
