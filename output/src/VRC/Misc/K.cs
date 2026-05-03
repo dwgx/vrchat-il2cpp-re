@@ -1,10 +1,18 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
 // Classes: 100
-// Methods: 2259
+// Methods: 2246
 
 namespace VRC.Misc
 {
+    /// <summary>Originally: ÌÏÌÌÎÏÌÌÌÌÌÌÏÍÍÌÏÏÏÏÎÏÏ</summary>
+    public class Keyframe : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE89635290
+        public void Equals(){} // RVA: 0x7FFE89635650
+    }
+
     /// <summary>Originally: ÌÍÎÎÌÍÏÍÌÏÌÌÍÍÎÌÍÏÏÏÌÎÏ</summary>
     public class k__BackingFieldAudioFilterReadHandler_BF46 : MonoBehaviour
     {
@@ -182,28 +190,6 @@ namespace VRC.Misc
         // ── Unresolved (hash) ──
         public void m_9D7(){} // RVA: 0x7FFE8225CDF0
         public void m_B1D(){} // RVA: 0x7FFE8225CEF0
-    }
-
-    /// <summary>Originally: ÎÌÏÏÌÌÎÎÎÌÍÎÏÌÎÏÌÎÎÏÍÏÏ</summary>
-    public class k__BackingFieldComponentImpl_B462 : k__BackingFieldComponent_9A71
-    {
-        // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFE82255050
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
-        public void Start(){} // RVA: 0x7FFE82255350
-        public void OnEnable(){} // RVA: 0x7FFE822554E0
-        public void OnDisable(){} // RVA: 0x7FFE822555E0
-        // ── Unresolved (hash) ──
-        public void m_D44(){} // RVA: 0x7FFE82254660
-        public void m_30F(){} // RVA: 0x7FFE822547F0
-        public void m_9D7(){} // RVA: 0x7FFE82254980
-        public void m_A30(){} // RVA: 0x7FFE82254AA0
-        public void m_E62(){} // RVA: 0x7FFE82254C30
-        public void m_B1D(){} // RVA: 0x7FFE82254D30
-        public void m_E99(){} // RVA: 0x7FFE82254DC0
-        public void m_441(){} // RVA: 0x7FFE82254F50
-        public void m_432(){} // RVA: 0x7FFE82255150
-        public void m_AEB(){} // RVA: 0x7FFE82255250
     }
 
     /// <summary>Originally: ÍÎÍÎÏÎÍÎÍÌÌÏÌÎÎÍÎÍÌÌÎÏÏ</summary>

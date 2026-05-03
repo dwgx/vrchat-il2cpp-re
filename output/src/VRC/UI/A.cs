@@ -1,10 +1,18 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 1
-// Methods: 34
+// Classes: 2
+// Methods: 36
 
 namespace VRC.UI
 {
+    /// <summary>Originally: ÌÌÍÏÍÍÍÏÌÍÍÍÏÍÌÍÌÏÌÍÌÎÎ</summary>
+    public class AddComponentMenu
+    {
+        // ── Unresolved (hash) ──
+        public void m_77F(){} // RVA: 0x7FFE80E460A0
+        public void m_A83(){} // RVA: 0x7FFE80E2F150
+    }
+
     public class AvatarProxySettings : Object
     {
         public bool _m_CachedPtr;

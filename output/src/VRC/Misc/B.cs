@@ -1,10 +1,289 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 14
-// Methods: 254
+// Classes: 36
+// Methods: 389
 
 namespace VRC.Misc
 {
+    /// <summary>Originally: ÍÌÎÏÍÌÎÍÌÍÏÍÍÎÍÎÏÍÎÍÏÎÍ</summary>
+    public class BatchCullingFlags
+    {
+        // ── Unresolved (hash) ──
+        public void m_0EA(){} // RVA: 0x7FFE80E2E2E0
+    }
+
+    /// <summary>Originally: ÏÎÌÎÌÎÏÌÌÏÌÎÌÌÏÍÍÌÎÎÎÍÌ</summary>
+    public class BatchCullingOutput : Static12m_E238
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        // ── Unresolved (hash) ──
+        public void m_56F(){} // RVA: 0x7FFE81FDE960
+        public void m_527(){} // RVA: 0x7FFE81FDEBC0
+        public void m_482(){} // RVA: 0x7FFE81FDEE20
+        public void m_A5D(){} // RVA: 0x7FFE81FDF080
+        public void m_D81(){} // RVA: 0x7FFE81FDF300
+        public void m_02C(){} // RVA: 0x7FFE81FDF560
+        public void m_506(){} // RVA: 0x7FFE81FDF7C0
+    }
+
+    /// <summary>Originally: ÌÌÏÏÌÍÌÏÎÎÍÍÍÏÎÍÏÍÏÌÌÌÍ</summary>
+    public class BatchCullingViewType : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE81FC9480
+        public void RaiseCancellation(){} // RVA: 0x7FFE81FC94B0
+        public void IsInvoking(){} // RVA: 0x7FFE81FC94E0
+        public void CancelInvoke(){} // RVA: 0x7FFE81FC94B0
+        public void Invoke(){} // RVA: 0x7FFE81FC94B0
+        public void InvokeRepeating(){} // RVA: 0x7FFE81FC9480
+        public void .ctor_7F080C499C5B(){} // RVA: 0x7FFE81FC94B0
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void Initialize(){} // RVA: 0x7FFE81FC9640
+    }
+
+    /// <summary>Originally: ÏÎÍÌÍÏÏÍÍÏÏÌÎÍÍÎÎÏÎÎÏÍÌ</summary>
+    public class BatchDrawCommand : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE85C10160
+    }
+
+    /// <summary>Originally: ÌÏÎÌÍÍÏÏÍÌÏÎÍÍÍÎÍÎÏÍÍÎÍ</summary>
+    public class BatchDrawRange : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE81FCAC70
+        public void Equals(){} // RVA: 0x7FFE814B8390
+        public void GetHashCode(){} // RVA: 0x7FFE814B8390
+        public void op_Implicit(){} // RVA: 0x7FFE81FCAC70
+        public void CompareBaseObjects(){} // RVA: 0x7FFE814B8390
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE81FCAC70
+        public void GetCachedPtr(){} // RVA: 0x7FFE814B8390
+        public void get_name(){} // RVA: 0x7FFE81FCAC70
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
+    /// <summary>Originally: ÎÏÍÌÏÍÌÌÎÎÏÏÌÏÎÎÎÏÏÎÍÎÌ</summary>
+    public class BatchFilterSettings : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE810FCE30
+        public void Equals(){} // RVA: 0x7FFE810FCE30
+        public void GetHashCode(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE810FCE30
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE810FCE30
+        public void GetCachedPtr(){} // RVA: 0x7FFE810FCE30
+        public void get_name(){} // RVA: 0x7FFE810FCE30
+    }
+
+    /// <summary>Originally: ÌÍÎÏÎÏÌÌÏÏÍÌÎÎÍÌÏÌÎÏÎÍÏ</summary>
+    public class BatchID : ValueType
+    {
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x7FFE82DA1A00
+        public void Cleanup(){} // RVA: 0x7FFE82DA1A70
+        public void DefaultEquals(){} // RVA: 0x7FFE82DA1C00
+        public void Equals(){} // RVA: 0x7FFE82DA1C70
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82DA1CE0
+        public void GetHashCode(){} // RVA: 0x7FFE82DA1D50
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82DA1DC0
+        public void ToString(){} // RVA: 0x7FFE82DA1F50
+    }
+
+    /// <summary>Originally: ÏÌÏÏÌÍÌÌÏÏÍÍÌÏÏÌÎÎÌÌÏÎÌ</summary>
+    public class BatchPackedCullingViewID : Object
+    {
+        public int _4750;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE81FC9DF0
+        public void Equals(){} // RVA: 0x7FFE81FC9F30
+        public void GetHashCode(){} // RVA: 0x7FFE81FCA1B0
+        public void op_Implicit(){} // RVA: 0x7FFE81FCA430
+        public void CompareBaseObjects(){} // RVA: 0x7FFE81FCA650
+        public void GetCachedPtr(){} // RVA: 0x7FFE81FCA8E0 | overloaded x2
+        public void get_name(){} // RVA: 0x7FFE81FCA920
+        public void set_name(){} // RVA: 0x7FFE81FCA950
+        public void Instantiate(){} // RVA: 0x7FFE81FCAB20
+    }
+
+    /// <summary>Originally: ÍÌÎÎÎÌÎÎÌÎÎÌÏÌÍÌÌÍÎÎÎÎÍ</summary>
+    public class BatchQueryJob`2 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE89E302B0
+        public void Equals(){} // RVA: 0x7FFE89E302B0
+        public void op_Implicit(){} // RVA: 0x7FFE89E302B0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE89E302B0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE89E302B0
+        public void GetCachedPtr(){} // RVA: 0x7FFE89E302B0
+    }
+
+    /// <summary>Originally: ÍÏÍÎÌÌÌÎÏÏÌÌÏÎÍÎÌÎÎÌÌÏÍ</summary>
+    public class Behaviour : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÍÌÌÎÎÍÍÍÍÍÌÏÏÌÍÍÏÎÏÍÏÎÎ</summary>
+    public class BillboardAsset : MonoBehaviour
+    {
+        public VRC.UI.Core.Styles.StyleElement _onIconStyle; // 0x20
+        public VRC.UI.Core.Styles.StyleElement _offIconStyle; // 0x28
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE89D20B70
+        public void RaiseCancellation(){} // RVA: 0x7FFE8144E200
+        public void IsInvoking(){} // RVA: 0x7FFE89D20B70
+        public void CancelInvoke(){} // RVA: 0x7FFE8144E200
+        public void Invoke(){} // RVA: 0x7FFE8144E200
+        public void InvokeRepeating(){} // RVA: 0x7FFE8144E200
+        public void SetComponentReference(){} // RVA: 0x7FFE8143BA80
+        public void StartCoroutine(){} // RVA: 0x7FFE8143BA80
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        // ── Unresolved (hash) ──
+        public void m_3BB(){} // RVA: 0x7FFE8144E200
+    }
+
+    /// <summary>Originally: ÌÎÏÌÌÌÌÎÏÌÏÍÍÏÌÎÎÍÌÌÏÍÎ</summary>
+    public class BootConfigData : MonoBehaviour
+    {
+        public System.Collections.Generic.Dictionary`2<string,Cysharp.Threading.Tasks.UniTask`1<ÌÏÌÌÌÌÎÌÎÌÍÍÍÌÏÍÌÎÌÍÍÎÎ>> _e982; // 0x20
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE80E2E2E0
+        public void RaiseCancellation(){} // RVA: 0x7FFE89B4FA80
+        public void IsInvoking(){} // RVA: 0x7FFE89B4FB90
+        public void CancelInvoke(){} // RVA: 0x7FFE89B4FE30
+        public void Invoke(){} // RVA: 0x7FFE89B500D0
+        public void .ctor(){} // RVA: 0x7FFE89B502F0
+    }
+
+    /// <summary>Originally: ÌÏÏÏÏÍÌÏÌÏÍÏÎÍÍÎÎÏÎÎÍÏÏ</summary>
+    public class BoundingBoxMode : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
+    /// <summary>Originally: ÌÎÎÎÎÏÎÌÌÍÎÌÏÏÍÍÎÏÎÏÍÌÎ</summary>
+    public class BoundingSphere : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE810FB310
+        public void InternalEquals(){} // RVA: 0x7FFE82C774E0
+        public void DefaultEquals(){} // RVA: 0x7FFE82C774D0
+        public void GetHashCode(){} // RVA: 0x7FFE810FB310
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82C774D0
+        public void ToString(){} // RVA: 0x7FFE82C774D0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE810FB310
+        public void Dispose(){} // RVA: 0x7FFE810FB310
+        // ── Unresolved (hash) ──
+        public void m_963(){} // RVA: 0x7FFE810FB310
+    }
+
+    /// <summary>Originally: ÍÌÌÏÎÍÍÌÎÍÎÌÎÎÌÏÏÎÎÏÏÎÌ</summary>
+    public class Bounds : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE89E18850
+        public void RaiseCancellation(){} // RVA: 0x7FFE89E188A0
+        public void .ctor(){} // RVA: 0x7FFE89E18910
+        public void Initialize(){} // RVA: 0x7FFE89E18A90
+        public void Invoke(){} // RVA: 0x7FFE89E18C20
+        public void InvokeRepeating(){} // RVA: 0x7FFE89E18D20
+        public void CancelInvoke(){} // RVA: 0x7FFE89E18DB0
+        public void IsInvoking(){} // RVA: 0x7FFE89E18F40
+        public void StartCoroutine(){} // RVA: 0x7FFE89E18FB0
+        public void StartCoroutine_9E8D0E80A5C4(){} // RVA: 0x7FFE89E19140
+        public void OnPointerClick(){} // RVA: 0x7FFE89E19190
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFE89E19300
+        public void StopCoroutine(){} // RVA: 0x7FFE89E19370
+    }
+
+    /// <summary>Originally: ÎÌÏÍÍÏÎÏÍÎÍÌÏÍÌÏÌÏÌÌÎÌÎ</summary>
+    public class BoundsInt : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
+    }
+
+    /// <summary>Originally: ÏÌÎÌÏÎÎÏÍÏÎÏÎÎÎÎÍÎÎÌÎÌÍ</summary>
+    public class BuiltinRuntimeReflectionSystem : Object
+    {
+        public ÍÌÎÎÍÏÏÍÎÏÎÌÏÍÌÎÎÎÌÍÏÌÌ _4695;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82DB7CA0
+        public void Equals(){} // RVA: 0x7FFE82DB7E70
+    }
+
+    /// <summary>Originally: ÌÏÍÍÎÌÏÏÌÏÎÎÏÏÌÍÏÏÌÍÎÍÌ</summary>
+    public class BurstAuthorizedExternalMethodAttribute : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82C67CC0
+        public void InternalEquals(){} // RVA: 0x7FFE82C67CB0
+        public void DefaultEquals(){} // RVA: 0x7FFE810FB310
+        public void GetHashCode(){} // RVA: 0x7FFE810FB310
+        public void Dispose(){} // RVA: 0x7FFE810FB310
+        public void Cleanup(){} // RVA: 0x7FFE82C67CC0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82C67CB0
+        public void ToString(){} // RVA: 0x7FFE82C67CC0
+        public void MoveNext(){} // RVA: 0x7FFE810FB310
+        // ── Unresolved (hash) ──
+        public void m_E42(){} // RVA: 0x7FFE82C67CB0
+    }
+
+    /// <summary>Originally: ÍÌÍÌÎÌÌÏÎÎÍÏÏÎÏÍÎÌÎÎÏÎÍ</summary>
+    public class BurstDiscardAttribute : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE89E06DA0
+        public void Equals(){} // RVA: 0x7FFE89E06DA0
+        public void GetHashCode(){} // RVA: 0x7FFE89E06E60
+        public void .ctor(){} // RVA: 0x7FFE89E07440 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFE89E07080
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE89E070C0
+        public void GetCachedPtr(){} // RVA: 0x7FFE89E07280
+        public void Initialize(){} // RVA: 0x7FFE89E06DA0
+        public void Instantiate(){} // RVA: 0x7FFE89E06DA0
+    }
+
+    /// <summary>Originally: ÏÌÎÏÌÍÏÏÏÎÍÌÏÌÎÍÏÎÍÎÍÎÌ</summary>
+    public class BurstLike
+    {
+        // ── Unresolved (hash) ──
+        public void m_650(){} // RVA: 0x7FFE80E2E2E0
+    }
+
+    /// <summary>Originally: ÎÎÌÏÎÌÌÍÎÍÍÌÌÌÌÌÌÍÏÌÏÎÍ</summary>
+    public class BurstLogType : Object
+    {
+        public ÎÌÍÍÌÎÌÏÎÎÏÏÌÌÏÌÏÏÏÎÎÍÌ _m_CachedPtr; // 0x10
+        public int _offsetOfInstanceIDInCPlusPlusObject; // 0x18
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE813DB630
+        public void Equals(){} // RVA: 0x7FFE810FCE30
+        public void GetHashCode(){} // RVA: 0x7FFE81116380
+        public void op_Implicit(){} // RVA: 0x7FFE813DB630
+        public void .ctor(){} // RVA: 0x7FFE82AF3A20
+        public void Initialize(){} // RVA: 0x7FFE81116380
+        public void GetCachedPtr(){} // RVA: 0x7FFE810FCE30
+        public void get_name(){} // RVA: 0x7FFE8144DF00
+        public void set_name(){} // RVA: 0x7FFE813DB630
+        public void Instantiate(){} // RVA: 0x7FFE810FCE30
+    }
+
+    /// <summary>Originally: ÍÎÏÍÏÎÏÌÌÌÎÌÍÎÍÎÌÌÏÍÎÌÏ</summary>
+    public class BurstRuntime
+    {
+    }
+
     /// <summary>Originally: ÌÎÌÎÍÌÌÎÍÍÍÌÍÍÌÏÏÎÏÍÍÏÍ</summary>
     public class backgroundInnerStrokebackgrounSibling_9DEA
     {

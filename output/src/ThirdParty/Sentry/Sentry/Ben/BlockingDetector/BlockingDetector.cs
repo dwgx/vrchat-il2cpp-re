@@ -47,7 +47,7 @@ namespace ThirdParty.Sentry.Sentry.Ben.BlockingDetector
         public void Restore(){} // RVA: 0x7FFE80E45FE0
     }
 
-    public class StaticRecursionTracker : Object
+    public class OnStartedRecordingVideoCallback : Object
     {
         // ── Methods ──
         public void Recurse(){} // RVA: 0x7FFE86F8B890
@@ -57,7 +57,7 @@ namespace ThirdParty.Sentry.Sentry.Ben.BlockingDetector
         public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
-    public class StaticTaskBlockingListenerState : Object
+    public class OnStoppedRecordingVideoCallback : Object
     {
         // ── Methods ──
         public void Suppress(){} // RVA: 0x7FFE86F8BB00

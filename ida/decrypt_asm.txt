@@ -1,0 +1,384 @@
+0000000180A7E880  push    rbp
+0000000180A7E882  mov     rbp, rsp
+0000000180A7E885  sub     rsp, 50h
+0000000180A7E889  movdqa  xmm2, cs:xmmword_18B679930
+0000000180A7E891  lea     rcx, [rbp+var_20]
+0000000180A7E895  mov     eax, cs:dword_18B678660
+0000000180A7E89B  mov     [rbp+var_20+1], 0D8DAD8DAh
+0000000180A7E8A2  mov     [rbp+var_18+3], 0A2B6A0A4h
+0000000180A7E8A9  mov     byte ptr [rbp+var_20], 0D2h
+0000000180A7E8AD  movd    xmm0, [rbp+var_20]
+0000000180A7E8B2  movd    xmm1, eax
+0000000180A7E8B6  mov     eax, cs:dword_18B678670
+0000000180A7E8BC  psubb   xmm1, xmm2
+0000000180A7E8C0  xorps   xmm1, xmm0
+0000000180A7E8C3  mov     [rbp+var_1B], 96D6h
+0000000180A7E8C9  movd    [rbp+var_20], xmm1
+0000000180A7E8CE  mov     [rbp+var_19], 0D1h
+0000000180A7E8D2  movd    xmm0, dword ptr [rbp-1Ch]
+0000000180A7E8D7  movd    xmm1, eax
+0000000180A7E8DB  mov     eax, cs:dword_18B678680
+0000000180A7E8E1  psubb   xmm1, xmm2
+0000000180A7E8E5  xorps   xmm1, xmm0
+0000000180A7E8E8  mov     word ptr [rbp+var_18], 0CAD8h
+0000000180A7E8EE  movd    dword ptr [rbp-1Ch], xmm1
+0000000180A7E8F3  mov     byte ptr [rbp+var_18+2], 0DEh
+0000000180A7E8F7  movd    xmm0, [rbp+var_18]
+0000000180A7E8FC  movd    xmm1, eax
+0000000180A7E900  mov     eax, cs:dword_18B678690
+0000000180A7E906  psubb   xmm1, xmm2
+0000000180A7E90A  xorps   xmm1, xmm0
+0000000180A7E90D  mov     [rbp+var_11], 0EAh
+0000000180A7E911  movd    xmm0, dword ptr [rbp-14h]
+0000000180A7E916  movd    [rbp+var_18], xmm1
+0000000180A7E91B  movd    xmm1, eax
+0000000180A7E91F  mov     eax, cs:dword_18B6786A0
+0000000180A7E925  psubb   xmm1, xmm2
+0000000180A7E929  xorps   xmm1, xmm0
+0000000180A7E92C  mov     [rbp+var_10], 0C8B3A7A1h
+0000000180A7E933  movd    xmm0, [rbp+var_10]
+0000000180A7E938  movd    dword ptr [rbp-14h], xmm1
+0000000180A7E93D  movd    xmm1, eax
+0000000180A7E941  psubb   xmm1, xmm2
+0000000180A7E945  xorps   xmm1, xmm0
+0000000180A7E948  movd    [rbp+var_10], xmm1
+0000000180A7E94D  call    sub_1809E7EE0
+0000000180A7E952  mov     cs:qword_18C8F4E18, rax
+0000000180A7E959  test    rax, rax
+0000000180A7E95C  jnz     short loc_180A7E964
+0000000180A7E95E  add     rsp, 50h
+0000000180A7E962  pop     rbp
+0000000180A7E963  retn
+0000000180A7E964  mov     [rsp+50h+arg_0], rbx
+0000000180A7E969  mov     ecx, 148h
+0000000180A7E96E  mov     [rsp+50h+arg_8], rsi
+0000000180A7E973  mov     [rsp+50h+arg_10], rdi
+0000000180A7E978  call    sub_180AB0FC8
+0000000180A7E97D  mov     rcx, cs:qword_18C8F4E18
+0000000180A7E984  mov     r9d, 2
+0000000180A7E98A  mov     r8, rax
+0000000180A7E98D  mov     cs:qword_18C8F4E38, rax
+0000000180A7E994  mov     rdx, rax
+0000000180A7E997  mov     eax, r9d
+0000000180A7E99A  nop     word ptr [rax+rax+00h]
+0000000180A7E9A0  lea     rdx, [rdx+80h]
+0000000180A7E9A7  movups  xmm0, xmmword ptr [rcx]
+0000000180A7E9AA  lea     rcx, [rcx+80h]
+0000000180A7E9B1  movups  xmmword ptr [rdx-80h], xmm0
+0000000180A7E9B5  movups  xmm1, xmmword ptr [rcx-70h]
+0000000180A7E9B9  movups  xmmword ptr [rdx-70h], xmm1
+0000000180A7E9BD  movups  xmm0, xmmword ptr [rcx-60h]
+0000000180A7E9C1  movups  xmmword ptr [rdx-60h], xmm0
+0000000180A7E9C5  movups  xmm1, xmmword ptr [rcx-50h]
+0000000180A7E9C9  movups  xmmword ptr [rdx-50h], xmm1
+0000000180A7E9CD  movups  xmm0, xmmword ptr [rcx-40h]
+0000000180A7E9D1  movups  xmmword ptr [rdx-40h], xmm0
+0000000180A7E9D5  movups  xmm1, xmmword ptr [rcx-30h]
+0000000180A7E9D9  movups  xmmword ptr [rdx-30h], xmm1
+0000000180A7E9DD  movups  xmm0, xmmword ptr [rcx-20h]
+0000000180A7E9E1  movups  xmmword ptr [rdx-20h], xmm0
+0000000180A7E9E5  movups  xmm1, xmmword ptr [rcx-10h]
+0000000180A7E9E9  movups  xmmword ptr [rdx-10h], xmm1
+0000000180A7E9ED  sub     rax, 1
+0000000180A7E9F1  jnz     short loc_180A7E9A0
+0000000180A7E9F3  movups  xmm0, xmmword ptr [rcx]
+0000000180A7E9F6  mov     r10, 0FFFFFFFFFFFFFFFEh
+0000000180A7E9FD  mov     r11, r8
+0000000180A7EA00  movdqa  xmm2, cs:xmmword_18B6788F0
+0000000180A7EA08  sub     r10, r8
+0000000180A7EA0B  movdqa  xmm3, cs:xmmword_18B678A70
+0000000180A7EA13  neg     r11
+0000000180A7EA16  movups  xmmword ptr [rdx], xmm0
+0000000180A7EA19  sub     r9, r8
+0000000180A7EA1C  movups  xmm1, xmmword ptr [rcx+10h]
+0000000180A7EA20  movups  xmmword ptr [rdx+10h], xmm1
+0000000180A7EA24  movups  xmm0, xmmword ptr [rcx+20h]
+0000000180A7EA28  movups  xmmword ptr [rdx+20h], xmm0
+0000000180A7EA2C  movups  xmm1, xmmword ptr [rcx+30h]
+0000000180A7EA30  movdqa  xmm0, cs:xmmword_18B678BC0
+0000000180A7EA38  movups  xmmword ptr [rdx+30h], xmm1
+0000000180A7EA3C  mov     rax, [rcx+40h]
+0000000180A7EA40  mov     rcx, 0FFFFFFFFFFFFFFFCh
+0000000180A7EA47  movdqa  [rbp+var_30], xmm0
+0000000180A7EA4C  sub     rcx, r8
+0000000180A7EA4F  movzx   ebx, word ptr [rbp+var_30]
+0000000180A7EA53  mov     [rdx+40h], rax
+0000000180A7EA57  lea     rdx, [r8+4]
+0000000180A7EA5B  nop     dword ptr [rax+rax+00h]
+0000000180A7EA60  lea     rax, [rcx+rdx]
+0000000180A7EA64  movd    xmm0, ebx
+0000000180A7EA68  movq    xmm1, rax
+0000000180A7EA6D  movzx   eax, word ptr [rdx-4]
+0000000180A7EA71  punpcklqdq xmm1, xmm1
+0000000180A7EA75  paddq   xmm1, xmm2
+0000000180A7EA79  andps   xmm1, xmm3
+0000000180A7EA7C  packuswb xmm1, xmm1
+0000000180A7EA80  packuswb xmm1, xmm1
+0000000180A7EA84  packuswb xmm1, xmm1
+0000000180A7EA88  psubb   xmm1, xmm0
+0000000180A7EA8C  movd    xmm0, eax
+0000000180A7EA90  xorps   xmm1, xmm0
+0000000180A7EA93  movd    xmm0, ebx
+0000000180A7EA97  movd    eax, xmm1
+0000000180A7EA9B  mov     [rdx-4], ax
+0000000180A7EA9F  lea     rax, [r10+rdx]
+0000000180A7EAA3  movq    xmm1, rax
+0000000180A7EAA8  movzx   eax, word ptr [rdx-2]
+0000000180A7EAAC  punpcklqdq xmm1, xmm1
+0000000180A7EAB0  paddq   xmm1, xmm2
+0000000180A7EAB4  andps   xmm1, xmm3
+0000000180A7EAB7  packuswb xmm1, xmm1
+0000000180A7EABB  packuswb xmm1, xmm1
+0000000180A7EABF  packuswb xmm1, xmm1
+0000000180A7EAC3  psubb   xmm1, xmm0
+0000000180A7EAC7  movd    xmm0, eax
+0000000180A7EACB  xorps   xmm1, xmm0
+0000000180A7EACE  movd    xmm0, ebx
+0000000180A7EAD2  movd    eax, xmm1
+0000000180A7EAD6  mov     [rdx-2], ax
+0000000180A7EADA  lea     rax, [r11+rdx]
+0000000180A7EADE  movq    xmm1, rax
+0000000180A7EAE3  movzx   eax, word ptr [rdx]
+0000000180A7EAE6  punpcklqdq xmm1, xmm1
+0000000180A7EAEA  paddq   xmm1, xmm2
+0000000180A7EAEE  andps   xmm1, xmm3
+0000000180A7EAF1  packuswb xmm1, xmm1
+0000000180A7EAF5  packuswb xmm1, xmm1
+0000000180A7EAF9  packuswb xmm1, xmm1
+0000000180A7EAFD  psubb   xmm1, xmm0
+0000000180A7EB01  movd    xmm0, eax
+0000000180A7EB05  xorps   xmm1, xmm0
+0000000180A7EB08  movd    xmm0, ebx
+0000000180A7EB0C  movd    eax, xmm1
+0000000180A7EB10  mov     [rdx], ax
+0000000180A7EB13  lea     rax, [r9+rdx]
+0000000180A7EB17  movq    xmm1, rax
+0000000180A7EB1C  movzx   eax, word ptr [rdx+2]
+0000000180A7EB20  punpcklqdq xmm1, xmm1
+0000000180A7EB24  lea     rdx, [rdx+8]
+0000000180A7EB28  paddq   xmm1, xmm2
+0000000180A7EB2C  andps   xmm1, xmm3
+0000000180A7EB2F  packuswb xmm1, xmm1
+0000000180A7EB33  packuswb xmm1, xmm1
+0000000180A7EB37  packuswb xmm1, xmm1
+0000000180A7EB3B  psubb   xmm1, xmm0
+0000000180A7EB3F  movd    xmm0, eax
+0000000180A7EB43  xorps   xmm1, xmm0
+0000000180A7EB46  movd    eax, xmm1
+0000000180A7EB4A  mov     [rdx-6], ax
+0000000180A7EB4E  lea     rax, [rcx+rdx]
+0000000180A7EB52  cmp     rax, 148h
+0000000180A7EB58  jb      loc_180A7EA60
+0000000180A7EB5E  movsxd  rcx, dword ptr [r8+128h]
+0000000180A7EB65  mov     cs:qword_18C8F4E40, r8
+0000000180A7EB6C  call    sub_180AB0FC8
+0000000180A7EB71  mov     rdi, cs:qword_18C8F4E40
+0000000180A7EB78  mov     rsi, rax
+0000000180A7EB7B  mov     cs:qword_18C8F4E08, rax
+0000000180A7EB82  mov     ecx, [rdi+0ACh]
+0000000180A7EB88  movsxd  r8, dword ptr [rdi+128h]
+0000000180A7EB8F  add     ecx, 24h ; '$'
+0000000180A7EB92  movsxd  rdx, ecx
+0000000180A7EB95  mov     rcx, rax
+0000000180A7EB98  add     rdx, cs:qword_18C8F4E18
+0000000180A7EB9F  call    sub_180AD4B60
+0000000180A7EBA4  xor     ebx, ebx
+0000000180A7EBA6  mov     ecx, ebx
+0000000180A7EBA8  cmp     [rdi+128h], ebx
+0000000180A7EBAE  jbe     short loc_180A7EBCB
+0000000180A7EBB0  lea     eax, [rcx-23h]
+0000000180A7EBB3  add     al, [rdi+128h]
+0000000180A7EBB9  xor     [rcx+rsi], al
+0000000180A7EBBC  inc     rcx
+0000000180A7EBBF  movsxd  rax, dword ptr [rdi+128h]
+0000000180A7EBC6  cmp     rcx, rax
+0000000180A7EBC9  jb      short loc_180A7EBB0
+0000000180A7EBCB  movsxd  rcx, dword ptr [rdi+0A8h]
+0000000180A7EBD2  call    sub_180AB0FC8
+0000000180A7EBD7  mov     rdi, cs:qword_18C8F4E40
+0000000180A7EBDE  mov     rsi, rax
+0000000180A7EBE1  mov     cs:qword_18C8F4E30, rax
+0000000180A7EBE8  mov     ecx, [rdi]
+0000000180A7EBEA  movsxd  r8, dword ptr [rdi+0A8h]
+0000000180A7EBF1  sub     ecx, 34h ; '4'
+0000000180A7EBF4  movsxd  rdx, ecx
+0000000180A7EBF7  mov     rcx, rax
+0000000180A7EBFA  add     rdx, cs:qword_18C8F4E18
+0000000180A7EC01  call    sub_180AD4B60
+0000000180A7EC06  mov     rcx, rbx
+0000000180A7EC09  cmp     [rdi+0A8h], ebx
+0000000180A7EC0F  jbe     short loc_180A7EC2C
+0000000180A7EC11  lea     eax, [rcx-23h]
+0000000180A7EC14  add     al, [rdi+0A8h]
+0000000180A7EC1A  xor     [rcx+rsi], al
+0000000180A7EC1D  inc     rcx
+0000000180A7EC20  movsxd  rax, dword ptr [rdi+0A8h]
+0000000180A7EC27  cmp     rcx, rax
+0000000180A7EC2A  jb      short loc_180A7EC11
+0000000180A7EC2C  movsxd  rcx, dword ptr [rdi+4Ch]
+0000000180A7EC30  call    sub_180AB0FC8
+0000000180A7EC35  mov     rdi, cs:qword_18C8F4E40
+0000000180A7EC3C  mov     rsi, rax
+0000000180A7EC3F  mov     cs:qword_18C8F4E28, rax
+0000000180A7EC46  mov     ecx, [rdi+0B4h]
+0000000180A7EC4C  movsxd  r8, dword ptr [rdi+4Ch]
+0000000180A7EC50  add     ecx, 18h
+0000000180A7EC53  movsxd  rdx, ecx
+0000000180A7EC56  mov     rcx, rax
+0000000180A7EC59  add     rdx, cs:qword_18C8F4E18
+0000000180A7EC60  call    sub_180AD4B60
+0000000180A7EC65  mov     rcx, rbx
+0000000180A7EC68  cmp     [rdi+4Ch], ebx
+0000000180A7EC6B  jbe     short loc_180A7EC87
+0000000180A7EC6D  nop     dword ptr [rax]
+0000000180A7EC70  movzx   eax, cl
+0000000180A7EC73  sub     al, [rdi+4Ch]
+0000000180A7EC76  add     al, 23h ; '#'
+0000000180A7EC78  xor     [rcx+rsi], al
+0000000180A7EC7B  inc     rcx
+0000000180A7EC7E  movsxd  rax, dword ptr [rdi+4Ch]
+0000000180A7EC82  cmp     rcx, rax
+0000000180A7EC85  jb      short loc_180A7EC70
+0000000180A7EC87  movsxd  rcx, dword ptr [rdi+0E8h]
+0000000180A7EC8E  call    sub_180AB0FC8
+0000000180A7EC93  mov     rdi, cs:qword_18C8F4E40
+0000000180A7EC9A  mov     rsi, rax
+0000000180A7EC9D  mov     cs:qword_18C8F4E00, rax
+0000000180A7ECA4  mov     ecx, [rdi+98h]
+0000000180A7ECAA  movsxd  r8, dword ptr [rdi+0E8h]
+0000000180A7ECB1  add     ecx, 3Ch ; '<'
+0000000180A7ECB4  movsxd  rdx, ecx
+0000000180A7ECB7  mov     rcx, rax
+0000000180A7ECBA  add     rdx, cs:qword_18C8F4E18
+0000000180A7ECC1  call    sub_180AD4B60
+0000000180A7ECC6  mov     rcx, rbx
+0000000180A7ECC9  cmp     [rdi+0E8h], ebx
+0000000180A7ECCF  jbe     short loc_180A7ECEC
+0000000180A7ECD1  lea     eax, [rcx-23h]
+0000000180A7ECD4  add     al, [rdi+0E8h]
+0000000180A7ECDA  xor     [rcx+rsi], al
+0000000180A7ECDD  inc     rcx
+0000000180A7ECE0  movsxd  rax, dword ptr [rdi+0E8h]
+0000000180A7ECE7  cmp     rcx, rax
+0000000180A7ECEA  jb      short loc_180A7ECD1
+0000000180A7ECEC  movsxd  rcx, dword ptr [rdi+84h]
+0000000180A7ECF3  call    sub_180AB0FC8
+0000000180A7ECF8  mov     rdi, cs:qword_18C8F4E40
+0000000180A7ECFF  mov     rsi, rax
+0000000180A7ED02  mov     cs:qword_18C8F4E50, rax
+0000000180A7ED09  mov     ecx, [rdi+8]
+0000000180A7ED0C  movsxd  r8, dword ptr [rdi+84h]
+0000000180A7ED13  add     ecx, 3Ch ; '<'
+0000000180A7ED16  movsxd  rdx, ecx
+0000000180A7ED19  mov     rcx, rax
+0000000180A7ED1C  add     rdx, cs:qword_18C8F4E18
+0000000180A7ED23  call    sub_180AD4B60
+0000000180A7ED28  mov     rcx, rbx
+0000000180A7ED2B  cmp     [rdi+84h], ebx
+0000000180A7ED31  jbe     short loc_180A7ED5B
+0000000180A7ED33  nop     dword ptr [rax+00h]
+0000000180A7ED37  nop     word ptr [rax+rax+00000000h]
+0000000180A7ED40  lea     eax, [rcx-23h]
+0000000180A7ED43  add     al, [rdi+84h]
+0000000180A7ED49  xor     [rcx+rsi], al
+0000000180A7ED4C  inc     rcx
+0000000180A7ED4F  movsxd  rax, dword ptr [rdi+84h]
+0000000180A7ED56  cmp     rcx, rax
+0000000180A7ED59  jb      short loc_180A7ED40
+0000000180A7ED5B  movsxd  rcx, dword ptr [rdi+0FCh]
+0000000180A7ED62  call    sub_180AB0FC8
+0000000180A7ED67  mov     rdi, cs:qword_18C8F4E40
+0000000180A7ED6E  mov     rsi, rax
+0000000180A7ED71  mov     cs:qword_18C8F4DF0, rax
+0000000180A7ED78  mov     ecx, [rdi+68h]
+0000000180A7ED7B  movsxd  r8, dword ptr [rdi+0FCh]
+0000000180A7ED82  sub     ecx, 20h ; ' '
+0000000180A7ED85  movsxd  rdx, ecx
+0000000180A7ED88  mov     rcx, rax
+0000000180A7ED8B  add     rdx, cs:qword_18C8F4E18
+0000000180A7ED92  call    sub_180AD4B60
+0000000180A7ED97  mov     rcx, rbx
+0000000180A7ED9A  cmp     [rdi+0FCh], ebx
+0000000180A7EDA0  jbe     short loc_180A7EDBF
+0000000180A7EDA2  movzx   eax, cl
+0000000180A7EDA5  sub     al, [rdi+0FCh]
+0000000180A7EDAB  add     al, 23h ; '#'
+0000000180A7EDAD  xor     [rcx+rsi], al
+0000000180A7EDB0  inc     rcx
+0000000180A7EDB3  movsxd  rax, dword ptr [rdi+0FCh]
+0000000180A7EDBA  cmp     rcx, rax
+0000000180A7EDBD  jb      short loc_180A7EDA2
+0000000180A7EDBF  movsxd  rcx, dword ptr [rdi+134h]
+0000000180A7EDC6  call    sub_180AB0FC8
+0000000180A7EDCB  mov     rdi, cs:qword_18C8F4E40
+0000000180A7EDD2  mov     rsi, rax
+0000000180A7EDD5  mov     cs:qword_18C8F4E10, rax
+0000000180A7EDDC  mov     ecx, [rdi+12Ch]
+0000000180A7EDE2  movsxd  r8, dword ptr [rdi+134h]
+0000000180A7EDE9  add     ecx, 38h ; '8'
+0000000180A7EDEC  movsxd  rdx, ecx
+0000000180A7EDEF  mov     rcx, rax
+0000000180A7EDF2  add     rdx, cs:qword_18C8F4E18
+0000000180A7EDF9  call    sub_180AD4B60
+0000000180A7EDFE  cmp     [rdi+134h], ebx
+0000000180A7EE04  jbe     short loc_180A7EE2D
+0000000180A7EE06  nop     word ptr [rax+rax+00000000h]
+0000000180A7EE10  movzx   eax, bl
+0000000180A7EE13  sub     al, [rdi+134h]
+0000000180A7EE19  add     al, 23h ; '#'
+0000000180A7EE1B  xor     [rbx+rsi], al
+0000000180A7EE1E  inc     rbx
+0000000180A7EE21  movsxd  rax, dword ptr [rdi+134h]
+0000000180A7EE28  cmp     rbx, rax
+0000000180A7EE2B  jb      short loc_180A7EE10
+0000000180A7EE2D  movsxd  rcx, dword ptr [rdi+0C8h]
+0000000180A7EE34  mov     rax, 0CCCCCCCCCCCCCCCDh
+0000000180A7EE3E  mul     rcx
+0000000180A7EE41  shr     rdx, 5
+0000000180A7EE45  mov     cs:dword_18C8F4F40, edx
+0000000180A7EE4B  movsxd  rax, dword ptr [rdi+128h]
+0000000180A7EE52  shr     rax, 6
+0000000180A7EE56  mov     cs:dword_18C8F4F50, eax
+0000000180A7EE5C  mov     rax, cs:off_18C8F0558
+0000000180A7EE63  mov     cs:dword_18C8F4FB8, edx
+0000000180A7EE69  movsxd  rcx, edx
+0000000180A7EE6C  mov     edx, 18h
+0000000180A7EE71  call    rax ; sub_180AB4D70
+0000000180A7EE73  mov     cs:qword_18C8F4FD0, rax
+0000000180A7EE7A  mov     edx, 8
+0000000180A7EE7F  mov     rax, cs:qword_18C8F4E48
+0000000180A7EE86  movsxd  rcx, dword ptr [rax+30h]
+0000000180A7EE8A  mov     rax, cs:off_18C8F0558
+0000000180A7EE91  call    rax ; sub_180AB4D70
+0000000180A7EE93  mov     cs:qword_18C8F4FC8, rax
+0000000180A7EE9A  mov     rax, cs:qword_18C8F4E40
+0000000180A7EEA1  movsxd  rcx, dword ptr [rax+0D4h]
+0000000180A7EEA8  mov     rax, 2E8BA2E8BA2E8BA3h
+0000000180A7EEB2  mul     rcx
+0000000180A7EEB5  mov     rax, cs:off_18C8F0558
+0000000180A7EEBC  mov     rcx, rdx
+0000000180A7EEBF  mov     edx, 8
+0000000180A7EEC4  shr     rcx, 4
+0000000180A7EEC8  call    rax ; sub_180AB4D70
+0000000180A7EECA  mov     cs:qword_18C8F4FE8, rax
+0000000180A7EED1  mov     edx, 8
+0000000180A7EED6  mov     rax, cs:qword_18C8F4E40
+0000000180A7EEDD  movsxd  rcx, dword ptr [rax+84h]
+0000000180A7EEE4  mov     rax, cs:off_18C8F0558
+0000000180A7EEEB  shr     rcx, 5
+0000000180A7EEEF  call    rax ; sub_180AB4D70
+0000000180A7EEF1  mov     cs:qword_18C8F4FC0, rax
+0000000180A7EEF8  mov     edx, 8
+0000000180A7EEFD  mov     rax, cs:qword_18C8F4E48
+0000000180A7EF04  movsxd  rcx, dword ptr [rax+40h]
+0000000180A7EF08  mov     rax, cs:off_18C8F0558
+0000000180A7EF0F  call    rax ; sub_180AB4D70
+0000000180A7EF11  mov     cs:qword_18C8F4FB0, rax
+0000000180A7EF18  call    sub_180A7E7C0
+0000000180A7EF1D  mov     rdi, [rsp+50h+arg_10]
+0000000180A7EF22  mov     al, 1
+0000000180A7EF24  mov     rsi, [rsp+50h+arg_8]
+0000000180A7EF29  mov     rbx, [rsp+50h+arg_0]
+0000000180A7EF2E  add     rsp, 50h
+0000000180A7EF32  pop     rbp
+0000000180A7EF33  retn

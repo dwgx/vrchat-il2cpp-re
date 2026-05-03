@@ -1,10 +1,22 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.SteamAudio
-// Classes: 8
-// Methods: 28
+// Classes: 9
+// Methods: 37
 
 namespace ThirdParty.Other.SteamAudio
 {
+    public class PanicFunction_ : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE86FB9060 | overloaded x3
+        public void Finalize(){} // RVA: 0x7FFE86FB9150
+        public void Release(){} // RVA: 0x7FFE86FB9190
+        public void Get(){} // RVA: 0x7FFE810FE7C0
+        public void Save(){} // RVA: 0x7FFE86FB9260
+        public void AddToScene(){} // RVA: 0x7FFE86FB9370
+        public void RemoveFromScene(){} // RVA: 0x7FFE86FB9420
+    }
+
     public class PathBakeParams : ValueType
     {
     }

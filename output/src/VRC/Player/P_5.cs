@@ -1,10 +1,20 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Player
-// Classes: 30
-// Methods: 476
+// Classes: 37
+// Methods: 559
 
 namespace VRC.Player
 {
+    /// <summary>Originally: ÏÏÌÌÌÎÏÏÎÌÏÌÌÎÎÍÏÌÎÍÏÏÌ</summary>
+    public class PlayerEditorConnectionEvents : Object
+    {
+        public ÌÏÍÏÍÍÍÏÍÌÏÌÍÏÍÍÏÏÍÌÏÎÍ _0E59;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82D94E80
+        public void Equals(){} // RVA: 0x7FFE82D95050
+    }
+
     /// <summary>Originally: ÏÏÎÌÎÎÍÎÌÍÌÍÍÍÏÎÍÌÎÌÎÍÎ</summary>
     public class PlayerIsInteractivePickupUseDown_9E04 : VRCInteractable
     {
@@ -120,6 +130,29 @@ namespace VRC.Player
         public void set_name(){} // RVA: 0x7FFE899A1DE0
         public void Instantiate(){} // RVA: 0x7FFE899A1E20
         public void .ctor(){} // RVA: 0x7FFE810FE0C0
+    }
+
+    /// <summary>Originally: ÏÎÎÏÍÌÍÎÍÌÍÎÌÍÏÍÍÍÌÌÌÍÌ</summary>
+    public class PlayerMoveNext_36A2 : Object
+    {
+        public int _m_CachedPtr; // 0x10
+        public object _offsetOfInstanceIDInCPlusPlusObject; // 0x18
+
+        // ── Methods ──
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
+        public void get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void op_Implicit(){} // RVA: 0x7FFE810FE7C0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE810FE7C0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE810FB310
+        public void GetCachedPtr(){} // RVA: 0x7FFE810FE7C0
+        public void MoveNext(){} // RVA: 0x7FFE82758D70
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void Instantiate(){} // RVA: 0x7FFE82759060
+        public void Equals(){} // RVA: 0x7FFE810FE7C0
+        public void .ctor(){} // RVA: 0x7FFE810FE0C0
+        public void Initialize(){} // RVA: 0x7FFE810FE7C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE82759350
     }
 
     /// <summary>Originally: ÏÎÏÌÌÌÏÎÎÏÎÏÍÎÍÍÏÎÏÎÌÎÍ</summary>
@@ -353,6 +386,28 @@ namespace VRC.Player
         public void MoveNext(){} // RVA: 0x7FFE82717050
     }
 
+    /// <summary>Originally: ÏÎÍÍÏÍÎÏÎÏÎÍÍÏÏÏÏÏÌÎÏÏÏ</summary>
+    public class PlayerMoveNext_9537 : Object
+    {
+        public int _m_CachedPtr; // 0x10
+        public object _offsetOfInstanceIDInCPlusPlusObject; // 0x18
+
+        // ── Methods ──
+        public void MoveNext(){} // RVA: 0x7FFE82330570
+        public void get_Current(){} // RVA: 0x7FFE810FB310
+        public void Equals(){} // RVA: 0x7FFE82330700
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE82330890
+        public void CompareBaseObjects(){} // RVA: 0x7FFE810FE7C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void GetCachedPtr(){} // RVA: 0x7FFE810FE7C0
+        public void get_name(){} // RVA: 0x7FFE823308D0
+        public void set_name(){} // RVA: 0x7FFE82330A60
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
+        public void Instantiate(){} // RVA: 0x7FFE810FE7C0
+        public void .ctor(){} // RVA: 0x7FFE810FE0C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    }
+
     /// <summary>Originally: ÏÎÎÏÏÍÎÎÌÎÌÌÌÏÎÎÏÏÏÏÎÎÌ</summary>
     public class PlayerMoveNext_A66B : Object
     {
@@ -396,6 +451,29 @@ namespace VRC.Player
         public void GetHashCode(){} // RVA: 0x7FFE810FB310
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
+    }
+
+    /// <summary>Originally: ÏÎÎÎÎÎÎÌÎÏÏÌÏÍÌÏÌÎÏÌÍÏÌ</summary>
+    public class PlayerMoveNext_AC6B : Object
+    {
+        public int _m_CachedPtr; // 0x10
+        public object _offsetOfInstanceIDInCPlusPlusObject; // 0x18
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE8249CD90
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE8249CF70
+        public void get_Current(){} // RVA: 0x7FFE8249CFB0
+        public void op_Implicit(){} // RVA: 0x7FFE810FB310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE8249CFF0
+        public void MoveNext(){} // RVA: 0x7FFE8249D1D0
+        public void .ctor(){} // RVA: 0x7FFE810FE0C0
+        public void Initialize(){} // RVA: 0x7FFE810FE7C0
+        public void Instantiate(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE8249D3B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void GetHashCode(){} // RVA: 0x7FFE810FE7C0
     }
 
     /// <summary>Originally: ÏÎÏÌÎÌÌÍÌÍÏÌÍÎÎÍÌÎÏÌÍÎÍ</summary>
@@ -442,6 +520,29 @@ namespace VRC.Player
         public void Instantiate(){} // RVA: 0x7FFE896AC440
     }
 
+    /// <summary>Originally: ÏÎÎÎÍÌÏÎÎÌÎÌÏÌÏÎÍÍÏÌÍÍÎ</summary>
+    public class PlayerMoveNext_C620 : Object
+    {
+        public int _m_CachedPtr; // 0x10
+        public object _offsetOfInstanceIDInCPlusPlusObject; // 0x18
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE89711D80
+        public void get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void op_Implicit(){} // RVA: 0x7FFE810FE7C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE810FB310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE89711DC0
+        public void get_name(){} // RVA: 0x7FFE810FE7C0
+        public void set_name(){} // RVA: 0x7FFE810FE7C0
+        public void Instantiate(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFE810FE0C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void MoveNext(){} // RVA: 0x7FFE89711E00
+    }
+
     /// <summary>Originally: ÏÏÏÌÌÎÌÎÏÍÍÍÌÌÌÏÎÍÎÎÏÎÎ</summary>
     public class PlayerMoveNext_C6F7 : Object
     {
@@ -480,6 +581,29 @@ namespace VRC.Player
         public void .ctor(){} // RVA: 0x7FFE810FE0C0
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    }
+
+    /// <summary>Originally: ÏÎÍÌÎÏÏÎÍÌÎÏÌÏÍÌÌÏÍÍÌÏÌ</summary>
+    public class PlayerMoveNext_D134 : Object
+    {
+        public int _m_CachedPtr; // 0x10
+        public object _offsetOfInstanceIDInCPlusPlusObject; // 0x18
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE810FE7C0
+        public void MoveNext(){} // RVA: 0x7FFE82094610
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void op_Implicit(){} // RVA: 0x7FFE810FE7C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE810FB310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE820947E0
+        public void .ctor(){} // RVA: 0x7FFE810FE0C0
+        public void Initialize(){} // RVA: 0x7FFE82094820
+        public void Instantiate(){} // RVA: 0x7FFE82094860
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
+        public void get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE810FE7C0
+        public void GetHashCode(){} // RVA: 0x7FFE810FE7C0
     }
 
     /// <summary>Originally: ÏÎÏÎÍÍÏÏÏÏÌÏÍÌÍÏÌÏÍÌÎÍÌ</summary>
@@ -525,6 +649,27 @@ namespace VRC.Player
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
         public void Equals(){} // RVA: 0x7FFE810FB310
         public void .ctor(){} // RVA: 0x7FFE810FE0C0
+    }
+
+    /// <summary>Originally: ÏÎÍÎÏÌÎÏÍÏÎÍÌÎÌÍÎÌÏÎÏÍÌ</summary>
+    public class PlayerMoveNext_E352 : Object
+    {
+        public int _m_CachedPtr; // 0x10
+        public object _offsetOfInstanceIDInCPlusPlusObject; // 0x18
+
+        // ── Methods ──
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE821F9A60
+        public void get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void op_Implicit(){} // RVA: 0x7FFE810FE7C0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE821F9AA0
+        public void .ctor(){} // RVA: 0x7FFE810FE0C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
+        public void get_name(){} // RVA: 0x7FFE810FB310
+        public void set_name(){} // RVA: 0x7FFE821F9AE0
+        public void MoveNext(){} // RVA: 0x7FFE821F6D00
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
+        public void Instantiate(){} // RVA: 0x7FFE810FB310
     }
 
     /// <summary>Originally: ÏÏÎÎÎÏÌÎÍÏÏÎÍÍÌÍÌÍÍÎÏÌÌ</summary>

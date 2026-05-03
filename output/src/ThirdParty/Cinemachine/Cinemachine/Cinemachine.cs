@@ -1452,40 +1452,7 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
-    public class OrbitalTransposerHeadingPropertyAttribute : PropertyAttribute
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-    }
-
-    public class RuntimeUtility : Object
-    {
-        // ── Methods ──
-        public void DestroyObject(){} // RVA: 0x7FFE82AB5970
-        public void IsPrefab(){} // RVA: 0x7FFE810FB320
-        public void RaycastIgnoreTag(){} // RVA: 0x7FFE82AB5A60
-        public void SphereCastIgnoreTag(){} // RVA: 0x7FFE82AB5E20
-        public void GetScratchCollider(){} // RVA: 0x7FFE82AB6990
-        public void DestroyScratchCollider(){} // RVA: 0x7FFE82AB6F30
-        public void NormalizeCurve(){} // RVA: 0x7FFE82AB7220
-        public void .cctor(){} // RVA: 0x7FFE82AB7490
-    }
-
-    public class SaveDuringPlayAttribute : Attribute
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-    }
-
-    public class SignalSourceAsset : ScriptableObject
-    {
-        // ── Methods ──
-        public void get_SignalDuration(){} // RVA: 0x7FFE80E42E10
-        public void GetSignal(){}
-        public void .ctor(){} // RVA: 0x7FFE81345B60
-    }
-
-    public class StaticPointVirtualCamera : Object
+    public class NotNullAttribute : Object
     {
         public string _name; // 0x10
         public int _priority; // 0x18
@@ -1519,6 +1486,39 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public void InternalUpdateCameraState(){} // RVA: 0x7FFE810FB310
         public void OnTransitionFromCamera(){} // RVA: 0x7FFE810FB310
         public void OnTargetObjectWarped(){} // RVA: 0x7FFE810FB310
+    }
+
+    public class OrbitalTransposerHeadingPropertyAttribute : PropertyAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
+    public class RuntimeUtility : Object
+    {
+        // ── Methods ──
+        public void DestroyObject(){} // RVA: 0x7FFE82AB5970
+        public void IsPrefab(){} // RVA: 0x7FFE810FB320
+        public void RaycastIgnoreTag(){} // RVA: 0x7FFE82AB5A60
+        public void SphereCastIgnoreTag(){} // RVA: 0x7FFE82AB5E20
+        public void GetScratchCollider(){} // RVA: 0x7FFE82AB6990
+        public void DestroyScratchCollider(){} // RVA: 0x7FFE82AB6F30
+        public void NormalizeCurve(){} // RVA: 0x7FFE82AB7220
+        public void .cctor(){} // RVA: 0x7FFE82AB7490
+    }
+
+    public class SaveDuringPlayAttribute : Attribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
+    public class SignalSourceAsset : ScriptableObject
+    {
+        // ── Methods ──
+        public void get_SignalDuration(){} // RVA: 0x7FFE80E42E10
+        public void GetSignal(){}
+        public void .ctor(){} // RVA: 0x7FFE81345B60
     }
 
     public class TagFieldAttribute : PropertyAttribute

@@ -82,14 +82,14 @@ namespace VRC.DataModel
         public void set_Title(){} // RVA: 0x7FFE82B1FCC0
         public void get_Title(){} // RVA: 0x7FFE8196FB10
         public void set_hideFlags(){} // RVA: 0x7FFE81B0E4B0
-        public void set_SubmitButtonText(){} // RVA: 0x7FFE81B0E4B0
-        public void FindObjectOfType(){} // RVA: 0x7FFE81644E40
+        public void set_PlaceholderText(){} // RVA: 0x7FFE81B0E4B0
+        public void set_SubmitButtonText(){} // RVA: 0x7FFE81644E40
         public void get_SubmitButtonText(){} // RVA: 0x7FFE816F93D0
         public void get_PlaceholderText(){} // RVA: 0x7FFE8170B650
         public void set_OnRadioOptionSet(){} // RVA: 0x7FFE81A58AB0
         public void set_StayOpenAfterSubmit(){} // RVA: 0x7FFE82472670
         public void set_ActiveRequest(){} // RVA: 0x7FFE8117C8A0
-        public void set_PlaceholderText(){} // RVA: 0x7FFE82B20060
+        public void FindObjectOfType(){} // RVA: 0x7FFE82B20060
         public void FindFirstObjectByType(){} // RVA: 0x7FFE82A22F10
         public void get_ActiveRequest(){} // RVA: 0x7FFE8181EA80
         public void get_CharacterLimit(){} // RVA: 0x7FFE826A9B90

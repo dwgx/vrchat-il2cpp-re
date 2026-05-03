@@ -1,10 +1,64 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Physics
-// Classes: 9
-// Methods: 197
+// Classes: 12
+// Methods: 228
 
 namespace VRC.Physics
 {
+    /// <summary>Originally: ÌÌÌÌÍÎÏÍÎÌÍÍÎÏÌÏÎÏÌÌÎÌÎ</summary>
+    public class ECollisionBoundsStyle : ValueType
+    {
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_71A; // 0x10
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_50C; // 0x18
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE8284EF60
+        public void InternalEquals(){} // RVA: 0x7FFE826F4230
+        public void DefaultEquals(){} // RVA: 0x7FFE826F4210
+        public void GetHashCode(){} // RVA: 0x7FFE826F4230
+        public void InternalGetHashCode(){} // RVA: 0x7FFE8284EF60
+        public void ToString(){} // RVA: 0x7FFE826F4210
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE8284EF60
+        public void ProcessAsyncOperationData(){} // RVA: 0x7FFE826F4230
+        public void FindObjectsByType(){} // RVA: 0x7FFE826F4210
+        public void MoveNext(){} // RVA: 0x7FFE826F4210
+        public void ToString_B0A07E8AF49C(){} // RVA: 0x7FFE81D7E9E0
+        // ── Unresolved (hash) ──
+        public void m_8B4(){} // RVA: 0x7FFE8284EF60
+    }
+
+    /// <summary>Originally: ÌÍÎÎÎÍÍÍÎÍÍÏÎÏÌÌÍÎÌÎÎÌÏ</summary>
+    public class LocalPhysicsMode : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE81E22900
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE81E229D0
+        public void op_Implicit(){} // RVA: 0x7FFE81E22AA0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE81E22B70
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE81E22C40
+        public void GetCachedPtr(){} // RVA: 0x7FFE81E22D10
+        public void get_name(){} // RVA: 0x7FFE81E22DE0
+        public void set_name(){} // RVA: 0x7FFE81E22EB0
+    }
+
+    /// <summary>Originally: ÍÌÌÎÌÌÏÍÏÎÍÌÏÎÍÌÍÎÎÌÏÎÎ</summary>
+    public class OVRPhysicsRaycaster : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82DE14D0
+        public void InternalEquals(){} // RVA: 0x7FFE82DE1540
+        public void Dispose(){} // RVA: 0x7FFE82DE16E0
+        public void Cleanup(){} // RVA: 0x7FFE82DE1750
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82DE1900
+        public void GetHashCode(){} // RVA: 0x7FFE82DE1970
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82DE19E0
+        public void ToString(){} // RVA: 0x7FFE82DE1A50
+        public void ValidateStructPointers(){} // RVA: 0x7FFE82DE1BF0
+        // ── Unresolved (hash) ──
+        public void m_2F6(){} // RVA: 0x7FFE82DE1C60
+    }
+
     /// <summary>Originally: ÍÌÏÌÎÏÏÎÏÏÎÏÏÎÍÌÏÎÌÎÍÎÎ</summary>
     public class ParticleCollisionHandler_F59F : MonoBehaviour
     {

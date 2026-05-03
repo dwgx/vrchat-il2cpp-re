@@ -1,10 +1,23 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Security
-// Classes: 2
-// Methods: 29
+// Classes: 3
+// Methods: 36
 
 namespace VRC.Security
 {
+    /// <summary>Originally: ÌÌÎÌÏÎÍÎÍÌÌÌÏÍÍÍÎÎÏÎÎÏÎ</summary>
+    public class NativeDisableContainerSafetyRestrictionAttribute : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82C67CB0
+        public void InternalEquals(){} // RVA: 0x7FFE82C67CC0
+        public void DefaultEquals(){} // RVA: 0x7FFE810FB310
+        public void GetHashCode(){} // RVA: 0x7FFE82C67CB0
+        public void InternalGetHashCode(){} // RVA: 0x7FFE810FB310
+        public void ToString(){} // RVA: 0x7FFE810FB310
+        public void Dispose(){} // RVA: 0x7FFE810FB310
+    }
+
     /// <summary>Originally: ÏÎÏÏÏÍÏÏÏÎÍÏÎÏÍÍÍÌÏÍÏÏÍ</summary>
     public class SecurityHighlightDefaultBannerHighlightBannerComponent_AE4C : MonoBehaviour
     {

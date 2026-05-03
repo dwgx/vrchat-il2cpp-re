@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Audio
-// Classes: 6
-// Methods: 111
+// Classes: 7
+// Methods: 121
 
 namespace VRC.Audio
 {
@@ -175,6 +175,22 @@ namespace VRC.Audio
         // ── Unresolved (hash) ──
         public void m_ECE(){} // RVA: 0x7FFE81123200
         public void m_8C3(){} // RVA: 0x7FFE81631610
+    }
+
+    /// <summary>Originally: ÌÎÌÍÏÍÍÏÍÏÎÏÌÌÏÌÏÏÎÍÎÎÎ</summary>
+    public class SpatialAnchorPose_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE8215E350
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE8215E560
+        public void op_Implicit(){} // RVA: 0x7FFE8215E770
+        public void CompareBaseObjects(){} // RVA: 0x7FFE8215E980
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE8215EB90
+        public void GetCachedPtr(){} // RVA: 0x7FFE8215EDA0
+        public void get_name(){} // RVA: 0x7FFE8215F750
+        public void set_name(){} // RVA: 0x7FFE821600F0
+        public void Instantiate(){} // RVA: 0x7FFE82160300
     }
 
 }

@@ -374,6 +374,16 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
         public void .cctor(){} // RVA: 0x7FFE866EEA80
     }
 
+    public class ProfilerMarkerDataType : Object
+    {
+        public Microsoft.Extensions.Logging.LoggerFilterOptions _currentValue; // 0x10
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE866F65A0
+        public void OnChange(){} // RVA: 0x7FFE813240E0
+        public void get_CurrentValue(){} // RVA: 0x7FFE81116380
+    }
+
     public class ProviderAliasAttribute : Attribute
     {
         // ── Methods ──
@@ -396,16 +406,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
         public void get_Logger(){} // RVA: 0x7FFE8284EF60
         public void get_ExternalScopeProvider(){} // RVA: 0x7FFE826F4210
         public void CreateScope(){} // RVA: 0x7FFE810A1420
-    }
-
-    public class StaticFilterOptionsMonitor : Object
-    {
-        public Microsoft.Extensions.Logging.LoggerFilterOptions _currentValue; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866F65A0
-        public void OnChange(){} // RVA: 0x7FFE813240E0
-        public void get_CurrentValue(){} // RVA: 0x7FFE81116380
     }
 
 }

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Avatar
-// Classes: 29
-// Methods: 849
+// Classes: 30
+// Methods: 859
 
 namespace VRC.Avatar
 {
@@ -477,6 +477,22 @@ namespace VRC.Avatar
         public void GetPlatform(){} // RVA: 0x7FFE880DEE10
         // ── Unresolved (hash) ──
         public void m_E21(){} // RVA: 0x7FFE880DD680
+    }
+
+    /// <summary>Originally: ÎÎÌÎÏÌÍÏÎÎÎÌÍÎÏÌÌÏÏÌÍÏÏ</summary>
+    public class ChaperoneCalibrationState : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE89973230
+        public void Equals(){} // RVA: 0x7FFE89973230
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE89973230
+        public void CompareBaseObjects(){} // RVA: 0x7FFE89973230
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE89973230
+        public void GetCachedPtr(){} // RVA: 0x7FFE89973230
+        public void get_name(){} // RVA: 0x7FFE89973230
+        public void set_name(){} // RVA: 0x7FFE89973230
+        public void Instantiate(){} // RVA: 0x7FFE89973230
     }
 
     /// <summary>Originally: ÏÍÍÍÎÍÏÌÌÌÍÌÍÏÎÍÌÍÏÎÎÏÍ</summary>
