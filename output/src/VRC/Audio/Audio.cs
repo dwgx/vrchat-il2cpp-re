@@ -1,123 +1,180 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Audio
-// Classes: 4
-// Methods: 67
+// Classes: 6
+// Methods: 111
 
 namespace VRC.Audio
 {
-    /// <summary>Originally: ÏÌÏÌÎÍÏÏÍÏÍÎÍÌÏÌÍÏÎÌÍÌÍ</summary>
-    public class AudioFilterReadHandler_9BBB_9BBB : MonoBehaviour
+    /// <summary>Originally: ÏÏÎÏÏÏÍÎÎÏÎÏÌÍÍÌÌÎÍÍÍÏÏ</summary>
+    public class AudioFilterReadHandler_AE66 : MonoBehaviour
     {
-        public int _destroyCancellationToken; // 0x20
-        public bool _useGUILayout; // 0x24
-        public UnityEngine.AudioSource ÍÏÎÏÍÍÏÎÍÍÎÎÎÏÌÏÌÌÏÎÍÌÏ; // 0x28
-        public ONSPAudioSource ÎÎÌÎÏÍÏÎÏÎÌÎÏÌÌÌÍÎÎÎÌÏÌ; // 0x30
-        public bool ÏÎÌÍÌÌÌÎÏÌÎÎÏÌÎÌÍÏÌÌÍÍÌ; // 0x38
-        public ÏÍÎÏÎÌÏÎÎÏÍÏÏÎÏÏÎÎÍÏÌÎÎ ÍÏÎÎÏÎÌÎÎÏÍÎÍÌÎÍÏÍÍÌÍÍÌ; // 0x40
-        public ÏÏÍÎÍÍÎÌÍÍÍÍÎÌÏÎÍÎÎÏÍÍÍ <ÌÎÌÏÍÌÏÎÏÎÏÍÏÍÎÌÌÎÌÌÎÎÍ>k__BackingField; // 0x80
-        public ÍÍÌÌÎÍÏÏÍÎÎÌÏÎÏÍÏÏÌÍÎÌÏ <ÎÎÍÏÎÌÎÏÍÍÎÏÎÌÎÌÏÍÍÌÍÍÏ>k__BackingField; // 0x88
+        public float _aE66; // 0x20
 
         // ── Methods ──
-        public void InitPayloadEncryption(){} // RVA: 0x7FFAC34D4AA0
-        public void RaiseCancellation(){} // RVA: 0x7FFAC3C3EA10
-        public void GetVideoTracks(){} // RVA: 0x7FFAC2F60010
-        public void GetCurrentTextCue(){} // RVA: 0x7FFAC32EF410
-        public void Invoke(){} // RVA: 0x7FFAC3C3EF30
-        public void Update(){} // RVA: 0x7FFAC3C3F350
-        public void Start(){} // RVA: 0x7FFAC2F60010
-        public void OnEnable(){} // RVA: 0x7FFAC3C3F4F0
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
-        public void Initialize(){} // RVA: 0x7FFAC3C3F720
-        public void StartCoroutine(){} // RVA: 0x7FFAC3C3F900
-        public void StartCoroutine_Auto(){} // RVA: 0x7FFAC34D4AA0
-        public void StopCoroutine(){} // RVA: 0x7FFAC3C3FD80
-        public void set_imageUrl(){} // RVA: 0x7FFAC354E300
-        public void LateUpdate(){} // RVA: 0x7FFAC3C40200
-        public void Awake(){} // RVA: 0x7FFAC3C40230
-        public void OnDestroy(){} // RVA: 0x7FFAC2F60010
-        public void set_useGUILayout(){} // RVA: 0x7FFAC32EF410
-        public void print(){} // RVA: 0x7FFAC3C40200
-        public void OnAudioFilterRead(){} // RVA: 0x7FFAC3C40350
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE81D514D0
+        public void RaiseCancellation(){} // RVA: 0x7FFE81124080
+        public void .ctor(){} // RVA: 0x7FFE81D51690
+        public void OnAudioFilterRead(){} // RVA: 0x7FFE81D516F0
+        public void Invoke(){} // RVA: 0x7FFE81D516F0
+        public void InvokeRepeating(){} // RVA: 0x7FFE81D516F0
+        public void CancelInvoke(){} // RVA: 0x7FFE81D516F0
+        public void IsInvoking(){} // RVA: 0x7FFE81D51790
+        public void StartCoroutine(){} // RVA: 0x7FFE81D51790
+        // ── Unresolved (hash) ──
+        public void m_5C8(){} // RVA: 0x7FFE81D51830
+        public void m_117(){} // RVA: 0x7FFE81D51790
     }
 
-    /// <summary>Originally: ÍÍÎÍÎÏÍÌÏÎÏÌÎÏÍÏÏÎÌÍÏÍÍ</summary>
-    public class AudioGetDeviceNamesOpenDevice_173D_173D : Object
+    /// <summary>Originally: ÎÌÌÌÏÎÍÎÍÍÎÌÎÏÎÏÏÏÌÏÌÎÍ</summary>
+    public class AudioFilterReadHandler_D9D7 : MonoBehaviour
     {
-        public ÏÎÍÌÍÏÏÏÎÎÍÍÏÎÌÏÌÌÎÍÌÌÌ _name; // 0x10
-        public byte[] ÍÌÏÍÍÎÌÌÏÍÏÏÎÎÍÍÌÌÌÌÏÍÌ; // 0x18
-        public ÌÌÍÌÍÍÏÌÎÎÍÍÏÍÏÌÏÌÍÍÏÎÍ ÌÍÏÏÌÌÍÌÌÍÎÍÎÍÍÎÎÎÌÎÍÍÌ; // 0x20
-        public VRC.SDKBase.Midi.MidiVoiceMessageDelegate ÍÌÎÌÏÍÌÌÎÌÌÏÌÏÎÎÌÌÏÏÏÏÌ; // 0x50
-        public VRC.SDKBase.Midi.MidiRawMessageDelegate ÏÎÌÌÍÍÎÍÎÌÎÎÍÍÌÎÍÎÎÌÍÌÍ; // 0x58
+        public int _m_CancellationTokenSource; // 0x20
+        public bool f_F4C; // 0x24
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFAC31329D0
-        public void Equals(){} // RVA: 0x7FFAC31329E0
-        public void GetHashCode(){} // RVA: 0x7FFAC3132AD0
-        public void remove_OnMidiVoiceMessage(){} // RVA: 0x7FFAC3132BC0
-        public void CompareBaseObjects(){} // RVA: 0x7FFAC3132CB0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Initialize(){} // RVA: 0x7FFAC3133070
-        public void get_Name(){} // RVA: 0x7FFAC31329D0
-        public void set_Name(){} // RVA: 0x7FFAC3133660
-        public void Close(){} // RVA: 0x7FFAC3133750
-        public void Instantiate(){} // RVA: 0x7FFAC31337E0
-        public void ToString(){} // RVA: 0x7FFAC3133920
-        public void OpenDevice_3CEB32E8A587(){} // RVA: 0x7FFAC3133A60
-        public void GetDeviceNames(){} // RVA: 0x7FFAC3133B50
-        public void OpenDevice(){} // RVA: 0x7FFAC3133EB0
-        public void Update(){} // RVA: 0x7FFAC3134500
-        public void add_OnMidiVoiceMessage(){} // RVA: 0x7FFAC31345F0
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE81280600
+        public void LateUpdate(){} // RVA: 0x7FFE812807E0
+        public void IsInvoking(){} // RVA: 0x7FFE81280810
+        public void CancelInvoke(){} // RVA: 0x7FFE81280C30
+        public void Invoke(){} // RVA: 0x7FFE81280C40
+        public void OnEnable(){} // RVA: 0x7FFE81280D60
+        public void OnDisable(){} // RVA: 0x7FFE81280F90
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void Initialize(){} // RVA: 0x7FFE81280FF0
+        public void StartCoroutine(){} // RVA: 0x7FFE81281510
+        public void OnAudioFilterRead(){} // RVA: 0x7FFE812816E0
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFE81281720
+        public void Awake(){} // RVA: 0x7FFE81281BA0
+        public void OnDestroy(){} // RVA: 0x7FFE81280F90
+        public void StopCoroutine(){} // RVA: 0x7FFE81281CC0
+        public void Update(){} // RVA: 0x7FFE812821E0
+        public void get_useGUILayout(){} // RVA: 0x7FFE81282380
+        public void set_useGUILayout(){} // RVA: 0x7FFE812823E0
+        public void print(){} // RVA: 0x7FFE8113A010
+        public void Internal_CancelInvokeAll(){} // RVA: 0x7FFE81282380
+        public void Internal_IsInvokingAll(){} // RVA: 0x7FFE81282580
+        public void InvokeDelayed(){} // RVA: 0x7FFE81282AA0
     }
 
-    /// <summary>Originally: ÍÌÏÎÎÍÏÍÎÎÎÎÍÏÍÌÏÎÌÏÎÎÏ</summary>
-    public class AudioPerformClipping_2B7E_2B7E : RectMask2D
+    /// <summary>Originally: ÎÎÌÎÎÌÌÎÏÌÎÎÌÏÍÏÎÌÍÌÍÎÍ</summary>
+    public class AudioGetDeviceNamesOpenDevice_EE3A : Object
     {
-        public System.Action _2B7E;
-        public bool ÌÏÍÌÍÎÏÌÎÌÏÎÍÏÌÎÎÍÏÎÎÌÍ; // 0x90
-        public Cysharp.Threading.Tasks.UniTask ÍÏÏÏÍÍÎÍÏÌÍÎÌÍÏÌÏÍÎÏÌÏÍ; // 0x98
-        public bool _clippingEnabled; // 0xA8
+        public ÍÏÎÌÏÏÎÌÌÌÌÌÍÍÍÍÌÎÏÌÎÏÏ _name; // 0x10
 
         // ── Methods ──
-        public void get_padding(){} // RVA: 0x7FFACB7F6E50
-        public void OnDestroy(){} // RVA: 0x7FFACB7F6F60
-        public void PerformClipping(){} // RVA: 0x7FFACB7F73E0
-        public void set_softness(){} // RVA: 0x7FFACB7F7410
-        public void get_Canvas(){} // RVA: 0x7FFACB7F7550
-        public void get_canvasRect(){} // RVA: 0x7FFACB7F76B0
-        public void get_rectTransform(){} // RVA: 0x7FFACB7F77C0
-        public void AudioClippingController(){} // RVA: 0x7FFACB7F78D0
-        public void IsPlaying(){} // RVA: 0x7FFAC3141F10
-        public void OnDisable(){} // RVA: 0x7FFACB7F7930
-        public void OnEnable(){} // RVA: 0x7FFACB7F7A90
-        public void IsRaycastLocationValid(){} // RVA: 0x7FFACB7F7B20
-        public void get_rootCanvasRect(){} // RVA: 0x7FFACB7F7C30
-        public void PerformClipping_C49EC6384F31(){} // RVA: 0x7FFACB7F7D70
-        public void .ctor(){} // RVA: 0x7FFACB7F7ED0
-        public void Initialize(){} // RVA: 0x7FFAC3141F10
-        public void RemoveClippable(){} // RVA: 0x7FFACB7F7F90
-        public void Start(){} // RVA: 0x7FFACB7F80A0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFACB7F84D0
+        public void Update(){} // RVA: 0x7FFE813987A0
+        public void GetDeviceNames(){} // RVA: 0x7FFE81398890
+        public void set_Name(){} // RVA: 0x7FFE81398A90
+        public void remove_OnMidiVoiceMessage(){} // RVA: 0x7FFE81398B80
+        public void CompareBaseObjects(){} // RVA: 0x7FFE81398C70
+        public void get_Name(){} // RVA: 0x7FFE81398C70
+        public void GetCachedPtr(){} // RVA: 0x7FFE81398C70
+        public void get_name(){} // RVA: 0x7FFE81398C80
+        public void set_name(){} // RVA: 0x7FFE81399040
+        public void Instantiate(){} // RVA: 0x7FFE81399240
+        public void Equals(){} // RVA: 0x7FFE81399250
+        public void GetHashCode(){} // RVA: 0x7FFE81399890
+        public void OpenDevice(){} // RVA: 0x7FFE813998B0
+        public void Close(){} // RVA: 0x7FFE81399890
+        public void ToString(){} // RVA: 0x7FFE81399F00
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE81399FF0
+        public void add_OnMidiVoiceMessage(){} // RVA: 0x7FFE8139A0E0
     }
 
-    /// <summary>Originally: ÌÏÏÍÎÏÍÍÎÎÍÌÌÍÏÎÏÎÎÎÌÌÍ</summary>
-    public class AudioSelectPreviousMicSelectNextMic_DB18 : MonoBehaviour
+    /// <summary>Originally: ÏÍÎÏÎÏÎÏÏÎÎÏÍÏÌÌÏÏÍÎÍÏÏ</summary>
+    public class AudioPerformClipping_E455 : RectMask2D
     {
-        public UnityEngine.UI.Button ÍÍÌÍÎÌÎÎÍÌÌÎÍÏÎÌÌÎÎÏÌÍÏ; // 0x20
-        public UnityEngine.UI.Button ÏÏÏÌÎÍÌÏÎÌÌÍÎÍÍÌÏÍÎÎÌÍÍ; // 0x28
-        public UnityEngine.UI.Text ÏÎÌÏÌÌÎÍÍÏÌÏÏÎÏÎÌÏÍÍÏÍÌ; // 0x30
+        public System.Action _e455;
 
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFAC2F21310
-        public void RaiseCancellation(){} // RVA: 0x7FFAC2F21310
-        public void SelectNextMic(){} // RVA: 0x7FFAC2F21310
-        public void CancelInvoke(){} // RVA: 0x7FFAC2F21310
-        public void Invoke(){} // RVA: 0x7FFAC2F21310
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
-        public void Initialize(){} // RVA: 0x7FFAC2F21310
-        public void IsInvoking(){} // RVA: 0x7FFAC2F21310
-        public void StartCoroutine(){} // RVA: 0x7FFAC2F21310
-        public void .ctor_AC1101A74B4C(){} // RVA: 0x7FFAC2F21310
-        public void SelectPreviousMic(){} // RVA: 0x7FFAC2F21310
+        public void get_padding(){} // RVA: 0x7FFE813A1D80
+        public void set_padding(){} // RVA: 0x7FFE899A4BA0
+        public void get_softness(){} // RVA: 0x7FFE899A4C00
+        public void set_softness(){} // RVA: 0x7FFE899A4D60
+        public void get_Canvas(){} // RVA: 0x7FFE813A1D80
+        public void .ctor(){} // RVA: 0x7FFE899A4EA0
+        public void Initialize(){} // RVA: 0x7FFE899A4F60
+        public void Start(){} // RVA: 0x7FFE899A5070
+        public void OnEnable(){} // RVA: 0x7FFE899A54A0
+        public void OnDisable(){} // RVA: 0x7FFE899A5530
+        public void OnEnable_38E7E794C5B6(){} // RVA: 0x7FFE899A5640
+        public void IsRaycastLocationValid(){} // RVA: 0x7FFE813A1D80
+        public void PerformClipping(){} // RVA: 0x7FFE899A5780
+        public void OnDestroy(){} // RVA: 0x7FFE899A58C0
+        public void AddClippable(){} // RVA: 0x7FFE899A5D40
+        public void RemoveClippable(){} // RVA: 0x7FFE899A5F70
+        public void OnTransformParentChanged(){} // RVA: 0x7FFE899A5FD0
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFE899A6110
+        // ── Unresolved (hash) ──
+        public void m_923(){} // RVA: 0x7FFE899A57B0
+        public void m_5D3(){} // RVA: 0x7FFE899A6220
+    }
+
+    /// <summary>Originally: ÍÍÎÏÌÌÏÎÎÏÍÏÎÍÍÍÌÎÌÎÏÏÎ</summary>
+    public class AudioSelectPreviousMicSelectNextMic_8CF6 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void SelectNextMic(){} // RVA: 0x7FFE810FB310
+        public void RaiseCancellation(){} // RVA: 0x7FFE810FB310
+        public void IsInvoking(){} // RVA: 0x7FFE810FB310
+        public void CancelInvoke(){} // RVA: 0x7FFE810FB310
+        public void Invoke(){} // RVA: 0x7FFE810FB310
+        public void InvokeRepeating(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void SelectPreviousMic(){} // RVA: 0x7FFE810FB310
+        public void StartCoroutine(){} // RVA: 0x7FFE810FB310
+        // ── Unresolved (hash) ──
+        public void m_0A0(){} // RVA: 0x7FFE810FB310
+    }
+
+    /// <summary>Originally: ÎÏÍÌÌÎÌÎÏÍÍÎÍÌÏÍÎÌÌÌÍÎÏ</summary>
+    public class Audiok__BackingFieldComponent_0600 : MonoBehaviour
+    {
+        public ÌÌÍÎÌÎÍÏÏÍÍÎÌÎÏÏÌÎÍÍÍÏÎ syncPhysics; // 0x20
+        public UnityEngine.AudioListener audioListener; // 0x28
+        public UnityEngine.Transform f_066; // 0x30
+        public dFixup.putField f_FD9; // 0x38
+        public dFixup.alculateCapacity f_0CA; // 0x39
+        public int f_E11; // 0x3C
+        public string f_704; // 0x40
+        public int f_797; // 0x48
+        public object field_8; // 0xCEE
+        public object field_9; // 0xCEF
+        public object field_10; // 0xCF0
+
+        // ── Methods ──
+        public void OnDestroy(){} // RVA: 0x7FFE81630FC0
+        public void RaiseCancellation(){} // RVA: 0x7FFE816311C0
+        public void IsInvoking(){} // RVA: 0x7FFE810FB310
+        public void CancelInvoke(){} // RVA: 0x7FFE812D0020
+        public void Invoke(){} // RVA: 0x7FFE8119C0C0
+        public void InvokeRepeating(){} // RVA: 0x7FFE8119C0D0
+        public void Start(){} // RVA: 0x7FFE81178740
+        public void Update(){} // RVA: 0x7FFE816311D0
+        public void StartCoroutine(){} // RVA: 0x7FFE810FB310
+        public void OnTriggerStay(){} // RVA: 0x7FFE81129130
+        public void OnTriggerExit(){} // RVA: 0x7FFE81631490
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFE812D0010
+        public void StopCoroutine(){} // RVA: 0x7FFE810FB310
+        public void OnBecameVisible(){} // RVA: 0x7FFE810FB310
+        public void OnBecameInvisible(){} // RVA: 0x7FFE8119C0C0
+        public void StopAllCoroutines(){} // RVA: 0x7FFE8119C0D0
+        public void get_useGUILayout(){} // RVA: 0x7FFE812D0020
+        public void set_useGUILayout(){} // RVA: 0x7FFE812CF7D0
+        public void .ctor(){} // RVA: 0x7FFE816314E0
+        public void Initialize(){} // RVA: 0x7FFE81123200
+        public void Internal_IsInvokingAll(){} // RVA: 0x7FFE81631530
+        public void InvokeDelayed(){} // RVA: 0x7FFE816315C0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x7FFE81631620
+        public void StartCoroutineManaged(){} // RVA: 0x7FFE811290C0
+        public void StartCoroutineManaged2(){} // RVA: 0x7FFE81631980
+        public void StopCoroutineManaged(){} // RVA: 0x7FFE810FB310
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7FFE8144E200
+        public void GetScriptClassName(){} // RVA: 0x7FFE812CF770
+        // ── Unresolved (hash) ──
+        public void m_ECE(){} // RVA: 0x7FFE81123200
+        public void m_8C3(){} // RVA: 0x7FFE81631610
     }
 
 }

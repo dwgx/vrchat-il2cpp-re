@@ -7,23 +7,14 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class GroupPresenceJoinIntent : Object
     {
-        public string DeeplinkMessage; // 0x10
-        public string DestinationApiName; // 0x18
-        public string LobbySessionId; // 0x20
-        public string MatchSessionId; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC887F270
+        public void .ctor(){} // RVA: 0x7FFE86C28960
     }
 
     public class GroupPresenceLeaveIntent : Object
     {
-        public string DestinationApiName; // 0x10
-        public string LobbySessionId; // 0x18
-        public string MatchSessionId; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC887F6A0
+        public void .ctor(){} // RVA: 0x7FFE86C28D90
     }
 
 }

@@ -7,104 +7,93 @@ namespace VRC.SDKBase.Validation.Performance.Scanners
 {
     public class AbstractPerformanceScanner : Object
     {
-        public int MAXIMUM_COMPONENT_SCANS_PER_FRAME;
-        public int _componentScansThisFrame;
-        public int _componentScansFrameNumber; // 0x4
-        public System.Collections.Generic.Stack`1<System.Collections.IEnumerator> _coroutines; // 0x10
-        public bool _limitComponentScansPerFrame; // 0x18
-
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFAC2C6AE80
-        public void RunPerformanceScan(){} // RVA: 0x7FFACC091360
-        public void ScanAvatarForComponentsOfType(){} // RVA: 0x7FFAC2C6A6F0 | overloaded x2
-        public void HandleComponentScansPerFrameLimit(){} // RVA: 0x7FFACC0917D0
-        public void EnabledOnPlatform(){} // RVA: 0x7FFAC3006850
-        public void .ctor(){} // RVA: 0x7FFACC091870
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE80E403A0
+        public void RunPerformanceScan(){} // RVA: 0x7FFE8A4F7330
+        public void ScanAvatarForComponentsOfType(){} // RVA: 0x7FFE80E3FC10 | overloaded x2
+        public void HandleComponentScansPerFrameLimit(){} // RVA: 0x7FFE8A4F77A0
+        public void EnabledOnPlatform(){} // RVA: 0x7FFE811E0850
+        public void .ctor(){} // RVA: 0x7FFE8A4F7840
     }
 
     public class AnimatorPerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC091C50
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A4F7C20
+        public void .ctor(){} // RVA: 0x7FFE88228F30
     }
 
     public class AudioPerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC092390
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A4F8360
+        public void .ctor(){} // RVA: 0x7FFE88228F30
     }
 
     public class ClothPerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC092D20
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A4F8CF0
+        public void .ctor(){} // RVA: 0x7FFE88228F30
     }
 
     public class LightPerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC0934D0
-        public void CountParticleSystemLights(){} // RVA: 0x7FFACC093690
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A4F94A0
+        public void CountParticleSystemLights(){} // RVA: 0x7FFE8A4F9660
+        public void .ctor(){} // RVA: 0x7FFE88228F30
     }
 
     public class LineRendererPerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC093FA0
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A4F9F70
+        public void .ctor(){} // RVA: 0x7FFE88228F30
     }
 
     public class MeshPerformanceScanner : AbstractPerformanceScanner
     {
-        public float TEXTURE_2D_MAXIMUM_BYTES_PER_PIXEL;
-        public System.Collections.Generic.Dictionary`2<0x6B17C078,float> _texture2DBytesPerPixelLookup;
-        public float RENDER_TEXTURE_2D_MAXIMUM_BYTES_PER_PIXEL;
-        public System.Collections.Generic.Dictionary`2<0x6B17C180,float> _renderTextureBytesPerPixelLookup; // 0x8
-
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC094540
-        public void CalculateRendererPolyCount(){} // RVA: 0x7FFACC094700
-        public void RendererHasMesh(){} // RVA: 0x7FFACC094B90
-        public void AnalyzeGeometry(){} // RVA: 0x7FFACC094F90
-        public void AnalyzeMaterials(){} // RVA: 0x7FFACC095150
-        public void AnalyzeSkinnedMeshRenderers(){} // RVA: 0x7FFACC0960C0
-        public void AnalyzeMeshRenderers(){} // RVA: 0x7FFACC096670
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
-        public void .cctor(){} // RVA: 0x7FFACC096B30
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A4FA510
+        public void CalculateRendererPolyCount(){} // RVA: 0x7FFE8A4FA6D0
+        public void RendererHasMesh(){} // RVA: 0x7FFE8A4FAB60
+        public void AnalyzeGeometry(){} // RVA: 0x7FFE8A4FAF60
+        public void AnalyzeMaterials(){} // RVA: 0x7FFE8A4FB120
+        public void AnalyzeSkinnedMeshRenderers(){} // RVA: 0x7FFE8A4FC090
+        public void AnalyzeMeshRenderers(){} // RVA: 0x7FFE8A4FC640
+        public void .ctor(){} // RVA: 0x7FFE88228F30
+        public void .cctor(){} // RVA: 0x7FFE8A4FCB00
     }
 
     public class ParticlePerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC0990E0
-        public void AnalyzeParticleSystemRenderers(){} // RVA: 0x7FFACC0992A0
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A4FF0B0
+        public void AnalyzeParticleSystemRenderers(){} // RVA: 0x7FFE8A4FF270
+        public void .ctor(){} // RVA: 0x7FFE88228F30
     }
 
     public class PhysicsPerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC09A530
-        public void HasStation(){} // RVA: 0x7FFACC09A6F0
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A500500
+        public void HasStation(){} // RVA: 0x7FFE8A5006C0
+        public void .ctor(){} // RVA: 0x7FFE88228F30
     }
 
     public class RaycastPerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC09AE90
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A500E60
+        public void .ctor(){} // RVA: 0x7FFE88228F30
     }
 
     public class TrailRendererPerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFACC09B220
-        public void .ctor(){} // RVA: 0x7FFAC9E765C0
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A5011F0
+        public void .ctor(){} // RVA: 0x7FFE88228F30
     }
 
 }

@@ -7,69 +7,57 @@ namespace ThirdParty.DotNet.System.Net.Cache
 {
     public class RequestCache : Object
     {
-        public char[] LineSplits;
-        public bool _IsPrivateCache; // 0x10
-        public bool _CanWrite; // 0x11
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC932D0C0
+        public void .cctor(){} // RVA: 0x7FFE876D57F0
     }
 
     public class RequestCacheBinding : Object
     {
-        public System.Net.Cache.RequestCache Cache; // 0x10
-        public System.Net.Cache.RequestCacheValidator Validator; // 0x18
-        public System.Net.Cache.RequestCachePolicy Policy; // 0x20
+        public System.Net.Cache.RequestCache m_RequestCache; // 0x10
+        public System.Net.Cache.RequestCacheValidator m_CacheValidator; // 0x18
+        public System.Net.Cache.RequestCachePolicy m_Policy; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC3000E00
-        public void get_Cache(){} // RVA: 0x7FFAC2F3C380
-        public void get_Validator(){} // RVA: 0x7FFAC2F247C0
-        public void get_Policy(){} // RVA: 0x7FFAC2F4F0C0
+        public void .ctor(){} // RVA: 0x7FFE811DAE00
+        public void get_Cache(){} // RVA: 0x7FFE81116380
+        public void get_Validator(){} // RVA: 0x7FFE810FE7C0
+        public void get_Policy(){} // RVA: 0x7FFE811290C0
     }
 
     public class RequestCacheManager : Object
     {
-        public System.Net.Cache.RequestCachingSectionInternal s_CacheConfigSettings;
-        public System.Net.Cache.RequestCacheBinding s_BypassCacheBinding; // 0x8
-        public System.Net.Cache.RequestCacheBinding s_DefaultGlobalBinding; // 0x10
-        public System.Net.Cache.RequestCacheBinding s_DefaultHttpBinding; // 0x18
-        public System.Net.Cache.RequestCacheBinding s_DefaultFtpBinding; // 0x20
-
         // ── Methods ──
-        public void GetBinding(){} // RVA: 0x7FFAC932D1B0
-        public void LoadConfigSettings(){} // RVA: 0x7FFAC932D420
-        public void .cctor(){} // RVA: 0x7FFAC932D680
+        public void GetBinding(){} // RVA: 0x7FFE876D58E0
+        public void LoadConfigSettings(){} // RVA: 0x7FFE876D5B50
+        public void .cctor(){} // RVA: 0x7FFE876D5DB0
     }
 
     public class RequestCachePolicy : Object
     {
-        public 0x6B1400B8 Level; // 0x10
+        public 0x66538FDC m_Level; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC932D8A0
-        public void get_Level(){} // RVA: 0x7FFAC2F6E5C0
-        public void ToString(){} // RVA: 0x7FFAC932D910
+        public void .ctor(){} // RVA: 0x7FFE876D5FD0
+        public void get_Level(){} // RVA: 0x7FFE811485C0
+        public void ToString(){} // RVA: 0x7FFE876D6040
     }
 
     public class RequestCacheProtocol : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC932D990
+        public void .ctor(){} // RVA: 0x7FFE876D60C0
     }
 
     public class RequestCacheValidator : Object
     {
         // ── Methods ──
-        public void CreateValidator(){} // RVA: 0x7FFAC932D860
+        public void CreateValidator(){} // RVA: 0x7FFE876D5F90
     }
 
     public class RequestCachingSectionInternal : Object
     {
-        public bool DisableAllCaching; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC322C870
+        public void .ctor(){} // RVA: 0x7FFE814B8390
     }
 
 }

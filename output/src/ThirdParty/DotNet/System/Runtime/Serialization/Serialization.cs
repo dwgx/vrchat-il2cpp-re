@@ -7,151 +7,135 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 {
     public class DataContractAttribute : Attribute
     {
-        public bool IsReference; // 0x10
+        public bool isReference; // 0x10
 
         // ── Methods ──
-        public void get_IsReference(){} // RVA: 0x7FFAC2FEB5E0
+        public void get_IsReference(){} // RVA: 0x7FFE811C55E0
     }
 
     public class DataMemberAttribute : Attribute
     {
-        public string Name; // 0x10
-        public int Order; // 0x18
-        public bool IsRequired; // 0x1C
-        public bool EmitDefaultValue; // 0x1D
+        public string name; // 0x10
+        public int order; // 0x18
+        public bool isRequired; // 0x1C
+        public bool emitDefaultValue; // 0x1D
 
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFAC2F3C380
-        public void get_Order(){} // RVA: 0x7FFAC3157800
-        public void get_IsRequired(){} // RVA: 0x7FFAC2F3C390
-        public void get_EmitDefaultValue(){} // RVA: 0x7FFAC45FA990
+        public void get_Name(){} // RVA: 0x7FFE81116380
+        public void get_Order(){} // RVA: 0x7FFE813DB630
+        public void get_IsRequired(){} // RVA: 0x7FFE81116390
+        public void get_EmitDefaultValue(){} // RVA: 0x7FFE82930100
     }
 
     public class DeserializationEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2FA1190
-        public void Invoke(){} // RVA: 0x7FFAC2F7CC60
+        public void .ctor(){} // RVA: 0x7FFE8117B190
+        public void Invoke(){} // RVA: 0x7FFE81156C60
     }
 
     public class EnumMemberAttribute : Attribute
     {
-        public string Value; // 0x10
-        public bool isValueSetExplicitly; // 0x18
+        public string value; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void get_Value(){} // RVA: 0x7FFAC2F3C380
-        public void set_Value(){} // RVA: 0x7FFAC843C7C0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Value(){} // RVA: 0x7FFE81116380
+        public void set_Value(){} // RVA: 0x7FFE867E60D0
     }
 
     public class FixupHolder : Object
     {
-        public long m_id; // 0x10
-        public object m_fixupInfo; // 0x18
-        public int m_fixupType; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84A8030
+        public void .ctor(){} // RVA: 0x7FFE86851920
     }
 
     public class FixupHolderList : Object
     {
-        public System.Runtime.Serialization.FixupHolder[] m_values; // 0x10
-        public int m_count; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84A8130 | overloaded x2
-        public void Add(){} // RVA: 0x7FFAC84A81D0
-        public void EnlargeArray(){} // RVA: 0x7FFAC84A8270
+        public void .ctor(){} // RVA: 0x7FFE86851A20 | overloaded x2
+        public void Add(){} // RVA: 0x7FFE86851AC0
+        public void EnlargeArray(){} // RVA: 0x7FFE86851B60
     }
 
     public class FormatterConverter : Object
     {
         // ── Methods ──
-        public void Convert(){} // RVA: 0x7FFAC849DEC0
-        public void ToBoolean(){} // RVA: 0x7FFAC849DF70
-        public void ToByte(){} // RVA: 0x7FFAC849E010
-        public void ToInt16(){} // RVA: 0x7FFAC849E0B0
-        public void ToInt32(){} // RVA: 0x7FFAC849E150
-        public void ToUInt32(){} // RVA: 0x7FFAC849E1F0
-        public void ToInt64(){} // RVA: 0x7FFAC849E290
-        public void ToSingle(){} // RVA: 0x7FFAC849E330
-        public void ToString(){} // RVA: 0x7FFAC849E3D0
-        public void ThrowValueNullException(){} // RVA: 0x7FFAC849E470
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void Convert(){} // RVA: 0x7FFE868477C0
+        public void ToBoolean(){} // RVA: 0x7FFE86847870
+        public void ToByte(){} // RVA: 0x7FFE86847910
+        public void ToInt16(){} // RVA: 0x7FFE868479B0
+        public void ToInt32(){} // RVA: 0x7FFE86847A50
+        public void ToUInt32(){} // RVA: 0x7FFE86847AF0
+        public void ToInt64(){} // RVA: 0x7FFE86847B90
+        public void ToSingle(){} // RVA: 0x7FFE86847C30
+        public void ToString(){} // RVA: 0x7FFE86847CD0
+        public void ThrowValueNullException(){} // RVA: 0x7FFE86847D70
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class FormatterServices : Object
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<System.Runtime.Serialization.MemberHolder,System.Reflection.MemberInfo[]> m_MemberInfoTable;
-        public bool unsafeTypeForwardersIsEnabled; // 0x8
-        public bool unsafeTypeForwardersIsEnabledInitialized; // 0x9
-        public System.Type[] advancedTypes; // 0x10
-        public System.Reflection.Binder s_binder; // 0x18
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC849FAD0
-        public void GetSerializableMembers(){} // RVA: 0x7FFAC84A0B80 | overloaded x2
-        public void CheckSerializable(){} // RVA: 0x7FFAC849FF60
-        public void InternalGetSerializableMembers(){} // RVA: 0x7FFAC849FF90
-        public void GetParentTypes(){} // RVA: 0x7FFAC84A0700
-        public void GetUninitializedObject(){} // RVA: 0x7FFAC84A0F00
-        public void nativeGetUninitializedObject(){} // RVA: 0x7FFAC8487EB0
-        public void GetEnableUnsafeTypeForwarders(){} // RVA: 0x7FFAC2F21320
-        public void UnsafeTypeForwardersIsEnabled(){} // RVA: 0x7FFAC84A1100
-        public void SerializationSetValue(){} // RVA: 0x7FFAC84A11D0
-        public void PopulateObjectMembers(){} // RVA: 0x7FFAC84A1420
-        public void GetObjectData(){} // RVA: 0x7FFAC84A17F0
-        public void GetTypeFromAssembly(){} // RVA: 0x7FFAC84A1C00
-        public void LoadAssemblyFromString(){} // RVA: 0x7FFAC84A1C80
-        public void LoadAssemblyFromStringNoThrow(){} // RVA: 0x7FFAC84A1CE0
-        public void GetClrAssemblyName(){} // RVA: 0x7FFAC84A1D80
-        public void GetClrTypeFullName(){} // RVA: 0x7FFAC84A1F30
-        public void GetClrTypeFullNameForArray(){} // RVA: 0x7FFAC84A1FC0
-        public void GetClrTypeFullNameForNonArrayTypes(){} // RVA: 0x7FFAC84A2240
+        public void .cctor(){} // RVA: 0x7FFE868493D0
+        public void GetSerializableMembers(){} // RVA: 0x7FFE8684A480 | overloaded x2
+        public void CheckSerializable(){} // RVA: 0x7FFE86849860
+        public void InternalGetSerializableMembers(){} // RVA: 0x7FFE86849890
+        public void GetParentTypes(){} // RVA: 0x7FFE8684A000
+        public void GetUninitializedObject(){} // RVA: 0x7FFE8684A800
+        public void nativeGetUninitializedObject(){} // RVA: 0x7FFE868317C0
+        public void GetEnableUnsafeTypeForwarders(){} // RVA: 0x7FFE810FB320
+        public void UnsafeTypeForwardersIsEnabled(){} // RVA: 0x7FFE8684AA00
+        public void SerializationSetValue(){} // RVA: 0x7FFE8684AAD0
+        public void PopulateObjectMembers(){} // RVA: 0x7FFE8684AD20
+        public void GetObjectData(){} // RVA: 0x7FFE8684B0F0
+        public void GetTypeFromAssembly(){} // RVA: 0x7FFE8684B500
+        public void LoadAssemblyFromString(){} // RVA: 0x7FFE8684B580
+        public void LoadAssemblyFromStringNoThrow(){} // RVA: 0x7FFE8684B5E0
+        public void GetClrAssemblyName(){} // RVA: 0x7FFE8684B680
+        public void GetClrTypeFullName(){} // RVA: 0x7FFE8684B830
+        public void GetClrTypeFullNameForArray(){} // RVA: 0x7FFE8684B8C0
+        public void GetClrTypeFullNameForNonArrayTypes(){} // RVA: 0x7FFE8684BB40
     }
 
     public class IDeserializationCallback
     {
         // ── Methods ──
-        public void OnDeserialization(){} // RVA: 0x7FFAC2C70A40
+        public void OnDeserialization(){} // RVA: 0x7FFE80E460A0
     }
 
     public class IFormatter
     {
-        public object SurrogateSelector;
-
         // ── Methods ──
-        public void Deserialize(){} // RVA: 0x7FFAC2C58F40
-        public void Serialize(){} // RVA: 0x7FFAC2C79B30
-        public void set_SurrogateSelector(){} // RVA: 0x7FFAC2C70A40
+        public void Deserialize(){} // RVA: 0x7FFE80E2E390
+        public void Serialize(){} // RVA: 0x7FFE80E4F230
+        public void set_SurrogateSelector(){} // RVA: 0x7FFE80E460A0
     }
 
     public class IFormatterConverter
     {
         // ── Methods ──
-        public void Convert(){} // RVA: 0x7FFAC2C6A6F0
-        public void ToBoolean(){} // RVA: 0x7FFAC2C59F60
-        public void ToByte(){} // RVA: 0x7FFAC2C59F60
-        public void ToInt16(){} // RVA: 0x7FFAC2C5F5D0
-        public void ToInt32(){} // RVA: 0x7FFAC2C5E6B0
-        public void ToUInt32(){} // RVA: 0x7FFAC2C5E6B0
-        public void ToInt64(){} // RVA: 0x7FFAC2C58F40
-        public void ToSingle(){} // RVA: 0x7FFAC2C6DF90
-        public void ToString(){} // RVA: 0x7FFAC2C58F40
+        public void Convert(){} // RVA: 0x7FFE80E3FC10
+        public void ToBoolean(){} // RVA: 0x7FFE80E2F3B0
+        public void ToByte(){} // RVA: 0x7FFE80E2F3B0
+        public void ToInt16(){} // RVA: 0x7FFE80E34A20
+        public void ToInt32(){} // RVA: 0x7FFE80E33B00
+        public void ToUInt32(){} // RVA: 0x7FFE80E33B00
+        public void ToInt64(){} // RVA: 0x7FFE80E2E390
+        public void ToSingle(){} // RVA: 0x7FFE80E43520
+        public void ToString(){} // RVA: 0x7FFE80E2E390
     }
 
     public class IObjectReference
     {
         // ── Methods ──
-        public void GetRealObject(){} // RVA: 0x7FFAC2C58F40
+        public void GetRealObject(){} // RVA: 0x7FFE80E2E390
     }
 
     public class ISafeSerializationData
     {
         // ── Methods ──
-        public void CompleteDeserialization(){} // RVA: 0x7FFAC2C70A40
+        public void CompleteDeserialization(){} // RVA: 0x7FFE80E460A0
     }
 
     public class ISerializable
@@ -170,7 +154,7 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
     public class ISurrogateSelector
     {
         // ── Methods ──
-        public void ChainSelector(){} // RVA: 0x7FFAC2C70A40
+        public void ChainSelector(){} // RVA: 0x7FFE80E460A0
         public void GetSurrogate(){}
     }
 
@@ -180,458 +164,423 @@ namespace ThirdParty.DotNet.System.Runtime.Serialization
 
     public class LongList : Object
     {
-        public long[] Count; // 0x10
-        public int Current; // 0x18
-        public int m_totalItems; // 0x1C
-        public int m_currentItem; // 0x20
+        public long[] m_values; // 0x10
+        public int m_count; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84A8500 | overloaded x2
-        public void Add(){} // RVA: 0x7FFAC84A85A0
-        public void get_Count(){} // RVA: 0x7FFAC3157800
-        public void StartEnumeration(){} // RVA: 0x7FFAC5875C30
-        public void MoveNext(){} // RVA: 0x7FFAC84A8600
-        public void get_Current(){} // RVA: 0x7FFAC84A8650
-        public void RemoveElement(){} // RVA: 0x7FFAC84A8680
-        public void EnlargeArray(){} // RVA: 0x7FFAC84A8700
+        public void .ctor(){} // RVA: 0x7FFE86851DF0 | overloaded x2
+        public void Add(){} // RVA: 0x7FFE86851E90
+        public void get_Count(){} // RVA: 0x7FFE813DB630
+        public void StartEnumeration(){} // RVA: 0x7FFE83BB2D90
+        public void MoveNext(){} // RVA: 0x7FFE86851EF0
+        public void get_Current(){} // RVA: 0x7FFE86851F40
+        public void RemoveElement(){} // RVA: 0x7FFE86851F70
+        public void EnlargeArray(){} // RVA: 0x7FFE86851FF0
     }
 
     public class MemberHolder : Object
     {
-        public System.Type _memberType; // 0x10
-        public System.Runtime.Serialization.StreamingContext _context; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC6CECDE0
-        public void GetHashCode(){} // RVA: 0x7FFAC35DB750
-        public void Equals(){} // RVA: 0x7FFAC849E4C0
+        public void .ctor(){} // RVA: 0x7FFE850732C0
+        public void GetHashCode(){} // RVA: 0x7FFE8170B620
+        public void Equals(){} // RVA: 0x7FFE86847DC0
     }
 
     public class ObjectHolder : Object
     {
-        public object IsIncompleteObjectReference; // 0x10
-        public long RequiresDelayedFixup; // 0x18
-        public int RequiresValueTypeFixup; // 0x20
-        public int ValueTypeFixupPerformed; // 0x24
-        public System.Runtime.Serialization.SerializationInfo HasISerializable; // 0x28
-        public System.Runtime.Serialization.ISerializationSurrogate HasSurrogate; // 0x30
-        public System.Runtime.Serialization.FixupHolderList CanSurrogatedObjectValueChange; // 0x38
-        public System.Runtime.Serialization.LongList CanObjectValueChange; // 0x40
-        public System.Runtime.Serialization.ObjectHolder DirectlyDependentObjects; // 0x48
-        public int TotalDependentObjects; // 0x50
-        public bool Reachable; // 0x54
-        public System.Runtime.Serialization.ValueTypeFixupInfo TypeLoadExceptionReachable; // 0x58
-        public System.Runtime.Serialization.TypeLoadExceptionHolder TypeLoadException; // 0x60
-        public bool ObjectValue; // 0x68
+        public object m_object; // 0x10
+        public long m_id; // 0x18
+        public int m_missingElementsRemaining; // 0x20
+        public int m_missingDecendents; // 0x24
+        public System.Runtime.Serialization.SerializationInfo m_serInfo; // 0x28
+        public System.Runtime.Serialization.ISerializationSurrogate m_surrogate; // 0x30
+        public System.Runtime.Serialization.FixupHolderList m_missingElements; // 0x38
+        public System.Runtime.Serialization.LongList m_dependentObjects; // 0x40
+        public System.Runtime.Serialization.ObjectHolder m_next; // 0x48
+        public int m_flags; // 0x50
+        public bool m_markForFixupWhenAvailable; // 0x54
+        public System.Runtime.Serialization.ValueTypeFixupInfo m_valueFixup; // 0x58
+        public System.Runtime.Serialization.TypeLoadExceptionHolder m_typeLoad; // 0x60
+        public bool m_reachable; // 0x68
+        public object field_14; // 0x4D3
+        public object field_15; // 0x4D4
+        public object field_16; // 0x4D5
+        public object field_17; // 0x4D6
+        public object field_18; // 0x4D7
+        public object field_19; // 0x4D8
+        public object field_20; // 0x4D9
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84A7210 | overloaded x3
-        public void IncrementDescendentFixups(){} // RVA: 0x7FFAC84A74C0
-        public void DecrementFixupsRemaining(){} // RVA: 0x7FFAC84A74D0
-        public void RemoveDependency(){} // RVA: 0x7FFAC84A7530
-        public void AddFixup(){} // RVA: 0x7FFAC84A75A0
-        public void UpdateDescendentDependencyChain(){} // RVA: 0x7FFAC84A7760
-        public void AddDependency(){} // RVA: 0x7FFAC84A77C0
-        public void UpdateData(){} // RVA: 0x7FFAC84A7960
-        public void MarkForCompletionWhenAvailable(){} // RVA: 0x7FFAC84A7BD0
-        public void SetFlags(){} // RVA: 0x7FFAC84A7BE0
-        public void get_IsIncompleteObjectReference(){} // RVA: 0x7FFAC845FF50
-        public void set_IsIncompleteObjectReference(){} // RVA: 0x7FFAC84A7C80
-        public void get_RequiresDelayedFixup(){} // RVA: 0x7FFAC84A7CA0
-        public void get_RequiresValueTypeFixup(){} // RVA: 0x7FFAC84A7CB0
-        public void get_ValueTypeFixupPerformed(){} // RVA: 0x7FFAC84A7CC0
-        public void set_ValueTypeFixupPerformed(){} // RVA: 0x7FFAC84A7CF0
-        public void get_HasISerializable(){} // RVA: 0x7FFAC845FF20
-        public void get_HasSurrogate(){} // RVA: 0x7FFAC84A7D00
-        public void get_CanSurrogatedObjectValueChange(){} // RVA: 0x7FFAC84A7D10
-        public void get_CanObjectValueChange(){} // RVA: 0x7FFAC84A7DB0
-        public void get_DirectlyDependentObjects(){} // RVA: 0x7FFAC30DBBE0
-        public void get_TotalDependentObjects(){} // RVA: 0x7FFAC83DA070
-        public void get_Reachable(){} // RVA: 0x7FFAC2FE9570
-        public void set_Reachable(){} // RVA: 0x7FFAC2FE9580
-        public void get_TypeLoadExceptionReachable(){} // RVA: 0x7FFAC4836B90
-        public void get_TypeLoadException(){} // RVA: 0x7FFAC2FBF370
-        public void set_TypeLoadException(){} // RVA: 0x7FFAC2FBF380
-        public void get_ObjectValue(){} // RVA: 0x7FFAC2F3C380
-        public void SetObjectValue(){} // RVA: 0x7FFAC84A7DD0
-        public void get_SerializationInfo(){} // RVA: 0x7FFAC2F4F130
-        public void set_SerializationInfo(){} // RVA: 0x7FFAC2F22E90
-        public void get_Surrogate(){} // RVA: 0x7FFAC31D95E0
-        public void get_DependentObjects(){} // RVA: 0x7FFAC2F9E740
-        public void set_DependentObjects(){} // RVA: 0x7FFAC2F49200
-        public void get_RequiresSerInfoFixup(){} // RVA: 0x7FFAC84A7FB0
-        public void set_RequiresSerInfoFixup(){} // RVA: 0x7FFAC84A7FD0
-        public void get_ValueFixup(){} // RVA: 0x7FFAC2FE9500
-        public void get_CompletelyFixed(){} // RVA: 0x7FFAC84A7FF0
-        public void get_ContainerID(){} // RVA: 0x7FFAC84A8010
+        public void .ctor(){} // RVA: 0x7FFE86850B10 | overloaded x3
+        public void IncrementDescendentFixups(){} // RVA: 0x7FFE86850DC0
+        public void DecrementFixupsRemaining(){} // RVA: 0x7FFE86850DD0
+        public void RemoveDependency(){} // RVA: 0x7FFE86850E30
+        public void AddFixup(){} // RVA: 0x7FFE86850EA0
+        public void UpdateDescendentDependencyChain(){} // RVA: 0x7FFE86851060
+        public void AddDependency(){} // RVA: 0x7FFE868510C0
+        public void UpdateData(){} // RVA: 0x7FFE86851260
+        public void MarkForCompletionWhenAvailable(){} // RVA: 0x7FFE812B4E50
+        public void SetFlags(){} // RVA: 0x7FFE868514D0
+        public void get_IsIncompleteObjectReference(){} // RVA: 0x7FFE86809860
+        public void set_IsIncompleteObjectReference(){} // RVA: 0x7FFE86851570
+        public void get_RequiresDelayedFixup(){} // RVA: 0x7FFE86851590
+        public void get_RequiresValueTypeFixup(){} // RVA: 0x7FFE868515A0
+        public void get_ValueTypeFixupPerformed(){} // RVA: 0x7FFE868515B0
+        public void set_ValueTypeFixupPerformed(){} // RVA: 0x7FFE868515E0
+        public void get_HasISerializable(){} // RVA: 0x7FFE86809830
+        public void get_HasSurrogate(){} // RVA: 0x7FFE868515F0
+        public void get_CanSurrogatedObjectValueChange(){} // RVA: 0x7FFE86851600
+        public void get_CanObjectValueChange(){} // RVA: 0x7FFE868516A0
+        public void get_DirectlyDependentObjects(){} // RVA: 0x7FFE8151D690
+        public void get_TotalDependentObjects(){} // RVA: 0x7FFE86783970
+        public void get_Reachable(){} // RVA: 0x7FFE811C3570
+        public void set_Reachable(){} // RVA: 0x7FFE811C3580
+        public void get_TypeLoadExceptionReachable(){} // RVA: 0x7FFE82A9EF30
+        public void get_TypeLoadException(){} // RVA: 0x7FFE81199370
+        public void set_TypeLoadException(){} // RVA: 0x7FFE81199380
+        public void get_ObjectValue(){} // RVA: 0x7FFE81116380
+        public void SetObjectValue(){} // RVA: 0x7FFE868516C0
+        public void get_SerializationInfo(){} // RVA: 0x7FFE81129130
+        public void set_SerializationInfo(){} // RVA: 0x7FFE810FCE90
+        public void get_Surrogate(){} // RVA: 0x7FFE8144E200
+        public void get_DependentObjects(){} // RVA: 0x7FFE81178740
+        public void set_DependentObjects(){} // RVA: 0x7FFE81123200
+        public void get_RequiresSerInfoFixup(){} // RVA: 0x7FFE868518A0
+        public void set_RequiresSerInfoFixup(){} // RVA: 0x7FFE868518C0
+        public void get_ValueFixup(){} // RVA: 0x7FFE811C3500
+        public void get_CompletelyFixed(){} // RVA: 0x7FFE868518E0
+        public void get_ContainerID(){} // RVA: 0x7FFE86851900
     }
 
     public class ObjectHolderList : Object
     {
-        public System.Runtime.Serialization.ObjectHolder[] Version; // 0x10
-        public int Count; // 0x18
+        public System.Runtime.Serialization.ObjectHolder[] m_values; // 0x10
+        public int m_count; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84A8990 | overloaded x2
-        public void Add(){} // RVA: 0x7FFAC84A8A30
-        public void GetFixupEnumerator(){} // RVA: 0x7FFAC84A8A90
-        public void EnlargeArray(){} // RVA: 0x7FFAC84A8B40
-        public void get_Version(){} // RVA: 0x7FFAC3157800
-        public void get_Count(){} // RVA: 0x7FFAC3157800
+        public void .ctor(){} // RVA: 0x7FFE86852280 | overloaded x2
+        public void Add(){} // RVA: 0x7FFE86852320
+        public void GetFixupEnumerator(){} // RVA: 0x7FFE86852380
+        public void EnlargeArray(){} // RVA: 0x7FFE86852430
+        public void get_Version(){} // RVA: 0x7FFE813DB630
+        public void get_Count(){} // RVA: 0x7FFE813DB630
     }
 
     public class ObjectHolderListEnumerator : Object
     {
-        public bool Current; // 0x10
-        public System.Runtime.Serialization.ObjectHolderList m_list; // 0x18
-        public int m_startingVersion; // 0x20
-        public int m_currPos; // 0x24
+        public bool m_isFixupEnumerator; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84A8D30
-        public void MoveNext(){} // RVA: 0x7FFAC84A8DB0
-        public void get_Current(){} // RVA: 0x7FFAC84A8E60
+        public void .ctor(){} // RVA: 0x7FFE86852620
+        public void MoveNext(){} // RVA: 0x7FFE868526A0
+        public void get_Current(){} // RVA: 0x7FFE86852750
     }
 
     public class ObjectIDGenerator : Object
     {
-        public int m_currentCount; // 0x10
-        public int m_currentSize; // 0x14
-        public long[] m_ids; // 0x18
-        public object[] m_objs; // 0x20
-        public int[] sizes;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84A2750
-        public void FindElement(){} // RVA: 0x7FFAC84A28D0
-        public void GetId(){} // RVA: 0x7FFAC84A2990
-        public void HasId(){} // RVA: 0x7FFAC84A2B20
-        public void Rehash(){} // RVA: 0x7FFAC84A2C00
-        public void .cctor(){} // RVA: 0x7FFAC84A2F80
+        public void .ctor(){} // RVA: 0x7FFE8684C050
+        public void FindElement(){} // RVA: 0x7FFE8684C1D0
+        public void GetId(){} // RVA: 0x7FFE8684C290
+        public void HasId(){} // RVA: 0x7FFE8684C420
+        public void Rehash(){} // RVA: 0x7FFE8684C500
+        public void .cctor(){} // RVA: 0x7FFE8684C880
     }
 
     public class ObjectManager : Object
     {
-        public System.Runtime.Serialization.DeserializationEventHandler TopObject; // 0x10
-        public System.Runtime.Serialization.SerializationEventHandler SpecialFixupObjects; // 0x18
-        public System.Runtime.Serialization.ObjectHolder[] m_objects; // 0x20
-        public object m_topObject; // 0x28
-        public System.Runtime.Serialization.ObjectHolderList m_specialFixupObjects; // 0x30
-        public long m_fixupCount; // 0x38
-        public System.Runtime.Serialization.ISurrogateSelector m_selector; // 0x40
-        public System.Runtime.Serialization.StreamingContext m_context; // 0x48
+        public System.Runtime.Serialization.DeserializationEventHandler m_onDeserializationHandler; // 0x10
+        public System.Runtime.Serialization.SerializationEventHandler m_onDeserializedHandler; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84A3060
-        public void CanCallGetType(){} // RVA: 0x7FFAC3006850
-        public void set_TopObject(){} // RVA: 0x7FFAC2F22E90
-        public void get_TopObject(){} // RVA: 0x7FFAC2F4F130
-        public void get_SpecialFixupObjects(){} // RVA: 0x7FFAC84A31C0
-        public void FindObjectHolder(){} // RVA: 0x7FFAC84A3300
-        public void FindOrCreateObjectHolder(){} // RVA: 0x7FFAC84A3350
-        public void AddObjectHolder(){} // RVA: 0x7FFAC84A3430
-        public void GetCompletionInfo(){} // RVA: 0x7FFAC84A36E0
-        public void FixupSpecialObject(){} // RVA: 0x7FFAC84A3B50
-        public void ResolveObjectReference(){} // RVA: 0x7FFAC84A3EB0
-        public void DoValueTypeFixup(){} // RVA: 0x7FFAC84A40F0
-        public void CompleteObject(){} // RVA: 0x7FFAC84A4620
-        public void DoNewlyRegisteredObjectFixups(){} // RVA: 0x7FFAC84A50F0
-        public void GetObject(){} // RVA: 0x7FFAC84A5280
-        public void RegisterString(){} // RVA: 0x7FFAC84A5370
-        public void RegisterObject(){} // RVA: 0x7FFAC84A5480
-        public void CompleteISerializableObject(){} // RVA: 0x7FFAC84A5A90
-        public void GetConstructor(){} // RVA: 0x7FFAC84A5CF0
-        public void DoFixups(){} // RVA: 0x7FFAC84A5E10
-        public void RegisterFixup(){} // RVA: 0x7FFAC84A62C0
-        public void RecordFixup(){} // RVA: 0x7FFAC84A63C0
-        public void RecordDelayedFixup(){} // RVA: 0x7FFAC84A66D0
-        public void RecordArrayElementFixup(){} // RVA: 0x7FFAC84A6850
-        public void RaiseDeserializationEvent(){} // RVA: 0x7FFAC84A69D0
-        public void AddOnDeserialization(){} // RVA: 0x7FFAC84A6A30
-        public void AddOnDeserialized(){} // RVA: 0x7FFAC84A6B20
-        public void RaiseOnDeserializedEvent(){} // RVA: 0x7FFAC84A6C10
-        public void RaiseOnDeserializingEvent(){} // RVA: 0x7FFAC84A6CE0
+        public void .ctor(){} // RVA: 0x7FFE8684C960
+        public void CanCallGetType(){} // RVA: 0x7FFE811E0850
+        public void set_TopObject(){} // RVA: 0x7FFE810FCE90
+        public void get_TopObject(){} // RVA: 0x7FFE81129130
+        public void get_SpecialFixupObjects(){} // RVA: 0x7FFE8684CAC0
+        public void FindObjectHolder(){} // RVA: 0x7FFE8684CC00
+        public void FindOrCreateObjectHolder(){} // RVA: 0x7FFE8684CC50
+        public void AddObjectHolder(){} // RVA: 0x7FFE8684CD30
+        public void GetCompletionInfo(){} // RVA: 0x7FFE8684CFE0
+        public void FixupSpecialObject(){} // RVA: 0x7FFE8684D450
+        public void ResolveObjectReference(){} // RVA: 0x7FFE8684D7B0
+        public void DoValueTypeFixup(){} // RVA: 0x7FFE8684D9F0
+        public void CompleteObject(){} // RVA: 0x7FFE8684DF20
+        public void DoNewlyRegisteredObjectFixups(){} // RVA: 0x7FFE8684E9F0
+        public void GetObject(){} // RVA: 0x7FFE8684EB80
+        public void RegisterString(){} // RVA: 0x7FFE8684EC70
+        public void RegisterObject(){} // RVA: 0x7FFE8684ED80
+        public void CompleteISerializableObject(){} // RVA: 0x7FFE8684F390
+        public void GetConstructor(){} // RVA: 0x7FFE8684F5F0
+        public void DoFixups(){} // RVA: 0x7FFE8684F710
+        public void RegisterFixup(){} // RVA: 0x7FFE8684FBC0
+        public void RecordFixup(){} // RVA: 0x7FFE8684FCC0
+        public void RecordDelayedFixup(){} // RVA: 0x7FFE8684FFD0
+        public void RecordArrayElementFixup(){} // RVA: 0x7FFE86850150
+        public void RaiseDeserializationEvent(){} // RVA: 0x7FFE868502D0
+        public void AddOnDeserialization(){} // RVA: 0x7FFE86850330
+        public void AddOnDeserialized(){} // RVA: 0x7FFE86850420
+        public void RaiseOnDeserializedEvent(){} // RVA: 0x7FFE86850510
+        public void RaiseOnDeserializingEvent(){} // RVA: 0x7FFE868505E0
     }
 
     public class OnDeserializedAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class OnDeserializingAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class OnSerializedAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class OnSerializingAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class OptionalFieldAttribute : Attribute
     {
-        public int VersionAdded; // 0x10
+        public int versionAdded; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45B41D0
-        public void set_VersionAdded(){} // RVA: 0x7FFAC84AA320
+        public void .ctor(){} // RVA: 0x7FFE82880410
+        public void set_VersionAdded(){} // RVA: 0x7FFE86853C10
     }
 
     public class SafeSerializationEventArgs : EventArgs
     {
-        public System.Runtime.Serialization.StreamingContext SerializedStates; // 0x10
-        public System.Collections.Generic.List`1<object> m_serializedStates; // 0x20
+        public System.Runtime.Serialization.StreamingContext m_streamingContext; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84A8EA0
-        public void get_SerializedStates(){} // RVA: 0x7FFAC2F4F0C0
+        public void .ctor(){} // RVA: 0x7FFE86852790
+        public void get_SerializedStates(){} // RVA: 0x7FFE811290C0
     }
 
     public class SafeSerializationManager : Object
     {
-        public System.Collections.Generic.IList`1<object> IsActive; // 0x10
-        public System.Runtime.Serialization.SerializationInfo m_savedSerializationInfo; // 0x18
-        public object m_realObject; // 0x20
-        public System.RuntimeType m_realType; // 0x28
-        public System.EventHandler`1<System.Runtime.Serialization.SafeSerializationEventArgs> SerializeObjectState; // 0x30
-        public string RealTypeSerializationName;
+        public System.Collections.Generic.IList`1<object> m_serializedStates; // 0x10
 
         // ── Methods ──
-        public void add_SerializeObjectState(){} // RVA: 0x7FFAC84A8FF0
-        public void remove_SerializeObjectState(){} // RVA: 0x7FFAC84A90F0
-        public void .ctor(){} // RVA: 0x7FFAC84A91F0 | overloaded x2
-        public void get_IsActive(){} // RVA: 0x7FFAC781E0A0
-        public void CompleteSerialization(){} // RVA: 0x7FFAC84A9530
-        public void CompleteDeserialization(){} // RVA: 0x7FFAC84A9920
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAC84A9BE0
-        public void System.Runtime.Serialization.IObjectReference.GetRealObject(){} // RVA: 0x7FFAC84A9D80
-        public void OnDeserialized(){} // RVA: 0x7FFAC84AA200
+        public void add_SerializeObjectState(){} // RVA: 0x7FFE868528E0
+        public void remove_SerializeObjectState(){} // RVA: 0x7FFE868529E0
+        public void .ctor(){} // RVA: 0x7FFE86852AE0 | overloaded x2
+        public void get_IsActive(){} // RVA: 0x7FFE85C00B10
+        public void CompleteSerialization(){} // RVA: 0x7FFE86852E20
+        public void CompleteDeserialization(){} // RVA: 0x7FFE86853210
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE868534D0
+        public void System.Runtime.Serialization.IObjectReference.GetRealObject(){} // RVA: 0x7FFE86853670
+        public void OnDeserialized(){} // RVA: 0x7FFE86853AF0
     }
 
     public class SerializationBinder : Object
     {
         // ── Methods ──
-        public void BindToName(){} // RVA: 0x7FFAC849E540
-        public void BindToType(){} // RVA: 0x7FFAC2C6A6F0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void BindToName(){} // RVA: 0x7FFE86847E40
+        public void BindToType(){} // RVA: 0x7FFE80E3FC10
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class SerializationEntry : ValueType
     {
-        public string Value; // 0x10
-        public object Name; // 0x18
-        public System.Type ObjectType; // 0x20
+        public string _name; // 0x10
+        public object _value; // 0x18
+        public System.Type _type; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC446FCC0
-        public void get_Value(){} // RVA: 0x7FFAC4420220
-        public void get_Name(){} // RVA: 0x7FFAC3AD9F60
-        public void get_ObjectType(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE82760A10
+        public void get_Value(){} // RVA: 0x7FFE826F4210
+        public void get_Name(){} // RVA: 0x7FFE8284EF60
+        public void get_ObjectType(){} // RVA: 0x7FFE81116380
     }
 
     public class SerializationEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC556C390
-        public void Invoke(){} // RVA: 0x7FFAC556C460
+        public void .ctor(){} // RVA: 0x7FFE83871610
+        public void Invoke(){} // RVA: 0x7FFE838716E0
     }
 
     public class SerializationEvents : Object
     {
-        public System.Collections.Generic.List`1<System.Reflection.MethodInfo> HasOnSerializingEvents; // 0x10
-        public System.Collections.Generic.List`1<System.Reflection.MethodInfo> _onSerializedMethods; // 0x18
-        public System.Collections.Generic.List`1<System.Reflection.MethodInfo> _onDeserializingMethods; // 0x20
-        public System.Collections.Generic.List`1<System.Reflection.MethodInfo> _onDeserializedMethods; // 0x28
+        public System.Collections.Generic.List`1<System.Reflection.MethodInfo> _onSerializingMethods; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC849E5F0
-        public void GetMethodsWithAttribute(){} // RVA: 0x7FFAC849E990
-        public void get_HasOnSerializingEvents(){} // RVA: 0x7FFAC849EBC0
-        public void InvokeOnSerializing(){} // RVA: 0x7FFAC849EBE0
-        public void InvokeOnDeserializing(){} // RVA: 0x7FFAC849EC30
-        public void InvokeOnDeserialized(){} // RVA: 0x7FFAC849EC80
-        public void AddOnSerialized(){} // RVA: 0x7FFAC849ECD0
-        public void AddOnDeserialized(){} // RVA: 0x7FFAC849ECF0
-        public void InvokeOnDelegate(){} // RVA: 0x7FFAC849ED10
-        public void AddOnDelegate(){} // RVA: 0x7FFAC849ED50
+        public void .ctor(){} // RVA: 0x7FFE86847EF0
+        public void GetMethodsWithAttribute(){} // RVA: 0x7FFE86848290
+        public void get_HasOnSerializingEvents(){} // RVA: 0x7FFE868484C0
+        public void InvokeOnSerializing(){} // RVA: 0x7FFE868484E0
+        public void InvokeOnDeserializing(){} // RVA: 0x7FFE86848530
+        public void InvokeOnDeserialized(){} // RVA: 0x7FFE86848580
+        public void AddOnSerialized(){} // RVA: 0x7FFE868485D0
+        public void AddOnDeserialized(){} // RVA: 0x7FFE868485F0
+        public void InvokeOnDelegate(){} // RVA: 0x7FFE86848610
+        public void AddOnDelegate(){} // RVA: 0x7FFE86848650
     }
 
     public class SerializationEventsCache : Object
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,System.Runtime.Serialization.SerializationEvents> s_cache;
-
         // ── Methods ──
-        public void GetSerializationEventsForType(){} // RVA: 0x7FFAC849EFE0
-        public void .cctor(){} // RVA: 0x7FFAC849F190
+        public void GetSerializationEventsForType(){} // RVA: 0x7FFE868488E0
+        public void .cctor(){} // RVA: 0x7FFE86848A90
     }
 
     public class SerializationException : SystemException
     {
-        public string s_nullMessage;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x4
-        public void .cctor(){} // RVA: 0x7FFAC849D9B0
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x4
+        public void .cctor(){} // RVA: 0x7FFE868472B0
     }
 
     public class SerializationFieldInfo : FieldInfo
     {
-        public System.Reflection.RuntimeFieldInfo Module; // 0x10
-        public string MetadataToken; // 0x18
+        public System.Reflection.RuntimeFieldInfo m_field; // 0x10
+        public string m_serializationName; // 0x18
+        public object field_2; // 0x4F1
+        public object field_3; // 0x4F2
+        public object field_4; // 0x4F3
+        public object field_5; // 0x4F4
+        public object field_6; // 0x4F5
+        public object field_7; // 0x4F6
+        public object field_8; // 0x4F7
 
         // ── Methods ──
-        public void get_Module(){} // RVA: 0x7FFAC4426B30
-        public void get_MetadataToken(){} // RVA: 0x7FFAC84AA3A0
-        public void .ctor(){} // RVA: 0x7FFAC84AA3D0
-        public void get_Name(){} // RVA: 0x7FFAC2F247C0
-        public void get_DeclaringType(){} // RVA: 0x7FFAC84AA500
-        public void get_ReflectedType(){} // RVA: 0x7FFAC84AA530
-        public void GetCustomAttributes(){} // RVA: 0x7FFAC84AA590 | overloaded x2
-        public void IsDefined(){} // RVA: 0x7FFAC84AA5C0
-        public void get_FieldType(){} // RVA: 0x7FFAC84AA5F0
-        public void GetValue(){} // RVA: 0x7FFAC7C8D060
-        public void InternalGetValue(){} // RVA: 0x7FFAC84AA620
-        public void SetValue(){} // RVA: 0x7FFAC84AA680
-        public void InternalSetValue(){} // RVA: 0x7FFAC84AA6C0
-        public void get_FieldInfo(){} // RVA: 0x7FFAC2F3C380
-        public void get_FieldHandle(){} // RVA: 0x7FFAC84AA740
-        public void get_Attributes(){} // RVA: 0x7FFAC84AA770
+        public void get_Module(){} // RVA: 0x7FFE826F8E90
+        public void get_MetadataToken(){} // RVA: 0x7FFE81588730
+        public void .ctor(){} // RVA: 0x7FFE86853C90
+        public void get_Name(){} // RVA: 0x7FFE810FE7C0
+        public void get_DeclaringType(){} // RVA: 0x7FFE86853DC0
+        public void get_ReflectedType(){} // RVA: 0x7FFE86853DF0
+        public void GetCustomAttributes(){} // RVA: 0x7FFE86853E50 | overloaded x2
+        public void IsDefined(){} // RVA: 0x7FFE81588B20
+        public void get_FieldType(){} // RVA: 0x7FFE81588910
+        public void GetValue(){} // RVA: 0x7FFE8605AD30
+        public void InternalGetValue(){} // RVA: 0x7FFE86853E80
+        public void SetValue(){} // RVA: 0x7FFE86853EE0
+        public void InternalSetValue(){} // RVA: 0x7FFE86853F20
+        public void get_FieldInfo(){} // RVA: 0x7FFE81116380
+        public void get_FieldHandle(){} // RVA: 0x7FFE86853FA0
+        public void get_Attributes(){} // RVA: 0x7FFE815889C0
     }
 
     public class SerializationInfo : Object
     {
-        public int FullTypeName;
-        public string AssemblyName;
-        public string MemberCount;
-        public string[] ObjectType; // 0x10
-        public object[] IsFullTypeNameSetExplicit; // 0x18
-        public System.Type[] IsAssemblyNameSetExplicit; // 0x20
-        public System.Collections.Generic.Dictionary`2<string,int> m_nameToIndex; // 0x28
-        public int m_currMember; // 0x30
-        public System.Runtime.Serialization.IFormatterConverter m_converter; // 0x38
-        public string m_fullTypeName; // 0x40
-        public string m_assemName; // 0x48
-        public System.Type objectType; // 0x50
-        public bool isFullTypeNameSetExplicit; // 0x58
-        public bool isAssemblyNameSetExplicit; // 0x59
-        public bool requireSameTokenInPartialTrust; // 0x5A
+        public int defaultSize;
+        public string s_mscorlibAssemblySimpleName;
+        public string s_mscorlibFileName;
+        public string[] m_members; // 0x10
+        public object[] m_data; // 0x18
+        public System.Type[] m_types; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84AA7C0 | overloaded x2
-        public void get_FullTypeName(){} // RVA: 0x7FFAC2F9E740
-        public void get_AssemblyName(){} // RVA: 0x7FFAC2F9C730
-        public void SetType(){} // RVA: 0x7FFAC84AAC40
-        public void Compare(){} // RVA: 0x7FFAC84AAEC0
-        public void DemandForUnsafeAssemblyNameAssignments(){} // RVA: 0x7FFAC84AAF40
-        public void IsAssemblyNameAssignmentSafe(){} // RVA: 0x7FFAC84AAF50
-        public void get_MemberCount(){} // RVA: 0x7FFAC2F7CCD0
-        public void get_ObjectType(){} // RVA: 0x7FFAC2FC20E0
-        public void get_IsFullTypeNameSetExplicit(){} // RVA: 0x7FFAC313F600
-        public void get_IsAssemblyNameSetExplicit(){} // RVA: 0x7FFAC778CF40
-        public void GetEnumerator(){} // RVA: 0x7FFAC84AB220
-        public void ExpandArrays(){} // RVA: 0x7FFAC84AB3A0
-        public void AddValue(){} // RVA: 0x7FFAC84ACED0 | overloaded x14
-        public void AddValueInternal(){} // RVA: 0x7FFAC84AD090
-        public void UpdateValue(){} // RVA: 0x7FFAC84AD290
-        public void FindElement(){} // RVA: 0x7FFAC84AD390
-        public void GetElement(){} // RVA: 0x7FFAC84AD490
-        public void GetElementNoThrow(){} // RVA: 0x7FFAC84AD5F0
-        public void GetValue(){} // RVA: 0x7FFAC84AD720
-        public void GetValueNoThrow(){} // RVA: 0x7FFAC84AD900
-        public void GetBoolean(){} // RVA: 0x7FFAC84ADAE0
-        public void GetByte(){} // RVA: 0x7FFAC84ADC40
-        public void GetInt16(){} // RVA: 0x7FFAC84ADDA0
-        public void GetInt32(){} // RVA: 0x7FFAC84ADF00
-        public void GetUInt32(){} // RVA: 0x7FFAC84AE060
-        public void GetInt64(){} // RVA: 0x7FFAC84AE1C0
-        public void GetSingle(){} // RVA: 0x7FFAC84AE320
-        public void GetString(){} // RVA: 0x7FFAC84AE480
+        public void .ctor(){} // RVA: 0x7FFE86853FF0 | overloaded x2
+        public void get_FullTypeName(){} // RVA: 0x7FFE81178740
+        public void get_AssemblyName(){} // RVA: 0x7FFE81176730
+        public void SetType(){} // RVA: 0x7FFE86854470
+        public void Compare(){} // RVA: 0x7FFE868546F0
+        public void DemandForUnsafeAssemblyNameAssignments(){} // RVA: 0x7FFE86854770
+        public void IsAssemblyNameAssignmentSafe(){} // RVA: 0x7FFE86854780
+        public void get_MemberCount(){} // RVA: 0x7FFE81156CD0
+        public void get_ObjectType(){} // RVA: 0x7FFE8119C0E0
+        public void get_IsFullTypeNameSetExplicit(){} // RVA: 0x7FFE813A1140
+        public void get_IsAssemblyNameSetExplicit(){} // RVA: 0x7FFE85BA8C00
+        public void GetEnumerator(){} // RVA: 0x7FFE86854A50
+        public void ExpandArrays(){} // RVA: 0x7FFE86854BD0
+        public void AddValue(){} // RVA: 0x7FFE86856700 | overloaded x14
+        public void AddValueInternal(){} // RVA: 0x7FFE868568C0
+        public void UpdateValue(){} // RVA: 0x7FFE86856AC0
+        public void FindElement(){} // RVA: 0x7FFE86856BC0
+        public void GetElement(){} // RVA: 0x7FFE86856CC0
+        public void GetElementNoThrow(){} // RVA: 0x7FFE86856E20
+        public void GetValue(){} // RVA: 0x7FFE86856F50
+        public void GetValueNoThrow(){} // RVA: 0x7FFE86857130
+        public void GetBoolean(){} // RVA: 0x7FFE86857310
+        public void GetByte(){} // RVA: 0x7FFE86857470
+        public void GetInt16(){} // RVA: 0x7FFE868575D0
+        public void GetInt32(){} // RVA: 0x7FFE86857730
+        public void GetUInt32(){} // RVA: 0x7FFE86857890
+        public void GetInt64(){} // RVA: 0x7FFE868579F0
+        public void GetSingle(){} // RVA: 0x7FFE86857B50
+        public void GetString(){} // RVA: 0x7FFE86857CB0
     }
 
     public class SerializationInfoEnumerator : Object
     {
-        public string[] System.Collections.IEnumerator.Current; // 0x10
-        public object[] Current; // 0x18
-        public System.Type[] Name; // 0x20
-        public int Value; // 0x28
-        public int ObjectType; // 0x2C
-        public bool _current; // 0x30
+        public string[] _members; // 0x10
+        public object[] _data; // 0x18
+        public System.Type[] _types; // 0x20
+        public int _numItems; // 0x28
+        public int _currItem; // 0x2C
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC849DA60
-        public void MoveNext(){} // RVA: 0x7FFAC849DB80
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC849DBA0
-        public void get_Current(){} // RVA: 0x7FFAC849DC10
-        public void Reset(){} // RVA: 0x7FFAC849DD00
-        public void get_Name(){} // RVA: 0x7FFAC849DD10
-        public void get_Value(){} // RVA: 0x7FFAC849DDA0
-        public void get_ObjectType(){} // RVA: 0x7FFAC849DE30
+        public void .ctor(){} // RVA: 0x7FFE86847360
+        public void MoveNext(){} // RVA: 0x7FFE86847480
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE868474A0
+        public void get_Current(){} // RVA: 0x7FFE86847510
+        public void Reset(){} // RVA: 0x7FFE86847600
+        public void get_Name(){} // RVA: 0x7FFE86847610
+        public void get_Value(){} // RVA: 0x7FFE868476A0
+        public void get_ObjectType(){} // RVA: 0x7FFE86847730
     }
 
     public class SerializationObjectManager : Object
     {
-        public System.Collections.Generic.Dictionary`2<object,object> _objectSeenTable; // 0x10
-        public System.Runtime.Serialization.StreamingContext _context; // 0x18
-        public System.Runtime.Serialization.SerializationEventHandler _onSerializedHandler; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC849F370
-        public void RegisterObject(){} // RVA: 0x7FFAC849F4A0
-        public void RaiseOnSerializedEvent(){} // RVA: 0x7FFAC849F6C0
-        public void AddOnSerialized(){} // RVA: 0x7FFAC849F700
+        public void .ctor(){} // RVA: 0x7FFE86848C70
+        public void RegisterObject(){} // RVA: 0x7FFE86848DA0
+        public void RaiseOnSerializedEvent(){} // RVA: 0x7FFE86848FC0
+        public void AddOnSerialized(){} // RVA: 0x7FFE86849000
     }
 
     public class StreamingContext : ValueType
     {
-        public object Context; // 0x10
-        public 0x6B0D3500 State; // 0x18
+        public object m_additionalContext; // 0x10
+        public 0x664CC424 m_state; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84AE640 | overloaded x2
-        public void get_Context(){} // RVA: 0x7FFAC3AD9F60
-        public void Equals(){} // RVA: 0x7FFAC84AE6A0
-        public void GetHashCode(){} // RVA: 0x7FFAC49C7500
-        public void get_State(){} // RVA: 0x7FFAC49C7500
+        public void .ctor(){} // RVA: 0x7FFE86857E70 | overloaded x2
+        public void get_Context(){} // RVA: 0x7FFE8284EF60
+        public void Equals(){} // RVA: 0x7FFE86857ED0
+        public void GetHashCode(){} // RVA: 0x7FFE82C33000
+        public void get_State(){} // RVA: 0x7FFE82C33000
     }
 
     public class SurrogateForCyclicalReference : Object
     {
-        public System.Runtime.Serialization.ISerializationSurrogate innerSurrogate; // 0x10
-
         // ── Methods ──
-        public void GetObjectData(){} // RVA: 0x7FFAC84A25C0
-        public void SetObjectData(){} // RVA: 0x7FFAC84A26B0
+        public void GetObjectData(){} // RVA: 0x7FFE8684BEC0
+        public void SetObjectData(){} // RVA: 0x7FFE8684BFB0
     }
 
     public class TypeLoadExceptionHolder : Object
     {
-        public string TypeName; // 0x10
+        public string m_typeName; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void get_TypeName(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_TypeName(){} // RVA: 0x7FFE81116380
     }
 
     public class ValueTypeFixupInfo : Object
     {
-        public long ContainerID; // 0x10
-        public System.Reflection.FieldInfo ParentField; // 0x18
-        public int[] ParentIndex; // 0x20
+        public long _containerID; // 0x10
+        public System.Reflection.FieldInfo _parentField; // 0x18
+        public int[] _parentIndex; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC849F7F0
-        public void get_ContainerID(){} // RVA: 0x7FFAC2F3C380
-        public void get_ParentField(){} // RVA: 0x7FFAC2F247C0
-        public void get_ParentIndex(){} // RVA: 0x7FFAC2F4F0C0
+        public void .ctor(){} // RVA: 0x7FFE868490F0
+        public void get_ContainerID(){} // RVA: 0x7FFE81116380
+        public void get_ParentField(){} // RVA: 0x7FFE810FE7C0
+        public void get_ParentIndex(){} // RVA: 0x7FFE811290C0
     }
 
 }

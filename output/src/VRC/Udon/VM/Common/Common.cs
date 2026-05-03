@@ -7,15 +7,14 @@ namespace VRC.Udon.VM.Common
 {
     public class LightweightStack`1 : Object
     {
-        public T[] Contents;
-        public int _size;
+        public T[] _array;
 
         // ── Methods ──
-        public void get_Contents(){} // RVA: 0x7FFAC2E8DC40
-        public void .ctor(){} // RVA: 0x7FFAC2C70ED0
-        public void Push(){} // RVA: 0x7FFAC2E8DC40
-        public void TryPop(){} // RVA: 0x7FFAC2C59F60
-        public void PopSlice(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Contents(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFE80E46530
+        public void Push(){} // RVA: 0x7FFE810A1420
+        public void TryPop(){} // RVA: 0x7FFE80E2F3B0
+        public void PopSlice(){} // RVA: 0x7FFE810A1420
     }
 
 }

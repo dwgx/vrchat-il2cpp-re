@@ -7,69 +7,66 @@ namespace VRC.SDK3.UdonNetworkCalling
 {
     public class NetworkCallableAttribute : Attribute
     {
-        public int MaxEventsPerSecond; // 0x10
+        public int _maxEventsPerSecond; // 0x10
 
         // ── Methods ──
-        public void get_MaxEventsPerSecond(){} // RVA: 0x7FFAC2F6E5C0
-        public void set_MaxEventsPerSecond(){} // RVA: 0x7FFAC2F240C0
-        public void .ctor(){} // RVA: 0x7FFAC2F240C0
+        public void get_MaxEventsPerSecond(){} // RVA: 0x7FFE811485C0
+        public void set_MaxEventsPerSecond(){} // RVA: 0x7FFE810FE0C0
+        public void .ctor(){} // RVA: 0x7FFE810FE0C0
     }
 
     public class NetworkCalling : Object
     {
-        public bool InNetworkCall;
-        public VRC.SDKBase.VRCPlayerApi CallingPlayer; // 0x8
-        public SendNetworkEventDelegate SendCustomNetworkEventProxy; // 0x10
-        public GetQueuedEventsDelegate GetQueuedEventsProxy; // 0x18
-        public GetAllQueuedEventsDelegate GetAllQueuedEventsProxy; // 0x20
-        public object[] _parameters; // 0x28
+        public bool _inNetworkCall;
+        public VRC.SDKBase.VRCPlayerApi _callingPlayer; // 0x8
+        public SendNetworkEventDelegate _sendCustomNetworkEventProxy; // 0x10
+        public GetQueuedEventsDelegate _getQueuedEventsProxy; // 0x18
+        public GetAllQueuedEventsDelegate _getAllQueuedEventsProxy; // 0x20
 
         // ── Methods ──
-        public void get_InNetworkCall(){} // RVA: 0x7FFACBFF1FC0
-        public void set_InNetworkCall(){} // RVA: 0x7FFACBFF2020
-        public void get_CallingPlayer(){} // RVA: 0x7FFACBFF2080
-        public void set_CallingPlayer(){} // RVA: 0x7FFACBFF20E0
-        public void get_SendCustomNetworkEventProxy(){} // RVA: 0x7FFACBFF21A0
-        public void set_SendCustomNetworkEventProxy(){} // RVA: 0x7FFACBFF2200
-        public void get_GetQueuedEventsProxy(){} // RVA: 0x7FFACBFF22C0
-        public void set_GetQueuedEventsProxy(){} // RVA: 0x7FFACBFF2320
-        public void get_GetAllQueuedEventsProxy(){} // RVA: 0x7FFACBFF23E0
-        public void set_GetAllQueuedEventsProxy(){} // RVA: 0x7FFACBFF2440
-        public void CheckMainThread(){} // RVA: 0x7FFACBFF2500
-        public void SendCustomNetworkEvent(){} // RVA: 0x7FFACBFF3C20 | overloaded x9
-        public void SendCustomNetworkEventInternal(){} // RVA: 0x7FFACBFF40C0
-        public void WithNetworkCallingContext(){} // RVA: 0x7FFACBFF4220
-        public void GetQueuedEvents(){} // RVA: 0x7FFACBFF4380
-        public void GetAllQueuedEvents(){} // RVA: 0x7FFACBFF44A0
-        public void .cctor(){} // RVA: 0x7FFACBFF45B0
+        public void get_InNetworkCall(){} // RVA: 0x7FFE8A4577C0
+        public void set_InNetworkCall(){} // RVA: 0x7FFE8A457820
+        public void get_CallingPlayer(){} // RVA: 0x7FFE8A457880
+        public void set_CallingPlayer(){} // RVA: 0x7FFE8A4578E0
+        public void get_SendCustomNetworkEventProxy(){} // RVA: 0x7FFE8A4579A0
+        public void set_SendCustomNetworkEventProxy(){} // RVA: 0x7FFE8A457A00
+        public void get_GetQueuedEventsProxy(){} // RVA: 0x7FFE8A457AC0
+        public void set_GetQueuedEventsProxy(){} // RVA: 0x7FFE8A457B20
+        public void get_GetAllQueuedEventsProxy(){} // RVA: 0x7FFE8A457BE0
+        public void set_GetAllQueuedEventsProxy(){} // RVA: 0x7FFE8A457C40
+        public void CheckMainThread(){} // RVA: 0x7FFE8A457D00
+        public void SendCustomNetworkEvent(){} // RVA: 0x7FFE8A459420 | overloaded x9
+        public void SendCustomNetworkEventInternal(){} // RVA: 0x7FFE8A4598C0
+        public void WithNetworkCallingContext(){} // RVA: 0x7FFE8A459A20
+        public void GetQueuedEvents(){} // RVA: 0x7FFE8A459B80
+        public void GetAllQueuedEvents(){} // RVA: 0x7FFE8A459CA0
+        public void .cctor(){} // RVA: 0x7FFE8A459DB0
     }
 
     public class NetworkCallingEntrypointMetadata : Object
     {
-        public int Name;
-        public int MaxEventsPerSecond; // 0x10
-        public string Parameters; // 0x18
-        public VRC.SDK3.UdonNetworkCalling.NetworkCallingParameterMetadata[] _parameters; // 0x20
-        public bool _validated; // 0x28
+        public int RATE_LIMIT_MAX;
+        public int _maxEventsPerSecond; // 0x10
+        public string _name; // 0x18
 
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFAC2F247C0
-        public void get_MaxEventsPerSecond(){} // RVA: 0x7FFAC2F6E5C0
-        public void get_Parameters(){} // RVA: 0x7FFAC2F4F0C0
-        public void .ctor(){} // RVA: 0x7FFACBFF48B0
-        public void Validate(){} // RVA: 0x7FFACBFF49F0
-        public void ValidateOnce(){} // RVA: 0x7FFACBFF4FD0
+        public void get_Name(){} // RVA: 0x7FFE810FE7C0
+        public void get_MaxEventsPerSecond(){} // RVA: 0x7FFE811485C0
+        public void get_Parameters(){} // RVA: 0x7FFE811290C0
+        public void .ctor(){} // RVA: 0x7FFE8A45A0B0
+        public void Validate(){} // RVA: 0x7FFE8A45A1F0
+        public void ValidateOnce(){} // RVA: 0x7FFE8A45A7D0
     }
 
     public class NetworkCallingParameterMetadata : Object
     {
-        public string Name; // 0x10
-        public 0x6B262CB0 Type; // 0x18
+        public string _name; // 0x10
+        public 0x6665C88C _type; // 0x18
 
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFAC2F3C380
-        public void get_Type(){} // RVA: 0x7FFAC2F3C4E0
-        public void .ctor(){} // RVA: 0x7FFACBFF4FF0 | overloaded x2
+        public void get_Name(){} // RVA: 0x7FFE81116380
+        public void get_Type(){} // RVA: 0x7FFE811164E0
+        public void .ctor(){} // RVA: 0x7FFE8A45A7F0 | overloaded x2
     }
 
 }

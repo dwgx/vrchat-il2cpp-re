@@ -8,8 +8,8 @@ namespace ThirdParty.Sentry.Sentry.Unity.Extensions
     public class JsonExtensions : Object
     {
         // ── Methods ──
-        public void GetPropertyOrNull(){} // RVA: 0x7FFAC8B22AB0
-        public void GetEnumOrNull(){} // RVA: 0x7FFAC2E8DC40
+        public void GetPropertyOrNull(){} // RVA: 0x7FFE86ECC120
+        public void GetEnumOrNull(){} // RVA: 0x7FFE810A1420
     }
 
 }

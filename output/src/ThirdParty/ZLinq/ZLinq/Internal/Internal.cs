@@ -7,223 +7,147 @@ namespace ThirdParty.ZLinq.ZLinq.Internal
 {
     public class DefaultInterpolatedStringHandler : ValueType
     {
-        public System.IFormatProvider _provider; // 0x10
-        public char[] _arrayToReturnToPool; // 0x18
-        public System.Span`1<char> _chars; // 0x20
-        public int _pos; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACC0E1E60
-        public void AppendFormatted(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
-        public void ToStringAndClear(){} // RVA: 0x7FFACC0E1FA0
-        public void Clear(){} // RVA: 0x7FFACC0E2100
-        public void GrowThenCopyString(){} // RVA: 0x7FFACC0E21B0
-        public void Grow(){} // RVA: 0x7FFACC0E22F0 | overloaded x2
-        public void GrowCore(){} // RVA: 0x7FFACC0E2300
-        public void MathClamp(){} // RVA: 0x7FFACC0E25F0
-        public void ThrowMinMaxException(){} // RVA: 0x7FFAC2E8DC40
+        public void .ctor(){} // RVA: 0x7FFE8A547E30
+        public void AppendFormatted(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void ToStringAndClear(){} // RVA: 0x7FFE8A547F70
+        public void Clear(){} // RVA: 0x7FFE8A5480D0
+        public void GrowThenCopyString(){} // RVA: 0x7FFE8A548180
+        public void Grow(){} // RVA: 0x7FFE8A5482C0 | overloaded x2
+        public void GrowCore(){} // RVA: 0x7FFE8A5482D0
+        public void MathClamp(){} // RVA: 0x7FFE8A5485C0
+        public void ThrowMinMaxException(){} // RVA: 0x7FFE810A1420
     }
 
     public class DictionarySlim`2 : Object
     {
-        public System.Collections.Generic.IEqualityComparer`1<U> comparer;
-        public Entry<U,T>[] entries;
-        public int[] buckets;
-        public int bucketsLength;
-        public int entryIndex;
-        public int resizeThreshold;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70A40
-        public void GetValueRefOrAddDefault(){} // RVA: 0x7FFAC2E8DC40
-        public void Resize(){} // RVA: 0x7FFAC2C70980
-        public void InternalGetHashCode(){} // RVA: 0x7FFAC2E8DC40
-        public void GetBucketIndex(){} // RVA: 0x7FFAC2C600D0
-        public void GetEnumerator(){} // RVA: 0x7FFAC2E8DC40
-        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void GetValueRefOrAddDefault(){} // RVA: 0x7FFE810A1420
+        public void Resize(){} // RVA: 0x7FFE80E45FE0
+        public void InternalGetHashCode(){} // RVA: 0x7FFE810A1420
+        public void GetBucketIndex(){} // RVA: 0x7FFE80E35520
+        public void GetEnumerator(){} // RVA: 0x7FFE810A1420
+        public void Dispose(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class EnumeratorHelper : Object
     {
         // ── Methods ──
-        public void TryGetSliceRange(){} // RVA: 0x7FFACC0E1DC0
-        public void TryGetSlice(){} // RVA: 0x7FFAC2E8DC40
-        public void TryConsumeGetAt(){} // RVA: 0x7FFAC2C5CD30 | overloaded x2
-        public void TryConsumeGetFirst(){} // RVA: 0x7FFAC2C5A350
-        public void TryConsumeGetLast(){} // RVA: 0x7FFAC2C5A350
-        public void TryConsumeGetFromLast(){} // RVA: 0x7FFAC2C5CD30
+        public void TryGetSliceRange(){} // RVA: 0x7FFE8A547D90
+        public void TryGetSlice(){} // RVA: 0x7FFE810A1420
+        public void TryConsumeGetAt(){} // RVA: 0x7FFE80E32180 | overloaded x2
+        public void TryConsumeGetFirst(){} // RVA: 0x7FFE80E2F7A0
+        public void TryConsumeGetLast(){} // RVA: 0x7FFE80E2F7A0
+        public void TryConsumeGetFromLast(){} // RVA: 0x7FFE80E32180
     }
 
     public class HashSetSlim`1 : Object
     {
-        public System.Collections.Generic.IEqualityComparer`1<T> comparer;
-        public Entry<T>[] entries;
-        public int[] buckets;
-        public int bucketsLength;
-        public int entryIndex;
-        public int resizeThreshold;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C72BC0 | overloaded x2
-        public void Add(){} // RVA: 0x7FFAC2E8DC40
-        public void Resize(){} // RVA: 0x7FFAC2C70980
-        public void Remove(){} // RVA: 0x7FFAC2E8DC40
-        public void InternalGetHashCode(){} // RVA: 0x7FFAC2E8DC40
-        public void GetBucketIndex(){} // RVA: 0x7FFAC2C600D0
-        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void .ctor(){} // RVA: 0x7FFE80E48220 | overloaded x2
+        public void Add(){} // RVA: 0x7FFE810A1420
+        public void Resize(){} // RVA: 0x7FFE80E45FE0
+        public void Remove(){} // RVA: 0x7FFE810A1420
+        public void InternalGetHashCode(){} // RVA: 0x7FFE810A1420
+        public void GetBucketIndex(){} // RVA: 0x7FFE80E35520
+        public void Dispose(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class InlineArray16`1 : ValueType
     {
-        public T item0;
-        public T item1;
-        public T item2;
-        public T item3;
-        public T item4;
-        public T item5;
-        public T item6;
-        public T item7;
-        public T item8;
-        public T item9;
-        public T item10;
-        public T item11;
-        public T item12;
-        public T item13;
-        public T item14;
-        public T item15;
-
         // ── Methods ──
-        public void AsSpan(){} // RVA: 0x7FFAC2E8DC40
+        public void AsSpan(){} // RVA: 0x7FFE810A1420
     }
 
     public class InlineArray27`1 : ValueType
     {
-        public T Item;
-        public T item1;
-        public T item2;
-        public T item3;
-        public T item4;
-        public T item5;
-        public T item6;
-        public T item7;
-        public T item8;
-        public T item9;
-        public T item10;
-        public T item11;
-        public T item12;
-        public T item13;
-        public T item14;
-        public T item15;
-        public T item16;
-        public T item17;
-        public T item18;
-        public T item19;
-        public T item20;
-        public T item21;
-        public T item22;
-        public T item23;
-        public T item24;
-        public T item25;
-        public T item26;
+        public T item0;
 
         // ── Methods ──
-        public void get_Item(){} // RVA: 0x7FFAC2C67DE0
-        public void AsSpan(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Item(){} // RVA: 0x7FFE80E3D230
+        public void AsSpan(){} // RVA: 0x7FFE810A1420
     }
 
     public class InlineArrayMarshal : Object
     {
         // ── Methods ──
-        public void AsSpan(){} // RVA: 0x7FFAC2E8DC40
-        public void ElementRef(){} // RVA: 0x7FFAC2C68090
+        public void AsSpan(){} // RVA: 0x7FFE810A1420
+        public void ElementRef(){} // RVA: 0x7FFE80E3D4E0
     }
 
     public class RandomShared : Object
     {
-        public System.Threading.ThreadLocal`1<System.Random> Shared;
-
         // ── Methods ──
-        public void Shuffle(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFACC0E2670
+        public void Shuffle(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFE8A548640
     }
 
     public class RefBox`1 : Object
     {
-        public T value;
-        public bool isDisposed;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
-        public void GetValueRef(){} // RVA: 0x7FFAC2C58E90
-        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void .ctor(){} // RVA: 0x7FFE810A1420
+        public void GetValueRef(){} // RVA: 0x7FFE80E2E2E0
+        public void Dispose(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class RentedArrayBox`1 : Object
     {
-        public T[] Length;
-        public int Span;
-        public ZLinq.Internal.RentedArrayBox`1<T> Empty;
+        public T[] <array>P;
+        public int <length>P;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C77970
-        public void get_Length(){} // RVA: 0x7FFAC2C59960
-        public void get_Span(){} // RVA: 0x7FFAC2E8DC40
-        public void UnsafeGetAt(){} // RVA: 0x7FFAC2C67DE0
-        public void Dispose(){} // RVA: 0x7FFAC2C70980
-        public void .cctor(){} // RVA: 0x7FFAC2C709B0
+        public void .ctor(){} // RVA: 0x7FFE80E4D070
+        public void get_Length(){} // RVA: 0x7FFE80E2EDB0
+        public void get_Span(){} // RVA: 0x7FFE810A1420
+        public void UnsafeGetAt(){} // RVA: 0x7FFE80E3D230
+        public void Dispose(){} // RVA: 0x7FFE80E45FE0
+        public void .cctor(){} // RVA: 0x7FFE80E46010
     }
 
     public class SegmentedArrayProvider`1 : ValueType
     {
-        public System.Span`1<T> Count;
-        public int countInCurrentSegment;
-        public System.Span`1<T> initialBuffer;
-        public ZLinq.Internal.InlineArray27`1<T[]> segments;
-        public int segmentsCount;
-        public int countInFinishedSegments;
+        public System.Span`1<T> currentSegment;
 
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7FFAC2C59960
-        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
-        public void GetSpan(){} // RVA: 0x7FFAC2E8DC40
-        public void Advance(){} // RVA: 0x7FFAC2C70ED0
-        public void Expand(){} // RVA: 0x7FFAC2C70980
-        public void CopyToAndClear(){} // RVA: 0x7FFAC2E8DC40
+        public void get_Count(){} // RVA: 0x7FFE80E2EDB0
+        public void .ctor(){} // RVA: 0x7FFE810A1420
+        public void GetSpan(){} // RVA: 0x7FFE810A1420
+        public void Advance(){} // RVA: 0x7FFE80E46530
+        public void Expand(){} // RVA: 0x7FFE80E45FE0
+        public void CopyToAndClear(){} // RVA: 0x7FFE810A1420
     }
 
     public class SingleSpan : Object
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFAC2E8DC40
+        public void Create(){} // RVA: 0x7FFE810A1420
     }
 
     public class Throws : Object
     {
         // ── Methods ──
-        public void ArgumentOutOfRange(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
-        public void MoreThanOneElement(){} // RVA: 0x7FFACC0E2BF0
-        public void MoreThanOneMatch(){} // RVA: 0x7FFACC0E2C40
-        public void NoElements(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
-        public void NoMatch(){} // RVA: 0x7FFAC2E8DC40
-        public void NotSupportedType(){} // RVA: 0x7FFACC0E2CE0
-        public void IfNull(){} // RVA: 0x7FFAC2E8DC40
+        public void ArgumentOutOfRange(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void MoreThanOneElement(){} // RVA: 0x7FFE8A548BC0
+        public void MoreThanOneMatch(){} // RVA: 0x7FFE8A548C10
+        public void NoElements(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void NoMatch(){} // RVA: 0x7FFE810A1420
+        public void NotSupportedType(){} // RVA: 0x7FFE8A548CB0
+        public void IfNull(){} // RVA: 0x7FFE810A1420
     }
 
     public class ValueQueue`1 : ValueType
     {
-        public T[] Count;
-        public int head;
-        public int tail;
-        public int size;
+        public T[] items;
 
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7FFAC2C59960
-        public void .ctor(){} // RVA: 0x7FFAC2C70ED0
-        public void Enqueue(){} // RVA: 0x7FFAC2E8DC40
-        public void Dequeue(){} // RVA: 0x7FFAC2E8DC40
-        public void Throw(){} // RVA: 0x7FFAC2C709B0
-        public void Grow(){} // RVA: 0x7FFAC2C70980
-        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void get_Count(){} // RVA: 0x7FFE80E2EDB0
+        public void .ctor(){} // RVA: 0x7FFE80E46530
+        public void Enqueue(){} // RVA: 0x7FFE810A1420
+        public void Dequeue(){} // RVA: 0x7FFE810A1420
+        public void Throw(){} // RVA: 0x7FFE80E46010
+        public void Grow(){} // RVA: 0x7FFE80E45FE0
+        public void Dispose(){} // RVA: 0x7FFE80E45FE0
     }
 
 }

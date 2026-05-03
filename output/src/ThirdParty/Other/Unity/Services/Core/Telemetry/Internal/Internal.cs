@@ -7,26 +7,22 @@ namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
 {
     public class Diagnostics : Object
     {
-        public System.Collections.Generic.IDictionary`2<string,string> <PackageTags>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void SendDiagnostic(){} // RVA: 0x7FFAC2F21310
-        public void .ctor(){} // RVA: 0x7FFAC96FE8D0
+        public void SendDiagnostic(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFE87AA6E40
     }
 
     public class DiagnosticsFactory : Object
     {
-        public System.Collections.Generic.IReadOnlyDictionary`2<string,string> <CommonTags>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFAC96FE990
-        public void .ctor(){} // RVA: 0x7FFAC96FEA70
+        public void Create(){} // RVA: 0x7FFE87AA6F00
+        public void .ctor(){} // RVA: 0x7FFE87AA6FE0
     }
 
     public class IDiagnostics
     {
         // ── Methods ──
-        public void SendDiagnostic(){} // RVA: 0x7FFAC2C7AF60
+        public void SendDiagnostic(){} // RVA: 0x7FFE80E50660
     }
 
     public class IDiagnosticsComponentProvider
@@ -36,7 +32,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
     public class IDiagnosticsFactory
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFAC2C58F40
+        public void Create(){} // RVA: 0x7FFE80E2E390
     }
 
     public class IMetrics
@@ -50,27 +46,23 @@ namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
     public class IMetricsFactory
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFAC2C58F40
+        public void Create(){} // RVA: 0x7FFE80E2E390
     }
 
     public class Metrics : Object
     {
-        public System.Collections.Generic.IDictionary`2<string,string> <PackageTags>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendGaugeMetric(){} // RVA: 0x7FFAC2F21310
-        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendHistogramMetric(){} // RVA: 0x7FFAC2F21310
-        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendSumMetric(){} // RVA: 0x7FFAC2F21310
-        public void .ctor(){} // RVA: 0x7FFAC96FEB30
+        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendGaugeMetric(){} // RVA: 0x7FFE810FB310
+        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendHistogramMetric(){} // RVA: 0x7FFE810FB310
+        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendSumMetric(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFE87AA70A0
     }
 
     public class MetricsFactory : Object
     {
-        public System.Collections.Generic.IReadOnlyDictionary`2<string,string> <CommonTags>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFAC96FEBF0
-        public void .ctor(){} // RVA: 0x7FFAC96FECD0
+        public void Create(){} // RVA: 0x7FFE87AA7160
+        public void .ctor(){} // RVA: 0x7FFE87AA7240
     }
 
 }

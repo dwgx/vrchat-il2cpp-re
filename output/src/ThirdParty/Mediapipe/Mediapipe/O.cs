@@ -7,44 +7,44 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class OutputStreamHandlerConfig : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.OutputStreamHandlerConfig> Parser;
-        public Google.Protobuf.UnknownFieldSet Descriptor; // 0x10
-        public string pb::Google.Protobuf.IMessage.Descriptor; // 0x8
-        public string OutputStreamHandler; // 0x18
-        public Google.Protobuf.FieldCodec`1<string> HasOutputStreamHandler; // 0x10
-        public Google.Protobuf.Collections.RepeatedField`1<string> InputSidePacket; // 0x20
-        public Mediapipe.MediaPipeOptions Options; // 0x28
+        public Google.Protobuf.MessageParser`1<Mediapipe.OutputStreamHandlerConfig> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public string OutputStreamHandlerDefaultValue; // 0x8
+        public string outputStreamHandler_; // 0x18
+        public Google.Protobuf.FieldCodec`1<string> _repeated_inputSidePacket_codec; // 0x10
+        public Google.Protobuf.Collections.RepeatedField`1<string> inputSidePacket_; // 0x20
+        public Mediapipe.MediaPipeOptions options_; // 0x28
 
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFAC82C46D0
-        public void get_Descriptor(){} // RVA: 0x7FFAC82C4730
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAC82C47F0
-        public void .ctor(){} // RVA: 0x7FFAC82C49A0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFAC82C4C00
-        public void get_OutputStreamHandler(){} // RVA: 0x7FFAC82C4C60
-        public void set_OutputStreamHandler(){} // RVA: 0x7FFAC82C4CD0
-        public void get_HasOutputStreamHandler(){} // RVA: 0x7FFAC4860B40
-        public void ClearOutputStreamHandler(){} // RVA: 0x7FFAC515CC20
-        public void get_InputSidePacket(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_Options(){} // RVA: 0x7FFAC2F4F130
-        public void set_Options(){} // RVA: 0x7FFAC2F22E90
-        public void Equals(){} // RVA: 0x7FFAC82C4F60 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC82C50C0
-        public void ToString(){} // RVA: 0x7FFAC82C5180
-        public void WriteTo(){} // RVA: 0x7FFAC81D0B60
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAC82C51D0
-        public void CalculateSize(){} // RVA: 0x7FFAC82C52E0
-        public void MergeFrom(){} // RVA: 0x7FFAC81D0EA0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAC82C5610
-        public void .cctor(){} // RVA: 0x7FFAC82C5790
+        public void get_Parser(){} // RVA: 0x7FFE8666DFF0
+        public void get_Descriptor(){} // RVA: 0x7FFE8666E050
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE8666E110
+        public void .ctor(){} // RVA: 0x7FFE8666E2C0 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFE8666E520
+        public void get_OutputStreamHandler(){} // RVA: 0x7FFE8666E580
+        public void set_OutputStreamHandler(){} // RVA: 0x7FFE8666E5F0
+        public void get_HasOutputStreamHandler(){} // RVA: 0x7FFE82AC8EE0
+        public void ClearOutputStreamHandler(){} // RVA: 0x7FFE8340D8D0
+        public void get_InputSidePacket(){} // RVA: 0x7FFE811290C0
+        public void get_Options(){} // RVA: 0x7FFE81129130
+        public void set_Options(){} // RVA: 0x7FFE810FCE90
+        public void Equals(){} // RVA: 0x7FFE8666E880 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE8666E9E0
+        public void ToString(){} // RVA: 0x7FFE8666EAA0
+        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8666EAF0
+        public void CalculateSize(){} // RVA: 0x7FFE8666EC00
+        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8666EF30
+        public void .cctor(){} // RVA: 0x7FFE8666F0B0
     }
 
     public class OutputStreamPoller`1 : MpResourceHandle
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70BF0
-        public void DeleteMpPtr(){} // RVA: 0x7FFAC2C70980
-        public void Next(){} // RVA: 0x7FFAC2C59F60
+        public void .ctor(){} // RVA: 0x7FFE80E46250
+        public void DeleteMpPtr(){} // RVA: 0x7FFE80E45FE0
+        public void Next(){} // RVA: 0x7FFE80E2F3B0
     }
 
 }

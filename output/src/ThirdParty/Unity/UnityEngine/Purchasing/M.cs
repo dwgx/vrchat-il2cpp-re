@@ -7,57 +7,48 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class MetricizedAppleStoreImpl : AppleStoreImpl
     {
-        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsService m_TelemetryMetricsService; // 0xD0
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC99D41C0
-        public void RetrieveProducts(){} // RVA: 0x7FFAC99D4230
-        public void Purchase(){} // RVA: 0x7FFAC99D4460
-        public void <>n__6(){} // RVA: 0x7FFAC99D4700
-        public void <>n__7(){} // RVA: 0x7FFAC99D4710
+        public void .ctor(){} // RVA: 0x7FFE87D7CA60
+        public void RetrieveProducts(){} // RVA: 0x7FFE87D7CAD0
+        public void Purchase(){} // RVA: 0x7FFE87D7CD00
+        public void <>n__6(){} // RVA: 0x7FFE87D7CFA0
+        public void <>n__7(){} // RVA: 0x7FFE87D7CFB0
     }
 
     public class MetricizedGooglePlayStoreExtensions : GooglePlayStoreExtensions
     {
-        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsService m_TelemetryMetricsService; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC99C4A80
+        public void .ctor(){} // RVA: 0x7FFE87D6D320
     }
 
     public class MetricizedGooglePlayStoreService : GooglePlayStoreService
     {
-        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsService m_TelemetryMetricsService; // 0x80
-        public UnityEngine.Purchasing.Telemetry.ITelemetryDiagnostics m_TelemetryDiagnostics; // 0x88
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC99BF580
-        public void DequeueQueryProducts(){} // RVA: 0x7FFAC99BF6D0
-        public void DequeueFetchPurchases(){} // RVA: 0x7FFAC99BF8B0
-        public void RetrieveProducts(){} // RVA: 0x7FFAC99BFA10
-        public void Purchase(){} // RVA: 0x7FFAC99BFD00
-        public void <>n__0(){} // RVA: 0x7FFAC99BFFA0
-        public void <>n__1(){} // RVA: 0x7FFAC99B8C90
-        public void <>n__2(){} // RVA: 0x7FFAC99BFFB0
+        public void .ctor(){} // RVA: 0x7FFE87D67E20
+        public void DequeueQueryProducts(){} // RVA: 0x7FFE87D67F70
+        public void DequeueFetchPurchases(){} // RVA: 0x7FFE87D68150
+        public void RetrieveProducts(){} // RVA: 0x7FFE87D682B0
+        public void Purchase(){} // RVA: 0x7FFE87D685A0
+        public void <>n__0(){} // RVA: 0x7FFE87D68840
+        public void <>n__1(){} // RVA: 0x7FFE87D61530
+        public void <>n__2(){} // RVA: 0x7FFE87D68850
     }
 
     public class MetricizedJsonStore : JSONStore
     {
-        public UnityEngine.Purchasing.Telemetry.ITelemetryMetricsService m_TelemetryMetricsService; // 0x48
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC99D52D0
-        public void RetrieveProducts(){} // RVA: 0x7FFAC99D5340
-        public void Purchase(){} // RVA: 0x7FFAC99D5570
-        public void <>n__0(){} // RVA: 0x7FFAC99D4700
-        public void <>n__1(){} // RVA: 0x7FFAC99D4710
+        public void .ctor(){} // RVA: 0x7FFE87D7DB70
+        public void RetrieveProducts(){} // RVA: 0x7FFE87D7DBE0
+        public void Purchase(){} // RVA: 0x7FFE87D7DE10
+        public void <>n__0(){} // RVA: 0x7FFE87D7CFA0
+        public void <>n__1(){} // RVA: 0x7FFE87D7CFB0
     }
 
     public class MiniJson : Object
     {
         // ── Methods ──
-        public void JsonEncode(){} // RVA: 0x7FFAC89E86C0
-        public void JsonDecode(){} // RVA: 0x7FFAC89E86D0
+        public void JsonEncode(){} // RVA: 0x7FFE86D91D40
+        public void JsonDecode(){} // RVA: 0x7FFE86D91D50
     }
 
 }

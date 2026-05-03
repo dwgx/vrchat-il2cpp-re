@@ -8,23 +8,20 @@ namespace ThirdParty.DotNet.System.Xml
     public class SafeAsciiDecoder : Decoder
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void GetCharCount(){} // RVA: 0x7FFAC91AA330
-        public void GetChars(){} // RVA: 0x7FFAC92210C0
-        public void Convert(){} // RVA: 0x7FFAC9221150
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetCharCount(){} // RVA: 0x7FFE87552AE0
+        public void GetChars(){} // RVA: 0x7FFE875C9830
+        public void Convert(){} // RVA: 0x7FFE875C98C0
     }
 
     public class SecureStringHasher : Object
     {
-        public HashCodeOfStringDelegate hashCodeDelegate;
-        public int hashCodeRandomizer; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC91AB870
-        public void Equals(){} // RVA: 0x7FFAC91AB890
-        public void GetHashCode(){} // RVA: 0x7FFAC91AB930
-        public void GetHashCodeOfString(){} // RVA: 0x7FFAC91ABA30
-        public void GetHashCodeDelegate(){} // RVA: 0x7FFAC91ABAB0
+        public void .ctor(){} // RVA: 0x7FFE87554020
+        public void Equals(){} // RVA: 0x7FFE87554040
+        public void GetHashCode(){} // RVA: 0x7FFE875540E0
+        public void GetHashCodeOfString(){} // RVA: 0x7FFE875541E0
+        public void GetHashCodeDelegate(){} // RVA: 0x7FFE87554260
     }
 
 }

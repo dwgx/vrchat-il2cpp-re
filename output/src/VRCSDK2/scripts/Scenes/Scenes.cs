@@ -8,7 +8,7 @@ namespace VRCSDK2.scripts.Scenes
     public class VRC_Panorama : VRC_Panorama
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBFF0F90
+        public void .ctor(){} // RVA: 0x7FFE8A451B00
     }
 
 }

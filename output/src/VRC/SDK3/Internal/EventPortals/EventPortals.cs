@@ -7,19 +7,18 @@ namespace VRC.SDK3.Internal.EventPortals
 {
     public class VRCEventPortalManager : MonoBehaviour
     {
-        public VRC.SDK3.Internal.EventPortals.Interfaces.IEventPortalManager Initialize; // 0x20
-        public System.Func`1<VRC.SDK3.Internal.EventPortals.Interfaces.IEventPortalManager> <Initialize>k__BackingField;
+        public VRC.SDK3.Internal.EventPortals.Interfaces.IEventPortalManager _eventPortalManager; // 0x20
 
         // ── Methods ──
-        public void get_Initialize(){} // RVA: 0x7FFAC9E71A30
-        public void set_Initialize(){} // RVA: 0x7FFAC9E71A70
-        public void Start(){} // RVA: 0x7FFAC9E71B10
-        public void RegisterPortal(){} // RVA: 0x7FFAC9E71C50 | overloaded x2
-        public void UnregisterPortal(){} // RVA: 0x7FFAC9E71D00 | overloaded x2
-        public void OnEnable(){} // RVA: 0x7FFAC9E71D60
-        public void OnDisable(){} // RVA: 0x7FFAC9E71DB0
-        public void OnDestroy(){} // RVA: 0x7FFAC9E71E00
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void get_Initialize(){} // RVA: 0x7FFE882243A0
+        public void set_Initialize(){} // RVA: 0x7FFE882243E0
+        public void Start(){} // RVA: 0x7FFE88224480
+        public void RegisterPortal(){} // RVA: 0x7FFE882245C0 | overloaded x2
+        public void UnregisterPortal(){} // RVA: 0x7FFE88224670 | overloaded x2
+        public void OnEnable(){} // RVA: 0x7FFE882246D0
+        public void OnDisable(){} // RVA: 0x7FFE88224720
+        public void OnDestroy(){} // RVA: 0x7FFE88224770
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
 }

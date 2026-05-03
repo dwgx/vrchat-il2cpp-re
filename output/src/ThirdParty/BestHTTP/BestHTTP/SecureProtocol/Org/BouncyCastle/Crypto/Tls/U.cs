@@ -7,34 +7,32 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 {
     public class UrlAndHash : Object
     {
-        public string Url; // 0x10
-        public byte[] Sha1Hash; // 0x18
+        public string mUrl; // 0x10
+        public byte[] mSha1Hash; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB6DA90
-        public void get_Url(){} // RVA: 0x7FFAC2F3C380
-        public void get_Sha1Hash(){} // RVA: 0x7FFAC2F247C0
-        public void Encode(){} // RVA: 0x7FFACBB6DBA0
-        public void Parse(){} // RVA: 0x7FFACBB6DCD0
+        public void .ctor(){} // RVA: 0x7FFE89FC70B0
+        public void get_Url(){} // RVA: 0x7FFE81116380
+        public void get_Sha1Hash(){} // RVA: 0x7FFE810FE7C0
+        public void Encode(){} // RVA: 0x7FFE89FC71C0
+        public void Parse(){} // RVA: 0x7FFE89FC72F0
     }
 
     public class UseSrtpData : Object
     {
-        public int[] ProtectionProfiles; // 0x10
-        public byte[] Mki; // 0x18
+        public int[] mProtectionProfiles; // 0x10
+        public byte[] mMki; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB6E010
-        public void get_ProtectionProfiles(){} // RVA: 0x7FFAC2F3C380
-        public void get_Mki(){} // RVA: 0x7FFAC2F247C0
+        public void .ctor(){} // RVA: 0x7FFE89FC7630
+        public void get_ProtectionProfiles(){} // RVA: 0x7FFE81116380
+        public void get_Mki(){} // RVA: 0x7FFE810FE7C0
     }
 
     public class UserMappingType : Object
     {
-        public byte upn_domain_hint;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
 }

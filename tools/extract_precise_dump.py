@@ -47,17 +47,20 @@ except ImportError:
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-DUMP_PATH = r"D:\WorkSpace\VRChat\VRChat_Data\VRChat_NEW_full.dmp"
-OUTPUT_DIR = r"D:\WorkSpace\VRChat\VRChat_Data\il2cpp_dump_tools\il2cpp_full_dump"
+DUMP_PATH = r"D:\Project\vrchat-il2cpp-re\dumps\VRChat_NEW_full.dmp"
+OUTPUT_DIR = r"D:\Project\vrchat-il2cpp-re\dumps\il2cpp_full_dump"
 
-# Managed class struct offsets
+# Managed class struct offsets (VRChat 2026-05-02 build, verified by manual probe)
+# Earlier offsets (Apr 18 build, kept for reference):
+#   OFF_NAME=0x10, OFF_CAST=0x48, OFF_METHODS=0x78, OFF_FIELDS=0xA8
+#   MI_NAME=0x28, FI_STRIDE=0x30, FI_NAME=0x10
 OFF_IMAGE    = 0x00
 OFF_NS       = 0x18
 OFF_ELEM     = 0x40
-OFF_CAST     = 0x48
-OFF_NAME     = 0x10
-OFF_METHODS  = 0x78
-OFF_FIELDS   = 0xA8
+OFF_CAST     = 0x80
+OFF_NAME     = 0x50
+OFF_FIELDS   = 0x10
+OFF_METHODS  = 0x90
 OFF_PARENT   = 0xA0
 OFF_NATIVE   = 0xD0
 OFF_MCNT     = 0x120  # u16 method_count
@@ -65,11 +68,11 @@ OFF_FCNT     = 0x122  # u16 field_count
 
 # MethodInfo offsets
 MI_POINTER   = 0x00
-MI_NAME      = 0x28
+MI_NAME      = 0x18
 
 # FieldInfo offsets
-FI_STRIDE    = 0x30
-FI_NAME      = 0x10
+FI_STRIDE    = 0x28
+FI_NAME      = 0x00
 
 # Heap scan range
 HEAP_VA_START = 0x30000000

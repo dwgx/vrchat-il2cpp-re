@@ -7,12 +7,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class Never`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> Instance;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70980
+        public void .ctor(){} // RVA: 0x7FFE80E45FE0
         public void GetAsyncEnumerator(){}
-        public void .cctor(){} // RVA: 0x7FFAC2C709B0
+        public void .cctor(){} // RVA: 0x7FFE80E46010
     }
 
 }

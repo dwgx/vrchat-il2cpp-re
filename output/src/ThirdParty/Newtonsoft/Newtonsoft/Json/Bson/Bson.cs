@@ -7,236 +7,215 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Bson
 {
     public class BsonArray : BsonToken
     {
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Bson.BsonToken> Type; // 0x20
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Bson.BsonToken> _children; // 0x20
 
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAC88153B0
-        public void get_Type(){} // RVA: 0x7FFAC88154B0
-        public void GetEnumerator(){} // RVA: 0x7FFAC88154C0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC88155B0
-        public void .ctor(){} // RVA: 0x7FFAC88155C0
+        public void Add(){} // RVA: 0x7FFE86BBEAA0
+        public void get_Type(){} // RVA: 0x7FFE86BBEBA0
+        public void GetEnumerator(){} // RVA: 0x7FFE86BBEBB0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE86BBECA0
+        public void .ctor(){} // RVA: 0x7FFE86BBECB0
     }
 
     public class BsonBinary : BsonValue
     {
-        public 0x6B1CCC48 BinaryType; // 0x30
+        public 0x665C650C _binaryType; // 0x30
 
         // ── Methods ──
-        public void get_BinaryType(){} // RVA: 0x7FFAC2F47450
-        public void set_BinaryType(){} // RVA: 0x7FFAC2F47460
-        public void .ctor(){} // RVA: 0x7FFAC8815A80
+        public void get_BinaryType(){} // RVA: 0x7FFE81121450
+        public void set_BinaryType(){} // RVA: 0x7FFE81121460
+        public void .ctor(){} // RVA: 0x7FFE86BBF170
     }
 
     public class BsonBinaryWriter : Object
     {
-        public System.Text.Encoding DateTimeKindHandling;
-        public System.IO.BinaryWriter _writer; // 0x10
-        public byte[] _largeByteBuffer; // 0x18
-        public 0x6B0BEA50 <DateTimeKindHandling>k__BackingField; // 0x20
+        public System.Text.Encoding Encoding;
 
         // ── Methods ──
-        public void get_DateTimeKindHandling(){} // RVA: 0x7FFAC30DBBE0
-        public void set_DateTimeKindHandling(){} // RVA: 0x7FFAC35DB7A0
-        public void .ctor(){} // RVA: 0x7FFAC880FDE0
-        public void Flush(){} // RVA: 0x7FFAC84AA500
-        public void Close(){} // RVA: 0x7FFAC880FE40
-        public void WriteToken(){} // RVA: 0x7FFAC880FE70
-        public void WriteTokenInternal(){} // RVA: 0x7FFAC880FEA0
-        public void WriteString(){} // RVA: 0x7FFAC8810E00
-        public void WriteUtf8Bytes(){} // RVA: 0x7FFAC8811030
-        public void CalculateSize(){} // RVA: 0x7FFAC88111F0 | overloaded x2
-        public void CalculateSizeWithLength(){} // RVA: 0x7FFAC88111E0
-        public void .cctor(){} // RVA: 0x7FFAC88118E0
+        public void get_DateTimeKindHandling(){} // RVA: 0x7FFE8151D690
+        public void set_DateTimeKindHandling(){} // RVA: 0x7FFE8170B670
+        public void .ctor(){} // RVA: 0x7FFE86BB9500
+        public void Flush(){} // RVA: 0x7FFE86853DC0
+        public void Close(){} // RVA: 0x7FFE81588760
+        public void WriteToken(){} // RVA: 0x7FFE86BB9560
+        public void WriteTokenInternal(){} // RVA: 0x7FFE86BB9590
+        public void WriteString(){} // RVA: 0x7FFE86BBA4F0
+        public void WriteUtf8Bytes(){} // RVA: 0x7FFE86BBA720
+        public void CalculateSize(){} // RVA: 0x7FFE86BBA8E0 | overloaded x2
+        public void CalculateSizeWithLength(){} // RVA: 0x7FFE86BBA8D0
+        public void .cctor(){} // RVA: 0x7FFE86BBAFD0
     }
 
     public class BsonBoolean : BsonValue
     {
-        public Newtonsoft.Json.Bson.BsonBoolean False;
-        public Newtonsoft.Json.Bson.BsonBoolean True; // 0x8
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8815810
-        public void .cctor(){} // RVA: 0x7FFAC88158B0
+        public void .ctor(){} // RVA: 0x7FFE86BBEF00
+        public void .cctor(){} // RVA: 0x7FFE86BBEFA0
     }
 
     public class BsonEmpty : BsonToken
     {
-        public Newtonsoft.Json.Bson.BsonToken Type;
-        public Newtonsoft.Json.Bson.BsonToken Undefined; // 0x8
-        public 0x6B1CD1C8 <Type>k__BackingField; // 0x20
+        public Newtonsoft.Json.Bson.BsonToken Null;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC300F9E0
-        public void get_Type(){} // RVA: 0x7FFAC300F9D0
-        public void .cctor(){} // RVA: 0x7FFAC8815680
+        public void .ctor(){} // RVA: 0x7FFE811E99E0
+        public void get_Type(){} // RVA: 0x7FFE811E99D0
+        public void .cctor(){} // RVA: 0x7FFE86BBED70
     }
 
     public class BsonObject : BsonToken
     {
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Bson.BsonProperty> Type; // 0x20
+        public System.Collections.Generic.List`1<Newtonsoft.Json.Bson.BsonProperty> _children; // 0x20
 
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAC8814F60
-        public void get_Type(){} // RVA: 0x7FFAC88151E0
-        public void GetEnumerator(){} // RVA: 0x7FFAC88151F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC88152E0
-        public void .ctor(){} // RVA: 0x7FFAC88152F0
+        public void Add(){} // RVA: 0x7FFE86BBE650
+        public void get_Type(){} // RVA: 0x7FFE86BBE8D0
+        public void GetEnumerator(){} // RVA: 0x7FFE86BBE8E0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE86BBE9D0
+        public void .ctor(){} // RVA: 0x7FFE86BBE9E0
     }
 
     public class BsonObjectId : Object
     {
-        public byte[] Value; // 0x10
+        public byte[] _value; // 0x10
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFAC2F3C380
-        public void .ctor(){} // RVA: 0x7FFAC88119C0
+        public void get_Value(){} // RVA: 0x7FFE81116380
+        public void .ctor(){} // RVA: 0x7FFE86BBB0B0
     }
 
     public class BsonProperty : Object
     {
-        public Newtonsoft.Json.Bson.BsonString Name; // 0x10
-        public Newtonsoft.Json.Bson.BsonToken Value; // 0x18
+        public Newtonsoft.Json.Bson.BsonString _name; // 0x10
+        public Newtonsoft.Json.Bson.BsonToken _value; // 0x18
 
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFAC2F3C380
-        public void set_Name(){} // RVA: 0x7FFAC2F22E30
-        public void get_Value(){} // RVA: 0x7FFAC2F247C0
-        public void set_Value(){} // RVA: 0x7FFAC2F87E80
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_Name(){} // RVA: 0x7FFE81116380
+        public void set_Name(){} // RVA: 0x7FFE810FCE30
+        public void get_Value(){} // RVA: 0x7FFE810FE7C0
+        public void set_Value(){} // RVA: 0x7FFE81161E80
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class BsonReader : JsonReader
     {
-        public int JsonNet35BinaryCompatibility;
-        public byte[] ReadRootValueAsArray;
-        public byte[] DateTimeKindHandling; // 0x8
-        public byte[] SeqRange3; // 0x10
-        public byte[] SeqRange4; // 0x18
-        public System.IO.BinaryReader _reader; // 0x78
-        public System.Collections.Generic.List`1<ContainerContext> _stack; // 0x80
-        public byte[] _byteBuffer; // 0x88
-        public char[] _charBuffer; // 0x90
-        public 0x6B1CD1C8 _currentElementType; // 0x98
-        public 0x6B1CCD50 _bsonReaderState; // 0x9C
-        public ContainerContext _currentContext; // 0xA0
-        public bool _readRootValueAsArray; // 0xA8
-        public bool _jsonNet35BinaryCompatibility; // 0xA9
-        public 0x6B0BEA50 _dateTimeKindHandling; // 0xAC
+        public int MaxCharBytesSize;
+        public byte[] SeqRange1;
+        public byte[] SeqRange2; // 0x8
 
         // ── Methods ──
-        public void get_JsonNet35BinaryCompatibility(){} // RVA: 0x7FFAC3CEFA00
-        public void set_JsonNet35BinaryCompatibility(){} // RVA: 0x7FFAC8811B00
-        public void get_ReadRootValueAsArray(){} // RVA: 0x7FFAC3141F10
-        public void set_ReadRootValueAsArray(){} // RVA: 0x7FFAC313FE60
-        public void get_DateTimeKindHandling(){} // RVA: 0x7FFAC6539490
-        public void set_DateTimeKindHandling(){} // RVA: 0x7FFAC65394A0
-        public void .ctor(){} // RVA: 0x7FFAC8811D80 | overloaded x4
-        public void ReadElement(){} // RVA: 0x7FFAC8811F70
-        public void Read(){} // RVA: 0x7FFAC8811FC0
-        public void Close(){} // RVA: 0x7FFAC8812190
-        public void ReadCodeWScope(){} // RVA: 0x7FFAC8812220
-        public void ReadReference(){} // RVA: 0x7FFAC8812770
-        public void ReadNormal(){} // RVA: 0x7FFAC8812DC0
-        public void PopContext(){} // RVA: 0x7FFAC8813130
-        public void PushContext(){} // RVA: 0x7FFAC88132D0
-        public void ReadByte(){} // RVA: 0x7FFAC88133D0
-        public void ReadType(){} // RVA: 0x7FFAC8814BF0 | overloaded x2
-        public void ReadBinary(){} // RVA: 0x7FFAC8813F50
-        public void ReadString(){} // RVA: 0x7FFAC8814050
-        public void ReadLengthString(){} // RVA: 0x7FFAC8814390
-        public void GetString(){} // RVA: 0x7FFAC8814420
-        public void GetLastFullCharStop(){} // RVA: 0x7FFAC8814750
-        public void BytesInSequence(){} // RVA: 0x7FFAC88147D0
-        public void EnsureBuffers(){} // RVA: 0x7FFAC88149C0
-        public void ReadDouble(){} // RVA: 0x7FFAC8814B30
-        public void ReadInt32(){} // RVA: 0x7FFAC8814B70
-        public void ReadInt64(){} // RVA: 0x7FFAC8814BB0
-        public void MovePosition(){} // RVA: 0x7FFAC8814C30
-        public void ReadBytes(){} // RVA: 0x7FFAC8814C50
-        public void .cctor(){} // RVA: 0x7FFAC8814C90
+        public void get_JsonNet35BinaryCompatibility(){} // RVA: 0x7FFE81F57AF0
+        public void set_JsonNet35BinaryCompatibility(){} // RVA: 0x7FFE86BBB1F0
+        public void get_ReadRootValueAsArray(){} // RVA: 0x7FFE813A1D80
+        public void set_ReadRootValueAsArray(){} // RVA: 0x7FFE813AB660
+        public void get_DateTimeKindHandling(){} // RVA: 0x7FFE848BEEF0
+        public void set_DateTimeKindHandling(){} // RVA: 0x7FFE848BEF00
+        public void .ctor(){} // RVA: 0x7FFE86BBB470 | overloaded x4
+        public void ReadElement(){} // RVA: 0x7FFE86BBB660
+        public void Read(){} // RVA: 0x7FFE86BBB6B0
+        public void Close(){} // RVA: 0x7FFE86BBB880
+        public void ReadCodeWScope(){} // RVA: 0x7FFE86BBB910
+        public void ReadReference(){} // RVA: 0x7FFE86BBBE60
+        public void ReadNormal(){} // RVA: 0x7FFE86BBC4B0
+        public void PopContext(){} // RVA: 0x7FFE86BBC820
+        public void PushContext(){} // RVA: 0x7FFE86BBC9C0
+        public void ReadByte(){} // RVA: 0x7FFE86BBCAC0
+        public void ReadType(){} // RVA: 0x7FFE86BBE2E0 | overloaded x2
+        public void ReadBinary(){} // RVA: 0x7FFE86BBD640
+        public void ReadString(){} // RVA: 0x7FFE86BBD740
+        public void ReadLengthString(){} // RVA: 0x7FFE86BBDA80
+        public void GetString(){} // RVA: 0x7FFE86BBDB10
+        public void GetLastFullCharStop(){} // RVA: 0x7FFE86BBDE40
+        public void BytesInSequence(){} // RVA: 0x7FFE86BBDEC0
+        public void EnsureBuffers(){} // RVA: 0x7FFE86BBE0B0
+        public void ReadDouble(){} // RVA: 0x7FFE86BBE220
+        public void ReadInt32(){} // RVA: 0x7FFE86BBE260
+        public void ReadInt64(){} // RVA: 0x7FFE86BBE2A0
+        public void MovePosition(){} // RVA: 0x7FFE86BBE320
+        public void ReadBytes(){} // RVA: 0x7FFE86BBE340
+        public void .cctor(){} // RVA: 0x7FFE86BBE380
     }
 
     public class BsonRegex : BsonToken
     {
-        public Newtonsoft.Json.Bson.BsonString Pattern; // 0x20
-        public Newtonsoft.Json.Bson.BsonString Options; // 0x28
+        public Newtonsoft.Json.Bson.BsonString _pattern; // 0x20
+        public Newtonsoft.Json.Bson.BsonString _options; // 0x28
+        public object field_2; // 0x2BC
 
         // ── Methods ──
-        public void get_Pattern(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_Pattern(){} // RVA: 0x7FFAC2F4F0D0
-        public void get_Options(){} // RVA: 0x7FFAC2F4F130
-        public void set_Options(){} // RVA: 0x7FFAC2F22E90
-        public void .ctor(){} // RVA: 0x7FFAC8815AF0
-        public void get_Type(){} // RVA: 0x7FFAC3197790
+        public void get_Pattern(){} // RVA: 0x7FFE811290C0
+        public void set_Pattern(){} // RVA: 0x7FFE811290D0
+        public void get_Options(){} // RVA: 0x7FFE81129130
+        public void set_Options(){} // RVA: 0x7FFE810FCE90
+        public void .ctor(){} // RVA: 0x7FFE86BBF1E0
+        public void get_Type(){} // RVA: 0x7FFE813FE1F0
     }
 
     public class BsonString : BsonValue
     {
-        public int ByteCount; // 0x30
-        public bool IncludeLength; // 0x34
+        public int _byteCount; // 0x30
+        public bool _includeLength; // 0x34
 
         // ── Methods ──
-        public void get_ByteCount(){} // RVA: 0x7FFAC2F7CCD0
-        public void set_ByteCount(){} // RVA: 0x7FFAC2F7CCE0
-        public void get_IncludeLength(){} // RVA: 0x7FFAC2F57C20
-        public void .ctor(){} // RVA: 0x7FFAC8815A10
+        public void get_ByteCount(){} // RVA: 0x7FFE81156CD0
+        public void set_ByteCount(){} // RVA: 0x7FFE81156CE0
+        public void get_IncludeLength(){} // RVA: 0x7FFE81131C20
+        public void .ctor(){} // RVA: 0x7FFE86BBF100
     }
 
     public class BsonToken : Object
     {
-        public Newtonsoft.Json.Bson.BsonToken Type; // 0x10
-        public int Parent; // 0x18
+        public Newtonsoft.Json.Bson.BsonToken _parent; // 0x10
+        public int _calculatedSize; // 0x18
+        public object field_2; // 0x2B1
 
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x7FFAC2C59D00
-        public void get_Parent(){} // RVA: 0x7FFAC2F3C380
-        public void set_Parent(){} // RVA: 0x7FFAC2F22E30
-        public void get_CalculatedSize(){} // RVA: 0x7FFAC3157800
-        public void set_CalculatedSize(){} // RVA: 0x7FFAC392CD10
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_Type(){} // RVA: 0x7FFE80E2F150
+        public void get_Parent(){} // RVA: 0x7FFE81116380
+        public void set_Parent(){} // RVA: 0x7FFE810FCE30
+        public void get_CalculatedSize(){} // RVA: 0x7FFE813DB630
+        public void set_CalculatedSize(){} // RVA: 0x7FFE8144DF00
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class BsonValue : BsonToken
     {
-        public object Value; // 0x20
-        public 0x6B1CD1C8 Type; // 0x28
+        public object _value; // 0x20
+        public 0x665C6A8C _type; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC88157B0
-        public void get_Value(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_Type(){} // RVA: 0x7FFAC30F6BA0
+        public void .ctor(){} // RVA: 0x7FFE86BBEEA0
+        public void get_Value(){} // RVA: 0x7FFE811290C0
+        public void get_Type(){} // RVA: 0x7FFE815F1380
     }
 
     public class BsonWriter : JsonWriter
     {
-        public Newtonsoft.Json.Bson.BsonBinaryWriter DateTimeKindHandling; // 0x60
-        public Newtonsoft.Json.Bson.BsonToken _root; // 0x68
-        public Newtonsoft.Json.Bson.BsonToken _parent; // 0x70
-        public string _propertyName; // 0x78
+        public Newtonsoft.Json.Bson.BsonBinaryWriter _writer; // 0x60
 
         // ── Methods ──
-        public void get_DateTimeKindHandling(){} // RVA: 0x7FFAC8815CC0
-        public void set_DateTimeKindHandling(){} // RVA: 0x7FFAC8815CE0
-        public void .ctor(){} // RVA: 0x7FFAC8815EE0 | overloaded x2
-        public void Flush(){} // RVA: 0x7FFAC8816080
-        public void WriteEnd(){} // RVA: 0x7FFAC88160C0
-        public void WriteComment(){} // RVA: 0x7FFAC88161B0
-        public void WriteStartConstructor(){} // RVA: 0x7FFAC8816200
-        public void WriteRaw(){} // RVA: 0x7FFAC8816250
-        public void WriteRawValue(){} // RVA: 0x7FFAC88162A0
-        public void WriteStartArray(){} // RVA: 0x7FFAC88162F0
-        public void WriteStartObject(){} // RVA: 0x7FFAC8816410
-        public void WritePropertyName(){} // RVA: 0x7FFAC8816530
-        public void Close(){} // RVA: 0x7FFAC8816610
-        public void AddParent(){} // RVA: 0x7FFAC8816660
-        public void RemoveParent(){} // RVA: 0x7FFAC88166D0
-        public void AddValue(){} // RVA: 0x7FFAC8816740
-        public void AddToken(){} // RVA: 0x7FFAC8816800
-        public void WriteValue(){} // RVA: 0x7FFAC8817D10 | overloaded x21
-        public void WriteNull(){} // RVA: 0x7FFAC8816E30
-        public void WriteUndefined(){} // RVA: 0x7FFAC8816EB0
-        public void WriteObjectId(){} // RVA: 0x7FFAC8817E80
-        public void WriteRegex(){} // RVA: 0x7FFAC8817FA0
+        public void get_DateTimeKindHandling(){} // RVA: 0x7FFE86BBF3B0
+        public void set_DateTimeKindHandling(){} // RVA: 0x7FFE86BBF3D0
+        public void .ctor(){} // RVA: 0x7FFE86BBF5D0 | overloaded x2
+        public void Flush(){} // RVA: 0x7FFE86BBF770
+        public void WriteEnd(){} // RVA: 0x7FFE86BBF7B0
+        public void WriteComment(){} // RVA: 0x7FFE86BBF8A0
+        public void WriteStartConstructor(){} // RVA: 0x7FFE86BBF8F0
+        public void WriteRaw(){} // RVA: 0x7FFE86BBF940
+        public void WriteRawValue(){} // RVA: 0x7FFE86BBF990
+        public void WriteStartArray(){} // RVA: 0x7FFE86BBF9E0
+        public void WriteStartObject(){} // RVA: 0x7FFE86BBFB00
+        public void WritePropertyName(){} // RVA: 0x7FFE86BBFC20
+        public void Close(){} // RVA: 0x7FFE86BBFD00
+        public void AddParent(){} // RVA: 0x7FFE86BBFD50
+        public void RemoveParent(){} // RVA: 0x7FFE86BBFDC0
+        public void AddValue(){} // RVA: 0x7FFE86BBFE30
+        public void AddToken(){} // RVA: 0x7FFE86BBFEF0
+        public void WriteValue(){} // RVA: 0x7FFE86BC1400 | overloaded x21
+        public void WriteNull(){} // RVA: 0x7FFE86BC0520
+        public void WriteUndefined(){} // RVA: 0x7FFE86BC05A0
+        public void WriteObjectId(){} // RVA: 0x7FFE86BC1570
+        public void WriteRegex(){} // RVA: 0x7FFE86BC1690
     }
 
 }

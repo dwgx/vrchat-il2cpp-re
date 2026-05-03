@@ -7,70 +7,63 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class LegacyAnalyticsAdapter : Object
     {
-        public UnityEngine.Purchasing.ILegacyUnityAnalytics m_LegacyAnalytics; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void SendTransactionEvent(){} // RVA: 0x7FFAC99AA720
-        public void SendTransactionFailedEvent(){} // RVA: 0x7FFAC99AA870
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void SendTransactionEvent(){} // RVA: 0x7FFE87D52FC0
+        public void SendTransactionFailedEvent(){} // RVA: 0x7FFE87D53110
     }
 
     public class LegacyAnalyticsWrapper : Object
     {
-        public bool m_AnalyticsAdapter; // 0x10
-        public UnityEngine.Purchasing.IAnalyticsAdapter m_LegacyAdapter; // 0x18
-        public UnityEngine.Purchasing.IAnalyticsAdapter m_EmptyAdapter; // 0x20
+        public bool m_Enabled; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC99AAB00
-        public void SendTransactionEvent(){} // RVA: 0x7FFAC99AACE0
-        public void SendTransactionFailedEvent(){} // RVA: 0x7FFAC99AAD50
-        public void OnUpdatedCoreServicesEnvironment(){} // RVA: 0x7FFAC99AADD0
-        public void get_m_AnalyticsAdapter(){} // RVA: 0x7FFAC99AAE80
+        public void .ctor(){} // RVA: 0x7FFE87D533A0
+        public void SendTransactionEvent(){} // RVA: 0x7FFE87D53580
+        public void SendTransactionFailedEvent(){} // RVA: 0x7FFE87D535F0
+        public void OnUpdatedCoreServicesEnvironment(){} // RVA: 0x7FFE87D53670
+        public void get_m_AnalyticsAdapter(){} // RVA: 0x7FFE87D53720
     }
 
     public class LegacyUnityAnalytics : Object
     {
         // ── Methods ──
-        public void SendTransactionEvent(){} // RVA: 0x7FFAC99AAE90
-        public void SendCustomEvent(){} // RVA: 0x7FFAC99AAEE0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void SendTransactionEvent(){} // RVA: 0x7FFE87D53730
+        public void SendCustomEvent(){} // RVA: 0x7FFE87D53780
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class LifecycleNotifier : MonoBehaviour
     {
-        public System.Action OnDestroyCallback; // 0x20
-
         // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x7FFAC32032C0
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void OnDestroy(){} // RVA: 0x7FFE8148FC70
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class ListExtension : Object
     {
         // ── Methods ──
-        public void ToJava(){} // RVA: 0x7FFAC2C58F80
-        public void ToJavaArray(){} // RVA: 0x7FFAC2C58F80
+        public void ToJava(){} // RVA: 0x7FFE80E2E3D0
+        public void ToJavaArray(){} // RVA: 0x7FFE80E2E3D0
     }
 
     public class LocalizedProductDescription : Object
     {
-        public 0x6B27D698 Title; // 0x10
-        public string Description; // 0x18
-        public string description; // 0x20
+        public 0x66677484 googleLocale; // 0x10
+        public string title; // 0x18
 
         // ── Methods ──
-        public void get_Title(){} // RVA: 0x7FFAC99DA270
-        public void get_Description(){} // RVA: 0x7FFAC99DA280
-        public void DecodeNonLatinCharacters(){} // RVA: 0x7FFAC99DA290
-        public void .ctor(){} // RVA: 0x7FFAC99DA440
+        public void get_Title(){} // RVA: 0x7FFE87D82B10
+        public void get_Description(){} // RVA: 0x7FFE87D82B20
+        public void DecodeNonLatinCharacters(){} // RVA: 0x7FFE87D82B30
+        public void .ctor(){} // RVA: 0x7FFE87D82CE0
     }
 
     public class LoggerExtensions : Object
     {
         // ── Methods ──
-        public void LogIAPWarning(){} // RVA: 0x7FFAC99B1D70
-        public void LogIAPError(){} // RVA: 0x7FFAC99B1DF0
+        public void LogIAPWarning(){} // RVA: 0x7FFE87D5A610
+        public void LogIAPError(){} // RVA: 0x7FFE87D5A690
     }
 
 }

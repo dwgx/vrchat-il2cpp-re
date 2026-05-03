@@ -7,10 +7,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class OrgScopedID : Object
     {
-        public ulong ID; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8885F00
+        public void .ctor(){} // RVA: 0x7FFE86C2F5F0
     }
 
 }

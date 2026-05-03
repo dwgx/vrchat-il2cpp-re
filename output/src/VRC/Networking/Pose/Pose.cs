@@ -1,82 +1,75 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Networking.Pose
 // Classes: 4
-// Methods: 45
+// Methods: 43
 
 namespace VRC.Networking.Pose
 {
     public class PoseAV2Update : PoseRemoteUpdate
     {
-        public VRC.Profiling.ProfilerMarker ÎÏÎÏÌÌÌÌÌÍÎÎÍÍÎÎÎÌÏÍÏÎÍ; // 0x28
-
         // ── Methods ──
-        public void SampleProfilerBegin(){} // RVA: 0x7FFAC31E89D0
-        public void CaptureProfilerSample(){} // RVA: 0x7FFAC31E89D0
-        public void DoInitializeArray(){} // RVA: 0x7FFAC31E89D0
-        public void .ctor(){} // RVA: 0x7FFAC31E8AD0
-        public void Initialize(){} // RVA: 0x7FFAC31E89D0
-        public void BeginProfilerSection(){} // RVA: 0x7FFAC31E89D0
-        public void LateUpdate(){} // RVA: 0x7FFAC31E89D0
-        public void Start(){} // RVA: 0x7FFAC31E89D0
-        public void Update(){} // RVA: 0x7FFAC31E89D0
-        public void InitiateProfilerProbe(){} // RVA: 0x7FFAC31E8BC0
+        public void LateUpdate(){} // RVA: 0x7FFE81475720
+        public void Start(){} // RVA: 0x7FFE81475720
+        public void .ctor(){} // RVA: 0x7FFE81475820
+        public void Initialize(){} // RVA: 0x7FFE81475720
+        // ── Unresolved (hash) ──
+        public void m_C61(){} // RVA: 0x7FFE81475720
+        public void m_334(){} // RVA: 0x7FFE81475720
+        public void m_897(){} // RVA: 0x7FFE81475720
+        public void m_763(){} // RVA: 0x7FFE81475910
+        public void m_051(){} // RVA: 0x7FFE81475720
+        public void m_A33(){} // RVA: 0x7FFE81475720
     }
 
     public class PoseAV3Update : PoseRemoteUpdate
     {
-        public VRC.Profiling.ProfilerMarker ÎÏÎÏÌÌÌÌÌÍÎÎÍÍÎÎÎÌÏÍÏÎÍ; // 0x28
-
         // ── Methods ──
-        public void UpdatePoseProfile(){} // RVA: 0x7FFAC31E8D30
-        public void BeginPoseUpdateProfilingSample(){} // RVA: 0x7FFAC31E8D30
-        public void Update(){} // RVA: 0x7FFAC31E8D30
-        public void .ctor(){} // RVA: 0x7FFAC31E8E10
-        public void LateUpdate(){} // RVA: 0x7FFAC31E8F00
-        public void Start(){} // RVA: 0x7FFAC31E8F00
-        public void Start_102293102DC6(){} // RVA: 0x7FFAC31E8F00
-        public void IsInvoking(){} // RVA: 0x7FFAC31E8FE0
-        public void Start_7B4B723BF65B(){} // RVA: 0x7FFAC31E8F00
-        public void DoInitializeArray(){} // RVA: 0x7FFAC31E8F00
-        public void Start_14A2EE7C9AC8(){} // RVA: 0x7FFAC31E8F00
+        public void OnDestroy(){} // RVA: 0x7FFE81475A80
+        public void .ctor(){} // RVA: 0x7FFE81475CD0
+        public void LateUpdate(){} // RVA: 0x7FFE81475DC0
+        public void Update(){} // RVA: 0x7FFE81475A80
+        // ── Unresolved (hash) ──
+        public void m_763(){} // RVA: 0x7FFE81475B60
+        public void m_CA2(){} // RVA: 0x7FFE81475A80
+        public void m_D96(){} // RVA: 0x7FFE81475A80
+        public void m_C61(){} // RVA: 0x7FFE81475DC0
+        public void m_C29(){} // RVA: 0x7FFE81475A80
+        public void m_814(){} // RVA: 0x7FFE81475A80
+        public void m_11F(){} // RVA: 0x7FFE81475A80
     }
 
     public class PoseLocalUpdate : MonoBehaviour
     {
-        public ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ ÌÌÌÍÏÍÎÍÏÏÌÌÍÎÎÏÍÎÎÍÍÍÏ; // 0x20
-        public VRC.Profiling.ProfilerMarker ÍÏÌÏÍÌÌÎÌÌÎÎÍÌÎÌÎÎÍÎÎÍÍ; // 0x28
-
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFAC31E9150
-        public void RaiseCancellation(){} // RVA: 0x7FFAC31E9280
-        public void IsInvoking(){} // RVA: 0x7FFAC31E93B0
-        public void CancelInvoke(){} // RVA: 0x7FFAC31E94E0
-        public void Invoke(){} // RVA: 0x7FFAC31E9610
-        public void InvokeRepeating(){} // RVA: 0x7FFAC31E9740
-        public void .ctor(){} // RVA: 0x7FFAC31E9870
-        public void LateUpdate(){} // RVA: 0x7FFAC31E9960
-        public void StartCoroutine(){} // RVA: 0x7FFAC31E9A90
-        public void OnDestroy(){} // RVA: 0x7FFAC31E9BC0
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE81475EA0
+        public void RaiseCancellation(){} // RVA: 0x7FFE81475FD0
+        public void IsInvoking(){} // RVA: 0x7FFE81476100
+        public void CancelInvoke(){} // RVA: 0x7FFE81476230
+        public void Invoke(){} // RVA: 0x7FFE81476360
+        public void InvokeRepeating(){} // RVA: 0x7FFE81476490
+        public void .ctor(){} // RVA: 0x7FFE814765C0
+        public void LateUpdate(){} // RVA: 0x7FFE814766B0
     }
 
     public class PoseRemoteUpdate : MonoBehaviour
     {
-        public ÏÎÍÏÏÌÏÏÎÎÍÍÍÏÏÌÎÌÍÎÎÍÏ _poseRemoteUpdate; // 0x20
+        public ÎÏÍÌÌÍÍÎÏÌÌÏÏÍÍÎÎÏÏÍÍÏÌ _poseRemoteUpdate; // 0x20
 
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFAC31E8580
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
-        public void Initialize(){} // RVA: 0x7FFAC31E85D0
-        public void OnDestroy(){} // RVA: 0x7FFAC31E85D0
-        public void Invoke(){} // RVA: 0x7FFAC31E8620
-        public void InvokeRepeating(){} // RVA: 0x7FFAC31E8630
-        public void CancelInvoke(){} // RVA: 0x7FFAC31E85D0
-        public void IsInvoking(){} // RVA: 0x7FFAC31E87A0
-        public void Start(){} // RVA: 0x7FFAC31E8620
-        public void StartCoroutine(){} // RVA: 0x7FFAC31E87A0
-        public void OnCollisionExit(){} // RVA: 0x7FFAC31E8580
-        public void StartCoroutine_Auto(){} // RVA: 0x7FFAC31E87C0
-        public void StopCoroutine(){} // RVA: 0x7FFAC31E8970
-        public void OnTriggerExit(){} // RVA: 0x7FFAC31E89A0
+        public void OnDestroy(){} // RVA: 0x7FFE81475000
+        public void RaiseCancellation(){} // RVA: 0x7FFE81475000
+        public void Start(){} // RVA: 0x7FFE81475050
+        public void CancelInvoke(){} // RVA: 0x7FFE81475060
+        public void Invoke(){} // RVA: 0x7FFE81475210
+        public void InvokeRepeating(){} // RVA: 0x7FFE81475240
+        public void OnCollisionStay(){} // RVA: 0x7FFE814753B0
+        public void IsInvoking(){} // RVA: 0x7FFE81475210
+        public void StartCoroutine(){} // RVA: 0x7FFE81475000
+        public void OnTriggerStay(){} // RVA: 0x7FFE81475520
+        public void OnTriggerExit(){} // RVA: 0x7FFE81475550
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFE81475550
+        public void StopCoroutine(){} // RVA: 0x7FFE81475570
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
 }

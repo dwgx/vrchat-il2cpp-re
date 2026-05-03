@@ -7,7 +7,6 @@ namespace ThirdParty.Other.OVR.OpenVR
 {
     public class SpatialAnchorPose_t : ValueType
     {
-        public OVR.OpenVR.HmdMatrix34_t mAnchorToAbsoluteTracking; // 0x10
     }
 
 }

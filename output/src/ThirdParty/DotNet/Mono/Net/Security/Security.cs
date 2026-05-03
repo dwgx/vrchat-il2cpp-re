@@ -8,241 +8,226 @@ namespace ThirdParty.DotNet.Mono.Net.Security
     public class AsyncHandshakeRequest : AsyncProtocolRequest
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8E20AE0
-        public void Run(){} // RVA: 0x7FFAC8E20AF0
+        public void .ctor(){} // RVA: 0x7FFE871C8F10
+        public void Run(){} // RVA: 0x7FFE871C8F20
     }
 
     public class AsyncProtocolRequest : Object
     {
-        public Mono.Net.Security.MobileAuthenticatedStream Parent; // 0x10
-        public bool RunSynchronously; // 0x18
-        public int Name; // 0x1C
-        public int UserResult; // 0x20
-        public int RequestedSize; // 0x24
-        public int WriteRequested; // 0x28
-        public object locker; // 0x30
-        public int next_id;
+        public Mono.Net.Security.MobileAuthenticatedStream _parent; // 0x10
+        public bool _runSynchronously; // 0x18
+        public int _userResult; // 0x1C
+        public int Started; // 0x20
 
         // ── Methods ──
-        public void get_Parent(){} // RVA: 0x7FFAC2F3C380
-        public void get_RunSynchronously(){} // RVA: 0x7FFAC2F3C4E0
-        public void get_Name(){} // RVA: 0x7FFAC44375F0
-        public void get_UserResult(){} // RVA: 0x7FFAC44357F0
-        public void set_UserResult(){} // RVA: 0x7FFAC44474D0
-        public void .ctor(){} // RVA: 0x7FFAC8E1F310
-        public void RequestRead(){} // RVA: 0x7FFAC8E1F410
-        public void RequestWrite(){} // RVA: 0x7FFAC8E1F550
-        public void StartOperation(){} // RVA: 0x7FFAC8E1F560
-        public void ProcessOperation(){} // RVA: 0x7FFAC8E1F760
-        public void InnerRead(){} // RVA: 0x7FFAC8E1F980
-        public void Run(){} // RVA: 0x7FFAC2C600D0
-        public void ToString(){} // RVA: 0x7FFAC8E1FB80
+        public void get_Parent(){} // RVA: 0x7FFE81116380
+        public void get_RunSynchronously(){} // RVA: 0x7FFE811164E0
+        public void get_Name(){} // RVA: 0x7FFE82709E10
+        public void get_UserResult(){} // RVA: 0x7FFE82707EE0
+        public void set_UserResult(){} // RVA: 0x7FFE82717690
+        public void .ctor(){} // RVA: 0x7FFE871C7740
+        public void RequestRead(){} // RVA: 0x7FFE871C7840
+        public void RequestWrite(){} // RVA: 0x7FFE871C7980
+        public void StartOperation(){} // RVA: 0x7FFE871C7990
+        public void ProcessOperation(){} // RVA: 0x7FFE871C7B90
+        public void InnerRead(){} // RVA: 0x7FFE871C7DB0
+        public void Run(){} // RVA: 0x7FFE80E35520
+        public void ToString(){} // RVA: 0x7FFE871C7FB0
     }
 
     public class AsyncProtocolResult : Object
     {
-        public int UserResult; // 0x10
-        public System.Runtime.ExceptionServices.ExceptionDispatchInfo Error; // 0x18
+        public int _userResult; // 0x10
+        public System.Runtime.ExceptionServices.ExceptionDispatchInfo _error; // 0x18
 
         // ── Methods ──
-        public void get_UserResult(){} // RVA: 0x7FFAC2F6E5C0
-        public void get_Error(){} // RVA: 0x7FFAC2F247C0
-        public void .ctor(){} // RVA: 0x7FFAC2F87E80 | overloaded x2
+        public void get_UserResult(){} // RVA: 0x7FFE811485C0
+        public void get_Error(){} // RVA: 0x7FFE810FE7C0
+        public void .ctor(){} // RVA: 0x7FFE81161E80 | overloaded x2
     }
 
     public class AsyncReadOrWriteRequest : AsyncProtocolRequest
     {
-        public Mono.Net.Security.BufferOffsetSize UserBuffer; // 0x38
-        public int CurrentSize; // 0x40
+        public Mono.Net.Security.BufferOffsetSize _userBuffer; // 0x38
+        public int _currentSize; // 0x40
 
         // ── Methods ──
-        public void get_UserBuffer(){} // RVA: 0x7FFAC31D0140
-        public void get_CurrentSize(){} // RVA: 0x7FFAC2FC2080
-        public void set_CurrentSize(){} // RVA: 0x7FFAC2FC2090
-        public void .ctor(){} // RVA: 0x7FFAC8E20B20
-        public void ToString(){} // RVA: 0x7FFAC8E20C00
+        public void get_UserBuffer(){} // RVA: 0x7FFE8143BA80
+        public void get_CurrentSize(){} // RVA: 0x7FFE8119C080
+        public void set_CurrentSize(){} // RVA: 0x7FFE8119C090
+        public void .ctor(){} // RVA: 0x7FFE871C8F50
+        public void ToString(){} // RVA: 0x7FFE871C9030
     }
 
     public class AsyncReadRequest : AsyncReadOrWriteRequest
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8E20CC0
-        public void Run(){} // RVA: 0x7FFAC8E20CD0
+        public void .ctor(){} // RVA: 0x7FFE871C90F0
+        public void Run(){} // RVA: 0x7FFE871C9100
     }
 
     public class AsyncWriteRequest : AsyncReadOrWriteRequest
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8E20CC0
-        public void Run(){} // RVA: 0x7FFAC8E20D50
+        public void .ctor(){} // RVA: 0x7FFE871C90F0
+        public void Run(){} // RVA: 0x7FFE871C9180
     }
 
     public class BufferOffsetSize : Object
     {
-        public byte[] EndOffset; // 0x10
-        public int Remaining; // 0x18
-        public int Size; // 0x1C
-        public int TotalBytes; // 0x20
-        public bool Complete; // 0x24
+        public byte[] Buffer; // 0x10
+        public int Offset; // 0x18
 
         // ── Methods ──
-        public void get_EndOffset(){} // RVA: 0x7FFAC8E1ECD0
-        public void get_Remaining(){} // RVA: 0x7FFAC8E1ECE0
-        public void .ctor(){} // RVA: 0x7FFAC8E1ED10
-        public void ToString(){} // RVA: 0x7FFAC8E1EE40
+        public void get_EndOffset(){} // RVA: 0x7FFE871C7100
+        public void get_Remaining(){} // RVA: 0x7FFE871C7110
+        public void .ctor(){} // RVA: 0x7FFE871C7140
+        public void ToString(){} // RVA: 0x7FFE871C7270
     }
 
     public class BufferOffsetSize2 : BufferOffsetSize
     {
-        public int InitialSize; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8E1EF10
-        public void Reset(){} // RVA: 0x7FFAC8E1F020
-        public void MakeRoom(){} // RVA: 0x7FFAC8E1F0C0
-        public void AppendData(){} // RVA: 0x7FFAC8E1F1D0
+        public void .ctor(){} // RVA: 0x7FFE871C7340
+        public void Reset(){} // RVA: 0x7FFE871C7450
+        public void MakeRoom(){} // RVA: 0x7FFE871C74F0
+        public void AppendData(){} // RVA: 0x7FFE871C7600
     }
 
     public class ChainValidationHelper : Object
     {
-        public System.WeakReference`1<System.Net.Security.SslStream> Settings; // 0x10
-        public Mono.Security.Interface.MonoTlsSettings settings; // 0x18
-        public Mono.Net.Security.MobileTlsProvider provider; // 0x20
-        public System.Net.ServerCertValidationCallback certValidationCallback; // 0x28
-        public System.Net.Security.LocalCertSelectionCallback certSelectionCallback; // 0x30
-        public Mono.Net.Security.MonoTlsStream tlsStream; // 0x38
-        public System.Net.HttpWebRequest request; // 0x40
+        public System.WeakReference`1<System.Net.Security.SslStream> owner; // 0x10
 
         // ── Methods ──
-        public void GetInternalValidator(){} // RVA: 0x7FFAC8E20DF0
-        public void Create(){} // RVA: 0x7FFAC8E20EE0
-        public void .ctor(){} // RVA: 0x7FFAC8E20FC0
-        public void GetValidationCallback(){} // RVA: 0x7FFAC8E21830
-        public void DefaultSelectionCallback(){} // RVA: 0x7FFAC8E21970
-        public void get_Settings(){} // RVA: 0x7FFAC2F247C0
-        public void SelectClientCertificate(){} // RVA: 0x7FFAC8E219C0
-        public void ValidateCertificate(){} // RVA: 0x7FFAC8E21AB0
-        public void ValidateChain(){} // RVA: 0x7FFAC8E21C30 | overloaded x2
-        public void InvokeCallback(){} // RVA: 0x7FFAC8E22120
+        public void GetInternalValidator(){} // RVA: 0x7FFE871C9220
+        public void Create(){} // RVA: 0x7FFE871C9310
+        public void .ctor(){} // RVA: 0x7FFE871C93F0
+        public void GetValidationCallback(){} // RVA: 0x7FFE871C9C60
+        public void DefaultSelectionCallback(){} // RVA: 0x7FFE871C9DA0
+        public void get_Settings(){} // RVA: 0x7FFE810FE7C0
+        public void SelectClientCertificate(){} // RVA: 0x7FFE871C9DF0
+        public void ValidateCertificate(){} // RVA: 0x7FFE871C9EE0
+        public void ValidateChain(){} // RVA: 0x7FFE871CA060 | overloaded x2
+        public void InvokeCallback(){} // RVA: 0x7FFE871CA550
     }
 
     public class MobileAuthenticatedStream : AuthenticatedStream
     {
-        public Mono.Net.Security.MobileTlsContext SslStream; // 0x38
-        public System.Runtime.ExceptionServices.ExceptionDispatchInfo Settings; // 0x40
-        public Mono.Net.Security.AsyncProtocolRequest Provider; // 0x48
-        public Mono.Net.Security.AsyncProtocolRequest TargetHost; // 0x50
-        public Mono.Net.Security.AsyncProtocolRequest IsAuthenticated; // 0x58
-        public Mono.Net.Security.BufferOffsetSize2 LocalCertificate; // 0x60
-        public Mono.Net.Security.BufferOffsetSize2 InternalLocalCertificate; // 0x68
-        public object CanRead; // 0x70
-        public int CanTimeout; // 0x78
-        public bool CanWrite; // 0x7C
-        public 0x6B12CAA8 CanSeek; // 0x80
-        public int Length;
-        public System.Net.Security.SslStream Position; // 0x88
-        public Mono.Security.Interface.MonoTlsSettings ReadTimeout; // 0x90
-        public Mono.Net.Security.MobileTlsProvider WriteTimeout; // 0x98
-        public string <TargetHost>k__BackingField; // 0xA0
-        public int nextId; // 0x4
-        public int ID; // 0xA8
+        public Mono.Net.Security.MobileTlsContext xobileTlsContext; // 0x38
+        public System.Runtime.ExceptionServices.ExceptionDispatchInfo lastException; // 0x40
+        public Mono.Net.Security.AsyncProtocolRequest asyncHandshakeRequest; // 0x48
+        public Mono.Net.Security.AsyncProtocolRequest asyncReadRequest; // 0x50
+        public Mono.Net.Security.AsyncProtocolRequest asyncWriteRequest; // 0x58
+        public Mono.Net.Security.BufferOffsetSize2 readBuffer; // 0x60
+        public Mono.Net.Security.BufferOffsetSize2 writeBuffer; // 0x68
+        public object ioLock; // 0x70
+        public int closeRequested; // 0x78
+        public bool shutdown; // 0x7C
+        public 0x665259CC operation; // 0x80
+        public int uniqueNameInteger;
+        public System.Net.Security.SslStream _sslStream; // 0x88
+        public Mono.Security.Interface.MonoTlsSettings _settings; // 0x90
+        public Mono.Net.Security.MobileTlsProvider _provider; // 0x98
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8E223B0
-        public void get_SslStream(){} // RVA: 0x7FFAC2F60010
-        public void get_Settings(){} // RVA: 0x7FFAC32EF640
-        public void get_Provider(){} // RVA: 0x7FFAC354DFB0
-        public void get_TargetHost(){} // RVA: 0x7FFAC3543900
-        public void set_TargetHost(){} // RVA: 0x7FFAC354E420
-        public void CheckThrow(){} // RVA: 0x7FFAC8E226E0
-        public void GetSSPIException(){} // RVA: 0x7FFAC8E227E0
-        public void GetIOException(){} // RVA: 0x7FFAC8E22980
-        public void GetInternalError(){} // RVA: 0x7FFAC8E22B20
-        public void GetInvalidNestedCallException(){} // RVA: 0x7FFAC8E22B70
-        public void SetException(){} // RVA: 0x7FFAC8E22BC0
-        public void AuthenticateAsClient(){} // RVA: 0x7FFAC8E22CF0
-        public void AuthenticateAsServer(){} // RVA: 0x7FFAC8E22EB0
-        public void AuthenticateAsClientAsync(){} // RVA: 0x7FFAC8E230C0
-        public void ProcessAuthentication(){} // RVA: 0x7FFAC8E23210
-        public void CreateContext(){} // RVA: 0x7FFAC2C58F40
-        public void Read(){} // RVA: 0x7FFAC8E234A0
-        public void Write(){} // RVA: 0x7FFAC8E235A0
-        public void ReadAsync(){} // RVA: 0x7FFAC8E236A0
-        public void WriteAsync(){} // RVA: 0x7FFAC8E23750
-        public void StartOperation(){} // RVA: 0x7FFAC8E23800
-        public void InternalRead(){} // RVA: 0x7FFAC8E23C40 | overloaded x2
-        public void InternalWrite(){} // RVA: 0x7FFAC8E23F10 | overloaded x2
-        public void InnerRead(){} // RVA: 0x7FFAC8E24100
-        public void InnerWrite(){} // RVA: 0x7FFAC8E24330
-        public void ProcessHandshake(){} // RVA: 0x7FFAC8E24570
-        public void ProcessRead(){} // RVA: 0x7FFAC8E24980
-        public void ProcessWrite(){} // RVA: 0x7FFAC8E24B80
-        public void get_IsAuthenticated(){} // RVA: 0x7FFAC8E24D80
-        public void Dispose(){} // RVA: 0x7FFAC8E24F00
-        public void Flush(){} // RVA: 0x7FFAC8BACCC0
-        public void get_LocalCertificate(){} // RVA: 0x7FFAC8E25230
-        public void get_InternalLocalCertificate(){} // RVA: 0x7FFAC8E25400
-        public void Seek(){} // RVA: 0x7FFAC8E255D0
-        public void SetLength(){} // RVA: 0x7FFAC8E25610
-        public void get_CanRead(){} // RVA: 0x7FFAC8E25640
-        public void get_CanTimeout(){} // RVA: 0x7FFAC8E25690
-        public void get_CanWrite(){} // RVA: 0x7FFAC8E256C0
-        public void get_CanSeek(){} // RVA: 0x7FFAC2F21320
-        public void get_Length(){} // RVA: 0x7FFAC8E25730
-        public void get_Position(){} // RVA: 0x7FFAC8E25760
-        public void set_Position(){} // RVA: 0x7FFAC8E25790
-        public void get_ReadTimeout(){} // RVA: 0x7FFAC8E257D0
-        public void set_ReadTimeout(){} // RVA: 0x7FFAC8E25800
-        public void get_WriteTimeout(){} // RVA: 0x7FFAC8E25830
-        public void set_WriteTimeout(){} // RVA: 0x7FFAC8E25860
-        public void .cctor(){} // RVA: 0x7FFAC8E25890
-        public void <InnerWrite>b__67_0(){} // RVA: 0x7FFAC8E258D0
+        public void .ctor(){} // RVA: 0x7FFE871CA7E0
+        public void get_SslStream(){} // RVA: 0x7FFE8113A010
+        public void get_Settings(){} // RVA: 0x7FFE8154EB60
+        public void get_Provider(){} // RVA: 0x7FFE817AE360
+        public void get_TargetHost(){} // RVA: 0x7FFE8179C860
+        public void set_TargetHost(){} // RVA: 0x7FFE8171B4D0
+        public void CheckThrow(){} // RVA: 0x7FFE871CAB10
+        public void GetSSPIException(){} // RVA: 0x7FFE871CAC10
+        public void GetIOException(){} // RVA: 0x7FFE871CADB0
+        public void GetInternalError(){} // RVA: 0x7FFE871CAF50
+        public void GetInvalidNestedCallException(){} // RVA: 0x7FFE871CAFA0
+        public void SetException(){} // RVA: 0x7FFE871CAFF0
+        public void AuthenticateAsClient(){} // RVA: 0x7FFE871CB120
+        public void AuthenticateAsServer(){} // RVA: 0x7FFE871CB2E0
+        public void AuthenticateAsClientAsync(){} // RVA: 0x7FFE871CB4F0
+        public void ProcessAuthentication(){} // RVA: 0x7FFE871CB640
+        public void CreateContext(){} // RVA: 0x7FFE80E2E390
+        public void Read(){} // RVA: 0x7FFE871CB8D0
+        public void Write(){} // RVA: 0x7FFE871CB9D0
+        public void ReadAsync(){} // RVA: 0x7FFE871CBAD0
+        public void WriteAsync(){} // RVA: 0x7FFE871CBB80
+        public void StartOperation(){} // RVA: 0x7FFE871CBC30
+        public void InternalRead(){} // RVA: 0x7FFE871CC070 | overloaded x2
+        public void InternalWrite(){} // RVA: 0x7FFE871CC340 | overloaded x2
+        public void InnerRead(){} // RVA: 0x7FFE871CC530
+        public void InnerWrite(){} // RVA: 0x7FFE871CC760
+        public void ProcessHandshake(){} // RVA: 0x7FFE871CC9A0
+        public void ProcessRead(){} // RVA: 0x7FFE871CCDB0
+        public void ProcessWrite(){} // RVA: 0x7FFE871CCFB0
+        public void get_IsAuthenticated(){} // RVA: 0x7FFE871CD1B0
+        public void Dispose(){} // RVA: 0x7FFE871CD330
+        public void Flush(){} // RVA: 0x7FFE86F56340
+        public void get_LocalCertificate(){} // RVA: 0x7FFE871CD660
+        public void get_InternalLocalCertificate(){} // RVA: 0x7FFE871CD830
+        public void Seek(){} // RVA: 0x7FFE871CDA00
+        public void SetLength(){} // RVA: 0x7FFE871CDA40
+        public void get_CanRead(){} // RVA: 0x7FFE871CDA70
+        public void get_CanTimeout(){} // RVA: 0x7FFE871CDAC0
+        public void get_CanWrite(){} // RVA: 0x7FFE871CDAF0
+        public void get_CanSeek(){} // RVA: 0x7FFE810FB320
+        public void get_Length(){} // RVA: 0x7FFE871CDB60
+        public void get_Position(){} // RVA: 0x7FFE871CDB90
+        public void set_Position(){} // RVA: 0x7FFE871CDBC0
+        public void get_ReadTimeout(){} // RVA: 0x7FFE871CDC00
+        public void set_ReadTimeout(){} // RVA: 0x7FFE871CDC30
+        public void get_WriteTimeout(){} // RVA: 0x7FFE871CDC60
+        public void set_WriteTimeout(){} // RVA: 0x7FFE871CDC90
+        public void .cctor(){} // RVA: 0x7FFE871CDCC0
+        public void <InnerWrite>b__67_0(){} // RVA: 0x7FFE871CDD00
     }
 
     public class MobileTlsContext : Object
     {
-        public Mono.Net.Security.ChainValidationHelper Options; // 0x10
-        public Mono.Net.Security.MonoSslAuthenticationOptions Parent; // 0x18
-        public Mono.Net.Security.MobileAuthenticatedStream Settings; // 0x20
-        public bool IsAuthenticated; // 0x28
-        public string IsServer; // 0x30
-        public string TargetHost; // 0x38
-        public bool ServerName; // 0x40
-        public 0x6B131280 AskForClientCertificate; // 0x44
-        public System.Security.Cryptography.X509Certificates.X509CertificateCollection EnabledProtocols; // 0x48
-        public System.Security.Cryptography.X509Certificates.X509Certificate ClientCertificates; // 0x50
+        public Mono.Net.Security.ChainValidationHelper certificateValidator; // 0x10
+        public Mono.Net.Security.MonoSslAuthenticationOptions _options; // 0x18
+        public Mono.Net.Security.MobileAuthenticatedStream _parent; // 0x20
+        public bool _isServer; // 0x28
+        public string _targetHost; // 0x30
+        public string _serverName; // 0x38
+        public bool _askForClientCertificate; // 0x40
+        public 0x6652A1A4 _enabledProtocols; // 0x44
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection _clientCertificates; // 0x48
+        public System.Security.Cryptography.X509Certificates.X509Certificate _localServerCertificate; // 0x50
+        public object field_10; // 0x32
+        public object field_11; // 0x33
+        public object field_12; // 0x34
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8E27E30
-        public void get_Options(){} // RVA: 0x7FFAC2F247C0
-        public void get_Parent(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_Settings(){} // RVA: 0x7FFAC8E28290
-        public void get_IsAuthenticated(){} // RVA: 0x7FFAC2C59D00
-        public void get_IsServer(){} // RVA: 0x7FFAC30F6BA0
-        public void get_TargetHost(){} // RVA: 0x7FFAC31D95E0
-        public void get_ServerName(){} // RVA: 0x7FFAC31D0140
-        public void get_AskForClientCertificate(){} // RVA: 0x7FFAC2FDCC00
-        public void get_EnabledProtocols(){} // RVA: 0x7FFAC2FC20A0
-        public void get_ClientCertificates(){} // RVA: 0x7FFAC2F9C730
-        public void GetProtocolVersions(){} // RVA: 0x7FFAC8E282B0
-        public void StartHandshake(){} // RVA: 0x7FFAC2C70980
-        public void ProcessHandshake(){} // RVA: 0x7FFAC2C59D00
-        public void FinishHandshake(){} // RVA: 0x7FFAC2C70980
-        public void get_LocalServerCertificate(){} // RVA: 0x7FFAC2FC20E0
-        public void set_LocalServerCertificate(){} // RVA: 0x7FFAC30794D0
-        public void get_LocalClientCertificate(){} // RVA: 0x7FFAC2C58E90
-        public void get_RemoteCertificate(){} // RVA: 0x7FFAC2C58E90
-        public void Flush(){} // RVA: 0x7FFAC2C70980
+        public void .ctor(){} // RVA: 0x7FFE871D0260
+        public void get_Options(){} // RVA: 0x7FFE810FE7C0
+        public void get_Parent(){} // RVA: 0x7FFE811290C0
+        public void get_Settings(){} // RVA: 0x7FFE871D06C0
+        public void get_IsAuthenticated(){} // RVA: 0x7FFE80E2F150
+        public void get_IsServer(){} // RVA: 0x7FFE815F1380
+        public void get_TargetHost(){} // RVA: 0x7FFE8144E200
+        public void get_ServerName(){} // RVA: 0x7FFE8143BA80
+        public void get_AskForClientCertificate(){} // RVA: 0x7FFE811B6C00
+        public void get_EnabledProtocols(){} // RVA: 0x7FFE8119C0A0
+        public void get_ClientCertificates(){} // RVA: 0x7FFE81176730
+        public void GetProtocolVersions(){} // RVA: 0x7FFE871D06E0
+        public void StartHandshake(){} // RVA: 0x7FFE80E45FE0
+        public void ProcessHandshake(){} // RVA: 0x7FFE80E2F150
+        public void FinishHandshake(){} // RVA: 0x7FFE80E45FE0
+        public void get_LocalServerCertificate(){} // RVA: 0x7FFE8119C0E0
+        public void set_LocalServerCertificate(){} // RVA: 0x7FFE812534D0
+        public void get_LocalClientCertificate(){} // RVA: 0x7FFE80E2E2E0
+        public void get_RemoteCertificate(){} // RVA: 0x7FFE80E2E2E0
+        public void Flush(){} // RVA: 0x7FFE80E45FE0
         public void Read(){}
         public void Write(){}
-        public void Shutdown(){} // RVA: 0x7FFAC2C70980
-        public void PendingRenegotiation(){} // RVA: 0x7FFAC2C59D00
-        public void ValidateCertificate(){} // RVA: 0x7FFAC8E283B0
-        public void SelectServerCertificate(){} // RVA: 0x7FFAC8E28410
-        public void SelectClientCertificate(){} // RVA: 0x7FFAC8E28730
-        public void Renegotiate(){} // RVA: 0x7FFAC2C70980
-        public void Dispose(){} // RVA: 0x7FFAC2F21310 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFAC8E28E60
+        public void Shutdown(){} // RVA: 0x7FFE80E45FE0
+        public void PendingRenegotiation(){} // RVA: 0x7FFE80E2F150
+        public void ValidateCertificate(){} // RVA: 0x7FFE871D07E0
+        public void SelectServerCertificate(){} // RVA: 0x7FFE871D0840
+        public void SelectClientCertificate(){} // RVA: 0x7FFE871D0B60
+        public void Renegotiate(){} // RVA: 0x7FFE80E45FE0
+        public void Dispose(){} // RVA: 0x7FFE810FB310 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFE871D1290
     }
 
     public class MobileTlsProvider : MonoTlsProvider
@@ -250,138 +235,148 @@ namespace ThirdParty.DotNet.Mono.Net.Security
         // ── Methods ──
         public void CreateSslStream(){}
         public void ValidateCertificate(){}
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class MonoSslAuthenticationOptions : Object
     {
-        public System.Net.Security.ServerCertSelectionCallback ServerMode; // 0x10
+        public System.Net.Security.ServerCertSelectionCallback _serverCertSelectionDelegate; // 0x10
+        public object field_1; // 0x3F
+        public object field_2; // 0x40
+        public object field_3; // 0x41
+        public object field_4; // 0x42
+        public object field_5; // 0x43
+        public object field_6; // 0x44
+        public object field_7; // 0x45
+        public object field_8; // 0x46
+        public object field_9; // 0x47
 
         // ── Methods ──
-        public void get_ServerMode(){} // RVA: 0x7FFAC2C59D00
-        public void get_AllowRenegotiation(){} // RVA: 0x7FFAC2C59D00
-        public void get_EnabledSslProtocols(){} // RVA: 0x7FFAC2C59960
-        public void set_EnabledSslProtocols(){} // RVA: 0x7FFAC2C70ED0
-        public void set_EncryptionPolicy(){} // RVA: 0x7FFAC2C70ED0
-        public void set_CertificateRevocationCheckMode(){} // RVA: 0x7FFAC2C70ED0
-        public void get_TargetHost(){} // RVA: 0x7FFAC2C58E90
-        public void set_TargetHost(){} // RVA: 0x7FFAC2C70A40
-        public void get_ServerCertificate(){} // RVA: 0x7FFAC2C58E90
-        public void set_ServerCertificate(){} // RVA: 0x7FFAC2C70A40
-        public void get_ClientCertificates(){} // RVA: 0x7FFAC2C58E90
-        public void set_ClientCertificates(){} // RVA: 0x7FFAC2C70A40
-        public void get_ClientCertificateRequired(){} // RVA: 0x7FFAC2C59D00
-        public void set_ClientCertificateRequired(){} // RVA: 0x7FFAC2C71060
-        public void get_ServerCertSelectionDelegate(){} // RVA: 0x7FFAC2F3C380
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_ServerMode(){} // RVA: 0x7FFE80E2F150
+        public void get_AllowRenegotiation(){} // RVA: 0x7FFE80E2F150
+        public void get_EnabledSslProtocols(){} // RVA: 0x7FFE80E2EDB0
+        public void set_EnabledSslProtocols(){} // RVA: 0x7FFE80E46530
+        public void set_EncryptionPolicy(){} // RVA: 0x7FFE80E46530
+        public void set_CertificateRevocationCheckMode(){} // RVA: 0x7FFE80E46530
+        public void get_TargetHost(){} // RVA: 0x7FFE80E2E2E0
+        public void set_TargetHost(){} // RVA: 0x7FFE80E460A0
+        public void get_ServerCertificate(){} // RVA: 0x7FFE80E2E2E0
+        public void set_ServerCertificate(){} // RVA: 0x7FFE80E460A0
+        public void get_ClientCertificates(){} // RVA: 0x7FFE80E2E2E0
+        public void set_ClientCertificates(){} // RVA: 0x7FFE80E460A0
+        public void get_ClientCertificateRequired(){} // RVA: 0x7FFE80E2F150
+        public void set_ClientCertificateRequired(){} // RVA: 0x7FFE80E466C0
+        public void get_ServerCertSelectionDelegate(){} // RVA: 0x7FFE81116380
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class MonoSslClientAuthenticationOptions : MonoSslAuthenticationOptions
     {
-        public System.Net.Security.SslClientAuthenticationOptions Options; // 0x18
+        public System.Net.Security.SslClientAuthenticationOptions _options; // 0x18
+        public object field_1; // 0x49
+        public object field_2; // 0x4A
+        public object field_3; // 0x4B
+        public object field_4; // 0x4C
+        public object field_5; // 0x4D
+        public object field_6; // 0x4E
+        public object field_7; // 0x4F
+        public object field_8; // 0x50
+        public object field_9; // 0x51
 
         // ── Methods ──
-        public void get_Options(){} // RVA: 0x7FFAC2F247C0
-        public void get_ServerMode(){} // RVA: 0x7FFAC2F21320
-        public void .ctor(){} // RVA: 0x7FFAC8E28EB0
-        public void get_AllowRenegotiation(){} // RVA: 0x7FFAC8E28F40
-        public void set_CertificateRevocationCheckMode(){} // RVA: 0x7FFAC8E28F60
-        public void set_EncryptionPolicy(){} // RVA: 0x7FFAC8E29010
-        public void get_EnabledSslProtocols(){} // RVA: 0x7FFAC5CC4BA0
-        public void set_EnabledSslProtocols(){} // RVA: 0x7FFAC8E290C0
-        public void get_TargetHost(){} // RVA: 0x7FFAC88049A0
-        public void set_TargetHost(){} // RVA: 0x7FFAC8E290E0
-        public void get_ClientCertificateRequired(){} // RVA: 0x7FFAC8E29150
-        public void set_ClientCertificateRequired(){} // RVA: 0x7FFAC8E29190
-        public void get_ClientCertificates(){} // RVA: 0x7FFAC8804980
-        public void set_ClientCertificates(){} // RVA: 0x7FFAC8E291D0
-        public void get_ServerCertificate(){} // RVA: 0x7FFAC8E29240
-        public void set_ServerCertificate(){} // RVA: 0x7FFAC8E29280
+        public void get_Options(){} // RVA: 0x7FFE810FE7C0
+        public void get_ServerMode(){} // RVA: 0x7FFE810FB320
+        public void .ctor(){} // RVA: 0x7FFE871D12E0
+        public void get_AllowRenegotiation(){} // RVA: 0x7FFE871D1370
+        public void set_CertificateRevocationCheckMode(){} // RVA: 0x7FFE871D1390
+        public void set_EncryptionPolicy(){} // RVA: 0x7FFE871D1440
+        public void get_EnabledSslProtocols(){} // RVA: 0x7FFE84023030
+        public void set_EnabledSslProtocols(){} // RVA: 0x7FFE871D14F0
+        public void get_TargetHost(){} // RVA: 0x7FFE86BAE0C0
+        public void set_TargetHost(){} // RVA: 0x7FFE871D1510
+        public void get_ClientCertificateRequired(){} // RVA: 0x7FFE871D1580
+        public void set_ClientCertificateRequired(){} // RVA: 0x7FFE871D15C0
+        public void get_ClientCertificates(){} // RVA: 0x7FFE86BAE0A0
+        public void set_ClientCertificates(){} // RVA: 0x7FFE871D1600
+        public void get_ServerCertificate(){} // RVA: 0x7FFE871D1670
+        public void set_ServerCertificate(){} // RVA: 0x7FFE871D16B0
     }
 
     public class MonoSslServerAuthenticationOptions : MonoSslAuthenticationOptions
     {
-        public System.Net.Security.SslServerAuthenticationOptions Options; // 0x18
+        public System.Net.Security.SslServerAuthenticationOptions _options; // 0x18
+        public object field_1; // 0x53
+        public object field_2; // 0x54
+        public object field_3; // 0x55
+        public object field_4; // 0x56
+        public object field_5; // 0x57
+        public object field_6; // 0x58
+        public object field_7; // 0x59
+        public object field_8; // 0x5A
+        public object field_9; // 0x5B
 
         // ── Methods ──
-        public void get_Options(){} // RVA: 0x7FFAC2F247C0
-        public void get_ServerMode(){} // RVA: 0x7FFAC3006850
-        public void .ctor(){} // RVA: 0x7FFAC8E292C0
-        public void get_AllowRenegotiation(){} // RVA: 0x7FFAC8E28F40
-        public void set_CertificateRevocationCheckMode(){} // RVA: 0x7FFAC8E29350
-        public void set_EncryptionPolicy(){} // RVA: 0x7FFAC8E29400
-        public void get_EnabledSslProtocols(){} // RVA: 0x7FFAC8E294B0
-        public void set_EnabledSslProtocols(){} // RVA: 0x7FFAC8E294D0
-        public void get_ClientCertificateRequired(){} // RVA: 0x7FFAC8E294F0
-        public void set_ClientCertificateRequired(){} // RVA: 0x7FFAC8E29510
-        public void get_TargetHost(){} // RVA: 0x7FFAC8E29530
-        public void set_TargetHost(){} // RVA: 0x7FFAC8E29570
-        public void get_ServerCertificate(){} // RVA: 0x7FFAC47C2590
-        public void set_ServerCertificate(){} // RVA: 0x7FFAC88048F0
-        public void get_ClientCertificates(){} // RVA: 0x7FFAC8E295B0
-        public void set_ClientCertificates(){} // RVA: 0x7FFAC8E295F0
+        public void get_Options(){} // RVA: 0x7FFE810FE7C0
+        public void get_ServerMode(){} // RVA: 0x7FFE811E0850
+        public void .ctor(){} // RVA: 0x7FFE871D16F0
+        public void get_AllowRenegotiation(){} // RVA: 0x7FFE871D1370
+        public void set_CertificateRevocationCheckMode(){} // RVA: 0x7FFE871D1780
+        public void set_EncryptionPolicy(){} // RVA: 0x7FFE871D1830
+        public void get_EnabledSslProtocols(){} // RVA: 0x7FFE871D18E0
+        public void set_EnabledSslProtocols(){} // RVA: 0x7FFE871D1900
+        public void get_ClientCertificateRequired(){} // RVA: 0x7FFE871D1920
+        public void set_ClientCertificateRequired(){} // RVA: 0x7FFE871D1940
+        public void get_TargetHost(){} // RVA: 0x7FFE871D1960
+        public void set_TargetHost(){} // RVA: 0x7FFE871D19A0
+        public void get_ServerCertificate(){} // RVA: 0x7FFE82A2A930
+        public void set_ServerCertificate(){} // RVA: 0x7FFE86BAE010
+        public void get_ClientCertificates(){} // RVA: 0x7FFE871D19E0
+        public void set_ClientCertificates(){} // RVA: 0x7FFE871D1A20
     }
 
     public class MonoTlsProviderFactory : Object
     {
-        public object locker;
-        public bool initialized; // 0x8
-        public Mono.Net.Security.MobileTlsProvider defaultProvider; // 0x10
-        public System.Collections.Generic.Dictionary`2<string,System.Tuple`2<System.Guid,string>> providerRegistration; // 0x18
-        public System.Collections.Generic.Dictionary`2<System.Guid,Mono.Net.Security.MobileTlsProvider> providerCache; // 0x20
-        public System.Guid UnityTlsId; // 0x28
-        public System.Guid AppleTlsId; // 0x38
-        public System.Guid BtlsId; // 0x48
-
         // ── Methods ──
-        public void GetProviderInternal(){} // RVA: 0x7FFAC8E29630
-        public void InitializeInternal(){} // RVA: 0x7FFAC8E297E0
-        public void LookupProvider(){} // RVA: 0x7FFAC8E29CE0
-        public void InitializeProviderRegistration(){} // RVA: 0x7FFAC8E2A460
-        public void PopulateUnityProviders(){} // RVA: 0x7FFAC8E2AAD0
-        public void PopulateProviders(){} // RVA: 0x7FFAC8E2AC90
-        public void IsBtlsSupported(){} // RVA: 0x7FFAC2F21320
-        public void CreateDefaultProviderImpl(){} // RVA: 0x7FFAC8E2AD60
-        public void GetProvider(){} // RVA: 0x7FFAC8E2AFD0
-        public void .cctor(){} // RVA: 0x7FFAC8E2B020
+        public void GetProviderInternal(){} // RVA: 0x7FFE871D1A60
+        public void InitializeInternal(){} // RVA: 0x7FFE871D1C10
+        public void LookupProvider(){} // RVA: 0x7FFE871D2110
+        public void InitializeProviderRegistration(){} // RVA: 0x7FFE871D2890
+        public void PopulateUnityProviders(){} // RVA: 0x7FFE871D2F00
+        public void PopulateProviders(){} // RVA: 0x7FFE871D30C0
+        public void IsBtlsSupported(){} // RVA: 0x7FFE810FB320
+        public void CreateDefaultProviderImpl(){} // RVA: 0x7FFE871D3190
+        public void GetProvider(){} // RVA: 0x7FFE871D3400
+        public void .cctor(){} // RVA: 0x7FFE871D3450
     }
 
     public class MonoTlsStream : Object
     {
-        public Mono.Net.Security.MobileTlsProvider Request; // 0x10
-        public System.Net.Sockets.NetworkStream ExceptionStatus; // 0x18
-        public System.Net.HttpWebRequest CertificateValidationFailed; // 0x20
-        public Mono.Security.Interface.MonoTlsSettings settings; // 0x28
-        public System.Net.Security.SslStream sslStream; // 0x30
-        public object sslStreamLock; // 0x38
-        public 0x6B13B258 status; // 0x40
-        public bool <CertificateValidationFailed>k__BackingField; // 0x44
+        public Mono.Net.Security.MobileTlsProvider provider; // 0x10
+        public System.Net.Sockets.NetworkStream networkStream; // 0x18
+        public System.Net.HttpWebRequest request; // 0x20
 
         // ── Methods ──
-        public void get_Request(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_ExceptionStatus(){} // RVA: 0x7FFAC2FC2080
-        public void get_CertificateValidationFailed(){} // RVA: 0x7FFAC45A8350
-        public void set_CertificateValidationFailed(){} // RVA: 0x7FFAC45A8340
-        public void .ctor(){} // RVA: 0x7FFAC8E2B440
-        public void CreateStream(){} // RVA: 0x7FFAC8E2B830
-        public void Dispose(){} // RVA: 0x7FFAC8E2BA90
-        public void CloseSslStream(){} // RVA: 0x7FFAC8E2BAA0
+        public void get_Request(){} // RVA: 0x7FFE811290C0
+        public void get_ExceptionStatus(){} // RVA: 0x7FFE8119C080
+        public void get_CertificateValidationFailed(){} // RVA: 0x7FFE82876440
+        public void set_CertificateValidationFailed(){} // RVA: 0x7FFE82876430
+        public void .ctor(){} // RVA: 0x7FFE871D3870
+        public void CreateStream(){} // RVA: 0x7FFE871D3C60
+        public void Dispose(){} // RVA: 0x7FFE871D3EC0
+        public void CloseSslStream(){} // RVA: 0x7FFE871D3ED0
     }
 
     public class NoReflectionHelper : Object
     {
         // ── Methods ──
-        public void GetProvider(){} // RVA: 0x7FFAC8E2C5F0
+        public void GetProvider(){} // RVA: 0x7FFE871D4A20
     }
 
     public class SystemCertificateValidator : Object
     {
-        public bool is_macosx;
-        public 0x6B131960 s_flags; // 0x4
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC8E2C670
-        public void NeedsChain(){} // RVA: 0x7FFAC2F21320
+        public void .cctor(){} // RVA: 0x7FFE871D4AA0
+        public void NeedsChain(){} // RVA: 0x7FFE810FB320
     }
 
 }

@@ -8,8 +8,8 @@ namespace ThirdParty.Sentry.Sentry.Reflection
     public class AssemblyExtensions : Object
     {
         // ── Methods ──
-        public void GetNameAndVersion(){} // RVA: 0x7FFAC8B63E60
-        public void GetVersion(){} // RVA: 0x7FFAC8B63FC0
+        public void GetNameAndVersion(){} // RVA: 0x7FFE86F0D4D0
+        public void GetVersion(){} // RVA: 0x7FFE86F0D630
     }
 
 }

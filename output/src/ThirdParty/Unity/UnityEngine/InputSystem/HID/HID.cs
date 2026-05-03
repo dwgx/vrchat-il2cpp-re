@@ -7,40 +7,39 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.HID
 {
     public class HID : InputDevice
     {
-        public string QueryHIDReportDescriptorDeviceCommandType;
-        public string QueryHIDReportDescriptorSizeDeviceCommandType;
-        public bool QueryHIDParsedReportDescriptorDeviceCommandType; // 0x190
-        public HIDDeviceDescriptor hidDescriptor; // 0x198
-        public Unity.Profiling.ProfilerMarker k_HIDParseDescriptorFallback;
+        public string kHIDInterface;
+        public string kHIDNamespace;
+        public bool m_HaveParsedHIDDescriptor; // 0x190
+        public HIDDeviceDescriptor m_HIDDescriptor; // 0x198
 
         // ── Methods ──
-        public void get_QueryHIDReportDescriptorDeviceCommandType(){} // RVA: 0x7FFAC965D640
-        public void get_QueryHIDReportDescriptorSizeDeviceCommandType(){} // RVA: 0x7FFAC965D650
-        public void get_QueryHIDParsedReportDescriptorDeviceCommandType(){} // RVA: 0x7FFAC965D660
-        public void get_hidDescriptor(){} // RVA: 0x7FFAC965D670
-        public void OnFindLayoutForDevice(){} // RVA: 0x7FFAC965D7F0
-        public void ReadHIDDeviceDescriptor(){} // RVA: 0x7FFAC965E390
-        public void UsagePageToString(){} // RVA: 0x7FFAC965EB70
-        public void UsageToString(){} // RVA: 0x7FFAC965EBF0
-        public void .ctor(){} // RVA: 0x7FFAC9516440
-        public void .cctor(){} // RVA: 0x7FFAC965ECB0
+        public void get_QueryHIDReportDescriptorDeviceCommandType(){} // RVA: 0x7FFE87A05DA0
+        public void get_QueryHIDReportDescriptorSizeDeviceCommandType(){} // RVA: 0x7FFE87A05DB0
+        public void get_QueryHIDParsedReportDescriptorDeviceCommandType(){} // RVA: 0x7FFE87A05DC0
+        public void get_hidDescriptor(){} // RVA: 0x7FFE87A05DD0
+        public void OnFindLayoutForDevice(){} // RVA: 0x7FFE87A05F50
+        public void ReadHIDDeviceDescriptor(){} // RVA: 0x7FFE87A06AF0
+        public void UsagePageToString(){} // RVA: 0x7FFE87A072D0
+        public void UsageToString(){} // RVA: 0x7FFE87A07350
+        public void .ctor(){} // RVA: 0x7FFE878BEB80
+        public void .cctor(){} // RVA: 0x7FFE87A07410
     }
 
     public class HIDParser : Object
     {
         // ── Methods ──
-        public void ParseReportDescriptor(){} // RVA: 0x7FFAC96655C0 | overloaded x2
-        public void ReadData(){} // RVA: 0x7FFAC9666520
+        public void ParseReportDescriptor(){} // RVA: 0x7FFE87A0DD20 | overloaded x2
+        public void ReadData(){} // RVA: 0x7FFE87A0EC80
     }
 
     public class HIDSupport : Object
     {
-        public HIDPageUsage[] supportedHIDUsages;
+        public HIDPageUsage[] s_SupportedHIDUsages;
 
         // ── Methods ──
-        public void get_supportedHIDUsages(){} // RVA: 0x7FFAC9666CA0
-        public void set_supportedHIDUsages(){} // RVA: 0x7FFAC9666D90
-        public void Initialize(){} // RVA: 0x7FFAC9667120
+        public void get_supportedHIDUsages(){} // RVA: 0x7FFE87A0F400
+        public void set_supportedHIDUsages(){} // RVA: 0x7FFE87A0F4F0
+        public void Initialize(){} // RVA: 0x7FFE87A0F880
     }
 
 }

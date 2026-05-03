@@ -7,55 +7,44 @@ namespace VRC.SDKBase.Midi
 {
     public class IVRCMidiInput
     {
-        public object Name;
-
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFAC2C58E90
-        public void add_OnMidiVoiceMessage(){} // RVA: 0x7FFAC2C70A40
-        public void remove_OnMidiVoiceMessage(){} // RVA: 0x7FFAC2C70A40
-        public void OpenDevice(){} // RVA: 0x7FFAC2C59F60
-        public void Close(){} // RVA: 0x7FFAC2C70980
-        public void Update(){} // RVA: 0x7FFAC2C70980
-        public void GetDeviceNames(){} // RVA: 0x7FFAC2C58E90
+        public void get_Name(){} // RVA: 0x7FFE80E2E2E0
+        public void add_OnMidiVoiceMessage(){} // RVA: 0x7FFE80E460A0
+        public void remove_OnMidiVoiceMessage(){} // RVA: 0x7FFE80E460A0
+        public void OpenDevice(){} // RVA: 0x7FFE80E2F3B0
+        public void Close(){} // RVA: 0x7FFE80E45FE0
+        public void Update(){} // RVA: 0x7FFE80E45FE0
+        public void GetDeviceNames(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class MidiRawEventArgs : ValueType
     {
-        public byte status; // 0x10
-        public byte data1; // 0x11
-        public byte data2; // 0x12
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC495DE30
+        public void .ctor(){} // RVA: 0x7FFE82BC9960
     }
 
     public class MidiRawMessageDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACC09BFE0
-        public void Invoke(){} // RVA: 0x7FFACC09C160
-        public void BeginInvoke(){} // RVA: 0x7FFACC09C190
-        public void EndInvoke(){} // RVA: 0x7FFAC2F22CB0
+        public void .ctor(){} // RVA: 0x7FFE8A501FB0
+        public void Invoke(){} // RVA: 0x7FFE8A502130
+        public void BeginInvoke(){} // RVA: 0x7FFE8A502160
+        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
     }
 
     public class MidiVoiceEventArgs : ValueType
     {
-        public int command; // 0x10
-        public int channel; // 0x14
-        public int number; // 0x18
-        public int value; // 0x1C
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACC09BFC0
+        public void .ctor(){} // RVA: 0x7FFE8A501F90
     }
 
     public class MidiVoiceMessageDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC5C4DA60
-        public void Invoke(){} // RVA: 0x7FFAC5C4DBE0
-        public void BeginInvoke(){} // RVA: 0x7FFACC09C220
-        public void EndInvoke(){} // RVA: 0x7FFAC2F22CB0
+        public void .ctor(){} // RVA: 0x7FFE83F85160
+        public void Invoke(){} // RVA: 0x7FFE83F852E0
+        public void BeginInvoke(){} // RVA: 0x7FFE8A5021F0
+        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
     }
 
 }

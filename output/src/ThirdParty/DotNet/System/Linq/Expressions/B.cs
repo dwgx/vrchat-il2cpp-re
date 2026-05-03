@@ -7,174 +7,163 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class BinaryExpression : Expression
     {
-        public System.Linq.Expressions.Expression CanReduce; // 0x10
-        public System.Linq.Expressions.Expression Right; // 0x18
+        public System.Linq.Expressions.Expression _right; // 0x10
+        public System.Linq.Expressions.Expression _left; // 0x18
+        public object field_2; // 0x7B
+        public object field_3; // 0x7C
+        public object field_4; // 0x7D
+        public object field_5; // 0x7E
+        public object field_6; // 0x7F
+        public object field_7; // 0x80
+        public object field_8; // 0x81
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8D477D0 | overloaded x2
-        public void get_CanReduce(){} // RVA: 0x7FFAC8D45140
-        public void IsOpAssignment(){} // RVA: 0x7FFAC8D45170
-        public void get_Right(){} // RVA: 0x7FFAC2F3C380
-        public void get_Left(){} // RVA: 0x7FFAC2F247C0
-        public void get_Method(){} // RVA: 0x7FFAC3F5BE50
-        public void GetMethod(){} // RVA: 0x7FFAC34F9180
-        public void Update(){} // RVA: 0x7FFAC8D45180
-        public void Reduce(){} // RVA: 0x7FFAC8D453E0
-        public void GetBinaryOpFromAssignmentOp(){} // RVA: 0x7FFAC8D45460
-        public void ReduceVariable(){} // RVA: 0x7FFAC8D45580
-        public void ReduceMember(){} // RVA: 0x7FFAC8D456C0
-        public void ReduceIndex(){} // RVA: 0x7FFAC8D45C70
-        public void get_Conversion(){} // RVA: 0x7FFAC8D46490
-        public void GetConversion(){} // RVA: 0x7FFAC34F9180
-        public void get_IsLifted(){} // RVA: 0x7FFAC8D464B0
-        public void get_IsLiftedToNull(){} // RVA: 0x7FFAC8D466A0
-        public void Accept(){} // RVA: 0x7FFAC8D46720
-        public void Create(){} // RVA: 0x7FFAC8D46750
-        public void get_IsLiftedLogical(){} // RVA: 0x7FFAC8D46910
-        public void get_IsReferenceComparison(){} // RVA: 0x7FFAC8D46AE0
-        public void ReduceUserdefinedLifted(){} // RVA: 0x7FFAC8D46BE0
+        public void .ctor(){} // RVA: 0x7FFE870EFC90 | overloaded x2
+        public void get_CanReduce(){} // RVA: 0x7FFE870ED600
+        public void IsOpAssignment(){} // RVA: 0x7FFE870ED630
+        public void get_Right(){} // RVA: 0x7FFE81116380
+        public void get_Left(){} // RVA: 0x7FFE810FE7C0
+        public void get_Method(){} // RVA: 0x7FFE844800F0
+        public void GetMethod(){} // RVA: 0x7FFE813240E0
+        public void Update(){} // RVA: 0x7FFE870ED640
+        public void Reduce(){} // RVA: 0x7FFE870ED8A0
+        public void GetBinaryOpFromAssignmentOp(){} // RVA: 0x7FFE870ED920
+        public void ReduceVariable(){} // RVA: 0x7FFE870EDA40
+        public void ReduceMember(){} // RVA: 0x7FFE870EDB80
+        public void ReduceIndex(){} // RVA: 0x7FFE870EE130
+        public void get_Conversion(){} // RVA: 0x7FFE870EE950
+        public void GetConversion(){} // RVA: 0x7FFE813240E0
+        public void get_IsLifted(){} // RVA: 0x7FFE870EE970
+        public void get_IsLiftedToNull(){} // RVA: 0x7FFE870EEB60
+        public void Accept(){} // RVA: 0x7FFE870EEBE0
+        public void Create(){} // RVA: 0x7FFE870EEC10
+        public void get_IsLiftedLogical(){} // RVA: 0x7FFE870EEDD0
+        public void get_IsReferenceComparison(){} // RVA: 0x7FFE870EEFA0
+        public void ReduceUserdefinedLifted(){} // RVA: 0x7FFE870EF0A0
     }
 
     public class Block2 : BlockExpression
     {
-        public object ExpressionCount; // 0x10
-        public System.Linq.Expressions.Expression _arg1; // 0x18
+        public object _arg0; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8D73130
-        public void GetExpression(){} // RVA: 0x7FFAC8D73240
-        public void SameExpressions(){} // RVA: 0x7FFAC8D732E0
-        public void get_ExpressionCount(){} // RVA: 0x7FFAC3026CB0
-        public void GetOrMakeExpressions(){} // RVA: 0x7FFAC8D73570
-        public void Rewrite(){} // RVA: 0x7FFAC8D73580
+        public void .ctor(){} // RVA: 0x7FFE8711B560
+        public void GetExpression(){} // RVA: 0x7FFE8711B670
+        public void SameExpressions(){} // RVA: 0x7FFE8711B710
+        public void get_ExpressionCount(){} // RVA: 0x7FFE81200CB0
+        public void GetOrMakeExpressions(){} // RVA: 0x7FFE8711B9A0
+        public void Rewrite(){} // RVA: 0x7FFE8711B9B0
     }
 
     public class Block3 : BlockExpression
     {
-        public object ExpressionCount; // 0x10
-        public System.Linq.Expressions.Expression _arg1; // 0x18
-        public System.Linq.Expressions.Expression _arg2; // 0x20
+        public object _arg0; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8D73610
-        public void SameExpressions(){} // RVA: 0x7FFAC8D73770
-        public void GetExpression(){} // RVA: 0x7FFAC8D73A40
-        public void get_ExpressionCount(){} // RVA: 0x7FFAC366FE20
-        public void GetOrMakeExpressions(){} // RVA: 0x7FFAC8D73570
-        public void Rewrite(){} // RVA: 0x7FFAC8D73AF0
+        public void .ctor(){} // RVA: 0x7FFE8711BA40
+        public void SameExpressions(){} // RVA: 0x7FFE8711BBA0
+        public void GetExpression(){} // RVA: 0x7FFE8711BE70
+        public void get_ExpressionCount(){} // RVA: 0x7FFE817BF630
+        public void GetOrMakeExpressions(){} // RVA: 0x7FFE8711B9A0
+        public void Rewrite(){} // RVA: 0x7FFE8711BF20
     }
 
     public class Block4 : BlockExpression
     {
-        public object ExpressionCount; // 0x10
-        public System.Linq.Expressions.Expression _arg1; // 0x18
-        public System.Linq.Expressions.Expression _arg2; // 0x20
-        public System.Linq.Expressions.Expression _arg3; // 0x28
+        public object _arg0; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8D73BA0
-        public void SameExpressions(){} // RVA: 0x7FFAC8D73D50
-        public void GetExpression(){} // RVA: 0x7FFAC8D74060
-        public void get_ExpressionCount(){} // RVA: 0x7FFAC36C3910
-        public void GetOrMakeExpressions(){} // RVA: 0x7FFAC8D73570
-        public void Rewrite(){} // RVA: 0x7FFAC8D74120
+        public void .ctor(){} // RVA: 0x7FFE8711BFD0
+        public void SameExpressions(){} // RVA: 0x7FFE8711C180
+        public void GetExpression(){} // RVA: 0x7FFE8711C490
+        public void get_ExpressionCount(){} // RVA: 0x7FFE8180E590
+        public void GetOrMakeExpressions(){} // RVA: 0x7FFE8711B9A0
+        public void Rewrite(){} // RVA: 0x7FFE8711C550
     }
 
     public class Block5 : BlockExpression
     {
-        public object ExpressionCount; // 0x10
-        public System.Linq.Expressions.Expression _arg1; // 0x18
-        public System.Linq.Expressions.Expression _arg2; // 0x20
-        public System.Linq.Expressions.Expression _arg3; // 0x28
-        public System.Linq.Expressions.Expression _arg4; // 0x30
+        public object _arg0; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8D741F0
-        public void GetExpression(){} // RVA: 0x7FFAC8D743F0
-        public void SameExpressions(){} // RVA: 0x7FFAC8D744C0
-        public void get_ExpressionCount(){} // RVA: 0x7FFAC31E48B0
-        public void GetOrMakeExpressions(){} // RVA: 0x7FFAC8D73570
-        public void Rewrite(){} // RVA: 0x7FFAC8D74820
+        public void .ctor(){} // RVA: 0x7FFE8711C620
+        public void GetExpression(){} // RVA: 0x7FFE8711C820
+        public void SameExpressions(){} // RVA: 0x7FFE8711C8F0
+        public void get_ExpressionCount(){} // RVA: 0x7FFE81474A10
+        public void GetOrMakeExpressions(){} // RVA: 0x7FFE8711B9A0
+        public void Rewrite(){} // RVA: 0x7FFE8711CC50
     }
 
     public class BlockExpression : Expression
     {
-        public object Expressions;
-        public object Variables;
-        public object Result;
-        public object NodeType;
-        public object Type;
-        public object ExpressionCount;
-
         // ── Methods ──
-        public void get_Expressions(){} // RVA: 0x7FFAC8AEC8C0
-        public void get_Variables(){} // RVA: 0x7FFAC3708F90
-        public void get_Result(){} // RVA: 0x7FFAC8D72A10
-        public void .ctor(){} // RVA: 0x7FFAC8D72A50
-        public void Accept(){} // RVA: 0x7FFAC8D72AA0
-        public void get_NodeType(){} // RVA: 0x7FFAC85F8C70
-        public void get_Type(){} // RVA: 0x7FFAC8D72AD0
-        public void Update(){} // RVA: 0x7FFAC8D72B30
-        public void SameVariables(){} // RVA: 0x7FFAC8D72CB0
-        public void SameExpressions(){} // RVA: 0x7FFAC8D72D10
-        public void GetExpression(){} // RVA: 0x7FFAC8D72D40
-        public void get_ExpressionCount(){} // RVA: 0x7FFAC8D72D70
-        public void GetOrMakeExpressions(){} // RVA: 0x7FFAC8D72DA0
-        public void GetOrMakeVariables(){} // RVA: 0x7FFAC8D72DD0
-        public void Rewrite(){} // RVA: 0x7FFAC8D72E30
-        public void ReturnReadOnlyExpressions(){} // RVA: 0x7FFAC8D72E60
+        public void get_Expressions(){} // RVA: 0x7FFE82215450
+        public void get_Variables(){} // RVA: 0x7FFE82BC3B70
+        public void get_Result(){} // RVA: 0x7FFE8711AE40
+        public void .ctor(){} // RVA: 0x7FFE8711AE80
+        public void Accept(){} // RVA: 0x7FFE8711AED0
+        public void get_NodeType(){} // RVA: 0x7FFE869A2440
+        public void get_Type(){} // RVA: 0x7FFE8711AF00
+        public void Update(){} // RVA: 0x7FFE8711AF60
+        public void SameVariables(){} // RVA: 0x7FFE8711B0E0
+        public void SameExpressions(){} // RVA: 0x7FFE8711B140
+        public void GetExpression(){} // RVA: 0x7FFE8711B170
+        public void get_ExpressionCount(){} // RVA: 0x7FFE8711B1A0
+        public void GetOrMakeExpressions(){} // RVA: 0x7FFE8711B1D0
+        public void GetOrMakeVariables(){} // RVA: 0x7FFE8711B200
+        public void Rewrite(){} // RVA: 0x7FFE8711B260
+        public void ReturnReadOnlyExpressions(){} // RVA: 0x7FFE8711B290
     }
 
     public class BlockExpressionList : Object
     {
-        public System.Linq.Expressions.BlockExpression Item; // 0x10
-        public System.Linq.Expressions.Expression Count; // 0x18
+        public System.Linq.Expressions.BlockExpression _block; // 0x10
+        public System.Linq.Expressions.Expression _arg0; // 0x18
+        public object field_2; // 0x14B
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240
-        public void IndexOf(){} // RVA: 0x7FFAC8D757F0
-        public void Insert(){} // RVA: 0x7FFAC8D758A0
-        public void RemoveAt(){} // RVA: 0x7FFAC8D758D0
-        public void get_Item(){} // RVA: 0x7FFAC8D75900
-        public void set_Item(){} // RVA: 0x7FFAC8D75940
-        public void Add(){} // RVA: 0x7FFAC8D75970
-        public void Clear(){} // RVA: 0x7FFAC8D759A0
-        public void Contains(){} // RVA: 0x7FFAC8D759D0
-        public void CopyTo(){} // RVA: 0x7FFAC8D75A80
-        public void get_Count(){} // RVA: 0x7FFAC8D71620
-        public void get_IsReadOnly(){} // RVA: 0x7FFAC8D75D00
-        public void Remove(){} // RVA: 0x7FFAC8D75D30
-        public void GetEnumerator(){} // RVA: 0x7FFAC8D75D60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC8D75D60
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0
+        public void IndexOf(){} // RVA: 0x7FFE8711DC20
+        public void Insert(){} // RVA: 0x7FFE8711DCD0
+        public void RemoveAt(){} // RVA: 0x7FFE8711DD00
+        public void get_Item(){} // RVA: 0x7FFE8711DD30
+        public void set_Item(){} // RVA: 0x7FFE8711DD70
+        public void Add(){} // RVA: 0x7FFE8711DDA0
+        public void Clear(){} // RVA: 0x7FFE8711DDD0
+        public void Contains(){} // RVA: 0x7FFE8711DE00
+        public void CopyTo(){} // RVA: 0x7FFE8711DEB0
+        public void get_Count(){} // RVA: 0x7FFE815889F0
+        public void get_IsReadOnly(){} // RVA: 0x7FFE8711E130
+        public void Remove(){} // RVA: 0x7FFE8711E160
+        public void GetEnumerator(){} // RVA: 0x7FFE8711E190
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE8711E190
     }
 
     public class BlockN : BlockExpression
     {
-        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> ExpressionCount; // 0x10
+        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _expressions; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8D74910
-        public void SameExpressions(){} // RVA: 0x7FFAC8D749B0
-        public void GetExpression(){} // RVA: 0x7FFAC8D74A90
-        public void get_ExpressionCount(){} // RVA: 0x7FFAC8D74AF0
-        public void GetOrMakeExpressions(){} // RVA: 0x7FFAC8D74B40
-        public void Rewrite(){} // RVA: 0x7FFAC8D74B80
+        public void .ctor(){} // RVA: 0x7FFE8711CD40
+        public void SameExpressions(){} // RVA: 0x7FFE8711CDE0
+        public void GetExpression(){} // RVA: 0x7FFE8711CEC0
+        public void get_ExpressionCount(){} // RVA: 0x7FFE8711CF20
+        public void GetOrMakeExpressions(){} // RVA: 0x7FFE8711CF70
+        public void Rewrite(){} // RVA: 0x7FFE8711CFB0
     }
 
     public class ByRefAssignBinaryExpression : AssignBinaryExpression
     {
-        public object IsByRef;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8D478F0
-        public void get_IsByRef(){} // RVA: 0x7FFAC3006850
+        public void .ctor(){} // RVA: 0x7FFE870EFDB0
+        public void get_IsByRef(){} // RVA: 0x7FFE811E0850
     }
 
     public class ByRefParameterExpression : TypedParameterExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8D98720
-        public void GetIsByRef(){} // RVA: 0x7FFAC3006850
+        public void .ctor(){} // RVA: 0x7FFE87140B50
+        public void GetIsByRef(){} // RVA: 0x7FFE811E0850
     }
 
 }

@@ -7,26 +7,17 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class Pairwise`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70A40
+        public void .ctor(){} // RVA: 0x7FFE80E460A0
         public void GetAsyncEnumerator(){}
     }
 
     public class Publish`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-        public System.Threading.CancellationTokenSource cancellationTokenSource;
-        public Cysharp.Threading.Tasks.TriggerEvent`1<T> trigger;
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerator`1<T> enumerator;
-        public System.IDisposable connectedDisposable;
-        public bool isCompleted;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70A40
-        public void Connect(){} // RVA: 0x7FFAC2C58E90
-        public void ConsumeEnumerator(){} // RVA: 0x7FFAC2C59D00
+        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void Connect(){} // RVA: 0x7FFE80E2E2E0
+        public void ConsumeEnumerator(){} // RVA: 0x7FFE80E2F150
         public void GetAsyncEnumerator(){}
     }
 

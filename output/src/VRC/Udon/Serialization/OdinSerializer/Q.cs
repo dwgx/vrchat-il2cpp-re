@@ -7,26 +7,21 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class QuaternionFormatter : MinimalBaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<float> FloatSerializer;
-
         // ── Methods ──
-        public void Read(){} // RVA: 0x7FFACA01A870
-        public void Write(){} // RVA: 0x7FFACA01A9A0
-        public void .ctor(){} // RVA: 0x7FFACA01AB00
-        public void .cctor(){} // RVA: 0x7FFACA01AB60
+        public void Read(){} // RVA: 0x7FFE883CD380
+        public void Write(){} // RVA: 0x7FFE883CD4B0
+        public void .ctor(){} // RVA: 0x7FFE883CD610
+        public void .cctor(){} // RVA: 0x7FFE883CD670
     }
 
     public class QueueFormatter`2 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> TSerializer;
-        public bool IsPlainQueue;
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC2C709B0
-        public void .ctor(){} // RVA: 0x7FFAC2C70980
-        public void GetUninitializedObject(){} // RVA: 0x7FFAC2E8DC40
-        public void DeserializeImplementation(){} // RVA: 0x7FFAC2C79B30
-        public void SerializeImplementation(){} // RVA: 0x7FFAC2C79B30
+        public void .cctor(){} // RVA: 0x7FFE80E46010
+        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void GetUninitializedObject(){} // RVA: 0x7FFE810A1420
+        public void DeserializeImplementation(){} // RVA: 0x7FFE80E4F230
+        public void SerializeImplementation(){} // RVA: 0x7FFE80E4F230
     }
 
 }

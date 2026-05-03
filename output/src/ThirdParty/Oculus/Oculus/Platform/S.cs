@@ -8,26 +8,22 @@ namespace ThirdParty.Oculus.Oculus.Platform
     public class StandalonePlatform : Object
     {
         // ── Methods ──
-        public void InitializeInEditor(){} // RVA: 0x7FFAC8875990
-        public void AsyncInitialize(){} // RVA: 0x7FFAC8875B10
-        public void AsyncInitializeWithAccessTokenAndOptions(){} // RVA: 0x7FFAC8875CE0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void InitializeInEditor(){} // RVA: 0x7FFE86C1F080
+        public void AsyncInitialize(){} // RVA: 0x7FFE86C1F200
+        public void AsyncInitializeWithAccessTokenAndOptions(){} // RVA: 0x7FFE86C1F3D0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class StandalonePlatformSettings : Object
     {
-        public object OculusPlatformTestUserEmail;
-        public object OculusPlatformTestUserPassword;
-        public object OculusPlatformTestUserAccessToken;
-
         // ── Methods ──
-        public void get_OculusPlatformTestUserEmail(){} // RVA: 0x7FFAC8876020
-        public void set_OculusPlatformTestUserEmail(){} // RVA: 0x7FFAC2F21310
-        public void get_OculusPlatformTestUserPassword(){} // RVA: 0x7FFAC8876060
-        public void set_OculusPlatformTestUserPassword(){} // RVA: 0x7FFAC2F21310
-        public void get_OculusPlatformTestUserAccessToken(){} // RVA: 0x7FFAC88760A0
-        public void set_OculusPlatformTestUserAccessToken(){} // RVA: 0x7FFAC2F21310
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_OculusPlatformTestUserEmail(){} // RVA: 0x7FFE86C1F710
+        public void set_OculusPlatformTestUserEmail(){} // RVA: 0x7FFE810FB310
+        public void get_OculusPlatformTestUserPassword(){} // RVA: 0x7FFE86C1F750
+        public void set_OculusPlatformTestUserPassword(){} // RVA: 0x7FFE810FB310
+        public void get_OculusPlatformTestUserAccessToken(){} // RVA: 0x7FFE86C1F790
+        public void set_OculusPlatformTestUserAccessToken(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
 }

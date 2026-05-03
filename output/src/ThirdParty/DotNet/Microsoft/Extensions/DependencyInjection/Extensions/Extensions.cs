@@ -8,8 +8,8 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.Extensions
     public class ServiceCollectionDescriptorExtensions : Object
     {
         // ── Methods ──
-        public void TryAdd(){} // RVA: 0x7FFAC83230D0
-        public void TryAddEnumerable(){} // RVA: 0x7FFAC8323220
+        public void TryAdd(){} // RVA: 0x7FFE866CC9D0
+        public void TryAddEnumerable(){} // RVA: 0x7FFE866CCB20
     }
 
 }

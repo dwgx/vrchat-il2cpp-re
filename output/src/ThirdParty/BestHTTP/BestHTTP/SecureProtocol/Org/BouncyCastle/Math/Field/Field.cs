@@ -7,91 +7,82 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Fiel
 {
     public class FiniteFields : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Field.IFiniteField GF_2;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Field.IFiniteField GF_3; // 0x8
-
         // ── Methods ──
-        public void GetBinaryExtensionField(){} // RVA: 0x7FFACBFAECD0
-        public void GetPrimeField(){} // RVA: 0x7FFACBFAF030
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFACBFAF1B0
+        public void GetBinaryExtensionField(){} // RVA: 0x7FFE8A40F840
+        public void GetPrimeField(){} // RVA: 0x7FFE8A40FBA0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE8A40FD20
     }
 
     public class GF2Polynomial : Object
     {
-        public int[] Degree; // 0x10
+        public int[] exponents; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBFAF680
-        public void get_Degree(){} // RVA: 0x7FFACBFAF780
-        public void GetExponentsPresent(){} // RVA: 0x7FFACBFAF7C0
-        public void Equals(){} // RVA: 0x7FFACBFAF870
-        public void GetHashCode(){} // RVA: 0x7FFACBFAF9E0
+        public void .ctor(){} // RVA: 0x7FFE8A4101F0
+        public void get_Degree(){} // RVA: 0x7FFE8A4102F0
+        public void GetExponentsPresent(){} // RVA: 0x7FFE8A410330
+        public void Equals(){} // RVA: 0x7FFE8A4103E0
+        public void GetHashCode(){} // RVA: 0x7FFE8A410550
     }
 
     public class GenericPolynomialExtensionField : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Field.IFiniteField Characteristic; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Field.IPolynomial Dimension; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Field.IFiniteField subfield; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Field.IPolynomial minimalPolynomial; // 0x18
+        public object field_2; // 0x1C9
+        public object field_3; // 0x1CA
+        public object field_4; // 0x1CB
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240
-        public void get_Characteristic(){} // RVA: 0x7FFACBFAF3E0
-        public void get_Dimension(){} // RVA: 0x7FFACBFAF430
-        public void get_Subfield(){} // RVA: 0x7FFAC2F3C380
-        public void get_Degree(){} // RVA: 0x7FFACBFAF4C0
-        public void get_MinimalPolynomial(){} // RVA: 0x7FFAC2F247C0
-        public void Equals(){} // RVA: 0x7FFACBFAF510
-        public void GetHashCode(){} // RVA: 0x7FFACBFAF610
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0
+        public void get_Characteristic(){} // RVA: 0x7FFE8A40FF50
+        public void get_Dimension(){} // RVA: 0x7FFE8A40FFA0
+        public void get_Subfield(){} // RVA: 0x7FFE81116380
+        public void get_Degree(){} // RVA: 0x7FFE8A410030
+        public void get_MinimalPolynomial(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE8A410080
+        public void GetHashCode(){} // RVA: 0x7FFE8A410180
     }
 
     public class IExtensionField
     {
-        public object Subfield;
-        public object Degree;
-
         // ── Methods ──
-        public void get_Subfield(){} // RVA: 0x7FFAC2C58E90
-        public void get_Degree(){} // RVA: 0x7FFAC2C59960
+        public void get_Subfield(){} // RVA: 0x7FFE80E2E2E0
+        public void get_Degree(){} // RVA: 0x7FFE80E2EDB0
     }
 
     public class IFiniteField
     {
-        public object Characteristic;
-        public object Dimension;
-
         // ── Methods ──
-        public void get_Characteristic(){} // RVA: 0x7FFAC2C58E90
-        public void get_Dimension(){} // RVA: 0x7FFAC2C59960
+        public void get_Characteristic(){} // RVA: 0x7FFE80E2E2E0
+        public void get_Dimension(){} // RVA: 0x7FFE80E2EDB0
     }
 
     public class IPolynomial
     {
-        public object Degree;
-
         // ── Methods ──
-        public void get_Degree(){} // RVA: 0x7FFAC2C59960
-        public void GetExponentsPresent(){} // RVA: 0x7FFAC2C58E90
+        public void get_Degree(){} // RVA: 0x7FFE80E2EDB0
+        public void GetExponentsPresent(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class IPolynomialExtensionField
     {
-        public object MinimalPolynomial;
-
         // ── Methods ──
-        public void get_MinimalPolynomial(){} // RVA: 0x7FFAC2C58E90
+        public void get_MinimalPolynomial(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class PrimeField : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Characteristic; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger characteristic; // 0x10
+        public object field_1; // 0x1D5
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void get_Characteristic(){} // RVA: 0x7FFAC2F3C380
-        public void get_Dimension(){} // RVA: 0x7FFAC3013AF0
-        public void Equals(){} // RVA: 0x7FFACBFAFA70
-        public void GetHashCode(){} // RVA: 0x7FFAC35DB750
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_Characteristic(){} // RVA: 0x7FFE81116380
+        public void get_Dimension(){} // RVA: 0x7FFE811EDAF0
+        public void Equals(){} // RVA: 0x7FFE8A4105E0
+        public void GetHashCode(){} // RVA: 0x7FFE8170B620
     }
 
 }

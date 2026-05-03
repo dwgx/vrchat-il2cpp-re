@@ -8,22 +8,20 @@ namespace VRC.SDK3.Dynamics.PhysBone.Components
     public class VRCPhysBone : VRCPhysBoneBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9E7C170
+        public void .ctor(){} // RVA: 0x7FFE8822EAE0
     }
 
     public class VRCPhysBoneCollider : VRCPhysBoneColliderBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9E55AE0
+        public void .ctor(){} // RVA: 0x7FFE8822EB30
     }
 
     public class VRCPhysBoneRoot : PhysBoneRoot
     {
-        public object RequiredHideFlags;
-
         // ── Methods ──
-        public void get_RequiredHideFlags(){} // RVA: 0x7FFAC34F9180
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void get_RequiredHideFlags(){} // RVA: 0x7FFE813240E0
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
 }

@@ -7,133 +7,117 @@ namespace ThirdParty.DotNet.Mono
 {
     public class DependencyInjector : Object
     {
-        public object SystemProvider;
-        public Mono.ISystemDependencyProvider systemDependency; // 0x8
+        public object locker;
 
         // ── Methods ──
-        public void get_SystemProvider(){} // RVA: 0x7FFAC838C420
-        public void Register(){} // RVA: 0x7FFAC838C780
-        public void ReflectionLoad(){} // RVA: 0x7FFAC838CA00
-        public void .cctor(){} // RVA: 0x7FFAC838CBC0
+        public void get_SystemProvider(){} // RVA: 0x7FFE86735D20
+        public void Register(){} // RVA: 0x7FFE86736080
+        public void ReflectionLoad(){} // RVA: 0x7FFE86736300
+        public void .cctor(){} // RVA: 0x7FFE867364C0
     }
 
     public class ISystemCertificateProvider
     {
         // ── Methods ──
-        public void Import(){} // RVA: 0x7FFAC2C69DD0 | overloaded x3
+        public void Import(){} // RVA: 0x7FFE80E3F2F0 | overloaded x3
     }
 
     public class ISystemDependencyProvider
     {
-        public object CertificateProvider;
-
         // ── Methods ──
-        public void get_CertificateProvider(){} // RVA: 0x7FFAC2C58E90
+        public void get_CertificateProvider(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class MonoAssemblyName : ValueType
     {
-        public UIntPtr name; // 0x10
-        public UIntPtr culture; // 0x18
-        public UIntPtr hash_value; // 0x20
-        public UIntPtr public_key; // 0x28
-        public <public_key_token>e__FixedBuffer public_key_token; // 0x30
-        public uint hash_alg; // 0x44
-        public uint hash_len; // 0x48
-        public uint flags; // 0x4C
-        public ushort major; // 0x50
-        public ushort minor; // 0x52
-        public ushort build; // 0x54
-        public ushort revision; // 0x56
-        public ushort arch; // 0x58
     }
 
     public class Runtime : Object
     {
-        public object dump;
-
         // ── Methods ──
-        public void GetDisplayName(){} // RVA: 0x7FFAC838CC70
-        public void .cctor(){} // RVA: 0x7FFAC838CC90
+        public void GetDisplayName(){} // RVA: 0x7FFE86736570
+        public void .cctor(){} // RVA: 0x7FFE86736590
     }
 
     public class RuntimeClassHandle : ValueType
     {
-        public MonoClass* Value; // 0x10
+        public MonoClass* value; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45BB120 | overloaded x2
-        public void get_Value(){} // RVA: 0x7FFAC3AD9F60
-        public void Equals(){} // RVA: 0x7FFAC838CD40
-        public void GetHashCode(){} // RVA: 0x7FFAC4420210
-        public void GetTypeFromClass(){} // RVA: 0x7FFAC81B83A0
-        public void GetTypeHandle(){} // RVA: 0x7FFAC838CE30
+        public void .ctor(){} // RVA: 0x7FFE82889220 | overloaded x2
+        public void get_Value(){} // RVA: 0x7FFE8284EF60
+        public void Equals(){} // RVA: 0x7FFE86736640
+        public void GetHashCode(){} // RVA: 0x7FFE826F4220
+        public void GetTypeFromClass(){} // RVA: 0x7FFE86561CE0
+        public void GetTypeHandle(){} // RVA: 0x7FFE86736730
     }
 
     public class RuntimeEventHandle : ValueType
     {
-        public UIntPtr Value; // 0x10
+        public UIntPtr value; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45BB120
-        public void get_Value(){} // RVA: 0x7FFAC3AD9F60
-        public void Equals(){} // RVA: 0x7FFAC838D0C0
-        public void GetHashCode(){} // RVA: 0x7FFAC4420210
+        public void .ctor(){} // RVA: 0x7FFE82889220
+        public void get_Value(){} // RVA: 0x7FFE8284EF60
+        public void Equals(){} // RVA: 0x7FFE867369C0
+        public void GetHashCode(){} // RVA: 0x7FFE826F4220
     }
 
     public class RuntimeGPtrArrayHandle : ValueType
     {
-        public GPtrArray* Length; // 0x10
+        public GPtrArray* value; // 0x10
+        public object field_1; // 0xB
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45BB120
-        public void get_Length(){} // RVA: 0x7FFAC838D2A0
-        public void get_Item(){} // RVA: 0x7FFAC838D2C0
-        public void Lookup(){} // RVA: 0x7FFAC838D2D0
-        public void GPtrArrayFree(){} // RVA: 0x7FFAC838D350
-        public void DestroyAndFree(){} // RVA: 0x7FFAC838D390
+        public void .ctor(){} // RVA: 0x7FFE82889220
+        public void get_Length(){} // RVA: 0x7FFE86736BA0
+        public void get_Item(){} // RVA: 0x7FFE86736BC0
+        public void Lookup(){} // RVA: 0x7FFE86736BD0
+        public void GPtrArrayFree(){} // RVA: 0x7FFE86736C50
+        public void DestroyAndFree(){} // RVA: 0x7FFE86736C90
     }
 
     public class RuntimeGenericParamInfoHandle : ValueType
     {
-        public GenericParamInfo* Constraints; // 0x10
+        public GenericParamInfo* value; // 0x10
+        public object field_1; // 0x7
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45BB120
-        public void get_Constraints(){} // RVA: 0x7FFAC838CE60
-        public void get_Attributes(){} // RVA: 0x7FFAC838CE70
-        public void GetConstraints(){} // RVA: 0x7FFAC838CE90
-        public void GetConstraintsCount(){} // RVA: 0x7FFAC838D090
+        public void .ctor(){} // RVA: 0x7FFE82889220
+        public void get_Constraints(){} // RVA: 0x7FFE86736760
+        public void get_Attributes(){} // RVA: 0x7FFE86736770
+        public void GetConstraints(){} // RVA: 0x7FFE86736790
+        public void GetConstraintsCount(){} // RVA: 0x7FFE86736990
     }
 
     public class RuntimeMarshal : Object
     {
         // ── Methods ──
-        public void PtrToUtf8String(){} // RVA: 0x7FFAC838D3F0
-        public void MarshalString(){} // RVA: 0x7FFAC838D4F0
-        public void DecodeBlobSize(){} // RVA: 0x7FFAC838D560
-        public void DecodeBlobArray(){} // RVA: 0x7FFAC838D5C0
-        public void AsciHexDigitValue(){} // RVA: 0x7FFAC838D6B0
-        public void FreeAssemblyName(){} // RVA: 0x7FFAC838D6E0
+        public void PtrToUtf8String(){} // RVA: 0x7FFE86736CF0
+        public void MarshalString(){} // RVA: 0x7FFE86736DF0
+        public void DecodeBlobSize(){} // RVA: 0x7FFE86736E60
+        public void DecodeBlobArray(){} // RVA: 0x7FFE86736EC0
+        public void AsciHexDigitValue(){} // RVA: 0x7FFE86736FB0
+        public void FreeAssemblyName(){} // RVA: 0x7FFE86736FE0
     }
 
     public class RuntimePropertyHandle : ValueType
     {
-        public UIntPtr Value; // 0x10
+        public UIntPtr value; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45BB120
-        public void get_Value(){} // RVA: 0x7FFAC3AD9F60
-        public void Equals(){} // RVA: 0x7FFAC838D1B0
-        public void GetHashCode(){} // RVA: 0x7FFAC4420210
+        public void .ctor(){} // RVA: 0x7FFE82889220
+        public void get_Value(){} // RVA: 0x7FFE8284EF60
+        public void Equals(){} // RVA: 0x7FFE86736AB0
+        public void GetHashCode(){} // RVA: 0x7FFE826F4220
     }
 
     public class RuntimeRemoteClassHandle : ValueType
     {
-        public RemoteClass* ProxyClass; // 0x10
+        public RemoteClass* value; // 0x10
 
         // ── Methods ──
-        public void get_ProxyClass(){} // RVA: 0x7FFAC838CE40
+        public void get_ProxyClass(){} // RVA: 0x7FFE86736740
     }
 
     public class RuntimeStructs : Object
@@ -142,60 +126,58 @@ namespace ThirdParty.DotNet.Mono
 
     public class SafeGPtrArrayHandle : ValueType
     {
-        public Mono.RuntimeGPtrArrayHandle Length; // 0x10
+        public Mono.RuntimeGPtrArrayHandle handle; // 0x10
+        public object field_1; // 0xD
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45BB120
-        public void Dispose(){} // RVA: 0x7FFAC838D390
-        public void get_Length(){} // RVA: 0x7FFAC838D2A0
-        public void get_Item(){} // RVA: 0x7FFAC838D2C0
+        public void .ctor(){} // RVA: 0x7FFE82889220
+        public void Dispose(){} // RVA: 0x7FFE86736C90
+        public void get_Length(){} // RVA: 0x7FFE86736BA0
+        public void get_Item(){} // RVA: 0x7FFE86736BC0
     }
 
     public class SafeStringMarshal : ValueType
     {
-        public string Value; // 0x10
-        public UIntPtr marshaled_string; // 0x18
+        public string str; // 0x10
 
         // ── Methods ──
-        public void StringToUtf8_icall(){} // RVA: 0x7FFAC838D720
-        public void StringToUtf8(){} // RVA: 0x7FFAC838D800
-        public void GFree(){} // RVA: 0x7FFAC82264A0
-        public void .ctor(){} // RVA: 0x7FFAC838D8E0
-        public void get_Value(){} // RVA: 0x7FFAC838D950
-        public void Dispose(){} // RVA: 0x7FFAC838DA60
+        public void StringToUtf8_icall(){} // RVA: 0x7FFE86737020
+        public void StringToUtf8(){} // RVA: 0x7FFE86737100
+        public void GFree(){} // RVA: 0x7FFE865CFDE0
+        public void .ctor(){} // RVA: 0x7FFE867371E0
+        public void get_Value(){} // RVA: 0x7FFE86737250
+        public void Dispose(){} // RVA: 0x7FFE86737360
     }
 
     public class SystemCertificateProvider : Object
     {
-        public Mono.Security.Interface.MonoTlsProvider X509Pal;
-        public int initialized; // 0x8
-        public Mono.X509PalImpl x509pal; // 0x10
-        public object syncRoot; // 0x18
+        public Mono.Security.Interface.MonoTlsProvider provider;
 
         // ── Methods ──
-        public void GetX509Pal(){} // RVA: 0x7FFAC8E175E0
-        public void EnsureInitialized(){} // RVA: 0x7FFAC8E17950
-        public void get_X509Pal(){} // RVA: 0x7FFAC8E17C30
-        public void Import(){} // RVA: 0x7FFAC8E17EC0 | overloaded x3
-        public void Mono.ISystemCertificateProvider.Import(){} // RVA: 0x7FFAC8E17EB0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFAC8E18050
+        public void GetX509Pal(){} // RVA: 0x7FFE871BFA10
+        public void EnsureInitialized(){} // RVA: 0x7FFE871BFD80
+        public void get_X509Pal(){} // RVA: 0x7FFE871C0060
+        public void Import(){} // RVA: 0x7FFE871C02F0 | overloaded x3
+        public void Mono.ISystemCertificateProvider.Import(){} // RVA: 0x7FFE871C02E0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE871C0480
     }
 
     public class SystemDependencyProvider : Object
     {
-        public Mono.SystemDependencyProvider Instance;
-        public object Mono.ISystemDependencyProvider.CertificateProvider; // 0x8
-        public Mono.SystemCertificateProvider CertificateProvider; // 0x10
+        public Mono.SystemDependencyProvider instance;
+        public object syncRoot; // 0x8
+        public Mono.SystemCertificateProvider _certificateProvider; // 0x10
+        public object field_3; // 0x2
 
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7FFAC8E18110
-        public void Initialize(){} // RVA: 0x7FFAC8E18170
-        public void Mono.ISystemDependencyProvider.get_CertificateProvider(){} // RVA: 0x7FFAC2F3C380
-        public void get_CertificateProvider(){} // RVA: 0x7FFAC2F3C380
-        public void get_X509Pal(){} // RVA: 0x7FFAC8E18490
-        public void .ctor(){} // RVA: 0x7FFAC8E18500
-        public void .cctor(){} // RVA: 0x7FFAC8E185C0
+        public void get_Instance(){} // RVA: 0x7FFE871C0540
+        public void Initialize(){} // RVA: 0x7FFE871C05A0
+        public void Mono.ISystemDependencyProvider.get_CertificateProvider(){} // RVA: 0x7FFE81116380
+        public void get_CertificateProvider(){} // RVA: 0x7FFE81116380
+        public void get_X509Pal(){} // RVA: 0x7FFE871C08C0
+        public void .ctor(){} // RVA: 0x7FFE871C0930
+        public void .cctor(){} // RVA: 0x7FFE871C09F0
     }
 
     public class ValueTuple : ValueType
@@ -204,67 +186,50 @@ namespace ThirdParty.DotNet.Mono
 
     public class ValueTuple`1 : ValueType
     {
-        public T Item1;
     }
 
     public class ValueTuple`2 : ValueType
     {
-        public U Item1;
-        public T Item2;
     }
 
     public class ValueTuple`3 : ValueType
     {
-        public U Item1;
-        public V Item2;
-        public T Item3;
     }
 
     public class ValueTuple`4 : ValueType
     {
-        public U Item1;
-        public V Item2;
-        public W Item3;
-        public T Item4;
     }
 
     public class ValueTuple`5 : ValueType
     {
-        public U Item1;
-        public V Item2;
-        public W Item3;
-        public T4 Item4;
-        public T Item5;
     }
 
     public class X509Pal : Object
     {
-        public object Instance;
-
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7FFAC8E18680
+        public void get_Instance(){} // RVA: 0x7FFE871C0AB0
     }
 
     public class X509PalImpl : Object
     {
-        public byte[] SupportsLegacyBasicConstraintsExtension;
+        public byte[] signedData;
 
         // ── Methods ──
-        public void Import(){} // RVA: 0x7FFAC2C58F40 | overloaded x3
-        public void PEM(){} // RVA: 0x7FFAC8E187E0
-        public void ConvertData(){} // RVA: 0x7FFAC8E18A60
-        public void ImportFallback(){} // RVA: 0x7FFAC8E18C80 | overloaded x2
-        public void get_SupportsLegacyBasicConstraintsExtension(){} // RVA: 0x7FFAC2F21320
-        public void GetCertContentType(){} // RVA: 0x7FFAC8E18D00
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFAC8E19090
+        public void Import(){} // RVA: 0x7FFE80E2E390 | overloaded x3
+        public void PEM(){} // RVA: 0x7FFE871C0C10
+        public void ConvertData(){} // RVA: 0x7FFE871C0E90
+        public void ImportFallback(){} // RVA: 0x7FFE871C10B0 | overloaded x2
+        public void get_SupportsLegacyBasicConstraintsExtension(){} // RVA: 0x7FFE810FB320
+        public void GetCertContentType(){} // RVA: 0x7FFE871C1130
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE871C14C0
     }
 
     public class X509PalImplMono : X509PalImpl
     {
         // ── Methods ──
-        public void Import(){} // RVA: 0x7FFAC34F9180 | overloaded x3
-        public void .ctor(){} // RVA: 0x7FFAC8E18790
+        public void Import(){} // RVA: 0x7FFE813240E0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFE871C0BC0
     }
 
 }

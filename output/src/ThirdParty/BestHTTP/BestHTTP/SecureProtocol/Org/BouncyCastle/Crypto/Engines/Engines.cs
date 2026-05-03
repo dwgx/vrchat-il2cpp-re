@@ -7,1457 +7,1058 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.En
 {
     public class AesEngine : Object
     {
-        public byte[] AlgorithmName;
-        public byte[] IsPartialBlockOkay; // 0x8
-        public byte[] rcon; // 0x10
-        public uint[] T0; // 0x18
-        public uint[] Tinv0; // 0x20
-        public uint m1;
-        public uint m2;
-        public uint m3;
-        public uint m4;
-        public uint m5;
-        public int ROUNDS; // 0x10
-        public uint[][] WorkingKey; // 0x18
-        public uint C0; // 0x20
-        public uint C1; // 0x24
-        public uint C2; // 0x28
-        public uint C3; // 0x2C
-        public bool forEncryption; // 0x30
-        public byte[] s; // 0x38
-        public int BLOCK_SIZE;
+        public byte[] S;
+        public byte[] Si; // 0x8
 
         // ── Methods ──
-        public void Shift(){} // RVA: 0x7FFAC8430200
-        public void FFmulX(){} // RVA: 0x7FFACBBEF640
-        public void FFmulX2(){} // RVA: 0x7FFACBBEF660
-        public void Inv_Mcol(){} // RVA: 0x7FFACBBEF690
-        public void SubWord(){} // RVA: 0x7FFACBBEF750
-        public void GenerateWorkingKey(){} // RVA: 0x7FFACBBEF830
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Init(){} // RVA: 0x7FFACBBF0B80
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBBF0E50
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void ProcessBlock(){} // RVA: 0x7FFACBBF0E90
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void UnPackBlock(){} // RVA: 0x7FFACBBF1060
-        public void PackBlock(){} // RVA: 0x7FFACBBF1220
-        public void EncryptBlock(){} // RVA: 0x7FFACBBF13C0
-        public void DecryptBlock(){} // RVA: 0x7FFACBBF21B0
-        public void .cctor(){} // RVA: 0x7FFACBBF2F70
+        public void Shift(){} // RVA: 0x7FFE867D9B10
+        public void FFmulX(){} // RVA: 0x7FFE8A048C60
+        public void FFmulX2(){} // RVA: 0x7FFE8A048C80
+        public void Inv_Mcol(){} // RVA: 0x7FFE8A048CB0
+        public void SubWord(){} // RVA: 0x7FFE8A048D70
+        public void GenerateWorkingKey(){} // RVA: 0x7FFE8A048E50
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFE8A04A1A0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A04A470
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void ProcessBlock(){} // RVA: 0x7FFE8A04A4B0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void UnPackBlock(){} // RVA: 0x7FFE8A04A680
+        public void PackBlock(){} // RVA: 0x7FFE8A04A840
+        public void EncryptBlock(){} // RVA: 0x7FFE8A04A9E0
+        public void DecryptBlock(){} // RVA: 0x7FFE8A04B7D0
+        public void .cctor(){} // RVA: 0x7FFE8A04C590
     }
 
     public class AesFastEngine : Object
     {
-        public byte[] AlgorithmName;
-        public byte[] IsPartialBlockOkay; // 0x8
-        public byte[] rcon; // 0x10
-        public uint[] T0; // 0x18
-        public uint[] T1; // 0x20
-        public uint[] T2; // 0x28
-        public uint[] T3; // 0x30
-        public uint[] Tinv0; // 0x38
-        public uint[] Tinv1; // 0x40
-        public uint[] Tinv2; // 0x48
-        public uint[] Tinv3; // 0x50
-        public uint m1;
-        public uint m2;
-        public uint m3;
-        public uint m4;
-        public uint m5;
-        public int ROUNDS; // 0x10
-        public uint[][] WorkingKey; // 0x18
-        public uint C0; // 0x20
-        public uint C1; // 0x24
-        public uint C2; // 0x28
-        public uint C3; // 0x2C
-        public bool forEncryption; // 0x30
-        public int BLOCK_SIZE;
+        public byte[] S;
+        public byte[] Si; // 0x8
 
         // ── Methods ──
-        public void Shift(){} // RVA: 0x7FFAC8430200
-        public void FFmulX(){} // RVA: 0x7FFACBBEF640
-        public void FFmulX2(){} // RVA: 0x7FFACBBEF660
-        public void Inv_Mcol(){} // RVA: 0x7FFACBBF3300
-        public void SubWord(){} // RVA: 0x7FFACBBF33C0
-        public void GenerateWorkingKey(){} // RVA: 0x7FFACBBF34A0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Init(){} // RVA: 0x7FFACBBF47F0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBBF4970
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void ProcessBlock(){} // RVA: 0x7FFACBBF49B0
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void UnPackBlock(){} // RVA: 0x7FFACBBF1060
-        public void PackBlock(){} // RVA: 0x7FFACBBF1220
-        public void EncryptBlock(){} // RVA: 0x7FFACBBF4B80
-        public void DecryptBlock(){} // RVA: 0x7FFACBBF5790
-        public void .cctor(){} // RVA: 0x7FFACBBF63A0
+        public void Shift(){} // RVA: 0x7FFE867D9B10
+        public void FFmulX(){} // RVA: 0x7FFE8A048C60
+        public void FFmulX2(){} // RVA: 0x7FFE8A048C80
+        public void Inv_Mcol(){} // RVA: 0x7FFE8A04C920
+        public void SubWord(){} // RVA: 0x7FFE8A04C9E0
+        public void GenerateWorkingKey(){} // RVA: 0x7FFE8A04CAC0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFE8A04DE10
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A04DF90
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void ProcessBlock(){} // RVA: 0x7FFE8A04DFD0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void UnPackBlock(){} // RVA: 0x7FFE8A04A680
+        public void PackBlock(){} // RVA: 0x7FFE8A04A840
+        public void EncryptBlock(){} // RVA: 0x7FFE8A04E1A0
+        public void DecryptBlock(){} // RVA: 0x7FFE8A04EDB0
+        public void .cctor(){} // RVA: 0x7FFE8A04F9C0
     }
 
     public class AesLightEngine : Object
     {
-        public byte[] AlgorithmName;
-        public byte[] IsPartialBlockOkay; // 0x8
-        public byte[] rcon; // 0x10
-        public uint m1;
-        public uint m2;
-        public uint m3;
-        public uint m4;
-        public uint m5;
-        public int ROUNDS; // 0x10
-        public uint[][] WorkingKey; // 0x18
-        public uint C0; // 0x20
-        public uint C1; // 0x24
-        public uint C2; // 0x28
-        public uint C3; // 0x2C
-        public bool forEncryption; // 0x30
-        public int BLOCK_SIZE;
+        public byte[] S;
+        public byte[] Si; // 0x8
 
         // ── Methods ──
-        public void Shift(){} // RVA: 0x7FFAC8430200
-        public void FFmulX(){} // RVA: 0x7FFACBBEF640
-        public void FFmulX2(){} // RVA: 0x7FFACBBEF660
-        public void Mcol(){} // RVA: 0x7FFACBBF6AF0
-        public void Inv_Mcol(){} // RVA: 0x7FFACBBF6B80
-        public void SubWord(){} // RVA: 0x7FFACBBF6C40
-        public void GenerateWorkingKey(){} // RVA: 0x7FFACBBF6D20
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Init(){} // RVA: 0x7FFACBBF8070
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBBF81F0
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void ProcessBlock(){} // RVA: 0x7FFACBBF8230
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void UnPackBlock(){} // RVA: 0x7FFACBBF1060
-        public void PackBlock(){} // RVA: 0x7FFACBBF1220
-        public void EncryptBlock(){} // RVA: 0x7FFACBBF8400
-        public void DecryptBlock(){} // RVA: 0x7FFACBBF9650
-        public void .cctor(){} // RVA: 0x7FFACBBFA330
+        public void Shift(){} // RVA: 0x7FFE867D9B10
+        public void FFmulX(){} // RVA: 0x7FFE8A048C60
+        public void FFmulX2(){} // RVA: 0x7FFE8A048C80
+        public void Mcol(){} // RVA: 0x7FFE8A050110
+        public void Inv_Mcol(){} // RVA: 0x7FFE8A0501A0
+        public void SubWord(){} // RVA: 0x7FFE8A050260
+        public void GenerateWorkingKey(){} // RVA: 0x7FFE8A050340
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFE8A051690
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A051810
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void ProcessBlock(){} // RVA: 0x7FFE8A051850
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void UnPackBlock(){} // RVA: 0x7FFE8A04A680
+        public void PackBlock(){} // RVA: 0x7FFE8A04A840
+        public void EncryptBlock(){} // RVA: 0x7FFE8A051A20
+        public void DecryptBlock(){} // RVA: 0x7FFE8A052C70
+        public void .cctor(){} // RVA: 0x7FFE8A053950
     }
 
     public class AesWrapEngine : Rfc3394WrapEngine
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBBFA570
+        public void .ctor(){} // RVA: 0x7FFE8A053B90
     }
 
     public class BlowfishEngine : Object
     {
-        public uint[] AlgorithmName;
-        public uint[] IsPartialBlockOkay; // 0x8
-        public uint[] KS1; // 0x10
-        public uint[] KS2; // 0x18
-        public uint[] KS3; // 0x20
-        public int ROUNDS; // 0x28
-        public int BLOCK_SIZE;
-        public int SBOX_SK; // 0x2C
-        public int P_SZ; // 0x30
-        public uint[] S0; // 0x10
-        public uint[] S1; // 0x18
-        public uint[] S2; // 0x20
-        public uint[] S3; // 0x28
-        public uint[] P; // 0x30
-        public bool encrypting; // 0x38
-        public byte[] workingKey; // 0x40
+        public uint[] KP;
+        public uint[] KS0; // 0x8
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBBFA5C0
-        public void Init(){} // RVA: 0x7FFACBBFA860
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBBFAA10
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void ProcessBlock(){} // RVA: 0x7FFACBBFAA50
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void F(){} // RVA: 0x7FFACBBFAC10
-        public void ProcessTable(){} // RVA: 0x7FFACBBFACA0
-        public void SetKey(){} // RVA: 0x7FFACBBFAE50
-        public void EncryptBlock(){} // RVA: 0x7FFACBBFB1F0
-        public void DecryptBlock(){} // RVA: 0x7FFACBBFB5B0
-        public void .cctor(){} // RVA: 0x7FFACBBFB970
+        public void .ctor(){} // RVA: 0x7FFE8A053BE0
+        public void Init(){} // RVA: 0x7FFE8A053E80
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A054030
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void ProcessBlock(){} // RVA: 0x7FFE8A054070
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void F(){} // RVA: 0x7FFE8A054230
+        public void ProcessTable(){} // RVA: 0x7FFE8A0542C0
+        public void SetKey(){} // RVA: 0x7FFE8A054470
+        public void EncryptBlock(){} // RVA: 0x7FFE8A054810
+        public void DecryptBlock(){} // RVA: 0x7FFE8A054BD0
+        public void .cctor(){} // RVA: 0x7FFE8A054F90
     }
 
     public class CamelliaEngine : Object
     {
-        public bool AlgorithmName; // 0x10
-        public bool IsPartialBlockOkay; // 0x11
-        public int BLOCK_SIZE;
-        public uint[] subkey; // 0x18
-        public uint[] kw; // 0x20
-        public uint[] ke; // 0x28
-        public uint[] state; // 0x30
-        public uint[] SIGMA;
-        public uint[] SBOX1_1110; // 0x8
-        public uint[] SBOX4_4404; // 0x10
-        public uint[] SBOX2_0222; // 0x18
-        public uint[] SBOX3_3033; // 0x20
+        public bool initialised; // 0x10
+        public bool _keyIs128; // 0x11
 
         // ── Methods ──
-        public void rightRotate(){} // RVA: 0x7FFACBBFBD30
-        public void leftRotate(){} // RVA: 0x7FFACBBFBD50
-        public void roldq(){} // RVA: 0x7FFACBBFBD70
-        public void decroldq(){} // RVA: 0x7FFACBBFBF30
-        public void roldqo32(){} // RVA: 0x7FFACBBFC100
-        public void decroldqo32(){} // RVA: 0x7FFACBBFC2C0
-        public void bytes2uint(){} // RVA: 0x7FFACBBFC490
-        public void uint2bytes(){} // RVA: 0x7FFACBBFC4E0
-        public void camelliaF2(){} // RVA: 0x7FFACBBFC520
-        public void camelliaFLs(){} // RVA: 0x7FFACBBFC8D0
-        public void setKey(){} // RVA: 0x7FFACBBFC9F0
-        public void processBlock128(){} // RVA: 0x7FFACBBFE090
-        public void processBlock192or256(){} // RVA: 0x7FFACBBFE5C0
-        public void .ctor(){} // RVA: 0x7FFACBBFEB40
-        public void Init(){} // RVA: 0x7FFACBBFED10
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBBFEE30
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void ProcessBlock(){} // RVA: 0x7FFACBBFEE70
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFACBBFF020
+        public void rightRotate(){} // RVA: 0x7FFE8A055350
+        public void leftRotate(){} // RVA: 0x7FFE8A055370
+        public void roldq(){} // RVA: 0x7FFE8A055390
+        public void decroldq(){} // RVA: 0x7FFE8A055550
+        public void roldqo32(){} // RVA: 0x7FFE8A055720
+        public void decroldqo32(){} // RVA: 0x7FFE8A0558E0
+        public void bytes2uint(){} // RVA: 0x7FFE8A055AB0
+        public void uint2bytes(){} // RVA: 0x7FFE8A055B00
+        public void camelliaF2(){} // RVA: 0x7FFE8A055B40
+        public void camelliaFLs(){} // RVA: 0x7FFE8A055EF0
+        public void setKey(){} // RVA: 0x7FFE8A056010
+        public void processBlock128(){} // RVA: 0x7FFE8A0576B0
+        public void processBlock192or256(){} // RVA: 0x7FFE8A057BE0
+        public void .ctor(){} // RVA: 0x7FFE8A058160
+        public void Init(){} // RVA: 0x7FFE8A058330
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A058450
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void ProcessBlock(){} // RVA: 0x7FFE8A058490
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE8A058640
     }
 
     public class CamelliaLightEngine : Object
     {
-        public int AlgorithmName;
-        public bool IsPartialBlockOkay; // 0x10
-        public bool _keyis128; // 0x11
-        public uint[] subkey; // 0x18
-        public uint[] kw; // 0x20
-        public uint[] ke; // 0x28
-        public uint[] state; // 0x30
-        public uint[] SIGMA;
-        public byte[] SBOX1; // 0x8
+        public int BLOCK_SIZE;
+        public bool initialised; // 0x10
 
         // ── Methods ──
-        public void rightRotate(){} // RVA: 0x7FFACBBFBD30
-        public void leftRotate(){} // RVA: 0x7FFACBBFBD50
-        public void roldq(){} // RVA: 0x7FFACBBFBD70
-        public void decroldq(){} // RVA: 0x7FFACBBFBF30
-        public void roldqo32(){} // RVA: 0x7FFACBBFC100
-        public void decroldqo32(){} // RVA: 0x7FFACBBFC2C0
-        public void bytes2uint(){} // RVA: 0x7FFACBBFC490
-        public void uint2bytes(){} // RVA: 0x7FFACBBFC4E0
-        public void lRot8(){} // RVA: 0x7FFACBBFF3A0
-        public void sbox2(){} // RVA: 0x7FFACBBFF3C0
-        public void sbox3(){} // RVA: 0x7FFACBBFF450
-        public void sbox4(){} // RVA: 0x7FFACBBFF4E0
-        public void camelliaF2(){} // RVA: 0x7FFACBBFF570
-        public void camelliaFLs(){} // RVA: 0x7FFACBBFF910
-        public void setKey(){} // RVA: 0x7FFACBBFFA30
-        public void processBlock128(){} // RVA: 0x7FFACBC010F0
-        public void processBlock192or256(){} // RVA: 0x7FFACBC01660
-        public void .ctor(){} // RVA: 0x7FFACBC01C30
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC01E00
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void Init(){} // RVA: 0x7FFACBC01E40
-        public void ProcessBlock(){} // RVA: 0x7FFACBC01F60
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFACBC02110
+        public void rightRotate(){} // RVA: 0x7FFE8A055350
+        public void leftRotate(){} // RVA: 0x7FFE8A055370
+        public void roldq(){} // RVA: 0x7FFE8A055390
+        public void decroldq(){} // RVA: 0x7FFE8A055550
+        public void roldqo32(){} // RVA: 0x7FFE8A055720
+        public void decroldqo32(){} // RVA: 0x7FFE8A0558E0
+        public void bytes2uint(){} // RVA: 0x7FFE8A055AB0
+        public void uint2bytes(){} // RVA: 0x7FFE8A055B00
+        public void lRot8(){} // RVA: 0x7FFE8A0589C0
+        public void sbox2(){} // RVA: 0x7FFE8A0589E0
+        public void sbox3(){} // RVA: 0x7FFE8A058A70
+        public void sbox4(){} // RVA: 0x7FFE8A058B00
+        public void camelliaF2(){} // RVA: 0x7FFE8A058B90
+        public void camelliaFLs(){} // RVA: 0x7FFE8A058F30
+        public void setKey(){} // RVA: 0x7FFE8A059050
+        public void processBlock128(){} // RVA: 0x7FFE8A05A710
+        public void processBlock192or256(){} // RVA: 0x7FFE8A05AC80
+        public void .ctor(){} // RVA: 0x7FFE8A05B250
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A05B420
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void Init(){} // RVA: 0x7FFE8A05B460
+        public void ProcessBlock(){} // RVA: 0x7FFE8A05B580
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE8A05B730
     }
 
     public class CamelliaWrapEngine : Rfc3394WrapEngine
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC022C0
+        public void .ctor(){} // RVA: 0x7FFE8A05B8E0
     }
 
     public class Cast5Engine : Object
     {
-        public uint[] AlgorithmName;
-        public uint[] IsPartialBlockOkay; // 0x8
-        public uint[] S3; // 0x10
-        public uint[] S4; // 0x18
-        public uint[] S5; // 0x20
-        public uint[] S6; // 0x28
-        public uint[] S7; // 0x30
-        public uint[] S8; // 0x38
-        public int MAX_ROUNDS; // 0x40
-        public int RED_ROUNDS; // 0x44
-        public int BLOCK_SIZE;
-        public int[] _Kr; // 0x10
-        public uint[] _Km; // 0x18
-        public bool _encrypting; // 0x20
-        public byte[] _workingKey; // 0x28
-        public int _rounds; // 0x30
+        public uint[] S1;
+        public uint[] S2; // 0x8
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC02320
-        public void Init(){} // RVA: 0x7FFACBC02470
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC02650
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void ProcessBlock(){} // RVA: 0x7FFACBC02690
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void SetKey(){} // RVA: 0x7FFACBC02890
-        public void EncryptBlock(){} // RVA: 0x7FFACBC07F00
-        public void DecryptBlock(){} // RVA: 0x7FFACBC08130
-        public void F1(){} // RVA: 0x7FFACBC08360
-        public void F2(){} // RVA: 0x7FFACBC08480
-        public void F3(){} // RVA: 0x7FFACBC085A0
-        public void CAST_Encipher(){} // RVA: 0x7FFACBC086C0
-        public void CAST_Decipher(){} // RVA: 0x7FFACBC08900
-        public void Bits32ToInts(){} // RVA: 0x7FFACBC08B40
-        public void IntsTo32bits(){} // RVA: 0x7FFACBC08BC0
-        public void .cctor(){} // RVA: 0x7FFACBC08C40
+        public void .ctor(){} // RVA: 0x7FFE8A05B940
+        public void Init(){} // RVA: 0x7FFE8A05BA90
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A05BC70
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void ProcessBlock(){} // RVA: 0x7FFE8A05BCB0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void SetKey(){} // RVA: 0x7FFE8A05BEB0
+        public void EncryptBlock(){} // RVA: 0x7FFE8A061520
+        public void DecryptBlock(){} // RVA: 0x7FFE8A061750
+        public void F1(){} // RVA: 0x7FFE8A061980
+        public void F2(){} // RVA: 0x7FFE8A061AA0
+        public void F3(){} // RVA: 0x7FFE8A061BC0
+        public void CAST_Encipher(){} // RVA: 0x7FFE8A061CE0
+        public void CAST_Decipher(){} // RVA: 0x7FFE8A061F20
+        public void Bits32ToInts(){} // RVA: 0x7FFE8A062160
+        public void IntsTo32bits(){} // RVA: 0x7FFE8A0621E0
+        public void .cctor(){} // RVA: 0x7FFE8A062260
     }
 
     public class Cast6Engine : Cast5Engine
     {
-        public int AlgorithmName;
-        public int BLOCK_SIZE;
-        public int[] _Kr; // 0x38
-        public uint[] _Km; // 0x40
-        public int[] _Tr; // 0x48
-        public uint[] _Tm; // 0x50
-        public uint[] _workingKey; // 0x58
+        public int ROUNDS;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC091C0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC09430
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void SetKey(){} // RVA: 0x7FFACBC09470
-        public void EncryptBlock(){} // RVA: 0x7FFACBC0A040
-        public void DecryptBlock(){} // RVA: 0x7FFACBC0A420
-        public void CAST_Encipher(){} // RVA: 0x7FFACBC0A800
-        public void CAST_Decipher(){} // RVA: 0x7FFACBC0AB80
+        public void .ctor(){} // RVA: 0x7FFE8A0627E0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A062A50
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void SetKey(){} // RVA: 0x7FFE8A062A90
+        public void EncryptBlock(){} // RVA: 0x7FFE8A063660
+        public void DecryptBlock(){} // RVA: 0x7FFE8A063A40
+        public void CAST_Encipher(){} // RVA: 0x7FFE8A063E20
+        public void CAST_Decipher(){} // RVA: 0x7FFE8A0641A0
     }
 
     public class ChaCha7539Engine : Salsa20Engine
     {
-        public object AlgorithmName;
-        public object NonceSize;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC0AF00
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC0AFA0
-        public void get_NonceSize(){} // RVA: 0x7FFAC530B5A0
-        public void AdvanceCounter(){} // RVA: 0x7FFACBC0AFF0
-        public void ResetCounter(){} // RVA: 0x7FFACBC0B070
-        public void SetKey(){} // RVA: 0x7FFACBC0B0A0
-        public void GenerateKeyStream(){} // RVA: 0x7FFACBC0B2B0
+        public void .ctor(){} // RVA: 0x7FFE8A064520
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0645C0
+        public void get_NonceSize(){} // RVA: 0x7FFE835C1DE0
+        public void AdvanceCounter(){} // RVA: 0x7FFE8A064610
+        public void ResetCounter(){} // RVA: 0x7FFE8A064690
+        public void SetKey(){} // RVA: 0x7FFE8A0646C0
+        public void GenerateKeyStream(){} // RVA: 0x7FFE8A0648D0
     }
 
     public class ChaChaEngine : Salsa20Engine
     {
-        public object AlgorithmName;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC0B410 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC0B470
-        public void AdvanceCounter(){} // RVA: 0x7FFACBC0B4C0
-        public void ResetCounter(){} // RVA: 0x7FFACBC0B500
-        public void SetKey(){} // RVA: 0x7FFACBC0B540
-        public void GenerateKeyStream(){} // RVA: 0x7FFACBC0B2B0
-        public void ChachaCore(){} // RVA: 0x7FFACBC0B800
+        public void .ctor(){} // RVA: 0x7FFE8A064A30 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A064A90
+        public void AdvanceCounter(){} // RVA: 0x7FFE8A064AE0
+        public void ResetCounter(){} // RVA: 0x7FFE8A064B20
+        public void SetKey(){} // RVA: 0x7FFE8A064B60
+        public void GenerateKeyStream(){} // RVA: 0x7FFE8A0648D0
+        public void ChachaCore(){} // RVA: 0x7FFE8A064E20
     }
 
     public class DesEdeEngine : DesEngine
     {
-        public int[] AlgorithmName; // 0x18
-        public int[] workingKey2; // 0x20
-        public int[] workingKey3; // 0x28
-        public bool forEncryption; // 0x30
+        public int[] workingKey1; // 0x18
 
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFACBC0BF70
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC0C3D0
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void ProcessBlock(){} // RVA: 0x7FFACBC0C410
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void .ctor(){} // RVA: 0x7FFACBC0C6A0
+        public void Init(){} // RVA: 0x7FFE8A065590
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0659F0
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void ProcessBlock(){} // RVA: 0x7FFE8A065A30
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFE8A065CC0
     }
 
     public class DesEdeWrapEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.CbcBlockCipher AlgorithmName; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter param; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ParametersWithIV paramPlusIV; // 0x20
-        public byte[] iv; // 0x28
-        public bool forWrapping; // 0x30
-        public byte[] IV2;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest sha1; // 0x38
-        public byte[] digest; // 0x40
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.CbcBlockCipher engine; // 0x10
 
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFACBC0C6F0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC0CD40
-        public void Wrap(){} // RVA: 0x7FFACBC0CD80
-        public void Unwrap(){} // RVA: 0x7FFACBC0D1E0
-        public void CalculateCmsKeyChecksum(){} // RVA: 0x7FFACBC0D870
-        public void CheckCmsKeyChecksum(){} // RVA: 0x7FFACBC0D960
-        public void reverse(){} // RVA: 0x7FFACBC0DA40
-        public void .ctor(){} // RVA: 0x7FFACBC0DAD0
-        public void .cctor(){} // RVA: 0x7FFACBC0DBF0
+        public void Init(){} // RVA: 0x7FFE8A065D10
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A066360
+        public void Wrap(){} // RVA: 0x7FFE8A0663A0
+        public void Unwrap(){} // RVA: 0x7FFE8A066800
+        public void CalculateCmsKeyChecksum(){} // RVA: 0x7FFE8A066E90
+        public void CheckCmsKeyChecksum(){} // RVA: 0x7FFE8A066F80
+        public void reverse(){} // RVA: 0x7FFE8A067060
+        public void .ctor(){} // RVA: 0x7FFE8A0670F0
+        public void .cctor(){} // RVA: 0x7FFE8A067210
     }
 
     public class DesEngine : Object
     {
-        public int AlgorithmName;
-        public int[] IsPartialBlockOkay; // 0x10
-        public short[] bytebit;
-        public int[] bigbyte; // 0x8
-        public byte[] pc1; // 0x10
-        public byte[] totrot; // 0x18
-        public byte[] pc2; // 0x20
-        public uint[] SP1; // 0x28
-        public uint[] SP2; // 0x30
-        public uint[] SP3; // 0x38
-        public uint[] SP4; // 0x40
-        public uint[] SP5; // 0x48
-        public uint[] SP6; // 0x50
-        public uint[] SP7; // 0x58
-        public uint[] SP8; // 0x60
+        public int BLOCK_SIZE;
+        public int[] workingKey; // 0x10
 
         // ── Methods ──
-        public void GetWorkingKey(){} // RVA: 0x7FFAC2F3C380
-        public void Init(){} // RVA: 0x7FFACBC0DCD0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC0DEA0
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void ProcessBlock(){} // RVA: 0x7FFACBC0DEE0
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void GenerateWorkingKey(){} // RVA: 0x7FFACBC0E0B0
-        public void DesFunc(){} // RVA: 0x7FFACBC0E640
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFACBC0ED20
+        public void GetWorkingKey(){} // RVA: 0x7FFE81116380
+        public void Init(){} // RVA: 0x7FFE8A0672F0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0674C0
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void ProcessBlock(){} // RVA: 0x7FFE8A067500
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void GenerateWorkingKey(){} // RVA: 0x7FFE8A0676D0
+        public void DesFunc(){} // RVA: 0x7FFE8A067C60
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE8A068340
     }
 
     public class Dstu7624Engine : Object
     {
-        public ulong[] AlgorithmName; // 0x10
-        public ulong[] IsPartialBlockOkay; // 0x18
-        public ulong[][] roundKeys; // 0x20
-        public int wordsInBlock; // 0x28
-        public int wordsInKey; // 0x2C
-        public int ROUNDS_128;
-        public int ROUNDS_256;
-        public int ROUNDS_512;
-        public int roundsAmount; // 0x30
-        public bool forEncryption; // 0x34
-        public ulong mdsMatrix;
-        public ulong mdsInvMatrix;
-        public byte[] S0;
-        public byte[] S1; // 0x8
-        public byte[] S2; // 0x10
-        public byte[] S3; // 0x18
-        public byte[] T0; // 0x20
-        public byte[] T1; // 0x28
-        public byte[] T2; // 0x30
-        public byte[] T3; // 0x38
+        public ulong[] internalState; // 0x10
+        public ulong[] workingKey; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC0F5E0
-        public void Init(){} // RVA: 0x7FFACBC0F6E0
-        public void WorkingKeyExpandKT(){} // RVA: 0x7FFACBC0FBC0
-        public void WorkingKeyExpandEven(){} // RVA: 0x7FFACBC0FEA0
-        public void WorkingKeyExpandOdd(){} // RVA: 0x7FFACBC10350
-        public void ProcessBlock(){} // RVA: 0x7FFACBC103C0
-        public void EncryptionRound(){} // RVA: 0x7FFACBC10750
-        public void DecryptionRound(){} // RVA: 0x7FFACBC10810
-        public void DecryptBlock_128(){} // RVA: 0x7FFACBC108D0
-        public void EncryptBlock_128(){} // RVA: 0x7FFACBC10E60
-        public void SubBytes(){} // RVA: 0x7FFACBC114D0
-        public void InvSubBytes(){} // RVA: 0x7FFACBC11770
-        public void ShiftRows(){} // RVA: 0x7FFACBC11A10
-        public void InvShiftRows(){} // RVA: 0x7FFACBC11E80
-        public void AddRoundKey(){} // RVA: 0x7FFACBC122F0
-        public void SubRoundKey(){} // RVA: 0x7FFACBC12360
-        public void XorRoundKey(){} // RVA: 0x7FFACBC123D0
-        public void MixColumn(){} // RVA: 0x7FFACBC12440
-        public void MixColumns(){} // RVA: 0x7FFACBC12570
-        public void MixColumnInv(){} // RVA: 0x7FFACBC12620
-        public void MixColumnsInv(){} // RVA: 0x7FFACBC12830
-        public void MulX(){} // RVA: 0x7FFACBC128E0
-        public void MulX2(){} // RVA: 0x7FFACBC12910
-        public void Rotate(){} // RVA: 0x7FFACBC12960
-        public void RotateLeft(){} // RVA: 0x7FFACBC12980
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC12CC0
-        public void GetBlockSize(){} // RVA: 0x7FFACBC12D00
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void Reset(){} // RVA: 0x7FFACBC12D10
-        public void .cctor(){} // RVA: 0x7FFACBC12D40
+        public void .ctor(){} // RVA: 0x7FFE8A068C00
+        public void Init(){} // RVA: 0x7FFE8A068D00
+        public void WorkingKeyExpandKT(){} // RVA: 0x7FFE8A0691E0
+        public void WorkingKeyExpandEven(){} // RVA: 0x7FFE8A0694C0
+        public void WorkingKeyExpandOdd(){} // RVA: 0x7FFE8A069970
+        public void ProcessBlock(){} // RVA: 0x7FFE8A0699E0
+        public void EncryptionRound(){} // RVA: 0x7FFE8A069D70
+        public void DecryptionRound(){} // RVA: 0x7FFE8A069E30
+        public void DecryptBlock_128(){} // RVA: 0x7FFE8A069EF0
+        public void EncryptBlock_128(){} // RVA: 0x7FFE8A06A480
+        public void SubBytes(){} // RVA: 0x7FFE8A06AAF0
+        public void InvSubBytes(){} // RVA: 0x7FFE8A06AD90
+        public void ShiftRows(){} // RVA: 0x7FFE8A06B030
+        public void InvShiftRows(){} // RVA: 0x7FFE8A06B4A0
+        public void AddRoundKey(){} // RVA: 0x7FFE8A06B910
+        public void SubRoundKey(){} // RVA: 0x7FFE8A06B980
+        public void XorRoundKey(){} // RVA: 0x7FFE8A06B9F0
+        public void MixColumn(){} // RVA: 0x7FFE8A06BA60
+        public void MixColumns(){} // RVA: 0x7FFE8A06BB90
+        public void MixColumnInv(){} // RVA: 0x7FFE8A06BC40
+        public void MixColumnsInv(){} // RVA: 0x7FFE8A06BE50
+        public void MulX(){} // RVA: 0x7FFE8A06BF00
+        public void MulX2(){} // RVA: 0x7FFE8A06BF30
+        public void Rotate(){} // RVA: 0x7FFE8A06BF80
+        public void RotateLeft(){} // RVA: 0x7FFE8A06BFA0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A06C2E0
+        public void GetBlockSize(){} // RVA: 0x7FFE8A06C320
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void Reset(){} // RVA: 0x7FFE8A06C330
+        public void .cctor(){} // RVA: 0x7FFE8A06C360
     }
 
     public class Dstu7624WrapEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter AlgorithmName; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Engines.Dstu7624Engine engine; // 0x18
-        public bool forWrapping; // 0x20
-        public int blockSize; // 0x24
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter param; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC132A0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC133C0
-        public void Init(){} // RVA: 0x7FFACBC13400
-        public void Wrap(){} // RVA: 0x7FFACBC135C0
-        public void Unwrap(){} // RVA: 0x7FFACBC13E00
+        public void .ctor(){} // RVA: 0x7FFE8A06C8C0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A06C9E0
+        public void Init(){} // RVA: 0x7FFE8A06CA20
+        public void Wrap(){} // RVA: 0x7FFE8A06CBE0
+        public void Unwrap(){} // RVA: 0x7FFE8A06D420
     }
 
     public class ElGamalEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters AlgorithmName; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x18
-        public bool forEncryption; // 0x20
-        public int bitSize; // 0x24
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters key; // 0x10
 
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC147A0
-        public void Init(){} // RVA: 0x7FFACBC147E0
-        public void GetInputBlockSize(){} // RVA: 0x7FFACBC14CD0
-        public void GetOutputBlockSize(){} // RVA: 0x7FFACBC14D00
-        public void ProcessBlock(){} // RVA: 0x7FFACBC14D30
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A06DDC0
+        public void Init(){} // RVA: 0x7FFE8A06DE00
+        public void GetInputBlockSize(){} // RVA: 0x7FFE8A06E2F0
+        public void GetOutputBlockSize(){} // RVA: 0x7FFE8A06E320
+        public void ProcessBlock(){} // RVA: 0x7FFE8A06E350
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class Gost28147Engine : Object
     {
-        public int AlgorithmName;
-        public int[] IsPartialBlockOkay; // 0x10
-        public bool forEncryption; // 0x18
-        public byte[] S; // 0x20
-        public byte[] Sbox_Default;
-        public byte[] ESbox_Test; // 0x8
-        public byte[] ESbox_A; // 0x10
-        public byte[] ESbox_B; // 0x18
-        public byte[] ESbox_C; // 0x20
-        public byte[] ESbox_D; // 0x28
-        public byte[] DSbox_Test; // 0x30
-        public byte[] DSbox_A; // 0x38
-        public System.Collections.IDictionary sBoxes; // 0x40
+        public int BlockSize;
+        public int[] workingKey; // 0x10
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFACBC15310
-        public void AddSBox(){} // RVA: 0x7FFACBC15AC0
-        public void .ctor(){} // RVA: 0x7FFACBC15BA0
-        public void Init(){} // RVA: 0x7FFACBC15C50
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC16080
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void ProcessBlock(){} // RVA: 0x7FFACBC160C0
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void generateWorkingKey(){} // RVA: 0x7FFACBC16270
-        public void Gost28147_mainStep(){} // RVA: 0x7FFACBC163E0
-        public void Gost28147Func(){} // RVA: 0x7FFACBC16550
-        public void bytesToint(){} // RVA: 0x7FFACBBD0ED0
-        public void intTobytes(){} // RVA: 0x7FFACBBD0F50
-        public void GetSBox(){} // RVA: 0x7FFACBC168A0
-        public void GetSBoxName(){} // RVA: 0x7FFACBC16A80
+        public void .cctor(){} // RVA: 0x7FFE8A06E930
+        public void AddSBox(){} // RVA: 0x7FFE8A06F0E0
+        public void .ctor(){} // RVA: 0x7FFE8A06F1C0
+        public void Init(){} // RVA: 0x7FFE8A06F270
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A06F6A0
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void ProcessBlock(){} // RVA: 0x7FFE8A06F6E0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void generateWorkingKey(){} // RVA: 0x7FFE8A06F890
+        public void Gost28147_mainStep(){} // RVA: 0x7FFE8A06FA00
+        public void Gost28147Func(){} // RVA: 0x7FFE8A06FB70
+        public void bytesToint(){} // RVA: 0x7FFE8A02A4F0
+        public void intTobytes(){} // RVA: 0x7FFE8A02A570
+        public void GetSBox(){} // RVA: 0x7FFE8A06FEC0
+        public void GetSBoxName(){} // RVA: 0x7FFE8A0700A0
     }
 
     public class HC128Engine : Object
     {
-        public uint[] AlgorithmName; // 0x10
-        public uint[] q; // 0x18
-        public uint cnt; // 0x20
-        public byte[] key; // 0x28
-        public byte[] iv; // 0x30
-        public bool initialised; // 0x38
-        public byte[] buf; // 0x40
-        public int idx; // 0x48
+        public uint[] p; // 0x10
 
         // ── Methods ──
-        public void F1(){} // RVA: 0x7FFACBC16E00
-        public void F2(){} // RVA: 0x7FFACBC16E30
-        public void G1(){} // RVA: 0x7FFACBC16E60
-        public void G2(){} // RVA: 0x7FFACBC16E90
-        public void RotateLeft(){} // RVA: 0x7FFAC862E4A0
-        public void RotateRight(){} // RVA: 0x7FFAC8430200
-        public void H1(){} // RVA: 0x7FFACBC16EC0
-        public void H2(){} // RVA: 0x7FFACBC16F10
-        public void Mod1024(){} // RVA: 0x7FFACBC16F60
-        public void Mod512(){} // RVA: 0x7FFACBC16F70
-        public void Dim(){} // RVA: 0x7FFACBC16F80
-        public void Step(){} // RVA: 0x7FFACBC16F90
-        public void Init(){} // RVA: 0x7FFACBC175B0 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC17570
-        public void GetByte(){} // RVA: 0x7FFACBC17920
-        public void ProcessBytes(){} // RVA: 0x7FFACBC179B0
-        public void Reset(){} // RVA: 0x7FFACBC17C50
-        public void ReturnByte(){} // RVA: 0x7FFACBC17C60
-        public void .ctor(){} // RVA: 0x7FFACBC17C80
+        public void F1(){} // RVA: 0x7FFE8A070420
+        public void F2(){} // RVA: 0x7FFE8A070450
+        public void G1(){} // RVA: 0x7FFE8A070480
+        public void G2(){} // RVA: 0x7FFE8A0704B0
+        public void RotateLeft(){} // RVA: 0x7FFE869D7C70
+        public void RotateRight(){} // RVA: 0x7FFE867D9B10
+        public void H1(){} // RVA: 0x7FFE8A0704E0
+        public void H2(){} // RVA: 0x7FFE8A070530
+        public void Mod1024(){} // RVA: 0x7FFE8A070580
+        public void Mod512(){} // RVA: 0x7FFE8A070590
+        public void Dim(){} // RVA: 0x7FFE8A0705A0
+        public void Step(){} // RVA: 0x7FFE8A0705B0
+        public void Init(){} // RVA: 0x7FFE8A070BD0 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A070B90
+        public void GetByte(){} // RVA: 0x7FFE8A070F40
+        public void ProcessBytes(){} // RVA: 0x7FFE8A070FD0
+        public void Reset(){} // RVA: 0x7FFE8A071270
+        public void ReturnByte(){} // RVA: 0x7FFE8A071280
+        public void .ctor(){} // RVA: 0x7FFE8A0712A0
     }
 
     public class HC256Engine : Object
     {
-        public uint[] AlgorithmName; // 0x10
-        public uint[] q; // 0x18
-        public uint cnt; // 0x20
-        public byte[] key; // 0x28
-        public byte[] iv; // 0x30
-        public bool initialised; // 0x38
-        public byte[] buf; // 0x40
-        public int idx; // 0x48
+        public uint[] p; // 0x10
 
         // ── Methods ──
-        public void Step(){} // RVA: 0x7FFACBC17E00
-        public void Init(){} // RVA: 0x7FFACBC18680 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC18640
-        public void GetByte(){} // RVA: 0x7FFACBC189F0
-        public void ProcessBytes(){} // RVA: 0x7FFACBC18A80
-        public void Reset(){} // RVA: 0x7FFACBC18D20
-        public void ReturnByte(){} // RVA: 0x7FFACBC18D30
-        public void RotateRight(){} // RVA: 0x7FFAC8430200
-        public void .ctor(){} // RVA: 0x7FFACBC18D50
+        public void Step(){} // RVA: 0x7FFE8A071420
+        public void Init(){} // RVA: 0x7FFE8A071CA0 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A071C60
+        public void GetByte(){} // RVA: 0x7FFE8A072010
+        public void ProcessBytes(){} // RVA: 0x7FFE8A0720A0
+        public void Reset(){} // RVA: 0x7FFE8A072340
+        public void ReturnByte(){} // RVA: 0x7FFE8A072350
+        public void RotateRight(){} // RVA: 0x7FFE867D9B10
+        public void .ctor(){} // RVA: 0x7FFE8A072370
     }
 
     public class IdeaEngine : Object
     {
-        public int AlgorithmName;
-        public int[] IsPartialBlockOkay; // 0x10
-        public int MASK;
-        public int BASE; // 0x4
+        public int BLOCK_SIZE;
+        public int[] workingKey; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Init(){} // RVA: 0x7FFACBC18ED0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC19080
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void ProcessBlock(){} // RVA: 0x7FFACBC190C0
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void BytesToWord(){} // RVA: 0x7FFACBC19270
-        public void WordToBytes(){} // RVA: 0x7FFACBC192B0
-        public void Mul(){} // RVA: 0x7FFACBC192F0
-        public void IdeaFunc(){} // RVA: 0x7FFACBC193F0
-        public void ExpandKey(){} // RVA: 0x7FFACBC197C0
-        public void MulInv(){} // RVA: 0x7FFACBC199B0
-        public void AddInv(){} // RVA: 0x7FFACBC19B00
-        public void InvertKey(){} // RVA: 0x7FFACBC19B60
-        public void GenerateWorkingKey(){} // RVA: 0x7FFACBC1A090
-        public void .cctor(){} // RVA: 0x7FFACBC1A0D0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFE8A0724F0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0726A0
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void ProcessBlock(){} // RVA: 0x7FFE8A0726E0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void BytesToWord(){} // RVA: 0x7FFE8A072890
+        public void WordToBytes(){} // RVA: 0x7FFE8A0728D0
+        public void Mul(){} // RVA: 0x7FFE8A072910
+        public void IdeaFunc(){} // RVA: 0x7FFE8A072A10
+        public void ExpandKey(){} // RVA: 0x7FFE8A072DE0
+        public void MulInv(){} // RVA: 0x7FFE8A072FD0
+        public void AddInv(){} // RVA: 0x7FFE8A073120
+        public void InvertKey(){} // RVA: 0x7FFE8A073180
+        public void GenerateWorkingKey(){} // RVA: 0x7FFE8A0736B0
+        public void .cctor(){} // RVA: 0x7FFE8A0736F0
     }
 
     public class IesEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBasicAgreement agree; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDerivationFunction kdf; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IMac mac; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.BufferedBlockCipher cipher; // 0x28
-        public byte[] macBuf; // 0x30
-        public bool forEncryption; // 0x38
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters privParam; // 0x40
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters pubParam; // 0x48
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.IesParameters param; // 0x50
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC1A320 | overloaded x2
-        public void Init(){} // RVA: 0x7FFACBC1A560
-        public void DecryptBlock(){} // RVA: 0x7FFACBC1A750
-        public void EncryptBlock(){} // RVA: 0x7FFACBC1ACD0
-        public void GenerateKdfBytes(){} // RVA: 0x7FFACBC1B180
-        public void ProcessBlock(){} // RVA: 0x7FFACBC1B240
+        public void .ctor(){} // RVA: 0x7FFE8A073940 | overloaded x2
+        public void Init(){} // RVA: 0x7FFE8A073B80
+        public void DecryptBlock(){} // RVA: 0x7FFE8A073D70
+        public void EncryptBlock(){} // RVA: 0x7FFE8A0742F0
+        public void GenerateKdfBytes(){} // RVA: 0x7FFE8A0747A0
+        public void ProcessBlock(){} // RVA: 0x7FFE8A074860
     }
 
     public class IsaacEngine : Object
     {
-        public int AlgorithmName;
-        public int stateArraySize; // 0x4
-        public uint[] engineState; // 0x10
-        public uint[] results; // 0x18
-        public uint a; // 0x20
-        public uint b; // 0x24
-        public uint c; // 0x28
-        public int index; // 0x2C
-        public byte[] keyStream; // 0x30
-        public byte[] workingKey; // 0x38
-        public bool initialised; // 0x40
+        public int sizeL;
 
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFACBC1B3B0
-        public void ReturnByte(){} // RVA: 0x7FFACBC1B500
-        public void ProcessBytes(){} // RVA: 0x7FFACBC1B5B0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC1B810
-        public void Reset(){} // RVA: 0x7FFACBC1B850
-        public void setKey(){} // RVA: 0x7FFACBC1B860
-        public void isaac(){} // RVA: 0x7FFACBC1BDF0
-        public void mix(){} // RVA: 0x7FFACBC1BF60
-        public void .ctor(){} // RVA: 0x7FFACBC1C1A0
-        public void .cctor(){} // RVA: 0x7FFACBC1C270
+        public void Init(){} // RVA: 0x7FFE8A0749D0
+        public void ReturnByte(){} // RVA: 0x7FFE8A074B20
+        public void ProcessBytes(){} // RVA: 0x7FFE8A074BD0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A074E30
+        public void Reset(){} // RVA: 0x7FFE8A074E70
+        public void setKey(){} // RVA: 0x7FFE8A074E80
+        public void isaac(){} // RVA: 0x7FFE8A075410
+        public void mix(){} // RVA: 0x7FFE8A075580
+        public void .ctor(){} // RVA: 0x7FFE8A0757C0
+        public void .cctor(){} // RVA: 0x7FFE8A075890
     }
 
     public class NaccacheSternEngine : Object
     {
-        public bool AlgorithmName; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.NaccacheSternKeyParameters Debug; // 0x18
-        public System.Collections.IList[] lookup; // 0x20
+        public bool forEncryption; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.NaccacheSternKeyParameters key; // 0x18
 
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC1C2D0
-        public void Init(){} // RVA: 0x7FFACBC1C310
-        public void set_Debug(){} // RVA: 0x7FFAC2F21310
-        public void GetInputBlockSize(){} // RVA: 0x7FFACBC1C900
-        public void GetOutputBlockSize(){} // RVA: 0x7FFACBC1C960
-        public void ProcessBlock(){} // RVA: 0x7FFACBC1C9C0
-        public void Encrypt(){} // RVA: 0x7FFACBC1D140
-        public void AddCryptedBlocks(){} // RVA: 0x7FFACBC1D230
-        public void ProcessData(){} // RVA: 0x7FFACBC1D4F0
-        public void chineseRemainder(){} // RVA: 0x7FFACBC1D6E0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0758F0
+        public void Init(){} // RVA: 0x7FFE8A075930
+        public void set_Debug(){} // RVA: 0x7FFE810FB310
+        public void GetInputBlockSize(){} // RVA: 0x7FFE8A075F20
+        public void GetOutputBlockSize(){} // RVA: 0x7FFE8A075F80
+        public void ProcessBlock(){} // RVA: 0x7FFE8A075FE0
+        public void Encrypt(){} // RVA: 0x7FFE8A076760
+        public void AddCryptedBlocks(){} // RVA: 0x7FFE8A076850
+        public void ProcessData(){} // RVA: 0x7FFE8A076B10
+        public void chineseRemainder(){} // RVA: 0x7FFE8A076D00
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class NoekeonEngine : Object
     {
-        public int AlgorithmName;
-        public uint[] IsPartialBlockOkay;
-        public uint[] roundConstants; // 0x8
-        public uint[] state; // 0x10
-        public uint[] subKeys; // 0x18
-        public uint[] decryptKeys; // 0x20
-        public bool _initialised; // 0x28
-        public bool _forEncryption; // 0x29
+        public int GenericSize;
+        public uint[] nullVector;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC1DCA0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC1DE10
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void Init(){} // RVA: 0x7FFACBC1DE50
-        public void ProcessBlock(){} // RVA: 0x7FFACBC1DFC0
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void setKey(){} // RVA: 0x7FFACBC1E190
-        public void encryptBlock(){} // RVA: 0x7FFACBC1E320
-        public void decryptBlock(){} // RVA: 0x7FFACBC1EB70
-        public void gamma(){} // RVA: 0x7FFACBC1F510
-        public void theta(){} // RVA: 0x7FFACBC1F5C0
-        public void pi1(){} // RVA: 0x7FFACBC1F6B0
-        public void pi2(){} // RVA: 0x7FFACBC1F710
-        public void rotl(){} // RVA: 0x7FFACBC1F770
-        public void .cctor(){} // RVA: 0x7FFACBC1F790
+        public void .ctor(){} // RVA: 0x7FFE8A0772C0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A077430
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void Init(){} // RVA: 0x7FFE8A077470
+        public void ProcessBlock(){} // RVA: 0x7FFE8A0775E0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void setKey(){} // RVA: 0x7FFE8A0777B0
+        public void encryptBlock(){} // RVA: 0x7FFE8A077940
+        public void decryptBlock(){} // RVA: 0x7FFE8A078190
+        public void gamma(){} // RVA: 0x7FFE8A078B30
+        public void theta(){} // RVA: 0x7FFE8A078BE0
+        public void pi1(){} // RVA: 0x7FFE8A078CD0
+        public void pi2(){} // RVA: 0x7FFE8A078D30
+        public void rotl(){} // RVA: 0x7FFE8A078D90
+        public void .cctor(){} // RVA: 0x7FFE8A078DB0
     }
 
     public class NullEngine : Object
     {
-        public bool AlgorithmName; // 0x10
-        public int IsPartialBlockOkay;
+        public bool initialised; // 0x10
+        public int BlockSize;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Init(){} // RVA: 0x7FFAC322C870
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC1F900
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC3006850
-        public void GetBlockSize(){} // RVA: 0x7FFAC3013AF0
-        public void ProcessBlock(){} // RVA: 0x7FFACBC1F940
-        public void Reset(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFE814B8390
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A078F20
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE811E0850
+        public void GetBlockSize(){} // RVA: 0x7FFE811EDAF0
+        public void ProcessBlock(){} // RVA: 0x7FFE8A078F60
+        public void Reset(){} // RVA: 0x7FFE810FB310
     }
 
     public class RC2Engine : Object
     {
-        public byte[] AlgorithmName;
-        public int IsPartialBlockOkay;
-        public int[] workingKey; // 0x10
-        public bool encrypting; // 0x18
+        public byte[] piTable;
+        public int BLOCK_SIZE;
 
         // ── Methods ──
-        public void GenerateWorkingKey(){} // RVA: 0x7FFACBC1FB10
-        public void Init(){} // RVA: 0x7FFACBC1FE00
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC200C0
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void ProcessBlock(){} // RVA: 0x7FFACBC20100
-        public void RotateWordLeft(){} // RVA: 0x7FFACBC202C0
-        public void EncryptBlock(){} // RVA: 0x7FFACBC202E0
-        public void DecryptBlock(){} // RVA: 0x7FFACBC20860
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFACBC20D50
+        public void GenerateWorkingKey(){} // RVA: 0x7FFE8A079130
+        public void Init(){} // RVA: 0x7FFE8A079420
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0796E0
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void ProcessBlock(){} // RVA: 0x7FFE8A079720
+        public void RotateWordLeft(){} // RVA: 0x7FFE8A0798E0
+        public void EncryptBlock(){} // RVA: 0x7FFE8A079900
+        public void DecryptBlock(){} // RVA: 0x7FFE8A079E80
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE8A07A370
     }
 
     public class RC2WrapEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.CbcBlockCipher AlgorithmName; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters parameters; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ParametersWithIV paramPlusIV; // 0x20
-        public byte[] iv; // 0x28
-        public bool forWrapping; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom sr; // 0x38
-        public byte[] IV2;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest sha1; // 0x40
-        public byte[] digest; // 0x48
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.CbcBlockCipher engine; // 0x10
 
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFACBC20E30
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC21480
-        public void Wrap(){} // RVA: 0x7FFACBC214C0
-        public void Unwrap(){} // RVA: 0x7FFACBC21AC0
-        public void CalculateCmsKeyChecksum(){} // RVA: 0x7FFACBC223E0
-        public void CheckCmsKeyChecksum(){} // RVA: 0x7FFACBC224D0
-        public void .ctor(){} // RVA: 0x7FFACBC225B0
-        public void .cctor(){} // RVA: 0x7FFACBC226D0
+        public void Init(){} // RVA: 0x7FFE8A07A450
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A07AAA0
+        public void Wrap(){} // RVA: 0x7FFE8A07AAE0
+        public void Unwrap(){} // RVA: 0x7FFE8A07B0E0
+        public void CalculateCmsKeyChecksum(){} // RVA: 0x7FFE8A07BA00
+        public void CheckCmsKeyChecksum(){} // RVA: 0x7FFE8A07BAF0
+        public void .ctor(){} // RVA: 0x7FFE8A07BBD0
+        public void .cctor(){} // RVA: 0x7FFE8A07BCF0
     }
 
     public class RC4Engine : Object
     {
-        public int AlgorithmName;
-        public byte[] engineState; // 0x10
-        public int x; // 0x18
-        public int y; // 0x1C
-        public byte[] workingKey; // 0x20
+        public int STATE_LENGTH;
 
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFACBC227B0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC22950
-        public void ReturnByte(){} // RVA: 0x7FFACBC22990
-        public void ProcessBytes(){} // RVA: 0x7FFACBC22A70
-        public void Reset(){} // RVA: 0x7FFACBC22CC0
-        public void SetKey(){} // RVA: 0x7FFACBC22CD0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFACBC22F30
+        public void Init(){} // RVA: 0x7FFE8A07BDD0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A07BF70
+        public void ReturnByte(){} // RVA: 0x7FFE8A07BFB0
+        public void ProcessBytes(){} // RVA: 0x7FFE8A07C090
+        public void Reset(){} // RVA: 0x7FFE8A07C2E0
+        public void SetKey(){} // RVA: 0x7FFE8A07C2F0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE8A07C550
     }
 
     public class RC532Engine : Object
     {
-        public int AlgorithmName; // 0x10
-        public int[] IsPartialBlockOkay; // 0x18
-        public int P32;
-        public int Q32; // 0x4
-        public bool forEncryption; // 0x20
+        public int _noRounds; // 0x10
+        public int[] _S; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC22F70
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC22F80
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void Init(){} // RVA: 0x7FFACBC22FC0
-        public void ProcessBlock(){} // RVA: 0x7FFACBC23270
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void SetKey(){} // RVA: 0x7FFACBC232A0
-        public void EncryptBlock(){} // RVA: 0x7FFACBC235C0
-        public void DecryptBlock(){} // RVA: 0x7FFACBC23830
-        public void RotateLeft(){} // RVA: 0x7FFACBC23AC0
-        public void RotateRight(){} // RVA: 0x7FFACBC23AE0
-        public void BytesToWord(){} // RVA: 0x7FFAC8462B70
-        public void WordToBytes(){} // RVA: 0x7FFAC845E5B0
-        public void .cctor(){} // RVA: 0x7FFACBC23B00
+        public void .ctor(){} // RVA: 0x7FFE8A07C590
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A07C5A0
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void Init(){} // RVA: 0x7FFE8A07C5E0
+        public void ProcessBlock(){} // RVA: 0x7FFE8A07C890
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void SetKey(){} // RVA: 0x7FFE8A07C8C0
+        public void EncryptBlock(){} // RVA: 0x7FFE8A07CBE0
+        public void DecryptBlock(){} // RVA: 0x7FFE8A07CE50
+        public void RotateLeft(){} // RVA: 0x7FFE8A07D0E0
+        public void RotateRight(){} // RVA: 0x7FFE8A07D100
+        public void BytesToWord(){} // RVA: 0x7FFE8680C480
+        public void WordToBytes(){} // RVA: 0x7FFE86807EC0
+        public void .cctor(){} // RVA: 0x7FFE8A07D120
     }
 
     public class RC564Engine : Object
     {
-        public int AlgorithmName;
-        public int IsPartialBlockOkay; // 0x4
-        public int _noRounds; // 0x10
-        public long[] _S; // 0x18
-        public long P64; // 0x8
-        public long Q64; // 0x10
-        public bool forEncryption; // 0x20
+        public int wordSize;
+        public int bytesPerWord; // 0x4
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC22F70
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC23B60
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFACBC23BA0
-        public void Init(){} // RVA: 0x7FFACBC23C00
-        public void ProcessBlock(){} // RVA: 0x7FFACBC23E00
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void SetKey(){} // RVA: 0x7FFACBC23E30
-        public void EncryptBlock(){} // RVA: 0x7FFACBC24280
-        public void DecryptBlock(){} // RVA: 0x7FFACBC24670
-        public void RotateLeft(){} // RVA: 0x7FFACBC24A50
-        public void RotateRight(){} // RVA: 0x7FFACBC24AE0
-        public void BytesToWord(){} // RVA: 0x7FFACBC24B70
-        public void WordToBytes(){} // RVA: 0x7FFACBC24C20
-        public void .cctor(){} // RVA: 0x7FFACBC24CD0
+        public void .ctor(){} // RVA: 0x7FFE8A07C590
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A07D180
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE8A07D1C0
+        public void Init(){} // RVA: 0x7FFE8A07D220
+        public void ProcessBlock(){} // RVA: 0x7FFE8A07D420
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void SetKey(){} // RVA: 0x7FFE8A07D450
+        public void EncryptBlock(){} // RVA: 0x7FFE8A07D8A0
+        public void DecryptBlock(){} // RVA: 0x7FFE8A07DC90
+        public void RotateLeft(){} // RVA: 0x7FFE8A07E070
+        public void RotateRight(){} // RVA: 0x7FFE8A07E100
+        public void BytesToWord(){} // RVA: 0x7FFE8A07E190
+        public void WordToBytes(){} // RVA: 0x7FFE8A07E240
+        public void .cctor(){} // RVA: 0x7FFE8A07E2F0
     }
 
     public class RC6Engine : Object
     {
-        public int AlgorithmName;
-        public int IsPartialBlockOkay; // 0x4
-        public int _noRounds; // 0x8
-        public int[] _S; // 0x10
-        public int P32; // 0xC
-        public int Q32; // 0x10
-        public int LGW; // 0x14
-        public bool forEncryption; // 0x18
+        public int wordSize;
+        public int bytesPerWord; // 0x4
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC24D70
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFACBC24DB0
-        public void Init(){} // RVA: 0x7FFACBC24E10
-        public void ProcessBlock(){} // RVA: 0x7FFACBC24F70
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void SetKey(){} // RVA: 0x7FFACBC25140
-        public void EncryptBlock(){} // RVA: 0x7FFACBC25590
-        public void DecryptBlock(){} // RVA: 0x7FFACBC25D30
-        public void RotateLeft(){} // RVA: 0x7FFACBC264E0
-        public void RotateRight(){} // RVA: 0x7FFACBC26570
-        public void BytesToWord(){} // RVA: 0x7FFACBC26600
-        public void WordToBytes(){} // RVA: 0x7FFACBC266B0
-        public void .cctor(){} // RVA: 0x7FFACBC26760
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A07E390
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE8A07E3D0
+        public void Init(){} // RVA: 0x7FFE8A07E430
+        public void ProcessBlock(){} // RVA: 0x7FFE8A07E590
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void SetKey(){} // RVA: 0x7FFE8A07E760
+        public void EncryptBlock(){} // RVA: 0x7FFE8A07EBB0
+        public void DecryptBlock(){} // RVA: 0x7FFE8A07F350
+        public void RotateLeft(){} // RVA: 0x7FFE8A07FB00
+        public void RotateRight(){} // RVA: 0x7FFE8A07FB90
+        public void BytesToWord(){} // RVA: 0x7FFE8A07FC20
+        public void WordToBytes(){} // RVA: 0x7FFE8A07FCD0
+        public void .cctor(){} // RVA: 0x7FFE8A07FD80
     }
 
     public class Rfc3211WrapEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.CbcBlockCipher AlgorithmName; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ParametersWithIV param; // 0x18
-        public bool forWrapping; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom rand; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.CbcBlockCipher engine; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC26820
-        public void Init(){} // RVA: 0x7FFACBC268E0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC26C50
-        public void Wrap(){} // RVA: 0x7FFACBC26CD0
-        public void Unwrap(){} // RVA: 0x7FFACBC26F80
+        public void .ctor(){} // RVA: 0x7FFE8A07FE40
+        public void Init(){} // RVA: 0x7FFE8A07FF00
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A080270
+        public void Wrap(){} // RVA: 0x7FFE8A0802F0
+        public void Unwrap(){} // RVA: 0x7FFE8A0805A0
     }
 
     public class Rfc3394WrapEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBlockCipher AlgorithmName; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter param; // 0x18
-        public bool forWrapping; // 0x20
-        public byte[] iv; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBlockCipher engine; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC27420
-        public void Init(){} // RVA: 0x7FFACBC27550
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC278D0
-        public void Wrap(){} // RVA: 0x7FFACBC27920
-        public void Unwrap(){} // RVA: 0x7FFACBC27C80
+        public void .ctor(){} // RVA: 0x7FFE8A080A40
+        public void Init(){} // RVA: 0x7FFE8A080B70
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A080EF0
+        public void Wrap(){} // RVA: 0x7FFE8A080F40
+        public void Unwrap(){} // RVA: 0x7FFE8A0812A0
     }
 
     public class RijndaelEngine : Object
     {
-        public int AlgorithmName;
-        public int IsPartialBlockOkay; // 0x4
-        public byte[] Logtable; // 0x8
-        public byte[] Alogtable; // 0x10
-        public byte[] S; // 0x18
-        public byte[] Si; // 0x20
-        public byte[] rcon; // 0x28
-        public byte[][] shifts0; // 0x30
-        public byte[][] shifts1; // 0x38
-        public int BC; // 0x10
-        public long BC_MASK; // 0x18
-        public int ROUNDS; // 0x20
-        public int blockBits; // 0x24
-        public long[][] workingKey; // 0x28
-        public long A0; // 0x30
-        public long A1; // 0x38
-        public long A2; // 0x40
-        public long A3; // 0x48
-        public bool forEncryption; // 0x50
-        public byte[] shifts0SC; // 0x58
-        public byte[] shifts1SC; // 0x60
+        public int MAXROUNDS;
+        public int MAXKC; // 0x4
 
         // ── Methods ──
-        public void Mul0x2(){} // RVA: 0x7FFACBC28110
-        public void Mul0x3(){} // RVA: 0x7FFACBC281B0
-        public void Mul0x9(){} // RVA: 0x7FFACBC28250
-        public void Mul0xb(){} // RVA: 0x7FFACBC282E0
-        public void Mul0xd(){} // RVA: 0x7FFACBC28370
-        public void Mul0xe(){} // RVA: 0x7FFACBC28400
-        public void KeyAddition(){} // RVA: 0x7FFACBC28490
-        public void Shift(){} // RVA: 0x7FFACBC28500
-        public void ShiftRow(){} // RVA: 0x7FFACBC28530
-        public void ApplyS(){} // RVA: 0x7FFACBC28600
-        public void Substitution(){} // RVA: 0x7FFACBC28660
-        public void MixColumn(){} // RVA: 0x7FFACBC287D0
-        public void InvMixColumn(){} // RVA: 0x7FFACBC289B0
-        public void GenerateWorkingKey(){} // RVA: 0x7FFACBC28D80
-        public void .ctor(){} // RVA: 0x7FFACBC29610 | overloaded x2
-        public void Init(){} // RVA: 0x7FFACBC29B10
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC29D60
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFACBC29DA0
-        public void ProcessBlock(){} // RVA: 0x7FFACBC29DB0
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void UnPackBlock(){} // RVA: 0x7FFACBC2A0E0
-        public void PackBlock(){} // RVA: 0x7FFACBC2A200
-        public void EncryptBlock(){} // RVA: 0x7FFACBC2A2A0
-        public void DecryptBlock(){} // RVA: 0x7FFACBC2A4E0
-        public void .cctor(){} // RVA: 0x7FFACBC2A710
+        public void Mul0x2(){} // RVA: 0x7FFE8A081730
+        public void Mul0x3(){} // RVA: 0x7FFE8A0817D0
+        public void Mul0x9(){} // RVA: 0x7FFE8A081870
+        public void Mul0xb(){} // RVA: 0x7FFE8A081900
+        public void Mul0xd(){} // RVA: 0x7FFE8A081990
+        public void Mul0xe(){} // RVA: 0x7FFE8A081A20
+        public void KeyAddition(){} // RVA: 0x7FFE8A081AB0
+        public void Shift(){} // RVA: 0x7FFE8A081B20
+        public void ShiftRow(){} // RVA: 0x7FFE8A081B50
+        public void ApplyS(){} // RVA: 0x7FFE8A081C20
+        public void Substitution(){} // RVA: 0x7FFE8A081C80
+        public void MixColumn(){} // RVA: 0x7FFE8A081DF0
+        public void InvMixColumn(){} // RVA: 0x7FFE8A081FD0
+        public void GenerateWorkingKey(){} // RVA: 0x7FFE8A0823A0
+        public void .ctor(){} // RVA: 0x7FFE8A082C30 | overloaded x2
+        public void Init(){} // RVA: 0x7FFE8A083130
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A083380
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE8A0833C0
+        public void ProcessBlock(){} // RVA: 0x7FFE8A0833D0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void UnPackBlock(){} // RVA: 0x7FFE8A083700
+        public void PackBlock(){} // RVA: 0x7FFE8A083820
+        public void EncryptBlock(){} // RVA: 0x7FFE8A0838C0
+        public void DecryptBlock(){} // RVA: 0x7FFE8A083B00
+        public void .cctor(){} // RVA: 0x7FFE8A083D30
     }
 
     public class RsaBlindedEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IRsa AlgorithmName; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IRsa core; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC2AF10
-        public void Init(){} // RVA: 0x7FFACBC2AF50
-        public void GetInputBlockSize(){} // RVA: 0x7FFACBC2B440
-        public void GetOutputBlockSize(){} // RVA: 0x7FFACBC2B490
-        public void ProcessBlock(){} // RVA: 0x7FFACBC2B4E0
+        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A084530
+        public void Init(){} // RVA: 0x7FFE8A084570
+        public void GetInputBlockSize(){} // RVA: 0x7FFE8A084A60
+        public void GetOutputBlockSize(){} // RVA: 0x7FFE8A084AB0
+        public void ProcessBlock(){} // RVA: 0x7FFE8A084B00
     }
 
     public class RsaBlindingEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IRsa AlgorithmName; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger blindingFactor; // 0x20
-        public bool forEncryption; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IRsa core; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC2B8B0
-        public void Init(){} // RVA: 0x7FFACBC2B8F0
-        public void GetInputBlockSize(){} // RVA: 0x7FFACBC2BB30
-        public void GetOutputBlockSize(){} // RVA: 0x7FFACBC2BB80
-        public void ProcessBlock(){} // RVA: 0x7FFACBC2BBD0
-        public void BlindMessage(){} // RVA: 0x7FFACBC2BDE0
-        public void UnblindMessage(){} // RVA: 0x7FFACBC2BED0
+        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A084ED0
+        public void Init(){} // RVA: 0x7FFE8A084F10
+        public void GetInputBlockSize(){} // RVA: 0x7FFE8A085150
+        public void GetOutputBlockSize(){} // RVA: 0x7FFE8A0851A0
+        public void ProcessBlock(){} // RVA: 0x7FFE8A0851F0
+        public void BlindMessage(){} // RVA: 0x7FFE8A085400
+        public void UnblindMessage(){} // RVA: 0x7FFE8A0854F0
     }
 
     public class RsaCoreEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key; // 0x10
-        public bool forEncryption; // 0x18
-        public int bitSize; // 0x1C
-
         // ── Methods ──
-        public void CheckInitialised(){} // RVA: 0x7FFACBC2BFB0
-        public void Init(){} // RVA: 0x7FFACBC2C020
-        public void GetInputBlockSize(){} // RVA: 0x7FFACBC2C250
-        public void GetOutputBlockSize(){} // RVA: 0x7FFACBC2C2E0
-        public void ConvertInput(){} // RVA: 0x7FFACBC2C370
-        public void ConvertOutput(){} // RVA: 0x7FFACBC2C530
-        public void ProcessBlock(){} // RVA: 0x7FFACBC2C640
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void CheckInitialised(){} // RVA: 0x7FFE8A0855D0
+        public void Init(){} // RVA: 0x7FFE8A085640
+        public void GetInputBlockSize(){} // RVA: 0x7FFE8A085870
+        public void GetOutputBlockSize(){} // RVA: 0x7FFE8A085900
+        public void ConvertInput(){} // RVA: 0x7FFE8A085990
+        public void ConvertOutput(){} // RVA: 0x7FFE8A085B50
+        public void ProcessBlock(){} // RVA: 0x7FFE8A085C60
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class RsaEngine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IRsa AlgorithmName; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IRsa core; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC2C910
-        public void Init(){} // RVA: 0x7FFACBC2C950
-        public void GetInputBlockSize(){} // RVA: 0x7FFACBC2C9C0
-        public void GetOutputBlockSize(){} // RVA: 0x7FFACBC2CA10
-        public void ProcessBlock(){} // RVA: 0x7FFACBC2CA60
+        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A085F30
+        public void Init(){} // RVA: 0x7FFE8A085F70
+        public void GetInputBlockSize(){} // RVA: 0x7FFE8A085FE0
+        public void GetOutputBlockSize(){} // RVA: 0x7FFE8A086030
+        public void ProcessBlock(){} // RVA: 0x7FFE8A086080
     }
 
     public class SM2Engine : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest mDigest; // 0x10
-        public bool mForEncryption; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECKeyParameters mECKey; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECDomainParameters mECParams; // 0x28
-        public int mCurveLength; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom mRandom; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x2
-        public void Init(){} // RVA: 0x7FFACBC36A40
-        public void ProcessBlock(){} // RVA: 0x7FFACBC36F00
-        public void CreateBasePointMultiplier(){} // RVA: 0x7FFACBC36F30
-        public void Encrypt(){} // RVA: 0x7FFACBC36F70
-        public void Decrypt(){} // RVA: 0x7FFACBC37570
-        public void NotEncrypted(){} // RVA: 0x7FFACBC37AD0
-        public void Kdf(){} // RVA: 0x7FFACBC37B40
-        public void Xor(){} // RVA: 0x7FFACBC38000
-        public void NextK(){} // RVA: 0x7FFACBC38070
-        public void AddFieldElement(){} // RVA: 0x7FFACBC38140
+        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
+        public void Init(){} // RVA: 0x7FFE8A090060
+        public void ProcessBlock(){} // RVA: 0x7FFE8A090520
+        public void CreateBasePointMultiplier(){} // RVA: 0x7FFE8A090550
+        public void Encrypt(){} // RVA: 0x7FFE8A090590
+        public void Decrypt(){} // RVA: 0x7FFE8A090B90
+        public void NotEncrypted(){} // RVA: 0x7FFE8A0910F0
+        public void Kdf(){} // RVA: 0x7FFE8A091160
+        public void Xor(){} // RVA: 0x7FFE8A091620
+        public void NextK(){} // RVA: 0x7FFE8A091690
+        public void AddFieldElement(){} // RVA: 0x7FFE8A091760
     }
 
     public class SM4Engine : Object
     {
-        public int AlgorithmName;
-        public byte[] IsPartialBlockOkay;
-        public uint[] CK; // 0x8
-        public uint[] FK; // 0x10
-        public uint[] rk; // 0x10
+        public int BlockSize;
+        public byte[] Sbox;
 
         // ── Methods ──
-        public void tau(){} // RVA: 0x7FFACBC381D0
-        public void L_ap(){} // RVA: 0x7FFACBC382B0
-        public void T_ap(){} // RVA: 0x7FFACBC382D0
-        public void ExpandKey(){} // RVA: 0x7FFACBC38340
-        public void L(){} // RVA: 0x7FFACBC38B80
-        public void T(){} // RVA: 0x7FFACBC38BB0
-        public void Init(){} // RVA: 0x7FFACBC38C30
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC38E10
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void ProcessBlock(){} // RVA: 0x7FFACBC38E50
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFACBC39590
+        public void tau(){} // RVA: 0x7FFE8A0917F0
+        public void L_ap(){} // RVA: 0x7FFE8A0918D0
+        public void T_ap(){} // RVA: 0x7FFE8A0918F0
+        public void ExpandKey(){} // RVA: 0x7FFE8A091960
+        public void L(){} // RVA: 0x7FFE8A0921A0
+        public void T(){} // RVA: 0x7FFE8A0921D0
+        public void Init(){} // RVA: 0x7FFE8A092250
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A092430
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void ProcessBlock(){} // RVA: 0x7FFE8A092470
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE8A092BB0
     }
 
     public class Salsa20Engine : Object
     {
-        public int NonceSize;
-        public int AlgorithmName;
-        public uint[] TAU_SIGMA; // 0x8
-        public byte[] sigma; // 0x10
-        public byte[] tau; // 0x18
-        public int rounds; // 0x10
-        public int index; // 0x14
-        public uint[] engineState; // 0x18
-        public uint[] x; // 0x20
-        public byte[] keyStream; // 0x28
-        public bool initialised; // 0x30
-        public uint cW0; // 0x34
-        public uint cW1; // 0x38
-        public uint cW2; // 0x3C
+        public int DEFAULT_ROUNDS;
+        public int StateSize;
 
         // ── Methods ──
-        public void PackTauOrSigma(){} // RVA: 0x7FFACBC2CB00
-        public void .ctor(){} // RVA: 0x7FFACBC2CCD0 | overloaded x2
-        public void Init(){} // RVA: 0x7FFACBC2CEA0
-        public void get_NonceSize(){} // RVA: 0x7FFAC3ED8E80
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC2D250
-        public void ReturnByte(){} // RVA: 0x7FFACBC2D320
-        public void AdvanceCounter(){} // RVA: 0x7FFACBC2D400
-        public void ProcessBytes(){} // RVA: 0x7FFACBC2D440
-        public void Reset(){} // RVA: 0x7FFACBC2D720
-        public void ResetCounter(){} // RVA: 0x7FFACBC2D740
-        public void SetKey(){} // RVA: 0x7FFACBC2D780
-        public void GenerateKeyStream(){} // RVA: 0x7FFACBC2DB90
-        public void SalsaCore(){} // RVA: 0x7FFACBC2DCC0
-        public void R(){} // RVA: 0x7FFAC862E4A0
-        public void ResetLimitCounter(){} // RVA: 0x7FFACBC2E3F0
-        public void LimitExceeded(){} // RVA: 0x7FFACBC2E420 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFACBC2E450
+        public void PackTauOrSigma(){} // RVA: 0x7FFE8A086120
+        public void .ctor(){} // RVA: 0x7FFE8A0862F0 | overloaded x2
+        public void Init(){} // RVA: 0x7FFE8A0864C0
+        public void get_NonceSize(){} // RVA: 0x7FFE82199910
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A086870
+        public void ReturnByte(){} // RVA: 0x7FFE8A086940
+        public void AdvanceCounter(){} // RVA: 0x7FFE8A086A20
+        public void ProcessBytes(){} // RVA: 0x7FFE8A086A60
+        public void Reset(){} // RVA: 0x7FFE8A086D40
+        public void ResetCounter(){} // RVA: 0x7FFE8A086D60
+        public void SetKey(){} // RVA: 0x7FFE8A086DA0
+        public void GenerateKeyStream(){} // RVA: 0x7FFE8A0871B0
+        public void SalsaCore(){} // RVA: 0x7FFE8A0872E0
+        public void R(){} // RVA: 0x7FFE869D7C70
+        public void ResetLimitCounter(){} // RVA: 0x7FFE8A087A10
+        public void LimitExceeded(){} // RVA: 0x7FFE8A087A40 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFE8A087A70
     }
 
     public class SeedEngine : Object
     {
-        public int AlgorithmName;
-        public uint[] IsPartialBlockOkay;
-        public uint[] SS1; // 0x8
-        public uint[] SS2; // 0x10
-        public uint[] SS3; // 0x18
-        public uint[] KC; // 0x20
-        public int[] wKey; // 0x10
-        public bool forEncryption; // 0x18
+        public int BlockSize;
+        public uint[] SS0;
 
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFACBC2E7A0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC2E8B0
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void ProcessBlock(){} // RVA: 0x7FFACBC2E8F0
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void createWorkingKey(){} // RVA: 0x7FFACBC2EC30
-        public void extractW1(){} // RVA: 0x7FFAC5DEA830
-        public void extractW0(){} // RVA: 0x7FFACBC2EE70
-        public void rotateLeft8(){} // RVA: 0x7FFACBC2EE80
-        public void rotateRight8(){} // RVA: 0x7FFACBC2EE90
-        public void bytesToLong(){} // RVA: 0x7FFACBC2EEA0
-        public void longToBytes(){} // RVA: 0x7FFACBC2EEF0
-        public void G(){} // RVA: 0x7FFACBC2EF50
-        public void F(){} // RVA: 0x7FFACBC2F040
-        public void phaseCalc1(){} // RVA: 0x7FFACBC2F100
-        public void phaseCalc2(){} // RVA: 0x7FFACBC2F150
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFACBC2F1E0
+        public void Init(){} // RVA: 0x7FFE8A087DC0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A087ED0
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void ProcessBlock(){} // RVA: 0x7FFE8A087F10
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void createWorkingKey(){} // RVA: 0x7FFE8A088250
+        public void extractW1(){} // RVA: 0x7FFE8481AF30
+        public void extractW0(){} // RVA: 0x7FFE8A088490
+        public void rotateLeft8(){} // RVA: 0x7FFE8A0884A0
+        public void rotateRight8(){} // RVA: 0x7FFE8A0884B0
+        public void bytesToLong(){} // RVA: 0x7FFE8A0884C0
+        public void longToBytes(){} // RVA: 0x7FFE8A088510
+        public void G(){} // RVA: 0x7FFE8A088570
+        public void F(){} // RVA: 0x7FFE8A088660
+        public void phaseCalc1(){} // RVA: 0x7FFE8A088720
+        public void phaseCalc2(){} // RVA: 0x7FFE8A088770
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE8A088800
     }
 
     public class SeedWrapEngine : Rfc3394WrapEngine
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC2F560
+        public void .ctor(){} // RVA: 0x7FFE8A088B80
     }
 
     public class SerpentEngine : SerpentEngineBase
     {
         // ── Methods ──
-        public void MakeWorkingKey(){} // RVA: 0x7FFACBC2F5B0
-        public void EncryptBlock(){} // RVA: 0x7FFACBC31460
-        public void DecryptBlock(){} // RVA: 0x7FFACBC32EC0
-        public void .ctor(){} // RVA: 0x7FFACBC34D40
+        public void MakeWorkingKey(){} // RVA: 0x7FFE8A088BD0
+        public void EncryptBlock(){} // RVA: 0x7FFE8A08AA80
+        public void DecryptBlock(){} // RVA: 0x7FFE8A08C4E0
+        public void .ctor(){} // RVA: 0x7FFE8A08E360
     }
 
     public class SerpentEngineBase : Object
     {
-        public int AlgorithmName;
-        public int IsPartialBlockOkay;
-        public int PHI;
-        public bool encrypting; // 0x10
-        public int[] wKey; // 0x18
-        public int X0; // 0x20
-        public int X1; // 0x24
-        public int X2; // 0x28
-        public int X3; // 0x2C
+        public int BlockSize;
+        public int ROUNDS;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Init(){} // RVA: 0x7FFACBC34D90
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC34F70
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFACBC34FB0
-        public void ProcessBlock(){} // RVA: 0x7FFACBC35010
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void RotateLeft(){} // RVA: 0x7FFAC862E4A0
-        public void RotateRight(){} // RVA: 0x7FFAC8430200
-        public void Sb0(){} // RVA: 0x7FFACBC35260
-        public void Ib0(){} // RVA: 0x7FFACBC352C0
-        public void Sb1(){} // RVA: 0x7FFACBC35320
-        public void Ib1(){} // RVA: 0x7FFACBC35380
-        public void Sb2(){} // RVA: 0x7FFACBC353E0
-        public void Ib2(){} // RVA: 0x7FFACBC35460
-        public void Sb3(){} // RVA: 0x7FFACBC354D0
-        public void Ib3(){} // RVA: 0x7FFACBC35550
-        public void Sb4(){} // RVA: 0x7FFACBC355B0
-        public void Ib4(){} // RVA: 0x7FFACBC35610
-        public void Sb5(){} // RVA: 0x7FFACBC35670
-        public void Ib5(){} // RVA: 0x7FFACBC356D0
-        public void Sb6(){} // RVA: 0x7FFACBC35750
-        public void Ib6(){} // RVA: 0x7FFACBC357A0
-        public void Sb7(){} // RVA: 0x7FFACBC35810
-        public void Ib7(){} // RVA: 0x7FFACBC35880
-        public void LT(){} // RVA: 0x7FFACBC35900
-        public void InverseLT(){} // RVA: 0x7FFACBC359E0
-        public void MakeWorkingKey(){} // RVA: 0x7FFAC2C58F40
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFE8A08E3B0
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A08E590
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE8A08E5D0
+        public void ProcessBlock(){} // RVA: 0x7FFE8A08E630
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void RotateLeft(){} // RVA: 0x7FFE869D7C70
+        public void RotateRight(){} // RVA: 0x7FFE867D9B10
+        public void Sb0(){} // RVA: 0x7FFE8A08E880
+        public void Ib0(){} // RVA: 0x7FFE8A08E8E0
+        public void Sb1(){} // RVA: 0x7FFE8A08E940
+        public void Ib1(){} // RVA: 0x7FFE8A08E9A0
+        public void Sb2(){} // RVA: 0x7FFE8A08EA00
+        public void Ib2(){} // RVA: 0x7FFE8A08EA80
+        public void Sb3(){} // RVA: 0x7FFE8A08EAF0
+        public void Ib3(){} // RVA: 0x7FFE8A08EB70
+        public void Sb4(){} // RVA: 0x7FFE8A08EBD0
+        public void Ib4(){} // RVA: 0x7FFE8A08EC30
+        public void Sb5(){} // RVA: 0x7FFE8A08EC90
+        public void Ib5(){} // RVA: 0x7FFE8A08ECF0
+        public void Sb6(){} // RVA: 0x7FFE8A08ED70
+        public void Ib6(){} // RVA: 0x7FFE8A08EDC0
+        public void Sb7(){} // RVA: 0x7FFE8A08EE30
+        public void Ib7(){} // RVA: 0x7FFE8A08EEA0
+        public void LT(){} // RVA: 0x7FFE8A08EF20
+        public void InverseLT(){} // RVA: 0x7FFE8A08F000
+        public void MakeWorkingKey(){} // RVA: 0x7FFE80E2E390
         public void EncryptBlock(){}
         public void DecryptBlock(){}
-        public void .cctor(){} // RVA: 0x7FFACBC35AC0
+        public void .cctor(){} // RVA: 0x7FFE8A08F0E0
     }
 
     public class SkipjackEngine : Object
     {
-        public int AlgorithmName;
-        public short[] IsPartialBlockOkay;
-        public int[] key0; // 0x10
-        public int[] key1; // 0x18
-        public int[] key2; // 0x20
-        public int[] key3; // 0x28
-        public bool encrypting; // 0x30
+        public int BLOCK_SIZE;
+        public short[] ftable;
 
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFACBC35B00
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC35F60
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void ProcessBlock(){} // RVA: 0x7FFACBC35FA0
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void G(){} // RVA: 0x7FFACBC36170
-        public void EncryptBlock(){} // RVA: 0x7FFACBC362E0
-        public void H(){} // RVA: 0x7FFACBC36510
-        public void DecryptBlock(){} // RVA: 0x7FFACBC36680
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFACBC368C0
+        public void Init(){} // RVA: 0x7FFE8A08F120
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A08F580
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void ProcessBlock(){} // RVA: 0x7FFE8A08F5C0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void G(){} // RVA: 0x7FFE8A08F790
+        public void EncryptBlock(){} // RVA: 0x7FFE8A08F900
+        public void H(){} // RVA: 0x7FFE8A08FB30
+        public void DecryptBlock(){} // RVA: 0x7FFE8A08FCA0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE8A08FEE0
     }
 
     public class TeaEngine : Object
     {
-        public int AlgorithmName;
-        public int IsPartialBlockOkay;
-        public uint delta;
-        public uint d_sum;
-        public uint _a; // 0x10
-        public uint _b; // 0x14
-        public uint _c; // 0x18
-        public uint _d; // 0x1C
-        public bool _initialised; // 0x20
-        public bool _forEncryption; // 0x21
+        public int rounds;
+        public int block_size;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC3D3C410
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC397E0
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void Init(){} // RVA: 0x7FFACBC39820
-        public void ProcessBlock(){} // RVA: 0x7FFACBC39980
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void setKey(){} // RVA: 0x7FFACBC39B50
-        public void encryptBlock(){} // RVA: 0x7FFACBC39C80
-        public void decryptBlock(){} // RVA: 0x7FFACBC39EA0
+        public void .ctor(){} // RVA: 0x7FFE86DDEB00
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A092E00
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void Init(){} // RVA: 0x7FFE8A092E40
+        public void ProcessBlock(){} // RVA: 0x7FFE8A092FA0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void setKey(){} // RVA: 0x7FFE8A093170
+        public void encryptBlock(){} // RVA: 0x7FFE8A0932A0
+        public void decryptBlock(){} // RVA: 0x7FFE8A0934C0
     }
 
     public class ThreefishEngine : Object
     {
-        public int AlgorithmName;
-        public int IsPartialBlockOkay;
-        public int BLOCKSIZE_1024;
-        public int TWEAK_SIZE_BYTES;
-        public int TWEAK_SIZE_WORDS;
-        public int ROUNDS_256;
-        public int ROUNDS_512;
-        public int ROUNDS_1024;
-        public int MAX_ROUNDS;
-        public ulong C_240;
-        public int[] MOD9;
-        public int[] MOD17; // 0x8
-        public int[] MOD5; // 0x10
-        public int[] MOD3; // 0x18
-        public int blocksizeBytes; // 0x10
-        public int blocksizeWords; // 0x14
-        public ulong[] currentBlock; // 0x18
-        public ulong[] t; // 0x20
-        public ulong[] kw; // 0x28
-        public ThreefishCipher cipher; // 0x30
-        public bool forEncryption; // 0x38
+        public int BLOCKSIZE_256;
+        public int BLOCKSIZE_512;
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFACBC3A0C0
-        public void .ctor(){} // RVA: 0x7FFACBC3A490
-        public void Init(){} // RVA: 0x7FFACBC3AC10 | overloaded x2
-        public void SetKey(){} // RVA: 0x7FFACBC3AEF0
-        public void SetTweak(){} // RVA: 0x7FFACBC3B050
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC3B1C0
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC2F6E5C0
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void ProcessBlock(){} // RVA: 0x7FFACBC3B490 | overloaded x2
-        public void BytesToWord(){} // RVA: 0x7FFACBC3B610
-        public void WordToBytes(){} // RVA: 0x7FFACBC3B760
-        public void RotlXor(){} // RVA: 0x7FFACBC3B880
-        public void XorRotr(){} // RVA: 0x7FFACBC3B8A0
+        public void .cctor(){} // RVA: 0x7FFE8A0936E0
+        public void .ctor(){} // RVA: 0x7FFE8A093AB0
+        public void Init(){} // RVA: 0x7FFE8A094230 | overloaded x2
+        public void SetKey(){} // RVA: 0x7FFE8A094510
+        public void SetTweak(){} // RVA: 0x7FFE8A094670
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0947E0
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE811485C0
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void ProcessBlock(){} // RVA: 0x7FFE8A094AB0 | overloaded x2
+        public void BytesToWord(){} // RVA: 0x7FFE8A094C30
+        public void WordToBytes(){} // RVA: 0x7FFE8A094D80
+        public void RotlXor(){} // RVA: 0x7FFE8A094EA0
+        public void XorRotr(){} // RVA: 0x7FFE8A094EC0
     }
 
     public class TnepresEngine : SerpentEngineBase
     {
-        public object AlgorithmName;
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC3F3C0
-        public void MakeWorkingKey(){} // RVA: 0x7FFACBC3F400
-        public void EncryptBlock(){} // RVA: 0x7FFACBC41280
-        public void DecryptBlock(){} // RVA: 0x7FFACBC42D00
-        public void .ctor(){} // RVA: 0x7FFACBC44B90
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0989E0
+        public void MakeWorkingKey(){} // RVA: 0x7FFE8A098A20
+        public void EncryptBlock(){} // RVA: 0x7FFE8A09A8A0
+        public void DecryptBlock(){} // RVA: 0x7FFE8A09C320
+        public void .ctor(){} // RVA: 0x7FFE8A09E1B0
     }
 
     public class TwofishEngine : Object
     {
-        public byte[,] AlgorithmName;
-        public int IsPartialBlockOkay;
-        public int P_01;
-        public int P_02;
-        public int P_03;
-        public int P_04;
-        public int P_10;
-        public int P_11;
-        public int P_12;
-        public int P_13;
-        public int P_14;
-        public int P_20;
-        public int P_21;
-        public int P_22;
-        public int P_23;
-        public int P_24;
-        public int P_30;
-        public int P_31;
-        public int P_32;
-        public int P_33;
-        public int P_34;
-        public int GF256_FDBK;
-        public int GF256_FDBK_2;
-        public int GF256_FDBK_4;
-        public int RS_GF_FDBK;
-        public int ROUNDS;
-        public int MAX_ROUNDS;
-        public int BLOCK_SIZE;
-        public int MAX_KEY_BITS;
-        public int INPUT_WHITEN;
-        public int OUTPUT_WHITEN;
-        public int ROUND_SUBKEYS;
-        public int TOTAL_SUBKEYS;
-        public int SK_STEP;
-        public int SK_BUMP;
-        public int SK_ROTL;
-        public bool encrypting; // 0x10
-        public int[] gMDS0; // 0x18
-        public int[] gMDS1; // 0x20
-        public int[] gMDS2; // 0x28
-        public int[] gMDS3; // 0x30
-        public int[] gSubKeys; // 0x38
-        public int[] gSBox; // 0x40
-        public int k64Cnt; // 0x48
-        public byte[] workingKey; // 0x50
+        public byte[,] P;
+        public int P_00;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC44BE0
-        public void Init(){} // RVA: 0x7FFACBC45100
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC452D0
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void ProcessBlock(){} // RVA: 0x7FFACBC45310
-        public void Reset(){} // RVA: 0x7FFACBC454D0
-        public void GetBlockSize(){} // RVA: 0x7FFAC530B540
-        public void SetKey(){} // RVA: 0x7FFACBC454F0
-        public void EncryptBlock(){} // RVA: 0x7FFACBC46140
-        public void DecryptBlock(){} // RVA: 0x7FFACBC46800
-        public void F32(){} // RVA: 0x7FFACBC46EB0
-        public void RS_MDS_Encode(){} // RVA: 0x7FFACBC47490
-        public void RS_rem(){} // RVA: 0x7FFACBC47580
-        public void LFSR1(){} // RVA: 0x7FFACBC475E0
-        public void LFSR2(){} // RVA: 0x7FFACBC47600
-        public void Mx_X(){} // RVA: 0x7FFACBC47630
-        public void Mx_Y(){} // RVA: 0x7FFACBC47660
-        public void M_b0(){} // RVA: 0x7FFAC85A61A0
-        public void M_b1(){} // RVA: 0x7FFACBC476A0
-        public void M_b2(){} // RVA: 0x7FFACBC476B0
-        public void M_b3(){} // RVA: 0x7FFACBC476C0
-        public void Fe32_0(){} // RVA: 0x7FFACBC476D0
-        public void Fe32_3(){} // RVA: 0x7FFACBC47750
-        public void BytesTo32Bits(){} // RVA: 0x7FFAC8462B70
-        public void Bits32ToBytes(){} // RVA: 0x7FFAC845E5B0
-        public void .cctor(){} // RVA: 0x7FFACBC477E0
+        public void .ctor(){} // RVA: 0x7FFE8A09E200
+        public void Init(){} // RVA: 0x7FFE8A09E720
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A09E8F0
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void ProcessBlock(){} // RVA: 0x7FFE8A09E930
+        public void Reset(){} // RVA: 0x7FFE8A09EAF0
+        public void GetBlockSize(){} // RVA: 0x7FFE835C1D80
+        public void SetKey(){} // RVA: 0x7FFE8A09EB10
+        public void EncryptBlock(){} // RVA: 0x7FFE8A09F760
+        public void DecryptBlock(){} // RVA: 0x7FFE8A09FE20
+        public void F32(){} // RVA: 0x7FFE8A0A04D0
+        public void RS_MDS_Encode(){} // RVA: 0x7FFE8A0A0AB0
+        public void RS_rem(){} // RVA: 0x7FFE8A0A0BA0
+        public void LFSR1(){} // RVA: 0x7FFE8A0A0C00
+        public void LFSR2(){} // RVA: 0x7FFE8A0A0C20
+        public void Mx_X(){} // RVA: 0x7FFE8A0A0C50
+        public void Mx_Y(){} // RVA: 0x7FFE8A0A0C80
+        public void M_b0(){} // RVA: 0x7FFE81D53FE0
+        public void M_b1(){} // RVA: 0x7FFE8A0A0CC0
+        public void M_b2(){} // RVA: 0x7FFE8A0A0CD0
+        public void M_b3(){} // RVA: 0x7FFE8A0A0CE0
+        public void Fe32_0(){} // RVA: 0x7FFE8A0A0CF0
+        public void Fe32_3(){} // RVA: 0x7FFE8A0A0D70
+        public void BytesTo32Bits(){} // RVA: 0x7FFE8680C480
+        public void Bits32ToBytes(){} // RVA: 0x7FFE86807EC0
+        public void .cctor(){} // RVA: 0x7FFE8A0A0E00
     }
 
     public class VmpcEngine : Object
     {
-        public byte AlgorithmName; // 0x10
-        public byte[] P; // 0x18
-        public byte s; // 0x20
-        public byte[] workingIV; // 0x28
-        public byte[] workingKey; // 0x30
+        public byte n; // 0x10
 
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC478D0
-        public void Init(){} // RVA: 0x7FFACBC47910
-        public void InitKey(){} // RVA: 0x7FFACBC47BF0
-        public void ProcessBytes(){} // RVA: 0x7FFACBC47E80
-        public void Reset(){} // RVA: 0x7FFACBC480D0
-        public void ReturnByte(){} // RVA: 0x7FFACBC480F0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0A0EF0
+        public void Init(){} // RVA: 0x7FFE8A0A0F30
+        public void InitKey(){} // RVA: 0x7FFE8A0A1210
+        public void ProcessBytes(){} // RVA: 0x7FFE8A0A14A0
+        public void Reset(){} // RVA: 0x7FFE8A0A16F0
+        public void ReturnByte(){} // RVA: 0x7FFE8A0A1710
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class VmpcKsa3Engine : VmpcEngine
     {
-        public object AlgorithmName;
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC481D0
-        public void InitKey(){} // RVA: 0x7FFACBC48210
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0A17F0
+        public void InitKey(){} // RVA: 0x7FFE8A0A1830
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class XSalsa20Engine : Salsa20Engine
     {
-        public object AlgorithmName;
-        public object NonceSize;
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC48570
-        public void get_NonceSize(){} // RVA: 0x7FFAC530B550
-        public void SetKey(){} // RVA: 0x7FFACBC485B0
-        public void .ctor(){} // RVA: 0x7FFACBC48A50
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0A1B90
+        public void get_NonceSize(){} // RVA: 0x7FFE835C1D90
+        public void SetKey(){} // RVA: 0x7FFE8A0A1BD0
+        public void .ctor(){} // RVA: 0x7FFE8A0A2070
     }
 
     public class XteaEngine : Object
     {
-        public int AlgorithmName;
-        public int IsPartialBlockOkay;
-        public int delta;
-        public uint[] _S; // 0x10
-        public uint[] _sum0; // 0x18
-        public uint[] _sum1; // 0x20
-        public bool _initialised; // 0x28
-        public bool _forEncryption; // 0x29
+        public int rounds;
+        public int block_size;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC48AF0
-        public void get_AlgorithmName(){} // RVA: 0x7FFACBC48C60
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFAC2F21320
-        public void GetBlockSize(){} // RVA: 0x7FFAC3ED8E80
-        public void Init(){} // RVA: 0x7FFACBC48CA0
-        public void ProcessBlock(){} // RVA: 0x7FFACBC48F60
-        public void Reset(){} // RVA: 0x7FFAC2F21310
-        public void setKey(){} // RVA: 0x7FFACBC49130
-        public void encryptBlock(){} // RVA: 0x7FFACBC492A0
-        public void decryptBlock(){} // RVA: 0x7FFACBC494E0
+        public void .ctor(){} // RVA: 0x7FFE8A0A2110
+        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0A2280
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7FFE810FB320
+        public void GetBlockSize(){} // RVA: 0x7FFE82199910
+        public void Init(){} // RVA: 0x7FFE8A0A22C0
+        public void ProcessBlock(){} // RVA: 0x7FFE8A0A2580
+        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void setKey(){} // RVA: 0x7FFE8A0A2750
+        public void encryptBlock(){} // RVA: 0x7FFE8A0A28C0
+        public void decryptBlock(){} // RVA: 0x7FFE8A0A2B00
     }
 
 }

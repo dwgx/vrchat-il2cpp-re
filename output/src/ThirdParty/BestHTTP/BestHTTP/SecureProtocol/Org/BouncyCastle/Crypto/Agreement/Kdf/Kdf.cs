@@ -7,60 +7,48 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ag
 {
     public class ConcatenationKdfGenerator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest Digest; // 0x10
-        public byte[] mShared; // 0x18
-        public byte[] mOtherInfo; // 0x20
-        public int mHLen; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest mDigest; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC8FCC0
-        public void Init(){} // RVA: 0x7FFACBC8FD70
-        public void get_Digest(){} // RVA: 0x7FFAC2F3C380
-        public void GenerateBytes(){} // RVA: 0x7FFACBC8FF20
+        public void .ctor(){} // RVA: 0x7FFE8A0E92E0
+        public void Init(){} // RVA: 0x7FFE8A0E9390
+        public void get_Digest(){} // RVA: 0x7FFE81116380
+        public void GenerateBytes(){} // RVA: 0x7FFE8A0E9540
     }
 
     public class DHKdfParameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier Algorithm; // 0x10
-        public int KeySize; // 0x18
-        public byte[] z; // 0x20
-        public byte[] extraInfo; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier algorithm; // 0x10
+        public int keySize; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8EAB260 | overloaded x2
-        public void get_Algorithm(){} // RVA: 0x7FFAC2F3C380
-        public void get_KeySize(){} // RVA: 0x7FFAC3157800
-        public void GetZ(){} // RVA: 0x7FFAC2F4F0C0
-        public void GetExtraInfo(){} // RVA: 0x7FFAC2F4F130
+        public void .ctor(){} // RVA: 0x7FFE87253690 | overloaded x2
+        public void get_Algorithm(){} // RVA: 0x7FFE81116380
+        public void get_KeySize(){} // RVA: 0x7FFE813DB630
+        public void GetZ(){} // RVA: 0x7FFE811290C0
+        public void GetExtraInfo(){} // RVA: 0x7FFE81129130
     }
 
     public class DHKekGenerator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest Digest; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier algorithm; // 0x18
-        public int keySize; // 0x20
-        public byte[] z; // 0x28
-        public byte[] partyAInfo; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest digest; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void Init(){} // RVA: 0x7FFACBC90620
-        public void get_Digest(){} // RVA: 0x7FFAC2F3C380
-        public void GenerateBytes(){} // RVA: 0x7FFACBC907C0
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void Init(){} // RVA: 0x7FFE8A0E9C40
+        public void get_Digest(){} // RVA: 0x7FFE81116380
+        public void GenerateBytes(){} // RVA: 0x7FFE8A0E9DE0
     }
 
     public class ECDHKekGenerator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDerivationFunction Digest; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier algorithm; // 0x18
-        public int keySize; // 0x20
-        public byte[] z; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDerivationFunction kdf; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBC90F40
-        public void Init(){} // RVA: 0x7FFACBC91040
-        public void get_Digest(){} // RVA: 0x7FFACBC91190
-        public void GenerateBytes(){} // RVA: 0x7FFACBC911E0
+        public void .ctor(){} // RVA: 0x7FFE8A0EA560
+        public void Init(){} // RVA: 0x7FFE8A0EA660
+        public void get_Digest(){} // RVA: 0x7FFE8A0EA7B0
+        public void GenerateBytes(){} // RVA: 0x7FFE8A0EA800
     }
 
 }

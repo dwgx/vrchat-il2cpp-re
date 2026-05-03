@@ -7,184 +7,175 @@ namespace ThirdParty.Other.Unity.AI.Navigation
 {
     public class NavMeshLink : MonoBehaviour
     {
-        public int agentTypeID; // 0x20
-        public UnityEngine.Vector3 startPoint; // 0x24
-        public UnityEngine.Vector3 endPoint; // 0x30
-        public float width; // 0x3C
-        public int costModifier; // 0x40
-        public bool bidirectional; // 0x44
-        public bool autoUpdate; // 0x45
-        public int area; // 0x48
-        public UnityEngine.AI.NavMeshLinkInstance m_LinkInstance; // 0x4C
-        public UnityEngine.Vector3 m_LastPosition; // 0x50
-        public UnityEngine.Quaternion m_LastRotation; // 0x5C
-        public System.Collections.Generic.List`1<Unity.AI.Navigation.NavMeshLink> s_Tracked;
+        public int m_AgentTypeID; // 0x20
+        public UnityEngine.Vector3 m_StartPoint; // 0x24
+        public UnityEngine.Vector3 m_EndPoint; // 0x30
+        public float m_Width; // 0x3C
+        public int m_CostModifier; // 0x40
+        public bool m_Bidirectional; // 0x44
+        public bool m_AutoUpdatePosition; // 0x45
+        public int m_Area; // 0x48
 
         // ── Methods ──
-        public void get_agentTypeID(){} // RVA: 0x7FFAC30DBBE0
-        public void set_agentTypeID(){} // RVA: 0x7FFAC94FE6B0
-        public void get_startPoint(){} // RVA: 0x7FFAC2F7CCA0
-        public void set_startPoint(){} // RVA: 0x7FFAC94FE720
-        public void get_endPoint(){} // RVA: 0x7FFAC82CAB40
-        public void set_endPoint(){} // RVA: 0x7FFAC94FE7A0
-        public void get_width(){} // RVA: 0x7FFAC363CE20
-        public void set_width(){} // RVA: 0x7FFAC94FE820
-        public void get_costModifier(){} // RVA: 0x7FFAC2FC2080
-        public void set_costModifier(){} // RVA: 0x7FFAC94FE890
-        public void get_bidirectional(){} // RVA: 0x7FFAC45A8350
-        public void set_bidirectional(){} // RVA: 0x7FFAC94FE900
-        public void get_autoUpdate(){} // RVA: 0x7FFAC47BA6D0
-        public void set_autoUpdate(){} // RVA: 0x7FFAC94FE970
-        public void get_area(){} // RVA: 0x7FFAC2FC20C0
-        public void set_area(){} // RVA: 0x7FFAC94FEA00
-        public void OnEnable(){} // RVA: 0x7FFAC94FEA70
-        public void OnDisable(){} // RVA: 0x7FFAC94FEAF0
-        public void UpdateLink(){} // RVA: 0x7FFAC94FEB90
-        public void AddTracking(){} // RVA: 0x7FFAC94FEC00
-        public void RemoveTracking(){} // RVA: 0x7FFAC94FEE60
-        public void SetAutoUpdate(){} // RVA: 0x7FFAC94FE970
-        public void AddLink(){} // RVA: 0x7FFAC94FF070
-        public void HasTransformChanged(){} // RVA: 0x7FFAC94FF440
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7FFAC94FEB90
-        public void UpdateTrackedInstances(){} // RVA: 0x7FFAC94FF660
-        public void .ctor(){} // RVA: 0x7FFAC94FF800
-        public void .cctor(){} // RVA: 0x7FFAC94FF900
+        public void get_agentTypeID(){} // RVA: 0x7FFE8151D690
+        public void set_agentTypeID(){} // RVA: 0x7FFE878A6DF0
+        public void get_startPoint(){} // RVA: 0x7FFE81156CA0
+        public void set_startPoint(){} // RVA: 0x7FFE878A6E60
+        public void get_endPoint(){} // RVA: 0x7FFE828CAED0
+        public void set_endPoint(){} // RVA: 0x7FFE878A6EE0
+        public void get_width(){} // RVA: 0x7FFE8178C5D0
+        public void set_width(){} // RVA: 0x7FFE878A6F60
+        public void get_costModifier(){} // RVA: 0x7FFE8119C080
+        public void set_costModifier(){} // RVA: 0x7FFE878A6FD0
+        public void get_bidirectional(){} // RVA: 0x7FFE82876440
+        public void set_bidirectional(){} // RVA: 0x7FFE878A7040
+        public void get_autoUpdate(){} // RVA: 0x7FFE82A22A70
+        public void set_autoUpdate(){} // RVA: 0x7FFE878A70B0
+        public void get_area(){} // RVA: 0x7FFE8119C0C0
+        public void set_area(){} // RVA: 0x7FFE878A7140
+        public void OnEnable(){} // RVA: 0x7FFE878A71B0
+        public void OnDisable(){} // RVA: 0x7FFE878A7230
+        public void UpdateLink(){} // RVA: 0x7FFE878A72D0
+        public void AddTracking(){} // RVA: 0x7FFE878A7340
+        public void RemoveTracking(){} // RVA: 0x7FFE878A75A0
+        public void SetAutoUpdate(){} // RVA: 0x7FFE878A70B0
+        public void AddLink(){} // RVA: 0x7FFE878A77B0
+        public void HasTransformChanged(){} // RVA: 0x7FFE878A7B80
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7FFE878A72D0
+        public void UpdateTrackedInstances(){} // RVA: 0x7FFE878A7DA0
+        public void .ctor(){} // RVA: 0x7FFE878A7F40
+        public void .cctor(){} // RVA: 0x7FFE878A8040
     }
 
     public class NavMeshModifier : MonoBehaviour
     {
-        public bool overrideArea; // 0x20
-        public int area; // 0x24
-        public bool overrideGenerateLinks; // 0x28
-        public bool generateLinks; // 0x29
-        public bool ignoreFromBuild; // 0x2A
-        public bool applyToChildren; // 0x2B
-        public System.Collections.Generic.List`1<int> activeModifiers; // 0x30
-        public System.Collections.Generic.List`1<Unity.AI.Navigation.NavMeshModifier> s_NavMeshModifiers;
+        public bool m_OverrideArea; // 0x20
+        public int m_Area; // 0x24
+        public bool m_OverrideGenerateLinks; // 0x28
+        public bool m_GenerateLinks; // 0x29
+        public bool m_IgnoreFromBuild; // 0x2A
+        public bool m_ApplyToChildren; // 0x2B
+        public System.Collections.Generic.List`1<int> m_AffectedAgents; // 0x30
 
         // ── Methods ──
-        public void get_overrideArea(){} // RVA: 0x7FFAC300F9D0
-        public void set_overrideArea(){} // RVA: 0x7FFAC300F9E0
-        public void get_area(){} // RVA: 0x7FFAC3921980
-        public void set_area(){} // RVA: 0x7FFAC41674D0
-        public void get_overrideGenerateLinks(){} // RVA: 0x7FFAC30F6BA0
-        public void set_overrideGenerateLinks(){} // RVA: 0x7FFAC3C24F40
-        public void get_generateLinks(){} // RVA: 0x7FFAC386C550
-        public void set_generateLinks(){} // RVA: 0x7FFAC43B4D70
-        public void get_ignoreFromBuild(){} // RVA: 0x7FFAC4B82F20
-        public void set_ignoreFromBuild(){} // RVA: 0x7FFAC4B82F40
-        public void get_applyToChildren(){} // RVA: 0x7FFAC4B82F30
-        public void set_applyToChildren(){} // RVA: 0x7FFAC4B82F10
-        public void get_activeModifiers(){} // RVA: 0x7FFAC94FF9E0
-        public void OnEnable(){} // RVA: 0x7FFAC94FFA40
-        public void OnDisable(){} // RVA: 0x7FFAC94FFB90
-        public void AffectsAgentType(){} // RVA: 0x7FFAC94FFC20
-        public void .ctor(){} // RVA: 0x7FFAC94FFD20
-        public void .cctor(){} // RVA: 0x7FFAC94FFE70
+        public void get_overrideArea(){} // RVA: 0x7FFE811E99D0
+        public void set_overrideArea(){} // RVA: 0x7FFE811E99E0
+        public void get_area(){} // RVA: 0x7FFE81A56130
+        public void set_area(){} // RVA: 0x7FFE82447980
+        public void get_overrideGenerateLinks(){} // RVA: 0x7FFE815F1380
+        public void set_overrideGenerateLinks(){} // RVA: 0x7FFE81C15740
+        public void get_generateLinks(){} // RVA: 0x7FFE819C2EA0
+        public void set_generateLinks(){} // RVA: 0x7FFE8268C820
+        public void get_ignoreFromBuild(){} // RVA: 0x7FFE82DEC5E0
+        public void set_ignoreFromBuild(){} // RVA: 0x7FFE82DEC5B0
+        public void get_applyToChildren(){} // RVA: 0x7FFE82DEC5C0
+        public void set_applyToChildren(){} // RVA: 0x7FFE82DEC5D0
+        public void get_activeModifiers(){} // RVA: 0x7FFE878A8120
+        public void OnEnable(){} // RVA: 0x7FFE878A8180
+        public void OnDisable(){} // RVA: 0x7FFE878A82D0
+        public void AffectsAgentType(){} // RVA: 0x7FFE878A8360
+        public void .ctor(){} // RVA: 0x7FFE878A8460
+        public void .cctor(){} // RVA: 0x7FFE878A85B0
     }
 
     public class NavMeshModifierVolume : MonoBehaviour
     {
-        public UnityEngine.Vector3 size; // 0x20
-        public UnityEngine.Vector3 center; // 0x2C
-        public int area; // 0x38
-        public System.Collections.Generic.List`1<int> activeModifiers; // 0x40
-        public System.Collections.Generic.List`1<Unity.AI.Navigation.NavMeshModifierVolume> s_NavMeshModifiers;
+        public UnityEngine.Vector3 m_Size; // 0x20
+        public UnityEngine.Vector3 m_Center; // 0x2C
+        public int m_Area; // 0x38
+        public System.Collections.Generic.List`1<int> m_AffectedAgents; // 0x40
 
         // ── Methods ──
-        public void get_size(){} // RVA: 0x7FFAC2F87EE0
-        public void set_size(){} // RVA: 0x7FFAC2F87F00
-        public void get_center(){} // RVA: 0x7FFAC2F87F10
-        public void set_center(){} // RVA: 0x7FFAC2F87F30
-        public void get_area(){} // RVA: 0x7FFAC358A870
-        public void set_area(){} // RVA: 0x7FFAC3588350
-        public void get_activeModifiers(){} // RVA: 0x7FFAC94FFF50
-        public void OnEnable(){} // RVA: 0x7FFAC94FFFB0
-        public void OnDisable(){} // RVA: 0x7FFAC9500100
-        public void AffectsAgentType(){} // RVA: 0x7FFAC9500190
-        public void .ctor(){} // RVA: 0x7FFAC9500290
-        public void .cctor(){} // RVA: 0x7FFAC9500410
+        public void get_size(){} // RVA: 0x7FFE81161EE0
+        public void set_size(){} // RVA: 0x7FFE81161F00
+        public void get_center(){} // RVA: 0x7FFE81161F10
+        public void set_center(){} // RVA: 0x7FFE81161F30
+        public void get_area(){} // RVA: 0x7FFE81D46090
+        public void set_area(){} // RVA: 0x7FFE81D46A00
+        public void get_activeModifiers(){} // RVA: 0x7FFE878A8690
+        public void OnEnable(){} // RVA: 0x7FFE878A86F0
+        public void OnDisable(){} // RVA: 0x7FFE878A8840
+        public void AffectsAgentType(){} // RVA: 0x7FFE878A88D0
+        public void .ctor(){} // RVA: 0x7FFE878A89D0
+        public void .cctor(){} // RVA: 0x7FFE878A8B50
     }
 
     public class NavMeshSurface : MonoBehaviour
     {
-        public int agentTypeID; // 0x20
-        public 0x6B2D99F8 collectObjects; // 0x24
-        public UnityEngine.Vector3 size; // 0x28
-        public UnityEngine.Vector3 center; // 0x34
-        public UnityEngine.LayerMask layerMask; // 0x40
-        public 0x6B2C6F40 useGeometry; // 0x44
-        public int defaultArea; // 0x48
-        public bool ignoreNavMeshAgent; // 0x4C
-        public bool ignoreNavMeshObstacle; // 0x4D
-        public bool overrideTileSize; // 0x4E
-        public bool tileSize; // 0x4F
-        public int overrideVoxelSize; // 0x50
-        public bool voxelSize; // 0x54
-        public float minRegionArea; // 0x58
-        public float buildHeightMesh; // 0x5C
-        public UnityEngine.AI.NavMeshData navMeshData; // 0x60
-        public bool navMeshDataInstance; // 0x68
-        public UnityEngine.AI.NavMeshDataInstance activeSurfaces; // 0x6C
-        public UnityEngine.Vector3 m_LastPosition; // 0x70
-        public UnityEngine.Quaternion m_LastRotation; // 0x7C
-        public System.Collections.Generic.List`1<Unity.AI.Navigation.NavMeshSurface> s_NavMeshSurfaces;
+        public int m_AgentTypeID; // 0x20
+        public 0x666D3EC4 m_CollectObjects; // 0x24
+        public UnityEngine.Vector3 m_Size; // 0x28
+        public UnityEngine.Vector3 m_Center; // 0x34
+        public UnityEngine.LayerMask m_LayerMask; // 0x40
+        public 0x666C1FBC m_UseGeometry; // 0x44
+        public int m_DefaultArea; // 0x48
+        public bool m_GenerateLinks; // 0x4C
+        public bool m_IgnoreNavMeshAgent; // 0x4D
+        public bool m_IgnoreNavMeshObstacle; // 0x4E
+        public bool m_OverrideTileSize; // 0x4F
+        public int m_TileSize; // 0x50
+        public bool m_OverrideVoxelSize; // 0x54
+        public float m_VoxelSize; // 0x58
+        public float m_MinRegionArea; // 0x5C
+        public UnityEngine.AI.NavMeshData m_NavMeshData; // 0x60
+        public bool m_BuildHeightMesh; // 0x68
+        public UnityEngine.AI.NavMeshDataInstance m_NavMeshDataInstance; // 0x6C
 
         // ── Methods ──
-        public void get_agentTypeID(){} // RVA: 0x7FFAC30DBBE0
-        public void set_agentTypeID(){} // RVA: 0x7FFAC35DB7A0
-        public void get_collectObjects(){} // RVA: 0x7FFAC3921980
-        public void set_collectObjects(){} // RVA: 0x7FFAC41674D0
-        public void get_size(){} // RVA: 0x7FFAC2F9C700
-        public void set_size(){} // RVA: 0x7FFAC2F9C720
-        public void get_center(){} // RVA: 0x7FFAC95004F0
-        public void set_center(){} // RVA: 0x7FFAC9500510
-        public void get_layerMask(){} // RVA: 0x7FFAC2FC2080
-        public void set_layerMask(){} // RVA: 0x7FFAC2FC2090
-        public void get_useGeometry(){} // RVA: 0x7FFAC2FC20A0
-        public void set_useGeometry(){} // RVA: 0x7FFAC2FC20B0
-        public void get_defaultArea(){} // RVA: 0x7FFAC2FC20C0
-        public void set_defaultArea(){} // RVA: 0x7FFAC2FC20D0
-        public void get_ignoreNavMeshAgent(){} // RVA: 0x7FFAC91D9280
-        public void set_ignoreNavMeshAgent(){} // RVA: 0x7FFAC9500520
-        public void get_ignoreNavMeshObstacle(){} // RVA: 0x7FFAC9500530
-        public void set_ignoreNavMeshObstacle(){} // RVA: 0x7FFAC9500540
-        public void get_overrideTileSize(){} // RVA: 0x7FFAC9500550
-        public void set_overrideTileSize(){} // RVA: 0x7FFAC9500560
-        public void get_tileSize(){} // RVA: 0x7FFAC30F10E0
-        public void set_tileSize(){} // RVA: 0x7FFAC31D9010
-        public void get_overrideVoxelSize(){} // RVA: 0x7FFAC45A0C60
-        public void set_overrideVoxelSize(){} // RVA: 0x7FFAC45A1180
-        public void get_voxelSize(){} // RVA: 0x7FFAC2F49FE0
-        public void set_voxelSize(){} // RVA: 0x7FFAC2F49FF0
-        public void get_minRegionArea(){} // RVA: 0x7FFAC2F4A000
-        public void set_minRegionArea(){} // RVA: 0x7FFAC2F4A010
-        public void get_buildHeightMesh(){} // RVA: 0x7FFAC2FE9570
-        public void set_buildHeightMesh(){} // RVA: 0x7FFAC2FE9580
-        public void get_navMeshData(){} // RVA: 0x7FFAC2FBF370
-        public void set_navMeshData(){} // RVA: 0x7FFAC2FBF380
-        public void get_navMeshDataInstance(){} // RVA: 0x7FFAC47BAB70
-        public void get_activeSurfaces(){} // RVA: 0x7FFAC9500570
-        public void GetInflatedBounds(){} // RVA: 0x7FFAC95005D0
-        public void OnEnable(){} // RVA: 0x7FFAC95006E0
-        public void OnDisable(){} // RVA: 0x7FFAC9500740
-        public void AddData(){} // RVA: 0x7FFAC95007E0
-        public void RemoveData(){} // RVA: 0x7FFAC9500BD0
-        public void GetBuildSettings(){} // RVA: 0x7FFAC9500C30
-        public void BuildNavMesh(){} // RVA: 0x7FFAC9500E30
-        public void UpdateNavMesh(){} // RVA: 0x7FFAC9501310
-        public void Register(){} // RVA: 0x7FFAC9501660
-        public void Unregister(){} // RVA: 0x7FFAC9501950
-        public void UpdateActive(){} // RVA: 0x7FFAC9501B60
-        public void AppendModifierVolumes(){} // RVA: 0x7FFAC9501C80
-        public void CollectSources(){} // RVA: 0x7FFAC95024E0
-        public void Abs(){} // RVA: 0x7FFAC487B890
-        public void GetWorldBounds(){} // RVA: 0x7FFAC9503290
-        public void CalculateWorldBounds(){} // RVA: 0x7FFAC9503710
-        public void HasTransformChanged(){} // RVA: 0x7FFAC95042B0
-        public void UpdateDataIfTransformChanged(){} // RVA: 0x7FFAC95044D0
-        public void .ctor(){} // RVA: 0x7FFAC9504510
-        public void .cctor(){} // RVA: 0x7FFAC9504620
+        public void get_agentTypeID(){} // RVA: 0x7FFE8151D690
+        public void set_agentTypeID(){} // RVA: 0x7FFE8170B670
+        public void get_collectObjects(){} // RVA: 0x7FFE81A56130
+        public void set_collectObjects(){} // RVA: 0x7FFE82447980
+        public void get_size(){} // RVA: 0x7FFE81176700
+        public void set_size(){} // RVA: 0x7FFE81176720
+        public void get_center(){} // RVA: 0x7FFE878A8C30
+        public void set_center(){} // RVA: 0x7FFE878A8C50
+        public void get_layerMask(){} // RVA: 0x7FFE8119C080
+        public void set_layerMask(){} // RVA: 0x7FFE8119C090
+        public void get_useGeometry(){} // RVA: 0x7FFE8119C0A0
+        public void set_useGeometry(){} // RVA: 0x7FFE8119C0B0
+        public void get_defaultArea(){} // RVA: 0x7FFE8119C0C0
+        public void set_defaultArea(){} // RVA: 0x7FFE8119C0D0
+        public void get_ignoreNavMeshAgent(){} // RVA: 0x7FFE875819F0
+        public void set_ignoreNavMeshAgent(){} // RVA: 0x7FFE878A8C60
+        public void get_ignoreNavMeshObstacle(){} // RVA: 0x7FFE878A8C70
+        public void set_ignoreNavMeshObstacle(){} // RVA: 0x7FFE878A8C80
+        public void get_overrideTileSize(){} // RVA: 0x7FFE878A8C90
+        public void set_overrideTileSize(){} // RVA: 0x7FFE878A8CA0
+        public void get_tileSize(){} // RVA: 0x7FFE8139DAD0
+        public void set_tileSize(){} // RVA: 0x7FFE81463B00
+        public void get_overrideVoxelSize(){} // RVA: 0x7FFE8196FB30
+        public void set_overrideVoxelSize(){} // RVA: 0x7FFE8286F2D0
+        public void get_voxelSize(){} // RVA: 0x7FFE81123FE0
+        public void set_voxelSize(){} // RVA: 0x7FFE81123FF0
+        public void get_minRegionArea(){} // RVA: 0x7FFE81124000
+        public void set_minRegionArea(){} // RVA: 0x7FFE81124010
+        public void get_buildHeightMesh(){} // RVA: 0x7FFE811C3570
+        public void set_buildHeightMesh(){} // RVA: 0x7FFE811C3580
+        public void get_navMeshData(){} // RVA: 0x7FFE81199370
+        public void set_navMeshData(){} // RVA: 0x7FFE81199380
+        public void get_navMeshDataInstance(){} // RVA: 0x7FFE82A22F10
+        public void get_activeSurfaces(){} // RVA: 0x7FFE878A8CB0
+        public void GetInflatedBounds(){} // RVA: 0x7FFE878A8D10
+        public void OnEnable(){} // RVA: 0x7FFE878A8E20
+        public void OnDisable(){} // RVA: 0x7FFE878A8E80
+        public void AddData(){} // RVA: 0x7FFE878A8F20
+        public void RemoveData(){} // RVA: 0x7FFE878A9310
+        public void GetBuildSettings(){} // RVA: 0x7FFE878A9370
+        public void BuildNavMesh(){} // RVA: 0x7FFE878A9570
+        public void UpdateNavMesh(){} // RVA: 0x7FFE878A9A50
+        public void Register(){} // RVA: 0x7FFE878A9DA0
+        public void Unregister(){} // RVA: 0x7FFE878AA090
+        public void UpdateActive(){} // RVA: 0x7FFE878AA2A0
+        public void AppendModifierVolumes(){} // RVA: 0x7FFE878AA3C0
+        public void CollectSources(){} // RVA: 0x7FFE878AAC20
+        public void Abs(){} // RVA: 0x7FFE82AE3C10
+        public void GetWorldBounds(){} // RVA: 0x7FFE878AB9D0
+        public void CalculateWorldBounds(){} // RVA: 0x7FFE878ABE50
+        public void HasTransformChanged(){} // RVA: 0x7FFE878AC9F0
+        public void UpdateDataIfTransformChanged(){} // RVA: 0x7FFE878ACC10
+        public void .ctor(){} // RVA: 0x7FFE878ACC50
+        public void .cctor(){} // RVA: 0x7FFE878ACD60
     }
 
 }

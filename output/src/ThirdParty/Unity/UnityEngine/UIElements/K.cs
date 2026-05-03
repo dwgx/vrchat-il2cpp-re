@@ -8,91 +8,92 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
     public class KeyDownEvent : KeyboardEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9B84410
-        public void GetEquivalentImguiEvent(){} // RVA: 0x7FFAC9B84500
-        public void PostDispatch(){} // RVA: 0x7FFAC9B84740
-        public void SendEquivalentNavigationEventIfAny(){} // RVA: 0x7FFAC9B84840
-        public void .ctor(){} // RVA: 0x7FFAC9B84DE0
+        public void .cctor(){} // RVA: 0x7FFE87F2CCC0
+        public void GetEquivalentImguiEvent(){} // RVA: 0x7FFE87F2CDB0
+        public void PostDispatch(){} // RVA: 0x7FFE87F2CFF0
+        public void SendEquivalentNavigationEventIfAny(){} // RVA: 0x7FFE87F2D0F0
+        public void .ctor(){} // RVA: 0x7FFE87F2D690
     }
 
     public class KeyUpEvent : KeyboardEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9B85190
-        public void .ctor(){} // RVA: 0x7FFAC9B85280
+        public void .cctor(){} // RVA: 0x7FFE87F2DA40
+        public void .ctor(){} // RVA: 0x7FFE87F2DB30
     }
 
     public class KeyboardEventBase`1 : EventBase`1
     {
-        public 0x6B27F588 modifiers;
-        public char character;
-        public 0x6B17D1A8 keyCode;
+        public 0x66679374 _modifiers;
+        public char _character;
+        public 0x66576A14 _keyCode;
+        public object field_3; // 0x210
+        public object field_4; // 0x211
+        public object field_5; // 0x212
+        public object field_6; // 0x213
+        public object field_7; // 0x214
+        public object field_8; // 0x215
 
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0x7FFAC2C59960
-        public void set_modifiers(){} // RVA: 0x7FFAC2C70ED0
-        public void get_character(){} // RVA: 0x7FFAC2C58DC0
-        public void set_character(){} // RVA: 0x7FFAC2C70B70
-        public void get_keyCode(){} // RVA: 0x7FFAC2C59960
-        public void set_keyCode(){} // RVA: 0x7FFAC2C70ED0
-        public void get_shiftKey(){} // RVA: 0x7FFAC2C59D00
-        public void get_ctrlKey(){} // RVA: 0x7FFAC2C59D00
-        public void get_commandKey(){} // RVA: 0x7FFAC2C59D00
-        public void get_altKey(){} // RVA: 0x7FFAC2C59D00
-        public void get_functionKey(){} // RVA: 0x7FFAC2C59D00
-        public void get_actionKey(){} // RVA: 0x7FFAC2C59D00
-        public void Init(){} // RVA: 0x7FFAC2C70980
-        public void LocalInit(){} // RVA: 0x7FFAC2C70980
-        public void GetPooled(){} // RVA: 0x7FFAC2E8DC40
-        public void .ctor(){} // RVA: 0x7FFAC2C70980
+        public void get_modifiers(){} // RVA: 0x7FFE80E2EDB0
+        public void set_modifiers(){} // RVA: 0x7FFE80E46530
+        public void get_character(){} // RVA: 0x7FFE80E2E210
+        public void set_character(){} // RVA: 0x7FFE80E461D0
+        public void get_keyCode(){} // RVA: 0x7FFE80E2EDB0
+        public void set_keyCode(){} // RVA: 0x7FFE80E46530
+        public void get_shiftKey(){} // RVA: 0x7FFE80E2F150
+        public void get_ctrlKey(){} // RVA: 0x7FFE80E2F150
+        public void get_commandKey(){} // RVA: 0x7FFE80E2F150
+        public void get_altKey(){} // RVA: 0x7FFE80E2F150
+        public void get_functionKey(){} // RVA: 0x7FFE80E2F150
+        public void get_actionKey(){} // RVA: 0x7FFE80E2F150
+        public void Init(){} // RVA: 0x7FFE80E45FE0
+        public void LocalInit(){} // RVA: 0x7FFE80E45FE0
+        public void GetPooled(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class KeyboardEventDispatchingStrategy : Object
     {
         // ── Methods ──
-        public void CanDispatchEvent(){} // RVA: 0x7FFAC9B84210
-        public void DispatchEvent(){} // RVA: 0x7FFAC9B84260
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void CanDispatchEvent(){} // RVA: 0x7FFE87F2CAC0
+        public void DispatchEvent(){} // RVA: 0x7FFE87F2CB10
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class KeyboardEventExtensions : Object
     {
         // ── Methods ──
-        public void ShouldSendNavigationMoveEvent(){} // RVA: 0x7FFAC9B85010
-        public void ShouldSendNavigationMoveEventRuntime(){} // RVA: 0x7FFAC9B850D0
+        public void ShouldSendNavigationMoveEvent(){} // RVA: 0x7FFE87F2D8C0
+        public void ShouldSendNavigationMoveEventRuntime(){} // RVA: 0x7FFE87F2D980
     }
 
     public class KeyboardNavigationManipulator : Manipulator
     {
-        public System.Action`2<0x6B11F8A0,UnityEngine.UIElements.EventBase> m_Action; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F87E80
-        public void RegisterCallbacksOnTarget(){} // RVA: 0x7FFAC9BA49B0
-        public void UnregisterCallbacksFromTarget(){} // RVA: 0x7FFAC9BA4BD0
-        public void OnKeyDown(){} // RVA: 0x7FFAC9BA4E80
-        public void OnNavigationCancel(){} // RVA: 0x7FFAC9BA4FE0
-        public void OnNavigationSubmit(){} // RVA: 0x7FFAC9BA5010
-        public void OnNavigationMove(){} // RVA: 0x7FFAC9BA5040
-        public void Invoke(){} // RVA: 0x7FFAC7797E30
-        public void <OnKeyDown>g__GetOperation|4_0(){} // RVA: 0x7FFAC9BA5110
+        public void .ctor(){} // RVA: 0x7FFE81161E80
+        public void RegisterCallbacksOnTarget(){} // RVA: 0x7FFE87F4D260
+        public void UnregisterCallbacksFromTarget(){} // RVA: 0x7FFE87F4D480
+        public void OnKeyDown(){} // RVA: 0x7FFE87F4D730
+        public void OnNavigationCancel(){} // RVA: 0x7FFE87F4D890
+        public void OnNavigationSubmit(){} // RVA: 0x7FFE87F4D8C0
+        public void OnNavigationMove(){} // RVA: 0x7FFE87F4D8F0
+        public void Invoke(){} // RVA: 0x7FFE85A88580
+        public void <OnKeyDown>g__GetOperation|4_0(){} // RVA: 0x7FFE87F4D9C0
     }
 
     public class KeyboardTextEditorEventHandler : TextEditorEventHandler
     {
-        public UnityEngine.Event m_ImguiEvent; // 0x20
-        public bool m_Changed; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9B393E0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7FFAC9B39530
-        public void OnFocus(){} // RVA: 0x7FFAC9B39A20
-        public void OnBlur(){} // RVA: 0x7FFAC9B39AE0
-        public void OnKeyDown(){} // RVA: 0x7FFAC9B39B60
-        public void UpdateLabel(){} // RVA: 0x7FFAC9B3A190
-        public void OnValidateCommandEvent(){} // RVA: 0x7FFAC9B3A5A0
-        public void OnExecuteCommandEvent(){} // RVA: 0x7FFAC9B3A7D0
-        public void OnNavigationEvent(){} // RVA: 0x7FFAC2C70A40
+        public void .ctor(){} // RVA: 0x7FFE87EE1C80
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7FFE87EE1DD0
+        public void OnFocus(){} // RVA: 0x7FFE87EE22C0
+        public void OnBlur(){} // RVA: 0x7FFE87EE2380
+        public void OnKeyDown(){} // RVA: 0x7FFE87EE2400
+        public void UpdateLabel(){} // RVA: 0x7FFE87EE2A30
+        public void OnValidateCommandEvent(){} // RVA: 0x7FFE87EE2E40
+        public void OnExecuteCommandEvent(){} // RVA: 0x7FFE87EE3070
+        public void OnNavigationEvent(){} // RVA: 0x7FFE80E460A0
     }
 
 }

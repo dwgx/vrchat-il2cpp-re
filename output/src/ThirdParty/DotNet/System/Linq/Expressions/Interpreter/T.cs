@@ -7,89 +7,84 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class ThrowInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.ThrowInstruction InstructionName;
-        public System.Linq.Expressions.Interpreter.ThrowInstruction ProducedStack; // 0x8
-        public System.Linq.Expressions.Interpreter.ThrowInstruction ConsumedStack; // 0x10
-        public System.Linq.Expressions.Interpreter.ThrowInstruction VoidRethrow; // 0x18
-        public bool _hasResult; // 0x10
-        public bool _rethrow; // 0x11
+        public System.Linq.Expressions.Interpreter.ThrowInstruction Throw;
+        public System.Linq.Expressions.Interpreter.ThrowInstruction VoidThrow; // 0x8
+        public System.Linq.Expressions.Interpreter.ThrowInstruction Rethrow; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8391A70
-        public void get_InstructionName(){} // RVA: 0x7FFAC8DA9AB0
-        public void get_ProducedStack(){} // RVA: 0x7FFAC8CB94F0
-        public void get_ConsumedStack(){} // RVA: 0x7FFAC3013AF0
-        public void Run(){} // RVA: 0x7FFAC8DA9AF0
-        public void WrapThrownObject(){} // RVA: 0x7FFAC8DA9CF0
-        public void .cctor(){} // RVA: 0x7FFAC8DA9E40
+        public void .ctor(){} // RVA: 0x7FFE8673B370
+        public void get_InstructionName(){} // RVA: 0x7FFE87151EE0
+        public void get_ProducedStack(){} // RVA: 0x7FFE870619E0
+        public void get_ConsumedStack(){} // RVA: 0x7FFE811EDAF0
+        public void Run(){} // RVA: 0x7FFE87151F20
+        public void WrapThrownObject(){} // RVA: 0x7FFE87152120
+        public void .cctor(){} // RVA: 0x7FFE87152270
     }
 
     public class TryCatchFinallyHandler : Object
     {
-        public int IsFinallyBlockExist; // 0x10
-        public int Handlers; // 0x14
-        public int IsCatchBlockExist; // 0x18
-        public int FinallyEndIndex; // 0x1C
-        public int GotoEndTargetIndex; // 0x20
-        public System.Linq.Expressions.Interpreter.ExceptionHandler[] _handlers; // 0x28
+        public int TryStartIndex; // 0x10
+        public int TryEndIndex; // 0x14
+        public int FinallyStartIndex; // 0x18
 
         // ── Methods ──
-        public void get_IsFinallyBlockExist(){} // RVA: 0x7FFAC8DC3240
-        public void get_Handlers(){} // RVA: 0x7FFAC2F4F130
-        public void get_IsCatchBlockExist(){} // RVA: 0x7FFAC81FF390
-        public void .ctor(){} // RVA: 0x7FFAC8DC32D0 | overloaded x2
-        public void HasHandler(){} // RVA: 0x7FFAC8DC3350
-        public void FilterPasses(){} // RVA: 0x7FFAC8DC35B0
+        public void get_IsFinallyBlockExist(){} // RVA: 0x7FFE8716B670
+        public void get_Handlers(){} // RVA: 0x7FFE81129130
+        public void get_IsCatchBlockExist(){} // RVA: 0x7FFE865A8CD0
+        public void .ctor(){} // RVA: 0x7FFE8716B700 | overloaded x2
+        public void HasHandler(){} // RVA: 0x7FFE8716B780
+        public void FilterPasses(){} // RVA: 0x7FFE8716B9E0
     }
 
     public class TryFaultHandler : Object
     {
-        public int TryStartIndex; // 0x10
-        public int TryEndIndex; // 0x14
-        public int FinallyStartIndex; // 0x18
-        public int FinallyEndIndex; // 0x1C
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84D6230
+        public void .ctor(){} // RVA: 0x7FFE8687FA60
     }
 
     public class TypeAsInstruction : Instruction
     {
-        public System.Type ConsumedStack; // 0x10
+        public System.Type _type; // 0x10
+        public object field_1; // 0x375
+        public object field_2; // 0x376
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void get_ConsumedStack(){} // RVA: 0x7FFAC3013AF0
-        public void get_ProducedStack(){} // RVA: 0x7FFAC3013AF0
-        public void get_InstructionName(){} // RVA: 0x7FFAC8DED9D0
-        public void Run(){} // RVA: 0x7FFAC8DEDA10
-        public void ToString(){} // RVA: 0x7FFAC8DEDAF0
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_ConsumedStack(){} // RVA: 0x7FFE811EDAF0
+        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
+        public void get_InstructionName(){} // RVA: 0x7FFE87195E00
+        public void Run(){} // RVA: 0x7FFE87195E40
+        public void ToString(){} // RVA: 0x7FFE87195F20
     }
 
     public class TypeEqualsInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.TypeEqualsInstruction ConsumedStack;
+        public System.Linq.Expressions.Interpreter.TypeEqualsInstruction Instance;
+        public object field_1; // 0x378
+        public object field_2; // 0x379
 
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7FFAC3026CB0
-        public void get_ProducedStack(){} // RVA: 0x7FFAC3013AF0
-        public void get_InstructionName(){} // RVA: 0x7FFAC8DEDB60
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Run(){} // RVA: 0x7FFAC8DEDBA0
-        public void .cctor(){} // RVA: 0x7FFAC8DEDC40
+        public void get_ConsumedStack(){} // RVA: 0x7FFE81200CB0
+        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
+        public void get_InstructionName(){} // RVA: 0x7FFE87195F90
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Run(){} // RVA: 0x7FFE87195FD0
+        public void .cctor(){} // RVA: 0x7FFE87196070
     }
 
     public class TypeIsInstruction : Instruction
     {
-        public System.Type ConsumedStack; // 0x10
+        public System.Type _type; // 0x10
+        public object field_1; // 0x372
+        public object field_2; // 0x373
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void get_ConsumedStack(){} // RVA: 0x7FFAC3013AF0
-        public void get_ProducedStack(){} // RVA: 0x7FFAC3013AF0
-        public void get_InstructionName(){} // RVA: 0x7FFAC8DED8A0
-        public void Run(){} // RVA: 0x7FFAC8DED8E0
-        public void ToString(){} // RVA: 0x7FFAC8DED960
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_ConsumedStack(){} // RVA: 0x7FFE811EDAF0
+        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
+        public void get_InstructionName(){} // RVA: 0x7FFE87195CD0
+        public void Run(){} // RVA: 0x7FFE87195D10
+        public void ToString(){} // RVA: 0x7FFE87195D90
     }
 
 }

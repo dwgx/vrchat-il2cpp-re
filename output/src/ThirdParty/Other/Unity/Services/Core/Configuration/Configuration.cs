@@ -8,83 +8,77 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
     public class CloudProjectId : Object
     {
         // ── Methods ──
-        public void GetCloudProjectId(){} // RVA: 0x7FFAC96EF090
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void GetCloudProjectId(){} // RVA: 0x7FFE87A97600
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class ConfigurationCollectionHelper : Object
     {
         // ── Methods ──
-        public void FillWith(){} // RVA: 0x7FFAC96EF1A0 | overloaded x2
-        public void SetOrCreateEntry(){} // RVA: 0x7FFAC96EF500
+        public void FillWith(){} // RVA: 0x7FFE87A97710 | overloaded x2
+        public void SetOrCreateEntry(){} // RVA: 0x7FFE87A97A70
     }
 
     public class ConfigurationEntry : Object
     {
-        public string Value; // 0x10
-        public bool IsReadOnly; // 0x18
+        public string m_Value; // 0x10
+        public bool m_IsReadOnly; // 0x18
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFAC2F3C380
-        public void get_IsReadOnly(){} // RVA: 0x7FFAC2F3C4E0
-        public void .ctor(){} // RVA: 0x7FFAC45687E0 | overloaded x2
-        public void TrySetValue(){} // RVA: 0x7FFAC96EF7E0
-        public void op_Implicit(){} // RVA: 0x7FFAC96EF840 | overloaded x2
+        public void get_Value(){} // RVA: 0x7FFE81116380
+        public void get_IsReadOnly(){} // RVA: 0x7FFE811164E0
+        public void .ctor(){} // RVA: 0x7FFE828378F0 | overloaded x2
+        public void TrySetValue(){} // RVA: 0x7FFE87A97D50
+        public void op_Implicit(){} // RVA: 0x7FFE87A97DB0 | overloaded x2
     }
 
     public class ConfigurationUtils : Object
     {
-        public Unity.Services.Core.Configuration.IConfigurationLoader ConfigurationLoader;
+        public Unity.Services.Core.Configuration.IConfigurationLoader _configurationLoader;
 
         // ── Methods ──
-        public void get_ConfigurationLoader(){} // RVA: 0x7FFAC96EF8E0
-        public void .cctor(){} // RVA: 0x7FFAC96EF940
+        public void get_ConfigurationLoader(){} // RVA: 0x7FFE87A97E50
+        public void .cctor(){} // RVA: 0x7FFE87A97EB0
     }
 
     public class ExternalUserId : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class IConfigurationLoader
     {
         // ── Methods ──
-        public void GetConfigAsync(){} // RVA: 0x7FFAC2C58E90
+        public void GetConfigAsync(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class ProjectConfiguration : Object
     {
-        public System.Collections.Generic.IReadOnlyDictionary`2<string,Unity.Services.Core.Configuration.ConfigurationEntry> m_ConfigValues; // 0x10
-        public Unity.Services.Core.Internal.Serialization.IJsonSerializer <Serializer>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240
-        public void GetString(){} // RVA: 0x7FFAC96EFA80
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0
+        public void GetString(){} // RVA: 0x7FFE87A97FF0
     }
 
     public class SerializableProjectConfiguration : ValueType
     {
-        public string[] Empty; // 0x10
-        public Unity.Services.Core.Configuration.ConfigurationEntry[] Values; // 0x18
+        public string[] Keys; // 0x10
 
         // ── Methods ──
-        public void get_Empty(){} // RVA: 0x7FFAC96EFB90
+        public void get_Empty(){} // RVA: 0x7FFE87A98100
     }
 
     public class StreamingAssetsConfigurationLoader : Object
     {
-        public Unity.Services.Core.Internal.Serialization.IJsonSerializer m_Serializer; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void GetConfigAsync(){} // RVA: 0x7FFAC96EFCB0
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void GetConfigAsync(){} // RVA: 0x7FFE87A98220
     }
 
     public class StreamingAssetsUtils : Object
     {
         // ── Methods ──
-        public void GetFileTextFromStreamingAssetsAsync(){} // RVA: 0x7FFAC96F0260
+        public void GetFileTextFromStreamingAssetsAsync(){} // RVA: 0x7FFE87A987D0
     }
 
 }

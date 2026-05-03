@@ -7,72 +7,76 @@ namespace ThirdParty.Other.Unity.Profiling
 {
     public class DebugScreenCapture : ValueType
     {
-        public Unity.Collections.NativeArray`1<byte> RawImageDataReference; // 0x10
-        public 0x6B17C078 ImageFormat; // 0x20
-        public int Width; // 0x24
-        public int Height; // 0x28
+        public Unity.Collections.NativeArray`1<byte> _rawImageDataReference; // 0x10
+        public 0x665758E4 _imageFormat; // 0x20
+        public int _width; // 0x24
+        public int _height; // 0x28
 
         // ── Methods ──
-        public void set_RawImageDataReference(){} // RVA: 0x7FFAC450BA60
-        public void set_ImageFormat(){} // RVA: 0x7FFAC2F240C0
-        public void set_Width(){} // RVA: 0x7FFAC33D4990
-        public void set_Height(){} // RVA: 0x7FFAC392CD10
+        public void set_RawImageDataReference(){} // RVA: 0x7FFE827D9C10
+        public void set_ImageFormat(){} // RVA: 0x7FFE810FE0C0
+        public void set_Width(){} // RVA: 0x7FFE8164E0F0
+        public void set_Height(){} // RVA: 0x7FFE8144DF00
     }
 
     public class IgnoredByDeepProfilerAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class ProfilerCategory : ValueType
     {
-        public ushort Name; // 0x10
+        public ushort m_CategoryId; // 0x10
+        public object get_Category; // 0xF030
+        public object get_Category; // 0xEEC0
+        public object field_3; // 0x5E80
+        public string field_4; // 0xD9A0
+        public object field_5; // 0xEAD0
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC4AC85F0
-        public void get_Name(){} // RVA: 0x7FFAC984F200
-        public void ToString(){} // RVA: 0x7FFAC984F280
-        public void get_Render(){} // RVA: 0x7FFAC34F9180
-        public void get_Scripts(){} // RVA: 0x7FFAC3013AF0
-        public void get_Vr(){} // RVA: 0x7FFAC31719D0
-        public void get_Memory(){} // RVA: 0x7FFAC3641DE0
-        public void get_Internal(){} // RVA: 0x7FFAC530B550
-        public void op_Implicit(){} // RVA: 0x7FFAC984F290
+        public void .ctor(){} // RVA: 0x7FFE82D33000
+        public void get_Name(){} // RVA: 0x7FFE87BF77A0
+        public void ToString(){} // RVA: 0x7FFE87BF7820
+        public void get_Render(){} // RVA: 0x7FFE813240E0
+        public void get_Scripts(){} // RVA: 0x7FFE811EDAF0
+        public void get_Vr(){} // RVA: 0x7FFE813DA8C0
+        public void get_Memory(){} // RVA: 0x7FFE8178CF30
+        public void get_Internal(){} // RVA: 0x7FFE835C1D90
+        public void op_Implicit(){} // RVA: 0x7FFE87BF7830
     }
 
     public class ProfilerMarker : ValueType
     {
-        public UIntPtr m_Ptr; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC984F2A0 | overloaded x2
-        public void Auto(){} // RVA: 0x7FFAC30F0D50
+        public void .ctor(){} // RVA: 0x7FFE87BF7840 | overloaded x2
+        public void Auto(){} // RVA: 0x7FFE812C4B40
     }
 
     public class ProfilerRecorder : ValueType
     {
-        public ulong Valid; // 0x10
-        public 0x6B177378 LastValueAsDouble;
+        public ulong handle; // 0x10
+        public 0x66570BE4 SharedRecorder;
+        public object field_2; // 0x87D8
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC984F330
-        public void StartNew(){} // RVA: 0x7FFAC984F3C0
-        public void get_Valid(){} // RVA: 0x7FFAC984F460
-        public void get_LastValueAsDouble(){} // RVA: 0x7FFAC984F4D0
-        public void get_Count(){} // RVA: 0x7FFAC984F580
-        public void Create(){} // RVA: 0x7FFAC984F630
-        public void Control(){} // RVA: 0x7FFAC984F6B0
-        public void GetLastValueAsDouble(){} // RVA: 0x7FFAC984F710
-        public void GetCount(){} // RVA: 0x7FFAC984F760
-        public void GetValid(){} // RVA: 0x7FFAC984F7C0
-        public void Dispose(){} // RVA: 0x7FFAC984F810
-        public void CheckInitializedAndThrow(){} // RVA: 0x7FFAC984F880
-        public void Create_Injected(){} // RVA: 0x7FFAC984F8F0
-        public void Control_Injected(){} // RVA: 0x7FFAC984F970
-        public void GetLastValueAsDouble_Injected(){} // RVA: 0x7FFAC984F9D0
-        public void GetCount_Injected(){} // RVA: 0x7FFAC984FA20
-        public void GetValid_Injected(){} // RVA: 0x7FFAC984FA80
+        public void .ctor(){} // RVA: 0x7FFE87BF78D0
+        public void StartNew(){} // RVA: 0x7FFE87BF7960
+        public void get_Valid(){} // RVA: 0x7FFE87BF7A00
+        public void get_LastValueAsDouble(){} // RVA: 0x7FFE87BF7A70
+        public void get_Count(){} // RVA: 0x7FFE87BF7B20
+        public void Create(){} // RVA: 0x7FFE87BF7BD0
+        public void Control(){} // RVA: 0x7FFE87BF7C50
+        public void GetLastValueAsDouble(){} // RVA: 0x7FFE87BF7CB0
+        public void GetCount(){} // RVA: 0x7FFE87BF7D00
+        public void GetValid(){} // RVA: 0x7FFE87BF7D60
+        public void Dispose(){} // RVA: 0x7FFE87BF7DB0
+        public void CheckInitializedAndThrow(){} // RVA: 0x7FFE87BF7E20
+        public void Create_Injected(){} // RVA: 0x7FFE87BF7E90
+        public void Control_Injected(){} // RVA: 0x7FFE87BF7F10
+        public void GetLastValueAsDouble_Injected(){} // RVA: 0x7FFE87BF7F70
+        public void GetCount_Injected(){} // RVA: 0x7FFE87BF7FC0
+        public void GetValid_Injected(){} // RVA: 0x7FFE87BF8020
     }
 
     public class ProfilerRecorderDebugView : Object

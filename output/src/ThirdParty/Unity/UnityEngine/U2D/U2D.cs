@@ -8,31 +8,21 @@ namespace ThirdParty.Unity.UnityEngine.U2D
     public class SpriteAtlas : Object
     {
         // ── Methods ──
-        public void CanBindTo(){} // RVA: 0x7FFAC98DB1C0
+        public void CanBindTo(){} // RVA: 0x7FFE87C838F0
     }
 
     public class SpriteAtlasManager : Object
     {
-        public System.Action`2<string,System.Action`1<UnityEngine.U2D.SpriteAtlas>> atlasRequested;
-        public System.Action`1<UnityEngine.U2D.SpriteAtlas> atlasRegistered; // 0x8
-
         // ── Methods ──
-        public void RequestAtlas(){} // RVA: 0x7FFAC98DADD0
-        public void add_atlasRegistered(){} // RVA: 0x7FFAC98DAE90
-        public void remove_atlasRegistered(){} // RVA: 0x7FFAC98DAFD0
-        public void PostRegisteredAtlas(){} // RVA: 0x7FFAC98DB110
-        public void Register(){} // RVA: 0x7FFAC98DB170
+        public void RequestAtlas(){} // RVA: 0x7FFE87C83500
+        public void add_atlasRegistered(){} // RVA: 0x7FFE87C835C0
+        public void remove_atlasRegistered(){} // RVA: 0x7FFE87C83700
+        public void PostRegisteredAtlas(){} // RVA: 0x7FFE87C83840
+        public void Register(){} // RVA: 0x7FFE87C838A0
     }
 
     public class SpriteBone : ValueType
     {
-        public string m_Name; // 0x10
-        public string m_Guid; // 0x18
-        public UnityEngine.Vector3 m_Position; // 0x20
-        public UnityEngine.Quaternion m_Rotation; // 0x2C
-        public float m_Length; // 0x3C
-        public int m_ParentId; // 0x40
-        public UnityEngine.Color32 m_Color; // 0x44
     }
 
     public class SpriteShapeRenderer : Renderer

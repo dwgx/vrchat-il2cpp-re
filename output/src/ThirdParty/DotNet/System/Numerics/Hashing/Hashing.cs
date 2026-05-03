@@ -7,11 +7,9 @@ namespace ThirdParty.DotNet.System.Numerics.Hashing
 {
     public class HashHelpers : Object
     {
-        public int RandomSeed;
-
         // ── Methods ──
-        public void Combine(){} // RVA: 0x7FFAC8542A00
-        public void .cctor(){} // RVA: 0x7FFAC8A59800
+        public void Combine(){} // RVA: 0x7FFE868EC230
+        public void .cctor(){} // RVA: 0x7FFE86E02E90
     }
 
 }

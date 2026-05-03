@@ -1,0 +1,694 @@
+{
+  "dump_path": "D:\\Project\\vrchat-il2cpp-re\\dumps\\VRChat_31360_20260503_212736_full.dmp",
+  "generated": "2026-05-03 21:31:38",
+  "string_scan": {
+    "target_names": [
+      "MonoBehaviour",
+      "GameObject",
+      "Transform",
+      "Component",
+      "NetworkManager",
+      "VRCPlayer",
+      "Keyboard",
+      "Canvas",
+      "Il2CppObject"
+    ],
+    "mapped_hits": 1253,
+    "hits_by_name": {
+      "MonoBehaviour": 20,
+      "GameObject": 116,
+      "Transform": 682,
+      "Component": 242,
+      "NetworkManager": 14,
+      "VRCPlayer": 3,
+      "Keyboard": 98,
+      "Canvas": 78,
+      "Il2CppObject": 0
+    },
+    "sample_hits": [
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x90A69F",
+        "va": "0x1004CFB3"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x3AC4A4A",
+        "va": "0x32E0735E"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x3FB02A9",
+        "va": "0x332F2BBD"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x447AEEE",
+        "va": "0x337BD802"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x51F47CA",
+        "va": "0x345370DE"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0xBFAEF92",
+        "va": "0x3B2F18A6"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x12D3927F",
+        "va": "0x63B44B93"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x14595624",
+        "va": "0x65BA0F38"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x15914502",
+        "va": "0x66F29E16"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x15914620",
+        "va": "0x66F29F34"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x159DEBC4",
+        "va": "0x66FF44D8"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x15A76F76",
+        "va": "0x6708C88A"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x15A77F20",
+        "va": "0x6708D834"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x15A77F35",
+        "va": "0x6708D849"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x27DA1EB2",
+        "va": "0x80BFD7C6"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0x27F49206",
+        "va": "0x80DA4B1A"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0xE3BF2BA7",
+        "va": "0x7FFE8F4544BB"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0xE3C74C73",
+        "va": "0x7FFE8F4D6587"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0xE3CA5D7C",
+        "va": "0x7FFE8F507690"
+      },
+      {
+        "name": "MonoBehaviour",
+        "file_offset": "0xE3CACB1C",
+        "va": "0x7FFE8F50E430"
+      },
+      {
+        "name": "GameObject",
+        "file_offset": "0x90A4A3",
+        "va": "0x1004CDB7"
+      },
+      {
+        "name": "GameObject",
+        "file_offset": "0x95C53E",
+        "va": "0x1009EE52"
+      },
+      {
+        "name": "GameObject",
+        "file_offset": "0x12D391E3",
+        "va": "0x63B44AF7"
+      },
+      {
+        "name": "GameObject",
+        "file_offset": "0x12DE559E",
+        "va": "0x63BF1EB2"
+      }
+    ]
+  },
+  "pointer_ref_scan": {
+    "nearby_window": "0x4000",
+    "nearby_pointer_hits": 4,
+    "heap_pointer_hits": 2157,
+    "notes": [
+      "Nearby ±0x4000 pointer search was attempted first for each string VA.",
+      "Heap-wide known-string pointer scan was used because the nearby pass did not produce enough signal."
+    ]
+  },
+  "layout_histogram_top": [
+    {
+      "off_name": "0x50",
+      "off_elem": "0x40",
+      "off_cast": "0x80",
+      "hit_count": 6,
+      "name_diversity": 6,
+      "distinct_bases": 6,
+      "names": [
+        "Canvas",
+        "Component",
+        "GameObject",
+        "Keyboard",
+        "MonoBehaviour",
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "MonoBehaviour",
+          "base": "0x30B4BA30",
+          "pointer_addr": "0x30B4BA80",
+          "string_va": "0x66F29E16"
+        },
+        {
+          "name": "Component",
+          "base": "0x30B4BD30",
+          "pointer_addr": "0x30B4BD80",
+          "string_va": "0x66E9267B"
+        },
+        {
+          "name": "GameObject",
+          "base": "0x317DE4E0",
+          "pointer_addr": "0x317DE530",
+          "string_va": "0x66F299A8"
+        },
+        {
+          "name": "Transform",
+          "base": "0x32CCBCB0",
+          "pointer_addr": "0x32CCBD00",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Canvas",
+          "base": "0x32D8B5C0",
+          "pointer_addr": "0x32D8B610",
+          "string_va": "0x6701E063"
+        },
+        {
+          "name": "Keyboard",
+          "base": "0x33644960",
+          "pointer_addr": "0x336449B0",
+          "string_va": "0x66A5D006"
+        }
+      ]
+    },
+    {
+      "off_name": "0x50",
+      "off_elem": "0x40",
+      "off_cast": "0xA8",
+      "hit_count": 6,
+      "name_diversity": 6,
+      "distinct_bases": 6,
+      "names": [
+        "Canvas",
+        "Component",
+        "GameObject",
+        "Keyboard",
+        "MonoBehaviour",
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "MonoBehaviour",
+          "base": "0x30B4BA30",
+          "pointer_addr": "0x30B4BA80",
+          "string_va": "0x66F29E16"
+        },
+        {
+          "name": "Component",
+          "base": "0x30B4BD30",
+          "pointer_addr": "0x30B4BD80",
+          "string_va": "0x66E9267B"
+        },
+        {
+          "name": "GameObject",
+          "base": "0x317DE4E0",
+          "pointer_addr": "0x317DE530",
+          "string_va": "0x66F299A8"
+        },
+        {
+          "name": "Transform",
+          "base": "0x32CCBCB0",
+          "pointer_addr": "0x32CCBD00",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Canvas",
+          "base": "0x32D8B5C0",
+          "pointer_addr": "0x32D8B610",
+          "string_va": "0x6701E063"
+        },
+        {
+          "name": "Keyboard",
+          "base": "0x33644960",
+          "pointer_addr": "0x336449B0",
+          "string_va": "0x66A5D006"
+        }
+      ]
+    },
+    {
+      "off_name": "0x50",
+      "off_elem": "0x80",
+      "off_cast": "0xA8",
+      "hit_count": 6,
+      "name_diversity": 6,
+      "distinct_bases": 6,
+      "names": [
+        "Canvas",
+        "Component",
+        "GameObject",
+        "Keyboard",
+        "MonoBehaviour",
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "MonoBehaviour",
+          "base": "0x30B4BA30",
+          "pointer_addr": "0x30B4BA80",
+          "string_va": "0x66F29E16"
+        },
+        {
+          "name": "Component",
+          "base": "0x30B4BD30",
+          "pointer_addr": "0x30B4BD80",
+          "string_va": "0x66E9267B"
+        },
+        {
+          "name": "GameObject",
+          "base": "0x317DE4E0",
+          "pointer_addr": "0x317DE530",
+          "string_va": "0x66F299A8"
+        },
+        {
+          "name": "Transform",
+          "base": "0x32CCBCB0",
+          "pointer_addr": "0x32CCBD00",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Canvas",
+          "base": "0x32D8B5C0",
+          "pointer_addr": "0x32D8B610",
+          "string_va": "0x6701E063"
+        },
+        {
+          "name": "Keyboard",
+          "base": "0x33644960",
+          "pointer_addr": "0x336449B0",
+          "string_va": "0x66A5D006"
+        }
+      ]
+    },
+    {
+      "off_name": "0x70",
+      "off_elem": "0x28",
+      "off_cast": "0x60",
+      "hit_count": 4,
+      "name_diversity": 1,
+      "distinct_bases": 4,
+      "names": [
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "Transform",
+          "base": "0x34080BB8",
+          "pointer_addr": "0x34080C28",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Transform",
+          "base": "0x340820C8",
+          "pointer_addr": "0x34082138",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Transform",
+          "base": "0x37972FC8",
+          "pointer_addr": "0x37973038",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Transform",
+          "base": "0x37973F28",
+          "pointer_addr": "0x37973F98",
+          "string_va": "0x66AF3CD2"
+        }
+      ]
+    },
+    {
+      "off_name": "0x20",
+      "off_elem": "0x28",
+      "off_cast": "0x70",
+      "hit_count": 3,
+      "name_diversity": 1,
+      "distinct_bases": 3,
+      "names": [
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "Transform",
+          "base": "0x3406BD18",
+          "pointer_addr": "0x3406BD38",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Transform",
+          "base": "0x3B4F1DD8",
+          "pointer_addr": "0x3B4F1DF8",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Transform",
+          "base": "0x3B4F2858",
+          "pointer_addr": "0x3B4F2878",
+          "string_va": "0x66AF3CD2"
+        }
+      ]
+    },
+    {
+      "off_name": "0x20",
+      "off_elem": "0x28",
+      "off_cast": "0x60",
+      "hit_count": 2,
+      "name_diversity": 1,
+      "distinct_bases": 2,
+      "names": [
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "Transform",
+          "base": "0x34082118",
+          "pointer_addr": "0x34082138",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Transform",
+          "base": "0x37973F78",
+          "pointer_addr": "0x37973F98",
+          "string_va": "0x66AF3CD2"
+        }
+      ]
+    },
+    {
+      "off_name": "0x40",
+      "off_elem": "0x28",
+      "off_cast": "0x70",
+      "hit_count": 2,
+      "name_diversity": 1,
+      "distinct_bases": 2,
+      "names": [
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "Transform",
+          "base": "0x3B4F6538",
+          "pointer_addr": "0x3B4F6578",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Transform",
+          "base": "0x3B4F7138",
+          "pointer_addr": "0x3B4F7178",
+          "string_va": "0x66AF3CD2"
+        }
+      ]
+    },
+    {
+      "off_name": "0x60",
+      "off_elem": "0x28",
+      "off_cast": "0x80",
+      "hit_count": 2,
+      "name_diversity": 1,
+      "distinct_bases": 2,
+      "names": [
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "Transform",
+          "base": "0x34043EB8",
+          "pointer_addr": "0x34043F18",
+          "string_va": "0x66AF3CD2"
+        },
+        {
+          "name": "Transform",
+          "base": "0x3B4F1D18",
+          "pointer_addr": "0x3B4F1D78",
+          "string_va": "0x66AF3CD2"
+        }
+      ]
+    },
+    {
+      "off_name": "0x20",
+      "off_elem": "0x28",
+      "off_cast": "0x80",
+      "hit_count": 1,
+      "name_diversity": 1,
+      "distinct_bases": 1,
+      "names": [
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "Transform",
+          "base": "0x3B4F54D8",
+          "pointer_addr": "0x3B4F54F8",
+          "string_va": "0x66AF3CD2"
+        }
+      ]
+    },
+    {
+      "off_name": "0x28",
+      "off_elem": "0x0",
+      "off_cast": "0x8",
+      "hit_count": 1,
+      "name_diversity": 1,
+      "distinct_bases": 1,
+      "names": [
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "Transform",
+          "base": "0x34043EF0",
+          "pointer_addr": "0x34043F18",
+          "string_va": "0x66AF3CD2"
+        }
+      ]
+    },
+    {
+      "off_name": "0x28",
+      "off_elem": "0x0",
+      "off_cast": "0x10",
+      "hit_count": 1,
+      "name_diversity": 1,
+      "distinct_bases": 1,
+      "names": [
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "Transform",
+          "base": "0x34043EF0",
+          "pointer_addr": "0x34043F18",
+          "string_va": "0x66AF3CD2"
+        }
+      ]
+    },
+    {
+      "off_name": "0x28",
+      "off_elem": "0x8",
+      "off_cast": "0x10",
+      "hit_count": 1,
+      "name_diversity": 1,
+      "distinct_bases": 1,
+      "names": [
+        "Transform"
+      ],
+      "samples": [
+        {
+          "name": "Transform",
+          "base": "0x34043EF0",
+          "pointer_addr": "0x34043F18",
+          "string_va": "0x66AF3CD2"
+        }
+      ]
+    }
+  ],
+  "final_offsets": {
+    "OFF_IMAGE": "0x0",
+    "OFF_NS": "0x18",
+    "OFF_ELEM": "0x40",
+    "OFF_CAST": "0x80",
+    "OFF_NAME": "0x50",
+    "OFF_METHODS": "0x90",
+    "OFF_FIELDS": "0xD0",
+    "OFF_PARENT": "0xA0",
+    "OFF_NATIVE": "0xD0",
+    "OFF_MCNT": "0x120",
+    "OFF_FCNT": "0x122",
+    "MI_POINTER": "0x0",
+    "MI_NAME": "0x18",
+    "FI_STRIDE": "0x40",
+    "FI_NAME": "0x20"
+  },
+  "candidate_class_count": 33810,
+  "known_class_evidence": [
+    {
+      "name": "MonoBehaviour",
+      "base": "0x30B4BA30",
+      "namespace": "UnityEngine",
+      "parent": "Behaviour",
+      "method_count": 32,
+      "field_count": 2,
+      "sample_methods": [
+        "get_destroyCancellationToken",
+        "RaiseCancellation",
+        "IsInvoking",
+        "CancelInvoke",
+        "Invoke"
+      ],
+      "sample_fields": [
+        "Core",
+        "Transform"
+      ],
+      "confirmed": true
+    },
+    {
+      "name": "GameObject",
+      "base": "0x317DE4E0",
+      "namespace": "UnityEngine",
+      "parent": "Object",
+      "method_count": 90,
+      "field_count": 11,
+      "sample_methods": [
+        "CreatePrimitive",
+        "GetComponent",
+        "GetComponent",
+        "GetComponentFastPath",
+        "GetComponentByName"
+      ],
+      "sample_fields": [
+        "Core",
+        "Texture2D"
+      ],
+      "confirmed": true
+    },
+    {
+      "name": "Transform",
+      "base": "0x32CCBCB0",
+      "namespace": "UnityEngine",
+      "parent": "Component",
+      "method_count": 151,
+      "field_count": 22,
+      "sample_methods": [
+        ".ctor",
+        "get_position",
+        "set_position",
+        "get_localPosition",
+        "set_localPosition"
+      ],
+      "sample_fields": [
+        "Core",
+        "Component"
+      ],
+      "confirmed": true
+    },
+    {
+      "name": "Component",
+      "base": "0x30B4BD30",
+      "namespace": "UnityEngine",
+      "parent": "Object",
+      "method_count": 47,
+      "field_count": 3,
+      "sample_methods": [
+        "get_transform",
+        "get_gameObject",
+        "GetComponent",
+        "GetComponentFastPath",
+        "GetComponent"
+      ],
+      "sample_fields": [
+        "Core",
+        "GameObject"
+      ],
+      "confirmed": true
+    },
+    {
+      "name": "Keyboard",
+      "base": "0x33644960",
+      "namespace": "UnityEngine.InputSystem",
+      "parent": "InputDevice",
+      "method_count": 161,
+      "field_count": 138,
+      "sample_methods": [
+        "add_onTextInput",
+        "remove_onTextInput",
+        "add_onIMECompositionChange",
+        "remove_onIMECompositionChange",
+        "SetIMEEnabled"
+      ],
+      "sample_fields": [],
+      "confirmed": false
+    },
+    {
+      "name": "Canvas",
+      "base": "0x32D8B5C0",
+      "namespace": "UnityEngine",
+      "parent": "Behaviour",
+      "method_count": 64,
+      "field_count": 26,
+      "sample_methods": [
+        "add_preWillRenderCanvases",
+        "remove_preWillRenderCanvases",
+        "add_willRenderCanvases",
+        "remove_willRenderCanvases",
+        "get_renderMode"
+      ],
+      "sample_fields": [
+        "UI"
+      ],
+      "confirmed": true
+    }
+  ],
+  "known_classes_confirmed": 5,
+  "confirmed_names": [
+    "MonoBehaviour",
+    "GameObject",
+    "Transform",
+    "Component",
+    "Canvas"
+  ],
+  "timings_seconds": {
+    "open_dump": 0.003,
+    "scan_strings": 13.682,
+    "scan_nearby_refs": 0.21,
+    "scan_heap_refs": 1.707,
+    "scan_candidate_classes": 3.775
+  }
+}

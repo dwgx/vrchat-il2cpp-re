@@ -8,96 +8,92 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
     public class ActivityExtensions : Object
     {
         // ── Methods ──
-        public void GetSpanId(){} // RVA: 0x7FFAC834BA20
-        public void GetTraceId(){} // RVA: 0x7FFAC834BAD0
-        public void GetParentId(){} // RVA: 0x7FFAC834BB80
+        public void GetSpanId(){} // RVA: 0x7FFE866F5320
+        public void GetTraceId(){} // RVA: 0x7FFE866F53D0
+        public void GetParentId(){} // RVA: 0x7FFE866F5480
     }
 
     public class DebuggerDisplayFormatting : Object
     {
         // ── Methods ──
-        public void DebuggerToString(){} // RVA: 0x7FFAC8345220
-        public void CalculateEnabledLogLevel(){} // RVA: 0x7FFAC8345360
+        public void DebuggerToString(){} // RVA: 0x7FFE866EEB20
+        public void CalculateEnabledLogLevel(){} // RVA: 0x7FFE866EEC60
     }
 
     public class DefaultLoggerLevelConfigureOptions : ConfigureOptions`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8346780
+        public void .ctor(){} // RVA: 0x7FFE866F0080
     }
 
     public class EventId : ValueType
     {
-        public int Id; // 0x10
-        public string Name; // 0x18
+        public int _id; // 0x10
+        public string _name; // 0x18
 
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7FFAC833FDC0
-        public void op_Equality(){} // RVA: 0x7FFAC833FE20
-        public void op_Inequality(){} // RVA: 0x7FFAC833FE30
-        public void .ctor(){} // RVA: 0x7FFAC60F24C0
-        public void get_Id(){} // RVA: 0x7FFAC4420210
-        public void get_Name(){} // RVA: 0x7FFAC4420220
-        public void ToString(){} // RVA: 0x7FFAC833FE40
-        public void Equals(){} // RVA: 0x7FFAC833FEF0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC4420210
+        public void op_Implicit(){} // RVA: 0x7FFE866E96C0
+        public void op_Equality(){} // RVA: 0x7FFE866E9720
+        public void op_Inequality(){} // RVA: 0x7FFE866E9730
+        public void .ctor(){} // RVA: 0x7FFE844576B0
+        public void get_Id(){} // RVA: 0x7FFE826F4220
+        public void get_Name(){} // RVA: 0x7FFE826F4210
+        public void ToString(){} // RVA: 0x7FFE866E9740
+        public void Equals(){} // RVA: 0x7FFE866E97F0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE826F4220
     }
 
     public class FilterLoggingBuilderExtensions : Object
     {
         // ── Methods ──
-        public void AddFilter(){} // RVA: 0x7FFAC8346A10 | overloaded x2
-        public void ConfigureFilter(){} // RVA: 0x7FFAC8346A40
-        public void AddRule(){} // RVA: 0x7FFAC8346AC0
+        public void AddFilter(){} // RVA: 0x7FFE866F0310 | overloaded x2
+        public void ConfigureFilter(){} // RVA: 0x7FFE866F0340
+        public void AddRule(){} // RVA: 0x7FFE866F03C0
     }
 
     public class FormattedLogValues : ValueType
     {
-        public int Formatter;
-        public string Item;
-        public int Count;
-        public System.Collections.Concurrent.ConcurrentDictionary`2<string,Microsoft.Extensions.Logging.LogValuesFormatter> s_formatters; // 0x8
-        public Microsoft.Extensions.Logging.LogValuesFormatter _formatter; // 0x10
-        public object[] _values; // 0x18
-        public string _originalMessage; // 0x20
+        public int MaxCachedFormatters;
+        public string NullFormat;
+        public int s_count;
 
         // ── Methods ──
-        public void get_Formatter(){} // RVA: 0x7FFAC3AD9F60
-        public void .ctor(){} // RVA: 0x7FFAC833FF80
-        public void get_Item(){} // RVA: 0x7FFAC8340310
-        public void get_Count(){} // RVA: 0x7FFAC83405E0
-        public void GetEnumerator(){} // RVA: 0x7FFAC8340640
-        public void ToString(){} // RVA: 0x7FFAC83406F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC8340710
-        public void .cctor(){} // RVA: 0x7FFAC8340760
+        public void get_Formatter(){} // RVA: 0x7FFE8284EF60
+        public void .ctor(){} // RVA: 0x7FFE866E9880
+        public void get_Item(){} // RVA: 0x7FFE866E9C10
+        public void get_Count(){} // RVA: 0x7FFE866E9EE0
+        public void GetEnumerator(){} // RVA: 0x7FFE866E9F40
+        public void ToString(){} // RVA: 0x7FFE866E9FF0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE866EA010
+        public void .cctor(){} // RVA: 0x7FFE866EA060
     }
 
     public class IExternalScopeProvider
     {
         // ── Methods ──
-        public void ForEachScope(){} // RVA: 0x7FFAC2E8DC40
-        public void Push(){} // RVA: 0x7FFAC2C58F40
+        public void ForEachScope(){} // RVA: 0x7FFE810A1420
+        public void Push(){} // RVA: 0x7FFE80E2E390
     }
 
     public class ILogger
     {
         // ── Methods ──
-        public void Log(){} // RVA: 0x7FFAC2E8DC40
-        public void IsEnabled(){} // RVA: 0x7FFAC2C5A310
-        public void BeginScope(){} // RVA: 0x7FFAC2E8DC40
+        public void Log(){} // RVA: 0x7FFE810A1420
+        public void IsEnabled(){} // RVA: 0x7FFE80E2F760
+        public void BeginScope(){} // RVA: 0x7FFE810A1420
     }
 
     public class ILoggerFactory
     {
         // ── Methods ──
-        public void CreateLogger(){} // RVA: 0x7FFAC2C58F40
-        public void AddProvider(){} // RVA: 0x7FFAC2C70A40
+        public void CreateLogger(){} // RVA: 0x7FFE80E2E390
+        public void AddProvider(){} // RVA: 0x7FFE80E460A0
     }
 
     public class ILoggerProvider
     {
         // ── Methods ──
-        public void CreateLogger(){} // RVA: 0x7FFAC2C58F40
+        public void CreateLogger(){} // RVA: 0x7FFE80E2E390
     }
 
     public class ILogger`1
@@ -106,335 +102,310 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
 
     public class ILoggingBuilder
     {
-        public object Services;
-
         // ── Methods ──
-        public void get_Services(){} // RVA: 0x7FFAC2C58E90
+        public void get_Services(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class ISupportExternalScope
     {
         // ── Methods ──
-        public void SetScopeProvider(){} // RVA: 0x7FFAC2C70A40
+        public void SetScopeProvider(){} // RVA: 0x7FFE80E460A0
     }
 
     public class LogDefineOptions : Object
     {
-        public bool SkipEnabledCheck; // 0x10
+        public bool _skipEnabledCheck; // 0x10
 
         // ── Methods ──
-        public void get_SkipEnabledCheck(){} // RVA: 0x7FFAC2FEB5E0
-        public void set_SkipEnabledCheck(){} // RVA: 0x7FFAC2FEB5F0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_SkipEnabledCheck(){} // RVA: 0x7FFE811C55E0
+        public void set_SkipEnabledCheck(){} // RVA: 0x7FFE811C55F0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class LogValuesFormatter : Object
     {
-        public string OriginalFormat;
-        public char[] ValueNames;
-        public System.Collections.Generic.List`1<string> _valueNames; // 0x10
-        public string _format; // 0x18
-        public string <OriginalFormat>k__BackingField; // 0x20
+        public string NullValue;
+        public char[] FormatDelimiters;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC83438E0
-        public void get_OriginalFormat(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_OriginalFormat(){} // RVA: 0x7FFAC2F4F0D0
-        public void get_ValueNames(){} // RVA: 0x7FFAC2F3C380
-        public void FindBraceIndex(){} // RVA: 0x7FFAC8343F80
-        public void FindIndexOfAny(){} // RVA: 0x7FFAC8344030
-        public void Format(){} // RVA: 0x7FFAC83448E0 | overloaded x5
-        public void FormatWithOverwrite(){} // RVA: 0x7FFAC8344380
-        public void GetValue(){} // RVA: 0x7FFAC8344A10
-        public void GetValues(){} // RVA: 0x7FFAC8344B80
-        public void FormatArgument(){} // RVA: 0x7FFAC8344E10
-        public void TryFormatArgumentIfNullOrEnumerable(){} // RVA: 0x7FFAC2E8DC40
-        public void .cctor(){} // RVA: 0x7FFAC8344E90
+        public void .ctor(){} // RVA: 0x7FFE866ED1E0
+        public void get_OriginalFormat(){} // RVA: 0x7FFE811290C0
+        public void set_OriginalFormat(){} // RVA: 0x7FFE811290D0
+        public void get_ValueNames(){} // RVA: 0x7FFE81116380
+        public void FindBraceIndex(){} // RVA: 0x7FFE866ED880
+        public void FindIndexOfAny(){} // RVA: 0x7FFE866ED930
+        public void Format(){} // RVA: 0x7FFE866EE1E0 | overloaded x5
+        public void FormatWithOverwrite(){} // RVA: 0x7FFE866EDC80
+        public void GetValue(){} // RVA: 0x7FFE866EE310
+        public void GetValues(){} // RVA: 0x7FFE866EE480
+        public void FormatArgument(){} // RVA: 0x7FFE866EE710
+        public void TryFormatArgumentIfNullOrEnumerable(){} // RVA: 0x7FFE810A1420
+        public void .cctor(){} // RVA: 0x7FFE866EE790
     }
 
     public class Logger : Object
     {
-        public string Loggers; // 0x10
-        public Microsoft.Extensions.Logging.LoggerInformation[] MessageLoggers; // 0x18
-        public Microsoft.Extensions.Logging.MessageLogger[] ScopeLoggers; // 0x20
-        public Microsoft.Extensions.Logging.ScopeLogger[] <ScopeLoggers>k__BackingField; // 0x28
+        public string _categoryName; // 0x10
+        public Microsoft.Extensions.Logging.LoggerInformation[] _loggers; // 0x18
+        public Microsoft.Extensions.Logging.MessageLogger[] _messageLoggers; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240
-        public void get_Loggers(){} // RVA: 0x7FFAC2F247C0
-        public void set_Loggers(){} // RVA: 0x7FFAC2F87E80
-        public void get_MessageLoggers(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_MessageLoggers(){} // RVA: 0x7FFAC2F4F0D0
-        public void get_ScopeLoggers(){} // RVA: 0x7FFAC2F4F130
-        public void set_ScopeLoggers(){} // RVA: 0x7FFAC2F22E90
-        public void Log(){} // RVA: 0x7FFAC2E8DC40
-        public void IsEnabled(){} // RVA: 0x7FFAC8346D10
-        public void BeginScope(){} // RVA: 0x7FFAC2E8DC40
-        public void ThrowLoggingError(){} // RVA: 0x7FFAC8346DF0
-        public void <Log>g__LoggerLog|14_0(){} // RVA: 0x7FFAC2E8DC40
-        public void <IsEnabled>g__LoggerIsEnabled|15_0(){} // RVA: 0x7FFAC8346E50
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0
+        public void get_Loggers(){} // RVA: 0x7FFE810FE7C0
+        public void set_Loggers(){} // RVA: 0x7FFE81161E80
+        public void get_MessageLoggers(){} // RVA: 0x7FFE811290C0
+        public void set_MessageLoggers(){} // RVA: 0x7FFE811290D0
+        public void get_ScopeLoggers(){} // RVA: 0x7FFE81129130
+        public void set_ScopeLoggers(){} // RVA: 0x7FFE810FCE90
+        public void Log(){} // RVA: 0x7FFE810A1420
+        public void IsEnabled(){} // RVA: 0x7FFE866F0610
+        public void BeginScope(){} // RVA: 0x7FFE810A1420
+        public void ThrowLoggingError(){} // RVA: 0x7FFE866F06F0
+        public void <Log>g__LoggerLog|14_0(){} // RVA: 0x7FFE810A1420
+        public void <IsEnabled>g__LoggerIsEnabled|15_0(){} // RVA: 0x7FFE866F0750
     }
 
     public class LoggerExtensions : Object
     {
-        public System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,string> _messageFormatter;
-
         // ── Methods ──
-        public void LogDebug(){} // RVA: 0x7FFAC8340D90 | overloaded x4
-        public void LogTrace(){} // RVA: 0x7FFAC8341010 | overloaded x4
-        public void LogInformation(){} // RVA: 0x7FFAC83412B0 | overloaded x4
-        public void LogWarning(){} // RVA: 0x7FFAC8341550 | overloaded x4
-        public void LogError(){} // RVA: 0x7FFAC83417F0 | overloaded x4
-        public void LogCritical(){} // RVA: 0x7FFAC8341A90 | overloaded x4
-        public void Log(){} // RVA: 0x7FFAC8341D90 | overloaded x4
-        public void BeginScope(){} // RVA: 0x7FFAC8341ED0
-        public void MessageFormatter(){} // RVA: 0x7FFAC8341F90
-        public void .cctor(){} // RVA: 0x7FFAC8342000
+        public void LogDebug(){} // RVA: 0x7FFE866EA690 | overloaded x4
+        public void LogTrace(){} // RVA: 0x7FFE866EA910 | overloaded x4
+        public void LogInformation(){} // RVA: 0x7FFE866EABB0 | overloaded x4
+        public void LogWarning(){} // RVA: 0x7FFE866EAE50 | overloaded x4
+        public void LogError(){} // RVA: 0x7FFE866EB0F0 | overloaded x4
+        public void LogCritical(){} // RVA: 0x7FFE866EB390 | overloaded x4
+        public void Log(){} // RVA: 0x7FFE866EB690 | overloaded x4
+        public void BeginScope(){} // RVA: 0x7FFE866EB7D0
+        public void MessageFormatter(){} // RVA: 0x7FFE866EB890
+        public void .cctor(){} // RVA: 0x7FFE866EB900
     }
 
     public class LoggerExternalScopeProvider : Object
     {
-        public System.Threading.AsyncLocal`1<Scope> _currentScope; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC83421A0
-        public void ForEachScope(){} // RVA: 0x7FFAC2E8DC40
-        public void Push(){} // RVA: 0x7FFAC8342240
-        public void <ForEachScope>g__Report|2_0(){} // RVA: 0x7FFAC2C70C80
+        public void .ctor(){} // RVA: 0x7FFE866EBAA0
+        public void ForEachScope(){} // RVA: 0x7FFE810A1420
+        public void Push(){} // RVA: 0x7FFE866EBB40
+        public void <ForEachScope>g__Report|2_0(){} // RVA: 0x7FFE80E462E0
     }
 
     public class LoggerFactory : Object
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<string,Microsoft.Extensions.Logging.Logger> _loggers; // 0x10
-        public System.Collections.Generic.List`1<ProviderRegistration> _providerRegistrations; // 0x18
-        public object _sync; // 0x20
-        public bool _disposed; // 0x28
-        public System.IDisposable _changeTokenRegistration; // 0x30
-        public Microsoft.Extensions.Logging.LoggerFilterOptions _filterOptions; // 0x38
-        public Microsoft.Extensions.Logging.IExternalScopeProvider _scopeProvider; // 0x40
-        public Microsoft.Extensions.Logging.LoggerFactoryOptions _factoryOptions; // 0x48
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8347750 | overloaded x6
-        public void Create(){} // RVA: 0x7FFAC8347E70
-        public void RefreshFilters(){} // RVA: 0x7FFAC8348260
-        public void CreateLogger(){} // RVA: 0x7FFAC83486C0
-        public void AddProvider(){} // RVA: 0x7FFAC8348B70
-        public void AddProviderRegistration(){} // RVA: 0x7FFAC83491A0
-        public void CreateLoggers(){} // RVA: 0x7FFAC83493F0
-        public void ApplyFilters(){} // RVA: 0x7FFAC83495B0
-        public void CheckDisposed(){} // RVA: 0x7FFAC8349B80
-        public void Dispose(){} // RVA: 0x7FFAC8349B90
+        public void .ctor(){} // RVA: 0x7FFE866F1050 | overloaded x6
+        public void Create(){} // RVA: 0x7FFE866F1770
+        public void RefreshFilters(){} // RVA: 0x7FFE866F1B60
+        public void CreateLogger(){} // RVA: 0x7FFE866F1FC0
+        public void AddProvider(){} // RVA: 0x7FFE866F2470
+        public void AddProviderRegistration(){} // RVA: 0x7FFE866F2AA0
+        public void CreateLoggers(){} // RVA: 0x7FFE866F2CF0
+        public void ApplyFilters(){} // RVA: 0x7FFE866F2EB0
+        public void CheckDisposed(){} // RVA: 0x7FFE866F3480
+        public void Dispose(){} // RVA: 0x7FFE866F3490
     }
 
     public class LoggerFactoryExtensions : Object
     {
         // ── Methods ──
-        public void CreateLogger(){} // RVA: 0x7FFAC8342580 | overloaded x2
+        public void CreateLogger(){} // RVA: 0x7FFE866EBE80 | overloaded x2
     }
 
     public class LoggerFactoryOptions : Object
     {
-        public 0x6B2D09F0 ActivityTrackingOptions; // 0x10
+        public 0x666CB544 _activityTrackingOptions; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void get_ActivityTrackingOptions(){} // RVA: 0x7FFAC2F6E5C0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_ActivityTrackingOptions(){} // RVA: 0x7FFE811485C0
     }
 
     public class LoggerFactoryScopeProvider : Object
     {
-        public System.Threading.AsyncLocal`1<Scope> _currentScope; // 0x10
-        public 0x6B2D09F0 _activityTrackingOption; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8349E40
-        public void ForEachScope(){} // RVA: 0x7FFAC2E8DC40
-        public void GetOrCreateActivityBaggageLogScopeWrapper(){} // RVA: 0x7FFAC8349EF0
-        public void Push(){} // RVA: 0x7FFAC8349FF0
-        public void <ForEachScope>g__Report|3_0(){} // RVA: 0x7FFAC2C70C80
+        public void .ctor(){} // RVA: 0x7FFE866F3740
+        public void ForEachScope(){} // RVA: 0x7FFE810A1420
+        public void GetOrCreateActivityBaggageLogScopeWrapper(){} // RVA: 0x7FFE866F37F0
+        public void Push(){} // RVA: 0x7FFE866F38F0
+        public void <ForEachScope>g__Report|3_0(){} // RVA: 0x7FFE80E462E0
     }
 
     public class LoggerFilterOptions : Object
     {
-        public bool CaptureScopes; // 0x10
-        public 0x6B2B8CB8 MinLevel; // 0x14
-        public System.Collections.Generic.List`1<Microsoft.Extensions.Logging.LoggerFilterRule> Rules; // 0x18
+        public bool _captureScopes; // 0x10
+        public 0x666B1D94 _minLevel; // 0x14
+        public System.Collections.Generic.List`1<Microsoft.Extensions.Logging.LoggerFilterRule> _rulesInternal; // 0x18
+        public object field_3; // 0xEDEE
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC834BC30
-        public void get_CaptureScopes(){} // RVA: 0x7FFAC2FEB5E0
-        public void get_MinLevel(){} // RVA: 0x7FFAC33D5A20
-        public void set_MinLevel(){} // RVA: 0x7FFAC33D4990
-        public void get_Rules(){} // RVA: 0x7FFAC2F247C0
-        public void get_RulesInternal(){} // RVA: 0x7FFAC2F247C0
+        public void .ctor(){} // RVA: 0x7FFE866F5530
+        public void get_CaptureScopes(){} // RVA: 0x7FFE811C55E0
+        public void get_MinLevel(){} // RVA: 0x7FFE8164B230
+        public void set_MinLevel(){} // RVA: 0x7FFE8164E0F0
+        public void get_Rules(){} // RVA: 0x7FFE810FE7C0
+        public void get_RulesInternal(){} // RVA: 0x7FFE810FE7C0
     }
 
     public class LoggerFilterRule : Object
     {
-        public string ProviderName; // 0x10
-        public string CategoryName; // 0x18
-        public System.Nullable`1<0x6B2B8CB8> LogLevel; // 0x20
-        public System.Func`4<string,string,0x6B2B8CB8,bool> Filter; // 0x28
+        public string _providerName; // 0x10
+        public string _categoryName; // 0x18
+        public System.Nullable`1<0x666B1D94> _logLevel; // 0x20
+        public System.Func`4<string,string,0x666B1D94,bool> _filter; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC834BCF0
-        public void get_ProviderName(){} // RVA: 0x7FFAC2F3C380
-        public void get_CategoryName(){} // RVA: 0x7FFAC2F247C0
-        public void get_LogLevel(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_Filter(){} // RVA: 0x7FFAC2F4F130
-        public void ToString(){} // RVA: 0x7FFAC834BE00
+        public void .ctor(){} // RVA: 0x7FFE866F55F0
+        public void get_ProviderName(){} // RVA: 0x7FFE81116380
+        public void get_CategoryName(){} // RVA: 0x7FFE810FE7C0
+        public void get_LogLevel(){} // RVA: 0x7FFE811290C0
+        public void get_Filter(){} // RVA: 0x7FFE81129130
+        public void ToString(){} // RVA: 0x7FFE866F5700
     }
 
     public class LoggerInformation : ValueType
     {
-        public Microsoft.Extensions.Logging.ILogger Logger; // 0x10
-        public string Category; // 0x18
-        public System.Type ProviderType; // 0x20
-        public bool ExternalScope; // 0x28
+        public Microsoft.Extensions.Logging.ILogger _logger; // 0x10
+        public string _category; // 0x18
+        public System.Type _providerType; // 0x20
+        public bool _externalScope; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC834C370
-        public void get_Logger(){} // RVA: 0x7FFAC3AD9F60
-        public void get_Category(){} // RVA: 0x7FFAC4420220
-        public void get_ProviderType(){} // RVA: 0x7FFAC2F3C380
-        public void get_ExternalScope(){} // RVA: 0x7FFAC2F3C4E0
+        public void .ctor(){} // RVA: 0x7FFE866F5C70
+        public void get_Logger(){} // RVA: 0x7FFE8284EF60
+        public void get_Category(){} // RVA: 0x7FFE826F4210
+        public void get_ProviderType(){} // RVA: 0x7FFE81116380
+        public void get_ExternalScope(){} // RVA: 0x7FFE811164E0
     }
 
     public class LoggerMessage : Object
     {
         // ── Methods ──
-        public void DefineScope(){} // RVA: 0x7FFAC2C58F80 | overloaded x7
-        public void Define(){} // RVA: 0x7FFAC2E8DC40 | overloaded x14
-        public void CreateLogValuesFormatter(){} // RVA: 0x7FFAC83429C0
+        public void DefineScope(){} // RVA: 0x7FFE80E2E3D0 | overloaded x7
+        public void Define(){} // RVA: 0x7FFE810A1420 | overloaded x14
+        public void CreateLogValuesFormatter(){} // RVA: 0x7FFE866EC2C0
     }
 
     public class LoggerMessageAttribute : Attribute
     {
-        public int EventId; // 0x10
-        public string EventName; // 0x18
-        public 0x6B2B8CB8 Level; // 0x20
-        public string Message; // 0x28
-        public bool SkipEnabledCheck; // 0x30
+        public int _eventId; // 0x10
+        public string _eventName; // 0x18
+        public 0x666B1D94 _level; // 0x20
+        public string _message; // 0x28
+        public bool _skipEnabledCheck; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC83437E0 | overloaded x5
-        public void get_EventId(){} // RVA: 0x7FFAC2F6E5C0
-        public void set_EventId(){} // RVA: 0x7FFAC2F240C0
-        public void get_EventName(){} // RVA: 0x7FFAC2F247C0
-        public void set_EventName(){} // RVA: 0x7FFAC2F87E80
-        public void get_Level(){} // RVA: 0x7FFAC30DBBE0
-        public void set_Level(){} // RVA: 0x7FFAC35DB7A0
-        public void get_Message(){} // RVA: 0x7FFAC2F4F130
-        public void set_Message(){} // RVA: 0x7FFAC2F22E90
-        public void get_SkipEnabledCheck(){} // RVA: 0x7FFAC2F47450
-        public void set_SkipEnabledCheck(){} // RVA: 0x7FFAC2F47460
+        public void .ctor(){} // RVA: 0x7FFE866ED0E0 | overloaded x5
+        public void get_EventId(){} // RVA: 0x7FFE811485C0
+        public void set_EventId(){} // RVA: 0x7FFE810FE0C0
+        public void get_EventName(){} // RVA: 0x7FFE810FE7C0
+        public void set_EventName(){} // RVA: 0x7FFE81161E80
+        public void get_Level(){} // RVA: 0x7FFE8151D690
+        public void set_Level(){} // RVA: 0x7FFE8170B670
+        public void get_Message(){} // RVA: 0x7FFE81129130
+        public void set_Message(){} // RVA: 0x7FFE810FCE90
+        public void get_SkipEnabledCheck(){} // RVA: 0x7FFE81121450
+        public void set_SkipEnabledCheck(){} // RVA: 0x7FFE81121460
     }
 
     public class LoggerRuleSelector : Object
     {
         // ── Methods ──
-        public void Select(){} // RVA: 0x7FFAC834C540
-        public void IsBetter(){} // RVA: 0x7FFAC834C870
+        public void Select(){} // RVA: 0x7FFE866F5E40
+        public void IsBetter(){} // RVA: 0x7FFE866F6170
     }
 
     public class Logger`1 : Object
     {
-        public Microsoft.Extensions.Logging.ILogger _logger;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70A40
-        public void Microsoft.Extensions.Logging.ILogger.BeginScope(){} // RVA: 0x7FFAC2E8DC40
-        public void Microsoft.Extensions.Logging.ILogger.IsEnabled(){} // RVA: 0x7FFAC2C5A310
-        public void Microsoft.Extensions.Logging.ILogger.Log(){} // RVA: 0x7FFAC2E8DC40
-        public void GetCategoryName(){} // RVA: 0x7FFAC2C58A90
-        public void DebuggerToString(){} // RVA: 0x7FFAC2C58E90
+        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void Microsoft.Extensions.Logging.ILogger.BeginScope(){} // RVA: 0x7FFE810A1420
+        public void Microsoft.Extensions.Logging.ILogger.IsEnabled(){} // RVA: 0x7FFE80E2F760
+        public void Microsoft.Extensions.Logging.ILogger.Log(){} // RVA: 0x7FFE810A1420
+        public void GetCategoryName(){} // RVA: 0x7FFE80E2DEE0
+        public void DebuggerToString(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class LoggingBuilder : Object
     {
-        public Microsoft.Extensions.DependencyInjection.IServiceCollection Services; // 0x10
+        public Microsoft.Extensions.DependencyInjection.IServiceCollection _services; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void get_Services(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_Services(){} // RVA: 0x7FFE81116380
     }
 
     public class MessageLogger : ValueType
     {
-        public Microsoft.Extensions.Logging.ILogger Logger; // 0x10
-        public string Category; // 0x18
-        public string ProviderTypeFullName; // 0x20
-        public System.Nullable`1<0x6B2B8CB8> MinLevel; // 0x28
-        public System.Func`4<string,string,0x6B2B8CB8,bool> Filter; // 0x30
+        public Microsoft.Extensions.Logging.ILogger _logger; // 0x10
+        public string _category; // 0x18
+        public string _providerTypeFullName; // 0x20
+        public System.Nullable`1<0x666B1D94> _minLevel; // 0x28
+        public System.Func`4<string,string,0x666B1D94,bool> _filter; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC834C160
-        public void get_Logger(){} // RVA: 0x7FFAC3AD9F60
-        public void get_Category(){} // RVA: 0x7FFAC4420220
-        public void get_ProviderTypeFullName(){} // RVA: 0x7FFAC2F3C380
-        public void get_MinLevel(){} // RVA: 0x7FFAC2F247C0
-        public void get_Filter(){} // RVA: 0x7FFAC2F4F0C0
-        public void IsEnabled(){} // RVA: 0x7FFAC834C2C0
+        public void .ctor(){} // RVA: 0x7FFE866F5A60
+        public void get_Logger(){} // RVA: 0x7FFE8284EF60
+        public void get_Category(){} // RVA: 0x7FFE826F4210
+        public void get_ProviderTypeFullName(){} // RVA: 0x7FFE81116380
+        public void get_MinLevel(){} // RVA: 0x7FFE810FE7C0
+        public void get_Filter(){} // RVA: 0x7FFE811290C0
+        public void IsEnabled(){} // RVA: 0x7FFE866F5BC0
     }
 
     public class NullExternalScopeProvider : Object
     {
-        public Microsoft.Extensions.Logging.IExternalScopeProvider Instance;
+        public Microsoft.Extensions.Logging.IExternalScopeProvider _instance;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void get_Instance(){} // RVA: 0x7FFAC8344F80
-        public void Microsoft.Extensions.Logging.IExternalScopeProvider.ForEachScope(){} // RVA: 0x7FFAC2E8DC40
-        public void Microsoft.Extensions.Logging.IExternalScopeProvider.Push(){} // RVA: 0x7FFAC8344FE0
-        public void .cctor(){} // RVA: 0x7FFAC8345080
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Instance(){} // RVA: 0x7FFE866EE880
+        public void Microsoft.Extensions.Logging.IExternalScopeProvider.ForEachScope(){} // RVA: 0x7FFE810A1420
+        public void Microsoft.Extensions.Logging.IExternalScopeProvider.Push(){} // RVA: 0x7FFE866EE8E0
+        public void .cctor(){} // RVA: 0x7FFE866EE980
     }
 
     public class NullScope : Object
     {
-        public Microsoft.Extensions.Logging.NullScope Instance;
+        public Microsoft.Extensions.Logging.NullScope _instance;
 
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7FFAC8345120
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Dispose(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFAC8345180
+        public void get_Instance(){} // RVA: 0x7FFE866EEA20
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Dispose(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE866EEA80
     }
 
     public class ProviderAliasAttribute : Attribute
     {
-        public string <Alias>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
     }
 
     public class ProviderAliasUtilities : Object
     {
         // ── Methods ──
-        public void GetAlias(){} // RVA: 0x7FFAC834CD60
+        public void GetAlias(){} // RVA: 0x7FFE866F6660
     }
 
     public class ScopeLogger : ValueType
     {
-        public Microsoft.Extensions.Logging.ILogger Logger; // 0x10
-        public Microsoft.Extensions.Logging.IExternalScopeProvider ExternalScopeProvider; // 0x18
+        public Microsoft.Extensions.Logging.ILogger _logger; // 0x10
+        public Microsoft.Extensions.Logging.IExternalScopeProvider _externalScopeProvider; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC41AE4B0
-        public void get_Logger(){} // RVA: 0x7FFAC3AD9F60
-        public void get_ExternalScopeProvider(){} // RVA: 0x7FFAC4420220
-        public void CreateScope(){} // RVA: 0x7FFAC2E8DC40
+        public void .ctor(){} // RVA: 0x7FFE8272BDB0
+        public void get_Logger(){} // RVA: 0x7FFE8284EF60
+        public void get_ExternalScopeProvider(){} // RVA: 0x7FFE826F4210
+        public void CreateScope(){} // RVA: 0x7FFE810A1420
     }
 
     public class StaticFilterOptionsMonitor : Object
     {
-        public Microsoft.Extensions.Logging.LoggerFilterOptions CurrentValue; // 0x10
+        public Microsoft.Extensions.Logging.LoggerFilterOptions _currentValue; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC834CCA0
-        public void OnChange(){} // RVA: 0x7FFAC34F9180
-        public void get_CurrentValue(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE866F65A0
+        public void OnChange(){} // RVA: 0x7FFE813240E0
+        public void get_CurrentValue(){} // RVA: 0x7FFE81116380
     }
 
 }

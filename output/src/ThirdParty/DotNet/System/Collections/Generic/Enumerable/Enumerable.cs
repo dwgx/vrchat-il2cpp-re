@@ -8,53 +8,54 @@ namespace ThirdParty.DotNet.System.Collections.Generic.Enumerable
     public class EnumerableIList : Object
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFAC2E8DC40
+        public void Create(){} // RVA: 0x7FFE810A1420
     }
 
     public class EnumerableIList`1 : ValueType
     {
-        public System.Collections.Generic.IList`1<T> Item;
-        public System.Collections.Generic.Enumerable.EnumerableIList`1<T> Count;
+        public System.Collections.Generic.IList`1<T> _list;
+        public System.Collections.Generic.Enumerable.EnumerableIList`1<T> Empty;
+        public object field_2; // 0x37D
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70A40
-        public void GetEnumerator(){} // RVA: 0x7FFAC2E8DC40
-        public void op_Implicit(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
-        public void get_Item(){} // RVA: 0x7FFAC2E8DC40
-        public void set_Item(){} // RVA: 0x7FFAC2E8DC40
-        public void get_Count(){} // RVA: 0x7FFAC2C59960
-        public void get_IsReadOnly(){} // RVA: 0x7FFAC2C59D00
-        public void Add(){} // RVA: 0x7FFAC2E8DC40
-        public void Clear(){} // RVA: 0x7FFAC2C70980
-        public void Contains(){} // RVA: 0x7FFAC2E8DC40
-        public void CopyTo(){} // RVA: 0x7FFAC2C77970
-        public void IndexOf(){} // RVA: 0x7FFAC2E8DC40
-        public void Insert(){} // RVA: 0x7FFAC2E8DC40
-        public void Remove(){} // RVA: 0x7FFAC2E8DC40
-        public void RemoveAt(){} // RVA: 0x7FFAC2C70ED0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFAC2C58E90
-        public void .cctor(){} // RVA: 0x7FFAC2C709B0
+        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void GetEnumerator(){} // RVA: 0x7FFE810A1420
+        public void op_Implicit(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void get_Item(){} // RVA: 0x7FFE810A1420
+        public void set_Item(){} // RVA: 0x7FFE810A1420
+        public void get_Count(){} // RVA: 0x7FFE80E2EDB0
+        public void get_IsReadOnly(){} // RVA: 0x7FFE80E2F150
+        public void Add(){} // RVA: 0x7FFE810A1420
+        public void Clear(){} // RVA: 0x7FFE80E45FE0
+        public void Contains(){} // RVA: 0x7FFE810A1420
+        public void CopyTo(){} // RVA: 0x7FFE80E4D070
+        public void IndexOf(){} // RVA: 0x7FFE810A1420
+        public void Insert(){} // RVA: 0x7FFE810A1420
+        public void Remove(){} // RVA: 0x7FFE810A1420
+        public void RemoveAt(){} // RVA: 0x7FFE80E46530
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
+        public void .cctor(){} // RVA: 0x7FFE80E46010
     }
 
     public class EnumeratorIList`1 : ValueType
     {
-        public System.Collections.Generic.IList`1<T> Current;
-        public int System.Collections.IEnumerator.Current;
+        public System.Collections.Generic.IList`1<T> _list;
+        public int _index;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70A40
-        public void get_Current(){} // RVA: 0x7FFAC2E8DC40
-        public void MoveNext(){} // RVA: 0x7FFAC2C59D00
-        public void Dispose(){} // RVA: 0x7FFAC2C70980
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC2C58E90
-        public void Reset(){} // RVA: 0x7FFAC2C70980
+        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void get_Current(){} // RVA: 0x7FFE810A1420
+        public void MoveNext(){} // RVA: 0x7FFE80E2F150
+        public void Dispose(){} // RVA: 0x7FFE80E45FE0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE80E2E2E0
+        public void Reset(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class IEnumerableIList`1
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x7FFAC2E8DC40
+        public void GetEnumerator(){} // RVA: 0x7FFE810A1420
     }
 
 }

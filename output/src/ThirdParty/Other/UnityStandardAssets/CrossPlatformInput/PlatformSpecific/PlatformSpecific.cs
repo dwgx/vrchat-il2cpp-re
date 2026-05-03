@@ -8,37 +8,37 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput.PlatformSpecif
     public class MobileInput : VirtualInput
     {
         // ── Methods ──
-        public void AddButton(){} // RVA: 0x7FFAC2F3F3F0
-        public void AddAxes(){} // RVA: 0x7FFAC2F3F520
-        public void GetAxis(){} // RVA: 0x7FFAC2F3F5F0
-        public void SetButtonDown(){} // RVA: 0x7FFAC2F3F6B0
-        public void SetButtonUp(){} // RVA: 0x7FFAC2F3F7B0
-        public void SetAxisPositive(){} // RVA: 0x7FFAC2F3F8B0
-        public void SetAxisNegative(){} // RVA: 0x7FFAC2F3F970
-        public void SetAxisZero(){} // RVA: 0x7FFAC2F3FA30
-        public void SetAxis(){} // RVA: 0x7FFAC2F3FAF0
-        public void GetButtonDown(){} // RVA: 0x7FFAC2F3FBB0
-        public void GetButtonUp(){} // RVA: 0x7FFAC2F3FD10
-        public void GetButton(){} // RVA: 0x7FFAC2F3FE70
-        public void MousePosition(){} // RVA: 0x7FFAC2F3E8D0
-        public void .ctor(){} // RVA: 0x7FFAC2F3FF20
+        public void AddButton(){} // RVA: 0x7FFE811193F0
+        public void AddAxes(){} // RVA: 0x7FFE81119520
+        public void GetAxis(){} // RVA: 0x7FFE811195F0
+        public void SetButtonDown(){} // RVA: 0x7FFE811196B0
+        public void SetButtonUp(){} // RVA: 0x7FFE811197B0
+        public void SetAxisPositive(){} // RVA: 0x7FFE811198B0
+        public void SetAxisNegative(){} // RVA: 0x7FFE81119970
+        public void SetAxisZero(){} // RVA: 0x7FFE81119A30
+        public void SetAxis(){} // RVA: 0x7FFE81119AF0
+        public void GetButtonDown(){} // RVA: 0x7FFE81119BB0
+        public void GetButtonUp(){} // RVA: 0x7FFE81119D10
+        public void GetButton(){} // RVA: 0x7FFE81119E70
+        public void MousePosition(){} // RVA: 0x7FFE811188D0
+        public void .ctor(){} // RVA: 0x7FFE81119F20
     }
 
     public class StandaloneInput : VirtualInput
     {
         // ── Methods ──
-        public void GetAxis(){} // RVA: 0x7FFAC2F3FF30
-        public void GetButton(){} // RVA: 0x7FFAC2F3FFD0
-        public void GetButtonDown(){} // RVA: 0x7FFAC2F40020
-        public void GetButtonUp(){} // RVA: 0x7FFAC2F40070
-        public void SetButtonDown(){} // RVA: 0x7FFAC2F400C0
-        public void SetButtonUp(){} // RVA: 0x7FFAC2F40110
-        public void SetAxisPositive(){} // RVA: 0x7FFAC2F40160
-        public void SetAxisNegative(){} // RVA: 0x7FFAC2F401B0
-        public void SetAxisZero(){} // RVA: 0x7FFAC2F40200
-        public void SetAxis(){} // RVA: 0x7FFAC2F40250
-        public void MousePosition(){} // RVA: 0x7FFAC2F402A0
-        public void .ctor(){} // RVA: 0x7FFAC2F3FF20
+        public void GetAxis(){} // RVA: 0x7FFE81119F30
+        public void GetButton(){} // RVA: 0x7FFE81119FD0
+        public void GetButtonDown(){} // RVA: 0x7FFE8111A020
+        public void GetButtonUp(){} // RVA: 0x7FFE8111A070
+        public void SetButtonDown(){} // RVA: 0x7FFE8111A0C0
+        public void SetButtonUp(){} // RVA: 0x7FFE8111A110
+        public void SetAxisPositive(){} // RVA: 0x7FFE8111A160
+        public void SetAxisNegative(){} // RVA: 0x7FFE8111A1B0
+        public void SetAxisZero(){} // RVA: 0x7FFE8111A200
+        public void SetAxis(){} // RVA: 0x7FFE8111A250
+        public void MousePosition(){} // RVA: 0x7FFE8111A2A0
+        public void .ctor(){} // RVA: 0x7FFE81119F20
     }
 
 }

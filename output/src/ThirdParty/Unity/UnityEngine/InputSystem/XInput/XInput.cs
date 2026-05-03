@@ -13,34 +13,33 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XInput
 
     public class XInputController : Gamepad
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl menu; // 0x210
-        public UnityEngine.InputSystem.Controls.ButtonControl view; // 0x218
-        public bool subType; // 0x220
-        public 0x6B14A2F8 flags; // 0x224
-        public 0x6B14A350 m_Flags; // 0x228
+        public UnityEngine.InputSystem.Controls.ButtonControl _menu; // 0x210
+        public UnityEngine.InputSystem.Controls.ButtonControl _view; // 0x218
+        public bool m_HaveParsedCapabilities; // 0x220
+        public 0x6654321C m_SubType; // 0x224
 
         // ── Methods ──
-        public void get_menu(){} // RVA: 0x7FFAC354BCB0
-        public void set_menu(){} // RVA: 0x7FFAC3543140
-        public void get_view(){} // RVA: 0x7FFAC3541470
-        public void set_view(){} // RVA: 0x7FFAC3542420
-        public void get_subType(){} // RVA: 0x7FFAC963B5E0
-        public void get_flags(){} // RVA: 0x7FFAC963B620
-        public void FinishSetup(){} // RVA: 0x7FFAC963B660
-        public void ParseCapabilities(){} // RVA: 0x7FFAC963B740
-        public void .ctor(){} // RVA: 0x7FFAC9516440
+        public void get_menu(){} // RVA: 0x7FFE81B0A180
+        public void set_menu(){} // RVA: 0x7FFE81B13850
+        public void get_view(){} // RVA: 0x7FFE81B296E0
+        public void set_view(){} // RVA: 0x7FFE81B38350
+        public void get_subType(){} // RVA: 0x7FFE879E3D20
+        public void get_flags(){} // RVA: 0x7FFE879E3D60
+        public void FinishSetup(){} // RVA: 0x7FFE879E3DA0
+        public void ParseCapabilities(){} // RVA: 0x7FFE879E3E80
+        public void .ctor(){} // RVA: 0x7FFE878BEB80
     }
 
     public class XInputControllerWindows : XInputController
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9516440
+        public void .ctor(){} // RVA: 0x7FFE878BEB80
     }
 
     public class XInputSupport : Object
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFAC963B8E0
+        public void Initialize(){} // RVA: 0x7FFE879E4020
     }
 
 }

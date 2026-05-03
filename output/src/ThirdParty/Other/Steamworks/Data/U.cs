@@ -7,95 +7,76 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class UnreadChatMessagesChanged_t : ValueType
     {
-        public int CallbackType;
+        public int _datasize;
 
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BEAFC0
-        public void .cctor(){} // RVA: 0x7FFAC4BEAFD0
+        public void get_CallbackType(){} // RVA: 0x7FFE82E579C0
+        public void .cctor(){} // RVA: 0x7FFE82E579D0
     }
 
     public class UserAchievementIconFetched_t : ValueType
     {
-        public Steamworks.Data.GameId CallbackType; // 0x10
-        public byte[] AchievementName; // 0x18
-        public bool Achieved; // 0x20
-        public int IconHandle; // 0x24
-        public int _datasize;
+        public Steamworks.Data.GameId GameID; // 0x10
 
         // ── Methods ──
-        public void AchievementNameUTF8(){} // RVA: 0x7FFAC4BEFA10
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BEFB20
-        public void .cctor(){} // RVA: 0x7FFAC4BEFB30
+        public void AchievementNameUTF8(){} // RVA: 0x7FFE82E5C410
+        public void get_CallbackType(){} // RVA: 0x7FFE82E5C520
+        public void .cctor(){} // RVA: 0x7FFE82E5C530
     }
 
     public class UserAchievementStored_t : ValueType
     {
-        public ulong CallbackType; // 0x10
-        public bool GroupAchievement; // 0x18
-        public byte[] AchievementName; // 0x20
-        public uint CurProgress; // 0x28
-        public uint MaxProgress; // 0x2C
-        public int _datasize;
+        public ulong GameID; // 0x10
 
         // ── Methods ──
-        public void AchievementNameUTF8(){} // RVA: 0x7FFAC4BEF2A0
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BEF3B0
-        public void .cctor(){} // RVA: 0x7FFAC4BEF3C0
+        public void AchievementNameUTF8(){} // RVA: 0x7FFE82E5BCA0
+        public void get_CallbackType(){} // RVA: 0x7FFE82E5BDB0
+        public void .cctor(){} // RVA: 0x7FFE82E5BDC0
     }
 
     public class UserFavoriteItemsListChanged_t : ValueType
     {
-        public Steamworks.Data.PublishedFileId CallbackType; // 0x10
-        public 0x6B28D600 Result; // 0x18
-        public bool WasAddRequest; // 0x1C
-        public int _datasize;
+        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
 
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BF27C0
-        public void .cctor(){} // RVA: 0x7FFAC4BF27D0
+        public void get_CallbackType(){} // RVA: 0x7FFE82E5F1C0
+        public void .cctor(){} // RVA: 0x7FFE82E5F1D0
     }
 
     public class UserStatsReceived_t : ValueType
     {
-        public ulong CallbackType; // 0x10
-        public 0x6B28D600 Result; // 0x18
-        public ulong SteamIDUser; // 0x1C
-        public int _datasize;
+        public ulong GameID; // 0x10
 
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BEF080
-        public void .cctor(){} // RVA: 0x7FFAC4BEF090
+        public void get_CallbackType(){} // RVA: 0x7FFE82E5BA80
+        public void .cctor(){} // RVA: 0x7FFE82E5BA90
     }
 
     public class UserStatsStored_t : ValueType
     {
-        public ulong CallbackType; // 0x10
-        public 0x6B28D600 Result; // 0x18
-        public int _datasize;
+        public ulong GameID; // 0x10
 
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BEF190
-        public void .cctor(){} // RVA: 0x7FFAC4BEF1A0
+        public void get_CallbackType(){} // RVA: 0x7FFE82E5BB90
+        public void .cctor(){} // RVA: 0x7FFE82E5BBA0
     }
 
     public class UserStatsUnloaded_t : ValueType
     {
-        public ulong CallbackType; // 0x10
-        public int _datasize;
+        public ulong SteamIDUser; // 0x10
 
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BEF900
-        public void .cctor(){} // RVA: 0x7FFAC4BEF910
+        public void get_CallbackType(){} // RVA: 0x7FFE82E5C300
+        public void .cctor(){} // RVA: 0x7FFE82E5C310
     }
 
     public class UserSubscribedItemsListChanged_t : ValueType
     {
-        public Steamworks.AppId CallbackType; // 0x10
-        public int _datasize;
+        public Steamworks.AppId AppID; // 0x10
 
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BF3370
-        public void .cctor(){} // RVA: 0x7FFAC4BF3380
+        public void get_CallbackType(){} // RVA: 0x7FFE82E5FD70
+        public void .cctor(){} // RVA: 0x7FFE82E5FD80
     }
 
 }

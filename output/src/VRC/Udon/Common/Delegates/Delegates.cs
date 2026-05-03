@@ -8,10 +8,10 @@ namespace VRC.Udon.Common.Delegates
     public class UdonExternDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC5C4DA60
-        public void Invoke(){} // RVA: 0x7FFAC5C4DBE0
-        public void BeginInvoke(){} // RVA: 0x7FFAC9E879B0
-        public void EndInvoke(){} // RVA: 0x7FFAC2F22CB0
+        public void .ctor(){} // RVA: 0x7FFE83F85160
+        public void Invoke(){} // RVA: 0x7FFE83F852E0
+        public void BeginInvoke(){} // RVA: 0x7FFE8823A440
+        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
     }
 
 }

@@ -7,13 +7,11 @@ namespace ThirdParty.DotNet.System.Xml
 {
     public class EmptyEnumerator : Object
     {
-        public object System.Collections.IEnumerator.Current;
-
         // ── Methods ──
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7FFAC2F21320
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAC2F21310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC9204B50
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7FFE810FB320
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE810FB310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE875AD2C0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
 }

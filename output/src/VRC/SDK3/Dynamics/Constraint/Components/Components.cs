@@ -8,37 +8,37 @@ namespace VRC.SDK3.Dynamics.Constraint.Components
     public class VRCAimConstraint : VRCAimConstraintBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9E56FA0
+        public void .ctor(){} // RVA: 0x7FFE88208380
     }
 
     public class VRCLookAtConstraint : VRCLookAtConstraintBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9E57AA0
+        public void .ctor(){} // RVA: 0x7FFE88208E80
     }
 
     public class VRCParentConstraint : VRCParentConstraintBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9E57D70
+        public void .ctor(){} // RVA: 0x7FFE88209150
     }
 
     public class VRCPositionConstraint : VRCPositionConstraintBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9E58080
+        public void .ctor(){} // RVA: 0x7FFE88209460
     }
 
     public class VRCRotationConstraint : VRCRotationConstraintBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9E58320
+        public void .ctor(){} // RVA: 0x7FFE88209700
     }
 
     public class VRCScaleConstraint : VRCScaleConstraintBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9E58610
+        public void .ctor(){} // RVA: 0x7FFE882099F0
     }
 
 }

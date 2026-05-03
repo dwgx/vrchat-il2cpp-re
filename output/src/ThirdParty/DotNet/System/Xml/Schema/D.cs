@@ -7,1035 +7,961 @@ namespace ThirdParty.DotNet.System.Xml.Schema
 {
     public class DatatypeImplementation : XmlSchemaDatatype
     {
-        public 0x6B1608D0 AnySimpleType; // 0x10
-        public System.Xml.Schema.RestrictionFacets UntypedAtomicType; // 0x18
-        public System.Xml.Schema.DatatypeImplementation FacetsChecker; // 0x20
-        public System.Xml.Schema.XmlValueConverter ValueConverter; // 0x28
-        public System.Xml.Schema.XmlSchemaType TokenizedType; // 0x30
-        public System.Collections.Hashtable ValueType;
-        public System.Xml.Schema.XmlSchemaSimpleType[] Variety; // 0x8
-        public System.Xml.Schema.XmlSchemaSimpleType TypeCode; // 0x10
-        public System.Xml.Schema.XmlSchemaSimpleType Restriction; // 0x18
-        public System.Xml.Schema.XmlSchemaSimpleType HasLexicalFacets; // 0x20
-        public System.Xml.Schema.XmlSchemaSimpleType HasValueFacets; // 0x28
-        public System.Xml.Schema.XmlSchemaSimpleType Base; // 0x30
-        public System.Xml.Schema.XmlSchemaSimpleType ListValueType; // 0x38
-        public System.Xml.Schema.XmlSchemaSimpleType ValidRestrictionFlags; // 0x40
-        public System.Xml.XmlQualifiedName BuiltInWhitespaceFacet; // 0x48
-        public System.Xml.XmlQualifiedName QnAnyType; // 0x50
-        public System.Xml.Schema.FacetsChecker stringFacetsChecker; // 0x58
-        public System.Xml.Schema.FacetsChecker miscFacetsChecker; // 0x60
-        public System.Xml.Schema.FacetsChecker numeric2FacetsChecker; // 0x68
-        public System.Xml.Schema.FacetsChecker binaryFacetsChecker; // 0x70
-        public System.Xml.Schema.FacetsChecker dateTimeFacetsChecker; // 0x78
-        public System.Xml.Schema.FacetsChecker durationFacetsChecker; // 0x80
-        public System.Xml.Schema.FacetsChecker listFacetsChecker; // 0x88
-        public System.Xml.Schema.FacetsChecker qnameFacetsChecker; // 0x90
-        public System.Xml.Schema.FacetsChecker unionFacetsChecker; // 0x98
-        public System.Xml.Schema.DatatypeImplementation c_anySimpleType; // 0xA0
-        public System.Xml.Schema.DatatypeImplementation c_anyURI; // 0xA8
-        public System.Xml.Schema.DatatypeImplementation c_base64Binary; // 0xB0
-        public System.Xml.Schema.DatatypeImplementation c_boolean; // 0xB8
-        public System.Xml.Schema.DatatypeImplementation c_byte; // 0xC0
-        public System.Xml.Schema.DatatypeImplementation c_char; // 0xC8
-        public System.Xml.Schema.DatatypeImplementation c_date; // 0xD0
-        public System.Xml.Schema.DatatypeImplementation c_dateTime; // 0xD8
-        public System.Xml.Schema.DatatypeImplementation c_dateTimeNoTz; // 0xE0
-        public System.Xml.Schema.DatatypeImplementation c_dateTimeTz; // 0xE8
-        public System.Xml.Schema.DatatypeImplementation c_day; // 0xF0
-        public System.Xml.Schema.DatatypeImplementation c_decimal; // 0xF8
-        public System.Xml.Schema.DatatypeImplementation c_double; // 0x100
-        public System.Xml.Schema.DatatypeImplementation c_doubleXdr; // 0x108
-        public System.Xml.Schema.DatatypeImplementation c_duration; // 0x110
-        public System.Xml.Schema.DatatypeImplementation c_ENTITY; // 0x118
-        public System.Xml.Schema.DatatypeImplementation c_ENTITIES; // 0x120
-        public System.Xml.Schema.DatatypeImplementation c_ENUMERATION; // 0x128
-        public System.Xml.Schema.DatatypeImplementation c_fixed; // 0x130
-        public System.Xml.Schema.DatatypeImplementation c_float; // 0x138
-        public System.Xml.Schema.DatatypeImplementation c_floatXdr; // 0x140
-        public System.Xml.Schema.DatatypeImplementation c_hexBinary; // 0x148
-        public System.Xml.Schema.DatatypeImplementation c_ID; // 0x150
-        public System.Xml.Schema.DatatypeImplementation c_IDREF; // 0x158
-        public System.Xml.Schema.DatatypeImplementation c_IDREFS; // 0x160
-        public System.Xml.Schema.DatatypeImplementation c_int; // 0x168
-        public System.Xml.Schema.DatatypeImplementation c_integer; // 0x170
-        public System.Xml.Schema.DatatypeImplementation c_language; // 0x178
-        public System.Xml.Schema.DatatypeImplementation c_long; // 0x180
-        public System.Xml.Schema.DatatypeImplementation c_month; // 0x188
-        public System.Xml.Schema.DatatypeImplementation c_monthDay; // 0x190
-        public System.Xml.Schema.DatatypeImplementation c_Name; // 0x198
-        public System.Xml.Schema.DatatypeImplementation c_NCName; // 0x1A0
-        public System.Xml.Schema.DatatypeImplementation c_negativeInteger; // 0x1A8
-        public System.Xml.Schema.DatatypeImplementation c_NMTOKEN; // 0x1B0
-        public System.Xml.Schema.DatatypeImplementation c_NMTOKENS; // 0x1B8
-        public System.Xml.Schema.DatatypeImplementation c_nonNegativeInteger; // 0x1C0
-        public System.Xml.Schema.DatatypeImplementation c_nonPositiveInteger; // 0x1C8
-        public System.Xml.Schema.DatatypeImplementation c_normalizedString; // 0x1D0
-        public System.Xml.Schema.DatatypeImplementation c_NOTATION; // 0x1D8
-        public System.Xml.Schema.DatatypeImplementation c_positiveInteger; // 0x1E0
-        public System.Xml.Schema.DatatypeImplementation c_QName; // 0x1E8
-        public System.Xml.Schema.DatatypeImplementation c_QNameXdr; // 0x1F0
-        public System.Xml.Schema.DatatypeImplementation c_short; // 0x1F8
-        public System.Xml.Schema.DatatypeImplementation c_string; // 0x200
-        public System.Xml.Schema.DatatypeImplementation c_time; // 0x208
-        public System.Xml.Schema.DatatypeImplementation c_timeNoTz; // 0x210
-        public System.Xml.Schema.DatatypeImplementation c_timeTz; // 0x218
-        public System.Xml.Schema.DatatypeImplementation c_token; // 0x220
-        public System.Xml.Schema.DatatypeImplementation c_unsignedByte; // 0x228
-        public System.Xml.Schema.DatatypeImplementation c_unsignedInt; // 0x230
-        public System.Xml.Schema.DatatypeImplementation c_unsignedLong; // 0x238
-        public System.Xml.Schema.DatatypeImplementation c_unsignedShort; // 0x240
-        public System.Xml.Schema.DatatypeImplementation c_uuid; // 0x248
-        public System.Xml.Schema.DatatypeImplementation c_year; // 0x250
-        public System.Xml.Schema.DatatypeImplementation c_yearMonth; // 0x258
-        public System.Xml.Schema.DatatypeImplementation c_normalizedStringV1Compat; // 0x260
-        public System.Xml.Schema.DatatypeImplementation c_tokenV1Compat; // 0x268
-        public System.Xml.Schema.DatatypeImplementation c_anyAtomicType; // 0x270
-        public System.Xml.Schema.DatatypeImplementation c_dayTimeDuration; // 0x278
-        public System.Xml.Schema.DatatypeImplementation c_untypedAtomicType; // 0x280
-        public System.Xml.Schema.DatatypeImplementation c_yearMonthDuration; // 0x288
-        public System.Xml.Schema.DatatypeImplementation[] c_tokenizedTypes; // 0x290
-        public System.Xml.Schema.DatatypeImplementation[] c_tokenizedTypesXsd; // 0x298
-        public SchemaDatatypeMap[] c_XdrTypes; // 0x2A0
-        public SchemaDatatypeMap[] c_XsdTypes; // 0x2A8
+        public 0x66559954 variety; // 0x10
+        public System.Xml.Schema.RestrictionFacets restriction; // 0x18
+        public System.Xml.Schema.DatatypeImplementation baseType; // 0x20
+        public System.Xml.Schema.XmlValueConverter valueConverter; // 0x28
+        public System.Xml.Schema.XmlSchemaType parentSchemaType; // 0x30
+        public System.Collections.Hashtable builtinTypes;
+        public System.Xml.Schema.XmlSchemaSimpleType[] enumToTypeCode; // 0x8
+        public System.Xml.Schema.XmlSchemaSimpleType anySimpleType; // 0x10
+        public System.Xml.Schema.XmlSchemaSimpleType anyAtomicType; // 0x18
+        public System.Xml.Schema.XmlSchemaSimpleType untypedAtomicType; // 0x20
+        public System.Xml.Schema.XmlSchemaSimpleType yearMonthDurationType; // 0x28
+        public System.Xml.Schema.XmlSchemaSimpleType dayTimeDurationType; // 0x30
+        public System.Xml.Schema.XmlSchemaSimpleType normalizedStringTypeV1Compat; // 0x38
+        public System.Xml.Schema.XmlSchemaSimpleType tokenTypeV1Compat; // 0x40
+        public System.Xml.XmlQualifiedName QnAnySimpleType; // 0x48
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC92798A0
-        public void get_AnySimpleType(){} // RVA: 0x7FFAC927F7F0
-        public void get_UntypedAtomicType(){} // RVA: 0x7FFAC927F850
-        public void FromXmlTokenizedType(){} // RVA: 0x7FFAC927F8B0
-        public void FromXmlTokenizedTypeXsd(){} // RVA: 0x7FFAC927F930
-        public void FromXdrName(){} // RVA: 0x7FFAC927F9B0
-        public void FromTypeName(){} // RVA: 0x7FFAC927FB40
-        public void StartBuiltinType(){} // RVA: 0x7FFAC927FCD0
-        public void FinishBuiltinType(){} // RVA: 0x7FFAC927FF10
-        public void CreateBuiltinTypes(){} // RVA: 0x7FFAC9280360
-        public void GetSimpleTypeFromTypeCode(){} // RVA: 0x7FFAC9281580
-        public void GetSimpleTypeFromXsdType(){} // RVA: 0x7FFAC9281600
-        public void GetNormalizedStringTypeV1Compat(){} // RVA: 0x7FFAC92816D0
-        public void GetTokenTypeV1Compat(){} // RVA: 0x7FFAC9281A40
-        public void GetBuiltInTypes(){} // RVA: 0x7FFAC9281DB0
-        public void GetPrimitiveTypeCode(){} // RVA: 0x7FFAC9281E10
-        public void DeriveByRestriction(){} // RVA: 0x7FFAC9281F80
-        public void DeriveByList(){} // RVA: 0x7FFAC92821E0 | overloaded x2
-        public void DeriveByUnion(){} // RVA: 0x7FFAC9282600
-        public void VerifySchemaValid(){} // RVA: 0x7FFAC2F21310
-        public void IsDerivedFrom(){} // RVA: 0x7FFAC9282800
-        public void IsEqual(){} // RVA: 0x7FFAC9282AF0
-        public void IsComparable(){} // RVA: 0x7FFAC9282B20
-        public void CreateValueConverter(){} // RVA: 0x7FFAC34F9180
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9282C20
-        public void get_ValueConverter(){} // RVA: 0x7FFAC9282C80
-        public void get_TokenizedType(){} // RVA: 0x7FFAC530B5A0
-        public void get_ValueType(){} // RVA: 0x7FFAC9282D10
-        public void get_Variety(){} // RVA: 0x7FFAC2F6E5C0
-        public void get_TypeCode(){} // RVA: 0x7FFAC34F9180
-        public void get_Restriction(){} // RVA: 0x7FFAC2F247C0
-        public void get_HasLexicalFacets(){} // RVA: 0x7FFAC9282DC0
-        public void get_HasValueFacets(){} // RVA: 0x7FFAC9282DE0
-        public void get_Base(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_ListValueType(){} // RVA: 0x7FFAC2C58E90
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC2C59960
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC34F9180
-        public void ParseValue(){} // RVA: 0x7FFAC9283010 | overloaded x2
-        public void TryParseValue(){} // RVA: 0x7FFAC92831B0
-        public void GetTypeName(){} // RVA: 0x7FFAC9283590
-        public void Compare(){} // RVA: 0x7FFAC9283610
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .cctor(){} // RVA: 0x7FFE87622010
+        public void get_AnySimpleType(){} // RVA: 0x7FFE87627F60
+        public void get_UntypedAtomicType(){} // RVA: 0x7FFE87627FC0
+        public void FromXmlTokenizedType(){} // RVA: 0x7FFE87628020
+        public void FromXmlTokenizedTypeXsd(){} // RVA: 0x7FFE876280A0
+        public void FromXdrName(){} // RVA: 0x7FFE87628120
+        public void FromTypeName(){} // RVA: 0x7FFE876282B0
+        public void StartBuiltinType(){} // RVA: 0x7FFE87628440
+        public void FinishBuiltinType(){} // RVA: 0x7FFE87628680
+        public void CreateBuiltinTypes(){} // RVA: 0x7FFE87628AD0
+        public void GetSimpleTypeFromTypeCode(){} // RVA: 0x7FFE87629CF0
+        public void GetSimpleTypeFromXsdType(){} // RVA: 0x7FFE87629D70
+        public void GetNormalizedStringTypeV1Compat(){} // RVA: 0x7FFE87629E40
+        public void GetTokenTypeV1Compat(){} // RVA: 0x7FFE8762A1B0
+        public void GetBuiltInTypes(){} // RVA: 0x7FFE8762A520
+        public void GetPrimitiveTypeCode(){} // RVA: 0x7FFE8762A580
+        public void DeriveByRestriction(){} // RVA: 0x7FFE8762A6F0
+        public void DeriveByList(){} // RVA: 0x7FFE8762A950 | overloaded x2
+        public void DeriveByUnion(){} // RVA: 0x7FFE8762AD70
+        public void VerifySchemaValid(){} // RVA: 0x7FFE810FB310
+        public void IsDerivedFrom(){} // RVA: 0x7FFE8762AF70
+        public void IsEqual(){} // RVA: 0x7FFE8762B260
+        public void IsComparable(){} // RVA: 0x7FFE8762B290
+        public void CreateValueConverter(){} // RVA: 0x7FFE813240E0
+        public void get_FacetsChecker(){} // RVA: 0x7FFE8762B390
+        public void get_ValueConverter(){} // RVA: 0x7FFE8762B3F0
+        public void get_TokenizedType(){} // RVA: 0x7FFE835C1DE0
+        public void get_ValueType(){} // RVA: 0x7FFE8762B480
+        public void get_Variety(){} // RVA: 0x7FFE811485C0
+        public void get_TypeCode(){} // RVA: 0x7FFE813240E0
+        public void get_Restriction(){} // RVA: 0x7FFE810FE7C0
+        public void get_HasLexicalFacets(){} // RVA: 0x7FFE8762B530
+        public void get_HasValueFacets(){} // RVA: 0x7FFE8762B550
+        public void get_Base(){} // RVA: 0x7FFE811290C0
+        public void get_ListValueType(){} // RVA: 0x7FFE80E2E2E0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE80E2EDB0
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE813240E0
+        public void ParseValue(){} // RVA: 0x7FFE8762B780 | overloaded x2
+        public void TryParseValue(){} // RVA: 0x7FFE8762B920
+        public void GetTypeName(){} // RVA: 0x7FFE8762BD00
+        public void Compare(){} // RVA: 0x7FFE8762BD80
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class Datatype_ENTITY : Datatype_NCName
     {
-        public object TypeCode;
-        public object TokenizedType;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC928BB10
-        public void get_TokenizedType(){} // RVA: 0x7FFAC36C3910
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE87634290
+        public void get_TokenizedType(){} // RVA: 0x7FFE8180E590
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_ENUMERATION : Datatype_NMTOKEN
     {
-        public object TokenizedType;
-
         // ── Methods ──
-        public void get_TokenizedType(){} // RVA: 0x7FFAC41E44C0
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TokenizedType(){} // RVA: 0x7FFE8249F650
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_ID : Datatype_NCName
     {
-        public object TypeCode;
-        public object TokenizedType;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC928BB00
-        public void get_TokenizedType(){} // RVA: 0x7FFAC3013AF0
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE87634280
+        public void get_TokenizedType(){} // RVA: 0x7FFE811EDAF0
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_IDREF : Datatype_NCName
     {
-        public object TypeCode;
-        public object TokenizedType;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC8D986B0
-        public void get_TokenizedType(){} // RVA: 0x7FFAC3026CB0
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE87140AE0
+        public void get_TokenizedType(){} // RVA: 0x7FFE81200CB0
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_List : Datatype_anySimpleType
     {
-        public System.Xml.Schema.DatatypeImplementation ValueType; // 0x38
-        public int TokenizedType; // 0x40
+        public System.Xml.Schema.DatatypeImplementation itemType; // 0x38
+        public int minListSize; // 0x40
+        public object field_2; // 0x410
+        public object field_3; // 0x411
+        public object field_4; // 0x412
+        public object field_5; // 0x413
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC92837A0
-        public void .ctor(){} // RVA: 0x7FFAC9283D20
-        public void Compare(){} // RVA: 0x7FFAC9283E10
-        public void get_ValueType(){} // RVA: 0x7FFAC92840F0
-        public void get_TokenizedType(){} // RVA: 0x7FFAC9284110
-        public void get_ListValueType(){} // RVA: 0x7FFAC9284140
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9284170
-        public void get_TypeCode(){} // RVA: 0x7FFAC5FD26C0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC92841D0
-        public void TryParseValue(){} // RVA: 0x7FFAC9284800 | overloaded x2
+        public void CreateValueConverter(){} // RVA: 0x7FFE8762BF10
+        public void .ctor(){} // RVA: 0x7FFE8762C490
+        public void Compare(){} // RVA: 0x7FFE8762C580
+        public void get_ValueType(){} // RVA: 0x7FFE8762C860
+        public void get_TokenizedType(){} // RVA: 0x7FFE8762C880
+        public void get_ListValueType(){} // RVA: 0x7FFE8762C8B0
+        public void get_FacetsChecker(){} // RVA: 0x7FFE8762C8E0
+        public void get_TypeCode(){} // RVA: 0x7FFE84329C20
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762C940
+        public void TryParseValue(){} // RVA: 0x7FFE8762CF70 | overloaded x2
     }
 
     public class Datatype_NCName : Datatype_Name
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC530F3E0
-        public void TryParseValue(){} // RVA: 0x7FFAC928B910
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE835C5CB0
+        public void TryParseValue(){} // RVA: 0x7FFE87634090
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_NMTOKEN : Datatype_token
     {
-        public object TypeCode;
-        public object TokenizedType;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC91B8730
-        public void get_TokenizedType(){} // RVA: 0x7FFAC36A9850
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE87560EE0
+        public void get_TokenizedType(){} // RVA: 0x7FFE81815210
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_NOTATION : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x486
+        public object field_3; // 0x487
+        public object field_4; // 0x488
+        public object field_5; // 0x489
+        public object field_6; // 0x48A
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC92880F0
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928BB20
-        public void get_TypeCode(){} // RVA: 0x7FFAC530F510
-        public void get_TokenizedType(){} // RVA: 0x7FFAC3ED8E80
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC92841D0
-        public void get_ValueType(){} // RVA: 0x7FFAC928BB80
-        public void get_ListValueType(){} // RVA: 0x7FFAC928BBE0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void TryParseValue(){} // RVA: 0x7FFAC928BC40
-        public void VerifySchemaValid(){} // RVA: 0x7FFAC928BE80
-        public void .ctor(){} // RVA: 0x7FFAC928C130
-        public void .cctor(){} // RVA: 0x7FFAC928C1B0
+        public void CreateValueConverter(){} // RVA: 0x7FFE87630860
+        public void get_FacetsChecker(){} // RVA: 0x7FFE876342A0
+        public void get_TypeCode(){} // RVA: 0x7FFE835C5E00
+        public void get_TokenizedType(){} // RVA: 0x7FFE82199910
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762C940
+        public void get_ValueType(){} // RVA: 0x7FFE87634300
+        public void get_ListValueType(){} // RVA: 0x7FFE87634360
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void TryParseValue(){} // RVA: 0x7FFE876343C0
+        public void VerifySchemaValid(){} // RVA: 0x7FFE87634600
+        public void .ctor(){} // RVA: 0x7FFE876348B0
+        public void .cctor(){} // RVA: 0x7FFE87634930
     }
 
     public class Datatype_Name : Datatype_token
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC928B900
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE87634080
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_QName : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x46C
+        public object field_3; // 0x46D
+        public object field_4; // 0x46E
+        public object field_5; // 0x46F
+        public object field_6; // 0x470
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC92880F0
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928B2F0
-        public void get_TypeCode(){} // RVA: 0x7FFAC530F4D0
-        public void get_TokenizedType(){} // RVA: 0x7FFAC314F980
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC92841D0
-        public void get_ValueType(){} // RVA: 0x7FFAC928B350
-        public void get_ListValueType(){} // RVA: 0x7FFAC928B3B0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void TryParseValue(){} // RVA: 0x7FFAC928B410
-        public void .ctor(){} // RVA: 0x7FFAC928B650
-        public void .cctor(){} // RVA: 0x7FFAC928B6D0
+        public void CreateValueConverter(){} // RVA: 0x7FFE87630860
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87633A70
+        public void get_TypeCode(){} // RVA: 0x7FFE835C5DC0
+        public void get_TokenizedType(){} // RVA: 0x7FFE813B49D0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762C940
+        public void get_ValueType(){} // RVA: 0x7FFE87633AD0
+        public void get_ListValueType(){} // RVA: 0x7FFE87633B30
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void TryParseValue(){} // RVA: 0x7FFE87633B90
+        public void .ctor(){} // RVA: 0x7FFE87633DD0
+        public void .cctor(){} // RVA: 0x7FFE87633E50
     }
 
     public class Datatype_QNameXdr : Datatype_anySimpleType
     {
-        public System.Type TokenizedType;
-        public System.Type ValueType; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x4B9
 
         // ── Methods ──
-        public void get_TokenizedType(){} // RVA: 0x7FFAC314F980
-        public void ParseValue(){} // RVA: 0x7FFAC9291690
-        public void get_ValueType(){} // RVA: 0x7FFAC92918B0
-        public void get_ListValueType(){} // RVA: 0x7FFAC9291910
-        public void .ctor(){} // RVA: 0x7FFAC9291970
-        public void .cctor(){} // RVA: 0x7FFAC92919F0
+        public void get_TokenizedType(){} // RVA: 0x7FFE813B49D0
+        public void ParseValue(){} // RVA: 0x7FFE87639DD0
+        public void get_ValueType(){} // RVA: 0x7FFE87639FF0
+        public void get_ListValueType(){} // RVA: 0x7FFE8763A050
+        public void .ctor(){} // RVA: 0x7FFE8763A0B0
+        public void .cctor(){} // RVA: 0x7FFE8763A130
     }
 
     public class Datatype_anyAtomicType : Datatype_anySimpleType
     {
-        public object BuiltInWhitespaceFacet;
-        public object TypeCode;
-
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC9286110
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC34F9180
-        public void get_TypeCode(){} // RVA: 0x7FFAC314F980
-        public void .ctor(){} // RVA: 0x7FFAC9286170
+        public void CreateValueConverter(){} // RVA: 0x7FFE8762E880
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE813240E0
+        public void get_TypeCode(){} // RVA: 0x7FFE813B49D0
+        public void .ctor(){} // RVA: 0x7FFE8762E8E0
     }
 
     public class Datatype_anySimpleType : DatatypeImplementation
     {
-        public System.Type FacetsChecker;
-        public System.Type ValueType; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x41C
+        public object field_3; // 0x41D
+        public object field_4; // 0x41E
+        public object field_5; // 0x41F
+        public object field_6; // 0x420
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC9285BA0
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9285C00
-        public void get_ValueType(){} // RVA: 0x7FFAC9285C60
-        public void get_TypeCode(){} // RVA: 0x7FFAC314F980
-        public void get_ListValueType(){} // RVA: 0x7FFAC9285CC0
-        public void get_TokenizedType(){} // RVA: 0x7FFAC530B5A0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC34F9180
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void Compare(){} // RVA: 0x7FFAC9285D20
-        public void TryParseValue(){} // RVA: 0x7FFAC9285E30
-        public void .ctor(){} // RVA: 0x7FFAC9285EA0
-        public void .cctor(){} // RVA: 0x7FFAC9285EF0
+        public void CreateValueConverter(){} // RVA: 0x7FFE8762E310
+        public void get_FacetsChecker(){} // RVA: 0x7FFE8762E370
+        public void get_ValueType(){} // RVA: 0x7FFE8762E3D0
+        public void get_TypeCode(){} // RVA: 0x7FFE813B49D0
+        public void get_ListValueType(){} // RVA: 0x7FFE8762E430
+        public void get_TokenizedType(){} // RVA: 0x7FFE835C1DE0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE813240E0
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void Compare(){} // RVA: 0x7FFE8762E490
+        public void TryParseValue(){} // RVA: 0x7FFE8762E5A0
+        public void .ctor(){} // RVA: 0x7FFE8762E610
+        public void .cctor(){} // RVA: 0x7FFE8762E660
     }
 
     public class Datatype_anyURI : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x465
+        public object field_3; // 0x466
+        public object field_4; // 0x467
+        public object field_5; // 0x468
+        public object field_6; // 0x469
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC92880F0
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928AC50
-        public void get_TypeCode(){} // RVA: 0x7FFAC928ACB0
-        public void get_ValueType(){} // RVA: 0x7FFAC928ACC0
-        public void get_HasValueFacets(){} // RVA: 0x7FFAC3006850
-        public void get_ListValueType(){} // RVA: 0x7FFAC928AD20
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC92841D0
-        public void Compare(){} // RVA: 0x7FFAC928AD80
-        public void TryParseValue(){} // RVA: 0x7FFAC928AE50
-        public void .ctor(){} // RVA: 0x7FFAC928B050
-        public void .cctor(){} // RVA: 0x7FFAC928B0D0
+        public void CreateValueConverter(){} // RVA: 0x7FFE87630860
+        public void get_FacetsChecker(){} // RVA: 0x7FFE876333D0
+        public void get_TypeCode(){} // RVA: 0x7FFE87633430
+        public void get_ValueType(){} // RVA: 0x7FFE87633440
+        public void get_HasValueFacets(){} // RVA: 0x7FFE811E0850
+        public void get_ListValueType(){} // RVA: 0x7FFE876334A0
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762C940
+        public void Compare(){} // RVA: 0x7FFE87633500
+        public void TryParseValue(){} // RVA: 0x7FFE876335D0
+        public void .ctor(){} // RVA: 0x7FFE876337D0
+        public void .cctor(){} // RVA: 0x7FFE87633850
     }
 
     public class Datatype_base64Binary : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x45F
+        public object field_3; // 0x460
+        public object field_4; // 0x461
+        public object field_5; // 0x462
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC92880F0
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928A4E0
-        public void get_TypeCode(){} // RVA: 0x7FFAC928A540
-        public void get_ValueType(){} // RVA: 0x7FFAC928A550
-        public void get_ListValueType(){} // RVA: 0x7FFAC928A5B0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC92841D0
-        public void Compare(){} // RVA: 0x7FFAC928A610
-        public void TryParseValue(){} // RVA: 0x7FFAC928A730
-        public void .ctor(){} // RVA: 0x7FFAC928A9B0
-        public void .cctor(){} // RVA: 0x7FFAC928AA30
+        public void CreateValueConverter(){} // RVA: 0x7FFE87630860
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87632C60
+        public void get_TypeCode(){} // RVA: 0x7FFE87632CC0
+        public void get_ValueType(){} // RVA: 0x7FFE87632CD0
+        public void get_ListValueType(){} // RVA: 0x7FFE87632D30
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762C940
+        public void Compare(){} // RVA: 0x7FFE87632D90
+        public void TryParseValue(){} // RVA: 0x7FFE87632EB0
+        public void .ctor(){} // RVA: 0x7FFE87633130
+        public void .cctor(){} // RVA: 0x7FFE876331B0
     }
 
     public class Datatype_boolean : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x42C
+        public object field_3; // 0x42D
+        public object field_4; // 0x42E
+        public object field_5; // 0x42F
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC9286580
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9286610
-        public void get_TypeCode(){} // RVA: 0x7FFAC3C15CE0
-        public void get_ValueType(){} // RVA: 0x7FFAC9286670
-        public void get_ListValueType(){} // RVA: 0x7FFAC92866D0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC530B560
-        public void Compare(){} // RVA: 0x7FFAC9286730
-        public void TryParseValue(){} // RVA: 0x7FFAC92867C0
-        public void .ctor(){} // RVA: 0x7FFAC9286A70
-        public void .cctor(){} // RVA: 0x7FFAC9286AF0
+        public void CreateValueConverter(){} // RVA: 0x7FFE8762ECF0
+        public void get_FacetsChecker(){} // RVA: 0x7FFE8762ED80
+        public void get_TypeCode(){} // RVA: 0x7FFE81EE2040
+        public void get_ValueType(){} // RVA: 0x7FFE8762EDE0
+        public void get_ListValueType(){} // RVA: 0x7FFE8762EE40
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE835C1DA0
+        public void Compare(){} // RVA: 0x7FFE8762EEA0
+        public void TryParseValue(){} // RVA: 0x7FFE8762EF30
+        public void .ctor(){} // RVA: 0x7FFE8762F1E0
+        public void .cctor(){} // RVA: 0x7FFE8762F260
     }
 
     public class Datatype_byte : Datatype_short
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
-        public System.Xml.Schema.FacetsChecker ValueType; // 0x10
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+        public object field_3; // 0x4A0
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928E360
-        public void get_TypeCode(){} // RVA: 0x7FFAC8D479C0
-        public void Compare(){} // RVA: 0x7FFAC928E3C0
-        public void get_ValueType(){} // RVA: 0x7FFAC928E4F0
-        public void get_ListValueType(){} // RVA: 0x7FFAC928E550
-        public void TryParseValue(){} // RVA: 0x7FFAC928E5B0
-        public void .ctor(){} // RVA: 0x7FFAC928E870
-        public void .cctor(){} // RVA: 0x7FFAC928E900
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87636AD0
+        public void get_TypeCode(){} // RVA: 0x7FFE870EFE80
+        public void Compare(){} // RVA: 0x7FFE87636B30
+        public void get_ValueType(){} // RVA: 0x7FFE87636C60
+        public void get_ListValueType(){} // RVA: 0x7FFE87636CC0
+        public void TryParseValue(){} // RVA: 0x7FFE87636D20
+        public void .ctor(){} // RVA: 0x7FFE87636FD0
+        public void .cctor(){} // RVA: 0x7FFE87637060
     }
 
     public class Datatype_char : Datatype_anySimpleType
     {
-        public System.Type ValueType;
-        public System.Type ListValueType; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x4BD
 
         // ── Methods ──
-        public void get_ValueType(){} // RVA: 0x7FFAC9291C10
-        public void get_ListValueType(){} // RVA: 0x7FFAC9291C70
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC34F9180
-        public void Compare(){} // RVA: 0x7FFAC9291CD0
-        public void ParseValue(){} // RVA: 0x7FFAC9291E10
-        public void TryParseValue(){} // RVA: 0x7FFAC9292030
-        public void .ctor(){} // RVA: 0x7FFAC92923B0
-        public void .cctor(){} // RVA: 0x7FFAC9292430
+        public void get_ValueType(){} // RVA: 0x7FFE8763A350
+        public void get_ListValueType(){} // RVA: 0x7FFE8763A3B0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE813240E0
+        public void Compare(){} // RVA: 0x7FFE8763A410
+        public void ParseValue(){} // RVA: 0x7FFE8763A550
+        public void TryParseValue(){} // RVA: 0x7FFE8763A770
+        public void .ctor(){} // RVA: 0x7FFE8763AAF0
+        public void .cctor(){} // RVA: 0x7FFE8763AB70
     }
 
     public class Datatype_date : Datatype_dateTimeBase
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC3195EF0
-        public void .ctor(){} // RVA: 0x7FFAC9289B70
+        public void get_TypeCode(){} // RVA: 0x7FFE813FC490
+        public void .ctor(){} // RVA: 0x7FFE876322E0
     }
 
     public class Datatype_dateTime : Datatype_dateTimeBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC92899F0
+        public void .ctor(){} // RVA: 0x7FFE87632160
     }
 
     public class Datatype_dateTimeBase : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
-        public 0x6B165D60 ValueType; // 0x38
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public 0x6655EDE4 dateTimeFlags; // 0x38
+        public object field_3; // 0x44C
+        public object field_4; // 0x44D
+        public object field_5; // 0x44E
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC9288DE0
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9288E70
-        public void get_TypeCode(){} // RVA: 0x7FFAC413E570
-        public void .ctor(){} // RVA: 0x7FFAC9288ED0
-        public void get_ValueType(){} // RVA: 0x7FFAC9288F60
-        public void get_ListValueType(){} // RVA: 0x7FFAC9288FC0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC9286E40
-        public void Compare(){} // RVA: 0x7FFAC9289020
-        public void TryParseValue(){} // RVA: 0x7FFAC9289270
-        public void .cctor(){} // RVA: 0x7FFAC9289710
+        public void CreateValueConverter(){} // RVA: 0x7FFE87631550
+        public void get_FacetsChecker(){} // RVA: 0x7FFE876315E0
+        public void get_TypeCode(){} // RVA: 0x7FFE823EBAD0
+        public void .ctor(){} // RVA: 0x7FFE87631640
+        public void get_ValueType(){} // RVA: 0x7FFE876316D0
+        public void get_ListValueType(){} // RVA: 0x7FFE87631730
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762F5B0
+        public void Compare(){} // RVA: 0x7FFE87631790
+        public void TryParseValue(){} // RVA: 0x7FFE876319E0
+        public void .cctor(){} // RVA: 0x7FFE87631E80
     }
 
     public class Datatype_dateTimeNoTimeZone : Datatype_dateTimeBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9289930
+        public void .ctor(){} // RVA: 0x7FFE876320A0
     }
 
     public class Datatype_dateTimeTimeZone : Datatype_dateTimeBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9289990
+        public void .ctor(){} // RVA: 0x7FFE87632100
     }
 
     public class Datatype_day : Datatype_dateTimeBase
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC530B550
-        public void .ctor(){} // RVA: 0x7FFAC9289CF0
+        public void get_TypeCode(){} // RVA: 0x7FFE835C1D90
+        public void .ctor(){} // RVA: 0x7FFE87632460
     }
 
     public class Datatype_dayTimeDuration : Datatype_duration
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void TryParseValue(){} // RVA: 0x7FFAC9288B10
-        public void get_TypeCode(){} // RVA: 0x7FFAC9288D80
-        public void .ctor(){} // RVA: 0x7FFAC9288D90
+        public void TryParseValue(){} // RVA: 0x7FFE87631280
+        public void get_TypeCode(){} // RVA: 0x7FFE876314F0
+        public void .ctor(){} // RVA: 0x7FFE87631500
     }
 
     public class Datatype_decimal : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
-        public System.Xml.Schema.FacetsChecker ValueType; // 0x10
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+        public object field_3; // 0x43E
+        public object field_4; // 0x43F
+        public object field_5; // 0x440
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC9287970
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9287A00
-        public void get_TypeCode(){} // RVA: 0x7FFAC4206550
-        public void get_ValueType(){} // RVA: 0x7FFAC9287A60
-        public void get_ListValueType(){} // RVA: 0x7FFAC9287AC0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC9287B20
-        public void Compare(){} // RVA: 0x7FFAC9287B30
-        public void TryParseValue(){} // RVA: 0x7FFAC9287BC0
-        public void .ctor(){} // RVA: 0x7FFAC9287DA0
-        public void .cctor(){} // RVA: 0x7FFAC9287E20
+        public void CreateValueConverter(){} // RVA: 0x7FFE876300E0
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87630170
+        public void get_TypeCode(){} // RVA: 0x7FFE824BF490
+        public void get_ValueType(){} // RVA: 0x7FFE876301D0
+        public void get_ListValueType(){} // RVA: 0x7FFE87630230
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE87630290
+        public void Compare(){} // RVA: 0x7FFE876302A0
+        public void TryParseValue(){} // RVA: 0x7FFE87630330
+        public void .ctor(){} // RVA: 0x7FFE87630510
+        public void .cctor(){} // RVA: 0x7FFE87630590
     }
 
     public class Datatype_double : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x438
+        public object field_3; // 0x439
+        public object field_4; // 0x43A
+        public object field_5; // 0x43B
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC9286D10
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9287350
-        public void get_TypeCode(){} // RVA: 0x7FFAC530B540
-        public void get_ValueType(){} // RVA: 0x7FFAC92873B0
-        public void get_ListValueType(){} // RVA: 0x7FFAC9287410
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC9286E40
-        public void Compare(){} // RVA: 0x7FFAC9287470
-        public void TryParseValue(){} // RVA: 0x7FFAC92874F0
-        public void .ctor(){} // RVA: 0x7FFAC92876D0
-        public void .cctor(){} // RVA: 0x7FFAC9287750
+        public void CreateValueConverter(){} // RVA: 0x7FFE8762F480
+        public void get_FacetsChecker(){} // RVA: 0x7FFE8762FAC0
+        public void get_TypeCode(){} // RVA: 0x7FFE835C1D80
+        public void get_ValueType(){} // RVA: 0x7FFE8762FB20
+        public void get_ListValueType(){} // RVA: 0x7FFE8762FB80
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762F5B0
+        public void Compare(){} // RVA: 0x7FFE8762FBE0
+        public void TryParseValue(){} // RVA: 0x7FFE8762FC60
+        public void .ctor(){} // RVA: 0x7FFE8762FE40
+        public void .cctor(){} // RVA: 0x7FFE8762FEC0
     }
 
     public class Datatype_doubleXdr : Datatype_double
     {
         // ── Methods ──
-        public void ParseValue(){} // RVA: 0x7FFAC9291260
-        public void .ctor(){} // RVA: 0x7FFAC9291430
+        public void ParseValue(){} // RVA: 0x7FFE876399A0
+        public void .ctor(){} // RVA: 0x7FFE87639B70
     }
 
     public class Datatype_duration : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x444
+        public object field_3; // 0x445
+        public object field_4; // 0x446
+        public object field_5; // 0x447
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC92880F0
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9288100
-        public void get_TypeCode(){} // RVA: 0x7FFAC8804850
-        public void get_ValueType(){} // RVA: 0x7FFAC9288160
-        public void get_ListValueType(){} // RVA: 0x7FFAC92881C0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC9286E40
-        public void Compare(){} // RVA: 0x7FFAC9288220
-        public void TryParseValue(){} // RVA: 0x7FFAC92882B0
-        public void .ctor(){} // RVA: 0x7FFAC92885B0
-        public void .cctor(){} // RVA: 0x7FFAC9288630
+        public void CreateValueConverter(){} // RVA: 0x7FFE87630860
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87630870
+        public void get_TypeCode(){} // RVA: 0x7FFE86BADF70
+        public void get_ValueType(){} // RVA: 0x7FFE876308D0
+        public void get_ListValueType(){} // RVA: 0x7FFE87630930
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762F5B0
+        public void Compare(){} // RVA: 0x7FFE87630990
+        public void TryParseValue(){} // RVA: 0x7FFE87630A20
+        public void .ctor(){} // RVA: 0x7FFE87630D20
+        public void .cctor(){} // RVA: 0x7FFE87630DA0
     }
 
     public class Datatype_fixed : Datatype_decimal
     {
         // ── Methods ──
-        public void ParseValue(){} // RVA: 0x7FFAC9292650
-        public void TryParseValue(){} // RVA: 0x7FFAC9292920
-        public void .ctor(){} // RVA: 0x7FFAC9292B60
+        public void ParseValue(){} // RVA: 0x7FFE8763AD90
+        public void TryParseValue(){} // RVA: 0x7FFE8763B060
+        public void .ctor(){} // RVA: 0x7FFE8763B2A0
     }
 
     public class Datatype_float : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x432
+        public object field_3; // 0x433
+        public object field_4; // 0x434
+        public object field_5; // 0x435
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC9286D10
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9286D20
-        public void get_TypeCode(){} // RVA: 0x7FFAC3E454F0
-        public void get_ValueType(){} // RVA: 0x7FFAC9286D80
-        public void get_ListValueType(){} // RVA: 0x7FFAC9286DE0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC9286E40
-        public void Compare(){} // RVA: 0x7FFAC9286E50
-        public void TryParseValue(){} // RVA: 0x7FFAC9286ED0
-        public void .ctor(){} // RVA: 0x7FFAC92870B0
-        public void .cctor(){} // RVA: 0x7FFAC9287130
+        public void CreateValueConverter(){} // RVA: 0x7FFE8762F480
+        public void get_FacetsChecker(){} // RVA: 0x7FFE8762F490
+        public void get_TypeCode(){} // RVA: 0x7FFE82127E50
+        public void get_ValueType(){} // RVA: 0x7FFE8762F4F0
+        public void get_ListValueType(){} // RVA: 0x7FFE8762F550
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762F5B0
+        public void Compare(){} // RVA: 0x7FFE8762F5C0
+        public void TryParseValue(){} // RVA: 0x7FFE8762F640
+        public void .ctor(){} // RVA: 0x7FFE8762F820
+        public void .cctor(){} // RVA: 0x7FFE8762F8A0
     }
 
     public class Datatype_floatXdr : Datatype_float
     {
         // ── Methods ──
-        public void ParseValue(){} // RVA: 0x7FFAC9291480
-        public void .ctor(){} // RVA: 0x7FFAC9291640
+        public void ParseValue(){} // RVA: 0x7FFE87639BC0
+        public void .ctor(){} // RVA: 0x7FFE87639D80
     }
 
     public class Datatype_hexBinary : Datatype_anySimpleType
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x459
+        public object field_3; // 0x45A
+        public object field_4; // 0x45B
+        public object field_5; // 0x45C
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC92880F0
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9289DB0
-        public void get_TypeCode(){} // RVA: 0x7FFAC3B3F630
-        public void get_ValueType(){} // RVA: 0x7FFAC9289E10
-        public void get_ListValueType(){} // RVA: 0x7FFAC9289E70
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC92841D0
-        public void Compare(){} // RVA: 0x7FFAC9289ED0
-        public void TryParseValue(){} // RVA: 0x7FFAC9289FF0
-        public void .ctor(){} // RVA: 0x7FFAC928A240
-        public void .cctor(){} // RVA: 0x7FFAC928A2C0
+        public void CreateValueConverter(){} // RVA: 0x7FFE87630860
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87632520
+        public void get_TypeCode(){} // RVA: 0x7FFE87632580
+        public void get_ValueType(){} // RVA: 0x7FFE87632590
+        public void get_ListValueType(){} // RVA: 0x7FFE876325F0
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762C940
+        public void Compare(){} // RVA: 0x7FFE87632650
+        public void TryParseValue(){} // RVA: 0x7FFE87632770
+        public void .ctor(){} // RVA: 0x7FFE876329C0
+        public void .cctor(){} // RVA: 0x7FFE87632A40
     }
 
     public class Datatype_int : Datatype_long
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
-        public System.Xml.Schema.FacetsChecker ValueType; // 0x10
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+        public object field_3; // 0x498
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928D210
-        public void get_TypeCode(){} // RVA: 0x7FFAC530F4B0
-        public void Compare(){} // RVA: 0x7FFAC928D270
-        public void get_ValueType(){} // RVA: 0x7FFAC928D2F0
-        public void get_ListValueType(){} // RVA: 0x7FFAC928D350
-        public void TryParseValue(){} // RVA: 0x7FFAC928D3B0
-        public void .ctor(){} // RVA: 0x7FFAC928D7C0
-        public void .cctor(){} // RVA: 0x7FFAC928D850
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87635990
+        public void get_TypeCode(){} // RVA: 0x7FFE835C5DA0
+        public void Compare(){} // RVA: 0x7FFE876359F0
+        public void get_ValueType(){} // RVA: 0x7FFE87635A70
+        public void get_ListValueType(){} // RVA: 0x7FFE87635AD0
+        public void TryParseValue(){} // RVA: 0x7FFE87635B30
+        public void .ctor(){} // RVA: 0x7FFE87635F30
+        public void .cctor(){} // RVA: 0x7FFE87635FC0
     }
 
     public class Datatype_integer : Datatype_decimal
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC530B560
-        public void TryParseValue(){} // RVA: 0x7FFAC928C3D0
-        public void .ctor(){} // RVA: 0x7FFAC928C580
+        public void get_TypeCode(){} // RVA: 0x7FFE835C1DA0
+        public void TryParseValue(){} // RVA: 0x7FFE87634B50
+        public void .ctor(){} // RVA: 0x7FFE87634D00
     }
 
     public class Datatype_language : Datatype_token
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC8D97B90
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE8713FFC0
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_long : Datatype_integer
     {
-        public System.Type FacetsChecker;
-        public System.Type HasValueFacets; // 0x8
-        public System.Xml.Schema.FacetsChecker TypeCode; // 0x10
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+        public object field_3; // 0x493
+        public object field_4; // 0x494
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928C970
-        public void get_HasValueFacets(){} // RVA: 0x7FFAC3006850
-        public void get_TypeCode(){} // RVA: 0x7FFAC928C9D0
-        public void Compare(){} // RVA: 0x7FFAC928C9E0
-        public void get_ValueType(){} // RVA: 0x7FFAC928CA60
-        public void get_ListValueType(){} // RVA: 0x7FFAC928CAC0
-        public void TryParseValue(){} // RVA: 0x7FFAC928CB20
-        public void .ctor(){} // RVA: 0x7FFAC928C580
-        public void .cctor(){} // RVA: 0x7FFAC928CF30
+        public void get_FacetsChecker(){} // RVA: 0x7FFE876350F0
+        public void get_HasValueFacets(){} // RVA: 0x7FFE811E0850
+        public void get_TypeCode(){} // RVA: 0x7FFE87635150
+        public void Compare(){} // RVA: 0x7FFE87635160
+        public void get_ValueType(){} // RVA: 0x7FFE876351E0
+        public void get_ListValueType(){} // RVA: 0x7FFE87635240
+        public void TryParseValue(){} // RVA: 0x7FFE876352A0
+        public void .ctor(){} // RVA: 0x7FFE87634D00
+        public void .cctor(){} // RVA: 0x7FFE876356B0
     }
 
     public class Datatype_month : Datatype_dateTimeBase
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC530F540
-        public void .ctor(){} // RVA: 0x7FFAC9289D50
+        public void get_TypeCode(){} // RVA: 0x7FFE835C5E20
+        public void .ctor(){} // RVA: 0x7FFE876324C0
     }
 
     public class Datatype_monthDay : Datatype_dateTimeBase
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC3641DE0
-        public void .ctor(){} // RVA: 0x7FFAC9289C90
+        public void get_TypeCode(){} // RVA: 0x7FFE8178CF30
+        public void .ctor(){} // RVA: 0x7FFE87632400
     }
 
     public class Datatype_negativeInteger : Datatype_nonPositiveInteger
     {
-        public System.Xml.Schema.FacetsChecker FacetsChecker;
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker;
+        public object field_1; // 0x491
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928C750
-        public void get_TypeCode(){} // RVA: 0x7FFAC928C7B0
-        public void .ctor(){} // RVA: 0x7FFAC928C7C0
-        public void .cctor(){} // RVA: 0x7FFAC928C850
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87634ED0
+        public void get_TypeCode(){} // RVA: 0x7FFE87634F30
+        public void .ctor(){} // RVA: 0x7FFE87634F40
+        public void .cctor(){} // RVA: 0x7FFE87634FD0
     }
 
     public class Datatype_nonNegativeInteger : Datatype_integer
     {
-        public System.Xml.Schema.FacetsChecker FacetsChecker;
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker;
+        public object field_1; // 0x4A4
+        public object field_2; // 0x4A5
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928EBD0
-        public void get_TypeCode(){} // RVA: 0x7FFAC85F8C70
-        public void get_HasValueFacets(){} // RVA: 0x7FFAC3006850
-        public void .ctor(){} // RVA: 0x7FFAC928C580
-        public void .cctor(){} // RVA: 0x7FFAC928EC30
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87637330
+        public void get_TypeCode(){} // RVA: 0x7FFE869A2440
+        public void get_HasValueFacets(){} // RVA: 0x7FFE811E0850
+        public void .ctor(){} // RVA: 0x7FFE87634D00
+        public void .cctor(){} // RVA: 0x7FFE87637390
     }
 
     public class Datatype_nonPositiveInteger : Datatype_integer
     {
-        public System.Xml.Schema.FacetsChecker FacetsChecker;
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker;
+        public object field_1; // 0x48E
+        public object field_2; // 0x48F
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928C5D0
-        public void get_TypeCode(){} // RVA: 0x7FFAC928C630
-        public void get_HasValueFacets(){} // RVA: 0x7FFAC3006850
-        public void .ctor(){} // RVA: 0x7FFAC928C580
-        public void .cctor(){} // RVA: 0x7FFAC928C640
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87634D50
+        public void get_TypeCode(){} // RVA: 0x7FFE87634DB0
+        public void get_HasValueFacets(){} // RVA: 0x7FFE811E0850
+        public void .ctor(){} // RVA: 0x7FFE87634D00
+        public void .cctor(){} // RVA: 0x7FFE87634DC0
     }
 
     public class Datatype_normalizedString : Datatype_string
     {
-        public object TypeCode;
-        public object BuiltInWhitespaceFacet;
-        public object HasValueFacets;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC8D97D00
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3013AF0
-        public void get_HasValueFacets(){} // RVA: 0x7FFAC3006850
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE87140130
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE811EDAF0
+        public void get_HasValueFacets(){} // RVA: 0x7FFE811E0850
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_normalizedStringV1Compat : Datatype_string
     {
-        public object TypeCode;
-        public object HasValueFacets;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC8D97D00
-        public void get_HasValueFacets(){} // RVA: 0x7FFAC3006850
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE87140130
+        public void get_HasValueFacets(){} // RVA: 0x7FFE811E0850
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_positiveInteger : Datatype_nonNegativeInteger
     {
-        public System.Xml.Schema.FacetsChecker FacetsChecker;
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker;
+        public object field_1; // 0x4B7
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9291070
-        public void get_TypeCode(){} // RVA: 0x7FFAC530F440
-        public void .ctor(){} // RVA: 0x7FFAC92910D0
-        public void .cctor(){} // RVA: 0x7FFAC9291160
+        public void get_FacetsChecker(){} // RVA: 0x7FFE876397B0
+        public void get_TypeCode(){} // RVA: 0x7FFE835C5D10
+        public void .ctor(){} // RVA: 0x7FFE87639810
+        public void .cctor(){} // RVA: 0x7FFE876398A0
     }
 
     public class Datatype_short : Datatype_int
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
-        public System.Xml.Schema.FacetsChecker ValueType; // 0x10
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+        public object field_3; // 0x49C
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928DB30
-        public void get_TypeCode(){} // RVA: 0x7FFAC928DB90
-        public void Compare(){} // RVA: 0x7FFAC928DBA0
-        public void get_ValueType(){} // RVA: 0x7FFAC928DCD0
-        public void get_ListValueType(){} // RVA: 0x7FFAC928DD30
-        public void TryParseValue(){} // RVA: 0x7FFAC928DD90
-        public void .ctor(){} // RVA: 0x7FFAC928E040
-        public void .cctor(){} // RVA: 0x7FFAC928E090
+        public void get_FacetsChecker(){} // RVA: 0x7FFE876362A0
+        public void get_TypeCode(){} // RVA: 0x7FFE87636300
+        public void Compare(){} // RVA: 0x7FFE87636310
+        public void get_ValueType(){} // RVA: 0x7FFE87636440
+        public void get_ListValueType(){} // RVA: 0x7FFE876364A0
+        public void TryParseValue(){} // RVA: 0x7FFE87636500
+        public void .ctor(){} // RVA: 0x7FFE876367B0
+        public void .cctor(){} // RVA: 0x7FFE87636800
     }
 
     public class Datatype_string : Datatype_anySimpleType
     {
-        public object BuiltInWhitespaceFacet;
-        public object FacetsChecker;
-        public object TypeCode;
-        public object TokenizedType;
-        public object ValidRestrictionFlags;
-
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC9286260
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC34F9180
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC92862F0
-        public void get_TypeCode(){} // RVA: 0x7FFAC530B5A0
-        public void get_TokenizedType(){} // RVA: 0x7FFAC34F9180
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC92841D0
-        public void TryParseValue(){} // RVA: 0x7FFAC9286350
-        public void .ctor(){} // RVA: 0x7FFAC9286500
+        public void CreateValueConverter(){} // RVA: 0x7FFE8762E9D0
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE813240E0
+        public void get_FacetsChecker(){} // RVA: 0x7FFE8762EA60
+        public void get_TypeCode(){} // RVA: 0x7FFE835C1DE0
+        public void get_TokenizedType(){} // RVA: 0x7FFE813240E0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE8762C940
+        public void TryParseValue(){} // RVA: 0x7FFE8762EAC0
+        public void .ctor(){} // RVA: 0x7FFE8762EC70
     }
 
     public class Datatype_time : Datatype_dateTimeBase
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC4192070
-        public void .ctor(){} // RVA: 0x7FFAC9289B10
+        public void get_TypeCode(){} // RVA: 0x7FFE8246E550
+        public void .ctor(){} // RVA: 0x7FFE87632280
     }
 
     public class Datatype_timeNoTimeZone : Datatype_dateTimeBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9289A50
+        public void .ctor(){} // RVA: 0x7FFE876321C0
     }
 
     public class Datatype_timeTimeZone : Datatype_dateTimeBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9289AB0
+        public void .ctor(){} // RVA: 0x7FFE87632220
     }
 
     public class Datatype_token : Datatype_normalizedString
     {
-        public object TypeCode;
-        public object BuiltInWhitespaceFacet;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC530BFF0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC3026CB0
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE835C28C0
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE81200CB0
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_tokenV1Compat : Datatype_normalizedStringV1Compat
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC530BFF0
-        public void .ctor(){} // RVA: 0x7FFAC928B8F0
+        public void get_TypeCode(){} // RVA: 0x7FFE835C28C0
+        public void .ctor(){} // RVA: 0x7FFE87634070
     }
 
     public class Datatype_union : Datatype_anySimpleType
     {
-        public System.Type ValueType;
-        public System.Type TypeCode; // 0x8
-        public System.Xml.Schema.XmlSchemaSimpleType[] FacetsChecker; // 0x38
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.XmlSchemaSimpleType[] types; // 0x38
+        public object field_3; // 0x416
+        public object field_4; // 0x417
+        public object field_5; // 0x418
 
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC9284D60
-        public void .ctor(){} // RVA: 0x7FFAC9284DC0
-        public void Compare(){} // RVA: 0x7FFAC9284E90
-        public void get_ValueType(){} // RVA: 0x7FFAC9284FA0
-        public void get_TypeCode(){} // RVA: 0x7FFAC314F980
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9285000
-        public void get_ListValueType(){} // RVA: 0x7FFAC9285060
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC530B550
-        public void get_BaseMemberTypes(){} // RVA: 0x7FFAC31D0140
-        public void HasAtomicMembers(){} // RVA: 0x7FFAC92850C0
-        public void IsUnionBaseOf(){} // RVA: 0x7FFAC9285160
-        public void TryParseValue(){} // RVA: 0x7FFAC92854C0 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFAC9285980
+        public void CreateValueConverter(){} // RVA: 0x7FFE8762D4D0
+        public void .ctor(){} // RVA: 0x7FFE8762D530
+        public void Compare(){} // RVA: 0x7FFE8762D600
+        public void get_ValueType(){} // RVA: 0x7FFE8762D710
+        public void get_TypeCode(){} // RVA: 0x7FFE813B49D0
+        public void get_FacetsChecker(){} // RVA: 0x7FFE8762D770
+        public void get_ListValueType(){} // RVA: 0x7FFE8762D7D0
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE835C1D90
+        public void get_BaseMemberTypes(){} // RVA: 0x7FFE8143BA80
+        public void HasAtomicMembers(){} // RVA: 0x7FFE8762D830
+        public void IsUnionBaseOf(){} // RVA: 0x7FFE8762D8D0
+        public void TryParseValue(){} // RVA: 0x7FFE8762DC30 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFE8762E0F0
     }
 
     public class Datatype_unsignedByte : Datatype_unsignedShort
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
-        public System.Xml.Schema.FacetsChecker ValueType; // 0x10
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+        public object field_3; // 0x4B3
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC9290820
-        public void get_TypeCode(){} // RVA: 0x7FFAC8D7CC80
-        public void Compare(){} // RVA: 0x7FFAC9290880
-        public void get_ValueType(){} // RVA: 0x7FFAC92909B0
-        public void get_ListValueType(){} // RVA: 0x7FFAC9290A10
-        public void TryParseValue(){} // RVA: 0x7FFAC9290A70
-        public void .ctor(){} // RVA: 0x7FFAC9290D30
-        public void .cctor(){} // RVA: 0x7FFAC9290D80
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87638F70
+        public void get_TypeCode(){} // RVA: 0x7FFE871250B0
+        public void Compare(){} // RVA: 0x7FFE87638FD0
+        public void get_ValueType(){} // RVA: 0x7FFE87639100
+        public void get_ListValueType(){} // RVA: 0x7FFE87639160
+        public void TryParseValue(){} // RVA: 0x7FFE876391C0
+        public void .ctor(){} // RVA: 0x7FFE87639470
+        public void .cctor(){} // RVA: 0x7FFE876394C0
     }
 
     public class Datatype_unsignedInt : Datatype_unsignedLong
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
-        public System.Xml.Schema.FacetsChecker ValueType; // 0x10
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+        public object field_3; // 0x4AB
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928F6B0
-        public void get_TypeCode(){} // RVA: 0x7FFAC530F470
-        public void Compare(){} // RVA: 0x7FFAC928F710
-        public void get_ValueType(){} // RVA: 0x7FFAC928F790
-        public void get_ListValueType(){} // RVA: 0x7FFAC928F7F0
-        public void TryParseValue(){} // RVA: 0x7FFAC928F850
-        public void .ctor(){} // RVA: 0x7FFAC928FC60
-        public void .cctor(){} // RVA: 0x7FFAC928FCB0
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87637E10
+        public void get_TypeCode(){} // RVA: 0x7FFE835C5D60
+        public void Compare(){} // RVA: 0x7FFE87637E70
+        public void get_ValueType(){} // RVA: 0x7FFE87637EF0
+        public void get_ListValueType(){} // RVA: 0x7FFE87637F50
+        public void TryParseValue(){} // RVA: 0x7FFE87637FB0
+        public void .ctor(){} // RVA: 0x7FFE876383B0
+        public void .cctor(){} // RVA: 0x7FFE87638400
     }
 
     public class Datatype_unsignedLong : Datatype_nonNegativeInteger
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
-        public System.Xml.Schema.FacetsChecker ValueType; // 0x10
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+        public object field_3; // 0x4A7
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928ED30
-        public void get_TypeCode(){} // RVA: 0x7FFAC530BFD0
-        public void Compare(){} // RVA: 0x7FFAC928ED90
-        public void get_ValueType(){} // RVA: 0x7FFAC928EE10
-        public void get_ListValueType(){} // RVA: 0x7FFAC928EE70
-        public void TryParseValue(){} // RVA: 0x7FFAC928EED0
-        public void .ctor(){} // RVA: 0x7FFAC928F330
-        public void .cctor(){} // RVA: 0x7FFAC928F3C0
+        public void get_FacetsChecker(){} // RVA: 0x7FFE87637490
+        public void get_TypeCode(){} // RVA: 0x7FFE835C28A0
+        public void Compare(){} // RVA: 0x7FFE876374F0
+        public void get_ValueType(){} // RVA: 0x7FFE87637570
+        public void get_ListValueType(){} // RVA: 0x7FFE876375D0
+        public void TryParseValue(){} // RVA: 0x7FFE87637630
+        public void .ctor(){} // RVA: 0x7FFE87637A90
+        public void .cctor(){} // RVA: 0x7FFE87637B20
     }
 
     public class Datatype_unsignedShort : Datatype_unsignedInt
     {
-        public System.Type FacetsChecker;
-        public System.Type TypeCode; // 0x8
-        public System.Xml.Schema.FacetsChecker ValueType; // 0x10
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public System.Xml.Schema.FacetsChecker numeric10FacetsChecker; // 0x10
+        public object field_3; // 0x4AF
 
         // ── Methods ──
-        public void get_FacetsChecker(){} // RVA: 0x7FFAC928FFA0
-        public void get_TypeCode(){} // RVA: 0x7FFAC314F990
-        public void Compare(){} // RVA: 0x7FFAC9290000
-        public void get_ValueType(){} // RVA: 0x7FFAC9290130
-        public void get_ListValueType(){} // RVA: 0x7FFAC9290190
-        public void TryParseValue(){} // RVA: 0x7FFAC92901F0
-        public void .ctor(){} // RVA: 0x7FFAC92904A0
-        public void .cctor(){} // RVA: 0x7FFAC9290530
+        public void get_FacetsChecker(){} // RVA: 0x7FFE876386F0
+        public void get_TypeCode(){} // RVA: 0x7FFE813B49E0
+        public void Compare(){} // RVA: 0x7FFE87638750
+        public void get_ValueType(){} // RVA: 0x7FFE87638880
+        public void get_ListValueType(){} // RVA: 0x7FFE876388E0
+        public void TryParseValue(){} // RVA: 0x7FFE87638940
+        public void .ctor(){} // RVA: 0x7FFE87638BF0
+        public void .cctor(){} // RVA: 0x7FFE87638C80
     }
 
     public class Datatype_untypedAtomicType : Datatype_anyAtomicType
     {
-        public object BuiltInWhitespaceFacet;
-        public object TypeCode;
-
         // ── Methods ──
-        public void CreateValueConverter(){} // RVA: 0x7FFAC92861F0
-        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFAC34F9180
-        public void get_TypeCode(){} // RVA: 0x7FFAC8631FB0
-        public void .ctor(){} // RVA: 0x7FFAC9286250
+        public void CreateValueConverter(){} // RVA: 0x7FFE8762E960
+        public void get_BuiltInWhitespaceFacet(){} // RVA: 0x7FFE813240E0
+        public void get_TypeCode(){} // RVA: 0x7FFE869DB780
+        public void .ctor(){} // RVA: 0x7FFE8762E9C0
     }
 
     public class Datatype_uuid : Datatype_anySimpleType
     {
-        public System.Type ValueType;
-        public System.Type ListValueType; // 0x8
+        public System.Type atomicValueType;
+        public System.Type listValueType; // 0x8
+        public object field_2; // 0x4C0
 
         // ── Methods ──
-        public void get_ValueType(){} // RVA: 0x7FFAC9292BB0
-        public void get_ListValueType(){} // RVA: 0x7FFAC9292C10
-        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFAC34F9180
-        public void Compare(){} // RVA: 0x7FFAC9292C70
-        public void ParseValue(){} // RVA: 0x7FFAC9292DB0
-        public void TryParseValue(){} // RVA: 0x7FFAC9293020
-        public void .ctor(){} // RVA: 0x7FFAC9293170
-        public void .cctor(){} // RVA: 0x7FFAC92931F0
+        public void get_ValueType(){} // RVA: 0x7FFE8763B2F0
+        public void get_ListValueType(){} // RVA: 0x7FFE8763B350
+        public void get_ValidRestrictionFlags(){} // RVA: 0x7FFE813240E0
+        public void Compare(){} // RVA: 0x7FFE8763B3B0
+        public void ParseValue(){} // RVA: 0x7FFE8763B4F0
+        public void TryParseValue(){} // RVA: 0x7FFE8763B760
+        public void .ctor(){} // RVA: 0x7FFE8763B8B0
+        public void .cctor(){} // RVA: 0x7FFE8763B930
     }
 
     public class Datatype_year : Datatype_dateTimeBase
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC31719D0
-        public void .ctor(){} // RVA: 0x7FFAC9289C30
+        public void get_TypeCode(){} // RVA: 0x7FFE813DA8C0
+        public void .ctor(){} // RVA: 0x7FFE876323A0
     }
 
     public class Datatype_yearMonth : Datatype_dateTimeBase
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void get_TypeCode(){} // RVA: 0x7FFAC3AA6690
-        public void .ctor(){} // RVA: 0x7FFAC9289BD0
+        public void get_TypeCode(){} // RVA: 0x7FFE81BE6F60
+        public void .ctor(){} // RVA: 0x7FFE87632340
     }
 
     public class Datatype_yearMonthDuration : Datatype_duration
     {
-        public object TypeCode;
-
         // ── Methods ──
-        public void TryParseValue(){} // RVA: 0x7FFAC9288850
-        public void get_TypeCode(){} // RVA: 0x7FFAC8D90540
-        public void .ctor(){} // RVA: 0x7FFAC9288AC0
+        public void TryParseValue(){} // RVA: 0x7FFE87630FC0
+        public void get_TypeCode(){} // RVA: 0x7FFE87138970
+        public void .ctor(){} // RVA: 0x7FFE87631230
     }
 
     public class DateTimeFacetsChecker : FacetsChecker
     {
         // ── Methods ──
-        public void CheckValueFacets(){} // RVA: 0x7FFAC929E8D0 | overloaded x2
-        public void MatchEnumeration(){} // RVA: 0x7FFAC929EDC0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void CheckValueFacets(){} // RVA: 0x7FFE87647010 | overloaded x2
+        public void MatchEnumeration(){} // RVA: 0x7FFE87647500 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class DfaContentValidator : ContentValidator
     {
-        public int[][] transitionTable; // 0x18
-        public System.Xml.Schema.SymbolsDictionary symbols; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9275FD0
-        public void InitValidation(){} // RVA: 0x7FFAC9276100
-        public void ValidateElement(){} // RVA: 0x7FFAC9276160
-        public void CompleteValidation(){} // RVA: 0x7FFAC92762B0
-        public void ExpectedElements(){} // RVA: 0x7FFAC92762D0
-        public void ExpectedParticles(){} // RVA: 0x7FFAC92764C0
+        public void .ctor(){} // RVA: 0x7FFE8761E740
+        public void InitValidation(){} // RVA: 0x7FFE8761E870
+        public void ValidateElement(){} // RVA: 0x7FFE8761E8D0
+        public void CompleteValidation(){} // RVA: 0x7FFE8761EA20
+        public void ExpectedElements(){} // RVA: 0x7FFE8761EA40
+        public void ExpectedParticles(){} // RVA: 0x7FFE8761EC30
     }
 
     public class DoubleLinkAxis : Axis
     {
-        public MS.Internal.Xml.XPath.Axis Next; // 0x40
+        public MS.Internal.Xml.XPath.Axis next; // 0x40
 
         // ── Methods ──
-        public void get_Next(){} // RVA: 0x7FFAC2F9E740
-        public void set_Next(){} // RVA: 0x7FFAC2F49200
-        public void .ctor(){} // RVA: 0x7FFAC9266F00
-        public void ConvertTree(){} // RVA: 0x7FFAC9267070
+        public void get_Next(){} // RVA: 0x7FFE81178740
+        public void set_Next(){} // RVA: 0x7FFE81123200
+        public void .ctor(){} // RVA: 0x7FFE8760F670
+        public void ConvertTree(){} // RVA: 0x7FFE8760F7E0
     }
 
     public class DtdValidator : BaseValidator
     {
-        public NamespaceManager PreserveWhitespace;
-        public System.Xml.HWStack validationStack; // 0x80
-        public System.Collections.Hashtable attPresence; // 0x88
-        public System.Xml.XmlQualifiedName name; // 0x90
-        public System.Collections.Hashtable IDs; // 0x98
-        public System.Xml.Schema.IdRefNode idRefListHead; // 0xA0
-        public bool processIdentityConstraints; // 0xA8
+        public NamespaceManager namespaceManager;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9293410
-        public void Init(){} // RVA: 0x7FFAC9293510
-        public void Validate(){} // RVA: 0x7FFAC9293810
-        public void MeetsStandAloneConstraint(){} // RVA: 0x7FFAC9293BF0
-        public void ValidatePIComment(){} // RVA: 0x7FFAC9293C90
-        public void ValidateElement(){} // RVA: 0x7FFAC9293D80
-        public void ValidateChildElement(){} // RVA: 0x7FFAC9294080
-        public void ValidateStartElement(){} // RVA: 0x7FFAC9294250
-        public void ValidateEndStartElement(){} // RVA: 0x7FFAC92948B0
-        public void ProcessElement(){} // RVA: 0x7FFAC9294AC0
-        public void CompleteValidation(){} // RVA: 0x7FFAC9294D00
-        public void ValidateEndElement(){} // RVA: 0x7FFAC9294EC0
-        public void get_PreserveWhitespace(){} // RVA: 0x7FFAC9132760
-        public void ProcessTokenizedType(){} // RVA: 0x7FFAC9295130
-        public void CheckValue(){} // RVA: 0x7FFAC9295450
-        public void AddID(){} // RVA: 0x7FFAC9295AB0
-        public void FindId(){} // RVA: 0x7FFAC9295BB0
-        public void GenEntity(){} // RVA: 0x7FFAC9295BE0
-        public void GetEntity(){} // RVA: 0x7FFAC9295DF0
-        public void CheckForwardRefs(){} // RVA: 0x7FFAC9295EB0
-        public void Push(){} // RVA: 0x7FFAC9296050
-        public void Pop(){} // RVA: 0x7FFAC9296340
-        public void SetDefaultTypedValue(){} // RVA: 0x7FFAC9296490
-        public void CheckDefaultValue(){} // RVA: 0x7FFAC9296740
-        public void .cctor(){} // RVA: 0x7FFAC9296A90
+        public void .ctor(){} // RVA: 0x7FFE8763BB50
+        public void Init(){} // RVA: 0x7FFE8763BC50
+        public void Validate(){} // RVA: 0x7FFE8763BF50
+        public void MeetsStandAloneConstraint(){} // RVA: 0x7FFE8763C330
+        public void ValidatePIComment(){} // RVA: 0x7FFE8763C3D0
+        public void ValidateElement(){} // RVA: 0x7FFE8763C4C0
+        public void ValidateChildElement(){} // RVA: 0x7FFE8763C7C0
+        public void ValidateStartElement(){} // RVA: 0x7FFE8763C990
+        public void ValidateEndStartElement(){} // RVA: 0x7FFE8763CFF0
+        public void ProcessElement(){} // RVA: 0x7FFE8763D200
+        public void CompleteValidation(){} // RVA: 0x7FFE8763D440
+        public void ValidateEndElement(){} // RVA: 0x7FFE8763D600
+        public void get_PreserveWhitespace(){} // RVA: 0x7FFE874DAF10
+        public void ProcessTokenizedType(){} // RVA: 0x7FFE8763D870
+        public void CheckValue(){} // RVA: 0x7FFE8763DB90
+        public void AddID(){} // RVA: 0x7FFE8763E1F0
+        public void FindId(){} // RVA: 0x7FFE8763E2F0
+        public void GenEntity(){} // RVA: 0x7FFE8763E320
+        public void GetEntity(){} // RVA: 0x7FFE8763E530
+        public void CheckForwardRefs(){} // RVA: 0x7FFE8763E5F0
+        public void Push(){} // RVA: 0x7FFE8763E790
+        public void Pop(){} // RVA: 0x7FFE8763EA80
+        public void SetDefaultTypedValue(){} // RVA: 0x7FFE8763EBD0
+        public void CheckDefaultValue(){} // RVA: 0x7FFE8763EE80
+        public void .cctor(){} // RVA: 0x7FFE8763F1D0
     }
 
     public class DurationFacetsChecker : FacetsChecker
     {
         // ── Methods ──
-        public void CheckValueFacets(){} // RVA: 0x7FFAC929E350 | overloaded x2
-        public void MatchEnumeration(){} // RVA: 0x7FFAC929E750 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void CheckValueFacets(){} // RVA: 0x7FFE87646A90 | overloaded x2
+        public void MatchEnumeration(){} // RVA: 0x7FFE87646E90 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
 }
