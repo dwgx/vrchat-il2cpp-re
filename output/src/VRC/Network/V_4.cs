@@ -15,18 +15,17 @@ namespace VRC.Network
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFE826F4230
         public void InternalEquals(){} // RVA: 0x7FFE81D7E9E0
-        public void DefaultEquals(){} // RVA: 0x7FFE82D27E70
+        public void TransferOwnership(){} // RVA: 0x7FFE82D27E70
         public void GetHashCode(){} // RVA: 0x7FFE8196FB10
         public void InternalGetHashCode(){} // RVA: 0x7FFE826F4230
         public void ToString(){} // RVA: 0x7FFE826F4210
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE8284EF60
-        // ── Unresolved (hash) ──
-        public void m_0BA(){} // RVA: 0x7FFE826F4210
-        public void m_584(){} // RVA: 0x7FFE82D27E70
-        public void m_AAA(){} // RVA: 0x7FFE8196FB10
-        public void m_034(){} // RVA: 0x7FFE8284EF60
-        public void m_87B(){} // RVA: 0x7FFE8196FB10
-        public void m_D9B(){} // RVA: 0x7FFE82D27E70
+        public void OnNetworkReady(){} // RVA: 0x7FFE826F4210
+        public void Sync(){} // RVA: 0x7FFE82D27E70
+        public void ReceiveData(){} // RVA: 0x7FFE8196FB10
+        public void SendData(){} // RVA: 0x7FFE8284EF60
+        public void GetOwner(){} // RVA: 0x7FFE8196FB10
+        public void TransferOwnership_D9B2E4860946(){} // RVA: 0x7FFE82D27E70
     }
 
     /// <summary>Originally: ÎÎÍÏÏÎÌÏÌÎÌÍÌÎÏÌÎÏÍÌÎÍÌ</summary>

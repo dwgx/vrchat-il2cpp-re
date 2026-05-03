@@ -35,10 +35,14 @@ namespace VRC.UI.Core.Styles
         public void Invoke(){} // RVA: 0x7FFE8960B380
         public void InvokeRepeating(){} // RVA: 0x7FFE8960B3B0
         public void OnPointerUp(){} // RVA: 0x7FFE8960B430
+        public void ApplyStyle(){} // RVA: 0x7FFE81463AE0
         public void StartCoroutine(){} // RVA: 0x7FFE8960B5E0
+        public void RefreshStyle(){} // RVA: 0x7FFE8143BA80
         public void .ctor(){} // RVA: 0x7FFE8960B640
         public void Initialize(){} // RVA: 0x7FFE8960BC00
         public void StopCoroutine(){} // RVA: 0x7FFE8960BC20
+        public void GetStyleProperty(){} // RVA: 0x7FFE8960BF50
+        public void SetStyleProperty(){} // RVA: 0x7FFE8960BF60
         public void StopAllCoroutines(){} // RVA: 0x7FFE820E9360
         public void OnPointerDown(){} // RVA: 0x7FFE8960C0B0
         public void set_useGUILayout(){} // RVA: 0x7FFE8960C260
@@ -47,39 +51,52 @@ namespace VRC.UI.Core.Styles
         public void Internal_IsInvokingAll(){} // RVA: 0x7FFE8960C370
         public void InvokeDelayed(){} // RVA: 0x7FFE8960B3B0
         public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7FFE8960CB30 | overloaded x2
+        public void InvalidateStyle(){} // RVA: 0x7FFE87BD6740
         public void IsObjectMonoBehaviour(){} // RVA: 0x7FFE8960C410
         public void StartCoroutineManaged(){} // RVA: 0x7FFE8960C5E0
         public void StartCoroutineManaged2(){} // RVA: 0x7FFE896121F0 | overloaded x2
         public void StopCoroutineManaged(){} // RVA: 0x7FFE8960C8E0
         public void .cctor(){} // RVA: 0x7FFE8960CB70
         public void OnApplicationQuit(){} // RVA: 0x7FFE8960E3C0 | overloaded x3
+        public void OnStyleChanged(){} // RVA: 0x7FFE814B5BF0
+        public void ComputeStyleValues(){} // RVA: 0x7FFE8960D9B0
+        public void RegisterStyleListener_911D1D6017F9(){} // RVA: 0x7FFE896115D0 | overloaded x2
+        public void UnregisterStyleListener(){} // RVA: 0x7FFE8960DA60
+        public void GetParentStyle(){} // RVA: 0x7FFE810A1420
+        public void InheritParentStyle(){} // RVA: 0x7FFE8960DCA0
         public void Awake(){} // RVA: 0x7FFE8960DE00
+        public void GetStyleClass(){} // RVA: 0x7FFE8960DED0
         public void Start(){} // RVA: 0x7FFE8960DFA0
         public void Update(){} // RVA: 0x7FFE8960DFB0
         public void OnTriggerEnter(){} // RVA: 0x7FFE8960BC00 | overloaded x3
+        public void SetStyleClass(){} // RVA: 0x7FFE8119C0E0
+        public void ResetStyleToDefault(){} // RVA: 0x7FFE8960E230
         public void OnApplicationPause(){} // RVA: 0x7FFE8960E3A0
         public void OnBecameVisible(){} // RVA: 0x7FFE8960E440
         public void OnBecameInvisible(){} // RVA: 0x7FFE8960F0A0
         public void OnCollisionEnter(){} // RVA: 0x7FFE8960F0C0
         public void OnCollisionStay(){} // RVA: 0x7FFE81FF3AD0
-        public void OnCollisionExit(){} // RVA: 0x7FFE8960F3C0
+        public void SetStyleProperty_F5515B91F1EF(){} // RVA: 0x7FFE8960F3C0
         public void OnTriggerStay(){} // RVA: 0x7FFE8960FA40
         public void OnTriggerExit(){} // RVA: 0x7FFE89610CE0
         public void LateUpdate(){} // RVA: 0x7FFE89610E90
+        public void ApplyTheme(){} // RVA: 0x7FFE89611150
         public void OnDestroy(){} // RVA: 0x7FFE89611170
         public void OnEnable(){} // RVA: 0x7FFE896112C0
+        public void GetThemeColor(){} // RVA: 0x7FFE89611550
         public void FixedUpdate(){} // RVA: 0x7FFE811C3500
+        public void OnCollisionExit(){} // RVA: 0x7FFE896118A0
         public void OnPointerClick(){} // RVA: 0x7FFE89612020
         public void OnPointerExit(){} // RVA: 0x7FFE896124F0
         public void OnPointerEnter(){} // RVA: 0x7FFE89612520
         public void OnDisable(){} // RVA: 0x7FFE89612910
-        // ── 29 unresolved (hash) ──
-        public void m_498(){} // RVA: 0x7FFE81463AE0
-        public void m_634(){} // RVA: 0x7FFE8143BA80
-        public void m_811(){} // RVA: 0x7FFE8960BF50
-        public void m_F55(){} // RVA: 0x7FFE8960BF60
-        public void m_E5A(){} // RVA: 0x7FFE87BD6740
-        // ... 24 more unresolved methods
+        // ── 12 unresolved (hash) ──
+        public void m_BEE(){} // RVA: 0x7FFE811E99D0
+        public void m_597(){} // RVA: 0x7FFE89611630
+        public void m_DEA(){} // RVA: 0x7FFE89611900
+        public void m_80A(){} // RVA: 0x7FFE89611AB0
+        public void m_B62(){} // RVA: 0x7FFE89611BA0
+        // ... 7 more unresolved methods
     }
 
     public class StyleEngine : MonoBehaviour

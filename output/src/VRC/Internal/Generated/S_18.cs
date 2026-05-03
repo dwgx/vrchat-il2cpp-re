@@ -721,25 +721,24 @@ namespace VRC.Internal.Generated
         public void Instantiate(){} // RVA: 0x7FFE826F64F0
         public void ToString(){} // RVA: 0x7FFE826F6500
         public void Destroy(){} // RVA: 0x7FFE826F65A0
+        public void GetWorldPosition(){} // RVA: 0x7FFE826F6640
         public void GetUnityEngine(){} // RVA: 0x7FFE826F66D0
+        public void TransformPoint(){} // RVA: 0x7FFE826F36F0
+        public void ApplyOffset(){} // RVA: 0x7FFE826F6790
         public void InverseTransformDirection(){} // RVA: 0x7FFE826F6820
         public void TouchIdFromPointerId(){} // RVA: 0x7FFE826F6830
         public void FindObjectOfType(){} // RVA: 0x7FFE826F6840
+        public void GetTouchData(){} // RVA: 0x7FFE826F68C0
         public void FindObjectsOfType(){} // RVA: 0x7FFE826F6960
         public void DestroyImmediate(){} // RVA: 0x7FFE826F3610
         public void .ctor(){} // RVA: 0x7FFE810FB310
         public void Initialize(){} // RVA: 0x7FFE826F6970
+        public void Refresh(){} // RVA: 0x7FFE813240E0
         public void FindObjectsByType(){} // RVA: 0x7FFE826F3680
         public void SyncLocalPosition(){} // RVA: 0x7FFE826F69E0
         public void DontDestroyOnLoad(){} // RVA: 0x7FFE826F6A60
         public void get_hideFlags(){} // RVA: 0x7FFE826F6AE0
         public void set_hideFlags(){} // RVA: 0x7FFE826F6B80
-        // ── Unresolved (hash) ──
-        public void m_FCB(){} // RVA: 0x7FFE826F6640
-        public void m_F77(){} // RVA: 0x7FFE826F36F0
-        public void m_D05(){} // RVA: 0x7FFE826F6790
-        public void m_EC6(){} // RVA: 0x7FFE826F68C0
-        public void m_E92(){} // RVA: 0x7FFE813240E0
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÏÍÏÎÎÍÍÏÍÏÏÏÏÌÌÏÏ</summary>

@@ -296,8 +296,11 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x7FFE82203720
         public void Initialize(){} // RVA: 0x7FFE81121450
         public void GetUnityEngine(){} // RVA: 0x7FFE822037E0
+        public void GetFingerCurl(){} // RVA: 0x7FFE82203820
         public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7FFE82203870
+        public void ApplyFingerData(){} // RVA: 0x7FFE81121460
         public void op_Equality(){} // RVA: 0x7FFE82203890
+        public void UpdateHandPose(){} // RVA: 0x7FFE822038F0
         public void TranslateByOffset(){} // RVA: 0x7FFE822039D0
         public void Destroy(){} // RVA: 0x7FFE81116380
         public void FindObjectsByType(){} // RVA: 0x7FFE82203A10
@@ -305,12 +308,8 @@ namespace VRC.Misc
         public void DestroyImmediate(){} // RVA: 0x7FFE82203AB0
         public void FindObjectsOfType(){} // RVA: 0x7FFE82203B00
         public void get_fingerCurls(){} // RVA: 0x7FFE82203B50
-        // ── Unresolved (hash) ──
-        public void m_692(){} // RVA: 0x7FFE82203820
-        public void m_371(){} // RVA: 0x7FFE81121460
-        public void m_B67(){} // RVA: 0x7FFE822038F0
-        public void m_660(){} // RVA: 0x7FFE81121450
-        public void m_8FF(){} // RVA: 0x7FFE82203C10
+        public void ResetHand(){} // RVA: 0x7FFE81121450
+        public void Dispose(){} // RVA: 0x7FFE82203C10
     }
 
     /// <summary>Originally: ÏÏÏÍÏÍÌÏÌÏÏÍÍÌÌÏÍÏÏÌÌÏÌ</summary>
@@ -1113,7 +1112,11 @@ namespace VRC.Misc
         public void CancelInvoke(){} // RVA: 0x7FFE81FE3590
         public void Invoke(){} // RVA: 0x7FFE816400C0
         public void InvokeRepeating(){} // RVA: 0x7FFE81280C30
+        public void Awake_7C74FC4FBF22(){} // RVA: 0x7FFE81FE3650
+        public void Start(){} // RVA: 0x7FFE816400C0
         public void StartCoroutine(){} // RVA: 0x7FFE811C3500
+        public void Update(){} // RVA: 0x7FFE81643A40
+        public void OnEnable(){} // RVA: 0x7FFE81199370
         public void StartCoroutine_Auto(){} // RVA: 0x7FFE81280C30
         public void StopCoroutine(){} // RVA: 0x7FFE8119C0E0
         public void StopAllCoroutines(){} // RVA: 0x7FFE8113A010
@@ -1132,10 +1135,6 @@ namespace VRC.Misc
         public void OnCancellationTokenCreated(){} // RVA: 0x7FFE812534D0
         public void OnDisable(){} // RVA: 0x7FFE81FE7940
         // ── Unresolved (hash) ──
-        public void m_7C7(){} // RVA: 0x7FFE81FE3650
-        public void m_F91(){} // RVA: 0x7FFE816400C0
-        public void m_989(){} // RVA: 0x7FFE81643A40
-        public void m_647(){} // RVA: 0x7FFE81199370
         public void m_221(){} // RVA: 0x7FFE81643A40
         public void m_25D(){} // RVA: 0x7FFE816400C0
         public void m_9AB(){} // RVA: 0x7FFE81FE3CD0
@@ -1333,17 +1332,17 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x7FFE829B1310
         public void Initialize(){} // RVA: 0x7FFE829B13F0
         public void OnCancellationTokenCreated(){} // RVA: 0x7FFE829B16B0
+        public void OnCollisionEnter(){} // RVA: 0x7FFE817E41C0
         public void OnBecameInvisible(){} // RVA: 0x7FFE829B1BF0
-        public void OnCollisionEnter(){} // RVA: 0x7FFE829B1C00
+        public void OnCollisionEnter_4BA29CAD6705(){} // RVA: 0x7FFE829B1C00
         public void OnCollisionStay_CE590F14E8BF(){} // RVA: 0x7FFE829B1CA0
         public void OnCollisionExit_AA67123735FB(){} // RVA: 0x7FFE829B1CE0
+        public void OnCollisionEnter_52C6E4567F94(){} // RVA: 0x7FFE829B1CF0
         public void OnTriggerStay(){} // RVA: 0x7FFE810FB310
         public void OnTriggerExit(){} // RVA: 0x7FFE829B0C20
+        public void ProcessLifecycle(){} // RVA: 0x7FFE81E2C030
         public void ProcessLifecycleComponent(){} // RVA: 0x7FFE829B1D90
         public void GetUnityEngine(){} // RVA: 0x7FFE829B2510
-        // ── Unresolved (hash) ──
-        public void m_52C(){} // RVA: 0x7FFE829B1CF0
-        public void m_BCA(){} // RVA: 0x7FFE81E2C030
     }
 
     /// <summary>Originally: ÎÏÎÌÏÍÎÍÌÎÍÍÌÌÌÌÍÍÌÌÎÌÍ</summary>

@@ -316,16 +316,16 @@ namespace VRC.Core.Base
         public void InternalGetHashCode(){} // RVA: 0x7FFE810FCE30
         public void ToString(){} // RVA: 0x7FFE826F4230
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE81116380
+        public void GetHashCode_3CDD05EC234A(){} // RVA: 0x7FFE826F4210
+        public void op_Equality(){} // RVA: 0x7FFE826F4210
+        public void Equals_62B39A545625(){} // RVA: 0x7FFE82E0D2B0
+        public void ToString_9E16F52ACFC7(){} // RVA: 0x7FFE815BF990
         // ── Unresolved (hash) ──
         public void m_9E2(){} // RVA: 0x7FFE810FCE30
         public void m_34E(){} // RVA: 0x7FFE826F4220
-        public void m_3CD(){} // RVA: 0x7FFE826F4210
-        public void m_844(){} // RVA: 0x7FFE826F4210
         public void m_9EA(){} // RVA: 0x7FFE81116380
         public void m_8F8(){} // RVA: 0x7FFE826F4220
-        public void m_62B(){} // RVA: 0x7FFE82E0D2B0
         public void m_635(){} // RVA: 0x7FFE810FCE30
-        public void m_9E1(){} // RVA: 0x7FFE815BF990
     }
 
     /// <summary>Originally: ÍÏÌÍÎÍÌÎÎÌÌÌÎÎÍÍÍÍÏÍÌÌÌ</summary>

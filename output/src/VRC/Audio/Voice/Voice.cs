@@ -25,13 +25,12 @@ namespace VRC.Audio.Voice
         public void Instantiate(){} // RVA: 0x7FFE81116380
         public void ToString(){} // RVA: 0x7FFE81D4FA00
         public void Initialize(){} // RVA: 0x7FFE81D4FBA0
+        public void get_Instance(){} // RVA: 0x7FFE810FE7C0
+        public void StartRecording(){} // RVA: 0x7FFE81D4FC80
         public void .cctor(){} // RVA: 0x7FFE811290C0
+        public void StopRecording(){} // RVA: 0x7FFE81D4FE20
+        public void GetMicrophoneDevices(){} // RVA: 0x7FFE81D50100
         public void .ctor_D9233AC23AAE(){} // RVA: 0x7FFE81D50180
-        // ── Unresolved (hash) ──
-        public void m_0A7(){} // RVA: 0x7FFE810FE7C0
-        public void m_968(){} // RVA: 0x7FFE81D4FC80
-        public void m_7C0(){} // RVA: 0x7FFE81D4FE20
-        public void m_3C4(){} // RVA: 0x7FFE81D50100
     }
 
 }

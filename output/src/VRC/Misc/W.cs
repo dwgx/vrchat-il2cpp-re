@@ -30,9 +30,15 @@ namespace VRC.Misc
         public void CancelInvoke(){} // RVA: 0x7FFE8992E300
         public void Invoke(){} // RVA: 0x7FFE8992E380
         public void InvokeRepeating(){} // RVA: 0x7FFE81F837C0
+        public void PopulateWorldGrid(){} // RVA: 0x7FFE815BB1F0
+        public void RefreshGridLayout(){} // RVA: 0x7FFE810FB320
         public void StartCoroutine(){} // RVA: 0x7FFE818DBD80
+        public void OnWorldCellClicked(){} // RVA: 0x7FFE8992E3A0
+        public void InstantiateWorldCell(){} // RVA: 0x7FFE810FB320
         public void StartCoroutine_Auto(){} // RVA: 0x7FFE81B10700
         public void StopCoroutine(){} // RVA: 0x7FFE81631490
+        public void ClearWorldGrid(){} // RVA: 0x7FFE8992E3B0
+        public void LoadWorldInstancesAsync(){} // RVA: 0x7FFE8992E3D0
         public void StopAllCoroutines(){} // RVA: 0x7FFE8992E690
         public void get_useGUILayout(){} // RVA: 0x7FFE8992E6F0
         public void set_useGUILayout(){} // RVA: 0x7FFE81B2CB70
@@ -40,6 +46,8 @@ namespace VRC.Misc
         public void Internal_CancelInvokeAll(){} // RVA: 0x7FFE86EE8070
         public void Internal_IsInvokingAll(){} // RVA: 0x7FFE81B38790
         public void InvokeDelayed(){} // RVA: 0x7FFE81166670
+        public void ApplySecondaryGridLayout(){} // RVA: 0x7FFE81166660
+        public void GetCellByIndex(){} // RVA: 0x7FFE8992E7D0
         public void IsObjectMonoBehaviour(){} // RVA: 0x7FFE8992E830
         public void StartCoroutineManaged(){} // RVA: 0x7FFE8992E8E0
         public void StartCoroutineManaged2(){} // RVA: 0x7FFE81F7F070
@@ -47,17 +55,17 @@ namespace VRC.Misc
         public void Initialize(){} // RVA: 0x7FFE81B31180
         public void GetScriptClassName(){} // RVA: 0x7FFE8992ECC0
         public void OnCancellationTokenCreated(){} // RVA: 0x7FFE81B38790
+        public void UpdateCellVisuals(){} // RVA: 0x7FFE81B23F80
+        public void ScrollToWorldCell(){} // RVA: 0x7FFE8992F650
         public void Awake(){} // RVA: 0x7FFE8992F690
         public void OnDestroy(){} // RVA: 0x7FFE8992FA80
         public void Start(){} // RVA: 0x7FFE8992FAD0
         public void FixedUpdate(){} // RVA: 0x7FFE815BB6A0
-        // ── 14 unresolved (hash) ──
-        public void m_77C(){} // RVA: 0x7FFE815BB1F0
-        public void m_490(){} // RVA: 0x7FFE810FB320
-        public void m_7BE(){} // RVA: 0x7FFE8992E3A0
-        public void m_F8F(){} // RVA: 0x7FFE810FB320
-        public void m_6CA(){} // RVA: 0x7FFE8992E3B0
-        // ... 9 more unresolved methods
+        // ── Unresolved (hash) ──
+        public void m_822(){} // RVA: 0x7FFE86EE8060
+        public void m_D0A(){} // RVA: 0x7FFE8992F670
+        public void m_72A(){} // RVA: 0x7FFE81B38340
+        public void m_918(){} // RVA: 0x7FFE86EE8070
     }
 
     /// <summary>Originally: ÎÎÌÍÏÍÍÍÎÏÎÏÍÎÌÏÎÏÌÏÍÌÎ</summary>
@@ -79,6 +87,7 @@ namespace VRC.Misc
         public void Awake(){} // RVA: 0x7FFE89749720
         public void StartCoroutine_Auto(){} // RVA: 0x7FFE897497F0
         public void StopCoroutine(){} // RVA: 0x7FFE89749FC0
+        public void Refresh(){} // RVA: 0x7FFE8974A2F0
         public void OnEnable(){} // RVA: 0x7FFE8974AC10
         public void Start(){} // RVA: 0x7FFE8974AE60
         public void get_useGUILayout(){} // RVA: 0x7FFE8974B630
@@ -101,6 +110,8 @@ namespace VRC.Misc
         public void OnApplicationQuit_6154D5A9D997(){} // RVA: 0x7FFE8974D6D0
         public void OnBecameVisible(){} // RVA: 0x7FFE8974D810
         public void OnBecameInvisible(){} // RVA: 0x7FFE8974C380
+        public void HandlePlayerJoinedEvent(){} // RVA: 0x7FFE8974D950
+        public void OnDisable_Internal(){} // RVA: 0x7FFE8974DB00
         public void OnCollisionExit(){} // RVA: 0x7FFE8974DD00
         public void OnTriggerEnter(){} // RVA: 0x7FFE8974E050
         public void OnTriggerStay(){} // RVA: 0x7FFE8974E250
@@ -108,11 +119,7 @@ namespace VRC.Misc
         public void HandlePlayerLeftEvent(){} // RVA: 0x7FFE8974E520
         public void OnEnable_D6C3DDA272A8(){} // RVA: 0x7FFE8974E6D0
         public void OnDisable(){} // RVA: 0x7FFE8974E8A0
-        // ── Unresolved (hash) ──
-        public void m_80A(){} // RVA: 0x7FFE8974A2F0
-        public void m_266(){} // RVA: 0x7FFE8974D950
-        public void m_439(){} // RVA: 0x7FFE8974DB00
-        public void m_30F(){} // RVA: 0x7FFE8974F440
+        public void Start_30FAD60A2A1B(){} // RVA: 0x7FFE8974F440
     }
 
 }

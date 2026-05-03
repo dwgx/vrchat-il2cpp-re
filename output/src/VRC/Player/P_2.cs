@@ -1980,21 +1980,20 @@ namespace VRC.Player
         public void op_Implicit(){} // RVA: 0x7FFE810FE0C0
         public void CompareBaseObjects(){} // RVA: 0x7FFE811167C0
         public void IsNativeObjectAlive(){} // RVA: 0x7FFE89E59AC0
-        public void GetCachedPtr(){} // RVA: 0x7FFE8170B670
+        public void GetFirst(){} // RVA: 0x7FFE8170B670
         public void get_name(){} // RVA: 0x7FFE8267BED0
         public void set_name(){} // RVA: 0x7FFE810FE0C0
         public void Instantiate(){} // RVA: 0x7FFE811485C0
         public void GetHashCode(){} // RVA: 0x7FFE8170B670
         public void ToString(){} // RVA: 0x7FFE812EB1B0
+        public void GetChildScaleWidth(){} // RVA: 0x7FFE81348850
+        public void ComputeRectDimensions(){} // RVA: 0x7FFE83BBD0C0
+        public void GetFirst_3B0D206EFEBE(){} // RVA: 0x7FFE82717690
         public void ComputegameObject(){} // RVA: 0x7FFE8164D390
         public void GetChildScaleHeight(){} // RVA: 0x7FFE8151D690
         public void GetLast(){} // RVA: 0x7FFE83BBD0C0
         public void .cctor(){} // RVA: 0x7FFE8170B670
         public void Destroy(){} // RVA: 0x7FFE8151D690
-        // ── Unresolved (hash) ──
-        public void m_60A(){} // RVA: 0x7FFE81348850
-        public void m_323(){} // RVA: 0x7FFE83BBD0C0
-        public void m_3B0(){} // RVA: 0x7FFE82717690
     }
 
     /// <summary>Originally: ÍÌÎÍÎÏÏÌÍÏÍÎÍÎÍÍÌÎÏÍÏÎÌ</summary>
@@ -2013,12 +2012,11 @@ namespace VRC.Player
         public void .ctor(){} // RVA: 0x7FFE82C44270
         public void Initialize(){} // RVA: 0x7FFE826F4220
         public void ToString(){} // RVA: 0x7FFE815BF990
-        // ── Unresolved (hash) ──
-        public void m_976(){} // RVA: 0x7FFE8299FB40
-        public void m_A60(){} // RVA: 0x7FFE8299FB10
-        public void m_EEF(){} // RVA: 0x7FFE826F4210
-        public void m_F51(){} // RVA: 0x7FFE826F4210
-        public void m_A3E(){} // RVA: 0x7FFE8299FB10
+        public void GetDimensions(){} // RVA: 0x7FFE8299FB40
+        public void SetDimensions(){} // RVA: 0x7FFE8299FB10
+        public void ApplyRect(){} // RVA: 0x7FFE826F4210
+        public void GetSize(){} // RVA: 0x7FFE826F4210
+        public void Reset(){} // RVA: 0x7FFE8299FB10
     }
 
     /// <summary>Originally: ÍÌÌÎÏÌÎÏÌÎÍÎÏÏÌÌÌÎÌÍÎÌÎ</summary>
@@ -2164,9 +2162,14 @@ namespace VRC.Player
         public void Invoke(){} // RVA: 0x7FFE81558D50
         public void InvokeRepeating(){} // RVA: 0x7FFE815590F0
         public void OnDisable(){} // RVA: 0x7FFE8155E550 | overloaded x2
+        public void ShowLoadingVisualizer(){} // RVA: 0x7FFE81559750
         public void StartCoroutine(){} // RVA: 0x7FFE81559AF0
+        public void HideLoadingVisualizer(){} // RVA: 0x7FFE8155ADD0
+        public void UpdatePropPlacement(){} // RVA: 0x7FFE8155ADE0
         public void StartCoroutine_Auto(){} // RVA: 0x7FFE8155C0B0
         public void StopCoroutine(){} // RVA: 0x7FFE8155C4A0
+        public void PlacePropAtCursor(){} // RVA: 0x7FFE8155C550
+        public void GetPlacementCursorPosition(){} // RVA: 0x7FFE8155C5D0
         public void StopAllCoroutines(){} // RVA: 0x7FFE8155C860
         public void get_useGUILayout(){} // RVA: 0x7FFE8155CAF0
         public void set_useGUILayout(){} // RVA: 0x7FFE811C3590
@@ -2174,6 +2177,8 @@ namespace VRC.Player
         public void Internal_CancelInvokeAll(){} // RVA: 0x7FFE8155CC10
         public void Internal_IsInvokingAll(){} // RVA: 0x7FFE8155CF30
         public void InvokeDelayed(){} // RVA: 0x7FFE8155D020
+        public void RefreshLoadingState_1EAD67CE248B(){} // RVA: 0x7FFE8155E580 | overloaded x2
+        public void OnLoadingComplete(){} // RVA: 0x7FFE8155D4A0
         public void IsObjectMonoBehaviour(){} // RVA: 0x7FFE8155D670
         public void .cctor(){} // RVA: 0x7FFE8155D7E0
         public void Awake(){} // RVA: 0x7FFE8155DBB0
@@ -2197,13 +2202,13 @@ namespace VRC.Player
         public void OnBecameInvisible(){} // RVA: 0x7FFE81560770
         public void OnDestroy(){} // RVA: 0x7FFE815612E0
         public void OnCollisionEnter(){} // RVA: 0x7FFE81561BA0
-        // ── 36 unresolved (hash) ──
-        public void m_97D(){} // RVA: 0x7FFE81559750
-        public void m_E67(){} // RVA: 0x7FFE8155ADD0
-        public void m_B61(){} // RVA: 0x7FFE8155ADE0
-        public void m_612(){} // RVA: 0x7FFE8155C550
-        public void m_600(){} // RVA: 0x7FFE8155C5D0
-        // ... 31 more unresolved methods
+        // ── 29 unresolved (hash) ──
+        public void m_D27(){} // RVA: 0x7FFE81561490
+        public void m_110(){} // RVA: 0x7FFE815615E0
+        public void m_2CC(){} // RVA: 0x7FFE81561680
+        public void m_CA1(){} // RVA: 0x7FFE81561770
+        public void m_710(){} // RVA: 0x7FFE81561FB0
+        // ... 24 more unresolved methods
     }
 
     /// <summary>Originally: ÍÏÏÌÌÎÌÎÎÌÌÏÏÎÌÏÏÍÌÍÌÌÏ</summary>

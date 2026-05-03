@@ -23,9 +23,9 @@ namespace VRC.Animation
         public object field_12; // 0xA03
 
         // ── Methods ──
-        public void set_DisplayTexture(){} // RVA: 0x7FFE817590E0
-        public void set_IsAnimated(){} // RVA: 0x7FFE810FCE90
+        public void set_IsAnimated(){} // RVA: 0x7FFE817590E0
         public void set_LinearLoop(){} // RVA: 0x7FFE810FCE90
+        public void set_DisplayTexture(){} // RVA: 0x7FFE810FCE90
         public void get_DisplayTexture(){} // RVA: 0x7FFE811290C0
         public void get_IsAnimated(){} // RVA: 0x7FFE81C3B5D0
         public void get_LinearLoop(){} // RVA: 0x7FFE82923250
@@ -33,13 +33,13 @@ namespace VRC.Animation
         public void set_MaskTag(){} // RVA: 0x7FFE810FCE90
         public void .ctor(){} // RVA: 0x7FFE829234C0
         public void get_LoopStyle(){} // RVA: 0x7FFE82923650
-        public void set_IsBuiltIn(){} // RVA: 0x7FFE811290D0
+        public void set_Frames(){} // RVA: 0x7FFE811290D0
         public void get_MaskTag(){} // RVA: 0x7FFE81758DC0
         public void get_Frames(){} // RVA: 0x7FFE81D32810
         public void get_IsBuiltIn(){} // RVA: 0x7FFE810FB320
-        public void set_Frames(){} // RVA: 0x7FFE829236B0
-        public void set_FullResolutionTexture(){} // RVA: 0x7FFE811E0850
-        public void set_FileId(){} // RVA: 0x7FFE82923B10
+        public void set_IsBuiltIn(){} // RVA: 0x7FFE829236B0
+        public void set_FileId(){} // RVA: 0x7FFE811E0850
+        public void set_FullResolutionTexture(){} // RVA: 0x7FFE82923B10
         public void get_FileId(){} // RVA: 0x7FFE81C3B5F0
         public void get_FullResolutionTexture(){} // RVA: 0x7FFE81129130
         public void set_IsSpecialFX(){} // RVA: 0x7FFE81D2ECA0
@@ -167,17 +167,16 @@ namespace VRC.Animation
         public void OnDisable(){} // RVA: 0x7FFE823D3B10
         public void OnBecameInvisible_476F739A1B31(){} // RVA: 0x7FFE823D3C00
         public void OnCollisionEnter_B6631BB1443D(){} // RVA: 0x7FFE823D3E10
+        public void UpdateMotionState(){} // RVA: 0x7FFE823D3F00
         public void GetDomainList(){} // RVA: 0x7FFE823D41C0
+        public void GetCurrentMotion(){} // RVA: 0x7FFE823D4540
         public void .ctor_074153D25E3F(){} // RVA: 0x7FFE823D45A0
         public void FixedUpdate(){} // RVA: 0x7FFE823D46F0
+        public void ApplyMotionTransition(){} // RVA: 0x7FFE823D6250
         public void LateUpdate(){} // RVA: 0x7FFE823D6370
-        // ── Unresolved (hash) ──
-        public void m_1A2(){} // RVA: 0x7FFE823D3F00
-        public void m_1A7(){} // RVA: 0x7FFE823D4540
-        public void m_CCB(){} // RVA: 0x7FFE823D6250
-        public void m_0D7(){} // RVA: 0x7FFE823D68F0
-        public void m_AE3(){} // RVA: 0x7FFE823D6A20
-        public void m_035(){} // RVA: 0x7FFE823D7050
+        public void ResetMotionState(){} // RVA: 0x7FFE823D68F0
+        public void GetMotionDuration(){} // RVA: 0x7FFE823D6A20
+        public void InvokeMotionStateChanged(){} // RVA: 0x7FFE823D7050
     }
 
 }

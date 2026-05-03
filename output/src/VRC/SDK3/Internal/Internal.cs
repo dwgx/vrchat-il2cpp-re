@@ -171,13 +171,12 @@ namespace VRC.SDK3.Internal
         public void set_name(){} // RVA: 0x7FFE82A06510
         public void Instantiate(){} // RVA: 0x7FFE82A065B0
         public void ToString(){} // RVA: 0x7FFE82A06650
-        // ── Unresolved (hash) ──
-        public void m_109(){} // RVA: 0x7FFE82A066F0
-        public void m_E4D(){} // RVA: 0x7FFE82A06780
-        public void m_BEE(){} // RVA: 0x7FFE82A06800
-        public void m_F52(){} // RVA: 0x7FFE82A06880
-        public void m_E2E(){} // RVA: 0x7FFE82A06A00
-        public void m_927(){} // RVA: 0x7FFE82A06C40
+        public void get_IsActive(){} // RVA: 0x7FFE82A066F0
+        public void set_IsActive(){} // RVA: 0x7FFE82A06780
+        public void get_StartDate(){} // RVA: 0x7FFE82A06800
+        public void get_EndDate(){} // RVA: 0x7FFE82A06880
+        public void get_CampaignName(){} // RVA: 0x7FFE82A06A00
+        public void get_CampaignId(){} // RVA: 0x7FFE82A06C40
     }
 
     public class VRCUrlConstructor : Object

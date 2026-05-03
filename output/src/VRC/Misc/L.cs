@@ -58,6 +58,7 @@ namespace VRC.Misc
         public void OnApplicationPause(){} // RVA: 0x7FFE8158D130
         public void .cctor(){} // RVA: 0x7FFE8158D1D0
         public void OnBecameInvisible_CE6C864201C0(){} // RVA: 0x7FFE8158D5D0
+        public void RegisterLight(){} // RVA: 0x7FFE8158D5E0
         public void OnCollisionStay(){} // RVA: 0x7FFE8158D990
         public void VRC.Udon.ClientBindings.Interfaces.IUdonClientInterface.get_DebugLogging_D203CCF0CBFD(){} // RVA: 0x7FFE811662A0
         public void VRC.Udon.Security.Interfaces.IUdonSecurityWhitelist<UnityEngine.Object>.IsWhitelisted(){} // RVA: 0x7FFE8158DD40
@@ -73,11 +74,9 @@ namespace VRC.Misc
         public void FixedUpdate(){} // RVA: 0x7FFE8158D5D0
         public void set_LightReservedLayerMask(){} // RVA: 0x7FFE8158EBE0
         public void LateUpdate(){} // RVA: 0x7FFE8158EC40
+        public void UnregisterLight(){} // RVA: 0x7FFE8158EC50
+        public void UpdateLightSettings(){} // RVA: 0x7FFE8158ED80
         public void get_LightReservedLayerMask(){} // RVA: 0x7FFE8158EDD0
-        // ── Unresolved (hash) ──
-        public void m_598(){} // RVA: 0x7FFE8158D5E0
-        public void m_84F(){} // RVA: 0x7FFE8158EC50
-        public void m_541(){} // RVA: 0x7FFE8158ED80
     }
 
     /// <summary>Originally: ÎÏÍÎÍÎÎÎÍÎÏÎÎÏÏÎÍÍÍÌÏÎÍ</summary>

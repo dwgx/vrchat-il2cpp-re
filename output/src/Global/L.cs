@@ -867,16 +867,21 @@ public class LoadingInfoSet : ScriptableObject
     public void CreateScriptableObject(){} // RVA: 0x7FFE825400B0
     public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x7FFE825404C0
     public void ToString(){} // RVA: 0x7FFE825404F0
+    public void GetLoadingInfo(){} // RVA: 0x7FFE82540570
+    public void SetLoadingInfo(){} // RVA: 0x7FFE82540770
+    public void GetRandomLoadingInfo(){} // RVA: 0x7FFE82540C00
+    public void GetLoadingTip(){} // RVA: 0x7FFE82541470
+    public void GetLoadingImage(){} // RVA: 0x7FFE825414F0
+    public void Reset(){} // RVA: 0x7FFE82541D60
     public void .ctor(){} // RVA: 0x7FFE81345B60
     public void Initialize(){} // RVA: 0x7FFE82541ED0
+    public void OnEnable(){} // RVA: 0x7FFE82542040
+    public void OnDisable(){} // RVA: 0x7FFE825422C0
+    public void GetCount(){} // RVA: 0x7FFE825424C0
     public void Awake(){} // RVA: 0x7FFE82542F40
-    // ── 11 unresolved (hash) ──
-    public void m_FC0(){} // RVA: 0x7FFE82540570
-    public void m_4EE(){} // RVA: 0x7FFE82540770
-    public void m_6BC(){} // RVA: 0x7FFE82540C00
-    public void m_DFC(){} // RVA: 0x7FFE82541470
-    public void m_A9C(){} // RVA: 0x7FFE825414F0
-    // ... 6 more unresolved methods
+    // ── Unresolved (hash) ──
+    public void m_C1D(){} // RVA: 0x7FFE82542B70
+    public void m_E92(){} // RVA: 0x7FFE82542DB0
 }
 
 public class LocalMinima : Object
