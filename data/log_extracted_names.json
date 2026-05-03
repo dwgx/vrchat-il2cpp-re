@@ -1,0 +1,224 @@
+{
+  "log_class_tags": {
+    "Behaviour": 6470,
+    "AssetBundleDownloadManager": 564,
+    "Remote": 532,
+    "EOSManager": 385,
+    "Info": 293,
+    "VisitorsInformationBoard": 205,
+    "SettingsManager": 201,
+    "LogEOS": 195,
+    "Local": 103,
+    "AVProVideo": 81,
+    "UdonBehaviour": 48,
+    "CheckFields": 48,
+    "INFO": 42,
+    "LogEOSAntiCheat": 38,
+    "AntiCheatClient": 38,
+    "YTTL": 36,
+    "SteamVR": 35,
+    "LogEOSAnalytics": 33,
+    "WeatherPanel": 24,
+    "LOADER": 22,
+    "UserInfoLogger": 22,
+    "Boot": 22,
+    "Purchasing": 22,
+    "LoadingScreenManager": 22,
+    "AvatarScalingSettings": 19,
+    "ParseAccessorBuffer": 18,
+    "LogEOSMessaging": 16,
+    "UMoffPen": 16,
+    "DebugUI": 11,
+    "LogEOSOverlay": 11,
+    "AVProMovieCapture": 11,
+    "Warning": 11,
+    "LogHttp": 11,
+    "State": 10,
+    "PortalManager": 10,
+    "TextureManagement": 10,
+    "GetFloatBuffer": 9,
+    "GetFloats": 9,
+    "GetUints": 9,
+    "Added": 8,
+    "Restored": 8,
+    "PlayingMode": 6,
+    "ReturnTrigger": 5,
+    "NN_Time_Key": 4,
+    "PlayingSong": 4,
+    "VRC_Camera": 4,
+    "LoadMesh": 3,
+    "ModerationManager": 3,
+    "AnalysisReport": 3,
+    "VRCItems": 3,
+    "Unchanged": 2,
+    "Yodo": 2,
+    "AudioLink": 1,
+    "ImageLoader": 1,
+    "EconomyStoreManager": 1,
+    "OnEnterWorld": 1,
+    "StickersManager": 1,
+    "OpenVR": 1,
+    "OutOfMemory": 1
+  },
+  "log_class_methods": {
+    "NativeAppAPI": [
+      "ClientDisconnected",
+      "GetAnalyticsSessionId"
+    ],
+    "Profiler": [
+      "GetMonoUsed",
+      "GetTotalAllocated"
+    ],
+    "UdonManager": [
+      "OnSceneLoaded"
+    ],
+    "QvPen": [
+      "Udon"
+    ],
+    "NativeProcess": [
+      "HasExited",
+      "Start"
+    ],
+    "System": [
+      "Boolean",
+      "Byte",
+      "Char",
+      "Collections",
+      "Exception",
+      "Int32",
+      "IntPtr",
+      "Net",
+      "NullReferenceException",
+      "Single",
+      "Span",
+      "String",
+      "Threading",
+      "UInt32"
+    ],
+    "UnityEngine": [
+      "Component",
+      "Event",
+      "EventSystems",
+      "Events",
+      "GameObject",
+      "Quaternion",
+      "RectTransform",
+      "SetupCoroutine",
+      "Vector3"
+    ],
+    "TiharuumSettingManager": [
+      "Load"
+    ],
+    "PoseterManager": [
+      "ShowPoster"
+    ],
+    "BoothPosterScheduler": [
+      "OnStringLoadSuccess"
+    ],
+    "PlayerSet": [
+      "ListenerMethod"
+    ],
+    "Udon": [
+      "Common",
+      "UdonBehaviour",
+      "UdonManager",
+      "Wrapper"
+    ],
+    "Modules": [
+      "ExternUnityEngineCollider"
+    ],
+    "Interfaces": [
+      "IUdonHeap"
+    ],
+    "UdonVM": [
+      "Interpret"
+    ],
+    "TMPro": [
+      "TMP_InputField",
+      "TMP_SubMeshUI"
+    ],
+    "MaskableGraphic": [
+      "OnDisable"
+    ],
+    "MaskUtilities": [
+      "NotifyStencilStateChanged"
+    ],
+    "Image": [
+      "OnDisable"
+    ],
+    "RealisticEyeMovements": [
+      "ControlData",
+      "EyeAndHeadAnimator"
+    ],
+    "Settings": [
+      "LoadFromStorage"
+    ],
+    "AmplitudeSDKWrapper": [
+      "AmplitudeWrapper"
+    ],
+    "Core": [
+      "AnalyticsInterface"
+    ],
+    "Particle": [
+      "Suika",
+      "Suika_piece",
+      "Suika_seed",
+      "Suika_water"
+    ],
+    "Photon": [
+      "Client"
+    ],
+    "Sockets": [
+      "SocketException"
+    ],
+    "ThreadPoolWorkQueue": [
+      "Dispatch"
+    ],
+    "Pipes": [
+      "NamedPipeServerStream",
+      "PipeAccessRights",
+      "PipeDirection",
+      "PipeOptions",
+      "PipeSecurity",
+      "PipeTransmissionMode"
+    ],
+    "EOSSDK": [
+      "PhaseRelease"
+    ],
+    "Tweening": [
+      "Core",
+      "CustomPlugins",
+      "Plugins",
+      "ShortcutExtensions",
+      "Tween",
+      "UpdateType"
+    ],
+    "Enums": [
+      "UpdateMode",
+      "UpdateNotice"
+    ],
+    "TweenManager": [
+      "Update"
+    ],
+    "DOTweenComponent": [
+      "Update"
+    ],
+    "Vector3Plugin": [
+      "EvaluateAndApply"
+    ],
+    "Options": [
+      "NoOptions",
+      "VectorOptions"
+    ],
+    "PureQuaternionPlugin": [
+      "EvaluateAndApply"
+    ],
+    "ExecuteEvents": [
+      "Execute"
+    ],
+    "EventSystem": [
+      "Update"
+    ]
+  },
+  "log_type_mentions": {}
+}
