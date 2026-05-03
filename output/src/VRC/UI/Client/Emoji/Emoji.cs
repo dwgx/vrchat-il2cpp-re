@@ -41,12 +41,12 @@ namespace VRC.UI.Client.Emoji
         public void get_IsPremium(){} // RVA: 0x7FFE810FB320
         public void get_ID(){} // RVA: 0x7FFE810FE7C0
         public void set_ID(){} // RVA: 0x7FFE81A2E140
-        public void set_EffectBundleID(){} // RVA: 0x7FFE81A2E270
+        public void set_IsPremium(){} // RVA: 0x7FFE81A2E270
         public void get_LoopStyle(){} // RVA: 0x7FFE8119C0E0
         public void get_EffectBundleID(){} // RVA: 0x7FFE81A2E2B0
         public void get_SpawnablePrefabName(){} // RVA: 0x7FFE81A2E2F0
         public void set_AnimationStyle(){} // RVA: 0x7FFE81176D60
-        public void set_MaskTag(){} // RVA: 0x7FFE813240E0
+        public void set_EffectBundleID(){} // RVA: 0x7FFE813240E0
         public void get_Sprite(){} // RVA: 0x7FFE81176730
         public void get_MaskTag(){} // RVA: 0x7FFE81199370
         public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7FFE81177330
@@ -54,11 +54,11 @@ namespace VRC.UI.Client.Emoji
         public void set_IsSpecialFX(){} // RVA: 0x7FFE81A2E310
         public void set_Sprite(){} // RVA: 0x7FFE81176740
         public void get_IsSpecialFX(){} // RVA: 0x7FFE810FB320
-        public void set_FileId(){} // RVA: 0x7FFE811C3510
+        public void set_OwnerID(){} // RVA: 0x7FFE811C3510
         public void .ctor(){} // RVA: 0x7FFE81345B60
         public void get_FileId(){} // RVA: 0x7FFE813240E0
         public void get_OwnerID(){} // RVA: 0x7FFE81A2E5F0
-        public void set_OwnerID(){} // RVA: 0x7FFE81A2E630
+        public void set_FPS(){} // RVA: 0x7FFE81A2E630
         public void get_FullResolutionTexture(){} // RVA: 0x7FFE81178740
         public void set_LoopStyle(){} // RVA: 0x7FFE812534D0
         public void get_FPS(){} // RVA: 0x7FFE813240E0
