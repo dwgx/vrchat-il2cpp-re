@@ -7,59 +7,52 @@ namespace ThirdParty.DotNet.System.Timers
 {
     public class ElapsedEventArgs : EventArgs
     {
-        public System.DateTime SignalTime; // 0x10
+        public System.DateTime time; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9394B10
-        public void get_SignalTime(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE8773D240
+        public void get_SignalTime(){} // RVA: 0x7FFE81116380
     }
 
     public class ElapsedEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45B91D0
-        public void Invoke(){} // RVA: 0x7FFAC307D370
+        public void .ctor(){} // RVA: 0x7FFE828867F0
+        public void Invoke(){} // RVA: 0x7FFE81257370
     }
 
     public class Timer : Component
     {
-        public double AutoReset; // 0x28
-        public bool Enabled; // 0x30
-        public bool Site; // 0x31
-        public bool SynchronizingObject; // 0x32
-        public System.Timers.ElapsedEventHandler onIntervalElapsed; // 0x38
-        public bool autoReset; // 0x40
-        public System.ComponentModel.ISynchronizeInvoke synchronizingObject; // 0x48
-        public bool disposed; // 0x50
-        public System.Threading.Timer timer; // 0x58
-        public System.Threading.TimerCallback callback; // 0x60
-        public object cookie; // 0x68
+        public double interval; // 0x28
+        public bool enabled; // 0x30
+        public bool initializing; // 0x31
+        public bool delayedEnable; // 0x32
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9393BB0 | overloaded x2
-        public void set_AutoReset(){} // RVA: 0x7FFAC9393DD0
-        public void set_Enabled(){} // RVA: 0x7FFAC9393E60
-        public void CalculateRoundedInterval(){} // RVA: 0x7FFAC93940A0
-        public void UpdateTimer(){} // RVA: 0x7FFAC9394290
-        public void add_Elapsed(){} // RVA: 0x7FFAC93942E0
-        public void remove_Elapsed(){} // RVA: 0x7FFAC93943D0
-        public void set_Site(){} // RVA: 0x7FFAC93944C0
-        public void get_Site(){} // RVA: 0x7FFAC2F247C0
-        public void get_SynchronizingObject(){} // RVA: 0x7FFAC9394560
-        public void BeginInit(){} // RVA: 0x7FFAC9394720
-        public void Close(){} // RVA: 0x7FFAC9394740
-        public void Dispose(){} // RVA: 0x7FFAC93947F0
-        public void EndInit(){} // RVA: 0x7FFAC9394830
-        public void MyTimerCallback(){} // RVA: 0x7FFAC9394840
+        public void .ctor(){} // RVA: 0x7FFE8773C2E0 | overloaded x2
+        public void set_AutoReset(){} // RVA: 0x7FFE8773C500
+        public void set_Enabled(){} // RVA: 0x7FFE8773C590
+        public void CalculateRoundedInterval(){} // RVA: 0x7FFE8773C7D0
+        public void UpdateTimer(){} // RVA: 0x7FFE8773C9C0
+        public void add_Elapsed(){} // RVA: 0x7FFE8773CA10
+        public void remove_Elapsed(){} // RVA: 0x7FFE8773CB00
+        public void set_Site(){} // RVA: 0x7FFE8773CBF0
+        public void get_Site(){} // RVA: 0x7FFE810FE7C0
+        public void get_SynchronizingObject(){} // RVA: 0x7FFE8773CC90
+        public void BeginInit(){} // RVA: 0x7FFE8773CE50
+        public void Close(){} // RVA: 0x7FFE8773CE70
+        public void Dispose(){} // RVA: 0x7FFE8773CF20
+        public void EndInit(){} // RVA: 0x7FFE8773CF60
+        public void MyTimerCallback(){} // RVA: 0x7FFE8773CF70
     }
 
     public class TimersDescriptionAttribute : DescriptionAttribute
     {
-        public bool Description; // 0x18
+        public bool replaced; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9394A70
-        public void get_Description(){} // RVA: 0x7FFAC9393330
+        public void .ctor(){} // RVA: 0x7FFE8773D1A0
+        public void get_Description(){} // RVA: 0x7FFE8773BA60
     }
 
 }

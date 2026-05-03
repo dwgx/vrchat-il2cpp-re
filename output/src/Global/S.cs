@@ -6,321 +6,251 @@
 public class SCNetworkReachabilityCallback : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC45B4250
-    public void Invoke(){} // RVA: 0x7FFAC307D4E0
+    public void .ctor(){} // RVA: 0x7FFE82880F70
+    public void Invoke(){} // RVA: 0x7FFE812574E0
 }
 
 public class SCNetworkReachabilityContext : ValueType
 {
-    public UIntPtr version; // 0x10
-    public UIntPtr info; // 0x18
-    public UIntPtr retain; // 0x20
-    public UIntPtr release; // 0x28
-    public UIntPtr copyDescription; // 0x30
 }
 
 public class SECURITY_ATTRIBUTES : ValueType
 {
-    public uint nLength; // 0x10
-    public UIntPtr lpSecurityDescriptor; // 0x18
-    public 0x6B0BAB68 bInheritHandle; // 0x20
 }
 
 public class SM2P256V1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC53FA0
-    public void .cctor(){} // RVA: 0x7FFACBC540F0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AD5C0
+    public void .cctor(){} // RVA: 0x7FFE8A0AD710
 }
 
 public class SM2P256V1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBB02D70
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F5C390
 }
 
 public class SMAALuts : Object
 {
-    public UnityEngine.Texture2D area; // 0x10
-    public UnityEngine.Texture2D search; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
 public class SPKey : Object
 {
-    public System.Uri UsesProxy; // 0x10
-    public System.Uri proxy; // 0x18
-    public bool use_connect; // 0x20
+    public System.Uri uri; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC84C0F70
-    public void get_UsesProxy(){} // RVA: 0x7FFAC9309730
-    public void GetHashCode(){} // RVA: 0x7FFAC9309780
-    public void Equals(){} // RVA: 0x7FFAC9309850
+    public void .ctor(){} // RVA: 0x7FFE8686A7A0
+    public void get_UsesProxy(){} // RVA: 0x7FFE876B1E60
+    public void GetHashCode(){} // RVA: 0x7FFE876B1EB0
+    public void Equals(){} // RVA: 0x7FFE876B1F80
 }
 
 public class SR : Object
 {
     // ── Methods ──
-    public void GetString(){} // RVA: 0x7FFAC44F81E0 | overloaded x3
-    public void Format(){} // RVA: 0x7FFAC838C340 | overloaded x4
-    public void GetResourceString(){} // RVA: 0x7FFAC44F81E0
+    public void GetString(){} // RVA: 0x7FFE827C4A80 | overloaded x3
+    public void Format(){} // RVA: 0x7FFE86735C40 | overloaded x4
+    public void GetResourceString(){} // RVA: 0x7FFE827C4A80
 }
 
 public class STOutput : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Prime; // 0x10
-    public byte[] PrimeSeed; // 0x18
-    public int PrimeGenCounter; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger mPrime; // 0x10
+    public byte[] mPrimeSeed; // 0x18
+    public int mPrimeGenCounter; // 0x20
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Prime(){} // RVA: 0x7FFAC2F3C380
-    public void get_PrimeSeed(){} // RVA: 0x7FFAC2F247C0
-    public void get_PrimeGenCounter(){} // RVA: 0x7FFAC30DBBE0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Prime(){} // RVA: 0x7FFE81116380
+    public void get_PrimeSeed(){} // RVA: 0x7FFE810FE7C0
+    public void get_PrimeGenCounter(){} // RVA: 0x7FFE8151D690
 }
 
 public class SYSTEMTIME : ValueType
 {
-    public ushort Year; // 0x10
-    public ushort Month; // 0x12
-    public ushort DayOfWeek; // 0x14
-    public ushort Day; // 0x16
-    public ushort Hour; // 0x18
-    public ushort Minute; // 0x1A
-    public ushort Second; // 0x1C
-    public ushort Milliseconds; // 0x1E
-
     // ── Methods ──
-    public void Equals(){} // RVA: 0x7FFAC838A180
+    public void Equals(){} // RVA: 0x7FFE86733A80
 }
 
 public class SafeDeflateStreamHandle : SafeHandle
 {
-    public object IsInvalid;
-
     // ── Methods ──
-    public void get_IsInvalid(){} // RVA: 0x7FFAC353FA50
-    public void .ctor(){} // RVA: 0x7FFAC83B9EF0
-    public void ReleaseHandle(){} // RVA: 0x7FFAC9461820
+    public void get_IsInvalid(){} // RVA: 0x7FFE81CFE7A0
+    public void .ctor(){} // RVA: 0x7FFE867637F0
+    public void ReleaseHandle(){} // RVA: 0x7FFE87809F60
 }
 
 public class SafeModeOptions : Object
 {
-    public 0x6B26FD00 nestedTweenFailureBehaviour; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
 public class Sample : Object
 {
-    public ulong Timestamp; // 0x10
-    public int ThreadId; // 0x18
-    public int StackId; // 0x1C
-
     // ── Methods ──
-    public void WriteTo(){} // RVA: 0x7FFAC8B74850
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void WriteTo(){} // RVA: 0x7FFE86F1DED0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
 public class SampleFramesHandler : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC411D4B0
-    public void Invoke(){} // RVA: 0x7FFAC307D370
+    public void .ctor(){} // RVA: 0x7FFE823D7070
+    public void Invoke(){} // RVA: 0x7FFE81257370
 }
 
 public class SaveableInventoryGroupData : ValueType
 {
-    public string name;
-    public string[] ids;
 }
 
 public class SavedSearches : Object
 {
-    public System.Collections.Generic.List`1<VRC.DataModel.SearchParameters> Searches; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
 public class Scanbeam : Object
 {
-    public long Y; // 0x10
-    public Scanbeam Next; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
 public class SceneCaptureCompleteData : ValueType
 {
-    public ulong RequestId; // 0x10
-    public int Result; // 0x18
 }
 
 public class SceneCaptureRequestInternal : ValueType
 {
-    public int requestByteCount; // 0x10
-    public string request; // 0x18
 }
 
 public class ScheduledFrameEvent : ValueType
 {
-    public VRC.Udon.Common.Interfaces.IUdonEventReceiver udonEventReceiver; // 0x10
-    public string eventName; // 0x18
-    public long eventFrame; // 0x20
-    public long eventId; // 0x28
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC9E7F630
+    public void .ctor(){} // RVA: 0x7FFE882320C0
 }
 
 public class ScheduledFrameEventComparer : Object
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x7FFAC9E7F770
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void Compare(){} // RVA: 0x7FFE88232200
+    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
 public class ScheduledTimeEvent : ValueType
 {
-    public VRC.Udon.Common.Interfaces.IUdonEventReceiver udonEventReceiver; // 0x10
-    public string eventName; // 0x18
-    public double eventTime; // 0x20
-    public long eventId; // 0x28
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC9E7F570
+    public void .ctor(){} // RVA: 0x7FFE88232000
 }
 
 public class ScheduledTimeEventComparer : Object
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x7FFAC9E7F6F0
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void Compare(){} // RVA: 0x7FFE88232180
+    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
 public class Scheduler : Object
 {
-    public Scheduler Instance;
-    public bool needReSort; // 0x10
-    public System.Collections.Generic.List`1<System.Threading.Timer> list; // 0x18
-    public long current_next_run; // 0x20
-    public System.Threading.ManualResetEvent changed; // 0x28
+    public Scheduler instance;
 
     // ── Methods ──
-    public void InitScheduler(){} // RVA: 0x7FFAC86D7F50
-    public void WakeupScheduler(){} // RVA: 0x7FFAC86D8100
-    public void SchedulerThread(){} // RVA: 0x7FFAC86D8170
-    public void get_Instance(){} // RVA: 0x7FFAC86D83F0
-    public void .ctor(){} // RVA: 0x7FFAC86D8450
-    public void Remove(){} // RVA: 0x7FFAC86D8730
-    public void Change(){} // RVA: 0x7FFAC86D8880
-    public void Add(){} // RVA: 0x7FFAC86D8BB0
-    public void InternalRemove(){} // RVA: 0x7FFAC86D8C90
-    public void TimerCB(){} // RVA: 0x7FFAC86D8CC0
-    public void FireTimer(){} // RVA: 0x7FFAC86D8D40
-    public void RunSchedulerLoop(){} // RVA: 0x7FFAC86D8E10
-    public void .cctor(){} // RVA: 0x7FFAC86D9210
+    public void InitScheduler(){} // RVA: 0x7FFE86A81700
+    public void WakeupScheduler(){} // RVA: 0x7FFE86A818B0
+    public void SchedulerThread(){} // RVA: 0x7FFE86A81920
+    public void get_Instance(){} // RVA: 0x7FFE86A81BA0
+    public void .ctor(){} // RVA: 0x7FFE86A81C00
+    public void Remove(){} // RVA: 0x7FFE86A81EE0
+    public void Change(){} // RVA: 0x7FFE86A82030
+    public void Add(){} // RVA: 0x7FFE86A82360
+    public void InternalRemove(){} // RVA: 0x7FFE86A82440
+    public void TimerCB(){} // RVA: 0x7FFE86A82470
+    public void FireTimer(){} // RVA: 0x7FFE86A824F0
+    public void RunSchedulerLoop(){} // RVA: 0x7FFE86A825C0
+    public void .cctor(){} // RVA: 0x7FFE86A829C0
 }
 
 public class SchemaDatatypeMap : Object
 {
-    public string Name; // 0x10
-    public System.Xml.Schema.DatatypeImplementation ParentIndex; // 0x18
-    public int parentIndex; // 0x20
+    public string name; // 0x10
+    public System.Xml.Schema.DatatypeImplementation type; // 0x18
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0 | overloaded x2
-    public void op_Explicit(){} // RVA: 0x7FFAC38DFDA0
-    public void get_Name(){} // RVA: 0x7FFAC2F3C380
-    public void get_ParentIndex(){} // RVA: 0x7FFAC30DBBE0
-    public void CompareTo(){} // RVA: 0x7FFAC92836A0
+    public void .ctor(){} // RVA: 0x7FFE862265A0 | overloaded x2
+    public void op_Explicit(){} // RVA: 0x7FFE81D7E800
+    public void get_Name(){} // RVA: 0x7FFE81116380
+    public void get_ParentIndex(){} // RVA: 0x7FFE8151D690
+    public void CompareTo(){} // RVA: 0x7FFE8762BE10
 }
 
 public class SchemaScope : Object
 {
-    public 0x6B1CB2D8 CurrentPropertyName; // 0x10
-    public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchemaModel> ArrayItemCount; // 0x18
-    public System.Collections.Generic.Dictionary`2<string,bool> IsUniqueArray; // 0x20
-    public string UniqueArrayItems; // 0x28
-    public int CurrentItemWriter; // 0x30
-    public bool Schemas; // 0x34
-    public System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> RequiredProperties; // 0x38
-    public Newtonsoft.Json.Linq.JTokenWriter TokenType; // 0x40
+    public 0x665C4B9C _tokenType; // 0x10
+    public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchemaModel> _schemas; // 0x18
+    public System.Collections.Generic.Dictionary`2<string,bool> _requiredProperties; // 0x20
+    public string _currentPropertyName; // 0x28
+    public int _arrayItemCount; // 0x30
+    public bool _isUniqueArray; // 0x34
+    public System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> _uniqueArrayItems; // 0x38
+    public Newtonsoft.Json.Linq.JTokenWriter _currentItemWriter; // 0x40
 
     // ── Methods ──
-    public void get_CurrentPropertyName(){} // RVA: 0x7FFAC2F4F130
-    public void set_CurrentPropertyName(){} // RVA: 0x7FFAC2F22E90
-    public void get_ArrayItemCount(){} // RVA: 0x7FFAC2F7CCD0
-    public void set_ArrayItemCount(){} // RVA: 0x7FFAC2F7CCE0
-    public void get_IsUniqueArray(){} // RVA: 0x7FFAC2F57C20
-    public void get_UniqueArrayItems(){} // RVA: 0x7FFAC31D0140
-    public void get_CurrentItemWriter(){} // RVA: 0x7FFAC2F9E740
-    public void set_CurrentItemWriter(){} // RVA: 0x7FFAC2F49200
-    public void get_Schemas(){} // RVA: 0x7FFAC2F247C0
-    public void get_RequiredProperties(){} // RVA: 0x7FFAC2F4F0C0
-    public void get_TokenType(){} // RVA: 0x7FFAC2F6E5C0
-    public void .ctor(){} // RVA: 0x7FFAC8741830
-    public void GetRequiredProperties(){} // RVA: 0x7FFAC8741E50
+    public void get_CurrentPropertyName(){} // RVA: 0x7FFE81129130
+    public void set_CurrentPropertyName(){} // RVA: 0x7FFE810FCE90
+    public void get_ArrayItemCount(){} // RVA: 0x7FFE81156CD0
+    public void set_ArrayItemCount(){} // RVA: 0x7FFE81156CE0
+    public void get_IsUniqueArray(){} // RVA: 0x7FFE81131C20
+    public void get_UniqueArrayItems(){} // RVA: 0x7FFE8143BA80
+    public void get_CurrentItemWriter(){} // RVA: 0x7FFE81178740
+    public void set_CurrentItemWriter(){} // RVA: 0x7FFE81123200
+    public void get_Schemas(){} // RVA: 0x7FFE810FE7C0
+    public void get_RequiredProperties(){} // RVA: 0x7FFE811290C0
+    public void get_TokenType(){} // RVA: 0x7FFE811485C0
+    public void .ctor(){} // RVA: 0x7FFE86AEAFB0
+    public void GetRequiredProperties(){} // RVA: 0x7FFE86AEB5D0
 }
 
 public class SchemeJson : ValueType
 {
-    public string name; // 0x10
-    public string bindingGroup; // 0x18
-    public DeviceJson[] devices; // 0x20
-
     // ── Methods ──
-    public void ToScheme(){} // RVA: 0x7FFAC957A4E0
-    public void ToJson(){} // RVA: 0x7FFAC957AAF0 | overloaded x2
-    public void ToSchemes(){} // RVA: 0x7FFAC957AC60
+    public void ToScheme(){} // RVA: 0x7FFE87922C20
+    public void ToJson(){} // RVA: 0x7FFE87923230 | overloaded x2
+    public void ToSchemes(){} // RVA: 0x7FFE879233A0
 }
 
 public class Scope : Object
 {
-    public Microsoft.Extensions.Logging.LoggerFactoryScopeProvider Parent; // 0x10
-    public bool State; // 0x18
-    public Scope <Parent>k__BackingField; // 0x20
-    public object <State>k__BackingField; // 0x28
+    public Microsoft.Extensions.Logging.LoggerFactoryScopeProvider _provider; // 0x10
+    public bool _isDisposed; // 0x18
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC83423F0
-    public void get_Parent(){} // RVA: 0x7FFAC2F4F0C0
-    public void get_State(){} // RVA: 0x7FFAC2F4F130
-    public void ToString(){} // RVA: 0x7FFAC83424F0
-    public void Dispose(){} // RVA: 0x7FFAC834A1A0
+    public void .ctor(){} // RVA: 0x7FFE866EBCF0
+    public void get_Parent(){} // RVA: 0x7FFE811290C0
+    public void get_State(){} // RVA: 0x7FFE81129130
+    public void ToString(){} // RVA: 0x7FFE866EBDF0
+    public void Dispose(){} // RVA: 0x7FFE866F3AA0
 }
 
 public class ScopeSnapshot : Object
 {
-    public Sentry.SentryOptions _options; // 0x10
-    public System.Collections.Generic.KeyValuePair`2<Sentry.Scope,Sentry.ISentryClient>[] _snapshot; // 0x18
-    public Sentry.Internal.SentryScopeManager _scopeManager; // 0x20
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC3000E00
-    public void Dispose(){} // RVA: 0x7FFAC8BB2D40
+    public void .ctor(){} // RVA: 0x7FFE811DAE00
+    public void Dispose(){} // RVA: 0x7FFE86F5C3C0
 }
 
 public class ScopedProfile : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2F21310
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
 }
 
 public class ScriptRunBehaviourFixedUpdate : ValueType
@@ -354,680 +284,564 @@ public class ScriptRunDelayedTasks : ValueType
 public class ScrollEvent : UnityEvent`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC9C5CC80
+    public void .ctor(){} // RVA: 0x7FFE880054D0
 }
 
 public class ScrollRectEvent : UnityEvent`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC9C63780
+    public void .ctor(){} // RVA: 0x7FFE8800BFD0
 }
 
 public class ScrollerSlider : Slider
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC9B56490
-    public void SliderNormalizeValue(){} // RVA: 0x7FFAC9B56530
+    public void .ctor(){} // RVA: 0x7FFE87EFED30
+    public void SliderNormalizeValue(){} // RVA: 0x7FFE87EFEDD0
 }
 
 public class SealedPrefab : MonoBehaviour
 {
-    public UnityEngine.Object[] allowedToReference; // 0x20
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21D50
+    public void .ctor(){} // RVA: 0x7FFE810FBD50
 }
 
 public class SealedPrefabAllowSerializeAttribute : Attribute
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
+    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
 public class SearchParams : ApiModel
 {
-    public string searchQuery; // 0x68
-    public string searchTags; // 0x70
-    public string searchContent; // 0x78
-    public string searchInFields; // 0x80
-    public string sortBy; // 0x88
+    public string _searchQuery; // 0x68
+    public string _searchTags; // 0x70
+    public string _searchContent; // 0x78
+    public string _searchInFields; // 0x80
+    public string _sortBy; // 0x88
 
     // ── Methods ──
-    public void get_searchQuery(){} // RVA: 0x7FFAC2F9CD50
-    public void set_searchQuery(){} // RVA: 0x7FFAC2F9CD60
-    public void get_searchTags(){} // RVA: 0x7FFAC2FE9590
-    public void set_searchTags(){} // RVA: 0x7FFAC2FE95A0
-    public void get_searchContent(){} // RVA: 0x7FFAC30E5600
-    public void set_searchContent(){} // RVA: 0x7FFAC30E06F0
-    public void get_searchInFields(){} // RVA: 0x7FFAC32EF410
-    public void set_searchInFields(){} // RVA: 0x7FFAC34D4AA0
-    public void get_sortBy(){} // RVA: 0x7FFAC2F60010
-    public void set_sortBy(){} // RVA: 0x7FFAC354E300
-    public void .ctor(){} // RVA: 0x7FFACBE79520
+    public void get_searchQuery(){} // RVA: 0x7FFE81176D50
+    public void set_searchQuery(){} // RVA: 0x7FFE81176D60
+    public void get_searchTags(){} // RVA: 0x7FFE811C3590
+    public void set_searchTags(){} // RVA: 0x7FFE811C35A0
+    public void get_searchContent(){} // RVA: 0x7FFE81463AE0
+    public void set_searchContent(){} // RVA: 0x7FFE81464570
+    public void get_searchInFields(){} // RVA: 0x7FFE81280C30
+    public void set_searchInFields(){} // RVA: 0x7FFE81282380
+    public void get_sortBy(){} // RVA: 0x7FFE8113A010
+    public void set_sortBy(){} // RVA: 0x7FFE81280F90
+    public void .ctor(){} // RVA: 0x7FFE8A2D8370
 }
 
 public class SecP128R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC4F240
-    public void .cctor(){} // RVA: 0x7FFACBC4F3D0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0A8860
+    public void .cctor(){} // RVA: 0x7FFE8A0A89F0
 }
 
 public class SecP128R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP128R1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP128R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBA83D70
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89EDD390
 }
 
 public class SecP160K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC4F470
-    public void .cctor(){} // RVA: 0x7FFACBC4F950
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0A8A90
+    public void .cctor(){} // RVA: 0x7FFE8A0A8F70
 }
 
 public class SecP160K1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160K1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160K1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBA89150
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89EE2770
 }
 
 public class SecP160R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC4F9F0
-    public void .cctor(){} // RVA: 0x7FFACBC4FB80
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0A9010
+    public void .cctor(){} // RVA: 0x7FFE8A0A91A0
 }
 
 public class SecP160R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBA8B4E0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89EE4B00
 }
 
 public class SecP160R2Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC4FC20
-    public void .cctor(){} // RVA: 0x7FFACBC4FDB0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0A9240
+    public void .cctor(){} // RVA: 0x7FFE8A0A93D0
 }
 
 public class SecP160R2LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R2Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R2Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBA90480
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89EE9AA0
 }
 
 public class SecP192K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC4FE50
-    public void .cctor(){} // RVA: 0x7FFACBC50330
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0A9470
+    public void .cctor(){} // RVA: 0x7FFE8A0A9950
 }
 
 public class SecP192K1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192K1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192K1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBA95260
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89EEE880
 }
 
 public class SecP192R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC503D0
-    public void .cctor(){} // RVA: 0x7FFACBC50560
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0A99F0
+    public void .cctor(){} // RVA: 0x7FFE8A0A9B80
 }
 
 public class SecP192R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192R1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBA9A200
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89EF3820
 }
 
 public class SecP224K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC50600
-    public void .cctor(){} // RVA: 0x7FFACBC50AE0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0A9C20
+    public void .cctor(){} // RVA: 0x7FFE8A0AA100
 }
 
 public class SecP224K1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224K1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224K1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBA9EF40
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89EF8560
 }
 
 public class SecP224R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC50B80
-    public void .cctor(){} // RVA: 0x7FFACBC50D10
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AA1A0
+    public void .cctor(){} // RVA: 0x7FFE8A0AA330
 }
 
 public class SecP224R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAA40C0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89EFD6E0
 }
 
 public class SecP256K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC50DB0
-    public void .cctor(){} // RVA: 0x7FFACBC51290
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AA3D0
+    public void .cctor(){} // RVA: 0x7FFE8A0AA8B0
 }
 
 public class SecP256K1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAA9C40
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F03260
 }
 
 public class SecP256R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC51330
-    public void .cctor(){} // RVA: 0x7FFACBC514C0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AA950
+    public void .cctor(){} // RVA: 0x7FFE8A0AAAE0
 }
 
 public class SecP256R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256R1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAAEC80
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F082A0
 }
 
 public class SecP384R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC51560
-    public void .cctor(){} // RVA: 0x7FFACBC516F0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AAB80
+    public void .cctor(){} // RVA: 0x7FFE8A0AAD10
 }
 
 public class SecP384R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP384R1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP384R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAB3AF0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F0D110
 }
 
 public class SecP521R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC51790
-    public void .cctor(){} // RVA: 0x7FFACBC51920
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AADB0
+    public void .cctor(){} // RVA: 0x7FFE8A0AAF40
 }
 
 public class SecP521R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP521R1Curve Size; // 0x10
-    public uint[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP521R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAB9060
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F12680
 }
 
 public class SecT113R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC519C0
-    public void .cctor(){} // RVA: 0x7FFACBC51B50
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AAFE0
+    public void .cctor(){} // RVA: 0x7FFE8A0AB170
 }
 
 public class SecT113R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAC0A80
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F1A0A0
 }
 
 public class SecT113R2Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC51BF0
-    public void .cctor(){} // RVA: 0x7FFACBC51D80
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AB210
+    public void .cctor(){} // RVA: 0x7FFE8A0AB3A0
 }
 
 public class SecT113R2LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R2Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R2Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAC3260
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F1C880
 }
 
 public class SecT131R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC51E20
-    public void .cctor(){} // RVA: 0x7FFACBC51FB0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AB440
+    public void .cctor(){} // RVA: 0x7FFE8A0AB5D0
 }
 
 public class SecT131R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAC8A50
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F22070
 }
 
 public class SecT131R2Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC52050
-    public void .cctor(){} // RVA: 0x7FFACBC521E0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AB670
+    public void .cctor(){} // RVA: 0x7FFE8A0AB800
 }
 
 public class SecT131R2LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R2Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R2Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBACB100
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F24720
 }
 
 public class SecT163K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC52280
-    public void .cctor(){} // RVA: 0x7FFACBC523D0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AB8A0
+    public void .cctor(){} // RVA: 0x7FFE8A0AB9F0
 }
 
 public class SecT163K1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163K1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163K1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAD0450
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F29A70
 }
 
 public class SecT163R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC52470
-    public void .cctor(){} // RVA: 0x7FFACBC52600
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0ABA90
+    public void .cctor(){} // RVA: 0x7FFE8A0ABC20
 }
 
 public class SecT163R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAD29E0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F2C000
 }
 
 public class SecT163R2Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC526A0
-    public void .cctor(){} // RVA: 0x7FFACBC52830
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0ABCC0
+    public void .cctor(){} // RVA: 0x7FFE8A0ABE50
 }
 
 public class SecT163R2LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R2Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R2Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAD5040
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F2E660
 }
 
 public class SecT193R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC528D0
-    public void .cctor(){} // RVA: 0x7FFACBC52A60
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0ABEF0
+    public void .cctor(){} // RVA: 0x7FFE8A0AC080
 }
 
 public class SecT193R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBADA460
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F33A80
 }
 
 public class SecT193R2Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC52B00
-    public void .cctor(){} // RVA: 0x7FFACBC52C90
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AC120
+    public void .cctor(){} // RVA: 0x7FFE8A0AC2B0
 }
 
 public class SecT193R2LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R2Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R2Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBADCB30
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F36150
 }
 
 public class SecT233K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC52D30
-    public void .cctor(){} // RVA: 0x7FFACBC52E80
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AC350
+    public void .cctor(){} // RVA: 0x7FFE8A0AC4A0
 }
 
 public class SecT233K1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233K1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233K1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAE1DC0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F3B3E0
 }
 
 public class SecT233R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC52F20
-    public void .cctor(){} // RVA: 0x7FFACBC530B0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AC540
+    public void .cctor(){} // RVA: 0x7FFE8A0AC6D0
 }
 
 public class SecT233R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233R1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAE4360
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F3D980
 }
 
 public class SecT239K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC53150
-    public void .cctor(){} // RVA: 0x7FFACBC532A0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AC770
+    public void .cctor(){} // RVA: 0x7FFE8A0AC8C0
 }
 
 public class SecT239K1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT239K1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT239K1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAE93B0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F429D0
 }
 
 public class SecT283K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC53340
-    public void .cctor(){} // RVA: 0x7FFACBC53490
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AC960
+    public void .cctor(){} // RVA: 0x7FFE8A0ACAB0
 }
 
 public class SecT283K1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283K1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283K1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAEEDB0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F483D0
 }
 
 public class SecT283R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC53530
-    public void .cctor(){} // RVA: 0x7FFACBC536C0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0ACB50
+    public void .cctor(){} // RVA: 0x7FFE8A0ACCE0
 }
 
 public class SecT283R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283R1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAF13C0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F4A9E0
 }
 
 public class SecT409K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC53760
-    public void .cctor(){} // RVA: 0x7FFACBC538B0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0ACD80
+    public void .cctor(){} // RVA: 0x7FFE8A0ACED0
 }
 
 public class SecT409K1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409K1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409K1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAF64E0
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F4FB00
 }
 
 public class SecT409R1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC53950
-    public void .cctor(){} // RVA: 0x7FFACBC53AE0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0ACF70
+    public void .cctor(){} // RVA: 0x7FFE8A0AD100
 }
 
 public class SecT409R1LookupTable : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Curve Size; // 0x10
-    public ulong[] m_table; // 0x18
-    public int m_size; // 0x20
+    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Curve m_outer; // 0x10
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-    public void get_Size(){} // RVA: 0x7FFAC30DBBE0
-    public void Lookup(){} // RVA: 0x7FFACBAF8980
+    public void .ctor(){} // RVA: 0x7FFE862265A0
+    public void get_Size(){} // RVA: 0x7FFE8151D690
+    public void Lookup(){} // RVA: 0x7FFE89F51FA0
 }
 
 public class SecT571K1Holder : X9ECParametersHolder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAC2F21310
-    public void CreateParameters(){} // RVA: 0x7FFACBC53B80
-    public void .cctor(){} // RVA: 0x7FFACBC53CD0
+    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void CreateParameters(){} // RVA: 0x7FFE8A0AD1A0
+    public void .cctor(){} // RVA: 0x7FFE8A0AD2F0
 }

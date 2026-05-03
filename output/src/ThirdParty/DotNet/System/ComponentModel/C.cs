@@ -7,253 +7,242 @@ namespace ThirdParty.DotNet.System.ComponentModel
 {
     public class CancelEventArgs : EventArgs
     {
-        public bool Cancel; // 0x10
+        public bool _cancel; // 0x10
 
         // ── Methods ──
-        public void get_Cancel(){} // RVA: 0x7FFAC2FEB5E0
-        public void set_Cancel(){} // RVA: 0x7FFAC2FEB5F0
-        public void .ctor(){} // RVA: 0x7FFAC9417740 | overloaded x2
+        public void get_Cancel(){} // RVA: 0x7FFE811C55E0
+        public void set_Cancel(){} // RVA: 0x7FFE811C55F0
+        public void .ctor(){} // RVA: 0x7FFE877BFE70 | overloaded x2
     }
 
     public class CancelEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC5C4D540
-        public void Invoke(){} // RVA: 0x7FFAC307D370
-        public void BeginInvoke(){} // RVA: 0x7FFAC3AD0620
-        public void EndInvoke(){} // RVA: 0x7FFAC2F22CB0
+        public void .ctor(){} // RVA: 0x7FFE83F84C40
+        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void BeginInvoke(){} // RVA: 0x7FFE82886970
+        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
     }
 
     public class CategoryAttribute : Attribute
     {
-        public System.ComponentModel.CategoryAttribute Action;
-        public System.ComponentModel.CategoryAttribute Appearance; // 0x8
-        public System.ComponentModel.CategoryAttribute Asynchronous; // 0x10
-        public System.ComponentModel.CategoryAttribute Behavior; // 0x18
-        public System.ComponentModel.CategoryAttribute Data; // 0x20
-        public System.ComponentModel.CategoryAttribute Default; // 0x28
-        public System.ComponentModel.CategoryAttribute Design; // 0x30
-        public System.ComponentModel.CategoryAttribute DragDrop; // 0x38
-        public System.ComponentModel.CategoryAttribute Focus; // 0x40
-        public System.ComponentModel.CategoryAttribute Format; // 0x48
-        public System.ComponentModel.CategoryAttribute Key; // 0x50
-        public System.ComponentModel.CategoryAttribute Layout; // 0x58
-        public System.ComponentModel.CategoryAttribute Mouse; // 0x60
-        public System.ComponentModel.CategoryAttribute WindowStyle; // 0x68
-        public bool Category; // 0x10
-        public string categoryValue; // 0x18
+        public System.ComponentModel.CategoryAttribute appearance;
+        public System.ComponentModel.CategoryAttribute asynchronous; // 0x8
+        public System.ComponentModel.CategoryAttribute behavior; // 0x10
+        public System.ComponentModel.CategoryAttribute data; // 0x18
+        public System.ComponentModel.CategoryAttribute design; // 0x20
+        public System.ComponentModel.CategoryAttribute action; // 0x28
+        public System.ComponentModel.CategoryAttribute format; // 0x30
+        public System.ComponentModel.CategoryAttribute layout; // 0x38
+        public System.ComponentModel.CategoryAttribute mouse; // 0x40
+        public System.ComponentModel.CategoryAttribute key; // 0x48
+        public System.ComponentModel.CategoryAttribute focus; // 0x50
+        public System.ComponentModel.CategoryAttribute windowStyle; // 0x58
+        public System.ComponentModel.CategoryAttribute dragDrop; // 0x60
+        public System.ComponentModel.CategoryAttribute defAttr; // 0x68
+        public bool localized; // 0x10
 
         // ── Methods ──
-        public void get_Action(){} // RVA: 0x7FFAC9417C40
-        public void get_Appearance(){} // RVA: 0x7FFAC9417DA0
-        public void get_Asynchronous(){} // RVA: 0x7FFAC9417F00
-        public void get_Behavior(){} // RVA: 0x7FFAC9418060
-        public void get_Data(){} // RVA: 0x7FFAC94181C0
-        public void get_Default(){} // RVA: 0x7FFAC9418320
-        public void get_Design(){} // RVA: 0x7FFAC94184A0
-        public void get_DragDrop(){} // RVA: 0x7FFAC9418600
-        public void get_Focus(){} // RVA: 0x7FFAC9418760
-        public void get_Format(){} // RVA: 0x7FFAC94188C0
-        public void get_Key(){} // RVA: 0x7FFAC9418A20
-        public void get_Layout(){} // RVA: 0x7FFAC9418B80
-        public void get_Mouse(){} // RVA: 0x7FFAC9418CE0
-        public void get_WindowStyle(){} // RVA: 0x7FFAC9418E40
-        public void .ctor(){} // RVA: 0x7FFAC416C160 | overloaded x2
-        public void get_Category(){} // RVA: 0x7FFAC9419030
-        public void Equals(){} // RVA: 0x7FFAC94190D0
-        public void GetHashCode(){} // RVA: 0x7FFAC94191F0
-        public void GetLocalizedString(){} // RVA: 0x7FFAC9419230
-        public void IsDefaultAttribute(){} // RVA: 0x7FFAC94195D0
+        public void get_Action(){} // RVA: 0x7FFE877C0370
+        public void get_Appearance(){} // RVA: 0x7FFE877C04D0
+        public void get_Asynchronous(){} // RVA: 0x7FFE877C0630
+        public void get_Behavior(){} // RVA: 0x7FFE877C0790
+        public void get_Data(){} // RVA: 0x7FFE877C08F0
+        public void get_Default(){} // RVA: 0x7FFE877C0A50
+        public void get_Design(){} // RVA: 0x7FFE877C0BD0
+        public void get_DragDrop(){} // RVA: 0x7FFE877C0D30
+        public void get_Focus(){} // RVA: 0x7FFE877C0E90
+        public void get_Format(){} // RVA: 0x7FFE877C0FF0
+        public void get_Key(){} // RVA: 0x7FFE877C1150
+        public void get_Layout(){} // RVA: 0x7FFE877C12B0
+        public void get_Mouse(){} // RVA: 0x7FFE877C1410
+        public void get_WindowStyle(){} // RVA: 0x7FFE877C1570
+        public void .ctor(){} // RVA: 0x7FFE84A50F50 | overloaded x2
+        public void get_Category(){} // RVA: 0x7FFE877C1760
+        public void Equals(){} // RVA: 0x7FFE877C1800
+        public void GetHashCode(){} // RVA: 0x7FFE877C1920
+        public void GetLocalizedString(){} // RVA: 0x7FFE877C1960
+        public void IsDefaultAttribute(){} // RVA: 0x7FFE877C1D00
     }
 
     public class CharConverter : TypeConverter
     {
         // ── Methods ──
-        public void CanConvertFrom(){} // RVA: 0x7FFAC93EC5C0
-        public void ConvertTo(){} // RVA: 0x7FFAC93EC6B0
-        public void ConvertFrom(){} // RVA: 0x7FFAC93EC820
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void CanConvertFrom(){} // RVA: 0x7FFE87794CF0
+        public void ConvertTo(){} // RVA: 0x7FFE87794DE0
+        public void ConvertFrom(){} // RVA: 0x7FFE87794F50
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class CollectionChangeEventArgs : EventArgs
     {
-        public 0x6B133430 Action; // 0x10
-        public object Element; // 0x18
+        public 0x6652C354 _action; // 0x10
+        public object _element; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC93ECA50
-        public void get_Action(){} // RVA: 0x7FFAC2F6E5C0
-        public void get_Element(){} // RVA: 0x7FFAC2F247C0
+        public void .ctor(){} // RVA: 0x7FFE87795180
+        public void get_Action(){} // RVA: 0x7FFE811485C0
+        public void get_Element(){} // RVA: 0x7FFE810FE7C0
     }
 
     public class CollectionChangeEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45B91D0
-        public void Invoke(){} // RVA: 0x7FFAC307D370
-        public void BeginInvoke(){} // RVA: 0x7FFAC3AD0620
-        public void EndInvoke(){} // RVA: 0x7FFAC2F22CB0
+        public void .ctor(){} // RVA: 0x7FFE828867F0
+        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void BeginInvoke(){} // RVA: 0x7FFE82886970
+        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
     }
 
     public class CollectionConverter : TypeConverter
     {
         // ── Methods ──
-        public void ConvertTo(){} // RVA: 0x7FFAC94197B0
-        public void GetProperties(){} // RVA: 0x7FFAC34F9180
-        public void GetPropertiesSupported(){} // RVA: 0x7FFAC2F21320
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void ConvertTo(){} // RVA: 0x7FFE877C1EE0
+        public void GetProperties(){} // RVA: 0x7FFE813240E0
+        public void GetPropertiesSupported(){} // RVA: 0x7FFE810FB320
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class CompModSwitches : Object
     {
-        public System.Diagnostics.BooleanSwitch CommonDesignerServices;
-        public System.Diagnostics.TraceSwitch EventLog; // 0x8
+        public System.Diagnostics.BooleanSwitch commonDesignerServices;
+        public System.Diagnostics.TraceSwitch eventLog; // 0x8
 
         // ── Methods ──
-        public void get_CommonDesignerServices(){} // RVA: 0x7FFAC9419910
-        public void get_EventLog(){} // RVA: 0x7FFAC9419A40
+        public void get_CommonDesignerServices(){} // RVA: 0x7FFE877C2040
+        public void get_EventLog(){} // RVA: 0x7FFE877C2170
     }
 
     public class ComplexBindingPropertiesAttribute : Attribute
     {
-        public string DataSource; // 0x10
-        public string DataMember; // 0x18
-        public System.ComponentModel.ComplexBindingPropertiesAttribute Default;
+        public string _dataSource; // 0x10
+        public string _dataMember; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240 | overloaded x3
-        public void get_DataSource(){} // RVA: 0x7FFAC2F3C380
-        public void get_DataMember(){} // RVA: 0x7FFAC2F247C0
-        public void Equals(){} // RVA: 0x7FFAC93ECB10
-        public void GetHashCode(){} // RVA: 0x7FFAC93E3800
-        public void .cctor(){} // RVA: 0x7FFAC93ECC10
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x3
+        public void get_DataSource(){} // RVA: 0x7FFE81116380
+        public void get_DataMember(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE87795240
+        public void GetHashCode(){} // RVA: 0x7FFE8778BF30
+        public void .cctor(){} // RVA: 0x7FFE87795340
     }
 
     public class Component : MarshalByRefObject
     {
-        public object CanRaiseEvents;
-        public System.ComponentModel.ISite CanRaiseEventsInternal; // 0x18
-        public System.ComponentModel.EventHandlerList Events; // 0x20
+        public object EventDisposed;
+        public System.ComponentModel.ISite site; // 0x18
+        public System.ComponentModel.EventHandlerList events; // 0x20
+        public object Disposed; // 0xD
+        public TM CanRaiseEvents;
+        public string CanRaiseEvents;
 
         // ── Methods ──
-        public void Finalize(){} // RVA: 0x7FFAC9419B70
-        public void get_CanRaiseEvents(){} // RVA: 0x7FFAC3006850
-        public void get_CanRaiseEventsInternal(){} // RVA: 0x7FFAC8D46490
-        public void add_Disposed(){} // RVA: 0x7FFAC9419BC0
-        public void remove_Disposed(){} // RVA: 0x7FFAC9419C50
-        public void get_Events(){} // RVA: 0x7FFAC9419CE0
-        public void get_Site(){} // RVA: 0x7FFAC2F247C0
-        public void set_Site(){} // RVA: 0x7FFAC2F87E80
-        public void Dispose(){} // RVA: 0x7FFAC9419E50 | overloaded x2
-        public void get_Container(){} // RVA: 0x7FFAC941A110
-        public void GetService(){} // RVA: 0x7FFAC941A170
-        public void get_DesignMode(){} // RVA: 0x7FFAC941A1E0
-        public void ToString(){} // RVA: 0x7FFAC941A240
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFAC941A340
+        public void Finalize(){} // RVA: 0x7FFE877C22A0
+        public void get_CanRaiseEvents(){} // RVA: 0x7FFE811E0850
+        public void get_CanRaiseEventsInternal(){} // RVA: 0x7FFE870EE950
+        public void add_Disposed(){} // RVA: 0x7FFE877C22F0
+        public void remove_Disposed(){} // RVA: 0x7FFE877C2380
+        public void get_Events(){} // RVA: 0x7FFE877C2410
+        public void get_Site(){} // RVA: 0x7FFE810FE7C0
+        public void set_Site(){} // RVA: 0x7FFE81161E80
+        public void Dispose(){} // RVA: 0x7FFE877C2580 | overloaded x2
+        public void get_Container(){} // RVA: 0x7FFE877C2840
+        public void GetService(){} // RVA: 0x7FFE877C28A0
+        public void get_DesignMode(){} // RVA: 0x7FFE877C2910
+        public void ToString(){} // RVA: 0x7FFE877C2970
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE877C2A70
     }
 
     public class ComponentCollection : ReadOnlyCollectionBase
     {
-        public object Item;
-        public object Item;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC93E5AF0
-        public void get_Item(){} // RVA: 0x7FFAC93E5E40 | overloaded x2
-        public void CopyTo(){} // RVA: 0x7FFAC85954E0
+        public void .ctor(){} // RVA: 0x7FFE8778E220
+        public void get_Item(){} // RVA: 0x7FFE8778E570 | overloaded x2
+        public void CopyTo(){} // RVA: 0x7FFE8693ECC0
     }
 
     public class ComponentConverter : ReferenceConverter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC941A3F0
-        public void GetProperties(){} // RVA: 0x7FFAC941A490
-        public void GetPropertiesSupported(){} // RVA: 0x7FFAC3006850
+        public void .ctor(){} // RVA: 0x7FFE877C2B20
+        public void GetProperties(){} // RVA: 0x7FFE877C2BC0
+        public void GetPropertiesSupported(){} // RVA: 0x7FFE811E0850
     }
 
     public class ComponentEditor : Object
     {
         // ── Methods ──
-        public void EditComponent(){} // RVA: 0x7FFAC2C5D200 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void EditComponent(){} // RVA: 0x7FFE80E32650 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class ComponentResourceManager : ResourceManager
     {
-        public System.Collections.Hashtable NeutralResourcesCulture; // 0x88
-        public System.Globalization.CultureInfo _neutralResourcesCulture; // 0x90
+        public System.Collections.Hashtable _resourceSets; // 0x88
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC93ECD00 | overloaded x2
-        public void get_NeutralResourcesCulture(){} // RVA: 0x7FFAC93ECD60
-        public void ApplyResources(){} // RVA: 0x7FFAC93ECE70 | overloaded x2
-        public void FillResources(){} // RVA: 0x7FFAC93EDB80
+        public void .ctor(){} // RVA: 0x7FFE87795430 | overloaded x2
+        public void get_NeutralResourcesCulture(){} // RVA: 0x7FFE87795490
+        public void ApplyResources(){} // RVA: 0x7FFE877955A0 | overloaded x2
+        public void FillResources(){} // RVA: 0x7FFE877962B0
     }
 
     public class Container : Object
     {
-        public System.ComponentModel.ISite[] Components; // 0x10
-        public int siteCount; // 0x18
-        public System.ComponentModel.ComponentCollection components; // 0x20
-        public System.ComponentModel.ContainerFilterService filter; // 0x28
-        public bool checkedFilter; // 0x30
-        public object syncObj; // 0x38
+        public System.ComponentModel.ISite[] sites; // 0x10
 
         // ── Methods ──
-        public void Finalize(){} // RVA: 0x7FFAC840E570
-        public void Add(){} // RVA: 0x7FFAC941A4F0 | overloaded x2
-        public void CreateSite(){} // RVA: 0x7FFAC941A980
-        public void Dispose(){} // RVA: 0x7FFAC941AAD0 | overloaded x2
-        public void GetService(){} // RVA: 0x7FFAC941AFA0
-        public void get_Components(){} // RVA: 0x7FFAC941B080
-        public void Remove(){} // RVA: 0x7FFAC941B680 | overloaded x2
-        public void RemoveWithoutUnsiting(){} // RVA: 0x7FFAC941B990
-        public void ValidateName(){} // RVA: 0x7FFAC941B9A0
-        public void .ctor(){} // RVA: 0x7FFAC941BD80
+        public void Finalize(){} // RVA: 0x7FFE867B7E80
+        public void Add(){} // RVA: 0x7FFE877C2C20 | overloaded x2
+        public void CreateSite(){} // RVA: 0x7FFE877C30B0
+        public void Dispose(){} // RVA: 0x7FFE877C3200 | overloaded x2
+        public void GetService(){} // RVA: 0x7FFE877C36D0
+        public void get_Components(){} // RVA: 0x7FFE877C37B0
+        public void Remove(){} // RVA: 0x7FFE877C3DB0 | overloaded x2
+        public void RemoveWithoutUnsiting(){} // RVA: 0x7FFE877C40C0
+        public void ValidateName(){} // RVA: 0x7FFE877C40D0
+        public void .ctor(){} // RVA: 0x7FFE877C44B0
     }
 
     public class ContainerFilterService : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void FilterComponents(){} // RVA: 0x7FFAC3E92FB0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void FilterComponents(){} // RVA: 0x7FFE82153650
     }
 
     public class CultureInfoConverter : TypeConverter
     {
-        public StandardValuesCollection DefaultCultureString; // 0x10
-        public string DefaultInvariantCultureString;
+        public StandardValuesCollection _values; // 0x10
 
         // ── Methods ──
-        public void get_DefaultCultureString(){} // RVA: 0x7FFAC93EE130
-        public void GetCultureName(){} // RVA: 0x7FFAC4439290
-        public void CanConvertFrom(){} // RVA: 0x7FFAC93EE170
-        public void CanConvertTo(){} // RVA: 0x7FFAC93EE260
-        public void ConvertFrom(){} // RVA: 0x7FFAC93EE350
-        public void ConvertTo(){} // RVA: 0x7FFAC93EED80
-        public void GetStandardValues(){} // RVA: 0x7FFAC93EF2A0
-        public void GetStandardValuesExclusive(){} // RVA: 0x7FFAC2F21320
-        public void GetStandardValuesSupported(){} // RVA: 0x7FFAC3006850
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_DefaultCultureString(){} // RVA: 0x7FFE87796860
+        public void GetCultureName(){} // RVA: 0x7FFE8270BA30
+        public void CanConvertFrom(){} // RVA: 0x7FFE877968A0
+        public void CanConvertTo(){} // RVA: 0x7FFE87796990
+        public void ConvertFrom(){} // RVA: 0x7FFE87796A80
+        public void ConvertTo(){} // RVA: 0x7FFE877974B0
+        public void GetStandardValues(){} // RVA: 0x7FFE877979D0
+        public void GetStandardValuesExclusive(){} // RVA: 0x7FFE810FB320
+        public void GetStandardValuesSupported(){} // RVA: 0x7FFE811E0850
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class CustomTypeDescriptor : Object
     {
-        public System.ComponentModel.ICustomTypeDescriptor _parent; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x2
-        public void GetAttributes(){} // RVA: 0x7FFAC93F5A10
-        public void GetClassName(){} // RVA: 0x7FFAC93F5AA0
-        public void GetComponentName(){} // RVA: 0x7FFAC93F5B00
-        public void GetConverter(){} // RVA: 0x7FFAC93F5B60
-        public void GetDefaultEvent(){} // RVA: 0x7FFAC93F5BD0
-        public void GetDefaultProperty(){} // RVA: 0x7FFAC93F5C20
-        public void GetEditor(){} // RVA: 0x7FFAC93F5C70
-        public void GetEvents(){} // RVA: 0x7FFAC93F5D70 | overloaded x2
-        public void GetProperties(){} // RVA: 0x7FFAC93F5EA0 | overloaded x2
-        public void GetPropertyOwner(){} // RVA: 0x7FFAC93F5F40
+        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
+        public void GetAttributes(){} // RVA: 0x7FFE8779E140
+        public void GetClassName(){} // RVA: 0x7FFE8779E1D0
+        public void GetComponentName(){} // RVA: 0x7FFE8779E230
+        public void GetConverter(){} // RVA: 0x7FFE8779E290
+        public void GetDefaultEvent(){} // RVA: 0x7FFE8779E300
+        public void GetDefaultProperty(){} // RVA: 0x7FFE8779E350
+        public void GetEditor(){} // RVA: 0x7FFE8779E3A0
+        public void GetEvents(){} // RVA: 0x7FFE8779E4A0 | overloaded x2
+        public void GetProperties(){} // RVA: 0x7FFE8779E5D0 | overloaded x2
+        public void GetPropertyOwner(){} // RVA: 0x7FFE8779E670
     }
 
 }

@@ -7,20 +7,21 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class GotoExpression : Expression
     {
-        public System.Type Type; // 0x10
-        public System.Linq.Expressions.Expression NodeType; // 0x18
-        public System.Linq.Expressions.LabelTarget Value; // 0x20
-        public 0x6B1EC540 Target; // 0x28
+        public System.Type _type; // 0x10
+        public System.Linq.Expressions.Expression _value; // 0x18
+        public System.Linq.Expressions.LabelTarget _target; // 0x20
+        public 0x665E5E04 _kind; // 0x28
+        public object field_4; // 0x189
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8D90640 | overloaded x2
-        public void get_Type(){} // RVA: 0x7FFAC2F3C380
-        public void get_NodeType(){} // RVA: 0x7FFAC8D90540
-        public void get_Value(){} // RVA: 0x7FFAC2F247C0
-        public void get_Target(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_Kind(){} // RVA: 0x7FFAC32EC4C0
-        public void Accept(){} // RVA: 0x7FFAC8D90550
-        public void Update(){} // RVA: 0x7FFAC8D90580
+        public void .ctor(){} // RVA: 0x7FFE87138A70 | overloaded x2
+        public void get_Type(){} // RVA: 0x7FFE81116380
+        public void get_NodeType(){} // RVA: 0x7FFE87138970
+        public void get_Value(){} // RVA: 0x7FFE810FE7C0
+        public void get_Target(){} // RVA: 0x7FFE811290C0
+        public void get_Kind(){} // RVA: 0x7FFE81549710
+        public void Accept(){} // RVA: 0x7FFE87138980
+        public void Update(){} // RVA: 0x7FFE871389B0
     }
 
 }

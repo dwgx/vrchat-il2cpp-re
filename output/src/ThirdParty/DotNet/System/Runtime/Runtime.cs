@@ -8,25 +8,25 @@ namespace ThirdParty.DotNet.System.Runtime
     public class AmbiguousImplementationException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8462E20 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFE8680C730 | overloaded x3
     }
 
     public class GCSettings : Object
     {
-        public 0x6B0CF460 LargeObjectHeapCompactionMode;
+        public 0x664C8384 _largeObjectHeapCompactionMode;
 
         // ── Methods ──
-        public void set_LargeObjectHeapCompactionMode(){} // RVA: 0x7FFAC8462EA0
+        public void set_LargeObjectHeapCompactionMode(){} // RVA: 0x7FFE8680C7B0
     }
 
     public class RuntimeImports : Object
     {
         // ── Methods ──
-        public void RhZeroMemory(){} // RVA: 0x7FFAC8462EE0
-        public void ZeroMemory(){} // RVA: 0x7FFAC8462EE0
-        public void Memmove(){} // RVA: 0x7FFAC8462EF0
-        public void Memmove_wbarrier(){} // RVA: 0x7FFAC8462F00
-        public void _ecvt_s(){} // RVA: 0x7FFAC8462FF0
+        public void RhZeroMemory(){} // RVA: 0x7FFE8680C7F0
+        public void ZeroMemory(){} // RVA: 0x7FFE8680C7F0
+        public void Memmove(){} // RVA: 0x7FFE8680C800
+        public void Memmove_wbarrier(){} // RVA: 0x7FFE8680C810
+        public void _ecvt_s(){} // RVA: 0x7FFE8680C900
     }
 
 }

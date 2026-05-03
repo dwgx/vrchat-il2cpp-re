@@ -8,8 +8,8 @@ namespace ThirdParty.DotNet.Mono.Net.Security.Private
     public class CallbackHelpers : Object
     {
         // ── Methods ──
-        public void PublicToMono(){} // RVA: 0x7FFAC8E2C6C0
-        public void MonoToInternal(){} // RVA: 0x7FFAC8E2C880
+        public void PublicToMono(){} // RVA: 0x7FFE871D4AF0
+        public void MonoToInternal(){} // RVA: 0x7FFE871D4CB0
     }
 
 }

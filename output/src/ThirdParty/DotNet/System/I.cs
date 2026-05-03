@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 39
-// Methods: 239
+// Methods: 238
 
 namespace ThirdParty.DotNet.System
 {
@@ -13,34 +13,27 @@ namespace ThirdParty.DotNet.System
 
     public class IAsyncResult
     {
-        public object IsCompleted;
-        public object AsyncWaitHandle;
-        public object AsyncState;
-        public object CompletedSynchronously;
-
         // ── Methods ──
-        public void get_IsCompleted(){} // RVA: 0x7FFAC2C59D00
-        public void get_AsyncWaitHandle(){} // RVA: 0x7FFAC2C58E90
-        public void get_AsyncState(){} // RVA: 0x7FFAC2C58E90
-        public void get_CompletedSynchronously(){} // RVA: 0x7FFAC2C59D00
+        public void get_IsCompleted(){} // RVA: 0x7FFE80E2F150
+        public void get_AsyncWaitHandle(){} // RVA: 0x7FFE80E2E2E0
+        public void get_AsyncState(){} // RVA: 0x7FFE80E2E2E0
+        public void get_CompletedSynchronously(){} // RVA: 0x7FFE80E2F150
     }
 
     public class ICloneable
     {
         // ── Methods ──
-        public void Clone(){} // RVA: 0x7FFAC2C58E90
+        public void Clone(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class IComparable
     {
         // ── Methods ──
-        public void CompareTo(){} // RVA: 0x7FFAC2C5E6B0
+        public void CompareTo(){} // RVA: 0x7FFE80E33B00
     }
 
     public class IComparable`1
     {
-        // ── Methods ──
-        public void CompareTo(){} // RVA: 0x7FFAC2C5E6B0
     }
 
     public class IConsoleDriver
@@ -52,151 +45,147 @@ namespace ThirdParty.DotNet.System
     public class IConvertible
     {
         // ── Methods ──
-        public void GetTypeCode(){} // RVA: 0x7FFAC2C59960
-        public void ToBoolean(){} // RVA: 0x7FFAC2C59F60
-        public void ToChar(){} // RVA: 0x7FFAC2C5F5D0
-        public void ToSByte(){} // RVA: 0x7FFAC2C59F60
-        public void ToByte(){} // RVA: 0x7FFAC2C59F60
-        public void ToInt16(){} // RVA: 0x7FFAC2C5F5D0
-        public void ToUInt16(){} // RVA: 0x7FFAC2C5F5D0
-        public void ToInt32(){} // RVA: 0x7FFAC2C5E6B0
-        public void ToUInt32(){} // RVA: 0x7FFAC2C5E6B0
-        public void ToInt64(){} // RVA: 0x7FFAC2C58F40
-        public void ToUInt64(){} // RVA: 0x7FFAC2C58F40
-        public void ToSingle(){} // RVA: 0x7FFAC2C6DF90
-        public void ToDouble(){} // RVA: 0x7FFAC2C5EF00
+        public void GetTypeCode(){} // RVA: 0x7FFE80E2EDB0
+        public void ToBoolean(){} // RVA: 0x7FFE80E2F3B0
+        public void ToChar(){} // RVA: 0x7FFE80E34A20
+        public void ToSByte(){} // RVA: 0x7FFE80E2F3B0
+        public void ToByte(){} // RVA: 0x7FFE80E2F3B0
+        public void ToInt16(){} // RVA: 0x7FFE80E34A20
+        public void ToUInt16(){} // RVA: 0x7FFE80E34A20
+        public void ToInt32(){} // RVA: 0x7FFE80E33B00
+        public void ToUInt32(){} // RVA: 0x7FFE80E33B00
+        public void ToInt64(){} // RVA: 0x7FFE80E2E390
+        public void ToUInt64(){} // RVA: 0x7FFE80E2E390
+        public void ToSingle(){} // RVA: 0x7FFE80E43520
+        public void ToDouble(){} // RVA: 0x7FFE80E34350
         public void ToDecimal(){}
         public void ToDateTime(){}
-        public void ToString(){} // RVA: 0x7FFAC2C58F40
-        public void ToType(){} // RVA: 0x7FFAC2C6A6F0
+        public void ToString(){} // RVA: 0x7FFE80E2E390
+        public void ToType(){} // RVA: 0x7FFE80E3FC10
     }
 
     public class ICustomFormatter
     {
         // ── Methods ──
-        public void Format(){} // RVA: 0x7FFAC2C6AE80
+        public void Format(){} // RVA: 0x7FFE80E403A0
     }
 
     public class IDisposable
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7FFAC2C70980
+        public void Dispose(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){}
+        public void Equals(){} // RVA: 0x7FFE80E2F3B0
     }
 
     public class IFormatProvider
     {
         // ── Methods ──
-        public void GetFormat(){} // RVA: 0x7FFAC2C58F40
+        public void GetFormat(){} // RVA: 0x7FFE80E2E390
     }
 
     public class IFormattable
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAC2C6A6F0
+        public void ToString(){} // RVA: 0x7FFE80E3FC10
     }
 
     public class IOAsyncCallback : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2FA1190
-        public void Invoke(){} // RVA: 0x7FFAC2F7CC60
+        public void .ctor(){} // RVA: 0x7FFE8117B190
+        public void Invoke(){} // RVA: 0x7FFE81156C60
     }
 
     public class IOAsyncResult : Object
     {
-        public System.AsyncCallback AsyncCallback; // 0x10
-        public object AsyncState; // 0x18
-        public System.Threading.ManualResetEvent AsyncWaitHandle; // 0x20
-        public bool CompletedSynchronously; // 0x28
-        public bool IsCompleted; // 0x29
+        public System.AsyncCallback async_callback; // 0x10
+        public object async_state; // 0x18
+        public System.Threading.ManualResetEvent wait_handle; // 0x20
+        public bool completed_synchronously; // 0x28
+        public bool completed; // 0x29
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240 | overloaded x2
-        public void Init(){} // RVA: 0x7FFAC9392D00
-        public void get_AsyncCallback(){} // RVA: 0x7FFAC2F3C380
-        public void get_AsyncState(){} // RVA: 0x7FFAC2F247C0
-        public void get_AsyncWaitHandle(){} // RVA: 0x7FFAC9392DD0
-        public void get_CompletedSynchronously(){} // RVA: 0x7FFAC30F6BA0
-        public void set_CompletedSynchronously(){} // RVA: 0x7FFAC3C24F40
-        public void get_IsCompleted(){} // RVA: 0x7FFAC386C550
-        public void set_IsCompleted(){} // RVA: 0x7FFAC9392FF0
-        public void CompleteDisposed(){} // RVA: 0x7FFAC2C70980
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x2
+        public void Init(){} // RVA: 0x7FFE8773B430
+        public void get_AsyncCallback(){} // RVA: 0x7FFE81116380
+        public void get_AsyncState(){} // RVA: 0x7FFE810FE7C0
+        public void get_AsyncWaitHandle(){} // RVA: 0x7FFE8773B500
+        public void get_CompletedSynchronously(){} // RVA: 0x7FFE815F1380
+        public void set_CompletedSynchronously(){} // RVA: 0x7FFE81C15740
+        public void get_IsCompleted(){} // RVA: 0x7FFE819C2EA0
+        public void set_IsCompleted(){} // RVA: 0x7FFE8773B720
+        public void CompleteDisposed(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class IOSelector : Object
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAC9393170
+        public void Add(){} // RVA: 0x7FFE8773B8A0
     }
 
     public class IOSelectorJob : Object
     {
-        public 0x6B12F700 operation; // 0x10
-        public System.IOAsyncCallback callback; // 0x18
-        public System.IOAsyncResult state; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC5808D30
-        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x7FFAC9393140
-        public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0x7FFAC2F21310
-        public void MarkDisposed(){} // RVA: 0x7FFAC3760180
+        public void .ctor(){} // RVA: 0x7FFE83B45810
+        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x7FFE8773B870
+        public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0x7FFE810FB310
+        public void MarkDisposed(){} // RVA: 0x7FFE81889350
     }
 
     public class IObservable`1
     {
         // ── Methods ──
-        public void Subscribe(){} // RVA: 0x7FFAC2C58F40
+        public void Subscribe(){} // RVA: 0x7FFE80E2E390
     }
 
     public class IObserver`1
     {
         // ── Methods ──
-        public void OnNext(){} // RVA: 0x7FFAC2E8DC40
-        public void OnError(){} // RVA: 0x7FFAC2C70A40
-        public void OnCompleted(){} // RVA: 0x7FFAC2C70980
+        public void OnNext(){} // RVA: 0x7FFE810A1420
+        public void OnError(){} // RVA: 0x7FFE80E460A0
+        public void OnCompleted(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class IProgress`1
     {
         // ── Methods ──
-        public void Report(){} // RVA: 0x7FFAC2E8DC40
+        public void Report(){} // RVA: 0x7FFE810A1420
     }
 
     public class IPv4AddressHelper : Object
     {
         // ── Methods ──
-        public void ParseHostNumber(){} // RVA: 0x7FFAC9386170
-        public void IsValid(){} // RVA: 0x7FFAC9386240
-        public void ParseCanonical(){} // RVA: 0x7FFAC93863D0
-        public void IsValidCanonical(){} // RVA: 0x7FFAC9386460
-        public void ParseNonCanonical(){} // RVA: 0x7FFAC93865A0
-        public void ParseCanonicalName(){} // RVA: 0x7FFAC9386840
-        public void Parse(){} // RVA: 0x7FFAC9386BA0
+        public void ParseHostNumber(){} // RVA: 0x7FFE8772E8A0
+        public void IsValid(){} // RVA: 0x7FFE8772E970
+        public void ParseCanonical(){} // RVA: 0x7FFE8772EB00
+        public void IsValidCanonical(){} // RVA: 0x7FFE8772EB90
+        public void ParseNonCanonical(){} // RVA: 0x7FFE8772ECD0
+        public void ParseCanonicalName(){} // RVA: 0x7FFE8772EF70
+        public void Parse(){} // RVA: 0x7FFE8772F2D0
     }
 
     public class IPv6AddressHelper : Object
     {
         // ── Methods ──
-        public void FindCompressionRange(){} // RVA: 0x7FFAC9386C10
-        public void ShouldHaveIpv4Embedded(){} // RVA: 0x7FFAC9386CF0
-        public void IsValidStrict(){} // RVA: 0x7FFAC9386DD0
-        public void Parse(){} // RVA: 0x7FFAC93871F0
-        public void ParseCanonicalName(){} // RVA: 0x7FFAC9387650
-        public void IsLoopback(){} // RVA: 0x7FFAC9387ED0
-        public void InternalIsValid(){} // RVA: 0x7FFAC9387FA0
-        public void IsValid(){} // RVA: 0x7FFAC9388290
+        public void FindCompressionRange(){} // RVA: 0x7FFE8772F340
+        public void ShouldHaveIpv4Embedded(){} // RVA: 0x7FFE8772F420
+        public void IsValidStrict(){} // RVA: 0x7FFE8772F500
+        public void Parse(){} // RVA: 0x7FFE8772F920
+        public void ParseCanonicalName(){} // RVA: 0x7FFE8772FD80
+        public void IsLoopback(){} // RVA: 0x7FFE87730600
+        public void InternalIsValid(){} // RVA: 0x7FFE877306D0
+        public void IsValid(){} // RVA: 0x7FFE877309C0
     }
 
     public class IServiceProvider
     {
         // ── Methods ──
-        public void GetService(){} // RVA: 0x7FFAC2C58F40
+        public void GetService(){} // RVA: 0x7FFE80E2E390
     }
 
     public class ISpanFormattable
@@ -208,220 +197,196 @@ namespace ThirdParty.DotNet.System
     public class ITupleInternal
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAC2C58F40
+        public void ToString(){} // RVA: 0x7FFE80E2E390
     }
 
     public class IValueTupleInternal
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x7FFAC2C5E6B0
-        public void ToStringEnd(){} // RVA: 0x7FFAC2C58E90
+        public void GetHashCode(){} // RVA: 0x7FFE80E33B00
+        public void ToStringEnd(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class Index : ValueType
     {
-        public int Value; // 0x10
+        public int _value; // 0x10
+        public object field_1; // 0x9A
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC336D8B0 | overloaded x2
-        public void FromStart(){} // RVA: 0x7FFAC862EB70
-        public void get_Value(){} // RVA: 0x7FFAC862EB90
-        public void get_IsFromEnd(){} // RVA: 0x7FFAC862EBA0
-        public void GetOffset(){} // RVA: 0x7FFAC862EBB0
-        public void Equals(){} // RVA: 0x7FFAC4BF7E90 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC4420210
-        public void op_Implicit(){} // RVA: 0x7FFAC862EB70
-        public void ToString(){} // RVA: 0x7FFAC862EC50
-        public void ToStringFromEnd(){} // RVA: 0x7FFAC862ED00
+        public void .ctor(){} // RVA: 0x7FFE815BF990 | overloaded x2
+        public void FromStart(){} // RVA: 0x7FFE869D8340
+        public void get_Value(){} // RVA: 0x7FFE869D8360
+        public void get_IsFromEnd(){} // RVA: 0x7FFE869D8370
+        public void GetOffset(){} // RVA: 0x7FFE869D8380
+        public void Equals(){} // RVA: 0x7FFE82E64890 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE826F4220
+        public void op_Implicit(){} // RVA: 0x7FFE869D8340
+        public void ToString(){} // RVA: 0x7FFE869D8420
+        public void ToStringFromEnd(){} // RVA: 0x7FFE869D84D0
     }
 
     public class IndexOutOfRangeException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
     }
 
     public class InputRecord : ValueType
     {
-        public short EventType; // 0x10
-        public bool KeyDown; // 0x12
-        public short RepeatCount; // 0x14
-        public short VirtualKeyCode; // 0x16
-        public short VirtualScanCode; // 0x18
-        public char Character; // 0x1A
-        public int ControlKeyState; // 0x1C
-        public int pad1; // 0x20
-        public bool pad2; // 0x24
     }
 
     public class InsufficientExecutionStackException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x2
     }
 
     public class Int16 : ValueType
     {
-        public short m_value; // 0x10
-        public short MaxValue;
-        public short MinValue;
-
         // ── Methods ──
-        public void CompareTo(){} // RVA: 0x7FFAC862F060 | overloaded x2
-        public void Equals(){} // RVA: 0x7FFAC850EF20 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC862F100
-        public void ToString(){} // RVA: 0x7FFAC862F270 | overloaded x4
-        public void TryFormat(){} // RVA: 0x7FFAC862F3F0
-        public void Parse(){} // RVA: 0x7FFAC862F7A0 | overloaded x5
-        public void TryParse(){} // RVA: 0x7FFAC862FB00 | overloaded x3
-        public void GetTypeCode(){} // RVA: 0x7FFAC36AE2C0
-        public void System.IConvertible.ToBoolean(){} // RVA: 0x7FFAC862FBD0
-        public void System.IConvertible.ToChar(){} // RVA: 0x7FFAC862FC20
-        public void System.IConvertible.ToSByte(){} // RVA: 0x7FFAC862FCB0
-        public void System.IConvertible.ToByte(){} // RVA: 0x7FFAC862FD50
-        public void System.IConvertible.ToInt16(){} // RVA: 0x7FFAC4AC85D0
-        public void System.IConvertible.ToUInt16(){} // RVA: 0x7FFAC862FDE0
-        public void System.IConvertible.ToInt32(){} // RVA: 0x7FFAC862FE70
-        public void System.IConvertible.ToUInt32(){} // RVA: 0x7FFAC862FEC0
-        public void System.IConvertible.ToInt64(){} // RVA: 0x7FFAC862FF50
-        public void System.IConvertible.ToUInt64(){} // RVA: 0x7FFAC862FFA0
-        public void System.IConvertible.ToSingle(){} // RVA: 0x7FFAC8630030
-        public void System.IConvertible.ToDouble(){} // RVA: 0x7FFAC8630080
-        public void System.IConvertible.ToDecimal(){} // RVA: 0x7FFAC86300D0
-        public void System.IConvertible.ToDateTime(){} // RVA: 0x7FFAC86301A0
-        public void System.IConvertible.ToType(){} // RVA: 0x7FFAC8630230
+        public void CompareTo(){} // RVA: 0x7FFE869D8830 | overloaded x2
+        public void Equals(){} // RVA: 0x7FFE868B8720 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE869D88D0
+        public void ToString(){} // RVA: 0x7FFE869D8A40 | overloaded x4
+        public void TryFormat(){} // RVA: 0x7FFE869D8BC0
+        public void Parse(){} // RVA: 0x7FFE869D8F70 | overloaded x5
+        public void TryParse(){} // RVA: 0x7FFE869D92D0 | overloaded x3
+        public void GetTypeCode(){} // RVA: 0x7FFE817F39D0
+        public void System.IConvertible.ToBoolean(){} // RVA: 0x7FFE869D93A0
+        public void System.IConvertible.ToChar(){} // RVA: 0x7FFE869D93F0
+        public void System.IConvertible.ToSByte(){} // RVA: 0x7FFE869D9480
+        public void System.IConvertible.ToByte(){} // RVA: 0x7FFE869D9520
+        public void System.IConvertible.ToInt16(){} // RVA: 0x7FFE82D33010
+        public void System.IConvertible.ToUInt16(){} // RVA: 0x7FFE869D95B0
+        public void System.IConvertible.ToInt32(){} // RVA: 0x7FFE869D9640
+        public void System.IConvertible.ToUInt32(){} // RVA: 0x7FFE869D9690
+        public void System.IConvertible.ToInt64(){} // RVA: 0x7FFE869D9720
+        public void System.IConvertible.ToUInt64(){} // RVA: 0x7FFE869D9770
+        public void System.IConvertible.ToSingle(){} // RVA: 0x7FFE869D9800
+        public void System.IConvertible.ToDouble(){} // RVA: 0x7FFE869D9850
+        public void System.IConvertible.ToDecimal(){} // RVA: 0x7FFE869D98A0
+        public void System.IConvertible.ToDateTime(){} // RVA: 0x7FFE869D9970
+        public void System.IConvertible.ToType(){} // RVA: 0x7FFE869D9A00
     }
 
     public class Int32 : ValueType
     {
-        public int m_value; // 0x10
-        public int MaxValue;
-        public int MinValue;
-
         // ── Methods ──
-        public void CompareTo(){} // RVA: 0x7FFAC4BF78F0 | overloaded x2
-        public void Equals(){} // RVA: 0x7FFAC4BF7E90 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC4420210
-        public void ToString(){} // RVA: 0x7FFAC8630650 | overloaded x4
-        public void TryFormat(){} // RVA: 0x7FFAC8630720
-        public void Parse(){} // RVA: 0x7FFAC8630B10 | overloaded x5
-        public void TryParse(){} // RVA: 0x7FFAC8630D80 | overloaded x3
-        public void GetTypeCode(){} // RVA: 0x7FFAC41E44C0
-        public void System.IConvertible.ToBoolean(){} // RVA: 0x7FFAC8630E30
-        public void System.IConvertible.ToChar(){} // RVA: 0x7FFAC8630E80
-        public void System.IConvertible.ToSByte(){} // RVA: 0x7FFAC8630F10
-        public void System.IConvertible.ToByte(){} // RVA: 0x7FFAC8630FA0
-        public void System.IConvertible.ToInt16(){} // RVA: 0x7FFAC8631030
-        public void System.IConvertible.ToUInt16(){} // RVA: 0x7FFAC86310C0
-        public void System.IConvertible.ToInt32(){} // RVA: 0x7FFAC4420210
-        public void System.IConvertible.ToUInt32(){} // RVA: 0x7FFAC8631150
-        public void System.IConvertible.ToInt64(){} // RVA: 0x7FFAC86311E0
-        public void System.IConvertible.ToUInt64(){} // RVA: 0x7FFAC8631230
-        public void System.IConvertible.ToSingle(){} // RVA: 0x7FFAC86312C0
-        public void System.IConvertible.ToDouble(){} // RVA: 0x7FFAC8631310
-        public void System.IConvertible.ToDecimal(){} // RVA: 0x7FFAC8631360
-        public void System.IConvertible.ToDateTime(){} // RVA: 0x7FFAC8631420
-        public void System.IConvertible.ToType(){} // RVA: 0x7FFAC86314B0
+        public void CompareTo(){} // RVA: 0x7FFE82E642F0 | overloaded x2
+        public void Equals(){} // RVA: 0x7FFE82E64890 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE826F4220
+        public void ToString(){} // RVA: 0x7FFE869D9E20 | overloaded x4
+        public void TryFormat(){} // RVA: 0x7FFE869D9EF0
+        public void Parse(){} // RVA: 0x7FFE869DA2E0 | overloaded x5
+        public void TryParse(){} // RVA: 0x7FFE869DA550 | overloaded x3
+        public void GetTypeCode(){} // RVA: 0x7FFE8249F650
+        public void System.IConvertible.ToBoolean(){} // RVA: 0x7FFE869DA600
+        public void System.IConvertible.ToChar(){} // RVA: 0x7FFE869DA650
+        public void System.IConvertible.ToSByte(){} // RVA: 0x7FFE869DA6E0
+        public void System.IConvertible.ToByte(){} // RVA: 0x7FFE869DA770
+        public void System.IConvertible.ToInt16(){} // RVA: 0x7FFE869DA800
+        public void System.IConvertible.ToUInt16(){} // RVA: 0x7FFE869DA890
+        public void System.IConvertible.ToInt32(){} // RVA: 0x7FFE826F4220
+        public void System.IConvertible.ToUInt32(){} // RVA: 0x7FFE869DA920
+        public void System.IConvertible.ToInt64(){} // RVA: 0x7FFE869DA9B0
+        public void System.IConvertible.ToUInt64(){} // RVA: 0x7FFE869DAA00
+        public void System.IConvertible.ToSingle(){} // RVA: 0x7FFE869DAA90
+        public void System.IConvertible.ToDouble(){} // RVA: 0x7FFE869DAAE0
+        public void System.IConvertible.ToDecimal(){} // RVA: 0x7FFE869DAB30
+        public void System.IConvertible.ToDateTime(){} // RVA: 0x7FFE869DABF0
+        public void System.IConvertible.ToType(){} // RVA: 0x7FFE869DAC80
     }
 
     public class Int64 : ValueType
     {
-        public long m_value; // 0x10
-        public long MaxValue;
-        public long MinValue;
-
         // ── Methods ──
-        public void CompareTo(){} // RVA: 0x7FFAC8631640 | overloaded x2
-        public void Equals(){} // RVA: 0x7FFAC5E861F0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC86316F0
-        public void ToString(){} // RVA: 0x7FFAC8631910 | overloaded x4
-        public void TryFormat(){} // RVA: 0x7FFAC86319E0
-        public void Parse(){} // RVA: 0x7FFAC8631CF0 | overloaded x4
-        public void TryParse(){} // RVA: 0x7FFAC8631EB0 | overloaded x2
-        public void GetTypeCode(){} // RVA: 0x7FFAC8631FB0
-        public void System.IConvertible.ToBoolean(){} // RVA: 0x7FFAC8631FC0
-        public void System.IConvertible.ToChar(){} // RVA: 0x7FFAC8632010
-        public void System.IConvertible.ToSByte(){} // RVA: 0x7FFAC86320A0
-        public void System.IConvertible.ToByte(){} // RVA: 0x7FFAC8632130
-        public void System.IConvertible.ToInt16(){} // RVA: 0x7FFAC86321C0
-        public void System.IConvertible.ToUInt16(){} // RVA: 0x7FFAC8632250
-        public void System.IConvertible.ToInt32(){} // RVA: 0x7FFAC86322E0
-        public void System.IConvertible.ToUInt32(){} // RVA: 0x7FFAC8632380
-        public void System.IConvertible.ToInt64(){} // RVA: 0x7FFAC3AD9F60
-        public void System.IConvertible.ToUInt64(){} // RVA: 0x7FFAC8632410
-        public void System.IConvertible.ToSingle(){} // RVA: 0x7FFAC86324A0
-        public void System.IConvertible.ToDouble(){} // RVA: 0x7FFAC86324F0
-        public void System.IConvertible.ToDecimal(){} // RVA: 0x7FFAC8632540
-        public void System.IConvertible.ToDateTime(){} // RVA: 0x7FFAC8632610
-        public void System.IConvertible.ToType(){} // RVA: 0x7FFAC86326A0
+        public void CompareTo(){} // RVA: 0x7FFE869DAE10 | overloaded x2
+        public void Equals(){} // RVA: 0x7FFE841BEBF0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE869DAEC0
+        public void ToString(){} // RVA: 0x7FFE869DB0E0 | overloaded x4
+        public void TryFormat(){} // RVA: 0x7FFE869DB1B0
+        public void Parse(){} // RVA: 0x7FFE869DB4C0 | overloaded x4
+        public void TryParse(){} // RVA: 0x7FFE869DB680 | overloaded x2
+        public void GetTypeCode(){} // RVA: 0x7FFE869DB780
+        public void System.IConvertible.ToBoolean(){} // RVA: 0x7FFE869DB790
+        public void System.IConvertible.ToChar(){} // RVA: 0x7FFE869DB7E0
+        public void System.IConvertible.ToSByte(){} // RVA: 0x7FFE869DB870
+        public void System.IConvertible.ToByte(){} // RVA: 0x7FFE869DB900
+        public void System.IConvertible.ToInt16(){} // RVA: 0x7FFE869DB990
+        public void System.IConvertible.ToUInt16(){} // RVA: 0x7FFE869DBA20
+        public void System.IConvertible.ToInt32(){} // RVA: 0x7FFE869DBAB0
+        public void System.IConvertible.ToUInt32(){} // RVA: 0x7FFE869DBB50
+        public void System.IConvertible.ToInt64(){} // RVA: 0x7FFE8284EF60
+        public void System.IConvertible.ToUInt64(){} // RVA: 0x7FFE869DBBE0
+        public void System.IConvertible.ToSingle(){} // RVA: 0x7FFE869DBC70
+        public void System.IConvertible.ToDouble(){} // RVA: 0x7FFE869DBCC0
+        public void System.IConvertible.ToDecimal(){} // RVA: 0x7FFE869DBD10
+        public void System.IConvertible.ToDateTime(){} // RVA: 0x7FFE869DBDE0
+        public void System.IConvertible.ToType(){} // RVA: 0x7FFE869DBE70
     }
 
     public class IntPtr : ValueType
     {
-        public void* Size; // 0x10
-        public UIntPtr Zero;
+        public void* m_value; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC869D520 | overloaded x4
-        public void get_Size(){} // RVA: 0x7FFAC3ED8E80
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAC869D580
-        public void Equals(){} // RVA: 0x7FFAC869D620
-        public void GetHashCode(){} // RVA: 0x7FFAC4420210
-        public void ToInt32(){} // RVA: 0x7FFAC4420210
-        public void ToInt64(){} // RVA: 0x7FFAC51D9A30
-        public void ToPointer(){} // RVA: 0x7FFAC3AD9F60
-        public void ToString(){} // RVA: 0x7FFAC869D740 | overloaded x2
-        public void op_Equality(){} // RVA: 0x7FFAC530B460
-        public void op_Inequality(){} // RVA: 0x7FFAC8650B50
-        public void op_Explicit(){} // RVA: 0x7FFAC44F81E0 | overloaded x6
-        public void Add(){} // RVA: 0x7FFAC530B340
-        public void op_Addition(){} // RVA: 0x7FFAC530B340
-        public void op_Subtraction(){} // RVA: 0x7FFAC869D810
-        public void IsNull(){} // RVA: 0x7FFAC484C2F0
-        public void System.IEquatable<System.IntPtr>.Equals(){} // RVA: 0x7FFAC5E861F0
+        public void .ctor(){} // RVA: 0x7FFE86A46D30 | overloaded x4
+        public void get_Size(){} // RVA: 0x7FFE82199910
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE86A46D90
+        public void Equals(){} // RVA: 0x7FFE86A46E30
+        public void GetHashCode(){} // RVA: 0x7FFE826F4220
+        public void ToInt32(){} // RVA: 0x7FFE826F4220
+        public void ToInt64(){} // RVA: 0x7FFE8348B260
+        public void ToPointer(){} // RVA: 0x7FFE8284EF60
+        public void ToString(){} // RVA: 0x7FFE86A46F50 | overloaded x2
+        public void op_Equality(){} // RVA: 0x7FFE835C1CA0
+        public void op_Inequality(){} // RVA: 0x7FFE869FA340
+        public void op_Explicit(){} // RVA: 0x7FFE827C4A80 | overloaded x6
+        public void Add(){} // RVA: 0x7FFE835C1B80
+        public void op_Addition(){} // RVA: 0x7FFE835C1B80
+        public void op_Subtraction(){} // RVA: 0x7FFE86A47020
+        public void IsNull(){} // RVA: 0x7FFE82AB4690
+        public void System.IEquatable<System.IntPtr>.Equals(){} // RVA: 0x7FFE841BEBF0
     }
 
     public class InvalidCastException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x4
     }
 
     public class InvalidOperationException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x4
     }
 
     public class InvalidProgramException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
     }
 
     public class InvalidTimeZoneException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC86329F0 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFE869DC1C0 | overloaded x4
     }
 
     public class InvariantComparer : Object
     {
-        public System.Globalization.CompareInfo m_compareInfo; // 0x10
-        public System.InvariantComparer Default;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC938B7B0
-        public void Compare(){} // RVA: 0x7FFAC938B8B0
-        public void .cctor(){} // RVA: 0x7FFAC938B9B0
+        public void .ctor(){} // RVA: 0x7FFE87733EE0
+        public void Compare(){} // RVA: 0x7FFE87733FE0
+        public void .cctor(){} // RVA: 0x7FFE877340E0
     }
 
     public class IriHelper : Object
     {
         // ── Methods ──
-        public void CheckIriUnicodeRange(){} // RVA: 0x7FFAC938BBB0 | overloaded x2
-        public void CheckIsReserved(){} // RVA: 0x7FFAC938C7B0
-        public void EscapeUnescapeIri(){} // RVA: 0x7FFAC938C8E0
+        public void CheckIriUnicodeRange(){} // RVA: 0x7FFE877342E0 | overloaded x2
+        public void CheckIsReserved(){} // RVA: 0x7FFE87734EE0
+        public void EscapeUnescapeIri(){} // RVA: 0x7FFE87735010
     }
 
 }

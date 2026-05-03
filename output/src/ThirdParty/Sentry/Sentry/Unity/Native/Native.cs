@@ -8,67 +8,60 @@ namespace ThirdParty.Sentry.Sentry.Unity.Native
     public class NativeContextWriter : ContextWriter
     {
         // ── Methods ──
-        public void WriteScope(){} // RVA: 0x7FFAC8B22D60
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void WriteScope(){} // RVA: 0x7FFE86ECC3D0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class NativeScopeObserver : ScopeObserver
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8B23140
-        public void AddBreadcrumbImpl(){} // RVA: 0x7FFAC8B23230
-        public void SetExtraImpl(){} // RVA: 0x7FFAC8B23540
-        public void SetTagImpl(){} // RVA: 0x7FFAC8B236B0
-        public void UnsetTagImpl(){} // RVA: 0x7FFAC8B237B0
-        public void SetUserImpl(){} // RVA: 0x7FFAC8B23880
-        public void UnsetUserImpl(){} // RVA: 0x7FFAC8B23B40
-        public void GetTimestamp(){} // RVA: 0x7FFAC8B23BE0
+        public void .ctor(){} // RVA: 0x7FFE86ECC7B0
+        public void AddBreadcrumbImpl(){} // RVA: 0x7FFE86ECC8A0
+        public void SetExtraImpl(){} // RVA: 0x7FFE86ECCBB0
+        public void SetTagImpl(){} // RVA: 0x7FFE86ECCD20
+        public void UnsetTagImpl(){} // RVA: 0x7FFE86ECCE20
+        public void SetUserImpl(){} // RVA: 0x7FFE86ECCEF0
+        public void UnsetUserImpl(){} // RVA: 0x7FFE86ECD1B0
+        public void GetTimestamp(){} // RVA: 0x7FFE86ECD250
     }
 
     public class SentryNative : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,bool> PerDirectoryCrashInfo;
-        public bool ShouldReinstallBackend; // 0x8
-        public Sentry.Extensibility.IDiagnosticLogger Logger; // 0x10
-
         // ── Methods ──
-        public void Configure(){} // RVA: 0x7FFAC8B23C50
-        public void ReinstallBackend(){} // RVA: 0x7FFAC8B247C0
-        public void .cctor(){} // RVA: 0x7FFAC8B24980
+        public void Configure(){} // RVA: 0x7FFE86ECD2C0
+        public void ReinstallBackend(){} // RVA: 0x7FFE86ECDE30
+        public void .cctor(){} // RVA: 0x7FFE86ECDFF0
     }
 
     public class SentryNativeBridge : Object
     {
-        public Sentry.Extensibility.IDiagnosticLogger _logger;
-        public bool _isLinux; // 0x8
-
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFAC8B24BE0
-        public void Close(){} // RVA: 0x7FFAC8B25840
-        public void HandleCrashedLastRun(){} // RVA: 0x7FFAC8B258B0
-        public void GetCacheDirectory(){} // RVA: 0x7FFAC8B25990
-        public void ReinstallBackend(){} // RVA: 0x7FFAC8B25A60
-        public void sentry_options_new(){} // RVA: 0x7FFAC8B25AD0
-        public void sentry_options_set_dsn(){} // RVA: 0x7FFAC8B25B40
-        public void sentry_options_set_release(){} // RVA: 0x7FFAC8B25BF0
-        public void sentry_options_set_debug(){} // RVA: 0x7FFAC8B25CA0
-        public void sentry_options_set_environment(){} // RVA: 0x7FFAC8B25D30
-        public void sentry_options_set_sample_rate(){} // RVA: 0x7FFAC8B25DE0
-        public void sentry_options_set_database_path(){} // RVA: 0x7FFAC8B25E70
-        public void sentry_options_set_database_pathw(){} // RVA: 0x7FFAC8B25F20
-        public void sentry_options_set_auto_session_tracking(){} // RVA: 0x7FFAC8B25FC0
-        public void sentry_options_set_logger(){} // RVA: 0x7FFAC8B26050
-        public void nativeLog(){} // RVA: 0x7FFAC8B260F0
-        public void nativeLogImpl(){} // RVA: 0x7FFAC8B26110
-        public void vsnprintf_windows(){} // RVA: 0x7FFAC8B26850
-        public void vsnprintf_linux(){} // RVA: 0x7FFAC8B26900
-        public void WithAllocatedPtr(){} // RVA: 0x7FFAC8B269B0
-        public void WithMarshalledStruct(){} // RVA: 0x7FFAC2E8DC40
-        public void sentry_init(){} // RVA: 0x7FFAC8B26AE0
-        public void sentry_close(){} // RVA: 0x7FFAC8B25840
-        public void sentry_get_crashed_last_run(){} // RVA: 0x7FFAC8B26B60
-        public void sentry_clear_crashed_last_run(){} // RVA: 0x7FFAC8B26BD0
-        public void sentry_reinstall_backend(){} // RVA: 0x7FFAC8B25A60
+        public void Init(){} // RVA: 0x7FFE86ECE250
+        public void Close(){} // RVA: 0x7FFE86ECEEB0
+        public void HandleCrashedLastRun(){} // RVA: 0x7FFE86ECEF20
+        public void GetCacheDirectory(){} // RVA: 0x7FFE86ECF000
+        public void ReinstallBackend(){} // RVA: 0x7FFE86ECF0D0
+        public void sentry_options_new(){} // RVA: 0x7FFE86ECF140
+        public void sentry_options_set_dsn(){} // RVA: 0x7FFE86ECF1B0
+        public void sentry_options_set_release(){} // RVA: 0x7FFE86ECF260
+        public void sentry_options_set_debug(){} // RVA: 0x7FFE86ECF310
+        public void sentry_options_set_environment(){} // RVA: 0x7FFE86ECF3A0
+        public void sentry_options_set_sample_rate(){} // RVA: 0x7FFE86ECF450
+        public void sentry_options_set_database_path(){} // RVA: 0x7FFE86ECF4E0
+        public void sentry_options_set_database_pathw(){} // RVA: 0x7FFE86ECF590
+        public void sentry_options_set_auto_session_tracking(){} // RVA: 0x7FFE86ECF630
+        public void sentry_options_set_logger(){} // RVA: 0x7FFE86ECF6C0
+        public void nativeLog(){} // RVA: 0x7FFE86ECF760
+        public void nativeLogImpl(){} // RVA: 0x7FFE86ECF780
+        public void vsnprintf_windows(){} // RVA: 0x7FFE86ECFEC0
+        public void vsnprintf_linux(){} // RVA: 0x7FFE86ECFF70
+        public void WithAllocatedPtr(){} // RVA: 0x7FFE86ED0020
+        public void WithMarshalledStruct(){} // RVA: 0x7FFE810A1420
+        public void sentry_init(){} // RVA: 0x7FFE86ED0150
+        public void sentry_close(){} // RVA: 0x7FFE86ECEEB0
+        public void sentry_get_crashed_last_run(){} // RVA: 0x7FFE86ED01D0
+        public void sentry_clear_crashed_last_run(){} // RVA: 0x7FFE86ED0240
+        public void sentry_reinstall_backend(){} // RVA: 0x7FFE86ECF0D0
     }
 
 }

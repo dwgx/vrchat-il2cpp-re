@@ -7,45 +7,47 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class Oid : Object
     {
-        public string Value; // 0x10
-        public string FriendlyName; // 0x18
-        public 0x6B131648 _group; // 0x20
+        public string _value; // 0x10
+        public string _friendlyName; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC7E02DD0 | overloaded x5
-        public void FromOidValue(){} // RVA: 0x7FFAC93CA720
-        public void get_Value(){} // RVA: 0x7FFAC2F3C380
-        public void set_Value(){} // RVA: 0x7FFAC2F22E30
-        public void get_FriendlyName(){} // RVA: 0x7FFAC93CA910
+        public void .ctor(){} // RVA: 0x7FFE862265A0 | overloaded x5
+        public void FromOidValue(){} // RVA: 0x7FFE87772E50
+        public void get_Value(){} // RVA: 0x7FFE81116380
+        public void set_Value(){} // RVA: 0x7FFE810FCE30
+        public void get_FriendlyName(){} // RVA: 0x7FFE87773040
     }
 
     public class OidCollection : Object
     {
-        public System.Collections.Generic.List`1<System.Security.Cryptography.Oid> Item; // 0x10
+        public System.Collections.Generic.List`1<System.Security.Cryptography.Oid> _list; // 0x10
+        public object field_1; // 0x141
+        public object field_2; // 0x142
+        public object field_3; // 0x143
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC93CA9F0
-        public void Add(){} // RVA: 0x7FFAC93CAAB0
-        public void get_Item(){} // RVA: 0x7FFAC93CAB80
-        public void get_Count(){} // RVA: 0x7FFAC93CAC00
-        public void GetEnumerator(){} // RVA: 0x7FFAC93CAC50
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAC93CACF0
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7FFAC93CAD00
-        public void get_IsSynchronized(){} // RVA: 0x7FFAC2F21320
-        public void get_SyncRoot(){} // RVA: 0x7FFAC44F81E0
+        public void .ctor(){} // RVA: 0x7FFE87773120
+        public void Add(){} // RVA: 0x7FFE877731E0
+        public void get_Item(){} // RVA: 0x7FFE877732B0
+        public void get_Count(){} // RVA: 0x7FFE87773330
+        public void GetEnumerator(){} // RVA: 0x7FFE87773380
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE87773420
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7FFE87773430
+        public void get_IsSynchronized(){} // RVA: 0x7FFE810FB320
+        public void get_SyncRoot(){} // RVA: 0x7FFE827C4A80
     }
 
     public class OidEnumerator : Object
     {
-        public System.Security.Cryptography.OidCollection Current; // 0x10
-        public int System.Collections.IEnumerator.Current; // 0x18
+        public System.Security.Cryptography.OidCollection _oids; // 0x10
+        public int _current; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8512AA0
-        public void get_Current(){} // RVA: 0x7FFAC93CAF70
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAC93CAF70
-        public void MoveNext(){} // RVA: 0x7FFAC93CAFA0
-        public void Reset(){} // RVA: 0x7FFAC47EDC40
+        public void .ctor(){} // RVA: 0x7FFE868BC2A0
+        public void get_Current(){} // RVA: 0x7FFE877736A0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE877736A0
+        public void MoveNext(){} // RVA: 0x7FFE877736D0
+        public void Reset(){} // RVA: 0x7FFE82A55FE0
     }
 
 }

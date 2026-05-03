@@ -7,958 +7,773 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 {
     public class AnnotationController`1 : MonoBehaviour
     {
-        public T isMirrored;
-        public bool rotationAngle;
-        public UnityEngine.Vector2Int imageSize;
+        public T annotation;
+        public bool isStale;
+        public UnityEngine.Vector2Int _imageSize;
 
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0x7FFAC2C59D00
-        public void set_isMirrored(){} // RVA: 0x7FFAC2C71060
-        public void get_rotationAngle(){} // RVA: 0x7FFAC2C59960
-        public void set_rotationAngle(){} // RVA: 0x7FFAC2C70ED0
+        public void get_isMirrored(){} // RVA: 0x7FFE80E2F150
+        public void set_isMirrored(){} // RVA: 0x7FFE80E466C0
+        public void get_rotationAngle(){} // RVA: 0x7FFE80E2EDB0
+        public void set_rotationAngle(){} // RVA: 0x7FFE80E46530
         public void get_imageSize(){}
         public void set_imageSize(){}
-        public void Start(){} // RVA: 0x7FFAC2C70980
-        public void LateUpdate(){} // RVA: 0x7FFAC2C70980
-        public void OnDestroy(){} // RVA: 0x7FFAC2C70980
-        public void SyncNow(){} // RVA: 0x7FFAC2C70980
-        public void UpdateCurrentTarget(){} // RVA: 0x7FFAC2E8DC40
-        public void IsTargetChanged(){} // RVA: 0x7FFAC2E8DC40
-        public void .ctor(){} // RVA: 0x7FFAC2C70980
+        public void Start(){} // RVA: 0x7FFE80E45FE0
+        public void LateUpdate(){} // RVA: 0x7FFE80E45FE0
+        public void OnDestroy(){} // RVA: 0x7FFE80E45FE0
+        public void SyncNow(){} // RVA: 0x7FFE80E45FE0
+        public void UpdateCurrentTarget(){} // RVA: 0x7FFE810A1420
+        public void IsTargetChanged(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class Arrow : MonoBehaviour
     {
-        public UnityEngine.Color cone; // 0x20
-        public UnityEngine.Vector3 lineRenderer; // 0x30
-        public float direction; // 0x3C
-        public float magnitude; // 0x40
-        public float color; // 0x44
-        public UnityEngine.Transform _cone; // 0x48
+        public UnityEngine.Color _color; // 0x20
+        public UnityEngine.Vector3 _direction; // 0x30
+        public float _magnitude; // 0x3C
+        public float _capScale; // 0x40
+        public float _lineWidth; // 0x44
 
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFAC82CA7F0
-        public void get_cone(){} // RVA: 0x7FFAC82CA870
-        public void get_lineRenderer(){} // RVA: 0x7FFAC82CAAB0
-        public void get_direction(){} // RVA: 0x7FFAC82CAB40
-        public void set_direction(){} // RVA: 0x7FFAC82CAB60
-        public void get_magnitude(){} // RVA: 0x7FFAC363CE20
-        public void set_magnitude(){} // RVA: 0x7FFAC82CABB0
-        public void get_color(){} // RVA: 0x7FFAC4A19630
-        public void set_color(){} // RVA: 0x7FFAC82CAC20
-        public void SetVector(){} // RVA: 0x7FFAC82CAC50
-        public void SetCapScale(){} // RVA: 0x7FFAC82CAD90
-        public void SetLineWidth(){} // RVA: 0x7FFAC82CADA0
-        public void ApplyColor(){} // RVA: 0x7FFAC82CADB0
-        public void ApplyDirection(){} // RVA: 0x7FFAC82CAF50
-        public void ApplyMagnitude(){} // RVA: 0x7FFAC82CB130
-        public void ApplyCapScale(){} // RVA: 0x7FFAC82CB490
-        public void ApplyLineWidth(){} // RVA: 0x7FFAC82CB570
-        public void .ctor(){} // RVA: 0x7FFAC82CB650
+        public void Start(){} // RVA: 0x7FFE86674110
+        public void get_cone(){} // RVA: 0x7FFE86674190
+        public void get_lineRenderer(){} // RVA: 0x7FFE866743D0
+        public void get_direction(){} // RVA: 0x7FFE828CAED0
+        public void set_direction(){} // RVA: 0x7FFE86674460
+        public void get_magnitude(){} // RVA: 0x7FFE8178C5D0
+        public void set_magnitude(){} // RVA: 0x7FFE866744B0
+        public void get_color(){} // RVA: 0x7FFE82C84C90
+        public void set_color(){} // RVA: 0x7FFE86674520
+        public void SetVector(){} // RVA: 0x7FFE86674550
+        public void SetCapScale(){} // RVA: 0x7FFE86674690
+        public void SetLineWidth(){} // RVA: 0x7FFE866746A0
+        public void ApplyColor(){} // RVA: 0x7FFE866746B0
+        public void ApplyDirection(){} // RVA: 0x7FFE86674850
+        public void ApplyMagnitude(){} // RVA: 0x7FFE86674A30
+        public void ApplyCapScale(){} // RVA: 0x7FFE86674D90
+        public void ApplyLineWidth(){} // RVA: 0x7FFE86674E70
+        public void .ctor(){} // RVA: 0x7FFE86674F50
     }
 
     public class AssetBundleResourceManager : ResourceManager
     {
-        public string _TAG;
-        public string _AssetBundlePath; // 0x8
-        public string _CachePathRoot; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC82E8D10
-        public void PrepareAssetAsync(){} // RVA: 0x7FFAC82E9020
-        public void PathToResourceAsFile(){} // RVA: 0x7FFAC82E9130
-        public void GetResourceContents(){} // RVA: 0x7FFAC82E91C0
-        public void GetCachePathFor(){} // RVA: 0x7FFAC82E9290
-        public void .cctor(){} // RVA: 0x7FFAC82E9330
+        public void .ctor(){} // RVA: 0x7FFE86692610
+        public void PrepareAssetAsync(){} // RVA: 0x7FFE86692920
+        public void PathToResourceAsFile(){} // RVA: 0x7FFE86692A30
+        public void GetResourceContents(){} // RVA: 0x7FFE86692AC0
+        public void GetCachePathFor(){} // RVA: 0x7FFE86692B90
+        public void .cctor(){} // RVA: 0x7FFE86692C30
     }
 
     public class CircleAnnotation : HierarchicalAnnotation
     {
-        public UnityEngine.LineRenderer _lineRenderer; // 0x30
-        public UnityEngine.Color _color; // 0x38
-        public float _lineWidth; // 0x48
-
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFAC82CB700
-        public void OnDisable(){} // RVA: 0x7FFAC82CB740
-        public void SetColor(){} // RVA: 0x7FFAC82CB840
-        public void SetLineWidth(){} // RVA: 0x7FFAC82CB870
-        public void Draw(){} // RVA: 0x7FFAC82CB880
-        public void ApplyColor(){} // RVA: 0x7FFAC82CBC60
-        public void ApplyLineWidth(){} // RVA: 0x7FFAC82CBE00
-        public void .ctor(){} // RVA: 0x7FFAC82CBF10
+        public void OnEnable(){} // RVA: 0x7FFE86675000
+        public void OnDisable(){} // RVA: 0x7FFE86675040
+        public void SetColor(){} // RVA: 0x7FFE86675140
+        public void SetLineWidth(){} // RVA: 0x7FFE86675170
+        public void Draw(){} // RVA: 0x7FFE86675180
+        public void ApplyColor(){} // RVA: 0x7FFE86675560
+        public void ApplyLineWidth(){} // RVA: 0x7FFE86675700
+        public void .ctor(){} // RVA: 0x7FFE86675810
     }
 
     public class Connection : Object
     {
-        public Mediapipe.Unity.HierarchicalAnnotation start; // 0x10
-        public Mediapipe.Unity.HierarchicalAnnotation end; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0
     }
 
     public class ConnectionAnnotation : LineAnnotation
     {
-        public Mediapipe.Unity.Connection isEmpty; // 0x50
+        public Mediapipe.Unity.Connection _currentTarget; // 0x50
 
         // ── Methods ──
-        public void get_isEmpty(){} // RVA: 0x7FFAC82CBF70
-        public void Draw(){} // RVA: 0x7FFAC82CBF80
-        public void Redraw(){} // RVA: 0x7FFAC82CC140
-        public void ActivateFor(){} // RVA: 0x7FFAC82CC150
-        public void .ctor(){} // RVA: 0x7FFAC82CBF10
+        public void get_isEmpty(){} // RVA: 0x7FFE86675870
+        public void Draw(){} // RVA: 0x7FFE86675880
+        public void Redraw(){} // RVA: 0x7FFE86675A40
+        public void ActivateFor(){} // RVA: 0x7FFE86675A50
+        public void .ctor(){} // RVA: 0x7FFE86675810
     }
 
     public class ConnectionListAnnotation : ListAnnotation`1
     {
-        public UnityEngine.Color _color; // 0x40
-        public float _lineWidth; // 0x50
-
         // ── Methods ──
-        public void Fill(){} // RVA: 0x7FFAC82CC1D0
-        public void SetColor(){} // RVA: 0x7FFAC82CC500
-        public void SetLineWidth(){} // RVA: 0x7FFAC82CC530
-        public void Draw(){} // RVA: 0x7FFAC82CC540
-        public void Redraw(){} // RVA: 0x7FFAC82CC6F0
-        public void InstantiateChild(){} // RVA: 0x7FFAC82CC910
-        public void ApplyColor(){} // RVA: 0x7FFAC82CC9B0
-        public void ApplyLineWidth(){} // RVA: 0x7FFAC82CCBF0
-        public void .ctor(){} // RVA: 0x7FFAC82CCE10
+        public void Fill(){} // RVA: 0x7FFE86675AD0
+        public void SetColor(){} // RVA: 0x7FFE86675E00
+        public void SetLineWidth(){} // RVA: 0x7FFE86675E30
+        public void Draw(){} // RVA: 0x7FFE86675E40
+        public void Redraw(){} // RVA: 0x7FFE86675FF0
+        public void InstantiateChild(){} // RVA: 0x7FFE86676210
+        public void ApplyColor(){} // RVA: 0x7FFE866762B0
+        public void ApplyLineWidth(){} // RVA: 0x7FFE866764F0
+        public void .ctor(){} // RVA: 0x7FFE86676710
     }
 
     public class DetectionAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.RectangleAnnotation isMirrored; // 0x30
-        public Mediapipe.Unity.PointListAnnotation rotationAngle; // 0x38
-        public Mediapipe.Unity.LabelAnnotation _labelAnnotation; // 0x40
+        public Mediapipe.Unity.RectangleAnnotation _boundingBoxAnnotation; // 0x30
+        public Mediapipe.Unity.PointListAnnotation _keypointsAnnotation; // 0x38
 
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x7FFAC82CD150
-        public void set_rotationAngle(){} // RVA: 0x7FFAC82CD1E0
-        public void SetLineWidth(){} // RVA: 0x7FFAC82CD260
-        public void SetKeypointRadius(){} // RVA: 0x7FFAC82CD290
-        public void Draw(){} // RVA: 0x7FFAC82CD8A0 | overloaded x2
-        public void GetColor(){} // RVA: 0x7FFAC82CDF90
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void set_isMirrored(){} // RVA: 0x7FFE86676A50
+        public void set_rotationAngle(){} // RVA: 0x7FFE86676AE0
+        public void SetLineWidth(){} // RVA: 0x7FFE86676B60
+        public void SetKeypointRadius(){} // RVA: 0x7FFE86676B90
+        public void Draw(){} // RVA: 0x7FFE866771A0 | overloaded x2
+        public void GetColor(){} // RVA: 0x7FFE86677890
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class DetectionAnnotationController : AnnotationController`1
     {
-        public float _threshold; // 0x38
-        public Mediapipe.Detection _currentTarget; // 0x40
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82CE030
-        public void DrawLater(){} // RVA: 0x7FFAC82CE0A0
-        public void SyncNow(){} // RVA: 0x7FFAC82CE100
-        public void .ctor(){} // RVA: 0x7FFAC82CE130
+        public void DrawNow(){} // RVA: 0x7FFE86677930
+        public void DrawLater(){} // RVA: 0x7FFE866779A0
+        public void SyncNow(){} // RVA: 0x7FFE86677A00
+        public void .ctor(){} // RVA: 0x7FFE86677A30
     }
 
     public class DetectionListAnnotation : ListAnnotation`1
     {
-        public float _lineWidth; // 0x40
-        public float _keypointRadius; // 0x44
-
         // ── Methods ──
-        public void SetLineWidth(){} // RVA: 0x7FFAC82CE1A0
-        public void SetKeypointRadius(){} // RVA: 0x7FFAC82CE1B0
-        public void Draw(){} // RVA: 0x7FFAC82CE510 | overloaded x4
-        public void InstantiateChild(){} // RVA: 0x7FFAC82CE540
-        public void ApplyLineWidth(){} // RVA: 0x7FFAC82CE5E0
-        public void ApplyKeypointRadius(){} // RVA: 0x7FFAC82CE810
-        public void .ctor(){} // RVA: 0x7FFAC82CEA40
+        public void SetLineWidth(){} // RVA: 0x7FFE86677AA0
+        public void SetKeypointRadius(){} // RVA: 0x7FFE86677AB0
+        public void Draw(){} // RVA: 0x7FFE86677E10 | overloaded x4
+        public void InstantiateChild(){} // RVA: 0x7FFE86677E40
+        public void ApplyLineWidth(){} // RVA: 0x7FFE86677EE0
+        public void ApplyKeypointRadius(){} // RVA: 0x7FFE86678110
+        public void .ctor(){} // RVA: 0x7FFE86678340
     }
 
     public class DetectionListAnnotationController : AnnotationController`1
     {
-        public float _threshold; // 0x38
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.Detection> _currentTarget; // 0x40
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82CECC0 | overloaded x2
-        public void DrawLater(){} // RVA: 0x7FFAC82CED50 | overloaded x2
-        public void SyncNow(){} // RVA: 0x7FFAC82CEDC0
-        public void .ctor(){} // RVA: 0x7FFAC82CEDF0
+        public void DrawNow(){} // RVA: 0x7FFE866785C0 | overloaded x2
+        public void DrawLater(){} // RVA: 0x7FFE86678650 | overloaded x2
+        public void SyncNow(){} // RVA: 0x7FFE866786C0
+        public void .ctor(){} // RVA: 0x7FFE866786F0
     }
 
     public class DetectionResultAnnotationController : AnnotationController`1
     {
-        public float _threshold; // 0x38
-        public Mediapipe.Tasks.Components.Containers.DetectionResult _currentTarget; // 0x40
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82CE030
-        public void DrawLater(){} // RVA: 0x7FFAC82CEE60
-        public void SyncNow(){} // RVA: 0x7FFAC82CEF10
-        public void .ctor(){} // RVA: 0x7FFAC82CF070
+        public void DrawNow(){} // RVA: 0x7FFE86677930
+        public void DrawLater(){} // RVA: 0x7FFE86678760
+        public void SyncNow(){} // RVA: 0x7FFE86678810
+        public void .ctor(){} // RVA: 0x7FFE86678970
     }
 
     public class FaceLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PointListAnnotation isMirrored; // 0x30
-        public Mediapipe.Unity.ConnectionListAnnotation rotationAngle; // 0x38
-        public int _LandmarkCount;
-        public System.Collections.Generic.List`1<System.ValueTuple`2<int,int>> _connections; // 0x40
+        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x38
 
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x7FFAC82CF360
-        public void set_rotationAngle(){} // RVA: 0x7FFAC82CF3D0
-        public void Start(){} // RVA: 0x7FFAC82CF430
-        public void SetLandmarkColor(){} // RVA: 0x7FFAC82CF4A0
-        public void SetLandmarkRadius(){} // RVA: 0x7FFAC82CF4E0
-        public void SetConnectionColor(){} // RVA: 0x7FFAC82CF510
-        public void SetConnectionWidth(){} // RVA: 0x7FFAC82CF550
-        public void Draw(){} // RVA: 0x7FFAC82CF760 | overloaded x4
-        public void .ctor(){} // RVA: 0x7FFAC82CF7F0
+        public void set_isMirrored(){} // RVA: 0x7FFE86678C60
+        public void set_rotationAngle(){} // RVA: 0x7FFE86678CD0
+        public void Start(){} // RVA: 0x7FFE86678D30
+        public void SetLandmarkColor(){} // RVA: 0x7FFE86678DA0
+        public void SetLandmarkRadius(){} // RVA: 0x7FFE86678DE0
+        public void SetConnectionColor(){} // RVA: 0x7FFE86678E10
+        public void SetConnectionWidth(){} // RVA: 0x7FFE86678E50
+        public void Draw(){} // RVA: 0x7FFE86679060 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFE866790F0
     }
 
     public class FaceLandmarkListAnnotationController : AnnotationController`1
     {
-        public bool _visualizeZ; // 0x38
-        public int _circleVertices; // 0x3C
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedLandmark> _currentTarget; // 0x40
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82D10A0 | overloaded x2
-        public void DrawLater(){} // RVA: 0x7FFAC82D1190 | overloaded x2
-        public void SyncNow(){} // RVA: 0x7FFAC82D1200
-        public void .ctor(){} // RVA: 0x7FFAC82D1240
+        public void DrawNow(){} // RVA: 0x7FFE8667A9A0 | overloaded x2
+        public void DrawLater(){} // RVA: 0x7FFE8667AA90 | overloaded x2
+        public void SyncNow(){} // RVA: 0x7FFE8667AB00
+        public void .ctor(){} // RVA: 0x7FFE8667AB40
     }
 
     public class FaceLandmarkListWithIrisAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.FaceLandmarkListAnnotation isMirrored; // 0x30
-        public Mediapipe.Unity.IrisLandmarkListAnnotation rotationAngle; // 0x38
-        public Mediapipe.Unity.IrisLandmarkListAnnotation _rightIrisLandmarkListAnnotation; // 0x40
-        public int _FaceLandmarkCount;
-        public int _IrisLandmarkCount;
+        public Mediapipe.Unity.FaceLandmarkListAnnotation _faceLandmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.IrisLandmarkListAnnotation _leftIrisLandmarkListAnnotation; // 0x38
 
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x7FFAC82CD150
-        public void set_rotationAngle(){} // RVA: 0x7FFAC82CD1E0
-        public void SetFaceLandmarkColor(){} // RVA: 0x7FFAC82D12C0
-        public void SetIrisLandmarkColor(){} // RVA: 0x7FFAC82D1300
-        public void SetFaceLandmarkRadius(){} // RVA: 0x7FFAC82D1380
-        public void SetIrisLandmarkRadius(){} // RVA: 0x7FFAC82D13B0
-        public void SetFaceConnectionColor(){} // RVA: 0x7FFAC82D1420
-        public void SetFaceConnectionWidth(){} // RVA: 0x7FFAC82D1460
-        public void SetIrisCircleColor(){} // RVA: 0x7FFAC82D1490
-        public void SetIrisCircleWidth(){} // RVA: 0x7FFAC82D1510
-        public void Draw(){} // RVA: 0x7FFAC82D16F0 | overloaded x4
-        public void DrawFaceLandmarkList(){} // RVA: 0x7FFAC82D18E0 | overloaded x2
-        public void DrawLeftIrisLandmarkList(){} // RVA: 0x7FFAC82D19C0 | overloaded x2
-        public void DrawRightIrisLandmarkList(){} // RVA: 0x7FFAC82D1A20 | overloaded x2
-        public void PartitionLandmarkList(){} // RVA: 0x7FFAC2E8DC40
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void set_isMirrored(){} // RVA: 0x7FFE86676A50
+        public void set_rotationAngle(){} // RVA: 0x7FFE86676AE0
+        public void SetFaceLandmarkColor(){} // RVA: 0x7FFE8667ABC0
+        public void SetIrisLandmarkColor(){} // RVA: 0x7FFE8667AC00
+        public void SetFaceLandmarkRadius(){} // RVA: 0x7FFE8667AC80
+        public void SetIrisLandmarkRadius(){} // RVA: 0x7FFE8667ACB0
+        public void SetFaceConnectionColor(){} // RVA: 0x7FFE8667AD20
+        public void SetFaceConnectionWidth(){} // RVA: 0x7FFE8667AD60
+        public void SetIrisCircleColor(){} // RVA: 0x7FFE8667AD90
+        public void SetIrisCircleWidth(){} // RVA: 0x7FFE8667AE10
+        public void Draw(){} // RVA: 0x7FFE8667AFF0 | overloaded x4
+        public void DrawFaceLandmarkList(){} // RVA: 0x7FFE8667B1E0 | overloaded x2
+        public void DrawLeftIrisLandmarkList(){} // RVA: 0x7FFE8667B2C0 | overloaded x2
+        public void DrawRightIrisLandmarkList(){} // RVA: 0x7FFE8667B320 | overloaded x2
+        public void PartitionLandmarkList(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class FaceLandmarkerResultAnnotationController : AnnotationController`1
     {
-        public bool _visualizeZ; // 0x38
-        public Mediapipe.Tasks.Vision.FaceLandmarker.FaceLandmarkerResult _currentTarget; // 0x40
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82CF0E0
-        public void DrawLater(){} // RVA: 0x7FFAC82CF120
-        public void UpdateCurrentTarget(){} // RVA: 0x7FFAC82CF180
-        public void SyncNow(){} // RVA: 0x7FFAC82CF1D0
-        public void .ctor(){} // RVA: 0x7FFAC82CF2F0
+        public void DrawNow(){} // RVA: 0x7FFE866789E0
+        public void DrawLater(){} // RVA: 0x7FFE86678A20
+        public void UpdateCurrentTarget(){} // RVA: 0x7FFE86678A80
+        public void SyncNow(){} // RVA: 0x7FFE86678AD0
+        public void .ctor(){} // RVA: 0x7FFE86678BF0
     }
 
     public class GpuManager : Object
     {
-        public object GpuResources;
-        public UIntPtr GlCalculatorHelper; // 0x8
-        public bool IsInitialized; // 0x10
-        public Mediapipe.GpuResources <GpuResources>k__BackingField; // 0x18
-        public Mediapipe.GlCalculatorHelper <GlCalculatorHelper>k__BackingField; // 0x20
-        public bool <IsInitialized>k__BackingField; // 0x28
+        public object _SetupLock;
+        public UIntPtr _CurrentContext; // 0x8
+        public bool _IsContextInitialized; // 0x10
 
         // ── Methods ──
-        public void get_GpuResources(){} // RVA: 0x7FFAC82E7F40
-        public void set_GpuResources(){} // RVA: 0x7FFAC82E7FA0
-        public void get_GlCalculatorHelper(){} // RVA: 0x7FFAC82E8060
-        public void set_GlCalculatorHelper(){} // RVA: 0x7FFAC82E80C0
-        public void get_IsInitialized(){} // RVA: 0x7FFAC82E8180
-        public void set_IsInitialized(){} // RVA: 0x7FFAC82E81E0
-        public void Initialize(){} // RVA: 0x7FFAC82E8240
-        public void Shutdown(){} // RVA: 0x7FFAC82E8280
-        public void .cctor(){} // RVA: 0x7FFAC82E8430
+        public void get_GpuResources(){} // RVA: 0x7FFE86691840
+        public void set_GpuResources(){} // RVA: 0x7FFE866918A0
+        public void get_GlCalculatorHelper(){} // RVA: 0x7FFE86691960
+        public void set_GlCalculatorHelper(){} // RVA: 0x7FFE866919C0
+        public void get_IsInitialized(){} // RVA: 0x7FFE86691A80
+        public void set_IsInitialized(){} // RVA: 0x7FFE86691AE0
+        public void Initialize(){} // RVA: 0x7FFE86691B40
+        public void Shutdown(){} // RVA: 0x7FFE86691B80
+        public void .cctor(){} // RVA: 0x7FFE86691D30
     }
 
     public class HandLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PointListAnnotation isMirrored; // 0x30
-        public Mediapipe.Unity.ConnectionListAnnotation rotationAngle; // 0x38
-        public UnityEngine.Color Item; // 0x40
-        public UnityEngine.Color _rightLandmarkColor; // 0x50
-        public int _LandmarkCount;
-        public System.Collections.Generic.List`1<System.ValueTuple`2<int,int>> _connections; // 0x60
+        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x38
+        public UnityEngine.Color _leftLandmarkColor; // 0x40
 
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x7FFAC82CF360
-        public void set_rotationAngle(){} // RVA: 0x7FFAC82CF3D0
-        public void get_Item(){} // RVA: 0x7FFAC82D1CF0
-        public void Start(){} // RVA: 0x7FFAC82D1D90
-        public void SetLeftLandmarkColor(){} // RVA: 0x7FFAC6D1E430
-        public void SetRightLandmarkColor(){} // RVA: 0x7FFAC82D1E00
-        public void SetLandmarkRadius(){} // RVA: 0x7FFAC82CF4E0
-        public void SetConnectionColor(){} // RVA: 0x7FFAC82CF510
-        public void SetConnectionWidth(){} // RVA: 0x7FFAC82CF550
-        public void SetHandedness(){} // RVA: 0x7FFAC82D21A0 | overloaded x5
-        public void Draw(){} // RVA: 0x7FFAC82D2390 | overloaded x4
-        public void .ctor(){} // RVA: 0x7FFAC82D2420
+        public void set_isMirrored(){} // RVA: 0x7FFE86678C60
+        public void set_rotationAngle(){} // RVA: 0x7FFE86678CD0
+        public void get_Item(){} // RVA: 0x7FFE8667B5F0
+        public void Start(){} // RVA: 0x7FFE8667B690
+        public void SetLeftLandmarkColor(){} // RVA: 0x7FFE850A4980
+        public void SetRightLandmarkColor(){} // RVA: 0x7FFE8667B700
+        public void SetLandmarkRadius(){} // RVA: 0x7FFE86678DE0
+        public void SetConnectionColor(){} // RVA: 0x7FFE86678E10
+        public void SetConnectionWidth(){} // RVA: 0x7FFE86678E50
+        public void SetHandedness(){} // RVA: 0x7FFE8667BAA0 | overloaded x5
+        public void Draw(){} // RVA: 0x7FFE8667BC90 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFE8667BD20
     }
 
     public class HandLandmarkerResultAnnotationController : AnnotationController`1
     {
-        public bool _visualizeZ; // 0x38
-        public Mediapipe.Tasks.Vision.HandLandmarker.HandLandmarkerResult _currentTarget; // 0x40
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82D1A50
-        public void DrawLater(){} // RVA: 0x7FFAC82D1A90
-        public void UpdateCurrentTarget(){} // RVA: 0x7FFAC82D1AF0
-        public void SyncNow(){} // RVA: 0x7FFAC82D1B40
-        public void .ctor(){} // RVA: 0x7FFAC82D1C80
+        public void DrawNow(){} // RVA: 0x7FFE8667B350
+        public void DrawLater(){} // RVA: 0x7FFE8667B390
+        public void UpdateCurrentTarget(){} // RVA: 0x7FFE8667B3F0
+        public void SyncNow(){} // RVA: 0x7FFE8667B440
+        public void .ctor(){} // RVA: 0x7FFE8667B580
     }
 
     public class HierarchicalAnnotation : MonoBehaviour
     {
-        public Mediapipe.Unity.IHierachicalAnnotation root; // 0x20
-        public bool isActive; // 0x28
-        public 0x6B215BA8 isActiveInHierarchy; // 0x2C
+        public Mediapipe.Unity.IHierachicalAnnotation _root; // 0x20
+        public bool _isMirrored; // 0x28
+        public 0x6660F46C _rotationAngle; // 0x2C
+        public object field_3; // 0x246
+        public object field_4; // 0x247
 
         // ── Methods ──
-        public void get_root(){} // RVA: 0x7FFAC82D2DC0
-        public void set_root(){} // RVA: 0x7FFAC2F4F0D0
-        public void GetAnnotationLayer(){} // RVA: 0x7FFAC82D3160
-        public void GetScreenRect(){} // RVA: 0x7FFAC82D3280
-        public void get_isActive(){} // RVA: 0x7FFAC82D3410
-        public void get_isActiveInHierarchy(){} // RVA: 0x7FFAC82D34B0
-        public void SetActive(){} // RVA: 0x7FFAC82D3550
-        public void ActivateFor(){} // RVA: 0x7FFAC2E8DC40
-        public void get_isMirrored(){} // RVA: 0x7FFAC30F6BA0
-        public void set_isMirrored(){} // RVA: 0x7FFAC3C24F40
-        public void get_rotationAngle(){} // RVA: 0x7FFAC3C891D0
-        public void set_rotationAngle(){} // RVA: 0x7FFAC45B6490
-        public void InstantiateChild(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
-        public void Mediapipe.Unity.IHierachicalAnnotation.get_transform(){} // RVA: 0x7FFAC33BCDF0
+        public void get_root(){} // RVA: 0x7FFE8667C6C0
+        public void set_root(){} // RVA: 0x7FFE811290D0
+        public void GetAnnotationLayer(){} // RVA: 0x7FFE8667CA60
+        public void GetScreenRect(){} // RVA: 0x7FFE8667CB80
+        public void get_isActive(){} // RVA: 0x7FFE8667CD10
+        public void get_isActiveInHierarchy(){} // RVA: 0x7FFE8667CDB0
+        public void SetActive(){} // RVA: 0x7FFE8667CE50
+        public void ActivateFor(){} // RVA: 0x7FFE810A1420
+        public void get_isMirrored(){} // RVA: 0x7FFE815F1380
+        public void set_isMirrored(){} // RVA: 0x7FFE81C15740
+        public void get_rotationAngle(){} // RVA: 0x7FFE81F84A50
+        public void set_rotationAngle(){} // RVA: 0x7FFE82883A50
+        public void InstantiateChild(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void Mediapipe.Unity.IHierachicalAnnotation.get_transform(){} // RVA: 0x7FFE816315C0
     }
 
     public class HolisticLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.FaceLandmarkListWithIrisAnnotation isMirrored; // 0x30
-        public Mediapipe.Unity.PoseLandmarkListAnnotation rotationAngle; // 0x38
-        public Mediapipe.Unity.HandLandmarkListAnnotation _leftHandLandmarkListAnnotation; // 0x40
-        public Mediapipe.Unity.HandLandmarkListAnnotation _rightHandLandmarkListAnnotation; // 0x48
-        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x50
+        public Mediapipe.Unity.FaceLandmarkListWithIrisAnnotation _faceLandmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.PoseLandmarkListAnnotation _poseLandmarkListAnnotation; // 0x38
 
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x7FFAC82D36B0
-        public void set_rotationAngle(){} // RVA: 0x7FFAC82D3780
-        public void Start(){} // RVA: 0x7FFAC82D3840
-        public void Draw(){} // RVA: 0x7FFAC82D3B20 | overloaded x2
-        public void RedrawWristJoints(){} // RVA: 0x7FFAC82D3B90
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void set_isMirrored(){} // RVA: 0x7FFE8667CFB0
+        public void set_rotationAngle(){} // RVA: 0x7FFE8667D080
+        public void Start(){} // RVA: 0x7FFE8667D140
+        public void Draw(){} // RVA: 0x7FFE8667D420 | overloaded x2
+        public void RedrawWristJoints(){} // RVA: 0x7FFE8667D490
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class HolisticLandmarkListAnnotationController : AnnotationController`1
     {
-        public bool _visualizeZ; // 0x38
-        public int _circleVertices; // 0x3C
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedLandmark> _currentFaceLandmarkList; // 0x40
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedLandmark> _currentPoseLandmarkList; // 0x48
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedLandmark> _currentLeftHandLandmarkList; // 0x50
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedLandmark> _currentRightHandLandmarkList; // 0x58
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82D3FE0 | overloaded x2
-        public void DrawFaceLandmarkListLater(){} // RVA: 0x7FFAC82D4210 | overloaded x2
-        public void DrawPoseLandmarkListLater(){} // RVA: 0x7FFAC82D42E0 | overloaded x2
-        public void DrawLeftHandLandmarkListLater(){} // RVA: 0x7FFAC82D43B0 | overloaded x2
-        public void DrawRightHandLandmarkListLater(){} // RVA: 0x7FFAC82D4480 | overloaded x2
-        public void SyncNow(){} // RVA: 0x7FFAC82D44F0
-        public void .ctor(){} // RVA: 0x7FFAC82D4550
+        public void DrawNow(){} // RVA: 0x7FFE8667D8E0 | overloaded x2
+        public void DrawFaceLandmarkListLater(){} // RVA: 0x7FFE8667DB10 | overloaded x2
+        public void DrawPoseLandmarkListLater(){} // RVA: 0x7FFE8667DBE0 | overloaded x2
+        public void DrawLeftHandLandmarkListLater(){} // RVA: 0x7FFE8667DCB0 | overloaded x2
+        public void DrawRightHandLandmarkListLater(){} // RVA: 0x7FFE8667DD80 | overloaded x2
+        public void SyncNow(){} // RVA: 0x7FFE8667DDF0
+        public void .ctor(){} // RVA: 0x7FFE8667DE50
     }
 
     public class IHierachicalAnnotation
     {
-        public object root;
-        public object transform;
-
         // ── Methods ──
-        public void get_root(){} // RVA: 0x7FFAC2C58E90
-        public void get_transform(){} // RVA: 0x7FFAC2C58E90
+        public void get_root(){} // RVA: 0x7FFE80E2E2E0
+        public void get_transform(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class ImageFrameExtension : Object
     {
         // ── Methods ──
-        public void TryReadChannelNormalized(){} // RVA: 0x7FFAC82E7500 | overloaded x3
-        public void TryReadChannel(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
-        public void ByteNormalizer(){} // RVA: 0x7FFAC82E7EE0
-        public void UshortNormalizer(){} // RVA: 0x7FFAC82E7F00
-        public void IsChannelNumberValid(){} // RVA: 0x7FFAC82E7F20
+        public void TryReadChannelNormalized(){} // RVA: 0x7FFE86690E00 | overloaded x3
+        public void TryReadChannel(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void ByteNormalizer(){} // RVA: 0x7FFE866917E0
+        public void UshortNormalizer(){} // RVA: 0x7FFE86691800
+        public void IsChannelNumberValid(){} // RVA: 0x7FFE86691820
     }
 
     public class IrisLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PointListAnnotation isMirrored; // 0x30
-        public Mediapipe.Unity.CircleAnnotation rotationAngle; // 0x38
+        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.CircleAnnotation _circleAnnotation; // 0x38
 
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x7FFAC82CF360
-        public void set_rotationAngle(){} // RVA: 0x7FFAC82CF3D0
-        public void SetLandmarkColor(){} // RVA: 0x7FFAC82CF4A0
-        public void SetLandmarkRadius(){} // RVA: 0x7FFAC82CF4E0
-        public void SetCircleColor(){} // RVA: 0x7FFAC82D45D0
-        public void SetCircleWidth(){} // RVA: 0x7FFAC82D4610
-        public void Draw(){} // RVA: 0x7FFAC82D4B80 | overloaded x4
-        public void CalculateRadius(){} // RVA: 0x7FFAC82D4CA0 | overloaded x2
-        public void CalculateDistance(){} // RVA: 0x7FFAC82D5290 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void set_isMirrored(){} // RVA: 0x7FFE86678C60
+        public void set_rotationAngle(){} // RVA: 0x7FFE86678CD0
+        public void SetLandmarkColor(){} // RVA: 0x7FFE86678DA0
+        public void SetLandmarkRadius(){} // RVA: 0x7FFE86678DE0
+        public void SetCircleColor(){} // RVA: 0x7FFE8667DED0
+        public void SetCircleWidth(){} // RVA: 0x7FFE8667DF10
+        public void Draw(){} // RVA: 0x7FFE8667E480 | overloaded x4
+        public void CalculateRadius(){} // RVA: 0x7FFE8667E5A0 | overloaded x2
+        public void CalculateDistance(){} // RVA: 0x7FFE8667EB90 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class LabelAnnotation : HierarchicalAnnotation
     {
-        public UnityEngine.UI.Text _labelText; // 0x30
-        public UnityEngine.Transform _backgroundTransform; // 0x38
-
         // ── Methods ──
-        public void Draw(){} // RVA: 0x7FFAC82D54A0
-        public void GetFontSize(){} // RVA: 0x7FFAC82D5B90
-        public void DecideTextColor(){} // RVA: 0x7FFAC82D5BE0
-        public void CalcRelativeLuminance(){} // RVA: 0x7FFAC82D5CE0
-        public void CalcContrastRatio(){} // RVA: 0x7FFAC82D5DE0
-        public void ActivateFor(){} // RVA: 0x7FFAC82D5E50
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void Draw(){} // RVA: 0x7FFE8667EDA0
+        public void GetFontSize(){} // RVA: 0x7FFE8667F490
+        public void DecideTextColor(){} // RVA: 0x7FFE8667F4E0
+        public void CalcRelativeLuminance(){} // RVA: 0x7FFE8667F5E0
+        public void CalcContrastRatio(){} // RVA: 0x7FFE8667F6E0
+        public void ActivateFor(){} // RVA: 0x7FFE8667F750
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class LineAnnotation : HierarchicalAnnotation
     {
-        public UnityEngine.LineRenderer _lineRenderer; // 0x30
-        public UnityEngine.Color _color; // 0x38
-        public float _lineWidth; // 0x48
-
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFAC82D5ED0
-        public void OnDisable(){} // RVA: 0x7FFAC82D5F10
-        public void SetColor(){} // RVA: 0x7FFAC82D5F20
-        public void SetLineWidth(){} // RVA: 0x7FFAC82D5F50
-        public void Draw(){} // RVA: 0x7FFAC82D6060 | overloaded x2
-        public void ApplyColor(){} // RVA: 0x7FFAC82D62C0
-        public void ApplyLineWidth(){} // RVA: 0x7FFAC82D6460
-        public void .ctor(){} // RVA: 0x7FFAC82CBF10
+        public void OnEnable(){} // RVA: 0x7FFE8667F7D0
+        public void OnDisable(){} // RVA: 0x7FFE8667F810
+        public void SetColor(){} // RVA: 0x7FFE8667F820
+        public void SetLineWidth(){} // RVA: 0x7FFE8667F850
+        public void Draw(){} // RVA: 0x7FFE8667F960 | overloaded x2
+        public void ApplyColor(){} // RVA: 0x7FFE8667FBC0
+        public void ApplyLineWidth(){} // RVA: 0x7FFE8667FD60
+        public void .ctor(){} // RVA: 0x7FFE86675810
     }
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject children;
-        public System.Collections.Generic.List`1<T> Item;
+        public UnityEngine.GameObject _annotationPrefab;
+        public System.Collections.Generic.List`1<T> _children;
+        public object field_2; // 0x24F
+        public object field_3; // 0x250
+        public object field_4; // 0x251
 
         // ── Methods ──
-        public void get_children(){} // RVA: 0x7FFAC2C58E90
-        public void get_Item(){} // RVA: 0x7FFAC2E8DC40
-        public void get_count(){} // RVA: 0x7FFAC2C59960
-        public void Fill(){} // RVA: 0x7FFAC2C70ED0
-        public void Add(){} // RVA: 0x7FFAC2E8DC40
-        public void set_isMirrored(){} // RVA: 0x7FFAC2C71060
-        public void set_rotationAngle(){} // RVA: 0x7FFAC2C70ED0
-        public void Destroy(){} // RVA: 0x7FFAC2C70980
-        public void InstantiateChild(){} // RVA: 0x7FFAC2E8DC40
-        public void CallActionForAll(){} // RVA: 0x7FFAC2C79B30
-        public void .ctor(){} // RVA: 0x7FFAC2C70980
+        public void get_children(){} // RVA: 0x7FFE80E2E2E0
+        public void get_Item(){} // RVA: 0x7FFE810A1420
+        public void get_count(){} // RVA: 0x7FFE80E2EDB0
+        public void Fill(){} // RVA: 0x7FFE80E46530
+        public void Add(){} // RVA: 0x7FFE810A1420
+        public void set_isMirrored(){} // RVA: 0x7FFE80E466C0
+        public void set_rotationAngle(){} // RVA: 0x7FFE80E46530
+        public void Destroy(){} // RVA: 0x7FFE80E45FE0
+        public void InstantiateChild(){} // RVA: 0x7FFE810A1420
+        public void CallActionForAll(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class Logger : Object
     {
-        public 0x6B215730 MinLogLevel;
+        public 0x6660EFF4 _minLogLevel;
 
         // ── Methods ──
-        public void set_MinLogLevel(){} // RVA: 0x7FFAC82E8C70
-        public void .cctor(){} // RVA: 0x7FFAC82E8CD0
+        public void set_MinLogLevel(){} // RVA: 0x7FFE86692570
+        public void .cctor(){} // RVA: 0x7FFE866925D0
     }
 
     public class MaskAnnotation : HierarchicalAnnotation
     {
-        public UnityEngine.UI.RawImage _screen; // 0x30
-        public UnityEngine.Shader _maskShader; // 0x38
-        public UnityEngine.Texture2D _maskTexture; // 0x40
-        public UnityEngine.Color _color; // 0x48
-        public float _threshold; // 0x58
-        public UnityEngine.Material _prevMaterial; // 0x60
-        public UnityEngine.Material _material; // 0x68
-        public UnityEngine.GraphicsBuffer _maskBuffer; // 0x70
-        public float[] _maskArray; // 0x78
-
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFAC82D6570
-        public void OnDisable(){} // RVA: 0x7FFAC82D65B0
-        public void OnDestroy(){} // RVA: 0x7FFAC82D6690
-        public void Init(){} // RVA: 0x7FFAC82D6710
-        public void Read(){} // RVA: 0x7FFAC82D6900
-        public void Clear(){} // RVA: 0x7FFAC82D6930
-        public void Draw(){} // RVA: 0x7FFAC82D69A0 | overloaded x2
-        public void CreateMonoColorTexture(){} // RVA: 0x7FFAC82D69E0
-        public void InitMaskBuffer(){} // RVA: 0x7FFAC82D6B80
-        public void ApplyMaterial(){} // RVA: 0x7FFAC82D6DE0
-        public void ApplyMaskTexture(){} // RVA: 0x7FFAC82D7040
-        public void ApplyThreshold(){} // RVA: 0x7FFAC82D7230
-        public void .ctor(){} // RVA: 0x7FFAC82D7340
+        public void OnEnable(){} // RVA: 0x7FFE8667FE70
+        public void OnDisable(){} // RVA: 0x7FFE8667FEB0
+        public void OnDestroy(){} // RVA: 0x7FFE8667FF90
+        public void Init(){} // RVA: 0x7FFE86680010
+        public void Read(){} // RVA: 0x7FFE86680200
+        public void Clear(){} // RVA: 0x7FFE86680230
+        public void Draw(){} // RVA: 0x7FFE866802A0 | overloaded x2
+        public void CreateMonoColorTexture(){} // RVA: 0x7FFE866802E0
+        public void InitMaskBuffer(){} // RVA: 0x7FFE86680480
+        public void ApplyMaterial(){} // RVA: 0x7FFE866806E0
+        public void ApplyMaskTexture(){} // RVA: 0x7FFE86680940
+        public void ApplyThreshold(){} // RVA: 0x7FFE86680B30
+        public void .ctor(){} // RVA: 0x7FFE86680C40
     }
 
     public class MaskAnnotationController : AnnotationController`1
     {
-        public int _maskWidth; // 0x38
-        public int _maskHeight; // 0x3C
-        public Mediapipe.ImageFrame _currentTarget; // 0x40
-
         // ── Methods ──
-        public void InitScreen(){} // RVA: 0x7FFAC82D73A0
-        public void DrawNow(){} // RVA: 0x7FFAC82D73D0
-        public void DrawLater(){} // RVA: 0x7FFAC82D7480
-        public void UpdateMaskArray(){} // RVA: 0x7FFAC82D7510
-        public void SyncNow(){} // RVA: 0x7FFAC82D7550
-        public void .ctor(){} // RVA: 0x7FFAC82D75C0
+        public void InitScreen(){} // RVA: 0x7FFE86680CA0
+        public void DrawNow(){} // RVA: 0x7FFE86680CD0
+        public void DrawLater(){} // RVA: 0x7FFE86680D80
+        public void UpdateMaskArray(){} // RVA: 0x7FFE86680E10
+        public void SyncNow(){} // RVA: 0x7FFE86680E50
+        public void .ctor(){} // RVA: 0x7FFE86680EC0
     }
 
     public class MaskOverlayAnnotation : HierarchicalAnnotation
     {
-        public UnityEngine.Shader _maskShader; // 0x30
-        public UnityEngine.Texture2D _maskTexture; // 0x38
-        public UnityEngine.Color _color; // 0x40
-        public float _threshold; // 0x50
-        public UnityEngine.GameObject _screenObject; // 0x58
-        public UnityEngine.UI.RawImage _screen; // 0x60
-        public UnityEngine.Material _prevMaterial; // 0x68
-        public UnityEngine.Material _material; // 0x70
-        public UnityEngine.GraphicsBuffer _maskBuffer; // 0x78
-        public float[] _maskArray; // 0x80
-
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFAC82D7630
-        public void OnDisable(){} // RVA: 0x7FFAC82D7780
-        public void OnDestroy(){} // RVA: 0x7FFAC82D7940
-        public void Init(){} // RVA: 0x7FFAC82D7AB0
-        public void SetMaskTexture(){} // RVA: 0x7FFAC82D7FD0
-        public void SetThreshold(){} // RVA: 0x7FFAC82D8050
-        public void Read(){} // RVA: 0x7FFAC82D80A0 | overloaded x2
-        public void Clear(){} // RVA: 0x7FFAC82D80E0
-        public void Draw(){} // RVA: 0x7FFAC82D81D0 | overloaded x3
-        public void CreateMonoColorTexture(){} // RVA: 0x7FFAC82D8210
-        public void InitMaskBuffer(){} // RVA: 0x7FFAC82D83B0
-        public void ApplyMaterial(){} // RVA: 0x7FFAC82D8620
-        public void ApplyMaskTexture(){} // RVA: 0x7FFAC82D8880
-        public void ApplyThreshold(){} // RVA: 0x7FFAC82D8A70
-        public void .ctor(){} // RVA: 0x7FFAC82D8B80
+        public void OnEnable(){} // RVA: 0x7FFE86680F30
+        public void OnDisable(){} // RVA: 0x7FFE86681080
+        public void OnDestroy(){} // RVA: 0x7FFE86681240
+        public void Init(){} // RVA: 0x7FFE866813B0
+        public void SetMaskTexture(){} // RVA: 0x7FFE866818D0
+        public void SetThreshold(){} // RVA: 0x7FFE86681950
+        public void Read(){} // RVA: 0x7FFE866819A0 | overloaded x2
+        public void Clear(){} // RVA: 0x7FFE866819E0
+        public void Draw(){} // RVA: 0x7FFE86681AD0 | overloaded x3
+        public void CreateMonoColorTexture(){} // RVA: 0x7FFE86681B10
+        public void InitMaskBuffer(){} // RVA: 0x7FFE86681CB0
+        public void ApplyMaterial(){} // RVA: 0x7FFE86681F20
+        public void ApplyMaskTexture(){} // RVA: 0x7FFE86682180
+        public void ApplyThreshold(){} // RVA: 0x7FFE86682370
+        public void .ctor(){} // RVA: 0x7FFE86682480
     }
 
     public class MultiFaceLandmarkListAnnotation : ListAnnotation`1
     {
-        public UnityEngine.Color _faceLandmarkColor; // 0x40
-        public UnityEngine.Color _irisLandmarkColor; // 0x50
-        public float _faceLandmarkRadius; // 0x60
-        public float _irisLandmarkRadius; // 0x64
-        public UnityEngine.Color _faceConnectionColor; // 0x68
-        public UnityEngine.Color _irisCircleColor; // 0x78
-        public float _faceConnectionWidth; // 0x88
-        public float _irisCircleWidth; // 0x8C
-
         // ── Methods ──
-        public void SetFaceLandmarkRadius(){} // RVA: 0x7FFAC82D8BE0
-        public void SetIrisLandmarkRadius(){} // RVA: 0x7FFAC82D8BF0
-        public void SetFaceLandmarkColor(){} // RVA: 0x7FFAC82D8C00
-        public void SetIrisLandmarkColor(){} // RVA: 0x7FFAC82D8C30
-        public void SetFaceConnectionWidth(){} // RVA: 0x7FFAC82D8C60
-        public void SetFaceConnectionColor(){} // RVA: 0x7FFAC82D8C70
-        public void SetIrisCircleWidth(){} // RVA: 0x7FFAC82D8CA0
-        public void SetIrisCircleColor(){} // RVA: 0x7FFAC82D8CB0
-        public void Draw(){} // RVA: 0x7FFAC82D8DF0 | overloaded x2
-        public void InstantiateChild(){} // RVA: 0x7FFAC82D8F00
-        public void ApplyFaceLandmarkRadius(){} // RVA: 0x7FFAC82D91A0
-        public void ApplyIrisLandmarkRadius(){} // RVA: 0x7FFAC82D93E0
-        public void ApplyFaceLandmarkColor(){} // RVA: 0x7FFAC82D9600
-        public void ApplyIrisLandmarkColor(){} // RVA: 0x7FFAC82D9860
-        public void ApplyFaceConnectionWidth(){} // RVA: 0x7FFAC82D9AA0
-        public void ApplyFaceConnectionColor(){} // RVA: 0x7FFAC82D9CE0
-        public void ApplyIrisCircleWidth(){} // RVA: 0x7FFAC82D9F40
-        public void ApplyIrisCircleColor(){} // RVA: 0x7FFAC82DA160
-        public void .ctor(){} // RVA: 0x7FFAC82DA3A0
+        public void SetFaceLandmarkRadius(){} // RVA: 0x7FFE866824E0
+        public void SetIrisLandmarkRadius(){} // RVA: 0x7FFE866824F0
+        public void SetFaceLandmarkColor(){} // RVA: 0x7FFE86682500
+        public void SetIrisLandmarkColor(){} // RVA: 0x7FFE86682530
+        public void SetFaceConnectionWidth(){} // RVA: 0x7FFE86682560
+        public void SetFaceConnectionColor(){} // RVA: 0x7FFE86682570
+        public void SetIrisCircleWidth(){} // RVA: 0x7FFE866825A0
+        public void SetIrisCircleColor(){} // RVA: 0x7FFE866825B0
+        public void Draw(){} // RVA: 0x7FFE866826F0 | overloaded x2
+        public void InstantiateChild(){} // RVA: 0x7FFE86682800
+        public void ApplyFaceLandmarkRadius(){} // RVA: 0x7FFE86682AA0
+        public void ApplyIrisLandmarkRadius(){} // RVA: 0x7FFE86682CE0
+        public void ApplyFaceLandmarkColor(){} // RVA: 0x7FFE86682F00
+        public void ApplyIrisLandmarkColor(){} // RVA: 0x7FFE86683160
+        public void ApplyFaceConnectionWidth(){} // RVA: 0x7FFE866833A0
+        public void ApplyFaceConnectionColor(){} // RVA: 0x7FFE866835E0
+        public void ApplyIrisCircleWidth(){} // RVA: 0x7FFE86683840
+        public void ApplyIrisCircleColor(){} // RVA: 0x7FFE86683A60
+        public void .ctor(){} // RVA: 0x7FFE86683CA0
     }
 
     public class MultiFaceLandmarkListAnnotationController : AnnotationController`1
     {
-        public bool _visualizeZ; // 0x38
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedLandmarkList> _currentTarget; // 0x40
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82CE030
-        public void DrawLater(){} // RVA: 0x7FFAC82DA770
-        public void SyncNow(){} // RVA: 0x7FFAC82DA7D0
-        public void .ctor(){} // RVA: 0x7FFAC82DA8F0
+        public void DrawNow(){} // RVA: 0x7FFE86677930
+        public void DrawLater(){} // RVA: 0x7FFE86684070
+        public void SyncNow(){} // RVA: 0x7FFE866840D0
+        public void .ctor(){} // RVA: 0x7FFE866841F0
     }
 
     public class MultiHandLandmarkListAnnotation : ListAnnotation`1
     {
-        public UnityEngine.Color _leftLandmarkColor; // 0x40
-        public UnityEngine.Color _rightLandmarkColor; // 0x50
-        public float _landmarkRadius; // 0x60
-        public UnityEngine.Color _connectionColor; // 0x64
-        public float _connectionWidth; // 0x74
-
         // ── Methods ──
-        public void SetLeftLandmarkColor(){} // RVA: 0x7FFAC82DA960
-        public void SetRightLandmarkColor(){} // RVA: 0x7FFAC82DA990
-        public void SetLandmarkRadius(){} // RVA: 0x7FFAC82DA9C0
-        public void SetConnectionColor(){} // RVA: 0x7FFAC82DA9D0
-        public void SetConnectionWidth(){} // RVA: 0x7FFAC82DAA00
-        public void SetHandedness(){} // RVA: 0x7FFAC82DAD10 | overloaded x2
-        public void Draw(){} // RVA: 0x7FFAC82DB120 | overloaded x2
-        public void InstantiateChild(){} // RVA: 0x7FFAC82DB230
-        public void ApplyLeftLandmarkColor(){} // RVA: 0x7FFAC82DB300
-        public void ApplyRightLandmarkColor(){} // RVA: 0x7FFAC82DB520
-        public void ApplyLandmarkRadius(){} // RVA: 0x7FFAC82DB740
-        public void ApplyConnectionColor(){} // RVA: 0x7FFAC82DB970
-        public void ApplyConnectionWidth(){} // RVA: 0x7FFAC82DBBC0
-        public void .ctor(){} // RVA: 0x7FFAC82DBDF0
+        public void SetLeftLandmarkColor(){} // RVA: 0x7FFE86684260
+        public void SetRightLandmarkColor(){} // RVA: 0x7FFE86684290
+        public void SetLandmarkRadius(){} // RVA: 0x7FFE866842C0
+        public void SetConnectionColor(){} // RVA: 0x7FFE866842D0
+        public void SetConnectionWidth(){} // RVA: 0x7FFE86684300
+        public void SetHandedness(){} // RVA: 0x7FFE86684610 | overloaded x2
+        public void Draw(){} // RVA: 0x7FFE86684A20 | overloaded x2
+        public void InstantiateChild(){} // RVA: 0x7FFE86684B30
+        public void ApplyLeftLandmarkColor(){} // RVA: 0x7FFE86684C00
+        public void ApplyRightLandmarkColor(){} // RVA: 0x7FFE86684E20
+        public void ApplyLandmarkRadius(){} // RVA: 0x7FFE86685040
+        public void ApplyConnectionColor(){} // RVA: 0x7FFE86685270
+        public void ApplyConnectionWidth(){} // RVA: 0x7FFE866854C0
+        public void .ctor(){} // RVA: 0x7FFE866856F0
     }
 
     public class MultiHandLandmarkListAnnotationController : AnnotationController`1
     {
-        public bool _visualizeZ; // 0x38
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedLandmarkList> _currentHandLandmarkLists; // 0x40
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.ClassificationList> _currentHandedness; // 0x48
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82DC130
-        public void DrawLater(){} // RVA: 0x7FFAC82DC250 | overloaded x2
-        public void SyncNow(){} // RVA: 0x7FFAC82DC2B0
-        public void .ctor(){} // RVA: 0x7FFAC82DC440
+        public void DrawNow(){} // RVA: 0x7FFE86685A30
+        public void DrawLater(){} // RVA: 0x7FFE86685B50 | overloaded x2
+        public void SyncNow(){} // RVA: 0x7FFE86685BB0
+        public void .ctor(){} // RVA: 0x7FFE86685D40
     }
 
     public class MultiPoseLandmarkListAnnotation : ListAnnotation`1
     {
-        public UnityEngine.Color _leftLandmarkColor; // 0x40
-        public UnityEngine.Color _rightLandmarkColor; // 0x50
-        public float _landmarkRadius; // 0x60
-        public UnityEngine.Color _connectionColor; // 0x64
-        public float _connectionWidth; // 0x74
-
         // ── Methods ──
-        public void SetLeftLandmarkColor(){} // RVA: 0x7FFAC82DC4B0
-        public void SetRightLandmarkColor(){} // RVA: 0x7FFAC82DC4E0
-        public void SetLandmarkRadius(){} // RVA: 0x7FFAC82DC510
-        public void SetConnectionColor(){} // RVA: 0x7FFAC82DC520
-        public void SetConnectionWidth(){} // RVA: 0x7FFAC82DC550
-        public void Draw(){} // RVA: 0x7FFAC82DC670 | overloaded x2
-        public void InstantiateChild(){} // RVA: 0x7FFAC82DC780
-        public void ApplyLeftLandmarkColor(){} // RVA: 0x7FFAC82DC880
-        public void ApplyRightLandmarkColor(){} // RVA: 0x7FFAC82DCAC0
-        public void ApplyLandmarkRadius(){} // RVA: 0x7FFAC82DCD00
-        public void ApplyConnectionColor(){} // RVA: 0x7FFAC82DCF30
-        public void ApplyConnectionWidth(){} // RVA: 0x7FFAC82DD180
-        public void .ctor(){} // RVA: 0x7FFAC82DD3B0
+        public void SetLeftLandmarkColor(){} // RVA: 0x7FFE86685DB0
+        public void SetRightLandmarkColor(){} // RVA: 0x7FFE86685DE0
+        public void SetLandmarkRadius(){} // RVA: 0x7FFE86685E10
+        public void SetConnectionColor(){} // RVA: 0x7FFE86685E20
+        public void SetConnectionWidth(){} // RVA: 0x7FFE86685E50
+        public void Draw(){} // RVA: 0x7FFE86685F70 | overloaded x2
+        public void InstantiateChild(){} // RVA: 0x7FFE86686080
+        public void ApplyLeftLandmarkColor(){} // RVA: 0x7FFE86686180
+        public void ApplyRightLandmarkColor(){} // RVA: 0x7FFE866863C0
+        public void ApplyLandmarkRadius(){} // RVA: 0x7FFE86686600
+        public void ApplyConnectionColor(){} // RVA: 0x7FFE86686830
+        public void ApplyConnectionWidth(){} // RVA: 0x7FFE86686A80
+        public void .ctor(){} // RVA: 0x7FFE86686CB0
     }
 
     public class MultiPoseLandmarkListWithMaskAnnotation : ListAnnotation`1
     {
-        public UnityEngine.Color _leftLandmarkColor; // 0x40
-        public UnityEngine.Color _rightLandmarkColor; // 0x50
-        public float _landmarkRadius; // 0x60
-        public UnityEngine.Color _connectionColor; // 0x64
-        public float _connectionWidth; // 0x74
-        public UnityEngine.UI.RawImage _screen; // 0x78
-        public UnityEngine.Texture2D _maskTexture; // 0x80
-        public UnityEngine.Color _color; // 0x88
-        public float _maskThreshold; // 0x98
-        public int _maskWidth; // 0x9C
-        public int _maskHeight; // 0xA0
-
         // ── Methods ──
-        public void SetLeftLandmarkColor(){} // RVA: 0x7FFAC82DD6D0
-        public void SetRightLandmarkColor(){} // RVA: 0x7FFAC82DD700
-        public void SetLandmarkRadius(){} // RVA: 0x7FFAC82DD730
-        public void SetConnectionColor(){} // RVA: 0x7FFAC82DD740
-        public void SetConnectionWidth(){} // RVA: 0x7FFAC82DD770
-        public void InitMask(){} // RVA: 0x7FFAC82DD780
-        public void SetMaskTexture(){} // RVA: 0x7FFAC82DD790
-        public void SetMaskThreshold(){} // RVA: 0x7FFAC82DD820
-        public void ReadMask(){} // RVA: 0x7FFAC82DD830
-        public void Draw(){} // RVA: 0x7FFAC82DD910
-        public void InstantiateChild(){} // RVA: 0x7FFAC82DDA20
-        public void ApplyLeftLandmarkColor(){} // RVA: 0x7FFAC82DDC30
-        public void ApplyRightLandmarkColor(){} // RVA: 0x7FFAC82DDE80
-        public void ApplyLandmarkRadius(){} // RVA: 0x7FFAC82DE0D0
-        public void ApplyConnectionColor(){} // RVA: 0x7FFAC82DE310
-        public void ApplyConnectionWidth(){} // RVA: 0x7FFAC82DE570
-        public void ApplyMaskTexture(){} // RVA: 0x7FFAC82DE7B0
-        public void ApplyMaskThreshold(){} // RVA: 0x7FFAC82DE9F0
-        public void .ctor(){} // RVA: 0x7FFAC82DEC20
+        public void SetLeftLandmarkColor(){} // RVA: 0x7FFE86686FD0
+        public void SetRightLandmarkColor(){} // RVA: 0x7FFE86687000
+        public void SetLandmarkRadius(){} // RVA: 0x7FFE86687030
+        public void SetConnectionColor(){} // RVA: 0x7FFE86687040
+        public void SetConnectionWidth(){} // RVA: 0x7FFE86687070
+        public void InitMask(){} // RVA: 0x7FFE86687080
+        public void SetMaskTexture(){} // RVA: 0x7FFE86687090
+        public void SetMaskThreshold(){} // RVA: 0x7FFE86687120
+        public void ReadMask(){} // RVA: 0x7FFE86687130
+        public void Draw(){} // RVA: 0x7FFE86687210
+        public void InstantiateChild(){} // RVA: 0x7FFE86687320
+        public void ApplyLeftLandmarkColor(){} // RVA: 0x7FFE86687530
+        public void ApplyRightLandmarkColor(){} // RVA: 0x7FFE86687780
+        public void ApplyLandmarkRadius(){} // RVA: 0x7FFE866879D0
+        public void ApplyConnectionColor(){} // RVA: 0x7FFE86687C10
+        public void ApplyConnectionWidth(){} // RVA: 0x7FFE86687E70
+        public void ApplyMaskTexture(){} // RVA: 0x7FFE866880B0
+        public void ApplyMaskThreshold(){} // RVA: 0x7FFE866882F0
+        public void .ctor(){} // RVA: 0x7FFE86688520
     }
 
     public class NormalizedLandmarkListAnnotationController : AnnotationController`1
     {
-        public bool _visualizeZ; // 0x38
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedLandmark> _currentTarget; // 0x40
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82DEF50 | overloaded x3
-        public void DrawLater(){} // RVA: 0x7FFAC82DF050 | overloaded x3
-        public void SyncNow(){} // RVA: 0x7FFAC82DF0B0
-        public void FlattenNormalizedLandmarkLists(){} // RVA: 0x7FFAC82DF0E0
-        public void .ctor(){} // RVA: 0x7FFAC82DF440
+        public void DrawNow(){} // RVA: 0x7FFE86688850 | overloaded x3
+        public void DrawLater(){} // RVA: 0x7FFE86688950 | overloaded x3
+        public void SyncNow(){} // RVA: 0x7FFE866889B0
+        public void FlattenNormalizedLandmarkLists(){} // RVA: 0x7FFE866889E0
+        public void .ctor(){} // RVA: 0x7FFE86688D40
     }
 
     public class NormalizedRectAnnotationController : AnnotationController`1
     {
-        public Mediapipe.NormalizedRect _currentTarget; // 0x38
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82DF550
-        public void DrawLater(){} // RVA: 0x7FFAC82DF5C0
-        public void SyncNow(){} // RVA: 0x7FFAC82DF620
-        public void .ctor(){} // RVA: 0x7FFAC82DF650
+        public void DrawNow(){} // RVA: 0x7FFE86688E50
+        public void DrawLater(){} // RVA: 0x7FFE86688EC0
+        public void SyncNow(){} // RVA: 0x7FFE86688F20
+        public void .ctor(){} // RVA: 0x7FFE86688F50
     }
 
     public class NormalizedRectListAnnotationController : AnnotationController`1
     {
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedRect> _currentTarget; // 0x38
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82DF550
-        public void DrawLater(){} // RVA: 0x7FFAC82DF6C0
-        public void SyncNow(){} // RVA: 0x7FFAC82DF720
-        public void .ctor(){} // RVA: 0x7FFAC82DF8E0
+        public void DrawNow(){} // RVA: 0x7FFE86688E50
+        public void DrawLater(){} // RVA: 0x7FFE86688FC0
+        public void SyncNow(){} // RVA: 0x7FFE86689020
+        public void .ctor(){} // RVA: 0x7FFE866891E0
     }
 
     public class OutputStream`1 : Object
     {
-        public int outputPacket;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<T>> referencePacket;
-        public Mediapipe.CalculatorGraph _calculatorGraph;
-        public int _id;
-        public string streamName;
-        public bool observeTimestampBounds;
-        public Mediapipe.OutputStreamPoller`1<T> _poller;
-        public Mediapipe.Packet`1<T> _outputPacket;
-        public System.Threading.ReaderWriterLockSlim _waitTaskLock;
-        public System.Threading.Tasks.Task`1<NextResult<T>> _waitTask;
-        public System.EventHandler`1<OutputEventArgs<T>> OnReceived;
-        public long _lastTimestampMicrosec;
-        public Mediapipe.Packet`1<T> _referencePacket;
-        public int _disposeSignaled;
-        public bool _isDisposed;
+        public int _Counter;
+        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<T>> _InstanceTable;
 
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x7FFAC2C58E90
-        public void add_OnReceived(){} // RVA: 0x7FFAC2C70A40
-        public void remove_OnReceived(){} // RVA: 0x7FFAC2C70A40
-        public void get_referencePacket(){} // RVA: 0x7FFAC2C58E90
+        public void get_outputPacket(){} // RVA: 0x7FFE80E2E2E0
+        public void add_OnReceived(){} // RVA: 0x7FFE80E460A0
+        public void remove_OnReceived(){} // RVA: 0x7FFE80E460A0
+        public void get_referencePacket(){} // RVA: 0x7FFE80E2E2E0
         public void .ctor(){}
-        public void Dispose(){} // RVA: 0x7FFAC2C71060 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x7FFAC2C70980
-        public void DisposeUnmanaged(){} // RVA: 0x7FFAC2C70980
-        public void Finalize(){} // RVA: 0x7FFAC2C70980
-        public void StartPolling(){} // RVA: 0x7FFAC2C70980
-        public void AddListener(){} // RVA: 0x7FFAC2C761B0
-        public void RemoveListener(){} // RVA: 0x7FFAC2C70A40
-        public void WaitNextAsync(){} // RVA: 0x7FFAC2C58E90
-        public void WaitNextInternal(){} // RVA: 0x7FFAC2C58E90
-        public void StartWaitNextTask(){} // RVA: 0x7FFAC2C58E90
-        public void Next(){} // RVA: 0x7FFAC2C59F60
-        public void ClearWaitTask(){} // RVA: 0x7FFAC2C70980
-        public void InvokeOnReceived(){} // RVA: 0x7FFAC2C70A40
-        public void ThrowIfDisposed(){} // RVA: 0x7FFAC2C70980
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x7FFAC2C6F1A0
-        public void .cctor(){} // RVA: 0x7FFAC2C709B0
+        public void Dispose(){} // RVA: 0x7FFE80E466C0 | overloaded x2
+        public void DisposeManaged(){} // RVA: 0x7FFE80E45FE0
+        public void DisposeUnmanaged(){} // RVA: 0x7FFE80E45FE0
+        public void Finalize(){} // RVA: 0x7FFE80E45FE0
+        public void StartPolling(){} // RVA: 0x7FFE80E45FE0
+        public void AddListener(){} // RVA: 0x7FFE80E4B8B0
+        public void RemoveListener(){} // RVA: 0x7FFE80E460A0
+        public void WaitNextAsync(){} // RVA: 0x7FFE80E2E2E0
+        public void WaitNextInternal(){} // RVA: 0x7FFE80E2E2E0
+        public void StartWaitNextTask(){} // RVA: 0x7FFE80E2E2E0
+        public void Next(){} // RVA: 0x7FFE80E2F3B0
+        public void ClearWaitTask(){} // RVA: 0x7FFE80E45FE0
+        public void InvokeOnReceived(){} // RVA: 0x7FFE80E460A0
+        public void ThrowIfDisposed(){} // RVA: 0x7FFE80E45FE0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7FFE80E447F0
+        public void .cctor(){} // RVA: 0x7FFE80E46010
     }
 
     public class PointAnnotation : HierarchicalAnnotation
     {
-        public UnityEngine.Color _color; // 0x30
-        public float _radius; // 0x40
-
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFAC82DF950
-        public void OnDisable(){} // RVA: 0x7FFAC82DF990
-        public void SetColor(){} // RVA: 0x7FFAC82DF9A0
-        public void SetRadius(){} // RVA: 0x7FFAC82DF9D0
-        public void Draw(){} // RVA: 0x7FFAC82E0350 | overloaded x6
-        public void ApplyColor(){} // RVA: 0x7FFAC82E05A0
-        public void ApplyRadius(){} // RVA: 0x7FFAC82E0660
-        public void GetColor(){} // RVA: 0x7FFAC82E0780
-        public void .ctor(){} // RVA: 0x7FFAC82E0800
+        public void OnEnable(){} // RVA: 0x7FFE86689250
+        public void OnDisable(){} // RVA: 0x7FFE86689290
+        public void SetColor(){} // RVA: 0x7FFE866892A0
+        public void SetRadius(){} // RVA: 0x7FFE866892D0
+        public void Draw(){} // RVA: 0x7FFE86689C50 | overloaded x6
+        public void ApplyColor(){} // RVA: 0x7FFE86689EA0
+        public void ApplyRadius(){} // RVA: 0x7FFE86689F60
+        public void GetColor(){} // RVA: 0x7FFE8668A080
+        public void .ctor(){} // RVA: 0x7FFE8668A100
     }
 
     public class PointListAnnotation : ListAnnotation`1
     {
-        public UnityEngine.Color _color; // 0x40
-        public float _radius; // 0x50
-
         // ── Methods ──
-        public void SetColor(){} // RVA: 0x7FFAC82E0860
-        public void SetRadius(){} // RVA: 0x7FFAC82E0890
-        public void Draw(){} // RVA: 0x7FFAC82E0F20 | overloaded x9
-        public void InstantiateChild(){} // RVA: 0x7FFAC82E1030
-        public void ApplyColor(){} // RVA: 0x7FFAC82E10D0
-        public void ApplyRadius(){} // RVA: 0x7FFAC82E1310
-        public void .ctor(){} // RVA: 0x7FFAC82E1530
+        public void SetColor(){} // RVA: 0x7FFE8668A160
+        public void SetRadius(){} // RVA: 0x7FFE8668A190
+        public void Draw(){} // RVA: 0x7FFE8668A820 | overloaded x9
+        public void InstantiateChild(){} // RVA: 0x7FFE8668A930
+        public void ApplyColor(){} // RVA: 0x7FFE8668A9D0
+        public void ApplyRadius(){} // RVA: 0x7FFE8668AC10
+        public void .ctor(){} // RVA: 0x7FFE8668AE30
     }
 
     public class PoseLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PointListAnnotation isMirrored; // 0x30
-        public Mediapipe.Unity.ConnectionListAnnotation rotationAngle; // 0x38
-        public UnityEngine.Color Item; // 0x40
-        public UnityEngine.Color _rightLandmarkColor; // 0x50
-        public int _LandmarkCount;
-        public int[] _LeftLandmarks;
-        public int[] _RightLandmarks; // 0x8
-        public System.Collections.Generic.List`1<System.ValueTuple`2<int,int>> _Connections; // 0x10
+        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x38
+        public UnityEngine.Color _leftLandmarkColor; // 0x40
 
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x7FFAC82CF360
-        public void set_rotationAngle(){} // RVA: 0x7FFAC82CF3D0
-        public void get_Item(){} // RVA: 0x7FFAC82E26F0
-        public void Start(){} // RVA: 0x7FFAC82E2790
-        public void SetLeftLandmarkColor(){} // RVA: 0x7FFAC82E2880
-        public void SetRightLandmarkColor(){} // RVA: 0x7FFAC82E28B0
-        public void SetLandmarkRadius(){} // RVA: 0x7FFAC82CF4E0
-        public void SetConnectionColor(){} // RVA: 0x7FFAC82CF510
-        public void SetConnectionWidth(){} // RVA: 0x7FFAC82CF550
-        public void Draw(){} // RVA: 0x7FFAC82E2F90 | overloaded x10
-        public void ApplyLeftLandmarkColor(){} // RVA: 0x7FFAC82E3040
-        public void ApplyRightLandmarkColor(){} // RVA: 0x7FFAC82E3270
-        public void ApplyMask(){} // RVA: 0x7FFAC82E34A0
-        public void .ctor(){} // RVA: 0x7FFAC82E3A40
-        public void .cctor(){} // RVA: 0x7FFAC82E3AA0
+        public void set_isMirrored(){} // RVA: 0x7FFE86678C60
+        public void set_rotationAngle(){} // RVA: 0x7FFE86678CD0
+        public void get_Item(){} // RVA: 0x7FFE8668BFF0
+        public void Start(){} // RVA: 0x7FFE8668C090
+        public void SetLeftLandmarkColor(){} // RVA: 0x7FFE8668C180
+        public void SetRightLandmarkColor(){} // RVA: 0x7FFE8668C1B0
+        public void SetLandmarkRadius(){} // RVA: 0x7FFE86678DE0
+        public void SetConnectionColor(){} // RVA: 0x7FFE86678E10
+        public void SetConnectionWidth(){} // RVA: 0x7FFE86678E50
+        public void Draw(){} // RVA: 0x7FFE8668C890 | overloaded x10
+        public void ApplyLeftLandmarkColor(){} // RVA: 0x7FFE8668C940
+        public void ApplyRightLandmarkColor(){} // RVA: 0x7FFE8668CB70
+        public void ApplyMask(){} // RVA: 0x7FFE8668CDA0
+        public void .ctor(){} // RVA: 0x7FFE8668D340
+        public void .cctor(){} // RVA: 0x7FFE8668D3A0
     }
 
     public class PoseLandmarkListAnnotationController : AnnotationController`1
     {
-        public bool _visualizeZ; // 0x38
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.NormalizedLandmark> _currentTarget; // 0x40
-
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x7FFAC82D10A0 | overloaded x2
-        public void DrawLater(){} // RVA: 0x7FFAC82E4B40 | overloaded x2
-        public void SyncNow(){} // RVA: 0x7FFAC82E4BB0
-        public void .ctor(){} // RVA: 0x7FFAC82E4C80
+        public void DrawNow(){} // RVA: 0x7FFE8667A9A0 | overloaded x2
+        public void DrawLater(){} // RVA: 0x7FFE8668E440 | overloaded x2
+        public void SyncNow(){} // RVA: 0x7FFE8668E4B0
+        public void .ctor(){} // RVA: 0x7FFE8668E580
     }
 
     public class PoseLandmarkListWithMaskAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PoseLandmarkListAnnotation isMirrored; // 0x30
-        public Mediapipe.Unity.MaskOverlayAnnotation rotationAngle; // 0x38
+        public Mediapipe.Unity.PoseLandmarkListAnnotation _poseLandmarkListAnnotation; // 0x30
+        public Mediapipe.Unity.MaskOverlayAnnotation _maskOverlayAnnotation; // 0x38
 
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x7FFAC82CF360
-        public void set_rotationAngle(){} // RVA: 0x7FFAC82CF3D0
-        public void InitMask(){} // RVA: 0x7FFAC82E4CF0
-        public void SetLeftLandmarkColor(){} // RVA: 0x7FFAC82E4D20
-        public void SetRightLandmarkColor(){} // RVA: 0x7FFAC82E4D60
-        public void SetLandmarkRadius(){} // RVA: 0x7FFAC82D1380
-        public void SetConnectionColor(){} // RVA: 0x7FFAC82D1420
-        public void SetConnectionWidth(){} // RVA: 0x7FFAC82D1460
-        public void SetMaskTexture(){} // RVA: 0x7FFAC82E4DA0
-        public void SetMaskThreshold(){} // RVA: 0x7FFAC82E4E30
-        public void ReadMask(){} // RVA: 0x7FFAC82E4E60
-        public void Draw(){} // RVA: 0x7FFAC82E4EB0
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void set_isMirrored(){} // RVA: 0x7FFE86678C60
+        public void set_rotationAngle(){} // RVA: 0x7FFE86678CD0
+        public void InitMask(){} // RVA: 0x7FFE8668E5F0
+        public void SetLeftLandmarkColor(){} // RVA: 0x7FFE8668E620
+        public void SetRightLandmarkColor(){} // RVA: 0x7FFE8668E660
+        public void SetLandmarkRadius(){} // RVA: 0x7FFE8667AC80
+        public void SetConnectionColor(){} // RVA: 0x7FFE8667AD20
+        public void SetConnectionWidth(){} // RVA: 0x7FFE8667AD60
+        public void SetMaskTexture(){} // RVA: 0x7FFE8668E6A0
+        public void SetMaskThreshold(){} // RVA: 0x7FFE8668E730
+        public void ReadMask(){} // RVA: 0x7FFE8668E760
+        public void Draw(){} // RVA: 0x7FFE8668E7B0
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class PoseLandmarkerResultAnnotationController : AnnotationController`1
     {
-        public bool _visualizeZ; // 0x38
-        public object _currentTargetLock; // 0x40
-        public Mediapipe.Tasks.Vision.PoseLandmarker.PoseLandmarkerResult _currentTarget; // 0x48
-
         // ── Methods ──
-        public void InitScreen(){} // RVA: 0x7FFAC82E1DE0
-        public void DrawNow(){} // RVA: 0x7FFAC82E1E10
-        public void DrawLater(){} // RVA: 0x7FFAC82E1E50
-        public void ReadMask(){} // RVA: 0x7FFAC82E1E80
-        public void UpdateCurrentTarget(){} // RVA: 0x7FFAC82E1FA0
-        public void SyncNow(){} // RVA: 0x7FFAC82E20F0
-        public void .ctor(){} // RVA: 0x7FFAC82E2610
+        public void InitScreen(){} // RVA: 0x7FFE8668B6E0
+        public void DrawNow(){} // RVA: 0x7FFE8668B710
+        public void DrawLater(){} // RVA: 0x7FFE8668B750
+        public void ReadMask(){} // RVA: 0x7FFE8668B780
+        public void UpdateCurrentTarget(){} // RVA: 0x7FFE8668B8A0
+        public void SyncNow(){} // RVA: 0x7FFE8668B9F0
+        public void .ctor(){} // RVA: 0x7FFE8668BF10
     }
 
     public class PoseWorldLandmarkListAnnotationController : AnnotationController`1
     {
-        public float _hipHeightMeter; // 0x38
-        public UnityEngine.Vector3 _scale; // 0x3C
-        public bool _visualizeZ; // 0x48
-        public System.Collections.Generic.IReadOnlyList`1<Mediapipe.Landmark> _currentTarget; // 0x50
-
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFAC82E4F60
-        public void DrawNow(){} // RVA: 0x7FFAC82E50D0 | overloaded x2
-        public void DrawLater(){} // RVA: 0x7FFAC82E51C0 | overloaded x2
-        public void SyncNow(){} // RVA: 0x7FFAC82E5230
-        public void .ctor(){} // RVA: 0x7FFAC82E5310
+        public void Start(){} // RVA: 0x7FFE8668E860
+        public void DrawNow(){} // RVA: 0x7FFE8668E9D0 | overloaded x2
+        public void DrawLater(){} // RVA: 0x7FFE8668EAC0 | overloaded x2
+        public void SyncNow(){} // RVA: 0x7FFE8668EB30
+        public void .ctor(){} // RVA: 0x7FFE8668EC10
     }
 
     public class RectangleAnnotation : HierarchicalAnnotation
     {
-        public UnityEngine.LineRenderer _lineRenderer; // 0x30
-        public UnityEngine.Color _color; // 0x38
-        public float _lineWidth; // 0x48
-        public UnityEngine.Vector3[] _EmptyPositions;
-
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFAC82E53A0
-        public void OnDisable(){} // RVA: 0x7FFAC82E53E0
-        public void SetColor(){} // RVA: 0x7FFAC82E54B0
-        public void SetLineWidth(){} // RVA: 0x7FFAC82E54E0
-        public void Draw(){} // RVA: 0x7FFAC82E5BB0 | overloaded x5
-        public void ApplyColor(){} // RVA: 0x7FFAC82E5D50
-        public void ApplyLineWidth(){} // RVA: 0x7FFAC82E5EF0
-        public void .ctor(){} // RVA: 0x7FFAC82E6000
-        public void .cctor(){} // RVA: 0x7FFAC82E6060
+        public void OnEnable(){} // RVA: 0x7FFE8668ECA0
+        public void OnDisable(){} // RVA: 0x7FFE8668ECE0
+        public void SetColor(){} // RVA: 0x7FFE8668EDB0
+        public void SetLineWidth(){} // RVA: 0x7FFE8668EDE0
+        public void Draw(){} // RVA: 0x7FFE8668F4B0 | overloaded x5
+        public void ApplyColor(){} // RVA: 0x7FFE8668F650
+        public void ApplyLineWidth(){} // RVA: 0x7FFE8668F7F0
+        public void .ctor(){} // RVA: 0x7FFE8668F900
+        public void .cctor(){} // RVA: 0x7FFE8668F960
     }
 
     public class RectangleListAnnotation : ListAnnotation`1
     {
-        public UnityEngine.Color _color; // 0x40
-        public float _lineWidth; // 0x50
-
         // ── Methods ──
-        public void SetColor(){} // RVA: 0x7FFAC82E6250
-        public void SetLineWidth(){} // RVA: 0x7FFAC82E6280
-        public void Draw(){} // RVA: 0x7FFAC82E63A0 | overloaded x2
-        public void InstantiateChild(){} // RVA: 0x7FFAC82E6550
-        public void ApplyColor(){} // RVA: 0x7FFAC82E65F0
-        public void ApplyLineWidth(){} // RVA: 0x7FFAC82E6830
-        public void .ctor(){} // RVA: 0x7FFAC82E6A50
+        public void SetColor(){} // RVA: 0x7FFE8668FB50
+        public void SetLineWidth(){} // RVA: 0x7FFE8668FB80
+        public void Draw(){} // RVA: 0x7FFE8668FCA0 | overloaded x2
+        public void InstantiateChild(){} // RVA: 0x7FFE8668FE50
+        public void ApplyColor(){} // RVA: 0x7FFE8668FEF0
+        public void ApplyLineWidth(){} // RVA: 0x7FFE86690130
+        public void .ctor(){} // RVA: 0x7FFE86690350
     }
 
     public class RotationAngleExtension : Object
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAC82EA510
-        public void Reverse(){} // RVA: 0x7FFAC82EA540
-        public void GetEulerAngles(){} // RVA: 0x7FFAC82EA570
+        public void Add(){} // RVA: 0x7FFE86693E10
+        public void Reverse(){} // RVA: 0x7FFE86693E40
+        public void GetEulerAngles(){} // RVA: 0x7FFE86693E70
     }
 
     public class StreamingAssetsResourceManager : ResourceManager
     {
-        public string _TAG;
-        public string _RelativePath; // 0x8
-        public string _AssetPathRoot; // 0x10
-        public string _CachePathRoot; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC82E9A60 | overloaded x2
-        public void PrepareAssetAsync(){} // RVA: 0x7FFAC82E9AB0
-        public void PathToResourceAsFile(){} // RVA: 0x7FFAC82E9C20
-        public void GetResourceContents(){} // RVA: 0x7FFAC82E9CB0
-        public void CreateCacheFile(){} // RVA: 0x7FFAC82E9D80
-        public void GetAssetPathFor(){} // RVA: 0x7FFAC82E9E20
-        public void GetCachePathFor(){} // RVA: 0x7FFAC82E9EC0
-        public void .cctor(){} // RVA: 0x7FFAC82EA010
+        public void .ctor(){} // RVA: 0x7FFE86693360 | overloaded x2
+        public void PrepareAssetAsync(){} // RVA: 0x7FFE866933B0
+        public void PathToResourceAsFile(){} // RVA: 0x7FFE86693520
+        public void GetResourceContents(){} // RVA: 0x7FFE866935B0
+        public void CreateCacheFile(){} // RVA: 0x7FFE86693680
+        public void GetAssetPathFor(){} // RVA: 0x7FFE86693720
+        public void GetCachePathFor(){} // RVA: 0x7FFE866937C0
+        public void .cctor(){} // RVA: 0x7FFE86693910
     }
 
 }

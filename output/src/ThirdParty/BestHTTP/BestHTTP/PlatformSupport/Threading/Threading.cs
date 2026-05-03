@@ -8,8 +8,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.PlatformSupport.Threading
     public class ThreadedRunner : Object
     {
         // ── Methods ──
-        public void RunShortLiving(){} // RVA: 0x7FFACBE04540 | overloaded x4
-        public void RunLongLiving(){} // RVA: 0x7FFACBE04630
+        public void RunShortLiving(){} // RVA: 0x7FFE8A25DB60 | overloaded x4
+        public void RunLongLiving(){} // RVA: 0x7FFE8A25DC50
     }
 
 }

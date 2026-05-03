@@ -7,73 +7,54 @@ namespace VRC.SDK.Internal.Tutorial
 {
     public class DistanceEnabler : MonoBehaviour
     {
-        public float enableDistance; // 0x20
-        public UnityEngine.GameObject objectToEnable; // 0x28
-        public UnityEngine.GameObject objectToDisable; // 0x30
-        public bool gotObjectToEnable; // 0x38
-        public bool gotObjectToDisable; // 0x39
-
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFAC46C25E0
-        public void FixedUpdate(){} // RVA: 0x7FFAC46C2750
-        public void OnDrawGizmos(){} // RVA: 0x7FFAC46C2B10
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void Start(){} // RVA: 0x7FFE829CC050
+        public void FixedUpdate(){} // RVA: 0x7FFE829CC1C0
+        public void OnDrawGizmos(){} // RVA: 0x7FFE829CC580
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class TutorialHelpers : MonoBehaviour
     {
         // ── Methods ──
-        public void ShowLocomotionControls(){} // RVA: 0x7FFAC46C2C90
-        public void Force3PLocomotionSetting(){} // RVA: 0x7FFAC46C2F10
-        public void MoveHaptic(){} // RVA: 0x7FFAC46C2F70
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void ShowLocomotionControls(){} // RVA: 0x7FFE829CC700
+        public void Force3PLocomotionSetting(){} // RVA: 0x7FFE829CC980
+        public void MoveHaptic(){} // RVA: 0x7FFE829CC9E0
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class TutorialHelpers3 : MonoBehaviour
     {
         // ── Methods ──
-        public void Force3PLocomotionSetting(){} // RVA: 0x7FFAC46C31C0
-        public void SetComfortTurning(){} // RVA: 0x7FFAC46C3230
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void Force3PLocomotionSetting(){} // RVA: 0x7FFE829CCC30
+        public void SetComfortTurning(){} // RVA: 0x7FFE829CCCA0
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class TutorialInit : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFAC46C32A0
-        public void Initialize(){} // RVA: 0x7FFAC46C32A0
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void Start(){} // RVA: 0x7FFE829CCD10
+        public void Initialize(){} // RVA: 0x7FFE829CCD10
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
     public class VRCAnalytics : Object
     {
-        public System.Action`2<string,System.Collections.Generic.Dictionary`2<string,object>> _Send;
-        public System.Action`1<System.Collections.Generic.Dictionary`2<string,object>> _SetUserProperties; // 0x8
-        public Action`5<string,string,System.Nullable`1<bool>,int,float> _SendCustomWorldEvent; // 0x10
-
         // ── Methods ──
-        public void Send(){} // RVA: 0x7FFAC46C34C0 | overloaded x2
-        public void SetUserProperties(){} // RVA: 0x7FFAC46C3530
-        public void SendCustomWorldEvent(){} // RVA: 0x7FFAC46C3590
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void Send(){} // RVA: 0x7FFE829CCF30 | overloaded x2
+        public void SetUserProperties(){} // RVA: 0x7FFE829CCFA0
+        public void SendCustomWorldEvent(){} // RVA: 0x7FFE829CD000
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class VRCAvatarCalibrator : MonoBehaviour
     {
-        public string blueprintId; // 0x20
-        public bool grantBlueprintAccess; // 0x28
-        public UnityEngine.Transform Placement; // 0x30
-        public bool ChangeAvatarsOnUse; // 0x38
-        public float scale; // 0x3C
-        public float userEyeHeight; // 0x40
-        public UnityEngine.GameObject Instance; // 0x48
-        public InstantiationDelegate Instantiate;
-
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFAC46C3640
-        public void SwitchAvatar(){} // RVA: 0x7FFAC46C3B20
-        public void UpdateHeight(){} // RVA: 0x7FFAC46C3C80
-        public void .ctor(){} // RVA: 0x7FFAC46C3DA0
+        public void Awake(){} // RVA: 0x7FFE829CD0B0
+        public void SwitchAvatar(){} // RVA: 0x7FFE829CD590
+        public void UpdateHeight(){} // RVA: 0x7FFE829CD6F0
+        public void .ctor(){} // RVA: 0x7FFE829CD810
     }
 
 }

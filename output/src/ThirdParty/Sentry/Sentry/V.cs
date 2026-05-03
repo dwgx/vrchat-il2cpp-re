@@ -7,36 +7,36 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class ViewHierarchy : Object
     {
-        public string RenderingSystem; // 0x10
-        public System.Collections.Generic.List`1<Sentry.ViewHierarchyNode> Windows; // 0x18
+        public string _renderingSystem; // 0x10
+        public System.Collections.Generic.List`1<Sentry.ViewHierarchyNode> _windows; // 0x18
 
         // ── Methods ──
-        public void get_RenderingSystem(){} // RVA: 0x7FFAC2F3C380
-        public void set_RenderingSystem(){} // RVA: 0x7FFAC2F22E30
-        public void get_Windows(){} // RVA: 0x7FFAC2F247C0
-        public void .ctor(){} // RVA: 0x7FFAC8B63780
-        public void WriteTo(){} // RVA: 0x7FFAC8B638A0
+        public void get_RenderingSystem(){} // RVA: 0x7FFE81116380
+        public void set_RenderingSystem(){} // RVA: 0x7FFE810FCE30
+        public void get_Windows(){} // RVA: 0x7FFE810FE7C0
+        public void .ctor(){} // RVA: 0x7FFE86F0CDF0
+        public void WriteTo(){} // RVA: 0x7FFE86F0CF10
     }
 
     public class ViewHierarchyAttachment : SentryAttachment
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8B63AE0
+        public void .ctor(){} // RVA: 0x7FFE86F0D150
     }
 
     public class ViewHierarchyNode : Object
     {
-        public System.Collections.Generic.List`1<Sentry.ViewHierarchyNode> Type; // 0x10
-        public string Children; // 0x18
+        public System.Collections.Generic.List`1<Sentry.ViewHierarchyNode> _children; // 0x10
+        public string _type; // 0x18
 
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x7FFAC2F247C0
-        public void set_Type(){} // RVA: 0x7FFAC2F87E80
-        public void get_Children(){} // RVA: 0x7FFAC8B63B60
-        public void set_Children(){} // RVA: 0x7FFAC2F22E30
-        public void .ctor(){} // RVA: 0x7FFAC2F87E80
-        public void WriteTo(){} // RVA: 0x7FFAC8B63C20
-        public void WriteAdditionalProperties(){} // RVA: 0x7FFAC2C79B30
+        public void get_Type(){} // RVA: 0x7FFE810FE7C0
+        public void set_Type(){} // RVA: 0x7FFE81161E80
+        public void get_Children(){} // RVA: 0x7FFE86F0D1D0
+        public void set_Children(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFE81161E80
+        public void WriteTo(){} // RVA: 0x7FFE86F0D290
+        public void WriteAdditionalProperties(){} // RVA: 0x7FFE80E4F230
     }
 
 }

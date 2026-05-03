@@ -7,14 +7,8 @@ namespace VRC.SDK3
 {
     public class ControllerColliderPlayerHit : Object
     {
-        public VRC.SDKBase.VRCPlayerApi player; // 0x10
-        public UnityEngine.Vector3 moveDirection; // 0x18
-        public float moveLength; // 0x24
-        public UnityEngine.Vector3 normal; // 0x28
-        public UnityEngine.Vector3 point; // 0x34
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class IVRCNetworkId
@@ -24,7 +18,7 @@ namespace VRC.SDK3
     public class VRCTestMarker : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
 }

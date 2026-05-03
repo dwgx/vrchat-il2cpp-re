@@ -20,7 +20,8 @@ import subprocess
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'dumps'))
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 def find_vrchat_pid():

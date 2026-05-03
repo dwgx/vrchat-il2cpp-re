@@ -7,29 +7,22 @@ namespace VRC.Udon.Serialization.Formatters
 {
     public class UdonGameObjectComponentReferenceFormatter : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<System.Type> _typeSerializer;
-
         // ── Methods ──
-        public void GetUninitializedObject(){} // RVA: 0x7FFAC34F9180
-        public void DeserializeImplementation(){} // RVA: 0x7FFAC9E9FA40
-        public void SerializeImplementation(){} // RVA: 0x7FFAC9E9FC20
-        public void .ctor(){} // RVA: 0x7FFAC9E9FCD0
-        public void .cctor(){} // RVA: 0x7FFAC9E9FD30
+        public void GetUninitializedObject(){} // RVA: 0x7FFE813240E0
+        public void DeserializeImplementation(){} // RVA: 0x7FFE88252500
+        public void SerializeImplementation(){} // RVA: 0x7FFE882526E0
+        public void .ctor(){} // RVA: 0x7FFE88252790
+        public void .cctor(){} // RVA: 0x7FFE882527F0
     }
 
     public class UdonProgramFormatter : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<byte[]> _byteArrayReaderWriter;
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<VRC.Udon.Common.Interfaces.IUdonHeap> _udonHeapReaderWriter; // 0x8
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<VRC.Udon.Common.Interfaces.IUdonSymbolTable> _udonSymbolTableReaderWriter; // 0x10
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<VRC.Udon.Common.Interfaces.IUdonSyncMetadataTable> _udonSyncMetadataTableReaderWriter; // 0x18
-
         // ── Methods ──
-        public void GetUninitializedObject(){} // RVA: 0x7FFAC34F9180
-        public void DeserializeImplementation(){} // RVA: 0x7FFAC9E9FE10
-        public void SerializeImplementation(){} // RVA: 0x7FFAC9EA02B0
-        public void .ctor(){} // RVA: 0x7FFAC9EA05B0
-        public void .cctor(){} // RVA: 0x7FFAC9EA0610
+        public void GetUninitializedObject(){} // RVA: 0x7FFE813240E0
+        public void DeserializeImplementation(){} // RVA: 0x7FFE882528D0
+        public void SerializeImplementation(){} // RVA: 0x7FFE88252D70
+        public void .ctor(){} // RVA: 0x7FFE88253070
+        public void .cctor(){} // RVA: 0x7FFE882530D0
     }
 
 }

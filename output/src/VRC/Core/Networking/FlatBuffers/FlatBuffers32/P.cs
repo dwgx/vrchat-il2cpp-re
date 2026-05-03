@@ -1,415 +1,424 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.FlatBuffers.FlatBuffers32
 // Classes: 22
-// Methods: 258
+// Methods: 248
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class PhysBoneChain : ValueType
     {
-        public Google.FlatBuffers32.Struct ByteBuffer; // 0x10
+        public Google.FlatBuffers32.Struct __p; // 0x10
+        public object field_1; // 0x247
+        public object field_2; // 0x248
+        public object field_3; // 0x249
+        public object field_4; // 0x24A
 
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFAC4420220
-        public void __init(){} // RVA: 0x7FFAC9D74EF0
-        public void __assign(){} // RVA: 0x7FFAC9D74FC0
-        public void get_ChainIdA(){} // RVA: 0x7FFAC9DAEDC0
-        public void MutateChainIdA(){} // RVA: 0x7FFAC9DAEDF0
-        public void get_ChainIdB(){} // RVA: 0x7FFAC9DAEE20
-        public void MutateChainIdB(){} // RVA: 0x7FFAC9DAEE50
-        public void get_BoneOffset(){} // RVA: 0x7FFAC9DAFB20
-        public void MutateBoneOffset(){} // RVA: 0x7FFAC9DAFB50
-        public void get_BoneCount(){} // RVA: 0x7FFAC9DAFB80
-        public void MutateBoneCount(){} // RVA: 0x7FFAC9DAFBB0
-        public void CreatePhysBoneChain(){} // RVA: 0x7FFAC9DAFBE0
-        public void UnPack(){} // RVA: 0x7FFAC9DAFD00
-        public void UnPackTo(){} // RVA: 0x7FFAC9DAFDD0
-        public void Pack(){} // RVA: 0x7FFAC9DAFE60
+        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
+        public void __init(){} // RVA: 0x7FFE8811D5B0
+        public void __assign(){} // RVA: 0x7FFE8811D680
+        public void get_ChainIdA(){} // RVA: 0x7FFE88154C80
+        public void get_ChainIdB(){} // RVA: 0x7FFE88154CB0
+        public void get_BoneOffset(){} // RVA: 0x7FFE88155920
+        public void get_BoneCount(){} // RVA: 0x7FFE88155950
+        public void CreatePhysBoneChain(){} // RVA: 0x7FFE88155980
+        public void UnPack(){} // RVA: 0x7FFE88155AA0
+        public void UnPackTo(){} // RVA: 0x7FFE88155B70
+        public void Pack(){} // RVA: 0x7FFE88155C00
     }
 
     public class PhysBoneChainT : Object
     {
-        public ulong ChainIdA; // 0x10
-        public ulong ChainIdB; // 0x18
-        public ushort BoneOffset; // 0x20
-        public byte BoneCount; // 0x22
+        public ulong _chainIdA; // 0x10
+        public ulong _chainIdB; // 0x18
+        public ushort _boneOffset; // 0x20
+        public byte _boneCount; // 0x22
 
         // ── Methods ──
-        public void get_ChainIdA(){} // RVA: 0x7FFAC2F3C380
-        public void set_ChainIdA(){} // RVA: 0x7FFAC441EFB0
-        public void get_ChainIdB(){} // RVA: 0x7FFAC2F247C0
-        public void set_ChainIdB(){} // RVA: 0x7FFAC38920D0
-        public void get_BoneOffset(){} // RVA: 0x7FFAC6D68C80
-        public void set_BoneOffset(){} // RVA: 0x7FFAC8258410
-        public void get_BoneCount(){} // RVA: 0x7FFAC45F8AA0
-        public void set_BoneCount(){} // RVA: 0x7FFAC3F5A420
-        public void .ctor(){} // RVA: 0x7FFAC9DAFEA0
+        public void get_ChainIdA(){} // RVA: 0x7FFE81116380
+        public void set_ChainIdA(){} // RVA: 0x7FFE826F2ED0
+        public void get_ChainIdB(){} // RVA: 0x7FFE810FE7C0
+        public void set_ChainIdB(){} // RVA: 0x7FFE819EA910
+        public void get_BoneOffset(){} // RVA: 0x7FFE850EF1D0
+        public void set_BoneOffset(){} // RVA: 0x7FFE86601D50
+        public void get_BoneCount(){} // RVA: 0x7FFE8292F1A0
+        public void set_BoneCount(){} // RVA: 0x7FFE822131E0
+        public void .ctor(){} // RVA: 0x7FFE88155C40
     }
 
     public class PhysBoneGrab : ValueType
     {
-        public Google.FlatBuffers32.Struct ByteBuffer; // 0x10
+        public Google.FlatBuffers32.Struct __p; // 0x10
+        public object field_1; // 0x237
+        public object field_2; // 0x238
+        public object field_3; // 0x239
+        public object field_4; // 0x23A
 
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFAC4420220
-        public void __init(){} // RVA: 0x7FFAC9D74EF0
-        public void __assign(){} // RVA: 0x7FFAC9D74FC0
-        public void get_ChainIdA(){} // RVA: 0x7FFAC9DAEDC0
-        public void MutateChainIdA(){} // RVA: 0x7FFAC9DAEDF0
-        public void get_ChainIdB(){} // RVA: 0x7FFAC9DAEE20
-        public void MutateChainIdB(){} // RVA: 0x7FFAC9DAEE50
-        public void get_Bone(){} // RVA: 0x7FFAC9DAEE80
-        public void MutateBone(){} // RVA: 0x7FFAC9DAEEB0
-        public void get_Offset(){} // RVA: 0x7FFAC9DAEEE0
-        public void CreatePhysBoneGrab(){} // RVA: 0x7FFAC9DAEF20
-        public void UnPack(){} // RVA: 0x7FFAC9DAF0A0
-        public void UnPackTo(){} // RVA: 0x7FFAC9DAF110
-        public void Pack(){} // RVA: 0x7FFAC9DAF220
+        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
+        public void __init(){} // RVA: 0x7FFE8811D5B0
+        public void __assign(){} // RVA: 0x7FFE8811D680
+        public void get_ChainIdA(){} // RVA: 0x7FFE88154C80
+        public void get_ChainIdB(){} // RVA: 0x7FFE88154CB0
+        public void get_Bone(){} // RVA: 0x7FFE88154CE0
+        public void get_Offset(){} // RVA: 0x7FFE88154D10
+        public void CreatePhysBoneGrab(){} // RVA: 0x7FFE88154D50
+        public void UnPack(){} // RVA: 0x7FFE88154EA0
+        public void UnPackTo(){} // RVA: 0x7FFE88154F10
+        public void Pack(){} // RVA: 0x7FFE88155020
     }
 
     public class PhysBoneGrabT : Object
     {
-        public ulong ChainIdA; // 0x10
-        public ulong ChainIdB; // 0x18
-        public byte Bone; // 0x20
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.Vector3T Offset; // 0x28
+        public ulong _chainIdA; // 0x10
+        public ulong _chainIdB; // 0x18
+        public byte _bone; // 0x20
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.Vector3T _offset; // 0x28
 
         // ── Methods ──
-        public void get_ChainIdA(){} // RVA: 0x7FFAC2F3C380
-        public void set_ChainIdA(){} // RVA: 0x7FFAC441EFB0
-        public void get_ChainIdB(){} // RVA: 0x7FFAC2F247C0
-        public void set_ChainIdB(){} // RVA: 0x7FFAC38920D0
-        public void get_Bone(){} // RVA: 0x7FFAC300F9D0
-        public void set_Bone(){} // RVA: 0x7FFAC300F9E0
-        public void get_Offset(){} // RVA: 0x7FFAC2F4F130
-        public void set_Offset(){} // RVA: 0x7FFAC2F22E90
-        public void .ctor(){} // RVA: 0x7FFAC9DAF290
+        public void get_ChainIdA(){} // RVA: 0x7FFE81116380
+        public void set_ChainIdA(){} // RVA: 0x7FFE826F2ED0
+        public void get_ChainIdB(){} // RVA: 0x7FFE810FE7C0
+        public void set_ChainIdB(){} // RVA: 0x7FFE819EA910
+        public void get_Bone(){} // RVA: 0x7FFE811E99D0
+        public void set_Bone(){} // RVA: 0x7FFE811E99E0
+        public void get_Offset(){} // RVA: 0x7FFE81129130
+        public void set_Offset(){} // RVA: 0x7FFE810FCE90
+        public void .ctor(){} // RVA: 0x7FFE88155090
     }
 
     public class PhysBoneRecorder : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public Google.FlatBuffers32.Table __p; // 0x10
+        public object field_1; // 0x250
+        public object field_2; // 0x251
+        public object field_3; // 0x252
+        public object field_4; // 0x253
 
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFAC4420220
-        public void ValidateVersion(){} // RVA: 0x7FFAC2F21310
-        public void GetRootAsPhysBoneRecorder(){} // RVA: 0x7FFAC9D9CB90 | overloaded x2
-        public void VerifyPhysBoneRecorder(){} // RVA: 0x7FFAC9DAFEC0
-        public void __init(){} // RVA: 0x7FFAC9D74EF0
-        public void __assign(){} // RVA: 0x7FFAC9D74FC0
-        public void Chains(){} // RVA: 0x7FFAC9DAFFB0
-        public void get_ChainsLength(){} // RVA: 0x7FFAC9DA6550
-        public void Bones(){} // RVA: 0x7FFAC9DB0110
-        public void get_BonesLength(){} // RVA: 0x7FFAC9DA72E0
-        public void get_GrabL(){} // RVA: 0x7FFAC9DB0260
-        public void get_GrabR(){} // RVA: 0x7FFAC9DB0370
-        public void CreatePhysBoneRecorder(){} // RVA: 0x7FFAC9DB0480
-        public void StartPhysBoneRecorder(){} // RVA: 0x7FFAC9DAB830
-        public void AddChains(){} // RVA: 0x7FFAC9DA6190
-        public void StartChainsVector(){} // RVA: 0x7FFAC9DB0630
-        public void AddBones(){} // RVA: 0x7FFAC9DA7690
-        public void StartBonesVector(){} // RVA: 0x7FFAC9DB0660
-        public void AddGrabL(){} // RVA: 0x7FFAC9DB0690
-        public void AddGrabR(){} // RVA: 0x7FFAC9DB06C0
-        public void EndPhysBoneRecorder(){} // RVA: 0x7FFAC9DB06F0
-        public void FinishPhysBoneRecorderBuffer(){} // RVA: 0x7FFAC9DA7980
-        public void FinishSizePrefixedPhysBoneRecorderBuffer(){} // RVA: 0x7FFAC9DA79E0
-        public void UnPack(){} // RVA: 0x7FFAC9DB0740
-        public void UnPackTo(){} // RVA: 0x7FFAC9DB07B0
-        public void Pack(){} // RVA: 0x7FFAC9DB0DA0
+        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
+        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
+        public void GetRootAsPhysBoneRecorder(){} // RVA: 0x7FFE881444A0 | overloaded x2
+        public void VerifyPhysBoneRecorder(){} // RVA: 0x7FFE88155C60
+        public void __init(){} // RVA: 0x7FFE8811D5B0
+        public void __assign(){} // RVA: 0x7FFE8811D680
+        public void Chains(){} // RVA: 0x7FFE88155D50
+        public void get_ChainsLength(){} // RVA: 0x7FFE8814C740
+        public void Bones(){} // RVA: 0x7FFE88155EB0
+        public void get_BonesLength(){} // RVA: 0x7FFE8814D440
+        public void get_GrabL(){} // RVA: 0x7FFE88156000
+        public void get_GrabR(){} // RVA: 0x7FFE88156110
+        public void CreatePhysBoneRecorder(){} // RVA: 0x7FFE88156220
+        public void StartPhysBoneRecorder(){} // RVA: 0x7FFE88151750
+        public void AddChains(){} // RVA: 0x7FFE8814C380
+        public void StartChainsVector(){} // RVA: 0x7FFE881563D0
+        public void AddBones(){} // RVA: 0x7FFE8814D7F0
+        public void StartBonesVector(){} // RVA: 0x7FFE88156400
+        public void AddGrabL(){} // RVA: 0x7FFE88156430
+        public void AddGrabR(){} // RVA: 0x7FFE88156460
+        public void EndPhysBoneRecorder(){} // RVA: 0x7FFE88156490
+        public void FinishPhysBoneRecorderBuffer(){} // RVA: 0x7FFE8814DAE0
+        public void FinishSizePrefixedPhysBoneRecorderBuffer(){} // RVA: 0x7FFE8814DB40
+        public void UnPack(){} // RVA: 0x7FFE881564E0
+        public void UnPackTo(){} // RVA: 0x7FFE88156550
+        public void Pack(){} // RVA: 0x7FFE88156B40
     }
 
     public class PhysBoneRecorderT : Object
     {
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneChainT> Chains; // 0x10
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneTransformT> Bones; // 0x18
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneGrabT GrabL; // 0x20
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneGrabT GrabR; // 0x28
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneChainT> _chains; // 0x10
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneTransformT> _bones; // 0x18
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneGrabT _grabL; // 0x20
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.PhysBoneGrabT _grabR; // 0x28
 
         // ── Methods ──
-        public void get_Chains(){} // RVA: 0x7FFAC2F3C380
-        public void set_Chains(){} // RVA: 0x7FFAC2F22E30
-        public void get_Bones(){} // RVA: 0x7FFAC2F247C0
-        public void set_Bones(){} // RVA: 0x7FFAC2F87E80
-        public void get_GrabL(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_GrabL(){} // RVA: 0x7FFAC2F4F0D0
-        public void get_GrabR(){} // RVA: 0x7FFAC2F4F130
-        public void set_GrabR(){} // RVA: 0x7FFAC2F22E90
-        public void .ctor(){} // RVA: 0x7FFAC9DB1180
-        public void DeserializeFromBinary(){} // RVA: 0x7FFAC9DB1350
-        public void SerializeToBinary(){} // RVA: 0x7FFAC9DB1440
+        public void get_Chains(){} // RVA: 0x7FFE81116380
+        public void set_Chains(){} // RVA: 0x7FFE810FCE30
+        public void get_Bones(){} // RVA: 0x7FFE810FE7C0
+        public void set_Bones(){} // RVA: 0x7FFE81161E80
+        public void get_GrabL(){} // RVA: 0x7FFE811290C0
+        public void set_GrabL(){} // RVA: 0x7FFE811290D0
+        public void get_GrabR(){} // RVA: 0x7FFE81129130
+        public void set_GrabR(){} // RVA: 0x7FFE810FCE90
+        public void .ctor(){} // RVA: 0x7FFE88156F20
+        public void DeserializeFromBinary(){} // RVA: 0x7FFE881570F0
+        public void SerializeToBinary(){} // RVA: 0x7FFE881571E0
     }
 
     public class PhysBoneRecorderVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFAC9DB1540
+        public void Verify(){} // RVA: 0x7FFE881572E0
     }
 
     public class PhysBoneTransform : ValueType
     {
-        public Google.FlatBuffers32.Struct ByteBuffer; // 0x10
+        public Google.FlatBuffers32.Struct __p; // 0x10
+        public object field_1; // 0x240
+        public object field_2; // 0x241
+        public object field_3; // 0x242
 
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFAC4420220
-        public void __init(){} // RVA: 0x7FFAC9D74EF0
-        public void __assign(){} // RVA: 0x7FFAC9D74FC0
-        public void get_BoneId(){} // RVA: 0x7FFAC9DAF330
-        public void MutateBoneId(){} // RVA: 0x7FFAC9DA58E0
-        public void get_Position(){} // RVA: 0x7FFAC9D88A10
-        public void get_Rotation(){} // RVA: 0x7FFAC9DAF360
-        public void CreatePhysBoneTransform(){} // RVA: 0x7FFAC9DAF3A0
-        public void UnPack(){} // RVA: 0x7FFAC9DAF520
-        public void UnPackTo(){} // RVA: 0x7FFAC9DAF6B0
-        public void Pack(){} // RVA: 0x7FFAC9DAF8A0
+        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
+        public void __init(){} // RVA: 0x7FFE8811D5B0
+        public void __assign(){} // RVA: 0x7FFE8811D680
+        public void get_BoneId(){} // RVA: 0x7FFE88155130
+        public void get_Position(){} // RVA: 0x7FFE88130740
+        public void get_Rotation(){} // RVA: 0x7FFE88155160
+        public void CreatePhysBoneTransform(){} // RVA: 0x7FFE881551A0
+        public void UnPack(){} // RVA: 0x7FFE88155320
+        public void UnPackTo(){} // RVA: 0x7FFE881554B0
+        public void Pack(){} // RVA: 0x7FFE881556A0
     }
 
     public class PhysBoneTransformT : Object
     {
-        public byte BoneId; // 0x10
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.FloatHalfT Position; // 0x18
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.QuaternionTenBitT Rotation; // 0x20
+        public byte _boneId; // 0x10
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.FloatHalfT _position; // 0x18
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.QuaternionTenBitT _rotation; // 0x20
 
         // ── Methods ──
-        public void get_BoneId(){} // RVA: 0x7FFAC2FEB5E0
-        public void set_BoneId(){} // RVA: 0x7FFAC2FEB5F0
-        public void get_Position(){} // RVA: 0x7FFAC2F247C0
-        public void set_Position(){} // RVA: 0x7FFAC2F87E80
-        public void get_Rotation(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_Rotation(){} // RVA: 0x7FFAC2F4F0D0
-        public void .ctor(){} // RVA: 0x7FFAC9DAF9E0
+        public void get_BoneId(){} // RVA: 0x7FFE811C55E0
+        public void set_BoneId(){} // RVA: 0x7FFE811C55F0
+        public void get_Position(){} // RVA: 0x7FFE810FE7C0
+        public void set_Position(){} // RVA: 0x7FFE81161E80
+        public void get_Rotation(){} // RVA: 0x7FFE811290C0
+        public void set_Rotation(){} // RVA: 0x7FFE811290D0
+        public void .ctor(){} // RVA: 0x7FFE881557E0
     }
 
     public class PlayerData : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public Google.FlatBuffers32.Table __p; // 0x10
+        public object field_1; // 0x260
 
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFAC4420220
-        public void ValidateVersion(){} // RVA: 0x7FFAC2F21310
-        public void GetRootAsPlayerData(){} // RVA: 0x7FFAC9D9CB90 | overloaded x2
-        public void __init(){} // RVA: 0x7FFAC9D74EF0
-        public void __assign(){} // RVA: 0x7FFAC9D74FC0
-        public void Pairs(){} // RVA: 0x7FFAC9DB5D20
-        public void get_PairsLength(){} // RVA: 0x7FFAC9DA6550
-        public void CreatePlayerData(){} // RVA: 0x7FFAC9DB5E90
-        public void StartPlayerData(){} // RVA: 0x7FFAC9DA6170
-        public void AddPairs(){} // RVA: 0x7FFAC9DA6190
-        public void CreatePairsVector(){} // RVA: 0x7FFAC9D9D690
-        public void CreatePairsVectorBlock(){} // RVA: 0x7FFAC9DB6150 | overloaded x3
-        public void StartPairsVector(){} // RVA: 0x7FFAC9D9DA50
-        public void EndPlayerData(){} // RVA: 0x7FFAC9DB6210
-        public void UnPack(){} // RVA: 0x7FFAC9DB6260
-        public void UnPackTo(){} // RVA: 0x7FFAC9DB6310
-        public void Pack(){} // RVA: 0x7FFAC9DB6570
+        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
+        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
+        public void GetRootAsPlayerData(){} // RVA: 0x7FFE881444A0 | overloaded x2
+        public void __init(){} // RVA: 0x7FFE8811D5B0
+        public void __assign(){} // RVA: 0x7FFE8811D680
+        public void Pairs(){} // RVA: 0x7FFE8815BAA0
+        public void get_PairsLength(){} // RVA: 0x7FFE8814C740
+        public void CreatePlayerData(){} // RVA: 0x7FFE8815BC10
+        public void StartPlayerData(){} // RVA: 0x7FFE8814C360
+        public void AddPairs(){} // RVA: 0x7FFE8814C380
+        public void CreatePairsVector(){} // RVA: 0x7FFE88144E80
+        public void CreatePairsVectorBlock(){} // RVA: 0x7FFE8815BED0 | overloaded x3
+        public void StartPairsVector(){} // RVA: 0x7FFE88145240
+        public void EndPlayerData(){} // RVA: 0x7FFE8815BF90
+        public void UnPack(){} // RVA: 0x7FFE8815BFE0
+        public void UnPackTo(){} // RVA: 0x7FFE8815C090
+        public void Pack(){} // RVA: 0x7FFE8815C2F0
     }
 
     public class PlayerDataPair : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public Google.FlatBuffers32.Table __p; // 0x10
+        public object field_1; // 0x25B
+        public object field_2; // 0x25C
 
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFAC4420220
-        public void ValidateVersion(){} // RVA: 0x7FFAC2F21310
-        public void GetRootAsPlayerDataPair(){} // RVA: 0x7FFAC9D9CB90 | overloaded x2
-        public void __init(){} // RVA: 0x7FFAC9D74EF0
-        public void __assign(){} // RVA: 0x7FFAC9D74FC0
-        public void get_Key(){} // RVA: 0x7FFAC9DA5FA0
-        public void GetKeyBytes(){} // RVA: 0x7FFAC9DB3AF0
-        public void GetKeyArray(){} // RVA: 0x7FFAC9DB3B60
-        public void get_ValueType(){} // RVA: 0x7FFAC9DB3BB0
-        public void Value(){} // RVA: 0x7FFAC2E8DC40
-        public void ValueAsVector2(){} // RVA: 0x7FFAC9DB3C00
-        public void ValueAsVector3(){} // RVA: 0x7FFAC9DB3C90
-        public void ValueAsVector4(){} // RVA: 0x7FFAC9DB3D20
-        public void ValueAsQuaternion(){} // RVA: 0x7FFAC9DB3DB0
-        public void ValueAsColor(){} // RVA: 0x7FFAC9DB3E40
-        public void ValueAsColor32(){} // RVA: 0x7FFAC9DB3ED0
-        public void ValueAsWrappedString(){} // RVA: 0x7FFAC9DB3F60
-        public void ValueAsWrappedShort(){} // RVA: 0x7FFAC9DB3FF0
-        public void ValueAsWrappedInt(){} // RVA: 0x7FFAC9DB4080
-        public void ValueAsWrappedFloat(){} // RVA: 0x7FFAC9DB4110
-        public void ValueAsWrappedBool(){} // RVA: 0x7FFAC9DB41A0
-        public void ValueAsWrappedByte(){} // RVA: 0x7FFAC9DB4230
-        public void ValueAsWrappedBytes(){} // RVA: 0x7FFAC9DB42C0
-        public void ValueAsWrappedUShort(){} // RVA: 0x7FFAC9DB4350
-        public void ValueAsWrappedUByte(){} // RVA: 0x7FFAC9DB43E0
-        public void ValueAsWrappedUInt(){} // RVA: 0x7FFAC9DB4470
-        public void ValueAsWrappedULong(){} // RVA: 0x7FFAC9DB4500
-        public void ValueAsWrappedDouble(){} // RVA: 0x7FFAC9DB4590
-        public void ValueAsWrappedLong(){} // RVA: 0x7FFAC9DB4620
-        public void CreatePlayerDataPair(){} // RVA: 0x7FFAC9DB46B0
-        public void StartPlayerDataPair(){} // RVA: 0x7FFAC9DAD1E0
-        public void AddKey(){} // RVA: 0x7FFAC9DA6190
-        public void AddValueType(){} // RVA: 0x7FFAC9DB47C0
-        public void AddValue(){} // RVA: 0x7FFAC9DA26A0
-        public void EndPlayerDataPair(){} // RVA: 0x7FFAC9DB4830
-        public void UnPack(){} // RVA: 0x7FFAC9DB4880
-        public void UnPackTo(){} // RVA: 0x7FFAC9DB48F0
-        public void Pack(){} // RVA: 0x7FFAC9DB5980
+        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
+        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
+        public void GetRootAsPlayerDataPair(){} // RVA: 0x7FFE881444A0 | overloaded x2
+        public void __init(){} // RVA: 0x7FFE8811D5B0
+        public void __assign(){} // RVA: 0x7FFE8811D680
+        public void get_Key(){} // RVA: 0x7FFE8814C190
+        public void GetKeyBytes(){} // RVA: 0x7FFE88159870
+        public void GetKeyArray(){} // RVA: 0x7FFE881598E0
+        public void get_ValueType(){} // RVA: 0x7FFE88159930
+        public void Value(){} // RVA: 0x7FFE810A1420
+        public void ValueAsVector2(){} // RVA: 0x7FFE88159980
+        public void ValueAsVector3(){} // RVA: 0x7FFE88159A10
+        public void ValueAsVector4(){} // RVA: 0x7FFE88159AA0
+        public void ValueAsQuaternion(){} // RVA: 0x7FFE88159B30
+        public void ValueAsColor(){} // RVA: 0x7FFE88159BC0
+        public void ValueAsColor32(){} // RVA: 0x7FFE88159C50
+        public void ValueAsWrappedString(){} // RVA: 0x7FFE88159CE0
+        public void ValueAsWrappedShort(){} // RVA: 0x7FFE88159D70
+        public void ValueAsWrappedInt(){} // RVA: 0x7FFE88159E00
+        public void ValueAsWrappedFloat(){} // RVA: 0x7FFE88159E90
+        public void ValueAsWrappedBool(){} // RVA: 0x7FFE88159F20
+        public void ValueAsWrappedByte(){} // RVA: 0x7FFE88159FB0
+        public void ValueAsWrappedBytes(){} // RVA: 0x7FFE8815A040
+        public void ValueAsWrappedUShort(){} // RVA: 0x7FFE8815A0D0
+        public void ValueAsWrappedUByte(){} // RVA: 0x7FFE8815A160
+        public void ValueAsWrappedUInt(){} // RVA: 0x7FFE8815A1F0
+        public void ValueAsWrappedULong(){} // RVA: 0x7FFE8815A280
+        public void ValueAsWrappedDouble(){} // RVA: 0x7FFE8815A310
+        public void ValueAsWrappedLong(){} // RVA: 0x7FFE8815A3A0
+        public void CreatePlayerDataPair(){} // RVA: 0x7FFE8815A430
+        public void StartPlayerDataPair(){} // RVA: 0x7FFE881530A0
+        public void AddKey(){} // RVA: 0x7FFE8814C380
+        public void AddValueType(){} // RVA: 0x7FFE8815A540
+        public void AddValue(){} // RVA: 0x7FFE88148950
+        public void EndPlayerDataPair(){} // RVA: 0x7FFE8815A5B0
+        public void UnPack(){} // RVA: 0x7FFE8815A600
+        public void UnPackTo(){} // RVA: 0x7FFE8815A670
+        public void Pack(){} // RVA: 0x7FFE8815B700
     }
 
     public class PlayerDataPairT : Object
     {
-        public string Key; // 0x10
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataTypeUnion Value; // 0x18
+        public string _key; // 0x10
+        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataTypeUnion _value; // 0x18
 
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7FFAC2F3C380
-        public void set_Key(){} // RVA: 0x7FFAC2F22E30
-        public void get_Value(){} // RVA: 0x7FFAC2F247C0
-        public void set_Value(){} // RVA: 0x7FFAC2F87E80
-        public void .ctor(){} // RVA: 0x7FFAC9D84070
+        public void get_Key(){} // RVA: 0x7FFE81116380
+        public void set_Key(){} // RVA: 0x7FFE810FCE30
+        public void get_Value(){} // RVA: 0x7FFE810FE7C0
+        public void set_Value(){} // RVA: 0x7FFE81161E80
+        public void .ctor(){} // RVA: 0x7FFE8812BFA0
     }
 
     public class PlayerDataPairVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFAC9DB5AF0
+        public void Verify(){} // RVA: 0x7FFE8815B870
     }
 
     public class PlayerDataT : Object
     {
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT> Pairs; // 0x10
+        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT> _pairs; // 0x10
 
         // ── Methods ──
-        public void get_Pairs(){} // RVA: 0x7FFAC2F3C380
-        public void set_Pairs(){} // RVA: 0x7FFAC2F22E30
-        public void .ctor(){} // RVA: 0x7FFAC7DDDC00
+        public void get_Pairs(){} // RVA: 0x7FFE81116380
+        public void set_Pairs(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFE86200400
     }
 
     public class PlayerDataTypeUnion : Object
     {
-        public 0x6B200AC8 Type; // 0x10
-        public object Value; // 0x18
+        public 0x665FA38C _type; // 0x10
+        public object _value; // 0x18
 
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x7FFAC2FEB5E0
-        public void set_Type(){} // RVA: 0x7FFAC2FEB5F0
-        public void get_Value(){} // RVA: 0x7FFAC2F247C0
-        public void set_Value(){} // RVA: 0x7FFAC2F87E80
-        public void .ctor(){} // RVA: 0x7FFAC9D74460
-        public void As(){} // RVA: 0x7FFAC2E8DC40
-        public void AsVector2(){} // RVA: 0x7FFAC9DB1660
-        public void FromVector2(){} // RVA: 0x7FFAC9DB16A0
-        public void AsVector3(){} // RVA: 0x7FFAC9DB17A0
-        public void FromVector3(){} // RVA: 0x7FFAC9DB17E0
-        public void AsVector4(){} // RVA: 0x7FFAC9DB18E0
-        public void FromVector4(){} // RVA: 0x7FFAC9DB1920
-        public void AsQuaternion(){} // RVA: 0x7FFAC9DB1A20
-        public void FromQuaternion(){} // RVA: 0x7FFAC9DB1A60
-        public void AsColor(){} // RVA: 0x7FFAC9DB1B60
-        public void FromColor(){} // RVA: 0x7FFAC9DB1BA0
-        public void AsColor32(){} // RVA: 0x7FFAC9DB1CA0
-        public void FromColor32(){} // RVA: 0x7FFAC9DB1CE0
-        public void AsWrappedString(){} // RVA: 0x7FFAC9DB1DE0
-        public void FromWrappedString(){} // RVA: 0x7FFAC9DB1E20
-        public void AsWrappedShort(){} // RVA: 0x7FFAC9DB1F20
-        public void FromWrappedShort(){} // RVA: 0x7FFAC9DB1F60
-        public void AsWrappedInt(){} // RVA: 0x7FFAC9DB2060
-        public void FromWrappedInt(){} // RVA: 0x7FFAC9DB20A0
-        public void AsWrappedFloat(){} // RVA: 0x7FFAC9DB21A0
-        public void FromWrappedFloat(){} // RVA: 0x7FFAC9DB21E0
-        public void AsWrappedBool(){} // RVA: 0x7FFAC9DB22E0
-        public void FromWrappedBool(){} // RVA: 0x7FFAC9DB2320
-        public void AsWrappedByte(){} // RVA: 0x7FFAC9DB2420
-        public void FromWrappedByte(){} // RVA: 0x7FFAC9DB2460
-        public void AsWrappedBytes(){} // RVA: 0x7FFAC9DB2560
-        public void FromWrappedBytes(){} // RVA: 0x7FFAC9DB25A0
-        public void AsWrappedUShort(){} // RVA: 0x7FFAC9DB26A0
-        public void FromWrappedUShort(){} // RVA: 0x7FFAC9DB26E0
-        public void AsWrappedUByte(){} // RVA: 0x7FFAC9DB27E0
-        public void FromWrappedUByte(){} // RVA: 0x7FFAC9DB2820
-        public void AsWrappedUInt(){} // RVA: 0x7FFAC9DB2920
-        public void FromWrappedUInt(){} // RVA: 0x7FFAC9DB2960
-        public void AsWrappedULong(){} // RVA: 0x7FFAC9DB2A60
-        public void FromWrappedULong(){} // RVA: 0x7FFAC9DB2AA0
-        public void AsWrappedDouble(){} // RVA: 0x7FFAC9DB2BA0
-        public void FromWrappedDouble(){} // RVA: 0x7FFAC9DB2BE0
-        public void AsWrappedLong(){} // RVA: 0x7FFAC9DB2CE0
-        public void FromWrappedLong(){} // RVA: 0x7FFAC9DB2D20
-        public void Pack(){} // RVA: 0x7FFAC9DB2E20
+        public void get_Type(){} // RVA: 0x7FFE811C55E0
+        public void set_Type(){} // RVA: 0x7FFE811C55F0
+        public void get_Value(){} // RVA: 0x7FFE810FE7C0
+        public void set_Value(){} // RVA: 0x7FFE81161E80
+        public void .ctor(){} // RVA: 0x7FFE8811CB20
+        public void As(){} // RVA: 0x7FFE810A1420
+        public void AsVector2(){} // RVA: 0x7FFE88157400
+        public void FromVector2(){} // RVA: 0x7FFE88157440
+        public void AsVector3(){} // RVA: 0x7FFE88157540
+        public void FromVector3(){} // RVA: 0x7FFE88157580
+        public void AsVector4(){} // RVA: 0x7FFE88157680
+        public void FromVector4(){} // RVA: 0x7FFE881576C0
+        public void AsQuaternion(){} // RVA: 0x7FFE881577C0
+        public void FromQuaternion(){} // RVA: 0x7FFE88157800
+        public void AsColor(){} // RVA: 0x7FFE88157900
+        public void FromColor(){} // RVA: 0x7FFE88157940
+        public void AsColor32(){} // RVA: 0x7FFE88157A40
+        public void FromColor32(){} // RVA: 0x7FFE88157A80
+        public void AsWrappedString(){} // RVA: 0x7FFE88157B80
+        public void FromWrappedString(){} // RVA: 0x7FFE88157BC0
+        public void AsWrappedShort(){} // RVA: 0x7FFE88157CC0
+        public void FromWrappedShort(){} // RVA: 0x7FFE88157D00
+        public void AsWrappedInt(){} // RVA: 0x7FFE88157E00
+        public void FromWrappedInt(){} // RVA: 0x7FFE88157E40
+        public void AsWrappedFloat(){} // RVA: 0x7FFE88157F40
+        public void FromWrappedFloat(){} // RVA: 0x7FFE88157F80
+        public void AsWrappedBool(){} // RVA: 0x7FFE88158080
+        public void FromWrappedBool(){} // RVA: 0x7FFE881580C0
+        public void AsWrappedByte(){} // RVA: 0x7FFE881581C0
+        public void FromWrappedByte(){} // RVA: 0x7FFE88158200
+        public void AsWrappedBytes(){} // RVA: 0x7FFE88158300
+        public void FromWrappedBytes(){} // RVA: 0x7FFE88158340
+        public void AsWrappedUShort(){} // RVA: 0x7FFE88158440
+        public void FromWrappedUShort(){} // RVA: 0x7FFE88158480
+        public void AsWrappedUByte(){} // RVA: 0x7FFE88158580
+        public void FromWrappedUByte(){} // RVA: 0x7FFE881585C0
+        public void AsWrappedUInt(){} // RVA: 0x7FFE881586C0
+        public void FromWrappedUInt(){} // RVA: 0x7FFE88158700
+        public void AsWrappedULong(){} // RVA: 0x7FFE88158800
+        public void FromWrappedULong(){} // RVA: 0x7FFE88158840
+        public void AsWrappedDouble(){} // RVA: 0x7FFE88158940
+        public void FromWrappedDouble(){} // RVA: 0x7FFE88158980
+        public void AsWrappedLong(){} // RVA: 0x7FFE88158A80
+        public void FromWrappedLong(){} // RVA: 0x7FFE88158AC0
+        public void Pack(){} // RVA: 0x7FFE88158BC0
     }
 
     public class PlayerDataTypeVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFAC9DB3750
+        public void Verify(){} // RVA: 0x7FFE881594D0
     }
 
     public class PlayerDataVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFAC9DB67A0
+        public void Verify(){} // RVA: 0x7FFE8815C520
     }
 
     public class PlayerStationStateData : ValueType
     {
-        public Google.FlatBuffers32.Table ByteBuffer; // 0x10
+        public Google.FlatBuffers32.Table __p; // 0x10
+        public object field_1; // 0x263
 
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFAC4420220
-        public void ValidateVersion(){} // RVA: 0x7FFAC2F21310
-        public void GetRootAsPlayerStationStateData(){} // RVA: 0x7FFAC9D9CB90 | overloaded x2
-        public void __init(){} // RVA: 0x7FFAC9D74EF0
-        public void __assign(){} // RVA: 0x7FFAC9D74FC0
-        public void ActiveStations(){} // RVA: 0x7FFAC9DB6870
-        public void get_ActiveStationsLength(){} // RVA: 0x7FFAC9DA6550
-        public void GetActiveStationsBytes(){} // RVA: 0x7FFAC9DB68F0
-        public void GetActiveStationsArray(){} // RVA: 0x7FFAC9DB6960
-        public void MutateActiveStations(){} // RVA: 0x7FFAC9DB69B0
-        public void CreatePlayerStationStateData(){} // RVA: 0x7FFAC9DB6A40
-        public void StartPlayerStationStateData(){} // RVA: 0x7FFAC9DA6170
-        public void AddActiveStations(){} // RVA: 0x7FFAC9DA6190
-        public void CreateActiveStationsVector(){} // RVA: 0x7FFAC9DAA810
-        public void CreateActiveStationsVectorBlock(){} // RVA: 0x7FFAC9DB6C60 | overloaded x3
-        public void StartActiveStationsVector(){} // RVA: 0x7FFAC9D9DA50
-        public void EndPlayerStationStateData(){} // RVA: 0x7FFAC9DB6D20
-        public void UnPack(){} // RVA: 0x7FFAC9DB6D70
-        public void UnPackTo(){} // RVA: 0x7FFAC9DB6E20
-        public void Pack(){} // RVA: 0x7FFAC9DB7040
+        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
+        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
+        public void GetRootAsPlayerStationStateData(){} // RVA: 0x7FFE881444A0 | overloaded x2
+        public void __init(){} // RVA: 0x7FFE8811D5B0
+        public void __assign(){} // RVA: 0x7FFE8811D680
+        public void ActiveStations(){} // RVA: 0x7FFE8815C5F0
+        public void get_ActiveStationsLength(){} // RVA: 0x7FFE8814C740
+        public void GetActiveStationsBytes(){} // RVA: 0x7FFE8815C670
+        public void GetActiveStationsArray(){} // RVA: 0x7FFE8815C6E0
+        public void CreatePlayerStationStateData(){} // RVA: 0x7FFE8815C730
+        public void StartPlayerStationStateData(){} // RVA: 0x7FFE8814C360
+        public void AddActiveStations(){} // RVA: 0x7FFE8814C380
+        public void CreateActiveStationsVector(){} // RVA: 0x7FFE881507C0
+        public void CreateActiveStationsVectorBlock(){} // RVA: 0x7FFE8815C950 | overloaded x3
+        public void StartActiveStationsVector(){} // RVA: 0x7FFE88145240
+        public void EndPlayerStationStateData(){} // RVA: 0x7FFE8815CA10
+        public void UnPack(){} // RVA: 0x7FFE8815CA60
+        public void UnPackTo(){} // RVA: 0x7FFE8815CB10
+        public void Pack(){} // RVA: 0x7FFE8815CD30
     }
 
     public class PlayerStationStateDataT : Object
     {
-        public System.Collections.Generic.List`1<uint> ActiveStations; // 0x10
+        public System.Collections.Generic.List`1<uint> _activeStations; // 0x10
 
         // ── Methods ──
-        public void get_ActiveStations(){} // RVA: 0x7FFAC2F3C380
-        public void set_ActiveStations(){} // RVA: 0x7FFAC2F22E30
-        public void .ctor(){} // RVA: 0x7FFAC7DDDC00
+        public void get_ActiveStations(){} // RVA: 0x7FFE81116380
+        public void set_ActiveStations(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFE86200400
     }
 
     public class PlayerStationStateDataVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFAC9DB7130
+        public void Verify(){} // RVA: 0x7FFE8815CE20
     }
 
     public class PuppetData : ValueType
     {
-        public Google.FlatBuffers32.Struct ByteBuffer; // 0x10
+        public Google.FlatBuffers32.Struct __p; // 0x10
 
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFAC4420220
-        public void __init(){} // RVA: 0x7FFAC9D74EF0
-        public void __assign(){} // RVA: 0x7FFAC9D74FC0
-        public void Channels(){} // RVA: 0x7FFAC9DBC540
-        public void MutateChannels(){} // RVA: 0x7FFAC9DBC570
-        public void CreatePuppetData(){} // RVA: 0x7FFAC9DBDF50
-        public void UnPack(){} // RVA: 0x7FFAC9DBE020
-        public void UnPackTo(){} // RVA: 0x7FFAC9DBE090
-        public void Pack(){} // RVA: 0x7FFAC9DBE190
+        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
+        public void __init(){} // RVA: 0x7FFE8811D5B0
+        public void __assign(){} // RVA: 0x7FFE8811D680
+        public void Channels(){} // RVA: 0x7FFE88161FD0
+        public void CreatePuppetData(){} // RVA: 0x7FFE881638E0
+        public void UnPack(){} // RVA: 0x7FFE881639B0
+        public void UnPackTo(){} // RVA: 0x7FFE88163A20
+        public void Pack(){} // RVA: 0x7FFE88163B20
     }
 
     public class PuppetDataT : Object
     {
-        public byte[] Channels; // 0x10
+        public byte[] _channels; // 0x10
 
         // ── Methods ──
-        public void get_Channels(){} // RVA: 0x7FFAC2F3C380
-        public void set_Channels(){} // RVA: 0x7FFAC2F22E30
-        public void .ctor(){} // RVA: 0x7FFAC9DBE1B0
+        public void get_Channels(){} // RVA: 0x7FFE81116380
+        public void set_Channels(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFE88163B40
     }
 
 }

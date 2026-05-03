@@ -7,46 +7,41 @@ namespace ThirdParty.Other.BidiSharp
 {
     public class Bidi : Object
     {
-        public int MAX_DEPTH;
-        public System.Collections.Generic.Dictionary`2<char,char> _bracketPairs;
-
         // ── Methods ──
-        public void LogicalToVisual(){} // RVA: 0x7FFAC8234570
-        public void ClassifyCharacters(){} // RVA: 0x7FFAC8234E90
-        public void GetParagraphEmbeddingLevel(){} // RVA: 0x7FFAC8235020
-        public void GetExplicitEmbeddingLevels(){} // RVA: 0x7FFAC82350B0
-        public void ResolveWeaks(){} // RVA: 0x7FFAC8235710
-        public void ResolveNeutrals(){} // RVA: 0x7FFAC8235BC0
-        public void ResolveImplicit(){} // RVA: 0x7FFAC8235E30
-        public void ApplyTypesAndLevels(){} // RVA: 0x7FFAC8236010
-        public void GetReorderedIndexes(){} // RVA: 0x7FFAC82360C0
-        public void GetMatchingPDI(){} // RVA: 0x7FFAC8236380
-        public void RemoveX9Characters(){} // RVA: 0x7FFAC82365C0
-        public void GetLevelRuns(){} // RVA: 0x7FFAC8236620
-        public void GetRunForCharacter(){} // RVA: 0x7FFAC82367E0
-        public void GetIsolatingRunSequences(){} // RVA: 0x7FFAC8236900
-        public void ComputeIsolatingRunSequence(){} // RVA: 0x7FFAC8236D40
-        public void SetLevels(){} // RVA: 0x7FFAC8237110
-        public void GetRunLimit(){} // RVA: 0x7FFAC8237170
-        public void SetRunTypes(){} // RVA: 0x7FFAC82371F0
-        public void LeastGreaterOdd(){} // RVA: 0x7FFAC8237240
-        public void LeastGreaterEven(){} // RVA: 0x7FFAC8237290
-        public void IsOdd(){} // RVA: 0x7FFAC82372E0
-        public void GetTypeForLevel(){} // RVA: 0x7FFAC82372F0
-        public void GetTextLevels(){} // RVA: 0x7FFAC8237300
-        public void GetMultiLineReordered(){} // RVA: 0x7FFAC8237430
-        public void ComputeReorderingIndexes(){} // RVA: 0x7FFAC82375D0
-        public void ReverseStringAndFlipBrackets(){} // RVA: 0x7FFAC82377E0
-        public void GetOrderedString(){} // RVA: 0x7FFAC8237AF0
-        public void .cctor(){} // RVA: 0x7FFAC8237C80
+        public void LogicalToVisual(){} // RVA: 0x7FFE865DDEB0
+        public void ClassifyCharacters(){} // RVA: 0x7FFE865DE7D0
+        public void GetParagraphEmbeddingLevel(){} // RVA: 0x7FFE865DE960
+        public void GetExplicitEmbeddingLevels(){} // RVA: 0x7FFE865DE9F0
+        public void ResolveWeaks(){} // RVA: 0x7FFE865DF050
+        public void ResolveNeutrals(){} // RVA: 0x7FFE865DF500
+        public void ResolveImplicit(){} // RVA: 0x7FFE865DF770
+        public void ApplyTypesAndLevels(){} // RVA: 0x7FFE865DF950
+        public void GetReorderedIndexes(){} // RVA: 0x7FFE865DFA00
+        public void GetMatchingPDI(){} // RVA: 0x7FFE865DFCC0
+        public void RemoveX9Characters(){} // RVA: 0x7FFE865DFF00
+        public void GetLevelRuns(){} // RVA: 0x7FFE865DFF60
+        public void GetRunForCharacter(){} // RVA: 0x7FFE865E0120
+        public void GetIsolatingRunSequences(){} // RVA: 0x7FFE865E0240
+        public void ComputeIsolatingRunSequence(){} // RVA: 0x7FFE865E0680
+        public void SetLevels(){} // RVA: 0x7FFE865E0A50
+        public void GetRunLimit(){} // RVA: 0x7FFE865E0AB0
+        public void SetRunTypes(){} // RVA: 0x7FFE865E0B30
+        public void LeastGreaterOdd(){} // RVA: 0x7FFE865E0B80
+        public void LeastGreaterEven(){} // RVA: 0x7FFE865E0BD0
+        public void IsOdd(){} // RVA: 0x7FFE865E0C20
+        public void GetTypeForLevel(){} // RVA: 0x7FFE865E0C30
+        public void GetTextLevels(){} // RVA: 0x7FFE865E0C40
+        public void GetMultiLineReordered(){} // RVA: 0x7FFE865E0D70
+        public void ComputeReorderingIndexes(){} // RVA: 0x7FFE865E0F10
+        public void ReverseStringAndFlipBrackets(){} // RVA: 0x7FFE865E1120
+        public void GetOrderedString(){} // RVA: 0x7FFE865E1430
+        public void .cctor(){} // RVA: 0x7FFE865E15C0
     }
 
     public class Bidi_Types : Object
     {
-        public byte[] BidiCharTypes;
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC8237ED0
+        public void .cctor(){} // RVA: 0x7FFE865E1810
     }
 
 }

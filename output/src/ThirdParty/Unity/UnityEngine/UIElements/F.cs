@@ -7,245 +7,226 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class FieldMouseDragger`1 : BaseFieldMouseDragger
     {
-        public UnityEngine.UIElements.IValueField`1<T> dragging;
-        public UnityEngine.UIElements.VisualElement startValue;
-        public UnityEngine.Rect m_DragHotZone;
-        public bool <dragging>k__BackingField;
-        public T <startValue>k__BackingField;
+        public UnityEngine.UIElements.IValueField`1<T> m_DrivenField;
+        public UnityEngine.UIElements.VisualElement m_DragElement;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70A40
-        public void get_dragging(){} // RVA: 0x7FFAC2C59D00
-        public void set_dragging(){} // RVA: 0x7FFAC2C71060
-        public void get_startValue(){} // RVA: 0x7FFAC2E8DC40
-        public void set_startValue(){} // RVA: 0x7FFAC2E8DC40
+        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void get_dragging(){} // RVA: 0x7FFE80E2F150
+        public void set_dragging(){} // RVA: 0x7FFE80E466C0
+        public void get_startValue(){} // RVA: 0x7FFE810A1420
+        public void set_startValue(){} // RVA: 0x7FFE810A1420
         public void SetDragZone(){}
-        public void CanStartDrag(){} // RVA: 0x7FFAC2E8DC40
-        public void UpdateValueOnPointerDown(){} // RVA: 0x7FFAC2C70A40
-        public void ProcessDownEvent(){} // RVA: 0x7FFAC2C70A40
-        public void UpdateValueOnPointerMove(){} // RVA: 0x7FFAC2C70A40
-        public void ProcessMoveEvent(){} // RVA: 0x7FFAC2E8DC40
-        public void UpdateValueOnPointerUp(){} // RVA: 0x7FFAC2C70A40
-        public void ProcessUpEvent(){} // RVA: 0x7FFAC2C77970
-        public void UpdateValueOnKeyDown(){} // RVA: 0x7FFAC2C70A40
+        public void CanStartDrag(){} // RVA: 0x7FFE810A1420
+        public void UpdateValueOnPointerDown(){} // RVA: 0x7FFE80E460A0
+        public void ProcessDownEvent(){} // RVA: 0x7FFE80E460A0
+        public void UpdateValueOnPointerMove(){} // RVA: 0x7FFE80E460A0
+        public void ProcessMoveEvent(){} // RVA: 0x7FFE810A1420
+        public void UpdateValueOnPointerUp(){} // RVA: 0x7FFE80E460A0
+        public void ProcessUpEvent(){} // RVA: 0x7FFE80E4D070
+        public void UpdateValueOnKeyDown(){} // RVA: 0x7FFE80E460A0
     }
 
     public class FixedHeightVirtualizationController`1 : VerticalVirtualizationController`1
     {
-        public object resolvedItemHeight;
-
         // ── Methods ──
-        public void get_resolvedItemHeight(){} // RVA: 0x7FFAC2C6D880
-        public void VisibleItemPredicate(){} // RVA: 0x7FFAC2E8DC40
-        public void .ctor(){} // RVA: 0x7FFAC2C70A40
+        public void get_resolvedItemHeight(){} // RVA: 0x7FFE80E42E10
+        public void VisibleItemPredicate(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFE80E460A0
         public void GetIndexFromPosition(){}
-        public void GetExpectedItemHeight(){} // RVA: 0x7FFAC2C6DC30
-        public void GetExpectedContentHeight(){} // RVA: 0x7FFAC2C6D880
-        public void ScrollToItem(){} // RVA: 0x7FFAC2C70ED0
-        public void Resize(){} // RVA: 0x7FFAC2C7F3E0
-        public void OnScroll(){} // RVA: 0x7FFAC2C7F3E0
-        public void GetOrMakeItemAtIndex(){} // RVA: 0x7FFAC2E8DC40
-        public void EndDrag(){} // RVA: 0x7FFAC2C70ED0
+        public void GetExpectedItemHeight(){} // RVA: 0x7FFE80E431C0
+        public void GetExpectedContentHeight(){} // RVA: 0x7FFE80E42E10
+        public void ScrollToItem(){} // RVA: 0x7FFE80E46530
+        public void Resize(){} // RVA: 0x7FFE80E54AE0
+        public void OnScroll(){} // RVA: 0x7FFE80E54AE0
+        public void GetOrMakeItemAtIndex(){} // RVA: 0x7FFE810A1420
+        public void EndDrag(){} // RVA: 0x7FFE80E46530
     }
 
     public class FloatField : TextValueField`1
     {
-        public string floatInput;
-        public string labelUssClassName; // 0x8
-        public string inputUssClassName; // 0x10
+        public string ussClassName;
 
         // ── Methods ──
-        public void get_floatInput(){} // RVA: 0x7FFAC9AAF8F0
-        public void ValueToString(){} // RVA: 0x7FFAC9AAF980
-        public void StringToValue(){} // RVA: 0x7FFAC9AAFB40
-        public void .ctor(){} // RVA: 0x7FFAC9AAFC40 | overloaded x2
-        public void CanTryParse(){} // RVA: 0x7FFAC9AB0080
-        public void ApplyInputDeviceDelta(){} // RVA: 0x7FFAC9AB0110
-        public void .cctor(){} // RVA: 0x7FFAC9AB0200
+        public void get_floatInput(){} // RVA: 0x7FFE87E58190
+        public void ValueToString(){} // RVA: 0x7FFE87E58220
+        public void StringToValue(){} // RVA: 0x7FFE87E583E0
+        public void .ctor(){} // RVA: 0x7FFE87E584E0 | overloaded x2
+        public void CanTryParse(){} // RVA: 0x7FFE87E58920
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7FFE87E589B0
+        public void .cctor(){} // RVA: 0x7FFE87E58AA0
     }
 
     public class FocusChangeDirection : Object
     {
-        public UnityEngine.UIElements.FocusChangeDirection unspecified;
-        public UnityEngine.UIElements.FocusChangeDirection none; // 0x8
-        public UnityEngine.UIElements.FocusChangeDirection lastValue; // 0x10
-        public int m_Value; // 0x10
+        public UnityEngine.UIElements.FocusChangeDirection _unspecified;
+        public UnityEngine.UIElements.FocusChangeDirection _none; // 0x8
+        public UnityEngine.UIElements.FocusChangeDirection _lastValue; // 0x10
 
         // ── Methods ──
-        public void get_unspecified(){} // RVA: 0x7FFAC9B93580
-        public void get_none(){} // RVA: 0x7FFAC9B935E0
-        public void get_lastValue(){} // RVA: 0x7FFAC9B93640
-        public void .ctor(){} // RVA: 0x7FFAC2F240C0
-        public void op_Implicit(){} // RVA: 0x7FFAC8E0D290
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAC2FD5BE0
-        public void Dispose(){} // RVA: 0x7FFAC2F21310
-        public void ApplyTo(){} // RVA: 0x7FFAC9B936A0
-        public void .cctor(){} // RVA: 0x7FFAC9B936E0
+        public void get_unspecified(){} // RVA: 0x7FFE87F3BE30
+        public void get_none(){} // RVA: 0x7FFE87F3BE90
+        public void get_lastValue(){} // RVA: 0x7FFE87F3BEF0
+        public void .ctor(){} // RVA: 0x7FFE810FE0C0
+        public void op_Implicit(){} // RVA: 0x7FFE871B56C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE811AFBE0
+        public void Dispose(){} // RVA: 0x7FFE810FB310
+        public void ApplyTo(){} // RVA: 0x7FFE87F3BF50
+        public void .cctor(){} // RVA: 0x7FFE87F3BF90
     }
 
     public class FocusController : Object
     {
-        public UnityEngine.UIElements.IFocusRing focusRing; // 0x10
-        public UnityEngine.UIElements.TextElement selectedTextElement; // 0x18
-        public System.Collections.Generic.List`1<FocusedElement> focusedElement; // 0x20
-        public UnityEngine.UIElements.Focusable imguiKeyboardControl; // 0x28
-        public UnityEngine.UIElements.Focusable m_LastPendingFocusedElement; // 0x30
-        public int m_PendingFocusCount; // 0x38
-        public int <imguiKeyboardControl>k__BackingField; // 0x3C
+        public UnityEngine.UIElements.IFocusRing _focusRing; // 0x10
+        public UnityEngine.UIElements.TextElement m_SelectedTextElement; // 0x18
+        public System.Collections.Generic.List`1<FocusedElement> m_FocusedElements; // 0x20
+        public UnityEngine.UIElements.Focusable m_LastFocusedElement; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9B938C0
-        public void get_focusRing(){} // RVA: 0x7FFAC2F3C380
-        public void set_selectedTextElement(){} // RVA: 0x7FFAC9B939F0
-        public void get_focusedElement(){} // RVA: 0x7FFAC9B93AA0
-        public void IsFocused(){} // RVA: 0x7FFAC9B93B00
-        public void GetRetargetedFocusedElement(){} // RVA: 0x7FFAC9B93C80
-        public void GetLeafFocusedElement(){} // RVA: 0x7FFAC9B94000
-        public void IsLocalElement(){} // RVA: 0x7FFAC9B940D0
-        public void IsPendingFocus(){} // RVA: 0x7FFAC9B94120
-        public void SetFocusToLastFocusedElement(){} // RVA: 0x7FFAC9B941F0
-        public void BlurLastFocusedElement(){} // RVA: 0x7FFAC9B94290
-        public void DoFocusChange(){} // RVA: 0x7FFAC9B94390
-        public void ProcessPendingFocusChange(){} // RVA: 0x7FFAC9B945C0
-        public void FocusNextInDirection(){} // RVA: 0x7FFAC9B94630
-        public void AboutToReleaseFocus(){} // RVA: 0x7FFAC9B94750
-        public void ReleaseFocus(){} // RVA: 0x7FFAC9B94870
-        public void AboutToGrabFocus(){} // RVA: 0x7FFAC9B94990
-        public void GrabFocus(){} // RVA: 0x7FFAC9B94AB0
-        public void Blur(){} // RVA: 0x7FFAC9B94BD0
-        public void SwitchFocus(){} // RVA: 0x7FFAC9B94DA0 | overloaded x2
-        public void SwitchFocusOnEvent(){} // RVA: 0x7FFAC9B950C0
-        public void ReevaluateFocus(){} // RVA: 0x7FFAC9B95290
-        public void GetFocusableParentForPointerEvent(){} // RVA: 0x7FFAC9B953B0
-        public void get_imguiKeyboardControl(){} // RVA: 0x7FFAC33BD4A0
-        public void set_imguiKeyboardControl(){} // RVA: 0x7FFAC47E2CD0
-        public void SyncIMGUIFocus(){} // RVA: 0x7FFAC9B955C0
+        public void .ctor(){} // RVA: 0x7FFE87F3C170
+        public void get_focusRing(){} // RVA: 0x7FFE81116380
+        public void set_selectedTextElement(){} // RVA: 0x7FFE87F3C2A0
+        public void get_focusedElement(){} // RVA: 0x7FFE87F3C350
+        public void IsFocused(){} // RVA: 0x7FFE87F3C3B0
+        public void GetRetargetedFocusedElement(){} // RVA: 0x7FFE87F3C530
+        public void GetLeafFocusedElement(){} // RVA: 0x7FFE87F3C8B0
+        public void IsLocalElement(){} // RVA: 0x7FFE87F3C980
+        public void IsPendingFocus(){} // RVA: 0x7FFE87F3C9D0
+        public void SetFocusToLastFocusedElement(){} // RVA: 0x7FFE87F3CAA0
+        public void BlurLastFocusedElement(){} // RVA: 0x7FFE87F3CB40
+        public void DoFocusChange(){} // RVA: 0x7FFE87F3CC40
+        public void ProcessPendingFocusChange(){} // RVA: 0x7FFE87F3CE70
+        public void FocusNextInDirection(){} // RVA: 0x7FFE87F3CEE0
+        public void AboutToReleaseFocus(){} // RVA: 0x7FFE87F3D000
+        public void ReleaseFocus(){} // RVA: 0x7FFE87F3D120
+        public void AboutToGrabFocus(){} // RVA: 0x7FFE87F3D240
+        public void GrabFocus(){} // RVA: 0x7FFE87F3D360
+        public void Blur(){} // RVA: 0x7FFE87F3D480
+        public void SwitchFocus(){} // RVA: 0x7FFE87F3D650 | overloaded x2
+        public void SwitchFocusOnEvent(){} // RVA: 0x7FFE87F3D970
+        public void ReevaluateFocus(){} // RVA: 0x7FFE87F3DB40
+        public void GetFocusableParentForPointerEvent(){} // RVA: 0x7FFE87F3DC60
+        public void get_imguiKeyboardControl(){} // RVA: 0x7FFE816311C0
+        public void set_imguiKeyboardControl(){} // RVA: 0x7FFE82A4B070
+        public void SyncIMGUIFocus(){} // RVA: 0x7FFE87F3DE70
     }
 
     public class FocusEvent : FocusEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9B82870
-        public void PreDispatch(){} // RVA: 0x7FFAC9B82960
-        public void .ctor(){} // RVA: 0x7FFAC9B82A30
+        public void .cctor(){} // RVA: 0x7FFE87F2B120
+        public void PreDispatch(){} // RVA: 0x7FFE87F2B210
+        public void .ctor(){} // RVA: 0x7FFE87F2B2E0
     }
 
     public class FocusEventBase`1 : EventBase`1
     {
-        public UnityEngine.UIElements.Focusable relatedTarget;
-        public UnityEngine.UIElements.FocusChangeDirection direction;
-        public UnityEngine.UIElements.FocusController focusController;
-        public bool IsFocusDelegated;
+        public UnityEngine.UIElements.Focusable _relatedTarget;
+        public UnityEngine.UIElements.FocusChangeDirection _direction;
+        public UnityEngine.UIElements.FocusController _focusController;
+        public bool _isFocusDelegated;
 
         // ── Methods ──
-        public void get_relatedTarget(){} // RVA: 0x7FFAC2C58E90
-        public void set_relatedTarget(){} // RVA: 0x7FFAC2C70A40
-        public void get_direction(){} // RVA: 0x7FFAC2C58E90
-        public void set_direction(){} // RVA: 0x7FFAC2C70A40
-        public void get_focusController(){} // RVA: 0x7FFAC2C58E90
-        public void set_focusController(){} // RVA: 0x7FFAC2C70A40
-        public void get_IsFocusDelegated(){} // RVA: 0x7FFAC2C59D00
-        public void set_IsFocusDelegated(){} // RVA: 0x7FFAC2C71060
-        public void Init(){} // RVA: 0x7FFAC2C70980
-        public void LocalInit(){} // RVA: 0x7FFAC2C70980
-        public void GetPooled(){} // RVA: 0x7FFAC2E8DC40
-        public void .ctor(){} // RVA: 0x7FFAC2C70980
+        public void get_relatedTarget(){} // RVA: 0x7FFE80E2E2E0
+        public void set_relatedTarget(){} // RVA: 0x7FFE80E460A0
+        public void get_direction(){} // RVA: 0x7FFE80E2E2E0
+        public void set_direction(){} // RVA: 0x7FFE80E460A0
+        public void get_focusController(){} // RVA: 0x7FFE80E2E2E0
+        public void set_focusController(){} // RVA: 0x7FFE80E460A0
+        public void get_IsFocusDelegated(){} // RVA: 0x7FFE80E2F150
+        public void set_IsFocusDelegated(){} // RVA: 0x7FFE80E466C0
+        public void Init(){} // RVA: 0x7FFE80E45FE0
+        public void LocalInit(){} // RVA: 0x7FFE80E45FE0
+        public void GetPooled(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFE80E45FE0
     }
 
     public class FocusInEvent : FocusEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9B82550
-        public void Init(){} // RVA: 0x7FFAC9B82640
-        public void LocalInit(){} // RVA: 0x7FFAC9B27260
-        public void .ctor(){} // RVA: 0x7FFAC9B82700
+        public void .cctor(){} // RVA: 0x7FFE87F2AE00
+        public void Init(){} // RVA: 0x7FFE87F2AEF0
+        public void LocalInit(){} // RVA: 0x7FFE87ECFB00
+        public void .ctor(){} // RVA: 0x7FFE87F2AFB0
     }
 
     public class FocusOutEvent : FocusEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9B81F60
-        public void Init(){} // RVA: 0x7FFAC9B82050
-        public void LocalInit(){} // RVA: 0x7FFAC9B27260
-        public void .ctor(){} // RVA: 0x7FFAC9B82110
+        public void .cctor(){} // RVA: 0x7FFE87F2A810
+        public void Init(){} // RVA: 0x7FFE87F2A900
+        public void LocalInit(){} // RVA: 0x7FFE87ECFB00
+        public void .ctor(){} // RVA: 0x7FFE87F2A9C0
     }
 
     public class Focusable : CallbackEventHandler
     {
-        public bool focusController; // 0x20
-        public int focusable; // 0x24
-        public bool tabIndex; // 0x28
-        public bool delegatesFocus; // 0x29
+        public bool _focusable; // 0x20
+        public int _tabIndex; // 0x24
+        public bool m_DelegatesFocus; // 0x28
+        public bool m_ExcludeFromFocusRing; // 0x29
+        public int _runningAnimationCount; // 0x30
+        public int _completedAnimationCount; // 0x34
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9B93010
-        public void get_focusController(){} // RVA: 0x7FFAC2C58E90
-        public void get_focusable(){} // RVA: 0x7FFAC300F9D0
-        public void set_focusable(){} // RVA: 0x7FFAC300F9E0
-        public void get_tabIndex(){} // RVA: 0x7FFAC3921980
-        public void set_tabIndex(){} // RVA: 0x7FFAC41674D0
-        public void get_delegatesFocus(){} // RVA: 0x7FFAC9B93020
-        public void set_delegatesFocus(){} // RVA: 0x7FFAC3C24F40
-        public void get_excludeFromFocusRing(){} // RVA: 0x7FFAC9B93030
-        public void set_excludeFromFocusRing(){} // RVA: 0x7FFAC9B93040
-        public void get_canGrabFocus(){} // RVA: 0x7FFAC300F9D0
-        public void Focus(){} // RVA: 0x7FFAC9B93120
-        public void Blur(){} // RVA: 0x7FFAC9B93250
-        public void BlurImmediately(){} // RVA: 0x7FFAC9B932A0
-        public void GetFocusDelegate(){} // RVA: 0x7FFAC9B932F0
-        public void GetFirstFocusableChild(){} // RVA: 0x7FFAC9B93380
-        public void ExecuteDefaultAction(){} // RVA: 0x7FFAC9B93530
-        public void ExecuteDefaultActionDisabled(){} // RVA: 0x7FFAC9B93530
-        public void ProcessEvent(){} // RVA: 0x7FFAC9B93530
+        public void .ctor(){} // RVA: 0x7FFE87F3B8C0
+        public void get_focusController(){} // RVA: 0x7FFE80E2E2E0
+        public void get_focusable(){} // RVA: 0x7FFE811E99D0
+        public void set_focusable(){} // RVA: 0x7FFE811E99E0
+        public void get_tabIndex(){} // RVA: 0x7FFE81A56130
+        public void set_tabIndex(){} // RVA: 0x7FFE82447980
+        public void get_delegatesFocus(){} // RVA: 0x7FFE87F3B8D0
+        public void set_delegatesFocus(){} // RVA: 0x7FFE81C15740
+        public void get_excludeFromFocusRing(){} // RVA: 0x7FFE87F3B8E0
+        public void set_excludeFromFocusRing(){} // RVA: 0x7FFE87F3B8F0
+        public void get_canGrabFocus(){} // RVA: 0x7FFE811E99D0
+        public void Focus(){} // RVA: 0x7FFE87F3B9D0
+        public void Blur(){} // RVA: 0x7FFE87F3BB00
+        public void BlurImmediately(){} // RVA: 0x7FFE87F3BB50
+        public void GetFocusDelegate(){} // RVA: 0x7FFE87F3BBA0
+        public void GetFirstFocusableChild(){} // RVA: 0x7FFE87F3BC30
+        public void ExecuteDefaultAction(){} // RVA: 0x7FFE87F3BDE0
+        public void ExecuteDefaultActionDisabled(){} // RVA: 0x7FFE87F3BDE0
+        public void ProcessEvent(){} // RVA: 0x7FFE87F3BDE0
     }
 
     public class Foldout : BindableElement
     {
-        public UnityEngine.UIElements.Toggle contentContainer; // 0x3D8
-        public UnityEngine.UIElements.VisualElement text; // 0x3E0
-        public bool value; // 0x3E8
-        public string ussClassName;
-        public string toggleUssClassName; // 0x8
-        public string contentUssClassName; // 0x10
-        public string inputUssClassName; // 0x18
-        public string checkmarkUssClassName; // 0x20
-        public string textUssClassName; // 0x28
-        public string toggleInspectorUssClassName; // 0x30
-        public string ussFoldoutDepthClassName; // 0x38
-        public int ussFoldoutMaxDepth; // 0x40
-        public UnityEngine.UIElements.KeyboardNavigationManipulator m_NavigationManipulator; // 0x3F0
+        public UnityEngine.UIElements.Toggle m_Toggle; // 0x3D8
+        public UnityEngine.UIElements.VisualElement m_Container; // 0x3E0
+        public bool m_Value; // 0x3E8
 
         // ── Methods ──
-        public void get_contentContainer(){} // RVA: 0x7FFAC39BF4D0
-        public void set_text(){} // RVA: 0x7FFAC9AB0A50
-        public void get_value(){} // RVA: 0x7FFAC9AB0B90
-        public void set_value(){} // RVA: 0x7FFAC9AB0BA0
-        public void SetValueWithoutNotify(){} // RVA: 0x7FFAC9AB0D00
-        public void OnViewDataReady(){} // RVA: 0x7FFAC9AB0DF0
-        public void Apply(){} // RVA: 0x7FFAC9AB0F30 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAC9AB1030
-        public void OnAttachToPanel(){} // RVA: 0x7FFAC9AB1700
-        public void .cctor(){} // RVA: 0x7FFAC9AB1A00
-        public void <.ctor>b__29_0(){} // RVA: 0x7FFAC9AB1F40
+        public void get_contentContainer(){} // RVA: 0x7FFE81B2A270
+        public void set_text(){} // RVA: 0x7FFE87E592F0
+        public void get_value(){} // RVA: 0x7FFE87E59430
+        public void set_value(){} // RVA: 0x7FFE87E59440
+        public void SetValueWithoutNotify(){} // RVA: 0x7FFE87E595A0
+        public void OnViewDataReady(){} // RVA: 0x7FFE87E59690
+        public void Apply(){} // RVA: 0x7FFE87E597D0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE87E598D0
+        public void OnAttachToPanel(){} // RVA: 0x7FFE87E59FA0
+        public void .cctor(){} // RVA: 0x7FFE87E5A2A0
+        public void <.ctor>b__29_0(){} // RVA: 0x7FFE87E5A7E0
     }
 
     public class FontDefinition : ValueType
     {
-        public UnityEngine.Font font; // 0x10
-        public UnityEngine.TextCore.Text.FontAsset fontAsset; // 0x18
+        public UnityEngine.Font m_Font; // 0x10
+        public UnityEngine.TextCore.Text.FontAsset m_FontAsset; // 0x18
 
         // ── Methods ──
-        public void get_font(){} // RVA: 0x7FFAC51D9A30
-        public void get_fontAsset(){} // RVA: 0x7FFAC86B4B80
-        public void FromFont(){} // RVA: 0x7FFAC9BD8630
-        public void FromSDFFont(){} // RVA: 0x7FFAC9BD86B0
-        public void FromObject(){} // RVA: 0x7FFAC9BD8730
-        public void IsEmpty(){} // RVA: 0x7FFAC9BD8A00
-        public void ToString(){} // RVA: 0x7FFAC9BD8B80
-        public void Equals(){} // RVA: 0x7FFAC9BD8D70 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC9BD8E10
-        public void op_Equality(){} // RVA: 0x7FFAC9BD8FD0
-        public void op_Inequality(){} // RVA: 0x7FFAC9BD8FF0
+        public void get_font(){} // RVA: 0x7FFE8348B260
+        public void get_fontAsset(){} // RVA: 0x7FFE86A5E330
+        public void FromFont(){} // RVA: 0x7FFE87F80EE0
+        public void FromSDFFont(){} // RVA: 0x7FFE87F80F60
+        public void FromObject(){} // RVA: 0x7FFE87F80FE0
+        public void IsEmpty(){} // RVA: 0x7FFE87F812B0
+        public void ToString(){} // RVA: 0x7FFE87F81430
+        public void Equals(){} // RVA: 0x7FFE87F81620 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE87F816C0
+        public void op_Equality(){} // RVA: 0x7FFE87F81880
+        public void op_Inequality(){} // RVA: 0x7FFE87F818A0
     }
 
 }

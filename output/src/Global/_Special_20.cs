@@ -3,6 +3,34 @@
 // Classes: 100
 // Methods: 0
 
+public class __StaticArrayInitTypeSize=1036 : ValueType
+{
+}
+
+public class __StaticArrayInitTypeSize=104 : ValueType
+{
+}
+
+public class __StaticArrayInitTypeSize=106590 : ValueType
+{
+}
+
+public class __StaticArrayInitTypeSize=1078 : ValueType
+{
+}
+
+public class __StaticArrayInitTypeSize=10800 : ValueType
+{
+}
+
+public class __StaticArrayInitTypeSize=11 : ValueType
+{
+}
+
+public class __StaticArrayInitTypeSize=110 : ValueType
+{
+}
+
 public class __StaticArrayInitTypeSize=112 : ValueType
 {
 }
@@ -44,6 +72,10 @@ public class __StaticArrayInitTypeSize=1212 : ValueType
 }
 
 public class __StaticArrayInitTypeSize=1225 : ValueType
+{
+}
+
+public class __StaticArrayInitTypeSize=123 : ValueType
 {
 }
 
@@ -111,15 +143,7 @@ public class __StaticArrayInitTypeSize=14 : ValueType
 {
 }
 
-public class __StaticArrayInitTypeSize=1407 : ValueType
-{
-}
-
 public class __StaticArrayInitTypeSize=141 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=14200 : ValueType
 {
 }
 
@@ -135,6 +159,10 @@ public class __StaticArrayInitTypeSize=1450 : ValueType
 {
 }
 
+public class __StaticArrayInitTypeSize=14660 : ValueType
+{
+}
+
 public class __StaticArrayInitTypeSize=1472 : ValueType
 {
 }
@@ -144,6 +172,10 @@ public class __StaticArrayInitTypeSize=15 : ValueType
 }
 
 public class __StaticArrayInitTypeSize=151 : ValueType
+{
+}
+
+public class __StaticArrayInitTypeSize=1511 : ValueType
 {
 }
 
@@ -175,10 +207,6 @@ public class __StaticArrayInitTypeSize=161 : ValueType
 {
 }
 
-public class __StaticArrayInitTypeSize=16274 : ValueType
-{
-}
-
 public class __StaticArrayInitTypeSize=16384 : ValueType
 {
 }
@@ -187,11 +215,15 @@ public class __StaticArrayInitTypeSize=1665 : ValueType
 {
 }
 
+public class __StaticArrayInitTypeSize=17 : ValueType
+{
+}
+
 public class __StaticArrayInitTypeSize=170 : ValueType
 {
 }
 
-public class __StaticArrayInitTypeSize=1707 : ValueType
+public class __StaticArrayInitTypeSize=17083 : ValueType
 {
 }
 
@@ -220,6 +252,10 @@ public class __StaticArrayInitTypeSize=1799 : ValueType
 }
 
 public class __StaticArrayInitTypeSize=18 : ValueType
+{
+}
+
+public class __StaticArrayInitTypeSize=1810 : ValueType
 {
 }
 
@@ -295,6 +331,10 @@ public class __StaticArrayInitTypeSize=229 : ValueType
 {
 }
 
+public class __StaticArrayInitTypeSize=233 : ValueType
+{
+}
+
 public class __StaticArrayInitTypeSize=2350 : ValueType
 {
 }
@@ -335,15 +375,7 @@ public class __StaticArrayInitTypeSize=26432 : ValueType
 {
 }
 
-public class __StaticArrayInitTypeSize=265 : ValueType
-{
-}
-
 public class __StaticArrayInitTypeSize=28 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=282 : ValueType
 {
 }
 
@@ -368,37 +400,5 @@ public class __StaticArrayInitTypeSize=2896 : ValueType
 }
 
 public class __StaticArrayInitTypeSize=29 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=2907 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=291 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=297 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=3 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=30 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=300 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=307 : ValueType
-{
-}
-
-public class __StaticArrayInitTypeSize=311 : ValueType
 {
 }

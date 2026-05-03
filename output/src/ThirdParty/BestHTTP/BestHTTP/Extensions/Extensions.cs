@@ -7,300 +7,268 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 {
     public class BufferDesc : ValueType
     {
-        public BestHTTP.Extensions.BufferDesc Empty;
-        public byte[] buffer; // 0x10
-        public System.DateTime released; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBE1DA10
-        public void .cctor(){} // RVA: 0x7FFACBE1DAC0
+        public void .ctor(){} // RVA: 0x7FFE8A277030
+        public void .cctor(){} // RVA: 0x7FFE8A2770E0
     }
 
     public class BufferPoolMemoryStream : Stream
     {
-        public bool CanRead; // 0x28
-        public bool CanSeek; // 0x29
-        public int CanWrite; // 0x2C
-        public int Capacity; // 0x30
-        public byte[] Length; // 0x38
-        public int Position; // 0x40
-        public bool expandable; // 0x44
-        public bool streamClosed; // 0x45
-        public int position; // 0x48
-        public int dirty_bytes; // 0x4C
+        public bool canWrite; // 0x28
+        public bool allowGetBuffer; // 0x29
+        public int capacity; // 0x2C
+        public int length; // 0x30
+        public byte[] internalBuffer; // 0x38
+        public int initialIndex; // 0x40
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBE17650 | overloaded x7
-        public void InternalConstructor(){} // RVA: 0x7FFACBE176F0
-        public void CheckIfClosedThrowDisposed(){} // RVA: 0x7FFACBE17860
-        public void get_CanRead(){} // RVA: 0x7FFACBE178D0
-        public void get_CanSeek(){} // RVA: 0x7FFACBE178D0
-        public void get_CanWrite(){} // RVA: 0x7FFACBE178E0
-        public void get_Capacity(){} // RVA: 0x7FFACBE178F0
-        public void set_Capacity(){} // RVA: 0x7FFACBE17960
-        public void get_Length(){} // RVA: 0x7FFACBE17BA0
-        public void get_Position(){} // RVA: 0x7FFACBE17C10
-        public void set_Position(){} // RVA: 0x7FFACBE17C80
-        public void Dispose(){} // RVA: 0x7FFACBE17DC0
-        public void Flush(){} // RVA: 0x7FFAC2F21310
-        public void GetBuffer(){} // RVA: 0x7FFACBE17E80
-        public void Read(){} // RVA: 0x7FFACBE17EE0
-        public void ReadByte(){} // RVA: 0x7FFACBE180C0
-        public void Seek(){} // RVA: 0x7FFACBE18160
-        public void CalculateNewCapacity(){} // RVA: 0x7FFACBE18370
-        public void Expand(){} // RVA: 0x7FFACBE18420
-        public void SetLength(){} // RVA: 0x7FFACBE18520
-        public void ToArray(){} // RVA: 0x7FFACBE18790 | overloaded x2
-        public void Write(){} // RVA: 0x7FFACBE18860
-        public void WriteByte(){} // RVA: 0x7FFACBE18A90
-        public void WriteTo(){} // RVA: 0x7FFACBE18BA0
+        public void .ctor(){} // RVA: 0x7FFE8A270C70 | overloaded x7
+        public void InternalConstructor(){} // RVA: 0x7FFE8A270D10
+        public void CheckIfClosedThrowDisposed(){} // RVA: 0x7FFE8A270E80
+        public void get_CanRead(){} // RVA: 0x7FFE8A270EF0
+        public void get_CanSeek(){} // RVA: 0x7FFE8A270EF0
+        public void get_CanWrite(){} // RVA: 0x7FFE8A270F00
+        public void get_Capacity(){} // RVA: 0x7FFE8A270F10
+        public void set_Capacity(){} // RVA: 0x7FFE8A270F80
+        public void get_Length(){} // RVA: 0x7FFE8A2711C0
+        public void get_Position(){} // RVA: 0x7FFE8A271230
+        public void set_Position(){} // RVA: 0x7FFE8A2712A0
+        public void Dispose(){} // RVA: 0x7FFE8A2713E0
+        public void Flush(){} // RVA: 0x7FFE810FB310
+        public void GetBuffer(){} // RVA: 0x7FFE8A2714A0
+        public void Read(){} // RVA: 0x7FFE8A271500
+        public void ReadByte(){} // RVA: 0x7FFE8A2716E0
+        public void Seek(){} // RVA: 0x7FFE8A271780
+        public void CalculateNewCapacity(){} // RVA: 0x7FFE8A271990
+        public void Expand(){} // RVA: 0x7FFE8A271A40
+        public void SetLength(){} // RVA: 0x7FFE8A271B40
+        public void ToArray(){} // RVA: 0x7FFE8A271DB0 | overloaded x2
+        public void Write(){} // RVA: 0x7FFE8A271E80
+        public void WriteByte(){} // RVA: 0x7FFE8A2720B0
+        public void WriteTo(){} // RVA: 0x7FFE8A2721C0
     }
 
     public class BufferStore : ValueType
     {
-        public long Size; // 0x10
-        public System.Collections.Generic.List`1<BestHTTP.Extensions.BufferDesc> buffers; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBE1D970 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE8A276F90 | overloaded x2
     }
 
     public class CircularBuffer`1 : Object
     {
-        public int Capacity;
-        public int Count;
-        public T[] Item;
-        public int startIdx;
-        public int endIdx;
+        public int _capacity;
+        public int _count;
+        public T[] buffer;
 
         // ── Methods ──
-        public void get_Capacity(){} // RVA: 0x7FFAC2C59960
-        public void set_Capacity(){} // RVA: 0x7FFAC2C70ED0
-        public void get_Count(){} // RVA: 0x7FFAC2C59960
-        public void set_Count(){} // RVA: 0x7FFAC2C70ED0
-        public void get_Item(){} // RVA: 0x7FFAC2E8DC40
-        public void set_Item(){} // RVA: 0x7FFAC2E8DC40
-        public void .ctor(){} // RVA: 0x7FFAC2C70ED0
-        public void Add(){} // RVA: 0x7FFAC2E8DC40
-        public void Clear(){} // RVA: 0x7FFAC2C70980
-        public void ToString(){} // RVA: 0x7FFAC2C58E90
+        public void get_Capacity(){} // RVA: 0x7FFE80E2EDB0
+        public void set_Capacity(){} // RVA: 0x7FFE80E46530
+        public void get_Count(){} // RVA: 0x7FFE80E2EDB0
+        public void set_Count(){} // RVA: 0x7FFE80E46530
+        public void get_Item(){} // RVA: 0x7FFE810A1420
+        public void set_Item(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFE80E46530
+        public void Add(){} // RVA: 0x7FFE810A1420
+        public void Clear(){} // RVA: 0x7FFE80E45FE0
+        public void ToString(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class ExceptionHelper : Object
     {
         // ── Methods ──
-        public void ServerClosedTCPStream(){} // RVA: 0x7FFACBE1B2F0
+        public void ServerClosedTCPStream(){} // RVA: 0x7FFE8A274910
     }
 
     public class Extensions : Object
     {
-        public System.Text.RegularExpressions.Regex validIpV4AddressRegex;
-
         // ── Methods ──
-        public void AsciiToString(){} // RVA: 0x7FFACBE18C80
-        public void GetASCIIBytes(){} // RVA: 0x7FFACBE18D50
-        public void SendAsASCII(){} // RVA: 0x7FFACBE18E30
-        public void WriteLine(){} // RVA: 0x7FFACBE1AF50 | overloaded x5
-        public void GetRequestPathAndQueryURL(){} // RVA: 0x7FFACBE192B0
-        public void FindOption(){} // RVA: 0x7FFACBE19320
-        public void WriteArray(){} // RVA: 0x7FFACBE194F0
-        public void IsHostIsAnIPAddress(){} // RVA: 0x7FFACBE19530
-        public void IsIpV4AddressValid(){} // RVA: 0x7FFACBE19700
-        public void IsIpV6AddressValid(){} // RVA: 0x7FFACBE19830
-        public void ToInt32(){} // RVA: 0x7FFACBE19950
-        public void ToInt64(){} // RVA: 0x7FFACBE19980
-        public void ToDateTime(){} // RVA: 0x7FFACBE199B0
-        public void ToStrOrEmpty(){} // RVA: 0x7FFACBE19A40
-        public void ToBinaryStr(){} // RVA: 0x7FFACBE19A90
-        public void CalculateMD5Hash(){} // RVA: 0x7FFACBE19BC0 | overloaded x2
-        public void Read(){} // RVA: 0x7FFACBE1A070 | overloaded x2
-        public void ReadPossibleQuotedText(){} // RVA: 0x7FFACBE1A1A0
-        public void SkipWhiteSpace(){} // RVA: 0x7FFACBE1A460
-        public void TrimAndLower(){} // RVA: 0x7FFACBE1A510
-        public void Peek(){} // RVA: 0x7FFACBE1A690
-        public void ParseOptionalHeader(){} // RVA: 0x7FFACBE1A720
-        public void ParseQualityParams(){} // RVA: 0x7FFACBE1A9A0
-        public void ReadBuffer(){} // RVA: 0x7FFACBE1ACE0 | overloaded x2
-        public void WriteString(){} // RVA: 0x7FFACBE1AD80
-        public void .cctor(){} // RVA: 0x7FFACBE1B120
+        public void AsciiToString(){} // RVA: 0x7FFE8A2722A0
+        public void GetASCIIBytes(){} // RVA: 0x7FFE8A272370
+        public void SendAsASCII(){} // RVA: 0x7FFE8A272450
+        public void WriteLine(){} // RVA: 0x7FFE8A274570 | overloaded x5
+        public void GetRequestPathAndQueryURL(){} // RVA: 0x7FFE8A2728D0
+        public void FindOption(){} // RVA: 0x7FFE8A272940
+        public void WriteArray(){} // RVA: 0x7FFE8A272B10
+        public void IsHostIsAnIPAddress(){} // RVA: 0x7FFE8A272B50
+        public void IsIpV4AddressValid(){} // RVA: 0x7FFE8A272D20
+        public void IsIpV6AddressValid(){} // RVA: 0x7FFE8A272E50
+        public void ToInt32(){} // RVA: 0x7FFE8A272F70
+        public void ToInt64(){} // RVA: 0x7FFE8A272FA0
+        public void ToDateTime(){} // RVA: 0x7FFE8A272FD0
+        public void ToStrOrEmpty(){} // RVA: 0x7FFE8A273060
+        public void ToBinaryStr(){} // RVA: 0x7FFE8A2730B0
+        public void CalculateMD5Hash(){} // RVA: 0x7FFE8A2731E0 | overloaded x2
+        public void Read(){} // RVA: 0x7FFE8A273690 | overloaded x2
+        public void ReadPossibleQuotedText(){} // RVA: 0x7FFE8A2737C0
+        public void SkipWhiteSpace(){} // RVA: 0x7FFE8A273A80
+        public void TrimAndLower(){} // RVA: 0x7FFE8A273B30
+        public void Peek(){} // RVA: 0x7FFE8A273CB0
+        public void ParseOptionalHeader(){} // RVA: 0x7FFE8A273D40
+        public void ParseQualityParams(){} // RVA: 0x7FFE8A273FC0
+        public void ReadBuffer(){} // RVA: 0x7FFE8A274300 | overloaded x2
+        public void WriteString(){} // RVA: 0x7FFE8A2743A0
+        public void .cctor(){} // RVA: 0x7FFE8A274740
     }
 
     public class HeaderParser : KeyValuePairList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBE1B360
-        public void Parse(){} // RVA: 0x7FFACBE1B3D0
+        public void .ctor(){} // RVA: 0x7FFE8A274980
+        public void Parse(){} // RVA: 0x7FFE8A2749F0
     }
 
     public class HeaderValue : Object
     {
-        public string Key; // 0x10
-        public string Value; // 0x18
-        public System.Collections.Generic.List`1<BestHTTP.Extensions.HeaderValue> Options; // 0x20
+        public string _key; // 0x10
+        public string _value; // 0x18
+        public System.Collections.Generic.List`1<BestHTTP.Extensions.HeaderValue> _options; // 0x20
+        public object field_3; // 0x9BA
 
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7FFAC2F3C380
-        public void set_Key(){} // RVA: 0x7FFAC2F22E30
-        public void get_Value(){} // RVA: 0x7FFAC2F247C0
-        public void set_Value(){} // RVA: 0x7FFAC2F87E80
-        public void get_Options(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_Options(){} // RVA: 0x7FFAC2F4F0D0
-        public void get_HasValue(){} // RVA: 0x7FFAC557F540
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x2
-        public void Parse(){} // RVA: 0x7FFACBE1B5D0
-        public void TryGetOption(){} // RVA: 0x7FFACBE1B5F0
-        public void ParseImplementation(){} // RVA: 0x7FFACBE1B800
-        public void ToString(){} // RVA: 0x7FFACBE1BD90
+        public void get_Key(){} // RVA: 0x7FFE81116380
+        public void set_Key(){} // RVA: 0x7FFE810FCE30
+        public void get_Value(){} // RVA: 0x7FFE810FE7C0
+        public void set_Value(){} // RVA: 0x7FFE81161E80
+        public void get_Options(){} // RVA: 0x7FFE811290C0
+        public void set_Options(){} // RVA: 0x7FFE811290D0
+        public void get_HasValue(){} // RVA: 0x7FFE838846A0
+        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
+        public void Parse(){} // RVA: 0x7FFE8A274BF0
+        public void TryGetOption(){} // RVA: 0x7FFE8A274C10
+        public void ParseImplementation(){} // RVA: 0x7FFE8A274E20
+        public void ToString(){} // RVA: 0x7FFE8A2753B0
     }
 
     public class HeartbeatManager : Object
     {
-        public System.Threading.ReaderWriterLockSlim rwLock; // 0x10
-        public System.Collections.Generic.List`1<BestHTTP.Extensions.IHeartbeat> Heartbeats; // 0x18
-        public BestHTTP.Extensions.IHeartbeat[] UpdateArray; // 0x20
-        public System.DateTime LastUpdate; // 0x28
-
         // ── Methods ──
-        public void Subscribe(){} // RVA: 0x7FFACBE1BFB0
-        public void Unsubscribe(){} // RVA: 0x7FFACBE1C150
-        public void Update(){} // RVA: 0x7FFACBE1C240
-        public void .ctor(){} // RVA: 0x7FFACBE1C550
+        public void Subscribe(){} // RVA: 0x7FFE8A2755D0
+        public void Unsubscribe(){} // RVA: 0x7FFE8A275770
+        public void Update(){} // RVA: 0x7FFE8A275860
+        public void .ctor(){} // RVA: 0x7FFE8A275B70
     }
 
     public class IHeartbeat
     {
         // ── Methods ──
-        public void OnHeartbeatUpdate(){} // RVA: 0x7FFAC2C70BF0
+        public void OnHeartbeatUpdate(){} // RVA: 0x7FFE80E46250
     }
 
     public class KeyValuePairList : Object
     {
-        public System.Collections.Generic.List`1<BestHTTP.Extensions.HeaderValue> Values; // 0x10
+        public System.Collections.Generic.List`1<BestHTTP.Extensions.HeaderValue> _values; // 0x10
 
         // ── Methods ──
-        public void get_Values(){} // RVA: 0x7FFAC2F3C380
-        public void set_Values(){} // RVA: 0x7FFAC2F22E30
-        public void TryGet(){} // RVA: 0x7FFACBE1C720
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_Values(){} // RVA: 0x7FFE81116380
+        public void set_Values(){} // RVA: 0x7FFE810FCE30
+        public void TryGet(){} // RVA: 0x7FFE8A275D40
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class PooledBuffer : ValueType
     {
-        public byte[] Data; // 0x10
-        public int Length; // 0x18
-
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7FFACBE1D800
+        public void Dispose(){} // RVA: 0x7FFE8A276E20
     }
 
     public class ReadOnlyBufferedStream : Stream
     {
-        public System.IO.Stream CanRead; // 0x28
-        public int CanSeek;
-        public byte[] CanWrite; // 0x30
-        public int Length; // 0x38
-        public int Position; // 0x3C
+        public System.IO.Stream stream; // 0x28
+        public int READBUFFER;
+        public byte[] buf; // 0x30
+        public int available; // 0x38
+        public int pos; // 0x3C
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBE1C9E0 | overloaded x2
-        public void Read(){} // RVA: 0x7FFACBE1CB20
-        public void ReadByte(){} // RVA: 0x7FFACBE1CCC0
-        public void Dispose(){} // RVA: 0x7FFACBE1CD90
-        public void get_CanRead(){} // RVA: 0x7FFAC3006850
-        public void get_CanSeek(){} // RVA: 0x7FFACBE1CE50
-        public void get_CanWrite(){} // RVA: 0x7FFACBE1CE90
-        public void get_Length(){} // RVA: 0x7FFACBE1CED0
-        public void get_Position(){} // RVA: 0x7FFACBE1CF10
-        public void set_Position(){} // RVA: 0x7FFACBE1CF50
-        public void Flush(){} // RVA: 0x7FFACBE1CF90
-        public void Seek(){} // RVA: 0x7FFACBE1CFD0
-        public void SetLength(){} // RVA: 0x7FFACBE1D010
-        public void Write(){} // RVA: 0x7FFACBE1D050
+        public void .ctor(){} // RVA: 0x7FFE8A276000 | overloaded x2
+        public void Read(){} // RVA: 0x7FFE8A276140
+        public void ReadByte(){} // RVA: 0x7FFE8A2762E0
+        public void Dispose(){} // RVA: 0x7FFE8A2763B0
+        public void get_CanRead(){} // RVA: 0x7FFE811E0850
+        public void get_CanSeek(){} // RVA: 0x7FFE8A276470
+        public void get_CanWrite(){} // RVA: 0x7FFE8A2764B0
+        public void get_Length(){} // RVA: 0x7FFE8A2764F0
+        public void get_Position(){} // RVA: 0x7FFE8A276530
+        public void set_Position(){} // RVA: 0x7FFE8A276570
+        public void Flush(){} // RVA: 0x7FFE8A2765B0
+        public void Seek(){} // RVA: 0x7FFE8A2765F0
+        public void SetLength(){} // RVA: 0x7FFE8A276630
+        public void Write(){} // RVA: 0x7FFE8A276670
     }
 
     public class StreamList : Stream
     {
-        public System.IO.Stream[] CanRead; // 0x28
-        public int CanSeek; // 0x30
+        public System.IO.Stream[] Streams; // 0x28
+        public int CurrentIdx; // 0x30
+        public object field_2; // 0x9C4
+        public object field_3; // 0x9C5
+        public object field_4; // 0x9C6
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBE1D090
-        public void get_CanRead(){} // RVA: 0x7FFACBE1D140
-        public void get_CanSeek(){} // RVA: 0x7FFAC2F21320
-        public void get_CanWrite(){} // RVA: 0x7FFACBE1D1A0
-        public void Flush(){} // RVA: 0x7FFACBE1D200
-        public void get_Length(){} // RVA: 0x7FFACBE1D280
-        public void Read(){} // RVA: 0x7FFACBE1D330
-        public void Write(){} // RVA: 0x7FFACBE1D4A0 | overloaded x2
-        public void Dispose(){} // RVA: 0x7FFACBE1D560
-        public void get_Position(){} // RVA: 0x7FFACBE1D6B0
-        public void set_Position(){} // RVA: 0x7FFACBE1D700
-        public void Seek(){} // RVA: 0x7FFACBE1D750
-        public void SetLength(){} // RVA: 0x7FFACBE1D7B0
+        public void .ctor(){} // RVA: 0x7FFE8A2766B0
+        public void get_CanRead(){} // RVA: 0x7FFE8A276760
+        public void get_CanSeek(){} // RVA: 0x7FFE810FB320
+        public void get_CanWrite(){} // RVA: 0x7FFE8A2767C0
+        public void Flush(){} // RVA: 0x7FFE8A276820
+        public void get_Length(){} // RVA: 0x7FFE8A2768A0
+        public void Read(){} // RVA: 0x7FFE8A276950
+        public void Write(){} // RVA: 0x7FFE8A276AC0 | overloaded x2
+        public void Dispose(){} // RVA: 0x7FFE8A276B80
+        public void get_Position(){} // RVA: 0x7FFE8A276CD0
+        public void set_Position(){} // RVA: 0x7FFE8A276D20
+        public void Seek(){} // RVA: 0x7FFE8A276D70
+        public void SetLength(){} // RVA: 0x7FFE8A276DD0
     }
 
     public class VariableSizedBufferPool : Object
     {
-        public byte[] IsEnabled;
-        public bool _isEnabled; // 0x8
-        public System.TimeSpan RemoveOlderThan; // 0x10
-        public System.TimeSpan RunMaintenanceEvery; // 0x18
-        public long MinBufferSize; // 0x20
-        public long MaxBufferSize; // 0x28
-        public long MaxPoolSize; // 0x30
-        public bool RemoveEmptyLists; // 0x38
-        public bool IsDoubleReleaseCheckEnabled; // 0x39
-        public System.Collections.Generic.List`1<BestHTTP.Extensions.BufferStore> FreeBuffers; // 0x40
-        public System.DateTime lastMaintenance; // 0x48
-        public long PoolSize; // 0x50
-        public long GetBuffers; // 0x58
-        public long ReleaseBuffers; // 0x60
-        public System.Text.StringBuilder statiscticsBuilder; // 0x68
-        public System.Threading.ReaderWriterLockSlim rwLock; // 0x70
+        public byte[] NoData;
 
         // ── Methods ──
-        public void get_IsEnabled(){} // RVA: 0x7FFACBE1DB70
-        public void set_IsEnabled(){} // RVA: 0x7FFACBE1DBD0
-        public void .cctor(){} // RVA: 0x7FFACBE1DC70
-        public void Get(){} // RVA: 0x7FFACBE1E150
-        public void Release(){} // RVA: 0x7FFACBE1E4E0 | overloaded x2
-        public void Resize(){} // RVA: 0x7FFACBE1E750
-        public void GetStatistics(){} // RVA: 0x7FFACBE1E900
-        public void Clear(){} // RVA: 0x7FFACBE1EF90
-        public void Maintain(){} // RVA: 0x7FFACBE1F0F0
-        public void IsPowerOfTwo(){} // RVA: 0x7FFACBE1F5C0
-        public void NextPowerOf2(){} // RVA: 0x7FFACBE1F5D0
-        public void FindFreeBuffer(){} // RVA: 0x7FFACBE1F5F0
-        public void AddFreeBuffer(){} // RVA: 0x7FFACBE1F9D0
+        public void get_IsEnabled(){} // RVA: 0x7FFE8A277190
+        public void set_IsEnabled(){} // RVA: 0x7FFE8A2771F0
+        public void .cctor(){} // RVA: 0x7FFE8A277290
+        public void Get(){} // RVA: 0x7FFE8A277770
+        public void Release(){} // RVA: 0x7FFE8A277B00 | overloaded x2
+        public void Resize(){} // RVA: 0x7FFE8A277D70
+        public void GetStatistics(){} // RVA: 0x7FFE8A277F20
+        public void Clear(){} // RVA: 0x7FFE8A2785B0
+        public void Maintain(){} // RVA: 0x7FFE8A278710
+        public void IsPowerOfTwo(){} // RVA: 0x7FFE8A278BE0
+        public void NextPowerOf2(){} // RVA: 0x7FFE8A278BF0
+        public void FindFreeBuffer(){} // RVA: 0x7FFE8A278C10
+        public void AddFreeBuffer(){} // RVA: 0x7FFE8A278FF0
     }
 
     public class WWWAuthenticateHeaderParser : KeyValuePairList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBE201B0
-        public void ParseQuotedHeader(){} // RVA: 0x7FFACBE20220
+        public void .ctor(){} // RVA: 0x7FFE8A2797D0
+        public void ParseQuotedHeader(){} // RVA: 0x7FFE8A279840
     }
 
     public class WriteOnlyBufferedStream : Stream
     {
-        public int CanRead; // 0x28
-        public byte[] CanSeek; // 0x30
-        public System.IO.Stream CanWrite; // 0x38
+        public int _position; // 0x28
+        public byte[] buffer; // 0x30
+        public System.IO.Stream stream; // 0x38
+        public object field_3; // 0x9CA
+        public object field_4; // 0x9CB
 
         // ── Methods ──
-        public void get_CanRead(){} // RVA: 0x7FFAC2F21320
-        public void get_CanSeek(){} // RVA: 0x7FFAC2F21320
-        public void get_CanWrite(){} // RVA: 0x7FFAC3006850
-        public void get_Length(){} // RVA: 0x7FFACBE1FDB0
-        public void get_Position(){} // RVA: 0x7FFACBE1FDD0
-        public void set_Position(){} // RVA: 0x7FFACBE1FDE0
-        public void .ctor(){} // RVA: 0x7FFACBE1FE30
-        public void Flush(){} // RVA: 0x7FFACBE1FF70
-        public void Write(){} // RVA: 0x7FFACBE1FFE0
-        public void Read(){} // RVA: 0x7FFAC34F9180
-        public void Seek(){} // RVA: 0x7FFAC34F9180
-        public void SetLength(){} // RVA: 0x7FFAC2F21310
-        public void Dispose(){} // RVA: 0x7FFACBE200F0
+        public void get_CanRead(){} // RVA: 0x7FFE810FB320
+        public void get_CanSeek(){} // RVA: 0x7FFE810FB320
+        public void get_CanWrite(){} // RVA: 0x7FFE811E0850
+        public void get_Length(){} // RVA: 0x7FFE8A2793D0
+        public void get_Position(){} // RVA: 0x7FFE8A2793F0
+        public void set_Position(){} // RVA: 0x7FFE8A279400
+        public void .ctor(){} // RVA: 0x7FFE8A279450
+        public void Flush(){} // RVA: 0x7FFE8A279590
+        public void Write(){} // RVA: 0x7FFE8A279600
+        public void Read(){} // RVA: 0x7FFE813240E0
+        public void Seek(){} // RVA: 0x7FFE813240E0
+        public void SetLength(){} // RVA: 0x7FFE810FB310
+        public void Dispose(){} // RVA: 0x7FFE8A279710
     }
 
 }

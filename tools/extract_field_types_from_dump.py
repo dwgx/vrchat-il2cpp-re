@@ -6,17 +6,18 @@ Reads class VAs from data/precise_dump.json, walks the live Il2CppClass data
 inside the minidump, resolves field names/types/offsets, and writes
 output/field_types.json in the same structure the runtime extractor used.
 
-This dump's field table layout is dump-verified as:
-  Il2CppClass + 0x98  -> FieldInfo*
-  Il2CppClass + 0x124 -> uint16 field_count
-  FieldInfo stride    -> 0x20
+VRChat 2026-05-02 build dump-verified layout:
+  Il2CppClass + 0x10  -> FieldInfo*
+  Il2CppClass + 0x122 -> uint16 field_count (instance)
+  FieldInfo stride    -> 0x28
   FieldInfo + 0x00    -> char* name
   FieldInfo + 0x08    -> Il2CppClass* owner
-  FieldInfo + 0x10    -> Il2CppType*
-  FieldInfo + 0x18    -> packed token/offset
+  FieldInfo + 0x10    -> packed token (low 32: token, high: flags)
+  FieldInfo + 0x18    -> Il2CppType*
+  FieldInfo + 0x20    -> packed offset
 
-The originally documented +0xA0 path in this repo resolves to the parent class
-in this dump and does not produce valid field rows.
+VRChat 2026-04-18 build (kept for reference):
+  field table @ +0x98, count @ +0x124, stride 0x20, type @ +0x10, offset @ +0x18
 """
 
 from __future__ import annotations
@@ -39,12 +40,12 @@ DEFAULT_PRECISE = BASE_DIR / "data" / "precise_dump.json"
 DEFAULT_OUT = BASE_DIR / "output" / "field_types.json"
 DEFAULT_STRING_BASE = 0x66DDE040
 
-FIELD_TABLE_OFF = 0x98
-FIELD_COUNT_OFF = 0x124
-FIELD_STRIDE = 0x20
+FIELD_TABLE_OFF = 0x10
+FIELD_COUNT_OFF = 0x122
+FIELD_STRIDE = 0x28
 FIELD_NAME_OFF = 0x00
-FIELD_TYPE_OFF = 0x10
-FIELD_PACKED_OFF = 0x18
+FIELD_TYPE_OFF = 0x18
+FIELD_PACKED_OFF = 0x20
 
 CLASS_META_PTR_OFFSETS = (0x20, 0x30, 0x68)
 TYPE_DEPTH_LIMIT = 5

@@ -7,62 +7,55 @@ namespace ThirdParty.BestHTTP.BestHTTP.Logger
 {
     public class DefaultLogger : Object
     {
-        public 0x6B0A9448 Level; // 0x10
-        public string FormatVerbose; // 0x18
-        public string FormatInfo; // 0x20
-        public string FormatWarn; // 0x28
-        public string FormatErr; // 0x30
-        public string FormatEx; // 0x38
+        public 0x664A1BDC _level; // 0x10
+        public string _formatVerbose; // 0x18
+        public string _formatInfo; // 0x20
+        public string _formatWarn; // 0x28
+        public string _formatErr; // 0x30
+        public string _formatEx; // 0x38
 
         // ── Methods ──
-        public void get_Level(){} // RVA: 0x7FFAC2FEB5E0
-        public void set_Level(){} // RVA: 0x7FFAC2FEB5F0
-        public void get_FormatVerbose(){} // RVA: 0x7FFAC2F247C0
-        public void set_FormatVerbose(){} // RVA: 0x7FFAC2F87E80
-        public void get_FormatInfo(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_FormatInfo(){} // RVA: 0x7FFAC2F4F0D0
-        public void get_FormatWarn(){} // RVA: 0x7FFAC2F4F130
-        public void set_FormatWarn(){} // RVA: 0x7FFAC2F22E90
-        public void get_FormatErr(){} // RVA: 0x7FFAC31D95E0
-        public void set_FormatErr(){} // RVA: 0x7FFAC2F4F890
-        public void get_FormatEx(){} // RVA: 0x7FFAC31D0140
-        public void set_FormatEx(){} // RVA: 0x7FFAC31D0C20
-        public void .ctor(){} // RVA: 0x7FFACBE07110
-        public void Verbose(){} // RVA: 0x7FFACBE073D0
-        public void Information(){} // RVA: 0x7FFACBE074C0
-        public void Warning(){} // RVA: 0x7FFACBE075B0
-        public void Error(){} // RVA: 0x7FFACBE076A0
-        public void Exception(){} // RVA: 0x7FFACBE07790
-        public void GetFormattedTime(){} // RVA: 0x7FFACBE07BE0
+        public void get_Level(){} // RVA: 0x7FFE811C55E0
+        public void set_Level(){} // RVA: 0x7FFE811C55F0
+        public void get_FormatVerbose(){} // RVA: 0x7FFE810FE7C0
+        public void set_FormatVerbose(){} // RVA: 0x7FFE81161E80
+        public void get_FormatInfo(){} // RVA: 0x7FFE811290C0
+        public void set_FormatInfo(){} // RVA: 0x7FFE811290D0
+        public void get_FormatWarn(){} // RVA: 0x7FFE81129130
+        public void set_FormatWarn(){} // RVA: 0x7FFE810FCE90
+        public void get_FormatErr(){} // RVA: 0x7FFE8144E200
+        public void set_FormatErr(){} // RVA: 0x7FFE81129890
+        public void get_FormatEx(){} // RVA: 0x7FFE8143BA80
+        public void set_FormatEx(){} // RVA: 0x7FFE81437330
+        public void .ctor(){} // RVA: 0x7FFE8A260730
+        public void Verbose(){} // RVA: 0x7FFE8A2609F0
+        public void Information(){} // RVA: 0x7FFE8A260AE0
+        public void Warning(){} // RVA: 0x7FFE8A260BD0
+        public void Error(){} // RVA: 0x7FFE8A260CC0
+        public void Exception(){} // RVA: 0x7FFE8A260DB0
+        public void GetFormattedTime(){} // RVA: 0x7FFE8A261200
     }
 
     public class ILogger
     {
-        public object Level;
-        public object FormatVerbose;
-        public object FormatInfo;
-        public object FormatWarn;
-        public object FormatErr;
-        public object FormatEx;
-
         // ── Methods ──
-        public void get_Level(){} // RVA: 0x7FFAC2C59D00
-        public void set_Level(){} // RVA: 0x7FFAC2C71060
-        public void get_FormatVerbose(){} // RVA: 0x7FFAC2C58E90
-        public void set_FormatVerbose(){} // RVA: 0x7FFAC2C70A40
-        public void get_FormatInfo(){} // RVA: 0x7FFAC2C58E90
-        public void set_FormatInfo(){} // RVA: 0x7FFAC2C70A40
-        public void get_FormatWarn(){} // RVA: 0x7FFAC2C58E90
-        public void set_FormatWarn(){} // RVA: 0x7FFAC2C70A40
-        public void get_FormatErr(){} // RVA: 0x7FFAC2C58E90
-        public void set_FormatErr(){} // RVA: 0x7FFAC2C70A40
-        public void get_FormatEx(){} // RVA: 0x7FFAC2C58E90
-        public void set_FormatEx(){} // RVA: 0x7FFAC2C70A40
-        public void Verbose(){} // RVA: 0x7FFAC2C79B30
-        public void Information(){} // RVA: 0x7FFAC2C79B30
-        public void Warning(){} // RVA: 0x7FFAC2C79B30
-        public void Error(){} // RVA: 0x7FFAC2C79B30
-        public void Exception(){} // RVA: 0x7FFAC2C7AF60
+        public void get_Level(){} // RVA: 0x7FFE80E2F150
+        public void set_Level(){} // RVA: 0x7FFE80E466C0
+        public void get_FormatVerbose(){} // RVA: 0x7FFE80E2E2E0
+        public void set_FormatVerbose(){} // RVA: 0x7FFE80E460A0
+        public void get_FormatInfo(){} // RVA: 0x7FFE80E2E2E0
+        public void set_FormatInfo(){} // RVA: 0x7FFE80E460A0
+        public void get_FormatWarn(){} // RVA: 0x7FFE80E2E2E0
+        public void set_FormatWarn(){} // RVA: 0x7FFE80E460A0
+        public void get_FormatErr(){} // RVA: 0x7FFE80E2E2E0
+        public void set_FormatErr(){} // RVA: 0x7FFE80E460A0
+        public void get_FormatEx(){} // RVA: 0x7FFE80E2E2E0
+        public void set_FormatEx(){} // RVA: 0x7FFE80E460A0
+        public void Verbose(){} // RVA: 0x7FFE80E4F230
+        public void Information(){} // RVA: 0x7FFE80E4F230
+        public void Warning(){} // RVA: 0x7FFE80E4F230
+        public void Error(){} // RVA: 0x7FFE80E4F230
+        public void Exception(){} // RVA: 0x7FFE80E50660
     }
 
 }

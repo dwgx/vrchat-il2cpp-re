@@ -7,82 +7,69 @@ namespace ThirdParty.Other.MeaMod.DNS.BaseEncoding
 {
     public class Base16 : Object
     {
-        public string lowerAlphabet;
-        public string upperAlphabet;
-
         // ── Methods ──
-        public void EncodeUpper(){} // RVA: 0x7FFAC8268450
-        public void EncodeLower(){} // RVA: 0x7FFAC82684A0
-        public void encode(){} // RVA: 0x7FFAC82684F0
-        public void Decode(){} // RVA: 0x7FFAC82686E0
-        public void getHexByte(){} // RVA: 0x7FFAC82689B0
+        public void EncodeUpper(){} // RVA: 0x7FFE86611D70
+        public void EncodeLower(){} // RVA: 0x7FFE86611DC0
+        public void encode(){} // RVA: 0x7FFE86611E10
+        public void Decode(){} // RVA: 0x7FFE86612000
+        public void getHexByte(){} // RVA: 0x7FFE866122D0
     }
 
     public class Base32 : Object
     {
-        public MeaMod.DNS.BaseEncoding.Base32 Crockford;
-        public MeaMod.DNS.BaseEncoding.Base32 Rfc4648; // 0x8
-        public MeaMod.DNS.BaseEncoding.Base32 ExtendedHex; // 0x10
-        public int bitsPerByte;
-        public int bitsPerChar;
-        public char paddingChar;
-        public MeaMod.DNS.BaseEncoding.Base32Alphabet alphabet; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void Encode(){} // RVA: 0x7FFAC8268A60
-        public void Decode(){} // RVA: 0x7FFAC8268D20
-        public void .cctor(){} // RVA: 0x7FFAC8268FB0
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void Encode(){} // RVA: 0x7FFE86612380
+        public void Decode(){} // RVA: 0x7FFE86612640
+        public void .cctor(){} // RVA: 0x7FFE866128D0
     }
 
     public class Base32Alphabet : EncodingAlphabet
     {
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.CrockfordBase32Alphabet> Crockford;
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> Rfc4648; // 0x8
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> ExtendedHex; // 0x10
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> ZBase32; // 0x18
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> Geohash; // 0x20
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.CrockfordBase32Alphabet> crockfordAlphabet;
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> rfc4648Alphabet; // 0x8
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> extendedHexAlphabet; // 0x10
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> zBase32Alphabet; // 0x18
+        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> geohashAlphabet; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC82693D0
-        public void get_Crockford(){} // RVA: 0x7FFAC8269540
-        public void get_Rfc4648(){} // RVA: 0x7FFAC82695C0
-        public void get_ExtendedHex(){} // RVA: 0x7FFAC8269640
-        public void get_ZBase32(){} // RVA: 0x7FFAC82696C0
-        public void get_Geohash(){} // RVA: 0x7FFAC8269740
-        public void mapLowerCaseCounterparts(){} // RVA: 0x7FFAC82697C0
-        public void .cctor(){} // RVA: 0x7FFAC82698D0
+        public void .ctor(){} // RVA: 0x7FFE86612CF0
+        public void get_Crockford(){} // RVA: 0x7FFE86612E60
+        public void get_Rfc4648(){} // RVA: 0x7FFE86612EE0
+        public void get_ExtendedHex(){} // RVA: 0x7FFE86612F60
+        public void get_ZBase32(){} // RVA: 0x7FFE86612FE0
+        public void get_Geohash(){} // RVA: 0x7FFE86613060
+        public void mapLowerCaseCounterparts(){} // RVA: 0x7FFE866130E0
+        public void .cctor(){} // RVA: 0x7FFE866131F0
     }
 
     public class CrockfordBase32Alphabet : Base32Alphabet
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC826A1A0
-        public void mapAlternate(){} // RVA: 0x7FFAC826A250
+        public void .ctor(){} // RVA: 0x7FFE86613AC0
+        public void mapAlternate(){} // RVA: 0x7FFE86613B70
     }
 
     public class EncodingAlphabet : Object
     {
-        public int Length; // 0x10
-        public string Value; // 0x18
-        public int lookupLength;
-        public byte[] ReverseLookupTable; // 0x20
+        public int _length; // 0x10
+        public string _value; // 0x18
 
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7FFAC2F6E5C0
-        public void set_Length(){} // RVA: 0x7FFAC2F240C0
-        public void get_Value(){} // RVA: 0x7FFAC2F247C0
-        public void set_Value(){} // RVA: 0x7FFAC2F87E80
-        public void InvalidCharacter(){} // RVA: 0x7FFAC826A300
-        public void .ctor(){} // RVA: 0x7FFAC826A3F0
-        public void Map(){} // RVA: 0x7FFAC826A6A0
-        public void ToString(){} // RVA: 0x7FFAC2F247C0
+        public void get_Length(){} // RVA: 0x7FFE811485C0
+        public void set_Length(){} // RVA: 0x7FFE810FE0C0
+        public void get_Value(){} // RVA: 0x7FFE810FE7C0
+        public void set_Value(){} // RVA: 0x7FFE81161E80
+        public void InvalidCharacter(){} // RVA: 0x7FFE86613C20
+        public void .ctor(){} // RVA: 0x7FFE86613D10
+        public void Map(){} // RVA: 0x7FFE86613FC0
+        public void ToString(){} // RVA: 0x7FFE810FE7C0
     }
 
     public class Require : Object
     {
         // ── Methods ──
-        public void NotNull(){} // RVA: 0x7FFAC2E8DC40
+        public void NotNull(){} // RVA: 0x7FFE810A1420
     }
 
 }

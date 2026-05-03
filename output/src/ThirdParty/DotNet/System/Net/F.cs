@@ -7,358 +7,308 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class FileWebRequest : WebRequest
     {
-        public System.Threading.WaitCallback Aborted;
-        public System.Threading.WaitCallback ConnectionGroupName; // 0x8
-        public string ContentLength; // 0x38
-        public long Credentials; // 0x40
-        public System.Net.ICredentials Headers; // 0x48
-        public 0x6B0E1890 Method; // 0x50
-        public System.Net.WebHeaderCollection PreAuthenticate; // 0x58
-        public string Proxy; // 0x60
-        public bool Timeout; // 0x68
-        public System.Net.IWebProxy RequestUri; // 0x70
-        public System.Threading.ManualResetEvent UseDefaultCredentials; // 0x78
-        public bool m_readPending; // 0x80
-        public System.Net.WebResponse m_response; // 0x88
-        public System.IO.Stream m_stream; // 0x90
-        public bool m_syncHint; // 0x98
-        public int m_timeout; // 0x9C
-        public System.Uri m_uri; // 0xA0
-        public bool m_writePending; // 0xA8
-        public bool m_writing; // 0xA9
-        public System.Net.LazyAsyncResult m_WriteAResult; // 0xB0
-        public System.Net.LazyAsyncResult m_ReadAResult; // 0xB8
-        public int m_Aborted; // 0xC0
+        public System.Threading.WaitCallback s_GetRequestStreamCallback;
+        public System.Threading.WaitCallback s_GetResponseCallback; // 0x8
+        public string m_connectionGroupName; // 0x38
+        public long m_contentLength; // 0x40
+        public System.Net.ICredentials m_credentials; // 0x48
+        public 0x664DA7B4 m_fileAccess; // 0x50
+        public System.Net.WebHeaderCollection m_headers; // 0x58
+        public string m_method; // 0x60
+        public bool m_preauthenticate; // 0x68
+        public System.Net.IWebProxy m_proxy; // 0x70
+        public System.Threading.ManualResetEvent m_readerEvent; // 0x78
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC92D4330 | overloaded x2
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAC92BE030
-        public void GetObjectData(){} // RVA: 0x7FFAC92D49E0
-        public void get_Aborted(){} // RVA: 0x7FFAC92D5470
-        public void set_ConnectionGroupName(){} // RVA: 0x7FFAC31D0C20
-        public void get_ContentLength(){} // RVA: 0x7FFAC2F9E740
-        public void set_ContentLength(){} // RVA: 0x7FFAC92D5480
-        public void get_Credentials(){} // RVA: 0x7FFAC2F9C730
-        public void set_Credentials(){} // RVA: 0x7FFAC2F9C740
-        public void get_Headers(){} // RVA: 0x7FFAC2FE9500
-        public void get_Method(){} // RVA: 0x7FFAC2FBF370
-        public void set_Method(){} // RVA: 0x7FFAC92D5510
-        public void set_PreAuthenticate(){} // RVA: 0x7FFAC8CDF6C0
-        public void get_Proxy(){} // RVA: 0x7FFAC2FE9590
-        public void set_Proxy(){} // RVA: 0x7FFAC2FE95A0
-        public void get_Timeout(){} // RVA: 0x7FFAC489E520
-        public void set_Timeout(){} // RVA: 0x7FFAC92D5620
-        public void get_RequestUri(){} // RVA: 0x7FFAC3543900
-        public void BeginGetRequestStream(){} // RVA: 0x7FFAC92D56B0
-        public void BeginGetResponse(){} // RVA: 0x7FFAC92D5AC0
-        public void CanGetRequestStream(){} // RVA: 0x7FFAC92D5E00
-        public void EndGetRequestStream(){} // RVA: 0x7FFAC92D5E70
-        public void EndGetResponse(){} // RVA: 0x7FFAC92D60B0
-        public void GetResponse(){} // RVA: 0x7FFAC92D62F0
-        public void GetRequestStreamCallback(){} // RVA: 0x7FFAC92D64F0
-        public void GetResponseCallback(){} // RVA: 0x7FFAC92D67F0
-        public void UnblockReader(){} // RVA: 0x7FFAC92D6C90
-        public void get_UseDefaultCredentials(){} // RVA: 0x7FFAC92D6DE0
-        public void Abort(){} // RVA: 0x7FFAC92D6E10
-        public void .cctor(){} // RVA: 0x7FFAC92D70A0
+        public void .ctor(){} // RVA: 0x7FFE8767CA60 | overloaded x2
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87666770
+        public void GetObjectData(){} // RVA: 0x7FFE8767D110
+        public void get_Aborted(){} // RVA: 0x7FFE8767DBA0
+        public void set_ConnectionGroupName(){} // RVA: 0x7FFE81437330
+        public void get_ContentLength(){} // RVA: 0x7FFE81178740
+        public void set_ContentLength(){} // RVA: 0x7FFE8767DBB0
+        public void get_Credentials(){} // RVA: 0x7FFE81176730
+        public void set_Credentials(){} // RVA: 0x7FFE81176740
+        public void get_Headers(){} // RVA: 0x7FFE811C3500
+        public void get_Method(){} // RVA: 0x7FFE81199370
+        public void set_Method(){} // RVA: 0x7FFE8767DC40
+        public void set_PreAuthenticate(){} // RVA: 0x7FFE87087BB0
+        public void get_Proxy(){} // RVA: 0x7FFE811C3590
+        public void set_Proxy(){} // RVA: 0x7FFE811C35A0
+        public void get_Timeout(){} // RVA: 0x7FFE82B06F90
+        public void set_Timeout(){} // RVA: 0x7FFE8767DD50
+        public void get_RequestUri(){} // RVA: 0x7FFE8179C860
+        public void BeginGetRequestStream(){} // RVA: 0x7FFE8767DDE0
+        public void BeginGetResponse(){} // RVA: 0x7FFE8767E1F0
+        public void CanGetRequestStream(){} // RVA: 0x7FFE8767E530
+        public void EndGetRequestStream(){} // RVA: 0x7FFE8767E5A0
+        public void EndGetResponse(){} // RVA: 0x7FFE8767E7E0
+        public void GetResponse(){} // RVA: 0x7FFE8767EA20
+        public void GetRequestStreamCallback(){} // RVA: 0x7FFE8767EC20
+        public void GetResponseCallback(){} // RVA: 0x7FFE8767EF20
+        public void UnblockReader(){} // RVA: 0x7FFE8767F3C0
+        public void get_UseDefaultCredentials(){} // RVA: 0x7FFE8767F510
+        public void Abort(){} // RVA: 0x7FFE8767F540
+        public void .cctor(){} // RVA: 0x7FFE8767F7D0
     }
 
     public class FileWebRequestCreator : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Create(){} // RVA: 0x7FFAC92D7230
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Create(){} // RVA: 0x7FFE8767F960
     }
 
     public class FileWebResponse : WebResponse
     {
-        public bool Headers; // 0x20
-        public long ResponseUri; // 0x28
-        public 0x6B0E1890 m_fileAccess; // 0x30
-        public System.Net.WebHeaderCollection m_headers; // 0x38
-        public System.IO.Stream m_stream; // 0x40
-        public System.Uri m_uri; // 0x48
+        public bool m_closed; // 0x20
+        public long m_contentLength; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC92D7E90 | overloaded x2
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAC92BF840
-        public void GetObjectData(){} // RVA: 0x7FFAC92D8250
-        public void get_Headers(){} // RVA: 0x7FFAC92D8780
-        public void get_ResponseUri(){} // RVA: 0x7FFAC92D87A0
-        public void CheckDisposed(){} // RVA: 0x7FFAC92D87C0
-        public void Close(){} // RVA: 0x7FFAC92D8850
-        public void System.Net.ICloseEx.CloseEx(){} // RVA: 0x7FFAC92D88A0
-        public void GetResponseStream(){} // RVA: 0x7FFAC92D8A00
+        public void .ctor(){} // RVA: 0x7FFE876805C0 | overloaded x2
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87667F80
+        public void GetObjectData(){} // RVA: 0x7FFE87680980
+        public void get_Headers(){} // RVA: 0x7FFE87680EB0
+        public void get_ResponseUri(){} // RVA: 0x7FFE87680ED0
+        public void CheckDisposed(){} // RVA: 0x7FFE87680EF0
+        public void Close(){} // RVA: 0x7FFE87680F80
+        public void System.Net.ICloseEx.CloseEx(){} // RVA: 0x7FFE87680FD0
+        public void GetResponseStream(){} // RVA: 0x7FFE87681130
     }
 
     public class FileWebStream : FileStream
     {
-        public System.Net.FileWebRequest m_request; // 0x70
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC92D7390 | overloaded x2
-        public void Dispose(){} // RVA: 0x7FFAC92D74A0
-        public void System.Net.ICloseEx.CloseEx(){} // RVA: 0x7FFAC92D7530
-        public void Read(){} // RVA: 0x7FFAC92D7590
-        public void Write(){} // RVA: 0x7FFAC92D7620
-        public void BeginRead(){} // RVA: 0x7FFAC92D76B0
-        public void EndRead(){} // RVA: 0x7FFAC92D7760
-        public void BeginWrite(){} // RVA: 0x7FFAC92D77A0
-        public void EndWrite(){} // RVA: 0x7FFAC92D7850
-        public void CheckError(){} // RVA: 0x7FFAC92D7890
+        public void .ctor(){} // RVA: 0x7FFE8767FAC0 | overloaded x2
+        public void Dispose(){} // RVA: 0x7FFE8767FBD0
+        public void System.Net.ICloseEx.CloseEx(){} // RVA: 0x7FFE8767FC60
+        public void Read(){} // RVA: 0x7FFE8767FCC0
+        public void Write(){} // RVA: 0x7FFE8767FD50
+        public void BeginRead(){} // RVA: 0x7FFE8767FDE0
+        public void EndRead(){} // RVA: 0x7FFE8767FE90
+        public void BeginWrite(){} // RVA: 0x7FFE8767FED0
+        public void EndWrite(){} // RVA: 0x7FFE8767FF80
+        public void CheckError(){} // RVA: 0x7FFE8767FFC0
     }
 
     public class FixedSizeReadStream : WebReadStream
     {
-        public long ContentLength; // 0x40
-        public long position; // 0x48
+        public long _contentLength; // 0x40
 
         // ── Methods ──
-        public void get_ContentLength(){} // RVA: 0x7FFAC2F9E740
-        public void .ctor(){} // RVA: 0x7FFAC92E7990
-        public void ProcessReadAsync(){} // RVA: 0x7FFAC92E79C0
+        public void get_ContentLength(){} // RVA: 0x7FFE81178740
+        public void .ctor(){} // RVA: 0x7FFE876900C0
+        public void ProcessReadAsync(){} // RVA: 0x7FFE876900F0
     }
 
     public class FtpControlStream : CommandStream
     {
-        public System.Net.Sockets.Socket Credentials; // 0x88
-        public System.Net.IPEndPoint ContentLength; // 0x90
-        public System.Net.TlsStream LastModified; // 0x98
-        public System.Text.StringBuilder ResponseUri; // 0xA0
-        public System.Text.StringBuilder BannerMessage; // 0xA8
-        public System.Text.StringBuilder WelcomeMessage; // 0xB0
-        public System.WeakReference ExitMessage; // 0xB8
-        public string _currentTypeSetting; // 0xC0
-        public long _contentLength; // 0xC8
-        public System.DateTime _lastModified; // 0xD0
-        public bool _dataHandshakeStarted; // 0xD8
-        public string _loginDirectory; // 0xE0
-        public string _establishedServerDirectory; // 0xE8
-        public string _requestedServerDirectory; // 0xF0
-        public System.Uri _responseUri; // 0xF8
-        public 0x6B13A1D8 _loginState; // 0x100
-        public 0x6B13A9C0 StatusCode; // 0x104
-        public string StatusLine; // 0x108
-        public System.AsyncCallback s_acceptCallbackDelegate;
-        public System.AsyncCallback s_connectCallbackDelegate; // 0x8
-        public System.AsyncCallback s_SSLHandshakeCallback; // 0x10
+        public System.Net.Sockets.Socket _dataSocket; // 0x88
+        public System.Net.IPEndPoint _passiveEndPoint; // 0x90
+        public System.Net.TlsStream _tlsStream; // 0x98
+        public System.Text.StringBuilder _bannerMessage; // 0xA0
+        public System.Text.StringBuilder _welcomeMessage; // 0xA8
+        public System.Text.StringBuilder _exitMessage; // 0xB0
+        public System.WeakReference _credentials; // 0xB8
 
         // ── Methods ──
-        public void get_Credentials(){} // RVA: 0x7FFAC946B900
-        public void set_Credentials(){} // RVA: 0x7FFAC946B9C0
-        public void .ctor(){} // RVA: 0x7FFAC946BAC0
-        public void AbortConnect(){} // RVA: 0x7FFAC946BBA0
-        public void AcceptCallback(){} // RVA: 0x7FFAC946BBD0
-        public void ConnectCallback(){} // RVA: 0x7FFAC946BEF0
-        public void SSLHandshakeCallback(){} // RVA: 0x7FFAC946C000
-        public void QueueOrCreateFtpDataStream(){} // RVA: 0x7FFAC946C130
-        public void ClearState(){} // RVA: 0x7FFAC946C570
-        public void PipelineCallback(){} // RVA: 0x7FFAC946C7C0
-        public void BuildCommandsList(){} // RVA: 0x7FFAC946D4D0
-        public void QueueOrCreateDataConection(){} // RVA: 0x7FFAC946EE10
-        public void GetPathInfo(){} // RVA: 0x7FFAC946F660
-        public void FormatAddress(){} // RVA: 0x7FFAC946F9F0
-        public void FormatAddressV6(){} // RVA: 0x7FFAC946FBF0
-        public void get_ContentLength(){} // RVA: 0x7FFAC3079460
-        public void get_LastModified(){} // RVA: 0x7FFAC303E100
-        public void get_ResponseUri(){} // RVA: 0x7FFAC3331F50
-        public void get_BannerMessage(){} // RVA: 0x7FFAC946FDD0
-        public void get_WelcomeMessage(){} // RVA: 0x7FFAC946FE00
-        public void get_ExitMessage(){} // RVA: 0x7FFAC946FE30
-        public void GetContentLengthFrom213Response(){} // RVA: 0x7FFAC946FE60
-        public void GetLastModifiedFrom213Response(){} // RVA: 0x7FFAC9470020
-        public void TryUpdateResponseUri(){} // RVA: 0x7FFAC94705E0
-        public void TryUpdateContentLength(){} // RVA: 0x7FFAC9470CF0
-        public void GetLoginDirectory(){} // RVA: 0x7FFAC9470E10
-        public void GetPortV4(){} // RVA: 0x7FFAC9470EC0
-        public void GetPortV6(){} // RVA: 0x7FFAC94711F0
-        public void CreateFtpListenerSocket(){} // RVA: 0x7FFAC9471440
-        public void GetPortCommandLine(){} // RVA: 0x7FFAC94716F0
-        public void FormatFtpCommand(){} // RVA: 0x7FFAC94718B0
-        public void CreateFtpDataSocket(){} // RVA: 0x7FFAC94719D0
-        public void CheckValid(){} // RVA: 0x7FFAC9471A60
-        public void IsFtpDataStreamWriteable(){} // RVA: 0x7FFAC9471E40
-        public void .cctor(){} // RVA: 0x7FFAC9471ED0
+        public void get_Credentials(){} // RVA: 0x7FFE87814040
+        public void set_Credentials(){} // RVA: 0x7FFE87814100
+        public void .ctor(){} // RVA: 0x7FFE87814200
+        public void AbortConnect(){} // RVA: 0x7FFE878142E0
+        public void AcceptCallback(){} // RVA: 0x7FFE87814310
+        public void ConnectCallback(){} // RVA: 0x7FFE87814630
+        public void SSLHandshakeCallback(){} // RVA: 0x7FFE87814740
+        public void QueueOrCreateFtpDataStream(){} // RVA: 0x7FFE87814870
+        public void ClearState(){} // RVA: 0x7FFE87814CB0
+        public void PipelineCallback(){} // RVA: 0x7FFE87814F00
+        public void BuildCommandsList(){} // RVA: 0x7FFE87815C10
+        public void QueueOrCreateDataConection(){} // RVA: 0x7FFE87817550
+        public void GetPathInfo(){} // RVA: 0x7FFE87817DA0
+        public void FormatAddress(){} // RVA: 0x7FFE87818130
+        public void FormatAddressV6(){} // RVA: 0x7FFE87818330
+        public void get_ContentLength(){} // RVA: 0x7FFE81253460
+        public void get_LastModified(){} // RVA: 0x7FFE81218100
+        public void get_ResponseUri(){} // RVA: 0x7FFE8158D5D0
+        public void get_BannerMessage(){} // RVA: 0x7FFE87818510
+        public void get_WelcomeMessage(){} // RVA: 0x7FFE87818540
+        public void get_ExitMessage(){} // RVA: 0x7FFE87818570
+        public void GetContentLengthFrom213Response(){} // RVA: 0x7FFE878185A0
+        public void GetLastModifiedFrom213Response(){} // RVA: 0x7FFE87818760
+        public void TryUpdateResponseUri(){} // RVA: 0x7FFE87818D20
+        public void TryUpdateContentLength(){} // RVA: 0x7FFE87819430
+        public void GetLoginDirectory(){} // RVA: 0x7FFE87819550
+        public void GetPortV4(){} // RVA: 0x7FFE87819600
+        public void GetPortV6(){} // RVA: 0x7FFE87819930
+        public void CreateFtpListenerSocket(){} // RVA: 0x7FFE87819B80
+        public void GetPortCommandLine(){} // RVA: 0x7FFE87819E30
+        public void FormatFtpCommand(){} // RVA: 0x7FFE87819FF0
+        public void CreateFtpDataSocket(){} // RVA: 0x7FFE8781A110
+        public void CheckValid(){} // RVA: 0x7FFE8781A1A0
+        public void IsFtpDataStreamWriteable(){} // RVA: 0x7FFE8781A580
+        public void .cctor(){} // RVA: 0x7FFE8781A610
     }
 
     public class FtpDataStream : Stream
     {
-        public System.Net.FtpWebRequest CanRead; // 0x28
-        public System.Net.Sockets.NetworkStream CanSeek; // 0x30
-        public bool CanWrite; // 0x38
-        public bool Length; // 0x39
-        public bool Position; // 0x3A
-        public bool CanTimeout; // 0x3B
+        public System.Net.FtpWebRequest _request; // 0x28
+        public System.Net.Sockets.NetworkStream _networkStream; // 0x30
+        public bool _writeable; // 0x38
+        public bool _readable; // 0x39
+        public bool _isFullyRead; // 0x3A
+        public bool _closing; // 0x3B
+        public object field_6; // 0x40C
+        public object field_7; // 0x40D
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9472200
-        public void Dispose(){} // RVA: 0x7FFAC94723A0
-        public void System.Net.ICloseEx.CloseEx(){} // RVA: 0x7FFAC9472430
-        public void CheckError(){} // RVA: 0x7FFAC9472990
-        public void get_CanRead(){} // RVA: 0x7FFAC33BCE50
-        public void get_CanSeek(){} // RVA: 0x7FFAC84B9050
-        public void get_CanWrite(){} // RVA: 0x7FFAC31D95D0
-        public void get_Length(){} // RVA: 0x7FFAC85D2BA0
-        public void get_Position(){} // RVA: 0x7FFAC85D2AB0
-        public void set_Position(){} // RVA: 0x7FFAC84B90E0
-        public void Seek(){} // RVA: 0x7FFAC94729E0
-        public void Read(){} // RVA: 0x7FFAC9472A80
-        public void Write(){} // RVA: 0x7FFAC9472B50
-        public void AsyncReadCallback(){} // RVA: 0x7FFAC9472BF0
-        public void BeginRead(){} // RVA: 0x7FFAC9472D90
-        public void EndRead(){} // RVA: 0x7FFAC9472F20
-        public void BeginWrite(){} // RVA: 0x7FFAC9473100
-        public void EndWrite(){} // RVA: 0x7FFAC94731C0
-        public void Flush(){} // RVA: 0x7FFAC85D2C60
-        public void SetLength(){} // RVA: 0x7FFAC92B2FF0
-        public void get_CanTimeout(){} // RVA: 0x7FFAC92B2C80
-        public void get_ReadTimeout(){} // RVA: 0x7FFAC92B2CB0
-        public void set_ReadTimeout(){} // RVA: 0x7FFAC84B9140
-        public void get_WriteTimeout(){} // RVA: 0x7FFAC92B2CE0
-        public void set_WriteTimeout(){} // RVA: 0x7FFAC84B92A0
-        public void SetSocketTimeoutOption(){} // RVA: 0x7FFAC92B3020
+        public void .ctor(){} // RVA: 0x7FFE8781A940
+        public void Dispose(){} // RVA: 0x7FFE8781AAE0
+        public void System.Net.ICloseEx.CloseEx(){} // RVA: 0x7FFE8781AB70
+        public void CheckError(){} // RVA: 0x7FFE8781B0D0
+        public void get_CanRead(){} // RVA: 0x7FFE812CF7D0
+        public void get_CanSeek(){} // RVA: 0x7FFE86862880
+        public void get_CanWrite(){} // RVA: 0x7FFE812CF770
+        public void get_Length(){} // RVA: 0x7FFE8697C370
+        public void get_Position(){} // RVA: 0x7FFE8697C280
+        public void set_Position(){} // RVA: 0x7FFE86862910
+        public void Seek(){} // RVA: 0x7FFE8781B120
+        public void Read(){} // RVA: 0x7FFE8781B1C0
+        public void Write(){} // RVA: 0x7FFE8781B290
+        public void AsyncReadCallback(){} // RVA: 0x7FFE8781B330
+        public void BeginRead(){} // RVA: 0x7FFE8781B4D0
+        public void EndRead(){} // RVA: 0x7FFE8781B660
+        public void BeginWrite(){} // RVA: 0x7FFE8781B840
+        public void EndWrite(){} // RVA: 0x7FFE8781B900
+        public void Flush(){} // RVA: 0x7FFE8697C430
+        public void SetLength(){} // RVA: 0x7FFE8765B730
+        public void get_CanTimeout(){} // RVA: 0x7FFE8765B3C0
+        public void get_ReadTimeout(){} // RVA: 0x7FFE8765B3F0
+        public void set_ReadTimeout(){} // RVA: 0x7FFE86862970
+        public void get_WriteTimeout(){} // RVA: 0x7FFE8765B420
+        public void set_WriteTimeout(){} // RVA: 0x7FFE86862AD0
+        public void SetSocketTimeoutOption(){} // RVA: 0x7FFE8765B760
     }
 
     public class FtpMethodInfo : Object
     {
-        public string IsCommandOnly; // 0x10
-        public 0x6B13A390 IsUpload; // 0x18
-        public 0x6B13A3E8 IsDownload; // 0x1C
-        public string ShouldParseForResponseUri; // 0x20
-        public System.Net.FtpMethodInfo[] s_knownMethodInfo;
+        public string Method; // 0x10
+        public 0x665332B4 Operation; // 0x18
+        public 0x6653330C Flags; // 0x1C
+        public string HttpCommand; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9473230
-        public void HasFlag(){} // RVA: 0x7FFAC9473300
-        public void get_IsCommandOnly(){} // RVA: 0x7FFAC9473310
-        public void get_IsUpload(){} // RVA: 0x7FFAC9473320
-        public void get_IsDownload(){} // RVA: 0x7FFAC9094450
-        public void get_ShouldParseForResponseUri(){} // RVA: 0x7FFAC9473330
-        public void GetMethodInfo(){} // RVA: 0x7FFAC9473340
-        public void .cctor(){} // RVA: 0x7FFAC9473590
+        public void .ctor(){} // RVA: 0x7FFE8781B970
+        public void HasFlag(){} // RVA: 0x7FFE8781BA40
+        public void get_IsCommandOnly(){} // RVA: 0x7FFE8781BA50
+        public void get_IsUpload(){} // RVA: 0x7FFE8781BA60
+        public void get_IsDownload(){} // RVA: 0x7FFE8743CC00
+        public void get_ShouldParseForResponseUri(){} // RVA: 0x7FFE8781BA70
+        public void GetMethodInfo(){} // RVA: 0x7FFE8781BA80
+        public void .cctor(){} // RVA: 0x7FFE8781BCD0
     }
 
     public class FtpWebRequest : WebRequest
     {
-        public object MethodInfo; // 0x38
-        public System.Net.ICredentials Method; // 0x40
-        public System.Uri RenameTo; // 0x48
-        public System.Net.FtpMethodInfo Credentials; // 0x50
-        public string RequestUri; // 0x58
-        public bool Timeout; // 0x60
-        public bool RemainingTimeout; // 0x61
-        public System.DateTime ReadWriteTimeout; // 0x68
-        public int ContentOffset; // 0x70
-        public int ContentLength; // 0x74
-        public long Proxy; // 0x78
-        public long ConnectionGroupName; // 0x80
-        public System.Security.Cryptography.X509Certificates.X509CertificateCollection Aborted; // 0x88
-        public bool TimerQueue; // 0x90
-        public bool CachePolicy; // 0x91
-        public string UseBinary; // 0x98
-        public bool UsePassive; // 0xA0
-        public bool ClientCertificates; // 0xA1
-        public bool EnableSsl; // 0xA2
-        public System.Exception Headers; // 0xA8
-        public Queue UseDefaultCredentials; // 0xB0
-        public Callback PreAuthenticate; // 0xB8
-        public bool InUse; // 0xC0
-        public System.Net.FtpControlStream _connection; // 0xC8
-        public System.IO.Stream _stream; // 0xD0
-        public 0x6B13A498 _requestStage; // 0xD8
-        public bool _onceFailed; // 0xDC
-        public System.Net.WebHeaderCollection _ftpRequestHeaders; // 0xE0
-        public System.Net.FtpWebResponse _ftpWebResponse; // 0xE8
-        public int _readWriteTimeout; // 0xF0
-        public System.Net.ContextAwareResult _writeAsyncResult; // 0xF8
-        public System.Net.LazyAsyncResult _readAsyncResult; // 0x100
-        public System.Net.LazyAsyncResult _requestCompleteAsyncResult; // 0x108
-        public System.Net.NetworkCredential s_defaultFtpNetworkCredential;
-        public Queue s_DefaultTimerQueue; // 0x8
+        public object _syncObject; // 0x38
+        public System.Net.ICredentials _authInfo; // 0x40
+        public System.Uri _uri; // 0x48
+        public System.Net.FtpMethodInfo _methodInfo; // 0x50
+        public string _renameTo; // 0x58
+        public bool _getRequestStreamStarted; // 0x60
+        public bool _getResponseStarted; // 0x61
+        public System.DateTime _startTime; // 0x68
+        public int _timeout; // 0x70
+        public int _remainingTimeout; // 0x74
+        public long _contentLength; // 0x78
+        public long _contentOffset; // 0x80
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection _clientCertificates; // 0x88
+        public bool _passive; // 0x90
+        public bool _binary; // 0x91
+        public string _connectionGroupName; // 0x98
+        public bool _async; // 0xA0
+        public bool _aborted; // 0xA1
+        public bool _timedOut; // 0xA2
+        public System.Exception _exception; // 0xA8
+        public Queue _timerQueue; // 0xB0
+        public Callback _timerCallback; // 0xB8
+        public bool _enableSsl; // 0xC0
 
         // ── Methods ──
-        public void get_MethodInfo(){} // RVA: 0x7FFAC2FC20E0
-        public void get_Method(){} // RVA: 0x7FFAC9473D30
-        public void set_Method(){} // RVA: 0x7FFAC9473D50
-        public void get_RenameTo(){} // RVA: 0x7FFAC2FE9500
-        public void get_Credentials(){} // RVA: 0x7FFAC2F9E740
-        public void set_Credentials(){} // RVA: 0x7FFAC9473F30
-        public void get_RequestUri(){} // RVA: 0x7FFAC2F9C730
-        public void get_Timeout(){} // RVA: 0x7FFAC3B99E80
-        public void set_Timeout(){} // RVA: 0x7FFAC94740B0
-        public void get_RemainingTimeout(){} // RVA: 0x7FFAC43D9E20
-        public void get_ReadWriteTimeout(){} // RVA: 0x7FFAC60855D0
-        public void get_ContentOffset(){} // RVA: 0x7FFAC32EF410
-        public void get_ContentLength(){} // RVA: 0x7FFAC30E5600
-        public void set_ContentLength(){} // RVA: 0x7FFAC8246500
-        public void get_Proxy(){} // RVA: 0x7FFAC34F9180
-        public void set_Proxy(){} // RVA: 0x7FFAC94741E0
-        public void set_ConnectionGroupName(){} // RVA: 0x7FFAC9474250
-        public void get_Aborted(){} // RVA: 0x7FFAC4848B60
-        public void .ctor(){} // RVA: 0x7FFAC9474310
-        public void GetResponse(){} // RVA: 0x7FFAC9474910
-        public void BeginGetResponse(){} // RVA: 0x7FFAC9475270
-        public void EndGetResponse(){} // RVA: 0x7FFAC9475A60
-        public void BeginGetRequestStream(){} // RVA: 0x7FFAC9475DB0
-        public void EndGetRequestStream(){} // RVA: 0x7FFAC9476380
-        public void SubmitRequest(){} // RVA: 0x7FFAC9476750
-        public void TranslateConnectException(){} // RVA: 0x7FFAC9476D10
-        public void CreateConnectionAsync(){} // RVA: 0x7FFAC9476E20
-        public void CreateConnection(){} // RVA: 0x7FFAC9476FF0
-        public void TimedSubmitRequestHelper(){} // RVA: 0x7FFAC9477120
-        public void TimerCallback(){} // RVA: 0x7FFAC9477720
-        public void get_TimerQueue(){} // RVA: 0x7FFAC9477830
-        public void AttemptedRecovery(){} // RVA: 0x7FFAC94778F0
-        public void SetException(){} // RVA: 0x7FFAC9477C70
-        public void CheckError(){} // RVA: 0x7FFAC9478090
-        public void RequestCallback(){} // RVA: 0x7FFAC94780C0
-        public void SyncRequestCallback(){} // RVA: 0x7FFAC94780E0
-        public void AsyncRequestCallback(){} // RVA: 0x7FFAC9478540
-        public void FinishRequestStage(){} // RVA: 0x7FFAC9479250
-        public void Abort(){} // RVA: 0x7FFAC9479B40
-        public void set_CachePolicy(){} // RVA: 0x7FFAC947A050
-        public void get_UseBinary(){} // RVA: 0x7FFAC4862190
-        public void get_UsePassive(){} // RVA: 0x7FFAC3E0D160
-        public void get_ClientCertificates(){} // RVA: 0x7FFAC947A0C0
-        public void get_EnableSsl(){} // RVA: 0x7FFAC2F424C0
-        public void get_Headers(){} // RVA: 0x7FFAC947A260
-        public void get_UseDefaultCredentials(){} // RVA: 0x7FFAC947A320
-        public void set_PreAuthenticate(){} // RVA: 0x7FFAC947A350
-        public void get_InUse(){} // RVA: 0x7FFAC947A380
-        public void EnsureFtpWebResponse(){} // RVA: 0x7FFAC947A3A0
-        public void DataStreamClosed(){} // RVA: 0x7FFAC947AB40
-        public void .cctor(){} // RVA: 0x7FFAC947ABF0
+        public void get_MethodInfo(){} // RVA: 0x7FFE8119C0E0
+        public void get_Method(){} // RVA: 0x7FFE8781C470
+        public void set_Method(){} // RVA: 0x7FFE8781C490
+        public void get_RenameTo(){} // RVA: 0x7FFE811C3500
+        public void get_Credentials(){} // RVA: 0x7FFE81178740
+        public void set_Credentials(){} // RVA: 0x7FFE8781C670
+        public void get_RequestUri(){} // RVA: 0x7FFE81176730
+        public void get_Timeout(){} // RVA: 0x7FFE81E60180
+        public void set_Timeout(){} // RVA: 0x7FFE8781C7F0
+        public void get_RemainingTimeout(){} // RVA: 0x7FFE826A9B90
+        public void get_ReadWriteTimeout(){} // RVA: 0x7FFE843B5350
+        public void get_ContentOffset(){} // RVA: 0x7FFE81280C30
+        public void get_ContentLength(){} // RVA: 0x7FFE81463AE0
+        public void set_ContentLength(){} // RVA: 0x7FFE865EFE40
+        public void get_Proxy(){} // RVA: 0x7FFE813240E0
+        public void set_Proxy(){} // RVA: 0x7FFE8781C920
+        public void set_ConnectionGroupName(){} // RVA: 0x7FFE8781C990
+        public void get_Aborted(){} // RVA: 0x7FFE82AB0F00
+        public void .ctor(){} // RVA: 0x7FFE8781CA50
+        public void GetResponse(){} // RVA: 0x7FFE8781D050
+        public void BeginGetResponse(){} // RVA: 0x7FFE8781D9B0
+        public void EndGetResponse(){} // RVA: 0x7FFE8781E1A0
+        public void BeginGetRequestStream(){} // RVA: 0x7FFE8781E4F0
+        public void EndGetRequestStream(){} // RVA: 0x7FFE8781EAC0
+        public void SubmitRequest(){} // RVA: 0x7FFE8781EE90
+        public void TranslateConnectException(){} // RVA: 0x7FFE8781F450
+        public void CreateConnectionAsync(){} // RVA: 0x7FFE8781F560
+        public void CreateConnection(){} // RVA: 0x7FFE8781F730
+        public void TimedSubmitRequestHelper(){} // RVA: 0x7FFE8781F860
+        public void TimerCallback(){} // RVA: 0x7FFE8781FE60
+        public void get_TimerQueue(){} // RVA: 0x7FFE8781FF70
+        public void AttemptedRecovery(){} // RVA: 0x7FFE87820030
+        public void SetException(){} // RVA: 0x7FFE878203B0
+        public void CheckError(){} // RVA: 0x7FFE878207D0
+        public void RequestCallback(){} // RVA: 0x7FFE87820800
+        public void SyncRequestCallback(){} // RVA: 0x7FFE87820820
+        public void AsyncRequestCallback(){} // RVA: 0x7FFE87820C80
+        public void FinishRequestStage(){} // RVA: 0x7FFE87821990
+        public void Abort(){} // RVA: 0x7FFE87822280
+        public void set_CachePolicy(){} // RVA: 0x7FFE87822790
+        public void get_UseBinary(){} // RVA: 0x7FFE82975460
+        public void get_UsePassive(){} // RVA: 0x7FFE820BF400
+        public void get_ClientCertificates(){} // RVA: 0x7FFE87822800
+        public void get_EnableSsl(){} // RVA: 0x7FFE8111C4C0
+        public void get_Headers(){} // RVA: 0x7FFE878229A0
+        public void get_UseDefaultCredentials(){} // RVA: 0x7FFE87822A60
+        public void set_PreAuthenticate(){} // RVA: 0x7FFE87822A90
+        public void get_InUse(){} // RVA: 0x7FFE87822AC0
+        public void EnsureFtpWebResponse(){} // RVA: 0x7FFE87822AE0
+        public void DataStreamClosed(){} // RVA: 0x7FFE87823280
+        public void .cctor(){} // RVA: 0x7FFE87823330
     }
 
     public class FtpWebRequestCreator : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Create(){} // RVA: 0x7FFAC92B2140
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Create(){} // RVA: 0x7FFE8765A880
     }
 
     public class FtpWebResponse : WebResponse
     {
-        public System.IO.Stream Headers; // 0x20
-        public long ResponseUri; // 0x28
-        public System.Uri StatusCode; // 0x30
-        public 0x6B13A9C0 _statusCode; // 0x38
-        public string _statusLine; // 0x40
-        public System.Net.WebHeaderCollection _ftpRequestHeaders; // 0x48
-        public System.DateTime _lastModified; // 0x50
-        public string _bannerMessage; // 0x58
-        public string _welcomeMessage; // 0x60
-        public string _exitMessage; // 0x68
+        public System.IO.Stream _responseStream; // 0x20
+        public long _contentLength; // 0x28
+        public System.Uri _responseUri; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC92B21A0
-        public void UpdateStatus(){} // RVA: 0x7FFAC92B24A0
-        public void GetResponseStream(){} // RVA: 0x7FFAC92B2550
-        public void SetResponseStream(){} // RVA: 0x7FFAC92B2640
-        public void Close(){} // RVA: 0x7FFAC92B26E0
-        public void get_Headers(){} // RVA: 0x7FFAC92B27E0
-        public void get_ResponseUri(){} // RVA: 0x7FFAC31D95E0
-        public void get_StatusCode(){} // RVA: 0x7FFAC358A870
+        public void .ctor(){} // RVA: 0x7FFE8765A8E0
+        public void UpdateStatus(){} // RVA: 0x7FFE8765ABE0
+        public void GetResponseStream(){} // RVA: 0x7FFE8765AC90
+        public void SetResponseStream(){} // RVA: 0x7FFE8765AD80
+        public void Close(){} // RVA: 0x7FFE8765AE20
+        public void get_Headers(){} // RVA: 0x7FFE8765AF20
+        public void get_ResponseUri(){} // RVA: 0x7FFE8144E200
+        public void get_StatusCode(){} // RVA: 0x7FFE81D46090
     }
 
 }

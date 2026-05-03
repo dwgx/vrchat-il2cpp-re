@@ -7,25 +7,28 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class PathList : Object
     {
-        public System.Collections.SortedList Count; // 0x10
+        public System.Collections.SortedList m_list; // 0x10
+        public object field_1; // 0x4A6
+        public object field_2; // 0x4A7
+        public object field_3; // 0x4A8
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC92D3510
-        public void get_Count(){} // RVA: 0x7FFAC85938D0
-        public void GetCookiesCount(){} // RVA: 0x7FFAC92D37D0
-        public void get_Values(){} // RVA: 0x7FFAC8593900
-        public void get_Item(){} // RVA: 0x7FFAC92D3BD0
-        public void set_Item(){} // RVA: 0x7FFAC92D3C00
-        public void GetEnumerator(){} // RVA: 0x7FFAC8364560
-        public void get_SyncRoot(){} // RVA: 0x7FFAC8599550
+        public void .ctor(){} // RVA: 0x7FFE8767BC40
+        public void get_Count(){} // RVA: 0x7FFE8693D0B0
+        public void GetCookiesCount(){} // RVA: 0x7FFE8767BF00
+        public void get_Values(){} // RVA: 0x7FFE8693D0E0
+        public void get_Item(){} // RVA: 0x7FFE8767C300
+        public void set_Item(){} // RVA: 0x7FFE8767C330
+        public void GetEnumerator(){} // RVA: 0x7FFE8670DE60
+        public void get_SyncRoot(){} // RVA: 0x7FFE86942D30
     }
 
     public class ProtocolViolationException : InvalidOperationException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x3
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAC92B7EC0
-        public void GetObjectData(){} // RVA: 0x7FFAC92B7EC0
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87660600
+        public void GetObjectData(){} // RVA: 0x7FFE87660600
     }
 
 }

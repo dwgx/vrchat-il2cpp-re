@@ -8,7 +8,7 @@ namespace ThirdParty.Oculus.Oculus.Platform
     public class Entitlements : Object
     {
         // ── Methods ──
-        public void IsUserEntitledToApplication(){} // RVA: 0x7FFAC886D270
+        public void IsUserEntitledToApplication(){} // RVA: 0x7FFE86C16960
     }
 
 }

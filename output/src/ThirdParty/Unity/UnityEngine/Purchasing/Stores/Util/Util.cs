@@ -8,7 +8,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Stores.Util
     public class IRetryPolicy
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7FFAC2C79B30
+        public void Invoke(){} // RVA: 0x7FFE80E4F230
     }
 
 }

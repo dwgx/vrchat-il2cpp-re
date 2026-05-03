@@ -7,12 +7,8 @@ namespace VRC.Core.CameraSystems
 {
     public class StackedCamera : ScriptableObject
     {
-        public string CameraName; // 0x18
-        public UnityEngine.LayerMask RenderLayer; // 0x20
-        public bool UseOcclusionCulling; // 0x24
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9D3CFB0
+        public void .ctor(){} // RVA: 0x7FFE880E57A0
     }
 
 }

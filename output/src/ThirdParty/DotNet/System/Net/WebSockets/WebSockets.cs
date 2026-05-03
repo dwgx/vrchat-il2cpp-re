@@ -7,240 +7,208 @@ namespace ThirdParty.DotNet.System.Net.WebSockets
 {
     public class ClientWebSocket : WebSocket
     {
-        public System.Net.WebSockets.ClientWebSocketOptions Options; // 0x10
-        public System.Net.WebSockets.WebSocketHandle CloseStatus; // 0x18
-        public int CloseStatusDescription; // 0x20
+        public System.Net.WebSockets.ClientWebSocketOptions _options; // 0x10
+        public System.Net.WebSockets.WebSocketHandle _innerWebSocket; // 0x18
+        public int _state; // 0x20
+        public object field_3; // 0x601
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC935B470
-        public void get_Options(){} // RVA: 0x7FFAC2F3C380
-        public void get_CloseStatus(){} // RVA: 0x7FFAC935B720
-        public void get_CloseStatusDescription(){} // RVA: 0x7FFAC935B7B0
-        public void get_State(){} // RVA: 0x7FFAC935B840
-        public void ConnectAsync(){} // RVA: 0x7FFAC935B900
-        public void ConnectAsyncCore(){} // RVA: 0x7FFAC935BC20
-        public void SendAsync(){} // RVA: 0x7FFAC935BF40 | overloaded x2
-        public void ReceiveAsync(){} // RVA: 0x7FFAC935C060 | overloaded x2
-        public void CloseAsync(){} // RVA: 0x7FFAC935C100
-        public void CloseOutputAsync(){} // RVA: 0x7FFAC935C180
-        public void Abort(){} // RVA: 0x7FFAC935C200
-        public void Dispose(){} // RVA: 0x7FFAC935C290
-        public void ThrowIfNotConnected(){} // RVA: 0x7FFAC935C330
+        public void .ctor(){} // RVA: 0x7FFE87703BA0
+        public void get_Options(){} // RVA: 0x7FFE81116380
+        public void get_CloseStatus(){} // RVA: 0x7FFE87703E50
+        public void get_CloseStatusDescription(){} // RVA: 0x7FFE87703EE0
+        public void get_State(){} // RVA: 0x7FFE87703F70
+        public void ConnectAsync(){} // RVA: 0x7FFE87704030
+        public void ConnectAsyncCore(){} // RVA: 0x7FFE87704350
+        public void SendAsync(){} // RVA: 0x7FFE87704670 | overloaded x2
+        public void ReceiveAsync(){} // RVA: 0x7FFE87704790 | overloaded x2
+        public void CloseAsync(){} // RVA: 0x7FFE87704830
+        public void CloseOutputAsync(){} // RVA: 0x7FFE877048B0
+        public void Abort(){} // RVA: 0x7FFE87704930
+        public void Dispose(){} // RVA: 0x7FFE877049C0
+        public void ThrowIfNotConnected(){} // RVA: 0x7FFE87704A60
     }
 
     public class ClientWebSocketOptions : Object
     {
-        public bool RequestHeaders; // 0x10
-        public System.Collections.Generic.List`1<string> RequestedSubProtocols; // 0x18
-        public System.Net.WebHeaderCollection Proxy; // 0x20
-        public System.TimeSpan ClientCertificates; // 0x28
-        public System.Net.IWebProxy RemoteCertificateValidationCallback; // 0x30
-        public System.Security.Cryptography.X509Certificates.X509CertificateCollection Cookies; // 0x38
-        public System.Net.CookieContainer KeepAliveInterval; // 0x40
-        public int ReceiveBufferSize; // 0x48
-        public int SendBufferSize; // 0x4C
-        public System.Nullable`1<System.ArraySegment`1<byte>> Buffer; // 0x50
-        public System.Net.Security.RemoteCertificateValidationCallback _remoteCertificateValidationCallback; // 0x68
+        public bool _isReadOnly; // 0x10
+        public System.Collections.Generic.List`1<string> _requestedSubProtocols; // 0x18
+        public System.Net.WebHeaderCollection _requestHeaders; // 0x20
+        public System.TimeSpan _keepAliveInterval; // 0x28
+        public System.Net.IWebProxy _proxy; // 0x30
+        public System.Security.Cryptography.X509Certificates.X509CertificateCollection _clientCertificates; // 0x38
+        public System.Net.CookieContainer _cookies; // 0x40
+        public int _receiveBufferSize; // 0x48
+        public int _sendBufferSize; // 0x4C
+        public System.Nullable`1<System.ArraySegment`1<byte>> _buffer; // 0x50
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC935CAE0
-        public void get_RequestHeaders(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_RequestedSubProtocols(){} // RVA: 0x7FFAC2F247C0
-        public void set_Proxy(){} // RVA: 0x7FFAC935CCC0
-        public void get_ClientCertificates(){} // RVA: 0x7FFAC935CD70
-        public void set_RemoteCertificateValidationCallback(){} // RVA: 0x7FFAC935CE20
-        public void get_Cookies(){} // RVA: 0x7FFAC2F9E740
-        public void AddSubProtocol(){} // RVA: 0x7FFAC935CED0
-        public void get_KeepAliveInterval(){} // RVA: 0x7FFAC2F4F130
-        public void get_ReceiveBufferSize(){} // RVA: 0x7FFAC2FC20C0
-        public void get_SendBufferSize(){} // RVA: 0x7FFAC3F2D3C0
-        public void get_Buffer(){} // RVA: 0x7FFAC6ADB050
-        public void SetToReadOnly(){} // RVA: 0x7FFAC322C870
-        public void ThrowIfReadOnly(){} // RVA: 0x7FFAC935D210
+        public void .ctor(){} // RVA: 0x7FFE87705210
+        public void get_RequestHeaders(){} // RVA: 0x7FFE811290C0
+        public void get_RequestedSubProtocols(){} // RVA: 0x7FFE810FE7C0
+        public void set_Proxy(){} // RVA: 0x7FFE877053F0
+        public void get_ClientCertificates(){} // RVA: 0x7FFE877054A0
+        public void set_RemoteCertificateValidationCallback(){} // RVA: 0x7FFE87705550
+        public void get_Cookies(){} // RVA: 0x7FFE81178740
+        public void AddSubProtocol(){} // RVA: 0x7FFE87705600
+        public void get_KeepAliveInterval(){} // RVA: 0x7FFE81129130
+        public void get_ReceiveBufferSize(){} // RVA: 0x7FFE8119C0C0
+        public void get_SendBufferSize(){} // RVA: 0x7FFE821E0A40
+        public void get_Buffer(){} // RVA: 0x7FFE84E4C290
+        public void SetToReadOnly(){} // RVA: 0x7FFE814B8390
+        public void ThrowIfReadOnly(){} // RVA: 0x7FFE87705940
     }
 
     public class ManagedWebSocket : WebSocket
     {
-        public System.Security.Cryptography.RandomNumberGenerator StateUpdateLock;
-        public System.Text.UTF8Encoding ReceiveAsyncLock; // 0x8
-        public 0x6B1421B8[] CloseStatus; // 0x10
-        public 0x6B1421B8[] CloseStatusDescription; // 0x18
-        public 0x6B1421B8[] State; // 0x20
-        public 0x6B1421B8[] s_validCloseStates; // 0x28
-        public System.Threading.Tasks.Task`1<System.Net.WebSockets.WebSocketReceiveResult> s_cachedCloseTask; // 0x30
-        public System.IO.Stream _stream; // 0x10
-        public bool _isServer; // 0x18
-        public string _subprotocol; // 0x20
-        public System.Threading.Timer _keepAliveTimer; // 0x28
-        public System.Threading.CancellationTokenSource _abortSource; // 0x30
-        public System.Memory`1<byte> _receiveBuffer; // 0x38
-        public Utf8MessageState _utf8TextState; // 0x48
-        public System.Threading.SemaphoreSlim _sendFrameAsyncLock; // 0x50
-        public 0x6B1421B8 _state; // 0x58
-        public bool _disposed; // 0x5C
-        public bool _sentCloseFrame; // 0x5D
-        public bool _receivedCloseFrame; // 0x5E
-        public System.Nullable`1<0x6B142000> _closeStatus; // 0x60
-        public string _closeStatusDescription; // 0x68
-        public MessageHeader _lastReceiveHeader; // 0x70
-        public int _receiveBufferOffset; // 0x88
-        public int _receiveBufferCount; // 0x8C
-        public int _receivedMaskOffsetOffset; // 0x90
-        public byte[] _sendBuffer; // 0x98
-        public bool _lastSendWasFragment; // 0xA0
-        public System.Threading.Tasks.Task _lastReceiveAsync; // 0xA8
+        public System.Security.Cryptography.RandomNumberGenerator s_random;
+        public System.Text.UTF8Encoding s_textEncoding; // 0x8
+        public 0x6653B0DC[] s_validSendStates; // 0x10
+        public 0x6653B0DC[] s_validReceiveStates; // 0x18
+        public 0x6653B0DC[] s_validCloseOutputStates; // 0x20
 
         // ── Methods ──
-        public void CreateFromConnectedStream(){} // RVA: 0x7FFAC9350370
-        public void get_StateUpdateLock(){} // RVA: 0x7FFAC31D95E0
-        public void get_ReceiveAsyncLock(){} // RVA: 0x7FFAC2F9C730
-        public void .ctor(){} // RVA: 0x7FFAC9350410
-        public void Dispose(){} // RVA: 0x7FFAC9350C30
-        public void DisposeCore(){} // RVA: 0x7FFAC9350D70
-        public void get_CloseStatus(){} // RVA: 0x7FFAC2FBF370
-        public void get_CloseStatusDescription(){} // RVA: 0x7FFAC2F9CD50
-        public void get_State(){} // RVA: 0x7FFAC362EA40
-        public void SendAsync(){} // RVA: 0x7FFAC9350DF0
-        public void SendPrivateAsync(){} // RVA: 0x7FFAC93511D0
-        public void ReceiveAsync(){} // RVA: 0x7FFAC9351510
-        public void CloseAsync(){} // RVA: 0x7FFAC9351910
-        public void CloseOutputAsync(){} // RVA: 0x7FFAC9351A10
-        public void Abort(){} // RVA: 0x7FFAC9351B10
-        public void SendFrameAsync(){} // RVA: 0x7FFAC9351BA0
-        public void SendFrameLockAcquiredNonCancelableAsync(){} // RVA: 0x7FFAC9351D30
-        public void WaitForWriteTaskAsync(){} // RVA: 0x7FFAC9352220
-        public void SendFrameFallbackAsync(){} // RVA: 0x7FFAC9352440
-        public void WriteFrameToSendBuffer(){} // RVA: 0x7FFAC93526D0
-        public void SendKeepAliveFrameAsync(){} // RVA: 0x7FFAC9352AF0
-        public void WriteHeader(){} // RVA: 0x7FFAC9352E30
-        public void WriteRandomMask(){} // RVA: 0x7FFAC9353020
-        public void ReceiveAsyncPrivate(){} // RVA: 0x7FFAC2E8DC40
-        public void HandleReceivedCloseAsync(){} // RVA: 0x7FFAC93530C0
-        public void WaitForServerToCloseConnectionAsync(){} // RVA: 0x7FFAC9353300
-        public void HandleReceivedPingPongAsync(){} // RVA: 0x7FFAC9353520
-        public void IsValidCloseStatus(){} // RVA: 0x7FFAC9353760
-        public void CloseWithReceiveErrorAndThrowAsync(){} // RVA: 0x7FFAC93537A0
-        public void TryParseMessageHeaderFromReceiveBuffer(){} // RVA: 0x7FFAC93539F0
-        public void CloseAsyncPrivate(){} // RVA: 0x7FFAC9353CE0
-        public void SendCloseFrameAsync(){} // RVA: 0x7FFAC9353F70
-        public void ConsumeFromBuffer(){} // RVA: 0x7FFAC9354200
-        public void EnsureBufferContainsAsync(){} // RVA: 0x7FFAC9354210
-        public void ThrowIfEOFUnexpected(){} // RVA: 0x7FFAC9354450
-        public void AllocateSendBuffer(){} // RVA: 0x7FFAC93544F0
-        public void ReleaseSendBuffer(){} // RVA: 0x7FFAC93545E0
-        public void CombineMaskBytes(){} // RVA: 0x7FFAC93546E0
-        public void ApplyMask(){} // RVA: 0x7FFAC93548D0 | overloaded x2
-        public void ThrowIfOperationInProgress(){} // RVA: 0x7FFAC93549C0
-        public void ThrowOperationInProgress(){} // RVA: 0x7FFAC9354A00
-        public void CreateOperationCanceledException(){} // RVA: 0x7FFAC9354A70
-        public void TryValidateUtf8(){} // RVA: 0x7FFAC9354B50
-        public void ValidateAndReceiveAsync(){} // RVA: 0x7FFAC9354D20
-        public void .cctor(){} // RVA: 0x7FFAC9354F60
+        public void CreateFromConnectedStream(){} // RVA: 0x7FFE876F8AA0
+        public void get_StateUpdateLock(){} // RVA: 0x7FFE8144E200
+        public void get_ReceiveAsyncLock(){} // RVA: 0x7FFE81176730
+        public void .ctor(){} // RVA: 0x7FFE876F8B40
+        public void Dispose(){} // RVA: 0x7FFE876F9360
+        public void DisposeCore(){} // RVA: 0x7FFE876F94A0
+        public void get_CloseStatus(){} // RVA: 0x7FFE81199370
+        public void get_CloseStatusDescription(){} // RVA: 0x7FFE81176D50
+        public void get_State(){} // RVA: 0x7FFE8175AC90
+        public void SendAsync(){} // RVA: 0x7FFE876F9520
+        public void SendPrivateAsync(){} // RVA: 0x7FFE876F9900
+        public void ReceiveAsync(){} // RVA: 0x7FFE876F9C40
+        public void CloseAsync(){} // RVA: 0x7FFE876FA040
+        public void CloseOutputAsync(){} // RVA: 0x7FFE876FA140
+        public void Abort(){} // RVA: 0x7FFE876FA240
+        public void SendFrameAsync(){} // RVA: 0x7FFE876FA2D0
+        public void SendFrameLockAcquiredNonCancelableAsync(){} // RVA: 0x7FFE876FA460
+        public void WaitForWriteTaskAsync(){} // RVA: 0x7FFE876FA950
+        public void SendFrameFallbackAsync(){} // RVA: 0x7FFE876FAB70
+        public void WriteFrameToSendBuffer(){} // RVA: 0x7FFE876FAE00
+        public void SendKeepAliveFrameAsync(){} // RVA: 0x7FFE876FB220
+        public void WriteHeader(){} // RVA: 0x7FFE876FB560
+        public void WriteRandomMask(){} // RVA: 0x7FFE876FB750
+        public void ReceiveAsyncPrivate(){} // RVA: 0x7FFE810A1420
+        public void HandleReceivedCloseAsync(){} // RVA: 0x7FFE876FB7F0
+        public void WaitForServerToCloseConnectionAsync(){} // RVA: 0x7FFE876FBA30
+        public void HandleReceivedPingPongAsync(){} // RVA: 0x7FFE876FBC50
+        public void IsValidCloseStatus(){} // RVA: 0x7FFE876FBE90
+        public void CloseWithReceiveErrorAndThrowAsync(){} // RVA: 0x7FFE876FBED0
+        public void TryParseMessageHeaderFromReceiveBuffer(){} // RVA: 0x7FFE876FC120
+        public void CloseAsyncPrivate(){} // RVA: 0x7FFE876FC410
+        public void SendCloseFrameAsync(){} // RVA: 0x7FFE876FC6A0
+        public void ConsumeFromBuffer(){} // RVA: 0x7FFE876FC930
+        public void EnsureBufferContainsAsync(){} // RVA: 0x7FFE876FC940
+        public void ThrowIfEOFUnexpected(){} // RVA: 0x7FFE876FCB80
+        public void AllocateSendBuffer(){} // RVA: 0x7FFE876FCC20
+        public void ReleaseSendBuffer(){} // RVA: 0x7FFE876FCD10
+        public void CombineMaskBytes(){} // RVA: 0x7FFE876FCE10
+        public void ApplyMask(){} // RVA: 0x7FFE876FD000 | overloaded x2
+        public void ThrowIfOperationInProgress(){} // RVA: 0x7FFE876FD0F0
+        public void ThrowOperationInProgress(){} // RVA: 0x7FFE876FD130
+        public void CreateOperationCanceledException(){} // RVA: 0x7FFE876FD1A0
+        public void TryValidateUtf8(){} // RVA: 0x7FFE876FD280
+        public void ValidateAndReceiveAsync(){} // RVA: 0x7FFE876FD450
+        public void .cctor(){} // RVA: 0x7FFE876FD690
     }
 
     public class ValueWebSocketReceiveResult : ValueType
     {
-        public uint EndOfMessage; // 0x10
-        public 0x6B142108 MessageType; // 0x14
+        public uint _countAndEndOfMessage; // 0x10
+        public 0x6653B02C _messageType; // 0x14
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9363350
-        public void get_EndOfMessage(){} // RVA: 0x7FFAC862EBA0
-        public void get_MessageType(){} // RVA: 0x7FFAC44202A0
-        public void ThrowCountOutOfRange(){} // RVA: 0x7FFAC9363390
-        public void ThrowMessageTypeOutOfRange(){} // RVA: 0x7FFAC93633E0
+        public void .ctor(){} // RVA: 0x7FFE8770BA80
+        public void get_EndOfMessage(){} // RVA: 0x7FFE869D8370
+        public void get_MessageType(){} // RVA: 0x7FFE826F42A0
+        public void ThrowCountOutOfRange(){} // RVA: 0x7FFE8770BAC0
+        public void ThrowMessageTypeOutOfRange(){} // RVA: 0x7FFE8770BB10
     }
 
     public class WebSocket : Object
     {
-        public object CloseStatus;
-        public object CloseStatusDescription;
-        public object State;
-        public object DefaultKeepAliveInterval;
-
         // ── Methods ──
-        public void get_CloseStatus(){} // RVA: 0x7FFAC2C58E90
-        public void get_CloseStatusDescription(){} // RVA: 0x7FFAC2C58E90
-        public void get_State(){} // RVA: 0x7FFAC2C59960
-        public void Abort(){} // RVA: 0x7FFAC2C70980
+        public void get_CloseStatus(){} // RVA: 0x7FFE80E2E2E0
+        public void get_CloseStatusDescription(){} // RVA: 0x7FFE80E2E2E0
+        public void get_State(){} // RVA: 0x7FFE80E2EDB0
+        public void Abort(){} // RVA: 0x7FFE80E45FE0
         public void CloseAsync(){}
         public void CloseOutputAsync(){}
-        public void Dispose(){} // RVA: 0x7FFAC2C70980
-        public void ReceiveAsync(){} // RVA: 0x7FFAC9363430 | overloaded x2
-        public void SendAsync(){} // RVA: 0x7FFAC93636E0 | overloaded x2
-        public void SendWithArrayPoolAsync(){} // RVA: 0x7FFAC9363830
-        public void get_DefaultKeepAliveInterval(){} // RVA: 0x7FFAC9363AE0
-        public void CreateClientWebSocket(){} // RVA: 0x7FFAC9363B70
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void Dispose(){} // RVA: 0x7FFE80E45FE0
+        public void ReceiveAsync(){} // RVA: 0x7FFE8770BB60 | overloaded x2
+        public void SendAsync(){} // RVA: 0x7FFE8770BE10 | overloaded x2
+        public void SendWithArrayPoolAsync(){} // RVA: 0x7FFE8770BF60
+        public void get_DefaultKeepAliveInterval(){} // RVA: 0x7FFE8770C210
+        public void CreateClientWebSocket(){} // RVA: 0x7FFE8770C2A0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class WebSocketException : Win32Exception
     {
-        public 0x6B142058 ErrorCode; // 0x98
+        public 0x6653AF7C _webSocketErrorCode; // 0x98
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC92B3550 | overloaded x9
-        public void GetObjectData(){} // RVA: 0x7FFAC9365330
-        public void get_ErrorCode(){} // RVA: 0x7FFAC3220660
-        public void GetErrorMessage(){} // RVA: 0x7FFAC9365640
-        public void SetErrorCodeOnError(){} // RVA: 0x7FFAC93657F0
-        public void Succeeded(){} // RVA: 0x7FFAC9365800
+        public void .ctor(){} // RVA: 0x7FFE8765BC90 | overloaded x9
+        public void GetObjectData(){} // RVA: 0x7FFE8770DA60
+        public void get_ErrorCode(){} // RVA: 0x7FFE814AA220
+        public void GetErrorMessage(){} // RVA: 0x7FFE8770DD70
+        public void SetErrorCodeOnError(){} // RVA: 0x7FFE8770DF20
+        public void Succeeded(){} // RVA: 0x7FFE8770DF30
     }
 
     public class WebSocketHandle : Object
     {
-        public System.Text.StringBuilder CloseStatus; // 0xFFFF
-        public System.Text.Encoding CloseStatusDescription;
-        public System.Threading.CancellationTokenSource State; // 0x10
-        public 0x6B1421B8 _state; // 0x18
-        public System.Net.WebSockets.WebSocket _webSocket; // 0x20
+        public System.Text.StringBuilder t_cachedStringBuilder; // 0xFFFF
+        public System.Text.Encoding s_defaultHttpEncoding;
+        public System.Threading.CancellationTokenSource _abortSource; // 0x10
 
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFAC935D280
-        public void IsValid(){} // RVA: 0x7FFAC406B370
-        public void get_CloseStatus(){} // RVA: 0x7FFAC935D360
-        public void get_CloseStatusDescription(){} // RVA: 0x7FFAC935D380
-        public void get_State(){} // RVA: 0x7FFAC935D3A0
-        public void CheckPlatformSupport(){} // RVA: 0x7FFAC2F21310
-        public void Dispose(){} // RVA: 0x7FFAC935D3D0
-        public void Abort(){} // RVA: 0x7FFAC935D400
-        public void SendAsync(){} // RVA: 0x7FFAC935D4E0 | overloaded x2
-        public void ReceiveAsync(){} // RVA: 0x7FFAC935D590 | overloaded x2
-        public void CloseAsync(){} // RVA: 0x7FFAC935D5F0
-        public void CloseOutputAsync(){} // RVA: 0x7FFAC935D620
-        public void ConnectAsyncCore(){} // RVA: 0x7FFAC935D650
-        public void ConnectSocketAsync(){} // RVA: 0x7FFAC935D910
-        public void BuildRequestHeader(){} // RVA: 0x7FFAC935DB70
-        public void CreateSecKeyAndSecWebSocketAccept(){} // RVA: 0x7FFAC935E660
-        public void ParseAndValidateConnectResponseAsync(){} // RVA: 0x7FFAC935EAF0
-        public void ValidateAndTrackHeader(){} // RVA: 0x7FFAC935ED80
-        public void ReadResponseHeaderLineAsync(){} // RVA: 0x7FFAC935EFE0
-        public void .ctor(){} // RVA: 0x7FFAC935F1E0
-        public void .cctor(){} // RVA: 0x7FFAC935F290
+        public void Create(){} // RVA: 0x7FFE877059B0
+        public void IsValid(){} // RVA: 0x7FFE82323B00
+        public void get_CloseStatus(){} // RVA: 0x7FFE87705A90
+        public void get_CloseStatusDescription(){} // RVA: 0x7FFE87705AB0
+        public void get_State(){} // RVA: 0x7FFE87705AD0
+        public void CheckPlatformSupport(){} // RVA: 0x7FFE810FB310
+        public void Dispose(){} // RVA: 0x7FFE87705B00
+        public void Abort(){} // RVA: 0x7FFE87705B30
+        public void SendAsync(){} // RVA: 0x7FFE87705C10 | overloaded x2
+        public void ReceiveAsync(){} // RVA: 0x7FFE87705CC0 | overloaded x2
+        public void CloseAsync(){} // RVA: 0x7FFE87705D20
+        public void CloseOutputAsync(){} // RVA: 0x7FFE87705D50
+        public void ConnectAsyncCore(){} // RVA: 0x7FFE87705D80
+        public void ConnectSocketAsync(){} // RVA: 0x7FFE87706040
+        public void BuildRequestHeader(){} // RVA: 0x7FFE877062A0
+        public void CreateSecKeyAndSecWebSocketAccept(){} // RVA: 0x7FFE87706D90
+        public void ParseAndValidateConnectResponseAsync(){} // RVA: 0x7FFE87707220
+        public void ValidateAndTrackHeader(){} // RVA: 0x7FFE877074B0
+        public void ReadResponseHeaderLineAsync(){} // RVA: 0x7FFE87707710
+        public void .ctor(){} // RVA: 0x7FFE87707910
+        public void .cctor(){} // RVA: 0x7FFE877079C0
     }
 
     public class WebSocketReceiveResult : Object
     {
-        public int Count; // 0x10
-        public bool EndOfMessage; // 0x14
-        public 0x6B142108 MessageType; // 0x18
-        public System.Nullable`1<0x6B142000> <CloseStatus>k__BackingField; // 0x1C
-        public string <CloseStatusDescription>k__BackingField; // 0x28
+        public int _count; // 0x10
+        public bool _endOfMessage; // 0x14
+        public 0x6653B02C _messageType; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9365830 | overloaded x2
-        public void get_Count(){} // RVA: 0x7FFAC2F6E5C0
-        public void get_EndOfMessage(){} // RVA: 0x7FFAC3070BD0
-        public void get_MessageType(){} // RVA: 0x7FFAC3157800
+        public void .ctor(){} // RVA: 0x7FFE8770DF60 | overloaded x2
+        public void get_Count(){} // RVA: 0x7FFE811485C0
+        public void get_EndOfMessage(){} // RVA: 0x7FFE8124ABD0
+        public void get_MessageType(){} // RVA: 0x7FFE813DB630
     }
 
     public class WebSocketValidate : Object
     {
         // ── Methods ──
-        public void ThrowIfInvalidState(){} // RVA: 0x7FFAC935AB90
-        public void ValidateSubprotocol(){} // RVA: 0x7FFAC935AD30
-        public void ValidateCloseStatus(){} // RVA: 0x7FFAC935AFF0
-        public void ValidateArraySegment(){} // RVA: 0x7FFAC935B230
+        public void ThrowIfInvalidState(){} // RVA: 0x7FFE877032C0
+        public void ValidateSubprotocol(){} // RVA: 0x7FFE87703460
+        public void ValidateCloseStatus(){} // RVA: 0x7FFE87703720
+        public void ValidateArraySegment(){} // RVA: 0x7FFE87703960
     }
 
 }

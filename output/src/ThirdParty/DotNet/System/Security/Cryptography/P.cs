@@ -7,55 +7,49 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class PKCS1MaskGenerationMethod : MaskGenerationMethod
     {
-        public string HashName; // 0x10
+        public string HashNameValue; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC841A960
-        public void get_HashName(){} // RVA: 0x7FFAC2F3C380
-        public void set_HashName(){} // RVA: 0x7FFAC841A9F0
-        public void GenerateMask(){} // RVA: 0x7FFAC841AAF0
+        public void .ctor(){} // RVA: 0x7FFE867C4270
+        public void get_HashName(){} // RVA: 0x7FFE81116380
+        public void set_HashName(){} // RVA: 0x7FFE867C4300
+        public void GenerateMask(){} // RVA: 0x7FFE867C4400
     }
 
     public class PasswordDeriveBytes : DeriveBytes
     {
-        public int HashName; // 0x10
-        public int IterationCount; // 0x14
-        public int Salt; // 0x18
-        public byte[] _baseValue; // 0x20
-        public byte[] _extra; // 0x28
-        public byte[] _salt; // 0x30
-        public string _hashName; // 0x38
-        public byte[] _password; // 0x40
-        public System.Security.Cryptography.HashAlgorithm _hash; // 0x48
+        public int _extraCount; // 0x10
+        public int _prefix; // 0x14
+        public int _iterations; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8419160 | overloaded x8
-        public void get_HashName(){} // RVA: 0x7FFAC31D0140
-        public void set_HashName(){} // RVA: 0x7FFAC8419320
-        public void get_IterationCount(){} // RVA: 0x7FFAC3157800
-        public void set_IterationCount(){} // RVA: 0x7FFAC84195C0
-        public void get_Salt(){} // RVA: 0x7FFAC8419700
-        public void set_Salt(){} // RVA: 0x7FFAC8419780
-        public void GetBytes(){} // RVA: 0x7FFAC84199B0
-        public void Reset(){} // RVA: 0x7FFAC8419C80
-        public void Dispose(){} // RVA: 0x7FFAC8419D40
-        public void CryptDeriveKey(){} // RVA: 0x7FFAC8419DE0
-        public void ComputeBaseValue(){} // RVA: 0x7FFAC8419EA0
-        public void ComputeBytes(){} // RVA: 0x7FFAC841A250
-        public void HashPrefix(){} // RVA: 0x7FFAC841A770
+        public void .ctor(){} // RVA: 0x7FFE867C2A70 | overloaded x8
+        public void get_HashName(){} // RVA: 0x7FFE8143BA80
+        public void set_HashName(){} // RVA: 0x7FFE867C2C30
+        public void get_IterationCount(){} // RVA: 0x7FFE813DB630
+        public void set_IterationCount(){} // RVA: 0x7FFE867C2ED0
+        public void get_Salt(){} // RVA: 0x7FFE867C3010
+        public void set_Salt(){} // RVA: 0x7FFE867C3090
+        public void GetBytes(){} // RVA: 0x7FFE867C32C0
+        public void Reset(){} // RVA: 0x7FFE867C3590
+        public void Dispose(){} // RVA: 0x7FFE867C3650
+        public void CryptDeriveKey(){} // RVA: 0x7FFE867C36F0
+        public void ComputeBaseValue(){} // RVA: 0x7FFE867C37B0
+        public void ComputeBytes(){} // RVA: 0x7FFE867C3B60
+        public void HashPrefix(){} // RVA: 0x7FFE867C4080
     }
 
     public class PbeParameters : Object
     {
-        public 0x6B0CDD58 EncryptionAlgorithm; // 0x10
-        public System.Security.Cryptography.HashAlgorithmName HashAlgorithm; // 0x18
-        public int IterationCount; // 0x20
+        public 0x664C6C7C _encryptionAlgorithm; // 0x10
+        public System.Security.Cryptography.HashAlgorithmName _hashAlgorithm; // 0x18
+        public int _iterationCount; // 0x20
 
         // ── Methods ──
-        public void get_EncryptionAlgorithm(){} // RVA: 0x7FFAC2F6E5C0
-        public void get_HashAlgorithm(){} // RVA: 0x7FFAC2F247C0
-        public void get_IterationCount(){} // RVA: 0x7FFAC30DBBE0
-        public void .ctor(){} // RVA: 0x7FFAC84470A0
+        public void get_EncryptionAlgorithm(){} // RVA: 0x7FFE811485C0
+        public void get_HashAlgorithm(){} // RVA: 0x7FFE810FE7C0
+        public void get_IterationCount(){} // RVA: 0x7FFE8151D690
+        public void .ctor(){} // RVA: 0x7FFE867F09B0
     }
 
 }

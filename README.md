@@ -1,21 +1,40 @@
 # VRChat IL2CPP Reverse Engineering
 
-> **99.78% of identifiers resolved** — 43,158 classes, 305,681 methods, 41,286 fields  
-> GameAssembly.dll (206 MB) | IL2CPP v29.1 | Unity 2022.3.x | Beebyte Obfuscation
+> **2026-05-02 build revived (May 3)** — 86,586 classes, 517,592 methods, 92,885 fields
+> Beebyte rotated struct layout; new offsets reverse-engineered and pipeline re-run
+> GameAssembly.dll (210 MB) | IL2CPP v29.1 | Unity 2022.3.x | Beebyte Obfuscation
 
-## Coverage
+## Coverage (May 2 build)
 
 | Metric | Count | Coverage |
 |--------|------:|----------|
-| Classes | 43,158 / 43,158 | **100%** (0 obfuscated) |
-| Methods (semantic) | 304,997 / 305,681 | **99.78%** |
-| Fields | 41,286 / 41,286 | **100%** (0 obfuscated) |
-| Unique source files | 753 | — |
-| Unique classes in tree | 14,658 | — |
-| Vocabulary | 7,813 unified + 2,137 external = 9,950 names | — |
-| Cross-version lifted | 65,849 method names from prior build | — |
-| LLM predictions | 21,134 (codex/gemini/gpt-5.5) | — |
-| Pipeline runtime | 9.3 seconds full run | — |
+| Classes (semantic) | 80,621 / 86,586 | **93.1%** (0 obfuscated remaining) |
+| Methods (semantic) | 480,821 / 517,592 | **92.9%** (0 obfuscated remaining) |
+| Fields (semantic + typed) | 86,113 / 92,885 | **92.7%** semantic, 95.6% typed |
+| Identifiers total | 647,555 / 697,063 | **92.9%** resolved |
+| Unique source files | 1,356 | — |
+| Pipeline runtime | ~25s full run + 5s field types | — |
+
+Earlier build (2026-04-25): 99.78% across 43,158 classes / 305,681 methods / 41,286 fields.
+May-2 coverage will rise above 99% once a fresh Apr→May class_map is produced from a
+paired old/new dump pair.
+
+## Beebyte struct layout (May 2 build)
+
+Beebyte shuffles `Il2CppClass`/`FieldInfo`/`MethodInfo` field positions every release.
+The pipeline re-discovers them with `tools/reverse_struct_layout.py`.
+
+| Offset | Apr 18 | Apr 25 | **May 2** |
+|--------|-------:|-------:|----------:|
+| OFF_NAME | 0x10 | 0x10 | **0x50** |
+| OFF_CAST | 0x48 | 0x48 | **0x80** |
+| OFF_FIELDS | 0xA8 | 0xA8 | **0x10** |
+| OFF_METHODS | 0x78 | 0x78 | **0x90** |
+| MI_NAME | 0x28 | 0x28 | **0x18** |
+| FI_STRIDE | 0x30 | 0x30 | **0x28** |
+| FI_NAME | 0x10 | 0x10 | **0x00** |
+| FIELD_TYPE_OFF | 0x10 | 0x10 | **0x18** |
+| FIELD_PACKED_OFF | 0x18 | 0x18 | **0x20** |
 
 ## Quick Start
 

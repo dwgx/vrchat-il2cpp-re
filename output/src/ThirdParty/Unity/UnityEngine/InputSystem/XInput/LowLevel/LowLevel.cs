@@ -7,17 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XInput.LowLevel
 {
     public class XInputControllerWindowsState : ValueType
     {
-        public ushort format; // 0x10
-        public byte leftTrigger; // 0x12
-        public byte rightTrigger; // 0x13
-        public short leftStickX; // 0x14
-        public short leftStickY; // 0x16
-        public short rightStickX; // 0x18
-        public short rightStickY; // 0x1A
+        public ushort buttons; // 0x10
 
         // ── Methods ──
-        public void get_format(){} // RVA: 0x7FFAC963BA50
-        public void WithButton(){} // RVA: 0x7FFAC963BA60
+        public void get_format(){} // RVA: 0x7FFE879E4190
+        public void WithButton(){} // RVA: 0x7FFE879E41A0
     }
 
 }

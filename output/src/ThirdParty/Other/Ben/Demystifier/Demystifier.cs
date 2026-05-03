@@ -7,8 +7,6 @@ namespace ThirdParty.Other.Ben.Demystifier
 {
     public class Constants : Object
     {
-        public string TrimWarning;
-        public string SuppressionResurfaced;
     }
 
 }

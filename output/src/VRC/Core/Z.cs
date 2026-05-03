@@ -7,19 +7,16 @@ namespace VRC.Core
 {
     public class ZLoggerHandlerLogger : Object
     {
-        public System.Action`3<string,object[],0x6B179630> UnityHandler; // 0x10
-        public UnityEngine.ILogHandler _unityHandler;
-        public Unity.Profiling.ProfilerMarker _profilerMarkerLogFormat; // 0x8
-        public Unity.Profiling.ProfilerMarker _profilerMarkerLogException; // 0x10
+        public System.Action`3<string,object[],*> _onMessageLogged; // 0x10
 
         // ── Methods ──
-        public void get_UnityHandler(){} // RVA: 0x7FFAC9E6ADB0
-        public void EnsureCapturedUnityHandler(){} // RVA: 0x7FFAC9E6AE10
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void SetUnityInterceptActive(){} // RVA: 0x7FFAC9E6AF50
-        public void LogFormat(){} // RVA: 0x7FFAC9E6B050
-        public void LogException(){} // RVA: 0x7FFAC9E6B6F0
-        public void .cctor(){} // RVA: 0x7FFAC9E6B8F0
+        public void get_UnityHandler(){} // RVA: 0x7FFE8821D720
+        public void EnsureCapturedUnityHandler(){} // RVA: 0x7FFE8821D780
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void SetUnityInterceptActive(){} // RVA: 0x7FFE8821D8C0
+        public void LogFormat(){} // RVA: 0x7FFE8821D9C0
+        public void LogException(){} // RVA: 0x7FFE8821E060
+        public void .cctor(){} // RVA: 0x7FFE8821E260
     }
 
 }

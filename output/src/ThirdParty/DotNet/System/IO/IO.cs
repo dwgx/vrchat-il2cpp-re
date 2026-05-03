@@ -7,290 +7,246 @@ namespace ThirdParty.DotNet.System.IO
 {
     public class BinaryReader : Object
     {
-        public System.IO.Stream BaseStream; // 0x10
-        public byte[] m_buffer; // 0x18
-        public System.Text.Decoder m_decoder; // 0x20
-        public byte[] m_charBytes; // 0x28
-        public char[] m_singleChar; // 0x30
-        public char[] m_charBuffer; // 0x38
-        public int m_maxCharsSize; // 0x40
-        public bool m_2BytesPerChar; // 0x44
-        public bool m_isMemoryStream; // 0x45
-        public bool m_leaveOpen; // 0x46
+        public System.IO.Stream m_stream; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85ED7A0 | overloaded x3
-        public void get_BaseStream(){} // RVA: 0x7FFAC2F3C380
-        public void Close(){} // RVA: 0x7FFAC4843BC0
-        public void Dispose(){} // RVA: 0x7FFAC4843BC0 | overloaded x2
-        public void Read(){} // RVA: 0x7FFAC85EF180 | overloaded x2
-        public void ReadBoolean(){} // RVA: 0x7FFAC85EDD20
-        public void ReadByte(){} // RVA: 0x7FFAC85EDD70
-        public void ReadSByte(){} // RVA: 0x7FFAC85EDDB0
-        public void ReadChar(){} // RVA: 0x7FFAC85EDE00
-        public void ReadInt16(){} // RVA: 0x7FFAC85EDE30
-        public void ReadUInt16(){} // RVA: 0x7FFAC85EDE30
-        public void ReadInt32(){} // RVA: 0x7FFAC85EDE90
-        public void ReadUInt32(){} // RVA: 0x7FFAC85EE070
-        public void ReadInt64(){} // RVA: 0x7FFAC85EE0F0
-        public void ReadUInt64(){} // RVA: 0x7FFAC85EE0F0
-        public void ReadSingle(){} // RVA: 0x7FFAC85EE1E0
-        public void ReadDouble(){} // RVA: 0x7FFAC85EE260
-        public void ReadDecimal(){} // RVA: 0x7FFAC85EE2E0
-        public void ReadString(){} // RVA: 0x7FFAC85EE550
-        public void InternalReadChars(){} // RVA: 0x7FFAC85EE850
-        public void InternalReadOneChar(){} // RVA: 0x7FFAC85EEC60
-        public void ReadChars(){} // RVA: 0x7FFAC85EEFA0
-        public void ReadBytes(){} // RVA: 0x7FFAC85EF370
-        public void FillBuffer(){} // RVA: 0x7FFAC85EF570
-        public void Read7BitEncodedInt(){} // RVA: 0x7FFAC85EF6E0
+        public void .ctor(){} // RVA: 0x7FFE86996F70 | overloaded x3
+        public void get_BaseStream(){} // RVA: 0x7FFE81116380
+        public void Close(){} // RVA: 0x7FFE82AABF60
+        public void Dispose(){} // RVA: 0x7FFE82AABF60 | overloaded x2
+        public void Read(){} // RVA: 0x7FFE86998950 | overloaded x2
+        public void ReadBoolean(){} // RVA: 0x7FFE869974F0
+        public void ReadByte(){} // RVA: 0x7FFE86997540
+        public void ReadSByte(){} // RVA: 0x7FFE86997580
+        public void ReadChar(){} // RVA: 0x7FFE869975D0
+        public void ReadInt16(){} // RVA: 0x7FFE86997600
+        public void ReadUInt16(){} // RVA: 0x7FFE86997600
+        public void ReadInt32(){} // RVA: 0x7FFE86997660
+        public void ReadUInt32(){} // RVA: 0x7FFE86997840
+        public void ReadInt64(){} // RVA: 0x7FFE869978C0
+        public void ReadUInt64(){} // RVA: 0x7FFE869978C0
+        public void ReadSingle(){} // RVA: 0x7FFE869979B0
+        public void ReadDouble(){} // RVA: 0x7FFE86997A30
+        public void ReadDecimal(){} // RVA: 0x7FFE86997AB0
+        public void ReadString(){} // RVA: 0x7FFE86997D20
+        public void InternalReadChars(){} // RVA: 0x7FFE86998020
+        public void InternalReadOneChar(){} // RVA: 0x7FFE86998430
+        public void ReadChars(){} // RVA: 0x7FFE86998770
+        public void ReadBytes(){} // RVA: 0x7FFE86998B40
+        public void FillBuffer(){} // RVA: 0x7FFE86998D40
+        public void Read7BitEncodedInt(){} // RVA: 0x7FFE86998EB0
     }
 
     public class BinaryWriter : Object
     {
-        public System.IO.BinaryWriter BaseStream;
-        public System.IO.Stream OutStream; // 0x10
-        public byte[] _buffer; // 0x18
-        public System.Text.Encoding _encoding; // 0x20
-        public System.Text.Encoder _encoder; // 0x28
-        public bool _leaveOpen; // 0x30
-        public byte[] _largeByteBuffer; // 0x38
-        public int _maxChars; // 0x40
+        public System.IO.BinaryWriter Null;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85EFAC0 | overloaded x4
-        public void Close(){} // RVA: 0x7FFAC4843BC0
-        public void Dispose(){} // RVA: 0x7FFAC4843BC0 | overloaded x2
-        public void get_BaseStream(){} // RVA: 0x7FFAC85EFD00
-        public void Flush(){} // RVA: 0x7FFAC85938D0
-        public void DisposeAsync(){} // RVA: 0x7FFAC85EFD30
-        public void Write(){} // RVA: 0x7FFAC85F0980 | overloaded x16
-        public void Write7BitEncodedInt(){} // RVA: 0x7FFAC85F0D50
-        public void .cctor(){} // RVA: 0x7FFAC85F0DC0
+        public void .ctor(){} // RVA: 0x7FFE86999290 | overloaded x4
+        public void Close(){} // RVA: 0x7FFE82AABF60
+        public void Dispose(){} // RVA: 0x7FFE82AABF60 | overloaded x2
+        public void get_BaseStream(){} // RVA: 0x7FFE869994D0
+        public void Flush(){} // RVA: 0x7FFE8693D0B0
+        public void DisposeAsync(){} // RVA: 0x7FFE86999500
+        public void Write(){} // RVA: 0x7FFE8699A150 | overloaded x16
+        public void Write7BitEncodedInt(){} // RVA: 0x7FFE8699A520
+        public void .cctor(){} // RVA: 0x7FFE8699A590
     }
 
     public class BufferedStream : Stream
     {
-        public System.IO.Stream CanRead; // 0x28
-        public byte[] CanWrite; // 0x30
-        public int CanSeek; // 0x38
-        public int Length; // 0x3C
-        public int Position; // 0x40
-        public int _writePos; // 0x44
-        public System.Threading.Tasks.Task`1<int> _lastSyncCompletedReadTask; // 0x48
-        public System.Threading.SemaphoreSlim _asyncActiveSemaphore; // 0x50
+        public System.IO.Stream _stream; // 0x28
+        public byte[] _buffer; // 0x30
+        public int _bufferSize; // 0x38
+        public int _readPos; // 0x3C
+        public int _readLen; // 0x40
 
         // ── Methods ──
-        public void LazyEnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x7FFAC85DCFA0
-        public void .ctor(){} // RVA: 0x7FFAC85DD110 | overloaded x2
-        public void EnsureNotClosed(){} // RVA: 0x7FFAC85DD360
-        public void EnsureCanSeek(){} // RVA: 0x7FFAC85DD3D0
-        public void EnsureCanRead(){} // RVA: 0x7FFAC85DD460
-        public void EnsureCanWrite(){} // RVA: 0x7FFAC85DD4F0
-        public void EnsureShadowBufferAllocated(){} // RVA: 0x7FFAC85DD580
-        public void EnsureBufferAllocated(){} // RVA: 0x7FFAC85DD6B0
-        public void get_CanRead(){} // RVA: 0x7FFAC85DD750
-        public void get_CanWrite(){} // RVA: 0x7FFAC85DD780
-        public void get_CanSeek(){} // RVA: 0x7FFAC85DD7B0
-        public void get_Length(){} // RVA: 0x7FFAC85DD7E0
-        public void get_Position(){} // RVA: 0x7FFAC85DD870
-        public void set_Position(){} // RVA: 0x7FFAC85DD910
-        public void DisposeAsync(){} // RVA: 0x7FFAC85DD9E0
-        public void Dispose(){} // RVA: 0x7FFAC85DDB90
-        public void Flush(){} // RVA: 0x7FFAC85DDD60
-        public void FlushAsync(){} // RVA: 0x7FFAC85DDEA0
-        public void FlushAsyncInternal(){} // RVA: 0x7FFAC85DDF70
-        public void FlushRead(){} // RVA: 0x7FFAC85DE190
-        public void ClearReadBufferBeforeWrite(){} // RVA: 0x7FFAC85DE1E0
-        public void FlushWrite(){} // RVA: 0x7FFAC85DE2B0
-        public void FlushWriteAsync(){} // RVA: 0x7FFAC85DE320
-        public void ReadFromBuffer(){} // RVA: 0x7FFAC85DE730 | overloaded x3
-        public void Read(){} // RVA: 0x7FFAC85DEAD0 | overloaded x2
-        public void LastSyncCompletedReadTask(){} // RVA: 0x7FFAC85DECF0
-        public void ReadAsync(){} // RVA: 0x7FFAC85DF510 | overloaded x2
-        public void ReadFromUnderlyingStreamAsync(){} // RVA: 0x7FFAC85DF9C0
-        public void BeginRead(){} // RVA: 0x7FFAC85DFCC0
-        public void EndRead(){} // RVA: 0x7FFAC85DFD70
-        public void ReadByte(){} // RVA: 0x7FFAC85DFDB0
-        public void ReadByteSlow(){} // RVA: 0x7FFAC85DFEE0
-        public void WriteToBuffer(){} // RVA: 0x7FFAC85E00B0 | overloaded x2
-        public void Write(){} // RVA: 0x7FFAC85E0650 | overloaded x2
-        public void WriteAsync(){} // RVA: 0x7FFAC85E0CC0 | overloaded x2
-        public void WriteToUnderlyingStreamAsync(){} // RVA: 0x7FFAC85E1060
-        public void BeginWrite(){} // RVA: 0x7FFAC85E1320
-        public void EndWrite(){} // RVA: 0x7FFAC84062A0
-        public void WriteByte(){} // RVA: 0x7FFAC85E13D0
-        public void Seek(){} // RVA: 0x7FFAC85E14A0
-        public void SetLength(){} // RVA: 0x7FFAC85E1620
-        public void CopyTo(){} // RVA: 0x7FFAC85E1700
-        public void CopyToAsync(){} // RVA: 0x7FFAC85E17B0
-        public void CopyToAsyncCore(){} // RVA: 0x7FFAC85E18A0
+        public void LazyEnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x7FFE86986770
+        public void .ctor(){} // RVA: 0x7FFE869868E0 | overloaded x2
+        public void EnsureNotClosed(){} // RVA: 0x7FFE86986B30
+        public void EnsureCanSeek(){} // RVA: 0x7FFE86986BA0
+        public void EnsureCanRead(){} // RVA: 0x7FFE86986C30
+        public void EnsureCanWrite(){} // RVA: 0x7FFE86986CC0
+        public void EnsureShadowBufferAllocated(){} // RVA: 0x7FFE86986D50
+        public void EnsureBufferAllocated(){} // RVA: 0x7FFE86986E80
+        public void get_CanRead(){} // RVA: 0x7FFE86986F20
+        public void get_CanWrite(){} // RVA: 0x7FFE86986F50
+        public void get_CanSeek(){} // RVA: 0x7FFE86986F80
+        public void get_Length(){} // RVA: 0x7FFE86986FB0
+        public void get_Position(){} // RVA: 0x7FFE86987040
+        public void set_Position(){} // RVA: 0x7FFE869870E0
+        public void DisposeAsync(){} // RVA: 0x7FFE869871B0
+        public void Dispose(){} // RVA: 0x7FFE86987360
+        public void Flush(){} // RVA: 0x7FFE86987530
+        public void FlushAsync(){} // RVA: 0x7FFE86987670
+        public void FlushAsyncInternal(){} // RVA: 0x7FFE86987740
+        public void FlushRead(){} // RVA: 0x7FFE86987960
+        public void ClearReadBufferBeforeWrite(){} // RVA: 0x7FFE869879B0
+        public void FlushWrite(){} // RVA: 0x7FFE86987A80
+        public void FlushWriteAsync(){} // RVA: 0x7FFE86987AF0
+        public void ReadFromBuffer(){} // RVA: 0x7FFE86987F00 | overloaded x3
+        public void Read(){} // RVA: 0x7FFE869882A0 | overloaded x2
+        public void LastSyncCompletedReadTask(){} // RVA: 0x7FFE869884C0
+        public void ReadAsync(){} // RVA: 0x7FFE86988CE0 | overloaded x2
+        public void ReadFromUnderlyingStreamAsync(){} // RVA: 0x7FFE86989190
+        public void BeginRead(){} // RVA: 0x7FFE86989490
+        public void EndRead(){} // RVA: 0x7FFE86989540
+        public void ReadByte(){} // RVA: 0x7FFE86989580
+        public void ReadByteSlow(){} // RVA: 0x7FFE869896B0
+        public void WriteToBuffer(){} // RVA: 0x7FFE86989880 | overloaded x2
+        public void Write(){} // RVA: 0x7FFE86989E20 | overloaded x2
+        public void WriteAsync(){} // RVA: 0x7FFE8698A490 | overloaded x2
+        public void WriteToUnderlyingStreamAsync(){} // RVA: 0x7FFE8698A830
+        public void BeginWrite(){} // RVA: 0x7FFE8698AAF0
+        public void EndWrite(){} // RVA: 0x7FFE867AFBB0
+        public void WriteByte(){} // RVA: 0x7FFE8698ABA0
+        public void Seek(){} // RVA: 0x7FFE8698AC70
+        public void SetLength(){} // RVA: 0x7FFE8698ADF0
+        public void CopyTo(){} // RVA: 0x7FFE8698AED0
+        public void CopyToAsync(){} // RVA: 0x7FFE8698AF80
+        public void CopyToAsyncCore(){} // RVA: 0x7FFE8698B070
     }
 
     public class CStreamReader : StreamReader
     {
-        public System.TermInfoDriver driver; // 0x60
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85FFFC0
-        public void Peek(){} // RVA: 0x7FFAC85FF890
-        public void Read(){} // RVA: 0x7FFAC8600310 | overloaded x2
-        public void ReadLine(){} // RVA: 0x7FFAC86004C0
-        public void ReadToEnd(){} // RVA: 0x7FFAC86004F0
+        public void .ctor(){} // RVA: 0x7FFE869A9790
+        public void Peek(){} // RVA: 0x7FFE869A9060
+        public void Read(){} // RVA: 0x7FFE869A9AE0 | overloaded x2
+        public void ReadLine(){} // RVA: 0x7FFE869A9C90
+        public void ReadToEnd(){} // RVA: 0x7FFE869A9CC0
     }
 
     public class CStreamWriter : StreamWriter
     {
-        public System.TermInfoDriver driver; // 0x70
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8600520
-        public void Write(){} // RVA: 0x7FFAC8600CE0 | overloaded x4
-        public void InternalWriteString(){} // RVA: 0x7FFAC8600C40
-        public void InternalWriteChar(){} // RVA: 0x7FFAC8600C60
-        public void InternalWriteChars(){} // RVA: 0x7FFAC8600C80
-        public void WriteLine(){} // RVA: 0x7FFAC8600D50
+        public void .ctor(){} // RVA: 0x7FFE869A9CF0
+        public void Write(){} // RVA: 0x7FFE869AA4B0 | overloaded x4
+        public void InternalWriteString(){} // RVA: 0x7FFE869AA410
+        public void InternalWriteChar(){} // RVA: 0x7FFE869AA430
+        public void InternalWriteChars(){} // RVA: 0x7FFE869AA450
+        public void WriteLine(){} // RVA: 0x7FFE869AA520
     }
 
     public class DefaultWatcher : Object
     {
-        public System.IO.DefaultWatcher instance;
-        public System.Threading.Thread thread; // 0x8
-        public System.Collections.Hashtable watches; // 0x10
-        public string[] NoStringsArray; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void GetInstance(){} // RVA: 0x7FFAC94574B0
-        public void StartDispatching(){} // RVA: 0x7FFAC9457680
-        public void StopDispatching(){} // RVA: 0x7FFAC94583B0
-        public void Dispose(){} // RVA: 0x7FFAC2F21310
-        public void Monitor(){} // RVA: 0x7FFAC94589A0
-        public void UpdateDataAndDispatch(){} // RVA: 0x7FFAC94593D0
-        public void DispatchEvents(){} // RVA: 0x7FFAC9459510
-        public void DoFiles(){} // RVA: 0x7FFAC94596B0
-        public void IterateAndModifyFilesData(){} // RVA: 0x7FFAC9459A90
-        public void CreateFileData(){} // RVA: 0x7FFAC945A6D0
-        public void .cctor(){} // RVA: 0x7FFAC945A7F0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetInstance(){} // RVA: 0x7FFE877FFBF0
+        public void StartDispatching(){} // RVA: 0x7FFE877FFDC0
+        public void StopDispatching(){} // RVA: 0x7FFE87800AF0
+        public void Dispose(){} // RVA: 0x7FFE810FB310
+        public void Monitor(){} // RVA: 0x7FFE878010E0
+        public void UpdateDataAndDispatch(){} // RVA: 0x7FFE87801B10
+        public void DispatchEvents(){} // RVA: 0x7FFE87801C50
+        public void DoFiles(){} // RVA: 0x7FFE87801DF0
+        public void IterateAndModifyFilesData(){} // RVA: 0x7FFE878021D0
+        public void CreateFileData(){} // RVA: 0x7FFE87802E10
+        public void .cctor(){} // RVA: 0x7FFE87802F30
     }
 
     public class DefaultWatcherData : Object
     {
-        public System.IO.FileSystemWatcher FSW; // 0x10
-        public string Directory; // 0x18
-        public string FileMask; // 0x20
-        public bool IncludeSubdirs; // 0x28
-        public bool Enabled; // 0x29
-        public bool NoWildcards; // 0x2A
-        public System.DateTime DisabledTime; // 0x30
-        public object FilesLock; // 0x38
-        public System.Collections.Generic.Dictionary`2<string,System.IO.FileData> Files; // 0x40
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9457420
+        public void .ctor(){} // RVA: 0x7FFE877FFB60
     }
 
     public class Directory : Object
     {
         // ── Methods ──
-        public void CreateDirectory(){} // RVA: 0x7FFAC85D6CF0
-        public void Exists(){} // RVA: 0x7FFAC85D6E90
-        public void GetFiles(){} // RVA: 0x7FFAC85D70E0 | overloaded x3
-        public void GetDirectories(){} // RVA: 0x7FFAC85D7290 | overloaded x2
-        public void GetFileSystemEntries(){} // RVA: 0x7FFAC85D7430 | overloaded x2
-        public void InternalEnumeratePaths(){} // RVA: 0x7FFAC85D74C0
-        public void EnumerateFiles(){} // RVA: 0x7FFAC85D7910 | overloaded x4
-        public void GetDirectoryRoot(){} // RVA: 0x7FFAC85D7930
-        public void InternalGetDirectoryRoot(){} // RVA: 0x7FFAC85D7AB0
-        public void GetCurrentDirectory(){} // RVA: 0x7FFAC85D7B70
-        public void Delete(){} // RVA: 0x7FFAC85D7B80
-        public void InsecureGetCurrentDirectory(){} // RVA: 0x7FFAC85D7C20
+        public void CreateDirectory(){} // RVA: 0x7FFE869804C0
+        public void Exists(){} // RVA: 0x7FFE86980660
+        public void GetFiles(){} // RVA: 0x7FFE869808B0 | overloaded x3
+        public void GetDirectories(){} // RVA: 0x7FFE86980A60 | overloaded x2
+        public void GetFileSystemEntries(){} // RVA: 0x7FFE86980C00 | overloaded x2
+        public void InternalEnumeratePaths(){} // RVA: 0x7FFE86980C90
+        public void EnumerateFiles(){} // RVA: 0x7FFE869810E0 | overloaded x4
+        public void GetDirectoryRoot(){} // RVA: 0x7FFE86981100
+        public void InternalGetDirectoryRoot(){} // RVA: 0x7FFE86981280
+        public void GetCurrentDirectory(){} // RVA: 0x7FFE86981340
+        public void Delete(){} // RVA: 0x7FFE86981350
+        public void InsecureGetCurrentDirectory(){} // RVA: 0x7FFE869813F0
     }
 
     public class DirectoryInfo : FileSystemInfo
     {
-        public object Parent;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85D8C10 | overloaded x3
-        public void Init(){} // RVA: 0x7FFAC85D7E20
-        public void get_Parent(){} // RVA: 0x7FFAC85D83A0
-        public void Create(){} // RVA: 0x7FFAC85D8570
-        public void GetFiles(){} // RVA: 0x7FFAC85D8700 | overloaded x3
-        public void EnumerateFiles(){} // RVA: 0x7FFAC85D8910 | overloaded x3
-        public void InternalEnumerateInfos(){} // RVA: 0x7FFAC85D89B0
-        public void Delete(){} // RVA: 0x7FFAC85D8BB0
+        public void .ctor(){} // RVA: 0x7FFE869823E0 | overloaded x3
+        public void Init(){} // RVA: 0x7FFE869815F0
+        public void get_Parent(){} // RVA: 0x7FFE86981B70
+        public void Create(){} // RVA: 0x7FFE86981D40
+        public void GetFiles(){} // RVA: 0x7FFE86981ED0 | overloaded x3
+        public void EnumerateFiles(){} // RVA: 0x7FFE869820E0 | overloaded x3
+        public void InternalEnumerateInfos(){} // RVA: 0x7FFE86982180
+        public void Delete(){} // RVA: 0x7FFE86982380
     }
 
     public class DirectoryNotFoundException : IOException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
     }
 
     public class DisableMediaInsertionPrompt : ValueType
     {
-        public bool _disableSuccess; // 0x10
-        public uint _oldMode; // 0x14
-        public bool useUWPFallback;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFAC85B72B0
-        public void Dispose(){} // RVA: 0x7FFAC85B7330
+        public void Create(){} // RVA: 0x7FFE86960A80
+        public void Dispose(){} // RVA: 0x7FFE86960B00
     }
 
     public class DriveNotFoundException : IOException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
     }
 
     public class EndOfStreamException : IOException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
     }
 
     public class EnumerationOptions : Object
     {
-        public System.IO.EnumerationOptions Compatible;
-        public System.IO.EnumerationOptions CompatibleRecursive; // 0x8
-        public System.IO.EnumerationOptions Default; // 0x10
-        public bool RecurseSubdirectories; // 0x10
-        public bool IgnoreInaccessible; // 0x11
-        public int BufferSize; // 0x14
-        public 0x6B0E2B78 AttributesToSkip; // 0x18
-        public 0x6B0E27B0 MatchType; // 0x1C
-        public 0x6B0E2758 MatchCasing; // 0x20
-        public bool ReturnSpecialDirectories; // 0x24
+        public System.IO.EnumerationOptions _compatible;
+        public System.IO.EnumerationOptions _compatibleRecursive; // 0x8
+        public System.IO.EnumerationOptions _default; // 0x10
+        public bool _recurseSubdirectories; // 0x10
+        public bool _ignoreInaccessible; // 0x11
+        public int _bufferSize; // 0x14
+        public 0x664DBA9C _attributesToSkip; // 0x18
+        public 0x664DB6D4 _matchType; // 0x1C
+        public 0x664DB67C _matchCasing; // 0x20
+        public bool _returnSpecialDirectories; // 0x24
 
         // ── Methods ──
-        public void get_Compatible(){} // RVA: 0x7FFAC85D8C30
-        public void get_CompatibleRecursive(){} // RVA: 0x7FFAC85D8C90
-        public void get_Default(){} // RVA: 0x7FFAC85D8CF0
-        public void .ctor(){} // RVA: 0x7FFAC85D8D50
-        public void FromSearchOption(){} // RVA: 0x7FFAC85D8D60
-        public void get_RecurseSubdirectories(){} // RVA: 0x7FFAC2FEB5E0
-        public void set_RecurseSubdirectories(){} // RVA: 0x7FFAC2FEB5F0
-        public void get_IgnoreInaccessible(){} // RVA: 0x7FFAC3771DA0
-        public void set_IgnoreInaccessible(){} // RVA: 0x7FFAC3771D90
-        public void get_BufferSize(){} // RVA: 0x7FFAC33D5A20
-        public void get_AttributesToSkip(){} // RVA: 0x7FFAC3157800
-        public void set_AttributesToSkip(){} // RVA: 0x7FFAC392CD10
-        public void get_MatchType(){} // RVA: 0x7FFAC44357F0
-        public void set_MatchType(){} // RVA: 0x7FFAC44474D0
-        public void get_MatchCasing(){} // RVA: 0x7FFAC30DBBE0
-        public void get_ReturnSpecialDirectories(){} // RVA: 0x7FFAC2F3C7C0
-        public void .cctor(){} // RVA: 0x7FFAC85D8E80
+        public void get_Compatible(){} // RVA: 0x7FFE86982400
+        public void get_CompatibleRecursive(){} // RVA: 0x7FFE86982460
+        public void get_Default(){} // RVA: 0x7FFE869824C0
+        public void .ctor(){} // RVA: 0x7FFE86982520
+        public void FromSearchOption(){} // RVA: 0x7FFE86982530
+        public void get_RecurseSubdirectories(){} // RVA: 0x7FFE811C55E0
+        public void set_RecurseSubdirectories(){} // RVA: 0x7FFE811C55F0
+        public void get_IgnoreInaccessible(){} // RVA: 0x7FFE81346E30
+        public void set_IgnoreInaccessible(){} // RVA: 0x7FFE813471A0
+        public void get_BufferSize(){} // RVA: 0x7FFE8164B230
+        public void get_AttributesToSkip(){} // RVA: 0x7FFE813DB630
+        public void set_AttributesToSkip(){} // RVA: 0x7FFE8144DF00
+        public void get_MatchType(){} // RVA: 0x7FFE82707EE0
+        public void set_MatchType(){} // RVA: 0x7FFE82717690
+        public void get_MatchCasing(){} // RVA: 0x7FFE8151D690
+        public void get_ReturnSpecialDirectories(){} // RVA: 0x7FFE811167C0
+        public void .cctor(){} // RVA: 0x7FFE86982650
     }
 
     public class Error : Object
     {
         // ── Methods ──
-        public void GetStreamIsClosed(){} // RVA: 0x7FFAC85BB6A0
-        public void GetEndOfFile(){} // RVA: 0x7FFAC85BB710
-        public void GetReadNotSupported(){} // RVA: 0x7FFAC85BB780
-        public void GetWriteNotSupported(){} // RVA: 0x7FFAC85BB7F0
+        public void GetStreamIsClosed(){} // RVA: 0x7FFE86964E70
+        public void GetEndOfFile(){} // RVA: 0x7FFE86964EE0
+        public void GetReadNotSupported(){} // RVA: 0x7FFE86964F50
+        public void GetWriteNotSupported(){} // RVA: 0x7FFE86964FC0
     }
 
     public class ErrorEventArgs : EventArgs
@@ -300,970 +256,877 @@ namespace ThirdParty.DotNet.System.IO
     public class ErrorEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45B91D0
-        public void Invoke(){} // RVA: 0x7FFAC307D370
+        public void .ctor(){} // RVA: 0x7FFE828867F0
+        public void Invoke(){} // RVA: 0x7FFE81257370
     }
 
     public class File : Object
     {
         // ── Methods ──
-        public void OpenText(){} // RVA: 0x7FFAC85D9050
-        public void Copy(){} // RVA: 0x7FFAC85D9130 | overloaded x2
-        public void Create(){} // RVA: 0x7FFAC85D9460 | overloaded x3
-        public void Delete(){} // RVA: 0x7FFAC85D9500
-        public void Exists(){} // RVA: 0x7FFAC85D95E0
-        public void Open(){} // RVA: 0x7FFAC85D9770 | overloaded x2
-        public void GetUtcDateTimeOffset(){} // RVA: 0x7FFAC85D9810
-        public void GetCreationTime(){} // RVA: 0x7FFAC85D9940
-        public void GetCreationTimeUtc(){} // RVA: 0x7FFAC85D9A70
-        public void SetLastAccessTimeUtc(){} // RVA: 0x7FFAC85D9BD0
-        public void GetLastWriteTime(){} // RVA: 0x7FFAC85D9D90
-        public void GetLastWriteTimeUtc(){} // RVA: 0x7FFAC85D9EC0
-        public void GetAttributes(){} // RVA: 0x7FFAC85DA020
-        public void OpenRead(){} // RVA: 0x7FFAC85DA100
-        public void OpenWrite(){} // RVA: 0x7FFAC85DA190
-        public void ReadAllText(){} // RVA: 0x7FFAC85DA210
-        public void InternalReadAllText(){} // RVA: 0x7FFAC85DA2F0
-        public void WriteAllText(){} // RVA: 0x7FFAC85DA5C0 | overloaded x2
-        public void ReadAllBytes(){} // RVA: 0x7FFAC85DA7F0
-        public void ReadAllBytesUnknownLength(){} // RVA: 0x7FFAC85DAA60
-        public void WriteAllBytes(){} // RVA: 0x7FFAC85DAFB0
-        public void InternalWriteAllBytes(){} // RVA: 0x7FFAC85DB0E0
-        public void ReadAllLines(){} // RVA: 0x7FFAC85DB230
-        public void InternalReadAllLines(){} // RVA: 0x7FFAC85DB310
-        public void Move(){} // RVA: 0x7FFAC85DB520
+        public void OpenText(){} // RVA: 0x7FFE86982820
+        public void Copy(){} // RVA: 0x7FFE86982900 | overloaded x2
+        public void Create(){} // RVA: 0x7FFE86982C30 | overloaded x3
+        public void Delete(){} // RVA: 0x7FFE86982CD0
+        public void Exists(){} // RVA: 0x7FFE86982DB0
+        public void Open(){} // RVA: 0x7FFE86982F40 | overloaded x2
+        public void GetUtcDateTimeOffset(){} // RVA: 0x7FFE86982FE0
+        public void GetCreationTime(){} // RVA: 0x7FFE86983110
+        public void GetCreationTimeUtc(){} // RVA: 0x7FFE86983240
+        public void SetLastAccessTimeUtc(){} // RVA: 0x7FFE869833A0
+        public void GetLastWriteTime(){} // RVA: 0x7FFE86983560
+        public void GetLastWriteTimeUtc(){} // RVA: 0x7FFE86983690
+        public void GetAttributes(){} // RVA: 0x7FFE869837F0
+        public void OpenRead(){} // RVA: 0x7FFE869838D0
+        public void OpenWrite(){} // RVA: 0x7FFE86983960
+        public void ReadAllText(){} // RVA: 0x7FFE869839E0
+        public void InternalReadAllText(){} // RVA: 0x7FFE86983AC0
+        public void WriteAllText(){} // RVA: 0x7FFE86983D90 | overloaded x2
+        public void ReadAllBytes(){} // RVA: 0x7FFE86983FC0
+        public void ReadAllBytesUnknownLength(){} // RVA: 0x7FFE86984230
+        public void WriteAllBytes(){} // RVA: 0x7FFE86984780
+        public void InternalWriteAllBytes(){} // RVA: 0x7FFE869848B0
+        public void ReadAllLines(){} // RVA: 0x7FFE86984A00
+        public void InternalReadAllLines(){} // RVA: 0x7FFE86984AE0
+        public void Move(){} // RVA: 0x7FFE86984CF0
     }
 
     public class FileData : Object
     {
-        public string Directory; // 0x10
-        public 0x6B0E2B78 Attributes; // 0x18
-        public bool NotExists; // 0x1C
-        public System.DateTime CreationTime; // 0x20
-        public System.DateTime LastWriteTime; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class FileInfo : FileSystemInfo
     {
-        public object Length;
-        public object DirectoryName;
-        public object Directory;
-        public object IsReadOnly;
-        public object Name;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85D8C10 | overloaded x4
-        public void get_Length(){} // RVA: 0x7FFAC85DBA60
-        public void get_DirectoryName(){} // RVA: 0x7FFAC85DBB10
-        public void get_Directory(){} // RVA: 0x7FFAC85DBB70
-        public void get_IsReadOnly(){} // RVA: 0x7FFAC85DBC20
-        public void set_IsReadOnly(){} // RVA: 0x7FFAC85DBC40
-        public void CreateText(){} // RVA: 0x7FFAC85DBC90
-        public void AppendText(){} // RVA: 0x7FFAC85DBD00
-        public void Delete(){} // RVA: 0x7FFAC85DBD70
-        public void get_Name(){} // RVA: 0x7FFAC2FC20E0
+        public void .ctor(){} // RVA: 0x7FFE869823E0 | overloaded x4
+        public void get_Length(){} // RVA: 0x7FFE86985230
+        public void get_DirectoryName(){} // RVA: 0x7FFE869852E0
+        public void get_Directory(){} // RVA: 0x7FFE86985340
+        public void get_IsReadOnly(){} // RVA: 0x7FFE869853F0
+        public void set_IsReadOnly(){} // RVA: 0x7FFE86985410
+        public void CreateText(){} // RVA: 0x7FFE86985460
+        public void AppendText(){} // RVA: 0x7FFE869854D0
+        public void Delete(){} // RVA: 0x7FFE86985540
+        public void get_Name(){} // RVA: 0x7FFE8119C0E0
     }
 
     public class FileLoadException : IOException
     {
-        public string Message; // 0x90
-        public string FileName; // 0x98
+        public string _fileName; // 0x90
+        public string _fusionLog; // 0x98
+        public object field_2; // 0x90C
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85BBBC0 | overloaded x3
-        public void get_Message(){} // RVA: 0x7FFAC85BB8D0
-        public void get_FileName(){} // RVA: 0x7FFAC32EF640
-        public void get_FusionLog(){} // RVA: 0x7FFAC354DFB0
-        public void ToString(){} // RVA: 0x7FFAC85BB9B0
-        public void GetObjectData(){} // RVA: 0x7FFAC85BBD60
-        public void FormatFileLoadExceptionMessage(){} // RVA: 0x7FFAC85BC070
+        public void .ctor(){} // RVA: 0x7FFE86965390 | overloaded x3
+        public void get_Message(){} // RVA: 0x7FFE869650A0
+        public void get_FileName(){} // RVA: 0x7FFE8154EB60
+        public void get_FusionLog(){} // RVA: 0x7FFE817AE360
+        public void ToString(){} // RVA: 0x7FFE86965180
+        public void GetObjectData(){} // RVA: 0x7FFE86965530
+        public void FormatFileLoadExceptionMessage(){} // RVA: 0x7FFE86965840
     }
 
     public class FileNotFoundException : IOException
     {
-        public string Message; // 0x90
-        public string FileName; // 0x98
+        public string _fileName; // 0x90
+        public string _fusionLog; // 0x98
+        public object field_2; // 0x90F
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85BC620 | overloaded x4
-        public void get_Message(){} // RVA: 0x7FFAC85BC1D0
-        public void SetMessageField(){} // RVA: 0x7FFAC85BC2F0
-        public void get_FileName(){} // RVA: 0x7FFAC32EF640
-        public void get_FusionLog(){} // RVA: 0x7FFAC354DFB0
-        public void ToString(){} // RVA: 0x7FFAC85BC410
-        public void GetObjectData(){} // RVA: 0x7FFAC85BC7C0
+        public void .ctor(){} // RVA: 0x7FFE86965DF0 | overloaded x4
+        public void get_Message(){} // RVA: 0x7FFE869659A0
+        public void SetMessageField(){} // RVA: 0x7FFE86965AC0
+        public void get_FileName(){} // RVA: 0x7FFE8154EB60
+        public void get_FusionLog(){} // RVA: 0x7FFE817AE360
+        public void ToString(){} // RVA: 0x7FFE86965BE0
+        public void GetObjectData(){} // RVA: 0x7FFE86965F90
     }
 
     public class FileStream : Stream
     {
-        public int CanRead;
-        public byte[] CanWrite;
-        public object CanSeek; // 0x8
-        public byte[] Name; // 0x28
-        public string Length; // 0x30
-        public Microsoft.Win32.SafeHandles.SafeFileHandle Position; // 0x38
-        public bool SafeFileHandle; // 0x40
-        public long append_startpos; // 0x48
-        public 0x6B0E1890 access; // 0x50
-        public bool owner; // 0x54
-        public bool async; // 0x55
-        public bool canseek; // 0x56
-        public bool anonymous; // 0x57
-        public bool buf_dirty; // 0x58
-        public int buf_size; // 0x5C
-        public int buf_length; // 0x60
-        public int buf_offset; // 0x64
-        public long buf_start; // 0x68
+        public int DefaultBufferSize;
+        public byte[] buf_recycle;
+        public object buf_recycle_lock; // 0x8
+        public byte[] buf; // 0x28
+        public string name; // 0x30
+        public Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle; // 0x38
+        public bool isExposed; // 0x40
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85F27A0 | overloaded x12
-        public void Init(){} // RVA: 0x7FFAC85F3200
-        public void get_CanRead(){} // RVA: 0x7FFAC85F3570
-        public void get_CanWrite(){} // RVA: 0x7FFAC85F3590
-        public void get_CanSeek(){} // RVA: 0x7FFAC85F35B0
-        public void get_Name(){} // RVA: 0x7FFAC31D95E0
-        public void get_Length(){} // RVA: 0x7FFAC85F35C0
-        public void get_Position(){} // RVA: 0x7FFAC85F3760
-        public void set_Position(){} // RVA: 0x7FFAC85F3920
-        public void get_SafeFileHandle(){} // RVA: 0x7FFAC85F39C0
-        public void ExposeHandle(){} // RVA: 0x7FFAC85F3A00
-        public void ReadByte(){} // RVA: 0x7FFAC85F3A30
-        public void WriteByte(){} // RVA: 0x7FFAC85F3BA0
-        public void Read(){} // RVA: 0x7FFAC85F3D00
-        public void ReadInternal(){} // RVA: 0x7FFAC85F40B0
-        public void BeginRead(){} // RVA: 0x7FFAC85F4180
-        public void EndRead(){} // RVA: 0x7FFAC85F45D0
-        public void Write(){} // RVA: 0x7FFAC85F47E0
-        public void WriteInternal(){} // RVA: 0x7FFAC85F4AB0
-        public void BeginWrite(){} // RVA: 0x7FFAC85F4CF0
-        public void EndWrite(){} // RVA: 0x7FFAC85F5190
-        public void Seek(){} // RVA: 0x7FFAC85F5390
-        public void SetLength(){} // RVA: 0x7FFAC85F56A0
-        public void Flush(){} // RVA: 0x7FFAC85F5940
-        public void Finalize(){} // RVA: 0x7FFAC8449EF0
-        public void Dispose(){} // RVA: 0x7FFAC85F59C0
-        public void FlushAsync(){} // RVA: 0x7FFAC85F5DD0
-        public void ReadAsync(){} // RVA: 0x7FFAC85F5E50
-        public void WriteAsync(){} // RVA: 0x7FFAC85F5E60
-        public void ReadSegment(){} // RVA: 0x7FFAC85F5E70
-        public void WriteSegment(){} // RVA: 0x7FFAC85F5F80
-        public void FlushBuffer(){} // RVA: 0x7FFAC85F5FF0
-        public void FlushBufferIfDirty(){} // RVA: 0x7FFAC85F61E0
-        public void RefillBuffer(){} // RVA: 0x7FFAC85F61F0
-        public void ReadData(){} // RVA: 0x7FFAC85F6230
-        public void InitBuffer(){} // RVA: 0x7FFAC85F6370
-        public void GetSecureFileName(){} // RVA: 0x7FFAC85F6800 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFAC85F68F0
+        public void .ctor(){} // RVA: 0x7FFE8699BF70 | overloaded x12
+        public void Init(){} // RVA: 0x7FFE8699C9D0
+        public void get_CanRead(){} // RVA: 0x7FFE8699CD40
+        public void get_CanWrite(){} // RVA: 0x7FFE8699CD60
+        public void get_CanSeek(){} // RVA: 0x7FFE8699CD80
+        public void get_Name(){} // RVA: 0x7FFE8144E200
+        public void get_Length(){} // RVA: 0x7FFE8699CD90
+        public void get_Position(){} // RVA: 0x7FFE8699CF30
+        public void set_Position(){} // RVA: 0x7FFE8699D0F0
+        public void get_SafeFileHandle(){} // RVA: 0x7FFE8699D190
+        public void ExposeHandle(){} // RVA: 0x7FFE8699D1D0
+        public void ReadByte(){} // RVA: 0x7FFE8699D200
+        public void WriteByte(){} // RVA: 0x7FFE8699D370
+        public void Read(){} // RVA: 0x7FFE8699D4D0
+        public void ReadInternal(){} // RVA: 0x7FFE8699D880
+        public void BeginRead(){} // RVA: 0x7FFE8699D950
+        public void EndRead(){} // RVA: 0x7FFE8699DDA0
+        public void Write(){} // RVA: 0x7FFE8699DFB0
+        public void WriteInternal(){} // RVA: 0x7FFE8699E280
+        public void BeginWrite(){} // RVA: 0x7FFE8699E4C0
+        public void EndWrite(){} // RVA: 0x7FFE8699E960
+        public void Seek(){} // RVA: 0x7FFE8699EB60
+        public void SetLength(){} // RVA: 0x7FFE8699EE70
+        public void Flush(){} // RVA: 0x7FFE8699F110
+        public void Finalize(){} // RVA: 0x7FFE867F3800
+        public void Dispose(){} // RVA: 0x7FFE8699F190
+        public void FlushAsync(){} // RVA: 0x7FFE8699F5A0
+        public void ReadAsync(){} // RVA: 0x7FFE8699F620
+        public void WriteAsync(){} // RVA: 0x7FFE8699F630
+        public void ReadSegment(){} // RVA: 0x7FFE8699F640
+        public void WriteSegment(){} // RVA: 0x7FFE8699F750
+        public void FlushBuffer(){} // RVA: 0x7FFE8699F7C0
+        public void FlushBufferIfDirty(){} // RVA: 0x7FFE8699F9B0
+        public void RefillBuffer(){} // RVA: 0x7FFE8699F9C0
+        public void ReadData(){} // RVA: 0x7FFE8699FA00
+        public void InitBuffer(){} // RVA: 0x7FFE8699FB40
+        public void GetSecureFileName(){} // RVA: 0x7FFE8699FFD0 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFE869A00C0
     }
 
     public class FileStreamAsyncResult : Object
     {
-        public object AsyncState; // 0x10
-        public bool CompletedSynchronously; // 0x18
-        public System.Threading.ManualResetEvent AsyncWaitHandle; // 0x20
-        public System.AsyncCallback IsCompleted; // 0x28
-        public bool completedSynch; // 0x30
-        public int Count; // 0x34
-        public int OriginalCount; // 0x38
-        public int BytesRead; // 0x3C
-        public System.AsyncCallback realcb; // 0x40
+        public object state; // 0x10
+        public bool completed; // 0x18
+        public System.Threading.ManualResetEvent wh; // 0x20
+        public System.AsyncCallback cb; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85F6D10
-        public void CBWrapper(){} // RVA: 0x7FFAC85F6F40
-        public void get_AsyncState(){} // RVA: 0x7FFAC2F3C380
-        public void get_CompletedSynchronously(){} // RVA: 0x7FFAC2F47450
-        public void get_AsyncWaitHandle(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_IsCompleted(){} // RVA: 0x7FFAC2F3C4E0
+        public void .ctor(){} // RVA: 0x7FFE869A04E0
+        public void CBWrapper(){} // RVA: 0x7FFE869A0710
+        public void get_AsyncState(){} // RVA: 0x7FFE81116380
+        public void get_CompletedSynchronously(){} // RVA: 0x7FFE81121450
+        public void get_AsyncWaitHandle(){} // RVA: 0x7FFE811290C0
+        public void get_IsCompleted(){} // RVA: 0x7FFE811164E0
     }
 
     public class FileSystem : Object
     {
         // ── Methods ──
-        public void CopyFile(){} // RVA: 0x7FFAC85B73D0
-        public void CreateDirectory(){} // RVA: 0x7FFAC85B7700
-        public void DeleteFile(){} // RVA: 0x7FFAC85B7CC0
-        public void DirectoryExists(){} // RVA: 0x7FFAC85B7DA0 | overloaded x2
-        public void FillAttributeInfo(){} // RVA: 0x7FFAC85B7DF0
-        public void FileExists(){} // RVA: 0x7FFAC85B80F0
-        public void GetAttributes(){} // RVA: 0x7FFAC85B8140
-        public void GetCreationTime(){} // RVA: 0x7FFAC85B81B0
-        public void GetLastWriteTime(){} // RVA: 0x7FFAC85B8240
-        public void MoveFile(){} // RVA: 0x7FFAC85B82D0
-        public void OpenHandle(){} // RVA: 0x7FFAC85B8320
-        public void RemoveDirectory(){} // RVA: 0x7FFAC85B85C0
-        public void GetFindData(){} // RVA: 0x7FFAC85B86A0
-        public void IsNameSurrogateReparsePoint(){} // RVA: 0x7FFAC85B87F0
-        public void RemoveDirectoryRecursive(){} // RVA: 0x7FFAC85B8810
-        public void RemoveDirectoryInternal(){} // RVA: 0x7FFAC85B91F0
-        public void SetAttributes(){} // RVA: 0x7FFAC85B9320
-        public void SetLastAccessTime(){} // RVA: 0x7FFAC85B9400
-        public void UnityCreateDirectory(){} // RVA: 0x7FFAC85B9640
-        public void UnityRemoveDirectory(){} // RVA: 0x7FFAC85B9820
-        public void UnityGetFileAttributesEx(){} // RVA: 0x7FFAC85B9A60
-        public void UnitySetFileAttributes(){} // RVA: 0x7FFAC85B9CC0
-        public void UnityCreateFile_IntPtr(){} // RVA: 0x7FFAC85B9E90
-        public void UnityCopyFile(){} // RVA: 0x7FFAC85BA040
-        public void UnityDeleteFile(){} // RVA: 0x7FFAC85BA180
-        public void UnityMoveFile(){} // RVA: 0x7FFAC85BA3C0
-        public void UnityFindFirstFile(){} // RVA: 0x7FFAC85BA630
-        public void UnityFindNextFile(){} // RVA: 0x7FFAC85BAAC0
-        public void BrokeredCreateDirectory(){} // RVA: 0x7FFAC85BADD0
-        public void BrokeredRemoveDirectory(){} // RVA: 0x7FFAC85BADD0
-        public void BrokeredGetFileAttributes(){} // RVA: 0x7FFAC85BAE60
-        public void BrokeredSetAttributes(){} // RVA: 0x7FFAC85BAE70
-        public void BrokeredOpenFile(){} // RVA: 0x7FFAC85BAF00
-        public void BrokeredCopyFile(){} // RVA: 0x7FFAC85BB030
-        public void BrokeredMoveFile(){} // RVA: 0x7FFAC85BB160
-        public void BrokeredDeleteFile(){} // RVA: 0x7FFAC85BADD0
-        public void BrokeredFindFirstFile(){} // RVA: 0x7FFAC85BB280
-        public void BrokeredFindNextFile(){} // RVA: 0x7FFAC85BB3E0
-        public void BrokeredSafeFindHandleDispose(){} // RVA: 0x7FFAC85BB4B0
-        public void RemoveExtendedPathPrefix(){} // RVA: 0x7FFAC85BB4C0
+        public void CopyFile(){} // RVA: 0x7FFE86960BA0
+        public void CreateDirectory(){} // RVA: 0x7FFE86960ED0
+        public void DeleteFile(){} // RVA: 0x7FFE86961490
+        public void DirectoryExists(){} // RVA: 0x7FFE86961570 | overloaded x2
+        public void FillAttributeInfo(){} // RVA: 0x7FFE869615C0
+        public void FileExists(){} // RVA: 0x7FFE869618C0
+        public void GetAttributes(){} // RVA: 0x7FFE86961910
+        public void GetCreationTime(){} // RVA: 0x7FFE86961980
+        public void GetLastWriteTime(){} // RVA: 0x7FFE86961A10
+        public void MoveFile(){} // RVA: 0x7FFE86961AA0
+        public void OpenHandle(){} // RVA: 0x7FFE86961AF0
+        public void RemoveDirectory(){} // RVA: 0x7FFE86961D90
+        public void GetFindData(){} // RVA: 0x7FFE86961E70
+        public void IsNameSurrogateReparsePoint(){} // RVA: 0x7FFE86961FC0
+        public void RemoveDirectoryRecursive(){} // RVA: 0x7FFE86961FE0
+        public void RemoveDirectoryInternal(){} // RVA: 0x7FFE869629C0
+        public void SetAttributes(){} // RVA: 0x7FFE86962AF0
+        public void SetLastAccessTime(){} // RVA: 0x7FFE86962BD0
+        public void UnityCreateDirectory(){} // RVA: 0x7FFE86962E10
+        public void UnityRemoveDirectory(){} // RVA: 0x7FFE86962FF0
+        public void UnityGetFileAttributesEx(){} // RVA: 0x7FFE86963230
+        public void UnitySetFileAttributes(){} // RVA: 0x7FFE86963490
+        public void UnityCreateFile_IntPtr(){} // RVA: 0x7FFE86963660
+        public void UnityCopyFile(){} // RVA: 0x7FFE86963810
+        public void UnityDeleteFile(){} // RVA: 0x7FFE86963950
+        public void UnityMoveFile(){} // RVA: 0x7FFE86963B90
+        public void UnityFindFirstFile(){} // RVA: 0x7FFE86963E00
+        public void UnityFindNextFile(){} // RVA: 0x7FFE86964290
+        public void BrokeredCreateDirectory(){} // RVA: 0x7FFE869645A0
+        public void BrokeredRemoveDirectory(){} // RVA: 0x7FFE869645A0
+        public void BrokeredGetFileAttributes(){} // RVA: 0x7FFE86964630
+        public void BrokeredSetAttributes(){} // RVA: 0x7FFE86964640
+        public void BrokeredOpenFile(){} // RVA: 0x7FFE869646D0
+        public void BrokeredCopyFile(){} // RVA: 0x7FFE86964800
+        public void BrokeredMoveFile(){} // RVA: 0x7FFE86964930
+        public void BrokeredDeleteFile(){} // RVA: 0x7FFE869645A0
+        public void BrokeredFindFirstFile(){} // RVA: 0x7FFE86964A50
+        public void BrokeredFindNextFile(){} // RVA: 0x7FFE86964BB0
+        public void BrokeredSafeFindHandleDispose(){} // RVA: 0x7FFE86964C80
+        public void RemoveExtendedPathPrefix(){} // RVA: 0x7FFE86964C90
     }
 
     public class FileSystemEventArgs : EventArgs
     {
-        public 0x6B139730 ChangeType; // 0x10
-        public string FullPath; // 0x18
-        public string _fullPath; // 0x20
+        public 0x66532654 _changeType; // 0x10
+        public string _name; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9456B90
-        public void Combine(){} // RVA: 0x7FFAC9456D10
-        public void get_ChangeType(){} // RVA: 0x7FFAC2F6E5C0
-        public void get_FullPath(){} // RVA: 0x7FFAC2F4F0C0
+        public void .ctor(){} // RVA: 0x7FFE877FF2D0
+        public void Combine(){} // RVA: 0x7FFE877FF450
+        public void get_ChangeType(){} // RVA: 0x7FFE811485C0
+        public void get_FullPath(){} // RVA: 0x7FFE811290C0
     }
 
     public class FileSystemEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45B91D0
-        public void Invoke(){} // RVA: 0x7FFAC307D370
+        public void .ctor(){} // RVA: 0x7FFE828867F0
+        public void Invoke(){} // RVA: 0x7FFE81257370
     }
 
     public class FileSystemInfo : MarshalByRefObject
     {
-        public WIN32_FILE_ATTRIBUTE_DATA Attributes; // 0x18
-        public int ExistsCore; // 0x3C
-        public string CreationTimeCore; // 0x40
-        public string LastAccessTimeCore; // 0x48
-        public string LastWriteTimeCore; // 0x50
+        public WIN32_FILE_ATTRIBUTE_DATA _data; // 0x18
+        public int _dataInitialized; // 0x3C
+        public string FullPath; // 0x40
+        public string OriginalPath; // 0x48
+        public string _name; // 0x50
+        public int dwFileAttributes; // 0x10
+        public FILE_TIME ftCreationTime; // 0x14
+        public FILE_TIME ftLastAccessTime; // 0x1C
+        public FILE_TIME ftLastWriteTime; // 0x24
+        public uint nFileSizeHigh; // 0x2C
+        public uint nFileSizeLow; // 0x30
+        public uint dwLowDateTime; // 0x10
+        public uint dwHighDateTime; // 0x14
+        public object field_13; // 0x945
+        public object field_14; // 0x946
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85DC3C0 | overloaded x2
-        public void Create(){} // RVA: 0x7FFAC85DBD80
-        public void Invalidate(){} // RVA: 0x7FFAC85DB7E0
-        public void Init(){} // RVA: 0x7FFAC85DBF80
-        public void get_Attributes(){} // RVA: 0x7FFAC85DBFD0
-        public void set_Attributes(){} // RVA: 0x7FFAC85DBFF0
-        public void get_ExistsCore(){} // RVA: 0x7FFAC85DC0D0
-        public void get_CreationTimeCore(){} // RVA: 0x7FFAC85DC160
-        public void get_LastAccessTimeCore(){} // RVA: 0x7FFAC85DC1A0
-        public void get_LastWriteTimeCore(){} // RVA: 0x7FFAC85DC1E0
-        public void get_LengthCore(){} // RVA: 0x7FFAC85DC220
-        public void EnsureDataInitialized(){} // RVA: 0x7FFAC85DC250
-        public void Refresh(){} // RVA: 0x7FFAC85DC2C0
-        public void get_NormalizedPath(){} // RVA: 0x7FFAC85DC2F0
-        public void GetObjectData(){} // RVA: 0x7FFAC85DC620
-        public void get_FullName(){} // RVA: 0x7FFAC2F9E740
-        public void get_Name(){} // RVA: 0x7FFAC2FC20E0
-        public void get_Exists(){} // RVA: 0x7FFAC85DCA50
-        public void Delete(){} // RVA: 0x7FFAC2C70980
-        public void get_CreationTimeUtc(){} // RVA: 0x7FFAC85DCAE0
-        public void get_LastAccessTime(){} // RVA: 0x7FFAC85DCB90
-        public void get_LastAccessTimeUtc(){} // RVA: 0x7FFAC85DCCC0
-        public void get_LastWriteTime(){} // RVA: 0x7FFAC85DCD70
-        public void get_LastWriteTimeUtc(){} // RVA: 0x7FFAC85DCEA0
-        public void ToString(){} // RVA: 0x7FFAC85DCF50
+        public void .ctor(){} // RVA: 0x7FFE86985B90 | overloaded x2
+        public void Create(){} // RVA: 0x7FFE86985550
+        public void Invalidate(){} // RVA: 0x7FFE86984FB0
+        public void Init(){} // RVA: 0x7FFE86985750
+        public void get_Attributes(){} // RVA: 0x7FFE869857A0
+        public void set_Attributes(){} // RVA: 0x7FFE869857C0
+        public void get_ExistsCore(){} // RVA: 0x7FFE869858A0
+        public void get_CreationTimeCore(){} // RVA: 0x7FFE86985930
+        public void get_LastAccessTimeCore(){} // RVA: 0x7FFE86985970
+        public void get_LastWriteTimeCore(){} // RVA: 0x7FFE869859B0
+        public void get_LengthCore(){} // RVA: 0x7FFE869859F0
+        public void EnsureDataInitialized(){} // RVA: 0x7FFE86985A20
+        public void Refresh(){} // RVA: 0x7FFE86985A90
+        public void get_NormalizedPath(){} // RVA: 0x7FFE86985AC0
+        public void GetObjectData(){} // RVA: 0x7FFE86985DF0
+        public void get_FullName(){} // RVA: 0x7FFE81178740
+        public void get_Name(){} // RVA: 0x7FFE8119C0E0
+        public void get_Exists(){} // RVA: 0x7FFE86986220
+        public void Delete(){} // RVA: 0x7FFE80E45FE0
+        public void get_CreationTimeUtc(){} // RVA: 0x7FFE869862B0
+        public void get_LastAccessTime(){} // RVA: 0x7FFE86986360
+        public void get_LastAccessTimeUtc(){} // RVA: 0x7FFE86986490
+        public void get_LastWriteTime(){} // RVA: 0x7FFE86986540
+        public void get_LastWriteTimeUtc(){} // RVA: 0x7FFE86986670
+        public void ToString(){} // RVA: 0x7FFE86986720
     }
 
     public class FileSystemWatcher : Component
     {
-        public bool Waiting; // 0x28
-        public bool MangledFilter; // 0x29
-        public bool Pattern; // 0x2A
-        public string FullPath; // 0x30
-        public bool EnableRaisingEvents; // 0x38
-        public int Filter; // 0x3C
-        public 0x6B139578 IncludeSubdirectories; // 0x40
-        public string NotifyFilter; // 0x48
-        public string Site; // 0x50
-        public System.ComponentModel.ISynchronizeInvoke synchronizingObject; // 0x58
-        public System.IO.WaitForChangedResult lastData; // 0x60
-        public bool waiting; // 0x80
-        public System.IO.SearchPattern2 pattern; // 0x88
-        public bool disposed; // 0x90
-        public string mangledFilter; // 0x98
-        public System.IO.IFileWatcher watcher; // 0xA0
-        public object watcher_handle; // 0xA8
-        public object lockobj;
-        public System.IO.FileSystemEventHandler Changed; // 0xB0
-        public System.IO.FileSystemEventHandler Created; // 0xB8
-        public System.IO.FileSystemEventHandler Deleted; // 0xC0
-        public System.IO.ErrorEventHandler Error; // 0xC8
-        public System.IO.RenamedEventHandler Renamed; // 0xD0
+        public bool inited; // 0x28
+        public bool start_requested; // 0x29
+        public bool enableRaisingEvents; // 0x2A
+        public string filter; // 0x30
+        public bool includeSubdirectories; // 0x38
+        public int internalBufferSize; // 0x3C
+        public 0x6653249C notifyFilter; // 0x40
+        public string path; // 0x48
+        public string fullpath; // 0x50
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC945A900 | overloaded x2
-        public void InitWatcher(){} // RVA: 0x7FFAC945ABF0
-        public void get_Waiting(){} // RVA: 0x7FFAC313E620
-        public void set_Waiting(){} // RVA: 0x7FFAC313D3B0
-        public void get_MangledFilter(){} // RVA: 0x7FFAC945B1A0
-        public void get_Pattern(){} // RVA: 0x7FFAC945B240
-        public void get_FullPath(){} // RVA: 0x7FFAC945B3A0
-        public void set_EnableRaisingEvents(){} // RVA: 0x7FFAC945B4D0
-        public void set_Filter(){} // RVA: 0x7FFAC945B580
-        public void get_IncludeSubdirectories(){} // RVA: 0x7FFAC31D95D0
-        public void set_IncludeSubdirectories(){} // RVA: 0x7FFAC945B800
-        public void set_NotifyFilter(){} // RVA: 0x7FFAC945B840
-        public void get_Site(){} // RVA: 0x7FFAC2F247C0
-        public void set_Site(){} // RVA: 0x7FFAC945B880
-        public void BeginInit(){} // RVA: 0x7FFAC494FE90
-        public void Dispose(){} // RVA: 0x7FFAC945B970
-        public void Finalize(){} // RVA: 0x7FFAC945BB10
-        public void EndInit(){} // RVA: 0x7FFAC945BB90
-        public void RaiseEvent(){} // RVA: 0x7FFAC945BC40
-        public void OnChanged(){} // RVA: 0x7FFAC945BFD0
-        public void OnCreated(){} // RVA: 0x7FFAC945C000
-        public void OnDeleted(){} // RVA: 0x7FFAC945C030
-        public void OnRenamed(){} // RVA: 0x7FFAC945C060
-        public void DispatchEvents(){} // RVA: 0x7FFAC945C090
-        public void Start(){} // RVA: 0x7FFAC945C5F0
-        public void Stop(){} // RVA: 0x7FFAC945C660
-        public void add_Changed(){} // RVA: 0x7FFAC945C6D0
-        public void remove_Changed(){} // RVA: 0x7FFAC945C7C0
-        public void add_Created(){} // RVA: 0x7FFAC945C8B0
-        public void remove_Created(){} // RVA: 0x7FFAC945C9A0
-        public void add_Deleted(){} // RVA: 0x7FFAC945CA90
-        public void remove_Deleted(){} // RVA: 0x7FFAC945CB80
-        public void .cctor(){} // RVA: 0x7FFAC945CC70
+        public void .ctor(){} // RVA: 0x7FFE87803040 | overloaded x2
+        public void InitWatcher(){} // RVA: 0x7FFE87803330
+        public void get_Waiting(){} // RVA: 0x7FFE813A1130
+        public void set_Waiting(){} // RVA: 0x7FFE813A2040
+        public void get_MangledFilter(){} // RVA: 0x7FFE878038E0
+        public void get_Pattern(){} // RVA: 0x7FFE87803980
+        public void get_FullPath(){} // RVA: 0x7FFE87803AE0
+        public void set_EnableRaisingEvents(){} // RVA: 0x7FFE87803C10
+        public void set_Filter(){} // RVA: 0x7FFE87803CC0
+        public void get_IncludeSubdirectories(){} // RVA: 0x7FFE812CF770
+        public void set_IncludeSubdirectories(){} // RVA: 0x7FFE87803F40
+        public void set_NotifyFilter(){} // RVA: 0x7FFE87803F80
+        public void get_Site(){} // RVA: 0x7FFE810FE7C0
+        public void set_Site(){} // RVA: 0x7FFE87803FC0
+        public void BeginInit(){} // RVA: 0x7FFE82BBB9A0
+        public void Dispose(){} // RVA: 0x7FFE878040B0
+        public void Finalize(){} // RVA: 0x7FFE87804250
+        public void EndInit(){} // RVA: 0x7FFE878042D0
+        public void RaiseEvent(){} // RVA: 0x7FFE87804380
+        public void OnChanged(){} // RVA: 0x7FFE87804710
+        public void OnCreated(){} // RVA: 0x7FFE87804740
+        public void OnDeleted(){} // RVA: 0x7FFE87804770
+        public void OnRenamed(){} // RVA: 0x7FFE878047A0
+        public void DispatchEvents(){} // RVA: 0x7FFE878047D0
+        public void Start(){} // RVA: 0x7FFE87804D30
+        public void Stop(){} // RVA: 0x7FFE87804DA0
+        public void add_Changed(){} // RVA: 0x7FFE87804E10
+        public void remove_Changed(){} // RVA: 0x7FFE87804F00
+        public void add_Created(){} // RVA: 0x7FFE87804FF0
+        public void remove_Created(){} // RVA: 0x7FFE878050E0
+        public void add_Deleted(){} // RVA: 0x7FFE878051D0
+        public void remove_Deleted(){} // RVA: 0x7FFE878052C0
+        public void .cctor(){} // RVA: 0x7FFE878053B0
     }
 
     public class IFileWatcher
     {
         // ── Methods ──
-        public void StartDispatching(){} // RVA: 0x7FFAC2C70A40
-        public void StopDispatching(){} // RVA: 0x7FFAC2C70A40
-        public void Dispose(){} // RVA: 0x7FFAC2C70A40
+        public void StartDispatching(){} // RVA: 0x7FFE80E460A0
+        public void StopDispatching(){} // RVA: 0x7FFE80E460A0
+        public void Dispose(){} // RVA: 0x7FFE80E460A0
     }
 
     public class IODescriptionAttribute : DescriptionAttribute
     {
-        public object Description;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC945CF80
-        public void get_Description(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE878056C0
+        public void get_Description(){} // RVA: 0x7FFE81116380
     }
 
     public class IOException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x5
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x5
     }
 
     public class InvalidDataException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x4
     }
 
     public class MemoryStream : Stream
     {
-        public byte[] CanRead; // 0x28
-        public int CanSeek; // 0x30
-        public int CanWrite; // 0x34
-        public int Capacity; // 0x38
-        public int Length; // 0x3C
-        public bool Position; // 0x40
-        public bool _writable; // 0x41
-        public bool _exposable; // 0x42
-        public bool _isOpen; // 0x43
-        public System.Threading.Tasks.Task`1<int> _lastReadTask; // 0x48
-        public int MemStreamMaxLength;
+        public byte[] _buffer; // 0x28
+        public int _origin; // 0x30
+        public int _position; // 0x34
+        public int _length; // 0x38
+        public int _capacity; // 0x3C
+        public bool _expandable; // 0x40
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85BCF20 | overloaded x7
-        public void get_CanRead(){} // RVA: 0x7FFAC3FA0E90
-        public void get_CanSeek(){} // RVA: 0x7FFAC3FA0E90
-        public void get_CanWrite(){} // RVA: 0x7FFAC31D8A60
-        public void EnsureNotClosed(){} // RVA: 0x7FFAC85BD140
-        public void EnsureWriteable(){} // RVA: 0x7FFAC85BD180
-        public void Dispose(){} // RVA: 0x7FFAC85BD1D0
-        public void EnsureCapacity(){} // RVA: 0x7FFAC85BD250
-        public void Flush(){} // RVA: 0x7FFAC2F21310
-        public void FlushAsync(){} // RVA: 0x7FFAC85BD310
-        public void GetBuffer(){} // RVA: 0x7FFAC85BD440
-        public void InternalGetBuffer(){} // RVA: 0x7FFAC2F4F130
-        public void InternalGetPosition(){} // RVA: 0x7FFAC3ADEDC0
-        public void InternalReadInt32(){} // RVA: 0x7FFAC85BD4B0
-        public void InternalEmulateRead(){} // RVA: 0x7FFAC85BD590
-        public void get_Capacity(){} // RVA: 0x7FFAC85BD5F0
-        public void set_Capacity(){} // RVA: 0x7FFAC85BD630
-        public void get_Length(){} // RVA: 0x7FFAC85BD810
-        public void get_Position(){} // RVA: 0x7FFAC85BD860
-        public void set_Position(){} // RVA: 0x7FFAC85BD8B0
-        public void Read(){} // RVA: 0x7FFAC85BDC40 | overloaded x2
-        public void ReadAsync(){} // RVA: 0x7FFAC85BE220 | overloaded x2
-        public void ReadByte(){} // RVA: 0x7FFAC85BE640
-        public void CopyTo(){} // RVA: 0x7FFAC85BE6C0
-        public void CopyToAsync(){} // RVA: 0x7FFAC85BE850
-        public void Seek(){} // RVA: 0x7FFAC85BEB70
-        public void SetLength(){} // RVA: 0x7FFAC85BEDD0
-        public void ToArray(){} // RVA: 0x7FFAC85BEF40
-        public void Write(){} // RVA: 0x7FFAC85BF2F0 | overloaded x2
-        public void WriteAsync(){} // RVA: 0x7FFAC85BF880 | overloaded x2
-        public void WriteByte(){} // RVA: 0x7FFAC85BFBD0
-        public void WriteTo(){} // RVA: 0x7FFAC85BFCF0
+        public void .ctor(){} // RVA: 0x7FFE869666F0 | overloaded x7
+        public void get_CanRead(){} // RVA: 0x7FFE822BB340
+        public void get_CanSeek(){} // RVA: 0x7FFE822BB340
+        public void get_CanWrite(){} // RVA: 0x7FFE814645D0
+        public void EnsureNotClosed(){} // RVA: 0x7FFE86966910
+        public void EnsureWriteable(){} // RVA: 0x7FFE86966950
+        public void Dispose(){} // RVA: 0x7FFE869669A0
+        public void EnsureCapacity(){} // RVA: 0x7FFE86966A20
+        public void Flush(){} // RVA: 0x7FFE810FB310
+        public void FlushAsync(){} // RVA: 0x7FFE86966AE0
+        public void GetBuffer(){} // RVA: 0x7FFE86966C10
+        public void InternalGetBuffer(){} // RVA: 0x7FFE81129130
+        public void InternalGetPosition(){} // RVA: 0x7FFE82447220
+        public void InternalReadInt32(){} // RVA: 0x7FFE86966C80
+        public void InternalEmulateRead(){} // RVA: 0x7FFE86966D60
+        public void get_Capacity(){} // RVA: 0x7FFE86966DC0
+        public void set_Capacity(){} // RVA: 0x7FFE86966E00
+        public void get_Length(){} // RVA: 0x7FFE86966FE0
+        public void get_Position(){} // RVA: 0x7FFE86967030
+        public void set_Position(){} // RVA: 0x7FFE86967080
+        public void Read(){} // RVA: 0x7FFE86967410 | overloaded x2
+        public void ReadAsync(){} // RVA: 0x7FFE869679F0 | overloaded x2
+        public void ReadByte(){} // RVA: 0x7FFE86967E10
+        public void CopyTo(){} // RVA: 0x7FFE86967E90
+        public void CopyToAsync(){} // RVA: 0x7FFE86968020
+        public void Seek(){} // RVA: 0x7FFE86968340
+        public void SetLength(){} // RVA: 0x7FFE869685A0
+        public void ToArray(){} // RVA: 0x7FFE86968710
+        public void Write(){} // RVA: 0x7FFE86968AC0 | overloaded x2
+        public void WriteAsync(){} // RVA: 0x7FFE86969050 | overloaded x2
+        public void WriteByte(){} // RVA: 0x7FFE869693A0
+        public void WriteTo(){} // RVA: 0x7FFE869694C0
     }
 
     public class MonoIO : Object
     {
-        public UIntPtr ConsoleOutput;
-        public bool ConsoleInput; // 0x8
+        public UIntPtr InvalidHandle;
+        public bool dump_handles; // 0x8
+        public object field_2; // 0x979
+        public object field_3; // 0x97A
+        public object field_4; // 0x97B
+        public object field_5; // 0x97C
+        public object field_6; // 0x97D
 
         // ── Methods ──
-        public void GetException(){} // RVA: 0x7FFAC85F7110 | overloaded x2
-        public void GetCurrentDirectory(){} // RVA: 0x7FFAC85F7980
-        public void GetFileType(){} // RVA: 0x7FFAC85F7A20 | overloaded x2
-        public void FindCloseFile(){} // RVA: 0x7FFAC85F7B30
-        public void Open(){} // RVA: 0x7FFAC85F7DA0 | overloaded x2
-        public void Cancel_internal(){} // RVA: 0x7FFAC85F7EF0
-        public void Cancel(){} // RVA: 0x7FFAC85F7F10
-        public void Close(){} // RVA: 0x7FFAC85F8030
-        public void Read(){} // RVA: 0x7FFAC85F8100 | overloaded x2
-        public void Write(){} // RVA: 0x7FFAC85F8320 | overloaded x2
-        public void Seek(){} // RVA: 0x7FFAC85F84D0 | overloaded x2
-        public void GetLength(){} // RVA: 0x7FFAC85F8680 | overloaded x2
-        public void SetLength(){} // RVA: 0x7FFAC85F8870 | overloaded x2
-        public void get_ConsoleOutput(){} // RVA: 0x7FFAC85F8A40
-        public void get_ConsoleInput(){} // RVA: 0x7FFAC85F8A50
-        public void get_ConsoleError(){} // RVA: 0x7FFAC85F8A60
-        public void CreatePipe(){} // RVA: 0x7FFAC85F8A70
-        public void DuplicateHandle(){} // RVA: 0x7FFAC85F8B70
-        public void get_VolumeSeparatorChar(){} // RVA: 0x7FFAC85F8C60
-        public void get_DirectorySeparatorChar(){} // RVA: 0x7FFAC530F580
-        public void get_AltDirectorySeparatorChar(){} // RVA: 0x7FFAC85F8C70
-        public void get_PathSeparator(){} // RVA: 0x7FFAC85F8C80
-        public void DumpHandles(){} // RVA: 0x7FFAC8533400
-        public void RemapPath(){} // RVA: 0x7FFAC85F8C90
-        public void .cctor(){} // RVA: 0x7FFAC85F8CA0
+        public void GetException(){} // RVA: 0x7FFE869A08E0 | overloaded x2
+        public void GetCurrentDirectory(){} // RVA: 0x7FFE869A1150
+        public void GetFileType(){} // RVA: 0x7FFE869A11F0 | overloaded x2
+        public void FindCloseFile(){} // RVA: 0x7FFE869A1300
+        public void Open(){} // RVA: 0x7FFE869A1570 | overloaded x2
+        public void Cancel_internal(){} // RVA: 0x7FFE869A16C0
+        public void Cancel(){} // RVA: 0x7FFE869A16E0
+        public void Close(){} // RVA: 0x7FFE869A1800
+        public void Read(){} // RVA: 0x7FFE869A18D0 | overloaded x2
+        public void Write(){} // RVA: 0x7FFE869A1AF0 | overloaded x2
+        public void Seek(){} // RVA: 0x7FFE869A1CA0 | overloaded x2
+        public void GetLength(){} // RVA: 0x7FFE869A1E50 | overloaded x2
+        public void SetLength(){} // RVA: 0x7FFE869A2040 | overloaded x2
+        public void get_ConsoleOutput(){} // RVA: 0x7FFE869A2210
+        public void get_ConsoleInput(){} // RVA: 0x7FFE869A2220
+        public void get_ConsoleError(){} // RVA: 0x7FFE869A2230
+        public void CreatePipe(){} // RVA: 0x7FFE869A2240
+        public void DuplicateHandle(){} // RVA: 0x7FFE869A2340
+        public void get_VolumeSeparatorChar(){} // RVA: 0x7FFE869A2430
+        public void get_DirectorySeparatorChar(){} // RVA: 0x7FFE835C5E60
+        public void get_AltDirectorySeparatorChar(){} // RVA: 0x7FFE869A2440
+        public void get_PathSeparator(){} // RVA: 0x7FFE869A2450
+        public void DumpHandles(){} // RVA: 0x7FFE868DCC30
+        public void RemapPath(){} // RVA: 0x7FFE869A2460
+        public void .cctor(){} // RVA: 0x7FFE869A2470
     }
 
     public class MonoIOStat : ValueType
     {
-        public 0x6B0E2B78 fileAttributes; // 0x10
-        public long Length; // 0x18
-        public long CreationTime; // 0x20
-        public long LastAccessTime; // 0x28
-        public long LastWriteTime; // 0x30
     }
 
     public class MonoLinqHelper : Object
     {
         // ── Methods ──
-        public void ToArray(){} // RVA: 0x7FFAC2C58F80
+        public void ToArray(){} // RVA: 0x7FFE80E2E3D0
     }
 
     public class NullFileWatcher : Object
     {
-        public System.IO.IFileWatcher instance;
-
         // ── Methods ──
-        public void StartDispatching(){} // RVA: 0x7FFAC2F21310
-        public void StopDispatching(){} // RVA: 0x7FFAC2F21310
-        public void Dispose(){} // RVA: 0x7FFAC2F21310
-        public void GetInstance(){} // RVA: 0x7FFAC945D0B0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void StartDispatching(){} // RVA: 0x7FFE810FB310
+        public void StopDispatching(){} // RVA: 0x7FFE810FB310
+        public void Dispose(){} // RVA: 0x7FFE810FB310
+        public void GetInstance(){} // RVA: 0x7FFE878057F0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class Path : Object
     {
-        public char[] StringComparison;
-        public char IsCaseSensitive; // 0x8
-        public char IsWindows; // 0xA
-        public char PathSeparator; // 0xC
-        public string DirectorySeparatorStr; // 0x10
-        public char VolumeSeparatorChar; // 0x18
-        public char[] PathSeparatorChars; // 0x20
-        public bool dirEqualsVolume; // 0x28
-        public char[] trimEndCharsWindows; // 0x30
-        public char[] trimEndCharsUnix; // 0x38
+        public char[] InvalidPathChars;
+        public char AltDirectorySeparatorChar; // 0x8
+        public char DirectorySeparatorChar; // 0xA
 
         // ── Methods ──
-        public void ChangeExtension(){} // RVA: 0x7FFAC85F8D20
-        public void Combine(){} // RVA: 0x7FFAC85FD440 | overloaded x4
-        public void CleanPath(){} // RVA: 0x7FFAC85F92B0
-        public void GetDirectoryName(){} // RVA: 0x7FFAC85F9C20 | overloaded x2
-        public void GetExtension(){} // RVA: 0x7FFAC85F9D00
-        public void GetFileName(){} // RVA: 0x7FFAC85FD680 | overloaded x2
-        public void GetFileNameWithoutExtension(){} // RVA: 0x7FFAC85F9F80
-        public void GetFullPath(){} // RVA: 0x7FFAC85F9FE0
-        public void GetFullPathInternal(){} // RVA: 0x7FFAC85FA030
-        public void GetFullPathName(){} // RVA: 0x7FFAC85FA170 | overloaded x2
-        public void WindowsDriveAdjustment(){} // RVA: 0x7FFAC85FA420
-        public void InsecureGetFullPath(){} // RVA: 0x7FFAC85FA660
-        public void IsDirectorySeparator(){} // RVA: 0x7FFAC85FAC90
-        public void GetPathRoot(){} // RVA: 0x7FFAC85FAD20
-        public void GetTempPath(){} // RVA: 0x7FFAC85FB1C0
-        public void get_temp_path(){} // RVA: 0x7FFAC85FB430
-        public void IsPathRooted(){} // RVA: 0x7FFAC85FB6B0 | overloaded x2
-        public void GetInvalidFileNameChars(){} // RVA: 0x7FFAC85FB8F0
-        public void GetInvalidPathChars(){} // RVA: 0x7FFAC85FB960
-        public void GetRandomFileName(){} // RVA: 0x7FFAC85FB9D0
-        public void findExtension(){} // RVA: 0x7FFAC85FBB70
-        public void .cctor(){} // RVA: 0x7FFAC85FBC20
-        public void GetServerAndShare(){} // RVA: 0x7FFAC85FC0E0
-        public void SameRoot(){} // RVA: 0x7FFAC85FC340
-        public void CanonicalizePath(){} // RVA: 0x7FFAC85FC6A0
-        public void Join(){} // RVA: 0x7FFAC85FD8F0 | overloaded x2
-        public void JoinInternal(){} // RVA: 0x7FFAC85FE160 | overloaded x2
-        public void GetRelativePath(){} // RVA: 0x7FFAC85FE840 | overloaded x2
-        public void get_StringComparison(){} // RVA: 0x7FFAC85FEF90
-        public void get_IsCaseSensitive(){} // RVA: 0x7FFAC85FF040
-        public void get_IsWindows(){} // RVA: 0x7FFAC85FF0B0
+        public void ChangeExtension(){} // RVA: 0x7FFE869A24F0
+        public void Combine(){} // RVA: 0x7FFE869A6C10 | overloaded x4
+        public void CleanPath(){} // RVA: 0x7FFE869A2A80
+        public void GetDirectoryName(){} // RVA: 0x7FFE869A33F0 | overloaded x2
+        public void GetExtension(){} // RVA: 0x7FFE869A34D0
+        public void GetFileName(){} // RVA: 0x7FFE869A6E50 | overloaded x2
+        public void GetFileNameWithoutExtension(){} // RVA: 0x7FFE869A3750
+        public void GetFullPath(){} // RVA: 0x7FFE869A37B0
+        public void GetFullPathInternal(){} // RVA: 0x7FFE869A3800
+        public void GetFullPathName(){} // RVA: 0x7FFE869A3940 | overloaded x2
+        public void WindowsDriveAdjustment(){} // RVA: 0x7FFE869A3BF0
+        public void InsecureGetFullPath(){} // RVA: 0x7FFE869A3E30
+        public void IsDirectorySeparator(){} // RVA: 0x7FFE869A4460
+        public void GetPathRoot(){} // RVA: 0x7FFE869A44F0
+        public void GetTempPath(){} // RVA: 0x7FFE869A4990
+        public void get_temp_path(){} // RVA: 0x7FFE869A4C00
+        public void IsPathRooted(){} // RVA: 0x7FFE869A4E80 | overloaded x2
+        public void GetInvalidFileNameChars(){} // RVA: 0x7FFE869A50C0
+        public void GetInvalidPathChars(){} // RVA: 0x7FFE869A5130
+        public void GetRandomFileName(){} // RVA: 0x7FFE869A51A0
+        public void findExtension(){} // RVA: 0x7FFE869A5340
+        public void .cctor(){} // RVA: 0x7FFE869A53F0
+        public void GetServerAndShare(){} // RVA: 0x7FFE869A58B0
+        public void SameRoot(){} // RVA: 0x7FFE869A5B10
+        public void CanonicalizePath(){} // RVA: 0x7FFE869A5E70
+        public void Join(){} // RVA: 0x7FFE869A70C0 | overloaded x2
+        public void JoinInternal(){} // RVA: 0x7FFE869A7930 | overloaded x2
+        public void GetRelativePath(){} // RVA: 0x7FFE869A8010 | overloaded x2
+        public void get_StringComparison(){} // RVA: 0x7FFE869A8760
+        public void get_IsCaseSensitive(){} // RVA: 0x7FFE869A8810
+        public void get_IsWindows(){} // RVA: 0x7FFE869A8880
     }
 
     public class PathInternal : Object
     {
-        public bool IsCaseSensitive;
+        public bool s_isCaseSensitive;
 
         // ── Methods ──
-        public void IsValidDriveChar(){} // RVA: 0x7FFAC85BFDC0
-        public void EndsWithPeriodOrSpace(){} // RVA: 0x7FFAC85BFDE0
-        public void EnsureExtendedPrefixIfNeeded(){} // RVA: 0x7FFAC85BFE30
-        public void EnsureExtendedPrefix(){} // RVA: 0x7FFAC85BFEE0
-        public void IsDevice(){} // RVA: 0x7FFAC85C0130
-        public void IsDeviceUNC(){} // RVA: 0x7FFAC85C0300
-        public void IsExtended(){} // RVA: 0x7FFAC85C03F0
-        public void GetRootLength(){} // RVA: 0x7FFAC85C0480
-        public void IsDirectorySeparator(){} // RVA: 0x7FFAC85C0870
-        public void IsEffectivelyEmpty(){} // RVA: 0x7FFAC85C0890
-        public void EndsInDirectorySeparator(){} // RVA: 0x7FFAC85C0910
-        public void StartsWithDirectorySeparator(){} // RVA: 0x7FFAC85C09B0
-        public void TrimEndingDirectorySeparator(){} // RVA: 0x7FFAC85C0C60 | overloaded x2
-        public void IsRoot(){} // RVA: 0x7FFAC85C0E40
-        public void GetCommonPathLength(){} // RVA: 0x7FFAC85C0EB0
-        public void EqualStartingCharacterCount(){} // RVA: 0x7FFAC85C10F0
-        public void AreRootsEqual(){} // RVA: 0x7FFAC85C1210
-        public void get_IsCaseSensitive(){} // RVA: 0x7FFAC85C1370
-        public void GetIsCaseSensitive(){} // RVA: 0x7FFAC85C13D0
-        public void IsPartiallyQualified(){} // RVA: 0x7FFAC2F21320
-        public void .cctor(){} // RVA: 0x7FFAC85C15F0
+        public void IsValidDriveChar(){} // RVA: 0x7FFE86969590
+        public void EndsWithPeriodOrSpace(){} // RVA: 0x7FFE869695B0
+        public void EnsureExtendedPrefixIfNeeded(){} // RVA: 0x7FFE86969600
+        public void EnsureExtendedPrefix(){} // RVA: 0x7FFE869696B0
+        public void IsDevice(){} // RVA: 0x7FFE86969900
+        public void IsDeviceUNC(){} // RVA: 0x7FFE86969AD0
+        public void IsExtended(){} // RVA: 0x7FFE86969BC0
+        public void GetRootLength(){} // RVA: 0x7FFE86969C50
+        public void IsDirectorySeparator(){} // RVA: 0x7FFE8696A040
+        public void IsEffectivelyEmpty(){} // RVA: 0x7FFE8696A060
+        public void EndsInDirectorySeparator(){} // RVA: 0x7FFE8696A0E0
+        public void StartsWithDirectorySeparator(){} // RVA: 0x7FFE8696A180
+        public void TrimEndingDirectorySeparator(){} // RVA: 0x7FFE8696A430 | overloaded x2
+        public void IsRoot(){} // RVA: 0x7FFE8696A610
+        public void GetCommonPathLength(){} // RVA: 0x7FFE8696A680
+        public void EqualStartingCharacterCount(){} // RVA: 0x7FFE8696A8C0
+        public void AreRootsEqual(){} // RVA: 0x7FFE8696A9E0
+        public void get_IsCaseSensitive(){} // RVA: 0x7FFE8696AB40
+        public void GetIsCaseSensitive(){} // RVA: 0x7FFE8696ABA0
+        public void IsPartiallyQualified(){} // RVA: 0x7FFE810FB320
+        public void .cctor(){} // RVA: 0x7FFE8696ADC0
     }
 
     public class PathTooLongException : IOException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
     }
 
     public class PinnedBufferMemoryStream : UnmanagedMemoryStream
     {
-        public byte[] _array; // 0x68
-        public System.Runtime.InteropServices.GCHandle _pinningHandle; // 0x70
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85C16B0
-        public void Read(){} // RVA: 0x7FFAC85C1800
-        public void Write(){} // RVA: 0x7FFAC85C1820
-        public void Finalize(){} // RVA: 0x7FFAC8449EF0
-        public void Dispose(){} // RVA: 0x7FFAC85C1840
+        public void .ctor(){} // RVA: 0x7FFE8696AE80
+        public void Read(){} // RVA: 0x7FFE8696AFD0
+        public void Write(){} // RVA: 0x7FFE8696AFF0
+        public void Finalize(){} // RVA: 0x7FFE867F3800
+        public void Dispose(){} // RVA: 0x7FFE8696B010
     }
 
     public class RenamedEventArgs : FileSystemEventArgs
     {
-        public string _oldName; // 0x28
-        public string _oldFullPath; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9457140
+        public void .ctor(){} // RVA: 0x7FFE877FF880
     }
 
     public class RenamedEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC45B91D0
-        public void Invoke(){} // RVA: 0x7FFAC307D370
+        public void .ctor(){} // RVA: 0x7FFE828867F0
+        public void Invoke(){} // RVA: 0x7FFE81257370
     }
 
     public class SearchPattern2 : Object
     {
-        public Op HasWildcard; // 0x10
-        public bool ignore; // 0x18
-        public bool hasWildcard; // 0x19
-        public string pattern; // 0x20
-        public char[] WildcardChars;
-        public char[] InvalidChars; // 0x8
+        public Op ops; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC945D290 | overloaded x2
-        public void get_HasWildcard(){} // RVA: 0x7FFAC3228D50
-        public void Compile(){} // RVA: 0x7FFAC945D2F0
-        public void .cctor(){} // RVA: 0x7FFAC945D720
+        public void .ctor(){} // RVA: 0x7FFE878059D0 | overloaded x2
+        public void get_HasWildcard(){} // RVA: 0x7FFE814B3730
+        public void Compile(){} // RVA: 0x7FFE87805A30
+        public void .cctor(){} // RVA: 0x7FFE87805E60
     }
 
     public class Stream : MarshalByRefObject
     {
-        public System.IO.Stream CanRead;
-        public int CanSeek;
-        public ReadWriteTask CanTimeout; // 0x18
-        public System.Threading.SemaphoreSlim CanWrite; // 0x20
+        public System.IO.Stream Null;
+        public int DefaultCopyBufferSize;
+        public ReadWriteTask _activeReadWriteTask; // 0x18
+        public System.Threading.SemaphoreSlim _asyncActiveSemaphore; // 0x20
+        public object field_4; // 0x959
+        public object field_5; // 0x95A
+        public object field_6; // 0x95B
+        public object field_7; // 0x95C
 
         // ── Methods ──
-        public void EnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x7FFAC85E5D10
-        public void get_CanRead(){} // RVA: 0x7FFAC2C59D00
-        public void get_CanSeek(){} // RVA: 0x7FFAC2C59D00
-        public void get_CanTimeout(){} // RVA: 0x7FFAC2F21320
-        public void get_CanWrite(){} // RVA: 0x7FFAC2C59D00
-        public void get_Length(){} // RVA: 0x7FFAC2C58E90
-        public void get_Position(){} // RVA: 0x7FFAC2C58E90
-        public void set_Position(){} // RVA: 0x7FFAC2C70BF0
-        public void get_ReadTimeout(){} // RVA: 0x7FFAC85E5E70
-        public void set_ReadTimeout(){} // RVA: 0x7FFAC85E5EC0
-        public void get_WriteTimeout(){} // RVA: 0x7FFAC85E5F10
-        public void set_WriteTimeout(){} // RVA: 0x7FFAC85E5F60
-        public void CopyToAsync(){} // RVA: 0x7FFAC85E60D0 | overloaded x3
-        public void CopyToAsyncInternal(){} // RVA: 0x7FFAC85E6130
-        public void CopyTo(){} // RVA: 0x7FFAC85E6400 | overloaded x2
-        public void GetCopyBufferSize(){} // RVA: 0x7FFAC85E65D0
-        public void Close(){} // RVA: 0x7FFAC85E66D0
-        public void Dispose(){} // RVA: 0x7FFAC2F21310 | overloaded x2
-        public void Flush(){} // RVA: 0x7FFAC2C70980
-        public void FlushAsync(){} // RVA: 0x7FFAC85E67A0 | overloaded x2
-        public void BeginRead(){} // RVA: 0x7FFAC85E6A00
-        public void BeginReadInternal(){} // RVA: 0x7FFAC85E6A40
-        public void EndRead(){} // RVA: 0x7FFAC85E6CD0
-        public void ReadAsync(){} // RVA: 0x7FFAC85E70A0 | overloaded x3
-        public void BeginEndReadAsync(){} // RVA: 0x7FFAC85E7370
-        public void BeginWrite(){} // RVA: 0x7FFAC85E76D0
-        public void BeginWriteInternal(){} // RVA: 0x7FFAC85E7710
-        public void RunReadWriteTaskWhenReady(){} // RVA: 0x7FFAC85E79A0
-        public void RunReadWriteTask(){} // RVA: 0x7FFAC85E7BF0
-        public void FinishTrackingAsyncOperation(){} // RVA: 0x7FFAC85E7D50
-        public void EndWrite(){} // RVA: 0x7FFAC85E7DD0
-        public void WriteAsync(){} // RVA: 0x7FFAC85E81A0 | overloaded x3
-        public void FinishWriteAsync(){} // RVA: 0x7FFAC85E8590
-        public void BeginEndWriteAsync(){} // RVA: 0x7FFAC85E87A0
+        public void EnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x7FFE8698F4E0
+        public void get_CanRead(){} // RVA: 0x7FFE80E2F150
+        public void get_CanSeek(){} // RVA: 0x7FFE80E2F150
+        public void get_CanTimeout(){} // RVA: 0x7FFE810FB320
+        public void get_CanWrite(){} // RVA: 0x7FFE80E2F150
+        public void get_Length(){} // RVA: 0x7FFE80E2E2E0
+        public void get_Position(){} // RVA: 0x7FFE80E2E2E0
+        public void set_Position(){} // RVA: 0x7FFE80E46250
+        public void get_ReadTimeout(){} // RVA: 0x7FFE8698F640
+        public void set_ReadTimeout(){} // RVA: 0x7FFE8698F690
+        public void get_WriteTimeout(){} // RVA: 0x7FFE8698F6E0
+        public void set_WriteTimeout(){} // RVA: 0x7FFE8698F730
+        public void CopyToAsync(){} // RVA: 0x7FFE8698F8A0 | overloaded x3
+        public void CopyToAsyncInternal(){} // RVA: 0x7FFE8698F900
+        public void CopyTo(){} // RVA: 0x7FFE8698FBD0 | overloaded x2
+        public void GetCopyBufferSize(){} // RVA: 0x7FFE8698FDA0
+        public void Close(){} // RVA: 0x7FFE8698FEA0
+        public void Dispose(){} // RVA: 0x7FFE810FB310 | overloaded x2
+        public void Flush(){} // RVA: 0x7FFE80E45FE0
+        public void FlushAsync(){} // RVA: 0x7FFE8698FF70 | overloaded x2
+        public void BeginRead(){} // RVA: 0x7FFE869901D0
+        public void BeginReadInternal(){} // RVA: 0x7FFE86990210
+        public void EndRead(){} // RVA: 0x7FFE869904A0
+        public void ReadAsync(){} // RVA: 0x7FFE86990870 | overloaded x3
+        public void BeginEndReadAsync(){} // RVA: 0x7FFE86990B40
+        public void BeginWrite(){} // RVA: 0x7FFE86990EA0
+        public void BeginWriteInternal(){} // RVA: 0x7FFE86990EE0
+        public void RunReadWriteTaskWhenReady(){} // RVA: 0x7FFE86991170
+        public void RunReadWriteTask(){} // RVA: 0x7FFE869913C0
+        public void FinishTrackingAsyncOperation(){} // RVA: 0x7FFE86991520
+        public void EndWrite(){} // RVA: 0x7FFE869915A0
+        public void WriteAsync(){} // RVA: 0x7FFE86991970 | overloaded x3
+        public void FinishWriteAsync(){} // RVA: 0x7FFE86991D60
+        public void BeginEndWriteAsync(){} // RVA: 0x7FFE86991F70
         public void Seek(){}
-        public void SetLength(){} // RVA: 0x7FFAC2C70BF0
-        public void Read(){} // RVA: 0x7FFAC85E8B00 | overloaded x2
-        public void ReadByte(){} // RVA: 0x7FFAC85E8DA0
-        public void Write(){} // RVA: 0x7FFAC85E8E50 | overloaded x2
-        public void WriteByte(){} // RVA: 0x7FFAC85E8FF0
-        public void BlockingBeginRead(){} // RVA: 0x7FFAC85E9080
-        public void BlockingEndRead(){} // RVA: 0x7FFAC85E91C0
-        public void BlockingBeginWrite(){} // RVA: 0x7FFAC85E92E0
-        public void BlockingEndWrite(){} // RVA: 0x7FFAC85E9420
-        public void HasOverriddenBeginEndRead(){} // RVA: 0x7FFAC3006850
-        public void HasOverriddenBeginEndWrite(){} // RVA: 0x7FFAC3006850
-        public void DisposeAsync(){} // RVA: 0x7FFAC85E9540
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFAC85E95F0
-        public void <ReadAsync>g__FinishReadAsync|44_0(){} // RVA: 0x7FFAC85E96E0
+        public void SetLength(){} // RVA: 0x7FFE80E46250
+        public void Read(){} // RVA: 0x7FFE869922D0 | overloaded x2
+        public void ReadByte(){} // RVA: 0x7FFE86992570
+        public void Write(){} // RVA: 0x7FFE86992620 | overloaded x2
+        public void WriteByte(){} // RVA: 0x7FFE869927C0
+        public void BlockingBeginRead(){} // RVA: 0x7FFE86992850
+        public void BlockingEndRead(){} // RVA: 0x7FFE86992990
+        public void BlockingBeginWrite(){} // RVA: 0x7FFE86992AB0
+        public void BlockingEndWrite(){} // RVA: 0x7FFE86992BF0
+        public void HasOverriddenBeginEndRead(){} // RVA: 0x7FFE811E0850
+        public void HasOverriddenBeginEndWrite(){} // RVA: 0x7FFE811E0850
+        public void DisposeAsync(){} // RVA: 0x7FFE86992D10
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE86992DC0
+        public void <ReadAsync>g__FinishReadAsync|44_0(){} // RVA: 0x7FFE86992EB0
     }
 
     public class StreamHelpers : Object
     {
         // ── Methods ──
-        public void ValidateCopyToArgs(){} // RVA: 0x7FFAC85C18D0
+        public void ValidateCopyToArgs(){} // RVA: 0x7FFE8696B0A0
     }
 
     public class StreamReader : TextReader
     {
-        public System.IO.StreamReader CurrentEncoding;
-        public System.IO.Stream BaseStream; // 0x18
-        public System.Text.Encoding LeaveOpen; // 0x20
-        public System.Text.Decoder EndOfStream; // 0x28
-        public byte[] _byteBuffer; // 0x30
-        public char[] _charBuffer; // 0x38
-        public int _charPos; // 0x40
-        public int _charLen; // 0x44
-        public int _byteLen; // 0x48
-        public int _bytePos; // 0x4C
-        public int _maxCharsPerBuffer; // 0x50
-        public bool _detectEncoding; // 0x54
-        public bool _checkPreamble; // 0x55
-        public bool _isBlocked; // 0x56
-        public bool _closable; // 0x57
-        public System.Threading.Tasks.Task _asyncReadTask; // 0x58
+        public System.IO.StreamReader Null;
+        public System.IO.Stream _stream; // 0x18
+        public System.Text.Encoding _encoding; // 0x20
+        public System.Text.Decoder _decoder; // 0x28
 
         // ── Methods ──
-        public void CheckAsyncTaskInProgress(){} // RVA: 0x7FFAC85C1BA0
-        public void ThrowAsyncIOInProgress(){} // RVA: 0x7FFAC85C1C40
-        public void .ctor(){} // RVA: 0x7FFAC85C2240 | overloaded x11
-        public void Init(){} // RVA: 0x7FFAC85C2820 | overloaded x2
-        public void Close(){} // RVA: 0x7FFAC84480E0
-        public void Dispose(){} // RVA: 0x7FFAC85C2880
-        public void get_CurrentEncoding(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_BaseStream(){} // RVA: 0x7FFAC2F247C0
-        public void get_LeaveOpen(){} // RVA: 0x7FFAC85C2B20
-        public void get_EndOfStream(){} // RVA: 0x7FFAC85C2B30
-        public void Peek(){} // RVA: 0x7FFAC85C2BD0
-        public void Read(){} // RVA: 0x7FFAC85C2F30 | overloaded x3
-        public void ReadSpan(){} // RVA: 0x7FFAC85C3040
-        public void ReadToEnd(){} // RVA: 0x7FFAC85C32F0
-        public void CompressBuffer(){} // RVA: 0x7FFAC85C3430
-        public void DetectEncoding(){} // RVA: 0x7FFAC85C3470
-        public void IsPreamble(){} // RVA: 0x7FFAC85C3A10
-        public void ReadBuffer(){} // RVA: 0x7FFAC85C42B0 | overloaded x2
-        public void ReadLine(){} // RVA: 0x7FFAC85C4C60
-        public void ReadToEndAsync(){} // RVA: 0x7FFAC85C4EC0
-        public void ReadToEndAsyncInternal(){} // RVA: 0x7FFAC85C5340
-        public void ReadAsync(){} // RVA: 0x7FFAC85C54E0
-        public void ReadAsyncInternal(){} // RVA: 0x7FFAC85C5810
-        public void ReadBufferAsync(){} // RVA: 0x7FFAC85C5AB0
-        public void DataAvailable(){} // RVA: 0x7FFAC85C5C60
-        public void .cctor(){} // RVA: 0x7FFAC85C5C70
+        public void CheckAsyncTaskInProgress(){} // RVA: 0x7FFE8696B370
+        public void ThrowAsyncIOInProgress(){} // RVA: 0x7FFE8696B410
+        public void .ctor(){} // RVA: 0x7FFE8696BA10 | overloaded x11
+        public void Init(){} // RVA: 0x7FFE8696BFF0 | overloaded x2
+        public void Close(){} // RVA: 0x7FFE867F19F0
+        public void Dispose(){} // RVA: 0x7FFE8696C050
+        public void get_CurrentEncoding(){} // RVA: 0x7FFE811290C0
+        public void get_BaseStream(){} // RVA: 0x7FFE810FE7C0
+        public void get_LeaveOpen(){} // RVA: 0x7FFE8696C2F0
+        public void get_EndOfStream(){} // RVA: 0x7FFE8696C300
+        public void Peek(){} // RVA: 0x7FFE8696C3A0
+        public void Read(){} // RVA: 0x7FFE8696C700 | overloaded x3
+        public void ReadSpan(){} // RVA: 0x7FFE8696C810
+        public void ReadToEnd(){} // RVA: 0x7FFE8696CAC0
+        public void CompressBuffer(){} // RVA: 0x7FFE8696CC00
+        public void DetectEncoding(){} // RVA: 0x7FFE8696CC40
+        public void IsPreamble(){} // RVA: 0x7FFE8696D1E0
+        public void ReadBuffer(){} // RVA: 0x7FFE8696DA80 | overloaded x2
+        public void ReadLine(){} // RVA: 0x7FFE8696E430
+        public void ReadToEndAsync(){} // RVA: 0x7FFE8696E690
+        public void ReadToEndAsyncInternal(){} // RVA: 0x7FFE8696EB10
+        public void ReadAsync(){} // RVA: 0x7FFE8696ECB0
+        public void ReadAsyncInternal(){} // RVA: 0x7FFE8696EFE0
+        public void ReadBufferAsync(){} // RVA: 0x7FFE8696F280
+        public void DataAvailable(){} // RVA: 0x7FFE8696F430
+        public void .cctor(){} // RVA: 0x7FFE8696F440
     }
 
     public class StreamWriter : TextWriter
     {
-        public System.IO.StreamWriter UTF8NoBOM;
-        public System.IO.Stream AutoFlush; // 0x30
-        public System.Text.Encoding BaseStream; // 0x38
-        public System.Text.Encoder LeaveOpen; // 0x40
-        public byte[] Encoding; // 0x48
-        public char[] CharPos_Prop; // 0x50
-        public int HaveWrittenPreamble_Prop; // 0x58
-        public int _charLen; // 0x5C
-        public bool _autoFlush; // 0x60
-        public bool _haveWrittenPreamble; // 0x61
-        public bool _closable; // 0x62
-        public System.Threading.Tasks.Task _asyncWriteTask; // 0x68
+        public System.IO.StreamWriter Null;
+        public System.IO.Stream _stream; // 0x30
+        public System.Text.Encoding _encoding; // 0x38
+        public System.Text.Encoder _encoder; // 0x40
+        public byte[] _byteBuffer; // 0x48
+        public char[] _charBuffer; // 0x50
+        public int _charPos; // 0x58
 
         // ── Methods ──
-        public void CheckAsyncTaskInProgress(){} // RVA: 0x7FFAC85C8DE0
-        public void ThrowAsyncIOInProgress(){} // RVA: 0x7FFAC85C8E80
-        public void get_UTF8NoBOM(){} // RVA: 0x7FFAC85C8ED0
-        public void .ctor(){} // RVA: 0x7FFAC85C9550 | overloaded x9
-        public void Init(){} // RVA: 0x7FFAC85C9860
-        public void Close(){} // RVA: 0x7FFAC85C9B30
-        public void Dispose(){} // RVA: 0x7FFAC85C9BA0
-        public void DisposeAsync(){} // RVA: 0x7FFAC85C9ED0
-        public void DisposeAsyncCore(){} // RVA: 0x7FFAC85CA150
-        public void CloseStreamFromDispose(){} // RVA: 0x7FFAC85CA2F0
-        public void Flush(){} // RVA: 0x7FFAC85CA3C0 | overloaded x2
-        public void set_AutoFlush(){} // RVA: 0x7FFAC85CA5B0
-        public void get_BaseStream(){} // RVA: 0x7FFAC31D95E0
-        public void get_LeaveOpen(){} // RVA: 0x7FFAC85CA5F0
-        public void get_Encoding(){} // RVA: 0x7FFAC31D0140
-        public void Write(){} // RVA: 0x7FFAC85CAC10 | overloaded x4
-        public void WriteSpan(){} // RVA: 0x7FFAC85CA990
-        public void WriteLine(){} // RVA: 0x7FFAC85CAC90
-        public void WriteAsync(){} // RVA: 0x7FFAC85CB700 | overloaded x3
-        public void WriteAsyncInternal(){} // RVA: 0x7FFAC85CBAA0 | overloaded x3
-        public void WriteLineAsync(){} // RVA: 0x7FFAC85CBDF0
-        public void FlushAsync(){} // RVA: 0x7FFAC85CC190
-        public void set_CharPos_Prop(){} // RVA: 0x7FFAC362EA00
-        public void set_HaveWrittenPreamble_Prop(){} // RVA: 0x7FFAC3C04530
-        public void FlushAsyncInternal(){} // RVA: 0x7FFAC85CC540 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFAC85CC930
+        public void CheckAsyncTaskInProgress(){} // RVA: 0x7FFE869725B0
+        public void ThrowAsyncIOInProgress(){} // RVA: 0x7FFE86972650
+        public void get_UTF8NoBOM(){} // RVA: 0x7FFE869726A0
+        public void .ctor(){} // RVA: 0x7FFE86972D20 | overloaded x9
+        public void Init(){} // RVA: 0x7FFE86973030
+        public void Close(){} // RVA: 0x7FFE86973300
+        public void Dispose(){} // RVA: 0x7FFE86973370
+        public void DisposeAsync(){} // RVA: 0x7FFE869736A0
+        public void DisposeAsyncCore(){} // RVA: 0x7FFE86973920
+        public void CloseStreamFromDispose(){} // RVA: 0x7FFE86973AC0
+        public void Flush(){} // RVA: 0x7FFE86973B90 | overloaded x2
+        public void set_AutoFlush(){} // RVA: 0x7FFE86973D80
+        public void get_BaseStream(){} // RVA: 0x7FFE8144E200
+        public void get_LeaveOpen(){} // RVA: 0x7FFE86973DC0
+        public void get_Encoding(){} // RVA: 0x7FFE8143BA80
+        public void Write(){} // RVA: 0x7FFE869743E0 | overloaded x4
+        public void WriteSpan(){} // RVA: 0x7FFE86974160
+        public void WriteLine(){} // RVA: 0x7FFE86974460
+        public void WriteAsync(){} // RVA: 0x7FFE86974ED0 | overloaded x3
+        public void WriteAsyncInternal(){} // RVA: 0x7FFE86975270 | overloaded x3
+        public void WriteLineAsync(){} // RVA: 0x7FFE869755C0
+        public void FlushAsync(){} // RVA: 0x7FFE86975960
+        public void set_CharPos_Prop(){} // RVA: 0x7FFE8175AE70
+        public void set_HaveWrittenPreamble_Prop(){} // RVA: 0x7FFE81EB6360
+        public void FlushAsyncInternal(){} // RVA: 0x7FFE86975D10 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFE86976100
     }
 
     public class StringReader : TextReader
     {
-        public string _s; // 0x18
-        public int _pos; // 0x20
-        public int _length; // 0x24
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85F0E70
-        public void Close(){} // RVA: 0x7FFAC84480E0
-        public void Dispose(){} // RVA: 0x7FFAC85F0F60
-        public void Peek(){} // RVA: 0x7FFAC85F0FC0
-        public void Read(){} // RVA: 0x7FFAC85F1070 | overloaded x2
-        public void ReadToEnd(){} // RVA: 0x7FFAC85F1280
-        public void ReadLine(){} // RVA: 0x7FFAC85F12E0
-        public void ReadToEndAsync(){} // RVA: 0x7FFAC85F1410
-        public void ReadAsync(){} // RVA: 0x7FFAC85F1490
+        public void .ctor(){} // RVA: 0x7FFE8699A640
+        public void Close(){} // RVA: 0x7FFE867F19F0
+        public void Dispose(){} // RVA: 0x7FFE8699A730
+        public void Peek(){} // RVA: 0x7FFE8699A790
+        public void Read(){} // RVA: 0x7FFE8699A840 | overloaded x2
+        public void ReadToEnd(){} // RVA: 0x7FFE8699AA50
+        public void ReadLine(){} // RVA: 0x7FFE8699AAB0
+        public void ReadToEndAsync(){} // RVA: 0x7FFE8699ABE0
+        public void ReadAsync(){} // RVA: 0x7FFE8699AC60
     }
 
     public class StringWriter : TextWriter
     {
-        public System.Text.UnicodeEncoding Encoding;
-        public System.Text.StringBuilder _sb; // 0x30
-        public bool _isOpen; // 0x38
+        public System.Text.UnicodeEncoding m_encoding;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85F1890 | overloaded x4
-        public void Close(){} // RVA: 0x7FFAC85F19B0
-        public void Dispose(){} // RVA: 0x7FFAC2F2F7C0
-        public void get_Encoding(){} // RVA: 0x7FFAC85F19D0
-        public void GetStringBuilder(){} // RVA: 0x7FFAC31D95E0
-        public void Write(){} // RVA: 0x7FFAC85F1D00 | overloaded x3
-        public void WriteAsync(){} // RVA: 0x7FFAC85F1EC0 | overloaded x3
-        public void WriteLineAsync(){} // RVA: 0x7FFAC85F1FB0
-        public void FlushAsync(){} // RVA: 0x7FFAC85F20A0
-        public void ToString(){} // RVA: 0x7FFAC85F2140
+        public void .ctor(){} // RVA: 0x7FFE8699B060 | overloaded x4
+        public void Close(){} // RVA: 0x7FFE8699B180
+        public void Dispose(){} // RVA: 0x7FFE811097C0
+        public void get_Encoding(){} // RVA: 0x7FFE8699B1A0
+        public void GetStringBuilder(){} // RVA: 0x7FFE8144E200
+        public void Write(){} // RVA: 0x7FFE8699B4D0 | overloaded x3
+        public void WriteAsync(){} // RVA: 0x7FFE8699B690 | overloaded x3
+        public void WriteLineAsync(){} // RVA: 0x7FFE8699B780
+        public void FlushAsync(){} // RVA: 0x7FFE8699B870
+        public void ToString(){} // RVA: 0x7FFE8699B910
     }
 
     public class TextReader : MarshalByRefObject
     {
-        public System.IO.TextReader Null;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Close(){} // RVA: 0x7FFAC85CEA30
-        public void Dispose(){} // RVA: 0x7FFAC2F21310 | overloaded x2
-        public void Peek(){} // RVA: 0x7FFAC32BD0E0
-        public void Read(){} // RVA: 0x7FFAC85CED20 | overloaded x3
-        public void ReadToEnd(){} // RVA: 0x7FFAC85CEFC0
-        public void ReadLine(){} // RVA: 0x7FFAC85CF100
-        public void ReadToEndAsync(){} // RVA: 0x7FFAC85CF280
-        public void ReadAsync(){} // RVA: 0x7FFAC85CF430
-        public void ReadAsyncInternal(){} // RVA: 0x7FFAC85CF660
-        public void Synchronized(){} // RVA: 0x7FFAC85CFAB0
-        public void .cctor(){} // RVA: 0x7FFAC85CFBF0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Close(){} // RVA: 0x7FFE86978200
+        public void Dispose(){} // RVA: 0x7FFE810FB310 | overloaded x2
+        public void Peek(){} // RVA: 0x7FFE81517DA0
+        public void Read(){} // RVA: 0x7FFE869784F0 | overloaded x3
+        public void ReadToEnd(){} // RVA: 0x7FFE86978790
+        public void ReadLine(){} // RVA: 0x7FFE869788D0
+        public void ReadToEndAsync(){} // RVA: 0x7FFE86978A50
+        public void ReadAsync(){} // RVA: 0x7FFE86978C00
+        public void ReadAsyncInternal(){} // RVA: 0x7FFE86978E30
+        public void Synchronized(){} // RVA: 0x7FFE86979280
+        public void .cctor(){} // RVA: 0x7FFE869793C0
     }
 
     public class TextWriter : MarshalByRefObject
     {
-        public System.IO.TextWriter FormatProvider;
-        public char[] Encoding; // 0x8
-        public char[] NewLine; // 0x18
-        public string CoreNewLineStr; // 0x20
-        public System.IFormatProvider _internalFormatProvider; // 0x28
+        public System.IO.TextWriter Null;
+        public char[] s_coreNewLine; // 0x8
+        public char[] CoreNewLine; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85D0D30 | overloaded x2
-        public void get_FormatProvider(){} // RVA: 0x7FFAC85D0EB0
-        public void Close(){} // RVA: 0x7FFAC85D0F50
-        public void Dispose(){} // RVA: 0x7FFAC85D0FC0 | overloaded x2
-        public void DisposeAsync(){} // RVA: 0x7FFAC85D1030
-        public void Flush(){} // RVA: 0x7FFAC2F21310
-        public void get_Encoding(){} // RVA: 0x7FFAC2C58E90
-        public void get_NewLine(){} // RVA: 0x7FFAC2F4F0C0
-        public void Write(){} // RVA: 0x7FFAC85D14B0 | overloaded x8
-        public void WriteLine(){} // RVA: 0x7FFAC85D16E0 | overloaded x5
-        public void WriteAsync(){} // RVA: 0x7FFAC85D1D70 | overloaded x3
-        public void WriteLineAsync(){} // RVA: 0x7FFAC85D2040
-        public void FlushAsync(){} // RVA: 0x7FFAC85D2310
-        public void Synchronized(){} // RVA: 0x7FFAC85D25A0
-        public void .cctor(){} // RVA: 0x7FFAC85D2700
+        public void .ctor(){} // RVA: 0x7FFE8697A500 | overloaded x2
+        public void get_FormatProvider(){} // RVA: 0x7FFE8697A680
+        public void Close(){} // RVA: 0x7FFE8697A720
+        public void Dispose(){} // RVA: 0x7FFE8697A790 | overloaded x2
+        public void DisposeAsync(){} // RVA: 0x7FFE8697A800
+        public void Flush(){} // RVA: 0x7FFE810FB310
+        public void get_Encoding(){} // RVA: 0x7FFE80E2E2E0
+        public void get_NewLine(){} // RVA: 0x7FFE811290C0
+        public void Write(){} // RVA: 0x7FFE8697AC80 | overloaded x8
+        public void WriteLine(){} // RVA: 0x7FFE8697AEB0 | overloaded x5
+        public void WriteAsync(){} // RVA: 0x7FFE8697B540 | overloaded x3
+        public void WriteLineAsync(){} // RVA: 0x7FFE8697B810
+        public void FlushAsync(){} // RVA: 0x7FFE8697BAE0
+        public void Synchronized(){} // RVA: 0x7FFE8697BD70
+        public void .cctor(){} // RVA: 0x7FFE8697BED0
     }
 
     public class UnexceptionalStreamReader : StreamReader
     {
-        public bool[] newline;
-        public char newlineChar; // 0x8
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC85FF710
-        public void .ctor(){} // RVA: 0x7FFAC85FF800
-        public void Peek(){} // RVA: 0x7FFAC85FF890
-        public void Read(){} // RVA: 0x7FFAC85FF8D0 | overloaded x2
-        public void CheckEOL(){} // RVA: 0x7FFAC85FFB40
-        public void ReadLine(){} // RVA: 0x7FFAC85FFD20
-        public void ReadToEnd(){} // RVA: 0x7FFAC85FFD40
+        public void .cctor(){} // RVA: 0x7FFE869A8EE0
+        public void .ctor(){} // RVA: 0x7FFE869A8FD0
+        public void Peek(){} // RVA: 0x7FFE869A9060
+        public void Read(){} // RVA: 0x7FFE869A90A0 | overloaded x2
+        public void CheckEOL(){} // RVA: 0x7FFE869A9310
+        public void ReadLine(){} // RVA: 0x7FFE869A94F0
+        public void ReadToEnd(){} // RVA: 0x7FFE869A9510
     }
 
     public class UnexceptionalStreamWriter : StreamWriter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85FFE90
-        public void Flush(){} // RVA: 0x7FFAC85FFF10
-        public void Write(){} // RVA: 0x7FFAC85FFFA0 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFE869A9660
+        public void Flush(){} // RVA: 0x7FFE869A96E0
+        public void Write(){} // RVA: 0x7FFE869A9770 | overloaded x4
     }
 
     public class UnmanagedMemoryAccessor : Object
     {
-        public System.Runtime.InteropServices.SafeBuffer Capacity; // 0x10
-        public long IsOpen; // 0x18
-        public long _capacity; // 0x20
-        public 0x6B0E1890 _access; // 0x28
-        public bool _isOpen; // 0x2C
-        public bool _canRead; // 0x2D
-        public bool _canWrite; // 0x2E
+        public System.Runtime.InteropServices.SafeBuffer _buffer; // 0x10
+        public long _offset; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC42FC830
-        public void Initialize(){} // RVA: 0x7FFAC85D3590
-        public void get_Capacity(){} // RVA: 0x7FFAC2F4F0C0
-        public void Dispose(){} // RVA: 0x7FFAC85D39D0 | overloaded x2
-        public void get_IsOpen(){} // RVA: 0x7FFAC3000230
+        public void .ctor(){} // RVA: 0x7FFE825F1740
+        public void Initialize(){} // RVA: 0x7FFE8697CD60
+        public void get_Capacity(){} // RVA: 0x7FFE811290C0
+        public void Dispose(){} // RVA: 0x7FFE8697D1A0 | overloaded x2
+        public void get_IsOpen(){} // RVA: 0x7FFE811DA230
     }
 
     public class UnmanagedMemoryStream : Stream
     {
-        public System.Runtime.InteropServices.SafeBuffer CanRead; // 0x28
-        public byte* CanSeek; // 0x30
-        public long CanWrite; // 0x38
-        public long Length; // 0x40
-        public long Position; // 0x48
-        public long PositionPointer; // 0x50
-        public 0x6B0E1890 _access; // 0x58
-        public bool _isOpen; // 0x5C
-        public System.Threading.Tasks.Task`1<int> _lastReadTask; // 0x60
+        public System.Runtime.InteropServices.SafeBuffer _buffer; // 0x28
+        public byte* _mem; // 0x30
+        public long _length; // 0x38
+        public long _capacity; // 0x40
+        public long _position; // 0x48
+        public long _offset; // 0x50
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC85D3B20 | overloaded x3
-        public void Initialize(){} // RVA: 0x7FFAC85D3BB0
-        public void get_CanRead(){} // RVA: 0x7FFAC85D3E40
-        public void get_CanSeek(){} // RVA: 0x7FFAC2FBF240
-        public void get_CanWrite(){} // RVA: 0x7FFAC85D3E60
-        public void Dispose(){} // RVA: 0x7FFAC85D3E80
-        public void EnsureNotClosed(){} // RVA: 0x7FFAC85D3E90
-        public void EnsureReadable(){} // RVA: 0x7FFAC85D3ED0
-        public void EnsureWriteable(){} // RVA: 0x7FFAC85D3F20
-        public void Flush(){} // RVA: 0x7FFAC85D3E90
-        public void FlushAsync(){} // RVA: 0x7FFAC85D3F70
-        public void get_Length(){} // RVA: 0x7FFAC85D40A0
-        public void get_Position(){} // RVA: 0x7FFAC85D40F0
-        public void set_Position(){} // RVA: 0x7FFAC85D4140
-        public void get_PositionPointer(){} // RVA: 0x7FFAC85D4200
-        public void Read(){} // RVA: 0x7FFAC85D4520 | overloaded x2
-        public void ReadCore(){} // RVA: 0x7FFAC85D4630
-        public void ReadAsync(){} // RVA: 0x7FFAC85D4C10 | overloaded x2
-        public void ReadByte(){} // RVA: 0x7FFAC85D4FC0
-        public void Seek(){} // RVA: 0x7FFAC85D5140
-        public void SetLength(){} // RVA: 0x7FFAC85D5310
-        public void Write(){} // RVA: 0x7FFAC85D5750 | overloaded x2
-        public void WriteCore(){} // RVA: 0x7FFAC85D5860
-        public void WriteAsync(){} // RVA: 0x7FFAC85D5E90 | overloaded x2
-        public void WriteByte(){} // RVA: 0x7FFAC85D6180
+        public void .ctor(){} // RVA: 0x7FFE8697D2F0 | overloaded x3
+        public void Initialize(){} // RVA: 0x7FFE8697D380
+        public void get_CanRead(){} // RVA: 0x7FFE8697D610
+        public void get_CanSeek(){} // RVA: 0x7FFE81199240
+        public void get_CanWrite(){} // RVA: 0x7FFE8697D630
+        public void Dispose(){} // RVA: 0x7FFE8697D650
+        public void EnsureNotClosed(){} // RVA: 0x7FFE8697D660
+        public void EnsureReadable(){} // RVA: 0x7FFE8697D6A0
+        public void EnsureWriteable(){} // RVA: 0x7FFE8697D6F0
+        public void Flush(){} // RVA: 0x7FFE8697D660
+        public void FlushAsync(){} // RVA: 0x7FFE8697D740
+        public void get_Length(){} // RVA: 0x7FFE8697D870
+        public void get_Position(){} // RVA: 0x7FFE8697D8C0
+        public void set_Position(){} // RVA: 0x7FFE8697D910
+        public void get_PositionPointer(){} // RVA: 0x7FFE8697D9D0
+        public void Read(){} // RVA: 0x7FFE8697DCF0 | overloaded x2
+        public void ReadCore(){} // RVA: 0x7FFE8697DE00
+        public void ReadAsync(){} // RVA: 0x7FFE8697E3E0 | overloaded x2
+        public void ReadByte(){} // RVA: 0x7FFE8697E790
+        public void Seek(){} // RVA: 0x7FFE8697E910
+        public void SetLength(){} // RVA: 0x7FFE8697EAE0
+        public void Write(){} // RVA: 0x7FFE8697EF20 | overloaded x2
+        public void WriteCore(){} // RVA: 0x7FFE8697F030
+        public void WriteAsync(){} // RVA: 0x7FFE8697F660 | overloaded x2
+        public void WriteByte(){} // RVA: 0x7FFE8697F950
     }
 
     public class WaitForChangedResult : ValueType
     {
-        public System.IO.WaitForChangedResult ChangeType;
-        public 0x6B139730 Name; // 0x10
-        public string OldName; // 0x18
-        public string TimedOut; // 0x20
-        public bool <TimedOut>k__BackingField; // 0x28
+        public System.IO.WaitForChangedResult TimedOutResult;
+        public 0x66532654 _changeType; // 0x10
+        public string _name; // 0x18
+        public string _oldName; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9457230
-        public void set_ChangeType(){} // RVA: 0x7FFAC336D8B0
-        public void set_Name(){} // RVA: 0x7FFAC4420240
-        public void set_OldName(){} // RVA: 0x7FFAC2F22E30
-        public void set_TimedOut(){} // RVA: 0x7FFAC2F3C4F0
-        public void .cctor(){} // RVA: 0x7FFAC9457350
+        public void .ctor(){} // RVA: 0x7FFE877FF970
+        public void set_ChangeType(){} // RVA: 0x7FFE815BF990
+        public void set_Name(){} // RVA: 0x7FFE826F4230
+        public void set_OldName(){} // RVA: 0x7FFE810FCE30
+        public void set_TimedOut(){} // RVA: 0x7FFE811164F0
+        public void .cctor(){} // RVA: 0x7FFE877FFA90
     }
 
     public class Win32Marshal : Object
     {
         // ── Methods ──
-        public void GetExceptionForLastWin32Error(){} // RVA: 0x7FFAC85D66C0
-        public void GetExceptionForWin32Error(){} // RVA: 0x7FFAC85D6720
-        public void MakeHRFromErrorCode(){} // RVA: 0x7FFAC85D6C60
-        public void TryMakeWin32ErrorCodeFromHR(){} // RVA: 0x7FFAC85D6C80
-        public void GetMessage(){} // RVA: 0x7FFAC8389050
+        public void GetExceptionForLastWin32Error(){} // RVA: 0x7FFE8697FE90
+        public void GetExceptionForWin32Error(){} // RVA: 0x7FFE8697FEF0
+        public void MakeHRFromErrorCode(){} // RVA: 0x7FFE86980430
+        public void TryMakeWin32ErrorCodeFromHR(){} // RVA: 0x7FFE86980450
+        public void GetMessage(){} // RVA: 0x7FFE86732950
     }
 
     public class __Error : Object
     {
         // ── Methods ──
-        public void EndOfFile(){} // RVA: 0x7FFAC85ECBB0
-        public void FileNotOpen(){} // RVA: 0x7FFAC85ECC10
-        public void ReaderClosed(){} // RVA: 0x7FFAC85ECC80
-        public void GetDisplayablePath(){} // RVA: 0x7FFAC85ECCF0
-        public void WinIOError(){} // RVA: 0x7FFAC85ECE50
-        public void WriterClosed(){} // RVA: 0x7FFAC85ED670
+        public void EndOfFile(){} // RVA: 0x7FFE86996380
+        public void FileNotOpen(){} // RVA: 0x7FFE869963E0
+        public void ReaderClosed(){} // RVA: 0x7FFE86996450
+        public void GetDisplayablePath(){} // RVA: 0x7FFE869964C0
+        public void WinIOError(){} // RVA: 0x7FFE86996620
+        public void WriterClosed(){} // RVA: 0x7FFE86996E40
     }
 
 }

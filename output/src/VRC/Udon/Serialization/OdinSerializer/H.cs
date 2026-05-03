@@ -7,14 +7,12 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class HashSetFormatter`1 : BaseFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.Serializer`1<T> TSerializer;
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC2C709B0
-        public void .ctor(){} // RVA: 0x7FFAC2C70980
-        public void GetUninitializedObject(){} // RVA: 0x7FFAC2C58E90
-        public void DeserializeImplementation(){} // RVA: 0x7FFAC2C79B30
-        public void SerializeImplementation(){} // RVA: 0x7FFAC2C79B30
+        public void .cctor(){} // RVA: 0x7FFE80E46010
+        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void GetUninitializedObject(){} // RVA: 0x7FFE80E2E2E0
+        public void DeserializeImplementation(){} // RVA: 0x7FFE80E4F230
+        public void SerializeImplementation(){} // RVA: 0x7FFE80E4F230
     }
 
 }

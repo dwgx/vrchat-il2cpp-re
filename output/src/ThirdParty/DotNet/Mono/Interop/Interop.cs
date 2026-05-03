@@ -8,7 +8,7 @@ namespace ThirdParty.DotNet.Mono.Interop
     public class MonoPInvokeCallbackAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
 }

@@ -7,13 +7,11 @@ namespace ThirdParty.Other.SteamAudio
 {
     public class EmbreeDevice : Object
     {
-        public UIntPtr mEmbreeDevice; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC8C0B750 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFAC8C0B7F0
-        public void Release(){} // RVA: 0x7FFAC8C0B830
-        public void Get(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE86FB3C90 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFE86FB3D30
+        public void Release(){} // RVA: 0x7FFE86FB3D70
+        public void Get(){} // RVA: 0x7FFE81116380
     }
 
     public class EmbreeDeviceSettings : ValueType
@@ -22,8 +20,6 @@ namespace ThirdParty.Other.SteamAudio
 
     public class EnergyFieldSettings : ValueType
     {
-        public float duration; // 0x10
-        public int order; // 0x14
     }
 
 }

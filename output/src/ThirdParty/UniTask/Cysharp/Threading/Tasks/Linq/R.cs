@@ -7,39 +7,29 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class Range : Object
     {
-        public int start; // 0x10
-        public int end; // 0x14
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC94BC0B0
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFAC94BC0C0
+        public void .ctor(){} // RVA: 0x7FFE878647F0
+        public void GetAsyncEnumerator(){} // RVA: 0x7FFE87864800
     }
 
     public class Repeat`1 : Object
     {
-        public T element;
-        public int count;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+        public void .ctor(){} // RVA: 0x7FFE810A1420
         public void GetAsyncEnumerator(){}
     }
 
     public class Return`1 : Object
     {
-        public T value;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2E8DC40
+        public void .ctor(){} // RVA: 0x7FFE810A1420
         public void GetAsyncEnumerator(){}
     }
 
     public class Reverse`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskAsyncEnumerable`1<T> source;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70A40
+        public void .ctor(){} // RVA: 0x7FFE80E460A0
         public void GetAsyncEnumerator(){}
     }
 

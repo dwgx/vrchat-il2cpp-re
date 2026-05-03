@@ -8,319 +8,319 @@ namespace VRC.Udon.Serialization.AOT
     public class PreventCodeStrippingViaReferences0000 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EA7670
+        public void .cctor(){} // RVA: 0x7FFE8825A160
     }
 
     public class PreventCodeStrippingViaReferences0001 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EAA800
+        public void .cctor(){} // RVA: 0x7FFE8825D2F0
     }
 
     public class PreventCodeStrippingViaReferences0002 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EADA40
+        public void .cctor(){} // RVA: 0x7FFE88260530
     }
 
     public class PreventCodeStrippingViaReferences0003 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EB0E90
+        public void .cctor(){} // RVA: 0x7FFE88263980
     }
 
     public class PreventCodeStrippingViaReferences0004 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EB3B20
+        public void .cctor(){} // RVA: 0x7FFE88266610
     }
 
     public class PreventCodeStrippingViaReferences0005 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EB6F50
+        public void .cctor(){} // RVA: 0x7FFE88269A40
     }
 
     public class PreventCodeStrippingViaReferences0006 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EB84B0
+        public void .cctor(){} // RVA: 0x7FFE8826AFA0
     }
 
     public class PreventCodeStrippingViaReferences0007 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EBF030
+        public void .cctor(){} // RVA: 0x7FFE88271B20
     }
 
     public class PreventCodeStrippingViaReferences0008 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EC57F0
+        public void .cctor(){} // RVA: 0x7FFE882782E0
     }
 
     public class PreventCodeStrippingViaReferences0009 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9ECC050
+        public void .cctor(){} // RVA: 0x7FFE8827EB40
     }
 
     public class PreventCodeStrippingViaReferences0010 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9ED2B90
+        public void .cctor(){} // RVA: 0x7FFE88285680
     }
 
     public class PreventCodeStrippingViaReferences0011 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9ED9AE0
+        public void .cctor(){} // RVA: 0x7FFE8828C5D0
     }
 
     public class PreventCodeStrippingViaReferences0012 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EE0330
+        public void .cctor(){} // RVA: 0x7FFE88292E20
     }
 
     public class PreventCodeStrippingViaReferences0013 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EE6BE0
+        public void .cctor(){} // RVA: 0x7FFE882996D0
     }
 
     public class PreventCodeStrippingViaReferences0014 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EED2E0
+        public void .cctor(){} // RVA: 0x7FFE8829FDD0
     }
 
     public class PreventCodeStrippingViaReferences0015 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EF3B80
+        public void .cctor(){} // RVA: 0x7FFE882A6670
     }
 
     public class PreventCodeStrippingViaReferences0016 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9EFA200
+        public void .cctor(){} // RVA: 0x7FFE882ACCF0
     }
 
     public class PreventCodeStrippingViaReferences0017 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F001F0
+        public void .cctor(){} // RVA: 0x7FFE882B2CE0
     }
 
     public class PreventCodeStrippingViaReferences0018 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F05EC0
+        public void .cctor(){} // RVA: 0x7FFE882B89B0
     }
 
     public class PreventCodeStrippingViaReferences0019 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F0B730
+        public void .cctor(){} // RVA: 0x7FFE882BE220
     }
 
     public class PreventCodeStrippingViaReferences0020 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F10E90
+        public void .cctor(){} // RVA: 0x7FFE882C3980
     }
 
     public class PreventCodeStrippingViaReferences0021 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F16600
+        public void .cctor(){} // RVA: 0x7FFE882C90F0
     }
 
     public class PreventCodeStrippingViaReferences0022 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F1BF30
+        public void .cctor(){} // RVA: 0x7FFE882CEA20
     }
 
     public class PreventCodeStrippingViaReferences0023 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F218B0
+        public void .cctor(){} // RVA: 0x7FFE882D43A0
     }
 
     public class PreventCodeStrippingViaReferences0024 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F27130
+        public void .cctor(){} // RVA: 0x7FFE882D9C20
     }
 
     public class PreventCodeStrippingViaReferences0025 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F2C830
+        public void .cctor(){} // RVA: 0x7FFE882DF320
     }
 
     public class PreventCodeStrippingViaReferences0026 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F31F20
+        public void .cctor(){} // RVA: 0x7FFE882E4A10
     }
 
     public class PreventCodeStrippingViaReferences0027 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F37520
+        public void .cctor(){} // RVA: 0x7FFE882EA010
     }
 
     public class PreventCodeStrippingViaReferences0028 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F3C900
+        public void .cctor(){} // RVA: 0x7FFE882EF3F0
     }
 
     public class PreventCodeStrippingViaReferences0029 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F41C90
+        public void .cctor(){} // RVA: 0x7FFE882F4780
     }
 
     public class PreventCodeStrippingViaReferences0030 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F472B0
+        public void .cctor(){} // RVA: 0x7FFE882F9DA0
     }
 
     public class PreventCodeStrippingViaReferences0031 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F4C950
+        public void .cctor(){} // RVA: 0x7FFE882FF440
     }
 
     public class PreventCodeStrippingViaReferences0032 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F51F70
+        public void .cctor(){} // RVA: 0x7FFE88304A60
     }
 
     public class PreventCodeStrippingViaReferences0033 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F57610
+        public void .cctor(){} // RVA: 0x7FFE8830A100
     }
 
     public class PreventCodeStrippingViaReferences0034 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F5CCB0
+        public void .cctor(){} // RVA: 0x7FFE8830F7A0
     }
 
     public class PreventCodeStrippingViaReferences0035 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F622D0
+        public void .cctor(){} // RVA: 0x7FFE88314DC0
     }
 
     public class PreventCodeStrippingViaReferences0036 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F678F0
+        public void .cctor(){} // RVA: 0x7FFE8831A3E0
     }
 
     public class PreventCodeStrippingViaReferences0037 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F6CF90
+        public void .cctor(){} // RVA: 0x7FFE8831FA80
     }
 
     public class PreventCodeStrippingViaReferences0038 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F72630
+        public void .cctor(){} // RVA: 0x7FFE88325120
     }
 
     public class PreventCodeStrippingViaReferences0039 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F77CD0
+        public void .cctor(){} // RVA: 0x7FFE8832A7C0
     }
 
     public class PreventCodeStrippingViaReferences0040 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F7D370
+        public void .cctor(){} // RVA: 0x7FFE8832FE60
     }
 
     public class PreventCodeStrippingViaReferences0041 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F82A10
+        public void .cctor(){} // RVA: 0x7FFE88335500
     }
 
     public class PreventCodeStrippingViaReferences0042 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F880B0
+        public void .cctor(){} // RVA: 0x7FFE8833ABA0
     }
 
     public class PreventCodeStrippingViaReferences0043 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F8D750
+        public void .cctor(){} // RVA: 0x7FFE88340240
     }
 
     public class PreventCodeStrippingViaReferences0044 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F92DF0
+        public void .cctor(){} // RVA: 0x7FFE883458E0
     }
 
     public class PreventCodeStrippingViaReferences0045 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F98490
+        public void .cctor(){} // RVA: 0x7FFE8834AF80
     }
 
     public class PreventCodeStrippingViaReferences0046 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9F9DB30
+        public void .cctor(){} // RVA: 0x7FFE88350620
     }
 
     public class PreventCodeStrippingViaReferences0047 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9FA3190
+        public void .cctor(){} // RVA: 0x7FFE88355C80
     }
 
     public class PreventCodeStrippingViaReferences0048 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9FA8650
+        public void .cctor(){} // RVA: 0x7FFE8835B140
     }
 
     public class PreventCodeStrippingViaReferences0049 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9FADBB0
+        public void .cctor(){} // RVA: 0x7FFE883606A0
     }
 
     public class PreventCodeStrippingViaReferences0050 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9FB2C30
+        public void .cctor(){} // RVA: 0x7FFE88365720
     }
 
     public class PreventCodeStrippingViaReferences0051 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9FB7F40
+        public void .cctor(){} // RVA: 0x7FFE8836AA30
     }
 
     public class PreventCodeStrippingViaReferences0052 : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAC9FBD260
+        public void .cctor(){} // RVA: 0x7FFE8836FD50
     }
 
 }

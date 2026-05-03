@@ -8,209 +8,187 @@ namespace ThirdParty.DotNet.System.ComponentModel
     public class TimeSpanConverter : TypeConverter
     {
         // ── Methods ──
-        public void CanConvertFrom(){} // RVA: 0x7FFAC9414380
-        public void CanConvertTo(){} // RVA: 0x7FFAC9414470
-        public void ConvertFrom(){} // RVA: 0x7FFAC9414560
-        public void ConvertTo(){} // RVA: 0x7FFAC94147A0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void CanConvertFrom(){} // RVA: 0x7FFE877BCAB0
+        public void CanConvertTo(){} // RVA: 0x7FFE877BCBA0
+        public void ConvertFrom(){} // RVA: 0x7FFE877BCC90
+        public void ConvertTo(){} // RVA: 0x7FFE877BCED0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class ToolboxItemAttribute : Attribute
     {
-        public System.Type ToolboxItemType; // 0x10
-        public string ToolboxItemTypeName; // 0x18
-        public System.ComponentModel.ToolboxItemAttribute Default;
-        public System.ComponentModel.ToolboxItemAttribute None; // 0x8
+        public System.Type _toolboxItemType; // 0x10
+        public string _toolboxItemTypeName; // 0x18
 
         // ── Methods ──
-        public void IsDefaultAttribute(){} // RVA: 0x7FFAC93F9640
-        public void .ctor(){} // RVA: 0x7FFAC93F98D0 | overloaded x3
-        public void get_ToolboxItemType(){} // RVA: 0x7FFAC93F99C0
-        public void get_ToolboxItemTypeName(){} // RVA: 0x7FFAC93F9B50
-        public void Equals(){} // RVA: 0x7FFAC93F9BB0
-        public void GetHashCode(){} // RVA: 0x7FFAC93F9D20
-        public void .cctor(){} // RVA: 0x7FFAC93F9D60
+        public void IsDefaultAttribute(){} // RVA: 0x7FFE877A1D70
+        public void .ctor(){} // RVA: 0x7FFE877A2000 | overloaded x3
+        public void get_ToolboxItemType(){} // RVA: 0x7FFE877A20F0
+        public void get_ToolboxItemTypeName(){} // RVA: 0x7FFE877A2280
+        public void Equals(){} // RVA: 0x7FFE877A22E0
+        public void GetHashCode(){} // RVA: 0x7FFE877A2450
+        public void .cctor(){} // RVA: 0x7FFE877A2490
     }
 
     public class ToolboxItemFilterAttribute : Attribute
     {
-        public string FilterString; // 0x10
-        public string FilterType; // 0x18
-        public 0x6B135798 TypeId; // 0x20
+        public string _typeId; // 0x10
+        public string _filterString; // 0x18
+        public 0x6652E6BC _filterType; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9414BA0 | overloaded x2
-        public void get_FilterString(){} // RVA: 0x7FFAC2F247C0
-        public void get_FilterType(){} // RVA: 0x7FFAC30DBBE0
-        public void get_TypeId(){} // RVA: 0x7FFAC9414C60
-        public void Equals(){} // RVA: 0x7FFAC9414D00
-        public void GetHashCode(){} // RVA: 0x7FFAC490A6E0
-        public void Match(){} // RVA: 0x7FFAC9414E40
-        public void ToString(){} // RVA: 0x7FFAC9414EF0
+        public void .ctor(){} // RVA: 0x7FFE877BD2D0 | overloaded x2
+        public void get_FilterString(){} // RVA: 0x7FFE810FE7C0
+        public void get_FilterType(){} // RVA: 0x7FFE8151D690
+        public void get_TypeId(){} // RVA: 0x7FFE877BD390
+        public void Equals(){} // RVA: 0x7FFE877BD430
+        public void GetHashCode(){} // RVA: 0x7FFE82B72360
+        public void Match(){} // RVA: 0x7FFE877BD570
+        public void ToString(){} // RVA: 0x7FFE877BD620
     }
 
     public class TypeConverter : Object
     {
-        public string UseCompatibleTypeConversion;
-        public bool useCompatibleTypeConversion;
+        public string s_UseCompatibleTypeConverterBehavior;
 
         // ── Methods ──
-        public void get_UseCompatibleTypeConversion(){} // RVA: 0x7FFAC94338E0
-        public void CanConvertFrom(){} // RVA: 0x7FFAC9433920 | overloaded x2
-        public void CanConvertTo(){} // RVA: 0x7FFAC9433A10 | overloaded x2
-        public void ConvertFrom(){} // RVA: 0x7FFAC9433BA0 | overloaded x2
-        public void ConvertFromInvariantString(){} // RVA: 0x7FFAC9433CD0 | overloaded x2
-        public void ConvertFromString(){} // RVA: 0x7FFAC9391460 | overloaded x3
-        public void ConvertTo(){} // RVA: 0x7FFAC9433ED0 | overloaded x2
-        public void ConvertToInvariantString(){} // RVA: 0x7FFAC9434160 | overloaded x2
-        public void ConvertToString(){} // RVA: 0x7FFAC9434590 | overloaded x3
-        public void CreateInstance(){} // RVA: 0x7FFAC34F9180 | overloaded x2
-        public void GetConvertFromException(){} // RVA: 0x7FFAC9434700
-        public void GetConvertToException(){} // RVA: 0x7FFAC9434850
-        public void GetCreateInstanceSupported(){} // RVA: 0x7FFAC2F21320 | overloaded x2
-        public void GetProperties(){} // RVA: 0x7FFAC34F9180 | overloaded x3
-        public void GetPropertiesSupported(){} // RVA: 0x7FFAC2F21320 | overloaded x2
-        public void GetStandardValues(){} // RVA: 0x7FFAC34F9180 | overloaded x2
-        public void GetStandardValuesExclusive(){} // RVA: 0x7FFAC2F21320 | overloaded x2
-        public void GetStandardValuesSupported(){} // RVA: 0x7FFAC2F21320 | overloaded x2
-        public void IsValid(){} // RVA: 0x7FFAC9434C70 | overloaded x2
-        public void SortProperties(){} // RVA: 0x7FFAC9434D90
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void get_UseCompatibleTypeConversion(){} // RVA: 0x7FFE877DC010
+        public void CanConvertFrom(){} // RVA: 0x7FFE877DC050 | overloaded x2
+        public void CanConvertTo(){} // RVA: 0x7FFE877DC140 | overloaded x2
+        public void ConvertFrom(){} // RVA: 0x7FFE877DC2D0 | overloaded x2
+        public void ConvertFromInvariantString(){} // RVA: 0x7FFE877DC400 | overloaded x2
+        public void ConvertFromString(){} // RVA: 0x7FFE87739B90 | overloaded x3
+        public void ConvertTo(){} // RVA: 0x7FFE877DC600 | overloaded x2
+        public void ConvertToInvariantString(){} // RVA: 0x7FFE877DC890 | overloaded x2
+        public void ConvertToString(){} // RVA: 0x7FFE877DCCC0 | overloaded x3
+        public void CreateInstance(){} // RVA: 0x7FFE813240E0 | overloaded x2
+        public void GetConvertFromException(){} // RVA: 0x7FFE877DCE30
+        public void GetConvertToException(){} // RVA: 0x7FFE877DCF80
+        public void GetCreateInstanceSupported(){} // RVA: 0x7FFE810FB320 | overloaded x2
+        public void GetProperties(){} // RVA: 0x7FFE813240E0 | overloaded x3
+        public void GetPropertiesSupported(){} // RVA: 0x7FFE810FB320 | overloaded x2
+        public void GetStandardValues(){} // RVA: 0x7FFE813240E0 | overloaded x2
+        public void GetStandardValuesExclusive(){} // RVA: 0x7FFE810FB320 | overloaded x2
+        public void GetStandardValuesSupported(){} // RVA: 0x7FFE810FB320 | overloaded x2
+        public void IsValid(){} // RVA: 0x7FFE877DD3C0 | overloaded x2
+        public void SortProperties(){} // RVA: 0x7FFE877DD4E0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class TypeConverterAttribute : Attribute
     {
-        public System.ComponentModel.TypeConverterAttribute ConverterTypeName;
-        public string <ConverterTypeName>k__BackingField; // 0x10
+        public System.ComponentModel.TypeConverterAttribute Default;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x3
-        public void get_ConverterTypeName(){} // RVA: 0x7FFAC2F3C380
-        public void Equals(){} // RVA: 0x7FFAC9415160
-        public void GetHashCode(){} // RVA: 0x7FFAC35DB750
-        public void .cctor(){} // RVA: 0x7FFAC9415210
+        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x3
+        public void get_ConverterTypeName(){} // RVA: 0x7FFE81116380
+        public void Equals(){} // RVA: 0x7FFE877BD890
+        public void GetHashCode(){} // RVA: 0x7FFE8170B620
+        public void .cctor(){} // RVA: 0x7FFE877BD940
     }
 
     public class TypeDescriptionProvider : Object
     {
-        public System.ComponentModel.TypeDescriptionProvider _parent; // 0x10
-        public EmptyCustomTypeDescriptor _emptyDescriptor; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x2
-        public void CreateInstance(){} // RVA: 0x7FFAC9415340
-        public void GetCache(){} // RVA: 0x7FFAC9415470
-        public void GetExtendedTypeDescriptor(){} // RVA: 0x7FFAC9415490
-        public void GetExtenderProviders(){} // RVA: 0x7FFAC9415570
-        public void GetFullComponentName(){} // RVA: 0x7FFAC9415640
-        public void GetReflectionType(){} // RVA: 0x7FFAC94157F0 | overloaded x3
-        public void GetRuntimeType(){} // RVA: 0x7FFAC9415820
-        public void GetTypeDescriptor(){} // RVA: 0x7FFAC9415AC0 | overloaded x3
-        public void IsSupportedType(){} // RVA: 0x7FFAC9415BB0
+        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
+        public void CreateInstance(){} // RVA: 0x7FFE877BDA70
+        public void GetCache(){} // RVA: 0x7FFE877BDBA0
+        public void GetExtendedTypeDescriptor(){} // RVA: 0x7FFE877BDBC0
+        public void GetExtenderProviders(){} // RVA: 0x7FFE877BDCA0
+        public void GetFullComponentName(){} // RVA: 0x7FFE877BDD70
+        public void GetReflectionType(){} // RVA: 0x7FFE877BDF20 | overloaded x3
+        public void GetRuntimeType(){} // RVA: 0x7FFE877BDF50
+        public void GetTypeDescriptor(){} // RVA: 0x7FFE877BE1F0 | overloaded x3
+        public void IsSupportedType(){} // RVA: 0x7FFE877BE2E0
     }
 
     public class TypeDescriptionProviderAttribute : Attribute
     {
-        public string TypeName; // 0x10
+        public string _typeName; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC9415D30 | overloaded x2
-        public void get_TypeName(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE877BE460 | overloaded x2
+        public void get_TypeName(){} // RVA: 0x7FFE81116380
     }
 
     public class TypeDescriptor : Object
     {
-        public System.ComponentModel.WeakHashtable ComNativeDescriptorHandler;
-        public System.Collections.Hashtable ComObjectType; // 0x8
-        public System.Collections.Hashtable InterfaceType; // 0x10
-        public System.ComponentModel.WeakHashtable MetadataVersion; // 0x18
-        public int _metadataVersion; // 0x20
-        public int _collisionIndex; // 0x24
-        public System.Diagnostics.BooleanSwitch TraceDescriptor; // 0x28
-        public int PIPELINE_ATTRIBUTES;
-        public int PIPELINE_PROPERTIES;
-        public int PIPELINE_EVENTS;
-        public System.Guid[] _pipelineInitializeKeys; // 0x30
-        public System.Guid[] _pipelineMergeKeys; // 0x38
-        public System.Guid[] _pipelineFilterKeys; // 0x40
-        public System.Guid[] _pipelineAttributeFilterKeys; // 0x48
-        public object _internalSyncObject; // 0x50
-        public System.ComponentModel.RefreshEventHandler Refreshed; // 0x58
+        public System.ComponentModel.WeakHashtable _providerTable;
+        public System.Collections.Hashtable _providerTypeTable; // 0x8
+        public System.Collections.Hashtable _defaultProviders; // 0x10
+        public System.ComponentModel.WeakHashtable _associationTable; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void get_ComNativeDescriptorHandler(){} // RVA: 0x7FFAC9435770
-        public void set_ComNativeDescriptorHandler(){} // RVA: 0x7FFAC9435860
-        public void get_ComObjectType(){} // RVA: 0x7FFAC9435A50
-        public void get_InterfaceType(){} // RVA: 0x7FFAC9435B00
-        public void get_MetadataVersion(){} // RVA: 0x7FFAC9435BB0
-        public void add_Refreshed(){} // RVA: 0x7FFAC9435C10
-        public void remove_Refreshed(){} // RVA: 0x7FFAC9435D60
-        public void AddAttributes(){} // RVA: 0x7FFAC9436090 | overloaded x2
-        public void AddEditorTable(){} // RVA: 0x7FFAC9436230
-        public void AddProvider(){} // RVA: 0x7FFAC9436640 | overloaded x2
-        public void AddProviderTransparent(){} // RVA: 0x7FFAC9436B40 | overloaded x2
-        public void CheckDefaultProvider(){} // RVA: 0x7FFAC9436C40
-        public void CreateAssociation(){} // RVA: 0x7FFAC9437490
-        public void CreateDesigner(){} // RVA: 0x7FFAC9437E50
-        public void CreateEvent(){} // RVA: 0x7FFAC94382E0 | overloaded x2
-        public void CreateInstance(){} // RVA: 0x7FFAC9438360
-        public void CreateProperty(){} // RVA: 0x7FFAC94386B0 | overloaded x2
-        public void DebugValidate(){} // RVA: 0x7FFAC2F21310 | overloaded x10
-        public void FilterMembers(){} // RVA: 0x7FFAC94388A0
-        public void GetAssociation(){} // RVA: 0x7FFAC9438B00
-        public void GetAttributes(){} // RVA: 0x7FFAC94391F0 | overloaded x3
-        public void GetCache(){} // RVA: 0x7FFAC94394F0
-        public void GetClassName(){} // RVA: 0x7FFAC94396F0 | overloaded x3
-        public void GetComponentName(){} // RVA: 0x7FFAC9439850 | overloaded x2
-        public void GetConverter(){} // RVA: 0x7FFAC9439A20 | overloaded x3
-        public void ConvertFromInvariantString(){} // RVA: 0x7FFAC9439AB0
-        public void GetDefaultEvent(){} // RVA: 0x7FFAC9439CB0 | overloaded x3
-        public void GetDefaultProperty(){} // RVA: 0x7FFAC9439ED0 | overloaded x3
-        public void GetDescriptor(){} // RVA: 0x7FFAC943A0A0 | overloaded x2
-        public void GetExtendedDescriptor(){} // RVA: 0x7FFAC943A3D0
-        public void GetEditor(){} // RVA: 0x7FFAC943A730 | overloaded x3
-        public void GetEvents(){} // RVA: 0x7FFAC943ACA0 | overloaded x6
-        public void GetExtenderCollisionSuffix(){} // RVA: 0x7FFAC943B000
-        public void GetFullComponentName(){} // RVA: 0x7FFAC943B2B0
-        public void GetNodeForBaseType(){} // RVA: 0x7FFAC943B3B0
-        public void GetProperties(){} // RVA: 0x7FFAC943B960 | overloaded x6
-        public void GetPropertiesImpl(){} // RVA: 0x7FFAC943B9E0
-        public void GetProvider(){} // RVA: 0x7FFAC943BE80 | overloaded x2
-        public void GetProviderRecursive(){} // RVA: 0x7FFAC943BF20
-        public void GetReflectionType(){} // RVA: 0x7FFAC943C0B0 | overloaded x2
-        public void NodeFor(){} // RVA: 0x7FFAC943C8D0 | overloaded x4
-        public void NodeRemove(){} // RVA: 0x7FFAC943CAC0
-        public void PipelineAttributeFilter(){} // RVA: 0x7FFAC943D050
-        public void PipelineFilter(){} // RVA: 0x7FFAC943D560
-        public void PipelineInitialize(){} // RVA: 0x7FFAC943E750
-        public void PipelineMerge(){} // RVA: 0x7FFAC943EB10
-        public void RaiseRefresh(){} // RVA: 0x7FFAC943F740 | overloaded x2
-        public void Refresh(){} // RVA: 0x7FFAC9440E80 | overloaded x5
-        public void RemoveAssociation(){} // RVA: 0x7FFAC9440F40
-        public void RemoveAssociations(){} // RVA: 0x7FFAC94412F0
-        public void RemoveProvider(){} // RVA: 0x7FFAC94414F0 | overloaded x2
-        public void RemoveProviderTransparent(){} // RVA: 0x7FFAC9441790 | overloaded x2
-        public void ShouldHideMember(){} // RVA: 0x7FFAC94418D0
-        public void SortDescriptorArray(){} // RVA: 0x7FFAC9441990
-        public void Trace(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFAC9441AB0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_ComNativeDescriptorHandler(){} // RVA: 0x7FFE877DDEC0
+        public void set_ComNativeDescriptorHandler(){} // RVA: 0x7FFE877DDFB0
+        public void get_ComObjectType(){} // RVA: 0x7FFE877DE1A0
+        public void get_InterfaceType(){} // RVA: 0x7FFE877DE250
+        public void get_MetadataVersion(){} // RVA: 0x7FFE877DE300
+        public void add_Refreshed(){} // RVA: 0x7FFE877DE360
+        public void remove_Refreshed(){} // RVA: 0x7FFE877DE4B0
+        public void AddAttributes(){} // RVA: 0x7FFE877DE7E0 | overloaded x2
+        public void AddEditorTable(){} // RVA: 0x7FFE877DE980
+        public void AddProvider(){} // RVA: 0x7FFE877DED90 | overloaded x2
+        public void AddProviderTransparent(){} // RVA: 0x7FFE877DF290 | overloaded x2
+        public void CheckDefaultProvider(){} // RVA: 0x7FFE877DF390
+        public void CreateAssociation(){} // RVA: 0x7FFE877DFBE0
+        public void CreateDesigner(){} // RVA: 0x7FFE877E05A0
+        public void CreateEvent(){} // RVA: 0x7FFE877E0A30 | overloaded x2
+        public void CreateInstance(){} // RVA: 0x7FFE877E0AB0
+        public void CreateProperty(){} // RVA: 0x7FFE877E0E00 | overloaded x2
+        public void DebugValidate(){} // RVA: 0x7FFE810FB310 | overloaded x10
+        public void FilterMembers(){} // RVA: 0x7FFE877E0FF0
+        public void GetAssociation(){} // RVA: 0x7FFE877E1250
+        public void GetAttributes(){} // RVA: 0x7FFE877E1940 | overloaded x3
+        public void GetCache(){} // RVA: 0x7FFE877E1C40
+        public void GetClassName(){} // RVA: 0x7FFE877E1E40 | overloaded x3
+        public void GetComponentName(){} // RVA: 0x7FFE877E1FA0 | overloaded x2
+        public void GetConverter(){} // RVA: 0x7FFE877E2170 | overloaded x3
+        public void ConvertFromInvariantString(){} // RVA: 0x7FFE877E2200
+        public void GetDefaultEvent(){} // RVA: 0x7FFE877E2400 | overloaded x3
+        public void GetDefaultProperty(){} // RVA: 0x7FFE877E2620 | overloaded x3
+        public void GetDescriptor(){} // RVA: 0x7FFE877E27F0 | overloaded x2
+        public void GetExtendedDescriptor(){} // RVA: 0x7FFE877E2B20
+        public void GetEditor(){} // RVA: 0x7FFE877E2E80 | overloaded x3
+        public void GetEvents(){} // RVA: 0x7FFE877E33F0 | overloaded x6
+        public void GetExtenderCollisionSuffix(){} // RVA: 0x7FFE877E3750
+        public void GetFullComponentName(){} // RVA: 0x7FFE877E3A00
+        public void GetNodeForBaseType(){} // RVA: 0x7FFE877E3B00
+        public void GetProperties(){} // RVA: 0x7FFE877E40B0 | overloaded x6
+        public void GetPropertiesImpl(){} // RVA: 0x7FFE877E4130
+        public void GetProvider(){} // RVA: 0x7FFE877E45D0 | overloaded x2
+        public void GetProviderRecursive(){} // RVA: 0x7FFE877E4670
+        public void GetReflectionType(){} // RVA: 0x7FFE877E4800 | overloaded x2
+        public void NodeFor(){} // RVA: 0x7FFE877E5020 | overloaded x4
+        public void NodeRemove(){} // RVA: 0x7FFE877E5210
+        public void PipelineAttributeFilter(){} // RVA: 0x7FFE877E57A0
+        public void PipelineFilter(){} // RVA: 0x7FFE877E5CB0
+        public void PipelineInitialize(){} // RVA: 0x7FFE877E6EA0
+        public void PipelineMerge(){} // RVA: 0x7FFE877E7260
+        public void RaiseRefresh(){} // RVA: 0x7FFE877E7E90 | overloaded x2
+        public void Refresh(){} // RVA: 0x7FFE877E95D0 | overloaded x5
+        public void RemoveAssociation(){} // RVA: 0x7FFE877E9690
+        public void RemoveAssociations(){} // RVA: 0x7FFE877E9A40
+        public void RemoveProvider(){} // RVA: 0x7FFE877E9C40 | overloaded x2
+        public void RemoveProviderTransparent(){} // RVA: 0x7FFE877E9EE0 | overloaded x2
+        public void ShouldHideMember(){} // RVA: 0x7FFE877EA020
+        public void SortDescriptorArray(){} // RVA: 0x7FFE877EA0E0
+        public void Trace(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE877EA200
     }
 
     public class TypeListConverter : TypeConverter
     {
-        public System.Type[] _types; // 0x10
-        public StandardValuesCollection _values; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void CanConvertFrom(){} // RVA: 0x7FFAC9415E40
-        public void CanConvertTo(){} // RVA: 0x7FFAC9415F30
-        public void ConvertFrom(){} // RVA: 0x7FFAC9416020
-        public void ConvertTo(){} // RVA: 0x7FFAC9416170
-        public void GetStandardValues(){} // RVA: 0x7FFAC9416300
-        public void GetStandardValuesExclusive(){} // RVA: 0x7FFAC3006850
-        public void GetStandardValuesSupported(){} // RVA: 0x7FFAC3006850
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void CanConvertFrom(){} // RVA: 0x7FFE877BE570
+        public void CanConvertTo(){} // RVA: 0x7FFE877BE660
+        public void ConvertFrom(){} // RVA: 0x7FFE877BE750
+        public void ConvertTo(){} // RVA: 0x7FFE877BE8A0
+        public void GetStandardValues(){} // RVA: 0x7FFE877BEA30
+        public void GetStandardValuesExclusive(){} // RVA: 0x7FFE811E0850
+        public void GetStandardValuesSupported(){} // RVA: 0x7FFE811E0850
     }
 
 }

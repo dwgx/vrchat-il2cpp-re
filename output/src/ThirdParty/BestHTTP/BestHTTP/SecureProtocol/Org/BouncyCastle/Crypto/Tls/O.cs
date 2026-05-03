@@ -7,15 +7,15 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 {
     public class OcspStatusRequest : Object
     {
-        public System.Collections.IList ResponderIDList; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Extensions RequestExtensions; // 0x18
+        public System.Collections.IList mResponderIDList; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Extensions mRequestExtensions; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240
-        public void get_ResponderIDList(){} // RVA: 0x7FFAC2F3C380
-        public void get_RequestExtensions(){} // RVA: 0x7FFAC2F247C0
-        public void Encode(){} // RVA: 0x7FFACBB37D80
-        public void Parse(){} // RVA: 0x7FFACBB383C0
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0
+        public void get_ResponderIDList(){} // RVA: 0x7FFE81116380
+        public void get_RequestExtensions(){} // RVA: 0x7FFE810FE7C0
+        public void Encode(){} // RVA: 0x7FFE89F913A0
+        public void Parse(){} // RVA: 0x7FFE89F919E0
     }
 
 }

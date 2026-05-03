@@ -8,8 +8,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture.Editor
     public class EditorCoroutine : MonoBehaviour
     {
         // ── Methods ──
-        public void RunCoroutine(){} // RVA: 0x7FFAC8A27AC0
-        public void .ctor(){} // RVA: 0x7FFAC2F21D50
+        public void RunCoroutine(){} // RVA: 0x7FFE86DD1140
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
     }
 
 }

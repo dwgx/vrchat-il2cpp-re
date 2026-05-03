@@ -8,25 +8,22 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Primitives
     public class ChangeToken : Object
     {
         // ── Methods ──
-        public void OnChange(){} // RVA: 0x7FFAC2E8DC40
+        public void OnChange(){} // RVA: 0x7FFE810A1420
     }
 
     public class IChangeToken
     {
-        public object HasChanged;
-        public object ActiveChangeCallbacks;
-
         // ── Methods ──
-        public void get_HasChanged(){} // RVA: 0x7FFAC2C59D00
-        public void get_ActiveChangeCallbacks(){} // RVA: 0x7FFAC2C59D00
-        public void RegisterChangeCallback(){} // RVA: 0x7FFAC2C6A6F0
+        public void get_HasChanged(){} // RVA: 0x7FFE80E2F150
+        public void get_ActiveChangeCallbacks(){} // RVA: 0x7FFE80E2F150
+        public void RegisterChangeCallback(){} // RVA: 0x7FFE80E3FC10
     }
 
     public class ThrowHelper : Object
     {
         // ── Methods ──
-        public void ThrowArgumentNullException(){} // RVA: 0x7FFAC834DEB0
-        public void GetArgumentName(){} // RVA: 0x7FFAC834DF10
+        public void ThrowArgumentNullException(){} // RVA: 0x7FFE866F77B0
+        public void GetArgumentName(){} // RVA: 0x7FFE866F7810
     }
 
 }

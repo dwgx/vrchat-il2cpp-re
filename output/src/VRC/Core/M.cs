@@ -7,13 +7,11 @@ namespace VRC.Core
 {
     public class MemoryEqualityComparer`1 : Object
     {
-        public VRC.Core.MemoryEqualityComparer`1<T> Instance;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2C70980
-        public void Equals(){} // RVA: 0x7FFAC2E8DC40 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC2E8DC40 | overloaded x3
-        public void .cctor(){} // RVA: 0x7FFAC2C709B0
+        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void Equals(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE810A1420 | overloaded x3
+        public void .cctor(){} // RVA: 0x7FFE80E46010
     }
 
 }

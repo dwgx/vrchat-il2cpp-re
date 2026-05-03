@@ -7,12 +7,9 @@ namespace ThirdParty.DotNet.System.Configuration.Internal
 {
     public class IConfigErrorInfo
     {
-        public object Filename;
-        public object LineNumber;
-
         // ── Methods ──
-        public void get_Filename(){} // RVA: 0x7FFAC2C58E90
-        public void get_LineNumber(){} // RVA: 0x7FFAC2C59960
+        public void get_Filename(){} // RVA: 0x7FFE80E2E2E0
+        public void get_LineNumber(){} // RVA: 0x7FFE80E2EDB0
     }
 
 }

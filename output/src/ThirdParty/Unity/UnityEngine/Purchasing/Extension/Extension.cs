@@ -7,66 +7,62 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 {
     public class AbstractPurchasingModule : Object
     {
-        public UnityEngine.Purchasing.Extension.IPurchasingBinder m_Binder; // 0x10
-
         // ── Methods ──
-        public void Configure(){} // RVA: 0x7FFAC2C70980 | overloaded x2
-        public void RegisterStore(){} // RVA: 0x7FFAC99B4F80
-        public void BindExtension(){} // RVA: 0x7FFAC2E8DC40
-        public void BindConfiguration(){} // RVA: 0x7FFAC2E8DC40
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void Configure(){} // RVA: 0x7FFE80E45FE0 | overloaded x2
+        public void RegisterStore(){} // RVA: 0x7FFE87D5D820
+        public void BindExtension(){} // RVA: 0x7FFE810A1420
+        public void BindConfiguration(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class AbstractStore : Object
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFAC2C70A40
-        public void RetrieveProducts(){} // RVA: 0x7FFAC2C70A40
-        public void Purchase(){} // RVA: 0x7FFAC2C79B30
-        public void FinishTransaction(){} // RVA: 0x7FFAC2C79B30
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void Initialize(){} // RVA: 0x7FFE80E460A0
+        public void RetrieveProducts(){} // RVA: 0x7FFE80E460A0
+        public void Purchase(){} // RVA: 0x7FFE80E4F230
+        public void FinishTransaction(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
     public class ICatalogProvider
     {
         // ── Methods ──
-        public void FetchProducts(){} // RVA: 0x7FFAC2C70A40
+        public void FetchProducts(){} // RVA: 0x7FFE80E460A0
     }
 
     public class IPurchasingBinder
     {
         // ── Methods ──
-        public void RegisterStore(){} // RVA: 0x7FFAC2C79B30
-        public void RegisterExtension(){} // RVA: 0x7FFAC2E8DC40
-        public void RegisterConfiguration(){} // RVA: 0x7FFAC2E8DC40
+        public void RegisterStore(){} // RVA: 0x7FFE80E4F230
+        public void RegisterExtension(){} // RVA: 0x7FFE810A1420
+        public void RegisterConfiguration(){} // RVA: 0x7FFE810A1420
     }
 
     public class IPurchasingModule
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x7FFAC2C70A40
+        public void Configure(){} // RVA: 0x7FFE80E460A0
     }
 
     public class IStore
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFAC2C70A40
-        public void RetrieveProducts(){} // RVA: 0x7FFAC2C70A40
-        public void Purchase(){} // RVA: 0x7FFAC2C79B30
-        public void FinishTransaction(){} // RVA: 0x7FFAC2C79B30
+        public void Initialize(){} // RVA: 0x7FFE80E460A0
+        public void RetrieveProducts(){} // RVA: 0x7FFE80E460A0
+        public void Purchase(){} // RVA: 0x7FFE80E4F230
+        public void FinishTransaction(){} // RVA: 0x7FFE80E4F230
     }
 
     public class IStoreCallback
     {
-        public object products;
-
         // ── Methods ──
-        public void get_products(){} // RVA: 0x7FFAC2C58E90
-        public void OnSetupFailed(){} // RVA: 0x7FFAC2C72BC0
-        public void OnProductsRetrieved(){} // RVA: 0x7FFAC2C70A40
-        public void OnPurchaseSucceeded(){} // RVA: 0x7FFAC2C7AF60
-        public void OnAllPurchasesRetrieved(){} // RVA: 0x7FFAC2C70A40
-        public void OnPurchaseFailed(){} // RVA: 0x7FFAC2C70A40
+        public void get_products(){} // RVA: 0x7FFE80E2E2E0
+        public void OnSetupFailed(){} // RVA: 0x7FFE80E48220
+        public void OnProductsRetrieved(){} // RVA: 0x7FFE80E460A0
+        public void OnPurchaseSucceeded(){} // RVA: 0x7FFE80E50660
+        public void OnAllPurchasesRetrieved(){} // RVA: 0x7FFE80E460A0
+        public void OnPurchaseFailed(){} // RVA: 0x7FFE80E460A0
     }
 
     public class IStoreConfiguration
@@ -75,81 +71,94 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class ProductDescription : Object
     {
-        public string storeSpecificId; // 0x10
-        public 0x6B2C2450 metadata; // 0x18
-        public UnityEngine.Purchasing.ProductMetadata receipt; // 0x20
-        public string transactionId; // 0x28
-        public string <transactionId>k__BackingField; // 0x30
+        public string _storeSpecificId; // 0x10
+        public 0x666BCFA4 type; // 0x18
+        public UnityEngine.Purchasing.ProductMetadata _metadata; // 0x20
+        public string _receipt; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC99B5170 | overloaded x3
-        public void get_storeSpecificId(){} // RVA: 0x7FFAC2F3C380
-        public void set_storeSpecificId(){} // RVA: 0x7FFAC2F22E30
-        public void get_metadata(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_metadata(){} // RVA: 0x7FFAC2F4F0D0
-        public void get_receipt(){} // RVA: 0x7FFAC2F4F130
-        public void set_receipt(){} // RVA: 0x7FFAC2F22E90
-        public void get_transactionId(){} // RVA: 0x7FFAC31D95E0
-        public void set_transactionId(){} // RVA: 0x7FFAC2F4F890
+        public void .ctor(){} // RVA: 0x7FFE87D5DA10 | overloaded x3
+        public void get_storeSpecificId(){} // RVA: 0x7FFE81116380
+        public void set_storeSpecificId(){} // RVA: 0x7FFE810FCE30
+        public void get_metadata(){} // RVA: 0x7FFE811290C0
+        public void set_metadata(){} // RVA: 0x7FFE811290D0
+        public void get_receipt(){} // RVA: 0x7FFE81129130
+        public void set_receipt(){} // RVA: 0x7FFE810FCE90
+        public void get_transactionId(){} // RVA: 0x7FFE8144E200
+        public void set_transactionId(){} // RVA: 0x7FFE81129890
     }
 
     public class PurchaseFailureDescription : Object
     {
-        public string productId; // 0x10
-        public 0x6B2C2500 reason; // 0x18
-        public string message; // 0x20
+        public string _productId; // 0x10
+        public 0x666BD054 _reason; // 0x18
+        public string _message; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC86E9F50
-        public void get_productId(){} // RVA: 0x7FFAC2F3C380
-        public void set_productId(){} // RVA: 0x7FFAC2F22E30
-        public void get_reason(){} // RVA: 0x7FFAC3157800
-        public void set_reason(){} // RVA: 0x7FFAC392CD10
-        public void get_message(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_message(){} // RVA: 0x7FFAC2F4F0D0
+        public void .ctor(){} // RVA: 0x7FFE86A93700
+        public void get_productId(){} // RVA: 0x7FFE81116380
+        public void set_productId(){} // RVA: 0x7FFE810FCE30
+        public void get_reason(){} // RVA: 0x7FFE813DB630
+        public void set_reason(){} // RVA: 0x7FFE8144DF00
+        public void get_message(){} // RVA: 0x7FFE811290C0
+        public void set_message(){} // RVA: 0x7FFE811290D0
     }
 
     public class UnityUtil : MonoBehaviour
     {
-        public System.Collections.Generic.List`1<System.Action> currentTime;
-        public bool persistentDataPath; // 0x8
-        public System.Collections.Generic.List`1<0x6B179580> deviceUniqueIdentifier; // 0x10
-        public System.Collections.Generic.List`1<System.Action`1<bool>> unityVersion; // 0x20
+        public System.Collections.Generic.List`1<System.Action> s_Callbacks;
+        public bool s_CallbacksPending; // 0x8
+        public System.Collections.Generic.List`1<0x66572DEC> s_PcControlledPlatforms; // 0x10
+        public System.Collections.Generic.List`1<System.Action`1<bool>> pauseListeners; // 0x20
+        public object field_4; // 0x1F
+        public object field_5; // 0x20
+        public object field_6; // 0x21
+        public object field_7; // 0x22
+        public object field_8; // 0x23
+        public object field_9; // 0x24
+        public object field_10; // 0x25
+        public object field_11; // 0x26
+        public object field_12; // 0x27
+        public object field_13; // 0x28
+        public object field_14; // 0x29
+        public object field_15; // 0x2A
+        public object field_16; // 0x2B
+        public object field_17; // 0x2C
 
         // ── Methods ──
-        public void GetAnyComponentsOfType(){} // RVA: 0x7FFAC2C58E90
-        public void get_currentTime(){} // RVA: 0x7FFAC99E49A0
-        public void get_persistentDataPath(){} // RVA: 0x7FFAC99E49F0
-        public void get_deviceUniqueIdentifier(){} // RVA: 0x7FFAC8B17AB0
-        public void get_unityVersion(){} // RVA: 0x7FFAC99E4A70
-        public void get_cloudProjectId(){} // RVA: 0x7FFAC99E4AF0
-        public void get_userId(){} // RVA: 0x7FFAC99E4B70
-        public void get_gameVersion(){} // RVA: 0x7FFAC99E4C20
-        public void get_sessionId(){} // RVA: 0x7FFAC99E4CA0
-        public void get_platform(){} // RVA: 0x7FFAC99E4D50
-        public void get_isEditor(){} // RVA: 0x7FFAC99E4DD0
-        public void get_deviceModel(){} // RVA: 0x7FFAC8B17B00
-        public void get_deviceName(){} // RVA: 0x7FFAC98CA920
-        public void get_deviceType(){} // RVA: 0x7FFAC98CAA10
-        public void get_operatingSystem(){} // RVA: 0x7FFAC8B15C80
-        public void get_screenWidth(){} // RVA: 0x7FFAC986C180
-        public void get_screenHeight(){} // RVA: 0x7FFAC986C1D0
-        public void get_screenDpi(){} // RVA: 0x7FFAC986C220
-        public void get_screenOrientation(){} // RVA: 0x7FFAC99E4E20
-        public void Uniject.IUtil.InitiateCoroutine(){} // RVA: 0x7FFAC99E4EB0 | overloaded x2
-        public void RunOnMainThread(){} // RVA: 0x7FFAC99E4FC0
-        public void GetWaitForSeconds(){} // RVA: 0x7FFAC99E51B0
-        public void Start(){} // RVA: 0x7FFAC99E5200
-        public void FindInstanceOfType(){} // RVA: 0x7FFAC2E8DC40
-        public void LoadResourceInstanceOfType(){} // RVA: 0x7FFAC2E8DC40
-        public void PcPlatform(){} // RVA: 0x7FFAC99E52D0
-        public void DelayedCoroutine(){} // RVA: 0x7FFAC99E5400
-        public void Update(){} // RVA: 0x7FFAC99E5510
-        public void AddPauseListener(){} // RVA: 0x7FFAC99E58D0
-        public void OnApplicationPause(){} // RVA: 0x7FFAC99E5930
-        public void IsClassOrSubclass(){} // RVA: 0x7FFAC99E5A90
-        public void .ctor(){} // RVA: 0x7FFAC99E5B20
-        public void .cctor(){} // RVA: 0x7FFAC99E5C20
+        public void GetAnyComponentsOfType(){} // RVA: 0x7FFE80E2E2E0
+        public void get_currentTime(){} // RVA: 0x7FFE87D8D240
+        public void get_persistentDataPath(){} // RVA: 0x7FFE87D8D290
+        public void get_deviceUniqueIdentifier(){} // RVA: 0x7FFE86EC1120
+        public void get_unityVersion(){} // RVA: 0x7FFE87D8D310
+        public void get_cloudProjectId(){} // RVA: 0x7FFE87D8D390
+        public void get_userId(){} // RVA: 0x7FFE87D8D410
+        public void get_gameVersion(){} // RVA: 0x7FFE87D8D4C0
+        public void get_sessionId(){} // RVA: 0x7FFE87D8D540
+        public void get_platform(){} // RVA: 0x7FFE87D8D5F0
+        public void get_isEditor(){} // RVA: 0x7FFE87D8D670
+        public void get_deviceModel(){} // RVA: 0x7FFE86EC1170
+        public void get_deviceName(){} // RVA: 0x7FFE87C73050
+        public void get_deviceType(){} // RVA: 0x7FFE87C73140
+        public void get_operatingSystem(){} // RVA: 0x7FFE86EBF2F0
+        public void get_screenWidth(){} // RVA: 0x7FFE87C146D0
+        public void get_screenHeight(){} // RVA: 0x7FFE87C14720
+        public void get_screenDpi(){} // RVA: 0x7FFE87C14770
+        public void get_screenOrientation(){} // RVA: 0x7FFE87D8D6C0
+        public void Uniject.IUtil.InitiateCoroutine(){} // RVA: 0x7FFE87D8D750 | overloaded x2
+        public void RunOnMainThread(){} // RVA: 0x7FFE87D8D860
+        public void GetWaitForSeconds(){} // RVA: 0x7FFE87D8DA50
+        public void Start(){} // RVA: 0x7FFE87D8DAA0
+        public void FindInstanceOfType(){} // RVA: 0x7FFE810A1420
+        public void LoadResourceInstanceOfType(){} // RVA: 0x7FFE810A1420
+        public void PcPlatform(){} // RVA: 0x7FFE87D8DB70
+        public void DelayedCoroutine(){} // RVA: 0x7FFE87D8DCA0
+        public void Update(){} // RVA: 0x7FFE87D8DDB0
+        public void AddPauseListener(){} // RVA: 0x7FFE87D8E170
+        public void OnApplicationPause(){} // RVA: 0x7FFE87D8E1D0
+        public void IsClassOrSubclass(){} // RVA: 0x7FFE87D8E330
+        public void .ctor(){} // RVA: 0x7FFE87D8E3C0
+        public void .cctor(){} // RVA: 0x7FFE87D8E4C0
     }
 
 }

@@ -8,14 +8,14 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X500
     public class IetfUtilities : Object
     {
         // ── Methods ──
-        public void ValueToString(){} // RVA: 0x7FFACBD5DC10
-        public void Canonicalize(){} // RVA: 0x7FFACBD5E1C0
-        public void CanonicalString(){} // RVA: 0x7FFACBD5E510
-        public void DecodeObject(){} // RVA: 0x7FFACBD5E530
-        public void StripInternalSpaces(){} // RVA: 0x7FFACBD5E660
-        public void RdnAreEqual(){} // RVA: 0x7FFACBD5E7D0
-        public void AtvAreEqual(){} // RVA: 0x7FFACBD5E9F0
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void ValueToString(){} // RVA: 0x7FFE8A1B7230
+        public void Canonicalize(){} // RVA: 0x7FFE8A1B77E0
+        public void CanonicalString(){} // RVA: 0x7FFE8A1B7B30
+        public void DecodeObject(){} // RVA: 0x7FFE8A1B7B50
+        public void StripInternalSpaces(){} // RVA: 0x7FFE8A1B7C80
+        public void RdnAreEqual(){} // RVA: 0x7FFE8A1B7DF0
+        public void AtvAreEqual(){} // RVA: 0x7FFE8A1B8010
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
 }

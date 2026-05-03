@@ -7,121 +7,115 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class Rasterization : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Rasterization> Parser;
-        public Google.Protobuf.UnknownFieldSet Descriptor; // 0x10
-        public int pb::Google.Protobuf.IMessage.Descriptor;
-        public Google.Protobuf.FieldCodec`1<Interval> Interval; // 0x8
-        public Google.Protobuf.Collections.RepeatedField`1<Interval> interval_; // 0x18
+        public Google.Protobuf.MessageParser`1<Mediapipe.Rasterization> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int IntervalFieldNumber;
+        public Google.Protobuf.FieldCodec`1<Interval> _repeated_interval_codec; // 0x8
 
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFAC829B3D0
-        public void get_Descriptor(){} // RVA: 0x7FFAC829B430
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAC829B4F0
-        public void .ctor(){} // RVA: 0x7FFAC829B600 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFAC829B7A0
-        public void get_Interval(){} // RVA: 0x7FFAC2F247C0
-        public void Equals(){} // RVA: 0x7FFAC829BA70 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC81D5360
-        public void ToString(){} // RVA: 0x7FFAC829BB20
-        public void WriteTo(){} // RVA: 0x7FFAC81D0B60
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAC829BB70
-        public void CalculateSize(){} // RVA: 0x7FFAC829BC30
-        public void MergeFrom(){} // RVA: 0x7FFAC81D0EA0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAC829BE20
-        public void .cctor(){} // RVA: 0x7FFAC829BF20
+        public void get_Parser(){} // RVA: 0x7FFE86644CF0
+        public void get_Descriptor(){} // RVA: 0x7FFE86644D50
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE86644E10
+        public void .ctor(){} // RVA: 0x7FFE86644F20 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFE866450C0
+        public void get_Interval(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE86645390 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE8657ECA0
+        public void ToString(){} // RVA: 0x7FFE86645440
+        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE86645490
+        public void CalculateSize(){} // RVA: 0x7FFE86645550
+        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE86645740
+        public void .cctor(){} // RVA: 0x7FFE86645840
     }
 
     public class RasterizationReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
 
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFAC829AC70
-        public void .cctor(){} // RVA: 0x7FFAC829ACD0
+        public void get_Descriptor(){} // RVA: 0x7FFE86644590
+        public void .cctor(){} // RVA: 0x7FFE866445F0
     }
 
     public class Rect : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Rect> Parser;
-        public Google.Protobuf.UnknownFieldSet Descriptor; // 0x10
-        public int pb::Google.Protobuf.IMessage.Descriptor; // 0x18
-        public int XCenter; // 0x8
-        public int HasXCenter; // 0x1C
-        public int YCenter; // 0xC
-        public int HasYCenter; // 0x20
-        public int Height; // 0x10
-        public int HasHeight; // 0x24
-        public int Width; // 0x14
-        public int HasWidth; // 0x28
-        public float Rotation; // 0x18
-        public float HasRotation; // 0x2C
-        public long RectId; // 0x20
-        public long HasRectId; // 0x30
+        public Google.Protobuf.MessageParser`1<Mediapipe.Rect> _parser;
+        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
+        public int _hasBits0; // 0x18
+        public int XCenterDefaultValue; // 0x8
+        public int xCenter_; // 0x1C
+        public int YCenterDefaultValue; // 0xC
+        public int yCenter_; // 0x20
+        public int HeightDefaultValue; // 0x10
+        public int height_; // 0x24
+        public int WidthDefaultValue; // 0x14
+        public int width_; // 0x28
+        public float RotationDefaultValue; // 0x18
+        public float rotation_; // 0x2C
+        public long RectIdDefaultValue; // 0x20
+        public long rectId_; // 0x30
 
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFAC82B6870
-        public void get_Descriptor(){} // RVA: 0x7FFAC82B68D0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAC82B6990
-        public void .ctor(){} // RVA: 0x7FFAC82B6A80 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFAC82B6B80
-        public void get_XCenter(){} // RVA: 0x7FFAC82B6CB0
-        public void set_XCenter(){} // RVA: 0x7FFAC81F3760
-        public void get_HasXCenter(){} // RVA: 0x7FFAC81F3770
-        public void ClearXCenter(){} // RVA: 0x7FFAC81F3780
-        public void get_YCenter(){} // RVA: 0x7FFAC82B6D20
-        public void set_YCenter(){} // RVA: 0x7FFAC81F3800
-        public void get_HasYCenter(){} // RVA: 0x7FFAC81F3810
-        public void ClearYCenter(){} // RVA: 0x7FFAC81F3820
-        public void get_Height(){} // RVA: 0x7FFAC82B6D90
-        public void set_Height(){} // RVA: 0x7FFAC82834A0
-        public void get_HasHeight(){} // RVA: 0x7FFAC81F6A10
-        public void ClearHeight(){} // RVA: 0x7FFAC81F6A20
-        public void get_Width(){} // RVA: 0x7FFAC82B6E00
-        public void set_Width(){} // RVA: 0x7FFAC8286700
-        public void get_HasWidth(){} // RVA: 0x7FFAC81F6FD0
-        public void ClearWidth(){} // RVA: 0x7FFAC81F6FE0
-        public void get_Rotation(){} // RVA: 0x7FFAC82B6E70
-        public void set_Rotation(){} // RVA: 0x7FFAC82A7E70
-        public void get_HasRotation(){} // RVA: 0x7FFAC81F7240
-        public void ClearRotation(){} // RVA: 0x7FFAC81F7250
-        public void get_RectId(){} // RVA: 0x7FFAC82B6EE0
-        public void set_RectId(){} // RVA: 0x7FFAC82B6F50
-        public void get_HasRectId(){} // RVA: 0x7FFAC82838B0
-        public void ClearRectId(){} // RVA: 0x7FFAC82838C0
-        public void Equals(){} // RVA: 0x7FFAC82B6FC0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAC82B7150
-        public void ToString(){} // RVA: 0x7FFAC82B7280
-        public void WriteTo(){} // RVA: 0x7FFAC81D0B60
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAC82B72D0
-        public void CalculateSize(){} // RVA: 0x7FFAC82B7400
-        public void MergeFrom(){} // RVA: 0x7FFAC81D0EA0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAC82B7720
-        public void .cctor(){} // RVA: 0x7FFAC82B7850
+        public void get_Parser(){} // RVA: 0x7FFE86660190
+        public void get_Descriptor(){} // RVA: 0x7FFE866601F0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE866602B0
+        public void .ctor(){} // RVA: 0x7FFE866603A0 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFE866604A0
+        public void get_XCenter(){} // RVA: 0x7FFE866605D0
+        public void set_XCenter(){} // RVA: 0x7FFE8659D0A0
+        public void get_HasXCenter(){} // RVA: 0x7FFE8659D0B0
+        public void ClearXCenter(){} // RVA: 0x7FFE8659D0C0
+        public void get_YCenter(){} // RVA: 0x7FFE86660640
+        public void set_YCenter(){} // RVA: 0x7FFE8659D140
+        public void get_HasYCenter(){} // RVA: 0x7FFE8659D150
+        public void ClearYCenter(){} // RVA: 0x7FFE8659D160
+        public void get_Height(){} // RVA: 0x7FFE866606B0
+        public void set_Height(){} // RVA: 0x7FFE8662CDC0
+        public void get_HasHeight(){} // RVA: 0x7FFE865A0350
+        public void ClearHeight(){} // RVA: 0x7FFE865A0360
+        public void get_Width(){} // RVA: 0x7FFE86660720
+        public void set_Width(){} // RVA: 0x7FFE86630020
+        public void get_HasWidth(){} // RVA: 0x7FFE865A0910
+        public void ClearWidth(){} // RVA: 0x7FFE865A0920
+        public void get_Rotation(){} // RVA: 0x7FFE86660790
+        public void set_Rotation(){} // RVA: 0x7FFE86651790
+        public void get_HasRotation(){} // RVA: 0x7FFE865A0B80
+        public void ClearRotation(){} // RVA: 0x7FFE865A0B90
+        public void get_RectId(){} // RVA: 0x7FFE86660800
+        public void set_RectId(){} // RVA: 0x7FFE86660870
+        public void get_HasRectId(){} // RVA: 0x7FFE8662D1D0
+        public void ClearRectId(){} // RVA: 0x7FFE8662D1E0
+        public void Equals(){} // RVA: 0x7FFE866608E0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE86660A70
+        public void ToString(){} // RVA: 0x7FFE86660BA0
+        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE86660BF0
+        public void CalculateSize(){} // RVA: 0x7FFE86660D20
+        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE86661040
+        public void .cctor(){} // RVA: 0x7FFE86661170
     }
 
     public class RectReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor Descriptor;
+        public Google.Protobuf.Reflection.FileDescriptor descriptor;
 
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFAC82B6020
-        public void .cctor(){} // RVA: 0x7FFAC82B6080
+        public void get_Descriptor(){} // RVA: 0x7FFE8665F940
+        public void .cctor(){} // RVA: 0x7FFE8665F9A0
     }
 
     public class ResourceManager : Object
     {
-        public object _InitLock;
-        public Mediapipe.ResourceManager _Instance; // 0x8
-        public PathResolver _pathResolver; // 0x10
-        public ResourceProvider _resourceProvider; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC82C9B40
+        public void .ctor(){} // RVA: 0x7FFE86673460
         public void PrepareAssetAsync(){}
-        public void PathToResourceAsFile(){} // RVA: 0x7FFAC82CA0D0
-        public void GetResourceContents(){} // RVA: 0x7FFAC82CA190
-        public void GetAssetNameFromPath(){} // RVA: 0x7FFAC82CA560
-        public void .cctor(){} // RVA: 0x7FFAC82CA740
+        public void PathToResourceAsFile(){} // RVA: 0x7FFE866739F0
+        public void GetResourceContents(){} // RVA: 0x7FFE86673AB0
+        public void GetAssetNameFromPath(){} // RVA: 0x7FFE86673E80
+        public void .cctor(){} // RVA: 0x7FFE86674060
     }
 
 }

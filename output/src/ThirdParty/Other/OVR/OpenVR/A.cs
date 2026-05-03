@@ -7,8 +7,6 @@ namespace ThirdParty.Other.OVR.OpenVR
 {
     public class AppOverrideKeys_t : ValueType
     {
-        public UIntPtr pchKey; // 0x10
-        public UIntPtr pchValue; // 0x18
     }
 
 }

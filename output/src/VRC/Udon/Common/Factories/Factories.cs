@@ -8,8 +8,8 @@ namespace VRC.Udon.Common.Factories
     public class UdonHeapFactory : Object
     {
         // ── Methods ──
-        public void ConstructUdonHeap(){} // RVA: 0x7FFAC9E875F0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
+        public void ConstructUdonHeap(){} // RVA: 0x7FFE8823A080 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
 }

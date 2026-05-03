@@ -7,993 +7,922 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Pa
 {
     public class AeadParameters : Object
     {
-        public byte[] Key; // 0x10
-        public byte[] MacSize; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter key; // 0x20
-        public int macSize; // 0x28
+        public byte[] associatedText; // 0x10
+        public byte[] nonce; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB8DE90 | overloaded x2
-        public void get_Key(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_MacSize(){} // RVA: 0x7FFAC32EC4C0
-        public void GetAssociatedText(){} // RVA: 0x7FFAC2F3C380
-        public void GetNonce(){} // RVA: 0x7FFAC2F247C0
+        public void .ctor(){} // RVA: 0x7FFE89FE74B0 | overloaded x2
+        public void get_Key(){} // RVA: 0x7FFE811290C0
+        public void get_MacSize(){} // RVA: 0x7FFE81549710
+        public void GetAssociatedText(){} // RVA: 0x7FFE81116380
+        public void GetNonce(){} // RVA: 0x7FFE810FE7C0
     }
 
     public class CcmParameters : AeadParameters
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB8DFC0
+        public void .ctor(){} // RVA: 0x7FFE89FE75E0
     }
 
     public class DHKeyGenerationParameters : KeyGenerationParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DHParameters Parameters; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DHParameters parameters; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB8EC10
-        public void get_Parameters(){} // RVA: 0x7FFAC2F4F0C0
-        public void GetStrength(){} // RVA: 0x7FFACBB8ECD0
+        public void .ctor(){} // RVA: 0x7FFE89FE8230
+        public void get_Parameters(){} // RVA: 0x7FFE811290C0
+        public void GetStrength(){} // RVA: 0x7FFE89FE82F0
     }
 
     public class DHKeyParameters : AsymmetricKeyParameter
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DHParameters Parameters; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier AlgorithmOid; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DHParameters parameters; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB8EDA0 | overloaded x2
-        public void get_Parameters(){} // RVA: 0x7FFAC2F247C0
-        public void get_AlgorithmOid(){} // RVA: 0x7FFAC2F4F0C0
-        public void Equals(){} // RVA: 0x7FFACBB8EF40 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB8EFB0
+        public void .ctor(){} // RVA: 0x7FFE89FE83C0 | overloaded x2
+        public void get_Parameters(){} // RVA: 0x7FFE810FE7C0
+        public void get_AlgorithmOid(){} // RVA: 0x7FFE811290C0
+        public void Equals(){} // RVA: 0x7FFE89FE8560 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FE85D0
     }
 
     public class DHParameters : Object
     {
-        public int P;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger G; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger J; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger M; // 0x28
-        public int L; // 0x30
-        public int ValidationParameters; // 0x34
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DHValidationParameters validation; // 0x38
+        public int DefaultMinimumLength;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger p; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger j; // 0x28
+        public int m; // 0x30
+        public int l; // 0x34
 
         // ── Methods ──
-        public void GetDefaultMParam(){} // RVA: 0x7FFACBB8F040
-        public void .ctor(){} // RVA: 0x7FFACBB8F2F0 | overloaded x6
-        public void get_P(){} // RVA: 0x7FFAC2F3C380
-        public void get_G(){} // RVA: 0x7FFAC2F247C0
-        public void get_Q(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_J(){} // RVA: 0x7FFAC2F4F130
-        public void get_M(){} // RVA: 0x7FFAC2F7CCD0
-        public void get_L(){} // RVA: 0x7FFAC3ADEDC0
-        public void get_ValidationParameters(){} // RVA: 0x7FFAC31D0140
-        public void Equals(){} // RVA: 0x7FFACBB8F8D0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB8F990
+        public void GetDefaultMParam(){} // RVA: 0x7FFE89FE8660
+        public void .ctor(){} // RVA: 0x7FFE89FE8910 | overloaded x6
+        public void get_P(){} // RVA: 0x7FFE81116380
+        public void get_G(){} // RVA: 0x7FFE810FE7C0
+        public void get_Q(){} // RVA: 0x7FFE811290C0
+        public void get_J(){} // RVA: 0x7FFE81129130
+        public void get_M(){} // RVA: 0x7FFE81156CD0
+        public void get_L(){} // RVA: 0x7FFE82447220
+        public void get_ValidationParameters(){} // RVA: 0x7FFE8143BA80
+        public void Equals(){} // RVA: 0x7FFE89FE8EF0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FE8FB0
     }
 
     public class DHPrivateKeyParameters : DHKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger X; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger x; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB8FA90 | overloaded x2
-        public void get_X(){} // RVA: 0x7FFAC2F4F130
-        public void Equals(){} // RVA: 0x7FFACBB8FC30 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB8FCC0
+        public void .ctor(){} // RVA: 0x7FFE89FE90B0 | overloaded x2
+        public void get_X(){} // RVA: 0x7FFE81129130
+        public void Equals(){} // RVA: 0x7FFE89FE9250 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FE92E0
     }
 
     public class DHPublicKeyParameters : DHKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Y; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger y; // 0x28
 
         // ── Methods ──
-        public void Validate(){} // RVA: 0x7FFACBB8FD10
-        public void .ctor(){} // RVA: 0x7FFACBB90000 | overloaded x2
-        public void get_Y(){} // RVA: 0x7FFAC2F4F130
-        public void Equals(){} // RVA: 0x7FFACBB8FC30 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB8FCC0
+        public void Validate(){} // RVA: 0x7FFE89FE9330
+        public void .ctor(){} // RVA: 0x7FFE89FE9620 | overloaded x2
+        public void get_Y(){} // RVA: 0x7FFE81129130
+        public void Equals(){} // RVA: 0x7FFE89FE9250 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FE92E0
     }
 
     public class DHValidationParameters : Object
     {
-        public byte[] Counter; // 0x10
-        public int counter; // 0x18
+        public byte[] seed; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB901C0
-        public void GetSeed(){} // RVA: 0x7FFACBB90320
-        public void get_Counter(){} // RVA: 0x7FFAC3157800
-        public void Equals(){} // RVA: 0x7FFACBB90520 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB90620
+        public void .ctor(){} // RVA: 0x7FFE89FE97E0
+        public void GetSeed(){} // RVA: 0x7FFE89FE9940
+        public void get_Counter(){} // RVA: 0x7FFE813DB630
+        public void Equals(){} // RVA: 0x7FFE89FE9B40 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FE9C40
     }
 
     public class DesEdeParameters : DesParameters
     {
-        public int DesEdeKeyLength;
-
         // ── Methods ──
-        public void FixKey(){} // RVA: 0x7FFACBB8DFD0
-        public void .ctor(){} // RVA: 0x7FFACBB8E200 | overloaded x2
-        public void IsWeakKey(){} // RVA: 0x7FFACBB8E360 | overloaded x3
-        public void IsRealEdeKey(){} // RVA: 0x7FFACBB8E390
-        public void IsReal2Key(){} // RVA: 0x7FFACBB8E4D0
-        public void IsReal3Key(){} // RVA: 0x7FFACBB8E540
+        public void FixKey(){} // RVA: 0x7FFE89FE75F0
+        public void .ctor(){} // RVA: 0x7FFE89FE7820 | overloaded x2
+        public void IsWeakKey(){} // RVA: 0x7FFE89FE7980 | overloaded x3
+        public void IsRealEdeKey(){} // RVA: 0x7FFE89FE79B0
+        public void IsReal2Key(){} // RVA: 0x7FFE89FE7AF0
+        public void IsReal3Key(){} // RVA: 0x7FFE89FE7B60
     }
 
     public class DesParameters : KeyParameter
     {
-        public int DesKeyLength;
-        public int N_DES_WEAK_KEYS;
-        public byte[] DES_weak_keys;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB8E6F0 | overloaded x2
-        public void IsWeakKey(){} // RVA: 0x7FFACBB8E910 | overloaded x2
-        public void SetOddParity(){} // RVA: 0x7FFACBB8EA60 | overloaded x3
-        public void .cctor(){} // RVA: 0x7FFACBB8EB30
+        public void .ctor(){} // RVA: 0x7FFE89FE7D10 | overloaded x2
+        public void IsWeakKey(){} // RVA: 0x7FFE89FE7F30 | overloaded x2
+        public void SetOddParity(){} // RVA: 0x7FFE89FE8080 | overloaded x3
+        public void .cctor(){} // RVA: 0x7FFE89FE8150
     }
 
     public class DsaKeyGenerationParameters : KeyGenerationParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaParameters Parameters; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB906D0
-        public void get_Parameters(){} // RVA: 0x7FFAC2F4F0C0
+        public void .ctor(){} // RVA: 0x7FFE89FE9CF0
+        public void get_Parameters(){} // RVA: 0x7FFE811290C0
     }
 
     public class DsaKeyParameters : AsymmetricKeyParameter
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaParameters Parameters; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC833CCF0
-        public void get_Parameters(){} // RVA: 0x7FFAC2F247C0
-        public void Equals(){} // RVA: 0x7FFACBB8EF40 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB8EFB0
+        public void .ctor(){} // RVA: 0x7FFE866E65F0
+        public void get_Parameters(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE89FE8560 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FE85D0
     }
 
     public class DsaParameterGenerationParameters : Object
     {
-        public int L;
-        public int N;
-        public int UsageIndex; // 0x10
-        public int Certainty; // 0x14
-        public int Random; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x20
-        public int usageIndex; // 0x28
+        public int DigitalSignatureUsage;
+        public int KeyEstablishmentUsage;
+        public int l; // 0x10
+        public int n; // 0x14
+        public int certainty; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB908F0 | overloaded x2
-        public void get_L(){} // RVA: 0x7FFAC2F6E5C0
-        public void get_N(){} // RVA: 0x7FFAC33D5A20
-        public void get_UsageIndex(){} // RVA: 0x7FFAC32EC4C0
-        public void get_Certainty(){} // RVA: 0x7FFAC3157800
-        public void get_Random(){} // RVA: 0x7FFAC2F4F0C0
+        public void .ctor(){} // RVA: 0x7FFE89FE9F10 | overloaded x2
+        public void get_L(){} // RVA: 0x7FFE811485C0
+        public void get_N(){} // RVA: 0x7FFE8164B230
+        public void get_UsageIndex(){} // RVA: 0x7FFE81549710
+        public void get_Certainty(){} // RVA: 0x7FFE813DB630
+        public void get_Random(){} // RVA: 0x7FFE811290C0
     }
 
     public class DsaParameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger P; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger G; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaValidationParameters ValidationParameters; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger p; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.DsaValidationParameters validation; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB90AB0 | overloaded x2
-        public void get_P(){} // RVA: 0x7FFAC2F3C380
-        public void get_Q(){} // RVA: 0x7FFAC2F247C0
-        public void get_G(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_ValidationParameters(){} // RVA: 0x7FFAC2F4F130
-        public void Equals(){} // RVA: 0x7FFACBB90D20 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB90DC0
+        public void .ctor(){} // RVA: 0x7FFE89FEA0D0 | overloaded x2
+        public void get_P(){} // RVA: 0x7FFE81116380
+        public void get_Q(){} // RVA: 0x7FFE810FE7C0
+        public void get_G(){} // RVA: 0x7FFE811290C0
+        public void get_ValidationParameters(){} // RVA: 0x7FFE81129130
+        public void Equals(){} // RVA: 0x7FFE89FEA340 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEA3E0
     }
 
     public class DsaPrivateKeyParameters : DsaKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger X; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger x; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB90E50
-        public void get_X(){} // RVA: 0x7FFAC2F4F0C0
-        public void Equals(){} // RVA: 0x7FFACBB91090 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB91120
+        public void .ctor(){} // RVA: 0x7FFE89FEA470
+        public void get_X(){} // RVA: 0x7FFE811290C0
+        public void Equals(){} // RVA: 0x7FFE89FEA6B0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEA740
     }
 
     public class DsaPublicKeyParameters : DsaKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Y; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger y; // 0x20
 
         // ── Methods ──
-        public void Validate(){} // RVA: 0x7FFACBB91170
-        public void .ctor(){} // RVA: 0x7FFACBB91310
-        public void get_Y(){} // RVA: 0x7FFAC2F4F0C0
-        public void Equals(){} // RVA: 0x7FFACBB91090 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB91120
+        public void Validate(){} // RVA: 0x7FFE89FEA790
+        public void .ctor(){} // RVA: 0x7FFE89FEA930
+        public void get_Y(){} // RVA: 0x7FFE811290C0
+        public void Equals(){} // RVA: 0x7FFE89FEA6B0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEA740
     }
 
     public class DsaValidationParameters : Object
     {
-        public byte[] Counter; // 0x10
-        public int UsageIndex; // 0x18
-        public int usageIndex; // 0x1C
+        public byte[] seed; // 0x10
+        public int counter; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB91700 | overloaded x2
-        public void GetSeed(){} // RVA: 0x7FFACBB91860
-        public void get_Counter(){} // RVA: 0x7FFAC3157800
-        public void get_UsageIndex(){} // RVA: 0x7FFAC44357F0
-        public void Equals(){} // RVA: 0x7FFACBB919A0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB91AA0
+        public void .ctor(){} // RVA: 0x7FFE89FEAD20 | overloaded x2
+        public void GetSeed(){} // RVA: 0x7FFE89FEAE80
+        public void get_Counter(){} // RVA: 0x7FFE813DB630
+        public void get_UsageIndex(){} // RVA: 0x7FFE82707EE0
+        public void Equals(){} // RVA: 0x7FFE89FEAFC0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEB0C0
     }
 
     public class ECDomainParameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECCurve Curve; // 0x10
-        public byte[] G; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint N; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger H; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger HInv; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger hInv; // 0x38
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECCurve curve; // 0x10
+        public byte[] seed; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint g; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger n; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger h; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB91F60 | overloaded x3
-        public void get_Curve(){} // RVA: 0x7FFAC2F3C380
-        public void get_G(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_N(){} // RVA: 0x7FFAC2F4F130
-        public void get_H(){} // RVA: 0x7FFAC31D95E0
-        public void get_HInv(){} // RVA: 0x7FFACBB92120
-        public void GetSeed(){} // RVA: 0x7FFACBB922D0
-        public void Equals(){} // RVA: 0x7FFACBB92440 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB924E0
-        public void ValidatePrivateScalar(){} // RVA: 0x7FFACBB92580
-        public void ValidatePublicPoint(){} // RVA: 0x7FFACBB926E0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE89FEB580 | overloaded x3
+        public void get_Curve(){} // RVA: 0x7FFE81116380
+        public void get_G(){} // RVA: 0x7FFE811290C0
+        public void get_N(){} // RVA: 0x7FFE81129130
+        public void get_H(){} // RVA: 0x7FFE8144E200
+        public void get_HInv(){} // RVA: 0x7FFE89FEB740
+        public void GetSeed(){} // RVA: 0x7FFE89FEB8F0
+        public void Equals(){} // RVA: 0x7FFE89FEBA60 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEBB00
+        public void ValidatePrivateScalar(){} // RVA: 0x7FFE89FEBBA0
+        public void ValidatePublicPoint(){} // RVA: 0x7FFE89FEBD00 | overloaded x2
     }
 
     public class ECGost3410Parameters : ECNamedDomainParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier PublicKeyParamSet; // 0x48
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier DigestParamSet; // 0x50
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier EncryptionParamSet; // 0x58
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet; // 0x48
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier _digestParamSet; // 0x50
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier _encryptionParamSet; // 0x58
 
         // ── Methods ──
-        public void get_PublicKeyParamSet(){} // RVA: 0x7FFAC2F9C730
-        public void get_DigestParamSet(){} // RVA: 0x7FFAC2FC20E0
-        public void get_EncryptionParamSet(){} // RVA: 0x7FFAC2FE9500
-        public void .ctor(){} // RVA: 0x7FFACBB92A40 | overloaded x2
+        public void get_PublicKeyParamSet(){} // RVA: 0x7FFE81176730
+        public void get_DigestParamSet(){} // RVA: 0x7FFE8119C0E0
+        public void get_EncryptionParamSet(){} // RVA: 0x7FFE811C3500
+        public void .ctor(){} // RVA: 0x7FFE89FEC060 | overloaded x2
     }
 
     public class ECKeyGenerationParameters : KeyGenerationParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECDomainParameters DomainParameters; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier PublicKeyParamSet; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParams; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB92CA0 | overloaded x2
-        public void get_DomainParameters(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_PublicKeyParamSet(){} // RVA: 0x7FFAC2F4F130
+        public void .ctor(){} // RVA: 0x7FFE89FEC2C0 | overloaded x2
+        public void get_DomainParameters(){} // RVA: 0x7FFE811290C0
+        public void get_PublicKeyParamSet(){} // RVA: 0x7FFE81129130
     }
 
     public class ECKeyParameters : AsymmetricKeyParameter
     {
-        public string[] AlgorithmName;
-        public string Parameters; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECDomainParameters PublicKeyParamSet; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet; // 0x28
+        public string[] algorithms;
+        public string algorithm; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB92F30 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFAC2F247C0
-        public void get_Parameters(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_PublicKeyParamSet(){} // RVA: 0x7FFAC2F4F130
-        public void Equals(){} // RVA: 0x7FFACBB93210 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB93270
-        public void CreateKeyGenerationParameters(){} // RVA: 0x7FFACBB932F0
-        public void VerifyAlgorithmName(){} // RVA: 0x7FFACBB93430
-        public void LookupParameters(){} // RVA: 0x7FFACBB93570
-        public void .cctor(){} // RVA: 0x7FFACBB938A0
+        public void .ctor(){} // RVA: 0x7FFE89FEC550 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFE810FE7C0
+        public void get_Parameters(){} // RVA: 0x7FFE811290C0
+        public void get_PublicKeyParamSet(){} // RVA: 0x7FFE81129130
+        public void Equals(){} // RVA: 0x7FFE89FEC830 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEC890
+        public void CreateKeyGenerationParameters(){} // RVA: 0x7FFE89FEC910
+        public void VerifyAlgorithmName(){} // RVA: 0x7FFE89FECA50
+        public void LookupParameters(){} // RVA: 0x7FFE89FECB90
+        public void .cctor(){} // RVA: 0x7FFE89FECEC0
     }
 
     public class ECNamedDomainParameters : ECDomainParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier Name; // 0x40
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier name; // 0x40
 
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFAC2F9E740
-        public void .ctor(){} // RVA: 0x7FFACBB93D90 | overloaded x4
+        public void get_Name(){} // RVA: 0x7FFE81178740
+        public void .ctor(){} // RVA: 0x7FFE89FED3B0 | overloaded x4
     }
 
     public class ECPrivateKeyParameters : ECKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger D; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger d; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB94210 | overloaded x4
-        public void get_D(){} // RVA: 0x7FFAC31D95E0
-        public void Equals(){} // RVA: 0x7FFACBB94410 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB944A0
+        public void .ctor(){} // RVA: 0x7FFE89FED830 | overloaded x4
+        public void get_D(){} // RVA: 0x7FFE8144E200
+        public void Equals(){} // RVA: 0x7FFE89FEDA30 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEDAC0
     }
 
     public class ECPublicKeyParameters : ECKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint Q; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint q; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB94750 | overloaded x4
-        public void get_Q(){} // RVA: 0x7FFAC31D95E0
-        public void Equals(){} // RVA: 0x7FFACBB94950 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB944A0
+        public void .ctor(){} // RVA: 0x7FFE89FEDD70 | overloaded x4
+        public void get_Q(){} // RVA: 0x7FFE8144E200
+        public void Equals(){} // RVA: 0x7FFE89FEDF70 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEDAC0
     }
 
     public class Ed25519KeyGenerationParameters : KeyGenerationParameters
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB949E0
+        public void .ctor(){} // RVA: 0x7FFE89FEE000
     }
 
     public class Ed25519PrivateKeyParameters : AsymmetricKeyParameter
     {
-        public int KeySize;
-        public int SignatureSize; // 0x4
-        public byte[] data; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB94CE0 | overloaded x3
-        public void Encode(){} // RVA: 0x7FFACBB94E80
-        public void GetEncoded(){} // RVA: 0x7FFACBB94F20
-        public void GeneratePublicKey(){} // RVA: 0x7FFACBB94FD0
-        public void Sign(){} // RVA: 0x7FFACBB950A0
-        public void .cctor(){} // RVA: 0x7FFACBB95520
+        public void .ctor(){} // RVA: 0x7FFE89FEE300 | overloaded x3
+        public void Encode(){} // RVA: 0x7FFE89FEE4A0
+        public void GetEncoded(){} // RVA: 0x7FFE89FEE540
+        public void GeneratePublicKey(){} // RVA: 0x7FFE89FEE5F0
+        public void Sign(){} // RVA: 0x7FFE89FEE6C0
+        public void .cctor(){} // RVA: 0x7FFE89FEEB40
     }
 
     public class Ed25519PublicKeyParameters : AsymmetricKeyParameter
     {
-        public int KeySize;
-        public byte[] data; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB956E0 | overloaded x2
-        public void Encode(){} // RVA: 0x7FFACBB95880
-        public void GetEncoded(){} // RVA: 0x7FFACBB95920
-        public void .cctor(){} // RVA: 0x7FFACBB959D0
+        public void .ctor(){} // RVA: 0x7FFE89FEED00 | overloaded x2
+        public void Encode(){} // RVA: 0x7FFE89FEEEA0
+        public void GetEncoded(){} // RVA: 0x7FFE89FEEF40
+        public void .cctor(){} // RVA: 0x7FFE89FEEFF0
     }
 
     public class Ed448KeyGenerationParameters : KeyGenerationParameters
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB95A50
+        public void .ctor(){} // RVA: 0x7FFE89FEF070
     }
 
     public class Ed448PrivateKeyParameters : AsymmetricKeyParameter
     {
-        public int KeySize;
-        public int SignatureSize; // 0x4
-        public byte[] data; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB95D50 | overloaded x3
-        public void Encode(){} // RVA: 0x7FFACBB95EF0
-        public void GetEncoded(){} // RVA: 0x7FFACBB95F90
-        public void GeneratePublicKey(){} // RVA: 0x7FFACBB96040
-        public void Sign(){} // RVA: 0x7FFACBB96110
-        public void .cctor(){} // RVA: 0x7FFACBB96490
+        public void .ctor(){} // RVA: 0x7FFE89FEF370 | overloaded x3
+        public void Encode(){} // RVA: 0x7FFE89FEF510
+        public void GetEncoded(){} // RVA: 0x7FFE89FEF5B0
+        public void GeneratePublicKey(){} // RVA: 0x7FFE89FEF660
+        public void Sign(){} // RVA: 0x7FFE89FEF730
+        public void .cctor(){} // RVA: 0x7FFE89FEFAB0
     }
 
     public class Ed448PublicKeyParameters : AsymmetricKeyParameter
     {
-        public int KeySize;
-        public byte[] data; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB96650 | overloaded x2
-        public void Encode(){} // RVA: 0x7FFACBB967F0
-        public void GetEncoded(){} // RVA: 0x7FFACBB96890
-        public void .cctor(){} // RVA: 0x7FFACBB96940
+        public void .ctor(){} // RVA: 0x7FFE89FEFC70 | overloaded x2
+        public void Encode(){} // RVA: 0x7FFE89FEFE10
+        public void GetEncoded(){} // RVA: 0x7FFE89FEFEB0
+        public void .cctor(){} // RVA: 0x7FFE89FEFF60
     }
 
     public class ElGamalKeyGenerationParameters : KeyGenerationParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ElGamalParameters Parameters; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB969C0
-        public void get_Parameters(){} // RVA: 0x7FFAC2F4F0C0
-        public void GetStrength(){} // RVA: 0x7FFACBB96A80
+        public void .ctor(){} // RVA: 0x7FFE89FEFFE0
+        public void get_Parameters(){} // RVA: 0x7FFE811290C0
+        public void GetStrength(){} // RVA: 0x7FFE89FF00A0
     }
 
     public class ElGamalKeyParameters : AsymmetricKeyParameter
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ElGamalParameters Parameters; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC833CCF0
-        public void get_Parameters(){} // RVA: 0x7FFAC2F247C0
-        public void Equals(){} // RVA: 0x7FFACBB8EF40 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB8EFB0
+        public void .ctor(){} // RVA: 0x7FFE866E65F0
+        public void get_Parameters(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE89FE8560 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FE85D0
     }
 
     public class ElGamalParameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger P; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger G; // 0x18
-        public int L; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger p; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x18
+        public int l; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB96D20 | overloaded x2
-        public void get_P(){} // RVA: 0x7FFAC2F3C380
-        public void get_G(){} // RVA: 0x7FFAC2F247C0
-        public void get_L(){} // RVA: 0x7FFAC30DBBE0
-        public void Equals(){} // RVA: 0x7FFACBB96FA0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB97030
+        public void .ctor(){} // RVA: 0x7FFE89FF0340 | overloaded x2
+        public void get_P(){} // RVA: 0x7FFE81116380
+        public void get_G(){} // RVA: 0x7FFE810FE7C0
+        public void get_L(){} // RVA: 0x7FFE8151D690
+        public void Equals(){} // RVA: 0x7FFE89FF05C0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FF0650
     }
 
     public class ElGamalPrivateKeyParameters : ElGamalKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger X; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger x; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB97090
-        public void get_X(){} // RVA: 0x7FFAC2F4F0C0
-        public void Equals(){} // RVA: 0x7FFACBB972D0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB91120
+        public void .ctor(){} // RVA: 0x7FFE89FF06B0
+        public void get_X(){} // RVA: 0x7FFE811290C0
+        public void Equals(){} // RVA: 0x7FFE89FF08F0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEA740
     }
 
     public class ElGamalPublicKeyParameters : ElGamalKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Y; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger y; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB97360
-        public void get_Y(){} // RVA: 0x7FFAC2F4F0C0
-        public void Equals(){} // RVA: 0x7FFACBB91090 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB91120
+        public void .ctor(){} // RVA: 0x7FFE89FF0980
+        public void get_Y(){} // RVA: 0x7FFE811290C0
+        public void Equals(){} // RVA: 0x7FFE89FEA6B0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEA740
     }
 
     public class Gost3410KeyGenerationParameters : KeyGenerationParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters Parameters; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier PublicKeyParamSet; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters parameters; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB975A0 | overloaded x2
-        public void get_Parameters(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_PublicKeyParamSet(){} // RVA: 0x7FFAC2F4F130
-        public void LookupParameters(){} // RVA: 0x7FFACBB976D0
+        public void .ctor(){} // RVA: 0x7FFE89FF0BC0 | overloaded x2
+        public void get_Parameters(){} // RVA: 0x7FFE811290C0
+        public void get_PublicKeyParamSet(){} // RVA: 0x7FFE81129130
+        public void LookupParameters(){} // RVA: 0x7FFE89FF0CF0
     }
 
     public class Gost3410KeyParameters : AsymmetricKeyParameter
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters Parameters; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier PublicKeyParamSet; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters parameters; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB97990 | overloaded x2
-        public void get_Parameters(){} // RVA: 0x7FFAC2F247C0
-        public void get_PublicKeyParamSet(){} // RVA: 0x7FFAC2F4F0C0
-        public void LookupParameters(){} // RVA: 0x7FFACBB97A70
+        public void .ctor(){} // RVA: 0x7FFE89FF0FB0 | overloaded x2
+        public void get_Parameters(){} // RVA: 0x7FFE810FE7C0
+        public void get_PublicKeyParamSet(){} // RVA: 0x7FFE811290C0
+        public void LookupParameters(){} // RVA: 0x7FFE89FF1090
     }
 
     public class Gost3410Parameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger P; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger A; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters ValidationParameters; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger p; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger a; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters validation; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB97E70 | overloaded x2
-        public void get_P(){} // RVA: 0x7FFAC2F3C380
-        public void get_Q(){} // RVA: 0x7FFAC2F247C0
-        public void get_A(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_ValidationParameters(){} // RVA: 0x7FFAC2F4F130
-        public void Equals(){} // RVA: 0x7FFACBB90D20 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFACBB90DC0
+        public void .ctor(){} // RVA: 0x7FFE89FF1490 | overloaded x2
+        public void get_P(){} // RVA: 0x7FFE81116380
+        public void get_Q(){} // RVA: 0x7FFE810FE7C0
+        public void get_A(){} // RVA: 0x7FFE811290C0
+        public void get_ValidationParameters(){} // RVA: 0x7FFE81129130
+        public void Equals(){} // RVA: 0x7FFE89FEA340 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFE89FEA3E0
     }
 
     public class Gost3410PrivateKeyParameters : Gost3410KeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger X; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger x; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB98200 | overloaded x2
-        public void get_X(){} // RVA: 0x7FFAC2F4F130
+        public void .ctor(){} // RVA: 0x7FFE89FF1820 | overloaded x2
+        public void get_X(){} // RVA: 0x7FFE81129130
     }
 
     public class Gost3410PublicKeyParameters : Gost3410KeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Y; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger y; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB98430 | overloaded x2
-        public void get_Y(){} // RVA: 0x7FFAC2F4F130
+        public void .ctor(){} // RVA: 0x7FFE89FF1A50 | overloaded x2
+        public void get_Y(){} // RVA: 0x7FFE81129130
     }
 
     public class Gost3410ValidationParameters : Object
     {
-        public int C; // 0x10
-        public int X0; // 0x14
-        public long CL; // 0x18
-        public long X0L; // 0x20
+        public int x0; // 0x10
+        public int c; // 0x14
+        public long x0L; // 0x18
+        public long cL; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB98530 | overloaded x2
-        public void get_C(){} // RVA: 0x7FFAC33D5A20
-        public void get_X0(){} // RVA: 0x7FFAC2F6E5C0
-        public void get_CL(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_X0L(){} // RVA: 0x7FFAC2F247C0
-        public void Equals(){} // RVA: 0x7FFACBB98540
-        public void GetHashCode(){} // RVA: 0x7FFACBB98600
+        public void .ctor(){} // RVA: 0x7FFE89FF1B50 | overloaded x2
+        public void get_C(){} // RVA: 0x7FFE8164B230
+        public void get_X0(){} // RVA: 0x7FFE811485C0
+        public void get_CL(){} // RVA: 0x7FFE811290C0
+        public void get_X0L(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE89FF1B60
+        public void GetHashCode(){} // RVA: 0x7FFE89FF1C20
     }
 
     public class HkdfParameters : Object
     {
-        public byte[] SkipExtract; // 0x10
-        public bool skipExpand; // 0x18
-        public byte[] salt; // 0x20
-        public byte[] info; // 0x28
+        public byte[] ikm; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB98970 | overloaded x2
-        public void SkipExtractParameters(){} // RVA: 0x7FFACBB989A0
-        public void DefaultParameters(){} // RVA: 0x7FFACBB98A20
-        public void GetIkm(){} // RVA: 0x7FFACBB98A90
-        public void get_SkipExtract(){} // RVA: 0x7FFAC2F3C4E0
-        public void GetSalt(){} // RVA: 0x7FFACBB98B40
-        public void GetInfo(){} // RVA: 0x7FFACBB98BF0
+        public void .ctor(){} // RVA: 0x7FFE89FF1F90 | overloaded x2
+        public void SkipExtractParameters(){} // RVA: 0x7FFE89FF1FC0
+        public void DefaultParameters(){} // RVA: 0x7FFE89FF2040
+        public void GetIkm(){} // RVA: 0x7FFE89FF20B0
+        public void get_SkipExtract(){} // RVA: 0x7FFE811164E0
+        public void GetSalt(){} // RVA: 0x7FFE89FF2160
+        public void GetInfo(){} // RVA: 0x7FFE89FF2210
     }
 
     public class IesParameters : Object
     {
-        public byte[] MacKeySize; // 0x10
-        public byte[] encoding; // 0x18
-        public int macKeySize; // 0x20
+        public byte[] derivation; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC7E02DD0
-        public void GetDerivationV(){} // RVA: 0x7FFAC2F3C380
-        public void GetEncodingV(){} // RVA: 0x7FFAC2F247C0
-        public void get_MacKeySize(){} // RVA: 0x7FFAC30DBBE0
+        public void .ctor(){} // RVA: 0x7FFE862265A0
+        public void GetDerivationV(){} // RVA: 0x7FFE81116380
+        public void GetEncodingV(){} // RVA: 0x7FFE810FE7C0
+        public void get_MacKeySize(){} // RVA: 0x7FFE8151D690
     }
 
     public class IesWithCipherParameters : IesParameters
     {
-        public int CipherKeySize; // 0x28
+        public int cipherKeySize; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB98CA0
-        public void get_CipherKeySize(){} // RVA: 0x7FFAC32EC4C0
+        public void .ctor(){} // RVA: 0x7FFE89FF22C0
+        public void get_CipherKeySize(){} // RVA: 0x7FFE81549710
     }
 
     public class Iso18033KdfParameters : Object
     {
-        public byte[] seed; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30
-        public void GetSeed(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void GetSeed(){} // RVA: 0x7FFE81116380
     }
 
     public class KdfCounterParameters : Object
     {
-        public byte[] Ki; // 0x10
-        public byte[] FixedInputData; // 0x18
-        public byte[] FixedInputDataCounterPrefix; // 0x20
-        public int FixedInputDataCounterSuffix; // 0x28
+        public byte[] ki; // 0x10
+        public byte[] fixedInputDataCounterPrefix; // 0x18
+        public byte[] fixedInputDataCounterSuffix; // 0x20
+        public int r; // 0x28
+        public object field_4; // 0x4FC
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB98D90 | overloaded x2
-        public void get_Ki(){} // RVA: 0x7FFAC2F3C380
-        public void get_FixedInputData(){} // RVA: 0x7FFACBB991D0
-        public void get_FixedInputDataCounterPrefix(){} // RVA: 0x7FFACBB99280
-        public void get_FixedInputDataCounterSuffix(){} // RVA: 0x7FFACBB99330
-        public void get_R(){} // RVA: 0x7FFAC32EC4C0
+        public void .ctor(){} // RVA: 0x7FFE89FF23B0 | overloaded x2
+        public void get_Ki(){} // RVA: 0x7FFE81116380
+        public void get_FixedInputData(){} // RVA: 0x7FFE89FF27F0
+        public void get_FixedInputDataCounterPrefix(){} // RVA: 0x7FFE89FF28A0
+        public void get_FixedInputDataCounterSuffix(){} // RVA: 0x7FFE89FF2950
+        public void get_R(){} // RVA: 0x7FFE81549710
     }
 
     public class KdfDoublePipelineIterationParameters : Object
     {
-        public int Ki;
-        public byte[] UseCounter; // 0x10
-        public bool R; // 0x18
-        public int FixedInputData; // 0x1C
-        public byte[] fixedInputData; // 0x20
+        public int UNUSED_R;
+        public byte[] ki; // 0x10
+        public bool useCounter; // 0x18
+        public int r; // 0x1C
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB993E0
-        public void CreateWithCounter(){} // RVA: 0x7FFACBB99700
-        public void CreateWithoutCounter(){} // RVA: 0x7FFACBB99790
-        public void get_Ki(){} // RVA: 0x7FFACBB99830
-        public void get_UseCounter(){} // RVA: 0x7FFAC2F3C4E0
-        public void get_R(){} // RVA: 0x7FFAC44357F0
-        public void get_FixedInputData(){} // RVA: 0x7FFACBB998E0
-        public void .cctor(){} // RVA: 0x7FFACBB99990
+        public void .ctor(){} // RVA: 0x7FFE89FF2A00
+        public void CreateWithCounter(){} // RVA: 0x7FFE89FF2D20
+        public void CreateWithoutCounter(){} // RVA: 0x7FFE89FF2DB0
+        public void get_Ki(){} // RVA: 0x7FFE89FF2E50
+        public void get_UseCounter(){} // RVA: 0x7FFE811164E0
+        public void get_R(){} // RVA: 0x7FFE82707EE0
+        public void get_FixedInputData(){} // RVA: 0x7FFE89FF2F00
+        public void .cctor(){} // RVA: 0x7FFE89FF2FB0
     }
 
     public class KdfFeedbackParameters : Object
     {
-        public int Ki;
-        public byte[] Iv; // 0x10
-        public byte[] UseCounter; // 0x18
-        public bool R; // 0x20
-        public int FixedInputData; // 0x24
-        public byte[] fixedInputData; // 0x28
+        public int UNUSED_R;
+        public byte[] ki; // 0x10
+        public byte[] iv; // 0x18
+        public bool useCounter; // 0x20
+        public int r; // 0x24
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB999D0
-        public void CreateWithCounter(){} // RVA: 0x7FFACBB99DC0
-        public void CreateWithoutCounter(){} // RVA: 0x7FFACBB99EB0
-        public void get_Ki(){} // RVA: 0x7FFACBB99F70
-        public void get_Iv(){} // RVA: 0x7FFACBB9A020
-        public void get_UseCounter(){} // RVA: 0x7FFAC300F9D0
-        public void get_R(){} // RVA: 0x7FFAC3921980
-        public void get_FixedInputData(){} // RVA: 0x7FFACBB9A0D0
-        public void .cctor(){} // RVA: 0x7FFACBB9A180
+        public void .ctor(){} // RVA: 0x7FFE89FF2FF0
+        public void CreateWithCounter(){} // RVA: 0x7FFE89FF33E0
+        public void CreateWithoutCounter(){} // RVA: 0x7FFE89FF34D0
+        public void get_Ki(){} // RVA: 0x7FFE89FF3590
+        public void get_Iv(){} // RVA: 0x7FFE89FF3640
+        public void get_UseCounter(){} // RVA: 0x7FFE811E99D0
+        public void get_R(){} // RVA: 0x7FFE81A56130
+        public void get_FixedInputData(){} // RVA: 0x7FFE89FF36F0
+        public void .cctor(){} // RVA: 0x7FFE89FF37A0
     }
 
     public class KdfParameters : Object
     {
-        public byte[] iv; // 0x10
-        public byte[] shared; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC84642F0
-        public void GetSharedSecret(){} // RVA: 0x7FFAC2F247C0
-        public void GetIV(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE8680DC00
+        public void GetSharedSecret(){} // RVA: 0x7FFE810FE7C0
+        public void GetIV(){} // RVA: 0x7FFE81116380
     }
 
     public class KeyParameter : Object
     {
-        public byte[] key; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9A300 | overloaded x2
-        public void GetKey(){} // RVA: 0x7FFACBB9A4A0
+        public void .ctor(){} // RVA: 0x7FFE89FF3920 | overloaded x2
+        public void GetKey(){} // RVA: 0x7FFE89FF3AC0
     }
 
     public class MgfParameters : Object
     {
-        public byte[] seed; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9A600 | overloaded x2
-        public void GetSeed(){} // RVA: 0x7FFACBB9A6E0
+        public void .ctor(){} // RVA: 0x7FFE89FF3C20 | overloaded x2
+        public void GetSeed(){} // RVA: 0x7FFE89FF3D00
     }
 
     public class MqvPrivateParameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters StaticPrivateKey; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters EphemeralPrivateKey; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters EphemeralPublicKey; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters staticPrivateKey; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters ephemeralPrivateKey; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters ephemeralPublicKey; // 0x20
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9A780 | overloaded x2
-        public void get_StaticPrivateKey(){} // RVA: 0x7FFAC2F3C380
-        public void get_EphemeralPrivateKey(){} // RVA: 0x7FFAC2F247C0
-        public void get_EphemeralPublicKey(){} // RVA: 0x7FFAC2F4F0C0
+        public void .ctor(){} // RVA: 0x7FFE89FF3DA0 | overloaded x2
+        public void get_StaticPrivateKey(){} // RVA: 0x7FFE81116380
+        public void get_EphemeralPrivateKey(){} // RVA: 0x7FFE810FE7C0
+        public void get_EphemeralPublicKey(){} // RVA: 0x7FFE811290C0
     }
 
     public class MqvPublicParameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters StaticPublicKey; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters EphemeralPublicKey; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters staticPublicKey; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters ephemeralPublicKey; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9AA00
-        public void get_StaticPublicKey(){} // RVA: 0x7FFAC2F3C380
-        public void get_EphemeralPublicKey(){} // RVA: 0x7FFAC2F247C0
+        public void .ctor(){} // RVA: 0x7FFE89FF4020
+        public void get_StaticPublicKey(){} // RVA: 0x7FFE81116380
+        public void get_EphemeralPublicKey(){} // RVA: 0x7FFE810FE7C0
     }
 
     public class NaccacheSternKeyGenerationParameters : KeyGenerationParameters
     {
-        public int Certainty; // 0x20
-        public int CountSmallPrimes; // 0x24
+        public int certainty; // 0x20
+        public int countSmallPrimes; // 0x24
+        public object field_2; // 0x50F
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9AB60 | overloaded x2
-        public void get_Certainty(){} // RVA: 0x7FFAC30DBBE0
-        public void get_CountSmallPrimes(){} // RVA: 0x7FFAC3921980
-        public void get_IsDebug(){} // RVA: 0x7FFAC2F21320
+        public void .ctor(){} // RVA: 0x7FFE89FF4180 | overloaded x2
+        public void get_Certainty(){} // RVA: 0x7FFE8151D690
+        public void get_CountSmallPrimes(){} // RVA: 0x7FFE81A56130
+        public void get_IsDebug(){} // RVA: 0x7FFE810FB320
     }
 
     public class NaccacheSternKeyParameters : AsymmetricKeyParameter
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger G; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger LowerSigmaBound; // 0x20
-        public int Modulus; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger n; // 0x20
+        public int lowerSigmaBound; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9AC40
-        public void get_G(){} // RVA: 0x7FFAC2F247C0
-        public void get_LowerSigmaBound(){} // RVA: 0x7FFAC32EC4C0
-        public void get_Modulus(){} // RVA: 0x7FFAC2F4F0C0
+        public void .ctor(){} // RVA: 0x7FFE89FF4260
+        public void get_G(){} // RVA: 0x7FFE810FE7C0
+        public void get_LowerSigmaBound(){} // RVA: 0x7FFE81549710
+        public void get_Modulus(){} // RVA: 0x7FFE811290C0
     }
 
     public class NaccacheSternPrivateKeyParameters : NaccacheSternKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger PhiN; // 0x30
-        public System.Collections.IList SmallPrimes; // 0x38
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger phiN; // 0x30
+        public System.Collections.IList smallPrimes; // 0x38
+        public object field_2; // 0x515
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9AD00 | overloaded x2
-        public void get_PhiN(){} // RVA: 0x7FFAC31D95E0
-        public void get_SmallPrimes(){} // RVA: 0x7FFACBB9ADE0
-        public void get_SmallPrimesList(){} // RVA: 0x7FFAC31D0140
+        public void .ctor(){} // RVA: 0x7FFE89FF4320 | overloaded x2
+        public void get_PhiN(){} // RVA: 0x7FFE8144E200
+        public void get_SmallPrimes(){} // RVA: 0x7FFE89FF4400
+        public void get_SmallPrimesList(){} // RVA: 0x7FFE8143BA80
     }
 
     public class ParametersWithID : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters Parameters; // 0x10
-        public byte[] id; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters parameters; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9AF80 | overloaded x2
-        public void GetID(){} // RVA: 0x7FFAC2F247C0
-        public void get_Parameters(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE89FF45A0 | overloaded x2
+        public void GetID(){} // RVA: 0x7FFE810FE7C0
+        public void get_Parameters(){} // RVA: 0x7FFE81116380
     }
 
     public class ParametersWithIV : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters Parameters; // 0x10
-        public byte[] iv; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters parameters; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9B0E0 | overloaded x2
-        public void GetIV(){} // RVA: 0x7FFACBB9B270
-        public void get_Parameters(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE89FF4700 | overloaded x2
+        public void GetIV(){} // RVA: 0x7FFE89FF4890
+        public void get_Parameters(){} // RVA: 0x7FFE81116380
     }
 
     public class ParametersWithRandom : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters Random; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom Parameters; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters parameters; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Security.SecureRandom random; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9B460 | overloaded x2
-        public void GetRandom(){} // RVA: 0x7FFAC2F247C0
-        public void get_Random(){} // RVA: 0x7FFAC2F247C0
-        public void get_Parameters(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE89FF4A80 | overloaded x2
+        public void GetRandom(){} // RVA: 0x7FFE810FE7C0
+        public void get_Random(){} // RVA: 0x7FFE810FE7C0
+        public void get_Parameters(){} // RVA: 0x7FFE81116380
     }
 
     public class ParametersWithSBox : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters Parameters; // 0x10
-        public byte[] sBox; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters parameters; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240
-        public void GetSBox(){} // RVA: 0x7FFAC2F247C0
-        public void get_Parameters(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0
+        public void GetSBox(){} // RVA: 0x7FFE810FE7C0
+        public void get_Parameters(){} // RVA: 0x7FFE81116380
     }
 
     public class ParametersWithSalt : Object
     {
-        public byte[] Parameters; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ICipherParameters parameters; // 0x18
+        public byte[] salt; // 0x10
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9B620 | overloaded x2
-        public void GetSalt(){} // RVA: 0x7FFAC2F3C380
-        public void get_Parameters(){} // RVA: 0x7FFAC2F247C0
+        public void .ctor(){} // RVA: 0x7FFE89FF4C40 | overloaded x2
+        public void GetSalt(){} // RVA: 0x7FFE81116380
+        public void get_Parameters(){} // RVA: 0x7FFE810FE7C0
     }
 
     public class RC2Parameters : KeyParameter
     {
-        public int EffectiveKeyBits; // 0x18
+        public int bits; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9B810 | overloaded x4
-        public void get_EffectiveKeyBits(){} // RVA: 0x7FFAC3157800
+        public void .ctor(){} // RVA: 0x7FFE89FF4E30 | overloaded x4
+        public void get_EffectiveKeyBits(){} // RVA: 0x7FFE813DB630
     }
 
     public class RC5Parameters : KeyParameter
     {
-        public int Rounds; // 0x18
+        public int rounds; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9B840
-        public void get_Rounds(){} // RVA: 0x7FFAC3157800
+        public void .ctor(){} // RVA: 0x7FFE89FF4E60
+        public void get_Rounds(){} // RVA: 0x7FFE813DB630
     }
 
     public class RsaBlindingParameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters PublicKey; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger BlindingFactor; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters publicKey; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger blindingFactor; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9B8D0
-        public void get_PublicKey(){} // RVA: 0x7FFAC2F3C380
-        public void get_BlindingFactor(){} // RVA: 0x7FFAC2F247C0
+        public void .ctor(){} // RVA: 0x7FFE89FF4EF0
+        public void get_PublicKey(){} // RVA: 0x7FFE81116380
+        public void get_BlindingFactor(){} // RVA: 0x7FFE810FE7C0
     }
 
     public class RsaKeyGenerationParameters : KeyGenerationParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger PublicExponent; // 0x20
-        public int Certainty; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger publicExponent; // 0x20
+        public int certainty; // 0x28
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9BA00
-        public void get_PublicExponent(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_Certainty(){} // RVA: 0x7FFAC32EC4C0
-        public void Equals(){} // RVA: 0x7FFACBB9BA90
-        public void GetHashCode(){} // RVA: 0x7FFACBB9BB50
+        public void .ctor(){} // RVA: 0x7FFE89FF5020
+        public void get_PublicExponent(){} // RVA: 0x7FFE811290C0
+        public void get_Certainty(){} // RVA: 0x7FFE81549710
+        public void Equals(){} // RVA: 0x7FFE89FF50B0
+        public void GetHashCode(){} // RVA: 0x7FFE89FF5170
     }
 
     public class RsaKeyParameters : AsymmetricKeyParameter
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Modulus;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Exponent; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger exponent; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger SmallPrimesProduct;
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger modulus; // 0x18
 
         // ── Methods ──
-        public void Validate(){} // RVA: 0x7FFACBB9BB90
-        public void .ctor(){} // RVA: 0x7FFACBB9BD60
-        public void get_Modulus(){} // RVA: 0x7FFAC2F247C0
-        public void get_Exponent(){} // RVA: 0x7FFAC2F4F0C0
-        public void Equals(){} // RVA: 0x7FFACBB9BFE0
-        public void GetHashCode(){} // RVA: 0x7FFACBB9C0E0
-        public void .cctor(){} // RVA: 0x7FFACBB9C190
+        public void Validate(){} // RVA: 0x7FFE89FF51B0
+        public void .ctor(){} // RVA: 0x7FFE89FF5380
+        public void get_Modulus(){} // RVA: 0x7FFE810FE7C0
+        public void get_Exponent(){} // RVA: 0x7FFE811290C0
+        public void Equals(){} // RVA: 0x7FFE89FF5600
+        public void GetHashCode(){} // RVA: 0x7FFE89FF5700
+        public void .cctor(){} // RVA: 0x7FFE89FF57B0
     }
 
     public class RsaPrivateCrtKeyParameters : RsaKeyParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger PublicExponent; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger P; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q; // 0x38
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger DP; // 0x40
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger DQ; // 0x48
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger QInv; // 0x50
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger e; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger p; // 0x30
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x38
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger dP; // 0x40
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger dQ; // 0x48
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger qInv; // 0x50
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9CA40 | overloaded x2
-        public void get_PublicExponent(){} // RVA: 0x7FFAC2F4F130
-        public void get_P(){} // RVA: 0x7FFAC31D95E0
-        public void get_Q(){} // RVA: 0x7FFAC31D0140
-        public void get_DP(){} // RVA: 0x7FFAC2F9E740
-        public void get_DQ(){} // RVA: 0x7FFAC2F9C730
-        public void get_QInv(){} // RVA: 0x7FFAC2FC20E0
-        public void Equals(){} // RVA: 0x7FFACBB9CAA0
-        public void GetHashCode(){} // RVA: 0x7FFACBB9CCB0
-        public void ValidateValue(){} // RVA: 0x7FFACBB9CE20
+        public void .ctor(){} // RVA: 0x7FFE89FF6060 | overloaded x2
+        public void get_PublicExponent(){} // RVA: 0x7FFE81129130
+        public void get_P(){} // RVA: 0x7FFE8144E200
+        public void get_Q(){} // RVA: 0x7FFE8143BA80
+        public void get_DP(){} // RVA: 0x7FFE81178740
+        public void get_DQ(){} // RVA: 0x7FFE81176730
+        public void get_QInv(){} // RVA: 0x7FFE8119C0E0
+        public void Equals(){} // RVA: 0x7FFE89FF60C0
+        public void GetHashCode(){} // RVA: 0x7FFE89FF62D0
+        public void ValidateValue(){} // RVA: 0x7FFE89FF6440
     }
 
     public class SM2KeyExchangePrivateParameters : Object
     {
-        public bool IsInitiator; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters StaticPrivateKey; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint StaticPublicPoint; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters EphemeralPrivateKey; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint EphemeralPublicPoint; // 0x30
+        public bool mInitiator; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters mStaticPrivateKey; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint mStaticPublicPoint; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters mEphemeralPrivateKey; // 0x28
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint mEphemeralPublicPoint; // 0x30
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9E970
-        public void get_IsInitiator(){} // RVA: 0x7FFAC2FEB5E0
-        public void get_StaticPrivateKey(){} // RVA: 0x7FFAC2F247C0
-        public void get_StaticPublicPoint(){} // RVA: 0x7FFAC2F4F0C0
-        public void get_EphemeralPrivateKey(){} // RVA: 0x7FFAC2F4F130
-        public void get_EphemeralPublicPoint(){} // RVA: 0x7FFAC31D95E0
+        public void .ctor(){} // RVA: 0x7FFE89FF7F90
+        public void get_IsInitiator(){} // RVA: 0x7FFE811C55E0
+        public void get_StaticPrivateKey(){} // RVA: 0x7FFE810FE7C0
+        public void get_StaticPublicPoint(){} // RVA: 0x7FFE811290C0
+        public void get_EphemeralPrivateKey(){} // RVA: 0x7FFE81129130
+        public void get_EphemeralPublicPoint(){} // RVA: 0x7FFE8144E200
     }
 
     public class SM2KeyExchangePublicParameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters StaticPublicKey; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters EphemeralPublicKey; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters mStaticPublicKey; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters mEphemeralPublicKey; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9EBC0
-        public void get_StaticPublicKey(){} // RVA: 0x7FFAC2F3C380
-        public void get_EphemeralPublicKey(){} // RVA: 0x7FFAC2F247C0
+        public void .ctor(){} // RVA: 0x7FFE89FF81E0
+        public void get_StaticPublicKey(){} // RVA: 0x7FFE81116380
+        public void get_EphemeralPublicKey(){} // RVA: 0x7FFE810FE7C0
     }
 
     public class SkeinParameters : Object
     {
-        public int PARAM_TYPE_KEY;
-        public int PARAM_TYPE_CONFIG;
-        public int PARAM_TYPE_PERSONALISATION;
-        public int PARAM_TYPE_PUBLIC_KEY;
-        public int PARAM_TYPE_KEY_IDENTIFIER;
-        public int PARAM_TYPE_NONCE;
-        public int PARAM_TYPE_MESSAGE;
-        public int PARAM_TYPE_OUTPUT;
-        public System.Collections.IDictionary parameters; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC2F22E30 | overloaded x2
-        public void GetParameters(){} // RVA: 0x7FFAC2F3C380
-        public void GetKey(){} // RVA: 0x7FFACBB9CFD0
-        public void GetPersonalisation(){} // RVA: 0x7FFACBB9D130
-        public void GetPublicKey(){} // RVA: 0x7FFACBB9D200
-        public void GetKeyIdentifier(){} // RVA: 0x7FFACBB9D2D0
-        public void GetNonce(){} // RVA: 0x7FFACBB9D3A0
+        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
+        public void GetParameters(){} // RVA: 0x7FFE81116380
+        public void GetKey(){} // RVA: 0x7FFE89FF65F0
+        public void GetPersonalisation(){} // RVA: 0x7FFE89FF6750
+        public void GetPublicKey(){} // RVA: 0x7FFE89FF6820
+        public void GetKeyIdentifier(){} // RVA: 0x7FFE89FF68F0
+        public void GetNonce(){} // RVA: 0x7FFE89FF69C0
     }
 
     public class Srp6GroupParameters : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger G; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger N; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger n; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC34EC240
-        public void get_G(){} // RVA: 0x7FFAC2F247C0
-        public void get_N(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE81CA56D0
+        public void get_G(){} // RVA: 0x7FFE810FE7C0
+        public void get_N(){} // RVA: 0x7FFE81116380
     }
 
     public class TweakableBlockCipherParameters : Object
     {
-        public byte[] Key; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter Tweak; // 0x18
+        public byte[] tweak; // 0x10
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter key; // 0x18
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9ED20
-        public void get_Key(){} // RVA: 0x7FFAC2F247C0
-        public void get_Tweak(){} // RVA: 0x7FFAC2F3C380
+        public void .ctor(){} // RVA: 0x7FFE89FF8340
+        public void get_Key(){} // RVA: 0x7FFE810FE7C0
+        public void get_Tweak(){} // RVA: 0x7FFE81116380
     }
 
     public class X25519KeyGenerationParameters : KeyGenerationParameters
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9EEA0
+        public void .ctor(){} // RVA: 0x7FFE89FF84C0
     }
 
     public class X25519PrivateKeyParameters : AsymmetricKeyParameter
     {
-        public int KeySize;
-        public int SecretSize; // 0x4
-        public byte[] data; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9F1B0 | overloaded x3
-        public void Encode(){} // RVA: 0x7FFACBB9F350
-        public void GetEncoded(){} // RVA: 0x7FFACBB9F3F0
-        public void GeneratePublicKey(){} // RVA: 0x7FFACBB9F4A0
-        public void GenerateSecret(){} // RVA: 0x7FFACBB9F540
-        public void .cctor(){} // RVA: 0x7FFACBB9F700
+        public void .ctor(){} // RVA: 0x7FFE89FF87D0 | overloaded x3
+        public void Encode(){} // RVA: 0x7FFE89FF8970
+        public void GetEncoded(){} // RVA: 0x7FFE89FF8A10
+        public void GeneratePublicKey(){} // RVA: 0x7FFE89FF8AC0
+        public void GenerateSecret(){} // RVA: 0x7FFE89FF8B60
+        public void .cctor(){} // RVA: 0x7FFE89FF8D20
     }
 
     public class X25519PublicKeyParameters : AsymmetricKeyParameter
     {
-        public int KeySize;
-        public byte[] data; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9F880 | overloaded x2
-        public void Encode(){} // RVA: 0x7FFACBB9FA20
-        public void GetEncoded(){} // RVA: 0x7FFACBB9FAC0
-        public void .cctor(){} // RVA: 0x7FFACBB9FB70
+        public void .ctor(){} // RVA: 0x7FFE89FF8EA0 | overloaded x2
+        public void Encode(){} // RVA: 0x7FFE89FF9040
+        public void GetEncoded(){} // RVA: 0x7FFE89FF90E0
+        public void .cctor(){} // RVA: 0x7FFE89FF9190
     }
 
     public class X448KeyGenerationParameters : KeyGenerationParameters
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB95A50
+        public void .ctor(){} // RVA: 0x7FFE89FEF070
     }
 
     public class X448PrivateKeyParameters : AsymmetricKeyParameter
     {
-        public int KeySize;
-        public int SecretSize; // 0x4
-        public byte[] data; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBB9FDF0 | overloaded x3
-        public void Encode(){} // RVA: 0x7FFACBB9FF90
-        public void GetEncoded(){} // RVA: 0x7FFACBBA0030
-        public void GeneratePublicKey(){} // RVA: 0x7FFACBBA00E0
-        public void GenerateSecret(){} // RVA: 0x7FFACBBA0180
-        public void .cctor(){} // RVA: 0x7FFACBBA0340
+        public void .ctor(){} // RVA: 0x7FFE89FF9410 | overloaded x3
+        public void Encode(){} // RVA: 0x7FFE89FF95B0
+        public void GetEncoded(){} // RVA: 0x7FFE89FF9650
+        public void GeneratePublicKey(){} // RVA: 0x7FFE89FF9700
+        public void GenerateSecret(){} // RVA: 0x7FFE89FF97A0
+        public void .cctor(){} // RVA: 0x7FFE89FF9960
     }
 
     public class X448PublicKeyParameters : AsymmetricKeyParameter
     {
-        public int KeySize;
-        public byte[] data; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFACBBA04C0 | overloaded x2
-        public void Encode(){} // RVA: 0x7FFACBBA0660
-        public void GetEncoded(){} // RVA: 0x7FFACBBA0700
-        public void .cctor(){} // RVA: 0x7FFACBBA07B0
+        public void .ctor(){} // RVA: 0x7FFE89FF9AE0 | overloaded x2
+        public void Encode(){} // RVA: 0x7FFE89FF9C80
+        public void GetEncoded(){} // RVA: 0x7FFE89FF9D20
+        public void .cctor(){} // RVA: 0x7FFE89FF9DD0
     }
 
 }

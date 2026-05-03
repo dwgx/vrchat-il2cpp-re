@@ -1,33 +1,51 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Security
-// Classes: 1
-// Methods: 15
+// Classes: 2
+// Methods: 29
 
 namespace VRC.Security
 {
-    /// <summary>Originally: ÍÌÍÏÎÎÍÍÏÍÍÎÏÌÌÍÏÎÎÏÎÏÏ</summary>
-    public class SecurityHighlightDefaultBannerHighlightBannerComponent_606E_606E : MonoBehaviour
+    /// <summary>Originally: ÏÎÏÏÏÍÏÏÏÎÍÏÎÏÍÍÍÌÏÍÏÏÍ</summary>
+    public class SecurityHighlightDefaultBannerHighlightBannerComponent_AE4C : MonoBehaviour
     {
-        public UnityEngine.GameObject[] ÍÍÎÍÌÎÌÎÎÎÍÍÎÌÎÌÎÌÎÎÎÌÏ; // 0x20
-        public UnityEngine.GameObject ÌÎÎÎÌÍÎÍÌÎÎÎÍÏÍÌÌÏÏÏÌÍÎ; // 0x28
-        public int ÏÌÌÍÎÎÎÌÍÌÏÍÎÍÎÌÌÎÏÌÎÌÎ; // 0x30
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE8251F6C0
+        public void RaiseCancellation(){} // RVA: 0x7FFE8251F810
+        public void IsInvoking(){} // RVA: 0x7FFE810FCE90
+        public void Update(){} // RVA: 0x7FFE8251F9E0
+        public void HighlightBanner(){} // RVA: 0x7FFE8251F9F0
+        public void InvokeRepeating(){} // RVA: 0x7FFE8251FBE0
+        public void CancelInvoke(){} // RVA: 0x7FFE8251FD30
+        public void OnApplicationPause(){} // RVA: 0x7FFE8251FF20
+        public void StartCoroutine(){} // RVA: 0x7FFE810FB310
+        public void Awake(){} // RVA: 0x7FFE8251F9E0
+        public void Start(){} // RVA: 0x7FFE810FB310
+        public void HighlightDefaultBanner(){} // RVA: 0x7FFE8251FF30
+        public void .ctor(){} // RVA: 0x7FFE8251FF40
+        public void Initialize(){} // RVA: 0x7FFE8251FF90
+        public void StopCoroutine(){} // RVA: 0x7FFE810FB310
+        public void StopAllCoroutines(){} // RVA: 0x7FFE8251FBE0
+    }
+
+    /// <summary>Originally: ÏÍÌÍÏÎÏÎÍÏÎÏÍÌÌÍÏÏÎÎÌÌÌ</summary>
+    public class SecuritySafetyLevelComponent_D330 : MonoBehaviour
+    {
+        public 0x6656BEE4 SafetyLevel; // 0x20
 
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFAC42690F0
-        public void RaiseCancellation(){} // RVA: 0x7FFAC4269240
-        public void Update(){} // RVA: 0x7FFAC4269250
-        public void CancelInvoke(){} // RVA: 0x7FFAC42693A0
-        public void AddSubtraction(){} // RVA: 0x7FFAC2F22E90
-        public void InvokeRepeating(){} // RVA: 0x7FFAC42694F0
-        public void OnApplicationPause(){} // RVA: 0x7FFAC2F22E90
-        public void IsInvoking(){} // RVA: 0x7FFAC4269640
-        public void StartCoroutine(){} // RVA: 0x7FFAC4269250
-        public void Awake(){} // RVA: 0x7FFAC4269810
-        public void Start(){} // RVA: 0x7FFAC2F21310
-        public void HighlightDefaultBanner(){} // RVA: 0x7FFAC4269240
-        public void HighlightBanner(){} // RVA: 0x7FFAC4269960
-        public void .ctor(){} // RVA: 0x7FFAC4269B50
-        public void Initialize(){} // RVA: 0x7FFAC42690F0
+        public void get_destroyCancellationToken(){} // RVA: 0x7FFE81129130
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void Initialize(){} // RVA: 0x7FFE89CF6D80
+        public void CancelInvoke(){} // RVA: 0x7FFE89CF7000
+        public void Invoke(){} // RVA: 0x7FFE81129130
+        public void InvokeRepeating(){} // RVA: 0x7FFE810FB310
+        public void LateUpdate(){} // RVA: 0x7FFE810FCE90
+        public void Awake(){} // RVA: 0x7FFE810FB310
+        public void OnDestroy(){} // RVA: 0x7FFE89CF71A0
+        public void StartCoroutine(){} // RVA: 0x7FFE89CF7250
+        public void Start(){} // RVA: 0x7FFE89CF72E0
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFE89CF7390
+        public void StopCoroutine(){} // RVA: 0x7FFE810FCE90
     }
 
 }

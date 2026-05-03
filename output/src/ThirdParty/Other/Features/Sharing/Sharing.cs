@@ -1,58 +1,58 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Features.Sharing
 // Classes: 1
-// Methods: 38
+// Methods: 39
 
 namespace ThirdParty.Other.Features.Sharing
 {
     public class SharableContentData : Object
     {
-        public bool Key; // 0x10
-        public ÍÎÏÌÌÍÌÏÍÍÌÏÌÎÍÍÍÎÏÏÏÏÏ Content; // 0x18
-        public object OwnerID; // 0x20
-        public string Hidden; // 0x28
-        public bool <ÌÏÏÎÌÎÍÏÌÌÌÏÍÏÌÏÏÎÌÌÏÎÍ>k__BackingField; // 0x30
-        public DG.Tweening.Sequence _resetSequence; // 0x38
+        public bool _pendingSave; // 0x10
+        public ÏÌÏÏÌÍÏÎÌÍÌÎÎÏÌÎÍÍÍÎÎÍÎ _offsetOfInstanceIDInCPlusPlusObject; // 0x18
+        public object f_F45; // 0x20
+        public string f_787; // 0x28
 
         // ── Methods ──
-        public void set_Key(){} // RVA: 0x7FFAC2F87E80
-        public void Equals(){} // RVA: 0x7FFAC44A8A50
-        public void GetHashCode(){} // RVA: 0x7FFAC44A8C20
-        public void op_Implicit(){} // RVA: 0x7FFAC44A8DC0
-        public void CompareBaseObjects(){} // RVA: 0x7FFAC44A8F30
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFAC44A92A0
-        public void GetCachedPtr(){} // RVA: 0x7FFAC44A9770
-        public void get_Hidden(){} // RVA: 0x7FFAC2F47450
-        public void set_name(){} // RVA: 0x7FFAC44A98F0
-        public void Instantiate(){} // RVA: 0x7FFAC44A9AE0
-        public void ToString(){} // RVA: 0x7FFAC44A9FA0
-        public void set_Hidden(){} // RVA: 0x7FFAC2F47460
-        public void get_OwnerID(){} // RVA: 0x7FFAC2F4F130
-        public void RetrieveContentData(){} // RVA: 0x7FFAC44AA140
-        public void RetrieveSharableContentObject(){} // RVA: 0x7FFAC44AA730
-        public void ConfigureSharableContent(){} // RVA: 0x7FFAC44AA8B0
-        public void get_Content(){} // RVA: 0x7FFAC2F4F0C0
-        public void set_OwnerID(){} // RVA: 0x7FFAC2F22E90
-        public void DoEncodeToPN(){} // RVA: 0x7FFAC44AABA0
-        public void set_Content(){} // RVA: 0x7FFAC2F4F0D0
-        public void Destroy(){} // RVA: 0x7FFAC44AB100
-        public void DestroyImmediate(){} // RVA: 0x7FFAC44AB830
-        public void PrepareSharableContentData(){} // RVA: 0x7FFAC44ABAB0
-        public void FindObjectsOfType(){} // RVA: 0x7FFAC44ABDA0
-        public void FindObjectsOfType_41DACF62CA4F(){} // RVA: 0x7FFAC44ABE50
-        public void IsValid(){} // RVA: 0x7FFAC2F47450
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void Reset(){} // RVA: 0x7FFAC322C880
-        public void get_hideFlags(){} // RVA: 0x7FFAC44ABFD0
-        public void set_hideFlags(){} // RVA: 0x7FFAC44AC530
-        public void FindObjectsByType(){} // RVA: 0x7FFAC44AC6B0
-        public void FindObjectOfType(){} // RVA: 0x7FFAC44ACA50
-        public void FindFirstObjectByType(){} // RVA: 0x7FFAC44ACB60
-        public void FindFirstObjectByType_9FE664F547DB(){} // RVA: 0x7FFAC44ACE80
-        public void CheckNullArgument(){} // RVA: 0x7FFAC44AD410
-        public void ProcessSharedContentData(){} // RVA: 0x7FFAC44AD5B0
-        public void ConfigureContentData(){} // RVA: 0x7FFAC44AD830
-        public void get_Key(){} // RVA: 0x7FFAC2F247C0
+        public void get_Key(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE827994F0
+        public void GetHashCode(){} // RVA: 0x7FFE82799890
+        public void op_Implicit(){} // RVA: 0x7FFE82799C30
+        public void CompareBaseObjects(){} // RVA: 0x7FFE82799E20
+        public void set_Hidden(){} // RVA: 0x7FFE81121460
+        public void GetCachedPtr(){} // RVA: 0x7FFE8279A190
+        public void get_name(){} // RVA: 0x7FFE8279A4B0
+        public void set_name(){} // RVA: 0x7FFE8279A730
+        public void set_Content(){} // RVA: 0x7FFE811290D0
+        public void Instantiate(){} // RVA: 0x7FFE8279AC90
+        public void ToString(){} // RVA: 0x7FFE8279AE10
+        public void get_OwnerID(){} // RVA: 0x7FFE81129130
+        public void RetrieveContentData(){} // RVA: 0x7FFE8279AFB0
+        public void RetrieveSharableContentObject(){} // RVA: 0x7FFE8279B470
+        public void ConfigureSharableContent(){} // RVA: 0x7FFE8279B5E0
+        public void get_Content_71C6F1519BB4(){} // RVA: 0x7FFE8279B7B0
+        public void set_OwnerID_52F4B0CFCF19(){} // RVA: 0x7FFE8279BB50
+        public void DoEncodeToPN(){} // RVA: 0x7FFE8279BC60
+        public void get_Hidden(){} // RVA: 0x7FFE81121450
+        public void Destroy(){} // RVA: 0x7FFE8279BF50
+        public void DestroyImmediate(){} // RVA: 0x7FFE8279C420
+        public void PrepareSharableContentData(){} // RVA: 0x7FFE8279C5C0
+        public void FindObjectsOfType(){} // RVA: 0x7FFE8279C670
+        public void get_Content(){} // RVA: 0x7FFE811290C0
+        public void FindObjectsByType(){} // RVA: 0x7FFE8279D390
+        public void DontDestroyOnLoad(){} // RVA: 0x7FFE8279D510
+        public void set_OwnerID(){} // RVA: 0x7FFE810FCE90
+        public void set_hideFlags(){} // RVA: 0x7FFE8279DAB0
+        public void FindObjectsByType_FF451C7B0231(){} // RVA: 0x7FFE81FCAC70
+        public void FindObjectOfType(){} // RVA: 0x7FFE8279DD30
+        public void set_Key(){} // RVA: 0x7FFE81161E80
+        public void FindFirstObjectByType(){} // RVA: 0x7FFE8279DF80
+        public void CheckNullArgument(){} // RVA: 0x7FFE81121450
+        public void ProcessSharedContentData(){} // RVA: 0x7FFE8279E200
+        public void ConfigureContentData(){} // RVA: 0x7FFE8279E7A0
+        public void get_Key_7027450A174E(){} // RVA: 0x7FFE8279EB40
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        // ── Unresolved (hash) ──
+        public void m_088(){} // RVA: 0x7FFE8279CDA0
     }
 
 }

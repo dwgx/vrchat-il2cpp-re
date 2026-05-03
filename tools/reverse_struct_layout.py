@@ -51,18 +51,35 @@ NEARBY_WINDOW = 0x4000
 SELF_REF_LIMIT = 0xC0
 CLASS_SCAN_FOOTPRINT = 0x140
 
-NAME_OFFSET_RANGE = range(0x00, 0x71, 0x08)
+NAME_OFFSET_RANGE = range(0x00, 0x91, 0x08)
 SELF_REF_RANGE = range(0x00, SELF_REF_LIMIT, 0x08)
-IMAGE_OFFSET_RANGE = range(0x00, 0x41, 0x08)
-PARENT_OFFSET_RANGE = range(0x80, 0xC1, 0x08)
-METHOD_PTR_RANGE = range(0x40, 0xC9, 0x08)
-FIELD_PTR_RANGE = range(0x80, 0xD1, 0x08)
-COUNT_RANGE = range(0x100, 0x141, 0x02)
-METHOD_NAME_OFFSETS = (0x18, 0x20, 0x28, 0x30)
+IMAGE_OFFSET_RANGE = range(0x00, 0x91, 0x08)
+PARENT_OFFSET_RANGE = range(0x80, 0x181, 0x08)
+METHOD_PTR_RANGE = range(0x40, 0x181, 0x08)
+FIELD_PTR_RANGE = range(0x80, 0x201, 0x08)
+COUNT_RANGE = range(0x100, 0x201, 0x02)
+METHOD_NAME_OFFSETS = (0x10, 0x18, 0x20, 0x28, 0x30, 0x38, 0x40, 0x48, 0x50)
 FIELD_LAYOUTS = (
+    {"FI_STRIDE": 0x18, "FI_NAME": 0x00, "label": "compact_v0"},
+    {"FI_STRIDE": 0x18, "FI_NAME": 0x08, "label": "compact_v1"},
+    {"FI_STRIDE": 0x18, "FI_NAME": 0x10, "label": "compact_v2"},
+    {"FI_STRIDE": 0x20, "FI_NAME": 0x00, "label": "v20_n0"},
+    {"FI_STRIDE": 0x20, "FI_NAME": 0x08, "label": "v20_n8"},
     {"FI_STRIDE": 0x20, "FI_NAME": 0x10, "label": "beebyte_v2"},
+    {"FI_STRIDE": 0x20, "FI_NAME": 0x18, "label": "v20_n18"},
+    {"FI_STRIDE": 0x28, "FI_NAME": 0x10, "label": "v28_n10"},
+    {"FI_STRIDE": 0x28, "FI_NAME": 0x18, "label": "v28_n18"},
+    {"FI_STRIDE": 0x28, "FI_NAME": 0x20, "label": "v28_n20"},
+    {"FI_STRIDE": 0x30, "FI_NAME": 0x00, "label": "v30_n0"},
+    {"FI_STRIDE": 0x30, "FI_NAME": 0x08, "label": "v30_n8"},
     {"FI_STRIDE": 0x30, "FI_NAME": 0x10, "label": "vrc_2026"},
+    {"FI_STRIDE": 0x30, "FI_NAME": 0x18, "label": "v30_n18"},
     {"FI_STRIDE": 0x30, "FI_NAME": 0x20, "label": "legacy"},
+    {"FI_STRIDE": 0x30, "FI_NAME": 0x28, "label": "v30_n28"},
+    {"FI_STRIDE": 0x38, "FI_NAME": 0x10, "label": "v38_n10"},
+    {"FI_STRIDE": 0x38, "FI_NAME": 0x20, "label": "v38_n20"},
+    {"FI_STRIDE": 0x40, "FI_NAME": 0x10, "label": "v40_n10"},
+    {"FI_STRIDE": 0x40, "FI_NAME": 0x20, "label": "v40_n20"},
 )
 
 CLASS_NAME_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_`+]*$")
@@ -890,8 +907,22 @@ def main() -> int:
 
         image_offset = probe_image_offset(dr, known_bases)
         parent_offset = probe_parent_offset(dr, known_bases, first_known)
-        method_layout = probe_method_layout(dr, known_bases)
-        field_layout = probe_field_layout(dr, known_bases)
+        try:
+            method_layout = probe_method_layout(dr, known_bases)
+        except RuntimeError as exc:
+            print(f"[!] {exc}; emitting partial report")
+            method_layout = {"OFF_METHODS": 0x00, "OFF_MCNT": 0x00,
+                              "MI_POINTER": 0x00, "MI_NAME": 0x00,
+                              "score_exact_matches": 0, "score_near_matches": 0,
+                              "score_total_abs_delta": 0}
+        try:
+            field_layout = probe_field_layout(dr, known_bases)
+        except RuntimeError as exc:
+            print(f"[!] {exc}; emitting partial report")
+            field_layout = {"OFF_FIELDS": 0x00, "OFF_FCNT": 0x00,
+                             "FI_STRIDE": 0x30, "FI_NAME": 0x10,
+                             "score_exact_matches": 0, "score_near_matches": 0,
+                             "score_total_abs_delta": 0}
 
         final_offsets = {
             "OFF_IMAGE": image_offset if image_offset is not None else 0x00,

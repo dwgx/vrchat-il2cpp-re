@@ -7,26 +7,20 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class JoinClanChatRoomCompletionResult_t : ValueType
     {
-        public ulong CallbackType; // 0x10
-        public 0x6B28D760 ChatRoomEnterResponse; // 0x18
-        public int _datasize;
+        public ulong SteamIDClanChat; // 0x10
 
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BEA960
-        public void .cctor(){} // RVA: 0x7FFAC4BEA970
+        public void get_CallbackType(){} // RVA: 0x7FFE82E57360
+        public void .cctor(){} // RVA: 0x7FFE82E57370
     }
 
     public class JoinPartyCallback_t : ValueType
     {
-        public 0x6B28D600 CallbackType; // 0x10
-        public ulong BeaconID; // 0x18
-        public ulong SteamIDBeaconOwner; // 0x20
-        public byte[] ConnectString; // 0x28
-        public int _datasize;
+        public 0x666873EC Result; // 0x10
 
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAC4BECF90
-        public void .cctor(){} // RVA: 0x7FFAC4BECFA0
+        public void get_CallbackType(){} // RVA: 0x7FFE82E59990
+        public void .cctor(){} // RVA: 0x7FFE82E599A0
     }
 
 }

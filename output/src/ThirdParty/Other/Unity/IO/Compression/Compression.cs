@@ -8,7 +8,7 @@ namespace ThirdParty.Other.Unity.IO.Compression
     public class InvalidDataException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F75D0 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x4
     }
 
 }

@@ -7,30 +7,28 @@ namespace ThirdParty.DotNet.System.ComponentModel.Design
 {
     public class CheckoutException : ExternalException
     {
-        public System.ComponentModel.Design.CheckoutException Canceled;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAC44F7540 | overloaded x3
-        public void .cctor(){} // RVA: 0x7FFAC9449E70
+        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
+        public void .cctor(){} // RVA: 0x7FFE877F25C0
     }
 
     public class DesignerOptionService : Object
     {
         // ── Methods ──
-        public void PopulateOptionCollection(){} // RVA: 0x7FFAC2F21310
+        public void PopulateOptionCollection(){} // RVA: 0x7FFE810FB310
     }
 
     public class DesigntimeLicenseContextSerializer : Object
     {
         // ── Methods ──
-        public void Deserialize(){} // RVA: 0x7FFAC944AAA0
+        public void Deserialize(){} // RVA: 0x7FFE877F31E0
     }
 
     public class IComponentChangeService
     {
         // ── Methods ──
-        public void OnComponentChanged(){} // RVA: 0x7FFAC2C7B8C0
-        public void OnComponentChanging(){} // RVA: 0x7FFAC2C79B30
+        public void OnComponentChanged(){} // RVA: 0x7FFE80E50FC0
+        public void OnComponentChanging(){} // RVA: 0x7FFE80E4F230
     }
 
     public class IDesigner
@@ -39,60 +37,55 @@ namespace ThirdParty.DotNet.System.ComponentModel.Design
 
     public class IDesignerHost
     {
-        public object RootComponent;
-
         // ── Methods ──
-        public void get_RootComponent(){} // RVA: 0x7FFAC2C58E90
-        public void GetDesigner(){} // RVA: 0x7FFAC2C58F40
+        public void get_RootComponent(){} // RVA: 0x7FFE80E2E2E0
+        public void GetDesigner(){} // RVA: 0x7FFE80E2E390
     }
 
     public class IDictionaryService
     {
         // ── Methods ──
-        public void GetValue(){} // RVA: 0x7FFAC2C58F40
-        public void SetValue(){} // RVA: 0x7FFAC2C79B30
+        public void GetValue(){} // RVA: 0x7FFE80E2E390
+        public void SetValue(){} // RVA: 0x7FFE80E4F230
     }
 
     public class IExtenderListService
     {
         // ── Methods ──
-        public void GetExtenderProviders(){} // RVA: 0x7FFAC2C58E90
+        public void GetExtenderProviders(){} // RVA: 0x7FFE80E2E2E0
     }
 
     public class IReferenceService
     {
         // ── Methods ──
-        public void GetReference(){} // RVA: 0x7FFAC2C58F40
-        public void GetName(){} // RVA: 0x7FFAC2C58F40
-        public void GetReferences(){} // RVA: 0x7FFAC2C58F40
+        public void GetReference(){} // RVA: 0x7FFE80E2E390
+        public void GetName(){} // RVA: 0x7FFE80E2E390
+        public void GetReferences(){} // RVA: 0x7FFE80E2E390
     }
 
     public class ITypeDescriptorFilterService
     {
         // ── Methods ──
-        public void FilterAttributes(){} // RVA: 0x7FFAC2C5D200
-        public void FilterEvents(){} // RVA: 0x7FFAC2C5D200
-        public void FilterProperties(){} // RVA: 0x7FFAC2C5D200
+        public void FilterAttributes(){} // RVA: 0x7FFE80E32650
+        public void FilterEvents(){} // RVA: 0x7FFE80E32650
+        public void FilterProperties(){} // RVA: 0x7FFE80E32650
     }
 
     public class ITypeResolutionService
     {
         // ── Methods ──
-        public void GetType(){} // RVA: 0x7FFAC2C58F40
-        public void GetPathOfAssembly(){} // RVA: 0x7FFAC2C58F40
+        public void GetType(){} // RVA: 0x7FFE80E2E390
+        public void GetPathOfAssembly(){} // RVA: 0x7FFE80E2E390
     }
 
     public class RuntimeLicenseContext : LicenseContext
     {
-        public System.Diagnostics.TraceSwitch s_runtimeLicenseContextSwitch;
-        public System.Collections.Hashtable savedLicenseKeys; // 0x10
-
         // ── Methods ──
-        public void GetLocalPath(){} // RVA: 0x7FFAC9449F40
-        public void GetSavedLicenseKey(){} // RVA: 0x7FFAC944A030
-        public void CaseInsensitiveManifestResourceStreamLookup(){} // RVA: 0x7FFAC944A760
-        public void .ctor(){} // RVA: 0x7FFAC2F21310
-        public void .cctor(){} // RVA: 0x7FFAC944A9B0
+        public void GetLocalPath(){} // RVA: 0x7FFE877F2690
+        public void GetSavedLicenseKey(){} // RVA: 0x7FFE877F2780
+        public void CaseInsensitiveManifestResourceStreamLookup(){} // RVA: 0x7FFE877F2EA0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFE877F30F0
     }
 
 }

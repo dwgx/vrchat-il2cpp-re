@@ -7,29 +7,27 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Isis
 {
     public class CertHash : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier HashAlgorithm; // 0x10
-        public byte[] CertificateHash; // 0x18
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x10
+        public byte[] certificateHash; // 0x18
 
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFACBDA5590
-        public void .ctor(){} // RVA: 0x7FFACBDA5940 | overloaded x2
-        public void get_HashAlgorithm(){} // RVA: 0x7FFAC2F3C380
-        public void get_CertificateHash(){} // RVA: 0x7FFACBDA5B50
-        public void ToAsn1Object(){} // RVA: 0x7FFACBDA5BD0
+        public void GetInstance(){} // RVA: 0x7FFE8A1FEBB0
+        public void .ctor(){} // RVA: 0x7FFE8A1FEF60 | overloaded x2
+        public void get_HashAlgorithm(){} // RVA: 0x7FFE81116380
+        public void get_CertificateHash(){} // RVA: 0x7FFE8A1FF170
+        public void ToAsn1Object(){} // RVA: 0x7FFE8A1FF1F0
     }
 
     public class RequestedCertificate : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509CertificateStructure Type; // 0x10
-        public byte[] publicKeyCert; // 0x18
-        public byte[] attributeCert; // 0x20
+        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509CertificateStructure cert; // 0x10
 
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFACBDA6020 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFACBDA6330 | overloaded x3
-        public void get_Type(){} // RVA: 0x7FFACBDA64C0
-        public void GetCertificateBytes(){} // RVA: 0x7FFACBDA64E0
-        public void ToAsn1Object(){} // RVA: 0x7FFACBDA65E0
+        public void GetInstance(){} // RVA: 0x7FFE8A1FF640 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFE8A1FF950 | overloaded x3
+        public void get_Type(){} // RVA: 0x7FFE8A1FFAE0
+        public void GetCertificateBytes(){} // RVA: 0x7FFE8A1FFB00
+        public void ToAsn1Object(){} // RVA: 0x7FFE8A1FFC00
     }
 
 }

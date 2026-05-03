@@ -8,7 +8,7 @@ namespace ThirdParty.Other.Unity
     public class ThrowStub : ObjectDisposedException
     {
         // ── Methods ──
-        public void ThrowNotSupportedException(){} // RVA: 0x7FFAC8604920
+        public void ThrowNotSupportedException(){} // RVA: 0x7FFE869AE0F0
     }
 
 }
