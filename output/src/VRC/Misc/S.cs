@@ -339,17 +339,16 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x7FFE825CF7E0
         public void ActivateModule(){} // RVA: 0x7FFE825CF800
         public void OnDisable(){} // RVA: 0x7FFE825CF8A0
+        public void ShouldActivateModule_F035B5FA43A3(){} // RVA: 0x7FFE825CFA30
         public void IsModuleSupported(){} // RVA: 0x7FFE825CFBC0
         public void DetermineMoveDirection(){} // RVA: 0x7FFE825CFC40
+        public void IsModuleSupported_4CD13018A53D(){} // RVA: 0x7FFE825CFC40
         public void Start(){} // RVA: 0x7FFE825CFC50
         public void HandlePointerExitAndEnter(){} // RVA: 0x7FFE81124130
         public void GetAxisEventData(){} // RVA: 0x7FFE825CFE70
         public void GetBaseEventData(){} // RVA: 0x7FFE825CF770
         public void IsPointerOverGameObject(){} // RVA: 0x7FFE825D0090
-        // ── Unresolved (hash) ──
-        public void m_F03(){} // RVA: 0x7FFE825CFA30
-        public void m_4CD(){} // RVA: 0x7FFE825CFC40
-        public void m_33C(){} // RVA: 0x7FFE825D0220
+        public void Process_33CBC3C1D1D7(){} // RVA: 0x7FFE825D0220
     }
 
     /// <summary>Originally: ÍÏÎÎÌÍÎÌÌÌÌÌÏÌÌÎÎÍÎÎÌÌÍ</summary>

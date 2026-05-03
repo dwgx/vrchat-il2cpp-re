@@ -289,15 +289,15 @@ namespace VRC.Core.Base
         public void InternalGetHashCode(){} // RVA: 0x7FFE82DCBE70
         public void ToString(){} // RVA: 0x7FFE81116380
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE810FCE30
+        public void GetHashCode_3CDD05EC234A(){} // RVA: 0x7FFE81116380
+        public void ToString_3B22F623964D(){} // RVA: 0x7FFE826F4230
+        public void Equals_9E16F52ACFC7(){} // RVA: 0x7FFE815BF990
+        public void op_Equality(){} // RVA: 0x7FFE81116380
         // ── Unresolved (hash) ──
         public void m_03F(){} // RVA: 0x7FFE810FCE30
         public void m_7B4(){} // RVA: 0x7FFE82DCBE70
-        public void m_3CD(){} // RVA: 0x7FFE81116380
-        public void m_3B2(){} // RVA: 0x7FFE826F4230
         public void m_553(){} // RVA: 0x7FFE826F3FC0
-        public void m_9E1(){} // RVA: 0x7FFE815BF990
         public void m_01C(){} // RVA: 0x7FFE82DCBE70
-        public void m_215(){} // RVA: 0x7FFE81116380
         public void m_531(){} // RVA: 0x7FFE826F4220
     }
 
@@ -419,14 +419,14 @@ namespace VRC.Core.Base
         public void InternalGetHashCode(){} // RVA: 0x7FFE82D31300
         public void ToString(){} // RVA: 0x7FFE826F4220
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE811485C0
+        public void op_Equality(){} // RVA: 0x7FFE826F4210
+        public void Equals_62B39A545625(){} // RVA: 0x7FFE82D31350
+        public void GetHashCode_3CDD05EC234A(){} // RVA: 0x7FFE826F4210
+        public void ToString_91FEF90FBA2F(){} // RVA: 0x7FFE826F4230
         // ── Unresolved (hash) ──
-        public void m_844(){} // RVA: 0x7FFE826F4210
         public void m_730(){} // RVA: 0x7FFE826F4220
-        public void m_62B(){} // RVA: 0x7FFE82D31350
         public void m_16B(){} // RVA: 0x7FFE810FE0C0
-        public void m_3CD(){} // RVA: 0x7FFE826F4210
         public void m_A00(){} // RVA: 0x7FFE826F4210
-        public void m_91F(){} // RVA: 0x7FFE826F4230
         public void m_6C0(){} // RVA: 0x7FFE810FE0C0
         public void m_9E1(){} // RVA: 0x7FFE815BF990
     }
@@ -558,15 +558,15 @@ namespace VRC.Core.Base
         public void InternalGetHashCode(){} // RVA: 0x7FFE8284EF60
         public void ToString(){} // RVA: 0x7FFE810FCE30
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE81116380
+        public void GetHashCode_3CDD05EC234A(){} // RVA: 0x7FFE8284EF60
+        public void ToString_3B22F623964D(){} // RVA: 0x7FFE826F4230
+        public void op_Equality(){} // RVA: 0x7FFE81D7E9E0
+        public void Equals_62B39A545625(){} // RVA: 0x7FFE813240E0
         // ── Unresolved (hash) ──
         public void m_5EC(){} // RVA: 0x7FFE813240E0
-        public void m_3CD(){} // RVA: 0x7FFE8284EF60
         public void m_139(){} // RVA: 0x7FFE813240E0
-        public void m_3B2(){} // RVA: 0x7FFE826F4230
         public void m_BDD(){} // RVA: 0x7FFE826F4210
         public void m_96C(){} // RVA: 0x7FFE813240E0
-        public void m_91F(){} // RVA: 0x7FFE81D7E9E0
-        public void m_62B(){} // RVA: 0x7FFE813240E0
         public void m_356(){} // RVA: 0x7FFE813240E0
     }
 
@@ -1763,15 +1763,14 @@ namespace VRC.Core.Base
         public void GetValidatedComponentValue(){} // RVA: 0x7FFE89E7C790
         public void FindObjectOfType(){} // RVA: 0x7FFE89E7C8B0
         public void FindFirstObjectByType(){} // RVA: 0x7FFE89E7CAB0
+        public void get_hidden(){} // RVA: 0x7FFE811B2D30
+        public void Op_Inequality(){} // RVA: 0x7FFE89E7CCA0
         public void set_hidden(){} // RVA: 0x7FFE89E7CD30
         public void HandleConnectionAndResponse(){} // RVA: 0x7FFE89E7CED0
+        public void ValidateEntry(){} // RVA: 0x7FFE89E7CF80
         public void Op_Equality(){} // RVA: 0x7FFE89E7CCA0
         public void op_Equality(){} // RVA: 0x7FFE811B2D40
         public void op_Inequality(){} // RVA: 0x7FFE89E7D020
-        // ── Unresolved (hash) ──
-        public void m_0C4(){} // RVA: 0x7FFE811B2D30
-        public void m_BC9(){} // RVA: 0x7FFE89E7CCA0
-        public void m_1CC(){} // RVA: 0x7FFE89E7CF80
     }
 
     /// <summary>Originally: ÍÌÏÌÍÍÍÌÏÏÎÏÎÎÍÎÌÌÏÌÌÎÌ</summary>

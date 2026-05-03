@@ -73,6 +73,7 @@ namespace VRC.Core.Component
         public void Internal_IsInvokingAll(){} // RVA: 0x7FFE829879B0
         public void InvokeDelayed(){} // RVA: 0x7FFE82987B30
         public void OnApplicationQuit(){} // RVA: 0x7FFE82987BC0
+        public void LateUpdate_BF6029AC7C51(){} // RVA: 0x7FFE82987D30
         public void IsObjectMonoBehaviour(){} // RVA: 0x7FFE82988050
         public void StartCoroutineManaged(){} // RVA: 0x7FFE82988250
         public void StartCoroutineManaged2(){} // RVA: 0x7FFE82988870
@@ -81,14 +82,12 @@ namespace VRC.Core.Component
         public void GetScriptClassName(){} // RVA: 0x7FFE82988900
         public void .ctor(){} // RVA: 0x7FFE82988CD0
         public void Initialize(){} // RVA: 0x7FFE82989110
+        public void Start(){} // RVA: 0x7FFE81218100
+        public void OnEnable_1112D069AF81(){} // RVA: 0x7FFE82989670
         public void OnCollisionEnter(){} // RVA: 0x7FFE820BF400
         public void OnCollisionStay(){} // RVA: 0x7FFE8298A7E0
-        // ── Unresolved (hash) ──
-        public void m_BF6(){} // RVA: 0x7FFE82987D30
-        public void m_DBF(){} // RVA: 0x7FFE81218100
-        public void m_111(){} // RVA: 0x7FFE82989670
-        public void m_CEE(){} // RVA: 0x7FFE8298A8A0
-        public void m_F2A(){} // RVA: 0x7FFE8298AB50
+        public void OnDisable_CEE764FEAD31(){} // RVA: 0x7FFE8298A8A0
+        public void Tick(){} // RVA: 0x7FFE8298AB50
     }
 
     /// <summary>Originally: ÌÍÎÍÏÌÍÎÌÌÌÍÍÌÏÏÌÌÌÌÍÏÍ</summary>

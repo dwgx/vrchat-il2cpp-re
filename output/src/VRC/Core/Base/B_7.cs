@@ -899,14 +899,14 @@ namespace VRC.Core.Base
         public void InternalGetHashCode(){} // RVA: 0x7FFE81D7E9E0
         public void ToString(){} // RVA: 0x7FFE810FCE30
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE81116380
+        public void GetHashCode_3CDD05EC234A(){} // RVA: 0x7FFE8284EF60
+        public void op_Equality(){} // RVA: 0x7FFE8284EF60
+        public void Equals_62B39A545625(){} // RVA: 0x7FFE813240E0
+        public void ToString_91FEF90FBA2F(){} // RVA: 0x7FFE81D7E9E0
         // ── Unresolved (hash) ──
         public void m_408(){} // RVA: 0x7FFE81D7E9E0
-        public void m_3CD(){} // RVA: 0x7FFE8284EF60
-        public void m_844(){} // RVA: 0x7FFE8284EF60
-        public void m_62B(){} // RVA: 0x7FFE813240E0
         public void m_C8A(){} // RVA: 0x7FFE81116380
         public void m_6B9(){} // RVA: 0x7FFE826F4230
-        public void m_91F(){} // RVA: 0x7FFE81D7E9E0
         public void m_83F(){} // RVA: 0x7FFE826F4210
         public void m_854(){} // RVA: 0x7FFE826F4230
     }
@@ -1987,20 +1987,19 @@ namespace VRC.Core.Base
         public void DoInternal_FromEu(){} // RVA: 0x7FFE85A8B450
         public void Destroy(){} // RVA: 0x7FFE85B63B70
         public void DestroyImmediate(){} // RVA: 0x7FFE85B67920
+        public void GetInstanceID_81ACB1B25816(){} // RVA: 0x7FFE85B63CD0
         public void DestroyImmediate_1DD3BF89D01B(){} // RVA: 0x7FFE85B67A90
         public void FindObjectsOfType(){} // RVA: 0x7FFE85B67540
+        public void ToString_16D60BCFD962(){} // RVA: 0x7FFE85B63750
         public void FindObjectsByType(){} // RVA: 0x7FFE85B67DF0
+        public void Equals_BBDAD570EFF3(){} // RVA: 0x7FFE85B67E10
         public void get_hideFlags(){} // RVA: 0x7FFE85B68250
+        public void GetHashCode_B675A3F5547F(){} // RVA: 0x7FFE85B68300
         public void set_hideFlags_20A45B8F5271(){} // RVA: 0x7FFE85B68400
         public void FindObjectOfType(){} // RVA: 0x7FFE85B64520
         public void FindFirstObjectByType(){} // RVA: 0x7FFE81A17640
+        public void GetName(){} // RVA: 0x7FFE85B68470
         public void CheckNullArgument(){} // RVA: 0x7FFE85B64650
-        // ── Unresolved (hash) ──
-        public void m_81A(){} // RVA: 0x7FFE85B63CD0
-        public void m_16D(){} // RVA: 0x7FFE85B63750
-        public void m_BBD(){} // RVA: 0x7FFE85B67E10
-        public void m_B67(){} // RVA: 0x7FFE85B68300
-        public void m_EA3(){} // RVA: 0x7FFE85B68470
     }
 
     /// <summary>Originally: ÎÏÌÎÎÌÌÎÏÍÎÎÎÌÍÌÎÏÌÌÌÍÏ</summary>

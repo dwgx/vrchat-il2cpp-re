@@ -57,17 +57,16 @@ namespace VRC.Core.Base
         public void Initialize(){} // RVA: 0x7FFE814B5BF0
         public void InvokeRepeating(){} // RVA: 0x7FFE81437330
         public void CancelInvoke(){} // RVA: 0x7FFE81129890
+        public void Awake(){} // RVA: 0x7FFE81631490
         public void StartCoroutine(){} // RVA: 0x7FFE811E99D0
+        public void OnEnable(){} // RVA: 0x7FFE8144E200
+        public void OnDisable(){} // RVA: 0x7FFE8292F1A0
         public void StartCoroutine_Auto(){} // RVA: 0x7FFE810FCE90
         public void StopCoroutine(){} // RVA: 0x7FFE81437330
+        public void OnDestroy(){} // RVA: 0x7FFE810FCE90
+        public void Update(){} // RVA: 0x7FFE8143BA80
         public void StopAllCoroutines(){} // RVA: 0x7FFE81437330
         public void get_useGUILayout(){} // RVA: 0x7FFE8144E200
-        // ── Unresolved (hash) ──
-        public void m_E86(){} // RVA: 0x7FFE81631490
-        public void m_44D(){} // RVA: 0x7FFE8144E200
-        public void m_7BE(){} // RVA: 0x7FFE8292F1A0
-        public void m_338(){} // RVA: 0x7FFE810FCE90
-        public void m_0C6(){} // RVA: 0x7FFE8143BA80
     }
 
     /// <summary>Originally: ÌÏÎÎÎÏÌÎÎÌÍÌÏÍÏÏÌÌÍÌÏÍÌ</summary>

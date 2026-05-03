@@ -273,13 +273,13 @@ namespace VRC.Network
         public void InternalGetHashCode(){} // RVA: 0x7FFE811E99E0
         public void ToString(){} // RVA: 0x7FFE82D26C20
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82D26E30
+        public void ToString_3B22F623964D(){} // RVA: 0x7FFE82D26EF0
+        public void Equals_2CB7B3F870DF(){} // RVA: 0x7FFE82D271C0
+        public void Serialize(){} // RVA: 0x7FFE82443340
+        public void Deserialize(){} // RVA: 0x7FFE82443340
+        public void GetSerializationData(){} // RVA: 0x7FFE82D273B0
         // ── Unresolved (hash) ──
-        public void m_3B2(){} // RVA: 0x7FFE82D26EF0
         public void m_E42(){} // RVA: 0x7FFE82D27250
-        public void m_2CB(){} // RVA: 0x7FFE82D271C0
-        public void m_F26(){} // RVA: 0x7FFE82443340
-        public void m_5B0(){} // RVA: 0x7FFE82443340
-        public void m_16D(){} // RVA: 0x7FFE82D273B0
         public void m_E36(){} // RVA: 0x7FFE82443340
         public void m_29A(){} // RVA: 0x7FFE82D27480
     }

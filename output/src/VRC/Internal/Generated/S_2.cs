@@ -1452,6 +1452,7 @@ namespace VRC.Internal.Generated
         public void InternalGetHashCode(){} // RVA: 0x7FFE8144DF00
         public void ToString(){} // RVA: 0x7FFE813DB630
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE81D7E9E0
+        public void op_Equality(){} // RVA: 0x7FFE8284EF60
         // ── Unresolved (hash) ──
         public void m_BDD(){} // RVA: 0x7FFE826F4210
         public void m_215(){} // RVA: 0x7FFE8284EF60
@@ -1460,7 +1461,6 @@ namespace VRC.Internal.Generated
         public void m_5B9(){} // RVA: 0x7FFE8284EF60
         public void m_260(){} // RVA: 0x7FFE81116380
         public void m_22C(){} // RVA: 0x7FFE810FCE30
-        public void m_844(){} // RVA: 0x7FFE8284EF60
     }
 
     /// <summary>Originally: ÌÍÍÌÏÌÍÏÌÌÏÎÍÌÎÌÍÎÌÌÎÏÎ</summary>

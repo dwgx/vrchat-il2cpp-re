@@ -430,16 +430,16 @@ namespace VRC.Misc
         public void InternalGetHashCode(){} // RVA: 0x7FFE810FCE30
         public void ToString(){} // RVA: 0x7FFE81161E80
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE826F4230
+        public void Equals_9E16F52ACFC7(){} // RVA: 0x7FFE815BF990
+        public void ToString_91FEF90FBA2F(){} // RVA: 0x7FFE826F4230
+        public void op_Equality(){} // RVA: 0x7FFE826F4210
         // ── Unresolved (hash) ──
         public void m_AF6(){} // RVA: 0x7FFE810FE7C0
-        public void m_9E1(){} // RVA: 0x7FFE815BF990
         public void m_4C7(){} // RVA: 0x7FFE82D93210
         public void m_349(){} // RVA: 0x7FFE826F4210
         public void m_730(){} // RVA: 0x7FFE826F4220
         public void m_BDD(){} // RVA: 0x7FFE81116380
-        public void m_91F(){} // RVA: 0x7FFE826F4230
         public void m_034(){} // RVA: 0x7FFE81116380
-        public void m_844(){} // RVA: 0x7FFE826F4210
     }
 
     /// <summary>Originally: ÎÌÍÎÍÎÌÌÎÏÏÎÍÏÌÍÍÌÎÌÌÏÎ</summary>
@@ -668,10 +668,10 @@ namespace VRC.Misc
         public void InternalGetHashCode(){} // RVA: 0x7FFE811164E0
         public void ToString(){} // RVA: 0x7FFE810FCE30
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE8284EF60
+        public void Equals_8D36FBC72E62(){} // RVA: 0x7FFE811164F0
+        public void GetHashCode_27D54FDE59FF(){} // RVA: 0x7FFE81116380
+        public void ToString_AC50EA877DD9(){} // RVA: 0x7FFE811164E0
         // ── Unresolved (hash) ──
-        public void m_8D3(){} // RVA: 0x7FFE811164F0
-        public void m_27D(){} // RVA: 0x7FFE81116380
-        public void m_AC5(){} // RVA: 0x7FFE811164E0
         public void m_3B2(){} // RVA: 0x7FFE81D7E9E0
         public void m_1CA(){} // RVA: 0x7FFE826F4230
         public void m_AF6(){} // RVA: 0x7FFE826F4210
@@ -1251,12 +1251,12 @@ namespace VRC.Misc
         public void InternalGetHashCode(){} // RVA: 0x7FFE81116380
         public void ToString(){} // RVA: 0x7FFE826F4210
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE810FCE30
+        public void ToString_3B22F623964D(){} // RVA: 0x7FFE81D7E9E0
         // ── Unresolved (hash) ──
         public void m_369(){} // RVA: 0x7FFE8284EF60
         public void m_C9A(){} // RVA: 0x7FFE81D7E9E0
         public void m_956(){} // RVA: 0x7FFE81161E80
         public void m_DF6(){} // RVA: 0x7FFE810FE7C0
-        public void m_3B2(){} // RVA: 0x7FFE81D7E9E0
         public void m_661(){} // RVA: 0x7FFE826F4210
         public void m_CBF(){} // RVA: 0x7FFE81D7E9E0
         public void m_BDD(){} // RVA: 0x7FFE8284EF60

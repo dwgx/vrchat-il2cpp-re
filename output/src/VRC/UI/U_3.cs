@@ -286,7 +286,9 @@ namespace VRC.UI
         public void Instantiate(){} // RVA: 0x7FFE896F7380
         public void ToString(){} // RVA: 0x7FFE896F74E0
         public void Initialize(){} // RVA: 0x7FFE896F7590
+        public void ShowTab_05F452265C40(){} // RVA: 0x7FFE896F7E10 | overloaded x2
         public void set_hideFlags(){} // RVA: 0x7FFE896F77C0
+        public void HideTab(){} // RVA: 0x7FFE896F7960
         public void ProcessComponentInternalState(){} // RVA: 0x7FFE896F79B0
         public void CheckDateTimeValidity(){} // RVA: 0x7FFE896F7B30
         public void DoInternal_FromEu(){} // RVA: 0x7FFE896F7BD0
@@ -295,20 +297,17 @@ namespace VRC.UI
         public void DestroyImmediate(){} // RVA: 0x7FFE896F7DF0
         public void DestroyImmediate_B62BEFDE746D(){} // RVA: 0x7FFE896F7F80
         public void FindObjectsOfType(){} // RVA: 0x7FFE896F80F0
+        public void GetActiveTab(){} // RVA: 0x7FFE896F8310
         public void FindObjectsByType(){} // RVA: 0x7FFE896F8410
+        public void SetActiveTab(){} // RVA: 0x7FFE896F8420
         public void DontDestroyOnLoad(){} // RVA: 0x7FFE896F8780
         public void get_hideFlags(){} // RVA: 0x7FFE896F8A20
+        public void RefreshTab(){} // RVA: 0x7FFE896F8B40
         public void set_hideFlags_C57BAAFF210E(){} // RVA: 0x7FFE896F8DE0
         public void .ctor(){} // RVA: 0x7FFE896F8F20
         public void FindFirstObjectByType(){} // RVA: 0x7FFE896F8410
+        public void OnTabChanged(){} // RVA: 0x7FFE896F9050
         public void CheckNullArgument(){} // RVA: 0x7FFE896F91D0
-        // ── Unresolved (hash) ──
-        public void m_05F(){} // RVA: 0x7FFE896F7E10
-        public void m_B5E(){} // RVA: 0x7FFE896F7960
-        public void m_E16(){} // RVA: 0x7FFE896F8310
-        public void m_EF6(){} // RVA: 0x7FFE896F8420
-        public void m_1F1(){} // RVA: 0x7FFE896F8B40
-        public void m_BCA(){} // RVA: 0x7FFE896F9050
     }
 
     /// <summary>Originally: ÏÍÌÍÌÍÏÎÏÍÎÍÏÍÌÎÍÎÌÍÏÌÎ</summary>
@@ -345,6 +344,7 @@ namespace VRC.UI
         public void OnDestroy(){} // RVA: 0x7FFE81CF80B0
         public void StopCoroutine(){} // RVA: 0x7FFE896E5990
         public void FixedUpdate(){} // RVA: 0x7FFE896E5AD0
+        public void HideTabContent(){} // RVA: 0x7FFE896E5DA0
         public void StopAllCoroutines(){} // RVA: 0x7FFE896E5EA0
         public void get_useGUILayout(){} // RVA: 0x7FFE896E5FA0
         public void set_useGUILayout(){} // RVA: 0x7FFE896EA9E0 | overloaded x3
@@ -361,11 +361,13 @@ namespace VRC.UI
         public void OnApplicationQuit_77417148B25C(){} // RVA: 0x7FFE896E8480 | overloaded x2
         public void get_useGUILayout_DCCECEB636DC(){} // RVA: 0x7FFE896E7720
         public void IsInvoking_A6616BDA5058(){} // RVA: 0x7FFE896E7930
+        public void OnTabSelected(){} // RVA: 0x7FFE896E7B50
         public void get_useGUILayout_1EA2822C3A4A(){} // RVA: 0x7FFE896E7C00
         public void SetModelAlphaBlendShader(){} // RVA: 0x7FFE896E7C80
         public void .ctor(){} // RVA: 0x7FFE896E7D90
         public void StopCoroutine_B31F086DCB53(){} // RVA: 0x7FFE896E8070
         public void UpdateTabContent(){} // RVA: 0x7FFE896E8310
+        public void RefreshTabContent(){} // RVA: 0x7FFE896E83C0
         public void ShowTabContent(){} // RVA: 0x7FFE896E8450
         public void OnDestroy_D8F9326D93A7(){} // RVA: 0x7FFE896E5770
         public void LateUpdate(){} // RVA: 0x7FFE896E8FA0
@@ -382,14 +384,10 @@ namespace VRC.UI
         public void OnTriggerStay(){} // RVA: 0x7FFE896EA3B0
         public void OnTriggerExit(){} // RVA: 0x7FFE811C3500
         public void OnTriggerExit_A00E7D775709(){} // RVA: 0x7FFE896EAC00
+        public void SetActiveTab(){} // RVA: 0x7FFE896EACD0
+        public void GetCurrentTabIndex(){} // RVA: 0x7FFE896EAE70
+        public void ToggleTabVisibility(){} // RVA: 0x7FFE896EAFA0
         public void SetActive_06A(){} // RVA: 0x7FFE896EB0B0
-        // ── Unresolved (hash) ──
-        public void m_09C(){} // RVA: 0x7FFE896E5DA0
-        public void m_930(){} // RVA: 0x7FFE896E7B50
-        public void m_D05(){} // RVA: 0x7FFE896E83C0
-        public void m_D59(){} // RVA: 0x7FFE896EACD0
-        public void m_733(){} // RVA: 0x7FFE896EAE70
-        public void m_654(){} // RVA: 0x7FFE896EAFA0
     }
 
     /// <summary>Originally: ÏÏÎÏÌÏÌÎÏÌÍÌÎÍÍÍÌÍÍÍÍÌÌ</summary>
@@ -489,10 +487,9 @@ namespace VRC.UI
         public void OnScroll(){} // RVA: 0x7FFE89864340
         public void OnValueChanged(){} // RVA: 0x7FFE89864510
         public void OnEndEdit(){} // RVA: 0x7FFE898645E0
-        // ── Unresolved (hash) ──
-        public void m_B90(){} // RVA: 0x7FFE89863C40
-        public void m_779(){} // RVA: 0x7FFE89864680
-        public void m_28E(){} // RVA: 0x7FFE898649E0
+        public void OnClick(){} // RVA: 0x7FFE89863C40
+        public void Close(){} // RVA: 0x7FFE89864680
+        public void Awake(){} // RVA: 0x7FFE898649E0
     }
 
     /// <summary>Originally: ÏÏÏÌÎÎÌÌÍÍÏÌÌÍÎÏÏÏÏÏÏÎÎ</summary>
@@ -531,14 +528,14 @@ namespace VRC.UI
         public void OnScroll(){} // RVA: 0x7FFE80E2E2E0
         public void OnValueChanged(){} // RVA: 0x7FFE89D15880
         public void OnEndEdit(){} // RVA: 0x7FFE80E45FE0
+        public void OnRightButtonPressed(){} // RVA: 0x7FFE89D15AA0
+        public void CycleNextOption(){} // RVA: 0x7FFE89D10F90
+        public void UpdateCurrentOptionText(){} // RVA: 0x7FFE810A1420
+        public void SetOptionIndex(){} // RVA: 0x7FFE89D15BB0
+        public void GetSelectedOption(){} // RVA: 0x7FFE80E45FE0
+        public void RefreshOptionDisplay(){} // RVA: 0x7FFE89D15CC0
+        public void InvokeOptionChanged(){} // RVA: 0x7FFE89D15D80
         // ── Unresolved (hash) ──
-        public void m_92E(){} // RVA: 0x7FFE89D15AA0
-        public void m_7C4(){} // RVA: 0x7FFE89D10F90
-        public void m_E3A(){} // RVA: 0x7FFE810A1420
-        public void m_872(){} // RVA: 0x7FFE89D15BB0
-        public void m_53F(){} // RVA: 0x7FFE80E45FE0
-        public void m_604(){} // RVA: 0x7FFE89D15CC0
-        public void m_C10(){} // RVA: 0x7FFE89D15D80
         public void m_ADE(){} // RVA: 0x7FFE80E45FE0
         public void m_8E0(){} // RVA: 0x7FFE89D15DE0
         public void m_B73(){} // RVA: 0x7FFE89D15EF0

@@ -77,7 +77,27 @@ namespace VRC.Player
         public ÏÏÌÍÌÎÏÌÍÍÍÌÏÍÌÎÏÏÍÏÏÎÎ<bool> f_245; // 0x220
 
         // ── Methods ──
+        public void GetPlayerApi(){} // RVA: 0x7FFE816611A0
         public void InitializePlayer(){} // RVA: 0x7FFE823E4020
+        public void SetPlayerPosition(){} // RVA: 0x7FFE823E4580
+        public void SetPlayerRotation(){} // RVA: 0x7FFE823E4660
+        public void TeleportPlayer(){} // RVA: 0x7FFE81176D50
+        public void GetPlayerVelocity(){} // RVA: 0x7FFE823E4670
+        public void SetPlayerVelocity(){} // RVA: 0x7FFE811C3500
+        public void RespawnPlayer(){} // RVA: 0x7FFE823E4870
+        public void OnPlayerSpawned(){} // RVA: 0x7FFE823E4990
+        public void OnPlayerLeft(){} // RVA: 0x7FFE823E4AE0
+        public void OnPlayerJoined(){} // RVA: 0x7FFE823E4E80
+        public void GetDisplayName(){} // RVA: 0x7FFE823E5020
+        public void IsLocalPlayer(){} // RVA: 0x7FFE823E5030
+        public void GetUserId(){} // RVA: 0x7FFE81B2DA70
+        public void SetAvatarEyeHeight(){} // RVA: 0x7FFE81B295E0
+        public void GetAvatarEyeHeight(){} // RVA: 0x7FFE823E5130
+        public void ApplyPlayerForce(){} // RVA: 0x7FFE823E5290
+        public void SetPlayerTrust(){} // RVA: 0x7FFE823E5390
+        public void MutePlayer(){} // RVA: 0x7FFE81B2E3B0
+        public void UnmutePlayer(){} // RVA: 0x7FFE823E54D0
+        public void KickPlayer(){} // RVA: 0x7FFE823E5620
         public void InitializePhotonConnectionPlayer(){} // RVA: 0x7FFE823E5950
         public void OnDestroy(){} // RVA: 0x7FFE823E6520
         public void .cctor(){} // RVA: 0x7FFE823E6ED0
@@ -86,6 +106,7 @@ namespace VRC.Player
         public void set_SerializedDataField(){} // RVA: 0x7FFE823EB7E0
         public void Awake(){} // RVA: 0x7FFE823EC300
         public void ToString(){} // RVA: 0x7FFE823EEFE0
+        public void SetPlayerTrust_C0B3D2C9E753(){} // RVA: 0x7FFE823F33E0
         public void set_SerializedDataField_FC4C32(){} // RVA: 0x7FFE823F3890
         public void SetPlayerTagWithoutNotify(){} // RVA: 0x7FFE823F4FB0
         public void InitializeNetworkState(){} // RVA: 0x7FFE823F5A60
@@ -94,13 +115,13 @@ namespace VRC.Player
         public void get_ExecutingTaskCollection(){} // RVA: 0x7FFE823F8A30
         public void ReloadAvatarNetworkedRPC(){} // RVA: 0x7FFE823F9920
         public void PlayEmoteRPC(){} // RVA: 0x7FFE823FB420
-        // ── 225 unresolved (hash) ──
-        public void m_927(){} // RVA: 0x7FFE816611A0
-        public void m_6EA(){} // RVA: 0x7FFE823E4580
-        public void m_09F(){} // RVA: 0x7FFE823E4660
-        public void m_63E(){} // RVA: 0x7FFE81176D50
-        public void m_AE2(){} // RVA: 0x7FFE823E4670
-        // ... 220 more unresolved methods
+        // ── 205 unresolved (hash) ──
+        public void m_0B1(){} // RVA: 0x7FFE823E5630
+        public void m_F28(){} // RVA: 0x7FFE823E5690
+        public void m_C9C(){} // RVA: 0x7FFE823E58A0
+        public void m_E2C(){} // RVA: 0x7FFE823F9E50
+        public void m_68F(){} // RVA: 0x7FFE823E5A80
+        // ... 200 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÏÌÌÍÌÌÎÌÍÌÌÌÎÍÎÌÎÍÎÍÏ</summary>
@@ -134,20 +155,19 @@ namespace VRC.Player
         public void ComputegameObject(){} // RVA: 0x7FFE81CB5610
         public void ReadTransformState(){} // RVA: 0x7FFE81CB5890
         public void get_PlayerApiReference(){} // RVA: 0x7FFE81CB5A00
+        public void GetPlayerTransform(){} // RVA: 0x7FFE81CB5C30
+        public void UpdatePlayerState(){} // RVA: 0x7FFE81CB5FA0
         public void get_IsInvisible(){} // RVA: 0x7FFE81CB60E0
         public void Destroy(){} // RVA: 0x7FFE81CB6150
         public void DoFindRelativeTransformWithPath_C62(){} // RVA: 0x7FFE810FE7C0
         public void DestroyImmediate(){} // RVA: 0x7FFE81CB6240
+        public void GetPlayerId(){} // RVA: 0x7FFE81CB65F0
         public void FindObjectsOfType(){} // RVA: 0x7FFE81CB67A0
         public void set_statusDescription(){} // RVA: 0x7FFE81CB6950
         public void FindObjectsByType(){} // RVA: 0x7FFE81CB6A80
         public void .cctor(){} // RVA: 0x7FFE81CB6BC0
         public void DontDestroyOnLoad(){} // RVA: 0x7FFE81CB6DA0
         public void get_hideFlags(){} // RVA: 0x7FFE81CB6EE0
-        // ── Unresolved (hash) ──
-        public void m_4FF(){} // RVA: 0x7FFE81CB5C30
-        public void m_4D4(){} // RVA: 0x7FFE81CB5FA0
-        public void m_F58(){} // RVA: 0x7FFE81CB65F0
     }
 
     /// <summary>Originally: ÍÍÍÏÎÎÌÍÌÏÌÏÎÏÌÌÌÏÍÌÌÌÌ</summary>
@@ -229,19 +249,18 @@ namespace VRC.Player
         public void ComputegameObject(){} // RVA: 0x7FFE81161E80
         public void ReadTransformState(){} // RVA: 0x7FFE8189A310
         public void get_PlayerApiReference(){} // RVA: 0x7FFE8111ED80
+        public void GetPlayerTransform(){} // RVA: 0x7FFE810FB320
+        public void UpdatePlayerState(){} // RVA: 0x7FFE8189A3A0
         public void get_IsInvisible(){} // RVA: 0x7FFE8189A430
         public void Destroy(){} // RVA: 0x7FFE810FB320
         public void DoFindRelativeTransformWithPath_C62(){} // RVA: 0x7FFE811290C0
         public void DestroyImmediate(){} // RVA: 0x7FFE8189A470
+        public void GetPlayerId(){} // RVA: 0x7FFE8189A4B0
         public void FindObjectsOfType(){} // RVA: 0x7FFE811E0850
         public void set_statusDescription(){} // RVA: 0x7FFE810FE7C0
         public void FindObjectsByType(){} // RVA: 0x7FFE8189A4F0
         public void .cctor(){} // RVA: 0x7FFE8189A640
         public void DontDestroyOnLoad(){} // RVA: 0x7FFE8189A730
-        // ── Unresolved (hash) ──
-        public void m_F58(){} // RVA: 0x7FFE810FB320
-        public void m_32B(){} // RVA: 0x7FFE8189A3A0
-        public void m_E16(){} // RVA: 0x7FFE8189A4B0
     }
 
     /// <summary>Originally: ÍÌÏÎÏÍÎÌÏÎÏÍÏÌÍÏÌÎÏÌÏÌÌ</summary>

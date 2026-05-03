@@ -27,19 +27,18 @@ namespace VRC.Economy.Internal
         public void ToString(){} // RVA: 0x7FFE817030A0
         public void CalculatePIDValue(){} // RVA: 0x7FFE81703120
         public void Initialize_5ECCAC1A8C41(){} // RVA: 0x7FFE81703210
+        public void GetStore(){} // RVA: 0x7FFE817033D0
+        public void FetchStores(){} // RVA: 0x7FFE817036E0
         public void Initialize(){} // RVA: 0x7FFE817036F0
         public void Destroy(){} // RVA: 0x7FFE81703940
+        public void RefreshStores(){} // RVA: 0x7FFE81129890
+        public void GetStoreById(){} // RVA: 0x7FFE81703950
         public void DestroyImmediate(){} // RVA: 0x7FFE81703D30
+        public void OnStoreUpdated(){} // RVA: 0x7FFE817036E0
         public void FindObjectsOfType(){} // RVA: 0x7FFE81703F40
+        public void Cleanup(){} // RVA: 0x7FFE81704070
         public void CompositionMethod(){} // RVA: 0x7FFE81703940
         public void .cctor(){} // RVA: 0x7FFE81704220
-        // ── Unresolved (hash) ──
-        public void m_601(){} // RVA: 0x7FFE817033D0
-        public void m_F03(){} // RVA: 0x7FFE817036E0
-        public void m_482(){} // RVA: 0x7FFE81129890
-        public void m_E5A(){} // RVA: 0x7FFE81703950
-        public void m_04D(){} // RVA: 0x7FFE817036E0
-        public void m_EF0(){} // RVA: 0x7FFE81704070
     }
 
 }

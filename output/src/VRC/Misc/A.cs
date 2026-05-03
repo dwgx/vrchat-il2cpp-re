@@ -232,18 +232,18 @@ namespace VRC.Misc
         public void get_TypeId(){} // RVA: 0x7FFE811290D0
         public void InternalParamGetCustomAttributes(){} // RVA: 0x7FFE810FCE90
         public void InternalIsDefined(){} // RVA: 0x7FFE810FCE30
+        public void GetAttributeTypeId(){} // RVA: 0x7FFE82443340
         public void InternalParamIsDefined(){} // RVA: 0x7FFE81116380
         public void .ctor(){} // RVA: 0x7FFE89E7E7B0
         public void Initialize(){} // RVA: 0x7FFE810FCE30
         public void GetCustomAttributes(){} // RVA: 0x7FFE8144DF00
+        public void ResolveCustomAttributes(){} // RVA: 0x7FFE81156CE0
         public void IsDefined(){} // RVA: 0x7FFE81156CD0
+        public void CheckAttributeDefined(){} // RVA: 0x7FFE81129130
         public void GetCustomAttribute(){} // RVA: 0x7FFE810FCE90
+        public void GetParameterAttributes(){} // RVA: 0x7FFE810FCE90
+        public void GetAttributeInstance(){} // RVA: 0x7FFE811290D0
         // ── Unresolved (hash) ──
-        public void m_A98(){} // RVA: 0x7FFE82443340
-        public void m_2ED(){} // RVA: 0x7FFE81156CE0
-        public void m_F30(){} // RVA: 0x7FFE81129130
-        public void m_35B(){} // RVA: 0x7FFE810FCE90
-        public void m_25C(){} // RVA: 0x7FFE811290D0
         public void m_79B(){} // RVA: 0x7FFE82447220
         public void m_92C(){} // RVA: 0x7FFE8144DF00
         public void m_93C(){} // RVA: 0x7FFE811290C0

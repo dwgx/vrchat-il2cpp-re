@@ -13,7 +13,7 @@ namespace VRC.Player
         public void get_Preview(){} // RVA: 0x7FFE80E2E2E0
         public void get_IsVRCPlus(){} // RVA: 0x7FFE80E2F150
         public void set_IsVRCPlus(){} // RVA: 0x7FFE80E2E2E0
-        public void set_BackgroundName(){} // RVA: 0x7FFE80E45FE0
+        public void set_Preview(){} // RVA: 0x7FFE80E45FE0
     }
 
     /// <summary>Originally: ÎÌÌÍÍÏÏÏÏÎÏÍÍÎÎÎÎÎÎÎÍÎÍ</summary>
@@ -2208,9 +2208,9 @@ namespace VRC.Player
         public void get_name(){} // RVA: 0x7FFE812EA920
         public void set_name(){} // RVA: 0x7FFE812EA960
         public void Instantiate(){} // RVA: 0x7FFE812EA9D0
-        public void set_IsReady(){} // RVA: 0x7FFE812EAA20
+        public void set_UseLowLatency(){} // RVA: 0x7FFE812EAA20
         public void set_VideoWidth(){} // RVA: 0x7FFE812EAC40
-        public void set_UseLowLatency(){} // RVA: 0x7FFE812EAC50
+        public void set_IsReady(){} // RVA: 0x7FFE812EAC50
         public void get_UseLowLatency(){} // RVA: 0x7FFE812EAC60
         public void get_IsReady(){} // RVA: 0x7FFE812EAC90
         public void get_VideoWidth(){} // RVA: 0x7FFE812EACA0

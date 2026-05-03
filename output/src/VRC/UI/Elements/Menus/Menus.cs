@@ -26,14 +26,13 @@ namespace VRC.UI.Elements.Menus
         public void get_ObservableList(){} // RVA: 0x7FFE89B8D980
         public void OnEnable(){} // RVA: 0x7FFE89B8DA00
         public void OnDisable(){} // RVA: 0x7FFE89B8DC30
+        public void RefreshIconList(){} // RVA: 0x7FFE89B8DCD0
         public void PreparePhotoViewRendering(){} // RVA: 0x7FFE89B8DE00
+        public void OnIconClicked(){} // RVA: 0x7FFE89B8DEF0
         public void ProcessGalleryPhotoData(){} // RVA: 0x7FFE89B8DF10
         public void get_MaxContentCount(){} // RVA: 0x7FFE89B8DF30
         public void OnEnable_71CCEFAFAFB2(){} // RVA: 0x7FFE89B8DFB0
-        // ── Unresolved (hash) ──
-        public void m_772(){} // RVA: 0x7FFE89B8DCD0
-        public void m_E91(){} // RVA: 0x7FFE89B8DEF0
-        public void m_5F3(){} // RVA: 0x7FFE89B8DFD0
+        public void PopulateIcons(){} // RVA: 0x7FFE89B8DFD0
     }
 
     public class GalleryPhotosView : HeaderElementContentView`1

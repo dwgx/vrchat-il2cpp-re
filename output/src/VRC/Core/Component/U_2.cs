@@ -452,16 +452,15 @@ namespace VRC.Core.Component
         public void Cleanup(){} // RVA: 0x7FFE81D78280
         public void .ctor(){} // RVA: 0x7FFE81D78360
         public void Initialize(){} // RVA: 0x7FFE81D78570
+        public void OnUpdate(){} // RVA: 0x7FFE81D78600
         public void Initialize_6995634EA8B9(){} // RVA: 0x7FFE81D78690
+        public void Tick_DEAF50DCB2A7(){} // RVA: 0x7FFE81D78D40 | overloaded x2
         public void .ctor_43CD008FA892(){} // RVA: 0x7FFE81D789B0
+        public void Reset(){} // RVA: 0x7FFE81D78A70
         public void Destroy(){} // RVA: 0x7FFE81D78AA0
         public void ContainsChild(){} // RVA: 0x7FFE81D78AD0
         public void DestroyImmediate(){} // RVA: 0x7FFE81D78BB0
         public void FindObjectsOfType(){} // RVA: 0x7FFE81D79090
-        // ── Unresolved (hash) ──
-        public void m_DB9(){} // RVA: 0x7FFE81D78600
-        public void m_DEA(){} // RVA: 0x7FFE81D78D40
-        public void m_02A(){} // RVA: 0x7FFE81D78A70
     }
 
     /// <summary>Originally: ÏÏÏÍÌÎÌÎÎÏÌÌÏÌÎÌÍÏÌÌÎÏÏ</summary>
@@ -1118,6 +1117,7 @@ namespace VRC.Core.Component
         public void Internal_IsInvokingAll(){} // RVA: 0x7FFE81ED0670
         public void InvokeDelayed(){} // RVA: 0x7FFE81ED0B40
         public void Update(){} // RVA: 0x7FFE81ED0C50
+        public void Update_29BC19091178(){} // RVA: 0x7FFE81ECD7A0
         public void IsObjectMonoBehaviour(){} // RVA: 0x7FFE8119C080
         public void StartCoroutineManaged(){} // RVA: 0x7FFE81ED2020
         public void StartCoroutineManaged2(){} // RVA: 0x7FFE81ED2030
@@ -1130,10 +1130,8 @@ namespace VRC.Core.Component
         public void OnTriggerEnter(){} // RVA: 0x7FFE81ED3860
         public void OnTriggerExit(){} // RVA: 0x7FFE81ED3970
         public void OnTriggerExit_97566B36A40A(){} // RVA: 0x7FFE81ED39C0
-        // ── Unresolved (hash) ──
-        public void m_29B(){} // RVA: 0x7FFE81ECD7A0
-        public void m_385(){} // RVA: 0x7FFE81ED3E80
-        public void m_BB3(){} // RVA: 0x7FFE81ED40E0
+        public void OnTriggerExit_38592A5F2C56(){} // RVA: 0x7FFE81ED3E80
+        public void Cleanup(){} // RVA: 0x7FFE81ED40E0
     }
 
     /// <summary>Originally: ÏÏÍÏÎÏÎÌÏÍÌÏÏÌÎÎÍÎÏÍÎÍÍ</summary>

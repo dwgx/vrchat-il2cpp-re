@@ -27,13 +27,18 @@ namespace VRC.UI
         public void OnScroll(){} // RVA: 0x7FFE89DA37A0
         public void OnValueChanged(){} // RVA: 0x7FFE89DA3830
         public void OnEndEdit(){} // RVA: 0x7FFE89DA3840
-        // ── 11 unresolved (hash) ──
-        public void m_E84(){} // RVA: 0x7FFE89DA3C10
-        public void m_BF5(){} // RVA: 0x7FFE89DA3C70
-        public void m_804(){} // RVA: 0x7FFE89DA3D20
-        public void m_13E(){} // RVA: 0x7FFE89DA3E60
-        public void m_17B(){} // RVA: 0x7FFE89DA6FC0
-        // ... 6 more unresolved methods
+        public void SpawnCustomizeWorld(){} // RVA: 0x7FFE89DA3C10
+        public void OnSpawnButtonPressed(){} // RVA: 0x7FFE89DA3C70
+        public void OpenWorldCustomizationPanel(){} // RVA: 0x7FFE89DA3D20
+        public void ConfirmWorldSpawn(){} // RVA: 0x7FFE89DA3E60
+        public void CancelWorldSpawn(){} // RVA: 0x7FFE89DA6FC0
+        public void ApplyCustomWorldSettings(){} // RVA: 0x7FFE89DA7140
+        public void RefreshWorldButtonState(){} // RVA: 0x7FFE89DA7500
+        public void ValidateWorldSpawnInput(){} // RVA: 0x7FFE89DA7640
+        // ── Unresolved (hash) ──
+        public void m_C0A(){} // RVA: 0x7FFE89DA76A0
+        public void m_F22(){} // RVA: 0x7FFE89DA7AA0
+        public void m_066(){} // RVA: 0x7FFE89DA7AB0
     }
 
     /// <summary>Originally: ÏÏÎÎÎÏÎÍÎÍÏÍÎÎÌÌÏÎÏÎÍÍÌ</summary>
