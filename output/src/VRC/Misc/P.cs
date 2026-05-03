@@ -48,19 +48,18 @@ namespace VRC.Misc
         public void GetHashCode(){} // RVA: 0x7FFE817FF340
         public void ToString(){} // RVA: 0x7FFE817FF360
         public void Initialize_68895A069A14(){} // RVA: 0x7FFE817FF490
+        public void ComputeError(){} // RVA: 0x7FFE813240E0
+        public void ApplyOutput(){} // RVA: 0x7FFE817FF590
         public void DoInverse_Injected_C09(){} // RVA: 0x7FFE817FFDE0
         public void Destroy(){} // RVA: 0x7FFE817FFF70
+        public void ResetController(){} // RVA: 0x7FFE81800000
+        public void GetTargetRotation(){} // RVA: 0x7FFE818002C0
         public void DestroyImmediate(){} // RVA: 0x7FFE818002F0
+        public void SetTargetRotation(){} // RVA: 0x7FFE81800310
         public void FindObjectsOfType(){} // RVA: 0x7FFE81800BB0
+        public void UpdateGains(){} // RVA: 0x7FFE81801400
         public void CompositionMethod(){} // RVA: 0x7FFE81801440
         public void FindObjectsByType(){} // RVA: 0x7FFE818020B0
-        // ── Unresolved (hash) ──
-        public void m_6FA(){} // RVA: 0x7FFE813240E0
-        public void m_FAA(){} // RVA: 0x7FFE817FF590
-        public void m_F85(){} // RVA: 0x7FFE81800000
-        public void m_296(){} // RVA: 0x7FFE818002C0
-        public void m_220(){} // RVA: 0x7FFE81800310
-        public void m_A51(){} // RVA: 0x7FFE81801400
     }
 
     /// <summary>Originally: ÍÌÏÍÌÎÏÌÌÎÎÍÌÌÎÍÌÎÌÎÌÍÌ</summary>
@@ -130,19 +129,18 @@ namespace VRC.Misc
         public void UpdatePIDController(){} // RVA: 0x7FFE813240E0
         public void CalculatePIDValue(){} // RVA: 0x7FFE817EE130
         public void Initialize_283E698F3304(){} // RVA: 0x7FFE817EE140
+        public void ResetController(){} // RVA: 0x7FFE810FB310
+        public void ComputeError(){} // RVA: 0x7FFE817EE3E0
         public void DoInverse_Injected_C09(){} // RVA: 0x7FFE817EE4A0
         public void Destroy(){} // RVA: 0x7FFE811EDAF0
+        public void ApplyOutput(){} // RVA: 0x7FFE817EE4B0
+        public void GetTargetRotation(){} // RVA: 0x7FFE817EE790
         public void .cctor(){} // RVA: 0x7FFE817EE7D0
         public void DestroyImmediate(){} // RVA: 0x7FFE817EF1C0
         public void FindObjectsOfType(){} // RVA: 0x7FFE817EF460
+        public void SetTargetRotation(){} // RVA: 0x7FFE817EF470
         public void CompositionMethod(){} // RVA: 0x7FFE817EFB90
         public void FindObjectsByType(){} // RVA: 0x7FFE817EFBD0
-        // ── Unresolved (hash) ──
-        public void m_F85(){} // RVA: 0x7FFE810FB310
-        public void m_9A6(){} // RVA: 0x7FFE817EE3E0
-        public void m_C88(){} // RVA: 0x7FFE817EE4B0
-        public void m_AA9(){} // RVA: 0x7FFE817EE790
-        public void m_AAD(){} // RVA: 0x7FFE817EF470
     }
 
     /// <summary>Originally: ÏÍÎÎÎÏÍÎÏÏÎÍÌÍÍÏÌÍÏÎÍÌÏ</summary>
@@ -218,19 +216,18 @@ namespace VRC.Misc
         public void .ctor_4794AB0DA7F8(){} // RVA: 0x7FFE81816480
         public void Awake(){} // RVA: 0x7FFE818166E0
         public void RemoveSprite(){} // RVA: 0x7FFE818168D0
+        public void GetTargetRotation(){} // RVA: 0x7FFE81816C40
         public void GetTypeCode(){} // RVA: 0x7FFE81815880
         public void Destroy(){} // RVA: 0x7FFE810FB310
         public void UpdateController(){} // RVA: 0x7FFE81816C80
         public void .ctor(){} // RVA: 0x7FFE81817770
+        public void SetTargetRotation(){} // RVA: 0x7FFE81815880
         public void DestroyImmediate(){} // RVA: 0x7FFE810FB310
         public void FindObjectsOfType(){} // RVA: 0x7FFE818179C0
+        public void ResetController(){} // RVA: 0x7FFE810FB310
         public void CompositionMethod(){} // RVA: 0x7FFE81817E40
         public void FindObjectsByType(){} // RVA: 0x7FFE81815880
-        // ── Unresolved (hash) ──
-        public void m_AA9(){} // RVA: 0x7FFE81816C40
-        public void m_8D2(){} // RVA: 0x7FFE81815880
-        public void m_8EA(){} // RVA: 0x7FFE810FB310
-        public void m_E66(){} // RVA: 0x7FFE81818540
+        public void ComputeOutput(){} // RVA: 0x7FFE81818540
     }
 
     /// <summary>Originally: ÎÌÏÍÎÍÍÏÎÏÏÍÍÍÎÍÌÍÏÍÏÍÍ</summary>

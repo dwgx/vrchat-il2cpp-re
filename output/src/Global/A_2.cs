@@ -802,10 +802,9 @@ public class AvatarCullingMonitor : Object
     public void Instantiate(){} // RVA: 0x7FFE81E41620
     public void GetHashCode(){} // RVA: 0x7FFE81E417A0
     public void ToString(){} // RVA: 0x7FFE81E418A0
-    // ── Unresolved (hash) ──
-    public void m_1C2(){} // RVA: 0x7FFE81E41A80
-    public void m_DFE(){} // RVA: 0x7FFE81E41B80
-    public void m_69E(){} // RVA: 0x7FFE81E41C90
+    public void set_AvatarCullingDistance(){} // RVA: 0x7FFE81E41A80
+    public void UpdateCullingState(){} // RVA: 0x7FFE81E41B80
+    public void EvaluateAvatarVisibility(){} // RVA: 0x7FFE81E41C90
 }
 
 public class AvatarOscConfig : Object

@@ -782,22 +782,22 @@ public class PlayerModComponentHealth : NetworkReadyHandler_FB37
     public void ShowDeath(){} // RVA: 0x7FFE8218B7A0
     public void OnTriggerStay(){} // RVA: 0x7FFE8218BA20
     public void OnTriggerExit(){} // RVA: 0x7FFE8218BAC0
-    public void OnDisable(){} // RVA: 0x7FFE8218BC80
+    public void Heal(){} // RVA: 0x7FFE8218BC80
+    public void TakeDamage(){} // RVA: 0x7FFE8218BF20
+    public void Heal_DBD97727D5BF(){} // RVA: 0x7FFE8218C0D0
     public void OnApplicationQuit(){} // RVA: 0x7FFE8218C350
+    public void GetHealth(){} // RVA: 0x7FFE8218C750
     public void OnBecameInvisible(){} // RVA: 0x7FFE8218C910
     public void OnCollisionEnter(){} // RVA: 0x7FFE8218C930
-    public void OnCollisionExit(){} // RVA: 0x7FFE810FB320
+    public void SetHealth(){} // RVA: 0x7FFE8218C980
+    public void GetHealth_7D1DBE8DB0AE(){} // RVA: 0x7FFE810FB320
     public void RemoveHealthRPC(){} // RVA: 0x7FFE8218CA20
+    public void OnDeath(){} // RVA: 0x7FFE8218CC70
+    public void Respawn(){} // RVA: 0x7FFE8218CDE0
     public void AddHealthRPC(){} // RVA: 0x7FFE8218D5B0
     public void Awake(){} // RVA: 0x7FFE8218D910
     public void OnEnable(){} // RVA: 0x7FFE8218AFE0
     // ── Unresolved (hash) ──
-    public void m_F44(){} // RVA: 0x7FFE8218BF20
-    public void m_DBD(){} // RVA: 0x7FFE8218C0D0
-    public void m_411(){} // RVA: 0x7FFE8218C750
-    public void m_272(){} // RVA: 0x7FFE8218C980
-    public void m_89E(){} // RVA: 0x7FFE8218CC70
-    public void m_777(){} // RVA: 0x7FFE8218CDE0
     public void m_E9D(){} // RVA: 0x7FFE8218CF90
     public void m_DD2(){} // RVA: 0x7FFE8218D740
     public void m_267(){} // RVA: 0x7FFE8218D870

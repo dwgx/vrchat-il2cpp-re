@@ -105,11 +105,11 @@ namespace VRC.Physics
         public void InternalGetHashCode(){} // RVA: 0x7FFE810FE7C0
         public void ToString(){} // RVA: 0x7FFE81D7E9E0
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE811485C0
+        public void GetPhysicsData(){} // RVA: 0x7FFE810FE7C0
         // ── Unresolved (hash) ──
         public void m_455(){} // RVA: 0x7FFE81D7E9E0
         public void m_98C(){} // RVA: 0x7FFE826F4210
         public void m_81F(){} // RVA: 0x7FFE8284EF60
-        public void m_F57(){} // RVA: 0x7FFE810FE7C0
         public void m_2FF(){} // RVA: 0x7FFE826F4230
         public void m_AE3(){} // RVA: 0x7FFE826F4230
         public void m_ED5(){} // RVA: 0x7FFE810FE0C0

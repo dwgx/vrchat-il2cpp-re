@@ -165,36 +165,46 @@ namespace VRC.Localization
         public void set_name(){} // RVA: 0x7FFE829CF4B0
         public void Instantiate(){} // RVA: 0x7FFE829CF730
         public void ToString(){} // RVA: 0x7FFE829CFA00
+        public void GetLocalizedString(){} // RVA: 0x7FFE829CFF20
+        public void SetLanguage(){} // RVA: 0x7FFE829D01E0
+        public void LoadLanguagePack(){} // RVA: 0x7FFE829D02B0
+        public void GetCurrentLanguage(){} // RVA: 0x7FFE811290C0
+        public void RegisterLocalizedComponent(){} // RVA: 0x7FFE829D0390
         public void StaticInitialize(){} // RVA: 0x7FFE829D0410
         public void OnPlayerJoined(){} // RVA: 0x7FFE829D04F0
+        public void UnregisterLocalizedComponent(){} // RVA: 0x7FFE829D0570
         public void Internal_CloneSingle(){} // RVA: 0x7FFE829D3270 | overloaded x2
         public void Destroy(){} // RVA: 0x7FFE829D0CB0
         public void DestroyImmediate(){} // RVA: 0x7FFE829D11B0
+        public void ReloadLocalizations(){} // RVA: 0x7FFE81129130
         public void FindObjectsOfType(){} // RVA: 0x7FFE812D0010
+        public void FormatLocalizedString(){} // RVA: 0x7FFE829D1240
         public void FindObjectsByType(){} // RVA: 0x7FFE829D17A0
+        public void HasLocalizationKey(){} // RVA: 0x7FFE829D1900
         public void DontDestroyOnLoad(){} // RVA: 0x7FFE829D1AA0
         public void get_hideFlags(){} // RVA: 0x7FFE829D1CE0
         public void set_hideFlags(){} // RVA: 0x7FFE829D1E00
+        public void GetSupportedLanguages(){} // RVA: 0x7FFE81129890
         public void FindObjectOfType(){} // RVA: 0x7FFE829D1E90
         public void FindFirstObjectByType(){} // RVA: 0x7FFE829D1F60
+        public void OnLanguageChanged(){} // RVA: 0x7FFE829D2100
         public void CheckNullArgument(){} // RVA: 0x7FFE829D23C0
+        public void ApplyLocalizationToText(){} // RVA: 0x7FFE829D2730
+        public void InvalidateLocalizationCache(){} // RVA: 0x7FFE829D2870
+        public void GetLocalizedFormat(){} // RVA: 0x7FFE829D2A80
+        public void ResolveLanguageCode(){} // RVA: 0x7FFE8144E200
+        public void BroadcastLanguageChange(){} // RVA: 0x7FFE829D2DF0
         public void op_Equality(){} // RVA: 0x7FFE829D30B0
         public void op_Inequality(){} // RVA: 0x7FFE829D3190
         public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7FFE829D3220
         public void .ctor(){} // RVA: 0x7FFE829D33D0
         public void Initialize(){} // RVA: 0x7FFE829D37E0
         public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7FFE829D3E30
+        public void GetFallbackLanguage(){} // RVA: 0x7FFE829D4040
         public void GetName(){} // RVA: 0x7FFE829D4280
         public void SetName(){} // RVA: 0x7FFE810FE7C0
         public void FindObjectFromInstanceID(){} // RVA: 0x7FFE829D43A0
         public void ForceLoadFromInstanceID(){} // RVA: 0x7FFE829D4420
-        // ── 17 unresolved (hash) ──
-        public void m_9DE(){} // RVA: 0x7FFE829CFF20
-        public void m_530(){} // RVA: 0x7FFE829D01E0
-        public void m_352(){} // RVA: 0x7FFE829D02B0
-        public void m_ADF(){} // RVA: 0x7FFE811290C0
-        public void m_443(){} // RVA: 0x7FFE829D0390
-        // ... 12 more unresolved methods
     }
 
     public class ResourcesLocalizationAssetSource : LocalizationAssetSource

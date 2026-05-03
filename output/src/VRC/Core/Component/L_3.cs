@@ -309,16 +309,15 @@ namespace VRC.Core.Component
         public void GetHashCode(){} // RVA: 0x7FFE828717C0
         public void ToString(){} // RVA: 0x7FFE8139AC40
         public void ToString_399753A35025(){} // RVA: 0x7FFE828717F0
+        public void InvokeMethod(){} // RVA: 0x7FFE826E34C0
         public void ContainsChild(){} // RVA: 0x7FFE82871A20
+        public void DestroyChild(){} // RVA: 0x7FFE82871C40
+        public void ContainsItem(){} // RVA: 0x7FFE82872190
         public void Cleanup(){} // RVA: 0x7FFE828721A0
         public void InvokeMethodAndReturnValue(){} // RVA: 0x7FFE8124ABD0
         public void Destroy(){} // RVA: 0x7FFE8124ABE0
         public void Destroy_98B18AEB43CD(){} // RVA: 0x7FFE828723C0
         public void DestroyImmediate(){} // RVA: 0x7FFE82872460
-        // ── Unresolved (hash) ──
-        public void m_1F8(){} // RVA: 0x7FFE826E34C0
-        public void m_F25(){} // RVA: 0x7FFE82871C40
-        public void m_097(){} // RVA: 0x7FFE82872190
     }
 
     /// <summary>Originally: ÍÌÏÍÎÏÍÎÏÎÍÏÏÎÏÍÏÌÌÏÎÍÍ</summary>

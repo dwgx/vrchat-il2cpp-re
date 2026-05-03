@@ -50,18 +50,18 @@ namespace VRC.Misc
         public void Instantiate(){} // RVA: 0x7FFE81176D60
         public void GetHashCode(){} // RVA: 0x7FFE81C1C3E0
         public void ToString(){} // RVA: 0x7FFE828F7D30
+        public void ToggleFoldout(){} // RVA: 0x7FFE81C1C2E0
+        public void ExpandAll(){} // RVA: 0x7FFE828F7D80
+        public void CollapseAll(){} // RVA: 0x7FFE81163470
         public void .ctor(){} // RVA: 0x7FFE828F7E20
         public void Initialize(){} // RVA: 0x7FFE81604410
+        public void AddItem(){} // RVA: 0x7FFE828F8430
+        public void RemoveItem(){} // RVA: 0x7FFE828F84D0
         public void Destroy(){} // RVA: 0x7FFE81C1C360
+        public void GetItemCount(){} // RVA: 0x7FFE828F8A50
         public void DestroyImmediate(){} // RVA: 0x7FFE828F8FA0
         public void FindObjectsOfType(){} // RVA: 0x7FFE81103980
         // ── Unresolved (hash) ──
-        public void m_0AF(){} // RVA: 0x7FFE81C1C2E0
-        public void m_260(){} // RVA: 0x7FFE828F7D80
-        public void m_EB6(){} // RVA: 0x7FFE81163470
-        public void m_6C3(){} // RVA: 0x7FFE828F8430
-        public void m_3BA(){} // RVA: 0x7FFE828F84D0
-        public void m_506(){} // RVA: 0x7FFE828F8A50
         public void m_8E0(){} // RVA: 0x7FFE81176D50
         public void m_707(){} // RVA: 0x7FFE81163460
     }
@@ -196,18 +196,17 @@ namespace VRC.Misc
         public void CancelInvoke(){} // RVA: 0x7FFE829A8440
         public void Invoke(){} // RVA: 0x7FFE829A84B0
         public void InvokeRepeating(){} // RVA: 0x7FFE829A84D0
+        public void Awake_CE590F14E8BF(){} // RVA: 0x7FFE829A8510
         public void IsInvoking(){} // RVA: 0x7FFE829A8740
         public void StartCoroutine(){} // RVA: 0x7FFE829A84D0
+        public void Update_A2B9C6443C02(){} // RVA: 0x7FFE829A8770
+        public void GetFpsSampleCount(){} // RVA: 0x7FFE829A8B10
         public void Awake(){} // RVA: 0x7FFE829A8EB0
         public void OnDestroy(){} // RVA: 0x7FFE829A9250
         public void StopCoroutine(){} // RVA: 0x7FFE829A92B0
         public void FixedUpdate(){} // RVA: 0x7FFE829A94E0
         public void StopAllCoroutines(){} // RVA: 0x7FFE829A9710
         public void Update(){} // RVA: 0x7FFE829A9750
-        // ── Unresolved (hash) ──
-        public void m_CE5(){} // RVA: 0x7FFE829A8510
-        public void m_A2B(){} // RVA: 0x7FFE829A8770
-        public void m_A08(){} // RVA: 0x7FFE829A8B10
     }
 
 }

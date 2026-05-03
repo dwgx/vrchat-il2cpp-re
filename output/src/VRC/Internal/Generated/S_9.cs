@@ -1332,13 +1332,13 @@ namespace VRC.Internal.Generated
         public void InternalGetHashCode(){} // RVA: 0x7FFE82C33000
         public void ToString(){} // RVA: 0x7FFE81D7E9E0
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE810FCE30
+        public void GetHashCode_3CDD05EC234A(){} // RVA: 0x7FFE8284EF60
+        public void op_Equality(){} // RVA: 0x7FFE8284EF60
         // ── Unresolved (hash) ──
         public void m_261(){} // RVA: 0x7FFE82C33010
-        public void m_3CD(){} // RVA: 0x7FFE8284EF60
         public void m_EFA(){} // RVA: 0x7FFE81116380
         public void m_A00(){} // RVA: 0x7FFE8284EF60
         public void m_F1C(){} // RVA: 0x7FFE82C33010
-        public void m_844(){} // RVA: 0x7FFE8284EF60
         public void m_DBD(){} // RVA: 0x7FFE810FCE30
         public void m_CDC(){} // RVA: 0x7FFE81116380
         public void m_E8B(){} // RVA: 0x7FFE8284EF60

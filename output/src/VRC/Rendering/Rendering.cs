@@ -257,6 +257,7 @@ namespace VRC.Rendering
         public void OnDestroy(){} // RVA: 0x7FFE8161DAE0
         public void InvokeDelayed(){} // RVA: 0x7FFE8161DDC0
         public void OnBecameVisible(){} // RVA: 0x7FFE8161E080
+        public void InitializeCamera(){} // RVA: 0x7FFE8161E170
         public void IsObjectMonoBehaviour(){} // RVA: 0x7FFE8161E220
         public void StartCoroutineManaged(){} // RVA: 0x7FFE8161E310
         public void StartCoroutineManaged2(){} // RVA: 0x7FFE81437330
@@ -264,19 +265,25 @@ namespace VRC.Rendering
         public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7FFE8161E8F0
         public void GetScriptClassName(){} // RVA: 0x7FFE8161EA90
         public void OnCancellationTokenCreated(){} // RVA: 0x7FFE8161F480
+        public void GetCameraTransform(){} // RVA: 0x7FFE8161FF00
+        public void SetCameraEnabled(){} // RVA: 0x7FFE8161FF10
+        public void GetCameraField(){} // RVA: 0x7FFE81176740
+        public void SetCameraField(){} // RVA: 0x7FFE811C3510
+        public void RefreshCameraView(){} // RVA: 0x7FFE81620130
+        public void GetMainCamera(){} // RVA: 0x7FFE816208F0
         public void .ctor(){} // RVA: 0x7FFE81622D80
         public void Initialize(){} // RVA: 0x7FFE81622DF0
         public void .cctor(){} // RVA: 0x7FFE81625750
         public void Awake(){} // RVA: 0x7FFE81625F40
         public void OnEnable(){} // RVA: 0x7FFE816266D0
         public void FixedUpdate(){} // RVA: 0x7FFE816268F0
-        // ── 70 unresolved (hash) ──
-        public void m_88A(){} // RVA: 0x7FFE8161E170
-        public void m_BF8(){} // RVA: 0x7FFE8161FF00
-        public void m_E3D(){} // RVA: 0x7FFE8161FF10
-        public void m_4F1(){} // RVA: 0x7FFE81176740
-        public void m_985(){} // RVA: 0x7FFE811C3510
-        // ... 65 more unresolved methods
+        // ── 63 unresolved (hash) ──
+        public void m_DF7(){} // RVA: 0x7FFE81621370
+        public void m_BD0(){} // RVA: 0x7FFE81622400
+        public void m_7B8(){} // RVA: 0x7FFE816213B0
+        public void m_EB3(){} // RVA: 0x7FFE816214C0
+        public void m_B59(){} // RVA: 0x7FFE8119C0E0
+        // ... 58 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÏÍÏÍÏÌÍÍÌÎÍÍÏÎÎÌÏÎÎÌÌ</summary>
@@ -731,9 +738,15 @@ namespace VRC.Rendering
         public void CancelInvoke(){} // RVA: 0x7FFE822CCB30
         public void Invoke(){} // RVA: 0x7FFE810FB310
         public void InvokeRepeating(){} // RVA: 0x7FFE810FB310
+        public void GetCameraPosition(){} // RVA: 0x7FFE8111ED80
+        public void SetCameraPosition(){} // RVA: 0x7FFE810FB310
         public void StartCoroutine(){} // RVA: 0x7FFE822CCB40
+        public void GetCameraRotation(){} // RVA: 0x7FFE813240E0
+        public void SetCameraRotation(){} // RVA: 0x7FFE811E0850
         public void StartCoroutine_Auto(){} // RVA: 0x7FFE810FB310
         public void StopCoroutine(){} // RVA: 0x7FFE810FB320
+        public void GetCameraTransform(){} // RVA: 0x7FFE810FB320
+        public void SetCameraTransform(){} // RVA: 0x7FFE813240E0
         public void StopAllCoroutines(){} // RVA: 0x7FFE810FB320
         public void get_useGUILayout(){} // RVA: 0x7FFE810FB310
         public void set_useGUILayout(){} // RVA: 0x7FFE810FB310
@@ -742,22 +755,28 @@ namespace VRC.Rendering
         public void Internal_IsInvokingAll(){} // RVA: 0x7FFE822CCC20
         public void InvokeDelayed(){} // RVA: 0x7FFE813240E0
         public void StartCoroutineManaged2(){} // RVA: 0x7FFE822CCD20 | overloaded x2
+        public void ResetCameraTransform(){} // RVA: 0x7FFE813240E0
         public void IsObjectMonoBehaviour(){} // RVA: 0x7FFE822CCD10
         public void StartCoroutineManaged(){} // RVA: 0x7FFE813240E0
         public void StopCoroutineManaged(){} // RVA: 0x7FFE813240E0
         public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7FFE822CD270
         public void GetScriptClassName(){} // RVA: 0x7FFE810FB310
         public void OnCancellationTokenCreated(){} // RVA: 0x7FFE813240E0
+        public void ApplyCameraOffset(){} // RVA: 0x7FFE810FB320
+        public void FollowTarget(){} // RVA: 0x7FFE810FB320
+        public void LookAtTarget(){} // RVA: 0x7FFE810FB320
+        public void SmoothMoveCamera(){} // RVA: 0x7FFE810FB310
+        public void GetCameraForward(){} // RVA: 0x7FFE822CD360
         public void .ctor(){} // RVA: 0x7FFE822CD370
         public void Initialize(){} // RVA: 0x7FFE810FB320
         public void .cctor(){} // RVA: 0x7FFE822CD960
-        // ── 48 unresolved (hash) ──
-        public void m_5CF(){} // RVA: 0x7FFE8111ED80
-        public void m_230(){} // RVA: 0x7FFE810FB310
-        public void m_325(){} // RVA: 0x7FFE813240E0
-        public void m_1BA(){} // RVA: 0x7FFE811E0850
-        public void m_EC6(){} // RVA: 0x7FFE810FB320
-        // ... 43 more unresolved methods
+        // ── 36 unresolved (hash) ──
+        public void m_BD9(){} // RVA: 0x7FFE810FB310
+        public void m_D9D(){} // RVA: 0x7FFE813240E0
+        public void m_1AE(){} // RVA: 0x7FFE810FB310
+        public void m_AFB(){} // RVA: 0x7FFE810FB320
+        public void m_CBA(){} // RVA: 0x7FFE810FB320
+        // ... 31 more unresolved methods
     }
 
     /// <summary>Originally: ÍÌÌÎÏÏÏÏÎÍÎÌÌÎÏÏÎÎÍÏÎÍÎ</summary>

@@ -257,13 +257,12 @@ namespace VRC.Core.Component
         public void ToString_3961EEA33947(){} // RVA: 0x7FFE89E05D40
         public void DelegateCall(){} // RVA: 0x7FFE89E05FD0
         public void GetLastServiceDescriptor(){} // RVA: 0x7FFE89E06630
+        public void InvokeDelegate(){} // RVA: 0x7FFE89E06770
+        public void ReportError(){} // RVA: 0x7FFE89E06910
         public void ReportErrorAndExit(){} // RVA: 0x7FFE89E06A50
         public void Destroy(){} // RVA: 0x7FFE89E06AC0
+        public void GetServiceDescriptor(){} // RVA: 0x7FFE89E06BC0
         public void DestroyImmediate(){} // RVA: 0x7FFE89E06CC0
-        // ── Unresolved (hash) ──
-        public void m_3DE(){} // RVA: 0x7FFE89E06770
-        public void m_B65(){} // RVA: 0x7FFE89E06910
-        public void m_DBC(){} // RVA: 0x7FFE89E06BC0
     }
 
     /// <summary>Originally: ÍÍÎÏÏÍÌÎÎÎÏÌÏÏÌÌÎÎÍÍÍÎÍ</summary>
@@ -399,6 +398,7 @@ namespace VRC.Core.Component
         public void InitializeUIPanelConfiguration(){} // RVA: 0x7FFE814AD0C0
         public void SetResources(){} // RVA: 0x7FFE814AD230
         public void Destroy(){} // RVA: 0x7FFE814AD390
+        public void GetMirrorMaterial(){} // RVA: 0x7FFE814AD760
         public void DestroyImmediate(){} // RVA: 0x7FFE814ADA40
         public void SetAvatarMainIK(){} // RVA: 0x7FFE814AAA40
         public void FindObjectsOfType(){} // RVA: 0x7FFE814ADDC0
@@ -414,6 +414,8 @@ namespace VRC.Core.Component
         public void ExecuteDelegate(){} // RVA: 0x7FFE814AFDB0
         public void CheckNullArgument(){} // RVA: 0x7FFE814B0110
         public void GetPlaybackQualityStats(){} // RVA: 0x7FFE814B0250
+        public void GetUIPanelConfiguration(){} // RVA: 0x7FFE814B0340
+        public void GetAvatarMainIK(){} // RVA: 0x7FFE814B0690
         public void ApplyMirrorMaterial(){} // RVA: 0x7FFE814B0C10
         public void GetPlatform(){} // RVA: 0x7FFE814AAA40
         public void op_Equality(){} // RVA: 0x7FFE814B0C70
@@ -423,12 +425,8 @@ namespace VRC.Core.Component
         public void Internal_CloneSingleWithParent(){} // RVA: 0x7FFE814B13B0
         public void Internal_InstantiateSingle(){} // RVA: 0x7FFE811C3500
         public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7FFE814B13F0
+        public void GetSpineBoneMapping(){} // RVA: 0x7FFE814B1650
         public void GetName(){} // RVA: 0x7FFE814B1870
-        // ── Unresolved (hash) ──
-        public void m_0DF(){} // RVA: 0x7FFE814AD760
-        public void m_CF5(){} // RVA: 0x7FFE814B0340
-        public void m_45C(){} // RVA: 0x7FFE814B0690
-        public void m_E78(){} // RVA: 0x7FFE814B1650
     }
 
     /// <summary>Originally: ÍÎÎÌÎÎÎÎÌÌÌÎÍÌÏÌÌÍÍÍÍÏÏ</summary>
@@ -725,20 +723,19 @@ namespace VRC.Core.Component
         public void DefaultEquals(){} // RVA: 0x7FFE81CD0620
         public void Awake(){} // RVA: 0x7FFE81CD0630
         public void Destroy(){} // RVA: 0x7FFE811164F0
+        public void FetchServiceData(){} // RVA: 0x7FFE81CD0780
         public void DestroyImmediate(){} // RVA: 0x7FFE81CD0520
+        public void ProcessServiceResponse(){} // RVA: 0x7FFE81CD07D0
         public void FindObjectsOfType(){} // RVA: 0x7FFE811164E0
+        public void GetServiceState(){} // RVA: 0x7FFE81CD0000
         public void FindObjectsByType(){} // RVA: 0x7FFE814B3730
+        public void OnServiceComplete(){} // RVA: 0x7FFE81CD0830
         public void DontDestroyOnLoad(){} // RVA: 0x7FFE81CD0B50
         public void get_hideFlags(){} // RVA: 0x7FFE81CD0B90
         public void set_hideFlags(){} // RVA: 0x7FFE81CD0D20
         public void RetrieveServiceLongWithIntegerArgument(){} // RVA: 0x7FFE811164E0
         public void FindObjectOfType(){} // RVA: 0x7FFE81CCFD30
         public void FindFirstObjectByType(){} // RVA: 0x7FFE81CCFD30
-        // ── Unresolved (hash) ──
-        public void m_650(){} // RVA: 0x7FFE81CD0780
-        public void m_4BE(){} // RVA: 0x7FFE81CD07D0
-        public void m_D87(){} // RVA: 0x7FFE81CD0000
-        public void m_013(){} // RVA: 0x7FFE81CD0830
     }
 
     /// <summary>Originally: ÌÍÎÍÌÎÍÎÏÏÏÏÌÎÎÌÌÏÌÏÌÏÍ</summary>

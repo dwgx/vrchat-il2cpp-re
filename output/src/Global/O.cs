@@ -43,7 +43,10 @@ public class ONSPAudioSource : MonoBehaviour
     public void CancelInvoke(){} // RVA: 0x7FFE815F1380
     public void Invoke(){} // RVA: 0x7FFE8130ACF0
     public void InvokeRepeating(){} // RVA: 0x7FFE812604F0
+    public void ApplySpatialAudioSettings(){} // RVA: 0x7FFE826A2340
+    public void OnEnable(){} // RVA: 0x7FFE812846C0
     public void StartCoroutine(){} // RVA: 0x7FFE826A2370
+    public void OnDisable(){} // RVA: 0x7FFE826A2770
     public void OnDrawGizmos(){} // RVA: 0x7FFE826A2910
     public void StartCoroutine_Auto(){} // RVA: 0x7FFE81C15740
     public void StopCoroutine(){} // RVA: 0x7FFE826A3760
@@ -66,10 +69,6 @@ public class ONSPAudioSource : MonoBehaviour
     public void GetScriptClassName(){} // RVA: 0x7FFE812604E0
     public void OnDestroy(){} // RVA: 0x7FFE826A3F30
     public void OnTriggerEnter(){} // RVA: 0x7FFE81284640
-    // ── Unresolved (hash) ──
-    public void m_A97(){} // RVA: 0x7FFE826A2340
-    public void m_46B(){} // RVA: 0x7FFE812846C0
-    public void m_0AD(){} // RVA: 0x7FFE826A2770
 }
 
 public class ONSPReflectionZone : MonoBehaviour

@@ -32,8 +32,18 @@ namespace VRC.UI
         public void set_name(){} // RVA: 0x7FFE810FE7C0
         public void Instantiate(){} // RVA: 0x7FFE8186E070
         public void ToString(){} // RVA: 0x7FFE8186E0B0
+        public void get_AvatarId(){} // RVA: 0x7FFE8144E200
+        public void get_DisplayName(){} // RVA: 0x7FFE8186E2D0
+        public void get_Tags(){} // RVA: 0x7FFE8143BA80
+        public void set_AvatarId(){} // RVA: 0x7FFE8186E580
+        public void set_DisplayName(){} // RVA: 0x7FFE8186EAF0
+        public void set_Tags(){} // RVA: 0x7FFE8186EB30
+        public void get_ImageUrl(){} // RVA: 0x7FFE8186EE20
+        public void set_ImageUrl(){} // RVA: 0x7FFE8144E200
         public void Destroy(){} // RVA: 0x7FFE8186F050
+        public void Equals_FCD79B6A4450(){} // RVA: 0x7FFE8186F060
         public void DestroyImmediate(){} // RVA: 0x7FFE811290C0
+        public void GetHashCode_3AC6A6FDDA39(){} // RVA: 0x7FFE8186F070
         public void FindObjectsOfType(){} // RVA: 0x7FFE8186F320
         public void FindObjectsByType(){} // RVA: 0x7FFE8186F330
         public void DontDestroyOnLoad(){} // RVA: 0x7FFE8186F3B0
@@ -41,13 +51,11 @@ namespace VRC.UI
         public void set_hideFlags(){} // RVA: 0x7FFE8186F610
         public void FindObjectOfType(){} // RVA: 0x7FFE8186F9A0
         public void FindFirstObjectByType(){} // RVA: 0x7FFE8186F9E0
-        // ── 14 unresolved (hash) ──
-        public void m_51C(){} // RVA: 0x7FFE8144E200
-        public void m_8EB(){} // RVA: 0x7FFE8186E2D0
-        public void m_A14(){} // RVA: 0x7FFE8143BA80
-        public void m_6EA(){} // RVA: 0x7FFE8186E580
-        public void m_6CB(){} // RVA: 0x7FFE8186EAF0
-        // ... 9 more unresolved methods
+        // ── Unresolved (hash) ──
+        public void m_4E8(){} // RVA: 0x7FFE81116380
+        public void m_6BC(){} // RVA: 0x7FFE8186F370
+        public void m_47A(){} // RVA: 0x7FFE8186F840
+        public void m_C2D(){} // RVA: 0x7FFE81129130
     }
 
 }

@@ -56,6 +56,7 @@ namespace VRC.Texture
         public void Update(){} // RVA: 0x7FFE821D6170
         public void LateUpdate(){} // RVA: 0x7FFE821D6390
         public void StopCoroutine(){} // RVA: 0x7FFE821D64C0
+        public void Awake_9039F8B802FE(){} // RVA: 0x7FFE821D64F0
         public void OnDisable(){} // RVA: 0x7FFE8112FE40
         public void OnDestroy(){} // RVA: 0x7FFE821D68F0
         public void get_useGUILayout(){} // RVA: 0x7FFE821D6BD0
@@ -72,18 +73,16 @@ namespace VRC.Texture
         public void StopCoroutineManaged(){} // RVA: 0x7FFE821D7F70
         public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7FFE821D8140
         public void GetScriptClassName(){} // RVA: 0x7FFE821D8390
-        public void OnCancellationTokenCreated(){} // RVA: 0x7FFE821D83A0
+        public void OnDestroy_EBAE5380F23F(){} // RVA: 0x7FFE821D83A0
+        public void OnDestroy_EBA4BD0781F1(){} // RVA: 0x7FFE81EC3970
         public void Awake(){} // RVA: 0x7FFE821D87E0
         public void Start(){} // RVA: 0x7FFE821D8800
-        // ── Unresolved (hash) ──
-        public void m_903(){} // RVA: 0x7FFE821D64F0
-        public void m_EBA(){} // RVA: 0x7FFE81EC3970
-        public void m_43C(){} // RVA: 0x7FFE821D8FC0
-        public void m_3EF(){} // RVA: 0x7FFE821D9150
-        public void m_F5B(){} // RVA: 0x7FFE821DBCD0
-        public void m_7AA(){} // RVA: 0x7FFE821DBF70
-        public void m_C9B(){} // RVA: 0x7FFE821DC7A0
-        public void m_FD6(){} // RVA: 0x7FFE81EB6360
+        public void LateUpdate_43CD008FA892(){} // RVA: 0x7FFE821D8FC0
+        public void SetTexture(){} // RVA: 0x7FFE821D9150
+        public void SetText(){} // RVA: 0x7FFE821DBCD0
+        public void SetIcon(){} // RVA: 0x7FFE821DBF70
+        public void Refresh(){} // RVA: 0x7FFE821DC7A0
+        public void Clear(){} // RVA: 0x7FFE81EB6360
     }
 
     /// <summary>Originally: ÌÎÎÎÍÌÎÌÎÏÍÍÍÌÏÍÌÎÏÍÌÎÏ</summary>
@@ -118,6 +117,7 @@ namespace VRC.Texture
         public void AtomicallyUpdateComponentValue(){} // RVA: 0x7FFE8113A010
         public void StartCoroutine_Auto(){} // RVA: 0x7FFE896628A0
         public void StopCoroutine(){} // RVA: 0x7FFE89662950
+        public void UpdateTexture(){} // RVA: 0x7FFE89662C50
         public void StopAllCoroutines(){} // RVA: 0x7FFE89662F00
         public void get_useGUILayout(){} // RVA: 0x7FFE89662F60
         public void set_useGUILayout(){} // RVA: 0x7FFE89662FB0
@@ -125,12 +125,10 @@ namespace VRC.Texture
         public void Internal_CancelInvokeAll(){} // RVA: 0x7FFE89663390
         public void Internal_IsInvokingAll(){} // RVA: 0x7FFE81280F90
         public void InvokeDelayed(){} // RVA: 0x7FFE89663480
+        public void SetImage(){} // RVA: 0x7FFE896636B0
+        public void SetText(){} // RVA: 0x7FFE896638B0
         public void Start(){} // RVA: 0x7FFE89663960
         public void StartCoroutineManaged(){} // RVA: 0x7FFE896639C0
-        // ── Unresolved (hash) ──
-        public void m_7B9(){} // RVA: 0x7FFE89662C50
-        public void m_2D3(){} // RVA: 0x7FFE896636B0
-        public void m_AD3(){} // RVA: 0x7FFE896638B0
     }
 
     /// <summary>Originally: ÎÎÏÌÌÏÌÎÎÎÎÌÎÍÌÎÌÌÎÏÍÌÍ</summary>

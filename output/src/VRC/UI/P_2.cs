@@ -372,14 +372,14 @@ namespace VRC.UI
         public void ToString(){} // RVA: 0x7FFE89E651B0 | overloaded x2
         public void Instantiate(){} // RVA: 0x7FFE810A1420
         public void CopyTo(){} // RVA: 0x7FFE810A1420
+        public void OnPointerEnter(){} // RVA: 0x7FFE810A1420
+        public void OnPointerExit(){} // RVA: 0x7FFE810A1420
+        public void OnPointerClick(){} // RVA: 0x7FFE810A1420
+        public void IsPointerOver(){} // RVA: 0x7FFE810A1420
         public void Destroy(){} // RVA: 0x7FFE810A1420
         public void DestroyImmediate(){} // RVA: 0x7FFE810A1420
         public void FindObjectsOfType(){} // RVA: 0x7FFE810A1420
         // ── Unresolved (hash) ──
-        public void m_A75(){} // RVA: 0x7FFE810A1420
-        public void m_C5A(){} // RVA: 0x7FFE810A1420
-        public void m_1EB(){} // RVA: 0x7FFE810A1420
-        public void m_B4F(){} // RVA: 0x7FFE810A1420
         public void m_819(){} // RVA: 0x7FFE810A1420
         public void m_9C2(){} // RVA: 0x7FFE810A1420
         public void m_6EB(){} // RVA: 0x7FFE810A1420

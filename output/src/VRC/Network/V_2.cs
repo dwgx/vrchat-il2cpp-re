@@ -22,13 +22,18 @@ namespace VRC.Network
         public void InternalGetHashCode(){} // RVA: 0x7FFE826F4230
         public void ToString(){} // RVA: 0x7FFE815E8830
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFE81D7E9E0
-        // ── 11 unresolved (hash) ──
-        public void m_98D(){} // RVA: 0x7FFE8119C080
-        public void m_817(){} // RVA: 0x7FFE81116380
-        public void m_707(){} // RVA: 0x7FFE810FCE30
-        public void m_CA6(){} // RVA: 0x7FFE8119C080
+        public void GetNetworkBehaviour(){} // RVA: 0x7FFE8119C080
+        public void GetSiblingIndex(){} // RVA: 0x7FFE81116380
+        public void Initialize(){} // RVA: 0x7FFE810FCE30
+        public void Serialize(){} // RVA: 0x7FFE8119C080
+        public void Deserialize(){} // RVA: 0x7FFE81D7E9E0
+        public void GetTypeId(){} // RVA: 0x7FFE813240E0
+        public void ToString_844260588D3B(){} // RVA: 0x7FFE8284EF60
+        public void GetHashCode_A00ED51F7397(){} // RVA: 0x7FFE8284EF60
+        public void Equals_0642CC974B4E(){} // RVA: 0x7FFE826F4210
+        // ── Unresolved (hash) ──
         public void m_62B(){} // RVA: 0x7FFE813240E0
-        // ... 6 more unresolved methods
+        public void m_D9B(){} // RVA: 0x7FFE82D2BE70
     }
 
     /// <summary>Originally: ÍÏÍÍÍÌÎÌÍÌÏÎÌÍÏÌÍÏÏÍÎÌÏ</summary>

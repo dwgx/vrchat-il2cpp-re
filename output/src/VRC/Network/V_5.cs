@@ -13,32 +13,32 @@ namespace VRC.Network
         // ── Methods ──
         public void NeedsImportant(){} // RVA: 0x7FFE810FB320
         public void NeedsSync(){} // RVA: 0x7FFE81177320
+        public void Update(){} // RVA: 0x7FFE824BCF00
+        public void Serialize(){} // RVA: 0x7FFE824BD620
+        public void Deserialize(){} // RVA: 0x7FFE824BD660
+        public void OnDestroy(){} // RVA: 0x7FFE811E0850
         public void Encode(){} // RVA: 0x7FFE824BEAA0 | overloaded x2
+        public void get_NetworkId(){} // RVA: 0x7FFE824BE6C0
+        public void set_NetworkId(){} // RVA: 0x7FFE824BE7C0
         public void Awake(){} // RVA: 0x7FFE80E460A0
         public void OnEnable(){} // RVA: 0x7FFE824BEAE0
         public void Start(){} // RVA: 0x7FFE824BEB20
         public void Initialize(){} // RVA: 0x7FFE824BFE80 | overloaded x2
         public void Decode(){} // RVA: 0x7FFE824BFF30 | overloaded x2
-        public void set_TypeId(){} // RVA: 0x7FFE824BF0F0
+        public void LateUpdate(){} // RVA: 0x7FFE824BF0F0
         public void OnDisable(){} // RVA: 0x7FFE824BF3F0
         public void get_TypeId(){} // RVA: 0x7FFE824BF490
         public void OnNetworkReady(){} // RVA: 0x7FFE824BF4A0
-        public void OnApplicationQuit(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void set_TypeId(){} // RVA: 0x7FFE810A1420 | overloaded x2
         public void SerializedName(){} // RVA: 0x7FFE824BF520
         public void CanSerialize8Bit(){} // RVA: 0x7FFE811E0850
         public void OnCollisionEnter(){} // RVA: 0x7FFE824BF690
         public void .ctor(){} // RVA: 0x7FFE824BFE00
         public void OnTriggerEnter(){} // RVA: 0x7FFE824BEAE0
         public void CanSerialize32Bit(){} // RVA: 0x7FFE810FB320
+        public void OnSerialize(){} // RVA: 0x7FFE813A7540
         // ── Unresolved (hash) ──
         public void m_E42(){} // RVA: 0x7FFE810A1420
-        public void m_1DA(){} // RVA: 0x7FFE824BCF00
-        public void m_312(){} // RVA: 0x7FFE824BD620
-        public void m_FF5(){} // RVA: 0x7FFE824BD660
-        public void m_48A(){} // RVA: 0x7FFE811E0850
-        public void m_F7E(){} // RVA: 0x7FFE824BE6C0
-        public void m_CD9(){} // RVA: 0x7FFE824BE7C0
-        public void m_15F(){} // RVA: 0x7FFE813A7540
     }
 
     /// <summary>Originally: ÏÎÏÌÎÌÎÎÌÏÏÎÌÎÍÍÍÌÎÎÌÎÍ</summary>
