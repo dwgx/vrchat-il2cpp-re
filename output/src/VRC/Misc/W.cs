@@ -1,10 +1,103 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 2
-// Methods: 87
+// Classes: 10
+// Methods: 129
 
 namespace VRC.Misc
 {
+    /// <summary>Originally: ÏÌÌÍÍÏÍÏÍÎÌÏÎÍÎÌÍÍÏÎÏÏÎ</summary>
+    public class WaitForEndOfFrame : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
+    /// <summary>Originally: ÌÌÌÌÍÏÍÏÍÍÌÏÏÏÎÎÌÍÌÌÌÎÌ</summary>
+    public class WaitForSeconds : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÌÌÍÍÍÍÌÍÍÏÎÌÍÎÍÎÏÍÎÌÏÌÌ</summary>
+    public class WaitForSecondsRealtime : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82D50160
+        public void InternalEquals(){} // RVA: 0x7FFE82D50220
+        public void DefaultEquals(){} // RVA: 0x7FFE82D50270
+        public void GetHashCode(){} // RVA: 0x7FFE82D50330
+        public void Dispose(){} // RVA: 0x7FFE82D503F0
+        public void Cleanup(){} // RVA: 0x7FFE82D50440
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82D50500
+        public void ToString(){} // RVA: 0x7FFE82D505C0
+    }
+
+    /// <summary>Originally: ÏÍÌÏÍÏÎÏÍÏÍÏÌÏÍÍÌÌÍÍÍÍÎ</summary>
+    public class WaitUntil : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÍÌÏÏÍÍÍÏÏÌÍÏÎÏÏÎÌÍÎÎÍÌÍ</summary>
+    public class WeightedMode
+    {
+        // ── Unresolved (hash) ──
+        public void m_C54(){} // RVA: 0x7FFE80E2DCF0
+        public void m_6AB(){} // RVA: 0x7FFE80E2EDB0
+    }
+
+    /// <summary>Originally: ÍÍÌÎÍÏÎÎÏÌÌÍÍÍÍÎÍÍÎÌÌÎÌ</summary>
+    public class WrapMode : ValueType
+    {
+        public object f_833; // 0x10
+        public bool f_483; // 0x18
+        public bool f_231; // 0x19
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE81D7E9E0
+        public void InternalEquals(){} // RVA: 0x7FFE813240E0
+        public void DefaultEquals(){} // RVA: 0x7FFE828B30C0
+        public void GetHashCode(){} // RVA: 0x7FFE828B3170
+        public void InternalGetHashCode(){} // RVA: 0x7FFE828B30C0
+        public void ToString(){} // RVA: 0x7FFE813240E0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE828B30A0
+        // ── Unresolved (hash) ──
+        public void m_04B(){} // RVA: 0x7FFE828B3170
+        public void m_91F(){} // RVA: 0x7FFE81D7E9E0
+        public void m_844(){} // RVA: 0x7FFE8284EF60
+        public void m_3CD(){} // RVA: 0x7FFE8284EF60
+        public void m_62B(){} // RVA: 0x7FFE813240E0
+        public void m_049(){} // RVA: 0x7FFE828B30C0
+        public void m_EB7(){} // RVA: 0x7FFE828B30B0
+    }
+
+    /// <summary>Originally: ÍÌÌÎÌÌÎÎÏÎÎÎÎÍÏÌÌÎÌÎÏÎÏ</summary>
+    public class WriteAccessRequiredAttribute : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE820CB3C0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE820CB460
+        public void op_Implicit(){} // RVA: 0x7FFE820CB460
+        public void CompareBaseObjects(){} // RVA: 0x7FFE820CB3C0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE820CB3C0
+        public void GetCachedPtr(){} // RVA: 0x7FFE820CB3C0
+        public void get_name(){} // RVA: 0x7FFE820CB3C0
+    }
+
+    /// <summary>Originally: ÌÍÌÍÏÏÌÏÏÏÎÎÍÌÏÌÏÍÌÍÏÎÌ</summary>
+    public class WriteOnlyAttribute : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE81DC5820
+        public void Equals(){} // RVA: 0x7FFE81DC5980
+        public void GetHashCode(){} // RVA: 0x7FFE81DC5AE0
+        public void op_Implicit(){} // RVA: 0x7FFE81DC5C40
+        public void CompareBaseObjects(){} // RVA: 0x7FFE81DC5DA0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE81DC5F00
+        public void GetCachedPtr(){} // RVA: 0x7FFE81DC6060
+        public void get_name(){} // RVA: 0x7FFE81DC61C0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
     /// <summary>Originally: ÎÎÌÏÍÏÌÎÏÎÎÏÏÍÎÎÌÏÌÏÎÍÌ</summary>
     public class worldInstanceCellPrefabCosecondaryGridLaComponent_04FA : MonoBehaviour
     {

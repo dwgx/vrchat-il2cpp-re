@@ -112,7 +112,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
         public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
-    public class StaticTree : Object
+    public class LowMemoryCallback : Object
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFE8A01E870

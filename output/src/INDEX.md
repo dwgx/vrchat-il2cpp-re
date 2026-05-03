@@ -1,6 +1,6 @@
 # VRChat IL2CPP Deobfuscated Source Tree
 
-Total: 27863 classes in 1356 files
+Total: 27237 classes in 1377 files
 
 ## Domain Structure
 
@@ -594,21 +594,21 @@ Total: 27863 classes in 1356 files
 | `ThirdParty.ZLinq.ZLinq.Internal` | 14 | 73 | 1 |
 | `ThirdParty.ZLinq.ZLinq.Linq` | 89 | 540 | 1 |
 | `VRC` | 17 | 202 | 1 |
-| `VRC.Animation` | 6 | 112 | 1 |
+| `VRC.Animation` | 11 | 156 | 1 |
 | `VRC.Annotations` | 1 | 3 | 1 |
 | `VRC.AssetCustomization` | 6 | 37 | 1 |
-| `VRC.Audio` | 6 | 111 | 1 |
+| `VRC.Audio` | 7 | 121 | 1 |
 | `VRC.Audio.Voice` | 1 | 18 | 1 |
-| `VRC.Avatar` | 29 | 849 | 1 |
+| `VRC.Avatar` | 30 | 859 | 1 |
 | `VRC.Compression` | 2 | 14 | 1 |
 | `VRC.Core` | 181 | 3332 | 2 |
 | `VRC.Core.Annotations` | 1 | 3 | 1 |
-| `VRC.Core.Base` | 912 | 13724 | 10 |
+| `VRC.Core.Base` | 913 | 13763 | 10 |
 | `VRC.Core.Burst` | 1 | 13 | 1 |
 | `VRC.Core.CameraSystems` | 1 | 1 | 1 |
-| `VRC.Core.Component` | 879 | 14010 | 9 |
+| `VRC.Core.Component` | 881 | 14036 | 9 |
 | `VRC.Core.Config.Interfaces` | 2 | 14 | 1 |
-| `VRC.Core.MajorSystem` | 6 | 987 | 1 |
+| `VRC.Core.MajorSystem` | 5 | 687 | 1 |
 | `VRC.Core.Networking` | 27 | 296 | 1 |
 | `VRC.Core.Networking.Codec.StateManagement` | 3 | 89 | 1 |
 | `VRC.Core.Networking.FlatBuffers` | 5 | 18 | 1 |
@@ -621,8 +621,8 @@ Total: 27863 classes in 1356 files
 | `VRC.Core.Services` | 17 | 70 | 1 |
 | `VRC.Core.Source.Config` | 1 | 10 | 1 |
 | `VRC.Core.Source.Config.Interfaces` | 1 | 7 | 1 |
-| `VRC.Core.System` | 62 | 2479 | 1 |
-| `VRC.Core.Transform` | 9 | 152 | 1 |
+| `VRC.Core.System` | 46 | 1890 | 1 |
+| `VRC.Core.Transform` | 19 | 230 | 1 |
 | `VRC.Core.UdonAnalytics` | 4 | 25 | 1 |
 | `VRC.DataModel` | 9 | 129 | 1 |
 | `VRC.DataModel.Challenges` | 3 | 21 | 1 |
@@ -635,28 +635,30 @@ Total: 27863 classes in 1356 files
 | `VRC.Economy.Internal` | 1 | 26 | 1 |
 | `VRC.Effects` | 8 | 100 | 1 |
 | `VRC.Impostors` | 2 | 42 | 1 |
-| `VRC.Input` | 7 | 113 | 1 |
-| `VRC.Internal.Async` | 744 | 6255 | 8 |
+| `VRC.Input` | 17 | 183 | 1 |
+| `VRC.Internal.Async` | 750 | 6307 | 8 |
 | `VRC.Internal.Delegate` | 450 | 1796 | 5 |
 | `VRC.Internal.Enumerator` | 1 | 16 | 1 |
-| `VRC.Internal.Generated` | 2662 | 20135 | 27 |
+| `VRC.Internal.Generated` | 1614 | 12329 | 17 |
 | `VRC.Inventory` | 1 | 1 | 1 |
 | `VRC.InventoryEffects` | 9 | 39 | 1 |
 | `VRC.Localization` | 9 | 140 | 1 |
-| `VRC.Misc` | 813 | 13194 | 9 |
-| `VRC.Network` | 618 | 6274 | 7 |
+| `VRC.Media` | 1 | 7 | 1 |
+| `VRC.Misc` | 1065 | 15466 | 11 |
+| `VRC.Network` | 621 | 6300 | 7 |
 | `VRC.Network.Core` | 14 | 1410 | 1 |
+| `VRC.Network.Web` | 8 | 73 | 1 |
 | `VRC.Networking` | 4 | 48 | 1 |
 | `VRC.Networking.Pose` | 4 | 43 | 1 |
 | `VRC.OSCQuery` | 11 | 118 | 1 |
 | `VRC.OSCQuery.Android` | 2 | 26 | 1 |
 | `VRC.PersonalMirror` | 1 | 8 | 1 |
-| `VRC.Physics` | 9 | 197 | 1 |
-| `VRC.Player` | 440 | 7053 | 5 |
+| `VRC.Physics` | 12 | 228 | 1 |
+| `VRC.Player` | 449 | 7096 | 5 |
 | `VRC.PlayerDrone` | 2 | 15 | 1 |
 | `VRC.Profiling` | 1 | 10 | 1 |
 | `VRC.RemoteLogging` | 2 | 12 | 1 |
-| `VRC.Rendering` | 37 | 909 | 1 |
+| `VRC.Rendering` | 103 | 1359 | 2 |
 | `VRC.SDK.Events` | 1 | 11 | 1 |
 | `VRC.SDK.Experimental` | 2 | 24 | 1 |
 | `VRC.SDK.Internal` | 2 | 20 | 1 |
@@ -706,11 +708,11 @@ Total: 27863 classes in 1356 files
 | `VRC.SDKBase.Validation.Performance.Scanners` | 11 | 37 | 1 |
 | `VRC.SDKBase.Validation.Performance.Stats` | 3 | 26 | 1 |
 | `VRC.SDKInterface` | 1 | 0 | 1 |
-| `VRC.Security` | 2 | 29 | 1 |
-| `VRC.Social` | 21 | 270 | 1 |
+| `VRC.Security` | 3 | 36 | 1 |
+| `VRC.Social` | 35 | 360 | 1 |
 | `VRC.Steam` | 1 | 12 | 1 |
-| `VRC.Texture` | 19 | 478 | 1 |
-| `VRC.UI` | 393 | 7910 | 4 |
+| `VRC.Texture` | 46 | 690 | 1 |
+| `VRC.UI` | 412 | 8063 | 5 |
 | `VRC.UI.Client.Emoji` | 3 | 37 | 1 |
 | `VRC.UI.Client.Groups` | 2 | 22 | 1 |
 | `VRC.UI.Client.IPS` | 1 | 11 | 1 |
@@ -761,10 +763,9 @@ Total: 27863 classes in 1356 files
 |-------|--------|---------|--------|
 | `VRC_Main` | `VRC.Misc` | 961 | `MonoBehaviour` |
 | `UpdateComponentSibling_91E4` | `VRC.Core.Component` | 942 | `Object` |
-| `Static625m_1581` | `VRC.Internal.Generated` | 625 | `Object` |
 | `VRC_Secondary` | `VRC.Misc` | 500 | `MonoBehaviour` |
 | `VRC_MainSibling_F4F7` | `VRC.Misc` | 351 | `` |
-| `MajorSystem_F28F` | `VRC.Core.MajorSystem` | 300 | `MonoBehaviour` |
+| `UnityAction`4` | `VRC.Misc` | 300 | `MonoBehaviour` |
 | `VRCUiManager` | `VRC.Misc` | 272 | `UIManager` |
 | `NetworkManager` | `VRC.Network.Core` | 268 | `MonoBehaviour` |
 | `VRCPlayer` | `VRC.Player` | 256 | `NetworkReadyHandler_FB37` |
@@ -799,3 +800,4 @@ Total: 27863 classes in 1356 files
 | `TransformCameraBaseImpl_ED4E` | `VRC.Rendering` | 103 | `TransformCameraBase_D269` |
 | `Playerk__BackingFieldComponent_7639` | `VRC.Player` | 102 | `MonoBehaviour` |
 | `UIScrollcameraButtonTextHandler_F169` | `VRC.UI` | 100 | `MonoBehaviour` |
+| `NetworkItem_3209` | `VRC.Network.Core` | 100 | `Object` |

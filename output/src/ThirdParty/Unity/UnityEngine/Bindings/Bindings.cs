@@ -20,6 +20,17 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
         public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
+    public class JobScheduleParameters : Attribute
+    {
+        public string _name; // 0x10
+        public 0x666D4C84 _type; // 0x18
+
+        // ── Methods ──
+        public void set_Name(){} // RVA: 0x7FFE810FCE30
+        public void set_Type(){} // RVA: 0x7FFE8144DF00
+        public void .ctor(){} // RVA: 0x7FFE82AF3A20 | overloaded x2
+    }
+
     public class NativeAsStructAttribute : Attribute
     {
         // ── Methods ──
@@ -133,17 +144,6 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFE84A50FB0
-    }
-
-    public class StaticAccessorAttribute : Attribute
-    {
-        public string _name; // 0x10
-        public 0x666D4C84 _type; // 0x18
-
-        // ── Methods ──
-        public void set_Name(){} // RVA: 0x7FFE810FCE30
-        public void set_Type(){} // RVA: 0x7FFE8144DF00
-        public void .ctor(){} // RVA: 0x7FFE82AF3A20 | overloaded x2
     }
 
     public class ThreadSafeAttribute : NativeMethodAttribute

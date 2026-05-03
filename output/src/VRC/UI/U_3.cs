@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 55
-// Methods: 1225
+// Classes: 56
+// Methods: 1226
 
 namespace VRC.UI
 {
@@ -140,6 +140,13 @@ namespace VRC.UI
         public void get_ObservableList(){} // RVA: 0x7FFE89B92DF0
         // ── Unresolved (hash) ──
         public void m_758(){} // RVA: 0x7FFE89B91E40
+    }
+
+    /// <summary>Originally: ÏÏÍÏÌÎÌÍÏÎÍÌÏÍÏÍÎÌÏÌÎÏÎ</summary>
+    public class UINumericFieldsUtils : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82B1A9D0
     }
 
     /// <summary>Originally: ÏÎÎÏÎÏÏÎÎÌÍÎÌÌÏÌÎÎÏÌÍÌÎ</summary>

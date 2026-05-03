@@ -1,10 +1,27 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 2
-// Methods: 61
+// Classes: 6
+// Methods: 84
 
 namespace VRC.Misc
 {
+    /// <summary>Originally: ÎÍÍÍÍÍÎÏÏÏÏÏÍÎÎÎÎÏÎÍÏÌÎ</summary>
+    public class ObjectDispatcher : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE815DD830
+        public void Equals(){} // RVA: 0x7FFE815DDCC0
+        public void GetHashCode(){} // RVA: 0x7FFE815DDE50
+        public void op_Implicit(){} // RVA: 0x7FFE815DE2E0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE815DE770
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE815DE900
+        public void GetCachedPtr(){} // RVA: 0x7FFE815DED90
+        public void get_name(){} // RVA: 0x7FFE815DEF20
+        public void set_name(){} // RVA: 0x7FFE815DF0B0
+        public void Instantiate(){} // RVA: 0x7FFE815DF240
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
     /// <summary>Originally: ÍÏÎÎÏÏÏÍÌÍÏÌÏÎÎÍÌÍÎÎÌÍÌ</summary>
     public class ObjectInstantiator : MonoBehaviour
     {
@@ -54,6 +71,36 @@ namespace VRC.Misc
         public void OnCollisionExit(){} // RVA: 0x7FFE82493300
         // ── Unresolved (hash) ──
         public void m_967(){} // RVA: 0x7FFE8248BAC0
+    }
+
+    /// <summary>Originally: ÏÌÏÍÍÎÎÏÎÌÍÎÏÍÎÏÌÎÎÎÍÍÌ</summary>
+    public class ObjectPool`1 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE81F1F230
+        public void Equals(){} // RVA: 0x7FFE81F1F320
+        public void GetHashCode(){} // RVA: 0x7FFE81F1F410
+        public void op_Implicit(){} // RVA: 0x7FFE81F1F500
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE81F1F5F0
+        public void GetCachedPtr(){} // RVA: 0x7FFE81F1F6E0
+        public void get_name(){} // RVA: 0x7FFE81F1F7D0
+        public void set_name(){} // RVA: 0x7FFE81F1F8C0
+    }
+
+    /// <summary>Originally: ÌÌÍÌÍÏÎÌÌÎÏÍÏÏÍÍÍÍÌÎÍÏÎ</summary>
+    public class OpenVR
+    {
+        // ── Unresolved (hash) ──
+        public void m_F28(){} // RVA: 0x7FFE80E460A0
+    }
+
+    /// <summary>Originally: ÍÎÌÏÎÎÌÍÏÍÏÌÌÌÏÍÍÎÍÌÍÌÎ</summary>
+    public class OperatingSystemFamily
+    {
+        // ── Unresolved (hash) ──
+        public void m_F98(){} // RVA: 0x7FFE80E52EB0
+        public void m_B37(){} // RVA: 0x7FFE80E52EB0
     }
 
     /// <summary>Originally: ÏÎÎÍÍÏÌÏÍÍÍÌÎÏÍÎÍÍÎÍÏÌÏ</summary>

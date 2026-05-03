@@ -1,10 +1,31 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Component
-// Classes: 6
-// Methods: 107
+// Classes: 7
+// Methods: 118
 
 namespace VRC.Core.Component
 {
+    /// <summary>Originally: ÌÌÎÏÎÏÍÎÍÎÏÏÌÏÏÌÎÏÍÍÍÌÎ</summary>
+    public class FixedUpdate : ValueType
+    {
+        public bool f_DCB; // 0x10
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_5DD; // 0x18
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_8A8; // 0x20
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE81116380
+        public void InternalEquals(){} // RVA: 0x7FFE826F4230
+        public void DefaultEquals(){} // RVA: 0x7FFE826F4210
+        public void GetHashCode(){} // RVA: 0x7FFE82BC9930
+        public void InternalGetHashCode(){} // RVA: 0x7FFE810FCE30
+        public void ToString(){} // RVA: 0x7FFE82BC9930
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82BC9930
+        public void SetStateMachine(){} // RVA: 0x7FFE810FCE30
+        public void MoveNext(){} // RVA: 0x7FFE826F4230
+        public void ToString_A41E31B38511(){} // RVA: 0x7FFE81116380
+        public void GetHashCode_5AD887E26F78(){} // RVA: 0x7FFE82BC9920
+    }
+
     /// <summary>Originally: ÎÌÎÏÍÎÍÎÍÎÍÍÍÌÏÏÍÍÍÏÍÏÎ</summary>
     public class FixedUpdateComponent_38F1 : MonoBehaviour
     {

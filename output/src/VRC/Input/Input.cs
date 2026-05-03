@@ -1,10 +1,77 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Input
-// Classes: 7
-// Methods: 113
+// Classes: 17
+// Methods: 183
 
 namespace VRC.Input
 {
+    /// <summary>Originally: ÎÌÏÍÎÏÍÌÏÎÍÎÎÍÌÏÍÍÌÌÏÏÍ</summary>
+    public class CursorLockMode : Object
+    {
+        public ÍÍÏÌÏÍÌÏÍÍÍÎÍÍÍÏÌÍÎÏÍÌÌ _52CC;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82D38930
+        public void Equals(){} // RVA: 0x7FFE82D38B00
+    }
+
+    /// <summary>Originally: ÍÏÏÎÌÎÎÌÍÍÏÌÏÏÎÏÏÎÍÌÏÏÎ</summary>
+    public class EGamepadTextInputMode : MonoBehaviour
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
+    }
+
+    /// <summary>Originally: ÌÌÌÏÌÌÏÏÌÏÏÏÎÏÌÎÍÍÏÌÏÌÏ</summary>
+    public class EVRInputError : MonoBehaviour
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FBD50
+    }
+
+    /// <summary>Originally: ÌÍÍÌÏÌÍÏÌÌÏÎÍÌÎÌÍÎÌÌÎÏÎ</summary>
+    public class EVRInputFilterCancelType : ValueType
+    {
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_19B; // 0x10
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_B2A; // 0x18
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_60D; // 0x20
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_AEE; // 0x28
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_A9E; // 0x30
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE810FE7C0
+        public void InternalEquals(){} // RVA: 0x7FFE8284EF60
+        public void DefaultEquals(){} // RVA: 0x7FFE81161E80
+        public void GetHashCode(){} // RVA: 0x7FFE811290C0
+        public void InternalGetHashCode(){} // RVA: 0x7FFE81116380
+        public void ToString(){} // RVA: 0x7FFE810FCE30
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE811290D0
+        // ── Unresolved (hash) ──
+        public void m_601(){} // RVA: 0x7FFE810FE7C0
+        public void m_81B(){} // RVA: 0x7FFE826F4230
+        public void m_048(){} // RVA: 0x7FFE811290D0
+        public void m_E46(){} // RVA: 0x7FFE81D7E9E0
+        public void m_056(){} // RVA: 0x7FFE826F4210
+        public void m_6C1(){} // RVA: 0x7FFE826F4210
+        public void m_B0B(){} // RVA: 0x7FFE81116380
+        public void m_C44(){} // RVA: 0x7FFE81161E80
+        public void m_11E(){} // RVA: 0x7FFE81D7E9E0
+        public void m_023(){} // RVA: 0x7FFE810FE7C0
+    }
+
+    /// <summary>Originally: ÌÏÎÎÌÎÎÏÏÌÏÌÎÎÎÍÏÌÏÎÍÎÍ</summary>
+    public class InputAnalogActionData_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE8215AAA0
+        public void Equals(){} // RVA: 0x7FFE8215AB70
+        public void GetHashCode(){} // RVA: 0x7FFE8215AC40
+        public void op_Implicit(){} // RVA: 0x7FFE8215AD10
+        public void CompareBaseObjects(){} // RVA: 0x7FFE8215ADE0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE8215AEB0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
     /// <summary>Originally: ÌÍÍÍÎÎÏÍÏÎÌÌÎÎÌÍÎÍÏÏÏÌÌ</summary>
     public class InputControlBinding : OnScreenControl
     {
@@ -51,6 +118,61 @@ namespace VRC.Input
         // ... 7 more unresolved methods
     }
 
+    /// <summary>Originally: ÌÌÎÏÌÍÏÏÎÌÎÎÌÏÍÎÍÌÏÎÏÌÌ</summary>
+    public class InputDigitalActionData_t : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE8215AF80
+        public void Equals(){} // RVA: 0x7FFE8215AFD0
+        public void op_Implicit(){} // RVA: 0x7FFE8215AFD0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE8215AF80
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE8215AF80
+        public void GetCachedPtr(){} // RVA: 0x7FFE8215AFD0
+        public void get_name(){} // RVA: 0x7FFE8215AFD0
+    }
+
+    /// <summary>Originally: ÍÍÍÏÏÍÌÌÍÏÏÎÏÍÏÍÍÌÎÌÎÍÎ</summary>
+    public class InputOriginInfo_t : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82DDE040
+        public void InternalEquals(){} // RVA: 0x7FFE82DDE0B0
+        public void DefaultEquals(){} // RVA: 0x7FFE82DDE1E0
+        public void GetHashCode(){} // RVA: 0x7FFE82DDE310
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82DDE440
+        public void ToString(){} // RVA: 0x7FFE82DDE4B0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82DDE5E0
+        public void Dispose(){} // RVA: 0x7FFE82DDE710
+    }
+
+    /// <summary>Originally: ÎÌÏÌÏÎÏÌÎÏÌÍÌÏÌÎÍÍÌÍÏÍÎ</summary>
+    public class InputPoseActionData_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE8215B020
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE8215B1C0
+        public void op_Implicit(){} // RVA: 0x7FFE8215B360
+        public void CompareBaseObjects(){} // RVA: 0x7FFE8215B500
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE8215B6A0
+        public void GetCachedPtr(){} // RVA: 0x7FFE8215B840
+    }
+
+    /// <summary>Originally: ÍÌÍÌÌÍÎÏÌÎÍÍÎÍÎÍÎÏÏÌÌÎÍ</summary>
+    public class InputSkeletalActionData_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE8215B9E0
+        public void Equals(){} // RVA: 0x7FFE8215B9E0
+        public void GetHashCode(){} // RVA: 0x7FFE8215B9E0
+        public void op_Implicit(){} // RVA: 0x7FFE8215B9F0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE8215B9E0
+        public void GetCachedPtr(){} // RVA: 0x7FFE8215C550
+        public void get_name(){} // RVA: 0x7FFE8215C560
+    }
+
     /// <summary>Originally: ÌÌÌÏÌÌÎÏÌÎÌÏÎÏÏÌÌÍÌÌÍÎÎ</summary>
     public class UiInputFieldSibling_67F0
     {
@@ -58,6 +180,26 @@ namespace VRC.Input
         public void OnPointerEnter(){} // RVA: 0x7FFE80E2E2E0
         public void OnPointerExit(){} // RVA: 0x7FFE80E460A0
         public void OnPointerDown(){} // RVA: 0x7FFE80E45FE0
+    }
+
+    /// <summary>Originally: ÌÍÍÍÏÍÌÎÏÎÌÍÎÏÏÌÎÏÍÎÎÏÎ</summary>
+    public class VROverlayInputMethod : ValueType
+    {
+        public System.Nullable`1<ÍÍÌÏÍÏÍÎÌÌÎÍÌÍÏÎÍÎÍÎÏÎÌ> f_D77; // 0x10
+        public 0x664F1DB4 f_024; // 0x20
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE8151C410
+        public void InternalEquals(){} // RVA: 0x7FFE811485C0
+        public void DefaultEquals(){} // RVA: 0x7FFE810FE0C0
+        public void GetHashCode(){} // RVA: 0x7FFE82DC95C0
+        public void InternalGetHashCode(){} // RVA: 0x7FFE810FE0C0
+        public void ToString(){} // RVA: 0x7FFE810FE0C0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82DC95C0
+        public void ProcessAsyncOperationData(){} // RVA: 0x7FFE810FE0C0
+        public void FindObjectsByType(){} // RVA: 0x7FFE82DC95C0
+        public void MoveNext(){} // RVA: 0x7FFE8151C410
+        public void ToString_97B77F4DDA91(){} // RVA: 0x7FFE810FE0C0
     }
 
     /// <summary>Originally: ÎÎÌÍÌÏÏÍÍÍÎÌÌÎÏÏÌÌÌÏÍÎÎ</summary>

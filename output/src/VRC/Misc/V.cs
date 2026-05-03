@@ -1,10 +1,26 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 34
-// Methods: 3288
+// Classes: 65
+// Methods: 3488
 
 namespace VRC.Misc
 {
+    /// <summary>Originally: ÎÏÎÏÎÏÎÍÍÌÌÍÏÌÍÏÍÌÎÏÍÍÍ</summary>
+    public class VRActiveActionSet_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE8215DD20
+        public void Equals(){} // RVA: 0x7FFE8215DDD0
+        public void GetHashCode(){} // RVA: 0x7FFE8215DE80
+        public void op_Implicit(){} // RVA: 0x7FFE8215DF30
+        public void CompareBaseObjects(){} // RVA: 0x7FFE8215DFE0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE8215E090
+        public void GetCachedPtr(){} // RVA: 0x7FFE8215E140
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE8215E1F0
+        public void Instantiate(){} // RVA: 0x7FFE8215E2A0
+    }
+
     /// <summary>Originally: ÏÍÎÎÏÍÌÌÌÏÏÍÌÌÍÌÍÏÎÌÎÌÍ</summary>
     public class VRCCustomActionDerived_388D : VRCCustomAction
     {
@@ -1641,6 +1657,379 @@ namespace VRC.Misc
         public void m_236(){} // RVA: 0x7FFE825E49F0
         public void m_664(){} // RVA: 0x7FFE825E5A60
         public void m_5A5(){} // RVA: 0x7FFE825E5AC0
+    }
+
+    /// <summary>Originally: ÌÍÎÎÎÍÌÏÌÎÏÏÏÌÏÌÏÍÌÌÎÌÌ</summary>
+    public class VRControllerAxis_t : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÌÌÌÌÏÌÏÏÍÍÎÎÍÍÍÎÌÌÎÍÍÏÎ</summary>
+    public class VRControllerState_t_Packed : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82125BB0
+        public void Equals(){} // RVA: 0x7FFE82125BB0
+        public void GetHashCode(){} // RVA: 0x7FFE82125BE0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE82125BB0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE82125BB0
+        public void GetCachedPtr(){} // RVA: 0x7FFE82125BB0
+        public void get_name(){} // RVA: 0x7FFE82125D30
+        public void set_name(){} // RVA: 0x7FFE82125BB0
+        public void Instantiate(){} // RVA: 0x7FFE82125BB0
+        public void ToString(){} // RVA: 0x7FFE82125BB0
+        // ── Unresolved (hash) ──
+        public void m_974(){} // RVA: 0x7FFE82125BB0
+        public void m_8B2(){} // RVA: 0x7FFE82125BB0
+    }
+
+    /// <summary>Originally: ÌÎÍÎÏÎÍÌÎÏÍÍÏÍÎÏÌÏÌÍÌÏÌ</summary>
+    public class VREvent_ApplicationLaunch_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE820F8510
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE820F89F0
+        public void op_Implicit(){} // RVA: 0x7FFE820F8ED0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE820F93B0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE820F9890
+        public void GetCachedPtr(){} // RVA: 0x7FFE820F9D70
+        public void get_name(){} // RVA: 0x7FFE820FA250
+        public void set_name(){} // RVA: 0x7FFE820FA730
+        public void Instantiate(){} // RVA: 0x7FFE820FAC00
+    }
+
+    /// <summary>Originally: ÎÌÎÏÎÏÏÎÍÍÍÍÎÏÎÌÏÏÍÍÏÏÌ</summary>
+    public class VREvent_DualAnalog_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82100400
+        public void Equals(){} // RVA: 0x7FFE82100530
+        public void GetHashCode(){} // RVA: 0x7FFE82100660
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE82100790
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE821008C0
+        public void GetCachedPtr(){} // RVA: 0x7FFE821009F0
+        public void get_name(){} // RVA: 0x7FFE82100B20
+        public void set_name(){} // RVA: 0x7FFE82100C50
+    }
+
+    /// <summary>Originally: ÍÌÌÎÏÍÍÎÍÎÍÏÍÍÍÍÍÏÌÍÌÍÎ</summary>
+    public class VREvent_EditingCameraSurface_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE899B4B00
+        public void Equals(){} // RVA: 0x7FFE899B4D10
+        public void GetHashCode(){} // RVA: 0x7FFE899B4F20
+        public void op_Implicit(){} // RVA: 0x7FFE899B5130
+        public void CompareBaseObjects(){} // RVA: 0x7FFE899B5340
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE899B5550
+        public void GetCachedPtr(){} // RVA: 0x7FFE899B5760
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
+    /// <summary>Originally: ÍÍÌÍÏÌÍÍÌÍÌÌÎÏÌÌÌÌÏÍÌÏÎ</summary>
+    public class VREvent_HapticVibration_t : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÌÍÏÌÎÏÎÍÍÌÏÏÏÌÏÏÍÎÌÌÌÎÏ</summary>
+    public class VREvent_InputActionManifestLoad_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82104910
+        public void Equals(){} // RVA: 0x7FFE82104F10
+        public void GetHashCode(){} // RVA: 0x7FFE82105520
+        public void op_Implicit(){} // RVA: 0x7FFE82105B40
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE82106150
+        public void GetCachedPtr(){} // RVA: 0x7FFE82106760
+        public void get_name(){} // RVA: 0x7FFE82106D60
+        public void set_name(){} // RVA: 0x7FFE82107370
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÍÏÏÌÎÍÌÏÎÌÌÍÎÏÏÏ</summary>
+    public class VREvent_InputBindingLoad_t : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE82101CB0
+        public void Equals(){} // RVA: 0x7FFE821021A0
+        public void op_Implicit(){} // RVA: 0x7FFE82102680
+        public void CompareBaseObjects(){} // RVA: 0x7FFE82102B70
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE82103060
+        public void GetCachedPtr(){} // RVA: 0x7FFE82103550
+        public void get_name(){} // RVA: 0x7FFE82103A40
+        public void set_name(){} // RVA: 0x7FFE82103F30
+        public void Instantiate(){} // RVA: 0x7FFE82104420
+    }
+
+    /// <summary>Originally: ÌÏÎÏÏÏÎÏÍÎÎÍÍÏÌÍÎÌÎÎÏÎÎ</summary>
+    public class VREvent_MessageOverlay_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE820FC100
+        public void Equals(){} // RVA: 0x7FFE820FC5F0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE820FCAE0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE820FCFD0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE820FD4C0
+        public void GetCachedPtr(){} // RVA: 0x7FFE820FD9B0
+        public void get_name(){} // RVA: 0x7FFE820FDEA0
+        public void set_name(){} // RVA: 0x7FFE820FE390
+    }
+
+    /// <summary>Originally: ÍÍÌÏÍÎÏÍÍÏÍÎÏÍÎÌÍÍÌÏÎÏÌ</summary>
+    public class VREvent_Mouse_t : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82DD4520
+        public void InternalEquals(){} // RVA: 0x7FFE82DD4580
+        public void Dispose(){} // RVA: 0x7FFE82DD46D0
+        public void Cleanup(){} // RVA: 0x7FFE82DD4730
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82DD4880
+        public void GetHashCode(){} // RVA: 0x7FFE82DD49D0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82DD4B20
+        public void ToString(){} // RVA: 0x7FFE82DD4B80
+    }
+
+    /// <summary>Originally: ÏÍÎÍÌÏÌÌÍÌÍÍÎÍÏÎÏÏÎÏÍÍÍ</summary>
+    public class VREvent_PerformanceTest_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE820F5160
+        public void Equals(){} // RVA: 0x7FFE820F5290
+        public void GetHashCode(){} // RVA: 0x7FFE820F53C0
+        public void op_Implicit(){} // RVA: 0x7FFE820F54F0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE820F5620
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE820F5750
+        public void GetCachedPtr(){} // RVA: 0x7FFE820F5880
+        public void get_name(){} // RVA: 0x7FFE820F59B0
+        public void set_name(){} // RVA: 0x7FFE820F5AE0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
+    /// <summary>Originally: ÌÎÏÎÏÏÏÎÎÎÍÍÍÍÌÎÏÍÎÎÎÏÏ</summary>
+    public class VREvent_Property_t : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÍÏÍÌÌÌÍÎÍÍÏÍÌÏÍÏÍÏÎÌÌÎÍ</summary>
+    public class VREvent_ScreenshotProgress_t : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE820F7F90
+        public void Equals(){} // RVA: 0x7FFE820F8040
+        public void op_Implicit(){} // RVA: 0x7FFE820F80F0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE820F81A0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE820F8250
+        public void GetCachedPtr(){} // RVA: 0x7FFE820F8300
+        public void get_name(){} // RVA: 0x7FFE820F83B0
+        public void set_name(){} // RVA: 0x7FFE820F8460
+    }
+
+    /// <summary>Originally: ÎÎÎÌÏÌÎÏÎÏÎÌÏÌÎÌÎÎÌÍÎÎÌ</summary>
+    public class VREvent_Screenshot_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE820F6960
+        public void Equals(){} // RVA: 0x7FFE820F6AF0
+        public void GetHashCode(){} // RVA: 0x7FFE820F6E20
+        public void op_Implicit(){} // RVA: 0x7FFE820F7150
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE820F7480
+        public void GetCachedPtr(){} // RVA: 0x7FFE820F77B0
+        public void get_name(){} // RVA: 0x7FFE820F7940
+        public void set_name(){} // RVA: 0x7FFE820F7AD0
+        public void Instantiate(){} // RVA: 0x7FFE820F7C60
+    }
+
+    /// <summary>Originally: ÍÌÏÌÍÌÎÏÏÎÎÏÏÎÏÏÏÎÌÏÌÌÏ</summary>
+    public class VREvent_SpatialAnchor_t : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÍÏÎÍÏÎÏÌÏÍÎÍÎÍÏÌÍÍÌÌÏÏÍ</summary>
+    public class VREvent_Status_t : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÎÏÎÎÏÏÎÍÍÌÏÍÏÎÏÌÌÍÏÍÏÌÌ</summary>
+    public class VREvent_TouchPadMove_t
+    {
+        // ── Unresolved (hash) ──
+        public void m_6D7(){} // RVA: 0x7FFE80E2E2E0
+        public void m_A51(){} // RVA: 0x7FFE80E2DCF0
+    }
+
+    /// <summary>Originally: ÌÍÏÎÎÎÎÎÏÌÌÏÏÎÏÏÍÍÍÏÏÎÍ</summary>
+    public class VREvent_WebConsole_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE821017B0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE82101850
+        public void op_Implicit(){} // RVA: 0x7FFE821018F0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE82101990
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE82101A30
+        public void GetCachedPtr(){} // RVA: 0x7FFE82101AD0
+        public void get_name(){} // RVA: 0x7FFE82101B70
+        public void set_name(){} // RVA: 0x7FFE82101C10
+    }
+
+    /// <summary>Originally: ÌÍÌÍÎÎÎÏÏÏÎÌÎÏÏÌÎÏÏÎÍÎÌ</summary>
+    public class VREvent_t : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82109810
+        public void Equals(){} // RVA: 0x7FFE82109B90
+        public void GetHashCode(){} // RVA: 0x7FFE82109F10
+        public void op_Implicit(){} // RVA: 0x7FFE8210A290
+        public void CompareBaseObjects(){} // RVA: 0x7FFE8210A610
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE8210A990
+        public void GetCachedPtr(){} // RVA: 0x7FFE8210AD10
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE8210B090
+        public void Instantiate(){} // RVA: 0x7FFE8210B410
+    }
+
+    /// <summary>Originally: ÌÍÏÌÌÌÌÏÍÎÍÏÌÏÌÎÏÏÎÌÌÎÍ</summary>
+    public class VREvent_t_Packed : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÌÎÍÍÍÏÏÍÎÌÍÎÍÌÍÏÎÍÍÌÏÎÏ</summary>
+    public class VRMessageOverlayResponse : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82DC9B20
+        public void InternalEquals(){} // RVA: 0x7FFE82DC9BE0
+        public void Dispose(){} // RVA: 0x7FFE82DC9CA0
+        public void Cleanup(){} // RVA: 0x7FFE82DC9CF0
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82DC9DB0
+        public void GetHashCode(){} // RVA: 0x7FFE82DC9E00
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82DC9E50
+    }
+
+    /// <summary>Originally: ÍÍÌÏÍÏÍÎÌÌÎÍÌÍÏÎÍÎÍÎÏÎÌ</summary>
+    public class VROverlayFlags : ValueType
+    {
+        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_8E4; // 0x10
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE81D7E9E0
+        public void InternalEquals(){} // RVA: 0x7FFE8284EF60
+        public void DefaultEquals(){} // RVA: 0x7FFE81D7E9E0
+        public void GetHashCode(){} // RVA: 0x7FFE81D7E9E0
+        public void InternalGetHashCode(){} // RVA: 0x7FFE81D7E9E0
+        public void ToString(){} // RVA: 0x7FFE81D7E9E0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE81D7E9E0
+        public void ResetStructFields(){} // RVA: 0x7FFE81D7E9E0
+        public void SetupUIManagerModule(){} // RVA: 0x7FFE8284EF60
+        // ── Unresolved (hash) ──
+        public void m_1D2(){} // RVA: 0x7FFE81D7E9E0
+    }
+
+    /// <summary>Originally: ÌÏÌÌÏÎÌÎÍÎÍÎÍÍÌÏÌÍÍÍÎÍÌ</summary>
+    public class VROverlayIntersectionMaskPrimitive_t : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82DDB060
+        public void InternalEquals(){} // RVA: 0x7FFE82DDB0B0
+        public void DefaultEquals(){} // RVA: 0x7FFE82DDB170
+        public void GetHashCode(){} // RVA: 0x7FFE82DDB230
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82DDB280
+        public void ToString(){} // RVA: 0x7FFE82DDB2D0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82DDB390
+        public void Dispose(){} // RVA: 0x7FFE82DDB4A0
+        // ── Unresolved (hash) ──
+        public void m_FB5(){} // RVA: 0x7FFE82DDB450
+    }
+
+    /// <summary>Originally: ÌÎÎÎÎÌÌÏÌÎÌÍÎÏÌÎÏÏÎÌÌÌÎ</summary>
+    public class VROverlayIntersectionParams_t : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82DD94C0
+        public void InternalEquals(){} // RVA: 0x7FFE82DD9580
+        public void DefaultEquals(){} // RVA: 0x7FFE82DD96F0
+        public void GetHashCode(){} // RVA: 0x7FFE82DD97B0
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82DD9990
+        public void Dispose(){} // RVA: 0x7FFE82DD9B70
+        public void Cleanup(){} // RVA: 0x7FFE82DD9C30
+        public void ToString(){} // RVA: 0x7FFE82DD9E10
+    }
+
+    /// <summary>Originally: ÎÏÎÏÏÍÏÏÎÎÎÍÎÏÍÏÏÎÏÎÌÎÎ</summary>
+    public class Vector2Int : Object
+    {
+        public ÎÎÎÏÌÏÏÏÍÍÌÏÎÏÌÎÌÍÌÌÍÎÌ _eC4B;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82D39EF0
+        public void Equals(){} // RVA: 0x7FFE82D3A0C0
+    }
+
+    /// <summary>Originally: ÏÎÏÏÍÌÏÌÌÍÍÎÌÌÏÏÌÎÍÏÍÎÎ</summary>
+    public class Vector3
+    {
+    }
+
+    /// <summary>Originally: ÍÌÍÍÏÎÌÍÏÎÍÌÏÏÍÌÏÏÏÌÍÎÏ</summary>
+    public class Vector3Int : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+    }
+
+    /// <summary>Originally: ÍÎÏÍÍÎÎÌÏÎÍÍÎÏÏÍÏÎÍÏÍÌÏ</summary>
+    public class Vector4 : ValueType
+    {
+        public ÍÎÏÍÍÎÎÌÏÎÍÍÎÏÏÍÏÎÍÏÍÌÏ _99BE;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82B08D20
+        public void InternalEquals(){} // RVA: 0x7FFE82B08DD0
+        public void DefaultEquals(){} // RVA: 0x7FFE82B08E80
+        public void GetHashCode(){} // RVA: 0x7FFE82B08F30
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82B08FE0
+        public void ToString(){} // RVA: 0x7FFE82B09090
+        public void .cctor(){} // RVA: 0x7FFE82B09140
+        public void .ctor(){} // RVA: 0x7FFE8111ED70
+        public void Initialize(){} // RVA: 0x7FFE82B091E0
+        // ── Unresolved (hash) ──
+        public void m_07E(){} // RVA: 0x7FFE82B09290
+    }
+
+    /// <summary>Originally: ÍÌÌÏÏÍÎÎÎÌÏÍÌÌÏÌÌÏÍÍÍÎÏ</summary>
+    public class VertexAttribute : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE81F48800
+        public void Equals(){} // RVA: 0x7FFE81F48800
+        public void GetHashCode(){} // RVA: 0x7FFE81F48800
+        public void op_Implicit(){} // RVA: 0x7FFE81F48800
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE81F48800
+        public void GetCachedPtr(){} // RVA: 0x7FFE81F48800
+        public void get_name(){} // RVA: 0x7FFE81F48800
+        public void set_name(){} // RVA: 0x7FFE81F48800
+    }
+
+    /// <summary>Originally: ÌÌÎÍÌÏÎÎÎÏÌÏÏÏÎÏÏÎÍÏÏÍÌ</summary>
+    public class VertexAttributeFormat : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE81F487D0
+        public void Equals(){} // RVA: 0x7FFE81F487D0
+        public void GetHashCode(){} // RVA: 0x7FFE81F487D0
+        public void op_Implicit(){} // RVA: 0x7FFE81F487D0
+        public void CompareBaseObjects(){} // RVA: 0x7FFE81F487D0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE81F487D0
+        public void get_name(){} // RVA: 0x7FFE81F487D0
     }
 
     /// <summary>Originally: ÍÎÌÌÍÎÌÏÌÎÎÎÏÌÏÍÍÍÏÎÎÍÏ</summary>

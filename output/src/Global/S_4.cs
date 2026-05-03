@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 77
-// Methods: 301
+// Classes: 76
+// Methods: 300
 
 public class StateEventBuffer : ValueType
 {
@@ -45,12 +45,6 @@ public class StaticGetter`1 : MulticastDelegate
     // ── Methods ──
     public void .ctor(){}
     public void Invoke(){} // RVA: 0x7FFE810A1420
-}
-
-public class StaticTypeReinitAttribute : Attribute
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FCE30
 }
 
 public class StationOccupantDelegate : MulticastDelegate
