@@ -2,7 +2,6 @@
   "lifts": [
     {
       "va": "0x347C37C0",
-      "namespace": "",
       "obf": "ÌÍÎÌÌÏÍÍÏÌÏÍÌÎÏÍÌÍÏÏÌÎÌ",
       "real": "UnityEngine",
       "all_candidates": [
@@ -11,7 +10,6 @@
     },
     {
       "va": "0x3335AC60",
-      "namespace": "",
       "obf": "ÌÏÏÎÌÌÏÍÎÎÌÍÎÌÌÎÌÍÎÌÍÍÏ",
       "real": "System",
       "all_candidates": [
@@ -20,7 +18,6 @@
     },
     {
       "va": "0x34C4EE50",
-      "namespace": "",
       "obf": "ÏÏÏÌÌÌÎÎÍÏÌÎÏÍÌÍÌÏÏÍÌÍÍ",
       "real": "System",
       "all_candidates": [
@@ -29,7 +26,6 @@
     },
     {
       "va": "0x3030DE40",
-      "namespace": "System",
       "obf": "Delegate",
       "real": "System",
       "all_candidates": [
@@ -38,7 +34,6 @@
     },
     {
       "va": "0x3767CB00",
-      "namespace": "System",
       "obf": "DelegateData",
       "real": "System",
       "all_candidates": [
@@ -47,7 +42,6 @@
     },
     {
       "va": "0xE55653F0",
-      "namespace": "System",
       "obf": "DelegateSerializationHolder",
       "real": "System",
       "all_candidates": [
