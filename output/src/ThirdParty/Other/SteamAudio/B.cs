@@ -1,6 +1,6 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.SteamAudio
-// Classes: 7
+// Classes: 8
 // Methods: 18
 
 namespace ThirdParty.Other.SteamAudio
@@ -51,6 +51,10 @@ namespace ThirdParty.Other.SteamAudio
     }
 
     public class Box : ValueType
+    {
+    }
+
+    public class BurstLike : ValueType
     {
     }
 

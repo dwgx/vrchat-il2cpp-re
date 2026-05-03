@@ -1,10 +1,17 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 5
-// Methods: 22
+// Classes: 6
+// Methods: 23
 
 namespace VRC.UI
 {
+    /// <summary>Originally: ÌÏÎÏÎÏÎÍÎÌÎÌÌÌÌÌÍÎÏÏÎÏÌ</summary>
+    public class IExposedPropertyTable
+    {
+        // ── Unresolved (hash) ──
+        public void m_45E(){} // RVA: 0x7FFE80E4F230
+    }
+
     public class ImageEx : Image
     {
         // ── Methods ──

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
-// Classes: 59
-// Methods: 1209
+// Classes: 60
+// Methods: 1217
 
 namespace VRC.Network
 {
@@ -759,6 +759,20 @@ namespace VRC.Network
         public void m_F86(){} // RVA: 0x7FFE82C92570
         public void m_3D5(){} // RVA: 0x7FFE82C92390
         public void m_3B9(){} // RVA: 0x7FFE82C92690
+    }
+
+    /// <summary>Originally: ÍÌÌÍÎÎÏÍÍÌÌÍÍÍÌÎÎÎÍÎÌÍÍ</summary>
+    public class NetworkReachability
+    {
+        // ── Unresolved (hash) ──
+        public void m_8AB(){} // RVA: 0x7FFE80E2F150
+        public void m_B1C(){} // RVA: 0x7FFE80E2E2E0
+        public void m_131(){} // RVA: 0x7FFE80E2E2E0
+        public void m_B16(){} // RVA: 0x7FFE80E2E2E0
+        public void m_FB6(){} // RVA: 0x7FFE80E2E2E0
+        public void m_367(){} // RVA: 0x7FFE80E460A0
+        public void m_AEB(){} // RVA: 0x7FFE80E2E2E0
+        public void m_298(){} // RVA: 0x7FFE80E460A0
     }
 
     /// <summary>Originally: ÍÏÌÍÎÍÍÍÎÎÍÍÌÏÎÍÌÌÍÍÎÍÍ</summary>

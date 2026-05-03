@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Player
 // Classes: 100
-// Methods: 1665
+// Methods: 1634
 
 namespace VRC.Player
 {
@@ -40,6 +40,22 @@ namespace VRC.Player
         public void GetTotalPreferredSize(){} // RVA: 0x7FFE826AB0D0
         public void GetTotalFlexibleSize(){} // RVA: 0x7FFE826AB0F0
         public void GetStartOffset(){} // RVA: 0x7FFE826AB1C0
+    }
+
+    /// <summary>Originally: ÌÌÌÎÌÌÍÌÏÌÍÏÏÏÍÏÏÌÍÍÏÌÍ</summary>
+    public class PlayerConnectionInternal : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE815E28F0
+        public void Equals(){} // RVA: 0x7FFE815E2BB0
+        public void GetHashCode(){} // RVA: 0x7FFE815E2E70
+        public void op_Implicit(){} // RVA: 0x7FFE815E3130
+        public void CompareBaseObjects(){} // RVA: 0x7FFE815E3150
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE815E3170
+        public void get_name(){} // RVA: 0x7FFE815E3190
+        public void set_name(){} // RVA: 0x7FFE815E3450
+        public void Instantiate(){} // RVA: 0x7FFE815E3170
     }
 
     /// <summary>Originally: ÌÏÍÎÌÍÎÏÍÎÏÍÎÏÌÍÍÌÎÏÌÌÏ</summary>
@@ -145,6 +161,26 @@ namespace VRC.Player
         public void .cctor_06FE7BD41BF7(){} // RVA: 0x7FFE81519E70
         public void RemovePlayerData(){} // RVA: 0x7FFE81519F70
         public void NotifyPlayerLeft(){} // RVA: 0x7FFE81519FD0
+    }
+
+    /// <summary>Originally: ÌÍÏÍÌÍÌÏÍÏÎÍÌÌÍÎÍÎÎÎÍÏÏ</summary>
+    public class PlayerLoop : Object
+    {
+        public ÌÌÍÌÍÌÏÌÎÌÍÎÍÏÎÎÍÌÌÌÎÎÏ _f196;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82D708A0
+        public void Equals(){} // RVA: 0x7FFE82D70A70
+    }
+
+    /// <summary>Originally: ÌÌÏÍÍÏÌÍÎÌÎÌÏÎÎÍÌÎÌÏÎÌÏ</summary>
+    public class PlayerLoopSystemInternal : Object
+    {
+        public ÍÏÏÍÎÌÌÏÎÍÎÍÏÍÍÍÏÏÌÏÎÎÏ _f5E4;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82D70500
+        public void Equals(){} // RVA: 0x7FFE82D706D0
     }
 
     /// <summary>Originally: ÌÍÎÍÎÌÏÍÎÎÌÏÎÏÌÌÍÌÌÏÍÎÌ</summary>
@@ -764,28 +800,6 @@ namespace VRC.Player
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE80E2E2E0
     }
 
-    /// <summary>Originally: ÌÏÏÏÏÌÏÎÌÌÍÍÌÏÎÍÏÍÍÏÌÍÍ</summary>
-    public class PlayerMoveNext_49B1 : Object
-    {
-        public int _m_CachedPtr; // 0x10
-        public object _offsetOfInstanceIDInCPlusPlusObject; // 0x18
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE810FE0C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE812D3590
-        public void op_Implicit(){} // RVA: 0x7FFE812D35D0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE812D3880
-        public void GetCachedPtr(){} // RVA: 0x7FFE812D38C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
-        public void set_name(){} // RVA: 0x7FFE810FE7C0
-        public void Instantiate(){} // RVA: 0x7FFE812D3C00
-        public void get_Current(){} // RVA: 0x7FFE810FB310
-        public void MoveNext(){} // RVA: 0x7FFE812D3C40
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    }
-
     /// <summary>Originally: ÌÌÎÍÍÍÌÏÎÍÏÏÎÏÏÍÏÌÌÎÏÍÎ</summary>
     public class PlayerMoveNext_4A50 : Object
     {
@@ -1264,28 +1278,6 @@ namespace VRC.Player
         public void Equals(){} // RVA: 0x7FFE8262CDE0
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
         public void GetHashCode(){} // RVA: 0x7FFE8262CF40
-    }
-
-    /// <summary>Originally: ÍÌÌÍÍÌÏÏÏÏÏÍÌÏÌÍÎÌÏÍÌÍÍ</summary>
-    public class PlayerMoveNext_A50E : Object
-    {
-        public int _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE80E45FE0
-        public void .ctor(){} // RVA: 0x7FFE80E46530
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE80E2E2E0
-        public void op_Implicit(){} // RVA: 0x7FFE80E2F150
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE80E45FE0
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE80E2E2E0
-        public void GetCachedPtr(){} // RVA: 0x7FFE80E45FE0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE80E2E2E0
-        public void set_name(){} // RVA: 0x7FFE80E2F150
-        public void Instantiate(){} // RVA: 0x7FFE80E2F150
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE80E45FE0
-        public void MoveNext(){} // RVA: 0x7FFE80E2F150
-        public void get_Current(){} // RVA: 0x7FFE80E45FE0
     }
 
     /// <summary>Originally: ÌÍÌÎÎÏÏÎÍÌÎÍÏÍÍÎÍÌÏÌÏÏÍ</summary>
@@ -2078,11 +2070,11 @@ namespace VRC.Player
         public void set_FullResolutionTexture(){} // RVA: 0x7FFE81129130
         public void get_IsAnimated(){} // RVA: 0x7FFE829BF150
         public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7FFE811E99D0
-        public void set_IsAnimated(){} // RVA: 0x7FFE829BF170
-        public void set_IsSpecialFX(){} // RVA: 0x7FFE81199380
+        public void set_IsSpecialFX(){} // RVA: 0x7FFE829BF170
+        public void set_IsAnimated(){} // RVA: 0x7FFE81199380
         public void get_IsSpecialFX(){} // RVA: 0x7FFE81CC8410
-        public void set_IsPremium(){} // RVA: 0x7FFE810FCE90
-        public void set_Sprite(){} // RVA: 0x7FFE829BF230
+        public void set_Sprite(){} // RVA: 0x7FFE810FCE90
+        public void set_IsPremium(){} // RVA: 0x7FFE829BF230
         public void get_FullResolutionTexture_26438B58A324(){} // RVA: 0x7FFE811C35A0
         public void get_Sprite(){} // RVA: 0x7FFE813240E0
         public void get_IsPremium(){} // RVA: 0x7FFE829BF250
@@ -2106,7 +2098,7 @@ namespace VRC.Player
         public void get_LoadFrom(){} // RVA: 0x7FFE829BF7A0
         public void get_AnimationStyle(){} // RVA: 0x7FFE8170F950
         public void set_DisplayTexture(){} // RVA: 0x7FFE829BF7D0
-        public void set_EffectBundleID(){} // RVA: 0x7FFE81176D60
+        public void set_FileId(){} // RVA: 0x7FFE81176D60
         public void get_DisplayTexture(){} // RVA: 0x7FFE81176D50
         public void get_EffectBundleID(){} // RVA: 0x7FFE81728950
         public void get_FileId(){} // RVA: 0x7FFE81C3B5F0
@@ -2208,32 +2200,6 @@ namespace VRC.Player
         public void m_516(){} // RVA: 0x7FFE82411F30
         public void m_50E(){} // RVA: 0x7FFE824120C0
         public void m_89E(){} // RVA: 0x7FFE824122D0
-    }
-
-    /// <summary>Originally: ÍÌÌÍÎÍÎÏÎÎÌÏÌÍÍÌÏÌÏÍÌÎÌ</summary>
-    public class Playerk__BackingFieldComponentSibling_171E : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE81581920
-        public void Equals(){} // RVA: 0x7FFE81581F20
-        public void GetHashCode(){} // RVA: 0x7FFE81582370
-        public void op_Implicit(){} // RVA: 0x7FFE81582550
-        public void .ctor(){} // RVA: 0x7FFE815826F0
-        public void Initialize(){} // RVA: 0x7FFE81582940
-        public void GetCachedPtr(){} // RVA: 0x7FFE81582A40
-        public void get_name(){} // RVA: 0x7FFE81582C20
-        public void set_name(){} // RVA: 0x7FFE81582DF0
-        public void Instantiate(){} // RVA: 0x7FFE81583240
-        public void ToString(){} // RVA: 0x7FFE81583A70
-        public void FailFast(){} // RVA: 0x7FFE815841B0
-        public void .ctor_BB5C92452907(){} // RVA: 0x7FFE81584350
-        public void Initialize_0133EBB407DB(){} // RVA: 0x7FFE81584E10
-        public void ToString_956FE7FE4DBF(){} // RVA: 0x7FFE81585440
-        public void .cctor(){} // RVA: 0x7FFE81586560
-        public void GetBooleanFromDelegate(){} // RVA: 0x7FFE81587180
-        public void GetIntegerFromDelegate(){} // RVA: 0x7FFE81587350
-        // ── Unresolved (hash) ──
-        public void m_D33(){} // RVA: 0x7FFE815873D0
     }
 
     /// <summary>Originally: ÌÍÏÎÌÍÌÍÌÍÍÏÏÎÎÍÍÌÎÎÍÎÌ</summary>

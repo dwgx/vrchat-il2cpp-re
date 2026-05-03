@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Animation
-// Classes: 6
-// Methods: 112
+// Classes: 11
+// Methods: 156
 
 namespace VRC.Animation
 {
@@ -23,9 +23,9 @@ namespace VRC.Animation
         public object field_12; // 0xA03
 
         // ── Methods ──
-        public void set_IsAnimated(){} // RVA: 0x7FFE817590E0
-        public void set_DisplayTexture(){} // RVA: 0x7FFE810FCE90
+        public void set_DisplayTexture(){} // RVA: 0x7FFE817590E0
         public void set_LinearLoop(){} // RVA: 0x7FFE810FCE90
+        public void set_IsAnimated(){} // RVA: 0x7FFE810FCE90
         public void get_DisplayTexture(){} // RVA: 0x7FFE811290C0
         public void get_IsAnimated(){} // RVA: 0x7FFE81C3B5D0
         public void get_LinearLoop(){} // RVA: 0x7FFE82923250
@@ -38,11 +38,11 @@ namespace VRC.Animation
         public void get_Frames(){} // RVA: 0x7FFE81D32810
         public void get_IsBuiltIn(){} // RVA: 0x7FFE810FB320
         public void set_IsBuiltIn(){} // RVA: 0x7FFE829236B0
-        public void set_FullResolutionTexture(){} // RVA: 0x7FFE811E0850
-        public void set_FileId(){} // RVA: 0x7FFE82923B10
+        public void set_FileId(){} // RVA: 0x7FFE811E0850
+        public void set_IsSpecialFX(){} // RVA: 0x7FFE82923B10
         public void get_FileId(){} // RVA: 0x7FFE81C3B5F0
         public void get_FullResolutionTexture(){} // RVA: 0x7FFE81129130
-        public void set_IsSpecialFX(){} // RVA: 0x7FFE81D2ECA0
+        public void set_FullResolutionTexture(){} // RVA: 0x7FFE81D2ECA0
         public void get_IsSpecialFX(){} // RVA: 0x7FFE82923BC0
         public void set_EffectBundleID(){} // RVA: 0x7FFE82923C00
         public void get_EffectBundleID(){} // RVA: 0x7FFE8170CA80
@@ -73,6 +73,41 @@ namespace VRC.Animation
         public void set_Value(){} // RVA: 0x7FFE828B2AD0
     }
 
+    /// <summary>Originally: ÌÌÌÎÎÌÎÍÏÏÎÏÏÌÏÏÏÎÍÌÏÍÌ</summary>
+    public class AnimationCurve : Object
+    {
+        public System.Collections.Generic.ISet`1<ÏÍÌÍÌÌÎÌÌÌÎÌÌÍÍÌÎÎÌÏÍÌÎ> _m_CachedPtr; // 0x10
+        public System.Collections.Generic.ISet`1<ÏÍÏÎÎÌÍÌÌÌÏÍÏÎÎÍÎÍÌÏÎÌÎ> _offsetOfInstanceIDInCPlusPlusObject; // 0x18
+        public System.Collections.Generic.ISet`1<ÏÍÌÏÍÌÏÍÎÎÏÎÎÌÏÌÌÎÎÍÍÏÏ> f_CCC; // 0x20
+        public System.Collections.Generic.ISet`1<ÍÍÌÏÏÌÌÎÏÌÎÎÌÎÍÎÎÏÎÌÍÎÍ> f_966; // 0x28
+        public System.Collections.Generic.ISet`1<ÍÌÏÏÍÍÍÏÏÌÍÏÎÏÏÎÌÍÎÎÍÌÍ> f_D30; // 0x30
+        public System.Collections.Generic.ISet`1<ÎÌÍÌÎÌÏÍÎÏÌÍÎÍÏÍÏÏÍÎÏÌÍ> f_903; // 0x38
+        public System.Collections.Generic.ISet`1<ÍÌÌÍÌÏÍÌÏÌÌÌÎÌÏÎÏÌÏÌÍÍÌ> f_628; // 0x40
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE810FE7C0
+        public void Equals(){} // RVA: 0x7FFE81123200
+        public void GetHashCode(){} // RVA: 0x7FFE811290C0
+        public void .ctor(){} // RVA: 0x7FFE82AF4520
+        public void Initialize(){} // RVA: 0x7FFE81123200
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE81178740
+        public void GetCachedPtr(){} // RVA: 0x7FFE81116380
+        public void get_name(){} // RVA: 0x7FFE81437330
+        public void set_name(){} // RVA: 0x7FFE81129890
+        public void Instantiate(){} // RVA: 0x7FFE81161E80
+        public void ToString(){} // RVA: 0x7FFE8143BA80
+        public void Instantiate_36BC72B80E64(){} // RVA: 0x7FFE8143BA80
+        public void ToString_D5A4E94E45A9(){} // RVA: 0x7FFE810FCE30
+        public void StopAllCoroutines(){} // RVA: 0x7FFE810FCE90
+        public void set_KeysOrderedInEachPartition(){} // RVA: 0x7FFE81161E80
+        public void set_useGUILayout(){} // RVA: 0x7FFE811290C0
+        public void print(){} // RVA: 0x7FFE810FCE90
+        public void Destroy(){} // RVA: 0x7FFE811290D0
+        // ── Unresolved (hash) ──
+        public void m_01A(){} // RVA: 0x7FFE81129130
+        public void m_EB7(){} // RVA: 0x7FFE8144E200
+    }
+
     /// <summary>Originally: ÌÎÏÏÌÍÍÏÌÍÍÏÍÏÍÏÎÍÌÏÍÎÎ</summary>
     public class AnimationDisplayNamePrefabName_A751
     {
@@ -80,6 +115,41 @@ namespace VRC.Animation
         public void get_Key(){} // RVA: 0x7FFE80E2E2E0
         public void get_DisplayName(){} // RVA: 0x7FFE80E2DCF0
         public void get_PrefabName(){} // RVA: 0x7FFE80E2E2E0
+    }
+
+    /// <summary>Originally: ÎÏÎÍÍÏÏÍÏÎÎÌÏÏÍÏÎÍÎÍÍÌÏ</summary>
+    public class BlendShape : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE812E3B80
+        public void Equals(){} // RVA: 0x7FFE812E3CA0
+        public void GetHashCode(){} // RVA: 0x7FFE812E3CA0
+        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFE812E3CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFE812E3DC0
+        public void GetCachedPtr(){} // RVA: 0x7FFE812E3CA0
+    }
+
+    /// <summary>Originally: ÎÏÌÍÎÎÍÍÎÏÎÏÍÎÌÎÏÏÏÎÎÏÎ</summary>
+    public class EVRSkeletalMotionRange : ValueType
+    {
+    }
+
+    /// <summary>Originally: ÏÍÎÌÌÍÍÍÎÏÌÍÏÎÍÍÎÎÏÎÎÏÌ</summary>
+    public class MotionVectorGenerationMode : ValueType
+    {
+        public uint f_D80; // 0x10
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE826F4220
+        public void InternalEquals(){} // RVA: 0x7FFE815BF990
+        public void DefaultEquals(){} // RVA: 0x7FFE826F4220
+        public void GetHashCode(){} // RVA: 0x7FFE815BF990
+        public void InternalGetHashCode(){} // RVA: 0x7FFE826F4220
+        public void ToString(){} // RVA: 0x7FFE826F4220
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE815BF990
+        // ── Unresolved (hash) ──
+        public void m_8D7(){} // RVA: 0x7FFE826F4220
     }
 
     /// <summary>Originally: ÌÎÎÏÌÎÏÎÏÍÌÍÎÏÏÏÎÎÏÎÍÏÌ</summary>
@@ -111,6 +181,22 @@ namespace VRC.Animation
         public void ToString(){} // RVA: 0x7FFE81E97670
         // ── Unresolved (hash) ──
         public void m_5B0(){} // RVA: 0x7FFE81E97670
+    }
+
+    /// <summary>Originally: ÌÍÎÍÍÎÌÍÏÌÌÌÎÍÎÍÎÍÏÍÌÍÍ</summary>
+    public class ReflectionProbeBlendInfo : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFE82D9F540
+        public void InternalEquals(){} // RVA: 0x7FFE82D9F660
+        public void DefaultEquals(){} // RVA: 0x7FFE82D9F6B0
+        public void GetHashCode(){} // RVA: 0x7FFE82D9F700
+        public void InternalGetHashCode(){} // RVA: 0x7FFE82D9F750
+        public void ToString(){} // RVA: 0x7FFE82D9F870
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE82D9F990
+        public void Dispose(){} // RVA: 0x7FFE82D9FA30
+        // ── Unresolved (hash) ──
+        public void m_1FF(){} // RVA: 0x7FFE82D9F9E0
     }
 
     /// <summary>Originally: ÍÌÍÎÍÌÏÌÎÎÌÌÎÌÌÌÌÍÍÌÏÎÌ</summary>

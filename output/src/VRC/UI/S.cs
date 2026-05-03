@@ -1,10 +1,23 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 2
-// Methods: 50
+// Classes: 4
+// Methods: 53
 
 namespace VRC.UI
 {
+    /// <summary>Originally: ÎÍÏÌÏÌÌÏÌÏÍÌÏÌÍÍÌÎÎÍÍÎÍ</summary>
+    public class Screen : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7FFE82B02300
+        public void GetHashCode(){} // RVA: 0x7FFE82B02540 | overloaded x2
+    }
+
+    /// <summary>Originally: ÏÏÌÌÎÍÎÍÍÍÏÍÏÎÍÏÍÏÎÎÌÏÌ</summary>
+    public class ScreenOrientation : ValueType
+    {
+    }
+
     /// <summary>Originally: ÍÎÍÏÎÏÎÍÏÌÎÍÏÌÌÍÌÎÎÍÍÏÍ</summary>
     public class ScrollRectDerived_B312 : ScrollRect
     {

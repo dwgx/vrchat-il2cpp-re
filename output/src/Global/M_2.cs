@@ -1,7 +1,13 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 21
-// Methods: 52
+// Classes: 22
+// Methods: 53
+
+public class MathfInternal : Attribute
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFE810FCE30
+}
 
 public class MulOvfInt32 : MulOvfInstruction
 {
