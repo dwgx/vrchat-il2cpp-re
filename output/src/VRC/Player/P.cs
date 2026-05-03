@@ -2081,8 +2081,8 @@ namespace VRC.Player
         public void set_IsAnimated(){} // RVA: 0x7FFE829BF170
         public void set_IsSpecialFX(){} // RVA: 0x7FFE81199380
         public void get_IsSpecialFX(){} // RVA: 0x7FFE81CC8410
-        public void set_Sprite(){} // RVA: 0x7FFE810FCE90
-        public void set_IsPremium(){} // RVA: 0x7FFE829BF230
+        public void set_IsPremium(){} // RVA: 0x7FFE810FCE90
+        public void set_Sprite(){} // RVA: 0x7FFE829BF230
         public void get_FullResolutionTexture_26438B58A324(){} // RVA: 0x7FFE811C35A0
         public void get_Sprite(){} // RVA: 0x7FFE813240E0
         public void get_IsPremium(){} // RVA: 0x7FFE829BF250
@@ -2106,7 +2106,7 @@ namespace VRC.Player
         public void get_LoadFrom(){} // RVA: 0x7FFE829BF7A0
         public void get_AnimationStyle(){} // RVA: 0x7FFE8170F950
         public void set_DisplayTexture(){} // RVA: 0x7FFE829BF7D0
-        public void set_FileId(){} // RVA: 0x7FFE81176D60
+        public void set_EffectBundleID(){} // RVA: 0x7FFE81176D60
         public void get_DisplayTexture(){} // RVA: 0x7FFE81176D50
         public void get_EffectBundleID(){} // RVA: 0x7FFE81728950
         public void get_FileId(){} // RVA: 0x7FFE81C3B5F0

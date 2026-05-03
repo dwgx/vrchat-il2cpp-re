@@ -113,15 +113,19 @@ namespace VRC.Avatar
         public bool f_EA5; // 0x6C
 
         // ── Methods ──
+        public void PlatformGetAntiCheatClientInterface(){} // RVA: 0x7FFE8274CF90
+        public void PlatformGetAntiCheatClientInterface_3ABE90BF749F(){} // RVA: 0x7FFE8274D0A0
+        public void PlatformGetAntiCheatClientInterface_379C05DE5367(){} // RVA: 0x7FFE8274D100
         public void .ctor(){} // RVA: 0x7FFE8274D410
         public void Initialize(){} // RVA: 0x7FFE8274D4B0
-        // ── 27 unresolved (hash) ──
+        public void ConnectGetLoginStatus(){} // RVA: 0x7FFE8274D850
+        // ── 23 unresolved (hash) ──
         public void m_2FC(){} // RVA: 0x7FFE8274B8C0
         public void m_5C7(){} // RVA: 0x7FFE8274B8F0
         public void m_9BB(){} // RVA: 0x7FFE8274BF10
         public void m_34A(){} // RVA: 0x7FFE8274BF70
         public void m_EF8(){} // RVA: 0x7FFE8274BFD0
-        // ... 22 more unresolved methods
+        // ... 18 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÌÏÌÏÍÎÌÍÎÎÎÌÌÏÎÌÌÎÌÏÍ</summary>

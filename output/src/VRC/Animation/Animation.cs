@@ -24,8 +24,8 @@ namespace VRC.Animation
 
         // ── Methods ──
         public void set_IsAnimated(){} // RVA: 0x7FFE817590E0
-        public void set_LinearLoop(){} // RVA: 0x7FFE810FCE90
         public void set_DisplayTexture(){} // RVA: 0x7FFE810FCE90
+        public void set_LinearLoop(){} // RVA: 0x7FFE810FCE90
         public void get_DisplayTexture(){} // RVA: 0x7FFE811290C0
         public void get_IsAnimated(){} // RVA: 0x7FFE81C3B5D0
         public void get_LinearLoop(){} // RVA: 0x7FFE82923250
@@ -38,8 +38,8 @@ namespace VRC.Animation
         public void get_Frames(){} // RVA: 0x7FFE81D32810
         public void get_IsBuiltIn(){} // RVA: 0x7FFE810FB320
         public void set_IsBuiltIn(){} // RVA: 0x7FFE829236B0
-        public void set_FileId(){} // RVA: 0x7FFE811E0850
-        public void set_FullResolutionTexture(){} // RVA: 0x7FFE82923B10
+        public void set_FullResolutionTexture(){} // RVA: 0x7FFE811E0850
+        public void set_FileId(){} // RVA: 0x7FFE82923B10
         public void get_FileId(){} // RVA: 0x7FFE81C3B5F0
         public void get_FullResolutionTexture(){} // RVA: 0x7FFE81129130
         public void set_IsSpecialFX(){} // RVA: 0x7FFE81D2ECA0

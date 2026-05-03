@@ -1001,15 +1001,19 @@ namespace VRC.Core.System
         public object field_25;
 
         // ── Methods ──
+        public void ClientConnect(){} // RVA: 0x7FFE81CB9390
+        public void ClientConnect_713BA2FBFAC1(){} // RVA: 0x7FFE81CB9460
+        public void ClientConnect_4EFCAC5853D3(){} // RVA: 0x7FFE81CB94C0
+        public void ClientInit(){} // RVA: 0x7FFE81CB9F70
         public void .ctor(){} // RVA: 0x7FFE81CBAEF0
         public void Initialize(){} // RVA: 0x7FFE81CBB450
-        // ── 64 unresolved (hash) ──
+        // ── 60 unresolved (hash) ──
         public void m_8BD(){} // RVA: 0x7FFE81CB9020
         public void m_DAD(){} // RVA: 0x7FFE81CB90D0
         public void m_5FC(){} // RVA: 0x7FFE81CB9320
-        public void m_4D3(){} // RVA: 0x7FFE81CB9390
-        public void m_713(){} // RVA: 0x7FFE81CB9460
-        // ... 59 more unresolved methods
+        public void m_199(){} // RVA: 0x7FFE81CB9590
+        public void m_883(){} // RVA: 0x7FFE81CB9820
+        // ... 55 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÌÍÎÎÍÎÎÏÌÏÎÎÎÏÏÍÏÍÍÌÎ</summary>
